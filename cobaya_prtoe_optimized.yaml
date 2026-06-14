@@ -99,17 +99,38 @@ params:
     latex: A_\mathrm{planck}
 
   # --- Custom PRTOE Model Parameters ---
-  # Widen the coupling prior to allow real modified gravity effects
-  prtoe_xi:
+  # Fixed via potential geometry
+  lambda_prtoe:
+    value: 0.05
+  m_prtoe:
+    value: 0.05
+
+  # Flat prior centered on empirical LVK peak 0.048
+  delta_prtoe:
     prior:
-      min: 0.0
-      max: 0.001
-    ref: 0.0001
-    proposal: 0.00005
+      min: 0.02
+      max: 0.08
+    ref:
+      dist: norm
+      loc: 0.048
+      scale: 0.01
+    proposal: 0.01
+    latex: \Delta
+
+  # Strict DHOST Stability Wedge boundary
+  xi_prtoe:
+    prior:
+      min: 1.0e-7
+      max: 1.2e-5
+    ref:
+      dist: norm
+      loc: 5.0e-6
+      scale: 1.0e-6
+    proposal: 1.0e-6
     latex: \xi
 
   # Log-uniform kinetic coupling using change of variables
-  log_prtoe_beta:
+  log_beta_prtoe:
     prior:
       min: -8.0
       max: -4.0
@@ -117,26 +138,32 @@ params:
     proposal: 0.1
     latex: \log_{10}(\beta_\mathrm{prtoe})
     drop: true
-  prtoe_beta:
-    value: 'lambda log_prtoe_beta: 10**log_prtoe_beta'
+  beta_prtoe:
+    value: 'lambda log_beta_prtoe: 10**log_beta_prtoe'
     latex: \beta_\mathrm{prtoe}
 
-  prtoe_lambda:
+  # Dynamically absorb remaining density to ensure a flat universe (H(a=1) == H0)
+  V0_prtoe:
+    value: 'lambda omega_b, omega_cdm, H0: 1.0 - (omega_b + omega_cdm) / (H0/100.0)**2'
+    latex: V_{0,\mathrm{prtoe}}
+
+  # Dynamically sampled screening softening parameter
+  zeta_prtoe:
     prior:
-      min: 0.0
+      min: 0.001
       max: 1.0
-    ref: 0.10
-    proposal: 0.01
-    latex: \lambda_\mathrm{prtoe}
-    
-  prtoe_mass:
-    value: 0.05
-    latex: m
-    
-  # Fix v0 to remove its parameter volume penalty
-  prtoe_v0:
-    value: 0.685
-    latex: v_{0,\mathrm{prtoe}}
+    ref: 0.1
+    proposal: 0.05
+    latex: \zeta_\mathrm{prtoe}
+
+  # --- Derived parameters to track in the chains ---
+  sigma8:
+    latex: \sigma_8
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
 
 # 4. Sampler Configuration (Optimized PolyChord settings)
 sampler:
