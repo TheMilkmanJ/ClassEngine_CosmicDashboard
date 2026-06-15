@@ -23,11 +23,11 @@ likelihood:
 # 2. Theory Provider (Custom CLASS Wrapper)
 theory:
   classy:
-    path: /mnt/c/Users/themi/projects/prtoe_class
+    path: 
     stop_at_error: False
     extra_args:
       use_prtoe: 'yes'
-      base_path: /mnt/c/Users/themi/projects/prtoe_class
+      base_path: 
 
 # 3. Parameter Dictionary (Priors and Constraints)
 params:
