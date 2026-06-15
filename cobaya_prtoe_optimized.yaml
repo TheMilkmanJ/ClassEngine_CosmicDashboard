@@ -23,11 +23,11 @@ likelihood:
 # 2. Theory Provider (Custom CLASS Wrapper with Fast-Precision Settings)
 theory:
   classy:
-    path: /mnt/c/Users/themi/projects/prtoe_class
+    path: 
     stop_at_error: False
     extra_args:
       use_prtoe: 'yes'
-      base_path: /mnt/c/Users/themi/projects/prtoe_class
+      base_path: 
       gauge: newtonian
       # CLASS Fast-Precision Parameters (from cl_permille.pre)
       hyper_flat_approximation_nu: 7000.
