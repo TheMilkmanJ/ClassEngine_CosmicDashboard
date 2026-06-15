@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CosmoDashboard - CLASS & Cobaya Controller</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <span class="pulse-ring"></span>
+                <h1>Cosmo<span>Dashboard</span></h1>
+            </div>
+            <div class="system-status">
+                <span class="status-dot status-idle" id="status-dot"></span>
+                <span class="status-text" id="status-text">SYSTEM IDLE</span>
+            </div>
+        </header>
+
+        <!-- Main Dashboard Grid -->
+        <main class="dashboard-grid">
+            <!-- Left Panel: Configuration & Uploads -->
+            <section class="panel glassmorphic scrollable" id="config-panel">
+                <h2><span class="icon">&#x2699;</span> Configuration & Uploads</h2>
+                
+                <!-- YAML Upload -->
+                <div class="control-group">
+                    <label>Upload Model Configuration (.yaml)</label>
+                    <div class="file-upload-zone" id="yaml-upload-zone">
+                        <span class="upload-icon">&#x2191;</span>
+                        <p>Drag & drop or <span class="browse">browse</span></p>
+                        <span class="file-name-display" id="yaml-name">No file selected</span>
+                        <input type="file" id="yaml-input" accept=".yaml,.yml" style="display: none;">
+                    </div>
+                </div>
+
+                <!-- Code Upload -->
+                <div class="control-group">
+                    <label>Upload Custom Source Code (.c / .py)</label>
+                    <div class="file-upload-zone" id="code-upload-zone">
+                        <span class="upload-icon">&#x2261;</span>
+                        <p>Drag & drop or <span class="browse">browse</span></p>
+                        <span class="file-name-display" id="code-name">No file selected</span>
+                        <input type="file" id="code-input" accept=".c,.py" style="display: none;">
+                    </div>
+                    <button class="btn btn-secondary" id="btn-rebuild" disabled>Upload & Rebuild CLASS</button>
+                </div>
+
+                <!-- Dataset Select -->
+                <div class="control-group">
+                    <label>Baseline Dataset Combination</label>
+                    <select class="custom-select" id="dataset-select">
+                        <option value="planck_bao_pantheon">Planck 2018 + BAO + PantheonPlus (Combined)</option>
+                    </select>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="actions">
+                    <button class="btn btn-primary btn-glow" id="btn-start">Start Model Sampler</button>
+                    <button class="btn btn-danger" id="btn-stop" disabled>Abort Active Run</button>
+                </div>
+            </section>
+
+            <!-- Center Panel: Real-Time Sampler Monitor -->
+            <section class="panel glassmorphic" id="monitor-panel">
+                <h2><span class="icon">&#x23f2;</span> Real-Time Monitor</h2>
+                
+                <div class="monitor-stats">
+                    <div class="stat-card">
+                        <span class="stat-label">Dead Points (Iterations)</span>
+                        <span class="stat-value" id="stat-dead">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Estimated log(Z)</span>
+                        <span class="stat-value highlight-cyan" id="stat-evidence">-</span>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-header">
+                        <span>Sampling Convergence</span>
+                        <span id="progress-percent">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="console-log">
+                    <div class="console-header">
+                        <span>Terminal Output</span>
+                        <span class="blink-cursor">_</span>
+                    </div>
+                    <div class="console-body" id="console-body">
+                        Waiting for run execution...
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Panel: Bayesian Evidence Comparison -->
+            <section class="panel glassmorphic" id="results-panel">
+                <h2><span class="icon">&#x22f1;</span> Model Evidence Comparison</h2>
+                
+                <div class="evidence-math">
+                    <div class="math-row">
+                        <span class="math-label">Baseline log(Z<sub>baseline</sub>):</span>
+                        <span class="math-val" id="val-baseline">-1683.2451</span>
+                    </div>
+                    <div class="math-row">
+                        <span class="math-label">Custom Model log(Z<sub>custom</sub>):</span>
+                        <span class="math-val highlight-cyan" id="val-custom">-</span>
+                    </div>
+                    <div class="math-divider"></div>
+                    <div class="math-row result-row">
+                        <span class="math-label">&Delta; log(Z):</span>
+                        <span class="math-val highlight-neon" id="val-delta">-</span>
+                    </div>
+                </div>
+
+                <!-- Jeffreys Scale Card -->
+                <div class="jeffreys-card" id="jeffreys-card">
+                    <div class="jeffreys-title">Evidence Strength</div>
+                    <div class="jeffreys-value" id="jeffreys-text">No Run Completed</div>
+                    <p class="jeffreys-description" id="jeffreys-desc">
+                        Run the sampler to compare the custom model's evidence with the baseline $\Lambda$CDM.
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -14,3 +14,21 @@ RealSpaceInterface/cache/
 .DS_Store
 doc/manual/html
 doc/manual/latex
+
+# Cython & Python build files
+*.so
+*.egg-info/
+python/*.so
+python/*.egg-info/
+
+# Temporary test variables
+delta_rho
+has_scf
+index_bg_
+run.log
+
+# PolyChord & Cobaya runs
+*_poly*
+chains/*_poly*
+chains/*.log
+chains/*.locked

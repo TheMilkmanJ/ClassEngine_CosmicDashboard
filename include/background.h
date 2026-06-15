@@ -119,14 +119,15 @@ struct background
   double phi_prime_ini_scf;/**< \f$ d\phi(t_0)/d\tau \f$: scalar field initial derivative wrt conformal time */
   int scf_parameters_size; /**< size of scf_parameters */
   double varconst_alpha; /**< finestructure constant for varying fundamental constants */
-  double xi_prtoe;      /**< Non-minimal coupling parameter xi */
-  double lambda_prtoe;  /**< Potential parameter lambda */
-  double beta_prtoe;    /**< Interaction coupling beta */
-  double V0_prtoe;      /**< Potential scaling V0 */
+  double xi_prtoe;      /**< Non-minimal coupling xi; stability wedge: [1e-7, 1.2e-5] */
+  double lambda_prtoe;  /**< Exponential potential slope lambda */
+  double beta_prtoe;    /**< Ricci-coupling beta; sampled as log10(beta) in [-8,-4] */
+  double delta_prtoe;   /**< Gradient-density interaction delta; screened as delta/(1+phi^2) */
+  double V0_prtoe;      /**< Potential amplitude V0; fixed to 0.685 from action */
   double zeta_prtoe;    /**< Vainshtein screening parameter zeta */
   double M_prtoe;       /**< High-energy screening scale M */
-  double alpha_prtoe;   /**< Interaction coupling alpha */
-  double M_ew_prtoe;    /**< Electroweak scale M_EW */
+  double alpha_prtoe;   /**< Interaction coupling alpha; screened as alpha^2/(1+phi^2) */
+  double M_ew_prtoe;    /**< Electroweak scale M_EW (default 100 GeV in natural units) */
   double H_vac_floor;   /**< Baseline vacuum expansion floor in km/s/Mpc */
   double g_b_prtoe;     /**< Baryonic field coupling multiplier */
   double sigma_prtoe;   /**< PRTOE Displacement coupling sigma */
@@ -136,7 +137,7 @@ struct background
   double g_c_prtoe;     /**< Dark Matter field coupling multiplier */
   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */
 
-  // New PRTOE parameters
+  /* New PRTOE canonical parameters — screened triplet (alpha,beta,delta)/(1+phi^2) */
   double prtoe_xi;
   double prtoe_beta;
   double prtoe_lambda;

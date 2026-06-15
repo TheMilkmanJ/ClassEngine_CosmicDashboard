@@ -490,20 +490,35 @@ int background_functions(
     pvecback[pba->index_bg_phi_scf] = phi;
     pvecback[pba->index_bg_phi_prime_scf] = phi_prime;
 
-    double activation = 1.0 / (1.0 + exp(-(a - 0.05) / 0.005)) - 0.000335;
-    if (activation < 0.0) activation = 0.0;
-    double m_eff_square = pba->m_prtoe * pba->m_prtoe * (1.0 - activation + activation * (pba->Omega0_b / (a * a * a)));
+    double m2 = pba->m_prtoe * pba->m_prtoe;
     double exp_term = exp(-pba->lambda_prtoe * phi);
-    double V_phi = pba->V0_prtoe * exp_term + 0.5 * m_eff_square * phi * phi;
-    double dV_dphi = -pba->lambda_prtoe * pba->V0_prtoe * exp_term + m_eff_square * phi;
-    double ddV_dphi2 = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + m_eff_square;
+    double V_phi = pba->V0_prtoe * exp_term + 0.5 * m2 * phi * phi;
+    double dV_dphi = -pba->lambda_prtoe * pba->V0_prtoe * exp_term + m2 * phi;
+    double ddV_dphi2 = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + m2;
 
     pvecback[pba->index_bg_V_scf] = V_phi;
     pvecback[pba->index_bg_dV_scf] = dV_dphi;
     pvecback[pba->index_bg_ddV_scf] = ddV_dphi2;
 
-    double rho_prtoe = (0.5 * phi_prime * phi_prime / a / a) + V_phi;
-    double p_prtoe = (0.5 * phi_prime * phi_prime / a / a) - V_phi;
+    /* Smooth Scale-Factor Gate: smoothly activate the field from pure vacuum energy
+       Centered at a=1e-4, width 1.0 decades */
+    double activation = 0.5 * (1.0 + tanh((log(a) - log(1e-4)) / 1.0));
+    double dot_phi = phi_prime / a;
+    
+    double screening_factor = 1.0 / (1.0 + pba->zeta_prtoe * phi * phi);
+    double xi_eff = pba->xi_prtoe * screening_factor * activation;
+    double alpha_eff = pba->alpha_prtoe * screening_factor * activation;
+    double beta_eff = pba->beta_prtoe * screening_factor * activation;
+
+    double H_guess = sqrt(MAX(0., (rho_tot_before_scf + (activation * (0.5 * dot_phi * dot_phi) + V_phi) / 3.0 - pba->K / a / a) / (1.0 + xi_eff * phi)));
+    double rho_m_dot_over_rho_m = -3.0 * H_guess;
+    
+    double extra_rho = - 3.0 * xi_eff * H_guess * dot_phi 
+                     + 3.0 * beta_eff * phi * dot_phi * dot_phi * H_guess * H_guess
+                     + (alpha_eff * alpha_eff * dot_phi * rho_m_dot_over_rho_m) / (pba->M_ew_prtoe * pba->M_ew_prtoe);
+
+    double rho_prtoe = activation * (0.5 * dot_phi * dot_phi) + V_phi + extra_rho;
+    double p_prtoe   = activation * (0.5 * dot_phi * dot_phi) - V_phi;
 
     double rho_phi_fluid = rho_prtoe / 3.0;
     double p_phi_fluid = p_prtoe / 3.0;
@@ -517,8 +532,6 @@ int background_functions(
 
     rho_tot += rho_phi_fluid;
     p_tot   += p_phi_fluid;
-    rho_r   += 3.0 * p_phi_fluid;
-    rho_m   += rho_phi_fluid - 3.0 * p_phi_fluid;
 
     /* Effective Friedmann Equation will be computed at the end of the function */
 
@@ -617,13 +630,16 @@ int background_functions(
   double H_sq_eff = (rho_tot - pba->K / a / a);
   if (pba->use_prtoe == _TRUE_) {
     double prtoe_phi = pvecback[pba->index_bg_phi_prtoe];
-    double screening = 1.0 / (1.0 + prtoe_phi * prtoe_phi);
-    pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff / (1.0 + pba->prtoe_xi * screening * prtoe_phi)));
+    double screening = 1.0 / (1.0 + pba->zeta_prtoe * prtoe_phi * prtoe_phi);
+    double activation = 0.5 * (1.0 + tanh((log(a) - log(1e-4)) / 1.0));
+    double xi_eff = pba->prtoe_xi * screening * activation;
+    pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff / (1.0 + xi_eff * prtoe_phi)));
   } else {
     if (pba->has_scf == _TRUE_) {
       H_sq_eff /= (1.0 + pba->prtoe_xi * pvecback[pba->index_bg_phi_scf]);
     }
     pvecback[pba->index_bg_H] = sqrt(H_sq_eff);
+    pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff));
   }
 
   /** - compute derivative of H with respect to conformal time */
@@ -1990,9 +2006,10 @@ int background_solve(
   class_alloc(pvecback_integration,pba->bi_size*sizeof(double),pba->error_message);
 
   /** - impose initial conditions with background_initial_conditions() */
-  class_call(background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini)),
-             pba->error_message,
-             pba->error_message);
+  class_call_except(background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini)),
+                    pba->error_message,
+                    pba->error_message,
+                    free(pvecback);free(pvecback_integration));
 
   /** - Determine output vector */
   loga_final = 0.; // with our conventions, loga is in fact log(a/a_0); we integrate until today, when log(a/a_0) = 0
@@ -2036,24 +2053,25 @@ int background_solve(
   }
 
   /** - perform the integration */
-  class_call(generic_evolver(background_derivs,
-                             loga_ini,
-                             loga_final,
-                             pvecback_integration,
-                             used_in_output,
-                             pba->bi_size,
-                             &bpaw,
-                             ppr->tol_background_integration,
-                             ppr->smallest_allowed_variation,
-                             background_timescale, //'evaluate_timescale', required by evolver_rk but not by ndf15
-                             ppr->background_integration_stepsize,
-                             pba->loga_table,
-                             pba->bt_size,
-                             background_sources,
-                             NULL, //'print_variables' in evolver_rk could be set, but, not required
-                             pba->error_message),
-             pba->error_message,
-             pba->error_message);
+  class_call_except(generic_evolver(background_derivs,
+                                    loga_ini,
+                                    loga_final,
+                                    pvecback_integration,
+                                    used_in_output,
+                                    pba->bi_size,
+                                    &bpaw,
+                                    ppr->tol_background_integration,
+                                    ppr->smallest_allowed_variation,
+                                    background_timescale, //'evaluate_timescale', required by evolver_rk but not by ndf15
+                                    ppr->background_integration_stepsize,
+                                    pba->loga_table,
+                                    pba->bt_size,
+                                    background_sources,
+                                    NULL, //'print_variables' in evolver_rk could be set, but, not required
+                                    pba->error_message),
+                    pba->error_message,
+                    pba->error_message,
+                    background_free_noinput(pba);free(pvecback);free(pvecback_integration);free(used_in_output));
 
   /** - recover some quantities today */
   /* -> age in Gyears */
@@ -2127,11 +2145,13 @@ int background_solve(
        instantaneously-decoupled neutrinos accounting for the
        radiation density, beyond photons */
 
+/*
   printf("DEBUG: Neff calculation values:\n");
   printf("index_bg_Omega_r = %d, value = %e\n", pba->index_bg_Omega_r, pba->background_table[pba->index_bg_Omega_r]);
   printf("index_bg_rho_crit = %d, value = %e\n", pba->index_bg_rho_crit, pba->background_table[pba->index_bg_rho_crit]);
   printf("index_bg_rho_g = %d, value = %e\n", pba->index_bg_rho_g, pba->background_table[pba->index_bg_rho_g]);
   printf("DEBUG: has_ur = %d, Omega0_ur = %e\n", pba->has_ur, pba->Omega0_ur);
+*/
 
   pba->Neff = (pba->background_table[pba->index_bg_Omega_r]
                *pba->background_table[pba->index_bg_rho_crit]
@@ -2376,8 +2396,8 @@ int background_initial_conditions(
     }
     else if (pba->use_prtoe == _TRUE_) {
        pvecback_integration[index_phi] = pba->phi_0_prtoe;
-       /* Start field with kinetic energy matching potential (factor 3 for units) */
-       pvecback_integration[index_phi_prime] = 2.*a*sqrt(3.0 * V_scf(pba,pba->phi_0_prtoe))*pba->phi_prime_ini_scf;
+       /* Start field completely frozen in the early universe (Scale-Factor Gate compatibility) */
+       pvecback_integration[index_phi_prime] = 0.0;
     }
     else {
       printf("Not using attractor initial conditions\n");
@@ -2763,36 +2783,46 @@ int background_derivs(
 
   if (pba->use_prtoe == _TRUE_) {
     double a = exp(loga);
+    
+    /* Smooth Scale-Factor Gate: smoothly activate the field's EoM */
+    double activation = 0.5 * (1.0 + tanh((loga - log(1e-4)) / 1.0));
+    
     double a2 = a * a;
     double phi = y[pba->index_bi_phi_prtoe];
     double dphi = y[pba->index_bi_dphi_prtoe];
-
-    double screening_factor = 1.0 / (1.0 + phi * phi);
-    double xi_screened = pba->xi_prtoe * screening_factor;
-
-    double activation = 1.0 / (1.0 + exp(-(a - 0.05) / 0.005)) - 0.000335;
-    if (activation < 0.0) activation = 0.0;
-    double m_eff_square = pba->m_prtoe * pba->m_prtoe * (1.0 - activation + activation * (pba->Omega0_b / (a * a * a)));
-    double exp_term = exp(-pba->lambda_prtoe * phi);
-    double V_phi = pba->V0_prtoe * exp_term + 0.5 * m_eff_square * phi * phi;
-    double dV_dphi = -pba->lambda_prtoe * pba->V0_prtoe * exp_term + m_eff_square * phi;
-
-    double rho_prtoe = (0.5 * dphi * dphi / a2) + V_phi;
-    double p_prtoe = (0.5 * dphi * dphi / a2) - V_phi;
-
-    pvecback[pba->index_bg_rho_dark_energy] = rho_prtoe / 3.0;
-    pvecback[pba->index_bg_p_dark_energy] = p_prtoe / 3.0;
-
-    /* Store values in the prtoe background table variables too */
-    pvecback[pba->index_bg_rho_prtoe] = rho_prtoe / 3.0;
-    pvecback[pba->index_bg_p_prtoe] = p_prtoe / 3.0;
-
-    /* Ricci Scalar R = 6*(H' + 2*a*H^2 + K/a)/a in CLASS units */
+    
+    /* --- Unified screening function: 1/(1+phi^2) --- */
+    double screening_factor = 1.0 / (1.0 + pba->zeta_prtoe * phi * phi);
+    double xi_screened    = pba->xi_prtoe    * screening_factor * activation;
+    double alpha_screened = pba->alpha_prtoe * screening_factor * activation;
+    
+    /* --- Potential: V = V0*exp(-lambda*phi) + (1/2)*m^2*phi^2 --- */
+    double m2 = pba->m_prtoe * pba->m_prtoe;
+    double dV_dphi  = -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + m2 * phi;
+    
+    /* --- Matter density gradient in FLRW background: -3H --- */
+    double rho_m_dot_over_rho_m = -3.0 * H;
+    double M_ew2 = pba->M_ew_prtoe * pba->M_ew_prtoe;
+    double alpha2_over_Mew2 = alpha_screened * alpha_screened / M_ew2;
+    
+    double pvecback_rho_m = pvecback[pba->index_bg_rho_b];
+    if (pba->has_cdm == _TRUE_) {
+      pvecback_rho_m += pvecback[pba->index_bg_rho_cdm];
+    }
+    double alpha2_rho_grad = alpha2_over_Mew2 * pvecback_rho_m * rho_m_dot_over_rho_m;
+    
+    /* --- Ricci Scalar R --- */
     pba->R_curvature = 6.0 * (pvecback[pba->index_bg_H_prime] + 2.0 * a * H * H + pba->K / a) / a;
-
     double H_conf = H * a;
-    dy[pba->index_bi_phi_prtoe] = dphi / a / H;
-    dy[pba->index_bi_dphi_prtoe] = (- 2.0 * H_conf * dphi - a2 * dV_dphi + activation * (xi_screened / 2.0) * pba->R_curvature * a2) / a / H;
+    
+    /* --- Equations of motion derivatives --- */
+    dy[pba->index_bi_phi_prtoe]  = (dphi / a / MAX(H, 1e-20)) * activation;
+    dy[pba->index_bi_dphi_prtoe] = (
+      - 2.0 * H_conf * dphi
+      - a2 * dV_dphi
+      + (xi_screened / 2.0) * pba->R_curvature * a2
+      + alpha2_rho_grad * a2
+    ) / a / MAX(H, 1e-20) * activation;
   }
 }
 
@@ -3047,7 +3077,7 @@ double V_scf(struct background *pba, double phi) {
   }
   double V_exp = pba->prtoe_v0 * exp(-pba->prtoe_lambda * phi);
   double H_floor_internal = pba->H_vac_floor / 299792.458;
-  double screening = 1.0 / (1.0 + phi * phi);
+  double screening = 1.0 / (1.0 + pba->zeta_prtoe * phi * phi);
   return V_exp + 3.0 * pow(H_floor_internal, 2) * (1.0 + pba->prtoe_xi * screening * phi);
 }
 

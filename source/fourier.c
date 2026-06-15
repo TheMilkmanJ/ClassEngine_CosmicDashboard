@@ -1481,15 +1481,21 @@ int fourier_init(
 
   if (pfo->fourier_verbose>0) {
 
-    if (pfo->has_pk_m == _TRUE_)
+    if (pfo->has_pk_m == _TRUE_) {
       fprintf(stdout," -> sigma8=%g for total matter (computed till k = %g h/Mpc)\n",
               pfo->sigma8[pfo->index_pk_m],
               pfo->k[pfo->k_size-1]/pba->h);
+      fprintf(stdout," -> S8=%g for total matter\n",
+              pfo->sigma8[pfo->index_pk_m] * sqrt(pba->Omega0_m / 0.3));
+    }
 
-    if (pfo->has_pk_cb == _TRUE_)
+    if (pfo->has_pk_cb == _TRUE_) {
       fprintf(stdout," -> sigma8=%g for baryons+cdm  (computed till k = %g h/Mpc)\n",
               pfo->sigma8[pfo->index_pk_cb],
               pfo->k[pfo->k_size-1]/pba->h);
+      fprintf(stdout," -> S8=%g for baryons+cdm\n",
+              pfo->sigma8[pfo->index_pk_cb] * sqrt((pba->Omega0_b + pba->Omega0_cdm) / 0.3));
+    }
   }
 
   /** - get the non-linear power spectrum at each time */

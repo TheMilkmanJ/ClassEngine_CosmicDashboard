@@ -665,7 +665,7 @@ int input_shooting(struct file_content * pfc,
       class_sprintf(fzw.fc.value[fzw.unknown_parameters_index[0]],"%.20e",xzero);
       if (input_verbose > 0) {
         if (shooting_failed == _FALSE_){
-          printf(" -> found '%s = %s'\n",
+          printf(" -> found '%s = %s' (Convergence Rating: SUCCESS)\n",
                   fzw.fc.name[fzw.unknown_parameters_index[0]],
                   fzw.fc.value[fzw.unknown_parameters_index[0]]);
         }
@@ -718,7 +718,7 @@ int input_shooting(struct file_content * pfc,
                 "%.20e",x_inout[counter]);
         if (input_verbose > 0) {
           if (shooting_failed == _FALSE_){
-            printf(" -> found '%s = %s'\n",
+            printf(" -> found '%s = %s' (Convergence Rating: SUCCESS)\n",
                     fzw.fc.name[fzw.unknown_parameters_index[counter]],
                     fzw.fc.value[fzw.unknown_parameters_index[counter]]);
           }
@@ -734,7 +734,7 @@ int input_shooting(struct file_content * pfc,
     }
 
     if (input_verbose > 1 && shooting_failed == _FALSE_) {
-      printf("Shooting completed using %d function evaluations\n",fevals);
+      printf("Shooting completed using %d function evaluations (Convergence Rating: SUCCESS)\n",fevals);
     }
 
     /** Set status of shooting */
@@ -3187,6 +3187,9 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /* At this point all the species should be set, and used for the budget equation below */
 
+  /* Read use_prtoe early to avoid budget overkill */
+  class_read_flag("use_prtoe", pba->use_prtoe);
+
   /** 8) Dark energy
       Omega_0_lambda (cosmological constant), Omega0_fld (dark energy
       fluid), Omega0_scf (scalar field) */
@@ -3240,7 +3243,10 @@ int input_read_parameters_species(struct file_content * pfc,
     Omega_tot += pba->Omega0_scf;
   }
   /* Step 2 */
-  if (flag1 == _FALSE_) {
+  if (pba->use_prtoe == _TRUE_) {
+    /* Leave custom PRTOE scalar field to naturally fill the expansion slot */
+  }
+  else if (flag1 == _FALSE_) {
     /* Fill with Lambda */
     pba->Omega0_lambda= 1. - pba->Omega0_k - Omega_tot;
     if (input_verbose > 0){
@@ -3384,38 +3390,52 @@ int input_read_parameters_species(struct file_content * pfc,
   class_read_double("gamma_prtoe", pba->gamma_prtoe);
   class_read_double("g_c_prtoe", pba->g_c_prtoe);
 
-  /* PRTOE v1.0 Production Parameters */
-  class_read_double("prtoe_xi", pba->prtoe_xi);
-  class_read_double("prtoe_beta", pba->prtoe_beta);
+  /* PRTOE v1.0 Production Parameters — screened triplet (alpha, beta, delta) */
+  class_read_double("prtoe_xi",     pba->prtoe_xi);
+  class_read_double("prtoe_beta",   pba->prtoe_beta);
   class_read_double("prtoe_lambda", pba->prtoe_lambda);
-  class_read_double("prtoe_mass", pba->prtoe_mass);
-  class_read_double("prtoe_v0", pba->prtoe_v0);
-  class_read_flag("use_prtoe", pba->use_prtoe);
+  class_read_double("prtoe_mass",   pba->prtoe_mass);
+  class_read_double("prtoe_v0",     pba->prtoe_v0);
+  class_read_double("prtoe_delta",  pba->delta_prtoe);  /* gradient-density coupling: delta/(1+phi^2) */
+  class_read_flag("use_prtoe",      pba->use_prtoe);
 
-  /* Set defaults for prtoe parameters based on prtoe parameters */
-  pba->xi_prtoe = pba->prtoe_xi;
-  pba->beta_prtoe = pba->prtoe_beta;
+  /* Copy prtoe_* inputs into xi_prtoe/beta_prtoe/... canonical fields */
+  pba->xi_prtoe     = pba->prtoe_xi;
+  pba->beta_prtoe   = pba->prtoe_beta;
   pba->lambda_prtoe = pba->prtoe_lambda;
-  pba->m_prtoe = pba->prtoe_mass;
-  pba->V0_prtoe = pba->prtoe_v0;
-  pba->phi_0_prtoe = pba->phi_ini_scf;
+  pba->m_prtoe      = pba->prtoe_mass;
+  pba->V0_prtoe     = pba->prtoe_v0;
+  pba->phi_0_prtoe  = pba->phi_ini_scf;
 
-  /* Explicit _prtoe parameter readings (overwrites defaults if present in input file) */
-  class_read_double("V0_prtoe", pba->V0_prtoe);
-  class_read_double("m_prtoe", pba->m_prtoe);
-  class_read_double("phi_0_prtoe", pba->phi_0_prtoe);
-  class_read_double("xi_prtoe", pba->xi_prtoe);
-  class_read_double("beta_prtoe", pba->beta_prtoe);
+  /* Explicit canonical overrides (overwrites defaults if present in input file) */
+  class_read_double("V0_prtoe",     pba->V0_prtoe);
+  class_read_double("m_prtoe",      pba->m_prtoe);
+  class_read_double("phi_0_prtoe",  pba->phi_0_prtoe);
+  class_read_double("xi_prtoe",     pba->xi_prtoe);
+  class_read_double("beta_prtoe",   pba->beta_prtoe);
   class_read_double("lambda_prtoe", pba->lambda_prtoe);
+  class_read_double("delta_prtoe",  pba->delta_prtoe);  /* allow explicit override too */
 
   if (pba->use_prtoe == _TRUE_) {
-    /* Scale parameters to physical CLASS units (Mpc^-2, Mpc^-1, Mpc) using H0 */
+    /* Scale V0 and m to CLASS internal units (H0-normalized) */
     pba->V0_prtoe = 3.0 * pba->V0_prtoe * pba->H0 * pba->H0;
-    pba->m_prtoe = pba->m_prtoe * pba->H0;
-    pba->prtoe_beta = pba->prtoe_beta / pba->H0;
-    pba->beta_prtoe = pba->beta_prtoe / pba->H0;
+    pba->m_prtoe  = pba->m_prtoe * pba->H0;
+    
+    /* Convert M_ew_prtoe from GeV to CLASS units (Mpc^-1) */
+    /* 1 GeV = 1.5637e38 Mpc^-1 */
+    pba->M_ew_prtoe = pba->M_ew_prtoe * 1.5637e38;
+    /* NOTE: beta is now sampled as log10(beta) via cobaya drop variable;
+     *       the cobaya YAML converts it via: beta_prtoe = 10^log_beta_prtoe.
+     *       No /H0 rescaling is applied here to avoid double-counting. */
+
+    class_test(pba->xi_prtoe > 1.2e-5 || pba->xi_prtoe < 1e-7,
+               errmsg,
+               "PRTOE xi parameter %e exceeds the strict DHOST Stability Wedge boundary [1e-7, 1.2e-5]",
+               pba->xi_prtoe);
 
     pba->has_scf = _TRUE_;
+    /* Explicitly zero out Omega_Lambda to prevent double counting DE when using PRTOE */
+    pba->Omega0_lambda = 0.0;
     fprintf(stdout, " -> PRTOE Framework Activated (v1.0 Screened Model Bound Loaded)\n");
   }
 
@@ -5972,16 +5992,18 @@ int input_default_params(struct background *pba,
   /** 9.b.3) Tuning parameter */
   pba->scf_tuning_index = 0;
 
-  /** 9.b.4) PRTOE Defaults (Set to Candidate Set 1: Electroweak Scale) */
+  /** 9.b.4) PRTOE Defaults (Stability Wedge: xi in [1e-7, 1.2e-5], V0=0.685) */
   pba->H_vac_floor = 64.1218;
   pba->M_ew_prtoe = 100.0;
   pba->alpha_prtoe = 0.1;
-  pba->prtoe_beta = 0.1;
-  pba->prtoe_xi = 9.5e-5;
+  pba->prtoe_beta = 1.0e-6;   /* log10(beta) in [-8, -4] => beta ~ 1e-6 ref */
+  pba->prtoe_xi = 1.0e-7;     /* stability wedge lower bound */
   pba->prtoe_lambda = 0.05;
-  pba->prtoe_v0 = 1.5;
+  pba->prtoe_v0 = 0.685;      /* updated V0 from action structure */
   pba->g_b_prtoe = 1.0;
   pba->g_c_prtoe = 1.0;
+  pba->delta_prtoe = 0.0;     /* screening triplet: delta/(1+phi^2) */
+  pba->prtoe_mass = 0.05;
 
   /**
    * Deafult to input_read_parameters_heating
@@ -6297,22 +6319,26 @@ int input_default_params(struct background *pba,
   psd->distortions_verbose = 0;
   pop->output_verbose = 0;
 
-  /* PRTOE v1.0 Production Defaults */
+  /* PRTOE v1.0 Production Defaults — Action Structure aligned */
   pba->rho0_prtoe = 1.0;
   pba->gamma_prtoe = 0.05;
-  pba->prtoe_xi = 1.0e-7;
-  pba->prtoe_beta = 1.0e-6;
-  pba->prtoe_lambda = 0.10;
-  pba->prtoe_mass = 1.0e-20;
-  pba->prtoe_v0 = 0.685;
+  pba->prtoe_xi = 1.0e-7;     /* xi in [1e-7, 1.2e-5] stability wedge */
+  pba->prtoe_beta = 1.0e-6;   /* log10(beta_prtoe) in [-8,-4] => ref 1e-6 */
+  pba->prtoe_lambda = 0.05;
+  pba->prtoe_mass = 0.05;
+  pba->prtoe_v0 = 0.685;      /* V0 fixed by action */
   pba->use_prtoe = _FALSE_;
 
   pba->V0_prtoe = 0.685;
-  pba->m_prtoe = 1.0e-20;
+  pba->m_prtoe = 0.05;
   pba->phi_0_prtoe = 1.0;
   pba->xi_prtoe = 1.0e-7;
   pba->beta_prtoe = 1.0e-6;
-  pba->lambda_prtoe = 0.10;
+  pba->lambda_prtoe = 0.05;
+  pba->delta_prtoe = 0.0;     /* delta screening: delta/(1+phi^2) */
+  pba->alpha_prtoe = 0.1;     /* alpha screening: alpha^2/(1+phi^2) */
+  pba->zeta_prtoe = 1.0;      /* Screening intensity scaling factor */
 
   return _SUCCESS_;
-}
+ }
+                                  

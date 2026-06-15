@@ -10,6 +10,40 @@ Montanari, Deanna Hooper, Samuel Brieden, Daniel Meinert, Matteo Lucca, etc.
 For download and information, see http://class-code.net
 
 
+PRTOE Model & CosmoDashboard Web Application
+==============================================
+
+This repository contains the **PRTOE** (Proton Relational Theory of Everything) model modifications implemented directly in the CLASS C solver. It also packages **CosmoDashboard**, a web-based, glassmorphic dark-theme application that automates compiling, running nested samplers (using Cobaya + PolyChord), and performing Bayesian evidence comparison ($\Delta\ln\mathcal{Z}$) against standard $\Lambda\text{CDM}$.
+
+---
+
+## CosmoDashboard: Working & Usable Control Suite
+
+The dashboard is structured into a backend API server and a frontend web UI, both fully self-contained inside this repository:
+* **Backend API server:** `scripts/cosmo_dashboard_backend.py` (FastAPI app running on port `8000`).
+* **Frontend Web Dashboard:** `dashboard/index.html` (Double-click to open in any Windows browser).
+* **Baseline Evidence Cache:** `scripts/baseline_database.json` (Pre-computed $\Lambda\text{CDM}$ baseline data).
+
+### How to Run CosmoDashboard
+
+1. **Start the Backend Server (inside WSL / Linux):**
+   ```bash
+   conda activate pgtoe_gold
+   python3 scripts/cosmo_dashboard_backend.py
+   ```
+   *The server runs on `http://localhost:8000`.*
+
+2. **Open the UI Dashboard (on Windows / Host OS):**
+   Navigate to the `dashboard/` folder and open **`index.html`** in your favorite browser.
+
+3. **Dashboard Capabilities:**
+   * **Upload Configurations:** Drag-and-drop a Cobaya `.yaml` file.
+   * **Upload Custom Code:** Upload modified C files (like `background.c`) and rebuild CLASS in real-time.
+   * **Nested Sampler Controller:** Launch/abort MPI runs with 12 parallel ranks in WSL and track dead points and convergence.
+   * **Bayesian Comparison:** Automatically calculate $\Delta\ln\mathcal{Z}$ and map results on the Jeffreys scale.
+
+---
+
 Compiling CLASS and getting started
 -----------------------------------
 
