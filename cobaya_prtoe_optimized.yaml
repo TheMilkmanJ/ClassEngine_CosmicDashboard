@@ -24,11 +24,9 @@ likelihood:
 # 2. Theory Provider (Custom CLASS Wrapper with Fast-Precision Settings)
 theory:
   classy:
-    path: 
     stop_at_error: False
     extra_args:
       use_prtoe: 'yes'
-      base_path: 
       gauge: newtonian
       # CLASS Fast-Precision Parameters (from cl_permille.pre)
       hyper_flat_approximation_nu: 7000.
@@ -178,3 +176,4 @@ sampler:
   polychord:
     nlive: 200                # Reduced live points to save 20% run time
     num_repeats: 20            # Reduced repeats to match dimensionality, saving 33% run time
+    proposal: chains/prtoe_mcmc_tune.covmat

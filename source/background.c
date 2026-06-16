@@ -502,22 +502,13 @@ int background_functions(
 
     /* Smooth Scale-Factor Gate: smoothly activate the field from pure vacuum energy
        Centered at a=1e-4, width 1.0 decades */
-    double activation = 0.5 * (1.0 + tanh((log(a) - log(1e-4)) / 1.0));
+    double activation = 0.5 * (1.0 + tanh(log(a) + 9.21034037198));
     double dot_phi = phi_prime / a;
     
     double screening_factor = 1.0 / (1.0 + pba->zeta_prtoe * phi * phi);
     double xi_eff = pba->xi_prtoe * screening_factor * activation;
-    double alpha_eff = pba->alpha_prtoe * screening_factor * activation;
-    double beta_eff = pba->beta_prtoe * screening_factor * activation;
 
-    double H_guess = sqrt(MAX(0., (rho_tot_before_scf + (activation * (0.5 * dot_phi * dot_phi) + V_phi) / 3.0 - pba->K / a / a) / (1.0 + xi_eff * phi)));
-    double rho_m_dot_over_rho_m = -3.0 * H_guess;
-    
-    double extra_rho = - 3.0 * xi_eff * H_guess * dot_phi 
-                     + 3.0 * beta_eff * phi * dot_phi * dot_phi * H_guess * H_guess
-                     + (alpha_eff * alpha_eff * dot_phi * rho_m_dot_over_rho_m) / (pba->M_ew_prtoe * pba->M_ew_prtoe);
-
-    double rho_prtoe = activation * (0.5 * dot_phi * dot_phi) + V_phi + extra_rho;
+    double rho_prtoe = activation * (0.5 * dot_phi * dot_phi) + V_phi;
     double p_prtoe   = activation * (0.5 * dot_phi * dot_phi) - V_phi;
 
     double rho_phi_fluid = rho_prtoe / 3.0;
@@ -631,14 +622,13 @@ int background_functions(
   if (pba->use_prtoe == _TRUE_) {
     double prtoe_phi = pvecback[pba->index_bg_phi_prtoe];
     double screening = 1.0 / (1.0 + pba->zeta_prtoe * prtoe_phi * prtoe_phi);
-    double activation = 0.5 * (1.0 + tanh((log(a) - log(1e-4)) / 1.0));
-    double xi_eff = pba->prtoe_xi * screening * activation;
+    double activation = 0.5 * (1.0 + tanh(log(a) + 9.21034037198));
+    double xi_eff = pba->xi_prtoe * screening * activation;
     pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff / (1.0 + xi_eff * prtoe_phi)));
   } else {
     if (pba->has_scf == _TRUE_) {
       H_sq_eff /= (1.0 + pba->prtoe_xi * pvecback[pba->index_bg_phi_scf]);
     }
-    pvecback[pba->index_bg_H] = sqrt(H_sq_eff);
     pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff));
   }
 
@@ -2785,7 +2775,7 @@ int background_derivs(
     double a = exp(loga);
     
     /* Smooth Scale-Factor Gate: smoothly activate the field's EoM */
-    double activation = 0.5 * (1.0 + tanh((loga - log(1e-4)) / 1.0));
+    double activation = 0.5 * (1.0 + tanh(loga + 9.21034037198));
     
     double a2 = a * a;
     double phi = y[pba->index_bi_phi_prtoe];
@@ -2794,26 +2784,11 @@ int background_derivs(
     /* --- Unified screening function: 1/(1+phi^2) --- */
     double screening_factor = 1.0 / (1.0 + pba->zeta_prtoe * phi * phi);
     double xi_screened    = pba->xi_prtoe    * screening_factor * activation;
-    double alpha_screened = pba->alpha_prtoe * screening_factor * activation;
     
     /* --- Potential: V = V0*exp(-lambda*phi) + (1/2)*m^2*phi^2 --- */
     double m2 = pba->m_prtoe * pba->m_prtoe;
     double dV_dphi  = -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + m2 * phi;
     
-    /* --- Matter density gradient in FLRW background: -3H --- */
-    double rho_m_dot_over_rho_m = -3.0 * H;
-    double M_ew2 = pba->M_ew_prtoe * pba->M_ew_prtoe;
-    double alpha2_over_Mew2 = alpha_screened * alpha_screened / M_ew2;
-    
-    double pvecback_rho_m = pvecback[pba->index_bg_rho_b];
-    if (pba->has_cdm == _TRUE_) {
-      pvecback_rho_m += pvecback[pba->index_bg_rho_cdm];
-    }
-    double alpha2_rho_grad = alpha2_over_Mew2 * pvecback_rho_m * rho_m_dot_over_rho_m;
-    
-    /* Gradient-density coupling via delta */
-    double delta_screened = pba->delta_prtoe * screening_factor * activation;
-    double delta_coupling = delta_screened * pvecback_rho_m * rho_m_dot_over_rho_m;
 
     /* --- Ricci Scalar R --- */
     pba->R_curvature = 6.0 * (pvecback[pba->index_bg_H_prime] + 2.0 * a * H * H + pba->K / a) / a;
@@ -2825,8 +2800,6 @@ int background_derivs(
       - 2.0 * H_conf * dphi
       - a2 * dV_dphi
       + (xi_screened / 2.0) * pba->R_curvature * a2
-      + alpha2_rho_grad * a2
-      + delta_coupling * a2
     ) / a / MAX(H, 1e-20) * activation;
   }
 }
