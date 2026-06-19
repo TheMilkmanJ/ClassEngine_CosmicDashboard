@@ -732,6 +732,19 @@ async function checkStatus() {
         const data = await response.json();
         lastStatusData = data;
         
+        // Update Phone Sync link
+        const phoneLinkContainer = document.getElementById('phone-link-container');
+        const phoneLinkHref = document.getElementById('phone-link-href');
+        if (phoneLinkContainer && phoneLinkHref) {
+            if (data.localtunnel_url) {
+                phoneLinkContainer.style.display = 'flex';
+                phoneLinkHref.href = data.localtunnel_url;
+                phoneLinkHref.textContent = data.localtunnel_url.replace(/^https?:\/\//, '');
+            } else {
+                phoneLinkContainer.style.display = 'none';
+            }
+        }
+        
         // Append external logs (from monitor script)
         if (data.external_logs && data.external_logs.length > 0) {
             data.external_logs.forEach(log => appendLog(`<span style="color: #ff4757; font-weight: bold;">[ALERT] ${log}</span>`));

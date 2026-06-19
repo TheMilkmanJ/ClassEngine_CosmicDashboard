@@ -976,6 +976,23 @@ def get_realtime_posterior_stats(output_prefix):
     except Exception:
         return {}
 
+def get_localtunnel_url():
+    """Scans the Gemini task log files to find any active localtunnel URLs."""
+    import glob
+    import re
+    search_pattern = "/home/themilkmanj/.gemini/antigravity-cli/brain/*/.system_generated/tasks/task-*.log"
+    for log_path in glob.glob(search_pattern):
+        try:
+            if os.path.exists(log_path):
+                with open(log_path, "r") as f:
+                    content = f.read()
+                    match = re.search(r"your url is:\s*(https?://[a-zA-Z0-9\-]+\.loca\.lt)", content)
+                    if match:
+                        return match.group(1)
+        except Exception:
+            pass
+    return None
+
 @app.get("/api/status")
 async def get_status():
     """Checks the status of the running Cobaya process and reports progress."""
@@ -1004,6 +1021,7 @@ async def get_status():
     stats_data = {
         "status": CURRENT_STATUS,
         "run_start_time": RUN_START_TIME,
+        "localtunnel_url": get_localtunnel_url(),
         "dead_points": 0,
         "log_evidence": None,
         "log_evidence_error": None,

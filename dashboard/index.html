@@ -102,9 +102,16 @@
                 <span style="font-size: 0.75rem; color: #a4b0be; margin-left: 12px; font-weight: normal; align-self: flex-end; margin-bottom: 5px; font-family: 'Outfit', sans-serif;">Author: Justin Ryan Pulford</span>
                 <span id="classy-badge" style="margin-left: 15px; font-size: 0.8rem; padding: 4px 8px; background: rgba(0, 210, 211, 0.1); border: 1px solid #00d2d3; border-radius: 4px; color: #00d2d3; font-family: 'JetBrains Mono', monospace;">Engine: Checking...</span>
             </div>
-            <div class="system-status">
-                <span class="status-dot status-idle" id="status-dot"></span>
-                <span class="status-text" id="status-text">SYSTEM IDLE</span>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div id="phone-link-container" style="display: none; align-items: center; gap: 6px; background: rgba(0, 210, 255, 0.05); border: 1px solid rgba(0, 210, 255, 0.15); padding: 5px 10px; border-radius: 4px; font-size: 0.82rem; font-family: 'Outfit', sans-serif;">
+                    <span style="font-size: 1rem;">📱</span>
+                    <span style="color: #a4b0be;">Phone Sync:</span>
+                    <a id="phone-link-href" href="#" target="_blank" style="color: #00d2d3; text-decoration: none; font-weight: bold; font-family: 'JetBrains Mono', monospace;">Checking...</a>
+                </div>
+                <div class="system-status">
+                    <span class="status-dot status-idle" id="status-dot"></span>
+                    <span class="status-text" id="status-text">SYSTEM IDLE</span>
+                </div>
             </div>
         </header>
 
