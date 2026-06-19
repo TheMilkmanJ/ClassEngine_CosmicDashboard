@@ -110,8 +110,15 @@ sampler:
   mcmc:
     # We want it to learn the covariance matrix of the parameters
     learn_proposal: True
-    # Stop when the Gelman-Rubin convergence statistic R-1 is below 0.1 
+    # Stop when the Gelman-Rubin convergence statistic R-1 is below 0.01 
     # (A bit loose, but perfectly fine for getting a tuning covariance matrix)
-    Rminus1_stop: 0.1 
+    Rminus1_stop: 0.01 
+    # Also track and print convergence of the variance within individual chains
+    Rminus1_single_split: 4
+    # Force a fixed small burn-in instead of letting it discard 50% of the chain
+    burn_in: 50
+    # Allow updating the proposal covariance matrix even when R-1 is currently very high
+    learn_proposal_Rminus1_max: 50.0
+    learn_proposal_Rminus1_max_early: 100.0
     # Hard limit on samples so it doesn't run forever if it struggles
     max_samples: 5000

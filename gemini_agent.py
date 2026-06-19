@@ -59,7 +59,7 @@ def read_repository_files(repo_path=".", extensions=None):
             with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
                 content = f.read()
                 files_content[str(relative_path)] = content
-        except Exception as e:
+        except (OSError, UnicodeError) as e:
             print(f"Warning: Could not read {file_path}: {e}")
     
     return files_content

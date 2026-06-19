@@ -35,6 +35,10 @@ theory:
       transfer_neglect_delta_k_S_t2: 0.17
       transfer_neglect_delta_k_S_e: 0.13
       delta_l_max: 1000
+      # --- Massive Neutrino Physics ---
+      N_ur: 2.0328
+      N_ncdm: 1
+      T_ncdm: 0.71611
 
 # 3. Parameter Dictionary (Priors and Constraints)
 params:
@@ -86,6 +90,15 @@ params:
     ref: 8.0
     proposal: 0.1
     latex: z_\mathrm{reio}
+
+  # --- The Cosmic Scale: Sum of Neutrino Masses ---
+  m_ncdm:
+    prior:
+      min: 0.00
+      max: 0.50
+    ref: 0.06
+    proposal: 0.02
+    latex: \sum m_\nu \ [\mathrm{eV}]
 
   # --- Planck Nuisance Parameter for Lite Likelihood ---
   A_planck:
@@ -157,7 +170,7 @@ params:
   zeta_prtoe:
     prior:
       min: 0.01       # RAISED from 0.001: Minimum for effective screening
-      max: 10.0       # EXPANDED from 1.0: Allow stronger screening effects
+      max: 100.0       # EXPANDED from 1.0: Allow stronger screening effects
     ref: 0.5
     proposal: 0.2     # INCREASED from 0.05 for broader exploration
     latex: \zeta_\mathrm{prtoe}

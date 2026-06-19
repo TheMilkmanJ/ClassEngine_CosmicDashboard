@@ -35,8 +35,7 @@ AR        = ar rv
 PYTHON ?= python
 
 # your optimization flag
-OPTFLAG = -O3
-#OPTFLAG = -Ofast -ffast-math #-march=native
+OPTFLAG = -O3 -march=native -ffast-math
 #OPTFLAG = -fast
 
 # your openmp flag (comment for compiling without openmp)
@@ -207,12 +206,18 @@ tar: $(C_ALL) $(C_TEST) $(H_ALL) $(PRE_ALL) $(INI_ALL) $(MISC_FILES) $(HYREC) $(
 	tar czvf class.tar.gz $(C_ALL) $(H_ALL) $(PRE_ALL) $(INI_ALL) $(MISC_FILES) $(HYREC) $(PYTHON_FILES)
 
 classy: libclass.a python/classy.pyx python/cclassy.pxd
-	export CC=$(CC); output=$$($(PYTHON) -m pip install . 2>&1); \
+	export CC=$(CC); \
+	export CFLAGS="-O3 -march=native -ffast-math -ftree-vectorize"; \
+	export CXXFLAGS="-O3 -march=native -ffast-math -ftree-vectorize"; \
+	output=$$($(PYTHON) -m pip install . 2>&1); \
     echo "$$output"; \
     if echo "$$output" | grep -q "ERROR: Cannot uninstall"; then \
         site_packages=$$($(PYTHON) -c "import distutils.sysconfig; print(distutils.sysconfig.get_python_lib())" || $(PYTHON) -c "import site; print(site.getsitepackages()[0])") && \
         echo "Cleaning up previous installation in: $$site_packages" && \
         rm -rf $$site_packages/classy* && \
+        export CC=$(CC); \
+        export CFLAGS="-O3 -march=native -ffast-math -ftree-vectorize"; \
+        export CXXFLAGS="-O3 -march=native -ffast-math -ftree-vectorize"; \
         $(PYTHON) -m pip install .; \
     fi
 

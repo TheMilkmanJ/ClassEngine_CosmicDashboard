@@ -10,33 +10,38 @@ Montanari, Deanna Hooper, Samuel Brieden, Daniel Meinert, Matteo Lucca, etc.
 For download and information, see http://class-code.net
 
 
-PRTOE Model & CosmoDashboard Web Application
+PRTOE Model & CosmicDashboard Web Application
 ==============================================
 
-This repository contains the **PRTOE** (Proton Relational Theory of Everything) model modifications implemented directly in the CLASS C solver. It also packages **CosmoDashboard**, a web-based, glassmorphic dark-theme application that automates compiling, running nested samplers (using Cobaya + PolyChord), and performing Bayesian evidence comparison ($\Delta\ln\mathcal{Z}$) against standard $\Lambda\text{CDM}$.
+**Author:** Justin Ryan Pulford
+
+This repository contains the **PRTOE** (Pulford-Romsa Theory of Everything) model modifications implemented directly in the CLASS C solver. It also packages **CosmicDashboard**, a web-based, glassmorphic dark-theme application that automates compiling, running nested samplers (using Cobaya + PolyChord), and performing Bayesian evidence comparison ($\Delta\ln\mathcal{Z}$) against standard $\Lambda\text{CDM}$.
 
 ---
 
-## CosmoDashboard: Working & Usable Control Suite
+## CosmicDashboard: Working & Usable Control Suite
 
-The dashboard is structured into a backend API server and a frontend web UI, both fully self-contained inside this repository:
-* **Backend API server:** `scripts/cosmo_dashboard_backend.py` (FastAPI app running on port `8000`).
-* **Frontend Web Dashboard:** `dashboard/index.html` (Double-click to open in any Windows browser).
-* **Baseline Evidence Cache:** `scripts/baseline_database.json` (Pre-computed $\Lambda\text{CDM}$ baseline data).
+### Quick Start (One-Click Launch)
 
-### How to Run CosmoDashboard
+The absolute easiest way to run CosmicDashboard is using Docker. We have included automated launch scripts that will safely compile the C-engine, set up the Python environment, and launch the visual dashboard for you.
 
-1. **Start the Backend Server (inside WSL / Linux):**
-   ```bash
-   conda activate pgtoe_gold
-   python3 scripts/cosmo_dashboard_backend.py
-   ```
-   *The server runs on `http://localhost:8000`.*
+**Requirements:** You must have Docker Desktop installed and running on your machine.
 
-2. **Open the UI Dashboard (on Windows / Host OS):**
-   Navigate to the `dashboard/` folder and open **`index.html`** in your favorite browser.
+1. Download or clone this repository.
+2. **Windows Users:** Double-click `launch_windows.bat`.
+3. **Mac/Linux Users:** Run `bash launch_mac_linux.sh` in your terminal.
 
-3. **Dashboard Capabilities:**
+*Note: The first time you run this, it will take a few minutes to download the compilers and build the CLASS engine. All your expensive nested sampling data will be safely saved to your local `/chains` folder, meaning you never lose your data even when you close the dashboard!*
+
+### Manual Docker Commands (Alternative)
+If you prefer to run it manually without the launch scripts:
+```bash
+docker build -t cosmic-dashboard .
+docker run --rm -p 8000:8000 -v $(pwd)/chains:/app/chains cosmic-dashboard
+```
+Then manually open `dashboard/index.html` in any browser.
+
+### Dashboard Capabilities:
    * **Upload Configurations:** Drag-and-drop a Cobaya `.yaml` file.
    * **Upload Custom Code:** Upload modified C files (like `background.c`) and rebuild CLASS in real-time.
    * **Nested Sampler Controller:** Launch/abort MPI runs with 12 parallel ranks in WSL and track dead points and convergence.

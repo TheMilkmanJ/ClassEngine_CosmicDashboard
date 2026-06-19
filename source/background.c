@@ -151,6 +151,17 @@ int background_at_z(
   /** - check that log(a) = log(1/(1+z)) = -log(1+z) is in the pre-computed range */
   loga = -log(1+z);
 
+  if (loga < pba->loga_table[0]) {
+    if (pba->loga_table[0] - loga < 1e-10) {
+      loga = pba->loga_table[0];
+    }
+  }
+  if (loga > pba->loga_table[pba->bt_size-1]) {
+    if (loga - pba->loga_table[pba->bt_size-1] < 1e-10) {
+      loga = pba->loga_table[pba->bt_size-1];
+    }
+  }
+
   class_test(loga < pba->loga_table[0],
              pba->error_message,
              "out of range: a/a_0 = %e < a_min/a_0 = %e, you should decrease the precision parameter a_ini_over_a_today_default\n",1./(1.+z),exp(pba->loga_table[0]));
@@ -279,6 +290,17 @@ int background_tau_of_z(
   int last_index;
 
   /** - check that \f$ z \f$ is in the pre-computed range */
+  if (z < pba->z_table[pba->bt_size-1]) {
+    if (pba->z_table[pba->bt_size-1] - z < 1e-10) {
+      z = pba->z_table[pba->bt_size-1];
+    }
+  }
+  if (z > pba->z_table[0]) {
+    if (z - pba->z_table[0] < 1e-10) {
+      z = pba->z_table[0];
+    }
+  }
+
   class_test(z < pba->z_table[pba->bt_size-1],
              pba->error_message,
              "out of range: z=%e < z_min=%e\n",z,pba->z_table[pba->bt_size-1]);
@@ -329,6 +351,17 @@ int background_z_of_tau(
   int last_index;
 
   /** - check that \f$ tau \f$ is in the pre-computed range */
+  if (tau < pba->tau_table[0]) {
+    if (pba->tau_table[0] - tau < 1e-10) {
+      tau = pba->tau_table[0];
+    }
+  }
+  if (tau > pba->tau_table[pba->bt_size-1]) {
+    if (tau - pba->tau_table[pba->bt_size-1] < 1e-10) {
+      tau = pba->tau_table[pba->bt_size-1];
+    }
+  }
+
   class_test(tau < pba->tau_table[0],
              pba->error_message,
              "out of range: tau=%e < tau_min=%e\n",tau,pba->tau_table[0]);

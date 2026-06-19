@@ -355,7 +355,7 @@ body {
 /* Monitor Panels */
 .monitor-stats {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1rem;
 }
 
@@ -367,6 +367,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    min-width: 0;
 }
 
 .stat-label {
@@ -552,3 +553,19 @@ body {
     box-shadow: 0 0 20px rgba(255, 0, 127, 0.1) inset;
 }
 .jeffreys-disfavored .jeffreys-value { color: var(--neon-magenta); }
+
+.copy-btn {
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+}
+
+.copy-btn:hover {
+    opacity: 1 !important;
+    color: var(--neon-cyan) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    transform: scale(1.1);
+}
+
+.copy-btn:active {
+    transform: scale(0.9);
+}

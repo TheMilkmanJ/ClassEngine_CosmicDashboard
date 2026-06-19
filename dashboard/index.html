@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CosmoDashboard - CLASS & Cobaya Controller</title>
+    <title>CosmicDashboard - CLASS & Cobaya Controller</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Deep Space Nebula Background */
+        body {
+            background-color: #030008 !important;
+            background-image: 
+                linear-gradient(to bottom, rgba(3, 0, 8, 0.4), rgba(3, 0, 8, 0.9)),
+                url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=2560&auto=format&fit=crop') !important;
+            background-size: cover !important;
+            background-position: center center !important;
+            background-attachment: fixed !important;
+        }
+    </style>
 </head>
 <body>
     <div class="stars"></div>
@@ -14,7 +26,9 @@
         <header class="app-header">
             <div class="logo-area">
                 <span class="pulse-ring"></span>
-                <h1>Cosmo<span>Dashboard</span></h1>
+                <h1>Cosmic<span>Dashboard</span></h1>
+                <span style="font-size: 0.75rem; color: #a4b0be; margin-left: 12px; font-weight: normal; align-self: flex-end; margin-bottom: 5px; font-family: 'Outfit', sans-serif;">Author: Justin Ryan Pulford</span>
+                <span id="classy-badge" style="margin-left: 15px; font-size: 0.8rem; padding: 4px 8px; background: rgba(0, 210, 211, 0.1); border: 1px solid #00d2d3; border-radius: 4px; color: #00d2d3; font-family: 'JetBrains Mono', monospace;">Engine: Checking...</span>
             </div>
             <div class="system-status">
                 <span class="status-dot status-idle" id="status-dot"></span>
@@ -30,44 +44,58 @@
                 
                 <!-- YAML Upload -->
                 <div class="control-group">
-                    <label>Upload Model Configuration (.yaml)</label>
+                    <label style="display: flex; justify-content: space-between;">Upload Model Configuration (.yaml) <a href="#" id="btn-reset-yaml" style="color: #00d2d3; text-decoration: none; font-size: 0.8rem;">Use Default ΛCDM</a></label>
                     <div class="file-upload-zone" id="yaml-upload-zone">
                         <span class="upload-icon">&#x2191;</span>
                         <p>Drag & drop or <span class="browse">browse</span></p>
-                        <span class="file-name-display" id="yaml-name">No file selected</span>
+                        <span class="file-name-display" id="yaml-name">Default: lcdm_config.yaml</span>
                         <input type="file" id="yaml-input" accept=".yaml,.yml" style="display: none;">
                     </div>
                 </div>
 
-                <!-- Code Upload -->
-                <div class="control-group">
-                    <label>Upload Custom Source Code (.c / .py)</label>
-                    <div class="file-upload-zone" id="code-upload-zone">
-                        <span class="upload-icon">&#x2261;</span>
-                        <p>Drag & drop or <span class="browse">browse</span></p>
-                        <span class="file-name-display" id="code-name">No file selected</span>
-                        <input type="file" id="code-input" accept=".c,.py" style="display: none;">
+                <!-- Run Settings -->
+                <div class="control-group" style="display: flex; gap: 15px; align-items: center; margin-top: 15px;">
+                    <div style="flex: 1;">
+                        <label>CPU Cores</label>
+                        <input type="number" id="input-cores" value="24" min="1" max="128" style="width: 100%; padding: 8px; border-radius: 4px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #fff; font-family: 'JetBrains Mono', monospace;">
                     </div>
-                    <button class="btn btn-secondary" id="btn-rebuild" disabled>Upload & Rebuild CLASS</button>
-                </div>
-
-                <!-- Dataset Select -->
-                <div class="control-group">
-                    <label>Baseline Dataset Combination</label>
-                    <select class="custom-select" id="dataset-select">
-                        <option value="planck_bao_pantheon">Planck 2018 + BAO + PantheonPlus (Combined)</option>
-                    </select>
+                    <div style="flex: 2; display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <input type="checkbox" id="check-autorebuild" checked style="width: 18px; height: 18px;">
+                            <label style="margin: 0; cursor: pointer; color: #a4b0be; font-size: 0.9rem;" for="check-autorebuild">Auto-rebuild CLASS Engine</label>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <input type="checkbox" id="check-autorun-lcdm" style="width: 18px; height: 18px;">
+                            <label style="margin: 0; cursor: pointer; color: #a4b0be; font-size: 0.9rem;" for="check-autorun-lcdm">Auto-run default &Lambda;CDM baseline after</label>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Action Buttons -->
+                <div class="actions" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button class="btn btn-primary btn-glow" id="btn-start" style="flex: 1; padding: 12px 10px; font-size: 0.95rem;">Start New Run</button>
+                    <button class="btn" id="btn-resume" style="flex: 1; padding: 12px 10px; font-size: 0.95rem; background: #3867d6; color: white; border: none; box-shadow: 0 4px 15px rgba(56, 103, 214, 0.4);">Resume Run</button>
+                    <button class="btn btn-danger" id="btn-stop" disabled style="flex: 1; padding: 12px 10px; font-size: 0.95rem;">Abort Active Run</button>
+                </div>
                 <div class="actions">
-                    <button class="btn btn-primary btn-glow" id="btn-start">Start Model Sampler</button>
-                    <button class="btn btn-danger" id="btn-stop" disabled>Abort Active Run</button>
+                    <button class="btn btn-secondary" id="btn-download" style="margin-top: 10px;">Download Data Archive</button>
+                </div>
+                <!-- Watchdog Alert Card -->
+                <div class="jeffreys-card" id="watchdog-card" style="margin-top: 20px; border-color: #00d2d3; transition: all 0.3s ease;">
+                    <div class="jeffreys-title"><span id="watchdog-icon" style="font-size: 1.2rem; margin-right: 5px;">🐶</span> Watchdog Status</div>
+                    <div class="jeffreys-value" id="watchdog-text" style="color: #00d2d3; font-size: 1.5rem; text-shadow: 0 0 10px rgba(0, 210, 211, 0.5); transition: color 0.3s ease;">All clear, Captain!</div>
+                    <div class="jeffreys-description" id="watchdog-desc" style="max-height: 200px; overflow-y: auto; text-align: left; background: rgba(0,0,0,0.2); padding: 8px; border-radius: 4px; display: none; margin-top: 10px;">
+                        <!-- Alerts will be injected here -->
+                    </div>
+                    <div id="watchdog-actions" style="display: none; margin-top: 15px; gap: 10px;">
+                        <button class="btn btn-primary" id="btn-accept-priors" style="flex: 1; padding: 8px; font-size: 0.9rem; background: #ff4757; border: none; box-shadow: 0 0 10px rgba(255,71,87,0.4);">Accept & Restart</button>
+                        <button class="btn btn-secondary" id="btn-deny-priors" style="flex: 1; padding: 8px; font-size: 0.9rem;">Deny / Ignore</button>
+                    </div>
                 </div>
             </section>
 
             <!-- Center Panel: Real-Time Sampler Monitor -->
-            <section class="panel glassmorphic" id="monitor-panel">
+            <section class="panel glassmorphic" id="monitor-panel" style="min-width: 0;">
                 <h2><span class="icon">&#x23f2;</span> Real-Time Monitor</h2>
                 
                 <div class="monitor-stats">
@@ -78,6 +106,49 @@
                     <div class="stat-card">
                         <span class="stat-label">Estimated log(Z)</span>
                         <span class="stat-value highlight-cyan" id="stat-evidence">-</span>
+                    </div>
+                    <div class="stat-card" style="position: relative;">
+                        <button class="copy-btn" id="btn-copy-bestfit" title="Copy best-fit parameters" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #a4b0be; cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px; transition: all 0.2s ease;">📋</button>
+                        <span class="stat-label">Best-Fit &chi;&sup2;</span>
+                        <span class="stat-value highlight-neon" id="stat-chi2">-</span>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px; font-family: var(--font-mono);">
+                            <span>CMB:<span id="stat-chi2-cmb" style="color:#fff; margin-left:4px">-</span></span>
+                            <span>BAO:<span id="stat-chi2-bao" style="color:#fff; margin-left:4px">-</span></span>
+                            <span>SN:<span id="stat-chi2-sn" style="color:#fff; margin-left:4px">-</span></span>
+                        </div>
+                        <div id="stat-raw-params" style="margin-top: 10px; font-size: 0.7rem; color: #a4b0be; font-family: var(--font-mono); max-height: 120px; overflow-y: auto; overflow-x: auto; background: rgba(0,0,0,0.2); padding: 6px; border-radius: 4px; display: none; word-break: break-all;">
+                            <!-- Raw params injected here -->
+                        </div>
+                    </div>
+                    <div class="stat-card" style="align-items: center; justify-content: center;">
+                        <span class="stat-label" style="align-self: flex-start; width: 100%;">System CPU Load</span>
+                        <div style="position: relative; width: 140px; height: 70px; margin-top: 15px;">
+                            <svg viewBox="0 0 100 50" style="width: 100%; height: 100%; overflow: visible;">
+                                <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="12" stroke-linecap="round"/>
+                                <path id="cpu-gauge-path" d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="#00d2d3" stroke-width="12" stroke-linecap="round" stroke-dasharray="125.66" stroke-dashoffset="125.66" style="transition: stroke-dashoffset 0.5s ease-out, stroke 0.5s ease;"/>
+                            </svg>
+                            <div style="position: absolute; bottom: -5px; left: 0; width: 100%; text-align: center;">
+                                <span id="stat-cpu" style="font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; color: #fff;">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Sampling Speed</span>
+                        <span class="stat-value highlight-cyan" id="stat-speed">-</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Est. Time Remaining (ETA)</span>
+                        <span class="stat-value highlight-neon" id="stat-eta">-</span>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-header">
+                        <span>Initialization Phase (Gathering Live Points)</span>
+                        <span id="init-percent">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="init-fill" style="background: linear-gradient(90deg, #ff9ff3, #feca57);"></div>
                     </div>
                 </div>
 
@@ -91,12 +162,23 @@
                     </div>
                 </div>
 
+                <!-- Live Parameter Space Plot -->
+                <div class="live-plot-container" id="live-plot-container" style="display: none; margin-top: 15px; text-align: center; background: rgba(0,0,0,0.2); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); padding: 10px;">
+                    <div style="font-size: 0.8rem; color: #a4b0be; font-family: var(--font-mono); margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center;">
+                        <span><span style="color: #00d2d3;">&#9654;</span> Live Parameter Space Coverage</span>
+                        <span id="plot-timestamp" style="font-size: 0.7rem; color: #576574;">-</span>
+                    </div>
+                    <div style="max-height: 380px; overflow: auto; border-radius: 4px; padding: 5px;">
+                        <img id="live-plot-img" src="" style="width: 55%; min-width: 350px; height: auto; border-radius: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);" alt="Live Convergence Plot">
+                    </div>
+                </div>
+
                 <div class="console-log">
                     <div class="console-header">
                         <span>Terminal Output</span>
                         <span class="blink-cursor">_</span>
                     </div>
-                    <div class="console-body" id="console-body">
+                    <div class="console-body" id="console-body" style="overflow-x: auto; white-space: nowrap; padding-bottom: 15px;">
                         Waiting for run execution...
                     </div>
                 </div>
@@ -106,10 +188,11 @@
             <section class="panel glassmorphic" id="results-panel">
                 <h2><span class="icon">&#x22f1;</span> Model Evidence Comparison</h2>
                 
-                <div class="evidence-math">
+                <div class="evidence-math" style="position: relative;">
+                    <button class="copy-btn" id="btn-copy-evidence" title="Copy evidence comparison" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #a4b0be; cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px; transition: all 0.2s ease;">📋</button>
                     <div class="math-row">
                         <span class="math-label">Baseline log(Z<sub>baseline</sub>):</span>
-                        <span class="math-val" id="val-baseline">-1683.2451</span>
+                        <span class="math-val" id="val-baseline">-</span>
                     </div>
                     <div class="math-row">
                         <span class="math-label">Custom Model log(Z<sub>custom</sub>):</span>
@@ -122,6 +205,45 @@
                     </div>
                 </div>
 
+                <!-- Model Tension & Stability Card -->
+                <div class="evidence-math" id="tensions-card" style="margin-top: 15px; position: relative;">
+                    <button class="copy-btn" id="btn-copy-tensions" title="Copy tension & struggles status" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #a4b0be; cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px; transition: all 0.2s ease;">📋</button>
+                    <div class="jeffreys-title">Tension Resolution &amp; Stability</div>
+                    <div style="font-family: var(--font-sans); font-size: 0.85rem; margin-top: 8px; display: flex; flex-direction: column; gap: 8px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span>H<sub>0</sub> &amp; S<sub>8</sub> Tensions:</span>
+                            <span id="stat-tensions-badge" style="padding: 2px 6px; border-radius: 4px; font-weight: bold; font-family: var(--font-mono); font-size: 0.75rem; background: rgba(255,255,255,0.05); color: #fff;">Unknown</span>
+                        </div>
+                        <div id="stat-ncdm-section" style="display: none; flex-direction: column; border-top: 1px dashed rgba(255,255,255,0.05); padding-top: 6px; margin-top: 2px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;" id="stat-ncdm-header" title="Click to view neutrino diagnostics">
+                                <span style="display: flex; align-items: center; gap: 4px;">
+                                    <span>Neutrino Sector (m_&nu;):</span>
+                                    <span id="stat-ncdm-arrow" style="font-size: 0.7rem; transition: transform 0.2s;">▶</span>
+                                </span>
+                                <span id="stat-ncdm-badge" style="padding: 2px 6px; border-radius: 4px; font-weight: bold; font-family: var(--font-mono); font-size: 0.75rem; background: rgba(255,255,255,0.05); color: #fff; border: 1px solid rgba(255,255,255,0.1);">Disabled</span>
+                            </div>
+                            <div id="stat-ncdm-details" style="display: none; padding-top: 8px; flex-direction: column; gap: 4px; border-top: 1px dashed rgba(255,255,255,0.02); margin-top: 6px; font-size: 0.78rem;">
+                                <!-- Details will be dynamically injected here -->
+                            </div>
+                        </div>
+                        <div id="stat-struggles-section" style="border-top: 1px solid rgba(255,255,255,0.05); padding-top: 8px;">
+                            <div style="color: var(--text-secondary); font-size: 0.8rem; margin-bottom: 4px;">Model Struggles (Computation Failures):</div>
+                            <div id="stat-struggles-body" style="font-family: var(--font-mono); font-size: 0.78rem; color: #39ff14; overflow-x: auto; word-break: break-all;">
+                                Stable (0 failures)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Parameters Constraints Table -->
+                <div class="evidence-math" id="constraints-card" style="margin-top: 15px; display: none; position: relative;">
+                    <button class="copy-btn" id="btn-copy-constraints" title="Copy 1-sigma constraints" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #a4b0be; cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px; transition: all 0.2s ease;">📋</button>
+                    <div class="jeffreys-title">1-Sigma Constraints (Mean &amp; 1-&sigma;)</div>
+                    <div id="constraints-body" style="font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.5; margin-top: 8px; max-height: 200px; overflow-y: auto; overflow-x: auto; word-break: break-all;">
+                        <!-- Injected parameter limits -->
+                    </div>
+                </div>
+
                 <!-- Jeffreys Scale Card -->
                 <div class="jeffreys-card" id="jeffreys-card">
                     <div class="jeffreys-title">Evidence Strength</div>
@@ -129,7 +251,16 @@
                     <p class="jeffreys-description" id="jeffreys-desc">
                         Run the sampler to compare the custom model's evidence with the baseline $\Lambda$CDM.
                     </p>
+                    <div id="evidence-breakdown" style="display: none; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 8px; margin-top: 10px; font-family: var(--font-mono); font-size: 0.75rem; text-align: left; line-height: 1.4; color: #a4b0be; word-break: break-all;">
+                        <!-- Breakdown will be injected here -->
+                    </div>
                 </div>
+
+                <!-- Unified AI Copy Button -->
+                <button class="btn btn-primary btn-glow" id="btn-copy-ai-prompt" style="margin-top: 15px; width: 100%; padding: 12px; font-size: 0.95rem; background: linear-gradient(135deg, #00d2d3, #3867d6); border: none; box-shadow: 0 4px 15px rgba(0, 210, 211, 0.3);">
+                    ✨ Copy AI Diagnostic Prompt
+                </button>
+
             </section>
         </main>
     </div>
