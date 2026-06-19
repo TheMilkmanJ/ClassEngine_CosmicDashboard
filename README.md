@@ -15,6 +15,9 @@ PRTOE Model & CosmicDashboard Web Application
 
 **Author:** Justin Ryan Pulford
 
+> [!IMPORTANT]
+> **Invitation to Researchers:** If you are downloading this code, we politely ask you to run the PRTOE model configurations and help us test its viability as an alternative cosmological model. By comparing its Bayesian evidence ($\Delta\ln\mathcal{Z}$), $\chi^2$ fits, and parameter pulls (such as the $H_0$ and $S_8$ tensions) against standard $\Lambda\text{CDM}$, you can help the cosmology community determine if PRTOE is a framework worth exploring further. Thank you for your contribution!
+
 This repository contains the **PRTOE** (Pulford-Romsa Theory of Everything) model modifications implemented directly in the CLASS C solver. It also packages **CosmicDashboard**, a web-based, glassmorphic dark-theme application that automates compiling, running nested samplers (using Cobaya + PolyChord), and performing Bayesian evidence comparison ($\Delta\ln\mathcal{Z}$) against standard $\Lambda\text{CDM}$.
 
 ---

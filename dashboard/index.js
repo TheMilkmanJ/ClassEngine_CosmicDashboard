@@ -3500,3 +3500,71 @@ async function refreshProvenanceLedger() {
         console.error("Error refreshing provenance ledger:", err);
     }
 }
+
+// Show first-time researcher request popup for PRTOE model
+document.addEventListener('DOMContentLoaded', () => {
+    if (!localStorage.getItem('prtoe_proposal_shown')) {
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fadeInModal {
+                from { opacity: 0; transform: scale(0.9); }
+                to { opacity: 1; transform: scale(1); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        const modal = document.createElement('div');
+        modal.id = 'prtoe-proposal-modal';
+        modal.style.position = 'fixed';
+        modal.style.top = '0';
+        modal.style.left = '0';
+        modal.style.width = '100vw';
+        modal.style.height = '100vh';
+        modal.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+        modal.style.backdropFilter = 'blur(10px)';
+        modal.style.zIndex = '99999';
+        modal.style.display = 'flex';
+        modal.style.justifyContent = 'center';
+        modal.style.alignItems = 'center';
+        
+        const content = document.createElement('div');
+        content.style.width = '90%';
+        content.style.maxWidth = '550px';
+        content.style.background = 'rgba(20, 20, 25, 0.75)';
+        content.style.border = '1px solid rgba(255, 255, 255, 0.1)';
+        content.style.borderRadius = '12px';
+        content.style.padding = '30px';
+        content.style.boxShadow = '0 8px 32px 0 rgba(0, 0, 0, 0.5)';
+        content.style.color = '#fff';
+        content.style.fontFamily = "'Outfit', 'Inter', sans-serif";
+        content.style.textAlign = 'center';
+        content.style.animation = 'fadeInModal 0.3s ease-out';
+        
+        content.innerHTML = `
+            <div style="font-size: 3rem; margin-bottom: 15px;">🌌</div>
+            <h2 style="margin-top: 0; color: #ff9ff3; font-weight: 700; font-size: 1.5rem; letter-spacing: 0.5px;">Welcome to CosmicDashboard</h2>
+            <h3 style="color: #00d2d3; font-size: 1.1rem; margin-top: 5px; margin-bottom: 20px;">A Special Request for Cosmology Researchers</h3>
+            <p style="font-size: 0.95rem; line-height: 1.6; color: #dcdde1; margin-bottom: 20px;">
+                You are running the modified CLASS engine equipped with the <strong>PRTOE (Pulford-Romsa Theory of Everything)</strong> cosmology model. 
+            </p>
+            <p style="font-size: 0.95rem; line-height: 1.6; color: #dcdde1; margin-bottom: 25px;">
+                We politely invite you to run PRTOE model configurations and evaluate their fits, comparing the resulting Bayesian evidence ($\Delta\ln\mathcal{Z}$), parameter pulls, and growth constraints against standard $\Lambda\text{CDM}$. Your test runs and feedback are highly valuable in determining if this model represents a path worth exploring further in modern cosmology.
+            </p>
+            <div style="display: flex; gap: 15px; justify-content: center;">
+                <button id="btn-close-proposal" class="btn" style="padding: 10px 24px; font-weight: bold; background: linear-gradient(135deg, #00d2d3, #00a8ff); border: none; border-radius: 4px; color: white; cursor: pointer; font-size: 0.9rem; box-shadow: 0 4px 15px rgba(0, 210, 211, 0.4);">I will help test PRTOE</button>
+            </div>
+        `;
+        
+        modal.appendChild(content);
+        document.body.appendChild(modal);
+        
+        document.getElementById('btn-close-proposal').addEventListener('click', () => {
+            modal.style.transition = 'opacity 0.3s ease';
+            modal.style.opacity = '0';
+            setTimeout(() => {
+                modal.remove();
+                localStorage.setItem('prtoe_proposal_shown', 'true');
+            }, 300);
+        });
+    }
+});
