@@ -3423,6 +3423,40 @@ async function populateRunsLists() {
     if (!btnCompare.dataset.listenerRegistered) {
         btnCompare.addEventListener('click', handleCompareRuns);
         btnCompare.dataset.listenerRegistered = 'true';
+
+        const btnCopyRunCompare = document.getElementById('btn-copy-runcompare');
+        if (btnCopyRunCompare) {
+            btnCopyRunCompare.addEventListener('click', () => {
+                const runAVal = document.getElementById('select-run-a').value;
+                const runBVal = document.getElementById('select-run-b').value;
+                const evidenceVal = document.getElementById('runcompare-evidence').textContent;
+                const chi2Val = document.getElementById('runcompare-chi2').textContent;
+                
+                let markdown = `### Run-vs-Run Comparison Report\n`;
+                markdown += `* **Run A (Baseline):** \`${runAVal}\`\n`;
+                markdown += `* **Run B (Comparison):** \`${runBVal}\`\n`;
+                markdown += `* **Delta log(Evidence):** \`${evidenceVal}\`\n`;
+                markdown += `* **Delta Chi2 (Best Fit):** \`${chi2Val}\`\n\n`;
+                
+                markdown += `| Parameter | Run A (Mean±σ) | Run B (Mean±σ) | Shift (Δ) | Significance |\n`;
+                markdown += `|---|---|---|---|---|\n`;
+                
+                const rows = document.querySelectorAll('#runcompare-table-body tr');
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td');
+                    if (cells.length === 5) {
+                        const param = cells[0].textContent.trim();
+                        const runA = cells[1].textContent.trim();
+                        const runB = cells[2].textContent.trim();
+                        const shift = cells[3].textContent.trim();
+                        const sig = cells[4].textContent.trim();
+                        markdown += `| ${param} | ${runA} | ${runB} | ${shift} | ${sig} |\n`;
+                    }
+                });
+                
+                copyToClipboard(markdown, 'btn-copy-runcompare');
+            });
+        }
     }
 
     try {
@@ -3471,6 +3505,9 @@ async function handleCompareRuns() {
     const tableBody = document.getElementById('runcompare-table-body');
     
     if (!runAVal || !runBVal || !evidenceEl || !chi2El || !tableBody) return;
+
+    const btnCopy = document.getElementById('btn-copy-runcompare');
+    if (btnCopy) btnCopy.style.display = 'none';
 
     tableBody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 12px; color: #a4b0be;">Analyzing and comparing runs...</td></tr>`;
 
@@ -3535,6 +3572,8 @@ async function handleCompareRuns() {
                 });
                 
                 tableBody.innerHTML = html;
+                const btnCopy = document.getElementById('btn-copy-runcompare');
+                if (btnCopy) btnCopy.style.display = 'inline-block';
 
                 // Update shifts chart
                 if (chartRunCompareShifts) {
