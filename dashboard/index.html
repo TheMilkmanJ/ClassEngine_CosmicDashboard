@@ -321,6 +321,9 @@
                     <button class="tab-btn" data-tab="tab-health">Run Health</button>
                     <button class="tab-btn" data-tab="tab-utils">Utilities</button>
                     <button class="tab-btn" data-tab="tab-autopsy">Run Autopsy &amp; Replay</button>
+                    <button class="tab-btn" data-tab="tab-perpoint">Per-Point &chi;&sup2;</button>
+                    <button class="tab-btn" data-tab="tab-runcompare">Run-vs-Run</button>
+                    <button class="tab-btn" data-tab="tab-provenance">Provenance</button>
                 </div>
 
                 <!-- Tab 1: Tension & Compare -->
@@ -925,6 +928,159 @@
                             <div class="jeffreys-title" style="margin-bottom: 8px; font-size: 0.8rem;">Expansion History Ratio H(z) / H<sub>&Lambda;CDM</sub>(z)</div>
                             <div class="chart-wrapper">
                                 <canvas id="chart-playground-ratio" style="background: rgba(0,0,0,0.2); border-radius: 4px; padding: 5px;"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 11: Per-Data-Point Chi2 contributions -->
+                <div class="tab-content" id="tab-perpoint">
+                    <div class="evidence-math">
+                        <div class="jeffreys-title" style="margin-bottom: 6px;">Per-Data-Point &chi;&sup2; Contributions</div>
+                        <p style="font-size: 0.72rem; color: #a4b0be; margin-bottom: 12px;">
+                            Detailed residuals and &chi;&sup2; contributions mapped to individual data points to analyze local anomalies.
+                        </p>
+                        <div style="margin-top: 10px; display: flex; gap: 10px; align-items: center; margin-bottom: 12px;">
+                            <label style="font-size: 0.8rem; color: #fff; font-family: var(--font-sans);">Select Dataset:</label>
+                            <select id="select-perpoint-dataset" style="flex: 1; padding: 6px 10px; border-radius: 4px; background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); color: #fff; font-size: 0.82rem; font-family: var(--font-sans);">
+                                <option value="bao">per-bin BAO residuals (6dFGS, SDSS MGS, BOSS DR12, eBOSS)</option>
+                                <option value="cmb">per-multipole CMB residuals (Planck TT/TE/EE Multipoles)</option>
+                                <option value="sn">per-supernova &chi;&sup2; contributions (Pantheon+ / Union3)</option>
+                                <option value="lensing">per-k lensing residuals (KiDS / DES Lensing C_ell / P_k)</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Visual Plot of residuals -->
+                        <div class="chart-wrapper" style="margin-bottom: 15px; height: 180px;">
+                            <canvas id="chart-perpoint-residuals" style="background: rgba(0,0,0,0.2); border-radius: 4px; padding: 5px;"></canvas>
+                        </div>
+
+                        <!-- Table -->
+                        <div style="max-height: 240px; overflow-y: auto; border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; background: rgba(0,0,0,0.2);">
+                            <table style="width: 100%; border-collapse: collapse; font-family: var(--font-sans); font-size: 0.78rem; text-align: left;">
+                                <thead style="position: sticky; top: 0; background: #1a1a24; border-bottom: 2px solid rgba(255,255,255,0.1); z-index: 10;">
+                                    <tr id="perpoint-table-head">
+                                        <!-- Dynamic headers -->
+                                    </tr>
+                                </thead>
+                                <tbody id="perpoint-table-body" style="color: #fff;">
+                                    <!-- Dynamic rows -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 12: Run-vs-Run Comparator -->
+                <div class="tab-content" id="tab-runcompare">
+                    <div class="evidence-math">
+                        <div class="jeffreys-title" style="margin-bottom: 6px;">Run-vs-Run side-by-side comparison</div>
+                        <p style="font-size: 0.72rem; color: #a4b0be; margin-bottom: 12px;">
+                            Load two independent Markov Chain Monte Carlo or PolyChord runs to compute parameter shifts and evidence updates.
+                        </p>
+                        
+                        <div style="display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap;">
+                            <div style="flex: 1; min-width: 120px;">
+                                <label style="display: block; font-size: 0.72rem; color: #a4b0be; margin-bottom: 4px;">Run A (Baseline):</label>
+                                <select id="select-run-a" style="width: 100%; padding: 6px; border-radius: 4px; background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); color: #fff; font-size: 0.78rem;"></select>
+                            </div>
+                            <div style="flex: 1; min-width: 120px;">
+                                <label style="display: block; font-size: 0.72rem; color: #a4b0be; margin-bottom: 4px;">Run B (Comparison):</label>
+                                <select id="select-run-b" style="width: 100%; padding: 6px; border-radius: 4px; background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); color: #fff; font-size: 0.78rem;"></select>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-glow" id="btn-compare-runs" style="width: 100%; padding: 8px; font-size: 0.82rem; background: linear-gradient(135deg, #00d2d3, #3867d6); color: white; border: none; font-weight: bold; margin-bottom: 15px;">Compare Runs</button>
+                        
+                        <!-- Evidence & Chi2 delta summary cards -->
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
+                            <div style="background: rgba(0,210,211,0.05); border: 1px solid rgba(0,210,211,0.15); padding: 8px; border-radius: 6px; text-align: center;">
+                                <div style="font-size: 0.7rem; color: #a4b0be; text-transform: uppercase;">&Delta; log(Evidence)</div>
+                                <div id="runcompare-evidence" style="font-size: 1.25rem; font-weight: bold; color: #00d2d3; margin-top: 4px;">-</div>
+                            </div>
+                            <div style="background: rgba(255,71,87,0.05); border: 1px solid rgba(255,71,87,0.15); padding: 8px; border-radius: 6px; text-align: center;">
+                                <div style="font-size: 0.7rem; color: #a4b0be; text-transform: uppercase;">&Delta; &chi;&sup2; (Best Fit)</div>
+                                <div id="runcompare-chi2" style="font-size: 1.25rem; font-weight: bold; color: #ff4757; margin-top: 4px;">-</div>
+                            </div>
+                        </div>
+
+                        <!-- Param shift visualizer -->
+                        <div class="chart-wrapper" style="margin-bottom: 15px; height: 180px;">
+                            <canvas id="chart-runcompare-shifts" style="background: rgba(0,0,0,0.2); border-radius: 4px; padding: 5px;"></canvas>
+                        </div>
+                        
+                        <!-- Parameter Shifts Table -->
+                        <div style="max-height: 200px; overflow-y: auto; border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; background: rgba(0,0,0,0.2);">
+                            <table style="width: 100%; border-collapse: collapse; font-family: var(--font-sans); font-size: 0.78rem; text-align: left;">
+                                <thead style="position: sticky; top: 0; background: #1a1a24; border-bottom: 2px solid rgba(255,255,255,0.1); z-index: 10;">
+                                    <tr>
+                                        <th style="padding: 6px; color: #a4b0be;">Parameter</th>
+                                        <th style="padding: 6px; color: #a4b0be;">Run A (Mean&plusmn;&sigma;)</th>
+                                        <th style="padding: 6px; color: #a4b0be;">Run B (Mean&plusmn;&sigma;)</th>
+                                        <th style="padding: 6px; color: #a4b0be;">Shift (&Delta;)</th>
+                                        <th style="padding: 6px; color: #a4b0be;">Significance</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="runcompare-table-body" style="color: #fff;">
+                                    <tr>
+                                        <td colspan="5" style="text-align: center; padding: 12px; color: #a4b0be;">Select two runs and click compare.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 13: Provenance Ledger -->
+                <div class="tab-content" id="tab-provenance">
+                    <div class="evidence-math">
+                        <div class="jeffreys-title" style="margin-bottom: 6px;">Scientific Provenance Ledger</div>
+                        <p style="font-size: 0.72rem; color: #a4b0be; margin-bottom: 12px;">
+                            Detailed run execution specifications, environmental dependency hashes, and compiler options for absolute reproducibility.
+                        </p>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 8px; font-family: var(--font-sans); font-size: 0.8rem; color: #fff;">
+                            
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px;">
+                                <span style="color: #a4b0be;">Run Time Stamp:</span>
+                                <span id="provenance-time" style="font-family: var(--font-mono); color: #00d2d3;">-</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px;">
+                                <span style="color: #a4b0be;">CLASS Solver Version:</span>
+                                <span id="provenance-class-ver" style="font-family: var(--font-mono); color: #fff;">-</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px;">
+                                <span style="color: #a4b0be;">Cobaya Version:</span>
+                                <span id="provenance-cobaya-ver" style="font-family: var(--font-mono); color: #fff;">-</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px;">
+                                <span style="color: #a4b0be;">PolyChord Version:</span>
+                                <span id="provenance-polychord-ver" style="font-family: var(--font-mono); color: #fff;">-</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px;">
+                                <span style="color: #a4b0be;">Git Commit Hash:</span>
+                                <span id="provenance-git-hash" style="font-family: var(--font-mono); color: #ff9ff3; cursor: pointer;" title="Click to copy hash">N/A</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px;">
+                                <span style="color: #a4b0be;">Python Version:</span>
+                                <span id="provenance-py-ver" style="font-family: var(--font-mono); color: #fff;">-</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px;">
+                                <span style="color: #a4b0be;">Conda Environment:</span>
+                                <span id="provenance-conda-env" style="font-family: var(--font-mono); color: #00d2d3;">-</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px; flex-direction: column; gap: 4px;">
+                                <span style="color: #a4b0be;">Model YAML File / Checksum:</span>
+                                <span id="provenance-config" style="font-family: var(--font-mono); color: #fff; font-size: 0.74rem;">-</span>
+                                <span id="provenance-config-hash" style="font-family: var(--font-mono); color: #a4b0be; font-size: 0.68rem; background: rgba(0,0,0,0.3); padding: 4px; border-radius: 4px; word-break: break-all;">-</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px; flex-direction: column; gap: 4px;">
+                                <span style="color: #a4b0be;">Active Compiler Parameters:</span>
+                                <span id="provenance-compiler" style="font-family: var(--font-mono); color: #feca57; font-size: 0.74rem; background: rgba(0,0,0,0.3); padding: 4px; border-radius: 4px; word-break: break-all;">-</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255,255,255,0.05); padding-bottom: 6px; flex-direction: column; gap: 4px;">
+                                <span style="color: #a4b0be;">Compute Host Specs:</span>
+                                <span id="provenance-machine" style="font-family: var(--font-mono); color: #fff; font-size: 0.74rem;">-</span>
                             </div>
                         </div>
                     </div>

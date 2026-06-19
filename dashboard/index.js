@@ -17,6 +17,8 @@ let chartTerrain = null;
 let chartResiduals = null;
 let chartQualityTrace = null;
 let chartQualityAutocorr = null;
+let chartPerPointResiduals = null;
+let chartRunCompareShifts = null;
 
 // Evolution animation variables
 let evolutionPlayInterval = null;
@@ -136,6 +138,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if (tabId === 'tab-autopsy') {
                     if (chartResiduals) chartResiduals.resize();
                     refreshAutopsyAndResiduals();
+                } else if (tabId === 'tab-perpoint') {
+                    if (chartPerPointResiduals) chartPerPointResiduals.resize();
+                    refreshPerPointChi2();
+                } else if (tabId === 'tab-runcompare') {
+                    if (chartRunCompareShifts) chartRunCompareShifts.resize();
+                    populateRunsLists();
+                } else if (tabId === 'tab-provenance') {
+                    refreshProvenanceLedger();
                 }
             }, 50);
         });
@@ -512,6 +522,7 @@ async function fetchSysInfo() {
 setupUploadZone(yamlZone, yamlInput, handleYamlUpload);
 
 function setupUploadZone(zone, input, handler) {
+    if (!zone || !input) return;
     zone.addEventListener('click', () => {
         input.value = ''; // Reset value to force 'change' event even for the same file
         input.click();
@@ -1562,7 +1573,6 @@ ${strugglesText}`;
 - Curvature Ok status: ${t.Ok_status} (Discrepancy: ${ok_t} vs flat)
 - Neutrino mass sum (m_ν) status: ${t.Mnu_status}`;
             }
-
             // Neutrino sector configuration & compilation wizard info
             let ncdmVal = "Neutrino Sector: Disabled";
             if (lastStatusData.ncdm_status && lastStatusData.ncdm_status.enabled) {
@@ -1575,11 +1585,82 @@ ${strugglesText}`;
             const pullsText = document.getElementById('dataset-pull-container') ? document.getElementById('dataset-pull-container').innerText.trim() : "No dataset pulls available.";
             const autopsyText = Array.from(document.querySelectorAll('#autopsy-timeline > div')).map(el => el.innerText.trim()).slice(-10).join('\n') || "No autopsy events.";
 
+            // Scrape Per-Point Chi2 data
+            let perPointSummary = "No per-point chi2 data loaded.";
+            if (perPointDataCache) {
+                const selectDataset = document.getElementById('select-perpoint-dataset');
+                const datasetType = selectDataset ? selectDataset.value : 'bao';
+                const cacheList = perPointDataCache[datasetType] || [];
+                perPointSummary = `Dataset Type: ${datasetType.toUpperCase()}\n`;
+                cacheList.slice(0, 8).forEach(item => {
+                    if (datasetType === 'bao') {
+                        perPointSummary += `- ID ${item.id} (${item.dataset}) at z=${item.redshift.toFixed(3)}: residual=${item.residual.toFixed(5)}, chi2=${item.chi2.toFixed(3)}\n`;
+                    } else if (datasetType === 'cmb') {
+                        perPointSummary += `- Multipole l=${item.multipole}: residual_Dl=${item.residual_Dl.toFixed(3)}, chi2=${item.chi2.toFixed(3)}\n`;
+                    } else if (datasetType === 'sn') {
+                        perPointSummary += `- Supernova ${item.name} at z=${item.redshift.toFixed(3)}: residual_mu=${item.residual_mu.toFixed(4)}, chi2=${item.chi2.toFixed(3)}\n`;
+                    } else if (datasetType === 'lensing') {
+                        perPointSummary += `- Scale k=${item.k_h_Mpc.toFixed(4)} h/Mpc: residual_Pk=${item.residual_Pk.toFixed(5)}, chi2=${item.chi2.toFixed(3)}\n`;
+                    }
+                });
+                if (cacheList.length > 8) {
+                    perPointSummary += `- ... (${cacheList.length - 8} more points truncated)\n`;
+                }
+            }
+
+            // Scrape Run Compare data
+            let runCompareSummary = "No active run comparison.";
+            const runcompareEv = document.getElementById('runcompare-evidence') ? document.getElementById('runcompare-evidence').textContent.trim() : "-";
+            const runcompareCh = document.getElementById('runcompare-chi2') ? document.getElementById('runcompare-chi2').textContent.trim() : "-";
+            const runAVal = document.getElementById('select-run-a') ? document.getElementById('select-run-a').value : "";
+            const runBVal = document.getElementById('select-run-b') ? document.getElementById('select-run-b').value : "";
+            if (runcompareEv !== "-" || runcompareCh !== "-") {
+                runCompareSummary = `Run A (Baseline): ${runAVal}\nRun B (Comparison): ${runBVal}\nDelta log(Z): ${runcompareEv}\nDelta Chi2: ${runcompareCh}\nParameter Shifts:\n`;
+                const rows = document.querySelectorAll('#runcompare-table-body tr');
+                rows.forEach(row => {
+                    const cols = row.querySelectorAll('td');
+                    if (cols.length === 5) {
+                        runCompareSummary += `- ${cols[0].textContent.trim()}: RunA=${cols[1].textContent.trim()}, RunB=${cols[2].textContent.trim()}, Shift=${cols[3].textContent.trim()}, Significance=${cols[4].textContent.trim()}\n`;
+                    }
+                });
+            }
+
+            // Scrape Provenance Ledger data
+            let provenanceSummary = "No provenance ledger loaded.";
+            const provTime = document.getElementById('provenance-time') ? document.getElementById('provenance-time').textContent.trim() : "-";
+            if (provTime !== "-") {
+                const provClass = document.getElementById('provenance-class-ver').textContent.trim();
+                const provCobaya = document.getElementById('provenance-cobaya-ver').textContent.trim();
+                const provPolychord = document.getElementById('provenance-polychord-ver').textContent.trim();
+                const provGit = document.getElementById('provenance-git-hash').textContent.trim();
+                const provPy = document.getElementById('provenance-py-ver').textContent.trim();
+                const provConda = document.getElementById('provenance-conda-env').textContent.trim();
+                const provConfig = document.getElementById('provenance-config').textContent.trim();
+                const provConfigHash = document.getElementById('provenance-config-hash').textContent.trim();
+                const provCompiler = document.getElementById('provenance-compiler').textContent.trim();
+                const provMachine = document.getElementById('provenance-machine').textContent.trim();
+                
+                provenanceSummary = `- Time stamp: ${provTime}
+- CLASS Solver: ${provClass}
+- Cobaya Solver: ${provCobaya}
+- PolyChord Solver: ${provPolychord}
+- Git Hash: ${provGit}
+- Python Version: ${provPy}
+- Conda Environment: ${provConda}
+- YAML Config: ${provConfig}
+- YAML Checksum: ${provConfigHash}
+- Compiler Options: ${provCompiler}
+- Machine Specification: ${provMachine}`;
+            }
+
             const promptText = `Here is the cosmological data from my CLASS & Cobaya run. Please analyze these diagnostics, evaluate if the custom model resolves the H0 and S8 tensions, check the model struggles/stability, and explain the physical implications:
 
 ### Run Status
 - Status: ${status}
 - Stagnation Detected: ${lastStatusData.stagnation_detected ? "Yes (" + lastStatusData.stagnation_reason + ")" : "No"}
+
+### Scientific Provenance & Reproducibility Ledger
+${provenanceSummary}
 
 ### Bayesian Evidence Comparison
 - Baseline log(Z): ${valBaselineText}
@@ -1590,6 +1671,9 @@ ${strugglesText}`;
 ### Model Comparison & Information Criteria (AIC & BIC)
 ${compVal}
 
+### Run-vs-Run Comparison Metrics
+${runCompareSummary}
+
 ### Run Health & Solver Stability
 ${rhVal}
 - Neutrino Sector Setup: ${ncdmVal}
@@ -1599,6 +1683,9 @@ ${jacobianText}
 
 ### Dataset Pulls & Parameter Shifts
 ${pullsText}
+
+### Per-Data-Point Residuals & Chi2 Contributions (Active Dataset Selection)
+${perPointSummary}
 
 ### Sampler Autopsy & Solver Anomalies (Last 10 Events)
 ${autopsyText}
@@ -2052,6 +2139,72 @@ function initCharts() {
                 },
                 y: {
                     title: { display: true, text: 'Correlation r_k', color: '#a4b0be' },
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: { color: '#a4b0be' }
+                }
+            },
+            plugins: {
+                legend: { display: false }
+            }
+        }
+    });
+
+    const ctxPerPoint = document.getElementById('chart-perpoint-residuals').getContext('2d');
+    chartPerPointResiduals = new Chart(ctxPerPoint, {
+        type: 'bar',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Residual / Chi2',
+                data: [],
+                backgroundColor: 'rgba(0, 210, 211, 0.6)',
+                borderColor: '#00d2d3',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: { color: '#a4b0be', font: { size: 9 } }
+                },
+                y: {
+                    title: { display: true, text: 'Residual Value', color: '#a4b0be' },
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: { color: '#a4b0be' }
+                }
+            },
+            plugins: {
+                legend: { display: false }
+            }
+        }
+    });
+
+    const ctxRunCompare = document.getElementById('chart-runcompare-shifts').getContext('2d');
+    chartRunCompareShifts = new Chart(ctxRunCompare, {
+        type: 'bar',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Parameter Shift (N_sigma)',
+                data: [],
+                backgroundColor: 'rgba(255, 159, 243, 0.6)',
+                borderColor: '#ff9ff3',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: { color: '#a4b0be' }
+                },
+                y: {
+                    title: { display: true, text: 'Significance (N_sigma)', color: '#a4b0be' },
                     grid: { color: 'rgba(255,255,255,0.05)' },
                     ticks: { color: '#a4b0be' }
                 }
@@ -2935,5 +3088,347 @@ async function refreshChainQuality() {
         }
     } catch (err) {
         console.error("Error refreshing chain quality:", err);
+    }
+}
+
+let perPointDataCache = null;
+
+async function refreshPerPointChi2() {
+    const tableHead = document.getElementById('perpoint-table-head');
+    const tableBody = document.getElementById('perpoint-table-body');
+    const selectDataset = document.getElementById('select-perpoint-dataset');
+    if (!tableHead || !tableBody || !selectDataset) return;
+
+    // Cache the listener registration
+    if (!selectDataset.dataset.listenerRegistered) {
+        selectDataset.addEventListener('change', () => {
+            renderPerPointDataset();
+        });
+        selectDataset.dataset.listenerRegistered = 'true';
+    }
+
+    try {
+        const res = await fetch(`${API_URL}/api/per_point_chi2?config_name=${encodeURIComponent(activeConfig)}`);
+        if (res.ok) {
+            const data = await res.json();
+            if (data.status === "success") {
+                perPointDataCache = data;
+                renderPerPointDataset();
+            }
+        }
+    } catch (err) {
+        console.error("Error refreshing per point chi2:", err);
+    }
+}
+
+function renderPerPointDataset() {
+    if (!perPointDataCache) return;
+    const selectDataset = document.getElementById('select-perpoint-dataset');
+    const tableHead = document.getElementById('perpoint-table-head');
+    const tableBody = document.getElementById('perpoint-table-body');
+    if (!selectDataset || !tableHead || !tableBody) return;
+
+    const datasetType = selectDataset.value;
+    const dataList = perPointDataCache[datasetType] || [];
+    
+    let headHtml = '';
+    let bodyHtml = '';
+    let labels = [];
+    let chartValues = [];
+    let yTitle = 'Residual';
+
+    if (datasetType === 'bao') {
+        headHtml = `
+            <th style="padding: 6px; color: #a4b0be;">ID</th>
+            <th style="padding: 6px; color: #a4b0be;">Dataset</th>
+            <th style="padding: 6px; color: #a4b0be;">Redshift (z)</th>
+            <th style="padding: 6px; color: #a4b0be;">Residual</th>
+            <th style="padding: 6px; color: #a4b0be;">Error</th>
+            <th style="padding: 6px; color: #a4b0be;">&chi;&sup2;</th>
+        `;
+        dataList.forEach(item => {
+            bodyHtml += `
+                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <td style="padding: 6px;">${item.id}</td>
+                    <td style="padding: 6px; font-weight: bold; color: #ff9ff3;">${item.dataset}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono);">${item.redshift.toFixed(3)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono); color: ${item.residual >= 0 ? '#10ac84' : '#ff4757'}">${item.residual.toFixed(5)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono);">${item.error.toFixed(5)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono); color: #00d2d3; font-weight: bold;">${item.chi2.toFixed(3)}</td>
+                </tr>
+            `;
+            labels.push(`z=${item.redshift.toFixed(2)} (${item.dataset})`);
+            chartValues.push(item.residual);
+        });
+        yTitle = 'Residual Value';
+    } else if (datasetType === 'cmb') {
+        headHtml = `
+            <th style="padding: 6px; color: #a4b0be;">Multipole (&ell;)</th>
+            <th style="padding: 6px; color: #a4b0be;">Residual &Delta;D<sub>&ell;</sub></th>
+            <th style="padding: 6px; color: #a4b0be;">Error</th>
+            <th style="padding: 6px; color: #a4b0be;">&chi;&sup2;</th>
+        `;
+        dataList.forEach(item => {
+            bodyHtml += `
+                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <td style="padding: 6px; font-weight: bold; color: #feca57;">&ell;=${item.multipole}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono); color: ${item.residual_Dl >= 0 ? '#10ac84' : '#ff4757'}">${item.residual_Dl.toFixed(3)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono);">${item.error.toFixed(3)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono); color: #00d2d3; font-weight: bold;">${item.chi2.toFixed(3)}</td>
+                </tr>
+            `;
+            labels.push(`&ell;=${item.multipole}`);
+            chartValues.push(item.residual_Dl);
+        });
+        yTitle = 'Residual D_l';
+    } else if (datasetType === 'sn') {
+        headHtml = `
+            <th style="padding: 6px; color: #a4b0be;">Supernova Name</th>
+            <th style="padding: 6px; color: #a4b0be;">Redshift (z)</th>
+            <th style="padding: 6px; color: #a4b0be;">Residual &Delta;&mu;</th>
+            <th style="padding: 6px; color: #a4b0be;">Error</th>
+            <th style="padding: 6px; color: #a4b0be;">&chi;&sup2; Contribution</th>
+        `;
+        dataList.forEach(item => {
+            bodyHtml += `
+                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <td style="padding: 6px; font-weight: bold; color: #ff7675;">${item.name}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono);">${item.redshift.toFixed(3)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono); color: ${item.residual_mu >= 0 ? '#10ac84' : '#ff4757'}">${item.residual_mu.toFixed(4)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono);">${item.error.toFixed(4)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono); color: #00d2d3; font-weight: bold;">${item.chi2.toFixed(3)}</td>
+                </tr>
+            `;
+            labels.push(item.name);
+            chartValues.push(item.chi2);
+        });
+        yTitle = 'Chi2 Contribution';
+    } else if (datasetType === 'lensing') {
+        headHtml = `
+            <th style="padding: 6px; color: #a4b0be;">Scale k (h/Mpc)</th>
+            <th style="padding: 6px; color: #a4b0be;">Residual &Delta;P<sub>k</sub></th>
+            <th style="padding: 6px; color: #a4b0be;">Error</th>
+            <th style="padding: 6px; color: #a4b0be;">&chi;&sup2;</th>
+        `;
+        dataList.forEach(item => {
+            bodyHtml += `
+                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <td style="padding: 6px; font-weight: bold; color: #54a0ff;">${item.k_h_Mpc.toFixed(4)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono); color: ${item.residual_Pk >= 0 ? '#10ac84' : '#ff4757'}">${item.residual_Pk.toFixed(5)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono);">${item.error.toFixed(5)}</td>
+                    <td style="padding: 6px; font-family: var(--font-mono); color: #00d2d3; font-weight: bold;">${item.chi2.toFixed(3)}</td>
+                </tr>
+            `;
+            labels.push(`k=${item.k_h_Mpc.toFixed(3)}`);
+            chartValues.push(item.residual_Pk);
+        });
+        yTitle = 'Residual P_k';
+    }
+
+    tableHead.innerHTML = headHtml;
+    tableBody.innerHTML = bodyHtml;
+
+    if (chartPerPointResiduals) {
+        chartPerPointResiduals.data.labels = labels;
+        chartPerPointResiduals.data.datasets[0].data = chartValues;
+        chartPerPointResiduals.options.scales.y.title.text = yTitle;
+        
+        // Give dynamic color: red for negative, cyan for positive or general
+        if (datasetType === 'sn') {
+            chartPerPointResiduals.data.datasets[0].backgroundColor = 'rgba(255, 71, 87, 0.6)';
+            chartPerPointResiduals.data.datasets[0].borderColor = '#ff4757';
+            chartPerPointResiduals.data.datasets[0].label = 'Chi2 Contribution';
+        } else {
+            chartPerPointResiduals.data.datasets[0].backgroundColor = 'rgba(0, 210, 211, 0.6)';
+            chartPerPointResiduals.data.datasets[0].borderColor = '#00d2d3';
+            chartPerPointResiduals.data.datasets[0].label = 'Residual';
+        }
+        
+        chartPerPointResiduals.update();
+    }
+}
+
+async function populateRunsLists() {
+    const runA = document.getElementById('select-run-a');
+    const runB = document.getElementById('select-run-b');
+    const btnCompare = document.getElementById('btn-compare-runs');
+    if (!runA || !runB || !btnCompare) return;
+
+    // Cache listener registration
+    if (!btnCompare.dataset.listenerRegistered) {
+        btnCompare.addEventListener('click', handleCompareRuns);
+        btnCompare.dataset.listenerRegistered = 'true';
+    }
+
+    try {
+        const res = await fetch(`${API_URL}/api/runs/list`);
+        if (res.ok) {
+            const data = await res.json();
+            if (data.status === "success" && data.runs) {
+                // Populate selectors
+                const originalA = runA.value;
+                const originalB = runB.value;
+
+                runA.innerHTML = '';
+                runB.innerHTML = '';
+
+                data.runs.forEach(r => {
+                    const optA = document.createElement('option');
+                    optA.value = r;
+                    optA.textContent = r;
+                    runA.appendChild(optA);
+
+                    const optB = document.createElement('option');
+                    optB.value = r;
+                    optB.textContent = r;
+                    runB.appendChild(optB);
+                });
+
+                // Re-select or select defaults
+                if (originalA && data.runs.includes(originalA)) runA.value = originalA;
+                else if (data.runs.length > 0) runA.value = data.runs[0];
+
+                if (originalB && data.runs.includes(originalB)) runB.value = originalB;
+                else if (data.runs.length > 1) runB.value = data.runs[1];
+                else if (data.runs.length > 0) runB.value = data.runs[0];
+            }
+        }
+    } catch (err) {
+        console.error("Error populating runs lists:", err);
+    }
+}
+
+async function handleCompareRuns() {
+    const runAVal = document.getElementById('select-run-a').value;
+    const runBVal = document.getElementById('select-run-b').value;
+    const evidenceEl = document.getElementById('runcompare-evidence');
+    const chi2El = document.getElementById('runcompare-chi2');
+    const tableBody = document.getElementById('runcompare-table-body');
+    
+    if (!runAVal || !runBVal || !evidenceEl || !chi2El || !tableBody) return;
+
+    tableBody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 12px; color: #a4b0be;">Analyzing and comparing runs...</td></tr>`;
+
+    try {
+        const response = await fetch(`${API_URL}/api/runs/compare`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ run_a: runAVal, run_b: runBVal })
+        });
+        
+        if (response.ok) {
+            const data = await response.json();
+            if (data.status === "success") {
+                // Update delta logEvidence
+                if (data.delta_evidence !== null) {
+                    const sign = data.delta_evidence >= 0 ? '+' : '';
+                    evidenceEl.textContent = `${sign}${data.delta_evidence.toFixed(2)}`;
+                    evidenceEl.style.color = data.delta_evidence >= 0 ? '#10ac84' : '#ff4757';
+                } else {
+                    evidenceEl.textContent = 'N/A';
+                    evidenceEl.style.color = '#a4b0be';
+                }
+
+                // Update delta Chi2
+                if (data.delta_chi2 !== null) {
+                    const sign = data.delta_chi2 >= 0 ? '+' : '';
+                    chi2El.textContent = `${sign}${data.delta_chi2.toFixed(1)}`;
+                    chi2El.style.color = data.delta_chi2 <= 0 ? '#10ac84' : '#ff4757'; // Lower chi2 is better
+                } else {
+                    chi2El.textContent = 'N/A';
+                    chi2El.style.color = '#a4b0be';
+                }
+
+                // Populate parameter shifts table
+                let html = '';
+                let labels = [];
+                let nsigs = [];
+                
+                Object.entries(data.parameter_shifts).forEach(([param, details]) => {
+                    const meanA = details.mean_a;
+                    const errA = details.err_a;
+                    const meanB = details.mean_b;
+                    const errB = details.err_b;
+                    const shift = details.shift;
+                    const nsigma = details.nsigma;
+                    
+                    let sigColor = nsigma >= 3.0 ? '#ff4757' : (nsigma >= 1.0 ? '#feca57' : '#10ac84');
+                    let shiftColor = shift >= 0 ? '#10ac84' : '#ff4757';
+
+                    html += `
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px; font-weight: bold; color: #ff9ff3;">${param}</td>
+                            <td style="padding: 6px; font-family: var(--font-mono);">${meanA.toFixed(4)} &plusmn; ${errA.toFixed(4)}</td>
+                            <td style="padding: 6px; font-family: var(--font-mono);">${meanB.toFixed(4)} &plusmn; ${errB.toFixed(4)}</td>
+                            <td style="padding: 6px; font-family: var(--font-mono); color: ${shiftColor};">${shift >= 0 ? '+' : ''}${shift.toFixed(4)}</td>
+                            <td style="padding: 6px; font-family: var(--font-mono); color: ${sigColor}; font-weight: bold;">${nsigma.toFixed(2)}&sigma;</td>
+                        </tr>
+                    `;
+                    
+                    labels.push(param);
+                    nsigs.push(nsigma);
+                });
+                
+                tableBody.innerHTML = html;
+
+                // Update shifts chart
+                if (chartRunCompareShifts) {
+                    chartRunCompareShifts.data.labels = labels;
+                    chartRunCompareShifts.data.datasets[0].data = nsigs;
+                    chartRunCompareShifts.update();
+                }
+            }
+        }
+    } catch (err) {
+        console.error("Error comparing runs:", err);
+        tableBody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 12px; color: #ff4757;">Failed to compare runs.</td></tr>`;
+    }
+}
+
+async function refreshProvenanceLedger() {
+    const timeEl = document.getElementById('provenance-time');
+    const classEl = document.getElementById('provenance-class-ver');
+    const cobayaEl = document.getElementById('provenance-cobaya-ver');
+    const polychordEl = document.getElementById('provenance-polychord-ver');
+    const gitEl = document.getElementById('provenance-git-hash');
+    const pyEl = document.getElementById('provenance-py-ver');
+    const condaEl = document.getElementById('provenance-conda-env');
+    const configEl = document.getElementById('provenance-config');
+    const configHashEl = document.getElementById('provenance-config-hash');
+    const compilerEl = document.getElementById('provenance-compiler');
+    const machineEl = document.getElementById('provenance-machine');
+
+    if (!timeEl || !classEl || !cobayaEl || !polychordEl || !gitEl || !pyEl || !condaEl || !configEl || !configHashEl || !compilerEl || !machineEl) return;
+
+    try {
+        const res = await fetch(`${API_URL}/api/provenance_ledger?config_name=${encodeURIComponent(activeConfig)}`);
+        if (res.ok) {
+            const data = await res.json();
+            if (data.status === "success") {
+                timeEl.textContent = data.timestamp;
+                classEl.textContent = data.class_version;
+                cobayaEl.textContent = data.cobaya_version;
+                polychordEl.textContent = data.polychord_version;
+                
+                gitEl.textContent = data.git_hash !== 'N/A' ? data.git_hash.substring(0, 8) : 'N/A';
+                if (data.git_hash !== 'N/A') {
+                    gitEl.title = `Full Hash: ${data.git_hash}. Click to copy.`;
+                    gitEl.onclick = () => {
+                        copyToClipboard(data.git_hash, 'provenance-git-hash');
+                    };
+                }
+                
+                pyEl.textContent = data.python_version;
+                condaEl.textContent = data.conda_environment;
+                configEl.textContent = data.config_file;
+                configHashEl.textContent = `SHA-256: ${data.config_hash}`;
+                compilerEl.textContent = data.compiler_flags;
+                
+                const m = data.machine;
+                machineEl.textContent = `${m.system} ${m.release} (${m.machine}) | ${m.cpu_cores} Cores | ${m.ram_gb} GB RAM`;
+            }
+        }
+    } catch (err) {
+        console.error("Error refreshing provenance ledger:", err);
     }
 }
