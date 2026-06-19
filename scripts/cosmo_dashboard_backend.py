@@ -831,7 +831,7 @@ class AdoptedProcess:
         return 0
 
 def find_and_adopt_running_cobaya():
-    global RUNNING_PROCESS, ACTIVE_OUTPUT_PREFIX, ACTIVE_YAML_PATH, CURRENT_STATUS, RUN_START_TIME
+    global RUNNING_PROCESS, MONITOR_PROCESS, ACTIVE_OUTPUT_PREFIX, ACTIVE_YAML_PATH, CURRENT_STATUS, RUN_START_TIME
     if RUNNING_PROCESS is not None:
         return
         
@@ -853,6 +853,21 @@ def find_and_adopt_running_cobaya():
                     break
         except Exception:
             pass
+
+    # Also adopt the running monitor script (plot_chains.py) if the run is active
+    if RUNNING_PROCESS is not None and MONITOR_PROCESS is None:
+        for proc in psutil.process_iter(['pid', 'name', 'cmdline']):
+            try:
+                cmdline = proc.info.get('cmdline')
+                if cmdline:
+                    cmd_str = " ".join(cmdline)
+                    if "plot_chains.py" in cmd_str and ACTIVE_YAML_PATH in cmd_str:
+                        pid = proc.info['pid']
+                        MONITOR_PROCESS = AdoptedProcess(pid)
+                        print(f"Adopted running Monitor process: PID {pid}")
+                        break
+            except Exception:
+                pass
 
 def get_realtime_posterior_stats(output_prefix):
     import numpy as np
