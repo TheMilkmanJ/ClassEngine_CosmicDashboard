@@ -44,11 +44,27 @@ docker run --rm -p 8000:8000 -v $(pwd)/chains:/app/chains cosmic-dashboard
 ```
 Then manually open `dashboard/index.html` in any browser.
 
-### Dashboard Capabilities:
-   * **Upload Configurations:** Drag-and-drop a Cobaya `.yaml` file.
-   * **Upload Custom Code:** Upload modified C files (like `background.c`) and rebuild CLASS in real-time.
-   * **Nested Sampler Controller:** Launch/abort MPI runs with 12 parallel ranks in WSL and track dead points and convergence.
-   * **Bayesian Comparison:** Automatically calculate $\Delta\ln\mathcal{Z}$ and map results on the Jeffreys scale.
+### Advanced Academic & Diagnostic Features:
+
+* **Interactive Modified Gravity Playground & Background Solver Emulator:**
+  * Adjust cosmological parameters ($H_0$, $\omega_{cdm}$, $\omega_b$) and modified gravity modifiers ($\xi_{\text{prtoe}}$, $\delta_{\text{prtoe}}$, $\zeta_{\text{prtoe}}$, $\beta_{\text{prtoe}}$) via live sliders.
+  * Emulate and instantly plot background Hubble expansion ratios $H(z)/H_{\Lambda\text{CDM}}(z)$, dark energy equation of state $w(z)$, and modified gravity coupling strength $\mu(z)$ with real-time DHOST stability boundary checks.
+* **Live Sampler Health & MCMC Convergence Diagnostics:**
+  * Ditch terminal log scrolling: monitor dead point counts, evaluation speeds, and live efficiency updates in a graphical GUI.
+  * Real-time trace plots, autocorrelation time charts, and Gelman-Rubin ($R-1$) PSRF (Potential Scale Reduction Factor) metrics to verify parameter mixing *during* execution.
+* **One-Click Run-vs-Run Comparator:**
+  * Load and compare two run outputs side-by-side (e.g., standard $\Lambda\text{CDM}$ vs. your modified gravity model).
+  * Automatically calculates evidence difference ($\Delta\log Z$), best-fit $\chi^2$ differences, and statistical parameter shifts in significance levels ($N_\sigma = |\Delta\mu| / \sqrt{\sigma_A^2 + \sigma_B^2}$).
+* **Individual Per-Data-Point Residuals Explorer:**
+  * Breaks down residuals, uncertainties, and individual $\chi^2$ contributions per individual bin/data-point: per multipole for Planck CMB, per bin for BAO (6dFGS, MGS, BOSS, eBOSS), and per supernova for Pantheon+.
+* **Unified Scientific Provenance & Accountability Ledger:**
+  * Generates a scientific metadata footprint of compilation flags, machine CPU/RAM specifications, Conda environment specifications, CLASS/Cobaya engine versions, active configuration checksums (SHA-256), and Git repository commit hashes for absolute paper reproducibility.
+* **Jupyter Notebook Boilerplate Generator:**
+  * Instantly export an interactive Python Jupyter notebook (`.ipynb`) pre-configured with the exact C-engine settings and cosmology parameters of your active run.
+* **Diagnostic Run Autopsy Timeline:**
+  * Scans active run logs for compilation errors, Cholesky decomposition issues, unphysical proposal widths, or stability wedge violations and maps them on a chronological event timeline.
+* **Auto-Rebuilder & Parallel Solver Control:**
+  * Easily toggle active CPU cores and run nested PolyChord samplers via multi-threaded MPI natively in the background, with automatic CLASS C-engine rebuilding.
 
 ---
 
