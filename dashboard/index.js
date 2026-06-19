@@ -2451,10 +2451,11 @@ function updatePlayground() {
     clearTimeout(playgroundDebounceTimeout);
     playgroundDebounceTimeout = setTimeout(async () => {
         const delta = parseFloat(document.getElementById('slide-delta').value);
-        const xi = parseFloat(document.getElementById('slide-xi').value);
+        const xiSlider = parseFloat(document.getElementById('slide-xi').value);
         const zeta = parseFloat(document.getElementById('slide-zeta').value);
         const betaSlider = parseFloat(document.getElementById('slide-beta').value);
         
+        const xi = Math.pow(10, xiSlider);
         const beta = Math.pow(10, betaSlider);
         
         document.getElementById('val-slide-delta').innerText = delta.toFixed(2);
