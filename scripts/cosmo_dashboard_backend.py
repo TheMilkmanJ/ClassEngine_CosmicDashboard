@@ -510,21 +510,36 @@ def get_best_fit_details(output_prefix: str):
                                 lensing_vals = []
                                 other_vals = []
                                 
+                                # Check group existence to prevent double counting group vs individual keys
+                                has_cmb_group = any(k.startswith('chi2__') and ('cmb' in k.lower() or 'planck' in k.lower()) for k in raw_params.keys())
+                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() or 'boss' in k.lower() or 'desi' in k.lower()) for k in raw_params.keys())
+                                has_sn_group = any(k.startswith('chi2__') and ('sn' in k.lower() or 'pantheon' in k.lower() or 'shoes' in k.lower()) for k in raw_params.keys())
+                                has_lensing_group = any(k.startswith('chi2__') and ('lensing' in k.lower() or 'lens' in k.lower()) for k in raw_params.keys())
+                                
                                 for k, v in raw_params.items():
                                     if not (k.startswith('chi2__') or k.startswith('loglike__')):
                                         continue
                                     
+                                    # Skip individual loglike if a corresponding category chi2__ group key is present
+                                    if k.startswith('loglike__'):
+                                        k_lower = k.lower()
+                                        if has_cmb_group and ('cmb' in k_lower or 'planck' in k_lower):
+                                            continue
+                                        if has_bao_group and ('bao' in k_lower or 'boss' in k_lower or 'desi' in k_lower):
+                                            continue
+                                        if has_sn_group and ('sn' in k_lower or 'pantheon' in k_lower or 'shoes' in k_lower):
+                                            continue
+                                        if has_lensing_group and ('lensing' in k_lower or 'lens' in k_lower):
+                                            continue
+                                            
                                     val = -2.0 * v if k.startswith('loglike__') else v
                                     k_lower = k.lower()
                                     
-                                    if 'desi' in k_lower:
-                                        desi_vals.append(val)
-                                    elif 'lensing' in k_lower or 'lens' in k_lower:
-                                        lensing_vals.append(val)
-                                    elif 'cmb' in k_lower or 'planck' in k_lower:
-                                        cmb_vals.append(val)
-                                    elif 'bao' in k_lower or 'boss' in k_lower:
+                                    # Group desi under bao and lensing under cmb to align with UI stats panels
+                                    if 'desi' in k_lower or 'bao' in k_lower or 'boss' in k_lower:
                                         bao_vals.append(val)
+                                    elif 'lensing' in k_lower or 'lens' in k_lower or 'cmb' in k_lower or 'planck' in k_lower:
+                                        cmb_vals.append(val)
                                     elif 'sn' in k_lower or 'pantheon' in k_lower or 'shoes' in k_lower:
                                         sn_vals.append(val)
                                     else:
