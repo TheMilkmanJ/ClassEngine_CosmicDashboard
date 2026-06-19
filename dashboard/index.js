@@ -94,6 +94,7 @@ const checkAutoRunLcdm = document.getElementById('check-autorun-lcdm');
 
 let currentProposedUpdates = {};
 let watchdogIgnored = false; // Flag to temporarily ignore watchdog
+let lastRunStartTime = null; // Track run start time to persist ignore state across refreshes
 let lastWatchdogAlertCount = 0; // Track watchdog alert count for audio alerts
 
 // Initial setup
@@ -991,7 +992,23 @@ async function checkStatus() {
             btnResume.disabled = false;
             btnStop.disabled = true;
         }
-        
+
+        // Manage persisted watchdog ignore state
+        if (data.run_start_time !== lastRunStartTime) {
+            lastRunStartTime = data.run_start_time;
+            // A new run has started or the engine is idle; reset local and persisted ignore state
+            watchdogIgnored = false;
+            localStorage.removeItem('watchdogIgnored');
+            localStorage.removeItem('watchdogIgnored_runStart');
+        } else {
+            // Check if we have a persisted ignore state for this specific run
+            const persistedIgnore = localStorage.getItem('watchdogIgnored') === 'true';
+            const persistedRunStart = localStorage.getItem('watchdogIgnored_runStart');
+            if (persistedIgnore && persistedRunStart === String(lastRunStartTime)) {
+                watchdogIgnored = true;
+            }
+        }
+
         // Update Watchdog card based on alerts from the backend
         let activeAlerts = (data.watchdog_alerts && data.watchdog_alerts.length > 0 && !watchdogIgnored) ? data.watchdog_alerts.length : 0;
         if (activeAlerts > lastWatchdogAlertCount) {
@@ -1030,8 +1047,6 @@ async function checkStatus() {
                 }
             }
         } else {
-            // All clear! Reset dog to happy mode
-            watchdogIgnored = false;
             currentProposedUpdates = {};
             watchdogIcon.innerText = '🐶';
             watchdogCard.style.borderColor = "#00d2d3"; // Neon Cyan
@@ -1218,6 +1233,8 @@ function calculateEvidence(customLogZ) {
 // Watchdog Action Listeners
 document.getElementById('btn-deny-priors').addEventListener('click', () => {
     watchdogIgnored = true;
+    localStorage.setItem('watchdogIgnored', 'true');
+    localStorage.setItem('watchdogIgnored_runStart', String(lastRunStartTime));
     watchdogIcon.innerText = '🐶';
     watchdogCard.style.borderColor = "#00d2d3";
     watchdogText.style.color = "#00d2d3";

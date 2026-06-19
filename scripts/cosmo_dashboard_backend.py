@@ -1003,6 +1003,7 @@ async def get_status():
 
     stats_data = {
         "status": CURRENT_STATUS,
+        "run_start_time": RUN_START_TIME,
         "dead_points": 0,
         "log_evidence": None,
         "log_evidence_error": None,
