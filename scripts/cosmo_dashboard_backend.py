@@ -185,6 +185,8 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
 
     # 3. Fall back to parsing the log file to get an initialization-phase prior-average evidence baseline
     log_file = stats_file.with_suffix(".log")
+    if not log_file.exists() and "polychord_raw" in str(stats_file):
+        log_file = stats_file.parent.parent / f"{stats_file.stem}.log"
     if log_file.exists():
         try:
             logls = []
@@ -1065,9 +1067,12 @@ async def get_status():
 
     EXTERNAL_LOGS.clear()
 
-    if CURRENT_STATUS != "idle" and ACTIVE_OUTPUT_PREFIX:
-        stats_file = Path(f"{ACTIVE_OUTPUT_PREFIX}.stats")
+    if ACTIVE_OUTPUT_PREFIX:
         prefix_path = Path(ACTIVE_OUTPUT_PREFIX)
+        stats_file = Path(f"{ACTIVE_OUTPUT_PREFIX}.stats")
+        raw_stats_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.stats"
+        if not stats_file.exists() and raw_stats_file.exists():
+            stats_file = raw_stats_file
         resume_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.resume"
         stats_data.update(parse_polychord_stats(stats_file, resume_file))
         
@@ -2549,6 +2554,9 @@ async def download_reproducibility_pack(config_name: str = "uploaded_config.yaml
                 zip_file.write(summary_file, arcname=f"{prefix_path.name}_summary.txt")
                 
             stats_file = Path(f"{output_prefix}.stats")
+            raw_stats_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.stats"
+            if not stats_file.exists() and raw_stats_file.exists():
+                stats_file = raw_stats_file
             if stats_file.exists():
                 zip_file.write(stats_file, arcname=f"{prefix_path.name}.stats")
                 
@@ -2631,7 +2639,7 @@ MODEL_CURVES_CACHE = {}
 @app.get("/api/compare_models")
 async def compare_models():
     """Scans chains/ for completed or active runs and returns a model comparison matrix."""
-    global MODEL_CURVES_CACHE
+    global MODEL_CURVES_CACHE, ACTIVE_YAML_PATH
     import numpy as np
     
     chains_dir = Path("chains")
@@ -2661,9 +2669,16 @@ async def compare_models():
         
         logz = None
         logz_err = None
-        if stats_path.exists():
-            resume_path = chains_dir / f"{prefix}_polychord_raw" / f"{prefix}.resume"
-            res = parse_polychord_stats(stats_path, resume_path)
+        resolved_stats_path = stats_path
+        raw_stats_path = chains_dir / f"{prefix}_polychord_raw" / f"{prefix}.stats"
+        if not resolved_stats_path.exists() and raw_stats_path.exists():
+            resolved_stats_path = raw_stats_path
+        resume_path = chains_dir / f"{prefix}_polychord_raw" / f"{prefix}.resume"
+        log_path = resolved_stats_path.with_suffix(".log")
+        if not log_path.exists() and "polychord_raw" in str(resolved_stats_path):
+            log_path = resolved_stats_path.parent.parent / f"{resolved_stats_path.parent.name.replace('_polychord_raw','')}.log"
+        if resolved_stats_path.exists() or resume_path.exists() or log_path.exists() or Path(f"{full_prefix}.log").exists():
+            res = parse_polychord_stats(resolved_stats_path, resume_path)
             logz = res.get("log_evidence")
             logz_err = res.get("log_evidence_error")
             
@@ -4083,6 +4098,29 @@ async def compare_runs(req: CompareRunsRequest):
                                         params[p_name] = {"mean": mean_val, "err": err_val}
                                     except ValueError:
                                         pass
+            except Exception: pass
+            
+        # Try loading log evidence directly from the .stats files
+        stats_file = None
+        if run_name.startswith("archive_"):
+            base_dir = chains_dir / run_name
+            stats_files = list(base_dir.glob("**/*.stats"))
+            stats_file = stats_files[0] if stats_files else None
+        else:
+            check_paths = [
+                chains_dir / f"{run_name}.stats",
+                chains_dir / f"{run_name}_polychord_raw" / f"{run_name}.stats"
+            ]
+            for p in check_paths:
+                if p.exists():
+                    stats_file = p
+                    break
+                    
+        if stats_file and stats_file.exists():
+            try:
+                res = parse_polychord_stats(stats_file)
+                if res.get("log_evidence") is not None:
+                    log_evidence = res["log_evidence"]
             except Exception: pass
             
         if best_chi2 is None and txt_file and txt_file.exists() and os.path.getsize(txt_file) > 0:
