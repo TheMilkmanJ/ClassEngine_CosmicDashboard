@@ -1137,7 +1137,7 @@ def find_lcdm_scores():
 @app.get("/api/status")
 async def get_status():
     """Checks the status of the running Cobaya process and reports progress."""
-    global RUNNING_PROCESS, ACTIVE_OUTPUT_PREFIX, EXTERNAL_LOGS, CURRENT_STATUS, WATCHDOG_ALERTS, RUN_START_TIME
+    global RUNNING_PROCESS, ACTIVE_OUTPUT_PREFIX, EXTERNAL_LOGS, CURRENT_STATUS, WATCHDOG_ALERTS, RUN_START_TIME, ACTIVE_YAML_PATH
     struggles = {}
     h0_val = None
     h0_err = None
@@ -1699,6 +1699,29 @@ async def get_status():
     if COSMO_CURVES_CACHE is None:
         COSMO_CURVES_CACHE = compute_cosmo_curves({})
     stats_data["cosmo_curves"] = COSMO_CURVES_CACHE
+
+    # Robust LCDM detection logic
+    is_lcdm = False
+    if ACTIVE_YAML_PATH:
+        try:
+            p = Path(ACTIVE_YAML_PATH)
+            if p.exists():
+                with open(p, 'r') as f:
+                    cfg = yaml.safe_load(f)
+                classy_args = cfg.get('theory', {}).get('classy', {}).get('extra_args', {})
+                use_prtoe = classy_args.get('use_prtoe', 'no')
+                params = cfg.get('params', {})
+                has_prtoe_params = any(pt in params for pt in ['delta_prtoe', 'xi_prtoe', 'log_beta_prtoe', 'zeta_prtoe'])
+                if use_prtoe == 'no' or not has_prtoe_params:
+                    is_lcdm = True
+            elif "lcdm" in ACTIVE_YAML_PATH.lower():
+                is_lcdm = True
+        except Exception:
+            pass
+    elif ACTIVE_OUTPUT_PREFIX and "lcdm" in ACTIVE_OUTPUT_PREFIX.lower():
+        is_lcdm = True
+        
+    stats_data["is_lcdm"] = is_lcdm
 
     return stats_data
 

@@ -833,7 +833,8 @@ async function checkStatus() {
         const activePrefixLower = (data.active_output_prefix || '').toLowerCase();
         const activeConfigLower = (activeConfig || '').toLowerCase();
         const yamlNameLower = (yamlName ? yamlName.textContent : '').toLowerCase();
-        const isLcdm = activeYamlPathLower.includes('lcdm') ||
+        const isLcdm = data.is_lcdm ||
+                       activeYamlPathLower.includes('lcdm') ||
                        activePrefixLower.includes('lcdm') ||
                        activeConfigLower.includes('lcdm') ||
                        yamlNameLower.includes('lcdm') ||
@@ -1271,7 +1272,8 @@ async function checkStatus() {
             const activePrefixLower = (data.active_output_prefix || '').toLowerCase();
             const activeConfigLower = (activeConfig || '').toLowerCase();
             const yamlNameLower = (yamlName ? yamlName.textContent : '').toLowerCase();
-            const isLcdmRun = activeYamlPathLower.includes('lcdm') ||
+            const isLcdmRun = data.is_lcdm ||
+                              activeYamlPathLower.includes('lcdm') ||
                               activePrefixLower.includes('lcdm') ||
                               activeConfigLower.includes('lcdm') ||
                               yamlNameLower.includes('lcdm') ||
