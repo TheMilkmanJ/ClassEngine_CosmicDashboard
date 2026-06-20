@@ -1021,6 +1021,55 @@ def get_localtunnel_url():
             pass
     return None
 
+def find_lcdm_scores():
+    logz = None
+    chi2 = None
+    chains_dir = Path("chains")
+    if not chains_dir.exists():
+        return logz, chi2
+
+    candidates = []
+    for f in chains_dir.glob("*.log"):
+        stem = f.stem
+        if "lcdm" in stem.lower():
+            candidates.append(stem)
+            
+    for f in chains_dir.glob("*.updated.yaml"):
+        stem = f.stem.replace(".updated", "")
+        if "lcdm" in stem.lower() and stem not in candidates:
+            candidates.append(stem)
+
+    candidates = list(set(candidates))
+    best_candidate = None
+    max_dead_points = -1
+    best_stats = {}
+
+    for prefix in candidates:
+        full_prefix = chains_dir / prefix
+        stats_file = Path(f"{full_prefix}.stats")
+        raw_stats_file = chains_dir / f"{prefix}_polychord_raw" / f"{prefix}.stats"
+        if not stats_file.exists() and raw_stats_file.exists():
+            stats_file = raw_stats_file
+        
+        resume_file = chains_dir / f"{prefix}_polychord_raw" / f"{prefix}.resume"
+        
+        stats = parse_polychord_stats(stats_file, resume_file)
+        dead_pts = stats.get("dead_points", 0)
+        
+        if dead_pts > max_dead_points:
+            max_dead_points = dead_pts
+            best_candidate = prefix
+            best_stats = stats
+
+    if best_candidate and best_stats.get("log_evidence") is not None:
+        logz = best_stats["log_evidence"]
+        
+        fit_details = get_best_fit_details(f"chains/{best_candidate}")
+        if fit_details is not None:
+            chi2 = fit_details["total"]
+            
+    return logz, chi2
+
 @app.get("/api/status")
 async def get_status():
     """Checks the status of the running Cobaya process and reports progress."""
@@ -1436,6 +1485,14 @@ async def get_status():
                         baseline_logz = float(baseline)
     except Exception: pass
 
+    # If baseline values are missing/None, try to find dynamically from completed/active LCDM runs
+    if baseline_logz is None or baseline_chi2 is None:
+        dyn_logz, dyn_chi2 = find_lcdm_scores()
+        if baseline_logz is None:
+            baseline_logz = dyn_logz
+        if baseline_chi2 is None:
+            baseline_chi2 = dyn_chi2
+
     k_baseline = 6
     k_custom = 6
     updated_yaml = Path(f"{ACTIVE_OUTPUT_PREFIX}.updated.yaml")
@@ -1581,15 +1638,30 @@ async def get_status():
 
 @app.get("/api/baselines")
 async def get_baselines():
-    """Retrieves the baseline values from the database."""
+    """Retrieves the baseline values from the database, resolving missing values dynamically from completed runs."""
     baseline_file = Path("scripts/baseline_database.json")
-    if not baseline_file.exists():
-        raise HTTPException(status_code=404, detail="Baseline database not found.")
-    try:
-        with open(baseline_file, 'r') as f:
-            return json.load(f)
-    except json.JSONDecodeError:
-        raise HTTPException(status_code=500, detail="Error decoding baseline database JSON.")
+    baselines = {}
+    if baseline_file.exists():
+        try:
+            with open(baseline_file, 'r') as f:
+                baselines = json.load(f)
+        except Exception:
+            pass
+            
+    # Resolve planck_bao_pantheonplus_shoes entry
+    entry = baselines.get("planck_bao_pantheonplus_shoes", {})
+    if not isinstance(entry, dict):
+        entry = {"log_evidence": float(entry) if entry is not None else None, "best_chi2": None}
+        
+    if entry.get("log_evidence") is None or entry.get("best_chi2") is None:
+        dyn_logz, dyn_chi2 = find_lcdm_scores()
+        if entry.get("log_evidence") is None:
+            entry["log_evidence"] = dyn_logz
+        if entry.get("best_chi2") is None:
+            entry["best_chi2"] = dyn_chi2
+            
+    baselines["planck_bao_pantheonplus_shoes"] = entry
+    return baselines
 
 @app.post("/api/update_baseline")
 async def update_baseline(data: UpdateBaseline):
@@ -4203,8 +4275,6 @@ async def compare_runs(req: CompareRunsRequest):
             except Exception: pass
             
         if "lcdm" in run_name.lower():
-            log_evidence = log_evidence or -1402.5
-            best_chi2 = best_chi2 or 2898.4
             if not params:
                 params = {
                     "H0": {"mean": 67.4, "err": 0.5},
@@ -4213,8 +4283,6 @@ async def compare_runs(req: CompareRunsRequest):
                     "delta_prtoe": {"mean": 0.0, "err": 0.0}
                 }
         else:
-            log_evidence = log_evidence or -1396.2
-            best_chi2 = best_chi2 or 2884.1
             if not params:
                 params = {
                     "H0": {"mean": 70.8, "err": 0.9},
@@ -4684,13 +4752,13 @@ if __name__ == "__main__":
     if needs_init:
         baselines = {
             "planck_bao_pantheonplus_shoes": {
-                "log_evidence": -1402.5,
-                "best_chi2": 2898.4
+                "log_evidence": None,
+                "best_chi2": None
             }
         }
         with open(baseline_db_file, 'w') as f:
             json.dump(baselines, f, indent=4)
-        print(f"Initialized standard baselines in: {baseline_db_file}")
+        print(f"Initialized empty baselines in: {baseline_db_file}")
 
     print("Starting CosmicDashboard backend server on http://localhost:8000")
     uvicorn.run(app, host="0.0.0.0", port=8000, access_log=False)
