@@ -53,8 +53,8 @@ Since CosmicDashboard is built with responsive web layouts, you can securely mon
    npx localtunnel --port 8000
    ```
 3. **Open the Link & Authenticate:** It will output a public URL (e.g., `https://cosmic-run-x.loca.lt`). Open this link in your phone's browser (Safari, Chrome, etc.). The page is secured by HTTP Basic Authentication to prevent unauthorized access.
-   * ** Username:** 
-   * ** Password:** 
+   * ** Username: CosmicExplorer ** 
+   * ** Password: theuniverse ** 
    *(Note: You can customize these credentials by setting the `DASHBOARD_USER` and `DASHBOARD_PASS` environment variables on your host machine before launching the server).*
 
 ### Advanced Academic & Diagnostic Features:
@@ -125,7 +125,7 @@ one of them, and run with two input files, for instance:
 
     ./class test.ini cl_permille.pre
 
-The files *.pre are suppposed to specify the precision parameters for
+The files *.pre are supposed to specify the precision parameters for
 which you don't want to keep default values. If you find it more
 convenient, you can pass these precision parameter values in your *.ini
 file instead of an additional *.pre file.
