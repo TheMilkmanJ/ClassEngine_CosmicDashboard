@@ -48,8 +48,8 @@ cropped = rgba_img.crop((x_min, y_min, x_max, y_max))
 cropped.save(dest_png, format='PNG')
 print(f"Saved transparent PNG at: {dest_png}")
 
-# Save transparent ICO format with multiple standard sizes
-ico_sizes = [(16, 16), (32, 32), (48, 48), (256, 256)]
+# Save transparent ICO format with multiple standard sizes (excluding 256x256 to ensure BMP compatibility)
+ico_sizes = [(128, 128), (64, 64), (48, 48), (32, 32), (16, 16)]
 cropped.save(dest_ico, format='ICO', sizes=ico_sizes)
 print(f"Saved transparent ICO at: {dest_ico}")
 
