@@ -15,15 +15,15 @@ img = Image.open(src_jpg)
 width, height = img.size
 
 # Bounding box of the rounded square icon in the 1024x1024 image
-x_min, y_min = 117, 117
-x_max, y_max = 907, 907
+x_min, y_min = 107, 107
+x_max, y_max = 917, 917
 
 # Create an alpha mask initialized to 0 (fully transparent)
 mask = Image.new('L', (width, height), 0)
 draw = ImageDraw.Draw(mask)
 
 # Corner radius to match the rounded corners of the app icon
-radius = 160
+radius = 165
 
 # Draw rounded rectangle on mask
 try:
