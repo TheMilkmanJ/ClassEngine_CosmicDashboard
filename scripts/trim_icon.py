@@ -57,7 +57,7 @@ print(f"Saved transparent ICO at: {dest_ico}")
 windows_app_dir = Path("/mnt/c/Users/themi/CosmicDashboardAssets")
 try:
     windows_app_dir.mkdir(parents=True, exist_ok=True)
-    local_win_ico = windows_app_dir / "galaxy_icon.ico"
+    local_win_ico = windows_app_dir / "galaxy_icon_v3.ico"
     shutil.copy(dest_ico, local_win_ico)
     print(f"Successfully copied transparent icon to Windows: {local_win_ico}")
 except Exception as e:

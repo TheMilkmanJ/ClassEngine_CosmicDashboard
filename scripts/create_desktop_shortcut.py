@@ -23,12 +23,12 @@ if windows_desktop.exists():
     windows_app_dir = Path("/mnt/c/Users/themi/CosmicDashboardAssets")
     try:
         windows_app_dir.mkdir(parents=True, exist_ok=True)
-        local_win_ico = windows_app_dir / "galaxy_icon.ico"
+        local_win_ico = windows_app_dir / "galaxy_icon_v3.ico"
         shutil.copy(dest_ico, local_win_ico)
         print(f"Copied icon to Windows directory: {local_win_ico}")
         
         # Windows-style local path for the shortcut IconFile field
-        windows_icon_path = r"C:\Users\themi\CosmicDashboardAssets\galaxy_icon.ico"
+        windows_icon_path = r"C:\Users\themi\CosmicDashboardAssets\galaxy_icon_v3.ico"
         
         url_content = f"""[InternetShortcut]
 URL=http://localhost:8000/
