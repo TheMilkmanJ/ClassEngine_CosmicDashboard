@@ -24,6 +24,8 @@ This repository contains the **PRTOE** (Pulford-Romsa Theory of Everything) mode
 
 ## CosmicDashboard: Working & Usable Control Suite
 
+TAKING APPLICATION FEATURE REQUESTS!!! Please leave a detailed description of what you'd like to see from this application under the Issues tab and I'll add it in ASAP!
+
 ### Quick Start (One-Click Launch)
 
 The absolute easiest way to run CosmicDashboard is using Docker. We have included automated launch scripts that will safely compile the C-engine, set up the Python environment, and launch the visual dashboard for you.
