@@ -1,24 +1,44 @@
-CLASS: Cosmic Linear Anisotropy Solving System  {#mainpage}
-==============================================
+# CosmicDashboard + PRTOE (CLASS + Cobaya Controller)
 
-Authors: Julien Lesgourgues, Thomas Tram, Nils Schoeneberg
-
-with several major inputs from other people, especially Benjamin
-Audren, Simon Prunet, Jesus Torrado, Miguel Zumalacarregui, Francesco
-Montanari, Deanna Hooper, Samuel Brieden, Daniel Meinert, Matteo Lucca, etc.
-
-For download and information, see http://class-code.net
-
-
-PRTOE Model & CosmicDashboard Web Application
-==============================================
+**A production-grade web UI for running, monitoring, and performing advanced Bayesian analysis on cosmological models (including PRTOE) with CLASS and Cobaya/PolyChord.**
 
 **Author:** Justin Ryan Pulford
+
+This repository provides the **PRTOE** (Pulford-Romsa Theory of Everything) model modifications to the CLASS C solver, plus **CosmicDashboard** — a beautiful, glassmorphic, dark-themed web application that makes it easy to:
+- Compile custom CLASS engines
+- Run nested sampling (Cobaya + PolyChord)
+- Perform rich diagnostics and comparisons
+- **Use a full modern Bayesian toolkit that obsoletes traditional AIC/BIC** for complex models (see features below)
+
+It is built on top of the excellent upstream [CLASS code](http://class-code.net) by Julien Lesgourgues et al.
 
 > [!IMPORTANT]
 > **Invitation to Researchers:** If you are downloading this code, we politely ask you to run the PRTOE model configurations and help us test its viability as an alternative cosmological model. By comparing its Bayesian evidence ($\Delta\ln\mathcal{Z}$), $\chi^2$ fits, and parameter pulls (such as the $H_0$ and $S_8$ tensions) against standard $\Lambda\text{CDM}$, you can help the cosmology community determine if PRTOE is a framework worth exploring further. Thank you for your contribution!
 
-This repository contains the **PRTOE** (Pulford-Romsa Theory of Everything) model modifications implemented directly in the CLASS C solver. It also packages **CosmicDashboard**, a production-grade, glassmorphic dark-theme web application that automates compiling custom CLASS engines, running nested PolyChord samplers via Cobaya, and — most importantly — a full modern Bayesian model comparison suite (PSIS-LOO + Pareto k, Bayesian Stacking, Savage-Dickey density ratios, conditional posterior evolution movies, etc.) that makes traditional point-estimate tools (AIC/BIC) obsolete for complex modified-gravity / beyond-ΛCDM work. It also includes rich diagnostics (per-point residuals, tensions, run-vs-run, provenance, influence maps, etc.), visual "alive" UI elements, remote phone access, AI prompt generators, and one-click reproducibility artifacts.
+---
+
+## CosmicDashboard: How This Dashboard Works
+
+**See the UI in action:** Real screenshots and videos are encouraged in the [Screenshots & Demo Videos](#screenshots--demo-videos) section (user-captured from actual runs).
+
+### Quick Start (Recommended)
+Use the provided launch scripts (easiest for most users):
+
+**Windows:** Double-click `launch_windows.bat`
+
+**Mac/Linux:** `bash launch_mac_linux.sh` or `./launch_cosmic.sh` (the robust one with phone tunnel support)
+
+Docker is used under the hood for a clean environment. Your chains and data live in the local `chains/` folder and persist across runs.
+
+See the detailed Quick Start section below for manual Docker options and more.
+
+### Core Idea
+Instead of fighting with terminal commands, log files, and manual post-processing, CosmicDashboard gives you:
+- A live, updating web interface while your sampler runs
+- Automatic Bayesian evidence comparison against ΛCDM baselines
+- Advanced tools (detailed in the sections below) that go far beyond what AIC/BIC can tell you
+
+The UI is fully responsive — you can even monitor and control runs from your phone using the built-in Phone Sync feature.
 
 ---
 
