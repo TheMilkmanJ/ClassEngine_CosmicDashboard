@@ -104,7 +104,54 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchBaselines();
     checkStatus();
     statusInterval = setInterval(checkStatus, 3000);
+
+    // WebSocket for real-time (production improvement, fallback to poll)
+    try {
+        const wsProtocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+        const wsUrl = `${wsProtocol}//${window.location.host}/ws/status`;
+        const ws = new WebSocket(wsUrl);
+        ws.onmessage = (event) => {
+            const msg = JSON.parse(event.data);
+            if (msg.type === 'status_update' && msg.data) {
+                // Update key UI elements live (extend as needed)
+                if (window.updateStatusUI) window.updateStatusUI(msg.data);
+                else console.log('WS status update (real-time):', msg.data.status);
+                refreshDerivedParameters();
+            }
+        };
+        ws.onerror = () => console.log('WS not available, using polling');
+    } catch(e) { /* polling fallback */ }
     fetchSysInfo();
+    loadClassEngines(true);
+    refreshDerivedParameters();  // initial attempt (will show placeholder until data)
+
+    // Wire Manage Engines button (prompt UI for adding/selecting engines)
+    const manageBtn = document.getElementById('btn-manage-engines');
+    if (manageBtn) {
+        manageBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const list = (classEnginesCache || []).map(e => `${e.id}: ${e.name} @ ${e.class_path}`).join('\n') || 'None';
+            const choice = prompt(
+                `Current CLASS Engines:\n${list}\n\nType "add" to register a new CLASS build,\n an engine ID to select it, or "refresh":`,
+                'refresh'
+            );
+            if (!choice) return;
+            const lc = choice.toLowerCase();
+            if (lc === 'add') {
+                addClassEngineQuick();
+            } else if (lc === 'refresh') {
+                loadClassEngines(true);
+            } else {
+                fetch(`${API_URL}/api/class_engines/select`, {
+                    method: 'POST', headers: {'Content-Type':'application/json'},
+                    body: JSON.stringify({id: choice})
+                }).then(r => r.ok ? r.json() : Promise.reject()).then(() => {
+                    loadClassEngines(true);
+                    fetchSysInfo();
+                }).catch(() => alert('Select failed'));
+            }
+        });
+    }
     
     // Tab switching logic
     const tabButtons = document.querySelectorAll('.tab-btn');
@@ -135,6 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if (tabId === 'tab-playground') {
                     if (chartPlaygroundRatio) chartPlaygroundRatio.resize();
                     updatePlayground(); // Auto draw playground line
+                    buildGeneralPlaygroundSliders(); // load dynamic generalized sliders
                 } else if (tabId === 'tab-health') {
                     refreshSamplerBrain();
                     if (chartQualityTrace) chartQualityTrace.resize();
@@ -157,6 +205,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if (tabId === 'tab-utils') {
                     refreshCheckpointsList();
                     refreshErrorLog();
+                } else if (tabId === 'tab-tension') {
+                    refreshDerivedParameters();
                 }
             }, 50);
         });
@@ -201,6 +251,50 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnPlayEvolution = document.getElementById('btn-play-evolution');
     if (btnPlayEvolution) {
         btnPlayEvolution.addEventListener('click', toggleEvolutionPlayback);
+    }
+
+    // Manual login button to force modal (ensures in-app modal is used, no native Basic prompt)
+    const btnManualLogin = document.getElementById('btn-manual-login');
+    if (btnManualLogin) {
+        btnManualLogin.addEventListener('click', () => showLoginModal());
+    }
+
+    const btnBundle = document.getElementById('btn-submit-bundle');
+    if (btnBundle) {
+        btnBundle.addEventListener('click', () => {
+            window.location.href = `${API_URL}/api/generate_submit_bundle`;
+        });
+    }
+
+    const btnPPC = document.getElementById('btn-ppc');
+    const btnFisher = document.getElementById('btn-fisher');
+    const ppcResult = document.getElementById('ppc-fisher-result');
+    if (btnPPC) {
+        btnPPC.addEventListener('click', async () => {
+            if (ppcResult) ppcResult.textContent = 'Running PPC...';
+            const r = await fetch(`${API_URL}/api/posterior_predictive`, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({n:20})});
+            const j = await r.json();
+            if (ppcResult) ppcResult.textContent = JSON.stringify(j, null, 2);
+        });
+    }
+    if (btnFisher) {
+        btnFisher.addEventListener('click', async () => {
+            if (ppcResult) ppcResult.textContent = 'Running Fisher...';
+            const r = await fetch(`${API_URL}/api/fisher_forecast`, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({params:['H0','w0_fld']})});
+            const j = await r.json();
+            if (ppcResult) ppcResult.textContent = JSON.stringify(j, null, 2);
+        });
+    }
+
+    const btnComputeExpr = document.getElementById('btn-compute-expr');
+    if (btnComputeExpr) {
+        btnComputeExpr.addEventListener('click', computeDerivedExpression);
+    }
+    const exprInput = document.getElementById('derived-expr-input');
+    if (exprInput) {
+        exprInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') computeDerivedExpression();
+        });
     }
 
     // Toggle Neutrino Details
@@ -539,6 +633,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial load for Checkpoints and Errors
     refreshCheckpointsList();
     refreshErrorLog();
+
+    // Initial nebula effect: show pretty gas cloud when no file selected
+    if (yamlZone) yamlZone.classList.add('empty');
 });
 
 function switchToLcdm() {
@@ -546,6 +643,7 @@ function switchToLcdm() {
     yamlName.textContent = 'Default: lcdm_config.yaml';
     yamlName.classList.remove('active');
     yamlInput.value = '';
+    if (yamlZone) yamlZone.classList.add('empty');
     appendLog(`Reverted to default ΛCDM configuration: lcdm_config.yaml`);
 }
 
@@ -553,6 +651,7 @@ function switchToCustom() {
     activeConfig = 'uploaded_config.yaml';
     yamlName.textContent = 'Custom: uploaded_config.yaml';
     yamlName.classList.add('active');
+    if (yamlZone) yamlZone.classList.remove('empty');
     appendLog(`Switched to custom configuration: uploaded_config.yaml`);
 }
 
@@ -580,6 +679,236 @@ async function fetchSysInfo() {
     } catch (err) {
         classyBadge.textContent = "Engine: Unknown";
     }
+}
+
+async function refreshDerivedParameters() {
+    const body = document.getElementById('derived-params-body');
+    if (!body) return;
+    try {
+        const res = await fetch(`${API_URL}/api/derived_parameters`);
+        if (!res.ok) {
+            body.innerHTML = '<div style="color:#a4b0be">No derived data yet</div>';
+            return;
+        }
+        const j = await res.json();
+        if (j.status !== 'success' || !j.derived) {
+            body.innerHTML = '<div style="color:#a4b0be">Run a model to populate derived quantities</div>';
+            return;
+        }
+        const d = j.derived;
+        let html = '';
+        const nice = {
+            'age': 'Age of Universe (Gyr)',
+            'rs': 'Sound horizon r_s (Mpc)',
+            '100_theta_s': '100 × θ_s',
+            'sigma8': 'σ₈',
+            'S8': 'S₈',
+            'Omega_m': 'Ω_m',
+            'Omega_Lambda': 'Ω_Λ',
+            'z_reio': 'z_reio',
+            'tau_reio': 'τ_reio'
+        };
+        Object.keys(d).forEach(k => {
+            if (k === 'computed_at' || k === 'engine' || k === 'error') return;
+            const label = nice[k] || k;
+            const val = typeof d[k] === 'number' ? d[k].toFixed(5) : d[k];
+            html += `<div><span style="color:#a4b0be">${label}:</span> <span style="color:#fff;font-weight:600">${val}</span></div>`;
+        });
+        if (d.engine) {
+            html += `<div style="grid-column:1/-1; font-size:0.68rem; color:#666; margin-top:4px;">Computed with: ${d.engine}</div>`;
+        }
+        body.innerHTML = html || '<div style="color:#a4b0be">No standard deriveds available for this model</div>';
+    } catch (e) {
+        body.innerHTML = '<div style="color:#a4b0be">Error loading derived parameters</div>';
+    }
+}
+
+async function computeDerivedExpression() {
+    const input = document.getElementById('derived-expr-input');
+    const resultDiv = document.getElementById('derived-expr-result');
+    if (!input || !resultDiv) return;
+    const expr = input.value.trim();
+    if (!expr) return;
+    try {
+        const res = await fetch(`${API_URL}/api/derived_parameters`, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({expressions: [expr]})
+        });
+        const j = await res.json();
+        if (j.custom && j.custom[expr] !== undefined) {
+            resultDiv.textContent = `${expr} = ${j.custom[expr]}`;
+        } else {
+            resultDiv.textContent = 'Error computing expression';
+        }
+    } catch(e) {
+        resultDiv.textContent = 'Network error';
+    }
+}
+
+// Generalized playground: dynamic sliders from current model's YAML params
+let generalPlaygroundDebounce = null;
+async function buildGeneralPlaygroundSliders() {
+    const container = document.getElementById('general-sliders-container');
+    if (!container) return;
+    container.innerHTML = '<div style="color:#a4b0be;font-size:0.7rem;">Loading parameters from active config...</div>';
+    try {
+        const res = await fetch(`${API_URL}/api/playground_params`);
+        const data = await res.json();
+        const params = data.params || [];
+        container.innerHTML = '';
+        if (params.length === 0) {
+            container.innerHTML = '<div style="color:#a4b0be;font-size:0.7rem;">No adjustable params with priors found in YAML. Load a config with priors.</div>';
+            return;
+        }
+        params.forEach(p => {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <div style="display:flex; justify-content:space-between; color:#fff; margin-bottom:2px; font-size:0.75rem;">
+                    <span>${p.latex || p.name}:</span>
+                    <span id="val-gen-${p.name}" style="font-family:var(--font-mono);color:#00d2d3;">${p.ref.toFixed(4)}</span>
+                </div>
+                <input type="range" class="play-slider gen-slider" data-param="${p.name}" min="${p.min}" max="${p.max}" step="${(p.max-p.min)/100}" value="${p.ref}" style="width:100%; height:5px; accent-color:#00d2d3; background:rgba(255,255,255,0.1); border-radius:3px;">
+            `;
+            container.appendChild(div);
+            const slider = div.querySelector('.gen-slider');
+            const valSpan = div.querySelector(`#val-gen-${p.name}`);
+            slider.addEventListener('input', () => {
+                valSpan.textContent = parseFloat(slider.value).toFixed(4);
+                // debounce update
+                clearTimeout(generalPlaygroundDebounce);
+                generalPlaygroundDebounce = setTimeout(() => {
+                    updateGeneralPlayground();
+                }, 200);
+            });
+        });
+        // initial draw
+        updateGeneralPlayground();
+    } catch(e) {
+        container.innerHTML = '<div style="color:#a4b0be;font-size:0.7rem;">Failed to load params</div>';
+    }
+}
+
+async function updateGeneralPlayground() {
+    const container = document.getElementById('general-sliders-container');
+    if (!container) return;
+    const sliders = container.querySelectorAll('.gen-slider');
+    const extra = {};
+    sliders.forEach(s => {
+        extra[s.dataset.param] = parseFloat(s.value);
+    });
+    // call the existing playground curves with extra_args for general support
+    try {
+        // reuse the PRTOE request shape but with extra
+        const payload = {
+            // base cosmology from current or defaults
+            omega_b: 0.0224,
+            omega_cdm: 0.120,
+            H0: 67.4,
+            extra_args: extra
+        };
+        const res = await fetch(`${API_URL}/api/playground_curves`, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(payload)
+        });
+        if (!res.ok) return;
+        const curves = await res.json();
+        // Update the playground ratio chart with the general results (same response format)
+        if (chartPlaygroundRatio && curves.z && curves.H_ratio) {
+            chartPlaygroundRatio.data.labels = curves.z.map(z => z.toFixed(2));
+            chartPlaygroundRatio.data.datasets[0].data = curves.H_ratio;
+            chartPlaygroundRatio.update('none');
+        }
+        console.log('General playground updated with extra_args:', extra);
+    } catch(e) { console.warn('General playground update failed', e); }
+}
+
+// --- CLASS Engine Selector & Management (multi-engine support) ---
+let classEnginesCache = [];
+
+async function loadClassEngines(populateSelect = true) {
+    try {
+        const res = await fetch(`${API_URL}/api/class_engines`);
+        if (!res.ok) return;
+        const data = await res.json();
+        classEnginesCache = data.engines || [];
+        const activeId = data.active_id;
+
+        if (populateSelect) {
+            const sel = document.getElementById('select-class-engine');
+            if (sel) {
+                sel.innerHTML = '';
+                if (classEnginesCache.length === 0) {
+                    const opt = document.createElement('option');
+                    opt.value = '';
+                    opt.textContent = 'No engines registered';
+                    sel.appendChild(opt);
+                } else {
+                    classEnginesCache.forEach(eng => {
+                        const opt = document.createElement('option');
+                        opt.value = eng.id;
+                        opt.textContent = `${eng.name} (${eng.id})`;
+                        if (eng.id === activeId) opt.selected = true;
+                        sel.appendChild(opt);
+                    });
+                }
+                // Wire change
+                if (!sel._wired) {
+                    sel.addEventListener('change', async () => {
+                        const newId = sel.value;
+                        if (!newId) return;
+                        try {
+                            const r = await fetch(`${API_URL}/api/class_engines/select`, {
+                                method: 'POST',
+                                headers: {'Content-Type': 'application/json'},
+                                body: JSON.stringify({id: newId})
+                            });
+                            if (r.ok) {
+                                // refresh badge with new engine
+                                fetchSysInfo();
+                                // optional: small toast
+                                console.log('CLASS engine switched to', newId);
+                            } else {
+                                alert('Failed to switch CLASS engine');
+                            }
+                        } catch(e) { console.error(e); }
+                    });
+                    sel._wired = true;
+                }
+            }
+        }
+        return data;
+    } catch (e) {
+        console.warn('Could not load class engines', e);
+    }
+}
+
+async function addClassEngineQuick() {
+    // Simple prompt-based adder for quick use (full UI can be expanded in a tab later)
+    const id = prompt('Engine ID (short, e.g. "standard" or "my_mg"):', 'standard');
+    if (!id) return;
+    const name = prompt('Display name:', 'Standard CLASS');
+    const cp = prompt('Full path to CLASS source dir (must contain Makefile):', '/path/to/your/class');
+    if (!cp) return;
+    const notes = prompt('Notes (optional):', 'Standard CLASS for baseline comparisons');
+    try {
+        const r = await fetch(`${API_URL}/api/class_engines`, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({id, name, class_path: cp, notes, python_exe: null})
+        });
+        const j = await r.json();
+        if (r.ok) {
+            alert('Engine registered: ' + (j.engine ? j.engine.name : id));
+            await loadClassEngines(true);
+            // auto select the new one?
+            const sel = document.getElementById('select-class-engine');
+            if (sel) sel.value = id;
+        } else {
+            alert('Error: ' + (j.detail || 'could not register'));
+        }
+    } catch(e) { alert('Network error: ' + e); }
 }
 
 // File Upload Zones
@@ -616,6 +945,7 @@ function setupUploadZone(zone, input, handler) {
 async function handleYamlUpload(file) {
     yamlName.textContent = file.name;
     yamlName.classList.add('active');
+    if (yamlZone) yamlZone.classList.remove('empty');
     appendLog(`Selected configuration: ${file.name}`);
     
     const formData = new FormData();
@@ -803,6 +1133,11 @@ async function checkStatus() {
         if (!response.ok) return;
         const data = await response.json();
         lastStatusData = data;
+        
+        // Refresh drool-worthy derived params when we have new best-fit info
+        if (data.best_fit || data.chi2 || data.evidence) {
+            refreshDerivedParameters();
+        }
         
         // Update Phone Sync link
         const phoneLinkContainer = document.getElementById('phone-link-container');
@@ -1680,6 +2015,19 @@ ${strugglesText}`;
                 text += "No 1-sigma constraints populated yet.\n";
             }
             copyToClipboard(text, 'btn-copy-constraints');
+        });
+    }
+
+    // 4.5 Copy Derived Cosmological Parameters (new)
+    const btnCopyDerived = document.getElementById('btn-copy-derived');
+    if (btnCopyDerived) {
+        btnCopyDerived.addEventListener('click', () => {
+            const body = document.getElementById('derived-params-body');
+            if (!body) return;
+            let text = '--- Key Derived Cosmological Quantities ---\n';
+            // grab visible text
+            text += body.innerText || body.textContent;
+            copyToClipboard(text, 'btn-copy-derived');
         });
     }
 

@@ -222,12 +222,112 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Cool nebula / gas cloud background inside the drop box (pretty decorative layer)
+   Only visible when empty (no file selected) for a beautiful placeholder effect.
+   Stronger, more vibrant gas cloud with slower drift, better blending.
+   Tiny stars for depth. */
+.file-upload-zone.empty::before {
+    content: '';
+    position: absolute;
+    inset: -25px;
+    background:
+        /* vibrant purple core - stronger */
+        radial-gradient(ellipse at 25% 28%, rgba(160, 80, 255, 0.32) 0%, transparent 48%),
+        /* bright cyan gas */
+        radial-gradient(ellipse at 70% 65%, rgba(50, 210, 255, 0.22) 0%, transparent 55%),
+        /* pink/magenta wisps */
+        radial-gradient(ellipse at 45% 82%, rgba(255, 90, 180, 0.18) 0%, transparent 38%),
+        /* soft teal outer haze */
+        radial-gradient(ellipse at 60% 40%, rgba(100, 220, 200, 0.12) 0%, transparent 60%),
+        /* additional deep blue layer for depth */
+        radial-gradient(ellipse at 80% 25%, rgba(70, 100, 230, 0.15) 0%, transparent 50%);
+    background-size: 160% 160%, 175% 175%, 120% 120%, 200% 200%, 145% 145%;
+    animation: nebulaDrift 35s ease-in-out infinite alternate;
+    filter: blur(10px);
+    z-index: 0;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    opacity: 0.9;
+}
+
+@keyframes nebulaDrift {
+    0% {
+        background-position: 0% 8%, 105% 92%, 38% 22%, 68% 78%, 82% 15%;
+        transform: translate(0, 0) scale(1);
+    }
+    100% {
+        background-position: 22% 32%, 68% 58%, 72% 58%, 28% 18%, 35% 28%;
+        transform: translate(2px, -3px) scale(1.04);
+    }
+}
+
+/* Tiny stars / gas specks - only in empty state */
+.file-upload-zone.empty::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(white, rgba(255,255,255,.7) 1px, transparent 2px),
+        radial-gradient(white, rgba(255,255,255,.4) 0.5px, transparent 1.5px),
+        radial-gradient(white, rgba(200,220,255,.3) 0.8px, transparent 2px);
+    background-size: 34px 38px, 18px 21px, 48px 52px;
+    background-position: 0 0, 16px 10px, 25px 30px;
+    opacity: 0.28;
+    z-index: 0;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    filter: blur(0.2px);
+}
+
+/* Ensure upload content sits above the nebula layer + better contrast */
+.file-upload-zone > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Subtle text shadow for readability over the colorful nebula */
+.file-upload-zone p,
+.file-upload-zone .file-name-display,
+.file-upload-zone .upload-icon {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 .file-upload-zone:hover {
     background: rgba(0, 210, 255, 0.02);
     border-color: var(--neon-cyan);
     box-shadow: 0 0 15px rgba(0, 210, 255, 0.1);
+}
+
+/* Enhance nebula on hover (only when empty) - brighter, faster drift, less blur */
+.file-upload-zone.empty:hover::before {
+    opacity: 1;
+    filter: blur(6px);
+    animation-duration: 22s;
+}
+
+.file-upload-zone.empty:hover::after {
+    opacity: 0.38;
+}
+
+/* Tiny stars / gas specks inside the drop box for extra nebula depth */
+.file-upload-zone::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(white, rgba(255,255,255,.65) 1px, transparent 2px),
+        radial-gradient(white, rgba(255,255,255,.35) 0.6px, transparent 1.8px);
+    background-size: 36px 41px, 19px 23px;
+    background-position: 0 0, 18px 11px;
+    opacity: 0.22;
+    z-index: 0;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    filter: blur(0.3px);
 }
 
 .upload-icon {

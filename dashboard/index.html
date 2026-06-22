@@ -112,6 +112,7 @@
                     <span class="status-dot status-idle" id="status-dot"></span>
                     <span class="status-text" id="status-text">SYSTEM IDLE</span>
                 </div>
+                <button class="btn btn-secondary" id="btn-manual-login" style="padding: 4px 10px; font-size: 0.75rem; background: rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1);">Login / Switch User</button>
             </div>
         </header>
 
@@ -129,6 +130,11 @@
                         <p>Drag & drop or <span class="browse">browse</span></p>
                         <span class="file-name-display" id="yaml-name">Default: lcdm_config.yaml</span>
                         <input type="file" id="yaml-input" accept=".yaml,.yml" style="display: none;">
+                        <!-- Built-in pretty nebula/gas cloud effect lives in the CSS (::before + ::after on .file-upload-zone).
+                             It creates a soft, drifting cosmic cloud inside the drop box without any external images.
+                             If you later add real nebula photos to screenshots/, you can uncomment an <img> here
+                             (as a small decorative preview) on top of the CSS nebula for extra flair. -->
+
                     </div>
                 </div>
 
@@ -157,6 +163,16 @@
                     <div style="flex: 1;">
                         <label>CPU Cores</label>
                         <input type="number" id="input-cores" value="24" min="1" max="128" style="width: 100%; padding: 8px; border-radius: 4px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #fff; font-family: 'JetBrains Mono', monospace;">
+                    </div>
+                    <!-- CLASS Engine Selector (new: swap entire CLASS builds for different models/patches) -->
+                    <div style="flex: 2;">
+                        <label style="display: flex; justify-content: space-between; align-items: center;">
+                            Active CLASS Engine
+                            <a href="#" id="btn-manage-engines" style="color:#00d2d3; font-size:0.72rem; text-decoration:underline;">Manage Engines</a>
+                        </label>
+                        <select id="select-class-engine" style="width: 100%; padding: 6px; border-radius: 4px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: #fff; font-size: 0.82rem; font-family: 'JetBrains Mono', monospace;">
+                            <option value="">Loading engines...</option>
+                        </select>
                     </div>
                     <div style="flex: 2; display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
                         <div style="display: flex; align-items: center; gap: 10px;">
@@ -211,6 +227,7 @@
                 </div>
                 <div class="actions">
                     <button class="btn btn-secondary" id="btn-download" style="margin-top: 10px;">Download Data Archive</button>
+                    <button class="btn btn-primary" id="btn-submit-bundle" style="margin-top: 6px; background: linear-gradient(135deg, #ff9ff3, #feca57); color:#000;">📦 Generate Submit Bundle (Paper Zip)</button>
                 </div>
                 <!-- Watchdog Alert Card -->
                 <div class="jeffreys-card" id="watchdog-card" style="margin-top: 20px; border-color: #00d2d3; transition: all 0.3s ease;">
@@ -353,6 +370,22 @@
                         <div class="math-row result-row">
                             <span class="math-label">&Delta; log(Z):</span>
                             <span class="math-val highlight-neon" id="val-delta">-</span>
+                        </div>
+                    </div>
+
+                    <!-- Key Derived Cosmological Parameters (new drool-worthy panel) -->
+                    <div class="evidence-math" id="derived-params-card" style="margin-top: 15px; position: relative;">
+                        <button class="copy-btn" id="btn-copy-derived" title="Copy derived parameters" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #a4b0be; cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px; transition: all 0.2s ease;">📋</button>
+                        <div class="jeffreys-title">Key Derived Quantities (at best-fit)</div>
+                        <div id="derived-params-body" style="font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.45; margin-top: 8px; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px;">
+                            <!-- Populated by JS from /api/derived_parameters -->
+                            <div style="color:#a4b0be">Run a model to see age, r_s, 100θ_s, σ₈, S₈, etc.</div>
+                        </div>
+                        <div style="font-size:0.7rem; color:#666; margin-top:6px;">Values computed via CLASS at current best-fit. Full posterior marginals on derived params coming soon.</div>
+                        <div style="margin-top:8px; border-top:1px solid rgba(255,255,255,0.05); padding-top:6px;">
+                            <input type="text" id="derived-expr-input" placeholder="e.g. H0-73.04 or S8-0.776 or 100*(H0-67.4)/67.4" style="width:70%; padding:4px; font-size:0.75rem; background:rgba(0,0,0,0.3); border:1px solid rgba(255,255,255,0.1); color:#fff;">
+                            <button class="btn" id="btn-compute-expr" style="padding:4px 8px; font-size:0.7rem;">Compute</button>
+                            <div id="derived-expr-result" style="font-size:0.75rem; margin-top:4px; color:#00d2d3;"></div>
                         </div>
                     </div>
 
@@ -680,6 +713,16 @@
                         </div>
                     </div>
 
+                    <!-- PPC and Fisher (drool features) -->
+                    <div class="evidence-math" style="margin-top: 15px;">
+                        <div class="jeffreys-title">Posterior Predictive Checks & Fisher Forecasts</div>
+                        <div style="display: flex; gap: 8px; margin-top: 8px;">
+                            <button class="btn" id="btn-ppc" style="flex:1; padding:6px; font-size:0.75rem; background:#10ac84;">Run PPC</button>
+                            <button class="btn" id="btn-fisher" style="flex:1; padding:6px; font-size:0.75rem; background:#3867d6;">Fisher Forecast</button>
+                        </div>
+                        <div id="ppc-fisher-result" style="font-size:0.7rem; margin-top:6px; color:#a4b0be; white-space:pre-wrap;"></div>
+                    </div>
+
                     <div class="evidence-math" style="margin-top: 15px;">
                         <div class="jeffreys-title" style="margin-bottom: 6px;">Parameter Evolution History</div>
                         <div style="display: flex; flex-direction: column; gap: 8px;">
@@ -941,6 +984,11 @@
                         <p style="font-size: 0.76rem; color: #a4b0be; margin-bottom: 12px;">
                             Interactively tune late-time parameters in real-time to visualize how dark energy expansion deviates from standard &Lambda;CDM.
                         </p>
+                        <!-- Generalized playground sliders (any param with prior from current YAML) -->
+                        <div id="general-playground-sliders" style="margin-bottom: 15px; padding: 8px; background: rgba(0,0,0,0.2); border-radius: 4px;">
+                            <div style="font-size: 0.75rem; color: #a4b0be; margin-bottom: 6px;">General Model Parameters (from active config - loads on tab open)</div>
+                            <div id="general-sliders-container" style="display: flex; flex-direction: column; gap: 8px;"></div>
+                        </div>
                         <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px; font-family: var(--font-sans); font-size: 0.8rem;">
                             <div>
                                 <div style="display: flex; justify-content: space-between; color: #fff; margin-bottom: 2px;">
