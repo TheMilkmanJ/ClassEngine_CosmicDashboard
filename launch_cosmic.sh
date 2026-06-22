@@ -2,10 +2,12 @@
 # =============================================================================
 #  CosmicDashboard — Robust Launcher
 #  • Auto-starts the FastAPI backend (cosmo_dashboard_backend.py)
-#  • Auto-starts a localtunnel for phone/remote access
-#  • Injects the tunnel URL directly into the backend via /api/set_tunnel_url
+#  • Auto-starts a localtunnel for phone/remote access (with health monitoring + auto-restart on drops)
+#  • Injects the tunnel URL directly into the backend via /api/set_tunnel_url (and writes chains/current_phone_url.txt)
 #  • Restarts either service automatically if it crashes
 #  • Opens the dashboard in the browser on launch
+#  • Supports LT_SUBDOMAIN=foo for attempting a memorable https://foo.loca.lt
+#  • The in-app 📱 controls + manual set make the phone link resilient even when localtunnel flakes (as it often does)
 # =============================================================================
 
 set -euo pipefail
@@ -115,10 +117,14 @@ run_backend_watcher() {
 }
 
 # ---------------------------------------------------------------------------
-# Parse the localtunnel URL from its stdout and push it to the backend
+# Parse / push the localtunnel URL to the backend (called by watcher)
+# Also writes to chains/current_phone_url.txt for easy manual access (cat that file)
 # ---------------------------------------------------------------------------
 push_tunnel_url() {
     local url="$1"
+    if [ -z "$url" ]; then return 1; fi
+    # Always write the file as fallback (backend will read it if push fails)
+    echo "$url" > "$SCRIPT_DIR/chains/current_phone_url.txt" 2>/dev/null || true
     # Retry a few times in case the backend isn't quite ready yet
     for _ in 1 2 3 4 5; do
         local result
@@ -133,11 +139,11 @@ push_tunnel_url() {
         fi
         sleep 2
     done
-    echo "[Tunnel] Warning: could not push URL to backend (backend may still be starting)"
+    echo "[Tunnel] Warning: could not push URL to backend (backend may still be starting) -- file fallback is available"
 }
 
 # ---------------------------------------------------------------------------
-# Start / restart localtunnel in a loop (watchdog)
+# Start / restart localtunnel in a loop (watchdog) - made more robust against common drops
 # ---------------------------------------------------------------------------
 run_tunnel_watcher() {
     if [ -z "$NPX" ]; then
@@ -147,34 +153,90 @@ run_tunnel_watcher() {
 
     while true; do
         echo "[Tunnel] Starting localtunnel on port $PORT..."
-        # Run localtunnel and capture its output while also logging it
-        local tmpfifo
-        tmpfifo=$(mktemp -u)
-        mkfifo "$tmpfifo"
-
-        npx localtunnel --port "$PORT" >"$tmpfifo" 2>>"$TUNNEL_LOG" &
-        TUNNEL_PID=$!
-
-        # Read localtunnel's output to grab the URL
-        while IFS= read -r line; do
-            echo "[Tunnel] $line" | tee -a "$TUNNEL_LOG"
-            # localtunnel prints: "your url is: https://xxxx.loca.lt"
-            if [[ "$line" =~ (https?://[a-zA-Z0-9\-]+\.loca\.lt) ]]; then
-                local tunnel_url="${BASH_REMATCH[1]}"
-                push_tunnel_url "$tunnel_url"
-            fi
-        done <"$tmpfifo" &
-
-        rm -f "$tmpfifo"
-        wait "$TUNNEL_PID" 2>/dev/null || true
-        TUNNEL_PID=""
-        echo "[Tunnel] localtunnel exited. Restarting in ${RESTART_DELAY}s..."
-        # Clear stale URL from backend
+        # Clear any stale URL first
         curl -s --max-time 5 \
             -u "${DASHBOARD_USER:-}:${DASHBOARD_PASS:-}" \
             -X POST "$BACKEND_URL/api/set_tunnel_url" \
             -H "Content-Type: application/json" \
             -d '{"url": ""}' >/dev/null 2>&1 || true
+        : > "$SCRIPT_DIR/chains/current_phone_url.txt" 2>/dev/null || true
+
+        # Start localtunnel (append everything to log). Support optional stable subdomain via LT_SUBDOMAIN=foo
+        local subdomain_flag=""
+        if [ -n "${LT_SUBDOMAIN:-}" ]; then
+            subdomain_flag="--subdomain ${LT_SUBDOMAIN}"
+            echo "[Tunnel] Using requested subdomain: ${LT_SUBDOMAIN}.loca.lt (may be taken)"
+        fi
+
+        npx localtunnel --port "$PORT" $subdomain_flag >>"$TUNNEL_LOG" 2>&1 &
+        TUNNEL_PID=$!
+        echo "[Tunnel] localtunnel client PID=$TUNNEL_PID (log: $TUNNEL_LOG)"
+
+        # Poll recent log output for the "your url is ..." line (more reliable than live fifo pipe)
+        local found_url=""
+        for _ in $(seq 1 25); do
+            sleep 1
+            # Extract the most recent .loca.lt URL from the log (localtunnel prints "your url is: https://...")
+            found_url=$(tail -n 100 "$TUNNEL_LOG" 2>/dev/null | grep -oE 'https?://[a-zA-Z0-9-]+\.loca\.lt' | tail -1 || true)
+            if [ -n "$found_url" ]; then
+                push_tunnel_url "$found_url"
+                break
+            fi
+        done
+
+        if [ -z "$found_url" ]; then
+            echo "[Tunnel] Did not see URL in log yet; will keep monitoring while process runs..."
+            echo "[Tunnel] Tip: You can also run 'npx localtunnel --port $PORT' in another terminal and use the 📱sync button in the dashboard UI to paste the URL manually."
+        fi
+
+        # While the localtunnel client is alive, periodically health-check the published URL.
+        # loca.lt tunnels frequently drop silently; this forces a clean restart.
+        # Also periodically re-grep log and re-push URL (in case of restart inside tunnel or missed initial).
+        local health_fails=0
+        local recheck_count=0
+        while kill -0 "$TUNNEL_PID" 2>/dev/null; do
+            sleep 20
+            recheck_count=$((recheck_count + 1))
+            if [ -n "$found_url" ]; then
+                # -I succeeds (gets headers) as long as the tunnel is forwarding HTTP, even if backend requires auth (401 is fine)
+                if curl -s --max-time 6 -I "$found_url" >/dev/null 2>&1; then
+                    health_fails=0
+                else
+                    health_fails=$((health_fails + 1))
+                    echo "[Tunnel] Health check #$health_fails failed for $found_url"
+                    if [ $health_fails -ge 3 ]; then
+                        echo "[Tunnel] Tunnel looks dead from outside — killing client to trigger restart..."
+                        kill "$TUNNEL_PID" 2>/dev/null || true
+                        sleep 1
+                        break
+                    fi
+                fi
+            fi
+            # Every ~3 minutes (9 cycles), re-scan log for URL (in case localtunnel re-announced) and re-push
+            if [ $((recheck_count % 9)) -eq 0 ]; then
+                local latest_url
+                latest_url=$(tail -n 50 "$TUNNEL_LOG" 2>/dev/null | grep -oE 'https?://[a-zA-Z0-9-]+\.loca\.lt' | tail -1 || true)
+                if [ -n "$latest_url" ] && [ "$latest_url" != "$found_url" ]; then
+                    echo "[Tunnel] Detected updated URL in log: $latest_url"
+                    found_url="$latest_url"
+                    push_tunnel_url "$found_url"
+                elif [ -n "$found_url" ]; then
+                    # Re-affirm the current one (helps if backend restarted)
+                    push_tunnel_url "$found_url" >/dev/null 2>&1 || true
+                fi
+            fi
+        done
+
+        wait "$TUNNEL_PID" 2>/dev/null || true
+        TUNNEL_PID=""
+        echo "[Tunnel] localtunnel exited. Clearing URL + restarting in ${RESTART_DELAY}s..."
+        # Ensure backend + file are cleared
+        curl -s --max-time 5 \
+            -u "${DASHBOARD_USER:-}:${DASHBOARD_PASS:-}" \
+            -X POST "$BACKEND_URL/api/set_tunnel_url" \
+            -H "Content-Type: application/json" \
+            -d '{"url": ""}' >/dev/null 2>&1 || true
+        : > "$SCRIPT_DIR/chains/current_phone_url.txt" 2>/dev/null || true
         sleep "$RESTART_DELAY"
     done
 }
@@ -230,6 +292,11 @@ echo "[CosmicDashboard] All services running. Press Ctrl+C to stop."
 echo "  Dashboard:  $BACKEND_URL"
 echo "  Backend log: $BACKEND_LOG"
 echo "  Tunnel log:  $TUNNEL_LOG"
+echo "  Current phone URL (if active): chains/current_phone_url.txt  (or use the 📱 button in UI)"
+echo ""
+echo "  Tip: To get a stable-ish phone URL, run with:  LT_SUBDOMAIN=yourname ./launch_cosmic.sh"
+echo "       (then your link will be https://yourname.loca.lt — note: may collide on free service)"
+echo "  If the phone pill in dashboard header isn't appearing or link is dead: click the always-visible 📱sync button to paste from another 'npx localtunnel --port 8000' terminal, or the backend now falls back to the .txt file."
 echo ""
 
 # Wait forever (until Ctrl+C)

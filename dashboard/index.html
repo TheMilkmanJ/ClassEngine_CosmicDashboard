@@ -103,16 +103,26 @@
                 <span id="classy-badge" style="margin-left: 15px; font-size: 0.8rem; padding: 4px 8px; background: rgba(0, 210, 211, 0.1); border: 1px solid #00d2d3; border-radius: 4px; color: #00d2d3; font-family: 'JetBrains Mono', monospace;">Engine: Checking...</span>
             </div>
             <div style="display: flex; align-items: center; gap: 15px;">
-                <div id="phone-link-container" style="display: none; align-items: center; gap: 6px; background: rgba(0, 210, 255, 0.05); border: 1px solid rgba(0, 210, 255, 0.15); padding: 5px 10px; border-radius: 4px; font-size: 0.82rem; font-family: 'Outfit', sans-serif;">
+                <div id="phone-link-container" style="display: none; align-items: center; gap: 6px; background: rgba(0, 210, 255, 0.05); border: 1px solid rgba(0, 210, 255, 0.15); padding: 4px 8px; border-radius: 4px; font-size: 0.82rem; font-family: 'Outfit', sans-serif;">
                     <span style="font-size: 1rem;">📱</span>
                     <span style="color: #a4b0be;">Phone Sync:</span>
                     <a id="phone-link-href" href="#" target="_blank" style="color: #00d2d3; text-decoration: none; font-weight: bold; font-family: 'JetBrains Mono', monospace;">Checking...</a>
+                    <button id="btn-phone-copy" title="Copy full phone URL" style="background:none; border:none; color:#a4b0be; cursor:pointer; font-size:0.75rem; padding:0 1px; line-height:1;">📋</button>
+                    <button id="btn-phone-refresh" title="Refresh status (update phone link)" style="background:none; border:none; color:#a4b0be; cursor:pointer; font-size:0.75rem; padding:0 1px; line-height:1;">🔄</button>
+                    <button id="btn-phone-set" title="Manually paste/set a working tunnel URL (use if auto link broke or for manual npx localtunnel)" style="background:none; border:none; color:#a4b0be; cursor:pointer; font-size:0.75rem; padding:0 1px; line-height:1;">📝</button>
+                    <button id="btn-phone-clear" title="Clear phone link (tunnel expired/broken)" style="background:none; border:none; color:#a4b0be; cursor:pointer; font-size:0.75rem; padding:0 1px; line-height:1;">✕</button>
                 </div>
+                <button id="btn-phone-set-global" title="Phone Sync / Remote Access — set or update tunnel URL (for when auto localtunnel link breaks or manual npx)" style="background: rgba(0, 210, 255, 0.08); border: 1px solid rgba(0, 210, 255, 0.25); color: #00d2d3; padding: 3px 7px; border-radius: 4px; font-size: 0.85rem; cursor: pointer; display: flex; align-items: center; gap: 3px; font-family: 'Outfit', sans-serif;">
+                    📱 <span style="font-size: 0.65rem; opacity: 0.8;">sync</span>
+                </button>
                 <div class="system-status">
                     <span class="status-dot status-idle" id="status-dot"></span>
                     <span class="status-text" id="status-text">SYSTEM IDLE</span>
                 </div>
-                <button class="btn btn-secondary" id="btn-manual-login" style="padding: 4px 10px; font-size: 0.75rem; background: rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1);">Login / Switch User</button>
+                <button class="btn btn-secondary" id="btn-manual-login" style="padding: 6px 12px; font-size: 0.8rem; background: rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.15); display: flex; align-items: center; gap: 6px;">
+                    <span>🔑</span> <span>Login</span>
+                </button>
+                <button class="btn btn-secondary" id="btn-logout" style="padding: 6px 10px; font-size: 0.75rem; background: rgba(255,0,127,0.1); border:1px solid rgba(255,0,127,0.3); color:#ff007f;">Logout</button>
             </div>
         </header>
 
@@ -130,10 +140,12 @@
                         <p>Drag & drop or <span class="browse">browse</span></p>
                         <span class="file-name-display" id="yaml-name">Default: lcdm_config.yaml</span>
                         <input type="file" id="yaml-input" accept=".yaml,.yml" style="display: none;">
-                        <!-- Built-in pretty nebula/gas cloud effect lives in the CSS (::before + ::after on .file-upload-zone).
-                             It creates a soft, drifting cosmic cloud inside the drop box without any external images.
-                             If you later add real nebula photos to screenshots/, you can uncomment an <img> here
-                             (as a small decorative preview) on top of the CSS nebula for extra flair. -->
+                        <!-- THE COSMIC PORTAL: ALWAYS-VISIBLE ALIVE NEBULA.
+                             Real nebula photo + deep layered gas clouds (indigos/violets/crimsons/teals/magentas/golds).
+                             ALWAYS present (never disappears when config added).
+                             .has-model: vivid + glassmorphic readable name pill so you clearly see "what model is being ran".
+                             .running: FULLY ALIVE - fast swirling drift, pulsing energy, flowing space dust through the clouds,
+                             stars dancing, portal breathing/glowing. Hover amps it more. Pure CSS. JUST MAKE IT ALIVE. -->
 
                     </div>
                 </div>
@@ -148,6 +160,7 @@
                             <option value="lcdm_baseline">ΛCDM Baseline</option>
                             <option value="prtoe_standard">PRTOE Standard</option>
                             <option value="wcdm_test">wCDM Test</option>
+                            <option value="ede_test">EDE Test (Model Zoo)</option>
                             <option value="last_run">Last Run</option>
                         </select>
                         <button class="btn btn-glow" id="btn-load-template" style="flex: 1; padding: 6px; font-size: 0.8rem; background: linear-gradient(135deg, #3867d6, #5f27cd); color: white; border: none; font-weight: bold;">Load</button>
@@ -255,6 +268,17 @@
                     <div class="stat-card">
                         <span class="stat-label">Estimated log(Z)</span>
                         <span class="stat-value highlight-cyan" id="stat-evidence">-</span>
+                    </div>
+                    <!-- New: Confidence Tracker - shows how confident the sampler is in current likelihood & parameters -->
+                    <div class="stat-card">
+                        <span class="stat-label">Sampler Confidence</span>
+                        <span class="stat-value" id="stat-confidence" style="font-size: 1.6rem; font-weight: 700;">-</span>
+                        <div style="margin-top: 3px; font-size: 0.62rem; color: #a4b0be; display: flex; gap: 5px; justify-content: space-between;">
+                            <span>Ev:<span id="conf-evidence" style="color:#fff; font-family: var(--font-mono);">-</span></span>
+                            <span>Par:<span id="conf-params" style="color:#fff; font-family: var(--font-mono);">-</span></span>
+                            <span>Run:<span id="conf-sampler" style="color:#fff; font-family: var(--font-mono);">-</span></span>
+                        </div>
+                        <div id="conf-message" style="margin-top: 2px; font-size: 0.6rem; color: #666; font-family: var(--font-mono); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">-</div>
                     </div>
                     <div class="stat-card" style="position: relative;">
                         <button class="copy-btn" id="btn-copy-bestfit" title="Copy best-fit parameters" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #a4b0be; cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px; transition: all 0.2s ease;">📋</button>
@@ -389,6 +413,24 @@
                         </div>
                     </div>
 
+                    <!-- IC vs Evidence Comparison (makes AIC/BIC obsolete for complex models) -->
+                    <div class="evidence-math" id="ic-evidence-card" style="margin-top: 15px; position: relative;">
+                        <button class="copy-btn" id="btn-copy-ic-evidence" title="Copy IC vs evidence comparison" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #a4b0be; cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px; transition: all 0.2s ease;">📋</button>
+                        <div class="jeffreys-title">Why Evidence & WAIC Beat AIC/BIC</div>
+                        <div id="ic-evidence-body" style="font-family: var(--font-mono); font-size: 0.78rem; line-height: 1.4; margin-top: 6px;">
+                            <div>AIC/BIC: point-estimate + crude k penalty. Misses prior volume, degeneracies.</div>
+                            <div>WAIC/LOO: full posterior penalty (effective params from variance).</div>
+                            <div>Bayesian Evidence (Δlog Z): integrates likelihood over prior (true Occam razor).</div>
+                            <div id="ic-evidence-values" style="margin-top:4px; color:#00d2d3;">Click "Compare IC/Evidence" or run models for numbers.</div>
+                        </div>
+                        <button class="btn" id="btn-ic-evidence" style="margin-top:8px; padding:4px 8px; font-size:0.7rem; background:#3867d6;">Compute IC vs Evidence</button>
+                        <button class="btn" id="btn-reweight" style="margin-top:4px; padding:4px 8px; font-size:0.7rem; background:#10ac84;">Reweight for What-If Data</button>
+                        <button class="btn" id="btn-psis-loo" style="margin-top:4px; padding:4px 8px; font-size:0.7rem; background:#ff9f43;">PSIS-LOO + Pareto k (fragility audit)</button>
+                        <button class="btn" id="btn-model-stacking" style="margin-top:4px; padding:4px 8px; font-size:0.7rem; background:#5f27cd;">Bayesian Stacking Weights</button>
+                        <button class="btn" id="btn-savage-dickey" style="margin-top:4px; padding:4px 8px; font-size:0.7rem; background:#ee5a24;">Savage-Dickey BF (nested test)</button>
+                        <div id="advanced-metrics-body" style="margin-top:6px; font-family: var(--font-mono); font-size:0.72rem; color:#a4b0be; background:rgba(0,0,0,0.2); padding:4px; border-radius:3px; display:none;"></div>
+                    </div>
+
                     <!-- Model Tension & Stability Card -->
                     <div class="evidence-math" id="tensions-card" style="margin-top: 15px; position: relative;">
                         <button class="copy-btn" id="btn-copy-tensions" title="Copy tension & struggles status" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #a4b0be; cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px; transition: all 0.2s ease;">📋</button>
@@ -474,9 +516,18 @@
                         </div>
                     </div>
 
-                    <!-- Unified AI Copy Button -->
+                    <!-- Unified AI Prompt Generators (updated with all new features: PSIS-LOO + Pareto k, Bayesian Stacking, Savage-Dickey, robust Phone Sync, alive Nebula portal, etc.) -->
                     <button class="btn btn-primary btn-glow" id="btn-copy-ai-prompt" style="margin-top: 15px; width: 100%; padding: 12px; font-size: 0.95rem; background: linear-gradient(135deg, #00d2d3, #3867d6); border: none; box-shadow: 0 4px 15px rgba(0, 210, 211, 0.3);">
                         ✨ Copy AI Diagnostic Prompt
+                    </button>
+                    <button class="btn" id="btn-copy-ai-stacking" style="margin-top: 6px; width: 100%; padding: 8px; font-size: 0.85rem; background: linear-gradient(135deg, #5f27cd, #ff9ff3); border: none;">
+                        📊 Copy Stacking / Ensemble Prompt
+                    </button>
+                    <button class="btn" id="btn-copy-ai-savage" style="margin-top: 4px; width: 100%; padding: 8px; font-size: 0.85rem; background: linear-gradient(135deg, #ee5a24, #feca57); border: none;">
+                        🔬 Copy Savage-Dickey / Nested Test Prompt
+                    </button>
+                    <button class="btn btn-secondary" id="btn-copy-all-ai-prompts" style="margin-top: 10px; width: 100%; padding: 10px; font-size: 0.9rem; background: linear-gradient(135deg, #10ac84, #00d2d3); border: none; box-shadow: 0 4px 15px rgba(16, 172, 132, 0.3); font-weight: bold;">
+                        📋 Copy ALL AI Prompts (Diagnostic + Stacking + Savage + Paper + Full Context)
                     </button>
                 </div>
 

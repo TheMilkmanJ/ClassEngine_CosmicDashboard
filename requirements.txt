@@ -9,3 +9,5 @@ numpy
 requests
 cobaya
 scipy
+httpx
+pytest
