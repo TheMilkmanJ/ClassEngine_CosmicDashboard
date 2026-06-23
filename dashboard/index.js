@@ -1384,12 +1384,22 @@ async function fetchBaselines() {
 }
 
 // Update baseline database
-async function updateBaseline(dataset, evidence, chi2) {
+async function updateBaseline(dataset, evidence, chi2, evidenceIsFinal, evidenceSource) {
+    if (!evidenceIsFinal) {
+        appendLog('[PIPELINE] Baseline not updated: evidence is live/preview only. Waiting for final PolyChord stats.');
+        return;
+    }
     try {
         const response = await fetch(`${API_URL}/api/update_baseline`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ dataset: dataset, log_evidence: evidence, best_chi2: chi2 })
+            body: JSON.stringify({
+                dataset: dataset,
+                log_evidence: evidence,
+                best_chi2: chi2,
+                evidence_is_final: evidenceIsFinal,
+                evidence_source: evidenceSource || null
+            })
         });
         const data = await response.json();
         if (response.ok) {
@@ -1488,7 +1498,8 @@ async function checkStatus() {
         statDead.textContent = data.dead_points;
         if (data.log_evidence !== null) {
             const errText = (data.log_evidence_error !== null && data.log_evidence_error !== undefined) ? ` +/- ${data.log_evidence_error.toFixed(2)}` : '';
-            statEvidence.textContent = `${data.log_evidence.toFixed(2)}${errText}`;
+            const finalTag = data.evidence_is_final ? '' : ' (live/debug)';
+            statEvidence.textContent = `${data.log_evidence.toFixed(2)}${errText}${finalTag}`;
             if (isLcdm) {
                 valBaseline.textContent = data.log_evidence.toFixed(4);
                 valCustom.textContent = "-";
@@ -1498,7 +1509,11 @@ async function checkStatus() {
                 jeffreysDesc.textContent = 'Currently running or displaying the standard ΛCDM baseline. Model comparison will activate when a custom model is loaded.';
             } else {
                 valCustom.textContent = data.log_evidence.toFixed(4);
-                calculateEvidence(data.log_evidence);
+                if (data.evidence_is_final) {
+                    calculateEvidence(data.log_evidence);
+                } else {
+                    appendLog('[PIPELINE] Live/preview evidence is visible for debugging only; final preference waits for PolyChord .stats.');
+                }
             }
         } else {
             statEvidence.textContent = "-";
@@ -1508,7 +1523,7 @@ async function checkStatus() {
         }
 
         // At-a-glance ACTUAL model preference from the DATA (full Bayesian evidence ΔlogZ, WAIC/LOO, BMA, tensions resolved, PPC).
-        // This completely ignores AIC/BIC point-estimate hacks and tells you which model is ACTUALLY preferred by the posterior.
+        // This completely ignores AIC/BIC point-estimate hacks and tells you which model is data preferred by the posterior.
         const prefEl = document.getElementById('evidence-preferred-model');
         if (prefEl && data.comparison && data.comparison.evidence_based_preference) {
             const prefText = data.comparison.evidence_based_preference;
@@ -2021,7 +2036,7 @@ async function checkStatus() {
                               yamlNameLower.includes('lcdm') ||
                               yamlNameLower.includes('baseline');
             if (isLcdmRun) {
-                updateBaseline("planck_bao_pantheonplus_shoes", data.log_evidence, data.best_chi2);
+                updateBaseline("planck_bao_pantheonplus_shoes", data.log_evidence, data.best_chi2, data.evidence_is_final, data.evidence_source);
                 if (checkAutoRunCustom && checkAutoRunCustom.checked && !isAutoRunning) {
                     isAutoRunning = true;
                     appendLog(`[PIPELINE] Baseline ΛCDM completed. Preparing to auto-run custom model in 5 seconds...`);
@@ -2031,7 +2046,11 @@ async function checkStatus() {
                     }, 5000);
                 }
             } else {
-                calculateEvidence(data.log_evidence);
+                if (data.evidence_is_final) {
+                    calculateEvidence(data.log_evidence);
+                } else {
+                    appendLog('[PIPELINE] Live/preview evidence is visible for debugging only; final preference waits for PolyChord .stats.');
+                }
                 if (checkAutoRunLcdm && checkAutoRunLcdm.checked && !isAutoRunning) {
                     isAutoRunning = true;
                     appendLog(`[PIPELINE] Custom model completed. Preparing to auto-run baseline ΛCDM in 5 seconds...`);
@@ -2176,6 +2195,38 @@ document.getElementById('btn-accept-priors').addEventListener('click', async () 
         appendLog(`[WATCHDOG] Error applying priors: ${err.message}`);
         document.getElementById('btn-accept-priors').disabled = false;
     }
+});
+
+document.getElementById('btn-clear-warnings').addEventListener('click', async () => {
+    appendLog('[WATCHDOG] Clearing all watchdog warnings...');
+    try {
+        const response = await fetch(`${API_URL}/api/clear_watchdog_alerts`, {
+            method: 'POST'
+        });
+        const data = await response.json();
+        if (response.ok) {
+            watchdogIcon.innerText = '🐶';
+            watchdogCard.style.borderColor = "#00d2d3";
+            watchdogText.style.color = "#00d2d3";
+            watchdogText.style.textShadow = "0 0 10px rgba(0, 210, 211, 0.5)";
+            watchdogText.innerText = "All clear, Captain!";
+            watchdogDesc.style.display = "none";
+            document.getElementById('watchdog-actions').style.display = 'none';
+            appendLog('[WATCHDOG] Warnings cleared successfully.');
+        } else {
+            appendLog(`[WATCHDOG] Failed to clear warnings: ${data.detail}`);
+        }
+    } catch (err) {
+        appendLog(`[WATCHDOG] Error clearing warnings: ${err.message}`);
+    }
+});
+
+document.getElementById('btn-open-logfile').addEventListener('click', () => {
+    // Open the current run's log file in a new tab
+    const configName = activeConfig || 'unknown';
+    const logFileName = configName.replace(/\.ya?ml$/, '') + '_polychord.log';
+    window.open(`chains/${logFileName}`, '_blank');
+    appendLog(`[WATCHDOG] Opening logfile: chains/${logFileName}`);
 });
 
 // Console helper
@@ -2362,7 +2413,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const jeffTextVal = document.getElementById('jeffreys-text').textContent;
             const jeffDescTextVal = document.getElementById('jeffreys-desc').textContent;
             const labelCustomText = document.getElementById('label-custom-model').textContent.replace(/:/g, '').trim();
-            const text = `--- Bayesian Evidence Comparison ---\nBaseline log(Z): ${valBaselineText}\n${labelCustomText}: ${valCustomTextVal} (Evidence Z: ${logEvidenceVal})\nDelta log(Z): ${valDeltaTextVal}\nEvidence Strength: ${jeffTextVal} (${jeffDescTextVal})\nACTUALLY Preferred (ignores AIC/BIC): ${document.getElementById('evidence-preferred-model') ? document.getElementById('evidence-preferred-model').textContent : 'N/A'}`;
+            const text = `--- Bayesian Evidence Comparison ---\nBaseline log(Z): ${valBaselineText}\n${labelCustomText}: ${valCustomTextVal} (Evidence Z: ${logEvidenceVal})\nDelta log(Z): ${valDeltaTextVal}\nEvidence Strength: ${jeffTextVal} (${jeffDescTextVal})\nData Preferred (ignores AIC/BIC): ${document.getElementById('evidence-preferred-model') ? document.getElementById('evidence-preferred-model').textContent : 'N/A'}`;
             copyToClipboard(text, 'btn-copy-evidence');
         });
     }

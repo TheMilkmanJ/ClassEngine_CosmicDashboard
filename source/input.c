@@ -6003,7 +6003,9 @@ int input_default_params(struct background *pba,
   pba->g_b_prtoe = 1.0;
   pba->g_c_prtoe = 1.0;
   pba->delta_prtoe = 0.0;     /* screening triplet: delta/(1+phi^2) */
+  pba->zeta_prtoe = 1.0;      /* Screening intensity scaling factor */
   pba->prtoe_mass = 0.05;
+  pba->R_curvature = 0.0;      /* Ricci scalar R for PRTOE field evolution */
 
   /**
    * Deafult to input_read_parameters_heating

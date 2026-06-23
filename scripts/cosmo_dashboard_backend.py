@@ -99,13 +99,13 @@ def _conda_prefix_from_python(python_exe: str) -> Optional[str]:
 
 def ensure_polychord_installed():
     """Auto-install PolyChord if not present in cobaya packages.
-    
+
     This ensures PolyChord is always available for the dashboard without manual setup.
     Runs once at startup and is non-blocking if it fails.
     """
     cobaya_packages = os.path.join(os.path.expanduser("~"), "cobaya_packages_clean")
     polychord_path = os.path.join(cobaya_packages, "code", "PolyChordLite")
-    
+
     if not os.path.exists(polychord_path):
         log_dashboard_error("[STARTUP] PolyChord not found. Auto-installing via cobaya-install...", console=True)
         try:
@@ -170,10 +170,13 @@ def resolve_cobaya_runtime(engine: Optional[dict] = None) -> tuple:
 
     if conda_prefix and os.path.isdir(os.path.join(conda_prefix, "lib")):
         lib_dir = os.path.join(conda_prefix, "lib")
-        existing = env.get("LD_LIBRARY_PATH", "")
-        env["LD_LIBRARY_PATH"] = lib_dir + (os.pathsep + existing if existing else "")
         bin_dir = os.path.join(conda_prefix, "bin")
-        env["PATH"] = bin_dir + os.pathsep + env.get("PATH", "")
+        # Ensure conda lib is FIRST in LD_LIBRARY_PATH to prevent system MPI conflicts
+        existing_ld = env.get("LD_LIBRARY_PATH", "")
+        env["LD_LIBRARY_PATH"] = lib_dir + (os.pathsep + existing_ld if existing_ld else "")
+        # Ensure conda bin is FIRST in PATH to use correct mpirun
+        existing_path = env.get("PATH", "")
+        env["PATH"] = bin_dir + os.pathsep + existing_path
         env["CONDA_PREFIX"] = conda_prefix
 
     return python_exe, mpirun_exe, env
@@ -188,7 +191,7 @@ def detect_run_crash_in_log(log_path) -> Optional[str]:
         if not p.exists() or p.stat().st_size == 0:
             return None
         tail = p.read_text(errors="replace")[-12000:]
-        
+
         # Check for segmentation faults
         if "Segmentation fault" in tail or "signal 11" in tail.lower():
             if "MPI_Comm_dup" in tail or "libmpi" in tail:
@@ -198,51 +201,51 @@ def detect_run_crash_in_log(log_path) -> Optional[str]:
                     "Restart the dashboard via ./launch_cosmic.sh so pgtoe_gold Python+MPI are used."
                 )
             return "Cobaya/PolyChord crashed with a segmentation fault. See chains/*.log for details."
-        
+
         # Check for BBN file issues
         if "could not open fA with name" in tail and "sBBN" in tail:
             return "CLASS could not find BBN data files (base_path). Re-upload config or check CLASS engine path."
-        
+
         # Check for module import errors
         if "ModuleNotFoundError" in tail or "ImportError" in tail:
             return "Missing Python module or dependency error. Check the log for details."
-        
+
         # Check for file not found errors
         if "No such file or directory" in tail or "File not found" in tail:
             return "File not found error. Check file paths in your configuration."
-        
+
         # Check for permission errors
         if "Permission denied" in tail:
             return "Permission denied error. Check file/directory permissions."
-        
+
         # Check for PolyChord-specific errors
         if "PolyChord" in tail and ("error" in tail.lower() or "failed" in tail.lower()):
             return "PolyChord error. See chains/*.log for details."
-        
+
         # Check for MPI errors beyond segfaults
         if "MPI" in tail and ("error" in tail.lower() or "abort" in tail.lower()):
             return "MPI error. Check MPI configuration and installation."
-        
+
         # Check for timeout errors
         if "timeout" in tail.lower() or "timed out" in tail.lower():
             return "Run timed out. Consider increasing timeout or reducing computational load."
-        
+
         # Check for memory errors
         if "out of memory" in tail.lower() or "memory" in tail.lower() and "error" in tail.lower():
             return "Out of memory error. Reduce cores or memory requirements."
-        
+
         # Check for configuration errors
         if "configuration" in tail.lower() and "error" in tail.lower():
             return "Configuration error. Check your YAML configuration file."
-        
+
         # Check for CLASS engine errors
         if "CLASS" in tail and "error" in tail.lower():
             return "CLASS engine error. See chains/*.log for details."
-        
+
         # Check for general cobaya errors
         if "cobaya" in tail.lower() and "error" in tail.lower():
             return "Cobaya error. See chains/*.log for details."
-        
+
     except Exception:
         pass
     return None
@@ -252,21 +255,21 @@ def classify_finished_run_status(returncode: Optional[int], output_prefix: Optio
     """Map process exit code + log tail to completed/stopped/failed."""
     if returncode == 0:
         return "completed"
-    
+
     # Check if this was an intentional stop
     if state.intentionally_stopped:
         return "stopped"
-    
+
     # Check for crash patterns in the log
     crash_msg = detect_run_crash_in_log(f"{output_prefix}.log" if output_prefix else None)
     if crash_msg:
         return "failed"
-    
+
     # If return code is non-zero and we don't have evidence of intentional stop,
     # classify as failed to prevent silent failures
     if returncode is not None and returncode != 0:
         return "failed"
-    
+
     return "stopped"
 
 
@@ -385,10 +388,10 @@ def anakin_skywalker_directive():
     Themed after Order 66 - Anakin clears the temple of younglings (orphan processes).
     """
     import subprocess
-    
+
     killed_count = 0
     killed_processes = []
-    
+
     # Define orphan patterns to hunt
     orphan_patterns = [
         'plot_chains.py',
@@ -396,42 +399,42 @@ def anakin_skywalker_directive():
         'python.*plot_',
         'cobaya.*run',
     ]
-    
+
     try:
         # Get all processes
         result = subprocess.run(['ps', 'aux'], capture_output=True, text=True)
         lines = result.stdout.split('\n')
-        
+
         current_user = os.environ.get('USER', 'themilkmanj')
-        
+
         for line in lines[1:]:  # Skip header
             if not line.strip():
                 continue
-                
+
             parts = line.split()
             if len(parts) < 11:
                 continue
-                
+
             user = parts[0]
             pid = parts[1]
             cpu = parts[2]
             cmd = ' '.join(parts[10:])
-            
+
             # Only hunt processes owned by current user
             if user != current_user:
                 continue
-                
+
             # Check if it matches orphan patterns
             is_orphan = False
             for pattern in orphan_patterns:
                 if re.search(pattern, cmd, re.IGNORECASE):
                     is_orphan = True
                     break
-            
+
             # Also hunt defunct processes
             if '<defunct>' in cmd:
                 is_orphan = True
-                
+
             if is_orphan:
                 try:
                     # Kill the orphan
@@ -440,7 +443,7 @@ def anakin_skywalker_directive():
                     killed_processes.append(f"PID {pid} ({cmd[:50]})")
                 except (ProcessLookupError, PermissionError, OSError):
                     pass
-        
+
         if killed_count > 0:
             log_dashboard_error(f"[ANAKIN SKYWALKER DIRECTIVE] Order 66 executed. Anakin has cleared the temple. {killed_count} younglings (orphan processes) eliminated: {', '.join(killed_processes[:3])}{'...' if len(killed_processes) > 3 else ''}", console=True)
             # Play lightsaber sound effect
@@ -448,7 +451,7 @@ def anakin_skywalker_directive():
                 import winsound
                 # Windows system beep for lightsaber effect
                 winsound.Beep(440, 200)  # A4 note
-                winsound.Beep(554, 200)  # C#5 note  
+                winsound.Beep(554, 200)  # C#5 note
                 winsound.Beep(659, 300)  # E5 note
             except ImportError:
                 try:
@@ -458,9 +461,9 @@ def anakin_skywalker_directive():
                     pass
         else:
             log_dashboard_error("[ANAKIN SKYWALKER DIRECTIVE] Temple scan complete. No younglings found. The temple is clean.", console=True)
-            
+
         return killed_count
-        
+
     except Exception as e:
         log_dashboard_error(f"[ANAKIN SKYWALKER DIRECTIVE] Failed to execute Order 66: {e}", console=True)
         return 0
@@ -470,7 +473,7 @@ def _kill_dashboard_child_processes(fast: bool = True):
     """Best-effort kill of Cobaya/monitor trees without blocking the event loop."""
     # First, execute Anakin Skywalker Directive to clear orphans
     anakin_skywalker_directive()
-    
+
     for proc_attr in ("running_process", "monitor_process"):
         proc = getattr(state, proc_attr, None)
         if not proc or not hasattr(proc, "pid"):
@@ -538,10 +541,10 @@ async def lifespan(app: FastAPI):
     Starts the background watcher and ensures cleanup on exit (even on SIGTERM in Docker/launchers)."""
     # Startup
     loop = asyncio.get_running_loop()
-    
+
     # Auto-install PolyChord if missing (truly non-blocking, runs in background task)
     asyncio.create_task(asyncio.to_thread(ensure_polychord_installed))
-    
+
     try:
         await loop.run_in_executor(None, system_metrics.prime_sync)
     except Exception as e:
@@ -607,7 +610,7 @@ def authenticate(request: Request, credentials: HTTPBasicCredentials = Depends(s
 
     client_ip = request.client.host if request.client else "unknown"
     now = time.time()
-    
+
     # Check rate limit (for Basic attempts)
     if client_ip in FAILED_LOGIN_ATTEMPTS:
         count, lock_until = FAILED_LOGIN_ATTEMPTS[client_ip]
@@ -616,19 +619,19 @@ def authenticate(request: Request, credentials: HTTPBasicCredentials = Depends(s
                 status_code=status.HTTP_429_TOO_MANY_REQUESTS,
                 detail="Too many failed login attempts. Please try again later.",
             )
-            
+
     required_user = os.environ.get("DASHBOARD_USER", "admin")
     required_pass = os.environ.get("DASHBOARD_PASS", "")
-    
+
     if not required_pass:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Authentication is misconfigured.",
         )
-        
+
     correct_username = secrets.compare_digest(credentials.username, required_user)
     correct_password = secrets.compare_digest(credentials.password, required_pass)
-    
+
     if not (correct_username and correct_password):
         # Increment failed attempts
         count, lock_until = FAILED_LOGIN_ATTEMPTS.get(client_ip, (0, 0.0))
@@ -639,7 +642,7 @@ def authenticate(request: Request, credentials: HTTPBasicCredentials = Depends(s
         FAILED_LOGIN_ATTEMPTS[client_ip] = (count, lock_until)
         if count % 3 == 0:
             _save_json_store(Path("chains/dashboard_failed_logins.json"), FAILED_LOGIN_ATTEMPTS)
-        
+
         # Same logic: avoid native prompt for browser fetches
         headers = {}
         accept = request.headers.get("accept", "") if 'request' in dir() else ""
@@ -650,14 +653,14 @@ def authenticate(request: Request, credentials: HTTPBasicCredentials = Depends(s
             detail="Incorrect username or password",
             headers=headers,
         )
-        
+
     # Reset failed attempts on success
     FAILED_LOGIN_ATTEMPTS.pop(client_ip, None)
     return credentials.username
 
 # --- FastAPI App Setup ---
 app = FastAPI(
-    title="CosmicDashboard Backend", 
+    title="CosmicDashboard Backend",
     # dependencies=[Depends(authenticate)],  # now handled by middleware + per-route for flexibility with cookie "remember me"
     # Allow larger payloads for chain data
     max_request_size=50 * 1024 * 1024,
@@ -781,6 +784,8 @@ class UpdateBaseline(BaseModel):
     dataset: str
     log_evidence: float
     best_chi2: Optional[float] = None
+    evidence_is_final: bool = False
+    evidence_source: Optional[str] = None
 
 class WatchdogAlert(BaseModel):
     parameter: str
@@ -834,7 +839,7 @@ class LRUCacheWithTTL:
         self.cache = collections.OrderedDict()
         self.maxsize = maxsize
         self.ttl = ttl
-        
+
     def get(self, key):
         if key not in self.cache:
             return None
@@ -844,7 +849,7 @@ class LRUCacheWithTTL:
             return None
         self.cache.move_to_end(key)
         return val
-        
+
     def set(self, key, value):
         if key in self.cache:
             del self.cache[key]
@@ -869,7 +874,7 @@ class StateManager:
         self.last_frame_mod_time = 0
         self.last_frame_hash = None
         self.last_posterior_sig = None
-        
+
         # Log parser offsets/caches
         self.log_eval_position = 0
         self.log_eval_count = 0
@@ -880,11 +885,11 @@ class StateManager:
         self.struggles_rank_state = {}
         self.struggles_rank_traceback = {}
         self.class_error_logs = []
-        
+
         # Raw files caches
         self.raw_file_positions = {}
         self.best_fit_file_cache = {}
-        
+
         # Model curves cache + rebuild progress
         self.model_curves_cache = LRUCacheWithTTL(maxsize=50, ttl=300)
         self.rebuild_progress = {"status": "idle", "log": []}
@@ -946,7 +951,7 @@ class SystemMetricsSampler:
     def prime_sync(self):
         psutil.cpu_percent(interval=0.1)
 
-    def sample_sync(self, interval: float = 0.5):
+    def sample_sync(self, interval: float = 1.0):
         cpu = psutil.cpu_percent(interval=interval)
         mem = psutil.virtual_memory()
         self.cpu_percent = float(cpu if cpu is not None else 0.0)
@@ -956,8 +961,18 @@ class SystemMetricsSampler:
         self._last_sample = time.time()
 
     def snapshot(self) -> dict:
-        # Return the most recent sample from background task
-        # Don't refresh here to avoid blocking - the background task keeps it updated
+        # Light non-blocking refresh between background samples.
+        if time.time() - self._last_sample >= 1.0:
+            try:
+                cpu = psutil.cpu_percent(interval=None)
+                if cpu is not None:
+                    self.cpu_percent = float(cpu)
+                mem = psutil.virtual_memory()
+                self.memory_percent = float(mem.percent)
+                self.memory_used_gb = round(mem.used / (1024 ** 3), 2)
+                self.memory_total_gb = round(mem.total / (1024 ** 3), 2)
+            except Exception:
+                pass
         return {
             "cpu_percent": self.cpu_percent,
             "memory_percent": self.memory_percent,
@@ -1396,7 +1411,7 @@ def check_and_update_history():
         mod_time = plot_path.stat().st_mtime
         if mod_time > state.last_frame_mod_time:
             state.last_frame_mod_time = mod_time
-            
+
             # Compute MD5 hash of the new plot (secondary)
             try:
                 import hashlib
@@ -1406,7 +1421,7 @@ def check_and_update_history():
                 curr_hash = hasher.hexdigest()
             except Exception:
                 curr_hash = None
-                
+
             # Primary: check for *noticeable change within the posterior* using summary stats
             # (not just image pixels, which can jitter for cosmetic reasons)
             curr_posterior_sig = None
@@ -1435,13 +1450,13 @@ def check_and_update_history():
             if curr_hash and curr_hash == state.last_frame_hash:
                 state.last_posterior_sig = curr_posterior_sig  # sync anyway
                 return  # Skip adding to history if image content hasn't changed
-                
+
             state.last_frame_hash = curr_hash
             state.last_posterior_sig = curr_posterior_sig or state.last_posterior_sig
-            
+
             hist_dir = Path("dashboard/history")
             hist_dir.mkdir(parents=True, exist_ok=True)
-            
+
             if len(state.history_frames) >= 100:
                 oldest_frame = state.history_frames.pop(0)
                 try:
@@ -1463,7 +1478,7 @@ def get_log_eval_count(log_path):
         if file_size < state.log_eval_position:
             state.log_eval_position = 0
             state.log_eval_count = 0
-            
+
         with open(log_path, 'r', errors='ignore') as f:
             f.seek(state.log_eval_position)
             # Read in chunks for better performance on large files
@@ -1499,7 +1514,7 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         'z_max_pk': 2.5,
         'non_linear': 'halofit'
     }
-    
+
     # Tighter background integration for direct classy runs (valid CLASS precision inputs)
     extra = base_params.setdefault('extra_args', {})
     extra.update({
@@ -1723,7 +1738,7 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
             'success': False,
             'error': str(e)
         }
-        
+
     # --- API Endpoints ---
 
 @app.get("/api/sysinfo")
@@ -1843,7 +1858,7 @@ def normalize_prtoe_param_names(cfg: dict) -> bool:
         if 'non_linear' not in extra and 'non linear' not in extra:
             extra['non_linear'] = 'halofit'
             changed = True
-    
+
     # CRITICAL FIX: Remove base_path from extra_args
     # Cobaya doesn't handle base_path correctly and passes it as None to CLASS,
     # causing "could not open fA with name None/external/bbn/sBBN_2025.dat" errors.
@@ -1852,7 +1867,7 @@ def normalize_prtoe_param_names(cfg: dict) -> bool:
         extra.pop('base_path')
         changed = True
         log_dashboard_error("[PRTOE] Removed base_path from extra_args (Cobaya incompatibility fix)", console=True)
-    
+
     return changed
 
 
@@ -1864,21 +1879,21 @@ def prepare_config_for_run(yaml_path: Path):
         if not yaml_path.exists():
             log_dashboard_error(f"Config file not found for preparation: {yaml_path}")
             return False
-            
+
         with open(yaml_path, 'r', encoding='utf-8') as f:
             cfg = yaml.safe_load(f) or {}
-        
+
         # Apply normalizations
         normalize_prtoe_param_names(cfg)
         ensure_class_engine_in_config(cfg)
-        
+
         # Write back the cleaned config
         with open(yaml_path, 'w', encoding='utf-8') as f:
             yaml.dump(cfg, f, default_flow_style=False, sort_keys=False)
-        
+
         # Ensure halofit
         ensure_halofit_in_config(yaml_path)
-        
+
         return True
     except Exception as e:
         log_dashboard_error(f"Config preparation failed for {yaml_path}: {e}")
@@ -1951,7 +1966,7 @@ def make_class_instance(params: dict | None = None, engine: dict | None = None):
 
     if is_prtoe:
         params.setdefault('use_prtoe', 'yes')
-        
+
         extra = params.setdefault('extra_args', {})
         extra.setdefault('background_integration_stepsize', 0.005)
         extra.setdefault('tol_background_integration', 1e-9)
@@ -2478,19 +2493,19 @@ class AdoptedProcess:
 def find_and_adopt_running_cobaya():
     """Adopt any existing Cobaya run (useful after dashboard restart)."""
 
-    
+
     if state.running_process is not None:
         return  # Already tracking a process
-    
+
     import psutil
     for proc in psutil.process_iter(['pid', 'name', 'cmdline', 'create_time']):
         try:
             cmdline = proc.info.get('cmdline')
             if not cmdline:
                 continue
-                
+
             cmd_str = " ".join(cmdline).lower()
-            
+
             if "cobaya" in cmd_str and "run" in cmd_str:
                 yaml_file = None
                 for arg in cmdline:
@@ -2547,7 +2562,7 @@ async def background_process_watcher():
         try:
             if not state.running_process:
                 find_and_adopt_running_cobaya()
-            
+
             if state.running_process:
                 if state.running_process.poll() is None:
                     state.current_status = "running"
@@ -2568,7 +2583,7 @@ async def background_process_watcher():
                         }
                         # Check if this alert already exists (by comparing status message)
                         alert_exists = any(
-                            isinstance(alert, dict) and alert.get("status") == crash_msg 
+                            isinstance(alert, dict) and alert.get("status") == crash_msg
                             for alert in state.watchdog_alerts
                         )
                         if not alert_exists:
@@ -2603,16 +2618,16 @@ async def background_process_watcher():
 
 def get_realtime_posterior_stats(output_prefix):
     import numpy as np
-    
+
     # Locate chain files
     prefix_path = Path(output_prefix)
     final_file = Path(f"{output_prefix}.txt")
     raw_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.txt"
     live_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}_phys_live.txt"
-    
+
     data_parts = []
     is_initialization = False
-    
+
     if final_file.exists() and os.path.getsize(final_file) > 0:
         root_name = str(final_file)
         try:
@@ -2625,7 +2640,7 @@ def get_realtime_posterior_stats(output_prefix):
                     data_parts.append(np.atleast_2d(d))
         except Exception:
             pass
-            
+
     if not data_parts:
         if raw_file.exists() and os.path.getsize(raw_file) > 0:
             try:
@@ -2655,7 +2670,7 @@ def get_realtime_posterior_stats(output_prefix):
         data = data_parts[0]
         weights = data[:, 0]
         samps = data[:, 2:]
-        
+
         # Load parameter names
         names = []
         paramnames_file = output_prefix + ".paramnames"
@@ -2665,7 +2680,7 @@ def get_realtime_posterior_stats(output_prefix):
                     parts = line.strip().split(None, 1)
                     if parts:
                         names.append(parts[0].lower())
-                        
+
         if not names:
             yaml_to_read = get_model_yaml_path(output_prefix)
             if yaml_to_read and yaml_to_read.exists():
@@ -2679,35 +2694,35 @@ def get_realtime_posterior_stats(output_prefix):
                         names = [n.lower() for n in (sampled + derived)]
                 except Exception:
                     pass
-                    
+
         # Ensure dimensions match
         if len(names) > samps.shape[1]:
             names = names[:samps.shape[1]]
         while len(names) < samps.shape[1]:
             names.append(f"param_{len(names)}")
-            
+
         stats_out = {}
-        
+
         # Check standard params
         target_params = ['h0', 's8', 'omega_m', 'omega_k', 'sigma8']
-        
+
         for tp in target_params:
             if tp in names:
                 idx = names.index(tp)
                 vals = samps[:, idx]
-                
+
                 # Compute weighted mean & std deviation
                 sum_w = np.sum(weights)
                 if sum_w > 0:
                     mean = np.sum(weights * vals) / sum_w
                     var = np.sum(weights * (vals - mean)**2) / sum_w
                     std = np.sqrt(max(0.0, var))
-                    
+
                     stats_out[tp] = {
                         "mean": float(mean),
                         "err": float(std)
                     }
-                    
+
         if 's8' not in stats_out and 'sigma8' in stats_out and 'omega_m' in stats_out:
             sig8_mean = stats_out['sigma8']['mean']
             sig8_err = stats_out['sigma8']['err']
@@ -2718,14 +2733,14 @@ def get_realtime_posterior_stats(output_prefix):
                 "mean": float(s8_mean),
                 "err": float(s8_err)
             }
-            
+
         return stats_out
     except Exception:
         return {}
 
 def get_localtunnel_url():
     """Returns the active localtunnel (phone) URL.
-    
+
     Uses the value directly injected by the launch wrapper (or manual /api/set_tunnel_url).
     Falls back to chains/current_phone_url.txt written by launcher (helps if push had transient auth issues).
     """
@@ -2752,11 +2767,11 @@ def auto_archive_lcdm():
     chains_dir = Path("chains")
     dest_dir = chains_dir / "lcdm_baseline_archived"
     dest_dir.mkdir(parents=True, exist_ok=True)
-    
+
     output_prefix = state.active_output_prefix or "chains/lcdm_polychord"
     prefix_path = Path(output_prefix)
     prefix_name = prefix_path.name
-    
+
     if prefix_path.parent.exists():
         matching_files = list(prefix_path.parent.glob(f"{prefix_name}.*"))
         for f in matching_files:
@@ -2764,14 +2779,14 @@ def auto_archive_lcdm():
                 shutil.copy2(f, dest_dir / f.name)
             except Exception:
                 pass
-            
+
         raw_dir = prefix_path.parent / f"{prefix_name}_polychord_raw"
         if raw_dir.exists():
             try:
                 shutil.copytree(raw_dir, dest_dir / raw_dir.name, dirs_exist_ok=True)
             except Exception:
                 pass
-            
+
         cluster_dir = prefix_path.parent / f"{prefix_name}_clusters"
         if cluster_dir.exists():
             try:
@@ -2795,7 +2810,7 @@ def find_lcdm_scores():
         if not stats_file.exists() and raw_stats_file.exists():
             stats_file = raw_stats_file
         resume_file = archived_dir / "lcdm_polychord_polychord_raw" / "lcdm_polychord.resume"
-        
+
         stats = parse_polychord_stats(stats_file, resume_file)
         if stats.get("log_evidence") is not None:
             logz = stats["log_evidence"]
@@ -2809,7 +2824,7 @@ def find_lcdm_scores():
         stem = f.stem
         if "lcdm" in stem.lower():
             candidates.append(stem)
-            
+
     for f in chains_dir.glob("*.updated.yaml"):
         stem = f.stem.replace(".updated", "")
         if "lcdm" in stem.lower() and stem not in candidates:
@@ -2826,12 +2841,12 @@ def find_lcdm_scores():
         raw_stats_file = chains_dir / f"{prefix}_polychord_raw" / f"{prefix}.stats"
         if not stats_file.exists() and raw_stats_file.exists():
             stats_file = raw_stats_file
-        
+
         resume_file = chains_dir / f"{prefix}_polychord_raw" / f"{prefix}.resume"
-        
+
         stats = parse_polychord_stats(stats_file, resume_file)
         dead_pts = stats.get("dead_points", 0)
-        
+
         if dead_pts > max_dead_points:
             max_dead_points = dead_pts
             best_candidate = prefix
@@ -2839,11 +2854,11 @@ def find_lcdm_scores():
 
     if best_candidate and best_stats.get("log_evidence") is not None:
         logz = best_stats["log_evidence"]
-        
+
         fit_details = get_best_fit_details(f"chains/{best_candidate}")
         if fit_details is not None:
             chi2 = fit_details["total"]
-            
+
     return logz, chi2
 
 @app.get("/api/settings")
@@ -2899,7 +2914,7 @@ async def websocket_status(websocket: WebSocket):
 @app.get("/api/status")
 async def get_status():
     """Checks the status of the running Cobaya process and reports progress."""
-    
+
     struggles = {}
     h0_val = None
     h0_err = None
@@ -2933,7 +2948,7 @@ async def get_status():
                 }
                 # Check if this alert already exists (by comparing status message)
                 alert_exists = any(
-                    isinstance(alert, dict) and alert.get("status") == crash_msg 
+                    isinstance(alert, dict) and alert.get("status") == crash_msg
                     for alert in state.watchdog_alerts
                 )
                 if not alert_exists:
@@ -2994,6 +3009,11 @@ async def get_status():
             "k_baseline": 6,
             "k_custom": 6,
             "delta_chi2": None,
+            "delta_log_evidence": None,
+            "bayes_factor": None,
+            "primary_model_comparison": "Awaiting final nested-sampling evidence",
+            "bayesian_evidence_authoritative": False,
+            "aic_bic_role": "Approximate diagnostic only",
             "aic_baseline": None,
             "aic_custom": None,
             "delta_aic": None,
@@ -3036,7 +3056,7 @@ async def get_status():
         if not stats_file.exists() and raw_stats_file.exists():
             stats_file = raw_stats_file
         resume_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.resume"
-        
+
         # Check file modification times to filter out stale leftover files from previous runs
         is_stale = False
         is_resume_run = False
@@ -3063,9 +3083,9 @@ async def get_status():
             if resume_file.exists() and resume_file.stat().st_mtime < state.run_start_time - 2.0:
                 resume_file = None
                 is_stale = True
-                
+
         stats_data.update(parse_polychord_stats(stats_file, resume_file))
-        
+
         fit_details = None if is_stale else get_best_fit_details(state.active_output_prefix)
         if fit_details is not None:
             stats_data["best_chi2"] = fit_details["total"]
@@ -3080,7 +3100,7 @@ async def get_status():
         # Estimate target dead points based on dimensions and live points (nlive)
         ndims = 8  # Default dimensions for typical cosmological runs
         nlive = stats_data.get("nlive")
-        
+
         # Fallback 1: Try to get nlive from the active configuration yaml
         if not nlive:
             yaml_to_read = get_model_yaml_path(state.active_output_prefix)
@@ -3091,7 +3111,7 @@ async def get_status():
                     nlive = up_cfg.get('sampler', {}).get('polychord', {}).get('nlive', None)
                 except Exception:
                     pass
-        
+
         if resume_file and resume_file.exists():
             try:
                 with open(resume_file, "r") as f:
@@ -3102,7 +3122,7 @@ async def get_status():
                         break
             except Exception:
                 pass
-                
+
             # Fallback 2: Parse prior_info to get nprior, and compute nlive = nprior / 10
             if not nlive:
                 prior_info = resume_file.with_suffix(".prior_info")
@@ -3116,10 +3136,10 @@ async def get_status():
                                     break
                     except Exception:
                         pass
-        
+
         if not nlive:
             nlive = 200  # Default live points fallback
-            
+
         target_pts = max(3000, ndims * nlive)
 
         # Speed & ETA
@@ -3130,14 +3150,14 @@ async def get_status():
                 pts_per_sec = dead_pts / elapsed
                 pts_per_min = pts_per_sec * 60
                 stats_data["speed"] = f"{pts_per_min:.1f} pts/min"
-                
+
                 remaining_pts = max(0, target_pts - dead_pts)
                 if pts_per_sec > 0:
                     remaining_sec = remaining_pts / pts_per_sec
                     hours = int(remaining_sec // 3600)
                     minutes = int((remaining_sec % 3600) // 60)
                     stats_data["eta"] = f"{hours}h {minutes}m" if hours > 0 else f"{minutes}m"
-                
+
         # Determine convergence percent dynamically
         dead_pts = stats_data.get("dead_points", 0)
         if state.current_status == "completed":
@@ -3225,7 +3245,7 @@ async def get_status():
                         ok_val = float(c["mean"])
                         ok_err = float(c["error"])
                     except ValueError: pass
-                    
+
         # 3. Fallback to best-fit
         if h0_val is None or s8_val is None:
             if fit_details is not None and "raw_params" in fit_details:
@@ -3299,7 +3319,7 @@ async def get_status():
                 if q_bins is None:
                     q_bins = extra_args.get('q_bins_ncdm', None)
                 l_max_ncdm = extra_args.get('l_max_ncdm', None)
-                
+
                 params = up_cfg.get('params', {})
                 if 'm_ncdm' in params:
                     p_val = params['m_ncdm']
@@ -3321,7 +3341,7 @@ async def get_status():
             "q_bins": q_bins,
             "l_max_ncdm": l_max_ncdm
         }
-            
+
     # Read terminal output log
     if state.active_output_prefix:
         log_file = Path(f"{state.active_output_prefix}.log")
@@ -3362,24 +3382,24 @@ async def get_status():
     log_file = Path(f"{state.active_output_prefix}.log")
     total_evals = get_log_eval_count(str(log_file))
     dead_pts = stats_data.get("dead_points", 0)
-    
+
     efficiency = 0.0
     if total_evals > 0:
         efficiency = (dead_pts / total_evals) * 100.0
-        
+
     ess = int(dead_pts * 0.35)
     autocorr_len = 0.0
     if ess > 0:
         autocorr_len = total_evals / ess
-        
+
     prior_hit_freq = float(min(15.0, len(state.watchdog_alerts) * 3.0 + 0.5))
-    
+
     total_struggles = sum(struggles.values()) if struggles else 0
     stability = 1.0
     if total_evals > 0:
         stability = max(0.0, 1.0 - (total_struggles / total_evals))
     stability_percent = stability * 100.0
-    
+
     stats_data["run_health"] = {
         "efficiency": float(efficiency),
         "ess": int(ess),
@@ -3459,12 +3479,13 @@ async def get_status():
             elif total_evals > 600 and efficiency < 0.01:
                 stagnation_detected = True
                 stagnation_reason = "Sampler acceptance rate is critically low (<0.01%) after 600+ evaluations. The proposal density may be too wide or priors are too restrictive."
-                
+
     stats_data["stagnation_detected"] = stagnation_detected
     stats_data["stagnation_reason"] = stagnation_reason
 
     baseline_logz = None
     baseline_chi2 = None
+    baseline_evidence_is_final = False
     try:
         baseline_file = Path("scripts/baseline_database.json")
         if baseline_file.exists():
@@ -3475,21 +3496,24 @@ async def get_status():
                     if isinstance(baseline, dict):
                         baseline_logz = baseline.get("log_evidence")
                         baseline_chi2 = baseline.get("best_chi2")
+                        baseline_evidence_is_final = bool(baseline.get("evidence_is_final", baseline_logz is not None))
                     else:
                         baseline_logz = float(baseline)
-    except Exception: pass
+                        baseline_evidence_is_final = True
+    except Exception:
+        pass
 
-    # If baseline values are missing/None, try to find dynamically from completed/active LCDM runs
     if baseline_logz is None or baseline_chi2 is None:
         dyn_logz, dyn_chi2 = find_lcdm_scores()
         if baseline_logz is None:
             baseline_logz = dyn_logz
+            baseline_evidence_is_final = dyn_logz is not None
         if baseline_chi2 is None:
             baseline_chi2 = dyn_chi2
 
     k_baseline = 6
     k_custom = 6
-    updated_yaml = get_model_yaml_path(state.active_output_prefix)
+    updated_yaml = get_model_yaml_path(state.active_output_prefix, state.active_yaml_path)
     if updated_yaml and updated_yaml.exists():
         try:
             with open(updated_yaml, 'r') as f:
@@ -3504,6 +3528,11 @@ async def get_status():
         "k_baseline": k_baseline,
         "k_custom": k_custom,
         "delta_chi2": None,
+        "delta_log_evidence": None,
+        "bayes_factor": None,
+        "primary_model_comparison": "Awaiting final nested-sampling evidence",
+        "bayesian_evidence_authoritative": False,
+        "aic_bic_role": "Approximate diagnostic only; primary model comparison uses final PolyChord evidence.",
         "aic_baseline": None,
         "aic_custom": None,
         "delta_aic": None,
@@ -3511,74 +3540,71 @@ async def get_status():
         "bic_custom": None,
         "delta_bic": None,
         "qualitative_preference": "No Run Completed",
-        "evidence_based_preference": "No Run Completed",
-        "delta_logz": None
+        "evidence_based_preference": "Awaiting final evidence",
+        "evidence_preference_reliable": False,
+        "note": "Final PolyChord evidence replaces AIC/BIC only when evidence_is_final is true for both baseline and custom runs. Live/preview evidence is debug-only."
     }
 
     custom_chi2 = stats_data.get("best_chi2")
     custom_logz = stats_data.get("log_evidence")
+    if custom_logz is not None and baseline_logz is not None:
+        delta_logz = float(custom_logz - baseline_logz)
+        comparison["delta_log_evidence"] = float(delta_logz)
+        if abs(delta_logz) < 700:
+            comparison["bayes_factor"] = float(math.exp(abs(delta_logz)))
+        authoritative = bool(stats_data.get("evidence_is_final") and baseline_evidence_is_final)
+        comparison["bayesian_evidence_authoritative"] = authoritative
+        comparison["evidence_preference_reliable"] = authoritative
+        if delta_logz > 5:
+            evidence_preference = "Decisive final evidence for custom model"
+        elif delta_logz > 2.5:
+            evidence_preference = "Strong final evidence for custom model"
+        elif delta_logz > 1:
+            evidence_preference = "Mild final evidence for custom model"
+        elif delta_logz < -5:
+            evidence_preference = "Decisive final evidence for baseline LCDM"
+        elif delta_logz < -2.5:
+            evidence_preference = "Strong final evidence for baseline LCDM"
+        elif delta_logz < -1:
+            evidence_preference = "Mild final evidence for baseline LCDM"
+        else:
+            evidence_preference = "Final evidence inconclusive"
+        if not authoritative:
+            evidence_preference = "Preview/live evidence only - debugging signal, not a final model preference"
+        comparison["primary_model_comparison"] = evidence_preference
+        comparison["evidence_based_preference"] = evidence_preference
+
     if custom_chi2 is not None:
         aic_custom = custom_chi2 + 2 * k_custom
         bic_custom = custom_chi2 + k_custom * math.log(N_data)
         comparison["aic_custom"] = float(aic_custom)
         comparison["bic_custom"] = float(bic_custom)
-        
         if baseline_chi2 is not None:
             baseline_chi2 = float(baseline_chi2)
             aic_baseline = baseline_chi2 + 2 * k_baseline
             bic_baseline = baseline_chi2 + k_baseline * math.log(N_data)
-            
             delta_chi2 = custom_chi2 - baseline_chi2
             delta_aic = aic_custom - aic_baseline
             delta_bic = bic_custom - bic_baseline
-            
             comparison["aic_baseline"] = float(aic_baseline)
             comparison["bic_baseline"] = float(bic_baseline)
             comparison["delta_chi2"] = float(delta_chi2)
             comparison["delta_aic"] = float(delta_aic)
             comparison["delta_bic"] = float(delta_bic)
-            
             if delta_bic < -10:
-                comparison["qualitative_preference"] = "Decisively Favors Custom Model (ΔBIC < -10)"
+                comparison["qualitative_preference"] = "Approx. BIC favors custom model (strong; verify with final evidence)"
             elif delta_bic < -6:
-                comparison["qualitative_preference"] = "Strongly Favors Custom Model (-10 <= ΔBIC < -6)"
+                comparison["qualitative_preference"] = "Approx. BIC favors custom model (moderate; verify with final evidence)"
             elif delta_bic < -2:
-                comparison["qualitative_preference"] = "Mildly Favors Custom Model (-6 <= ΔBIC < -2)"
+                comparison["qualitative_preference"] = "Approx. BIC mildly favors custom model"
             elif delta_bic > 10:
-                comparison["qualitative_preference"] = "Decisively Favors Baseline ΛCDM (ΔBIC > 10)"
+                comparison["qualitative_preference"] = "Approx. BIC favors baseline LCDM (strong; verify with final evidence)"
             elif delta_bic > 6:
-                comparison["qualitative_preference"] = "Strongly Favors Baseline ΛCDM (6 < ΔBIC <= 10)"
+                comparison["qualitative_preference"] = "Approx. BIC favors baseline LCDM (moderate; verify with final evidence)"
             elif delta_bic > 2:
-                comparison["qualitative_preference"] = "Mildly Favors Baseline ΛCDM (2 < ΔBIC <= 6)"
+                comparison["qualitative_preference"] = "Approx. BIC mildly favors baseline LCDM"
             else:
-                comparison["qualitative_preference"] = "Inconclusive (|ΔBIC| <= 2)"
-
-    # Evidence-based preference -- ignores AIC/BIC entirely.
-    # Uses the actual integrated posterior probability (ΔlogZ from nested sampling),
-    # which looks at the full data likelihood averaged over the prior volume.
-    # This is what "actually preferred" means for model selection in Bayesian cosmology.
-    # We also surface WAIC/LOO, BMA, tensions, and PPC in other endpoints for the complete picture.
-    evidence_preference = "Inconclusive"
-    delta_logz = None
-    if custom_logz is not None and baseline_logz is not None:
-        delta_logz = float(custom_logz - baseline_logz)
-        if delta_logz > 5:
-            evidence_preference = "Decisively Favors Custom Model (ΔlogZ > 5)"
-        elif delta_logz > 2.5:
-            evidence_preference = "Strongly Favors Custom Model (2.5 < ΔlogZ <= 5)"
-        elif delta_logz > 1:
-            evidence_preference = "Mildly Favors Custom Model (1 < ΔlogZ <= 2.5)"
-        elif delta_logz < -5:
-            evidence_preference = "Decisively Favors Baseline ΛCDM (ΔlogZ < -5)"
-        elif delta_logz < -2.5:
-            evidence_preference = "Strongly Favors Baseline ΛCDM (-5 <= ΔlogZ < -2.5)"
-        elif delta_logz < -1:
-            evidence_preference = "Mildly Favors Baseline ΛCDM (-2.5 <= ΔlogZ < -1)"
-        else:
-            evidence_preference = "Inconclusive (|ΔlogZ| <= 1)"
-    comparison["evidence_based_preference"] = evidence_preference
-    comparison["delta_logz"] = delta_logz
-    comparison["note"] = "evidence_based_preference uses full Bayesian evidence (ΔlogZ from PolyChord), which properly integrates the likelihood over the prior and accounts for Occam's razor via prior volume. It completely ignores AIC/BIC. See /api/ic_vs_evidence_comparison and /api/bayes_factors_bma for WAIC/LOO, BMA weights, PPC p-values, and full diagnostics. Use this (not BIC) to decide which model is ACTUALLY preferred by the data."
+                comparison["qualitative_preference"] = "Approx. BIC inconclusive (|delta BIC| <= 2)"
     stats_data["comparison"] = comparison
 
     tensions = {
@@ -3639,7 +3665,7 @@ async def get_status():
             m_val = float(ncdm_mass)
             tensions["Mnu_status"] = "Consistent (<0.12 eV)" if m_val < 0.12 else f"Tension ({m_val:.2f} eV)"
         except Exception: pass
-        
+
     stats_data["tensions"] = tensions
 
     best_chi2 = stats_data.get("best_chi2")
@@ -3680,7 +3706,7 @@ async def get_status():
         model_type = "lcdm"
     if not model_type:
         model_type = "general"
-        
+
     stats_data["model_type"] = model_type
     stats_data["is_lcdm"] = model_type == "lcdm"  # backward compat
 
@@ -3702,17 +3728,17 @@ async def get_baselines():
                 baselines = json.load(f)
         except Exception:
             pass
-            
+
     # Resolve planck_bao_pantheonplus_shoes entry
     entry = baselines.get("planck_bao_pantheonplus_shoes", {})
     if not isinstance(entry, dict):
         entry = {"log_evidence": float(entry) if entry is not None else None, "best_chi2": None}
-        
+
     # Attempt to load detailed baseline dataset breakdowns
     chains_dir = Path("chains")
     archived_dir = chains_dir / "lcdm_baseline_archived"
     loaded_breakdowns = False
-    
+
     if archived_dir.exists():
         fit_details = get_best_fit_details(str(archived_dir / "lcdm_polychord"))
         if fit_details is not None:
@@ -3724,7 +3750,7 @@ async def get_baselines():
             entry["best_lensing"] = fit_details.get("lensing", 0.0)
             entry["best_other"] = fit_details.get("other", 0.0)
             loaded_breakdowns = True
-            
+
     if not loaded_breakdowns and chains_dir.exists():
         candidates = []
         for f in chains_dir.glob("*.log"):
@@ -3750,22 +3776,27 @@ async def get_baselines():
             entry["log_evidence"] = dyn_logz
         if entry.get("best_chi2") is None and dyn_chi2 is not None:
             entry["best_chi2"] = dyn_chi2
-            
+
     baselines["planck_bao_pantheonplus_shoes"] = entry
     return baselines
 
 @app.post("/api/update_baseline")
 async def update_baseline(data: UpdateBaseline):
-    """Updates the JSON database with a new baseline score."""
+    """Updates the JSON database with a final nested-sampling baseline score."""
+    if not data.evidence_is_final:
+        raise HTTPException(status_code=400, detail="Refusing to store preview/live evidence as a baseline. Wait for final PolyChord .stats evidence.")
+
     baseline_file = Path("scripts/baseline_database.json")
     baselines = {}
     if baseline_file.exists():
         with open(baseline_file, 'r') as f:
             baselines = json.load(f)
-            
+
     baselines[data.dataset] = {
         "log_evidence": data.log_evidence,
-        "best_chi2": data.best_chi2
+        "best_chi2": data.best_chi2,
+        "evidence_is_final": True,
+        "evidence_source": data.evidence_source or "polychord_stats"
     }
     with open(baseline_file, 'w') as f:
         json.dump(baselines, f, indent=4)
@@ -3806,16 +3837,16 @@ async def upload_config(file: UploadFile = File(...), request: Request = None):
         # Apply all transformations in memory before writing (reduces 5+ file ops to 1)
         normalize_prtoe_param_names(config_data)
         ensure_class_engine_in_config(config_data)
-        
+
         # Ensure halofit inline (instead of separate function with more file I/O)
         theory = config_data.setdefault('theory', {}).setdefault('classy', {}).setdefault('extra_args', {})
         if 'non_linear' not in theory and 'non linear' not in theory:
             theory['non_linear'] = 'halofit'
-        
+
         # Write once with all transformations applied
         with open(upload_path, 'w') as f:
             yaml.dump(config_data, f, default_flow_style=False, sort_keys=False)
-            
+
         return {"filename": file.filename, "message": "Configuration uploaded successfully (halofit+PRTOE names+engine/base_path ensured)."}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Could not save uploaded file: {e}")
@@ -3925,6 +3956,7 @@ async def start_run(config: RunConfig, request: Request = None):
 
     python_executable, mpirun_executable, cobaya_env = resolve_cobaya_runtime(get_active_class_engine())
     cobaya_packages_path = os.path.join(os.path.expanduser("~"), "cobaya_packages_clean")
+    conda_prefix = cobaya_env.get("CONDA_PREFIX", "")
     log_dashboard_error(
         f"[START] Runtime: python={python_executable} mpirun={mpirun_executable}",
         console=True,
@@ -3997,7 +4029,7 @@ async def start_run(config: RunConfig, request: Request = None):
             timeout=2
         )
         mpi_version_output = (mpi_version_check.stdout + mpi_version_check.stderr).lower()
-        
+
         # OpenMPI-specific flags (only add if OpenMPI is detected)
         if "open mpi" in mpi_version_output or "openmpi" in mpi_version_output:
             mpi_extra_args = ["--oversubscribe", "--bind-to", "none"]
@@ -4006,7 +4038,7 @@ async def start_run(config: RunConfig, request: Request = None):
             log_dashboard_error(f"[START] Detected non-OpenMPI implementation - using basic mpirun flags", console=True)
     except Exception as e:
         log_dashboard_error(f"[START] Could not detect MPI type, using basic flags: {e}", console=True)
-    
+
     cobaya_cmd = [
         mpirun_executable,
         *mpi_extra_args,  # Add OpenMPI-specific flags only if detected
@@ -4016,6 +4048,12 @@ async def start_run(config: RunConfig, request: Request = None):
         "--packages-path", cobaya_packages_path,
         run_flag,
     ]
+
+    # Ensure MPI libraries are found before system libraries
+    if conda_prefix and os.path.isdir(os.path.join(conda_prefix, "lib")):
+        lib_dir = os.path.join(conda_prefix, "lib")
+        _run_env["LD_LIBRARY_PATH"] = lib_dir + (_run_env.get("LD_LIBRARY_PATH", f":{_run_env.get('LD_LIBRARY_PATH', '')}") if _run_env.get("LD_LIBRARY_PATH") else "")
+        _run_env["PATH"] = os.path.join(conda_prefix, "bin") + os.pathsep + _run_env.get("PATH", "")
     monitor_cmd = [
         python_executable, "plot_chains.py",
         "--config", str(config_file),
@@ -4028,7 +4066,13 @@ async def start_run(config: RunConfig, request: Request = None):
         state.run_start_time = time.time()
         log_run_to_db(str(config_file), getattr(state, 'model_type', 'general'), "running", state.active_output_prefix)
         log_fd = open(log_file_path, "ab")
-        
+
+        # Log environment variables for debugging
+        log_dashboard_error(f"[DEBUG] Environment variables for run:", console=False)
+        for key in ['LD_LIBRARY_PATH', 'PYTHONPATH', 'PATH', 'CONDA_PREFIX', 'OMP_NUM_THREADS']:
+            val = _run_env.get(key, 'NOT SET')
+            log_dashboard_error(f"[DEBUG]   {key}={val[:200] if val else 'NOT SET'}", console=False)
+
         # Detach Cobaya/monitor from the terminal session so Ctrl+C stops the dashboard,
         # not the sampler. Use the Abort button (or shutdown) to stop active runs.
         state.running_process = subprocess.Popen(
@@ -4043,7 +4087,7 @@ async def start_run(config: RunConfig, request: Request = None):
 
         # Log the actual command for debugging
         log_dashboard_error(f"[START] Launched: {' '.join(cobaya_cmd)}", console=True)
-        
+
         state.monitor_process = subprocess.Popen(
             monitor_cmd,
             stdout=subprocess.PIPE,
@@ -4057,6 +4101,16 @@ async def start_run(config: RunConfig, request: Request = None):
         time_module.sleep(0.5)
         if state.running_process.poll() is not None:
             # Process died immediately - read the log for errors
+            log_dashboard_error(f"[CRASH] Process died immediately with exit code {state.running_process.returncode}", console=True)
+            try:
+                with open(log_file_path, 'rb') as f:
+                    f.seek(0, 2)  # Seek to end
+                    file_size = f.tell()
+                    f.seek(max(0, file_size - 5000))  # Read last 5KB
+                    tail = f.read().decode('utf-8', errors='ignore')
+                    log_dashboard_error(f"[CRASH] Last 5KB of log:\n{tail}", console=True)
+            except Exception as e:
+                log_dashboard_error(f"[CRASH] Could not read log file: {e}", console=True)
             try:
                 log_fd.close()
                 with open(log_file_path, 'r') as f:
@@ -4075,7 +4129,7 @@ async def start_run(config: RunConfig, request: Request = None):
                         }
                         # Check if this alert already exists (by comparing status message)
                         alert_exists = any(
-                            isinstance(alert, dict) and alert.get("status") == crash_msg 
+                            isinstance(alert, dict) and alert.get("status") == crash_msg
                             for alert in state.watchdog_alerts
                         )
                         if not alert_exists:
@@ -4152,7 +4206,7 @@ async def stop_run():
             try:
                 parent = psutil.Process(pid)
                 children = parent.children(recursive=True)
-                
+
                 # Send SIGTERM to all children first
                 for child in children:
                     try:
@@ -4254,29 +4308,29 @@ async def apply_priors_and_restart(req: ApplyPriorsRequest, request: Request = N
     yaml_path = Path(req.config_name)
     if not yaml_path.exists():
         raise HTTPException(status_code=404, detail="Configuration file not found.")
-        
+
     try:
         with open(yaml_path, 'r') as f:
             config = yaml.safe_load(f)
-            
+
         for param, bounds in req.updates.items():
             if param in config.get('params', {}) and isinstance(config['params'][param], dict):
                 if 'prior' in config['params'][param] and isinstance(config['params'][param]['prior'], dict):
                     config['params'][param]['prior']['min'] = bounds['min']
                     config['params'][param]['prior']['max'] = bounds['max']
-                    
+
         with open(yaml_path, 'w') as f:
             yaml.dump(config, f, default_flow_style=False, sort_keys=False)
-            
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to update YAML: {e}")
-        
+
     async def perform_restart():
         await stop_run()
         await asyncio.sleep(3)
         run_config = RunConfig(config_name=req.config_name, auto_rebuild=False, force_overwrite=True)
         await start_run(run_config)
-        
+
     asyncio.create_task(perform_restart())
     return {"message": "Priors updated and restart sequence initiated."}
 
@@ -4289,21 +4343,21 @@ async def center_priors_on_best_fit(req: CenterPriorsRequest, request: Request =
     yaml_path = Path(req.config_name)
     if not yaml_path.exists():
         raise HTTPException(status_code=404, detail="Configuration file not found.")
-        
+
     output_prefix = get_output_prefix_from_yaml(str(yaml_path))
     fit_details = get_best_fit_details(output_prefix)
     if not fit_details or not fit_details.get("raw_params"):
         raise HTTPException(status_code=400, detail="No best-fit parameter details found to center priors on.")
-        
+
     best_params = fit_details["raw_params"]
-    
+
     try:
         with open(yaml_path, 'r') as f:
             config = yaml.safe_load(f)
-            
+
         params = config.get('params', {})
         updated = False
-        
+
         for name, best_val in best_params.items():
             if name in params and isinstance(params[name], dict):
                 p_dict = params[name]
@@ -4314,7 +4368,7 @@ async def center_priors_on_best_fit(req: CenterPriorsRequest, request: Request =
                         width = p_max - p_min
                         new_min = best_val - width / 2.0
                         new_max = best_val + width / 2.0
-                        
+
                         # Apply physical boundary safety guards
                         if name == 'omega_b':
                             new_min = max(0.005, new_min)
@@ -4344,28 +4398,28 @@ async def center_priors_on_best_fit(req: CenterPriorsRequest, request: Request =
                         elif name == 'zeta_prtoe':
                             new_min = max(0.0001, new_min)
                             new_max = min(500.0, new_max)
-                            
+
                         p_dict['prior']['min'] = float(new_min)
                         p_dict['prior']['max'] = float(new_max)
-                        
+
                         p_dict['ref'] = float(best_val)
                         updated = True
-                        
+
         if not updated:
             raise HTTPException(status_code=400, detail="No parameters with prior ranges were found to update.")
-            
+
         with open(yaml_path, 'w') as f:
             yaml.dump(config, f, default_flow_style=False, sort_keys=False)
-            
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to update YAML priors: {e}")
-        
+
     async def perform_restart():
         await stop_run()
         await asyncio.sleep(3)
         run_config = RunConfig(config_name=req.config_name, auto_rebuild=False, force_overwrite=True)
         await start_run(run_config)
-        
+
     asyncio.create_task(perform_restart())
     return {"message": "Priors centered on best-fit parameters and clean restart sequence initiated."}
 
@@ -4421,12 +4475,12 @@ async def rebuild_class_wizard(config: RebuildConfig, background_tasks: Backgrou
 
     if state.rebuild_progress["status"] == "building":
         raise HTTPException(status_code=409, detail="A build is already in progress.")
-        
+
     def perform_build():
 
         state.rebuild_progress["status"] = "building"
         state.rebuild_progress["log"] = ["Starting custom CLASS compilation build..."]
-        
+
         target_engine = None
         if config.engine_id:
             engines = CLASS_ENGINES_DATA.get("engines", {})
@@ -4446,9 +4500,9 @@ async def rebuild_class_wizard(config: RebuildConfig, background_tasks: Backgrou
             cflags.append("-ffast-math")
         if config.vectorize:
             cflags.append("-ftree-vectorize")
-            
+
         cflags_str = " ".join(cflags)
-        
+
         # Build env and command list — no shell=True
         _build_env = os.environ.copy()
         _build_env["CFLAGS"] = cflags_str
@@ -4494,7 +4548,7 @@ async def rebuild_class_wizard(config: RebuildConfig, background_tasks: Backgrou
         except Exception as e:
             state.rebuild_progress["status"] = "error"
             state.rebuild_progress["log"].append(f"EXCEPTION: {e}")
-            
+
     background_tasks.add_task(perform_build)
     return {"message": "Rebuild process initiated in background."}
 
@@ -5114,7 +5168,7 @@ async def remove_class_engine(req: ClassEngineRemove):
 async def generate_notebook():
 
     prefix = state.active_output_prefix or "chains/prtoe_polychord"
-    
+
     notebook_json = {
         "cells": [
             {
@@ -5215,7 +5269,7 @@ async def generate_notebook():
         "nbformat": 4,
         "nbformat_minor": 2
     }
-    
+
     from fastapi.responses import JSONResponse
     return JSONResponse(
         content=notebook_json,
@@ -5226,10 +5280,10 @@ async def generate_notebook():
 async def export_paper_figure():
 
     prefix = state.active_output_prefix or "chains/prtoe_polychord"
-    
+
     if not os.path.exists(f"{prefix}.1.txt") and not os.path.exists(f"{prefix}.txt"):
         raise HTTPException(status_code=404, detail="No chain data files found to plot.")
-        
+
     export_script = f"""
 import sys
 import os
@@ -5242,36 +5296,36 @@ import matplotlib.pyplot as plt
 try:
     samples = getdist.mcsamples.loadMCSamples('{prefix}', settings={{'ignore_rows': 0.3}})
     g = plots.get_subplot_plotter(width_inch=7)
-    
+
     plt.rcParams['text.usetex'] = False
     plt.rcParams['font.family'] = 'serif'
     plt.rcParams['font.size'] = 10
-    
+
     params_to_plot = ['H0', 'sigma8', 'Omega_m', 'S8']
     all_params = [p.name for p in samples.paramNames.names]
     for custom_p in ['xi_prtoe', 'zeta_prtoe', 'beta_prtoe', 'delta_prtoe']:
         if custom_p in all_params:
             params_to_plot.append(custom_p)
-            
+
     g.triangle_plot(samples, params_to_plot, filled=True, contour_colors=['#3867d6'], line_args=[{{'color': '#3867d6'}}])
     g.export('paper_figure.png')
     print('SUCCESS')
 except Exception as e:
     print('ERROR:', e)
 """
-    
+
     conda_env_path = os.environ.get("CONDA_PREFIX", "")
     python_executable, _, _ = resolve_cobaya_runtime()
-    
+
     script_path = "export_script.py"
     with open(script_path, "w") as f:
         f.write(export_script)
-        
+
     try:
         res = subprocess.run([python_executable, script_path], capture_output=True, text=True, timeout=30)
         if os.path.exists(script_path):
             os.remove(script_path)
-        
+
         if "SUCCESS" in res.stdout and os.path.exists("paper_figure.png"):
             return FileResponse("paper_figure.png", media_type="image/png", filename="cosmo_paper_figure.png")
         else:
@@ -5338,9 +5392,15 @@ async def watchdog_restart(req: WatchdogRestartRequest, request: Request = None)
         await asyncio.sleep(3)
         run_config = RunConfig(config_name=req.config_name, auto_rebuild=False, force_overwrite=True)
         await start_run(run_config)
-        
+
     asyncio.create_task(perform_restart())
     return {"message": "Watchdog-triggered restart initiated."}
+
+@app.post("/api/clear_watchdog_alerts")
+async def clear_watchdog_alerts():
+    """Clear all watchdog alerts from the status report."""
+    state.watchdog_alerts.clear()
+    return {"message": "Watchdog alerts cleared."}
 
 @app.post("/api/recover_sampler")
 async def recover_sampler(req: RecoverSamplerRequest, request: Request = None):
@@ -5382,7 +5442,7 @@ async def recover_sampler(req: RecoverSamplerRequest, request: Request = None):
                             widen_amount = span * req.widen_percent
                             p_val['prior']['min'] = float(p_min - widen_amount / 2.0)
                             p_val['prior']['max'] = float(p_max + widen_amount / 2.0)
-                
+
                 # Adjust proposals
                 if 'proposal' in p_val:
                     if isinstance(p_val['proposal'], (int, float)):
@@ -5447,7 +5507,7 @@ async def recover_sampler(req: RecoverSamplerRequest, request: Request = None):
         # Restart
         run_config = RunConfig(config_name=req.config_name, auto_rebuild=False, force_overwrite=True)
         await start_run(run_config)
-        
+
         return {"message": "Sampler recovered successfully. Priors widened, proposal widths adjusted, and chains restarted."}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to recover sampler: {e}")
@@ -5471,14 +5531,14 @@ async def get_corner_plot(
 
     output_prefix = get_output_prefix_from_yaml(config_name)
     prefix_path = Path(output_prefix)
-    
+
     final_file = Path(f"{output_prefix}.txt")
     raw_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.txt"
     live_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}_phys_live.txt"
-    
+
     data_parts = []
     is_initialization = False
-    
+
     if final_file.exists() and os.path.getsize(final_file) > 0:
         root_name = str(final_file)
         try:
@@ -5490,7 +5550,7 @@ async def get_corner_plot(
                 if d.size > 0:
                     data_parts.append(np.atleast_2d(d))
         except Exception: pass
-    
+
     if not data_parts:
         if raw_file.exists() and os.path.getsize(raw_file) > 0:
             try:
@@ -5498,7 +5558,7 @@ async def get_corner_plot(
                 if d.size > 0:
                     data_parts.append(np.atleast_2d(d))
             except Exception: pass
-                
+
         if not data_parts and live_file.exists() and os.path.getsize(live_file) > 0:
             try:
                 d = np.loadtxt(live_file)
@@ -5520,10 +5580,10 @@ async def get_corner_plot(
         weights = data[:, 0]
         loglikes = data[:, 1]
         samps = data[:, 2:]
-        
+
         names = []
         labels = []
-        
+
         paramnames_file = output_prefix + ".paramnames"
         if os.path.exists(paramnames_file):
             with open(paramnames_file, "r") as f:
@@ -5532,7 +5592,7 @@ async def get_corner_plot(
                     if parts:
                         names.append(parts[0])
                         labels.append(parts[1].strip().replace('*', '') if len(parts) > 1 else parts[0])
-        
+
         if not names:
             updated_yaml = get_model_yaml_path(output_prefix)
             if not updated_yaml or not updated_yaml.exists():
@@ -5548,7 +5608,7 @@ async def get_corner_plot(
                         names = sampled + derived
                         labels = [params_cfg[n].get('latex', n) for n in names]
                 except Exception: pass
-                    
+
         if len(names) > samps.shape[1]:
             names = names[:samps.shape[1]]
             labels = labels[:samps.shape[1]]
@@ -5558,7 +5618,7 @@ async def get_corner_plot(
 
         w = weights if use_weights and not is_initialization else np.ones_like(weights)
         samples = MCSamples(samples=samps, weights=w, loglikes=loglikes, names=names, labels=labels)
-        
+
         if parameters:
             plot_params = [p.strip() for p in parameters.split(',') if p.strip() in names]
         else:
@@ -5566,16 +5626,16 @@ async def get_corner_plot(
             plot_params = [p for p in default_plot if p in names]
             if not plot_params:
                 plot_params = names[:4]
-                
+
         plt.style.use('dark_background')
         g = plots.get_subplot_plotter(width_inch=8)
         g.settings.figure_legend_frame = False
         g.settings.title_limit_fontsize = 10
         g.settings.axes_fontsize = 9
         g.settings.lab_fontsize = 10
-        
+
         g.triangle_plot([samples], plot_params, filled=True, contour_colors=['#00d2d3'], line_args=[{'color': '#00d2d3'}])
-        
+
         if overlay_chain and samps.shape[0] > 1:
             thinned_idx = np.linspace(0, samps.shape[0]-1, min(200, samps.shape[0]), dtype=int)
             for i, p_y in enumerate(plot_params):
@@ -5588,11 +5648,11 @@ async def get_corner_plot(
                             ax.plot(samps[thinned_idx, idx_x], samps[thinned_idx, idx_y], color='#ff7f0e', alpha=0.6, lw=0.8, marker='o', markersize=2)
                             ax.scatter(samps[thinned_idx[0], idx_x], samps[thinned_idx[0], idx_y], color='#2ed573', s=15, zorder=10)
                             ax.scatter(samps[thinned_idx[-1], idx_x], samps[thinned_idx[-1], idx_y], color='#ff4757', s=15, zorder=10)
-        
+
         plot_out_path = Path("dashboard/corner_plot.png")
         g.export(str(plot_out_path))
         plt.close('all')
-        
+
         return FileResponse(plot_out_path, media_type="image/png", filename="corner_plot.png")
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to generate corner plot: {e}")
@@ -5608,7 +5668,7 @@ async def run_stability_scan(config_name: str = "uploaded_config.yaml"):
     yaml_path = Path(config_name)
     if not yaml_path.exists():
         raise HTTPException(status_code=404, detail="Config file not found.")
-        
+
     try:
         with open(yaml_path, 'r') as f:
             cfg = yaml.safe_load(f)
@@ -5616,7 +5676,7 @@ async def run_stability_scan(config_name: str = "uploaded_config.yaml"):
         raise HTTPException(status_code=500, detail=f"Failed to parse YAML: {e}")
 
     params = cfg.get('params', {})
-    
+
     base_params = {
         'omega_b': 0.0224,
         'omega_cdm': 0.12,
@@ -5634,7 +5694,7 @@ async def run_stability_scan(config_name: str = "uploaded_config.yaml"):
         'lambda_prtoe': 0.1,
         'non_linear': 'halofit'
     }
-    
+
     for k, v in params.items():
         if isinstance(v, dict):
             ref = v.get('ref', v.get('value'))
@@ -5645,22 +5705,22 @@ async def run_stability_scan(config_name: str = "uploaded_config.yaml"):
 
     prtoe_params = ['xi_prtoe', 'delta_prtoe', 'zeta_prtoe', 'beta_prtoe']
     results = []
-    
+
     for p in prtoe_params:
         val0 = base_params.get(p, 1e-6 if p == 'beta_prtoe' else 0.1)
         if p == 'beta_prtoe':
             test_vals = [val0 / 10.0, val0, val0 * 10.0]
         else:
             test_vals = [val0 * 0.9, val0, val0 * 1.1]
-            
+
         for val in test_vals:
             test_params = dict(base_params)
             test_params[p] = val
             test_params['output'] = 'mPk'
-            
+
             if 'log_beta_prtoe' in params and p == 'beta_prtoe':
                 test_params['log_beta_prtoe'] = math.log10(val)
-                
+
             success = False
             error_msg = ""
             try:
@@ -5672,17 +5732,17 @@ async def run_stability_scan(config_name: str = "uploaded_config.yaml"):
                 c.empty()
             except Exception as ex:
                 error_msg = str(ex)
-                
+
             results.append({
                 "parameter": p,
                 "value": float(val),
                 "status": "Stable" if success else "Unstable",
                 "error": error_msg
             })
-            
+
     failed = [r for r in results if r["status"] == "Unstable"]
     status_summary = "All parameter points stable." if not failed else f"CLASS instability detected at {len(failed)} points!"
-    
+
     return {
         "status": "success",
         "summary": status_summary,
@@ -5704,7 +5764,7 @@ async def run_sensitivity_analysis(config_name: str = "uploaded_config.yaml"):
         cfg = {}
 
     params = cfg.get('params', {})
-    
+
     base_params = {
         'omega_b': 0.0224,
         'omega_cdm': 0.12,
@@ -5722,7 +5782,7 @@ async def run_sensitivity_analysis(config_name: str = "uploaded_config.yaml"):
         'lambda_prtoe': 0.1,
         'non_linear': 'halofit'
     }
-    
+
     for k, v in params.items():
         if isinstance(v, dict):
             ref = v.get('ref', v.get('value'))
@@ -5766,28 +5826,28 @@ async def run_sensitivity_analysis(config_name: str = "uploaded_config.yaml"):
     for p in prtoe_params:
         val0 = base_params.get(p, 1e-6 if p == 'beta_prtoe' else 0.1)
         dp = val0 * 0.1 if p == 'beta_prtoe' else 0.01
-            
+
         p_plus = dict(base_params)
         p_plus[p] = val0 + dp
         h0_plus, s8_plus = eval_model(p_plus)
-        
+
         p_minus = dict(base_params)
         p_minus[p] = max(1e-12, val0 - dp)
         h0_minus, s8_minus = eval_model(p_minus)
-        
+
         if h0_plus is not None and h0_minus is not None:
             dh0_dp = (h0_plus - h0_minus) / (2.0 * dp)
             ds8_dp = (s8_plus - s8_minus) / (2.0 * dp)
         else:
             dh0_dp, ds8_dp = 0.0, 0.0
-            
+
         sensitivities[p] = {
             "dH0_dparam": float(dh0_dp),
             "dS8_dparam": float(ds8_dp),
             "param_val": float(val0),
             "step_size": float(dp)
         }
-        
+
     return {
         "status": "success",
         "base_H0": float(h0_base),
@@ -5800,37 +5860,37 @@ async def download_reproducibility_pack(config_name: str = "uploaded_config.yaml
     """Zips YAML configs, best-fit details, log files, summary reports, and plots for journal submissions."""
     import zipfile
     from io import BytesIO
-    
+
     output_prefix = get_output_prefix_from_yaml(config_name)
     prefix_path = Path(output_prefix)
-    
+
     zip_buffer = BytesIO()
-    
+
     try:
         with zipfile.ZipFile(zip_buffer, "a", zipfile.ZIP_DEFLATED, False) as zip_file:
             yaml_path = Path(config_name)
             if yaml_path.exists():
                 zip_file.write(yaml_path, arcname=yaml_path.name)
-                
+
             updated_yaml = Path(f"{output_prefix}.updated.yaml")
             if updated_yaml.exists():
                 zip_file.write(updated_yaml, arcname=f"{prefix_path.name}.updated.yaml")
-                
+
             log_file = Path(f"{output_prefix}.log")
             if log_file.exists():
                 zip_file.write(log_file, arcname=f"{prefix_path.name}.log")
-                
+
             summary_file = Path(f"{output_prefix}_summary.txt")
             if summary_file.exists():
                 zip_file.write(summary_file, arcname=f"{prefix_path.name}_summary.txt")
-                
+
             stats_file = Path(f"{output_prefix}.stats")
             raw_stats_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.stats"
             if not stats_file.exists() and raw_stats_file.exists():
                 stats_file = raw_stats_file
             if stats_file.exists():
                 zip_file.write(stats_file, arcname=f"{prefix_path.name}.stats")
-                
+
             paramnames_file = Path(f"{output_prefix}.paramnames")
             if paramnames_file.exists():
                 zip_file.write(paramnames_file, arcname=f"{prefix_path.name}.paramnames")
@@ -5839,7 +5899,7 @@ async def download_reproducibility_pack(config_name: str = "uploaded_config.yaml
             if fit_details:
                 best_fit_content = json.dumps(fit_details, indent=4)
                 zip_file.writestr("best_fit_chi2.json", best_fit_content)
-                
+
             if fit_details and "raw_params" in fit_details:
                 raw = fit_details["raw_params"]
                 ini_lines = [
@@ -5857,7 +5917,7 @@ async def download_reproducibility_pack(config_name: str = "uploaded_config.yaml
                     ini_lines.append(f"A_s = {raw['A_s']}")
                 elif 'logA' in raw:
                     ini_lines.append(f"A_s = {1e-10 * math.exp(raw['logA'])}")
-                    
+
                 if raw.get('prtoe_delta', raw.get('delta_prtoe')) is not None:
                     ini_lines.extend([
                         "",
@@ -5877,11 +5937,11 @@ async def download_reproducibility_pack(config_name: str = "uploaded_config.yaml
             plot_path = Path("prtoe_posteriors.png")
             if plot_path.exists():
                 zip_file.write(plot_path, arcname="posterior_triangle_plot.png")
-                
+
             corner_plot = Path("dashboard/corner_plot.png")
             if corner_plot.exists():
                 zip_file.write(corner_plot, arcname="posterior_corner_plot.png")
-                
+
             readme_txt = (
                 "========================================================================\n"
                 " COSMICDASHBOARD RUN REPRODUCIBILITY PACK\n"
@@ -5895,12 +5955,12 @@ async def download_reproducibility_pack(config_name: str = "uploaded_config.yaml
                 "========================================================================\n"
             )
             zip_file.writestr("README.txt", readme_txt)
-            
+
         zip_buffer.seek(0)
         zip_out_path = Path("dashboard/reproducibility_pack.zip")
         with open(zip_out_path, "wb") as f:
             f.write(zip_buffer.getvalue())
-            
+
         return FileResponse(zip_out_path, media_type="application/zip", filename=f"reproducibility_{prefix_path.name}.zip")
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to create reproducibility pack: {e}")
@@ -5912,35 +5972,35 @@ async def compare_models():
     """Scans chains/ for completed or active runs and returns a model comparison matrix."""
 
     import numpy as np
-    
+
     chains_dir = Path("chains")
     if not chains_dir.exists():
         return {"models": []}
-        
+
     yaml_files = list(chains_dir.glob("*.updated.yaml"))
     prefixes = [f.stem.replace(".updated", "") for f in yaml_files]
-    
+
     for log_file in chains_dir.glob("*.log"):
         prefix = log_file.stem
         if prefix not in prefixes and prefix != "lcdm_polychord":
             prefixes.append(prefix)
-            
+
     if "lcdm_polychord" not in prefixes and Path("chains/lcdm_polychord.log").exists():
         prefixes.append("lcdm_polychord")
-        
+
     models_list = []
-    
+
     for prefix in set(prefixes):
         full_prefix = f"chains/{prefix}"
         summary_path = Path(f"{full_prefix}_summary.txt")
         stats_path = Path(f"{full_prefix}.stats")
         updated_yaml = get_model_yaml_path(full_prefix)
-        
+
         if prefix == "lcdm_polychord":
             model_name = "ΛCDM Baseline"
         else:
             model_name = prefix.replace("_", " ").title()
-        
+
         logz = None
         logz_err = None
         resolved_stats_path = stats_path
@@ -5955,14 +6015,14 @@ async def compare_models():
             res = parse_polychord_stats(resolved_stats_path, resume_path)
             logz = res.get("log_evidence")
             logz_err = res.get("log_evidence_error")
-            
+
         fit_details = get_best_fit_details(full_prefix)
         chi2 = fit_details.get("total") if fit_details else None
-        
+
         constraints = {}
         h0_val, h0_err = None, None
         s8_val, s8_err = None, None
-        
+
         if summary_path.exists():
             try:
                 with open(summary_path, "r") as f:
@@ -5982,7 +6042,7 @@ async def compare_models():
                                     "err": float(match.group(3))
                                 }
             except Exception: pass
-                
+
         h0_info = constraints.get("H0", constraints.get("h0"))
         if h0_info:
             h0_val = h0_info["mean"]
@@ -5991,7 +6051,7 @@ async def compare_models():
         if s8_info:
             s8_val = s8_info["mean"]
             s8_err = s8_info["err"]
-            
+
         best_params = fit_details.get("raw_params", {}) if fit_details else {}
         if h0_val is None:
             h0_val = best_params.get("H0", best_params.get("h0"))
@@ -6001,7 +6061,7 @@ async def compare_models():
                 h = best_params.get("H0", 67.4) / 100.0
                 omega_m = (best_params.get("omega_cdm", 0.12) + best_params.get("omega_b", 0.0224)) / h**2
                 s8_val = best_params["sigma8"] * (omega_m / 0.3)**0.5
-                
+
         cache_key = f"{prefix}_{chi2}"
         if cache_key in state.model_curves_cache.cache:  # LRU internal for simplicity; treat as dict-like hit
             # LRU get will refresh
@@ -6016,21 +6076,21 @@ async def compare_models():
             state.active_yaml_path = old_yaml
             if curves.get("success"):
                 state.model_curves_cache.set(cache_key, curves)
-                
+
         w0 = curves.get("w_0", -1.0)
         wa = curves.get("w_a", 0.0)
         gamma = curves.get("gamma_0", 0.55)
-        
+
         h0_tension = None
         if h0_val is not None:
             err_term = (h0_err**2 + 1.04**2)**0.5 if h0_err is not None else 1.04
             h0_tension = abs(h0_val - 73.04) / err_term
-            
+
         s8_tension = None
         if s8_val is not None:
             err_term = (s8_err**2 + 0.017**2)**0.5 if s8_err is not None else 0.017
             s8_tension = abs(s8_val - 0.776) / err_term
-            
+
         models_list.append({
             "name": model_name,
             "prefix": prefix,
@@ -6048,7 +6108,7 @@ async def compare_models():
             "gamma": float(gamma) if gamma is not None else 0.55,
             "curves": curves
         })
-        
+
     return {"models": models_list}
 
 @app.post("/api/playground_curves")
@@ -6059,7 +6119,7 @@ async def playground_curves(req: PlaygroundRequest):
     import numpy as np
 
     z_sample = np.linspace(0.0, 2.5, 50)
-    
+
     # LCDM baseline via helper (engine + base_path guaranteed)
     lcdm_params = {
         'omega_b': req.omega_b,
@@ -6114,7 +6174,7 @@ async def playground_curves(req: PlaygroundRequest):
             model_params['w0_fld'] = req.w0_fld
             model_params['wa_fld'] = req.wa_fld
             model_params['use_prtoe'] = 'no'
-    
+
     # Merge extra_args from active yaml (same as in compute_cosmo_curves) so direct CLASS
     # calls use the run's precision settings, avoiding background evolver singular matrix etc.
     if state.active_yaml_path and os.path.exists(state.active_yaml_path):
@@ -6127,11 +6187,11 @@ async def playground_curves(req: PlaygroundRequest):
                     model_params[k] = v
         except Exception:
             pass
-    
+
     w_sample = []
     mu_sample = []
     H_ratio = []
-    
+
     try:
         c_model, model_eff = make_class_instance(model_params)
         c_model.set(model_eff)
@@ -6141,15 +6201,15 @@ async def playground_curves(req: PlaygroundRequest):
         H_bg_model = np.array(bg_model['H [1/Mpc]'])
         sort_idx = np.argsort(z_bg_model)
         H_model_sample = np.interp(z_sample, z_bg_model[sort_idx], H_bg_model[sort_idx])
-        
+
         H_ratio = (H_model_sample / H_lcdm_sample).tolist()
-        
+
         if '(.)rho_scf' in bg_model and '(.)p_scf' in bg_model:
             rho_scf = np.array(bg_model['(.)rho_scf'])
             p_scf = np.array(bg_model['(.)p_scf'])
             w_scf = np.where(rho_scf > 0, p_scf / rho_scf, -1.0)
             w_sample = np.interp(z_sample, z_bg_model[sort_idx], w_scf[sort_idx]).tolist()
-            
+
             if 'phi_scf' in bg_model:
                 phi_scf = np.array(bg_model['phi_scf'])
                 phi_interp = np.interp(z_sample, z_bg_model[sort_idx], phi_scf[sort_idx])
@@ -6172,7 +6232,7 @@ async def playground_curves(req: PlaygroundRequest):
         else:
             w_sample = [-1.0] * len(z_sample)
             mu_sample = [1.0] * len(z_sample)
-            
+
         c_model.struct_cleanup()
         c_model.empty()
     except Exception as e:
@@ -6182,11 +6242,11 @@ async def playground_curves(req: PlaygroundRequest):
                 c_model.empty()
         except Exception: pass
         raise HTTPException(status_code=500, detail=f"CLASS failed to evaluate model: {e}")
-        
+
     phi_sample = []
     if 'phi_interp' in locals():
         phi_sample = phi_interp.tolist()
-        
+
     return {
         "status": "success",
         "z": z_sample.tolist(),
@@ -6212,17 +6272,17 @@ async def get_jacobian(config_name: str = "uploaded_config.yaml"):
         import numpy as np
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"classy or numpy not installed: {e}")
-        
+
     yaml_path = Path(config_name)
     if not yaml_path.exists():
         raise HTTPException(status_code=404, detail="Config not found.")
-        
+
     try:
         with open(yaml_path, 'r') as f:
             cfg = yaml.safe_load(f)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to parse YAML: {e}")
-        
+
     params = cfg.get('params', {})
     base_params = {
         'omega_b': 0.0224,
@@ -6241,7 +6301,7 @@ async def get_jacobian(config_name: str = "uploaded_config.yaml"):
         'lambda_prtoe': 0.1,
         'non_linear': 'halofit'
     }
-    
+
     for k, v in params.items():
         if isinstance(v, dict):
             ref = v.get('ref', v.get('value'))
@@ -6249,12 +6309,12 @@ async def get_jacobian(config_name: str = "uploaded_config.yaml"):
                 base_params[k] = ref
         elif isinstance(v, (int, float)):
             base_params[k] = v
-            
+
     prtoe_params = ['xi_prtoe', 'delta_prtoe', 'zeta_prtoe', 'beta_prtoe']
     observables = ['H0', 'S8', 'omega_m', 'w_0', 'gamma_0']
-    
+
     jacobian_matrix = {}
-    
+
     def eval_observables(p_dict):
         try:
             c, p_eff = make_class_instance(p_dict)
@@ -6265,7 +6325,7 @@ async def get_jacobian(config_name: str = "uploaded_config.yaml"):
             omega_m = c.Omega_m()
             sigma8 = c.sigma8()
             s8 = sigma8 * (omega_m / 0.3)**0.5
-            
+
             bg = c.get_background()
             w0 = -1.0
             if '(.)rho_scf' in bg and '(.)p_scf' in bg:
@@ -6273,7 +6333,7 @@ async def get_jacobian(config_name: str = "uploaded_config.yaml"):
                 p_scf = bg['(.)p_scf']
                 if len(rho_scf) > 0 and rho_scf[0] > 0:
                     w0 = p_scf[0] / rho_scf[0]
-                    
+
             gamma0 = 0.55
             c.struct_cleanup()
             c.empty()
@@ -6290,24 +6350,24 @@ async def get_jacobian(config_name: str = "uploaded_config.yaml"):
                 c.empty()
             except Exception: pass
             return None
-            
+
     base_obs = eval_observables(base_params)
     if not base_obs:
         raise HTTPException(status_code=500, detail="CLASS failed at standard reference point.")
-        
+
     for p in prtoe_params:
         val0 = base_params.get(p, 1e-6 if p == 'beta_prtoe' else 0.1)
         dp = val0 * 0.05 if val0 > 0 else 1e-6
         if dp == 0: dp = 1e-6
-        
+
         p_plus = dict(base_params)
         p_plus[p] = val0 + dp
         obs_plus = eval_observables(p_plus)
-        
+
         p_minus = dict(base_params)
         p_minus[p] = max(1e-12, val0 - dp)
         obs_minus = eval_observables(p_minus)
-        
+
         jacobian_matrix[p] = {}
         for obs in observables:
             if obs_plus and obs_minus:
@@ -6319,7 +6379,7 @@ async def get_jacobian(config_name: str = "uploaded_config.yaml"):
                 jacobian_matrix[p][obs] = float(norm_deriv)
             else:
                 jacobian_matrix[p][obs] = 0.0
-                
+
     return {
         "status": "success",
         "parameters": prtoe_params,
@@ -6329,12 +6389,12 @@ async def get_jacobian(config_name: str = "uploaded_config.yaml"):
 
 def get_chain_columns_and_data(output_prefix: str):
     import numpy as np
-    
+
     prefix_path = Path(output_prefix)
     final_file = Path(f"{output_prefix}.txt")
     raw_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.txt"
     live_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}_phys_live.txt"
-    
+
     files_to_check = []
     if final_file.exists():
         files_to_check.append((final_file, "final"))
@@ -6342,23 +6402,23 @@ def get_chain_columns_and_data(output_prefix: str):
         files_to_check.append((raw_file, "raw_txt"))
     if live_file.exists():
         files_to_check.append((live_file, "live"))
-        
+
     if not files_to_check:
         return None, None
-        
+
     updated_yaml = get_model_yaml_path(output_prefix)
     if not updated_yaml or not updated_yaml.exists():
         return None, None
-        
+
     try:
         with open(updated_yaml, 'r') as f:
             up_cfg = yaml.safe_load(f)
     except Exception:
         return None, None
-        
+
     params = up_cfg.get('params', {})
     likelihoods = up_cfg.get('likelihood', {})
-    
+
     sampled = []
     derived = []
     for name, p_dict in params.items():
@@ -6372,14 +6432,14 @@ def get_chain_columns_and_data(output_prefix: str):
             sampled.append(name)
         else:
             derived.append(name)
-            
+
     for fpath, ftype in files_to_check:
         try:
             data = np.loadtxt(fpath)
             if data.size == 0:
                 continue
             data = np.atleast_2d(data)
-            
+
             has_header = False
             names_in_header = []
             if ftype == "final":
@@ -6388,7 +6448,7 @@ def get_chain_columns_and_data(output_prefix: str):
                     if first_line.startswith('#'):
                         has_header = True
                         names_in_header = first_line.lstrip('#').strip().split()
-            
+
             if ftype == "live":
                 chi2 = -2.0 * data[:, -1]
             elif ftype == "raw_txt":
@@ -6402,7 +6462,7 @@ def get_chain_columns_and_data(output_prefix: str):
                     chi2 = 2.0 * (data[:, 1] - data[:, 2])
             else:
                 chi2 = np.zeros(len(data))
-                
+
             if ftype == "final" and has_header:
                 param_data = {}
                 for idx, name in enumerate(names_in_header):
@@ -6422,18 +6482,18 @@ def get_chain_columns_and_data(output_prefix: str):
                     likes = [f"loglike__{name}" for name in likelihoods.keys()]
                     names_params = sampled + derived + priors + likes
                     idx_start = 2
-                    
+
                 param_data = {}
                 for i, name in enumerate(names_params):
                     idx = idx_start + i
                     if idx < data.shape[1]:
                         param_data[name] = data[:, idx]
-                        
+
             return param_data, chi2
         except Exception as e:
             log_dashboard_error(f"Error loading chain file {fpath}: {e}", console=True)
             continue
-            
+
     return None, None
 
 # --- Likelihood Terrain Explorer ---
@@ -6445,9 +6505,9 @@ async def get_likelihood_terrain(
 ):
     import numpy as np
     output_prefix = get_output_prefix_from_yaml(config_name)
-    
+
     param_data, chi2 = get_chain_columns_and_data(output_prefix)
-    
+
     # Fallback to mock terrain for testing if run hasn't started/produced chains yet
     if param_data is None or chi2 is None:
         points = []
@@ -6465,21 +6525,21 @@ async def get_likelihood_terrain(
             "points": points,
             "parameters": ["H0", "omega_cdm", "delta_prtoe", "xi_prtoe", "zeta_prtoe", "S8", "sigma8"]
         }
-        
+
     # Map parameters case-insensitively or fall back
     p1_match = [k for k in param_data.keys() if k.lower() == param1.lower()]
     p2_match = [k for k in param_data.keys() if k.lower() == param2.lower()]
-    
+
     real_p1 = p1_match[0] if p1_match else next(iter(param_data.keys()))
     real_p2 = p2_match[0] if p2_match else next(iter(param_data.keys()))
-    
+
     x_vals = param_data[real_p1]
     y_vals = param_data[real_p2]
-    
+
     n_samples = len(x_vals)
     step = max(1, n_samples // 400)
     thinned_indices = np.arange(0, n_samples, step)
-    
+
     points = []
     for idx in thinned_indices:
         points.append({
@@ -6487,7 +6547,7 @@ async def get_likelihood_terrain(
             "y": float(y_vals[idx]),
             "chi2": float(chi2[idx])
         })
-        
+
     return {
         "status": "success",
         "points": points,
@@ -6499,19 +6559,19 @@ async def get_likelihood_terrain(
 async def run_autopsy(config_name: str = "uploaded_config.yaml"):
     output_prefix = get_output_prefix_from_yaml(config_name)
     log_file = Path(f"{output_prefix}.log")
-    
+
     events = []
     if not log_file.exists():
         return {"status": "success", "events": [{"time": "N/A", "type": "Info", "message": "No log file found. Autopsy is empty."}]}
-        
+
     try:
         with open(log_file, 'r') as f:
             lines = f.readlines()
-            
+
         for line in lines:
             match_time = re.search(r"\[([^\]]+)\]", line)
             t_str = match_time.group(1) if match_time else "Trace"
-            
+
             if "Initializing" in line or "start" in line:
                 events.append({"time": t_str, "type": "System", "message": "Cobaya sampler initialized."})
             elif "compute" in line and "fail" in line:
@@ -6522,13 +6582,13 @@ async def run_autopsy(config_name: str = "uploaded_config.yaml"):
                 events.append({"time": t_str, "type": "Success", "message": f"New best-fit minimum found: {line.strip()[-100:]}"})
             elif "accept" in line.lower() and "%" in line:
                 events.append({"time": t_str, "type": "Info", "message": f"Proposal adaptation report: {line.strip()[-100:]}"})
-                
+
         if not events:
             events.append({"time": "Start", "type": "Info", "message": "Run began. Solvers are active."})
-            
+
     except Exception as e:
         events.append({"time": "Error", "type": "Error", "message": f"Failed parsing logs: {e}"})
-        
+
     return {"status": "success", "events": events[-50:]}
 
 # --- Dataset Pull Analyzer ---
@@ -6537,7 +6597,7 @@ async def get_dataset_pull(config_name: str = "uploaded_config.yaml"):
     import numpy as np
     output_prefix = get_output_prefix_from_yaml(config_name)
     prefix_path = Path(output_prefix)
-    
+
     names = []
     paramnames_file = output_prefix + ".paramnames"
     if os.path.exists(paramnames_file):
@@ -6546,10 +6606,10 @@ async def get_dataset_pull(config_name: str = "uploaded_config.yaml"):
                 parts = line.strip().split(None, 1)
                 if parts:
                     names.append(parts[0])
-                    
+
     final_file = Path(f"{output_prefix}.txt")
     raw_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.txt"
-    
+
     data = None
     for path in [final_file, raw_file]:
         if path.exists() and os.path.getsize(path) > 0:
@@ -6559,7 +6619,7 @@ async def get_dataset_pull(config_name: str = "uploaded_config.yaml"):
                     data = np.atleast_2d(data)
                     break
             except Exception: pass
-            
+
     if data is None or data.size == 0:
         return {
             "status": "success",
@@ -6570,13 +6630,13 @@ async def get_dataset_pull(config_name: str = "uploaded_config.yaml"):
                 "Lensing": {"H0_shift": -0.12, "S8_shift": -0.52, "chi2_contribution": 8.4}
             }
         }
-        
+
     h0_idx = names.index("H0") if "H0" in names else -1
     s8_idx = names.index("S8") if "S8" in names else -1
-    
+
     chi2_components = [n for n in names if n.startswith("chi2__") or n.startswith("like__")]
     pulls = {}
-    
+
     if not chi2_components:
         return {
             "status": "success",
@@ -6587,7 +6647,7 @@ async def get_dataset_pull(config_name: str = "uploaded_config.yaml"):
                 "Lensing": {"H0_shift": -0.12, "S8_shift": -0.52, "chi2_contribution": 8.4}
             }
         }
-        
+
     for c_name in chi2_components:
         c_idx = names.index(c_name)
         h0_corr = 0.0
@@ -6596,14 +6656,14 @@ async def get_dataset_pull(config_name: str = "uploaded_config.yaml"):
             h0_corr = float(np.corrcoef(data[:, 2+h0_idx], data[:, 2+c_idx])[0, 1])
         if s8_idx != -1 and data.shape[1] > max(s8_idx, c_idx) + 2:
             s8_corr = float(np.corrcoef(data[:, 2+s8_idx], data[:, 2+c_idx])[0, 1])
-            
+
         mean_chi2 = float(np.mean(data[:, 2+c_idx] * 2.0))
         pulls[c_name.replace("chi2__", "").replace("_", " ").title()] = {
             "H0_shift": -h0_corr if not np.isnan(h0_corr) else 0.0,
             "S8_shift": -s8_corr if not np.isnan(s8_corr) else 0.0,
             "chi2_contribution": mean_chi2
         }
-        
+
     return {
         "status": "success",
         "pulls": pulls
@@ -6645,11 +6705,11 @@ async def get_fairness_audit(config_name: str = "uploaded_config.yaml"):
     # Compare Likelihoods
     active_likes = set(active_cfg.get('likelihood', {}).keys())
     baseline_likes = set(baseline_cfg.get('likelihood', {}).keys())
-    
+
     all_likes = list(active_likes.union(baseline_likes))
     likes_comparison = []
     likes_fair = True
-    
+
     for l in all_likes:
         in_active = l in active_likes
         in_baseline = l in baseline_likes
@@ -6660,7 +6720,7 @@ async def get_fairness_audit(config_name: str = "uploaded_config.yaml"):
         elif in_baseline and not in_active:
             status = "removed_in_custom"
             likes_fair = False
-            
+
         likes_comparison.append({
             "name": l,
             "in_active": in_active,
@@ -6671,30 +6731,30 @@ async def get_fairness_audit(config_name: str = "uploaded_config.yaml"):
     # Compare Prior Bounds for shared parameters
     active_params = active_cfg.get('params', {})
     baseline_params = baseline_cfg.get('params', {})
-    
+
     shared_params = []
     priors_fair = True
-    
+
     for p_name, p_baseline in baseline_params.items():
         if p_name in active_params:
             # Check if it has priors
             active_prior = active_params[p_name].get('prior') if isinstance(active_params[p_name], dict) else None
             baseline_prior = p_baseline.get('prior') if isinstance(p_baseline, dict) else None
-            
+
             if active_prior and baseline_prior:
                 # Compare min/max
                 a_min = active_prior.get('min')
                 a_max = active_prior.get('max')
                 b_min = baseline_prior.get('min')
                 b_max = baseline_prior.get('max')
-                
+
                 # Check for standard min/max flat prior
                 if a_min is not None and a_max is not None and b_min is not None and b_max is not None:
                     active_range = a_max - a_min
                     baseline_range = b_max - b_min
                     status = "aligned"
                     inflation_factor = 0.0
-                    
+
                     if active_range < baseline_range - 1e-5:
                         status = "tighter_in_custom"
                         priors_fair = False
@@ -6702,7 +6762,7 @@ async def get_fairness_audit(config_name: str = "uploaded_config.yaml"):
                         inflation_factor = math.log(baseline_range / active_range)
                     elif active_range > baseline_range + 1e-5:
                         status = "wider_in_custom"
-                        
+
                     shared_params.append({
                         "name": p_name,
                         "baseline_min": b_min,
@@ -6716,7 +6776,7 @@ async def get_fairness_audit(config_name: str = "uploaded_config.yaml"):
     # Parameter Count
     active_sampled = [k for k, v in active_params.items() if isinstance(v, dict) and 'prior' in v]
     baseline_sampled = [k for k, v in baseline_params.items() if isinstance(v, dict) and 'prior' in v]
-    
+
     return {
         "status": "success",
         "likes_fair": likes_fair,
@@ -6739,17 +6799,17 @@ async def model_deformation(req: DeformationRequest):
         import numpy as np
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"classy or numpy not installed: {e}")
-        
+
     yaml_path = Path(req.config_name)
     if not yaml_path.exists():
         raise HTTPException(status_code=404, detail="Config not found.")
-        
+
     try:
         with open(yaml_path, 'r') as f:
             cfg = yaml.safe_load(f)
     except Exception:
         cfg = {}
-        
+
     params = cfg.get('params', {})
     base_params = {
         'omega_b': 0.0224,
@@ -6768,7 +6828,7 @@ async def model_deformation(req: DeformationRequest):
         'lambda_prtoe': 0.1,
         'non_linear': 'halofit'
     }
-    
+
     for k, v in params.items():
         if isinstance(v, dict):
             ref = v.get('ref', v.get('value'))
@@ -6776,24 +6836,24 @@ async def model_deformation(req: DeformationRequest):
                 base_params[k] = ref
         elif isinstance(v, (int, float)):
             base_params[k] = v
-            
+
     test_params = dict(base_params)
     test_params['xi_prtoe'] = base_params['xi_prtoe'] * req.alpha
     test_params['delta_prtoe'] = base_params['delta_prtoe'] * req.alpha
     test_params['zeta_prtoe'] = base_params['zeta_prtoe'] * req.alpha
     test_params['beta_prtoe'] = base_params['beta_prtoe'] * req.alpha if req.alpha > 0 else 1e-12
-    
+
     if req.alpha == 0.0:
         test_params['use_prtoe'] = 'no'
         test_params.setdefault('non_linear', 'halofit')
     else:
         test_params['use_prtoe'] = 'yes'
-        
+
     z_sample = np.linspace(0.0, 2.5, 40)
     w_vals = []
     fs8_vals = []
     H_ratio = []
-    
+
     try:
         lcdm_params = dict(base_params)
         lcdm_params['use_prtoe'] = 'no'
@@ -6805,7 +6865,7 @@ async def model_deformation(req: DeformationRequest):
         H_bg_lcdm = np.interp(z_sample, bg_lcdm['z'][::-1], bg_lcdm['H [1/Mpc]'][::-1])
         c_lcdm.struct_cleanup()
         c_lcdm.empty()
-        
+
         test_params['output'] = 'mPk'
         c, test_eff = make_class_instance(test_params)
         c.set(test_eff)
@@ -6813,7 +6873,7 @@ async def model_deformation(req: DeformationRequest):
         bg = c.get_background()
         H_bg = np.interp(z_sample, bg['z'][::-1], bg['H [1/Mpc]'][::-1])
         H_ratio = (H_bg / H_bg_lcdm).tolist()
-        
+
         if '(.)rho_scf' in bg and '(.)p_scf' in bg:
             rho_scf = bg['(.)rho_scf']
             p_scf = bg['(.)p_scf']
@@ -6821,13 +6881,13 @@ async def model_deformation(req: DeformationRequest):
             w_vals = np.interp(z_sample, bg['z'][::-1], w_scf[::-1]).tolist()
         else:
             w_vals = [-1.0] * len(z_sample)
-            
+
         if 'f_sigma8' in bg:
             fs8 = bg['f_sigma8']
             fs8_vals = np.interp(z_sample, bg['z'][::-1], fs8[::-1]).tolist()
         else:
             fs8_vals = [0.45] * len(z_sample)
-            
+
         c.struct_cleanup()
         c.empty()
     except Exception as ex:
@@ -6837,7 +6897,7 @@ async def model_deformation(req: DeformationRequest):
                 c.empty()
         except Exception: pass
         raise HTTPException(status_code=500, detail=f"CLASS evaluation error during deformation: {ex}")
-        
+
     return {
         "status": "success",
         "alpha": req.alpha,
@@ -6855,10 +6915,10 @@ async def download_posterior_gif():
         from PIL import Image
     except Exception:
         raise HTTPException(status_code=500, detail="Pillow not installed in this environment.")
-        
+
     if not state.history_frames:
         raise HTTPException(status_code=400, detail="No evolution frames collected yet. Run active pipeline.")
-        
+
     images = []
     for frame_path in state.history_frames:
         # frame_path is like "/history/frame_1.png"; resolve under dashboard/ for static mount
@@ -6868,10 +6928,10 @@ async def download_posterior_gif():
             try:
                 images.append(Image.open(full_path))
             except Exception: pass
-            
+
     if not images:
         raise HTTPException(status_code=404, detail="No evolution frame PNG files found.")
-        
+
     gif_out = Path("dashboard/history_movie.gif")
     images[0].save(
         gif_out,
@@ -6881,7 +6941,7 @@ async def download_posterior_gif():
         duration=600,
         loop=0
     )
-    
+
     return FileResponse(gif_out, media_type="image/gif", filename="posterior_evolution.gif")
 
 # --- Sampler Brain Panel ---
@@ -6889,10 +6949,10 @@ async def download_posterior_gif():
 async def get_sampler_brain(config_name: str = "uploaded_config.yaml"):
     output_prefix = get_output_prefix_from_yaml(config_name)
     covmat_file = Path(f"{output_prefix}.covmat")
-    
+
     params = []
     matrix = []
-    
+
     if covmat_file.exists():
         try:
             with open(covmat_file, 'r') as f:
@@ -6903,7 +6963,7 @@ async def get_sampler_brain(config_name: str = "uploaded_config.yaml"):
                     if line.strip():
                         matrix.append([float(x) for x in line.split()])
         except Exception: pass
-        
+
     if not params or not matrix:
         params = ["H0", "omega_cdm", "delta_prtoe", "xi_prtoe"]
         matrix = [
@@ -6912,7 +6972,7 @@ async def get_sampler_brain(config_name: str = "uploaded_config.yaml"):
             [-0.4, 0.1, 1.0, 0.5],
             [0.1, -0.3, 0.5, 1.0]
         ]
-        
+
     return {
         "status": "success",
         "parameters": params,
@@ -6927,44 +6987,44 @@ async def get_residuals(config_name: str = "uploaded_config.yaml"):
     output_prefix = get_output_prefix_from_yaml(config_name)
     fit_details = get_best_fit_details(output_prefix)
     best_params = fit_details.get("raw_params", {}) if fit_details else {}
-    
+
     z_sn = np.array([0.05, 0.15, 0.35, 0.55, 0.85, 1.2, 1.5])
     sn_err = np.array([0.02, 0.025, 0.03, 0.035, 0.04, 0.05, 0.06])
-    
+
     z_bao = np.array([0.38, 0.51, 0.61, 0.81, 1.48])
     bao_err = np.array([0.015, 0.012, 0.013, 0.018, 0.025])
-    
+
     try:
         c_lcdm, lcdm_eff = make_class_instance({'use_prtoe': 'no', 'H0': 67.4, 'non_linear': 'halofit'})
         c_lcdm.set(lcdm_eff)
         c_lcdm.compute()
         bg_lcdm = c_lcdm.get_background()
-        
+
         lum_lcdm = np.interp(z_sn, bg_lcdm['z'][::-1], bg_lcdm['lum. dist.'][::-1])
         ang_lcdm = np.interp(z_bao, bg_lcdm['z'][::-1], bg_lcdm['ang.diam.dist.'][::-1])
-        
+
         c_lcdm.struct_cleanup()
         c_lcdm.empty()
-        
+
         prtoe_dict = dict(best_params) if best_params else {'use_prtoe': 'yes', 'xi_prtoe': 1e-7, 'delta_prtoe': 0.2, 'non_linear': 'halofit'}
         c_prtoe, prtoe_eff = make_class_instance(prtoe_dict)
         c_prtoe.set(prtoe_eff)
         c_prtoe.compute()
         bg_prtoe = c_prtoe.get_background()
-        
+
         lum_prtoe = np.interp(z_sn, bg_prtoe['z'][::-1], bg_prtoe['lum. dist.'][::-1])
         ang_prtoe = np.interp(z_bao, bg_prtoe['z'][::-1], bg_prtoe['ang.diam.dist.'][::-1])
-        
+
         c_prtoe.struct_cleanup()
         c_prtoe.empty()
-        
+
         sn_residuals = ((lum_prtoe - lum_lcdm) / lum_lcdm).tolist()
         bao_residuals = ((ang_prtoe - ang_lcdm) / ang_lcdm).tolist()
-        
+
     except Exception:
         sn_residuals = [float(0.01 * np.sin(x*2.0)) for x in z_sn]
         bao_residuals = [float(-0.015 * np.cos(x*1.5)) for x in z_bao]
-        
+
     return {
         "status": "success",
         "sn": {"z": z_sn.tolist(), "residuals": sn_residuals, "errors": sn_err.tolist()},
@@ -7120,7 +7180,7 @@ def compute_anomaly_insights(config_name: str = "uploaded_config.yaml") -> dict:
 
 @app.get("/api/insights")
 async def get_insights(config_name: str = "uploaded_config.yaml"):
-    """Direct 'what does my data say' + anomaly detector. 
+    """Direct 'what does my data say' + anomaly detector.
     The CosmicDashboard layer that sees things normal CLASS+ Cobaya +PolyChord runs would miss or silently swallow (boundary hits, silent data errors, consistency fails).
     Use this to iterate: call, read the narrative, adjust model/priors/yaml, re-run, repeat.
     """
@@ -7137,17 +7197,17 @@ async def freeze_thaw_parameter(req: FreezeThawRequest):
     yaml_path = Path(req.config_name)
     if not yaml_path.exists():
         raise HTTPException(status_code=404, detail="Config not found.")
-        
+
     try:
         with open(yaml_path, 'r') as f:
             config = yaml.safe_load(f)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to parse config: {e}")
-        
+
     params = config.get('params', {})
     if req.parameter not in params:
         raise HTTPException(status_code=400, detail=f"Parameter {req.parameter} not found in configuration.")
-        
+
     p_val = params[req.parameter]
     if req.sampled:
         default_priors = {
@@ -7170,10 +7230,10 @@ async def freeze_thaw_parameter(req: FreezeThawRequest):
         if isinstance(p_val, dict):
             ref_val = p_val.get('ref', p_val.get('value', 0.1))
             params[req.parameter] = float(ref_val)
-            
+
     with open(yaml_path, 'w') as f:
         yaml.dump(config, f, default_flow_style=False, sort_keys=False)
-        
+
     return {
         "status": "success",
         "message": f"Parameter {req.parameter} is now {'sampled' if req.sampled else 'frozen (fixed)'}."
@@ -7192,37 +7252,37 @@ async def archive_run(req: ArchiveRequest, request: Request = None):
     prefix_path = Path(output_prefix)
     output_dir = prefix_path.parent
     prefix_name = prefix_path.name
-    
+
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     archive_dir = output_dir / f"archive_{prefix_name}_{timestamp}"
-    
+
     copied_files = []
     try:
         if not output_dir.exists():
             return {"status": "success", "message": "No chains directory exists yet to archive."}
-            
+
         matching_files = list(output_dir.glob(f"{prefix_name}.*"))
         raw_dir = output_dir / f"{prefix_name}_polychord_raw"
         cluster_dir = output_dir / f"{prefix_name}_clusters"
-        
+
         if matching_files or raw_dir.exists() or cluster_dir.exists():
             archive_dir.mkdir(parents=True, exist_ok=True)
-            
+
             for f in matching_files:
                 dest = archive_dir / f.name
                 shutil.copy2(f, dest)
                 copied_files.append(f.name)
-                
+
             if raw_dir.exists():
                 dest_raw = archive_dir / raw_dir.name
                 shutil.copytree(raw_dir, dest_raw, dirs_exist_ok=True)
                 copied_files.append(raw_dir.name)
-                
+
             if cluster_dir.exists():
                 dest_cluster = archive_dir / cluster_dir.name
                 shutil.copytree(cluster_dir, dest_cluster, dirs_exist_ok=True)
                 copied_files.append(cluster_dir.name)
-                
+
             # If the archived run contains "lcdm" in its name, also copy it to the permanent lcdm_baseline_archived folder
             if "lcdm" in prefix_name.lower():
                 try:
@@ -7254,7 +7314,7 @@ async def get_chain_quality(param: str = "H0", config_name: str = "uploaded_conf
     import numpy as np
     output_prefix = get_output_prefix_from_yaml(config_name)
     prefix_path = Path(output_prefix)
-    
+
     names = []
     paramnames_file = output_prefix + ".paramnames"
     if os.path.exists(paramnames_file):
@@ -7265,14 +7325,14 @@ async def get_chain_quality(param: str = "H0", config_name: str = "uploaded_conf
                     if parts:
                         names.append(parts[0])
         except Exception: pass
-                    
+
     if not names:
         names = ["H0", "omega_cdm", "delta_prtoe", "xi_prtoe", "zeta_prtoe", "S8", "sigma8"]
-        
+
     final_file = Path(f"{output_prefix}.txt")
     raw_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.txt"
     live_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}_phys_live.txt"
-    
+
     data = None
     for path in [final_file, raw_file, live_file]:
         if path.exists() and os.path.getsize(path) > 0:
@@ -7282,7 +7342,7 @@ async def get_chain_quality(param: str = "H0", config_name: str = "uploaded_conf
                     data = np.atleast_2d(data)
                     break
             except Exception: pass
-            
+
     if data is None or data.size == 0:
         params_diagnostics = []
         for name in names[:7]:
@@ -7292,10 +7352,10 @@ async def get_chain_quality(param: str = "H0", config_name: str = "uploaded_conf
                 "psrf": float(1.05 + 0.05 * np.random.rand()),
                 "ess": int(150 + 200 * np.random.rand())
             })
-            
+
         dummy_trace = [{"iter": i, "val": float(65.0 + 5.0 * np.sin(i/10.0) + np.random.randn() * 0.5)} for i in range(200)]
         dummy_autocorr = [{"lag": l, "val": float(np.exp(-l/15.0) + np.random.randn() * 0.05)} for l in range(50)]
-        
+
         return {
             "status": "success",
             "parameters": params_diagnostics,
@@ -7303,13 +7363,13 @@ async def get_chain_quality(param: str = "H0", config_name: str = "uploaded_conf
             "autocorr": dummy_autocorr,
             "selected_parameter": param
         }
-        
+
     param_cols = data[:, 2:]
-    
+
     params_diagnostics = []
     selected_trace = []
     selected_autocorr = []
-    
+
     def compute_ess(x):
         n = len(x)
         if n < 2: return 1
@@ -7351,20 +7411,20 @@ async def get_chain_quality(param: str = "H0", config_name: str = "uploaded_conf
         col_data = param_cols[:, idx]
         rhat_val = compute_rhat(col_data)
         ess_val = compute_ess(col_data)
-        
+
         params_diagnostics.append({
             "parameter": name,
             "rhat": rhat_val,
             "psrf": rhat_val,
             "ess": ess_val
         })
-        
+
     if param in names:
         p_idx = names.index(param)
         if p_idx < param_cols.shape[1]:
             col_data = param_cols[:, p_idx]
             n = len(col_data)
-            
+
             step = max(1, n // 200)
             trace_indices = np.arange(0, n, step)
             for idx in trace_indices:
@@ -7372,7 +7432,7 @@ async def get_chain_quality(param: str = "H0", config_name: str = "uploaded_conf
                     "iter": int(idx),
                     "val": float(col_data[idx])
                 })
-                
+
             mean = np.mean(col_data)
             var = np.var(col_data)
             max_lag = min(50, n // 2)
@@ -7390,7 +7450,7 @@ async def get_chain_quality(param: str = "H0", config_name: str = "uploaded_conf
                         "lag": int(lag),
                         "val": 1.0 if lag == 0 else 0.0
                     })
-                    
+
     return {
         "status": "success",
         "parameters": params_diagnostics,
@@ -7411,15 +7471,15 @@ class TemplateLoadRequest(BaseModel):
 async def list_templates():
     templates_dir = Path("templates")
     templates_dir.mkdir(parents=True, exist_ok=True)
-    
+
     if not (templates_dir / "lcdm_baseline.yaml").exists() and Path("lcdm_config.yaml").exists():
         try: shutil.copy2("lcdm_config.yaml", templates_dir / "lcdm_baseline.yaml")
         except Exception: pass
-        
+
     if not (templates_dir / "prtoe_standard.yaml").exists() and Path("cobaya_prtoe.yaml").exists():
         try: shutil.copy2("cobaya_prtoe.yaml", templates_dir / "prtoe_standard.yaml")
         except Exception: pass
-        
+
     wcdm_path = templates_dir / "wcdm_test.yaml"
     if not wcdm_path.exists():
         try:
@@ -7557,20 +7617,20 @@ async def save_template(req: TemplateSaveRequest):
     config_file = Path(req.config_name)
     if not config_file.exists():
         raise HTTPException(status_code=404, detail=f"Configuration file '{req.config_name}' not found.")
-        
+
     templates_dir = Path("templates")
     templates_dir.mkdir(parents=True, exist_ok=True)
-    
+
     clean_name = re.sub(r'[^a-zA-Z0-9_\-]', '', req.name)
     if not clean_name:
         raise HTTPException(status_code=400, detail="Invalid template name.")
-        
+
     template_path = templates_dir / f"{clean_name}.yaml"
     try:
         shutil.copy2(config_file, template_path)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to save template: {e}")
-        
+
     return {
         "status": "success",
         "message": f"Configuration saved as template '{clean_name}' successfully."
@@ -7581,16 +7641,16 @@ async def load_template(req: TemplateLoadRequest):
     templates_dir = Path("templates")
     clean_name = re.sub(r'[^a-zA-Z0-9_\-]', '', req.name)
     template_path = templates_dir / f"{clean_name}.yaml"
-    
+
     if not template_path.exists():
         raise HTTPException(status_code=404, detail=f"Template '{req.name}' not found.")
-        
+
     target_path = Path("uploaded_config.yaml")
     try:
         shutil.copy2(template_path, target_path)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to load template into uploaded_config.yaml: {e}")
-        
+
     # Ensure CLASS/Cobaya/PolyChord happy on template load too (names, base, halofit)
     try:
         with open(target_path, 'r') as f:
@@ -7608,7 +7668,7 @@ async def load_template(req: TemplateLoadRequest):
                 content = f.read()
         except Exception:
             content = ""
-        
+
     return {
         "status": "success",
         "message": f"Template '{clean_name}' loaded successfully as active configuration (normalized for CLASS).",
@@ -7620,7 +7680,7 @@ async def load_template(req: TemplateLoadRequest):
 @app.get("/api/per_point_chi2")
 async def get_per_point_chi2(config_name: str = "uploaded_config.yaml"):
     import numpy as np
-    
+
     bao_z = [0.106, 0.15, 0.38, 0.51, 0.61, 0.81, 1.48]
     bao_datasets = ["6dFGS", "SDSS MGS", "BOSS DR12", "BOSS DR12", "BOSS DR12", "eBOSS LRG", "eBOSS QSO"]
     bao_points = []
@@ -7636,7 +7696,7 @@ async def get_per_point_chi2(config_name: str = "uploaded_config.yaml"):
             "error": float(err),
             "chi2": float(chi2)
         })
-        
+
     cmb_l = [2, 10, 50, 100, 200, 500, 800, 1000, 1200, 1500, 1800, 2000, 2500]
     cmb_points = []
     for idx, l in enumerate(cmb_l):
@@ -7649,7 +7709,7 @@ async def get_per_point_chi2(config_name: str = "uploaded_config.yaml"):
             "error": float(err),
             "chi2": float(chi2)
         })
-        
+
     sn_names = ["SN1998aq", "SN2002es", "SN2005na", "SN2007ax", "SN2010gp", "SN2012fr", "SN2015F", "SN2018gv", "SN2021aef", "SN2022hrs"]
     sn_z = [0.005, 0.012, 0.027, 0.045, 0.068, 0.091, 0.125, 0.184, 0.250, 0.380]
     sn_points = []
@@ -7665,7 +7725,7 @@ async def get_per_point_chi2(config_name: str = "uploaded_config.yaml"):
             "error": float(err),
             "chi2": float(chi2)
         })
-        
+
     lensing_k = [0.005, 0.01, 0.02, 0.05, 0.1, 0.2, 0.3, 0.5]
     lensing_points = []
     for idx, k in enumerate(lensing_k):
@@ -7678,7 +7738,7 @@ async def get_per_point_chi2(config_name: str = "uploaded_config.yaml"):
             "error": float(err),
             "chi2": float(chi2)
         })
-        
+
     return {
         "status": "success",
         "bao": bao_points,
@@ -7692,18 +7752,18 @@ async def get_per_point_chi2(config_name: str = "uploaded_config.yaml"):
 async def list_runs():
     chains_dir = Path("chains")
     runs = ["lcdm_polychord", "prtoe_polychord", "wcdm_polychord"]
-    
+
     if chains_dir.exists():
         prefixes = set()
         for f in chains_dir.glob("*.log"):
             if not f.name.startswith("archive_"):
                 prefixes.add(f.stem)
         runs.extend(list(prefixes))
-        
+
         for d in chains_dir.glob("archive_*"):
             if d.is_dir():
                 runs.append(d.name)
-                
+
     runs = sorted(list(set(runs)))
     return {
         "status": "success",
@@ -7849,14 +7909,14 @@ class CompareRunsRequest(BaseModel):
 @app.post("/api/runs/compare")
 async def compare_runs(req: CompareRunsRequest):
     import numpy as np
-    
+
     def get_run_details(run_name):
         log_evidence = None
         best_chi2 = None
         params = {}
-        
+
         chains_dir = Path("chains")
-        
+
         if run_name.startswith("archive_"):
             base_dir = chains_dir / run_name
             summary_files = list(base_dir.glob("*_summary.txt"))
@@ -7866,7 +7926,7 @@ async def compare_runs(req: CompareRunsRequest):
         else:
             summary_file = chains_dir / f"{run_name}_summary.txt"
             txt_file = chains_dir / f"{run_name}.txt"
-            
+
         if summary_file and summary_file.exists():
             try:
                 with open(summary_file, 'r') as f:
@@ -7903,7 +7963,7 @@ async def compare_runs(req: CompareRunsRequest):
                                     except ValueError:
                                         pass
             except Exception: pass
-            
+
         # Try loading log evidence directly from the .stats files
         stats_file = None
         if run_name.startswith("archive_"):
@@ -7919,14 +7979,14 @@ async def compare_runs(req: CompareRunsRequest):
                 if p.exists():
                     stats_file = p
                     break
-                    
+
         if stats_file and stats_file.exists():
             try:
                 res = parse_polychord_stats(stats_file)
                 if res.get("log_evidence") is not None:
                     log_evidence = res["log_evidence"]
             except Exception: pass
-            
+
         if best_chi2 is None and txt_file and txt_file.exists() and os.path.getsize(txt_file) > 0:
             try:
                 data = np.loadtxt(txt_file)
@@ -7940,7 +8000,7 @@ async def compare_runs(req: CompareRunsRequest):
                     else:
                         best_chi2 = float(np.min(data[:, 1]))
             except Exception: pass
-            
+
         if "lcdm" in run_name.lower():
             if not params:
                 params = {
@@ -7957,26 +8017,26 @@ async def compare_runs(req: CompareRunsRequest):
                     "omega_cdm": {"mean": 0.117, "err": 0.002},
                     "delta_prtoe": {"mean": 0.28, "err": 0.05}
                 }
-                
+
         return {
             "evidence": log_evidence,
             "chi2": best_chi2,
             "parameters": params
         }
-        
+
     details_a = get_run_details(req.run_a)
     details_b = get_run_details(req.run_b)
-    
+
     shifts = {}
     all_params = set(list(details_a["parameters"].keys()) + list(details_b["parameters"].keys()))
     for p in all_params:
         val_a = details_a["parameters"].get(p, {"mean": 0.0, "err": 1e-5})
         val_b = details_b["parameters"].get(p, {"mean": 0.0, "err": 1e-5})
-        
+
         mean_diff = val_b["mean"] - val_a["mean"]
         pooled_err = np.sqrt(val_a["err"]**2 + val_b["err"]**2)
         nsigma_shift = abs(mean_diff) / pooled_err if pooled_err > 0 else 0.0
-        
+
         shifts[p] = {
             "mean_a": val_a["mean"],
             "err_a": val_a["err"],
@@ -7985,15 +8045,15 @@ async def compare_runs(req: CompareRunsRequest):
             "shift": mean_diff,
             "nsigma": float(nsigma_shift)
         }
-        
+
     evidence_diff = None
     if details_a["evidence"] is not None and details_b["evidence"] is not None:
         evidence_diff = details_b["evidence"] - details_a["evidence"]
-        
+
     chi2_diff = None
     if details_a["chi2"] is not None and details_b["chi2"] is not None:
         chi2_diff = details_b["chi2"] - details_a["chi2"]
-        
+
     return {
         "status": "success",
         "run_a": req.run_a,
@@ -8014,7 +8074,7 @@ async def get_provenance_ledger(config_name: str = "uploaded_config.yaml"):
     import platform
     import hashlib
     import datetime
-    
+
     classy_ver = "Standard CLASS (Unknown)"
     classy_path = "N/A"
     try:
@@ -8027,13 +8087,13 @@ async def get_provenance_ledger(config_name: str = "uploaded_config.yaml"):
         else:
             classy_ver = "Standard CLASS Engine"
     except Exception: pass
-    
+
     cobaya_ver = "N/A"
     try:
         import cobaya
         cobaya_ver = cobaya.__version__
     except Exception: pass
-    
+
     polychord_ver = "N/A"
     try:
         import pypolychord
@@ -8041,7 +8101,7 @@ async def get_provenance_ledger(config_name: str = "uploaded_config.yaml"):
     except Exception:
         if shutil.which("polychord"):
             polychord_ver = "PolyChord Native v1.21"
-            
+
     compiler_flags = "-O3 -march=native -ffast-math"
     makefile = Path("Makefile")
     if makefile.exists():
@@ -8052,14 +8112,14 @@ async def get_provenance_ledger(config_name: str = "uploaded_config.yaml"):
                         compiler_flags = line.strip()
                         break
         except Exception: pass
-        
+
     git_hash = "N/A"
     try:
         git_res = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True)
         if git_res.returncode == 0:
             git_hash = git_res.stdout.strip()
     except Exception: pass
-    
+
     config_hash = "N/A"
     config_path = Path(config_name)
     if config_path.exists():
@@ -8067,7 +8127,7 @@ async def get_provenance_ledger(config_name: str = "uploaded_config.yaml"):
             with open(config_path, 'rb') as f:
                 config_hash = hashlib.sha256(f.read()).hexdigest()
         except Exception: pass
-        
+
     return {
         "status": "success",
         "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -8109,7 +8169,7 @@ def check_config_compatibility(current_path: Path, checkpoint_path: Path):
         return False, [f"Failed to parse configuration files: {e}"]
 
     diffs = []
-    
+
     def check_values_equal(v1, v2):
         if type(v1) != type(v2):
             try:
@@ -8204,7 +8264,7 @@ async def create_checkpoint(req: CheckpointSaveRequest, request: Request = None)
     prefix_files = list(prefix_dir.glob(f"{prefix_base}*"))
     if not prefix_files:
         raise HTTPException(
-            status_code=400, 
+            status_code=400,
             detail=f"No active or past run files found for prefix '{prefix}'."
         )
 
@@ -8218,7 +8278,7 @@ async def create_checkpoint(req: CheckpointSaveRequest, request: Request = None)
             shutil.rmtree(checkpoint_dir)
         except Exception as e:
             raise HTTPException(
-                status_code=500, 
+                status_code=500,
                 detail=f"Failed to clear existing checkpoint: {e}"
             )
 
@@ -8248,7 +8308,7 @@ async def list_checkpoints():
     checkpoints_parent = Path("chains/checkpoints")
     if not checkpoints_parent.exists():
         return {"status": "success", "checkpoints": []}
-    
+
     checkpoints = []
     for d in checkpoints_parent.iterdir():
         if d.is_dir():
@@ -8263,7 +8323,7 @@ async def list_checkpoints():
                 stats_file = d / f"{prefix_base}.stats"
                 if not stats_file.exists():
                     stats_file = d / f"{prefix_base}_polychord_raw" / f"{prefix_base}.stats"
-                
+
                 stats = parse_polychord_stats(stats_file, resume_file)
                 dead_points = stats.get("dead_points", 0)
                 if dead_points > 0:
@@ -8276,7 +8336,7 @@ async def list_checkpoints():
                 "percentage": percentage,
                 "created_time": time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(d.stat().st_mtime))
             })
-            
+
     checkpoints.sort(key=lambda x: x["name"])
     return {
         "status": "success",
@@ -8286,10 +8346,10 @@ async def list_checkpoints():
 @app.post("/api/checkpoints/restore")
 async def restore_checkpoint(req: CheckpointRestoreRequest):
 
-    
+
     if state.current_status == "running" or (state.running_process and state.running_process.poll() is None):
         raise HTTPException(
-            status_code=409, 
+            status_code=409,
             detail="A run is currently in progress. Please stop the run before restoring a checkpoint."
         )
 
@@ -8305,7 +8365,7 @@ async def restore_checkpoint(req: CheckpointRestoreRequest):
     saved_config = checkpoint_dir / "config_saved.yaml"
     if not saved_config.exists():
         raise HTTPException(
-            status_code=400, 
+            status_code=400,
             detail="Checkpoint does not contain config_saved.yaml."
         )
 
@@ -8342,10 +8402,10 @@ async def restore_checkpoint(req: CheckpointRestoreRequest):
         for f in checkpoint_dir.iterdir():
             if f.name == "config_saved.yaml":
                 continue
-            
+
             new_name = f.name.replace(check_prefix_base, curr_prefix_base)
             dest = curr_prefix_dir / new_name
-            
+
             if f.is_dir():
                 dest.mkdir(parents=True, exist_ok=True)
                 for root, dirs, files in os.walk(f):
@@ -8354,21 +8414,21 @@ async def restore_checkpoint(req: CheckpointRestoreRequest):
                         target_root = dest
                     else:
                         target_root = dest / rel_root
-                    
+
                     for d in dirs:
                         (target_root / d).mkdir(parents=True, exist_ok=True)
-                        
+
                     for file_name in files:
                         source_file = Path(root) / file_name
                         new_file_name = file_name.replace(check_prefix_base, curr_prefix_base)
                         shutil.copy2(source_file, target_root / new_file_name)
             else:
                 shutil.copy2(f, dest)
-                
+
     except Exception as e:
         log_dashboard_error(f"Failed to restore checkpoint files for '{clean_name}': {e}")
         raise HTTPException(
-            status_code=500, 
+            status_code=500,
             detail=f"Failed to restore checkpoint files: {e}"
         )
 
@@ -8400,11 +8460,11 @@ async def acknowledge_error(req: AcknowledgeErrorRequest):
         if ERROR_LOG_PATH.exists():
             with open(ERROR_LOG_PATH, 'r') as f:
                 lines = f.readlines()
-            
+
             total_lines = len(lines)
             start_idx = max(0, total_lines - 100)
             last_100_lines = lines[start_idx:]
-            
+
             if 0 <= req.error_index < len(last_100_lines):
                 full_idx = start_idx + req.error_index
                 del lines[full_idx]
@@ -8696,7 +8756,7 @@ if __name__ == "__main__":
                     needs_init = False
         except Exception:
             pass
-            
+
     if needs_init:
         baselines = {
             "planck_bao_pantheonplus_shoes": {
@@ -8717,7 +8777,6 @@ if __name__ == "__main__":
         access_log=False,
         log_level="info",
         loop="asyncio",
-        install_signal_handlers=False,
     )
     server = uvicorn.Server(config)
 
@@ -8733,4 +8792,3 @@ if __name__ == "__main__":
         log_dashboard_error("Keyboard interrupt received - shutting down gracefully", console=True)
     finally:
         log_dashboard_error("Dashboard backend stopped", console=True)
-

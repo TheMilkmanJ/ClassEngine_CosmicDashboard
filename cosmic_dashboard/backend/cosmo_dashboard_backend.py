@@ -781,6 +781,8 @@ class UpdateBaseline(BaseModel):
     dataset: str
     log_evidence: float
     best_chi2: Optional[float] = None
+    evidence_is_final: bool = False
+    evidence_source: Optional[str] = None
 
 class WatchdogAlert(BaseModel):
     parameter: str
@@ -2994,6 +2996,11 @@ async def get_status():
             "k_baseline": 6,
             "k_custom": 6,
             "delta_chi2": None,
+            "delta_log_evidence": None,
+            "bayes_factor": None,
+            "primary_model_comparison": "Awaiting final nested-sampling evidence",
+            "bayesian_evidence_authoritative": False,
+            "aic_bic_role": "Approximate diagnostic only",
             "aic_baseline": None,
             "aic_custom": None,
             "delta_aic": None,
@@ -3465,6 +3472,7 @@ async def get_status():
 
     baseline_logz = None
     baseline_chi2 = None
+    baseline_evidence_is_final = False
     try:
         baseline_file = Path("scripts/baseline_database.json")
         if baseline_file.exists():
@@ -3475,21 +3483,24 @@ async def get_status():
                     if isinstance(baseline, dict):
                         baseline_logz = baseline.get("log_evidence")
                         baseline_chi2 = baseline.get("best_chi2")
+                        baseline_evidence_is_final = bool(baseline.get("evidence_is_final", baseline_logz is not None))
                     else:
                         baseline_logz = float(baseline)
-    except Exception: pass
+                        baseline_evidence_is_final = True
+    except Exception:
+        pass
 
-    # If baseline values are missing/None, try to find dynamically from completed/active LCDM runs
     if baseline_logz is None or baseline_chi2 is None:
         dyn_logz, dyn_chi2 = find_lcdm_scores()
         if baseline_logz is None:
             baseline_logz = dyn_logz
+            baseline_evidence_is_final = dyn_logz is not None
         if baseline_chi2 is None:
             baseline_chi2 = dyn_chi2
 
     k_baseline = 6
     k_custom = 6
-    updated_yaml = get_model_yaml_path(state.active_output_prefix)
+    updated_yaml = get_model_yaml_path(state.active_output_prefix, state.active_yaml_path)
     if updated_yaml and updated_yaml.exists():
         try:
             with open(updated_yaml, 'r') as f:
@@ -3504,6 +3515,11 @@ async def get_status():
         "k_baseline": k_baseline,
         "k_custom": k_custom,
         "delta_chi2": None,
+        "delta_log_evidence": None,
+        "bayes_factor": None,
+        "primary_model_comparison": "Awaiting final nested-sampling evidence",
+        "bayesian_evidence_authoritative": False,
+        "aic_bic_role": "Approximate diagnostic only; primary model comparison uses final PolyChord evidence.",
         "aic_baseline": None,
         "aic_custom": None,
         "delta_aic": None,
@@ -3511,74 +3527,71 @@ async def get_status():
         "bic_custom": None,
         "delta_bic": None,
         "qualitative_preference": "No Run Completed",
-        "evidence_based_preference": "No Run Completed",
-        "delta_logz": None
+        "evidence_based_preference": "Awaiting final evidence",
+        "evidence_preference_reliable": False,
+        "note": "Final PolyChord evidence replaces AIC/BIC only when evidence_is_final is true for both baseline and custom runs. Live/preview evidence is debug-only."
     }
 
     custom_chi2 = stats_data.get("best_chi2")
     custom_logz = stats_data.get("log_evidence")
+    if custom_logz is not None and baseline_logz is not None:
+        delta_logz = float(custom_logz - baseline_logz)
+        comparison["delta_log_evidence"] = float(delta_logz)
+        if abs(delta_logz) < 700:
+            comparison["bayes_factor"] = float(math.exp(abs(delta_logz)))
+        authoritative = bool(stats_data.get("evidence_is_final") and baseline_evidence_is_final)
+        comparison["bayesian_evidence_authoritative"] = authoritative
+        comparison["evidence_preference_reliable"] = authoritative
+        if delta_logz > 5:
+            evidence_preference = "Decisive final evidence for custom model"
+        elif delta_logz > 2.5:
+            evidence_preference = "Strong final evidence for custom model"
+        elif delta_logz > 1:
+            evidence_preference = "Mild final evidence for custom model"
+        elif delta_logz < -5:
+            evidence_preference = "Decisive final evidence for baseline LCDM"
+        elif delta_logz < -2.5:
+            evidence_preference = "Strong final evidence for baseline LCDM"
+        elif delta_logz < -1:
+            evidence_preference = "Mild final evidence for baseline LCDM"
+        else:
+            evidence_preference = "Final evidence inconclusive"
+        if not authoritative:
+            evidence_preference = "Preview/live evidence only - debugging signal, not a final model preference"
+        comparison["primary_model_comparison"] = evidence_preference
+        comparison["evidence_based_preference"] = evidence_preference
+
     if custom_chi2 is not None:
         aic_custom = custom_chi2 + 2 * k_custom
         bic_custom = custom_chi2 + k_custom * math.log(N_data)
         comparison["aic_custom"] = float(aic_custom)
         comparison["bic_custom"] = float(bic_custom)
-        
         if baseline_chi2 is not None:
             baseline_chi2 = float(baseline_chi2)
             aic_baseline = baseline_chi2 + 2 * k_baseline
             bic_baseline = baseline_chi2 + k_baseline * math.log(N_data)
-            
             delta_chi2 = custom_chi2 - baseline_chi2
             delta_aic = aic_custom - aic_baseline
             delta_bic = bic_custom - bic_baseline
-            
             comparison["aic_baseline"] = float(aic_baseline)
             comparison["bic_baseline"] = float(bic_baseline)
             comparison["delta_chi2"] = float(delta_chi2)
             comparison["delta_aic"] = float(delta_aic)
             comparison["delta_bic"] = float(delta_bic)
-            
             if delta_bic < -10:
-                comparison["qualitative_preference"] = "Decisively Favors Custom Model (ΔBIC < -10)"
+                comparison["qualitative_preference"] = "Approx. BIC favors custom model (strong; verify with final evidence)"
             elif delta_bic < -6:
-                comparison["qualitative_preference"] = "Strongly Favors Custom Model (-10 <= ΔBIC < -6)"
+                comparison["qualitative_preference"] = "Approx. BIC favors custom model (moderate; verify with final evidence)"
             elif delta_bic < -2:
-                comparison["qualitative_preference"] = "Mildly Favors Custom Model (-6 <= ΔBIC < -2)"
+                comparison["qualitative_preference"] = "Approx. BIC mildly favors custom model"
             elif delta_bic > 10:
-                comparison["qualitative_preference"] = "Decisively Favors Baseline ΛCDM (ΔBIC > 10)"
+                comparison["qualitative_preference"] = "Approx. BIC favors baseline LCDM (strong; verify with final evidence)"
             elif delta_bic > 6:
-                comparison["qualitative_preference"] = "Strongly Favors Baseline ΛCDM (6 < ΔBIC <= 10)"
+                comparison["qualitative_preference"] = "Approx. BIC favors baseline LCDM (moderate; verify with final evidence)"
             elif delta_bic > 2:
-                comparison["qualitative_preference"] = "Mildly Favors Baseline ΛCDM (2 < ΔBIC <= 6)"
+                comparison["qualitative_preference"] = "Approx. BIC mildly favors baseline LCDM"
             else:
-                comparison["qualitative_preference"] = "Inconclusive (|ΔBIC| <= 2)"
-
-    # Evidence-based preference -- ignores AIC/BIC entirely.
-    # Uses the actual integrated posterior probability (ΔlogZ from nested sampling),
-    # which looks at the full data likelihood averaged over the prior volume.
-    # This is what "actually preferred" means for model selection in Bayesian cosmology.
-    # We also surface WAIC/LOO, BMA, tensions, and PPC in other endpoints for the complete picture.
-    evidence_preference = "Inconclusive"
-    delta_logz = None
-    if custom_logz is not None and baseline_logz is not None:
-        delta_logz = float(custom_logz - baseline_logz)
-        if delta_logz > 5:
-            evidence_preference = "Decisively Favors Custom Model (ΔlogZ > 5)"
-        elif delta_logz > 2.5:
-            evidence_preference = "Strongly Favors Custom Model (2.5 < ΔlogZ <= 5)"
-        elif delta_logz > 1:
-            evidence_preference = "Mildly Favors Custom Model (1 < ΔlogZ <= 2.5)"
-        elif delta_logz < -5:
-            evidence_preference = "Decisively Favors Baseline ΛCDM (ΔlogZ < -5)"
-        elif delta_logz < -2.5:
-            evidence_preference = "Strongly Favors Baseline ΛCDM (-5 <= ΔlogZ < -2.5)"
-        elif delta_logz < -1:
-            evidence_preference = "Mildly Favors Baseline ΛCDM (-2.5 <= ΔlogZ < -1)"
-        else:
-            evidence_preference = "Inconclusive (|ΔlogZ| <= 1)"
-    comparison["evidence_based_preference"] = evidence_preference
-    comparison["delta_logz"] = delta_logz
-    comparison["note"] = "evidence_based_preference uses full Bayesian evidence (ΔlogZ from PolyChord), which properly integrates the likelihood over the prior and accounts for Occam's razor via prior volume. It completely ignores AIC/BIC. See /api/ic_vs_evidence_comparison and /api/bayes_factors_bma for WAIC/LOO, BMA weights, PPC p-values, and full diagnostics. Use this (not BIC) to decide which model is ACTUALLY preferred by the data."
+                comparison["qualitative_preference"] = "Approx. BIC inconclusive (|delta BIC| <= 2)"
     stats_data["comparison"] = comparison
 
     tensions = {
@@ -3756,16 +3769,21 @@ async def get_baselines():
 
 @app.post("/api/update_baseline")
 async def update_baseline(data: UpdateBaseline):
-    """Updates the JSON database with a new baseline score."""
+    """Updates the JSON database with a final nested-sampling baseline score."""
+    if not data.evidence_is_final:
+        raise HTTPException(status_code=400, detail="Refusing to store preview/live evidence as a baseline. Wait for final PolyChord .stats evidence.")
+
     baseline_file = Path("scripts/baseline_database.json")
     baselines = {}
     if baseline_file.exists():
         with open(baseline_file, 'r') as f:
             baselines = json.load(f)
-            
+
     baselines[data.dataset] = {
         "log_evidence": data.log_evidence,
-        "best_chi2": data.best_chi2
+        "best_chi2": data.best_chi2,
+        "evidence_is_final": True,
+        "evidence_source": data.evidence_source or "polychord_stats"
     }
     with open(baseline_file, 'w') as f:
         json.dump(baselines, f, indent=4)

@@ -87,6 +87,11 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
         "dead_points": 0,
         "log_evidence": None,
         "log_evidence_error": None,
+        "log_evidence_preview": None,
+        "log_evidence_preview_error": None,
+        "evidence_source": None,
+        "evidence_is_final": False,
+        "evidence_quality": "missing",
     }
 
     # 1. Try reading the completed stats file first
@@ -110,6 +115,9 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
             if logz_match:
                 stats["log_evidence"] = float(logz_match.group(1))
                 stats["log_evidence_error"] = float(logz_match.group(2))
+                stats["evidence_source"] = "polychord_stats"
+                stats["evidence_is_final"] = True
+                stats["evidence_quality"] = "final_nested_sampling"
                 return stats
         except Exception:
             pass
@@ -129,6 +137,9 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
             logz_match = re.search(r"=== global evidence -- log\(<Z>\) ===\s*\n\s*([-\d.eE+]+)", content)
             if logz_match:
                 stats["log_evidence"] = float(logz_match.group(1))
+                stats["evidence_source"] = "polychord_resume"
+                stats["evidence_is_final"] = False
+                stats["evidence_quality"] = "live_nested_sampling"
 
             # Read log(Z^2) to estimate the error
             logz2_match = re.search(r"=== global evidence\^2 -- log\(<Z\^2>\) ===\s*\n\s*([-\d.eE+]+)", content)
@@ -191,16 +202,19 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
                 import math
                 max_val = max(logls)
                 logz_prior = max_val + math.log(sum(math.exp(x - max_val) for x in logls)) - math.log(len(logls))
-                stats["log_evidence"] = logz_prior
+                stats["log_evidence_preview"] = logz_prior
+                stats["evidence_source"] = "log_likelihood_preview"
+                stats["evidence_is_final"] = False
+                stats["evidence_quality"] = "diagnostic_only"
                 
                 log_mean_L2 = max(2 * x for x in logls) + math.log(sum(math.exp(2 * x - max(2 * y for y in logls)) for x in logls)) - math.log(len(logls))
                 diff = log_mean_L2 - 2 * logz_prior
                 if 0 < diff < 700:
-                    stats["log_evidence_error"] = ((math.exp(diff) - 1) / len(logls))**0.5
+                    stats["log_evidence_preview_error"] = ((math.exp(diff) - 1) / len(logls))**0.5
                 elif diff >= 700:
-                    stats["log_evidence_error"] = 10.0
+                    stats["log_evidence_preview_error"] = 10.0
                 else:
-                    stats["log_evidence_error"] = 0.5
+                    stats["log_evidence_preview_error"] = 0.5
         except Exception:
             pass
 

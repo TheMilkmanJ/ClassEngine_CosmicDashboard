@@ -4427,6 +4427,13 @@ int perturbations_vector_init(
           ppw->pv->y[ppw->pv->index_pt_phi_prime_scf];
       }
 
+      if (pba->use_prtoe == _TRUE_) {
+        ppv->y[ppv->index_pt_delta_phi] =
+          ppw->pv->y[ppw->pv->index_pt_delta_phi];
+        ppv->y[ppv->index_pt_ddelta_phi] =
+          ppw->pv->y[ppw->pv->index_pt_ddelta_phi];
+      }
+
       if (ppt->gauge == synchronous)
         ppv->y[ppv->index_pt_eta] =
           ppw->pv->y[ppw->pv->index_pt_eta];
@@ -5491,11 +5498,15 @@ int perturbations_initial_conditions(struct precision * ppr,
         ppw->pv->y[ppw->pv->index_pt_phi_prime_scf] = 0.;
         /* delta_fld expression * rho_scf with the w = 1/3, c_s = 1
            a*a/ppw->pvecback[pba->index_bg_phi_prime_scf]*( - ktau_two/4.*(1.+1./3.)*(4.-3.*1.)/(4.-6.*(1/3.)+3.*1.)*ppw->pvecback[pba->index_bg_rho_scf] - ppw->pvecback[pba->index_bg_dV_scf]*ppw->pv->y[ppw->pv->index_pt_phi_scf])* ppr->curvature_ini * s2_squared; */
+      }
 
-        if (pba->use_prtoe == _TRUE_) {
-          ppw->pv->y[ppw->pv->index_pt_delta_phi] = 0.0;
-          ppw->pv->y[ppw->pv->index_pt_ddelta_phi] = 0.0;
-        }
+      if (pba->use_prtoe == _TRUE_) {
+        fprintf(stderr, "[DEBUG PRTOE] Initializing PRTOE perturbations: index_pt_delta_phi=%d, index_pt_ddelta_phi=%d\n", ppw->pv->index_pt_delta_phi, ppw->pv->index_pt_ddelta_phi);
+        fflush(stderr);
+        ppw->pv->y[ppw->pv->index_pt_delta_phi] = 0.0;
+        ppw->pv->y[ppw->pv->index_pt_ddelta_phi] = 0.0;
+        fprintf(stderr, "[DEBUG PRTOE] PRTOE perturbation initialization complete\n");
+        fflush(stderr);
       }
 
       /* all relativistic relics: ur, early ncdm, dr */
@@ -7888,13 +7899,19 @@ int perturbations_sources(
 
     /* delta_scf */
     if (ppt->has_source_delta_scf == _TRUE_) {
+      fprintf(stderr, "[DEBUG PRTOE] Computing PRTOE delta_scf source\n");
+      fflush(stderr);
       if (pba->use_prtoe == _TRUE_) {
+        fprintf(stderr, "[DEBUG PRTOE] PRTOE delta_scf: accessing indices\n");
+        fflush(stderr);
         if (ppt->gauge == synchronous){
           delta_rho_scf = 1./3.*(1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_phi] + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_phi]) + 3.*a_prime_over_a*(1.+pvecback[pba->index_bg_p_prtoe]/pvecback[pba->index_bg_rho_prtoe])*theta_over_k2;
         }
         else{
           delta_rho_scf = 1./3.*(1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_phi] + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_phi] - 1./a2*pow(ppw->pvecback[pba->index_bg_dphi_prtoe],2)*ppw->pvecmetric[ppw->index_mt_psi]) + 3.*a_prime_over_a*(1.+pvecback[pba->index_bg_p_prtoe]/pvecback[pba->index_bg_rho_prtoe])*theta_over_k2;
         }
+        fprintf(stderr, "[DEBUG PRTOE] PRTOE delta_scf computed\n");
+        fflush(stderr);
         _set_source_(ppt->index_tp_delta_scf) = delta_rho_scf/pvecback[pba->index_bg_rho_prtoe];
       } else {
         if (ppt->gauge == synchronous){
@@ -9526,10 +9543,14 @@ int perturbations_derivs(double tau,
     }
 
     if (pba->use_prtoe == _TRUE_) {
+        fprintf(stderr, "[DEBUG PRTOE] Computing PRTOE perturbation derivatives\n");
+        fflush(stderr);
         dy[pv->index_pt_delta_phi] = y[pv->index_pt_ddelta_phi];
         dy[pv->index_pt_ddelta_phi] = - 2.*a_prime_over_a*y[pv->index_pt_ddelta_phi]
           - metric_continuity*ppw->pvecback[pba->index_bg_dphi_prtoe]
           - (k2 + a2*ppw->pvecback[pba->index_bg_ddV_scf])*y[pv->index_pt_delta_phi];
+        fprintf(stderr, "[DEBUG PRTOE] PRTOE perturbation derivatives computed\n");
+        fflush(stderr);
     }
 
     /** - ---> ultra-relativistic neutrino/relics (ur) */

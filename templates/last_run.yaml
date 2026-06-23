@@ -17,7 +17,7 @@ theory:
     extra_args:
       use_prtoe: 'yes'
       non_linear: halofit
-      output: mPk
+      output: mPk,tCl,pCl,lCl
       N_ur: 2.0328
       N_ncdm: 1
       T_ncdm: 0.71611
