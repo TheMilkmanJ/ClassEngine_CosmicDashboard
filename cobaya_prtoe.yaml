@@ -17,7 +17,7 @@ theory:
     extra_args:
       use_prtoe: 'yes'
       non_linear: halofit
-      base_path: /home/themilkmanj/prtoe_class
+      base_path: '/home/themilkmanj/prtoe_class/'
 params:
   omega_b:
     prior:

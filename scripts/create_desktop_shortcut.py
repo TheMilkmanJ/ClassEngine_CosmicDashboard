@@ -13,14 +13,14 @@ dest_png = assets_dir / "galaxy_icon.png"
 
 # 1. Create Windows Desktop Shortcut (.url file)
 # WSL maps the C drive to /mnt/c
-windows_desktop = Path("/mnt/c/Users/themi/Desktop")
+windows_desktop = Path("/mnt/c/Users/themi/OneDrive/Desktop")
 if not windows_desktop.exists():
-    windows_desktop = Path("/mnt/c/Users/themi/OneDrive/Desktop")
+    windows_desktop = Path("/mnt/c/Users/themi/Desktop")
 if windows_desktop.exists():
     shortcut_path = windows_desktop / "CosmicDashboard.url"
     
-    # Store the icon in a local Windows directory to avoid WSL UNC path loading issues
-    windows_app_dir = Path("/mnt/c/Users/themi/CosmicDashboardAssets")
+    # Store the icon in OneDrive Desktop CosmicDashboardAssets directory
+    windows_app_dir = windows_desktop / "CosmicDashboardAssets"
     try:
         windows_app_dir.mkdir(parents=True, exist_ok=True)
         local_win_ico = windows_app_dir / "galaxy_icon_v3.ico"
@@ -28,7 +28,7 @@ if windows_desktop.exists():
         print(f"Copied icon to Windows directory: {local_win_ico}")
         
         # Windows-style local path for the shortcut IconFile field
-        windows_icon_path = r"C:\Users\themi\CosmicDashboardAssets\galaxy_icon_v3.ico"
+        windows_icon_path = r"C:\Users\themi\OneDrive\Desktop\CosmicDashboardAssets\galaxy_icon_v3.ico"
         
         url_content = f"""[InternetShortcut]
 URL=http://localhost:8000/

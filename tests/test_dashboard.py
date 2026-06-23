@@ -8,9 +8,18 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 os.environ["DASHBOARD_PASS"] = "testpass123456"
 os.environ["DASHBOARD_USER"] = "admin"
 
-from cosmo_dashboard_backend import app, ensure_halofit_in_config, Path
+from cosmo_dashboard_backend import app, ensure_halofit_in_config, Path, system_metrics
 
 client = TestClient(app)
+
+def test_health_cpu_metrics():
+    system_metrics.sample_sync(interval=0.1)
+    response = client.get("/api/health")
+    assert response.status_code == 200
+    data = response.json()
+    assert "cpu_percent" in data
+    assert isinstance(data["cpu_percent"], (int, float))
+    assert 0 <= data["cpu_percent"] <= 100
 
 def test_health():
     response = client.get("/api/health")
@@ -52,9 +61,27 @@ def test_login_logout():
     assert resp2.status_code == 200
 
 def test_metrics():
+    system_metrics.sample_sync(interval=0.1)
     resp = client.get("/api/metrics")
     assert resp.status_code == 200
-    assert "dashboard_uptime" in resp.text or b"dashboard_uptime" in resp.content
+    text = resp.text if isinstance(resp.text, str) else resp.content.decode()
+    assert "dashboard_uptime" in text
+    assert "dashboard_cpu_percent" in text
+
+def test_status_cpu_metrics():
+    system_metrics.sample_sync(interval=0.1)
+    login = client.post("/api/login", json={
+        "username": "admin",
+        "password": "testpass123456",
+        "remember_me": False,
+    })
+    assert login.status_code == 200
+    resp = client.get("/api/status")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "cpu_percent" in data
+    assert isinstance(data["cpu_percent"], (int, float))
+    assert 0 <= data["cpu_percent"] <= 100
 
 def test_supported_models():
     resp = client.get("/api/supported_models")
