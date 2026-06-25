@@ -12,6 +12,7 @@ likelihood:
   sn.pantheonplusshoes: null
 theory:
   classy:
+    # path and base_path removed - dashboard injects active CLASS engine automatically
     stop_at_error: false
     extra_args:
       use_prtoe: 'yes'

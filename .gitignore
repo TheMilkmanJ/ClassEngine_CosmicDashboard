@@ -46,6 +46,8 @@ chains/*.yaml
 chains/*.txt
 chains/*.resume
 chains/*.stats
+chains/dashboard_sessions.json
+chains/dashboard_backend.pid
 *.png
 !screenshots/*.png
 !screenshots/*.mp4
@@ -55,3 +57,4 @@ stXk34nG
 CosmicDashboard_Data.zip
 prtoe_posteriors.png
 # Note: repo intentionally does not track build products, run data, or generated chains for portability and size.
+.aider*
