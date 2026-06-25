@@ -8,8 +8,8 @@ from parsers.logs import safe_parse_python_dict, get_best_fit_from_log
 import os.path as osp
 
 def _ensure_under_workspace(path_value: str, detail: str) -> None:
-    allowed_dir = Path(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or Path.cwd()).resolve()
-    candidate = Path(path_value).expanduser().resolve()
+    allowed_dir = Path(os.path.realpath(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or str(Path.cwd()))).resolve()
+    candidate = Path(os.path.realpath(path_value)).expanduser().resolve()
     try:
         candidate.relative_to(allowed_dir)
     except ValueError:
@@ -195,8 +195,14 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
                                 chi2_sn = params_dict.get('chi2__SN', sn_sum)
                                 
                                 tot_chi2 = (chi2_bao or 0.0) + (chi2_cmb or 0.0) + (chi2_sn or 0.0)
+                                # Include all chi2__* terms in total, not just grouped ones
                                 if tot_chi2 == 0.0:
                                     tot_chi2 = sum([params_dict[k] for k in chi2_keys])
+                                else:
+                                    # Add any ungrouped chi2 terms to the grouped total
+                                    grouped_keys = {k for k in chi2_keys if any(g in k.lower() for g in ['cmb', 'planck', 'bao', 'boss', 'sn', 'pantheon', 'shoes'])}
+                                    ungrouped_vals = [params_dict[k] for k in chi2_keys if k not in grouped_keys]
+                                    tot_chi2 += sum(ungrouped_vals)
                                 
                                 if tot_chi2 > 0.0:
                                     logls.append(-0.5 * tot_chi2)
@@ -291,29 +297,29 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
             raw_file_positions = state.get("raw_file_positions", {}) if is_dict else getattr(state, "raw_file_positions", {})
             best_fit_file_cache = state.get("best_fit_file_cache", {}) if is_dict else getattr(state, "best_fit_file_cache", {})
             
-            if fpath_str not in raw_file_positions or file_size < raw_file_positions[fpath_str]:
+            if fpath_str not in raw_file_positions:
                 raw_file_positions[fpath_str] = 0
+            elif file_size < raw_file_positions[fpath_str]:
+                raw_file_positions[fpath_str] = 0
+                best_fit_file_cache.pop(fpath_str, None)
                 
             current_best = best_fit_file_cache.get(fpath_str)
             best_chi2_this_file = current_best["total"] if current_best else float('inf')
             best_fit_this_file = current_best
             
             with open(fpath, 'r', errors='ignore') as f:
-                start_pos = raw_file_positions[fpath_str]
+                checkpoint = raw_file_positions[fpath_str]
                 
                 # Check for header in final_file
                 has_header = False
                 names_in_header = []
                 if ftype == "final":
+                    f.seek(0)
                     first_line = f.readline()
                     if first_line.startswith('#'):
                         has_header = True
                         names_in_header = first_line.lstrip('#').strip().split()
-                        if start_pos == 0:
-                            start_pos = f.tell()
-                        else:
-                            f.seek(0)
-                f.seek(start_pos)
+                f.seek(checkpoint)
                 
                 for line in f:
                     if line.strip().startswith('#'):
