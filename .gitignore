@@ -55,3 +55,4 @@ stXk34nG
 CosmicDashboard_Data.zip
 prtoe_posteriors.png
 # Note: repo intentionally does not track build products, run data, or generated chains for portability and size.
+.aider*

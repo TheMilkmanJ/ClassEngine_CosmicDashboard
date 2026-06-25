@@ -12,7 +12,7 @@ likelihood:
   sn.pantheonplusshoes: null
 theory:
   classy:
-    path: /home/themilkmanj/prtoe_class
+    # path and base_path removed - dashboard injects active CLASS engine automatically
     stop_at_error: false
     extra_args:
       use_prtoe: 'yes'
@@ -105,7 +105,7 @@ params:
     value: 0.06
     latex: \sum m_\nu \ [\mathrm{eV}]
   beta_prtoe:
-    value: 1.0e-06
+    value: 1.0e-6
     latex: \beta_\mathrm{prtoe}
   M_prtoe:
     value: 100.0

@@ -1874,11 +1874,10 @@ async function checkStatus() {
                     </div>`;
                 }).join("");
 
-                if (Object.keys(currentProposedUpdates).length > 0 && data.status === 'running') {
-                    document.getElementById('watchdog-actions').style.display = 'flex';
-                } else {
-                    document.getElementById('watchdog-actions').style.display = 'none';
-                }
+                document.getElementById('watchdog-actions').style.display = 'flex';
+                const hasProposals = Object.keys(currentProposedUpdates).length > 0;
+                document.getElementById('watchdog-prioractions').style.display = hasProposals && data.status === 'running' ? 'flex' : 'none';
+                document.getElementById('watchdog-utilactions').style.display = 'flex';
             }
         } else {
             currentProposedUpdates = {};
@@ -1890,8 +1889,11 @@ async function checkStatus() {
             
             // Hide the details box
             watchdogDesc.style.display = "none";
+            watchdogDesc.style.maxHeight = '200px';
             watchdogDesc.innerHTML = "";
             document.getElementById('watchdog-actions').style.display = 'none';
+            document.getElementById('watchdog-prioractions').style.display = 'none';
+            document.getElementById('watchdog-utilactions').style.display = 'none';
         }
 
         // Populate H0/S8 tension detail elements
@@ -2172,6 +2174,8 @@ document.getElementById('btn-deny-priors').addEventListener('click', () => {
     watchdogText.innerText = "Warnings Ignored";
     watchdogDesc.style.display = "none";
     document.getElementById('watchdog-actions').style.display = 'none';
+    document.getElementById('watchdog-prioractions').style.display = 'none';
+    document.getElementById('watchdog-utilactions').style.display = 'none';
     appendLog('[WATCHDOG] Warnings dismissed. The run will continue undisturbed.');
 });
 
@@ -2196,6 +2200,83 @@ document.getElementById('btn-accept-priors').addEventListener('click', async () 
         document.getElementById('btn-accept-priors').disabled = false;
     }
 });
+
+document.getElementById('btn-clear-report').addEventListener('click', async () => {
+    appendLog('[WATCHDOG] Clearing watchdog report...');
+    try {
+        const response = await fetch(`${API_URL}/api/clear_watchdog_alerts`, {
+            method: 'POST'
+        });
+        const data = await response.json();
+        if (response.ok) {
+            watchdogIcon.innerText = '🐶';
+            watchdogCard.style.borderColor = "#00d2d3";
+            watchdogText.style.color = "#00d2d3";
+            watchdogText.style.textShadow = "0 0 10px rgba(0, 210, 211, 0.5)";
+            watchdogText.innerText = "All clear, Captain!";
+            watchdogDesc.style.display = "none";
+            document.getElementById('watchdog-actions').style.display = 'none';
+            document.getElementById('watchdog-prioractions').style.display = 'none';
+            document.getElementById('watchdog-utilactions').style.display = 'none';
+            appendLog('[WATCHDOG] Report cleared.');
+        } else {
+            appendLog(`[WATCHDOG] Failed to clear report: ${data.detail}`);
+        }
+    } catch (err) {
+        appendLog(`[WATCHDOG] Error clearing report: ${err.message}`);
+    }
+});
+
+document.getElementById('btn-view-logfile').addEventListener('click', async () => {
+    appendLog('[WATCHDOG] Fetching log file...');
+    try {
+        const response = await fetch(`${API_URL}/api/logs?lines=200`);
+        const data = await response.json();
+        if (response.ok && data.logs) {
+            const text = data.logs.backend || 'Log is empty.';
+            watchdogDesc.style.maxHeight = '400px';
+            watchdogDesc.innerHTML = `<pre style="font-size:0.75rem; line-height:1.2; white-space:pre-wrap; color:#a4b0be; background:rgba(0,0,0,0.3); padding:8px; border-radius:4px;">${escHtml(text)}</pre>`;
+            appendLog('[WATCHDOG] Log displayed in status panel.');
+        } else {
+            appendLog('[WATCHDOG] Failed to fetch log.');
+        }
+    } catch (err) {
+        appendLog(`[WATCHDOG] Error fetching log: ${err.message}`);
+    }
+});
+
+document.getElementById('btn-clear-log').addEventListener('click', async () => {
+    appendLog('[WATCHDOG] Clearing log file...');
+    try {
+        const response = await fetch(`${API_URL}/api/clear_log`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ target: 'backend' })
+        });
+        const data = await response.json();
+        if (response.ok) {
+            appendLog(`[WATCHDOG] Log cleared: ${data.message}`);
+        } else {
+            appendLog(`[WATCHDOG] Failed to clear log: ${data.detail}`);
+        }
+    } catch (err) {
+        appendLog(`[WATCHDOG] Error clearing log: ${err.message}`);
+    }
+});
+
+document.getElementById('btn-open-logfile').addEventListener('click', () => {
+    const configName = activeConfig || 'unknown';
+    const logFileName = configName.replace(/\.ya?ml$/, '') + '_polychord.log';
+    window.open(`chains/${logFileName}`, '_blank');
+    appendLog(`[WATCHDOG] Opening chain log: chains/${logFileName}`);
+});
+
+// Escape HTML entities for safe injection
+function escHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
 
 // Console helper
 function appendLog(message) {

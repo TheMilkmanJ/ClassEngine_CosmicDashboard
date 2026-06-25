@@ -249,11 +249,17 @@
                     <div class="jeffreys-description" id="watchdog-desc" style="max-height: 200px; overflow-y: auto; text-align: left; background: rgba(0,0,0,0.2); padding: 8px; border-radius: 4px; display: none; margin-top: 10px;">
                         <!-- Alerts will be injected here -->
                     </div>
-                    <div id="watchdog-actions" style="display: none; margin-top: 15px; gap: 10px;">
-                        <button class="btn btn-primary" id="btn-accept-priors" style="flex: 1; padding: 8px; font-size: 0.9rem; background: #ff4757; border: none; box-shadow: 0 0 10px rgba(255,71,87,0.4);">Accept & Restart</button>
-                        <button class="btn btn-secondary" id="btn-deny-priors" style="flex: 1; padding: 8px; font-size: 0.9rem;">Deny / Ignore</button>
-                        <button class="btn btn-secondary" id="btn-clear-warnings" style="flex: 1; padding: 8px; font-size: 0.9rem; background: #57606f; border: none;">Clear Warnings</button>
-                        <button class="btn btn-secondary" id="btn-open-logfile" style="flex: 1; padding: 8px; font-size: 0.9rem; background: #3742fa; border: none;">Open Logfile</button>
+                    <div id="watchdog-actions" style="display: none; margin-top: 15px; gap: 8px; flex-wrap: wrap;">
+                        <div id="watchdog-prioractions" style="display: none; gap: 8px; width: 100%; flex-wrap: wrap;">
+                            <button class="btn btn-primary" id="btn-accept-priors" style="flex: 1; min-width: 120px; padding: 8px; font-size: 0.9rem; background: #ff4757; border: none; box-shadow: 0 0 10px rgba(255,71,87,0.4);">Accept & Restart</button>
+                            <button class="btn btn-secondary" id="btn-deny-priors" style="flex: 1; min-width: 120px; padding: 8px; font-size: 0.9rem;">Deny / Ignore</button>
+                        </div>
+                        <div id="watchdog-utilactions" style="display: none; gap: 8px; width: 100%; flex-wrap: wrap;">
+                            <button class="btn btn-secondary" id="btn-clear-report" style="flex: 1; min-width: 100px; padding: 8px; font-size: 0.85rem; background: #57606f; border: none;">Clear Report</button>
+                            <button class="btn btn-secondary" id="btn-view-logfile" style="flex: 1; min-width: 100px; padding: 8px; font-size: 0.85rem; background: #3742fa; border: none;">View Log</button>
+                            <button class="btn btn-secondary" id="btn-clear-log" style="flex: 1; min-width: 100px; padding: 8px; font-size: 0.85rem; background: #e74c3c; border: none;">Clear Log</button>
+                            <button class="btn btn-secondary" id="btn-open-logfile" style="flex: 1; min-width: 100px; padding: 8px; font-size: 0.85rem; background: #2f3640; border: none;">Chain Log</button>
+                        </div>
                     </div>
                 </div>
             </section>

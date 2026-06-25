@@ -147,13 +147,18 @@ trap cleanup SIGINT SIGTERM
 # Wait for the backend to respond (with timeout)
 # ---------------------------------------------------------------------------
 wait_for_backend() {
-    local deadline=$((SECONDS + 30))
+    local deadline=$((SECONDS + 120))
     while [ $SECONDS -lt $deadline ]; do
-        if curl -s --max-time 2 -u "${DASHBOARD_USER:-}:${DASHBOARD_PASS:-}" \
+        # Use the DASHBOARD_PASS exported by this script (not a subshell shadow)
+        if curl -s --max-time 3 -u "${DASHBOARD_USER:-admin}:${DASHBOARD_PASS}" \
                "$BACKEND_URL/api/status" >/dev/null 2>&1; then
             return 0
         fi
-        sleep 1
+        # Health endpoint is public — try it too
+        if curl -s --max-time 3 "$BACKEND_URL/api/health" >/dev/null 2>&1; then
+            return 0
+        fi
+        sleep 2
     done
     return 1
 }
@@ -309,7 +314,12 @@ run_tunnel_watcher() {
 open_browser() {
     if wait_for_backend; then
         echo "[Browser] Dashboard is up — opening $BACKEND_URL"
-        if command -v xdg-open &>/dev/null; then
+        # WSL: open in Windows default browser
+        if command -v powershell.exe &>/dev/null; then
+            powershell.exe Start-Process "$BACKEND_URL" &
+        elif command -v cmd.exe &>/dev/null; then
+            cmd.exe /c start "$BACKEND_URL" &
+        elif command -v xdg-open &>/dev/null; then
             xdg-open "$BACKEND_URL" &
         elif command -v open &>/dev/null; then
             open "$BACKEND_URL" &
