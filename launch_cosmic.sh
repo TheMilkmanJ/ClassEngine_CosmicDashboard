@@ -28,6 +28,8 @@ elif [ -n "${CONDA_PREFIX:-}" ]; then
     PYTHON="${CONDA_PREFIX}/bin/python3"
 else
     PYTHON=$(command -v python3 || command -v python)
+    # Add ~/.local/bin to PATH for pip-installed packages when not using conda
+    export PATH="$HOME/.local/bin:${PATH}"
 fi
 # Cobaya/PolyChord must use the same conda env for python AND mpirun (mixed MPI = instant segfault).
 export DASHBOARD_PYTHON="$PYTHON"
