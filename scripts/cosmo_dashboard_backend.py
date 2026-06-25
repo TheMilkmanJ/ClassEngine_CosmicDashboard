@@ -912,7 +912,11 @@ def sanitize_config_name(name: str) -> str:
     # Portable default: project root or cwd (no machine-specific hardcode)
     workspace_root = os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.getcwd()
     allowed_dir = os.path.abspath(workspace_root)
-    if not abs_path.startswith(allowed_dir):
+    try:
+        common = os.path.commonpath([abs_path, allowed_dir])
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Access denied: file must be located inside the allowed workspace directory.")
+    if common != allowed_dir:
         raise HTTPException(status_code=400, detail="Access denied: file must be located inside the allowed workspace directory.")
     # Return relative if possible, but keep abs for backward (callers expect abs in some places)
     return abs_path
@@ -1098,7 +1102,11 @@ def _load_json_store(path: Path, default: dict) -> dict:
     if path.exists():
         try:
             with open(path, 'r') as f:
-                return json.load(f)
+                data = json.load(f)
+                # Convert rate limit lists back to deques for O(1) operations
+                if path == RATE_LIMITS_FILE:
+                    return {k: collections.deque(v) if isinstance(v, list) else v for k, v in data.items()}
+                return data
         except Exception:
             pass
     return default
@@ -6385,6 +6393,7 @@ async def playground_curves(req: PlaygroundRequest):
             w_scf = np.where(rho_scf > 0, p_scf / rho_scf, -1.0)
             w_sample = np.interp(z_sample, z_bg_model[sort_idx], w_scf[sort_idx]).tolist()
 
+            phi_interp = None  # default so the name always exists in scope
             if 'phi_scf' in bg_model:
                 phi_scf = np.array(bg_model['phi_scf'])
                 phi_interp = np.interp(z_sample, z_bg_model[sort_idx], phi_scf[sort_idx])

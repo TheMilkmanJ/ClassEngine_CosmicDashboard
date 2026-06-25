@@ -18,8 +18,8 @@ echo Starting backend server using WSL Python...
 echo (Press Ctrl+C to stop)
 echo.
 
-REM Change to the WSL path and run the backend
-wsl bash -c "cd /home/themilkmanj/prtoe_class && python3 -m uvicorn scripts.cosmo_dashboard_backend:app --host 0.0.0.0 --port 8000 --reload"
+REM Change to the WSL path and run the launcher
+wsl bash -c "cd /home/themilkmanj/prtoe_class && ./launch_cosmic.sh"
 
 pause
 

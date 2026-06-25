@@ -1,5 +1,6 @@
 import os
 import shutil
+import tempfile
 import getdist
 from getdist import plots, MCSamples
 import matplotlib.pyplot as plt
@@ -64,8 +65,15 @@ def update_yaml_priors(proposed_new_bounds, config_path):
                         if isinstance(params[name]['proposal'], (int, float)):
                             params[name]['proposal'] = float((new_max - new_min) / 20.0)
                             
-        with open(config_path, 'w') as f:
-            yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+        config_dir = os.path.dirname(os.path.abspath(config_path)) or "."
+        fd, tmp_path = tempfile.mkstemp(prefix=".priors.", suffix=".yaml", dir=config_dir)
+        try:
+            with os.fdopen(fd, "w") as f:
+                yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+            os.replace(tmp_path, config_path)
+        finally:
+            if os.path.exists(tmp_path):
+                os.unlink(tmp_path)
         print(f"Successfully auto-updated YAML priors in {config_path}")
     except Exception as e:
         print(f"Error auto-updating YAML priors: {e}")
@@ -153,8 +161,8 @@ def main(args, first_run=False):
         root_name = root_finished
         with open(root_name + ".txt", "r") as f:
             lines = f.readlines()
-        if len(lines) > 1:
-            d = np.loadtxt(lines[:-1])
+        if lines:
+            d = np.loadtxt(lines)
             if d.size > 0: data_parts.append(np.atleast_2d(d))
     else:
         # If not finished, read the raw dead points AND live points from PolyChord
@@ -198,12 +206,14 @@ def main(args, first_run=False):
     try:
         data = data_parts[0]
         
+        is_raw = is_initialization or not (os.path.exists(root_finished + ".txt") and os.path.getsize(root_finished + ".txt") > 0)
+        
         # PolyChord format: Col 0 = weight, Col 1 = -2 log(Likelihood), Col 2+ = Parameters
+        # Raw: [weight, -2logL, params..., logprior, loglikes...]
+        # Final: [weight, -2logpost, logprior, params...]
         weights = data[:, 0]
         loglikes = data[:, 1]
-        samps = data[:, 2:]
-        
-        is_raw = is_initialization or not (os.path.exists(root_finished + ".txt") and os.path.getsize(root_finished + ".txt") > 0)
+        samps = data[:, 2:] if is_raw else data[:, 3:]
         
         # 2. Dynamically load parameter names from the .paramnames file
         names = []
@@ -429,16 +439,16 @@ def main(args, first_run=False):
         audit_output = "\n".join(audit_lines)
         print(audit_output)
         try:
-            # Safely clear the terminal log so the UI doesn't lag from thousands of lines of output
-            open(f"{output_prefix}.log", "w").close()
-            with open(f"{output_prefix}.log", "a") as lf:
+            # Write to a separate monitor log to avoid truncating the main run log
+            monitor_log = f"{output_prefix}_monitor.log"
+            with open(monitor_log, "w") as lf:
                 lf.write(audit_output + "\n")
         except Exception:
             pass
 
         # Send structured payload to the Dashboard Watchdog API
         try:
-            requests.post('http://localhost:8000/api/watchdog', json={"alerts": dash_alerts})
+            requests.post('http://localhost:8000/api/watchdog', json={"alerts": dash_alerts}, timeout=5)
         except Exception:
             pass
         # --------------------------

@@ -21,8 +21,11 @@ PORT=8000
 RESTART_DELAY=5   # seconds to wait before restarting a crashed service
 
 # Set Python path to pgtoe_gold conda environment directly to avoid shell function activation crashes
-if [ -f "/home/themilkmanj/miniconda3/envs/pgtoe_gold/bin/python3" ]; then
-    PYTHON="/home/themilkmanj/miniconda3/envs/pgtoe_gold/bin/python3"
+# Try to find conda environment dynamically
+if command -v conda &>/dev/null; then
+    PYTHON=$(conda run -n pgtoe_gold --no-capture-output python3 2>/dev/null || command -v python3 || command -v python)
+elif [ -n "${CONDA_PREFIX:-}" ]; then
+    PYTHON="${CONDA_PREFIX}/bin/python3"
 else
     PYTHON=$(command -v python3 || command -v python)
 fi
@@ -318,7 +321,7 @@ open_browser() {
         if command -v powershell.exe &>/dev/null; then
             powershell.exe Start-Process "$BACKEND_URL" &
         elif command -v cmd.exe &>/dev/null; then
-            cmd.exe /c start "$BACKEND_URL" &
+            cmd.exe /c start "" "$BACKEND_URL" &
         elif command -v xdg-open &>/dev/null; then
             xdg-open "$BACKEND_URL" &
         elif command -v open &>/dev/null; then

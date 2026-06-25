@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Waiting for CLASS build to complete..."
-while pgrep -f "make|gcc|g\+\+" > /dev/null 2>&1; do
+# More specific: only match build processes in the current directory tree
+while pgrep -f "make.*classy|gcc.*classy|g\+\+.*classy" > /dev/null 2>&1; do
     sleep 2
 done
 echo "Build complete!"

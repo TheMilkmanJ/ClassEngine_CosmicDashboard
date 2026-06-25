@@ -6,14 +6,13 @@ services:
       context: .
       args:
         DASHBOARD_USER: ${DASHBOARD_USER:-admin}
-        DASHBOARD_PASS: ${DASHBOARD_PASS}
     ports:
       - "8000:8000"
     volumes:
       - ./chains:/app/chains
     environment:
       - DASHBOARD_USER=${DASHBOARD_USER:-admin}
-      - DASHBOARD_PASS=${DASHBOARD_PASS}
+      - DASHBOARD_PASS=${DASHBOARD_PASS:-changeme_in_production}
       - DASHBOARD_WORKSPACE_ROOT=/app
       - DASHBOARD_WEBHOOK_URL=${DASHBOARD_WEBHOOK_URL:-}
       # Add others as needed: DASHBOARD_PYTHON etc.

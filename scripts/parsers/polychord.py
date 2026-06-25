@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Optional, List
 from fastapi import HTTPException
 from parsers.logs import safe_parse_python_dict, get_best_fit_from_log
+import os.path as osp
 
 def get_output_prefix_from_yaml(config_path: str) -> str:
     """Parses the YAML file to find the 'output' key and sanitizes the path."""
@@ -21,7 +22,11 @@ def get_output_prefix_from_yaml(config_path: str) -> str:
     abs_path = os.path.abspath(prefix)
     allowed_dir = os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.abspath("/home/themilkmanj")
     allowed_dir = os.path.abspath(allowed_dir)
-    if not abs_path.startswith(allowed_dir):
+    try:
+        common = osp.commonpath([abs_path, allowed_dir])
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Path traversal detected in YAML 'output' configuration.")
+    if common != allowed_dir:
         raise HTTPException(status_code=400, detail="Path traversal detected in YAML 'output' configuration.")
     return prefix
 
@@ -226,7 +231,11 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
     abs_path = os.path.abspath(output_prefix)
     allowed_dir = os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.abspath("/home/themilkmanj")
     allowed_dir = os.path.abspath(allowed_dir)
-    if not abs_path.startswith(allowed_dir):
+    try:
+        common = osp.commonpath([abs_path, allowed_dir])
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Access denied: invalid output prefix path.")
+    if common != allowed_dir:
         raise HTTPException(status_code=400, detail="Access denied: invalid output prefix path.")
 
     log_file = Path(f"{output_prefix}.log")
@@ -374,7 +383,8 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
                                 other_vals = []
                                 
                                 has_cmb_group = any(k.startswith('chi2__') and ('cmb' in k.lower() or 'planck' in k.lower()) for k in raw_params.keys())
-                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() or 'boss' in k.lower() or 'desi' in k.lower()) for k in raw_params.keys())
+                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() or 'boss' in k.lower()) for k in raw_params.keys())
+                                has_desi_group = any(k.startswith('chi2__') and 'desi' in k.lower() for k in raw_params.keys())
                                 has_sn_group = any(k.startswith('chi2__') and ('sn' in k.lower() or 'pantheon' in k.lower() or 'shoes' in k.lower()) for k in raw_params.keys())
                                 has_lensing_group = any(k.startswith('chi2__') and ('lensing' in k.lower() or 'lens' in k.lower()) for k in raw_params.keys())
                                 
@@ -386,7 +396,9 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
                                         k_lower = k.lower()
                                         if has_cmb_group and ('cmb' in k_lower or 'planck' in k_lower):
                                             continue
-                                        if has_bao_group and ('bao' in k_lower or 'boss' in k_lower or 'desi' in k_lower):
+                                        if has_bao_group and ('bao' in k_lower or 'boss' in k_lower):
+                                            continue
+                                        if has_desi_group and 'desi' in k_lower:
                                             continue
                                         if has_sn_group and ('sn' in k_lower or 'pantheon' in k_lower or 'shoes' in k_lower):
                                             continue
@@ -396,9 +408,13 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
                                     val = -2.0 * v if k.startswith('loglike__') else v
                                     k_lower = k.lower()
                                     
-                                    if 'desi' in k_lower or 'bao' in k_lower or 'boss' in k_lower:
+                                    if 'desi' in k_lower:
+                                        desi_vals.append(val)
+                                    elif 'bao' in k_lower or 'boss' in k_lower:
                                         bao_vals.append(val)
-                                    elif 'lensing' in k_lower or 'lens' in k_lower or 'cmb' in k_lower or 'planck' in k_lower:
+                                    elif 'lensing' in k_lower or 'lens' in k_lower:
+                                        lensing_vals.append(val)
+                                    elif 'cmb' in k_lower or 'planck' in k_lower:
                                         cmb_vals.append(val)
                                     elif 'sn' in k_lower or 'pantheon' in k_lower or 'shoes' in k_lower:
                                         sn_vals.append(val)

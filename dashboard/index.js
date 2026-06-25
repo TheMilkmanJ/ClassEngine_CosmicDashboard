@@ -461,9 +461,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const j = await r.json();
                 const p = j.psis_loo || {};
                 let h = `PSIS-LOO elpd: ${p.elpd_loo || '?'} (SE ${p.se_elpd_loo || '?'}) p_loo=${p.p_loo || '?'} max_k=${p.pareto_k_max || '?'}`;
-                if (p.high_k_warnings && p.high_k_warnings.length) h += `<br><span style="color:#ff9f43">⚠ ${p.high_k_warnings.join('; ')}</span>`;
-                if (p.pareto_k_per_obs) h += `<br>k per probe: ${p.pareto_k_per_obs.join(', ')}`;
-                advBody.innerHTML = h + `<br><small>${p.note || ''}</small>`;
+                if (p.high_k_warnings && p.high_k_warnings.length) h += `<br><span style="color:#ff9f43">⚠ ${escHtml(p.high_k_warnings.join('; '))}</span>`;
+                if (p.pareto_k_per_obs) h += `<br>k per probe: ${escHtml(p.pareto_k_per_obs.join(', '))}`;
+                advBody.innerHTML = h + `<br><small>${escHtml(p.note || '')}</small>`;
             } catch(e) { advBody.textContent = 'PSIS error (run a model).'; }
         });
     }
@@ -476,7 +476,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const r = await fetch(`${API_URL}/api/model_stacking`, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({})});
                 const j = await r.json();
                 const s = j.stacking || {};
-                advBody.innerHTML = `Stacking weights: ${JSON.stringify(s.stacking_weights || {})}<br><small>${s.note || ''}</small>`;
+                advBody.innerHTML = `Stacking weights: ${escHtml(JSON.stringify(s.stacking_weights || {}))}<br><small>${escHtml(s.note || '')}</small>`;
             } catch(e) { advBody.textContent = 'Stacking error.'; }
         });
     }
@@ -489,7 +489,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const r = await fetch(`${API_URL}/api/savage_dickey?param=xi_prtoe&point=0`);
                 const j = await r.json();
                 const sd = j.savage_dickey || {};
-                advBody.innerHTML = `Savage-Dickey BF10 (xi=0): ${sd.bf10 || '?'}<br>post@0=${sd.posterior_density_at_point || '?'} prior@0=${sd.prior_density_at_point || '?'}<br><small>${sd.note || ''}</small>`;
+                advBody.innerHTML = `Savage-Dickey BF10 (xi=0): ${escHtml(sd.bf10 || '?')}<br>post@0=${escHtml(sd.posterior_density_at_point || '?')} prior@0=${escHtml(sd.prior_density_at_point || '?')}<br><small>${escHtml(sd.note || '')}</small>`;
             } catch(e) { advBody.textContent = 'Savage-Dickey error (needs samples + yaml prior).'; }
         });
     }
@@ -2925,7 +2925,20 @@ Interpret the BF10. If >>1, the data require the extra PRTOE parameters. Contras
             const jeff = document.getElementById('jeffreys-text') ? document.getElementById('jeffreys-text').textContent : "-";
             const delta = document.getElementById('val-delta') ? document.getElementById('val-delta').textContent : "-";
 
-            const diagnosticPrompt = buildMainDiagnosticPrompt();
+            const diagnosticPrompt = typeof buildMainDiagnosticPrompt === 'function' ? buildMainDiagnosticPrompt() : `You are a theoretical cosmologist analyzing a CLASS/Cobaya/PolyChord run.
+
+Run status: ${status}
+Active config: ${lastStatusData.active_yaml_path || 'unknown'}
+
+Advanced metrics:
+${adv}
+
+Phone tunnel: ${phoneLink}
+
+Jeffreys scale factor: ${jeff}
+Delta logZ: ${delta}
+
+Best-fit params: ${lastStatusData.best_raw_params ? JSON.stringify(lastStatusData.best_raw_params) : 'N/A'}`;
 
             // Targeted stacking prompt (already built in its handler, but duplicate here for all)
             const stackingPrompt = `Stacking-specific: Given the weights and the run data above, optimize and justify the ensemble predictive distribution vs picking one model. How does this change conclusions about PRTOE vs LCDM?`;
@@ -5192,7 +5205,7 @@ function playIntergalacticSynth() {
         const iframe = document.createElement('iframe');
         iframe.style.display = 'none';
         iframe.allow = 'autoplay';
-        iframe.src = 'https://www.youtube.com/embed/qORYO0atB6g?autoplay=1&start=0';
+        iframe.src = 'https://www.youtube.com/embed/qORYO0atB6g?start=0';
         document.body.appendChild(iframe);
         
         // Show a celebration message with song info
@@ -5318,14 +5331,17 @@ function showLoginModal(onSuccess) {
         btn.disabled = true;
         fetch(`${API_URL}/api/login`, {
             method: 'POST',
+            credentials: 'include',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({username: u, password: p, remember_me: rem})
         }).then(r => r.json()).then(data => {
             if (data.status === 'success') {
                 loginModal.remove();
                 loginModal = null;
-                if (btnLogout) btnLogout.style.display = 'inline-flex';
-                if (btnManualLogin) btnManualLogin.style.display = 'none';
+                const logoutBtn = document.getElementById('btn-logout');
+                const manualLoginBtn = document.getElementById('btn-manual-login');
+                if (logoutBtn) logoutBtn.style.display = 'inline-flex';
+                if (manualLoginBtn) manualLoginBtn.style.display = 'none';
                 if (typeof onSuccess === 'function') onSuccess();
                 else location.reload();  // safe refresh to pick up cookie for all calls
             } else {

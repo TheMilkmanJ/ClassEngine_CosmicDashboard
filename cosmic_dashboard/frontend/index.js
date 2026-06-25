@@ -1457,7 +1457,7 @@ async function checkStatus() {
         
         // Append external logs (from monitor script)
         if (data.external_logs && data.external_logs.length > 0) {
-            data.external_logs.forEach(log => appendLog(`<span style="color: #ff4757; font-weight: bold;">[ALERT] ${log}</span>`));
+            data.external_logs.forEach(log => appendLog(`<span style="color: #ff4757; font-weight: bold;">[ALERT] ${escHtml(log)}</span>`));
         }
         
         if (data.terminal_output && data.terminal_output.length > 0) {
@@ -2039,7 +2039,7 @@ async function checkStatus() {
                               yamlNameLower.includes('baseline');
             if (isLcdmRun) {
                 updateBaseline("planck_bao_pantheonplus_shoes", data.log_evidence, data.best_chi2, data.evidence_is_final, data.evidence_source);
-                if (checkAutoRunCustom && checkAutoRunCustom.checked && !isAutoRunning) {
+                if (data.evidence_is_final && checkAutoRunCustom && checkAutoRunCustom.checked && !isAutoRunning) {
                     isAutoRunning = true;
                     appendLog(`[PIPELINE] Baseline ΛCDM completed. Preparing to auto-run custom model in 5 seconds...`);
                     setTimeout(() => {
@@ -2053,7 +2053,7 @@ async function checkStatus() {
                 } else {
                     appendLog('[PIPELINE] Live/preview evidence is visible for debugging only; final preference waits for PolyChord .stats.');
                 }
-                if (checkAutoRunLcdm && checkAutoRunLcdm.checked && !isAutoRunning) {
+                if (data.evidence_is_final && checkAutoRunLcdm && checkAutoRunLcdm.checked && !isAutoRunning) {
                     isAutoRunning = true;
                     appendLog(`[PIPELINE] Custom model completed. Preparing to auto-run baseline ΛCDM in 5 seconds...`);
                     setTimeout(() => {
@@ -2922,7 +2922,20 @@ Interpret the BF10. If >>1, the data require the extra PRTOE parameters. Contras
             const jeff = document.getElementById('jeffreys-text') ? document.getElementById('jeffreys-text').textContent : "-";
             const delta = document.getElementById('val-delta') ? document.getElementById('val-delta').textContent : "-";
 
-            const diagnosticPrompt = buildMainDiagnosticPrompt();
+            const diagnosticPrompt = typeof buildMainDiagnosticPrompt === 'function' ? buildMainDiagnosticPrompt() : `You are a theoretical cosmologist analyzing a CLASS/Cobaya/PolyChord run.
+
+Run status: ${status}
+Active config: ${lastStatusData.active_yaml_path || 'unknown'}
+
+Advanced metrics:
+${adv}
+
+Phone tunnel: ${phoneLink}
+
+Jeffreys scale factor: ${jeff}
+Delta logZ: ${delta}
+
+Best-fit params: ${lastStatusData.best_raw_params ? JSON.stringify(lastStatusData.best_raw_params) : 'N/A'}`;
 
             // Targeted stacking prompt (already built in its handler, but duplicate here for all)
             const stackingPrompt = `Stacking-specific: Given the weights and the run data above, optimize and justify the ensemble predictive distribution vs picking one model. How does this change conclusions about PRTOE vs LCDM?`;
@@ -5189,7 +5202,7 @@ function playIntergalacticSynth() {
         const iframe = document.createElement('iframe');
         iframe.style.display = 'none';
         iframe.allow = 'autoplay';
-        iframe.src = 'https://www.youtube.com/embed/qORYO0atB6g?autoplay=1&start=0';
+        iframe.src = 'https://www.youtube.com/embed/qORYO0atB6g?start=0';
         document.body.appendChild(iframe);
         
         // Show a celebration message with song info
@@ -5315,14 +5328,17 @@ function showLoginModal(onSuccess) {
         btn.disabled = true;
         fetch(`${API_URL}/api/login`, {
             method: 'POST',
+            credentials: 'include',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({username: u, password: p, remember_me: rem})
         }).then(r => r.json()).then(data => {
             if (data.status === 'success') {
                 loginModal.remove();
                 loginModal = null;
-                if (btnLogout) btnLogout.style.display = 'inline-flex';
-                if (btnManualLogin) btnManualLogin.style.display = 'none';
+                const logoutBtn = document.getElementById('btn-logout');
+                const manualLoginBtn = document.getElementById('btn-manual-login');
+                if (logoutBtn) logoutBtn.style.display = 'inline-flex';
+                if (manualLoginBtn) manualLoginBtn.style.display = 'none';
                 if (typeof onSuccess === 'function') onSuccess();
                 else location.reload();  // safe refresh to pick up cookie for all calls
             } else {
