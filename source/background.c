@@ -544,13 +544,16 @@ int background_functions(
     double rho_prtoe = activation * (0.5 * dot_phi * dot_phi) + V_phi;
     double p_prtoe   = activation * (0.5 * dot_phi * dot_phi) - V_phi;
 
-    double rho_phi_fluid = rho_prtoe / 3.0;
-    double p_phi_fluid = p_prtoe / 3.0;
+    // Scalar field energy density and pressure: ρ = ½φ̇² + V, p = ½φ̇² - V
+    // Do NOT divide by 3 - that would make it behave like radiation
+    double rho_phi_fluid = rho_prtoe;
+    double p_phi_fluid = p_prtoe;
 
-    pvecback[pba->index_bg_rho_scf] = rho_phi_fluid;
-    pvecback[pba->index_bg_p_scf] = p_phi_fluid;
+    // Store to PRTOE indices
     pvecback[pba->index_bg_rho_prtoe] = rho_phi_fluid;
     pvecback[pba->index_bg_p_prtoe] = p_phi_fluid;
+    
+    // Also store to dark_energy indices for consistency with CLASS expectations
     pvecback[pba->index_bg_rho_dark_energy] = rho_phi_fluid;
     pvecback[pba->index_bg_p_dark_energy] = p_phi_fluid;
 
