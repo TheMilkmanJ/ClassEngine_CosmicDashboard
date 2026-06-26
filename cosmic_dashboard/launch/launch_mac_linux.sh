@@ -14,6 +14,9 @@ fi
 echo "Building Docker container (this may take a few minutes the first time)..."
 docker build -t cosmic-dashboard .
 
+# Ensure chains directory exists before running container
+mkdir -p "$(pwd)/chains"
+
 echo "Opening Dashboard in your browser..."
 if command -v open &> /dev/null; then
     open dashboard/index.html
@@ -24,6 +27,10 @@ else
 fi
 
 echo "Starting backend server (Press Ctrl+C to stop)..."
-docker stop cosmic-backend >/dev/null 2>&1 || true
-docker rm cosmic-backend >/dev/null 2>&1 || true
+# Use exact name filter to avoid matching partial container names
+CONTAINER_ID=$(docker ps -aq --filter "name=^cosmic-backend$")
+if [ -n "$CONTAINER_ID" ]; then
+    docker stop "$CONTAINER_ID" >/dev/null 2>&1 || true
+    docker rm "$CONTAINER_ID" >/dev/null 2>&1 || true
+fi
 docker run --rm --name cosmic-backend -p 8000:8000 -v "$(pwd)/chains:/app/chains" cosmic-dashboard

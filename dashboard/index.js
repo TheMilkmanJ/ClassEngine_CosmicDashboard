@@ -5204,8 +5204,8 @@ function playIntergalacticSynth() {
         // Create a hidden iframe to play the full song from YouTube
         const iframe = document.createElement('iframe');
         iframe.style.display = 'none';
-        iframe.allow = 'autoplay';
-        iframe.src = 'https://www.youtube.com/embed/qORYO0atB6g?start=0';
+        iframe.allow = 'autoplay; encrypted-media';
+        iframe.src = 'https://www.youtube.com/embed/qORYO0atB6g?autoplay=1&mute=0&start=0';
         document.body.appendChild(iframe);
         
         // Show a celebration message with song info

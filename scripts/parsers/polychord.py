@@ -7,12 +7,17 @@ from fastapi import HTTPException
 from parsers.logs import safe_parse_python_dict, get_best_fit_from_log
 import os.path as osp
 
-def _ensure_under_workspace(path_value: str, detail: str) -> None:
-    allowed_dir = Path(os.path.realpath(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or str(Path.cwd()))).resolve()
-    candidate = Path(os.path.realpath(path_value)).expanduser().resolve()
+def _assert_within_workspace(path: str, detail: str) -> None:
+    """Canonical workspace containment check using realpath and commonpath."""
+    allowed_dir = os.path.realpath(
+        os.path.abspath(os.environ.get("DASHBOARD_WORKSPACE_ROOT", os.getcwd()))
+    )
+    abs_path = os.path.realpath(os.path.abspath(path))
     try:
-        candidate.relative_to(allowed_dir)
+        is_allowed = os.path.commonpath([allowed_dir, abs_path]) == allowed_dir
     except ValueError:
+        is_allowed = False
+    if not is_allowed:
         raise HTTPException(status_code=400, detail=detail)
 
 def get_output_prefix_from_yaml(config_path: str) -> str:
@@ -27,7 +32,7 @@ def get_output_prefix_from_yaml(config_path: str) -> str:
         pass
     
     # Sanitize prefix to prevent path traversal
-    _ensure_under_workspace(prefix, "Path traversal detected in YAML 'output' configuration.")
+    _assert_within_workspace(prefix, "Path traversal detected in YAML 'output' configuration.")
     return prefix
 
 def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optional[Path]:
@@ -235,7 +240,7 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
     """Fixed, non-duplicated version of get_best_fit_details.
     state is optional for backward compatibility with one-argument call sites."""
     # Sanitize output_prefix to prevent directory traversal
-    _ensure_under_workspace(output_prefix, "Access denied: invalid output prefix path.")
+    _assert_within_workspace(output_prefix, "Access denied: invalid output prefix path.")
 
     log_file = Path(f"{output_prefix}.log")
     
@@ -309,9 +314,10 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
             best_fit_this_file = current_best
             
             with open(fpath, 'r', errors='ignore') as f:
-                checkpoint = raw_file_positions[fpath_str]
+                start_pos = raw_file_positions[fpath_str]
                 
-                # Check for header in final_file
+                # Check for header in final_file on every incremental read so
+                # appended rows still use the correct column mapping.
                 has_header = False
                 names_in_header = []
                 if ftype == "final":
@@ -320,7 +326,10 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                     if first_line.startswith('#'):
                         has_header = True
                         names_in_header = first_line.lstrip('#').strip().split()
-                f.seek(checkpoint)
+                        if start_pos == 0:
+                            start_pos = f.tell()
+                            raw_file_positions[fpath_str] = start_pos
+                f.seek(start_pos)
                 
                 for line in f:
                     if line.strip().startswith('#'):
@@ -379,13 +388,15 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                 # 3. Safely sum likelihood parameters to positive chi2 values
                                 cmb_vals = []
                                 bao_vals = []
+                                boss_vals = []
                                 desi_vals = []
                                 sn_vals = []
                                 lensing_vals = []
                                 other_vals = []
                                 
                                 has_cmb_group = any(k.startswith('chi2__') and ('cmb' in k.lower() or 'planck' in k.lower()) for k in raw_params.keys())
-                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() or 'boss' in k.lower()) for k in raw_params.keys())
+                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() and 'boss' not in k.lower()) for k in raw_params.keys())
+                                has_boss_group = any(k.startswith('chi2__') and 'boss' in k.lower() for k in raw_params.keys())
                                 has_desi_group = any(k.startswith('chi2__') and 'desi' in k.lower() for k in raw_params.keys())
                                 has_sn_group = any(k.startswith('chi2__') and ('sn' in k.lower() or 'pantheon' in k.lower() or 'shoes' in k.lower()) for k in raw_params.keys())
                                 has_lensing_group = any(k.startswith('chi2__') and ('lensing' in k.lower() or 'lens' in k.lower()) for k in raw_params.keys())
@@ -398,7 +409,9 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                         k_lower = k.lower()
                                         if has_cmb_group and ('cmb' in k_lower or 'planck' in k_lower):
                                             continue
-                                        if has_bao_group and ('bao' in k_lower or 'boss' in k_lower):
+                                        if has_bao_group and ('bao' in k_lower and 'boss' not in k_lower):
+                                            continue
+                                        if has_boss_group and 'boss' in k_lower:
                                             continue
                                         if has_desi_group and 'desi' in k_lower:
                                             continue
@@ -412,7 +425,9 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                     
                                     if 'desi' in k_lower:
                                         desi_vals.append(val)
-                                    elif 'bao' in k_lower or 'boss' in k_lower:
+                                    elif 'boss' in k_lower:
+                                        boss_vals.append(val)
+                                    elif 'bao' in k_lower:
                                         bao_vals.append(val)
                                     elif 'lensing' in k_lower or 'lens' in k_lower:
                                         lensing_vals.append(val)
@@ -427,6 +442,7 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                     "total": chi2,
                                     "cmb": sum(cmb_vals) if cmb_vals else 0.0,
                                     "bao": sum(bao_vals) if bao_vals else 0.0,
+                                    "boss": sum(boss_vals) if boss_vals else 0.0,
                                     "desi": sum(desi_vals) if desi_vals else 0.0,
                                     "sn": sum(sn_vals) if sn_vals else 0.0,
                                     "lensing": sum(lensing_vals) if lensing_vals else 0.0,

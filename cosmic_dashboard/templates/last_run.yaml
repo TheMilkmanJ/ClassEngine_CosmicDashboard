@@ -13,7 +13,7 @@ likelihood:
 theory:
   classy:
     path: /home/themilkmanj/prtoe_class
-    stop_at_error: false
+    stop_at_error: true
     extra_args:
       use_prtoe: 'yes'
       non_linear: halofit

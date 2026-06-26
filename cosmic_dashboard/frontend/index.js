@@ -5,6 +5,7 @@ let lastStatusData = null;
 let baselineBestChi2 = null;
 let baselineLogEvidence = null;
 let lastBaselineUpdateRun = null;
+let lastBaselineUpdateEvidence = null;
 let isUploadingConfig = false;
 
 // Global chart instances
@@ -275,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnLogout) {
         btnLogout.addEventListener('click', async () => {
             try {
-                await fetch(`${API_URL}/api/logout`, { method: 'POST' });
+                await fetch(`${API_URL}/api/logout`, { method: 'POST', credentials: 'include' });
             } catch(e) {}
             location.reload();
         });
@@ -1027,16 +1028,37 @@ async function buildGeneralPlaygroundSliders() {
         }
         params.forEach(p => {
             const div = document.createElement('div');
-            div.innerHTML = `
-                <div style="display:flex; justify-content:space-between; color:#fff; margin-bottom:2px; font-size:0.75rem;">
-                    <span>${p.latex || p.name}:</span>
-                    <span id="val-gen-${p.name}" style="font-family:var(--font-mono);color:#00d2d3;">${p.ref.toFixed(4)}</span>
-                </div>
-                <input type="range" class="play-slider gen-slider" data-param="${p.name}" min="${p.min}" max="${p.max}" step="${(p.max-p.min)/100}" value="${p.ref}" style="width:100%; height:5px; accent-color:#00d2d3; background:rgba(255,255,255,0.1); border-radius:3px;">
-            `;
-            container.appendChild(div);
-            const slider = div.querySelector('.gen-slider');
-            const valSpan = div.querySelector(`#val-gen-${p.name}`);
+            const nameSpan = document.createElement('span');
+            nameSpan.textContent = p.latex || p.name;
+            const valSpan = document.createElement('span');
+            valSpan.id = `val-gen-${p.name}`;
+            valSpan.style.fontFamily = 'var(--font-mono)';
+            valSpan.style.color = '#00d2d3';
+            valSpan.textContent = p.ref.toFixed(4);
+            
+            const headerDiv = document.createElement('div');
+            headerDiv.style.display = 'flex';
+            headerDiv.style.justifyContent = 'space-between';
+            headerDiv.style.color = '#fff';
+            headerDiv.style.marginBottom = '2px';
+            headerDiv.style.fontSize = '0.75rem';
+            headerDiv.appendChild(nameSpan);
+            headerDiv.appendChild(valSpan);
+            
+            const slider = document.createElement('input');
+            slider.type = 'range';
+            slider.className = 'play-slider gen-slider';
+            slider.dataset.param = p.name;
+            slider.min = p.min;
+            slider.max = p.max;
+            slider.step = (p.max - p.min) / 100;
+            slider.value = p.ref;
+            slider.style.width = '100%';
+            slider.style.height = '5px';
+            slider.style.accentColor = '#00d2d3';
+            slider.style.background = 'rgba(255,255,255,0.1)';
+            slider.style.borderRadius = '3px';
+            
             slider.addEventListener('input', () => {
                 valSpan.textContent = parseFloat(slider.value).toFixed(4);
                 // debounce update
@@ -1045,6 +1067,10 @@ async function buildGeneralPlaygroundSliders() {
                     updateGeneralPlayground();
                 }, 200);
             });
+            
+            div.appendChild(headerDiv);
+            div.appendChild(slider);
+            container.appendChild(div);
         });
         // initial draw
         updateGeneralPlayground();
@@ -1478,7 +1504,7 @@ async function checkStatus() {
         
         // Append external logs (from monitor script)
         if (data.external_logs && data.external_logs.length > 0) {
-            data.external_logs.forEach(log => appendLog(`<span style="color: #ff4757; font-weight: bold;">[ALERT] ${escHtml(log)}</span>`));
+            data.external_logs.forEach(log => appendLog(`[ALERT] ${log}`));
         }
         
         if (data.terminal_output && data.terminal_output.length > 0) {
@@ -1583,8 +1609,8 @@ async function checkStatus() {
             statChi2.textContent = data.best_chi2.toFixed(2);
             if (data.best_cmb !== null && data.best_cmb !== undefined) {
                 statChi2Cmb.textContent = data.best_cmb.toFixed(1);
-                statChi2Bao.textContent = data.best_bao.toFixed(1);
-                statChi2Sn.textContent = data.best_sn.toFixed(1);
+                statChi2Bao.textContent = data.best_bao !== null && data.best_bao !== undefined ? data.best_bao.toFixed(1) : "-";
+                statChi2Sn.textContent = data.best_sn !== null && data.best_sn !== undefined ? data.best_sn.toFixed(1) : "-";
             }
         } else {
             statChi2.textContent = "-";
@@ -1843,10 +1869,11 @@ async function checkStatus() {
             let chi2Text = data.best_chi2 !== null ? data.best_chi2.toFixed(4) : 'evaluating';
             let logZText = data.log_evidence !== null ? data.log_evidence.toFixed(4) : 'evaluating';
         } else {
+            // Always disable Stop when not running, even during upload
+            btnStop.disabled = true;
             if (!isUploadingConfig) {
                 btnStart.disabled = false;
                 btnResume.disabled = false;
-                btnStop.disabled = true;
             }
         }
 
@@ -2062,9 +2089,14 @@ async function checkStatus() {
                               yamlNameLower.includes('baseline');
             if (isLcdmRun) {
                 const currentRunId = data.active_output_prefix || data.active_yaml_path;
-                if (lastBaselineUpdateRun !== currentRunId) {
+                const currentEvidence = data.log_evidence;
+                // Allow update if it's a new run OR if evidence changed for the same run
+                const shouldUpdate = lastBaselineUpdateRun !== currentRunId || 
+                                    (lastBaselineUpdateEvidence !== currentEvidence && lastBaselineUpdateRun === currentRunId);
+                if (shouldUpdate) {
                     updateBaseline("planck_bao_pantheonplus_shoes", data.log_evidence, data.best_chi2, data.evidence_is_final, data.evidence_source);
                     lastBaselineUpdateRun = currentRunId;
+                    lastBaselineUpdateEvidence = currentEvidence;
                 }
                 if (data.evidence_is_final && checkAutoRunCustom && checkAutoRunCustom.checked && !isAutoRunning) {
                     isAutoRunning = true;
@@ -2306,12 +2338,13 @@ function escHtml(str) {
 }
 
 // Console helper
-function appendLog(message) {
+function appendLog(message, { html = false } = {}) {
     // Remove initial placeholder if present
     if (localLogs.length === 1 && localLogs[0] === 'Waiting for run execution...') {
         localLogs = [];
     }
-    localLogs.push(`[${new Date().toLocaleTimeString()}] ${message}`);
+    const safeMessage = html ? String(message) : escHtml(String(message));
+    localLogs.push(`[${escHtml(new Date().toLocaleTimeString())}] ${safeMessage}`);
     if (localLogs.length > 50) localLogs.shift();
     renderLogs();
 }
@@ -3561,7 +3594,9 @@ async function refreshCompare() {
             const logzStr = m.logz !== null ? `${m.logz.toFixed(2)} +/- ${m.logz_err.toFixed(2)}` : "-";
             const h0Str = m.h0_tension !== null ? `${m.h0_tension.toFixed(2)}σ (${m.h0_val.toFixed(2)})` : (m.h0_val !== null ? m.h0_val.toFixed(2) : "-");
             const s8Str = m.s8_tension !== null ? `${m.s8_tension.toFixed(2)}σ (${m.s8_val.toFixed(3)})` : (m.s8_val !== null ? m.s8_val.toFixed(3) : "-");
-            const wParams = m.w0 !== null && m.wa !== null ? `${m.w0.toFixed(2)}, ${m.wa.toFixed(2)}` : "-";
+            const w0 = m.w0 !== null && m.w0 !== undefined ? m.w0.toFixed(2) : "-";
+            const wa = m.wa !== null && m.wa !== undefined ? m.wa.toFixed(2) : "-";
+            const wParams = `${w0}, ${wa}`;
             
             const tr = document.createElement('tr');
             tr.style.borderBottom = "1px solid rgba(255,255,255,0.05)";
@@ -4148,7 +4183,7 @@ async function refreshLikelihoodTerrain() {
     const p2 = ySelect.value || "omega_cdm";
     
     try {
-        const res = await fetch(`${API_URL}/api/likelihood_terrain?param1=${p1}&param2=${p2}&config_name=${encodeURIComponent(activeConfig)}`);
+        const res = await fetch(`${API_URL}/api/likelihood_terrain?param1=${encodeURIComponent(p1)}&param2=${encodeURIComponent(p2)}&config_name=${encodeURIComponent(activeConfig)}`);
         if (res.ok) {
             const data = await res.json();
             if (data.status === "success" && data.points) {
@@ -4368,7 +4403,7 @@ async function refreshChainQuality() {
     const selectedParam = selectEl.value || "H0";
     
     try {
-        const res = await fetch(`${API_URL}/api/chain_quality?param=${selectedParam}&config_name=${encodeURIComponent(activeConfig)}`);
+        const res = await fetch(`${API_URL}/api/chain_quality?param=${encodeURIComponent(selectedParam)}&config_name=${encodeURIComponent(activeConfig)}`);
         if (res.ok) {
             const data = await res.json();
             if (data.status === "success") {
@@ -4817,27 +4852,55 @@ async function refreshCheckpointsList() {
                     return;
                 }
                 
-                listContainer.innerHTML = data.checkpoints.map(cp => {
+                listContainer.innerHTML = '';
+                data.checkpoints.forEach(cp => {
                     const pctText = cp.percentage !== null ? `${cp.percentage}%` : 'unknown %';
                     const deadText = cp.dead_points ? `${cp.dead_points} dead pts` : '';
                     const detail = `${pctText} (${deadText || 'no points'}) - ${cp.created_time}`;
-                    return `
-                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 8px; background: rgba(255,255,255,0.03); border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);">
-                            <div style="display: flex; flex-direction: column; gap: 2px;">
-                                <span style="font-weight: bold; color: #ff9ff3;">${cp.name}</span>
-                                <span style="font-size: 0.7rem; color: #a4b0be;">${detail}</span>
-                            </div>
-                            <button class="btn btn-secondary btn-restore-checkpoint" data-checkpoint="${cp.name}" style="padding: 3px 8px; font-size: 0.72rem; cursor: pointer; border-radius: 3px;">Restore</button>
-                        </div>
-                    `;
-                }).join('');
-                
-                // Add event listeners to restore buttons
-                listContainer.querySelectorAll('.btn-restore-checkpoint').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        const name = btn.getAttribute('data-checkpoint');
-                        restoreCheckpoint(name);
+                    
+                    const itemDiv = document.createElement('div');
+                    itemDiv.style.display = 'flex';
+                    itemDiv.style.justifyContent = 'space-between';
+                    itemDiv.style.alignItems = 'center';
+                    itemDiv.style.padding = '6px 8px';
+                    itemDiv.style.background = 'rgba(255,255,255,0.03)';
+                    itemDiv.style.borderRadius = '4px';
+                    itemDiv.style.border = '1px solid rgba(255,255,255,0.05)';
+                    
+                    const infoDiv = document.createElement('div');
+                    infoDiv.style.display = 'flex';
+                    infoDiv.style.flexDirection = 'column';
+                    infoDiv.style.gap = '2px';
+                    
+                    const nameSpan = document.createElement('span');
+                    nameSpan.style.fontWeight = 'bold';
+                    nameSpan.style.color = '#ff9ff3';
+                    nameSpan.textContent = cp.name;
+                    
+                    const detailSpan = document.createElement('span');
+                    detailSpan.style.fontSize = '0.7rem';
+                    detailSpan.style.color = '#a4b0be';
+                    detailSpan.textContent = detail;
+                    
+                    infoDiv.appendChild(nameSpan);
+                    infoDiv.appendChild(detailSpan);
+                    
+                    const restoreBtn = document.createElement('button');
+                    restoreBtn.className = 'btn btn-secondary btn-restore-checkpoint';
+                    restoreBtn.dataset.checkpoint = cp.name;
+                    restoreBtn.style.padding = '3px 8px';
+                    restoreBtn.style.fontSize = '0.72rem';
+                    restoreBtn.style.cursor = 'pointer';
+                    restoreBtn.style.borderRadius = '3px';
+                    restoreBtn.textContent = 'Restore';
+                    
+                    restoreBtn.addEventListener('click', () => {
+                        restoreCheckpoint(cp.name);
                     });
+                    
+                    itemDiv.appendChild(infoDiv);
+                    itemDiv.appendChild(restoreBtn);
+                    listContainer.appendChild(itemDiv);
                 });
             }
         }
@@ -5204,7 +5267,7 @@ async function checkIntergalacticTrigger() {
                 if (delta_logz >= 5.0) {
                     intergalacticPlaying = true;
                     localStorage.setItem('intergalacticPlayed', 'true');
-                    appendLog("<span style='color: #ff9ff3; font-weight: bold;'>🌌 [CELEBRATION] PRTOE has strong evidence (ΔlogZ = " + delta_logz.toFixed(2) + " >= 5)! Playing Beastie Boys: Intergalactic! 🚀</span>");
+                    appendLog("<span style='color: #ff9ff3; font-weight: bold;'>🌌 [CELEBRATION] PRTOE has strong evidence (ΔlogZ = " + delta_logz.toFixed(2) + " >= 5)! Playing Beastie Boys: Intergalactic! 🚀</span>", { html: true });
                     playIntergalacticSynth();
                 }
             }
@@ -5219,6 +5282,25 @@ function playIntergalacticSynth() {
     // Using a reliable YouTube embed that allows autoplay
     
     try {
+        // Check if user has opted in to third-party YouTube autoplay
+        const youtubeOptIn = localStorage.getItem('youtubeAutoplayOptIn') === 'true';
+        
+        if (!youtubeOptIn) {
+            // Use local synth only if user hasn't opted in to YouTube
+            if ('speechSynthesis' in window) {
+                const u = new SpeechSynthesisUtterance("Intergalactic, planetary, planetary, intergalactic.");
+                u.pitch = 0.5;
+                u.rate = 0.82;
+                window.speechSynthesis.speak(u);
+            }
+            appendLog("<span style='color: #ff9ff3; font-weight: bold;'>🎵 Celebration! Enable YouTube autoplay in settings for full song 🎵</span>", { html: true });
+            setTimeout(() => {
+                intergalacticPlaying = false;
+                appendLog("<span style='color: #00d2ff;'>🌌 Celebration complete! 🌌</span>", { html: true });
+            }, 5000);
+            return;
+        }
+        
         // Create an audio element with the full song
         const audio = new Audio();
         
@@ -5229,12 +5311,12 @@ function playIntergalacticSynth() {
         // Create a hidden iframe to play the full song from YouTube
         const iframe = document.createElement('iframe');
         iframe.style.display = 'none';
-        iframe.allow = 'autoplay';
-        iframe.src = 'https://www.youtube.com/embed/qORYO0atB6g?start=0';
+        iframe.allow = 'autoplay; encrypted-media';
+        iframe.src = 'https://www.youtube.com/embed/qORYO0atB6g?autoplay=1&mute=0&start=0';
         document.body.appendChild(iframe);
         
         // Show a celebration message with song info
-        appendLog("<span style='color: #ff9ff3; font-weight: bold;'>🎵 Now playing: Beastie Boys - Intergalactic (Full Song) 🎵</span>");
+        appendLog("<span style='color: #ff9ff3; font-weight: bold;'>🎵 Now playing: Beastie Boys - Intergalactic (Full Song) 🎵</span>", { html: true });
         
         // Also play the vocoder voice for extra effect at the start
         if ('speechSynthesis' in window) {
@@ -5250,7 +5332,7 @@ function playIntergalacticSynth() {
                 iframe.parentNode.removeChild(iframe);
             }
             intergalacticPlaying = false;
-            appendLog("<span style='color: #00d2ff;'>🌌 Celebration complete! 🌌</span>");
+            appendLog("<span style='color: #00d2ff;'>🌌 Celebration complete! 🌌</span>", { html: true });
         }, 235000); // 235 seconds to ensure full song plays
         
     } catch (e) {

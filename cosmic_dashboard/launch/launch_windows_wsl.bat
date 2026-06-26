@@ -23,6 +23,10 @@ REM Use wslpath to convert current directory to WSL path dynamically
 for /f "delims=" %%i in ('wsl wslpath -a "%cd%"') do set WSL_PATH=%%i
 wsl bash -c "cd \"%WSL_PATH%\" && chmod +x launch_cosmic.sh && ./launch_cosmic.sh"
 
+REM Note: Password entry is handled by launch_cosmic.sh which generates
+REM a random password automatically. If you want to set a custom password,
+REM set the DASHBOARD_PASS environment variable before running this script.
+
 pause
 
 @REM Made with Bob

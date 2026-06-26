@@ -819,20 +819,22 @@ def cmd_bestfit(args: str):
         for m in re.finditer(r"Computed derived parameters:\s*({.*?})", log_text, re.DOTALL):
             try:
                 derived_dict = json.loads(m.group(1))
-                t2 = Table(title="Derived parameters (from log)", box=box.SIMPLE)
-                t2.add_column("Parameter", style="cyan")
-                t2.add_column("Value", justify="right")
-                for k, v in derived_dict.items():
-                    if isinstance(v, (int, float)):
-                        t2.add_row(k, f"{v:.4g}")
-                if t2.row_count:
-                    console.print(t2)
-                break
             except (json.JSONDecodeError, ValueError):
                 try:
                     derived_dict = ast.literal_eval(m.group(1))
                 except (ValueError, SyntaxError):
                     continue
+            
+            # Render table for both JSON and literal_eval successful parses
+            t2 = Table(title="Derived parameters (from log)", box=box.SIMPLE)
+            t2.add_column("Parameter", style="cyan")
+            t2.add_column("Value", justify="right")
+            for k, v in derived_dict.items():
+                if isinstance(v, (int, float)):
+                    t2.add_row(k, f"{v:.4g}")
+            if t2.row_count:
+                console.print(t2)
+            break
 
     # Convergence note
     console.print(f"[dim]Source: {rel(candidates[0])} ({len(txt)} points)[/dim]")

@@ -20,9 +20,18 @@ TUNNEL_LOG="$SCRIPT_DIR/chains/dashboard_tunnel.log"
 PORT=8000
 RESTART_DELAY=5   # seconds to wait before restarting a crashed service
 
-# Set Python path to pgtoe_gold conda environment directly to avoid shell function activation crashes
-if [ -f "/home/themilkmanj/miniconda3/envs/pgtoe_gold/bin/python3" ]; then
-    PYTHON="/home/themilkmanj/miniconda3/envs/pgtoe_gold/bin/python3"
+# Set Python path - try conda environment first, then fall back to system python
+if [ -n "${CONDA_PREFIX:-}" ]; then
+    # Already in a conda environment, use its python
+    PYTHON="$CONDA_PREFIX/bin/python3"
+elif command -v conda &>/dev/null; then
+    # Try to find pgtoe_gold environment if it exists
+    if conda env list | grep -q "pgtoe_gold"; then
+        PYTHON=$(conda run -n pgtoe_gold which python3)
+    else
+        # Use the current conda environment's python
+        PYTHON=$(conda run -n base which python3 2>/dev/null || command -v python3 || command -v python)
+    fi
 else
     PYTHON=$(command -v python3 || command -v python)
 fi
