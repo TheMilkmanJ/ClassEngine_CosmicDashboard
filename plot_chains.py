@@ -223,11 +223,29 @@ def plot_optimizer_progress(output_prefix, config_path):
                             
                             # Read dict
                             d = ast.literal_eval(s_val)
-                            # Calculate total chi2
-                            cmb = d.get("chi2__CMB", 0.0)
-                            bao = d.get("chi2__BAO", 0.0)
-                            sn = d.get("chi2__SN", 0.0)
-                            tot = (cmb or 0.0) + (bao or 0.0) + (sn or 0.0)
+                            # Calculate total chi2 using the same robust logic as the backend
+                            chi2_keys = [k for k in d.keys() if k.startswith('chi2__')]
+                            tot = 0.0
+                            if chi2_keys:
+                                cmb_vals = [d[k] for k in chi2_keys if 'cmb' in k.lower() or 'planck' in k.lower()]
+                                bao_vals = [d[k] for k in chi2_keys if 'bao' in k.lower()]
+                                sn_vals = [d[k] for k in chi2_keys if 'sn' in k.lower() or 'pantheon' in k.lower() or 'shoes' in k.lower()]
+                                
+                                cmb_sum = sum(cmb_vals) if cmb_vals else 0.0
+                                bao_sum = sum(bao_vals) if bao_vals else 0.0
+                                sn_sum = sum(sn_vals) if sn_vals else 0.0
+                                
+                                chi2_bao = d.get('chi2__BAO', bao_sum)
+                                chi2_cmb = d.get('chi2__CMB', cmb_sum)
+                                chi2_sn = d.get('chi2__SN', sn_sum)
+                                
+                                tot = (chi2_bao or 0.0) + (chi2_cmb or 0.0) + (chi2_sn or 0.0)
+                                if tot == 0.0:
+                                    tot = sum([d[k] for k in chi2_keys])
+                                else:
+                                    grouped_keys = {k for k in chi2_keys if any(g in k.lower() for g in ['cmb', 'planck', 'bao', 'boss', 'sn', 'pantheon', 'shoes'])}
+                                    ungrouped_vals = [d[k] for k in chi2_keys if k not in grouped_keys]
+                                    tot += sum(ungrouped_vals)
                             
                             eval_idx += 1
                             if 0 < tot < 1e5:
