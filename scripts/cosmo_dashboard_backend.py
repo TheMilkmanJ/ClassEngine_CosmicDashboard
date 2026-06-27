@@ -3363,6 +3363,9 @@ async def get_status():
                 is_stale = True
 
         stats_data.update(parse_polychord_stats(stats_file, resume_file))
+        if getattr(state, "is_optimizer", False):
+            evals = get_log_eval_count(f"{state.active_output_prefix}.log")
+            stats_data["dead_points"] = evals
 
         fit_details = None if is_stale else get_best_fit_details(state.active_output_prefix)
         if fit_details is not None:
@@ -3418,7 +3421,13 @@ async def get_status():
         if not nlive:
             nlive = 200  # Default live points fallback
 
-        target_pts = max(3000, ndims * nlive)
+        if getattr(state, "is_optimizer", False):
+            multistart = getattr(state, "optimizer_multistart", 2)
+            mcmc_steps = getattr(state, "optimizer_mcmc_steps", 50)
+            target_pts = max(10, multistart * 60 + multistart * mcmc_steps)
+            stats_data["nlive"] = 1
+        else:
+            target_pts = max(3000, ndims * nlive)
 
         # Speed & ETA
         if state.current_status == "running" and state.run_start_time:
@@ -4305,10 +4314,11 @@ async def start_run(config: RunConfig, request: Request = None):
     if os.path.isdir(_clik_lib):
         _cur_ld = _run_env.get("LD_LIBRARY_PATH", "")
         _run_env["LD_LIBRARY_PATH"] = _clik_lib + (os.pathsep + _cur_ld if _cur_ld else "")
-
     state.is_optimizer = config.is_optimizer
 
     if config.is_optimizer:
+        state.optimizer_multistart = config.optimizer_multistart
+        state.optimizer_mcmc_steps = config.optimizer_mcmc_steps
         cobaya_cmd = [
             python_executable, "-u", "run_optimizer.py",
             str(config_file),

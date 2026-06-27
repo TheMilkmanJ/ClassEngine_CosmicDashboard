@@ -1816,7 +1816,7 @@ async function checkStatus() {
         }
         
         // Refresh drool-worthy derived params when we have new best-fit info
-        if (data.best_fit || data.chi2 || data.evidence) {
+        if (data.best_raw_params || data.best_chi2 !== null || data.log_evidence !== null || data.status === 'running' || data.status === 'completed') {
             refreshDerivedParameters();
             fetchMultimodalComparison();
         }
