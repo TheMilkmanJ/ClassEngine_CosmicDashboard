@@ -240,12 +240,91 @@ def estimate_gelfand_dey_evidence(mcmc_chain, sampled_names, info):
     
     return float(log_z)
 
+def evaluate_constraints(point_dict, derived_dict, physical_constraints):
+    total_penalty = 0.0
+    viability_score = 100.0
+    
+    # Simple safe eval helper
+    def safe_eval(expr, variables):
+        # Replace variable names with their values
+        # Sort keys by length descending to avoid partial matches (e.g., omega_cdm matching omega_b)
+        sorted_keys = sorted(variables.keys(), key=len, reverse=True)
+        local_expr = expr
+        for k in sorted_keys:
+            local_expr = local_expr.replace(k, str(variables[k]))
+        try:
+            # Evaluate the mathematical expression safely
+            allowed_chars = set("0123456789.+-*/()eE ")
+            if not all(c in allowed_chars for c in local_expr):
+                return 0.0
+            return float(eval(local_expr, {"__builtins__": None}, {}))
+        except Exception:
+            return 0.0
+
+    for c in physical_constraints:
+        name = c.get("name", "unnamed_constraint")
+        c_min = float(c.get("min", -np.inf))
+        c_max = float(c.get("max", np.inf))
+        weight = float(c.get("weight", 100.0))
+        
+        val = 0.0
+        if "expression" in c:
+            val = safe_eval(c["expression"], point_dict)
+        elif "derived" in c:
+            val = derived_dict.get(c["derived"], 0.0)
+            
+        # Compute violation
+        violation = 0.0
+        if val < c_min:
+            violation = c_min - val
+        elif val > c_max:
+            violation = val - c_max
+            
+        if violation > 0.0:
+            total_penalty += weight * (violation ** 2)
+            # Reduce viability score
+            # A violation of 1 unit at weight 100 reduces viability by 10%
+            viability_score -= 100.0 * (violation * (weight / 500.0))
+            
+    viability_score = max(0.0, min(100.0, viability_score))
+    return total_penalty, viability_score
+
 def main():
     config_path = os.path.abspath(args.config_file)
     
     # Load configuration
     with open(config_path, "r") as f:
         info = yaml.safe_load(f)
+
+    # Load physical constraints from configuration or fall back to default PRTOE ones
+    physical_constraints = info.get("physical_constraints")
+    if physical_constraints is None:
+        physical_constraints = [
+            {
+                "name": "V0_prtoe",
+                "expression": "1.0 - (omega_b + omega_cdm) / (H0/100)**2",
+                "min": 0.0,
+                "max": 1.0,
+                "weight": 500.0
+            },
+            {
+                "name": "age_universe",
+                "derived": "age",
+                "min": 12.0,
+                "max": 15.5,
+                "weight": 20.0
+            },
+            {
+                "name": "xi_prtoe_stability",
+                "expression": "xi_prtoe",
+                "min": -1e9,
+                "max": 1.0e-4,
+                "weight": 1000.0
+            }
+        ]
+    else:
+        print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Loaded {len(physical_constraints)} custom model-agnostic physical constraints from configuration.")
+        sys.stdout.flush()
 
     # Get output prefix
     output_prefix = info.get("output")
@@ -342,21 +421,13 @@ def main():
             if val < low or val > high:
                 return 1e10
 
-        # 2. Early Physical V0 Rejection (Zero-cost physical check before calling CLASS)
-        omega_b = 0.0224
-        omega_cdm = 0.120
-        h0 = 67.4
-        if "omega_b" in sampled_names:
-            omega_b = x[sampled_names.index("omega_b")]
-        if "omega_cdm" in sampled_names:
-            omega_cdm = x[sampled_names.index("omega_cdm")]
-        if "H0" in sampled_names:
-            h0 = x[sampled_names.index("H0")]
-            
-        v0 = 1.0 - (omega_b + omega_cdm) / (h0 / 100.0)**2
-        if v0 < -0.2 or v0 > 1.2:
-            # Avoid calling CLASS for extremely unphysical parameters
-            return 1e10 + 500.0 * (max(0.0, -0.2 - v0) + max(0.0, v0 - 1.2))**2
+        # 2. Early Physical Rejection (Zero-cost check on expression-based constraints before calling CLASS)
+        point_temp = {name: float(val) for name, val in zip(sampled_names, x)}
+        expr_constraints = [c for c in physical_constraints if "expression" in c]
+        if expr_constraints:
+            early_penalty, _ = evaluate_constraints(point_temp, {}, expr_constraints)
+            if early_penalty > 1e-4:
+                return 1e10 + early_penalty
 
         # 3. Check evaluation cache (surrogate cache)
         # Round parameters to 5 decimal places to catch near-duplicates
@@ -407,46 +478,24 @@ def main():
             # Output in Cobaya log format (dashboard parser extracts real-time statistics from this pattern)
             print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [model] Computed derived parameters: {log_derived}")
 
-            # Calculate physical sanity penalties & viability score
-            omega_b = point.get("omega_b", 0.0224)
-            omega_cdm = point.get("omega_cdm", 0.120)
-            h0 = point.get("H0", 67.4)
-            
-            # 1. V0_prtoe sanity: must be between 0.0 and 1.0 (since V0 ~ Omega_de_vac)
-            v0 = 1.0 - (omega_b + omega_cdm) / (h0 / 100.0)**2
-            v0_viol = max(0.0, -v0) + max(0.0, v0 - 1.0)
-            v0_penalty = 500.0 * (v0_viol ** 2)
-
-            # 2. Age of the universe sanity: must be between 12.0 and 15.5 Gyr
-            age = derived_dict.get("age", 13.8)
-            try:
-                age = model.theory['classy'].provider.get_param('age')
-            except Exception:
+            # Calculate physical sanity penalties & viability score using model-agnostic constraints
+            # If age is not in derived_dict, try to extract it from classy provider
+            if "age" not in derived_dict:
                 try:
-                    age = model.theory['classy'].classy.age()
+                    derived_dict["age"] = model.theory['classy'].provider.get_param('age')
                 except Exception:
-                    pass
-            
-            age_viol = max(0.0, 12.0 - age) + max(0.0, age - 15.5)
-            age_penalty = 500.0 * (age_viol ** 2)
+                    try:
+                        derived_dict["age"] = model.theory['classy'].classy.age()
+                    except Exception:
+                        derived_dict["age"] = 13.8
 
-            # 3. Early Universe / Ghost Instability check
-            # xi_prtoe must satisfy xi_prtoe < 1.0e-4 (screened coupling stability)
-            xi_val = point.get("xi_prtoe", 1.0e-7)
-            xi_viol = max(0.0, xi_val - 1.0e-4)
-            xi_penalty = 500.0 * (xi_viol / 1.0e-4) ** 2
-
-            # Total penalty is graduated and soft
-            total_penalty = v0_penalty + age_penalty + xi_penalty
-            
-            # Viability Score (starts at 100%, drops as violations increase)
-            viability_score = max(0.0, 100.0 - 100.0 * v0_viol - 20.0 * age_viol - 1000.0 * xi_viol)
+            total_penalty, viability_score = evaluate_constraints(point, derived_dict, physical_constraints)
             
             raw_chi2 = -2.0 * res.loglike
             chi2_penalized = raw_chi2 + total_penalty
 
             if total_penalty > 0.0:
-                print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Physical Sanity Violation: V0_prtoe={v0:.4f} (viol={v0_viol:.4f}), Age={age:.2f} Gyr (viol={age_viol:.2f}), xi={xi_val:.2e} (viol={xi_viol:.2e}) | Viability: {viability_score:.1f}%")
+                print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Physical Sanity Violation detected | Penalty: {total_penalty:.4f} | Viability: {viability_score:.1f}%")
 
             # If this is the new best fit, update the best fit tracking files
             if chi2_penalized < global_best_chi2:
@@ -660,14 +709,17 @@ def main():
                 for name, val in zip(model.derived_params, eval_res.derived):
                     derived_dict[name] = float(val)
                     
-                v0_final = 1.0 - (point_dict.get("omega_b", 0.0224) + point_dict.get("omega_cdm", 0.120)) / (point_dict.get("H0", 67.4) / 100.0)**2
-                v0_viol = max(0.0, -v0_final) + max(0.0, v0_final - 1.0)
-                age_final = derived_dict.get("age", 13.8)
-                age_viol = max(0.0, 12.0 - age_final) + max(0.0, age_final - 15.5)
-                xi_val = point_dict.get("xi_prtoe", 1.0e-7)
-                xi_viol = max(0.0, xi_val - 1.0e-4)
-                
-                v_score = max(0.0, 100.0 - 100.0 * v0_viol - 20.0 * age_viol - 1000.0 * xi_viol)
+                # If age is not in derived_dict, try to extract it from classy provider
+                if "age" not in derived_dict:
+                    try:
+                        derived_dict["age"] = model.theory['classy'].provider.get_param('age')
+                    except Exception:
+                        try:
+                            derived_dict["age"] = model.theory['classy'].classy.age()
+                        except Exception:
+                            derived_dict["age"] = 13.8
+
+                _, v_score = evaluate_constraints(point_dict, derived_dict, physical_constraints)
                 raw_chi2 = -2.0 * float(eval_res.loglike)
             except Exception:
                 raw_chi2 = best_fun
@@ -856,15 +908,17 @@ def main():
                 for name, val in zip(model.derived_params, eval_res.derived):
                     derived_dict[name] = float(val)
                 
-                # Calculate viability score for the final point
-                v0_final = 1.0 - (final_point.get("omega_b", 0.0224) + final_point.get("omega_cdm", 0.120)) / (final_point.get("H0", 67.4) / 100.0)**2
-                v0_viol = max(0.0, -v0_final) + max(0.0, v0_final - 1.0)
-                age_final = derived_dict.get("age", 13.8)
-                age_viol = max(0.0, 12.0 - age_final) + max(0.0, age_final - 15.5)
-                xi_val = final_point.get("xi_prtoe", 1.0e-7)
-                xi_viol = max(0.0, xi_val - 1.0e-4)
-                
-                v_score = max(0.0, 100.0 - 100.0 * v0_viol - 20.0 * age_viol - 1000.0 * xi_viol)
+                # If age is not in derived_dict, try to extract it from classy provider
+                if "age" not in derived_dict:
+                    try:
+                        derived_dict["age"] = model.theory['classy'].provider.get_param('age')
+                    except Exception:
+                        try:
+                            derived_dict["age"] = model.theory['classy'].classy.age()
+                        except Exception:
+                            derived_dict["age"] = 13.8
+
+                _, v_score = evaluate_constraints(final_point, derived_dict, physical_constraints)
                 raw_chi2 = -2.0 * float(eval_res.loglike)
                 
                 likes_keys = list(model.likelihood.keys())
