@@ -308,7 +308,7 @@ def estimate_gelfand_dey_evidence(mcmc_chain, sampled_names, info):
     # Regularize covariance if it is singular or nearly singular
     if n_params == 1:
         cov = np.array([[cov]])
-    cov += np.eye(n_params) * 1e-6 * np.diag(cov)
+    cov += np.eye(n_params) * 1e-6 * np.maximum(np.diag(cov), 1e-5)
     
     try:
         inv_cov = np.linalg.inv(cov)
@@ -1593,12 +1593,12 @@ def main():
                 trf.write(txt_line)
     else:
         # Fallback to single best-fit point
-        txt_row = [1.0, 0.5 * (best_mode["chi2"] if best_mode else global_best_chi2)]
-        best_pt = best_mode["point"] if best_mode else global_best_point
-        best_derived = best_mode["derived"] if best_mode else global_best_derived_dict
-        best_logprior = float(best_mode["logprior"]) if best_mode else global_best_logprior
-        best_loglikes = best_mode.get("loglikes", global_best_loglikes)
-        best_logpost = float(best_mode["logpost"]) if best_mode else global_best_logpost
+        txt_row = [1.0, 0.5 * (best_mode["chi2"] if best_mode else (global_best_chi2 if global_best_chi2 != np.inf else 9999.0))]
+        best_pt = best_mode["point"] if best_mode else (global_best_point or {name: 0.0 for name in sampled_names})
+        best_derived = best_mode["derived"] if best_mode else (global_best_derived_dict or {})
+        best_logprior = float(best_mode["logprior"]) if best_mode else float(global_best_logprior)
+        best_loglikes = best_mode.get("loglikes", global_best_loglikes) or [0.0] * len(model.likelihood)
+        best_logpost = float(best_mode["logpost"]) if best_mode else float(global_best_logpost)
         
         for name in sampled_names:
             txt_row.append(best_pt[name])
@@ -1616,11 +1616,11 @@ def main():
 
     # 7. Write final live points file to lock in the final result
     final_live_row = []
-    best_pt = best_mode["point"] if best_mode else global_best_point
-    best_derived = best_mode["derived"] if best_mode else global_best_derived_dict
-    best_logprior = float(best_mode["logprior"]) if best_mode else global_best_logprior
-    best_loglikes = best_mode.get("loglikes", global_best_loglikes)
-    best_logpost = float(best_mode["logpost"]) if best_mode else global_best_logpost
+    best_pt = best_mode["point"] if best_mode else (global_best_point or {name: 0.0 for name in sampled_names})
+    best_derived = best_mode["derived"] if best_mode else (global_best_derived_dict or {})
+    best_logprior = float(best_mode["logprior"]) if best_mode else float(global_best_logprior)
+    best_loglikes = best_mode.get("loglikes", global_best_loglikes) or [0.0] * len(model.likelihood)
+    best_logpost = float(best_mode["logpost"]) if best_mode else float(global_best_logpost)
     
     for name in sampled_names:
         final_live_row.append(best_pt[name])
