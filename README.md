@@ -30,6 +30,13 @@ Use the provided launch scripts (easiest for most users):
 
 Docker is used under the hood for a clean environment. Your chains and data live in the local `chains/` folder and persist across runs.
 
+### 🎮 Fast Verification (Toy Mode)
+If you want to verify that the entire hybrid optimization, Hessian, MCMC, and surrogate pipeline is working without compiling the full CLASS engine or running a heavy cosmological chain, you can run the toy model test:
+```bash
+python3 run_optimizer.py --test-toy --multistart 2 --mcmc-steps 20
+```
+This runs a 4D multimodal test likelihood in seconds and outputs full diagnostics.
+
 See the detailed Quick Start section below for manual Docker options and more.
 
 ### Core Idea

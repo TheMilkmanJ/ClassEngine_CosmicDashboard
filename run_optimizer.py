@@ -5,7 +5,7 @@ import glob
 
 # Parse arguments first to get --cores before importing numpy/Cobaya
 parser = argparse.ArgumentParser()
-parser.add_argument("config_file")
+parser.add_argument("config_file", nargs="?", default=None, help="Cobaya YAML configuration file")
 parser.add_argument("--packages-path", default=None)
 parser.add_argument("--cores", type=int, default=1)
 parser.add_argument("--method", default="bobyqa", choices=["bobyqa", "powell", "nelder-mead"])
@@ -14,6 +14,7 @@ parser.add_argument("--mcmc-steps", type=int, default=100)
 parser.add_argument("--profile", default=None, help="Parameter name to profile (e.g. H0)")
 parser.add_argument("--profile-range", nargs=2, type=float, default=None, help="Min and max values for the profile scan (e.g. 67.0 74.0)")
 parser.add_argument("--profile-steps", type=int, default=8, help="Number of steps in the profile grid")
+parser.add_argument("--test-toy", action="store_true", help="Run the entire pipeline on a fast 2D toy cosmological likelihood for testing")
 args = parser.parse_args()
 
 # Set OpenMP threads to speed up CLASS evaluations
@@ -35,51 +36,109 @@ if build_dirs:
 from cobaya.model import get_model
 
 class LocalSurrogate:
-    def __init__(self, ndim, threshold_sigma=0.75):
+    """
+    Uncertainty-aware Kriging/Gaussian Process surrogate for active learning.
+    Bypasses expensive CLASS calls only when the prediction uncertainty is low.
+    """
+    def __init__(self, ndim, threshold_variance=0.04, prior_ranges=None):
         self.ndim = ndim
-        self.threshold_sigma = threshold_sigma
+        self.threshold_variance = threshold_variance
+        self.prior_ranges = prior_ranges
         self.points = []
         self.values = []
-        self.mean = None
-        self.inv_cov = None
-        self.rbf = None
         self.is_trained = False
+        
+        # GP hyperparameters
+        self.sigma_f = 1.0  # signal variance
+        self.sigma_n = 0.05 # noise level (nugget)
+        self.lengthscales = None
+        self.K_inv = None
+        self.y_centered = None
+        self.y_mean = 0.0
+        self.y_std = 1.0
+        self.pts_arr = None
 
     def add_point(self, x, val):
         self.points.append(list(x))
         self.values.append(float(val))
-        # Train/retrain when we have enough points, and periodically
-        if len(self.points) >= 25 and len(self.points) % 10 == 0:
+        # Periodic training of the GP surrogate
+        if len(self.points) >= 20 and len(self.points) % 10 == 0:
             self.train()
 
     def train(self):
         try:
-            pts = np.array(self.points)
-            vals = np.array(self.values)
-            self.mean = np.mean(pts, axis=0)
-            cov = np.cov(pts, rowvar=False)
-            if self.ndim == 1:
-                cov = np.array([[cov]])
-            # Add small regularization
-            cov += np.eye(self.ndim) * 1e-5 * (np.diag(cov) + 1e-8)
-            self.inv_cov = np.linalg.inv(cov)
+            self.pts_arr = np.array(self.points)
+            y_arr = np.array(self.values)
             
-            from scipy.interpolate import Rbf
-            # Fit RBF on the points
-            self.rbf = Rbf(*[pts[:, i] for i in range(self.ndim)], vals, function='multiquadric')
-            self.is_trained = True
-        except Exception as e:
+            # Normalize inputs and targets for numerical stability
+            self.y_mean = np.mean(y_arr)
+            self.y_std = np.std(y_arr) if np.std(y_arr) > 0 else 1.0
+            self.y_centered = (y_arr - self.y_mean) / self.y_std
+            
+            # Estimate lengthscales from the standard deviation of each parameter
+            stds = np.std(self.pts_arr, axis=0)
+            if self.prior_ranges is not None:
+                base_ls = np.array(self.prior_ranges) * 0.1
+            else:
+                base_ls = np.ones(self.ndim)
+                
+            self.lengthscales = np.zeros(self.ndim)
+            for d in range(self.ndim):
+                s = stds[d]
+                if s > 0:
+                    self.lengthscales[d] = 0.5 * (s * 2.0) + 0.5 * base_ls[d]
+                else:
+                    self.lengthscales[d] = base_ls[d]
+            # Ensure no zero lengthscale
+            self.lengthscales = np.maximum(self.lengthscales, 1e-5)
+            
+            # Build covariance matrix
+            n = len(self.points)
+            K = np.zeros((n, n))
+            for i in range(n):
+                for j in range(n):
+                    diff = (self.pts_arr[i] - self.pts_arr[j]) / self.lengthscales
+                    K[i, j] = self.sigma_f**2 * np.exp(-0.5 * np.sum(diff**2))
+            
+            # Add noise (nugget) and jitter for numerical stability
+            jitter = 1e-6
+            for attempt in range(5):
+                K_temp = K + np.eye(n) * (self.sigma_n**2 + jitter)
+                try:
+                    self.K_inv = np.linalg.inv(K_temp)
+                    self.is_trained = True
+                    break
+                except np.linalg.LinAlgError:
+                    jitter *= 10
+            else:
+                self.is_trained = False
+        except Exception:
             self.is_trained = False
 
     def predict(self, x):
-        if not self.is_trained or self.rbf is None:
+        if not self.is_trained or self.K_inv is None:
             return None
         try:
-            diff = np.array(x) - self.mean
-            dist = np.sqrt(diff.dot(self.inv_cov).dot(diff))
-            if dist <= self.threshold_sigma:
-                pred = float(self.rbf(*x))
-                return pred
+            x_arr = np.array(x)
+            n = len(self.points)
+            
+            # Compute cross-covariance vector k_*
+            k_star = np.zeros(n)
+            for i in range(n):
+                diff = (self.pts_arr[i] - x_arr) / self.lengthscales
+                k_star[i] = self.sigma_f**2 * np.exp(-0.5 * np.sum(diff**2))
+                
+            # Kriging Mean (normalized)
+            mu_norm = k_star.dot(self.K_inv).dot(self.y_centered)
+            
+            # Kriging Variance
+            var = self.sigma_f**2 - k_star.dot(self.K_inv).dot(k_star)
+            
+            # Check if uncertainty is below the threshold
+            if var < self.threshold_variance:
+                # Denormalize mean
+                pred = mu_norm * self.y_std + self.y_mean
+                return float(pred)
         except Exception:
             return None
         return None
@@ -220,6 +279,8 @@ def run_mcmc(best_x, cov, target_func, model, sampled_names, derived_names, num_
             print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [mcmc] Step {step + 1}/{num_steps} | Acceptance Rate: {acc_rate:.1f}% | Current Chi2: {chi2_curr:.4f}")
             sys.stdout.flush()
             
+    return chain
+            
 def estimate_gelfand_dey_evidence(mcmc_chain, sampled_names, info):
     if not mcmc_chain or len(mcmc_chain) < 20:
         return None
@@ -339,42 +400,140 @@ def evaluate_constraints(point_dict, derived_dict, physical_constraints):
     viability_score = max(0.0, min(100.0, viability_score))
     return total_penalty, viability_score
 
-def main():
-    config_path = os.path.abspath(args.config_file)
-    
-    # Load configuration
-    with open(config_path, "r") as f:
-        info = yaml.safe_load(f)
+class ToyCosmoModel:
+    """
+    Mock Cobaya Model for rapid pipeline testing and verification.
+    Bypasses CLASS/Cobaya and evaluates a 4D multimodal likelihood over H0, xi_prtoe, omega_b, and omega_cdm.
+    """
+    def __init__(self):
+        self.derived_params = ["age", "sigma8", "S8", "V0_prtoe", "A_s"]
+        self.likelihood = {"planck_2018_lowl.TT": 0.0, "sn.pantheonplusshoes": 0.0}
+        
+    def logposterior(self, point_dict):
+        h0 = point_dict.get("H0", 67.4)
+        xi = point_dict.get("xi_prtoe", 1e-7)
+        omega_b = point_dict.get("omega_b", 0.0224)
+        omega_cdm = point_dict.get("omega_cdm", 0.120)
+        
+        # Mode 1 (Planck-like): peak at H0=67.4, xi=1e-7, omega_b=0.0224, omega_cdm=0.120
+        chi2_1 = ((h0 - 67.4) / 0.5)**2 + ((np.log10(xi) - (-7.0)) / 0.3)**2 + \
+                 ((omega_b - 0.0224) / 0.0005)**2 + ((omega_cdm - 0.120) / 0.003)**2 + 10.0
+        
+        # Mode 2 (SH0ES-like): peak at H0=73.0, xi=5e-6, omega_b=0.0226, omega_cdm=0.118
+        chi2_2 = ((h0 - 73.0) / 0.8)**2 + ((np.log10(xi) - (-5.3)) / 0.4)**2 + \
+                 ((omega_b - 0.0226) / 0.0006)**2 + ((omega_cdm - 0.118) / 0.004)**2 + 12.0
+        
+        # Combine modes using smooth min (log-sum-exp)
+        raw_chi2 = -2.0 * np.log(np.exp(-0.5 * chi2_1) + np.exp(-0.5 * chi2_2))
+        
+        # Derived parameters
+        age = 13.8 - 0.1 * (h0 - 67.4)
+        sigma8 = 0.8 - 0.05 * (np.log10(xi) - (-7.0))
+        s8 = sigma8 * np.sqrt(0.3)
+        v0 = 1.0 - (omega_b + omega_cdm) / (h0 / 100.0)**2
+        as_val = 2e-9
+        
+        class MockResult:
+            def __init__(self, chi2, age, sigma8, s8, v0, as_val):
+                self.logpost = -0.5 * chi2
+                self.loglike = -0.5 * chi2
+                self.logprior = 0.0
+                self.loglikes = [-0.5 * chi2, -0.5 * chi2]
+                self.derived = [age, sigma8, s8, v0, as_val]
+                
+        return MockResult(raw_chi2, age, sigma8, s8, v0, as_val)
 
-    # Load physical constraints from configuration or fall back to default PRTOE ones
-    physical_constraints = info.get("physical_constraints")
-    if physical_constraints is None:
+def main():
+    if args.test_toy:
+        print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Running in --test-toy mode on a fast 4D cosmological likelihood.")
+        sys.stdout.flush()
+        info = {
+            "output": "chains/toy_test",
+            "params": {
+                "H0": {
+                    "prior": {"min": 55.0, "max": 85.0},
+                    "ref": 67.4,
+                    "proposal": 0.5
+                },
+                "xi_prtoe": {
+                    "prior": {"min": 1e-7, "max": 1e-4},
+                    "ref": 1e-6,
+                    "proposal": 1e-7
+                },
+                "omega_b": {
+                    "prior": {"min": 0.018, "max": 0.026},
+                    "ref": 0.0224,
+                    "proposal": 0.0005
+                },
+                "omega_cdm": {
+                    "prior": {"min": 0.08, "max": 0.20},
+                    "ref": 0.120,
+                    "proposal": 0.003
+                }
+            }
+        }
         physical_constraints = [
             {
-                "name": "V0_prtoe",
-                "expression": "1.0 - (omega_b + omega_cdm) / (H0/100)**2",
-                "min": 0.0,
-                "max": 1.0,
+                "name": "H0_screened_range",
+                "expression": "H0",
+                "min": 60.0,
+                "max": 80.0,
                 "weight": 500.0
             },
             {
-                "name": "age_universe",
-                "derived": "age",
-                "min": 12.0,
-                "max": 15.5,
-                "weight": 20.0
+                "name": "omega_b_physical",
+                "expression": "omega_b",
+                "min": 0.020,
+                "max": 0.025,
+                "weight": 800.0
             },
             {
-                "name": "xi_prtoe_stability",
-                "expression": "xi_prtoe",
-                "min": -1e9,
-                "max": 1.0e-4,
-                "weight": 1000.0
+                "name": "V0_prtoe_physical",
+                "derived": "V0_prtoe",
+                "min": 0.65,
+                "max": 0.85,
+                "weight": 600.0
             }
         ]
     else:
-        print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Loaded {len(physical_constraints)} custom model-agnostic physical constraints from configuration.")
-        sys.stdout.flush()
+        if not args.config_file:
+            print("Error: config_file is required unless running in --test-toy mode.")
+            sys.exit(1)
+        config_path = os.path.abspath(args.config_file)
+        
+        # Load configuration
+        with open(config_path, "r") as f:
+            info = yaml.safe_load(f)
+
+        # Load physical constraints from configuration or fall back to default PRTOE ones
+        physical_constraints = info.get("physical_constraints")
+        if physical_constraints is None:
+            physical_constraints = [
+                {
+                    "name": "V0_prtoe",
+                    "expression": "1.0 - (omega_b + omega_cdm) / (H0/100)**2",
+                    "min": 0.0,
+                    "max": 1.0,
+                    "weight": 500.0
+                },
+                {
+                    "name": "age_universe",
+                    "derived": "age",
+                    "min": 12.0,
+                    "max": 15.5,
+                    "weight": 20.0
+                },
+                {
+                    "name": "xi_prtoe_stability",
+                    "expression": "xi_prtoe",
+                    "min": -1e9,
+                    "max": 1.0e-4,
+                    "weight": 1000.0
+                }
+            ]
+        else:
+            print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Loaded {len(physical_constraints)} custom model-agnostic physical constraints from configuration.")
+            sys.stdout.flush()
 
     # Get output prefix
     output_prefix = info.get("output")
@@ -396,7 +555,10 @@ def main():
     # Keep backup of sampler settings but delete it to initialize pure model
     sampler_info = info.pop("sampler", {})
 
-    model = get_model(info)
+    if args.test_toy:
+        model = ToyCosmoModel()
+    else:
+        model = get_model(info)
 
     # Identify sampled parameters
     sampled_names = []
@@ -467,9 +629,15 @@ def main():
     active_surrogate = None
     surrogate_evals = 0
     unphysical_points = []  # Stores points where viability was 0%
+    mcmc_surrogate_hits = 0
+    mcmc_total_calls = 0
+    in_mcmc = False
     
     def target_function(x):
-        nonlocal global_best_chi2, global_best_point, global_best_logprior, global_best_logpost, global_best_loglikes, global_best_derived_dict, eval_count, surrogate_evals
+        nonlocal global_best_chi2, global_best_point, global_best_logprior, global_best_logpost, global_best_loglikes, global_best_derived_dict, eval_count, surrogate_evals, mcmc_surrogate_hits, mcmc_total_calls
+        
+        if in_mcmc:
+            mcmc_total_calls += 1
         
         # 1. Early Prior Rejection (Zero-cost bounds check)
         for name, val, (low, high) in zip(sampled_names, x, bounds):
@@ -489,6 +657,8 @@ def main():
             pred_val = active_surrogate.predict(x)
             if pred_val is not None:
                 surrogate_evals += 1
+                if in_mcmc:
+                    mcmc_surrogate_hits += 1
                 if surrogate_evals % 50 == 0:
                     print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [surrogate] Evaluation bypassed using local RBF model (total bypasses: {surrogate_evals})")
                     sys.stdout.flush()
@@ -1195,19 +1365,39 @@ def main():
         # Run Metropolis-Hastings MCMC if requested
         if args.mcmc_steps > 0:
             try:
+                # Compute prior ranges for lengthscale adaptation
+                prior_ranges = []
+                for name in sampled_names:
+                    prior = info["params"][name].get("prior", {})
+                    if "min" in prior and "max" in prior:
+                        prior_ranges.append(float(prior["max"]) - float(prior["min"]))
+                    else:
+                        prior_ranges.append(1.0)
+                
                 # Initialize local surrogate pre-trained on all evaluation cache
-                mode_surrogate = LocalSurrogate(n_params)
+                mode_surrogate = LocalSurrogate(n_params, prior_ranges=prior_ranges)
                 for k_arr, val in eval_cache.items():
                     mode_surrogate.add_point(list(k_arr), val)
                 
                 active_surrogate = mode_surrogate
                 surrogate_evals = 0
                 
+                # Turn on MCMC tracking
+                in_mcmc = True
+                mcmc_surrogate_hits = 0
+                mcmc_total_calls = 0
+                
                 # Run MCMC
                 chain = run_mcmc(um_x, cov, target_function, model, sampled_names, derived_names, args.mcmc_steps)
-                um["mcmc_chain"] = chain
+                um["mcmc_chain"] = chain if chain is not None else []
                 
+                # Turn off MCMC tracking
+                in_mcmc = False
                 active_surrogate = None  # Reset surrogate
+                
+                # Compute and store surrogate hit rate
+                hit_rate = (mcmc_surrogate_hits / mcmc_total_calls * 100.0) if mcmc_total_calls > 0 else 0.0
+                um["surrogate_hit_rate"] = hit_rate
                 
                 # Estimate Gelfand-Dey evidence from the chain
                 log_z_gd = estimate_gelfand_dey_evidence(chain, sampled_names, info)
@@ -1450,6 +1640,27 @@ def main():
     info_to_write["output"] = output_prefix
     with open(updated_yaml_path, "w") as yf:
         yaml.safe_dump(info_to_write, yf)
+
+    # 9. Print a clean one-page results summary
+    print("\n" + "="*80)
+    print(" 🌟 HYBRID COSMO OPTIMIZER RUN SUMMARY")
+    print("="*80)
+    print(f"  Number of Unique Modes Found : {len(unique_modes)}")
+    print(f"  Combined Evidence ln(Z)      : {log_z_combined:.4f}")
+    print(f"  Exploration Viability Health : {total_starts - failed_starts}/{total_starts} starts viable ({((total_starts - failed_starts)/total_starts*100.0):.1f}%)")
+    print("-"*80)
+    print("  MODE DIAGNOSTICS & SURROGATE HIT RATES:")
+    for um in unique_modes:
+        hit_rate_str = f"{um.get('surrogate_hit_rate', 0.0):.1f}%" if "surrogate_hit_rate" in um else "N/A"
+        print(f"   * {um['name']:<20} | ln(Z) = {um['log_z']:.4f} | Viability = {um['viability_score']:.1f}% | Surrogate Hit Rate = {hit_rate_str} | Stability = {um['stability']:.1f}%")
+    
+    if len(unique_modes) >= 2 and tension_results:
+        print("-"*80)
+        print("  MODE PARAMETER TENSIONS:")
+        for tr in tension_results:
+            print(f"   * {tr['mode1']} vs {tr['mode2']} | {tr['param']:<15} : {tr['value']:.2f} \u03c3")
+    print("="*80 + "\n")
+    sys.stdout.flush()
 
     print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Results successfully written to {stats_file}")
     print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Chain file successfully written to {txt_file}")
