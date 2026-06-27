@@ -34,6 +34,56 @@ if build_dirs:
 
 from cobaya.model import get_model
 
+class LocalSurrogate:
+    def __init__(self, ndim, threshold_sigma=0.75):
+        self.ndim = ndim
+        self.threshold_sigma = threshold_sigma
+        self.points = []
+        self.values = []
+        self.mean = None
+        self.inv_cov = None
+        self.rbf = None
+        self.is_trained = False
+
+    def add_point(self, x, val):
+        self.points.append(list(x))
+        self.values.append(float(val))
+        # Train/retrain when we have enough points, and periodically
+        if len(self.points) >= 25 and len(self.points) % 10 == 0:
+            self.train()
+
+    def train(self):
+        try:
+            pts = np.array(self.points)
+            vals = np.array(self.values)
+            self.mean = np.mean(pts, axis=0)
+            cov = np.cov(pts, rowvar=False)
+            if self.ndim == 1:
+                cov = np.array([[cov]])
+            # Add small regularization
+            cov += np.eye(self.ndim) * 1e-5 * (np.diag(cov) + 1e-8)
+            self.inv_cov = np.linalg.inv(cov)
+            
+            from scipy.interpolate import Rbf
+            # Fit RBF on the points
+            self.rbf = Rbf(*[pts[:, i] for i in range(self.ndim)], vals, function='multiquadric')
+            self.is_trained = True
+        except Exception as e:
+            self.is_trained = False
+
+    def predict(self, x):
+        if not self.is_trained or self.rbf is None:
+            return None
+        try:
+            diff = np.array(x) - self.mean
+            dist = np.sqrt(diff.dot(self.inv_cov).dot(diff))
+            if dist <= self.threshold_sigma:
+                pred = float(self.rbf(*x))
+                return pred
+        except Exception:
+            return None
+        return None
+
 def compute_covariance(best_x, target_func, sampled_names, info):
     n = len(sampled_names)
     hessian = np.zeros((n, n))
@@ -412,9 +462,14 @@ def main():
 
     # Simple evaluation cache to speed up duplicate/near-duplicate evaluations (cheap surrogate)
     eval_cache = {}
-
+    
+    # Advanced Local Surrogate model & unphysical tracking
+    active_surrogate = None
+    surrogate_evals = 0
+    unphysical_points = []  # Stores points where viability was 0%
+    
     def target_function(x):
-        nonlocal global_best_chi2, global_best_point, global_best_logprior, global_best_logpost, global_best_loglikes, global_best_derived_dict, eval_count
+        nonlocal global_best_chi2, global_best_point, global_best_logprior, global_best_logpost, global_best_loglikes, global_best_derived_dict, eval_count, surrogate_evals
         
         # 1. Early Prior Rejection (Zero-cost bounds check)
         for name, val, (low, high) in zip(sampled_names, x, bounds):
@@ -429,7 +484,17 @@ def main():
             if early_penalty > 1e-4:
                 return 1e10 + early_penalty
 
-        # 3. Check evaluation cache (surrogate cache)
+        # 3. Check Local Surrogate Model (GP/RBF)
+        if active_surrogate is not None:
+            pred_val = active_surrogate.predict(x)
+            if pred_val is not None:
+                surrogate_evals += 1
+                if surrogate_evals % 50 == 0:
+                    print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [surrogate] Evaluation bypassed using local RBF model (total bypasses: {surrogate_evals})")
+                    sys.stdout.flush()
+                return pred_val
+
+        # 4. Check evaluation cache (surrogate cache)
         # Round parameters to 5 decimal places to catch near-duplicates
         cache_key = tuple(round(float(v), 5) for v in x)
         if cache_key in eval_cache:
@@ -524,6 +589,14 @@ def main():
                     lf.write("  ".join(f"{v:.15E}" for v in row_values) + "\n")
                     
                 print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] New best fit found! Raw Chi2 = {raw_chi2:.4f}, Penalized = {chi2_penalized:.4f}, Viability = {viability_score:.1f}%")
+
+            # Track unphysical points (viability is 0%) to map out unphysical wedges
+            if viability_score <= 0.0:
+                unphysical_points.append(list(x))
+
+            # Add to local surrogate if active
+            if active_surrogate is not None:
+                active_surrogate.add_point(x, chi2_penalized)
 
             sys.stdout.flush()
             eval_cache[cache_key] = chi2_penalized
@@ -1047,33 +1120,141 @@ def main():
             print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Multimodal comparison written to {comp_file}")
             sys.stdout.flush()
 
-    # 1. Compute diagonal errors for all unique modes to enable tension metrics
-    print(f"\n {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Computing parameter error bars for all unique modes...")
+    # 1. Process each unique mode for Hessian, MCMC, and Gelfand-Dey evidence
+    print(f"\n {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Processing {len(unique_modes)} unique modes for error bars and MCMC...")
     sys.stdout.flush()
     
+    total_starts = args.multistart
+    # Health Diagnostics: count how many starting points ended up with 0% viability
+    failed_starts = sum(1 for r in mode_results if r.get("viability_score", 100.0) <= 0.0)
+    
+    # Calculate mode stability (basin fraction) and isolation index
+    xl = [b[0] for b in bounds]
+    xu = [b[1] for b in bounds]
     for um in unique_modes:
+        # Count how many starting points clustered into this mode
+        basin_count = 0
+        for mr in mode_results:
+            dist = 0.0
+            for i, name in enumerate(sampled_names):
+                val1 = mr["point"][name]
+                val2 = um["point"][name]
+                range_i = xu[i] - xl[i]
+                if range_i > 0:
+                    dist += ((val1 - val2) / range_i) ** 2
+            if np.sqrt(dist) < 0.05:
+                basin_count += 1
+        um["stability"] = (basin_count / len(mode_results)) * 100.0
+
+        # Calculate isolation index (distance to nearest other mode)
+        nearest_dist = np.inf
+        for other in unique_modes:
+            if other["name"] == um["name"]:
+                continue
+            dist = 0.0
+            for i, name in enumerate(sampled_names):
+                val1 = um["point"][name]
+                val2 = other["point"][name]
+                range_i = xu[i] - xl[i]
+                if range_i > 0:
+                    dist += ((val1 - val2) / range_i) ** 2
+            dist = np.sqrt(dist)
+            if dist < nearest_dist:
+                nearest_dist = dist
+        um["isolation"] = nearest_dist if nearest_dist != np.inf else -1.0
+
+    # Process MCMC and evidence for each mode
+    for idx, um in enumerate(unique_modes):
+        print(f"\n" + "-"*80)
+        print(f" ANALYZING MODE {idx + 1}: {um['name']}")
+        print(f"   Peak Raw Chi2: {um['chi2']:.4f} | Stability: {um['stability']:.1f}% | Isolation: {um['isolation']:.3f}")
+        print(f"-"*80)
+        sys.stdout.flush()
+        
         um_x = [um["point"][name] for name in sampled_names]
-        um_f = um["chi2"]
-        um["errors"] = {}
-        for i, name in enumerate(sampled_names):
-            prior = info["params"][name].get("prior", {})
-            if "min" in prior and "max" in prior:
-                h = 0.01 * (float(prior["max"]) - float(prior["min"]))
-            else:
-                h = 0.01 * max(1e-4, abs(um_x[i]))
+        
+        # Compute covariance matrix from Hessian
+        cov, hessian = compute_covariance(um_x, target_function, sampled_names, info)
+        um["cov"] = cov
+        um["hessian"] = hessian
+        
+        # Compute Laplace evidence for this mode
+        sign, logdet = np.linalg.slogdet(hessian)
+        n_params = len(sampled_names)
+        if sign > 0:
+            um["log_z_laplace"] = -0.5 * um["chi2"] + 0.5 * n_params * np.log(4.0 * np.pi) - 0.5 * logdet
+        else:
+            um["log_z_laplace"] = -0.5 * um["chi2"]
             
-            def single_param_target(val):
-                temp_x = list(um_x)
-                temp_x[i] = val
-                return target_function(temp_x)
+        um["log_z"] = um["log_z_laplace"]  # default
+        um["mcmc_chain"] = []
+        um["ess"] = {}
+        um["mcmc_acc_rate"] = 0.0
+        um["evidence_method"] = "Laplace (Hessian)"
+        
+        # Run Metropolis-Hastings MCMC if requested
+        if args.mcmc_steps > 0:
+            try:
+                # Initialize local surrogate pre-trained on all evaluation cache
+                mode_surrogate = LocalSurrogate(n_params)
+                for k_arr, val in eval_cache.items():
+                    mode_surrogate.add_point(list(k_arr), val)
                 
-            f_plus = single_param_target(um_x[i] + h)
-            f_minus = single_param_target(um_x[i] - h)
-            d2f = (f_plus - 2.0 * um_f + f_minus) / (h ** 2)
-            if d2f > 0:
-                um["errors"][name] = np.sqrt(2.0 / d2f)
-            else:
-                um["errors"][name] = 0.0
+                active_surrogate = mode_surrogate
+                surrogate_evals = 0
+                
+                # Run MCMC
+                chain = run_mcmc(um_x, cov, target_function, model, sampled_names, derived_names, args.mcmc_steps)
+                um["mcmc_chain"] = chain
+                
+                active_surrogate = None  # Reset surrogate
+                
+                # Estimate Gelfand-Dey evidence from the chain
+                log_z_gd = estimate_gelfand_dey_evidence(chain, sampled_names, info)
+                if log_z_gd is not None:
+                    print(f" [mode-{idx+1}] Estimated Gelfand-Dey Evidence: {log_z_gd:.4f} (Laplace was: {um['log_z_laplace']:.4f})")
+                    um["log_z"] = log_z_gd
+                    um["evidence_method"] = "Gelfand-Dey (MCMC)"
+                else:
+                    print(f" [mode-{idx+1}] Warning: Gelfand-Dey failed. Using Laplace evidence.")
+                    
+                # Calculate MCMC-based errors and ESS
+                um["errors"] = {}
+                for name in sampled_names:
+                    samples = [row["point"][name] for row in chain]
+                    um["errors"][name] = float(np.std(samples))
+                    
+                    # Estimate ESS
+                    samples_centered = np.array(samples) - np.mean(samples)
+                    var = np.var(samples)
+                    if var > 0:
+                        rho = []
+                        for lag in range(1, min(15, len(samples)//4)):
+                            c = np.mean(samples_centered[:-lag] * samples_centered[lag:])
+                            rho.append(c / var)
+                        ess = len(samples) / (1.0 + 2.0 * sum(rho))
+                        um["ess"][name] = max(1.0, float(ess))
+                    else:
+                        um["ess"][name] = 1.0
+                        
+                # Compute acceptance rate
+                unique_points = len(set(tuple(row["point"].values()) for row in chain))
+                um["mcmc_acc_rate"] = (unique_points / len(chain)) * 100.0
+                
+            except Exception as e:
+                print(f" [mode-{idx+1}] Warning: MCMC/Evidence run failed: {e}")
+                sys.stdout.flush()
+                # Fallback to Hessian-based diagonal errors
+                um["errors"] = {}
+                for i, name in enumerate(sampled_names):
+                    err_val = np.sqrt(max(1e-20, cov[i, i]))
+                    um["errors"][name] = err_val
+        else:
+            # Fallback to Hessian-based diagonal errors
+            um["errors"] = {}
+            for i, name in enumerate(sampled_names):
+                err_val = np.sqrt(max(1e-20, cov[i, i]))
+                um["errors"][name] = err_val
 
     # 2. Compute tension metrics between unique modes
     tension_results = []
@@ -1105,90 +1286,108 @@ def main():
         print("="*80 + "\n")
         sys.stdout.flush()
 
-        # Append tension metrics to the comparison file
-        comp_file = f"{output_prefix}_modes_comparison.txt"
-        with open(comp_file, "a") as cf:
-            cf.write("\nTension Metrics:\n")
+    # 3. Compute Combined Multimodal Bayesian Evidence
+    if len(unique_modes) > 0:
+        log_z_values = [um["log_z"] for um in unique_modes]
+        max_logz = np.max(log_z_values)
+        log_z_combined = max_logz + np.log(np.sum(np.exp(log_z_values - max_logz)))
+    else:
+        log_z_combined = -0.5 * best_overall_start_chi2
+        
+    print("\n" + "="*80)
+    print(" MULTIMODAL BAYESIAN EVIDENCE SUMMARY")
+    print("="*80)
+    print(f" Combined Multimodal Evidence ln(Z) = {log_z_combined:.4f}")
+    for um in unique_modes:
+        print(f"   * {um['name']:<20} | ln(Z) = {um['log_z']:.4f} ({um['evidence_method']}) | Stability = {um['stability']:.1f}%")
+    print(f"   * Health Diagnostics: {failed_starts}/{total_starts} starts failed physical constraints ({failed_starts/total_starts*100.0:.1f}%)")
+    print("="*80 + "\n")
+    sys.stdout.flush()
+
+    # 4. Write modes comparison to comparison file (including new advanced diagnostics)
+    comp_file = f"{output_prefix}_modes_comparison.txt"
+    with open(comp_file, "w") as cf:
+        cf.write("MULTIMODAL COSMOLOGICAL EXPLORATION COMPARISON\n")
+        cf.write("==============================================\n\n")
+        cf.write(f"Combined Multimodal Evidence ln(Z) : {log_z_combined:.4f}\n")
+        cf.write(f"Unphysical Exploration Health      : {total_starts - failed_starts}/{total_starts} starts viable ({((total_starts - failed_starts)/total_starts*100.0):.1f}%)\n\n")
+        
+        for um in unique_modes:
+            cf.write(f"Mode: {um['name']}\n")
+            cf.write(f"----------------------------------------------\n")
+            cf.write(f"Raw Data Chi2: {um['chi2']:.4f}\n")
+            cf.write(f"Penalized Chi2: {um['penalized_chi2']:.4f}\n")
+            cf.write(f"Viability Score: {um['viability_score']:.1f}%\n")
+            cf.write(f"Mode Stability (Basin Size): {um['stability']:.1f}%\n")
+            cf.write(f"Mode Isolation Index: {um['isolation']:.3f}\n")
+            cf.write(f"Mode Evidence ln(Z): {um['log_z']:.4f} ({um['evidence_method']})\n")
+            cf.write(f"MCMC Acceptance Rate: {um['mcmc_acc_rate']:.1f}%\n")
+            cf.write("Parameters:\n")
+            for p_name, p_val in um['point'].items():
+                err_val = um['errors'].get(p_name, 0.0)
+                ess_val = um.get('ess', {}).get(p_name, -1.0)
+                ess_str = f" [ESS: {ess_val:.1f}]" if ess_val > 0 else ""
+                cf.write(f"  {p_name:<20}: {p_val:.6e} +/- {err_val:.6e}{ess_str}\n")
+            cf.write("Derived & Physical Metrics:\n")
+            h0_val = um['point'].get("H0", um['derived'].get("H0", 67.4))
+            omega_b = um['point'].get("omega_b", 0.0224)
+            omega_cdm = um['point'].get("omega_cdm", 0.120)
+            v0_val = 1.0 - (omega_b + omega_cdm) / (h0_val / 100.0)**2
+            cf.write(f"  H0                  : {h0_val:.3f}\n")
+            cf.write(f"  V0_prtoe            : {v0_val:.4f} ({'PHYSICALLY VIABLE' if 0<=v0_val<=1 else 'UNPHYSICAL'})\n")
+            cf.write(f"  sigma8              : {um['derived'].get('sigma8', 0.0):.4f}\n")
+            cf.write(f"  S8                  : {um['derived'].get('S8', 0.0):.4f}\n")
+            cf.write("Likelihood Breakdown:\n")
+            for l_name, l_chi2 in um['likes'].items():
+                cf.write(f"  {l_name:<25}: {l_chi2:.4f}\n")
+            cf.write("\n")
+            
+        if tension_results:
+            cf.write("Tension Metrics:\n")
             for tr in tension_results:
                 cf.write(f"  {tr['mode1']} vs {tr['mode2']} | {tr['param']} : {tr['value']:.2f}\n")
-
-    # 3. Estimate parameter errors using the full covariance matrix (Laplace approximation)
-    print(f"\n {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Estimating parameter errors from full covariance matrix...")
-    sys.stdout.flush()
-    
-    # Snapshot eval_count before error bar loop to avoid pollution
-    eval_count_before_errors = eval_count
-    
-    best_x = best_overall_start_x
-    cov, hessian = compute_covariance(best_x, target_function, sampled_names, info)
-    
-    errors = {}
-    print(f"\n {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Parameter Estimates (Laplace approximation):")
-    for i, name in enumerate(sampled_names):
-        err = np.sqrt(max(1e-20, cov[i, i]))
-        errors[name] = err
-        print(f"   {name}: {best_x[i]:.6f} ± {err:.6f}")
+                
+    print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Multimodal comparison written to {comp_file}")
     sys.stdout.flush()
 
-    # 4. Compute Laplace Bayesian Evidence
-    n_params = len(sampled_names)
-    sign, logdet = np.linalg.slogdet(hessian)
-    best_raw_chi2 = min(um["chi2"] for um in unique_modes) if unique_modes else best_overall_start_chi2
-    if sign > 0:
-        log_z_laplace = -0.5 * best_raw_chi2 + 0.5 * n_params * np.log(4.0 * np.pi) - 0.5 * logdet
-        print(f" [optimizer] Estimated Laplace Bayesian Evidence ln(Z) = {log_z_laplace:.4f}")
-    else:
-        log_z_laplace = -0.5 * best_raw_chi2
-        print(f" [optimizer] Warning: Hessian is not positive-definite, falling back to peak posterior for evidence.")
-    sys.stdout.flush()
-
-    # Run Metropolis-Hastings MCMC to get proper uncertainty estimation and marginalized contours
-    mcmc_chain = []
-    if args.mcmc_steps > 0:
-        try:
-            mcmc_chain = run_mcmc(best_x, cov, target_function, model, sampled_names, derived_names, args.mcmc_steps)
-            
-            # Estimate Gelfand-Dey evidence from the MCMC chain
-            log_z_gd = estimate_gelfand_dey_evidence(mcmc_chain, sampled_names, info)
-            if log_z_gd is not None:
-                print(f" [mcmc] Estimated Gelfand-Dey Bayesian Evidence ln(Z) = {log_z_gd:.4f}")
-                log_z_laplace = log_z_gd  # Override Laplace evidence with the more robust MCMC-based estimate!
-            else:
-                print(f" [mcmc] Warning: could not estimate Gelfand-Dey evidence (insufficient samples or singular covariance).")
-            sys.stdout.flush()
-        except Exception as e:
-            print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [mcmc] Warning: MCMC run failed: {e}")
-            sys.stdout.flush()
-
-    # 1. Write the completed stats file (with correct syntax so dashboard parses it)
+    # 5. Write the completed stats file (using best mode's errors and combined evidence)
     stats_file = f"{output_prefix}.stats"
     stats_raw_file = os.path.join(polychord_raw_dir, f"{os.path.basename(output_prefix)}.stats")
     
+    best_mode = unique_modes[0] if unique_modes else None
+    best_x = [best_mode["point"][name] for name in sampled_names] if best_mode else best_overall_start_x
+    best_errors = best_mode["errors"] if best_mode else {}
+    
+    # Calculate total dead points (eval_count before errors + MCMC chains of all modes)
+    total_dead = eval_count
+    for um in unique_modes:
+        total_dead += len(um.get("mcmc_chain", []))
+        
     stats_content = (
         "# Optimizer Run completed successfully.\n"
-        f"log(Z) = {log_z_laplace:.4f} +/- 0.1\n"
-        f"ndead: {eval_count_before_errors + len(mcmc_chain)}\n"
+        f"log(Z) = {log_z_combined:.4f} +/- 0.1\n"
+        f"ndead: {total_dead}\n"
         f"nlive: 1\n\n"
         "parameter   best-fit    error\n"
     )
     for i, name in enumerate(sampled_names):
-        err_val = errors.get(name, 0.0)
+        err_val = best_errors.get(name, 0.0)
         stats_content += f"{name}    {best_x[i]:.6f}    {err_val:.6f}\n"
 
-    # Write stats to both standard locations
     with open(stats_file, "w") as sf:
         sf.write(stats_content)
     with open(stats_raw_file, "w") as sf:
         sf.write(stats_content)
 
-    # 2. Write the .txt chain file representing either the MCMC chain or the best-fit point (essential for dashboard tables and contours)
+    # 6. Write the .txt chain file of the primary (highest-posterior) mode for plotting
     txt_file = f"{output_prefix}.txt"
     txt_raw_file = os.path.join(polychord_raw_dir, f"{os.path.basename(output_prefix)}.txt")
     
-    if mcmc_chain:
-        print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Writing {len(mcmc_chain)} MCMC samples to chain files...")
+    primary_mcmc = best_mode.get("mcmc_chain", []) if best_mode else []
+    if primary_mcmc:
+        print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Writing {len(primary_mcmc)} MCMC samples of primary mode to chain files...")
         with open(txt_file, "w") as tf, open(txt_raw_file, "w") as trf:
-            for row in mcmc_chain:
+            for row in primary_mcmc:
                 txt_row = [row["weight"], row["minuslogpost"]]
                 for name in sampled_names:
                     txt_row.append(row["point"][name])
@@ -1203,40 +1402,49 @@ def main():
                 tf.write(txt_line)
                 trf.write(txt_line)
     else:
-        # Fallback to single best-fit point if MCMC was not run
-        txt_row = [1.0, 0.5 * global_best_chi2]
+        # Fallback to single best-fit point
+        txt_row = [1.0, 0.5 * (best_mode["chi2"] if best_mode else global_best_chi2)]
+        best_pt = best_mode["point"] if best_mode else global_best_point
+        best_derived = best_mode["derived"] if best_mode else global_best_derived_dict
+        best_logprior = float(best_mode["logprior"]) if best_mode else global_best_logprior
+        best_loglikes = best_mode.get("loglikes", global_best_loglikes)
+        best_logpost = float(best_mode["logpost"]) if best_mode else global_best_logpost
+        
         for name in sampled_names:
-            txt_row.append(global_best_point[name])
+            txt_row.append(best_pt[name])
         for name in derived_names:
-            txt_row.append(global_best_derived_dict.get(name, 0.0))
-        txt_row.append(global_best_logprior)
-        for val in global_best_loglikes:
+            txt_row.append(best_derived.get(name, 0.0))
+        txt_row.append(best_logprior)
+        for val in best_loglikes:
             txt_row.append(val)
-        txt_row.append(global_best_logpost - global_best_logprior)
+        txt_row.append(best_logpost - best_logprior)
             
         txt_line = "  ".join(f"{v:.15E}" for v in txt_row) + "\n"
-        
-        with open(txt_file, "w") as tf:
+        with open(txt_file, "w") as tf, open(txt_raw_file, "w") as trf:
             tf.write(txt_line)
-        with open(txt_raw_file, "w") as tf:
-            tf.write(txt_line)
+            trf.write(txt_line)
 
-    # 3. Write final live points file to lock in the final result
-    # Format: sampled + derived + logprior + likes + total_loglike
+    # 7. Write final live points file to lock in the final result
     final_live_row = []
+    best_pt = best_mode["point"] if best_mode else global_best_point
+    best_derived = best_mode["derived"] if best_mode else global_best_derived_dict
+    best_logprior = float(best_mode["logprior"]) if best_mode else global_best_logprior
+    best_loglikes = best_mode.get("loglikes", global_best_loglikes)
+    best_logpost = float(best_mode["logpost"]) if best_mode else global_best_logpost
+    
     for name in sampled_names:
-        final_live_row.append(global_best_point[name])
+        final_live_row.append(best_pt[name])
     for name in derived_names:
-        final_live_row.append(global_best_derived_dict.get(name, 0.0))
-    final_live_row.append(global_best_logprior)
-    for val in global_best_loglikes:
+        final_live_row.append(best_derived.get(name, 0.0))
+    final_live_row.append(best_logprior)
+    for val in best_loglikes:
         final_live_row.append(val)
-    final_live_row.append(global_best_logpost - global_best_logprior)
+    final_live_row.append(best_logpost - best_logprior)
     
     with open(live_points_file, "w") as lf:
         lf.write("  ".join(f"{v:.15E}" for v in final_live_row) + "\n")
 
-    # 4. Copy current model config to .updated.yaml so dashboard parses parameter definitions
+    # 8. Copy current model config to .updated.yaml so dashboard parses parameter definitions
     updated_yaml_path = f"{output_prefix}.updated.yaml"
     info_to_write = dict(info)
     info_to_write["output"] = output_prefix

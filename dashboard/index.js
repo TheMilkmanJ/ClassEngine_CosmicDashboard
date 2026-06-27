@@ -1001,6 +1001,54 @@ async function fetchMultimodalComparison() {
                 });
                 html += `</tr>`;
             }
+
+            // Row for Mode Stability
+            let hasStability = data.modes.some(mode => mode.stability !== undefined && mode.stability !== null);
+            if (hasStability) {
+                html += `<tr style="border-bottom: 1px solid rgba(255,255,255,0.05); background: rgba(0, 210, 211, 0.05);">
+                            <td style="padding: 6px; font-weight: bold; border-right: 1px solid rgba(255,255,255,0.05); color: #00d2d3;">Mode Stability (Basin)</td>`;
+                data.modes.forEach(mode => {
+                    const stab = mode.stability;
+                    html += `<td style="padding: 6px; text-align: center; border-right: 1px solid rgba(255,255,255,0.05); font-weight: bold; color: #00d2d3;">${stab ? stab : '-'}</td>`;
+                });
+                html += `</tr>`;
+            }
+
+            // Row for Isolation Index
+            let hasIsolation = data.modes.some(mode => mode.isolation !== undefined && mode.isolation !== null);
+            if (hasIsolation) {
+                html += `<tr style="border-bottom: 1px solid rgba(255,255,255,0.05); background: rgba(241, 196, 15, 0.05);">
+                            <td style="padding: 6px; font-weight: bold; border-right: 1px solid rgba(255,255,255,0.05); color: #f1c40f;">Isolation Index</td>`;
+                data.modes.forEach(mode => {
+                    const isol = mode.isolation;
+                    html += `<td style="padding: 6px; text-align: center; border-right: 1px solid rgba(255,255,255,0.05); font-weight: bold; color: #f1c40f;">${isol ? (parseFloat(isol) < 0 ? 'N/A (Single Mode)' : parseFloat(isol).toFixed(3)) : '-'}</td>`;
+                });
+                html += `</tr>`;
+            }
+
+            // Row for Mode Evidence
+            let hasModeEvidence = data.modes.some(mode => mode.log_z !== undefined && mode.log_z !== null);
+            if (hasModeEvidence) {
+                html += `<tr style="border-bottom: 1px solid rgba(255,255,255,0.05); background: rgba(155, 89, 182, 0.05);">
+                            <td style="padding: 6px; font-weight: bold; border-right: 1px solid rgba(255,255,255,0.05); color: #9b59b6;">Mode Evidence ln(Z)</td>`;
+                data.modes.forEach(mode => {
+                    const lz = mode.log_z;
+                    html += `<td style="padding: 6px; text-align: center; border-right: 1px solid rgba(255,255,255,0.05); font-weight: bold; color: #9b59b6;">${lz ? lz : '-'}</td>`;
+                });
+                html += `</tr>`;
+            }
+
+            // Row for MCMC Acceptance Rate
+            let hasMcmcAcc = data.modes.some(mode => mode.acc_rate !== undefined && mode.acc_rate !== null);
+            if (hasMcmcAcc) {
+                html += `<tr style="border-bottom: 1px solid rgba(255,255,255,0.05); background: rgba(52, 152, 219, 0.05);">
+                            <td style="padding: 6px; font-weight: bold; border-right: 1px solid rgba(255,255,255,0.05); color: #3498db;">MCMC Acc. Rate</td>`;
+                data.modes.forEach(mode => {
+                    const acc = mode.acc_rate;
+                    html += `<td style="padding: 6px; text-align: center; border-right: 1px solid rgba(255,255,255,0.05); font-weight: bold; color: #3498db;">${acc ? acc : '-'}</td>`;
+                });
+                html += `</tr>`;
+            }
             
             // Rows for parameters
             const allParams = new Set();
@@ -1060,7 +1108,17 @@ async function fetchMultimodalComparison() {
             });
             
             html += `</tbody></table>`;
-            multimodalComparisonBody.innerHTML = html;
+            
+            let summaryHtml = "";
+            if (data.combined_logz !== undefined && data.combined_logz !== null) {
+                summaryHtml += `
+                    <div style="display: flex; gap: 16px; margin-bottom: 12px; font-size: 0.8rem; background: rgba(255,255,255,0.02); padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);">
+                        <div><span style="color: #9b59b6; font-weight: bold;">Combined Multimodal Evidence ln(Z):</span> <span style="font-family: var(--font-mono); font-weight: bold; color: white;">${data.combined_logz.toFixed(4)}</span></div>
+                        ${data.exploration_health ? `<div><span style="color: #10ac84; font-weight: bold;">Exploration Health:</span> <span style="font-weight: bold; color: white;">${data.exploration_health}</span></div>` : ''}
+                    </div>
+                `;
+            }
+            multimodalComparisonBody.innerHTML = summaryHtml + html;
 
             // Render Tension Analysis if present
             const tensionCard = document.getElementById('tension-analysis-card');

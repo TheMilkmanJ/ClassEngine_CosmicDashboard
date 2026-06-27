@@ -4594,11 +4594,23 @@ async def get_logs(lines: int = 200):
 
 def parse_multimodal_comparison(filepath: Path) -> dict:
     if not filepath.exists():
-        return {"modes": [], "tensions": []}
+        return {"modes": [], "tensions": [], "combined_logz": None, "exploration_health": None}
     try:
         content = filepath.read_text()
         modes = []
         tensions = []
+        combined_logz = None
+        exploration_health = None
+        
+        # Parse top-level metrics
+        for line in content.split("\n"):
+            if "Combined Multimodal Evidence ln(Z) :" in line:
+                try:
+                    combined_logz = float(line.split(":")[-1].strip())
+                except Exception:
+                    pass
+            elif "Unphysical Exploration Health      :" in line:
+                exploration_health = line.split(":")[-1].strip()
         
         parts = content.split("Mode: ")
         for part in parts[1:]:
@@ -4614,6 +4626,10 @@ def parse_multimodal_comparison(filepath: Path) -> dict:
                 "chi2": None,
                 "penalized_chi2": None,
                 "viability_score": None,
+                "stability": None,
+                "isolation": None,
+                "log_z": None,
+                "acc_rate": None,
                 "params": {},
                 "metrics": {},
                 "likes": {}
@@ -4637,6 +4653,18 @@ def parse_multimodal_comparison(filepath: Path) -> dict:
                     continue
                 if line.startswith("Viability Score:"):
                     mode_data["viability_score"] = line.split("Viability Score:")[1].strip()
+                    continue
+                if line.startswith("Mode Stability (Basin Size):"):
+                    mode_data["stability"] = line.split(":")[-1].strip()
+                    continue
+                if line.startswith("Mode Isolation Index:"):
+                    mode_data["isolation"] = line.split(":")[-1].strip()
+                    continue
+                if line.startswith("Mode Evidence ln(Z):"):
+                    mode_data["log_z"] = line.split(":")[-1].strip()
+                    continue
+                if line.startswith("MCMC Acceptance Rate:"):
+                    mode_data["acc_rate"] = line.split(":")[-1].strip()
                     continue
                 if line.startswith("Parameters:"):
                     section = "params"
@@ -4680,11 +4708,15 @@ def parse_multimodal_comparison(filepath: Path) -> dict:
                     except Exception:
                         pass
                         
-        return {"modes": modes, "tensions": tensions}
+        return {
+            "modes": modes,
+            "tensions": tensions,
+            "combined_logz": combined_logz,
+            "exploration_health": exploration_health
+        }
     except Exception as e:
         log_dashboard_error(f"Error parsing multimodal comparison: {e}")
-        return {"modes": [], "tensions": []}
-
+        return {"modes": [], "tensions": [], "combined_logz": None, "exploration_health": None}
 
 @app.get("/api/multimodal_comparison")
 async def get_multimodal_comparison():
@@ -4698,7 +4730,13 @@ async def get_multimodal_comparison():
         return {"status": "error", "message": "Multimodal comparison report not found."}
         
     res = parse_multimodal_comparison(comp_file)
-    return {"status": "success", "modes": res["modes"], "tensions": res["tensions"]}
+    return {
+        "status": "success",
+        "modes": res["modes"],
+        "tensions": res["tensions"],
+        "combined_logz": res.get("combined_logz"),
+        "exploration_health": res.get("exploration_health")
+    }
 
 
 @app.post("/api/watchdog")
