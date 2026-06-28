@@ -144,6 +144,8 @@ const watchdogIcon = document.getElementById('watchdog-icon');
 
 const inputCores = document.getElementById('input-cores');
 const checkAutoRebuild = document.getElementById('check-autorebuild');
+const btnToggleLcdm = document.getElementById('btn-toggle-lcdm');
+const btnTogglePrtoe = document.getElementById('btn-toggle-prtoe');
 const checkAutoRunLcdm = document.getElementById('check-autorun-lcdm');
 const checkAutoRunCustom = document.getElementById('check-autorun-custom');
 
@@ -902,6 +904,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             } catch (err) {
                 appendLog(`[TEMPLATES] Connection error: ${err.message}`);
+            }
+        });
+    }
+
+    // Quick toggle buttons for LCDM and PRTOE
+    if (btnToggleLcdm) {
+        btnToggleLcdm.addEventListener('click', () => {
+            const selectEl = document.getElementById('select-config-template');
+            if (selectEl) {
+                selectEl.value = 'lcdm_baseline';
+                btnLoadTemplate.click();
+            }
+        });
+    }
+    if (btnTogglePrtoe) {
+        btnTogglePrtoe.addEventListener('click', () => {
+            const selectEl = document.getElementById('select-config-template');
+            if (selectEl) {
+                selectEl.value = 'prtoe_standard';
+                btnLoadTemplate.click();
             }
         });
     }
