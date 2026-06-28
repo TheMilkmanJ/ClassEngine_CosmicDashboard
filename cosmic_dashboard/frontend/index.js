@@ -1939,7 +1939,8 @@ if (btnStop && abortModal) {
     btnAbortConfirm.addEventListener('click', async () => {
         abortModal.classList.remove('active');
         btnStop.disabled = true;
-        appendLog('Sending termination signal to sampler process group...');
+        const isOptimizerRun = (lastStatusData && lastStatusData.is_optimizer);
+        appendLog(isOptimizerRun ? 'Sending termination signal to CosmicForge process tree...' : 'Sending termination signal to sampler process group...');
         
         try {
             const response = await fetch(`${API_URL}/api/stop_run`, {
@@ -1947,21 +1948,28 @@ if (btnStop && abortModal) {
             });
             const data = await response.json();
             if (response.ok) {
-                appendLog('Abort signal sent. For mpirun/Cobaya runs the process tree may take a few seconds to fully die (MPI ranks, workers). Dashboard state updated immediately; status will reflect "stopped" shortly.');
+                const message = isOptimizerRun 
+                    ? 'Abort signal sent to CosmicForge. Multiple Cobaya sub-processes may take several seconds to terminate. Dashboard will update when complete.'
+                    : 'Abort signal sent. For mpirun/Cobaya runs the process tree may take a few seconds to fully die (MPI ranks, workers). Dashboard state updated immediately; status will reflect "stopped" shortly.';
+                appendLog(message);
                 // Force local button disabled + optimistic status
                 btnStop.disabled = true;
-                // Poll a couple times quickly
+                // Poll a couple times quickly, then more for CosmicForge
                 setTimeout(checkStatus, 800);
                 setTimeout(checkStatus, 2500);
+                if (isOptimizerRun) {
+                    setTimeout(checkStatus, 5000);
+                    setTimeout(checkStatus, 8000);
+                }
             } else {
                 appendLog(`Failed to stop process: ${data.detail}`);
                 btnStop.disabled = false;
             }
         } catch (err) {
-        appendLog(`Abort error: ${err.message}`);
-        btnStop.disabled = false;
-    }
-});
+            appendLog(`Abort error: ${err.message}`);
+            btnStop.disabled = false;
+        }
+    });
 }
 
 // Download Archive
