@@ -1896,47 +1896,49 @@ async function triggerRun(forceOverwrite, isOptimizer = false, profileParam = nu
 }
 
 // Stop Run event listeners
-btnStop.addEventListener('click', () => {
-    abortModal.classList.add('active');
-});
+if (btnStop && abortModal) {
+    btnStop.addEventListener('click', () => {
+        abortModal.classList.add('active');
+    });
 
-btnAbortCancel.addEventListener('click', () => {
-    abortModal.classList.remove('active');
-});
-
-// Close modal when clicking the overlay backdrop itself
-abortModal.addEventListener('click', (e) => {
-    if (e.target === abortModal) {
+    btnAbortCancel.addEventListener('click', () => {
         abortModal.classList.remove('active');
-    }
-});
+    });
 
-btnAbortConfirm.addEventListener('click', async () => {
-    abortModal.classList.remove('active');
-    btnStop.disabled = true;
-    appendLog('Sending termination signal to sampler process group...');
-    
-    try {
-        const response = await fetch(`${API_URL}/api/stop_run`, {
-            method: 'POST'
-        });
-        const data = await response.json();
-        if (response.ok) {
-            appendLog('Abort signal sent. For mpirun/Cobaya runs the process tree may take a few seconds to fully die (MPI ranks, workers). Dashboard state updated immediately; status will reflect "stopped" shortly.');
-            // Force local button disabled + optimistic status
-            btnStop.disabled = true;
-            // Poll a couple times quickly
-            setTimeout(checkStatus, 800);
-            setTimeout(checkStatus, 2500);
-        } else {
-            appendLog(`Failed to stop process: ${data.detail}`);
-            btnStop.disabled = false;
+    // Close modal when clicking the overlay backdrop itself
+    abortModal.addEventListener('click', (e) => {
+        if (e.target === abortModal) {
+            abortModal.classList.remove('active');
         }
-    } catch (err) {
+    });
+
+    btnAbortConfirm.addEventListener('click', async () => {
+        abortModal.classList.remove('active');
+        btnStop.disabled = true;
+        appendLog('Sending termination signal to sampler process group...');
+        
+        try {
+            const response = await fetch(`${API_URL}/api/stop_run`, {
+                method: 'POST'
+            });
+            const data = await response.json();
+            if (response.ok) {
+                appendLog('Abort signal sent. For mpirun/Cobaya runs the process tree may take a few seconds to fully die (MPI ranks, workers). Dashboard state updated immediately; status will reflect "stopped" shortly.');
+                // Force local button disabled + optimistic status
+                btnStop.disabled = true;
+                // Poll a couple times quickly
+                setTimeout(checkStatus, 800);
+                setTimeout(checkStatus, 2500);
+            } else {
+                appendLog(`Failed to stop process: ${data.detail}`);
+                btnStop.disabled = false;
+            }
+        } catch (err) {
         appendLog(`Abort error: ${err.message}`);
         btnStop.disabled = false;
     }
 });
+}
 
 // Download Archive
 if (btnDownload) {
