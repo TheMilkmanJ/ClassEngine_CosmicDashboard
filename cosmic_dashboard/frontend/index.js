@@ -52,6 +52,7 @@ const btnAbortConfirm = document.getElementById('btn-abort-confirm');
 const statDead = document.getElementById('stat-dead');
 const statEvidence = document.getElementById('stat-evidence');
 const statChi2 = document.getElementById('stat-chi2');
+const statChi2File = document.getElementById('stat-chi2-file');
 const statChi2Cmb = document.getElementById('stat-chi2-cmb');
 const statChi2Bao = document.getElementById('stat-chi2-bao');
 const statChi2Sn = document.getElementById('stat-chi2-sn');
@@ -83,6 +84,7 @@ const statStrugglesBody = document.getElementById('stat-struggles-body');
 // Optimizer Monitor Elements
 const optStatEvals = document.getElementById('opt-stat-evals');
 const optStatChi2 = document.getElementById('opt-stat-chi2');
+const optStatChi2File = document.getElementById('opt-stat-chi2-file');
 const optStatChi2Cmb = document.getElementById('opt-stat-chi2-cmb');
 const optStatChi2Bao = document.getElementById('opt-stat-chi2-bao');
 const optStatChi2Sn = document.getElementById('opt-stat-chi2-sn');
@@ -2185,6 +2187,11 @@ async function checkStatus() {
         
         if (data.best_chi2 !== null && data.best_chi2 !== undefined) {
             statChi2.textContent = data.best_chi2.toFixed(2);
+            // Display which file/config is being tracked
+            if (statChi2File && (data.active_output_prefix || data.active_yaml_path)) {
+                const fileInfo = data.active_output_prefix ? `File: ${data.active_output_prefix}` : `Config: ${data.active_yaml_path || 'unknown'}`;
+                statChi2File.textContent = fileInfo;
+            }
             if (data.best_cmb !== null && data.best_cmb !== undefined) {
                 statChi2Cmb.textContent = data.best_cmb.toFixed(1);
                 statChi2Bao.textContent = data.best_bao !== null && data.best_bao !== undefined ? data.best_bao.toFixed(1) : "-";
@@ -2192,6 +2199,7 @@ async function checkStatus() {
             }
         } else {
             statChi2.textContent = "-";
+            if (statChi2File) statChi2File.textContent = "-";
             statChi2Cmb.textContent = "-";
             statChi2Bao.textContent = "-";
             statChi2Sn.textContent = "-";
@@ -2414,6 +2422,11 @@ async function checkStatus() {
             
             if (optStatEvals) optStatEvals.textContent = data.dead_points || 0;
             if (optStatChi2) optStatChi2.textContent = data.best_chi2 !== null ? data.best_chi2.toFixed(2) : "-";
+            // Display which file/config is being tracked for optimizer
+            if (optStatChi2File && (data.active_output_prefix || data.active_yaml_path)) {
+                const fileInfo = data.active_output_prefix ? `File: ${data.active_output_prefix}` : `Config: ${data.active_yaml_path || 'unknown'}`;
+                optStatChi2File.textContent = fileInfo;
+            }
             if (optStatChi2Cmb) optStatChi2Cmb.textContent = data.best_cmb !== null ? data.best_cmb.toFixed(1) : "-";
             if (optStatChi2Bao) optStatChi2Bao.textContent = data.best_bao !== null ? data.best_bao.toFixed(1) : "-";
             if (optStatChi2Sn) optStatChi2Sn.textContent = data.best_sn !== null ? data.best_sn.toFixed(1) : "-";
