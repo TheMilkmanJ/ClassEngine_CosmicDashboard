@@ -6661,8 +6661,11 @@ int perturbations_einstein(
          y[ppw->pv->index_pt_phi], which derivative is given by the
          second equation below (credits to Guido Walter Pettinari). */
 
-      /* equation for psi */
-      ppw->pvecmetric[ppw->index_mt_psi] = y[ppw->pv->index_pt_phi] - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric;
+      /* equation for psi with PRTOE δF corrections */
+      /* From spec Section 3.2 00 equation: k² Φ + 3H (Φ' + H Psi) = ... */
+      /* The psi equation is derived from the constraint equation */
+      ppw->pvecmetric[ppw->index_mt_psi] = y[ppw->pv->index_pt_phi] - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric
+        + (pba->use_prtoe ? (3.0 * a_prime_over_a * F_phi * phi_prime_bg / (2.0 * F) * (Psi - Phi) / k2) : 0.0); /* PRTOE: δF term from spec 00 */
 
       /* equation for phi' */
       ppw->pvecmetric[ppw->index_mt_phi_prime] = -a_prime_over_a * ppw->pvecmetric[ppw->index_mt_psi] + 1.5 * (a2/k2) * ppw->rho_plus_p_theta * G_eff_metric
@@ -6692,7 +6695,9 @@ int perturbations_einstein(
 
       /* first equation involving total density fluctuation */
       ppw->pvecmetric[ppw->index_mt_h_prime] =
-        ( k2 * s2_squared * y[ppw->pv->index_pt_eta] + 1.5 * a2 * ppw->delta_rho * G_eff_metric)/(0.5*a_prime_over_a);  /* h' */
+        ( k2 * s2_squared * y[ppw->pv->index_pt_eta] + 1.5 * a2 * ppw->delta_rho * G_eff_metric
+          + (pba->use_prtoe ? (-1.5 * a2 * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / F) : 0.0)  /* PRTOE: δF terms from spec 00 */
+        )/(0.5*a_prime_over_a);  /* h' */
 
       /* eventually, infer radiation streaming approximation for
          gamma and ur (this is exactly the right place to do it
@@ -9599,16 +9604,20 @@ int perturbations_derivs(double tau,
         double Phi = ppw->pvecmetric[ppw->index_mt_phi];
         double Phi_prime = ppw->pvecmetric[ppw->index_mt_phi_prime];
         
+        /* Approximate Psi_prime using Φ' (from spec, Ψ ≈ Φ, so Ψ' ≈ Φ') */
+        double Psi_prime = Phi_prime; /* TODO: Compute exact Psi_prime from d/dτ[Psi] */
+        
         /* Background quantities for delta_R */
         double H_prime = ppw->pvecback[pba->index_bg_H_prime];
         double a_primeprime_over_a = H * H + H_prime; /* a''/a = H² + H' where H' is conformal derivative */
         
         /* Compute delta_R (linearized Ricci scalar) from spec Section 3.1 */
         /* δR = -6a⁻²[Ψ'' + 4aHΨ' + (a''/a + 2aH²)Φ + (1/3)k²(Ψ-Φ)] */
-        /* Currently missing: Ψ'' and Ψ' terms */
-        double delta_R = -6.0 * ( (a_primeprime_over_a + 2.0 * a_prime_over_a * a_prime_over_a) * Phi 
+        /* Currently missing: Ψ'' term; Psi_prime approximated as Phi_prime */
+        double delta_R = -6.0 * ( 4.0 * a_prime_over_a * Psi_prime 
+                               + (a_primeprime_over_a + 2.0 * a_prime_over_a * a_prime_over_a) * Phi 
                                + k2/3.0 * (Psi - Phi) ) / a2;
-        /* TODO: Add Ψ'' + 4*a_prime_over_a*Psi_prime when Psi_prime available */
+        /* TODO: Add Ψ'' when available */
         
         /* PRTOE perturbed Klein-Gordon equation from spec Section 3.1 */
         /* δφ'' + 2H(1 + F_φ φ₀'/2F) δφ' */
@@ -9633,14 +9642,12 @@ int perturbations_derivs(double tau,
         
         /* Source terms from spec Section 3.1 */
         /* -φ₀' (Ψ' + 3Φ') */
-        double source = - phi_prime_bg * (3.0 * Phi_prime)  /* -φ₀' * 3Φ' */
+        double source = - phi_prime_bg * (Psi_prime + 3.0 * Phi_prime)  /* -φ₀' (Ψ' + 3Φ') */
                       + F_phi / (2.0 * F) * (phi_prime_bg * phi_prime_bg * (Psi - 3.0 * Phi) - a2 * delta_R)
                       + F_phiphi * phi_prime_bg / F * (delta_phi_prime - phi_prime_bg * Phi)
                       + F_phiphiphi * phi_prime_bg * phi_prime_bg / (2.0 * F) * delta_phi; /* F_φφφ φ₀'²/(2F) δφ */
         
-        /* TODO: Add -φ₀' Ψ' term to source */
-        /* Psi_prime = dy[ppw->pv->index_pt_phi] - 4.5 * d/dτ[(a2/k2) * rho_plus_p_shear * G_eff_metric] */
-        /* Requires access to dy[ppw->pv->index_pt_phi] which is not available in this context */
+        /* Note: Psi_prime is approximated as Phi_prime (from spec Ψ ≈ Φ) */
         
         dy[pv->index_pt_ddelta_phi] = coeff_phi_prime * delta_phi_prime + coeff_phi * delta_phi + source;
     }
