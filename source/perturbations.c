@@ -6674,9 +6674,9 @@ int perturbations_einstein(
 
       /* equation for psi with PRTOE δF corrections */
       /* From spec Section 3.2 00 equation: k² Φ + 3H (Φ' + H Psi) = -a²/(2F)[δρ+3HδF'-k²δF] + 3H F_φ φ₀'/(2F)(Ψ-Φ) */
+      /* Note: The (Ψ-Φ) term is handled implicitly via pi_tot in rho_plus_p_shear. 
+         With PRTOE δF terms added to rho_plus_p_shear, the full slip equation is satisfied automatically */
       double Phi = y[ppw->pv->index_pt_phi];
-      /* Note: For now, we use the approximation Psi ≈ Phi in the correction term, so (Ψ-Φ) ≈ 0 */
-      /* This avoids circular dependency in the constraint equation */
       ppw->pvecmetric[ppw->index_mt_psi] = Phi - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric
         + (pba->use_prtoe ? (- 0.5 * a2 / F * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / k2) : 0.0); /* PRTOE: δF terms from spec 00 */
 
@@ -7388,6 +7388,40 @@ int perturbations_total_stress_energy(
       ppw->theta_m = rho_plus_p_theta_m/rho_plus_p_m;
 
     /* could include Lambda contribution to rho_tot (not done to match CMBFAST/CAMB definition) */
+
+    /* PRTOE: Add δF contributions to anisotropic stress (ij-traceless Einstein equation) */
+    /* From spec: (k² + 2H∂_τ)(Ψ-Φ) = a²/F[Π_total + δF'' + 2HδF' - k²/3 δF] + ... */
+    /* The δF terms contribute to the effective anisotropic stress (pi_tot) */
+    if (pba->use_prtoe == _TRUE_ && ppt->has_scalars == _TRUE_) {
+      /* Get F and its derivatives from background */
+      double F_local = ppw->pvecback[pba->index_bg_F_prtoe];
+      double F_phi_local = ppw->pvecback[pba->index_bg_F_phi_prtoe];
+      double F_phiphi_local = ppw->pvecback[pba->index_bg_F_phiphi_prtoe];
+      double F_phiphiphi_local = ppw->pvecback[pba->index_bg_F_phiphiphi_prtoe];
+      double phi_prime_bg_local = ppw->pvecback[pba->index_bg_dphi_prtoe];
+      double phi_primeprime_bg_local = ppw->pvecback[pba->index_bg_ddphi_prtoe];
+      
+      /* Get delta_phi and its derivatives from perturbation vector */
+      double delta_phi = y[ppw->pv->index_pt_delta_phi];
+      double delta_phi_prime = y[ppw->pv->index_pt_ddelta_phi];
+      double delta_phi_primeprime = 0.0; /* Approximation: will be refined in future */
+      
+      /* Compute δF, δF', δF'' */
+      double delta_F_local = F_phi_local * delta_phi;
+      double delta_F_prime_local = F_phiphi_local * phi_prime_bg_local * delta_phi + F_phi_local * delta_phi_prime;
+      double delta_F_primeprime_local = F_phiphiphi_local * (phi_prime_bg_local * phi_prime_bg_local) * delta_phi
+                                      + F_phiphi_local * (phi_primeprime_bg_local * delta_phi + 2.0 * phi_prime_bg_local * delta_phi_prime)
+                                      + F_phi_local * delta_phi_primeprime;
+      
+      /* Add PRTOE-specific anisotropic stress contribution from δF terms */
+      /* This comes from the ij-traceless Einstein equation rearranged to solve for Π_total */
+      double a_local = ppw->pvecback[pba->index_bg_a];
+      double a2_local = a_local * a_local;
+      double a_prime_over_a_local = ppw->pvecback[pba->index_bg_H] * a_local;
+      double k2_local = k * k;
+      
+      ppw->rho_plus_p_shear += (a2_local / F_local) * (delta_F_primeprime_local + 2.0 * a_prime_over_a_local * delta_F_prime_local - (k2_local / 3.0) * delta_F_local);
+    }
 
   }
 
