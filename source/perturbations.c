@@ -2748,6 +2748,13 @@ int perturbations_workspace_init(
 
     }
 
+    /* PRTOE metric perturbations */
+    if (pba->use_prtoe == _TRUE_) {
+      class_define_index(ppw->index_mt_Phi_prtoe, _TRUE_, index_mt, 1);
+      class_define_index(ppw->index_mt_Psi_prtoe, _TRUE_, index_mt, 1);
+      class_define_index(ppw->index_mt_Geff_prtoe, _TRUE_, index_mt, 1);
+    }
+
   }
 
   if (_vectors_) {
@@ -3969,6 +3976,14 @@ int perturbations_vector_init(
     /* PRTOE scalar field perturbations */
     class_define_index(ppv->index_pt_delta_phi, pba->use_prtoe, index_pt, 1);
     class_define_index(ppv->index_pt_ddelta_phi, pba->use_prtoe, index_pt, 1);
+    class_define_index(ppv->index_pt_delta_prtoe, pba->use_prtoe, index_pt, 1);
+    class_define_index(ppv->index_pt_ddelta_prtoe, pba->use_prtoe, index_pt, 1);
+    
+    /* PRTOE metric perturbations (3-variable system) */
+    class_define_index(ppv->index_pt_Phi_prtoe, pba->use_prtoe, index_pt, 1);
+    class_define_index(ppv->index_pt_dPhi_prtoe, pba->use_prtoe, index_pt, 1);
+    class_define_index(ppv->index_pt_eta_prtoe, pba->use_prtoe, index_pt, 1);
+    class_define_index(ppv->index_pt_deta_prtoe, pba->use_prtoe, index_pt, 1);
 
     /* perturbed recombination: the indices are defined once tca is off. */
     if ( (ppt->has_perturbed_recombination == _TRUE_) && (ppw->approx[ppw->index_ap_tca] == (int)tca_off) ){
@@ -5533,6 +5548,25 @@ int perturbations_initial_conditions(struct precision * ppr,
         
         /* δφ' ≈ -φ₀' Ψ */
         ppw->pv->y[ppw->pv->index_pt_ddelta_phi] = - phi_prime_bg * Psi_ini;
+        
+        /* New 3-variable system initial conditions from Section 10.4 */
+        double F = ppw->pvecback[pba->index_bg_F_prtoe];
+        double F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
+        double zeta = ppr->curvature_ini;  // from adiabatic mode
+        
+        double Phi_ini = - (2.0 / 3.0) * zeta;
+        double delta_phi_ini = 0.0;
+        if (prtoe_is_physically_active(pba) && fabs(F) > 1e-30) {
+            delta_phi_ini = - (F_phi / F) * Phi_ini;
+        }
+        double eta_ini = - (F_phi / F) * delta_phi_ini;
+        
+        ppw->pv->y[ppw->pv->index_pt_delta_prtoe] = delta_phi_ini;
+        ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
+        ppw->pv->y[ppw->pv->index_pt_Phi_prtoe] = Phi_ini;
+        ppw->pv->y[ppw->pv->index_pt_dPhi_prtoe] = 0.0;
+        ppw->pv->y[ppw->pv->index_pt_eta_prtoe] = eta_ini;
+        ppw->pv->y[ppw->pv->index_pt_deta_prtoe] = 0.0;
       }
 
       /* all relativistic relics: ur, early ncdm, dr */
@@ -6613,6 +6647,7 @@ int perturbations_einstein(
   double delta_F = 0.0;
   double delta_F_prime = 0.0;
   double delta_F_primeprime = 0.0;
+  double delta_phi = 0.0;
   double F = 1.0, F_phi = 0.0, F_phiphi = 0.0, F_phiphiphi = 0.0;
   double phi_prime_bg = 0.0, phi_primeprime_bg = 0.0;
   
@@ -6630,7 +6665,7 @@ int perturbations_einstein(
     /* Compute δF, δF', δF'' from delta_phi for use in Einstein equations */
     /* Get delta_phi, delta_phi_prime from perturbation vector */
     if (ppt->has_scalars == _TRUE_) {
-      double delta_phi = y[ppw->pv->index_pt_delta_phi];
+      delta_phi = y[ppw->pv->index_pt_delta_phi];
       double delta_phi_prime = y[ppw->pv->index_pt_ddelta_phi];
       double delta_phi_primeprime = 0.0; /* Approximation: will be refined in future */
       
@@ -6682,7 +6717,7 @@ int perturbations_einstein(
 
       /* equation for phi' */
       ppw->pvecmetric[ppw->index_mt_phi_prime] = -a_prime_over_a * ppw->pvecmetric[ppw->index_mt_psi] + 1.5 * (a2/k2) * ppw->rho_plus_p_theta * G_eff_metric
-        + (pba->use_prtoe ? (a2 / (2.0 * F) * delta_F_prime) : 0.0); /* PRTOE: δF' term from spec Section 3.2 0i */
+        + (pba->use_prtoe ? (a2 / (2.0 * F) * delta_F_prime + a2 / (2.0 * F * F) * F_phiphiphi * phi_prime_bg * phi_primeprime_bg * delta_phi) : 0.0); /* PRTOE: δF' + F_ppp term from spec Section 3.2 0i */
 
       /* eventually, infer radiation streaming approximation for
          gamma and ur (this is exactly the right place to do it
@@ -9636,72 +9671,75 @@ int perturbations_derivs(double tau,
     }
 
     if (pba->use_prtoe == _TRUE_) {
-        dy[pv->index_pt_delta_phi] = y[pv->index_pt_ddelta_phi];
+        /* Load PRTOE background quantities */
+        double F = pvecback[pba->index_bg_F_prtoe];
+        double F_phi = pvecback[pba->index_bg_F_phi_prtoe];
+        double F_phiphi = pvecback[pba->index_bg_F_phiphi_prtoe];
+        double F_phiphiphi = pvecback[pba->index_bg_F_phiphiphi_prtoe];
+        double m_eff2 = pvecback[pba->index_bg_meff2_prtoe];
+        double V_phiphi = pvecback[pba->index_bg_ddV_scf];
+        double phi_prime_bg = pvecback[pba->index_bg_dphi_prtoe];
         
-        /* Get background quantities */
-        double phi_bg = ppw->pvecback[pba->index_bg_phi_prtoe];
-        double phi_prime_bg = ppw->pvecback[pba->index_bg_dphi_prtoe];
-        double phi_primeprime_bg = ppw->pvecback[pba->index_bg_ddphi_prtoe];
-        double V_phiphi = ppw->pvecback[pba->index_bg_ddV_scf];
-        double F = ppw->pvecback[pba->index_bg_F_prtoe];
-        double F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
-        double F_phiphi = ppw->pvecback[pba->index_bg_F_phiphi_prtoe];
-        double F_phiphiphi = ppw->pvecback[pba->index_bg_F_phiphiphi_prtoe];
+        /* Perturbation variables (3-variable system) */
+        double delta_phi = y[pv->index_pt_delta_prtoe];
+        double ddelta_phi = y[pv->index_pt_ddelta_prtoe];
+        double Phi = y[pv->index_pt_Phi_prtoe];
+        double dPhi = y[pv->index_pt_dPhi_prtoe];
+        double eta = y[pv->index_pt_eta_prtoe];
+        double deta = y[pv->index_pt_deta_prtoe];
         
-        /* Metric potentials */
-        double Psi = ppw->pvecmetric[ppw->index_mt_psi];
-        double Phi = y[ppw->pv->index_pt_phi]; /* Phi is the dynamical variable in Newtonian gauge */
-        double Phi_prime = ppw->pvecmetric[ppw->index_mt_phi_prime];
+        double k2_over_a2 = k * k / (a * a);
+        double H = pvecback[pba->index_bg_H];
+        double Geff = (1.0 / F) * (1.0 + 2.0 * pow(F_phi / F, 2) / (k2_over_a2 + m_eff2));
         
-        /* Approximate Psi_prime using Φ' (from spec, Ψ ≈ Φ, so Ψ' ≈ Φ') */
-        double Psi_prime = Phi_prime; /* Approximation: Ψ' ≈ Φ' */
+        /* Equation 1: Perturbed KG for δφ */
+        double phi_prime_over_a = phi_prime_bg / a;
+        double R_bg = pba->R_curvature;  // Ricci scalar from background
+        double ddelta_phi_prime = 
+            - (3*H + F_phi * phi_prime_bg / (F * a)) * ddelta_phi
+            - (k2_over_a2 + V_phiphi + (F_phiphi / F) * pow(phi_prime_over_a, 2)
+               - 3 * (F_phi / F) * (pvecback[pba->index_bg_H_prime] / a + 2 * H * H)
+               + (F_phiphiphi / F) * pow(phi_prime_over_a, 2)
+               - (F_phi * F_phiphi / (F * F)) * pow(phi_prime_over_a, 2)) * delta_phi
+            + (F_phi / F) * (3 * (pvecback[pba->index_bg_H_prime] / a + 2 * H * H) * (3 * Phi + 2 * eta) + 6 * H * dPhi
+            + (a * a * R_bg * F_phi / (2 * F)) * (3 * Phi + 2 * eta));  /* PRTOE: Curvature coupling source term */
         
-        /* Approximate Psi_primeprime as 0 for now (second derivative subdominant on super-horizon scales) */
-        /* TODO: Compute exact Psi_primeprime from d²/dτ²[Psi] in future refinement */
-        double Psi_primeprime = 0.0;
+        /* Equation 2: Second-order for Φ */
+        double rho_m = pvecback[pba->index_bg_rho_cdm] + pvecback[pba->index_bg_rho_b];
+        double p_m = 0.0;  // Non-relativistic matter
+        double dPhi_prime = 
+            - (3*H + F_phi * pvecback[pba->index_bg_dphi_prtoe] / (F * a)) * dPhi
+            - (k2_over_a2 * Geff + 1.5 * a * a * (rho_m + p_m) / F) * Phi
+            + (a * a / (2 * F)) * (
+                (F_phi / F) * (ddelta_phi_prime + 3 * H * ddelta_phi + k2_over_a2 * delta_phi)
+                + (R_bg * F_phi / (2 * F)) * (ddelta_phi + H * ddelta_phi)  /* PRTOE: Curvature coupling term */
+                + (F_phiphi * phi_prime_over_a / F) * (ddelta_phi + H * ddelta_phi)  /* PRTOE: F_phiphi φ̇ coupling */
+                + (F_phiphiphi / F) * pow(phi_prime_over_a, 2) * delta_phi  /* PRTOE: F_ppp term */
+              );
         
-        /* Background quantities for delta_R */
-        double H = ppw->pvecback[pba->index_bg_H];
-        double H_prime = ppw->pvecback[pba->index_bg_H_prime];
-        double a_primeprime_over_a = H * H + H_prime; /* a''/a = H² + H' where H' is conformal derivative */
+        /* Equation 3: Slip evolution for η */
+        double deta_prime = 
+            - 3 * H * deta 
+            - k2_over_a2 * eta
+            + (2 * F_phi / F) * (ddelta_phi_prime + 3 * H * ddelta_phi + k2_over_a2 * delta_phi)
+            + (F_phiphi / F) * (ddelta_phi_prime + H * ddelta_phi)
+            + (F_phi / F) * (ddelta_phi_prime + H * ddelta_phi - (k2_over_a2 / 3.0) * delta_phi)  /* PRTOE: Traceless projection term */
+            + (F_phiphi * phi_prime_over_a / F) * (ddelta_phi + H * ddelta_phi)  /* PRTOE: F_phiphi φ̇ mixing term */
+            + (F_phiphiphi / F) * pow(phi_prime_over_a, 2) * delta_phi  /* PRTOE: F_ppp term from momentum constraint */
+            + (3 * a * a / F) * (rho_m + p_m) * (ppw->theta_m / k2_over_a2);
         
-        /* Compute delta_R (linearized Ricci scalar) from spec Section 3.1 */
-        /* δR = -6a⁻²[Ψ'' + 4aHΨ' + (a''/a + 2aH²)Φ + (1/3)k²(Ψ-Φ)] */
-        double delta_R = -6.0 * ( Psi_primeprime + 4.0 * a_prime_over_a * Psi_prime 
-                               + (a_primeprime_over_a + 2.0 * a_prime_over_a * a_prime_over_a) * Phi 
-                               + k2/3.0 * (Psi - Phi) ) / a2;
+        /* Store metric potentials for sources */
+        ppw->pvecmetric[ppw->index_mt_Phi_prtoe] = Phi;
+        ppw->pvecmetric[ppw->index_mt_Psi_prtoe] = Phi + eta;
+        ppw->pvecmetric[ppw->index_mt_Geff_prtoe] = Geff;
         
-        /* PRTOE perturbed Klein-Gordon equation from spec Section 3.1 */
-        /* δφ'' + 2H(1 + F_φ φ₀'/2F) δφ' */
-        /* + [k² + a² V_φφ - F_φ/F (φ₀'' + 2H φ₀') + F_φφ/F φ₀'²] δφ */
-        /* = -φ₀' (Ψ' + 3Φ') */
-        /* + F_φ/(2F) [φ₀'² (Ψ - 3Φ) - a² δR] */
-        /* + F_φφ φ₀'/F (δφ' - φ₀' Φ) */
-        /* + F_φφφ φ₀'²/(2F) δφ */
-        
-        /* For now, implement main terms; full equation requires φ₀'' and Ψ' */
-        double delta_phi = y[pv->index_pt_delta_phi];
-        double delta_phi_prime = y[pv->index_pt_ddelta_phi];
-        
-        /* Coefficient of δφ' */
-        double coeff_phi_prime = -2.0 * a_prime_over_a * (1.0 + F_phi * phi_prime_bg / (2.0 * F));
-        
-        /* Coefficient of δφ from spec Section 3.1 */
-        /* + [k² + a² V_φφ - F_φ/F (φ₀'' + 2H φ₀') + F_φφ/F φ₀'²] */
-        double coeff_phi = - (k2 + a2 * V_phiphi 
-                            - (F_phi / F) * (phi_primeprime_bg + 2.0 * a_prime_over_a * phi_prime_bg)
-                            + F_phiphi / F * phi_prime_bg * phi_prime_bg);
-        
-        /* Source terms from spec Section 3.1 */
-        /* -φ₀' (Ψ' + 3Φ') */
-        double source = - phi_prime_bg * (Psi_prime + 3.0 * Phi_prime)  /* -φ₀' (Ψ' + 3Φ') */
-                      + F_phi / (2.0 * F) * (phi_prime_bg * phi_prime_bg * (Psi - 3.0 * Phi) - a2 * delta_R)
-                      + F_phiphi * phi_prime_bg / F * (delta_phi_prime - phi_prime_bg * Phi)
-                      + F_phiphiphi * phi_prime_bg * phi_prime_bg / (2.0 * F) * delta_phi; /* F_φφφ φ₀'²/(2F) δφ */
-        
-        /* Note: Psi_prime is approximated as Phi_prime (from spec Ψ ≈ Φ) */
-        
-        dy[pv->index_pt_ddelta_phi] = coeff_phi_prime * delta_phi_prime + coeff_phi * delta_phi + source;
+        /* Write derivatives */
+        dy[pv->index_pt_delta_prtoe] = ddelta_phi;
+        dy[pv->index_pt_ddelta_prtoe] = ddelta_phi_prime;
+        dy[pv->index_pt_Phi_prtoe] = dPhi;
+        dy[pv->index_pt_dPhi_prtoe] = dPhi_prime;
+        dy[pv->index_pt_eta_prtoe] = deta;
+        dy[pv->index_pt_deta_prtoe] = deta_prime;
     }
 
     /** - ---> ultra-relativistic neutrino/relics (ur) */

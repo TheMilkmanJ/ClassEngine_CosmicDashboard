@@ -486,6 +486,15 @@ struct perturbations_vector
   /* PRTOE scalar field perturbations */
   int index_pt_delta_phi;    
   int index_pt_ddelta_phi;
+  int index_pt_delta_prtoe;     /**< PRTOE scalar field perturbation δφ */
+  int index_pt_ddelta_prtoe;    /**< Time derivative of δφ for PRTOE */
+  
+  /* PRTOE metric perturbations (3-variable system) */
+  int index_pt_Phi_prtoe;    /**< Bardeen potential Φ for PRTOE */
+  int index_pt_dPhi_prtoe;   /**< Time derivative of Φ for PRTOE */
+  int index_pt_eta_prtoe;     /**< Slip η = Ψ - Φ for PRTOE */
+  int index_pt_deta_prtoe;    /**< Time derivative of η for PRTOE */
+  
   int index_pt_delta_ur; /**< density of ultra-relativistic neutrinos/relics */
   int index_pt_theta_ur; /**< velocity of ultra-relativistic neutrinos/relics */
   int index_pt_shear_ur; /**< shear of ultra-relativistic neutrinos/relics */
@@ -556,6 +565,12 @@ struct perturbations_workspace
   int index_mt_gw_prime_prime;/**< second derivative wrt conformal time of gravitational wave field, often called h */
   int index_mt_V_prime;       /**< derivative of Newtonian gauge vector metric perturbation V */
   int index_mt_hv_prime_prime;/**< Second derivative of Synchronous gauge vector metric perturbation \f$ h_v\f$ */
+  
+  /* PRTOE metric perturbations */
+  int index_mt_Phi_prtoe;    /**< Bardeen potential Φ for PRTOE */
+  int index_mt_Psi_prtoe;    /**< Bardeen potential Ψ for PRTOE */
+  int index_mt_Geff_prtoe;   /**< Effective gravitational coupling Geff for PRTOE */
+  
   int mt_size;                /**< size of metric perturbation vector */
 
   //@}

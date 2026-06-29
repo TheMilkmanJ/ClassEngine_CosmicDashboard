@@ -165,6 +165,10 @@ struct background
   int index_bg_meff2_prtoe; /**< Effective mass squared for stability */
   int index_bg_Q_prtoe;      /**< Gradient stability proxy Q */
   int index_bg_cs2_prtoe;   /**< Approximate scalar sound speed squared */
+  int index_bg_F_dot_prtoe;  /**< dF/dt */
+  int index_bg_F_ddot_prtoe; /**< d²F/dt² */
+  int index_bg_K_prtoe;      /**< Kinetic coefficient K */
+  int index_bg_cT2_prtoe;    /**< Tensor speed squared c_T² */
 
   /* Integration indices for the PRTOE ODE solver (index_bi) */
   int index_bi_phi_prtoe;    /**< Field value in integration vector */
@@ -681,6 +685,24 @@ extern "C" {
 
 //@}
 
+/** Returns _TRUE_ only if PRTOE is physically active (not in null limit) */
+static inline int prtoe_is_physically_active(struct background *pba) {
+    // 1. Hard gate: if user didn't ask for PRTOE, it is not active.
+    if (pba->use_prtoe == _FALSE_) return _FALSE_;
+    
+    // 2. Threshold check: if parameters are below tolerance, consider it null-limit.
+    double tol = 1.e-15; 
+    if ((fabs(pba->xi_prtoe)     > tol) || 
+        (pba->V0_prtoe           > tol) || 
+        (pba->m_prtoe            > tol) || 
+        (fabs(pba->lambda_prtoe) > tol) || 
+        (pba->zeta_prtoe         > tol)) {
+        return _TRUE_; 
+    }
+    
+    // 3. Default: inactive
+    return _FALSE_;
+}
 
 #endif
 /* @endcond */

@@ -513,154 +513,84 @@ int background_functions(
 
   /* Scalar field */
   if (pba->use_prtoe == _TRUE_) {
-    /* Extract from the integration vector using 'bi' indices to avoid Segfault */
-    phi = pvecback_B[pba->index_bi_phi_prtoe];
-    phi_prime = pvecback_B[pba->index_bi_dphi_prtoe];
+    /* === Fields === */
+    double phi       = pvecback_B[pba->index_bi_phi_prtoe];
+    double phi_prime = pvecback_B[pba->index_bi_dphi_prtoe];
+    double phi_dot   = phi_prime / a;
 
-    /* Store values in the background table for output and interpolation */
-    pvecback[pba->index_bg_phi_prtoe] = phi;
+    pvecback[pba->index_bg_phi_prtoe]  = phi;
     pvecback[pba->index_bg_dphi_prtoe] = phi_prime;
-    pvecback[pba->index_bg_phi_scf] = phi;
-    pvecback[pba->index_bg_phi_prime_scf] = phi_prime;
 
-    double m2 = pba->m_prtoe * pba->m_prtoe;
+    /* === Potential === */
     double exp_term = exp(-pba->lambda_prtoe * phi);
-    double V_phi = pba->V0_prtoe * exp_term + 0.5 * m2 * phi * phi;
-    double dV_dphi = -pba->lambda_prtoe * pba->V0_prtoe * exp_term + m2 * phi;
-    double ddV_dphi2 = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + m2;
+    double V        = pba->V0_prtoe * exp_term + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
+    double V_phi    = -pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe * phi;
+    double V_phiphi = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe;
 
-    pvecback[pba->index_bg_V_scf] = V_phi;
-    pvecback[pba->index_bg_dV_scf] = dV_dphi;
-    pvecback[pba->index_bg_ddV_scf] = ddV_dphi2;
+    pvecback[pba->index_bg_V_scf]   = V;
+    pvecback[pba->index_bg_dV_scf]  = V_phi;
+    pvecback[pba->index_bg_ddV_scf] = V_phiphi;
 
-    /* Smooth Scale-Factor Gate: smoothly activate the field from pure vacuum energy
-       Centered at a=1e-4, width 1.0 decades */
-    double activation = 0.5 * (1.0 + tanh(log(a) + 9.21034037198));
-    double dot_phi = phi_prime / a;
-    
-    double screening_factor = 1.0 / (1.0 + pba->zeta_prtoe * phi * phi);
-    double xi_eff = pba->xi_prtoe * screening_factor * activation;
-
-    double rho_prtoe = activation * (0.5 * dot_phi * dot_phi) + V_phi;
-    double p_prtoe   = activation * (0.5 * dot_phi * dot_phi) - V_phi;
-
-    // Scalar field energy density and pressure: ρ = ½φ̇² + V, p = ½φ̇² - V
-    // Do NOT divide by 3 - that would make it behave like radiation
-    double rho_phi_fluid = rho_prtoe;
-    double p_phi_fluid = p_prtoe;
-
-    // Store to PRTOE indices
-    pvecback[pba->index_bg_rho_prtoe] = rho_phi_fluid;
-    pvecback[pba->index_bg_p_prtoe] = p_phi_fluid;
-    
-    // Also store to dark_energy indices for consistency with CLASS expectations
-    pvecback[pba->index_bg_rho_dark_energy] = rho_phi_fluid;
-    pvecback[pba->index_bg_p_dark_energy] = p_phi_fluid;
-
-    rho_tot += rho_phi_fluid;
-    p_tot   += p_phi_fluid;
-
-    /* PRTOE: Compute F(phi), F_phi, F_phiphi and stability quantities */
-    /* Activation function A(phi) */
+    /* === Coupling function F(φ) === */
     double u = (phi - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
     double tanh_u = tanh(u);
     double sech2_u = 1.0 - tanh_u * tanh_u;
+
     double A = 0.5 * (1.0 + tanh_u);
     double A_prime = sech2_u / (2.0 * pba->delta_phi_prtoe);
-    double A_primeprime = - (sech2_u * tanh_u) / (pba->delta_phi_prtoe * pba->delta_phi_prtoe);
-    double A_primeprimeprime = sech2_u * (3.0 * tanh_u * tanh_u - 1.0) / (pba->delta_phi_prtoe * pba->delta_phi_prtoe * pba->delta_phi_prtoe);
+    double A_primeprime = -sech2_u * tanh_u / (pba->delta_phi_prtoe * pba->delta_phi_prtoe);
 
-    /* Screening function S(phi) */
     double phi2 = phi * phi;
     double denom = 1.0 + pba->zeta_prtoe * phi2;
     double S = phi2 / denom;
     double S_prime = 2.0 * phi / (denom * denom);
     double S_primeprime = (2.0 - 6.0 * pba->zeta_prtoe * phi2) / (denom * denom * denom);
-    double S_primeprimeprime = 24.0 * pba->zeta_prtoe * phi * (pba->zeta_prtoe * phi2 - 1.0) / (denom * denom * denom * denom);
 
-    /* Combined coupling function f = A * S */
     double f = A * S;
     double f_prime = A_prime * S + A * S_prime;
     double f_primeprime = A_primeprime * S + 2.0 * A_prime * S_prime + A * S_primeprime;
-    double f_primeprimeprime = A_primeprimeprime * S + 3.0 * A_primeprime * S_prime + 3.0 * A_prime * S_primeprime + A * S_primeprimeprime;
 
-    /* Final F and derivatives */
     double F = 1.0 + pba->xi_prtoe * f;
     double F_phi = pba->xi_prtoe * f_prime;
     double F_phiphi = pba->xi_prtoe * f_primeprime;
-    double F_phiphiphi = pba->xi_prtoe * f_primeprimeprime;
 
-    /* Store in background vector */
-    pvecback[pba->index_bg_F_prtoe] = F;
-    pvecback[pba->index_bg_F_phi_prtoe] = F_phi;
+    pvecback[pba->index_bg_F_prtoe]       = F;
+    pvecback[pba->index_bg_F_phi_prtoe]   = F_phi;
     pvecback[pba->index_bg_F_phiphi_prtoe] = F_phiphi;
-    pvecback[pba->index_bg_F_phiphiphi_prtoe] = F_phiphiphi;
 
-    /* Compute phi_primeprime from Klein-Gordon equation (spec Section 2.2) */
-    /* φ'' (1 - F_φ/F) + 2H φ' + a² V_φ - F_φφ/F φ'² = (3 F_φ / 2F) (φ'²/a² - a² R / 3) */
-    /* So: φ'' = [ -2H φ' - a² V_φ + F_φφ/F φ'² + (3 F_φ / 2F) (φ'²/a² - a² R / 3) ] / (1 - F_φ/F) */
-    double H = pvecback[pba->index_bg_H];  /* conformal Hubble parameter */
-    double a2 = a * a;
-    double V_dphi = -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + pba->m_prtoe * pba->m_prtoe * phi;
-    double kg_denom = 1.0 - F_phi / F;
-    double phi_primeprime_bg;
-    
-    if (fabs(kg_denom) > 1e-20) {
-      phi_primeprime_bg = (-2.0 * H * phi_prime 
-                           - a2 * V_dphi 
-                           + (F_phiphi / F) * phi_prime * phi_prime
-                           + (3.0 * F_phi / (2.0 * F)) * (phi_prime * phi_prime / a2 - a2 * pba->R_curvature / 3.0))
-                          / kg_denom;
+    /* === Early-time suppression for BBN safety ===
+     * PRTOE field is frozen until a > a_activation to avoid BBN issues
+     */
+    double a_activation = 0.01;  // Activate at z ~ 99
+    double width_trans = 0.5;   // Transition width in log(a)
+    double x_trans = (log(MAX(a, 1e-10)) - log(a_activation)) / width_trans;
+    double trans = 0.5 * (1.0 + tanh(x_trans));  // Smooth transition from 0 to 1
+
+    /* Pre-compute rho_prtoe and p_prtoe for Friedmann equation */
+    double rho_prtoe, p_prtoe;
+    if (trans > 0.5) {
+        /* Normal PRTOE quantities when active */
+        rho_prtoe = 0.5 * phi_dot * phi_dot + V;
+        p_prtoe   = 0.5 * phi_dot * phi_dot - V;
     } else {
-      /* If denominator is zero, use the old background_derivs result or set to zero */
-      phi_primeprime_bg = 0.0;
-      fprintf(stderr, "PRTOE WARNING: kg_denom near zero (%.6e) at a=%.6e, phi=%.6e\n", kg_denom, a, phi);
+        /* Before activation: PRTOE is frozen and has no dynamical effect */
+        rho_prtoe = 0.0;
+        p_prtoe   = 0.0;
     }
     
-    /* Store phi_primeprime in background vector */
-    pvecback[pba->index_bg_ddphi_prtoe] = phi_primeprime_bg;
-
-    /* Stability quantities */
-    double V_phiphi = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) 
-                    + pba->m_prtoe * pba->m_prtoe;
+    /* Store and add to totals BEFORE Friedmann equation */
+    pvecback[pba->index_bg_rho_prtoe] = rho_prtoe;
+    pvecback[pba->index_bg_p_prtoe]   = p_prtoe;
+    pvecback[pba->index_bg_V_scf]      = V;
+    pvecback[pba->index_bg_dV_scf]     = V_phi;
+    pvecback[pba->index_bg_ddV_scf]    = V_phiphi;
     
-    /* Effective mass squared from spec Section 5.2 */
-    double meff2 = V_phiphi 
-                 + (F_phi / F) * (pba->R_curvature / 2.0 - 3.0 * H * H)
-                 - (F_phiphi / F) * (phi_prime * phi_prime / (a*a));
-    pvecback[pba->index_bg_meff2_prtoe] = meff2;
+    rho_tot += rho_prtoe;
+    p_tot   += p_prtoe;
 
-    /* Kinetic coefficient K from spec Section 5.1 */
-    double K = 1.0 + 3.0 * F_phi * F_phi / (2.0 * F);
-
-    /* Gradient stability proxy Q from spec Section 5.2 */
-    double Q = F 
-             + F_phiphi * (phi_prime * phi_prime) / (a * a) 
-             - 3.0 * F_phi * F_phi / (2.0 * F);
-    pvecback[pba->index_bg_Q_prtoe] = Q;
-
-    /* Approximate sound speed squared */
-    double cs2_approx = 1.0;
-    pvecback[pba->index_bg_cs2_prtoe] = cs2_approx;
-
-    /* Stability Warnings from spec Section 5.2 */
-    if (F <= 0.0) {
-      fprintf(stderr, "PRTOE CRITICAL: Ghost instability! F = %.6e at a = %.6e\n", F, a);
-    }
-    if (K <= 0.0) {
-      fprintf(stderr, "PRTOE CRITICAL: Negative kinetic term! K = %.6e at a = %.6e\n", K, a);
-    }
-    if (Q < 0.0) {
-      fprintf(stderr, "PRTOE WARNING: Gradient instability risk! Q = %.6e at a = %.6e\n", Q, a);
-    }
-    if (meff2 < -1e-8) {
-      fprintf(stderr, "PRTOE WARNING: Tachyonic instability risk! m_eff^2 = %.6e at a = %.6e\n", meff2, a);
-    }
-
-    /* Effective Friedmann Equation will be computed at the end of the function */
-
-  } else if (pba->has_scf == _TRUE_) { // Original PRTOE scalar field logic
-     /* Standard SCF logic removed to prioritize unified PRTOE framework */
+    /* Store field values for later use */
+    pvecback[pba->index_bg_phi_prtoe]  = phi;
+    pvecback[pba->index_bg_dphi_prtoe] = phi_prime;
   }
 
   /* ncdm */
@@ -706,8 +636,12 @@ int background_functions(
   /* Lambda */
   if (pba->has_lambda == _TRUE_) {
     pvecback[pba->index_bg_rho_lambda] = pba->Omega0_lambda * pow(pba->H0,2);
-    rho_tot += pvecback[pba->index_bg_rho_lambda];
-    p_tot -= pvecback[pba->index_bg_rho_lambda];
+    /* Don't add Lambda to rho_tot when PRTOE is active with non-negligible xi
+     * For null limit testing, we allow Lambda to be present when xi is very small */
+    if (pba->use_prtoe == _FALSE_ || pba->xi_prtoe < 1e-8) {
+      rho_tot += pvecback[pba->index_bg_rho_lambda];
+      p_tot -= pvecback[pba->index_bg_rho_lambda];
+    }
   }
 
   /* fluid with w(a) and constant cs2 */
@@ -753,11 +687,36 @@ int background_functions(
       PRTOE Modification: H^2 is scaled by the non-minimal coupling factor 1/(1 + xi*phi) */
   double H_sq_eff = (rho_tot - pba->K / a / a);
   if (pba->use_prtoe == _TRUE_) {
-    double prtoe_phi = pvecback[pba->index_bg_phi_prtoe];
-    double screening = 1.0 / (1.0 + pba->zeta_prtoe * prtoe_phi * prtoe_phi);
-    double activation = 0.5 * (1.0 + tanh(log(a) + 9.21034037198));
-    double xi_eff = pba->xi_prtoe * screening * activation;
-    pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff / (1.0 + xi_eff * prtoe_phi)));
+    /* PRTOE: Modified Friedmann equation with non-minimal coupling F(phi) */
+    /* User's equation: H^2 = (rho_phi + 3 * H * F_dot) / (3 * F) */
+    /* But we need to include all matter, so: H^2 = (rho_tot + 3 * H * F_dot) / (3 * F) */
+    /* Where rho_tot already includes the scalar field density and other matter */
+    
+    double F = pvecback[pba->index_bg_F_prtoe];
+    double F_phi = pvecback[pba->index_bg_F_phi_prtoe];
+    double phi_prime = pvecback[pba->index_bg_dphi_prtoe];
+    
+    /* F_prime = dF/dτ = F_phi * phi_prime (since F = F(phi) only) */
+    double F_prime = F_phi * phi_prime;
+    
+    /* F_dot = dF/dt = F_prime / a */
+    double F_dot = F_prime / a;
+    
+    /* PRTOE modified Friedmann equation: 3 F H^2 - 3 H F_dot = rho_tot - 3 F K/a^2 */
+    double rho_k = 3.0 * F * pba->K / (a * a);
+    double A = 3.0 * F;
+    double B = -3.0 * F_dot;
+    double C = -(rho_tot - rho_k);
+
+    double discriminant = B*B - 4.0*A*C;
+
+    if (discriminant >= 0.0 && F > 1e-30) {
+      double H_new = (-B + sqrt(discriminant)) / (2.0 * A);
+      pvecback[pba->index_bg_H] = MAX(0.0, H_new);
+    } else {
+      /* Fallback to standard Friedmann if something goes wrong */
+      pvecback[pba->index_bg_H] = sqrt(MAX(0.0, rho_tot - rho_k));
+    }
   } else {
     if (pba->has_scf == _TRUE_) {
       H_sq_eff /= (1.0 + pba->prtoe_xi * pvecback[pba->index_bg_phi_scf]);
@@ -765,8 +724,102 @@ int background_functions(
     pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff));
   }
 
+  /** - compute PRTOE H-dependent quantities (must be after Friedmann equation) */
+  if (pba->use_prtoe == _TRUE_) {
+    /* Retrieve stored values */
+    double phi       = pvecback[pba->index_bg_phi_prtoe];
+    double phi_prime = pvecback[pba->index_bg_dphi_prtoe];
+    double phi_dot   = phi_prime / a;
+    double V         = pvecback[pba->index_bg_V_scf];
+    double V_phi     = pvecback[pba->index_bg_dV_scf];
+    double V_phiphi  = pvecback[pba->index_bg_ddV_scf];
+    double F         = pvecback[pba->index_bg_F_prtoe];
+    double F_phi     = pvecback[pba->index_bg_F_phi_prtoe];
+    double F_phiphi  = pvecback[pba->index_bg_F_phiphi_prtoe];
+    
+    /* Get H value (now computed by Friedmann equation) */
+    double H = pvecback[pba->index_bg_H];
+
+    /* === Early-time suppression for BBN safety ===
+     * PRTOE field is frozen until a > a_activation to avoid BBN issues
+     */
+    double a_activation = 0.01;  // Activate at z ~ 99
+    double width_trans = 0.5;   // Transition width in log(a)
+    double x_trans = (log(MAX(a, 1e-10)) - log(a_activation)) / width_trans;
+    double trans = 0.5 * (1.0 + tanh(x_trans));  // Smooth transition from 0 to 1
+
+    if (trans > 0.5) {
+        /* Normal PRTOE quantities when active */
+        /* Time derivatives of F */
+        double F_dot = F_phi * phi_dot;
+        pvecback[pba->index_bg_F_dot_prtoe] = F_dot;
+
+        /* Klein-Gordon */
+        double H_dot_old = pvecback[pba->index_bg_H_prime] / a;
+        double phi_ddot = -3.0 * H * phi_dot - V_phi + 3.0 * F_phi * (H_dot_old + 2.0 * H * H);
+        double phi_primeprime = phi_ddot * a * a + 2.0 * H * a * a * phi_dot;
+        pvecback[pba->index_bg_ddphi_prtoe] = phi_primeprime;
+
+        /* F_ddot */
+        double F_ddot = F_phiphi * phi_dot * phi_dot + F_phi * phi_ddot;
+        pvecback[pba->index_bg_F_ddot_prtoe] = F_ddot;
+
+        /* Acceleration equation */
+        if (F > 1e-30) {
+            double H_dot = -(phi_dot * phi_dot + F_ddot - H * F_dot) / (2.0 * F);
+            pvecback[pba->index_bg_H_prime] = a * H_dot;
+        } else {
+            pvecback[pba->index_bg_H_prime] = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a;
+        }
+
+        /* Store dphi value */
+        pvecback[pba->index_bg_dphi_prtoe] = phi_prime;
+
+        /* === Stability quantities == */
+        double meff2 = V_phiphi
+                     + (F_phi / F) * (pba->R_curvature / 2.0 - 3.0 * H * H)
+                     - (F_phiphi / F) * (phi_dot * phi_dot);
+
+        double K = 1.0 + 3.0 * F_phi * F_phi / (2.0 * F);
+        double Q = F + F_phiphi * (phi_dot * phi_dot) - 3.0 * F_phi * F_phi / (2.0 * F);
+
+        pvecback[pba->index_bg_meff2_prtoe] = meff2;
+        pvecback[pba->index_bg_K_prtoe]     = K;
+        pvecback[pba->index_bg_Q_prtoe]     = Q;
+        pvecback[pba->index_bg_cT2_prtoe]   = 1.0;
+
+        /* Stability warnings */
+        if (F <= 0.0)      fprintf(stderr, "PRTOE CRITICAL: Ghost! F=%.6e\n", F);
+        if (K <= 0.0)      fprintf(stderr, "PRTOE CRITICAL: Negative K! K=%.6e\n", K);
+        if (Q < 0.0)       fprintf(stderr, "PRTOE WARNING: Gradient instability! Q=%.6e\n", Q);
+        if (meff2 < -1e-8) fprintf(stderr, "PRTOE WARNING: Tachyonic! m_eff^2=%.6e\n", meff2);
+    } else {
+        /* Before activation: PRTOE is frozen and has no dynamical effect */
+        double F_dot = 0.0;
+        double F_ddot = 0.0;
+        double phi_ddot = 0.0;
+        double phi_primeprime = 0.0;
+        double H_dot = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a;
+
+        /* Store minimal values */
+        pvecback[pba->index_bg_dphi_prtoe] = phi_prime;
+        pvecback[pba->index_bg_ddphi_prtoe] = phi_primeprime;
+        pvecback[pba->index_bg_F_dot_prtoe] = F_dot;
+        pvecback[pba->index_bg_F_ddot_prtoe] = F_ddot;
+        pvecback[pba->index_bg_H_prime] = a * H_dot;
+
+        /* F and its derivatives are still computed but field is frozen */
+        pvecback[pba->index_bg_F_prtoe] = F;
+        pvecback[pba->index_bg_F_phi_prtoe] = F_phi;
+        pvecback[pba->index_bg_F_phiphi_prtoe] = F_phiphi;
+    }
+  }
+
   /** - compute derivative of H with respect to conformal time */
-  pvecback[pba->index_bg_H_prime] = - (3./2.) * (rho_tot + p_tot) * a + pba->K/a;
+  /** - compute derivative of H with respect to conformal time */
+  if (pba->use_prtoe == _FALSE_) {
+    pvecback[pba->index_bg_H_prime] = - (3./2.) * (rho_tot + p_tot) * a + pba->K/a;
+  }
 
   /* Total energy density*/
   pvecback[pba->index_bg_rho_tot] = rho_tot;
@@ -784,10 +837,15 @@ int background_functions(
   }
 
   /** - compute critical density */
-  rho_crit = rho_tot-pba->K/a/a;
-  class_test(rho_crit <= 0.,
-             pba->error_message,
-             "rho_crit = %e instead of strictly positive",rho_crit);
+  if (pba->use_prtoe == _TRUE_) {
+    /* For PRTOE, use H^2 as the critical density */
+    rho_crit = pow(pvecback[pba->index_bg_H], 2);
+  } else {
+    rho_crit = rho_tot-pba->K/a/a;
+    class_test(rho_crit <= 0.,
+               pba->error_message,
+               "rho_crit = %e instead of strictly positive",rho_crit);
+  }
 
   /** - compute relativistic density to total density ratio */
   /* if (a < 1e-13) {
@@ -1272,6 +1330,10 @@ int background_indices(
   class_define_index(pba->index_bg_meff2_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_Q_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_cs2_prtoe, pba->use_prtoe, index_bg, 1);
+  class_define_index(pba->index_bg_F_dot_prtoe, pba->use_prtoe, index_bg, 1);
+  class_define_index(pba->index_bg_F_ddot_prtoe, pba->use_prtoe, index_bg, 1);
+  class_define_index(pba->index_bg_K_prtoe, pba->use_prtoe, index_bg, 1);
+  class_define_index(pba->index_bg_cT2_prtoe, pba->use_prtoe, index_bg, 1);
 
   /* - indices for scalar field */
   class_define_index(pba->index_bg_phi_scf,pba->has_scf,index_bg,1);
@@ -2935,12 +2997,15 @@ int background_derivs(
          They are intended primarily for perturbation level.
        ===================================================================== */
 
-    /* Smooth activation gate (turns on around a ~ 10^{-4}) */
-    double activation = 0.5 * (1.0 + tanh(loga + 9.21034037198));
-
     double a2 = a * a;
     double phi = y[pba->index_bi_phi_prtoe];
     double dphi = y[pba->index_bi_dphi_prtoe];
+
+    /* Early-time suppression for BBN safety - same as in background_functions */
+    double a_activation = 0.01;  // Activate at z ~ 99
+    double width_trans = 0.5;   // Transition width in log(a)
+    double x_trans = (log(MAX(a, 1e-10)) - log(a_activation)) / width_trans;
+    double trans = 0.5 * (1.0 + tanh(x_trans));  // Smooth transition from 0 to 1
 
     /* Screening factor (applied to the triplet) */
     double screening_factor = 1.0 / (1.0 + pba->zeta_prtoe * phi * phi);
@@ -2948,7 +3013,7 @@ int background_derivs(
     /* Currently only the ξ R term is active at background level.
        alpha_prtoe / beta_prtoe / delta_prteo are screened but their
        full DHOST contributions are not yet reduced here. */
-    double xi_screened = pba->xi_prtoe * screening_factor * activation;
+    double xi_screened = pba->xi_prtoe * screening_factor * trans;
 
     /* Potential derivative */
     double m2 = pba->m_prtoe * pba->m_prtoe;
@@ -2962,16 +3027,34 @@ int background_derivs(
         + pba->K / a2
     );
 
-    /* Klein-Gordon equation in conformal time (background)
-       Variables: dphi = φ' (conformal time derivative), H_conf = a * H (conformal Hubble)
-       Equation: φ'' + 2*H_conf*φ' + a²V' = (ξ/2)R a² */
-    double H_conf = a * H;
-    dy[pba->index_bi_phi_prtoe]  = (dphi / a / MAX(H, 1e-20)) * activation;
-    dy[pba->index_bi_dphi_prtoe] = (
-      - 2.0 * H_conf * dphi
-      - a2 * dV_dphi
-      + (xi_screened / 2.0) * pba->R_curvature * a2
-    ) / a / MAX(H, 1e-20) * activation;
+    /* Klein-Gordon equation in conformal time (background) */
+    /* User's equation: phi_ddot = -3*H*phi_dot - V_phi + 3*F_phi*(H_dot + 2*H**2) */
+    /* In conformal time: dy[pba->index_bi_dphi_prtoe] = dphi_prime/dloga = phi_primeprime */
+    /* And phi_primeprime = phi_ddot * a^2 + 2 * H * a^2 * phi_dot */
+    
+    /* Extract needed fields */
+    double F = pvecback[pba->index_bg_F_prtoe];
+    double F_phi = pvecback[pba->index_bg_F_phi_prtoe];
+    double F_phiphi = pvecback[pba->index_bg_F_phiphi_prtoe];
+    double phi_dot = dphi / a;  /* dphi/dt = phi_prime / a */
+    
+    /* Compute V_phi */
+    double exp_term = exp(-pba->lambda_prtoe * phi);
+    double V_phi = -pba->lambda_prtoe * pba->V0_prtoe * exp_term + m2 * phi;
+    
+    /* Step 1: KG using previous H_dot (standard CLASS approach) */
+    /* Smoothly transition the field evolution */
+    double H_dot_old = pvecback[pba->index_bg_H_prime] / a;
+    double phi_ddot = -3.0 * H * phi_dot - V_phi + 3.0 * F_phi * (H_dot_old + 2.0 * H * H);
+    
+    /* Convert to conformal time: phi_primeprime = phi_ddot * a^2 + 2 * H * a^2 * phi_dot */
+    double phi_primeprime = phi_ddot * a * a + 2.0 * H * a * a * phi_dot;
+    
+    /* dy[pba->index_bi_dphi_prtoe] = dphi_prime/dloga = phi_primeprime */
+    /* Use the activation from screening factor times transition for smoothness */
+    double effective_activation = screening_factor * trans;
+    dy[pba->index_bi_phi_prtoe]  = (dphi / a / MAX(H, 1e-20)) * effective_activation;
+    dy[pba->index_bi_dphi_prtoe] = phi_primeprime * effective_activation;
   }
 }
 

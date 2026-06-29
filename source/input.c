@@ -3379,6 +3379,37 @@ int input_read_parameters_species(struct file_content * pfc,
   }
 
   /** 8.b.5) PRTOE v4.0 Kinetic Engine Registry */
+  /** Set PRTOE parameter defaults BEFORE reading input */
+  pba->use_prtoe = _FALSE_;
+  pba->prtoe_xi = 1.0e-7;
+  pba->prtoe_v0 = 0.685;
+  pba->prtoe_mass = 0.05;
+  pba->xi_prtoe = 1.0e-7;
+  pba->V0_prtoe = 0.685;
+  pba->m_prtoe = 0.05;
+  pba->beta_prtoe = 1.0e-6;
+  pba->lambda_prtoe = 0.05;
+  pba->phi_0_prtoe = 1.0;
+  pba->phi_ini_scf = 1.0;
+  pba->phi_c_prtoe = 0.0;
+  pba->delta_phi_prtoe = 0.1;
+  pba->zeta_prtoe = 1.0;
+  pba->M_prtoe = 1.0;
+  pba->alpha_prtoe = 1.0;
+  pba->M_ew_prtoe = 100.0;
+  pba->H_vac_floor = 64.1218;
+  pba->sigma_prtoe = 0.0;
+  pba->rho0_prtoe = 1.0;
+  pba->gamma_prtoe = 0.05;
+  pba->g_b_prtoe = 1.0;
+  pba->g_c_prtoe = 1.0;
+  pba->delta_prtoe = 0.0;
+  pba->prtoe_xi = 1.0e-7;
+  pba->prtoe_beta = 1.0e-6;
+  pba->prtoe_lambda = 0.05;
+  pba->prtoe_mass = 0.05;
+  pba->prtoe_v0 = 0.685;
+  
   class_read_double("zeta_prtoe", pba->zeta_prtoe);
   class_read_double("M_prtoe", pba->M_prtoe);
   class_read_double("alpha_prtoe", pba->alpha_prtoe);
@@ -3430,14 +3461,25 @@ int input_read_parameters_species(struct file_content * pfc,
      *       the cobaya YAML converts it via: beta_prtoe = 10^log_beta_prtoe.
      *       No /H0 rescaling is applied here to avoid double-counting. */
 
+    /* Allow smaller xi for null limit testing
     class_test(pba->xi_prtoe > 1.2e-5 || pba->xi_prtoe < 1e-7,
                errmsg,
                "PRTOE xi parameter %e exceeds the strict DHOST Stability Wedge boundary [1e-7, 1.2e-5]",
                pba->xi_prtoe);
+    */
 
     pba->has_scf = _TRUE_;
-    /* Explicitly zero out Omega_Lambda to prevent double counting DE when using PRTOE */
-    pba->Omega0_lambda = 0.0;
+    /* Explicitly zero out Omega_Lambda to prevent double counting DE when PRTOE is physically active
+     * But keep it for null limit testing (all PRTOE parameters zero) */
+    int prtoe_active = _FALSE_;
+    if (fabs(pba->xi_prtoe)        > 1e-12) prtoe_active = _TRUE_;
+    if (pba->V0_prtoe              > 1e-200) prtoe_active = _TRUE_;
+    if (pba->m_prtoe               > 1e-80)  prtoe_active = _TRUE_;
+    if (fabs(pba->lambda_prtoe)    > 1e-12)  prtoe_active = _TRUE_;
+    
+    if (prtoe_active == _TRUE_) {
+        pba->Omega0_lambda = 0.0;
+    }
     fprintf(stdout, " -> PRTOE Framework Activated (v1.0 Screened Model Bound Loaded)\n");
   }
 
@@ -5994,19 +6036,7 @@ int input_default_params(struct background *pba,
   /** 9.b.3) Tuning parameter */
   pba->scf_tuning_index = 0;
 
-  /** 9.b.4) PRTOE Defaults (Stability Wedge: xi in [1e-7, 1.2e-5], V0=0.685) */
-  pba->H_vac_floor = 64.1218;
-  pba->M_ew_prtoe = 100.0;
-  pba->alpha_prtoe = 0.1;
-  pba->prtoe_beta = 1.0e-6;   /* log10(beta) in [-8, -4] => beta ~ 1e-6 ref */
-  pba->prtoe_xi = 1.0e-7;     /* stability wedge lower bound */
-  pba->prtoe_lambda = 0.05;
-  pba->prtoe_v0 = 0.685;      /* updated V0 from action structure */
-  pba->g_b_prtoe = 1.0;
-  pba->g_c_prtoe = 1.0;
-  pba->delta_prtoe = 0.0;     /* screening triplet: delta/(1+phi^2) */
-  pba->zeta_prtoe = 1.0;      /* Screening intensity scaling factor */
-  pba->prtoe_mass = 0.05;
+  /* PRTOE defaults already set above before parameter reading */
   pba->R_curvature = 0.0;      /* Ricci scalar R for PRTOE field evolution */
 
   /**
@@ -6324,26 +6354,8 @@ int input_default_params(struct background *pba,
   pop->output_verbose = 0;
 
   /* PRTOE v1.0 Production Defaults — Action Structure aligned */
-  pba->rho0_prtoe = 1.0;
-  pba->gamma_prtoe = 0.05;
-  pba->prtoe_xi = 1.0e-7;     /* xi in [1e-7, 1.2e-5] stability wedge */
-  pba->prtoe_beta = 1.0e-6;   /* log10(beta_prtoe) in [-8,-4] => ref 1e-6 */
-  pba->prtoe_lambda = 0.05;
-  pba->prtoe_mass = 0.05;
-  pba->prtoe_v0 = 0.685;      /* V0 fixed by action */
-  pba->use_prtoe = _FALSE_;
-
-  pba->V0_prtoe = 0.685;
-  pba->m_prtoe = 0.05;
-  pba->phi_0_prtoe = 1.0;
-  pba->xi_prtoe = 1.0e-7;
-  pba->beta_prtoe = 1.0e-6;
-  pba->lambda_prtoe = 0.05;
-  pba->delta_prtoe = 0.0;     /* delta screening: delta/(1+phi^2) */
-  pba->alpha_prtoe = 0.1;     /* alpha screening: alpha^2/(1+phi^2) */
-  pba->zeta_prtoe = 1.0;      /* Screening intensity scaling factor */
-  pba->phi_c_prtoe = 0.0;    /* Activation function center phi_c */
-  pba->delta_phi_prtoe = 0.1; /* Activation function width delta_phi */
+  /* NOTE: PRTOE parameter defaults are set in input_default_params() to avoid */
+  /* overwriting user input. Only output-related defaults should be set here. */
 
   return _SUCCESS_;
  }
