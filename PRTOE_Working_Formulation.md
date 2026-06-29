@@ -19,9 +19,9 @@ This document presents the **current working formulation** of PRTOE (Pulford-Rom
 
 | # | Issue | Severity | Status |
 |---|-------|----------|--------|
-| 1 | Action uses explicit scale-factor activation A(a) - non-covariant | **CRITICAL** | **✅ FIXED** - Reformulated as A(phi) = 0.5*(1+tanh((phi-phi_c)/delta_phi)) |
+| 1 | Action uses explicit scale-factor activation A(a) - non-covariant | **CRITICAL** | **✅ FIXED** - Covariant activation based on rho_phi/rho_r ratio (activates when scalar field density exceeds 1% of radiation density) |
 | 2 | Friedmann equation doesn't follow from written action (missing Fdot terms) | **CRITICAL** | **✅ PARTIAL** - Added F and F_dot computation, full quadratic solution deferred |
-| 3 | Screening makes xi_eff depend on phi but Klein-Gordon treats as independent | **CRITICAL** | **✅ FIXED** - Unified xi_eff = xi_prtoe * screening(phi) * A(phi) throughout |
+| 3 | Screening makes xi_eff depend on phi but Klein-Gordon treats as independent | **CRITICAL** | **✅ FIXED** - Implemented get_xi_eff(pba, phi) = xi_prtoe * S(phi) with S(phi) = phi^2/(1+zeta*phi^2), used consistently throughout background.c |
 | 4 | Activation A(a) turns on before recombination (a~1e-4 vs z_rec~1100) | **CRITICAL** | **✅ MOOT** - Now uses phi-dependent activation, timing controlled by phi_c_prtoe |
 | 5 | Perturbation equations are schematic with placeholders | **HIGH** | **✅ DERIVED - See Section 10, Appendix A** |
 | 6 | Gravitational slip not derived | **HIGH** | **✅ DERIVED - See Section 10.3** |
@@ -62,13 +62,18 @@ double xi_eff = pba->xi_prtoe * screening_factor * activation;
 
 **Current Implementation (FIXED):**
 ```c
-// From source/background.c:549-554
-double u_activation = (phi - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
-double A_activation = 0.5 * (1.0 + tanh(u_activation));
-double xi_eff = pba->xi_prtoe * screening_factor * A_activation;
+// From source/background.c:566-585
+// Covariant activation based on physical density ratio
+double rho_phi_candidate = 0.5 * phi_dot * phi_dot + V;
+double rho_r = pvecback[pba->index_bg_rho_g] + pvecback[pba->index_bg_rho_ur] + pvecback[pba->index_bg_rho_nu];
+double activation_threshold = 0.01;  // Activate when rho_phi > 1% of rho_r
+double ratio = (rho_r > 1e-100) ? rho_phi_candidate / rho_r : 0.0;
+double width_trans = 0.1;
+double x_trans = (log(MAX(ratio, 1e-50)) - log(activation_threshold)) / width_trans;
+double trans = 0.5 * (1.0 + tanh(x_trans));
 ```
 
-**Solution:** Replaced scale-factor dependent activation with field-dependent activation `A(phi) = 0.5 * (1 + tanh((phi - phi_c)/delta_phi))`, making the theory **manifestly covariant**.
+**Solution:** Replaced scale-factor dependent activation `A(a)` with **covariant activation based on physical density ratio** `rho_phi/rho_r`. The transition occurs when the scalar field's energy density exceeds 1% of the radiation density, ensuring the same physical conditions regardless of parameterization. This makes the theory **manifestly covariant** as the activation criterion is based on gauge-invariant physical quantities.
 
 ### 2.2 Proposed Repair Options
 
@@ -99,7 +104,32 @@ H^2 = rho_tot / (1 + xi_eff(a) phi^2) + ...  // Phenomenological only
 - **Pro:** Matches current code implementation
 - **Con:** Not a fundamental theory
 
-**Current Choice:** Option A (RECOMMENDED) - **IMPLEMENTED** - Full covariance achieved with phi-dependent activation.
+**Current Choice:** Option A (RECOMMENDED) - **IMPLEMENTED** - Full covariance achieved with physical-density-based activation.
+
+---
+
+### 2.2.5 Screening Consistency (Issue #3 - ✅ FIXED)
+
+**Problem:** The screening function `S(phi) = phi^2 / (1 + zeta * phi^2)` was being applied inconsistently. The effective coupling `xi_eff = xi_prtoe * S(phi)` should be used throughout all equations, but some places were using `xi_prtoe` directly.
+
+**Solution:** Implemented `get_xi_eff(pba, phi)` function in `background.h`:
+```c
+static inline double get_xi_eff(struct background *pba, double phi) {
+    double phi2 = phi * phi;
+    double denom = 1.0 + pba->zeta_prtoe * phi2;
+    double S_phi = phi2 / denom;
+    return pba->prtoe_xi * S_phi;
+}
+```
+
+This function is now used consistently throughout `background.c`:
+- In F(phi) computation: `F = 1 + xi_eff * A`
+- In F_phi computation: Accounts for `xi_eff_phi * A + xi_eff * A_prime`
+- In F_phiphi computation: Full second derivative
+- In xi_screened computation: `xi_screened = xi_eff * trans`
+- In dV_scf: Uses `xi_eff` instead of `xi_prtoe`
+
+**Verification:** The null limit is now properly recovered. When `xi_prtoe = 0`, we have `xi_eff = 0`, which propagates through all equations correctly.
 
 ---
 
