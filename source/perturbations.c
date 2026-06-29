@@ -6597,11 +6597,9 @@ int perturbations_einstein(
 
   double G_eff_metric = 1.0;
   if (pba->use_prtoe == _TRUE_) {
-    double prtoe_phi_bg  = ppw->pvecback[pba->index_bg_phi_prtoe];
-    double screening = 1.0 / (1.0 + pba->zeta_prtoe * prtoe_phi_bg * prtoe_phi_bg);
-    double activation = 0.5 * (1.0 + tanh((log(a) - log(1e-4)) / 1.0));
-    double xi_eff = pba->xi_prtoe * screening * activation;
-    G_eff_metric = 1.0 / (1.0 + xi_eff * prtoe_phi_bg);
+    /* Use the pre-computed F(phi) from background */
+    double F = ppw->pvecback[pba->index_bg_F_prtoe];
+    G_eff_metric = 1.0 / F;
   }
 
   /** - sum up perturbations from all species */
@@ -9550,9 +9548,52 @@ int perturbations_derivs(double tau,
 
     if (pba->use_prtoe == _TRUE_) {
         dy[pv->index_pt_delta_phi] = y[pv->index_pt_ddelta_phi];
-        dy[pv->index_pt_ddelta_phi] = - 2.*a_prime_over_a*y[pv->index_pt_ddelta_phi]
-          - metric_continuity*ppw->pvecback[pba->index_bg_dphi_prtoe]
-          - (k2 + a2*ppw->pvecback[pba->index_bg_ddV_scf])*y[pv->index_pt_delta_phi];
+        
+        /* Get background quantities */
+        double phi_bg = ppw->pvecback[pba->index_bg_phi_prtoe];
+        double phi_prime_bg = ppw->pvecback[pba->index_bg_dphi_prtoe];
+        double V_phiphi = ppw->pvecback[pba->index_bg_ddV_scf];
+        double F = ppw->pvecback[pba->index_bg_F_prtoe];
+        double F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
+        double F_phiphi = ppw->pvecback[pba->index_bg_F_phiphi_prtoe];
+        
+        /* Metric potentials */
+        double Psi = ppw->pvecmetric[ppw->index_mt_psi];
+        double Phi = ppw->pvecmetric[ppw->index_mt_phi];
+        double Phi_prime = ppw->pvecmetric[ppw->index_mt_phi_prime];
+        
+        /* Compute delta_R (linearized Ricci scalar) */
+        /* For now, use simplified version; full expression requires Psi'' */
+        /* δR = -6a⁻²[Ψ'' + 4aHΨ' + (a''/a + 2aH²)Φ + (1/3)k²(Ψ-Φ)] */
+        double delta_R = -6.0 * (k2/3.0 * (Psi - Phi)) / a2;
+        
+        /* PRTOE perturbed Klein-Gordon equation from spec Section 3.1 */
+        /* δφ'' + 2H(1 + F_φ φ₀'/2F) δφ' */
+        /* + [k² + a² V_φφ - F_φ/F (φ₀'' + 2H φ₀') + F_φφ/F φ₀'²] δφ */
+        /* = -φ₀' (Ψ' + 3Φ') */
+        /* + F_φ/(2F) [φ₀'² (Ψ - 3Φ) - a² δR] */
+        /* + F_φφ φ₀'/F (δφ' - φ₀' Φ) */
+        /* + F_φφφ φ₀'²/(2F) δφ */
+        
+        /* For now, implement main terms; full equation requires φ₀'' and Ψ' */
+        double delta_phi = y[pv->index_pt_delta_phi];
+        double delta_phi_prime = y[pv->index_pt_ddelta_phi];
+        
+        /* Coefficient of δφ' */
+        double coeff_phi_prime = -2.0 * a_prime_over_a * (1.0 + F_phi * phi_prime_bg / (2.0 * F));
+        
+        /* Coefficient of δφ (simplified - missing φ₀'' term) */
+        double coeff_phi = - (k2 + a2 * V_phiphi + F_phiphi / F * phi_prime_bg * phi_prime_bg);
+        
+        /* Source terms */
+        double source = - phi_prime_bg * (3.0 * Phi_prime)  /* -φ₀' (3Φ') - missing Ψ' */
+                      + F_phi / (2.0 * F) * (phi_prime_bg * phi_prime_bg * (Psi - 3.0 * Phi) - a2 * delta_R)
+                      + F_phiphi * phi_prime_bg / F * (delta_phi_prime - phi_prime_bg * Phi);
+        
+        /* TODO: Add terms requiring φ₀'' and Ψ' */
+        /* TODO: Add F_φφφ term */
+        
+        dy[pv->index_pt_ddelta_phi] = coeff_phi_prime * delta_phi_prime + coeff_phi * delta_phi + source;
     }
 
     /** - ---> ultra-relativistic neutrino/relics (ur) */
