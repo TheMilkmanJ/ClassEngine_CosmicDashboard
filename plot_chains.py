@@ -598,8 +598,6 @@ def main(args, first_run=False):
         audit_output = "\n".join(audit_lines)
         print(audit_output)
         try:
-            # Safely clear the terminal log so the UI doesn't lag from thousands of lines of output
-            open(f"{output_prefix}.log", "w").close()
             with open(f"{output_prefix}.log", "a") as lf:
                 lf.write(audit_output + "\n")
         except Exception:

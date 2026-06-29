@@ -18,10 +18,11 @@ def get_output_prefix_from_yaml(config_path: str) -> str:
         pass
     
     # Sanitize prefix to prevent path traversal
-    abs_path = os.path.abspath(prefix)
-    allowed_dir = os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.abspath("/home/themilkmanj")
-    allowed_dir = os.path.abspath(allowed_dir)
-    if not abs_path.startswith(allowed_dir):
+    abs_path = Path(prefix).resolve()
+    allowed_dir = Path(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.expanduser("~")).resolve()
+    try:
+        abs_path.relative_to(allowed_dir)
+    except ValueError:
         raise HTTPException(status_code=400, detail="Path traversal detected in YAML 'output' configuration.")
     return prefix
 
@@ -223,10 +224,11 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
 def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
     """Fixed, non-duplicated version of get_best_fit_details."""
     # Sanitize output_prefix to prevent directory traversal
-    abs_path = os.path.abspath(output_prefix)
-    allowed_dir = os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.abspath("/home/themilkmanj")
-    allowed_dir = os.path.abspath(allowed_dir)
-    if not abs_path.startswith(allowed_dir):
+    abs_path = Path(output_prefix).resolve()
+    allowed_dir = Path(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.expanduser("~")).resolve()
+    try:
+        abs_path.relative_to(allowed_dir)
+    except ValueError:
         raise HTTPException(status_code=400, detail="Access denied: invalid output prefix path.")
 
     log_file = Path(f"{output_prefix}.log")
@@ -292,24 +294,27 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
             
             if fpath_str not in raw_file_positions or file_size < raw_file_positions[fpath_str]:
                 raw_file_positions[fpath_str] = 0
+                best_fit_file_cache.pop(fpath_str, None)
                 
             current_best = best_fit_file_cache.get(fpath_str)
             best_chi2_this_file = current_best["total"] if current_best else float('inf')
             best_fit_this_file = current_best
             
             with open(fpath, 'r', errors='ignore') as f:
-                f.seek(raw_file_positions[fpath_str])
-                
-                # Check for header in final_file
+                # Check for header in final_file and seek to cached position
                 has_header = False
                 names_in_header = []
-                if ftype == "final" and raw_file_positions[fpath_str] == 0:
+                if ftype == "final":
                     first_line = f.readline()
                     if first_line.startswith('#'):
                         has_header = True
                         names_in_header = first_line.lstrip('#').strip().split()
+                        if raw_file_positions[fpath_str] > 0:
+                            f.seek(raw_file_positions[fpath_str])
                     else:
-                        f.seek(0)
+                        f.seek(raw_file_positions[fpath_str])
+                else:
+                    f.seek(raw_file_positions[fpath_str])
                 
                 for line in f:
                     if line.strip().startswith('#'):
@@ -374,7 +379,8 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
                                 other_vals = []
                                 
                                 has_cmb_group = any(k.startswith('chi2__') and ('cmb' in k.lower() or 'planck' in k.lower()) for k in raw_params.keys())
-                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() or 'boss' in k.lower() or 'desi' in k.lower()) for k in raw_params.keys())
+                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() or 'boss' in k.lower()) for k in raw_params.keys())
+                                has_desi_group = any(k.startswith('chi2__') and 'desi' in k.lower() for k in raw_params.keys())
                                 has_sn_group = any(k.startswith('chi2__') and ('sn' in k.lower() or 'pantheon' in k.lower() or 'shoes' in k.lower()) for k in raw_params.keys())
                                 has_lensing_group = any(k.startswith('chi2__') and ('lensing' in k.lower() or 'lens' in k.lower()) for k in raw_params.keys())
                                 
@@ -386,7 +392,9 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
                                         k_lower = k.lower()
                                         if has_cmb_group and ('cmb' in k_lower or 'planck' in k_lower):
                                             continue
-                                        if has_bao_group and ('bao' in k_lower or 'boss' in k_lower or 'desi' in k_lower):
+                                        if has_bao_group and ('bao' in k_lower or 'boss' in k_lower):
+                                            continue
+                                        if has_desi_group and 'desi' in k_lower:
                                             continue
                                         if has_sn_group and ('sn' in k_lower or 'pantheon' in k_lower or 'shoes' in k_lower):
                                             continue
@@ -396,9 +404,13 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
                                     val = -2.0 * v if k.startswith('loglike__') else v
                                     k_lower = k.lower()
                                     
-                                    if 'desi' in k_lower or 'bao' in k_lower or 'boss' in k_lower:
+                                    if 'desi' in k_lower:
+                                        desi_vals.append(val)
+                                    elif 'bao' in k_lower or 'boss' in k_lower:
                                         bao_vals.append(val)
-                                    elif 'lensing' in k_lower or 'lens' in k_lower or 'cmb' in k_lower or 'planck' in k_lower:
+                                    elif 'lensing' in k_lower or 'lens' in k_lower:
+                                        lensing_vals.append(val)
+                                    elif 'cmb' in k_lower or 'planck' in k_lower:
                                         cmb_vals.append(val)
                                     elif 'sn' in k_lower or 'pantheon' in k_lower or 'shoes' in k_lower:
                                         sn_vals.append(val)

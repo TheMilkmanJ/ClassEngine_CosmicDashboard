@@ -1,26 +1,62 @@
 import os
 import sys
 import shutil
+import subprocess
 from pathlib import Path
 
 # Paths
-project_dir = Path("/home/themilkmanj/prtoe_class")
+project_dir = Path(__file__).resolve().parent.parent.parent
 assets_dir = project_dir / "dashboard" / "assets"
 assets_dir.mkdir(parents=True, exist_ok=True)
 
 dest_ico = assets_dir / "galaxy_icon.ico"
 dest_png = assets_dir / "galaxy_icon.png"
 
+def to_windows_path(linux_path: Path) -> str:
+    parts = list(linux_path.parts)
+    if len(parts) > 2 and parts[1] == 'mnt' and parts[2] == 'c':
+        return "C:\\" + "\\".join(parts[3:])
+    return str(linux_path)
+
 # 1. Create Windows Desktop Shortcut (.url file)
-# WSL maps the C drive to /mnt/c
-windows_desktop = Path("/mnt/c/Users/themi/Desktop")
-if not windows_desktop.exists():
-    windows_desktop = Path("/mnt/c/Users/themi/OneDrive/Desktop")
-if windows_desktop.exists():
+# Dynamically query Windows for the active Desktop path (handles OneDrive and custom paths)
+desktop_res = subprocess.run(
+    ["powershell.exe", "-NoProfile", "-Command", "[Environment]::GetFolderPath('Desktop')"],
+    capture_output=True,
+    text=True,
+)
+windows_desktop = None
+if desktop_res.returncode == 0 and desktop_res.stdout.strip():
+    wsl_res = subprocess.run(
+        ["wslpath", "-u", desktop_res.stdout.strip()],
+        capture_output=True,
+        text=True,
+    )
+    if wsl_res.returncode == 0:
+        windows_desktop = Path(wsl_res.stdout.strip())
+
+# Fallback: Scan /mnt/c/Users for valid Desktop directories if PowerShell query failed
+if not windows_desktop or not windows_desktop.exists():
+    users_dir = Path("/mnt/c/Users")
+    if users_dir.exists():
+        for user_folder in users_dir.iterdir():
+            if user_folder.is_dir() and user_folder.name not in ("All Users", "Default", "Default User", "Public"):
+                # Try OneDrive Desktop first
+                onedrive_desktop = user_folder / "OneDrive" / "Desktop"
+                if onedrive_desktop.exists():
+                    windows_desktop = onedrive_desktop
+                    break
+                # Try standard Desktop
+                std_desktop = user_folder / "Desktop"
+                if std_desktop.exists():
+                    windows_desktop = std_desktop
+                    break
+
+if windows_desktop and windows_desktop.exists():
     shortcut_path = windows_desktop / "CosmicDashboard.url"
     
     # Store the icon in a local Windows directory to avoid WSL UNC path loading issues
-    windows_app_dir = Path("/mnt/c/Users/themi/CosmicDashboardAssets")
+    windows_app_dir = windows_desktop / "CosmicDashboardAssets"
     try:
         windows_app_dir.mkdir(parents=True, exist_ok=True)
         local_win_ico = windows_app_dir / "galaxy_icon_v3.ico"
@@ -28,7 +64,7 @@ if windows_desktop.exists():
         print(f"Copied icon to Windows directory: {local_win_ico}")
         
         # Windows-style local path for the shortcut IconFile field
-        windows_icon_path = r"C:\Users\themi\CosmicDashboardAssets\galaxy_icon_v3.ico"
+        windows_icon_path = to_windows_path(local_win_ico)
         
         url_content = f"""[InternetShortcut]
 URL=http://localhost:8000/

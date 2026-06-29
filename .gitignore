@@ -46,7 +46,8 @@ chains/*.yaml
 chains/*.txt
 chains/*.resume
 chains/*.stats
-chains/dashboard_sessions.json
+chains/*.json
+chains/*.db
 chains/dashboard_backend.pid
 *.png
 !screenshots/*.png

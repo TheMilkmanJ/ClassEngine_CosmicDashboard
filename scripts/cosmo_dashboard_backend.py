@@ -261,6 +261,7 @@ def resolve_cobaya_runtime(engine: Optional[dict] = None) -> tuple:
 
     if conda_prefix and os.path.isdir(os.path.join(conda_prefix, "bin")):
         bin_dir = os.path.join(conda_prefix, "bin")
+        # Ensure conda bin is FIRST in PATH to use correct mpirun
         existing_path = env.get("PATH", "")
         env["PATH"] = bin_dir + os.pathsep + existing_path
         env["CONDA_PREFIX"] = conda_prefix
@@ -595,8 +596,6 @@ def anakin_skywalker_directive():
 
 def _kill_dashboard_child_processes(fast: bool = True):
     """Best-effort kill of Cobaya/monitor trees without blocking the event loop."""
-    # First, execute Anakin Skywalker Directive to clear orphans
-    anakin_skywalker_directive()
 
     for proc_attr in ("running_process", "monitor_process"):
         proc = getattr(state, proc_attr, None)
@@ -818,7 +817,7 @@ async def sanitize_paths_middleware(request: Request, call_next):
 async def dashboard_auth_middleware(request: Request, call_next):
     path = request.url.path
     # Use exact (method, path) matching to avoid prefix-matching security issues
-    public = {
+    public_exact = {
         ("POST", "/api/login"),
         ("POST", "/api/logout"),
         ("GET", "/api/health"),
@@ -829,8 +828,9 @@ async def dashboard_auth_middleware(request: Request, call_next):
         ("POST", "/api/validate_config"),
         ("GET", "/api/class_engines"),  # Only GET for listing engines, not POST for select/remove
         ("GET", "/api/derived_parameters"),
+        ("POST", "/api/derived_parameters"),
     }
-    if path.startswith("/api/") and (request.method, path) not in public:
+    if path.startswith("/api/") and (request.method, path) not in public_exact:
         # Cookie session first (remember me)
         token = request.cookies.get("dashboard_session")
         if token and token in DASHBOARD_SESSIONS:
@@ -983,7 +983,6 @@ def sanitize_config_name(name: str) -> str:
         raise HTTPException(status_code=400, detail="Invalid config name")
     abs_path = os.path.abspath(name)
     # Configurable workspace root (for Docker, other users, WSL etc.)
-    # Portable default: project root or cwd (no machine-specific hardcode)
     workspace_root = os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.getcwd()
     allowed_dir = os.path.abspath(workspace_root)
     try:
@@ -992,7 +991,6 @@ def sanitize_config_name(name: str) -> str:
         raise HTTPException(status_code=400, detail="Access denied: file must be located inside the allowed workspace directory.")
     if common != allowed_dir:
         raise HTTPException(status_code=400, detail="Access denied: file must be located inside the allowed workspace directory.")
-    # Return relative if possible, but keep abs for backward (callers expect abs in some places)
     return abs_path
 
 class LRUCacheWithTTL:
@@ -1059,6 +1057,7 @@ class StateManager:
         self.model_curves_cache = LRUCacheWithTTL(maxsize=50, ttl=300)
         self.rebuild_progress = {"status": "idle", "log": []}
         self.intentionally_stopped = False
+        self.derived_params_cache = {"params_hash": None, "engine_id": None, "derived": None}
 
     @property
     def best_fit_params(self):
@@ -1229,34 +1228,35 @@ FAILED_LOGIN_ATTEMPTS = _load_json_store(Path("chains/dashboard_failed_logins.js
 CLASS_ENGINES_DATA = _load_json_store(CLASS_ENGINES_FILE, {"engines": {}, "active_id": None})
 
 def _ensure_default_class_engine():
-    """Ensure at least one engine (the current workspace) exists on first use."""
+    """Ensure at least one engine (the current workspace) exists on first use,
+    and dynamically update its path to the current working directory for portability.
+    """
     global CLASS_ENGINES_DATA
     engines = CLASS_ENGINES_DATA.setdefault("engines", {})
-    if not engines:
-        cwd = str(Path.cwd().resolve())
-        default_id = "workspace"
-        engines[default_id] = {
-            "id": default_id,
+    cwd = str(Path.cwd().resolve())
+    changed = False
+
+    if "workspace" not in engines:
+        engines["workspace"] = {
+            "id": "workspace",
             "name": "Current Workspace CLASS",
             "class_path": cwd,
             "python_exe": None,
             "notes": "CLASS source tree at the dashboard working directory (includes PRTOE patches or any local modifications).",
             "last_built": None,
         }
-        CLASS_ENGINES_DATA["active_id"] = default_id
-        _save_json_store(CLASS_ENGINES_FILE, CLASS_ENGINES_DATA)
-        # Warn the user: cwd is almost certainly not a CLASS build tree. If classy
-        # is not found under this path, every run will fail with an ImportError.
-        # The user should register the correct CLASS build via the Engines panel.
-        log_dashboard_error(
-            f"[ENGINE] No CLASS engine registered. Defaulting to cwd='{cwd}'. "
-            "If CLASS is installed elsewhere, add the correct path via the Engines panel "
-            "or set the DASHBOARD_WORKSPACE_ROOT environment variable.",
-            console=True, level="warning"
-        )
-    elif CLASS_ENGINES_DATA.get("active_id") not in engines:
-        # pick first if active is invalid
-        CLASS_ENGINES_DATA["active_id"] = next(iter(engines.keys()))
+        changed = True
+    else:
+        # Dynamically update the path to ensure portability across different workstations/paths
+        if engines["workspace"].get("class_path") != cwd:
+            engines["workspace"]["class_path"] = cwd
+            changed = True
+
+    if not CLASS_ENGINES_DATA.get("active_id") or CLASS_ENGINES_DATA.get("active_id") not in engines:
+        CLASS_ENGINES_DATA["active_id"] = "workspace"
+        changed = True
+
+    if changed:
         _save_json_store(CLASS_ENGINES_FILE, CLASS_ENGINES_DATA)
 
 _ensure_default_class_engine()
@@ -1282,6 +1282,8 @@ def check_rate_limit(request: Request, endpoint: str, max_calls: int = 5, window
     key = f"{endpoint}:{ip}"
     if key not in RATE_LIMIT_STORE:
         RATE_LIMIT_STORE[key] = collections.deque()
+    elif not isinstance(RATE_LIMIT_STORE[key], collections.deque):
+        RATE_LIMIT_STORE[key] = collections.deque(RATE_LIMIT_STORE[key])
     times = RATE_LIMIT_STORE[key]
     # prune old - O(1) with deque
     cutoff = now - window_sec
@@ -1941,6 +1943,23 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
 async def _warm_cosmo_curves():
     """Pre-compute cosmo curves in the background so /api/status doesn't block."""
     try:
+        import psutil
+        has_cobaya = False
+        for proc in psutil.process_iter(['cmdline']):
+            try:
+                cmdline = proc.info.get('cmdline')
+                if cmdline and "cobaya" in " ".join(cmdline).lower():
+                    has_cobaya = True
+                    break
+            except Exception:
+                pass
+        if has_cobaya:
+            log_dashboard_error("[startup] Skipped curve warming because a Cobaya run is active on the system.", console=True)
+            return
+    except Exception as e:
+        log_dashboard_error(f"[startup] Cobaya process scan failed: {e}")
+
+    try:
         loop = asyncio.get_running_loop()
         result = await loop.run_in_executor(None, lambda: compute_cosmo_curves({}))
         state.cosmo_curves_cache = result
@@ -2029,13 +2048,42 @@ CLASS_DIRECT_CALL_STRIP_KEYS = frozenset({
     'smallest_allowed_variation',
     'stop_at_error',
     'S8',  # Never pass S8 to CLASS - it's a derived parameter computed from sigma8
+    'sigma8',  # Never pass sigma8 to CLASS - it's a derived parameter and causes shooting conflicts
 })
 
 def sanitize_class_direct_params(params: dict) -> dict:
     """Drop Cobaya-only / internal keys before classy.Class().set()."""
     cleaned = dict(params)
-    for k in CLASS_DIRECT_CALL_STRIP_KEYS:
-        cleaned.pop(k, None)
+    
+    # Convert logA to A_s if present and A_s is not set
+    if 'logA' in cleaned:
+        try:
+            if 'A_s' not in cleaned or cleaned['A_s'] is None:
+                import numpy as np
+                cleaned['A_s'] = 1e-10 * np.exp(float(cleaned['logA']))
+        except Exception:
+            pass
+        cleaned.pop('logA', None)
+        
+    # Convert log_beta_prtoe to beta_prtoe if present
+    if 'log_beta_prtoe' in cleaned:
+        try:
+            if 'beta_prtoe' not in cleaned or cleaned['beta_prtoe'] is None:
+                cleaned['beta_prtoe'] = 10**float(cleaned['log_beta_prtoe'])
+        except Exception:
+            pass
+        cleaned.pop('log_beta_prtoe', None)
+
+    # Strip nuisance parameters, likelihood columns, and other Cobaya-only flags
+    for k in list(cleaned.keys()):
+        k_lower = k.lower()
+        if (k_lower in ['a_planck', 'loga_ini', 'smallest_allowed_variation', 'stop_at_error', 's8', 'extra_args', 'sigma8', 'weight', 'minus2logpost', 'logpost']
+                or 'chi2__' in k_lower
+                or 'loglike__' in k_lower
+                or 'logprior__' in k_lower
+                or '__' in k_lower):
+            cleaned.pop(k, None)
+        
     return cleaned
 
 def normalize_prtoe_param_names(cfg: dict) -> bool:
@@ -2175,6 +2223,9 @@ def get_classy_import_paths():
     paths.append(engine["class_path"])
     return paths
 
+_LAST_LOADED_ENGINE_ID = None
+_CACHED_CLASS_CONSTRUCTOR = None
+
 def get_classy_for_engine(engine: dict | None = None):
     """Return the classy module configured for a specific engine (or the active one).
     Uses sys.path manipulation so different CLASS builds (different source trees/patches)
@@ -2182,10 +2233,29 @@ def get_classy_for_engine(engine: dict | None = None):
     Note: for completely incompatible API changes between engines, a dashboard restart or
     separate dashboard instance per engine is recommended.
     """
+    global _LAST_LOADED_ENGINE_ID, _CACHED_CLASS_CONSTRUCTOR
     if engine is None:
         engine = get_active_class_engine()
     if not engine or not engine.get("class_path"):
         raise ImportError("No active CLASS engine configured (class_path is empty)")
+    
+    engine_id = engine.get("id", "workspace")
+    if _LAST_LOADED_ENGINE_ID == engine_id and _CACHED_CLASS_CONSTRUCTOR is not None:
+        return _CACHED_CLASS_CONSTRUCTOR
+
+    if _LAST_LOADED_ENGINE_ID is None and "classy" in sys.modules:
+        try:
+            from classy import Class
+            class WrappedClass(Class):
+                def compute(self, *args, **kwargs):
+                    with _suppress_c_stderr():
+                        return super().compute(*args, **kwargs)
+            _LAST_LOADED_ENGINE_ID = engine_id
+            _CACHED_CLASS_CONSTRUCTOR = WrappedClass
+            return WrappedClass
+        except Exception:
+            pass
+
     orig_path = sys.path[:]
     try:
         added = []
@@ -2211,7 +2281,14 @@ def get_classy_for_engine(engine: dict | None = None):
             if "classy" in mod:
                 del sys.modules[mod]
         from classy import Class
-        return Class
+        class WrappedClass(Class):
+            def compute(self, *args, **kwargs):
+                with _suppress_c_stderr():
+                    return super().compute(*args, **kwargs)
+        
+        _LAST_LOADED_ENGINE_ID = engine_id
+        _CACHED_CLASS_CONSTRUCTOR = WrappedClass
+        return WrappedClass
     finally:
         # Restore original path (classy is already imported into sys.modules with its .so)
         sys.path[:] = orig_path
@@ -2255,6 +2332,11 @@ def make_class_instance(params: dict | None = None, engine: dict | None = None):
 
     if 'non_linear' not in params and 'non linear' not in params:
         params['non_linear'] = 'halofit'
+
+    # If non_linear is enabled, CLASS requires an output field (perturbations) to compute it.
+    if params.get('non_linear') or params.get('non linear'):
+        if not params.get('output'):
+            params['output'] = 'mPk'
 
     # Canonical names only for direct classy.set()
     for alias, canon in PRTOE_PARAM_ALIASES.items():
@@ -2329,7 +2411,7 @@ def compute_derived_cosmological_parameters(best_fit_params: dict, engine: dict 
 
         # Basic background
         try:
-            derived["H0"] = float(c.H0())
+            derived["H0"] = float(c.h() * 100.0) if hasattr(c, "h") else float(c.H0() * 299792.458)
         except: pass
         try:
             derived["age"] = float(c.age())  # Gyr
@@ -2536,8 +2618,8 @@ async def validate_config(req: ConfigValidateRequest = Body(...), request: Reque
         source = "inline"
     elif req.config_name:
         try:
-            p = Path(req.config_name)
-            # allow sanitize if not absolute? but for validate use similar
+            sanitized = sanitize_config_name(req.config_name)
+            p = Path(sanitized)
             if not p.exists():
                 raise HTTPException(status_code=404, detail="Config file not found for validation.")
             yaml_text = p.read_text(encoding="utf-8")
@@ -3086,28 +3168,30 @@ async def supported_models():
     }
 
 @app.websocket("/ws/status")
-async def websocket_status(websocket: WebSocket, token: str = None):
+async def websocket_status(websocket: WebSocket, token: Optional[str] = None):
     """WebSocket for real-time status updates (production UX: reduces polling, live feel for long runs)."""
-    # Authenticate via dashboard_session cookie or token query param
-    session_token = token or websocket.query_params.get("token")
-    cookie_token = websocket.cookies.get("dashboard_session")
-    auth_token = session_token or cookie_token
+    # Authenticate via dashboard_session cookie, token query param, or header
+    sess_token = token or websocket.query_params.get("token") or websocket.cookies.get("dashboard_session")
     
-    if not auth_token or auth_token not in DASHBOARD_SESSIONS:
-        await websocket.close(code=1008, reason="Unauthorized")
+    is_authed = False
+    req_pass = os.environ.get("DASHBOARD_PASS", "")
+    if not req_pass:
+        is_authed = True
+    elif sess_token and sess_token in DASHBOARD_SESSIONS:
+        sess = DASHBOARD_SESSIONS[sess_token]
+        if time.time() < sess.get("exp", 0):
+            is_authed = True
+        else:
+            DASHBOARD_SESSIONS.pop(sess_token, None)
+            
+    if not is_authed:
+        await websocket.close(code=1008, reason="Unauthorized or session expired")
         return
-    
-    # Check session expiration
-    sess = DASHBOARD_SESSIONS[auth_token]
-    if time.time() >= sess.get("exp", 0):
-        DASHBOARD_SESSIONS.pop(auth_token, None)
-        await websocket.close(code=1008, reason="Session expired")
-        return
-    
+
     await manager.connect(websocket)
     try:
         # Send initial status
-        initial_status = await get_status()  # reuse but careful with async
+        initial_status = await get_status()
         await websocket.send_json({"type": "status", "data": initial_status})
         while True:
             # Keep alive or listen for client messages (e.g. subscribe)
@@ -4233,6 +4317,8 @@ async def upload_config(file: UploadFile = File(...), request: Request = None):
         with open(upload_path, 'w') as f:
             yaml.dump(config_data, f, default_flow_style=False, sort_keys=False)
 
+        state.active_yaml_path = str(upload_path)
+
         return {"filename": file.filename, "message": "Configuration uploaded successfully (halofit+PRTOE names+engine/base_path ensured)."}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Could not save uploaded file: {e}")
@@ -4434,12 +4520,14 @@ async def start_run(config: RunConfig, request: Request = None):
         _build_env = os.environ.copy()
         _build_env["CFLAGS"] = "-O3 -march=native -ffast-math -ftree-vectorize"
         _build_env["CXXFLAGS"] = "-O3 -march=native -ffast-math -ftree-vectorize"
-        # Run make clean then make -j as separate, safe invocations (in the engine's tree if different)
-        make_clean = subprocess.run(["make", "clean"], capture_output=True, text=True, env=_build_env, cwd=build_cwd)
-        make_process = subprocess.run(
-            ["make", f"-j{config.cores}"],
-            capture_output=True, text=True, env=_build_env,
-            cwd=build_cwd
+        # Run make -j incrementally to avoid compiling the entire codebase from scratch
+        # Run in executor thread to prevent blocking ASGI event loop
+        make_process = await asyncio.to_thread(
+            lambda: subprocess.run(
+                ["make", f"-j{config.cores}"],
+                capture_output=True, text=True, env=_build_env,
+                cwd=build_cwd
+            )
         )
         build_time = time.time() - start_build
 
@@ -4609,15 +4697,14 @@ async def start_run(config: RunConfig, request: Request = None):
             start_new_session=True,
         )
 
-        # Check if process started successfully (wait a moment and check if it's still alive)
-        import time as time_module
-        time_module.sleep(0.5)
+        await asyncio.sleep(0.5)
         if state.running_process.poll() is None:
             # Process is alive — now safe to silence C-level stderr (PRTOE fprintf spam).
             # We deliberately did NOT do this at module-load time so that any launch errors
             # (missing modules, bad paths, MPI failures) were visible in stderr/logs.
             _suppress_stderr_for_run()
-        if state.running_process.poll() is not None:            # Process died immediately - read the log for errors
+        else:
+            # Process died immediately - read the log for errors
             log_dashboard_error(f"[CRASH] Process died immediately with exit code {state.running_process.returncode}", console=True)
             try:
                 with open(log_file_path, 'rb') as f:
@@ -5251,7 +5338,34 @@ async def get_derived_parameters():
         return {"status": "no_data", "message": "No best-fit parameters available yet. Run a model first."}
 
     engine = get_active_class_engine()
-    derived = compute_derived_cosmological_parameters(best_params, engine)
+    engine_id = engine.get("id") if engine else "default"
+    
+    # Hash best_params based on sorted items to use as cache key
+    params_hash = tuple(sorted((k, v) for k, v in best_params.items() if v is not None))
+    
+    # Safely retrieve cache from state
+    cache = getattr(state, "derived_params_cache", None)
+    if cache and cache.get("params_hash") == params_hash and cache.get("engine_id") == engine_id:
+        derived = cache["derived"]
+    elif getattr(state, "currently_evaluating_hash", None) == params_hash:
+        return {"status": "evaluating", "message": "Derived parameters computation is already in progress in the thread pool."}
+    else:
+        state.currently_evaluating_hash = params_hash
+        try:
+            # Run in thread pool to avoid blocking the main event loop
+            loop = asyncio.get_running_loop()
+            derived = await loop.run_in_executor(None, lambda: compute_derived_cosmological_parameters(best_params, engine))
+            # Update cache
+            state.derived_params_cache = {
+                "params_hash": params_hash,
+                "engine_id": engine_id,
+                "derived": derived
+            }
+        finally:
+            if getattr(state, "currently_evaluating_hash", None) == params_hash:
+                state.currently_evaluating_hash = None
+
+    derived = dict(derived)  # avoid mutating cache contents
     derived["computed_at"] = time.strftime('%Y-%m-%d %H:%M:%S')
     derived["engine"] = engine.get("name") if engine else "default"
     return {"status": "success", "derived": derived}
@@ -5343,7 +5457,53 @@ async def compute_custom_derived(req: dict = Body(...)):
     expressions = req.get("expressions", [])
     engine = get_active_class_engine()
     best_params = get_current_best_fit_params()
-    base = compute_derived_cosmological_parameters(best_params, engine)
+    
+    engine_id = engine.get("id") if engine else "default"
+    params_hash = tuple(sorted((k, v) for k, v in best_params.items() if v is not None))
+    
+    # Check cache first
+    cache = getattr(state, "derived_params_cache", None)
+    if cache and cache.get("params_hash") == params_hash and cache.get("engine_id") == engine_id:
+        base = cache["derived"]
+    else:
+        loop = asyncio.get_running_loop()
+        base = await loop.run_in_executor(None, lambda: compute_derived_cosmological_parameters(best_params, engine))
+        state.derived_params_cache = {
+            "params_hash": params_hash,
+            "engine_id": engine_id,
+            "derived": base
+        }
+        
+    # Safe AST evaluator for user expressions (prevents arbitrary eval execution)
+    import ast
+    import operator
+    _ops = {
+        ast.Add: operator.add, ast.Sub: operator.sub, ast.Mult: operator.mul,
+        ast.Div: operator.truediv, ast.Pow: operator.pow,
+        ast.USub: operator.neg, ast.UAdd: operator.pos
+    }
+    def _eval_ast(node):
+        if isinstance(node, ast.Expression):
+            return _eval_ast(node.body)
+        elif isinstance(node, ast.Constant):
+            if isinstance(node.value, (int, float)): return node.value
+            raise TypeError("Only numeric values allowed")
+        elif isinstance(node, ast.Num):  # Compatibility
+            return node.n
+        elif isinstance(node, ast.Name):
+            if node.id in safe_dict: return safe_dict[node.id]
+            raise NameError(f"Variable '{node.id}' not allowed or defined")
+        elif isinstance(node, ast.BinOp):
+            op_type = type(node.op)
+            if op_type in _ops:
+                return _ops[op_type](_eval_ast(node.left), _eval_ast(node.right))
+            raise TypeError(f"Operator {op_type.__name__} not allowed")
+        elif isinstance(node, ast.UnaryOp):
+            op_type = type(node.op)
+            if op_type in _ops: return _ops[op_type](_eval_ast(node.operand))
+            raise TypeError(f"Operator {op_type.__name__} not allowed")
+        raise TypeError("Expression type not allowed")
+
     results = {}
     safe_dict = {k: v for k, v in base.items() if isinstance(v, (int, float))}
     safe_dict.update({k: v for k, v in best_params.items() if isinstance(v, (int, float))})
@@ -5736,9 +5896,9 @@ def get_adjustable_params_from_yaml(yaml_path: str = None):
         return []
 
 @app.get("/api/playground_params")
-async def playground_params():
+async def playground_params(config_name: Optional[str] = None):
     """Return adjustable parameters from current model YAML for generalized sliders."""
-    params = get_adjustable_params_from_yaml()
+    params = get_adjustable_params_from_yaml(config_name)
     return {"params": params, "note": "Sliders for any parameter with prior in the active YAML. Values passed as extra_args or direct."}
 
 @app.get("/api/generate_submit_bundle")
@@ -6136,6 +6296,7 @@ class PlaygroundRequest(BaseModel):
     # For wCDM/general
     w0_fld: float = -1.0
     wa_fld: float = 0.0
+    config_name: Optional[str] = None
     extra_args: dict = {}  # for other models: e.g. {"use_mg": "yes", ...}
 
 class EvalParamsRequest(BaseModel):
@@ -6948,9 +7109,10 @@ async def playground_curves(req: PlaygroundRequest):
 
     # Merge extra_args from active yaml (same as in compute_cosmo_curves) so direct CLASS
     # calls use the run's precision settings, avoiding background evolver singular matrix etc.
-    if state.active_yaml_path and os.path.exists(state.active_yaml_path):
+    yaml_path = req.config_name or state.active_yaml_path or "lcdm_config.yaml"
+    if yaml_path and os.path.exists(yaml_path):
         try:
-            with open(state.active_yaml_path, 'r') as f:
+            with open(yaml_path, 'r') as f:
                 up_cfg = yaml.safe_load(f)
             extra = up_cfg.get('theory', {}).get('classy', {}).get('extra_args', {}) or {}
             for k, v in extra.items():
@@ -8466,6 +8628,8 @@ async def load_template(req: TemplateLoadRequest):
         except Exception:
             content = ""
 
+    state.active_yaml_path = str(target_path)
+
     return {
         "status": "success",
         "message": f"Template '{clean_name}' loaded successfully as active configuration (normalized for CLASS).",
@@ -8623,8 +8787,11 @@ async def save_config_inline(data: dict = Body(...)):
     except Exception:
         pass
     ensure_halofit_in_config(path)
+    state.active_yaml_path = str(path)
     return {"status": "success", "message": "Saved and halofit+norm+engine ensured"}
 
+@app.get("/api/report")
+async def generate_scientific_report(config_name: str = "uploaded_config.yaml"):
     """One-click full scientific report (production feature for papers/reproducibility). Returns self-contained HTML with current data, diagnostics summary, provenance."""
     try:
         # Collect key data
@@ -8672,6 +8839,19 @@ async def save_config_inline(data: dict = Body(...)):
         return FastAPIResponse(content=html, media_type="text/html")
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Report generation failed: {e}")
+
+@app.post("/api/clear_log")
+async def clear_log():
+    """Clear external logs list and truncate active log file if inactive."""
+    state.external_logs.clear()
+    if state.active_output_prefix:
+        log_file = Path(f"{state.active_output_prefix}.log")
+        if log_file.exists() and (not state.running_process or state.running_process.poll() is not None):
+            try:
+                open(log_file, "w").close()
+            except Exception:
+                pass
+    return {"status": "success", "message": "Logs cleared successfully."}
 
 # Simple notification system (production: webhooks, events on complete/watchdog)
 WEBHOOK_URL = os.environ.get("DASHBOARD_WEBHOOK_URL")

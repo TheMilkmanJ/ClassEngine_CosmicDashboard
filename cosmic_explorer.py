@@ -118,6 +118,7 @@ def find_stats(name: str = "") -> Path | None:
         if not fs:
             fs = list(PROJ.glob(f"chains/**/*{name}*.stats"))
         if fs:
+            fs.sort(key=lambda p: p.stat().st_mtime, reverse=True)
             return fs[0]
     fs = list(PROJ.glob("chains/**/*.stats"))
     if not fs:
@@ -182,6 +183,8 @@ def get_sampled_params(config_path: Path) -> list[dict]:
         cfg = yaml.safe_load(config_path.read_text())
     except Exception:
         return []
+    if not isinstance(cfg, dict):
+        return []
     params = cfg.get("params", {})
     ordered = []
     for name, p in params.items():
@@ -201,6 +204,8 @@ def get_all_params(config_path: Path) -> tuple[list[dict], list[dict]]:
     try:
         cfg = yaml.safe_load(config_path.read_text())
     except Exception:
+        return [], []
+    if not isinstance(cfg, dict):
         return [], []
     params = cfg.get("params", {})
     sampled, derived = [], []
@@ -772,7 +777,7 @@ def cmd_bestfit(args: str):
     best_vals = [float(x) for x in best_row]
 
     console.print(Panel(
-        f"[bold cyan]Best-fit -2log(L) = {best_val:.2f}[/bold cyan]",
+        f"[bold cyan]Best-fit -2log(post) = {best_val:.2f}[/bold cyan]",
         border_style="green",
     ))
 
@@ -782,10 +787,11 @@ def cmd_bestfit(args: str):
     t.add_column("Type")
     t.add_column("Map")
 
-    # Map params: col 0=weight, col 1=-2logL, cols 2+ = params
+    # Final chain: col 0=weight, col 1=-2log(post), col 2=log(prior), cols 3+ = params
     n_params_shown = 0
-    for i in range(2, len(best_vals)):
-        di = i - 2
+    param_start = 3
+    for i in range(param_start, len(best_vals)):
+        di = i - param_start
         val = best_vals[i]
         name = ""
         ptype = ""
@@ -908,8 +914,8 @@ def cmd_compare(args: str):
     t.add_column(rel(sa.parent.parent) if sa else a_name, justify="right")
     t.add_column(rel(sb.parent.parent) if sb else b_name, justify="right")
 
-    t.add_row("log(Z)", f"{da['logZ']:.2f} ± {da['logZ_err']:.2f}" if da['logZ'] else "N/A",
-              f"{db['logZ']:.2f} ± {db['logZ_err']:.2f}" if db['logZ'] else "N/A")
+    t.add_row("log(Z)", f"{da['logZ']:.2f} ± {da['logZ_err']:.2f}" if da['logZ'] is not None and da['logZ_err'] is not None else "N/A",
+              f"{db['logZ']:.2f} ± {db['logZ_err']:.2f}" if db['logZ'] is not None and db['logZ_err'] is not None else "N/A")
     t.add_row("ndead", str(da["ndead"]), str(db["ndead"]))
     t.add_row("nlive", str(da["nlive"]), str(db["nlive"]))
     t.add_row("nposterior", str(da["nposterior"]), str(db["nposterior"]))
@@ -938,7 +944,7 @@ def cmd_compare(args: str):
         console.print(t2)
 
     # LogZ difference
-    if da['logZ'] and db['logZ']:
+    if da['logZ'] is not None and db['logZ'] is not None and da['logZ_err'] is not None and db['logZ_err'] is not None:
         delta = da['logZ'] - db['logZ']
         err = (da['logZ_err']**2 + db['logZ_err']**2)**0.5
         console.print(f"\n[bold]Δlog(Z) = {delta:.2f} ± {err:.2f}[/bold] "
@@ -977,18 +983,19 @@ def cmd_watch(args: str):
                 if m:
                     logz = float(m.group(1))
                 m = re.search(r"=== global evidence\^2 -- log\(<Z\^2>\) ===\s*([\d\.\-+Ee]+)", text)
-                if m:
+                if m and logz is not None:
                     logz2 = float(m.group(1))
-                    logz_err = (logz2 - logz**2)**0.5 if logz else None
+                    variance = max(0.0, logz2 - logz**2)
+                    logz_err = variance**0.5
 
             # Also check .stats for completed run
             if stats_file.exists():
                 sdata = parse_stats(stats_file)
-                if sdata["ndead"]:
+                if sdata.get("ndead") is not None:
                     ndead = sdata["ndead"]
-                if sdata["logZ"]:
+                if sdata.get("logZ") is not None:
                     logz = sdata["logZ"]
-                    logz_err = sdata["logZ_err"]
+                    logz_err = sdata.get("logZ_err")
 
             ndead_str = f"[green]{ndead}[/green]" if ndead else "[yellow]?[/yellow]"
             if logz is None:

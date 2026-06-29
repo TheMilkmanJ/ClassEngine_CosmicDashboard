@@ -2,7 +2,7 @@ import shutil
 from pathlib import Path
 from PIL import Image, ImageDraw
 
-project_dir = Path("/home/themilkmanj/prtoe_class")
+project_dir = Path(__file__).resolve().parent.parent.parent
 assets_dir = project_dir / "dashboard" / "assets"
 src_jpg = assets_dir / "galaxy_icon.jpg"
 dest_ico = assets_dir / "galaxy_icon.ico"
@@ -53,14 +53,33 @@ ico_sizes = [(128, 128), (64, 64), (48, 48), (32, 32), (16, 16)]
 cropped.save(dest_ico, format='ICO', sizes=ico_sizes)
 print(f"Saved transparent ICO at: {dest_ico}")
 
-# Copy the updated transparent ICO to the local Windows user directory
-windows_app_dir = Path("/mnt/c/Users/themi/CosmicDashboardAssets")
-try:
-    windows_app_dir.mkdir(parents=True, exist_ok=True)
-    local_win_ico = windows_app_dir / "galaxy_icon_v3.ico"
-    shutil.copy(dest_ico, local_win_ico)
-    print(f"Successfully copied transparent icon to Windows: {local_win_ico}")
-except Exception as e:
-    print(f"Failed to copy icon to Windows directory: {e}")
+# Copy the updated transparent ICO to the local Windows user directory dynamically
+import subprocess
+desktop_res = subprocess.run(
+    ["powershell.exe", "-NoProfile", "-Command", "[Environment]::GetFolderPath('Desktop')"],
+    capture_output=True,
+    text=True,
+)
+windows_desktop = None
+if desktop_res.returncode == 0 and desktop_res.stdout.strip():
+    wsl_res = subprocess.run(
+        ["wslpath", "-u", desktop_res.stdout.strip()],
+        capture_output=True,
+        text=True,
+    )
+    if wsl_res.returncode == 0:
+        windows_desktop = Path(wsl_res.stdout.strip())
+
+if windows_desktop and windows_desktop.exists():
+    windows_app_dir = windows_desktop / "CosmicDashboardAssets"
+    try:
+        windows_app_dir.mkdir(parents=True, exist_ok=True)
+        local_win_ico = windows_app_dir / "galaxy_icon_v3.ico"
+        shutil.copy(dest_ico, local_win_ico)
+        print(f"Successfully copied transparent icon to Windows: {local_win_ico}")
+    except Exception as e:
+        print(f"Failed to copy icon to Windows directory: {e}")
+else:
+    print("Windows Desktop path not found. Skipping transparent icon copying to Windows host.")
 
 print("Galaxy icon background trim complete!")

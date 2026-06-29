@@ -124,5 +124,6 @@ params:
 sampler:
   polychord:
     nlive: 200
+    nprior: 200
     num_repeats: 80
     precision_criterion: 0.001
