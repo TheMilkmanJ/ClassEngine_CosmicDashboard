@@ -599,13 +599,15 @@ int background_functions(
     /* Compute phi_primeprime from Klein-Gordon equation (spec Section 2.2) */
     /* φ'' (1 - F_φ/F) + 2H φ' + a² V_φ - F_φφ/F φ'² = (3 F_φ / 2F) (φ'²/a² - a² R / 3) */
     /* So: φ'' = [ -2H φ' - a² V_φ + F_φφ/F φ'² + (3 F_φ / 2F) (φ'²/a² - a² R / 3) ] / (1 - F_φ/F) */
-    double V_phi = -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + pba->m_prtoe * pba->m_prtoe * phi;
+    double H = pvecback[pba->index_bg_H];  /* conformal Hubble parameter */
+    double a2 = a * a;
+    double V_dphi = -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + pba->m_prtoe * pba->m_prtoe * phi;
     double kg_denom = 1.0 - F_phi / F;
     double phi_primeprime_bg;
     
     if (fabs(kg_denom) > 1e-20) {
-      phi_primeprime_bg = (-2.0 * a_prime_over_a * phi_prime 
-                           - a2 * V_phi 
+      phi_primeprime_bg = (-2.0 * H * phi_prime 
+                           - a2 * V_dphi 
                            + (F_phiphi / F) * phi_prime * phi_prime
                            + (3.0 * F_phi / (2.0 * F)) * (phi_prime * phi_prime / a2 - a2 * pba->R_curvature / 3.0))
                           / kg_denom;

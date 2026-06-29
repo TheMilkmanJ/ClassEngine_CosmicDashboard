@@ -6612,22 +6612,26 @@ int perturbations_einstein(
   double G_eff_metric = 1.0;
   double delta_F = 0.0;
   double delta_F_prime = 0.0;
+  double delta_F_primeprime = 0.0;
+  double F = 1.0, F_phi = 0.0, F_phiphi = 0.0, F_phiphiphi = 0.0;
+  double phi_prime_bg = 0.0, phi_primeprime_bg = 0.0;
   
   if (pba->use_prtoe == _TRUE_) {
     /* Use the pre-computed F(phi) from background */
-    double F = ppw->pvecback[pba->index_bg_F_prtoe];
-    double F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
-    double F_phiphi = ppw->pvecback[pba->index_bg_F_phiphi_prtoe];
+    F = ppw->pvecback[pba->index_bg_F_prtoe];
+    F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
+    F_phiphi = ppw->pvecback[pba->index_bg_F_phiphi_prtoe];
+    F_phiphiphi = ppw->pvecback[pba->index_bg_F_phiphiphi_prtoe];
+    phi_prime_bg = ppw->pvecback[pba->index_bg_dphi_prtoe];
+    phi_primeprime_bg = ppw->pvecback[pba->index_bg_ddphi_prtoe];
     
     G_eff_metric = 1.0 / F;
     
     /* Compute δF, δF', δF'' from delta_phi for use in Einstein equations */
     /* Get delta_phi, delta_phi_prime from perturbation vector */
     if (ppt->has_scalars == _TRUE_) {
-      double phi_prime_bg = ppw->pvecback[pba->index_bg_dphi_prtoe];
-      double phi_primeprime_bg = ppw->pvecback[pba->index_bg_ddphi_prtoe];
-      double delta_phi = y[ppt->pv->index_pt_delta_phi];
-      double delta_phi_prime = y[ppt->pv->index_pt_ddelta_phi];
+      double delta_phi = y[ppw->pv->index_pt_delta_phi];
+      double delta_phi_prime = y[ppw->pv->index_pt_ddelta_phi];
       double delta_phi_primeprime = 0.0; /* Approximation: will be refined in future */
       
       /* δF = F_φ δφ */
@@ -6670,9 +6674,11 @@ int perturbations_einstein(
 
       /* equation for psi with PRTOE δF corrections */
       /* From spec Section 3.2 00 equation: k² Φ + 3H (Φ' + H Psi) = -a²/(2F)[δρ+3HδF'-k²δF] + 3H F_φ φ₀'/(2F)(Ψ-Φ) */
-      ppw->pvecmetric[ppw->index_mt_psi] = y[ppw->pv->index_pt_phi] - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric
-        + (pba->use_prtoe ? (3.0 * a_prime_over_a * F_phi * phi_prime_bg / (2.0 * F) * (Psi - Phi) / k2
-                             - 0.5 * a2 / F * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / k2) : 0.0); /* PRTOE: δF terms from spec 00 */
+      double Phi = y[ppw->pv->index_pt_phi];
+      /* Note: For now, we use the approximation Psi ≈ Phi in the correction term, so (Ψ-Φ) ≈ 0 */
+      /* This avoids circular dependency in the constraint equation */
+      ppw->pvecmetric[ppw->index_mt_psi] = Phi - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric
+        + (pba->use_prtoe ? (- 0.5 * a2 / F * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / k2) : 0.0); /* PRTOE: δF terms from spec 00 */
 
       /* equation for phi' */
       ppw->pvecmetric[ppw->index_mt_phi_prime] = -a_prime_over_a * ppw->pvecmetric[ppw->index_mt_psi] + 1.5 * (a2/k2) * ppw->rho_plus_p_theta * G_eff_metric
@@ -6730,11 +6736,12 @@ int perturbations_einstein(
       ppw->pvecmetric[ppw->index_mt_eta_prime] = (1.5 * a2 * ppw->rho_plus_p_theta * G_eff_metric + 0.5 * pba->K * ppw->pvecmetric[ppw->index_mt_h_prime])/k2/s2_squared;  /* eta' */
 
       /* third equation involving total pressure */
+      /* From spec Section 3.2 ij Trace: Φ'' + H(Ψ' + 2Φ') + (2H' + H²)Ψ = ... */
       ppw->pvecmetric[ppw->index_mt_h_prime_prime] =
         - 2. * a_prime_over_a * ppw->pvecmetric[ppw->index_mt_h_prime]
         + 2. * k2 * s2_squared * y[ppw->pv->index_pt_eta]
-        - 9. * a2 * ppw->delta_p * G_eff_metric;
-      /* TODO: Add δF, δF', δF'' terms from spec Section 3.2 ij Trace (requires gauge transformation) */
+        - 9. * a2 * ppw->delta_p * G_eff_metric
+        + (pba->use_prtoe ? (0.5 * a2 / F * (delta_F_primeprime + 2.0 * a_prime_over_a * delta_F_prime - k2/3.0 * delta_F)) : 0.0); /* PRTOE: δF terms from spec Section 3.2 ij Trace */
 
       /* alpha = (h'+6eta')/2k^2 */
       ppw->pvecmetric[ppw->index_mt_alpha] = (ppw->pvecmetric[ppw->index_mt_h_prime] + 6.*ppw->pvecmetric[ppw->index_mt_eta_prime])/2./k2;
@@ -9609,7 +9616,7 @@ int perturbations_derivs(double tau,
         
         /* Metric potentials */
         double Psi = ppw->pvecmetric[ppw->index_mt_psi];
-        double Phi = ppw->pvecmetric[ppw->index_mt_phi];
+        double Phi = y[ppw->pv->index_pt_phi]; /* Phi is the dynamical variable in Newtonian gauge */
         double Phi_prime = ppw->pvecmetric[ppw->index_mt_phi_prime];
         
         /* Approximate Psi_prime using Φ' (from spec, Ψ ≈ Φ, so Ψ' ≈ Φ') */
@@ -9620,6 +9627,7 @@ int perturbations_derivs(double tau,
         double Psi_primeprime = 0.0;
         
         /* Background quantities for delta_R */
+        double H = ppw->pvecback[pba->index_bg_H];
         double H_prime = ppw->pvecback[pba->index_bg_H_prime];
         double a_primeprime_over_a = H * H + H_prime; /* a''/a = H² + H' where H' is conformal derivative */
         
