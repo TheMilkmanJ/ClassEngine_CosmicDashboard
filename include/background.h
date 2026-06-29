@@ -153,6 +153,7 @@ struct background
   /* Indices for the PRTOE background storage in table (index_bg) */
   int index_bg_phi_prtoe;   /**< Index for the scalar field phi */
   int index_bg_dphi_prtoe;  /**< Index for conformal time derivative d(phi)/dtau */
+  int index_bg_ddphi_prtoe; /**< Index for second conformal time derivative d²(phi)/dtau² */
   int index_bg_rho_prtoe;   /**< Energy density of the PRTOE fluid */
   int index_bg_p_prtoe;     /**< Pressure of the PRTOE fluid */
   int index_bg_rho_dark_energy;
@@ -160,7 +161,9 @@ struct background
   int index_bg_F_prtoe;     /**< F(phi) = 1 + xi * A(phi) * S(phi) */
   int index_bg_F_phi_prtoe; /**< dF/dphi */
   int index_bg_F_phiphi_prtoe; /**< d²F/dphi² */
+  int index_bg_F_phiphiphi_prtoe; /**< d³F/dphi³ */
   int index_bg_meff2_prtoe; /**< Effective mass squared for stability */
+  int index_bg_Q_prtoe;      /**< Gradient stability proxy Q */
   int index_bg_cs2_prtoe;   /**< Approximate scalar sound speed squared */
 
   /* Integration indices for the PRTOE ODE solver (index_bi) */

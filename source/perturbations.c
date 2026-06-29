@@ -5517,8 +5517,22 @@ int perturbations_initial_conditions(struct precision * ppr,
       }
 
       if (pba->use_prtoe == _TRUE_) {
-        ppw->pv->y[ppw->pv->index_pt_delta_phi] = 0.0;
-        ppw->pv->y[ppw->pv->index_pt_ddelta_phi] = 0.0;
+        /* Initial conditions from spec Section 4 (Super-horizon, Radiation Domination) */
+        /* Ψ = -2/3 ζ(k) = -2/3 curvature_ini */
+        /* Φ ≈ Ψ (in Newtonian gauge) */
+        /* δφ = -φ₀' / H * Ψ */
+        /* δφ' ≈ -φ₀' Ψ */
+        
+        /* In CLASS: H = a_prime_over_a / a, so φ₀' / H = φ₀' * a / a_prime_over_a */
+        double H = ppw->pvecback[pba->index_bg_H];
+        double phi_prime_bg = ppw->pvecback[pba->index_bg_dphi_prtoe];
+        double Psi_ini = -2.0 / 3.0 * ppr->curvature_ini; /* Ψ = -2/3 ζ(k) */
+        
+        /* δφ = -φ₀' / H * Ψ */
+        ppw->pv->y[ppw->pv->index_pt_delta_phi] = - (phi_prime_bg / H) * Psi_ini;
+        
+        /* δφ' ≈ -φ₀' Ψ */
+        ppw->pv->y[ppw->pv->index_pt_ddelta_phi] = - phi_prime_bg * Psi_ini;
       }
 
       /* all relativistic relics: ur, early ncdm, dr */
@@ -9556,6 +9570,7 @@ int perturbations_derivs(double tau,
         double F = ppw->pvecback[pba->index_bg_F_prtoe];
         double F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
         double F_phiphi = ppw->pvecback[pba->index_bg_F_phiphi_prtoe];
+        double F_phiphiphi = ppw->pvecback[pba->index_bg_F_phiphiphi_prtoe];
         
         /* Metric potentials */
         double Psi = ppw->pvecmetric[ppw->index_mt_psi];
@@ -9585,13 +9600,15 @@ int perturbations_derivs(double tau,
         /* Coefficient of δφ (simplified - missing φ₀'' term) */
         double coeff_phi = - (k2 + a2 * V_phiphi + F_phiphi / F * phi_prime_bg * phi_prime_bg);
         
-        /* Source terms */
-        double source = - phi_prime_bg * (3.0 * Phi_prime)  /* -φ₀' (3Φ') - missing Ψ' */
+        /* Source terms from spec Section 3.1 */
+        double source = - phi_prime_bg * (3.0 * Phi_prime)  /* -φ₀' (3Φ') - TODO: add Psi' */
                       + F_phi / (2.0 * F) * (phi_prime_bg * phi_prime_bg * (Psi - 3.0 * Phi) - a2 * delta_R)
-                      + F_phiphi * phi_prime_bg / F * (delta_phi_prime - phi_prime_bg * Phi);
+                      + F_phiphi * phi_prime_bg / F * (delta_phi_prime - phi_prime_bg * Phi)
+                      + F_phiphiphi * phi_prime_bg * phi_prime_bg / (2.0 * F) * delta_phi; /* F_φφφ φ₀'²/(2F) δφ */
         
-        /* TODO: Add terms requiring φ₀'' and Ψ' */
-        /* TODO: Add F_φφφ term */
+        /* TODO: Add terms requiring φ₀'' and Ψ' to coeff_phi and source */
+        /* coeff_phi missing: -F_φ/F (φ₀'' + 2H φ₀') */
+        /* source missing: -φ₀' Ψ' */
         
         dy[pv->index_pt_ddelta_phi] = coeff_phi_prime * delta_phi_prime + coeff_phi * delta_phi + source;
     }

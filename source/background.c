@@ -568,6 +568,7 @@ int background_functions(
     double A = 0.5 * (1.0 + tanh_u);
     double A_prime = sech2_u / (2.0 * pba->delta_phi_prtoe);
     double A_primeprime = - (sech2_u * tanh_u) / (pba->delta_phi_prtoe * pba->delta_phi_prtoe);
+    double A_primeprimeprime = sech2_u * (3.0 * tanh_u * tanh_u - 1.0) / (pba->delta_phi_prtoe * pba->delta_phi_prtoe * pba->delta_phi_prtoe);
 
     /* Screening function S(phi) */
     double phi2 = phi * phi;
@@ -575,40 +576,61 @@ int background_functions(
     double S = phi2 / denom;
     double S_prime = 2.0 * phi / (denom * denom);
     double S_primeprime = (2.0 - 6.0 * pba->zeta_prtoe * phi2) / (denom * denom * denom);
+    double S_primeprimeprime = 24.0 * pba->zeta_prtoe * phi * (pba->zeta_prtoe * phi2 - 1.0) / (denom * denom * denom * denom);
 
     /* Combined coupling function f = A * S */
     double f = A * S;
     double f_prime = A_prime * S + A * S_prime;
     double f_primeprime = A_primeprime * S + 2.0 * A_prime * S_prime + A * S_primeprime;
+    double f_primeprimeprime = A_primeprimeprime * S + 3.0 * A_primeprime * S_prime + 3.0 * A_prime * S_primeprime + A * S_primeprimeprime;
 
     /* Final F and derivatives */
     double F = 1.0 + pba->xi_prtoe * f;
     double F_phi = pba->xi_prtoe * f_prime;
     double F_phiphi = pba->xi_prtoe * f_primeprime;
+    double F_phiphiphi = pba->xi_prtoe * f_primeprimeprime;
 
     /* Store in background vector */
     pvecback[pba->index_bg_F_prtoe] = F;
     pvecback[pba->index_bg_F_phi_prtoe] = F_phi;
     pvecback[pba->index_bg_F_phiphi_prtoe] = F_phiphi;
+    pvecback[pba->index_bg_F_phiphiphi_prtoe] = F_phiphiphi;
 
     /* Stability quantities */
     double V_phiphi = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) 
                     + pba->m_prtoe * pba->m_prtoe;
+    
+    /* Effective mass squared from spec Section 5.2 */
     double meff2 = V_phiphi 
-                 + (F_phi / F) * (pba->R_curvature / 2.0 - 3.0 * H * H - phi_primeprime / (a*a))
+                 + (F_phi / F) * (pba->R_curvature / 2.0 - 3.0 * H * H)
                  - (F_phiphi / F) * (phi_prime * phi_prime / (a*a));
     pvecback[pba->index_bg_meff2_prtoe] = meff2;
+
+    /* Kinetic coefficient K from spec Section 5.1 */
+    double K = 1.0 + 3.0 * F_phi * F_phi / (2.0 * F);
+
+    /* Gradient stability proxy Q from spec Section 5.2 */
+    double Q = F 
+             + F_phiphi * (phi_prime * phi_prime) / (a * a) 
+             - 3.0 * F_phi * F_phi / (2.0 * F);
+    pvecback[pba->index_bg_Q_prtoe] = Q;
 
     /* Approximate sound speed squared */
     double cs2_approx = 1.0;
     pvecback[pba->index_bg_cs2_prtoe] = cs2_approx;
 
-    /* Stability Warnings */
+    /* Stability Warnings from spec Section 5.2 */
     if (F <= 0.0) {
-      fprintf(stderr, "PRTOE WARNING: Ghost instability! F = %.6e at a = %.6e\n", F, a);
+      fprintf(stderr, "PRTOE CRITICAL: Ghost instability! F = %.6e at a = %.6e\n", F, a);
     }
-    if (meff2 < 0.0) {
-      fprintf(stderr, "PRTOE WARNING: Tachyonic instability! m_eff^2 = %.6e at a = %.6e\n", meff2, a);
+    if (K <= 0.0) {
+      fprintf(stderr, "PRTOE CRITICAL: Negative kinetic term! K = %.6e at a = %.6e\n", K, a);
+    }
+    if (Q < 0.0) {
+      fprintf(stderr, "PRTOE WARNING: Gradient instability risk! Q = %.6e at a = %.6e\n", Q, a);
+    }
+    if (meff2 < -1e-8) {
+      fprintf(stderr, "PRTOE WARNING: Tachyonic instability risk! m_eff^2 = %.6e at a = %.6e\n", meff2, a);
     }
 
     /* Effective Friedmann Equation will be computed at the end of the function */
@@ -1214,6 +1236,7 @@ int background_indices(
   /* - indices for PRTOE specific quantities in the background table (output) */
   class_define_index(pba->index_bg_phi_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_dphi_prtoe, pba->use_prtoe, index_bg, 1);
+  class_define_index(pba->index_bg_ddphi_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_rho_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_p_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_rho_dark_energy, pba->use_prtoe, index_bg, 1);
@@ -1221,7 +1244,9 @@ int background_indices(
   class_define_index(pba->index_bg_F_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_F_phi_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_F_phiphi_prtoe, pba->use_prtoe, index_bg, 1);
+  class_define_index(pba->index_bg_F_phiphiphi_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_meff2_prtoe, pba->use_prtoe, index_bg, 1);
+  class_define_index(pba->index_bg_Q_prtoe, pba->use_prtoe, index_bg, 1);
   class_define_index(pba->index_bg_cs2_prtoe, pba->use_prtoe, index_bg, 1);
 
   /* - indices for scalar field */
