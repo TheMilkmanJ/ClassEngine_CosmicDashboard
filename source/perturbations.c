@@ -6669,10 +6669,10 @@ int perturbations_einstein(
          second equation below (credits to Guido Walter Pettinari). */
 
       /* equation for psi with PRTOE δF corrections */
-      /* From spec Section 3.2 00 equation: k² Φ + 3H (Φ' + H Psi) = ... */
-      /* The psi equation is derived from the constraint equation */
+      /* From spec Section 3.2 00 equation: k² Φ + 3H (Φ' + H Psi) = -a²/(2F)[δρ+3HδF'-k²δF] + 3H F_φ φ₀'/(2F)(Ψ-Φ) */
       ppw->pvecmetric[ppw->index_mt_psi] = y[ppw->pv->index_pt_phi] - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric
-        + (pba->use_prtoe ? (3.0 * a_prime_over_a * F_phi * phi_prime_bg / (2.0 * F) * (Psi - Phi) / k2) : 0.0); /* PRTOE: δF term from spec 00 */
+        + (pba->use_prtoe ? (3.0 * a_prime_over_a * F_phi * phi_prime_bg / (2.0 * F) * (Psi - Phi) / k2
+                             - 0.5 * a2 / F * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / k2) : 0.0); /* PRTOE: δF terms from spec 00 */
 
       /* equation for phi' */
       ppw->pvecmetric[ppw->index_mt_phi_prime] = -a_prime_over_a * ppw->pvecmetric[ppw->index_mt_psi] + 1.5 * (a2/k2) * ppw->rho_plus_p_theta * G_eff_metric
