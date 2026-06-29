@@ -6727,6 +6727,7 @@ int perturbations_einstein(
         - 2. * a_prime_over_a * ppw->pvecmetric[ppw->index_mt_h_prime]
         + 2. * k2 * s2_squared * y[ppw->pv->index_pt_eta]
         - 9. * a2 * ppw->delta_p * G_eff_metric;
+      /* TODO: Add δF, δF', δF'' terms from spec Section 3.2 ij Trace */
 
       /* alpha = (h'+6eta')/2k^2 */
       ppw->pvecmetric[ppw->index_mt_alpha] = (ppw->pvecmetric[ppw->index_mt_h_prime] + 6.*ppw->pvecmetric[ppw->index_mt_eta_prime])/2./k2;
