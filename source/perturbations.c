@@ -10081,23 +10081,9 @@ int perturbations_derivs(double tau,
 
           /** - -----> exact euler equation */
 
-          double G_eff_ncdm = 1.0;
-          if (pba->use_prtoe == _TRUE_) {
-            double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
-            double xi = pba->xi_prtoe;
-            double lambda = pba->lambda_prtoe;
-            double V0 = pba->V0_prtoe;
-            double m = pba->m_prtoe;
-            double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
-            double k2_a2 = k2 / (a * a);
-            double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
-            double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
-            G_eff_ncdm = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
-          }
-
           dy[idx+1] = -a_prime_over_a*(1.0-3.0*ca2_ncdm)*y[idx+1]+
             ceff2_ncdm/(1.0+w_ncdm)*k2*y[idx]-k2*y[idx+2]
-            + G_eff_ncdm * metric_euler;
+            + G_eff_ratio_prtoe * metric_euler; /* neutrino velocity with PRTOE effective gravity */
 
           /** - -----> different ansatz for approximate shear derivative */
 
@@ -10153,22 +10139,8 @@ int perturbations_derivs(double tau,
 
             /** - -----> ncdm velocity for given momentum bin */
 
-            double G_eff_ncdm = 1.0;
-            if (pba->use_prtoe == _TRUE_) {
-              double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
-              double xi = pba->xi_prtoe;
-              double lambda = pba->lambda_prtoe;
-              double V0 = pba->V0_prtoe;
-              double m = pba->m_prtoe;
-              double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
-              double k2_a2 = k2 / (a * a);
-              double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
-              double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
-              G_eff_ncdm = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
-            }
-
             dy[idx+1] = qk_div_epsilon/3.0*(y[idx] - 2*s_l[2]*y[idx+2])
-              -epsilon*(G_eff_ncdm * metric_euler)/(3*q*k)*dlnf0_dlnq;
+              -epsilon*(G_eff_ratio_prtoe * metric_euler)/(3*q*k)*dlnf0_dlnq; /* neutrino velocity with PRTOE effective gravity */
 
             /** - -----> ncdm shear for given momentum bin */
 
