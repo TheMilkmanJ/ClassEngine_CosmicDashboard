@@ -1653,7 +1653,7 @@ int perturbations_timesampling_for_sources(
                 pvecback[pba->index_bg_H]/
                 pvecthermo[pth->index_th_dkappa] >
                 ppr->start_sources_at_tau_c_over_tau_h) && 
-               (prtoe_source_condition == _FALSE_) && prtoe_is_physically_active(pba),
+               (prtoe_source_condition == _FALSE_) && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0,
                ppt->error_message,
                "your choice of initial time for computing sources is inappropriate: it corresponds to an earlier time than the one at which the integration of thermodynamical variables started (tau=%g). You should increase either 'start_sources_at_tau_c_over_tau_h' or 'recfast_z_initial'\n",
                tau_lower);
@@ -1684,7 +1684,7 @@ int perturbations_timesampling_for_sources(
                 pvecback[pba->index_bg_H]/
                 pvecthermo[pth->index_th_dkappa] <
                 ppr->start_sources_at_tau_c_over_tau_h) && 
-               (prtoe_source_condition == _FALSE_) && prtoe_is_physically_active(pba),
+               (prtoe_source_condition == _FALSE_) && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0,
                ppt->error_message,
                "your choice of initial time for computing sources is inappropriate: it corresponds to a time after recombination. You should decrease 'start_sources_at_tau_c_over_tau_h'\n");
 
@@ -1717,7 +1717,7 @@ int perturbations_timesampling_for_sources(
            pvecback[pba->index_bg_H]/
            pvecthermo[pth->index_th_dkappa] >
            ppr->start_sources_at_tau_c_over_tau_h) && 
-          (prtoe_source_condition == _FALSE_) && prtoe_is_physically_active(pba))
+          (prtoe_source_condition == _FALSE_) && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0)
 
         tau_upper = tau_mid;
       else
@@ -6753,12 +6753,20 @@ int perturbations_einstein(
       /* Note: The (Ψ-Φ) term is handled implicitly via pi_tot in rho_plus_p_shear. 
          With PRTOE δF terms added to rho_plus_p_shear, the full slip equation is satisfied automatically */
       double Phi = y[ppw->pv->index_pt_phi];
-      ppw->pvecmetric[ppw->index_mt_psi] = Phi - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric
-        + ((pba->use_prtoe && prtoe_is_physically_active(pba) && fabs(F) > 1e-30) ? (- 0.5 * a2 / F * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / k2) : 0.0); /* PRTOE: δF terms from spec 00 (guarded) */
+      ppw->pvecmetric[ppw->index_mt_psi] = Phi - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric;
+      
+      /* Add PRTOE δF contributions to psi (unified threshold) */
+      if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0 && fabs(F) > 1e-30) {
+        ppw->pvecmetric[ppw->index_mt_psi] -= 0.5 * a2 / F * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / k2;
+      }
 
       /* equation for phi' */
-      ppw->pvecmetric[ppw->index_mt_phi_prime] = -a_prime_over_a * ppw->pvecmetric[ppw->index_mt_psi] + 1.5 * (a2/k2) * ppw->rho_plus_p_theta * G_eff_metric
-        + ((pba->use_prtoe && prtoe_is_physically_active(pba) && fabs(F) > 1e-30) ? (a2 / (2.0 * F) * delta_F_prime + a2 / (2.0 * F * F) * F_phiphiphi * phi_prime_bg * phi_primeprime_bg * delta_phi) : 0.0); /* PRTOE: δF' + F_ppp term from spec Section 3.2 0i (guarded) */
+      ppw->pvecmetric[ppw->index_mt_phi_prime] = -a_prime_over_a * ppw->pvecmetric[ppw->index_mt_psi] + 1.5 * (a2/k2) * ppw->rho_plus_p_theta * G_eff_metric;
+      
+      /* Add PRTOE δF' contributions to phi_prime (unified threshold) */
+      if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0 && fabs(F) > 1e-30) {
+        ppw->pvecmetric[ppw->index_mt_phi_prime] += a2 / (2.0 * F) * delta_F_prime + a2 / (2.0 * F * F) * F_phiphiphi * phi_prime_bg * phi_primeprime_bg * delta_phi;
+      }
 
       /* eventually, infer radiation streaming approximation for
          gamma and ur (this is exactly the right place to do it
@@ -6784,9 +6792,13 @@ int perturbations_einstein(
 
       /* first equation involving total density fluctuation */
       ppw->pvecmetric[ppw->index_mt_h_prime] =
-        ( k2 * s2_squared * y[ppw->pv->index_pt_eta] + 1.5 * a2 * ppw->delta_rho * G_eff_metric
-          + ((pba->use_prtoe && prtoe_is_physically_active(pba) && fabs(F) > 1e-30) ? (-1.5 * a2 * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / F) : 0.0)  /* PRTOE: δF terms from spec 00 (guarded) */
-        )/(0.5*a_prime_over_a);  /* h' */
+        ( k2 * s2_squared * y[ppw->pv->index_pt_eta] + 1.5 * a2 * ppw->delta_rho * G_eff_metric )
+        / (0.5*a_prime_over_a);  /* h' */
+      
+      /* Add PRTOE δF contributions to h_prime (unified threshold) */
+      if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0 && fabs(F) > 1e-30) {
+        ppw->pvecmetric[ppw->index_mt_h_prime] -= 1.5 * a2 * (3.0 * a_prime_over_a * delta_F_prime - k2 * delta_F) / (F * 0.5*a_prime_over_a);
+      }
 
       /* eventually, infer radiation streaming approximation for
          gamma and ur (this is exactly the right place to do it
@@ -6816,8 +6828,12 @@ int perturbations_einstein(
       ppw->pvecmetric[ppw->index_mt_h_prime_prime] =
         - 2. * a_prime_over_a * ppw->pvecmetric[ppw->index_mt_h_prime]
         + 2. * k2 * s2_squared * y[ppw->pv->index_pt_eta]
-        - 9. * a2 * ppw->delta_p * G_eff_metric
-        + ((pba->use_prtoe && prtoe_is_physically_active(pba) && fabs(F) > 1e-30) ? (0.5 * a2 / F * (delta_F_primeprime + 2.0 * a_prime_over_a * delta_F_prime - k2/3.0 * delta_F)) : 0.0); /* PRTOE: δF terms from spec Section 3.2 ij Trace (guarded) */
+        - 9. * a2 * ppw->delta_p * G_eff_metric;
+      
+      /* Add PRTOE δF contributions to h'' (unified threshold) */
+      if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0 && fabs(F) > 1e-30) {
+        ppw->pvecmetric[ppw->index_mt_h_prime_prime] += 0.5 * a2 / F * (delta_F_primeprime + 2.0 * a_prime_over_a * delta_F_prime - k2/3.0 * delta_F);
+      }
 
       /* alpha = (h'+6eta')/2k^2 */
       ppw->pvecmetric[ppw->index_mt_alpha] = (ppw->pvecmetric[ppw->index_mt_h_prime] + 6.*ppw->pvecmetric[ppw->index_mt_eta_prime])/2./k2;
@@ -7496,11 +7512,9 @@ int perturbations_total_stress_energy(
       double a_prime_over_a_local = ppw->pvecback[pba->index_bg_H] * a_local;
       double k2_local = k * k;
       
-      if (prtoe_is_physically_active(pba) && fabs(F_local) > 1e-30) {
+      if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0 && fabs(F_local) > 1e-30) {
         /* Safe to divide by F_local and include PRTOE anisotropic-stress contribution */
         ppw->rho_plus_p_shear += (a2_local / F_local) * (delta_F_primeprime_local + 2.0 * a_prime_over_a_local * delta_F_prime_local - (k2_local / 3.0) * delta_F_local);
-      } else {
-        /* PRTOE inactive or F too small: do not add contribution */
       }
     }
 
