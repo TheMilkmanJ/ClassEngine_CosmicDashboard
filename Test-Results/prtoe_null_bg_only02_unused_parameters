@@ -1,0 +1,5 @@
+# List of input/precision parameters passed
+# but not used (just for info)
+#
+write perturbations = no
+z_max_pk = 1.0

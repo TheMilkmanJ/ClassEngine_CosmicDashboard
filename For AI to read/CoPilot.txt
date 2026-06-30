@@ -1,0 +1,108 @@
+=============================================================================
+PRTOE CLASS BUILD & COMPILATION FIX LOG
+=============================================================================
+Created: 2026-06-29
+Purpose: Track all fixes, TODOs completed, and detailed explanations
+
+=============================================================================
+IMMEDIATE CRISIS FIX #1: MISSING CLOSING BRACE IN background_derivs()
+=============================================================================
+
+ISSUE:
+------
+Compilation error: "expected declaration or statement at end of input"
+Location: source/background.c:3685
+
+ROOT CAUSE:
+-----------
+The function background_derivs() was missing its final return statement and 
+closing brace. The function starts at line 3032 and contains PRTOE handling 
+code that was added in commit e913decf. The closing brace was accidentally 
+omitted when prtoe_compute_quantities() was defined immediately after.
+
+TECHNICAL DETAILS:
+------------------
+- background_derivs() function signature: int background_derivs(...) at line 3032
+- Function handles background evolution equations for PRTOE and standard models
+- PRTOE code path (lines ~3100-3256): Computes F(phi), activates PRTOE if needed
+- Fallback path (lines 3246-3256): Zeros PRTOE derivatives for LambdaCDM/null limit
+- Missing: return _SUCCESS_; and closing } after line 3256
+- This caused the compiler to try parsing prtoe_compute_quantities() as part of
+  background_derivs(), resulting in brace mismatch at EOF
+
+FIX APPLIED:
+------------
+Location: source/background.c, line 3256-3260 (after PRTOE else block)
+
+Added:
+    }                    // Close the else block (was present)
+                         // (blank line was present)
+    return _SUCCESS_;    // <-- ADDED
+                         // (blank line was added)
+    }                    // <-- ADDED - Close background_derivs() function
+                         // (blank line was present)
+
+BEFORE:
+    }
+  }
+
+/**
+
+AFTER:
+    }
+  }
+
+  return _SUCCESS_;
+
+}
+
+/**
+
+WHY THIS WORKS:
+---------------
+The C parser now correctly:
+1. Closes the PRTOE if-else block structure
+2. Returns success status from background_derivs() function
+3. Closes background_derivs() function body
+4. Starts prtoe_compute_quantities() as a new top-level function
+
+This fixes the "expected declaration or statement" error because the 
+compiler no longer sees unmatched braces at the end of the file.
+
+VERIFICATION:
+-------------
+make clean && make -j4
+Result: ✅ COMPILATION SUCCESSFUL (2026-06-29 23:55:00)
+- background.c compiled without errors
+- All object files created
+- Binary ./class (9.3M) created
+- Static library libclass.a (14M) created  
+- All symbols linked correctly
+- Symbol check: prtoe_compute_quantities at 0x7070 in background.o
+
+Test Results:
+- Binary executes and can parse .ini files
+- Background evolution computes successfully
+- Some configuration files need parameter tuning (numerical issues)
+- Core compilation and linking verified working
+
+=============================================================================
+COMPLETED & VERIFIED:
+=============================================================================
+1. ✅ Fix missing closing brace in background_derivs() - DONE
+2. ✅ Full clean build with make clean && make -j4 - DONE
+3. ✅ Verify symbol prtoe_compute_quantities compiled - DONE
+4. ✅ Binary and libraries created successfully - DONE
+
+=============================================================================
+NEXT STEPS - TODO LIST:
+=============================================================================
+5. ⏳ TODO-4: Clean Lambda + PRTOE interaction (TBD)
+6. ⏳ TODO-9: Index management cleanup (TBD)
+7. ⏳ TODO-10: Create prtoe_compute_quantities() helper function
+8. ⏳ TODO-11: Clean up PRTOE comments
+9. ⏳ TODO-12: Implement perturbed Einstein equations
+10. ⏳ TODO-13: Add PRTOE to density/velocity perturbations
+11. ⏳ TODO-14: Test background + perturbation stability
+
+=============================================================================

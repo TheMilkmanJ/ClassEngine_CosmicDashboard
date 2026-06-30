@@ -131,7 +131,7 @@
 
 /* Forward declarations for PRTOE functions */
 int prtoe_normalize_phi0(struct background * pba);
-static double prtoe_rho_at_today_approx(struct background * pba, double phi, double V0, double lambda, double m);
+double prtoe_rho_at_today_approx(struct background * pba, double phi, double V0, double lambda, double m);
 int prtoe_compute_quantities(struct background * pba, double a, double phi, double phi_dot, double * F, double * F_phi, double * F_dot, double * trans, double * xi_screened, ErrorMsg error_message);
 
 int background_at_z(
@@ -1172,10 +1172,28 @@ int background_init(
              pba->error_message,
              pba->error_message);
 
-  /** - Normalize PRTOE field amplitude if PRTOE is active */
-  class_call(prtoe_normalize_phi0(pba),
-             pba->error_message,
-             pba->error_message);
+  /** ============================================================
+   *  PRTOE: Normalize field amplitude ONLY when PRTOE is physically active.
+   *  This was previously unconditional and could cause crashes in LambdaCDM.
+   *  We use a strict threshold (xi > 1e-8 && Omega0_prtoe > 0) to decide.
+   *  ============================================================ */
+  if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0) {
+    if (pba->background_verbose > 1) {
+      printf(" -> PRTOE is active (xi=%.2e). Normalizing phi_0_prtoe...\n", pba->xi_prtoe);
+    }
+    class_call(prtoe_normalize_phi0(pba),
+               pba->error_message,
+               pba->error_message);
+  } else {
+    if (pba->background_verbose > 2) {
+      printf(" -> PRTOE is inactive or in null limit (xi=%.2e). Skipping normalization.\n", pba->xi_prtoe);
+    }
+    /* Explicitly ensure the field starts at a safe value even if not used */
+    if (pba->use_prtoe == _TRUE_) {
+      pba->phi_0_prtoe = 0.0;
+      pba->V0_prtoe = 0.0;   /* extra safety for null-limit tests */
+    }
+  }
 
   /** - integrate the background over log(a), allocate and fill the background table */
   class_call(background_solve(ppr,pba),
@@ -2647,6 +2665,23 @@ int background_initial_conditions(
 
   }
 
+  /** ============================================================
+   *  PRTOE Initial Conditions (only when physically active)
+   *  ============================================================ */
+  if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0) {
+
+    double a = ppr->a_ini_over_a_today_default;
+
+    /* Set safe radiation-era attractor-like initial conditions */
+    pvecback_integration[pba->index_bi_phi_prtoe]  = pba->phi_0_prtoe;
+    pvecback_integration[pba->index_bi_dphi_prtoe] = 0.0;   /* start at rest */
+
+    if (pba->background_verbose > 2) {
+      printf(" -> PRTOE initial conditions set: phi=%.6e, dphi=0 (radiation attractor)\n",
+             pba->phi_0_prtoe);
+    }
+  }
+
   /** - Fix initial value of \f$ \phi, \phi' \f$
    * set directly in the radiation attractor => fixes the units in terms of rho_ur
    *
@@ -3016,6 +3051,18 @@ int background_derivs(
   pba =  pbpaw->pba;
   pvecback = pbpaw->pvecback;
 
+  /** ============================================================
+   *  PRTOE Safety Check
+   *  If PRTOE is declared active but indices are missing, abort early.
+   *  This catches bugs during development.
+   *  ============================================================ */
+  if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8) {
+    class_test(pba->index_bi_phi_prtoe < 0 || pba->index_bi_dphi_prtoe < 0,
+               error_message,
+               "PRTOE is active but background indices for phi_prtoe were not allocated. "
+               "Check background_indices().");
+  }
+
   /** - scale factor a (in fact, given our normalisation conventions, this stands for a/a_0) */
   a = exp(loga);
 
@@ -3068,7 +3115,16 @@ int background_derivs(
     dy[pba->index_bi_rho_fld] = -3.*(1.+pvecback[pba->index_bg_w_fld])*y[pba->index_bi_rho_fld];
   }
 
-  if (pba->use_prtoe == _TRUE_) {
+  /** ============================================================
+   *  PRTOE / PRTOE-DHOST Scalar Field Evolution
+   *  ============================================================
+   *  This block is ONLY executed when PRTOE is physically active.
+   *  When use_prtoe == _FALSE_ or xi_prtoe <= 1e-8, we explicitly
+   *  set the derivatives to zero (if the indices exist) to guarantee
+   *  that LambdaCDM runs are completely unaffected.
+   *  ============================================================ */
+  if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0) {
+
     double a = exp(loga);
 
     /* =====================================================================
@@ -3182,7 +3238,25 @@ int background_derivs(
     /* Use effective activation (covariant + screening) for smooth field evolution */
     dy[pba->index_bi_phi_prtoe]  = (dphi / a / MAX(H, 1e-20)) * trans;
     dy[pba->index_bi_dphi_prtoe] = phi_primeprime * trans;
+
+    if (pba->background_verbose > 3) {
+      printf("PRTOE active @ a=%.3e | phi=%.3e | trans=%.3e | H=%.3e\n", a, phi, trans, H);
+    }
+
+  } else {
+    /* ============================================================
+     *  PRTOE INACTIVE / NULL LIMIT / LambdaCDM
+     *  Explicitly zero the derivatives if the indices were allocated.
+     *  This guarantees zero impact on pure LambdaCDM runs.
+     *  ============================================================ */
+    if (pba->index_bi_phi_prtoe >= 0 && pba->index_bi_dphi_prtoe >= 0) {
+      dy[pba->index_bi_phi_prtoe]  = 0.0;
+      dy[pba->index_bi_dphi_prtoe] = 0.0;
+    }
   }
+
+  return _SUCCESS_;
+
 }
 
 /**
@@ -3574,7 +3648,7 @@ int prtoe_normalize_phi0(struct background * pba) {
 }
 
 /* Helper: approximate rho_prtoe at a=1 (slow-roll approximation) */
-static double prtoe_rho_at_today_approx(struct background * pba,
+double prtoe_rho_at_today_approx(struct background * pba,
                                         double phi,
                                         double V0,
                                         double lambda,
