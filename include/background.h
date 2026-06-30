@@ -29,6 +29,10 @@ enum vecback_format {short_info, normal_info, long_info};
 
 enum interpolation_method {inter_normal, inter_closeby};
 
+/** list of dark energy modes for unified framework */
+
+enum dark_energy_mode {prtoe_active, prtoe_frozen, lambda_limit};
+
 /**
  * background structure containing all the background information that
  * other modules need to know.
@@ -136,6 +140,10 @@ struct background
   double sigma_prtoe;   /**< PRTOE Displacement coupling sigma */
   double rho0_prtoe;    /**< PRTOE Reference density rho_0 */
   double gamma_prtoe;   /**< PRTOE Acceleration constant gamma */
+
+  /* ===== PHASE 5: Unified Dark Energy Framework ===== */
+  enum dark_energy_mode de_mode;  /**< Dark energy mode: prtoe_active, prtoe_frozen, or lambda_limit */
+  double omega_dark_energy;       /**< Total dark energy Omega (computed from Omega_Lambda or Omega0_prtoe) */
   double varconst_me; /**< electron mass for varying fundamental constants */
   double g_c_prtoe;     /**< Dark Matter field coupling multiplier */
   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */

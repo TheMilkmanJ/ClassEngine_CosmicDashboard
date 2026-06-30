@@ -1242,6 +1242,44 @@ int background_init(
     }
   }
 
+  /** - ---> Phase 5: Unified Dark Energy Framework mode detection
+   *  Determine dark energy mode from parameters for fluent PRTOE/Lambda integration */
+  
+  if (pba->use_prtoe == _TRUE_ && pba->Omega0_prtoe > 0.0) {
+    pba->omega_dark_energy = pba->Omega0_prtoe;
+    if (pba->xi_prtoe > 1e-8) {
+      pba->de_mode = prtoe_active;
+      if (pba->background_verbose > 1) {
+        printf(" -> Dark energy mode: PRTOE ACTIVE (xi=%.2e, Omega=%.3e)\n", 
+               pba->xi_prtoe, pba->Omega0_prtoe);
+      }
+    } else if (pba->xi_prtoe > 1e-20) {
+      pba->de_mode = prtoe_frozen;
+      if (pba->background_verbose > 1) {
+        printf(" -> Dark energy mode: PRTOE FROZEN (xi=%.2e, Omega=%.3e)\n", 
+               pba->xi_prtoe, pba->Omega0_prtoe);
+      }
+    } else {
+      pba->de_mode = lambda_limit;
+      if (pba->background_verbose > 1) {
+        printf(" -> Dark energy mode: LAMBDA LIMIT (xi=%.2e, Omega=%.3e)\n", 
+               pba->xi_prtoe, pba->Omega0_prtoe);
+      }
+    }
+  } else if (pba->has_lambda == _TRUE_ && pba->Omega0_lambda > 0.0) {
+    pba->omega_dark_energy = pba->Omega0_lambda;
+    pba->de_mode = lambda_limit;
+    if (pba->background_verbose > 1) {
+      printf(" -> Dark energy mode: PURE LAMBDA (Omega=%.3e)\n", pba->Omega0_lambda);
+    }
+  } else {
+    pba->omega_dark_energy = 0.0;
+    pba->de_mode = lambda_limit;  /* default fallback */
+    if (pba->background_verbose > 2) {
+      printf(" -> No dark energy detected\n");
+    }
+  }
+
   /** - integrate the background over log(a), allocate and fill the background table */
   class_call(background_solve(ppr,pba),
              pba->error_message,
