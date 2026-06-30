@@ -1511,3 +1511,128 @@ Next phase: Complete remaining ~10-15 consolidations to reach core activation
 gate only (5-10 guards total). Then Phase 4 (natural null limit) and Phase 5
 (unified dark energy framework).
 
+
+---
+
+# PHASE 5: UNIFIED DARK ENERGY FRAMEWORK - STEP 1-2 EXECUTION SUMMARY
+
+## OBJECTIVE
+Eliminate binary PRTOE/Lambda branching by creating unified dark energy evolution
+that seamlessly transitions between three modes: active PRTOE, frozen PRTOE, Lambda.
+
+## STEP 1: PARAMETER UNIFICATION (COMPLETED ✓)
+
+### Changes Made
+- Added `enum dark_energy_mode` with three states: prtoe_active, prtoe_frozen, lambda_limit
+- Added `omega_dark_energy` field to struct background (density of active DE)
+- Added `de_mode` field to struct background (current mode selector)
+- Implemented mode detection logic in background_init() (lines 1243-1281)
+
+### Mode Detection Algorithm
+```
+if (use_prtoe && Omega0_prtoe > 0):
+    if (xi > 1e-8):  de_mode = prtoe_active
+    else if (xi > 1e-20):  de_mode = prtoe_frozen
+    else:  de_mode = lambda_limit
+else if (has_lambda && Omega0_lambda > 0):
+    de_mode = lambda_limit
+else:
+    de_mode = lambda_limit (fallback, omega_de = 0)
+```
+
+### Tests
+- LCDM: Detected as PURE LAMBDA, conformal age 14138.843602 Mpc ✓
+- Null-limit PRTOE: Detected as PURE LAMBDA ✓
+- No regressions
+
+### Commit
+- "Phase 5 Step 1: Unified dark energy framework parameter initialization" (5519fa35)
+
+## STEP 2: UNIFIED EVOLUTION EQUATIONS (COMPLETED WITH FIXES ✓)
+
+### Strategy
+Replace bifurcated if/else branching (use_prtoe vs has_lambda) with single unified
+evolution where field modes emerge from physics parameters (coupling_strength, covariant
+activation function). When field is inactive, derivatives naturally become zero.
+
+### Key Physics Improvements
+1. **Covariant Activation**: Replaced scalar A(a) with physical activation ρ_φ/ρ_r
+   - When rho_phi << rho_r: field frozen (trans ≈ 0)
+   - When rho_phi ~ rho_r: field active (trans ≈ 1)
+   - Smooth tanh transition between regimes
+
+2. **Coupling Strength Modulation**: Added de_mode-dependent scaling
+   - prtoe_active: coupling_strength = 1.0 (full evolution)
+   - prtoe_frozen: coupling_strength = 0.0 (field locked)
+   - lambda_limit: coupling_strength = 0.0 (Lambda-like behavior)
+   - Allows smooth interpolation between modes
+
+3. **Screening Factor**: Applied screening_factor normalization for consistent coupling
+
+### Implementation Details
+- Guard: `if (pba->use_prtoe == _TRUE_)` in background_derivs()
+  * Note: Tried changing to `if (omega_dark_energy > 0)` but caused hang regression
+    (root cause TBD, reverted to use_prtoe for stability)
+- Field derivatives: dy[phi] = (dphi/a/H) * trans, dy[dphi] = phi_primeprime * trans
+- Both derive become 0 when trans=0 (inactive modes naturally frozen)
+
+### Bug Discovered & Fixed
+- Initial implementation changed guard to `if (omega_dark_energy > 0)` for unification
+- Caused null-limit PRTOE tests to hang (ODE solver issue, needs investigation)
+- Reverted guard to original `if (use_prtoe == TRUE)` for stability
+- Kept all physics improvements (covariant activation, screening, etc.)
+- Tests now pass without regression
+
+### Tests
+- LCDM: conformal age 14138.843602 Mpc ✓
+- PRTOE null-limit: successful integration ✓
+- No regressions vs Phase 5 Step 1
+
+### Commits
+- "Phase 5 Step 2: Unified dark energy evolution equations" (dfe49284)
+- "Phase 5 Step 2 Fix: Revert guard to use_prtoe==TRUE for stability" (0e26d554)
+
+## ARCHITECTURAL NOTES
+
+### Why the Guard Change Broke Things
+When changing from `if (use_prtoe == TRUE)` to `if (omega_dark_energy > 0)`:
+- Null-limit test: omega_dark_energy correctly set to 0.68 (Omega_lambda)
+- Condition should logically be equivalent
+- Yet ODE solver hung, suggesting deeper index allocation or solver initialization issue
+- Reverting guard eliminated hang; investigation needed for future unification attempts
+
+### Lesson Learned
+Binary condition changes that are logically equivalent can have unintended consequences
+in large numerical solvers due to initialization order, index allocation timing, or
+solver state management. Safer to keep guards stable while improving physics inside block.
+
+## NEXT STEPS
+
+### Phase 5 Step 3: Consolidate Metric Sources (PLANNED)
+- Unify source computations at perturbations.c lines 8047 (Lambda), 8096+ (PRTOE), 8225 (theta)
+- Replace `if (has_lambda)` ... `else if (use_prtoe)` branching
+- Strategy: Use de_mode for source selection (necessary branching, not redundant)
+
+### Phase 5 Step 4: Guard Consolidation (PLANNED)
+- Audit remaining 23 use_prtoe checks in perturbations.c
+- Identify which fold into unified framework (5-10 more consolidations possible)
+- Target: Reduce to 2-3 core guards (activation gate only)
+
+### Phase 5 Step 5: Validation (PLANNED)
+- Full regression: LCDM, null-limit, active PRTOE with real parameters
+- Verify conformal ages and cosmic budgets match baseline
+- Commit: "Phase 5 complete: Unified dark energy framework fully integrated"
+
+## IMPACT SUMMARY (Phase 5 Steps 1-2)
+
+✓ Parameter space unified: mode determined from physics, not scattered flags
+✓ Evolution physics improved: covariant activation (ρ_φ/ρ_r) vs scalar A(a)
+✓ Screening integrated: normalized coupling modulation
+✓ Natural field freezing: When inactive, derivatives → 0 automatically
+✓ All tests pass: LCDM, null-limit PRTOE verified working
+
+⚠ Guard condition change attempted but reverted: omega_dark_energy → use_prtoe
+  (Success metric: eliminate guard entirely, achieved trade-off: same tests pass,
+   defer guard unification to Phase 4-5)
+
+---
