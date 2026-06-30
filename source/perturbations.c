@@ -9324,6 +9324,9 @@ int perturbations_derivs(double tau,
 
   /* for use with dcdm and dr */
   double f_dr, fprime_dr;
+  
+  /* Pre-computed PRTOE effective gravity ratio (unified computation) */
+  double G_eff_ratio_prtoe = 1.0;
 
   /** - rename the fields of the input structure (just to avoid heavy notations) */
 
@@ -9374,6 +9377,25 @@ int perturbations_derivs(double tau,
                                  pvecthermo),
              pth->error_message,
              error_message);
+
+  /** - Pre-compute PRTOE effective gravity ratio (unified, once per timestep) */
+  if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0) {
+    double phi_current = pvecback[pba->index_bg_phi_prtoe];
+    double xi = pba->xi_prtoe;
+    double lambda = pba->lambda_prtoe;
+    double V0 = pba->V0_prtoe;
+    double m = pba->m_prtoe;
+    double F = pvecback[pba->index_bg_F_prtoe];
+    
+    double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
+    double k2_a2 = k2 / (a * a);
+    double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
+    double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
+    
+    if (fabs(F) > 1e-30 && fabs(term2) > 1e-30) {
+      G_eff_ratio_prtoe = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
+    }
+  }
 
   /** - get metric perturbations with perturbations_einstein() */
   class_call(perturbations_einstein(ppr,
@@ -9620,27 +9642,9 @@ int perturbations_derivs(double tau,
     if (ppw->approx[ppw->index_ap_tca] == (int)tca_off) {
 
       /* without tca */
-      /* PRTOE Apparent Acceleration: -gamma * grad(phi) / phi */
-      double prtoe_accel = 0.0;
-      double G_eff_ratio_baryons = 1.0;
-      
-      if (pba->use_prtoe == _TRUE_) {
-        double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
-        double xi = pba->xi_prtoe;
-        double lambda = pba->lambda_prtoe;
-        double V0 = pba->V0_prtoe;
-        double m = pba->m_prtoe;
-        double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
-        double k2_a2 = k2 / (a * a);
-        double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
-        double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
-        G_eff_ratio_baryons = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
-      }
-
       dy[pv->index_pt_theta_b] =
         - a_prime_over_a*theta_b
-        + G_eff_ratio_baryons * metric_euler
-        + prtoe_accel
+        + G_eff_ratio_prtoe * metric_euler
         + k2*delta_p_b_over_rho_b
         + R*pvecthermo[pth->index_th_dkappa]*(theta_g-theta_b);
 
@@ -9656,30 +9660,12 @@ int perturbations_derivs(double tau,
                  error_message,
                  error_message);
 
-      /* PRTOE Apparent Acceleration in TCA: acts on the baryon component */
-      double prtoe_accel = 0.0;
-      double G_eff_ratio_baryons = 1.0;
-      
-      if (pba->use_prtoe == _TRUE_) {
-        double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
-        double xi = pba->xi_prtoe;
-        double lambda = pba->lambda_prtoe;
-        double V0 = pba->V0_prtoe;
-        double m = pba->m_prtoe;
-        double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
-        double k2_a2 = k2 / (a * a);
-        double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
-        double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
-        G_eff_ratio_baryons = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
-      }
-
       /* perturbed recombination has an impact **/
       dy[pv->index_pt_theta_b] =
         (-a_prime_over_a*theta_b
          +k2*(delta_p_b_over_rho_b+R*(delta_g/4.-s2_squared*ppw->tca_shear_g))
-         + prtoe_accel
          +R*ppw->tca_slip)/(1.+R)
-         + G_eff_ratio_baryons * metric_euler;
+         + G_eff_ratio_prtoe * metric_euler;
 
       if (pth->has_idm_g == _TRUE_) {
         dy[pv->index_pt_theta_b] +=
@@ -9802,26 +9788,8 @@ int perturbations_derivs(double tau,
 
       if (ppt->gauge == newtonian) {
         dy[pv->index_pt_delta_cdm] = -(y[pv->index_pt_theta_cdm]+metric_continuity); /* cdm density */
-        
-        if (pba->use_prtoe == _TRUE_) {
-          double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
-          double xi = pba->xi_prtoe;
-          double lambda = pba->lambda_prtoe;
-          double V0 = pba->V0_prtoe;
-          double m = pba->m_prtoe;
-          
-          double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
-          double k2_a2 = k2 / (a * a);
-          double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
-          double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
-          
-          double G_eff_ratio = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
-
-          dy[pv->index_pt_theta_cdm] = - a_prime_over_a * y[pv->index_pt_theta_cdm] 
-                                        + G_eff_ratio * metric_euler;
-        } else {
-          dy[pv->index_pt_theta_cdm] = - a_prime_over_a*y[pv->index_pt_theta_cdm] + metric_euler; /* cdm velocity */
-        }
+        dy[pv->index_pt_theta_cdm] = - a_prime_over_a * y[pv->index_pt_theta_cdm] 
+                                      + G_eff_ratio_prtoe * metric_euler; /* cdm velocity with PRTOE effective gravity */
       }
 
       /** - ----> synchronous gauge: cdm density only (velocity set to zero by definition of the gauge) */
