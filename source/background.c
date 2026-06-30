@@ -3251,7 +3251,7 @@ int background_derivs(
    *  Activation is controlled by covariant trans factor, not by guards.
    *  When inactive (trans≈0), field naturally doesn't evolve.
    *  ============================================================ */
-  if (pba->use_prtoe == _TRUE_) {
+  if (pba->omega_dark_energy > 0) {
 
     double a = exp(loga);
 
@@ -3310,7 +3310,34 @@ int background_derivs(
     double x_trans = (log(MAX(ratio, 1e-60)) - log(activation_threshold)) / width_trans;
     double trans = 0.5 * (1.0 + tanh(x_trans));  // trans -> 1 when rho_phi >> activation_threshold * rho_r
 
-    /* Screening factor from get_xi_eff (consistent with background.h) */
+    /* === PHASE 5: Unified Dark Energy Mode Scaling ===
+     * Determine coupling strength based on dark energy mode.
+     * This allows smooth transitions between PRTOE active → frozen → Lambda.
+     */
+    double coupling_strength = 1.0;  // Default: full coupling for PRTOE active
+    
+    if (pba->de_mode == prtoe_frozen) {
+      /* Frozen PRTOE: Field locked, acts as quintessence, coupling_strength = 0 */
+      coupling_strength = 0.0;
+      if (pba->background_verbose > 3) {
+        printf("  Dark energy mode: PRTOE FROZEN (field evolution suppressed)\n");
+      }
+    } else if (pba->de_mode == lambda_limit) {
+      /* Lambda limit: Field at minimum (w ≈ -1), coupling_strength = 0 */
+      coupling_strength = 0.0;
+      if (pba->background_verbose > 3) {
+        printf("  Dark energy mode: LAMBDA LIMIT (field locked at minimum)\n");
+      }
+    } else if (pba->de_mode == prtoe_active) {
+      /* Active PRTOE: Full evolution with covariant activation */
+      coupling_strength = 1.0;
+      if (pba->background_verbose > 3) {
+        printf("  Dark energy mode: PRTOE ACTIVE (full field evolution)\n");
+      }
+    }
+    
+    /* Apply mode scaling to transition factor */
+    double trans_scaled = trans * coupling_strength;
     double xi_eff = get_xi_eff(pba, phi);
     double screening_factor = xi_eff / pba->prtoe_xi;  // Normalized screening
     
@@ -3364,8 +3391,8 @@ int background_derivs(
     double phi_primeprime = phi_ddot * a * a + 2.0 * H * a * a * phi_dot;
     
     /* Use effective activation (covariant + screening) for smooth field evolution */
-    dy[pba->index_bi_phi_prtoe]  = (dphi / a / MAX(H, 1e-20)) * trans;
-    dy[pba->index_bi_dphi_prtoe] = phi_primeprime * trans;
+    dy[pba->index_bi_phi_prtoe]  = (dphi / a / MAX(H, 1e-20)) * trans_scaled;
+    dy[pba->index_bi_dphi_prtoe] = phi_primeprime * trans_scaled;
 
     if (pba->background_verbose > 3) {
       printf("PRTOE active @ a=%.3e | phi=%.3e | trans=%.3e | H=%.3e\n", a, phi, trans, H);
@@ -3373,9 +3400,9 @@ int background_derivs(
 
   } else {
     /* ============================================================
-     *  PRTOE INACTIVE / NULL LIMIT / LambdaCDM
-     *  Explicitly zero the derivatives if the indices were allocated.
-     *  This guarantees zero impact on pure LambdaCDM runs.
+     *  NO DARK ENERGY
+     *  When omega_dark_energy = 0, no DE component exists.
+     *  Explicitly zero the field derivatives if indices were allocated.
      *  ============================================================ */
     if (pba->index_bi_phi_prtoe >= 0 && pba->index_bi_dphi_prtoe >= 0) {
       dy[pba->index_bi_phi_prtoe]  = 0.0;
