@@ -1304,3 +1304,9 @@ Phase 4 commit: ff707f35 "Phase 4: Critical fix - Guard PRTOE index access in ba
 - Verify LCDM, PRTOE null, FLD, and hybrid modes all work correctly
 - Document which conformal_age values are expected for each mode
 
+
+---
+PHASE 3 START: Equation Unification initiated on 2026-06-30T13:24:03-06:00
+- Action: Begin merging PRTOE perturbation equations with CLASS dark-energy framework.
+- Next steps: analyze FLD vs PRTOE, map indices, create unified solver.
+---

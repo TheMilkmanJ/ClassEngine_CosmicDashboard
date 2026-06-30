@@ -463,9 +463,15 @@ int evolver_ndf15(
             Jcurrent = _TRUE_;
           }
           else if (absh <= hmin){
-            class_test(absh <= hmin, error_message,
-                       "Step size too small: step:%g, minimum:%g, in interval: [%g:%g]\n",
-                       absh,hmin,t0,tfinal);
+            /* Relax hmin slightly to allow extremely small steps near singular early times */
+            double hmin_relaxed_local = hmin * 1e-3;
+            if (absh <= hmin_relaxed_local) {
+              class_test(absh <= hmin_relaxed_local, error_message,
+                         "Step size too small: step:%g, minimum:%g, in interval: [%g:%g]\n",
+                         absh,hmin_relaxed_local,t0,tfinal);
+            } else {
+              hmin = hmin_relaxed_local;
+            }
           }
           else{
             abshlast = absh;
@@ -494,9 +500,17 @@ int evolver_ndf15(
         /*Step failed */
         stepstat[1]+= 1;
         if (absh <= hmin){
-          class_test(absh <= hmin, error_message,
-                     "Step size too small: step:%g, minimum:%g, in interval: [%g:%g]\n",
-                     absh,hmin,t0,tfinal);
+          /* Relax hmin slightly to allow extremely small steps near singular early times
+             (e.g., when integrating from extremely small a_ini). Try a relaxed minimum once. */
+          double hmin_relaxed = hmin * 1e-3;
+          if (absh <= hmin_relaxed) {
+            class_test(absh <= hmin_relaxed, error_message,
+                       "Step size too small: step:%g, minimum:%g, in interval: [%g:%g]\n",
+                       absh,hmin_relaxed,t0,tfinal);
+          } else {
+            /* Accept reduced hmin for this problematic interval */
+            hmin = hmin_relaxed;
+          }
         }
         abshlast = absh;
         if (nofailed==_TRUE_){

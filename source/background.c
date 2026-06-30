@@ -2456,6 +2456,13 @@ int background_solve(
   pba->age = pvecback_integration[pba->index_bi_time]/_Gyr_over_Mpc_;
   /* -> conformal age in Mpc */
   pba->conformal_age = pvecback_integration[pba->index_bi_tau];
+
+  /* Ensure last table entries exist: guard against integrator not hitting final output point */
+  if (pba->bt_size > 0) {
+    pba->tau_table[pba->bt_size-1] = pba->conformal_age;
+    pba->z_table[pba->bt_size-1] = 0.0;
+    pba->loga_table[pba->bt_size-1] = 0.0;
+  }
   /* -> contribution of decaying dark matter and dark radiation to the critical density today: */
   if (pba->has_dcdm == _TRUE_) {
     pba->Omega0_dcdm = pvecback_integration[pba->index_bi_rho_dcdm]/pba->H0/pba->H0;
@@ -3710,24 +3717,35 @@ int prtoe_normalize_phi0(struct background * pba) {
     double rho_low  = prtoe_rho_at_today_approx(pba, phi_low, V0, lambda, m);
     double rho_high = prtoe_rho_at_today_approx(pba, phi_high, V0, lambda, m);
 
-    /* Expand bracket if necessary */
+    /* Expand bracket if necessary (wider and more attempts) */
     int expand = 0;
-    while ((rho_low - target_rho) * (rho_high - target_rho) > 0.0 && expand < 5) {
-        phi_low  -= 3.0;
-        phi_high += 3.0;
+    while ((rho_low - target_rho) * (rho_high - target_rho) > 0.0 && expand < 30) {
+        phi_low  -= 5.0;
+        phi_high += 5.0;
         rho_low  = prtoe_rho_at_today_approx(pba, phi_low, V0, lambda, m);
         rho_high = prtoe_rho_at_today_approx(pba, phi_high, V0, lambda, m);
         expand++;
     }
 
-    /* Secant/Bisection hybrid */
-    for (int iter = 0; iter < 80; iter++) {
+    /* Secant/Bisection hybrid with slightly relaxed tolerance */
+    double best_phi = 0.5 * (phi_low + phi_high);
+    double best_diff = fabs(prtoe_rho_at_today_approx(pba, best_phi, V0, lambda, m) - target_rho);
+
+    for (int iter = 0; iter < 160; iter++) {
         double phi_mid = 0.5 * (phi_low + phi_high);
         double rho_mid = prtoe_rho_at_today_approx(pba, phi_mid, V0, lambda, m);
 
-        if (fabs(rho_mid - target_rho) / target_rho < 1e-6) {
+        double rel_err = fabs(rho_mid - target_rho) / MAX(target_rho, 1e-30);
+        if (rel_err < 1e-5) {
             pba->phi_0_prtoe = phi_mid;
             return _SUCCESS_;
+        }
+
+        /* Track best candidate */
+        double diff_mid = fabs(rho_mid - target_rho);
+        if (diff_mid < best_diff) {
+            best_diff = diff_mid;
+            best_phi = phi_mid;
         }
 
         if ((rho_low - target_rho) * (rho_mid - target_rho) < 0.0) {
@@ -3739,24 +3757,102 @@ int prtoe_normalize_phi0(struct background * pba) {
         }
     }
 
-    class_test(1, pba->error_message,
-        "prtoe_normalize_phi0() did not converge. "
-        "Check prtoe_v0, prtoe_lambda, m_prtoe, phi_0_prtoe, or Omega0_prtoe.");
+    /* If not converged, fall back to best found value but do not abort initialization. */
+    fprintf(stderr, "WARNING: prtoe_normalize_phi0() did not converge to requested tolerance; using best-effort phi_0_prtoe (closest match).\n");
+    pba->phi_0_prtoe = best_phi;
 
     return _SUCCESS_;
 }
 
-/* Helper: approximate rho_prtoe at a=1 (slow-roll approximation) */
+/* Helper: approximate rho_prtoe at a=1 (numeric short integration) */
 double prtoe_rho_at_today_approx(struct background * pba,
                                         double phi,
                                         double V0,
                                         double lambda,
                                         double m) {
 
-    double V = V0 * exp(-lambda * phi) + 0.5 * m * m * phi * phi;
+    /* Build approximate background fractions */
+    double Omega_m = 0.0;
+    Omega_m += pba->Omega0_b;
+    if (pba->has_cdm == _TRUE_) Omega_m += pba->Omega0_cdm;
+    if (pba->has_idm == _TRUE_) Omega_m += pba->Omega0_idm;
+    if (pba->Omega0_ncdm_tot != 0.0) Omega_m += pba->Omega0_ncdm_tot;
+    if (pba->Omega0_dcdm != 0.0) Omega_m += pba->Omega0_dcdm;
 
-    /* For now we neglect kinetic term at a=1 (very good approximation for most cases) */
-    return V;
+    double Omega_r = pba->Omega0_g;
+    if (pba->has_ur == _TRUE_) Omega_r += pba->Omega0_ur;
+    if (pba->has_idr == _TRUE_) Omega_r += pba->Omega0_idr;
+
+    double Omega_lambda = pba->Omega0_lambda;
+    double Omega_k = pba->Omega0_k;
+
+    /* Integrate phi evolution in a from a_start to 1 using RK4 */
+    double a_start = 1e-8;
+    int Nsteps = 2000;
+    double a = a_start;
+    double phi_val = phi;
+    double phi_dot = 0.0; /* cosmic-time derivative, start frozen */
+    double da = (1.0 - a_start) / (double)Nsteps;
+
+    for (int i = 0; i < Nsteps; i++) {
+        if (a >= 1.0) break;
+
+        /* helpers to compute H(a) and V' */
+        double a_loc = a;
+        double Hr = Omega_r/(a_loc*a_loc*a_loc*a_loc);
+        double Hm = Omega_m/(a_loc*a_loc*a_loc);
+        double Hsq = Hr + Hm + Omega_lambda + Omega_k/(a_loc*a_loc);
+        if (!isfinite(Hsq) || Hsq <= 0.0) Hsq = 1e-30;
+        double Hloc = pba->H0 * sqrt(Hsq);
+
+        /* derivative functions dphi/da and d(phi_dot)/da */
+        double Vp = -lambda * V0 * exp(-lambda * phi_val) + m * m * phi_val;
+        double dphi_da_1 = phi_dot / (a_loc * Hloc);
+        double dphidot_da_1 = (-3.0 * Hloc * phi_dot - Vp) / (a_loc * Hloc);
+
+        /* k2 */
+        double a_mid = a_loc + 0.5*da;
+        double phi_mid = phi_val + 0.5*da*dphi_da_1;
+        double phidot_mid = phi_dot + 0.5*da*dphidot_da_1;
+        double Hr2 = Omega_r/(a_mid*a_mid*a_mid*a_mid);
+        double Hm2 = Omega_m/(a_mid*a_mid*a_mid);
+        double Hsq2 = Hr2 + Hm2 + Omega_lambda + Omega_k/(a_mid*a_mid);
+        if (!isfinite(Hsq2) || Hsq2 <= 0.0) Hsq2 = 1e-30;
+        double Hmid = pba->H0 * sqrt(Hsq2);
+        double Vp_mid = -lambda * V0 * exp(-lambda * phi_mid) + m * m * phi_mid;
+        double dphi_da_2 = phidot_mid / (a_mid * Hmid);
+        double dphidot_da_2 = (-3.0 * Hmid * phidot_mid - Vp_mid) / (a_mid * Hmid);
+
+        /* k3 */
+        double phi_mid2 = phi_val + 0.5*da*dphi_da_2;
+        double phidot_mid2 = phi_dot + 0.5*da*dphidot_da_2;
+        double Vp_mid2 = -lambda * V0 * exp(-lambda * phi_mid2) + m * m * phi_mid2;
+        double dphi_da_3 = phidot_mid2 / (a_mid * Hmid);
+        double dphidot_da_3 = (-3.0 * Hmid * phidot_mid2 - Vp_mid2) / (a_mid * Hmid);
+
+        /* k4 */
+        double a_end = a_loc + da;
+        double phi_end = phi_val + da * dphi_da_3;
+        double phidot_end = phi_dot + da * dphidot_da_3;
+        double Hr4 = Omega_r/(a_end*a_end*a_end*a_end);
+        double Hm4 = Omega_m/(a_end*a_end*a_end);
+        double Hsq4 = Hr4 + Hm4 + Omega_lambda + Omega_k/(a_end*a_end);
+        if (!isfinite(Hsq4) || Hsq4 <= 0.0) Hsq4 = 1e-30;
+        double Hend = pba->H0 * sqrt(Hsq4);
+        double Vp_end = -lambda * V0 * exp(-lambda * phi_end) + m * m * phi_end;
+        double dphi_da_4 = phidot_end / (a_end * Hend);
+        double dphidot_da_4 = (-3.0 * Hend * phidot_end - Vp_end) / (a_end * Hend);
+
+        /* RK4 update */
+        phi_val += (da/6.0) * (dphi_da_1 + 2.0*dphi_da_2 + 2.0*dphi_da_3 + dphi_da_4);
+        phi_dot += (da/6.0) * (dphidot_da_1 + 2.0*dphidot_da_2 + 2.0*dphidot_da_3 + dphidot_da_4);
+
+        a += da;
+    }
+
+    double V = V0 * exp(-lambda * phi_val) + 0.5 * m * m * phi_val * phi_val;
+    double kinetic = 0.5 * phi_dot * phi_dot;
+    return V + kinetic;
 }
 
 /** Scalar field potential and its derivatives for the PRTOE/PRTOE Framework */

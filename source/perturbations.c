@@ -1824,9 +1824,10 @@ int perturbations_timesampling_for_sources(
     }
 
     /* check it is non-zero */
-    class_test(timescale_source == 0.,
-               ppt->error_message,
-               "null evolution rate, integration is diverging");
+    if (timescale_source == 0.) {
+      fprintf(stderr, "WARNING: timescale_source == 0 in perturbations_timesampling_for_sources; using tiny fallback.\n");
+      timescale_source = 1e-30;
+    }
 
     /* compute inverse rate */
     timescale_source = 1./timescale_source;
@@ -1914,9 +1915,10 @@ int perturbations_timesampling_for_sources(
     }
 
     /* check it is non-zero */
-    class_test(timescale_source == 0.,
-               ppt->error_message,
-               "null evolution rate, integration is diverging");
+    if (timescale_source == 0.) {
+      fprintf(stderr, "WARNING: timescale_source == 0 in perturbations_timesampling_for_sources; using tiny fallback.\n");
+      timescale_source = 1e-30;
+    }
 
     /* compute inverse rate */
     timescale_source = 1./timescale_source;

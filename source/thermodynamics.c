@@ -1566,7 +1566,7 @@ int thermodynamics_solve(
   /* function pointer to ODE evolver and names of possible evolvers. */
   extern int evolver_rk(EVOLVER_PROTOTYPE);
   extern int evolver_ndf15(EVOLVER_PROTOTYPE);
-  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_ndf15;
+  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_rk; /* default to rk for thermodynamics */
 
   /** - choose evolver */
   switch (ppr->thermo_evolver) {
@@ -2200,7 +2200,7 @@ int thermodynamics_reionization_evolve_with_tau(
   /* function pointer to ODE evolver and names of possible evolvers */
   extern int evolver_rk(EVOLVER_PROTOTYPE);
   extern int evolver_ndf15(EVOLVER_PROTOTYPE);
-  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_ndf15;
+  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_rk; /* default to rk for thermodynamics */
 
   /* pointers towards two thermo vector stuctures (see below) */
 
