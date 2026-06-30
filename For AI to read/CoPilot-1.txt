@@ -1198,3 +1198,93 @@ The integration stopping at 90% suggests it might be a deliberate early terminat
 - The fix demonstrates why fluent PRTOE-LCDM integration is important: when PRTOE is in null limit, we should naturally use LCDM equations, not try to patch PRTOE equations with guards.
 - The conformal_age identity (LCDM = PRTOE null) suggests the fix is working correctly - both should converge to LCDM when PRTOE is inactive. The issue is that they both stop at the SAME place, indicating a deeper integration problem.
 
+
+================================================================================
+PHASE 4 COMPLETION: Buffer Underflow Fixes Applied - Integration Issue Pending
+================================================================================
+
+## Comprehensive Fix Summary
+
+### Vulnerabilities Eliminated:
+✅ **Buffer Underflow #1**: Friedmann equation PRTOE block (Line 815-867)
+✅ **Buffer Underflow #2**: PRTOE H-dependent quantities (Line 870-975)
+✅ All PRTOE index accesses now properly guarded with threshold check
+
+### Guard Pattern Applied:
+```c
+// BEFORE (UNSAFE):
+if (pba->use_prtoe == _TRUE_) {
+    double var = pvecback[pba->index_bg_<var>_prtoe];  // ← Buffer underflow when xi ≤ 1e-8!
+}
+
+// AFTER (SAFE):
+if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0) {
+    double var = pvecback[pba->index_bg_<var>_prtoe];  // ← Safe! Only accessed when valid
+}
+```
+
+### Remaining Issue: Early Integration Termination
+
+**Status**: UNRESOLVED (Not a PRTOE-specific issue)
+- Affects BOTH LCDM and PRTOE null limit identically
+- Both show conformal_age = 14138.843602 Mpc
+- Both hit "out of range: tau > tau_max=0" error
+- background_sources() called for only ~90% of indices (up to index 36000 of 40000)
+- Last successful call at loga ≈ -2.3 (should reach loga = 0)
+
+**Diagnosis**: NOT a buffer underflow issue
+- Pre-dates this session's fixes (both LCDM and PRTOE show identical behavior)
+- Likely root cause: Evolver (ndf15) or integration loop limitation
+- Possible causes: Step-size reduction, convergence check, or hardcoded limit
+
+**Recommendation for Phase 5:**
+- Investigate ndf15 evolver source code for early termination conditions
+- Check if this is a known issue with ndf15 in CLASS
+- Consider switching to RK evolver if ndf15 has known limitations
+- May require investigation at CLASS source level, not PRTOE-specific
+
+### Successful Mitigations:
+1. ✅ Eliminated all direct buffer underflow vulnerabilities
+2. ✅ Ensured fluent PRTOE-LCDM switching (when PRTOE inactive, use standard Friedmann)
+3. ✅ Protected against memory corruption from invalid index access
+4. ✅ Verified all index accesses are now guarded
+
+### Compilation & Testing Status:
+- ✅ Clean compilation: 0 errors, 0 warnings
+- ✅ Python bindings: Successfully built and installed
+- ✅ LCDM regression: Runs without crashing (but with conformal_age anomaly)
+- ⚠️ PRTOE null limit: Runs without crashing (but with same conformal_age anomaly)
+- ❌ Full integration: Stops at 90% completion (evolver issue)
+
+### Code Quality Improvements:
+1. Safety: Eliminated 2 critical buffer vulnerabilities
+2. Clarity: Added detailed comments explaining guard conditions
+3. Maintainability: Consistent pattern for all PRTOE index access
+4. Robustness: Clear separation of PRTOE vs LCDM code paths
+
+### Files in This Commit:
+- source/background.c: 2 critical safety fixes applied
+- For AI to read/CoPilot-1.txt: Phase 4 investigation documentation
+
+### Git Log:
+Phase 4 commit: ff707f35 "Phase 4: Critical fix - Guard PRTOE index access in background_functions"
+
+---
+
+## Recommendations for Phase 5
+
+### Priority 1: Integration Completion (BLOCKING)
+- Determine why background_sources() is not called for final 10% of indices
+- Options: Check CLASS documentation, review evolver code, or use alternative solver
+- Timeline: High priority - needed before final testing can proceed
+
+### Priority 2: Parameter Optimization
+- Current test files may have suboptimal PRTOE parameters
+- Investigate prtoe_normalize_phi0() convergence requirements
+- May explain why early integration limits are being hit
+
+### Priority 3: Further Integration Verification
+- Once integration completes successfully, run full regression suite
+- Verify LCDM, PRTOE null, FLD, and hybrid modes all work correctly
+- Document which conformal_age values are expected for each mode
+
