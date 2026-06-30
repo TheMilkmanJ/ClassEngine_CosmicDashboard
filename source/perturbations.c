@@ -9129,6 +9129,84 @@ int prtoe_perturbations_derivs(
 }
 
 /**
+ * FLD perturbation evolution helper function
+ *
+ * This function encapsulates FLD (fluid dark energy) perturbation evolution.
+ * Extracted to match PRTOE_perturbations_derivs() structure for unified handling.
+ *
+ * Handles:
+ * - Density perturbation δ evolution
+ * - Velocity perturbation θ evolution
+ * - PPF formalism when enabled
+ */
+
+int fld_perturbations_derivs(
+                             struct precision * ppr,
+                             struct background * pba,
+                             struct thermodynamics * pth,
+                             struct perturbations * ppt,
+                             int index_md,
+                             double k,
+                             double tau,
+                             double * y,
+                             double * dy,
+                             struct perturbations_workspace * ppw,
+                             double metric_continuity,
+                             double metric_euler,
+                             ErrorMsg error_message
+                             ) {
+
+  /* Short-hand notations */
+  double k2 = k * k;
+  double a = ppw->pvecback[pba->index_bg_a];
+  double a2 = a * a;
+  double H = ppw->pvecback[pba->index_bg_H];
+  double a_prime_over_a = ppw->pvecback[pba->index_bg_H] * a;
+  double * pvecback = ppw->pvecback;
+
+  double w_fld, dw_over_da_fld, w_prime_fld, integral_fld;
+  double ca2, cs2;
+
+  /* FLD only active when fluid dark energy is enabled */
+  if (pba->has_fld == _FALSE_) {
+    return _SUCCESS_;
+  }
+
+  /* Compute FLD background quantities */
+  class_call(background_w_fld(pba, a, &w_fld, &dw_over_da_fld, &integral_fld), 
+             pba->error_message, error_message);
+  w_prime_fld = dw_over_da_fld * a_prime_over_a * a;
+  
+  ca2 = w_fld - w_prime_fld / 3. / (1. + w_fld) / a_prime_over_a;
+  cs2 = pba->cs2_fld;
+
+  if (pba->use_ppf == _FALSE_) {
+    
+    /* Standard fluid case: evolve density and velocity perturbations */
+    
+    /* Density perturbation equation */
+    dy[ppw->pv->index_pt_delta_fld] =
+      -(1 + w_fld) * (y[ppw->pv->index_pt_theta_fld] + metric_continuity)
+      - 3. * (cs2 - w_fld) * a_prime_over_a * y[ppw->pv->index_pt_delta_fld]
+      - 9. * (1 + w_fld) * (cs2 - ca2) * a_prime_over_a * a_prime_over_a * y[ppw->pv->index_pt_theta_fld] / k2;
+
+    /* Velocity perturbation equation */
+    dy[ppw->pv->index_pt_theta_fld] =
+      -(1. - 3. * cs2) * a_prime_over_a * y[ppw->pv->index_pt_theta_fld]
+      + cs2 * k2 / (1. + w_fld) * y[ppw->pv->index_pt_delta_fld]
+      + metric_euler;
+
+  } else {
+    
+    /* PPF formalism: use Gamma variable */
+    dy[ppw->pv->index_pt_Gamma_fld] = ppw->Gamma_prime_fld;
+    
+  }
+
+  return _SUCCESS_;
+}
+
+/**
  * Compute derivative of all perturbations to be integrated
  *
  * For each mode (scalar/vector/tensor) and each wavenumber k, this
@@ -9851,36 +9929,8 @@ int perturbations_derivs(double tau,
     /** - ---> fluid (fld) */
 
     if (pba->has_fld == _TRUE_) {
-
-      if (pba->use_ppf == _FALSE_){
-
-        /** - ----> factors w, w_prime, adiabatic sound speed ca2 (all three background-related),
-            plus actual sound speed in the fluid rest frame cs2 */
-
-        class_call(background_w_fld(pba,a,&w_fld,&dw_over_da_fld,&integral_fld), pba->error_message, ppt->error_message);
-        w_prime_fld = dw_over_da_fld * a_prime_over_a * a;
-
-        ca2 = w_fld - w_prime_fld / 3. / (1.+w_fld) / a_prime_over_a;
-        cs2 = pba->cs2_fld;
-
-        /** - ----> fluid density */
-
-        dy[pv->index_pt_delta_fld] =
-          -(1+w_fld)*(y[pv->index_pt_theta_fld]+metric_continuity)
-          -3.*(cs2-w_fld)*a_prime_over_a*y[pv->index_pt_delta_fld]
-          -9.*(1+w_fld)*(cs2-ca2)*a_prime_over_a*a_prime_over_a*y[pv->index_pt_theta_fld]/k2;
-
-        /** - ----> fluid velocity */
-
-        dy[pv->index_pt_theta_fld] = /* fluid velocity */
-          -(1.-3.*cs2)*a_prime_over_a*y[pv->index_pt_theta_fld]
-          +cs2*k2/(1.+w_fld)*y[pv->index_pt_delta_fld]
-          +metric_euler;
-      }
-      else {
-        dy[pv->index_pt_Gamma_fld] = ppw->Gamma_prime_fld; /* Gamma variable of PPF formalism */
-      }
-
+      class_call(fld_perturbations_derivs(ppr, pba, pth, ppt, index_md, k, tau, y, dy, ppw, metric_continuity, metric_euler, ppt->error_message),
+                 ppt->error_message, ppt->error_message);
     }
 
     /** - ---> scalar field (scf) */
