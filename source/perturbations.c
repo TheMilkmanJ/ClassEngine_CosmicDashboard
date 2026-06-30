@@ -8044,10 +8044,14 @@ int perturbations_sources(
     if (ppt->has_source_delta_tot == _TRUE_)  {
 
       /** We follow the (debatable) CMBFAST/CAMB convention of not including rho_lambda in rho_tot */
-      if (pba->has_lambda == _TRUE_){
+      /* Unified decision: use de_mode when available, but only subtract rho_lambda
+         if the index was allocated. This prevents accessing invalid indices when
+         PRTOE or lambda indices are not present. */
+      if (pba->de_mode == lambda_limit && pba->index_bg_rho_lambda >= 0) {
+        /* Lambda-like mode (explicit lambda component): exclude rho_lambda */
         rho_tot = pvecback[pba->index_bg_rho_tot] - pvecback[pba->index_bg_rho_lambda];
-      }
-      else{
+      } else {
+        /* PRTOE or no explicit lambda component: include all components in total */
         rho_tot = pvecback[pba->index_bg_rho_tot];
       }
 
