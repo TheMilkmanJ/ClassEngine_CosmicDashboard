@@ -9635,8 +9635,8 @@ int perturbations_derivs(double tau,
   /** ============================================================
    *  PRTOE Safety Check (perturbations level)
    *  ============================================================ */
-  if (pba->de_mode == prtoe_active) {
-    /* Only check for field perturbation indices. Metric potentials (Phi, eta) 
+  if (_scalars_ && pba->de_mode == prtoe_active) {
+    /* Only check for field perturbation indices. Metric potentials (Phi, eta)
        are NOT evolved; they are -1 by design and computed from constraints. */
     class_test(pv->index_pt_delta_prtoe < 0,
                error_message,
