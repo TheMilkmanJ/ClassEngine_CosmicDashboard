@@ -115,10 +115,13 @@ static inline void prtoe_couple_metric_ic_from_zeta(
     struct perturbations_workspace *ppw,
     double zeta,
     double *delta_phi,
-    double *eta_coupled)
+    double *eta_metric)
 {
+  double Phi_ini = -2./3. * zeta;
+
+  /* Synchronous metric seed: ζ (linear). Never derive η from δφ — that squares F_φ/F. */
+  *eta_metric = zeta;
   *delta_phi = 0.;
-  *eta_coupled = zeta;
 
   if (!prtoe_metric_ic_active(pba, ppw))
     return;
@@ -128,10 +131,7 @@ static inline void prtoe_couple_metric_ic_from_zeta(
   if (fabs(F) < 1e-30)
     return;
 
-  double Phi_ini = -2./3. * zeta;
   *delta_phi = -(F_phi/F) * Phi_ini;
-  /* Seed synchronous η once from curvature ζ; do not re-apply F_φ/F via δφ. */
-  *eta_coupled = zeta;
 }
 
 /** Newtonian ψ = Φ − (9/2)(a/k)² ρ_shear/F, matching perturbations_einstein(). */
@@ -6102,8 +6102,7 @@ int perturbations_initial_conditions(struct precision * ppr,
           ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
         } else {
           double delta_phi_seed = 0.;
-          double eta_seed = eta;
-          prtoe_couple_metric_ic_from_zeta(pba, ppw, eta, &delta_phi_seed, &eta_seed);
+          prtoe_couple_metric_ic_from_zeta(pba, ppw, eta, &delta_phi_seed, &eta);
           ppw->pv->y[ppw->pv->index_pt_delta_prtoe]  = delta_phi_seed;
           ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
           prtoe_add_to_newtonian_constraint(pba, ppt, ppw, k, rho_r, rho_m_over_rho_r,
