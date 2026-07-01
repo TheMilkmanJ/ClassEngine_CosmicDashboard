@@ -55,20 +55,28 @@ print(f"Saved transparent ICO at: {dest_ico}")
 
 # Copy the updated transparent ICO to the local Windows user directory dynamically
 import subprocess
-desktop_res = subprocess.run(
-    ["powershell.exe", "-NoProfile", "-Command", "[Environment]::GetFolderPath('Desktop')"],
-    capture_output=True,
-    text=True,
-)
 windows_desktop = None
-if desktop_res.returncode == 0 and desktop_res.stdout.strip():
-    wsl_res = subprocess.run(
-        ["wslpath", "-u", desktop_res.stdout.strip()],
+try:
+    desktop_res = subprocess.run(
+        ["powershell.exe", "-NoProfile", "-Command", "[Environment]::GetFolderPath('Desktop')"],
         capture_output=True,
         text=True,
+        timeout=10,
     )
-    if wsl_res.returncode == 0:
-        windows_desktop = Path(wsl_res.stdout.strip())
+    if desktop_res.returncode == 0 and desktop_res.stdout.strip():
+        try:
+            wsl_res = subprocess.run(
+                ["wslpath", "-u", desktop_res.stdout.strip()],
+                capture_output=True,
+                text=True,
+                timeout=5,
+            )
+            if wsl_res.returncode == 0:
+                windows_desktop = Path(wsl_res.stdout.strip())
+        except (FileNotFoundError, subprocess.TimeoutExpired):
+            windows_desktop = None
+except (FileNotFoundError, subprocess.TimeoutExpired):
+    windows_desktop = None
 
 if windows_desktop and windows_desktop.exists():
     windows_app_dir = windows_desktop / "CosmicDashboardAssets"

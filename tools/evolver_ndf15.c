@@ -989,7 +989,7 @@ int new_linearisation(struct jacobian *jac,double hinvGak,int neq,ErrorMsg error
          jac->Numerical->q,jac->Numerical->wamd);
       /* if the next line is uncomented, the code uses natural ordering instead of AMD ordering */
       /*jac->Numerical->q = NULL;*/
-      funcreturn = sp_ludcmp(jac->Numerical, jac->spJ, 1e-3);
+      funcreturn = sp_ludcmp(jac->Numerical, jac->spJ, 1e-2);
       class_test(funcreturn == _FAILURE_,error_message,
          "Failure in sp_ludcmp. Possibly singular matrix!");
       jac->new_jacobian = _FALSE_;

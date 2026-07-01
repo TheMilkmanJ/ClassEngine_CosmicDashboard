@@ -3201,10 +3201,6 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /* At this point all the species should be set, and used for the budget equation below */
 
-  /* PRTOE defaults before budget read (use_prtoe may be read early) */
-  pba->use_prtoe = _FALSE_;
-  pba->Omega0_prtoe = 0.;
-
   /* Read use_prtoe early to avoid budget overkill */
   class_read_flag("use_prtoe", pba->use_prtoe);
 
@@ -3399,14 +3395,17 @@ int input_read_parameters_species(struct file_content * pfc,
   }
 
   /** 8.b.5) PRTOE v4.0 Kinetic Engine Registry */
-  /** Set PRTOE parameter defaults BEFORE reading input (canonical names only) */
+  /** Set PRTOE parameter defaults BEFORE reading input */
   pba->use_prtoe = _FALSE_;
+  pba->prtoe_xi = 1.0e-7;
+  pba->prtoe_v0 = 0.685;
+  pba->prtoe_mass = 0.05;
   pba->xi_prtoe = 1.0e-7;
+  pba->V0_prtoe = 0.685;
+  pba->m_prtoe = 0.05;
   pba->beta_prtoe = 1.0e-6;
   pba->lambda_prtoe = 0.05;
-  pba->m_prtoe = 0.05;  /* Scalar field mass */
-  pba->V0_prtoe = 0.685;
-  pba->Omega0_prtoe = 0.0;  /* Default: PRTOE off, use Lambda for dark energy */
+  pba->phi_0_prtoe = 1.0;
   pba->phi_ini_scf = 1.0;
   pba->phi_c_prtoe = 0.0;
   pba->delta_phi_prtoe = 0.1;
@@ -3421,6 +3420,11 @@ int input_read_parameters_species(struct file_content * pfc,
   pba->g_b_prtoe = 1.0;
   pba->g_c_prtoe = 1.0;
   pba->delta_prtoe = 0.0;
+  pba->prtoe_xi = 1.0e-7;
+  pba->prtoe_beta = 1.0e-6;
+  pba->prtoe_lambda = 0.05;
+  pba->prtoe_mass = 0.05;
+  pba->prtoe_v0 = 0.685;
   
   class_read_double("zeta_prtoe", pba->zeta_prtoe);
   class_read_double("M_prtoe", pba->M_prtoe);
@@ -3433,22 +3437,38 @@ int input_read_parameters_species(struct file_content * pfc,
   class_read_double("gamma_prtoe", pba->gamma_prtoe);
   class_read_double("g_c_prtoe", pba->g_c_prtoe);
 
-  /* PRTOE v1.0 Production Parameters — canonical names only */
-  class_read_flag("use_prtoe",        pba->use_prtoe);
-  class_read_double("xi_prtoe",       pba->xi_prtoe);
-  class_read_double("beta_prtoe",     pba->beta_prtoe);
-  class_read_double("lambda_prtoe",   pba->lambda_prtoe);
-  class_read_double("m_prtoe",        pba->m_prtoe);
-  class_read_double("V0_prtoe",       pba->V0_prtoe);
-  class_read_double("delta_prtoe",    pba->delta_prtoe);
-  class_read_double("phi_c_prtoe",    pba->phi_c_prtoe);
+  /* PRTOE v1.0 Production Parameters — screened triplet (alpha, beta, delta) */
+  class_read_double("prtoe_xi",     pba->prtoe_xi);
+  class_read_double("prtoe_beta",   pba->prtoe_beta);
+  class_read_double("prtoe_lambda", pba->prtoe_lambda);
+  class_read_double("prtoe_mass",   pba->prtoe_mass);
+  class_read_double("prtoe_v0",     pba->prtoe_v0);
+  class_read_double("prtoe_delta",  pba->delta_prtoe);  /* gradient-density coupling: delta/(1+phi^2) */
+  class_read_flag("use_prtoe",      pba->use_prtoe);
+
+  /* Copy prtoe_* inputs into xi_prtoe/beta_prtoe/... canonical fields */
+  pba->xi_prtoe     = pba->prtoe_xi;
+  pba->beta_prtoe   = pba->prtoe_beta;
+  pba->lambda_prtoe = pba->prtoe_lambda;
+  pba->m_prtoe      = pba->prtoe_mass;
+  pba->V0_prtoe     = pba->prtoe_v0;
+  pba->phi_0_prtoe  = pba->phi_ini_scf;
+
+  /* Explicit canonical overrides (overwrites defaults if present in input file) */
+  class_read_double("V0_prtoe",     pba->V0_prtoe);
+  class_read_double("m_prtoe",      pba->m_prtoe);
+  class_read_double("phi_0_prtoe",  pba->phi_0_prtoe);
+  class_read_double("xi_prtoe",     pba->xi_prtoe);
+  class_read_double("beta_prtoe",   pba->beta_prtoe);
+  class_read_double("lambda_prtoe", pba->lambda_prtoe);
+  class_read_double("delta_prtoe",  pba->delta_prtoe);  /* allow explicit override too */
+  class_read_double("phi_c_prtoe",  pba->phi_c_prtoe);
   class_read_double("delta_phi_prtoe", pba->delta_phi_prtoe);
-  class_read_double("zeta_prtoe",     pba->zeta_prtoe);
-  class_read_double("Omega0_prtoe",   pba->Omega0_prtoe);
 
   if (pba->use_prtoe == _TRUE_) {
-    /* Scale V0 to CLASS internal units (H0-normalized) */
+    /* Scale V0 and m to CLASS internal units (H0-normalized) */
     pba->V0_prtoe = pba->V0_prtoe * pba->H0 * pba->H0;
+    pba->m_prtoe  = pba->m_prtoe * pba->H0;
     
     /* Convert M_ew_prtoe from GeV to CLASS units (Mpc^-1) */
     /* 1 GeV = 1.5637e38 Mpc^-1 */
@@ -3487,6 +3507,7 @@ int input_read_parameters_species(struct file_content * pfc,
         pba->Omega0_prtoe = 0.0;
         /* For null limit, ensure field doesn't contribute energy density */
         pba->V0_prtoe = 0.0;
+        pba->prtoe_v0 = 0.0;
     }
     
     fprintf(stdout, " -> PRTOE Framework Activated (v1.0 Screened Model Bound Loaded)\n");

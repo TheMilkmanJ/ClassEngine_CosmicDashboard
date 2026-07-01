@@ -1,0 +1,28 @@
+KEY QUESTION: Do Bayesian evidence runs need CLASS perturbations?
+
+Looking at the pipeline:
+1. cobaya sets up PRTOE parameters
+2. cobaya calls CLASS to compute likelihoods
+3. Likelihoods are: Planck, BAO, SNe, DES, eBOSS, etc.
+
+What do these likelihoods ACTUALLY need from CLASS?
+
+- Planck CMB: Needs Cl's (temperature power spectrum) ← REQUIRES PERTURBATIONS
+- BAO: Needs H(z) and comoving distance ← ONLY BACKGROUND
+- SNe: Needs luminosity distance ← ONLY BACKGROUND  
+- DES Clustering: Needs matter power P(k,z) ← REQUIRES PERTURBATIONS
+- DES Weak Lensing: Needs lensing power ← REQUIRES PERTURBATIONS
+- eBOSS Lyα: Needs P(k,z) at z~2-3 ← REQUIRES PERTURBATIONS
+
+CONCLUSION: We DO need perturbations for CMB + structure growth likelihoods.
+
+BUT: The question is - does PRTOE need to affect perturbations?
+
+If PRTOE only affects background (H(z), comoving distance), then:
+- It only changes CMB through background geometry (suppressed effect)
+- It only changes BAO/SNe through H(z) (captured correctly)
+- It doesn't affect matter perturbations at all
+
+Is that the actual physics? Or should PRTOE field perturbations δφ
+couple to matter perturbations?
+

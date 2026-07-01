@@ -71,10 +71,35 @@ def prtoe_dhost_consistency_check_v2(
     phi_prime = background.get('phi_prime', np.zeros_like(phi))
     ddphi = background.get('ddphi', np.zeros_like(phi))
 
+    # If the caller provided xi, zeta, or phi_c for parameter sweeps, compute
+    # an overridden F(φ) from those parameters and use it if it differs from the
+    # background-provided F. This enables parameter-sweep support.
+    used_override = False
+    try:
+        denom = 1.0 + zeta * (phi ** 2)
+        denom = np.where(np.abs(denom) < 1e-30, 1e-30, denom)
+        xi_eff = xi * (phi ** 2) / denom
+        delta = 0.1
+        center = 0.0 if phi_c is None else phi_c
+        A = 0.5 * (1.0 + np.tanh((phi - center) / delta))
+        F_override = 1.0 + xi_eff * A
+        F_phi_override = np.gradient(F_override, phi)
+        F_phiphi_override = np.gradient(F_phi_override, phi)
+
+        if not np.allclose(F_override, F, rtol=1e-6, atol=1e-9):
+            F = F_override
+            F_phi = F_phi_override
+            F_phiphi = F_phiphi_override
+            used_override = True
+    except Exception:
+        used_override = False
+
     # === Core DHOST quantities ===
-    K = 1.0 + 3.0 * (F_phi ** 2) / (2.0 * F)
-    G = 1.0 + (F_phiphi * phi_prime**2) / F - (F_phi**2) / (2.0 * F)
-    c_s2 = G / K
+    F_safe = np.where(np.abs(F) < 1e-30, 1e-30, F)
+    K = 1.0 + 3.0 * (F_phi ** 2) / (2.0 * F_safe)
+    G = 1.0 + (F_phiphi * phi_prime**2) / F_safe - (F_phi**2) / (2.0 * F_safe)
+    K_safe = np.where(np.abs(K) < 1e-30, 1e-30, K)
+    c_s2 = G / K_safe
     c_T2 = np.ones_like(phi)   # Enforced by DHOST construction in PRTOE
 
     # === Distance to violation metrics ===
@@ -86,25 +111,32 @@ def prtoe_dhost_consistency_check_v2(
     distance_to_gradient_instability = min_c_s2 / (np.abs(min_c_s2) + 1e-12) if min_c_s2 > 0 else min_c_s2
 
     # === Warning system ===
-    warnings = []
+    warnings_list = []
+
+    if not np.all(np.isfinite(K)) or not np.all(np.isfinite(c_s2)):
+        warnings_list.append("CRITICAL: Non-finite K or c_s² detected (division by zero in F or K)")
+
     if min_K <= 0:
-        warnings.append("CRITICAL: Ghost instability detected (K ≤ 0)")
+        warnings_list.append("CRITICAL: Ghost instability detected (K ≤ 0)")
     elif min_K < 0.1:
-        warnings.append("WARNING: Very close to ghost condition (K < 0.1)")
+        warnings_list.append("WARNING: Very close to ghost condition (K < 0.1)")
 
     if min_c_s2 <= 0:
-        warnings.append("CRITICAL: Gradient instability (c_s² ≤ 0)")
+        warnings_list.append("CRITICAL: Gradient instability (c_s² ≤ 0)")
     elif min_c_s2 < 0.1:
-        warnings.append("WARNING: Very close to gradient instability (c_s² < 0.1)")
+        warnings_list.append("WARNING: Very close to gradient instability (c_s² < 0.1)")
 
     if not np.allclose(c_T2, 1.0, atol=1e-8):
-        warnings.append("CRITICAL: Tensor speed deviates from 1")
+        warnings_list.append("CRITICAL: Tensor speed deviates from 1")
+
+    if used_override:
+        warnings_list.append("INFO: Using parameter-sweep override for F(φ) computed from (xi,zeta,phi_c)")
 
     # === Tensor Sector Check (Task 4.3) ===
     tensor_result = check_tensor_speed(background)
 
     if not tensor_result['passed']:
-        warnings.append(f"Tensor speed deviation detected: {tensor_result['message']}")
+        warnings_list.append(f"Tensor speed deviation detected: {tensor_result['message']}")
         healthy = False
     else:
         if verbose:
@@ -121,7 +153,7 @@ def prtoe_dhost_consistency_check_v2(
         print(f"  c_T²     = 1.0 (enforced)")
         print(f"  Distance to ghost violation     : {distance_to_ghost:.4f}")
         print(f"  Distance to gradient violation  : {distance_to_gradient_instability:.4f}")
-        for w in warnings:
+        for w in warnings_list:
             print(f"  {w}")
 
     result = DHOSTCheckResult(
@@ -133,14 +165,18 @@ def prtoe_dhost_consistency_check_v2(
         min_c_s2=min_c_s2,
         distance_to_ghost=distance_to_ghost,
         distance_to_gradient_instability=distance_to_gradient_instability,
-        warnings=warnings,
+        warnings=warnings_list,
         raw={
             'phi': phi,
             'K': K,
             'c_s2': c_s2,
             'c_T2': c_T2,
             'F': F,
-            'F_phi': F_phi
+            'F_phi': F_phi,
+            'used_override': used_override,
+            'xi': xi,
+            'zeta': zeta,
+            'phi_c': phi_c,
         }
     )
 
@@ -208,8 +244,10 @@ def plot_dhost_diagnostics(result: DHOSTCheckResult, save_path: Optional[str] = 
     if save_path:
         plt.savefig(save_path, dpi=150)
         print(f"Plot saved to {save_path}")
+        plt.close(fig)
     else:
         plt.show()
+        plt.close(fig)
 
 
 # Example: How to call with real background output from your dashboard

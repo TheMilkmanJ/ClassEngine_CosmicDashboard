@@ -1,0 +1,10 @@
+# List of input/precision parameters passed
+# but not used (just for info)
+#
+prtoe_xi = 1.0e-8
+prtoe_beta = 1.0e-6
+prtoe_lambda = 0.05
+prtoe_mass = 0.05
+prtoe_v0 = 0.685
+phi_0_prtoe = 0.0
+write perturbations = no

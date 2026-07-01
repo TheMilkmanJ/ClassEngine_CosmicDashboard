@@ -10,14 +10,41 @@ def safe_parse_python_dict(s: str) -> dict:
     s_clean = re.sub(r'\bTrue\b', 'true', s_clean)
     s_clean = re.sub(r'\bFalse\b', 'false', s_clean)
     s_clean = re.sub(r'\bNone\b', 'null', s_clean)
-    s_clean = re.sub(r'\binf\b', '"__INF__"', s_clean)
-    s_clean = re.sub(r'\bnan\b', '"__NAN__"', s_clean)
+
+    def _nonfinite_repl(match):
+        token = match.group(1).lower()
+        return {
+            "inf": '"__INF__"',
+            "+inf": '"__INF__"',
+            "-inf": '"__NEG_INF__"',
+            "nan": '"__NAN__"',
+        }[token]
+
+    s_clean = re.sub(
+        r'(?<!["\w])([+-]?inf|nan)(?!["\w])',
+        _nonfinite_repl,
+        s_clean,
+        flags=re.IGNORECASE,
+    )
+
     try:
         parsed = json.loads(s_clean)
-        return {
-            k: (float("inf") if v == "__INF__" else float("nan") if v == "__NAN__" else v)
-            for k, v in parsed.items()
-        }
+
+        def _restore(value):
+            if value == "__INF__":
+                return float("inf")
+            if value == "__NEG_INF__":
+                return float("-inf")
+            if value == "__NAN__":
+                return float("nan")
+            if isinstance(value, dict):
+                return {k: _restore(v) for k, v in value.items()}
+            if isinstance(value, list):
+                return [_restore(v) for v in value]
+            return value
+
+        # Restore recursively to handle nested structures
+        return _restore(parsed)
     except Exception as e:
         # Fallback to custom regex key-value parser if it fails
         parsed = {}

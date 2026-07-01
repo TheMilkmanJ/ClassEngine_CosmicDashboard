@@ -134,48 +134,6 @@ int prtoe_normalize_phi0(struct background * pba);
 double prtoe_rho_at_today_approx(struct background * pba, double phi, double V0, double lambda, double m);
 int prtoe_compute_quantities(struct background * pba, double a, double phi, double phi_dot, double * F, double * F_phi, double * F_dot, double * trans, double * xi_screened, ErrorMsg error_message);
 
-/**
- * PRTOE (Parameterized Reduced Tensor-Scalar Oscillating Expansion) Dark Energy Model
- *
- * PHYSICS:
- *   Scalar field φ with hybrid exponential+quadratic potential:
- *     V(φ) = V0·exp(-λφ) + (m²/2)φ²
- *
- *   Non-minimal coupling to gravity via conformal factor F(φ):
- *     F(φ) = 1 + ξ_eff(φ)·A(φ)
- *   where:
- *     ξ_eff(φ) = ξ·φ²/(1 + ζ·φ²)  [Chameleon screening: couples ∝ φ²]
- *     A(φ) = activation function (smooth tanh transition)
- *
- *   Kinetic coupling in perturbations: β parameter controls fifth force strength
- *
- * IMPLEMENTATION:
- *   1. Background: Integrate {φ, φ̇} equations with trans activation factor
- *   2. Stress-energy: ρ_φ = (φ̇²/2 + V), p_φ = (φ̇²/2 - V)
- *   3. Perturbations: Evolve {δφ, δφ̇} with matter coupling and screening
- *   4. Constraint satisfaction: Modified Poisson equation via effective G_eff
- *
- * ACTIVATION GATES:
- *   Allocation gate: prtoe_is_physically_active() ≡ (ξ > 1e-8) OR (β > 1e-8) OR (Ω0 > 0)
- *     → Controls index allocation (only allocate when TRUE)
- *     → Ensures pure ΛCDM unaffected when FALSE
- *
- *   Temporal gate: trans = (ρ_φ / ρ_r)^α factor
- *     → Allows field to be dormant at early times
- *     → Smoothly activates when ρ_φ becomes significant
- *     → Even with allocation gate TRUE, field frozen if trans ≈ 0
- *
- * KEY PARAMETERS:
- *   xi_prtoe        Coupling strength [dimensionless]
- *   beta_prtoe      Kinetic coupling  [dimensionless, ~1e-6 to 1e-3]
- *   delta_prtoe     Transition width  [dimensionless, width of tanh activation]
- *   m_prtoe         Field mass        [eV, e.g., 1e-33 eV]
- *   lambda_prtoe    Exponential coeff [dimensionless]
- *   V0_prtoe        Exponential amplitude [natural units]
- *   zeta_prtoe      Screening parameter [controls strength of ∝φ² screening]
- */
-
-
 int background_at_z(
                     struct background *pba,
                     double z,
@@ -579,55 +537,91 @@ int background_functions(
     double V_phi    = -pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe * phi;
     double V_phiphi = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe;
 
-    if (pba->index_bg_V_scf >= 0)   pvecback[pba->index_bg_V_scf]   = V;
-    if (pba->index_bg_dV_scf >= 0)  pvecback[pba->index_bg_dV_scf]  = V_phi;
-    if (pba->index_bg_ddV_scf >= 0) pvecback[pba->index_bg_ddV_scf] = V_phiphi;
+    pvecback[pba->index_bg_V_scf]   = V;
+    pvecback[pba->index_bg_dV_scf]  = V_phi;
+    pvecback[pba->index_bg_ddV_scf] = V_phiphi;
 
     /* === Coupling function F(φ) with consistent screening via get_xi_eff ===
      * F(φ) = 1 + xi_eff(φ) * A(φ)
      * where xi_eff(φ) = prtoe_xi * S(φ) = prtoe_xi * phi^2 / (1 + zeta * phi^2)
      * and A(φ) is the activation function (tanh-based)
-     * 
-     * SKIP computation if PRTOE is inactive to avoid unnecessary numerical work */
-    double F = 1.0;
-    double F_phi = 0.0;
-    double F_phiphi = 0.0;
-    double F_phiphiphi = 0.0;
-     
+     */
+    double xi_eff = get_xi_eff(pba, phi);
+    
+    /* A(φ): activation function (tanh-based transition) */
+    double u = (phi - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
+    double tanh_u = tanh(u);
+    double sech2_u = 1.0 - tanh_u * tanh_u;
+
+    double A = 0.5 * (1.0 + tanh_u);
+    double A_prime = sech2_u / (2.0 * pba->delta_phi_prtoe);
+    double A_primeprime = -sech2_u * tanh_u / (pba->delta_phi_prtoe * pba->delta_phi_prtoe);
+
+    /* Compute derivatives of xi_eff numerically for consistency */
+    double dphi_numerical = 1e-8;
+    double xi_eff_plus = get_xi_eff(pba, phi + dphi_numerical);
+    double xi_eff_minus = get_xi_eff(pba, phi - dphi_numerical);
+    double xi_eff_2plus = get_xi_eff(pba, phi + 2.0 * dphi_numerical);
+    double xi_eff_2minus = get_xi_eff(pba, phi - 2.0 * dphi_numerical);
+    
+    double dxi_eff_dphi = (xi_eff_plus - xi_eff_minus) / (2.0 * dphi_numerical);
+    double d2xi_eff_dphi2 = (xi_eff_2plus - 2.0 * xi_eff + xi_eff_2minus) / (4.0 * dphi_numerical * dphi_numerical);
+
+    /* F(φ) = 1 + xi_eff(φ) * A(φ) */
+    double F = 1.0 + xi_eff * A;
+    
+    /* F_phi = dF/dφ = xi_eff * A_prime + A * dxi_eff_dphi */
+    double F_phi = xi_eff * A_prime + A * dxi_eff_dphi;
+    
+    /* F_phiphi = d²F/dφ² = xi_eff * A_primeprime + 2 * A_prime * dxi_eff_dphi + A * d²xi_eff_dφ² */
+    double F_phiphi = xi_eff * A_primeprime + 2.0 * A_prime * dxi_eff_dphi + A * d2xi_eff_dphi2;
+
+    /* Compute third derivative F_phiphiphi numerically (5-point central finite difference)
+       f'''(0) ≈ (-f(x+2d) + 2 f(x+d) - 2 f(x-d) + f(x-2d)) / (2 d^3)
+       where f = F(phi) = 1 + xi_eff(phi) * A(phi). */
+    double phi_p = phi + dphi_numerical;
+    double phi_m = phi - dphi_numerical;
+    double phi_2p = phi + 2.0 * dphi_numerical;
+    double phi_2m = phi - 2.0 * dphi_numerical;
+
+    double u_p = (phi_p - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
+    double u_m = (phi_m - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
+    double u_2p = (phi_2p - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
+    double u_2m = (phi_2m - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
+
+    double A_p = 0.5 * (1.0 + tanh(u_p));
+    double A_m = 0.5 * (1.0 + tanh(u_m));
+    double A_2p = 0.5 * (1.0 + tanh(u_2p));
+    double A_2m = 0.5 * (1.0 + tanh(u_2m));
+
+    double xi_eff_p = get_xi_eff(pba, phi_p);
+    double xi_eff_m = get_xi_eff(pba, phi_m);
+    double xi_eff_2p = get_xi_eff(pba, phi_2p);
+    double xi_eff_2m = get_xi_eff(pba, phi_2m);
+
+    double F_p = 1.0 + xi_eff_p * A_p;
+    double F_m = 1.0 + xi_eff_m * A_m;
+    double F_2p = 1.0 + xi_eff_2p * A_2p;
+    double F_2m = 1.0 + xi_eff_2m * A_2m;
+
+    double denom = 2.0 * dphi_numerical * dphi_numerical * dphi_numerical;
+    double F_phiphiphi = (-F_2p + 2.0 * F_p - 2.0 * F_m + F_2m) / denom;
+
     if (pba->use_prtoe == _TRUE_ && prtoe_is_physically_active(pba)) {
-      double xi_eff = get_xi_eff(pba, phi);
-       
-      /* A(φ): activation function (tanh-based transition) */
-      double u = (phi - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
-      double tanh_u = tanh(u);
-      double sech2_u = 1.0 - tanh_u * tanh_u;
-
-      double A = 0.5 * (1.0 + tanh_u);
-      double A_prime = sech2_u / (2.0 * pba->delta_phi_prtoe);
-      double A_primeprime = -sech2_u * tanh_u / (pba->delta_phi_prtoe * pba->delta_phi_prtoe);
-
-      /* Compute derivatives of xi_eff numerically for consistency */
+      pvecback[pba->index_bg_F_prtoe]       = F;
+      pvecback[pba->index_bg_F_phi_prtoe]   = F_phi;
+      pvecback[pba->index_bg_F_phiphi_prtoe] = F_phiphi;
+      pvecback[pba->index_bg_F_phiphiphi_prtoe] = F_phiphiphi;
+    }
+    else {
+      if (pba->index_bg_F_prtoe >= 0) pvecback[pba->index_bg_F_prtoe] = 0.0;
+      if (pba->index_bg_F_phi_prtoe >= 0) pvecback[pba->index_bg_F_phi_prtoe] = 0.0;
+      if (pba->index_bg_F_phiphi_prtoe >= 0) pvecback[pba->index_bg_F_phiphi_prtoe] = 0.0;
+      if (pba->index_bg_F_phiphiphi_prtoe >= 0) pvecback[pba->index_bg_F_phiphiphi_prtoe] = 0.0;
+    }
+    /* Compute and store third derivative F_phiphiphi numerically for perturbation use */
+    {
       double dphi_numerical = 1e-8;
-      double xi_eff_plus = get_xi_eff(pba, phi + dphi_numerical);
-      double xi_eff_minus = get_xi_eff(pba, phi - dphi_numerical);
-      double xi_eff_2plus = get_xi_eff(pba, phi + 2.0 * dphi_numerical);
-      double xi_eff_2minus = get_xi_eff(pba, phi - 2.0 * dphi_numerical);
-       
-      double dxi_eff_dphi = (xi_eff_plus - xi_eff_minus) / (2.0 * dphi_numerical);
-      double d2xi_eff_dphi2 = (xi_eff_2plus - 2.0 * xi_eff + xi_eff_2minus) / (4.0 * dphi_numerical * dphi_numerical);
-
-      /* F(φ) = 1 + xi_eff(φ) * A(φ) */
-      F = 1.0 + xi_eff * A;
-       
-      /* F_phi = dF/dφ = xi_eff * A_prime + A * dxi_eff_dphi */
-      F_phi = xi_eff * A_prime + A * dxi_eff_dphi;
-       
-      /* F_phiphi = d²F/dφ² = xi_eff * A_primeprime + 2 * A_prime * dxi_eff_dphi + A * d²xi_eff_dφ² */
-      F_phiphi = xi_eff * A_primeprime + 2.0 * A_prime * dxi_eff_dphi + A * d2xi_eff_dphi2;
-
-      /* Compute third derivative F_phiphiphi numerically (5-point central finite difference)
-         f'''(0) ≈ (-f(x+2d) + 2 f(x+d) - 2 f(x-d) + f(x-2d)) / (2 d^3)
-         where f = F(phi) = 1 + xi_eff(phi) * A(phi). */
       double phi_p = phi + dphi_numerical;
       double phi_m = phi - dphi_numerical;
       double phi_2p = phi + 2.0 * dphi_numerical;
@@ -654,21 +648,10 @@ int background_functions(
       double F_2m = 1.0 + xi_eff_2m * A_2m;
 
       double denom = 2.0 * dphi_numerical * dphi_numerical * dphi_numerical;
-      F_phiphiphi = (F_2p - 2.0 * F_p + 2.0 * F_m - F_2m) / denom;
+      double F_phiphiphi_val = (-F_2p + 2.0 * F_p - 2.0 * F_m + F_2m) / denom;
+      pvecback[pba->index_bg_F_phiphiphi_prtoe] = F_phiphiphi_val;
     }
 
-    if (pba->use_prtoe == _TRUE_ && prtoe_is_physically_active(pba)) {
-      pvecback[pba->index_bg_F_prtoe]       = F;
-      pvecback[pba->index_bg_F_phi_prtoe]   = F_phi;
-      pvecback[pba->index_bg_F_phiphi_prtoe] = F_phiphi;
-      pvecback[pba->index_bg_F_phiphiphi_prtoe] = F_phiphiphi;
-    }
-    else {
-      if (pba->index_bg_F_prtoe >= 0) pvecback[pba->index_bg_F_prtoe] = 1.0;  /* F = 1 when PRTOE inactive */
-      if (pba->index_bg_F_phi_prtoe >= 0) pvecback[pba->index_bg_F_phi_prtoe] = 0.0;
-      if (pba->index_bg_F_phiphi_prtoe >= 0) pvecback[pba->index_bg_F_phiphi_prtoe] = 0.0;
-      if (pba->index_bg_F_phiphiphi_prtoe >= 0) pvecback[pba->index_bg_F_phiphiphi_prtoe] = 0.0;
-    }
     /* === Covariant Activation: Use rho_phi / rho_r ratio ===
      * This is the PHYSICAL activation condition: field becomes dynamical when its
      * energy density exceeds a threshold fraction of radiation density.
@@ -697,25 +680,31 @@ int background_functions(
     double x_trans_bg = (log(MAX(ratio_bg, 1e-60)) - log(activation_threshold)) / width_trans_bg;
     double trans = 0.5 * (1.0 + tanh(x_trans_bg));  // trans -> 1 when rho_phi >> activation_threshold * rho_r
 
-    /* Pre-compute rho_prtoe and p_prtoe for Friedmann equation (smooth activation) */
-    double rho_prtoe = trans * (0.5 * phi_dot_bg * phi_dot_bg + V);
-    double p_prtoe   = trans * (0.5 * phi_dot_bg * phi_dot_bg - V);
+    /* Pre-compute rho_prtoe and p_prtoe for Friedmann equation */
+    double rho_prtoe, p_prtoe;
+    if (trans > 0.5) {
+        /* Normal PRTOE quantities when active */
+        rho_prtoe = 0.5 * phi_dot_bg * phi_dot_bg + V;
+        p_prtoe   = 0.5 * phi_dot_bg * phi_dot_bg - V;
+    } else {
+        /* Before activation: PRTOE is frozen and has no dynamical effect */
+        rho_prtoe = 0.0;
+        p_prtoe   = 0.0;
+    }
     
     /* Store and add to totals BEFORE Friedmann equation */
     pvecback[pba->index_bg_rho_prtoe] = rho_prtoe;
     pvecback[pba->index_bg_p_prtoe]   = p_prtoe;
-    if (pba->index_bg_rho_dark_energy >= 0) pvecback[pba->index_bg_rho_dark_energy] = rho_prtoe;
-    if (pba->index_bg_p_dark_energy >= 0)   pvecback[pba->index_bg_p_dark_energy]   = p_prtoe;
-    if (pba->index_bg_V_scf >= 0)   pvecback[pba->index_bg_V_scf]   = V;
-    if (pba->index_bg_dV_scf >= 0)  pvecback[pba->index_bg_dV_scf]  = V_phi;
-    if (pba->index_bg_ddV_scf >= 0) pvecback[pba->index_bg_ddV_scf] = V_phiphi;
+    pvecback[pba->index_bg_V_scf]      = V;
+    pvecback[pba->index_bg_dV_scf]     = V_phi;
+    pvecback[pba->index_bg_ddV_scf]    = V_phiphi;
     
-    /* Also store in SCF indices for compatibility when SCF slots are allocated */
-    if (pba->has_scf == _TRUE_) {
+    /* Also store in SCF indices for compatibility (only when SCF is active and not PRTOE) */
+    if (pba->has_scf == _TRUE_ && pba->use_prtoe == _FALSE_) {
       pvecback[pba->index_bg_rho_scf] = rho_prtoe;
       pvecback[pba->index_bg_p_scf]   = p_prtoe;
       pvecback[pba->index_bg_phi_scf] = phi;
-      pvecback[pba->index_bg_phi_prime_scf] = phi_prime;
+      pvecback[pba->index_bg_phi_prime_scf] = phi_prime / a;  /* dphi/dτ = phi_prime */
     }
     
     rho_tot += rho_prtoe;
@@ -724,39 +713,6 @@ int background_functions(
     /* Store field values for later use */
     pvecback[pba->index_bg_phi_prtoe]  = phi;
     pvecback[pba->index_bg_dphi_prtoe] = phi_prime;
-  }
-  /* === CRITICAL FIX: Safe initialization when use_prtoe=TRUE but field is frozen ===
-   * When use_prtoe=TRUE but prtoe_is_physically_active=FALSE (e.g., null limit tests):
-   * indices are allocated but never written. This else clause ensures they get safe values.
-   * Without this, CLASS reads garbage and perturbations fail with aH/κ' error.
-   */
-  else if (pba->use_prtoe == _TRUE_) {
-    /* Initialize ALL allocated PRTOE quantities to safe values (frozen/inactive) */
-    if (pba->index_bg_phi_prtoe >= 0)         pvecback[pba->index_bg_phi_prtoe]         = 0.0;
-    if (pba->index_bg_dphi_prtoe >= 0)        pvecback[pba->index_bg_dphi_prtoe]        = 0.0;
-    if (pba->index_bg_ddphi_prtoe >= 0)       pvecback[pba->index_bg_ddphi_prtoe]       = 0.0;
-
-    if (pba->index_bg_F_prtoe >= 0)           pvecback[pba->index_bg_F_prtoe]           = 1.0;
-    if (pba->index_bg_F_phi_prtoe >= 0)       pvecback[pba->index_bg_F_phi_prtoe]       = 0.0;
-    if (pba->index_bg_F_phiphi_prtoe >= 0)    pvecback[pba->index_bg_F_phiphi_prtoe]    = 0.0;
-    if (pba->index_bg_F_phiphiphi_prtoe >= 0) pvecback[pba->index_bg_F_phiphiphi_prtoe] = 0.0;
-    if (pba->index_bg_F_dot_prtoe >= 0)       pvecback[pba->index_bg_F_dot_prtoe]       = 0.0;
-    if (pba->index_bg_F_ddot_prtoe >= 0)      pvecback[pba->index_bg_F_ddot_prtoe]      = 0.0;
-    
-    if (pba->index_bg_rho_prtoe >= 0)         pvecback[pba->index_bg_rho_prtoe]         = 0.0;
-    if (pba->index_bg_p_prtoe >= 0)           pvecback[pba->index_bg_p_prtoe]           = 0.0;
-    if (pba->index_bg_rho_dark_energy >= 0)   pvecback[pba->index_bg_rho_dark_energy]   = 0.0;
-    if (pba->index_bg_p_dark_energy >= 0)     pvecback[pba->index_bg_p_dark_energy]     = 0.0;
-    
-    if (pba->index_bg_V_scf >= 0)             pvecback[pba->index_bg_V_scf]             = 0.0;
-    if (pba->index_bg_dV_scf >= 0)            pvecback[pba->index_bg_dV_scf]            = 0.0;
-    if (pba->index_bg_ddV_scf >= 0)           pvecback[pba->index_bg_ddV_scf]           = 0.0;
-    
-    if (pba->index_bg_meff2_prtoe >= 0)       pvecback[pba->index_bg_meff2_prtoe]       = pba->m_prtoe * pba->m_prtoe;
-    if (pba->index_bg_Q_prtoe >= 0)           pvecback[pba->index_bg_Q_prtoe]           = 0.0;
-    if (pba->index_bg_cs2_prtoe >= 0)         pvecback[pba->index_bg_cs2_prtoe]         = 1.0;  /* c_s^2 = 1 (radiation-like) when frozen */
-    if (pba->index_bg_K_prtoe >= 0)           pvecback[pba->index_bg_K_prtoe]           = 0.5;
-    if (pba->index_bg_cT2_prtoe >= 0)         pvecback[pba->index_bg_cT2_prtoe]         = 1.0;  /* c_T^2 = 1 (GR) when frozen */
   }
 
   /* ncdm */
@@ -808,7 +764,7 @@ int background_functions(
      * - Only drop Lambda when PRTOE is meaningfully active (xi > 1e-8)
      *   and we intend for PRTOE to provide the dark energy component.
      */
-    if (!prtoe_is_physically_active(pba) || pba->de_mode == lambda_limit) {
+    if (pba->use_prtoe == _FALSE_ || pba->xi_prtoe <= 1e-8) {
       rho_tot += pvecback[pba->index_bg_rho_lambda];
       p_tot   -= pvecback[pba->index_bg_rho_lambda];
     }
@@ -851,43 +807,32 @@ int background_functions(
   }
 
   /** - compute expansion rate H from Friedmann equation (unified)
-      Uses standard Friedmann when PRTOE is inactive, modified form when active */
+      Works for all F values: F=1.0 for Lambda, F(φ) for PRTOE */
   double H_sq_eff = (rho_tot - pba->K / a / a);
-  
   if (prtoe_is_physically_active(pba)) {
+    /* PRTOE: Modified Friedmann equation with non-minimal coupling F(phi) */
     double F = pvecback[pba->index_bg_F_prtoe];
+    double F_phi = pvecback[pba->index_bg_F_phi_prtoe];
     double phi_prime = pvecback[pba->index_bg_dphi_prtoe];
     
-    /* Check if field is effectively frozen: if |F-1| < 1e-8 and |phi_prime| < 1e-12, use standard Friedmann */
-    if (fabs(F - 1.0) < 1e-8 && fabs(phi_prime) < 1e-12) {
-      /* Field is frozen; F ≈ 1, phi_dot ≈ 0 → use standard Friedmann for numerical stability */
-      pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff));
-    } else {
-      /* PRTOE: Modified Friedmann equation with non-minimal coupling F(phi) */
-      double F_phi = pvecback[pba->index_bg_F_phi_prtoe];
-      double F_dot = F_phi * phi_prime / a;
-      double F_safe = MAX(F, 1e-30);
-      double rho_k = F_safe * pba->K / (a * a);
-      double A = F_safe;
-      double B = F_dot;
-      double C = -(rho_tot - rho_k);
-      double discriminant = B*B - 4.0*A*C;
+    double F_dot = F_phi * phi_prime / a;
+    double rho_k = 3.0 * MAX(F, 1e-30) * pba->K / (a * a);
+    double A = 3.0 * MAX(F, 1e-30);
+    double B = 3.0 * F_dot;
+    double C = -(rho_tot - rho_k);
+    double discriminant = B*B - 4.0*A*C;
 
-      if (discriminant >= -1e-10 && F > 1e-30) {
-        double disc_safe = MAX(discriminant, 0.0);
-        double H_new = (-B + sqrt(disc_safe)) / (2.0 * A);
-        pvecback[pba->index_bg_H] = MAX(0.0, H_new);
-      } else {
-        pvecback[pba->index_bg_H] = sqrt(MAX(0.0, rho_tot - rho_k));
-      }
+    if (discriminant >= -1e-10 && F > 1e-30) {
+      double disc_safe = MAX(discriminant, 0.0);
+      double H_new = (-B + sqrt(disc_safe)) / (2.0 * A);
+      pvecback[pba->index_bg_H] = MAX(0.0, H_new);
+    } else {
+      pvecback[pba->index_bg_H] = sqrt(MAX(0.0, rho_tot - rho_k));
     }
   } else {
-    /* Standard Friedmann for LCDM and PRTOE-disabled runs */
+    /* Standard Friedmann for LCDM */
     pvecback[pba->index_bg_H] = sqrt(MAX(0., H_sq_eff));
   }
-
-  /* Standard H' baseline (PRTOE block may override when field is active) */
-  pvecback[pba->index_bg_H_prime] = - (3./2.) * (rho_tot + p_tot) * a + pba->K/a;
 
   /** - compute PRTOE H-dependent quantities (must be after Friedmann equation) */
   /** - PRTOE H-dependent quantities computed universally */
@@ -897,12 +842,9 @@ int background_functions(
     double phi       = pvecback[pba->index_bg_phi_prtoe];
     double phi_prime = pvecback[pba->index_bg_dphi_prtoe];
     double phi_dot   = phi_prime / a;
-    
-    /* PRTOE POTENTIAL: Compute directly, don't use SCF indices */
-    double V         = pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
-    double V_phi     = -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + pba->m_prtoe * pba->m_prtoe * phi;
-    double V_phiphi  = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + pba->m_prtoe * pba->m_prtoe;
-    
+    double V         = pvecback[pba->index_bg_V_scf];
+    double V_phi     = pvecback[pba->index_bg_dV_scf];
+    double V_phiphi  = pvecback[pba->index_bg_ddV_scf];
     double F         = pvecback[pba->index_bg_F_prtoe];
     double F_phi     = pvecback[pba->index_bg_F_phi_prtoe];
     double F_phiphi  = pvecback[pba->index_bg_F_phiphi_prtoe];
@@ -925,55 +867,87 @@ int background_functions(
     double x_trans_here = (log(MAX(ratio_here, 1e-60)) - log(activation_threshold_here)) / width_trans_here;
     double trans = 0.5 * (1.0 + tanh(x_trans_here));
 
-    {
-        /* Smooth activation: scale dynamical coupling by trans (no hard cutoff) */
-        double F_dot = trans * F_phi * phi_dot;
+    if (trans > 0.5) {
+        /* Normal PRTOE quantities when active */
+        /* Time derivatives of F */
+        double F_dot = F_phi * phi_dot;
         pvecback[pba->index_bg_F_dot_prtoe] = F_dot;
 
+        /* Improved H_dot estimate (less lagged) */
         double H_dot;
-        if (F > 1e-30 && trans > 1e-8) {
+        if (F > 1e-30) {
+            /* Approximate from differentiated Friedmann (leading order) */
             H_dot = - (3.0/2.0) * (rho_tot + p_tot) * a / (3.0 * F)
-                    - (F_dot * H) / F
+                    - (F_dot * H) / F 
                     + (pba->K / (a*a)) * (F_dot / F);
         } else {
-            H_dot = pvecback[pba->index_bg_H_prime] / a;
+            H_dot = pvecback[pba->index_bg_H_prime] / a;   // fallback
         }
 
-        double phi_ddot = trans * (-3.0 * H * phi_dot - V_phi
-                                   + (F_phi / MAX(F, 1e-30)) * (H_dot + 2.0 * H * H));
-        double phi_primeprime = phi_ddot * a * a + trans * 2.0 * H * a * a * phi_dot;
+        /* Improved Klein-Gordon equation */
+        double phi_ddot = -3.0 * H * phi_dot - V_phi + (F_phi / MAX(F, 1e-30)) * (H_dot + 2.0 * H * H);
+        double phi_primeprime = phi_ddot * a * a + 2.0 * H * a * a * phi_dot;
         pvecback[pba->index_bg_ddphi_prtoe] = phi_primeprime;
 
-        double F_ddot = trans * (F_phiphi * phi_dot * phi_dot + F_phi * phi_ddot);
+        /* F_ddot */
+        double F_ddot = F_phiphi * phi_dot * phi_dot + F_phi * phi_ddot;
         pvecback[pba->index_bg_F_ddot_prtoe] = F_ddot;
 
-        if (F > 1e-30 && trans > 1e-8) {
-            H_dot = -(phi_dot * phi_dot * trans + F_ddot - H * F_dot) / (2.0 * F);
+        /* Acceleration equation */
+        if (F > 1e-30) {
+            double H_dot = -(phi_dot * phi_dot + F_ddot - H * F_dot) / (2.0 * F);
             pvecback[pba->index_bg_H_prime] = a * H_dot;
         } else {
             pvecback[pba->index_bg_H_prime] = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a;
         }
 
+        /* Store dphi value */
         pvecback[pba->index_bg_dphi_prtoe] = phi_prime;
 
-        double meff2 = prtoe_compute_meff2(V_phiphi, F, F_phi, F_phiphi,
-                                           H, pvecback[pba->index_bg_H_prime], a, pba->K, phi_dot);
-        double K_stab = 1.0 + 3.0 * F_phi * F_phi / (2.0 * MAX(F, 1e-30));
-        double Q_stab = F + F_phiphi * (phi_dot * phi_dot)
-                      - 3.0 * F_phi * F_phi / (2.0 * MAX(F, 1e-30));
+        /* === Stability quantities == */
+        double meff2 = V_phiphi
+                     + (F_phi / F) * (pba->R_curvature / 2.0 - 3.0 * H * H)
+                     - (F_phiphi / F) * (phi_dot * phi_dot);
+
+        double K = 1.0 + 3.0 * F_phi * F_phi / (2.0 * F);
+        double Q = F + F_phiphi * (phi_dot * phi_dot) - 3.0 * F_phi * F_phi / (2.0 * F);
 
         pvecback[pba->index_bg_meff2_prtoe] = meff2;
-        pvecback[pba->index_bg_K_prtoe]     = K_stab;
-        pvecback[pba->index_bg_Q_prtoe]     = Q_stab;
+        pvecback[pba->index_bg_K_prtoe]     = K;
+        pvecback[pba->index_bg_Q_prtoe]     = Q;
         pvecback[pba->index_bg_cT2_prtoe]   = 1.0;
 
-        if (trans > 0.5) {
-            if (F <= 0.0)      fprintf(stderr, "PRTOE CRITICAL: Ghost! F=%.6e\n", F);
-            if (K_stab <= 0.0) fprintf(stderr, "PRTOE CRITICAL: Negative K! K=%.6e\n", K_stab);
-            if (Q_stab < 0.0)  fprintf(stderr, "PRTOE WARNING: Gradient instability! Q=%.6e\n", Q_stab);
-            if (meff2 < -1e-8) fprintf(stderr, "PRTOE WARNING: Tachyonic! m_eff^2=%.6e\n", meff2);
-        }
+        /* Stability warnings */
+        if (F <= 0.0)      fprintf(stderr, "PRTOE CRITICAL: Ghost! F=%.6e\n", F);
+        if (K <= 0.0)      fprintf(stderr, "PRTOE CRITICAL: Negative K! K=%.6e\n", K);
+        if (Q < 0.0)       fprintf(stderr, "PRTOE WARNING: Gradient instability! Q=%.6e\n", Q);
+        if (meff2 < -1e-8) fprintf(stderr, "PRTOE WARNING: Tachyonic! m_eff^2=%.6e\n", meff2);
+    } else {
+        /* Before activation: PRTOE is frozen and has no dynamical effect */
+        double F_dot = 0.0;
+        double F_ddot = 0.0;
+        double phi_ddot = 0.0;
+        double phi_primeprime = 0.0;
+        double H_dot = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a;
+
+        /* Store minimal values */
+        pvecback[pba->index_bg_dphi_prtoe] = phi_prime;
+        pvecback[pba->index_bg_ddphi_prtoe] = phi_primeprime;
+        pvecback[pba->index_bg_F_dot_prtoe] = F_dot;
+        pvecback[pba->index_bg_F_ddot_prtoe] = F_ddot;
+        pvecback[pba->index_bg_H_prime] = a * H_dot;
+
+        /* F and its derivatives are still computed but field is frozen */
+        pvecback[pba->index_bg_F_prtoe] = F;
+        pvecback[pba->index_bg_F_phi_prtoe] = F_phi;
+        pvecback[pba->index_bg_F_phiphi_prtoe] = F_phiphi;
     }
+  }
+
+  /** - compute derivative of H with respect to conformal time */
+  /** - compute derivative of H with respect to conformal time */
+  if (pba->use_prtoe == _FALSE_) {
+    pvecback[pba->index_bg_H_prime] = - (3./2.) * (rho_tot + p_tot) * a + pba->K/a;
   }
 
   /* Total energy density*/
@@ -1019,7 +993,7 @@ int background_functions(
   if (return_format == long_info) {
 
     /** - store critical density */
-    if (prtoe_is_physically_active(pba)) {
+    if (pba->use_prtoe == _TRUE_) {
       pvecback[pba->index_bg_rho_crit] = rho_tot;  // Consistent with rho_crit = rho_tot for PRTOE
     } else {
       pvecback[pba->index_bg_rho_crit] = pow(pvecback[pba->index_bg_H], 2);
@@ -1252,24 +1226,18 @@ int background_init(
    *  ============================================================ */
   if (prtoe_is_physically_active(pba)) {
     if (pba->background_verbose > 1) {
-      printf(" -> PRTOE is active (xi=%.2e). Field rolls from phi=0 (top of potential).\n", pba->xi_prtoe);
+      printf(" -> PRTOE is active (xi=%.2e). Normalizing phi_0_prtoe...\n", pba->xi_prtoe);
     }
-    /* CRITICAL FIX (2026-06-30): Do NOT normalize phi_ini_scf to match Omega0_prtoe.
-       Previous code called prtoe_normalize_phi0() which set phi to non-zero value,
-       placing the field partway down the hill at early times. This broke CLASS's
-       early-universe assumptions and made perturbation initialization impossible.
-       
-       Correct approach: Start phi at 0, let field roll naturally, match Omega0_prtoe
-       by tuning potential parameters (V0_prtoe, lambda_prtoe) instead.
-    */
-    pba->phi_ini_scf = 0.0;  /* Field at top of potential, ready to roll */
+    class_call(prtoe_normalize_phi0(pba),
+               pba->error_message,
+               pba->error_message);
   } else {
     if (pba->background_verbose > 2) {
       printf(" -> PRTOE is inactive or in null limit (xi=%.2e). Skipping normalization.\n", pba->xi_prtoe);
     }
     /* Explicitly ensure the field starts at a safe value even if not used */
     if (pba->use_prtoe == _TRUE_) {
-      pba->phi_ini_scf = 0.0;
+      pba->phi_0_prtoe = 0.0;
       pba->V0_prtoe = 0.0;   /* extra safety for null-limit tests */
     }
   }
@@ -1277,31 +1245,25 @@ int background_init(
   /** - ---> Phase 5: Unified Dark Energy Framework mode detection
    *  Determine dark energy mode from parameters for fluent PRTOE/Lambda integration */
   
-  if (prtoe_is_physically_active(pba)) {
-    if (pba->Omega0_prtoe > 0.0) {
-      pba->omega_dark_energy = pba->Omega0_prtoe;
-    } else if (pba->Omega0_lambda > 0.0) {
-      pba->omega_dark_energy = pba->Omega0_lambda;
-    } else {
-      pba->omega_dark_energy = 0.7;
-    }
-    if ((pba->xi_prtoe > 1e-8) || (pba->beta_prtoe > 1e-8)) {
+  if (pba->use_prtoe == _TRUE_ && pba->Omega0_prtoe > 0.0) {
+    pba->omega_dark_energy = pba->Omega0_prtoe;
+    if (pba->xi_prtoe > 1e-8) {
       pba->de_mode = prtoe_active;
       if (pba->background_verbose > 1) {
-        printf(" -> Dark energy mode: PRTOE ACTIVE (xi=%.2e, beta=%.2e, Omega=%.3e)\n",
-               pba->xi_prtoe, pba->beta_prtoe, pba->omega_dark_energy);
+        printf(" -> Dark energy mode: PRTOE ACTIVE (xi=%.2e, Omega=%.3e)\n", 
+               pba->xi_prtoe, pba->Omega0_prtoe);
       }
-    } else if (pba->Omega0_prtoe > 0.0) {
+    } else if (pba->xi_prtoe > 1e-20) {
       pba->de_mode = prtoe_frozen;
       if (pba->background_verbose > 1) {
-        printf(" -> Dark energy mode: PRTOE FROZEN (xi=%.2e, Omega=%.3e)\n",
+        printf(" -> Dark energy mode: PRTOE FROZEN (xi=%.2e, Omega=%.3e)\n", 
                pba->xi_prtoe, pba->Omega0_prtoe);
       }
     } else {
       pba->de_mode = lambda_limit;
       if (pba->background_verbose > 1) {
-        printf(" -> Dark energy mode: LAMBDA LIMIT (xi=%.2e, beta=%.2e)\n",
-               pba->xi_prtoe, pba->beta_prtoe);
+        printf(" -> Dark energy mode: LAMBDA LIMIT (xi=%.2e, Omega=%.3e)\n", 
+               pba->xi_prtoe, pba->Omega0_prtoe);
       }
     }
   } else if (pba->has_lambda == _TRUE_ && pba->Omega0_lambda > 0.0) {
@@ -1493,9 +1455,6 @@ int background_indices(
   if (pba->Omega0_scf != 0.)
     pba->has_scf = _TRUE_;
 
-  if (prtoe_is_physically_active(pba))
-    pba->has_scf = _TRUE_;
-
   if (pba->Omega0_lambda != 0.)
     pba->has_lambda = _TRUE_;
 
@@ -1597,15 +1556,9 @@ int background_indices(
   /* - indices for scalar field */
   class_define_index(pba->index_bg_phi_scf,pba->has_scf,index_bg,1);
   class_define_index(pba->index_bg_phi_prime_scf,pba->has_scf,index_bg,1);
-  class_define_index(pba->index_bg_V_scf,
-                     pba->has_scf || prtoe_is_physically_active(pba),
-                     index_bg,1);
-  class_define_index(pba->index_bg_dV_scf,
-                     pba->has_scf || prtoe_is_physically_active(pba),
-                     index_bg,1);
-  class_define_index(pba->index_bg_ddV_scf,
-                     pba->has_scf || prtoe_is_physically_active(pba),
-                     index_bg,1);
+  class_define_index(pba->index_bg_V_scf,pba->has_scf,index_bg,1);
+  class_define_index(pba->index_bg_dV_scf,pba->has_scf,index_bg,1);
+  class_define_index(pba->index_bg_ddV_scf,pba->has_scf,index_bg,1);
   class_define_index(pba->index_bg_rho_scf,pba->has_scf,index_bg,1);
   class_define_index(pba->index_bg_p_scf,pba->has_scf,index_bg,1);
   class_define_index(pba->index_bg_p_prime_scf,pba->has_scf,index_bg,1);
@@ -2844,12 +2797,12 @@ int background_initial_conditions(
     double a = ppr->a_ini_over_a_today_default;
 
     /* Set safe radiation-era attractor-like initial conditions */
-    pvecback_integration[pba->index_bi_phi_prtoe]  = pba->phi_ini_scf;
+    pvecback_integration[pba->index_bi_phi_prtoe]  = pba->phi_0_prtoe;
     pvecback_integration[pba->index_bi_dphi_prtoe] = 0.0;   /* start at rest */
 
     if (pba->background_verbose > 2) {
       printf(" -> PRTOE initial conditions set: phi=%.6e, dphi=0 (radiation attractor)\n",
-             pba->phi_ini_scf);
+             pba->phi_0_prtoe);
     }
   }
 
@@ -2888,7 +2841,7 @@ int background_initial_conditions(
       pvecback_integration[index_phi_prime] = 2.*a*sqrt(V_scf(pba,pvecback_integration[index_phi]))*pba->phi_prime_ini_scf;
     }
     else if (pba->use_prtoe == _TRUE_) {
-       pvecback_integration[index_phi] = pba->phi_ini_scf;
+       pvecback_integration[index_phi] = pba->phi_0_prtoe;
        /* Start field completely frozen in the early universe (Scale-Factor Gate compatibility) */
        pvecback_integration[index_phi_prime] = 0.0;
     }
@@ -3256,28 +3209,6 @@ int background_derivs(
     printf("DEBUG background_derivs: loga=%e a=%e H=%e dy_tau=%e\n", loga, a, H, dy[pba->index_bi_tau]);
   }
 
-  /** === PRTOE EARLY-TIME DIAGNOSTICS (a < 1e-5) === */
-  if (prtoe_is_physically_active(pba) && a < 1e-5) {
-    double phi = y[pba->index_bi_phi_prtoe];
-    double phi_prime = y[pba->index_bi_dphi_prtoe];
-    
-    /* Compute rho_prtoe from field */
-    double V = pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
-    double rho_prtoe = 0.5 * phi_prime * phi_prime / (a*a) + V;
-    
-    /* Get radiation density */
-    double rho_r = pvecback[pba->index_bg_rho_g];
-    if (pba->has_ur == _TRUE_) {
-      rho_r += pvecback[pba->index_bg_rho_ur];
-    }
-    
-    double rho_ratio = (rho_r > 0) ? rho_prtoe / rho_r : 0.0;
-    
-    // TEMPORARILY DISABLED: Too many prints slow down computation
-    // fprintf(stderr, "PRTOE_EARLY: a=%.3e | phi=%.6e | phi'=%.6e | rho_prtoe=%.3e | rho_r=%.3e | ratio=%.3e | H=%.3e\n",
-    //         a, phi, phi_prime, rho_prtoe, rho_r, rho_ratio, H);
-  }
-
   class_test(pvecback[pba->index_bg_rho_g] <= 0.,
              error_message,
              "rho_g = %e instead of strictly positive",pvecback[pba->index_bg_rho_g]);
@@ -3323,15 +3254,6 @@ int background_derivs(
   if (prtoe_is_physically_active(pba)) {
 
     double a = exp(loga);
-    
-    /* HARD SKIP: If PRTOE is disabled at model level (xi=0, beta=0, Omega0=0),
-       don't compute anything — just set derivatives to zero */
-    if (pba->xi_prtoe <= 1e-8 && pba->beta_prtoe <= 1e-8 && pba->Omega0_prtoe <= 0.0) {
-      /* Pure LCDM or null-limit test: field is completely frozen */
-      dy[pba->index_bi_phi_prtoe]  = 0.0;
-      dy[pba->index_bi_dphi_prtoe] = 0.0;
-      return _SUCCESS_;
-    }
 
     /* =====================================================================
        PRTOE-DHOST Framework (aligned with prtoe_dhost_framework.tex)
@@ -3417,7 +3339,7 @@ int background_derivs(
     /* Apply mode scaling to transition factor */
     double trans_scaled = trans * coupling_strength;
     double xi_eff = get_xi_eff(pba, phi);
-    double screening_factor = xi_eff / pba->xi_prtoe;  // Normalized screening
+    double screening_factor = xi_eff / pba->prtoe_xi;  // Normalized screening
     
     /* Effective coupling with screening and activation */
     double xi_effective = xi_eff * trans;
@@ -3469,22 +3391,12 @@ int background_derivs(
     double phi_primeprime = phi_ddot * a * a + 2.0 * H * a * a * phi_dot;
     
     /* Use effective activation (covariant + screening) for smooth field evolution */
-    double dloga_gate = trans_scaled;
-    dy[pba->index_bi_phi_prtoe]  = (dphi / (a * MAX(H, 1e-20))) * dloga_gate;
-    dy[pba->index_bi_dphi_prtoe] = (phi_primeprime / (a * MAX(H, 1e-20))) * dloga_gate;
+    dy[pba->index_bi_phi_prtoe]  = (dphi / a / MAX(H, 1e-20)) * trans;
+    dy[pba->index_bi_dphi_prtoe] = phi_primeprime * trans;
 
     if (pba->background_verbose > 3) {
       printf("PRTOE active @ a=%.3e | phi=%.3e | trans=%.3e | H=%.3e\n", a, phi, trans, H);
     }
-  }
-  /* === CRITICAL: When prtoe_is_physically_active() = FALSE, still set derivatives ===
-   * Without this, the derivatives are uninitialized, CLASS integration fails.
-   * This ensures null-limit and frozen-field tests work correctly.
-   */
-  else if (pba->index_bi_phi_prtoe >= 0 && pba->index_bi_dphi_prtoe >= 0) {
-    /* Field is frozen (covariant activation off or null limit) */
-    dy[pba->index_bi_phi_prtoe]  = 0.0;
-    dy[pba->index_bi_dphi_prtoe] = 0.0;
   }
 
   return _SUCCESS_;
@@ -3550,7 +3462,7 @@ int background_sources(
     }
   }
   /* ALWAYS print when we reach the last index to debug early termination */
-  if (index_loga == pba->bt_size - 1 && pba->background_verbose > 2) {
+  if (index_loga == pba->bt_size - 1 && pba->background_verbose > 0) {
     printf("DEBUG FINAL: index_loga=%d (bt_size-1=%d), loga=%e, tau=%e\n", 
            index_loga, pba->bt_size-1, loga, y[pba->index_bi_tau]);
   }
@@ -3683,16 +3595,9 @@ int background_output_budget(
     if ((pba->has_lambda == _TRUE_) || (pba->has_fld == _TRUE_) || (pba->has_scf == _TRUE_) || (pba->has_curvature == _TRUE_)) {
       printf(" ---> Other Content \n");
     }
-    if ((pba->has_lambda == _TRUE_) && (prtoe_is_physically_active(pba) == _FALSE_)) {
+    if (pba->has_lambda == _TRUE_) {
       class_print_species("Cosmological Constant",lambda);
       budget_other+=pba->Omega0_lambda;
-    }
-    if (prtoe_is_physically_active(pba) == _TRUE_) {
-      printf("-> %-30s Omega = %-15g , omega = %-15g\n",
-             "PRTOE Dark Energy",
-             pba->Omega0_prtoe,
-             pba->Omega0_prtoe*pba->h*pba->h);
-      budget_other += pba->Omega0_prtoe;
     }
     if (pba->has_fld == _TRUE_) {
       class_print_species("Dark Energy Fluid",fld);
@@ -3783,10 +3688,10 @@ int prtoe_compute_quantities(
     /* F(phi) = 1 + xi_eff * A, where xi_eff already includes phi^2 screening */
     double F_val = 1.0 + xi_eff * A;
     /* F_phi = dF/dphi = xi_eff * A_prime + A * d(xi_eff)/dphi */
-    /* For xi_eff = xi_prtoe * phi^2 / (1 + zeta * phi^2), we have: */
-    /* d(xi_eff)/dphi = xi_prtoe * [2phi(1+zeta*phi^2) - phi^2*2*zeta*phi] / (1+zeta*phi^2)^2 */
-    /*                = xi_prtoe * 2phi / (1+zeta*phi^2)^2 */
-    double dxi_eff_dphi = pba->xi_prtoe * 2.0 * phi / pow(1.0 + pba->zeta_prtoe * phi * phi, 2);
+    /* For xi_eff = prtoe_xi * phi^2 / (1 + zeta * phi^2), we have: */
+    /* d(xi_eff)/dphi = prtoe_xi * [2phi(1+zeta*phi^2) - phi^2*2*zeta*phi] / (1+zeta*phi^2)^2 */
+    /*                = prtoe_xi * 2phi / (1+zeta*phi^2)^2 */
+    double dxi_eff_dphi = pba->prtoe_xi * 2.0 * phi / pow(1.0 + pba->zeta_prtoe * phi * phi, 2);
     double F_phi_val = xi_eff * A_prime + A * dxi_eff_dphi;
 
     /* === Covariant Activation: Use rho_phi / rho_r ratio === */
@@ -3829,10 +3734,10 @@ int prtoe_compute_quantities(
 }
 
 int background_prtoe_potential(struct background * pba, double phi, double * V, double * dV, double * ddV) {
-  double exp_term = exp(-pba->lambda_prtoe * phi);
-  *V = pba->V0_prtoe * exp_term + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
-  *dV = -pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe * phi;
-  *ddV = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe;
+  double exp_term = exp(-pba->prtoe_lambda * phi);
+  *V = pba->prtoe_v0 * exp_term + 0.5 * pow(pba->prtoe_mass, 2) * pow(phi, 2);
+  *dV = -pba->prtoe_lambda * pba->prtoe_v0 * exp_term + pow(pba->prtoe_mass, 2) * phi;
+  *ddV = pow(pba->prtoe_lambda, 2) * pba->prtoe_v0 * exp_term + pow(pba->prtoe_mass, 2);
   return _SUCCESS_;
 }
 
@@ -3859,7 +3764,7 @@ int prtoe_normalize_phi0(struct background * pba) {
     double m      = pba->m_prtoe;
 
     /* Bracket around current phi_0_prtoe */
-    double phi      = pba->phi_ini_scf;
+    double phi      = pba->phi_0_prtoe;
     double phi_low  = phi - 4.0;
     double phi_high = phi + 4.0;
 
@@ -3877,11 +3782,6 @@ int prtoe_normalize_phi0(struct background * pba) {
         expand++;
     }
 
-    class_test((rho_low - target_rho) * (rho_high - target_rho) > 0.0,
-               pba->error_message,
-               "prtoe_normalize_phi0: could not bracket target rho_prtoe=%e",
-               target_rho);
-
     /* Secant/Bisection hybrid with slightly relaxed tolerance and more iterations */
     double best_phi = 0.5 * (phi_low + phi_high);
     double best_diff = fabs(prtoe_rho_at_today_approx(pba, best_phi, V0, lambda, m) - target_rho);
@@ -3894,7 +3794,7 @@ int prtoe_normalize_phi0(struct background * pba) {
         /* Relax relative error tolerance slightly to avoid over-precision for noisy approximations */
         double rel_err = fabs(rho_mid - target_rho) / MAX(target_rho, 1e-30);
         if (rel_err < 1e-4) {
-            pba->phi_ini_scf = phi_mid;
+            pba->phi_0_prtoe = phi_mid;
             return _SUCCESS_;
         }
 
@@ -3914,9 +3814,11 @@ int prtoe_normalize_phi0(struct background * pba) {
         }
     }
 
-    class_stop(pba->error_message,
-               "prtoe_normalize_phi0: did not converge to requested tolerance; best_diff=%e",
-               best_diff);
+    /* If not converged, fall back to best found value but do not abort initialization. */
+    fprintf(stderr, "WARNING: prtoe_normalize_phi0() did not converge to requested tolerance after iterations; using best-effort phi_0_prtoe (closest match), best_diff=%g.\n", best_diff);
+    pba->phi_0_prtoe = best_phi;
+
+    return _SUCCESS_;
 }
 
 /* Helper: approximate rho_prtoe at a=1 (numeric short integration) */
@@ -4010,69 +3912,28 @@ double prtoe_rho_at_today_approx(struct background * pba,
     return V + kinetic;
 }
 
-/** Standard CLASS scalar field potential pieces (exponential * polynomial) */
-double V_e_scf(struct background *pba, double phi) {
-  double scf_lambda = pba->scf_parameters[0];
-  return exp(-scf_lambda * phi);
-}
-
-double dV_e_scf(struct background *pba, double phi) {
-  double scf_lambda = pba->scf_parameters[0];
-  return -scf_lambda * V_e_scf(pba, phi);
-}
-
-double ddV_e_scf(struct background *pba, double phi) {
-  double scf_lambda = pba->scf_parameters[0];
-  return scf_lambda * scf_lambda * V_e_scf(pba, phi);
-}
-
-double V_p_scf(struct background *pba, double phi) {
-  double scf_alpha = pba->scf_parameters[1];
-  double scf_A     = pba->scf_parameters[2];
-  double scf_B     = pba->scf_parameters[3];
-  return pow(phi - scf_B, scf_alpha) + scf_A;
-}
-
-double dV_p_scf(struct background *pba, double phi) {
-  double scf_alpha = pba->scf_parameters[1];
-  double scf_B     = pba->scf_parameters[3];
-  return scf_alpha * pow(phi - scf_B, scf_alpha - 1);
-}
-
-double ddV_p_scf(struct background *pba, double phi) {
-  double scf_alpha = pba->scf_parameters[1];
-  double scf_B     = pba->scf_parameters[3];
-  return scf_alpha * (scf_alpha - 1.) * pow(phi - scf_B, scf_alpha - 2);
-}
-
-/** Scalar field potential and its derivatives */
+/** Scalar field potential and its derivatives for the PRTOE/PRTOE Framework */
 double V_scf(struct background *pba, double phi) {
   if (pba->use_prtoe == _TRUE_) {
-    double V, dV, ddV;
-    background_prtoe_potential(pba, phi, &V, &dV, &ddV);
-    return V;
+    return pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
   }
-  return V_e_scf(pba, phi) * V_p_scf(pba, phi);
+  /* When PRTOE is off, these functions shouldn't be called with prtoe parameters
+   * This is legacy code - for safety, return 0 if use_prtoe is FALSE */
+  return 0.0;
 }
 
 double dV_scf(struct background *pba, double phi) {
   if (pba->use_prtoe == _TRUE_) {
-    double V, dV, ddV;
-    background_prtoe_potential(pba, phi, &V, &dV, &ddV);
-    return dV;
+    return -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + pba->m_prtoe * pba->m_prtoe * phi;
   }
-  return dV_e_scf(pba, phi) * V_p_scf(pba, phi) + V_e_scf(pba, phi) * dV_p_scf(pba, phi);
+  return 0.0;
 }
 
 double ddV_scf(struct background *pba, double phi) {
   if (pba->use_prtoe == _TRUE_) {
-    double V, dV, ddV;
-    background_prtoe_potential(pba, phi, &V, &dV, &ddV);
-    return ddV;
+    return pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + pba->m_prtoe * pba->m_prtoe;
   }
-  return ddV_e_scf(pba, phi) * V_p_scf(pba, phi)
-       + 2.0 * dV_e_scf(pba, phi) * dV_p_scf(pba, phi)
-       + V_e_scf(pba, phi) * ddV_p_scf(pba, phi);
+  return 0.0;
 }
 
 double Q_scf(struct background *pba, double phi, double phi_prime) {

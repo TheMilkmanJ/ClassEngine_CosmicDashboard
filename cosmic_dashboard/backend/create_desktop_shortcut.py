@@ -20,20 +20,30 @@ def to_windows_path(linux_path: Path) -> str:
 
 # 1. Create Windows Desktop Shortcut (.url file)
 # Dynamically query Windows for the active Desktop path (handles OneDrive and custom paths)
-desktop_res = subprocess.run(
-    ["powershell.exe", "-NoProfile", "-Command", "[Environment]::GetFolderPath('Desktop')"],
-    capture_output=True,
-    text=True,
-)
 windows_desktop = None
-if desktop_res.returncode == 0 and desktop_res.stdout.strip():
-    wsl_res = subprocess.run(
-        ["wslpath", "-u", desktop_res.stdout.strip()],
+try:
+    desktop_res = subprocess.run(
+        ["powershell.exe", "-NoProfile", "-Command", "[Environment]::GetFolderPath('Desktop')"],
         capture_output=True,
         text=True,
+        timeout=10,
     )
-    if wsl_res.returncode == 0:
-        windows_desktop = Path(wsl_res.stdout.strip())
+    if desktop_res.returncode == 0 and desktop_res.stdout.strip():
+        try:
+            wsl_res = subprocess.run(
+                ["wslpath", "-u", desktop_res.stdout.strip()],
+                capture_output=True,
+                text=True,
+                timeout=5,
+            )
+            if wsl_res.returncode == 0:
+                windows_desktop = Path(wsl_res.stdout.strip())
+        except (FileNotFoundError, subprocess.TimeoutExpired):
+            # wslpath not available or timed out; leave windows_desktop as None
+            windows_desktop = None
+except (FileNotFoundError, subprocess.TimeoutExpired):
+    # PowerShell not available (not on Windows) or timed out; fall back to scanning /mnt/c/Users
+    windows_desktop = None
 
 # Fallback: Scan /mnt/c/Users for valid Desktop directories if PowerShell query failed
 if not windows_desktop or not windows_desktop.exists():

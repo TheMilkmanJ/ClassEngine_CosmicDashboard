@@ -125,6 +125,7 @@ struct background
   double varconst_alpha; /**< finestructure constant for varying fundamental constants */
   double xi_prtoe;      /**< Non-minimal coupling xi; stability wedge: [1e-7, 1.2e-5] */
   double lambda_prtoe;  /**< Exponential potential slope lambda */
+  double m_prtoe;       /**< Scalar field mass (quadratic potential term) */
   double beta_prtoe;    /**< Ricci-coupling beta; sampled as log10(beta) in [-8,-4] */
   double delta_prtoe;   /**< Gradient-density interaction delta; screened as delta/(1+phi^2) */
   double V0_prtoe;      /**< Potential amplitude V0; fixed to 0.685 from action */
@@ -148,14 +149,8 @@ struct background
   double g_c_prtoe;     /**< Dark Matter field coupling multiplier */
   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */
 
-  /* New PRTOE canonical parameters — screened triplet (alpha,beta,delta)/(1+phi^2) */
-  double prtoe_xi;
-  double prtoe_beta;
-  double prtoe_lambda;
-  double prtoe_mass;
-  double prtoe_v0;
-  double m_prtoe;
-  double phi_0_prtoe;
+  /* Canonical PRTOE parameters with *_prtoe suffix (screened triplet & potential) */
+  /* Legacy names (prtoe_xi, prtoe_beta, etc.) removed entirely */
   short use_prtoe;
   double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
 
@@ -700,7 +695,7 @@ static inline double get_xi_eff(struct background *pba, double phi) {
     double phi2 = phi * phi;
     double denom = 1.0 + pba->zeta_prtoe * phi2;
     double S_phi = phi2 / denom;
-    return pba->prtoe_xi * S_phi;
+    return pba->xi_prtoe * S_phi;
 }
 
 /**
@@ -722,11 +717,50 @@ static inline int prtoe_is_physically_active(struct background *pba) {
     }
     /* Active if user requested a non-negligible coupling or explicit Omega0_prtoe */
     if (pba->xi_prtoe      > 1e-8 ||
-        pba->prtoe_beta    > 1e-8 ||
+        pba->beta_prtoe    > 1e-8 ||
         pba->Omega0_prtoe  > 0.0) {
         return _TRUE_;
     }
     return _FALSE_;
+}
+
+/** Minimum rho_prtoe for perturbation-level PRTOE coupling (stress-energy, G_eff, ICs). */
+#define PRTOE_RHO_ACTIVATION_THRESHOLD 1e-30
+
+/**
+ * Time-dependent gate: PRTOE perturbations couple only when the field
+ * contributes to the background energy budget (covariant activation on).
+ */
+static inline int prtoe_is_covariantly_active_at_tau(struct background *pba, double rho_prtoe) {
+    if (pba->de_mode != prtoe_active) {
+        return _FALSE_;
+    }
+    return (rho_prtoe > PRTOE_RHO_ACTIVATION_THRESHOLD) ? _TRUE_ : _FALSE_;
+}
+
+/**
+ * Stable effective mass squared (shared by background and perturbations).
+ * Uses R = 3H'/a + K/a^2 - H^2 instead of raw 6(H'/a + 2H^2 + K/a^2).
+ */
+static inline double prtoe_compute_meff2(double V_phiphi,
+                                         double F,
+                                         double F_phi,
+                                         double F_phiphi,
+                                         double H,
+                                         double H_prime,
+                                         double a,
+                                         double K,
+                                         double phi_dot) {
+    double F_safe = MAX(F, 1e-30);
+    double R_stable = 3.0 * H_prime / a + K / (a * a) - H * H;
+    return V_phiphi
+         + (F_phi / F_safe) * R_stable
+         - (F_phiphi / F_safe) * (phi_dot * phi_dot);
+}
+
+/** Blend a coupling ratio toward unity: 1 + g*(ratio - 1). g=0 → GR, g=1 → full ratio. */
+static inline double prtoe_blend_coupling(double g_coupling, double ratio) {
+    return 1.0 + g_coupling * (ratio - 1.0);
 }
 
 #endif
