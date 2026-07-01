@@ -132,7 +132,64 @@
 /* Forward declarations for PRTOE functions */
 int prtoe_normalize_phi0(struct background * pba);
 double prtoe_rho_at_today_approx(struct background * pba, double phi, double V0, double lambda, double m);
-int prtoe_compute_quantities(struct background * pba, double a, double phi, double phi_dot, double * F, double * F_phi, double * F_dot, double * trans, double * xi_screened, ErrorMsg error_message);
+int prtoe_compute_quantities(struct background * pba, double a, double phi, double phi_dot, double rho_dr, double * F, double * F_phi, double * F_dot, double * trans, double * xi_screened, ErrorMsg error_message);
+
+#define PRTOE_ACTIVATION_THRESHOLD 0.01
+#define PRTOE_ACTIVATION_WIDTH 0.1
+
+static double prtoe_covariant_trans_from_ratio(double ratio) {
+  double x_trans = (log(MAX(ratio, 1e-60)) - log(PRTOE_ACTIVATION_THRESHOLD)) / PRTOE_ACTIVATION_WIDTH;
+  return 0.5 * (1.0 + tanh(x_trans));
+}
+
+static double prtoe_covariant_trans(double rho_phi, double rho_r) {
+  double ratio = 0.0;
+  if (rho_r > 1e-200 && rho_phi > 1e-200) {
+    ratio = rho_phi / rho_r;
+  } else if (rho_phi > 1e-200) {
+    ratio = 1e10;
+  }
+  return prtoe_covariant_trans_from_ratio(ratio);
+}
+
+/** Total radiation density for covariant PRTOE activation (matches background rho_r budget). */
+static double prtoe_activation_rho_r(struct background *pba,
+                                     double a,
+                                     double *pvecback,
+                                     ErrorMsg error_message) {
+  double rho_r = pba->Omega0_g * pow(pba->H0, 2) / pow(a, 4);
+  if (pba->has_dr == _TRUE_ && pba->index_bg_rho_dr >= 0) {
+    rho_r += pvecback[pba->index_bg_rho_dr];
+  }
+  if (pba->has_ur == _TRUE_) {
+    rho_r += pba->Omega0_ur * pow(pba->H0, 2) / pow(a, 4);
+  }
+  if (pba->has_idr == _TRUE_) {
+    rho_r += pba->Omega0_idr * pow(pba->H0, 2) / pow(a, 4);
+  }
+  if (pba->has_ncdm == _TRUE_) {
+    int n_ncdm;
+    double rho_ncdm, p_ncdm, pseudo_p_ncdm;
+    for (n_ncdm = 0; n_ncdm < pba->N_ncdm; n_ncdm++) {
+      class_call(background_ncdm_momenta(
+                                         pba->q_ncdm_bg[n_ncdm],
+                                         pba->w_ncdm_bg[n_ncdm],
+                                         pba->q_size_ncdm_bg[n_ncdm],
+                                         pba->M_ncdm[n_ncdm],
+                                         pba->factor_ncdm[n_ncdm],
+                                         1./a-1.,
+                                         NULL,
+                                         &rho_ncdm,
+                                         &p_ncdm,
+                                         NULL,
+                                         &pseudo_p_ncdm),
+                 error_message,
+                 error_message);
+      rho_r += 3. * p_ncdm;
+    }
+  }
+  return rho_r;
+}
 
 /**
  * PRTOE (Parameterized Reduced Tensor-Scalar Oscillating Expansion) Dark Energy Model
@@ -678,33 +735,11 @@ int background_functions(
       if (pba->index_bg_F_phiphi_prtoe >= 0) pvecback[pba->index_bg_F_phiphi_prtoe] = 0.0;
       if (pba->index_bg_F_phiphiphi_prtoe >= 0) pvecback[pba->index_bg_F_phiphiphi_prtoe] = 0.0;
     }
-    /* === Covariant Activation: Use rho_phi / rho_r ratio ===
-     * This is the PHYSICAL activation condition: field becomes dynamical when its
-     * energy density exceeds a threshold fraction of radiation density.
-     * This is covariant and avoids the non-physical A(a) dependence.
-     */
+    /* === Covariant Activation: rho_phi / total radiation budget === */
     double phi_dot_bg = phi_prime / a;
     double rho_phi_candidate = 0.5 * phi_dot_bg * phi_dot_bg + V;
-    
-    /* Radiation density (photons + ultra-relativistic species) */
-    double rho_r_bg = pba->Omega0_g * pow(pba->H0, 2) / pow(a, 4);
-    if (pba->has_ur == _TRUE_) {
-      rho_r_bg += pba->Omega0_ur * pow(pba->H0, 2) / pow(a, 4);
-    }
-    
-    /* Covariant activation: smooth transition based on rho_phi / rho_r ratio */
-    double activation_threshold = 0.01;  // Activate when rho_phi ~ 1% of rho_r
-    double width_trans_bg = 0.1;          // Transition width in log(ratio)
-    double ratio_bg = 0.0;
-    
-    /* Protect against underflow at very early times */
-    if (rho_r_bg > 1e-200 && rho_phi_candidate > 1e-200) {
-      ratio_bg = rho_phi_candidate / rho_r_bg;
-    }
-    
-    /* Smooth transition: x_trans = 0 when ratio = activation_threshold */
-    double x_trans_bg = (log(MAX(ratio_bg, 1e-60)) - log(activation_threshold)) / width_trans_bg;
-    double trans = 0.5 * (1.0 + tanh(x_trans_bg));  // trans -> 1 when rho_phi >> activation_threshold * rho_r
+    double rho_r_bg = prtoe_activation_rho_r(pba, a, pvecback, pba->error_message);
+    double trans = prtoe_covariant_trans(rho_phi_candidate, rho_r_bg);
 
     /* Pre-compute rho_prtoe and p_prtoe for Friedmann equation (smooth activation) */
     double rho_prtoe = trans * (0.5 * phi_dot_bg * phi_dot_bg + V);
@@ -926,30 +961,22 @@ int background_functions(
     /* Get H value (now computed by Friedmann equation) */
     double H = pvecback[pba->index_bg_H];
 
-    /* === Covariant Activation (same as first PRTOE block) ===
-     * Recompute trans here to match the first block exactly for consistency
-     */
+    /* Covariant activation (same radiation budget as first PRTOE block) */
     double phi_dot_here = phi_prime / a;
     double rho_phi_here = 0.5 * phi_dot_here * phi_dot_here + V;
-    double rho_r_here = pba->Omega0_g * pow(pba->H0, 2) / pow(a, 4);
-    if (pba->has_ur == _TRUE_) {
-      rho_r_here += pba->Omega0_ur * pow(pba->H0, 2) / pow(a, 4);
-    }
-    double ratio_here = (rho_r_here > 1e-200 && rho_phi_here > 1e-200) ? rho_phi_here / rho_r_here : 0.0;
-    double activation_threshold_here = 0.01;
-    double width_trans_here = 0.1;
-    double x_trans_here = (log(MAX(ratio_here, 1e-60)) - log(activation_threshold_here)) / width_trans_here;
-    double trans = 0.5 * (1.0 + tanh(x_trans_here));
+    double rho_r_here = prtoe_activation_rho_r(pba, a, pvecback, pba->error_message);
+    double trans = prtoe_covariant_trans(rho_phi_here, rho_r_here);
 
     {
-        /* Smooth activation: scale dynamical coupling by trans (no hard cutoff) */
-        double F_dot = trans * F_phi * phi_dot;
+        /* Store physical F_dot (matches Friedmann); scale by trans only in EOM */
+        double F_dot = F_phi * phi_dot;
+        double F_dot_eom = trans * F_dot;
         pvecback[pba->index_bg_F_dot_prtoe] = F_dot;
 
         double H_dot;
         if (F > 1e-30 && trans > 1e-8) {
             H_dot = - (3.0/2.0) * (rho_tot + p_tot) / F
-                    - (F_dot * H) / F
+                    - (F_dot_eom * H) / F
                     + pba->K / (a*a);
         } else {
             H_dot = pvecback[pba->index_bg_H_prime] / a;
@@ -964,7 +991,7 @@ int background_functions(
         pvecback[pba->index_bg_F_ddot_prtoe] = F_ddot;
 
         if (F > 1e-30 && trans > 1e-8) {
-            H_dot = -(phi_dot * phi_dot * trans + F_ddot - H * F_dot) / (2.0 * F);
+            H_dot = -(phi_dot * phi_dot * trans + F_ddot - H * F_dot_eom) / (2.0 * F);
             pvecback[pba->index_bg_H_prime] = a * H_dot;
         } else {
             pvecback[pba->index_bg_H_prime] = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a;
@@ -1005,6 +1032,19 @@ int background_functions(
     pvecback[pba->index_bg_p_prime_scf] = pvecback[pba->index_bg_phi_prime_scf]*
       (-pvecback[pba->index_bg_phi_prime_scf]*pvecback[pba->index_bg_H]/a-2./3.*pvecback[pba->index_bg_dV_scf]);
     pvecback[pba->index_bg_p_tot_prime] += pvecback[pba->index_bg_p_prime_scf];
+  }
+  if (prtoe_is_physically_active(pba)) {
+    double phi_prtoe = pvecback[pba->index_bg_phi_prtoe];
+    double phi_prime_prtoe = pvecback[pba->index_bg_dphi_prtoe];
+    double H_bg = pvecback[pba->index_bg_H];
+    double V_p, V_phi_p, V_pp_p;
+    background_prtoe_potential(pba, phi_prtoe, &V_p, &V_phi_p, &V_pp_p);
+    double phi_dot_p = phi_prime_prtoe / a;
+    double rho_r_p = prtoe_activation_rho_r(pba, a, pvecback, pba->error_message);
+    double trans_p = prtoe_covariant_trans(0.5 * phi_dot_p * phi_dot_p + V_p, rho_r_p);
+    double p_prime_prtoe = trans_p * phi_prime_prtoe
+      * (-phi_prime_prtoe * H_bg / a - 2. / 3. * V_phi_p);
+    pvecback[pba->index_bg_p_tot_prime] += p_prime_prtoe;
   }
 
   /** - compute critical density */
@@ -1303,7 +1343,7 @@ int background_init(
                  pba->Omega0_lambda);
       pba->omega_dark_energy = pba->Omega0_lambda;
     }
-    if ((pba->xi_prtoe >= 1e-7) || (pba->beta_prtoe > 1e-8)) {
+    if (prtoe_coupling_dynamical(pba)) {
       pba->de_mode = prtoe_active;
       if (pba->background_verbose > 1) {
         printf(" -> Dark energy mode: PRTOE ACTIVE (xi=%.2e, beta=%.2e, Omega=%.3e)\n",
@@ -2527,6 +2567,9 @@ int background_checks(
   }
 
   if (pba->use_prtoe == _TRUE_) {
+    class_test(!isfinite(pba->delta_phi_prtoe) || pba->delta_phi_prtoe <= 0.0,
+               pba->error_message,
+               "PRTOE activation width delta_phi_prtoe must be strictly positive.");
     if (prtoe_unified_dark_sector_active(pba)) {
       class_test(pba->Omega0_b <= 0.0,
                  pba->error_message,
@@ -2536,9 +2579,14 @@ int background_checks(
                  "Unified PRTOE dark sector requires Omega0_prtoe > 0 after CDM absorption.");
     }
     else {
-      class_test(pba->Omega0_b <= 0.0 || pba->Omega0_cdm <= 0.0,
+      class_test(pba->Omega0_b <= 0.0,
                  pba->error_message,
-                 "Matter densities Omega_b and Omega_cdm must be strictly positive.");
+                 "Baryon density Omega_b must be strictly positive.");
+      if (prtoe_has_separate_cdm(pba)) {
+        class_test(pba->Omega0_cdm <= 0.0,
+                   pba->error_message,
+                   "Matter density Omega_cdm must be strictly positive when CDM is separate.");
+      }
     }
     class_test(pba->H0 <= 0.0,
                pba->error_message,
@@ -2677,9 +2725,17 @@ int background_solve(
 
   /* Ensure last table entries exist: guard against integrator not hitting final output point */
   if (pba->bt_size > 0) {
-    pba->tau_table[pba->bt_size-1] = pba->conformal_age;
-    pba->z_table[pba->bt_size-1] = 0.0;
-    pba->loga_table[pba->bt_size-1] = 0.0;
+    int last = pba->bt_size - 1;
+    pba->tau_table[last] = pba->conformal_age;
+    pba->z_table[last] = 0.0;
+    pba->loga_table[last] = 0.0;
+    class_call(background_functions(pba,
+                                    1.0,
+                                    pvecback_integration,
+                                    long_info,
+                                    pba->background_table + last * pba->bg_size),
+               pba->error_message,
+               pba->error_message);
   }
   /* -> contribution of decaying dark matter and dark radiation to the critical density today: */
   if (pba->has_dcdm == _TRUE_) {
@@ -2972,9 +3028,7 @@ int background_initial_conditions(
   /** ============================================================
    *  PRTOE Initial Conditions (only when physically active)
    *  ============================================================ */
-  if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe >= 1e-7 && pba->Omega0_prtoe > 0.0) {
-
-    double a = ppr->a_ini_over_a_today_default;
+  if (prtoe_is_physically_active(pba)) {
 
     /* Set safe radiation-era attractor-like initial conditions */
     pvecback_integration[pba->index_bi_phi_prtoe]  = pba->phi_ini_scf;
@@ -3360,7 +3414,7 @@ int background_derivs(
    *  If PRTOE is declared active but indices are missing, abort early.
    *  This catches bugs during development.
    *  ============================================================ */
-  if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8) {
+  if (prtoe_is_physically_active(pba)) {
     class_test(pba->index_bi_phi_prtoe < 0 || pba->index_bi_dphi_prtoe < 0,
                error_message,
                "PRTOE is active but background indices for phi_prtoe were not allocated. "
@@ -3456,15 +3510,6 @@ int background_derivs(
   if (prtoe_is_physically_active(pba)) {
 
     double a = exp(loga);
-    
-    /* HARD SKIP: If PRTOE is disabled at model level (xi=0, beta=0, Omega0=0),
-       don't compute anything — just set derivatives to zero */
-    if (pba->xi_prtoe <= 1e-8 && pba->beta_prtoe <= 1e-8 && pba->Omega0_prtoe <= 0.0) {
-      /* Pure LCDM or null-limit test: field is completely frozen */
-      dy[pba->index_bi_phi_prtoe]  = 0.0;
-      dy[pba->index_bi_dphi_prtoe] = 0.0;
-      return _SUCCESS_;
-    }
 
     /* =====================================================================
        PRTOE-DHOST Framework (aligned with prtoe_dhost_framework.tex)
@@ -3501,25 +3546,8 @@ int background_derivs(
     double V_act = pba->V0_prtoe * exp_term_act + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
     double rho_phi_candidate = 0.5 * phi_dot2 + V_act;
     
-    /* Radiation density (photons + ultra-relativistic species) */
-    double rho_r = pba->Omega0_g * pow(pba->H0, 2) / pow(a, 4);
-    if (pba->has_ur == _TRUE_) {
-      rho_r += pba->Omega0_ur * pow(pba->H0, 2) / pow(a, 4);
-    }
-    
-    /* Covariant activation: smooth transition based on rho_phi / rho_r ratio */
-    double activation_threshold = 0.01;  // Activate when rho_phi ~ 1% of rho_r
-    double width_trans = 0.1;            // Transition width in log(ratio)
-    double ratio = 0.0;
-    
-    /* Protect against underflow at very early times */
-    if (rho_r > 1e-200 && rho_phi_candidate > 1e-200) {
-      ratio = rho_phi_candidate / rho_r;
-    }
-    
-    /* Smooth transition: x_trans = 0 when ratio = activation_threshold */
-    double x_trans = (log(MAX(ratio, 1e-60)) - log(activation_threshold)) / width_trans;
-    double trans = 0.5 * (1.0 + tanh(x_trans));  // trans -> 1 when rho_phi >> activation_threshold * rho_r
+    double rho_r = prtoe_activation_rho_r(pba, a, pvecback, error_message);
+    double trans = prtoe_covariant_trans(rho_phi_candidate, rho_r);
 
     /* === PHASE 5: Unified Dark Energy Mode Scaling ===
      * Determine coupling strength based on dark energy mode.
@@ -3910,6 +3938,7 @@ int prtoe_compute_quantities(
     double a,
     double phi,
     double phi_dot,
+    double rho_dr,
     double * F,
     double * F_phi,
     double * F_dot,
@@ -3917,6 +3946,10 @@ int prtoe_compute_quantities(
     double * xi_screened,
     ErrorMsg error_message
 ) {
+    class_test(!isfinite(pba->delta_phi_prtoe) || pba->delta_phi_prtoe <= 0.0,
+               error_message,
+               "PRTOE activation width delta_phi_prtoe must be strictly positive.");
+
     /* === Potential === */
     double exp_term = exp(-pba->lambda_prtoe * phi);
     double V = pba->V0_prtoe * exp_term + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
@@ -3944,31 +3977,25 @@ int prtoe_compute_quantities(
     double dxi_eff_dphi = (xi_eff_plus - xi_eff_minus) / (2.0 * dphi_numerical);
     double F_phi_val = xi_eff * A_prime + A * dxi_eff_dphi;
 
-    /* === Covariant Activation: Use rho_phi / rho_r ratio === */
+    /* === Covariant Activation: total radiation budget === */
     double phi_dot2 = phi_dot * phi_dot;
     double rho_phi_candidate = 0.5 * phi_dot2 + V;
 
-    /* Radiation density (photons + ultra-relativistic species) */
     double rho_r = pba->Omega0_g * pow(pba->H0, 2) / pow(a, 4);
     if (pba->has_ur == _TRUE_) {
-        rho_r += pba->Omega0_ur * pow(pba->H0, 2) / pow(a, 4);
+      rho_r += pba->Omega0_ur * pow(pba->H0, 2) / pow(a, 4);
     }
-
-    /* Safe ratio computation */
-    double ratio = 0.0;
-    if (rho_r > 1e-300 && rho_phi_candidate > 1e-300) {
-        ratio = rho_phi_candidate / rho_r;
-    } else if (rho_phi_candidate > 1e-300) {
-        ratio = 1e10;   /* Force activation if radiation is negligible */
+    if (pba->has_idr == _TRUE_) {
+      rho_r += pba->Omega0_idr * pow(pba->H0, 2) / pow(a, 4);
     }
-
-    double activation_threshold = 0.01;
-    double width_trans = 0.1;
-
-    /* Extremely safe log argument */
-    double safe_ratio = MAX(ratio, 1e-80);
-    double x_trans = (log(safe_ratio) - log(activation_threshold)) / width_trans;
-    double trans_val = 0.5 * (1.0 + tanh(x_trans));
+    rho_r += rho_dr;
+    if (pba->has_ncdm == _TRUE_) {
+      int n_ncdm;
+      for (n_ncdm = 0; n_ncdm < pba->N_ncdm; n_ncdm++) {
+        rho_r += pba->Omega0_ncdm[n_ncdm] * pow(pba->H0, 2) / pow(a, 4);
+      }
+    }
+    double trans_val = prtoe_covariant_trans(rho_phi_candidate, rho_r);
 
     /* xi_screened combines xi_eff with activation trans */
     double xi_effective = xi_eff * trans_val;

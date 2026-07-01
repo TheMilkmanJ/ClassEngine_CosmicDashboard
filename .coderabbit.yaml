@@ -1,52 +1,91 @@
 # Whitelist PRTOE core files only. Do NOT prefix with "!**/*" — that pattern
 # makes the local `cr` CLI fail with "All files are ignored".
+#
+# GitHub full-context workflow (post on PR):
+#   @coderabbitai full review
+# Persistent learning example:
+#   @coderabbitai Learn: Audit all PRTOE core files against CONTEXT.md cross-file contracts.
+
+language: en-US
+
+tone_instructions: >-
+  Exhaustive physics audit, not concise summary. Report every violation of
+  CONTEXT.md and PRTOE_Working_Formulation.md. Do not stop after first findings;
+  continue until all four core files and cross-file contracts are verified.
+
 reviews:
+  # Valid profiles: chill | assertive (there is no "custom" profile in CodeRabbit schema)
+  profile: assertive
+
   path_filters:
     - "source/perturbations.c"
     - "source/background.c"
     - "include/perturbations.h"
     - "include/background.h"
 
+  poem: false
+  review_details: true
+  collapse_walkthrough: false
+  changed_files_summary: true
+
+  auto_review:
+    auto_incremental_review: false
+
   path_instructions:
+    - path: "**/*"
+      instructions: |
+        EXHAUSTIVE REVIEW MODE — override brevity bias.
+
+        Before analyzing, load CONTEXT.md and PRTOE_Working_Formulation.md as the
+        source of truth. Audit code against those constraints; do not guess.
+
+        Perform a comprehensive sweep of the entire PR diff AND the full content of
+        each whitelisted file. Do not stop at the first few findings. Continue until
+        you have verified all logical dependencies between background.c, background.h,
+        perturbations.c, and perturbations.h.
+
+        If the review is truncated due to length, continue the analysis in a
+        follow-up response. Structure output as: Major | Minor | Nit per finding,
+        with file:line, contract violated, and proposed fix.
+
+        Secondary verification pass (mandatory before finalizing):
+        1. Activation predicates consistent everywhere
+        2. F_dot identical in Friedmann, storage, helpers
+        3. rho_r budget complete for covariant activation
+        4. p_tot_prime includes PRTOE
+        5. IC metric coupling + rho_plus_p_shear seeded
+        6. Null-limit and unified-dark-sector edge cases
+
     - path: "**/perturbations.c"
       instructions: |
-        Focus on PRTOE scalar-field and metric perturbation logic only.
-
-        Verify:
-        - Newtonian and synchronous initial conditions couple delta_prtoe to the
-          metric constraint before solving alpha/phi (Section 10.4).
-        - prtoe_add_to_newtonian_constraint() uses PRTOE stress-energy
-          (delta_rho_scf, rho_plus_p_theta_scf), not raw field seeds.
-        - Stress-energy formulas match the runtime block in perturbations_derivs.
-        - PRTOE unified-dark-sector weighting is consistent with background mode.
-        - Source-array indexing uses size_t-safe macros (_source_k_index_).
-        - No dimensional or gauge inconsistencies between IC setup and evolution.
+        Deep line-by-line static analysis of PRTOE perturbation logic per CONTEXT.md.
+        Report every logic error, numerical hazard, or gauge inconsistency.
+        Cross-check stress-energy against perturbations_derivs and Section 10.4.
 
     - path: "**/background.c"
       instructions: |
-        Focus on PRTOE background evolution and coupling functions (F, F_phi, etc.).
-
-        Verify:
-        - prtoe_compute_quantities() and activation/screening are consistent with
-          the action and de_mode (prtoe_active vs prtoe_frozen vs lambda_limit).
-        - Background rho_prtoe, p_prtoe, dphi_prtoe, dV_scf feed perturbations correctly.
-        - Null-limit (xi, beta, Omega0 → 0) recovers standard LCDM background.
-        - No division-by-zero or unguarded activation at field extrema.
+        Deep line-by-line static analysis of PRTOE background evolution per CONTEXT.md.
+        Report every instability, predicate mismatch, or feed-through error.
+        Cross-check F, F_dot, trans, and Friedmann against Section 2 and 10.5.
 
     - path: "**/perturbations.h"
       instructions: |
-        Focus on PRTOE perturbation indices, macros, and API declarations.
-
-        Verify:
-        - index_pt_delta_prtoe / index_pt_ddelta_prtoe align with vector_init.
-        - _source_k_index_ / _set_source_ size_t casting prevents 32-bit overflow.
-        - Declarations match implementations in source/perturbations.c.
+        Audit API surface against source/perturbations.c. Flag every index/gate mismatch.
 
     - path: "**/background.h"
       instructions: |
-        Focus on PRTOE parameter definitions and background index declarations.
+        Audit inline helpers and indices against source/background.c and CONTEXT.md
+        activation-gate table.
 
-        Verify:
-        - PRTOE parameter structs and dark_energy_mode enum match input.c parsing.
-        - index_bg_* indices for rho_prtoe, F_prtoe, dphi_prtoe are complete and
-          consistent with background.c allocation and perturbations.c usage.
+knowledge_base:
+  code_guidelines:
+    enabled: true
+    filePatterns:
+      - path: "CONTEXT.md"
+        instructions: |
+          Primary audit checklist for CodeRabbit. Every review finding must reference
+          which contract here is violated. Do not finalize until all contracts checked.
+      - path: "PRTOE_Working_Formulation.md"
+        instructions: |
+          Full physics specification. Use for derivation-level disputes; CONTEXT.md
+          for implementation contract checks.

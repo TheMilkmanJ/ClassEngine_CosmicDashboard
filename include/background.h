@@ -834,11 +834,16 @@ static inline int prtoe_is_physically_active(struct background *pba) {
     if (pba->prtoe_explicit_null_de == _TRUE_) {
         return _FALSE_;
     }
-    /* Explicit dark-energy budget or non-minimal coupling (xi) activates PRTOE. */
-    if (pba->Omega0_prtoe > 0.0 || pba->xi_prtoe >= 1e-7) {
+    /* Explicit dark-energy budget or non-minimal coupling activates PRTOE. */
+    if (pba->Omega0_prtoe > 0.0 || pba->xi_prtoe >= 1e-7 || pba->beta_prtoe > 1e-8) {
         return _TRUE_;
     }
     return _FALSE_;
+}
+
+/** True when xi or beta turn on dynamical PRTOE coupling (de_mode = prtoe_active). */
+static inline int prtoe_coupling_dynamical(struct background *pba) {
+    return (pba->xi_prtoe >= 1e-7 || pba->beta_prtoe > 1e-8) ? _TRUE_ : _FALSE_;
 }
 
 /** Minimum rho_prtoe for perturbation-level PRTOE coupling (stress-energy, G_eff, ICs). */

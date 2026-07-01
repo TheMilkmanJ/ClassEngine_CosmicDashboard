@@ -6105,6 +6105,12 @@ int perturbations_initial_conditions(struct precision * ppr,
           prtoe_couple_metric_ic_from_zeta(pba, ppw, eta, &delta_phi_seed, &eta);
           ppw->pv->y[ppw->pv->index_pt_delta_prtoe]  = delta_phi_seed;
           ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
+          /* Seed shear budget before psi/constraint (photon shear is higher order at IC). */
+          ppw->rho_plus_p_shear = 0.;
+          if ((pba->has_ur == _TRUE_) || (pba->has_dr == _TRUE_)
+              || (pba->has_idr == _TRUE_) || (pba->has_ncdm == _TRUE_)) {
+            ppw->rho_plus_p_shear += 4. / 3. * rho_nu * shear_ur;
+          }
           prtoe_add_to_newtonian_constraint(pba, ppt, ppw, k, rho_r, rho_m_over_rho_r,
                                             &delta_tot, &velocity_tot);
         }
