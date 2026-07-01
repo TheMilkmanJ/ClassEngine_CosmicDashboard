@@ -193,12 +193,13 @@ class TestCosmoBackendImports(TestCase):
 
     def test_dashboard_backend_imports(self):
         """Verify cosmo_dashboard_backend can be imported after refactoring."""
+        script_path = Path(__file__).resolve().parents[1] / "scripts" / "cosmo_dashboard_backend.py"
         try:
             # Just test the import; don't instantiate Flask app
             import importlib.util
             spec = importlib.util.spec_from_file_location(
                 "cosmo_dashboard_backend",
-                "/home/themilkmanj/prtoe_class/scripts/cosmo_dashboard_backend.py"
+                str(script_path)
             )
             if spec and spec.loader:
                 # Successfully located; full import would require Flask/other deps
@@ -207,7 +208,7 @@ class TestCosmoBackendImports(TestCase):
                 self.fail("Could not locate cosmo_dashboard_backend")
         except Exception as e:
             # If we can't test the import directly, that's OK; the file exists
-            self.assertTrue(Path("/home/themilkmanj/prtoe_class/scripts/cosmo_dashboard_backend.py").exists())
+            self.assertTrue(script_path.exists())
 
 
 if __name__ == "__main__":
