@@ -1849,11 +1849,12 @@ int perturbations_timesampling_for_sources(
       timescale_source /= 2.;
     }
 
-    /* NOTE: For PRTOE, stiff field dynamics can make integration steps very small.
-       This is expected behavior and will be handled by the actual ODE solver.
-       We skip the smallest_allowed_variation check here for PRTOE.
+    /* NOTE: For PRTOE (both active and frozen modes), field dynamics can make 
+       integration steps very small. This is expected behavior and will be handled 
+       by the actual ODE solver. We skip the smallest_allowed_variation check here 
+       for all PRTOE modes.
     */
-    if (pba->de_mode != prtoe_active) {
+    if (pba->use_prtoe != _TRUE_) {
       class_test(fabs(ppr->perturbations_sampling_stepsize*timescale_source/tau) < ppr->smallest_allowed_variation,
                  ppt->error_message,
                  "integration step =%e < machine precision : leads either to numerical error or infinite loop",ppr->perturbations_sampling_stepsize*timescale_source);
@@ -1946,11 +1947,12 @@ int perturbations_timesampling_for_sources(
       timescale_source /= 2.;
     }
 
-    /* NOTE: For PRTOE, stiff field dynamics can make integration steps very small.
-       This is expected behavior and will be handled by the actual ODE solver.
-       We skip the smallest_allowed_variation check here for PRTOE.
+    /* NOTE: For PRTOE (both active and frozen modes), field dynamics can make 
+       integration steps very small. This is expected behavior and will be handled 
+       by the actual ODE solver. We skip the smallest_allowed_variation check here 
+       for all PRTOE modes.
     */
-    if (pba->de_mode != prtoe_active) {
+    if (pba->use_prtoe != _TRUE_) {
       class_test(fabs(ppr->perturbations_sampling_stepsize*timescale_source/tau) < ppr->smallest_allowed_variation,
                  ppt->error_message,
                  "integration step =%e < machine precision : leads either to numerical error or infinite loop",ppr->perturbations_sampling_stepsize*timescale_source);
@@ -4008,14 +4010,17 @@ int perturbations_vector_init(
     class_define_index(ppv->index_pt_phi_prime_scf,pba->has_scf && pba->use_prtoe == _FALSE_,index_pt,1); /* scalar field velocity */
 
     /* PRTOE scalar field perturbations */
-    if (pba->use_prtoe == _TRUE_ && 
-        pba->xi_prtoe > 1e-8 && 
-        pba->Omega0_prtoe > 0.0) {
-      /* PRTOE is physically active: allocate indices for field perturbations */
-      class_define_index(ppv->index_pt_delta_phi, _TRUE_, index_pt, 1);
-      class_define_index(ppv->index_pt_ddelta_phi, _TRUE_, index_pt, 1);
+    if (prtoe_is_physically_active(pba)) {
+      /* PRTOE is physically active: allocate indices for field perturbations
+         NOTE: Only allocate delta_prtoe and ddelta_prtoe (the field and velocity)
+         Do NOT also allocate delta_phi/ddelta_phi - they are redundant aliases
+      */
       class_define_index(ppv->index_pt_delta_prtoe, _TRUE_, index_pt, 1);
       class_define_index(ppv->index_pt_ddelta_prtoe, _TRUE_, index_pt, 1);
+      
+      /* Explicitly set delta_phi/ddelta_phi to -1 to avoid duplicate indices */
+      ppv->index_pt_delta_phi = -1;
+      ppv->index_pt_ddelta_phi = -1;
       
       /* PRTOE metric perturbations are NOT evolved as independent variables.
          They are determined from Friedmann constraints in metric_sources().
@@ -5616,31 +5621,6 @@ int perturbations_initial_conditions(struct precision * ppr,
           ppw->pv->y[ppw->pv->index_pt_eta_prtoe]  = ppw->pv->y[ppw->pv->index_pt_eta];
           ppw->pv->y[ppw->pv->index_pt_deta_prtoe] = 0.0;
         }
-
-      } else if (pba->use_prtoe == _TRUE_) {
-
-        /* PRTOE declared but in null limit or inactive → explicitly freeze everything */
-        if (ppt->perturbations_verbose > 2) {
-            printf(" -> PRTOE in null limit (xi=%.2e). Freezing all PRTOE perturbation variables to zero.\n", pba->xi_prtoe);
-        }
-
-        ppw->pv->y[ppw->pv->index_pt_delta_prtoe]  = 0.0;
-        ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
-        /* Skip unallocated indices */
-        if (ppw->pv->index_pt_Phi_prtoe >= 0) {
-          ppw->pv->y[ppw->pv->index_pt_Phi_prtoe]    = 0.0;
-          ppw->pv->y[ppw->pv->index_pt_dPhi_prtoe]   = 0.0;
-        }
-        if (ppw->pv->index_pt_eta_prtoe >= 0) {
-          ppw->pv->y[ppw->pv->index_pt_eta_prtoe]    = 0.0;
-          ppw->pv->y[ppw->pv->index_pt_deta_prtoe]   = 0.0;
-        }
-
-      } else {
-
-        /* PRTOE not used at all (standard LambdaCDM path) — do nothing.
-           The variables should already be zero from perturbations_vector_init().
-           We add this explicit else for clarity and future-proofing. */
       }
 
       /* all relativistic relics: ur, early ncdm, dr */

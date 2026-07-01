@@ -703,22 +703,29 @@ static inline double get_xi_eff(struct background *pba, double phi) {
     return pba->prtoe_xi * S_phi;
 }
 
-/** Returns _TRUE_ only if PRTOE is physically active (not in null limit) */
+/**
+ * Returns _TRUE_ only when PRTOE should be treated as an active extension
+ * (i.e. we allocate extra variables and let it replace/affect Lambda).
+ *
+ * This is the centralized gate used for:
+ *   - index allocation (background + perturbations)
+ *   - automatically disabling Omega0_lambda / has_lambda
+ *   - high-level decisions in input / background_init
+ *
+ * The covariant activation (rho_phi / rho_r) inside prtoe_compute_quantities()
+ * is a separate, time-dependent decision that controls *when* the field
+ * starts evolving inside an active run.
+ */
 static inline int prtoe_is_physically_active(struct background *pba) {
-    // 1. Hard gate: if user didn't ask for PRTOE, it is not active.
-    if (pba->use_prtoe == _FALSE_) return _FALSE_;
-    
-    // 2. Threshold check: for null limit, we only check xi and beta
-    // The potential parameters (V0, m, lambda) can be large even in null limit
-    // as long as the coupling xi is small enough
-    // Use the same threshold as Lambda budget: 1e-10
-    double tol = 1.e-10; 
-    if ((fabs(pba->xi_prtoe)     > tol) || 
-        (fabs(pba->prtoe_beta)  > tol)) {
-        return _TRUE_; 
+    if (pba->use_prtoe == _FALSE_) {
+        return _FALSE_;
     }
-    
-    // 3. Default: inactive (null limit)
+    /* Active if user requested a non-negligible coupling or explicit Omega0_prtoe */
+    if (pba->xi_prtoe      > 1e-8 ||
+        pba->prtoe_beta    > 1e-8 ||
+        pba->Omega0_prtoe  > 0.0) {
+        return _TRUE_;
+    }
     return _FALSE_;
 }
 

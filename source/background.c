@@ -522,7 +522,7 @@ int background_functions(
   }
 
   /* Scalar field */
-  if (pba->use_prtoe == _TRUE_) {
+  if (prtoe_is_physically_active(pba)) {
     /* === Fields === */
     double phi       = pvecback_B[pba->index_bi_phi_prtoe];
     double phi_prime = pvecback_B[pba->index_bi_dphi_prtoe];
@@ -809,7 +809,7 @@ int background_functions(
   /** - compute expansion rate H from Friedmann equation (unified)
       Works for all F values: F=1.0 for Lambda, F(φ) for PRTOE */
   double H_sq_eff = (rho_tot - pba->K / a / a);
-  if (pba->use_prtoe == _TRUE_) {
+  if (prtoe_is_physically_active(pba)) {
     /* PRTOE: Modified Friedmann equation with non-minimal coupling F(phi) */
     double F = pvecback[pba->index_bg_F_prtoe];
     double F_phi = pvecback[pba->index_bg_F_phi_prtoe];
@@ -836,8 +836,8 @@ int background_functions(
 
   /** - compute PRTOE H-dependent quantities (must be after Friedmann equation) */
   /** - PRTOE H-dependent quantities computed universally */
-  /** - Indices are always >= 0 when use_prtoe == TRUE (see background_indices) */
-  if (pba->use_prtoe == _TRUE_) {
+  /** - Indices are always >= 0 when prtoe_is_physically_active(pba) == TRUE */
+  if (prtoe_is_physically_active(pba)) {
     /* Retrieve stored values */
     double phi       = pvecback[pba->index_bg_phi_prtoe];
     double phi_prime = pvecback[pba->index_bg_dphi_prtoe];
@@ -966,7 +966,7 @@ int background_functions(
   }
 
   /** - compute critical density */
-  if (pba->use_prtoe == _TRUE_) {
+  if (prtoe_is_physically_active(pba)) {
     /* For PRTOE, the Friedmann equation is: 3 F H^2 + 3 H F_dot = rho_tot - 3 F K/a^2
      * In the standard definition, rho_crit = 3 H^2 (for F=1, F_dot=0, K=0)
      * To maintain consistency with LambdaCDM limit, use rho_crit = 3 F H^2 + 3 H F_dot + 3 F K/a^2 = rho_tot
@@ -1222,9 +1222,9 @@ int background_init(
   /** ============================================================
    *  PRTOE: Normalize field amplitude ONLY when PRTOE is physically active.
    *  This was previously unconditional and could cause crashes in LambdaCDM.
-   *  We use a strict threshold (xi > 1e-8 && Omega0_prtoe > 0) to decide.
+   *  We use the centralized prtoe_is_physically_active() decision.
    *  ============================================================ */
-  if (pba->use_prtoe == _TRUE_ && pba->xi_prtoe > 1e-8 && pba->Omega0_prtoe > 0.0) {
+  if (prtoe_is_physically_active(pba)) {
     if (pba->background_verbose > 1) {
       printf(" -> PRTOE is active (xi=%.2e). Normalizing phi_0_prtoe...\n", pba->xi_prtoe);
     }
@@ -1513,7 +1513,7 @@ int background_indices(
   class_define_index(pba->index_bg_rho_dr,pba->has_dr,index_bg,1);
 
   /* - indices for PRTOE specific quantities in the background table (output) */
-  if (pba->use_prtoe == _TRUE_) {
+  if (prtoe_is_physically_active(pba)) {
     class_define_index(pba->index_bg_phi_prtoe, _TRUE_, index_bg, 1);
     class_define_index(pba->index_bg_dphi_prtoe, _TRUE_, index_bg, 1);
     class_define_index(pba->index_bg_ddphi_prtoe, _TRUE_, index_bg, 1);
@@ -1656,7 +1656,7 @@ int background_indices(
   class_define_index(pba->index_bi_rho_fld,pba->has_fld,index_bi,1);
 
   /* -> indices for PRTOE field integration (solver) */
-  if (pba->use_prtoe == _TRUE_) {
+  if (prtoe_is_physically_active(pba)) {
     class_define_index(pba->index_bi_phi_prtoe, _TRUE_, index_bi, 1);
     class_define_index(pba->index_bi_dphi_prtoe, _TRUE_, index_bi, 1);
   } else {
@@ -3251,7 +3251,7 @@ int background_derivs(
    *  Activation is controlled by covariant trans factor, not by guards.
    *  When inactive (trans≈0), field naturally doesn't evolve.
    *  ============================================================ */
-  if (pba->use_prtoe == _TRUE_) {
+  if (prtoe_is_physically_active(pba)) {
 
     double a = exp(loga);
 
@@ -3396,17 +3396,6 @@ int background_derivs(
 
     if (pba->background_verbose > 3) {
       printf("PRTOE active @ a=%.3e | phi=%.3e | trans=%.3e | H=%.3e\n", a, phi, trans, H);
-    }
-
-  } else {
-    /* ============================================================
-     *  NO DARK ENERGY
-     *  When omega_dark_energy = 0, no DE component exists.
-     *  Explicitly zero the field derivatives if indices were allocated.
-     *  ============================================================ */
-    if (pba->index_bi_phi_prtoe >= 0 && pba->index_bi_dphi_prtoe >= 0) {
-      dy[pba->index_bi_phi_prtoe]  = 0.0;
-      dy[pba->index_bi_dphi_prtoe] = 0.0;
     }
   }
 

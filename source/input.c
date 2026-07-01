@@ -436,6 +436,20 @@ int input_read_from_file(struct file_content * pfc,
     return _SUCCESS_;
   }
 
+  /** ============================================================
+   *  PRTOE: If PRTOE is meant to be the active dark energy component,
+   *  automatically disable the cosmological constant so that it does
+   *  not compete with PRTOE in the Friedmann equation.
+   *  This is the key step that lets us remove most heavy guards later.
+   *  ============================================================ */
+  if (prtoe_is_physically_active(pba)) {
+      if (input_verbose > 1) {
+          printf(" -> PRTOE is active: setting Omega0_lambda = 0 and has_lambda = false\n");
+      }
+      pba->Omega0_lambda = 0.;
+      pba->has_lambda    = _FALSE_;
+  }
+
   /** Write info on the read/unread parameters. This is the correct place to do it,
       since we want it to happen after all the shooting business,
       and after the final reading of all parameters */
