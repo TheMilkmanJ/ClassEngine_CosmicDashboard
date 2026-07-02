@@ -89,7 +89,7 @@ static inline void prtoe_fill_delta_F_from_state(
 
   if (pba->use_prtoe != _TRUE_
       || pba->index_bg_rho_prtoe < 0
-      || pba->de_mode != prtoe_active
+      || !prtoe_is_physically_active(pba)
       || !prtoe_is_covariantly_active_at_tau(pba, ppw->pvecback[pba->index_bg_rho_prtoe])
       || ppw->pv->index_pt_delta_prtoe < 0
       || ppw->pv->index_pt_ddelta_prtoe < 0) {
@@ -122,7 +122,7 @@ static inline void prtoe_accumulate_delta_F_shear(
     double k,
     double *y)
 {
-  if (pba->de_mode != prtoe_active
+  if (!prtoe_is_physically_active(pba)
       || pba->index_bg_rho_prtoe < 0
       || ppw->pv->index_pt_delta_prtoe < 0
       || ppw->pv->index_pt_ddelta_prtoe < 0
@@ -164,7 +164,7 @@ static inline int prtoe_metric_ic_active(
   if (pba->use_prtoe != _TRUE_ || pba->index_bg_rho_prtoe < 0 || ppw->pv->index_pt_delta_prtoe < 0)
     return _FALSE_;
   double rho_prtoe = ppw->pvecback[pba->index_bg_rho_prtoe];
-  return (pba->de_mode == prtoe_active
+  return (prtoe_is_physically_active(pba)
           && prtoe_is_covariantly_active_at_tau(pba, rho_prtoe));
 }
 
@@ -9236,8 +9236,7 @@ int perturbations_print_variables(double tau,
                && pba->de_mode == prtoe_active
                && ppw->pv->index_pt_delta_prtoe >= 0) {
         double rho_prtoe_gt = pvecback[pba->index_bg_rho_prtoe];
-        if (prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_gt)
-            && rho_prtoe_gt > PRTOE_RHO_ACTIVATION_THRESHOLD) {
+        if (prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_gt)) {
           double w_prtoe = pvecback[pba->index_bg_p_prtoe] / rho_prtoe_gt;
           delta_scf += alpha * (-3.0 * H * (1.0 + w_prtoe));
           theta_scf += k * k * alpha;
