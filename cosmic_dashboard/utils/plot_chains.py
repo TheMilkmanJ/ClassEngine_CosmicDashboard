@@ -307,12 +307,12 @@ def main(args, first_run=False):
                             names.append(parts[0])
                             labels.append(parts[1].strip().replace('*', '') if len(parts) > 1 else parts[0])
 
-        # Fallback to updated.yaml for raw or missing paramnames
+        # Fallback: original run config first — updated.yaml re-sorts parameter keys.
         if not names:
-            updated_yaml = root_finished + ".updated.yaml"
-            if os.path.exists(updated_yaml):
+            yaml_candidates = [c for c in [args.config, root_finished + ".updated.yaml"] if c and os.path.exists(c)]
+            for yaml_path in yaml_candidates:
                 try:
-                    with open(updated_yaml, 'r') as f:
+                    with open(yaml_path, 'r') as f:
                         up_cfg = yaml.safe_load(f)
                     if 'params' in up_cfg:
                         params = up_cfg.get('params', {})
@@ -338,8 +338,8 @@ def main(args, first_run=False):
                             likes = [f"loglike__{name}" for name in likelihoods.keys()]
                             names = sampled + derived + priors + likes
                         else:
-                            sampled_clean = [p for p in sampled if not params[p].get('drop')]
-                            names = sampled_clean + derived
+                            # Keep drop:true params in the name list — they still occupy chain columns.
+                            names = sampled + derived
                             
                         labels = []
                         for name in names:
@@ -353,8 +353,10 @@ def main(args, first_run=False):
                             elif name.startswith("logprior__"):
                                 label = r"\log\pi_0"
                             labels.append(label)
+                    if names:
+                        break
                 except Exception as e:
-                    print(f"Error parsing updated.yaml: {e}")
+                    print(f"Error parsing {yaml_path}: {e}")
 
         # Ensure dimensions match
         if len(names) > samps.shape[1]:
@@ -411,7 +413,9 @@ def main(args, first_run=False):
         # Dynamically read the current prior bounds from the active YAML config
         prior_bounds = {}
         if not is_initialization:
-            yaml_path = args.config
+            yaml_path = root_finished + ".updated.yaml"
+            if not os.path.exists(yaml_path):
+                yaml_path = args.config
             if os.path.exists(yaml_path):
                 try:
                     with open(yaml_path, 'r') as f:
@@ -440,78 +444,78 @@ def main(args, first_run=False):
             audit_lines.append("="*125)
             audit_lines.append(f"{'Parameter':<15} | {'Prior Min':<10} | {'Sample Min':<10} | {'Sample Max':<10} | {'Prior Max':<10} | {'Status':<35} | {'Suggestion'}")
             audit_lines.append("-" * 125)
-            for i, name in enumerate(names):
-                if name in prior_bounds:
-                    p_min, p_max = prior_bounds[name]
-                    s_min = np.min(good_samps[:, i])
-                    s_max = np.max(good_samps[:, i])
-                    
-                    range_span = p_max - p_min
-                    sample_range = s_max - s_min
-                    
-                    status_list = []
-                    suggestion_list = []
+            name_to_col = {name: i for i, name in enumerate(names)}
+            for name, (p_min, p_max) in prior_bounds.items():
+                i = name_to_col.get(name)
+                if i is None or i >= good_samps.shape[1]:
+                    continue
+                s_min = np.min(good_samps[:, i])
+                s_max = np.max(good_samps[:, i])
 
-                    # Check lower bound
-                    if range_span > 0 and s_min < p_min + 0.05 * range_span:
-                        if name in HARD_LIMITS and p_min <= HARD_LIMITS[name][0]:
-                            status_list.append("Lower Bound (HARD LIMIT)")
-                            new_min = p_min
-                        else:
-                            status_list.append("Lower Bound")
-                            # Suggest a new bound with 20% headroom based on the sampled range
-                            headroom = 0.2 * sample_range if sample_range > 0 else 0.1 * range_span
-                            new_min = s_min - headroom
-                            if name in HARD_LIMITS: new_min = max(new_min, HARD_LIMITS[name][0])
-                            suggestion_list.append(f"min -> {new_min:.4g}")
-                    else:
+                range_span = p_max - p_min
+                sample_range = s_max - s_min
+
+                status_list = []
+                suggestion_list = []
+
+                if range_span > 0 and s_min < p_min + 0.05 * range_span:
+                    if name in HARD_LIMITS and p_min <= HARD_LIMITS[name][0]:
+                        status_list.append("Lower Bound (HARD LIMIT)")
                         new_min = p_min
-
-                    # Check upper bound
-                    if range_span > 0 and s_max > p_max - 0.05 * range_span:
-                        if name in HARD_LIMITS and p_max >= HARD_LIMITS[name][1]:
-                            status_list.append("Upper Bound (HARD LIMIT)")
-                            new_max = p_max
-                        else:
-                            status_list.append("Upper Bound")
-                            headroom = 0.2 * sample_range if sample_range > 0 else 0.1 * range_span
-                            new_max = s_max + headroom
-                            if name in HARD_LIMITS: new_max = min(new_max, HARD_LIMITS[name][1])
-                            suggestion_list.append(f"max -> {new_max:.4g}")
                     else:
+                        status_list.append("Lower Bound")
+                        headroom = 0.2 * sample_range if sample_range > 0 else 0.1 * range_span
+                        new_min = s_min - headroom
+                        if name in HARD_LIMITS:
+                            new_min = max(new_min, HARD_LIMITS[name][0])
+                        suggestion_list.append(f"min -> {new_min:.4g}")
+                else:
+                    new_min = p_min
+
+                if range_span > 0 and s_max > p_max - 0.05 * range_span:
+                    if name in HARD_LIMITS and p_max >= HARD_LIMITS[name][1]:
+                        status_list.append("Upper Bound (HARD LIMIT)")
                         new_max = p_max
-                    
-                    if status_list:
-                        if suggestion_list:
-                            has_warnings = True
-                            proposed_new_bounds[name] = (new_min, new_max)
-                            dash_warnings.append(f"{name} hitting {' & '.join(status_list)}")
-                            status = f"WARNING: Hitting {' & '.join(status_list)}!"
-                        else:
-                            status = f"INFO: Hitting {' & '.join(status_list)}"
                     else:
-                        # If not hitting bounds, check if the prior is unnecessarily wide (< 10% of space used)
-                        if range_span > 0 and sample_range > 0 and sample_range < 0.1 * range_span:
-                            status = "INFO: Prior too wide"
-                            new_min_tight = max(p_min, s_min - 0.2 * sample_range)
-                            new_max_tight = min(p_max, s_max + 0.2 * sample_range)
-                            new_min, new_max = new_min_tight, new_max_tight
-                            suggestion_list.append(f"tighten -> [{new_min_tight:.4g}, {new_max_tight:.4g}]")
-                        else:
-                            status = "OK"
+                        status_list.append("Upper Bound")
+                        headroom = 0.2 * sample_range if sample_range > 0 else 0.1 * range_span
+                        new_max = s_max + headroom
+                        if name in HARD_LIMITS:
+                            new_max = min(new_max, HARD_LIMITS[name][1])
+                        suggestion_list.append(f"max -> {new_max:.4g}")
+                else:
+                    new_max = p_max
 
-                    suggestion = ", ".join(suggestion_list) if suggestion_list else "None"
+                if status_list:
+                    if suggestion_list:
+                        has_warnings = True
+                        proposed_new_bounds[name] = (new_min, new_max)
+                        dash_warnings.append(f"{name} hitting {' & '.join(status_list)}")
+                        status = f"WARNING: Hitting {' & '.join(status_list)}!"
+                    else:
+                        status = f"INFO: Hitting {' & '.join(status_list)}"
+                else:
+                    if range_span > 0 and sample_range > 0 and sample_range < 0.1 * range_span:
+                        status = "INFO: Prior too wide"
+                        new_min_tight = max(p_min, s_min - 0.2 * sample_range)
+                        new_max_tight = min(p_max, s_max + 0.2 * sample_range)
+                        new_min, new_max = new_min_tight, new_max_tight
+                        suggestion_list.append(f"tighten -> [{new_min_tight:.4g}, {new_max_tight:.4g}]")
+                    else:
+                        status = "OK"
 
-                    if status != "OK":
-                        dash_alerts.append({
-                            "parameter": name,
-                            "status": status,
-                            "suggestion": suggestion,
-                            "new_min": float(f"{new_min:.4g}"),
-                            "new_max": float(f"{new_max:.4g}")
-                        })
+                suggestion = ", ".join(suggestion_list) if suggestion_list else "None"
 
-                    audit_lines.append(f"{name:<15} | {p_min:<10.4g} | {s_min:<10.4g} | {s_max:<10.4g} | {p_max:<10.4g} | {status:<35} | {suggestion}")
+                if status != "OK":
+                    dash_alerts.append({
+                        "parameter": name,
+                        "status": status,
+                        "suggestion": suggestion,
+                        "new_min": float(f"{new_min:.4g}"),
+                        "new_max": float(f"{new_max:.4g}")
+                    })
+
+                audit_lines.append(f"{name:<15} | {p_min:<10.4g} | {s_min:<10.4g} | {s_max:<10.4g} | {p_max:<10.4g} | {status:<35} | {suggestion}")
             audit_lines.append("="*125 + "\n")
         
         # Print to terminal and append to the active log file so it appears in the CosmicDashboard

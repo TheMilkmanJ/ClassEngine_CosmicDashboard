@@ -1,5 +1,38 @@
 const API_URL = window.location.protocol === 'file:' ? 'http://localhost:8000' : window.location.origin;
+
+/** Authenticated fetch — always sends session cookie for protected /api routes. */
+function apiFetch(url, options = {}) {
+    return fetch(url, { ...options, credentials: 'include' });
+}
+
+function setRunControlsIdle() {
+    if (!isUploadingConfig) {
+        if (btnStart) btnStart.disabled = false;
+        if (btnStartOpt) btnStartOpt.disabled = false;
+        if (btnResume) btnResume.disabled = false;
+        if (btnApplyCosmicForge) btnApplyCosmicForge.disabled = false;
+        if (btnLoadLastRun) btnLoadLastRun.disabled = false;
+    }
+    if (btnStop) btnStop.disabled = true;
+}
+
+function setRunControlsRunning() {
+    if (btnStart) btnStart.disabled = true;
+    if (btnStartOpt) btnStartOpt.disabled = true;
+    if (btnResume) btnResume.disabled = true;
+    if (btnApplyCosmicForge) btnApplyCosmicForge.disabled = true;
+    if (btnLoadLastRun) btnLoadLastRun.disabled = true;
+    if (btnStop) btnStop.disabled = false;
+}
+
 let statusInterval = null;
+
+function scheduleStatusPolling() {
+    if (statusInterval) clearInterval(statusInterval);
+    const ms = (lastStatusData && lastStatusData.status === 'running') ? 5000 : 12000;
+    statusInterval = setInterval(checkStatus, ms);
+}
+
 let activeConfig = 'lcdm_config.yaml';
 let lastStatusData = null;
 let baselineBestChi2 = null;
@@ -176,6 +209,8 @@ function updateToggleUI() {
 
 // Initial setup
 document.addEventListener('DOMContentLoaded', () => {
+    // Default to idle controls; checkStatus will switch to running if needed.
+    setRunControlsIdle();
     // PERF: Fire checkStatus first so the main UI populates immediately.
     // Stagger non-critical fetches so they don't compete with first paint.
     checkStatus();
@@ -206,9 +241,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-    // PERFORMANCE FIX: Reduce polling from 3s to 5s to reduce server load and page refresh lag
-    // 5 seconds is still very responsive for long-running MCMC chains
-    statusInterval = setInterval(checkStatus, 5000);
+    // 5s while running, 12s when idle/completed — keeps uploads responsive.
+    scheduleStatusPolling();
 
     // Run Complete Summary Card event listeners
     const btnCloseSummary = document.getElementById('btn-close-summary');
@@ -884,13 +918,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert("Please select a template to load.");
                 return;
             }
+            const prevLabel = btnLoadTemplate.textContent;
+            btnLoadTemplate.disabled = true;
+            btnLoadTemplate.textContent = 'Loading…';
+            if (yamlZone) yamlZone.classList.add('uploading');
             appendLog(`[TEMPLATES] Requesting load for template: ${templateName}...`);
+            const controller = new AbortController();
+            const loadTimeout = setTimeout(() => controller.abort(), 35000); // Increased to match backend 30s processing + margin for busy backend
             try {
-                const response = await fetch(`${API_URL}/api/templates/load`, {
+                const response = await apiFetch(`${API_URL}/api/templates/load`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ name: templateName })
+                    body: JSON.stringify({ name: templateName }),
+                    signal: controller.signal,
                 });
+                clearTimeout(loadTimeout);
                 if (response.ok) {
                     const data = await response.json();
                     appendLog(`[TEMPLATES] SUCCESS: ${data.message}`);
@@ -907,7 +949,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     appendLog(`[TEMPLATES] Load template failed: ${data.detail || 'unknown error'}`);
                 }
             } catch (err) {
-                appendLog(`[TEMPLATES] Connection error: ${err.message}`);
+                clearTimeout(loadTimeout);
+                const msg = err.name === 'AbortError'
+                    ? 'Template load timed out — backend may be busy. Close extra tabs and retry.'
+                    : err.message;
+                appendLog(`[TEMPLATES] Connection error: ${msg}`);
+            } finally {
+                btnLoadTemplate.disabled = false;
+                btnLoadTemplate.textContent = prevLabel;
+                if (yamlZone) yamlZone.classList.remove('uploading');
             }
         });
     }
@@ -943,7 +993,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             appendLog(`[TEMPLATES] Saving current configuration as template: ${templateName}...`);
             try {
-                const response = await fetch(`${API_URL}/api/templates/save`, {
+                const response = await apiFetch(`${API_URL}/api/templates/save`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
@@ -1660,55 +1710,52 @@ function setupUploadZone(zone, input, handler) {
 async function handleYamlUpload(file) {
     isUploadingConfig = true;
     // Optimistically set the active config and UI immediately on selection.
-    // Upload will copy content to uploaded_config.yaml on server.
-    // This prevents starting with stale activeConfig (e.g. default lcdm) if user starts run
-    // or auto-pipeline triggers while upload is in flight.
     activeConfig = 'uploaded_config.yaml';
-    yamlName.textContent = file.name;
+    yamlName.textContent = `${file.name} (uploading…)`;
     yamlName.classList.add('active');
     if (yamlZone) {
-        yamlZone.classList.add('has-model');
+        yamlZone.classList.add('has-model', 'uploading');
         yamlZone.classList.remove('empty');
-        yamlZone.classList.remove('running'); // will be re-added live if running
+        yamlZone.classList.remove('running');
     }
     appendLog(`Selected configuration: ${file.name}`);
-    
-    // Temporarily disable start/resume during upload to avoid race with activeConfig.
-    if (btnStart) btnStart.disabled = true;
-    if (btnStartOpt) btnStartOpt.disabled = true;
-    if (btnResume) btnResume.disabled = true;
-    if (btnApplyCosmicForge) btnApplyCosmicForge.disabled = true;
-    if (btnLoadLastRun) btnLoadLastRun.disabled = true;
-    
+
     const formData = new FormData();
     formData.append('file', file);
-    
+    const controller = new AbortController();
+    const uploadTimeout = setTimeout(() => controller.abort(), 35000); // Increased to match backend 30s processing + margin for busy backend
+
     try {
         appendLog('Uploading configuration to server...');
-        const response = await fetch(`${API_URL}/api/upload_config`, {
+        const response = await apiFetch(`${API_URL}/api/upload_config`, {
             method: 'POST',
-            body: formData
+            body: formData,
+            signal: controller.signal,
         });
+        clearTimeout(uploadTimeout);
+        if (response.status === 401) {
+            appendLog('[AUTH] Login required to upload configuration.');
+            showLoginModal(() => handleYamlUpload(file));
+            return;
+        }
         const data = await response.json();
         if (response.ok) {
-            appendLog(`Configuration uploaded successfully (content copied to server active 'uploaded_config.yaml' slot + normalized for CLASS/Cobaya/PolyChord compatibility). Config loaded.`);
-            // activeConfig already set to uploaded_config.yaml
+            yamlName.textContent = file.name;
+            appendLog(`Configuration uploaded successfully (normalized for CLASS/Cobaya/PolyChord). Config loaded.`);
         } else {
             appendLog(`Upload failed: ${data.detail}`);
-            // Revert on failure
             switchToLcdm();
         }
     } catch (err) {
-        appendLog(`Upload error: ${err.message}`);
+        clearTimeout(uploadTimeout);
+        const msg = err.name === 'AbortError'
+            ? 'Upload timed out — backend may be busy. Close extra tabs and retry.'
+            : err.message;
+        appendLog(`Upload error: ${msg}`);
         switchToLcdm();
     } finally {
         isUploadingConfig = false;
-        // Re-enable buttons (status check will manage based on run state)
-        if (btnStart) btnStart.disabled = false;
-        if (btnStartOpt) btnStartOpt.disabled = false;
-        if (btnResume) btnResume.disabled = false;
-        if (btnApplyCosmicForge) btnApplyCosmicForge.disabled = false;
-        if (btnLoadLastRun) btnLoadLastRun.disabled = false;
+        if (yamlZone) yamlZone.classList.remove('uploading');
     }
 }
 
@@ -1786,7 +1833,7 @@ if (btnApplyCosmicForge) {
         try {
             appendLog(`[CosmicForge] Applying CosmicForge settings for ${selectedValue}...`);
             
-            const response = await fetch(`${API_URL}/api/templates/load`, {
+            const response = await apiFetch(`${API_URL}/api/templates/load`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ 
@@ -1825,7 +1872,7 @@ if (btnLoadLastRun) {
             btnLoadLastRun.disabled = true;
             btnLoadLastRun.innerHTML = '⏳ Loading...';
             
-            const response = await fetch(`${API_URL}/api/templates/load`, {
+            const response = await apiFetch(`${API_URL}/api/templates/load`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name: 'last_run' })
@@ -1892,7 +1939,7 @@ async function triggerRun(forceOverwrite, isOptimizer = false, profileParam = nu
     }
     
     try {
-        const response = await fetch(`${API_URL}/api/start_run`, {
+        const response = await apiFetch(`${API_URL}/api/start_run`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ 
@@ -1909,6 +1956,12 @@ async function triggerRun(forceOverwrite, isOptimizer = false, profileParam = nu
                 profile_steps: profileSteps
             })
         });
+        if (response.status === 401) {
+            appendLog('[AUTH] Login required to start runs. Use the 🔐 Login button (credentials from launch_cosmic.sh / chains/dashboard_credentials.txt).');
+            showLoginModal(() => triggerRun(forceOverwrite, isOptimizer, profileParam, profileRange, profileSteps));
+            setRunControlsIdle();
+            return;
+        }
         const data = await response.json();
         if (response.ok) {
             appendLog(`Process started in background. PID: ${data.pid}`);
@@ -1957,9 +2010,15 @@ if (btnStop && abortModal) {
         appendLog(isOptimizerRun ? 'Sending termination signal to CosmicForge process tree...' : 'Sending termination signal to sampler process group...');
         
         try {
-            const response = await fetch(`${API_URL}/api/stop_run`, {
+            const response = await apiFetch(`${API_URL}/api/stop_run`, {
                 method: 'POST'
             });
+            if (response.status === 401) {
+                appendLog('[AUTH] Login required to abort runs.');
+                showLoginModal(() => checkStatus());
+                btnStop.disabled = false;
+                return;
+            }
             const data = await response.json();
             if (response.ok) {
                 const message = isOptimizerRun 
@@ -2055,13 +2114,20 @@ async function updateBaseline(dataset, evidence, chi2, evidenceIsFinal, evidence
 
 // Check current status
 async function checkStatus() {
+    const controller = new AbortController();
+    const statusTimeout = setTimeout(() => controller.abort(), 8000);
     try {
-        const response = await fetch(`${API_URL}/api/status`, { credentials: 'include' });
+        const response = await apiFetch(`${API_URL}/api/status`, { signal: controller.signal });
+        clearTimeout(statusTimeout);
         if (response.status === 401) {
+            setRunControlsIdle();
             showLoginModal(() => checkStatus());  // retry after login
             return;
         }
-        if (!response.ok) return;
+        if (!response.ok) {
+            setRunControlsIdle();
+            return;
+        }
         const data = await response.json();
         lastStatusData = data;
         
@@ -2495,11 +2561,14 @@ async function checkStatus() {
             
             // FIX: Use data directly instead of copying from Standard monitor elements
             // This ensures CosmicForge monitor works even if Standard elements aren't updated yet
-            if (optStatCpu && data.cpu_percent !== undefined) {
-                optStatCpu.textContent = `${Math.round(data.cpu_percent)}%`;
+            // Use dedicated CosmicForge/sampler CPU if available (from process tree metrics, not global system CPU).
+            // This fixes the "CosmicForge section isnt displaying CPU" for the specific job.
+            const forgeCpu = (data.cosmicforge_cpu_percent !== undefined ? data.cosmicforge_cpu_percent : (data.sampler_cpu_percent !== undefined ? data.sampler_cpu_percent : data.cpu_percent));
+            if (optStatCpu && forgeCpu !== undefined) {
+                optStatCpu.textContent = `${Math.round(forgeCpu)}%`;
             }
-            if (optCpuGaugePath && data.cpu_percent !== undefined) {
-                const pct = Math.max(0, Math.min(100, data.cpu_percent));
+            if (optCpuGaugePath && forgeCpu !== undefined) {
+                const pct = Math.max(0, Math.min(100, forgeCpu));
                 const offset = 125.66 - (pct / 100) * 125.66;
                 optCpuGaugePath.style.strokeDashoffset = offset;
                 if (pct > 85) optCpuGaugePath.style.stroke = '#ff007f';
@@ -2554,26 +2623,11 @@ async function checkStatus() {
         // Handle actions availability
         if (data.status === 'running') {
             isAutoRunning = false;
-            btnStart.disabled = true;
-            if (btnStartOpt) btnStartOpt.disabled = true;
-            btnResume.disabled = true;
-            if (btnApplyCosmicForge) btnApplyCosmicForge.disabled = true;
-            if (btnLoadLastRun) btnLoadLastRun.disabled = true;
-            btnStop.disabled = false;
-            
-            let chi2Text = data.best_chi2 !== null ? data.best_chi2.toFixed(4) : 'evaluating';
-            let logZText = data.log_evidence !== null ? data.log_evidence.toFixed(4) : 'evaluating';
+            setRunControlsRunning();
         } else {
-            // Always disable Stop when not running, even during upload
-            btnStop.disabled = true;
-            if (!isUploadingConfig) {
-                btnStart.disabled = false;
-                if (btnStartOpt) btnStartOpt.disabled = false;
-                btnResume.disabled = false;
-                if (btnApplyCosmicForge) btnApplyCosmicForge.disabled = false;
-                if (btnLoadLastRun) btnLoadLastRun.disabled = false;
-            }
+            setRunControlsIdle();
         }
+        scheduleStatusPolling();
 
         // Manage persisted watchdog ignore state
         if (data.run_start_time !== lastRunStartTime) {
@@ -2827,7 +2881,9 @@ async function checkStatus() {
         checkIntergalacticTrigger();
         
     } catch (err) {
+        clearTimeout(statusTimeout);
         console.error('Status check error:', err);
+        setRunControlsIdle();
     }
 }
 
@@ -3950,6 +4006,12 @@ ${fullContextPrompt}
 });
 
 function initCharts() {
+    // Destroy all previous Chart instances to prevent memory leaks on re-init (e.g. reconnects, tab changes, long running dashboard).
+    [chartWMu, chartFSigma8, chartInfluence, chartCompareW, chartCompareFs8, chartSensitivity, chartPlaygroundRatio, chartTerrain, chartResiduals, chartQualityTrace, chartQualityAutocorr, chartPerPointResiduals, chartRunCompareShifts].forEach(c => {
+        if (c) { try { c.destroy(); } catch(e){} }
+    });
+    chartWMu = chartFSigma8 = chartInfluence = chartCompareW = chartCompareFs8 = chartSensitivity = chartPlaygroundRatio = chartTerrain = chartResiduals = chartQualityTrace = chartQualityAutocorr = chartPerPointResiduals = chartRunCompareShifts = null;
+
     const ctxWMu = document.getElementById('chart-w-mu').getContext('2d');
     chartWMu = new Chart(ctxWMu, {
         type: 'line',
@@ -3998,6 +4060,7 @@ function initCharts() {
     });
 
     const ctxFSigma8 = document.getElementById('chart-f-sigma8').getContext('2d');
+    if (chartFSigma8) { try { chartFSigma8.destroy(); } catch(e){} chartFSigma8 = null; }
     chartFSigma8 = new Chart(ctxFSigma8, {
         type: 'line',
         data: {
@@ -4036,6 +4099,7 @@ function initCharts() {
     });
 
     const ctxInfluence = document.getElementById('chart-influence').getContext('2d');
+    if (chartInfluence) { try { chartInfluence.destroy(); } catch(e){} chartInfluence = null; }
     chartInfluence = new Chart(ctxInfluence, {
         type: 'bar',
         data: {
@@ -5270,7 +5334,7 @@ async function refreshTemplatesList() {
     const selectEl = document.getElementById('select-config-template');
     if (!selectEl) return;
     try {
-        const response = await fetch(`${API_URL}/api/templates/list`);
+        const response = await apiFetch(`${API_URL}/api/templates/list`);
         if (response.ok) {
             const data = await response.json();
             if (data.status === "success" && data.templates) {
@@ -6508,7 +6572,7 @@ function showLoginModal(onSuccess) {
                 <span style="font-size:1.4rem;">🔐</span>
                 <h3 style="margin:0; color:#00d2d3; font-size:1.3rem; font-weight:600;">CosmicDashboard</h3>
             </div>
-            <p style="font-size:0.82rem; color:#9ea0b0; margin:0 0 14px;">Enter credentials. "Remember me" keeps you logged in for 30 days via secure cookie (no more browser popups).</p>
+            <p style="font-size:0.82rem; color:#9ea0b0; margin:0 0 14px;">Enter credentials from <code style="color:#00d2d3;">chains/dashboard_credentials.txt</code> (printed when you launched <code>launch_cosmic.sh</code>). "Remember me" keeps you logged in for 30 days.</p>
             <input id="login-user" type="text" placeholder="Username" value="admin" style="width:100%; padding:10px; margin-bottom:8px; background:rgba(255,255,255,0.06); color:#fff; border:1px solid var(--border-glass,rgba(255,255,255,0.1)); border-radius:8px; font-family:var(--font-mono,'JetBrains Mono',monospace);">
             <input id="login-pass" type="password" placeholder="Password" style="width:100%; padding:10px; margin-bottom:10px; background:rgba(255,255,255,0.06); color:#fff; border:1px solid var(--border-glass,rgba(255,255,255,0.1)); border-radius:8px; font-family:var(--font-mono,'JetBrains Mono',monospace);">
             <label style="display:flex; align-items:center; gap:6px; margin-bottom:14px; font-size:0.82rem; color:#9ea0b0; cursor:pointer;">

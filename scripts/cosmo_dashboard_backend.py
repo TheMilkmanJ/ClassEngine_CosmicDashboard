@@ -29,24 +29,47 @@ import collections
 from functools import lru_cache
 import threading
 
-# Ensure parsers package is importable when running backend.py directly
+# Import parser adapters robustly without hard-coded paths or fragile sys.path hacks.
+# This fixes previous import fragility that led to silent fallback shims and inconsistent
+# parsing behavior (BUG in import layer).
 import sys
 from pathlib import Path as _Path
-sys.path.insert(0, str(_Path(__file__).resolve().parent.parent.parent))  # Add /home/themilkmanj
-sys.path.insert(0, str(_Path(__file__).resolve().parent))  # Also add scripts/ for compatibility
-# Import parser adapters for run summary and stats parsing
-try:
-    from prtoe_class.backend.parsers_adapter import parse_polychord_stats, get_best_fit_details, get_output_prefix_from_yaml, get_model_yaml_path
-except Exception:
-    # Fallback shims
-    def parse_polychord_stats(*args, **kwargs):
-        return {}
-    def get_best_fit_details(*args, **kwargs):
-        return None
-    def get_output_prefix_from_yaml(path):
-        return None
-    def get_model_yaml_path(output_prefix, active_yaml_path=None):
-        return None
+import importlib.util
+
+def _load_adapter_robustly():
+    """Load parsers_adapter.py by absolute path from known locations, no sys.path mutation."""
+    here = _Path(__file__).resolve()
+    candidates = [
+        here.parents[2] / 'backend' / 'parsers_adapter.py',  # from scripts/ -> project root/backend/
+        here.parent / 'parsers_adapter.py',  # if run from backend/
+        here.parents[1] / 'backend' / 'parsers_adapter.py',  # other layouts
+    ]
+    for cand in candidates:
+        if cand.exists():
+            try:
+                spec = importlib.util.spec_from_file_location('prtoe_parsers_adapter', str(cand))
+                if spec and spec.loader:
+                    mod = importlib.util.module_from_spec(spec)
+                    sys.modules['prtoe_parsers_adapter'] = mod
+                    spec.loader.exec_module(mod)
+                    return mod
+            except Exception as e:
+                log_dashboard_error(f"Failed to load adapter from {cand}: {e}", level="warning")
+    return None
+
+_adapter_mod = _load_adapter_robustly()
+if _adapter_mod is not None:
+    parse_polychord_stats = getattr(_adapter_mod, 'parse_polychord_stats', lambda *a, **k: {})
+    get_best_fit_details = getattr(_adapter_mod, 'get_best_fit_details', lambda *a, **k: None)
+    get_output_prefix_from_yaml = getattr(_adapter_mod, 'get_output_prefix_from_yaml', lambda p: None)
+    get_model_yaml_path = getattr(_adapter_mod, 'get_model_yaml_path', lambda *a, **k: None)
+else:
+    # Last resort shims - log loudly
+    log_dashboard_error("CRITICAL: Could not load parsers_adapter. Using empty shims. Monitoring and evidence will be broken.", level="error")
+    def parse_polychord_stats(*args, **kwargs): return {}
+    def get_best_fit_details(*args, **kwargs): return None
+    def get_output_prefix_from_yaml(path): return None
+    def get_model_yaml_path(output_prefix, active_yaml_path=None): return None
 
 
 ERROR_LOG_PATH = Path("chains/dashboard_errors.log")
@@ -112,6 +135,37 @@ if not logger.handlers:
     console = logging.StreamHandler()
     console.setFormatter(formatter)
     logger.addHandler(console)
+
+def _sanitize_for_json(obj):
+    """Recursively replace non-JSON-compliant floats (inf, -inf, nan) with None."""
+    if isinstance(obj, np.ndarray):
+        return _sanitize_for_json(obj.tolist())
+    if isinstance(obj, (float, np.floating)):
+        try:
+            val = float(obj)
+            return val if math.isfinite(val) else None
+        except (TypeError, ValueError, OverflowError):
+            return None
+    if isinstance(obj, (int, np.integer)):
+        try:
+            return int(obj)
+        except (TypeError, ValueError, OverflowError):
+            return None
+    if isinstance(obj, dict):
+        return {k: _sanitize_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_sanitize_for_json(v) for v in obj]
+    return obj
+
+
+def _load_json_tolerant(file_path) -> dict:
+    """Load JSON that may contain non-standard NaN/Infinity tokens from optimizer exports."""
+    with open(file_path, "r") as f:
+        text = f.read()
+    text = re.sub(r"\b-?Infinity\b", "null", text)
+    text = re.sub(r"\bNaN\b", "null", text)
+    return json.loads(text)
+
 
 def log_dashboard_error(msg: str, console: bool = True, level: str = "info"):
     """Production structured logger with rotation. Falls back to file for legacy ERROR_LOG_PATH.
@@ -361,6 +415,75 @@ def classify_finished_run_status(returncode: Optional[int], output_prefix: Optio
     return "stopped"
 
 
+def _hydrate_idle_chain_state() -> None:
+    """Surface the newest on-disk chain when no live Cobaya process is tracked.
+
+    After a backend restart the in-memory PID is gone even though chains/*.stats
+    and uploaded_config.yaml remain. Without this, the UI stays idle/completed-blind.
+    """
+    if state.running_process is not None:
+        return
+    if state.current_status == "running":
+        return
+
+    chains_dir = Path("chains")
+    if not chains_dir.is_dir():
+        return
+
+    best_prefix = None
+    best_mtime = 0.0
+    for stats_path in chains_dir.glob("*.stats"):
+        try:
+            mtime = stats_path.stat().st_mtime
+        except OSError:
+            continue
+        if mtime >= best_mtime:
+            best_mtime = mtime
+            best_prefix = str(stats_path)[: -len(".stats")]
+
+    uploaded = Path("uploaded_config.yaml")
+    if uploaded.exists():
+        try:
+            up_prefix = get_output_prefix_from_yaml(str(uploaded))
+            up_stats = Path(f"{up_prefix}.stats")
+            if up_stats.exists():
+                up_mtime = up_stats.stat().st_mtime
+                if up_mtime >= best_mtime:
+                    best_prefix = up_prefix
+                    best_mtime = up_mtime
+                    state.active_yaml_path = str(uploaded.resolve())
+        except Exception:
+            pass
+
+    if not best_prefix:
+        return
+
+    if state.active_output_prefix:
+        try:
+            existing_stats = Path(f"{state.active_output_prefix}.stats")
+            if existing_stats.exists() and existing_stats.stat().st_mtime >= best_mtime:
+                if state.current_status not in ("idle", ""):
+                    return
+        except OSError:
+            pass
+
+    state.active_output_prefix = best_prefix
+    if not state.active_yaml_path and uploaded.exists():
+        state.active_yaml_path = str(uploaded.resolve())
+    state.current_status = classify_finished_run_status(0, best_prefix)
+    if state.run_start_time is None:
+        state.run_start_time = best_mtime
+
+    stats_path = Path(f"{best_prefix}.stats")
+    if stats_path.exists():
+        try:
+            head = stats_path.read_text(errors="ignore")[:800]
+            if "optimizer run" in head.lower():
+                state.is_optimizer = True
+        except OSError:
+            pass
+
+
 # WebSocket connection manager for real-time updates (production UX improvement)
 class ConnectionManager:
     def __init__(self):
@@ -374,9 +497,10 @@ class ConnectionManager:
         self.active_connections.remove(websocket)
 
     async def broadcast(self, message: dict):
+        safe_message = _sanitize_for_json(message)
         for connection in self.active_connections:
             try:
-                await connection.send_json(message)
+                await connection.send_json(safe_message)
             except Exception:
                 pass
 
@@ -520,55 +644,32 @@ def anakin_skywalker_directive():
     ]
 
     try:
-        # Get all processes
-        result = subprocess.run(['ps', 'aux'], capture_output=True, text=True)
-        lines = result.stdout.split('\n')
-
         current_user = os.environ.get('USER') or os.environ.get('LOGNAME') or os.environ.get('USERNAME')
         if not current_user:
             log_dashboard_error("[ANAKIN SKYWALKER DIRECTIVE] Could not determine current user; skipping orphan scan.", console=True)
             return 0
 
-        for line in lines[1:]:  # Skip header
-            if not line.strip():
-                continue
-
-            parts = line.split()
-            if len(parts) < 11:
-                continue
-
-            user = parts[0]
-            pid = parts[1]
-            cpu = parts[2]
-            cmd = ' '.join(parts[10:])
-
-            # Only hunt processes owned by current user
-            if user != current_user:
-                continue
-
-            # Only hunt dashboard-owned processes
-            if int(pid) not in dashboard_pids:
-                continue
-
-            # Check if it matches orphan patterns
-            is_orphan = False
-            for pattern in orphan_patterns:
-                if re.search(pattern, cmd, re.IGNORECASE):
+        # Use psutil (already imported) for cross-platform, reliable process enum instead of fragile 'ps aux' string parsing.
+        for proc in psutil.process_iter(['pid', 'username', 'cmdline', 'status']):
+            try:
+                if proc.info['username'] != current_user:
+                    continue
+                pid = proc.info['pid']
+                if pid not in dashboard_pids:
+                    continue
+                cmd = ' '.join(proc.info['cmdline'] or []) if proc.info['cmdline'] else ''
+                is_orphan = any(re.search(pat, cmd, re.IGNORECASE) for pat in orphan_patterns)
+                if proc.info['status'] == psutil.STATUS_ZOMBIE:
                     is_orphan = True
-                    break
-
-            # Also hunt defunct processes
-            if '<defunct>' in cmd:
-                is_orphan = True
-
-            if is_orphan:
-                try:
-                    # Kill the orphan
-                    os.kill(int(pid), signal.SIGKILL)
-                    killed_count += 1
-                    killed_processes.append(f"PID {pid} ({cmd[:50]})")
-                except (ProcessLookupError, PermissionError, OSError):
-                    pass
+                if is_orphan:
+                    try:
+                        proc.kill()
+                        killed_count += 1
+                        killed_processes.append(f"PID {pid} ({cmd[:50]})")
+                    except (psutil.NoSuchProcess, psutil.AccessDenied):
+                        pass
+            except (psutil.NoSuchProcess, psutil.AccessDenied):
+                pass
 
         if killed_count > 0:
             log_dashboard_error(f"[ANAKIN SKYWALKER DIRECTIVE] Order 66 executed. Anakin has cleared the temple. {killed_count} younglings (orphan processes) eliminated: {', '.join(killed_processes[:3])}{'...' if len(killed_processes) > 3 else ''}", console=True)
@@ -579,11 +680,11 @@ def anakin_skywalker_directive():
                 winsound.Beep(440, 200)  # A4 note
                 winsound.Beep(554, 200)  # C#5 note
                 winsound.Beep(659, 300)  # E5 note
-            except ImportError:
+            except (ImportError, OSError, RuntimeError):
                 try:
                     # Linux/Mac alternative
                     os.system('echo -e "\a"')  # Terminal bell
-                except:
+                except Exception:
                     pass
         else:
             log_dashboard_error("[ANAKIN SKYWALKER DIRECTIVE] Temple scan complete. No younglings found. The temple is clear.", console=True)
@@ -680,7 +781,9 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         log_dashboard_error(f"System metrics prime failed at startup: {e}")
 
-    # Pre-compute cosmo curves in background (avoids blocking /api/status on first call)
+    # Instant cache so HTTP accepts immediately; full warm runs in background.
+    _seed_minimal_status_cache()
+    asyncio.create_task(_warm_status_cache())
     asyncio.create_task(_warm_cosmo_curves())
 
     watcher_task = asyncio.create_task(background_process_watcher())
@@ -792,15 +895,30 @@ def authenticate(request: Request, credentials: HTTPBasicCredentials = Depends(s
     FAILED_LOGIN_ATTEMPTS.pop(client_ip, None)
     return credentials.username
 
+from fastapi.responses import JSONResponse
+
+
+class SafeJSONResponse(JSONResponse):
+    """JSON response that never crashes on inf/nan from sampler/CLASS outputs."""
+
+    def render(self, content) -> bytes:
+        return json.dumps(
+            _sanitize_for_json(content),
+            ensure_ascii=False,
+            allow_nan=False,
+            default=str,
+        ).encode("utf-8")
+
+
 # --- FastAPI App Setup ---
 app = FastAPI(
     title="CosmicDashboard Backend",
+    default_response_class=SafeJSONResponse,
     # dependencies=[Depends(authenticate)],  # now handled by middleware + per-route for flexibility with cookie "remember me"
     # Allow larger payloads for chain data
     max_request_size=50 * 1024 * 1024,
     lifespan=lifespan
 )
-from fastapi.responses import JSONResponse
 
 @app.middleware("http")
 async def sanitize_paths_middleware(request: Request, call_next):
@@ -1094,6 +1212,45 @@ def get_state() -> StateManager:
 
 # Server start time for uptime and health
 SERVER_START_TIME = time.time()
+
+# Short-lived /api/status cache so browser polling cannot starve /api/health.
+_STATUS_CACHE_TTL_RUNNING = 1.0
+_STATUS_CACHE_TTL_IDLE = 10.0
+_STATUS_CACHE_STALE_MAX_IDLE = 45.0
+_STATUS_COBAYA_SCAN_INTERVAL_IDLE = 30.0
+_status_cache_payload = None
+_status_cache_ts = 0.0
+_status_last_cobaya_scan_ts = 0.0
+_status_build_async_lock: asyncio.Lock | None = None
+
+
+def _get_status_async_lock() -> asyncio.Lock:
+    global _status_build_async_lock
+    if _status_build_async_lock is None:
+        _status_build_async_lock = asyncio.Lock()
+    return _status_build_async_lock
+
+
+def _minimal_status_payload(degraded: str | None = None) -> dict:
+    """Fast fallback status so the UI never blocks on a full rebuild."""
+    payload = {
+        "status": state.current_status or "idle",
+        "active_output_prefix": state.active_output_prefix,
+        "active_yaml_path": state.active_yaml_path,
+        "dead_points": 0,
+        "history_frames": list(state.history_frames),
+        "is_optimizer": getattr(state, "is_optimizer", False),
+    }
+    if degraded:
+        payload["status_degraded"] = degraded
+    return payload
+
+
+def _seed_minimal_status_cache() -> None:
+    global _status_cache_payload, _status_cache_ts
+    if _status_cache_payload is None:
+        _status_cache_payload = _sanitize_for_json(_minimal_status_payload("startup"))
+        _status_cache_ts = time.time()
 
 
 class SystemMetricsSampler:
@@ -1897,8 +2054,13 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         c_params['A_s'] = 2.1e-9
 
     use_prtoe_flag = False
+    prtoe_keys = ['xi_prtoe', 'prtoe_xi', 'delta_prtoe', 'prtoe_delta', 'beta_prtoe', 'prtoe_beta', 'log_beta_prtoe', 'zeta_prtoe', 'V0_prtoe', 'm_prtoe', 'lambda_prtoe']
+    prtoe_param_keys = frozenset(prtoe_keys + ['use_prtoe'])
 
-    if state.active_yaml_path and os.path.exists(state.active_yaml_path):
+    # Safety: if no real best_fit_params yet, force plain LCDM (never merge PRTOE yaml extras).
+    warm_lcdm_default = not best_fit_params or len(best_fit_params) < 5
+
+    if not warm_lcdm_default and state.active_yaml_path and os.path.exists(state.active_yaml_path):
         try:
             with open(state.active_yaml_path, 'r') as f:
                 up_cfg = yaml.safe_load(f) or {}
@@ -1906,21 +2068,21 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
             extra = theory_classy.get('extra_args', {})
             if extra.get('use_prtoe') == 'yes':
                 use_prtoe_flag = True
-            # Merge extra_args from the run's YAML
             for k, v in extra.items():
                 if k not in c_params and k not in CLASS_DIRECT_CALL_STRIP_KEYS:
                     c_params[k] = v
         except Exception:
             pass
 
-    prtoe_keys = ['xi_prtoe', 'prtoe_xi', 'delta_prtoe', 'prtoe_delta', 'beta_prtoe', 'prtoe_beta', 'log_beta_prtoe', 'zeta_prtoe', 'V0_prtoe', 'm_prtoe', 'lambda_prtoe']
     if any(k in best_fit_params for k in prtoe_keys):
         use_prtoe_flag = True
 
-    # Safety: if no real best_fit_params yet, force non-PRTOE / LCDM
-    if not best_fit_params or len(best_fit_params) < 5:
+    if warm_lcdm_default:
         use_prtoe_flag = False
         model_type = "lcdm"
+        for k in list(c_params.keys()):
+            if k in prtoe_param_keys:
+                c_params.pop(k, None)
 
     # Model type detection
     if state.active_yaml_path and os.path.exists(state.active_yaml_path):
@@ -1967,6 +2129,9 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         })
     else:
         c_params['use_prtoe'] = 'no'
+        for k in list(c_params.keys()):
+            if k in prtoe_param_keys:
+                c_params.pop(k, None)
         if model_type == "wcdm":
             if 'w0_fld' in best_fit_params:
                 c_params['w0_fld'] = best_fit_params['w0_fld']
@@ -2090,8 +2255,25 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
             'error': str(e)
         }
 
+async def _warm_status_cache():
+    """Pre-build /api/status payload at startup so the first browser poll cannot block the server."""
+    global _status_cache_payload, _status_cache_ts
+    try:
+        loop = asyncio.get_running_loop()
+        await loop.run_in_executor(None, find_and_adopt_running_cobaya)
+        payload = await asyncio.wait_for(
+            loop.run_in_executor(None, _build_status_payload),
+            timeout=15.0,
+        )
+        _status_cache_payload = _sanitize_for_json(payload)
+        _status_cache_ts = time.time()
+        log_dashboard_error("[startup] Status cache pre-warmed.", console=False)
+    except Exception as e:
+        log_dashboard_error(f"[startup] Status cache warm failed: {e}", level="warning")
+
+
 async def _warm_cosmo_curves():
-    """Pre-compute cosmo curves in the background so /api/status doesn't block."""
+    """Pre-compute cosmo curves in the background (LCDM defaults only; never blocks HTTP)."""
     try:
         import psutil
         has_cobaya = False
@@ -2111,9 +2293,14 @@ async def _warm_cosmo_curves():
 
     try:
         loop = asyncio.get_running_loop()
-        result = await loop.run_in_executor(None, lambda: compute_cosmo_curves({}))
+        result = await asyncio.wait_for(
+            loop.run_in_executor(None, lambda: compute_cosmo_curves({})),
+            timeout=10.0,
+        )
         state.cosmo_curves_cache = result
         log_dashboard_error("[startup] Cosmo curves pre-computed.", console=False)
+    except asyncio.TimeoutError:
+        log_dashboard_error("[startup] Cosmo curves warm timed out; skipped.", level="warning")
     except Exception as e:
         log_dashboard_error(f"[startup] Cosmo curves warm failed: {e}", console=True)
 
@@ -2254,6 +2441,17 @@ def normalize_prtoe_param_names(cfg: dict) -> bool:
             if alias in params and canon in params:
                 params.pop(alias, None)
                 changed = True
+    # CLASS accepts only one of phi_c_prtoe or phi_0_prtoe; prefer sampled phi_c_prtoe
+    if 'phi_0_prtoe' in params and 'phi_c_prtoe' in params:
+        phi_c = params.get('phi_c_prtoe')
+        if isinstance(phi_c, dict) and 'prior' in phi_c:
+            params.pop('phi_0_prtoe', None)
+            changed = True
+            log_dashboard_error("[PRTOE] Removed phi_0_prtoe (mutually exclusive with sampled phi_c_prtoe)", console=True)
+        else:
+            params.pop('phi_c_prtoe', None)
+            changed = True
+            log_dashboard_error("[PRTOE] Removed phi_c_prtoe (mutually exclusive with fixed phi_0_prtoe)", console=True)
     # Ensure extra_args.use_prtoe and non_linear for PRTOE models
     theory = cfg.setdefault('theory', {}).setdefault('classy', {})
     extra = theory.setdefault('extra_args', {})
@@ -2275,7 +2473,92 @@ def normalize_prtoe_param_names(cfg: dict) -> bool:
         changed = True
         log_dashboard_error("[PRTOE] Removed base_path from extra_args (Cobaya incompatibility fix)", console=True)
 
+    has_bao = any(str(k).startswith('bao.') for k in (cfg.get('likelihood') or {}))
+    if has_prtoe or has_bao:
+        for key, val in {
+            'l_max_scalars': 2508,
+            'lensing': 'yes',
+            'z_pk': '0.61 0.51 0.38',
+            'z_max_pk': 2.5,
+            'P_k_max_1/Mpc': 1,
+        }.items():
+            if key not in extra:
+                extra[key] = val
+                changed = True
+
     return changed
+
+
+def _process_config_dict(config_data: dict) -> dict:
+    """Normalize uploaded/template YAML in memory (no disk I/O)."""
+    if not isinstance(config_data, dict):
+        raise ValueError("YAML root must be a dictionary")
+    normalize_prtoe_param_names(config_data)
+    ensure_class_engine_in_config(config_data)
+    theory = config_data.setdefault('theory', {}).setdefault('classy', {}).setdefault('extra_args', {})
+    if 'non_linear' not in theory and 'non linear' not in theory:
+        theory['non_linear'] = 'halofit'
+    return config_data
+
+
+def _save_uploaded_config(config_data: dict) -> str:
+    """Write normalized config once to the active upload slot."""
+    upload_path = Path("uploaded_config.yaml")
+    with open(upload_path, 'w', encoding='utf-8') as f:
+        yaml.dump(config_data, f, default_flow_style=False, sort_keys=False)
+    return str(upload_path.resolve())
+
+
+def _on_active_config_changed(path: str) -> None:
+    """Lightweight cache invalidation after config upload/template load (no status rebuild)."""
+    global _status_cache_payload, _status_cache_ts
+    state.active_yaml_path = path
+    _status_cache_ts = 0.0
+    if _status_cache_payload is not None:
+        _status_cache_payload["active_yaml_path"] = path
+    state.derived_params_cache = None
+    state.cosmo_curves_cache = None
+    if hasattr(state, "model_type"):
+        state.model_type = None
+
+    # Reset optimizer flags if the new active config does not look like a CosmicForge optimizer config.
+    # This prevents stale prtoe_poly / 1e10 chi2 data from leaking into LCDM or other standard runs.
+    path_lower = path.lower()
+    is_cosmicforge_config = ("run_optimizer" in path_lower or "run_cosmicforge" in path_lower or
+                             "prtoe_standard_cosmicforge" in path_lower or "cosmicforge" in path_lower)
+    if not is_cosmicforge_config:
+        state.is_optimizer = False
+        # Clear stale run data from previous CosmicForge/PRTOE runs so LCDM or other configs don't inherit
+        # old chi2=1e10, old prefixes like prtoe_poly, etc.
+        if not (state.running_process and state.running_process.poll() is None):
+            state.active_output_prefix = ""
+            state.current_status = "idle"
+        state.watchdog_alerts = []
+        state.history_frames = []
+        state.last_frame_mod_time = 0
+        state.last_frame_hash = None
+        # Clear any cached live data that might be from old run
+        try:
+            live_path = Path("chains") / "current_phone_url.txt"
+            if live_path.exists():
+                live_path.unlink()
+        except Exception:
+            pass
+
+
+def _process_uploaded_config_bytes(contents: bytes) -> str:
+    config_data = yaml.safe_load(contents.decode('utf-8'))
+    config_data = _process_config_dict(config_data)
+    return _save_uploaded_config(config_data)
+
+
+def _process_template_bytes(content: str) -> tuple[str, str]:
+    """Parse + normalize template YAML text; returns (saved_path, yaml_text)."""
+    config_data = yaml.safe_load(content) or {}
+    config_data = _process_config_dict(config_data)
+    path = _save_uploaded_config(config_data)
+    with open(path, 'r', encoding='utf-8') as f:
+        return path, f.read()
 
 
 def prepare_config_for_run(yaml_path: Path):
@@ -2684,12 +2967,11 @@ async def get_health():
         except Exception:
             pass
 
-        # Error log tail count
+        # Avoid scanning the full error log on every health probe (can be 40k+ lines).
         err_count = 0
         try:
             if ERROR_LOG_PATH.exists():
-                with open(ERROR_LOG_PATH, 'r') as f:
-                    err_count = sum(1 for _ in f)
+                err_count = max(0, ERROR_LOG_PATH.stat().st_size // 80)
         except Exception:
             pass
 
@@ -2829,6 +3111,17 @@ async def validate_config(req: ConfigValidateRequest = Body(...), request: Reque
         warnings.append("use_prtoe=yes but no PRTOE parameters (xi_prtoe etc) defined in params.")
     if has_prtoe_params and use_prtoe not in ("yes", "true", "1"):
         warnings.append("PRTOE parameters present but use_prtoe != yes; may run as LCDM.")
+    if "phi_0_prtoe" in params and "phi_c_prtoe" in params:
+        errors.append(
+            "CLASS rejects configs with both phi_0_prtoe and phi_c_prtoe; keep only one "
+            "(use sampled phi_c_prtoe for CosmicForge runs)."
+        )
+    has_bao = any(str(k).startswith("bao.") for k in (cfg.get("likelihood") or {}))
+    if has_bao and not extra.get("z_max_pk"):
+        errors.append(
+            "BAO likelihoods require P(k,z) tabulation; set theory.classy.extra_args.z_max_pk "
+            "(e.g. 2.5) to avoid CLASS tau-range failures."
+        )
 
     # Halofit for non-linear P(k) -- recommended for lensing + small-scale BAO etc.
     nl = str(extra.get("non_linear") or extra.get("non linear", "")).strip().lower()
@@ -2983,9 +3276,8 @@ async def get_metrics():
 async def run_summary(output_prefix: Optional[str] = None):
     """Aggregate end-of-run summary: delegates to backend.run_summary.build_run_summary for logic."""
     try:
-        from prtoe_class.backend.run_summary import build_run_summary
         res = build_run_summary(output_prefix)
-        return JSONResponse(res)
+        return JSONResponse(_sanitize_for_json(res))
     except HTTPException:
         raise
     except ValueError as ve:
@@ -3035,7 +3327,43 @@ async def validate_profile_scan(req: ProfileScanRequest, request: Request = None
 
 # Adopted process and watchdog logic moved to prtoe_class.backend.process_watcher for clarity and testability.
 # Import the implementations (lazy import used inside the module to avoid circular import at top-level).
-from prtoe_class.backend.process_watcher import AdoptedProcess, find_and_adopt_running_cobaya, background_process_watcher
+# Robust load for backend modules (process_watcher, run_summary) without relying on 'prtoe_class' being in sys.path or fragile hacks.
+def _load_backend_module_robustly(module_name: str, rel_path: str):
+    here = _Path(__file__).resolve()
+    candidates = [
+        here.parent.parent / 'backend' / rel_path,  # when in scripts/ : ../backend/rel
+        here.parents[1] / 'backend' / rel_path,   # alternative layout
+        here.parent / rel_path,                   # if colocated
+    ]
+    for cand in candidates:
+        if cand.exists():
+            try:
+                spec = importlib.util.spec_from_file_location(f'prtoe_{module_name}', str(cand))
+                if spec and spec.loader:
+                    mod = importlib.util.module_from_spec(spec)
+                    sys.modules[f'prtoe_{module_name}'] = mod
+                    spec.loader.exec_module(mod)
+                    return mod
+            except Exception as e:
+                log_dashboard_error(f"Failed robust load of {module_name} from {cand}: {e}", level="warning")
+    return None
+
+_pw_mod = _load_backend_module_robustly('process_watcher', 'process_watcher.py')
+if _pw_mod is not None:
+    AdoptedProcess = getattr(_pw_mod, 'AdoptedProcess', object)
+    find_and_adopt_running_cobaya = getattr(_pw_mod, 'find_and_adopt_running_cobaya', lambda: None)
+    background_process_watcher = getattr(_pw_mod, 'background_process_watcher', lambda: None)
+else:
+    log_dashboard_error("CRITICAL: Could not load process_watcher. Some run adoption will fail.", level="error")
+    AdoptedProcess = object
+    def find_and_adopt_running_cobaya(): return None
+    def background_process_watcher(): return None
+
+_rs_mod = _load_backend_module_robustly('run_summary', 'run_summary.py')
+if _rs_mod is not None:
+    build_run_summary = getattr(_rs_mod, 'build_run_summary', lambda *a,**k: {})
+else:
+    def build_run_summary(*a, **k): return {}
 
 
 # Duplicate lifespan removed (primary one earlier in file, before the app=FastAPI(..., lifespan=lifespan) line).
@@ -3402,8 +3730,15 @@ async def websocket_status(websocket: WebSocket, token: Optional[str] = None):
 
     await manager.connect(websocket)
     try:
-        # Send initial status
-        initial_status = await get_status()
+        # Use cached/lightweight snapshot — do not run a full status build on every WS connect.
+        if _status_cache_payload is not None:
+            initial_status = _status_cache_payload
+        else:
+            initial_status = _sanitize_for_json({
+                "status": state.current_status or "idle",
+                "active_output_prefix": state.active_output_prefix,
+                "active_yaml_path": state.active_yaml_path,
+            })
         await websocket.send_json({"type": "status", "data": initial_status})
         while True:
             # Keep alive or listen for client messages (e.g. subscribe)
@@ -3418,6 +3753,66 @@ async def websocket_status(websocket: WebSocket, token: Optional[str] = None):
 @app.get("/api/status")
 async def get_status():
     """Checks the status of the running Cobaya process and reports progress."""
+    global _status_cache_payload, _status_cache_ts
+    now = time.time()
+    ttl = (
+        _STATUS_CACHE_TTL_RUNNING
+        if state.current_status == "running"
+        else _STATUS_CACHE_TTL_IDLE
+    )
+    if _status_cache_payload is not None and (now - _status_cache_ts) < ttl:
+        return _status_cache_payload
+    # Stale-while-revalidate for idle/completed: never stampede-rebuild under browser poll load.
+    if (
+        _status_cache_payload is not None
+        and state.current_status != "running"
+        and (now - _status_cache_ts) < _STATUS_CACHE_STALE_MAX_IDLE
+    ):
+        return _status_cache_payload
+
+    lock = _get_status_async_lock()
+    if lock.locked():
+        # Another request is building; never queue behind a slow rebuild.
+        if _status_cache_payload is not None:
+            return _status_cache_payload
+        return _sanitize_for_json(_minimal_status_payload("busy"))
+
+    async with lock:
+        now = time.time()
+        if _status_cache_payload is not None and (now - _status_cache_ts) < ttl:
+            return _status_cache_payload
+
+        loop = asyncio.get_event_loop()
+        global _status_last_cobaya_scan_ts
+        if not state.running_process:
+            scan_interval = (
+                2.0 if state.current_status == "running"
+                else _STATUS_COBAYA_SCAN_INTERVAL_IDLE
+            )
+            if (now - _status_last_cobaya_scan_ts) >= scan_interval:
+                await loop.run_in_executor(None, find_and_adopt_running_cobaya)
+                _status_last_cobaya_scan_ts = time.time()
+        try:
+            stats_data = await asyncio.wait_for(
+                loop.run_in_executor(None, _build_status_payload),
+                timeout=12.0,
+            )
+        except asyncio.TimeoutError:
+            stats_data = {
+                "status": state.current_status or "idle",
+                "active_output_prefix": state.active_output_prefix,
+                "active_yaml_path": state.active_yaml_path,
+                "dead_points": 0,
+                "history_frames": list(state.history_frames),
+                "status_degraded": "timeout",
+            }
+        _status_cache_payload = _sanitize_for_json(stats_data)
+        _status_cache_ts = time.time()
+        return _status_cache_payload
+
+
+def _build_status_payload():
+    """Build status dict (sync). Runs in a thread pool so /api/health stays responsive."""
 
     struggles = {}
     h0_val = None
@@ -3429,12 +3824,6 @@ async def get_status():
     ok_val = None
     ok_err = None
     ncdm_mass = None
-
-    if not state.running_process:
-        # FIX: Run blocking I/O in thread pool to avoid blocking event loop
-        import asyncio
-        loop = asyncio.get_event_loop()
-        await loop.run_in_executor(None, find_and_adopt_running_cobaya)
 
     if state.running_process:
         if state.running_process.poll() is None:
@@ -3473,6 +3862,16 @@ async def get_status():
                     log_dashboard_error(f"Auto-archiving LCDM completed run failed: {ex}")
             state.running_process = None
 
+    if not state.running_process and state.current_status in ("idle", ""):
+        _hydrate_idle_chain_state()
+
+    _sampler_pid = state.running_process.pid if state.running_process else None
+    _sampler_snap = (
+        sampler_metrics.snapshot(_sampler_pid)
+        if _sampler_pid
+        else {"sampler_cpu_percent": 0.0, "sampler_memory_mb": 0.0, "sampler_num_processes": 0}
+    )
+
     stats_data = {
         "status": state.current_status,
         "run_start_time": state.run_start_time,
@@ -3483,19 +3882,19 @@ async def get_status():
         "log_evidence": None,
         "log_evidence_error": None,
         "best_chi2": None,
-        "best_cmb": 0.0,
-        "best_bao": 0.0,
-        "best_desi": 0.0,
-        "best_sn": 0.0,
-        "best_lensing": 0.0,
-        "best_other": 0.0,
+        "best_cmb": None,
+        "best_bao": None,
+        "best_desi": None,
+        "best_sn": None,
+        "best_lensing": None,
+        "best_other": None,
         "best_raw_params": None,
         "init_percent": 0,
         "convergence_percent": 0,
         **system_metrics.snapshot(),
         # Per-sampler (CosmicForge / active Cobaya tree) metrics - key for "CosmicForge section" CPU
         # without touching any locked output files from PolyChord/Cobaya.
-        **( (lambda pid: sampler_metrics.snapshot(pid) if pid else {"sampler_cpu_percent": 0.0, "sampler_memory_mb": 0.0, "sampler_num_processes": 0} )(state.running_process.pid if state.running_process else None) ),
+        **_sampler_snap,
         "terminal_output": [],
         "external_logs": list(state.external_logs),
         "class_error_logs": [],
@@ -3511,7 +3910,7 @@ async def get_status():
         "speed": "-",
         "eta": "-",
         # Convenience alias for the CosmicForge section CPU display in the dashboard.
-        "cosmicforge_cpu_percent": stats_data.get("sampler_cpu_percent", 0.0) if isinstance(stats_data, dict) else 0.0,
+        "cosmicforge_cpu_percent": _sampler_snap.get("sampler_cpu_percent", 0.0),
         "constraints": [],
         "tension_status": "Unknown",
         "stagnation_detected": False,
@@ -3610,10 +4009,17 @@ async def get_status():
                 resume_file = None
                 is_stale = True
 
-        stats_data.update(parse_polychord_stats(stats_file, resume_file))
+        parsed_stats = parse_polychord_stats(stats_file, resume_file)
+        stats_data.update(parsed_stats)
+        if parsed_stats.get("is_optimizer"):
+            state.is_optimizer = True
+            stats_data["is_optimizer"] = True
+        if parsed_stats.get("best_raw_params") and not stats_data.get("best_raw_params"):
+            stats_data["best_raw_params"] = parsed_stats["best_raw_params"]
         if getattr(state, "is_optimizer", False):
             evals = get_log_eval_count(f"{state.active_output_prefix}.log")
-            stats_data["dead_points"] = evals
+            if evals > 0:
+                stats_data["dead_points"] = evals
 
             # Prefer the safe side-channel live file written by run_cosmicforge (atomic, never locked by PolyChord).
             # This lets the CosmicForge section show live progress/CPU without any risk of tamper alarms.
@@ -3627,16 +4033,21 @@ async def get_status():
                     if live_content:
                         live = json.loads(live_content)
                         stats_data["cosmicforge_live"] = live
-                        if "best_chi2_penalized" in live:
-                            stats_data["best_chi2"] = live["best_chi2_penalized"]
+                        live_chi2 = live.get("best_chi2_penalized") or live.get("current_chi2_penalized")
+                        if live_chi2 is not None:
+                            stats_data["best_chi2"] = live_chi2
                         if "ndead" in live:
                             stats_data["dead_points"] = live["ndead"]
             except Exception:
                 pass
 
         fit_details = None
+        if parsed_stats.get("best_raw_params"):
+            stats_data["best_raw_params"] = parsed_stats["best_raw_params"]
         if not getattr(state, "is_optimizer", False) and not is_stale:
             fit_details = get_best_fit_details(state.active_output_prefix)
+        elif getattr(state, "is_optimizer", False) and parsed_stats.get("best_raw_params"):
+            fit_details = None
         if fit_details is not None:
             stats_data["best_chi2"] = fit_details["total"]
             stats_data["best_cmb"] = fit_details.get("cmb", 0.0)
@@ -3718,29 +4129,33 @@ async def get_status():
                     pass
 
         if resume_file and resume_file.exists():
-            try:
-                with open(resume_file, "r") as f:
-                    lines = f.readlines()
+            # Use safe reader to avoid opening files locked by active PolyChord nested sampling
+            # (prevents Cobaya tamper alarms and preserves evidence).
+            content = safe_read_text_for_monitor(resume_file, description="resume for ndims")
+            if content:
+                lines = content.splitlines()
                 for idx, line in enumerate(lines):
                     if "=== Number of dimensions ===" in line:
-                        ndims = int(lines[idx+1].strip())
-                        break
-            except Exception:
-                pass
+                        try:
+                            ndims = int(lines[idx+1].strip())
+                            break
+                        except Exception:
+                            pass
 
-            # Fallback 2: Parse prior_info to get nprior, and compute nlive = nprior / 10
+            # Fallback 2: Parse prior_info ...
             if not nlive:
                 prior_info = resume_file.with_suffix(".prior_info")
                 if prior_info.exists():
-                    try:
-                        with open(prior_info, "r") as f:
-                            for line in f:
-                                if "nprior" in line and "=" in line:
+                    pcontent = safe_read_text_for_monitor(prior_info, description="prior_info for nlive")
+                    if pcontent:
+                        for line in pcontent.splitlines():
+                            if "nprior" in line and "=" in line:
+                                try:
                                     nprior = int(line.split("=")[1].strip())
                                     nlive = max(1, nprior // 10)
                                     break
-                    except Exception:
-                        pass
+                                except Exception:
+                                    pass
 
         if not nlive:
             nlive = 200  # Default live points fallback
@@ -3963,7 +4378,7 @@ async def get_status():
                     if file_size > 10000:
                         f.seek(file_size - 10000)
                         f.readline()
-                    stats_data["terminal_output"] = [line.strip() for line in f.readlines()[-100:]]
+                    stats_data["terminal_output"] = [line.strip() for line in f.readlines()[-25:]]
             except Exception: pass
 
     init_percent = 0
@@ -4162,7 +4577,8 @@ async def get_status():
         delta_logz = float(custom_logz - baseline_logz)
         comparison["delta_log_evidence"] = float(delta_logz)
         if abs(delta_logz) < 700:
-            comparison["bayes_factor"] = float(math.exp(abs(delta_logz)))
+            bf = float(math.exp(abs(delta_logz)))
+            comparison["bayes_factor"] = bf if math.isfinite(bf) else None
         authoritative = bool(stats_data.get("evidence_is_final") and baseline_evidence_is_final)
         comparison["bayesian_evidence_authoritative"] = authoritative
         comparison["evidence_preference_reliable"] = authoritative
@@ -4279,17 +4695,8 @@ async def get_status():
 
     stats_data["tensions"] = tensions
 
-    best_chi2 = stats_data.get("best_chi2")
-    if best_chi2 is not None:
-        if state.cosmo_curves_cache is None or best_chi2 != state.last_computed_chi2:
-            raw_params = stats_data.get("best_raw_params")
-            if raw_params:
-                state.cosmo_curves_cache = compute_cosmo_curves(raw_params)
-                state.last_computed_chi2 = best_chi2
-    if state.cosmo_curves_cache is None:
-        stats_data["cosmo_curves"] = None
-    else:
-        stats_data["cosmo_curves"] = state.cosmo_curves_cache
+    # Curves are warmed in the background; never block status polls on CLASS.
+    stats_data["cosmo_curves"] = state.cosmo_curves_cache
 
     # General model type detection (supports PRTOE, wCDM, LCDM, general for other models)
     model_type = getattr(state, 'model_type', None)
@@ -4322,12 +4729,26 @@ async def get_status():
     stats_data["model_type"] = model_type
     stats_data["is_lcdm"] = model_type == "lcdm"  # backward compat
     
-    # CRITICAL FIX 1: Add is_optimizer flag so frontend can detect and display optimizer tab
-    is_opt_from_state = getattr(state, "is_optimizer", False)
+    # Re-compute is_optimizer based on *current* active config to avoid stale data from previous prtoe runs
+    # leaking into LCDM or other selections. The prefix heuristic is only for the current prefix.
+    current_is_optimizer = False
+    if state.active_yaml_path:
+        yaml_lower = state.active_yaml_path.lower()
+        if ("run_optimizer" in yaml_lower or "run_cosmicforge" in yaml_lower or
+            "prtoe_standard_cosmicforge" in yaml_lower or "cosmicforge" in yaml_lower):
+            current_is_optimizer = True
+    if state.active_output_prefix:
+        prefix_lower = state.active_output_prefix.lower()
+        if "run_optimizer" in prefix_lower or "run_cosmicforge" in prefix_lower or "prtoe" in prefix_lower:
+            # Only confirm if the yaml also matches or we are in the middle of an optimizer launch
+            if current_is_optimizer or getattr(state, "is_optimizer", False):
+                current_is_optimizer = True
+
+    is_opt_from_state = current_is_optimizer or getattr(state, "is_optimizer", False)
     stats_data["is_optimizer"] = is_opt_from_state
-    
-    # CRITICAL FIX 4: Fallback - check if active run uses optimizer script
-    # This catches cases where process watcher didn't set is_optimizer correctly
+    state.is_optimizer = is_opt_from_state  # keep state in sync with current reality
+
+    # Fallback heuristic only if not already decided from yaml
     if not is_opt_from_state and state.active_yaml_path:
         yaml_lower = state.active_yaml_path.lower()
         if "run_optimizer" in yaml_lower or "run_cosmicforge" in yaml_lower:
@@ -4339,9 +4760,10 @@ async def get_status():
             stats_data["is_optimizer"] = True
             state.is_optimizer = True
 
-    # AUTO-DETECT: if no active_output_prefix but a summary.json exists in chains/, surface it.
-    # This makes CosmicForge panels work even when the optimizer was launched manually.
-    if not stats_data.get("active_output_prefix"):
+    # AUTO-DETECT: only if *no current active run/prefix* and a recent summary exists.
+    # Do not override a current LCDM or other run with an old prtoe summary.
+    # This prevents old prtoe_poly 1e10 data from polluting current selection.
+    if not stats_data.get("active_output_prefix") and not state.active_output_prefix:
         try:
             chains_dir = Path("chains")
             if chains_dir.exists():
@@ -4352,30 +4774,61 @@ async def get_status():
                 )
                 if candidates:
                     auto_prefix = str(candidates[0]).replace(".summary.json", "")
-                    stats_data["active_output_prefix"] = auto_prefix
-                    stats_data["is_optimizer"] = True
-                    if not state.active_output_prefix:
-                        state.active_output_prefix = auto_prefix
-                        state.is_optimizer = True
+                    # Only auto-activate optimizer display if the recent summary looks like one
+                    if "prtoe" in auto_prefix.lower() or "cosmicforge" in auto_prefix.lower() or "optimizer" in auto_prefix.lower():
+                        stats_data["active_output_prefix"] = auto_prefix
+                        stats_data["is_optimizer"] = True
+                        if not state.active_output_prefix:
+                            state.active_output_prefix = auto_prefix
+                            state.is_optimizer = True
         except Exception:
             pass
 
+    # Final guard: if the current active yaml is a standard/LCDM one (not cosmicforge), force is_optimizer=False
+    # to prevent any residual prtoe data from showing in CosmicForge section.
+    if state.active_yaml_path:
+        yl = state.active_yaml_path.lower()
+        if not ("cosmicforge" in yl or "run_optimizer" in yl or "prtoe_standard_cosmicforge" in yl):
+            stats_data["is_optimizer"] = False
+            state.is_optimizer = False
+
     # CRITICAL FIX 2: For optimizer runs, load data from .summary.json instead of .stats
-    if getattr(state, "is_optimizer", False) and state.active_output_prefix:
+    # Only if the *current* config is a cosmicforge one (to avoid showing old prtoe data on LCDM selection)
+    current_yaml_for_opt = state.active_yaml_path or ""
+    current_prefix_for_opt = state.active_output_prefix or ""
+    is_current_optimizer = getattr(state, "is_optimizer", False) and (
+        "cosmicforge" in current_yaml_for_opt.lower() or
+        "prtoe_standard_cosmicforge" in current_yaml_for_opt.lower() or
+        "run_cosmicforge" in current_prefix_for_opt.lower() or
+        "prtoe_poly" in current_prefix_for_opt.lower()  # keep for the specific prtoe run
+    )
+    if is_current_optimizer and state.active_output_prefix:
 
         summary_path = Path(f"{state.active_output_prefix}.summary.json")
         if summary_path.exists():
             try:
-                with open(summary_path, 'r') as f:
-                    optimizer_summary = json.load(f)
+                optimizer_summary = _load_json_tolerant(summary_path)
                 # Expose optimizer-specific metrics for tracker display
-                if "best_chi2" in optimizer_summary:
+                if optimizer_summary.get("best_chi2") is not None:
                     stats_data["best_chi2"] = optimizer_summary["best_chi2"]
-                if "best_cmb" in optimizer_summary:
+                else:
+                    # Fallback: if no valid best_chi2 (e.g. all points penalized with 1e10), use min penalized_chi2 from modes
+                    # so CosmicForge section displays the best-found (even if invalid) instead of staying at default None / "-"
+                    modes = optimizer_summary.get("modes", [])
+                    if modes:
+                        penalizeds = [m.get("penalized_chi2") for m in modes if isinstance(m.get("penalized_chi2"), (int, float))]
+                        if penalizeds:
+                            stats_data["best_chi2"] = min(penalizeds)
+                if optimizer_summary.get("n_evaluations"):
+                    stats_data["dead_points"] = max(
+                        stats_data.get("dead_points", 0),
+                        int(optimizer_summary["n_evaluations"]),
+                    )
+                if "best_cmb" in optimizer_summary and optimizer_summary.get("best_cmb") is not None:
                     stats_data["best_cmb"] = optimizer_summary["best_cmb"]
-                if "best_bao" in optimizer_summary:
+                if "best_bao" in optimizer_summary and optimizer_summary.get("best_bao") is not None:
                     stats_data["best_bao"] = optimizer_summary["best_bao"]
-                if "best_sn" in optimizer_summary:
+                if "best_sn" in optimizer_summary and optimizer_summary.get("best_sn") is not None:
                     stats_data["best_sn"] = optimizer_summary["best_sn"]
                 if "modes" in optimizer_summary:
                     stats_data["n_modes"] = len(optimizer_summary["modes"])
@@ -4426,12 +4879,6 @@ async def get_status():
             except Exception as e:
                 logger.debug(f"Failed to load modes metadata: {e}")
 
-    # Always ensure history frames (evolution movie) are up to date in response
-    # (the check itself is idempotent and only adds on real posterior change)
-    # FIX: Run in thread pool to avoid blocking event loop
-    import asyncio
-    loop = asyncio.get_event_loop()
-    await loop.run_in_executor(None, check_and_update_history)
     stats_data["history_frames"] = list(state.history_frames)
 
     return stats_data
@@ -4524,9 +4971,9 @@ async def update_baseline(data: UpdateBaseline):
 @app.post("/api/upload_config")
 async def upload_config(file: UploadFile = File(...), request: Request = None):
     """Uploads and saves the configuration YAML file with strict limits and validation."""
-    if request and check_rate_limit(request, "/api/upload_config", max_calls=10, window_sec=60):
+    if request and check_rate_limit(request, "/api/upload_config", max_calls=20, window_sec=60):
         ts = time.strftime('%Y-%m-%d %H:%M:%S')
-        raise HTTPException(status_code=429, detail=f"[{ts}] Rate limit exceeded for uploads.")
+        raise HTTPException(status_code=429, detail=f"[{ts}] Rate limit exceeded for uploads. (Close extra dashboard tabs to reduce load.)")
     if not file.filename.endswith(".yaml"):
         raise HTTPException(status_code=400, detail="Only .yaml files are allowed.")
 
@@ -4543,34 +4990,25 @@ async def upload_config(file: UploadFile = File(...), request: Request = None):
             raise HTTPException(status_code=413, detail="Uploaded file is too large (max 1MB).")
         contents.extend(chunk)
 
-    # Validate YAML structure and apply all transformations in memory (PERFORMANCE FIX)
+    loop = asyncio.get_running_loop()
     try:
-        config_data = yaml.safe_load(contents.decode('utf-8'))
-        if not isinstance(config_data, dict):
-            raise ValueError("YAML root must be a dictionary")
-    except Exception as e:
+        upload_path = await asyncio.wait_for(
+            loop.run_in_executor(None, lambda: _process_uploaded_config_bytes(bytes(contents))),
+            timeout=30.0,
+        )
+    except asyncio.TimeoutError:
+        raise HTTPException(status_code=504, detail="Config normalization timed out; try again. (Backend may be busy with monitoring or previous runs — close tabs or wait.)")
+    except ValueError as e:
         raise HTTPException(status_code=400, detail=f"Invalid YAML structure: {e}")
-
-    upload_path = Path("uploaded_config.yaml")
-    try:
-        # Apply all transformations in memory before writing (reduces 5+ file ops to 1)
-        normalize_prtoe_param_names(config_data)
-        ensure_class_engine_in_config(config_data)
-
-        # Ensure halofit inline (instead of separate function with more file I/O)
-        theory = config_data.setdefault('theory', {}).setdefault('classy', {}).setdefault('extra_args', {})
-        if 'non_linear' not in theory and 'non linear' not in theory:
-            theory['non_linear'] = 'halofit'
-
-        # Write once with all transformations applied
-        with open(upload_path, 'w') as f:
-            yaml.dump(config_data, f, default_flow_style=False, sort_keys=False)
-
-        state.active_yaml_path = str(upload_path)
-
-        return {"filename": file.filename, "message": "Configuration uploaded successfully (halofit+PRTOE names+engine/base_path ensured)."}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Could not save uploaded file: {e}")
+
+    _on_active_config_changed(upload_path)
+    return {
+        "filename": file.filename,
+        "message": "Configuration uploaded successfully (halofit+PRTOE names+engine ensured).",
+        "config_name": "uploaded_config.yaml",
+    }
 
 # Robust decorator to prevent concurrent start_run invocations.
 # Uses an asyncio.Lock for async endpoints and a threading.Lock for sync endpoints.
@@ -8820,70 +9258,51 @@ async def save_template(req: TemplateSaveRequest):
         "message": f"Configuration saved as template '{clean_name}' successfully."
     }
 
+def _resolve_template_source(req: TemplateLoadRequest) -> tuple[str, str]:
+    """Return (label, raw_yaml_text) for a template load request."""
+    if req.yaml_content:
+        label = Path(req.yaml_content).name if req.yaml_content else "custom"
+        workspace_root = Path(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.getcwd())
+        for candidate in (workspace_root / req.yaml_content, Path(req.yaml_content)):
+            if candidate.exists() and candidate.is_file():
+                return label, candidate.read_text(encoding='utf-8')
+        return label, req.yaml_content
+
+    clean_name = re.sub(r'[^a-zA-Z0-9_\-]', '', req.name)
+    template_path = Path("templates") / f"{clean_name}.yaml"
+    if not template_path.exists():
+        raise HTTPException(status_code=404, detail=f"Template '{req.name}' not found.")
+    return clean_name, template_path.read_text(encoding='utf-8')
+
+
 @app.post("/api/templates/load")
 async def load_template(req: TemplateLoadRequest):
-    # If yaml_content is provided, use it directly (for CosmicForge configs)
-    if req.yaml_content:
-        target_path = Path("uploaded_config.yaml")
-        try:
-            # yaml_content might be a path to a file (relative to repo root)
-            source_path = Path("/home/themilkmanj/prtoe_class") / req.yaml_content
-            if source_path.exists():
-                shutil.copy2(source_path, target_path)
-                content = source_path.read_text()
-            else:
-                # Try relative to current working directory
-                source_path = Path(req.yaml_content)
-                if source_path.exists():
-                    shutil.copy2(source_path, target_path)
-                    content = source_path.read_text()
-                else:
-                    # It's actual YAML content
-                    target_path.write_text(req.yaml_content)
-                    content = req.yaml_content
-        except Exception as e:
-            raise HTTPException(status_code=500, detail=f"Failed to load CosmicForge config: {e}")
-    else:
-        # Original behavior: load from templates directory
-        templates_dir = Path("templates")
-        clean_name = re.sub(r'[^a-zA-Z0-9_\-]', '', req.name)
-        template_path = templates_dir / f"{clean_name}.yaml"
-
-        if not template_path.exists():
-            raise HTTPException(status_code=404, detail=f"Template '{req.name}' not found.")
-
-        target_path = Path("uploaded_config.yaml")
-        try:
-            shutil.copy2(template_path, target_path)
-            content = template_path.read_text()
-        except Exception as e:
-            raise HTTPException(status_code=500, detail=f"Failed to load template into uploaded_config.yaml: {e}")
-
-    # Ensure CLASS/Cobaya/PolyChord happy on template load too (names, base, halofit)
     try:
-        with open(target_path, 'r') as f:
-            cfg = yaml.safe_load(f) or {}
-        normalize_prtoe_param_names(cfg)
-        ensure_class_engine_in_config(cfg)
-        with open(target_path, 'w') as f:
-            yaml.dump(cfg, f, default_flow_style=False, sort_keys=False)
-        ensure_halofit_in_config(target_path)
-        with open(target_path, 'r') as f:
-            content = f.read()
-    except Exception:
-        try:
-            with open(target_path, 'r') as f:
-                content = f.read()
-        except Exception:
-            content = ""
+        label, raw_content = _resolve_template_source(req)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to read template: {e}")
 
-    state.active_yaml_path = str(target_path)
+    loop = asyncio.get_running_loop()
+    try:
+        saved_path, content = await asyncio.wait_for(
+            loop.run_in_executor(None, lambda: _process_template_bytes(raw_content)),
+            timeout=30.0,
+        )
+    except asyncio.TimeoutError:
+        raise HTTPException(status_code=504, detail="Template normalization timed out; try again. (Backend may be busy with monitoring or previous runs — close tabs or wait.)")
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=f"Invalid template YAML: {e}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to load template: {e}")
 
+    _on_active_config_changed(saved_path)
     return {
         "status": "success",
-        "message": f"Template '{clean_name}' loaded successfully as active configuration (normalized for CLASS).",
+        "message": f"Template '{label}' loaded successfully as active configuration (normalized for CLASS).",
         "config_name": "uploaded_config.yaml",
-        "content": content
+        "content": content,
     }
 
 # --- Per-Data-Point Chi2 contributions ---

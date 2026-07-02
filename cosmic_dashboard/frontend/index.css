@@ -367,6 +367,16 @@ body {
         0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
+/* State: uploading — config copy in flight; keep run buttons enabled */
+.file-upload-zone.uploading {
+    border-color: rgba(255, 159, 67, 0.45);
+    animation: uploadPulse 1.4s ease-in-out infinite;
+}
+@keyframes uploadPulse {
+    0%, 100% { box-shadow: inset 0 0 24px rgba(255, 159, 67, 0.12); }
+    50% { box-shadow: inset 0 0 36px rgba(255, 159, 67, 0.28); }
+}
+
 /* State: has-model (model loaded - default or custom) - stop transparent, vivid nebula, glass text readable so you *see exactly what model is being ran* */
 .file-upload-zone.has-model {
     border-color: rgba(0, 210, 211, 0.28);

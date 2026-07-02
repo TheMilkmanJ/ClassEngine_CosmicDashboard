@@ -19,7 +19,7 @@ from rich import box
 import ollama, yaml
 
 console = Console()
-PROJ = Path("/home/themilkmanj/prtoe_class")
+PROJ = Path(__file__).resolve().parent
 
 SYSTEM = (
     "You are CosmicExplorer — an elite CLI assistant for CLASS, Cobaya, PolyChord, and CosmicDashboard "

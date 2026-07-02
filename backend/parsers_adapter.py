@@ -68,6 +68,7 @@ def _import_polychord_module():
         logger.debug("Strategy 1 (top-level) failed:\n%s", traceback.format_exc())
 
     # Strategy 2: load by absolute file path (preferred — no sys.path mutation)
+    # parsers live under scripts/parsers/ relative to project root
     scripts_dir = Path(__file__).resolve().parents[1] / 'scripts'
     candidate = scripts_dir / 'parsers' / 'polychord.py'
     if candidate.exists():

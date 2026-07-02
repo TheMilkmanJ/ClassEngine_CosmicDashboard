@@ -207,14 +207,53 @@ wait_for_backend() {
 # ---------------------------------------------------------------------------
 # Start / restart the backend in a loop (watchdog)
 # ---------------------------------------------------------------------------
+kill_stale_backend_on_port() {
+    if [ -f "$BACKEND_PID_FILE" ]; then
+        local old_pid
+        old_pid="$(cat "$BACKEND_PID_FILE" 2>/dev/null || true)"
+        if [ -n "${old_pid:-}" ] && kill -0 "$old_pid" 2>/dev/null; then
+            kill -TERM "$old_pid" 2>/dev/null || true
+            sleep 0.5
+            kill -KILL "$old_pid" 2>/dev/null || true
+        fi
+    fi
+    fuser -k "${PORT}/tcp" 2>/dev/null || true
+    sleep 1
+}
+
+backend_health_ok() {
+    curl -s --max-time 2 "$BACKEND_URL/api/health" >/dev/null 2>&1
+}
+
 run_backend_watcher() {
     while [ ! -f "$SHUTDOWN_FLAG" ]; do
+        kill_stale_backend_on_port
         echo "[Backend] Starting cosmo_dashboard_backend.py..."
         "$PYTHON" "$BACKEND_SCRIPT" \
             >> "$BACKEND_LOG" 2>&1 &
         BACKEND_PID=$!
         echo "$BACKEND_PID" > "$BACKEND_PID_FILE"
         echo "[Backend] PID=$BACKEND_PID  (log: $BACKEND_LOG)"
+
+        # If the process hangs (port bound but /api/health dead), force-restart it.
+        local hung_checks=0
+        while kill -0 "$BACKEND_PID" 2>/dev/null; do
+            if backend_health_ok; then
+                hung_checks=0
+            else
+                hung_checks=$((hung_checks + 1))
+                if [ "$hung_checks" -ge 6 ]; then
+                    echo "[Backend] Health check failed for 30s — killing hung backend (PID=$BACKEND_PID)"
+                    kill -TERM "$BACKEND_PID" 2>/dev/null || true
+                    sleep 1
+                    kill -KILL "$BACKEND_PID" 2>/dev/null || true
+                    fuser -k "${PORT}/tcp" 2>/dev/null || true
+                    break
+                fi
+            fi
+            sleep 5
+        done
+
         wait "$BACKEND_PID" 2>/dev/null || true
         rm -f "$BACKEND_PID_FILE"
         [ -f "$SHUTDOWN_FLAG" ] && break
@@ -355,17 +394,38 @@ run_tunnel_watcher() {
 open_browser() {
     if wait_for_backend 45; then
         echo "[Browser] Dashboard is up — opening $BACKEND_URL"
-        # WSL: open in Windows default browser
-        if command -v powershell.exe &>/dev/null; then
-            powershell.exe Start-Process "$BACKEND_URL" &
-        elif command -v cmd.exe &>/dev/null; then
-            cmd.exe /c start "" "$BACKEND_URL" &
-        elif command -v xdg-open &>/dev/null; then
-            xdg-open "$BACKEND_URL" &
-        elif command -v open &>/dev/null; then
-            open "$BACKEND_URL" &
-        else
-            echo "[Browser] Could not detect a browser opener. Navigate to $BACKEND_URL manually."
+        # Robust browser open, especially for WSL/Linux where Windows exe interop may be partial or broken.
+        # We test execution first to avoid "Exec format error" spam when powershell.exe is in PATH (via /mnt/c)
+        # but the current environment (container, restricted WSL, etc.) can't exec PE binaries.
+        opened=false
+
+        # Prefer cmd.exe for starting URLs in WSL (more reliable than powershell in some interop setups)
+        if command -v cmd.exe &>/dev/null; then
+            if cmd.exe /c "echo %OS%" >/dev/null 2>&1; then
+                (cmd.exe /c start "" "$BACKEND_URL" > /dev/null 2>&1 &)
+                opened=true
+            fi
+        fi
+
+        if ! $opened && command -v powershell.exe &>/dev/null; then
+            if powershell.exe -Command "Write-Host 'interop-test'" >/dev/null 2>&1; then
+                (powershell.exe -Command "Start-Process '$BACKEND_URL'" > /dev/null 2>&1 &)
+                opened=true
+            fi
+        fi
+
+        if ! $opened && command -v xdg-open &>/dev/null; then
+            (xdg-open "$BACKEND_URL" > /dev/null 2>&1 &)
+            opened=true
+        fi
+
+        if ! $opened && command -v open &>/dev/null; then
+            (open "$BACKEND_URL" > /dev/null 2>&1 &)
+            opened=true
+        fi
+
+        if ! $opened; then
+            echo "[Browser] Could not detect a working browser opener (WSL interop may be disabled or this is a restricted env). Navigate to $BACKEND_URL manually."
         fi
     else
         echo "[Browser] Backend did not start in time — skipping auto-open. Navigate to $BACKEND_URL manually."

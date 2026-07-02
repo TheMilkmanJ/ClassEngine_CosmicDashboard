@@ -883,6 +883,47 @@ class ToyCosmoModel:
                 
         return MockResult(raw_chi2, age, sigma8, s8, v0, as_val)
 
+def normalize_prtoe_config(info: dict) -> list:
+    """In-place PRTOE config fixes before Cobaya/CLASS. Returns human-readable change messages."""
+    if not isinstance(info, dict):
+        return []
+    messages = []
+    params = info.setdefault("params", {})
+    if "phi_0_prtoe" in params and "phi_c_prtoe" in params:
+        phi_0 = params.get("phi_0_prtoe")
+        phi_c = params.get("phi_c_prtoe")
+        phi_0_fixed = isinstance(phi_0, dict) and "value" in phi_0 and "prior" not in phi_0
+        phi_c_sampled = isinstance(phi_c, dict) and "prior" in phi_c
+        if phi_0_fixed and not phi_c_sampled:
+            params.pop("phi_c_prtoe", None)
+            messages.append("Removed phi_c_prtoe (mutually exclusive with fixed phi_0_prtoe)")
+        elif phi_c_sampled:
+            params.pop("phi_0_prtoe", None)
+            messages.append("Removed phi_0_prtoe (mutually exclusive with sampled phi_c_prtoe)")
+        else:
+            params.pop("phi_c_prtoe", None)
+            messages.append("Removed phi_c_prtoe (mutually exclusive with phi_0_prtoe)")
+    theory = info.setdefault("theory", {}).setdefault("classy", {})
+    extra = theory.setdefault("extra_args", {})
+    if "base_path" in extra:
+        extra.pop("base_path")
+        messages.append("Removed base_path from theory.classy.extra_args")
+    use_prtoe = str(extra.get("use_prtoe", "")).lower() in ("yes", "true", "1")
+    has_bao = any(str(k).startswith("bao.") for k in (info.get("likelihood") or {}))
+    if use_prtoe or has_bao:
+        class_defaults = {
+            "l_max_scalars": 2508,
+            "lensing": "yes",
+            "z_pk": "0.61 0.51 0.38",
+            "z_max_pk": 2.5,
+            "P_k_max_1/Mpc": 1,
+        }
+        for key, val in class_defaults.items():
+            if key not in extra:
+                extra[key] = val
+                messages.append(f"Set theory.classy.extra_args.{key}={val!r}")
+    return messages
+
 def main():
     if args.test_toy:
         print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Running in --test-toy mode on a fast 4D cosmological likelihood.")
@@ -977,6 +1018,10 @@ def main():
         if not info.get("params") or len(info["params"]) == 0:
             print("Error: 'params' section is empty. At least one parameter must be defined.")
             sys.exit(1)
+
+        for msg in normalize_prtoe_config(info):
+            print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Config fix: {msg}")
+            sys.stdout.flush()
 
         # Load physical constraints from configuration or fall back to default PRTOE ones
         physical_constraints = info.get("physical_constraints")
@@ -1260,10 +1305,27 @@ def main():
             # Output in Cobaya log format (dashboard parser extracts real-time statistics from this pattern)
             print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [model] Computed derived parameters: {log_derived}")
 
+            # Calculate physical sanity penalties & viability score using model-agnostic constraints
+            # If age is not in derived_dict, try to extract it from classy provider
+            if "age" not in derived_dict:
+                try:
+                    derived_dict["age"] = model.theory['classy'].provider.get_param('age')
+                except Exception:
+                    try:
+                        derived_dict["age"] = model.theory['classy'].classy.age()
+                    except Exception:
+                        derived_dict["age"] = 13.8
+
+            total_penalty, viability_score = evaluate_constraints(point, derived_dict, physical_constraints)
+            
+            raw_chi2 = -2.0 * res.loglike
+            chi2_penalized = raw_chi2 + total_penalty
+
             # Periodic lightweight live status for Real-Time Monitor / CosmicForge section.
             # Written atomically to a side file that the dashboard can safely read even while
             # PolyChord holds exclusive locks on its own output files. This + psutil process monitoring
             # = real-time CPU/progress WITHOUT setting off Cobaya tamper alarms or compromising evidence.
+            # NOTE: placed AFTER chi2_penalized etc are defined to avoid UnboundLocalError on %20 evals.
             if eval_count % 20 == 0:
                 try:
                     live_status = {
@@ -1281,22 +1343,6 @@ def main():
                     os.replace(str(tmp), str(live_path))
                 except Exception:
                     pass
-
-            # Calculate physical sanity penalties & viability score using model-agnostic constraints
-            # If age is not in derived_dict, try to extract it from classy provider
-            if "age" not in derived_dict:
-                try:
-                    derived_dict["age"] = model.theory['classy'].provider.get_param('age')
-                except Exception:
-                    try:
-                        derived_dict["age"] = model.theory['classy'].classy.age()
-                    except Exception:
-                        derived_dict["age"] = 13.8
-
-            total_penalty, viability_score = evaluate_constraints(point, derived_dict, physical_constraints)
-            
-            raw_chi2 = -2.0 * res.loglike
-            chi2_penalized = raw_chi2 + total_penalty
 
             if total_penalty > 0.0:
                 print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Physical Sanity Violation detected | Penalty: {total_penalty:.4f} | Viability: {viability_score:.1f}%")
@@ -1338,6 +1384,24 @@ def main():
                     lf.write("  ".join(f"{v:.15E}" for v in row_values) + "\n")
                     
                 print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] New best fit found! Raw Chi2 = {raw_chi2:.4f}, Penalized = {chi2_penalized:.4f}, Viability = {viability_score:.1f}%")
+
+                # Also update the .dashboard_live.json with the best info (for UI to pick best_chi2 even before periodic)
+                try:
+                    live_status = {
+                        "timestamp": time.time(),
+                        "eval_count": eval_count,
+                        "best_chi2_penalized": float(global_best_chi2),
+                        "best_chi2_raw": float(raw_chi2),
+                        "viability": float(viability_score),
+                    }
+                    live_path = Path("chains") / f"{os.path.basename(output_prefix)}.dashboard_live.json"
+                    live_path.parent.mkdir(exist_ok=True)
+                    tmp = live_path.with_suffix(".dashboard_live.json.tmp")
+                    with open(tmp, "w") as lf:
+                        json.dump(live_status, lf)
+                    os.replace(str(tmp), str(live_path))
+                except Exception:
+                    pass
 
                 # NEW: Write a tiny, unlocked side-channel live status for the Real-Time Monitor.
                 # This file is written by the sampler process itself using atomic rename.
@@ -2122,6 +2186,14 @@ def main():
 
     # 2. Compute tension metrics between unique modes
     tension_results = []
+    proposal_floors = {}
+    for _pname, _pdict in info.get("params", {}).items():
+        if isinstance(_pdict, dict) and "proposal" in _pdict:
+            try:
+                proposal_floors[_pname] = float(_pdict["proposal"])
+            except (TypeError, ValueError):
+                pass
+    _TENSION_CAP = 50.0
     if len(unique_modes) >= 2:
         print("\n" + "="*80)
         print(" COSMOLOGICAL PARAMETER TENSION BETWEEN MODES")
@@ -2136,14 +2208,40 @@ def main():
                     val2 = m2["point"][name]
                     err1 = m1["errors"].get(name, 0.0)
                     err2 = m2["errors"].get(name, 0.0)
+                    ess1 = m1.get("ess", {}).get(name, 0.0)
+                    ess2 = m2.get("ess", {}).get(name, 0.0)
+                    unreliable = (
+                        ess1 < getattr(args, "ess_threshold", 100.0)
+                        or ess2 < getattr(args, "ess_threshold", 100.0)
+                        or m1.get("mcmc_acc_rate", 100.0) < 10.0
+                        or m2.get("mcmc_acc_rate", 100.0) < 10.0
+                    )
                     if err1 > 0 and err2 > 0:
-                        tension = abs(val1 - val2) / np.sqrt(err1**2 + err2**2)
-                        print(f"   {name:<15}: {tension:.2f} \u03c3  (|{val1:.4f} - {val2:.4f}| / sqrt({err1:.4f}^2 + {err2:.4f}^2))")
+                        # Short, poorly-mixed MCMC chains can report ~1e-7 errors at a fixed point.
+                        prop = proposal_floors.get(name, 0.0)
+                        err_floor = max(
+                            prop * 0.1,
+                            1e-4 * max(abs(val1), abs(val2), 1.0),
+                            1e-8,
+                        )
+                        eff_err1 = max(err1, err_floor)
+                        eff_err2 = max(err2, err_floor)
+                        tension = abs(val1 - val2) / np.sqrt(eff_err1**2 + eff_err2**2)
+                        display = min(tension, _TENSION_CAP)
+                        note = ""
+                        if tension > _TENSION_CAP or unreliable:
+                            note = " (unreliable: low ESS / capped)"
+                        print(
+                            f"   {name:<15}: {display:.2f} \u03c3{note}"
+                            f"  (|{val1:.4g} - {val2:.4g}|)"
+                        )
                         tension_results.append({
                             "mode1": m1["name"],
                             "mode2": m2["name"],
                             "param": name,
-                            "value": float(tension)
+                            "value": float(display),
+                            "raw_sigma": float(tension),
+                            "unreliable": bool(unreliable or tension > _TENSION_CAP),
                         })
                     else:
                         print(f"   {name:<15}: N/A (undefined errors)")
@@ -2413,6 +2511,12 @@ def main():
                 "unphysical_fraction": float(um.get('unphysical_fraction', 0.0)),
             }
             summary['modes'].append(mode_entry)
+
+        # Ensure best_chi2 is set even if no "valid" (non-penalized) point was found; use min penalized from modes
+        if summary.get("best_chi2") is None and summary.get("modes"):
+            pens = [m.get("penalized_chi2") for m in summary["modes"] if isinstance(m.get("penalized_chi2"), (int, float))]
+            if pens:
+                summary["best_chi2"] = min(pens)
 
         summary_path = f"{output_prefix}.summary.json"
         with open(summary_path, 'w') as sf:

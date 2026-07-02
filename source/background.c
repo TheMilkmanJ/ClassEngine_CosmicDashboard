@@ -153,10 +153,11 @@ static double prtoe_covariant_trans(double rho_phi, double rho_r) {
 }
 
 /** Total radiation density for covariant PRTOE activation (matches background rho_r budget). */
-static double prtoe_activation_rho_r(struct background *pba,
-                                     double a,
-                                     double *pvecback,
-                                     ErrorMsg error_message) {
+static int prtoe_activation_rho_r(struct background *pba,
+                                   double a,
+                                   double *pvecback,
+                                   double *rho_r_out,
+                                   ErrorMsg error_message) {
   double rho_r = pba->Omega0_g * pow(pba->H0, 2) / pow(a, 4);
   if (pba->has_dr == _TRUE_ && pba->index_bg_rho_dr >= 0) {
     rho_r += pvecback[pba->index_bg_rho_dr];
@@ -188,7 +189,8 @@ static double prtoe_activation_rho_r(struct background *pba,
       rho_r += 3. * p_ncdm;
     }
   }
-  return rho_r;
+  *rho_r_out = rho_r;
+  return _SUCCESS_;
 }
 
 /**
@@ -738,7 +740,9 @@ int background_functions(
     /* === Covariant Activation: rho_phi / total radiation budget === */
     double phi_dot_bg = phi_prime / a;
     double rho_phi_candidate = 0.5 * phi_dot_bg * phi_dot_bg + V;
-    double rho_r_bg = prtoe_activation_rho_r(pba, a, pvecback, pba->error_message);
+    double rho_r_bg;
+    class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_bg, pba->error_message),
+               pba->error_message, pba->error_message);
     double trans = prtoe_covariant_trans(rho_phi_candidate, rho_r_bg);
 
     /* Pre-compute rho_prtoe and p_prtoe for Friedmann equation (smooth activation) */
@@ -964,7 +968,9 @@ int background_functions(
     /* Covariant activation (same radiation budget as first PRTOE block) */
     double phi_dot_here = phi_prime / a;
     double rho_phi_here = 0.5 * phi_dot_here * phi_dot_here + V;
-    double rho_r_here = prtoe_activation_rho_r(pba, a, pvecback, pba->error_message);
+    double rho_r_here;
+    class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_here, pba->error_message),
+               pba->error_message, pba->error_message);
     double trans = prtoe_covariant_trans(rho_phi_here, rho_r_here);
 
     {
@@ -1042,7 +1048,9 @@ int background_functions(
     double V_p, V_phi_p, V_pp_p;
     background_prtoe_potential(pba, phi_prtoe, &V_p, &V_phi_p, &V_pp_p);
     double phi_dot_p = phi_prime_prtoe / a;
-    double rho_r_p = prtoe_activation_rho_r(pba, a, pvecback, pba->error_message);
+    double rho_r_p;
+    class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_p, pba->error_message),
+               pba->error_message, pba->error_message);
     double trans_p = prtoe_covariant_trans(0.5 * phi_dot_p * phi_dot_p + V_p, rho_r_p);
     double trans_eom_p = trans_p * ((pba->de_mode == prtoe_active) ? 1.0 : 0.0);
     double p_prime_prtoe = trans_eom_p * phi_prime_prtoe
@@ -3549,7 +3557,9 @@ int background_derivs(
     double V_act = pba->V0_prtoe * exp_term_act + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
     double rho_phi_candidate = 0.5 * phi_dot2 + V_act;
     
-    double rho_r = prtoe_activation_rho_r(pba, a, pvecback, error_message);
+    double rho_r;
+    class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r, error_message),
+               error_message, error_message);
     double trans = prtoe_covariant_trans(rho_phi_candidate, rho_r);
 
     /* === PHASE 5: Unified Dark Energy Mode Scaling ===
@@ -3864,7 +3874,7 @@ int background_output_budget(
     if ((pba->has_lambda == _TRUE_) || (pba->has_fld == _TRUE_) || (pba->has_scf == _TRUE_) || (pba->has_curvature == _TRUE_)) {
       printf(" ---> Other Content \n");
     }
-    if ((pba->has_lambda == _TRUE_) && (prtoe_is_physically_active(pba) == _FALSE_)) {
+    if ((pba->has_lambda == _TRUE_) && (prtoe_is_physically_active(pba) == _FALSE_) && pba->de_mode != prtoe_active) {
       class_print_species("Cosmological Constant",lambda);
       budget_other+=pba->Omega0_lambda;
     }
@@ -3879,7 +3889,7 @@ int background_output_budget(
       class_print_species("Dark Energy Fluid",fld);
       budget_other+=pba->Omega0_fld;
     }
-    if (pba->has_scf == _TRUE_) {
+    if (pba->has_scf == _TRUE_ && !prtoe_is_physically_active(pba)) {
       class_print_species("Scalar Field",scf);
       budget_other+=pba->Omega0_scf;
     }

@@ -30,9 +30,27 @@
 
 /* Guard against multi-million tau grids (e.g. a_ini=1e-18) blowing RAM / int indices */
 #define _PERTURBATIONS_MAX_TAU_SAMPLING_ 300000
-/* When the adaptive counter hits the cap before covering most of conformal time,
-   rebuild a modest log-spaced grid instead of allocating k*tau sources at full cap. */
-#define _PERTURBATIONS_COARSE_TAU_SAMPLING_ 12000
+/* Back off adaptive stepsize instead of replacing the grid when the cap is hit early */
+#define _PERTURBATIONS_TAU_CAP_MAX_RETRIES_ 6
+#define _PERTURBATIONS_TAU_CAP_BACKOFF_FACTOR_ 2.0
+/* Cap inverse timescale so PRTOE early-time rates cannot force sub-physical dtau steps */
+#define _PERTURBATIONS_MAX_INVERSE_TIMESCALE_ 1.e7
+
+static double perturbations_effective_dtau(
+    double sampling_stepsize,
+    double inverse_timescale_source,
+    double conformal_age) {
+  double dtau;
+  const double dtau_min = conformal_age / (0.45 * (double)_PERTURBATIONS_MAX_TAU_SAMPLING_);
+  if (inverse_timescale_source > _PERTURBATIONS_MAX_INVERSE_TIMESCALE_) {
+    inverse_timescale_source = _PERTURBATIONS_MAX_INVERSE_TIMESCALE_;
+  }
+  dtau = sampling_stepsize * inverse_timescale_source;
+  if (dtau < dtau_min) {
+    dtau = dtau_min;
+  }
+  return dtau;
+}
 
 /**
  * PRTOE helper function: Compute delta_F and derivatives for perturbation equations
@@ -143,7 +161,7 @@ static inline int prtoe_metric_ic_active(
     struct background *pba,
     struct perturbations_workspace *ppw)
 {
-  if (pba->use_prtoe != _TRUE_ || ppw->pv->index_pt_delta_prtoe < 0)
+  if (pba->use_prtoe != _TRUE_ || pba->index_bg_rho_prtoe < 0 || ppw->pv->index_pt_delta_prtoe < 0)
     return _FALSE_;
   double rho_prtoe = ppw->pvecback[pba->index_bg_rho_prtoe];
   return (pba->de_mode == prtoe_active
@@ -1855,8 +1873,9 @@ int perturbations_timesampling_for_sources(
   double * pvecback;
   double * pvecthermo;
 
-  short tau_cap_hit_early = _FALSE_;
-  double tau_at_cap = 0.;
+  double tau_sampling_stepsize;
+  int tau_cap_retries;
+  short tau_grid_allocated;
 
   /** - allocate background/thermodynamics vectors */
 
@@ -2075,6 +2094,12 @@ int perturbations_timesampling_for_sources(
       timescale_source = 1/aH; repeat till today.
   */
 
+  tau_sampling_stepsize = ppr->perturbations_sampling_stepsize;
+  tau_cap_retries = 0;
+  tau_grid_allocated = _FALSE_;
+
+ perturbations_tau_count_phase:
+
   counter = 1;
   last_index_back = first_index_back;
   last_index_thermo = first_index_thermo;
@@ -2141,7 +2166,9 @@ int perturbations_timesampling_for_sources(
     }
 
     {
-      double dtau_step = ppr->perturbations_sampling_stepsize*timescale_source;
+      double dtau_step = perturbations_effective_dtau(tau_sampling_stepsize,
+                                                      timescale_source,
+                                                      pba->conformal_age);
       if ((fabs(dtau_step) < ppr->smallest_allowed_variation) ||
           (tau > 0. && fabs(dtau_step/tau) < ppr->smallest_allowed_variation)) {
         break;
@@ -2151,14 +2178,29 @@ int perturbations_timesampling_for_sources(
     counter++;
 
     if (counter >= _PERTURBATIONS_MAX_TAU_SAMPLING_) {
-      tau_at_cap = tau;
-      if (tau < 0.25 * pba->conformal_age) {
-        tau_cap_hit_early = _TRUE_;
+      if (tau_cap_retries >= _PERTURBATIONS_TAU_CAP_MAX_RETRIES_) {
+        class_test(1,
+                   ppt->error_message,
+                   "perturbations tau sampling exceeded cap %d at tau=%e (conformal_age=%e) after %d step-size backoff retries; increase 'perturbations_sampling_stepsize' or check PRTOE early-time thermodynamics",
+                   _PERTURBATIONS_MAX_TAU_SAMPLING_,
+                   tau,
+                   pba->conformal_age,
+                   _PERTURBATIONS_TAU_CAP_MAX_RETRIES_);
       }
+      tau_cap_retries++;
+      tau_sampling_stepsize *= _PERTURBATIONS_TAU_CAP_BACKOFF_FACTOR_;
       fprintf(stderr,
-              "WARNING: perturbations tau sampling hit cap %d at tau=%e; coarsening remaining grid.\n",
-              _PERTURBATIONS_MAX_TAU_SAMPLING_, tau);
-      break;
+              "WARNING: perturbations tau sampling hit cap %d at tau=%e; increasing stepsize to %e (retry %d/%d)\n",
+              _PERTURBATIONS_MAX_TAU_SAMPLING_,
+              tau,
+              tau_sampling_stepsize,
+              tau_cap_retries,
+              _PERTURBATIONS_TAU_CAP_MAX_RETRIES_);
+      if (tau_grid_allocated == _TRUE_) {
+        free(ppt->tau_sampling);
+        tau_grid_allocated = _FALSE_;
+      }
+      goto perturbations_tau_count_phase;
     }
 
   }
@@ -2166,40 +2208,14 @@ int perturbations_timesampling_for_sources(
   /** - --> infer total number of time steps, ppt->tau_size */
   ppt->tau_size = counter;
 
-  if (tau_cap_hit_early == _TRUE_) {
-    const int coarse_n = _PERTURBATIONS_COARSE_TAU_SAMPLING_;
-    double log_tau_ini;
-    double log_tau_end;
-    int index_coarse;
-
-    if (tau_ini <= 0.) {
-      tau_ini = pba->conformal_age * 1e-8;
-      if (tau_at_cap > tau_ini) {
-        tau_ini = tau_at_cap * 1e-3;
-      }
-    }
-
-    ppt->tau_size = coarse_n + 1;
-    class_alloc(ppt->tau_sampling,ppt->tau_size * sizeof(double),ppt->error_message);
-
-    log_tau_ini = log(tau_ini);
-    log_tau_end = log(pba->conformal_age);
-    for (index_coarse = 0; index_coarse <= coarse_n; index_coarse++) {
-      double frac = (double)index_coarse / (double)coarse_n;
-      ppt->tau_sampling[index_coarse] = exp(log_tau_ini + frac * (log_tau_end - log_tau_ini));
-    }
-
-    fprintf(stderr,
-            "WARNING: rebuilt log-spaced tau grid (%d points) after early cap at tau=%e (conformal_age=%e).\n",
-            ppt->tau_size, tau_at_cap, pba->conformal_age);
-
-    free(pvecback);
-    free(pvecthermo);
-    goto perturbations_tau_sampling_allocate_sources;
+  if (tau_grid_allocated == _TRUE_) {
+    free(ppt->tau_sampling);
+    tau_grid_allocated = _FALSE_;
   }
 
   /** - --> allocate array of time steps, ppt->tau_sampling[index_tau] */
   class_alloc(ppt->tau_sampling,ppt->tau_size * sizeof(double),ppt->error_message);
+  tau_grid_allocated = _TRUE_;
 
   /** - --> repeat the same steps, now filling the array with each tau value: */
 
@@ -2208,12 +2224,7 @@ int perturbations_timesampling_for_sources(
   counter = 0;
   ppt->tau_sampling[counter]=tau_ini;
 
-  /** - --> (b.2.) next sampling point = previous + ppr->perturbations_sampling_stepsize * timescale_source, where
-      timescale_source1 = \f$ |g/\dot{g}| = |\dot{\kappa}-\ddot{\kappa}/\dot{\kappa}|^{-1} \f$;
-      timescale_source2 = \f$ |2\ddot{a}/a-(\dot{a}/a)^2|^{-1/2} \f$ (to sample correctly the late ISW effect; and
-      timescale_source=1/(1/timescale_source1+1/timescale_source2); repeat till today.
-      If CMB not requested:
-      timescale_source = 1/aH; repeat till today.  */
+  /** - --> (b.2.) next sampling point = previous + perturbations_sampling_stepsize * timescale_source */
 
   last_index_back = first_index_back;
   last_index_thermo = first_index_thermo;
@@ -2268,17 +2279,14 @@ int perturbations_timesampling_for_sources(
     /* compute inverse rate */
     timescale_source = 1./timescale_source;
 
-    /* added in v3.2.2: age fraction (between 0 and 1 ) such that,
-       when tau > conformal_age * age_fraction, the time sampling of
-       sources is twice finer, in order to boost the accuracy of the
-       lensing line-of-sight integrals without changing that of
-       unlensed CMB observables */
     if (tau > pba->conformal_age * ppr->perturbations_sampling_boost_above_age_fraction) {
       timescale_source /= 2.;
     }
 
     {
-      double dtau_step = ppr->perturbations_sampling_stepsize*timescale_source;
+      double dtau_step = perturbations_effective_dtau(tau_sampling_stepsize,
+                                                      timescale_source,
+                                                      pba->conformal_age);
       if ((fabs(dtau_step) < ppr->smallest_allowed_variation) ||
           (tau > 0. && fabs(dtau_step/tau) < ppr->smallest_allowed_variation)) {
         break;
@@ -2289,37 +2297,27 @@ int perturbations_timesampling_for_sources(
     ppt->tau_sampling[counter]=tau;
 
     if (counter >= _PERTURBATIONS_MAX_TAU_SAMPLING_) {
-      tau_at_cap = tau;
-      fprintf(stderr,
-              "WARNING: perturbations tau fill hit cap %d at tau=%e; jumping to conformal_age.\n",
-              _PERTURBATIONS_MAX_TAU_SAMPLING_, tau);
-      if (tau < 0.25 * pba->conformal_age) {
-        const int coarse_n = _PERTURBATIONS_COARSE_TAU_SAMPLING_;
-        double log_tau_ini;
-        double log_tau_end;
-        int index_coarse;
-
-        tau_cap_hit_early = _TRUE_;
-        free(ppt->tau_sampling);
-        if (tau_ini <= 0.) {
-          tau_ini = pba->conformal_age * 1e-8;
-        }
-        ppt->tau_size = coarse_n + 1;
-        class_alloc(ppt->tau_sampling,ppt->tau_size * sizeof(double),ppt->error_message);
-        log_tau_ini = log(tau_ini);
-        log_tau_end = log(pba->conformal_age);
-        for (index_coarse = 0; index_coarse <= coarse_n; index_coarse++) {
-          double frac = (double)index_coarse / (double)coarse_n;
-          ppt->tau_sampling[index_coarse] = exp(log_tau_ini + frac * (log_tau_end - log_tau_ini));
-        }
-        fprintf(stderr,
-                "WARNING: rebuilt log-spaced tau grid (%d points) after fill cap at tau=%e (conformal_age=%e).\n",
-                ppt->tau_size, tau_at_cap, pba->conformal_age);
-        free(pvecback);
-        free(pvecthermo);
-        goto perturbations_tau_sampling_allocate_sources;
+      if (tau_cap_retries >= _PERTURBATIONS_TAU_CAP_MAX_RETRIES_) {
+        class_test(1,
+                   ppt->error_message,
+                   "perturbations tau fill exceeded cap %d at tau=%e (conformal_age=%e) after %d step-size backoff retries; increase 'perturbations_sampling_stepsize' or check PRTOE early-time thermodynamics",
+                   _PERTURBATIONS_MAX_TAU_SAMPLING_,
+                   tau,
+                   pba->conformal_age,
+                   _PERTURBATIONS_TAU_CAP_MAX_RETRIES_);
       }
-      break;
+      tau_cap_retries++;
+      tau_sampling_stepsize *= _PERTURBATIONS_TAU_CAP_BACKOFF_FACTOR_;
+      fprintf(stderr,
+              "WARNING: perturbations tau fill hit cap %d at tau=%e; increasing stepsize to %e (retry %d/%d)\n",
+              _PERTURBATIONS_MAX_TAU_SAMPLING_,
+              tau,
+              tau_sampling_stepsize,
+              tau_cap_retries,
+              _PERTURBATIONS_TAU_CAP_MAX_RETRIES_);
+      free(ppt->tau_sampling);
+      tau_grid_allocated = _FALSE_;
+      goto perturbations_tau_count_phase;
     }
 
   }
@@ -6969,6 +6967,53 @@ int perturbations_timescale(
 
         *timescale = MIN(tau_c,*timescale);
 
+      }
+    }
+
+    /** - Add PRTOE field timescale when PRTOE is active (fixes stiffness in field perturbations) */
+    if (pba->de_mode == prtoe_active && pba->index_bg_rho_prtoe >= 0 && ppw->pv->index_pt_delta_prtoe >= 0) {
+
+      double a = pvecback[pba->index_bg_a];
+      double a2 = a * a;
+      double k2 = pppaw->k * pppaw->k;
+      double H = pvecback[pba->index_bg_H];
+      double H_prime = pvecback[pba->index_bg_H_prime];
+      double rho_prtoe_bg = pvecback[pba->index_bg_rho_prtoe];
+
+      if (prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_bg)) {
+
+        /* Load PRTOE background quantities */
+        double phi = pvecback[pba->index_bg_phi_prtoe];
+        double dphi = pvecback[pba->index_bg_dphi_prtoe];
+        double F = pvecback[pba->index_bg_F_prtoe];
+        double F_phi = pvecback[pba->index_bg_F_phi_prtoe];
+        double F_phiphi = pvecback[pba->index_bg_F_phiphi_prtoe];
+
+        /* Compute V_phiphi from PRTOE potential V(φ) = V0*exp(-λφ) + (m²/2)φ² */
+        double exp_term = exp(-pba->lambda_prtoe * phi);
+        double V_phiphi = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe;
+
+        double phi_dot = dphi / a;
+
+        /* Compute R_stable = 3H'/a + K/a² - H² */
+        double R_stable = 3.0 * H_prime / a + pba->K / a2 - H * H;
+
+        /* Effective mass squared: m_eff² = V_phiphi/F + screening corrections */
+        double m_eff2 = V_phiphi / F;
+
+        /* Add high-derivative (DHOST) screening correction for k² dependence */
+        double beta_screened = pba->beta_prtoe / (1.0 + phi * phi);
+        /* High-k correction: adds k²β/M_ew² to effective mass, making the mode stiffer at large k */
+        if (rho_prtoe_bg > 1e-30) {
+          double beta_k2_correction = (beta_screened * phi * R_stable * k2) / (pba->M_ew_prtoe * pba->M_ew_prtoe * a2);
+          m_eff2 += fabs(beta_k2_correction);  /* Use abs to ensure positive contribution to stiffness */
+        }
+
+        if (m_eff2 > 0.0 && isfinite(m_eff2)) {
+          /* Field oscillation timescale: τ_φ = 1/√m_eff² */
+          double tau_phi = 1.0 / sqrt(m_eff2);
+          *timescale = MIN(tau_phi, *timescale);
+        }
       }
     }
 

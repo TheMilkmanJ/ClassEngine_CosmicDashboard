@@ -3533,6 +3533,7 @@ int input_read_parameters_species(struct file_content * pfc,
         }
         pba->Omega0_lambda = 0.0;  /* Remove Lambda */
         pba->has_lambda = _FALSE_;
+        pba->de_mode = prtoe_active;  /* Synchronize de_mode after budget reassignment */
         pba->prtoe_explicit_null_de = _FALSE_;
     } else {
         /* Null limit or PRTOE off → use Lambda */
