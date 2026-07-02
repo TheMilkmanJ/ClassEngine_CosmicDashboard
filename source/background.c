@@ -999,7 +999,12 @@ int background_functions(
         pvecback[pba->index_bg_F_ddot_prtoe] = F_ddot;
 
         if (F > 1e-30 && trans_eom > 1e-8) {
-            H_dot = -(phi_dot * phi_dot * trans_eom + F_ddot - H * F_dot_eom) / (2.0 * F);
+            /* Use a combined expression that preserves the total-source term
+               and adds FR-type corrections from F_ddot/F while avoiding
+               scalar-only overwrites of H'. */
+            H_dot = - (3.0/2.0) * (rho_tot + p_tot) / F
+                    - 0.5 * (F_ddot - H * F_dot_eom) / F
+                    + pba->K / (a*a);
             pvecback[pba->index_bg_H_prime] = a * H_dot;
         } else {
             pvecback[pba->index_bg_H_prime] = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a;
@@ -1056,6 +1061,11 @@ int background_functions(
     double p_prime_prtoe = trans_eom_p * phi_prime_prtoe
       * (-phi_prime_prtoe * H_bg / a - 2. / 3. * V_phi_p);
     pvecback[pba->index_bg_p_tot_prime] += p_prime_prtoe;
+    /* Also populate SCF-compatible p_prime slot when allocated to avoid
+       uninitialized reads in background splines. */
+    if (pba->has_scf == _TRUE_ && pba->index_bg_p_prime_scf >= 0) {
+      pvecback[pba->index_bg_p_prime_scf] = p_prime_prtoe;
+    }
   }
 
   /** - compute critical density */

@@ -34,12 +34,20 @@ likelihood:
   planck_2018_lowl.TT: null
   planck_2018_lowl.EE: null
   planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_highl_plik.TT: null
   planck_2018_lensing.clik: null
+  act_dr6.TTTEEE_lite: null
+  bicep_keck_2018.bicep_keck_2018: null
   bao.sixdf_2011_bao: null
   bao.sdss_dr7_mgs: null
   bao.sdss_dr12_consensus_final: null
   bao.desi_2024_bao_all: null
+  bao.desi_2024_bao_lya: null
+  bao.desi_2024_eboss_bao_lya: null
   sn.pantheonplusshoes: null
+  des_y1.joint: null
+  des_y1.shear: null
+  H0.riess2020: null
 
 params:
   omega_b:

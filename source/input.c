@@ -3214,13 +3214,20 @@ int input_read_parameters_species(struct file_content * pfc,
       Omega_0_lambda (cosmological constant), Omega0_fld (dark energy
       fluid), Omega0_scf (scalar field) */
   /* Read */
+  double param_lambda_alias;
+  int flag_lambda_alias;
   class_call(parser_read_double(pfc,"Omega_Lambda",&param1,&flag1,errmsg),
              errmsg,
              errmsg);
-  if (flag1 == _FALSE_) {
-    class_call(parser_read_double(pfc,"Omega_lambda",&param1,&flag1,errmsg),
-               errmsg,
-               errmsg);
+  class_call(parser_read_double(pfc,"Omega_lambda",&param_lambda_alias,&flag_lambda_alias,errmsg),
+             errmsg,
+             errmsg);
+  class_test((flag1 == _TRUE_) && (flag_lambda_alias == _TRUE_),
+             errmsg,
+             "You can only enter one of 'Omega_Lambda' or 'Omega_lambda'.");
+  if (flag_lambda_alias == _TRUE_) {
+    param1 = param_lambda_alias;
+    flag1 = _TRUE_;
   }
   class_call(parser_read_double(pfc,"Omega_fld",&param2,&flag2,errmsg),
              errmsg,
@@ -3483,14 +3490,18 @@ int input_read_parameters_species(struct file_content * pfc,
   class_read_double_one_of_two("phi_c_prtoe", "phi_0_prtoe", pba->phi_c_prtoe);
   class_read_double("delta_phi_prtoe", pba->delta_phi_prtoe);
   class_read_double("zeta_prtoe",     pba->zeta_prtoe);
-  if (flag_omega0_prtoe == _TRUE_) {
+  if (pba->use_prtoe == _FALSE_) {
+    class_test((flag_omega0_prtoe == _TRUE_) && (param_omega0_prtoe != 0.0),
+               errmsg,
+               "Omega0_prtoe requires use_prtoe = yes.");
+    pba->Omega0_prtoe = 0.0;
+    pba->prtoe_explicit_null_de = _FALSE_;
+  }
+  else if (flag_omega0_prtoe == _TRUE_) {
     pba->Omega0_prtoe = param_omega0_prtoe;
     if (param_omega0_prtoe == 0.0) {
       pba->prtoe_explicit_null_de = _TRUE_;
     }
-  }
-  else {
-    class_read_double("Omega0_prtoe", pba->Omega0_prtoe);
   }
 
   if (pba->use_prtoe == _TRUE_) {
@@ -3508,6 +3519,9 @@ int input_read_parameters_species(struct file_content * pfc,
      * For null limit tests, xi can be very small (even 0).
      * The strict DHOST Stability Wedge boundary is [1e-7, 1.2e-5] for active PRTOE,
      * but we allow xi < 1e-7 for null limit validation. */
+    class_test(pba->xi_prtoe < 0.0,
+               errmsg,
+               "PRTOE xi parameter must be non-negative; use xi_prtoe = 0 for null-limit tests.");
     class_test(pba->xi_prtoe > 1.2e-5,
                errmsg,
                "PRTOE xi parameter %e exceeds the upper bound of the DHOST Stability Wedge [1e-7, 1.2e-5]",
@@ -3523,6 +3537,13 @@ int input_read_parameters_species(struct file_content * pfc,
     if (pba->use_prtoe == _TRUE_ &&
         pba->xi_prtoe >= 1e-7 &&
         ((flag_omega0_prtoe == _FALSE_) || (pba->Omega0_prtoe > 0.0))) {
+        /* If user supplied an explicit Omega0_prtoe and also provided an explicit Omega_Lambda, reject. */
+        class_test((flag_omega0_prtoe == _TRUE_) &&
+                   (pba->Omega0_prtoe > 0.0) &&
+                   (flag1 == _TRUE_) &&
+                   (pba->Omega0_lambda != 0.0),
+                   errmsg,
+                   "When active PRTOE has explicit Omega0_prtoe, Omega_Lambda must be omitted or set to zero because PRTOE replaces Lambda.");
         /* PRTOE is active → it provides the dark energy */
         if (flag_omega0_prtoe == _FALSE_) {
             class_test(pba->Omega0_lambda <= 0.0,
