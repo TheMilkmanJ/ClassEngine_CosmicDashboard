@@ -155,6 +155,10 @@ struct background
   /* Canonical PRTOE parameters with *_prtoe suffix (screened triplet & potential) */
   /* Legacy names (prtoe_xi, prtoe_beta, etc.) removed entirely */
   short use_prtoe;
+  short prtoe_ablate_gates; /**< Diagnostic flag: force covariant activation gates to 1
+                                 (field evolves ungated from a_ini, frozen only by its own
+                                 Hubble friction). Used to test whether the (rho_phi/rho_r)
+                                 activation machinery actually changes observables. */
   double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
 
   /* Indices for the PRTOE background storage in table (index_bg) */
@@ -764,27 +768,71 @@ static inline double prtoe_environmental_screening_at_rho_kg_m3(struct backgroun
     return MAX(0.0, MIN(1.0, S_env));
 }
 
+/** dF/dphi for F(phi) = 1 + xi_eff(phi) * A(phi):
+ *  xi_eff = xi phi^2/(1+zeta phi^2)  =>  xi_eff' = 2 xi phi / (1+zeta phi^2)^2
+ *  A = (1 + tanh((phi-phi_c)/dphi))/2  =>  A' = sech^2(u) / (2 dphi)          */
+static inline double prtoe_F_phi_of_phi(struct background *pba, double phi) {
+    double zphi2 = 1.0 + pba->zeta_prtoe * phi * phi;
+    double xi_eff = pba->xi_prtoe * phi * phi / zphi2;
+    double xi_eff_p = 2.0 * pba->xi_prtoe * phi / (zphi2 * zphi2);
+    double dphi_w = MAX(pba->delta_phi_prtoe, 1e-30);
+    double u = (phi - pba->phi_c_prtoe) / dphi_w;
+    double tanh_u = tanh(u);
+    double A = 0.5 * (1.0 + tanh_u);
+    double A_p = (1.0 - tanh_u * tanh_u) / (2.0 * dphi_w);
+    return xi_eff_p * A + xi_eff * A_p;
+}
+
 /**
- * Equilibrium field value at matter density rho [kg/m^3].
- * Displacement: phi ~ gamma ln(rho/rho0), chameleon: suppressed at high rho.
+ * Equilibrium field value at matter density rho [kg/m^3], DERIVED from the
+ * effective potential rather than parameterized.
+ *
+ * For F(phi) R gravity the scalar EOM in a static Newtonian environment is
+ *   box(phi) = V_phi(phi) - (F_phi/2) R,   with  R ~ 8 pi G rho = 3 rho_class
+ * (CLASS units: rho_class = 8 pi G rho / 3, Mpc^-2). The chameleon minimum
+ * solves
+ *   g(phi) = V_phi(phi) - (3/2) F_phi(phi) rho_class = 0.
+ * Stabilization at large phi comes from the Vainshtein saturation of
+ * xi_eff -> xi/zeta (F_phi -> 0) while V_phi -> m^2 phi grows, so for m > 0
+ * a root exists; we find it by log-scan + bisection. If no sign change is
+ * bracketed (e.g. m = 0), the field is unstabilized in this environment and
+ * we return the upper bound: the caller's G_eff then reflects the saturated
+ * (maximally coupled) value — the conservative choice for a bounds check.
  */
 static inline double prtoe_phi_at_matter_density_kg_m3(struct background *pba,
                                                       double rho_kg_m3) {
-    double rho0 = MAX(pba->rho0_prtoe, 1e-30);
-    double ratio = MAX(rho_kg_m3 / rho0, 1e-30);
-    double phi_disp = 0.0;
-    if (pba->gamma_prtoe > 0.0) {
-        phi_disp = pba->gamma_prtoe * log(ratio);
+    /* kg/m^3 -> CLASS density units (inverse of prtoe_rho_class_to_kg_m3 at a=1) */
+    double rho_class = rho_kg_m3 / (1.8788e-26 * MAX(pba->h * pba->h, 1e-30))
+                       * pba->H0 * pba->H0;
+
+    const double PHI_LO = 0.0, PHI_HI = 1.0e8;
+
+#define _PRTOE_G_OF_PHI(phi_) \
+    ( -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * MIN(phi_, 700.0/MAX(pba->lambda_prtoe,1e-30))) \
+      + pba->m_prtoe * pba->m_prtoe * (phi_) \
+      - 1.5 * prtoe_F_phi_of_phi(pba, (phi_)) * rho_class )
+
+    /* log-scan for a sign change */
+    double lo = PHI_LO, hi = PHI_HI;
+    double g_lo = _PRTOE_G_OF_PHI(lo);
+    if (g_lo >= 0.0) return 0.0;      /* already stabilized at the origin */
+    double bracket = -1.0;
+    double phi_scan = 1e-12;
+    while (phi_scan <= PHI_HI) {
+        if (_PRTOE_G_OF_PHI(phi_scan) > 0.0) { bracket = phi_scan; break; }
+        phi_scan *= 10.0;
     }
-    double phi_cham = phi_disp / (1.0 + pow(ratio, MAX(pba->gamma_prtoe, 1e-3)));
-    if (pba->sigma_prtoe > 0.0 && rho_kg_m3 > 0.0) {
-        double exp_term = exp(-pba->lambda_prtoe * phi_cham);
-        double V_phi = -pba->lambda_prtoe * pba->V0_prtoe * exp_term
-                     + pba->m_prtoe * pba->m_prtoe * phi_cham;
-        double target = pba->sigma_prtoe * rho_kg_m3 * 1e-10;
-        phi_cham *= exp(-fabs(V_phi) / MAX(fabs(target), 1e-30));
+    if (bracket < 0.0) return PHI_HI; /* no minimum: unstabilized (see docstring) */
+    hi = bracket;
+    lo = bracket / 10.0 < 1e-12 ? 0.0 : bracket / 10.0;
+
+    for (int it = 0; it < 200; it++) {
+        double mid = 0.5 * (lo + hi);
+        if (_PRTOE_G_OF_PHI(mid) < 0.0) lo = mid; else hi = mid;
+        if (hi - lo < 1e-12 * MAX(hi, 1.0)) break;
     }
-    return phi_cham;
+#undef _PRTOE_G_OF_PHI
+    return 0.5 * (lo + hi);
 }
 
 /** xi_eff with Vainshtein S(phi) and environmental S_env(rho). */

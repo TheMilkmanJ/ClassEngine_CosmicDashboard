@@ -602,8 +602,8 @@ int perturbations_output_data_at_z(
                ppt->error_message);
 
     class_test(log(tau) < ppt->ln_tau[0],
-               "Asking sources at a z bigger than z_max_pk, something probably went wrong",
-               ppt->error_message);
+               ppt->error_message,
+               "Asking sources at a z bigger than z_max_pk, something probably went wrong");
 
     class_alloc(pvecsources,
                 ppt->k_size[index_md]*sizeof(double),
@@ -4388,8 +4388,13 @@ int perturbations_vector_init(
     class_define_index(ppv->index_pt_phi_scf,pba->has_scf && pba->use_prtoe == _FALSE_,index_pt,1); /* scalar field density */
     class_define_index(ppv->index_pt_phi_prime_scf,pba->has_scf && pba->use_prtoe == _FALSE_,index_pt,1); /* scalar field velocity */
 
-    /* PRTOE scalar field perturbations */
-    if (pba->use_prtoe == _TRUE_) {
+    /* PRTOE scalar field perturbations.
+       Gate on prtoe_is_physically_active() — the SAME predicate that gates the
+       prtoe_perturbations_derivs() call in perturbations_derivs(). If we
+       allocated on use_prtoe alone, a null-limit run (use_prtoe=yes, PRTOE
+       inactive) would carry two state variables whose derivatives are never
+       written, feeding uninitialized memory to the evolver and stalling it. */
+    if (prtoe_is_physically_active(pba)) {
       /* Allocate field state even before covariant activation so the frozen
          phase can evolve into the active phase without resizing the vector.
          NOTE: Only delta_prtoe and ddelta_prtoe (field and velocity).
@@ -4414,7 +4419,7 @@ int perturbations_vector_init(
       ppv->index_pt_phi_scf = -1;
       ppv->index_pt_phi_prime_scf = -1;
     } else {
-      /* PRTOE disabled: all PRTOE indices are invalid */
+      /* PRTOE disabled or physically inactive (null limit): all PRTOE indices invalid */
       ppv->index_pt_delta_phi = -1;
       ppv->index_pt_ddelta_phi = -1;
       ppv->index_pt_delta_prtoe = -1;
@@ -7006,7 +7011,7 @@ int perturbations_timescale(
         double V_phiphi = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe;
         double phi_dot = dphi / a;
         double R_stable = 3.0 * H_prime / a + pba->K / a2 - H * H;
-        
+         
         /* Use the same full effective mass stiffness as the RHS evolution to ensure
            the timestep limiter captures all coupling terms. */
         class_test(F <= 0.0 || !isfinite(F),
@@ -7016,9 +7021,22 @@ int perturbations_timescale(
         double m_eff2 = prtoe_compute_meff2(V_phiphi, F, F_phi, F_phiphi,
                                             H, H_prime, a, pba->K, phi_dot);
 
-        if (isfinite(m_eff2) && m_eff2 != 0.0) {
-          /* Use |m_eff²| so tachyonic windows still constrain the step size. */
-          double tau_phi = 1.0 / sqrt(fabs(m_eff2));
+        /* Include high-k stiffness from beta coupling (same as in RHS evolution) */
+        double beta_k2_term = 0.0;
+        if (prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_bg)) {
+          double beta_screened = pba->beta_prtoe / (1.0 + phi*phi);
+          double k2 = pppaw->k * pppaw->k;
+          beta_k2_term = - (beta_screened * phi * R_stable * k2)
+                         / (pba->M_ew_prtoe * pba->M_ew_prtoe * a2);
+        }
+
+        double m_eff2_total = m_eff2 + beta_k2_term;
+        if (isfinite(m_eff2_total) && m_eff2_total != 0.0) {
+          /* m_eff² is a PHYSICAL frequency²; the integrator steps in conformal
+             time, where the oscillation frequency² is a²·m_eff² (matching the
+             a²(m_eff² + ...) stiffness bracket in prtoe_perturbations_derivs).
+             Use |...| so tachyonic windows still constrain the step size. */
+          double tau_phi = 1.0 / sqrt(fabs(a2 * m_eff2_total));
           *timescale = MIN(tau_phi, *timescale);
         }
       }
@@ -7269,6 +7287,9 @@ int perturbations_einstein(
           shear_g = 16./45./ppw->pvecthermo[pth->index_th_dkappa]*(y[ppw->pv->index_pt_theta_g]+k2*ppw->pvecmetric[ppw->index_mt_alpha]);
         }
 
+        /* In synchronous gauge with TCA on, perturbations_total_stress_energy()
+           sets shear_g temporarily to zero (it needs alpha, computed only here),
+           so this is the one and only place the photon TCA shear enters. */
         ppw->rho_plus_p_shear += 4./3.*ppw->pvecback[pba->index_bg_rho_g]*shear_g;
 
       }
@@ -7278,6 +7299,8 @@ int perturbations_einstein(
 
           shear_idr = 0.5*8./15./ppw->pvecthermo[pth->index_th_dmu_idm_dr]/ppt->alpha_idm_dr[0]*(y[ppw->pv->index_pt_theta_idr]+k2*ppw->pvecmetric[ppw->index_mt_alpha]);
 
+          /* Same as photons: with tca_idm_dr on in synchronous gauge,
+             total_stress_energy left shear_idr at zero — add it here. */
           ppw->rho_plus_p_shear += 4./3.*ppw->pvecback[pba->index_bg_rho_idr]*shear_idr;
         }
       }
@@ -8568,7 +8591,8 @@ int perturbations_sources(
           }
           _set_source_(ppt->index_tp_delta_scf) = delta_rho_scf/rho_prtoe_src;
         } else if (ppw->pv->index_pt_delta_prtoe >= 0 && rho_prtoe_src > 1e-30) {
-          /* Pre-activation (frozen) phase: report frozen field state for output consistency */
+          /* Pre-activation (frozen) phase: field is inactive, density contrast = 0 */
+          /* (do NOT output raw field amplitude delta_prtoe as delta_scf — they differ by gauge/coupling factors) */
           _set_source_(ppt->index_tp_delta_scf) = 0.0;
         } else {
           _set_source_(ppt->index_tp_delta_scf) = 0.0;
@@ -8705,6 +8729,10 @@ int perturbations_sources(
           } else {
             _set_source_(ppt->index_tp_theta_scf) = 0.0;
           }
+        } else if (ppw->pv->index_pt_delta_prtoe >= 0 && rho_prtoe_src > 1e-30) {
+          /* Pre-activation (frozen) phase: field is inactive, velocity contrast = 0 */
+          /* (do NOT compute theta from raw field amplitude; wait until activation) */
+          _set_source_(ppt->index_tp_theta_scf) = 0.0;
         } else {
           _set_source_(ppt->index_tp_theta_scf) = 0.0;
         }
@@ -9514,12 +9542,21 @@ int prtoe_perturbations_derivs(
   double a_prime_over_a = ppw->pvecback[pba->index_bg_H] * a;
   double * pvecback = ppw->pvecback;
 
-  if (pba->de_mode != prtoe_active
-      || pba->index_bg_rho_prtoe < 0
-      || ppw->pv->index_pt_delta_prtoe < 0
-      || ppw->pv->index_pt_ddelta_prtoe < 0) {
+  /* The caller gates on prtoe_is_physically_active(), which also covers
+     prtoe_frozen / lambda_limit configurations where these perturbations
+     are intentionally not evolved — that is a valid no-op, not an error. */
+  if (pba->de_mode != prtoe_active) {
     return _SUCCESS_;
   }
+
+  /* With de_mode == prtoe_active the indices must have been allocated;
+     a negative index here is a genuine initialization bug. */
+  class_test(pba->index_bg_rho_prtoe < 0
+             || ppw->pv->index_pt_delta_prtoe < 0
+             || ppw->pv->index_pt_ddelta_prtoe < 0,
+             error_message,
+             "PRTOE perturbation indices/background were not initialized");
+
 
   double rho_prtoe_bg = pvecback[pba->index_bg_rho_prtoe];
   double delta_phi  = y[ppw->pv->index_pt_delta_prtoe];
@@ -9532,12 +9569,6 @@ int prtoe_perturbations_derivs(
        Metric potentials (Φ, η) are determined from constraints in metric_sources()
        not evolved here. This prevents singular Jacobian from over-determined system.
     */
-
-    /* Safety check: indices must exist */
-    if (ppw->pv->index_pt_delta_prtoe < 0 || ppw->pv->index_pt_ddelta_prtoe < 0) {
-      sprintf(error_message, "PRTOE is active but perturbation indices not allocated");
-      return _FAILURE_;
-    }
 
     /* Load PRTOE background quantities */
     double phi        = pvecback[pba->index_bg_phi_prtoe];
@@ -9593,12 +9624,20 @@ int prtoe_perturbations_derivs(
                                   + 6.0 * H * eta_prime);
     }
 
+    /* Conformal-time form. Physical KG:
+         ddot(δφ) + (3H + (F_φ/F)φ̇) dot(δφ) + (k²_phys + m_eff² + ...) δφ = S_phys
+       with d/dt = (1/a) d/dτ becomes
+         δφ'' + (2ℋ + (F_φ/F)φ') δφ' + (k² + a²[m_eff² + ...]) δφ = a² S_phys.
+       The friction terms below were already conformal; the stiffness bracket and
+       source previously kept their physical form (k²/a², bare m_eff²), which is
+       inconsistent by factors of a² and made the ODE catastrophically stiff at
+       early times (k²/a² → ∞ as a → 0). */
     dy[ppw->pv->index_pt_ddelta_prtoe] =
           - (2.0*a_prime_over_a + (F_phi/F)*dphi) * ddelta_phi
-          - (k2/a2 + m_eff2 + beta_k2_term
-             + (F_phiphi/F) * phi_dot * phi_dot
-             - 3.0 * (F_phi/F) * metric_curv) * delta_phi
-          + metric_src;
+          - (k2 + a2 * (m_eff2 + beta_k2_term
+                        + (F_phiphi/F) * phi_dot * phi_dot
+                        - 3.0 * (F_phi/F) * metric_curv)) * delta_phi
+          + a2 * metric_src;
 
     dy[ppw->pv->index_pt_delta_prtoe] = ddelta_phi;
 

@@ -1,0 +1,30 @@
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'lcdm_baseline'
+[classy] `classy` module loaded successfully from /home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/classy
+[planck_2018_highl_plik.ttteee_lite] `clik` module loaded successfully from /home/themilkmanj/cobaya_packages_clean/code/planck/clik-main/lib/python/site-packages/clik
+----
+clik version clik_16.0b1-12-gcde855c6debd
+  plik_cmbonly
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86223e-09)
+----
+[planck_2018_lensing.clik] `clik` module loaded successfully from /home/themilkmanj/cobaya_packages_clean/code/planck/clik-main/lib/python/site-packages/clik
+Checking lensing likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+[bao.sixdf_2011_bao] Initialized.
+[bao.sdss_dr12_consensus_final] Initialized.
+[bao.desi_2024_bao_all] Initialized.
+[polychord] *WARNING* This run has been SEEDED with seed 42
+[polychord] `pypolychord` module loaded successfully from /home/themilkmanj/cobaya_packages_clean/code/PolyChordLite/build/lib.linux-x86_64-cpython-313/pypolychord
+[polychord] Storing raw PolyChord output in 'chains/lcdm_baseline_polychord_raw'.
+[model] Measuring speeds... (this may take a few seconds)
+[model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 1590.0, planck_2018_lowl.EE: 3990.0, planck_2018_highl_plik.TTTEEE_lite: 1210.0, planck_2018_lensing.clik: 1040.0, bao.sixdf_2011_bao: 3190.0, bao.sdss_dr7_mgs: 4410.0, bao.sdss_dr12_consensus_final: 1660.0, bao.desi_2024_bao_all: 1150.0, sn.pantheonplusshoes: 721.0, classy: 0.063}
+[polychord] Parameter blocks and their oversampling factors:
+[polychord] *  1 : ['omega_b', 'omega_cdm', 'H0', 'logA', 'n_s', 'z_reio']
+[polychord] * 27 : ['A_planck']
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[polychord] Calling PolyChord...
+[planck_2018_lowl.ee] *WARNING* low EE multipole out of range, rejecting point
+[planck_2018_lowl.ee] *WARNING* low EE multipole out of range, rejecting point
+[planck_2018_lowl.ee] *WARNING* low EE multipole out of range, rejecting point
+[planck_2018_lowl.ee] *WARNING* low EE multipole out of range, rejecting point
+[planck_2018_lowl.ee] *WARNING* low EE multipole out of range, rejecting point
+[planck_2018_lowl.ee] *WARNING* low EE multipole out of range, rejecting point

@@ -50,19 +50,12 @@ def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optio
         except Exception:
             pass
 
-    # 3. Try updated.yaml (keys may be re-sorted; use only as fallback)
-    updated_yaml = Path(f"{output_prefix}.updated.yaml")
-    if updated_yaml.exists():
-        try:
-            with open(updated_yaml, 'r') as f:
-                content = yaml.safe_load(f)
-            if isinstance(content, dict):
-                return updated_yaml
-        except Exception:
-            pass
-            
-    # 4. Search in root and chains/ directories for matching output field
-    for ypath in [Path("."), Path("chains")]:
+    # 3. Search in root, chains/ and templates/ directories for matching output field.
+    #    These preserve the original param declaration order, which MUST match the
+    #    chain column order for headerless files. (.updated.yaml is tried LAST because
+    #    Cobaya stores its params alphabetically — mapping chain columns with that
+    #    order scrambles every parameter, e.g. xi_prtoe picking up another column.)
+    for ypath in [Path("."), Path("chains"), Path("templates")]:
         if ypath.exists():
             for yfile in ypath.glob("*.yaml"):
                 try:
@@ -77,6 +70,19 @@ def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optio
                             pass
                 except Exception:
                     pass
+
+    # 4. LAST resort: updated.yaml — params are alphabetized so the column mapping
+    #    is only safe for files WITH a header (mapped by name, not position).
+    updated_yaml = Path(f"{output_prefix}.updated.yaml")
+    if updated_yaml.exists():
+        try:
+            with open(updated_yaml, 'r') as f:
+                content = yaml.safe_load(f)
+            if isinstance(content, dict):
+                return updated_yaml
+        except Exception:
+            pass
+
     return None
 
 def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):

@@ -1,6 +1,7 @@
 import os
 import re
 import json
+from pathlib import Path
 
 def safe_parse_python_dict(s: str) -> dict:
     """Safely parse Python dict logs (from Cobaya format) to dictionary without ast.literal_eval."""
@@ -112,35 +113,35 @@ def get_best_fit_from_log(log_path, state):
             if match:
                 try:
                     params_dict = safe_parse_python_dict(match.group(1))
-                        chi2_keys = [k for k in params_dict.keys() if k.startswith('chi2__')]
-                        if chi2_keys:
-                            cmb_vals = [params_dict[k] for k in chi2_keys if 'cmb' in k.lower() or 'planck' in k.lower()]
-                            bao_vals = [params_dict[k] for k in chi2_keys if 'bao' in k.lower()]
-                            sn_vals = [params_dict[k] for k in chi2_keys if 'sn' in k.lower() or 'pantheon' in k.lower() or 'shoes' in k.lower()]
-                            
-                            cmb_sum = sum(cmb_vals) if cmb_vals else None
-                            bao_sum = sum(bao_vals) if bao_vals else None
-                            sn_sum = sum(sn_vals) if sn_vals else None
-                            
-                            chi2_bao = params_dict.get('chi2__BAO', bao_sum)
-                            chi2_cmb = params_dict.get('chi2__CMB', cmb_sum)
-                            chi2_sn = params_dict.get('chi2__SN', sn_sum)
-                            
-                            tot = (chi2_bao or 0.0) + (chi2_cmb or 0.0) + (chi2_sn or 0.0)
-                            if tot == 0.0:
-                                tot = sum([params_dict[k] for k in chi2_keys])
-                                
-                            if tot < best_chi2:
-                                best_chi2 = tot
-                                best_eval = {
-                                    "total": tot,
-                                    "cmb": chi2_cmb,
-                                    "bao": chi2_bao,
-                                    "sn": chi2_sn,
-                                    "raw_params": params_dict
-                                }
-                    except Exception:
-                        continue
+                    chi2_keys = [k for k in params_dict.keys() if k.startswith('chi2__')]
+                    if chi2_keys:
+                        cmb_vals = [params_dict[k] for k in chi2_keys if 'cmb' in k.lower() or 'planck' in k.lower()]
+                        bao_vals = [params_dict[k] for k in chi2_keys if 'bao' in k.lower()]
+                        sn_vals = [params_dict[k] for k in chi2_keys if 'sn' in k.lower() or 'pantheon' in k.lower() or 'shoes' in k.lower()]
+
+                        cmb_sum = sum(cmb_vals) if cmb_vals else None
+                        bao_sum = sum(bao_vals) if bao_vals else None
+                        sn_sum = sum(sn_vals) if sn_vals else None
+
+                        chi2_bao = params_dict.get('chi2__BAO', bao_sum)
+                        chi2_cmb = params_dict.get('chi2__CMB', cmb_sum)
+                        chi2_sn = params_dict.get('chi2__SN', sn_sum)
+
+                        tot = (chi2_bao or 0.0) + (chi2_cmb or 0.0) + (chi2_sn or 0.0)
+                        if tot == 0.0:
+                            tot = sum([params_dict[k] for k in chi2_keys])
+
+                        if tot < best_chi2:
+                            best_chi2 = tot
+                            best_eval = {
+                                "total": tot,
+                                "cmb": chi2_cmb,
+                                "bao": chi2_bao,
+                                "sn": chi2_sn,
+                                "raw_params": params_dict
+                            }
+                except Exception:
+                    continue
             new_pos = f.tell()
             if not isinstance(state, dict):
                 state.log_file_position = new_pos

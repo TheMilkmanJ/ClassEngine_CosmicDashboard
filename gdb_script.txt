@@ -1,0 +1,4 @@
+handle SIGINT stop print pass
+run
+bt
+quit

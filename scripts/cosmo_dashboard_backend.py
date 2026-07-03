@@ -26,6 +26,7 @@ import secrets
 import glob
 import sqlite3
 import collections
+import copy
 from functools import lru_cache
 import threading
 
@@ -35,6 +36,13 @@ import threading
 import sys
 from pathlib import Path as _Path
 import importlib.util
+
+def log_dashboard_error(msg: str, console: bool = True, level: str = "info"):
+    """Bootstrap shim: the adapter-loading code below runs at import time, BEFORE the
+    real log_dashboard_error is defined further down (which replaces this shim).
+    Without it, an adapter load failure raises NameError and kills the whole import."""
+    print(msg, file=sys.stderr)
+
 
 def _load_adapter_robustly():
     """Load parsers_adapter.py by absolute path from known locations, no sys.path mutation."""
@@ -2104,6 +2112,21 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         model_type = "prtoe"
         c_params['use_prtoe'] = 'yes'
         xi = best_fit_params.get('xi_prtoe', best_fit_params.get('prtoe_xi', 1e-7))
+        # Sanity guard: CLASS hard-rejects xi outside the DHOST wedge [1e-7, 1.2e-5]
+        # (xi <= 1e-8 allowed as null limit). A wildly out-of-range xi here almost
+        # always means the chain-column → parameter-name mapping was scrambled
+        # (e.g. mapped via alphabetized .updated.yaml); fall back to the wedge
+        # floor instead of hammering CLASS with a guaranteed-fatal value.
+        try:
+            xi = float(xi)
+        except (TypeError, ValueError):
+            xi = 1e-7
+        if not (0.0 <= xi <= 1.2e-5):
+            log_dashboard_error(
+                f"[CURVES] Implausible xi_prtoe={xi:.3e} from best-fit mapping "
+                f"(outside [0, 1.2e-5]); using 1e-7. Check chain column mapping.",
+                console=True)
+            xi = 1e-7
         delta = best_fit_params.get('delta_prtoe', best_fit_params.get('prtoe_delta', 0.2))
         zeta = best_fit_params.get('zeta_prtoe', best_fit_params.get('prtoe_zeta', 0.1))
         v0 = best_fit_params.get('V0_prtoe', best_fit_params.get('prtoe_v0', 0.68))
@@ -2155,6 +2178,8 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         w_sample = []
         mu_sample = []
         phi_sample = []
+        phi_interp = None  # must exist for the re-check after struct_cleanup below,
+                           # even when the PRTOE branch is not taken
 
         sort_idx = np.argsort(z_bg)
         if model_type == "prtoe" and '(.)rho_scf' in bg and '(.)p_scf' in bg:

@@ -137,7 +137,13 @@ int prtoe_compute_quantities(struct background * pba, double a, double phi, doub
 #define PRTOE_ACTIVATION_THRESHOLD 0.01
 #define PRTOE_ACTIVATION_WIDTH 0.1
 
+/* Set from pba->prtoe_ablate_gates in background_init(). File-static because the
+   trans helpers below are pure functions without access to pba. Background
+   integration is single-threaded, so this is safe. */
+static int _prtoe_gates_ablated = 0;
+
 static double prtoe_covariant_trans_from_ratio(double ratio) {
+  if (_prtoe_gates_ablated) return 1.0;
   double x_trans = (log(MAX(ratio, 1e-60)) - log(PRTOE_ACTIVATION_THRESHOLD)) / PRTOE_ACTIVATION_WIDTH;
   return 0.5 * (1.0 + tanh(x_trans));
 }
@@ -333,6 +339,12 @@ int background_at_z(
 
   /* Scale factor is kinematic: enforce exact value from log(a/a_0). */
   pvecback[pba->index_bg_a] = exp(loga);
+
+  /* Force zero PRTOE at early times (a < 1e-2, high-z) after interpolation when in the null limit */
+  if (loga < log(1e-2) && (pba->Omega0_prtoe < 1e-30 || pba->xi_prtoe < 1e-8)) {
+    if (pba->index_bg_rho_prtoe >= 0) pvecback[pba->index_bg_rho_prtoe] = 0.0;
+    if (pba->index_bg_p_prtoe >= 0) pvecback[pba->index_bg_p_prtoe] = 0.0;
+  }
 
   return _SUCCESS_;
 }
@@ -1023,7 +1035,7 @@ int background_functions(
         pvecback[pba->index_bg_Q_prtoe]     = Q_stab;
         pvecback[pba->index_bg_cT2_prtoe]   = 1.0;
 
-        if (trans > 0.5) {
+        if (trans > 0.5 && pba->background_verbose > 0) {
             if (F <= 0.0)      fprintf(stderr, "PRTOE CRITICAL: Ghost! F=%.6e\n", F);
             if (K_stab <= 0.0) fprintf(stderr, "PRTOE CRITICAL: Negative K! K=%.6e\n", K_stab);
             if (Q_stab < 0.0)  fprintf(stderr, "PRTOE WARNING: Gradient instability! Q=%.6e\n", Q_stab);
@@ -1306,6 +1318,10 @@ int background_init(
     printf("Computing background\n");
   }
 
+  /* Gate-ablation diagnostic: propagate the flag to the file-static used by the
+     pure trans helpers (they have no pba access). */
+  _prtoe_gates_ablated = (pba->prtoe_ablate_gates == _TRUE_);
+
   /** - if shooting failed during input, catch the error here */
   class_test(pba->shooting_failed == _TRUE_,
              pba->error_message,
@@ -1344,11 +1360,8 @@ int background_init(
     if (pba->background_verbose > 2) {
       printf(" -> PRTOE is inactive or in null limit (xi=%.2e). Skipping normalization.\n", pba->xi_prtoe);
     }
-    /* Explicitly ensure the field starts at a safe value even if not used */
-    if (pba->use_prtoe == _TRUE_) {
-      pba->phi_ini_scf = 0.0;
-      pba->V0_prtoe = 0.0;   /* extra safety for null-limit tests */
-    }
+
+
   }
 
   /** - ---> Phase 5: Unified Dark Energy Framework mode detection
@@ -1396,6 +1409,8 @@ int background_init(
       printf(" -> No dark energy detected\n");
     }
   }
+
+
 
   /** - local gravity / fifth-force bound (Cassini-scale screening) */
   if (prtoe_is_physically_active(pba)) {
@@ -3531,27 +3546,6 @@ int background_derivs(
   if (prtoe_is_physically_active(pba)) {
 
     double a = exp(loga);
-
-    /* =====================================================================
-       PRTOE-DHOST Framework (aligned with prtoe_dhost_framework.tex)
-       ---------------------------------------------------------------------
-       Action:
-         S = ∫ d⁴x √-g [ (1/(2κ₀))(1 + ξ φ) R
-                         - ½(∇φ)²
-                         - V₀ e^{-λφ}
-                         - ½ m² φ²
-                         + ℒ_Q + ℒ_m ]
-
-       DHOST-Compliant Interaction terms (screened):
-         α², β², δ → α²/(1+φ²), β²/(1+φ²), δ/(1+φ²)
-
-       Scalar EOM (background reduction):
-         The leading curvature coupling gives + (ξ/2) R.
-         Full DHOST operators (R_{μν}∇^μ∇^νφ and matter terms from ℒ_Q)
-         mostly vanish or reduce in homogeneous FLRW background.
-         They are intended primarily for perturbation level.
-       ===================================================================== */
-
     double a2 = a * a;
     double phi = y[pba->index_bi_phi_prtoe];
     double dphi = y[pba->index_bi_dphi_prtoe];
@@ -3672,11 +3666,32 @@ int background_derivs(
   /* === CRITICAL: When prtoe_is_physically_active() = FALSE, still set derivatives ===
    * Without this, the derivatives are uninitialized, CLASS integration fails.
    * This ensures null-limit and frozen-field tests work correctly.
+   * Use adiabatic damping instead of hard-zero to maintain numerical continuity.
    */
   else if (pba->index_bi_phi_prtoe >= 0 && pba->index_bi_dphi_prtoe >= 0) {
     /* Field is frozen (covariant activation off or null limit) */
-    dy[pba->index_bi_phi_prtoe]  = 0.0;
-    dy[pba->index_bi_dphi_prtoe] = 0.0;
+    double a = exp(loga);
+    double H = pvecback[pba->index_bg_H];
+    double dphi = y[pba->index_bi_dphi_prtoe];
+    /* Hubble-friction-only Klein-Gordon (V=0): phi_ddot = -3 H phi_dot.
+       In conformal time phi'' = -2 aH phi', so per unit loga (divide by aH):
+       d(phi')/dloga = -2 phi'. The derivatives must be per-loga like the
+       active branch above; multiplying by a*H instead gives a unit-dependent
+       damping rate that makes the ODE artificially stiff at early times. */
+    dy[pba->index_bi_phi_prtoe]  = dphi / (a * MAX(H, 1e-20));
+    dy[pba->index_bi_dphi_prtoe] = -2.0 * dphi;
+
+    /* Null-limit consistency: report zero PRTOE stress-energy in this
+       workspace vector (the stored background table is filled by separate
+       background_functions() calls, so this does not alter H(z)). */
+    if (pba->index_bg_rho_prtoe >= 0) {
+      pvecback[pba->index_bg_rho_prtoe] = 0.;
+    }
+    if (pba->index_bg_p_prtoe >= 0) {
+      pvecback[pba->index_bg_p_prtoe] = 0.;
+    }
+
+    return _SUCCESS_;
   }
 
   return _SUCCESS_;

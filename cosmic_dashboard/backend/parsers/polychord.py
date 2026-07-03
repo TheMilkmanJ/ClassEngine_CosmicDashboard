@@ -28,18 +28,18 @@ def get_output_prefix_from_yaml(config_path: str) -> str:
 
 def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optional[Path]:
     """Finds a configuration YAML file corresponding to output_prefix."""
-    # 1. Try updated.yaml
-    updated_yaml = Path(f"{output_prefix}.updated.yaml")
-    if updated_yaml.exists():
+    # 1. Prefer explicit active config — preserves Cobaya chain column order.
+    if active_yaml_path and Path(active_yaml_path).exists():
         try:
-            with open(updated_yaml, 'r') as f:
-                content = yaml.safe_load(f)
-            if isinstance(content, dict):
-                return updated_yaml
+            if get_output_prefix_from_yaml(active_yaml_path) == output_prefix:
+                with open(active_yaml_path, 'r') as f:
+                    content = yaml.safe_load(f)
+                if isinstance(content, dict):
+                    return Path(active_yaml_path)
         except Exception:
             pass
-        
-    # 2. Try input.yaml
+
+    # 2. Try input.yaml (original run order)
     input_yaml = Path(f"{output_prefix}.input.yaml")
     if input_yaml.exists():
         try:
@@ -49,23 +49,13 @@ def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optio
                 return input_yaml
         except Exception:
             pass
-        
-    # 3. Try active_yaml_path
-    if active_yaml_path and Path(active_yaml_path).exists():
-        try:
-            if get_output_prefix_from_yaml(active_yaml_path) == output_prefix:
-                try:
-                    with open(active_yaml_path, 'r') as f:
-                        content = yaml.safe_load(f)
-                    if isinstance(content, dict):
-                        return Path(active_yaml_path)
-                except Exception:
-                    pass
-        except Exception:
-            pass
-            
-    # 4. Search in root and chains/ directories for matching output field
-    for ypath in [Path("."), Path("chains")]:
+
+    # 3. Search in root, chains/ and templates/ directories for matching output field.
+    #    These preserve the original param declaration order, which MUST match the
+    #    chain column order for headerless files. (.updated.yaml is tried LAST because
+    #    Cobaya stores its params alphabetically — mapping chain columns with that
+    #    order scrambles every parameter, e.g. xi_prtoe picking up another column.)
+    for ypath in [Path("."), Path("chains"), Path("templates")]:
         if ypath.exists():
             for yfile in ypath.glob("*.yaml"):
                 try:
@@ -80,6 +70,19 @@ def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optio
                             pass
                 except Exception:
                     pass
+
+    # 4. LAST resort: updated.yaml — params are alphabetized so the column mapping
+    #    is only safe for files WITH a header (mapped by name, not position).
+    updated_yaml = Path(f"{output_prefix}.updated.yaml")
+    if updated_yaml.exists():
+        try:
+            with open(updated_yaml, 'r') as f:
+                content = yaml.safe_load(f)
+            if isinstance(content, dict):
+                return updated_yaml
+        except Exception:
+            pass
+
     return None
 
 def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
@@ -120,14 +123,44 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
             if nlive_match:
                 stats["nlive"] = int(nlive_match.group(1))
 
-            # Read log(Z) and error from stats file
-            logz_match = re.search(r"log\(Z\)\s*=\s*([-\d.eE+]+)\s*\+/-\s*([-\d.eE+]+)", content)
+            if "optimizer run" in content.lower():
+                stats["is_optimizer"] = True
+
+            # Read log(Z) and error from stats file (nan/inf → leave as None)
+            logz_match = re.search(
+                r"log\(Z\)\s*=\s*([-\w\d.eE+]+)\s*\+/-\s*([-\w\d.eE+]+)", content
+            )
             if logz_match:
-                stats["log_evidence"] = float(logz_match.group(1))
-                stats["log_evidence_error"] = float(logz_match.group(2))
+                import math
+                try:
+                    lz = float(logz_match.group(1))
+                    if math.isfinite(lz):
+                        stats["log_evidence"] = lz
+                except ValueError:
+                    pass
+                try:
+                    lz_err = float(logz_match.group(2))
+                    if math.isfinite(lz_err):
+                        stats["log_evidence_error"] = lz_err
+                except ValueError:
+                    pass
                 stats["evidence_source"] = "polychord_stats"
                 stats["evidence_is_final"] = True
                 stats["evidence_quality"] = "final_nested_sampling"
+
+            # Optimizer .stats files include a best-fit parameter table
+            if stats.get("is_optimizer"):
+                raw_params = {}
+                for line in content.splitlines():
+                    m = re.match(
+                        r"^\s*([a-zA-Z0-9_]+)\s+([-\d.eE+]+)\s+([-\d.eE+]+)\s*$", line
+                    )
+                    if m:
+                        raw_params[m.group(1)] = float(m.group(2))
+                if raw_params:
+                    stats["best_raw_params"] = raw_params
+
+            if stats.get("dead_points") or stats.get("log_evidence") is not None or stats.get("is_optimizer"):
                 return stats
         except Exception:
             pass
@@ -367,9 +400,9 @@ def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
                                                 pass
                                 else:
                                     if ftype == "final":
-                                        sampled_clean = [p for p in sampled if not params[p].get('drop')]
-                                        names_params = sampled_clean + derived
-                                        idx_start = 3
+                                        # drop:true params still occupy columns in Cobaya chain files
+                                        names_params = sampled + derived
+                                        idx_start = 2
                                     elif ftype == "live":
                                         priors = ["logprior__0"]
                                         likes = [f"loglike__{name}" for name in likelihoods.keys()]

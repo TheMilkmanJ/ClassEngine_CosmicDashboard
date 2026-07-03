@@ -549,7 +549,8 @@ int input_shooting(struct file_content * pfc,
                                        "omega_dcdmdr",
                                        "Omega_scf",
                                        "Omega_ini_dcdm",
-                                       "omega_ini_dcdm"};
+                                       "omega_ini_dcdm",
+                                       "Omega0_prtoe"};
 
   /* array of corresponding parameters that must be adjusted in order to meet the target (= unknown parameters) */
   char * const unknown_namestrings[] = {"h",                        /* unknown param for target '100*theta_s' */
@@ -559,7 +560,8 @@ int input_shooting(struct file_content * pfc,
                                         "omega_ini_dcdm",           /* unknown param for target 'omega_dcdmdr' */
                                         "scf_shooting_parameter",   /* unknown param for target 'Omega_scf' */
                                         "Omega_dcdmdr",             /* unknown param for target 'Omega_ini_dcdm' */
-                                        "omega_dcdmdr"};             /* unknown param for target 'omega_ini_dcdm' */
+                                        "omega_dcdmdr",             /* unknown param for target 'omega_ini_dcdm' */
+                                        "prtoe_shooting_parameter"};/* unknown param for target 'Omega0_prtoe' */
 
   /* for each target, module up to which we need to run CLASS in order
      to compute the targetted quantities (not running the whole code
@@ -571,7 +573,8 @@ int input_shooting(struct file_content * pfc,
                                         cs_background,     /* computation stage for target 'omega_dcdmdr' */
                                         cs_background,     /* computation stage for target 'Omega_scf' */
                                         cs_background,     /* computation stage for target 'Omega_ini_dcdm' */
-                                        cs_background};     /* computation stage for target 'omega_ini_dcdm' */
+                                        cs_background,     /* computation stage for target 'omega_ini_dcdm' */
+                                        cs_background};    /* computation stage for target 'Omega0_prtoe' */
 
   struct fzerofun_workspace fzw;
 
@@ -893,6 +896,7 @@ int input_needs_shooting_for_target(struct file_content * pfc,
   case Omega_scf:
   case Omega_ini_dcdm:
   case omega_ini_dcdm:
+  case Omega0_prtoe:
     /* Check that Omega's or omega's are nonzero: */
     if (target_value == 0.)
       *needs_shooting = _FALSE_;
@@ -1263,6 +1267,14 @@ int input_get_guess(double *xguess,
         dxdy[index_guess] = 1.;
       }
       break;
+    case Omega0_prtoe:
+      /* In the weakly-coupled slow-roll regime required by the DHOST
+       * stability wedge, phi stays close to 0 until late-time activation,
+       * so rho_prtoe(a=1) ~ V(0) = V0_prtoe to leading order: an
+       * approximately linear map, same spirit as the Omega_scf guess. */
+      xguess[index_guess] = pfzw->target_value[index_guess];
+      dxdy[index_guess] = 1.;
+      break;
     case omega_ini_dcdm:
       Omega0_dcdmdr = 1./(ba.h*ba.h);
     case Omega_ini_dcdm:
@@ -1494,6 +1506,15 @@ int input_try_unknown_parameters(double * unknown_parameter,
     case Omega_scf:
       /** In case scalar field is used to fill, pba->Omega0_scf is not equal to pfzw->target_value[i].*/
       output[i] = ba.background_table[(ba.bt_size-1)*ba.bg_size+ba.index_bg_rho_scf]/(ba.H0*ba.H0)-ba.Omega0_scf;
+      break;
+    case Omega0_prtoe:
+      /* Residual between the ACTUAL rho_prtoe(a=1) produced by integrating
+       * phi from phi_ini_scf=0 under the true (F-coupled, activation-gated)
+       * background equations, and the requested target density. This is
+       * the check that was previously missing entirely: V0_prtoe used to
+       * be taken at face value with no verification it reproduces
+       * Omega0_prtoe once the real dynamics are run. */
+      output[i] = ba.background_table[(ba.bt_size-1)*ba.bg_size+ba.index_bg_rho_prtoe]/(ba.H0*ba.H0)-ba.Omega0_prtoe;
       break;
     case Omega_ini_dcdm:
     case omega_ini_dcdm:
@@ -3205,6 +3226,7 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /* PRTOE defaults before budget read (use_prtoe may be read early) */
   pba->use_prtoe = _FALSE_;
+  pba->prtoe_ablate_gates = _FALSE_;
   pba->Omega0_prtoe = 0.;
 
   /* Read use_prtoe early to avoid budget overkill */
@@ -3441,6 +3463,7 @@ int input_read_parameters_species(struct file_content * pfc,
   /** 8.b.5) PRTOE v4.0 Kinetic Engine Registry */
   /** Set PRTOE parameter defaults BEFORE reading input (canonical names only) */
   pba->use_prtoe = _FALSE_;
+  pba->prtoe_ablate_gates = _FALSE_;
   pba->xi_prtoe = 1.0e-7;
   pba->beta_prtoe = 1.0e-6;
   pba->lambda_prtoe = 0.05;
@@ -3480,6 +3503,8 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /* PRTOE v1.0 Production Parameters — canonical names only */
   class_read_flag("use_prtoe",        pba->use_prtoe);
+  /* Diagnostic: force activation gates to 1 (see background.h) */
+  class_read_flag("prtoe_ablate_gates", pba->prtoe_ablate_gates);
   class_read_double("xi_prtoe",       pba->xi_prtoe);
   class_read_double("beta_prtoe",     pba->beta_prtoe);
   class_read_double("lambda_prtoe",   pba->lambda_prtoe);
@@ -3496,7 +3521,7 @@ int input_read_parameters_species(struct file_content * pfc,
                "Omega0_prtoe requires use_prtoe = yes.");
     pba->Omega0_prtoe = 0.0;
     pba->prtoe_explicit_null_de = _FALSE_;
-  }
+    }
   else if (flag_omega0_prtoe == _TRUE_) {
     pba->Omega0_prtoe = param_omega0_prtoe;
     if (param_omega0_prtoe == 0.0) {
@@ -3505,8 +3530,18 @@ int input_read_parameters_species(struct file_content * pfc,
   }
 
   if (pba->use_prtoe == _TRUE_) {
+    /* If the shooting method (target 'Omega0_prtoe') is driving V0_prtoe
+     * to match the requested dark-energy density, its current trial value
+     * arrives under this dedicated name and overrides whatever V0_prtoe
+     * itself holds (default or user-specified). Absent shooting, this is
+     * a no-op and V0_prtoe is used as given, exactly as before. */
+    class_read_double("prtoe_shooting_parameter", pba->V0_prtoe);
+
     /* Scale V0 to CLASS internal units (H0-normalized) */
     pba->V0_prtoe = pba->V0_prtoe * pba->H0 * pba->H0;
+    
+    /* Scale mass to CLASS internal units (H0-normalized) */
+    pba->m_prtoe = pba->m_prtoe * pba->H0;
     
     /* Convert M_ew_prtoe from GeV to CLASS units (Mpc^-1) */
     /* 1 GeV = 1.5637e38 Mpc^-1 */
@@ -3529,6 +3564,12 @@ int input_read_parameters_species(struct file_content * pfc,
     class_test((pba->xi_prtoe > 1e-8) && (pba->xi_prtoe < 1e-7),
                errmsg,
                "Active PRTOE requires xi_prtoe in the DHOST Stability Wedge [1e-7, 1.2e-5]; use xi_prtoe <= 1e-8 for null-limit tests.");
+
+    class_test((flag_omega0_prtoe == _TRUE_) &&
+               (pba->Omega0_prtoe > 0.0) &&
+               (pba->xi_prtoe < 1e-7),
+               errmsg,
+               "Explicit positive Omega0_prtoe requires active PRTOE with xi_prtoe >= 1e-7; use Omega0_prtoe = 0 for null-limit tests.");
 
     /* === PRTOE Dark Energy Normalization ===
      * When PRTOE is active (xi >= 1e-7), it replaces Lambda as the dark energy.
@@ -3561,6 +3602,7 @@ int input_read_parameters_species(struct file_content * pfc,
         pba->Omega0_prtoe = 0.0;
         /* For null limit, ensure field doesn't contribute energy density */
         pba->V0_prtoe = 0.0;
+        pba->de_mode = lambda_limit;
         pba->beta_prtoe = 0.0;
     }
     
@@ -6151,6 +6193,7 @@ int input_default_params(struct background *pba,
 
   /* PRTOE v1.0 defaults — single initialization point for all input paths */
   pba->use_prtoe = _FALSE_;
+  pba->prtoe_ablate_gates = _FALSE_;
   pba->Omega0_prtoe = 0.0;
   pba->xi_prtoe = 1.0e-7;
   pba->beta_prtoe = 1.0e-6;

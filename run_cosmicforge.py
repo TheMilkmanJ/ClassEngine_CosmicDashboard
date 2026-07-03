@@ -260,9 +260,6 @@ def run_polychord_equivalent(info_cfg, output_prefix, polychord_opts=None):
             "nlive": 250,
             "num_repeats": 30,
             "precision_criterion": 0.01,
-            "fast_fraction": 0.0,
-            "base_dir": os.path.dirname(output_prefix) or ".",
-            "file_root": os.path.basename(output_prefix),
             "write_resume": True,
             "read_resume": True,
         }
@@ -820,7 +817,10 @@ def evaluate_constraints(point_dict, derived_dict, physical_constraints):
         
         val = 0.0
         if "expression" in c:
-            val = safe_eval(c["expression"], point_dict)
+            variables = point_dict.copy()
+            variables.update(derived_dict)
+            print(f"DEBUG EVAL: expression={c['expression']} variables={variables}")
+            val = safe_eval(c["expression"], variables)
         elif "derived" in c:
             val = derived_dict.get(c["derived"], 0.0)
             
@@ -1023,32 +1023,45 @@ def main():
             print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Config fix: {msg}")
             sys.stdout.flush()
 
-        # Load physical constraints from configuration or fall back to default PRTOE ones
+        # Load physical constraints from configuration or fall back to defaults
         physical_constraints = info.get("physical_constraints")
         if physical_constraints is None:
-            physical_constraints = [
-                {
-                    "name": "V0_prtoe",
-                    "expression": "1.0 - (omega_b + omega_cdm) / (H0/100)**2",
-                    "min": 0.0,
-                    "max": 1.0,
-                    "weight": 500.0
-                },
-                {
-                    "name": "age_universe",
-                    "derived": "age",
-                    "min": 12.0,
-                    "max": 15.5,
-                    "weight": 20.0
-                },
-                {
-                    "name": "xi_prtoe_stability",
-                    "expression": "xi_prtoe",
-                    "min": -1e9,
-                    "max": 1.0e-4,
-                    "weight": 1000.0
-                }
-            ]
+            use_prtoe = str(info.get("theory", {}).get("classy", {}).get("extra_args", {}).get("use_prtoe", "")).lower() in ("yes", "true", "1")
+            
+            if use_prtoe:
+                physical_constraints = [
+                    {
+                        "name": "V0_prtoe",
+                        "expression": "1.0 - (omega_b + omega_cdm) / (H0/100)**2",
+                        "min": 0.0,
+                        "max": 1.0,
+                        "weight": 500.0
+                    },
+                    {
+                        "name": "age_universe",
+                        "derived": "age",
+                        "min": 12.0,
+                        "max": 15.5,
+                        "weight": 20.0
+                    },
+                    {
+                        "name": "xi_prtoe_stability",
+                        "expression": "xi_prtoe",
+                        "min": -1e9,
+                        "max": 1.0e-4,
+                        "weight": 1000.0
+                    }
+                ]
+            else:
+                physical_constraints = [
+                    {
+                        "name": "age_universe",
+                        "derived": "age",
+                        "min": 12.0,
+                        "max": 15.5,
+                        "weight": 20.0
+                    }
+                ]
         else:
             print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Loaded {len(physical_constraints)} custom model-agnostic physical constraints from configuration.")
             sys.stdout.flush()
@@ -1080,6 +1093,8 @@ def main():
     if args.test_toy:
         from cobaya.model import get_model
         model = ToyCosmoModel()
+    elif args.polychord:
+        model = None
     else:
         from cobaya.model import get_model
         model = get_model(info)
@@ -1091,6 +1106,8 @@ def main():
 
     for name, p in info.get("params", {}).items():
         if isinstance(p, dict) and "prior" in p:
+            if p.get("drop", False):
+                continue
             sampled_names.append(name)
             prior = p["prior"]
             
@@ -1126,9 +1143,10 @@ def main():
     for name, p in info.get("params", {}).items():
         if isinstance(p, dict) and ("value" in p or "derived" in p or p.get("derived", False)):
             derived_names.append(name)
-    for name in model.derived_params:
-        if name not in derived_names:
-            derived_names.append(name)
+    if model is not None:
+        for name in model.derived_params:
+            if name not in derived_names:
+                derived_names.append(name)
 
     # Clean up output directory
     polychord_raw_dir = os.path.join(os.path.dirname(output_prefix), f"{os.path.basename(output_prefix)}_polychord_raw")
@@ -1144,9 +1162,6 @@ def main():
                 "nlive": 250,
                 "num_repeats": 30,
                 "precision_criterion": 0.01,
-                "fast_fraction": 0.0,
-                "base_dir": os.path.dirname(output_prefix),
-                "file_root": os.path.basename(output_prefix),
                 "write_resume": True,
                 "read_resume": True,
             }
@@ -1154,23 +1169,28 @@ def main():
         if "polychord" in sampler_info:
             info["sampler"]["polychord"].update(sampler_info["polychord"])
             
-        # Add physical constraints as a custom Cobaya Likelihood class
-        from cobaya.likelihood import Likelihood
-        
-        class PhysicalConstraintsLikelihood(Likelihood):
-            def initialize(self):
-                self.input_params = sampled_names + derived_names
-                
-            def logp(self, **params_values):
-                point = {name: params_values.get(name, 0.0) for name in sampled_names}
-                derived = {name: params_values.get(name, 0.0) for name in derived_names}
-                penalty, _ = evaluate_constraints(point, derived, physical_constraints)
-                return -0.5 * penalty
-                
+
+            
+        args_str = ", ".join([f"{name}=None" for name in sampled_names])
+        func_def = f"""
+def physical_constraints_logp(_self=None, {args_str}, **kwargs):
+    point = {{}}
+"""
+        for name in sampled_names:
+            func_def += f"    point['{name}'] = {name}\n"
+        func_def += f"""
+    derived = {{}}
+    penalty, _ = evaluate_constraints(point, derived, physical_constraints)
+    return -0.5 * penalty
+"""
+        namespace = {'evaluate_constraints': evaluate_constraints, 'physical_constraints': physical_constraints}
+        exec(func_def, namespace)
+        physical_constraints_logp = namespace['physical_constraints_logp']
+            
         if "likelihood" not in info:
             info["likelihood"] = {}
-        info["likelihood"]["physical_constraints"] = PhysicalConstraintsLikelihood
-        
+        info["likelihood"]["physical_constraints"] = {"external": physical_constraints_logp, "requires": sampled_names}
+
         print(f" {time.strftime('%Y-%m-%d %H:%M:%S')},000 [optimizer] Running PolyChord nested sampler...")
         sys.stdout.flush()
         

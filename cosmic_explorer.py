@@ -15,6 +15,7 @@ from rich.syntax import Syntax
 from rich.tree import Tree
 from rich.markdown import Markdown
 from rich.text import Text
+from rich.columns import Columns
 from rich import box
 import ollama, yaml
 

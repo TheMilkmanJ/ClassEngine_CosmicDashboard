@@ -1,0 +1,153 @@
+# PRTOE: Action → Equations → Code
+
+**Status: scaffold with verified content.** Every equation is numbered; every code
+reference is `file:function`. Items marked **[DERIVE]** are implemented in code but
+not yet derived cleanly from the action — they are the open theory debts.
+Last synced with code: 2026-07-03.
+
+## 0. Conventions and units
+
+- CLASS internal density units: `rho_class = (8πG/3) ρ_phys`, dimension Mpc⁻².
+- `V0_prtoe` is read in units of H₀² and scaled: `V0 → V0·H0²` (`input.c:input_read_parameters_species`).
+- `m_prtoe` is read in units of H₀ and scaled: `m → m·H0` (same place). **Any m value
+  calibrated before 2026-07 used a different convention.**
+- `M_ew_prtoe` read in GeV, converted to Mpc⁻¹ (×1.5637×10³⁸).
+- Conformal time τ (Mpc); `' ≡ d/dτ`; physical time derivatives written with overdots;
+  ℋ = a′/a = aH. CLASS stores H in Mpc⁻¹ (physical).
+
+## 1. Action
+
+$$ S = \int d^4x \sqrt{-g}\Big[ \frac{1}{2\kappa_0} F(\phi) R - \tfrac12 (\nabla\phi)^2 - V(\phi) + \mathcal{L}_Q + \mathcal{L}_m \Big] \tag{1} $$
+
+with
+
+$$ V(\phi) = V_0 e^{-\lambda\phi} + \tfrac12 m^2 \phi^2 \tag{2} $$
+
+$$ F(\phi) = 1 + \xi_{\rm eff}(\phi)\, A(\phi), \qquad
+   \xi_{\rm eff}(\phi) = \frac{\xi\,\phi^2}{1+\zeta\phi^2}, \qquad
+   A(\phi) = \tfrac12\big(1+\tanh\tfrac{\phi-\phi_c}{\Delta\phi}\big) \tag{3} $$
+
+- Code: `background.c:background_functions` (V, V_φ, V_φφ); `background.h:get_xi_eff`;
+  `background.h:prtoe_F_phi_of_phi` (analytic F_φ).
+- The Vainshtein-style S(φ)=φ²/(1+ζφ²) and the activation A(φ) are **part of the
+  definition of F(φ)** — i.e. terms of the action, eq. (3) — not code-level switches.
+- **[DERIVE]** `L_Q` (the DHOST interaction sector: α², β², δ operators with 1/(1+φ²)
+  screening) is stated in `prtoe_dhost_framework.tex` but its perturbation-level
+  contributions are only partially implemented (the β k² term in §4). Either derive
+  each operator's contribution or declare the truncation explicitly.
+
+## 2. Background equations
+
+Scalar EOM as implemented (`background.c:background_derivs`, PRTOE block):
+
+$$ \ddot\phi + 3H\dot\phi + V_\phi
+   = \frac{F_\phi}{F}\Big(\dot H + 2H^2\Big) - \frac{F_\phi}{F}\,\tfrac12\dot\phi^2
+   - \big[\text{trans}\cdot\square F\ \text{correction}\big] \tag{4} $$
+
+- **[DERIVE]** Eq. (4) should follow from varying (1); the exact variation for
+  F(φ)R gives φ-EOM: □φ = V_φ − (F_φ/2κ₀)R with R = 6(Ḣ + 2H²) in flat FLRW.
+  The implemented right-hand side uses (Ḣ + 2H²) *without* the factor arrangement
+  of R/2 = 3(Ḣ+2H²); verify the 1/3 bookkeeping between eq. (4) and □φ = V_φ − (F_φ/2)R.
+- **[DERIVE]** The `H_dot` estimate in the same block is labeled "simplified estimate"
+  — replace with the exact expression from the modified Friedmann constraint.
+- Friedmann: `background_functions` assembles ρ_tot including
+  ρ_φ = ½φ̇² + V(φ) (+ coupling terms). **[DERIVE]** For F≠1 the (00) equation is
+  3F H² = κ₀ρ − 3HḞ (+K-terms); confirm the implemented H matches this and not the
+  minimally-coupled form.
+
+### 2.1 Activation gates are redundant (measured 2026-07-03)
+
+The covariant gate trans = ½(1+tanh[(ln(ρ_φ/ρ_r) − ln 0.01)/0.1]) multiplies the field
+evolution. Ablation (`prtoe_ablate_gates = yes`, forces trans → 1 from a = 10⁻²⁰):
+
+| Quantity | gated vs ungated |
+|---|---|
+| conformal age | 1.2×10⁻⁶ relative |
+| 100·θ_s | 2×10⁻⁶ |
+| C_ℓ TT/EE/TE (ℓ≤200) | ≤ 7×10⁻⁵ |
+
+The field is frozen by Hubble friction alone (m ≪ H at early times), as in standard
+quintessence. **Recommendation: remove the gate machinery from the physics path
+entirely** (kept currently for A/B testing via the flag). This also applies to
+`coupling_strength` mode scaling.
+
+## 3. Local gravity / screening (derived 2026-07-03)
+
+In a static Newtonian environment of density ρ, the scalar EOM linearizes to
+
+$$ \nabla^2\phi = V_\phi(\phi) - \tfrac{F_\phi(\phi)}{2} R,\qquad R \simeq 8\pi G\rho = 3\rho_{\rm class} \tag{5} $$
+
+so the chameleon equilibrium solves
+
+$$ V_\phi(\phi_{\rm eq}) = \tfrac32 F_\phi(\phi_{\rm eq})\,\rho_{\rm class}. \tag{6} $$
+
+Stabilization at large φ comes from Vainshtein saturation (F_φ → 0 as ξ_eff → ξ/ζ)
+against V_φ → m²φ. Implemented as a log-scan + bisection in
+`background.h:prtoe_phi_at_matter_density_kg_m3` (replaces the former
+γ·ln(ρ/ρ₀) heuristic). Then G_eff/G = 1/F(φ_eq) (`prtoe_G_eff_over_G_at_environment`).
+
+Measured with ξ = 5×10⁻⁶ (test_active_prtoe_simple): |γ−1| = 2.26×10⁻⁶ — passes
+Cassini (2.3×10⁻⁵) by ~10× and sits **one order of magnitude below current bounds**:
+a falsifiable near-term prediction of the model at this coupling.
+
+- **[DERIVE]** Thin-shell factor: eq. (6) gives the interior field value; the exterior
+  fifth-force also carries the thin-shell suppression ΔR/R for compact bodies. Current
+  bound check is conservative without it.
+- The parameterized S_env(ρ) (`prtoe_environmental_screening_at_rho_kg_m3`,
+  parameters σ, ρ₀, γ) is now **redundant with eq. (6)** and should be retired or
+  re-derived; currently it still multiplies ξ_eff in G_eff.
+
+## 4. Linear perturbations (scalar sector)
+
+Field perturbation, conformal time (`perturbations.c:prtoe_perturbations_derivs`,
+corrected 2026-07-03 — previously the stiffness bracket was in physical form,
+inconsistent by a²):
+
+$$ \delta\phi'' + \Big(2\mathcal{H} + \tfrac{F_\phi}{F}\phi'\Big)\delta\phi'
+ + \Big(k^2 + a^2\big[m_{\rm eff}^2 + \beta_{k^2} + \tfrac{F_{\phi\phi}}{F}\dot\phi^2
+ - 3\tfrac{F_\phi}{F}(\dot H + 2H^2)\big]\Big)\delta\phi = a^2 S \tag{7} $$
+
+- **[DERIVE]** `prtoe_compute_meff2` (m_eff² including F-coupling and curvature terms)
+  — derive from second variation of the action.
+- **[DERIVE]** The metric source S: currently
+  S = (F_φ/F)[3(Ḣ+2H²)(3Φ+2(Ψ−Φ)) + 6HΦ̇] (Newtonian) and an η-based synchronous
+  analogue with an unexplained factor 5 — both flagged as needing derivation from the
+  perturbed □φ = ... equation. **The factor `5.0 * eta_sync` in particular has no
+  visible derivation.**
+- **[DERIVE]** β_{k²} = −β_s φ R k²_phys/M_ew²: from which L_Q operator? Sign and
+  screening 1/(1+φ²) need a source.
+
+Einstein-sector coupling (`perturbations_einstein`): all metric constraints are
+multiplied by G_eff = 1/F (`G_eff_metric`), and δF = F_φδφ enters ρ_plus_p_shear via
+`prtoe_accumulate_delta_F_shear`. **[DERIVE]** For F(φ)R gravity the (0i), (ij)
+equations get δF′, δF″ terms beyond a G_eff rescaling — the implemented
+`prtoe_fill_delta_F_from_state` chain rule covers δF kinematics, but the full
+perturbed Einstein tensor bookkeeping (which components get which δF terms) is the
+biggest single **[DERIVE]** item. This is exactly what the hi_class cross-check tests.
+
+## 5. Code dictionary
+
+| Symbol | Meaning | Code |
+|---|---|---|
+| φ, φ′ | field, conformal derivative | `index_bg_phi_prtoe`, `index_bg_dphi_prtoe` |
+| F, F_φ, F_φφ, F_φφφ | coupling and derivatives | `index_bg_F_prtoe` … `index_bg_F_phiphiphi_prtoe` |
+| ρ_φ, p_φ | field density/pressure | `index_bg_rho_prtoe`, `index_bg_p_prtoe` |
+| δφ, δφ′ | field perturbation | `index_pt_delta_prtoe`, `index_pt_ddelta_prtoe` |
+| trans | covariant activation gate (redundant, §2.1) | `prtoe_covariant_trans` |
+| ξ_eff(φ) | screened coupling | `get_xi_eff` |
+| φ_eq(ρ) | chameleon equilibrium, eq. (6) | `prtoe_phi_at_matter_density_kg_m3` |
+| G_eff/G | 1/F at environment | `prtoe_G_eff_over_G_at_environment` |
+| m_eff² | δφ effective mass² (physical) | `prtoe_compute_meff2` |
+| δF, δF′, δF″ | coupling perturbation | `prtoe_fill_delta_F_from_state` |
+| ablation flag | trans → 1 diagnostic | `prtoe_ablate_gates` (input) |
+
+## 6. Open items (priority order)
+
+1. **[DERIVE]** Perturbed Einstein equations for F(φ)R — full δF bookkeeping (§4);
+   validate against hi_class with G₄ = F/2κ₀.
+2. **[DERIVE]** m_eff² and the metric source S (factor 5 in synchronous gauge!).
+3. **[DERIVE]** Background KG factor bookkeeping (R/2 vs Ḣ+2H²) and exact Ḣ.
+4. Remove gate machinery from the physics path (evidence in §2.1).
+5. Retire or derive S_env(ρ) (§3).
+6. Thin-shell factor in the Cassini bound (§3).
+7. L_Q operators: derive each perturbation-level term or declare truncation (§1).

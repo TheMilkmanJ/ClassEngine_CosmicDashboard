@@ -1,23 +1,16 @@
 debug: true
 output: chains/prtoe_poly
+packages_path: /home/themilkmanj/cobaya_packages_clean
 likelihood:
   planck_2018_lowl.TT: null
   planck_2018_lowl.EE: null
   planck_2018_highl_plik.TTTEEE_lite: null
-  planck_2018_highl_plik.TT: null
   planck_2018_lensing.clik: null
-  act_dr6.TTTEEE_lite: null
-  bicep_keck_2018.bicep_keck_2018: null
   bao.sixdf_2011_bao: null
   bao.sdss_dr7_mgs: null
   bao.sdss_dr12_consensus_final: null
   bao.desi_2024_bao_all: null
-  bao.desi_2024_bao_lya: null
-  bao.desi_2024_eboss_bao_lya: null
   sn.pantheonplusshoes: null
-  des_y1.joint: null
-  des_y1.shear: null
-  H0.riess2020: null
 theory:
   classy:
     path: /home/themilkmanj/prtoe_class
@@ -103,9 +96,7 @@ params:
     ref: 0.1
     proposal: 0.05
     latex: \zeta_\mathrm{prtoe}
-  V0_prtoe:
-    value: 'lambda omega_b, omega_cdm, H0: 1.0 - (omega_b + omega_cdm) / (H0/100.0)**2'
-    latex: V_{0,\mathrm{prtoe}}
+
   lambda_prtoe:
     value: 0.05
     latex: \lambda_\mathrm{prtoe}
@@ -136,8 +127,29 @@ params:
   phi_0_prtoe:
     value: 1.0
     latex: \phi_{0,\mathrm{prtoe}}
+  sigma8:
+    latex: \sigma_8
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
+  Omega0_prtoe:
+    value: 'lambda omega_b, omega_cdm, H0: 1.0 - (omega_b + omega_cdm) / (H0/100)**2'
+    latex: \Omega_{0,\mathrm{prtoe}}
+  chi2__BAO:
+    latex: \chi^2_\mathrm{BAO}
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+  chi2__SN:
+    latex: \chi^2_\mathrm{SN}
 sampler:
   polychord:
-    nlive: 200
-    num_repeats: 80
+    nlive: 500
+    num_repeats: 30
     precision_criterion: 0.001
+    max_ndead: 5000
+    do_clustering: true
+    feedback: 1
+    synchronous: false
+    seed: 42
