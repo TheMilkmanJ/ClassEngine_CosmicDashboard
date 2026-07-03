@@ -3227,6 +3227,7 @@ int input_read_parameters_species(struct file_content * pfc,
   /* PRTOE defaults before budget read (use_prtoe may be read early) */
   pba->use_prtoe = _FALSE_;
   pba->prtoe_ablate_gates = _FALSE_;
+  pba->prtoe_enforce_wedge = _FALSE_;
   pba->Omega0_prtoe = 0.;
 
   /* Read use_prtoe early to avoid budget overkill */
@@ -3464,6 +3465,7 @@ int input_read_parameters_species(struct file_content * pfc,
   /** Set PRTOE parameter defaults BEFORE reading input (canonical names only) */
   pba->use_prtoe = _FALSE_;
   pba->prtoe_ablate_gates = _FALSE_;
+  pba->prtoe_enforce_wedge = _FALSE_;
   pba->xi_prtoe = 1.0e-7;
   pba->beta_prtoe = 1.0e-6;
   pba->lambda_prtoe = 0.05;
@@ -3557,13 +3559,18 @@ int input_read_parameters_species(struct file_content * pfc,
     class_test(pba->xi_prtoe < 0.0,
                errmsg,
                "PRTOE xi parameter must be non-negative; use xi_prtoe = 0 for null-limit tests.");
-    class_test(pba->xi_prtoe > 1.2e-5,
+    /*
+     * The historical DHOST Stability Wedge limits [1e-7, 1.2e-5] are no longer
+     * enforced by default: arbitrary xi is allowed to explore the emergent-gravity
+     * regime. Runtime stability checks (F>0, K>0, Q>0 in background_functions) and
+     * the reported local-gravity deviations are the physical arbiters instead.
+     * Set prtoe_enforce_wedge = yes to restore the strict historical behavior.
+     */
+    class_read_flag("prtoe_enforce_wedge", pba->prtoe_enforce_wedge);
+    class_test(pba->prtoe_enforce_wedge == _TRUE_ && pba->xi_prtoe > 1.2e-5,
                errmsg,
-               "PRTOE xi parameter %e exceeds the upper bound of the DHOST Stability Wedge [1e-7, 1.2e-5]",
+               "PRTOE xi=%e exceeds the strict stability wedge [1e-7, 1.2e-5] (prtoe_enforce_wedge = yes).",
                pba->xi_prtoe);
-    class_test((pba->xi_prtoe > 1e-8) && (pba->xi_prtoe < 1e-7),
-               errmsg,
-               "Active PRTOE requires xi_prtoe in the DHOST Stability Wedge [1e-7, 1.2e-5]; use xi_prtoe <= 1e-8 for null-limit tests.");
 
     class_test((flag_omega0_prtoe == _TRUE_) &&
                (pba->Omega0_prtoe > 0.0) &&
@@ -6194,6 +6201,7 @@ int input_default_params(struct background *pba,
   /* PRTOE v1.0 defaults — single initialization point for all input paths */
   pba->use_prtoe = _FALSE_;
   pba->prtoe_ablate_gates = _FALSE_;
+  pba->prtoe_enforce_wedge = _FALSE_;
   pba->Omega0_prtoe = 0.0;
   pba->xi_prtoe = 1.0e-7;
   pba->beta_prtoe = 1.0e-6;

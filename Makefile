@@ -205,21 +205,8 @@ test_hyperspherical: $(TOOLS) $(TEST_HYPERSPHERICAL)
 tar: $(C_ALL) $(C_TEST) $(H_ALL) $(PRE_ALL) $(INI_ALL) $(MISC_FILES) $(HYREC) $(PYTHON_FILES)
 	tar czvf class.tar.gz $(C_ALL) $(H_ALL) $(PRE_ALL) $(INI_ALL) $(MISC_FILES) $(HYREC) $(PYTHON_FILES)
 
-classy: libclass.a python/classy.pyx python/cclassy.pxd
-	export CC=$(CC); \
-	export CFLAGS="-O3 -march=native -ffast-math -ftree-vectorize"; \
-	export CXXFLAGS="-O3 -march=native -ffast-math -ftree-vectorize"; \
-	output=$$($(PYTHON) -m pip install . 2>&1); \
-    echo "$$output"; \
-    if echo "$$output" | grep -q "ERROR: Cannot uninstall"; then \
-        site_packages=$$($(PYTHON) -c "import distutils.sysconfig; print(distutils.sysconfig.get_python_lib())" || $(PYTHON) -c "import site; print(site.getsitepackages()[0])") && \
-        echo "Cleaning up previous installation in: $$site_packages" && \
-        rm -rf $$site_packages/classy* && \
-        export CC=$(CC); \
-        export CFLAGS="-O3 -march=native -ffast-math -ftree-vectorize"; \
-        export CXXFLAGS="-O3 -march=native -ffast-math -ftree-vectorize"; \
-        $(PYTHON) -m pip install .; \
-    fi
+classy: libclass.a python/classy.pyx python/setup.py
+	echo "Python install skipped in makefile"
 
 clean: .base
 	rm -rf $(WRKDIR);
