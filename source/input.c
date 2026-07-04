@@ -3229,6 +3229,7 @@ int input_read_parameters_species(struct file_content * pfc,
   pba->prtoe_ablate_gates = _FALSE_;
   pba->prtoe_enforce_wedge = _FALSE_;
   pba->g3_prtoe = 0.0;
+  pba->phi_ini_prtoe = 0.0;
   pba->Omega0_prtoe = 0.;
 
   /* Read use_prtoe early to avoid budget overkill */
@@ -3305,12 +3306,13 @@ int input_read_parameters_species(struct file_content * pfc,
     Omega_tot += pba->Omega0_scf;
   }
   /* Step 2 */
-  if (pba->use_prtoe == _TRUE_) {
-    if (flag_omega0_prtoe == _TRUE_) {
-      pba->Omega0_prtoe = param_omega0_prtoe;
-      Omega_tot += pba->Omega0_prtoe;
-    }
-    if (flag1 == _FALSE_) {
+  if (pba->use_prtoe == _TRUE_ && flag_omega0_prtoe == _TRUE_) {
+    pba->Omega0_prtoe = param_omega0_prtoe;
+    Omega_tot += pba->Omega0_prtoe;
+  }
+
+  if (flag1 == _FALSE_) {
+    if (pba->use_prtoe == _TRUE_) {
       /* Null limit (Omega0_prtoe=0) or no explicit PRTOE DE: Lambda fills residual.
        * Active PRTOE (Omega0_prtoe>0) closes the budget via the PRTOE component. */
       if ((flag_omega0_prtoe == _FALSE_) || (param_omega0_prtoe == 0.0)) {
@@ -3329,12 +3331,12 @@ int input_read_parameters_species(struct file_content * pfc,
                    1.0 - pba->Omega0_k - Omega_tot);
       }
     }
-  }
-  else if (flag1 == _FALSE_) {
-    /* Fill with Lambda */
-    pba->Omega0_lambda= 1. - pba->Omega0_k - Omega_tot;
-    if (input_verbose > 0){
-      printf(" -> matched budget equations by adjusting Omega_Lambda = %g\n",pba->Omega0_lambda);
+    else {
+      /* Fill with Lambda */
+      pba->Omega0_lambda= 1. - pba->Omega0_k - Omega_tot;
+      if (input_verbose > 0){
+        printf(" -> matched budget equations by adjusting Omega_Lambda = %g\n",pba->Omega0_lambda);
+      }
     }
   }
   else if (flag2 == _FALSE_) {
@@ -3468,6 +3470,7 @@ int input_read_parameters_species(struct file_content * pfc,
   pba->prtoe_ablate_gates = _FALSE_;
   pba->prtoe_enforce_wedge = _FALSE_;
   pba->g3_prtoe = 0.0;
+  pba->phi_ini_prtoe = 0.0;
   pba->xi_prtoe = 1.0e-7;
   pba->xi1_prtoe = 0.0;
   pba->beta_prtoe = 1.0e-6;
@@ -3512,6 +3515,7 @@ int input_read_parameters_species(struct file_content * pfc,
   class_read_flag("prtoe_ablate_gates", pba->prtoe_ablate_gates);
   /* PRTOE v2: cubic galileon coefficient (0 = v1, no galileon) */
   class_read_double("g3_prtoe", pba->g3_prtoe);
+  class_read_double("phi_ini_prtoe", pba->phi_ini_prtoe);
   class_read_double("xi_prtoe",       pba->xi_prtoe);
   class_read_double("xi1_prtoe",      pba->xi1_prtoe);
   class_read_double("beta_prtoe",     pba->beta_prtoe);
@@ -6209,6 +6213,7 @@ int input_default_params(struct background *pba,
   pba->prtoe_ablate_gates = _FALSE_;
   pba->prtoe_enforce_wedge = _FALSE_;
   pba->g3_prtoe = 0.0;
+  pba->phi_ini_prtoe = 0.0;
   pba->Omega0_prtoe = 0.0;
   pba->xi_prtoe = 1.0e-7;
   pba->xi1_prtoe = 0.0;
