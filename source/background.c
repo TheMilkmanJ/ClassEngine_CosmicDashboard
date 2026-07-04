@@ -3134,9 +3134,7 @@ double V_scf(struct background *pba, double phi) {
     return pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + 0.5 * pba->m_prtoe * pba->m_prtoe * phi * phi;
   }
   double V_exp = pba->V0_prtoe * exp(-pba->lambda_prtoe * phi);
-  double H_floor_internal = pba->H_vac_floor / 299792.458;
-  double screening = 1.0 / (1.0 + pba->zeta_prtoe * phi * phi);
-  return V_exp + 3.0 * pow(H_floor_internal, 2) * (1.0 + pba->xi_prtoe * screening * phi);
+  return V_exp;
 }
 
 double dV_scf(struct background *pba, double phi) {
@@ -3144,8 +3142,7 @@ double dV_scf(struct background *pba, double phi) {
     return -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi) + pba->m_prtoe * pba->m_prtoe * phi;
   }
   double dV_exp = -pba->lambda_prtoe * pba->V0_prtoe * exp(-pba->lambda_prtoe * phi);
-  double H_floor_internal = pba->H_vac_floor / 299792.458;
-  return dV_exp + 3.0 * pow(H_floor_internal, 2) * pba->xi_prtoe;
+  return dV_exp;
 }
 
 double ddV_scf(struct background *pba, double phi) {

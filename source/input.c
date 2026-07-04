@@ -442,7 +442,7 @@ int input_read_from_file(struct file_content * pfc,
    *  not compete with PRTOE in the Friedmann equation.
    *  This is the key step that lets us remove most heavy guards later.
    *  ============================================================ */
-  if (prtoe_is_physically_active(pba)) {
+  if (pba->use_prtoe == _TRUE_) {
       if (input_verbose > 1) {
           printf(" -> PRTOE is active: setting Omega0_lambda = 0 and has_lambda = false\n");
       }
@@ -3226,9 +3226,6 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /* PRTOE defaults before budget read (use_prtoe may be read early) */
   pba->use_prtoe = _FALSE_;
-  pba->prtoe_ablate_gates = _FALSE_;
-  pba->prtoe_enforce_wedge = _FALSE_;
-  pba->g3_prtoe = 0.0;
   pba->phi_ini_prtoe = 0.0;
   pba->Omega0_prtoe = 0.;
 
@@ -3467,78 +3464,33 @@ int input_read_parameters_species(struct file_content * pfc,
   /** 8.b.5) PRTOE v4.0 Kinetic Engine Registry */
   /** Set PRTOE parameter defaults BEFORE reading input (canonical names only) */
   pba->use_prtoe = _FALSE_;
-  pba->prtoe_ablate_gates = _FALSE_;
-  pba->prtoe_enforce_wedge = _FALSE_;
-  pba->g3_prtoe = 0.0;
   pba->phi_ini_prtoe = 0.0;
   pba->xi_prtoe = 1.0e-7;
   pba->xi1_prtoe = 0.0;
-  pba->beta_prtoe = 1.0e-6;
   pba->lambda_prtoe = 0.05;
   pba->m_prtoe = 0.05;  /* Scalar field mass */
   pba->V0_prtoe = 0.685;
   if (flag_omega0_prtoe == _FALSE_) {
     pba->Omega0_prtoe = 0.0;  /* Default: PRTOE off, use Lambda for dark energy */
   }
-  pba->phi_c_prtoe = 0.0;
-  pba->delta_phi_prtoe = 0.1;
   pba->zeta_prtoe = 1.0;
-  pba->M_prtoe = 1.0;
-  pba->alpha_prtoe = 1.0;
-  pba->M_ew_prtoe = 100.0;
-  pba->H_vac_floor = 64.1218;
-  pba->sigma_prtoe = 0.1;
-  pba->rho0_prtoe = 1.0e3;
-  pba->gamma_prtoe = 0.05;
-  pba->Omega0_cdm_absorbed = 0.0;
-  pba->g_b_prtoe = 1.0;
-  pba->g_c_prtoe = 1.0;
-  pba->unify_dark_sector = _FALSE_;
-  pba->prtoe_explicit_null_de = _FALSE_;
-  pba->delta_prtoe = 0.0;
   
-  class_read_double("zeta_prtoe", pba->zeta_prtoe);
-  class_read_double("M_prtoe", pba->M_prtoe);
-  class_read_double("alpha_prtoe", pba->alpha_prtoe);
-  class_read_double("M_ew_prtoe", pba->M_ew_prtoe);
-  class_read_double("H_vac_floor", pba->H_vac_floor);
-  class_read_double("g_b_prtoe", pba->g_b_prtoe);
-  class_read_double("sigma_prtoe", pba->sigma_prtoe);
-  class_read_double("rho0_prtoe", pba->rho0_prtoe);
-  class_read_double("gamma_prtoe", pba->gamma_prtoe);
-  class_read_double("g_c_prtoe", pba->g_c_prtoe);
-  class_read_flag("unify_dark_sector", pba->unify_dark_sector);
-
-  /* PRTOE v1.0 Production Parameters — canonical names only */
   class_read_flag("use_prtoe",        pba->use_prtoe);
-  /* Diagnostic: force activation gates to 1 (see background.h) */
-  class_read_flag("prtoe_ablate_gates", pba->prtoe_ablate_gates);
-  /* PRTOE v2: cubic galileon coefficient (0 = v1, no galileon) */
-  class_read_double("g3_prtoe", pba->g3_prtoe);
   class_read_double("phi_ini_prtoe", pba->phi_ini_prtoe);
   class_read_double("xi_prtoe",       pba->xi_prtoe);
   class_read_double("xi1_prtoe",      pba->xi1_prtoe);
-  class_read_double("beta_prtoe",     pba->beta_prtoe);
   class_read_double("lambda_prtoe",   pba->lambda_prtoe);
   class_read_double("m_prtoe",        pba->m_prtoe);
   class_read_double("V0_prtoe",       pba->V0_prtoe);
-  class_read_double("delta_prtoe",    pba->delta_prtoe);
-  /* phi_c_prtoe: activation centre; phi_0_prtoe: deprecated Cobaya alias */
-  class_read_double_one_of_two("phi_c_prtoe", "phi_0_prtoe", pba->phi_c_prtoe);
-  class_read_double("delta_phi_prtoe", pba->delta_phi_prtoe);
   class_read_double("zeta_prtoe",     pba->zeta_prtoe);
   if (pba->use_prtoe == _FALSE_) {
     class_test((flag_omega0_prtoe == _TRUE_) && (param_omega0_prtoe != 0.0),
                errmsg,
                "Omega0_prtoe requires use_prtoe = yes.");
     pba->Omega0_prtoe = 0.0;
-    pba->prtoe_explicit_null_de = _FALSE_;
-    }
+  }
   else if (flag_omega0_prtoe == _TRUE_) {
     pba->Omega0_prtoe = param_omega0_prtoe;
-    if (param_omega0_prtoe == 0.0) {
-      pba->prtoe_explicit_null_de = _TRUE_;
-    }
   }
 
   if (pba->use_prtoe == _TRUE_) {
@@ -3555,11 +3507,8 @@ int input_read_parameters_species(struct file_content * pfc,
     /* Scale mass to CLASS internal units (H0-normalized) */
     pba->m_prtoe = pba->m_prtoe * pba->H0;
     
-    /* Convert M_ew_prtoe from GeV to CLASS units (Mpc^-1) */
     /* 1 GeV = 1.5637e38 Mpc^-1 */
-    pba->M_ew_prtoe = pba->M_ew_prtoe * 1.5637e38;
     /* NOTE: beta is now sampled as log10(beta) via cobaya drop variable;
-     *       the cobaya YAML converts it via: beta_prtoe = 10^log_beta_prtoe.
      *       No /H0 rescaling is applied here to avoid double-counting. */
 
     /* Allow smaller xi for null limit testing.
@@ -3574,84 +3523,18 @@ int input_read_parameters_species(struct file_content * pfc,
      * enforced by default: arbitrary xi is allowed to explore the emergent-gravity
      * regime. Runtime stability checks (F>0, K>0, Q>0 in background_functions) and
      * the reported local-gravity deviations are the physical arbiters instead.
-     * Set prtoe_enforce_wedge = yes to restore the strict historical behavior.
      */
-    class_read_flag("prtoe_enforce_wedge", pba->prtoe_enforce_wedge);
-    class_test(pba->prtoe_enforce_wedge == _TRUE_ && pba->xi_prtoe > 1.2e-5,
-               errmsg,
-               "PRTOE xi=%e exceeds the strict stability wedge [1e-7, 1.2e-5] (prtoe_enforce_wedge = yes).",
-               pba->xi_prtoe);
 
-    class_test((flag_omega0_prtoe == _TRUE_) &&
-               (pba->Omega0_prtoe > 0.0) &&
-               (pba->xi_prtoe < 1e-7),
-               errmsg,
-               "Explicit positive Omega0_prtoe requires active PRTOE with xi_prtoe >= 1e-7; use Omega0_prtoe = 0 for null-limit tests.");
-
-    /* === PRTOE Dark Energy Normalization ===
-     * When PRTOE is active (xi >= 1e-7), it replaces Lambda as the dark energy.
-     * For null limit tests (xi <= 1e-8), keep Lambda.
-     */
-    if (pba->use_prtoe == _TRUE_ &&
-        pba->xi_prtoe >= 1e-7 &&
-        ((flag_omega0_prtoe == _FALSE_) || (pba->Omega0_prtoe > 0.0))) {
-        /* If user supplied an explicit Omega0_prtoe and also provided an explicit Omega_Lambda, reject. */
-        class_test((flag_omega0_prtoe == _TRUE_) &&
-                   (pba->Omega0_prtoe > 0.0) &&
-                   (flag1 == _TRUE_) &&
-                   (pba->Omega0_lambda != 0.0),
-                   errmsg,
-                   "When active PRTOE has explicit Omega0_prtoe, Omega_Lambda must be omitted or set to zero because PRTOE replaces Lambda.");
-        /* PRTOE is active → it provides the dark energy */
+    if (pba->use_prtoe == _TRUE_) {
         if (flag_omega0_prtoe == _FALSE_) {
-            class_test(pba->Omega0_lambda <= 0.0,
-                       errmsg,
-                       "Cannot infer a positive Omega0_prtoe from the dark-energy budget (%e). Please set Omega0_prtoe explicitly.",
-                       pba->Omega0_lambda);
             pba->Omega0_prtoe = pba->Omega0_lambda;
         }
-        pba->Omega0_lambda = 0.0;  /* Remove Lambda */
+        pba->Omega0_lambda = 0.0;
         pba->has_lambda = _FALSE_;
-        pba->de_mode = prtoe_active;  /* Synchronize de_mode after budget reassignment */
-        pba->prtoe_explicit_null_de = _FALSE_;
-    } else {
-        /* Null limit or PRTOE off → use Lambda */
-        pba->Omega0_prtoe = 0.0;
-        /* For null limit, ensure field doesn't contribute energy density */
-        pba->V0_prtoe = 0.0;
-        pba->de_mode = lambda_limit;
-        pba->beta_prtoe = 0.0;
-    }
-    
-    /** Unified dark sector: absorb CDM budget into PRTOE field (single dark species) */
-    if (pba->unify_dark_sector == _TRUE_ && prtoe_is_physically_active(pba)) {
-      double Omega0_cdm_floor =
-        (ppt->gauge == synchronous) ? ppr->Omega0_cdm_min_synchronous : 0.0;
-      if (pba->Omega0_cdm > Omega0_cdm_floor) {
-        pba->Omega0_cdm_absorbed = pba->Omega0_cdm - Omega0_cdm_floor;
-        if (pba->Omega0_cdm_absorbed < 0.0) {
-          pba->Omega0_cdm_absorbed = 0.0;
+        
+        if (input_verbose > 0) {
+            fprintf(stdout, " -> PRTOE v4.0 Active\n");
         }
-        pba->Omega0_prtoe += pba->Omega0_cdm_absorbed;
-        pba->Omega0_cdm -= pba->Omega0_cdm_absorbed;
-      }
-      if (pba->g_c_prtoe < 1.0) {
-        pba->g_c_prtoe = 1.0;
-      }
-      if (input_verbose > 0) {
-        fprintf(stdout,
-                " -> PRTOE unified dark sector: Omega_cdm=%.4f -> Omega0_prtoe=%.4f (single field)\n",
-                pba->Omega0_cdm_absorbed, pba->Omega0_prtoe);
-      }
-    }
-
-    if (input_verbose > 0) {
-      if (prtoe_is_physically_active(pba)) {
-        fprintf(stdout, " -> PRTOE Framework Activated (v1.0 Screened Model Bound Loaded)\n");
-      }
-      else {
-        fprintf(stdout, " -> PRTOE null-limit mode (use_prtoe=yes, couplings inactive — LambdaCDM path)\n");
-      }
     }
   }
 
@@ -6210,33 +6093,14 @@ int input_default_params(struct background *pba,
 
   /* PRTOE v1.0 defaults — single initialization point for all input paths */
   pba->use_prtoe = _FALSE_;
-  pba->prtoe_ablate_gates = _FALSE_;
-  pba->prtoe_enforce_wedge = _FALSE_;
-  pba->g3_prtoe = 0.0;
   pba->phi_ini_prtoe = 0.0;
   pba->Omega0_prtoe = 0.0;
   pba->xi_prtoe = 1.0e-7;
   pba->xi1_prtoe = 0.0;
-  pba->beta_prtoe = 1.0e-6;
   pba->lambda_prtoe = 0.05;
   pba->m_prtoe = 0.05;
   pba->V0_prtoe = 0.685;
-  pba->phi_c_prtoe = 0.0;
-  pba->delta_phi_prtoe = 0.1;
   pba->zeta_prtoe = 1.0;
-  pba->M_prtoe = 1.0;
-  pba->alpha_prtoe = 1.0;
-  pba->M_ew_prtoe = 100.0;
-  pba->H_vac_floor = 64.1218;
-  pba->sigma_prtoe = 0.1;
-  pba->rho0_prtoe = 1.0e3;
-  pba->gamma_prtoe = 0.05;
-  pba->Omega0_cdm_absorbed = 0.0;
-  pba->g_b_prtoe = 1.0;
-  pba->g_c_prtoe = 1.0;
-  pba->unify_dark_sector = _FALSE_;
-  pba->prtoe_explicit_null_de = _FALSE_;
-  pba->delta_prtoe = 0.0;
   pba->R_curvature = 0.0;      /* Ricci scalar R for PRTOE field evolution */
 
   /**
