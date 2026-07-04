@@ -38,6 +38,25 @@ if args.cores <= 0:
     parser.error("--cores must be a positive integer")
 if args.mcmc_steps < 0:
     parser.error("--mcmc-steps must be non-negative (use 0 to disable MCMC)")
+if args.mcmc_chains <= 0:
+    parser.error("--mcmc-chains must be a positive integer")
+if args.profile_steps <= 0:
+    parser.error("--profile-steps must be a positive integer")
+if args.start_from_run <= 0:
+    parser.error("--start-from-run must be a positive integer")
+if args.ess_threshold <= 0:
+    parser.error("--ess-threshold must be positive")
+if args.rhat_threshold <= 0:
+    parser.error("--rhat-threshold must be positive")
+if args.seed_nlive <= 0:
+    parser.error("--seed-nlive must be a positive integer")
+if not 0.0 <= args.seed_random_fraction <= 1.0:
+    parser.error("--seed-random-fraction must be between 0 and 1")
+if args.seed_min_samples_per_mode <= 0:
+    parser.error("--seed-min-samples-per-mode must be a positive integer")
+if args.profile_range is not None:
+    if args.profile_range[0] >= args.profile_range[1]:
+        parser.error("--profile-range min must be strictly less than max")
 
 # Set OpenMP threads to speed up CLASS evaluations
 os.environ["OMP_NUM_THREADS"] = str(args.cores)
@@ -53,14 +72,24 @@ from scipy.optimize import minimize
 
 # Dynamic search for classy build directory
 classy_build_root = os.environ.get("CLASSY_BUILD_ROOT")
+import sysconfig
+import sys
+cache_tag = sys.implementation.cache_tag
+def _get_best_build_dir(base_dir):
+    build_dirs = glob.glob(os.path.join(base_dir, "build", "lib.*"))
+    for d in build_dirs:
+        if cache_tag in d:
+            return d
+    return sorted(build_dirs)[-1] if build_dirs else None
+
 if classy_build_root:
-    build_dirs = sorted(glob.glob(os.path.join(classy_build_root, "build", "lib.*")))
-    if build_dirs:
-        sys.path.insert(0, build_dirs[-1])
+    best_dir = _get_best_build_dir(classy_build_root)
+    if best_dir:
+        sys.path.insert(0, best_dir)
 else:
-    build_dirs = sorted(glob.glob(os.path.join(os.path.dirname(__file__), "build", "lib.*")))
-    if build_dirs:
-        sys.path.insert(0, build_dirs[-1])
+    best_dir = _get_best_build_dir(os.path.dirname(__file__))
+    if best_dir:
+        sys.path.insert(0, best_dir)
 
 class LocalSurrogate:
     """
@@ -160,6 +189,11 @@ class LocalSurrogate:
             
             # Kriging Variance
             var = self.sigma_f**2 - k_star.dot(self.K_inv).dot(k_star)
+            if not np.isfinite(var):
+                return None
+            if var < -1e-8:
+                return None
+            var = max(0.0, float(var))
             
             # Check if uncertainty is below the threshold
             if var < self.threshold_variance:
@@ -254,6 +288,7 @@ def run_polychord_equivalent(info_cfg, output_prefix, polychord_opts=None):
         return None
 
     pol_info = copy.deepcopy(info_cfg)
+    pol_info["output"] = f"{output_prefix}_polychord"
     # Ensure sampler settings for PolyChord are sensible for cross-checks
     pol_info["sampler"] = {
         "polychord": {
@@ -473,6 +508,10 @@ def compute_covariance(best_x, target_func, sampled_names, info):
             
             hessian[i, i] = (f_plus - 2.0 * f_best + f_minus) / (h[i] ** 2)
         elif can_plus:
+            can_plus2 = (best_x[i] + 2.0 * h[i]) <= high or not np.isfinite(high)
+            if not can_plus2:
+                hessian[i, i] = 1e-4
+                continue
             # Use forward difference (one-sided)
             x_plus = np.copy(best_x)
             x_plus[i] += h[i]
@@ -484,6 +523,10 @@ def compute_covariance(best_x, target_func, sampled_names, info):
             
             hessian[i, i] = (f_plus2 - 2.0 * f_plus + f_best) / (h[i] ** 2)
         elif can_minus:
+            can_minus2 = (best_x[i] - 2.0 * h[i]) >= low or not np.isfinite(low)
+            if not can_minus2:
+                hessian[i, i] = 1e-4
+                continue
             # Use backward difference (one-sided)
             x_minus = np.copy(best_x)
             x_minus[i] -= h[i]
@@ -819,7 +862,6 @@ def evaluate_constraints(point_dict, derived_dict, physical_constraints):
         if "expression" in c:
             variables = point_dict.copy()
             variables.update(derived_dict)
-            print(f"DEBUG EVAL: expression={c['expression']} variables={variables}")
             val = safe_eval(c["expression"], variables)
         elif "derived" in c:
             val = derived_dict.get(c["derived"], 0.0)
@@ -1091,7 +1133,6 @@ def main():
     sampler_info = info.pop("sampler", {})
 
     if args.test_toy:
-        from cobaya.model import get_model
         model = ToyCosmoModel()
     elif args.polychord:
         model = None
@@ -1172,8 +1213,10 @@ def main():
 
             
         args_str = ", ".join([f"{name}=None" for name in sampled_names])
+        if args_str:
+            args_str = ", " + args_str
         func_def = f"""
-def physical_constraints_logp(_self=None, {args_str}, **kwargs):
+def physical_constraints_logp(_self=None{args_str}, **kwargs):
     point = {{}}
 """
         for name in sampled_names:
@@ -1244,9 +1287,13 @@ def physical_constraints_logp(_self=None, {args_str}, **kwargs):
         point_temp = {name: float(val) for name, val in zip(sampled_names, x)}
         expr_constraints = [c for c in physical_constraints if "expression" in c]
         if expr_constraints:
-            early_penalty, _ = evaluate_constraints(point_temp, {}, expr_constraints)
-            if early_penalty > 1e-4:
-                return 1e10 + early_penalty
+            try:
+                early_penalty, _ = evaluate_constraints(point_temp, {}, expr_constraints)
+                if early_penalty > 1e-4:
+                    return 1e10 + early_penalty
+            except ValueError:
+                # Expression may depend on derived parameters; evaluate after model.logposterior().
+                pass
 
         # 3. Check Local Surrogate Model (GP/RBF)
         # SAFETY: Disable surrogate during MCMC/evidence to avoid bias
@@ -2071,8 +2118,13 @@ def physical_constraints_logp(_self=None, {args_str}, **kwargs):
                 num_chains = max(1, int(getattr(args, 'mcmc_chains', 1)))
                 for chain_idx in range(num_chains):
                     # Small random perturbation of the starting point to initialize independent chains
-                    perturb = np.random.normal(scale=1e-6, size=n_params)
-                    start_x = (np.array(um_x) + perturb).tolist()
+                    start_x = []
+                    for p_idx, center in enumerate(um_x):
+                        low, high = bounds[p_idx]
+                        width = high - low if np.isfinite(high) and np.isfinite(low) else 1.0
+                        step = max(width * 1e-6, np.finfo(float).eps)
+                        val = float(center + np.random.normal(scale=step))
+                        start_x.append(min(max(val, low), high))
                     try:
                         chain_c = run_mcmc(start_x, cov, target_function, model, sampled_names, derived_names, args.mcmc_steps)
                         if chain_c is None:

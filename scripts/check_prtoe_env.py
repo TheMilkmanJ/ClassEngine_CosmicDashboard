@@ -30,13 +30,17 @@ def main() -> int:
         print(f"classy extension: MISSING for {tag} ({exc})")
         print("  Fix: cd ~/prtoe_class && make -j8 classy  (use same python as tests)")
 
-    r = subprocess.run(
-        [class_bin, "test_prtoe_bg_only.ini"],
-        cwd=ROOT,
-        capture_output=True,
-        text=True,
-        timeout=60,
-    )
+    try:
+        r = subprocess.run(
+            [class_bin, "test_prtoe_bg_only.ini"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+    except subprocess.TimeoutExpired:
+        print("test_prtoe_bg_only.ini: FAIL (timed out after 60s)")
+        return 1
     if r.returncode == 0:
         print("test_prtoe_bg_only.ini: PASS")
     else:

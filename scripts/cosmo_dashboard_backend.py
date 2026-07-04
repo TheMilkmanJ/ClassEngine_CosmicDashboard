@@ -607,98 +607,11 @@ def anakin_skywalker_directive():
     """Hunt down and kill orphan processes that are eating CPU resources.
     Themed after Order 66 - Anakin clears the temple of younglings (orphan processes).
     
-    Now scoped to dashboard-owned processes only to avoid killing unrelated user jobs.
+    Refactored to rely on standard process groups instead of string parsing.
     """
-    import subprocess
-
-    killed_count = 0
-    killed_processes = []
-
-    # Get dashboard-owned process PIDs to scope cleanup
-    # Track root PIDs separately to avoid killing the live tracked run
-    root_pids = set()
-    dashboard_pids = set()
-    
-    if state.running_process and state.running_process.poll() is None:
-        root_pids.add(state.running_process.pid)
-        # Add children of running process to candidate list
-        try:
-            parent = psutil.Process(state.running_process.pid)
-            for child in parent.children(recursive=True):
-                dashboard_pids.add(child.pid)
-        except (psutil.NoSuchProcess, psutil.AccessDenied):
-            pass
-    
-    if state.monitor_process and state.monitor_process.poll() is None:
-        root_pids.add(state.monitor_process.pid)
-        # Add children of monitor process to candidate list
-        try:
-            parent = psutil.Process(state.monitor_process.pid)
-            for child in parent.children(recursive=True):
-                dashboard_pids.add(child.pid)
-        except (psutil.NoSuchProcess, psutil.AccessDenied):
-            pass
-
-    # If no dashboard processes running, nothing to clean
-    if not dashboard_pids:
-        return 0
-
-    # Define orphan patterns to hunt (only within dashboard-owned processes)
-    orphan_patterns = [
-        'plot_chains.py',
-        'mpirun.*defunct',
-        'python.*plot_',
-        'cobaya.*run',
-    ]
-
     try:
-        current_user = os.environ.get('USER') or os.environ.get('LOGNAME') or os.environ.get('USERNAME')
-        if not current_user:
-            log_dashboard_error("[ANAKIN SKYWALKER DIRECTIVE] Could not determine current user; skipping orphan scan.", console=True)
-            return 0
-
-        # Use psutil (already imported) for cross-platform, reliable process enum instead of fragile 'ps aux' string parsing.
-        for proc in psutil.process_iter(['pid', 'username', 'cmdline', 'status']):
-            try:
-                if proc.info['username'] != current_user:
-                    continue
-                pid = proc.info['pid']
-                if pid not in dashboard_pids:
-                    continue
-                cmd = ' '.join(proc.info['cmdline'] or []) if proc.info['cmdline'] else ''
-                is_orphan = any(re.search(pat, cmd, re.IGNORECASE) for pat in orphan_patterns)
-                if proc.info['status'] == psutil.STATUS_ZOMBIE:
-                    is_orphan = True
-                if is_orphan:
-                    try:
-                        proc.kill()
-                        killed_count += 1
-                        killed_processes.append(f"PID {pid} ({cmd[:50]})")
-                    except (psutil.NoSuchProcess, psutil.AccessDenied):
-                        pass
-            except (psutil.NoSuchProcess, psutil.AccessDenied):
-                pass
-
-        if killed_count > 0:
-            log_dashboard_error(f"[ANAKIN SKYWALKER DIRECTIVE] Order 66 executed. Anakin has cleared the temple. {killed_count} younglings (orphan processes) eliminated: {', '.join(killed_processes[:3])}{'...' if len(killed_processes) > 3 else ''}", console=True)
-            # Play lightsaber sound effect
-            try:
-                import winsound
-                # Windows system beep for lightsaber effect
-                winsound.Beep(440, 200)  # A4 note
-                winsound.Beep(554, 200)  # C#5 note
-                winsound.Beep(659, 300)  # E5 note
-            except (ImportError, OSError, RuntimeError):
-                try:
-                    # Linux/Mac alternative
-                    os.system('echo -e "\a"')  # Terminal bell
-                except Exception:
-                    pass
-        else:
-            log_dashboard_error("[ANAKIN SKYWALKER DIRECTIVE] Temple scan complete. No younglings found. The temple is clear.", console=True)
-
-        return killed_count
-
+        _kill_dashboard_child_processes(fast=True)
+        return 1
     except Exception as e:
         log_dashboard_error(f"[ANAKIN SKYWALKER DIRECTIVE] Failed to execute Order 66: {e}", console=True)
         return 0
@@ -2941,26 +2854,29 @@ def compute_derived_cosmological_parameters(best_fit_params: dict, engine: dict 
             except Exception:
                 pass
 
+_DB_LOCK = threading.Lock()
+
 def log_run_to_db(config_name: str, model_type: str, status: str, output_prefix: str = "", log_ev: float = None, chi2: float = None, notes: str = ""):
     """Log/update run in SQLite for history across models (production feature).
     OPTIMIZED: Uses connection pooling and prepared statements for better performance."""
     try:
-        conn = sqlite3.connect(RUNS_DB, timeout=10.0)
-        conn.execute("PRAGMA journal_mode=WAL")  # Write-Ahead Logging for better concurrency
-        c = conn.cursor()
-        now = time.time()
-        c.execute("SELECT id FROM runs WHERE config_name=? AND start_time > ? ORDER BY start_time DESC LIMIT 1", (config_name, now - 86400*7))
-        row = c.fetchone()
-        if row and status in ("running", "completed", "stopped", "failed"):
-            c.execute("UPDATE runs SET status=?, end_time=?, log_evidence=?, best_chi2=?, output_prefix=?, notes=? WHERE id=?",
-                      (status, now if status != "running" else None, log_ev, chi2, output_prefix, notes, row[0]))
-        else:
-            c.execute("INSERT INTO runs (config_name, model_type, start_time, status, output_prefix, log_evidence, best_chi2, notes) VALUES (?,?,?,?,?,?,?,?)",
-                      (config_name, model_type, now, status, output_prefix, log_ev, chi2, notes))
-        conn.commit()
-        conn.close()
-    except Exception:
-        pass
+        with _DB_LOCK:
+            conn = sqlite3.connect(RUNS_DB, timeout=20.0)
+            conn.execute("PRAGMA journal_mode=WAL")  # Write-Ahead Logging for better concurrency
+            c = conn.cursor()
+            now = time.time()
+            c.execute("SELECT id FROM runs WHERE config_name=? AND start_time > ? ORDER BY start_time DESC LIMIT 1", (config_name, now - 86400*7))
+            row = c.fetchone()
+            if row and status in ("running", "completed", "stopped", "failed"):
+                c.execute("UPDATE runs SET status=?, end_time=?, log_evidence=?, best_chi2=?, output_prefix=?, notes=? WHERE id=?",
+                          (status, now if status != "running" else None, log_ev, chi2, output_prefix, notes, row[0]))
+            else:
+                c.execute("INSERT INTO runs (config_name, model_type, start_time, status, output_prefix, log_evidence, best_chi2, notes) VALUES (?,?,?,?,?,?,?,?)",
+                          (config_name, model_type, now, status, output_prefix, log_ev, chi2, notes))
+            conn.commit()
+            conn.close()
+    except Exception as e:
+        log_dashboard_error(f"Database error in log_run_to_db: {e}")
 
 # --- NEW: Detailed Health, Validation, Metrics, Backup/Restore ---
 
@@ -3464,8 +3380,8 @@ def get_realtime_posterior_stats(output_prefix):
             lines = content.splitlines()
             if is_live_file:
                 # For live files, use all lines but handle incomplete last line
-                if len(lines) > 0:
-                    d = np.loadtxt(lines)
+                if len(lines) > 1:
+                    d = np.loadtxt(lines[:-1])
                     if d.size > 0:
                         d = np.atleast_2d(d)
                         weights = np.ones((d.shape[0], 1))
@@ -3563,7 +3479,17 @@ def get_realtime_posterior_stats(output_prefix):
                         "err": float(std)
                     }
 
-        if 's8' not in stats_out and 'sigma8' in stats_out and 'omega_m' in stats_out:
+        if 's8' not in names and 'sigma8' in names and 'omega_m' in names:
+            idx_sig8 = names.index('sigma8')
+            idx_om = names.index('omega_m')
+            s8_vals = samps[:, idx_sig8] * (samps[:, idx_om] / 0.3)**0.5
+            mean = np.sum(weights * s8_vals) / np.sum(weights)
+            var = np.sum(weights * (s8_vals - mean)**2) / np.sum(weights)
+            stats_out['s8'] = {
+                "mean": float(mean),
+                "err": float(np.sqrt(max(0.0, var)))
+            }
+        elif 's8' not in stats_out and 'sigma8' in stats_out and 'omega_m' in stats_out:
             sig8_mean = stats_out['sigma8']['mean']
             sig8_err = stats_out['sigma8']['err']
             om_mean = stats_out['omega_m']['mean']
@@ -5974,6 +5900,8 @@ async def rebuild_class_wizard(config: RebuildConfig, background_tasks: Backgrou
 
         state.rebuild_progress["log"].append(f"Target engine: {engine_label} (cwd={target_cwd or 'current dir'})")
 
+        if config.opt_level not in ["-O0", "-O1", "-O2", "-O3", "-Ofast", "-Os", "-g"]:
+            raise HTTPException(status_code=400, detail="Invalid optimization level")
         cflags = [config.opt_level]
         if config.march_native:
             cflags.append("-march=native")
@@ -6134,10 +6062,10 @@ async def compute_custom_derived(req: dict = Body(...)):
                     # Special bounds check for exponentiation
                     if op_type == ast.Pow:
                         # Limit exponent to reasonable range
-                        if isinstance(right, float) and abs(right) > 100:
+                        if (isinstance(right, float) or isinstance(right, int)) and abs(right) > 100:
                             raise ValueError(f"Exponent {right} too large")
                         # Limit base magnitude for large exponents
-                        if isinstance(right, float) and right > 10 and isinstance(left, float) and abs(left) > 100:
+                        if (isinstance(right, (float, int)) and right > 10) and (isinstance(left, (float, int)) and abs(left) > 100):
                             raise ValueError(f"Base {left} too large for exponent {right}")
                     result = safe_operators[op_type](left, right)
                     # Check for finite result

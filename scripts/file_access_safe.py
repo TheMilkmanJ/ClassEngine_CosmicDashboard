@@ -37,8 +37,13 @@ def _non_blocking_read(file_path) -> Tuple[Optional[str], bool]:
         if hasattr(os, 'O_NONBLOCK'):
             fd = os.open(file_path, os.O_RDONLY | os.O_NONBLOCK)
             try:
-                file_size = os.path.getsize(file_path)
-                content = os.read(fd, file_size).decode('utf-8', errors='replace')
+                chunks = []
+                while True:
+                    chunk = os.read(fd, 8192)
+                    if not chunk:
+                        break
+                    chunks.append(chunk)
+                content = b''.join(chunks).decode('utf-8', errors='replace')
                 return content, True
             finally:
                 os.close(fd)
@@ -196,7 +201,7 @@ def read_stats_file(output_prefix) -> Tuple[Optional[dict], bool]:
     prefix = Path(output_prefix)
     
     # Try primary location
-    stats_file = prefix.with_suffix(".stats")
+    stats_file = prefix.parent / f"{prefix.name}.stats"
     content, success = read_file_safely(stats_file)
     if success and content:
         try:

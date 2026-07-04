@@ -16,11 +16,11 @@ run_step() {
   echo "Command: $*" | tee -a "$LOG"
   local t0=$SECONDS
   if "$@" >>"$LOG" 2>&1; then
-    echo "RESULT: PASS (${SECONDS}-$t0 s)" | tee -a "$LOG"
+    echo "RESULT: PASS ($((SECONDS - t0))s)" | tee -a "$LOG"
     return 0
   else
     local rc=$?
-    echo "RESULT: FAIL exit=$rc (${SECONDS}-$t0 s)" | tee -a "$LOG"
+    echo "RESULT: FAIL exit=$rc ($((SECONDS - t0))s)" | tee -a "$LOG"
     return $rc
   fi
 }

@@ -85,7 +85,7 @@ params:
   xi_prtoe:
     prior:
       min: 1.0e-07
-      max: 1.2e-05
+      max: 1.0
     ref: 1.0e-07
     proposal: 1.0e-08
     latex: \xi_\mathrm{prtoe}
@@ -134,9 +134,6 @@ params:
   S8:
     derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
     latex: S_8
-  Omega0_prtoe:
-    value: 'lambda omega_b, omega_cdm, H0: 1.0 - (omega_b + omega_cdm) / (H0/100)**2'
-    latex: \Omega_{0,\mathrm{prtoe}}
   chi2__BAO:
     latex: \chi^2_\mathrm{BAO}
   chi2__CMB:

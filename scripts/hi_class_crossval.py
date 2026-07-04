@@ -73,29 +73,31 @@ def main():
         'l_max_scalars': 2500,
         'lensing': 'yes',
         'A_s': 2.1e-9,
-        'n_s': 0.96,
-        'h': 0.67,
-        'omega_b': 0.022,
-        'omega_cdm': 0.12,
+        'n_s': 0.965,
+        'h': 0.7,
+        'Omega_b': 0.05,
+        'Omega_cdm': 0.25,
+        'Omega_k': 0.0,
     }
     
     # 2. Add PRTOE specific params
     prtoe_params = shared_params.copy()
     prtoe_params.update({
         'use_prtoe': 'yes',
-        'Omega0_prtoe': 0.69,
-        'xi_prtoe': 1e-8,
-        # Add other PRTOE-specific parameters here
+        'Omega0_prtoe': 0.7,  # Exact remainder
+        'xi_prtoe': 1e-7,     # Small but active dark sector
+        'Omega_Lambda': 0.0,
     })
     
     # 3. Add hi_class specific params for the equivalent model
+    # We will use hi_class's default LCDM / Smg configuration
     hi_class_params = shared_params.copy()
     hi_class_params.update({
-        'Omega_Lambda': 0,
-        'Omega_fld': 0,
-        'Omega_smg': 0.69,
-        # Add equivalent hi_class covariant/parameterized model parameters here
-        # e.g., 'gravity_model': 'monomial quintessence', ...
+        'Omega_smg': 0.7,
+        'gravity_model': 'propto_omega',
+        'parameters_smg': '1., 0., 0., 0., 1.',
+        'expansion_model': 'lcdm',
+        'expansion_smg': 0.5,
     })
     
     prtoe_out = "/tmp/prtoe_cls.json"

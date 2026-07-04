@@ -142,6 +142,15 @@ int prtoe_compute_quantities(struct background * pba, double a, double phi, doub
    integration is single-threaded, so this is safe. */
 static int _prtoe_gates_ablated = 0;
 
+static double get_rho_m_analytical(struct background *pba, double a) {
+  double rho_m = 0.0;
+  if (pba->has_cdm == _TRUE_) rho_m += pba->Omega0_cdm * pow(pba->H0, 2) / pow(a, 3);
+  rho_m += pba->Omega0_b * pow(pba->H0, 2) / pow(a, 3);
+  if (pba->has_dcdm == _TRUE_) rho_m += pba->Omega0_dcdm * pow(pba->H0, 2) / pow(a, 3);
+  if (pba->has_idm == _TRUE_) rho_m += pba->Omega0_idm * pow(pba->H0, 2) / pow(a, 3);
+  return rho_m;
+}
+
 static double prtoe_covariant_trans_from_ratio(double ratio) {
   if (_prtoe_gates_ablated) return 1.0;
   double x_trans = (log(MAX(ratio, 1e-60)) - log(PRTOE_ACTIVATION_THRESHOLD)) / PRTOE_ACTIVATION_WIDTH;
@@ -686,55 +695,45 @@ int background_functions(
       double A_prime = sech2_u / (2.0 * pba->delta_phi_prtoe);
       double A_primeprime = -sech2_u * tanh_u / (pba->delta_phi_prtoe * pba->delta_phi_prtoe);
 
-      /* Compute derivatives of xi_eff numerically for consistency */
-      double dphi_numerical = 1e-8;
-      double xi_eff_plus = get_xi_eff_environmental(pba, phi + dphi_numerical, rho_matter_kg_m3);
-      double xi_eff_minus = get_xi_eff_environmental(pba, phi - dphi_numerical, rho_matter_kg_m3);
-      double xi_eff_2plus = get_xi_eff_environmental(pba, phi + 2.0 * dphi_numerical, rho_matter_kg_m3);
-      double xi_eff_2minus = get_xi_eff_environmental(pba, phi - 2.0 * dphi_numerical, rho_matter_kg_m3);
-       
-      double dxi_eff_dphi = (xi_eff_plus - xi_eff_minus) / (2.0 * dphi_numerical);
-      double d2xi_eff_dphi2 = (xi_eff_2plus - 2.0 * xi_eff + xi_eff_2minus) / (4.0 * dphi_numerical * dphi_numerical);
+      /* === ANALYTIC derivatives of xi_eff and F (2026-07-03) ===
+         The former finite differences with h = 1e-8 were catastrophically
+         noisy: the 2nd derivative carried O(eps/h^2) ~ 25% roundoff error and
+         the 3rd derivative O(eps/h^3) ~ 1e7 ABSOLUTE noise -- F_phiphiphi was
+         pure noise in every active run. Invisible at v1 couplings (multiplied
+         by tiny xi*phi^2 and phi'), fatal for a rolling field (xi1 != 0):
+         the evolver's error control thrashes on the noisy derivatives.
 
-      /* F(φ) = 1 + xi_eff(φ) * A(φ) */
-      F = 1.0 + xi_eff * A;
-       
-      /* F_phi = dF/dφ = xi_eff * A_prime + A * dxi_eff_dphi */
-      F_phi = xi_eff * A_prime + A * dxi_eff_dphi;
-       
-      /* F_phiphi = d²F/dφ² = xi_eff * A_primeprime + 2 * A_prime * dxi_eff_dphi + A * d²xi_eff_dφ² */
-      F_phiphi = xi_eff * A_primeprime + 2.0 * A_prime * dxi_eff_dphi + A * d2xi_eff_dphi2;
-
-      /* Compute third derivative F_phiphiphi numerically (5-point central finite difference)
-         f'''(0) ≈ (-f(x+2d) + 2 f(x+d) - 2 f(x-d) + f(x-2d)) / (2 d^3)
-         where f = F(phi) = 1 + xi_eff(phi) * A(phi). */
-      double phi_p = phi + dphi_numerical;
-      double phi_m = phi - dphi_numerical;
-      double phi_2p = phi + 2.0 * dphi_numerical;
-      double phi_2m = phi - 2.0 * dphi_numerical;
-
-      double u_p = (phi_p - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
-      double u_m = (phi_m - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
-      double u_2p = (phi_2p - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
-      double u_2m = (phi_2m - pba->phi_c_prtoe) / pba->delta_phi_prtoe;
-
-      double A_p = 0.5 * (1.0 + tanh(u_p));
-      double A_m = 0.5 * (1.0 + tanh(u_m));
-      double A_2p = 0.5 * (1.0 + tanh(u_2p));
-      double A_2m = 0.5 * (1.0 + tanh(u_2m));
-
-      double xi_eff_p = get_xi_eff_environmental(pba, phi_p, rho_matter_kg_m3);
-      double xi_eff_m = get_xi_eff_environmental(pba, phi_m, rho_matter_kg_m3);
-      double xi_eff_2p = get_xi_eff_environmental(pba, phi_2p, rho_matter_kg_m3);
-      double xi_eff_2m = get_xi_eff_environmental(pba, phi_2m, rho_matter_kg_m3);
-
-      double F_p = 1.0 + xi_eff_p * A_p;
-      double F_m = 1.0 + xi_eff_m * A_m;
-      double F_2p = 1.0 + xi_eff_2p * A_2p;
-      double F_2m = 1.0 + xi_eff_2m * A_2m;
-
-      double denom = 2.0 * dphi_numerical * dphi_numerical * dphi_numerical;
-      F_phiphiphi = (F_2p - 2.0 * F_p + 2.0 * F_m - F_2m) / denom;
+         xi_eff(phi) = S_env * [ xi1*phi + xi*S(phi) ],  S = phi^2/z, z = 1+zeta*phi^2
+         (S_env depends only on the ambient density, not phi):
+           S'   = 2 phi / z^2
+           S''  = 2 (1 - 3 zeta phi^2) / z^3
+           S''' = -24 zeta phi (1 - zeta phi^2) / z^4
+         A(u) = (1+tanh u)/2, u = (phi - phi_c)/dw:
+           A'   = sech^2 u/(2 dw),  A'' = -tanh u sech^2 u/dw^2,
+           A''' = sech^2 u (3 tanh^2 u - 1)/dw^3
+         F = 1 + xi_eff A:
+           F'   = xi'A + xi A'
+           F''  = xi''A + 2 xi'A' + xi A''
+           F''' = xi'''A + 3 xi''A' + 3 xi'A'' + xi A'''            */
+      double S_env_fac = prtoe_environmental_screening_at_rho_kg_m3(pba, rho_matter_kg_m3);
+      double zq   = 1.0 + pba->zeta_prtoe * phi * phi;
+      double Sq   = phi * phi / zq;
+      double Sq1  = 2.0 * phi / (zq * zq);
+      double Sq2  = 2.0 * (1.0 - 3.0 * pba->zeta_prtoe * phi * phi) / (zq * zq * zq);
+      double Sq3  = -24.0 * pba->zeta_prtoe * phi * (1.0 - pba->zeta_prtoe * phi * phi)
+                    / (zq * zq * zq * zq);
+      double xi0  = S_env_fac * (pba->xi1_prtoe * phi + pba->xi_prtoe * Sq);
+      double xi1d = S_env_fac * (pba->xi1_prtoe       + pba->xi_prtoe * Sq1);
+      double xi2d = S_env_fac * (                       pba->xi_prtoe * Sq2);
+      double xi3d = S_env_fac * (                       pba->xi_prtoe * Sq3);
+      double dw   = MAX(pba->delta_phi_prtoe, 1e-30);
+      double A3   = sech2_u * (3.0 * tanh_u * tanh_u - 1.0) / (dw * dw * dw);
+      /* xi_eff from the helper should agree with xi0; keep xi0 for consistency
+         of all four derivative orders coming from one closed form. */
+      F           = 1.0 + xi0 * A;
+      F_phi       = xi1d * A + xi0 * A_prime;
+      F_phiphi    = xi2d * A + 2.0 * xi1d * A_prime + xi0 * A_primeprime;
+      F_phiphiphi = xi3d * A + 3.0 * xi2d * A_prime + 3.0 * xi1d * A_primeprime + xi0 * A3;
     }
 
     if (pba->use_prtoe == _TRUE_ && prtoe_is_physically_active(pba)) {
@@ -755,7 +754,7 @@ int background_functions(
     double rho_r_bg;
     class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_bg, pba->error_message),
                pba->error_message, pba->error_message);
-    double trans = prtoe_covariant_trans(rho_phi_candidate, rho_r_bg);
+    double trans = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r_bg);
 
     /* Pre-compute rho_prtoe and p_prtoe for Friedmann equation (smooth activation) */
     double rho_prtoe = trans * (0.5 * phi_dot_bg * phi_dot_bg + V);
@@ -983,7 +982,7 @@ int background_functions(
     double rho_r_here;
     class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_here, pba->error_message),
                pba->error_message, pba->error_message);
-    double trans = prtoe_covariant_trans(rho_phi_here, rho_r_here);
+    double trans = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r_here);
 
     {
         /* Store physical F_dot (matches Friedmann); trans_eom respects de_mode freeze */
@@ -993,34 +992,55 @@ int background_functions(
         double F_dot_eom = trans_eom * F_dot;
         pvecback[pba->index_bg_F_dot_prtoe] = F_dot;
 
+        /* === Exact Algebraic H_dot and phi_ddot (Eliminates lagged feedback) === */
+        double F_safe = MAX(F, 1e-30);
+        
+        /* PREVENT DOUBLE COUNTING: Use only standard fluid density for the RHS */
+        double rho_f = pvecback[pba->index_bg_rho_tot] - pvecback[pba->index_bg_rho_prtoe];
+        double p_f = pvecback[pba->index_bg_p_tot] - pvecback[pba->index_bg_p_prtoe];
+        
+        double F_dot_bg = F_phi * phi_dot;
+        double gal = pba->g3_prtoe / (pba->H0 * pba->H0);
+        double c_gal = 2.0 * gal * phi_dot * phi_dot * phi_dot;
+        double a2 = a * a;
+
+        /* Equation 1: D_H * H_dot + C_H * phi_ddot = S_H */
+        double D_H = 2.0 * F_safe * H + F_dot_bg - c_gal;
+        double C_H = H * (F_phi - 6.0 * gal * phi_dot * phi_dot) - phi_dot;
+        double S_H = -F_dot_bg * H * H - H * F_phiphi * phi_dot * phi_dot 
+                     - 3.0 * H * (rho_f + p_f) + V_phi * phi_dot 
+                     - F_dot_bg * pba->K / a2 + 2.0 * F_safe * H * pba->K / a2;
+
+        /* Equation 2: C_phi * H_dot + N_gal * phi_ddot = S_phi */
+        double C_phi = - (F_phi / F_safe - 3.0 * gal * phi_dot * phi_dot);
+        double N_gal = 1.0 + 6.0 * gal * H * phi_dot;
+        double S_phi = -V_phi - 3.0 * H * phi_dot 
+                       + (F_phi / F_safe) * (2.0 * H * H - 0.5 * phi_dot * phi_dot)
+                       - 9.0 * gal * H * H * phi_dot * phi_dot;
+
+        double det = D_H * N_gal - C_H * C_phi;
+        
         double H_dot;
-        if (F > 1e-30 && trans_eom > 1e-8) {
-            H_dot = - (3.0/2.0) * (rho_tot + p_tot) / F
-                    - (F_dot_eom * H) / F
-                    + pba->K / (a*a);
+        double phi_ddot;
+        
+        if (fabs(det) > 1e-25 && F > 1e-30 && trans_eom > 1e-8) {
+          H_dot = (S_H * N_gal - C_H * S_phi) / det;
+          phi_ddot = trans_eom * (D_H * S_phi - C_phi * S_H) / det;
+          pvecback[pba->index_bg_H_prime] = a * H_dot; if (a>0.999) printf("CRAMER H_dot=%e S_H=%e N_gal=%e C_H=%e S_phi=%e det=%e D_H=%e C_phi=%e\n", H_dot, S_H, N_gal, C_H, S_phi, det, D_H, C_phi);
         } else {
-            H_dot = pvecback[pba->index_bg_H_prime] / a;
+          /* Fallback for exact LCDM limit or frozen modes */
+          H_dot = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a; // H_prime
+          H_dot = H_dot / a; // H_dot = H_prime / a
+          phi_ddot = trans_eom * (-3.0 * H * phi_dot - V_phi 
+                     + (F_phi / F_safe) * (H_dot + 2.0 * H * H - 0.5 * phi_dot * phi_dot));
+          pvecback[pba->index_bg_H_prime] = a * H_dot; if (a>0.999) printf("CRAMER H_dot=%e S_H=%e N_gal=%e C_H=%e S_phi=%e det=%e D_H=%e C_phi=%e\n", H_dot, S_H, N_gal, C_H, S_phi, det, D_H, C_phi);
         }
 
-        double phi_ddot = trans_eom * (-3.0 * H * phi_dot - V_phi
-                                   + (F_phi / MAX(F, 1e-30)) * (H_dot + 2.0 * H * H));
         double phi_primeprime = phi_ddot * a * a + trans_eom * H * a * a * phi_dot;
         pvecback[pba->index_bg_ddphi_prtoe] = phi_primeprime;
 
         double F_ddot = trans_eom * (F_phiphi * phi_dot * phi_dot + F_phi * phi_ddot);
         pvecback[pba->index_bg_F_ddot_prtoe] = F_ddot;
-
-        if (F > 1e-30 && trans_eom > 1e-8) {
-            /* Use a combined expression that preserves the total-source term
-               and adds FR-type corrections from F_ddot/F while avoiding
-               scalar-only overwrites of H'. */
-            H_dot = - (3.0/2.0) * (rho_tot + p_tot) / F
-                    - 0.5 * (F_ddot - H * F_dot_eom) / F
-                    + pba->K / (a*a);
-            pvecback[pba->index_bg_H_prime] = a * H_dot;
-        } else {
-            pvecback[pba->index_bg_H_prime] = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a;
-        }
 
         pvecback[pba->index_bg_dphi_prtoe] = phi_prime;
 
@@ -1068,7 +1088,7 @@ int background_functions(
     double rho_r_p;
     class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_p, pba->error_message),
                pba->error_message, pba->error_message);
-    double trans_p = prtoe_covariant_trans(0.5 * phi_dot_p * phi_dot_p + V_p, rho_r_p);
+    double trans_p = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r_p);
     double trans_eom_p = trans_p * ((pba->de_mode == prtoe_active) ? 1.0 : 0.0);
     double p_prime_prtoe = trans_eom_p * phi_prime_prtoe
       * (-phi_prime_prtoe * H_bg / a - 2. / 3. * V_phi_p);
@@ -1506,9 +1526,21 @@ int background_prtoe_local_gravity_post_integration(
       prtoe_equivalence_principle_eta(pba, PRTOE_RHO_EARTH_CRUST_KG_M3, 1.e-6);
 
     if (pba->background_verbose > 0) {
+      /* Gdot/G today: with gravity's strength set by F(phi), G varies as the
+         field rolls: Gdot/G = -F_phi*phidot/F. Lunar laser ranging bounds
+         |Gdot/G| < ~1.5e-13 per year. Conversion: phidot is in Mpc^-1 (c=1);
+         1/Mpc = 3.067e-7 /yr. */
+      double Gdot_over_G_per_yr = 0.0;
+      if (pba->index_bg_dphi_prtoe >= 0 && pba->bt_size > 0) {
+        int last_row = pba->bt_size - 1;
+        double dphi_today = pba->background_table[last_row * pba->bg_size + pba->index_bg_dphi_prtoe];
+        double F_phi_today = prtoe_F_phi_of_phi(pba, phi_today);
+        Gdot_over_G_per_yr = -(F_phi_today * dphi_today / MAX(F_today, 1e-30)) * 3.067e-7;
+      }
       printf(" -> Post-integration local gravity: |dG/G|_sun=%.3e |dG/G|_earth=%.3e "
              "|dG/G|_vac(a=1)=%.3e phi_today=%.3e F_today=%.6f\n",
              dev_sun, dev_earth, dev_vac, phi_today, F_today);
+      printf(" -> Gdot/G today = %.3e /yr (LLR bound ~1.5e-13/yr)\n", Gdot_over_G_per_yr);
       printf(" -> Solar-system orbit: |gamma-1|=%.3e precession_excess=%.3e rad/orbit\n",
              fabs(gamma_minus_one), precession_excess);
       printf(" -> EP torsion-balance: eta_EP=%.3e at Earth crust density\n", eta_ep);
@@ -3270,6 +3302,7 @@ int background_output_titles(
   class_store_columntitle(titles,"proper time [Gyr]",_TRUE_);
   class_store_columntitle(titles,"conf. time [Mpc]",_TRUE_);
   class_store_columntitle(titles,"H [1/Mpc]",_TRUE_);
+  class_store_columntitle(titles,"(.)H_prime",_TRUE_);
   class_store_columntitle(titles,"comov. dist.",_TRUE_);
   class_store_columntitle(titles,"ang.diam.dist.",_TRUE_);
   class_store_columntitle(titles,"lum. dist.",_TRUE_);
@@ -3348,6 +3381,7 @@ int background_output_data(
     class_store_double(dataptr,pvecback[pba->index_bg_time]/_Gyr_over_Mpc_,_TRUE_,storeidx);
     class_store_double(dataptr,pba->conformal_age-pvecback[pba->index_bg_conf_distance],_TRUE_,storeidx);
     class_store_double(dataptr,pvecback[pba->index_bg_H],_TRUE_,storeidx);
+    class_store_double(dataptr,pvecback[pba->index_bg_H_prime],_TRUE_,storeidx);
     class_store_double(dataptr,pvecback[pba->index_bg_conf_distance],_TRUE_,storeidx);
     class_store_double(dataptr,pvecback[pba->index_bg_ang_distance],_TRUE_,storeidx);
     class_store_double(dataptr,pvecback[pba->index_bg_lum_distance],_TRUE_,storeidx);
@@ -3544,6 +3578,12 @@ int background_derivs(
    *  When inactive (trans≈0), field naturally doesn't evolve.
    *  ============================================================ */
   if (prtoe_is_physically_active(pba)) {
+    static long _prtoe_call_count = 0; static double _prtoe_last_loga = -1e30;
+    _prtoe_call_count++;
+    if (_prtoe_call_count % 50000 == 0)
+      fprintf(stderr, "[PROF] calls=%ld loga=%.4f dloga_since=%.3e\n",
+              _prtoe_call_count, loga, loga - _prtoe_last_loga);
+    _prtoe_last_loga = loga;
 
     double a = exp(loga);
     double a2 = a * a;
@@ -3564,7 +3604,7 @@ int background_derivs(
     double rho_r;
     class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r, error_message),
                error_message, error_message);
-    double trans = prtoe_covariant_trans(rho_phi_candidate, rho_r);
+    double trans = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r);
 
     /* === PHASE 5: Unified Dark Energy Mode Scaling ===
      * Determine coupling strength based on dark energy mode.
@@ -3617,30 +3657,48 @@ int background_derivs(
         + pba->K / a2
     );
 
-    /* === Improved H_dot estimate (less lagged) === */
-    double F_dot_bg = F_phi * phi_dot;  // F_dot = F_phi * phi_dot (physical time derivative)
-    double H_dot;
-    if (F > 1e-30) {
-      /* Approximate from differentiated Friedmann (leading order)
-         From 3F H² + 3H F_dot = rho_tot - 3FK/a²
-         Differentiate: 6F H H_dot + 3F_dot H_dot + 3F H_dot² + 3H F_ddot = ...
-         Simplified estimate: H_dot ≈ -(rho_tot + p_tot) * a / (2F) - (F_dot * H) / F
-       */
-      H_dot = - (3.0/2.0) * (pvecback[pba->index_bg_rho_tot] + pvecback[pba->index_bg_p_tot]) / F
-              - (F_dot_bg * H) / F
-              + pba->K / (a*a);
-    } else {
-      H_dot = pvecback[pba->index_bg_H_prime] / a;   // fallback to lagged value
-    }
+    /* === Exact Algebraic H_dot and phi_ddot (Eliminates lagged feedback) === */
+    /* Derivation treats activation trans factor as constant post-activation */
+    double F_safe = MAX(F, 1e-30);
+    double F_phiphi_bg = pvecback[pba->index_bg_F_phiphi_prtoe];
+    
+    /* PREVENT DOUBLE COUNTING: Use only standard fluid density for the RHS */
+    double rho_f = pvecback[pba->index_bg_rho_tot] - pvecback[pba->index_bg_rho_prtoe];
+    double p_f = pvecback[pba->index_bg_p_tot] - pvecback[pba->index_bg_p_prtoe];
+    
+    double F_dot_bg = F_phi * phi_dot;
+    double gal = pba->g3_prtoe / (pba->H0 * pba->H0);
+    double c_gal = 2.0 * gal * phi_dot * phi_dot * phi_dot;
 
-    /* === Improved Klein-Gordon equation (consistent with Friedmann) === */
-    /* From variation of F(φ)R - ½(∇φ)² - V(φ):
-       φ̈ + 3H φ̇ + V_φ = (F_φ / F) (Ḣ + 2H²) - (F_φ / F) (½ φ̇²)
-     */
-    double phi_ddot = -3.0 * H * phi_dot
-                      - V_phi
-                      + (F_phi / MAX(F, 1e-30)) * (H_dot + 2.0 * H * H)
-                      - (F_phi / MAX(F, 1e-30)) * (0.5 * phi_dot * phi_dot);  // friction from varying F
+    /* Equation 1: D_H * H_dot + C_H * phi_ddot = S_H */
+    double D_H = 2.0 * F_safe * H + F_dot_bg - c_gal;
+    double C_H = H * (F_phi - 6.0 * gal * phi_dot * phi_dot) - phi_dot;
+    double S_H = -F_dot_bg * H * H - H * F_phiphi_bg * phi_dot * phi_dot 
+                 - 3.0 * H * (rho_f + p_f) + V_phi * phi_dot 
+                 - F_dot_bg * pba->K / a2 + 2.0 * F_safe * H * pba->K / a2;
+
+    /* Equation 2: C_phi * H_dot + N_gal * phi_ddot = S_phi */
+    double C_phi = - (F_phi / F_safe - 3.0 * gal * phi_dot * phi_dot);
+    double N_gal = 1.0 + 6.0 * gal * H * phi_dot;
+    double S_phi = -V_phi - 3.0 * H * phi_dot 
+                   + (F_phi / F_safe) * (2.0 * H * H - 0.5 * phi_dot * phi_dot)
+                   - 9.0 * gal * H * H * phi_dot * phi_dot;
+
+    /* Cramer's Rule for 2x2 */
+    double det = D_H * N_gal - C_H * C_phi;
+    
+    double H_dot;
+    double phi_ddot;
+    
+    if (fabs(det) > 1e-25 && F > 1e-30) {
+      H_dot = (S_H * N_gal - C_H * S_phi) / det;
+      phi_ddot = (D_H * S_phi - C_phi * S_H) / det;
+    } else {
+      /* Fallback to lagged estimate if determinant vanishes or F is tiny */
+      H_dot = pvecback[pba->index_bg_H_prime] / a; 
+      phi_ddot = -3.0 * H * phi_dot - V_phi 
+                 + (F_phi / F_safe) * (H_dot + 2.0 * H * H - 0.5 * phi_dot * phi_dot);
+    }
 
     /* §2.4: explicit □F / ∇∇F background correction (FLRW reduction) */
     {
@@ -4048,7 +4106,7 @@ int prtoe_compute_quantities(
         rho_r += 3. * p_ncdm;
       }
     }
-    double trans_val = prtoe_covariant_trans(rho_phi_candidate, rho_r);
+    double trans_val = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r);
 
     /* xi_screened combines xi_eff with activation trans */
     double xi_effective = xi_eff * trans_val;

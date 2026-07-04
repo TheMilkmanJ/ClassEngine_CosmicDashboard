@@ -124,6 +124,7 @@ struct background
   int scf_parameters_size; /**< size of scf_parameters */
   double varconst_alpha; /**< finestructure constant for varying fundamental constants */
   double xi_prtoe;      /**< Non-minimal coupling xi; stability wedge: [1e-7, 1.2e-5] */
+  double xi1_prtoe;     /**< Linear non-minimal coupling xi_1 (drives early activation at z_eq) */
   double lambda_prtoe;  /**< Exponential potential slope lambda */
   double m_prtoe;       /**< Scalar field mass (quadratic potential term) */
   double beta_prtoe;    /**< Ricci-coupling beta; sampled as log10(beta) in [-8,-4] */
@@ -164,6 +165,14 @@ struct background
                                   _FALSE_ to explore large couplings; runtime stability
                                   checks and the reported local-gravity deviations then
                                   become the physical arbiters. */
+  double g3_prtoe; /**< PRTOE v2: dimensionless coefficient of the cubic galileon
+                        operator L3 = -(g3/Lambda^3) X box(phi) with X = -(1/2)(d phi)^2
+                        and Lambda^3 = M_Pl H0^2 (=> H0^2 in code units, phi in M_Pl
+                        units). g3 = 0 recovers PRTOE v1 exactly. Provides TRUE
+                        Vainshtein (kinetic/derivative) screening: suppresses the
+                        scalar response near massive bodies by (r/r_V)^{3/2} while
+                        leaving homogeneous cosmological evolution untouched —
+                        see docs/PRTOE_derivation.md §3. */
   double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
 
   /* Indices for the PRTOE background storage in table (index_bg) */
@@ -710,7 +719,7 @@ static inline double get_xi_eff(struct background *pba, double phi) {
     double phi2 = phi * phi;
     double denom = 1.0 + pba->zeta_prtoe * phi2;
     double S_phi = phi2 / denom;
-    return pba->xi_prtoe * S_phi;
+    return pba->xi1_prtoe * phi + pba->xi_prtoe * S_phi;
 }
 
 /**
@@ -778,8 +787,8 @@ static inline double prtoe_environmental_screening_at_rho_kg_m3(struct backgroun
  *  A = (1 + tanh((phi-phi_c)/dphi))/2  =>  A' = sech^2(u) / (2 dphi)          */
 static inline double prtoe_F_phi_of_phi(struct background *pba, double phi) {
     double zphi2 = 1.0 + pba->zeta_prtoe * phi * phi;
-    double xi_eff = pba->xi_prtoe * phi * phi / zphi2;
-    double xi_eff_p = 2.0 * pba->xi_prtoe * phi / (zphi2 * zphi2);
+    double xi_eff = pba->xi1_prtoe * phi + pba->xi_prtoe * phi * phi / zphi2;
+    double xi_eff_p = pba->xi1_prtoe + 2.0 * pba->xi_prtoe * phi / (zphi2 * zphi2);
     double dphi_w = MAX(pba->delta_phi_prtoe, 1e-30);
     double u = (phi - pba->phi_c_prtoe) / dphi_w;
     double tanh_u = tanh(u);
@@ -938,8 +947,19 @@ static inline double prtoe_nabla_box_F_background_correction(double F,
 }
 
 /**
- * Stable effective mass squared (shared by background and perturbations).
- * Uses R = 3H'/a + K/a^2 - H^2 instead of raw 6(H'/a + 2H^2 + K/a^2).
+ * Effective mass squared (shared by background and perturbations),
+ * derived as -(d/dphi) of the implemented KG right-hand side
+ *   RHS = (F_phi/F)(Hdot + 2H^2) - (F_phi/F)(phidot^2/2),
+ * so   m_eff^2 = V_phiphi - [F_phiphi/F - (F_phi/F)^2] * [(Hdot + 2H^2) - phidot^2/2].
+ *
+ * NOTE (2026-07-03): the previous version used an ad hoc
+ * "R_stable = 3H'/a + K/a^2 - H^2", which is NOT the Ricci scalar and equals
+ * -7H^2 in the radiation era where the true curvature combination
+ * (Hdot + 2H^2) = R/6 vanishes identically. With a quadratic-only coupling
+ * (F_phi(0) = 0) the error was multiplied to zero and invisible; the linear
+ * coupling xi1 exposed it as a spurious m_eff^2 ~ -1.75 H^2 tachyon at
+ * early times. The trace structure now does its job: m_eff^2 -> V_phiphi
+ * in the radiation era.
  */
 static inline double prtoe_compute_meff2(double V_phiphi,
                                          double F,
@@ -951,10 +971,9 @@ static inline double prtoe_compute_meff2(double V_phiphi,
                                          double K,
                                          double phi_dot) {
     double F_safe = MAX(F, 1e-30);
-    double R_stable = 3.0 * H_prime / a + K / (a * a) - H * H;
-    return V_phiphi
-         + (F_phi / F_safe) * R_stable
-         - (F_phiphi / F_safe) * (phi_dot * phi_dot);
+    double curv = H_prime / a + 2.0 * H * H + K / (a * a);  /* = R/6 in FLRW */
+    double G2 = F_phiphi / F_safe - (F_phi / F_safe) * (F_phi / F_safe);
+    return V_phiphi - G2 * (curv - 0.5 * phi_dot * phi_dot);
 }
 
 /** Blend a coupling ratio toward unity: 1 + g*(ratio - 1). g=0 → GR, g=1 → full ratio. */
@@ -965,11 +984,31 @@ static inline double prtoe_blend_coupling(double g_coupling, double ratio) {
 /** Cassini-scale bound on effective coupling xi_eff(phi) at solar-system densities. */
 #define PRTOE_FIFTH_FORCE_XI_EFF_MAX 1e-5
 
-/** PPN γ−1 ≈ G_eff/G − 1 at a screened environment density [kg/m^3]. */
+/**
+ * PRTOE v2: Vainshtein suppression factor for the solar-system PPN estimate.
+ * Cubic galileon around a mass with Schwarzschild radius r_s develops
+ * r_V = (g3 r_s / Lambda^3)^{1/3}  (Lambda^3 = H0^2 in code units), inside
+ * which the scalar force is suppressed by (r/r_V)^{3/2}. Evaluated at
+ * r = 1 AU for the Sun (Cassini geometry). Returns 1 when g3 = 0 (v1).
+ */
+#define PRTOE_R_S_SUN_MPC 9.57e-20  /* 2GM_sun/c^2 in Mpc */
+#define PRTOE_AU_MPC      4.848e-12
+static inline double prtoe_vainshtein_suppression_sun(struct background *pba) {
+    if (pba->g3_prtoe == 0.0) return 1.0;
+    double rV3 = fabs(pba->g3_prtoe) * PRTOE_R_S_SUN_MPC / (pba->H0 * pba->H0);
+    double rV = pow(rV3, 1.0/3.0);
+    if (rV <= PRTOE_AU_MPC) return 1.0;
+    double eps = pow(PRTOE_AU_MPC / rV, 1.5);
+    return MIN(1.0, eps);
+}
+
+/** PPN γ−1 ≈ G_eff/G − 1 at a screened environment density [kg/m^3],
+ *  times the Vainshtein factor when the galileon term is active (v2). */
 static inline double prtoe_ppn_gamma_minus_one_at_rho(struct background *pba,
                                                       double rho_kg_m3) {
     double phi_eq = prtoe_phi_at_matter_density_kg_m3(pba, rho_kg_m3);
-    return prtoe_G_eff_over_G_at_environment(pba, phi_eq, rho_kg_m3) - 1.0;
+    double raw = prtoe_G_eff_over_G_at_environment(pba, phi_eq, rho_kg_m3) - 1.0;
+    return raw * prtoe_vainshtein_suppression_sun(pba);
 }
 
 /**

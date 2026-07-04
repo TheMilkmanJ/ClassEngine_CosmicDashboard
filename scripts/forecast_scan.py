@@ -15,7 +15,8 @@ import sys
 import numpy as np
 from classy import Class
 
-XI_GRID = [1e-7, 5e-7, 1e-6, 3e-6, 6e-6, 1.2e-5]
+XI_GRID = [1e-5, 1e-4, 1e-3, 1e-2, 0.1, 1.0]
+G3_GRID = [0.1, 1.0, 10.0]
 Z_FS8 = [0.0, 0.5, 1.0, 1.5]
 KVEC = np.logspace(-2, np.log10(0.5), 12)          # h/Mpc
 LMAX = 500
@@ -61,45 +62,48 @@ def main():
     lcdm = run_model({'Omega_Lambda': 0.7})
 
     results = {}
-    for xi in XI_GRID:
-        tag = f"xi={xi:.1e}"
-        print(f"[scan] PRTOE {tag} ...", flush=True)
-        try:
-            m = run_model({
-                'use_prtoe': 'yes', 'xi_prtoe': xi, 'Omega0_prtoe': 0.7,
-                'Omega_Lambda': 0.0,
-            })
-        except Exception as e:
-            print(f"[scan]   FAILED: {e}", flush=True)
-            results[tag] = {'error': str(e)}
-            continue
+    for g3 in G3_GRID:
+        for xi in XI_GRID:
+            tag = f"xi={xi:.1e}_g3={g3:.1e}"
+            print(f"[scan] PRTOE {tag} ...", flush=True)
+            try:
+                m = run_model({
+                    'use_prtoe': 'yes', 'xi_prtoe': xi, 'g3_prtoe': g3, 'Omega0_prtoe': 0.7,
+                    'Omega_Lambda': 0.0,
+                    # surface the |dG/G| / PPN-gamma report for each xi in the log
+                    'background_verbose': 1,
+                })
+            except Exception as e:
+                print(f"[scan]   FAILED: {e}", flush=True)
+                results[tag] = {'error': str(e)}
+                continue
 
-        d_fs8 = frac_dev(m['fsigma8'], lcdm['fsigma8'])
-        d_pk = frac_dev(m['pk'], lcdm['pk'])
-        d_tt = frac_dev(m['tt'], lcdm['tt'])
-        d_ee = frac_dev(m['ee'], lcdm['ee'])
-        res = {
-            'fsigma8_dev': d_fs8.tolist(),
-            'fsigma8_max': float(d_fs8.max()),
-            'pk_dev_by_k': dict(zip([f"{k:.3f}" for k in KVEC], d_pk.tolist())),
-            'pk_max': float(d_pk.max()),
-            'pk_scale_dependence': float(d_pk.max() - d_pk.min()),
-            'tt_max': float(d_tt.max()),
-            'tt_argmax_l': int(np.argmax(d_tt) + 2),
-            'ee_max': float(d_ee.max()),
-            'sigma8_dev': float(abs(m['sigma8'] - lcdm['sigma8']) / lcdm['sigma8']),
-            'snr': {
-                'fsigma8': float(d_fs8.max() / SURVEY_PRECISION['fsigma8']),
-                'pk': float(d_pk.max() / SURVEY_PRECISION['pk']),
-                'cl_tt': float(d_tt.max() / SURVEY_PRECISION['cl']),
-            },
-        }
-        results[tag] = res
-        print(f"[scan]   fs8_max={res['fsigma8_max']:.2e}  pk_max={res['pk_max']:.2e} "
-              f"(scale-dep {res['pk_scale_dependence']:.2e})  "
-              f"TT_max={res['tt_max']:.2e}@l={res['tt_argmax_l']}  "
-              f"SNR(fs8)={res['snr']['fsigma8']:.2f} SNR(pk)={res['snr']['pk']:.2f} "
-              f"SNR(TT)={res['snr']['cl_tt']:.2f}", flush=True)
+            d_fs8 = frac_dev(m['fsigma8'], lcdm['fsigma8'])
+            d_pk = frac_dev(m['pk'], lcdm['pk'])
+            d_tt = frac_dev(m['tt'], lcdm['tt'])
+            d_ee = frac_dev(m['ee'], lcdm['ee'])
+            res = {
+                'fsigma8_dev': d_fs8.tolist(),
+                'fsigma8_max': float(d_fs8.max()),
+                'pk_dev_by_k': dict(zip([f"{k:.3f}" for k in KVEC], d_pk.tolist())),
+                'pk_max': float(d_pk.max()),
+                'pk_scale_dependence': float(d_pk.max() - d_pk.min()),
+                'tt_max': float(d_tt.max()),
+                'tt_argmax_l': int(np.argmax(d_tt) + 2),
+                'ee_max': float(d_ee.max()),
+                'sigma8_dev': float(abs(m['sigma8'] - lcdm['sigma8']) / lcdm['sigma8']),
+                'snr': {
+                    'fsigma8': float(d_fs8.max() / SURVEY_PRECISION['fsigma8']),
+                    'pk': float(d_pk.max() / SURVEY_PRECISION['pk']),
+                    'cl_tt': float(d_tt.max() / SURVEY_PRECISION['cl']),
+                },
+            }
+            results[tag] = res
+            print(f"[scan]   fs8_max={res['fsigma8_max']:.2e}  pk_max={res['pk_max']:.2e} "
+                  f"(scale-dep {res['pk_scale_dependence']:.2e})  "
+                  f"TT_max={res['tt_max']:.2e}@l={res['tt_argmax_l']}  "
+                  f"SNR(fs8)={res['snr']['fsigma8']:.2f} SNR(pk)={res['snr']['pk']:.2f} "
+                  f"SNR(TT)={res['snr']['cl_tt']:.2f}", flush=True)
 
     with open('chains/forecast_scan_results.json', 'w') as f:
         json.dump({'lcdm_sigma8': lcdm['sigma8'], 'results': results}, f, indent=1)

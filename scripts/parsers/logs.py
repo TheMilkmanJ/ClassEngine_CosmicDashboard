@@ -127,9 +127,9 @@ def get_best_fit_from_log(log_path, state):
                         chi2_cmb = params_dict.get('chi2__CMB', cmb_sum)
                         chi2_sn = params_dict.get('chi2__SN', sn_sum)
 
-                        tot = (chi2_bao or 0.0) + (chi2_cmb or 0.0) + (chi2_sn or 0.0)
+                        tot = sum([params_dict[k] for k in chi2_keys])
                         if tot == 0.0:
-                            tot = sum([params_dict[k] for k in chi2_keys])
+                            tot = (chi2_bao or 0.0) + (chi2_cmb or 0.0) + (chi2_sn or 0.0)
 
                         if tot < best_chi2:
                             best_chi2 = tot

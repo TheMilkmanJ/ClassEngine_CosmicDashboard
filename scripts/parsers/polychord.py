@@ -26,16 +26,21 @@ def get_output_prefix_from_yaml(config_path: str) -> str:
         raise HTTPException(status_code=400, detail="Path traversal detected in YAML 'output' configuration.")
     return prefix
 
-def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optional[Path]:
+def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "", allow_alphabetized: bool = True) -> Optional[Path]:
     """Finds a configuration YAML file corresponding to output_prefix."""
     # 1. Prefer explicit active config — preserves Cobaya chain column order.
     if active_yaml_path and Path(active_yaml_path).exists():
         try:
+            active_path = Path(active_yaml_path).resolve()
+            allowed_dir = Path(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.expanduser("~")).resolve()
+            active_path.relative_to(allowed_dir)
             if get_output_prefix_from_yaml(active_yaml_path) == output_prefix:
-                with open(active_yaml_path, 'r') as f:
+                with open(active_path, 'r') as f:
                     content = yaml.safe_load(f)
                 if isinstance(content, dict):
-                    return Path(active_yaml_path)
+                    return active_path
+        except ValueError:
+            raise HTTPException(status_code=400, detail="Access denied: invalid active YAML path.")
         except Exception:
             pass
 
@@ -74,7 +79,7 @@ def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optio
     # 4. LAST resort: updated.yaml — params are alphabetized so the column mapping
     #    is only safe for files WITH a header (mapped by name, not position).
     updated_yaml = Path(f"{output_prefix}.updated.yaml")
-    if updated_yaml.exists():
+    if allow_alphabetized and updated_yaml.exists():
         try:
             with open(updated_yaml, 'r') as f:
                 content = yaml.safe_load(f)

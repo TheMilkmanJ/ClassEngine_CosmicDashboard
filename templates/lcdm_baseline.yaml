@@ -1,33 +1,23 @@
-# lcdm_baseline.yaml (dashboard template)
-# Fair ΛCDM baseline paired with prtoe_standard.yaml — synced from lcdm_comparison.yaml
-#
-# Key fixes vs the old lcdm_baseline template:
-#   1. nlive: 500 (was 200)
-#   2. num_repeats: 30 (was 20) — avoids poor A_planck mixing
-#   3. m_ncdm fixed at 0.06 eV — matches PRTOE standard
-#   4. Priors match prtoe_standard.yaml for fair evidence comparison
-#   5. Added S8, sigma8, and χ² breakdown derived params
-
 output: chains/lcdm_baseline
 packages_path: /home/themilkmanj/cobaya_packages_clean
 debug: false
-
 theory:
   classy:
+    path: /home/themilkmanj/prtoe_class
     stop_at_error: false
     extra_args:
       use_prtoe: 'no'
       non_linear: halofit
-      output: 'mPk,tCl,pCl,lCl'
+      output: mPk,tCl,pCl,lCl
       modes: s
       N_ur: 2.0328
       N_ncdm: 1
       T_ncdm: 0.71611
       l_max_scalars: 2508
       lensing: 'yes'
-      z_pk: '0.61 0.51 0.38'
+      z_pk: 0.61 0.51 0.38
       P_k_max_1/Mpc: 1
-
+      z_max_pk: 2.5
 likelihood:
   planck_2018_lowl.TT: null
   planck_2018_lowl.EE: null
@@ -38,7 +28,6 @@ likelihood:
   bao.sdss_dr12_consensus_final: null
   bao.desi_2024_bao_all: null
   sn.pantheonplusshoes: null
-
 params:
   omega_b:
     prior:
@@ -47,7 +36,6 @@ params:
     ref: 0.0224
     proposal: 0.0001
     latex: \Omega_\mathrm{b} h^2
-
   omega_cdm:
     prior:
       min: 0.1
@@ -55,7 +43,6 @@ params:
     ref: 0.12
     proposal: 0.001
     latex: \Omega_\mathrm{c} h^2
-
   H0:
     prior:
       min: 55.0
@@ -63,7 +50,6 @@ params:
     ref: 67.4
     proposal: 0.5
     latex: H_0
-
   logA:
     prior:
       min: 1.61
@@ -72,11 +58,9 @@ params:
     proposal: 0.005
     latex: \ln(10^{10} A_\mathrm{s})
     drop: true
-
   A_s:
     value: 'lambda logA: 1e-10 * np.exp(logA)'
     latex: A_\mathrm{s}
-
   n_s:
     prior:
       min: 0.8
@@ -84,7 +68,6 @@ params:
     ref: 0.965
     proposal: 0.004
     latex: n_\mathrm{s}
-
   z_reio:
     prior:
       min: 5.0
@@ -92,11 +75,9 @@ params:
     ref: 8.0
     proposal: 0.1
     latex: z_\mathrm{reio}
-
   m_ncdm:
     value: 0.06
     latex: \sum m_\nu \ [\mathrm{eV}]
-
   A_planck:
     prior:
       dist: norm
@@ -106,30 +87,24 @@ params:
     proposal: 0.0002
     latex: A_\mathrm{planck}
     renames: calPlanck
-
   sigma8:
     latex: \sigma_8
-
   Omega_m:
     latex: \Omega_\mathrm{m}
-
   S8:
     derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
     latex: S_8
-
   chi2__BAO:
     latex: \chi^2_\mathrm{BAO}
   chi2__CMB:
     latex: \chi^2_\mathrm{CMB}
   chi2__SN:
     latex: \chi^2_\mathrm{SN}
-
 sampler:
   polychord:
     nlive: 500
     num_repeats: 30
     precision_criterion: 0.001
-    max_ndead: 5000
     do_clustering: true
     feedback: 1
     synchronous: false

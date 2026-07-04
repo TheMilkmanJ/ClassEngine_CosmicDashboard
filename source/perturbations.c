@@ -9632,12 +9632,41 @@ int prtoe_perturbations_derivs(
        source previously kept their physical form (k²/a², bare m_eff²), which is
        inconsistent by factors of a² and made the ODE catastrophically stiff at
        early times (k²/a² → ∞ as a → 0). */
+    /* === Cubic-galileon (kinetic gravity braiding) corrections, v2/v3 ===
+       From the quadratic action of L3 = -(g3/Lambda^3) X box(phi) on FLRW,
+       to first order in the braiding alpha_B ~ 6(g3/Lambda^3) H phidot
+       (DPSV 2010 structure; metric perturbations in L3 neglected, valid
+       for alpha_B << 1 which holds throughout the compatible window
+       g3 <~ 1e-10 -- see docs/PRTOE_derivation.md par.4):
+         N_gal    = 1 + 6 (g3/L3) H phidot           (kinetic normalization; N>0 = no ghost)
+         cs2_gal  = [1 + 2 (g3/L3)(phiddot + 2H phidot)] / N_gal   (>0 = gradient-stable)
+       The delta-phi equation becomes
+         N_gal dphi'' + (friction) dphi' + (cs2_gal k^2 + a^2[...]) dphi = a^2 S. */
+    double N_gal = 1.0, cs2_gal = 1.0;
+    if (pba->g3_prtoe != 0.0) {
+      double gal = pba->g3_prtoe / (pba->H0 * pba->H0);
+      double phi_ddot_bg = 0.0;
+      if (pba->index_bg_ddphi_prtoe >= 0) {
+        phi_ddot_bg = (pvecback[pba->index_bg_ddphi_prtoe] - a_prime_over_a * dphi) / a2;
+      }
+      N_gal = 1.0 + 6.0 * gal * H * phi_dot;
+      class_test(N_gal <= 0.0,
+                 error_message,
+                 "PRTOE galileon GHOST: kinetic normalization N=%e <= 0 at a=%e (g3=%e)",
+                 N_gal, a, pba->g3_prtoe);
+      cs2_gal = (1.0 + 2.0 * gal * (phi_ddot_bg + 2.0 * H * phi_dot)) / N_gal;
+      if (cs2_gal < 0.0 && ppt->perturbations_verbose > 0) {
+        fprintf(stderr, "PRTOE WARNING: galileon gradient instability cs2=%e at a=%e\n",
+                cs2_gal, a);
+      }
+    }
+
     dy[ppw->pv->index_pt_ddelta_prtoe] =
-          - (2.0*a_prime_over_a + (F_phi/F)*dphi) * ddelta_phi
-          - (k2 + a2 * (m_eff2 + beta_k2_term
+        ( - (2.0*a_prime_over_a + (F_phi/F)*dphi) * ddelta_phi
+          - (cs2_gal * k2 + a2 * (m_eff2 + beta_k2_term
                         + (F_phiphi/F) * phi_dot * phi_dot
                         - 3.0 * (F_phi/F) * metric_curv)) * delta_phi
-          + a2 * metric_src;
+          + a2 * metric_src ) / N_gal;
 
     dy[ppw->pv->index_pt_delta_prtoe] = ddelta_phi;
 

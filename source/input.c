@@ -3228,6 +3228,7 @@ int input_read_parameters_species(struct file_content * pfc,
   pba->use_prtoe = _FALSE_;
   pba->prtoe_ablate_gates = _FALSE_;
   pba->prtoe_enforce_wedge = _FALSE_;
+  pba->g3_prtoe = 0.0;
   pba->Omega0_prtoe = 0.;
 
   /* Read use_prtoe early to avoid budget overkill */
@@ -3466,7 +3467,9 @@ int input_read_parameters_species(struct file_content * pfc,
   pba->use_prtoe = _FALSE_;
   pba->prtoe_ablate_gates = _FALSE_;
   pba->prtoe_enforce_wedge = _FALSE_;
+  pba->g3_prtoe = 0.0;
   pba->xi_prtoe = 1.0e-7;
+  pba->xi1_prtoe = 0.0;
   pba->beta_prtoe = 1.0e-6;
   pba->lambda_prtoe = 0.05;
   pba->m_prtoe = 0.05;  /* Scalar field mass */
@@ -3507,7 +3510,10 @@ int input_read_parameters_species(struct file_content * pfc,
   class_read_flag("use_prtoe",        pba->use_prtoe);
   /* Diagnostic: force activation gates to 1 (see background.h) */
   class_read_flag("prtoe_ablate_gates", pba->prtoe_ablate_gates);
+  /* PRTOE v2: cubic galileon coefficient (0 = v1, no galileon) */
+  class_read_double("g3_prtoe", pba->g3_prtoe);
   class_read_double("xi_prtoe",       pba->xi_prtoe);
+  class_read_double("xi1_prtoe",      pba->xi1_prtoe);
   class_read_double("beta_prtoe",     pba->beta_prtoe);
   class_read_double("lambda_prtoe",   pba->lambda_prtoe);
   class_read_double("m_prtoe",        pba->m_prtoe);
@@ -6202,8 +6208,10 @@ int input_default_params(struct background *pba,
   pba->use_prtoe = _FALSE_;
   pba->prtoe_ablate_gates = _FALSE_;
   pba->prtoe_enforce_wedge = _FALSE_;
+  pba->g3_prtoe = 0.0;
   pba->Omega0_prtoe = 0.0;
   pba->xi_prtoe = 1.0e-7;
+  pba->xi1_prtoe = 0.0;
   pba->beta_prtoe = 1.0e-6;
   pba->lambda_prtoe = 0.05;
   pba->m_prtoe = 0.05;

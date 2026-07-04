@@ -119,8 +119,10 @@ def test_solar_system_orbit(params: dict) -> tuple[bool, dict]:
     return ok, {"gamma_minus_one": gamma_m1, "precession_excess_rad": excess}
 
 
-def test_ep_torsion_balance(params: dict, g_b: float = 1.0, g_c: float = 1.0) -> tuple[bool, dict]:
+def test_ep_torsion_balance(params: dict) -> tuple[bool, dict]:
     """EP / torsion-balance: baryon and CDM couplings must agree at lab density."""
+    g_b = params.get('g_b', 1.0)
+    g_c = params.get('g_c', 1.0)
     geff = g_eff_over_g(rho_kg_m3=RHO_LAB, **params)
     eta = equivalence_principle_eta(g_b, g_c, geff)
     ok = eta <= EP_ETA_MAX

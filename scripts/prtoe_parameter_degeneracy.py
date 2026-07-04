@@ -14,7 +14,12 @@ import matplotlib.pyplot as plt
 from itertools import product
 
 # Add the prtoe_class directory to the path BEFORE importing classy
-sys.path.insert(0, '/home/themilkmanj/prtoe_class/python')
+# Add the prtoe_class directory to the path BEFORE importing classy
+PRTOE_CLASS_PYTHON = os.environ.get(
+    'PRTOE_CLASS_PYTHON',
+    os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'python')),
+)
+sys.path.insert(0, PRTOE_CLASS_PYTHON)
 
 import classy
 
@@ -196,8 +201,10 @@ def parameter_scan():
                 plt.plot(param_vals, obs_vals, 'o-', label=param_name)
         
         # Add LambdaCDM reference
-        lcdm_val = df[df['name'] == 'LambdaCDM'][obs].values[0]
-        plt.axhline(y=lcdm_val, color='black', linestyle='--', label='LambdaCDM')
+        lcdm_rows = df[df['name'] == 'LambdaCDM']
+        if not lcdm_rows.empty:
+            lcdm_val = lcdm_rows[obs].values[0]
+            plt.axhline(y=lcdm_val, color='black', linestyle='--', label='LambdaCDM')
         
         plt.xlabel('Parameter Value')
         plt.ylabel(obs)
@@ -309,7 +316,8 @@ def sensitivity_analysis():
         return
     
     # LambdaCDM reference
-    lcdm = df[df['name'] == 'LambdaCDM'].iloc[0]
+    lcdm_rows = df[df['name'] == 'LambdaCDM']
+    lcdm = lcdm_rows.iloc[0] if not lcdm_rows.empty else None
     
     # Compute percentage changes
     observables = ['H0', 'Omega_prtoe', 'phi_final', 'F_final']
