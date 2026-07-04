@@ -25,305 +25,8 @@
  */
 
 #include "perturbations.h"
-
 #include "parallel.h"
 
-/* Guard against multi-million tau grids (e.g. a_ini=1e-18) blowing RAM / int indices */
-#define _PERTURBATIONS_MAX_TAU_SAMPLING_ 300000
-/* Back off adaptive stepsize instead of replacing the grid when the cap is hit early */
-#define _PERTURBATIONS_TAU_CAP_MAX_RETRIES_ 6
-#define _PERTURBATIONS_TAU_CAP_BACKOFF_FACTOR_ 2.0
-/* Cap inverse timescale so PRTOE early-time rates cannot force sub-physical dtau steps */
-#define _PERTURBATIONS_MAX_INVERSE_TIMESCALE_ 1.e7
-
-static double perturbations_effective_dtau(
-    double sampling_stepsize,
-    double inverse_timescale_source,
-    double conformal_age) {
-  double dtau;
-  const double dtau_min = conformal_age / (0.45 * (double)_PERTURBATIONS_MAX_TAU_SAMPLING_);
-  if (inverse_timescale_source > _PERTURBATIONS_MAX_INVERSE_TIMESCALE_) {
-    inverse_timescale_source = _PERTURBATIONS_MAX_INVERSE_TIMESCALE_;
-  }
-  dtau = sampling_stepsize * inverse_timescale_source;
-  if (dtau < dtau_min) {
-    dtau = dtau_min;
-  }
-  return dtau;
-}
-
-/**
- * PRTOE helper function: Compute delta_F and derivatives for perturbation equations
- * Based on PRTOE_Full_Implementation_Spec_v1.md Section 3.3
- */
-static inline void prtoe_compute_delta_F(
-    double phi_prime, double phi_primeprime,
-    double F_phi, double F_phiphi, double F_phiphiphi,
-    double delta_phi, double delta_phi_prime, double delta_phi_primeprime,
-    double *delta_F, double *delta_F_prime, double *delta_F_primeprime
-) {
-  *delta_F = F_phi * delta_phi;
-  *delta_F_prime = F_phiphi * phi_prime * delta_phi + F_phi * delta_phi_prime;
-  *delta_F_primeprime = F_phiphiphi * (phi_prime*phi_prime) * delta_phi
-                    + F_phiphi * (phi_primeprime * delta_phi + 2*phi_prime*delta_phi_prime)
-                    + F_phi * delta_phi_primeprime;
-}
-
-/** Fill delta_F, delta_F', delta_F'' from perturbation state (full chain rule). */
-static inline void prtoe_fill_delta_F_from_state(
-    struct background *pba,
-    struct perturbations_workspace *ppw,
-    double k,
-    double *y,
-    double *delta_F,
-    double *delta_F_prime,
-    double *delta_F_primeprime
-) {
-  double a = ppw->pvecback[pba->index_bg_a];
-  double a_prime_over_a = ppw->pvecback[pba->index_bg_H] * a;
-  double k2 = k * k;
-
-  *delta_F = 0.0;
-  *delta_F_prime = 0.0;
-  *delta_F_primeprime = 0.0;
-
-  if (pba->use_prtoe != _TRUE_
-      || pba->index_bg_rho_prtoe < 0
-      || !prtoe_is_physically_active(pba)
-      || !prtoe_is_covariantly_active_at_tau(pba, ppw->pvecback[pba->index_bg_rho_prtoe])
-      || ppw->pv->index_pt_delta_prtoe < 0
-      || ppw->pv->index_pt_ddelta_prtoe < 0) {
-    return;
-  }
-
-  double F = ppw->pvecback[pba->index_bg_F_prtoe];
-  double F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
-  double F_phiphi = ppw->pvecback[pba->index_bg_F_phiphi_prtoe];
-  double F_phiphiphi = ppw->pvecback[pba->index_bg_F_phiphiphi_prtoe];
-  double phi_prime_bg = ppw->pvecback[pba->index_bg_dphi_prtoe];
-  double phi_primeprime_bg = ppw->pvecback[pba->index_bg_ddphi_prtoe];
-  double V_phi = ppw->pvecback[pba->index_bg_dV_scf];
-
-  double delta_phi = y[ppw->pv->index_pt_delta_prtoe];
-  double delta_phi_prime = y[ppw->pv->index_pt_ddelta_prtoe];
-  double delta_phi_primeprime = prtoe_linearized_delta_phi_primeprime(
-      k2, a, a_prime_over_a, delta_phi, delta_phi_prime, V_phi, F);
-
-  prtoe_compute_delta_F(phi_prime_bg, phi_primeprime_bg,
-                        F_phi, F_phiphi, F_phiphiphi,
-                        delta_phi, delta_phi_prime, delta_phi_primeprime,
-                        delta_F, delta_F_prime, delta_F_primeprime);
-}
-
-/** Accumulate PRTOE δF anisotropic stress into rho_plus_p_shear (ψ / constraint path). */
-static inline void prtoe_accumulate_delta_F_shear(
-    struct background *pba,
-    struct perturbations_workspace *ppw,
-    double k,
-    double *y)
-{
-  if (!prtoe_is_physically_active(pba)
-      || pba->index_bg_rho_prtoe < 0
-      || ppw->pv->index_pt_delta_prtoe < 0
-      || ppw->pv->index_pt_ddelta_prtoe < 0
-      || !prtoe_is_covariantly_active_at_tau(pba, ppw->pvecback[pba->index_bg_rho_prtoe]))
-    return;
-
-  if (pba->index_bg_F_prtoe < 0 || pba->index_bg_F_phi_prtoe < 0
-      || pba->index_bg_F_phiphi_prtoe < 0 || pba->index_bg_F_phiphiphi_prtoe < 0
-      || pba->index_bg_dphi_prtoe < 0 || pba->index_bg_ddphi_prtoe < 0)
-    return;
-
-  double delta_F_local = 0.0;
-  double delta_F_prime_local = 0.0;
-  double delta_F_primeprime_local = 0.0;
-  prtoe_fill_delta_F_from_state(pba, ppw, k, y,
-                                &delta_F_local, &delta_F_prime_local, &delta_F_primeprime_local);
-
-  double a_local = ppw->pvecback[pba->index_bg_a];
-  double a2_local = a_local * a_local;
-  double a_prime_over_a_local = ppw->pvecback[pba->index_bg_H] * a_local;
-  double k2_local = k * k;
-
-  /* Store unscaled anisotropic stress; G_eff=1/F is applied once in psi assembly. */
-  ppw->rho_plus_p_shear += a2_local
-    * (delta_F_primeprime_local
-       + 2.0 * a_prime_over_a_local * delta_F_prime_local
-       - (k2_local / 3.0) * delta_F_local);
-}
-
-/** True when PRTOE perturbations participate in the metric constraint at IC time. */
-static inline int prtoe_metric_ic_active(
-    struct background *pba,
-    struct perturbations_workspace *ppw)
-{
-  if (pba->use_prtoe != _TRUE_ || pba->index_bg_rho_prtoe < 0 || ppw->pv->index_pt_delta_prtoe < 0)
-    return _FALSE_;
-  double rho_prtoe = ppw->pvecback[pba->index_bg_rho_prtoe];
-  return (prtoe_is_physically_active(pba)
-          && prtoe_is_covariantly_active_at_tau(pba, rho_prtoe));
-}
-
-/**
- * Section 10.4: seed delta_phi from the curvature perturbation zeta (eta proxy)
- * and return the coupled synchronous metric variable eta_prtoe.
- */
-static inline void prtoe_couple_metric_ic_from_zeta(
-    struct background *pba,
-    struct perturbations_workspace *ppw,
-    double zeta,
-    double *delta_phi,
-    double *eta_metric)
-{
-  double Phi_ini = -2./3. * zeta;
-
-  /* Synchronous metric seed: ζ (linear). Never derive η from δφ — that squares F_φ/F. */
-  *eta_metric = zeta;
-  *delta_phi = 0.;
-
-  if (!prtoe_metric_ic_active(pba, ppw))
-    return;
-
-  double F = ppw->pvecback[pba->index_bg_F_prtoe];
-  double F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
-  if (fabs(F) < 1e-30)
-    return;
-
-  *delta_phi = -(F_phi/F) * Phi_ini;
-}
-
-/** Newtonian ψ = Φ − (9/2)(a/k)² ρ_shear/F, matching perturbations_einstein(). */
-static inline double prtoe_newtonian_psi(
-    struct background *pba,
-    struct perturbations_workspace *ppw,
-    double k2,
-    double phi,
-    double rho_plus_p_shear)
-{
-  double G_eff_metric = 1.0;
-  if (pba->de_mode == prtoe_active
-      && pba->index_bg_F_prtoe >= 0
-      && pba->index_bg_rho_prtoe >= 0
-      && prtoe_is_covariantly_active_at_tau(pba, ppw->pvecback[pba->index_bg_rho_prtoe])) {
-    double F = ppw->pvecback[pba->index_bg_F_prtoe];
-    class_test(F <= 0.0 || !isfinite(F),
-               pba->error_message,
-               "PRTOE metric received non-positive/non-finite conformal coupling F=%e",
-               F);
-    G_eff_metric = 1.0 / F;
-  }
-  double a2 = ppw->pvecback[pba->index_bg_a];
-  a2 *= a2;
-  return phi - 4.5 * (a2 / k2) * rho_plus_p_shear * G_eff_metric;
-}
-
-/**
- * PRTOE scalar stress-energy (δρ, δp, (ρ+p)θ) — shared by total_stress_energy()
- * and Newtonian IC constraint assembly.
- */
-static inline int prtoe_fill_scalar_stress_energy(
-    struct background *pba,
-    struct perturbations *ppt,
-    struct perturbations_workspace *ppw,
-    double k,
-    double *y,
-    double *delta_rho_scf,
-    double *delta_p_scf,
-    double *rho_plus_p_theta_scf)
-{
-  *delta_rho_scf = 0.;
-  *delta_p_scf = 0.;
-  *rho_plus_p_theta_scf = 0.;
-
-  if (pba->de_mode != prtoe_active
-      || pba->index_bg_rho_prtoe < 0
-      || ppw->pv->index_pt_delta_prtoe < 0
-      || !prtoe_is_covariantly_active_at_tau(pba, ppw->pvecback[pba->index_bg_rho_prtoe]))
-    return _FALSE_;
-
-  double rho_prtoe_bg = ppw->pvecback[pba->index_bg_rho_prtoe];
-  if (rho_prtoe_bg <= 1e-30)
-    return _FALSE_;
-
-  double a = ppw->pvecback[pba->index_bg_a];
-  double a2 = a * a;
-  double k2 = k * k;
-  double dphi = ppw->pvecback[pba->index_bg_dphi_prtoe];
-  double dV = ppw->pvecback[pba->index_bg_dV_scf];
-  double ddelta_phi = 0.;
-  if (ppw->pv->index_pt_ddelta_prtoe >= 0)
-    ddelta_phi = y[ppw->pv->index_pt_ddelta_prtoe];
-
-  if (ppt->gauge == synchronous) {
-    *delta_rho_scf = 1./3.*
-      (1./a2 * dphi * ddelta_phi
-       + dV * y[ppw->pv->index_pt_delta_prtoe]);
-    *delta_p_scf = 1./3.*
-      (1./a2 * dphi * ddelta_phi
-       - dV * y[ppw->pv->index_pt_delta_prtoe]);
-  } else {
-    double psi = prtoe_newtonian_psi(pba, ppw, k2, y[ppw->pv->index_pt_phi],
-                                     ppw->rho_plus_p_shear);
-    *delta_rho_scf = 1./3.*
-      (1./a2 * dphi * ddelta_phi
-       + dV * y[ppw->pv->index_pt_delta_prtoe]
-       - 1./a2 * dphi * dphi * psi);
-    *delta_p_scf = 1./3.*
-      (1./a2 * dphi * ddelta_phi
-       - dV * y[ppw->pv->index_pt_delta_prtoe]
-       - 1./a2 * dphi * dphi * psi);
-  }
-  *rho_plus_p_theta_scf = 1./3. * k2 / a2 * dphi * y[ppw->pv->index_pt_delta_prtoe];
-  return _TRUE_;
-}
-
-/** Matter-source cluster weight (matches perturbations_total_stress_energy routing). */
-static inline double prtoe_matter_cluster_weight(struct background *pba)
-{
-  if (prtoe_unified_dark_sector_active(pba))
-    return 1.0;
-  if (pba->unify_dark_sector == _TRUE_)
-    return prtoe_clustering_weight_cdm(pba);
-  return 1.0;
-}
-
-/** Add PRTOE density/velocity into the Newtonian constraint sums before solving alpha/phi. */
-static inline void prtoe_add_to_newtonian_constraint(
-    struct background *pba,
-    struct perturbations *ppt,
-    struct perturbations_workspace *ppw,
-    double k,
-    double rho_r,
-    double rho_m_over_rho_r,
-    double *delta_tot,
-    double *velocity_tot)
-{
-  if (!prtoe_metric_ic_active(pba, ppw))
-    return;
-
-  double rho_prtoe = ppw->pvecback[pba->index_bg_rho_prtoe];
-  if (rho_prtoe <= 1e-30 || rho_r <= 0.)
-    return;
-
-  double delta_rho_scf = 0.;
-  double delta_p_scf = 0.;
-  double rho_plus_p_theta_scf = 0.;
-  if (prtoe_fill_scalar_stress_energy(pba, ppt, ppw, k, ppw->pv->y,
-                                    &delta_rho_scf, &delta_p_scf,
-                                    &rho_plus_p_theta_scf) == _FALSE_)
-    return;
-
-  (void)delta_p_scf;
-
-  double cluster_w = prtoe_matter_cluster_weight(pba);
-  double rho_m = rho_r * rho_m_over_rho_r;
-  /* Use the full total-density denominator (including PRTOE/Lambda) to match
-     how delta_tot/velocity_tot are normalized elsewhere in the module. */
-  double rho_denom = ppw->pvecback[pba->index_bg_rho_tot];
-  if (rho_denom <= 0.) return;
-  *delta_tot += cluster_w * delta_rho_scf / rho_denom;
-  *velocity_tot += cluster_w * rho_plus_p_theta_scf / rho_denom;
-}
 
 /**
  * Source function \f$ S^{X} (k, \tau) \f$ at a given conformal time tau.
@@ -523,9 +226,6 @@ int perturbations_sources_at_k_and_z(
              ppt->error_message,
              ppt->error_message);
 
-  free(sources);
-  free(ddsources_dk2);
-
   return _SUCCESS_;
 }
 
@@ -602,8 +302,8 @@ int perturbations_output_data_at_z(
                ppt->error_message);
 
     class_test(log(tau) < ppt->ln_tau[0],
-               ppt->error_message,
-               "Asking sources at a z bigger than z_max_pk, something probably went wrong");
+               "Asking sources at a z bigger than z_max_pk, something probably went wrong",
+               ppt->error_message);
 
     class_alloc(pvecsources,
                 ppt->k_size[index_md]*sizeof(double),
@@ -691,7 +391,7 @@ int perturbations_output_data_at_index_tau(
     for (index_tp=0; index_tp<ppt->tp_size[index_md]; index_tp++) {
       for (index_ic=0; index_ic<ppt->ic_size[index_md]; index_ic++) {
         tkfull[(index_k * ppt->ic_size[index_md] + index_ic) * ppt->tp_size[index_md] + index_tp]
-          = ppt->late_sources[index_md][index_ic * ppt->tp_size[index_md] + index_tp][_source_k_index_(index_tau, index_k, ppt->k_size[index_md])];
+          = ppt->late_sources[index_md][index_ic * ppt->tp_size[index_md] + index_tp][index_tau * ppt->k_size[index_md] + index_k];
       }
     }
   }
@@ -821,14 +521,7 @@ int perturbations_output_data(
         class_store_double_or_default(dataptr,-tk[ppt->index_tp_delta_b]/k2,ppt->has_source_delta_b,storeidx,0.0);
         class_store_double_or_default(dataptr,-tk[ppt->index_tp_delta_g]/k2,ppt->has_source_delta_g,storeidx,0.0);
         class_store_double_or_default(dataptr,-tk[ppt->index_tp_delta_ur]/k2,ppt->has_source_delta_ur,storeidx,0.0);
-        
-        /* Store ncdm contribution (first species in standard single-ncdm case) */
-        double delta_ncdm_camb = 0.0;
-        if (ppt->has_source_delta_ncdm == _TRUE_) {
-          delta_ncdm_camb = -tk[ppt->index_tp_delta_ncdm1] / k2;
-        }
-        class_store_double_or_default(dataptr, delta_ncdm_camb, ppt->has_source_delta_ncdm, storeidx, 0.0);
-        
+        class_store_double_or_default(dataptr,-tk[ppt->index_tp_delta_ncdm1]/k2,ppt->has_source_delta_ncdm,storeidx,0.0);
         class_store_double_or_default(dataptr,-tk[ppt->index_tp_delta_tot]/k2,_TRUE_,storeidx,0.0);
       }
     }
@@ -875,7 +568,7 @@ int perturbations_output_titles(
       }
       class_store_columntitle(titles,"d_dcdm",pba->has_dcdm);
       class_store_columntitle(titles,"d_dr",pba->has_dr);
-      class_store_columntitle(titles,"d_scf",ppt->has_source_delta_scf);
+      class_store_columntitle(titles,"d_scf",pba->has_scf);
       class_store_columntitle(titles,"d_m",ppt->has_source_delta_m);
       class_store_columntitle(titles,"d_tot",ppt->has_source_delta_tot);
       class_store_columntitle(titles,"phi",ppt->has_source_phi);
@@ -904,7 +597,7 @@ int perturbations_output_titles(
       }
       class_store_columntitle(titles,"t_dcdm",pba->has_dcdm);
       class_store_columntitle(titles,"t_dr",pba->has_dr);
-      class_store_columntitle(titles,"t_scf",ppt->has_source_theta_scf);
+      class_store_columntitle(titles,"t_scf",pba->has_scf);
       class_store_columntitle(titles,"t_tot",_TRUE_);
     }
   }
@@ -1600,7 +1293,7 @@ int perturbations_indices(
           ppt->has_source_delta_dcdm = _TRUE_;
         if (pba->has_fld == _TRUE_)
           ppt->has_source_delta_fld = _TRUE_;
-        if (pba->has_scf == _TRUE_ || pba->use_prtoe == _TRUE_)
+        if (pba->has_scf == _TRUE_)
           ppt->has_source_delta_scf = _TRUE_;
         if (pba->has_ur == _TRUE_)
           ppt->has_source_delta_ur = _TRUE_;
@@ -1631,7 +1324,7 @@ int perturbations_indices(
           ppt->has_source_theta_dcdm = _TRUE_;
         if (pba->has_fld == _TRUE_)
           ppt->has_source_theta_fld = _TRUE_;
-        if (pba->has_scf == _TRUE_ || pba->use_prtoe == _TRUE_)
+        if (pba->has_scf == _TRUE_)
           ppt->has_source_theta_scf = _TRUE_;
         if (pba->has_ur == _TRUE_)
           ppt->has_source_theta_ur = _TRUE_;
@@ -1884,10 +1577,6 @@ int perturbations_timesampling_for_sources(
   double * pvecback;
   double * pvecthermo;
 
-  double tau_sampling_stepsize;
-  int tau_cap_retries;
-  short tau_grid_allocated;
-
   /** - allocate background/thermodynamics vectors */
 
   class_alloc(pvecback,pba->bg_size*sizeof(double),ppt->error_message);
@@ -1936,6 +1625,15 @@ int perturbations_timesampling_for_sources(
                pth->error_message,
                ppt->error_message);
 
+    class_test(pvecback[pba->index_bg_a]*
+               pvecback[pba->index_bg_H]/
+               pvecthermo[pth->index_th_dkappa] >
+               ppr->start_sources_at_tau_c_over_tau_h,
+               ppt->error_message,
+               "your choice of initial time for computing sources is inappropriate: it corresponds to an earlier time than the one at which the integration of thermodynamical variables started (tau=%g). You should increase either 'start_sources_at_tau_c_over_tau_h' or 'recfast_z_initial'\n",
+               tau_lower);
+
+
     tau_upper = pth->tau_rec;
 
     class_call(background_at_tau(pba,
@@ -1957,17 +1655,12 @@ int perturbations_timesampling_for_sources(
                pth->error_message,
                ppt->error_message);
 
-    /* PRTOE soft-start: bisection uses standard CLASS logic; the post-bisection
-       timing guard is skipped while the field remains frozen (phi <= 0.1*phi_c). */
-    // class_test((pvecback[pba->index_bg_a]*
-    //             pvecback[pba->index_bg_H]/
-    //             pvecthermo[pth->index_th_dkappa] <
-    //             ppr->start_sources_at_tau_c_over_tau_h) && 
-    //            (prtoe_source_condition == _FALSE_) && 
-    //            pba->de_mode == prtoe_active &&
-    //            pba->index_bg_phi_prtoe >= 0,  /* Only check if PRTOE indices allocated */
-    //            ppt->error_message,
-    //            "your choice of initial time for computing sources is inappropriate: it corresponds to a time after recombination. You should decrease 'start_sources_at_tau_c_over_tau_h'\n");
+    class_test(pvecback[pba->index_bg_a]*
+               pvecback[pba->index_bg_H]/
+               pvecthermo[pth->index_th_dkappa] <
+               ppr->start_sources_at_tau_c_over_tau_h,
+               ppt->error_message,
+               "your choice of initial time for computing sources is inappropriate: it corresponds to a time after recombination. You should decrease 'start_sources_at_tau_c_over_tau_h'\n");
 
     tau_mid = 0.5*(tau_lower + tau_upper);
 
@@ -1993,70 +1686,20 @@ int perturbations_timesampling_for_sources(
                  ppt->error_message);
 
 
-      /* Standard CLASS bisection: find earliest tau with aH/dkappa' below threshold.
-       * PRTOE soft-start is handled only in the post-bisection guard below. */
       if (pvecback[pba->index_bg_a]*
           pvecback[pba->index_bg_H]/
           pvecthermo[pth->index_th_dkappa] >
           ppr->start_sources_at_tau_c_over_tau_h)
-        tau_lower = tau_mid;
-      else
+
         tau_upper = tau_mid;
+      else
+        tau_lower = tau_mid;
 
       tau_mid = 0.5*(tau_lower + tau_upper);
 
     }
 
     tau_ini = tau_mid;
-    if (tau_ini < pba->tau_table[0]) {
-      tau_ini = pba->tau_table[0];
-    }
-
-    /* Validate source start time at the bisection result, not at tau_lower */
-    class_call(background_at_tau(pba,
-                                 tau_ini,
-                                 short_info,
-                                 inter_normal,
-                                 &first_index_back,
-                                 pvecback),
-               pba->error_message,
-               ppt->error_message);
-
-    class_call(thermodynamics_at_z(pba,
-                                   pth,
-                                   1./pvecback[pba->index_bg_a]-1.,
-                                   inter_normal,
-                                   &first_index_thermo,
-                                   pvecback,
-                                   pvecthermo),
-               pth->error_message,
-               ppt->error_message);
-
-    {
-      double source_timing_ratio =
-        pvecback[pba->index_bg_a]*
-        pvecback[pba->index_bg_H]/
-        pvecthermo[pth->index_th_dkappa];
-
-      /* PRTOE soft-start: while the field is still frozen (pre-activation),
-       * perturbations follow the LCDM branch and the strict source-timing
-       * guard is deferred until covariant activation turns on. */
-      int prtoe_skip_timing_guard = _FALSE_;
-      if (pba->de_mode == prtoe_active &&
-          pba->xi_prtoe >= 1e-7 &&
-          pba->Omega0_prtoe > 0.0 &&
-          pba->index_bg_phi_prtoe >= 0) {
-        double phi = pvecback[pba->index_bg_phi_prtoe];
-        prtoe_skip_timing_guard = (phi <= pba->phi_c_prtoe * 0.1);
-      }
-
-      if (prtoe_skip_timing_guard == _FALSE_) {
-        class_test(source_timing_ratio > ppr->start_sources_at_tau_c_over_tau_h,
-                   ppt->error_message,
-                   "your choice of initial time for computing sources is inappropriate: it corresponds to an earlier time than the one at which the integration of thermodynamical variables started (tau=%g). You should increase either 'start_sources_at_tau_c_over_tau_h' or 'recfast_z_initial'\n",
-                   tau_ini);
-      }
-    }
 
   }
   else {
@@ -2104,12 +1747,6 @@ int perturbations_timesampling_for_sources(
       - --> if CMB not requested:
       timescale_source = 1/aH; repeat till today.
   */
-
-  tau_sampling_stepsize = ppr->perturbations_sampling_stepsize;
-  tau_cap_retries = 0;
-  tau_grid_allocated = _FALSE_;
-
- perturbations_tau_count_phase:
 
   counter = 1;
   last_index_back = first_index_back;
@@ -2159,10 +1796,9 @@ int perturbations_timesampling_for_sources(
     }
 
     /* check it is non-zero */
-    if (timescale_source == 0.) {
-      fprintf(stderr, "WARNING: timescale_source == 0 in perturbations_timesampling_for_sources; using tiny fallback.\n");
-      timescale_source = 1e-30;
-    }
+    class_test(timescale_source == 0.,
+               ppt->error_message,
+               "null evolution rate, integration is diverging");
 
     /* compute inverse rate */
     timescale_source = 1./timescale_source;
@@ -2176,57 +1812,20 @@ int perturbations_timesampling_for_sources(
       timescale_source /= 2.;
     }
 
-    {
-      double dtau_step = perturbations_effective_dtau(tau_sampling_stepsize,
-                                                      timescale_source,
-                                                      pba->conformal_age);
-      if ((fabs(dtau_step) < ppr->smallest_allowed_variation) ||
-          (tau > 0. && fabs(dtau_step/tau) < ppr->smallest_allowed_variation)) {
-        break;
-      }
-      tau = tau + dtau_step;
-    }
-    counter++;
+    class_test(fabs(ppr->perturbations_sampling_stepsize*timescale_source/tau) < ppr->smallest_allowed_variation,
+               ppt->error_message,
+               "integration step =%e < machine precision : leads either to numerical error or infinite loop",ppr->perturbations_sampling_stepsize*timescale_source);
 
-    if (counter >= _PERTURBATIONS_MAX_TAU_SAMPLING_) {
-      if (tau_cap_retries >= _PERTURBATIONS_TAU_CAP_MAX_RETRIES_) {
-        class_test(1,
-                   ppt->error_message,
-                   "perturbations tau sampling exceeded cap %d at tau=%e (conformal_age=%e) after %d step-size backoff retries; increase 'perturbations_sampling_stepsize' or check PRTOE early-time thermodynamics",
-                   _PERTURBATIONS_MAX_TAU_SAMPLING_,
-                   tau,
-                   pba->conformal_age,
-                   _PERTURBATIONS_TAU_CAP_MAX_RETRIES_);
-      }
-      tau_cap_retries++;
-      tau_sampling_stepsize *= _PERTURBATIONS_TAU_CAP_BACKOFF_FACTOR_;
-      fprintf(stderr,
-              "WARNING: perturbations tau sampling hit cap %d at tau=%e; increasing stepsize to %e (retry %d/%d)\n",
-              _PERTURBATIONS_MAX_TAU_SAMPLING_,
-              tau,
-              tau_sampling_stepsize,
-              tau_cap_retries,
-              _PERTURBATIONS_TAU_CAP_MAX_RETRIES_);
-      if (tau_grid_allocated == _TRUE_) {
-        free(ppt->tau_sampling);
-        tau_grid_allocated = _FALSE_;
-      }
-      goto perturbations_tau_count_phase;
-    }
+    tau = tau + ppr->perturbations_sampling_stepsize*timescale_source;
+    counter++;
 
   }
 
   /** - --> infer total number of time steps, ppt->tau_size */
   ppt->tau_size = counter;
 
-  if (tau_grid_allocated == _TRUE_) {
-    free(ppt->tau_sampling);
-    tau_grid_allocated = _FALSE_;
-  }
-
   /** - --> allocate array of time steps, ppt->tau_sampling[index_tau] */
   class_alloc(ppt->tau_sampling,ppt->tau_size * sizeof(double),ppt->error_message);
-  tau_grid_allocated = _TRUE_;
 
   /** - --> repeat the same steps, now filling the array with each tau value: */
 
@@ -2235,7 +1834,12 @@ int perturbations_timesampling_for_sources(
   counter = 0;
   ppt->tau_sampling[counter]=tau_ini;
 
-  /** - --> (b.2.) next sampling point = previous + perturbations_sampling_stepsize * timescale_source */
+  /** - --> (b.2.) next sampling point = previous + ppr->perturbations_sampling_stepsize * timescale_source, where
+      timescale_source1 = \f$ |g/\dot{g}| = |\dot{\kappa}-\ddot{\kappa}/\dot{\kappa}|^{-1} \f$;
+      timescale_source2 = \f$ |2\ddot{a}/a-(\dot{a}/a)^2|^{-1/2} \f$ (to sample correctly the late ISW effect; and
+      timescale_source=1/(1/timescale_source1+1/timescale_source2); repeat till today.
+      If CMB not requested:
+      timescale_source = 1/aH; repeat till today.  */
 
   last_index_back = first_index_back;
   last_index_thermo = first_index_thermo;
@@ -2282,54 +1886,29 @@ int perturbations_timesampling_for_sources(
     }
 
     /* check it is non-zero */
-    if (timescale_source == 0.) {
-      fprintf(stderr, "WARNING: timescale_source == 0 in perturbations_timesampling_for_sources; using tiny fallback.\n");
-      timescale_source = 1e-30;
-    }
+    class_test(timescale_source == 0.,
+               ppt->error_message,
+               "null evolution rate, integration is diverging");
 
     /* compute inverse rate */
     timescale_source = 1./timescale_source;
 
+    /* added in v3.2.2: age fraction (between 0 and 1 ) such that,
+       when tau > conformal_age * age_fraction, the time sampling of
+       sources is twice finer, in order to boost the accuracy of the
+       lensing line-of-sight integrals without changing that of
+       unlensed CMB observables */
     if (tau > pba->conformal_age * ppr->perturbations_sampling_boost_above_age_fraction) {
       timescale_source /= 2.;
     }
 
-    {
-      double dtau_step = perturbations_effective_dtau(tau_sampling_stepsize,
-                                                      timescale_source,
-                                                      pba->conformal_age);
-      if ((fabs(dtau_step) < ppr->smallest_allowed_variation) ||
-          (tau > 0. && fabs(dtau_step/tau) < ppr->smallest_allowed_variation)) {
-        break;
-      }
-      tau = tau + dtau_step;
-    }
+    class_test(fabs(ppr->perturbations_sampling_stepsize*timescale_source/tau) < ppr->smallest_allowed_variation,
+               ppt->error_message,
+               "integration step =%e < machine precision : leads either to numerical error or infinite loop",ppr->perturbations_sampling_stepsize*timescale_source);
+
+    tau = tau + ppr->perturbations_sampling_stepsize*timescale_source;
     counter++;
     ppt->tau_sampling[counter]=tau;
-
-    if (counter >= _PERTURBATIONS_MAX_TAU_SAMPLING_) {
-      if (tau_cap_retries >= _PERTURBATIONS_TAU_CAP_MAX_RETRIES_) {
-        class_test(1,
-                   ppt->error_message,
-                   "perturbations tau fill exceeded cap %d at tau=%e (conformal_age=%e) after %d step-size backoff retries; increase 'perturbations_sampling_stepsize' or check PRTOE early-time thermodynamics",
-                   _PERTURBATIONS_MAX_TAU_SAMPLING_,
-                   tau,
-                   pba->conformal_age,
-                   _PERTURBATIONS_TAU_CAP_MAX_RETRIES_);
-      }
-      tau_cap_retries++;
-      tau_sampling_stepsize *= _PERTURBATIONS_TAU_CAP_BACKOFF_FACTOR_;
-      fprintf(stderr,
-              "WARNING: perturbations tau fill hit cap %d at tau=%e; increasing stepsize to %e (retry %d/%d)\n",
-              _PERTURBATIONS_MAX_TAU_SAMPLING_,
-              tau,
-              tau_sampling_stepsize,
-              tau_cap_retries,
-              _PERTURBATIONS_TAU_CAP_MAX_RETRIES_);
-      free(ppt->tau_sampling);
-      tau_grid_allocated = _FALSE_;
-      goto perturbations_tau_count_phase;
-    }
 
   }
 
@@ -2338,8 +1917,6 @@ int perturbations_timesampling_for_sources(
 
   free(pvecback);
   free(pvecthermo);
-
- perturbations_tau_sampling_allocate_sources:
 
   /** - check the maximum redshift z_max_pk at which the Fourier
       transfer functions \f$ T_i(k,z)\f$ should be computable by
@@ -2409,7 +1986,7 @@ int perturbations_timesampling_for_sources(
       for (index_tp = 0; index_tp < ppt->tp_size[index_md]; index_tp++) {
 
         class_alloc(ppt->sources[index_md][index_ic*ppt->tp_size[index_md]+index_tp],
-                    (size_t)ppt->k_size[index_md] * (size_t)ppt->tau_size * sizeof(double),
+                    ppt->k_size[index_md] * ppt->tau_size * sizeof(double),
                     ppt->error_message);
 
         if (ppt->ln_tau_size > 1) {
@@ -2419,7 +1996,7 @@ int perturbations_timesampling_for_sources(
                                                                                     [(ppt->tau_size-ppt->ln_tau_size) * ppt->k_size[index_md]]);
 
           class_alloc(ppt->ddlate_sources[index_md][index_ic*ppt->tp_size[index_md]+index_tp],
-                      (size_t)ppt->k_size[index_md] * (size_t)ppt->ln_tau_size * sizeof(double),
+                      ppt->k_size[index_md] * ppt->ln_tau_size * sizeof(double),
                       ppt->error_message);
         }
       }
@@ -2821,7 +2398,7 @@ int perturbations_get_k_list(
 
       k += step;
 
-      class_test(k <= ppt->k[ppt->index_md_vectors][index_k-1],
+      class_test(k <= ppt->k[ppt->index_md_scalars][index_k-1],
                  ppt->error_message,
                  "consecutive values of k should differ and should be in growing order");
 
@@ -3155,13 +2732,6 @@ int perturbations_workspace_init(
 
     }
 
-    /* PRTOE metric perturbations */
-    if (pba->use_prtoe == _TRUE_) {
-      class_define_index(ppw->index_mt_Phi_prtoe, _TRUE_, index_mt, 1);
-      class_define_index(ppw->index_mt_Psi_prtoe, _TRUE_, index_mt, 1);
-      class_define_index(ppw->index_mt_Geff_prtoe, _TRUE_, index_mt, 1);
-    }
-
   }
 
   if (_vectors_) {
@@ -3383,9 +2953,8 @@ int perturbations_solve(
 
   /* function pointer to ODE evolver and names of possible evolvers */
 
-  extern int evolver_rk(EVOLVER_PROTOTYPE);
-  extern int evolver_ndf15(EVOLVER_PROTOTYPE);
-  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_ndf15;
+
+  auto generic_evolver = &(evolver_ndf15);
 
 
   /* Related to the perturbation output */
@@ -3472,9 +3041,6 @@ int perturbations_solve(
 
   /* is at most the time at which sources must be sampled */
   tau_upper = ppt->tau_sampling[0];
-  if (tau_upper < tau_lower) {
-    tau_upper = tau_lower;
-  }
 
   /* start bisection */
   tau_mid = 0.5*(tau_lower + tau_upper);
@@ -3533,9 +3099,6 @@ int perturbations_solve(
   }
 
   tau = tau_mid;
-  if (tau < pba->tau_table[0]) {
-    tau = pba->tau_table[0];
-  }
 
   /** - find the number of intervals over which approximation scheme is constant */
 
@@ -3694,7 +3257,7 @@ int perturbations_solve(
     for (index_tp = 0; index_tp < ppt->tp_size[index_md]; index_tp++) {
       ppt->sources[index_md]
         [index_ic * ppt->tp_size[index_md] + index_tp]
-        [_source_k_index_(index_tau, index_k, ppt->k_size[index_md])] = 0.;
+        [index_tau * ppt->k_size[index_md] + index_k] = 0.;
     }
   }
 
@@ -3791,8 +3354,8 @@ int perturbations_prepare_k_output(struct background * pba,
       class_store_columntitle(ppt->scalar_titles, "theta_dr", pba->has_dr);
       class_store_columntitle(ppt->scalar_titles, "shear_dr", pba->has_dr);
       /* Scalar field scf */
-      class_store_columntitle(ppt->scalar_titles, "delta_scf", ppt->has_source_delta_scf);
-      class_store_columntitle(ppt->scalar_titles, "theta_scf", ppt->has_source_theta_scf);
+      class_store_columntitle(ppt->scalar_titles, "delta_scf", pba->has_scf);
+      class_store_columntitle(ppt->scalar_titles, "theta_scf", pba->has_scf);
       /** Fluid */
       class_store_columntitle(ppt->scalar_titles, "delta_rho_fld", pba->has_fld);
       class_store_columntitle(ppt->scalar_titles, "rho_plus_p_theta_fld", pba->has_fld);
@@ -4354,7 +3917,6 @@ int perturbations_vector_init(
 
     /* cdm */
 
-    /* Ensure CDM indices are allocated whenever CDM exists (matches downstream accesses). */
     class_define_index(ppv->index_pt_delta_cdm,pba->has_cdm,index_pt,1); /* cdm density */
     class_define_index(ppv->index_pt_theta_cdm,pba->has_cdm && (ppt->gauge == newtonian),index_pt,1); /* cdm velocity */
 
@@ -4388,47 +3950,9 @@ int perturbations_vector_init(
     class_define_index(ppv->index_pt_phi_scf,pba->has_scf && pba->use_prtoe == _FALSE_,index_pt,1); /* scalar field density */
     class_define_index(ppv->index_pt_phi_prime_scf,pba->has_scf && pba->use_prtoe == _FALSE_,index_pt,1); /* scalar field velocity */
 
-    /* PRTOE scalar field perturbations.
-       Gate on prtoe_is_physically_active() — the SAME predicate that gates the
-       prtoe_perturbations_derivs() call in perturbations_derivs(). If we
-       allocated on use_prtoe alone, a null-limit run (use_prtoe=yes, PRTOE
-       inactive) would carry two state variables whose derivatives are never
-       written, feeding uninitialized memory to the evolver and stalling it. */
-    if (prtoe_is_physically_active(pba)) {
-      /* Allocate field state even before covariant activation so the frozen
-         phase can evolve into the active phase without resizing the vector.
-         NOTE: Only delta_prtoe and ddelta_prtoe (field and velocity).
-      */
-      class_define_index(ppv->index_pt_delta_prtoe, _TRUE_, index_pt, 1);
-      class_define_index(ppv->index_pt_ddelta_prtoe, _TRUE_, index_pt, 1);
-      
-      /* Explicitly set delta_phi/ddelta_phi to -1 to avoid duplicate indices */
-      ppv->index_pt_delta_phi = -1;
-      ppv->index_pt_ddelta_phi = -1;
-      
-      /* PRTOE metric perturbations are NOT evolved as independent variables.
-         They are determined from Friedmann constraints in metric_sources().
-         Not allocating indices prevents singular Jacobian from frozen variables.
-      */
-      ppv->index_pt_Phi_prtoe = -1;
-      ppv->index_pt_dPhi_prtoe = -1;
-      ppv->index_pt_eta_prtoe = -1;
-      ppv->index_pt_deta_prtoe = -1;
-
-      /* Do not alias SCF indices to PRTOE here: keep them unset when PRTOE is on */
-      ppv->index_pt_phi_scf = -1;
-      ppv->index_pt_phi_prime_scf = -1;
-    } else {
-      /* PRTOE disabled or physically inactive (null limit): all PRTOE indices invalid */
-      ppv->index_pt_delta_phi = -1;
-      ppv->index_pt_ddelta_phi = -1;
-      ppv->index_pt_delta_prtoe = -1;
-      ppv->index_pt_ddelta_prtoe = -1;
-      ppv->index_pt_Phi_prtoe = -1;
-      ppv->index_pt_dPhi_prtoe = -1;
-      ppv->index_pt_eta_prtoe = -1;
-      ppv->index_pt_deta_prtoe = -1;
-    }
+    /* PRTOE scalar field perturbations */
+    class_define_index(ppv->index_pt_delta_phi, pba->use_prtoe, index_pt, 1);
+    class_define_index(ppv->index_pt_ddelta_phi, pba->use_prtoe, index_pt, 1);
 
     /* perturbed recombination: the indices are defined once tca is off. */
     if ( (ppt->has_perturbed_recombination == _TRUE_) && (ppw->approx[ppw->index_ap_tca] == (int)tca_off) ){
@@ -4903,12 +4427,11 @@ int perturbations_vector_init(
           ppw->pv->y[ppw->pv->index_pt_phi_prime_scf];
       }
 
-      if (pba->use_prtoe == _TRUE_ && ppv->index_pt_delta_prtoe >= 0) {
-        /* Copy PRTOE perturbations even if background remains in frozen covariant branch. */
-        ppv->y[ppv->index_pt_delta_prtoe] =
-          ppw->pv->y[ppw->pv->index_pt_delta_prtoe];
-        ppv->y[ppv->index_pt_ddelta_prtoe] =
-          ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe];
+      if (pba->use_prtoe == _TRUE_) {
+        ppv->y[ppv->index_pt_delta_phi] =
+          ppw->pv->y[ppw->pv->index_pt_delta_phi];
+        ppv->y[ppv->index_pt_ddelta_phi] =
+          ppw->pv->y[ppw->pv->index_pt_ddelta_phi];
       }
 
       if (ppt->gauge == synchronous)
@@ -5591,10 +5114,10 @@ int perturbations_vector_init(
         if (ppt->perturbations_verbose>2)
           fprintf(stdout,"Mode k=%e: switch off tight-coupling approximation at tau=%e\n",k,tau);
 
-        ppv->y[ppv->index_pt_delta_g] = -4./3.*ppw->pv->y[ppw->pv->index_pt_gwdot]/ppw->pvecthermo[pth->index_th_dkappa]; // restored transition value
+        ppv->y[ppv->index_pt_delta_g] = 0.0; //TBC
         //-4./3.*ppw->pv->y[ppw->pv->index_pt_gwdot]/ppw->pvecthermo[pth->index_th_dkappa];
 
-        ppv->y[ppv->index_pt_pol0_g] = 1./3.*ppw->pv->y[ppw->pv->index_pt_gwdot]/ppw->pvecthermo[pth->index_th_dkappa]; // restored transition value
+        ppv->y[ppv->index_pt_pol0_g] = 0.0; //TBC
         //1./3.*ppw->pv->y[ppw->pv->index_pt_gwdot]/ppw->pvecthermo[pth->index_th_dkappa];
       }
 
@@ -5778,7 +5301,6 @@ int perturbations_initial_conditions(struct precision * ppr,
   double om;
   double ktau_two,ktau_three;
   double f_dr;
-  int prtoe_ic_seeded = _FALSE_;
 
   double delta_tot;
   double velocity_tot;
@@ -5929,15 +5451,9 @@ int perturbations_initial_conditions(struct precision * ppr,
       ppw->pv->y[ppw->pv->index_pt_delta_b] = 3./4.*ppw->pv->y[ppw->pv->index_pt_delta_g]; /* baryon density */
       ppw->pv->y[ppw->pv->index_pt_theta_b] = ppw->pv->y[ppw->pv->index_pt_theta_g]; /* baryon velocity */
 
-      if (prtoe_has_separate_cdm(pba)) {
+      if (pba->has_cdm == _TRUE_) {
         ppw->pv->y[ppw->pv->index_pt_delta_cdm] = 3./4.*ppw->pv->y[ppw->pv->index_pt_delta_g]; /* cdm density */
         /* cdm velocity vanishes in the synchronous gauge */
-      }
-
-      if (prtoe_unified_dark_sector_active(pba) && ppw->pv->index_pt_delta_prtoe >= 0) {
-        ppw->pv->y[ppw->pv->index_pt_delta_prtoe]  = 3./4.*ppw->pv->y[ppw->pv->index_pt_delta_g];
-        ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
-        prtoe_ic_seeded = _TRUE_;
       }
 
       /* interacting dark matter */
@@ -5982,6 +5498,19 @@ int perturbations_initial_conditions(struct precision * ppr,
         ppw->pv->y[ppw->pv->index_pt_phi_prime_scf] = 0.;
         /* delta_fld expression * rho_scf with the w = 1/3, c_s = 1
            a*a/ppw->pvecback[pba->index_bg_phi_prime_scf]*( - ktau_two/4.*(1.+1./3.)*(4.-3.*1.)/(4.-6.*(1/3.)+3.*1.)*ppw->pvecback[pba->index_bg_rho_scf] - ppw->pvecback[pba->index_bg_dV_scf]*ppw->pv->y[ppw->pv->index_pt_phi_scf])* ppr->curvature_ini * s2_squared; */
+      }
+
+      if (pba->use_prtoe == _TRUE_) {
+        if (ppt->perturbations_verbose > 0) {
+          fprintf(stderr, "[DEBUG PRTOE] Initializing PRTOE perturbations: index_pt_delta_phi=%d, index_pt_ddelta_phi=%d\n", ppw->pv->index_pt_delta_phi, ppw->pv->index_pt_ddelta_phi);
+          fflush(stderr);
+        }
+        ppw->pv->y[ppw->pv->index_pt_delta_phi] = 0.0;
+        ppw->pv->y[ppw->pv->index_pt_ddelta_phi] = 0.0;
+        if (ppt->perturbations_verbose > 0) {
+          fprintf(stderr, "[DEBUG PRTOE] PRTOE perturbation initialization complete\n");
+          fflush(stderr);
+        }
       }
 
       /* all relativistic relics: ur, early ncdm, dr */
@@ -6154,23 +5683,7 @@ int perturbations_initial_conditions(struct precision * ppr,
 
     if (ppt->gauge == synchronous) {
 
-      if (pba->use_prtoe == _TRUE_ && ppw->pv->index_pt_delta_prtoe >= 0) {
-        if (!prtoe_metric_ic_active(pba, ppw)) {
-          /* Preserve any earlier seeding — do not clear delta_prtoe/ddelta_prtoe here. */
-          ppw->pv->y[ppw->pv->index_pt_eta] = eta;
-        } else {
-          double delta_phi_ic = 0.;
-          double eta_coupled = eta;
-          prtoe_couple_metric_ic_from_zeta(pba, ppw, eta, &delta_phi_ic, &eta_coupled);
-          ppw->pv->y[ppw->pv->index_pt_eta] = eta_coupled;
-          /* For PRTOE covariant seeding always override earlier generic seeds so the covariant ICs are consistent. */
-          ppw->pv->y[ppw->pv->index_pt_delta_prtoe]  = delta_phi_ic;
-          ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
-          prtoe_ic_seeded = _TRUE_;
-        }
-      } else {
-        ppw->pv->y[ppw->pv->index_pt_eta] = eta;
-      }
+      ppw->pv->y[ppw->pv->index_pt_eta] = eta;
     }
 
 
@@ -6221,24 +5734,9 @@ int perturbations_initial_conditions(struct precision * ppr,
 
       velocity_tot = ((4./3.)*(fracg*ppw->pv->y[ppw->pv->index_pt_theta_g]+fracnu*theta_ur) + rho_m_over_rho_r*fracb*ppw->pv->y[ppw->pv->index_pt_theta_b])/(1.+rho_m_over_rho_r);
 
-      /* Fold PRTOE into the constraint system before solving alpha/phi (Section 10.4). */
-      if (pba->use_prtoe == _TRUE_ && ppw->pv->index_pt_delta_prtoe >= 0) {
-        /* Preserve any existing frozen PRTOE ICs unless covariant-metric seeding is active. */
-        if (prtoe_metric_ic_active(pba, ppw)) {
-          double delta_phi_seed = 0.;
-          prtoe_couple_metric_ic_from_zeta(pba, ppw, eta, &delta_phi_seed, &eta);
-          ppw->pv->y[ppw->pv->index_pt_delta_prtoe]  = delta_phi_seed;
-          ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
-          /* Seed shear budget and include PRTOE contributions in the Newtonian constraint. */
-          ppw->rho_plus_p_shear = 0.;
-          if ((pba->has_ur == _TRUE_) || (pba->has_dr == _TRUE_)
-              || (pba->has_idr == _TRUE_) || (pba->has_ncdm == _TRUE_)) {
-            ppw->rho_plus_p_shear += 4. / 3. * rho_nu * shear_ur;
-          }
-          prtoe_accumulate_delta_F_shear(pba, ppw, k, ppw->pv->y);
-          prtoe_add_to_newtonian_constraint(pba, ppt, ppw, k, rho_r, rho_m_over_rho_r,
-                                            &delta_tot, &velocity_tot);
-        }
+      if (ppt->has_idm_dr == _TRUE_ ) {
+        delta_tot += rho_m_over_rho_r*fracidm*ppw->pv->y[ppw->pv->index_pt_delta_idm]/(1.+rho_m_over_rho_r);
+        velocity_tot += rho_m_over_rho_r*fracidm*ppw->pv->y[ppw->pv->index_pt_theta_idm]/(1.+rho_m_over_rho_r);
       }
 
       alpha = (eta + 3./2.*a_prime_over_a*a_prime_over_a/k/k/s2_squared*(delta_tot + 3.*a_prime_over_a/k/k*velocity_tot))/a_prime_over_a;
@@ -6288,16 +5786,12 @@ int perturbations_initial_conditions(struct precision * ppr,
            +ppw->pvecback[pba->index_bg_phi_prime_scf]*alpha_prime);
       }
 
-      if (pba->use_prtoe == _TRUE_
-          && ppw->pv->index_pt_delta_prtoe >= 0
-          && ppw->pv->index_pt_ddelta_prtoe >= 0
-          && pba->index_bg_dphi_prtoe >= 0
-          && pba->index_bg_dV_scf >= 0) {
+      if (pba->use_prtoe == _TRUE_) {
         alpha_prime = 0.0;
-        ppw->pv->y[ppw->pv->index_pt_delta_prtoe] += alpha * ppw->pvecback[pba->index_bg_dphi_prtoe];
-        ppw->pv->y[ppw->pv->index_pt_ddelta_prtoe] +=
+        ppw->pv->y[ppw->pv->index_pt_delta_phi] += alpha * ppw->pvecback[pba->index_bg_dphi_prtoe];
+        ppw->pv->y[ppw->pv->index_pt_ddelta_phi] +=
           (-2.*a_prime_over_a*alpha*ppw->pvecback[pba->index_bg_dphi_prtoe]
-           -a*a* ppw->pvecback[pba->index_bg_dV_scf]*alpha
+           -a*a* dV_scf(pba,ppw->pvecback[pba->index_bg_phi_prtoe])*alpha
            +ppw->pvecback[pba->index_bg_dphi_prtoe]*alpha_prime);
       }
 
@@ -6685,7 +6179,7 @@ int perturbations_approximations(
     if (pth->has_idm_g == _TRUE_) {
       class_test(ppw->pvecthermo[pth->index_th_dmu_idm_g] == 0.,
                  ppt->error_message,
-                 "dmu_idm_g = 0 - stop to avoid division by 0");
+                 "dmu_idm_g = 0 - stop to avoid division by 0")
         tau_dmu_idm_g = 1./ppw->pvecthermo[pth->index_th_dmu_idm_g];
     }
 
@@ -6984,64 +6478,6 @@ int perturbations_timescale(
       }
     }
 
-    /** - Add PRTOE field timescale when PRTOE is enabled (fixes stiffness in field perturbations).
-        Include frozen/pre-activation branch since prtoe_perturbations_derivs may still evolve the state. */
-    if (pba->use_prtoe == _TRUE_ && pba->index_bg_rho_prtoe >= 0 && ppw->pv->index_pt_delta_prtoe >= 0) {
-
-      double a = pvecback[pba->index_bg_a];
-      double a2 = a * a;
-      double k2 = pppaw->k * pppaw->k;
-      double H = pvecback[pba->index_bg_H];
-      double H_prime = pvecback[pba->index_bg_H_prime];
-      double rho_prtoe_bg = pvecback[pba->index_bg_rho_prtoe];
-
-      /* Compute PRTOE effective mass scale even in the pre-activation (frozen) branch so the integrator
-         tightens the step in advance of a turn-on transient. */
-      if (rho_prtoe_bg > 1e-30) {
-
-        /* Load PRTOE background quantities (safe to read even before covariant activation) */
-        double phi = pvecback[pba->index_bg_phi_prtoe];
-        double dphi = pvecback[pba->index_bg_dphi_prtoe];
-        double F = pvecback[pba->index_bg_F_prtoe];
-        double F_phi = pvecback[pba->index_bg_F_phi_prtoe];
-        double F_phiphi = pvecback[pba->index_bg_F_phiphi_prtoe];
-
-        /* Compute V_phiphi from PRTOE potential V(φ) = V0*exp(-λφ) + (m²/2)φ² */
-        double exp_term = exp(-pba->lambda_prtoe * phi);
-        double V_phiphi = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe;
-        double phi_dot = dphi / a;
-        double R_stable = 3.0 * H_prime / a + pba->K / a2 - H * H;
-         
-        /* Use the same full effective mass stiffness as the RHS evolution to ensure
-           the timestep limiter captures all coupling terms. */
-        class_test(F <= 0.0 || !isfinite(F),
-                   ppt->error_message,
-                   "PRTOE timescale: non-positive coupling F=%e at tau=%e (k=%e)",
-                   F, tau, pppaw->k);
-        double m_eff2 = prtoe_compute_meff2(V_phiphi, F, F_phi, F_phiphi,
-                                            H, H_prime, a, pba->K, phi_dot);
-
-        /* Include high-k stiffness from beta coupling (same as in RHS evolution) */
-        double beta_k2_term = 0.0;
-        if (prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_bg)) {
-          double beta_screened = pba->beta_prtoe / (1.0 + phi*phi);
-          double k2 = pppaw->k * pppaw->k;
-          beta_k2_term = - (beta_screened * phi * R_stable * k2)
-                         / (pba->M_ew_prtoe * pba->M_ew_prtoe * a2);
-        }
-
-        double m_eff2_total = m_eff2 + beta_k2_term;
-        if (isfinite(m_eff2_total) && m_eff2_total != 0.0) {
-          /* m_eff² is a PHYSICAL frequency²; the integrator steps in conformal
-             time, where the oscillation frequency² is a²·m_eff² (matching the
-             a²(m_eff² + ...) stiffness bracket in prtoe_perturbations_derivs).
-             Use |...| so tachyonic windows still constrain the step size. */
-          double tau_phi = 1.0 / sqrt(fabs(a2 * m_eff2_total));
-          *timescale = MIN(tau_phi, *timescale);
-        }
-      }
-    }
-
   }
 
   /** - for vector modes: */
@@ -7152,37 +6588,12 @@ int perturbations_einstein(
   s2_squared = 1.-3.*pba->K/k2;
 
   double G_eff_metric = 1.0;
-  double delta_F = 0.0;
-  double delta_F_prime = 0.0;
-  double delta_F_primeprime = 0.0;
-  double delta_phi = 0.0;
-  double F = 1.0, F_phi = 0.0, F_phiphi = 0.0, F_phiphiphi = 0.0;
-  double phi_prime_bg = 0.0, phi_primeprime_bg = 0.0;
-  
-  if (_scalars_ && pba->de_mode == prtoe_active
-      && pba->index_bg_rho_prtoe >= 0
-      && ppw->pv->index_pt_delta_prtoe >= 0
-      && ppw->pv->index_pt_ddelta_prtoe >= 0
-      && prtoe_is_covariantly_active_at_tau(pba, ppw->pvecback[pba->index_bg_rho_prtoe])) {
-    /* Use the pre-computed F(phi) from background */
-    F = ppw->pvecback[pba->index_bg_F_prtoe];
-    F_phi = ppw->pvecback[pba->index_bg_F_phi_prtoe];
-    F_phiphi = ppw->pvecback[pba->index_bg_F_phiphi_prtoe];
-    F_phiphiphi = ppw->pvecback[pba->index_bg_F_phiphiphi_prtoe];
-    phi_prime_bg = ppw->pvecback[pba->index_bg_dphi_prtoe];
-    phi_primeprime_bg = ppw->pvecback[pba->index_bg_ddphi_prtoe];
-
-    class_test(F <= 0.0 || !isfinite(F),
-               ppt->error_message,
-               "PRTOE Einstein sector: non-positive coupling F=%e at tau=%e (k=%e)",
-               F, tau, k);
-    G_eff_metric = 1.0 / F;
-
-    prtoe_fill_delta_F_from_state(pba, ppw, k, y,
-                                &delta_F, &delta_F_prime, &delta_F_primeprime);
-    if (ppw->pv->index_pt_delta_prtoe >= 0) {
-      delta_phi = y[ppw->pv->index_pt_delta_prtoe];
-    }
+  if (pba->use_prtoe == _TRUE_) {
+    double prtoe_phi_bg  = ppw->pvecback[pba->index_bg_phi_prtoe];
+    double screening = 1.0 / (1.0 + pba->zeta_prtoe * prtoe_phi_bg * prtoe_phi_bg);
+    double activation = 0.5 * (1.0 + tanh((log(a) - log(1e-4)) / 1.0));
+    double xi_eff = pba->xi_prtoe * screening * activation;
+    G_eff_metric = 1.0 / (1.0 + xi_eff * prtoe_phi_bg);
   }
 
   /** - sum up perturbations from all species */
@@ -7210,9 +6621,8 @@ int perturbations_einstein(
          y[ppw->pv->index_pt_phi], which derivative is given by the
          second equation below (credits to Guido Walter Pettinari). */
 
-      /* equation for psi — PRTOE δF anisotropic stress is in rho_plus_p_shear (total_stress_energy) */
-      double Phi = y[ppw->pv->index_pt_phi];
-      ppw->pvecmetric[ppw->index_mt_psi] = Phi - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric;
+      /* equation for psi */
+      ppw->pvecmetric[ppw->index_mt_psi] = y[ppw->pv->index_pt_phi] - 4.5 * (a2/k2) * ppw->rho_plus_p_shear * G_eff_metric;
 
       /* equation for phi' */
       ppw->pvecmetric[ppw->index_mt_phi_prime] = -a_prime_over_a * ppw->pvecmetric[ppw->index_mt_psi] + 1.5 * (a2/k2) * ppw->rho_plus_p_theta * G_eff_metric;
@@ -7241,8 +6651,7 @@ int perturbations_einstein(
 
       /* first equation involving total density fluctuation */
       ppw->pvecmetric[ppw->index_mt_h_prime] =
-        ( k2 * s2_squared * y[ppw->pv->index_pt_eta] + 1.5 * a2 * ppw->delta_rho * G_eff_metric )
-        / (0.5*a_prime_over_a);  /* h' */
+        ( k2 * s2_squared * y[ppw->pv->index_pt_eta] + 1.5 * a2 * ppw->delta_rho * G_eff_metric)/(0.5*a_prime_over_a);  /* h' */
 
       /* eventually, infer radiation streaming approximation for
          gamma and ur (this is exactly the right place to do it
@@ -7261,13 +6670,13 @@ int perturbations_einstein(
                    ppt->error_message,
                    ppt->error_message);
 
+        ppw->rho_plus_p_theta += 4./3.*ppw->pvecback[pba->index_bg_rho_idr]*ppw->rsa_theta_idr;
       }
 
       /* second equation involving total velocity */
       ppw->pvecmetric[ppw->index_mt_eta_prime] = (1.5 * a2 * ppw->rho_plus_p_theta * G_eff_metric + 0.5 * pba->K * ppw->pvecmetric[ppw->index_mt_h_prime])/k2/s2_squared;  /* eta' */
 
       /* third equation involving total pressure */
-      /* From spec Section 3.2 ij Trace: Φ'' + H(Ψ' + 2Φ') + (2H' + H²)Ψ = ... */
       ppw->pvecmetric[ppw->index_mt_h_prime_prime] =
         - 2. * a_prime_over_a * ppw->pvecmetric[ppw->index_mt_h_prime]
         + 2. * k2 * s2_squared * y[ppw->pv->index_pt_eta]
@@ -7287,9 +6696,6 @@ int perturbations_einstein(
           shear_g = 16./45./ppw->pvecthermo[pth->index_th_dkappa]*(y[ppw->pv->index_pt_theta_g]+k2*ppw->pvecmetric[ppw->index_mt_alpha]);
         }
 
-        /* In synchronous gauge with TCA on, perturbations_total_stress_energy()
-           sets shear_g temporarily to zero (it needs alpha, computed only here),
-           so this is the one and only place the photon TCA shear enters. */
         ppw->rho_plus_p_shear += 4./3.*ppw->pvecback[pba->index_bg_rho_g]*shear_g;
 
       }
@@ -7299,8 +6705,6 @@ int perturbations_einstein(
 
           shear_idr = 0.5*8./15./ppw->pvecthermo[pth->index_th_dmu_idm_dr]/ppt->alpha_idm_dr[0]*(y[ppw->pv->index_pt_theta_idr]+k2*ppw->pvecmetric[ppw->index_mt_alpha]);
 
-          /* Same as photons: with tca_idm_dr on in synchronous gauge,
-             total_stress_energy left shear_idr at zero — add it here. */
           ppw->rho_plus_p_shear += 4./3.*ppw->pvecback[pba->index_bg_rho_idr]*shear_idr;
         }
       }
@@ -7427,7 +6831,7 @@ int perturbations_total_stress_energy(
   double gwncdm;
   double rho_relativistic;
   double rho_dr_over_f;
-  double delta_rho_scf, delta_p_scf, rho_plus_p_theta_scf, psi;
+  double delta_rho_scf, delta_p_scf, psi;
   /** Variables used for FLD and PPF */
   double c_gamma_k_H_square;
   double Gamma_prime_plus_a_prime_over_a_Gamma, s2sq=1.;
@@ -7812,58 +7216,6 @@ int perturbations_total_stress_energy(
 
     /* add your extra species here */
 
-    /* PRTOE: δF anisotropic-stress correction before field stress-energy sources */
-    if (ppt->has_scalars == _TRUE_
-        && pba->de_mode == prtoe_active
-        && pba->index_bg_rho_prtoe >= 0
-        && ppw->pv->index_pt_delta_prtoe >= 0
-        && ppw->pv->index_pt_ddelta_prtoe >= 0
-        && prtoe_is_covariantly_active_at_tau(pba, ppw->pvecback[pba->index_bg_rho_prtoe])) {
-      if (pba->index_bg_F_prtoe >= 0 && pba->index_bg_F_phi_prtoe >= 0
-          && pba->index_bg_F_phiphi_prtoe >= 0 && pba->index_bg_F_phiphiphi_prtoe >= 0
-          && pba->index_bg_dphi_prtoe >= 0 && pba->index_bg_ddphi_prtoe >= 0) {
-        double F_local = ppw->pvecback[pba->index_bg_F_prtoe];
-        class_test(F_local <= 0.0 || !isfinite(F_local),
-                   ppt->error_message,
-                   "PRTOE anisotropic stress: non-positive coupling F=%e", F_local);
-        prtoe_accumulate_delta_F_shear(pba, ppw, k, y);
-      }
-    }
-
-    /* PRTOE scalar field stress-energy (before fluid / PPF) */
-    if (prtoe_fill_scalar_stress_energy(pba, ppt, ppw, k, y,
-                                        &delta_rho_scf, &delta_p_scf,
-                                        &rho_plus_p_theta_scf) == _TRUE_) {
-      double rho_prtoe_bg = ppw->pvecback[pba->index_bg_rho_prtoe];
-      double p_prtoe_bg = ppw->pvecback[pba->index_bg_p_prtoe];
-
-      ppw->delta_rho += delta_rho_scf;
-      ppw->delta_p += delta_p_scf;
-      ppw->rho_plus_p_tot += (rho_prtoe_bg + p_prtoe_bg);
-      ppw->rho_plus_p_theta += rho_plus_p_theta_scf;
-
-      if (prtoe_unified_dark_sector_active(pba)) {
-        if (ppt->has_source_delta_m == _TRUE_) {
-          delta_rho_m += delta_rho_scf;
-          rho_m += rho_prtoe_bg;
-        }
-        if ((ppt->has_source_delta_m == _TRUE_) || (ppt->has_source_theta_m == _TRUE_)) {
-          rho_plus_p_m += (rho_prtoe_bg + p_prtoe_bg);
-          rho_plus_p_theta_m += rho_plus_p_theta_scf;
-        }
-      } else if (pba->unify_dark_sector == _TRUE_) {
-        double w_c = prtoe_clustering_weight_cdm(pba);
-        if (ppt->has_source_delta_m == _TRUE_) {
-          delta_rho_m += w_c * delta_rho_scf;
-          rho_m += w_c * rho_prtoe_bg;
-        }
-        if ((ppt->has_source_delta_m == _TRUE_) || (ppt->has_source_theta_m == _TRUE_)) {
-          rho_plus_p_m += w_c * (rho_prtoe_bg + p_prtoe_bg);
-          rho_plus_p_theta_m += w_c * rho_plus_p_theta_scf;
-        }
-      }
-    }
-
     /* fluid contribution */
     if (pba->has_fld == _TRUE_) {
 
@@ -7971,13 +7323,8 @@ int perturbations_total_stress_energy(
        the delta_m source only, because the gauge-invariant delta_m
        involves theta_m in the current gauge. */
 
-    if ((ppt->has_source_delta_m == _TRUE_) || (ppt->has_source_theta_m == _TRUE_)) {
-      if (fabs(rho_plus_p_m) > 1e-30) {
-        ppw->theta_m = rho_plus_p_theta_m/rho_plus_p_m;
-      } else {
-        ppw->theta_m = 0.0;
-      }
-    }
+    if ((ppt->has_source_delta_m == _TRUE_) || (ppt->has_source_theta_m == _TRUE_))
+      ppw->theta_m = rho_plus_p_theta_m/rho_plus_p_m;
 
     /* could include Lambda contribution to rho_tot (not done to match CMBFAST/CAMB definition) */
 
@@ -8145,7 +7492,7 @@ int perturbations_sources(
   double * pvecthermo;
   double * pvecmetric;
 
-  double delta_g, delta_rho_scf, rho_plus_p_theta_scf, psi;
+  double delta_g, delta_rho_scf, rho_plus_p_theta_scf;
   double a_prime_over_a=0.;  /* (a'/a) */
   double a_prime_over_a_prime=0.;  /* (a'/a)' */
   double w_fld,dw_over_da_fld,integral_fld;
@@ -8176,11 +7523,6 @@ int perturbations_sources(
   pvecback = ppw->pvecback;
   pvecthermo = ppw->pvecthermo;
   pvecmetric = ppw->pvecmetric;
-
-  class_test((index_tau < 0) || (index_tau >= ppt->tau_size),
-             ppt->error_message,
-             "perturbations_sources: index_tau=%d outside tau_size=%d",
-             index_tau, ppt->tau_size);
 
   /** - get background/thermo quantities in this point */
 
@@ -8499,11 +7841,7 @@ int perturbations_sources(
 
     /* compute the corrections that have to be applied to each (delta_i, theta_i) in N-body gauge */
 	if (ppt->has_Nbody_gauge_transfers == _TRUE_){
-      if (fabs(ppw->rho_plus_p_tot) > 1e-30) {
-        theta_over_k2 = ppw->rho_plus_p_theta/ppw->rho_plus_p_tot/k/k;
-      } else {
-        theta_over_k2 = 0.0;
-      }
+      theta_over_k2 = ppw->rho_plus_p_theta/ppw->rho_plus_p_tot/k/k;
       theta_shift = H_T_Nb_prime;
       if (ppt->gauge == synchronous) theta_shift += pvecmetric[ppw->index_mt_alpha]*k*k;
 	}
@@ -8516,24 +7854,15 @@ int perturbations_sources(
     if (ppt->has_source_delta_tot == _TRUE_)  {
 
       /** We follow the (debatable) CMBFAST/CAMB convention of not including rho_lambda in rho_tot */
-      /* Unified decision: use de_mode when available, but only subtract rho_lambda
-         if the index was allocated. This prevents accessing invalid indices when
-         PRTOE or lambda indices are not present. */
-      {
-        double p_tot_eff;
-        if (pba->de_mode == lambda_limit && pba->index_bg_rho_lambda >= 0) {
-          /* Lambda-like mode: exclude rho_lambda and its pressure (p_lambda = -rho_lambda) */
-          rho_tot = pvecback[pba->index_bg_rho_tot] - pvecback[pba->index_bg_rho_lambda];
-          p_tot_eff = pvecback[pba->index_bg_p_tot] + pvecback[pba->index_bg_rho_lambda];
-        } else {
-          /* PRTOE or no explicit lambda component: include all components in total */
-          rho_tot = pvecback[pba->index_bg_rho_tot];
-          p_tot_eff = pvecback[pba->index_bg_p_tot];
-        }
-
-        _set_source_(ppt->index_tp_delta_tot) = ppw->delta_rho/rho_tot
-          + 3*a_prime_over_a*(1+p_tot_eff/rho_tot)*theta_over_k2;
+      if (pba->has_lambda == _TRUE_){
+        rho_tot = pvecback[pba->index_bg_rho_tot] - pvecback[pba->index_bg_rho_lambda];
       }
+      else{
+        rho_tot = pvecback[pba->index_bg_rho_tot];
+      }
+
+      _set_source_(ppt->index_tp_delta_tot) = ppw->delta_rho/rho_tot
+        + 3*a_prime_over_a*(1+pvecback[pba->index_bg_p_tot]/pvecback[pba->index_bg_rho_tot])*theta_over_k2;
     }
 
     /* delta_g */
@@ -8574,29 +7903,26 @@ int perturbations_sources(
 
     /* delta_scf */
     if (ppt->has_source_delta_scf == _TRUE_) {
-      /* NECESSARY BRANCHING: PRTOE vs SCF fields have different indices */
+      if (ppt->perturbations_verbose > 0) {
+        fprintf(stderr, "[DEBUG PRTOE] Computing PRTOE delta_scf source\n");
+        fflush(stderr);
+      }
       if (pba->use_prtoe == _TRUE_) {
-        double rho_prtoe_src = pvecback[pba->index_bg_rho_prtoe];
-        if (pba->de_mode == prtoe_active
-            && prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_src)
-            && ppw->pv->index_pt_delta_prtoe >= 0
-            && rho_prtoe_src > 1e-30) {
-          double w_prtoe = pvecback[pba->index_bg_p_prtoe]/rho_prtoe_src;
-          if (ppt->gauge == synchronous){
-            delta_rho_scf = 1./3.*(1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_prtoe] + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_prtoe]) + 3.*a_prime_over_a*(1.+w_prtoe)*theta_over_k2;
-          }
-          else{
-            psi = prtoe_newtonian_psi(pba, ppw, k*k, y[ppw->pv->index_pt_phi], ppw->rho_plus_p_shear);
-            delta_rho_scf = 1./3.*(1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_prtoe] + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_prtoe] - 1./a2*pow(ppw->pvecback[pba->index_bg_dphi_prtoe],2)*psi) + 3.*a_prime_over_a*(1.+w_prtoe)*theta_over_k2;
-          }
-          _set_source_(ppt->index_tp_delta_scf) = delta_rho_scf/rho_prtoe_src;
-        } else if (ppw->pv->index_pt_delta_prtoe >= 0 && rho_prtoe_src > 1e-30) {
-          /* Pre-activation (frozen) phase: field is inactive, density contrast = 0 */
-          /* (do NOT output raw field amplitude delta_prtoe as delta_scf — they differ by gauge/coupling factors) */
-          _set_source_(ppt->index_tp_delta_scf) = 0.0;
-        } else {
-          _set_source_(ppt->index_tp_delta_scf) = 0.0;
+        if (ppt->perturbations_verbose > 0) {
+          fprintf(stderr, "[DEBUG PRTOE] PRTOE delta_scf: accessing indices\n");
+          fflush(stderr);
         }
+        if (ppt->gauge == synchronous){
+          delta_rho_scf = 1./3.*(1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_phi] + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_phi]) + 3.*a_prime_over_a*(1.+pvecback[pba->index_bg_p_prtoe]/pvecback[pba->index_bg_rho_prtoe])*theta_over_k2;
+        }
+        else{
+          delta_rho_scf = 1./3.*(1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_phi] + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_phi] - 1./a2*pow(ppw->pvecback[pba->index_bg_dphi_prtoe],2)*ppw->pvecmetric[ppw->index_mt_psi]) + 3.*a_prime_over_a*(1.+pvecback[pba->index_bg_p_prtoe]/pvecback[pba->index_bg_rho_prtoe])*theta_over_k2;
+        }
+        if (ppt->perturbations_verbose > 0) {
+          fprintf(stderr, "[DEBUG PRTOE] PRTOE delta_scf computed\n");
+          fflush(stderr);
+        }
+        _set_source_(ppt->index_tp_delta_scf) = delta_rho_scf/pvecback[pba->index_bg_rho_prtoe];
       } else {
         if (ppt->gauge == synchronous){
           delta_rho_scf =  1./3.*
@@ -8651,6 +7977,12 @@ int perturbations_sources(
       }
     }
 
+    /* total velocity  */
+    if (ppt->has_source_theta_tot == _TRUE_) {
+      _set_source_(ppt->index_tp_theta_tot) = ppw->rho_plus_p_theta/(pvecback[pba->index_bg_rho_tot]+pvecback[pba->index_bg_p_tot])
+        + theta_shift; // N-body gauge correction
+    }
+
     /* total matter velocity (gauge-invariant, defined as in arXiv:1307.1459) */
     if (ppt->has_source_theta_m == _TRUE_) {
       _set_source_(ppt->index_tp_theta_m) = ppw->theta_m;
@@ -8663,12 +7995,8 @@ int perturbations_sources(
 
     /* total velocity */
     if (ppt->has_source_theta_tot == _TRUE_) {
-      if (fabs(ppw->rho_plus_p_tot) > 1e-30) {
-        _set_source_(ppt->index_tp_theta_tot) = ppw->rho_plus_p_theta/ppw->rho_plus_p_tot
-          + theta_shift; // N-body gauge correction
-      } else {
-        _set_source_(ppt->index_tp_theta_tot) = theta_shift;
-      }
+      _set_source_(ppt->index_tp_theta_tot) = ppw->rho_plus_p_theta/ppw->rho_plus_p_tot
+        + theta_shift; // N-body gauge correction
     }
 
     /* theta_g */
@@ -8716,26 +8044,9 @@ int perturbations_sources(
 
     /* theta_scf */
     if (ppt->has_source_theta_scf == _TRUE_) {
-      /* NECESSARY BRANCHING: PRTOE vs SCF fields have different indices */
       if (pba->use_prtoe == _TRUE_) {
-        double rho_prtoe_src = pvecback[pba->index_bg_rho_prtoe];
-        double rho_p_prtoe_src = rho_prtoe_src + pvecback[pba->index_bg_p_prtoe];
-        if (pba->de_mode == prtoe_active
-            && prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_src)
-            && ppw->pv->index_pt_delta_prtoe >= 0) {
-          rho_plus_p_theta_scf = 1./3.*k*k/a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_delta_prtoe];
-          if (fabs(rho_p_prtoe_src) > 1e-30) {
-            _set_source_(ppt->index_tp_theta_scf) = rho_plus_p_theta_scf/rho_p_prtoe_src + theta_shift;
-          } else {
-            _set_source_(ppt->index_tp_theta_scf) = 0.0;
-          }
-        } else if (ppw->pv->index_pt_delta_prtoe >= 0 && rho_prtoe_src > 1e-30) {
-          /* Pre-activation (frozen) phase: field is inactive, velocity contrast = 0 */
-          /* (do NOT compute theta from raw field amplitude; wait until activation) */
-          _set_source_(ppt->index_tp_theta_scf) = 0.0;
-        } else {
-          _set_source_(ppt->index_tp_theta_scf) = 0.0;
-        }
+        rho_plus_p_theta_scf = 1./3.*k*k/a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_delta_phi];
+        _set_source_(ppt->index_tp_theta_scf) = rho_plus_p_theta_scf/(pvecback[pba->index_bg_rho_prtoe]+pvecback[pba->index_bg_p_prtoe]) + theta_shift;
       } else {
         rho_plus_p_theta_scf = 1./3.*
           k*k/a2*ppw->pvecback[pba->index_bg_phi_prime_scf]*y[ppw->pv->index_pt_phi_scf];
@@ -9174,45 +8485,33 @@ int perturbations_print_variables(double tau,
       theta_scf = rho_plus_p_theta_scf/(pvecback[pba->index_bg_rho_scf]+pvecback[pba->index_bg_p_scf]);
 
     }
-    else if (prtoe_is_physically_active(pba) && pba->index_bg_rho_prtoe >= 0 && ppw->pv->index_pt_delta_prtoe >= 0) {
-      double rho_prtoe_bg = pvecback[pba->index_bg_rho_prtoe];
-      double p_prtoe_bg = pvecback[pba->index_bg_p_prtoe];
+    else if (pba->use_prtoe == _TRUE_) {
+      if (ppt->gauge == synchronous){
+        delta_rho_scf =  1./3.*
+          (1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_phi]
+           + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_phi]);
+        delta_p_scf = 1./3.*
+          (1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_phi]
+           - ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_phi]);
+      }
+      else{
+        delta_rho_scf =  1./3.*
+          (1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_phi]
+           + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_phi]
+           - 1./a2*pow(ppw->pvecback[pba->index_bg_dphi_prtoe],2)*ppw->pvecmetric[ppw->index_mt_psi]);
+        delta_p_scf =  1./3.*
+          (1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_phi]
+           - ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_phi]
+           - 1./a2*pow(ppw->pvecback[pba->index_bg_dphi_prtoe],2)*ppw->pvecmetric[ppw->index_mt_psi]);
+      }
+      rho_plus_p_theta_scf = 1./3.*k*k/a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_delta_phi];
+      delta_scf = delta_rho_scf/pvecback[pba->index_bg_rho_prtoe];
+      theta_scf = rho_plus_p_theta_scf/(pvecback[pba->index_bg_rho_prtoe]+pvecback[pba->index_bg_p_prtoe]);
 
-      /* Density/pressure feed through when rho_prtoe > 0; velocity needs rho+p. */
-      if (rho_prtoe_bg > 1e-30 && prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_bg)) {
-        if (ppt->gauge == synchronous){
-          delta_rho_scf =  1./3.*
-            (1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_prtoe]
-             + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_prtoe]);
-          delta_p_scf = 1./3.*
-            (1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_prtoe]
-             - ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_prtoe]);
-        }
-        else{
-          psi = prtoe_newtonian_psi(pba, ppw, k*k, y[ppw->pv->index_pt_phi], ppw->rho_plus_p_shear);
-          delta_rho_scf =  1./3.*
-            (1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_prtoe]
-             + ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_prtoe]
-             - 1./a2*pow(ppw->pvecback[pba->index_bg_dphi_prtoe],2)*psi);
-          delta_p_scf =  1./3.*
-            (1./a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_ddelta_prtoe]
-             - ppw->pvecback[pba->index_bg_dV_scf]*y[ppw->pv->index_pt_delta_prtoe]
-             - 1./a2*pow(ppw->pvecback[pba->index_bg_dphi_prtoe],2)*psi);
-        }
-        rho_plus_p_theta_scf = 1./3.*k*k/a2*ppw->pvecback[pba->index_bg_dphi_prtoe]*y[ppw->pv->index_pt_delta_prtoe];
-        delta_scf = delta_rho_scf/rho_prtoe_bg;
-        if (fabs(rho_prtoe_bg + p_prtoe_bg) > 1e-30) {
-          theta_scf = rho_plus_p_theta_scf/(rho_prtoe_bg+p_prtoe_bg);
-        }
-        else {
-          theta_scf = 0.0;
-        }
-
-        ppw->delta_rho += delta_rho_scf;
-        ppw->delta_p += delta_p_scf;
-        ppw->rho_plus_p_tot += (rho_prtoe_bg+p_prtoe_bg);
-        ppw->rho_plus_p_theta += rho_plus_p_theta_scf;
-      } 
+      ppw->delta_rho += delta_rho_scf;
+      ppw->rho_plus_p_theta += rho_plus_p_theta_scf;
+      ppw->delta_p += delta_p_scf;
+      ppw->rho_plus_p_tot += (pvecback[pba->index_bg_rho_prtoe]+pvecback[pba->index_bg_p_prtoe]);
     }
 
     /* converting synchronous variables to newtonian ones */
@@ -9284,16 +8583,6 @@ int perturbations_print_variables(double tau,
         delta_scf += alpha*(-3.0*H*(1.0+pvecback[pba->index_bg_p_scf]/pvecback[pba->index_bg_rho_scf]));
         theta_scf += k*k*alpha;
       }
-      else if (pba->use_prtoe == _TRUE_
-               && pba->de_mode == prtoe_active
-               && ppw->pv->index_pt_delta_prtoe >= 0) {
-        double rho_prtoe_gt = pvecback[pba->index_bg_rho_prtoe];
-        if (prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_gt)) {
-          double w_prtoe = pvecback[pba->index_bg_p_prtoe] / rho_prtoe_gt;
-          delta_scf += alpha * (-3.0 * pvecback[pba->index_bg_H]*pvecback[pba->index_bg_a] * (1.0 + w_prtoe));
-          theta_scf += k * k * alpha;
-        }
-      }
 
     }
 
@@ -9361,9 +8650,9 @@ int perturbations_print_variables(double tau,
     class_store_double(dataptr, delta_dr, pba->has_dr, storeidx);
     class_store_double(dataptr, theta_dr, pba->has_dr, storeidx);
     class_store_double(dataptr, shear_dr, pba->has_dr, storeidx);
-    /* Scalar field scf (canonical SCF or PRTOE via has_source_* flags) */
-    class_store_double(dataptr, delta_scf, ppt->has_source_delta_scf, storeidx);
-    class_store_double(dataptr, theta_scf, ppt->has_source_theta_scf, storeidx);
+    /* Scalar field scf*/
+    class_store_double(dataptr, delta_scf, pba->has_scf, storeidx);
+    class_store_double(dataptr, theta_scf, pba->has_scf, storeidx);
     /** Fluid */
     class_store_double(dataptr, ppw->delta_rho_fld, pba->has_fld, storeidx);
     class_store_double(dataptr, ppw->rho_plus_p_theta_fld, pba->has_fld, storeidx);
@@ -9418,9 +8707,9 @@ int perturbations_print_variables(double tau,
       ppt->size_tensor_perturbation_data[ppw->index_ikout] = 0;
     }
     else{
-      class_realloc(ppt->tensor_perturbations_data[ppw->index_ikout],
-                    (ppt->size_tensor_perturbation_data[ppw->index_ikout]+ppt->number_of_tensor_titles)*sizeof(double),
-                    ppt->error_message);
+      ppt->tensor_perturbations_data[ppw->index_ikout] =
+        (double*)realloc(ppt->tensor_perturbations_data[ppw->index_ikout],
+                sizeof(double)*(ppt->size_tensor_perturbation_data[ppw->index_ikout]+ppt->number_of_tensor_titles));
     }
     storeidx = 0;
     dataptr = ppt->tensor_perturbations_data[ppw->index_ikout]+
@@ -9502,264 +8791,6 @@ int perturbations_print_variables(double tau,
 
   return _SUCCESS_;
 
-}
-
-/**
- * PRTOE perturbation evolution helper function
- *
- * This function encapsulates all PRTOE perturbation evolution equations,
- * including:
- * - Scalar field perturbation δφ evolution
- * - Metric perturbations (Φ, η) from perturbed Einstein equations
- * - Stress-energy tensor contributions to the total
- *
- * This extraction enables:
- * 1. Cleaner perturbations_derivs() main flow
- * 2. Easier debugging of PRTOE equations in isolation
- * 3. Future unification with standard dark energy perturbations
- */
-
-int prtoe_perturbations_derivs(
-                               struct precision * ppr,
-                               struct background * pba,
-                               struct thermodynamics * pth,
-                               struct perturbations * ppt,
-                               int index_md,
-                               double k,
-                               double tau,
-                               double * y,
-                               double * dy,
-                               struct perturbations_workspace * ppw,
-                               ErrorMsg error_message
-                               ) {
-
-  /* Short-hand notations */
-  double a = ppw->pvecback[pba->index_bg_a];
-  double a2 = a * a;
-  double k2 = k * k;
-  double H = ppw->pvecback[pba->index_bg_H];
-  double H_prime = ppw->pvecback[pba->index_bg_H_prime];
-  double a_prime_over_a = ppw->pvecback[pba->index_bg_H] * a;
-  double * pvecback = ppw->pvecback;
-
-  /* The caller gates on prtoe_is_physically_active(), which also covers
-     prtoe_frozen / lambda_limit configurations where these perturbations
-     are intentionally not evolved — that is a valid no-op, not an error. */
-  if (pba->de_mode != prtoe_active) {
-    if (ppw->pv->index_pt_delta_prtoe >= 0) dy[ppw->pv->index_pt_delta_prtoe] = 0.0;
-    if (ppw->pv->index_pt_ddelta_prtoe >= 0) dy[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
-    return _SUCCESS_;
-  }
-
-  /* With de_mode == prtoe_active the indices must have been allocated;
-     a negative index here is a genuine initialization bug. */
-  class_test(pba->index_bg_rho_prtoe < 0
-             || ppw->pv->index_pt_delta_prtoe < 0
-             || ppw->pv->index_pt_ddelta_prtoe < 0,
-             error_message,
-             "PRTOE perturbation indices/background were not initialized");
-
-
-  double rho_prtoe_bg = pvecback[pba->index_bg_rho_prtoe];
-  double delta_phi  = y[ppw->pv->index_pt_delta_prtoe];
-  double ddelta_phi = y[ppw->pv->index_pt_ddelta_prtoe];
-
-  /* PRTOE perturbations couple only after covariant background activation */
-  if (prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_bg)) {
-
-    /* === SIMPLIFIED: Only evolve field perturbations (δφ, δφ') ===
-       Metric potentials (Φ, η) are determined from constraints in metric_sources()
-       not evolved here. This prevents singular Jacobian from over-determined system.
-    */
-
-    /* Load PRTOE background quantities */
-    double phi        = pvecback[pba->index_bg_phi_prtoe];
-    double dphi       = pvecback[pba->index_bg_dphi_prtoe];
-    double F          = pvecback[pba->index_bg_F_prtoe];
-    double F_phi      = pvecback[pba->index_bg_F_phi_prtoe];
-    double F_phiphi   = pvecback[pba->index_bg_F_phiphi_prtoe];
-    
-    /* Compute V_phiphi directly from PRTOE potential V(φ) = V0*exp(-λφ) + (m²/2)φ² */
-    double exp_term = exp(-pba->lambda_prtoe * phi);
-    double V_phiphi = pba->lambda_prtoe * pba->lambda_prtoe * pba->V0_prtoe * exp_term + pba->m_prtoe * pba->m_prtoe;
-    
-    double rho        = pvecback[pba->index_bg_rho_tot];
-    double p          = pvecback[pba->index_bg_p_tot];
-
-    /* Screened DHOST parameter */
-    double beta_screened = pba->beta_prtoe / (1.0 + phi*phi);
-
-    class_test(F <= 0.0 || !isfinite(F),
-               error_message,
-               "PRTOE field ODE: non-positive coupling F=%e at a=%e (k=%e)",
-               F, a, k);
-    double phi_dot = dphi / a;
-    double R_stable = 3.0 * H_prime / a + pba->K / a2 - H * H;
-    double m_eff2 = prtoe_compute_meff2(V_phiphi, F, F_phi, F_phiphi,
-                                        H, H_prime, a, pba->K, phi_dot);
-
-    /* High-k beta correction only when field contributes to background density */
-    double beta_k2_term = 0.0;
-    if (rho_prtoe_bg > 1e-30 && prtoe_is_covariantly_active_at_tau(pba, rho_prtoe_bg)) {
-      beta_k2_term = - (beta_screened * phi * R_stable * k2)
-                     / (pba->M_ew_prtoe * pba->M_ew_prtoe * a2);
-    }
-
-    /* === Klein-Gordon for δφ with metric sourcing (§10.9) ===
-       Φ, Ψ from perturbations_einstein(); δφ couples via (F_φ/F) curvature sources.
-    */
-    double metric_curv = H_prime / a + 2.0 * H * H;
-    double metric_src = 0.0;
-
-    if (ppt->gauge == newtonian && ppw->pv->index_pt_phi >= 0) {
-      double Phi = y[ppw->pv->index_pt_phi];
-      double Psi = ppw->pvecmetric[ppw->index_mt_psi];
-      double eta_slip = Psi - Phi;
-      double dPhi = ppw->pvecmetric[ppw->index_mt_phi_prime];
-      metric_src = (F_phi / F) * (3.0 * metric_curv * (3.0 * Phi + 2.0 * eta_slip)
-                                  + 6.0 * H * dPhi);
-    }
-    else if (ppt->gauge == synchronous && ppw->pv->index_pt_eta >= 0) {
-      double eta_sync = y[ppw->pv->index_pt_eta];
-      double eta_prime = ppw->pvecmetric[ppw->index_mt_eta_prime];
-      metric_src = (F_phi / F) * (3.0 * metric_curv * (5.0 * eta_sync)
-                                  + 6.0 * H * eta_prime);
-    }
-
-    /* Conformal-time form. Physical KG:
-         ddot(δφ) + (3H + (F_φ/F)φ̇) dot(δφ) + (k²_phys + m_eff² + ...) δφ = S_phys
-       with d/dt = (1/a) d/dτ becomes
-         δφ'' + (2ℋ + (F_φ/F)φ') δφ' + (k² + a²[m_eff² + ...]) δφ = a² S_phys.
-       The friction terms below were already conformal; the stiffness bracket and
-       source previously kept their physical form (k²/a², bare m_eff²), which is
-       inconsistent by factors of a² and made the ODE catastrophically stiff at
-       early times (k²/a² → ∞ as a → 0). */
-    /* === Cubic-galileon (kinetic gravity braiding) corrections, v2/v3 ===
-       From the quadratic action of L3 = -(g3/Lambda^3) X box(phi) on FLRW,
-       to first order in the braiding alpha_B ~ 6(g3/Lambda^3) H phidot
-       (DPSV 2010 structure; metric perturbations in L3 neglected, valid
-       for alpha_B << 1 which holds throughout the compatible window
-       g3 <~ 1e-10 -- see docs/PRTOE_derivation.md par.4):
-         N_gal    = 1 + 6 (g3/L3) H phidot           (kinetic normalization; N>0 = no ghost)
-         cs2_gal  = [1 + 2 (g3/L3)(phiddot + 2H phidot)] / N_gal   (>0 = gradient-stable)
-       The delta-phi equation becomes
-         N_gal dphi'' + (friction) dphi' + (cs2_gal k^2 + a^2[...]) dphi = a^2 S. */
-    double N_gal = 1.0, cs2_gal = 1.0;
-    if (pba->g3_prtoe != 0.0) {
-      double gal = pba->g3_prtoe / (pba->H0 * pba->H0);
-      double phi_ddot_bg = 0.0;
-      if (pba->index_bg_ddphi_prtoe >= 0) {
-        phi_ddot_bg = (pvecback[pba->index_bg_ddphi_prtoe] - a_prime_over_a * dphi) / a2;
-      }
-      N_gal = 1.0 + 6.0 * gal * H * phi_dot;
-      class_test(N_gal <= 0.0,
-                 error_message,
-                 "PRTOE galileon GHOST: kinetic normalization N=%e <= 0 at a=%e (g3=%e)",
-                 N_gal, a, pba->g3_prtoe);
-      cs2_gal = (1.0 + 2.0 * gal * (phi_ddot_bg + 2.0 * H * phi_dot)) / N_gal;
-      if (cs2_gal < 0.0 && ppt->perturbations_verbose > 0) {
-        fprintf(stderr, "PRTOE WARNING: galileon gradient instability cs2=%e at a=%e\n",
-                cs2_gal, a);
-      }
-    }
-
-    dy[ppw->pv->index_pt_ddelta_prtoe] =
-        ( - (2.0*a_prime_over_a + (F_phi/F)*dphi) * ddelta_phi
-          - (cs2_gal * k2 + a2 * (m_eff2 + beta_k2_term
-                        + (F_phiphi/F) * phi_dot * phi_dot
-                        - 3.0 * (F_phi/F) * metric_curv)) * delta_phi
-          + a2 * metric_src ) / N_gal;
-
-    dy[ppw->pv->index_pt_delta_prtoe] = ddelta_phi;
-
-  } else {
-
-    /* Pre-activation: freeze the field state until covariant activation begins. */
-    dy[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
-    dy[ppw->pv->index_pt_delta_prtoe] = 0.0;
-
-  }
-
-  return _SUCCESS_;
-}
-
-/**
- * FLD perturbation evolution helper function
- *
- * This function encapsulates FLD (fluid dark energy) perturbation evolution.
- * Extracted to match PRTOE_perturbations_derivs() structure for unified handling.
- *
- * Handles:
- * - Density perturbation δ evolution
- * - Velocity perturbation θ evolution
- * - PPF formalism when enabled
- */
-
-int fld_perturbations_derivs(
-                             struct precision * ppr,
-                             struct background * pba,
-                             struct thermodynamics * pth,
-                             struct perturbations * ppt,
-                             int index_md,
-                             double k,
-                             double tau,
-                             double * y,
-                             double * dy,
-                             struct perturbations_workspace * ppw,
-                             double metric_continuity,
-                             double metric_euler,
-                             ErrorMsg error_message
-                             ) {
-
-  /* Short-hand notations */
-  double k2 = k * k;
-  double a = ppw->pvecback[pba->index_bg_a];
-  double a2 = a * a;
-  double H = ppw->pvecback[pba->index_bg_H];
-  double a_prime_over_a = ppw->pvecback[pba->index_bg_H] * a;
-  double * pvecback = ppw->pvecback;
-
-  double w_fld, dw_over_da_fld, w_prime_fld, integral_fld;
-  double ca2, cs2;
-
-  /* FLD only active when fluid dark energy is enabled */
-  if (pba->has_fld == _FALSE_) {
-    return _SUCCESS_;
-  }
-
-  /* Compute FLD background quantities */
-  class_call(background_w_fld(pba, a, &w_fld, &dw_over_da_fld, &integral_fld), 
-             pba->error_message, error_message);
-  w_prime_fld = dw_over_da_fld * a_prime_over_a * a;
-  cs2 = pba->cs2_fld;
-
-  if (pba->use_ppf == _FALSE_) {
-
-    /* Only needed for non-PPF branch; defer to avoid 1/(1+w_fld) singularity in PPF path */
-    ca2 = w_fld - w_prime_fld / 3. / (1. + w_fld) / a_prime_over_a;
-    
-    /* Standard fluid case: evolve density and velocity perturbations */
-    
-    /* Density perturbation equation */
-    dy[ppw->pv->index_pt_delta_fld] =
-      -(1 + w_fld) * (y[ppw->pv->index_pt_theta_fld] + metric_continuity)
-      - 3. * (cs2 - w_fld) * a_prime_over_a * y[ppw->pv->index_pt_delta_fld]
-      - 9. * (1 + w_fld) * (cs2 - ca2) * a_prime_over_a * a_prime_over_a * y[ppw->pv->index_pt_theta_fld] / k2;
-
-    /* Velocity perturbation equation */
-    dy[ppw->pv->index_pt_theta_fld] =
-      -(1. - 3. * cs2) * a_prime_over_a * y[ppw->pv->index_pt_theta_fld]
-      + cs2 * k2 / (1. + w_fld) * y[ppw->pv->index_pt_delta_fld]
-      + metric_euler;
-
-  } else {
-    
-    /* PPF formalism: use Gamma variable */
-    dy[ppw->pv->index_pt_Gamma_fld] = ppw->Gamma_prime_fld;
-    
-  }
-
-  return _SUCCESS_;
 }
 
 /**
@@ -9855,9 +8886,6 @@ int perturbations_derivs(double tau,
 
   /* for use with dcdm and dr */
   double f_dr, fprime_dr;
-  
-  /* Pre-computed PRTOE effective gravity ratio (unified computation) */
-  double G_eff_ratio_prtoe = 1.0;
 
   /** - rename the fields of the input structure (just to avoid heavy notations) */
 
@@ -9878,17 +8906,6 @@ int perturbations_derivs(double tau,
   pvecmetric = ppw->pvecmetric;
   pv = ppw->pv;
 
-  /** ============================================================
-   *  PRTOE Safety Check (perturbations level)
-   *  ============================================================ */
-  if (_scalars_ && pba->de_mode == prtoe_active) {
-    /* Only check for field perturbation indices. Metric potentials (Phi, eta)
-       are NOT evolved; they are -1 by design and computed from constraints. */
-    class_test(pv->index_pt_delta_prtoe < 0,
-               error_message,
-               "PRTOE is active but field perturbation indices were not allocated. "
-               "Check perturbations_indices().");
-  }
 
   /** - get background/thermo quantities in this point */
 
@@ -9911,27 +8928,6 @@ int perturbations_derivs(double tau,
              pth->error_message,
              error_message);
 
-  /** - compute related background quantities */
-
-  a = pvecback[pba->index_bg_a];
-  a2 = a*a;
-
-  /** - Pre-compute PRTOE effective gravity ratio (unified, once per timestep) */
-  double G_eff_ratio_cdm = 1.0;
-  double G_eff_ratio_b = 1.0;
-  if (pba->de_mode == prtoe_active
-      && pba->index_bg_rho_prtoe >= 0
-      && prtoe_is_covariantly_active_at_tau(pba, pvecback[pba->index_bg_rho_prtoe])) {
-    double phi_current = pvecback[pba->index_bg_phi_prtoe];
-    double k2_a2 = k2 / (a * a);
-    class_test(prtoe_compute_G_eff_ratio_k2(pba, phi_current, k2_a2, &G_eff_ratio_prtoe) == _FALSE_,
-               error_message,
-               "PRTOE G_eff: singular denominator (xi_eff/term2) at a=%e, k=%e, phi=%e",
-               a, k, phi_current);
-    G_eff_ratio_cdm = prtoe_blend_coupling(pba->g_c_prtoe, G_eff_ratio_prtoe);
-    G_eff_ratio_b   = prtoe_blend_coupling(pba->g_b_prtoe, G_eff_ratio_prtoe);
-  }
-
   /** - get metric perturbations with perturbations_einstein() */
   class_call(perturbations_einstein(ppr,
                                     pba,
@@ -9945,6 +8941,10 @@ int perturbations_derivs(double tau,
              ppt->error_message,
              error_message);
 
+  /** - compute related background quantities */
+
+  a = pvecback[pba->index_bg_a];
+  a2 = a*a;
   a_prime_over_a = pvecback[pba->index_bg_H] * a;
   R = 4./3. * pvecback[pba->index_bg_rho_g]/pvecback[pba->index_bg_rho_b];
 
@@ -10173,9 +9173,27 @@ int perturbations_derivs(double tau,
     if (ppw->approx[ppw->index_ap_tca] == (int)tca_off) {
 
       /* without tca */
+      /* PRTOE Apparent Acceleration: -gamma * grad(phi) / phi */
+      double prtoe_accel = 0.0;
+      double G_eff_ratio_baryons = 1.0;
+      
+      if (pba->use_prtoe == _TRUE_) {
+        double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
+        double xi = pba->xi_prtoe;
+        double lambda = pba->lambda_prtoe;
+        double V0 = pba->V0_prtoe;
+        double m = pba->m_prtoe;
+        double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
+        double k2_a2 = k2 / (a * a);
+        double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
+        double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
+        G_eff_ratio_baryons = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
+      }
+
       dy[pv->index_pt_theta_b] =
         - a_prime_over_a*theta_b
-        + G_eff_ratio_b * metric_euler
+        + G_eff_ratio_baryons * metric_euler
+        + prtoe_accel
         + k2*delta_p_b_over_rho_b
         + R*pvecthermo[pth->index_th_dkappa]*(theta_g-theta_b);
 
@@ -10191,12 +9209,30 @@ int perturbations_derivs(double tau,
                  error_message,
                  error_message);
 
+      /* PRTOE Apparent Acceleration in TCA: acts on the baryon component */
+      double prtoe_accel = 0.0;
+      double G_eff_ratio_baryons = 1.0;
+      
+      if (pba->use_prtoe == _TRUE_) {
+        double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
+        double xi = pba->xi_prtoe;
+        double lambda = pba->lambda_prtoe;
+        double V0 = pba->V0_prtoe;
+        double m = pba->m_prtoe;
+        double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
+        double k2_a2 = k2 / (a * a);
+        double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
+        double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
+        G_eff_ratio_baryons = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
+      }
+
       /* perturbed recombination has an impact **/
       dy[pv->index_pt_theta_b] =
         (-a_prime_over_a*theta_b
          +k2*(delta_p_b_over_rho_b+R*(delta_g/4.-s2_squared*ppw->tca_shear_g))
+         + prtoe_accel
          +R*ppw->tca_slip)/(1.+R)
-         + G_eff_ratio_b * metric_euler;
+         + G_eff_ratio_baryons * metric_euler;
 
       if (pth->has_idm_g == _TRUE_) {
         dy[pv->index_pt_theta_b] +=
@@ -10319,8 +9355,26 @@ int perturbations_derivs(double tau,
 
       if (ppt->gauge == newtonian) {
         dy[pv->index_pt_delta_cdm] = -(y[pv->index_pt_theta_cdm]+metric_continuity); /* cdm density */
-        dy[pv->index_pt_theta_cdm] = - a_prime_over_a * y[pv->index_pt_theta_cdm] 
-                                      + G_eff_ratio_cdm * metric_euler; /* cdm velocity with PRTOE effective gravity */
+        
+        if (pba->use_prtoe == _TRUE_) {
+          double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
+          double xi = pba->xi_prtoe;
+          double lambda = pba->lambda_prtoe;
+          double V0 = pba->V0_prtoe;
+          double m = pba->m_prtoe;
+          
+          double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
+          double k2_a2 = k2 / (a * a);
+          double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
+          double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
+          
+          double G_eff_ratio = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
+
+          dy[pv->index_pt_theta_cdm] = - a_prime_over_a * y[pv->index_pt_theta_cdm] 
+                                        + G_eff_ratio * metric_euler;
+        } else {
+          dy[pv->index_pt_theta_cdm] = - a_prime_over_a*y[pv->index_pt_theta_cdm] + metric_euler; /* cdm velocity */
+        }
       }
 
       /** - ----> synchronous gauge: cdm density only (velocity set to zero by definition of the gauge) */
@@ -10453,8 +9507,36 @@ int perturbations_derivs(double tau,
     /** - ---> fluid (fld) */
 
     if (pba->has_fld == _TRUE_) {
-      class_call(fld_perturbations_derivs(ppr, pba, pth, ppt, index_md, k, tau, y, dy, ppw, metric_continuity, metric_euler, ppt->error_message),
-                 ppt->error_message, ppt->error_message);
+
+      if (pba->use_ppf == _FALSE_){
+
+        /** - ----> factors w, w_prime, adiabatic sound speed ca2 (all three background-related),
+            plus actual sound speed in the fluid rest frame cs2 */
+
+        class_call(background_w_fld(pba,a,&w_fld,&dw_over_da_fld,&integral_fld), pba->error_message, ppt->error_message);
+        w_prime_fld = dw_over_da_fld * a_prime_over_a * a;
+
+        ca2 = w_fld - w_prime_fld / 3. / (1.+w_fld) / a_prime_over_a;
+        cs2 = pba->cs2_fld;
+
+        /** - ----> fluid density */
+
+        dy[pv->index_pt_delta_fld] =
+          -(1+w_fld)*(y[pv->index_pt_theta_fld]+metric_continuity)
+          -3.*(cs2-w_fld)*a_prime_over_a*y[pv->index_pt_delta_fld]
+          -9.*(1+w_fld)*(cs2-ca2)*a_prime_over_a*a_prime_over_a*y[pv->index_pt_theta_fld]/k2;
+
+        /** - ----> fluid velocity */
+
+        dy[pv->index_pt_theta_fld] = /* fluid velocity */
+          -(1.-3.*cs2)*a_prime_over_a*y[pv->index_pt_theta_fld]
+          +cs2*k2/(1.+w_fld)*y[pv->index_pt_delta_fld]
+          +metric_euler;
+      }
+      else {
+        dy[pv->index_pt_Gamma_fld] = ppw->Gamma_prime_fld; /* Gamma variable of PPF formalism */
+      }
+
     }
 
     /** - ---> scalar field (scf) */
@@ -10470,13 +9552,19 @@ int perturbations_derivs(double tau,
 
     }
 
-    /* ============================================================
-     *  PRTOE PERTURBATION EVOLUTION
-     *  ============================================================ */
-    if (prtoe_is_physically_active(pba) && pba->index_bg_rho_prtoe >= 0) {
-      class_call(prtoe_perturbations_derivs(ppr, pba, pth, ppt, index_md, k, tau, y, dy, ppw, error_message),
-                 error_message,
-                 error_message);
+    if (pba->use_prtoe == _TRUE_) {
+        if (ppt->perturbations_verbose > 0) {
+          fprintf(stderr, "[DEBUG PRTOE] Computing PRTOE perturbation derivatives\n");
+          fflush(stderr);
+        }
+        dy[pv->index_pt_delta_phi] = y[pv->index_pt_ddelta_phi];
+        dy[pv->index_pt_ddelta_phi] = - 2.*a_prime_over_a*y[pv->index_pt_ddelta_phi]
+          - metric_continuity*ppw->pvecback[pba->index_bg_dphi_prtoe]
+          - (k2 + a2*ppw->pvecback[pba->index_bg_ddV_scf])*y[pv->index_pt_delta_phi];
+        if (ppt->perturbations_verbose > 0) {
+          fprintf(stderr, "[DEBUG PRTOE] PRTOE perturbation derivatives computed\n");
+          fflush(stderr);
+        }
     }
 
     /** - ---> ultra-relativistic neutrino/relics (ur) */
@@ -10612,9 +9700,23 @@ int perturbations_derivs(double tau,
 
           /** - -----> exact euler equation */
 
+          double G_eff_ncdm = 1.0;
+          if (pba->use_prtoe == _TRUE_) {
+            double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
+            double xi = pba->xi_prtoe;
+            double lambda = pba->lambda_prtoe;
+            double V0 = pba->V0_prtoe;
+            double m = pba->m_prtoe;
+            double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
+            double k2_a2 = k2 / (a * a);
+            double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
+            double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
+            G_eff_ncdm = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
+          }
+
           dy[idx+1] = -a_prime_over_a*(1.0-3.0*ca2_ncdm)*y[idx+1]+
             ceff2_ncdm/(1.0+w_ncdm)*k2*y[idx]-k2*y[idx+2]
-            + G_eff_ratio_prtoe * metric_euler; /* neutrino velocity with PRTOE effective gravity */
+            + G_eff_ncdm * metric_euler;
 
           /** - -----> different ansatz for approximate shear derivative */
 
@@ -10670,8 +9772,22 @@ int perturbations_derivs(double tau,
 
             /** - -----> ncdm velocity for given momentum bin */
 
+            double G_eff_ncdm = 1.0;
+            if (pba->use_prtoe == _TRUE_) {
+              double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
+              double xi = pba->xi_prtoe;
+              double lambda = pba->lambda_prtoe;
+              double V0 = pba->V0_prtoe;
+              double m = pba->m_prtoe;
+              double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
+              double k2_a2 = k2 / (a * a);
+              double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
+              double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
+              G_eff_ncdm = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
+            }
+
             dy[idx+1] = qk_div_epsilon/3.0*(y[idx] - 2*s_l[2]*y[idx+2])
-              -epsilon*(G_eff_ratio_prtoe * metric_euler)/(3*q*k)*dlnf0_dlnq; /* neutrino velocity with PRTOE effective gravity */
+              -epsilon*(G_eff_ncdm * metric_euler)/(3*q*k)*dlnf0_dlnq;
 
             /** - -----> ncdm shear for given momentum bin */
 
@@ -10717,6 +9833,8 @@ int perturbations_derivs(double tau,
 
   /** - vector mode */
   if (_vectors_) {
+
+    fprintf(stderr,"we are in vectors\n");
 
     ssqrt3 = sqrt(1.-2.*pba->K/k2);
     cb2 = pvecthermo[pth->index_th_cb2];
@@ -11248,24 +10366,18 @@ int perturbations_tca_slip_and_shear(double * y,
   }
 
   /* PRTOE: WEP violation creates a direct slip between Baryons (massive) and Photons (massless) */
-  if (pba->de_mode == prtoe_active
-      && pba->index_bg_rho_prtoe >= 0
-      && prtoe_is_covariantly_active_at_tau(pba, ppw->pvecback[pba->index_bg_rho_prtoe])) {
+  if (pba->use_prtoe == _TRUE_) {
     double phi_current = ppw->pvecback[pba->index_bg_phi_prtoe];
+    double xi = pba->xi_prtoe;
+    double lambda = pba->lambda_prtoe;
+    double V0 = pba->V0_prtoe;
+    double m = pba->m_prtoe;
+    double M2 = lambda * lambda * V0 * exp(-lambda * phi_current) + m * m;
     double k2_a2 = k2 / (a * a);
-    double G_eff_ratio_baryons = 1.0;
-    class_test(prtoe_compute_G_eff_ratio_k2(pba, phi_current, k2_a2, &G_eff_ratio_baryons) == _FALSE_,
-               error_message,
-               "PRTOE TCA slip: singular G_eff denominator at a=%e, k2/a2=%e, phi=%e",
-               a, k2_a2, phi_current);
-    G_eff_ratio_baryons = prtoe_blend_coupling(pba->g_b_prtoe, G_eff_ratio_baryons);
-    {
-      /* Gauge-aware WEP slip driver: k2*psi (Newtonian) or k2*alpha (synchronous). */
-      double metric_wep_driver = (ppt->gauge == synchronous)
-                                 ? metric_shear
-                                 : metric_euler;
-      slip += F * (G_eff_ratio_baryons - 1.0) * metric_wep_driver;
-    }
+    double term1 = 1.0 + 4.0 * phi_current / (1.0 + pba->zeta_prtoe * phi_current * phi_current);
+    double term2 = term1 - 3.0 * xi * xi / (1.0 + xi * phi_current);
+    double G_eff_ratio_baryons = (1.0 / (1.0 + xi * phi_current)) * ((k2_a2 * term1 + M2) / (k2_a2 * term2 + M2));
+    slip += F * (G_eff_ratio_baryons - 1.0) * metric_euler;
   }
 
   if (pth->has_idm_g == _TRUE_ && (ppr->tight_coupling_approximation == (int)first_order_CLASS || ppr->tight_coupling_approximation == (int)second_order_CLASS ||  ppr->tight_coupling_approximation == (int)compromise_CLASS )) {
@@ -11452,8 +10564,9 @@ int perturbations_rsa_delta_and_theta(
   k2 = k*k;
 
   class_test(ppw->approx[ppw->index_ap_rsa] == (int)rsa_off,
-             error_message,
-             "this function should not have been called now, bug was introduced");
+             "this function should not have been called now, bug was introduced",
+             ppt->error_message,
+             ppt->error_message);
 
   // formulas below TBC for curvaturema
 

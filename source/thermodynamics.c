@@ -1566,7 +1566,7 @@ int thermodynamics_solve(
   /* function pointer to ODE evolver and names of possible evolvers. */
   extern int evolver_rk(EVOLVER_PROTOTYPE);
   extern int evolver_ndf15(EVOLVER_PROTOTYPE);
-  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_rk; /* default to rk for thermodynamics */
+  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_ndf15;
 
   /** - choose evolver */
   switch (ppr->thermo_evolver) {
@@ -2200,7 +2200,7 @@ int thermodynamics_reionization_evolve_with_tau(
   /* function pointer to ODE evolver and names of possible evolvers */
   extern int evolver_rk(EVOLVER_PROTOTYPE);
   extern int evolver_ndf15(EVOLVER_PROTOTYPE);
-  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_rk; /* default to rk for thermodynamics */
+  int (*generic_evolver)(EVOLVER_PROTOTYPE) = evolver_ndf15;
 
   /* pointers towards two thermo vector stuctures (see below) */
 
@@ -2768,7 +2768,6 @@ int thermodynamics_derivs(
       + 2.*Tmat/(1.+z)                                                          /* Adiabatic expansion */
       + rate_gamma_b * (Tmat-Trad) / (Hz*(1.+z))                                /* Coupling to photons*/
       - ptw->Tcmb;                                                              /* dTrad/dz */
-
 
     /* Add heating from energy injection */
     if (pth->has_exotic_injection == _TRUE_) {
@@ -4623,20 +4622,8 @@ int thermodynamics_obtain_z_ini(
   double R_dm;
   double f1nu = 7./8.*pow((4./11.),(4./3.));
 
-  if (pba->use_prtoe == _TRUE_) {
-    if (pba->Omega0_prtoe < 1e-30) {
-      /* No early scalar leak in null limit */
-      z_initial = ppr->thermo_z_initial;
-    } else {
-      /* PRTOE active: start early to capture scalar evolution */
-      z_initial = MAX(ppr->thermo_z_initial, 1e5);
-    }
-  } else {
-    z_initial = ppr->thermo_z_initial;
-  }
+  z_initial = ppr->thermo_z_initial;
   Nz_log = ppr->thermo_Nz_log;
-  /* Note: if z_initial was extended (PRTOE and/or idm), Nz_log is rescaled
-     exactly once below, after the final z_initial is known. */
 
   /* Set this initially to False and check if it's needed */
   ptw->has_ap_idmtca = _FALSE_;
@@ -4708,11 +4695,9 @@ int thermodynamics_obtain_z_ini(
     if (pth->thermodynamics_verbose > 2)
       printf(" -> Increasing the initial redshift of thermodynamics from %e to %e \n",ppr->thermo_z_initial,z_initial);
 
+    /* Rescale Nz_log (if necessary) in order to cover with equal spacing the enlarged range */
+    Nz_log = MAX((int)(Nz_log/log(ppr->thermo_z_initial)*log(z_initial)),Nz_log);
   }
-
-  /* Rescale Nz_log (if necessary) in order to cover with equal spacing the
-     enlarged range, whether it was extended by idm, PRTOE, or both */
-  Nz_log = MAX((int)(Nz_log/log(ppr->thermo_z_initial)*log(z_initial)),Nz_log);
 
   ppr->thermo_z_initial = z_initial;
   ppr->thermo_Nz_log = Nz_log;
@@ -4792,4 +4777,3 @@ int thermodynamics_idm_initial_temperature(
 
   return _SUCCESS_;
 }
-

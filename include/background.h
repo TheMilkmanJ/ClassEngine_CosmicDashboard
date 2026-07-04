@@ -896,16 +896,6 @@ static inline double prtoe_fifth_force_deviation_at_rho_kg_m3(struct background 
  * starts evolving inside an active run.
  */
 static inline int prtoe_is_physically_active(struct background *pba) {
-    if (pba->use_prtoe == _FALSE_) {
-        return _FALSE_;
-    }
-    if (pba->prtoe_explicit_null_de == _TRUE_) {
-        return _FALSE_;
-    }
-    /* Explicit dark-energy budget or non-minimal coupling activates PRTOE. */
-    if (pba->Omega0_prtoe > 0.0 || pba->xi_prtoe >= 1e-7 || pba->beta_prtoe > 1e-8) {
-        return _TRUE_;
-    }
     return _FALSE_;
 }
 
