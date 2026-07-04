@@ -135,7 +135,6 @@ double prtoe_rho_at_today_approx(struct background * pba, double phi, double V0,
 int prtoe_compute_quantities(struct background * pba, double a, double phi, double phi_dot, double rho_dr, double * F, double * F_phi, double * F_dot, double * trans, double * xi_screened, ErrorMsg error_message);
 
 #define PRTOE_ACTIVATION_THRESHOLD 0.01
-#define PRTOE_ACTIVATION_WIDTH 0.1
 
 /* Set from pba->prtoe_ablate_gates in background_init(). File-static because the
    trans helpers below are pure functions without access to pba. Background
@@ -151,20 +150,31 @@ static double get_rho_m_analytical(struct background *pba, double a) {
   return rho_m;
 }
 
-static double prtoe_covariant_trans_from_ratio(double ratio) {
-  if (_prtoe_gates_ablated) return 1.0;
-  double x_trans = (log(MAX(ratio, 1e-60)) - log(PRTOE_ACTIVATION_THRESHOLD)) / PRTOE_ACTIVATION_WIDTH;
+
+
+#define PRTOE_ACTIVATION_WIDTH 0.1
+
+/* Trace-driven covariant activation gate.
+   rho_m / rho_r tracks R/(3H^2) = Omega_m(z) during the radiation/matter era:
+   the Ricci trace R = 8 pi G (rho - 3p) vanishes for pure radiation, so the
+   linear coupling's source turns on automatically at matter-radiation
+   equality -- this ratio is the DERIVED activation clock (not an ad hoc gate).
+   Ablation (prtoe_ablate_gates = yes) forces trans = 1 for A/B testing. */
+static double prtoe_covariant_trans_from_ratio(struct background *pba, double ratio) {
+  if (pba->prtoe_ablate_gates == _TRUE_ || _prtoe_gates_ablated) return 1.0;
+  double x_trans = (log(MAX(ratio, 1e-60)) - log(PRTOE_ACTIVATION_THRESHOLD))
+                   / PRTOE_ACTIVATION_WIDTH;
   return 0.5 * (1.0 + tanh(x_trans));
 }
 
-static double prtoe_covariant_trans(double rho_phi, double rho_r) {
+static double prtoe_covariant_trans(struct background *pba, double rho_num, double rho_r) {
   double ratio = 0.0;
-  if (rho_r > 1e-200 && rho_phi > 1e-200) {
-    ratio = rho_phi / rho_r;
-  } else if (rho_phi > 1e-200) {
+  if (rho_r > 1e-200 && rho_num > 1e-200) {
+    ratio = rho_num / rho_r;
+  } else if (rho_num > 1e-200) {
     ratio = 1e10;
   }
-  return prtoe_covariant_trans_from_ratio(ratio);
+  return prtoe_covariant_trans_from_ratio(pba, ratio);
 }
 
 /** Total radiation density for covariant PRTOE activation (matches background rho_r budget). */
@@ -348,12 +358,6 @@ int background_at_z(
 
   /* Scale factor is kinematic: enforce exact value from log(a/a_0). */
   pvecback[pba->index_bg_a] = exp(loga);
-
-  /* Force zero PRTOE at early times (a < 1e-2, high-z) after interpolation when in the null limit */
-  if (loga < log(1e-2) && (pba->Omega0_prtoe < 1e-30 || pba->xi_prtoe < 1e-8)) {
-    if (pba->index_bg_rho_prtoe >= 0) pvecback[pba->index_bg_rho_prtoe] = 0.0;
-    if (pba->index_bg_p_prtoe >= 0) pvecback[pba->index_bg_p_prtoe] = 0.0;
-  }
 
   return _SUCCESS_;
 }
@@ -716,12 +720,15 @@ int background_functions(
            F''  = xi''A + 2 xi'A' + xi A''
            F''' = xi'''A + 3 xi''A' + 3 xi'A'' + xi A'''            */
       double S_env_fac = prtoe_environmental_screening_at_rho_kg_m3(pba, rho_matter_kg_m3);
-      double zq   = 1.0 + pba->zeta_prtoe * phi * phi;
-      double Sq   = phi * phi / zq;
-      double Sq1  = 2.0 * phi / (zq * zq);
-      double Sq2  = 2.0 * (1.0 - 3.0 * pba->zeta_prtoe * phi * phi) / (zq * zq * zq);
-      double Sq3  = -24.0 * pba->zeta_prtoe * phi * (1.0 - pba->zeta_prtoe * phi * phi)
-                    / (zq * zq * zq * zq);
+      double zeta = pba->zeta_prtoe;
+      double z    = 1.0 + zeta * phi * phi;
+      double z2   = z * z;
+      double z3   = z2 * z;
+      double z4   = z3 * z;
+      double Sq   = phi * phi / z;
+      double Sq1  = 2.0 * phi / z2;
+      double Sq2  = 2.0 * (1.0 - 3.0 * zeta * phi * phi) / z3;
+      double Sq3  = -24.0 * zeta * phi * (1.0 - zeta * phi * phi) / z4;
       double xi0  = S_env_fac * (pba->xi1_prtoe * phi + pba->xi_prtoe * Sq);
       double xi1d = S_env_fac * (pba->xi1_prtoe       + pba->xi_prtoe * Sq1);
       double xi2d = S_env_fac * (                       pba->xi_prtoe * Sq2);
@@ -754,11 +761,17 @@ int background_functions(
     double rho_r_bg;
     class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_bg, pba->error_message),
                pba->error_message, pba->error_message);
-    double trans = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r_bg);
+    double trans = prtoe_covariant_trans(pba, get_rho_m_analytical(pba, a), rho_r_bg);
 
     /* Pre-compute rho_prtoe and p_prtoe for Friedmann equation (smooth activation) */
     double rho_prtoe = trans * (0.5 * phi_dot_bg * phi_dot_bg + V);
     double p_prtoe   = trans * (0.5 * phi_dot_bg * phi_dot_bg - V);
+
+    /* Force zero PRTOE at early times (a < 1e-2) when in the null limit */
+    if (a < 1e-2 && (pba->Omega0_prtoe < 1e-30 || pba->xi_prtoe < 1e-8)) {
+        rho_prtoe = 0.0;
+        p_prtoe   = 0.0;
+    }
     
     /* Store and add to totals BEFORE Friedmann equation */
     pvecback[pba->index_bg_rho_prtoe] = rho_prtoe;
@@ -928,7 +941,8 @@ int background_functions(
       double F_safe = MAX(F, 1e-30);
       double rho_k = F_safe * pba->K / (a * a);
       double A = F_safe;
-      double B = F_dot;
+      double gal = pba->g3_prtoe / (pba->H0 * pba->H0);
+      double B = F_dot - gal * phi_prime/a * phi_prime/a * phi_prime/a;
       double C = -(rho_tot - rho_k);
       double discriminant = B*B - 4.0*A*C;
 
@@ -982,7 +996,7 @@ int background_functions(
     double rho_r_here;
     class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_here, pba->error_message),
                pba->error_message, pba->error_message);
-    double trans = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r_here);
+    double trans = prtoe_covariant_trans(pba, get_rho_m_analytical(pba, a), rho_r_here);
 
     {
         /* Store physical F_dot (matches Friedmann); trans_eom respects de_mode freeze */
@@ -996,12 +1010,12 @@ int background_functions(
         double F_safe = MAX(F, 1e-30);
         
         /* PREVENT DOUBLE COUNTING: Use only standard fluid density for the RHS */
-        double rho_f = pvecback[pba->index_bg_rho_tot] - pvecback[pba->index_bg_rho_prtoe];
-        double p_f = pvecback[pba->index_bg_p_tot] - pvecback[pba->index_bg_p_prtoe];
+        double rho_f = rho_tot - pvecback[pba->index_bg_rho_prtoe];
+        double p_f = p_tot - pvecback[pba->index_bg_p_prtoe];
         
         double F_dot_bg = F_phi * phi_dot;
         double gal = pba->g3_prtoe / (pba->H0 * pba->H0);
-        double c_gal = 2.0 * gal * phi_dot * phi_dot * phi_dot;
+        double c_gal = gal * phi_dot * phi_dot * phi_dot;
         double a2 = a * a;
 
         /* Equation 1: D_H * H_dot + C_H * phi_ddot = S_H */
@@ -1023,18 +1037,17 @@ int background_functions(
         double H_dot;
         double phi_ddot;
         
-        if (fabs(det) > 1e-25 && F > 1e-30 && trans_eom > 1e-8) {
+        if (fabs(det) > 1e-12 * fabs(D_H * N_gal) && F > 1e-30 && trans_eom > 1e-8) {
           H_dot = (S_H * N_gal - C_H * S_phi) / det;
           phi_ddot = trans_eom * (D_H * S_phi - C_phi * S_H) / det;
-          pvecback[pba->index_bg_H_prime] = a * H_dot; if (a>0.999) printf("CRAMER H_dot=%e S_H=%e N_gal=%e C_H=%e S_phi=%e det=%e D_H=%e C_phi=%e\n", H_dot, S_H, N_gal, C_H, S_phi, det, D_H, C_phi);
-        } else {
+          pvecback[pba->index_bg_H_prime] = a * H_dot;
+                  } else {
           /* Fallback for exact LCDM limit or frozen modes */
           H_dot = -(3.0/2.0) * (rho_tot + p_tot) * a + pba->K / a; // H_prime
           H_dot = H_dot / a; // H_dot = H_prime / a
           phi_ddot = trans_eom * (-3.0 * H * phi_dot - V_phi 
                      + (F_phi / F_safe) * (H_dot + 2.0 * H * H - 0.5 * phi_dot * phi_dot));
-          pvecback[pba->index_bg_H_prime] = a * H_dot; if (a>0.999) printf("CRAMER H_dot=%e S_H=%e N_gal=%e C_H=%e S_phi=%e det=%e D_H=%e C_phi=%e\n", H_dot, S_H, N_gal, C_H, S_phi, det, D_H, C_phi);
-        }
+                  }
 
         double phi_primeprime = phi_ddot * a * a + trans_eom * H * a * a * phi_dot;
         pvecback[pba->index_bg_ddphi_prtoe] = phi_primeprime;
@@ -1055,12 +1068,49 @@ int background_functions(
         pvecback[pba->index_bg_Q_prtoe]     = Q_stab;
         pvecback[pba->index_bg_cT2_prtoe]   = 1.0;
 
+        if (a > 0.99 && pba->background_verbose > 0) {
+          printf("H_dot store-time: a=%e H_prime=%e rho_tot=%e p_tot=%e\n", a, pvecback[pba->index_bg_H_prime], rho_tot, p_tot);
+        }
+
         if (trans > 0.5 && pba->background_verbose > 0) {
             if (F <= 0.0)      fprintf(stderr, "PRTOE CRITICAL: Ghost! F=%.6e\n", F);
             if (K_stab <= 0.0) fprintf(stderr, "PRTOE CRITICAL: Negative K! K=%.6e\n", K_stab);
             if (Q_stab < 0.0)  fprintf(stderr, "PRTOE WARNING: Gradient instability! Q=%.6e\n", Q_stab);
             if (meff2 < -1e-8) fprintf(stderr, "PRTOE WARNING: Tachyonic! m_eff^2=%.6e\n", meff2);
         }
+
+        /* --- SYNC EFFECTIVE FLUID ---
+           Update the scalar field effective density and pressure so that the standard
+           Friedmann and Raychaudhuri equations perfectly match H and H_dot! 
+           This is crucial for the perturbation code to feel the exact same background. */
+        double exact_rho_tot = H * H + pba->K / (a * a);
+        double exact_p_tot   = -(2.0 / 3.0) * (H_dot - pba->K / (a * a)) - exact_rho_tot;
+        
+        double fluid_rho = rho_tot - pvecback[pba->index_bg_rho_prtoe];
+        double fluid_p   = p_tot   - pvecback[pba->index_bg_p_prtoe];
+
+        /* TWO distinct quantities, TWO slots (do NOT conflate them):
+           - rho_prtoe: the FIELD's energy density (1/2 phidot^2 + V + rho_3),
+             always >= 0; drives activation gates and f_EDE diagnostics.
+             Already stored above -- leave it alone.
+           - rho_dark_energy: the EFFECTIVE dark energy backed out of the
+             modified Friedmann (3H^2 - rho_fluids); legitimately NEGATIVE
+             when F > 1 (coupling strengthens gravity). This is the
+             hi_class-style rho_smg convention, for observables/consistency. */
+        if (pba->index_bg_rho_dark_energy >= 0)
+          pvecback[pba->index_bg_rho_dark_energy] = exact_rho_tot - fluid_rho;
+        if (pba->index_bg_p_dark_energy >= 0)
+          pvecback[pba->index_bg_p_dark_energy]   = exact_p_tot - fluid_p;
+
+        rho_tot = exact_rho_tot;
+        p_tot   = exact_p_tot;
+        
+        if (pba->has_scf == _TRUE_) {
+            pvecback[pba->index_bg_rho_scf] = pvecback[pba->index_bg_rho_prtoe];
+            pvecback[pba->index_bg_p_scf]   = pvecback[pba->index_bg_p_prtoe];
+        }
+        if (pba->index_bg_rho_dark_energy >= 0) pvecback[pba->index_bg_rho_dark_energy] = pvecback[pba->index_bg_rho_prtoe];
+        if (pba->index_bg_p_dark_energy >= 0)   pvecback[pba->index_bg_p_dark_energy]   = pvecback[pba->index_bg_p_prtoe];
     }
   }
 
@@ -1088,7 +1138,8 @@ int background_functions(
     double rho_r_p;
     class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r_p, pba->error_message),
                pba->error_message, pba->error_message);
-    double trans_p = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r_p);
+    double rho_phi_p = 0.5 * phi_dot_p * phi_dot_p + V_p;
+    double trans_p = prtoe_covariant_trans(pba, get_rho_m_analytical(pba, a), rho_r_p);
     double trans_eom_p = trans_p * ((pba->de_mode == prtoe_active) ? 1.0 : 0.0);
     double p_prime_prtoe = trans_eom_p * phi_prime_prtoe
       * (-phi_prime_prtoe * H_bg / a - 2. / 3. * V_phi_p);
@@ -1352,6 +1403,12 @@ int background_init(
   class_call(background_indices(pba),
              pba->error_message,
              pba->error_message);
+
+  if (pba->has_ncdm == _TRUE_) {
+    class_call(background_ncdm_init(ppr, pba),
+               pba->error_message,
+               pba->error_message);
+  }
 
   /** - check that input parameters make sense and write additional information about them */
   class_call(background_checks(ppr,pba),
@@ -3246,7 +3303,7 @@ int background_find_equality(
 
   class_alloc(pvecback,pba->bg_size*sizeof(double),pba->error_message);
 
-  while ((tau_plus - tau_minus) > ppr->tol_tau_eq) {
+  do {
 
     tau_mid = 0.5*(tau_plus+tau_minus);
 
@@ -3261,7 +3318,7 @@ int background_find_equality(
     else
       tau_minus = tau_mid;
 
-  }
+  } while ((tau_plus - tau_minus) > ppr->tol_tau_eq);
 
   pba->a_eq = pvecback[pba->index_bg_a];
   pba->H_eq = pvecback[pba->index_bg_H];
@@ -3578,12 +3635,6 @@ int background_derivs(
    *  When inactive (trans≈0), field naturally doesn't evolve.
    *  ============================================================ */
   if (prtoe_is_physically_active(pba)) {
-    static long _prtoe_call_count = 0; static double _prtoe_last_loga = -1e30;
-    _prtoe_call_count++;
-    if (_prtoe_call_count % 50000 == 0)
-      fprintf(stderr, "[PROF] calls=%ld loga=%.4f dloga_since=%.3e\n",
-              _prtoe_call_count, loga, loga - _prtoe_last_loga);
-    _prtoe_last_loga = loga;
 
     double a = exp(loga);
     double a2 = a * a;
@@ -3604,7 +3655,7 @@ int background_derivs(
     double rho_r;
     class_call(prtoe_activation_rho_r(pba, a, pvecback, &rho_r, error_message),
                error_message, error_message);
-    double trans = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r);
+    double trans = prtoe_covariant_trans(pba, get_rho_m_analytical(pba, a), rho_r);
 
     /* === PHASE 5: Unified Dark Energy Mode Scaling ===
      * Determine coupling strength based on dark energy mode.
@@ -3667,8 +3718,8 @@ int background_derivs(
     double p_f = pvecback[pba->index_bg_p_tot] - pvecback[pba->index_bg_p_prtoe];
     
     double F_dot_bg = F_phi * phi_dot;
-    double gal = pba->g3_prtoe / (pba->H0 * pba->H0);
-    double c_gal = 2.0 * gal * phi_dot * phi_dot * phi_dot;
+    double gal = pba->g3_prtoe / (pba->H0 * pba->H0) * trans_scaled;
+    double c_gal = gal * phi_dot * phi_dot * phi_dot;
 
     /* Equation 1: D_H * H_dot + C_H * phi_ddot = S_H */
     double D_H = 2.0 * F_safe * H + F_dot_bg - c_gal;
@@ -3690,9 +3741,50 @@ int background_derivs(
     double H_dot;
     double phi_ddot;
     
-    if (fabs(det) > 1e-25 && F > 1e-30) {
+    /* Algebraic stabilization of Cramer's rule for PRTOE */
+    /* D_H * S_phi - C_phi * S_H suffers from catastrophic cancellation in radiation era.
+       We compute trace_f = rho_f - 3*p_f analytically to avoid 10^36 - 10^36 = 0 */
+    double trace_f = 0.0;
+    trace_f += pvecback[pba->index_bg_rho_b];
+    if (pba->has_cdm == _TRUE_) trace_f += pvecback[pba->index_bg_rho_cdm];
+    if (pba->has_idm == _TRUE_) trace_f += pvecback[pba->index_bg_rho_idm];
+    if (pba->has_lambda == _TRUE_ && pba->de_mode == lambda_limit) {
+      trace_f += 4.0 * pvecback[pba->index_bg_rho_lambda];
+    }
+    if (pba->has_fld == _TRUE_) trace_f += pvecback[pba->index_bg_rho_fld] * (1.0 - 3.0 * pvecback[pba->index_bg_w_fld]);
+    if (pba->has_ur == _TRUE_ && pba->has_ncdm == _TRUE_) {
+        for (int n_ncdm=0; n_ncdm < pba->N_ncdm; n_ncdm++) {
+            trace_f += pvecback[pba->index_bg_rho_ncdm1 + n_ncdm] - 3.0 * pvecback[pba->index_bg_p_ncdm1 + n_ncdm];
+        }
+    } else if (pba->has_ncdm == _TRUE_) {
+        for (int n_ncdm=0; n_ncdm < pba->N_ncdm; n_ncdm++) {
+            trace_f += pvecback[pba->index_bg_rho_ncdm1 + n_ncdm] - 3.0 * pvecback[pba->index_bg_p_ncdm1 + n_ncdm];
+        }
+    }
+    if (pba->has_dcdm == _TRUE_) trace_f += pvecback[pba->index_bg_rho_dcdm];
+
+    double bracket = 4.0 * (F_safe - 1.0) * rho_f + trace_f + 4.0 * F_safe * (rho_phi_candidate - pba->K / a2);
+    double huge_cancellation_term = H * (F_phi / F_safe) * bracket;
+    
+    double S_phi_huge = (F_phi / F_safe) * 2.0 * H * H;
+    double S_H_huge = -3.0 * H * (rho_f + p_f);
+    double S_phi_rem = S_phi - S_phi_huge;
+    double S_H_rem = S_H - S_H_huge;
+    
+    double D_H_huge = 2.0 * F_safe * H;
+    double C_phi_huge = - (F_phi / F_safe);
+    double D_H_rem = D_H - D_H_huge;
+    double C_phi_rem = C_phi - C_phi_huge;
+    
+    double D_H_S_phi_minus_C_phi_S_H = huge_cancellation_term 
+                                     + D_H_huge * S_phi_rem 
+                                     + D_H_rem * S_phi_huge 
+                                     + D_H_rem * S_phi_rem
+                                     - (C_phi_huge * S_H_rem + C_phi_rem * S_H_huge + C_phi_rem * S_H_rem);
+
+    if (fabs(det) > 1e-12 * fabs(D_H * N_gal) && F > 1e-30) {
       H_dot = (S_H * N_gal - C_H * S_phi) / det;
-      phi_ddot = (D_H * S_phi - C_phi * S_H) / det;
+      phi_ddot = D_H_S_phi_minus_C_phi_S_H / det;
     } else {
       /* Fallback to lagged estimate if determinant vanishes or F is tiny */
       H_dot = pvecback[pba->index_bg_H_prime] / a; 
@@ -4106,7 +4198,7 @@ int prtoe_compute_quantities(
         rho_r += 3. * p_ncdm;
       }
     }
-    double trans_val = prtoe_covariant_trans(get_rho_m_analytical(pba, a), rho_r);
+    double trans_val = prtoe_covariant_trans(pba, get_rho_m_analytical(pba, a), rho_r);
 
     /* xi_screened combines xi_eff with activation trans */
     double xi_effective = xi_eff * trans_val;

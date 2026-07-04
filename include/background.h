@@ -909,7 +909,7 @@ static inline int prtoe_coupling_dynamical(struct background *pba) {
 }
 
 /** Minimum rho_prtoe for perturbation-level PRTOE coupling (stress-energy, G_eff, ICs). */
-#define PRTOE_RHO_ACTIVATION_THRESHOLD 1e-30
+#define PRTOE_RHO_ACTIVATION_THRESHOLD 1e-8
 
 /**
  * Time-dependent gate: PRTOE perturbations couple only when the field

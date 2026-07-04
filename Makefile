@@ -206,7 +206,7 @@ tar: $(C_ALL) $(C_TEST) $(H_ALL) $(PRE_ALL) $(INI_ALL) $(MISC_FILES) $(HYREC) $(
 	tar czvf class.tar.gz $(C_ALL) $(H_ALL) $(PRE_ALL) $(INI_ALL) $(MISC_FILES) $(HYREC) $(PYTHON_FILES)
 
 classy: libclass.a python/classy.pyx python/setup.py
-	echo "Python install skipped in makefile"
+	pip install -e python/ --no-build-isolation
 
 clean: .base
 	rm -rf $(WRKDIR);
