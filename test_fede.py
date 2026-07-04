@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from classy import Class
 
@@ -13,7 +14,7 @@ c.set({
     'zeta_prtoe': 0.1,
     'Omega0_prtoe': 0.7,
     'Omega_Lambda': 0.0,
-    'root': '/home/themilkmanj/prtoe_class/',
+    'root': os.environ.get('PRTOE_CLASS_ROOT', './'),
 })
 print("Computing...")
 c.compute()

@@ -1432,7 +1432,11 @@ int background_init(
        Correct approach: Start phi at 0, let field roll naturally, match Omega0_prtoe
        by tuning potential parameters (V0_prtoe, lambda_prtoe) instead.
     */
-    pba->phi_ini_scf = 0.0;  /* Field at top of potential, ready to roll */
+    /* Field starts at phi_ini_prtoe (default 0 = top of potential).
+       A negative displacement with xi1 > 0 is the double-tension trajectory:
+       F < 1 pre-recombination, rising through 1 as the trace kick rolls the
+       field positive. */
+    pba->phi_ini_scf = pba->phi_ini_prtoe;
   } else {
     if (pba->background_verbose > 2) {
       printf(" -> PRTOE is inactive or in null limit (xi=%.2e). Skipping normalization.\n", pba->xi_prtoe);

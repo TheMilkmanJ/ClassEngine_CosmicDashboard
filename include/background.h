@@ -165,6 +165,12 @@ struct background
                                   _FALSE_ to explore large couplings; runtime stability
                                   checks and the reported local-gravity deviations then
                                   become the physical arbiters. */
+  double phi_ini_prtoe; /**< PRTOE v3: initial field displacement (default 0).
+                             phi_ini < 0 with xi1 > 0 gives F < 1 through the
+                             pre-recombination window (r_s smaller -> H0 up)
+                             while the trace kick drives phi up through zero,
+                             leaving F > 1 late (growth suppressed -> S8 down):
+                             the double-tension trajectory from a single roll. */
   double g3_prtoe; /**< PRTOE v2: dimensionless coefficient of the cubic galileon
                         operator L3 = -(g3/Lambda^3) X box(phi) with X = -(1/2)(d phi)^2
                         and Lambda^3 = M_Pl H0^2 (=> H0^2 in code units, phi in M_Pl
