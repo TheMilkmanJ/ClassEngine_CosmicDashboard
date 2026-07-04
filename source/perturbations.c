@@ -9546,6 +9546,8 @@ int prtoe_perturbations_derivs(
      prtoe_frozen / lambda_limit configurations where these perturbations
      are intentionally not evolved — that is a valid no-op, not an error. */
   if (pba->de_mode != prtoe_active) {
+    if (ppw->pv->index_pt_delta_prtoe >= 0) dy[ppw->pv->index_pt_delta_prtoe] = 0.0;
+    if (ppw->pv->index_pt_ddelta_prtoe >= 0) dy[ppw->pv->index_pt_ddelta_prtoe] = 0.0;
     return _SUCCESS_;
   }
 
