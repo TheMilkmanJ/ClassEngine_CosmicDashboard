@@ -2,6 +2,7 @@ import os
 import sys
 import argparse
 import glob
+from forge.evidence import bridge_sampling_logz
 
 # Parse arguments first to get --cores before importing numpy/Cobaya
 parser = argparse.ArgumentParser()
@@ -1147,8 +1148,11 @@ def main():
 
     for name, p in info.get("params", {}).items():
         if isinstance(p, dict) and "prior" in p:
-            if p.get("drop", False):
-                continue
+            # Note: Cobaya's "drop: true" means "exclude from derived-parameter
+            # output/chain columns", not "not a sampled input". model.logposterior()
+            # still requires these as inputs (e.g. log_xi_prtoe feeding xi_prtoe via
+            # a 'value' lambda), so they must stay in sampled_names or every
+            # evaluation fails with "expected sampled parameters ... not found".
             sampled_names.append(name)
             prior = p["prior"]
             
@@ -2146,11 +2150,28 @@ def physical_constraints_logp(_self=None{args_str}, **kwargs):
                 um["mcmc_chain"] = combined_chain
 
                 # Estimate Gelfand-Dey evidence from combined chain
-                log_z_gd = estimate_gelfand_dey_evidence(combined_chain, sampled_names, info)
+                
+                # Estimate Bridge-Sampling Evidence
+                try:
+                    post_samples = np.array([[row["point"][name] for name in sampled_names] for row in combined_chain])
+                    post_logq = np.array([row["total_loglike"] for row in combined_chain])
+                    
+                    def log_post_fn(x_array):
+                        res = []
+                        for x_vec in x_array:
+                            res.append(-target_function(x_vec))
+                        return np.array(res)
+                        
+                    bridge_res = bridge_sampling_logz(post_samples, post_logq, log_post_fn, n_proposal=500)
+                    log_z_gd = bridge_res["logz"]
+                except Exception as e:
+                    print(f" [mode-{idx+1}] Bridge sampling failed: {e}")
+                    log_z_gd = None
+
                 if log_z_gd is not None:
-                    print(f" [mode-{idx+1}] Estimated Gelfand-Dey Evidence: {log_z_gd:.4f} (Laplace was: {um['log_z_laplace']:.4f})")
+                    print(f" [mode-{idx+1}] Estimated Bridge-Sampling Evidence: {log_z_gd:.4f} (Laplace was: {um['log_z_laplace']:.4f})")
                     um["log_z"] = log_z_gd
-                    um["evidence_method"] = "Gelfand-Dey (MCMC)"
+                    um["evidence_method"] = "Bridge-Sampling (MCMC)"
                 else:
                     print(f" [mode-{idx+1}] Warning: Gelfand-Dey failed. Using Laplace evidence.")
                     
@@ -2397,7 +2418,7 @@ def physical_constraints_logp(_self=None{args_str}, **kwargs):
         cf.write("================================================================================\n")
         cf.write("LIMITATIONS & ASSUMPTIONS\n")
         cf.write("================================================================================\n")
-        cf.write("  1. Gelfand-Dey Evidence: Gelfand-Dey is a posterior-harmonic-mean estimator\n")
+        cf.write("  1. Bridge-Sampling Evidence: Bridge-Sampling is an iterative estimator\n")
         cf.write("     which assumes the proposal density (a truncated Gaussian) is a good\n")
         cf.write("     approximation of the high-density posterior region. It is highly sensitive\n")
         cf.write("     to MCMC chain length, sample correlation, and proposal support.\n")
@@ -2719,7 +2740,7 @@ def physical_constraints_logp(_self=None{args_str}, **kwargs):
             print(f"   * {tr['mode1']} vs {tr['mode2']} | {tr['param']:<15} : {tr['value']:.2f} \u03c3")
     print("-"*80)
     print("  PROVENANCE & SCIENTIFIC LIMITATIONS:")
-    print("   * Gelfand-Dey Evidence: A posterior-harmonic-mean estimator assuming a local")
+    print("   * Bridge-Sampling Evidence: A posterior-harmonic-mean estimator assuming a local")
     print("     truncated Gaussian proposal. Sensitive to MCMC length, sample correlation,")
     print("     and proposal density. Use '--polychord' to cross-validate results.")
     print("   * Surrogate Model: Bypasses CLASS when GP/RBF prediction uncertainty is low.")
