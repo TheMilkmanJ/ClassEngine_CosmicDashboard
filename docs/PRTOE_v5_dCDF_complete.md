@@ -1025,6 +1025,28 @@ metaphor's laboratory-physics name. Lab superfluids (helium kept liquid
 at T=0 by zero-point transactions) are structural cousins of the floor
 (the medium kept at ρ_∞ by its condensate nature).
 
+**C4 — Entanglement as the receipt of a balanced transaction
+(2026-07-06 night; analogy-grade, toll elected).** The Bell toll gate's
+model-native exit is (iv), quantize the substrate — and the resulting
+picture is lab-precedented, not invented: a condensate has
+off-diagonal long-range order (one macroscopic wavefunction, one
+global phase — "the medium carries the message as itself"), and real
+laboratory condensates pay out their excitations in *entangled pairs*
+(two-mode squeezing; measured — entangled phonon pairs 2012, analog-
+Hawking pair entanglement across sonic horizons, Steinhauer 2016+),
+via exactly the Bogoliubov machinery C3 already maps. The transaction
+statement: **why** — conservation forbids solitary withdrawals from
+the central account, so excitations are born in anti-correlated pairs;
+entanglement is the two halves of one ledger entry. **How** — both
+excitations are amplitudes on one global phase, so the correlation is
+carried by the medium as itself, with local settlement and no
+signaling. What is NOT claimed: that this reproduces full Bell
+violation for arbitrary measurement settings — a classical shared
+message caps at CHSH = 2, nature delivers ~2.7, and clearing
+Tsirelson's bound (2√2) is the quantitative bar the substrate's
+quantum phase sector must hit by derivation. Until that derivation
+exists, C4 is a correspondence with laboratory support, not a result.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three

@@ -53,6 +53,13 @@ environment half, one transaction and one receipt at a time.
 - **Force-by-force environment terms**: EM booked (m_e, α levers);
   strong/weak sectors have named levers (Λ_QCD, G_F) with no derived
   substrate coupling yet.
+- **Entanglement as balanced-transaction receipt (C4, toll elected:
+  quantize the substrate)**: conservation forbids solitary withdrawals
+  → excitations born in anti-correlated pairs on one global phase.
+  Lab-precedented (BEC two-mode squeezing, analog-Hawking pairs).
+  Needs: the substrate's quantized phase sector clearing Tsirelson's
+  bound (2√2) by derivation — the classical-script version caps at
+  CHSH = 2 and is excluded by experiment.
 
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
