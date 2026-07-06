@@ -1,5 +1,17 @@
 # PRTOE v4 — dCDF (Dynamic Cold Dark Fluid): Action → Equations → Stability
 
+> **v5 UPDATE (2026-07-05): β has been deleted from the model.** The MCMC
+> drove β to its null limit (log₁₀β ≈ −8; any β ≥ 10⁻⁶ destroys σ8), so the
+> barotropic deformation was removed entirely: the equation of state is now
+> **w(ρ) = −ρ_∞/ρ exactly** (equivalently p ≡ −ρ_∞, a ΛCDM-form background)
+> with **c_s² ≡ 0**. dCDF v5 samples 8 parameters — only +1 (ξ_Neff) vs ΛCDM.
+> Everything below remains the correct derivation of the general P(X)
+> framework, but the β-specific sections are now **historical**: §3.2 (the
+> two-parameter family), §9.4 (logistic ansatz — a review also found its
+> c_s²≥0 claim unproven, which is moot now), and the β rows of the parameter
+> dictionaries. Configs passing `dcdf_beta` now fail loudly. Current results,
+> validation matrix, and best fit: `PRTOE_v4_dCDF_results.md`.
+
 **Status: derived, implemented, and first successfully run end-to-end
 (2026-07-04)** — background+perturbations+Cl/Pk all complete with sane
 (non-NaN, smoothly-varying) output; classy import confirmed working; budget
