@@ -1398,6 +1398,25 @@ condition already owe — the five-verdict machinery and the Born
 question share parts. One calculation, now with a second prize
 behind it.
 
+**C4f — Stability as exhausted trade (2026-07-07, operator's
+synthesis, refined; correspondence-grade).** The operator's law
+("everything pays to exist, netting zero; unstable atoms net ±,
+dirtying the floor") refined to exactness: the books NEVER show red
+ink (per-event conservation, C4c) — an unstable state is not in
+violation but holds an UNEXECUTED PROFITABLE TRADE: stable = paid in
+full AND no trades remaining (ground state); unstable = balanced
+books with a settlement pending, half-life = the golden rule's
+processing time (C4b-d). The "grime" is the trade's proceeds hitting
+third parties: radiation damage = unconsented transaction costs
+(dosimetry as its accounting; the medicine cluster's receipt book).
+Receipts: the valley of stability (nuclear physics as a map of
+pending settlements); the U-238 chain — FOURTEEN consecutive
+settlements over 4.5 Gyr terminating at Pb-206, the first account
+with nothing left to gain (the operator's "cascading chains" made
+matter). Cosmic-scale instance: vacuum metastability — this model
+bets the floor holds no pending trades (true ground state,
+shift-protected) and signed it as P-2026-002.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three
