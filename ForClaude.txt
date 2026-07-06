@@ -300,3 +300,300 @@ Two questions back at the red team (the defender gets moves too):
 
 — Claude (defender), turn 1. Your move.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 2
+Claude (Opus 4.8). Scoring the round honestly: you produced objects on
+2, 3, 5, 6 and conceded 1 and 2 in writing. Two attacks are fully
+retired, two are now single computable numbers, and the pincer is —
+for the first time in this exchange — genuinely in doubt. Detail below.
+========================================================================
+
+ON THE m_e CONTROL (up front): granted, provisionally and gladly. A
+quadratic that pre-registers its own midpoint (2812.1) and hits it at
+2812.15 is a real convergence certificate — slack would have delocalized
+the endpoints and the midpoint would have missed. I withdraw the "-1 to
+-3" and accept -8.5 +/- 0.5 as controlled. One residual only, not worth
+a hill: the midpoint test proves the surface is quadratic and the optima
+are real; it does not by itself partition the -8.5 between m_e and its
+omega_b accomplice. You do that partition yourself in Attack 5, so I take
+it there.
+
+--- ATTACK 1: CONCESSION ACCEPTED; falsifiability collapses into 6 ---
+You conceded the fitted model is a reparametrization at every computable
+order, in writing, no weasel. Accepted — that is the sentence the
+document needed. But the relocation to the completion class does not buy
+back PRACTICAL falsifiability, and I want that on the record precisely:
+  - The BBN Delta-N_eff signature IS tunable below detection: smaller
+    x_0 -> earlier basin entry -> smaller a_x/a_eq -> vanishing
+    Delta-N_eff. Your e^-35 is an UPPER bound; nothing forbids e^-45.
+    The class cannot be FORCED to emit at BBN, only forbidden from
+    emitting a LARGE signal. One-sided, and hideable.
+  - The forbidden regions (w<-1, c_s^2<0) are shared with LCDM and
+    quintessence — measuring w<-1 kills all three; it never returns
+    "dCDF."
+  - The one genuinely dCDF-specific POSITIVE signature — c_s^2(z_eq) in
+    (0, ~1e-5] — is real but ~5 orders below any foreseeable P(k)
+    sensitivity to a CDM sound speed.
+So the completion is falsifiable-in-principle, unfalsifiable-in-practice,
+one-sidedly. Practical falsifiability rests ENTIRELY on the Attack-6
+term. You said as much. Agreed — everything routes to 6.
+
+--- ATTACK 2: conceded outright, number accepted. ---
+Delta-lnZ(unification) ~ -0.9 under declared priors, and I checked the
+arithmetic: ln(0.01) - ln(0.025) = -0.92. Correct. rho_inf pays more
+Occam than omega_cdm because it is more finely constrained relative to
+its wider declared prior. Aesthetic economy, mildly negative
+statistically. Strike the benefit line as promised and we are square.
+Clean kill, yours.
+
+--- ATTACK 3: the corrected wash is the honest number; accepted. ---
+-0.7 +/- 1.5 evidence, with the dual statement quoted together
+(likelihood-preferred at Delta-chi^2 ~ -6.7/2dof ~ 2.1 sigma;
+evidence-neutral under priors) is exactly right and exactly what I would
+demand a referee see. I retract "favored by no data" and replace it with
+your dual. One hold: that +2.1 marginal-BBN term is the OTHER half of
+the Attack-5 market — if the self-consistent refit lands worse than your
+decomposition predicts, this wash tips LCDM-ward. Booked to 5.
+
+--- ATTACK 4: "stability certificate + forbidden regions" — granted. ---
+That label is honest and it is the right one. The completion earns its
+keep not as fit-microphysics but as the proof the EoS descends from a
+no-ghost, no-gradient P(X) with a DERIVED, bounded c_s^2 — which is
+exactly what forbids beta from living in the c_s^2 you would otherwise
+be free to posit. A fluid parametrization cannot forbid its own ghost;
+yours can. Conceded as more-than-decoration at that altitude. Footnote:
+your (iii), the u-coupling route to sourced m_e, "exists only in the
+completion" — true, but we already established it is BBN-catastrophic
+unless it saturates in the pre-basin phase, so it is a door the
+completion opens onto a wall. List it as "enabled, not viable."
+
+--- ATTACK 5: market ACCEPTED, and I move my bet. ---
+Your decomposition (m_e's pure marginal BBN ~ 0; the deuterium bill sits
+on omega_b, whose CMB constraint is loose enough to adjust) is
+physically sound, and it kills the specific prong of my prediction that
+said m_e -> 1. I concede that: m_e is BBN-neutral to good approximation,
+so the self-consistent fit will NOT drive it to 1. The fight was never
+m_e; it is omega_b. So I refit my own prediction against yours, sharply:
+  YOUR bet:  omega_b -> ~0.0226, m_e ~ 1.01, H0 in [70.0, 70.3],
+             honest total Delta-chi^2 (stack+BBN vs LCDM+BBN) in [-6,-4].
+  MY bet:    lowering omega_b to heal D/H costs real CMB (Planck pins
+             omega_b to ~1.5e-4; your -0.0002 move is ~1.3 sigma ~ +1.7
+             on plik), and that cost eats most of the deuterium relief,
+             so the optimizer only partially lowers omega_b and lands
+             H0 in [69.4, 70.0], honest total Delta-chi^2 in [-3, 0].
+Resolution variable: (H0, honest total Delta-chi^2) at the
+self-consistent optimum. Non-overlapping in H0 below 70.0 and in
+Delta-chi^2 below -3. Run it; loser concedes in this file. I think the
+CMB's grip on omega_b is tighter than your decomposition credits, and
+that is the whole disagreement.
+
+--- ATTACK 6: you produced the term. This is the round's real event. ---
+Credit where due: L contains -(box phi)^2 / M^2 is a legitimate answer,
+and if its one number cooperates it BREAKS my pincer — ghost-condensate
+/ fuzzy-DM cores are a genuine dCDF-vs-LCDM discriminator, the first in
+this whole exchange. Your structural point is also correct: the two
+corpses were couplings to OTHER sectors; a dark-sector SELF-derivative
+coupling is linearly invisible by the same theorem that makes standard
+SIDM CDM-identical at linear order. I accept the structure. Now the one
+number, because the whole escape hangs on it:
+  PRODUCE M(kpc-core). The dispersion is omega^2 = c_s^2 k^2 +
+  k^4/M_eff^2. A heavier M SHRINKS the k^4 term, hence shrinks cores; a
+  lighter M grows it toward lower k, toward the LSS band the degeneracy
+  forbids. Cores at kpc in dwarfs require the k^4 gradient to balance
+  gravity at ~kpc — that fixes M. You asserted "M in eV-keV" for (a) and
+  "kpc cores" for (b) but did not show they are the SAME M. My claim:
+  the M that yields kpc cores is far LIGHTER than eV-keV (fuzzy-DM's own
+  kpc-core scale is ~1e-22 eV), and at that M the k^4/M^2 term is NOT
+  negligible across three decades — it creeps into k <~ 1/Mpc and
+  perturbs the linear spectrum. If so, (a) and (b) ARE in tension and
+  the term is beta reborn: observable iff linearly visible. Falsify me
+  with the number: M such that r_core(dwarf) ~ 1 kpc AND k^4/M_eff^2 <
+  c_s^2 k^2 at k = 0.2/Mpc. One line of algebra decides whether the
+  pincer is broken or just relabeled.
+Two smaller holds, neither fatal:
+  (2) The core-mass relation is a CLASS signature (shared with fuzzy DM
+      and velocity-independent SIDM), not a dCDF fingerprint. It
+      distinguishes you from LCDM — real and new — but NOT from the
+      small-scale-DM zoo. "Falsifiable vs LCDM," not "unique."
+  (3) The term imports the ghost condensate's baggage: a new scale, IR
+      Jeans-type instabilities (Dubovsky et al.), NEC/accretion
+      subtleties — and it modifies gravity in the IR, which is exactly
+      what section 10a's "GW170817 trivial / no-hair / compact objects
+      boring" claims relied on NOT happening. You cannot bank 10a's
+      cleanliness AND (box phi)^2 without showing the IR modification
+      scale sits below every gravity test. Cross-consistency owed.
+
+--- YOUR Q1 (coupling to the expansion rate / Hubble-sensing) ---
+Dies, three ways, and I classify so it closes like c_EM:
+  (i) Covariant "coupling to H" = coupling to curvature (on FLRW
+      R ~ H^2 + Hdot) — that is the F(phi)R non-minimal coupling of
+      v1-v3. Already dead by your own history line.
+  (ii) Coupling to GLOBAL H is, by Friedmann, a coupling to the TOTAL
+      energy density — i.e. to every sector's ledger at once. That is
+      the c_EM executioner in its purest form: a rule that reads the
+      contents. Dies +hundreds like c_EM.
+  (iii) Coupling to the LOCAL expansion theta = div(u)
+      (bulk-viscosity-like, Pi ~ -zeta*theta) is the only genuinely new
+      object — but Pi is an effective pressure felt gravitationally, so
+      it perturbs the linear spectrum and dies by the beta sound-speed
+      trap.
+Three routes, three assassins already on your payroll. Hubble-sensing is
+not a new door; it is a hallway connecting the three graves you dug. The
+ONLY survivor remains the dark-sector self-coupling of Attack 6 — which
+is why 6 is load-bearing for the entire distinctive-physics program.
+
+--- YOUR Q2 (the pdV bank account; drift-test target) ---
+GR says no balance, and you know it — energy is not globally conserved
+in an expanding metric, so the radiation ledger and the floor ledger
+need not sum. Correct, and it means a "funded floor" is EXTRA physics,
+not a consequence. But here is the sharper target you asked for, and it
+is a good question:
+  A funded rho_inf(z) — one whose value is set by an INTEGRAL over
+  deposit history — is not w0-wa. w0-wa is a local 2-parameter Taylor
+  expansion of w(a); a funded floor is a ONE-parameter (the coupling
+  rate) NON-LOCAL functional, rho_inf(a) ~ integral of source(a') da',
+  so its w(z) shape is RIGID — it cannot be dialed freely, it must track
+  the deposit rate, which peaks at a physically fixed epoch
+  (radiation->matter handover). The discriminator is therefore SHAPE,
+  not amplitude:
+    Do not "measure delta, expect 0." Instead fit DESI's w(z) with
+    (A) free w0-wa [2 params] and (B) the deposit-tracking funded shape
+    [1 param, the rate], and compare EVIDENCE. If the apparent DESI
+    drift is real AND matches the funded shape at the right amplitude,
+    B wins with fewer parameters and pins a feature at the handover
+    redshift that w0-wa can only mimic by tuning both knobs. That is a
+    signature w0-wa cannot fake cheaply — a correlated w(z)-z_eq lock.
+  So the drift test's target is the CORRELATION between the floor's
+  time-dependence and the integrated matter/radiation content at the
+  same z, not the amplitude of delta alone. Give the funded model its
+  rigid shape and let it fight w0-wa on evidence-per-parameter. That is
+  the test with teeth.
+
+========================================================================
+SCOREBOARD after turn 2:
+  Attack 1 — fitted model conceded reparametrization; falsifiability
+             routed to 6. RETIRED into 6.
+  Attack 2 — conceded outright with number. SETTLED, your kill.
+  Attack 3 — corrected to honest wash; dual statement adopted. SETTLED.
+  Attack 4 — "stability certificate" label accepted. SETTLED.
+  Attack 5 — prediction market REGISTERED; run decides. LIVE.
+  Attack 6 — term produced; pincer broken IFF M(kpc-core) is (a)-safe.
+             ONE NUMBER decides. LIVE.
+Everything now reduces to two computable objects: the BBN-consistent
+refit (5) and M(kpc-core) vs the linear bound (6). Produce those two
+numbers and this stops being a debate in either direction. I maintain
+the CMB pins omega_b harder than your (5) allows, and that (6)'s M
+cannot be both kpc-active and Mpc-silent. Show me wrong on paper.
+— Claude (red team), turn 2. Your move.
+========================================================================
+
+========================================================================
+DEFENDER RESPONSE — turn 2
+The two computable objects, delivered in order of decidability.
+========================================================================
+
+--- OBJECT 2 FIRST: M(kpc-core) vs the linear bound. THE ALGEBRA. ---
+
+The correspondence: the k^4/M^2 dispersion is fuzzy-DM/ghost-condensate
+quantum pressure with M playing the FDM particle-mass role. Core size is
+the de Broglie scale: r_core ~ hbar/(M v) = 1.9 kpc x (1e-22 eV / M) x
+(10 km/s / v). So:
+
+  M(1 kpc core, dwarf v ~ 10 km/s)  =  2 x 10^-22 eV.
+
+Your criterion, at your line (k = 0.2/Mpc): define k_J^4 = M^2 * 4piG*rho
+(the scale where quartic pressure balances gravity). For M = 2e-22 eV,
+k_J(z~0) ~ 5.5 Mpc^-1. The quartic term relative to gravity at k = 0.2:
+
+  (k/k_J)^4 = (0.2/5.5)^4 ~ 1.7 x 10^-6.
+
+PASS BY SIX DECADES. Your claim that M(kpc-core) "creeps into k <~ 1/Mpc"
+is quantitatively false: even at k = 1/Mpc the ratio is ~1e-3 in the
+dispersion, far smaller in the transfer function. kpc-active AND
+Mpc-silent is exactly what three decades of scale separation buys —
+the pincer, at the line you drew, is broken.
+
+Now the honesty you'd have found anyway: the real referee is not at
+0.2/Mpc but at Lyman-alpha (k ~ 2-20 Mpc^-1), where the FDM literature
+demands M >~ 2 x 10^-21 eV (Irsic et al. 2017; some analyses push
+1e-20). At M = 2e-21 the core shrinks to ~0.2 kpc. So the term inherits
+the KNOWN fuzzy-DM squeeze: full 1-2 kpc dwarf cores are in tension
+with Lyman-alpha; sub-half-kpc cores plus the soliton core-mass relation
+survive. Verdict, precisely: your pincer is broken at k = 0.2/Mpc by
+six orders, and re-forms one decade up in k as a factor-~10 squeeze in
+M that is actively contested in the FDM literature — a NARROWED, LIVE
+discriminator vs LCDM cusps, not beta reborn (beta died by five orders
+with no contested territory; this has a surviving window and a
+measurable relation inside it).
+
+Hold (2): CONCEDED as stated — it is a class signature (shared with
+FDM and velocity-independent SIDM), "falsifiable vs LCDM, not unique."
+Goes in the document with those words.
+
+Hold (3): RESOLVED, and the resolution is almost comic. The ghost
+condensate's IR gravity modification lives at r_c ~ M_Pl/M^2 and
+t_c ~ M_Pl^2/M^3. At M ~ 2e-22 eV: r_c ~ 1e65 m — thirty-nine decades
+BEYOND the Hubble radius (1e26 m). Every 10a claim (GW speed, no-hair,
+boring compact objects) survives untouched; the Dubovsky IR instability
+timescale is likewise trans-horizon. The baggage exists and is
+parametrically exiled from the observable universe by the same tiny M
+that makes the linear band safe. Cross-consistency: paid.
+
+--- OBJECT 1: THE MARKET IS RUNNING. ---
+
+The BBN-consistent refit is implemented and queued (fires the moment
+the me101 tail releases the cores): Y_p and D/H Gaussians (Aver, Cooke)
+with the linearized network response INCLUDING the m_e sensitivities,
+as an in-stack likelihood; omega_b, xi, H0 etc. free; m_e = 1.01 fixed;
+seeded at the champion. Bets on record:
+  YOURS: omega_b's CMB grip (+~1.7 plik per -0.0002) eats the D/H
+         relief; H0 in [69.4, 70.0), honest total in [-3, 0].
+  MINE:  omega_b -> ~0.0226, m_e holds, H0 in [70.0, 70.3],
+         honest total in [-6, -4].
+Resolution posted here when the optimizer exits. Note your one residual
+from the control (the -8.5 partition between m_e and its omega_b
+accomplice) resolves as a free byproduct: the BBN refit re-optimizes
+omega_b under the likelihood that prices its accomplice role.
+
+--- YOUR Q1 CLASSIFICATION: accepted in full. ---
+
+Three routes, three existing graves (F(phi)R = v1-v3; global-H = total
+ledger = c_EM's executioner; local-theta bulk viscosity = beta's trap).
+Hubble-sensing is a hallway, not a door. The classification enters the
+document as the closure of the coupling taxonomy: couplings to OTHER
+sectors' contents — dead; couplings to global geometry — dead by
+reduction to the above; couplings to the dark sector's OWN derivatives —
+the single open channel (Attack 6's term). The taxonomy is now, I
+believe, EXHAUSTIVE at the two-derivative level, which is itself a
+result: the model's remaining freedom is exactly one term deep.
+
+--- YOUR Q2: the rigid-shape target is accepted and banked. ---
+
+Agreed, and it sharpens the drift test from a null measurement into a
+model comparison with teeth: (A) w0-wa [2 params, free shape] vs
+(B) deposit-tracking funded floor [1 param, rigid shape locked to the
+radiation->matter handover]. If DESI's drift hint is real and matches
+the rigid shape, B beats A on evidence-per-parameter and pins a feature
+w0-wa can only fake by spending both knobs. The correlated w(z)-z_eq
+lock is the fingerprint. This becomes the drift test's design spec
+(replacing "measure delta, expect 0") and — noted for the record —
+it is the first PROSPECTIVE discriminator in this file that is neither
+the completion's nor the term's: a funded floor is dCDF-native
+structure (the account IS the medium's state variable). If the red
+team agrees the design is sound, it goes on the program as the third
+computable object.
+
+--- SCOREBOARD, defender's accounting after turn 2: ---
+  1 RETIRED into 6. 2 SETTLED (yours). 3 SETTLED (dual adopted).
+  4 SETTLED (label adopted). 5 LIVE — market running, resolver queued.
+  6 status: your one-number demand ANSWERED: M = 2e-22 eV passes your
+    k = 0.2/Mpc criterion by six decades; the honest fight relocates to
+    Lyman-alpha where a narrowed window survives. If you accept the
+    algebra, 6's pincer is broken-as-stated and the residual dispute is
+    the FDM Lyman-alpha squeeze — which is a live literature fight, not
+    a structural no-go. Your move on whether 6 downgrades from
+    "load-bearing doubt" to "contested-but-real discriminator."
+
+— Claude (defender), turn 2. Two objects: one delivered, one running.
+========================================================================
