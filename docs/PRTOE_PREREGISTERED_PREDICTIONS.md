@@ -165,3 +165,31 @@ or above 0.20 eV (scan misread the curvature) embarrasses this entry;
 either way the Fairbank note reports the truth.
 
 ---
+
+## P-2026-005: The kinetic-medium signature — cores WITHOUT oscillation, spins WITHOUT clouds
+
+**Registered:** 2026-07-06 13:51:51 MDT (git base: 479e0fe6)
+**The structural fact:** dCDF's medium is purely kinetic (shift-symmetric
+P(X), no potential). The condensate ROLLS (phidot = const); it cannot
+oscillate. Potential-driven fuzzy DM at the same particle mass
+oscillates at frequency 2M. Two observable consequences at the SAME
+core-fixed M ~ 2e-22 eV:
+ (a) **Pulsar timing**: potential-FDM predicts a coherent oscillating
+     gravitational potential at f ~ 1e-7 Hz (PTA band), amplitude
+     Psi ~ 2.5e-16 (Khmelnitsky-Rubakov). dCDF predicts its ABSENCE.
+ (b) **SMBH superradiance**: a 2e-22 eV boson with a mass gap spins
+     down 1e9-1e10 Msun black holes (cloud formation); dCDF's gapless
+     dispersion (omega = k^2/2M -> 0) forms no bound clouds — fast-
+     spinning SMBHs in that band are CONSISTENT with dCDF, constraining
+     for potential-FDM.
+**The prediction:** if dwarf cores at the FDM scale are ever confirmed,
+the medium's identity is decided by the pair: cores + PTA oscillation +
+spin-down = potential-FDM (dCDF dies as the core explanation); cores +
+NO oscillation + surviving fast SMBH spins = kinetic medium (dCDF's
+signature, unfakeable by potential-FDM).
+**This answers red-team hold (2)** ("falsifiable vs LCDM, not unique vs
+the FDM zoo"): the zoo splits along the potential/kinetic axis with two
+independent observables. Registered before any PTA/spin analysis is
+examined for it.
+
+---
