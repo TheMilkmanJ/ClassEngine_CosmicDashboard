@@ -1131,6 +1131,26 @@ C4b's loop: reading a clock = counting accrued interest (E = ħω) on
 energy debts. WALL, stamped: why the ledger opened nearly blank (the
 past hypothesis / low-entropy start) is underived here as everywhere.
 
+**C1d — Did time start? (2026-07-07, operator's dichotomy; interpretive
+grade, one lab receipt, EFT wall stamped).** The dichotomy "time began
+with the first medium-matter interaction OR everything has always
+been" is well-posed but both horns commit a grammar trap (start/always
+are clock-words used where no clock exists). Resolved structure:
+(i) tenseless option (b) IS the mainstream quantum-gravity picture —
+Wheeler–DeWitt: the universe's total state carries NO time parameter;
+time is a relational readout inside it (Page–Wootters), demonstrated
+on a bench (Moreva et al. 2013: one photon as clock, the other
+evolves relative to it, the whole static). (ii) A third option the
+dichotomy misses: no-boundary (Hartle–Hawking) — the past is finite
+but edgeless (time rounds into space; South Pole, not wall).
+(iii) The ledger's split, carried over from C1c: the CLOCK (khronon
+tick) exists as far back as the medium; the ARROW (posting) waits for
+matter — time-order predates time's direction. (iv) WALL: the medium's
+own opening lies beyond the EFT cutoff — the model cannot compute its
+first page; and the operator's standing cyclic-universe bet is option
+(b)'s physical form (CCC-class), which would also address the
+blank-ledger wall. Parked, labeled, no claim.
+
 **C2 — The bank-location question resolves: the currency is action,
 not energy.** Under expansion, each field mode's adiabatic invariant
 E/ω — its occupation number, in units of ℏ — is *exactly conserved*;
