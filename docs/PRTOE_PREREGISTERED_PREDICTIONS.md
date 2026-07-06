@@ -96,3 +96,32 @@ survives. Confirmed phantom drift with the WRONG time-shape -> kills
 the mechanism outright.
 
 ---
+
+## LIT-2026-001: Literature-status audit (annotation entry, no new predictions)
+
+**Recorded:** 2026-07-06 13:00:02 MDT
+**P-2026-001 status — UNDER PRESSURE at registration+4h:** the mid-2026
+ladder literature (arXiv 2606.26831) reports JWST/HST agreement at the
+few-hundredths-of-a-magnitude level, REJECTING hidden Cepheid crowding
+as the tension's explanation, and quotes a seven-route combined local
+H0 = 73.30 +/- 0.92 (5.6 sigma above Planck-LCDM). The crowding escape
+our prediction partly leaned on is closing; the CCHP/TRGB side (arXiv
+2503.11769) still contests the combination. The bet stands as
+registered — this note records that the field's current lean is AGAINST
+it, known and accepted.
+**P-2026-003 status — chalk wall confirmed chalk:** DESI DR2
+combinations give w0 = -0.838 +/- 0.055, wa ~ -0.6 (recent-epoch
+thawing direction, ~3 sigma, explicitly sensitive to SN calibration
+systematics at few x 1e-2 mag). Leans against the phantom-locked drift;
+dataset-dependent and contested, exactly as quoted.
+**Priority context:** the dyad's components exist independently in the
+2025-26 literature — varying-m_e vs ACT DR6+DESI DR2 (arXiv 2606.06495,
+2508.09025; m_e variations PREFERRED at 2-3.6 sigma, with the same
+partial-relief ceiling we found), and null-sound-speed unified dark
+fluids (Kou & Lewis 2026; also 2509.25088's dark-radiation->matter->DE
+k-essence sequence matching the completion's three phases). The
+ASSEMBLY — one medium + one rules amendment, the falsifiability program,
+the sign-locked drift, the two-sided hierarchy window — is not found
+elsewhere as of this audit.
+
+---
