@@ -1203,6 +1203,26 @@ every laser on Earth is, in this language, the receipt stream of
 unsolicited transactions — and the bookkeeping gets its number right
 to the last decimal.
 
+**C4a — Measurement as settlement (2026-07-07, operator's framing;
+correspondence-grade, receipts quoted, wall stamped).** Superposition
+= UNSETTLED transactions: pencil entries that can still cancel —
+which is what interference is (the double slit's paths are unposted
+drafts). Measurement = SETTLEMENT: the entry posts irreversibly to
+the public ledger — C1's own architecture (virtual/reversible vs
+real/dissipative) at the single-event level; decoherence is the
+pencil-to-ink transition. THE CORRECTION THAT MAKES IT PHYSICS: the
+bank cares about the RECORD, not the viewing — which-path detectors
+kill interference unread (an unread record settles), and the quantum
+ERASER un-posts a draft coherently and interference returns (a
+settled-looking transaction un-settles if the record never went
+public). Settlement has a measured RATE (decoherence times; watched
+in real time in cavity QED — Haroche 2012; ~1e-31 s for a dust grain,
+which is why the macroscopic ledger is always ink). THE WALL, stamped:
+this language does not pick the outcome and does not derive the Born
+rule — the bank's pricing algorithm (probability = |amplitude|²) is
+the unsolved measurement problem for every interpretation, ours
+included. Filed at C4's edge: same boundary, same honesty.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three
