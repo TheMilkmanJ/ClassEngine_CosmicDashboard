@@ -2,10 +2,13 @@
 *Every fixed relation the transaction method has derived — the running
 answer to the bet that mapping all transactions makes all (dimensionless)
 values appear. Entries only for derived relations, never fitted ones.
-Headline honesty (red-team turn 15, adopted): the bet is a PROGRAM, not
-a result — most entries are conditional or calibration-grade, and every
-qualifier in an entry body binds its summary. A reader of this line has
-not yet seen a single unconditional new number beyond the identities.*
+Headline honesty (red-team turns 15–16, adopted, binding): the language
+is exact across six domains; the bet itself is UNSETTLED — the evidence
+class ("values nature confirmed that appeared from this map and nowhere
+else") holds ZERO confirmed entries to date (ν·x₀ died with its
+operator; ρ(basin) = 2M₂⁴ is internal; P-2026-006 is conditional).
+Faithful ≠ confirmed; consistency is a different ocean from evidence.
+Every qualifier in an entry body binds its summary.*
 
 **The program (2026-07-06):** every booked equation decomposes as
 *contents + environment* — a "what is around me" term (standard physics)
@@ -98,7 +101,10 @@ environment half, one transaction and one receipt at a time.
   expansion pair-creation supplies r (deficit 6×10⁻⁹ at r=5). What
   remains is the condition itself: quantization of the substrate's
   phase sector is asserted, not derived; Gaussian audits see no
-  violation (positive Wigner).
+  violation (positive Wigner). FILED AS THE MAP'S EDGE (red-team turn
+  16, adopted): quantizing the phase sector hands off to non-ledger
+  structure — C4 locates where classical bookkeeping ends; it is a
+  boundary honestly drawn, not a conquest past the wall.
 
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need

@@ -273,3 +273,43 @@ repayment space before any coupling is proposed; a proposal outside
 it is pre-falsified.
 
 ---
+
+## ANN-2026-004: The normal-fraction carrier — the epoch gate is basin entry, and it locks the healer to Delta_Neff
+
+**Recorded:** 2026-07-07 (git base: 3d1ad568)
+**Answers red-team turn 17's derived-vs-fitted test for the EPOCH
+survivor:** the gate is NOT hand-placed — it is basin entry (the
+medium's condensation at z_x ~ 1e5, fixed by x0 for §2 reasons that
+predate the healer). The model's two-fluid structure supplies exactly
+two epoch-localized carriers, matching the two amendments' epochs:
+the NORMAL fraction (pre-basin, w = 1/3; alive at BBN, dies as a^-6
+after z_x) and the CONDENSATE (nonexistent before z_x, alive at
+recombination).
+**The carrier (derived):** couple mhat to the pre-basin fraction:
+delta_mhat = kappa*(rho_d/rho_r). Pre-basin this ratio is the model's
+own constant a_x/a_eq — so the amendment is CONSTANT through BBN (no
+drift across z ~ 1e9-1e8), dies to 7e-5 of its BBN value by
+recombination, and is identically zero at Oklo/quasar/laboratory
+epochs. **The §2 wall does not apply to this carrier** — it needs no
+late-time suppression because its carrier physically evaporates.
+**The locked relation (evidence-class candidate):**
+delta_mhat / Delta_Neff(BBN) = kappa/7.45 — the deuterium healing and
+the pre-basin dark-radiation fraction ride ONE quantity. Corollaries:
+(i) the healer strictly REQUIRES Delta_Neff(BBN) > 0; (ii) with the
+funded-floor chalk wall (x0 >= e^-40), Delta_Neff(BBN) >= 0.04 —
+CMB-S4-visible (sigma ~ 0.03); the full window at natural kappa is
+0.01-0.2. (iii) Joint BBN chi2 of the locked family: dyad 5.9 ->
+1.2 (pure unlocked healer: 1.1) — locking costs essentially nothing.
+(iv) kappa and x0 are degenerate along kappa ∝ x0^(-1/3); an external
+x0 measurement (P-2026-003's drift) breaks it.
+**Honest holes, stated before the red team asks:** kappa is a free
+O(0.05-1) coupling constant (its VALUE is an input; the SHAPE and the
+locked relation are the derived content); the coupling form
+mhat(rho_d/rho_r) is dimensionless and drift-free but not yet derived
+from an action; and the m_e amendment (the condensate-side twin)
+still owes the late-time turn-off — the §2 wall is now owed ONCE,
+not twice. Per turn 17's ruling: until kappa's form is
+action-derived, this is a constraint-with-a-locked-signature, not a
+populated evidence-class entry.
+
+---
