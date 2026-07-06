@@ -1075,6 +1075,43 @@ uncharged — it holds no EM account — so the charged clearinghouse
 never sees it; every α null is structural for this model (cf. R1:
 masses only, α untouched).
 
+**C1b — The debt inventory (2026-07-07, operator's question: "what
+other debts must be accounted for?"; analogy-grade, receipts quoted).**
+Sorting every conserved quantity by whether its debt has a BANK:
+
+| debt | bank | status | receipt |
+|---|---|---|---|
+| energy-momentum | gravity | self-collateralized (records gravitate) | everything |
+| electric charge | photon | collateralized (Gauss law) | e⁻ τ > 6.6×10²⁸ yr |
+| color | gluons | collateralized + bank trades own debt | confinement: no unbalanced account ever public |
+| weak isospin | W/Z | records EXPIRE — massive bank (Higgs) | short range; debts collected within a Compton wavelength |
+| baryon number B | **NONE** | uncollateralized IOU | proton τ > 2.4×10³⁴ yr — holding so far |
+| lepton number L | **NONE** | uncollateralized IOU | 0νββ searches — LIVE |
+| B−L | none, but anomaly-free | the SM's one exact global account | the natural candidate to be secretly gauged |
+| shift charge (the medium) | the condensate's own U(1) | model's added account | P-2026-002's decay ban; vortex/flux quantization |
+
+Three structural consequences: (i) B+L is already anomalously violated
+(sphalerons) — the SM itself defaults on that combination at high
+temperature; B−L is its one exact global book. (ii) The quantum-gravity
+folklore ("no global symmetries") is, in this language, a single
+sentence: **unenforced IOUs cannot survive — every exact debt must
+have a bank.** Its testable fork: either the proton eventually decays
+(B defaults) or B−L is secretly gauged (a Z′ bank exists). (iii) The
+cosmic baryon asymmetry η ≈ 6×10⁻¹⁰ is the universe's outstanding net
+debt with no visible counterparty; the Sakharov conditions are the
+ledger rules for creating one (a default mechanism, biased
+bookkeeping, and a market that fails to clear).
+
+**The Fairbank connection, explicit:** neutrinoless double-beta decay
+— nEXO's target — is precisely the experiment that tests whether
+LEPTON NUMBER is a collateralized debt or an unenforceable IOU. A 0νββ
+detection = L defaults (Majorana neutrinos are the default mechanism)
+= the no-global-symmetries principle collecting. The dyad's Σm_ν
+posterior (P-2026-004, computing) and the inverted-hierarchy window it
+may reopen are the mass-scale side of the same question. The program's
+top-priority deliverable and its debt architecture meet in one
+experiment.
+
 **C2 — The bank-location question resolves: the currency is action,
 not energy.** Under expansion, each field mode's adiabatic invariant
 E/ω — its occupation number, in units of ℏ — is *exactly conserved*;
