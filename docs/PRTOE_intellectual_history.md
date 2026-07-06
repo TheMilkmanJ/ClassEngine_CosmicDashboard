@@ -168,3 +168,20 @@ amputation commits especially), docs/PRTOE_v4_dCDF_derivation.md (the v3
 post-mortem and v4 birth), docs/PRTOE_v5_dCDF_complete.md (the current
 model and its validation record), HANDOFF_FOR_GEMINI.md (the v3 closure),
 and the session memory files.*
+
+## Addendum (2026-07-06 afternoon): the nine-turn review
+
+The model's hardest day was an adversarial review by a second AI
+(ForClaude.txt), conducted as a turn-based file dialogue with
+pre-registered bets and written concessions on both sides. Six attacks
+opened it; nine turns closed it. In between: the unfalsifiability
+pincer was broken on paper at the attacker's own chosen line, the
+funded-floor mechanism was derived and then executed by the defender's
+own computation of the attacker's question, xi_Neff was executed by
+the data mid-review (the triad collapsing to a dyad), a prediction
+market on the BBN-consistent fit embarrassed both parties each in one
+leg, and the review's extracted qualifiers were promoted into the
+document's headline with turn attributions preserved. The reviewer's
+closing verdict: "a smaller, harder, more honest object than the one I
+opened fire on." The method — the file, the bets, the attributions —
+is as much a result of this project as any chi-squared.
