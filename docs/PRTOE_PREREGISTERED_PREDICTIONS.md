@@ -43,3 +43,28 @@ joint WL+CMB analysis converges to **S8 = 0.82 +/- 0.01** (model:
 for ~0.77 resolves partially toward the CMB side, mirroring the ladder.
 
 ---
+
+## P-2026-002: The dark medium cannot decay — no dark-sector decay signal, ever
+
+**Registered:** 2026-07-06 12:44:15 MDT (git base: 9809f76f)
+**Derivation:** the dCDF medium's shift symmetry is, in the
+nonrelativistic limit, an emergent particle-number U(1) (the same
+symmetry that quantizes its vortices in shift charge and conserves its
+current a³P_Xφ̇). Number-changing processes in the dark sector are
+therefore forbidden to all orders in the EFT — the medium has no decay
+channel into photons, neutrinos, or anything else.
+
+**The prediction:** no confirmed dark-matter decay signal will ever be
+established — no X-ray/UV line attributable to dark decay (3.5 keV-class
+claims will continue to dissolve), no decaying-DM resolution of any
+tension, no dark-sector lifetime measurement. Dark-sector *annihilation*
+or *scattering* signals are likewise absent (gravity-only coupling), but
+the sharp, symmetry-protected statement is the decay ban.
+
+**Falsification condition:** one confirmed, community-accepted
+dark-sector decay line or lifetime kills the dCDF identification of the
+dark medium outright — the shift symmetry cannot be mildly broken
+without unraveling the conserved current the entire construction
+stands on (§2).
+
+---

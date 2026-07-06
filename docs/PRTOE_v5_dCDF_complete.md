@@ -844,6 +844,31 @@ observable? Ideal BECs condense without defect formation (no broken
 gauge symmetry in shift-symmetric P(X)), so the default answer is no —
 but the pre-basin normal fraction's decay deserves one careful pass.
 
+**Stress-test round (2026-07-06, free-rein pass):** C2 refined — the
+action-currency resolution applies to *excitations* (all inhabitants =
+mode occupations; adiabatic invariants exact); the condensate is a zero
+mode *outside* the excitation ledger — not an account but the frame the
+accounts are denominated against. The ledger's one number-changing era
+(double-Compton/bremsstrahlung, z ≳ 2×10⁶) closed with a measured
+receipt: FIRAS's blackbody (|μ| < 9×10⁻⁵) is the audit that the action
+ledger has balanced since. Basin entry sits at/below that window and
+deposits nothing (gravity-only) — consistent. C1 survived the
+weak-force stress: massive clearinghouses exist (W/Z) but the cosmic
+one is measured massless to ~10 H0 (graviton-mass bounds); and Law 2's
+dissipative exception channel (spontaneous emission ↔ dark decay) is
+CLOSED for our medium by shift symmetry — registered as the model's
+second no-hedge prediction, **P-2026-002: the dark medium cannot decay;
+one confirmed dark-decay signal kills the identification.** X1
+survived the fifth-ontology check (holographic ρ ~ M_Pl²H² is the
+Friedmann closure restated — circular). The heating knife quantified as
+an honest fork: if the ultra-faint-dwarf heating bounds
+(Dalal–Kravtsov-class, m ≳ 3×10⁻¹⁹ eV) hold, dwarf cores shrink below
+1 pc and the small-scale discriminator is DEAD — the model reverts to
+the pure dyad with §4.2 permanent; if those analyses' relaxation
+modeling fails scrutiny (contested), a window at M ~ 1–3×10⁻²¹ eV with
+60–200 pc cores survives. The discriminator's life now rests on a
+contested astrophysics literature, stated plainly.
+
 **O3 —** Purcell-engineering at sub-cosmic scales: environments that
 reshape the dark medium's local mode structure (deep halo interiors,
 BH near-zones) could in principle modulate dark-sector transaction
