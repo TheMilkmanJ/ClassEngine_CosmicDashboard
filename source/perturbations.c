@@ -5368,6 +5368,14 @@ int perturbations_initial_conditions(struct precision * ppr,
     rho_m += ppw->pvecback[pba->index_bg_rho_dcdm];
   }
 
+  if (pba->has_dcdf == _TRUE_) {
+    /* clustering (dust) part only: the de Sitter floor is not matter.
+       Omitting the fluid here starved om and rho_m_over_rho_r of ~85% of
+       the matter, which broke the newtonian-gauge IC transform (0.26% TT
+       transient at ell~12, fixed 2026-07-05). */
+    rho_m += (1.+ppw->pvecback[pba->index_bg_w_dcdf])*ppw->pvecback[pba->index_bg_rho_dcdf];
+  }
+
   if (pba->has_dr == _TRUE_) {
     rho_r += ppw->pvecback[pba->index_bg_rho_dr];
     rho_nu += ppw->pvecback[pba->index_bg_rho_dr];
@@ -5755,6 +5763,14 @@ int perturbations_initial_conditions(struct precision * ppr,
         rho_cdm += ppw->pvecback[pba->index_bg_rho_dcdm];
       }
 
+      if (pba->has_dcdf == _TRUE_){
+        /* dust part of the fluid; theta_dcdf = 0 in synchronous (like CDM)
+           so no velocity_tot term. Omitting this broke the alpha used in
+           the newtonian IC transform (fixed 2026-07-05). */
+        delta_cdm += (1.+ppw->pvecback[pba->index_bg_w_dcdf])*ppw->pvecback[pba->index_bg_rho_dcdf]
+          * ppw->pv->y[ppw->pv->index_pt_delta_dcdf];
+        rho_cdm += (1.+ppw->pvecback[pba->index_bg_w_dcdf])*ppw->pvecback[pba->index_bg_rho_dcdf];
+      }
 
       if (rho_cdm > 0 ) {
         delta_cdm /= rho_cdm;

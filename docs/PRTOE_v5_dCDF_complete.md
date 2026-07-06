@@ -38,6 +38,21 @@ lensing, BAO 6dF+MGS+DR12, Pantheon+SHOES):
 with S8 = 0.826 vs ΛCDM's 0.833 and Pantheon+SHOES carrying −27.8 of the
 improvement. Bayesian evidence comparison (PolyChord, nlive 500) in flight.
 
+**Read this first — the result decouples into two independent claims:**
+
+1. *ΛCDM + free N_eff, refit, gains 19.2 in χ² on the Planck+BAO+SN stack*
+   (driven by ξ_Neff and re-optimized H0/n_s along the acoustic-locked
+   ridge, §6) — **and this claim is already under pressure from ACT DR6**
+   (measured here directly: +22.7 at the best-fit point, §9.1).
+2. *CDM+Λ can be rewritten as one barotropic fluid with no observable
+   consequence at linear order* (§3–§4; proven exactly and verified
+   numerically, §4.2).
+
+Neither claim borrows support from the other. The unification (2) is the
+theoretically interesting structure; the χ² gain (1) is ordinary
+extra-radiation phenomenology that any N_eff extension would produce. §4.2
+spells out what this means for interpretation.
+
 ---
 
 ## 2. Action and microphysics
@@ -55,18 +70,41 @@ Because ρ and p are both functions of X alone, **p(ρ) is exactly barotropic**
 the entire perturbation sector collapse onto CLASS's existing fluid
 machinery (§4).
 
-**The v5 microphysical realization.** A constant-pressure fluid is not an
-exotic request of k-essence: expand any $P(X)$ about an extremum $X_0$
-($P_X(X_0)=0$),
+**The v5 microphysical realization — asymptotic, provably never exact.**
+First the no-go, which is stronger than a truncation caveat: **no purely
+kinetic $P(X)$ realizes $p \equiv -\rho_\infty$ exactly over any interval of
+field states.** If $P(X)$ is constant on an interval, $P_X = 0$ there, and
+then $\rho = 2XP_X - P = \rho_\infty$ is pinned constant too — pressure
+cannot stay fixed while the density sweeps a continuum. This holds for any
+$P(X)$, not just a particular expansion. The best possible microphysics is
+therefore asymptotic: expand $P(X)$ about an extremum $X_0$ ($P_X(X_0)=0$),
 
-$$ P(X) \simeq P_0 + \tfrac12 P_2\,(X-X_0)^2 . $$
+$$ P(X) \simeq P_0 + \tfrac12 P_2\,(X-X_0)^2 , \qquad u \equiv X - X_0 . $$
 
-Solving the conserved-current equation near $X_0$ gives exactly
-$\rho(a) = \rho_\infty + K a^{-3}$ with $\rho_\infty = -P_0$, $p = P_0$, and
-$c_s^2 = P_X/(P_X + 2XP_{XX}) \to 0$. This is the Scherrer purely-kinetic
-unified-dark-matter construction (PRL 93, 011301, 2004). dCDF v5 **is** that
-fluid — the k-essence "designer reconstruction" debt carried by v4 is
-discharged: the explicit $P(X)$ above generates the model.
+The conserved current $a^3 P_2 u \sqrt{2(X_0+u)} = \text{const}$ gives, order
+by order, $u = u_{(1)} + u_{(2)}$ with $u_{(1)} \propto a^{-3}$ and
+$u_{(2)} = -u_{(1)}^2/2X_0 \propto a^{-6}$; substituting into
+$\rho + P_0 = 2X_0P_2u + \tfrac32 P_2u^2$ leaves
+
+$$ \rho(a) = \rho_\infty + K a^{-3} + \tfrac12 P_2\,u_{(1)}^2 \propto a^{-6}\ \text{(stiff, w=+1-like tail)} , $$
+
+with $\rho_\infty = -P_0$ and $c_s^2 = P_X/(P_X+2XP_{XX}) = u/(3u+2X_0) \to 0$.
+This is the Scherrer purely-kinetic unified-dark-matter construction
+(PRL 93, 011301, 2004), carried one order beyond leading. Consequences,
+stated honestly:
+
+- §2 establishes **existence** of a no-ghost, no-gradient UV completion with
+  a computable error budget — not an exact derivation. The phenomenological
+  $w(\rho) = -\rho_\infty/\rho$ of §1/§3 is what is actually implemented and
+  integrated.
+- Validity across the observationally exercised range requires a **designed
+  hierarchy**: $u/X_0 \lesssim e^{-20}$ today so the fluid stays in the
+  extremum's basin through recombination ($s \approx 20$), with cubic terms
+  of the full $P(X)$ subdominant over that range. Achievable to any target
+  precision; tuned, and honestly labeled as such.
+- The $a^{-6}$ tail is a **falsifiable prediction of the completion**: a
+  stiff component at early times is BBN-constrainable, so "how close to the
+  extremum" is an empirical question, not pure aesthetics.
 
 No-ghost: $\partial\rho/\partial X = P_X + 2XP_{XX} > 0$ requires $P_2 > 0$
 on the $X > X_0$ branch — satisfied by construction; the same condition makes
@@ -241,11 +279,11 @@ to the same shift in `N_ur`). The fit's anatomy, established by direct scans:
 
 | test | verdict |
 |---|---|
-| exact null (fluid ⇒ ΛCDM; v5 form) | **PASS** — σ8 0.81301 vs anchor 0.81304, total 2516.7 vs 2515.5 |
+| exact null (fluid ⇒ ΛCDM; v5 form) | **PASS** — σ8 0.81301 vs anchor 0.81304, total 2516.7 vs 2515.5; re-verified bit-identical after the 2026-07-06 gauge-IC fix (σ8 0.81301, total 2516.72) |
 | ξ_Neff ↔ N_ur equivalence | **PASS** — bit-exact (difference 0.0 everywhere) |
 | precision stability (tightened tolerances) | **PASS** — σ8 stable to 5×10⁻⁶ |
 | β-branch smoothness (pre-deletion, 8×10⁻⁹→10⁻⁴) | **PASS** — smooth monotone σ8 decline (then β removed) |
-| gauge invariance (synchronous vs newtonian) | bulk **PASS** (median deviation 10⁻⁴ = ΛCDM baseline); **known defect**: 0.26% TT deviation at ℓ=10–12 on the *newtonian* dCDF branch (late-ISW, (1+w)→0 gauge-transform terms suspect), decaying to baseline by ℓ>1500. Harmless in production (all runs synchronous; those ℓ are cosmic-variance dominated) — must be fixed before ever running newtonian. |
+| gauge invariance (synchronous vs newtonian) | **PASS** (2026-07-06, after fix) — max TT deviation 2.8×10⁻⁵, at ΛCDM's own gauge-noise floor (2.1×10⁻⁵). The v4-era 0.26% ℓ=10–12 defect was **not** the suspected late-time (1+w)→0 gauge terms: the fluid was missing from the matter budget in `perturbations_initial_conditions` (`rho_m`/`om` counted only baryons under `use_dcdf`, and the α gauge-transform's `delta_tot` had no dcdf term), so the newtonian branch started from a slightly wrong φ_ini and rang a decaying transient into the SW/early-ISW sources. Synchronous (production) was verified unaffected before and after: fluid ≡ ΛCDM per-ℓ to 4×10⁻⁶ at the null point. Diagnosis chain: per-ℓ ΛCDM control → dust-limit isolation → per-contribution double ratio (SW+eISW, not late ISW) → φ′ transient at z≈5000 → IC audit. |
 | 6-corner prior-box stress test (v5, β-free) | **PASS** — all corners run gracefully |
 
 The null test earns its keep: on its first run it caught the budget-
@@ -273,25 +311,43 @@ Derived: σ8 = 0.827, **S8 = 0.826** (ΛCDM 0.833), Ω_m ≈ 0.30.
 (ξ=0.240) sits only Δχ²=1.1 away: the ridge is flat over at least
 69.4–70.4.
 
-**Evidence:** in flight. CosmicForge bridge-sampling ln Z (MH run) and a
-PolyChord pair (dCDF `dcdf_pc_v1.yaml` vs ΛCDM twin `lcdm_pc_v1.yaml`,
-nlive 500, num_repeats 2d) are running. Back-of-envelope from prior/posterior
+**Evidence:** in flight. The original MH run predated the β deletion and was
+killed and relaunched β-free (`dcdf_forge_v2.yaml`, same priors, refs seeded
+at the v4 best fit); the PolyChord pair (dCDF `dcdf_pc_v1.yaml` vs ΛCDM twin
+`lcdm_pc_v1.yaml`, nlive 500, num_repeats 2d) is queued behind it. Back-of-envelope from prior/posterior
 widths: Δln Z ≈ +5 to +7 in dCDF's favor if the χ² gain survives
 marginalization — the +1-parameter Occam penalty is small because the one
 extra parameter (ξ) is doing real work.
 
-## 9. Falsifiable predictions (external, not yet tested)
+## 9. External falsifiers — first one now measured, and it bites
 
-1. **Damping tail (ACT/SPT).** The best fit *requires* N_eff ≈ 3.45 and
-   n_s ≈ 0.983. High-ℓ TT/TE/EE data sharper than Planck's tail directly
-   test this — the model claims Planck's n_s = 0.965 is a ΛCDM-conditional
-   inference. If ACT/SPT pin n_s low and N_eff at 3.04 at these precisions,
-   dCDF's H0 mechanism is dead.
+1. **Damping tail (ACT DR6 / SPT-3G): TESTED 2026-07-06 — in tension.**
+   The best fit *requires* N_eff ≈ 3.45 and n_s ≈ 0.983; published ACT DR6
+   analyses prefer N_eff ≈ 2.9 ± 0.13, ~4σ below. Measured directly in this
+   pipeline (point evaluation at the frozen best fit, candl likelihoods,
+   calibrations profiled, no refit):
+
+   | dataset | ΛCDM anchor | dCDF best fit | Δχ² |
+   |---|---|---|---|
+   | ACT DR6 CMB-only TT/TE/EE (135 bdp) | 161.9 | 184.6 | **+22.7** |
+   | SPT-3G 2018 TT/TE/EE lite (123 bdp) | 140.5 | 139.4 | −1.1 |
+
+   ACT DR6's damping-tail penalty (+22.7) is the same size as the entire
+   Planck+BAO+SN gain (−19.2). SPT-3G (ℓ ≤ 3000, larger errors) is neutral.
+   Caveats: a point evaluation overstates tension relative to a joint refit
+   — the flat H0–ξ ridge (§6) means a Planck+ACT fit will slide toward
+   lower ξ (≈0.15) and lower H0 (≈69), where the Planck-side cost is only
+   +11.6 and the ACT penalty largely dissolves. **Honest reading: ACT DR6
+   does not kill the model, it compresses the H0 relief from ~3 km/s/Mpc
+   toward ~1.5 km/s/Mpc.** A joint Planck+ACT+SPT refit is the required
+   next fit, not optional follow-up. (Setup: `candl` + data at
+   `~/candl_data`; script in job scratch `act_spt_test.py`.)
 2. **Weak lensing S8.** Prediction S8 = 0.826: mild easing toward the WL
    preference (~0.77), not a resolution. A joint WL fit must not degrade
    the CMB side.
 3. **BBN.** ΔN_eff = 0.40 at BBN shifts Y_p and D/H; consistency with
-   primordial-abundance measurements is required, not yet checked.
+   primordial-abundance measurements is required, not yet checked. The
+   §2 completion's a⁻⁶ stiff tail is independently BBN-constrainable.
 
 ## 10. Implementation map (code ↔ physics)
 
@@ -319,18 +375,56 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
 (ω_b, ω_cdm, H0, logA, n_s, z_reio, A_planck); dCDF samples 8
 (ρ_∞ replaces ω_cdm; +ξ_Neff).
 
+## 10a. Domain of validity: nonlinear structure and compact objects
+
+Because the fluid is ΛCDM-degenerate at linear order (§4.2), its distinctive
+physics could only appear nonlinearly — and that is exactly where the
+framework has a **structural** limit, not a numerical one:
+
+- **Caustics / no multistreaming.** With c_s² = 0 the field free-falls, and
+  dust free-fall forms caustics. CDM survives shell-crossing because
+  particles multistream (the phase-space sheet folds); a classical scalar's
+  ∇φ is single-valued and cannot fold. At first shell-crossing the fluid
+  description this document rests on has already broken down — independent
+  of how sensible the δ_m bookkeeping (§4.1) looks. This is the known
+  Achilles heel of purely-kinetic unified dark matter; the known
+  regularization (ghost-condensate-type higher-derivative terms, e.g.
+  (□φ)²) halts caustics at the cost of new UV structure, which reopens the
+  §2 exactness question. **Honest scope: linear cosmology solid, virialized
+  structure unproven.**
+- **Compact objects: dCDF-blind by design.** The fluid couples to baryons
+  only through g_μν. Inside a neutron star the dark-sector density is set
+  by gravitational capture (~GeV/cm³) against nuclear matter at
+  ~1.5×10³⁸ GeV/cm³ (n₀ ≈ 0.16 fm⁻³ × 939 MeV) — 38 orders of magnitude of
+  suppression. There is no mechanism by which dCDF matters there, and
+  adding one (the `dcdf_c_gamma`/`dcdf_c_EM` sandbox knobs are exactly such
+  couplings) reopens the fifth-force/EP constraints that killed v1–v3.
+  Minimal coupling also gives GW speed = c exactly (GW170817 trivially
+  satisfied). Black holes: shift symmetry supports no-hair conclusions
+  (quasi-static accretion at CDM-negligible local density); note the
+  Hui–Nicolis theorem is usually stated for Galileon-type/derivatively
+  coupled shift-symmetric scalars — its clean applicability to bare P(X)
+  should be cite-checked, though the k-essence-accretion literature reaches
+  the same conclusion independently. The model's compact-object prediction
+  is deliberately boring: identical to ΛCDM.
+
 ## 11. Open items
 
-- **Newtonian-gauge defect** (§7): fix the (1+w)→0 gauge-transform terms
-  before any newtonian-gauge use.
-- **Evidence numbers**: harvest CosmicForge bridge ln Z + PolyChord pair
-  when runs complete; that decides whether −19.2 is a detection or a
-  flexible-model tax.
-- **ACT/SPT damping-tail test** (§9.1) — the sharpest external falsifier.
-- **BBN check** of ΔN_eff = 0.40.
+- **Joint Planck+ACT DR6+SPT-3G refit** (§9.1) — now the top-priority fit:
+  it determines how much H0 relief survives the damping tail. Expected
+  landing zone: the H0 ≈ 69, ξ ≈ 0.15 part of the ridge.
+- **Evidence numbers**: CosmicForge v5 MH rerun (`dcdf_forge_v2`, β-free,
+  relaunched 2026-07-05 after β deletion) + PolyChord pair queued behind
+  it; that decides whether the χ² gain is a detection or a flexible-model
+  tax — and any evidence verdict must be re-read against §9.1.
+- **BBN check** of ΔN_eff = 0.40 and of the §2 a⁻⁶ tail.
+- **Nonlinear completion** (§10a): specify the higher-derivative terms (or
+  the honest effective-theory boundary) before any claim about halo
+  interiors.
+- **No-hair citation check** (§10a) for bare P(X).
 - **SIDM-type extension scoping** (`PRTOE_v5_SIDM_scoping.md`): the lawful
-  place for new dark-sector physics is now density-dependent
-  *interactions* (not sound speed — §5 closed that door).
+  place for new dark-sector physics is density-dependent *interactions*
+  (not sound speed — §5 closed that door).
 
 ## 12. Reproduction and traps
 
