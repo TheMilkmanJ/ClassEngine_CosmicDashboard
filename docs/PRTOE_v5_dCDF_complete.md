@@ -448,6 +448,12 @@ and will be largely moot the day it lands: that stack omits data
    budget knob. This is the live number; it is being measured as this
    revision is written.
 
+> **Pre-registered predictions live in
+> `PRTOE_PREREGISTERED_PREDICTIONS.md`** — P-2026-001 (2026-07-06,
+> commit 8a5840a5): the local distance ladder resolves to the TRGB side,
+> H0(local) ∈ [69.0, 71.0]; the model is cornered with no hedge, and a
+> confirmed 72+ ladder falsifies its H0 program outright.
+
 ## 9. External falsifiers — first one now measured, and it bites
 
 1. **Damping tail (ACT DR6 / SPT-3G): TESTED 2026-07-06 — in tension.**
