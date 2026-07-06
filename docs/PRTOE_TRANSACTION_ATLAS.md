@@ -175,6 +175,15 @@ local-state loophole; the universal-vev kill via epoch gating).*
   derivation showing the medium's caustic structure cannot support a
   Θ-type coupling. Standing: turn-zero candidate, zero inherited
   credit, amplitude (the 1%) is a measured input not a prediction.
+  **GRADE (red-team turn 22, adopted): CONSISTENCY-CONSTRUCTION, not
+  derivation.** R1 is null in every currently accessible channel BY
+  CONSTRUCTION, not by accident — the suppression was hung on the
+  shell-crossed side in exactly the amount and sector that renders it
+  invisible to all present probes. What distinguishes it from the
+  opening pincer (effect-only-where-unobservable) is its IMMINENT
+  internal test: #11 either shows the caustic structure supports the
+  Θ coupling or kills R1 outright. Its fate is #11's, near-term, and
+  the external (unvirialized-gas) channel earns nothing until then.
 - **Tunneling discriminator** — demoted, not dead (receipt 1500× below
   the SN mass step). *Resurrects if:* mmag-decade photometric decay
   clocks, or a steeper coupling that survives §2.
