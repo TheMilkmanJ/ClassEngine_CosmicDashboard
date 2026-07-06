@@ -312,13 +312,22 @@ to the same shift in `N_ur`). The fit's anatomy, established by direct scans:
 |---|---|
 | exact null (fluid ⇒ ΛCDM; v5 form) | **PASS** — σ8 0.81301 vs anchor 0.81304, total 2516.7 vs 2515.5; re-verified bit-identical after the 2026-07-06 gauge-IC fix (σ8 0.81301, total 2516.72) |
 | ξ_Neff ↔ N_ur equivalence | **PASS** — bit-exact (difference 0.0 everywhere) |
-| precision stability (tightened tolerances) | **PASS** — σ8 stable to 5×10⁻⁶ |
+| precision stability | **PASS, with a real discovery (2026-07-06).** The re-run matrix appeared to fail this test — until the "tightened" knob turned out to be a *loosening*: the in-tree `precisions.h` default for `tol_background_integration` is **1e-10** (not vanilla CLASS's 1e-2; tightened during the v4 stiff-system work), so passing any explicit value overrode it. The dcdf background ODE spans ~42 e-folds and converges slowly in this tolerance: at vanilla 1e-2 the background is ~10% wrong (σ8 0.784→0.661!), at 1e-4 still 0.4% off, converging to the exact closed form only near the in-tree default (verified: 4×10⁻⁸ against ρ_∞+Ka⁻³; θ* stable). All production runs use the converged default. A guard now refuses `use_dcdf` with tolerance > 1e-8. |
 | β-branch smoothness (pre-deletion, 8×10⁻⁹→10⁻⁴) | **PASS** — smooth monotone σ8 decline (then β removed) |
 | gauge invariance (synchronous vs newtonian) | **PASS** (2026-07-06, after fix) — max TT deviation 2.8×10⁻⁵, at ΛCDM's own gauge-noise floor (2.1×10⁻⁵). The v4-era 0.26% ℓ=10–12 defect was **not** the suspected late-time (1+w)→0 gauge terms: the fluid was missing from the matter budget in `perturbations_initial_conditions` (`rho_m`/`om` counted only baryons under `use_dcdf`, and the α gauge-transform's `delta_tot` had no dcdf term), so the newtonian branch started from a slightly wrong φ_ini and rang a decaying transient into the SW/early-ISW sources. Synchronous (production) was verified unaffected before and after: fluid ≡ ΛCDM per-ℓ to 4×10⁻⁶ at the null point. Note the epistemic status: the `rho_m`/`om` half of the bug lived in IC code shared by both gauges, so synchronous safety was an **empirical finding** (bit-identical null test, σ8 0.81301 / total 2516.72 before and after the fix), not a structural guarantee — only the `delta_tot` half was newtonian-only by construction. Diagnosis chain: per-ℓ ΛCDM control → dust-limit isolation → per-contribution double ratio (SW+eISW, not late ISW) → φ′ transient at z≈5000 → IC audit. |
 | 6-corner prior-box stress test (v5, β-free) | **PASS** — all corners run gracefully |
 
 The null test earns its keep: on its first run it caught the budget-
 overclosure bug (§3), a real +20-χ² error invisible to every other check.
+
+**Matrix re-run provenance (2026-07-06):** the entire suite above was
+re-executed on a single verified binary (gauge IC fix + input guards;
+`build/input.o` checked directly, not just `.so` mtimes, since a re-linked
+module can carry a fresh timestamp over a stale archive). Results: null
+bit-identical (σ8 0.81301, total 2516.72), gauge 2.84×10⁻⁵, ξ↔N_ur
+bit-exact (0.0), precision converged (row above), all 6 corners graceful.
+The same pass produced the tolerance discovery and its guard — re-running
+"already passed" tests on the current binary is what caught it.
 
 ## 8. Results
 
