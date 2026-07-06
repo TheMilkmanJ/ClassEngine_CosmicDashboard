@@ -32,17 +32,21 @@ lensing, BAO 6dF+MGS+DR12, Pantheon+SHOES):
 
 | point | χ² total | Δ vs ΛCDM |
 |---|---|---|
-| ΛCDM anchor (H0=67.4) | 2515.45 | — |
-| dCDF best fit (H0=**70.40**, ξ=0.403) | **2496.24** | **−19.2** |
-| same two points on ACT DR6 (point eval, §9.1) | 184.6 vs 161.9 | **+22.7** |
+| **Planck+BAO+SN stack:** ΛCDM anchor (H0=67.4) | 2515.45 | — |
+| dCDF best fit (H0=70.40, ξ=0.403) | 2496.24 | −19.2 |
+| **Joint stack (+ ACT DR6 + SPT-3G):** ΛCDM frozen / refitting | 2817.9 → ~2810 | — |
+| dCDF joint refit (**H0=69.05, ξ=0.142**, n_s=0.979) | **2809.81** | ≈ tie |
+| dCDF + varying m_e=1.01 (**H0≈70.4**, ξ=0.124; §9.4) | **2801.06** (optimizer final; decomposition control running) | TBD |
 
-**The −19.2 is Planck+BAO+SN-conditional.** Adding the ACT DR6 damping tail
-at the frozen best fit claws back essentially all of it; the flat H0–ξ
-ridge means the joint-refit optimum is expected near H0 ≈ 69, ξ ≈ 0.15
-(H0 relief ~1.5 km/s/Mpc, not ~3). The joint Planck+ACT+SPT refit (§11) is
-what turns this row into a final number. S8 = 0.826 vs ΛCDM's 0.833;
-Pantheon+SHOES carries −27.8 of the Planck-stack improvement. Bayesian
-evidence comparison (PolyChord, nlive 500) in flight.
+**The joint refit happened (2026-07-06) and landed exactly on the
+predicted ridge point** — H0 = 69.05, ξ = 0.142 vs the pre-registered
+"H0 ≈ 69, ξ ≈ 0.15" (§9.1). Against the *refitting* ΛCDM twin the joint
+stack is heading to a statistical tie: the honest current claim is **equal
+fit quality on every dataset simultaneously, with H0 = 69.0 and
+S8 = 0.824 vs ΛCDM's 67.4 / 0.833** — both tensions eased directionally at
+zero χ² cost, for one extra parameter. The varying-m_e extension (§9.4,
+same-day discovery) may buy H0 back to ~70.4; its honest credit awaits the
+optimization-slack decomposition. Bayesian evidence (PolyChord) queued.
 
 **Read this first — the result decouples into two independent claims:**
 
@@ -444,9 +448,38 @@ extra parameter (ξ) is doing real work.
    toward ~1.5 km/s/Mpc.** A joint Planck+ACT+SPT refit is the required
    next fit, not optional follow-up. (Setup: `candl` + data at
    `~/candl_data`; script in job scratch `act_spt_test.py`.)
-2. **Weak lensing S8.** Prediction S8 = 0.826: mild easing toward the WL
-   preference (~0.77), not a resolution. A joint WL fit must not degrade
-   the CMB side.
+2. **Weak lensing S8.** Prediction (joint-refit point) S8 = 0.824: mild
+   easing toward the WL preference (~0.77), not a resolution. A joint WL
+   fit must not degrade the CMB side. Note the Σm_ν interaction (§9.5).
+
+4. **Varying electron mass (§9.4, tested 2026-07-06).** The
+   epoch-response audit identified recombination *timing* as the one H0
+   lever the damping tail cannot tax (it changes when recombination
+   happens, not H at recombination). Measured, θ*-locked, on the joint
+   stack: +1 km/s/Mpc per +1% m_e with **ACT indifferent-to-favorable**
+   (163.1 vs 164.0 at m_e=1.01 refit) — the executioner moves to plik's
+   peak structure, and the cost curve is steep beyond ~1.5%
+   (frozen-slice: +7.9 / +58.9 / +289 at 1/2/4%). A fixed-m_e=1.01
+   profile refit reached **2801.06 with H0 = 70.41, ξ = 0.124** — note
+   m_e visibly eats ξ's role (the two levers share the r_s budget). The
+   >100% refund flags optimization slack in pass-1; a same-companions
+   m_e=1.00 control (running) decomposes m_e's honest credit, estimated
+   −1 to −3. S8 rises with m_e at fixed amplitude (+0.02/1%) — m_e alone
+   anti-solves S8; pairs naturally with Σm_ν (below).
+
+5. **Σm_ν and c_EM (frozen-slice scans, 2026-07-06).** Σm_ν: on a stack
+   with no WL likelihood the best fit is pinned at the 0.06 eV floor
+   (+12.2 at 0.12 eV, ACT +5.6 joining plik); its S8 payoff
+   (0.805 at 0.12 eV) is *unpriced* by current data — the lever becomes
+   live only if DES shear joins the stack (projected wash, ±2, at
+   Σm_ν ≈ 0.10 with S8 ≈ 0.81). The environmental-exchange coupling
+   c_EM is **dead**: +261 at c_EM = 0.005 (plik +198, ACT +41, S8→0.869)
+   for 0.5 km/s of H0 — a w-kick on the *dominant* component through
+   recombination wrecks the acoustic structure with no clustering
+   discount. The environment-coupling idea survives only as
+   recombination-rule changes (m_e), not energy-exchange terms.
+   ρ_∞(z) drift: queued as a *constraint measurement* (the DESI-flavored
+   "is the account being funded" question), expected best fit δ ≈ 0.
 3. **BBN: checked at fitting-formula grade (2026-07-06).** With standard
    linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff and ∂Y_p/∂ln ω_b ≈
    0.0096, i.e. Y_p ∝ ω_b^0.039; ∂ln(D/H)/∂ln ω_b ≈
