@@ -3243,7 +3243,7 @@ int input_read_parameters_species(struct file_content * pfc,
    * reinventing/overriding it. */
   class_read_flag("use_dcdf", pba->use_dcdf);
   if (pba->use_dcdf == _TRUE_) {
-    if ((pba->Omega0_cdm > ppr->Omega0_cdm_min_synchronous) && (input_verbose > 0)) {
+    if (((has_cdm_userdefined == _TRUE_) || (has_m_budget == _TRUE_)) && (input_verbose > 0)) {
       printf(" -> Warning: use_dcdf active, so the supplied Omega_cdm/omega_cdm/Omega_m is ignored; CDM is replaced by the unified dark fluid.\n");
     }
     pba->Omega0_cdm = ppr->Omega0_cdm_min_synchronous;
