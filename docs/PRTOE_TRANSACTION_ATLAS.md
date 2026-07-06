@@ -1,7 +1,11 @@
 # The Transaction Atlas
 *Every fixed relation the transaction method has derived — the running
 answer to the bet that mapping all transactions makes all (dimensionless)
-values appear. Entries only for derived relations, never fitted ones.*
+values appear. Entries only for derived relations, never fitted ones.
+Headline honesty (red-team turn 15, adopted): the bet is a PROGRAM, not
+a result — most entries are conditional or calibration-grade, and every
+qualifier in an entry body binds its summary. A reader of this line has
+not yet seen a single unconditional new number beyond the identities.*
 
 **The program (2026-07-06):** every booked equation decomposes as
 *contents + environment* — a "what is around me" term (standard physics)
@@ -15,14 +19,7 @@ environment half, one transaction and one receipt at a time.
 - **ν·x₀ = 6ρ_dust,0/(M_eff²M_Pl²)** — funded-floor amplitude × hierarchy
   = a product of measured quantities only. (Died with its parent operator;
   the identity's method survives.)
-- **Total energy (closed universe) ≡ 0** — the Hamiltonian constraint;
-  every transaction is internal transfer in a zero-sum ledger.
-- **Action-currency conservation** — occupation numbers exactly invariant
-  under expansion; the energy "budget question" is denominational.
-
 ## Structural theorems (derived, not assumed)
-- **The three laws**: one clearinghouse (gauge structure); adiabatic
-  background ledger (unitarity); rules amendable, balances not.
 - **Coupling taxonomy exhaustive at two derivatives**: contents-couplings
   dead, geometry-couplings reduce to dead, self-derivative = one term.
 - **The kinetic/potential zoo split**: rolls-never-oscillates,
@@ -40,7 +37,17 @@ environment half, one transaction and one receipt at a time.
   collapses 4.4× → the inverted hierarchy (a lab experiment's target)
   plausibly reopens. Posterior computing.
 
+## Architecture correspondences (analogy-grade, per the §13 relabeling —
+## true-and-structural, not theorems; demoted here 2026-07-07, red-team turn 15)
+- **The three laws**: one clearinghouse (gauge structure); adiabatic
+  background ledger (unitarity); rules amendable, balances not.
+
 ## Calibration (known answers the ledger language must and does reproduce)
+- **Total energy (closed universe) ≡ 0** — the Hamiltonian constraint,
+  textbook GR restated in ledger language (moved from Identities,
+  red-team turn 15: translation, not derivation).
+- **Action-currency conservation** — adiabatic invariance of occupation
+  numbers, textbook QM restated (moved from Identities, same ruling).
 - **Hydrogen from scratch**: binding as transaction equilibrium
   (localization rent vs Coulomb payment) → Bohr radius to 2.6×10⁻⁶,
   E_1s = −13.6057 eV to 1.2×10⁻⁹. The dyad's m_e amendment reprices it

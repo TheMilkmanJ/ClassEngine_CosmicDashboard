@@ -244,3 +244,32 @@ numbers so that, if the coupling is ever constructed, the abundance
 signature was on record first.
 
 ---
+
+## ANN-2026-003: The doubling debt (red-team turn 15, adopted) — and the unifier constraint (derived same night)
+
+**Recorded:** 2026-07-07 (git base: 790d47bb)
+**The debt, registered explicitly:** the program now carries TWO
+unsourced epoch-localized constant amendments — m_e = +1% at
+recombination (the dyad, P-2026-001's engine) and mhat = +0.14-0.21%
+at BBN (P-2026-006, conditional). Each heals a tension; each owes its
+sourcing to the same §2 wall. Two is a pattern, and a pattern of
+one-amendment-per-tension is an EPICYCLE PROGRAM unless a single
+medium-native coupling sources both. The amendments are cheap
+individually and expensive collectively until they share one
+mechanism. The §2 wall is owed twice, by the same construction.
+**The unifier stress test (derived 2026-07-07, before answering the
+red team):** the obvious single mechanism — one Higgs-vev-type
+coupling, universal at fixed Yukawas (dln m_e = dln mhat) — is DEAD
+on arrival: the dyad's m_e amendment extends to BBN, so mhat would
+ride at +1% there, driving D/H by +11.1% (the -2.0 sigma scar becomes
+a +7.7 sigma catastrophe, a 6.5x overshoot of the healer window) and
+a true vev shift additionally moves tau_n by -4.9% through the weak
+sector. DERIVED CONSTRAINT on any future shared coupling: it must
+carry FLAVOR structure (quark-sector response ~5-7x weaker than
+lepton-sector) or EPOCH structure (the m_e amendment off at BBN,
+on by z ~ 1100 — which would also retire the booked m_e-BBN
+surcharge in §9.3 and reshape the scar arithmetic). This narrows the
+repayment space before any coupling is proposed; a proposal outside
+it is pre-falsified.
+
+---
