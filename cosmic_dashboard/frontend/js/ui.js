@@ -1106,7 +1106,7 @@ async function checkStatus() {
             if (data.is_optimizer) {
                 const optImg = document.getElementById('optimizer-plot-img');
                 if (optImg) {
-                    optImg.src = `${API_URL}/api/posteriors_plot?t=${Date.now()}`;
+                    optImg.src = `${API_URL}/api/live_plot?t=${Date.now()}`;
                     optImg.style.display = 'block';
                 }
             }

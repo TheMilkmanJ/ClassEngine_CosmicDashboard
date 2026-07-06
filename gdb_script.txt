@@ -1,4 +1,0 @@
-break background_indices
-run
-watch pba->has_scf
-continue

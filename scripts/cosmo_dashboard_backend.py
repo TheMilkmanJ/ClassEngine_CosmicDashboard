@@ -5353,33 +5353,37 @@ async def start_run(config: RunConfig, request: Request = None):
                     log_dashboard_error(f"[CRASH] Last 5KB of log:\n{tail}", console=True)
             except Exception as e:
                 log_dashboard_error(f"[CRASH] Could not read log file: {e}", console=True)
+            # Build the most informative failure detail we can. Reading the log may
+            # fail (permissions, races); if so fall back to a generic message. The
+            # HTTPException is raised AFTER this block so the informative detail is
+            # never swallowed by the log-reading except handler.
+            state.current_status = "failed"
+            detail = f"Cobaya process failed to start immediately. Return code: {state.running_process.returncode}"
             try:
                 log_fd.close()
                 with open(log_file_path, 'r') as f:
                     log_content = f.read()
-                    last_lines = '\n'.join(log_content.split('\n')[-20:])
-                    crash_msg = detect_run_crash_in_log(log_file_path)
-                    detail = crash_msg or f"Cobaya process failed to start. Check log: {log_file_path}\nLast output:\n{last_lines}"
-                    log_dashboard_error(f"[START ERROR] Process died immediately. {detail}", console=True)
-                    state.current_status = "failed"
-                    if crash_msg:
-                        # Create structured alert object for frontend compatibility
-                        crash_alert = {
-                            "parameter": "Run Failure",
-                            "status": crash_msg,
-                            "suggestion": "Check the log file for details and fix the underlying issue."
-                        }
-                        # Check if this alert already exists (by comparing status message)
-                        alert_exists = any(
-                            isinstance(alert, dict) and alert.get("status") == crash_msg
-                            for alert in state.watchdog_alerts
-                        )
-                        if not alert_exists:
-                            state.watchdog_alerts.append(crash_alert)
-                    raise HTTPException(status_code=500, detail=detail)
+                last_lines = '\n'.join(log_content.split('\n')[-20:])
+                crash_msg = detect_run_crash_in_log(log_file_path)
+                detail = crash_msg or f"Cobaya process failed to start. Check log: {log_file_path}\nLast output:\n{last_lines}"
+                log_dashboard_error(f"[START ERROR] Process died immediately. {detail}", console=True)
+                if crash_msg:
+                    # Create structured alert object for frontend compatibility
+                    crash_alert = {
+                        "parameter": "Run Failure",
+                        "status": crash_msg,
+                        "suggestion": "Check the log file for details and fix the underlying issue."
+                    }
+                    # Check if this alert already exists (by comparing status message)
+                    alert_exists = any(
+                        isinstance(alert, dict) and alert.get("status") == crash_msg
+                        for alert in state.watchdog_alerts
+                    )
+                    if not alert_exists:
+                        state.watchdog_alerts.append(crash_alert)
             except Exception as read_err:
-                state.current_status = "failed"
-                raise HTTPException(status_code=500, detail=f"Cobaya process failed to start immediately. Return code: {state.running_process.returncode}")
+                log_dashboard_error(f"[START ERROR] Could not read crash log: {read_err}", console=True)
+            raise HTTPException(status_code=500, detail=detail)
 
         return {"message": f"Cobaya run started with config '{config.config_name}'.", "pid": state.running_process.pid}
     except HTTPException:
