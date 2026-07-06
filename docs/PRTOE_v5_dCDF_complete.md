@@ -1051,6 +1051,30 @@ vacuum already runs α with probe scale (β = 2α²/3π). The laws are one
 architecture expressed at two scales, with the Unruh/Gibbons-Hawking
 pair (T = a/2π ↔ T = H/2π — the *same formula*) as the bridge.
 
+**C1a — Every gauge field is a clearinghouse; the field is the debt,
+not the toll (2026-07-07, operator's framing; analogy-grade,
+calibration-supported).** C1's "clearinghouses are gauge fields" runs
+both directions: EM is the charged sector's gateway exactly as gravity
+is the energy sector's. The sharpening: **Gauss's law makes the field
+the RECORD OF OBLIGATION, not the payment** — a charge's flux at
+infinity cannot be erased, only transferred (receipt: charge
+conservation, electron lifetime > 6.6×10²⁸ yr), and the Aharonov–Bohm
+effect shows the ledger entry (the potential) is physically real even
+in payment-free (field-free) regions. The debt is owed even where no
+toll flows — measured. The classification this buys: ABELIAN
+clearinghouses (EM) hold no account of their own — photons are
+uncharged, debts are long-range and additive; NON-ABELIAN ones (color,
+weak) borrow from themselves — gluons carry color, and a bank that
+trades in its own debt confines; GRAVITY is the extreme case — the
+clearinghouse's own records gravitate, which is (i) why it is the
+UNIVERSAL gateway (every other bank has a gravity account), and
+(ii) why the funded floor's Bianchi withdrawal (V4) exists at all:
+structure's gravitational ledger can be drawn against because the
+ledger itself carries energy. Model consistency note: the medium is
+uncharged — it holds no EM account — so the charged clearinghouse
+never sees it; every α null is structural for this model (cf. R1:
+masses only, α untouched).
+
 **C2 — The bank-location question resolves: the currency is action,
 not energy.** Under expansion, each field mode's adiabatic invariant
 E/ω — its occupation number, in units of ℏ — is *exactly conserved*;

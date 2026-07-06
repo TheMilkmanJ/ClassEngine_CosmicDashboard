@@ -76,6 +76,12 @@ environment half, one transaction and one receipt at a time.
 - **Casimir re-pricing**: boundary-modified transaction spectrum →
   π²ħc/240d⁴ = 13 Pa at 100 nm (measured to ~1%); X3's boundary-object
   reading holds — boundaries re-price transactions without owning any.
+- **The debt reading of gauge fields (C1a)**: Gauss's law = the field
+  is the record of obligation, not the payment (receipt: charge
+  conservation, e⁻ lifetime > 6.6×10²⁸ yr); Aharonov–Bohm = the ledger
+  entry is physically real in payment-free regions — the debt is owed
+  even where no toll flows. Measured. Restatements both; the language
+  is exact again.
 
 ## Open ledger (environment terms named; receipts derived where stamped)
 - **Tunneling as environment thermometer — DERIVED, comes out faint
