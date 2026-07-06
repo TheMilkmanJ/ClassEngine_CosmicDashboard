@@ -220,6 +220,17 @@ local-state loophole; the universal-vev kill via epoch gating).*
   *Resurrects if:* never as H0 mechanism; the coupling zoo it explored
   feeds the door taxonomy.
 
+## Nulls checked (asked and answered: not in this model)
+- **The golden ratio (2026-07-07, operator's query):** swept the derived
+  structure — the model's fixed numbers are rationals and simple
+  radicals from conservation laws; no φ anywhere. φ's only two honest
+  employers in physics (anti-resonance: KAM, phyllotaxis; forced
+  self-similarity: quasicrystals, E8 criticality, Fibonacci anyons) use
+  mechanisms this medium lacks (smooth hydrodynamics, abelian vortices,
+  no scale self-similarity). Standing rule: a φ "appearing" in our
+  outputs without one of those two mechanisms derived first is noise
+  and gets treated as such.
+
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
   anchors.
