@@ -347,3 +347,49 @@ plateau universality between halo environments at the 10⁻⁵ level
 
 *Lyman-α transfers unconditionally as backdrop. All five stamped;
 the red team reads cold, per-verdict, per the turn-22 conditions.*
+
+## 4. V4 STEP-WALK (for the turn-24 reserve — every O(1) skeleton exposed)
+
+The reviewer reserved V4 pending a step-walk of the m̄₂–M_eff lock and
+the α coefficient. Here is the walk, with the conventions and the one
+undercount surfaced by us before the walk was read.
+
+**Step A — the lock's two powers (structural, not adjustable).**
+(A1) The operator is, by definition, (m̄₂²/2)(δK)² — its contribution
+to any coherent expansion-fluctuation energy is ∝ m̄₂². Not a choice;
+the operator's name. (A2) The dispersion (2.1 Steps 2–3): the same
+coefficient supplies the ONLY gradient term, giving
+ω = [m̄₂/(2√P₂X₀)]k², hence M_eff = √P₂X₀/m̄₂ ∝ 1/m̄₂. Power fixed by
+the operator being the sole k⁴ source at a P_X = 0 extremum. (A3)
+Therefore ν ∝ m̄₂² = (M₂²/M_eff)² — the mutual exclusion needs only
+these two powers. **Any un-kill requires changing a power, i.e.
+changing the theory.**
+
+**Step B — the O(1) skeletons, exposed.** (B1) Basin-entry convention:
+ρ_entry at x = 1 including the quadratic term is 3.5·P₂X₀², not 2 —
+the identity's "2" is the linear-term convention. Skeleton: ×1.75 in
+M₂⁴'s definition. (B2) δK foliation normalization: the δK = −∇²π/(a²φ̇₀)
+leading form may carry a √2 vs the covariant treatment — skeleton: ×2
+in ν. (B3) α: the quasi-linear + halo-scale census gives α ≈ 2; we
+stress it to 100. Worst-case stack: ×175 ⇒ ν(quasi-linear) ≤ 1.9×10⁻⁸.
+
+**Step C — the undercount we surface ourselves.** The 2.4 first pass
+counted δK at halo scale (σ_v/R). Inside granulated regions the
+medium's own flow varies at l_dB, giving δK ~ M_eff v²/2πħ — 240 H₀
+in dwarfs, ~10⁵ H₀ in MW interiors. A naive m̄₂²(δK)² with these
+values exceeds halo energy budgets by orders — which is a
+NORMALIZATION DIAGNOSIS, not a discovery: for on-shell granule modes
+the operator term is part of the mode energy, capped by equipartition
+at the granule kinetic energy ρv². Cap: ρ_halo v² ~ 10⁻¹⁵ eV⁴;
+cosmic-averaged ≤ 7×10⁻⁸ ρ_c; and — decisive for the verdict — this
+piece is LOCALIZED: it rides with halos as a ~4×10⁻⁷ fractional
+halo-mass correction. Localized energy is halo mass, not smooth
+dark energy: it cannot masquerade as w-drift at all.
+
+**Step D — conclusion of the walk.** Under every prefactor stack the
+smooth component is ≤ 2×10⁻⁸ ρ_c and the large local piece is not
+drift. Un-killing the fingerprint needs ν ~ 10⁻³: a factor ≥ 5×10⁴
+beyond the worst-case stack, unreachable by prefactors, reachable
+only by breaking Step A's powers. **The mutual-exclusion theorem and
+the ABSENT resolution of P-2026-003 stand with ≥ 4 orders of margin.**
+The reviewer's conviction or acquittal follows this section.
