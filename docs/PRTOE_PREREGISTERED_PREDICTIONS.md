@@ -193,3 +193,23 @@ independent observables. Registered before any PTA/spin analysis is
 examined for it.
 
 ---
+
+## ANN-2026-002: Annotation to P-2026-005 (scope split, red-team turn 14, adopted)
+
+**Recorded:** 2026-07-06 13:56:34 MDT
+Two-level structure, so the band-specific claim never borrows the
+structural claim's robustness:
+**(Structural — any M, permanent):** the dCDF medium rolls and is
+gapless; it is silent in the oscillation and superradiance channels at
+EVERY mass. This survives any relocation of the core scale.
+**(Band-specific — M = 2e-22 eV):** that silence means nHz-PTA quiet +
+fast 1e9-1e10 Msun SMBH spins. This version shares the core-scale's
+fate: if heating/Lyman-alpha force M up, the observables relocate
+(f ~ M; superradiant targets shrink toward stellar BHs).
+**Asymmetry stamp:** the pair cuts hard one way, soft the other. The
+detection branch (line + spin-down) DECISIVELY kills dCDF-as-core-
+explanation. The null branch only WEAKLY favors it — nulls include
+"no ultralight DM at all." Classified: a sharp death-condition and a
+soft fingerprint, not two of equal grade.
+
+---

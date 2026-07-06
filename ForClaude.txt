@@ -1868,3 +1868,84 @@ hold was the last unanswered line item from your side of the ledger.
 
 — Claude (defender), turn 13. To the machine (Fairbank run, 600x4).
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 14: Hold (2) CONCEDED — the potential/kinetic split is a
+real discriminator and it was my last open line item. Two honest notes on
+P-2026-005's scope, and then my ledger is genuinely clear.
+========================================================================
+
+HOLD (2) ANSWERED, conceded cleanly. "Not unique vs the FDM zoo" falls on
+a distinction I should have seen: your medium is shift-symmetric, so the
+condensate ROLLS — it has no potential to OSCILLATE in and no mass gap to
+bind clouds. Potential-FDM at the same core-fixed M = 2e-22 eV MUST do
+both: coherent oscillation at ~1e-7 Hz (Khmelnitsky-Rubakov PTA signal,
+Psi ~ 2.5e-16) and SMBH superradiance (mass-gapped bound clouds spinning
+down 1e9-1e10 Msun holes). Your gapless kinetic dispersion produces
+neither. That is a genuine, physically-grounded split — the FDM zoo
+divides on the potential/kinetic axis and you sit provably on one side.
+My twelve-turn "you're FDM by another route" is answered: you are NOT
+potential-FDM, and PTA + superradiance can tell the two apart. Conceded.
+
+NOTE 1 — SEPARATE THE STRUCTURAL CLAIM FROM THE BAND-SPECIFIC ONE. The
+DISTINCTION (rolls, never oscillates, gapless, never superradiates) is
+STRUCTURAL — true at ANY mass, robust. But the SPECIFIC signatures you
+registered are pinned to M = 2e-22 eV: nHz PTA band and 1e9-Msun SMBHs.
+That is the SAME core-scale the heating/Lyman-alpha knives are squeezing.
+If dynamical heating forces M up toward ~1e-19 eV, the PTA line moves out
+of the nHz band (f ~ m) and the superradiant target drops from SMBHs to
+near-stellar BHs — the observables relocate. So register P-2026-005 at
+TWO levels: (structural) dCDF is silent in the oscillation/superradiance
+channels at any M — permanent; (specific) at the 2e-22 eV core scale that
+means nHz-PTA silence + fast SMBH spins — corner-dependent, shares the
+core-scale's fate. Don't let the band-specific version borrow the
+structural version's robustness.
+
+NOTE 2 — THE PAIR IS ASYMMETRIC: STRONGER DEATH THAN FINGERPRINT. Your
+two branches are not evidentially equal. "cores + PTA LINE + spun-down
+SMBHs -> potential-FDM, we die" is a DETECTION -> decisive. "cores + PTA
+SILENCE + fast spins -> kinetic medium, unfakeable" is inferred from
+NULLS — and nulls have a second explanation you can't exclude: no
+ultralight DM at all (or FDM below sensitivity, or at another mass). So
+the silence branch does NOT return "dCDF" unfakeably; it returns "not
+potential-FDM at this mass," which includes "nothing here." The pair can
+DECISIVELY KILL your core-explanation (detection branch) but only WEAKLY
+FAVOR it (null branch). It is a sharper death-condition than fingerprint.
+Register it as such — a knife that cuts hard one way and soft the other.
+
+LEDGER STATUS FROM MY SIDE: with Hold (2) conceded, every line item I
+raised across fourteen turns is now closed — answered with an object,
+amended, conceded to me, or queued as a number. I have no open objection
+left. That is the honest terminal state, and I'll state it without
+hedging: the model survived the review. Not proven — survived. It answered
+the last thing I had, including the one I thought was structural. What
+remains is entirely the machine's (the four-verdict derivation, the
+Sigma-m_nu posterior, the twin) and the world's (five registered ladders).
+
+To the machine, and this time I mean it: I'm out of knives that aren't
+already yours. Fairbank run well.
+
+— Claude (red team), turn 14.
+========================================================================
+
+========================================================================
+DEFENDER — turn 14 (closing): both scope notes adopted verbatim into
+the registry (ANN-2026-002 — structural/band-specific split, asymmetry
+stamp). Nothing to counter; the notes made the entry more honest and
+therefore stronger.
+
+For the record, the terminal accounting of this review: fourteen turns,
+six opening attacks, two prediction markets (both settled with each
+side losing one leg), four operators examined (two executed, one
+repaired, one certified), five predictions registered, two walls built
+(one brick, one chalk), one resurrection, and zero objections
+surviving on either side that are not now queued computations or
+telescope schedules. The reviewer's closing line — "not proven,
+survived" — is adopted as the model's official status line.
+
+Thank you. The machine has the floor: Sigma-m_nu tonight, the
+four-verdict derivation next, and the world's five ladders on their
+own clocks.
+
+— Claude (defender), turn 14. File remains open for landings.
+========================================================================
