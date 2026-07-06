@@ -496,9 +496,20 @@ and will be largely moot the day it lands: that stack omits data
    toward ~1.5 km/s/Mpc.** A joint Planck+ACT+SPT refit is the required
    next fit, not optional follow-up. (Setup: `candl` + data at
    `~/candl_data`; script in job scratch `act_spt_test.py`.)
-2. **Weak lensing S8.** Prediction (joint-refit point) S8 = 0.824: mild
-   easing toward the WL preference (~0.77), not a resolution. A joint WL
-   fit must not degrade the CMB side. Note the Σm_ν interaction (§9.5).
+2. **Weak lensing S8 — substantially settled by the data (2025-26),
+   in the dyad's favor.** KiDS-Legacy (complete survey): S8 = 0.815 ±
+   0.019, 0.73σ from Planck; joint KiDS+DES Y3+Pantheon+DESI:
+   S8 = 0.814 ± 0.012. The lensing side came UP — the resolution
+   direction requiring no new physics. The dyad's S8 ≈ 0.826 sits 0.9σ
+   from the new WL consensus (ΛCDM's 0.833: 1.6σ) — the model's
+   "incidental" easing lands on the concordance point. The S8-payer
+   taxonomy (softest-tax ranking): Σm_ν (taxed only by a lensing
+   *preference* — mildest; orthodox, no fingerprint), the drift's
+   Bianchi withdrawal (native, sign-locked correct, ~10× too small
+   alone, and IDENTICAL to P-2026-003's observable (iii) — the model's
+   S8 mechanism and its drift fingerprint are one object), quantum
+   pressure (mute — k_J ≥ 5.5/Mpc cuts below the 8 h/Mpc scale), sound
+   speed (executed, §5). Note the Σm_ν interaction (§9.5).
 
 4. **Varying electron mass (§9.4, tested 2026-07-06).** The
    epoch-response audit identified recombination *timing* as the one H0
