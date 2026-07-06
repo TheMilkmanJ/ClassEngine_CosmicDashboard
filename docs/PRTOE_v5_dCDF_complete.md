@@ -1244,6 +1244,27 @@ accrual rate of pencil entries; receipts: every atomic clock (Cs:
 exactly as interference phase). The Born-rule wall (C4a) stands: what
 prices the menu remains underived, here as everywhere.
 
+**C4c — Neutrality is the settlement condition, not the selection
+rule (2026-07-07, operator's refinement; correspondence-grade, the
+sharpest landing of the series).** "The chosen outcome settles its
+debts without going over or under" cannot select among quantum
+alternatives — every menu item already clears exactly (BKS statistical
+conservation killed by Bothe–Geiger 1925: conservation is exact in
+each INDIVIDUAL settlement). But it is precisely the REAL/VIRTUAL
+boundary: unsettled drafts may run unbalanced within the bank's one
+credit rule (Δt ~ ħ/ΔE — beta decay borrows an 80 GeV W, ~1e5× the
+available energy, for ~8×10⁻²⁷ s); POSTING requires exact clearance —
+the on-shell condition E² = p² + m² is the operator's sentence
+verbatim. Every particle ever detected was a cleared entry; the
+unbalanced ones exist only inside the drafting. And the "most logical
+choice" clause is the classical limit: paths surviving the draft
+summation are those where neighbors agree on accrued phase —
+stationary action (δS = 0) as the bank's bulk-processing shortcut;
+Newton emerges where the menu collapses to one agreed route. The
+settlement law assembled (C4a–C4c): drafts unbalanced within ħ/ΔE;
+posting requires neutrality; among neutral offers amplitudes price
+(Born — the wall); the dominant coupling picks the printing language.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three
