@@ -1193,6 +1193,37 @@ metaphor's laboratory-physics name. Lab superfluids (helium kept liquid
 at T=0 by zero-point transactions) are structural cousins of the floor
 (the medium kept at ρ_∞ by its condensate nature).
 
+**C3a — Smooth, not foamy (2026-07-07, operator's bet; stance-grade,
+receipts quoted, reach-wall stamped).** Against Wheeler's quantum foam
+(a 1955 picture, not a derivation), the operator bets sub-Planck
+smoothness. Status: (i) DATA CURRENTLY SIDES WITH SMOOTH — GRB 090510
+(Fermi 2009): energy-dependent photon dispersion excluded beyond the
+Planck scale at linear order; distant quasar images stay sharp where
+foam variants predict blur; the Holometer heard nothing. Quadratic
+foam survives only because it is much harder to test. (ii) THE
+STRUCTURAL POINT: quantum ≠ boiling — coherent states are quantum and
+phase-smooth (the laser calibration), and a CONDENSATE is emergent
+calm: below the healing length the order parameter is smooth,
+roughness lives in excitations that vanish as they settle. The
+condensate paradigm (Volovik school; our C3) predicts the deep UV
+gets MORE ordered descending — possibly discrete at bottom, but
+coherent: atoms in a superfluid, not bubbles in a boil. Wheeler
+conflates quantum with turbulent; this model's ansatz splits them on
+the operator's side. (iii) THE LEDGER ARGUMENT (operator: "the bank
+won't allow grime"): the vacuum may DRAFT grime within the credit
+window — that is what vacuum fluctuations are (Casimir, Lamb) — but
+may never POST any: posted texture would appear in the energy books
+(clean to 121 decimal places — X1's own number) and in the photon
+travel logs (clean past Planck at linear order). Foam-as-drafts:
+real, settles to nothing. Foam-as-ink: forbidden and observed absent.
+The ground state is smooth because grime is a field of unpaid
+micro-debts and the ground state is "paid in full" by definition.
+Hedge kept: an argument, not a theorem — cancellations could hide
+posted grime behind a clean net (the unsolved half of the Λ problem).
+(iv) WALL: this EFT's domain ends at ~20 nm (M₂) — sixty orders above
+Planck; the bet is booked as paradigm-aligned stance with
+observational receipts, not a result.
+
 **C4 — Entanglement as the receipt of a balanced transaction
 (2026-07-06 night; analogy-grade, toll elected).** The Bell toll gate's
 model-native exit is (iv), quantize the substrate — and the resulting
