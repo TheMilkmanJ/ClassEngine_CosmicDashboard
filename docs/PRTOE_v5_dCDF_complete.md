@@ -486,6 +486,26 @@ and will be largely moot the day it lands: that stack omits data
    −1 to −3. S8 rises with m_e at fixed amplitude (+0.02/1%) — m_e alone
    anti-solves S8; pairs naturally with Σm_ν (below).
 
+   **Coupling-consistency status — stated so no referee has to ask.**
+   What is implemented and fit is the *phenomenological offset*
+   (Hart–Chluba instantaneous mode: fixed m_e ratio above z = 50). As
+   such it is a bolt-on any ΛCDM extension could wear: if it carries the
+   fit, it does so while the unification watches — §4.2's discipline
+   applies at +2 parameters. A *sourced* m_e variation requires a
+   scalar–electron coupling, which is non-minimal by construction; the
+   reason this is not automatically the v1–v3 graveyard is **epoch
+   separation** — the lever needs the coupling active only at
+   z ≳ 1000, while every killing constraint (EP/MICROSCOPE, atomic
+   clocks, Oklo, quasar |Δα/α| ≲ 10⁻⁶) lives at z ≲ 3 — plus a named
+   relaxation mechanism (Damour–Polyakov attraction toward vanishing
+   coupling) to get from 1% at recombination to ≲10⁻⁶ today
+   dynamically. Speculative but structurally native option: gating the
+   coupling on ionization, which collapses at recombination — the same
+   environmental-switch logic as the (failed) c_EM energy coupling,
+   aimed at the rules instead of the ledger. Until one of these is
+   derived and its relaxation history fit, the honest label on m_e is:
+   *phenomenology, carried for its measurement value*.
+
 5. **Σm_ν and c_EM (frozen-slice scans, 2026-07-06).** Σm_ν: on a stack
    with no WL likelihood the best fit is pinned at the 0.06 eV floor
    (+12.2 at 0.12 eV, ACT +5.6 joining plik); its S8 payoff
