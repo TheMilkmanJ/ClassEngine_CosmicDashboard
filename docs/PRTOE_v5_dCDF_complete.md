@@ -543,15 +543,30 @@ and will be largely moot the day it lands: that stack omits data
    linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff and ∂Y_p/∂ln ω_b ≈
    0.0096, i.e. Y_p ∝ ω_b^0.039; ∂ln(D/H)/∂ln ω_b ≈
    −1.6, ∂ln(D/H)/∂N_eff ≈ +0.10):
-   at the best fit (ω_b = 0.0228, ΔN_eff = 0.403), Y_p ≈ 0.2524 — **+1.9σ**
-   vs Aver et al. (0.2449 ± 0.0040) — while D/H ≈ 2.55×10⁻⁵ is only +0.8σ
-   vs Cooke et al. (2.527 ± 0.030), because the higher ω_b and higher N_eff
-   pull D/H in opposite directions and nearly cancel. Helium is thus the
-   lone BBN discriminant, mildly disfavoring ξ = 0.40; at the expected
-   joint-refit optimum (ξ ≈ 0.15, ω_b ≈ 0.0224) it relaxes to
-   Y_p ≈ 0.2492, +1.1σ — unremarkable. PRIMAT-grade confirmation remains
-   open (§11). The §2 completion's a⁻⁶ stiff tail / pre-basin radiation
-   phase is independently BBN-constrainable (§11).
+   at the v4 best fit (ω_b = 0.0228, ΔN_eff = 0.403), Y_p ≈ 0.2524 —
+   **+1.9σ** vs Aver et al. (0.2449 ± 0.0040) — while D/H ≈ 2.55×10⁻⁵ is
+   only +0.8σ vs Cooke et al. (2.527 ± 0.030): higher ω_b and higher
+   N_eff pull D/H oppositely and nearly cancel.
+
+   **Self-consistent numbers at the m_e champion (2026-07-06; ω_b =
+   0.02284, ξ = 0.124, m_e = 1.01)** — required because m_e = 1.01 above
+   z = 50 *includes BBN*, using ∂Y_p/∂ln m_e ≈ +0.17 (honest range
+   0.1–0.4) and ∂ln(D/H)/∂ln m_e ≈ +0.4:
+   **Y_p ≈ 0.2506 (+1.4σ)** — the refit's ξ collapse (0.403→0.124,
+   −0.0035) outweighs m_e's re-spend (+0.0017 central), so helium
+   *improves* relative to the v4 point despite the m_e surcharge
+   (returns to ~+2.0σ only at the pessimistic sensitivity).
+   **D/H ≈ 2.49×10⁻⁵ (−1.3σ)** — the sting relocates: the champion's
+   high ω_b lost its ξ compensation, and m_e's +0.4% cannot restore it.
+   **Net unpriced BBN ledger at the champion: χ² ≈ +3.5** (no BBN
+   likelihood is in the fit stack). Against m_e's clean CMB credit of
+   −8.5 (§9.4): net ≈ −5 — **a loan against helium and deuterium with
+   favorable terms, not a free lunch.** Adding a BBN likelihood
+   (Y_p + D/H as Gaussians) to the joint stack — and feeding varying_me
+   back into the Y_He table (a booked code inconsistency, §9.4) — are
+   now required for any refit that samples m_e. PRIMAT-grade
+   confirmation remains open (§11). The §2 completion's a⁻⁶ stiff tail /
+   pre-basin radiation phase is independently BBN-constrainable (§11).
 
 ## 10. Implementation map (code ↔ physics)
 
