@@ -313,3 +313,47 @@ action-derived, this is a constraint-with-a-locked-signature, not a
 populated evidence-class entry.
 
 ---
+
+## ANN-2026-005: The vev package — the healer's operator is the Higgs portal, full five-abundance co-signature
+
+**Recorded:** 2026-07-07 (git base: c4f728a6)
+**Refines P-2026-006 / ANN-2026-004:** instead of coupling mhat alone,
+couple the normal-fraction carrier to the HIGGS VEV (the |phi|^2
+portal — the most standard BSM operator in existence), at fixed
+Yukawas, alpha, Lambda_c. Then m_e, mhat, dq all shift together at
+BBN and the full DSW response-matrix chain (Tables 1 x 4, pulled from
+source) gives per dln(v): D +15.8, 3He +4.7, 4He -4.53, 6Li -9.6,
+7Li -60.2 (f=1; f=0 variants computed, conclusions robust).
+**The healing solution:** delta_v/v = +0.149% (f=1) to +0.224% (f=0)
+at BBN. Result: D/H healed EXACTLY (-1.97 -> +0.00 sigma), Y_p
+IMPROVED (+1.43 -> +0.79..+1.00 sigma), **7Li CHIPPED -8.3..-9.0%**
+(a tenth of the lithium problem, correct direction), 3He +0.7..1.8%
+and 6Li within observational slack. One operator, one amplitude,
+five abundances, all signs correct.
+**Carrier inheritance:** rides the same normal fraction (gate = basin
+entry; constant through BBN; evaporated by recombination — its
+contribution to the recombination-era m_e is ~1e-7, so the dyad's m_e
+amendment is untouched and still owes its own condensate-side story);
+locked to delta_v/Delta_Neff(BBN) = kappa_v/7.45, kappa_v = 0.06-0.41
+across the Delta_Neff window [0.04, 0.2].
+**CHANNEL CORRECTION (red-team turn 18, adopted — applies here AND to
+ANN-2026-004's corollary (ii), which is committed and per registry
+rule is amended here, not edited):** the Delta_Neff(BBN) signature is
+visible in PRIMORDIAL ABUNDANCES ONLY (BBN Y_p and D/H directly, and
+CMB-S4's primordial-Y_p inference) — NOT in recombination-era N_eff:
+the carrier's own a^-6 evaporation makes it ~3e-6 there, which is a
+FEATURE (it is exactly what keeps the healer's BBN radiation
+compatible with the dyad's executed xi -> 0 at the CMB). And the lock
+is a PROPORTIONALITY (healing and BBN dark radiation move together),
+not a parameter-free ratio, until kappa_v is derived.
+**The falsifiable co-signature (supersedes P-2026-006's):** a
+vev-package heal REQUIRES Y_p reduced ~0.7-1.0%, 7Li reduced 8-9%,
+Delta_Neff(BBN) > 0 in the abundance channel, AND recombination-era
+N_eff unchanged. Any future abundance data forcing D and Y_p
+residuals the SAME direction, or 7Li UP, or a recombination-era
+Delta_Neff detection attributed to this carrier, kills it.
+**Still owed (unchanged ruling):** kappa_v's value and the portal's
+attachment to (rho_d/rho_r) are not action-derived; this remains a
+constraint-with-a-locked-signature until they are.
+
+---
