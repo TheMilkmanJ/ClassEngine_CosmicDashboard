@@ -589,9 +589,32 @@ and will be largely moot the day it lands: that stack omits data
      recombination requirement by ~10× once BBN caps its amplitude.
    - *Chameleon-type screening* (rescuing quasars by making absorbers
      locally standard): reopens the v1–v3 graveyard. **Not taken.**
-   Verdict: the sourced-m_e door — the model's one road toward deriving
-   a Standard-Model parameter from the medium — is **closed at current
-   requirements**, by computation rather than taste. Reopening requires
+   **REOPENED HALFWAY (2026-07-06 night, user-found loophole):** the
+   closure above tested *epoch* couplings — m_e tracking the cosmic-mean
+   state. A coupling to the *local* medium density is a different
+   object: laboratory and quasar-absorber measurements both sit in
+   galactic-halo environments (~0.4 GeV/cm³ dark density), so a
+   local-state coupling **cancels in exactly the comparison that
+   produced the 11,000× exclusion** — the quasar wall constrains
+   epoch-coupling only. The recombination-era mean (1,600 GeV/cm³,
+   4,000× our halo) gives the right sign for the CMB's m_e = 1.01 with
+   a monotonic response. En route, an exact identity: **ρ(basin entry)
+   = 2M₂⁴** — the condensate scale *is* the basin-entry density, giving
+   a coupling f(ρ/M₂⁴) a natural saturation epoch (z ~ 10⁵). What still
+   stands: recombination sits e¹³ below that natural scale, so the
+   early-time shape problem (the big-coupling/BBN pincer) survives.
+   Door status: **half-open** — late walls evaded by environment
+   matching; one wall remains, and it is the same §2 wall as always.
+   A separate, weaker-but-legitimate variant is fully untestable by
+   variation searches: m_e's *value* set by the medium's constant
+   structure (the static Volovik reading — identity rented from a
+   time-independent order parameter). Nothing varies; nothing is
+   excluded; nothing is predicted. Available as ontology, not physics.
+   Verdict (revised): the door is half-open, its remaining wall is the
+   §2 wall, and its testable version predicts **environment-dependent
+   atomic physics across dark-density gradients** — a channel current
+   spectroscopy constrains only weakly (2–3 decades of dark density
+   between dwarf cores and cluster cores, largely unprobed for μ/α). Reopening requires
    a mechanism that generates a saturation scale at x ~ x(recombination)
    naturally, or an H0 mechanism needing only ~0.1% m_e (pointless), or
    screening (graveyard). The honest label survives its own best
