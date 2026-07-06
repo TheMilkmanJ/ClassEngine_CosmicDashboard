@@ -1151,6 +1151,24 @@ first page; and the operator's standing cyclic-universe bet is option
 (b)'s physical form (CCC-class), which would also address the
 blank-ledger wall. Parked, labeled, no claim.
 
+**C1e — Forward-only time travel (2026-07-07, operator's claim;
+correct on direction, mechanism priced, one correction; receipts
+routine).** Forward dilation is measured physics (GPS ~38 μs/day;
+Hafele–Keating 1971; Kelly twins). The operator's grow-your-own-mass
+mechanism works in principle (56 M⊕ in 1 m = 29% slowdown; serious
+fast-forward requires hovering near one's own horizon; the ledger
+permits it — debts must merely balance, ~1e43 J borrowed and repaid)
+but is dominated by velocity or existing wells. Correction:
+de-dilation lands in the then-current now — a held fast-forward
+button, not a timestamp dial. THE MODEL-SPECIFIC RESULT: backward
+travel is doubly and STRUCTURALLY excluded here, more strongly than
+in bare GR (which permits Gödel/wormhole CTCs and leans on Hawking's
+chronology-protection conjecture): (i) the khronon foliation assigns
+every event one reading of the universal clock — no geometry loops
+behind itself; (ii) the ledger writes one way — backward travel =
+un-posting ink (C4a). In this model chronology protection is not a
+conjecture; it is the medium's clock plus the arrow's definition.
+
 **C2 — The bank-location question resolves: the currency is action,
 not energy.** Under expansion, each field mode's adiabatic invariant
 E/ω — its occupation number, in units of ℏ — is *exactly conserved*;
