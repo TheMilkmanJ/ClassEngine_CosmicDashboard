@@ -2,8 +2,8 @@ import shutil
 from pathlib import Path
 from PIL import Image, ImageDraw
 
-project_dir = Path("/home/themilkmanj/prtoe_class")
-assets_dir = project_dir / "dashboard" / "assets"
+project_dir = Path(__file__).resolve().parent.parent
+assets_dir = project_dir / "cosmic_dashboard" / "frontend" / "assets"
 src_jpg = assets_dir / "galaxy_icon.jpg"
 dest_ico = assets_dir / "galaxy_icon.ico"
 dest_png = assets_dir / "galaxy_icon.png"
