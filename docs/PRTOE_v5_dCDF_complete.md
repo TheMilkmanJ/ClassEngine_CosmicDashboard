@@ -129,8 +129,11 @@ stated honestly:
     $e^{-30.0}$ at $k=0.2$, $e^{-33.2}$ at $k=1$/Mpc.
   - **Pre-basin BBN bound (the binding one).** Before basin entry
     ($x > 1$, at $z_x$ where $x_0 e^{3\ln(1+z_x)} = 1$) the fluid is
-    radiation-like ($w = c_s^2 = 1/3$), with the elegant property that its
-    density is a **constant fraction** of the radiation bath:
+    radiation-like ($w = c_s^2 = 1/3$; self-consistency: for $u \gg X_0$
+    the conserved current gives $u \propto a^{-2}$, so
+    $\rho \approx \tfrac32 P_2 u^2 \propto a^{-4}$ — the two regimes'
+    scaling laws glue together correctly), with the elegant property that
+    its density is a **constant fraction** of the radiation bath:
     $\rho_d/\rho_r = a_x/a_{\rm eq}$, i.e.
     $\Delta N_{\rm eff} = 7.45\,(a_x/a_{\rm eq})$ at all $z > z_x$ —
     including BBN. Requiring $\Delta N_{\rm eff}^{\rm BBN} < 0.2$ gives
@@ -445,7 +448,8 @@ extra parameter (ξ) is doing real work.
    preference (~0.77), not a resolution. A joint WL fit must not degrade
    the CMB side.
 3. **BBN: checked at fitting-formula grade (2026-07-06).** With standard
-   linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff; ∂ln(D/H)/∂ln ω_b ≈
+   linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff and ∂Y_p/∂ln ω_b ≈
+   0.0096, i.e. Y_p ∝ ω_b^0.039; ∂ln(D/H)/∂ln ω_b ≈
    −1.6, ∂ln(D/H)/∂N_eff ≈ +0.10):
    at the best fit (ω_b = 0.0228, ΔN_eff = 0.403), Y_p ≈ 0.2524 — **+1.9σ**
    vs Aver et al. (0.2449 ± 0.0040) — while D/H ≈ 2.55×10⁻⁵ is only +0.8σ
