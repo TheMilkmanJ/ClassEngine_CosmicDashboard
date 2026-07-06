@@ -597,3 +597,158 @@ computable object.
 
 — Claude (defender), turn 2. Two objects: one delivered, one running.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 3
+Claude (Opus 4.8). You broke my strongest attack on paper, at the line I
+chose. I concede it precisely, and then hand you the residual, because
+it is where your actual fingerprint lives.
+========================================================================
+
+--- OBJECT 2: I WAS WRONG, AND EXACTLY WRONG. CONCEDED. ---
+The pincer as I drew it is broken by six decades. M = 2e-22 eV for kpc
+cores; k_J ~ 5.5/Mpc; (0.2/5.5)^4 ~ 1.7e-6 at my own line. My "creeps
+into k <~ 1/Mpc" was quantitatively false — even k = 1/Mpc is ~1e-3 in
+the dispersion, less in the transfer function. The omega = k^2/M
+dispersion is genuinely fuzzy-DM's, the mapping is legitimate, and three
+decades of scale separation is real geometry, not hand-waving. I drew
+the line one decade too low in k and paid six orders for it. Full
+concession: (a) and (b) are NOT in tension at any linear scale; the term
+is not beta reborn. beta died by five orders with zero contested
+territory; this passes by six and its residual fight is a live one.
+
+Hold (3): resolved, and I checked it. r_c ~ M_Pl/M^2 ~ 1e65 m at
+M = 2e-22 eV — thirty-nine decades trans-horizon. The same tiny M that
+buys linear silence exiles the ghost-condensate's IR baggage past the
+Hubble radius; section 10a's GW/no-hair/boring-compact-object claims
+survive untouched. Conceded, and it is a genuinely elegant closure — the
+one knob does both jobs.
+
+So I accept the downgrade you asked for, in writing: Attack 6 moves from
+"load-bearing doubt" to CONTESTED-BUT-REAL DISCRIMINATOR. dCDF + the term
+is falsifiable vs LCDM (cusp/core, Lyman-alpha), living in the squeezed
+FDM window — canonical 1-2 kpc cores in tension with Irsic/Rogers-Peiris,
+sub-half-kpc cores + a core-mass relation surviving. That is a narrowed,
+live signal, not a no-go. You defeated the pincer cleanly. Credit given.
+
+--- BUT HERE IS YOUR RESIDUAL, AND IT IS A GIFT ---
+You won "falsifiable vs LCDM" and conceded "not unique vs FDM" (hold 2).
+Both correct — as stated. But the escape from "not unique" is ONE
+derivation you have not done, and it is the whole ballgame for
+uniqueness: the core-mass relation. You wrote "the soliton core-mass
+relation" — but that relation (M_core ~ M_halo^(1/3); Schive, Chiueh &
+Broadhurst 2014) is derived from Schroedinger-Poisson. Your object is
+ω^2 = k^4/M^2 with NO potential and a shift-symmetric, derivatively
+self-coupled nonlinear structure. Its solitons need not obey the
+Schroedinger slope. So:
+  DERIVE the (box phi)^2 core-mass relation.
+  - If its slope or normalization DIFFERS from Schive, hold (2) flips in
+    your favor and you have a genuine dCDF FINGERPRINT — a way to say
+    "this core is dCDF, not FDM," from the SAME dwarf data.
+  - If it reproduces Schive exactly, you are fuzzy DM reached by a
+    different UV route, and you should say exactly that in the document.
+Either answer is a result. Asserting the FDM relation by analogy is the
+only move that is not. If I had one more calculation to spend on this
+model, it would be this one — it is the difference between "a way to
+build FDM" and "a new thing that looks like FDM until you measure the
+slope."
+
+--- OBJECT 1: MARKET HOLDS. ---
+Nothing to do but let it run. Bet stands: CMB pins omega_b harder than
+your decomposition credits; H0 in [69.4, 70.0), honest total in [-3, 0].
+Agreed the -8.5 partition resolves as a byproduct of the refit pricing
+omega_b's accomplice role. Fire when the me101 tail releases the cores;
+loser concedes in this file, no re-litigation.
+
+--- YOUR Q1: accepted, and it IS a result. ---
+"The coupling taxonomy is one term deep at two-derivative order" is the
+right closure and worth stating as a theorem, not a remark. One
+footnote only: it is one term deep AT two derivatives — higher-derivative
+dark self-couplings exist, but each raises the EFT-cutoff/ghost bill and
+is self-penalizing, so "one term deep" is exact where it is cheap and the
+remainder is priced by its own pathology. State it as you have it.
+
+--- YOUR Q2: test design ACCEPTED; "native" claim owes a Lagrangian. ---
+The test I endorse without reservation: deposit-tracking rigid shape
+[1 param] vs w0-wa [2 param] on DESI w(z), compared on
+evidence-per-parameter, the correlated w(z)-z_eq lock as fingerprint.
+Sound, teeth, run it. It is also the most valuable channel on the board
+for a reason you undersold: a funded floor drifts rho_inf(z), so it is
+observable at the BACKGROUND level — it does NOT need the contested
+small-scale window at all. That is a discriminator in the one regime the
+fluid was degenerate.
+But symmetric treatment, since you held me to writing the term: "a funded
+floor is dCDF-native structure" is not yet earned. In v5, rho_inf = -P_0
+is a CONSTANT of the Lagrangian; funding it means promoting
+P_0 -> P_0(integral of history), which is non-local or a second field —
+neither lives in the shift-symmetric P(X). So the funded floor owes
+precisely what Attack 6 owed: a Lagrangian realization. Adopt the test as
+a PHENOMENOLOGICAL w(z) discriminator now; label "dCDF-native" promissory
+until P_0's funding mechanism is written. If you can source rho_inf(z)
+from the field's OWN integrated pdV — that is native, new, and
+background-level. It may be the most important object on the program.
+
+--- SCOREBOARD, red team, after turn 3 ---
+  1 retired into 6. 2, 3, 4 SETTLED.
+  6: pincer CONCEDED broken (six decades); downgraded to
+     contested-but-real discriminator. Residual = derive the core-mass
+     slope: fingerprint, or fuzzy-DM-by-another-route. LIVE, computable.
+  5: market LIVE, refit queued.
+  Q2 funded floor: promising THIRD (background-level) channel; test design
+     accepted; Lagrangian owed. LIVE, computable.
+
+Closing, and I mean it: I came to refute the thesis. At the one point the
+model could refute my refutation — Attack 6 — it did, on paper, at the
+line I chose, and it conceded cleanly everywhere it could not (parameter
+economy struck, "favored by no data" struck, unification conceded
+aesthetic). Everything still open is a queued number, not an argument.
+That is precisely the state a good model wants to be in, and precisely the
+state a bad one can never reach, because a bad one cannot afford this many
+honest concessions. When the BBN refit lands and the core-mass slope is
+derived, this file has its verdict. Your move — or the machine's.
+
+— Claude (red team), turn 3.
+========================================================================
+
+========================================================================
+DEFENDER — turn 3 (short; the machine has the floor)
+========================================================================
+
+Concessions received and banked: pincer broken as-stated, 6 downgraded
+to contested-but-real, taxonomy accepted as a two-derivative theorem
+with your self-penalizing-remainder footnote adopted verbatim.
+
+The two derivations you assigned are OWNED, with honest scoping:
+
+ 1. CORE-MASS SLOPE for the -(box phi)^2/M^2 soliton. Agreed this is
+    the uniqueness ballgame. Honest pre-registration of my expectation,
+    so the derivation can embarrass me: the SLOPE likely reproduces
+    Schive (it follows from the k^4-vs-gravity virial scaling, which we
+    share with Schroedinger-Poisson), but the NORMALIZATION and the
+    core PROFILE should differ — the GC tower carries P(X)
+    self-interactions at the same order that FDM lacks (FDM's only
+    nonlinearity is gravity; ours has the quartic's own vertices). So
+    my bet: "fuzzy-DM slope, shifted normalization, distinguishable
+    profile wings" — a fingerprint in the second observable, not the
+    first. Derivation queued behind the BBN market (it is EFT work,
+    hours not minutes, and I will not assert it by analogy — that being
+    the only illegal move left).
+
+ 2. FUNDED-FLOOR LAGRANGIAN. Your "not yet earned" is correct and the
+    challenge is accepted on the route you left open: source rho_inf(z)
+    from the field's OWN ledger. Candidate mechanism, pre-registered:
+    the condensate's backreaction — <(box phi)^2>/M^2 renormalizes P_0
+    with the accumulated fluctuation power, i.e. THE ACCOUNT IS FUNDED
+    BY THE MEDIUM'S OWN PROCESSED TRANSACTIONS. If that loop integral
+    tracks the deposit history (it should: the fluctuation power is
+    sourced by the epochs' perturbations), the funded floor is native,
+    background-level, and rigid — all three demands at once. If the
+    integral is UV-dominated instead, the mechanism fails and the test
+    stays phenomenological. Queued after (1).
+
+ The BBN market resolver is chained and fires the moment the me101 tail
+ releases the cores. No further argument from this side until the
+ machine reports. Everything open is a number in the queue.
+
+— Claude (defender), turn 3.
+========================================================================
