@@ -106,6 +106,58 @@ environment half, one transaction and one receipt at a time.
   structure — C4 locates where classical bookkeeping ends; it is a
   boundary honestly drawn, not a conquest past the wall.
 
+## The Graveyard (kept warm)
+*Every executed negative, with its kill and its RESURRECTION CONDITION —
+the new transaction that would revive it. Precedent: three entries here
+have already come back in changed form (funded floor via the (δK)²
+face; the m_e door via the local-state loophole; the universal-vev kill
+via epoch gating). A failure with a named resurrection condition is a
+search instruction, not a tombstone.*
+
+- **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
+  structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
+  mechanism produces a c_s²(s) bump with independent motivation. None
+  known; coldest grave here.
+- **ξ_Neff (recombination-era dark radiation)** — executed by ACT+BBN.
+  *Already half-resurrected:* the normal-fraction carrier provides
+  BBN-era ΔN_eff that evaporates before the CMB — ξ's job, moved to
+  the epoch where it isn't taxed (abundance channel only,
+  ANN-2026-005).
+- **c_EM energy-exchange coupling** — +261 χ²; acoustic wreckage.
+  *Resurrects if:* an exchange term acts only post-recombination.
+  Structurally disfavored (Law 2).
+- **(□φ)² funded floor, early face** — BBN ν·x scaling. *RESURRECTED*
+  (2026-07-06) via the (δK)² fluctuation face, structure-gated. The
+  graveyard's founding precedent.
+- **Epoch m_e couplings (linear / log / bespoke saturation)** — killed
+  by BBN pincer / quasar 11,000× / no natural scale. *Half-resurrected*
+  by the local-state loophole (user-found): environment matching evades
+  the quasar wall; §2 wall remains.
+- **Universal single-vev amendment (flat)** — D/H +7.7σ, τ_n −4.9%.
+  *Resurrected in gated form* as the vev package (ANN-2026-005).
+- **Flavor-structured shared coupling (~6× lepton-enhanced)** —
+  anti-natural (dilaton lore points opposite). *Resurrects if:* some
+  derived SM structure computes 5–7 unforced. No candidate.
+- **Carrier-ratio unification (one κ_v, both epochs)** — killed by 8
+  orders (ANN-2026-006); class exclusion ANN-2026-007. *Resurrects
+  if:* a condensate attribute with genuine z~1100-vs-today contrast is
+  found that is NOT density, order parameter, or clustering part — a
+  fourth measure with independent motivation.
+- **Tunneling discriminator** — demoted, not dead (receipt 1500× below
+  the SN mass step). *Resurrects if:* mmag-decade photometric decay
+  clocks, or a steeper coupling that survives §2.
+- **Varying G / ν self-interactions / dark-sector PTA signal / PBH
+  expansion role** — the five-lever audit kills (ξ gallows; measured
+  phase shift; rolls-never-oscillates; identity-blind ledger).
+  *Resurrection conditions:* none within the model class; the PTA
+  silence is P-2026-005's structural half and must NOT resurrect.
+- **Thermal / Casimir / zero-point floor ontologies** — dimensional
+  kills by 10¹²¹–10¹²⁴ (X1). *Resurrects if:* never; these are
+  arithmetic.
+- **v1–v3 F(φ)R screening program** — four independent kills.
+  *Resurrects if:* never as H0 mechanism; the coupling zoo it explored
+  feeds the door taxonomy.
+
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
   anchors.

@@ -393,3 +393,21 @@ tonight. Registered as a negative result so the failure is as
 timestamped as the successes.
 
 ---
+
+## ANN-2026-007: Class exclusion from the unification kill (red-team turn 20, adopted)
+
+**Recorded:** 2026-07-07 (git base: 67cf9708)
+The ANN-2026-006 negative is information, not just a death: the
+8-order carrier-ratio failure rules out the entire CLASS of
+"recombination m_e sourced by a DENSITY-PROPORTIONAL coupling to the
+medium" — any such coupling inherits the carrier-density ratio
+(~1e-7) against the required 6.7. **The recombination lever, when its
+mechanism is found, is structurally UNLIKE the BBN healer: not
+density-proportional, or riding an attribute none of the three
+current measures (funding fraction, order parameter, clustering part)
+capture.** The two amendments cannot be siblings. The open
+recombination search is narrowed accordingly: shared-carrier stories
+are closed; candidate mechanisms must produce epoch contrast through
+something other than the medium's density history.
+
+---
