@@ -3,6 +3,12 @@
 answer to the bet that mapping all transactions makes all (dimensionless)
 values appear. Entries only for derived relations, never fitted ones.*
 
+**The program (2026-07-06):** every booked equation decomposes as
+*contents + environment* — a "what is around me" term (standard physics)
+plus a "what is my environment" term (the substrate ledger). The contents
+side is the studied half; the atlas is the systematic completion of the
+environment half, one transaction and one receipt at a time.
+
 ## Identities (exact, zero parameters)
 - **ρ(basin entry) = 2·M₂⁴** — the condensate scale IS the basin-entry
   density. (2026-07-06, found en route to the local-coupling door.)
@@ -34,11 +40,31 @@ values appear. Entries only for derived relations, never fitted ones.*
   collapses 4.4× → the inverted hierarchy (a lab experiment's target)
   plausibly reopens. Posterior computing.
 
+## Open ledger (environment terms named, receipts not yet derived)
+- **Tunneling as environment thermometer**: decay rates sit under a Gamow
+  exponential — fractional constant shifts of 1e-8 swing α-decay rates by
+  parts in 1e3–1e4 (sensitivity ~1e5, standard varying-constants result).
+  If the §9.4 local-state door is real, radioactive decay in different
+  dark-density environments is the single most amplified receipt the
+  transaction leaves. Needs: the door's coupling magnitude → predicted
+  rate contrast lab vs. deep-halo vs. void.
+- **Binding-sector coefficients**: δB_D at literature grade (task #14) —
+  the scar-healer's admission ticket.
+- **Force-by-force environment terms**: EM booked (m_e, α levers);
+  strong/weak sectors have named levers (Λ_QCD, G_F) with no derived
+  substrate coupling yet.
+
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
   anchors.
-- Quantum kinematics: Bell forbids classical transaction maps from
-  yielding entanglement; requires the substrate quantized.
+- Quantum kinematics: Bell is a toll gate, not a wall — it excludes only
+  maps that are simultaneously local, classical, and measurement-
+  independent. Priced exits: nonlocal transactions; substrate-correlated
+  settings (a universal medium is the natural implementer); retrocausal
+  handshakes (the transactional interpretation, J. Cramer 1986 —
+  entanglement as a transaction, already published and Bell-compatible);
+  or quantize the substrate. The model must elect a toll before the
+  entanglement entry can be derived; no election, no entry.
 - The remaining §2 wall: recombination sits e¹³ from every natural scale;
   every door variant (epoch, local, binding) shares this one boundary.
 

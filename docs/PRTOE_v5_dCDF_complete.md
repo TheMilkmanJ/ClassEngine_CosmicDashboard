@@ -1,11 +1,18 @@
 # dCDF v5 — The Complete Model: Physics, Math, Implementation, Results
 
-**Status (2026-07-05): current production model.** This document is
+**Status (2026-07-06): current production model.** This document is
 self-contained: the action, the background and perturbation equations as
 implemented, why the model has exactly this form (including the death of β),
 the parameter accounting, the validated results, and the open falsifiers.
 It supersedes reading `PRTOE_v4_dCDF_derivation.md` + `PRTOE_v4_dCDF_results.md`
 as a pair; those remain the historical record of how v4 → v5 happened.
+Companion documents: `PRTOE_PREREGISTERED_PREDICTIONS.md` (the no-hedge
+registry, P-2026-001 through -005), `PRTOE_TRANSACTION_ATLAS.md` (every
+derived fixed relation, admission rule: derived-only, falsified
+entry-by-entry), `ForClaude.txt` (the adversarial red-team dialogue,
+14 turns, formally closed 2026-07-06 with verdict "not proven —
+survived"; the four-verdict calculation of §11 is the agreed re-entry
+point).
 
 ---
 
@@ -391,6 +398,7 @@ to the same shift in `N_ur`). The fit's anatomy, established by direct scans:
 | ξ_Neff ↔ N_ur equivalence | **PASS** — bit-exact (difference 0.0 everywhere) |
 | precision stability | **PASS, with a real discovery (2026-07-06).** The re-run matrix appeared to fail this test — until the "tightened" knob turned out to be a *loosening*: the in-tree `precisions.h` default for `tol_background_integration` is **1e-10** (not vanilla CLASS's 1e-2; tightened during the v4 stiff-system work), so passing any explicit value overrode it. The dcdf background ODE spans ~42 e-folds and converges slowly in this tolerance: at vanilla 1e-2 the background is ~10% wrong (σ8 0.784→0.661!), at 1e-4 still 0.4% off, converging to the exact closed form only near the in-tree default (verified: 4×10⁻⁸ against ρ_∞+Ka⁻³; θ* stable). All production runs use the converged default. A guard now refuses `use_dcdf` with tolerance > 1e-8. |
 | β-branch smoothness (pre-deletion, 8×10⁻⁹→10⁻⁴) | **PASS** — smooth monotone σ8 decline (then β removed) |
+| **dyad-configuration battery (2026-07-06, new machinery: m_e sampled, ξ deleted, YHe lambda)** | **ALL PASS (5/5).** [1] m_e→1 null: dyad config at m_e=1 reproduces v5-anchor physics smoothly (σ8 0.82799, θ* 1.04929). [2] Gauge invariance *at m_e=1.01* (never before tested with varying constants on): max \|ΔCl/Cl\| = 1.6×10⁻⁴ at ℓ=4 — passes the 10⁻³ gate; note this is ~6× the ΛCDM gauge-noise floor, consistent with the varying-constants module's own gauge sensitivity, not a dcdf defect (the m_e=1 limit reproduces the 2.8×10⁻⁵ figure). [3] Precision stability at the dyad optimum (bg guard active): σ8 shift 5.9×10⁻⁶. [4] Both m_e prior corners (0.98, 1.04) graceful. [5] YHe table → self-consistent lambda at the market optimum: σ8 shift 10⁻⁵, max Cl shift 6.6×10⁻³ — the booked inconsistency's measured size, matching the §9.3 pricing (−0.4 in χ², sign-favorable). |
 | gauge invariance (synchronous vs newtonian) | **PASS** (2026-07-06, after fix) — max TT deviation 2.8×10⁻⁵, at ΛCDM's own gauge-noise floor (2.1×10⁻⁵). The v4-era 0.26% ℓ=10–12 defect was **not** the suspected late-time (1+w)→0 gauge terms: the fluid was missing from the matter budget in `perturbations_initial_conditions` (`rho_m`/`om` counted only baryons under `use_dcdf`, and the α gauge-transform's `delta_tot` had no dcdf term), so the newtonian branch started from a slightly wrong φ_ini and rang a decaying transient into the SW/early-ISW sources. Synchronous (production) was verified unaffected before and after: fluid ≡ ΛCDM per-ℓ to 4×10⁻⁶ at the null point. Note the epistemic status: the `rho_m`/`om` half of the bug lived in IC code shared by both gauges, so synchronous safety was an **empirical finding** (bit-identical null test, σ8 0.81301 / total 2516.72 before and after the fix), not a structural guarantee — only the `delta_tot` half was newtonian-only by construction. Diagnosis chain: per-ℓ ΛCDM control → dust-limit isolation → per-contribution double ratio (SW+eISW, not late ISW) → φ′ transient at z≈5000 → IC audit. |
 | 6-corner prior-box stress test (v5, β-free) | **PASS** — all corners run gracefully |
 
@@ -471,7 +479,14 @@ and will be largely moot the day it lands: that stack omits data
 > charge; death-condition, shared with stable CDM). P-2026-003: any
 > dark-energy drift attributable to the medium is phantom-side with a
 > growth-tracking shape, or absent (conditional fingerprint; confirmed
-> thawing brackets the completion hierarchy from below).
+> thawing brackets the completion hierarchy from below). P-2026-004:
+> the dyad's 95% upper limit on Σm_ν lands in [0.11, 0.17] eV
+> (registered before the posterior run completed; scoring pending —
+> §9.5). P-2026-005: the medium rolls-never-oscillates (no
+> axion-like PTA/superradiance signals attributable to the dark
+> sector; structural, from the kinetic/potential zoo split).
+> LIT-2026-001 logs the independent literature convergence on
+> varying-m_e (§9.4).
 
 ## 9. External falsifiers — first one now measured, and it bites
 
@@ -620,12 +635,58 @@ and will be largely moot the day it lands: that stack omits data
    screening (graveyard). The honest label survives its own best
    challenge: *phenomenology, carried for its measurement value*.
 
+   **The half-open door's sharpest receipt: tunneling (2026-07-06,
+   named — not yet derived).** If constants respond to local dark
+   density, the most amplified observable anywhere in physics is a
+   quantum-tunneling rate: decay rates sit under a Gamow exponential,
+   so fractional constant shifts of 10⁻⁸ swing α-decay rates by parts
+   in 10³–10⁴ (sensitivities of order 10⁵ are standard in the
+   varying-constants literature). Two consequences: (i) *decay rates
+   become environment thermometers* — the strongest accessible baseline
+   is not a laboratory but **Type Ia supernova light curves**, which
+   are ⁵⁶Ni→⁵⁶Co→⁵⁶Fe decay clocks ticking in host environments
+   spanning decades of dark density, and Pantheon+ is already in this
+   stack; the known SN "mass step" (standardization residuals
+   correlating with host mass) is exactly the *shape* such a receipt
+   would take, though it has mundane astrophysical explanations and no
+   claim is made. (ii) The derivation that would promote this from
+   named to booked: door coupling magnitude → predicted decline-rate
+   contrast vs host dark density → compare against the measured mass
+   step's budget. Logged in the Transaction Atlas open ledger; §11.
+
+   **Independent convergence (LIT-2026-001, literature sweep
+   2026-07-06):** varying-m_e as an H0 mechanism is now *independently
+   preferred at 2–3.6σ by other groups* on Planck(+DESI) stacks
+   (arXiv 2606.06495, 2508.09025 among others) — the field converged
+   on this lever without the dCDF motivation. This is corroboration of
+   the lever, not of the unification: §4.2's discipline is unchanged.
+   A null-sound-speed unified fluid indistinguishable from ΛCDM at
+   linear order has likewise appeared independently (Kou & Lewis 2026),
+   confirming the §4.2 degeneracy from outside.
+
 5. **Σm_ν and c_EM (frozen-slice scans, 2026-07-06).** Σm_ν: on a stack
    with no WL likelihood the best fit is pinned at the 0.06 eV floor
    (+12.2 at 0.12 eV, ACT +5.6 joining plik); its S8 payoff
    (0.805 at 0.12 eV) is *unpriced* by current data — the lever becomes
    live only if DES shear joins the stack (projected wash, ±2, at
-   Σm_ν ≈ 0.10 with S8 ≈ 0.81). The environmental-exchange coupling
+   Σm_ν ≈ 0.10 with S8 ≈ 0.81).
+   **REPRICED IN THE DYAD (2026-07-06 night) — the tax collapsed.**
+   The +12.2 figure was measured in the ξ-era configuration; re-running
+   the θ*-locked pricing scan at the dyad optimum (m_e = 1.01, ξ = 0)
+   gives **+2.8 at Σm_ν = 0.12 eV** (0.20 eV: +29.0) — a 4.4× collapse.
+   Mechanism: ξ and Σm_ν competed for the same damping-tail budget;
+   executing ξ freed it. The dyad is therefore *structurally compatible
+   with the inverted neutrino hierarchy* (⩾ 0.10 eV), which ΛCDM+CMB
+   bounds increasingly squeeze — a lab-testable divergence (0νββ
+   experiments target exactly this). Registered as **P-2026-004: the
+   dyad's marginalized 95% upper limit on Σm_ν lands in [0.11, 0.17]
+   eV**. The posterior run (m_ncdm sampled on the full joint stack) is
+   in flight; its optimizer phase already landed at m_ncdm = 0.065,
+   H0 = 69.61, χ² = 2801.07 — the profile and the posterior will be
+   scored against the registered window when the chains converge, and
+   the S8 side rider is free: Σm_ν = 0.12 eV carries S8 → 0.807, i.e.
+   *toward* the KiDS-Legacy consensus, so the WL data that is absent
+   from the stack would pay this lever, not tax it. The environmental-exchange coupling
    c_EM is **dead**: +261 at c_EM = 0.005 (plik +198, ACT +41, S8→0.869)
    for 0.5 km/s of H0 — a w-kick on the *dominant* component through
    recombination wrecks the acoustic structure with no clustering
@@ -696,6 +757,23 @@ and will be largely moot the day it lands: that stack omits data
    absorbed, closed.** PRIMAT-grade
    confirmation remains open (§11). The §2 completion's a⁻⁶ stiff tail /
    pre-basin radiation phase is independently BBN-constrainable (§11).
+
+   **A candidate healer for the deuterium scar (2026-07-06, candidate
+   grade — coefficients approximate).** The headline's −2.0σ D/H
+   residual has one transaction that heals it *with the correct sign
+   structure across all three primordial abundances*: a binding-energy
+   shift δB_D/B_D ≈ −0.86% at BBN (weaker deuteron → later deuterium
+   bottleneck → less D burned into He) heals D/H exactly, improves Y_p,
+   and chips lithium in the right direction — using memory-approximate
+   Dent–Stern–Wetterich-class sensitivity coefficients. Status honest:
+   this is a *candidate*, not a booked result; it awaits (a)
+   literature-grade sensitivity coefficients, (b) a coupling
+   construction native to the medium (the same shift-symmetric
+   discipline as §9.4 — binding energies are QCD/nuclear-scale
+   quantities, i.e. this is the strong-sector transaction the atlas
+   flags as unwritten), and (c) a check that the healer leaves no new
+   scar elsewhere. If all three clear, it becomes P-2026-006. Until
+   then the headline scar stands unhealed and the rider stays.
 
 ## 10. Implementation map (code ↔ physics)
 
@@ -773,13 +851,35 @@ framework has a **structural** limit, not a numerical one:
 
 ## 11. Open items
 
-- **Joint Planck+ACT DR6+SPT-3G refit** (§9.1) — now the top-priority fit:
-  it determines how much H0 relief survives the damping tail. Expected
-  landing zone: the H0 ≈ 69, ξ ≈ 0.15 part of the ridge.
-- **Evidence numbers**: CosmicForge v5 MH rerun (`dcdf_forge_v2`, β-free,
-  relaunched 2026-07-05 after β deletion) + PolyChord pair queued behind
-  it; that decides whether the χ² gain is a detection or a flexible-model
-  tax — and any evidence verdict must be re-read against §9.1.
+- **Joint Planck+ACT DR6+SPT-3G refit: DONE (2026-07-06)** — landed on
+  the predicted ridge point (H0 = 69.05, ξ = 0.142), then superseded
+  same-day by the dyad (ξ executed, m_e = 1.01, H0 = 69.70; §1
+  headline). What remains open from this item: the refit ΛCDM+BBN twin
+  must complete to convert the headline's −6.5..−8.5 *band* into a
+  single honest number (twin paused for CPU, resumes after the Σm_ν
+  run).
+- **Evidence numbers**: the PolyChord pair on the *dyad-era* configs
+  (`dcdf_pc_v2.yaml` / `lcdm_pc_v2.yaml`, nlive 500, weeks-scale) is
+  the live evidence instrument; the pre-dyad forecast layers in §8
+  apply. That decides whether the χ² gain is a detection or a
+  flexible-model tax.
+- **Σm_ν posterior scoring (P-2026-004)** — the full-stack sampled run
+  is in flight (optimizer already at m_ncdm = 0.065, χ² = 2801.07);
+  on convergence: extract the 95% upper limit, score against the
+  registered [0.11, 0.17] eV window, and run the matched ΛCDM+Σm_ν
+  control on the identical stack.
+- **Binding-sector coefficients (the scar-healer's admission ticket,
+  §9.3)** — replace memory-approximate B_D sensitivities with
+  literature-grade ones (Dent–Stern–Wetterich 2007 class), construct
+  the coupling, audit for new scars; on success, register P-2026-006.
+- **The tunneling receipt (§9.4)** — derive the local-state door's
+  coupling magnitude → predicted decay-rate contrast across host
+  dark-density environments → compare to the SN Ia mass-step budget.
+  Promotes the atlas open-ledger entry or kills it.
+- **The force-by-force gap** — the environment program (Transaction
+  Atlas preamble) has EM levers booked (m_e, α) but no derived
+  substrate coupling for the strong or weak sectors (Λ_QCD, G_F);
+  the §9.3 healer is the natural strong-sector entry point.
 - **BBN check** of ΔN_eff = 0.40 and of the §2 a⁻⁶ tail / pre-basin
   radiation phase (Y_p, D/H shifts as a function of basin-entry redshift).
 - **P(k)-suppression integral: COMPUTED 2026-07-06** (see §2) — the Jeans
@@ -841,22 +941,45 @@ framework has a **structural** limit, not a numerical one:
   the parameter never reached C.
 - Old v4 configs passing `dcdf_beta` fail loudly. This is intentional.
 
----
-
-*History: v1–v3 (F(φ)R non-minimal coupling + screening) closed — four
-independent H0-rescue mechanisms failed by direct calculation. v4
-(β-deformed dCDF) superseded by this document. Full v4 derivation including
-the GCG no-go algebra and the v4.1 logistic exploration:
-`PRTOE_v4_dCDF_derivation.md`. Results archaeology:
-`PRTOE_v4_dCDF_results.md`.*
-
-## 12. The transaction architecture across scales (2026-07-06 exploration)
+## 13. The transaction architecture across scales (2026-07-06 exploration)
 
 A mathematical audit of the three-laws pattern (§9.5-adjacent; gravity
 the only clearinghouse / the background ledger is adiabatic / rules
 amendable, balances not) against the atomic-scale vacuum-transaction
 catalogue, plus ontology tests for the floor. Everything below is
 paper-grade with the arithmetic stated; no CPU consumed.
+
+**The program statement (2026-07-06), and where its ledger lives.**
+Every booked equation in this document decomposes as *contents +
+environment*: a standard-physics term plus a substrate-ledger term (the
+dyad's m_e amendment, the fluid's w(x), the candidate δB_D, the funded
+floor's structure gate are all instances). The systematic completion of
+the environment side — every derived fixed relation, and only derived
+ones — is maintained in **`PRTOE_TRANSACTION_ATLAS.md`**: four exact
+identities (among them ρ(basin entry) = 2M₂⁴ and total energy ≡ 0),
+four structural theorems, three one-parameter-many-observables
+coherences, an open ledger (named-not-derived: the tunneling
+thermometer, the binding coefficients, the strong/weak gap), and the
+walls. One wall is load-bearing for the program's scope and is stated
+here precisely, because its precise form matters: **Bell's theorem
+does not forbid a transaction account of entanglement — it prices it.**
+The theorem (mathematics, loophole-free experimentally confirmed 2015)
+excludes only maps that are simultaneously *local, deterministic-
+classical, and measurement-independent*. A transaction map that gives
+up exactly one of those premises is untouched. The four priced exits:
+(i) nonlocal transactions (Bohmian class); (ii) environment-correlated
+measurement settings — note that a universal substrate every apparatus
+couples to is structurally the *only* kind of object that could
+implement this premise honestly; (iii) retrocausal transactions — the
+**transactional interpretation of QM (J. Cramer 1986)** already models
+every quantum event as an offer/confirmation handshake completing
+across the light cone, i.e. entanglement *as a transaction*, published
+four decades ago and fully Bell-compatible; (iv) a quantized substrate
+(then the map is QM and Bell is satisfied by membership). What this
+document's classical fluid cannot do is produce Bell violations while
+staying in all three premises at once — no map can, ours included.
+Tunneling *rates* are in scope now (§9.4); the entanglement question is
+open pending which toll the model's quantum extension elects to pay.
 
 ### Correspondences & conjectures (relabeled per red-team turn 10:
 "confirmed" is reserved for certificate-grade results — all-orders
@@ -991,3 +1114,12 @@ reshape the dark medium's local mode structure (deep halo interiors,
 BH near-zones) could in principle modulate dark-sector transaction
 rates the way cavities modulate spontaneous emission. Speculative;
 parked until the (δK)² certificates define which modes exist.
+
+---
+
+*History: v1–v3 (F(φ)R non-minimal coupling + screening) closed — four
+independent H0-rescue mechanisms failed by direct calculation. v4
+(β-deformed dCDF) superseded by this document. Full v4 derivation including
+the GCG no-go algebra and the v4.1 logistic exploration:
+`PRTOE_v4_dCDF_derivation.md`. Results archaeology:
+`PRTOE_v4_dCDF_results.md`.*
