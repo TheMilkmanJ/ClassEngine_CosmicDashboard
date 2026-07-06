@@ -130,7 +130,6 @@ struct background
   short use_dcdf;         /**< flag: replace cdm+lambda with the dCDF fluid */
   double Omega_ini_dcdf;  /**< dust-era abundance at a_ini (shooting unknown) */
   double Omega0_dcdf;     /**< target dCDF density fraction today (shooting target) */
-  double dcdf_beta;       /**< beta shape parameter, eq. (9) of the derivation doc */
   double dcdf_rho_inf;    /**< rho_infinity, de Sitter floor density, in H0^2 units */
   double dcdf_c_gamma;
   double dcdf_c_EM;
@@ -678,12 +677,16 @@ static inline double dcdf_s_of_rho(struct background *pba, double rho) {
 
 static inline double w_dcdf(struct background *pba, double rho) {
   double s = dcdf_s_of_rho(pba, rho);
-  return -exp(-(s + pba->dcdf_beta * s * s));
+  return -exp(-s); /* == -rho_inf/rho: p = -rho_inf exactly (LCDM-form background) */
 }
 
+/* beta (the eq.-9 barotropic shape parameter) was removed 2026-07-05 (v5):
+ * the honest-pipeline MCMC drove beta -> 0 (log10beta ~ -8 at best fit) and
+ * every beta > 1e-6 only destroyed sigma8 (0.827 -> 0.185 at 1e-4). With
+ * beta == 0 the adiabatic sound speed dp/drho is identically zero. */
 static inline double cs2_dcdf(struct background *pba, double rho) {
-  double s = dcdf_s_of_rho(pba, rho);
-  return 2.0 * pba->dcdf_beta * s * exp(-(s + pba->dcdf_beta * s * s));
+  (void)pba; (void)rho;
+  return 0.0;
 }
 
 /* ===== Sandbox: fold radiation + ionization directly into the dCDF w(rho) =====
@@ -696,7 +699,7 @@ static inline double dcdf_xe_saha(struct background *pba, double a) {
   double YHe = 0.245;
   double m_H = 1.673575e-27; /* kg */
   double m_e = 9.10938215e-31; /* kg */
-  double SIunit_H0 = pba->H0 * 1e3 / _Mpc_over_m_;
+  double SIunit_H0 = pba->H0 * _c_ / _Mpc_over_m_; /* pba->H0 is H0/c in Mpc^-1 */
   double SIunit_nH0 = 3.*SIunit_H0*SIunit_H0*pba->Omega0_b/(8.*_PI_*_G_*m_H)*(1.-YHe);
   double const_NR_numberdens = 2.*_PI_*(m_e/_h_P_)*(_k_B_/_h_P_);
   double const_Tion_H = 13.6 * _eV_ / _k_B_;

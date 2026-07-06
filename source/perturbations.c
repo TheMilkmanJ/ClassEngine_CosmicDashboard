@@ -226,6 +226,9 @@ int perturbations_sources_at_k_and_z(
              ppt->error_message,
              ppt->error_message);
 
+  free(sources);
+  free(ddsources_dk2);
+
   return _SUCCESS_;
 }
 
@@ -6216,8 +6219,8 @@ int perturbations_approximations(
     if (pth->has_idm_g == _TRUE_) {
       class_test(ppw->pvecthermo[pth->index_th_dmu_idm_g] == 0.,
                  ppt->error_message,
-                 "dmu_idm_g = 0 - stop to avoid division by 0")
-        tau_dmu_idm_g = 1./ppw->pvecthermo[pth->index_th_dmu_idm_g];
+                 "dmu_idm_g = 0 - stop to avoid division by 0");
+      tau_dmu_idm_g = 1./ppw->pvecthermo[pth->index_th_dmu_idm_g];
     }
 
     /** - ---> (b.1.) if \f$ \kappa'=0 \f$, recombination is finished; tight-coupling approximation must be off */
@@ -7268,6 +7271,9 @@ int perturbations_total_stress_energy(
 
       ppw->rho_plus_p_tot += (1. + w_dcdf_val) * rho_dcdf;
 
+      /* NOTE: this block must stay AFTER the delta_cb/theta_cb snapshot
+         (search "infer delta_cb"): cb quantities are baryon+CDM only by
+         contract and must never include the fluid. */
       /* What galaxies trace (dcdf_deltam_mode): 0 = fluid's full density
          (de Sitter floor sits in the denominator and dilutes the contrast),
          1 = clustering part only (all of delta rho, over (1+w) rho -- the
@@ -9608,7 +9614,7 @@ int perturbations_derivs(double tau,
       if (1.0 + w_dcdf_val > 1e-8) {
         ratio_cs2_1plusw = cs2_dcdf_val / (1.0 + w_dcdf_val);
       } else {
-        ratio_cs2_1plusw = 2.0 * pba->dcdf_beta;
+        ratio_cs2_1plusw = 0.0; /* exact beta->0 limit of cs2/(1+w) = 2*beta (beta removed from model 2026-07-05) */
       }
 
       dy[pv->index_pt_theta_dcdf] =

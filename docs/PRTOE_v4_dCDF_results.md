@@ -69,6 +69,27 @@ the H0–ξ degeneracy valley is flat between at least 69.4 and 70.4.
 | β-branch smoothness (8e-9 → 1e-4) | PASS — smooth, monotone σ8 decline |
 | gauge invariance (sync vs newtonian) | bulk PASS (median 1e-4 = ΛCDM baseline); **known defect**: localized 0.26% TT deviation at ℓ=10–12 decaying to baseline by ℓ>1500 — late-time-ISW/newtonian-branch gauge transform near w→−1. Unused in production (all runs synchronous); impact ≪ cosmic variance at those ℓ. Fix candidate: (1+w) factors in the dcdf gauge-transform / metric_euler terms in perturbations.c. |
 
+## v5 transition (2026-07-05, late night): β deleted from the model
+
+The MCMC drove β to its null limit (log₁₀β ≈ −8 at best fit; every β ≥ 1e-6
+destroys σ8) so β was **removed from the model entirely**: w(ρ) = −e^(−s) =
+−ρ_inf/ρ exactly (p ≡ −ρ_inf, ΛCDM-form background), cs² ≡ 0. β's original
+purpose — a positive sound speed for gradient stability and S8 suppression —
+is the classic unified-dark-matter sound-speed trap; the model achieves its
+S8 easing through geometry instead. dCDF v5 = 8 sampled parameters (+1 vs
+ΛCDM: ξ_Neff only). Old v4 configs passing dcdf_beta now fail loudly.
+
+CodeRabbit review of the v4 commit (7 findings): fixed the
+effective_f_sigma8 memory leak (perturbations_sources_at_k_and_z never
+freed its spline buffers — leaked every likelihood eval), Omega0_dcdf=0
+silently skipping budget closure (now rejected), silently-discarded
+Omega_cdm under use_dcdf (now warns), Saha-proxy H0 unit error (dead code,
+c_gamma/c_EM sandbox only), idm_g missing semicolon (cosmetic; compiled
+correctly). The delta_cb-contamination finding was a false positive — the
+cb snapshot precedes the dCDF stress-energy block; a guard comment now
+protects that ordering. The derivation-doc logistic-ansatz critique is
+moot: that section defended β's cs² guarantee and β no longer exists.
+
 ## Interpretation notes / open items
 
 - **β is unused** (best fit 10⁻⁸, i.e. the exact-ΛCDM-background limit of the

@@ -79,3 +79,4 @@ fix_*.py
 check_rel_diff.py
 test_tanh*
 tmp_*/
+archive/

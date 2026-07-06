@@ -3243,6 +3243,9 @@ int input_read_parameters_species(struct file_content * pfc,
    * reinventing/overriding it. */
   class_read_flag("use_dcdf", pba->use_dcdf);
   if (pba->use_dcdf == _TRUE_) {
+    if ((pba->Omega0_cdm > ppr->Omega0_cdm_min_synchronous) && (input_verbose > 0)) {
+      printf(" -> Warning: use_dcdf active, so the supplied Omega_cdm/omega_cdm/Omega_m is ignored; CDM is replaced by the unified dark fluid.\n");
+    }
     pba->Omega0_cdm = ppr->Omega0_cdm_min_synchronous;
     /* Omega0_lambda's default (input_default_params) was precomputed as
      * "1 minus everything else" using the pre-dCDF default Omega0_cdm --
@@ -3350,8 +3353,8 @@ int input_read_parameters_species(struct file_content * pfc,
    * amplitude), overwritten by the shooting driver when Omega0_dcdf is
    * given as a target -- read here exactly as Omega_ini_dcdm is read for
    * the analogous dcdm shooting pair. dcdf_rho_inf (de Sitter floor
-   * density) and dcdf_beta (eq. 9 shape parameter) are direct inputs, not
-   * shot. */
+   * density) is a direct input, not shot. (dcdf_beta was removed 2026-07-05:
+   * the data drove it to its null limit; see background.h cs2_dcdf.) */
   if (pba->use_dcdf == _TRUE_) {
     class_call(parser_read_double(pfc,"Omega0_dcdf",&param1,&flag1,errmsg),
                errmsg,
@@ -3372,7 +3375,9 @@ int input_read_parameters_species(struct file_content * pfc,
                "use_dcdf requires Omega0_dcdf in the input (any rough value, e.g. 1 - Omega_b): "
                "it triggers and seeds the budget-closure shooting for Omega_ini_dcdf.");
     pba->Omega0_dcdf = param1;
-    class_test(pba->Omega0_dcdf < 0., errmsg, "You cannot set the dCDF density to negative values.");
+    class_test(pba->Omega0_dcdf <= 0., errmsg,
+               "use_dcdf requires a strictly positive Omega0_dcdf seed (e.g. 1 - Omega_b): "
+               "a zero value would not register the budget-closure shooting.");
     class_read_double("Omega_ini_dcdf", pba->Omega_ini_dcdf);
     class_test(pba->Omega_ini_dcdf < 0., errmsg, "You cannot set the initial dCDF density to negative values.");
     class_read_double("dcdf_rho_inf", pba->dcdf_rho_inf);
@@ -3399,8 +3404,6 @@ int input_read_parameters_species(struct file_content * pfc,
      * a_ini (since H0^2 ~ 5e-8 is tiny), freezing the fluid at an
      * enormous, wrong floor that swamps the entire universe. */
     pba->dcdf_rho_inf = pba->dcdf_rho_inf * pba->H0 * pba->H0;
-    class_read_double("dcdf_beta", pba->dcdf_beta);
-    class_test(pba->dcdf_beta <= 0., errmsg, "dcdf_beta must be strictly positive; see docs/PRTOE_v4_dCDF_derivation.md eq. (9)-(10) -- beta<=0 loses the no-gradient-instability guarantee.");
     /* Sandbox: fold radiation + ionization directly into w_dcdf(rho). Default
      * 0 (no coupling, exact v4 fluid recovered) unless explicitly requested. */
     class_read_double("dcdf_c_gamma", pba->dcdf_c_gamma);
@@ -6019,7 +6022,6 @@ int input_default_params(struct background *pba,
   pba->Omega0_dcdf = 0.0;
   pba->Omega_ini_dcdf = 0.0;
   pba->dcdf_rho_inf = 0.7;   /* order Omega_Lambda, in H0^2 units */
-  pba->dcdf_beta = 1.e-7;    /* peak c_s^2 ~ 0.74*beta, see eq. (11) */
   pba->dcdf_c_gamma = 0.0;   /* radiation-coupling sandbox knob, off by default */
   pba->dcdf_c_EM = 0.0;      /* ionization-coupling sandbox knob, off by default */
   pba->dcdf_deltam_mode = 1; /* delta_m counts the fluid's clustering part (1+w)rho by default;
