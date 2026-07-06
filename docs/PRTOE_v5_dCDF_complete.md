@@ -465,10 +465,13 @@ and will be largely moot the day it lands: that stack omits data
    revision is written.
 
 > **Pre-registered predictions live in
-> `PRTOE_PREREGISTERED_PREDICTIONS.md`** — P-2026-001 (2026-07-06,
-> commit 8a5840a5): the local distance ladder resolves to the TRGB side,
-> H0(local) ∈ [69.0, 71.0]; the model is cornered with no hedge, and a
-> confirmed 72+ ladder falsifies its H0 program outright.
+> `PRTOE_PREREGISTERED_PREDICTIONS.md`** — P-2026-001: the local ladder
+> resolves TRGB-side, H0(local) ∈ [69.0, 71.0] (no hedge; 72+ falsifies
+> the H0 program). P-2026-002: the dark medium cannot decay (shift
+> charge; death-condition, shared with stable CDM). P-2026-003: any
+> dark-energy drift attributable to the medium is phantom-side with a
+> growth-tracking shape, or absent (conditional fingerprint; confirmed
+> thawing brackets the completion hierarchy from below).
 
 ## 9. External falsifiers — first one now measured, and it bites
 
@@ -567,8 +570,19 @@ and will be largely moot the day it lands: that stack omits data
    recombination wrecks the acoustic structure with no clustering
    discount. The environment-coupling idea survives only as
    recombination-rule changes (m_e), not energy-exchange terms.
-   ρ_∞(z) drift: queued as a *constraint measurement* (the DESI-flavored
-   "is the account being funded" question), expected best fit δ ≈ 0.
+   ρ_∞(z) drift: upgraded (2026-07-06, post-resurrection) from a null
+   constraint to a **conditional fingerprint**. The admissible (δK)²
+   operator's fluctuation face funds the floor from *structure
+   formation itself* (δρ_floor ~ m̄₂²⟨(δK)²⟩/2, gated by nonlinear
+   growth — BBN/CMB-immune at every hierarchy), with the **sign locked
+   phantom-side** (m̄₂² > 0 by stability: the floor can only grow) and
+   a rigid time-dependence tracking Δ²(k_J, z). Amplitude runs from
+   10⁻⁶ (x₀ = e⁻³⁵) to 4×10⁻³ (e⁻⁴³) of critical — the deep end is
+   DESI-scale. Consequence: **the hierarchy acquires a second wall** —
+   BBN caps x₀ ≤ e⁻³⁵ from above; a confirmed DESI thawing signal
+   (w₀ > −1, the current whisper) excludes the deep end and bounds
+   x₀ ≳ e⁻⁴⁰ from below. See P-2026-003. Amplitude to derivation grade
+   rides on the four-verdict calculation below.
 3. **BBN: checked at fitting-formula grade (2026-07-06).** With standard
    linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff and ∂Y_p/∂ln ω_b ≈
    0.0096, i.e. Y_p ∝ ω_b^0.039; ∂ln(D/H)/∂ln ω_b ≈
@@ -630,6 +644,21 @@ Fixed symmetrically in dCDF and the ΛCDM twin: one massive neutrino
 m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
 (ω_b, ω_cdm, H0, logA, n_s, z_reio, A_planck); dCDF samples 8
 (ρ_∞ replaces ω_cdm; +ξ_Neff).
+
+6. **The five-lever paper audit (2026-07-06; zero CPU).** Applying the
+   three-laws screen + the damping-tax test + shift-symmetry structure
+   to every remaining candidate coupling: **PBHs** — no expansion role
+   possible (the ledger is identity-blind; w = 0 is w = 0); their says
+   live in texture, thermal history, seeding, and GW catalogs.
+   **Varying G** — an energy lever in rules clothing (raises H at
+   recombination) → dies by the ξ gallows. **ν self-interactions** —
+   the free-streaming phase shift is now measured present (ACT DR6);
+   dead. **Dark phase transition → PTA waves** — shift-symmetric P(X)
+   has no potential, hence no latent heat; basin entry is a smooth
+   crossover; no signal in this class. **Varying α** — alive but
+   predicted inferior to m_e (Thomson surtax σ_T ∝ α²/m_e²); queued as
+   the rules-class control scan. Four executions and one demotion at
+   the speed of algebra: the screening theory works.
 
 ## 10a. Domain of validity: nonlinear structure and compact objects
 
@@ -701,6 +730,13 @@ framework has a **structural** limit, not a numerical one:
 - **Nonlinear completion** (§10a): specify the higher-derivative terms (or
   the honest effective-theory boundary) before any claim about halo
   interiors.
+- **THE FOUR-VERDICT CALCULATION** (the program's center of mass): the
+  nonlinear two-fluid sector, one derivation reading off (i) the
+  soliton core-mass slope vs Schive (fingerprint or FDM-by-another-
+  route), (ii) the granule heating rate vs the ultra-faint-dwarf knife,
+  (iii) the granule spectrum reshaping by the normal component, and
+  (iv) the structure-funded floor amplitude (P-2026-003's condition).
+  Lyman-alpha transfers unconditionally as the backdrop.
 - **No-hair citation check** (§10a) for bare P(X).
 - **SIDM-type extension scoping** (`PRTOE_v5_SIDM_scoping.md`): the lawful
   place for new dark-sector physics is density-dependent *interactions*
