@@ -1265,6 +1265,28 @@ settlement law assembled (C4a–C4c): drafts unbalanced within ħ/ΔE;
 posting requires neutrality; among neutral offers amplitudes price
 (Born — the wall); the dominant coupling picks the printing language.
 
+**C4d — The neighbor rule (2026-07-07, operator's extension; exact,
+no decomposition needed — the golden rule assembled).** "The bank
+refuses internally-balanced transactions that bother the neighbor" is
+quantum statistics in transition rates, exactly: every fermionic
+final state contributes a VETO factor (1−f) — occupied neighbor ⇒
+amplitude zero (receipt: free neutron τ ≈ 880 s vs bound-neutron
+immortality in stable nuclei — nuclear stability IS the neighbor
+rule; neutron stars = star-sized vetoes by the electron Fermi sea;
+the Chandrasekhar calibration = the veto as stellar structure). Every
+bosonic final state contributes an INVITATION factor (1+n) —
+stimulated emission (the laser calibration above threshold), BEC
+(the medium's own floor exists by the friendly half of this rule).
+And a neighborhood with no receiving account vetoes outright: Purcell
+suppression/photonic bandgaps — inhibited spontaneous emission,
+measured (O3's thread, named). Assembly: with C4b (menu + phases) and
+C4c (on-shell clearance), the operator's proposals reconstruct
+FERMI'S GOLDEN RULE clause by clause — rate = (2π/ħ)·|amplitude|² ·
+(density of receiving accounts) · (neighbor factors) — pricing (Born,
+the wall) × menu × neighborhood consent. The transaction language has
+now re-derived the master transition-rate law of quantum mechanics
+from ledger axioms.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three
