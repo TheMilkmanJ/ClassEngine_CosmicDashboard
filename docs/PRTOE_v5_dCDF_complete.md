@@ -119,12 +119,32 @@ stated honestly:
   and because a dark-matter sound speed suppresses $P(k)$ *cumulatively*
   below the sound horizon (the same Sandvik-type mechanism that killed β,
   §5) while $w$ only perturbs the background locally in time, **the sound
-  speed is the binding condition**. The true quantitative bound requires
-  the $P(k)$-suppression integral for this decaying-$c_s^2(a)$ profile
-  (largest at early times — opposite profile to the GCG case), not a
-  single-epoch threshold: open item (§11). Cubic terms of the full $P(X)$
-  must stay subdominant over the same range. Achievable to any target
-  precision; tuned, and honestly labeled as such.
+  speed is the binding condition**. Both computed 2026-07-06:
+
+  - **P(k)/Jeans bound.** $c_s^2(a) = (x_0/2)a^{-3}$ defines a Jeans scale
+    $k_J^2 = 3H_0^2\Omega_m a^2/x_0$ that sweeps *up* through the
+    observable band ($k_J \propto a$); modes with $k > k_J(a_{\rm eq})$
+    start growing late and lose power by $(a_{\rm eq}/a_k)^2$. No
+    matter-era damage requires $x_0 \lesssim e^{-28.6}$ at $k=0.1$/Mpc,
+    $e^{-30.0}$ at $k=0.2$, $e^{-33.2}$ at $k=1$/Mpc.
+  - **Pre-basin BBN bound (the binding one).** Before basin entry
+    ($x > 1$, at $z_x$ where $x_0 e^{3\ln(1+z_x)} = 1$) the fluid is
+    radiation-like ($w = c_s^2 = 1/3$), with the elegant property that its
+    density is a **constant fraction** of the radiation bath:
+    $\rho_d/\rho_r = a_x/a_{\rm eq}$, i.e.
+    $\Delta N_{\rm eff} = 7.45\,(a_x/a_{\rm eq})$ at all $z > z_x$ —
+    including BBN. Requiring $\Delta N_{\rm eff}^{\rm BBN} < 0.2$ gives
+    $z_x \gtrsim 1.3\times10^5$, i.e. $\boxed{x_0 \lesssim e^{-35.2}}$ —
+    which automatically satisfies every P(k) and halo condition above
+    (at the bound, $c_s^2(z_{\rm eq}) \approx 9\times10^{-6}$). The only
+    escape is a full $P(X)$ whose large-$u$ behavior departs from the
+    quadratic before BBN — logically possible, but then the completion's
+    early history is an unconstrained UV story rather than a prediction.
+
+  So the completion's single tuning number is $x_0 \lesssim e^{-35}$,
+  set by BBN, with everything else downstream. Cubic terms of the full
+  $P(X)$ must stay subdominant over the same range. Achievable to any
+  target precision; tuned, and honestly labeled as such.
 - **Outside the basin the truncated completion is not dust**: for
   $u \gg X_0$, $P \propto X^2$ gives $w = 1/3$, $c_s^2 = 1/3$ — a
   self-interacting dark-radiation phase (this is in Scherrer's original
@@ -284,6 +304,31 @@ as the amputation criterion: a parameter the data pins to its null limit,
 whose every nonzero excursion is punished, carries pure Occam penalty in the
 evidence and no explanatory power.
 
+**Resurrection test (2026-07-06, sandboxed v4 build; β stays deleted).**
+Two hypotheses were given their best shot: (a) β might engage in synergy
+with the *engaged* best-fit partners (H0=70.4, ξ=0.403 — the original MCMC
+sampled jointly, but this pins them at their optimum); (b) β's σ8
+suppression might be rewarded by weak lensing, the one dataset never tested
+against β and the one that *wants* lower S8. Scan at the frozen best fit
+with DES Y1 cosmic shear added:
+
+| log₁₀β | plik | lensing | SN | DES shear | σ8 | Δtotal |
+|---|---|---|---|---|---|---|
+| −12 (null) | 593.2 | 9.5 | 1467.2 | 239.8 | 0.8277 | — |
+| −8 (v4 MCMC "best") | 592.9 | 9.6 | 1467.2 | 241.4 | 0.8268 | +1.4 |
+| −7 | 589.0 | 12.9 | 1467.2 | **269.9** | 0.8190 | +29.1 |
+| ≥ −6.5 | — | — | — | — | — | model non-viable |
+
+The verdict is stronger than the original deletion argument: **DES rejects
+β harder than any other dataset** (+30 at β=10⁻⁷ while σ8 moves exactly the
+direction WL "wants") because β's suppression is a scale-dependent P(k) cut
+below the sound horizon, not the amplitude shift lensing prefers — the GCG
+literature's warning, measured. At β ≥ 3×10⁻⁷ the high-k perturbation
+integration (DES needs P(k) to ~15/Mpc) goes stiff and the model is not
+even computable. The logA-compensation probes are moot: amplitude cannot
+repair a shape defect. β fails in its designed role, with engaged partners,
+against its friendliest dataset.
+
 ---
 
 ## 6. The ξ_Neff sector and the structure of the fit
@@ -353,8 +398,22 @@ Derived: σ8 = 0.827, **S8 = 0.826** (ΛCDM 0.833), Ω_m ≈ 0.30.
 
 **Evidence:** in flight. The original MH run predated the β deletion and was
 killed and relaunched β-free (`dcdf_forge_v2.yaml`, same priors, refs seeded
-at the v4 best fit); the PolyChord pair (dCDF `dcdf_pc_v1.yaml` vs ΛCDM twin
-`lcdm_pc_v1.yaml`, nlive 500, num_repeats 2d) is queued behind it. Back-of-envelope from prior/posterior
+at the v4 best fit); superseded in the queue by the joint Planck+ACT+SPT
+refit (`dcdf_joint_v1.yaml`, running 2026-07-06); the PolyChord pair (dCDF
+`dcdf_pc_v1.yaml` vs ΛCDM twin `lcdm_pc_v1.yaml`, nlive 500, num_repeats 2d)
+is queued behind it.
+
+**Phenomenology at the best fit (2026-07-06 probes, vs the ΛCDM anchor):**
+age 13.40 Gyr (vs 13.79; both above the ~12.8 Gyr globular-cluster floor);
+r_s(drag) 143.5 vs 147.1 Mpc — the ξ_Neff sound-horizon compression that
+finances the higher H0, stated as a number; z_eq 3348 vs 3404. Growth:
+fσ8(z) against ten compiled RSD points (6dF, MGS, DR12×3, WiggleZ×3,
+VIPERS, eBOSS QSO) gives naive χ² 7.75 vs ΛCDM's 7.75 — **statistically
+indistinguishable**, the §4.2 degeneracy visible in real growth data. The
+linear P(k) ratio vs ΛCDM is a smooth tilt (−17% at k=10⁻⁴/Mpc to +7% at
+k=5/Mpc, crossing unity near k≈0.2) — pure (n_s, ω_b, N_eff, Ω_m)
+re-optimization, no dark-sector feature; the BAO-band residual (2.7%) is
+the r_s phase shift the BAO likelihoods absorb by construction. Back-of-envelope from prior/posterior
 widths: Δln Z ≈ +5 to +7 in dCDF's favor if the χ² gain survives
 marginalization — the +1-parameter Occam penalty is small because the one
 extra parameter (ξ) is doing real work.
@@ -385,9 +444,18 @@ extra parameter (ξ) is doing real work.
 2. **Weak lensing S8.** Prediction S8 = 0.826: mild easing toward the WL
    preference (~0.77), not a resolution. A joint WL fit must not degrade
    the CMB side.
-3. **BBN.** ΔN_eff = 0.40 at BBN shifts Y_p and D/H; consistency with
-   primordial-abundance measurements is required, not yet checked. The
-   §2 completion's a⁻⁶ stiff tail is independently BBN-constrainable.
+3. **BBN: checked at fitting-formula grade (2026-07-06).** With standard
+   linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff; ∂ln(D/H)/∂ln ω_b ≈
+   −1.6, ∂ln(D/H)/∂N_eff ≈ +0.10):
+   at the best fit (ω_b = 0.0228, ΔN_eff = 0.403), Y_p ≈ 0.2524 — **+1.9σ**
+   vs Aver et al. (0.2449 ± 0.0040) — while D/H ≈ 2.55×10⁻⁵ is only +0.8σ
+   vs Cooke et al. (2.527 ± 0.030), because the higher ω_b and higher N_eff
+   pull D/H in opposite directions and nearly cancel. Helium is thus the
+   lone BBN discriminant, mildly disfavoring ξ = 0.40; at the expected
+   joint-refit optimum (ξ ≈ 0.15, ω_b ≈ 0.0224) it relaxes to
+   Y_p ≈ 0.2492, +1.1σ — unremarkable. PRIMAT-grade confirmation remains
+   open (§11). The §2 completion's a⁻⁶ stiff tail / pre-basin radiation
+   phase is independently BBN-constrainable (§11).
 
 ## 10. Implementation map (code ↔ physics)
 
@@ -459,10 +527,12 @@ framework has a **structural** limit, not a numerical one:
   tax — and any evidence verdict must be re-read against §9.1.
 - **BBN check** of ΔN_eff = 0.40 and of the §2 a⁻⁶ tail / pre-basin
   radiation phase (Y_p, D/H shifts as a function of basin-entry redshift).
-- **P(k)-suppression integral** for the §2 completion's decaying
-  $c_s^2(a) \approx x(a)/2$ profile — converts the single-epoch thresholds
-  ($x_0 \lesssim e^{-28.3}$ for $c_s^2 < 0.01$ at equality) into the actual
-  observational bound on the hierarchy. Compute in linear theory up to
+- **P(k)-suppression integral: COMPUTED 2026-07-06** (see §2) — the Jeans
+  analysis gives $x_0 \lesssim e^{-30}$ (LSS to $k=0.2$/Mpc), and the
+  pre-basin radiation phase gives the binding BBN bound
+  $x_0 \lesssim e^{-35}$, which implies all others. Remaining: cross-check
+  the analytic Jeans estimate with a full Boltzmann run (a c_s²(ρ)-enabled
+  branch would be needed — low priority since BBN binds regardless). Compute in linear theory up to
   first shell-crossing only — the domain §10a scopes as trustworthy. (In
   collapsing regions the local $x \propto \rho_d$ runs ahead of the
   background at equal cosmic time, but it cannot actually exit the basin
