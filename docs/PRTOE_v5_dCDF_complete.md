@@ -1223,6 +1223,27 @@ rule — the bank's pricing algorithm (probability = |amplitude|²) is
 the unsolved measurement problem for every interpretation, ours
 included. Filed at C4's edge: same boundary, same honesty.
 
+**C4b — Energy's three roles in settlement (2026-07-07, operator's
+proposal red-teamed; correspondence-grade).** The proposal "the bank
+prefers the transaction with enough energy to spend" FAILS as an
+outcome rule — falsified directly (asymmetric superpositions: the
+higher-energy outcome can carry 2% against 98%; probability is
+|amplitude|², energy-blind, to interferometric precision) — but
+decomposes into three roles that are each correct: (i) **energy
+writes the menu** — conservation gates the offer set exactly;
+unaffordable outcomes have amplitude zero (thresholds, lines, Gamow);
+(ii) **the dominant coupling picks the settlement basis** — this is
+einselection (Zurek), the accepted answer to the preferred-basis
+problem: the strongest system-environment channel chooses the
+LANGUAGE the receipt is printed in, never its value — the precise
+true form of "dominant energies take the payee role"; (iii) **energy
+is the interest rate on unsettled drafts** — E = ħω is the phase-
+accrual rate of pencil entries; receipts: every atomic clock (Cs:
+9.19 GHz = E/h read off a two-level draft), and COW 1975
+(gravitational energy difference between interferometer arms appears
+exactly as interference phase). The Born-rule wall (C4a) stands: what
+prices the menu remains underived, here as everywhere.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three
