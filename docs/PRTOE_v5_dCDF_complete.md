@@ -456,10 +456,14 @@ framework has a **structural** limit, not a numerical one:
   observational bound on the hierarchy. Compute in linear theory up to
   first shell-crossing only — the domain §10a scopes as trustworthy. (In
   collapsing regions the local $x \propto \rho_d$ runs ahead of the
-  background trajectory and could exit the basin early, but by then the
-  fluid description has already yielded to the caustic limit: §2's tuning
-  bound and §10a's structural limit are one boundary, not two independent
-  gaps.)
+  background at equal cosmic time, but it cannot actually exit the basin
+  there: virialized densities are $\sim e^{13} x_0$, eleven e-folds below
+  the equality-era background value $e^{24.4} x_0$, so any hierarchy that
+  survives equality automatically covers every halo in the late universe —
+  with the corollary $c_s^2({\rm halo}) \sim x_0 e^{13}/2 \lesssim 10^{-7}$,
+  i.e. the completion's residual stays dust-like inside structure. What
+  remains at shell-crossing is §10a's caustic limit: §2's tuning bound and
+  §10a's structural limit are one boundary, not two independent gaps.)
 - **Nonlinear completion** (§10a): specify the higher-derivative terms (or
   the honest effective-theory boundary) before any claim about halo
   interiors.
