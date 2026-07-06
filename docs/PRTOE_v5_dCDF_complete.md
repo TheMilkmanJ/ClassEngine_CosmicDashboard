@@ -52,16 +52,21 @@ optimization-slack decomposition. Bayesian evidence (PolyChord) queued.
 
 1. *ΛCDM + free N_eff, refit, gains 19.2 in χ² on the Planck+BAO+SN stack*
    (driven by ξ_Neff and re-optimized H0/n_s along the acoustic-locked
-   ridge, §6) — **and this claim is already under pressure from ACT DR6**
-   (measured here directly: +22.7 at the best-fit point, §9.1).
+   ridge, §6) — a claim that ACT DR6 has now **adjudicated**: the joint
+   refit landed on the predicted down-ridge point (H0 = 69.05, ξ = 0.142)
+   and the joint stack is a statistical tie against refit ΛCDM. The
+   surviving version of claim 1: *equal fit quality everywhere, both
+   tensions eased directionally, zero χ² cost, +1 parameter* — plus a
+   possible H0 → 70.4 extension via recombination timing (m_e, §9.4)
+   whose credit is under measurement.
 2. *CDM+Λ can be rewritten as one barotropic fluid with no observable
    consequence at linear order* (§3–§4; proven exactly and verified
    numerically, §4.2).
 
 Neither claim borrows support from the other. The unification (2) is the
-theoretically interesting structure; the χ² gain (1) is ordinary
-extra-radiation phenomenology that any N_eff extension would produce. §4.2
-spells out what this means for interpretation.
+theoretically interesting structure; the fit behavior (1) is ordinary
+expansion-history phenomenology that any same-parameter extension would
+produce. §4.2 spells out what this means for interpretation.
 
 ---
 
@@ -420,10 +425,24 @@ indistinguishable**, the §4.2 degeneracy visible in real growth data. The
 linear P(k) ratio vs ΛCDM is a smooth tilt (−17% at k=10⁻⁴/Mpc to +7% at
 k=5/Mpc, crossing unity near k≈0.2) — pure (n_s, ω_b, N_eff, Ω_m)
 re-optimization, no dark-sector feature; the BAO-band residual (2.7%) is
-the r_s phase shift the BAO likelihoods absorb by construction. Back-of-envelope from prior/posterior
-widths: Δln Z ≈ +5 to +7 in dCDF's favor if the χ² gain survives
-marginalization — the +1-parameter Occam penalty is small because the one
-extra parameter (ξ) is doing real work.
+the r_s phase shift the BAO likelihoods absorb by construction.
+
+**Evidence forecast, honestly layered (updated 2026-07-06 after the joint
+refit).** The naive estimate — Δln Z ≈ +5 to +7 for dCDF from Δχ²/2 ≈ 9.6
+minus ξ's Occam penalty ≈ 2 — applies only to the **Planck+BAO+SN stack**,
+and will be largely moot the day it lands: that stack omits data
+(ACT DR6) we now know is decisive. The layered forecast:
+
+1. *Planck-only PolyChord pair (queued)*: dCDF by ≈ +6 to +8. A semifinal
+   trophy awarded after the final was scheduled.
+2. *Joint stack, ξ-only model*: Δχ² ≈ 0 (measured tie vs the refit twin)
+   minus the same penalty → **ΛCDM by ≈ 1–2**. The flexible-model tax.
+3. *Joint stack with the m_e extension (§9.4)*: if the matched-protocol
+   control confirms a clean m_e credit of −5 to −9, the triad carries
+   Δln Z ≈ 0 to +2 on the dCDF side for +2 parameters — marginal, real,
+   and attached to a mechanism (recombination timing) rather than a
+   budget knob. This is the live number; it is being measured as this
+   revision is written.
 
 ## 9. External falsifiers — first one now measured, and it bites
 
