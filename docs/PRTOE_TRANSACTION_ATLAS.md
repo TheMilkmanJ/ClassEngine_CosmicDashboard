@@ -91,6 +91,15 @@ environment half, one transaction and one receipt at a time.
   end (Bragg peak), which exponential X-ray ledgers cannot do. And
   the retina reads single receipts (rod cells respond to individual
   photons). Restatements all; tenth domain, language exact again.
+- **Analog horizons (scope calibration, 2026-07-07)**: excitations in a
+  flowing medium obey wave equations in an effective curved metric
+  (Unruh 1981) — superfluid math simulates horizon KINEMATICS exactly,
+  and labs build sonic black holes in BECs with measured analog Hawking
+  pairs (Steinhauer). Our c_s = 0 medium gives the dispersive-horizon
+  regime (momentum-dependent trapping, k ≶ M_eff v). Scope boundary,
+  stamped: this simulates the medium's physics and horizon kinematics
+  cheaply (the throat flow is an ODE, queued); it does NOT replace
+  numerical relativity for spacetime's own dynamics.
 - **The debt reading of gauge fields (C1a)**: Gauss's law = the field
   is the record of obligation, not the payment (receipt: charge
   conservation, e⁻ lifetime > 6.6×10²⁸ yr); Aharonov–Bohm = the ledger
