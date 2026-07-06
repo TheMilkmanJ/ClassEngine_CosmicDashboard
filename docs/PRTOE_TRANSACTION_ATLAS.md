@@ -106,13 +106,24 @@ environment half, one transaction and one receipt at a time.
   structure — C4 locates where classical bookkeeping ends; it is a
   boundary honestly drawn, not a conquest past the wall.
 
-## The Graveyard (kept warm)
-*Every executed negative, with its kill and its RESURRECTION CONDITION —
-the new transaction that would revive it. Precedent: three entries here
-have already come back in changed form (funded floor via the (δK)²
-face; the m_e door via the local-state loophole; the universal-vev kill
-via epoch gating). A failure with a named resurrection condition is a
-search instruction, not a tombstone.*
+## The Graveyard
+*Every executed negative, with its kill and — where legitimate — its
+resurrection condition. Precedent: three entries have come back in
+changed form (funded floor via the (δK)² face; the m_e door via the
+local-state loophole; the universal-vev kill via epoch gating).*
+
+**Binding rules (red-team turn 21, adopted verbatim):**
+1. *Conditions are bets, not hedges*: a condition is legitimate only if
+   burial names BOTH a development that meets it AND one that fails it.
+   A condition that forbids nothing is a hedge; the entry buries "never."
+2. *Default is permanent*: the warm/cold census is published below. If
+   warm ever exceeds cold, the graveyard has become finality-avoidance.
+3. *Resurrection is review at turn zero*: a revived entry inherits
+   NOTHING from its former life — it pays full price on the new
+   transaction alone (precedent: (□φ)² → (δK)² re-earned via three
+   fresh certificates).
+
+**Census: 7 cold (never) / 4 warm / 3 risen.**
 
 - **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
   structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
@@ -130,9 +141,13 @@ search instruction, not a tombstone.*
   (2026-07-06) via the (δK)² fluctuation face, structure-gated. The
   graveyard's founding precedent.
 - **Epoch m_e couplings (linear / log / bespoke saturation)** — killed
-  by BBN pincer / quasar 11,000× / no natural scale. *Half-resurrected*
-  by the local-state loophole (user-found): environment matching evades
-  the quasar wall; §2 wall remains.
+  by BBN pincer / quasar 11,000× / no natural scale. SPLIT per Rule 1
+  (turn 21): the *epoch* half is a passed bet (coupling active only
+  z>1000 while killers live z<3 — specific both ways). The *local-state*
+  half's condition is now named to escape blank-check status: MET by a
+  detected μ/α gradient tracking local dark density across environments;
+  FAILED by environment-resolved spectroscopy establishing <10⁻⁵
+  uniformity across a decade of dark density. Warm, on those terms.
 - **Universal single-vev amendment (flat)** — D/H +7.7σ, τ_n −4.9%.
   *Resurrected in gated form* as the vev package (ANN-2026-005).
 - **Flavor-structured shared coupling (~6× lepton-enhanced)** —
@@ -143,6 +158,23 @@ search instruction, not a tombstone.*
   if:* a condensate attribute with genuine z~1100-vs-today contrast is
   found that is NOT density, order parameter, or clustering part — a
   fourth measure with independent motivation.
+  **EXHUMATION IN PROGRESS (2026-07-07, at turn zero per Rule 3 —
+  candidate R1, "the inverted lever"):** the fourth measure may be the
+  CAUSTIC BIT — shell-crossing as a binary topological attribute. R1
+  inverts where the shift lives: m_e is BARE at recombination/BBN
+  (no structure exists) and suppressed −1% inside shell-crossed
+  regions, where every lab sits: m_e(rec)/m_e(lab) = 1.0101 = the
+  dyad's amendment, from the other side. Derived tonight: the
+  continuous version dies by quasar differentials (10⁴ over); binarity
+  is FORCED. The binary version passes: clocks (virial-static), Oklo,
+  stars (co-suppressed), all same-absorber 21cm/molecular nulls
+  (virialized gas, uniform), all α nulls (masses only). Rule-1 bet
+  terms — MET by: a ~1% offset in m_e-sensitive spectroscopy between
+  virialized and demonstrably unvirialized gas. KILLED by: (i) such
+  spectroscopy matching lab to ≪1%, or (ii) the #11 nonlinear
+  derivation showing the medium's caustic structure cannot support a
+  Θ-type coupling. Standing: turn-zero candidate, zero inherited
+  credit, amplitude (the 1%) is a measured input not a prediction.
 - **Tunneling discriminator** — demoted, not dead (receipt 1500× below
   the SN mass step). *Resurrects if:* mmag-decade photometric decay
   clocks, or a steeper coupling that survives §2.
