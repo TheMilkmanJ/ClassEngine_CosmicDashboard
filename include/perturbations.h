@@ -251,6 +251,7 @@ struct perturbations
   short has_source_delta_idr;  /**< do we need source for delta of interacting dark radiation? */
   short has_source_delta_dcdm; /**< do we need source for delta of DCDM? */
   short has_source_delta_fld;  /**< do we need source for delta of dark energy? */
+  short has_source_delta_dcdf; /**< do we need source for delta of the PRTOE v4 dCDF fluid? */
   short has_source_delta_scf;  /**< do we need source for delta from scalar field? */
   short has_source_delta_dr;   /**< do we need source for delta of decay radiation? */
   short has_source_delta_ur;   /**< do we need source for delta of ultra-relativistic neutrinos/relics? */
@@ -265,6 +266,7 @@ struct perturbations
   short has_source_theta_idr;  /**< do we need source for theta of interacting dark radiation? */
   short has_source_theta_dcdm; /**< do we need source for theta of DCDM? */
   short has_source_theta_fld;  /**< do we need source for theta of dark energy? */
+  short has_source_theta_dcdf; /**< do we need source for theta of the PRTOE v4 dCDF fluid? */
   short has_source_theta_scf;  /**< do we need source for theta of scalar field? */
   short has_source_theta_dr;   /**< do we need source for theta of ultra-relativistic neutrinos/relics? */
   short has_source_theta_ur;   /**< do we need source for theta of ultra-relativistic neutrinos/relics? */
@@ -298,6 +300,7 @@ struct perturbations
   int index_tp_delta_idm; /**< index value for delta of interacting dark matter */
   int index_tp_delta_dcdm;/**< index value for delta of DCDM */
   int index_tp_delta_fld;  /**< index value for delta of dark energy */
+  int index_tp_delta_dcdf; /**< index value for delta of the PRTOE v4 dCDF fluid */
   int index_tp_delta_scf;  /**< index value for delta of scalar field */
   int index_tp_delta_dr; /**< index value for delta of decay radiation */
   int index_tp_delta_ur; /**< index value for delta of ultra-relativistic neutrinos/relics */
@@ -314,6 +317,7 @@ struct perturbations
   int index_tp_theta_cdm;   /**< index value for theta of cold dark matter */
   int index_tp_theta_dcdm;  /**< index value for theta of DCDM */
   int index_tp_theta_fld;   /**< index value for theta of dark energy */
+  int index_tp_theta_dcdf;  /**< index value for theta of the PRTOE v4 dCDF fluid */
   int index_tp_theta_scf;   /**< index value for theta of scalar field */
   int index_tp_theta_ur;    /**< index value for theta of ultra-relativistic neutrinos/relics */
   int index_tp_theta_idr;   /**< index value for theta of interacting dark radiation */
@@ -463,6 +467,10 @@ struct perturbations
 
 struct perturbations_vector
 {
+    /* DUMMIES for perturbations.c */
+    int index_pt_delta_phi;
+    int index_pt_ddelta_phi;
+
   int index_pt_delta_g;   /**< photon density */
   int index_pt_theta_g;   /**< photon velocity */
   int index_pt_shear_g;   /**< photon shear */
@@ -484,21 +492,11 @@ struct perturbations_vector
   int index_pt_delta_fld;  /**< dark energy density in true fluid case */
   int index_pt_theta_fld;  /**< dark energy velocity in true fluid case */
   int index_pt_Gamma_fld;  /**< unique dark energy dynamical variable in PPF case */
+  int index_pt_delta_dcdf; /**< PRTOE v4 dCDF fluid density perturbation */
+  int index_pt_theta_dcdf; /**< PRTOE v4 dCDF fluid velocity divergence */
   int index_pt_phi_scf;  /**< scalar field density */
   int index_pt_phi_prime_scf;  /**< scalar field velocity */
 
-  /* PRTOE scalar field perturbations */
-  int index_pt_delta_phi;    
-  int index_pt_ddelta_phi;
-  int index_pt_delta_prtoe;     /**< PRTOE scalar field perturbation δφ */
-  int index_pt_ddelta_prtoe;    /**< Time derivative of δφ for PRTOE */
-  
-  /* PRTOE metric perturbations (3-variable system) */
-  int index_pt_Phi_prtoe;    /**< Bardeen potential Φ for PRTOE */
-  int index_pt_dPhi_prtoe;   /**< Time derivative of Φ for PRTOE */
-  int index_pt_eta_prtoe;     /**< Slip η = Ψ - Φ for PRTOE */
-  int index_pt_deta_prtoe;    /**< Time derivative of η for PRTOE */
-  
   int index_pt_delta_ur; /**< density of ultra-relativistic neutrinos/relics */
   int index_pt_theta_ur; /**< velocity of ultra-relativistic neutrinos/relics */
   int index_pt_shear_ur; /**< shear of ultra-relativistic neutrinos/relics */
@@ -570,11 +568,6 @@ struct perturbations_workspace
   int index_mt_V_prime;       /**< derivative of Newtonian gauge vector metric perturbation V */
   int index_mt_hv_prime_prime;/**< Second derivative of Synchronous gauge vector metric perturbation \f$ h_v\f$ */
   
-  /* PRTOE metric perturbations */
-  int index_mt_Phi_prtoe;    /**< Bardeen potential Φ for PRTOE */
-  int index_mt_Psi_prtoe;    /**< Bardeen potential Ψ for PRTOE */
-  int index_mt_Geff_prtoe;   /**< Effective gravitational coupling Geff for PRTOE */
-  
   int mt_size;                /**< size of metric perturbation vector */
 
   //@}
@@ -629,6 +622,9 @@ struct perturbations_workspace
   double delta_rho_fld;        /**< density perturbation of fluid, not so trivial in PPF scheme */
   double delta_p_fld;          /**< pressure perturbation of fluid, very non-trivial in PPF scheme */
   double rho_plus_p_theta_fld; /**< velocity divergence of fluid, not so trivial in PPF scheme */
+  double delta_rho_dcdf;        /**< density perturbation of the PRTOE v4 dCDF fluid */
+  double delta_p_dcdf;          /**< pressure perturbation of the PRTOE v4 dCDF fluid */
+  double rho_plus_p_theta_dcdf; /**< velocity divergence of the PRTOE v4 dCDF fluid */
   double S_fld;                /**< S quantity sourcing Gamma_prime evolution in PPF scheme (equivalent to eq. 15 in 0808.3125) */
   double Gamma_prime_fld;      /**< Gamma_prime in PPF scheme (equivalent to eq. 14 in 0808.3125) */
 
@@ -965,20 +961,6 @@ extern "C" {
                            void * parameters_and_workspace,
                            ErrorMsg error_message
                            );
-
-  int prtoe_perturbations_derivs(
-                                 struct precision * ppr,
-                                 struct background * pba,
-                                 struct thermodynamics * pth,
-                                 struct perturbations * ppt,
-                                 int index_md,
-                                 double k,
-                                 double tau,
-                                 double * y,
-                                 double * dy,
-                                 struct perturbations_workspace * ppw,
-                                 ErrorMsg error_message
-                                 );
 
   int fld_perturbations_derivs(
                                struct precision * ppr,

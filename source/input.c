@@ -436,20 +436,6 @@ int input_read_from_file(struct file_content * pfc,
     return _SUCCESS_;
   }
 
-  /** ============================================================
-   *  PRTOE: If PRTOE is meant to be the active dark energy component,
-   *  automatically disable the cosmological constant so that it does
-   *  not compete with PRTOE in the Friedmann equation.
-   *  This is the key step that lets us remove most heavy guards later.
-   *  ============================================================ */
-  if (pba->use_prtoe == _TRUE_) {
-      if (input_verbose > 1) {
-          printf(" -> PRTOE is active: setting Omega0_lambda = 0 and has_lambda = false\n");
-      }
-      pba->Omega0_lambda = 0.;
-      pba->has_lambda    = _FALSE_;
-  }
-
   /** Write info on the read/unread parameters. This is the correct place to do it,
       since we want it to happen after all the shooting business,
       and after the final reading of all parameters */
@@ -550,7 +536,7 @@ int input_shooting(struct file_content * pfc,
                                        "Omega_scf",
                                        "Omega_ini_dcdm",
                                        "omega_ini_dcdm",
-                                       "Omega0_prtoe"};
+                                       "Omega0_dcdf"};
 
   /* array of corresponding parameters that must be adjusted in order to meet the target (= unknown parameters) */
   char * const unknown_namestrings[] = {"h",                        /* unknown param for target '100*theta_s' */
@@ -561,7 +547,7 @@ int input_shooting(struct file_content * pfc,
                                         "scf_shooting_parameter",   /* unknown param for target 'Omega_scf' */
                                         "Omega_dcdmdr",             /* unknown param for target 'Omega_ini_dcdm' */
                                         "omega_dcdmdr",             /* unknown param for target 'omega_ini_dcdm' */
-                                        "prtoe_shooting_parameter"};/* unknown param for target 'Omega0_prtoe' */
+                                        "Omega_ini_dcdf"};          /* unknown param for target 'Omega0_dcdf' */
 
   /* for each target, module up to which we need to run CLASS in order
      to compute the targetted quantities (not running the whole code
@@ -573,8 +559,8 @@ int input_shooting(struct file_content * pfc,
                                         cs_background,     /* computation stage for target 'omega_dcdmdr' */
                                         cs_background,     /* computation stage for target 'Omega_scf' */
                                         cs_background,     /* computation stage for target 'Omega_ini_dcdm' */
-                                        cs_background,     /* computation stage for target 'omega_ini_dcdm' */
-                                        cs_background};    /* computation stage for target 'Omega0_prtoe' */
+                                        cs_background,      /* computation stage for target 'omega_ini_dcdm' */
+                                        cs_background};    /* computation stage for target 'Omega0_dcdf' */
 
   struct fzerofun_workspace fzw;
 
@@ -896,7 +882,7 @@ int input_needs_shooting_for_target(struct file_content * pfc,
   case Omega_scf:
   case Omega_ini_dcdm:
   case omega_ini_dcdm:
-  case Omega0_prtoe:
+  case Omega0_dcdf:
     /* Check that Omega's or omega's are nonzero: */
     if (target_value == 0.)
       *needs_shooting = _FALSE_;
@@ -1267,12 +1253,21 @@ int input_get_guess(double *xguess,
         dxdy[index_guess] = 1.;
       }
       break;
-    case Omega0_prtoe:
-      /* In the weakly-coupled slow-roll regime required by the DHOST
-       * stability wedge, phi stays close to 0 until late-time activation,
-       * so rho_prtoe(a=1) ~ V(0) = V0_prtoe to leading order: an
-       * approximately linear map, same spirit as the Omega_scf guess. */
-      xguess[index_guess] = pfzw->target_value[index_guess];
+    case Omega0_dcdf:
+      /* PRTOE v4 dCDF: for beta->0 the continuity equation with
+       * w=-exp(-s) solves exactly to rho(a) = rho_inf + K*a^-3 (separable:
+       * ds/(1-e^-s) = -3 dlna integrates to e^s-1 = K'*a^-3). Since a_ini
+       * is deep in the dust plateau, K ~= Omega_ini_dcdf to excellent
+       * approximation, giving rho_today = Omega_ini_dcdf + rho_inf almost
+       * exactly (beta=1e-7 correction is negligible) -- verified
+       * numerically to match a direct ODE integration at the percent
+       * level or better across Omega_ini in [0.5,100]. See
+       * docs/PRTOE_v4_dCDF_derivation.md. */
+      /* ba.dcdf_rho_inf is stored in absolute (H0^2-scaled) units by this
+       * point (input_read_parameters_species scales it on read); target
+       * and Omega_ini_dcdf are dimensionless Omega-like quantities, so
+       * divide back out by H0^2 here. */
+      xguess[index_guess] = pfzw->target_value[index_guess] - ba.dcdf_rho_inf/ba.H0/ba.H0;
       dxdy[index_guess] = 1.;
       break;
     case omega_ini_dcdm:
@@ -1357,6 +1352,7 @@ int input_try_unknown_parameters(double * unknown_parameter,
 
   int i;
   double rho_dcdm_today, rho_dr_today;
+  double Omega0_dcdf_closure;
   struct fzerofun_workspace * pfzw;
   int input_verbose;
   int flag;
@@ -1507,14 +1503,22 @@ int input_try_unknown_parameters(double * unknown_parameter,
       /** In case scalar field is used to fill, pba->Omega0_scf is not equal to pfzw->target_value[i].*/
       output[i] = ba.background_table[(ba.bt_size-1)*ba.bg_size+ba.index_bg_rho_scf]/(ba.H0*ba.H0)-ba.Omega0_scf;
       break;
-    case Omega0_prtoe:
-      /* Residual between the ACTUAL rho_prtoe(a=1) produced by integrating
-       * phi from phi_ini_scf=0 under the true (F-coupled, activation-gated)
-       * background equations, and the requested target density. This is
-       * the check that was previously missing entirely: V0_prtoe used to
-       * be taken at face value with no verification it reproduces
-       * Omega0_prtoe once the real dynamics are run. */
-      output[i] = ba.background_table[(ba.bt_size-1)*ba.bg_size+ba.index_bg_rho_prtoe]/(ba.H0*ba.H0)-ba.Omega0_prtoe;
+    case Omega0_dcdf:
+      /* Residual between the actual dCDF density today (from integrating
+       * the true w(rho) continuity equation) and the EXACT budget closure.
+       * The user-passed Omega0_dcdf is only the shooting trigger and
+       * initial guess: dCDF is the budget closer by construction (Step 2
+       * of the budget equation is skipped when it is active), so its
+       * density today is fully determined by flatness. Using the passed
+       * value directly (e.g. 1 - Omega_b) overcloses the budget by
+       * Omega_r + Omega_ncdm ~ 1.5e-3: +20 chi2 on plik and +0.3% sigma8,
+       * found via the beta->0 null test on 2026-07-05. All Omegas below
+       * are exact here since the background is fully initialized. */
+      Omega0_dcdf_closure = 1. - ba.Omega0_k
+        - ba.Omega0_g - ba.Omega0_b - ba.Omega0_ur - ba.Omega0_cdm
+        - ba.Omega0_idm - ba.Omega0_idr - ba.Omega0_ncdm_tot
+        - ba.Omega0_dcdmdr - ba.Omega0_lambda - ba.Omega0_fld - ba.Omega0_scf;
+      output[i] = ba.background_table[(ba.bt_size-1)*ba.bg_size+ba.index_bg_rho_dcdf]/(ba.H0*ba.H0)-Omega0_dcdf_closure;
       break;
     case Omega_ini_dcdm:
     case omega_ini_dcdm:
@@ -2392,9 +2396,7 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /** - Define local variables */
   int flag1, flag2, flag3;
-  int flag_omega0_prtoe = _FALSE_;
   double param1, param2, param3;
-  double param_omega0_prtoe = 0.;
   char string1[_ARGUMENT_LENGTH_MAX_];
   int fileentries;
   int N_ncdm=0, n, entries_read;
@@ -2472,6 +2474,12 @@ int input_read_parameters_species(struct file_content * pfc,
 
 
   /** 3) Omega_0_ur (ultra-relativistic species / massless neutrino) */
+  double xi_Neff = 0.0;
+  int flag_xi = _FALSE_;
+  class_call(parser_read_double(pfc,"xi_Neff",&xi_Neff,&flag_xi,errmsg),
+             errmsg,
+             errmsg);
+
   /* Read */
   class_call(parser_read_double(pfc,"N_ur",&param1,&flag1,errmsg),
              errmsg,
@@ -2491,17 +2499,17 @@ int input_read_parameters_species(struct file_content * pfc,
      (see 2008.01074 and 2012.02726. This value is more accurate than
      the previous default value of 3.046) */
   if (class_none_of_three(flag1,flag2,flag3)) {
-    pba->Omega0_ur = 3.044*7./8.*pow(4./11.,4./3.)*pba->Omega0_g;
+    pba->Omega0_ur = (3.044 + xi_Neff)*7./8.*pow(4./11.,4./3.)*pba->Omega0_g;
   }
   else {
     if (flag1 == _TRUE_) {
-      pba->Omega0_ur = param1*7./8.*pow(4./11.,4./3.)*pba->Omega0_g;
+      pba->Omega0_ur = (param1 + xi_Neff)*7./8.*pow(4./11.,4./3.)*pba->Omega0_g;
     }
     if (flag2 == _TRUE_) {
-      pba->Omega0_ur = param2;
+      pba->Omega0_ur = param2 + xi_Neff*7./8.*pow(4./11.,4./3.)*pba->Omega0_g;
     }
     if (flag3 == _TRUE_) {
-      pba->Omega0_ur = param3/pba->h/pba->h;
+      pba->Omega0_ur = param3/pba->h/pba->h + xi_Neff*7./8.*pow(4./11.,4./3.)*pba->Omega0_g;
     }
   }
   class_test(pba->Omega0_ur<0,errmsg,"You cannot set the density of ultra-relativistic relics (dark radiation/neutrinos) to negative values. You might have input a total Neff smaller than what your massive neutrinos require minimally (around 1.02 * N_ncdm * deg_ncdm).");
@@ -3224,13 +3232,24 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /* At this point all the species should be set, and used for the budget equation below */
 
-  /* PRTOE defaults before budget read (use_prtoe may be read early) */
-  pba->use_prtoe = _FALSE_;
-  pba->phi_ini_prtoe = 0.0;
-  pba->Omega0_prtoe = 0.;
-
-  /* Read use_prtoe early to avoid budget overkill */
-  class_read_flag("use_prtoe", pba->use_prtoe);
+  /* PRTOE v4 dCDF: read the activation flag now (before the dark-energy
+   * budget below) so it can force Omega0_cdm down to (near) 0 -- dCDF
+   * replaces cdm+DE with a single fluid, see
+   * docs/PRTOE_v4_dCDF_derivation.md. Use ppr->Omega0_cdm_min_synchronous
+   * (1e-10), not a literal 0: the synchronous gauge is defined relative to
+   * a CDM-comoving frame and CLASS fatal-errors with has_cdm==FALSE there
+   * (perturbations_init). This floor is already how CLASS avoids the same
+   * issue for ordinary Omega0_cdm=0 setups -- reuse it instead of
+   * reinventing/overriding it. */
+  class_read_flag("use_dcdf", pba->use_dcdf);
+  if (pba->use_dcdf == _TRUE_) {
+    pba->Omega0_cdm = ppr->Omega0_cdm_min_synchronous;
+    /* Omega0_lambda's default (input_default_params) was precomputed as
+     * "1 minus everything else" using the pre-dCDF default Omega0_cdm --
+     * stale and nonzero here. Must be reset explicitly: Step 2 below is
+     * skipped entirely for dCDF, so nothing else will zero it. */
+    pba->Omega0_lambda = 0.;
+  }
 
   /** 8) Dark energy
       Omega_0_lambda (cosmological constant), Omega0_fld (dark energy
@@ -3257,12 +3276,6 @@ int input_read_parameters_species(struct file_content * pfc,
   class_call(parser_read_double(pfc,"Omega_scf",&param3,&flag3,errmsg),
              errmsg,
              errmsg);
-  class_call(parser_read_double(pfc,"Omega0_prtoe",&param_omega0_prtoe,&flag_omega0_prtoe,errmsg),
-             errmsg,
-             errmsg);
-  class_test((flag_omega0_prtoe == _TRUE_) && (param_omega0_prtoe < 0.0),
-             errmsg,
-             "You cannot set the PRTOE density to negative values.");
   /* Test */
   class_test((flag1 == _TRUE_) && (flag2 == _TRUE_) && ((flag3 == _FALSE_) || (param3 >= 0.)),
              errmsg,
@@ -3302,56 +3315,102 @@ int input_read_parameters_species(struct file_content * pfc,
     pba->Omega0_scf = param3;
     Omega_tot += pba->Omega0_scf;
   }
-  /* Step 2 */
-  if (pba->use_prtoe == _TRUE_ && flag_omega0_prtoe == _TRUE_) {
-    pba->Omega0_prtoe = param_omega0_prtoe;
-    Omega_tot += pba->Omega0_prtoe;
-  }
-
-  if (flag1 == _FALSE_) {
-    if (pba->use_prtoe == _TRUE_) {
-      /* Null limit (Omega0_prtoe=0) or no explicit PRTOE DE: Lambda fills residual.
-       * Active PRTOE (Omega0_prtoe>0) closes the budget via the PRTOE component. */
-      if ((flag_omega0_prtoe == _FALSE_) || (param_omega0_prtoe == 0.0)) {
-        pba->Omega0_lambda = 1. - pba->Omega0_k - Omega_tot;
-        if (input_verbose > 0) {
-          printf(" -> PRTOE null-limit budget: adjusting Omega_Lambda = %g\n",
-                 pba->Omega0_lambda);
-        }
-      }
-      else if (param_omega0_prtoe > 0.0) {
-        class_test(fabs(1.0 - pba->Omega0_k - Omega_tot) > 1e-4,
-                   errmsg,
-                   "Explicit Omega0_prtoe=%e leaves the density budget unclosed (sum of Omega_i=%e, residual=%e). Adjust Omega0_prtoe or set Omega_Lambda explicitly.",
-                   param_omega0_prtoe,
-                   pba->Omega0_k + Omega_tot,
-                   1.0 - pba->Omega0_k - Omega_tot);
-      }
-    }
-    else {
+  /* Step 2 -- skipped entirely when dCDF is active: it closes the residual
+   * budget itself via its own Omega0_dcdf shooting target below, so none
+   * of lambda/fld/scf should also try to auto-fill it. */
+  if (pba->use_dcdf == _FALSE_) {
+    if (flag1 == _FALSE_) {
       /* Fill with Lambda */
       pba->Omega0_lambda= 1. - pba->Omega0_k - Omega_tot;
       if (input_verbose > 0){
         printf(" -> matched budget equations by adjusting Omega_Lambda = %g\n",pba->Omega0_lambda);
       }
     }
-  }
-  else if (flag2 == _FALSE_) {
-    /* Fill up with fluid */
-    pba->Omega0_fld = 1. - pba->Omega0_k - Omega_tot;
-    if (input_verbose > 0){
-      printf(" -> matched budget equations by adjusting Omega_fld = %g\n",pba->Omega0_fld);
+    else if (flag2 == _FALSE_) {
+      /* Fill up with fluid */
+      pba->Omega0_fld = 1. - pba->Omega0_k - Omega_tot;
+      if (input_verbose > 0){
+        printf(" -> matched budget equations by adjusting Omega_fld = %g\n",pba->Omega0_fld);
+      }
     }
-  }
-  else if ((flag3 == _TRUE_) && (param3 < 0.)){
-    /* Fill up with scalar field */
-    pba->Omega0_scf = 1. - pba->Omega0_k - Omega_tot;
-    if (input_verbose > 0){
-      printf(" -> matched budget equations by adjusting Omega_scf = %g\n",pba->Omega0_scf);
+    else if ((flag3 == _TRUE_) && (param3 < 0.)){
+      /* Fill up with scalar field */
+      pba->Omega0_scf = 1. - pba->Omega0_k - Omega_tot;
+      if (input_verbose > 0){
+        printf(" -> matched budget equations by adjusting Omega_scf = %g\n",pba->Omega0_scf);
+      }
     }
   }
 
   /* ** END OF BUDGET EQUATION ** */
+
+  /** PRTOE v4 -- dCDF: unified dark fluid parameters. See
+   * docs/PRTOE_v4_dCDF_derivation.md. Omega0_dcdf is the shooting target
+   * (density today); Omega_ini_dcdf is the shooting unknown (dust-era
+   * amplitude), overwritten by the shooting driver when Omega0_dcdf is
+   * given as a target -- read here exactly as Omega_ini_dcdm is read for
+   * the analogous dcdm shooting pair. dcdf_rho_inf (de Sitter floor
+   * density) and dcdf_beta (eq. 9 shape parameter) are direct inputs, not
+   * shot. */
+  if (pba->use_dcdf == _TRUE_) {
+    class_call(parser_read_double(pfc,"Omega0_dcdf",&param1,&flag1,errmsg),
+               errmsg,
+               errmsg);
+    /* Omega0_dcdf must appear in the input: its presence is what registers
+     * the Omega_ini_dcdf shooting (input_shooting scans the file content
+     * for target names, so an internally computed value would never
+     * trigger it -- verified the hard way 2026-07-05: without shooting the
+     * fluid keeps its default amplitude and the universe has no dark
+     * matter). The passed VALUE is only the initial guess: the shooting
+     * target itself is the exact budget closure 1 - Omega_k - Omega_rest,
+     * computed from the fully-initialized background in
+     * input_try_unknown_parameters. Passing 1 - Omega_b is a fine guess;
+     * it is NOT used as the actual density (it overcloses the budget by
+     * Omega_r + Omega_ncdm ~ 1.5e-3: +20 chi2 on plik, +0.3% sigma8,
+     * found via the beta->0 null test). */
+    class_test(flag1 == _FALSE_, errmsg,
+               "use_dcdf requires Omega0_dcdf in the input (any rough value, e.g. 1 - Omega_b): "
+               "it triggers and seeds the budget-closure shooting for Omega_ini_dcdf.");
+    pba->Omega0_dcdf = param1;
+    class_test(pba->Omega0_dcdf < 0., errmsg, "You cannot set the dCDF density to negative values.");
+    class_read_double("Omega_ini_dcdf", pba->Omega_ini_dcdf);
+    class_test(pba->Omega_ini_dcdf < 0., errmsg, "You cannot set the initial dCDF density to negative values.");
+    class_read_double("dcdf_rho_inf", pba->dcdf_rho_inf);
+    class_test(pba->dcdf_rho_inf <= 0., errmsg, "dcdf_rho_inf must be strictly positive (it is the de Sitter floor density in H0^2 units).");
+    /* Physical bound (found empirically 2026-07-04, confirmed by Gemini):
+     * for beta->0, Omega_ini_dcdf ~= Omega0_dcdf - dcdf_rho_inf (both in
+     * dimensionless Omega units, exact closed-form in the derivation doc).
+     * dcdf_rho_inf can never reach/exceed the target density today without
+     * forcing the dust-era amplitude negative. Check this directly here
+     * (when a target is actually in use) rather than letting it surface
+     * later as a confusing "Omega_ini_dcdf < 0" shooting failure. */
+    if (pba->Omega0_dcdf > 0.) {
+      class_test(pba->dcdf_rho_inf >= pba->Omega0_dcdf, errmsg,
+                 "dcdf_rho_inf (%e) must be strictly less than Omega0_dcdf (%e): "
+                 "the de Sitter floor density cannot exceed the total dCDF density "
+                 "today (Omega_ini_dcdf ~= Omega0_dcdf - dcdf_rho_inf would go negative). "
+                 "See docs/PRTOE_v4_dCDF_derivation.md.",
+                 pba->dcdf_rho_inf, pba->Omega0_dcdf);
+    }
+    /* Read in H0^2 (dimensionless Omega-like) units, scale to CLASS's
+     * absolute density units to match rho_dcdf (which is set in absolute
+     * units via the Omega_ini_dcdf*H0^2*a^-3 initial condition). Without
+     * this, dcdf_rho_inf ends up comparable to rho_dcdf itself right from
+     * a_ini (since H0^2 ~ 5e-8 is tiny), freezing the fluid at an
+     * enormous, wrong floor that swamps the entire universe. */
+    pba->dcdf_rho_inf = pba->dcdf_rho_inf * pba->H0 * pba->H0;
+    class_read_double("dcdf_beta", pba->dcdf_beta);
+    class_test(pba->dcdf_beta <= 0., errmsg, "dcdf_beta must be strictly positive; see docs/PRTOE_v4_dCDF_derivation.md eq. (9)-(10) -- beta<=0 loses the no-gradient-instability guarantee.");
+    /* Sandbox: fold radiation + ionization directly into w_dcdf(rho). Default
+     * 0 (no coupling, exact v4 fluid recovered) unless explicitly requested. */
+    class_read_double("dcdf_c_gamma", pba->dcdf_c_gamma);
+    class_read_double("dcdf_c_EM", pba->dcdf_c_EM);
+    /* What galaxies trace in delta_m/sigma8 (model-definition experiment):
+     * 0 = full fluid density, 1 = clustering part only, 2 = baryons only. */
+    class_read_int("dcdf_deltam_mode", pba->dcdf_deltam_mode);
+    class_test((pba->dcdf_deltam_mode < 0) || (pba->dcdf_deltam_mode > 2), errmsg,
+               "dcdf_deltam_mode must be 0 (full density), 1 (clustering part), or 2 (baryons only).");
+  }
 
   /** 8.a) If Omega fluid is different from 0 */
   if (pba->Omega0_fld != 0.) {
@@ -3458,83 +3517,6 @@ int input_read_parameters_species(struct file_content * pfc,
     scf_lambda = pba->scf_parameters[0];
     if ((fabs(scf_lambda) < 3.)&&(pba->background_verbose>1)){
       printf("'scf_lambda' = %e < 3 won't be tracking (for exp quint) unless overwritten by tuning function.",scf_lambda);
-    }
-  }
-
-  /** 8.b.5) PRTOE v4.0 Kinetic Engine Registry */
-  /** Set PRTOE parameter defaults BEFORE reading input (canonical names only) */
-  pba->use_prtoe = _FALSE_;
-  pba->phi_ini_prtoe = 0.0;
-  pba->xi_prtoe = 1.0e-7;
-  pba->xi1_prtoe = 0.0;
-  pba->lambda_prtoe = 0.05;
-  pba->m_prtoe = 0.05;  /* Scalar field mass */
-  pba->V0_prtoe = 0.685;
-  if (flag_omega0_prtoe == _FALSE_) {
-    pba->Omega0_prtoe = 0.0;  /* Default: PRTOE off, use Lambda for dark energy */
-  }
-  pba->zeta_prtoe = 1.0;
-  
-  class_read_flag("use_prtoe",        pba->use_prtoe);
-  class_read_double("phi_ini_prtoe", pba->phi_ini_prtoe);
-  class_read_double("xi_prtoe",       pba->xi_prtoe);
-  class_read_double("xi1_prtoe",      pba->xi1_prtoe);
-  class_read_double("lambda_prtoe",   pba->lambda_prtoe);
-  class_read_double("m_prtoe",        pba->m_prtoe);
-  class_read_double("V0_prtoe",       pba->V0_prtoe);
-  class_read_double("zeta_prtoe",     pba->zeta_prtoe);
-  if (pba->use_prtoe == _FALSE_) {
-    class_test((flag_omega0_prtoe == _TRUE_) && (param_omega0_prtoe != 0.0),
-               errmsg,
-               "Omega0_prtoe requires use_prtoe = yes.");
-    pba->Omega0_prtoe = 0.0;
-  }
-  else if (flag_omega0_prtoe == _TRUE_) {
-    pba->Omega0_prtoe = param_omega0_prtoe;
-  }
-
-  if (pba->use_prtoe == _TRUE_) {
-    /* If the shooting method (target 'Omega0_prtoe') is driving V0_prtoe
-     * to match the requested dark-energy density, its current trial value
-     * arrives under this dedicated name and overrides whatever V0_prtoe
-     * itself holds (default or user-specified). Absent shooting, this is
-     * a no-op and V0_prtoe is used as given, exactly as before. */
-    class_read_double("prtoe_shooting_parameter", pba->V0_prtoe);
-
-    /* Scale V0 to CLASS internal units (H0-normalized) */
-    pba->V0_prtoe = pba->V0_prtoe * pba->H0 * pba->H0;
-    
-    /* Scale mass to CLASS internal units (H0-normalized) */
-    pba->m_prtoe = pba->m_prtoe * pba->H0;
-    
-    /* 1 GeV = 1.5637e38 Mpc^-1 */
-    /* NOTE: beta is now sampled as log10(beta) via cobaya drop variable;
-     *       No /H0 rescaling is applied here to avoid double-counting. */
-
-    /* Allow smaller xi for null limit testing.
-     * For null limit tests, xi can be very small (even 0).
-     * The strict DHOST Stability Wedge boundary is [1e-7, 1.2e-5] for active PRTOE,
-     * but we allow xi < 1e-7 for null limit validation. */
-    class_test(pba->xi_prtoe < 0.0,
-               errmsg,
-               "PRTOE xi parameter must be non-negative; use xi_prtoe = 0 for null-limit tests.");
-    /*
-     * The historical DHOST Stability Wedge limits [1e-7, 1.2e-5] are no longer
-     * enforced by default: arbitrary xi is allowed to explore the emergent-gravity
-     * regime. Runtime stability checks (F>0, K>0, Q>0 in background_functions) and
-     * the reported local-gravity deviations are the physical arbiters instead.
-     */
-
-    if (pba->use_prtoe == _TRUE_) {
-        if (flag_omega0_prtoe == _FALSE_) {
-            pba->Omega0_prtoe = pba->Omega0_lambda;
-        }
-        pba->Omega0_lambda = 0.0;
-        pba->has_lambda = _FALSE_;
-        
-        if (input_verbose > 0) {
-            fprintf(stdout, " -> PRTOE v4.0 Active\n");
-        }
     }
   }
 
@@ -6031,6 +6013,19 @@ int input_default_params(struct background *pba,
   pba->Gamma_dcdm = 0.0;
   pba->tau_dcdm = 0.0;
 
+  /** 7.1.d) PRTOE v4 -- dCDF unified dark fluid (see
+   *  docs/PRTOE_v4_dCDF_derivation.md). Off by default. */
+  pba->use_dcdf = _FALSE_;
+  pba->Omega0_dcdf = 0.0;
+  pba->Omega_ini_dcdf = 0.0;
+  pba->dcdf_rho_inf = 0.7;   /* order Omega_Lambda, in H0^2 units */
+  pba->dcdf_beta = 1.e-7;    /* peak c_s^2 ~ 0.74*beta, see eq. (11) */
+  pba->dcdf_c_gamma = 0.0;   /* radiation-coupling sandbox knob, off by default */
+  pba->dcdf_c_EM = 0.0;      /* ionization-coupling sandbox knob, off by default */
+  pba->dcdf_deltam_mode = 1; /* delta_m counts the fluid's clustering part (1+w)rho by default;
+                                the smooth de Sitter floor is not matter. Mode 0 (full density)
+                                decided against 2026-07-05: BAO DR12 chi2 593 vs 8.2 for mode 1. */
+
   /** 7.2) Interacting Dark Matter */
   /** 7.2.1.a) Current factional density of idm */
   pba->Omega0_idm = 0;
@@ -6090,18 +6085,6 @@ int input_default_params(struct background *pba,
   pba->phi_prime_ini_scf = 1;          //     factors of the radiation attractor values
   /** 9.b.3) Tuning parameter */
   pba->scf_tuning_index = 0;
-
-  /* PRTOE v1.0 defaults — single initialization point for all input paths */
-  pba->use_prtoe = _FALSE_;
-  pba->phi_ini_prtoe = 0.0;
-  pba->Omega0_prtoe = 0.0;
-  pba->xi_prtoe = 1.0e-7;
-  pba->xi1_prtoe = 0.0;
-  pba->lambda_prtoe = 0.05;
-  pba->m_prtoe = 0.05;
-  pba->V0_prtoe = 0.685;
-  pba->zeta_prtoe = 1.0;
-  pba->R_curvature = 0.0;      /* Ricci scalar R for PRTOE field evolution */
 
   /**
    * Deafult to input_read_parameters_heating
@@ -6416,10 +6399,6 @@ int input_default_params(struct background *pba,
   ple->lensing_verbose = 0;
   psd->distortions_verbose = 0;
   pop->output_verbose = 0;
-
-  /* PRTOE v1.0 Production Defaults — Action Structure aligned */
-  /* NOTE: PRTOE parameter defaults are set in input_default_params() to avoid */
-  /* overwriting user input. Only output-related defaults should be set here. */
 
   return _SUCCESS_;
  }

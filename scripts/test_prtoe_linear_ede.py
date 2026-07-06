@@ -26,7 +26,10 @@ def get_ede_fraction(xi1, xi=1e-5):
     
     # Calculate energy fractions
     # 'rho_prtoe' is the effective energy density of the scalar field
-    rho_phi = bg['(.)rho_scf']
+    try:
+        rho_phi = bg['(.)rho_prtoe']
+    except KeyError:
+        rho_phi = bg['(.)rho_scf']
     rho_tot = bg['(.)rho_crit']
     
     f_ede = rho_phi / rho_tot

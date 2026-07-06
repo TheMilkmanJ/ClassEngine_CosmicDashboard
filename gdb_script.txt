@@ -1,4 +1,4 @@
-handle SIGINT stop print pass
+break background_indices
 run
-bt
-quit
+watch pba->has_scf
+continue

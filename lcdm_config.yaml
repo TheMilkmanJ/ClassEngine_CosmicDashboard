@@ -1,5 +1,5 @@
 debug: true
-output: chains/lcdm_polychord
+output: chains/lcdm_mcmc
 likelihood:
   planck_2018_lowl.TT: null
   planck_2018_lowl.EE: null
@@ -12,10 +12,10 @@ likelihood:
   sn.pantheonplusshoes: null
 theory:
   classy:
-    path: /home/themilkmanj/prtoe_class
+#    path: /home/themilkmanj/prtoe_class
     stop_at_error: false
     extra_args:
-      use_prtoe: 'no'
+      use_dcdf: 'no'
       non_linear: halofit
       gauge: newtonian
       hyper_flat_approximation_nu: 7000.0
@@ -73,11 +73,7 @@ params:
     proposal: 0.1
     latex: z_\mathrm{reio}
   m_ncdm:
-    prior:
-      min: 0.0
-      max: 0.5
-    ref: 0.06
-    proposal: 0.02
+    value: 0.06
     latex: \sum m_\nu \ [\mathrm{eV}]
   A_planck:
     prior:
@@ -95,8 +91,6 @@ params:
     derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
     latex: S_8
 sampler:
-  polychord:
-    nlive: 200
-    nprior: 800
-    num_repeats: 10
-    precision_criterion: 0.01
+  mcmc:
+    Rminus1_stop: 0.05
+    max_tries: 1000

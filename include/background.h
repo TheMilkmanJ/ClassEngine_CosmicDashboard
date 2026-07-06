@@ -29,10 +29,6 @@ enum vecback_format {short_info, normal_info, long_info};
 
 enum interpolation_method {inter_normal, inter_closeby};
 
-/** list of dark energy modes for unified framework */
-
-enum dark_energy_mode {prtoe_active, prtoe_frozen, lambda_limit};
-
 /**
  * background structure containing all the background information that
  * other modules need to know.
@@ -123,56 +119,25 @@ struct background
   double phi_prime_ini_scf;/**< \f$ d\phi(t_0)/d\tau \f$: scalar field initial derivative wrt conformal time */
   int scf_parameters_size; /**< size of scf_parameters */
   double varconst_alpha; /**< finestructure constant for varying fundamental constants */
-  double xi_prtoe;      /**< Non-minimal coupling xi; stability wedge: [1e-7, 1.2e-5] */
-  double xi1_prtoe;     /**< Linear non-minimal coupling xi_1 (drives early activation at z_eq) */
-  double lambda_prtoe;  /**< Exponential potential slope lambda */
-  double m_prtoe;       /**< Scalar field mass (quadratic potential term) */
-  double V0_prtoe;      /**< Potential amplitude V0; fixed to 0.685 from action */
-  double zeta_prtoe;    /**< Vainshtein screening parameter zeta */
-  double Omega0_prtoe;  /**< Effective dark energy density from PRTOE field at a=1 */
-
-  /* ===== PHASE 5: Unified Dark Energy Framework ===== */
-  enum dark_energy_mode de_mode;  /**< Dark energy mode: prtoe_active, prtoe_frozen, or lambda_limit */
-  double omega_dark_energy;       /**< Total dark energy Omega (computed from Omega_Lambda or Omega0_prtoe) */
   double varconst_me; /**< electron mass for varying fundamental constants */
   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */
-
-  /* Canonical PRTOE parameters with *_prtoe suffix (screened triplet & potential) */
-  /* Legacy names (prtoe_xi, prtoe_beta, etc.) removed entirely */
-  short use_prtoe;
-  double phi_ini_prtoe; /**< PRTOE v3: initial field displacement (default 0).
-                             phi_ini < 0 with xi1 > 0 gives F < 1 through the
-                             pre-recombination window (r_s smaller -> H0 up)
-                             while the trace kick drives phi up through zero,
-                             leaving F > 1 late (growth suppressed -> S8 down):
-                             the double-tension trajectory from a single roll. */
   double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
 
-  /* Indices for the PRTOE background storage in table (index_bg) */
-  int index_bg_phi_prtoe;   /**< Index for the scalar field phi */
-  int index_bg_dphi_prtoe;  /**< Index for conformal time derivative d(phi)/dtau */
-  int index_bg_ddphi_prtoe; /**< Index for second conformal time derivative d²(phi)/dtau² */
-  int index_bg_rho_prtoe;   /**< Energy density of the PRTOE fluid */
-  int index_bg_p_prtoe;     /**< Pressure of the PRTOE fluid */
-  int index_bg_rho_dark_energy;
-  int index_bg_p_dark_energy;
-  int index_bg_F_prtoe;     /**< F(phi) = 1 + xi * A(phi) * S(phi) */
-  int index_bg_F_phi_prtoe; /**< dF/dphi */
-  int index_bg_F_phiphi_prtoe; /**< d²F/dphi² */
-  int index_bg_F_phiphiphi_prtoe; /**< d³F/dphi³ */
-  int index_bg_meff2_prtoe; /**< Effective mass squared for stability */
-  int index_bg_Q_prtoe;      /**< Gradient stability proxy Q */
-  int index_bg_cs2_prtoe;   /**< Approximate scalar sound speed squared */
-  int index_bg_F_dot_prtoe;  /**< dF/dt */
-  int index_bg_F_ddot_prtoe; /**< d²F/dt² */
-  int index_bg_K_prtoe;      /**< Kinetic coefficient K */
-  int index_bg_cT2_prtoe;    /**< Tensor speed squared c_T² */
-
-  /* Integration indices for the PRTOE ODE solver (index_bi) */
-  int index_bi_phi_prtoe;    /**< Field value in integration vector */
-  int index_bi_dphi_prtoe;   /**< Conformal derivative in integration vector */
-
-  double R_curvature;       /**< Ricci Scalar R */
+  /* ===== PRTOE v4 -- dCDF: single dark fluid unifying CDM+DE =====
+   * See docs/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
+   * exactly barotropic: w(rho) = -exp(-(s+beta*s^2)), s = ln(rho/rho_inf).
+   * No gravity modification (contrast with v1-v3's F(phi)R coupling). */
+  short use_dcdf;         /**< flag: replace cdm+lambda with the dCDF fluid */
+  double Omega_ini_dcdf;  /**< dust-era abundance at a_ini (shooting unknown) */
+  double Omega0_dcdf;     /**< target dCDF density fraction today (shooting target) */
+  double dcdf_beta;       /**< beta shape parameter, eq. (9) of the derivation doc */
+  double dcdf_rho_inf;    /**< rho_infinity, de Sitter floor density, in H0^2 units */
+  double dcdf_c_gamma;
+  double dcdf_c_EM;
+  int dcdf_deltam_mode; /**< what galaxies trace in delta_m/sigma8: 0 = fluid's full
+                             density (floor in denominator), 1 = clustering part only
+                             (delta rho over (1+w) rho, floor smooth by definition),
+                             2 = baryons only (fluid excluded from delta_m) */
 
   //@}
 
@@ -223,6 +188,10 @@ struct background
   int index_bg_rho_ur;        /**< relativistic neutrinos/relics density */
   int index_bg_rho_dcdm;      /**< dcdm density */
   int index_bg_rho_dr;        /**< dr density */
+
+  int index_bg_rho_dcdf;      /**< dCDF (PRTOE v4) fluid density */
+  int index_bg_w_dcdf;        /**< dCDF equation of state w(rho) */
+  int index_bg_cs2_dcdf;      /**< dCDF adiabatic sound speed squared, c_s^2(rho) */
 
   int index_bg_phi_scf;       /**< scalar field value */
   int index_bg_phi_prime_scf; /**< scalar field derivative wrt conformal time */
@@ -306,6 +275,7 @@ struct background
   int index_bi_rho_dcdm;/**< {B} dcdm density */
   int index_bi_rho_dr;  /**< {B} dr density */
   int index_bi_rho_fld; /**< {B} fluid density */
+  int index_bi_rho_dcdf;/**< {B} dCDF (PRTOE v4) fluid density */
   int index_bi_phi_scf;       /**< {B} scalar field value */
   int index_bi_phi_prime_scf; /**< {B} scalar field derivative wrt conformal time */
 
@@ -338,7 +308,21 @@ struct background
   short has_ncdm;      /**< presence of non-cold dark matter? */
   short has_lambda;    /**< presence of cosmological constant? */
   short has_fld;       /**< presence of fluid with constant w and cs2? */
-  short has_ur;        /**< presence of ultra-relativistic neutrinos/relics? */
+  short has_dcdf;      /**< presence of the PRTOE v4 dCDF unified dark fluid? */
+  short has_ur;
+    /* DUMMIES to make perturbations.c compile */
+    short use_prtoe;
+    int index_bg_phi_prtoe;
+    int index_bg_dphi_prtoe;
+    int index_bg_rho_prtoe;
+    int index_bg_p_prtoe;
+    double zeta_prtoe;
+    double xi_prtoe;
+    double lambda_prtoe;
+    double V0_prtoe;
+    double m_prtoe;
+    double dphi_prtoe_ini;
+        /**< presence of ultra-relativistic neutrinos/relics? */
   short has_idr;       /**< presence of interacting dark radiation? */
   short has_curvature; /**< presence of global spatial curvature? */
   short has_varconst;  /**< presence of varying fundamental constants? */
@@ -483,10 +467,6 @@ extern "C" {
                       struct background *pba
                       );
 
-  int background_prtoe_local_gravity_post_integration(
-                                                      struct background *pba
-                                                      );
-
   int background_free(
                       struct background *pba
                       );
@@ -617,9 +597,6 @@ extern "C" {
                  double phi
                  );
 
-  int background_prtoe_potential(struct background * pba, double phi, double * V, double * dV, double * ddV);
-
-
   /** Coupling between scalar field and matter **/
   double Q_scf(
                struct background *pba,
@@ -687,14 +664,71 @@ extern "C" {
 
 //@}
 
-/** Returns the effective coupling xi_eff(phi) with Vainshtein screening S(phi) only. */
-static inline double get_xi_eff(struct background *pba, double phi) {
-    double phi2 = phi * phi;
-    double denom = 1.0 + pba->zeta_prtoe * phi2;
-    double S_phi = phi2 / denom;
-    return pba->xi1_prtoe * phi + pba->xi_prtoe * S_phi;
+/* ===== PRTOE v4 -- dCDF equation of state and sound speed =====
+ * See docs/PRTOE_v4_dCDF_derivation.md eq. (9)-(10). s = ln(rho/rho_inf) is
+ * clamped at 0 (i.e. rho/rho_inf clamped at 1 before the log) to guard
+ * against numerical overshoot below the de Sitter fixed point: the
+ * continuity equation has an exact fixed point at rho=rho_inf (w=-1 there),
+ * approached asymptotically from above and never crossed in exact
+ * integration, but finite-step integrators can overshoot slightly. */
+static inline double dcdf_s_of_rho(struct background *pba, double rho) {
+  double ratio = rho / MAX(pba->dcdf_rho_inf, 1e-300);
+  return log(MAX(ratio, 1.0));
 }
 
+static inline double w_dcdf(struct background *pba, double rho) {
+  double s = dcdf_s_of_rho(pba, rho);
+  return -exp(-(s + pba->dcdf_beta * s * s));
+}
+
+static inline double cs2_dcdf(struct background *pba, double rho) {
+  double s = dcdf_s_of_rho(pba, rho);
+  return 2.0 * pba->dcdf_beta * s * exp(-(s + pba->dcdf_beta * s * s));
+}
+
+/* ===== Sandbox: fold radiation + ionization directly into the dCDF w(rho) =====
+ * Ionization-fraction proxy (Saha equilibrium, hydrogen-only), ported from the
+ * v6 scalar-field friction term so the same "environmental coupling" ansatz can
+ * be tried directly on the fluid's own equation of state rather than as a
+ * separate additive N_ur term. Self-contained analytic function: at
+ * background-integration time the real thermodynamics table does not exist yet. */
+static inline double dcdf_xe_saha(struct background *pba, double a) {
+  double YHe = 0.245;
+  double m_H = 1.673575e-27; /* kg */
+  double m_e = 9.10938215e-31; /* kg */
+  double SIunit_H0 = pba->H0 * 1e3 / _Mpc_over_m_;
+  double SIunit_nH0 = 3.*SIunit_H0*SIunit_H0*pba->Omega0_b/(8.*_PI_*_G_*m_H)*(1.-YHe);
+  double const_NR_numberdens = 2.*_PI_*(m_e/_h_P_)*(_k_B_/_h_P_);
+  double const_Tion_H = 13.6 * _eV_ / _k_B_;
+  double T_gamma = pba->T_cmb / a;
+  double nH = SIunit_nH0 / (a*a*a);
+
+  if (const_Tion_H / T_gamma > 200.0) return 0.0;
+  if (const_Tion_H / T_gamma < 1.0) return 1.0;
+
+  double rhs = exp(1.5*log(const_NR_numberdens*T_gamma) - const_Tion_H/T_gamma) / nH;
+  double x_e = 2.0 / (1.0 + sqrt(1.0 + 4.0/rhs));
+  return MIN(x_e, 1.0);
+}
+
+/* Environmental correction added on top of the base barotropic w(rho): pushes
+ * w up (less negative / more matter-like) in proportion to how much radiation
+ * energy density and free-electron density are around, both expressed as
+ * fractions of critical density today so c_gamma/c_EM are O(1) dimensionless
+ * knobs. Vanishes at c_gamma=c_EM=0, recovering the original v4 fluid exactly. */
+static inline double dcdf_w_env(struct background *pba, double a, double rho_g) {
+  /* Saturating (not power-law) coupling: rho_g/rho_b ~ a^-4/a^-3 diverge as
+   * a->0, so a raw ratio to H0^2 blows up the ODE at early times. Saturate
+   * each term to its own c_gamma/c_EM ceiling instead, so the correction is
+   * bounded in [0, c_gamma+c_EM] at all times, vanishing smoothly once
+   * radiation/ionization redshift away. */
+  double H0sq = pba->H0 * pba->H0;
+  double rho_b = pba->Omega0_b * H0sq / (a*a*a);
+  double x_e = dcdf_xe_saha(pba, a);
+  double gamma_term = pba->dcdf_c_gamma * rho_g / (rho_g + H0sq);
+  double em_term = pba->dcdf_c_EM * (rho_b*x_e) / (rho_b*x_e + H0sq);
+  return gamma_term + em_term;
+}
 
 #endif
 /* @endcond */

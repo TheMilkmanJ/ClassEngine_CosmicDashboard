@@ -68,3 +68,14 @@ validation_suite_*.log
 
 test_background
 
+# session/debug scratch (agents)
+*.bak
+cramer_log.txt
+prof_output.txt
+print_*.py
+run_prof.py
+run_test*.py
+fix_*.py
+check_rel_diff.py
+test_tanh*
+tmp_*/

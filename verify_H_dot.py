@@ -5,13 +5,6 @@ c = Class()
 c.set({
     'h': 0.674, 'Omega_b': 0.05, 'Omega_cdm': 0.25,
     'A_s': 2.1e-9, 'n_s': 0.965,
-    'use_prtoe': 'yes',
-    'prtoe_ablate_gates': 'no',
-    'xi_prtoe': 1e-2,
-    'xi1_prtoe': 0.3,
-    'g3_prtoe': 1e-11,
-    'zeta_prtoe': 0.1,
-    'Omega0_prtoe': 0.7,
     'Omega_Lambda': 0.0,
     'root': '/home/themilkmanj/prtoe_class/',
 })
