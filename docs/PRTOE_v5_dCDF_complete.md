@@ -735,3 +735,96 @@ independent H0-rescue mechanisms failed by direct calculation. v4
 the GCG no-go algebra and the v4.1 logistic exploration:
 `PRTOE_v4_dCDF_derivation.md`. Results archaeology:
 `PRTOE_v4_dCDF_results.md`.*
+
+## 12. The transaction architecture across scales (2026-07-06 exploration)
+
+A mathematical audit of the three-laws pattern (§9.5-adjacent; gravity
+the only clearinghouse / the background ledger is adiabatic / rules
+amendable, balances not) against the atomic-scale vacuum-transaction
+catalogue, plus ontology tests for the floor. Everything below is
+paper-grade with the arithmetic stated; no CPU consumed.
+
+### Confirmed
+
+**C1 — The three laws are scale-representations of gauge structure +
+unitarity.** Law 1's identity-blindness (the cosmic ledger reads only w)
+is the equivalence principle; its atomic twin (the QED vacuum reads only
+charge and mass — Lamb shift and g−2 are identical for any particle of
+equal q, m) is charge universality. Both are consequences of locality +
+gauge symmetry: *clearinghouses are gauge fields*. Law 2's adiabatic
+background ledger is S-matrix unitarity one floor down: virtual
+transactions are exactly reversible; entropy generation is delegated to
+real (on-shell) emission — the same architecture as cosmic entropy
+being delegated to stars and holes while the sector accounts stay
+clean. Law 3's rules-amendments have a standard-physics precedent: the
+vacuum already runs α with probe scale (β = 2α²/3π). The laws are one
+architecture expressed at two scales, with the Unruh/Gibbons-Hawking
+pair (T = a/2π ↔ T = H/2π — the *same formula*) as the bridge.
+
+**C2 — The bank-location question resolves: the currency is action,
+not energy.** Under expansion, each field mode's adiabatic invariant
+E/ω — its occupation number, in units of ℏ — is *exactly conserved*;
+only the denomination (ω) redshifts. The radiation era's "payments to
+expansion" are, in action units, no payments at all: nothing leaves any
+account; the currency unit inflates. GR's refusal to define global
+energy and the perfect adiabatic invariance of quantum numbers are two
+statements of one fact: **the cosmic ledger was never denominated in
+energy. In units of ℏ the books balance identically, always.** (This
+retires the "what bank?" question of the transaction metaphysics: there
+is no missing energy; there is a devaluing unit and a conserved count.)
+
+**C3 — The two-fluid correspondence.** The dyad's medium with the
+(δK)² term has dispersion ω = k²/2M_eff with c_s = 0 — the Bogoliubov
+spectrum of an *ideal* (non-self-interacting) Bose condensate, healing
+length → ∞. The completion's phase structure then maps onto Landau's
+two-fluid model: pre-basin radiation-like phase ↔ normal component;
+post-basin floor ↔ condensate fraction; **basin entry (z ~ 10⁵) ↔ the
+medium's condensation epoch**. Dark matter and dark energy as the
+normal and superfluid fractions of one substance — the trampoline
+metaphor's laboratory-physics name. Lab superfluids (helium kept liquid
+at T=0 by zero-point transactions) are structural cousins of the floor
+(the medium kept at ρ_∞ by its condensate nature).
+
+### Closed
+
+**X1 — The floor is not thermal, not Casimir, not zero-point.** Three
+ontologies for ρ_∞ tested dimensionally: Gibbons-Hawking thermal bath
+(ρ ~ T_GH⁴) misses by **10¹²⁴**; cosmic-Casimir (ρ ~ H⁴) by **10¹²¹**;
+summed zero-point to the Planck cutoff overshoots by **10¹²¹**. The
+only surviving ontology is the fourth: **a condensate constant (P₀ of
+the medium)** — which is what dCDF asserts. The cosmological-constant
+problem relocates to "why is P₀ small" (no worse than standard), but
+the *identification* question is settled by elimination.
+
+**X2 — Standard running cannot source the m_e amendment.** QED running
+is frozen below T ~ m_e (recombination sits at T/m_e ~ 5×10⁻⁷); thermal
+corrections there are O(αT²/m_e²) ≈ 10⁻¹⁵. The 1% epoch-shift the dyad
+fits is *structurally* precedented (couplings do run with environment)
+but *quantitatively* new physics — the sourcing question stays with
+§9.4's epoch-separated mechanisms.
+
+**X3 — Boundary objects live off the inhabitant ladder, and the
+horizon is not one that matters.** The Casimir slab realizes effective
+w = +3 (super-stiff, forbidden to any fluid inhabitant) because
+boundaries are not inhabitants — but the one cosmic boundary available
+(the de Sitter horizon) contributes only at the 10⁻¹²¹ level (X1).
+No cosmic Purcell loophole at background level.
+
+### Open
+
+**O1 —** Do superfluid stability conditions (Landau criterion,
+two-fluid dissipation channels) translate into the three (δK)²
+admissibility certificates? The map in C3 suggests the foliation-health
+question may be the cosmological Landau criterion. Feeds the
+certificate derivation directly.
+
+**O2 —** Does the condensation epoch (basin entry) freeze in any relic
+observable? Ideal BECs condense without defect formation (no broken
+gauge symmetry in shift-symmetric P(X)), so the default answer is no —
+but the pre-basin normal fraction's decay deserves one careful pass.
+
+**O3 —** Purcell-engineering at sub-cosmic scales: environments that
+reshape the dark medium's local mode structure (deep halo interiors,
+BH near-zones) could in principle modulate dark-sector transaction
+rates the way cavities modulate spontaneous emission. Speculative;
+parked until the (δK)² certificates define which modes exist.
