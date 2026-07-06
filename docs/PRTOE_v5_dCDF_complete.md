@@ -555,9 +555,36 @@ and will be largely moot the day it lands: that stack omits data
    pre-basin radiation phase** that §2 already flags as the completion's
    early-history falsifier. The m_e-sourcing boundary and the §2
    completion boundary are the same wall — one boundary, not two (cf.
-   §11's caustic note). Until someone derives a relaxation *and clears
-   BBN, where m_e also lives*, the honest label on m_e is:
-   *phenomenology, carried for its measurement value*.
+   §11's caustic note).
+
+   **THE DOOR, DUG AND MEASURED (2026-07-06 evening).** All natural
+   shift-symmetric couplings of m_e to the medium's state were
+   constructed and priced against the three walls (quasar molecular
+   absorbers |Δμ/μ| ≲ 10⁻⁷ at z ≲ 2.5; the 1% requirement at
+   recombination; BBN):
+   - *Linear in x = u/X₀*: relaxes fast (quasar-safe by design) but
+     x(rec) = e⁻¹⁴ forces an unnatural g ~ e⁹ and the pre-basin growth
+     puts m_e at ~10¹³× standard during BBN. **Dead.**
+   - *Logarithmic in ρ (m_e ∝ 1 + g·s)*: natural g ≈ 5×10⁻⁴, survives
+     BBN at ~2.9% (Y_p +1.2σ) — and fails the quasar bound by a factor
+     of **11,000** (Δm_e/m_e = 1.1×10⁻³ at z=2 vs 10⁻⁷ allowed). The
+     log's virtue into the past is its vice at late times. **Dead.**
+   - *The shape that survives all three walls*: must rise steeply
+     (p ≳ 0.65) below x(rec) and saturate (p ≲ 0.03) above it — a
+     bespoke saturation scale at x ≈ e⁻¹⁴ with no natural origin (the
+     model's natural scales are x = 1 and x₀). **Epicycle-grade.** The
+     least-dead natural variant — saturation at the *equality* scale
+     x(z_eq), a physically meaningful threshold — misses the
+     recombination requirement by ~10× once BBN caps its amplitude.
+   - *Chameleon-type screening* (rescuing quasars by making absorbers
+     locally standard): reopens the v1–v3 graveyard. **Not taken.**
+   Verdict: the sourced-m_e door — the model's one road toward deriving
+   a Standard-Model parameter from the medium — is **closed at current
+   requirements**, by computation rather than taste. Reopening requires
+   a mechanism that generates a saturation scale at x ~ x(recombination)
+   naturally, or an H0 mechanism needing only ~0.1% m_e (pointless), or
+   screening (graveyard). The honest label survives its own best
+   challenge: *phenomenology, carried for its measurement value*.
 
 5. **Σm_ν and c_EM (frozen-slice scans, 2026-07-06).** Σm_ν: on a stack
    with no WL likelihood the best fit is pinned at the 0.06 eV floor
