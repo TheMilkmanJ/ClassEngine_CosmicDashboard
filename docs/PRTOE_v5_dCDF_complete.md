@@ -482,8 +482,12 @@ and will be largely moot the day it lands: that stack omits data
    profile refit reached **2801.06 with H0 = 70.41, ξ = 0.124** — note
    m_e visibly eats ξ's role (the two levers share the r_s budget). The
    >100% refund flags optimization slack in pass-1; a same-companions
-   m_e=1.00 control (running) decomposes m_e's honest credit, estimated
-   −1 to −3. S8 rises with m_e at fixed amplitude (+0.02/1%) — m_e alone
+   m_e=1.00 control question was settled *analytically* (2026-07-06):
+   triangulating both cross-distances between the two optima under a
+   quadratic model gave credit −8.5 with a falsifiable midpoint
+   prediction (2812.1) that was then measured at 2812.15 — **clean
+   credit −8.5 ± 0.5, validated**; the brute-force control was cancelled
+   as redundant. S8 rises with m_e at fixed amplitude (+0.02/1%) — m_e alone
    anti-solves S8; pairs naturally with Σm_ν (below).
 
    **Coupling-consistency status — stated so no referee has to ask.**
@@ -558,10 +562,17 @@ and will be largely moot the day it lands: that stack omits data
    (returns to ~+2.0σ only at the pessimistic sensitivity).
    **D/H ≈ 2.49×10⁻⁵ (−1.3σ)** — the sting relocates: the champion's
    high ω_b lost its ξ compensation, and m_e's +0.4% cannot restore it.
-   **Net unpriced BBN ledger at the champion: χ² ≈ +3.5** (no BBN
-   likelihood is in the fit stack). Against m_e's clean CMB credit of
-   −8.5 (§9.4): net ≈ −5 — **a loan against helium and deuterium with
-   favorable terms, not a free lunch.** Adding a BBN likelihood
+   **The unpriced BBN ledger, properly decomposed** (no BBN likelihood
+   is in the fit stack): the champion's total charge is ≈ +3.5, but at
+   the ξ-only joint champion's own parameters (ω_b = 0.022673, ξ = 0.142,
+   m_e = 1) the charge is only **+1.4** (Y_p +1.0σ, D/H −0.6σ) — the
+   deuterium sting belongs to the **m_e package**, whose optimizer
+   raised ω_b to 0.02284 as part of exploiting the lever. Package
+   accounting: m_e's validated CMB credit −8.5 (§9.4) plus its marginal
+   BBN charge +2.1 → **net ≈ −6.4**; m_e's *pure* marginal at fixed
+   companions is ≈ 0 (its helium cost and deuterium help cancel). The
+   joint tie itself carries a mild unpriced +1.4. A loan at ~25%
+   interest — favorable, and netted against the controlled number. Adding a BBN likelihood
    (Y_p + D/H as Gaussians) to the joint stack — and feeding varying_me
    back into the Y_He table (a booked code inconsistency, §9.4) — are
    now required for any refit that samples m_e. PRIMAT-grade
