@@ -357,3 +357,39 @@ attachment to (rho_d/rho_r) are not action-derived; this remains a
 constraint-with-a-locked-signature until they are.
 
 ---
+
+## ANN-2026-006: The unification test (red-team turn 19) — RUN, AND IT CAME OUT AGAINST US
+
+**Recorded:** 2026-07-07 (git base: 2f0ac367)
+**The question (turn 19, decisive):** does one kappa_v source BOTH the
+BBN vev package (+0.15%) and the dyad's recombination amendment (+1%),
+with the ratio ~6.7 predicted by the carrier-density ratio? Two
+halves, both computed the same night:
+**(a) Universal-v vs m_e-only at recombination: INDISTINGUISHABLE.**
+The binding-energy lever differs only through the reduced mass
+(m_e/m_p suppressed): 5.4e-6 at the 1% amendment. sigma_T identical.
+m_p enters only baryon inertia, absorbed by the omega_b refit with an
+eta rebooking (-1% -> BBN D/H +1.6%, inside the healer's f-span). The
+dyad's lever IS universal-v compatible; no CLASS run needed — it is
+the same run to five decimals. (Frozen because it may matter later:
+any future mechanism producing a universal vev shift at z~1100 serves
+the dyad as well as a pure m_e shift.)
+**(b) The carrier-ratio prediction: FAILS BY ~8-10 ORDERS.** The same
+density-fraction measure that gives delta_v(BBN) = kappa_v*(a_x/a_eq)
+gives at recombination rho_condensate/rho_total ~ 1.7e-9 — predicted
+ratio ~1e-7 against the required 6.7. Alternative condensate measures
+fail structurally: the order parameter is constant from z~1e5 through
+today (zero rec/today contrast — cannot be the lever); the clustering
+part grows into the past (the dead linear door).
+**Verdict, adopted in advance of the red team's reading:** the vev
+package files as a PARALLEL BBN-only result; the attribution
+correction (turn 19) stands — its five-abundance economy is the
+STANDARD varying-vev BBN behavior, and the dCDF-specific content is
+the carrier alone; the amendment debt stays DOUBLE (normal->|phi|^2
+at BBN, condensate->m_e at recombination, no shared source found);
+and the first-evidence-entry candidate reverts to: derive kappa_v
+(BBN half) — the recombination half has NO candidate mechanism
+tonight. Registered as a negative result so the failure is as
+timestamped as the successes.
+
+---
