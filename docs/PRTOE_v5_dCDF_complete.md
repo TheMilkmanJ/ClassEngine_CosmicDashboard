@@ -105,12 +105,26 @@ stated honestly:
   integrated.
 - Validity across the observationally exercised range requires a **designed
   hierarchy**, and since $u \propto a^{-3}$ grows into the past, the binding
-  condition is set by the *earliest* epoch that needs dust behavior:
-  $u/X_0|_0 \lesssim e^{-25}$ for basin validity back through
-  matter–radiation equality ($z_{\rm eq} \approx 3400$, $a^{-3} \approx
-  e^{24.4}$), $\lesssim e^{-66}$ back through BBN. Cubic terms of the full
-  $P(X)$ must stay subdominant over the same range. Achievable to any
-  target precision; tuned, and honestly labeled as such.
+  condition is set by the *earliest* epoch that needs dust behavior. With
+  $x \equiv u/X_0$ and $\rho_\infty$ dropped (negligible before today),
+
+  $$ w(x) = \frac{x}{4+3x}, \qquad c_s^2(x) = \frac{x}{3x+2} \;\approx\; 2\,w \ \ (x \ll 1), $$
+
+  so the basin-membership markers ($x \sim 1$: $e^{-25}$ today for
+  equality, $e^{-66}$ for BBN) are **qualitative crossover points, not
+  safe-dust thresholds**. At $x(z_{\rm eq}) = 0.55$ (the $e^{-25}$ case)
+  the fluid has $w \approx 0.10$, $c_s^2 \approx 0.15$ at equality — not
+  dust. Quantitative thresholds: $w < 0.01$ at equality needs
+  $x_0 \lesssim e^{-27.6}$; $c_s^2 < 0.01$ needs $x_0 \lesssim e^{-28.3}$;
+  and because a dark-matter sound speed suppresses $P(k)$ *cumulatively*
+  below the sound horizon (the same Sandvik-type mechanism that killed β,
+  §5) while $w$ only perturbs the background locally in time, **the sound
+  speed is the binding condition**. The true quantitative bound requires
+  the $P(k)$-suppression integral for this decaying-$c_s^2(a)$ profile
+  (largest at early times — opposite profile to the GCG case), not a
+  single-epoch threshold: open item (§11). Cubic terms of the full $P(X)$
+  must stay subdominant over the same range. Achievable to any target
+  precision; tuned, and honestly labeled as such.
 - **Outside the basin the truncated completion is not dust**: for
   $u \gg X_0$, $P \propto X^2$ gives $w = 1/3$, $c_s^2 = 1/3$ — a
   self-interacting dark-radiation phase (this is in Scherrer's original
@@ -300,7 +314,7 @@ to the same shift in `N_ur`). The fit's anatomy, established by direct scans:
 | ξ_Neff ↔ N_ur equivalence | **PASS** — bit-exact (difference 0.0 everywhere) |
 | precision stability (tightened tolerances) | **PASS** — σ8 stable to 5×10⁻⁶ |
 | β-branch smoothness (pre-deletion, 8×10⁻⁹→10⁻⁴) | **PASS** — smooth monotone σ8 decline (then β removed) |
-| gauge invariance (synchronous vs newtonian) | **PASS** (2026-07-06, after fix) — max TT deviation 2.8×10⁻⁵, at ΛCDM's own gauge-noise floor (2.1×10⁻⁵). The v4-era 0.26% ℓ=10–12 defect was **not** the suspected late-time (1+w)→0 gauge terms: the fluid was missing from the matter budget in `perturbations_initial_conditions` (`rho_m`/`om` counted only baryons under `use_dcdf`, and the α gauge-transform's `delta_tot` had no dcdf term), so the newtonian branch started from a slightly wrong φ_ini and rang a decaying transient into the SW/early-ISW sources. Synchronous (production) was verified unaffected before and after: fluid ≡ ΛCDM per-ℓ to 4×10⁻⁶ at the null point. Diagnosis chain: per-ℓ ΛCDM control → dust-limit isolation → per-contribution double ratio (SW+eISW, not late ISW) → φ′ transient at z≈5000 → IC audit. |
+| gauge invariance (synchronous vs newtonian) | **PASS** (2026-07-06, after fix) — max TT deviation 2.8×10⁻⁵, at ΛCDM's own gauge-noise floor (2.1×10⁻⁵). The v4-era 0.26% ℓ=10–12 defect was **not** the suspected late-time (1+w)→0 gauge terms: the fluid was missing from the matter budget in `perturbations_initial_conditions` (`rho_m`/`om` counted only baryons under `use_dcdf`, and the α gauge-transform's `delta_tot` had no dcdf term), so the newtonian branch started from a slightly wrong φ_ini and rang a decaying transient into the SW/early-ISW sources. Synchronous (production) was verified unaffected before and after: fluid ≡ ΛCDM per-ℓ to 4×10⁻⁶ at the null point. Note the epistemic status: the `rho_m`/`om` half of the bug lived in IC code shared by both gauges, so synchronous safety was an **empirical finding** (bit-identical null test, σ8 0.81301 / total 2516.72 before and after the fix), not a structural guarantee — only the `delta_tot` half was newtonian-only by construction. Diagnosis chain: per-ℓ ΛCDM control → dust-limit isolation → per-contribution double ratio (SW+eISW, not late ISW) → φ′ transient at z≈5000 → IC audit. |
 | 6-corner prior-box stress test (v5, β-free) | **PASS** — all corners run gracefully |
 
 The null test earns its keep: on its first run it caught the budget-
@@ -434,7 +448,12 @@ framework has a **structural** limit, not a numerical one:
   relaunched 2026-07-05 after β deletion) + PolyChord pair queued behind
   it; that decides whether the χ² gain is a detection or a flexible-model
   tax — and any evidence verdict must be re-read against §9.1.
-- **BBN check** of ΔN_eff = 0.40 and of the §2 a⁻⁶ tail.
+- **BBN check** of ΔN_eff = 0.40 and of the §2 a⁻⁶ tail / pre-basin
+  radiation phase (Y_p, D/H shifts as a function of basin-entry redshift).
+- **P(k)-suppression integral** for the §2 completion's decaying
+  $c_s^2(a) \approx x(a)/2$ profile — converts the single-epoch thresholds
+  ($x_0 \lesssim e^{-28.3}$ for $c_s^2 < 0.01$ at equality) into the actual
+  observational bound on the hierarchy.
 - **Nonlinear completion** (§10a): specify the higher-derivative terms (or
   the honest effective-theory boundary) before any claim about halo
   interiors.
