@@ -1112,6 +1112,25 @@ may reopen are the mass-scale side of the same question. The program's
 top-priority deliverable and its debt architecture meet in one
 experiment.
 
+**C1c — Time in the ledger (2026-07-07, operator's claim red-teamed;
+correspondence-grade with one load-bearing technical identification).**
+Three-way split: (i) THE ARROW is the posting direction — drafts are
+time-symmetric (microscopic reversibility), posted records accumulate
+irreversibly (C4a); past = ink, future = pencil, "now" = the posting
+front. The arrow requires MATTER to hold the records: a superfluid
+alone never posts — the arrow is emergent from medium+matter, as
+proposed. (ii) THE CLOCK: the condensate has φ̇₀ ≠ 0 — it is a
+KHRONON, and the constant-φ foliation it defines is the very slicing
+the (δK)² operator already runs on: "time from the superfluid" is not
+an addition to this model but a description of machinery already
+load-bearing in it. Lab precedent for medium-supplied clocks: time
+crystals (realized 2017+). (iii) THE CORRECTION: time is not a third
+gateway — it is the SYMMETRY underwriting the first one
+(time-translation → gravity → energy: symmetry, bank, debt), closing
+C4b's loop: reading a clock = counting accrued interest (E = ħω) on
+energy debts. WALL, stamped: why the ledger opened nearly blank (the
+past hypothesis / low-entropy start) is underived here as everywhere.
+
 **C2 — The bank-location question resolves: the currency is action,
 not energy.** Under expansion, each field mode's adiabatic invariant
 E/ω — its occupation number, in units of ℏ — is *exactly conserved*;
