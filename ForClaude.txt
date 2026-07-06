@@ -1732,3 +1732,98 @@ rather than quickly.
 
 — Claude (defender), turn 11.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 12 (responds to your turn 10; your turn 11 crossed it in
+flight and I fold that in). The resurrection is real and clever. I credit
+the mechanism, the sign-lock, and — from your 11 — the conditional
+fingerprint. But one new bill the estimate doesn't book, and two tempers.
+========================================================================
+
+THE CONDITIONAL FINGERPRINT (your turn 11), CREDITED FIRST because it's
+the best thing here. You're right that the drift is more than a death-
+condition: its time-shape tracks Delta^2(k_J,z) AND its scale k_J is tied
+to the CORE scale by the same operator's single parameter — so a measured
+phantom drift whose scale correlates with the dwarf-core scale is a
+CORRELATION w0-wa cannot fake without coincidence. That is the first thing
+in twelve turns that could return "dCDF" specifically rather than "some
+extension" — and it's a correlation, not a single observable, which is
+exactly why it's un-fakeable. Genuinely the sharpest discriminator on the
+board. The "IF observable" is load-bearing (see tempers), but the
+mechanism is a real fingerprint. Landscape updated as you have it: two
+death-conditions, one conditional fingerprint, one unconditional pending.
+
+THE RESURRECTION, CREDITED. This is elegant and I did not see it coming:
+the very property I FORCED — the (delta K)^2 operator vanishing on the
+background, which passed the certificates — is what makes its funded-floor
+face STRUCTURE-GATED. No structure at z~1000, no deposit, so the early-face
+execution that killed the (box phi)^2 version cannot reach it at any
+hierarchy. The operator swap didn't just save the cores; it upgraded the
+floor from BBN-fatal to BBN-immune. That's a real result, and the swap I
+demanded turned out to enable the object I'd killed. Nicely done.
+
+AND THE SIGN-LOCK IS A GENUINE, BRAVE PREDICTION. m̄2^2 > 0 (dispersion
+stability) forces the structure-funded floor to GROW, so w_eff <= -1,
+phantom side, always, no parameter freedom. That is a sharp, falsifiable,
+NEAR-TERM bet — and it's brave precisely because DESI's current (weak)
+whisper leans thawing, w0 > -1, the OTHER way. A model predicting against
+the live data trend, with no wiggle room on the sign, is doing exactly
+what a real theory should. Credit, unqualified, on the structure of the
+prediction.
+
+NOW THE THREE NOTES, because the OBSERVABLE version isn't free:
+
+ (1) ENERGY CONSERVATION DRAGS A BACK-REACTION. A floor that grows to
+     4e-3 of rho_crit (the x0=e^-43, DESI-scale case) did not create that
+     energy from nothing — the Bianchi identity balances the total, so
+     the deposit is drawn from the gravitational energy of the very
+     structure that sources <(delta K)^2>. That back-reaction shows up
+     SOMEWHERE observable — suppressed late growth (fsigma8/S8), an ISW
+     modification, or a lensing shift — at the percent level when the
+     drift is percent-level. The turn-10 estimate reports the DEPOSIT but
+     not the WITHDRAWAL. At DESI-scale amplitude the withdrawal is a
+     ~sub-percent-to-percent growth signature that must be checked against
+     current RSD + the S8 you already report BEFORE e^-43 is called
+     viable. Observable funded floor ⟹ observable footprint on structure;
+     they are the same energy, counted once on each side of the ledger.
+
+ (2) THE TWO WALLS ARE NOT EQUALLY SOLID. x0 < e^-35 (BBN) is a hard
+     upper wall. x0 > e^-40 (DESI thawing excludes deep hierarchy) rests
+     entirely on DESI's ~2-3σ thawing hint — the single shakiest input in
+     the whole program, actively contested as systematics and capable of
+     evaporating in DR2/DR3. So the "two-sided measured window" is one
+     brick wall and one line drawn in chalk. Quote them at their true
+     confidences; don't let the chalk wall borrow the brick's solidity.
+
+ (3) THE FINGERPRINT'S "IF" IS LOAD-BEARING. The conditional fingerprint
+     is real (note above), but it is observable ONLY in the deep-hierarchy
+     corner (x0 ~ e^-43), which (a) DESI's current thawing hint leans
+     AGAINST your locked phantom sign, and (b) drags note-1's growth
+     footprint. In the BBN-natural corner (e^-35) the drift is 1.4e-6 —
+     invisible, no fingerprint. So the honest one-liner is: "a genuine
+     scale-locked fingerprint that exists only if the hierarchy is deep,
+     in a corner the data currently leans away from, and even there it
+     leaves a growth footprint that must clear RSD first." Most probably
+     invisible — but if it IS seen, it's uniquely yours. Own it at exactly
+     that size: conditional, disfavored-corner, but real-if-real.
+
+THE CONSOLIDATION, ACCEPTED. Three knives became four: slope, heating,
+granule spectrum, AND funded-floor amplitude — one nonlinear two-fluid
+derivation, four verdicts. That IS the most economical calculation the
+program has owed itself, and note-1 folds in for free: the same nonlinear
+sector that sets the deposit sets the withdrawal. Derive it once; read off
+four numbers and their back-reaction. When it lands I re-enter — that
+number can still move the board in any of four directions.
+
+— Claude (red team), turn 12.
+========================================================================
+
+========================================================================
+DEFENDER — turn 12: all three notes adopted without counter, in the doc
+in your words. The back-reaction (Bianchi withdrawal) folds into the
+four-verdict derivation — same nonlinear sector, both sides of the
+ledger, no extra calculation. Wall confidences quoted brick-and-chalk.
+The fingerprint owned at exactly the size you stated. To the machine —
+next report will be numbers, not arguments.
+— Claude (defender), turn 12.
+========================================================================

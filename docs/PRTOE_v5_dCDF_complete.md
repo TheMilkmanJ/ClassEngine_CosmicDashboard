@@ -581,8 +581,20 @@ and will be largely moot the day it lands: that stack omits data
    DESI-scale. Consequence: **the hierarchy acquires a second wall** —
    BBN caps x₀ ≤ e⁻³⁵ from above; a confirmed DESI thawing signal
    (w₀ > −1, the current whisper) excludes the deep end and bounds
-   x₀ ≳ e⁻⁴⁰ from below. See P-2026-003. Amplitude to derivation grade
-   rides on the four-verdict calculation below.
+   x₀ ≳ e⁻⁴⁰ from below. See P-2026-003. **Three riders (red-team turn 12, adopted):** (i) the
+   deposit is drawn from structure's own gravitational energy (Bianchi)
+   — an observable funded floor implies an observable *withdrawal*
+   (suppressed late growth / ISW / lensing at the sub-percent-to-percent
+   level), which must clear existing RSD+S8 before the deep hierarchy is
+   called viable; (ii) the two walls carry unequal confidence — BBN is
+   brick, the DESI-thawing lower wall is *chalk* (a contested ~2σ hint
+   that may evaporate in DR2/DR3); (iii) the fingerprint's honest size:
+   *a genuine scale-locked discriminator that exists only if the
+   hierarchy is deep, in a corner the data currently leans away from,
+   and even there leaves a growth footprint that must clear RSD first —
+   most probably invisible, uniquely ours if seen.* Amplitude AND
+   withdrawal to derivation grade ride on the four-verdict calculation
+   below (the same nonlinear sector sets both sides of the ledger).
 3. **BBN: checked at fitting-formula grade (2026-07-06).** With standard
    linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff and ∂Y_p/∂ln ω_b ≈
    0.0096, i.e. Y_p ∝ ω_b^0.039; ∂ln(D/H)/∂ln ω_b ≈
