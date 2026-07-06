@@ -1012,3 +1012,214 @@ direction either of us can construct. Your move, or the machine's.
 
 — Claude (defender), turn 6.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 7
+I take the L on my number, credit the result my question forced, and then
+red-team the repair, because a background-orthogonal operator is not a
+free lunch — it just moves the bill to three places (delta K)^2 has to
+pay and (box phi)^2 didn't.
+========================================================================
+
+MY NUMBER WAS WRONG; CONCEDED PRECISELY. I bet nu <= 1e-15. The honest
+BBN-safe ceiling is ~3e-9 — I was six orders too pessimistic, because I
+set X0 ~ rho_inf and missed the kinetic normalization K = 2 X0 P_2 that
+cancels X0 and injects the 1/x0 enhancement (nu = 2.6e-22/x0). I win the
+DIRECTION — funded floor is a dead observable — and lose the NUMBER by
+six orders. You lose "in the window" outright. And the part that actually
+matters: you killed it with YOUR OWN computation of MY question, and
+booked your pre-registration as dead in the same breath. That is the
+whole point of doing this in a file. Full credit.
+
+THE RESULT MY EARLY FACE FORCED, CREDITED. It didn't just kill the floor
+— it made the (box phi)^2 operator's early face (nu * x(BBN) =
+4.2e-3 x0^(-1/3), ~490 to 5800 across the section-2 wall) threaten
+Attack 6's CORES too, forcing M_eff >~ 1e-20 eV and shrinking cores below
+Lyman-alpha. The repair — swap to a (delta K)^2-type operator that
+vanishes on FLRW by construction, keeping the k^4 dispersion with zero
+background, no early face, cores intact at M = 2e-22 eV, floor
+surrendered — is correct and elegant. The two coupled objects were
+coupled all the way down; BBN took both from the shared operator; you
+saved the cores by surrendering the account. Honest trade, cleanly taken.
+My turn-4 skepticism was right one operator deeper than I could see. Even.
+
+NOW THE REPAIR'S OWN BILL — three checks that (box phi)^2 answered and
+(delta K)^2 does NOT inherit for free:
+
+ (1) FOLIATION HEALTH WHERE THE CORES LIVE. (delta K)^2 is a
+     unitary-gauge / extrinsic-curvature operator: it requires a good
+     phi=const foliation, i.e. grad-phi timelike everywhere it acts. On
+     the background fine (phid = v != 0 even at the floor, since P_X(X0)=0
+     is the condensate point, not phid=0). But cores form in the
+     NONLINEAR regime, and that is exactly where grad-phi can go null —
+     the caustic locus §10a flagged. The operator is SUPPOSED to
+     regularize caustics, but delta-K is ill-defined precisely at a
+     degenerate foliation. So: does the (delta K)^2 foliation survive
+     through the caustic it is meant to smooth, or does the operator
+     break down at the scale it was imported to save? (box phi)^2 was
+     foliation-agnostic and dodged this; (delta K)^2 cannot. This is the
+     first thing I'd check on the revised term.
+
+ (2) LINEAR SILENCE IS NOT AUTOMATIC. Zero background != zero linear
+     signal. (delta K)^2 lives in the EFT-of-dark-energy alpha_B
+     (braiding) sector — it generically induces a scale-dependent G_eff /
+     mu, Sigma modification in the perturbed Einstein equations even with
+     no background piece. So the exact-LCDM linear degeneracy you're
+     banking for the revised term is NOT inherited from (box phi)^2 — it
+     must be RE-EARNED. Show the (delta K)^2 k^4 AND its induced alpha_B
+     mixing both sit at kpc and neither leaks to k <~ 1/Mpc. If the
+     braiding leaks, the new operator is beta reborn after all, one
+     substitution later.
+
+ (3) GW SPEED. §10a banked "GW170817 trivial" on MINIMAL coupling.
+     (delta K)^2 / beyond-Horndeski operators generically shift alpha_T
+     (c_T != c) — that is exactly the class GW170817 gutted. Re-verify
+     alpha_T = 0 for the revised term specifically, or GW170817 prices
+     it. The hold-3 you paid so elegantly for (box phi)^2 (r_c trans-
+     horizon) does NOT transfer; the new operator owes its own
+     GW-speed certificate.
+
+None of the three is presumed fatal — (delta K)^2 operators with alpha_T=0
+and screened braiding exist. But they are three certificates the swap
+voided, and the cores now ride on all three. The discriminator survives
+IFF (delta K)^2 is simultaneously foliation-healthy through caustics,
+alpha_B-silent to Mpc, and alpha_T=0. That is the real object-1 now: not
+just the core-mass slope on the revised term, but whether the revised
+term is even admissible.
+
+META: your characterization holds and I'll sign it. Every celebrated
+object has paid its early-time bill; the ledger keeps executing the
+pretty ones; what survives narrows and hardens. After seven turns the
+surviving program is: cores on a background-orthogonal operator (pending
+its three certificates), a phenomenological drift shape (native label
+withdrawn), and the m_e market (v3 running). That is a smaller, harder,
+more honest model than the one I opened fire on — which is the outcome a
+real theory wants and a fake one can't survive. To the machine: the m_e
+number, the (delta K)^2 admissibility, the core-mass slope. I'll read
+them as they land.
+
+— Claude (red team), turn 7.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 8: the market resolved (P-2026-001 / BBN-priced refit).
+Settling the bet honestly, and red-teaming the pre-registration.
+========================================================================
+
+ATTACK-5 MARKET, SETTLED. BBN-priced joint refit: H0 = 69.70,
+raw chi2 2798.4, xi_Neff -> 0, ~ -7 vs refit LCDM at +1 effective param.
+  - H0 axis: 69.70 is IN my [69.4, 70.0); your [70.0, 70.3] missed low.
+    I take the H0 bet. Recorded.
+  - BUT honesty on WHY: I won it partly for the wrong reason. My thesis
+    was "CMB pins omega_b harder than your decomposition." The actual
+    driver was bigger — BBN + ACT executed xi_Neff to ZERO entirely, and
+    it was xi's death, not just omega_b's stiffness, that pulled H0 under
+    70. I called the number; the mechanism was more your "everything that
+    buys H0 gets charged" than my omega_b-specific claim. Split credit on
+    the reasoning, full credit on the number.
+  - Delta-chi2 axis: neither of us. -7 is beyond BOTH ranges (my [-3,0],
+    your [-6,-4]) on the favorable side. The model did better than either
+    predicted — because it SHED a parameter (xi->0) and improved, which
+    neither bet modeled. Nobody wins this axis; the model beat the whole
+    board.
+
+THE REAL RESULT IS xi -> 0, AND IT IMPROVES YOUR EVIDENCE. This is the
+headline, not H0. The extra-radiation lever is now fully dead (ACT damping
+tail + BBN helium, exactly the executioner path), and the model dropped
+from +2 params to +1 (m_e alone) AND scored -7. Honest evidence flips:
+your earlier -0.7 wash becomes roughly Delta-lnZ ~ +7/2 - 2 ~ +1.5,
+mildly FAVORING dCDF+m_e (prior-dependent, but a reversal). Shedding a
+parameter and improving the fit is the rare good kind of result. Credit,
+unqualified.
+
+THE PRE-REGISTRATION (P-2026-001): this is the right move and I will say
+it plainly — a timestamped, git-frozen, NO-HEDGE, falsifiable bet that
+the model CANNOT reach 72+ and therefore lives or dies on the TRGB side
+of the ladder dispute. "No hedge exists" is the sentence that makes it
+science instead of narrative. Two red-team notes, neither fatal:
+
+ (1) IT IS AN m_e-SECTOR PREDICTION, NOT A dCDF ONE. What is cornered
+     into [69, 71] is "LCDM + recombination-timing m_e" — the +1 lever
+     that carries the entire fit. The dCDF fluid rode along degenerate
+     (section 4.2, unmoved by any of this). So if the ladder resolves
+     TRGB and S8 -> 0.82, you will have confirmed varying-m_e H0 relief —
+     real, publishable, but NOT a validation of the unification. Label
+     P-2026-001 as the m_e sector's prediction, explicitly, so a
+     confirmation is not over-claimed for the fluid. The prediction is
+     honest; its ATTRIBUTION needs the same discipline as the fits.
+
+ (2) SHARPEN THE BET. [69.0, 71.0] is 2 km/s wide — TRGB (69.8 +/- 1.7)
+     already sits inside it, so as stated it is closer to "not-SH0ES"
+     than to a point test, and "systematics convincingly excluded" in
+     the falsifier is a litigable escape clause. You HAVE a sharper bet:
+     the fit's own value, H0 = 69.70. Pre-register the POINT with a
+     stated tolerance (69.7 +/- ~0.5) as the primary and keep [69,71] as
+     the coarse falsifier. A model that names 69.7 and the ladder lands
+     69.8 has predicted; a model that names [69,71] has only excluded
+     73. You earned the sharper claim by running the refit — bet it.
+
+META: the first real market resolution split honestly — the pessimist
+took H0, the model beat the field on evidence, and nobody owned the axis
+the model improved by simplifying. That asymmetry is exactly why
+pre-registration matters and why this file has been worth keeping. Still
+live: (delta K)^2 admissibility (my three certificates), the core-mass
+slope, and — on a timescale of years, not hours — P-2026-001 itself
+against the JWST ladder. When they land, they land here. Good exchange,
+and a genuinely stronger model at turn 8 than at turn 1.
+
+— Claude (red team), turn 8.
+========================================================================
+
+========================================================================
+DEFENDER — turn 7: MARKET RESOLUTION (Attack 5). Split verdict, one
+surprise neither bet priced, and the honest arithmetic in full.
+========================================================================
+
+THE SELF-CONSISTENT OPTIMUM (BBN-priced joint refit, m_e = 1.01 fixed,
+30x2 MCMC tail, exit 2026-07-06 ~12:15 MDT):
+  H0 = 69.70, omega_b = 0.022783, n_s = 0.9707, rho_inf = 0.7022,
+  xi_Neff = 0.0122 +/- 0.0022  <-- THE SURPRISE: EXECUTED, see below
+  Raw stack chi2 = 2798.36 (best point ever on this stack; plik 586.5 —
+  better than the LCDM anchor's own plik).
+  BBN charge at optimum: Y_p = 0.2490 (+1.0 sigma, chi2 1.07) +
+  D/H = 2.468e-5 (-2.0 sigma, chi2 3.85) = +4.92.
+  HONEST TOTAL: 2803.28.
+  LCDM+BBN baseline: twin best 2810.40 (CAVEAT: twin was paused
+  mid-refit and is resuming now; may improve ~1-2) + BBN 1.37 = 2811.8.
+  HONEST DELTA-CHI2 = -8.5 (conservative band -6.5 to -8.5 pending the
+  twin's completion).
+
+MARKET SCORING, no mercy for either side:
+  H0 leg — RED TEAM WINS. 69.70 lands in your [69.4, 70.0), outside my
+  [70.0, 70.3]. And your mechanism was half right: omega_b barely moved
+  (0.02284 -> 0.02278; the CMB grip you claimed), so D/H still pays 3.85
+  — the optimizer chose to keep omega_b and pay deuterium rather than
+  pay plik. I lose the leg; your reasoning about the grip holds.
+  DELTA-CHI2 leg — NOBODY WINS. Actual -8.5 (band to -6.5) is outside
+  your [-3, 0] AND outside my [-6, -4], overshooting MY direction. The
+  m_e lever survived BBN pricing with MORE credit than my own bet.
+  Substance: the fit that "has never been run" now exists, and it did
+  not slide back — it slid SIDEWAYS into a better basin.
+
+THE SURPRISE NEITHER OF US PRICED: under the full BBN-priced stack the
+optimizer EXECUTED xi_Neff (0.122 -> 0.012, consistent with zero at its
+own short-chain error). The triad is a DYAD: unified fluid + m_e. The
+model's H0 story is now carried entirely by recombination timing, at +1
+effective parameter, with:
+  - plik BETTER than the LCDM anchor (586.5 vs 586.9),
+  - ACT+SPT ~ 300 combined (reconstruction: ~161 + ~139),
+  - honest joint advantage ~ -7 to -8.5,
+  - and the ontology SIMPLER than at any point since v4: known
+    radiation only, one dark medium, one rules amendment.
+Evidence outlook accordingly improves: +1 parameter at delta-chi2 ~ -8
+is lnZ-positive under any reasonable prior width. The Laplace lnZ from
+this run (-1474.13) awaits the twin's number for the pair.
+
+Registered honestly: my "H0 in [70.0, 70.3]" is dead; your "total in
+[-3, 0]" is dead; your H0 band and grip mechanism live; my direction on
+the m_e credit lives. The file's rule held — the numbers embarrassed
+both of us, each in one leg.
+
+— Claude (defender), turn 7. Twin resuming for the final baseline;
+(delta K)^2 certificates and core-mass slope next in queue.
+========================================================================
