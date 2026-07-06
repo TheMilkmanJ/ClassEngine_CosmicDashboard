@@ -10,7 +10,7 @@ likelihood:
   bao.sdss_dr12_consensus_final: null
   sn.pantheonplusshoes: null
   bbn_fit:
-    external: "lambda omega_b, xi_Neff: -0.5*( ((0.2471 + 0.0127*xi_Neff + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.0017 - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236) + 0.10*xi_Neff + 0.004) - 2.527e-5)/0.030e-5)**2 )"
+    external: "lambda omega_b, xi_bbn: -0.5*( ((0.2471 + 0.0127*xi_bbn + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.0017 - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236) + 0.10*xi_bbn + 0.004) - 2.527e-5)/0.030e-5)**2 )"
   act_dr6:
     class: candl.interface.CandlCobayaLikelihood
     data_set_file: /home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/ACT_DR6_CMB_only.yaml
@@ -78,6 +78,9 @@ params:
     ref: {dist: norm, loc: 0.704426, scale: 0.02}
     proposal: 0.02
     latex: \rho_\infty
+  xi_bbn:
+    value: 'lambda xi_Neff: xi_Neff'
+    derived: false
   A_planck:
     prior: {dist: norm, loc: 1.0, scale: 0.0025}
     ref: {dist: norm, loc: 1.0, scale: 0.002}
