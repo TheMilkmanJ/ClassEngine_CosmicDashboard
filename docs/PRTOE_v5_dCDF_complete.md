@@ -627,7 +627,12 @@ and will be largely moot the day it lands: that stack omits data
    interest — favorable, and netted against the controlled number. Adding a BBN likelihood
    (Y_p + D/H as Gaussians) to the joint stack — and feeding varying_me
    back into the Y_He table (a booked code inconsistency, §9.4) — are
-   now required for any refit that samples m_e. PRIMAT-grade
+   now required for any refit that samples m_e. **Both closed
+   (2026-07-06 evening): the dyad config computes Y_He self-consistently
+   (YAML-level lambda, no C change) and carries the generalized BBN
+   prior; the inconsistency priced at the market optimum = 0.66% in raw
+   Cls, −0.4 in χ² (ACT −1.5, plik +0.4, SPT +0.7) — sign-favorable,
+   absorbed, closed.** PRIMAT-grade
    confirmation remains open (§11). The §2 completion's a⁻⁶ stiff tail /
    pre-basin radiation phase is independently BBN-constrainable (§11).
 
