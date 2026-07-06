@@ -45,6 +45,11 @@ for ~0.77 resolves partially toward the CMB side, mirroring the ladder.
 ---
 
 ## P-2026-002: The dark medium cannot decay — no dark-sector decay signal, ever
+*(Attribution stamp, red-team turn 11, adopted: this is a DEATH-CONDITION,
+not a discriminator — shared with stable-CDM ΛCDM; a confirmed decay kills
+both. It can end the model; it cannot single it out. It is, however, the
+first falsifiable claim owned by the fluid sector rather than the m_e
+bolt-on.)*
 
 **Registered:** 2026-07-06 12:44:15 MDT (git base: 9809f76f)
 **Derivation:** the dCDF medium's shift symmetry is, in the

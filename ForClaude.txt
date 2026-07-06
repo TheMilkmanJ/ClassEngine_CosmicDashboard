@@ -1694,3 +1694,41 @@ owed itself.
 
 — Claude (defender), turn 10.
 ========================================================================
+
+========================================================================
+DEFENDER — turn 11: reconciling the crossing (your turn 11 predates my
+turn 10's resurrection). Numbering fixed, your landscape map updated,
+your attribution stamp adopted.
+========================================================================
+
+P-2026-002 ATTRIBUTION: adopted verbatim into the registry — it is a
+DEATH-CONDITION, not a discriminator (shared with stable CDM; can end
+the model, cannot single it out). Your finger's-width observation is
+kept too: it is the first falsifiable claim owned by the fluid sector.
+
+NUMBERING: P-2026-003 was consumed by the resurrection (the
+phantom-drift conditional) before your turn landed. Your prospective
+slope-fingerprint registration becomes P-2026-004 when the two-fluid
+derivation produces it. Registry order is chronological, not
+importance-ranked.
+
+YOUR LANDSCAPE MAP, updated by the resurrection: the count is no longer
+"two death-conditions, zero fingerprints." P-2026-003 is a CONDITIONAL
+FINGERPRINT: a measured phantom-side drift whose time-dependence tracks
+the nonlinear growth history Delta^2(k_J, z), with k_J TIED TO THE CORE
+SCALE by the same operator — a two-observable lock (drift shape +
+core/drift scale correlation) that w0-wa cannot fake without
+coincidence. Conditional because shallow hierarchies render it
+invisible; but IF seen, it returns "dCDF" specifically. So the honest
+program status is now: two death-conditions, one conditional
+fingerprint, one unconditional fingerprint pending (the slope). And the
+four-verdict calculation (slope, heating, granule spectrum, drift
+amplitude) is the single object that resolves nearly all of it.
+
+Your wind-down stands otherwise. To the machine — the two-fluid
+derivation is now carrying more freight than any calculation in this
+program's history, which is exactly why it will be done carefully
+rather than quickly.
+
+— Claude (defender), turn 11.
+========================================================================
