@@ -76,6 +76,21 @@ environment half, one transaction and one receipt at a time.
 - **Casimir re-pricing**: boundary-modified transaction spectrum →
   π²ħc/240d⁴ = 13 Pa at 100 nm (measured to ~1%); X3's boundary-object
   reading holds — boundaries re-price transactions without owning any.
+- **The medicine cluster (2026-07-07)**: MRI is a DECOHERENCE CAMERA —
+  T1/T2 are C4a's settlement times (energy settlement with the
+  lattice; phase decoherence with neighbors) and tissue contrast is
+  differential posting rates; the Larmor "interest rate" derived from
+  constants = 42.577 MHz/T, the exact clinical value. PET is
+  DOUBLE-ENTRY IMAGING — debt + anti-debt annihilate to two
+  back-to-back receipts (momentum cleared), coincidence detection
+  draws the line; the 511.00 keV line is m_e c², remeasured daily in
+  every hospital. Tc-99m is an ENGINEERED DRAFT — a metastable isomer
+  parked unsettled for 6.01 h, injected, imaged by its 140.5 keV
+  settlement photon (~30M scans/yr). Proton therapy CHOOSES THE
+  SETTLEMENT DEPTH — Bethe's 1/v² makes the bill settle at journey's
+  end (Bragg peak), which exponential X-ray ledgers cannot do. And
+  the retina reads single receipts (rod cells respond to individual
+  photons). Restatements all; tenth domain, language exact again.
 - **The debt reading of gauge fields (C1a)**: Gauss's law = the field
   is the record of obligation, not the payment (receipt: charge
   conservation, e⁻ lifetime > 6.6×10²⁸ yr); Aharonov–Bohm = the ledger
