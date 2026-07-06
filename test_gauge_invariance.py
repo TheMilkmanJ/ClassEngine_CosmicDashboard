@@ -61,3 +61,5 @@ print(f"P(k=0.1): sync {pks['synchronous']:.6e}  newt {pks['newtonian']:.6e}  "
 
 verdict = "PASS" if rel.max() < 1e-3 else "FAIL (defect present)"
 print(f"\nVERDICT: {verdict}")
+import sys
+sys.exit(0 if verdict == "PASS" else 1)
