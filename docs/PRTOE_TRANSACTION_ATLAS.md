@@ -256,6 +256,16 @@ local-state loophole; the universal-vev kill via epoch gating).*
   LINEAR merger rules (vortex+vortex = 2 vortices; no self-reference).
   The null is explained, not just recorded.
 
+- **"Superplasma" pre-condensation phase (operator's bet, timestamped
+  2026-07-07 5:36pm):** scored same evening. The core instinct is
+  CONFIRMED and was already derived — the medium HAS a pre-condensation
+  stage (pre-basin, z ≳ 10⁵: w = 1/3, double-derived). But it is not a
+  plasma: plasmas require charged constituents, Debye screening, and a
+  plasmon GAP (ω > 0 at k = 0); the pre-basin phase is a GAPLESS
+  neutral acoustic gas (ω = k/√3) of the medium's own quanta — "its
+  own radiation," not its own plasma. A gapped phase would also sit
+  against P-2026-005's structural gaplessness. Phase: yes. Plasma: no.
+
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
   anchors.

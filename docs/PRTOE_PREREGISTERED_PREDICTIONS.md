@@ -411,3 +411,30 @@ are closed; candidate mechanisms must produce epoch contrast through
 something other than the medium's density history.
 
 ---
+
+## ANN-2026-008: P-2026-003 resolved by derivation — the mutual-exclusion theorem (V4)
+
+**Recorded:** 2026-07-07 evening (git base: bfca4d7a)
+**The derivation (five-verdict kernel 2.4):** the same operator
+coefficient m̄₂² sets BOTH the funded floor's amplitude AND (via
+M_eff = M₂²/m̄₂) the core scale, yielding the zero-free-parameter
+lock **ν = (4πα/3)(M₂²/(M_eff M_Pl))², α ≈ 2**. Consequences:
+(i) **observable drift and observable cores are MUTUALLY EXCLUSIVE**
+— DESI-visible ν ~ 1e-3 requires M_eff ~ 6.6e-25 eV, i.e. l_dB ~
+90 kpc: galaxies could not exist. LSS bricks the deep hierarchy;
+(ii) in the structure-allowed range, nu <= 1e-8: **P-2026-003's
+drift fingerprint resolves to its registered "absent/below
+detection" branch** — the mechanism stands (sign-locked phantom,
+growth-squared time-shape) at an amplitude invisible to any
+foreseeable w-measurement; the Bianchi withdrawal (ANN-2026-001's
+rider (i)) clears RSD by ~7 orders, trivially;
+(iii) **CORRECTION ON THE RECORD:** the earlier scaling-grade claim
+that the deep end (x0 ~ e^-43) was "DESI-scale" (4e-3) did not carry
+the m̄₂–M_eff lock and is superseded; the two-sided x0 window's
+chalk lower wall is replaced by a brick one (LSS), and the drift
+fingerprint is retired as an observable. P-2026-003's falsification
+structure survives unchanged: a confirmed phantom drift with the
+wrong shape still kills the mechanism; a confirmed drift at
+DETECTABLE amplitude now also kills it (the lock forbids it).
+
+---

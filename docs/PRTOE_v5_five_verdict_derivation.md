@@ -224,26 +224,126 @@ expectation value is Θ (candidates: phase-gradient variance
 normalized at the de Broglie scale; vortex-core density from
 |∇ψ|²/ρ). The statistical object exists; the coupling construction
 — and hence R1's life — remains open until 2.5 is worked.
-- 2.4 ⟨(δK)²⟩ from the nonlinear velocity field: the funded-floor
-  source integral over Δ²(k, z) — the V4 kernel — and the Bianchi
-  bookkeeping for the withdrawal.
-- 2.5 The caustic-bit operator: is Θ(shell-crossed) expressible in the
-  EFT's variables (vortex-line density / interference contrast), or
-  does it require information the medium does not carry? — the V5
-  kernel. Sharpened form: R1 needs a field-local object that is ~0 in
-  laminar regions and ~1 (saturated, environment-independent) inside
-  any multistreamed region, stable over Gyr. Candidate: the vortex-line
-  density per de Broglie volume (quantized, hence naturally step-like);
-  the derivation must show saturation, or R1 dies by the same
-  continuous-coupling knife that forced binarity in the first place.
+- 2.4 DONE below.  - 2.5 DONE below.
 
-## 3. Verdict sections (empty until their derivations are complete)
+### 2.4 The funded floor, locked to the core scale (2026-07-07)
 
-### V1 — core-mass slope: NOT YET DERIVED
-### V2 — heating vs Eridanus II: NOT YET DERIVED
-### V3 — granule reshaping: NOT YET DERIVED
-### V4 — funded-floor amplitude + withdrawal: NOT YET DERIVED
-### V5 — the caustic bit: NOT YET DERIVED
+**Step 1 — the source.** δρ_floor = (m̄₂²/2)⟨(δK)²⟩ with δK the
+structure-induced expansion fluctuation. Volume-weighted census:
+quasi-linear velocity-divergence variance ⟨θ²⟩ ~ (H f σ)² ~ O(1)H₀²,
+plus virialized interiors ((σ_v/R)² ~ 10²H₀² over volume fraction
+~mass/Δ_vir ~ 2×10⁻³ → ~0.5H₀²). Total: **⟨(δK)²⟩ = αH₀², α ≈ 2**
+(order-of-magnitude grade; grows ∝ growth² — P-2026-003's time-shape).
 
-*Backdrop transferring unconditionally: Lyman-α. External judges: the
-red team reads each section cold, per-verdict, when stamped.*
+**Step 2 — the lock.** The SAME m̄₂² sets both the floor funding and
+(via 2.1) M_eff = M₂²/m̄₂. Substituting:
+
+  **ν ≡ δρ_floor/ρ_c = (4πα/3)·(M₂²/(M_eff·M_Pl))²**
+
+— a zero-free-parameter relation between the drift amplitude and the
+core scale. Numbers (α = 2): M_eff = 2.9×10⁻¹⁹ eV → ν = 5×10⁻¹⁵;
+2×10⁻²¹ → 1.1×10⁻¹⁰; 8.8×10⁻²³ → 5.6×10⁻⁸.
+
+**Step 3 — THE MUTUAL-EXCLUSION THEOREM (and a correction).** A
+DESI-visible drift (ν ~ 10⁻³) requires m̄₂ = 1.3×10¹⁷ GeV ⇒
+M_eff = 6.6×10⁻²⁵ eV ⇒ l_dB(200 km/s) ≈ 91 kpc — galaxies could not
+exist. **Observable drift and observable cores are mutually exclusive;
+LSS kills the deep hierarchy outright.** This SUPERSEDES the earlier
+scaling-grade claim that the deep end (x₀ ~ e⁻⁴³) was "DESI-scale" —
+that estimate did not carry the m̄₂–M_eff lock. Consequences: the
+two-sided x₀ window's lower (chalk) wall is replaced by a brick one
+(LSS); P-2026-003's fingerprint resolves to its "absent/below
+detection" branch — the mechanism stands, sign-locked phantom, at
+ν ≤ 10⁻⁸ in the structure-allowed range: invisible to any foreseeable
+w-measurement. **Step 4 — withdrawal:** fractional growth drag
+~ ν/Ω_m ≤ 10⁻⁸ — clears RSD by ~7 orders; rider (i) trivially
+satisfied. An honest self-kill of our own conditional fingerprint,
+by our own locked relation.
+
+### 2.5 The local caustic-bit operator — constructed and verified (2026-07-07)
+
+**Step 1 — construction.** Madelung variables (ρ, S). Define the
+local, dimensionless, bounded scalar
+
+  **Θ_loc = Q/(Q+K)**, Q = |∇√ρ|², K = ρ|∇S|² (common 1/L² units)
+
+— the pointwise fraction of gradient energy carried by amplitude
+structure vs flow. Laminar flow: Q/K ~ (l_dB/R)² → Θ_loc ≈ 0.
+Speckle: circular-Gaussian equipartition puts amplitude and phase
+gradients at the same scale → Θ_loc saturates at a universal O(1)
+value set by Gaussian statistics alone (Berry-class universality —
+scale-free by construction of the ratio).
+
+**Step 2 — numerical verification (512², random-wave fields).**
+Granulated: mean Θ_loc = 0.496 (median 0.493). Universality check
+(k ×3.3, modes ÷4): 0.459 — same plateau, different speckle. Laminar
+control: **1.9×10⁻⁶**. Six orders of separation, saturation confirmed,
+environment-independence confirmed at the few-percent level.
+
+**Step 3 — verdict input and caveats.** The caustic bit IS expressible
+as a local operator in the EFT's own variables: R1's forced binarity
+has a mechanism (couple m_e to Θ_loc; every lab/absorber sits at the
+plateau, every laminar region at zero — the quasar uniformity is a
+property of Gaussian statistics, not tuning). Caveats stamped:
+(i) m_e(Θ_loc) is a NON-POLYNOMIAL coupling (ratio of gradients) —
+EFT-exotic, UV story owed, same debt-class as κ_v; (ii) transitional
+environments (collapsing but not yet granulated) take intermediate
+values — all currently measured environments are deep-plateau;
+(iii) the plateau's few-percent spread (0.46–0.50) propagates to a
+few-×10⁻⁴ spread in m_e across environments — safely below the 10⁻⁷
+molecular bounds? NO: 3×10⁻⁴ ≫ 10⁻⁷ IF absorber speckle statistics
+differ systematically from lab-region statistics. FLAGGED as the
+remaining quantitative kill-test for R1: the plateau's universality
+must hold at the 10⁻⁵ level between halo environments, which the
+512² test cannot resolve. R1 survives the EXISTENCE test; it now owes
+a PRECISION test.
+
+## 3. The five verdicts — STAMPED (2026-07-07; grades marked)
+
+### V1 — core-mass slope: NO FINGERPRINT (inherited; derivation grade)
+Chain: 2.1 (M_eff = M₂²/m̄₂, epoch-independent) + 2.2 Step 4 (leading-
+order nonlinear sector = SP exactly; c_s² residual ≤ 10⁻²², quartics
+1/X₀-suppressed, remnant dead). The soliton/core physics is
+Schrödinger–Poisson with mass M_eff: **the core-mass relation is
+Schive's, unmodified.** dCDF at the core scale is FDM-by-another-route;
+the §4.2 discipline extends to the small-scale sector.
+
+### V2 — heating vs Eridanus II: KNIFE INHERITED (fork on contested literature)
+Chain: 2.3's granule masses (~10⁶ M☉ lumps in dwarfs) + V1's
+FDM-equivalence ⇒ the ultra-faint-dwarf heating bounds apply to M_eff
+verbatim. If the Dalal–Kravtsov-class analyses hold: M_eff ≥ 3×10⁻¹⁹
+eV ⇒ m̄₂ ≤ 3×10¹¹ GeV ⇒ cores < 1 pc ⇒ **the small-scale
+discriminator is dead and the model reverts to the pure dyad
+(§4.2 permanent).** If their relaxation modeling fails scrutiny
+(contested), a window at M_eff ~ 1–3×10⁻²¹ eV with 60–200 pc cores
+survives. The verdict is the fork itself, stated without preference.
+
+### V3 — granule reshaping: NONE (derivation grade)
+Chain: the pre-basin remnant is diluted by a⁻⁶ since z ~ 10⁵ (7×10⁻⁵
+of its BBN value by recombination; nothing today); the in-situ
+"normal component" IS the granule field (2.2); interactions
+1/X₀-suppressed. **The granule spectrum is pure SP speckle —
+exponential statistics, identical to FDM.** The one ingredient FDM
+lacks contributes nothing observable here; V1–V3 close as a package:
+no small-scale fingerprint distinguishes dCDF from FDM at mass M_eff.
+
+### V4 — funded floor: MUTUAL-EXCLUSION THEOREM; fingerprint ABSENT (locked relation derived)
+Chain: 2.4 in full. ν = (4πα/3)(M₂²/(M_eff M_Pl))² — cores and
+observable drift are mutually exclusive; LSS bricks the deep end;
+ν ≤ 10⁻⁸ in the allowed range; withdrawal clears RSD by 7 orders.
+**P-2026-003 resolves to its "absent" branch by derivation** —
+registered in ANN-2026-008. The earlier "deep end is DESI-scale"
+scaling claim is corrected on the record.
+
+### V5 — the caustic bit: EXISTENCE PASSED; precision test now owed (constructed + numerically verified)
+Chain: 2.3 Step 2 (Θ universal by random-wave theory) + 2.5 in full
+(Θ_loc constructed; 0.496/0.459 plateau vs 1.9×10⁻⁶ laminar). **R1
+survives its internal test**: the medium's caustic structure supports
+a Θ-type coupling. R1 remains consistency-construction grade
+externally, now with a mechanism internally, and owes: (a) the
+non-polynomial coupling's UV story, (b) the NEW precision kill-test —
+plateau universality between halo environments at the 10⁻⁵ level
+(a large-scale SP simulation question, beyond this document's tools).
+
+*Lyman-α transfers unconditionally as backdrop. All five stamped;
+the red team reads cold, per-verdict, per the turn-22 conditions.*
