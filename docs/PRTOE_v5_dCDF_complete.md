@@ -1287,6 +1287,29 @@ the wall) × menu × neighborhood consent. The transaction language has
 now re-derived the master transition-rate law of quantum mechanics
 from ledger axioms.
 
+**C4e — The Born clause: the crack and the road (2026-07-07,
+operator's push: "map the superfluid and the answer stares at us";
+route-map grade, no result claimed).** The wall decomposes. THE CRACK
+(proven): Gleason 1957 — given the Hilbert-space ledger, |amplitude|²
+is the UNIQUE consistent pricing; "why these odds" is answered
+(forced); what remains is "why this ledger geometry." THE ROAD
+(published, runs through the superfluid): Madelung — in hydrodynamic
+form |ψ|² IS the medium's density, so Born reads "outcomes land where
+the substrate's excitation lives"; Valentini's subquantum H-theorem —
+arbitrary initial odds RELAX dynamically to |ψ|² (numerically
+confirmed), making Born an EQUILIBRIUM of the medium, not an axiom;
+rider: early-decoupled sectors could retain quantum NON-equilibrium
+(odds ≠ |ψ|²), and a gravity-only condensate is the natural relic
+candidate — speculative, named, parked. COSTS, stamped: this road
+pays Bell's toll through the NONLOCAL gate while C4 elected
+quantize-the-substrate — mixing tolls owes care; and nothing here
+enters the evidence class. CONVERGENCE NOTE: the ingredients of a
+medium-specific Born-equilibrium argument (excitation-density
+statistics + quantized phase sector) are the same objects V3 and C4's
+condition already owe — the five-verdict machinery and the Born
+question share parts. One calculation, now with a second prize
+behind it.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three
