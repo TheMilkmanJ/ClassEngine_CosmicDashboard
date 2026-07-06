@@ -34,9 +34,15 @@ lensing, BAO 6dF+MGS+DR12, Pantheon+SHOES):
 |---|---|---|
 | ΛCDM anchor (H0=67.4) | 2515.45 | — |
 | dCDF best fit (H0=**70.40**, ξ=0.403) | **2496.24** | **−19.2** |
+| same two points on ACT DR6 (point eval, §9.1) | 184.6 vs 161.9 | **+22.7** |
 
-with S8 = 0.826 vs ΛCDM's 0.833 and Pantheon+SHOES carrying −27.8 of the
-improvement. Bayesian evidence comparison (PolyChord, nlive 500) in flight.
+**The −19.2 is Planck+BAO+SN-conditional.** Adding the ACT DR6 damping tail
+at the frozen best fit claws back essentially all of it; the flat H0–ξ
+ridge means the joint-refit optimum is expected near H0 ≈ 69, ξ ≈ 0.15
+(H0 relief ~1.5 km/s/Mpc, not ~3). The joint Planck+ACT+SPT refit (§11) is
+what turns this row into a final number. S8 = 0.826 vs ΛCDM's 0.833;
+Pantheon+SHOES carries −27.8 of the Planck-stack improvement. Bayesian
+evidence comparison (PolyChord, nlive 500) in flight.
 
 **Read this first — the result decouples into two independent claims:**
 
@@ -98,13 +104,24 @@ stated honestly:
   $w(\rho) = -\rho_\infty/\rho$ of §1/§3 is what is actually implemented and
   integrated.
 - Validity across the observationally exercised range requires a **designed
-  hierarchy**: $u/X_0 \lesssim e^{-20}$ today so the fluid stays in the
-  extremum's basin through recombination ($s \approx 20$), with cubic terms
-  of the full $P(X)$ subdominant over that range. Achievable to any target
-  precision; tuned, and honestly labeled as such.
-- The $a^{-6}$ tail is a **falsifiable prediction of the completion**: a
-  stiff component at early times is BBN-constrainable, so "how close to the
-  extremum" is an empirical question, not pure aesthetics.
+  hierarchy**, and since $u \propto a^{-3}$ grows into the past, the binding
+  condition is set by the *earliest* epoch that needs dust behavior:
+  $u/X_0|_0 \lesssim e^{-25}$ for basin validity back through
+  matter–radiation equality ($z_{\rm eq} \approx 3400$, $a^{-3} \approx
+  e^{24.4}$), $\lesssim e^{-66}$ back through BBN. Cubic terms of the full
+  $P(X)$ must stay subdominant over the same range. Achievable to any
+  target precision; tuned, and honestly labeled as such.
+- **Outside the basin the truncated completion is not dust**: for
+  $u \gg X_0$, $P \propto X^2$ gives $w = 1/3$, $c_s^2 = 1/3$ — a
+  self-interacting dark-radiation phase (this is in Scherrer's original
+  analysis, which requires basin entry "sufficiently early" for the same
+  reason). So the completion's early history is a **falsifiable
+  prediction**, twice over: the $a^{-6}$ stiff tail just inside the basin,
+  and an effective ΔN_eff contribution at BBN if basin entry postdates it —
+  the latter interacting directly with the model's own sampled ξ_Neff.
+  "How close to the extremum" is an empirical question, not aesthetics;
+  attaching numbers (Y_p, D/H shifts vs entry redshift) is an open item
+  (§11).
 
 No-ghost: $\partial\rho/\partial X = P_X + 2XP_{XX} > 0$ requires $P_2 > 0$
 on the $X > X_0$ branch — satisfied by construction; the same condition makes
