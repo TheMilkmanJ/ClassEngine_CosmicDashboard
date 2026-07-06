@@ -140,9 +140,56 @@ number m̄₂ ⇒ the entire FDM-equivalent phenomenology, epoch-fixed);
 V3 reads Step 1's structural fact (granules are pure completion);
 V5 will read Step 2's δK-to-π map when the caustic-bit question is
 posed in these variables.
-- 2.2 The shedding emissivity: rate of energy transfer from coherent
-  infall to incoherent excitations at a would-be caustic (Landau
-  criterion with v_c = 0); this is the NEW object no FDM paper has.
+- 2.2 DONE below.
+
+### 2.2 The shedding rate (2026-07-07)
+
+**Step 1 — where shedding can and cannot happen.** Landau with
+ω = k²/2M_eff: a flow of speed v may emit modes with k < 2M_eff v —
+the critical velocity is zero (cert 1/F3). But Galilean invariance
+protects HOMOGENEOUS superflow: with no momentum sink, uniform flow
+cannot shed. Shedding requires flow gradients; the would-be caustic —
+where gradients diverge — is where it happens. (This is why the
+background cosmology never sheds: the Hubble flow is locally uniform;
+the medium granulates only inside collapsing structure. V4's
+structure-gating is this fact restated.)
+
+**Step 2 — the rate.** At a forming caustic, compression is halted by
+the k⁴ quantum pressure at the de Broglie scale l_dB = 2πħ/(M_eff v);
+the coherent stream self-interferes and converts over the transit
+time of that region:
+
+  **t_shed ~ ħ/(M_eff v²)** ;  emissivity ε ~ ρv²/t_shed = ρ M_eff v⁴/ħ.
+
+Heavier ripple-particles granulate faster (ε ∝ M_eff).
+
+**Step 3 — the regime boundary (a correction the numbers forced).**
+The rate law splits halos into two regimes, and the split IS the
+known phenomenology:
+- **Granular regime (R ≫ l_dB):** t_shed ≪ t_dyn (MW at 2×10⁻²¹ eV:
+  t_shed ~ 10⁴ yr vs t_dyn 250 Myr; even dwarfs at that mass: 9 vs
+  100 Myr) — virialized halos complete granulation within a fraction
+  of a dynamical time. SP simulations observe this; here it is a
+  derived rate.
+- **Coherence-patch regime (R ≲ l_dB):** at 10⁻²² eV a dwarf (R ~ 3
+  kpc) sits INSIDE one de Broglie patch (l_dB ~ 12 kpc) — granulation
+  cannot complete and the object is a single coherent lump: the
+  soliton core. The same rate law yields the granule field, the
+  soliton regime, AND the boundary between them (R ~ l_dB), with no
+  additional input.
+
+**Step 4 — structural pre-load for V1–V3 (flagged here, stamped only
+in their own sections).** In halos today: c_s²(halo) ≲ 10⁻²² (the §2
+residual), quartic self-interactions suppressed by 1/X₀, pre-basin
+normal remnant diluted to irrelevance (a⁻⁶ since z ~ 10⁵). The
+leading-order nonlinear sector is therefore EXACTLY Schrödinger–
+Poisson with mass M_eff — the same equations the FDM literature
+simulates. Unless the listed subleading terms intervene at observable
+level, the core-mass relation (V1), granule statistics (V3), and
+heating rates (V2) transfer from that literature with m → M_eff. The
+honest possible outcome that V1–V3 must confront: FDM-by-another-
+route, with the model's distinctive content living only in V4 (the
+funded floor — FDM has no such operator) and V5 (the caustic bit).
 - 2.3 The granule statistics: interference speckle field of ψ (standard
   SP) perturbed by the incoherent bath — the V3 kernel.
 - 2.4 ⟨(δK)²⟩ from the nonlinear velocity field: the funded-floor
