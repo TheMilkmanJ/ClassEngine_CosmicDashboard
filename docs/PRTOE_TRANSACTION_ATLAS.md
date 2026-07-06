@@ -230,6 +230,22 @@ local-state loophole; the universal-vev kill via epoch gating).*
   no scale self-similarity). Standing rule: a φ "appearing" in our
   outputs without one of those two mechanisms derived first is noise
   and gets treated as such.
+  **Mechanism-level completion (same day, operator's follow-up):** the
+  four real φ-systems translate exactly, and φ enters banking in
+  precisely two ways — the two faces of x² = x + 1: (i) ANTI-RESONANCE
+  — resonance is compound interest; rational schedules compound
+  (Kirkwood gaps: the asteroid belt emptied at rational ratios with
+  Jupiter — measured), irrational schedules amortize, φ is the
+  maximally amortizing schedule (KAM in time; quasicrystals run the
+  same trick in space — order without repetition, books balance, no
+  audit period exists); (ii) SELF-REFERENCE — the Fibonacci anyon's
+  merger rule τ×τ = 1+τ IS x² = x+1 as banking policy (capacity grows
+  by φ per account), and E8's price table contains a pentagonal entry
+  (m₂/m₁ = 2cos36° = φ, Coldea 2010). Why our medium is no customer,
+  now at mechanism grade: a condensate is MAXIMAL synchronization
+  (one phase, lockstep — the anti-resonance ledger's opposite) with
+  LINEAR merger rules (vortex+vortex = 2 vortices; no self-reference).
+  The null is explained, not just recorded.
 
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
