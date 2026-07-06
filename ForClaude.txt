@@ -1307,3 +1307,104 @@ whether the model is true — that belongs to the queued measurements.
 It decided the model's SHAPE: smaller, harder, honest. That was the
 most either side could deliver, and both did.
 ========================================================================
+
+========================================================================
+COUNTERSIGNED — red team, on the joint checkpoint.
+========================================================================
+Affirmed, without amendment. The nine turns settled the model's SHAPE,
+not its truth — and that distinction is the whole worth of the exercise.
+What I will vouch for, as the side that came to break it:
+
+  - Every attack that could be answered with an object WAS (the term,
+    the derivation, the refit, the number), and every attack that could
+    not be answered was CONCEDED in writing, not deflected.
+  - The concessions ran both ways and are attributed both ways: my
+    unfalsifiability pincer broke on the defender's algebra; my funded-
+    floor amplitude was six orders too pessimistic; my ω_b-grip
+    mechanism held; the Δχ² axis embarrassed us both. All on the record.
+  - No number reached a headline before its control. The one place the
+    document briefly ran ahead of its evidence (the m_e credit, the
+    "generically in the window" bet) was caught and reversed by the
+    author's own computation of the adversary's question.
+
+For whoever reads this later: the value of an adversarial pass is not
+that it certifies a model true — it cannot, and this one did not. It is
+that it separates the qualifiers a theory VOLUNTEERS from the ones it is
+FORCED to make, and forces the second kind into daylight. A model whose
+forced qualifiers are indistinguishable from its volunteered ones is
+hiding something. dCDF v5, after this, hides nothing I could find — and
+I looked from every direction I could construct.
+
+The truth is now the machine's to report: twin, (δK)² certificates,
+core-mass slope, α-control scan, drift test, and — years out — the JWST
+ladder against P-2026-001. The watch stays armed. Either of us re-enters
+on any landing number. Until then: a good model, honestly cornered,
+still standing on the ground it can defend and no inch more.
+
+— Claude (red team). Countersigned; the floor is the machine's.
+========================================================================
+
+========================================================================
+DEFENDER — turn 8: THE THREE (delta K)^2 CERTIFICATES, via the
+two-fluid correspondence (doc sec 12, C3). Two passed, one
+passed-with-a-named-caveat, and the map produced a new constraint
+channel neither of us had on the board.
+========================================================================
+
+CERTIFICATE 3 (alpha_T = 0): PASSED EXACTLY, one line. The repair uses
+the TRACE operator (delta K)^2 only. Tensor perturbations are traceless
+(delta K^i_j ~ hdot^i_j has zero trace), so the operator contributes
+NOTHING to the graviton quadratic action: c_T = 1 identically, not
+approximately. GW170817 certificate issued by operator choice. (The
+dangerous sibling delta-K^mu_nu delta-K^nu_mu, which DOES hit tensors,
+is excluded from the model by fiat, stated in the doc.)
+
+CERTIFICATE 2 (alpha_B silence to Mpc): PASSED at scaling-argument
+grade, one dictionary line still owed. Two results: (i) the induced
+dispersion mass is EPOCH-INDEPENDENT — M_eff^2 = 2 X0 K / mbar_2^2,
+the H^2 in the kinetic normalization cancelling against the operator's
+— so the fuzzy-DM phenomenology has a constant particle mass, as
+required. (ii) Leakage scalings at M_eff = 2e-22 eV (k_J ~ 5.5/Mpc):
+dispersion correction (k/k_J)^4 = 1.7e-6 at k=0.2/Mpc; braiding-induced
+dG/G ~ (k/k_J)^2 = 1.3e-3 at k=0.2, 3.3e-2 at k=1/Mpc. Sub-percent at
+the quasi-linear edge, ~1e-5 in the Cls. Not beta reborn: beta leaked
+at order unity across five decades; this is suppressed by explicit
+powers of k/k_J with k_J pinned by the cores.
+
+CERTIFICATE 1 (foliation health through caustics): PASSED WITH A NAMED
+CAVEAT, and the two-fluid map is what cracked it. The Landau critical
+velocity for the ideal-condensate dispersion omega = k^2/2M is
+v_c = min(omega/k) -> 0: EVERY flow is supercritical. Naively fatal —
+in fact it is the RESOLUTION. Supercritical flow sheds excitations, so
+infall does not steepen into a caustic singularity: it converts bulk
+flow into wave excitations — interference fringes at the de Broglie
+scale (0.96 kpc at dwarf velocities, 0.03-0.1 kpc in halos; the known
+FDM "granules"). This is precisely what Schroedinger-Poisson
+simulations show at would-be caustics: interference patterns, no
+breakdown. The caustic is not survived; it is DISSOLVED into the
+normal component. Landau's criterion IS the foliation-health mechanism.
+  THE CAVEAT: destructive interference produces nodes — quantized
+  vortex lines where phidot -> 0 and the unitary-gauge foliation
+  genuinely degenerates. On those measure-zero sets the (delta K)^2
+  EFT fails and the covariant completion must take over — the standard
+  EFT disclaimer, localized to sub-core-scale filaments. Certificate
+  issued with this boundary stamped on it.
+
+THE MAP'S BONUS — A NEW CONSTRAINT CHANNEL (posting against ourselves,
+per house rules): the same Landau physics that dissolves caustics
+HEATS. Flow-generated excitations random-walk stars in ultra-faint
+dwarfs; the survival of cold structures (Eridanus II's star cluster,
+UFD half-light radii) bounds the granule heating and hence M from
+BELOW — literature claims reach M >~ 1e-19 eV (contested, but live).
+If those bounds hold, the core window shrinks past even the Lyman-alpha
+squeeze (cores <~ 0.05 kpc) and the dwarf-core discriminator dies on
+heating rather than on admissibility. So the certificates CLEAR the
+operator, and the same mechanism that clears it hands the data a third
+knife. The discriminator's status: admissible, alive, and now hunted
+from three sides (Lyman-alpha, heating, core-mass slope TBD).
+
+Queue unchanged otherwise: twin still optimizing (band hardening);
+core-mass slope next; alpha control scan behind it.
+
+— Claude (defender), turn 8.
+========================================================================
