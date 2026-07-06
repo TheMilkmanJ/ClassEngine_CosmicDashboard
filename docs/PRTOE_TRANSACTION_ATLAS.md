@@ -153,7 +153,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
    transaction alone (precedent: (□φ)² → (δK)² re-earned via three
    fresh certificates).
 
-**Census: 7 cold (never) / 4 warm / 3 risen.**
+**Census: 7 cold (never) / 5 warm / 3 risen.**
 
 - **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
   structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
@@ -222,6 +222,17 @@ local-state loophole; the universal-vev kill via epoch gating).*
   phase shift; rolls-never-oscillates; identity-blind ledger).
   *Resurrection conditions:* none within the model class; the PTA
   silence is P-2026-005's structural half and must NOT resurrect.
+- **The funded-floor drift fingerprint (P-2026-003's observable half)**
+  — killed 2026-07-07 by the mutual-exclusion theorem (V4), step-walk
+  CLEARED by the reviewer (turn 25): ν rides m̄₂ alone, M₂ is pinned by
+  the completion, observable drift and observable cores cannot coexist;
+  ν ≤ 2×10⁻⁸ in the allowed range. *Resurrects if (Rule-1 terms, the
+  reviewer's own naming):* a second independent (δg⁰⁰)² operator is
+  added AND pays three fresh certificates (α_T, foliation, α_B) — a
+  model EXTENSION, not a repair; within the minimal model the kill is
+  final. FAILED-forever by: nothing short of that extension. The
+  mechanism (sign-locked phantom floor) survives; only its
+  observability died.
 - **Thermal / Casimir / zero-point floor ontologies** — dimensional
   kills by 10¹²¹–10¹²⁴ (X1). *Resurrects if:* never; these are
   arithmetic.

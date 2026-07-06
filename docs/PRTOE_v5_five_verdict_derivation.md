@@ -393,3 +393,21 @@ beyond the worst-case stack, unreachable by prefactors, reachable
 only by breaking Step A's powers. **The mutual-exclusion theorem and
 the ABSENT resolution of P-2026-003 stand with ≥ 4 orders of margin.**
 The reviewer's conviction or acquittal follows this section.
+
+**Step E — THE TRUE HINGE (found by the reviewer, turn 25; the walk's
+verdict: CLEARED).** The substitution ν = (4πα/3)(m̄₂/M_Pl)² shows ν
+depends on m̄₂ ALONE while M_eff = M₂²/m̄₂ depends on m̄₂ AND M₂ — so
+Step A's "two powers" were a symptom, not the cause: the mutual
+exclusion is enforced by exactly one fact, **M₂ is PINNED**
+(M₂⁴ = X₀²P₂ — in k-essence the (δg⁰⁰)² coefficient is a background
+quantity ~X²P_XX fixed by the completion, and the one-term taxonomy
+admits only (δK)² as the added free operator). If M₂ were free, drift
+and cores would coexist with no power broken. The reviewer
+interrogated the pin and could not open it. **Registered precisely,
+in the reviewer's words: the kill holds under M₂-pinned (single added
+operator); it is un-killable ONLY by a second independent (δg⁰⁰)²
+term — a MODEL EXTENSION that breaks the one-term taxonomy and owes
+its own three certificates (α_T, foliation, α_B). Within the
+corroborated minimal model, the kill is final.** The turns-12/19
+premature credit and the un-locked scaling that misled both sides are
+corrected on the shared record: the math caught a shared error.
