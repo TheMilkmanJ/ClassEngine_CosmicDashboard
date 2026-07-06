@@ -812,11 +812,32 @@ No cosmic Purcell loophole at background level.
 
 ### Open
 
-**O1 —** Do superfluid stability conditions (Landau criterion,
-two-fluid dissipation channels) translate into the three (δK)²
-admissibility certificates? The map in C3 suggests the foliation-health
-question may be the cosmological Landau criterion. Feeds the
-certificate derivation directly.
+**O1 — RESOLVED (2026-07-06): applied and stress-tested.** The map
+issued all three certificates (cert 3 exact — δK vanishes on tensors to
+all orders since det(e^h)=1; cert 2 closed via the GC dictionary —
+M₂ = ρ_dust,0^{1/4}/(2x₀)^{1/4} ≈ 9.4 eV, gravity-mixing spatially at
+0.87 kpc but temporally frozen at 3×10²⁰ Hubble times, accumulated
+μ−1 ≈ 4×10⁻²¹; cert 1 passed via the Landau mechanism — v_c = 0 means
+flows dissolve caustics into de Broglie interference, with the vortex
+caveat). Six stress tests then attacked the map itself:
+  *Passed, nontrivially*: the pre-basin equation of state w = 1/3 is
+  derived independently by background dynamics (P ∝ X²) AND by the
+  map's phonon-gas thermodynamics (linear dispersion at c_s² = 1/3 →
+  w = n/3 = 1/3) — two roads, one number, the map's first genuine
+  cross-check. *Upgraded*: vortices are quantized in SHIFT CHARGE —
+  the emergent U(1) of the nonrelativistic limit is the shift symmetry
+  itself; the symmetry that builds the model protects its defects.
+  *Refined*: caustic dissolution is kinematic (interference,
+  instantaneous); halo thermalization is gravity-mediated and fast in
+  ultra-faint dwarfs (~10⁻³ Gyr at order-of-magnitude scaling) —
+  sharpening the heating knife on the core discriminator.
+  *Boundaries stamped*: the correspondence is kinematic and
+  compositional, NOT thermodynamic — the medium is collisionless, never
+  thermalizes, so Landau two-fluid heat transport (second sound,
+  thermal counterflow) does NOT carry over; and there is no counterflow
+  degree of freedom at all (both "components" are perturbative pieces
+  of one field — the map describes composition, it does not double the
+  dynamics).
 
 **O2 —** Does the condensation epoch (basin entry) freeze in any relic
 observable? Ideal BECs condense without defect formation (no broken
