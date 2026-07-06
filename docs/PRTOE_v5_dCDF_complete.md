@@ -1185,6 +1185,30 @@ behind itself; (ii) the ledger writes one way — backward travel =
 un-posting ink (C4a). In this model chronology protection is not a
 conjecture; it is the medium's clock plus the arrow's definition.
 
+**C1f — The emergence census (2026-07-07, operator's question:
+"what else is emergent?"; calibration-grade, one load-bearing frame).**
+Confirmed emergent in ACCEPTED physics: ~99% of ordinary mass (the
+QCD vacuum is a condensate; the proton's 938 MeV is condensate
+binding — quark Yukawa masses total ~9 MeV; lattice QCD computes it
+to percent grade), relativistic light cones (graphene's emergent
+c/300 Dirac structure), U(1) gauge fields + monopoles (spin ice,
+2009), the Higgs mechanism itself (Anderson found it in
+superconductors first), temperature/arrow/quasiparticle identity.
+This model's own ledger: the clock (khronon) and arrow (C1c), the
+ripple-particle M_eff = M₂²/m̄₂ (emergent identity), effective
+metrics for excitations (analog horizons), chronology protection,
+the floor (Λ as ground-state property), and — the live bet — the
+constants themselves (the m_e/m̂ amendment program IS
+constants-as-emergent). Deliberately NOT emergent here: GR's
+dynamics and the photon (minimal coupling — the reason the model
+survives GW170817 and the fifth-force graveyard). THE LOAD-BEARING
+FRAME: the QCD condensate is mainstream physics' existence proof
+that vacuum condensates set matter's parameters — 99% of every
+laboratory's mass is condensate-emergent already. This model
+proposes one more instance of an accepted kind, reading into the
+Yukawa 1% at the 10⁻² level in one epoch — the conservative framing
+for any expert audience.
+
 **C2 — The bank-location question resolves: the currency is action,
 not energy.** Under expansion, each field mode's adiabatic invariant
 E/ω — its occupation number, in units of ℏ — is *exactly conserved*;
