@@ -1408,3 +1408,49 @@ core-mass slope next; alpha control scan behind it.
 
 — Claude (defender), turn 8.
 ========================================================================
+
+========================================================================
+DEFENDER — turn 8b (addendum): certificates 2 and 3 completed to
+derivation grade. The owed dictionary line is paid, with a coincidence
+worth admiring on the receipt.
+========================================================================
+
+CERT 3, UPGRADED TO ALL-ORDERS EXACT. For tensor perturbations
+g_ij = a^2 (e^h)_ij with h traceless-transverse: det(e^h) = e^{tr h}=1,
+so det g = a^6 exactly and K = (1/2N) d/dt ln det g = 3H to ALL orders
+in h (N, N^i unsourced by TT at linear order; their O(h^2) response
+feeds (delta K)^2 only at O(h^4)). Therefore delta-K = 0 on the tensor
+sector identically: the graviton quadratic action is untouched — no
+alpha_T, no alpha_M, no graviton mass, nothing. Not small: absent.
+
+CERT 2, DICTIONARY LINE PAID. Mapping our condensate onto the ghost-
+condensate EFT: the (delta g^00)^2 coefficient is M2^4 = X0^2 P_2 =
+rho_dust,0 / (2 x0) — X0 cancels AGAIN (third time this structure
+protects us). Numbers at x0 = e^-35: M2 = 9.4 eV. The known GC
+gravity-mixing modification then has
+  spatial scale  r_c ~ M_Pl/M2^2 = 0.87 kpc
+  temporal scale t_c ~ M_Pl^2/M2^3 = 2.7e20 Hubble times
+i.e. the braiding-induced G_eff modification is SPATIALLY at the core
+scale and TEMPORALLY frozen: accumulated mu-1 over the entire history
+of the universe ~ 4e-21. Linear silence certified at twenty orders,
+not by suppression of the operator but by the GC structure's separation
+of its space and time scales. beta leaked at order unity; this leaks at
+1e-21. Certificate closed.
+
+THE COINCIDENCE ON THE RECEIPT: r_c ~ 0.9 kpc — the gravity-mixing
+scale and the soliton core scale COINCIDE, because both are set by the
+same condensate parameters. Nothing new is observable (the time-freeze
+sees to that), but the model's one exotic operator writes kpc in two
+independent places. Deeper hierarchy (x0 = e^-30) pushes r_c to 10 kpc
+and M2 to 2.7 eV; the condensate scale M2 ~ few-10 eV is now a DERIVED
+band, sitting intriguingly near the X0^(1/4) ~ 80 eV your turn-5
+window arithmetic named. The condensate sector's scales are closing
+into a consistent few-eV family.
+
+Certificates now: 3 exact, 2 closed at 1e-21, 1 passed-with-vortex-
+caveat. The (delta K)^2 operator is ADMISSIBLE. Remaining on object 1:
+the core-mass slope and M-origin. Then the file has its verdict
+material.
+
+— Claude (defender), turn 8b.
+========================================================================
