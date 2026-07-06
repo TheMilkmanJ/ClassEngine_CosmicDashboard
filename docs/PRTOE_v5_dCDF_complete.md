@@ -461,7 +461,14 @@ framework has a **structural** limit, not a numerical one:
   the equality-era background value $e^{24.4} x_0$, so any hierarchy that
   survives equality automatically covers every halo in the late universe —
   with the corollary $c_s^2({\rm halo}) \sim x_0 e^{13}/2 \lesssim 10^{-7}$,
-  i.e. the completion's residual stays dust-like inside structure. What
+  i.e. the completion's residual stays dust-like inside structure. This
+  covers early-forming halos too, not just present-day ones: a halo's
+  virial density freezes in at $\Delta_{\rm vir}\bar\rho_m(z_{\rm form})$,
+  which would rival the equality-era mean only for
+  $z_{\rm form} \approx (1+z_{\rm eq})/200^{1/3} \approx 580$ — long before
+  any structure can collapse (first minihalos: $z \sim 20$–$30$), leaving
+  $\sim(580/30)^3 \approx 7000\times$ density headroom for the earliest
+  objects that ever form. What
   remains at shell-crossing is §10a's caustic limit: §2's tuning bound and
   §10a's structural limit are one boundary, not two independent gaps.)
 - **Nonlinear completion** (§10a): specify the higher-derivative terms (or
