@@ -144,3 +144,24 @@ The fingerprint's honest size: conditional, deep-hierarchy-only, in a
 corner current data leans away from — uniquely ours if seen.
 
 ---
+
+## P-2026-004: The dyad's Sigma-m_nu 95% limit (self-test, registered before the posterior computes)
+
+**Registered:** 2026-07-06 13:41:00 MDT (git base: 4793ee7a)
+**Context:** the overnight run (dyad + free Sigma-m_nu, joint+BBN stack,
+600x4 MCMC, PID 2033267) will produce the model's neutrino-mass
+posterior — the Fairbank deliverable. The frozen-slice scan at the dyad
+optimum (recorded this evening) shows the punishment collapsed vs the
+xi-alive era: +2.8 at 0.12 eV (was +12.2), +29.0 at 0.20 eV, with plik
+and lensing IMPROVING at 0.12 and ACT the sole net tax.
+**The prediction:** the dyad's 95% upper limit on Sigma-m_nu lands in
+**[0.11, 0.17] eV** (central expectation ~0.13-0.15 after refit
+refunds) — i.e., ABOVE the ~0.10 eV inverted-hierarchy threshold and
+roughly 2x the LCDM-conditional squeeze (~0.07 eV). Corollary: the
+posterior's S8 at its m_nu-weighted mean sits within 1 sigma of the
+KiDS-Legacy joint consensus (0.814 +/- 0.012).
+**Falsification:** a limit below 0.10 eV (squeeze robust, window shut)
+or above 0.20 eV (scan misread the curvature) embarrasses this entry;
+either way the Fairbank note reports the truth.
+
+---
