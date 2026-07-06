@@ -1830,6 +1830,16 @@ int background_checks(
              pba->error_message,
              "CLASS is conceived to work in a universe containing at least two species: photons and baryons. You could work in the limit where Omega_g or Omega_b are very small, but not zero");
 
+  /* The dCDF background ODE converges slowly with this tolerance (its
+     integrated density spans ~42 e-folds): vanilla CLASS's 1e-2 leaves ~10%
+     errors in rho_dcdf(a) and 100*theta_s shifts far above Planck precision.
+     The in-tree precisions.h default is 1e-10 (verified: reproduces the
+     exact closed-form background to 4e-8). Refuse looser user overrides. */
+  class_test((pba->has_dcdf == _TRUE_) && (ppr->tol_background_integration > 1.e-8),
+             pba->error_message,
+             "use_dcdf requires tol_background_integration <= 1e-8 (in-tree default 1e-10); the value %g would corrupt the dcdf background integration",
+             ppr->tol_background_integration);
+
   /** - control that cosmological parameter values make sense, otherwise inform user */
 
   /* H0 in Mpc^{-1} */
