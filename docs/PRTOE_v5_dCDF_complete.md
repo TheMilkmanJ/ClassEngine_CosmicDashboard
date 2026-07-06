@@ -891,7 +891,23 @@ framework has a **structural** limit, not a numerical one:
   adding one (the `dcdf_c_gamma`/`dcdf_c_EM` sandbox knobs are exactly such
   couplings) reopens the fifth-force/EP constraints that killed v1–v3.
   Minimal coupling also gives GW speed = c exactly (GW170817 trivially
-  satisfied). Black holes: shift symmetry supports no-hair conclusions
+  satisfied).
+  **Addendum (2026-07-07, scaling grade — the throat de-condensation):**
+  the operator's supersolid bet was scored and killed on both routes
+  (no roton — ideal condensate; no vortex lattice — the ultralight
+  circulation quantum is unpayable: a stellar hole mints 1e-10 vortex
+  quanta, M87* mints 0.12, vs ~2000 threading a galaxy), and the
+  derivation found the opposite: every BH sits inside ONE coherence
+  patch (l_dB(v→c) ≈ 0.02 pc ≫ any horizon — kernel 2.2's regime
+  boundary), and accretion drives u ~ X₀ by r ~ r_s, pushing the
+  medium OUT of the basin: the superfluid DE-CONDENSES in the throat,
+  locally reverting to its pre-basin normal phase (w = 1/3, its own
+  excitation gas) — the one place in the late universe where the
+  medium's early phase persists. (Full critical-accretion-flow
+  solution owed; the normal-carried couplings — vev package — would
+  locally reactivate in the throat, with negligible observables at
+  these volumes.) The old "recycling furnace" ideation acquires its
+  mechanism-grade form: holes locally undo the condensation. Black holes: shift symmetry supports no-hair conclusions
   (quasi-static accretion at CDM-negligible local density); note the
   Hui–Nicolis theorem is usually stated for Galileon-type/derivatively
   coupled shift-symmetric scalars — its clean applicability to bare P(X)
