@@ -190,8 +190,40 @@ heating rates (V2) transfer from that literature with m → M_eff. The
 honest possible outcome that V1–V3 must confront: FDM-by-another-
 route, with the model's distinctive content living only in V4 (the
 funded floor — FDM has no such operator) and V5 (the caustic bit).
-- 2.3 The granule statistics: interference speckle field of ψ (standard
-  SP) perturbed by the incoherent bath — the V3 kernel.
+- 2.3 DONE below.
+
+### 2.3 Granule statistics — and the caustic bit found (2026-07-07)
+
+**Step 1 — the speckle law.** A granulated halo is many random-phase
+SP modes: ψ is a Gaussian random field, so ρ = |ψ|² is EXPONENTIALLY
+distributed — order-unity density contrast is structural, not
+incidental (P(ρ > 3ρ̄) = 5%). Granule size l_dB, coherence time
+l_dB/σ_v. Per 2.2's pre-load this transfers from the FDM literature
+with m → M_eff; no reshaping by the (dead) remnant. Quasiparticle
+masses (V2's heating flywheel): ~10⁶ M☉ lumps in dwarfs at
+2×10⁻²¹ eV; ~30 M☉ at the solar radius.
+
+**Step 2 — THE V5 GEM: the caustic bit exists as mathematics.**
+The nodal lines of a Gaussian random wave are quantized vortex
+filaments with UNIVERSAL statistics (Berry–Dennis random-wave
+theory): line length per volume L_v = O(1)/l_dB². Therefore the
+dimensionless object
+
+  **Θ ≡ L_v · l_dB²**
+
+is the same O(1) number in EVERY granulated region — independent of
+halo mass, density, epoch, or environment — and exactly ZERO in
+laminar flow (an unbroken ψ has no nodal tangle). This is precisely
+the saturated, environment-independent, binary attribute R1's forced
+binarity demanded (turn 22's "can the caustic structure support a
+Θ-type coupling"): granulation happened ⇒ Θ ≈ 1 universally;
+never-crossed ⇒ Θ = 0. The quasar wall's uniformity requirement is
+met BY the universality of random-wave vortex statistics — not by
+tuning. **What 2.5 still owes:** a LOCAL operator in the action whose
+expectation value is Θ (candidates: phase-gradient variance
+normalized at the de Broglie scale; vortex-core density from
+|∇ψ|²/ρ). The statistical object exists; the coupling construction
+— and hence R1's life — remains open until 2.5 is worked.
 - 2.4 ⟨(δK)²⟩ from the nonlinear velocity field: the funded-floor
   source integral over Δ²(k, z) — the V4 kernel — and the Bianchi
   bookkeeping for the withdrawal.
