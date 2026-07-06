@@ -83,9 +83,63 @@ about the condensate background, yielding:
    independent counterflow).
 
 Derivation steps owed (in order; each gets its own subsection when done):
-- 2.1 Madelung/nonrelativistic reduction; explicit M in terms of
-  (m̄₂², X₀, P₂); verification of F2's epoch-independence in this
-  variable set; the numerical M for the (x₀, M₂) window.
+- 2.1 DONE below.
+
+### 2.1 The effective particle, derived (2026-07-07)
+
+**Step 1 — fluctuation Lagrangian.** Expand φ = φ₀(t) + π about the
+condensate (X₀ = ½φ̇₀², P_X(X₀) = 0). Then
+δX = φ̇₀π̇ + ½π̇² − (∇π)²/2a², and to quadratic order
+
+  L₂ ⊃ ½P₂(δX)² → P₂X₀ π̇².
+
+The would-be gradient term P_X·(−(∇π)²/2a²) **vanishes identically at
+the extremum** — this is c_s² = 0 seen in fluctuation variables, and
+it carries a structural consequence stated now because V3 leans on it:
+*every bit of spatial stiffness in this medium belongs to the (δK)²
+operator; none of it to the fluid.* The granule physics is entirely
+the completion's.
+
+**Step 2 — the operator's gradient energy.** For the perturbed
+constant-φ foliation, δK = −∇²π/(a²φ̇₀) at leading order, so
+
+  (m̄₂²/2)(δK)² = (m̄₂²/4X₀) (∇²π)²/a⁴.
+
+**Step 3 — canonical normalization and dispersion.** With
+π_c = √(2P₂X₀) π:
+
+  L₂ = ½π̇_c² − [m̄₂²/(8P₂X₀²)] (∇²π_c)²/a⁴
+  ⟹ ω = [m̄₂/(2√P₂ X₀)] k² ≡ k²/(2M_eff),
+  **M_eff = √P₂ X₀ / m̄₂.**
+
+Manifestly **epoch-independent** (P₂, X₀, m̄₂ are constants of the
+action) — F2's covariant H²-cancellation appears automatically in
+these variables; the two derivations agree.
+
+**Step 4 — the basin-entry identity collapses it.** The atlas identity
+ρ(basin entry) = 2P₂X₀² = 2M₂⁴ gives M₂⁴ = P₂X₀², hence
+
+  **M_eff = M₂²/m̄₂**   (X₀ cancels — the FOURTH time this model's
+  algebra has protected an observable from its one tuned parameter).
+
+**Step 5 — numbers and consistency checks** (script:
+`derivation_battery.py` lineage, run 2026-07-07):
+- With M₂ = 9.4 eV: M_eff = 88.4 eV²/m̄₂. The astrophysically
+  interesting window maps to **m̄₂ ∈ 10¹¹–10¹⁵ GeV** — the
+  intermediate/GUT band (M_eff = 2×10⁻²¹ eV ↔ m̄₂ = 4.4×10¹³ GeV).
+  The completion operator's coefficient sits at a natural UV scale;
+  it did not have to.
+- λ_dB(M_eff = 2×10⁻²¹ eV, v = 10 km/s) = 0.60 kpc — matches cert 1's
+  "~kpc granules at dwarf speeds" independently.
+- Quantum-pressure Jeans scale at today's mean density: 299/Mpc at
+  2×10⁻²¹ eV (67/Mpc even at 10⁻²² eV) — the S8-mute claim
+  (k_J ≥ 5.5/Mpc) holds with two orders of margin.
+
+**What 2.1 hands the verdicts:** V1 reads M_eff = M₂²/m̄₂ (one free
+number m̄₂ ⇒ the entire FDM-equivalent phenomenology, epoch-fixed);
+V3 reads Step 1's structural fact (granules are pure completion);
+V5 will read Step 2's δK-to-π map when the caustic-bit question is
+posed in these variables.
 - 2.2 The shedding emissivity: rate of energy transfer from coherent
   infall to incoherent excitations at a would-be caustic (Landau
   criterion with v_c = 0); this is the NEW object no FDM paper has.
