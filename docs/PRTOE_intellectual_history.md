@@ -19,6 +19,40 @@ densities, not times.** A halo interior and a void at the same cosmic time
 are in different regimes. This survived every rewrite from v1 to the
 present.
 
+## Pre-history: the pruning sequence (c. 2025, before any code)
+
+The model began, more than a year before the first CLASS fork, as a single
+sentence: **"mass, gravity, and density dictate spatial expansion."** It
+worked, but not well — H0 trouble from the start. What followed was a
+sequence of conceptual amputations, each one removing a term that turned
+out to be redundant or derivative:
+
+1. **Gravity removed** — on the realization that gravity is a *consequence*
+   of matter interacting with space, not an independent input. (In the
+   mature model this became: gravity is exactly GR, minimally coupled; all
+   new physics lives in the inhabitants, never in the interaction rules.)
+2. **Density removed** — on the realization that density is just another
+   description of matter: "matter and more matter dictates expansion" says
+   one thing twice. (Technically: what distinguishes inhabitants is their
+   equation of state, not a separate density variable.)
+3. **Matter alone remained** — then was placed *inside fluid space*: matter
+   as a phase of a fluid medium rather than a separate substance sitting on
+   a stage. This gave excellent S8 behavior and poor H0.
+4. **The environmental breakthrough** — the realization that expansion is
+   dictated not by matter alone but by **whichever entity dominates the
+   environment at the time**. Radiation was the first addition and pulled
+   the levers the wrong way; adding the N_eff degree of freedom made both
+   radiation and N_eff move right; the couplings followed.
+
+Each pruning step, made intuitively, corresponds to a recognized principle:
+step 1 is minimal coupling; step 2 is the statement that w classifies
+inhabitants; step 3 is unified dark fluid; step 4 is — literally — the
+Friedmann equation's structure, in which each era's dominant species sets
+the expansion law. The intuition arrived at the standard framework's
+skeleton by deletion rather than by derivation, and then kept the one thing
+the standard framework does not have: the insistence that the medium and
+its inhabitants co-determine each other.
+
 ## v1–v3: The non-minimal coupling era (died completely)
 
 The first formalization coupled a scalar field to curvature — F(φ)R — and
