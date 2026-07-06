@@ -49,6 +49,23 @@ environment half, one transaction and one receipt at a time.
   unsolicited transaction → Schawlow–Townes exactly (ratio 1.000 vs
   textbook; ~1 mHz HeNe benchmark). The quantum noise floor of every
   laser is the unsolicited-transaction receipt stream.
+- **The charged vortex theorem (superconductivity)**: gauging the
+  shift-charge U(1) with q = 2e turns the O1 vortex quantization into
+  flux quantization h/2e — matches CODATA to 2×10⁻¹⁰. And the Josephson
+  constant 2e/h (3×10⁻¹¹): a junction converts an energy price into a
+  transaction *frequency* at exactly 1/ħ — C2's action currency,
+  implemented on a chip, at the precision that defines the volt.
+- **Horizon thermometers (C1 bridge)**: T = a/2π at three scales —
+  Unruh at g: 3.98×10⁻²⁰ K; Hawking at M☉: 6.169×10⁻⁸ K;
+  Gibbons–Hawking at H₀: 2.75×10⁻³⁰ K. X1 recheck at the dyad's H₀:
+  ρ(T_GH⁴) misses the floor by 10¹²⁴ — the thermal ontology stays dead.
+- **The Chandrasekhar solvency bound**: relativistic localization rent
+  vs gravity payment → critical mass 0.93 M☉ dimensionally (full
+  polytrope 1.40; scale exact, coefficient is the Lane–Emden integral).
+  White dwarfs die of insolvency, at the ledger's own scale.
+- **Casimir re-pricing**: boundary-modified transaction spectrum →
+  π²ħc/240d⁴ = 13 Pa at 100 nm (measured to ~1%); X3's boundary-object
+  reading holds — boundaries re-price transactions without owning any.
 
 ## Open ledger (environment terms named; receipts derived where stamped)
 - **Tunneling as environment thermometer — DERIVED, comes out faint
