@@ -273,11 +273,15 @@ precision). Therefore:
   (H0, n_s) along the θ*-locked ridge (§6) — **not** by the fluid's internal
   dynamics.
 - The unification itself is presently an *interpretation with equal
-  likelihood*: it buys parameter economy (CDM density and Λ replaced by one
-  floor parameter + exact closure) and a framework in which the dark sector
-  can lawfully acquire density-dependent physics later (SIDM-type
-  extensions, `docs/PRTOE_v5_SIDM_scoping.md`), but it is not itself the
-  source of the fit improvement.
+  likelihood*. The once-claimed "parameter economy" is **conceded false**
+  (red-team review, 2026-07-06): ρ_∞ replaces ω_cdm one-for-one and Λ
+  closes by flatness in both models, so the evidence attributable to the
+  unification alone is pure prior volume — Δln Z ≈ −0.9 ± 0.5 with the
+  declared priors, i.e. slightly *against*. What the unification buys is
+  a framework in which the dark sector can lawfully acquire
+  density-dependent physics later (the higher-derivative/SIDM route,
+  `docs/PRTOE_v5_SIDM_scoping.md`), not statistics. It is not the source
+  of any fit improvement.
 - Anything that would make the fluid *observably* different from ΛCDM at
   linear order (a sound speed, a w(ρ) deformation) is exactly what the data
   killed (§5).
