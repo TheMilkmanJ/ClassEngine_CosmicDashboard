@@ -502,8 +502,28 @@ and will be largely moot the day it lands: that stack omits data
    dynamically. Speculative but structurally native option: gating the
    coupling on ionization, which collapses at recombination — the same
    environmental-switch logic as the (failed) c_EM energy coupling,
-   aimed at the rules instead of the ledger. Until one of these is
-   derived and its relaxation history fit, the honest label on m_e is:
+   aimed at the rules instead of the ledger.
+
+   **The early-time ledger entry (the other half of epoch separation).**
+   "Active only at z ≳ 1000" is not one epoch — it is *everything before
+   recombination, BBN included*, where m_e sets the n↔p weak rates
+   (phase space and Q/T), the e± annihilation timing, and EM binding
+   corrections. A 1% m_e at recombination is a 1% m_e at BBN, shifting
+   Y_p and D/H independently of ξ (ΔY_p ~ 0.1–0.4 × Δm_e/m_e at
+   fitting-formula grade — at 1%, comparable to the Aver error bar).
+   Note the implemented offset mode *also* carries m_e = 1.01 at BBN but
+   does not feed it back into the Y_He table — a small inconsistency to
+   book, not just a sourced-version problem. For the sourced version the
+   bill is structural: the shift-symmetric, dCDF-native coupling (m_e
+   tied to u ≡ X − X₀, which relaxes *for free* because u ∝ a⁻³ dilutes
+   into the floor — expansion itself as the least-coupling mechanism)
+   ties δm_e to the clustering density Ka⁻³, which **grows into the past
+   and is catastrophic at BBN unless it saturates in exactly the
+   pre-basin radiation phase** that §2 already flags as the completion's
+   early-history falsifier. The m_e-sourcing boundary and the §2
+   completion boundary are the same wall — one boundary, not two (cf.
+   §11's caustic note). Until someone derives a relaxation *and clears
+   BBN, where m_e also lives*, the honest label on m_e is:
    *phenomenology, carried for its measurement value*.
 
 5. **Σm_ν and c_EM (frozen-slice scans, 2026-07-06).** Σm_ν: on a stack
