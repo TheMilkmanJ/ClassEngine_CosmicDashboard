@@ -125,3 +125,22 @@ the sign-locked drift, the two-sided hierarchy window — is not found
 elsewhere as of this audit.
 
 ---
+
+## ANN-2026-001: Annotation to P-2026-003 (verification structure sharpened)
+
+**Recorded:** 2026-07-06 13:25:27 MDT
+Red-team turn 12 (adopted): the structure-funded drift's deposit is
+drawn from structure's own gravitational energy (Bianchi identity), so
+an observable drift REQUIRES a correlated growth-side withdrawal
+(suppressed fsigma8 / ISW / lensing at sub-percent-to-percent level).
+P-2026-003's verification is therefore a THREE-observable lock, not
+two: (i) phantom-side drift, (ii) time-shape tracking nonlinear growth
+with scale tied to the core scale, (iii) the correlated growth
+footprint clearing (and eventually showing in) RSD. A drift WITHOUT
+the footprint kills the mechanism as surely as thawing does. Wall
+confidences on the two-sided hierarchy window: BBN side is brick;
+DESI-thawing side is chalk (~2-3 sigma, SN-systematics-sensitive).
+The fingerprint's honest size: conditional, deep-hierarchy-only, in a
+corner current data leans away from — uniquely ours if seen.
+
+---
