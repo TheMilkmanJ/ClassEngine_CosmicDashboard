@@ -654,6 +654,28 @@ and will be largely moot the day it lands: that stack omits data
    contrast vs host dark density → compare against the measured mass
    step's budget. Logged in the Transaction Atlas open ledger; §11.
 
+   **RECEIPT DERIVED — AND IT COMES OUT FAINT (2026-07-06 night).**
+   Normalizing the linear local-state coupling at the recombination-era
+   mean (1% at ~1600 GeV/cm³) gives g = 6.3×10⁻⁶ per GeV/cm³:
+   laboratory δm_e/m_e = 2.5×10⁻⁶, SN host-to-host contrast
+   (0.05–2 GeV/cm³ at SN sites) = 1.2×10⁻⁵ in m_e. Through the
+   electron-capture sensitivity (λ_EC ∝ |ψ_e(0)|² ∝ m_e³, so
+   dlnλ/dln m_e ≈ 3) the ⁵⁶Co clock contrast is 3.7×10⁻⁵ — about
+   4 minutes on the 77-day tail, ~0.04 mmag per decade of flux.
+   **The SN mass step (~60 mmag) is ~1500× larger: it is not ours,
+   and no current SN dataset can see this receipt.** The honest
+   reclassification: the tunneling channel is demoted from
+   *discriminator* to *consistency check* — the linear door predicts
+   (a) zero annual modulation of terrestrial decay rates (the halo is
+   smooth along Earth's orbit), consistent with the modern
+   high-precision stability nulls that discredited the
+   Jenkins–Fischbach claims, and (b) SN decay-clock environmental
+   shifts three orders below current photometric precision. The door
+   stays half-open precisely because its receipts are this quiet;
+   conversely, nothing in decay data can close it. A steeper-than-
+   linear coupling would amplify the receipt — but steepness is
+   exactly what the §2 wall taxes on the early side.
+
    **Independent convergence (LIT-2026-001, literature sweep
    2026-07-06):** varying-m_e as an H0 mechanism is now *independently
    preferred at 2–3.6σ by other groups* on Planck(+DESI) stacks
@@ -774,6 +796,34 @@ and will be largely moot the day it lands: that stack omits data
    flags as unwritten), and (c) a check that the healer leaves no new
    scar elsewhere. If all three clear, it becomes P-2026-006. Until
    then the headline scar stands unhealed and the rider stays.
+
+   **UPGRADED TO LITERATURE GRADE (2026-07-06 night; (a) and (c)
+   cleared, (b) narrowed to one lever).** The Dent–Stern–Wetterich
+   response matrix was pulled from the source (PRD 76, 063513, Tables
+   2 and 4): ∂lnY/∂lnB_D for (D, ³He, ⁴He, ⁶Li, ⁷Li) = (−2.8, −2.1,
+   +0.68, −6.8, +8.8) in their final treatment; the alternative
+   σ ∝ 1/B_D treatment (their Eq. 8) gives D: −1.5, bracketing the
+   amendment at **δB_D/B_D ∈ [−1.57%, −0.85%]**. At the central
+   coefficients the −0.86% amendment takes D/H from −1.97σ to
+   **+0.02σ** (exact heal), Y_p from +1.43σ to **+1.06σ** (improves),
+   ⁷Li **−7.6%** (right direction), ³He +1.8% and ⁶Li +5.8% (both far
+   inside observational slack). Better: DSW Table 4 gives
+   ∂lnB_D/∂ln m̂ = −4 (m̂ = mean light quark mass) while **τ_n and Q_N
+   carry zero m̂ response** — so a quark-mass amendment moves the
+   binding-energy sector *without touching the n↔p weak rates*: the
+   cleanest possible sourcing channel. The m̂-sourced healer needs only
+   **δm̂/m̂ = +0.14% to +0.21% at BBN** (f-factor uncertainty spanned:
+   healing identical, ⁷Li −7.5% to −8.3%, all side effects safe). This
+   is the strong-sector rules amendment, the direct analogue of the
+   dyad's m_e = 1.01 in the EM sector, an order of magnitude smaller.
+   What remains open is only (b): the medium-native coupling
+   construction (why m̂ responds to the substrate, with the same §2
+   early-shape wall as m_e). Registered as **P-2026-006 (conditional
+   fingerprint)**: if the deuterium scar is healed by a substrate
+   amendment, it is a quark-mass amendment of +0.14–0.21% at BBN,
+   carrying a mandatory correlated signature — ⁷Li *reduced* by
+   7–13% and Y_p *reduced* by ~0.5% relative to the unamended dyad. An
+   amended model that heals D while raising ⁷Li or Y_p is excluded.
 
 ## 10. Implementation map (code ↔ physics)
 
@@ -1046,6 +1096,51 @@ message caps at CHSH = 2, nature delivers ~2.7, and clearing
 Tsirelson's bound (2√2) is the quantitative bar the substrate's
 quantum phase sector must hit by derivation. Until that derivation
 exists, C4 is a correspondence with laboratory support, not a result.
+
+**C4 DERIVED AND TESTED (2026-07-06 night; conditional on
+quantization).** The CHSH value of the medium's pair states was
+computed from scratch: for the two-mode squeezed state that pair
+creation produces, the pseudospin correlator (Chen–Pan–Hou–Zhang, PRL
+88, 040406 (2002) — cite-checked) evaluates analytically to
+E(θ_a, θ_b) = cosθ_a cosθ_b + tanh(2r)·sinθ_a sinθ_b, giving
+**B(r) = 2√(1 + tanh²2r)** — above the classical cap 2 for *any*
+nonzero squeezing, saturating Tsirelson's 2√2 as r → ∞. Known-answer
+test: the correlator was recomputed numerically in a 4000-state Fock
+basis with no formula input; numeric and closed form agree to
+machine precision (rel. diff ≤ 4×10⁻¹⁶ at r = 0.5, 1, 2). And the
+squeezing is not a free knob: expansion pair-creation IS a two-mode
+squeezer (Grishchuk–Sidorov), with r growing linearly in e-folds
+outside the horizon — at r = 5 the Tsirelson deficit is already
+6×10⁻⁹. So the conditional statement is now exact: **if the substrate
+is quantized, its own expansion history mass-produces maximally
+Bell-violating pairs.** What remains conditional is the "if" (the
+phase sector's quantization is asserted, not derived) and the audit
+caveat (Gaussian/quadrature measurements see a positive Wigner
+function and no violation — the receipt requires a parity-grade
+auditor).
+
+**Ledger calibration — known-answer tests of the transaction
+bookkeeping itself (2026-07-06 night; job scratch
+`derivation_battery.py`).** Two systems where the transaction language
+must reproduce measured numbers or be abandoned: (i) *the hydrogen
+atom built from scratch as a transaction equilibrium* — localization
+rent ħ²/2mr² against Coulomb payment −e²/4πε₀r; the ledger's
+equilibrium point lands on the Bohr radius to 2.6×10⁻⁶ and on
+E_1s = −13.6057 eV to 1.2×10⁻⁹ (the dyad's +1% m_e amendment reprices
+it to 13.742 eV and moves z_rec by exactly the +1% CLASS integrates —
+one arithmetic, laboratory to last-scattering). (ii) *The laser as
+photon condensate* — above threshold a laser is a macroscopically
+occupied mode with one global phase (the laboratory's cousin of the
+floor; threshold is a condensation transition, Haken's classic
+mapping). The ledger derivation — every solicited (stimulated)
+transaction copies the phase exactly; every unsolicited (spontaneous)
+transaction deposits one quantum of random phase, diluted by the n̄
+resident quanta — reproduces the **Schawlow–Townes quantum linewidth
+exactly** (ratio 1.000 against the textbook formula; ~1 mHz for a
+HeNe benchmark, the known answer). The fundamental noise floor of
+every laser on Earth is, in this language, the receipt stream of
+unsolicited transactions — and the bookkeeping gets its number right
+to the last decimal.
 
 ### Closed
 

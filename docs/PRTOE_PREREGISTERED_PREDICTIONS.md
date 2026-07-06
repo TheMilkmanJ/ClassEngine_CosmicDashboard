@@ -213,3 +213,34 @@ explanation. The null branch only WEAKLY favors it — nulls include
 soft fingerprint, not two of equal grade.
 
 ---
+
+## P-2026-006: The deuterium scar's healer is a quark-mass amendment — with a mandatory lithium co-signature
+
+**Registered:** 2026-07-06 night (git base: 60e1b48c)
+**Status: CONDITIONAL fingerprint** — active only if a binding-sector
+amendment is adopted; the dyad currently carries the scar honestly.
+**Derivation (literature-grade, Dent-Stern-Wetterich PRD 76, 063513,
+Tables 2+4, pulled from source this session):** the dyad's -2.0 sigma
+D/H residual is healed exactly by delta B_D/B_D in [-1.57%, -0.85%]
+(coefficient-treatment bracket). The clean sourcing lever is the mean
+light quark mass: d ln B_D / d ln mhat = -4 while tau_n and Q_N carry
+ZERO mhat response — the amendment moves binding energies without
+touching the n<->p weak sector. Required: **delta mhat/mhat = +0.14%
+to +0.21% at BBN** (f-factor uncertainty spanned) — the strong-sector
+analogue of the dyad's m_e = 1.01, an order of magnitude smaller.
+**The prediction (the part that can die):** any substrate amendment
+that heals the deuterium scar MUST carry the correlated signature:
+Y_p REDUCED by ~0.5-0.6% (helium residual improves, +1.4 -> +1.1
+sigma) and 7Li REDUCED by 7-13% (chipping toward, never away from,
+the lithium problem). 3He moves < +2%, 6Li < +6% — both inside
+observational slack. A model variant that heals D while RAISING Y_p
+or 7Li is excluded within this framework; a future measurement
+forcing D/H and Y_p residuals to move the SAME direction kills the
+single-lever healer outright.
+**Open half (why conditional):** the medium-native coupling
+construction (why mhat responds to the substrate) is unwritten — the
+same early-shape wall as the m_e door (§2). This entry freezes the
+numbers so that, if the coupling is ever constructed, the abundance
+signature was on record first.
+
+---

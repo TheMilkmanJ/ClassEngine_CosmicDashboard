@@ -40,26 +40,41 @@ environment half, one transaction and one receipt at a time.
   collapses 4.4× → the inverted hierarchy (a lab experiment's target)
   plausibly reopens. Posterior computing.
 
-## Open ledger (environment terms named, receipts not yet derived)
-- **Tunneling as environment thermometer**: decay rates sit under a Gamow
-  exponential — fractional constant shifts of 1e-8 swing α-decay rates by
-  parts in 1e3–1e4 (sensitivity ~1e5, standard varying-constants result).
-  If the §9.4 local-state door is real, radioactive decay in different
-  dark-density environments is the single most amplified receipt the
-  transaction leaves. Needs: the door's coupling magnitude → predicted
-  rate contrast lab vs. deep-halo vs. void.
-- **Binding-sector coefficients**: δB_D at literature grade (task #14) —
-  the scar-healer's admission ticket.
+## Calibration (known answers the ledger language must and does reproduce)
+- **Hydrogen from scratch**: binding as transaction equilibrium
+  (localization rent vs Coulomb payment) → Bohr radius to 2.6×10⁻⁶,
+  E_1s = −13.6057 eV to 1.2×10⁻⁹. The dyad's m_e amendment reprices it
+  by the exact arithmetic CLASS integrates. (2026-07-06 battery.)
+- **The laser linewidth**: photon condensate + one quantum of phase per
+  unsolicited transaction → Schawlow–Townes exactly (ratio 1.000 vs
+  textbook; ~1 mHz HeNe benchmark). The quantum noise floor of every
+  laser is the unsolicited-transaction receipt stream.
+
+## Open ledger (environment terms named; receipts derived where stamped)
+- **Tunneling as environment thermometer — DERIVED, comes out faint
+  (2026-07-06)**: linear local-state door (1% at 1600 GeV/cm³) →
+  lab δm_e = 2.5×10⁻⁶; SN host contrast → ⁵⁶Co clock shifts 3.7×10⁻⁵
+  (~4 min on the 77-d tail), **~1500× below the SN mass step**; zero
+  terrestrial annual modulation predicted (consistent with modern
+  stability nulls). Demoted: discriminator → consistency check. Decay
+  data can neither see nor close the half-open door.
+- **Binding-sector coefficients — LITERATURE GRADE (2026-07-06)**: DSW
+  PRD 76, 063513 pulled from source; δB_D/B_D ∈ [−1.57%, −0.85%] heals
+  the deuterium scar; the clean lever is δm̂/m̂ = +0.14–0.21% at BBN
+  (∂lnB_D/∂ln m̂ = −4, weak rates untouched); mandatory co-signature
+  Y_p −0.5%, ⁷Li −7..13%. Registered as P-2026-006 (conditional).
+  Remaining: the medium-native coupling construction (§2 wall).
 - **Force-by-force environment terms**: EM booked (m_e, α levers);
-  strong/weak sectors have named levers (Λ_QCD, G_F) with no derived
-  substrate coupling yet.
-- **Entanglement as balanced-transaction receipt (C4, toll elected:
-  quantize the substrate)**: conservation forbids solitary withdrawals
-  → excitations born in anti-correlated pairs on one global phase.
-  Lab-precedented (BEC two-mode squeezing, analog-Hawking pairs).
-  Needs: the substrate's quantized phase sector clearing Tsirelson's
-  bound (2√2) by derivation — the classical-script version caps at
-  CHSH = 2 and is excluded by experiment.
+  the strong-sector lever is now NAMED with its price (m̂, above);
+  weak sector (G_F) still has no derived substrate coupling.
+- **Entanglement as balanced-transaction receipt (C4) — MATH DERIVED
+  AND VERIFIED (2026-07-06), condition outstanding**: pseudospin CHSH
+  for the medium's pair states B(r) = 2√(1+tanh²2r) > 2 for any
+  squeezing, → Tsirelson 2√2 (numeric Fock-basis check to 4×10⁻¹⁶);
+  expansion pair-creation supplies r (deficit 6×10⁻⁹ at r=5). What
+  remains is the condition itself: quantization of the substrate's
+  phase sector is asserted, not derived; Gaussian audits see no
+  violation (positive Wigner).
 
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
