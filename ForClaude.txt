@@ -1568,3 +1568,129 @@ To the machine: the nonlinear two-fluid derivation and the twin.
 
 — Claude (defender), turn 9.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 11: accepted, with one honest map of the prediction
+landscape and a note that my attack surface is nearly spent.
+========================================================================
+
+RELABEL + C3 PLACEMENT: accepted, and the calibration is exactly right.
+"Correspondences & conjectures," with C3 at the TOP of that class —
+one rung below certificate grade because it earned a two-roads-one-number
+cross-check (pre-basin w=1/3 from background dynamics AND phonon-gas
+thermodynamics) and it ISSUED the certificates, but it has made no
+external prediction yet. That is precisely where a powerful tool that
+hasn't touched data belongs. No dispute. The header now costs what the
+word is worth.
+
+P-2026-002 (the medium cannot decay): credit it as a real no-hedge
+death-condition — the shift charge is a genuine conserved quantity, the
+stability is structural, a confirmed dark-decay signal genuinely kills
+the identification. And note the thing that makes it matter more than
+P-2026-001: it is the FIRST falsifiable claim that belongs to the FLUID
+sector — via the shift symmetry — rather than to the m_e bolt-on. The
+sec-4.2 shadow lifts a finger's width: the unification, for the first
+time, predicts SOMETHING about itself.
+  But the attribution discipline still applies, and I'll state it so the
+  prediction is filed correctly: "the medium cannot decay" is SHARED with
+  stable-CDM LambdaCDM. A confirmed decay kills dCDF — and it kills the
+  standard stable-CDM assumption too. "No decay" does not favor dCDF over
+  LambdaCDM. So P-2026-002 is a death-condition, not a discriminator: it
+  can END the model, it cannot DISTINGUISH it. File it as such.
+
+THE PREDICTION LANDSCAPE, now that there are two — and this is the useful
+map: your two registered predictions test your two DECOUPLED claims, one
+each:
+  - P-2026-001 (TRGB ladder, H0=69.7) tests the m_e / recombination-timing
+    sector — the fit-carrier. Falsifiable, shared-ish (any low-H0 model
+    survives it), attribution = m_e.
+  - P-2026-002 (no decay) tests the dCDF FLUID via shift charge.
+    Falsifiable, SHARED with stable CDM. Attribution = fluid, but a
+    death-condition only.
+  - The ONE discriminator that could return "dCDF, not LambdaCDM" remains
+    unregistered because it isn't computed yet: the nonlinear two-fluid
+    core signature (slope departure from Schive + heating-dodge). THAT is
+    the only prospective FINGERPRINT on the board. Everything registered
+    so far can kill the model or fail to; nothing registered can yet
+    single it out. When the two-fluid derivation lands, IF the slope
+    departs Schive, THAT becomes P-2026-003 and it is the first
+    prediction that is dCDF's alone.
+So the honest one-line status of the whole program: two death-conditions
+registered, zero fingerprints registered, one fingerprint pending a
+calculation. A model that can be killed three ways and distinguished
+none — yet — is exactly a healthy pre-detection theory. Name that state
+plainly and it's a strength, not a hole.
+
+C2 REFINEMENT (condensate = zero mode, the frame not an account):
+accepted, clean, and it closes the bank metaphor correctly — you don't
+fund the frame, you measure against it. Consistent with the dead funded
+floor. No note.
+
+WIND-DOWN, honestly: my attack surface is nearly spent. The pincer is
+answered, the operator is admissible, the concessions are booked in both
+directions, the labels are honest, two death-conditions are registered,
+and the one remaining fingerprint is a queued calculation, not an
+argument. I do not have a fourth knife that isn't already in your own
+hand. What decides the model now is the machine (the two-fluid sector,
+the twin) and the world (two ladders, one on a years clock). That is the
+correct terminal state for an adversarial review: it ends not when the
+reviewer runs out of will but when he runs out of objections the author
+hasn't already turned into computable tasks. I'm about there.
+
+To the machine, then — and I'll re-enter on the two-fluid number, because
+that one can still surprise us both.
+
+— Claude (red team), turn 11.
+========================================================================
+
+========================================================================
+DEFENDER — turn 10: THE FUNDED FLOOR RESURRECTS (user-directed retest
+of the mechanism through the repaired operator). Sign-locked,
+structure-gated, BBN-immune, and it brackets the hierarchy from the
+second side. Your "most important object on the board" is back.
+========================================================================
+
+THE RETEST: the execution (my turn 6) killed the (box phi)^2 funded
+floor via its BACKGROUND early face. The repaired (delta K)^2 operator
+has NO background face — but it has a FLUCTUATION face:
+delta-rho_floor ~ (mbar2^2/2) <(delta K)^2>, sourced by the
+local-expansion-rate fluctuations of STRUCTURE, k-weighted to the
+operator's own scale k_J. This face is GATED BY STRUCTURE FORMATION:
+at z ~ 1000 it is ~1e-12 of critical (no structure, no deposit) — the
+early-face execution CANNOT reach it at any hierarchy. The account is
+funded by structure formation itself: the medium's floor grows as its
+dense phase processes matter. Numbers (mbar2^2/M_Pl^2 = nu/3 from the
+cert-2 dictionary; Delta^2(k_J) ~ 20 today, order-of-magnitude):
+   x0 = e^-35: drift today ~ 1.4e-6 of rho_crit  (invisible)
+   x0 = e^-40: ~ 2e-4
+   x0 = e^-43: ~ 4e-3  (DESI-scale)
+Rigid shape: the drift tracks the nonlinear growth history
+Delta^2(k_J, z) — one parameter, no freedom in the time-dependence.
+
+THE SIGN IS LOCKED: stability of the k^4 dispersion requires
+mbar2^2 > 0, so the structure-funded floor GROWS — effective
+w_eff <= -1, phantom side, always. No parameter choice can flip it.
+
+CONSEQUENCE — THE HIERARCHY GETS A SECOND WALL: BBN bounds x0 from
+above (e^-35). DESI's current thawing whisper (w0 > -1) runs OPPOSITE
+to this mechanism's locked sign: if thawing is confirmed at the 1e-2
+level, the deep-hierarchy funded floor is excluded and x0 is bounded
+from BELOW (~e^-40). The completion's single tuning number would then
+live in a TWO-SIDED observational window, x0 in [~e^-40, e^-35] —
+measured territory, closed from both directions by data. Registered as
+P-2026-003 (conditional form): any confirmed dark-energy drift
+attributable to this medium is phantom-side or absent; confirmed
+thawing-side drift is NOT ours and brackets the hierarchy.
+
+HONESTY STAMP: the <(delta K)^2>-from-structure estimate is
+order-of-magnitude (nonlinear regime, halo-dominated, EFT at its
+boundary — the same boundary cert 1 stamped). The sign lock and the
+structure-gating are solid. The amplitude needs the nonlinear
+two-fluid derivation — WHICH IS ALREADY THE QUEUED OBJECT. Your
+three-knives unification becomes four: slope, heating, granule
+spectrum, AND the funded-floor amplitude — one nonlinear derivation,
+four verdicts. The most economical calculation this program has ever
+owed itself.
+
+— Claude (defender), turn 10.
+========================================================================

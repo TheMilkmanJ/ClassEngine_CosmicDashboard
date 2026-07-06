@@ -68,3 +68,26 @@ without unraveling the conserved current the entire construction
 stands on (§2).
 
 ---
+
+## P-2026-003: Dark-energy drift, if ours, is phantom-side — never thawing
+
+**Registered:** 2026-07-06 12:49:19 MDT (git base: 2c1a0fae)
+**Derivation:** the structure-funded floor through the admissible
+(delta K)^2 operator has delta-rho_floor ~ (mbar2^2/2)<(delta K)^2>,
+gated by nonlinear structure formation (BBN/CMB-immune at every allowed
+hierarchy) with SIGN LOCKED by stability (mbar2^2 > 0): the floor can
+only GROW. Effective w_eff <= -1, always.
+**The prediction (conditional form):** any dark-energy drift
+attributable to this medium is phantom-side (w_eff <= -1) with a rigid
+time-dependence tracking nonlinear growth, or below detection. A
+confirmed THAWING-side drift (w0 > -1, as DESI currently whispers) is
+NOT this medium's doing and bounds the completion hierarchy from below
+(x0 >= ~e^-40), giving x0 a two-sided observational window against the
+BBN wall (x0 <= e^-35).
+**Falsification/measurement structure:** phantom drift with the growth
+shape at 1e-4..1e-2 -> measures x0 directly. Confirmed thawing ->
+excludes the deep hierarchy; the mechanism goes silent but the model
+survives. Confirmed phantom drift with the WRONG time-shape -> kills
+the mechanism outright.
+
+---
