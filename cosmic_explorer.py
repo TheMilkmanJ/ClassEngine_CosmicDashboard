@@ -576,13 +576,11 @@ def cmd_ls(args: str):
 
 def cmd_plot(args: str):
     if args in ("posterior", "posteriors", ""):
-        script = PROJ / "plot_posteriors.py"
-        if not script.exists():
-            script = PROJ / "cosmic_dashboard" / "utils" / "plot_posteriors.py"
+        # Canonical location: the root copy was removed in the repo cleanup.
+        script = PROJ / "cosmic_dashboard" / "utils" / "plot_posteriors.py"
     elif args in ("chain", "chains"):
+        # plot_chains.py lives at the repo root (the copy the dashboard launches).
         script = PROJ / "plot_chains.py"
-        if not script.exists():
-            script = PROJ / "cosmic_dashboard" / "utils" / "plot_chains.py"
     else:
         script = PROJ / args
         if not script.exists():
