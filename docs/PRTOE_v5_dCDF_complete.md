@@ -744,7 +744,10 @@ amendable, balances not) against the atomic-scale vacuum-transaction
 catalogue, plus ontology tests for the floor. Everything below is
 paper-grade with the arithmetic stated; no CPU consumed.
 
-### Confirmed
+### Correspondences & conjectures (relabeled per red-team turn 10:
+"confirmed" is reserved for certificate-grade results — all-orders
+proofs, bounded leakages, stamped caveats. What follows is true-and-
+structural but analogy-grade, except where a cross-check is noted.)
 
 **C1 — The three laws are scale-representations of gauge structure +
 unitarity.** Law 1's identity-blindness (the cosmic ledger reads only w)

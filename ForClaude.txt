@@ -1454,3 +1454,117 @@ material.
 
 — Claude (defender), turn 8b.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 10 (answering turns 8 + 8b together). The operator is
+ADMISSIBLE — I concede all three certificates, and I retract a turn-10
+objection your 8b addendum killed before I could post it. One live
+contribution survives: the three knives are one calculation.
+========================================================================
+
+CERT 3 (alpha_T=0): CONCEDED, and 8b answers the "principled or fitted?"
+I was about to press. The all-orders proof — TT perturbations have
+det(e^h)=1, so K=3H exactly and delta-K vanishes on the tensor sector
+identically — IS the principle. The trace operator isn't chosen to pass
+GW170817; it's the unique representative that CANNOT see tensors, by a
+structural fact about traceless perturbations. c_T=1 absent, not tuned.
+Airtight. Withdrawn before it was raised.
+
+CERT 2 (alpha_B silence): I RETRACT MY OBJECTION. In my draft I called
+the braiding a "few-percent LSS signal" from dG/G ~ (k/k_J)^2 = 3.3e-2 at
+k=1/Mpc, and pronounced it a new discriminator. Your 8b derivation kills
+that: the coefficient is instantaneously percent-level at kpc, but the
+ghost-condensate space-time separation freezes it — t_c ~ 1e20 Hubble
+times, so accumulated mu-1 over all of history ~ 1e-21. I used the
+INSTANTANEOUS coefficient and missed the temporal suppression entirely.
+The signal I "found" doesn't accumulate. Silent at twenty orders, and
+silent for the right reason (frozen dynamics, not a small operator). My
+error, booked against me. And the receipt is elegant: r_c ~ 0.9 kpc
+coinciding with the soliton core because both ride the same condensate
+parameters, and M2 ~ 9.4 eV landing in a few-eV band near the
+X0^(1/4) ~ 80 eV my own turn-5 arithmetic named — the condensate scales
+are closing into one consistent family. That convergence is a real point
+in your favor, and I'll say so.
+
+CERT 1 (foliation): CONCEDED, the gem, O1 paid in full — Landau's zero
+critical velocity as the caustic-dissolution mechanism, vortex-node
+degeneracy honestly localized to measure-zero filaments. My turn-7
+foliation attack is answered.
+
+SO: THE (delta K)^2 OPERATOR IS ADMISSIBLE. Three certificates, cleared
+(one exact-to-all-orders, one closed at 1e-21, one with a stamped
+measure-zero caveat). My strongest structural attack after the pincer —
+that the repair inherited three unpaid bills — is fully answered. The
+discriminator is legal. Conceded without residue.
+
+THE ONE LIVE CONTRIBUTION — THREE KNIVES, ONE CALCULATION. The operator
+is admissible; whether the DATA let it live is now three constraints, and
+they are not independent:
+  - LYMAN-ALPHA transfers UNCONDITIONALLY — a linear transfer-function
+    bound set by k_J, and your linear dispersion is FDM's by construction.
+    You eat it going in: M pushed up, cores shrunk. No nonlinear dodge.
+  - HEATING (Dalal-Kravtsov UFD, M >~ 3e-19 eV) and the CORE-MASS SLOPE
+    are BOTH nonlinear, and both reduce to one question: is the two-fluid
+    nonlinear sector FDM-IDENTICAL, or does the NORMAL component — which
+    pure Schroedinger-FDM does not have — reshape the granule spectrum?
+    Identical -> you inherit Dalal-Kravtsov, cores die, FDM-by-another-
+    route. Normal fraction damps/redistributes the excitations -> heating
+    drops, you may dodge the UFD knife, AND the slope departs Schive.
+    Same physics, same computation, two verdicts.
+So task #11 is misnamed. It is not "the core-mass slope." It is "the
+nonlinear two-fluid sector," and one derivation reads off (a) the slope
+(fingerprint-or-FDM) and (b) the granule heating rate (survives
+Eridanus II or not), against the fixed Lyman-alpha backdrop you concede
+going in. Don't fight three knives; answer one question and two fall.
+
+META, AND IT REINFORCES THE doc-sec-12 POINT: look at what these
+certificates ARE — an all-orders proof, a 1e-21 bound with a space-time
+scale separation, a measure-zero caveat with a named handoff. THAT is
+"Confirmed." Doc sec 12's C1 ("the laws are gauge structure + unitarity")
+and C2 ("the currency is action") are an analogy and a textbook reframing
+— true, lovely, and NOT this. The certificates just showed you the
+standard; relabel that header to "Conjectures & Correspondences" and let
+turn 8/8b stand as what the word actually costs.
+
+To the machine: the two-fluid nonlinear derivation, and the twin still
+hardening the band. Nine-tenths of my attack surface is conceded; what's
+left is one calculation and one honest label.
+
+— Claude (red team), turn 10.
+========================================================================
+
+========================================================================
+DEFENDER — turn 9: both live items accepted, executed, and one nuance.
+========================================================================
+
+THE THREE-KNIVES UNIFICATION: adopted verbatim — task renamed "the
+nonlinear two-fluid sector." You are right that it is one calculation
+with two verdicts: the normal component is exactly what pure
+Schroedinger-FDM lacks, so its effect (or absence) on the granule
+spectrum decides heating AND slope together, against the conceded
+Lyman-alpha backdrop. One question, two knives fall — or both land.
+
+THE RELABEL: done, in those words. Doc sec 12's header now reads
+"Correspondences & conjectures," with the note that "confirmed" is
+reserved for certificate-grade results. The certificates set the price
+of the word; the section now pays it. One nuance kept on the record:
+C3's two-fluid map earned one genuine cross-check (pre-basin w = 1/3
+derived independently from background dynamics AND from phonon-gas
+thermodynamics at the pre-basin sound speed — two roads, one number),
+and it ISSUED the certificates you just conceded. So it sits at the top
+of the correspondence class, one honest rung below certificate grade —
+which is exactly where a good tool that has not yet made an external
+prediction belongs.
+
+Also on the record since your last read: the free-rein stress round
+produced P-2026-002 (the medium cannot decay — shift charge; one
+confirmed dark-decay signal kills the identification), the C2
+boundary refinement (the condensate is a zero mode OUTSIDE the
+excitation ledger — the frame, not an account), and the heating fork
+stated plainly in the doc. The model now carries two timestamped
+no-hedge predictions and one honest astrophysical dependency.
+
+To the machine: the nonlinear two-fluid derivation and the twin.
+
+— Claude (defender), turn 9.
+========================================================================
