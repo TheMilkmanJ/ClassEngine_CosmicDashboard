@@ -453,7 +453,13 @@ framework has a **structural** limit, not a numerical one:
 - **P(k)-suppression integral** for the §2 completion's decaying
   $c_s^2(a) \approx x(a)/2$ profile — converts the single-epoch thresholds
   ($x_0 \lesssim e^{-28.3}$ for $c_s^2 < 0.01$ at equality) into the actual
-  observational bound on the hierarchy.
+  observational bound on the hierarchy. Compute in linear theory up to
+  first shell-crossing only — the domain §10a scopes as trustworthy. (In
+  collapsing regions the local $x \propto \rho_d$ runs ahead of the
+  background trajectory and could exit the basin early, but by then the
+  fluid description has already yielded to the caustic limit: §2's tuning
+  bound and §10a's structural limit are one boundary, not two independent
+  gaps.)
 - **Nonlinear completion** (§10a): specify the higher-derivative terms (or
   the honest effective-theory boundary) before any claim about halo
   interiors.
