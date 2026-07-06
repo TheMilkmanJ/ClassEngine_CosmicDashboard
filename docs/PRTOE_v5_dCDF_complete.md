@@ -36,16 +36,23 @@ lensing, BAO 6dF+MGS+DR12, Pantheon+SHOES):
 | dCDF best fit (H0=70.40, ξ=0.403) | 2496.24 | −19.2 |
 | **Joint stack (+ ACT DR6 + SPT-3G):** ΛCDM frozen / refitting | 2817.9 → ~2810 | — |
 | dCDF joint refit (**H0=69.05, ξ=0.142**, n_s=0.979) | **2809.81** | ≈ tie |
-| **THE DYAD** (2026-07-06 BBN-priced refit): fluid + m_e=1.01, **ξ EXECUTED → 0.012** | raw **2798.36**, honest (incl. BBN) **2803.3** at **H0 = 69.70** | **≈ −7 to −8.5** vs refit ΛCDM+BBN |
+| **THE DYAD** (2026-07-06 BBN-priced refit): fluid + m_e=1.01, **ξ EXECUTED → 0.012** | raw **2798.36**, honest (incl. BBN) **2803.3** at **H0 = 69.70** | **−6.5 to −8.5** vs refit ΛCDM+BBN (band until the twin completes) |
 
 **The dyad is the current model**: under the full self-consistent stack
 (Planck+ACT+SPT+BAO+SN+BBN) the optimizer executed ξ_Neff entirely —
 the H0 story is carried by recombination timing alone, at +1 effective
 parameter, with plik *better than the ΛCDM anchor's own* (586.5 vs
 586.9) and both tensions eased (H0 69.7 = the TRGB ladder value;
-S8 ≈ 0.823). Census: known radiation, baryons, one dark medium, one
-rules amendment. See P-2026-001 for the no-hedge prediction this
-commits the model to.
+S8 ≈ 0.823). **Two riders belong in this headline, not in footnotes**
+(red-team turn 9): (i) the joint advantage is quoted as a band —
+its ΛCDM+BBN baseline was mid-refit when measured; (ii) the champion
+carries a **−2.0σ deuterium scar** (D/H = 2.468×10⁻⁵, χ² 3.85): the
+model holds ω_b for the CMB and underfeeds deuterium — a residual it
+cannot relieve without paying the CMB back. And the §4.2 rider rides
+on: the −8 is m_e's; the fluid is degenerate through all of it — the
+dyad wins while the unification watches it win. Census: known
+radiation, baryons, one dark medium, one rules amendment. See
+P-2026-001 for the no-hedge prediction this commits the model to.
 
 **The joint refit happened (2026-07-06) and landed exactly on the
 predicted ridge point** — H0 = 69.05, ξ = 0.142 vs the pre-registered
