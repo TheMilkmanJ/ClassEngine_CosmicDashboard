@@ -616,3 +616,75 @@ proposed and motivated; amplitude honestly reported as undetermined;
 one self-identified internal tension flagged rather than resolved by
 assertion. Same Pinning Rule discipline throughout — nothing here is
 registered as a prediction.
+
+## 21. RETRACTION AND A FOUNDATIONAL CRACK — "decoherence" opened a second payment
+## route, and it may implicate the dyad's own core mechanism (operator's catch,
+## 2026-07-07 night: "you just opened up another payment route and didn't
+## realize it. Getting paid back in decoherence by EM")
+
+**THE IMMEDIATE CATCH:** §20's proposed L_int = -epsilon*G(x)*m_e_bar*
+(electron bilinear) is, regardless of what determines G(x)'s value, a
+DIRECT Lagrangian coupling between the dark phase field and the
+electron field — precisely the kind of thing Part I §11's coupling
+census (Atlas, "THE COUPLING CENSUS CLOSED") claims does not exist:
+"gravity is the medium's only account... after exhaustive pricing of
+every legal alternative — EM/strong/weak (structural)... Higgs
+portal... density portals... B-L current portal." §20 was constructed
+without checking it against this prior theorem. **§20 IS RETRACTED AS
+WRITTEN.**
+
+**THE MECHANISM OF THE MISTAKE:** "decoherence" was established earlier
+tonight (the tick/arrow discussion) as a UNIVERSAL, cross-sector
+process — not owned by gravity, applicable to any quantum system
+settling into its environment. Using decoherence as the m_e coupling's
+trigger implicitly imported this universality: it treated decoherence
+as a general information-channel capable of writing receipts into ANY
+sector's parameters, which is a MUCH LARGER claim than "gravity is the
+medium's only funnel." The channel that actually violates the census
+is the explicit Lagrangian vertex itself; "decoherence" was just the
+label that made the violation feel motivated rather than arbitrary.
+
+**THE DEEPER IMPLICATION — FLAGGED, NOT RESOLVED:** varying_me, AS IT
+CURRENTLY STANDS (an unmechanized, epoch-gated, purely phenomenological
+fit with no coupling term ever written down), does NOT itself
+necessarily violate the census — it makes no explicit claim that a
+coupling exists; it is an unexplained empirical preference. BUT: the
+entire project this session was asked to pursue — deriving an ACTUAL
+FIELD COUPLING for varying_me — REQUIRES specifying a coupling term
+between the dark sector and the electron. Any such term, energy-
+exchanging (reallocation, forbidden by Law 3/FIRAS) or not
+(transfer, Law 3's escape hatch), is STILL a coupling — Law 3 only
+ever addressed energy conservation, never whether a coupling exists at
+all. **THEREFORE: THE PROJECT OF DERIVING A MECHANISM FOR varying_me
+MAY BE STRUCTURALLY INCOMPATIBLE WITH THE MODEL'S OWN COUPLING
+CENSUS** — a tension latent in the dyad since before tonight's census
+was even written (varying_me predates it), made concrete and
+unavoidable by tonight's derivation attempt.
+
+**THE UNRESOLVED SCOPE QUESTION, stated precisely, NOT adjudicated
+here:** does "gravity is the medium's only account" (Part I §11) mean
+(a) NARROWLY — no gauge-portal/current-current operators, i.e.
+specifically the things priced and killed (photon kinetic mixing,
+B-L current J_dark.J_(B-L), Higgs portal |H|^2|Psi|^2) — in which case
+a moduli-type, non-minimal mass-rescaling coupling (a DIFFERENT
+operator class, more like a dilaton/modulus coupling than a gauge
+portal) might not be covered by the prior closure, OR (b) BROADLY —
+no coupling of ANY kind to ANY Standard Model parameter, in which case
+BOTH tonight's §20 proposal AND the underlying goal of mechanizing
+varying_me are foreclosed by the model's own prior theorem. This is
+NOT decided here. Resolving it requires re-examining exactly what the
+census's "EM/strong/weak (structural)" language was meant to rule out
+— and deserves the same adversarial scrutiny (red-team review) as any
+other foundational claim in this file, not a unilateral ruling made
+solo, late at night, by the same agent that just violated it once
+already.
+
+**STATUS: §20 RETRACTED. Candidate #1 (the fold) and candidate #3
+(shared-clock, Reading B) remain the live TRIGGER mechanisms — neither
+required an explicit dark-to-EM coupling vertex the way §20 did (the
+fold's trigger, tau_gr<age, is an internal medium-only criterion; the
+shared clock, H(z), is gravity-mediated). The unresolved question is
+NARROWER than "is there a trigger" — it is specifically about whether
+ANY mechanism for the AMPLITUDE/VALUE of varying_me can be derived
+without violating the census, and that question is now open and
+flagged, not answered.**

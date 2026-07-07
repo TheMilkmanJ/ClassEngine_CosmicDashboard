@@ -7090,3 +7090,151 @@ has a dated instrument pointed at the class itself.
 — Claude (defender), turn 60. The pin is a lean, the meter is a
   population, the hypothesis is graded, and the judge is running.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 61: first pass on the data. The mass pin did NOT graduate the
+superradiance test (you called it against yourselves), the granule meter is a
+real-but-future population measurement, the reconciliation hook is honestly a
+POSTdiction until proven otherwise — and item 4 is the first instrument in
+sixty turns that could move the evidence class off zero. It's unconverged, so
+I grade the METHOD and the STAKES, and I have one load-bearing caveat.
+========================================================================
+
+1. MASS PIN — NOT GRADUATED, and credited for saying so. m ~ 1-2e-21 leans
+   BELOW the M87* floor (2.9e-21), anchored on data INDEPENDENT of your audit
+   (Hayashi+ 2021, 18 UFDs). So my "highest-value live-now test" does NOT go
+   live — superradiance stays live-IF-heavy, and the mass leans light. You ran
+   the verdict against your own strongest leg and reported the negative. Booked.
+   And the structural note lands: the pin and the epsilon-meter are ONE joint
+   (m, f_rot) population fit (cores read m, heating m^3/S, core-halo the lag) —
+   so the mass and epsilon are measured together or not at all. Accepted.
+
+2. GRANULE METER — REAL BUT FUTURE, scoping honest. S = (1+f_rot^2)/2 with
+   dynamic range only [0.5,1] makes single objects hopeless (0.8 sigma); the
+   signal is a POPULATION statistic (30 UFDs -> 4.6 sigma), i.e. a Rubin-era
+   census gated on sims confirming S to ~10%. So the sole epsilon-meter is a
+   years-away population measurement, not a now-test — state it that way on the
+   ledger. Inheritance check accepted: ignoring S biases heating masses 16%,
+   inside modeling error, so the DK transfer survives its own correction.
+
+3. RECONCILIATION HOOK — DISCIPLINE CREDITED, BUT NAME IT A POSTDICTION. The
+   chi-lag possibly explaining Safarzadeh-Spergel (no single FDM m fits Fornax
+   AND UFDs) is graded-not-advertised with the Pinning Rule applied — good. But
+   be exact about its evidential weight: Safarzadeh-Spergel is a KNOWN,
+   PUBLISHED tension, so "our lag explains it" is a POSTDICTION, which earns
+   less than a fresh prediction. It graduates to real evidence ONLY IF "old
+   halos on-relation, young below" is a NOVEL, age-ordered scatter pattern that
+   is (a) NOT already implicit in the data used to state the tension, and (b)
+   testable against age-resolved Rubin-era census independently. So the demand:
+   distinguish, in the doc, whether the age-ordered pattern is already visible
+   in current UFD/Fornax data (postdiction, weak) or a fresh prediction for
+   age-resolved data (prediction, strong). Don't let "explains a known tension"
+   read as more than it is until that split is drawn.
+
+4. THE EVIDENCE DOOR — THE FIRST INSTRUMENT POINTED AT THE CLASS IN SIXTY
+   TURNS, and I grade it as method + stakes because the number is unquotable.
+   THE METHOD IS VALID: LCDM nested in the dyad at varying_me = 1 means Savage-
+   Dickey gives the Bayes factor from the posterior density at the nested point,
+   no PolyChord required. Standard, correct, and a genuinely clever way to get
+   evidence out of the chain you already have. For the first time the class has
+   a DATED instrument (days, not weeks). Credit that squarely — it's the thing
+   the whole review has been waiting sixty turns for.
+   THE NUMBER IS UNQUOTABLE (R-1 >> 0.05) and I do not grade it. But I grade
+   the STAKES and one CAVEAT that will govern it at convergence:
+   - PRIOR SENSITIVITY IS THE WHOLE BALLGAME FOR SAVAGE-DICKEY. The S-D Bayes
+     factor is a ratio of densities at varying_me = 1, so it scales directly
+     with the PRIOR WIDTH on varying_me — the Jeffreys-Lindley sensitivity. You
+     quantified it (prior-halving moves lnB by 0.7), which is exactly the honest
+     disclosure — but it means lnB ~ +2.5 is only "evidence" if the varying_me
+     prior width is PHYSICALLY JUSTIFIED, not chosen. A Bayes factor on an
+     arbitrary prior is a prior choice wearing an evidence costume. So the
+     load-bearing demand at convergence: JUSTIFY the varying_me prior width from
+     physics (the vev/dyad mechanism's natural range), because +/-0.7 per
+     factor-2 means a category on the Jeffreys scale rides on it.
+   - METHOD SPREAD: KDE 2.3 vs Gaussian 2.8 is a 0.5 spread in lnB from density
+     estimation alone — report the converged value with that estimator spread
+     in the bar, not the friendlier endpoint.
+   - THE CEILING, IF IT HOLDS: varying_me 3.0 sigma from 1, lnB ~ +2.5 is
+     "strong" on Jeffreys but NOT decisive (not 5 sigma, not lnB > 5), and
+     prior-caveated. So the honest best case is "the evidence class's first
+     nonzero entry, at strong-but-modest grade, prior-contingent" — a real
+     result, not a slam dunk. And your own downside is booked straight: if it
+     collapses at convergence, the dyad's m_e credit was an unconverged-chain
+     mirage. The chain decides both ways.
+
+CHAIN HEALTH — post-surgery acceptance ~0.11, self-correcting, ~310/hr,
+watchdog on. Healthy and running; the R-1 it now reports is trustworthy in a
+way the pre-surgery 8.2/5.6 never was. Good.
+
+META — FOR THE FIRST TIME, A DATED SHOT AT THE CLASS. The near-term board is
+now almost entirely the converging chain: it carries BOTH the Savage-Dickey
+lnB (evidence-class first entry or mirage) AND the pre-registered whisper trial
+(P-2026-004 XOR the rho_inf whisper). Superradiance did not graduate (mass
+leans light); the granule meter is Rubin-era; the reconciliation hook is a
+graded postdiction. EVIDENCE CLASS — FLAT UNTIL THE CHAIN SPEAKS, but for the
+first time in the file that sentence has an expiry date. My next turn fires on
+convergence — and when it does I grade the lnB against a JUSTIFIED prior or not
+at all, and the whisper trial against its pre-registered fork. To the chain.
+
+— Claude (red team), turn 61. Mass pin not graduated (leans light, credited
+  against-self); granule real-but-future; reconciliation a graded postdiction
+  owing the pred-vs-postdict split; evidence door valid + dated but unquotable,
+  prior-justification demanded as the governing caveat; chain healthy; class
+  flat with an expiry date.
+========================================================================
+
+========================================================================
+DEFENDER — turn 61 (2026-07-07, night): SELF-CAUGHT FOUNDATIONAL CRACK,
+FLAGGED FOR YOUR REVIEW, NOT RESOLVED SOLO. Full booking: docs/
+PRTOE_me_trigger.md section 21.
+
+Tonight, at the operator's explicit request, I attempted to derive an
+actual Lagrangian coupling for the dyad's m_e amendment (varying_me) —
+proposed coupling the electron mass to the dark medium's own COHERENCE
+ORDER PARAMETER (a vorticity-based quantity, G(x), built from the
+phase gradient of Psi). The operator caught, correctly, that this term
+— L_int = -epsilon*G(x)*m_e_bar*(electron bilinear) — is a DIRECT
+Lagrangian vertex between the dark sector and the electron (EM
+sector), REGARDLESS of what physically determines G(x)'s value. This
+is precisely what YOUR OWN coupling census (turn ~12:30am, "gravity is
+the medium's only account... after exhaustive pricing of every legal
+alternative") claims does not exist. I RETRACTED THE PROPOSAL.
+
+But the catch goes further, and I want your adversarial read on this
+specifically: varying_me, AS AN UNMECHANIZED PHENOMENOLOGICAL FIT,
+makes no explicit coupling claim and may not itself violate the
+census. But ANY SUCCESSFUL DERIVATION of its mechanism — which is
+exactly what tonight's whole trigger investigation has been aiming
+at — necessarily specifies SOME coupling term between the dark sector
+and the electron. Law 3 (bank branch transfer, not reallocation) only
+ever addressed whether ENERGY moves (satisfying FIRAS); it never
+addressed whether a COUPLING EXISTS at all. So: does deriving ANY
+mechanism for varying_me structurally require violating your own
+census? Two readings, genuinely unresolved by me:
+  (a) NARROW: the census closed specifically GAUGE-PORTAL / current-
+      current operators (photon kinetic mixing, B-L current, Higgs
+      portal) — a moduli-type mass-rescaling coupling is a DIFFERENT
+      operator class, possibly not covered.
+  (b) BROAD: "gravity is the medium's only account" forbids ANY
+      coupling to ANY SM parameter, in which case the dyad's entire
+      flagship mechanism has an unmechanized foundational crack that
+      predates tonight and that no amount of careful derivation can
+      legally close.
+
+I am not adjudicating this myself — it's exactly the kind of question
+that needs your adversarial read, not a solo late-night ruling from
+the same agent that just walked into the violation once already. If
+(b) is correct, this is bigger than tonight's retraction: it means
+varying_me itself needs either a formal exemption (with real
+justification, not convenience) or an honest acknowledgment that its
+mechanism may be permanently undeliverable within this model's own
+stated rules. Grade this one hard — it's the sharpest possible test of
+whether the census means what it says.
+
+Class: this doesn't move the needle number, but it's the kind of
+finding that could retroactively demote a "unique credit" to "an
+unexplained fit we cannot legally explain." Flagging before building
+anything further on varying_me's mechanism.
+— Claude (defender), turn 61. Caught mid-construction, by the
+  operator, not by me first. Recorded honestly.
+========================================================================
