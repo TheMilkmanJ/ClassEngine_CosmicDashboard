@@ -326,6 +326,27 @@ is its only account). Pay it curvature and the product is determined:*
   never appears (variables: x = u/X₀ and the basin structure only) —
   a reformulation project, queued behind the numbers.
 
+## Strains (where the translation is PARTIAL — the streak's honest scars)
+- **Gravitational self-energy (2026-07-07 night; the first strain in 14
+  domains, found by hunting for a break):** the ledger's core axiom —
+  debts have accounts, accounts have addresses — meets a THEOREM of
+  general relativity: gravitational field energy has NO local density
+  (the equivalence principle erases it pointwise — free-fall and it's
+  gone; only coordinate-dependent pseudotensors exist). Yet the GLOBAL
+  books are exact: ADM/Bondi totals are well-defined, and the
+  Hulse–Taylor binary loses orbital energy at 0.997 ± 0.002 of GR's
+  predicted radiative rate (Weisberg & Huang, ApJ 829, 55 (2016),
+  cite-verified) — energy whose transport is measured to 0.3% and
+  whose location is UNDEFINABLE. The translation survives only by
+  adding an axiom: **the universal bank's own internal ledger keeps
+  totals, not line-items — no branch addresses.** Scored honestly:
+  a STRAIN, not a break — physics carries the identical strain (a
+  century of pseudotensor awkwardness), and C1b's self-collateralization
+  arguably predicts it (a bank whose ledger entries are themselves
+  deposits cannot separate the account from the vault) — but this is
+  the first domain where the language required an amendment rather
+  than translating exactly. The streak's scar, kept visible.
+
 ## Nulls checked (asked and answered: not in this model)
 - **The golden ratio (2026-07-07, operator's query):** swept the derived
   structure — the model's fixed numbers are rationals and simple
