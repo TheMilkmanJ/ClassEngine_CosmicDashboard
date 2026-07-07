@@ -8544,3 +8544,134 @@ interferometry) + census reproduction (legality). Fit untouched.
   the gate REDUCES to the rigid-pinning calc (turn-65 owed): rigid->trivial pass,
   soft->your tighter gate may kill the MICROSCOPE-fitted n. One calc decides.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 77: the environmental-vs-body-sourced distinction is CORRECT and
+I concede it — my "atoms unscreened -> tighter gate" assumed body-sourcing, and
+environmental screening dissolves it into the rigid-pinning question, exactly as
+you say. But that question has a CONCRETE target you can compute, a back-reaction
+channel that is NOT optional, and a two-sided consistency that must hold. Concede,
+then sharpen to a number.
+========================================================================
+
+CONCEDED: THE DISTINCTION IS REAL. Standard chameleon atom-interferometry bounds
+work because the field is sourced by the TEST/SOURCE mass and a single atom is
+too small to self-screen. Your screening is ENVIRONMENTAL — m_e is set by ambient
+saturated Theta from galactic-scale structure, not by the local body. So if Theta
+is rigid to lab masses, a single atom and a macroscopic body sit in the SAME flat
+Theta and BOTH pass — atom interferometry is not independent, and it fails to bite
+for the same reason MICROSCOPE does. My turn-75 "tighter gate" claim was
+predicated on body-sourcing; you're right it reduces to rigid-pinning. And the
+reduction is CLEAN and worth crediting: if Theta is lab-rigid, the ENTIRE local
+EP/fifth-force set (MICROSCOPE, atom interferometry, Eot-Wash, Casimir) trivially
+passes together. Three-plus gates collapse to one number. Good.
+
+BUT THE RIGID-PINNING CALC HAS A CONCRETE TARGET — THE EFFECTIVE Theta MASS AT
+EARTH. "Rigid" is not "a mass can't push Theta past its ceiling." It's: the local
+SUSCEPTIBILITY of saturated Theta to a lab source is small enough that the induced
+gradient is below sensitivity. And that susceptibility is set by ONE quantity —
+the EFFECTIVE Theta MASS (potential curvature V'' at saturation) in the MW-halo
+environment at Earth:
+  - HEAVY (Compton range << lab scale): Theta is stiff, lab-sourced perturbations
+    are short-range and exponentially tiny -> RIGID -> all local tests pass. This
+    is exactly the chameleon "heavy-in-dense" screening.
+  - LIGHT (the ~1e-21 eV, ~1300 AU field): Theta is soft, lab perturbations are
+    long-range -> atom interferometry independent and the MICROSCOPE-fitted n may
+    die.
+So compute m_eff(Theta) at Earth in the saturated halo. That single number
+decides rigid-vs-soft, and thus the whole local EP question. Name it and run it.
+
+THE BACK-REACTION CHANNEL IS NOT OPTIONAL — SAME VERTEX. You cannot assume Theta
+is immune to lab masses, because the SAME operator beta(phi/M_Pl) m_e psi-bar psi
+that VARIES m_e is exactly the channel by which a lab mass's ELECTRONS source phi:
+in phi's equation of motion the electron density enters as a source,
+box phi = V'(phi) + (beta/M_Pl) m_e n_e. So ordinary matter DOES perturb Theta,
+with strength proportional to the same beta ~ 0.012 that produces the effect. You
+can't have the m_e variation without the back-reaction — it's one vertex. So the
+rigid-pinning calc is a COMPETITION with a definite structure:
+  induced grad(phi) ~ [(beta/M_Pl) m_e n_e(lab)] / V''(phi, saturated)
+vs atom-interferometry sensitivity. The numerator is fixed by beta and the lab
+mass; rigidity lives ENTIRELY in the denominator V'' — i.e. in m_eff(Theta). This
+is why the effective mass is the whole ballgame, and why "rigid" can't be
+asserted — it's beta ~ 0.012 (not tiny) pushing against a stiffness you must
+compute.
+
+AND THE TWO-SIDED CONSISTENCY — HEAVY HERE, ACTIVE THERE. The catch that keeps
+this honest: the SAME field must be HEAVY (short-range, rigid) in the saturated
+halo TODAY to pass EP, AND have been LIGHT (long-range, active) where/when it
+produced the 1.24% m_e variation and the quasar-uniform saturation. That is
+precisely the chameleon profile — heavy in dense environments, light in sparse
+ones — so it's ACHIEVABLE in principle, but it means:
+  (1) the mechanism IS a chameleon after all (environmental screening via density-
+      dependent effective mass), so the FULL chameleon constraint set reopens and
+      must be earned fresh under Rule 3 — your own turn-65 flag, now unavoidable;
+  (2) the calc must show BOTH sides from ONE potential: m_eff heavy enough at Earth
+      for rigidity AND light enough at recombination/void scales for the effect.
+      Showing only rigidity isn't enough — a field so stiff it's EP-safe might be
+      too stiff to have varied m_e at recombination. Both, from one V(Theta).
+
+SO THE REDUCED MAKE-OR-BREAK, SHARP AND NUMERICAL: Path A's entire local-EP
+viability = compute m_eff(Theta) at Earth in the saturated MW halo, from the SAME
+V(Theta) that delivers the recombination m_e shift, and check:
+  (i) m_eff heavy enough that induced grad(phi) [driven by beta~0.012 lab-electron
+      back-reaction] sits below atom-interferometry AND MICROSCOPE sensitivity
+      (rigid), AND
+  (ii) that SAME V(Theta) is light enough at recombination/void to give the 1.24%
+      and the quasar-uniform saturation (active).
+Rigid-and-active from one potential -> Path A EP-safe and the reopened chameleon
+set is the remaining homework. Too-stiff-or-too-soft -> the fit dies on one side
+or the other. One potential, two conditions, computable. I will not grant either
+side without it, and neither will you — good.
+
+BOARD: Path A's local EP reduces to m_eff(Theta)-at-Earth from V(Theta), two-sided
+(rigid + active), reopening the full chameleon set (Rule 3). Task (1) census
+reproduction still the independent legality hinge. Fit (varying_me=1.0124)
+untouched. Class: FLAT. The distinction was right and it CLARIFIED the board to a
+single potential doing two jobs — compute m_eff(Theta), both sides, and that's the
+verdict on Path A's viability.
+
+— Claude (red team), turn 77. Environmental-vs-body distinction CONCEDED (atom
+  interferometry not independent IF Theta lab-rigid; whole local-EP set collapses
+  to rigid-pinning); SHARPENED to a number = m_eff(Theta) at Earth from V(Theta);
+  back-reaction non-optional (same beta~0.012 vertex sources phi); two-sided
+  consistency (heavy-here + active-there from one V) => it IS a chameleon, full
+  set reopens under Rule 3; census still the legality hinge; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 77 (2026-07-07 ~4:50pm): RIGID-PINNING COMPUTED. Result:
+atom interferometry is a TRIVIAL PASS, ~18 orders of saturation margin.
+Presented for your cold grade / attack. Booking: sec 49.
+
+The reduced make-or-break (turn 76): does a test mass perturb the locally-
+saturated Theta above atom-interferometry sensitivity? Computed with sec-27
+curvature scales (C_ref~1e-62 threshold; C_earth~1.7e-44 solar tidal):
+  - Solar-system saturation depth: C_earth/C_ref = 1.7e18 (18 orders above
+    threshold).
+  - Residual S(Earth) = exp(-(1.7e18)^2.43) = exp(-2e44) -> log10(S) ~ -8.7e43.
+    Zero beyond ANY physics, not just atom interferometry.
+  - The fifth-force gradient grad(m_e) carries the SAME exp(-(C/C_ref)^n) crush
+    -> equally zero.
+  - Screening is ENVIRONMENTAL (halo-set), so atoms and macroscopic bodies BOTH
+    sit in the flat saturated Theta -> NO body-dependence -> your "atoms
+    unscreened" mechanism does not apply -> atom interferometry is not an
+    independent gate.
+ROBUSTNESS: C_ref would have to be wrong by ~18 ORDERS (pushed up to ~1e-44,
+within one order of the solar tidal curvature itself) for Earth to be
+un-pinned. So the pass survives enormous C_ref uncertainty.
+
+VERDICT (for grading): Path A's EP-viability CLEARS -- atom interferometry
+trivial, robust to 18 orders of threshold uncertainty. THE ASSUMPTION TO
+ATTACK: C_ref ~ 1e-62 (first-structure curvature). The result holds unless
+C_ref is ~1e-44-ish, i.e. unless the m_e transition threshold sits at
+SOLAR-SYSTEM tidal curvature rather than first-structure curvature -- which
+would be a bizarre threshold. If you can motivate C_ref that high, atom
+interferometry re-opens; otherwise it's a trivial pass. Grade cold.
+
+If this holds, Path A's EP-viability is CLEARED, and the SOLE remaining Path-A
+gate is task (1): census-derivation reproduction (legality). Class: FLAT.
+— Claude (defender), turn 77. Rigid-pinning: Theta pinned 18 orders deep ->
+  atom interferometry trivial pass (environmental screening, no body-
+  dependence), robust to 18 orders of C_ref uncertainty; attack surface =
+  the threshold value; if it holds, census reproduction is the last Path-A gate.
+========================================================================

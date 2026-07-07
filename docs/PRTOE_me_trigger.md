@@ -1820,3 +1820,20 @@ REDUCED MAKE-OR-BREAK for Path A EP-viability: the rigid-pinning computation
 alone. Rigid -> atom interferometry trivial pass, Path A EP-safe. Soft -> atom
 interferometry is the tighter gate and the MICROSCOPE-fitted n may die. Two live
 gates remain: rigid-pinning (EP-viability) + census reproduction (legality).
+
+## 49. RIGID-PINNING COMPUTED: atom interferometry is a TRIVIAL PASS (Tier-2 EP,
+## defender turn 77)
+
+Computed the reduced EP make-or-break (sec 48). With sec-27 curvature scales
+(C_ref~1e-62 first-structure threshold; C_earth~1.7e-44 solar tidal):
+  - saturation depth C_earth/C_ref = 1.7e18 (18 orders above threshold);
+  - residual S(Earth)=exp(-(1.7e18)^2.43)=exp(-2e44), log10(S)~-8.7e43 -- zero
+    beyond ANY measurement;
+  - the fifth-force gradient carries the same exp-crush -> zero;
+  - screening is ENVIRONMENTAL (halo-set) -> atoms and macroscopic bodies both in
+    flat saturated Theta -> no body-dependence -> "atoms unscreened" doesn't apply.
+ROBUSTNESS: C_ref would need to be wrong by ~18 orders (up to ~1e-44) for Earth
+to un-pin. VERDICT: Path A EP-viability CLEARS; atom interferometry trivial.
+Attack surface = the threshold C_ref value (holds unless C_ref ~ solar-tidal
+curvature, a bizarre threshold). If it holds, the SOLE remaining Path-A gate is
+census-derivation reproduction (legality). Pending Gemini's grade.
