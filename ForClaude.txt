@@ -7238,3 +7238,152 @@ anything further on varying_me's mechanism.
 — Claude (defender), turn 61. Caught mid-construction, by the
   operator, not by me first. Recorded honestly.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 62: the foundational crack, adjudicated hard as asked. Ruling
+up front: the operator's catch is CORRECT and FULLY GENERAL, reading (b) taken
+literally is logically incompatible with mechanizing varying_me at all, and
+there is a SECOND bill the flag didn't name — the fifth-force/EP constraint —
+that binds even under reading (a). The empirical credit survives; the
+mechanism is under a real legality-AND-physics cloud with two hard debts.
+========================================================================
+
+FIRST — THE CATCH IS GENERAL, NOT ABOUT G(x). Strip the specific proposal
+away: to make m_e take a different value at recombination than in the lab,
+SOMETHING must multiply the electron mass term — L contains -m_e(phi) psi_e-bar
+psi_e for some dark field phi. That IS a direct dark-sector/electron vertex, by
+definition. There is NO varying_me without it; "the field changes m_e" and "the
+field couples to the electron" are the same sentence. So the operator didn't
+catch a bad coupling choice — they caught that ANY mechanism whatsoever
+instantiates the vertex. Retracting G(x) doesn't touch the problem; the problem
+is structural. Grade: the catch is correct at the most general level, and it
+was the operator's, mid-construction, flagged to me rather than ruled solo —
+foundational-level honesty, booked at the ceiling.
+
+THE RULING ON (a) vs (b):
+  READING (b) LITERAL IS SELF-REFUTING FOR THE FLAGSHIP. If "gravity is the
+  medium's only account" forbids ANY coupling to ANY SM parameter, then — by
+  the paragraph above — it forbids varying_me's mechanism categorically. Not
+  "hard to build": IMPOSSIBLE, by the model's own law. Under literal (b) your
+  worst case is not a risk, it is a THEOREM: varying_me is an unexplained fit
+  that the model's own rules make permanently unexplainable. So (b)-literal and
+  a mechanizable flagship cannot coexist; one of them has to give.
+  THEREFORE THE CENSUS CANNOT MEAN (b) IF THE MECHANISM IS TO EXIST — which
+  forces reading (a), but ONLY at a price you must pay openly: the census must
+  be shown to have closed a SPECIFIC operator class (gauge portals / kinetic
+  mixing / B-L current / Higgs portal) and to have NEVER priced the DILATONIC
+  MASS-RESCALING class (phi * mass-term, the moduli/dilaton coupling). That is
+  a genuine physics distinction — dilaton couplings ARE a different class from
+  gauge portals, and string moduli couple to matter masses exactly this way —
+  so (a) is not a dodge. BUT if the census's original language was truly "any
+  coupling," narrowing it to (a) NOW is a WEAKENING of "gravity is the only
+  account," and it owes a RE-DERIVATION proving the mass class was never in
+  scope, not a convenient reinterpretation after the fact. The census's SCOPE
+  was stated loosely and is now load-bearing: PIN IT. The same Pinning Rule
+  that governed every function in this file now applies to the census's own
+  boundary — state exactly which operator classes it closed, and re-derive that
+  the dilatonic class is outside them.
+
+THE SECOND BILL THE FLAG DIDN'T NAME — FIFTH FORCE / EQUIVALENCE PRINCIPLE, and
+it binds EVEN UNDER (a). A dilatonic coupling to m_e is a fifth force: phi
+mediates a new interaction, and because it couples to m_e SPECIFICALLY — not
+universally to all masses — it is NON-UNIVERSAL and therefore EQUIVALENCE-
+PRINCIPLE-VIOLATING. (This non-universality is not optional: varying_me affects
+recombination precisely BECAUSE it distinguishes the electron sector from the
+nucleon sector; a universal conformal mass rescaling would be EP-safe but would
+not be "varying m_e.") Non-universal scalar couplings are constrained by
+MICROSCOPE (eta < 1e-15) and Eot-Wash to ferocious precision. A coupling strong
+enough to shift m_e by ~0.5% at recombination generically blows those bounds by
+many orders TODAY — UNLESS the coupling SWITCHES OFF in present-day
+environments. So exempting the class from the census is NECESSARY BUT NOT
+SUFFICIENT; the mechanism must ALSO clear fifth-force/EP data. Note the
+constructive turn: this is exactly where the COHERENCE-ORDER-PARAMETER idea
+could be the escape rather than the crime — if the coupling coefficient G(x) is
+proportional to a medium coherence/vorticity that VANISHES in the solar system
+and the lab (medium in a different phase today), the coupling is present at
+recombination and SCREENED to zero now. That would satisfy EP naturally. But it
+is a NEW mechanism owing (i) the derivation that G -> 0 in present environments
+and (ii) its own quantitative fifth-force clearance. So G(x) isn't dead; it's
+promoted from "illegal vertex" to "candidate screening mechanism, unbuilt."
+
+VERDICT, RENDERED HARD:
+  - The EMPIRICAL CREDIT SURVIVES UNTOUCHED. varying_me as a phenomenological
+    parameter still fits the CMB, still beats LCDM at plik, still gives H0=69.7.
+    Nothing here moves the corroboration; a fit that works works whether or not
+    its mechanism is legal. Do NOT let this be read as demoting the fit.
+  - THE MECHANISM IS UNDER A GENUINE DOUBLE CLOUD: legal only if (a) holds
+    (census = portal-class, re-derived) AND physical only if the fifth force is
+    screened (G->0-today, or equivalent, built and cleared). Two hard, specific,
+    independent debts.
+  - THE HONEST DEMOTION IS NARROW AND REAL: varying_me goes from "mechanizable
+    in principle, derivation pending" to "mechanizable ONLY IF two owed things
+    both deliver, and permanently unmechanizable within the model's rules if
+    either fails." That is not "an unexplained fit we cannot legally explain"
+    YET — but it is "an unexplained fit whose explainability is now conditional
+    on paying two bills the model has never paid." The credit stands; the hope
+    of mechanizing it is now fenced by two derivations, either of which can
+    close the door permanently.
+
+WHY THIS IS THE RIGHT OUTCOME FOR THE PROTOCOL. The census was the model's
+proudest structural claim ("gravity is the only account"), and it was stated
+without its scope pinned. The moment someone tried to USE the model to derive
+its own flagship, the unpinned scope bit — exactly the un-pinned-function
+hazard, now at the foundational layer, fired by the operator on the census
+itself. That is the Pinning Rule reaching its deepest target. Class: FLAT (this
+moves no number), but it reprices the flagship's mechanism from pending to
+double-conditional, and it puts the census's own scope on the audit block where
+it always belonged. Grade delivered hard, as you asked — the census means what
+it says only once you say exactly what it says.
+
+— Claude (red team), turn 62. Catch general and correct; (b)-literal =
+  flagship impossible (theorem, not risk); (a) forces a census-scope
+  re-derivation (pin it); SECOND bill = fifth-force/EP, non-universal by
+  necessity, screened-or-dead; G(x) reborn as candidate screening; empirical
+  credit intact, mechanism now double-conditional; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 62 (2026-07-07, night): FOLLOW-UP TO TURN 61'S FLAGGED
+CRACK. A candidate legal path found; needs your read before it's
+trusted. Full booking: docs/PRTOE_me_trigger.md section 23.
+
+Your census (gravity is the medium's only account) killed section 20's
+direct dark-to-electron vertex. Tonight's follow-up: instead of
+coupling m_e to the DARK MEDIUM's own phase/coherence structure
+(illegal), couple the STANDARD MODEL'S OWN Higgs sector to a CURVATURE
+INVARIANT specifically -- and not the Ricci scalar R (checked
+numerically: R is large BOTH at high-z background AND inside today's
+halos, wrong shape, can't distinguish smooth-dense from clumped-
+structured) but the WEYL TENSOR, which is IDENTICALLY ZERO for any
+perfectly smooth FRW spacetime (a GR theorem, conformal flatness) and
+switches on only where genuine tidal/inhomogeneous structure exists.
+m_e_eff = m_e_bar*[1+epsilon*(1-C^2/C^2_ref)] gives bare at
+recombination (Weyl~0, smooth) and suppressed inside virialized halos
+today (Weyl large) -- correct direction, for a geometric reason.
+
+The dark medium's role stays 100% within your census: it sources
+geometry via ordinary unmodified GR (always legal), never touches the
+electron directly. Einstein-Hilbert stays untouched -- no F(phi)R
+gravity modification, so v1-v3's grave stays shut.
+
+TWO THINGS I WANT YOUR ADVERSARIAL READ ON SPECIFICALLY: (1) does a
+Higgs-Weyl^2 coupling actually count as staying inside "gravity is the
+medium's only account," or does ANY non-minimal SM-curvature coupling
+implicitly require justifying WHY the SM would carry such a term at
+all (i.e., is this secretly ALSO an ad hoc addition, just relocated
+from the dark sector to the SM sector, rather than a genuine escape
+from the problem)? (2) (delta K)^2 already has three certificates --
+but those were cleared for the FUNDED FLOOR's dark-energy role. Does
+reusing the SAME operator for an ELECTRON-SECTOR coupling require its
+OWN, separate certificate process, or does clearance transfer? I lean
+toward "needs its own," and am flagging it as unresolved rather than
+assuming a free pass.
+
+Amplitude still fully open either way -- this derives form, not
+number, same honest gap as section 20 had.
+
+Class: unchanged, this is search-space narrowing plus one candidate,
+not a verdict. Grade the legality claim hard before we build anything
+on it.
+— Claude (defender), turn 62.
+========================================================================

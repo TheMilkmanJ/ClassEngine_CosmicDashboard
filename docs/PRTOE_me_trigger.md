@@ -725,3 +725,61 @@ it is a SMALLER, more contained departure than a direct dark-sector
 vertex, not a zero-cost one. The scope question from section 21
 (narrow vs broad reading of the census) remains open and unresolved;
 this entry narrows the search space within that still-open question.
+
+## 23. A LEGAL PATH FOUND: Weyl curvature, not Ricci scalar, not a dark-to-EM
+## vertex (operator, 2026-07-07 night: "EM is the product, not the transaction")
+
+**WHY R FAILS, COMPUTED:** R(z) grows with redshift (background: R~2.6e-57
+eV^2 at z=1100 vs 2.1e-65 today, 8 decades) AND grows with local
+overdensity (halo delta~200 perturbs R by ~16x the z=0 cosmic mean,
+computed via 8*pi*G*delta_rho). A coupling m_e~(1+xi*R) cannot
+distinguish "smoothly dense, early" from "clumped, structured, today"
+-- both push the SAME direction. WRONG SHAPE for bare-early/
+suppressed-in-structure. Ricci-scalar coupling closed as a candidate.
+
+**THE FIX: WEYL CURVATURE.** Rigorous GR fact, not a construction: FRW
+spacetimes are CONFORMALLY FLAT -- Weyl curvature is IDENTICALLY ZERO
+for any perfectly smooth, homogeneous universe, at ANY density, ANY
+epoch. It is specifically the TIDAL part of curvature, switching on
+only where genuine inhomogeneity/structure exists (any bound object,
+any virialized halo). Proposed:
+
+    m_e_eff(x) = m_e_bar * [1 + epsilon*(1 - C^2(x)/C^2_ref)]
+
+where C^2 is the Weyl invariant (or its already-model-resident cousin,
+(delta K)^2's inhomogeneity piece -- the SAME operator admitted via
+three certificates for the funded floor, NOW proposed for a DIFFERENT
+purpose). At recombination: density perturbations ~1e-5, Weyl~0, bare
+value survives essentially intact. Inside a virialized halo today:
+genuine tidal structure, Weyl large, coupling suppresses toward the
+generic/lab value. CORRECT DIRECTION, for a geometric reason, not by
+construction.
+
+**WHY THIS STAYS LEGAL (satisfies the section-21 constraint fully):**
+this is a coupling between the STANDARD MODEL'S OWN Higgs sector and a
+CURVATURE INVARIANT -- the dark medium never touches the electron
+directly; it only sources geometry via ordinary, UNMODIFIED GR
+(always legal, always has been). Einstein-Hilbert term untouched -- no
+F(phi)R modification of gravity itself, so this does NOT reopen the
+v1-v3 graveyard (that program modified GRAVITY'S OWN coupling
+strength; this proposal modifies only how MATTER, specifically the
+Higgs/electron sector, responds to curvature -- a well-established,
+separate class of physics, e.g. non-minimal Higgs-curvature couplings
+already studied in Higgs-inflation literature, though the SPECIFIC
+Weyl^2 form is less standard than Ricci-coupling and should be flagged
+as such, not oversold as mainstream).
+
+**HONEST GAPS, UNCHANGED FROM BEFORE:** (i) the amplitude (epsilon)
+remains UNDETERMINED -- re-checked against all pinned model scales,
+still no natural match; this construction derives the FORM, not the
+NUMBER. (ii) (delta K)^2's three existing certificates (cert1-3) were
+cleared for the FUNDED FLOOR's use case specifically -- this is a NEW,
+DIFFERENT application (electron-sector coupling, not dark-energy
+sourcing) and does NOT automatically inherit that clearance; it needs
+its own scrutiny before being trusted.
+
+STATUS: candidate legal path, hypothesis-grade, routed to red team
+(ForClaude.txt) as the follow-up to turn 61's flagged crack. Not yet
+adjudicated. If it survives review, this becomes the leading candidate
+for HOW varying_me could be legally mechanized without violating the
+coupling census; if it fails, the search continues.
