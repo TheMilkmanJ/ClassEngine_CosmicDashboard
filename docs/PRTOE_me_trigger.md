@@ -1864,3 +1864,39 @@ NOT DERIVED. This does NOT convert the fit into a prediction (that needs the exa
 value); it DOES upgrade "why ~1%" to a two-route result. Tier-4 amplitude remains
 OPEN for the exact value; the ~1% size is as derived as it's going to get without
 a full UV completion (Psi_0, beta from the genesis/moduli sector).
+
+## 52. THE AMPLITUDE LIVES IN THE GENESIS -- unified with the two-fluid and the
+## dice under "the first transaction" (operator, 2026-07-07)
+
+Operator's insight: the amplitude is set by "the first transaction" at t~0 --
+"space meeting space, opening an account, investing into the universe" -- and
+this connects to the two-fluid.
+
+PRECISION FIX: not spacetime meeting spacetime (pure spacetime has no bank --
+the equation-of-nothing). The charitable + correct reading: the MEDIUM meeting
+ITSELF via its quartic self-interaction (lambda|Psi|^4) in the first epoch --
+the Affleck-Dine GENESIS / quartic era. With no other matter yet, the medium's
+only transaction is with itself. "Opening an account + investing" = the
+condensate forming, establishing its gravitational account, sourcing expansion.
+
+WHY IT'S THE AMPLITUDE'S HOME (matches Route 2, sec 51): eps ~ Psi_0/M_Pl, and
+Psi_0 (the medium's field scale) is SET AT GENESIS. So "the amplitude comes from
+the first transaction" IS Route 2 stated physically. The operator located the
+amplitude correctly.
+
+THE UNIFICATION (the real prize): the genesis (first quartic self-transaction)
+sets THREE things at once, previously treated as separate:
+  - f_rot (the psi/chi two-fluid split) -> the granule epsilon-meter, S=(1+f_rot^2)/2;
+  - Psi_0 (the field amplitude) -> the m_e amplitude via Psi_0/M_Pl;
+  - the DICE (f_amp distribution the One Mountain computed from genesis chaos).
+All three share ONE parent -- the first transaction. Not three mysteries; three
+outputs of one genesis event.
+
+HONEST CATCH: this RELOCATES the exact amplitude, doesn't derive it -- but
+somewhere meaningful. To derive the exact 1.24%: fully solve the genesis (pin
+Psi_0 precisely from the quartic-era dynamics; beta~O(1) natural for a moduli
+coupling). The ~1% SIZE is already genesis-derived; the exact value needs the
+same genesis calculation that produced the dice, EXTENDED to pin Psi_0. So the
+Tier-4 amplitude task and the genesis task MERGE (fewer separate unknowns) --
+progress, though neither is closed. The amplitude derivation is now: solve the
+quartic-era genesis for Psi_0 (and confirm beta~1).
