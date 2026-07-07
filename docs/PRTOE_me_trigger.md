@@ -78,3 +78,33 @@ for free.
 Open wall, one candidate, one gate (#11 via two-field sims), one fork
 (21-cm), one free near-term check (the posterior). Grade of everything
 above: derivation-debt formalization — no new claims registered.
+
+## 7. β-as-the-switch — priced at turn zero (operator's candidate, 2026-07-07 afternoon)
+
+The operator asked whether β (the deleted sound-speed parameter) is
+what shut the switch off. Priced per graveyard Rule 3. THE WINDOW IS
+REAL: in s = ln(ρ/ρ∞), the switch must be ON at s = 20.0
+(recombination; the medium there is 5,617× denser than at Earth) and
+OFF at every measured site (lab/Oklo s = 11.4; dense measured systems
+up to s ≈ 16). And β's built-in scale 1/β lands IN-WINDOW at
+β ≈ 0.07 (s* = 14) — the family shape can reach the right territory.
+THREE KILLS ANYWAY:
+(1) any β in the fluid's cs² is DES-dead and 0.07 is worse than the
+    executed 1e-7 by five decades (cs²_max ≈ 0.74β at the DE
+    transition, s ≈ 1) — so the trigger-β must be a new object wearing
+    the formula, inheriting nothing;
+(2) standalone, it is the bespoke-saturation corpse: 0.07 was fit to
+    the window at pricing time, derived from nothing;
+(3) DECISIVE: the threshold cuts through today's environments —
+    measured systems span s ≈ 8–16, so s* = 14 puts dense absorbers on
+    the BARE side today → same-absorber nulls fire; escape requires
+    tuning s* into the (16, 20) sliver with no mechanism.
+STANDING REQUIREMENTS TABLE (any future trigger candidate must pass):
+ON at s = 20; OFF for all 11.4 ≤ s ≤ 16; no differential structure
+across today's environment spread; a derived (not fit) scale or a
+binary variable. Density-valued candidates face (3) generically —
+s = 20 is smooth unfolded medium, s = 11.4–16 is folded granule-
+carrying medium, and only TOPOLOGY separates those regimes without a
+tuned threshold. The β pricing is therefore the strongest structural
+argument yet FOR the Θ = granule trigger. β's grave stays cold; the
+requirements table is the question's permanent yield.
