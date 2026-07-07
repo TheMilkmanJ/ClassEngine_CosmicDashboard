@@ -710,6 +710,66 @@ is its only account). Pay it curvature and the product is determined:*
   redshifts to sub-horizon-band frequencies today. Nothing observable;
   the dice roll left no gravitational echo. One-line null.
 
+## BURN SET 3 (2026-07-07 ~6am, operator's order: unexplored domains)
+
+- **THE DARK-ANTIMATTER REFRAME (coherence-grade; falls out of E7's
+  two-fluid for free):** the antiparticle sector n₋ never annihilates
+  (gravity + λ ~ 10⁻⁸⁸ only — nothing to annihilate INTO), so the
+  dark sector RETAINS its antimatter forever. Median draw: **30% of
+  dark matter — a quarter of all matter in the universe — is
+  antimatter**, coexisting peacefully at every point in the halo. The
+  old question "where did the antimatter go?" splits: the VISIBLE
+  antimatter annihilated (standard baryogenesis, asymmetry ≈ 1); the
+  DARK antimatter is still here (asymmetry = f_rot ≈ 0.4), invisible
+  precisely because it cannot annihilate. The medium's charge
+  asymmetry is MODEST where the baryons' is total — because the
+  penalty for symmetry is annihilation only if a channel exists.
+  Corollary standing bet (see next entry): this antimatter must NEVER
+  radiate.
+
+- **THE INDIRECT-DETECTION STANDING BET (kill-only, permanent —
+  the second standing bet at zero, beside the laboratory one):**
+  gravity-only + no annihilation channel ⇒ the medium produces NO
+  indirect-detection signal of any kind, ever: no annihilation
+  photons, no decay lines, no positron excess, no neutrino flux. The
+  model VOTES against every claimed dark-matter signal on the books —
+  the galactic-center GeV excess (must be millisecond pulsars or
+  similar), the AMS positron excess (must be pulsars/secondary), the
+  3.5 keV line (must be atomic/instrumental) — and against every
+  future one. ONE confirmed particle signal from the dark sector
+  kills the model outright, no repair. Like the lab-zero bet: taken
+  continuously, against ever-improving instruments, with no dial.
+
+- **METROLOGY RUNS ON THE PHASE-CLEARING LAW (calibration receipt):**
+  the SI volt is DEFINED through the AC Josephson relation
+  ν = 2eV/h — the phase sector's clearing rule (C4/R1.7's physics) in
+  circuit form; the 2019 SI redefinition fixed e and h exactly,
+  making the Josephson constant exact by decree. Civilization's
+  legal unit of electrical potential is a settlement-law receipt.
+  (Superconductor contrast, booked while here: a superconductor is a
+  GAUGED U(1) condensate — Meissner, flux quantization; the medium is
+  a GLOBAL-U(1) condensate, He-4-class, no dark photon — the census
+  closed that door; the two condensate families are cousins, not
+  twins.)
+
+- **QUANTUM BIOLOGY AND THE CONSCIOUSNESS FIREWALL (scales-only,
+  pre-emptive):** the credit window ħ/ΔE at biomolecular splittings
+  (~0.02 eV) is ~3×10⁻¹⁴ s — marginal against ~10⁻¹³ s exciton
+  transport (the vibronic-assisted reading of photosynthesis;
+  coherence claims in that literature are contested and we endorse
+  none of them — this is arithmetic, not advocacy). And the
+  FIREWALL: neural signaling (10⁻³ s) sits 10–17 DECADES above
+  neural decoherence times (10⁻¹³–10⁻²⁰ s, Tegmark's classic
+  estimate): **the settlement law offers consciousness NOTHING — the
+  brain is a classical ledger.** Booked pre-emptively so no reader
+  can recruit this file for quantum-mind claims.
+
+- **SOLAR-SYSTEM EPHEMERIS NULL (with number):** the medium's local
+  density (7×10⁻²⁵ g/cm³) sits 4–5 decades below planetary-ephemeris
+  sensitivity to diffuse mass inside Saturn's orbit. The solar system
+  cannot feel the medium; no anomalous perihelion channel exists.
+  Clean, closed.
+
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
   anchors.
