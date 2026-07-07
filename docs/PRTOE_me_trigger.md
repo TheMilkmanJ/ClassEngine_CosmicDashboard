@@ -260,3 +260,31 @@ unchanged — #11's sims still gate everything). Net effect: strengthens
 candidate #1 (the fold) by explaining its onset epoch rather than
 diluting it with a rival; retires Compton gate from "competing
 mechanism" to "necessary cosmological precondition."
+
+## 12. "Division of labor" — checked against the data (operator, 2026-07-07 evening)
+
+Flagged conflation, corrected: thermal decoupling (z=131) is NOT itself
+a rule change — it is ordinary physics (Compton rate < H), identical
+in vanilla LCDM with zero dark-sector content. The only rule change on
+the table is the m_e shift, and its size (1.24%) is quantitatively
+small — comparable to routine varying-constant bounds (e.g. varying-G
+limits ~1%) — not an edit whose SIZE motivates needing two authors.
+
+Division of labor, re-cast as OPTION 3 (additive), remains logically
+available but is NOT free: giving Compton decoupling a DIRECT partial
+write on m_e (rather than pure staging, per §11's nested resolution)
+requires it to carry an actual sensed coupling to the thermal state —
+which reopens the sensing-channel debit that the nested (Option 2)
+reading escaped by making Compton decoupling precondition-only. Two
+half-mechanisms is a MORE expensive hypothesis than one whole one, not
+a cheaper one — the ledger prices by "does a channel exist," not by
+edit size or writer-count.
+
+Current data cannot distinguish: the additive picture's signature (a
+compound m_e(z), small step at z~131 plus drift to z~15-25) sits far
+below CMB/21-cm sensitivity today. Both nested and additive stay
+hypothesis-grade behind the same gate (#11). NET: division-of-labor
+does not open a new test — it adds one sub-question to the existing
+one (does Compton decoupling carry ANY direct m_e coupling, beyond
+staging). The fold/Theta derivation remains the load-bearing next step
+either way.
