@@ -329,6 +329,44 @@ skipped:
 The climb is simultaneously a measurement and a pass/fail. Status:
 queued as the program's next major work, fresh-session scale.
 
+## EXPEDITION 4 (2026-07-07, ~1am): THE SUMMIT — first ε data
+## (provisional grade: era-segmented integration; seamless run owed)
+
+**The instrument:** direct numerical integration of the birth orbit —
+(a) weak-tilt/quadratic era: precise and coarse runs agree to 3
+decimals; law: f_rot ≈ (1.5–2)·c_t, LINEAR; angle-chaos onset at
+c_t ~ 1. (b) Quartic era (the natural regime — BOTH quartics tower
+over the mass term by ~10⁸ at GUT-scale release; self-caught
+correction to the λ-negligible assumption): conformal integration,
+tilt ratio r_t = tilt/symmetric-quartic as the natural O(1) dial.
+
+**THE SUMMIT NUMBERS (quartic era):** f_rot rises with r_t but
+CEILINGS at ≈ 0.5–0.55 near r_t ~ 0.6 and turns chaotic beyond —
+the natural genesis CANNOT make a pure rotor. Across the ENTIRE
+natural range: **ε ≥ ~0.67, i.e. f_amp = ε² ≥ ~0.45.**
+
+**PROVISIONAL SUMMIT VERDICT — outcome (ii), bounded, and the bound
+BITES:** the minimal genesis forces the medium to be a MIXED
+rotor–librator: at least ~half its density is the librating
+(amplitude/potential-FDM-like) component. Consequences if it hardens:
+(1) R1.6 is not merely alive — it is MANDATORY: a forced KR-type PTA
+signal at f_amp ≥ 0.45 (light end: Ψ ~ 4.5×10⁻¹⁶ — within reach of
+near-future arrays; not yet excluded); (2) P-2026-005's band-silence
+claim is PREDICTED VIOLATED by the model's own genesis — the
+collision resolves against the registration and toward the signal;
+(3) the identity revises: "charged rotating superfluid" → mixed
+rotor–librator (≈half charge, half breathing).
+
+**Caveats, stamped before anyone cheers:** (i) the f_rot
+normalization in the quartic era is order-unity grade (circular-orbit
+calibration), not 3-decimal; (ii) the eras were integrated
+SEGMENTED — the seamless run (quartic → transition → quadratic, tilt
+diluting through c_t_eff ~ 1 at basin entry) can further process ε
+and is OWED before the summit is declared; (iii) non-minimal escapes
+exist (pre-rotation during inflation; other tilt dimensions) and are
+extensions with bills. Red-team cold read required; this entry is
+DATA, not the verdict.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
