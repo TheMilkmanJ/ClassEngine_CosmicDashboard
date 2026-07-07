@@ -109,6 +109,21 @@ environment half, one transaction and one receipt at a time.
   stamped: this simulates the medium's physics and horizon kinematics
   cheaply (the throat flow is an ODE, queued); it does NOT replace
   numerical relativity for spacetime's own dynamics.
+- **The information cluster (2026-07-07 night — the ledger's deepest
+  domain)**: LANDAUER — the bank charges for shredding: erasing one
+  bit costs ≥ kT·ln2 (17.9 meV at room T), a LAW not a limit, measured
+  (Bérut et al., Nature 483, 187 (2012), single-bead erasure). THE
+  DEMON'S DEFEAT — Maxwell's demon fails by bookkeeping, not physics:
+  it must record to act, memory is finite, and erasure repays exactly
+  the entropy it "beat" (Bennett 1982) — its profit was an unposted
+  draft; posting bankrupts it. ENTROPY = RECORD COUNT — S = kB·lnΩ is
+  ledger bloat, and the second law becomes: POSTING IS CHEAPER THAN
+  SHREDDING (the arrow's rate law, completing C1c). THE MAXIMUM FILING
+  CABINET — a solar-mass black hole stores 1.5×10⁷⁷ bits on its
+  HORIZON AREA (Bekenstein–Hawking), not its volume: records are
+  surface-billed (the holographic bound); the auditor of last resort
+  (C1b) is the densest archive in existence. Restatements with
+  receipts; twelfth domain; the language holds.
 - **The debt reading of gauge fields (C1a)**: Gauss's law = the field
   is the record of obligation, not the payment (receipt: charge
   conservation, e⁻ lifetime > 6.6×10²⁸ yr); Aharonov–Bohm = the ledger
