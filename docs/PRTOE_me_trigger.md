@@ -504,3 +504,49 @@ STANDING PICTURE UNCHANGED: candidate #1 (fold, tau_gr<age, local) and
 candidate #3-as-Reading-B (pure redshift/scale-factor, global, value
 still undetermined) remain the two live mechanism classes; the 21-cm
 dark-ages sky remains the sole discriminator between them.
+
+## 19. "Lost mid-transition, not a rules decision" — sharpens candidate #1 with a mechanism AND a new compound prediction (operator, 2026-07-07 night)
+
+Reframe: not "Theta (structure present) reads and applies a rule" —
+rather, the bare value is a property ONLY the smooth, linear,
+undisturbed regime can sustain; violent relaxation (the actual,
+technical process by which halos virialize — orbit-crossing, phase-
+space scrambling) DESTROYS that delicate support, and m_e falls back
+to the generic/default (lab) value because nothing is holding the
+special (bare) configuration up anymore. This is a PROCESS-based
+trigger, not a STATE-based one.
+
+WHY THIS IS A GENUINE IMPROVEMENT: it explains DIRECTIONALITY for
+free. The plain fold story (Theta on/off) never justified why collapse
+specifically suppresses rather than does anything else to m_e; "a
+violent process disrupts a delicate configuration and a generic one
+survives" is a normal, expected asymmetry, not an assumption.
+
+**NEW COMPOUND PREDICTION, from combining this with Room 5's already-
+booked psi/chi lag (§ granule scoping, Levkov pull, this same
+session):** if loss happens DURING the act of collapsing (not merely
+"is structure present"), then within a SINGLE halo, at a SINGLE
+epoch, the psi component (already condensed, per Levkov's faster
+rate) should carry the SUPPRESSED (lab) value, while the chi
+component (still an uncondensed wave gas in typical dwarfs today,
+per the x11 lag) should STILL carry the BARE value — a LAYERED,
+two-state m_e signature coexisting in one object, not a clean
+halo-wide switch. This is sharper and more falsifiable than "virialized
+vs unvirialized" alone: it predicts INTERNAL STRUCTURE to the
+suppression, tracking which component has actually been through
+violent relaxation.
+
+CONNECTS to §8's disappearance-inventory framing directly: what
+disappears is not a global substance (plasma, closed; thermal contact,
+staging-only) — it is the SMOOTH, UNDISTURBED STATE of a given patch,
+LOCALLY, consumed by its own collapse. Candidate #1 (the fold) is
+unchanged as the leading mechanism CLASS; this entry gives it (a) a
+physical reason for its direction and (b) a new, richer, checkable
+signature (psi/chi layering) for the SAME two-field sims already
+queued (#11) to test for, alongside the granule-power calibration.
+
+STATUS: hypothesis-grade refinement, not registered, same Pinning
+Rule. Adds one concrete item to the #11 sim spec: check for m_e-
+relevant structural differences between the psi and chi components
+WITHIN a single simulated halo, not just aggregate halo-vs-void
+comparisons.
