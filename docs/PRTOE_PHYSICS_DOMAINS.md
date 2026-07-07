@@ -875,3 +875,77 @@ mixed — which means **more than half the census can still hurt us**,
 and that is the point. The evidence class remains FLAT (zero confirmed
 entries); the attachment surface is how it stops being flat, in either
 direction.
+
+---
+
+## The validation ledger (added same day, operator's order: "show validation for each domain")
+
+*Current standing of every attachment, dated 2026-07-07. Statuses:
+**PASSING** (data exists, model passes now) · **STANDING-NULL** (bet
+running, data currently null exactly as required) · **TRAILING** (live
+data currently leans against us — stated, not softened) · **PENDING-x**
+(awaiting posterior / sims / data / derivation) · **EXECUTED** (the
+domain already killed a piece — attachment proven by corpse) ·
+**LAB-VERIFIED** (the load-bearing lab receipt exists, cite-verified) ·
+**DERIVED** (internal theorem, checkable) · **RULER** (input we measure
+against, not a claim).*
+
+| § | Domain | Status | The receipt / what's owed |
+|---|--------|--------|---------------------------|
+| 25 | PPN / solar system | PASSING | Cassini γ−1 = (2.1±2.3)e-5; GP-B 37.2±7.2 vs 39.2; ephemeris null computed |
+| 26 | Equivalence principle | PASSING + standing | MICROSCOPE η = (−1.5±2.7)e-15; must hold forever |
+| 27 | Atomic clocks | STANDING-NULL | 1e-18 systematics, no constant drift seen; R1's virial-static null holds |
+| 28 | Quasar spectroscopy | EXECUTED (α) / PENDING-DATA (R1) | α killed 45–100×; m_e in unvirialized gas unmeasured — R1's judge |
+| 29 | Oklo reactor | PASSING | 2-Gyr constants stability inside virialized matter, as R1 requires |
+| 30 | Matter-wave interferometry | STANDING-NULL | δg/g ~ 1e-9, no dark dephasing |
+| 31 | Deuterium (PRIMAT) | PARTIAL | scar −1.2σ carried openly; healer P-2026-006 awaiting §2-wall derivation |
+| 32 | Lithium | PENDING-DATA | co-signature −7..13% untestable until healer tested |
+| 33 | Helium-4 (Y_p) | PASSING | in-config YHe(ω_b, m_e) consistent with 0.2449±0.0040 |
+| 34 | Neutron lifetime | EXPOSURE-OPEN | beam-bottle 4σ unresolved upstream of our BBN prior |
+| 35 | Binding coefficients (DSW) | VERIFIED-AT-SOURCE | PRD 76, 063513 pulled; ∂lnB_D/∂ln m̂ = −4 |
+| 36 | Cosmic ν background | PASSING (fired once) | N_eff = 3.044 arithmetic executed ξ_Neff; damping tail consistent |
+| 37 | ν oscillations | RULER | Δm² floors; not ours to bend |
+| 38 | KATRIN / JUNO | PENDING-POSTERIOR | P-2026-004 scoring — the chain running right now IS this row |
+| 39 | ν self-interactions | EXECUTED | five-lever audit corpse |
+| 40 | Distance ladder | STANDING | P-2026-001 registered (commit 8a5840a5); ladder unresolved |
+| 41 | DESI DE evolution | **TRAILING** | DR2 prefers evolving DE at 3.1σ — the ONE attachment currently moving against us; bet is it recedes |
+| 42 | Weak lensing S8 | PASSING + corpse | S8 = 0.823 at KiDS consensus, zero χ² cost; DES executed β |
+| 43 | Lyman-α | PASSED-ONCE | 6 decades at k = 0.2/Mpc; audited band passes wider; re-arms at granule scales |
+| 44 | Dark acoustic oscillations | STANDING-NULL | no DAO in P(k), as census requires |
+| 45 | Dark disk | STANDING-NULL | Gaia kinematics show none, as Law 2 requires |
+| 46 | Dwarf heating | PASSING-AT-BAND | DK transfer factor computed; band [1,3]e-21 pinned by this row |
+| 47 | Stellar streams | PENDING-SIMS | make-or-break for ε ever being measurable (turn-58 binding) |
+| 48 | Core–halo lag (Room 5) | PENDING-SIMS | ×11 χ-lag quantified (Levkov b≈0.9 pulled); candidate 4th axis |
+| 49 | Dynamical friction | INHERITED-PASSING | FDM verdicts transfer at stated precision, within band |
+| 50 | Schrödinger–Poisson | DERIVED | corrections 1/X₀-suppressed ≤1e-22; inheritance license |
+| 51 | Rotation curves | PASSING | the founding receipt; nothing new owed |
+| 52 | SMBH superradiance | LIVE (edge-contingent) | (2.9–4.6)e-21 cite-verified today; live-if-heavy; graduation = pin m |
+| 53 | Pulsar timing | EXECUTED | channel dead by mass this morning; silence now REQUIRED |
+| 54 | Stochastic GW / strings | PASSING-NULL | no echo (fraction² computed); no strings (born condensed); none observed |
+| 55 | BH accretion sonic point | DERIVED-AWAITING-DATA | r = 1.8393 r_s exact; no instrument yet |
+| 56 | GW ringdown | PASSING | all ringdowns GR-consistent to date, as census requires |
+| 57 | GC GeV excess | STANDING-VOTE | pulsar interpretation viable in literature; vote holds |
+| 58 | AMS positrons | STANDING-VOTE | pulsar/secondary interpretations viable; vote holds |
+| 59 | 3.5 keV line | STANDING-VOTE (favorable) | deep follow-ups have not confirmed the line; vote currently winning |
+| 60 | Direct detection | STANDING-NULL | LZ/XENONnT null to ~2e-48 cm², as census requires, forever |
+| 61 | Dark-sector ν flux | STANDING-NULL | IceCube shows none, as required |
+| 62 | Dark photons | STANDING-NULL | none detected; census door stays welded |
+| 63 | Ring-BEC analog | PROTOCOL-BOOKED | tabletop frozen-ellipticity test written, unrun; thousands not billions |
+| 64 | Bragg S(k) | LAB-VERIFIED | PRL 88, 120407 — the form-factor shape exists in a lab universe |
+| 65 | Amplitude mode | LAB-VERIFIED | Nature 487, 454 — R1.6's object measured in the same EFT class |
+| 66 | Quantum turbulence | PENDING-CALIBRATION | lab tangle statistics → granule Θ meter |
+| 67 | ³He contrast class | LAB-ESTABLISHED | gapped family mapped; P-2026-005 binds us to the gapless side |
+| 68 | Isocurvature | PASSING | H_inf pin consistent with r bounds; θ-veto step-converged in h-scan |
+| 69 | CP / Z4 genesis | DERIVED | Z4 forced (parity+renorm.); τ_Q ≥ 1.6e9 Gyr verified this morning |
+| 70 | Reheating / abundance pin | ARITHMETIC | Ψ₀ = 0.7–1.5e17 GeV; moves only if Ω_DM or entropy history moves |
+| 71 | FIRAS distortions | PASSING-NULL | μ/y at standard levels, as Law 2 requires |
+| 72 | CMB dipole | PASSING | 370 km/s speedometer; frame statistics boring, as required |
+| 73 | Dark antimatter | STANDING | same guillotines as §57–61, taken from the other side |
+| 74 | 21-cm dawn | AWAITING-DATA | epoch gate z<50 in every config; REACH/SKA-low will read it |
+
+**The honest tally:** 0 falsified · **1 TRAILING (§41, DESI — the only
+attachment currently moving against us, and the file says so in bold)** ·
+17 PASSING-class · 12 STANDING-class (bets running at null, as required)
+· 10 PENDING (posterior, sims, data, derivation) · 4 EXECUTED corpses ·
+the rest lab-verified receipts, derivations, and rulers. The census is
+not a trophy wall: a third of it can still move, and one row already is.
