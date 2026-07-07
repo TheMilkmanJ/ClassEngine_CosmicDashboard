@@ -916,7 +916,22 @@ framework has a **structural** limit, not a numerical one:
   — vev package — locally reactivate inside that surface, negligible
   observables at these volumes.) The old "recycling furnace"
   ideation acquires its mechanism-grade form: holes locally undo the
-  condensation, now with the surface computed. Black holes: shift symmetry supports no-hair conclusions
+  condensation, now with the surface computed.
+  **Addendum 2 (2026-07-07 night) — the universal horizon, located:**
+  on the same exact flow, the khronon foliation's overlap with the
+  Killing time is (u·χ) = 1/√X̃ exactly (ξ = t + ψ(r)); the transonic
+  branch has y·f → 1 as f → 0 (verified numerically to 1e-4), i.e.
+  X̃ = 1/f at the horizon, so **(u·χ) = √f: zero AT r_s and positive
+  everywhere outside — the medium's universal horizon DEGENERATES onto
+  the metric horizon in the probe limit.** No interior trapped region
+  for the khronon (contrast khronometric gravity, where backreacting
+  khronons hide universal horizons inside r_s — ours is minimally
+  coupled, so the foliation is a test structure and GR's horizon
+  remains the only one). Consequences: the global time-order (C1e's
+  chronology protection) extends regularly to every r > r_s;
+  arbitrarily-fast dispersive medium modes can escape from any point
+  outside the horizon; landmarks on the flow: (u·χ) = 0.866 at the
+  sonic point (ISCO), 0.707 exactly at the basin exit (1.839 r_s). Black holes: shift symmetry supports no-hair conclusions
   (quasi-static accretion at CDM-negligible local density); note the
   Hui–Nicolis theorem is usually stated for Galileon-type/derivatively
   coupled shift-symmetric scalars — its clean applicability to bare P(X)
