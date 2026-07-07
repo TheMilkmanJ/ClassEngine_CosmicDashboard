@@ -591,6 +591,95 @@ accumulated phase mixing as initial data, converting the four extra
 decades of h into an effective transition-time distribution rather
 than raw integration time.
 
+## EXPEDITION 7 (2026-07-07, ~3:30am): THE NR TWO-FLUID REDUCTION —
+## what the mixed rotor-librator IS inside galaxies, a self-caught
+## amplitude correction, and a SECOND ε-meter
+
+**The reduction (theorem-grade, standard):** in the non-relativistic
+limit the complex medium splits into TWO Schrödinger fluids — the
+particle sector ψ (n₊) and the antiparticle sector χ (n₋), same mass,
+gravity-coupled only (λ ~ 10⁻⁸⁸ mediates nothing at halo densities;
+charge conservation forbids mixing). The dice draw sets the global
+ratio: n± = n(1 ± f_rot)/2. The medium in a halo is a TWO-COMPONENT
+FDM with independently-speckling components. Checks: ρ is constant in
+time (the 2m oscillations cancel in T₀₀ — verified analytically);
+the pressure does NOT cancel — it beats.
+
+**SELF-CAUGHT AMPLITUDE CORRECTION (supersedes turn 45 §4's threshold
+map):** the KR pressure-oscillation fraction is the CROSS term,
+amplitude 2√(n₊n₋)/n = √(f_amp(2−f_amp)) — NOT f_amp as E4 and the
+turn-45 pinning assumed. Limits check: pure librator (real field,
+p = q = ½) → 1 ✓; pure rotor → 0 ✓. Consequences: (i) at the median
+draw (f_amp ~ 0.6) the beat is 0.80–0.92 — the signal is ~50%
+STRONGER than priced; (ii) the detectability threshold in f_amp drops
+×10: beat > 0.2 ⟺ f_amp > 0.020 — under the dice, only draws with
+f_rot > 0.98 stay quiet, and ONE such draw has appeared in 100+ rolls;
+(iii) HELD IN CHECK by the m-gate: Ψ_KR ∝ 1/m², so the whole PTA
+channel lives only at the light edge of the mass band — the
+KR-normalization × m-posterior arithmetic is DEFERRED to the morning
+verification (the booked E4 number and this correction must be
+re-derived jointly against the model's actual m before the threshold
+is re-pinned; flagged so the correction cannot silently inflate the
+odds). Structure booked tonight; normalization owed at daylight.
+
+**THE SECOND ε-METER (prediction-shaped, sim-owed):** two independent
+speckle fields with fractions p, q reduce the granule density-contrast
+power to p² + q² of single-field FDM: the median draw (f_rot ~ 0.4)
+gives 0.55–0.60 — a ~40–45% granule-power suppression. Granule-driven
+observables (star-cluster heating in Eridanus-II-class dwarfs,
+stellar-stream perturbations, soliton-core statistics) READ THE DICE
+at ANY m in the band — an ε-meter fully independent of the PTA beat
+and of its m-gate. The two channels are correlated by construction:
+the 86%-branch predicts (strong beat IF m light) AND (suppressed
+granules regardless); the 14%-branch predicts silence AND full
+granule contrast. A joint sky reading of the same single dice roll.
+Simulation-grade follow-up owed before any number is quotable.
+
+**No-cosmic-strings null (same burn):** the broken global U(1) would
+support a string network only if the symmetry was ever restored — it
+never was (born condensed, no Tc crossing, booked); inflationary
+angle spread δθ ~ 10⁻⁵ ≪ π seeds no windings. No strings, no
+string-CMB or GW-burst bills. Clean.
+
+## EXPEDITION 8 (2026-07-07, ~4am): THE ERGODIC BACKBONE — the
+## operator's question turns the chaos into order
+
+**The operator asked:** "does the frozen-ellipticity theorem offer
+insight that might turn that chaos into order?" Formalized: the
+theorem names the INVARIANTS the chaos delivers (the two mode-actions
+n±, frozen at the tilt's death); if the quartic-era dynamics is
+ERGODIC on the energy shell while the Z4 tilt still breaks
+L-conservation, the frozen L is a draw from the MICROCANONICAL
+measure on the pure-quartic shell — and P(f_rot) becomes an ANALYTIC
+object: no integration of the chaos at all, E-independent by the
+quartic's self-similarity (⇒ h-independent), tilt-independent (the
+tilt only needs to mix). The two observed mysteries of the dice —
+h-stability and tilt-universality — would both be EXPLAINED, not
+just observed. (The operator has blindly reconstructed the ergodic
+hypothesis and the microcanonical ensemble.)
+
+**THE TEST (same hour):** microcanonical P(f_rot) on the H = p²/2+r⁴
+shell, pushed through the adiabatic transition (J_r, L conserved;
+f_rot = L/(L + 2J_r) in the quadratic era):
+    prediction: median f_rot = 0.53, P(f_amp>0.2) = 77.7%,
+                full range [0,1], P(f_amp>0.02) = 97.6%
+    the dice:   median 0.33-0.45 (dense 0.43), P(f_amp>0.2) = 86±6.5%,
+                range [0.02,0.98], P(f_amp>0.02) = 41/42 = 97.6%
+**Verdict: APPROXIMATE MATCH at first shot** — shape, range, and the
+0.02-exceedance dead on; the exceedance within ~1.3σ; the dice run
+slightly MORE librating than pure ergodicity (median 0.43 vs 0.53).
+The residual is itself informative: incomplete mixing, or a
+freeze-out measure biased by the dying tilt — both computable.
+**Pre-registered use (offered to the red team):** the ergodic limit
+is the natural h→∞ ANALYTIC BACKBONE for stage two — if P(h) drifts
+from 86% toward ~78% as h rises, that is the ergodic limit being
+approached, and P_inf gets an analytic value with the freeze-out
+correction as its error bar. This makes the stage-two overlap test
+THREE-legged: direct integration, self-similar instrument, ergodic
+limit — mutually checking. (Also note: 14/14 at h = 3000 has ~3%
+probability under the ergodic p = 0.78 — the interim floor remains
+suspicious, exactly as the reviewer graded it.)
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
