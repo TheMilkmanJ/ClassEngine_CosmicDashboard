@@ -52,6 +52,11 @@ dead, and the corpse ledger is public.
 | 23 | Fluid dynamics & turbulence | Kolmogorov translates; intermittency silent | Honest silence |
 | 24 | Methods: Bayesian & numerical | Joint refits; pre-registration; red-team protocol | The method IS a result |
 
+*Part II (below, added 2026-07-07) extends the census to **63 domains**
+(entries 25–63): full derivation chains with numbers re-derived at
+booking. New exposures: PPN (§28), τ_n (§38), 21-cm epoch gate (§62),
+direct detection (§63).*
+
 ---
 
 ## 1. Background cosmology & general relativity
@@ -527,3 +532,451 @@ resurrection terms or the word "never."*
 
 *If every bet survives, the program has earned its next room. If one
 dies, the file shows exactly where, and why, and what was paid to know.*
+
+---
+
+# PART II: THE EXTENDED CENSUS (2026-07-07, operator's order: "more domains, full derivations")
+
+*Same discipline as Part I, tighter format: each entry gives the derivation
+chain, the number it lands on, the grade (restatement / calibration /
+contrast / exposure — per the Atlas relabeling rules), and the tie-in to
+the model where one genuinely exists. Every computable number below was
+re-derived numerically at booking (session record); nothing is quoted from
+memory alone. Grades are conservative: most of Part II is calibration —
+known answers the framework must and does reproduce — because that is what
+an extended census IS. The handful of entries that expose the model to
+falsification say so explicitly.*
+
+## 25. Relativistic celestial mechanics
+
+Derivation: the Schwarzschild orbit equation adds a 3GMu²/c² term to the
+Newtonian u'' + u = GM/h²; first-order perturbation gives per-orbit
+periapsis advance Δφ = 6πGM/[a(1−e²)c²]. Computed for Mercury
+(a = 5.79×10¹⁰ m, e = 0.2056): **42.9″/century** against the observed
+anomalous 43.0″. Ledger reading: the deeper the account sits in the
+potential, the more its orbital books lag — interest compounding on
+curvature. Grade: calibration (the oldest one in gravity).
+
+## 26. Gravitational lensing — and the Bullet Cluster receipt
+
+Derivation: null geodesic past mass M at impact parameter b bends by
+α = 4GM/(c²b) — the factor 2 over the Newtonian half comes from space
+curvature paying alongside time curvature (both halves of the metric
+ledger bill the photon's path, though the photon itself holds no
+account). At the solar limb: **1.75″**, Eddington 1919. The model tie-in
+is load-bearing: the **Bullet Cluster** (1E 0657-56) shows the lensing
+mass leading the shocked X-ray gas by ~8σ — a collisionless dark
+component that sailed through the collision its baryons could not. That
+is a *receipt for the census*: a medium whose only account is gravity
+passes through itself and through gas, exactly as observed. Grade:
+calibration + census receipt.
+
+## 27. Gravitational time dilation, at working altitude
+
+Derivation: clock rate ratio 1 + Φ/c²; for GPS (h = 20,200 km):
+GR gain GM_E/c²(1/R_E − 1/(R_E+h)) = **+45.7 μs/day**, SR loss
+½v²/c² at 3.87 km/s = **−7.2 μs/day**, net **+38.5 μs/day** — uncorrected,
+navigation errors would grow ~10 km/day. Pound–Rebka measured the
+elemental version over 22.5 m: gh/c² = **2.45×10⁻¹⁵**, resolvable only
+because of entry 45's recoil-free line. Ledger/model tie: the khronon's
+global foliation is exactly what these clocks are sampling — position in
+the potential sets the local tick against the universal current. Grade:
+calibration (civilization runs on it).
+
+## 28. Post-Newtonian precision tests — the census's mandatory exam
+
+The gravity-only census (Part I, §11) requires the medium to add NOTHING
+to solar-system gravity: it must pass every PPN test at zero. The exam
+scores: Cassini Shapiro delay γ − 1 = (2.1 ± 2.3)×10⁻⁵; Gravity Probe B
+frame dragging 37.2 ± 7.2 mas/yr vs 39.2 predicted; MICROSCOPE
+equivalence-principle η(Ti,Pt) = (−1.5 ± 2.7)×10⁻¹⁵. The medium's local
+density (7×10⁻²⁵ g/cm³, ephemeris null already booked) contributes
+~10 orders below all of these. Grade: **exposure** — these are among the
+standing-bet instruments; any confirmed PPN anomaly attributable to a
+dark-sector fifth force would violate the census and wound the model.
+
+## 29. Black-hole spectroscopy
+
+Derivation: the remnant's least-damped quadrupole quasinormal mode,
+f = [1.5251 − 1.1568(1−a)^0.1292]·c³/(2πGM); for GW150914's 62 M☉
+remnant at spin a ≈ 0.67: **~273 Hz** vs the observed ~250 Hz ringdown.
+The merger radiated 3.0 M☉c² with peak luminosity 3.6×10⁵⁶ erg/s —
+briefly outshining the electromagnetic output of the observable
+universe. Ledger reading: account consolidation with a ~5% transaction
+fee, paid in the only currency the medium itself accepts. The no-hair
+ringdown is the consolidated account's audit tone. Grade: calibration.
+
+## 30. Neutron stars — the second solvency bound
+
+Derivation: as with Chandrasekhar (Part I calibration), balance
+relativistic degeneracy against gravity; the natural scale is
+M ~ M_Pl³/m_n² = **1.85 M☉** (computed: 2.06×10⁵⁷ GeV = 3.68×10³⁰ kg).
+GR strengthens gravity (pressure gravitates), so the true TOV limit sits
+nearby: heaviest known pulsar J0952−0607 at 2.35 ± 0.17 M☉. One
+dimensionless ratio of ledger constants (M_Pl/m_n)² sets the mass of
+every dead star in the sky. Grade: calibration (scale exact, coefficient
+is the equation of state's business).
+
+## 31. The Eddington limit — the maximum pay rate
+
+Derivation: radiation pressure on electrons vs gravity on protons:
+L_Edd = 4πGMm_p c/σ_T = **1.26×10³⁸ erg/s per M☉** (computed). No
+steadily-fed account may pay out faster; quasars at 10⁴⁶ erg/s therefore
+*must* host ≥10⁸ M☉ — the ledger weighs black holes by their receipts.
+Grade: restatement with a working number.
+
+## 32. The Gamow window — why stars burn slowly
+
+Derivation: fusion rate ∝ exp(−√(E_G/E))·exp(−E/kT); the integrand peaks
+at E₀ = (√E_G·kT/2)^⅔. Solar core (T = 1.57×10⁷ K, kT = 1.35 keV,
+pp Gamow energy 493 keV): **E₀ ≈ 6.1 keV** (computed) — fusion happens
+in a narrow tunneling window 4.5× above thermal, which is why the Sun
+spends 10 Gyr on its books instead of exploding. Ledger reading: the
+Coulomb barrier is a toll no thermal proton can pay in full; the
+credit-window loan (tunneling) is the only route, and its price sets the
+stellar clock. Grade: restatement with derivation.
+
+## 33. Core-collapse supernovae — the neutrino settlement
+
+The collapse releases E ~ GM²/R ≈ 3×10⁵³ erg; photons are trapped,
+matter is too slow — ~99% settles through the one channel with a short
+enough clearing time: neutrinos. SN1987A delivered the receipt: ~24
+events across Kamiokande-II/IMB/Baksan, seconds-long, ~10 MeV — the
+gravitational binding energy of a neutron star, counted one neutrino at
+a time. Ledger reading: when the bank fails, the assets exit through the
+weakest-coupled door, because it is the only one not jammed. Grade:
+restatement with receipts.
+
+## 34. Pulsar spin-down clockwork
+
+Derivation: magnetic dipole braking gives Ω̇ ∝ −Ω³, i.e. braking index
+n ≡ ΩΩ̈/Ω̇² = 3; the Crab measures **2.51** — the deviation itself is
+data (wind/field evolution). Model cross-reference, honestly carried:
+these same millisecond clocks are the PTA instruments of Part I §13,
+and this morning's reconciliation audit (Room 1 doc) killed the model's
+PTA beat channel by mass — the clockwork stays in the showcase as the
+instrument that *would have* heard the medium, and no longer will.
+Grade: calibration + honest cross-reference.
+
+## 35. Ultra-high-energy cosmic rays — the GZK toll plaza
+
+Derivation: a proton loses energy to CMB photons once the Δ(1232)
+resonance opens: threshold E = (m_Δ² − m_p²)/(4E_γ). With mean CMB
+photon 6.3×10⁻⁴ eV, head-on: **2.5×10²⁰ eV** (computed); averaging over
+angles and the thermal tail gives the observed ~5×10¹⁹ eV suppression
+(Auger/TA). Ledger reading: above the threshold, the universe itself
+charges a toll every ~few Mpc — the oldest light taxes the fastest
+matter. Grade: restatement with derivation.
+
+## 36. The cosmic neutrino background — the entropy ledger's cleanest prediction
+
+Derivation: at e± annihilation the pairs' entropy posts to photons but
+not to already-decoupled neutrinos; conservation of comoving entropy
+gives (T_ν/T_γ)³ = 4/11, so **T_ν = (4/11)^⅓ × 2.7255 K = 1.945 K**
+(computed) and N_eff = 3.044 with non-instantaneous corrections. The
+model tie is literal: this number is hard-coded into every fit this
+program has run (N_ur = 2.0328, T_ncdm = 0.71611 = (4/11)^⅓ in the
+configs), and the CMB damping tail *measures* it — this is the ledger
+arithmetic that executed ξ_Neff. Grade: calibration, load-bearing.
+
+## 37. Neutrino flavor oscillations
+
+Derivation: mass eigenstates accrue phase at different rates;
+P(ν_e→ν_e) oscillates with wavelength 4πE/Δm². KamLAND's L/E dip:
+Δm²₂₁ = 7.5×10⁻⁵ eV²; the solar neutrino deficit — three decades of
+"missing" flux — settled as flavor conversion, not absence. Ledger
+reading: interest-rate differences between denominations of one
+account; the books were always balanced, audited in the wrong currency.
+Model tie: the Σm_ν these splittings floor (Σ ≥ 0.06 eV normal) is what
+the Fairbank posterior is measuring *tonight*; the inverted hierarchy
+(Σ ≥ 0.10 eV) is the reopened target of the dyad's tax collapse. Grade:
+calibration feeding a live mover.
+
+## 38. The neutron lifetime — an exposure in our own books
+
+Bottle experiments (count survivors): τ_n = 877.75–878.4 s. Beam
+experiments (count decay protons): 887.7 s. The ~4σ, ~9-second
+discrepancy is unresolved — and this program is a *customer*: τ_n sets
+the n/p freeze-out ratio inside the BBN prior that every dyad fit
+carries (the same prior that priced the vev amendment's death at
+τ_n −4.9%). If the beam-bottle split resolves toward exotic neutron
+disappearance, our BBN books get re-audited. Grade: **exposure**,
+flagged honestly.
+
+## 39. Force ranges from the credit window
+
+Derivation: a carrier of mass m can exist as an unposted draft for
+t ~ ħ/mc², traveling r ~ ħ/mc. Pion: **197.3 MeV·fm / 139.57 MeV =
+1.41 fm** — Yukawa's nuclear range, the size of every nucleus. The
+massless photon and graviton give infinite range. Model tie, structural:
+the medium's one account (gravity) is infinite-range *because* its
+carrier is massless — and P-2026-005's "gapless, never superradiates"
+zoo split is this same statement made in the dark sector. Grade:
+restatement, structurally load-bearing.
+
+## 40. Electroweak symmetry breaking, by the numbers
+
+The toll booth (Atlas C1f) with its prices: m_W = gv/2 =
+0.652 × 246.22/2 = **80.3 GeV** (computed; observed 80.37), the Z at
+91.19 via the weak mixing angle, fermion masses as Yukawa rents on the
+same vev. One condensate (the Higgs field's) sells mass to everything;
+our medium is a *different* condensate that sells only inertia's
+gravitational reflection — the census forbids it a Higgs-portal
+storefront (radiatively dead, Part I §11). Grade: calibration +
+contrast.
+
+## 41. CP violation, CPT, and the genesis requirement
+
+The kaon's ε = 2.23×10⁻³ — the ledger writes matter and antimatter
+columns with a measured 0.2% slant, one of Sakharov's three conditions
+for any asymmetric deposit. Model tie: the Affleck-Dine spiral needs
+exactly such a slant (the Z4 tilt's phase); the dark sector's asymmetry
+is f_rot ≈ 0.4 where the baryons' is ~1 — same requirement, different
+penalty schedule (Part I §11). Meanwhile CPT itself holds: antihydrogen
+1S–2S matches hydrogen to 2×10⁻¹², the deepest symmetry audit passed.
+Grade: restatement + genesis tie-in.
+
+## 42. Atomic parity violation — the weak ledger inside an atom
+
+Cesium's 6S→7S transition picks up a parity-violating amplitude from
+Z-boson exchange between electrons and the nucleus: weak charge
+Q_W(Cs) measured −72.6 ± 0.4 vs SM −73.2 — the electroweak theory
+audited at the *atomic table*, decades of precision work. Honest
+open-ledger note: of the four banks, the weak sector (G_F) is the one
+for which this file has NO derived substrate coupling (Atlas open
+ledger) — this entry marks where that door would be tested if one is
+ever derived. Grade: calibration + open-door marker.
+
+## 43. QED at twelve digits — and the Lamb shift's lesson for the cc problem
+
+The electron's a_e = (g−2)/2 = 1.159652×10⁻³ agrees between measurement
+and five-loop theory at ~10⁻¹² — the most audited account in science.
+The Lamb shift (2S½–2P½ = 1057.8 MHz) is the entry with teeth: vacuum
+fluctuations DO reprice local books (they shift atomic levels,
+measurably) while — per Part I §21 — they do NOT post to the
+gravitational ledger. Drafts have local consequences and no
+gravitational weight: that pairing, both halves measured, is exactly the
+category split the cc-problem answer rides on. Grade: calibration;
+sharpens §21.
+
+## 44. Alpha decay — twenty-four decades from one integral
+
+Derivation: Gamow tunneling through the Coulomb barrier gives
+ln(t½) ∝ Z/√E_α (Geiger–Nuttall). A ~2× spread in E_α maps to
+**U-238: 1.4×10¹⁷ s vs Po-212: 3×10⁻⁷ s — 24 decades of half-life**
+(computed span) from one exponential barrier integral. Ledger reading:
+the credit window's interest is exponential in the barrier price; small
+principal differences produce geological-vs-microsecond repayment
+schedules. Grade: restatement with the classic derivation.
+
+## 45. The Mössbauer effect — the lattice co-signs
+
+A free Fe-57 nucleus emitting its 14.4 keV photon recoils and detunes
+the line; bound in a crystal, with recoil energy below the phonon
+quantum, the ENTIRE LATTICE absorbs the momentum — recoil-free fraction
+of transactions where 10²³ atoms co-sign one payment, narrowing the
+line to ΔE/E ~ 10⁻¹³. That collective co-signature is what made
+Pound–Rebka's 2.45×10⁻¹⁵ (entry 27) resolvable. Model tie: a condensate
+co-signing individual transactions is the mechanism grammar of our
+medium's granule-scale behavior — measured here in steel. Grade:
+calibration + mechanism cousin.
+
+## 46. Atomic clocks and the SI second
+
+The second is DEFINED as 9,192,631,770 Cs hyperfine periods (exact by
+decree); optical lattice clocks (Sr, Yb) now hold systematic
+uncertainty ~10⁻¹⁸ — they would disagree by one second over the age of
+the universe. Model tie: these are the sharpest instruments in the
+standing laboratory bet (any dark-sector coupling to atomic structure
+would surface here first), and the R1/caustic-bit exhumation's
+virial-static null (Atlas graveyard) leans on exactly their class.
+Grade: calibration + standing-bet instrument.
+
+## 47. Laser cooling — buying entropy with light
+
+Derivation: Doppler-selective scattering damps motion until the
+recoil-heating floor: T_D = ħΓ/2k_B. Rubidium (Γ = 2π×6.07 MHz):
+**146 μK** (computed). Below it, sub-Doppler and evaporative tricks
+reach the nK where BECs condense — every laboratory cousin of our
+medium (Part I §10) is manufactured through this ledger: photons carry
+the entropy out, one scattering receipt at a time. Grade: restatement;
+the BEC supply chain.
+
+## 48. The quantum Hall effect — resistance by counting
+
+At quantizing fields, Hall resistance locks to R_K/ν with
+R_K = h/e² = **25,812.807 Ω exactly** (SI 2019, by decree) — flat to
+10⁻¹⁰ across samples, geometries, materials. Ledger reading: transport
+by topological bookkeeping — the resistance is set by HOW MANY channels
+(an integer) times a ratio of ledger constants, immune to the sample's
+dirt. Companion receipt to the flux quantum and Josephson constant
+(Part I §18): the three legal electrical units are all
+counting-receipts. Grade: calibration.
+
+## 49. BCS superconductivity — the joint account
+
+Weak-coupling BCS solves the gap equation to a universal ratio:
+2Δ(0)/k_B T_c = **3.53**, obeyed within ~10% by aluminum, tin, indium —
+one number for every conventional superconductor, independent of the
+material's chemistry. Ledger reading: electrons open phonon-brokered
+joint accounts (Cooper pairs); the gap is the account-closure fee, and
+T_c is where thermal auditing forces them all open. Census contrast
+(Part I §18): gauged-U(1) condensate (Meissner, flux quanta) vs our
+global-U(1) medium — cousins, not twins, and the dark photon door is
+closed. Grade: calibration + contrast.
+
+## 50. Debye solids — the phonon ledger at a lab bench
+
+Derivation: quantized sound modes with linear dispersion in 3D give
+U ∝ T⁴, hence **C ∝ T³** at low temperature — measured in every
+crystal. This is the SAME integral this program ran for the pre-basin
+medium (the w = 1/3 phonon-gas double-derivation, Part I §10): our
+early universe is a Debye solid's arithmetic at cosmological volume.
+Grade: calibration; the double-derivation's lab twin.
+
+## 51. Plasma physics — screening, and why gravity can't be screened
+
+Derivation: mobile charges rearrange to hide any test charge beyond
+λ_D = √(kT/4πne²); waves below ω_p reflect — the ionosphere at
+n_e ~ 10⁶ cm⁻³ mirrors radio under **f_p ≈ 9 MHz** (computed), which is
+why shortwave crosses oceans. The structural contrast: screening
+requires BOTH signs of charge; mass has one sign, so *no medium can
+Debye-screen gravity* — the reason our census's "gravity is the only
+account" has no screening escape clause, and the reason v1–v3's
+screening machinery had to live in the scalar sector (and died there).
+Grade: restatement + structural contrast.
+
+## 52. Magnetohydrodynamics
+
+Derivation: magnetic tension in a conducting fluid propagates as
+v_A = B/√(4πρ); solar wind at 5 nT, 5 cm⁻³: **~49 km/s** (computed),
+routinely measured in situ. The magnetized plasma carries its field
+lines as frozen-in ledger lines (flux freezing = conserved circulation,
+the gauged cousin of our medium's quantized winding). Grade:
+restatement + kinship note.
+
+## 53. Cherenkov radiation — paying a medium's local speed limit
+
+Derivation: a charge faster than light's LOCAL pace c/n radiates into
+the Mach cone cos θ = 1/(nβ); threshold in water (n = 1.33) for
+electrons: **KE ≈ 264 keV** (computed) — the blue glow of reactor
+pools, IceCube's entire detection principle. The contrast this file
+owes its own history: Part I's medium is frictionless to light
+(massless quanta hold no account it can bill); a REFRACTIVE medium
+bills light's sources when they outrun the local settlement speed. Both
+statements are bookkeeping; they answer different media. Grade:
+restatement + house-history contrast.
+
+## 54. Geometric optics as cheapest settlement
+
+Fermat: light takes the stationary-time path — refraction is the
+least-cost route between banks with different processing speeds
+(Snell's law is the first-order condition; total internal reflection
+above the water-air critical angle **48.8°**, computed). Grade:
+restatement (the variational principle is the ledger's oldest law).
+
+## 55. The diffraction limit
+
+θ ≈ 1.22 λ/D: an aperture of size D can only distinguish directions to
+one wavelength of phase across itself — resolution is phase-information
+per aperture area. Kinship note: information billed by surface, not
+volume, is the same accounting that runs the holographic bound (Part I
+§17) — here it just prices telescopes. Grade: restatement.
+
+## 56. Brownian motion — how the graininess was first proven
+
+Einstein 1905: a pollen grain's diffusion D = k_B T·μ ties the visible
+jitter to the INVISIBLE discreteness of the bath; Perrin measured D,
+extracted Avogadro's number, and ended the atoms debate. Model tie,
+direct: the granule-speckle ε-meter (the audit's sole surviving dice
+instrument) is EXACTLY this argument at halo scale — read the
+fluctuations, infer the medium's quanta. Perrin did it with pollen; the
+program proposes it with stellar streams. Grade: calibration +
+method ancestor.
+
+## 57. Thermal escape — Arrhenius and Kramers
+
+Rate = (attempt frequency) × exp(−ΔE/k_B T): the thermal credit market
+prices barrier crossings exponentially, from chemical reactions
+(doubling per ~10 K, the lab-bench receipt) to protein folding.
+Companion to entry 44: same exponential, thermal loans instead of
+quantum ones. Grade: restatement.
+
+## 58. Critical phenomena — the ledger forgets denominations
+
+At continuous transitions, microscopically alien systems share
+exponents: liquid-gas water and uniaxial magnets both show
+β ≈ 0.326 (3D Ising) — the RG statement that at criticality the books
+keep only dimension and symmetry, forgetting every microscopic
+denomination. House note: the φ-null (Atlas nulls) already used this
+domain's honest employers (E8 criticality); this entry books the
+universality mechanism itself. Grade: restatement.
+
+## 59. Entropic elasticity — force from record count
+
+Stretch rubber: the retracting force is −T·∂S/∂L — not energy stored
+but CONFIGURATIONS destroyed; the receipt is thermodynamic and
+kitchen-grade: rubber warms when stretched, contracts when heated,
+opposite to metals. S = k ln Ω working a day job: the second law
+(posting is cheaper than shredding, Part I §17) collecting rent at the
+macroscopic scale. Grade: restatement with a kitchen receipt.
+
+## 60. Planetary energy balance
+
+Derivation: T_eq = [S(1−A)/4σ]^¼ = **255 K** for Earth (computed;
+S = 1361 W/m², A = 0.29) vs the measured 288 K surface — the 33 K gap
+is the atmosphere re-pricing outgoing settlements (absorbing thermal IR
+and re-posting half downward). The planet's books balance at the top of
+the atmosphere; where they balance sets everything below. Grade:
+restatement with derivation.
+
+## 61. Tidal dynamics and the Roche ledger
+
+Differential gravity across an extended account: tides transfer
+Earth's spin into the Moon's orbit (the 3.8 cm/yr receipt already
+booked in the Atlas overnight-stream kill); inside
+d = R(2ρ_primary/ρ_satellite)^⅓ self-gravity loses to the gradient and
+moons become rings — Saturn's rings sit inside its Roche radius, the
+receipt written across 300,000 km of sky. Grade: restatement.
+
+## 62. 21-cm cosmology — a prediction-shaped entry
+
+The dyad's m_e amendment is epoch-gated: varying_transition_redshift =
+50 in every fit config — constants return EXACTLY to standard below
+z = 50. Consequence, stated as a bet: the global 21-cm absorption
+trough and the forming dark-ages/cosmic-dawn interferometry (REACH,
+SKA-low) should see a STANDARD sky as far as our constants are
+concerned; an EDGES-class anomaly, if ever confirmed, is not ours and
+gets no retro-fit (the Atlas nulls' rule). Meanwhile the medium's
+granule structure DOES live in the 21-cm forest's small scales — the
+same P(k) territory as the Lyα squeeze the model already survived.
+Grade: **exposure, epoch-gated by construction.**
+
+## 63. Dark-matter direct detection — the third zero
+
+LZ and XENONnT now exclude spin-independent WIMP-nucleon cross-sections
+down to ~2×10⁻⁴⁸ cm² at tens of GeV — a nine-decade march of nulls
+since the 1990s. The census (Part I §11) makes the model's vote
+unconditional: the medium holds no EM/weak/strong account, so **every
+direct-detection experiment stays null, forever** — the corollary of
+standing bet #2, extended from the sky to the mine shaft. Confirmed
+nuclear recoils from the dark sector kill the model outright; the
+marching nulls are, so far, the quietest receipts the census owns.
+Grade: **exposure, kill-only.**
+
+---
+
+## Part II census note
+
+Part I mapped 24 domains; Part II adds **39 more** (25–63). Honest
+count-keeping: the operator asked for 50 new domains *if possible*;
+39 survived the quality gate (a derivation chain or a numbered
+calibration receipt, re-derived at booking — no filler entries, per the
+Atlas's headline-honesty rule). The census now stands at **63 domains**,
+of which the exposures — the entries that can hurt us — are §28 (PPN),
+§38 (τ_n in our BBN books), §62 (21-cm epoch gate), §63 (direct
+detection), on top of Part I's five standing bets. The extended census
+confirms the Atlas's original finding at larger n: the language is
+exact everywhere it has receipts, and the bet's evidence class still
+holds zero confirmed entries — faithful ≠ confirmed, at 63 domains as
+at 14.
