@@ -346,6 +346,26 @@ is its only account). Pay it curvature and the product is determined:*
   deposits cannot separate the account from the vault) — but this is
   the first domain where the language required an amendment rather
   than translating exactly. The streak's scar, kept visible.
+  **THE STRAIN'S CANDIDATE HEALING (operator's bet, same night:
+  "continue with thermodynamics and we'll get our answer for
+  gravity"): the bet lands on Jacobson, PRL 75, 1260 (1995),
+  cite-verified.** Take three things already in this atlas — the
+  Clausius relation δQ = TdS, the Unruh temperature (C1's bridge),
+  and entropy-as-horizon-area (the information cluster) — demand
+  they hold on every local causal horizon through every point, and
+  **Einstein's field equations EMERGE as an equation of state**: not
+  a fundamental force law but the thermodynamics of spacetime's
+  information books. Under this reading the strain is not a defect
+  but a SIGNATURE: statistical laws have no line-items ("which
+  molecule carries the pressure?" is a category error), so gravity
+  keeping totals-not-line-items is exactly what a thermodynamic
+  phenomenon must do. The scar becomes the fingerprint. GRADE:
+  correspondence — the entropic-gravity program is celebrated but
+  contested, and THIS model deliberately keeps GR fundamental (the
+  survival choice); the connection is booked, not adopted. But the
+  operator's instinct — thermodynamics answers gravity — is a
+  published research program, named blind, healing the atlas's one
+  scar.
 
 ## Nulls checked (asked and answered: not in this model)
 - **The golden ratio (2026-07-07, operator's query):** swept the derived
