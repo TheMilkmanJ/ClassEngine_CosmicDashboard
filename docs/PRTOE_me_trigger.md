@@ -1144,3 +1144,66 @@ size bounded); the final coefficient is not nailed. The keystone task
 (section 28 / task #10) is now sharper: derive the cutoff and the
 modulation fraction of the electron's curvature-dependent EM self-
 energy.
+
+## 32. GOING LOCAL EXPOSES A QUANTITATIVE CENSUS CONFLICT -- the sharpest form
+## of the turn-61 crack (operator: "go back to Ricci and the locals",
+## 2026-07-07 night). Includes a real-time retraction of my own computation.
+
+The operator correctly noted the AMPLITUDE is a LOCAL question (self-
+energy is local) and sent us from Weyl (nonlocal trigger) back to Ricci
+(local). Going local exposed a hard number:
+
+**A smooth curvature coupling (Ricci OR Weyl) is ~60 ORDERS OF MAGNITUDE
+too weak** to shift m_e by 1%. Curvature corrections to a mass are
+suppressed by R/m_e^2: computed ~3e-69 (recombination), ~2e-71 (halo
+core), ~1e-78 (today). Reaching the 1% ceiling needs O(1) modulation.
+Smooth geometry delivers ~1e-69. Misses by everything.
+
+**RETRACTION (real-time, my own error):** the computation in this
+section's working first concluded "the topological Theta transition
+rescues it (O(1), not R/m_e^2-suppressed)." THIS IS WRONG and is
+retracted. The Theta transition is O(1) IN THE DARK SECTOR, but it
+reaches the ELECTRON only through a channel. The only census-legal
+channel is gravity, and the CURVATURE DIFFERENCE between coherent and
+incoherent medium phases is STILL ~1e-69 m_e^2 -- the medium's stress-
+energy curves spacetime that weakly regardless of its phase. Drama in
+the dark sector does NOT transfer to an O(1) effect on the electron
+without a non-gravitational line, which the census forbids.
+
+**THE SHARP FINDING -- amplitude SIZE vs census, in quantitative
+conflict:**
+  - The channel of the RIGHT STRENGTH to move m_e by ~1% is a DIRECT
+    coupling (Theta-Higgs, or a dilaton-like field coupling m_e(phi) =
+    m_e(1+beta*phi/M_Pl) with O(1) beta and ~M_Pl field range). Direct
+    couplings are NOT curvature-suppressed and land at O(alpha)/O(1)
+    naturally. But this is exactly the dark-to-EM operator the census
+    forbids.
+  - The channel the census ALLOWS (pure geometry) is ~60 orders too
+    weak.
+This is the SAME crack flagged turn 61, now QUANTITATIVE and
+UNAVOIDABLE. "Go local" proved geometry alone CANNOT produce the
+amplitude -> the direct operator, and the question of its legality,
+is LOAD-BEARING, not optional. The dyad's central mechanism (a genuine
+~1% local m_e shift) is viable ONLY IF (a) the direct operator is legal
+under the census's NARROW reading (red-team question, turn 61/62), OR
+(b) varying_me is NOT a genuine local mass shift but something else
+(an effective/degenerate parameter, an averaging artifact, etc. --
+would demand its own investigation).
+
+**CONSEQUENCE FOR THE HOUSE:** the amplitude "ceiling" of section 31
+(EM self-energy fraction, ~1-2%) remains correct as a CEILING, but
+section 31's implicit assumption that a curvature/QED-in-curved-space
+LOOP delivers it is now RETRACTED -- loops are 60 orders too weak. The
+ceiling is reached, if at all, ONLY by a direct tree-level operator
+whose legality is the open census question. The roof's frame (section
+31) still stands as a BOUND; the mechanism that reaches it is now
+pinned to the one operator under adjudication. Routed to red team as
+the quantitative sharpening of turn 61.
+
+STATUS: honest hard finding, not a win. The single most important open
+question in the model is now sharp: is a direct Theta-Higgs / dilaton-
+type operator legal under the coupling census? If yes, the amplitude
+mechanism exists (coefficient still to derive). If no (broad reading),
+the dyad's flagship m_e shift has no legal mechanism at its observed
+size, and that is a foundational problem the model must confront
+directly.
