@@ -688,3 +688,40 @@ NARROWER than "is there a trigger" — it is specifically about whether
 ANY mechanism for the AMPLITUDE/VALUE of varying_me can be derived
 without violating the census, and that question is now open and
 flagged, not answered.**
+
+## 22. "Decoherence pays through time, not EM" — confirmed, and it sharpens
+## the retraction rather than resolving it (operator, 2026-07-07 night)
+
+Confirmed: the tick/arrow discussion earlier tonight established
+decoherence's payment channel is TIME specifically — decoherence IS
+the posting event (C1c), entropy production IS the arrow of time. That
+transaction is COMPLETE and CLOSED. Consequence: decoherence's receipt
+is fully spent on entropy/time; there is NOTHING LEFT OVER to also
+explain an m_e shift. Using decoherence to justify BOTH the arrow of
+time AND an EM-sector coupling would require the SAME physical event
+to pay in full into two separate ledgers — no such splitting was ever
+argued for; §20 simply borrowed the word "decoherence" because it
+sounded relevant to both, without a physical reason for the event to
+fork.
+
+**THIS SHARPENS SECTION 21'S RETRACTION:** the problem is not only
+that a direct dark-to-EM vertex violates the coupling census — it is
+ALSO that decoherence specifically is the wrong CURRENCY to invoke for
+an m_e mechanism, since its ledger entry is already closed elsewhere.
+
+**CONSEQUENCE FOR THE SEARCH:** the only remaining candidate route for
+a LEGAL m_e mechanism is one that stays entirely on the GRAVITY side —
+H(z) itself (candidate #3's shared clock, legitimate since it is
+sourced by the Friedmann equation, not by the dark medium's own
+internal structure) or a foliation/curvature quantity like (delta K)^2
+(already admitted via three certificates in Room 1). NOT a coupling to
+the medium's own internal phase/coherence structure (vorticity, order
+parameter) — both §20 and this decoherence-based idea tried exactly
+that route and both are now closed for the same underlying reason.
+Honest caveat, not resolved: even an H(z)-based non-minimal coupling to
+m_e is a departure from strict minimal coupling (Part I's survival
+choice, "gravity is exactly GR"), and is not automatically free —
+it is a SMALLER, more contained departure than a direct dark-sector
+vertex, not a zero-cost one. The scope question from section 21
+(narrow vs broad reading of the census) remains open and unresolved;
+this entry narrows the search space within that still-open question.
