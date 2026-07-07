@@ -871,3 +871,32 @@ worlds.
 
 *Method note: entries are added only when a relation is DERIVED. The
 atlas is falsified entry-by-entry, never defended as a whole.*
+
+- **The Weyl door (operator's question, 2026-07-07 midday: "gravity is
+  the funnel objects use to pay the ledger — could time and EM be the
+  same, a second funnel?").** Scored same hour, three verdicts:
+  (i) FUNNEL REFRAME ADOPTED — "gravity is the payment window, not the
+  transaction" is better house language than the clearinghouse line;
+  and EM already pays THROUGH that window (electrostatic binding energy
+  gravitates — Eötvös-class receipts; the radiation era is EM paying
+  the ledger for 50,000 years). The window takes one thing only,
+  energy-momentum, from anyone — that is WHY it is universal.
+  (ii) SECOND FUNNEL: CLOSED BY THE BEST NULL IN PHYSICS — a charge-
+  opened conduit to the medium means composition-dependent free fall;
+  MICROSCOPE: eta(Ti,Pt) = (−1.5±2.7)e-15. Fifteen decades of silence,
+  plus the census (no EM account; B−L at GUT suppression). One window.
+  (iii) TIME=EM: A BLIND RECONSTRUCTION OF WEYL 1918 — EM as the
+  geometry of clock calibration; killed by Einstein's spectral-line
+  objection (history-dependent atomic ticks, not observed — the same
+  instrument class as our R1 clocks §27); REBORN as U(1) phase
+  geometry = the actual Standard Model. Mature statement, adopted at
+  correspondence grade: EM is the geometry of the PRIVATE clock
+  (quantum phase, the Compton clock mc²/ħ — measured, atom
+  interferometry); gravity/the khronon is the geometry of the PUBLIC
+  clock (proper time, the foliation). Both clock-geometries; provably
+  distinct clocks (the public window is charge-blind to 1e-15; the
+  private connection bills by charge). House tie-ins already load-
+  bearing: C2 action currency = private-clock accrual; Josephson volt
+  = a private-clock rate posted on a chip; khronon tick = the public
+  current. Operator's reconstruction streak: Zurek, Jacobson,
+  Affleck-Dine, Penrose CCC, ergodic backbone — now Weyl.
