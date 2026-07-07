@@ -714,6 +714,36 @@ old single number conflated —
 we hear it this decade is a coin-flip weighted by an unfitted mass;
 the m-band edges themselves are queued for morning verification.
 
+**E7a-CAVEAT (~5:45am, found by the band audit's first pull — the
+33% is BAND-BOTTOM-SENSITIVE and may be ZERO):** three booked
+fragments disagree on the band bottom: E2.6's phrasing implies
+10⁻²²; R1.6's amplitude gap (2m ~ 10⁻²¹) implies m ≈ 5×10⁻²²; and
+V2's fork (five-verdict doc) gives the surviving window as
+**1–3×10⁻²¹ eV** on the DK-fails branch — at which the beat needs
+beat > 1 even at reach ×30: PTA-UNDETECTABLE. And on the DK-holds
+branch (M_eff = m ≥ 3×10⁻¹⁹, Dalal–Kravtsov), the gap 2m exits the
+PTA band entirely: silence GUARANTEED trivially, the collision
+untestable by PTA. So: **the PTA channel may be dead on BOTH
+branches of V2's fork**, and the 33% marginal stands only if the
+band genuinely extends to ~10⁻²². The morning audit must pin the
+model's actual m before ANY PTA number is quoted. The night's PTA
+arithmetic is booked as STRUCTURE (the beat formula, the m-gating
+shape) — its APPLICABILITY awaits the audit.
+**THE COMPENSATION (same pull):** on the DK-holds branch, m ≥
+3×10⁻¹⁹ sits inside the known SMBH-spin superradiance exclusion
+territory for free scalars — free FDM there is arguably ALREADY
+dead by existing spin data while the dyad's λ-quench survives
+(margin computed at +2.5 decades worst-case): the superradiance
+discriminator would be LIVE WITH EXISTING DATA, not future. The
+exact free-scalar exclusion range at 3×10⁻¹⁹ needs cite-verification
+(morning) before this is claimed at grade. The fork therefore
+REDISTRIBUTES the distinctiveness surface rather than shrinking it:
+heavy branch → superradiance-now + granules; light branch →
+granules (+ PTA only if the audit resurrects the light edge).
+Consistency note: E7's two-fluid reduction AGREES with V2's booked
+"FDM-by-another-route" (same SP reduction, now two-component with
+the p²+q² dial) — no contradiction between tonight and the verdicts.
+
 ## EXPEDITION 8 (2026-07-07, ~4am): THE ERGODIC BACKBONE — the
 ## operator's question turns the chaos into order
 
