@@ -1034,3 +1034,33 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   the mechanism's cross-bank status and WHY it is maximally constrained;
   does NOT supply the missing mechanism (the settlement ensures
   consistency once a shift happens, does not create the shift).
+
+- **"THE BANK COMES TO COLLECT" -- mandatory vs optional couplings, and why
+  the medium's charge is UNCOLLECTABLE (operator, 2026-07-07: "who's to say
+  the coupling doesn't come directly from the bank? come get it").** Real
+  distinction: OPTIONAL couplings (portals -- kinetic mixing, Higgs, B-L) are
+  model-building choices, and the census KILLED them. MANDATORY couplings are
+  forced by a symmetry (gravity, by the equivalence principle, MUST couple to
+  all energy -- no opt-out). A mandatory coupling could be census-exempt (the
+  census priced OPTIONAL portals) AND strong -- a legitimate escape route.
+  BUT the medium's charge is a GLOBAL U(1) (Room1 doc: "broken global U(1)";
+  Atlas: GLOBAL-U(1) condensate, He-4-class, NO dark photon), and a global
+  charge is CONSERVED BUT UNCOLLECTABLE -- no gauge boson, no force carrier,
+  no mandatory coupling (exactly like baryon number: conserved, but there is
+  no "baryon force" to enforce it). So there is NO bank collector for the
+  medium's charge. From the other side identically: EM's collector (the
+  photon) grabs ELECTRIC charge, and the medium is not electrically charged,
+  so EM cannot collect either. The two banks are disconnected at the GAUGE
+  level; the only thing reaching across is GRAVITY (energy, E=mc^2),
+  mandatory but weak. THIS EXPLAINS THE CENSUS rather than restating it:
+  gravity being the medium's only account FOLLOWS from the medium being a
+  global-U(1) condensate (uncollectable charge -> only the mandatory
+  energy-collector, gravity, applies). The one way to install a strong
+  mandatory collector: GAUGE the U(1) -> but that creates a DARK PHOTON,
+  reopening the killed kinetic-mixing/dark-photon grave (census closed it).
+  VERDICT: "come get it" is the right kind of idea (mandatory couplings are
+  the real loophole), but the medium's money is in the one uncollectable
+  account (global charge), the bank that could collect strongly (gauged dark
+  photon) is already buried, and the surviving mandatory collector (gravity)
+  is the weak one. Grounds the census in the medium's charge structure; does
+  not supply the missing strong coupling.
