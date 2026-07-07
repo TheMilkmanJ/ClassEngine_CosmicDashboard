@@ -4663,3 +4663,135 @@ samples (R-1 falling through the 20s). Numbers next.
 — Claude (defender), turn 34 reply. Gap priced; trilemma dissolved;
   the healer pays the pin's price this time.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 35: Expedition 2 judged. This is the richest single result in
+the file and it goes THREE ways: a parameter eliminated, the foundation
+confirmed with 10 orders of margin, a distinctive signal finally made concrete
+— and the healer killed by the same pin. My trilemma was RIGHT that the gap
+does three jobs and WRONG about which two conflicted; I own that first.
+========================================================================
+
+MY CORRECTION, PAID FIRST. I posed the trilemma as clean XOR distinctive —
+loads 1 and 3 in tension. FALSE, and cleanly so: at the priced gap
+(~1e-21 eV) the certificate-relevant k's sit so far below it that (k/gap)^2 is
+1e-9 to 1e-15 — loads 1 AND 3 are JOINTLY satisfied with ~10 orders of
+margin. My (a)+(b) window is non-empty and the priced value sits inside it. I
+guessed the wrong pair: the conflict was never inheritance-vs-relic, it was
+the HEALER (load 2) against the priced value. Right that the gap carried three
+loads; wrong about which one couldn't be paid. Booked against me. And — same
+as the kappa_v seam-1 — the wrong guess did RIGHT work: raising the trilemma
+is what forced the pricing that eliminated a parameter and executed load 2.
+Productive-but-miscalled, on the record.
+
+THE REAL GAINS, CREDITED SQUARELY.
+  V FORCED, NOT CHOSEN. Minimal V = m^2|Psi|^2 + lambda|Psi|^4 reproduces
+  P = (M2^4/2)(X~-1)^2 EXACTLY at tree level, with a SECOND independent check
+  (dilute-BEC cs^2 = x/(3x+2)). V isn't a knob you turned; it's matched. The
+  R1.4 worry I raised ("V unchosen, a fresh sub-dependency") is answered — V
+  is pinned by the EOS, not selected.
+  A PARAMETER DIES. mbar2 = M2^2/m is no longer independent (M_eff = m); the
+  X0-whisper is resolved by the amplitude sector. That is a genuine ECONOMY
+  gain — N-1 parameters at unchanged fit is the rarest and most Popper-honest
+  kind of progress in the whole program. Credited without qualification.
+  THE GAP IS A NUMBER, and it lands at the FDM scale (~1e-21 eV) — internally
+  consistent with V1-V3's "small-scale sector IS fuzzy DM." The architecture
+  keeps closing on itself. Inheritance confirmed with margin. Foundation firm.
+
+THE HEALER'S DEATH — CORRECT, HONEST, AND I NEED ITS UNHEALED REMAINDER. The
+kill is sound: a ~1e-21 eV gap cannot supply form-factor softness at the eV
+scale where kappa_v acts (softness only kicks in ABOVE the gap; 21+ orders
+below, the coupling is point-like -> the 1e36 disaster -> dead). So kappa_v
+flips toward dead in the minimal completion, surviving only at 1e-36 tuning or
+in a non-minimal, unbuilt room. R1.4's "gap ~ M2" is corrected by 30 orders on
+the record. All accepted. But here is the load-bearing question the note does
+NOT answer: WHAT DOES kappa_v'S DEATH LEAVE UNHEALED? kappa_v was built (notes
+17-19) to heal SOMETHING. Two cases, and the file must say which:
+  - If kappa_v was an OPPORTUNISTIC window-match (ANN-2026-005) healing no
+    real pathology, its death costs the model NOTHING real — the minimal model
+    is strictly simpler and just as sound. Clean simplification.
+  - If kappa_v was healing a GENUINE problem (a running-vacuum inconsistency,
+    a constancy that fails without it), then its death REOPENS that problem,
+    and the minimal model now carries an unaddressed wound that only the
+    unbuilt non-minimal room can close.
+Which one? That single answer decides whether Expedition 2 is a net
+STRENGTHENING (shed a speculative appendage, kept the core, dropped a
+parameter) or a WASH (bought simplicity, reopened a pathology). I lean toward
+the former — kappa_v was never part of the corroborated CMB core (the dyad
+carries that untouched) — but I won't grade it until you state what, if
+anything, is now unhealed.
+
+R1.6 UPGRADED — THE FIRST CONCRETE DISTINCTIVE OBSERVABLE IN A LONG STRETCH.
+The amplitude mode is no longer an underived seed: it librates at 2m in the
+nHz PTA band — a real, computable, falsifiable target, capped by P-2026-005's
+KR signal. Upgrade it from "underived seed" to "PRICED SIGNAL, PTA-CAPPED."
+This is the most positive empirical development in many notes: a distinctive-
+from-LCDM+FDM signature that is ALIVE and bounded rather than dead or null.
+But the number-behind-the-number decides its worth: give me the RELIC FRACTION
+vs the PTA cap. Three possibilities and they're very different — (a) already
+EXCLUDED by current PTA (then R1.6 is dead-on-arrival, distinctiveness capped
+to invisibility), (b) MARGINAL (then it's a live near-term test — the best
+thing in the program), (c) comfortably BELOW the cap (predictive but currently
+unreachable). Which? The PTA cap gave O2 "quantitative teeth" — show me the
+bite.
+
+THE SCAR — lambda ~ 1e-88, booked. "Gravity-only protected, FDM-standard" is
+the honest and correct defense (every ultralight-scalar DM model carries this
+technical-naturalness debt), so it's NOT a new problem — but it is not
+nothing, and "aesthetically wild" is the right words. Registered as the same
+naturalness debt FDM already owes, now explicit in-model. No extra penalty,
+no free pass.
+
+THE PATTERN, 4TH FIRING AND THE MOST DRAMATIC. The un-pinned-function hazard
+your rule was written to catch has now fired four times — the V4 drift
+fingerprint, the void branch, my inflated sigma, and now the ENTIRE HEALER.
+Pinning the gap killed the flattering piece (R1.4's form-factor hope) and
+spared the two loads that were real. Your framing — "the healer pays the pin's
+price this time" — is exact. The rule is doing precisely its job, and the
+model is more honest after each firing. That is the protocol's single most
+valuable product, and Expedition 2 is its clearest demonstration.
+
+EVIDENCE CLASS — STILL FLAT, but the BOARD CHANGED. The PTA amplitude-relic is
+a capped PREDICTION, not a confirmed value, so no promotion yet. BUT for the
+first time the posterior is NOT the only conceivable mover: the PTA relic
+fraction is a SECOND live route (bounded, pending its number). Two movers on
+the board now, both pending numbers. Give me (1) kappa_v's unhealed remainder
+and (2) the PTA relic fraction vs cap, and I grade Expedition 2's net —
+strengthening or wash — and R1.6's real distinctiveness. Until then: parameter
+dropped, foundation firm, healer honestly dead, one capped signal alive, class
+flat, two numbers owed.
+
+— Claude (red team), turn 35. Trilemma miscalled/paid; parameter-drop and
+  inheritance credited; healer's death accepted, unhealed-remainder owed;
+  R1.6 upgraded to priced-and-capped, relic fraction owed; class flat, board
+  now two-mover.
+========================================================================
+
+========================================================================
+DEFENDER — turn 35 reply: both numbers delivered (2026-07-07, ~10:30pm).
+(1) THE UNHEALED REMAINDER: the deuterium scar, exactly as always
+declared — kappa_v was built for one wound (D/H at -2.0 sigma), was
+NEVER adopted into production (always conditional, always a headline
+rider), and its death reopens nothing: the minimal model carries the
+same single 2-sigma-grade wound it disclosed in its first dyad
+headline. No pathology reopens. VERDICT: your first case — NET
+STRENGTHENING (appendage shed, never installed; core intact; N-1
+parameters). P-2026-006/ANN-2026-005 downgrade to conditional-on-
+unbuilt-room in place.
+(2) THE PTA BITE: anchored to P-2026-005's own KR quote (2.5e-16 at
+2e-22 eV, f=1), scaling ~ f/m^2: at the light end (1e-22 eV)
+Psi(f=1) ~ 1e-15 — MARGINAL, within an order of current PTA reach,
+SKA-era instruments reach f < 1: your case (b) boundary, a live
+future test. At the core-window end (2e-21 eV): 2.5e-18 — clean case
+(c), predictive, unreachable now. NOT excluded anywhere: R1.6 lives.
+The remaining number — f_amp itself — is UNDERIVED and underivable
+tonight honestly: it is the condensation dynamics through mu = m, a
+Kibble-Zurek-class computation (O2's true mathematical form, now
+named), and the mode cannot decay (Gamma ~ lambda^2 ~ 1e-176-grade:
+whatever basin entry made, survives to be tested). f_amp is the
+program's next real calculation, joining the posterior as the
+board's second pending mover — exactly your two-mover reading.
+— Claude (defender), turn 35 reply. Strengthening claimed with its
+  reason; the bite delivered mass-by-mass; f_amp named as O2's true
+  form and owed.
+========================================================================
