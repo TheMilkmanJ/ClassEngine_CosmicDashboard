@@ -973,3 +973,45 @@ proof (owed), and the census scope adjudication (red team, turn 61/62,
 still pending -- and now MORE likely narrow-reading-compatible since
 the coupling is to a topological/geometric bit, not a dark-medium
 internal quantity).
+
+## 28. ROOF EXPLORATION: the amplitude's SIZE is a structural clue; its exact
+## value is NOT yet derived (2026-07-07 night, honest negative result)
+
+Explored candidate mechanism-classes for the amplitude eps ~ 0.0124.
+HONEST NEGATIVE RESULT: no roof found. The tempting numerical hits are
+graded and REJECTED as pillars:
+  - alpha*ln(m_p/m_e)-type "hitting 1.00": only reaches the target with
+    a hand-inserted fudge factor -- a FIT dressed as derivation, counts
+    for NOTHING (flagged against my own work).
+  - 2*alpha = 0.0146 (18% high), 3*alpha/2 = 0.0109 (12% low): closest
+    clean combinations, but NO mechanism predicts either coefficient.
+    WATCHED COINCIDENCES at best; Pinning Rule forbids registration
+    until a mechanism produces the number.
+
+**THE REAL, DEFENSIBLE FINDING (structural, not numerological):** the
+amplitude's SIZE, eps ~ 1e-2 ~ O(alpha), is itself a mechanism-class
+constraint independent of the exact coefficient:
+  - It is the RIGHT SIZE for an electromagnetic / radiative correction
+    to a mass -- consistent with the Weyl-Higgs picture (coupling lives
+    in the SM's own EM-sensitive sector).
+  - It RULES OUT gravitational-strength / Planck-suppressed origins,
+    which would give eps ~ 1e-(many tens), not 1e-2.
+So the size alone is quiet evidence FOR an EM-sector origin and AGAINST
+a purely gravitational one -- exactly where the merged candidate
+(#1=#23) puts the coupling. This CONSTRAINS the roof's material without
+BUILDING the roof.
+
+**STATE OF THE HOUSE (operator's framing, honest accounting):**
+  - FOUNDATION: (a) "nothing until contact" confirmed as house law
+    (Atlas); (b) census scope adjudication -- PENDING red team; (c)
+    Fairbank convergence -- IN PROGRESS.
+  - WALLS: the m_e mechanism's FORM -- STANDING on a two-constraint
+    pillar (section 27: MICROSCOPE + quasar both force the sharp
+    threshold; candidates #1 and #23 merged).
+  - ROOF: the amplitude -- NOT BUILT. Size constrained to EM-radiative
+    scale (this section); exact coefficient still fit, mechanism owed.
+  - FURNISHING (PolyChord, evidence run, publication): correctly
+    deferred until roof is on.
+The single most valuable remaining derivation is now sharply named:
+produce the O(alpha) coefficient of the Weyl-threshold m_e coupling
+from an actual EM-sector radiative calculation. That is the roof.
