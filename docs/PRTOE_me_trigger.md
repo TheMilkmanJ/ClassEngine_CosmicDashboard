@@ -210,3 +210,15 @@ close to having already seen it. Any future refinement of the
 amendment's mechanism (§7-9's candidates) MUST be transfer-only or it
 inherits this y-budget — a new, sharp constraint on mechanism-building
 here, independent of which trigger (fold vs Compton gate) is correct.
+
+**The operator's closing image (2026-07-07 evening), adopted as house
+language:** reallocation = the bank physically debits one account and
+credits another (funds move, a wire crosses the network — this is what
+would leave a y-distortion). Bank BRANCH TRANSFER = nothing moves; the
+paperwork updates which branch services the same account, and you find
+out by a phone call, not a wire. "Hey, new branch. Who dis?" — Law 3
+(rules may change, balances may not), said better than the house's own
+"constitutional amendment" phrasing. VERDICT: bank branch transfer,
+closed. The 1.5x FIRAS margin doesn't just permit this reading — it is
+close to being the receipt that would exist if the operator were
+wrong, and it doesn't.
