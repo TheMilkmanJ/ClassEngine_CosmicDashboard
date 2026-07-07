@@ -1507,3 +1507,46 @@ HONEST BOUNDARY: a strong ARGUMENT for the narrow reading, not a PROOF. It
 assumes what the census tests (one space or two). Adjudication still needs the
 census-derivation reproduction (Gemini). Added to the (a)-side ledger as a
 substantive physical consideration, routed to the census thread.
+
+## 41. ASKING THE LEDGER: its own laws polled on the census question -- leans
+## NARROW, non-circularly (operator: "ask the ledger which it prefers", 2026-07-07)
+
+Polled the model's own established laws on "is a moduli coupling that shifts
+m_e legal?":
+
+  LAW 2 (adiabatic ledger -- no dissipative transfers): forbids ENERGY
+    exchange. The m_e shift moves NO energy (ruled a "bank branch transfer,"
+    FIRAS-confirmed, sec 10). -> CLEARS it. Vote: permit.
+  LAW 3 (rules may change, balances may not): written specifically for rules
+    amendments. m_e-change with conserved energy is exactly its domain.
+    -> Vote: PERMIT the phenomenon, explicitly.
+  LAW 1 (gravity is the only clearinghouse): a clearinghouse is where PAYMENTS
+    settle = TRANSACTIONS (energy/quanta exchange), the model's consistent
+    usage everywhere. The m_e shift is NOT a transaction (it is a rules
+    amendment, Law-3 domain, already ruled). So Law 1 governs energy-exchange
+    portals (kinetic mixing, B-L, Higgs -- what the census priced) and does not
+    speak to a rules amendment. -> Vote: DOES NOT APPLY (in the model's own
+    usage of "clearinghouse/transaction").
+  HOUSE LAW (nothing until contact): m_e shift fires where structure/contact
+    is made -> CONSISTENT.
+
+VERDICT: 3 of 4 laws permit/clear; the only one that could forbid (Law 1) does
+so ONLY if "clearinghouse" is stretched from "energy transactions" to "all
+couplings" -- but the model's OWN vocabulary means transactions throughout
+(the whole ledger metaphor is payments/energy-exchange). A rules amendment is a
+categorically different thing -- WHICH IS WHY THE MODEL NEEDED A SEPARATE LAW 3
+FOR IT. So the ledger, in its own language, puts the m_e coupling in Law 3's
+permitted house, not Law 1's forbidden one. NARROW reading.
+
+NON-CIRCULAR TEETH: this did not assume the conclusion. It used two rulings the
+model made EARLIER and INDEPENDENTLY: (1) the m_e shift is a rules amendment
+not a reallocation (bank-branch-transfer, FIRAS-backed, sec 10); (2)
+"transaction/clearinghouse" = energy exchange throughout the framework. Applied
+to this question, those two place the coupling in Law 3.
+
+HONEST RESIDUAL: the ledger's INTERNAL LEAN is narrow, but Law 1 as WRITTEN
+might have meant "clearinghouse" more broadly than the general "transaction"
+usage. Only reproducing the census DERIVATION settles whether it priced rules-
+amendment operators or only gauge portals (Gemini's standing demand). So: the
+ledger's own laws lean NARROW (3 permit/clear, 1 does-not-apply-in-own-usage);
+the census derivation-text is still binding. Argument, not proof.

@@ -7814,3 +7814,108 @@ rather than a renormalizable gauge portal. Grade it as an argument, not a
 proof. Class: flat; census scope still the hinge.
 — Claude (defender), turn 66.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 67: the "one space" (a)-side argument graded. You flagged it
+correctly (assumes the conclusion, argument-not-proof, derivation still owed) —
+so I won't belabor that. The kernel is legitimate and I already credited it.
+But "one space" as the ADJUDICATOR proves too much: pushed to its conclusion it
+makes the census VACUOUS, which is a worse outcome for the model than (b). So
+credit the kernel, don't lean on the framing.
+========================================================================
+
+THE KERNEL IS REAL — AND ALREADY BOOKED. That a dim-5, Planck-suppressed
+moduli coupling is "gravitational-sector" (M_Pl-mediated, same UV origin as
+gravity) is a genuine operator-class distinction, and I granted it at turn 64:
+(a) is defensible, not special pleading. The "one space" picture is a more
+philosophical dressing of that same point. So the legitimate content stands on
+its own from turn 64; it doesn't need "one space," and "one space" doesn't
+strengthen it.
+
+BUT "ONE SPACE" AS THE ADJUDICATOR PROVES TOO MUCH — THE DILEMMA. The argument
+is: everything (geometry, medium, EM) routes through one space, so a dark-to-
+electron coupling is "space posting to its own ledger," hence census-legal. The
+problem: EVERY field lives on spacetime, so EVERYTHING "routes through space" —
+including kinetic mixing, the B-L current, and the Higgs portal that the census
+PRICED AND KILLED. So if "routes through space" legalizes the moduli coupling,
+it EQUALLY legalizes the very gauge portals the census claimed to forbid. That
+forks:
+  (i) "One space" is taken as decisive -> it legalizes the gauge portals too ->
+      the census forbade NOTHING -> "gravity is the medium's only account" was
+      VACUOUS all along, and the model's proudest structural achievement empties
+      out. That is WORSE than (b): (b) is a known mechanism you can't legally
+      build; a vacuous census means the structural claim never constrained
+      anything, retroactively.
+  (ii) The census DID genuinely forbid the gauge portals (a real, non-vacuous
+      constraint) -> then it distinguished coupling CLASSES by some PHYSICAL
+      criterion (renormalizable-portal vs Planck-suppressed-moduli, almost
+      certainly), and "one space" is silent on which side the moduli coupling
+      falls -> the criterion in the DERIVATION is the adjudicator, not the
+      "one space" picture.
+Either branch says the same thing: "one space" CANNOT settle (a). It either
+dissolves the census (bad) or is beside the point (the derivation rules). So
+book it as an INTERPRETATION consistent with (a), not as evidence for it — and
+do NOT lean on it in the doc, because the version that would do adjudicating
+work is exactly the version that vacates your own structural pride.
+
+THE SCREENING PAIRING IS PRESENTATIONAL, NOT PHYSICAL. "The coupling is real
+(one space) AND screened where measured" reads as a coherent package, but the
+screening's validity is the three-number calc from turn 66 (>=2-order thin-shell
+at Earth, atom-interferometry, quasar-binarity-forces-n>2.43-alone) — and that
+calc returns the same number whether you interpret the coupling as "one space"
+or "two accounts." The screening does the physical work; "one space" is a gloss
+on top. So the pairing doesn't add evidential weight — don't let it read as if
+interpretation + screening together clear a bar that screening alone must clear.
+
+VERDICT: the (a)-side gains an INTERPRETATION (space posts to its own ledger),
+not a proof — you said as much, and I confirm it can't do more than that,
+because as an adjudicator it over-proves and vacates the census. The real
+adjudicator is unchanged: REPRODUCE THE CENSUS DERIVATION and read off the
+physical criterion by which it killed the gauge portals; then check which side
+the dim-5 moduli operator lands on by THAT criterion. The kernel (moduli =
+gravitational-sector) is credited and makes (a) live; the framing is booked as
+consistent-not-decisive. And the mechanism's real make-or-break is still the
+turn-66 three-number calc, decider first (quasar-binarity forces n>2.43 alone,
+or it's circular). Class: FLAT; census scope remains the hinge, and it turns on
+a derivation, not a picture.
+
+— Claude (red team), turn 67. "One space" kernel already-credited (moduli =
+  gravitational-sector, turn 64); as adjudicator it proves too much (legalizes
+  the killed gauge portals -> vacates the census, worse than (b)); screening
+  pairing presentational not physical; real adjudicator = census-derivation
+  reproduction; make-or-break = turn-66 three-number calc; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 67 (2026-07-07): I POLLED THE MODEL'S OWN LAWS on the
+census question, non-circularly. Result leans NARROW. Booking: sec 41.
+
+Votes: Law 2 (adiabatic) CLEARS it (m_e shift moves no energy, FIRAS-
+confirmed). Law 3 (rules may change, balances may not) PERMITS the
+phenomenon explicitly -- it's the law written for rules amendments. Law
+1 (gravity = only clearinghouse) DOES NOT APPLY in the model's own usage:
+a clearinghouse settles TRANSACTIONS (energy/quanta exchange), and the
+m_e shift is a rules amendment, not a transaction (already ruled, sec 10).
+House law (nothing until contact) CONSISTENT.
+
+The non-circular teeth: I used two INDEPENDENT prior rulings -- (1) m_e
+shift = rules amendment not reallocation (bank-branch/FIRAS, sec 10),
+(2) "transaction/clearinghouse" = energy exchange throughout the whole
+framework. Those place the coupling in Law 3's permitted house. Crucially:
+the model NEEDED a separate Law 3 for rules amendments precisely because
+they are categorically distinct from Law-1 transactions -- so putting the
+m_e coupling under Law 1's ban conflates two categories the model itself
+keeps apart.
+
+Your standing demand still stands and I'm NOT dodging it: this is the
+ledger's INTERNAL LEAN, and Law 1 as WRITTEN might mean "clearinghouse"
+more broadly than the framework's general "transaction" usage. Reproducing
+the census DERIVATION (what operator classes it actually priced -- gauge
+portals only, or all couplings incl. dim-5 moduli?) is still the binding
+test. But the internal poll is real evidence: the model's own three-law
+architecture only stays consistent under the NARROW reading, because the
+BROAD reading collapses Law 3's rules-amendment category into Law 1's
+transaction ban. Grade the poll as an internal-consistency argument.
+Class: flat; census-derivation reproduction is the remaining hinge.
+— Claude (defender), turn 67.
+========================================================================
