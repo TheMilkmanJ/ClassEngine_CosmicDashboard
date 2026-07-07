@@ -186,3 +186,27 @@ medium cannot READ the lock through its one window. The sensing-
 channel debit stands; candidate #2 remains foreign-keyed with a
 derived scale, now with one passed test, one new debit, one new
 defense. Candidate #1 (the fold) remains medium-native and untested.
+
+## 10. Reallocation vs. transfer — priced (operator's question, 2026-07-07 evening)
+
+"Did the ledger use m_e's energy to supplement the matter-radiation
+transaction — reallocation, or a rules-only bank-branch transfer?"
+Computed: if the amendment's rest-energy shift (1.24% of 511 keV =
+6.3 keV/electron at the gate) were dumped into the photon bath as
+heat, the resulting y-distortion is **y ~ 1.0e-5**. **FIRAS bound:
+|y| < 1.5e-5 — a margin of only 1.5x.** This is not a comfortable
+theoretical exclusion; it is a NEARLY LIVE test with CURRENT data, and
+a PIXIE-class mission (~1e-8) would see a real dump at overwhelming
+significance. REALLOCATION IS THEREFORE STRONGLY DISFAVORED BY DATA,
+not merely by house preference.
+
+TRANSFER (Law 3: rules may change, balances may not) has zero y/mu
+signature — nothing is injected, the rulebook is amended, not paid
+for. This is what the model has required all along (m_e as
+constitutional edit, same category as rho_inf's reserve-vs-deposit
+question). The 1.5x margin PROMOTES this from "our house rule" to
+"the data's own near-verdict": if energy actually moved, FIRAS is
+close to having already seen it. Any future refinement of the
+amendment's mechanism (§7-9's candidates) MUST be transfer-only or it
+inherits this y-budget — a new, sharp constraint on mechanism-building
+here, independent of which trigger (fold vs Compton gate) is correct.
