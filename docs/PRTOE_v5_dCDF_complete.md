@@ -903,11 +903,20 @@ framework has a **structural** limit, not a numerical one:
   medium OUT of the basin: the superfluid DE-CONDENSES in the throat,
   locally reverting to its pre-basin normal phase (w = 1/3, its own
   excitation gas) — the one place in the late universe where the
-  medium's early phase persists. (Full critical-accretion-flow
-  solution owed; the normal-carried couplings — vev package — would
-  locally reactivate in the throat, with negligible observables at
-  these volumes.) The old "recycling furnace" ideation acquires its
-  mechanism-grade form: holes locally undo the condensation. Black holes: shift symmetry supports no-hair conclusions
+  medium's early phase persists. **UPGRADED TO SOLVED (2026-07-07 evening, stationary spherical
+  flow):** the critical-flow ODE closes exactly. In the X₀-free
+  variables the transonic conditions solve rationally — sonic point
+  at **r_c = 3 r_s (the ISCO)** with y_c = 1/3 and critical flux
+  Ã = 1; the supersonic branch crosses the basin boundary (y = 1) at
+  **r_exit = 1.8393 r_s** (the real root of r³ = r² + r + 1 — the
+  tribonacci constant), and X̃ grows without bound approaching the
+  horizon; the subsonic branch pins y(horizon) = 1 identically. The
+  de-condensation surface is exact: the medium exits its basin at
+  1.84 r_s around any Schwarzschild hole. (Normal-carried couplings
+  — vev package — locally reactivate inside that surface, negligible
+  observables at these volumes.) The old "recycling furnace"
+  ideation acquires its mechanism-grade form: holes locally undo the
+  condensation, now with the surface computed. Black holes: shift symmetry supports no-hair conclusions
   (quasi-static accretion at CDM-negligible local density); note the
   Hui–Nicolis theorem is usually stated for Galileon-type/derivatively
   coupled shift-symmetric scalars — its clean applicability to bare P(X)

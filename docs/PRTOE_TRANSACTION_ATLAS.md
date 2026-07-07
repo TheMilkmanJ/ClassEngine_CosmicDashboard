@@ -240,6 +240,19 @@ local-state loophole; the universal-vev kill via epoch gating).*
   *Resurrects if:* never as H0 mechanism; the coupling zoo it explored
   feeds the door taxonomy.
 
+## The payment→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
+*The medium accepts exactly one currency — spacetime geometry (gravity
+is its only account). Pay it curvature and the product is determined:*
+
+| payment (geometry offered) | product | threshold / rate |
+|---|---|---|
+| uniform expansion (Hubble flow) | NOTHING — no shedding, no records; occupation conserved, denomination redshifts | Galilean protection (2.2 Step 1) |
+| convergent flow, region R ≫ l_dB | granule field: exponential speckle, Θ-plateau vortex tangle | complete in t_shed ~ ħ/(M_eff v²) |
+| convergent flow, region R ≲ l_dB | one soliton (single coherence patch) | the regime boundary R ~ l_dB |
+| nonlinear structure's ⟨(δK)²⟩ | floor deposit ν = (4πα/3)(m̄₂/M_Pl)² | invisible (≤10⁻⁸; mutual-exclusion) |
+| extreme infall (black hole) | DE-CONDENSATION: basin exit at r = 1.8393 r_s (exact; sonic point at the ISCO, 3 r_s) | solved stationary flow |
+| anything from the other three banks | no transaction — the medium holds no EM/weak/strong accounts | structural (all α/fifth-force nulls) |
+
 ## Whispers (patterns the model produces unprompted; below bet-grade, logged so they can be watched)
 - **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
   on sub-eV scales without being asked — M₂ = 9.4 eV (dictionary),
