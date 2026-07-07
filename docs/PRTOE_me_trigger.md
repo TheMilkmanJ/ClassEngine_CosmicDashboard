@@ -288,3 +288,57 @@ does not open a new test — it adds one sub-question to the existing
 one (does Compton decoupling carry ANY direct m_e coupling, beyond
 staging). The fold/Theta derivation remains the load-bearing next step
 either way.
+
+## 13. The ledger's own decree — a third, previously-unscored candidate (operator, 2026-07-07 evening)
+
+The operator's reframe ("not a branch, the LEDGER announces new rules
+when it's no longer hot enough") identifies a genuine fourth box in a
+2x2 that was only half-explored: WHO reads the trigger (medium-native
+vs foreign-keyed) crossed with WHERE it fires (local/patchy vs
+global/uniform-in-time).
+
+    Local + medium-native:   the fold (R1, candidate #1)
+    Global + foreign-keyed:  the Compton gate (candidate #2)
+    Global + medium-native:  THE LEDGER DECREE (candidate #3, NEW)
+    Local + foreign-keyed:   no candidate proposed; likely incoherent
+                             (a foreign thermometer has no natural way
+                             to vary PATCH BY PATCH at fixed redshift)
+
+**FORCED ADMISSION, IMPORTANT:** every m_e measurement ever made —
+every quasar absorber, every star, every lab bench — sits inside
+VIRIALIZED structure. No instrument has ever probed a genuinely
+unvirialized void. Therefore a uniform GLOBAL switch (candidate #3, or
+even candidate #2 read as a direct trigger rather than staging) is
+EQUALLY CONSISTENT WITH ALL CURRENT DATA as the fold's local/patchy
+story. This was not previously stated plainly: R1's "virialized vs
+unvirialized" distinction is an UNTESTED PREDICTION, not a confirmed
+discriminating fact — nothing in the graveyard's cite list rules it
+out because nothing has looked at the right place.
+
+**WHAT CANDIDATE #3 WOULD NEED TO SURVIVE:** it must be keyed to a
+COSMIC-MEAN (background) quantity, not a LOCAL density — a local-
+density version reproduces beta's exact kill (today's environments
+span s=8-16; halos and voids would sit on opposite sides, firing
+same-absorber nulls immediately). One natural candidate is ALREADY
+RULED OUT: basin entry (mean density crossing rho_inf, s_mean=0) fires
+at z_x ~ 1e5 — same 100x-too-early problem as before. Whether some
+OTHER background-only, DERIVED (not fit) scale lands between z~1100
+and z~4 is OPEN — no number is claimed here; conjuring one without the
+derivation would repeat the exact mistake the Pinning Rule exists to
+prevent.
+
+**CONSEQUENCE FOR THE DISCRIMINATOR:** the dark-ages/cosmic-dawn 21-cm
+sky (unvirialized IGM, z~15-90) was already the fold-vs-Compton-gate
+tiebreaker; it now discriminates THREE live hypotheses, two of which
+(candidate #2-as-direct-trigger and candidate #3) currently predict
+IDENTICAL outcomes everywhere ever observed. This raises the
+instrument's importance: it is the only test that can currently tell
+apart "the switch is local" from "the switch is global," which is a
+sharper and more fundamental question than which global mechanism is
+correct.
+
+STATUS: candidate #3 is a genuine addition to the roster, hypothesis-
+grade, no derived value yet, gated by the same Pinning Rule as #1 and
+#2. Open task, distinct from #11's sims: find (or rule out) a
+derived, background-only scale for the medium's own state that lands
+in the surviving window.
