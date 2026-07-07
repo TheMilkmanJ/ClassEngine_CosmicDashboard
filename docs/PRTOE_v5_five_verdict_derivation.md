@@ -135,6 +135,21 @@ these variables; the two derivations agree.
   2×10⁻²¹ eV (67/Mpc even at 10⁻²² eV) — the S8-mute claim
   (k_J ≥ 5.5/Mpc) holds with two orders of margin.
 
+**Addendum (2026-07-07 evening) — the X₀-free form: the whisper
+answered.** Define the field in clock units, ξ = φ/√(2X₀) (the
+condensate ticks at unit rate: ξ̇₀ = 1). The action collapses to
+
+  **P = ½M₂⁴((∂ξ)² − 1)² + (m̄₂²/2)(δK)²**
+
+— X₀ is eliminated, not hidden: the theory has exactly TWO scales,
+M₂ (potential depth, 9.4 eV) and m̄₂ (stiffness, GUT band). The four
+X₀ cancellations were the artifact of writing a clock in the wrong
+field units. This is the canonical ghost-condensate form
+(independently confirming the dictionary), and it makes turn 25's
+hinge MANIFEST: M₂ is the potential's own depth — visibly pinned,
+not a dial. The model's true variables: a unit-tick khronon and two
+scales.
+
 **What 2.1 hands the verdicts:** V1 reads M_eff = M₂²/m̄₂ (one free
 number m̄₂ ⇒ the entire FDM-equivalent phenomenology, epoch-fixed);
 V3 reads Step 1's structural fact (granules are pure completion);
