@@ -420,6 +420,26 @@ is its only account). Pay it curvature and the product is determined:*
   near-pristine flatness; C1c's past-hypothesis wall is the question
   "who laundered the first ledger, and what did it cost."
 
+- **The overnight stream (operator, 2026-07-07 early hours; scored on
+  return):** KILLED — the Earth-spin coincidence (Earth spins daily,
+  orbits yearly; slowdown is lunar tides, receipt: Moon recedes
+  3.8 cm/yr; Mercury rotates in 3:2 resonance); the operator
+  self-killed the torque version mid-paragraph (the reflex is
+  installed). CORRECTED — c is spacetime's constant, not the medium's;
+  the medium obeys it. HITS — mass is the toll booth (bought from
+  condensates, C1f) and photons hold no mass account (why massless =
+  auto-limit, zero proper time); ρ∞ = "a reserve directly invested in
+  the superfluid, unspendable" — formally exact (ground state = no
+  lower state = untappable; the operator's appliance argument IS the
+  proof); the siphon capped at the 1e-39 gravitational straw. THE
+  RECONSTRUCTION — "radiation as dusk's AND dawn's champion; forward
+  same as backwards; no singularity needed" = Penrose CCC's conformal
+  handoff, blind-reconstructed (massless content is scale-blind);
+  correspondence grade, NOT this model (ours is one-aeon de Sitter as
+  written). Center/edge: FLRW has neither by construction; topology
+  searches are the proper tools and bound any container beyond the
+  observable volume.
+
 ## Strains (where the translation is PARTIAL — the streak's honest scars)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
   domains, found by hunting for a break):** the ledger's core axiom —
