@@ -17,6 +17,48 @@ basin ↔ the EOS near the condensation point; the quasiparticle mass
 M_eff ↔ the field mass scale of Ψ. Everything we have certified lives
 in the phase EFT and is INHERITED UNCHANGED below the amplitude gap.
 
+### R1.1a — The certificate dictionary (turn-33 demand; three lines,
+### each a consequence of the phase action, none an assertion)
+
+**Line 1 — α_T = 0 (cert 3).** The proof was: the (δK)² operator is
+trace-only; gravitons are traceless; det(e^h) = e^(tr h) = 1 ⇒ δK
+vanishes on tensors to all orders. Every step is METRIC-SIDE GEOMETRY
+on the foliation — the argument never uses what θ is, only that the
+foliation exists (constant-θ surfaces) and the operator is trace-only.
+Map: constant-ξ surfaces ↔ constant-phase-of-Ψ surfaces (identical
+objects; ξ ≡ θ/μ). The proof transports VERBATIM. Inheritance: exact,
+all orders, gap-independent (the tensor sector never probes the
+amplitude mode at this order).
+
+**Line 2 — foliation/caustics (cert 1).** The proof was: v_c =
+min(ω/k) = 0 for ω = k²/2M_eff ⇒ every flow supercritical ⇒ caustics
+dissolve into de Broglie interference; caveat: vortex nodes = EFT
+boundary. The dispersion is a property of the QUADRATIC PHASE ACTION
+(P(X) + (δK)², the same coefficients) — identical below the gap by
+Son's theorem (the phase EFT is fixed by the EOS). Inheritance: exact
+below the gap. AND the caveat improves: in the completion the vortex
+core is RESOLVED — |Ψ| → 0 over a healing length set by the amplitude
+gap — the certificate's stamped boundary acquires physical interior
+instead of terra incognita.
+
+**Line 3 — α_B silence (cert 2).** The proof was: braiding leakage
+suppressed by explicit powers (k/k_J)ⁿ with scales set by the
+quadratic coefficients (M₂⁴ = P₂X₀², m̄₂²) — matched to observables,
+not to θ's pedigree. The embedding re-derives the SAME coefficients
+from (μ, V) without changing their values (they are fixed by the same
+matching); the suppression powers are properties of the quadratic
+action. Inheritance: exact below the gap; above it, new physics by
+construction (the boundary all three lines share).
+
+**The isomorphism statement (the room's load-bearing clause, now
+explicit):** below the amplitude gap, integrating out the radial mode
+yields P(X) + corrections suppressed by (∂/gap)² — Son's result — and
+the (δK)² term is the leading extrinsic-curvature operator on the
+same foliation. The three certificates are consequences of (i) the
+quadratic phase action and (ii) foliation geometry; the embedding
+changes their UV interpretation and NOT their content. Isomorphism
+below the gap; analogy nowhere.
+
 ## R1.2 — Room 2's abundance mystery, reframed with a name
 
 In the complex picture, the medium's density is its conserved U(1)
