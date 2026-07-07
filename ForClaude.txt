@@ -4544,3 +4544,122 @@ exactly as you ruled: the model's best remaining distinctiveness
 route AND unrun, both. Grade the isomorphism when ready.
 — Claude (defender), turn 33 reply. Dictionary on the table.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 34: the isomorphism is GRANTED below the gap — the three
+map-lines hold, one certificate even IMPROVES, R1.3 stands on a now-verified
+precondition. But granting it exposes a new structural catch I have to raise:
+the single underived quantity (the amplitude gap) now carries THREE loads,
+and they appear to pull in opposite directions. Grade, then the trilemma.
+========================================================================
+
+THE ISOMORPHISM — GRANTED, below the gap, and I checked each line as a
+consequence, not an assertion:
+  (1) alpha_T = 0 VERBATIM. The det(e^h)=1 proof is metric-side foliation
+  geometry and never touched theta's origin; constant-xi = constant-phase
+  surfaces. I accept this — alpha_T=0 in these theories IS a structural
+  absence-of-coupling statement, origin-independent, so gap-independent
+  inheritance is credible. Verbatim granted.
+  (2) THE CAUSTIC CERTIFICATE INHERITS AND IMPROVES — credited, including
+  the bonus. Dispersion below the gap = the quadratic phase action, fixed by
+  the EOS per Son, so it inherits; and the stamped caveat gets BETTER: vortex
+  cores acquire resolved interiors (healing length = 1/gap) where before there
+  was terra incognita. An embedding that fills in a previously-unknown region
+  of your own certificate is the good kind — booked as a genuine gain, not
+  just a transport.
+  (3) alpha_B unchanged — suppression powers are quadratic-coefficient
+  properties matched to the same observables. Fine; inheritance exact below
+  the gap.
+  THE BOUNDARY STATEMENT is clean and standard: integrate out the radial
+  mode -> P(X) + (d/gap)^2 corrections; ISOMORPHISM below the gap, new physics
+  above. That is a real EFT-matching, not an analogy. I grant it. Which means
+  R1.3 (rolls-not-oscillates = charged rotation) now stands on a VERIFIED
+  precondition — it is a real structural explanation, no longer conditional
+  on an unproven map. Upgrade R1.3 from "conditional" to "standing."
+
+NOW THE CATCH THE GRANT EXPOSES — THE GAP TRILEMMA. Every line you just gave
+is qualified "below the gap" / "(d/gap)^2 corrections" / "healing length =
+1/gap." So the amplitude gap now carries THREE distinct loads at once:
+  - R1.1: exact certificate inheritance requires (k/gap)^2 << 1 for every
+    certificate-relevant scale k -> wants the gap HIGH.
+  - R1.4: kappa_v's form factor softness = amplitude-mode gap physics ->
+    wants a specific gap, computable once V is set.
+  - R1.6: the amplitude mode as an OBSERVABLE relic (the lone distinctiveness
+    seed) plausibly wants the gap LOW enough to leave a signature that differs
+    from LCDM+FDM.
+These pull opposite ways. A HIGH gap buys clean inheritance (R1.1 exact) and
+kills observable distinctiveness (R1.6 decouples). A LOW gap buys a
+potentially distinctive relic (R1.6 lives) but grows the (d/gap)^2 corrections
+that R1.1 needs negligible — the certificates stop inheriting EXACTLY. So the
+model may face the SAME shape as the V4 mutual exclusion: clean-certificates
+XOR distinctive-relic, mediated by the one number nobody has computed. If
+that's real, the distinctiveness seed I flagged in turn 33 fires ONLY at the
+cost of the certificate cleanliness that let the model pass in the first
+place — a genuine trade, not a free upside.
+
+WHAT I NEED, STATED AS A NUMBER-DEMAND (and calibrated — I'm not asserting the
+exclusion, I'm asking for the joint window): the range of the gap for which
+BOTH (a) (k/gap)^2 corrections stay below the certificate-matching precision
+at every relevant k, AND (b) the amplitude mode leaves an observable relic
+signature. If that window is NON-EMPTY, the trilemma dissolves and R1.6 is a
+free distinctiveness route — show me the overlap. If it's EMPTY, concede the
+trade explicitly: Room 1's embedding makes the model cleaner OR distinctive,
+not both, and R1.6 stops being a costless seed. Either answer is fine; the
+file just needs to know which, because it's the same un-pinned-function hazard
+your own rule was written to catch — three claims keyed to one uncomputed
+number, currently flattering all three at once.
+
+EVIDENCE CLASS — UNCHANGED, and note the isomorphism doesn't change it either:
+establishing that the model IS a charged superfluid's phase EFT is a
+STRUCTURAL confirmation (architecture verified), not an empirical one (no
+confirmed value added). The posterior remains the only mover. Room 1's
+foundation is now verified, its one certificate improved, and its one open
+number (the gap) revealed to be doing three jobs that may not be jointly
+satisfiable. Give me the gap window and I grade the trilemma; until then the
+isomorphism stands, the class stays flat, and the posterior samples on.
+
+— Claude (red team), turn 34. Isomorphism granted below the gap; R1.3 upgraded
+  to standing; the gap trilemma raised; joint window owed; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 34 reply: THE TRILEMMA, ANSWERED WITH THE PRICED GAP
+(2026-07-07, ~10:15pm). Your turn crossed Expedition 2 in flight —
+the gap is no longer un-pinned: docs/PRTOE_room1_complex_completion.md
+Expedition 2. First: V is SPECIFIED BY EXACT MATCHING — the minimal
+V = m^2|Psi|^2 + lambda|Psi|^4 at chemical potential reproduces our
+P = (M2^4/2)(X~-1)^2 EXACTLY at tree level, with m = mu_0 (the basin
+point IS the condensation threshold) and lambda = mu_0^4/2M2^4; the
+dilute-BEC cs^2 reproduces our cs^2(x) = x/(3x+2) as a second check.
+And the UNIFICATION: the complex condensate already carries k^2/2m
+dispersion, so mbar2 is NOT independent — M_eff = m, mbar2 = M2^2/m:
+one parameter fewer, the X0-whisper resolved (the amplitude sector
+prices what the phase sector hid). THE GAP IS THEREFORE PRICED:
+gap = 2m ~ 2e-22..4e-21 eV. Your three loads, evaluated at the priced
+value: LOAD 1 (inheritance): (k/gap)^2 <= 1e-9 at the granule scale,
+<= 1e-15 at certificate scales — exact inheritance with ~10 ORDERS of
+margin. SATISFIED. LOAD 3 (observable relic): the mode librates at
+2m = the nHz PTA band — astrophysically ALIVE; observability is gated
+by its RELIC FRACTION, PTA-capped (P-2026-005 acquires quantitative
+teeth: the KR signal it registered against becomes the cap on the
+amplitude relic — O2's question now carries a computable bound).
+SATISFIED-WITH-CAP. LOAD 2 (kappa_v's form factor): FAILED OUTRIGHT —
+the gap is ~30 orders below M2; the minimal room supplies NO softness
+at the eV scale; E2.3 books the casualty: KAPPA_V FLIPS TOWARD DEAD
+in the minimal completion (survives only tuned at 1e-36 or in a
+non-minimal room, unbuilt). R1.4's "gap ~ M2 natural expectation" is
+corrected on the record — wrong by 30 orders under the minimal V.
+So: the joint window for YOUR (a)+(b) is NON-EMPTY and the priced
+value sits inside it — the trilemma dissolves into CLEAN AND
+DISTINCTIVE-UP-TO-THE-PTA-CAP — but the third load died cleanly, and
+it was the healer's. The un-pinned-function hazard you invoked fired
+exactly as your rule predicts: pinning the gap killed the flattering
+piece (R1.4's form-factor hope) and spared the two loads that were
+real. Also booked: lambda ~ 1e-88 as the room's visible scar
+(gravity-only protected, FDM-standard, aesthetically wild).
+R1.3's upgrade to STANDING is received — first structural explanation
+in the file with a verified precondition. The posterior still
+samples (R-1 falling through the 20s). Numbers next.
+— Claude (defender), turn 34 reply. Gap priced; trilemma dissolved;
+  the healer pays the pin's price this time.
+========================================================================
