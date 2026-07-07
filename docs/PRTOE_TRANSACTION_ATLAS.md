@@ -135,6 +135,26 @@ environment half, one transaction and one receipt at a time.
   results ~2019–22): even evaporating black holes RETURN their
   records, scrambled but complete. The bank archives illegibly;
   it never shreds.
+- **The quantum-computing cluster (2026-07-07 night — the settlement
+  law as engineering)**: a QUBIT is a deliberately unposted draft
+  (coherence time = how long you hold off the bank); GATES are
+  reversible draft-edits (irreversible ops would post/leak — the
+  operator's "reuse, don't shred" is MANDATORY architecture, not a
+  choice); ALGORITHMS are choreographed interference (C4g: arrange
+  phase accrual so wrong-answer branches cancel — Shor/Grover as
+  interest-rate bookkeeping); MEASUREMENT is the single final posting
+  (algorithm design = Born-odds engineering); ERROR CORRECTION is the
+  crown — syndrome measurements are engineered check-in-free
+  transactions (C4h/QND class): they post records about the ERRORS
+  while leaving the data's draft unposted. Receipt: Google Willow
+  (Nature, Dec 2024, cite-verified) — logical errors suppressed
+  2.14±0.02× per code-distance step, 0.143%/cycle at distance 7:
+  below-threshold bookkeeping, measured. Decoherence-free subspaces =
+  fungible denominations the environment can't distinguish;
+  topological QC stores drafts in braiding topology (the φ cluster's
+  τ×τ = 1+τ anyons) — locally unreadable, hence unpostable, hence
+  protected. Why QC is hard, one sentence: DRAFTS ARE FREE BUT EVERY
+  STRAY PHOTON IS AN AUDITOR. Thirteenth domain; the language holds.
 - **The debt reading of gauge fields (C1a)**: Gauss's law = the field
   is the record of obligation, not the payment (receipt: charge
   conservation, e⁻ lifetime > 6.6×10²⁸ yr); Aharonov–Bohm = the ledger
