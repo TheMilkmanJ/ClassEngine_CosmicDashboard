@@ -1207,3 +1207,53 @@ mechanism exists (coefficient still to derive). If no (broad reading),
 the dyad's flagship m_e shift has no legal mechanism at its observed
 size, and that is a foundational problem the model must confront
 directly.
+
+## 33. "Flat space is the first contact" -- a coherent cosmogony that sharpens
+## the EM/gravity strata split, but does NOT resolve the section-32 amplitude
+## conflict (operator, 2026-07-07 night)
+
+Operator: the flat (R=0) space of the "equation of nothing" (section:
+Atlas) is the primordial substrate; the FIRST connection is matter
+touching flat space, and curvature/EM/everything are subsequent
+"equations" that follow from that contact.
+
+REAL DISTINCTION AFFIRMED: flat space is not nothing -- it is the LOCAL
+TANGENT FRAME at every point, and it hosts a different physics stratum
+than curvature does:
+  - GRAVITY IS curvature (failure of flat frames to align point-to-
+    point; universal, geometric).
+  - EM is NOT curvature -- a LOCAL INTERNAL U(1) symmetry living in the
+    flat tangent frame, fully defined in flat space.
+So the operator's instinct correctly identifies that EM belongs to the
+FLAT-FRAME stratum and gravity to the CURVATURE stratum -- they are
+different levels, and EM was never in the same bin as gravity.
+
+AS COSMOGONY: consistent and already the model's own genesis story:
+pre-genesis (flat/nothing) -> first contact (the condensate is born,
+Affleck-Dine genesis) -> medium sources curvature and structure ->
+everything unfolds. "Flat -> contact -> curvature+EM+everything" IS the
+genesis chain. Coherent, slots in, worth recording.
+
+BUT DOES NOT RESOLVE SECTION 32 (honest, stated plainly): the amplitude
+problem is PRESENT-TENSE (how does the medium shift m_e by 1% here and
+now), not about ORIGINS. And "flat space is where EM lives" makes it
+HARDER: a medium-to-electron coupling at the flat-frame level (bypassing
+curvature) is a DIRECT, LOCAL, NON-UNIVERSAL coupling -- exactly the
+composition-dependent thing MICROSCOPE forbids to 1e-15. The flat-frame
+channel IS the census-forbidden channel.
+
+ONE TECHNICAL THREAD CHECKED (preferred frame / khronon): the medium's
+rest frame (khronon, CMB frame) is a flat-space structure that is NOT
+curvature-suppressed (dodges the 60-order problem) AND is census-
+friendly (part of the geometry/foliation sector). BUT it is roughly
+UNIFORM everywhere, so a khronon coupling gives a UNIFORM m_e shift --
+it cannot produce the bare-in-voids / suppressed-in-structure pattern
+required. Relocates the problem, does not solve it.
+
+STATUS UNCHANGED FROM SECTION 32: the amplitude still needs a channel
+that is simultaneously (a) strong enough (direct, ~O(alpha)), (b)
+census-legal, and (c) able to VARY between smooth and structured space.
+No single mechanism has been shown to be all three. The flat-space
+cosmogony is a good origin picture and clarifies the EM/gravity strata
+split; it does not reach the present-tense amplitude conflict. Grade:
+coherent cosmogony + conceptual clarification, NOT a resolution.
