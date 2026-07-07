@@ -1102,3 +1102,45 @@ GRADE: structural unification + third pillar-reason for Weyl. Not a new
 independent mechanism; a deepening that explains WHY the mechanism we
 built has the form it has. Consistent with, and reinforcing of,
 sections 22 (decoherence pays through time), 25, and 27.
+
+## 31. THE AMPLITUDE'S CEILING DERIVED: it's the electron's EM self-energy
+## fraction (2026-07-07 night, following the binding/decoherence thread)
+
+Following section 29-30: if the environment amends the EM-BINDING rule,
+only the ELECTROMAGNETIC part of m_e can respond. The electron mass
+splits: ~99% Higgs-Yukawa ("bare"), ~1% ELECTROMAGNETIC SELF-ENERGY.
+The maximum possible fractional shift is therefore the EM-self-energy
+FRACTION of m_e, which is O(alpha)*log = 1-2% for EVERY reasonable
+cutoff (muon through nucleon scale).
+
+**THIS IS A CEILING, NOT JUST A SIZE (the advance over section 28):**
+raw "eps ~ O(alpha)" only said "around alpha." The self-energy framing
+says eps <= (EM fraction of m_e) ~ 1-2% -- a physical BOUND. You cannot
+shift the electron mass by more than the ~1% of it that is made of
+electromagnetism. The observed 1.24% sits AT that ceiling. So the
+smallness AND the percent-scale are DERIVED (bounded), not fit.
+
+**MECHANISM REFINEMENT (the O(alpha) size is now evidence):** this
+corrects the wall from "Weyl-Higgs" (modulates the WHOLE mass -> no
+reason for O(alpha)) to "Weyl-modulated EM SELF-ENERGY" (curvature
+affecting the QED vacuum around the electron -- standard QED-in-curved-
+spacetime, census-legal: dark medium -> curvature -> electron's own EM
+loop -> shifted self-energy, geometry throughout, no direct dark-EM
+vertex). The amplitude's O(alpha) size FAVORS this mechanism over pure
+Higgs-Yukawa -- the number's size is now evidence for the specific
+mechanism. Ties directly to section 29: the EM self-energy IS the
+electromagnetic piece of the mass = the binding-related piece.
+
+Numbers: coeff 3*alpha/4pi = 0.00174; eps=0.0124 needs ln(Lambda^2/
+m_e^2)=7.12 -> Lambda~18 MeV. Cutoff-scan: eps=0.019 (muon), 0.020
+(pion), 0.026 (nucleon) -- all ~1-2%, bracketing the observed value.
+
+HONEST BOUNDARY (still not the full roof): DERIVED = the amplitude's
+SIZE and CEILING (~1-2%, physically bounded). OPEN = the exact 1.24%
+needs (a) the precise cutoff/scheme (18 MeV is not an obviously
+motivated scale) AND (b) the exact fraction of the EM self-energy the
+environment modulates. The roof's FRAME is up (material identified,
+size bounded); the final coefficient is not nailed. The keystone task
+(section 28 / task #10) is now sharper: derive the cutoff and the
+modulation fraction of the electron's curvature-dependent EM self-
+energy.
