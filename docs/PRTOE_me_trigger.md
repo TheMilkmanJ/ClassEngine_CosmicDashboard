@@ -342,3 +342,33 @@ grade, no derived value yet, gated by the same Pinning Rule as #1 and
 #2. Open task, distinct from #11's sims: find (or rule out) a
 derived, background-only scale for the medium's own state that lands
 in the surviving window.
+
+## 14. "Space's own temperature reacting to itself" — tested, and killed cleanly (operator, 2026-07-07 evening)
+
+Distinguished two readings of "the temperature of space": (a) the
+photon bath T_gamma (foreign, Reading A from §13's shared-clock
+discussion), vs (b) the Gibbons-Hawking/de Sitter HORIZON temperature
+T_GH = hbar*H/(2*pi*k_B) — a property of GEOMETRY itself (already in
+the Atlas's horizon-thermometer calibration: T_GH(today) = 2.75e-30 K),
+genuinely medium-native since H is the shared funnel.
+
+TESTED: does T_GH(z) ever cross T_gamma(z), giving a real, derivable
+"space reacting to its own heat" event? Computed across z = 0.1 to
+1e6: **NO CROSSING ANYWHERE.** T_GH stays ~30 orders of magnitude
+below T_gamma at every redshift in and far beyond the survival window
+(z=4 to 1100); closing that gap would require redshifts deep in the
+Planck era, cosmologically meaningless here. This specific,
+well-motivated mechanism is DEAD BY ARITHMETIC, not by taste — a clean
+kill in the graveyard's own style (Rule: dimensional/arithmetic kills
+are permanent, "resurrects if: never").
+
+WHAT SURVIVES: the underlying structural point from §13 — that
+REDSHIFT/SCALE-FACTOR (not "temperature" as a specific mechanism) is
+legitimately medium-native, since H(z) is exactly what the fluid's own
+background equations already depend on. This stays the best form of
+candidate #3. WHAT REMAINS OPEN, unchanged: a non-arbitrary, DERIVED
+redshift/scale-factor value for the ledger's own threshold — without
+one, a redshift-keyed switch is exactly as tunable as beta was.
+This attempt (T_GH vs T_gamma) is now a closed, tested line rather
+than an open guess — a real contribution to the search even in
+failure, per the graveyard's own standard.
