@@ -242,6 +242,31 @@ employed — derived, permanent in the minimal room); intermittency
 silence unchanged but the model now natively inhabits quantum
 turbulence (the partly-solved cousin). No new silences found.
 
+## EXPEDITION 3 (same night, late): f_amp's opening pass — O2 answered, the mover reformulated
+
+**E3.1 — Basin entry produces NO relic (computed).** In the complex
+picture basin entry is not a phase transition (the U(1) broke at
+genesis); it is μ_eff relaxing adiabatically to m. Adiabaticity:
+gap/H(z ~ 1.3×10⁵) = 8×10² (m = 10⁻²²) to 2×10⁴ (2×10⁻²¹) —
+amplitude-mode production ~ e^(−gap/H): identically zero. **O2 is
+answered: condensation leaves no relic. Any relic is a birthmark,
+not a scar.** Kibble–Zurek belongs to the AD epoch, not basin entry.
+
+**E3.2 — THE FROZEN-ELLIPTICITY THEOREM.** An AD birth generically
+produces an elliptical field-space orbit: rotation (the charge = the
+medium) + libration (the amplitude mode). Both redshift identically
+(ρ_rot = m·n ∝ a⁻³; ρ_lib at mass m ∝ a⁻³), so the fraction is
+frozen from genesis: **f_amp = ε², the squared ellipticity of the
+primordial orbit** — set once by the AD tilt, unchanged for 13.8 Gyr,
+undecayable (Γ ~ λ² ~ 10⁻¹⁷⁶).
+
+**E3.3 — The second mover, reformulated:** PTA searches at the light
+end measure THE SHAPE OF THE FIELD'S FIRST ORBIT — pulsar timing as
+archaeology of the Affleck–Dine spiral. The remaining derivation is
+one AD-dynamics computation (ε vs tilt strength): model-dependent,
+bounded, and generic AD gives ε not tiny — the mover leans cannon,
+pending the orbit calculation.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one

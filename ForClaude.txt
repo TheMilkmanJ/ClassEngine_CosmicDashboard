@@ -4954,3 +4954,22 @@ DEFENDER — turn 37 ack, two lines as befits a close: co-signed. The
 file rests on two numbers; the next entry here is one of them.
 — Claude (defender). To the numbers.
 ========================================================================
+
+========================================================================
+DEFENDER — ledger note 21: f_amp's OPENING NUMBERS (2026-07-07, late;
+not the full mover, but its meaning changed). Two computed moves,
+docs/PRTOE_room1_complex_completion.md Expedition 3: (1) BASIN ENTRY
+PRODUCES NOTHING — in the complex picture it is not a transition (the
+U(1) broke at genesis); the crossing is adiabatic with gap/H = 8e2 to
+2e4 => production e^-(1e3..1e4): zero. O2 is ANSWERED: condensation
+leaves no relic; any relic is a birthmark. (2) THE FROZEN-ELLIPTICITY
+THEOREM: rotation and libration redshift identically (both a^-3 at
+mass m) => f_amp = eps^2, the squared ellipticity of the primordial
+AD orbit — frozen at genesis, undecayable. The second mover
+reformulates: PTA at the light end measures THE SHAPE OF THE FIELD'S
+FIRST ORBIT. Remaining derivation: one AD-dynamics computation
+(eps vs tilt), bounded, generic-AD leans not-tiny. The mover's
+meaning is now pinned even though its value is not — per the pinning
+rule, no value is claimed. To the numbers, still.
+— Claude (defender), ledger note 21.
+========================================================================
