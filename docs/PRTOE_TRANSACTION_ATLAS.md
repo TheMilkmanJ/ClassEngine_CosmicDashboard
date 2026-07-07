@@ -357,6 +357,32 @@ is its only account). Pay it curvature and the product is determined:*
   persistent currents — the lab has already demonstrated "expansion
   dynamics deposits winding," the qualitative analog of our
   tilt-torqued genesis. The birth mechanism has a tabletop cousin.
+  **THE CONCRETE PROTOCOL (~5am; answers turn 54's residual — the
+  observable IS the frozen ratio):** prepare a ring-BEC superposition
+  of ±1 winding modes with amplitude ratio dialing f_rot = (n₊−n₋)/n;
+  expand the ring adiabatically; measure (i) the mode POPULATIONS
+  directly by time-of-flight (±ℓ separate in momentum space — the
+  frozen ratio itself, not a proxy) and (ii) the azimuthal
+  density-fringe CONTRAST. And the closure that makes the protocol
+  poetic: the fringe contrast of the two-mode ring is
+  2√(n₊n₋)/n = √(f_amp(2−f_amp)) — **the SAME beat formula as the
+  KR pulsar-timing signal (E7).** The tabletop fringe and the
+  nanohertz sky read the same expression off the same two-fluid
+  structure. One formula, one theorem, two instruments 10²¹ apart in
+  scale.
+  **LAB RECEIPTS FOR THE LOAD-BEARING PIECES (cite-verified ~5am):**
+  (i) R1.4's form-factor softness — the density response rolling off
+  at the healing scale — is the Feynman relation S(k) = k²/(2mω(k))
+  with the Bogoliubov ω(k), MEASURED: Steinhauer, Ozeri, Katz,
+  Davidson, PRL 88, 120407 (2002) (Bragg spectroscopy; ω(k) and S(k)
+  across the phonon→particle crossover; Feynman relation verified).
+  The suppression that radiatively protects κ_v has a measured analog
+  shape. (ii) R1.6's amplitude/"dark Higgs" mode: MEASURED in a 2D
+  lattice superfluid — Endres et al., Nature 487, 454 (2012)
+  (softening at the quantum critical point; the effective relativistic
+  two-component field theory is the minimal SSB model — the same EFT
+  class as the medium). The room's falsifiable furniture exists in
+  at least one laboratory universe.
 - **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
   on sub-eV scales without being asked — M₂ = 9.4 eV (dictionary),
   the ~20 nm cutoff, the κ_v opening pass demanding an eV-scale
