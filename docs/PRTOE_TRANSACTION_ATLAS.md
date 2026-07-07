@@ -367,6 +367,41 @@ is its only account). Pay it curvature and the product is determined:*
   published research program, named blind, healing the atlas's one
   scar.
 
+## Silences (the language translates but adds nothing — distinct from strains)
+- **The strong CP problem (2026-07-07 night, break-hunt round 2):** QCD's
+  rules permit a CP-violating fee (the θ-term); the totalitarian
+  principle says un-forbidden terms are compulsory; yet the fee is
+  waived to ten decimal places — neutron EDM < 1.8×10⁻²⁶ e·cm (nEDM
+  collab, PRL 124, 081803 (2020), cite-verified) ⇒ θ < ~10⁻¹⁰. The
+  ledger restates this beautifully (a legal fee, mysteriously waived)
+  and offers NOTHING toward the mechanism. Worse for us: the known
+  candidate mechanism (Peccei–Quinn/axion — a field that rolls the fee
+  to zero and then OSCILLATES) is exactly the potential-class object
+  our kinetic medium is structurally not (P-2026-005's zoo split).
+  A silence, kept audible.
+- **Turbulence intermittency (same round):** the Kolmogorov cascade
+  translates gorgeously — energy enters wholesale (large eddies),
+  passes scale-to-scale at fixed flux, exits retail as heat; the 5/3
+  spectrum is measured everywhere. But the anomalous exponents
+  (intermittency — settlements arrive in BURSTS, rare large
+  transactions dominating) are underived in the ledger exactly as
+  they are underived from Navier–Stokes. The language describes the
+  burstiness; it computes nothing. Silence #2. (One live tie kept:
+  granulated halos ARE quantum turbulence — a Vinen-class vortex
+  tangle — so lab quantum-turbulence diagnostics speak to V5's Θ.)
+- **The thermodynamic route to H0/S8 (operator's bet, same night):**
+  scored three ways. (i) As entropic-gravity adoption (Verlinde-class
+  growth modification): UNAVAILABLE — it would forfeit the
+  certificates that keep this model alive (GR-fundamental is the
+  survival choice; one-term taxonomy, turn 25) and the field's
+  attempts lack working CMB machinery. (ii) As "our S8 answer is
+  thermodynamic": PARTIALLY TRUE AND ALREADY RUNNING — the model's
+  S8 lever is Σm_ν, i.e. the free-streaming of thermal-relic
+  neutrinos (T_ν = 1.95 K): cosmic thermodynamics, mid-measurement
+  in the sampler. (iii) H0: closed by the unique m_e credit; the
+  taxonomy permits no thermodynamic addition. Net: the true part of
+  the bet is being computed as it was placed.
+
 ## Nulls checked (asked and answered: not in this model)
 - **The golden ratio (2026-07-07, operator's query):** swept the derived
   structure — the model's fixed numbers are rationals and simple
