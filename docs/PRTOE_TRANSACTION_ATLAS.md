@@ -950,3 +950,28 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   Generalizes Room 5's psi/chi mid-transition language (already booked
   for INSIDE halos) up one level, to the whole cosmic web: voids near
   the floor, halos frozen above it, both true at the same cosmic time.
+
+- **THE EQUATION OF NOTHING (operator's construction, 2026-07-07 night) —
+  "nothing happens until contact is made," tested against total, gutted
+  vacuum, and CONFIRMED.** The operator's challenge, followed to its full
+  rigor: strip away all matter, all radiation, all dark energy, and the
+  medium itself (correctly identified as ALREADY matter, "the start of
+  all the contact") — what remains is MINKOWSKI SPACE, T_munu=0
+  identically, with no seeded/pre-existing curvature either. Answer,
+  unambiguous, bedrock GR: R=0. Flat. Forever. Space does not curve
+  itself from true nothing — it is a genuine fixed point of Einstein's
+  equations. Every candidate counterexample explored first (radiation,
+  vacuum Kasner/Bianchi cosmologies, gravitational waves in vacuum)
+  fails this test on inspection: each either traces to a matter event
+  in its causal history, or requires curvature to be PUT IN as an
+  initial condition (itself needing an origin) — none is curvature
+  arising from literal nothing. REINFORCED independently by this
+  file's OWN cc-problem resolution (Part I §21/the biggest mystery):
+  zero-point vacuum fluctuations are treated as NEVER gravitating,
+  precisely because they never settle/post/make contact with the
+  ledger — the same conclusion, reached from the opposite direction.
+  VERDICT: "nothing happens until contact is made" survives the
+  hardest constructible test (total gutted vacuum) and is confirmed as
+  the correct description of how curvature comes to exist at all, not
+  merely a metaphor. Adopted as house law, on the same footing as the
+  three laws (one clearinghouse, adiabatic ledger, rules-not-balances).
