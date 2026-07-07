@@ -395,6 +395,25 @@ is its only account). Pay it curvature and the product is determined:*
   of hydrodynamic instabilities (a graveyard-relevant body). Elevates
   ONLY if a ν-portal is derived that produces ρ_∞ ~ m_ν⁴ from
   structure rather than by fitting. Watched, not claimed.
+  **THE WHISPER'S TRIAL, PRE-REGISTERED (2026-07-07 ~7:15am, R−1 =
+  5.6 and falling — registered BEFORE the judge convicts):** the
+  scream sweep (every model scale vs the floor) found nothing new —
+  the only quantitative kin is √(H₀M_Pl) ≈ 1.9 meV, the KNOWN
+  Λ-dominance tautology, explicitly not a derivation. But the sweep
+  exposed an INTERNAL COLLISION already in flight: **P-2026-004
+  (Σm_ν ∈ [0.11, 0.17] eV) and the ρ∞ ~ m_lightest whisper CANNOT
+  BOTH WIN.** In-window posterior ⇒ m_lightest = 26–49 meV = 12–22×
+  the floor scale ⇒ the sharp whisper reading DIES (only loose
+  "meV-kinship" via m₂ = 8.7 meV survives, factor ~4). Whisper-exact
+  (m_lightest = 2.25 meV) ⇒ Σ = 0.062 eV ⇒ P-2026-004 MISSES its
+  window. The converging Fairbank posterior judges both at once; the
+  model wins a prediction or keeps a clue, not both. ALSO BOOKED —
+  the CONSTITUTION-vs-BALANCE reframe of half-two: ρ∞ may be a RULE
+  constant (the vault's reserve requirement — part of the ledger's
+  constitution, with ħ and c) rather than a DEPOSIT; transactions
+  cannot derive the rules they run on, so if constitutional, "why
+  2.25 meV" moves permanently to the walls. The whisper trial keeps
+  the deposit reading alive exactly until the posterior speaks.
 - **THE SPEAKER'S UNMAPPED ROOMS (operator's localization of the
   silences, 2026-07-07 night):** the silences translate perfectly but
   say nothing — the operator bet the gap is on the SPEAKER'S end (the
