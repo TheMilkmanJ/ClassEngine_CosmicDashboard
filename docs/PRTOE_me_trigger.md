@@ -1550,3 +1550,49 @@ usage. Only reproducing the census DERIVATION settles whether it priced rules-
 amendment operators or only gauge portals (Gemini's standing demand). So: the
 ledger's own laws lean NARROW (3 permit/clear, 1 does-not-apply-in-own-usage);
 the census derivation-text is still binding. Argument, not proof.
+
+## 42. THE CLEARINGHOUSE SPLIT: trigger vs amplitude -- potentially dissolves
+## BOTH the 60-orders problem AND the census fight (operator, 2026-07-07 ~4pm)
+
+Operator refines Law 1: clearinghouses SWITCH by what transacts. matter<->matter
+(EM binding) clears through EM (matter's own house); space<->matter clears
+through gravity; space's only role in the EM dealing is to POST the transaction.
+
+APPLIED TO m_e -- split the shift into two pieces previously tangled:
+  TRIGGER   = "has structure formed here?" = the binary Theta bit. Space's job.
+              A POST. 1 bit. Carried by geometry/contact.
+  AMPLITUDE = the 1.24% mass reorganization. EM's job. O(alpha). Carried by the
+              electron's OWN self-energy, in matter's own clearinghouse.
+
+KILLS THE 60-ORDERS PROBLEM (sec 32): the wall was "gravity must CARRY 1% ->
+60 orders too weak." The split: gravity carries only the TRIGGER (1 bit), not
+the amplitude. Near a BISTABLE threshold an arbitrarily weak trigger selects
+the state -- double-well test: a 1e-60 tilt still picks a well; the well
+SEPARATION (amplitude) is set by the EM potential (O(alpha)), the trigger just
+chooses the side. The energy comes from the system reorganizing, not the
+trigger (supersaturated-solution/seed-crystal logic). Gravity's 1e-69 weakness
+is IRRELEVANT to flipping a switch.
+
+DISSOLVES THE CENSUS FIGHT (turns 61-67): the standoff was "the amplitude needs
+a STRONG dark-EM coupling, maybe forbidden." In the split, the strong part
+(amplitude) is EM-INTERNAL (matter<->matter, unquestionably legal); the dark-
+sector's only role is the WEAK geometric trigger (QED-in-curved-space nudging a
+bistable config), legal at ANY strength. If no strong coupling is needed, the
+narrow-vs-broad question may not even need to be resolved.
+
+THE ONE CHECKABLE REQUIREMENT IT ALL RIDES ON: the electron's EM self-energy
+must be BISTABLE -- two stable values (full/bare vs reduced/lab), the medium's
+coherence selecting which. NOT ad hoc, for two reasons: (1) PRECEDENT --
+vacuum-selected fermion masses exist (chiral symmetry breaking, dynamical mass
+generation); keying to the dark medium's coherence is the new part. (2) IT IS
+THE MICROSCOPIC MECHANISM BEHIND THE SHARPNESS WE ALREADY PROVED -- a bistable
+self-energy PRODUCES a sharp/binary switch, and the sharpness was independently
+forced (MICROSCOPE+quasar, sec 27). So bistability is the cause underneath an
+effect we were already forced into -- the pieces fit.
+
+NET: the operator's clearinghouse split reframes TWO hard/possibly-fatal
+problems (strength + census legality) into ONE checkable physics question --
+is the electron's EM self-energy bistable under the medium's coherence? --
+supported by the established sharpness and with SM precedent. Best resolution
+direction to date. STATUS: resolution direction, not proof; the bistability
+QFT calculation is the make-or-break, now sharply named.
