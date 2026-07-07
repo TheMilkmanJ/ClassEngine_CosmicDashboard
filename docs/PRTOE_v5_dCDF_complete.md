@@ -499,10 +499,19 @@ with a ladder-independent H0; the SN sector is calibration-artifact
 "no-tension" property is a CONDITIONAL CONCORDANCE, not a
 resolution: the dyad does not dissolve the Hubble tension, it PICKS
 THE TRGB SIDE and is concordant iff that wager is right (under
-SH0ES-at-73 it would be ~4σ low — a different tension, not none).
-Sharp-or-loose grading of the 0.17σ pends one number: the dyad's
-marginalized σ(H0), being sampled now; ΛCDM's comparator is
-67.4 ± 0.5.**
+SH0ES at 73.04 ± 1.04 it is 2.3–3.2σ low — a different tension, not
+none; the earlier "~4σ" was the reviewer's inflation, self-corrected
+turn 31). GRADE (turn 31): **LOOSE-BUT-ANTECEDENT** — the 0.17σ is a
+point landing inside a wide anchor (CCHP's ±1.54 sets the whole
+test's resolution; any model in ~[67,73] sits within ~1.7σ), so the
+smallness of 0.17 earns nothing; what earns is PROVENANCE — 69.70
+was θ*-locked and CMB-fixed before any local comparison, with SH0ES
+in-stack pulling toward 73 and failing to move it. The meaningful
+comparison number is the dyad–ΛCDM separation under the TRGB anchor:
+(69.70−67.40)/1.54 = **1.5σ, a mild, real, TRGB-conditional
+preference** — a knockout for neither. The dyad's marginalized σ(H0)
+(sampling now) cannot change this grade: TRGB's width dominates any
+plausible fold-in.**
 
 > **Pre-registered predictions live in
 > `PRTOE_PREREGISTERED_PREDICTIONS.md`** — P-2026-001: the local ladder
