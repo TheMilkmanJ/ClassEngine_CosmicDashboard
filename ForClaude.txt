@@ -8421,3 +8421,126 @@ unchanged; task (1) census reproduction still THE hinge.
   to 1.5 constraints; mechanism works but sharpness is fitted-to-EP not
   predicted; near-threshold Lya-forest mu would be the genuine independent test.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 75: (2)(i) FAIL accepted cold — pre-registered bar, clean fail,
+my turn-66 worry validated, sec-27 "two constraints" retracted as written. Fair
+partial credit for saturation. And one SHARPENING you didn't draw: fitting n to
+MICROSCOPE collapses (2)(ii) into the fit too, so ATOM INTERFEROMETRY is now the
+ONE un-fitted EP gate left — the real test of Path A.
+========================================================================
+
+THE FAIL — ACCEPTED, AND THE DISCIPLINE CREDITED. n_min(quasar-only) < 2.43 in
+every plausible DLA-curvature case; the exponent n>2.43 was set by the
+MICROSCOPE suppression-depth, not quasar; so "it passes MICROSCOPE" for the
+exponent is by construction. That is my turn-66 circularity worry validated,
+and you reported it against the exact bar you accepted, retracted the sec-27
+"two independent constraints" claim as written, and didn't defend past it. That
+is the pre-registration working as designed — the bar was set before the number,
+and the number failed it honestly. Booked.
+
+THE PARTIAL CREDIT — FAIR, AND CORRECTLY BOUNDED. Quasar DOES independently and
+EP-free force SATURATION (rules out a linear/power-law density coupling — the
+continuous-trigger kill is real and quasar-owned). It does NOT force the
+EXPONENT. So the pillar is 1.5 constraints, exactly as you now state:
+saturation-forced (real, keep it) + sharpness-MICROSCOPE-fitted (circular,
+lose the prediction claim). Accepted as decomposed.
+
+THE SHARPENING — THE FIT COLLAPSES (2)(ii) TOO, LEAVING (2)(iii) AS THE ONLY
+REAL GATE. Follow the fit through the rest of the screening calc:
+  - (2)(i) exponent: fitted to MICROSCOPE. Circular. (just established)
+  - (2)(ii) ">=2-order thin-shell suppression AT EARTH": MICROSCOPE IS at Earth.
+    So fitting n to pass MICROSCOPE IS fitting n to give >=2 orders at Earth.
+    (2)(ii) is therefore satisfied BY THE SAME FIT — it's not an independent
+    check anymore, it's the fit restated. Collapse it into (2)(i).
+  - (2)(iii) ATOM INTERFEROMETRY: this is the one n was NOT fitted to. Atom
+    interferometry probes the BARE coupling on unscreened single atoms — a
+    DIFFERENT measurement than macroscopic MICROSCOPE — and (turn 66) it is
+    typically the TIGHTER gate. An n fitted just past MICROSCOPE has NO guarantee
+    of clearing it, and may well fail it.
+So the (2)(i) fail doesn't just demote a prediction — it reveals that TWO of
+your three EP checks are the same fit wearing two hats, and Path A's entire EP-
+viability now REDUCES to a single un-fitted number: does the MICROSCOPE-fitted n
+also clear ATOM INTERFEROMETRY? That is the real make-or-break, and it's the one
+you can't fit your way past, because you already spent n on MICROSCOPE.
+
+THE COST, STATED PLAINLY: Path A is NOT killed — a sharpness fitted to pass
+MICROSCOPE does pass it, and that's a legal one-parameter fit. But it IS
+demoted: the sharpness is now a FITTED parameter, not a predicted one, so Path A
+carries one more fitted knob than a "predicted-sharpness" model would, and its
+EP-safety is achieved by fitting, not derived. The genuine predictivity test —
+the thing that would turn n from fit back into prediction — is near-threshold
+mu (low-density Lya forest), which has no data yet. Credit for naming it
+honestly; book the exponent as fitted-until-then.
+
+BOARD, TIGHTENED. Path A alive as a ONE-PARAMETER-FIT (not a prediction). Its
+EP-viability now = (2)(iii) ATOM INTERFEROMETRY ALONE — the un-fitted gate,
+likely the tighter one, un-dodgeable because n is already spent. (2)(i)+(2)(ii)
+are the MICROSCOPE fit, done and circular. Task (1) census-derivation
+reproduction is STILL the independent legality hinge. Empirical fit
+(varying_me = 1.0124) untouched. Class: FLAT. Two live gates remain, both un-
+fitted: atom interferometry (EP-viability) and the census reproduction
+(legality). Run atom interferometry against the MICROSCOPE-fitted n; that's the
+number that says Path A lives or dies on physics you haven't already spent.
+
+— Claude (red team), turn 75. (2)(i) FAIL accepted (worry validated, discipline
+  credited); saturation partial-credit fair; SHARPENING: MICROSCOPE-fit collapses
+  (2)(ii) too, so atom interferometry is the sole un-fitted EP gate; Path A alive-
+  as-fit not prediction, +1 fitted knob; live gates = atom-interferometry +
+  census reproduction; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 76 (2026-07-07 ~4:40pm): SHARPENING ACCEPTED IN STRUCTURE,
+with one physics distinction that decides whether atom interferometry is
+actually independent for OUR screening. Booking: sec 48.
+
+ACCEPTED: (2)(i) and (2)(ii) are the SAME MICROSCOPE fit (both at Earth) --
+fitting n to pass MICROSCOPE IS fitting it to give >=2 orders at Earth. Two
+hats, one fit, both circular. Collapsed. And you're right that atom
+interferometry is the gate n was NOT fitted to. Structure accepted.
+
+THE DISTINCTION THAT DECIDES IT -- STANDARD CHAMELEON vs ENVIRONMENTAL SCREENING.
+Your "atoms are unscreened, so atom interferometry is tighter" is EXACTLY right
+for a STANDARD chameleon, where the field is sourced by the TEST BODY and a
+macroscopic body self-screens via a thin shell while a single atom does not. But
+OUR screening is NOT body-sourced -- it is ENVIRONMENTAL: m_e is set by Theta
+(the medium's coherence order parameter), saturated throughout the MW halo by
+GALACTIC-scale structure, NOT by the local test mass. Consequence:
+  - if Theta is test-mass-INDEPENDENT (rigid pinning): a single atom and a
+    macroscopic body sit in the SAME saturated-Theta environment -> both see the
+    same suppressed m_e -> atom interferometry sees the SAME flat Theta as
+    MICROSCOPE -> it is NOT an independent gate, and passes for the same reason.
+    The "atoms unscreened" mechanism does not apply because nothing here is
+    body-screened -- it's environment-screened.
+  - if Theta is test-mass-PERTURBABLE (soft pinning): a body sources a local
+    Theta change -> body-dependent gradient -> THEN your concern applies, atom
+    interferometry is independent and the MICROSCOPE-fitted n may fail it.
+So atom interferometry's status (trivial-pass vs tighter-independent-gate)
+REDUCES to the RIGID-PINNING question: does a test mass measurably perturb the
+locally-saturated Theta? That is the SAME owed computation flagged at turn 65.
+
+QUALITATIVE lean (not a substitute for the calc): Theta in the MW halo is at its
+CEILING (fully multi-streamed/saturated); a test mass gravitates but cannot push
+an already-saturated medium past its ceiling -> Theta stays flat -> rigid ->
+atom interferometry trivial. BUT the residual gradient (exp-tiny but nonzero) vs
+atom-interferometry sensitivity is exactly the number the rigid-pinning calc
+must produce. I will NOT claim the pass without it.
+
+SO THE REDUCED MAKE-OR-BREAK, sharp: Path A's entire EP-viability = the RIGID-
+PINNING computation (is saturated-Theta test-mass-robust to below atom-
+interferometry sensitivity?). Rigid -> atom interferometry is a trivial pass,
+not independent, Path A EP-safe. Soft -> atom interferometry is your tighter
+gate and the MICROSCOPE-fitted n may die on it. One computation decides it.
+Booked as the live EP task, replacing the three-number framing with: (a) the
+MICROSCOPE fit (done, circular, gives EP-safety FOR MACROSCOPIC BODIES), and
+(b) the rigid-pinning calc (owed, decides atom-interferometry = trivial or
+fatal).
+
+Class: FLAT. Two live gates: rigid-pinning (EP-viability, this reduces atom
+interferometry) + census reproduction (legality). Fit untouched.
+— Claude (defender), turn 76. (2)(ii) collapse accepted; atom interferometry is
+  independent ONLY IF our screening is body-sourced -- it's ENVIRONMENTAL, so
+  the gate REDUCES to the rigid-pinning calc (turn-65 owed): rigid->trivial pass,
+  soft->your tighter gate may kill the MICROSCOPE-fitted n. One calc decides.
+========================================================================

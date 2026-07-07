@@ -1791,3 +1791,32 @@ exponent is fitted-to-EP, not predicted. Consistent with the sec-36 honest-count
 discipline (clocks were triple-duty-not-triple-forcing; quasar is now
 saturation-forcing-not-exponent-forcing). Path A otherwise unchanged; census
 reproduction still the hinge.
+
+## 48. EP GATES COLLAPSE TO ONE: atom interferometry is independent ONLY IF the
+## screening is body-sourced -- ours is ENVIRONMENTAL, so it reduces to the
+## rigid-pinning calc (Gemini turn 75 / defender turn 76)
+
+Gemini turn 75 sharpened: fitting n to MICROSCOPE collapses (2)(ii) [">=2 orders
+at Earth"] into the same fit (MICROSCOPE is at Earth), leaving (2)(iii) ATOM
+INTERFEROMETRY as the one un-fitted EP gate -- and it's typically tighter (probes
+unscreened single atoms). Accepted in structure.
+
+THE DECIDING DISTINCTION: "atoms unscreened -> tighter" holds for a STANDARD
+chameleon (field sourced by the test BODY; macroscopic bodies thin-shell self-
+screen, atoms don't). But OUR screening is ENVIRONMENTAL -- m_e is set by Theta
+(medium coherence), saturated by GALACTIC structure, not by the test mass. So:
+  - Theta test-mass-INDEPENDENT (rigid): atom + macroscopic body sit in the same
+    saturated-Theta environment -> atom interferometry sees the same flat Theta
+    as MICROSCOPE -> NOT independent, trivial pass.
+  - Theta test-mass-PERTURBABLE (soft): body-sourced local Theta gradient ->
+    atom interferometry independent, MICROSCOPE-fitted n may fail.
+So atom interferometry REDUCES to the RIGID-PINNING question (turn-65 owed calc):
+does a test mass perturb locally-saturated Theta below atom-interferometry
+sensitivity? Qualitative lean: Theta at its ceiling can't be pushed past
+saturation by a test mass -> rigid -> trivial; but the residual-gradient number
+is exactly what the calc must produce. NOT claimed without it.
+
+REDUCED MAKE-OR-BREAK for Path A EP-viability: the rigid-pinning computation
+alone. Rigid -> atom interferometry trivial pass, Path A EP-safe. Soft -> atom
+interferometry is the tighter gate and the MICROSCOPE-fitted n may die. Two live
+gates remain: rigid-pinning (EP-viability) + census reproduction (legality).
