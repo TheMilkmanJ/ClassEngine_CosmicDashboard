@@ -1394,3 +1394,44 @@ shown not asserted.
 So "what's 3": a genuine third independent leg (clocks, forcing the screening-
 consequence) EXISTS; a third independent forcing of the sharp-form CAUSE is
 future (Lya/21-cm). Recorded split so neither is over- nor under-stated.
+
+## 38. Fluid framing: buoyancy fails (twice), but "added mass" gives the
+## physical picture for "heavier in the void" (operator, 2026-07-07 night)
+
+Operator proposed the transition might be GRADUAL, via buoyancy, since the
+medium is a superfluid and objects in it should show fluid reactions.
+
+GRADUAL: ruled out (data). A smooth dependence on density/structure gives
+quasar absorber spread + atomic-clock drift, neither seen (sec 27, 37). The
+transition is a CLIFF in the structure-variable. Spatially this is still a
+thin SHELL at the threshold radius (not a long gradual slope) -- so "as it
+approaches structure" is right, but the flip is localized to the shell.
+
+BUOYANCY: fails twice. (1) It is a CONTINUOUS force (prop. to density
+difference) -> gives the gradual dependence the data forbids. (2) DEEPER: it
+depends on DENSITY, which cannot distinguish "smooth-dense" (early universe,
+needs BARE value) from "clumped" (halo, needs suppressed) -- density is high
+in BOTH. Same directional failure as Ricci (sec 25). The distinguishing
+variable is FLOW/tangling (streams crossed?), not density.
+
+FLUID INSTINCT CORRECT, WRONG EFFECT: superfluids have a SHARP reaction --
+vortex nucleation past the Landau critical velocity (snap, threshold, not
+gradual) -- which is (a) sharp as required and (b) flow-based, distinguishing
+smooth from structured correctly. This IS the Theta (vortex/stream-crossing)
+trigger already in the model. The fluid picture wants vortex nucleation, not
+buoyancy -- and thereby CONFIRMS the existing mechanism.
+
+**NEW PHYSICAL PICTURE (useful): "added mass" for "why heavier in the void."**
+An object in a fluid drags fluid with it and acts HEAVIER than alone (added/
+hydrodynamic mass; the impurity-polaron dressing in superfluids). In a smooth
+COHERENT superfluid the dressing is clean and full; in a CHURNED/incoherent
+one it is disrupted and reduced. So an electron is naturally HEAVIER where the
+medium is most coherent (the void) and LIGHTER where it is tangled (structure)
+-- the correct SIGN and direction of the m_e shift, from a real superfluid
+effect. This is the first physical intuition for WHY the void carries the bare
+(heavier) value.
+  HONEST CATCH (the recurring one): "dragging fluid" requires the electron to
+  COUPLE to the medium -> the census question again. The operator's fluid
+  intuition keeps landing exactly on the coupling -- a signal that the coupling
+  is the model's true crux, and every good instinct routes back to it. Added-
+  mass is a PICTURE for the sign/direction, not an escape from the census.
