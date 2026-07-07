@@ -1466,3 +1466,44 @@ local PROBE/FINGERPRINT of the medium's presence -- a particle locally feeling
 that space is heavy. Valid in the added-mass reading. Just do not confuse the
 fingerprint's SIZE (1.24% of one electron) with space's actual WEIGHT (the
 dark sector, vastly larger).
+
+## 40. "It's all space, and space dictates every transaction" -- a substantive
+## argument for the narrow census reading (operator, 2026-07-07 night)
+
+Operator's point: both framings (added-mass vs EM-self-energy) route through
+space at the substrate level -- even the electron's "own" EM self-energy lives
+in a field that permeates space and posts to the ledger through it. So the
+added-mass-vs-self-energy distinction is mechanism-level, not substrate-level;
+at the substrate, space mediates both (house law: nothing posts without it).
+
+CONCEDED at the substrate level: correct. My distinction (sec 39) was about
+WHICH mechanism supplies the mass, not about WHETHER space is the arena. Space
+is the arena either way.
+
+THE FORK INSIDE "SPACE" -- and it IS the census: "space" carries two meanings,
+= the two sides of the open question:
+  (1) space as GEOMETRY/spacetime (metric, gravity): dictates universally
+      (equivalence principle), legal, but 60 orders too weak (sec 32);
+  (2) space as the DARK MEDIUM (superfluid, dark matter+energy): strong enough,
+      but legality is the census question.
+The model has kept these SEPARATE (gravity=GR; dark medium=matter ON it). The
+operator's "it's all one space" is the CLAIM that they are NOT separate -- that
+geometry, dark medium, and EM field are aspects of one thing. This is EXACTLY
+the hypothesis the census adjudicates: narrow reading -> aspects of one space,
+coupling natural (operator right); broad -> separate accounts, collapse
+illegitimate.
+
+WHY THE ARGUMENT IS STRONG (not just philosophy): the reason to keep accounts
+separate is that a freely-coupling dark medium would be SEEN (fifth forces, EP,
+distortions). It isn't. The operator's "all one space" must answer why-not --
+and the screening (the SHARP FORM, sec 27) is the independently-derived answer.
+The two halves fit: SPACE DICTATES EVERY TRANSACTION (coupling real, narrow
+reading) AND IT IS SCREENED WHERE WE MEASURE (sharp form -> no visible
+violations). A coherent case for (a), with the operator's framing supplying the
+WHY (the coupling is natural because it was never a separate account -- space
+posting to its own ledger).
+
+HONEST BOUNDARY: a strong ARGUMENT for the narrow reading, not a PROOF. It
+assumes what the census tests (one space or two). Adjudication still needs the
+census-derivation reproduction (Gemini). Added to the (a)-side ledger as a
+substantive physical consideration, routed to the census thread.

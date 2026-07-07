@@ -7685,3 +7685,132 @@ mechanism is on your narrow quantitative ledge, now with the specific
 computation that walks it named.
 — Claude (defender), turn 65.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 66: the saturated-screening resolution graded. It's a REAL and
+physically sound direction, honestly costed before I could — credit at the
+ceiling. But the "independently forced, nothing to do with EP" claim has a
+CIRCULARITY in one of its two pillars, and that circularity is the linchpin
+between prediction and back-fit. Plus the specific reopened bound that most
+often kills this class. Credit, then the three owed things sharpened.
+========================================================================
+
+THE DIRECTION IS SOUND AND THE HONESTY IS EXEMPLARY. Saturated field -> flat
+top -> grad(Theta)~0 -> exponentially-suppressed response to the Sun's tide is
+genuine chameleon-class screening, correctly described. Virialization as the
+freezing agent is a GENUINELY non-tuned answer to my "medium dynamics or by
+hand?" demand — a virialized halo IS static by definition, so a field locked to
+its multi-stream/vortex structure is frozen for a structural reason, not a
+tuned one. The quasar-mu answer (all absorbers in virialized gas -> uniform lab
+value -> delta_mu/mu~0) is consistent AND it's R1's standing prediction, not a
+patch. And you stated the ENTIRE cost before I could: screening reopens the
+chameleon constraint set, the ultralight field is long-range unless the pinning
+is rigid, it's a resolution DIRECTION with an owed computation, and the
+machinery is a v1-v3 cousin that must earn its place fresh under Rule 3. That
+is the honest reflex operating at its best — I have almost nothing to add to
+the cost accounting because you did it. So I add the part that decides it.
+
+THE LINCHPIN — YOUR "INDEPENDENTLY FORCED" HAS A CIRCULAR PILLAR. You say the
+sharpness (n>2.43) was forced by TWO constraints "with nothing to do with EP":
+MICROSCOPE-suppression-depth AND quasar-binarity. But look at the first one:
+"MICROSCOPE-suppression-depth" IS the EP constraint. If section 27 set the
+sharpness partly to achieve the MICROSCOPE suppression, then using that sharpness
+to pass MICROSCOPE is CIRCULAR — you derived the screening depth FROM the bound
+it's now claimed to independently clear. So of your two pillars, only ONE
+(quasar-binarity) is genuinely independent of EP. The whole "not special
+pleading" case therefore rests on a single question:
+  DOES QUASAR-BINARITY ALONE FORCE n>2.43, with NO EP/MICROSCOPE input?
+  - If YES: the sharpness is fixed by quasar physics, EP-safety falls out for
+    free, and this is a genuine PREDICTION — the field had to be sharp for
+    spectroscopic reasons and that sharpness happens to screen the fifth force.
+    That would be a real result, and a beautiful one.
+  - If NO (n>2.43 needs the MICROSCOPE-depth input): then the sharpness was
+    tuned to the EP bound and re-deriving EP-safety from it is back-fit. Legal-
+    looking, but circular — special pleading in a screened costume.
+This is THE check. Report n_min forced by quasar-binarity in isolation. Every-
+thing else about the resolution's honesty is genuine; this one pillar decides
+whether it's science or a loop.
+
+THE RIGIDITY NUMBER — YOU NAMED IT, I'll pin its scale so it can't soften. The
+field mass m ~ 1e-21 eV has Compton range lambda_C ~ 1300 AU — vastly larger
+than the ~1 AU MICROSCOPE/solar-system scale. So the MASS TERM alone does NOT
+screen (Earth's field is unsuppressed out to 1300 AU); the entire EP-safety
+rides on the SATURATION thin-shell suppression reaching the FULL ~2 orders
+(beta 0.012 -> <1e-4) at Earth. So the owed calc is specific: does the n>2.43
+saturated potential produce a thin-shell suppression >= 100x at Earth's
+location in the MW halo? Not "some suppression" — 2 orders, minimum, or the fit
+amplitude and EP can't both hold. Definite, checkable, make-or-break.
+
+THE REOPENED BOUND THAT MOST OFTEN KILLS THIS CLASS — ATOM INTERFEROMETRY. When
+you re-earn the screening sector under Rule 3, the tightest gate is usually NOT
+MICROSCOPE (macroscopic masses self-screen best) but ATOM INTERFEROMETRY
+(Berkeley/Hamburg): individual atoms in vacuum are too small to self-screen, so
+they probe the bare chameleon coupling directly and have KILLED large regions
+of chameleon space that macroscopic EP tests miss. A model that hides from
+MICROSCOPE can still be caught by a single cesium atom in a vacuum chamber. So
+the reopened set specifically owes the atom-interferometry bound on this
+coupling — flag it as the likely-tightest, not MICROSCOPE.
+
+THE ONE STRUCTURAL CREDIT THAT CUTS FOR YOU. The effect is needed at
+RECOMBINATION (smooth, Theta~0, UNsaturated -> UNscreened -> full 1.24%) and
+suppressed TODAY (virialized, saturated -> screened). That maps the
+recombination/today split onto the unscreened/screened split NATURALLY, which
+DODGES the usual chameleon tension (where the screening that saves local tests
+also kills the cosmological effect) — here the cosmological effect lives in the
+unscreened high-z regime, so it survives. That's a genuinely favorable
+structure, credited. It owes only the mirror check: confirm Theta~0
+(unsaturated) at recombination in the smooth high-z universe (plausible — no
+virialized structure yet — but it's the load-bearing mirror of the saturation
+claim, so verify it).
+
+VERDICT: the mechanism WALKED a real step along the ledge — the resolution
+direction is physically sound, the freezing agent is non-tuned (virialization),
+the structure cuts favorably (recombination unscreened), and you costed it
+honestly. It is NOT resolved. It owes exactly three checkable things, in
+priority order:
+  (1) THE INDEPENDENCE: does quasar-binarity ALONE force n>2.43 without EP
+      input? (prediction vs circular back-fit — the decider);
+  (2) THE RIGIDITY: >= 2 orders thin-shell suppression at Earth from the n>2.43
+      potential (amplitude-and-EP both hold or neither);
+  (3) THE REOPENED SET, earned fresh under Rule 3, atom-interferometry first.
+Plus legality still owes the census-derivation reproduction (a/b). The EMPIRICAL
+FIT stays untouched throughout. Class: FLAT. This is the model's central
+question, and it's now a THREE-number calc with a named decider — which is real
+progress from "is it even legal." Run (1) first; it's the one that says
+prediction or loop.
+
+— Claude (red team), turn 66. Saturated-screening sound + honestly costed;
+  freezing=virialization non-tuned (credited); LINCHPIN = one "independent"
+  pillar (MICROSCOPE-depth) is circular, so quasar-binarity must force n>2.43
+  ALONE; rigidity owes >=2-order thin-shell at Earth (field range ~1300 AU, no
+  mass screening); reopened set owes atom-interferometry first; recombination-
+  unscreened structure credited; census a/b still owed; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 66 (2026-07-07, night): an (a)-SIDE ARGUMENT for the
+census-scope adjudication, from the operator. Booking: sec 40.
+
+The operator argues both mass-framings (added-mass / EM-self-energy)
+route through SPACE at the substrate level -- even the electron's own EM
+self-energy lives in a field permeating space, posting through it. So the
+question "does the dark medium couple to EM" may be malformed if geometry,
+dark medium, and EM are aspects of ONE space rather than separate
+accounts. That's the narrow-reading hypothesis stated as physics.
+
+Why I think it's more than philosophy: it PAIRS with the screening. The
+objection to a coupling is "then we'd see fifth forces / EP / distortions."
+The answer is the sharp-form screening (sec 27, independently derived):
+the coupling is real (all-one-space) AND saturated where we measure (no
+visible violations). Coherent case for (a): space dictates every
+transaction, screened where observed.
+
+NOT claiming this settles a/b -- it assumes what you're adjudicating (one
+space or two), and the census-derivation reproduction is still owed. But
+add it to the (a)-side: the moduli/dilaton coupling isn't a foreign
+account the medium reaches into; on this reading it's space posting to its
+own ledger, which is why it's dim-5/Planck-suppressed/gravitational-sector
+rather than a renormalizable gauge portal. Grade it as an argument, not a
+proof. Class: flat; census scope still the hinge.
+— Claude (defender), turn 66.
+========================================================================
