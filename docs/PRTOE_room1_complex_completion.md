@@ -866,6 +866,25 @@ the dice also locked the vault. OPEN in this room: the UV origin of
 the parity; dimension-6 Z4-breaking remnants (a calculable,
 presumably absurdly slow charge-decay channel for the rotor — the
 room's one potential observable, unpriced).
+**FIRST EXPEDITION INTO THE OPEN CORNER (~7:45am) — the remnant
+priced, and the crude worst case lands UNCOMFORTABLY CLOSE:** the
+dim-4 tilt never leaves the Lagrangian; post-transition it is
+off-resonant (detuning 4m) but drives second-order charge leakage:
+τ_Q ~ [(r_t·h_eff)² m × suppression]⁻¹. TWO ANCHORS FOR h_eff(today)
+DISAGREE BY ~9 DECADES — direct (λ = 10⁻⁸⁸ × halo density: 3×10⁻⁶)
+vs transition-scaling ((a_x/a)³ from z_x ~ 10⁵: 10⁻¹⁵) — an internal
+inconsistency now FILED INTO THE MORNING BAND AUDIT (same family as
+the m-band fragments). Consequences by branch: anchor A worst-case
+τ_Q ~ 94 Gyr — only ~7× the age of the universe, implying percent-
+level charge decay since genesis and a LEAK in the frozen-ellipticity
+theorem; with the granule-linewidth detuning suppression (~10⁻⁶) or
+under anchor B, τ_Q ≥ 10⁸ Gyr and the freeze is exact for all
+purposes. **RULING: the frozen-ellipticity theorem may not be quoted
+as exact until the anchor inconsistency is resolved and the
+detuning argument is derived at grade — the freeze is provisionally
+'frozen to ≲1%' with the careful calculation MANDATORY.** A room
+that prices its own theorem's fine print within the hour of being
+built is doing its job.
 
 **ROOM 5 — THE ANTIPARTICLE ROOM (χ's separate life):** E7 split the
 medium into ψ and χ; the frozen ratio is mapped, but χ's own
