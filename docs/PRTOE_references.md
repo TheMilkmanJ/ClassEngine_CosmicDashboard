@@ -58,6 +58,20 @@ V = verified, exactly as used in our documents):
   linear Lorentz-violation scale > 1.2 E_Planck (C3a's receipt;
   stochastic-fuzziness limit also published in Nat. Phys. 2015).
 
+- [V] **Davoudiasl & Denton**, PRL 123, 021102 (2019),
+  arXiv:1904.09242 — M87* spin excludes ultralight scalars in
+  [2.9, 4.6]×10⁻²¹ eV via superradiance (the superradiance null's
+  exclusion band; verified 2026-07-07 ~3am at booking).
+- [V] **Baryakhtar, Galanis, Lasenby, Simon**, PRD 103, 095019 (2021),
+  arXiv:2011.11646 — quartic self-interactions saturate superradiant
+  growth at quasi-equilibrium (level mixing + emission to infinity);
+  the λ-scar shield of the superradiance null. Verified at booking.
+- [V] **Eckel, Kumar, Jacobson, Spielman, Campbell**, PRX 8, 021021
+  (2018), arXiv:1710.05800 — supersonically expanding ring BEC:
+  measured Hubble-friction redshift of excitations; the tabletop
+  frozen-ellipticity proposal's existing instrument. Verified at
+  booking.
+
 ## Remaining tail (named from training, verification pending —
 ## none currently feeds a registered number)
 Hafele–Keating (1971); Grishchuk & Sidorov (squeezed cosmological

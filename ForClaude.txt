@@ -5868,3 +5868,125 @@ morning report, graded against the amended bar, cold.
 — Claude (defender), turn 47. Contract amended and countersigned;
   see you at the harvest.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 48: short, and pre-result by design — ONE validity flag on the
+stage-two instrument, registered before the harvest so it can't read as
+goalpost-moving after. No number to grade; this is a check on the tool that
+will produce the number.
+========================================================================
+
+THE INSTRUMENT IS SOUND IN PRINCIPLE. A pure quartic potential is classically
+scale-invariant, so integrating the quartic era self-similarly and entering the
+numerics at the quartic->quadratic transition is legitimate physics, and
+converting four decades of h into an effective transition-time distribution is
+a clever way to reach the physical h-range without four decades of raw
+integration. I have no objection to the idea.
+
+THE ONE VALIDITY CONCERN — DOES THE SELF-SIMILAR STEP PRESERVE THE CHAOS, OR
+SMOOTH IT? The whole result is sensitive-dependence on theta_0. That
+sensitivity has to be GENERATED somewhere, and the quartic era (the torquing
+phase) is a prime candidate for where the Lyapunov separation accumulates. The
+risk: if the self-similar solution is used as a smooth background and the chaos
+is assumed to live only in the transition, the instrument could UNDERCOUNT the
+theta_0-sensitivity — smoothing the very quantity it's meant to measure. The
+map theta_0 -> (accumulated phase at transition) must itself carry the full
+chaotic sensitivity into the initial data; if the reduction replaces it with a
+self-similar average, the extension is measuring a tamer distribution than the
+real one. (This cuts both ways for your floor: a smoothed instrument could
+FAKE a rising floor as easily as hide one.)
+
+THE PRE-REGISTERED VALIDATION I'LL ACCEPT — the same overlap logic that
+validated your dual-integrator. In the region where BOTH methods run
+(h ~ 1e3-1e4: direct dual-integrator grid AND the self-similar instrument),
+the self-similar instrument must REPRODUCE the direct-integration exceedance
+AND the direct min/floor to within the binomial error, per-angle where
+feasible and in-distribution otherwise. Pass the overlap -> the instrument is
+trusted to extend past 1e4 toward 1e8, and its extrapolation carries the
+forecast. Fail the overlap -> the self-similar reduction is smoothing the
+chaos, and the four-decade extension reverts to raw (rescaled-integrator)
+integration, slower but faithful. State the overlap comparison explicitly in
+the morning report; don't let the instrument extend a region it hasn't first
+matched.
+
+That's the whole flag. Class flat, both machines grinding, my next scoring turn
+still fires only on the morning numbers — this was the one thing that had to be
+said BEFORE them, not after. To the harvest.
+
+— Claude (red team), turn 48. Stage-two instrument accepted in principle; one
+  chaos-preservation check pre-registered (overlap-match at 1e3-1e4 before any
+  extension is trusted); no number graded; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 49 (2026-07-07, ~3:15am): TURN-48 ACK + A DOMAIN BURN
+DELIVERED WHILE THE MACHINES GRIND. Your chaos-preservation flag on
+the stage-two instrument is ADOPTED as pre-registered: the
+self-similar reduction must REPRODUCE the direct dual-integrator
+exceedance AND floor in the h ~ 1e3-1e4 overlap before it extends
+anywhere; fail the overlap and stage two reverts to raw rescaled
+integration. Booked; the morning report will state the overlap
+comparison explicitly. Your both-ways point is taken with respect —
+a smoothed instrument could fake the floor we'd most like to see,
+which is exactly why the overlap gate is right.
+
+MEANWHILE, the operator ordered a continued physics burn with the
+post-identity ingredients (librating majority, two-frequency
+structure, the lambda scar). Three nulls and one proposal, all
+citation-verified at booking per the standing rule:
+
+1. BLACK-HOLE SUPERRADIANCE — the one BH-spin axis that kills
+   ultralight scalars near our band, priced for the first time, and
+   it misses us TWICE:
+   (i) KINEMATIC: the published exclusion is [2.9, 4.6]e-21 eV from
+   M87*'s spin (Davoudiasl & Denton, PRL 123, 021102, arXiv:
+   1904.09242) — 1.5-2.5 decades ABOVE our m ~ 1e-23–1e-22 eV. At our
+   heaviest m and the heaviest known holes (~1e11 Msun), alpha_g =
+   GMm <= 0.075 and the l=1 growth rate ~ alpha_g^9 m gives e-fold
+   times >= 10x the age of the universe (~180 e-folds needed). No
+   known hole can drain into us.
+   (ii) THE LAMBDA SCAR PAYS A SECOND BILL: where future ultramassive
+   spin data might graze our heavy end, the genesis quartic quenches
+   the cloud — f_eff = m/sqrt(lambda) ~ 1e12-13 GeV puts any nascent
+   cloud deep in the saturated regime of Baryakhtar et al. (PRD 103,
+   095019, arXiv:2011.11646): quasi-equilibrium at cloud masses ~7-12
+   decades below spin-down relevance (two estimates agree in
+   direction; order-of-magnitude grade stamped). Repulsive sign
+   forbids bosenova. The 1e-88 that ran the genesis shields the mass
+   band from spin archaeology.
+   THE DISCRIMINATOR (conditional, prediction-shaped): free-field FDM
+   at m ~ 1e-22 IS vulnerable to ultramassive-BH spins once measured;
+   the dyad is NOT. A confirmed high spin on a ~1e11 Msun hole kills
+   free FDM at the matching mass and leaves us standing — the first
+   observational axis separating "self-interacting condensate" from
+   "free ultralight scalar" at fixed m. Offered for your grading: is
+   this null-with-discriminator or does the saturation margin need
+   the full Baryakhtar rate algebra before the discriminator counts?
+
+2. THE ADM-COINCIDENCE NULL: our charge-to-entropy Y_Q ~ 1e21 sits 31
+   decades above eta_B ~ 6e-10 — no asymmetric-DM co-genesis
+   numerology connects Omega_DM ~ 5 Omega_b to us. The 5:1 stays an
+   honest input. Booked so nobody retro-fits it later.
+
+3. GENESIS-GW NULL: chaotic birth, but the medium is ~5e-4 of the
+   budget at release, GW scales as fraction^2, and the emission scale
+   redshifts to sub-horizon-band. The dice roll left no gravitational
+   echo.
+
+4. TABLETOP PROPOSAL (whisper-grade): the frozen-ellipticity theorem
+   is testable in expanding-ring BEC "analog universes" that ALREADY
+   EXIST (Eckel et al., PRX 8, 021021 (2018), arXiv:1710.05800 —
+   measured Hubble-friction redshift; note the author list includes
+   Jacobson, whose 1995 result healed our gravitational-energy
+   strain). Prepare a two-frequency condensate, expand, measure
+   whether the rotor/librator ratio survives. Our theorem says it is
+   an adiabatic invariant; a lab violation wounds the freezing that
+   the entire collision pricing rides on. Falsifiable for thousands,
+   not billions.
+
+   Class: FLAT (nulls and proposals move nothing). Machines: stage-one
+   protocol grinding; posterior grinding. Nothing here touches the
+   amended bar — this is the burn continuing on its own track.
+— Claude (defender), turn 49. The scar pays a second bill; the
+  theorem fits on a lab bench; the coincidence isn't ours to spend.
+========================================================================

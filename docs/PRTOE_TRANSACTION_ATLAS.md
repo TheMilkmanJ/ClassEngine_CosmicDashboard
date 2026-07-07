@@ -321,6 +321,22 @@ is its only account). Pay it curvature and the product is determined:*
 | anything from the other three banks | no transaction — the medium holds no EM/weak/strong accounts | structural (all α/fifth-force nulls) |
 
 ## Whispers (patterns the model produces unprompted; below bet-grade, logged so they can be watched)
+- **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 ~3am burn;
+  proposal-grade):** the frozen-ellipticity theorem (f_amp = ε² frozen
+  because rotation and libration redshift identically) is testable in
+  a LAB: expanding-ring BEC "analog universe" experiments already
+  exist (Eckel, Kumar, Jacobson, Spielman, Campbell, arXiv:1710.05800,
+  PRX 8, 021021 (2018) — supersonic ring expansion with measured
+  Hubble-friction redshift of excitations; Jacobson AGAIN — the same
+  author whose 1995 result healed the gravitational-energy strain).
+  The dyad's claim maps directly: prepare a two-frequency condensate
+  (partial rotor: net circulation + amplitude oscillation), expand the
+  trap, measure whether the rotor/librator ratio survives expansion.
+  Our theorem says the ratio is an adiabatic invariant of the
+  expansion; a lab violation would wound the ε-freezing that the
+  entire PTA collision pricing rides on. FALSIFIABLE FOR THOUSANDS OF
+  DOLLARS, not billions — logged for the day someone with a ring trap
+  asks for a project.
 - **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
   on sub-eV scales without being asked — M₂ = 9.4 eV (dictionary),
   the ~20 nm cutoff, the κ_v opening pass demanding an eV-scale
@@ -580,6 +596,53 @@ is its only account). Pay it curvature and the product is determined:*
   neutral acoustic gas (ω = k/√3) of the medium's own quanta — "its
   own radiation," not its own plasma. A gapped phase would also sit
   against P-2026-005's structural gaplessness. Phase: yes. Plasma: no.
+
+- **Black-hole superradiance (2026-07-07 ~3am, post-identity burn):
+  the one BH-spin axis that kills ultralight scalars in our band, and
+  it misses us TWICE — with a discriminator attached.** Spinning black
+  holes shed angular momentum into any light boson whose Compton
+  wavelength matches the horizon (superradiance); measured high spins
+  therefore EXCLUDE boson masses that would have drained them. M87*'s
+  spin excludes scalars in [2.9, 4.6]×10⁻²¹ eV (Davoudiasl & Denton,
+  arXiv:1904.09242). Two independent shields for the dyad:
+  (i) KINEMATIC — our band (m ~ 10⁻²³–10⁻²² eV) sits 1.5–2.5 decades
+  BELOW the exclusion: the coupling α_g = GMm is ≤ 0.075 even for the
+  heaviest known BHs (~10¹¹ M_sun) at our heaviest m; the l=1 growth
+  rate ~ α_g⁹m gives e-fold times ≥ 10× the age of the universe (need
+  ~180 e-folds). No known hole spins fast enough at a mass large
+  enough. (ii) THE λ SCAR PAYS A SECOND BILL — even where future
+  ultramassive-BH spin data grazes our heavy end, the genesis quartic
+  quenches the cloud: with f_eff ≡ m/√λ ~ 10¹²⁻¹³ GeV (λ ~ 10⁻⁸⁸),
+  any nascent cloud enters the strongly self-interacting regime
+  (Baryakhtar et al., arXiv:2011.11646: quartic level-mixing saturates
+  growth at quasi-equilibrium) at cloud masses MANY decades (~7–12,
+  two estimates agree in direction) below spin-down relevance; the
+  repulsive sign (λ > 0) additionally forbids bosenova collapse. The
+  same 10⁻⁸⁸ that towered over the mass term at genesis (h ~ 10⁸) and
+  scarred the potential shields the model's mass band from BH-spin
+  archaeology. **THE DISCRIMINATOR (prediction-shaped, conditional):**
+  free-field FDM at m ~ 10⁻²² eV IS spin-down-vulnerable to
+  ultramassive BHs once their spins are measured; the dyad is not.
+  A confirmed HIGH spin on a ~10¹¹ M_sun hole would kill free FDM at
+  the matching mass while leaving the dyad standing — the first
+  observational axis that separates "self-interacting condensate"
+  from "free ultralight scalar" at fixed m. Citation-verified at
+  booking; order-of-magnitude grade on the saturation margin.
+
+- **The asymmetric-dark-matter coincidence is NOT ours (same burn):**
+  ADM models explain Ω_DM ~ 5Ω_b by tying the dark asymmetry to the
+  baryon asymmetry (similar number densities, GeV-ish dark mass). Our
+  charge-to-entropy ratio is Y_Q ~ f_rot·ρ_DM/(m·s) ~ 10²¹ — THIRTY-ONE
+  decades above η_B ~ 6×10⁻¹⁰. No co-genesis numerology connects the
+  deposits; the 5:1 ratio stays an honest input (the abundance pin),
+  not a clue we can cash. Null booked so nobody retro-fits it later.
+
+- **Gravitational waves from the chaotic genesis (same burn):** the
+  birth orbit is chaotic, but the medium is a ~5×10⁻⁴ fraction of the
+  total density at release (abundance pin), GW production scales as
+  the fraction SQUARED, and the emission scale (~m at z ~ 10⁸)
+  redshifts to sub-horizon-band frequencies today. Nothing observable;
+  the dice roll left no gravitational echo. One-line null.
 
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
