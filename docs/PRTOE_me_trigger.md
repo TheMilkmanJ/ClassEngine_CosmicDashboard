@@ -108,3 +108,41 @@ carrying medium, and only TOPOLOGY separates those regimes without a
 tuned threshold. The β pricing is therefore the strongest structural
 argument yet FOR the Θ = granule trigger. β's grave stays cold; the
 requirements table is the question's permanent yield.
+
+## 8. The disappearance inventory (operator's confound audit, same afternoon)
+
+"If something threw the switch OFF, what disappeared then?" — the full
+timeline of vanishings, priced:
+- e+e- pairs (z~1e9): six decades too early.
+- Radiation domination (z~3400): SELF-KILLING — precedes recombination,
+  which the amendment must still shift.
+- THE PLASMA / free electrons (z~1100): self-destructs three ways —
+  (i) the amendment would decay DURING recombination as x_e falls;
+  (ii) REIONIZATION (z~6-8) brings the plasma back → every modern
+  absorber flips bare → same-absorber nulls fire; (iii) stellar
+  interiors are denser plasma than recombination → stars would run on
+  bare m_e. Note for the record: this is the THIRD door the x_e
+  variable has been walked through (v6 c_EM energy coupling: +261;
+  payment route: census; trigger: reionization/stars). The variable is
+  closed in all its forms.
+- **THERMAL CONTACT between matter and radiation (z ≈ 150): SURVIVES —
+  CANDIDATE #2, "the Compton gate."** Residual electrons keep gas
+  temperature locked to the CMB until the Compton heating rate falls
+  below H at z ≈ 150 — the one global disappearance in the window,
+  with a DERIVED scale (rate crossing, not a fit), ON through
+  recombination, OFF globally after, no modern re-lock anywhere → all
+  differential nulls pass trivially. Structural debit: the trigger
+  variable is a FOREIGN thermometer (baryon-photon state) — the medium
+  must sense a sector it holds no account with; rules-sensing is not
+  energy exchange, but medium-native beats foreign-keyed.
+
+**The trigger fork is now three-tined, one instrument judges all:**
+the dark-ages/cosmic-dawn 21-cm sky (z ~ 15-90):
+  by-hand epoch gate (current configs) -> standard sky below z=50;
+  R1/fold (candidate #1)               -> SHIFTED sky (bare m_e in
+                                          unvirialized IGM);
+  Compton gate (candidate #2)          -> standard sky below z=150.
+Neither candidate registers until it has a mechanism (Pinning Rule).
+Candidate #1 remains structurally favored (medium-native variable);
+candidate #2 holds the natural-scale advantage. Both pass the §7
+requirements table; the plasma and radiation-era candidates do not.
