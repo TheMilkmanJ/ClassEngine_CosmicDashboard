@@ -346,6 +346,22 @@ is its only account). Pay it curvature and the product is determined:*
   never appears (variables: x = u/X₀ and the basin structure only) —
   a reformulation project, queued behind the numbers.
 
+- **White holes (operator's bet, 2026-07-07 late: "the ledger will say
+  it's cute on paper but physically inadmissible") — BET WINS, four
+  kills:** (1) no deposit history — formation forbidden; an account
+  opening with a full balance and a pre-written payout schedule;
+  (2) an un-posting machine — horizon area (entropy) run backwards:
+  the demon's big brother, executed by the second law/Landauer/C4a;
+  (3) blue-sheet foreclosure — gravity's deposits are COMPULSORY, and
+  a bank that only pays out is collapsed into a black hole by its
+  first infalling photon within ~one light-crossing (~10 μs stellar);
+  (4) model-specific: the medium's global rotation (θ̇ = +μ) breaks
+  the time-reversal symmetry that made the paper solution legal.
+  Exotic material is a category miss: white holes are VACUUM
+  solutions — it was never a materials problem, it is a bookkeeping
+  problem, and no substance fixes arithmetic. Planck-scale bounce
+  speculation (Rovelli-class) noted as beyond-EFT footnote.
+
 ## Strains (where the translation is PARTIAL — the streak's honest scars)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
   domains, found by hunting for a break):** the ledger's core axiom —
