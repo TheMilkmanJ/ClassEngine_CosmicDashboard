@@ -1466,6 +1466,23 @@ matter). Cosmic-scale instance: vacuum metastability — this model
 bets the floor holds no pending trades (true ground state,
 shift-protected) and signed it as P-2026-002.
 
+**C4g — The contingency tree (2026-07-07 evening, operator's milk
+run; correspondence-grade).** The operator's picture — every route to
+the outcome drafted simultaneously, each branch's CONTENT pre-written,
+nothing actual until posting — is the sum-over-histories (Feynman),
+with Heisenberg's potentia as the stocked-store ontology and one
+quantum upgrade that is THE measured classical/quantum split: branches
+INTERFERE. Classical trees add probabilities (more routes = more
+milk); quantum trees add amplitudes before squaring — two open routes
+to the same outcome can cancel to a GUARANTEED null (the double slit;
+close one route and the outcome returns). Branch-content pre-written:
+correct. Branch-selection pre-made: forbidden (Bell) and
+interference-refuted. Corollaries booked: competing decay channels as
+racing transactions (first posting forecloses the rest — branching
+ratios are the race statistics); the consistent-histories condition
+(the bank prices only story-sets that have stopped interfering)
+arrived unprompted from the posting language.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three
