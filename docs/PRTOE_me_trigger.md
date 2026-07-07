@@ -1346,3 +1346,51 @@ Any of these, if computed AND if it also demanded the sharp form, is a real
 third. Until run, it is a candidate, not a pillar. Booked so the record does
 not drift into a "3 = law" overclaim on a third leg that is really the first
 wearing a second hat.
+
+## 37. CANDIDATE THIRD-PILLARS COMPUTED (operator: "run those computations",
+## 2026-07-07) -- one genuine third leg found, with a precise caveat
+
+Ran the three candidates flagged in section 36. Results:
+
+**ATOMIC CLOCKS -- GENUINE THIRD INDEPENDENT LEG (caveat below).** Earth is
+deep in saturation, so the predicted temporal variation of m_e is exp-killed
+(<<1e-25/yr vs clock bound ~1e-17/yr) -> sharp/screened mechanism predicts a
+clean NULL; clocks observe null. What makes it a third leg: a CONTINUOUS/
+linear coupling of the same 1% amplitude WOULD give ~1e-4 annual/galactic-
+oscillation modulation -> RULED OUT by clocks. So clocks independently kill
+the continuous version via TEMPORAL physics at Earth -- genuinely distinct
+from MICROSCOPE (free-fall) and quasar (spatial spectroscopy). Three
+independent domains now point the same way.
+  CAVEAT (keeps it from overclaim): clocks force SCREENING-AT-EARTH, which is
+  a CONSEQUENCE of the sharp transition, not the sharp functional form
+  UNIQUELY (a heavy field / other screening could also produce it). So it is a
+  genuine third independent constraint corroborating the screened/binary
+  structure, forcing the EFFECT (screening) where MICROSCOPE+quasar force the
+  CAUSE (the sharp transition). Real third leg, slightly weaker in kind.
+
+**WHITE DWARF / STELLAR SPECTROSCOPY -- CONSISTENCY-CHECK, not a forcing.**
+WDs virialized -> saturated -> predict lab value; observations consistent to
+~1e-5. Confirms saturation, but all stars sit deep in saturation (none sample
+the transition) -> cannot independently force the sharpness.
+
+**EOT-WASH / CASIMIR -- PASSES, CONDITIONALLY.** Lab masses (~kg) cannot
+de-virialize a Theta set by galactic-scale structure (~1e12 Msun) -> Theta
+flat in lab -> no fifth force -> passes. But this IS the rigid-pinning
+assumption (turn 65) owing a computation: passes IF pinning rigid, must be
+shown not asserted.
+
+**NET, HONEST:**
+  (1) A third independent DOMAIN (clocks) now supports the screened/binary
+      structure; and the CONTINUOUS version is now killed by TWO independent
+      experiments (quasar spatial + clocks temporal), strengthening
+      "binarity forced."
+  (2) A third constraint that FORCES THE SHARP FORM ITSELF -- by sampling the
+      smooth->structured TRANSITION rather than deep saturation -- does NOT
+      exist in present data. All candidates here sample saturation. The
+      genuine transition-sampler is the Lyman-alpha forest (straddles the
+      overdensity boundary) or 21-cm dark ages; neither has an m_e/mu
+      measurement AT the transition yet. That third is FUTURE.
+
+So "what's 3": a genuine third independent leg (clocks, forcing the screening-
+consequence) EXISTS; a third independent forcing of the sharp-form CAUSE is
+future (Lya/21-cm). Recorded split so neither is over- nor under-stated.
