@@ -1057,3 +1057,48 @@ binding energies (+1.24%), transition frequencies (+1.24%), 21-cm line
 anomaly" but a SPECIFIC CORRELATED PATTERN across every electromagnetic-
 binding observable, locked to one parameter -- a much sharper, harder-
 to-fake signature than a single-line shift.
+
+## 30. "EM binds, radiation decoheres" -- the near/far split of every force, and
+## a THIRD reason Weyl (not Ricci) is the trigger (operator, 2026-07-07 night)
+
+Operator's parallel: EM tells matter how tightly to bind; radiation tells
+it how to decohere. Textbook-true half: radiation-driven decoherence is
+the CANONICAL mechanism (Zurek einselection, Joos-Zeh) -- real photons
+scattering off a superposition carry away which-path info and destroy
+coherence.
+
+CORRECTION that sharpens it: EM and radiation are ONE force in two
+regimes -- BOUND/near-field (virtual photons, Coulomb) does BINDING;
+RADIATIVE/far-field (real escaping photons) does DECOHERENCE. Same
+force, split by whether the quantum stays bound or escapes to infinity.
+And GRAVITY HAS THE IDENTICAL SPLIT: Ricci (local, bound) = gravity's
+binding piece; Weyl (tidal, propagating, where gravitational radiation
+lives) = gravity's far/radiative piece. GENERAL RULE: every long-range
+force splits into a near piece (binds) + a far/radiative piece (carries
+information to infinity = decoherence = the posting event = C1c's arrow
+of time).
+
+**THE PAYOFF -- A THIRD, INDEPENDENT REASON FOR WEYL OVER RICCI:** the
+m_e switch fires on a DECOHERENCE event (the dark medium losing
+coherence: violent relaxation, vortex-tangle nucleation). Decoherence
+is driven by the RADIATIVE/FAR piece of a force. For the dark medium
+that force is gravity (census: no EM coupling). Gravity's radiative/
+decohering piece is WEYL. Therefore the trigger HAD to couple to Weyl,
+not Ricci -- Ricci is the BINDING piece, and you cannot trigger a
+decoherence event by coupling to the binding piece. This is the third
+independent reason for Weyl (joining: Ricci fails directionally,
+section 25; Weyl=0 in smooth FRW, section 23) and the deepest one --
+it identifies WHAT KIND of event the trigger is (a decoherence event)
+and thereby which curvature piece it must couple to.
+
+HONEST BOUNDARY: the dark medium decoheres GRAVITATIONALLY (Weyl/
+structure), NOT via EM radiation -- it has no photon coupling (census,
+holds). So "radiation decoheres matter" is the ORDINARY-matter
+realization (photons); the dark sector runs the GRAVITATIONAL version
+of the identical deep principle (a force's radiative piece carries
+information away = decoherence). Same rule, different force per sector.
+
+GRADE: structural unification + third pillar-reason for Weyl. Not a new
+independent mechanism; a deepening that explains WHY the mechanism we
+built has the form it has. Consistent with, and reinforcing of,
+sections 22 (decoherence pays through time), 25, and 27.
