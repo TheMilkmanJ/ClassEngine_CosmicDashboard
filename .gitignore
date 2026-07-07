@@ -80,3 +80,6 @@ check_rel_diff.py
 test_tanh*
 tmp_*/
 archive/
+scratch/SPARC_data/
+scratch/SPARC_data_repo/
+python/external/
