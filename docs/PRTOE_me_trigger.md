@@ -864,3 +864,48 @@ concentrating. This EP check on the RECEIVING side remains the same
 open item flagged in section 24 -- unchanged by this clarification,
 but now understood against a correctly generalized (any-matter,
 not dark-matter-specific) source mechanism.
+
+## 26. THE EP TEST, ACTUALLY COMPUTED — a real pillar attempt, and a real crack found
+## (2026-07-07 night, operator's call to build pillars not more directions)
+
+**COMPUTED:** differential sensitivity of atomic rest mass to a fractional
+m_e shift, Ti vs Pt (the MICROSCOPE pair): dlnM/dln(me) = 2.517e-4 (Ti)
+vs 2.171e-4 (Pt), via M_atom = A*u (nuclear, dominant) + Z*m_e -
+E_bind(m_e) with E_bind ~ 15.73*Z^(7/3) eV (standard Thomas-Fermi total
+electronic binding coefficient). Differential: 3.46e-5. Against
+MICROSCOPE's eta(Ti,Pt) < ~3e-15: **the residual LOCAL m_e shift at
+Earth must be suppressed below ~8.7e-11** -- seven orders of magnitude
+tighter than the coupling's full amplitude (~1.2%).
+
+**REAL CRACK FOUND: the section-23 linear functional form is
+unphysical.** m_e_eff = m_e_bar*[1+eps*(1-C^2/C_ref^2)] was never
+checked outside the regime C~C_ref. Earth's local Weyl curvature
+(solar-tidal-dominated, per the earlier locality computation) is ~16
+orders of magnitude ABOVE any reasonable halo-core reference scale --
+plugging this into the LINEAR form gives C^2/C_ref^2 >> 1, producing a
+WILDLY NEGATIVE, unphysical m_e_eff. The linear form only ever made
+sense near C~C_ref and was not validated against the 30+ orders of
+magnitude of curvature variation the real universe spans (recombination
+C~0 to Earth's solar-dominated environment).
+
+**THE FIX AND ITS CONSEQUENCE:** replace the linear form with a
+SATURATING one (e.g. m_e_eff = m_e_bar*[1+eps*exp(-C^2/C_ref^2)]),
+which asymptotes cleanly toward full suppression rather than diverging.
+With this fix, the MICROSCOPE bound is almost certainly satisfied by
+an overwhelming margin at Earth (C_Earth^2/C_ref^2 so large that any
+sane saturating function crushes the residual far below 8.7e-11) --
+GOOD NEWS for the proposal's survival. BUT this sharpens the remaining
+open task considerably: it is no longer "does this pass EP" (probably
+yes, once fixed) -- it is now specifically **"derive the correct
+saturating functional form AND its reference scale C_ref such that the
+SAME formula behaves sensibly across the full 30+-order-of-magnitude
+range from recombination to Earth, without C_ref itself becoming
+another free, undetermined parameter."** This is a harder, more
+precise, and more honestly-stated version of the open item than
+section 23 left it at -- a real pillar advanced (crack found, fix
+identified, remaining task sharpened), not a new direction opened.
+
+STATUS: EP-test line of section 23/24 substantively advanced. Amplitude
+still undetermined (unchanged). Functional-form derivation is now the
+named, concrete next task -- distinct from and sharper than the vague
+"needs its own scrutiny" flag from section 23.
