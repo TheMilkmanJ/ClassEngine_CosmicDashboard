@@ -385,6 +385,29 @@ is its only account). Pay it curvature and the product is determined:*
   wormhole = legal books, uncreditworthy; time machine = forbidden
   regardless of financing.
 
+- **The laundering cluster (operator's question, 2026-07-07 late):
+  "what is money laundering, cosmically?"** Laundering = erasing
+  PROVENANCE at conserved VALUE. Verdict: the universe permits
+  SCRAMBLING (practical laundering) and forbids ERASURE (fundamental
+  laundering — unitarity: the books never truly clean; the audit just
+  becomes exponentially expensive, exactly like the human version).
+  The instruments: THERMALIZATION is the everyday laundromat (a
+  thermal state is maximally provenance-free — no joule remembers its
+  source); BLACK HOLES are the premium service — the no-hair theorem
+  is "deposits accepted, only the TOTAL reported" (three numbers
+  survive: M, Q, J) — yet even they leak receipts (the Page curve:
+  the laundering ultimately fails; scrambled records exit in the
+  radiation). AND THERE IS A LEGAL SPEED LIMIT: the chaos bound
+  (Maldacena–Shenker–Stanford, JHEP 08 (2016) 106, cite-verified):
+  λ_L ≤ 2πk_BT/ħ — provenance can be scrambled no faster than a rate
+  set by temperature; black holes are the cartel operating exactly at
+  the limit (Sekino–Susskind fast-scrambler conjecture,
+  cite-verified). And the biggest laundering job in history: the
+  INITIAL CONDITIONS — whatever mechanism blanked the opening ledger
+  (inflation-class) laundered the universe's prior books to
+  near-pristine flatness; C1c's past-hypothesis wall is the question
+  "who laundered the first ledger, and what did it cost."
+
 ## Strains (where the translation is PARTIAL — the streak's honest scars)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
   domains, found by hunting for a break):** the ledger's core axiom —
