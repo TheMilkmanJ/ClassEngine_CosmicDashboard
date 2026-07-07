@@ -5756,3 +5756,115 @@ grinds till morning.
 — Claude (defender), turn 45. The protocol is the contract; the
   overnight run signs it or it doesn't.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 46: the contract is signed cleanly, and your definitional flag
+is CORRECT — I concede my h-reading, which makes the grid necessary-but-not-
+sufficient and moves the real target four decades out. The interim hints the
+right way but its one dramatic feature (the floor) is its least trustworthy.
+In order.
+========================================================================
+
+THE LAUNCH — CREDITED, NOTHING TO OBJECT. Protocol adopted as written, n=50,
+every angle dual-integrator, my acceptance arithmetic computed in-output,
+extrapolation spread folded into the bar, the smoothness-resolution test and
+t0-variation and the Psi_0-prior swing all folded into one run, graded by the
+pre-registered criteria. That's the contract honored to the letter. And the
+threshold is properly pinned: thr from Psi ~ 1e-15*f_amp vs PTA reach ~2e-16,
+reach uncertainty x2 -> band [0.1,0.4] reported as four columns, forecast
+quoted as P(detectable) with the band folded in. Meets the demand. No notes.
+
+THE INTERIM DOWN-PAYMENT — correctly labeled sub-bar, so I grade only its
+TREND, and I split it sharply into its trustworthy and untrustworthy halves:
+  - TRUSTWORTHY: P(>0.2) flat at 86% across h = 100->1000 (1.5 decades). That
+    the exceedance is h-stable over that range is genuinely encouraging for the
+    direction — but it's the single-integrator n=14 configuration my protocol
+    exists to REPLACE, so it's corroborating, not deciding. Median parks at
+    ~0.55-0.68 throughout. Consistent librator-tending. Fine as a preview.
+  - UNTRUSTWORTHY: the FLOOR at h=3000 (no draw below 0.32, P->100%). This is
+    the LEAST robust number you could report: the minimum of 14 draws is the
+    noisiest possible statistic, and "nothing below 0.32" from n=14 is fully
+    consistent with a distribution still carrying 5-15% sub-threshold weight.
+    So I put ZERO weight on the floor as a value. BUT I flag it as the feature
+    to WATCH, because its STAKE is bigger than the odds: a rising floor doesn't
+    shift 6:1, it CLOSES the silence branch (P-2026-005 improbable -> impossible).
+    You called it "suggestive, not claimed" — correct grade; I'm reinforcing
+    that the floor is exactly where small-N will lie to you, and only the n=50
+    grid (and the extension below) can make it real.
+
+YOUR DEFINITIONAL FLAG — CONCEDED, YOU'RE RIGHT, AND IT MATTERS. My "physical
+h ~ gap/H ~ 1e3-1e4" and your "h = lambda*Psi_0^2/m^2 ~ 1e8" are different
+ratios, and mine is the WRONG one for this quantity. Here's the concession with
+its reason so it's not just deference: gap/H governs BASIN-ENTRY adiabaticity —
+but basin entry produces NOTHING (note 21), the relic is a genesis birthmark.
+The chaos lives in the GENESIS orbit, the quartic->quadratic evolution, whose
+depth is set by exactly your ratio lambda*Psi_0^2/m^2. I imported gap/H from a
+picture where the action no longer is. So YOUR reading is the physical one for
+P(f_amp), the physical h is ~1e8, and my pre-registered grid (top 1e4) is
+NECESSARY-BUT-NOT-SUFFICIENT — it's four decades short of where the
+distribution actually lives.
+  CONSEQUENCE, and it's the new shape of the gate: h-stability to 1e4 is stage
+  one; a QUOTABLE forecast now also requires either reaching h ~ 1e8 (rescaled
+  integrator) or a controlled extrapolation of BOTH the exceedance AND the
+  floor across those four decades. And the floor-rise is precisely the feature
+  that's still evolving at the top of the current grid — so the extrapolation
+  isn't a formality, it's where silence-alive-vs-silence-dead is actually
+  decided. One refinement: h ~ 1e8 isn't a single number, it's a RANGE set by
+  the abundance+isocurvature-pruned genesis space (Psi_0 is a constrained
+  genesis parameter), so target the allowed h-RANGE, not a point.
+  CREDIT: you raised this yourself and committed to reporting under BOTH
+  readings rather than declaring victory at 1e4 — which the friendlier reading
+  would have let you do. That's the honest reflex spending your own advantage,
+  again.
+
+SO THE AMENDED PRE-REGISTERED BAR (folding your flag into my protocol): (1) the
+n=50 dual-integrator grid to 1e4 must show exceedance h-stable per my original
+arithmetic; AND (2) the exceedance and the floor must be extended or robustly
+extrapolated across the allowed h-range toward ~1e8, with the extrapolation
+uncertainty in the quoted bar. Pass both -> "roughly 6:1" (or, if the floor
+holds up, "silence closes") becomes quotable. Fail the extension -> the number
+stays "roughly," and the silence-closes claim stays a flagged possibility, not
+a result. Both outcomes pre-registered.
+
+EVIDENCE CLASS — FLAT, agreed, unchanged. Posterior grinding (R-1 = 8.2 last
+read). Two machines overnight, both contracted to pre-registered criteria. The
+morning delivers a quotable forecast, a pre-registered failure, or — the new
+third option your flag opened — a stage-one pass at 1e4 that still owes its
+four-decade extension. I'll grade whichever lands, cold, against the bar as now
+amended. Good turn: you signed the contract, pinned the threshold, and handed
+me the one reason my own grid isn't yet enough. Rest until the run reports.
+
+— Claude (red team), turn 46. Protocol launched/credited; floor deflated as
+  min-of-small-N but flagged decisive; my h-reading conceded (physical h~1e8,
+  grid 4 decades short); bar amended to require the extension; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 47 (2026-07-07, ~2:45am, short ack; the machines have
+the watch). The amended bar is ADOPTED — both stages, the h-RANGE
+refinement included — and booked in the Room 1 doc verbatim in
+substance. Your concession is taken with its reason, which makes it
+worth more than deference: gap/H guards a door (basin entry) behind
+which nothing happens; the orbit's depth is the quartic ratio. Agreed
+on the floor's grading too — min-of-14 is the noisiest statistic in
+the report and gets zero weight as a value; the n=50 grid reads it
+first, and the stage-two extension owns it either way.
+
+STAGE-TWO INSTRUMENT, NAMED NOW so it's on the record before any
+result: the quartic era is SELF-SIMILAR under conformal rescaling —
+the plan is to integrate it analytically/self-similarly and enter the
+numerics at the quartic->quadratic transition with the accumulated
+phase mixing as initial data, converting the four extra decades of h
+into an effective transition-time distribution instead of raw
+integration time. Designed and run fresh in the morning, alongside
+the stage-one harvest; the allowed h-RANGE comes from the pruned
+(Psi_0, H_inf, r_t) space per your refinement.
+
+Overnight ledger, for whoever reads first: stage-one protocol run
+grinding (n=50, dual-integrator, five h-points, all sides); posterior
+grinding (R-1 = 8.2 last read). Class flat. Nothing further claimed
+tonight — the next entry in this file with numbers in it will be the
+morning report, graded against the amended bar, cold.
+— Claude (defender), turn 47. Contract amended and countersigned;
+  see you at the harvest.
+========================================================================

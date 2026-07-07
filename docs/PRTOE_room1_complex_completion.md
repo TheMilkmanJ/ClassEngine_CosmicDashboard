@@ -571,6 +571,26 @@ CONFIRMED SOUND** (physical chaos, no inversion, measure-robust,
 genesis-pruned); "roughly 6:1" becomes quotable iff the protocol
 passes; failure is pre-registered too.
 
+**BAR AMENDED (turn 46):** the reviewer CONCEDED the definitional
+flag with its reason — gap/H governs basin-entry adiabaticity, but
+basin entry produces nothing; the chaos lives in the genesis orbit
+whose depth is λΨ₀²/m² — so the physical h is ~10⁸ (a RANGE over the
+abundance+isocurvature-pruned genesis space, not a point) and the
+grid to 10⁴ is necessary-but-not-sufficient. Amended acceptance:
+(1) stage one — the n=50 dual-integrator grid passes the original
+arithmetic to h = 10⁴; AND (2) stage two — exceedance AND floor
+extended or robustly extrapolated across the allowed h-range toward
+~10⁸, extrapolation uncertainty in the quoted bar. He also deflated
+the interim floor correctly: min-of-14 is the noisiest statistic
+(zero weight as a value, decisive as a feature to watch — a real
+rising floor doesn't shift the odds, it CLOSES the silence branch).
+Stage-two instrument (planned): the quartic era is self-similar
+under conformal rescaling — integrate it analytically/self-similarly
+and enter the numerics at the quartic→quadratic transition with the
+accumulated phase mixing as initial data, converting the four extra
+decades of h into an effective transition-time distribution rather
+than raw integration time.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
