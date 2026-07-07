@@ -770,6 +770,72 @@ is its only account). Pay it curvature and the product is determined:*
   cannot feel the medium; no anomalous perihelion channel exists.
   Clean, closed.
 
+## THE BIGGEST MYSTERY (2026-07-07 ~7am, operator's order: the
+## cosmological constant problem, attacked head-on)
+
+The consensus worst problem in physics — vacuum energy over-predicts
+Λ by ~120 orders. The ledger's anatomy splits it in two, answers one
+half at coherence grade, confesses the other, and places a standing
+bet that is being tested RIGHT NOW:
+
+**(a) THE OLD HALF — "why doesn't zero-point energy gravitate?" —
+DISSOLVED AT COHERENCE GRADE by the settlement law + Jacobson:**
+gravity, in the file's spine, is thermodynamic (Jacobson 1995,
+correspondence-grade since the strain healing) — the Einstein
+equation is an equation of state for SETTLED energy flux, and in
+that derivation Λ enters as an INTEGRATION CONSTANT, not a response
+to vacuum diagrams. The ledger reading: **zero-point fluctuations
+are perpetual unsettled drafts — credit-window loans (ħ/ΔE) that
+never clear, never post, and therefore never appear on the
+gravitational ledger. The 120-order catastrophe is a category
+error: summing drafts as if they were settlements.** The standard
+objection ("but Casimir proves vacuum energy is real") is deflated
+by Jaffe, PRD 72, 021301(R) (2005), cite-verified: Casimir forces
+are relativistic van der Waals forces between real charges,
+computable with no reference to zero-point energy, vanishing as
+α → 0. GRADE: coherence/correspondence — contingent on the
+thermodynamic-gravity spine, not a theorem; booked as the ledger's
+answer, not physics' consensus.
+
+**(b) THE NEW HALF — "why 2.25 meV?" — HONESTLY UNSOLVED, and
+provably not ours to solve in the minimal room:** E2.7 stands
+(P(basin) = 0; ρ∞ is a bare constant of the action — the opening
+balance of the vault). Under (a) it is an integration constant =
+boundary data = the recursion-wall class (who set the opening
+balance sits one floor up, with the past hypothesis). The meV/m_ν
+whisper stays a watched whisper (no ν-portal exists; census).
+
+**(c) STANDING BET #3 — Λ EXACTLY (kill-only; data arriving NOW):**
+the floor is a bare constant and the above-floor medium redshifts
+exactly a⁻³ ⇒ the effective dark energy is EXACTLY Λ: w = −1, no
+evolution, no thawing, and ABOVE ALL no phantom crossing, ever.
+DESI DR2 + Planck currently prefers evolving dark energy at 3.1σ
+(CPL), with a phantom crossing (arXiv:2503.14743; DESI DR2 results
+II, PRD 112, 083515 (2025), cite-verified). **The model votes
+against DESI's preference** — it must recede as systematics or
+parametrization artifact. If dynamical DE with phantom crossing is
+confirmed decisively, the bare-constant floor dies and E2.7's clean
+split dies with it. Third standing bet at zero, beside the lab and
+the telescopes.
+
+**COROLLARY (operator's question, same hour: "is there a dark
+version of everything?") — ONE SUBSTANCE, MANY NAMES:** in this
+model the answer is NO, and the no is structural. Dark RADIATION
+(the pre-basin w = 1/3 youth), dark MATTER (the condensate above
+the floor), dark ENERGY (the same condensate's ground-state
+pressure), dark ANTIMATTER (the χ component, 30% at the median
+draw) are ONE FIELD at different epochs and in different components
+— a zoo of names created by observers who didn't know they were
+watching one account age. The census (gravity-only; no dark photon;
+B−L capped) FORBIDS a mirror world: no dark atoms, no dark
+chemistry, no dark stars, no dark light. Falsifiable as always:
+dark acoustic oscillations in P(k), a dark disk in the Galaxy, or
+self-interacting dark radiation would each kill the minimal room.
+The "opposite of everything" instinct lands where the file lives:
+every conserved charge defines a ±, every transaction has payer and
+payee — the universe's opposites are LEDGER COLUMNS, not parallel
+worlds.
+
 ## The walls (what the map cannot fix)
 - Absolute scales: relations fix only dimensionless values; units need
   anchors.

@@ -91,6 +91,15 @@ V = verified, exactly as used in our documents):
   inter-code spread that dwarfs the model's marginal D/H cost.
   Verified at booking.
 
+- [V] **Jaffe**, PRD 72, 021301(R) (2005), hep-th/0503158 — Casimir
+  forces computable without zero-point energy (relativistic van der
+  Waals; vanish as alpha -> 0). The cc-attack's Casimir deflation.
+  Verified 2026-07-07 ~7am at booking.
+- [V] **DESI DR2**: arXiv:2503.14743 (extended DE analysis) + DESI DR2
+  results II, PRD 112, 083515 (2025) — DR2+Planck 3.1sigma CPL
+  preference for evolving dark energy with phantom crossing. The
+  object of STANDING BET #3 (Lambda-exactly). Verified at booking.
+
 ## Tail closed (2026-07-07 ~6:15am — task #19, the pre-Fairbank gate)
 - [V] **Hafele & Keating**, Science 177, 166 & 168 (1972) — flown
   cesium clocks: east −59±10 ns (pred −40±23), west +273±7 ns
