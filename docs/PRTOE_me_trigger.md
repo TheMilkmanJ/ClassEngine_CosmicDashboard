@@ -450,3 +450,24 @@ the model's own physics is used to instantiate it.
 Scope note: this closes the LEVKOV-based global attempt specifically;
 it does not claim to have ruled out every conceivable expansion+heat
 combination, only the model's own most natural, already-derived one.
+
+## 17. H(z) vs already-pinned model scales — tested, dead by arithmetic (2026-07-07 evening)
+
+Checked whether H(z) (in energy units) naturally crosses any scale the
+model has ALREADY pinned elsewhere (m~1-2e-21 eV mass pin, rho_inf^(1/4)
+= 2.25 meV, M2 = 9.4 eV, m_e = 511 keV) within the survival window
+(z=4 to 1100) — discipline: no invented thresholds, only scales already
+fixed by other parts of the model.
+
+RESULT: every crossing requires z ~ 1e7 to 1e15 — 7 to 22 orders of
+magnitude past the survival window, deep in the early universe. H(z)
+in energy units is simply too small throughout all of z=4-1100
+(1e-33 to 1e-29 eV) to reach any of these scales. DEAD BY ARITHMETIC,
+same class of kill as §14's horizon-temperature test. Direct H(z)-vs-
+pinned-scale crossing is closed as a mechanism for candidate #3.
+
+Standing picture unchanged from §15/16: redshift-only (Reading B, no
+comparison partner, no derived value yet) remains the sole open form
+of a global trigger; candidate #1 (the fold, tau_gr < age) remains the
+best-derived mechanism overall. Session paused here by operator to
+regroup.
