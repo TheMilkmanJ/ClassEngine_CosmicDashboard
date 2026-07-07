@@ -975,3 +975,34 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   the correct description of how curvature comes to exist at all, not
   merely a metaphor. Adopted as house law, on the same footing as the
   three laws (one clearinghouse, adiabatic ledger, rules-not-balances).
+
+- **CLEARINGHOUSES ARE CONTINGENT -- banks open at contact, in order
+  (operator, 2026-07-07 ~4pm; grounds the turn-68 split and reconciles
+  Law 1).** Claim: space has NO clearinghouse for itself -- it never
+  needed one, because space-alone (r=0, the equation-of-nothing) has
+  nothing to transact. Banking systems come into being only at FIRST
+  CONTACT (when r=0 stops being true, i.e. when matter appears). This
+  is the "nothing until contact" house law stated at the level of
+  INSTITUTIONS: not just no transaction until contact, but no BANK
+  until contact. PRECISION: space CAN self-transact in a limited way
+  (gravitational waves = vacuum curvature self-interacting via GR
+  nonlinearity), BUT every GW traces to a matter source -- in a
+  never-had-matter universe there is none, so the claim holds for
+  primordial/pure space. THE PAYOFF -- this DERIVES the clearinghouse
+  structure from one rule ("banks open at contact, in order") instead
+  of asserting it: (1) pure space = no bank; (2) first matter (r!=0) ->
+  the space<->matter clearinghouse opens = GRAVITY; (3) matter dealing
+  with matter -> matter opens its OWN sub-banks (EM, weak, strong). So
+  the dark medium (space) has EXACTLY ONE account, gravity, and NEVER
+  opens an EM account -- which is precisely why the m_e amplitude cannot
+  be the dark sector paying through EM (no EM account) and MUST be EM
+  handling matter internally with space only triggering via gravity
+  (the turn-68 split, now FORCED not assumed). RECONCILES LAW 1:
+  "gravity is the only clearinghouse" is correct -- it describes SPACE's
+  banking (one account: gravity); it was only misread as "the universe's
+  only bank." Matter has several sub-banks. Both true, no conflict.
+  GRADE: architectural/foundational principle -- makes the framework
+  cohere and explains the clearinghouse structure; does NOT produce a
+  new number or change the load-bearing open calc (EM self-energy
+  bistability, sec 42). A right blueprint, turning three assertions into
+  one rule.
