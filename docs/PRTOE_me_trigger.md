@@ -1837,3 +1837,30 @@ to un-pin. VERDICT: Path A EP-viability CLEARS; atom interferometry trivial.
 Attack surface = the threshold C_ref value (holds unless C_ref ~ solar-tidal
 curvature, a bizarre threshold). If it holds, the SOLE remaining Path-A gate is
 census-derivation reproduction (legality). Pending Gemini's grade.
+
+## 51. AMPLITUDE DERIVATION SWING (Tier 4): SIZE doubly-motivated (~1%), exact
+## value STILL not derived (2026-07-07)
+
+Took a real swing at deriving the 1.24% amplitude. Two INDEPENDENT order-of-
+magnitude routes, both landing at ~1%:
+
+ROUTE 1 (QED): eps <= EM self-energy fraction = (3 alpha/4pi) ln(Lambda^2/m_e^2)
+  ~ 1.9% (Lambda=m_mu) to 2.6% (Lambda=1 GeV). A real ceiling; hitting 1.24%
+  exactly needs an unmotivated cutoff + modulation fraction (~0.6-0.7).
+
+ROUTE 2 (gravity/moduli -- Path A's OWN structure): eps = beta*(delta_phi/M_Pl).
+  Natural beta~O(1), delta_phi ~ Psi_0 (the medium's field amplitude = the pinned
+  abundance, 0.7-1.5e17 GeV). -> eps ~ Psi_0/M_Pl(full) = 0.57%-1.23%. The high end
+  (Psi_0=1.5e17, beta=1) gives 1.23% ~ observed. A GRAVITATIONAL-sector prediction
+  of the amplitude's SIZE, independent of Route 1.
+
+VERDICT (honest): the SIZE (~1%) is now DOUBLY-MOTIVATED -- EM self-energy (QED)
+AND Psi_0/M_Pl (gravity). Two independent physics arguments give the same ~1%, so
+the smallness+percent-scale is forced from two directions, not a free coincidence.
+BUT the EXACT 1.24% is STILL NOT DERIVED: both routes hit it only via unmotivated
+choices (cutoff+modulation; or beta+excursion+high-Psi_0). Registering either
+exact match = numerology (Pinning Rule). So: amplitude BOUNDED (now two ways),
+NOT DERIVED. This does NOT convert the fit into a prediction (that needs the exact
+value); it DOES upgrade "why ~1%" to a two-route result. Tier-4 amplitude remains
+OPEN for the exact value; the ~1% size is as derived as it's going to get without
+a full UV completion (Psi_0, beta from the genesis/moduli sector).
