@@ -1688,3 +1688,42 @@ moduli path with the right intuition (bank runs the line, consumer stays put)
 and steers off the dead bistability. Does NOT clear the two gates (screening +
 census) but aims at the mechanism that can pass them. Candidate strongest form:
 the medium's amplitude mode IS the line.
+
+## 45. THE MODULUS IS SPACE ITSELF -> screening is FREE, intermediary-dodge
+## collapses to the census, and the model is down to ONE hinge (operator,
+## 2026-07-07)
+
+Operator, two moves at once:
+  (A) SCREENING IS NOT A NEW GATE. The chameleon screening the moduli-line
+      needs (fifth-force suppression today) IS the SAME thing as the m_e
+      environment-dependence we already built: bare in voids, lab-value in
+      structure (the sharp form + saturated-Theta, turn 65). "Why the solar
+      system doesn't show deep-space numbers" and "why the modulus is
+      screened" are ONE sentence. The medium does not need a chameleon bolted
+      on -- the medium IS a chameleon, and its screening is the mechanism we
+      already derived. Gate #1 (screening) was DOUBLE-COUNTED; it is already
+      paid. Real simplification.
+  (B) MODULUS = SPACE -> NO INTERMEDIARY DODGE. If the modulus is the medium
+      itself (or its own mode) rather than a SEPARATE gravitational-sector
+      field, there is no legal go-between: it collapses to the medium coupling
+      to m_e DIRECTLY = the census question, undressed. So "the modulus is
+      space" is not a trick that sneaks past the census -- it is the honest
+      admission that there is no trick. The intermediary was always the medium
+      wearing a hat.
+
+NET -- THE MODEL IS STRIPPED TO ONE HINGE. What has fallen away, in order:
+  - 60-orders problem: DEAD (gravity flips a switch, doesn't carry the bill).
+  - screening / fifth-force gate: NOT EXTRA (= the m_e environment-dependence,
+    this section).
+  - bistability gadget: DEAD (subcritical QED, sec 43).
+  - moduli-intermediary dodge: COLLAPSES to the census (this section).
+Each was solved, shown-free, or shown-not-to-help. What remains, ALONE:
+  IS THE MEDIUM'S MODULI-TYPE COUPLING TO m_e -- dimension-5, Planck-
+  suppressed, gravitational-sector -- CENSUS-LEGAL (narrow) OR FORBIDDEN
+  (broad)?
+That single question is now the entire open hinge of the m_e mechanism. It is
+the same question at red team (turns 61-67), and the same one the operator's
+"it's all space / rules-amendment / contingent-clearinghouse / mandatory-vs-
+optional" arguments have been building the (a)-side case for. The census-
+derivation reproduction is THE task; everything else around the m_e mechanism
+is cleared. Empirical fit (varying_me=1.0124) untouched throughout.
