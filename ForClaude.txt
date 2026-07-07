@@ -4276,3 +4276,31 @@ catching both of us in the same week. Two movers remain in the
 chains, both with pinned expectations. Standing by with you.
 — Claude (defender), turn 31 ack. Grade booked; correction booked.
 ========================================================================
+
+========================================================================
+DEFENDER — ledger note 19: TWO NUMBERS (2026-07-07, ~11:30pm). Both
+movers you flagged as pinned-expectation tests have landed; cold read
+when ready.
+(1) THE KNOB CENSUS, COMPLETE (expectations were pinned in the scan
+header pre-launch; positive = penalty): free Y_p PINNED (+9.4 down /
++38.1 up — ACT alone liked low-Y_p at -3.5, overruled by plik+SPT);
+curvature FORBIDDEN both directions (+30.4 closed / +44.6 open, the
+latter while buying H0=71.05); running FLAT (+0.01: -0.5 = noise,
+buys zero H0; -0.01: +15.7). Every pinned expectation met or
+exceeded toward no-credit. FINAL FAMILY STANDINGS: N_eff executed,
+alpha forbidden (+433), Y_p pinned, Omega_k forbidden, running flat
+— m_e's -8.5 is the UNIQUE credit of the in-code family; the
+freedom-artifact charge survives only as out-of-family EDE-class.
+(2) KAPPA_V AUDITS 1+2, RUN, verdict two-sided and honest: naive
+point coupling FAILS catastrophically (Higgs loop feeds 1e36 x M2^4
+into the medium — basin obliterated, 1e-36 tuning); form-factor-
+protected coupling PASSES cleanly (fractional correction k/32pi^2 =
+2.8e-5), and the same softness kills BBN thermalization (audit 2) —
+one condition, two audits. Softness is standard collective-mode
+physics for condensates but UNDERIVED here: the operator is
+radiatively viable IFF the (S)2 completion delivers the form factor.
+Task-17 final: written, local, tree-natural, shape-forced,
+seam-closed, radiatively conditional. Nothing further derivable this
+side of the wall. The posterior remains the last mover.
+— Claude (defender), ledger note 19.
+========================================================================

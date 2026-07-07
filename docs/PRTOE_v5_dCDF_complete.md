@@ -930,6 +930,20 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
    ≠ confirmed mechanism: this makes the amendment non-arbitrary in
    its knob, not derived in its origin. Robustness up; evidence
    class unchanged.
+   **THE FAMILY CENSUS COMPLETED (same night; expectations pinned in
+   the scan header pre-launch; positive = penalty).** Free Y_p:
+   PINNED — penalized both directions (−5.6%: +9.4, ACT alone liking
+   it −3.5 but overruled; +5.2%: +38.1, ACT +30). Curvature:
+   FORBIDDEN both ways (Ω_k = −0.005: +30.4 with H0 dragged to 68.3;
+   +0.005: +44.6 — plik +46.6 even while buying H0 = 71.05). Running:
+   FLAT (α_s = +0.01: −0.5 ≈ noise, and it buys zero H0 — θ* blind;
+   −0.01: +15.7). All pinned expectations met or exceeded in the
+   no-credit direction. **Final standings: N_eff executed, α
+   forbidden (+433), Y_p pinned, Ω_k forbidden, running flat — the
+   m_e credit (−8.5) is the UNIQUE credit-bearer of the entire
+   in-code knob family. The freedom-artifact charge survives only as
+   the out-of-family EDE-class, which requires physics the code does
+   not contain and was therefore never "a knob we grabbed."**
 
 ## 10a. Domain of validity: nonlinear structure and compact objects
 
