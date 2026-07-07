@@ -586,3 +586,43 @@ Consequences, stated per the registry's own discipline:
 No new prediction is registered by this annotation; it settles one
 collision, kills three advertised numbers, and narrows the program's
 falsification surface to instruments that still point at it.
+
+## STAGED CANDIDATE TESTS (2026-07-07, "predict-then-validate-with-existing-science"; NOT yet registered -- staged for the falsification phase, pending full flesh-out)
+
+*Operator's question: what prediction-then-validate tests should we try? Criteria
+for a CLEAN test: (a) forced by the model's UNIQUE structure (single-field DM
+cannot reproduce it), and (b) validated against data NOT used in the cosmology
+fit. Listed here staged, to develop once the model is fully fleshed out (two m_e
+gates closed, amplitude derived, two-fluid sims run).*
+
+- **MOLECULAR SPECTROSCOPY (operator's benzene idea) -- CONSISTENCY, not unique.**
+  m_e-dependent molecular spectra (benzene, and more sensitively methanol/ammonia)
+  shift with environment. Existing science: astronomical mu=m_e/m_p bounds
+  (methanol masers ~1e-7). CATCH: (i) not unique -- any varying-m_e model predicts
+  it; (ii) molecules only form in DENSE gas (all structured -> all "lab value"),
+  so current data confirms the "structure->lab" half but cannot test the
+  "void->bare" half (no molecules in voids). Grade: consistency check, not a clean
+  unique prediction. The unique test needs unvirialized/diffuse molecular data
+  (hard) -- same gap as the Lya-forest near-threshold test (sec 47).
+
+- **THE chi-LAG CORE-HALO RELATION (Room 5) -- UNIQUE, best candidate.** The
+  two-fluid split forces a REDSHIFT-DEPENDENT dwarf core-halo size relation (chi
+  condenses ~11x slower, Levkov). Single-field FDM has NO such lag. Validate
+  against dwarf-galaxy structural data (NOT in the cosmology fit). Forced + unique
+  + out-of-fit = clean. Needs: two-fluid sims to produce the predicted scatter
+  pattern (old halos on-relation, young below).
+
+- **GRANULE HEATING SUPPRESSION -- UNIQUE, needs sims.** Two fluids suppress
+  granule speckle heating by S=(1+f_rot^2)/2 relative to free FDM at fixed m.
+  Validate against dwarf-heating / stellar-stream data. Forced + unique. Needs the
+  granule sims (Tier 3) to make S a quotable number.
+
+- **SUPERRADIANCE DISCRIMINATOR (P-2026-005 heavy edge) -- UNIQUE, near-term.** At
+  the mass band top (~3e-21 eV), SMBH-spin data already excludes FREE FDM (M87*)
+  while the lambda-quenched dyad survives. A spin measurement there separates them.
+  Forced + unique + existing/near-term data.
+
+STAGING NOTE: all four are held UN-REGISTERED until flesh-out (Tier 2 gates + Tier
+4 amplitude + Tier 3 sims). Registering before the math is finished risks a wrong
+prediction teaching nothing (can't distinguish wrong-idea from wrong-math). The
+chi-lag and granule tests specifically await the two-fluid sims.
