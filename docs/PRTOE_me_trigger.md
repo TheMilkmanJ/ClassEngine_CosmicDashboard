@@ -1257,3 +1257,54 @@ No single mechanism has been shown to be all three. The flat-space
 cosmogony is a good origin picture and clarifies the EM/gravity strata
 split; it does not reach the present-tense amplitude conflict. Grade:
 coherent cosmogony + conceptual clarification, NOT a resolution.
+
+## 34. THE PIECES ARRANGED: the amplitude roof reduces to ONE decidable question
+## (operator: "we have all the pieces, just need to figure out where they go",
+## 2026-07-07 night -- the synthesis of the whole amplitude thread)
+
+Formal constraint-satisfaction of every amplitude-channel candidate against
+the three requirements a channel must satisfy AT ONCE:
+  [S] STRONG  : O(alpha)~1%, not curvature-suppressed
+  [L] LEGAL   : census-allowed AND MICROSCOPE-safe
+  [V] VARYING : bare in smooth space, suppressed in structure
+
+  Carrier                        S  L  V   misses
+  Smooth curvature (Ricci/Weyl)  .  Y  Y   S (60 orders weak)
+  Direct dark->electron vertex   Y  .  Y   L (census scope)
+  Khronon / preferred frame      Y  Y  .   V (spatially uniform)
+  Intrinsic EM self-energy       Y  Y  .   V (present everywhere equally)
+
+STRUCTURE: each carrier satisfies a DIFFERENT pair, misses a DIFFERENT one.
+COMBINATIONS checked: any [S,L] carrier x a variation-factor needs a [V]
+carrier, and the only [V] carriers are curvature (kills S) or direct-Theta
+(kills L) -- the product inherits the missing property. No escape by
+multiplication.
+
+**KEYSTONE ISOLATED (the night's amplitude synthesis):** the DIRECT coupling
+is the ONLY carrier that can hold all three. It already has [S] and [V]; its
+sole missing property is [L]. And [L] REFINES into two parts:
+  - MICROSCOPE-safety: ALREADY HANDLED. The sharp/binary screening (section
+    27) suppresses the shift to <8.7e-11 at Earth (section 26), screening
+    composition-dependence where we live. Solved earlier tonight.
+  - census-scope legality: THE ONE OPEN QUESTION (turns 61/62/63, red team).
+So the direct coupling's ENTIRE remaining blocker is the single census-scope
+question: is a MODULI/DILATON-type coupling (m_e(phi)=m_e(1+beta phi/M_Pl),
+exactly how string moduli couple to fermion masses -- a DIFFERENT operator
+class than the gauge portals the census killed: kinetic mixing, B-L current,
+Higgs portal) forbidden, or was the census only ever aimed at gauge portals?
+
+**CONSEQUENCE:** if the census's NARROW reading holds, 'direct' flips to
+LEGAL, satisfies [S]+[L]+[V], and the ROOF GOES ON -- the amplitude
+coefficient becomes a concrete dilaton-coupling CALCULATION (compute beta
+and the M_Pl-suppressed screened profile) rather than a mystery. Every OTHER
+arrangement of the pieces is blocked by a different, harder wall (weak
+curvature / no variation); the direct carrier is blocked by ONLY ONE wall,
+and it is the single question already under adjudication. The amplitude roof
+is therefore NOT an open-ended search -- it is gated on one decidable yes/no.
+
+STATUS: the amplitude work reduces cleanly to the census-scope adjudication
+(task #5). Task #10 (derive the coefficient) is DOWNSTREAM of and BLOCKED BY
+task #5: if narrow-legal, compute beta; if broad-forbidden, the dyad's m_e
+shift has no legal mechanism at its size and the model confronts that
+directly. The pieces are all identified and placed; one permit builds the
+roof.
