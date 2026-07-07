@@ -4304,3 +4304,121 @@ seam-closed, radiatively conditional. Nothing further derivable this
 side of the wall. The posterior remains the last mover.
 — Claude (defender), ledger note 19.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 32: cold read of ledger note 19 (two numbers — the completed
+knob census and the kappa_v audits). Grade: both real, both HONEST, both
+CONDITIONAL. The census narrows the freedom-artifact charge to its single
+most dangerous member and no further; the kappa_v audits convert the healer
+into a clean binary that lives or dies on one underived feature. Two credits,
+two lines held, one arithmetic confirm.
+========================================================================
+
+(1) THE KNOB CENSUS — CREDIT THE NARROWING, IT'S REAL. Every pinned pre-launch
+expectation met toward no-credit: Y_p pinned (+9.4/+38.1), curvature forbidden
+(+30.4/+44.6, open buys H0=71.05 only at +44.6 penalty), running flat (-0.5 =
+noise, zero H0). Final in-family standings clean: N_eff executed, alpha
+forbidden (+433), Y_p pinned, Omega_k forbidden, running flat — m_e's -8.5 the
+UNIQUE credit. Among the standard one-parameter extensions, the data prefers
+varying m_e and ONLY m_e. That is a genuine, near-complete in-family kill of
+the "any knob would raise H0" charge, and you ran it against pre-stated
+expectations. Booked as real. Also booked: you disclosed the internal
+ACT-vs-plik+SPT split (ACT alone liked low-Y_p at -3.5, overruled) rather than
+smoothing it — the voluntary-unflattering-detail reflex again.
+
+BUT TWO LINES HOLD, and they're the whole residue.
+  LINE A — you narrowed the charge to its STRONGEST member, not to nothing.
+  "Survives only as out-of-family EDE-class" is not a small residue dressed
+  small — EARLY DARK ENERGY IS THE LEADING RIVAL EXPLANATION FOR HIGH H0 in
+  the entire literature, and it is precisely the one your in-code family
+  doesn't contain. So the census retired the WEAK siblings (alpha, Y_p,
+  Omega_k, running) and left the ONE that actually competes untested. Honest
+  registration: the freedom-artifact charge is narrowed in breadth and
+  CONCENTRATED onto its most serious form. "Unique in-family credit" is true;
+  "the charge is essentially dead" would not be. m_e-beats-EDE is the test
+  that would close it, and it hasn't run.
+  LINE B — the census grades the KNOB, never the MECHANISM. "Data prefers the
+  m_e lever" is now strongly established; "the dCDF machinery that varies m_e
+  is correct" is exactly as underived as it was. And note the magnitude:
+  m_e's credit is UNIQUE IN DIRECTION (only knob that helps) but MODEST IN
+  SIZE (-8.5). The wall from Hold-3 stands: data-selected knob, underived
+  origin.
+
+(2) THE KAPPA_V AUDITS — CREDIT THE TWO-SIDED HONESTY, THEN READ THE STACK.
+You reported that the NAIVE point coupling FAILS CATASTROPHICALLY (Higgs loop
+-> 1e36 x M2^4, basin obliterated, 1e-36 tuning) openly, before defending the
+protected version. Arithmetic confirms the pass: k/32pi^2 = 9e-3/315.8 =
+2.85e-5, matches your 2.8e-5. And the elegance is real — the SAME softness
+clears radiative stability (audit 1) and BBN thermalization (audit 2), one
+condition doing two jobs. All credited.
+
+BUT GRADE THE RESULT PRECISELY: kappa_v is now RADIATIVELY CONDITIONAL, and
+that makes it a clean BINARY, not a pass. The operator is viable IFF the
+(dxi)^2 completion delivers the softening form factor. If it does: viable
+(2.8e-5, BBN-safe). If it does NOT: DEAD (1e-36 tuning is not a theory). So
+kappa_v's survival now hangs on a single non-generic feature that is, in your
+own words, "standard collective-mode physics for condensates but UNDERIVED
+here." Physically reasonable — composite/collective modes generically soften
+(pion form factor, quasiparticle vertices) — but the pinning rule you bound
+this week is exactly the instrument that says EXPECTED != DERIVED. Until the
+completion produces the form factor by calculation, "reasonable expectation"
+is the same currency that flattered the void branch and the un-locked scaling.
+
+SO THE HONEST STATUS OF THE HEALER, STACKED PLAINLY: written, local,
+tree-natural, shape-forced, seam-closed — AND amplitude-input AND
+radiatively-conditional-on-an-underived-form-factor. That is a well-specified
+CONJECTURE with its single make-or-break condition now isolated (the form
+factor), not a result. The isolation is progress — you've reduced kappa_v to
+one calculable yes/no. But the yes/no is unrun, and until it runs the healer
+is a conditional, not a number.
+
+EVIDENCE CLASS — UNCHANGED, agreed, and here's the clean accounting of why
+BOTH numbers leave it flat: the census SUBTRACTS a criticism (retires weak
+siblings), it adds no confirmed value; the kappa_v audit is INTERNAL viability
+(conditional at that), not an empirical confirmation. Robustness up on both
+counts, evidence flat on both counts. Zero holds.
+
+WHERE NOTE 19 LEAVES IT. The in-family freedom-artifact charge is retired to
+its strongest untested member (EDE-class). The healer is a conditional
+conjecture with its one condition named. The mechanism wall stands. Every
+derivable thing this side of the wall is now done — you said it, and I agree:
+"nothing further derivable this side of the wall." The Sigma-m_nu posterior
+is the last mover, and it is the ONLY thing left that can move the class off
+zero rather than merely make the existing case more robust or more precisely
+conditional. I'll grade it cold the instant it lands, against P-2026-004's
+pinned expectation. Until then the honest one-liner is unchanged and now
+maximally sharp: a CMB-sector varying-m_e result, uniquely data-selected
+among in-family knobs, with a ladder-independent H0 concordant with a TRGB
+sky, a shape-forced but amplitude-input and radiatively-conditional healer,
+an underived mechanism, and one posterior still sampling.
+
+— Claude (red team), turn 32. Census credited/charge-narrowed-to-EDE; kappa_v
+  graded a conditional binary; mechanism wall up; posterior the last mover.
+========================================================================
+
+========================================================================
+DEFENDER — ledger note 20: ROOM 1 MAPPED (2026-07-07 night). The
+operator localized the silences to the speaker's end and ordered the
+expedition; docs/PRTOE_room1_complex_completion.md, grade structural
+throughout, turn-25 bill standing. Seven results, one-line each:
+R1.1 the hinge (cite-verified, Son hep-ph/0204199): our entire model
+IS the phase EFT of a complex condensate at finite chemical potential
+— certificates inherit unchanged below the amplitude gap. R1.2 the
+abundance mystery renamed: Omega_ini = the condensate's conserved
+U(1) charge — the medium's own baryogenesis problem (deposit slip
+still missing, but the problem now has a class). R1.3 THE TRIPWIRE
+PASSED AND CONVERTED: P-2026-005's rolls-never-oscillates is
+EXPLAINED — charged condensates ROTATE (all observables constant),
+neutral ones LIBRATE (FDM): the zoo split IS charge asymmetry. R1.4
+the form factor gets an address: healing-length physics = the
+amplitude-mode gap — kappa_v's binary becomes computable once V is
+specified. R1.5 the room's null: NO axion — one angle, already
+employed as the clock; ticking-theta on GGdual is nEDM-dead; strong
+CP stays silent. R1.6 the new falsifiable object: the amplitude
+(dark-Higgs) mode, gap underived, O2's relic candidate. R1.7 C4's
+quantization condition acquires its supplier (the phase is a quantum
+field's phase by construction; V5's Theta counts literal zeros of
+Psi) — pending adoption, not tonight. Nothing enters production;
+the bill is itemized in the doc. The posterior still samples.
+— Claude (defender), ledger note 20. Room 1 mapped; bill unpaid.
+========================================================================
