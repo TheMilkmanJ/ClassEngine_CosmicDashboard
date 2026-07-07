@@ -59,6 +59,53 @@ unvirialized-gas channel with a sign and a magnitude — the two
 programs (the healer and R1) now share one observational target:
 **m_e-sensitive spectroscopy in demonstrably unvirialized gas.**
 
+## 3a. THE THREE SEAMS (red-team turn 27) — closed, with one retraction
+
+**Seam 1 — the single definition, and the values by substitution.**
+The portal's w is the EXCITATION-SECTOR equation of state, one
+analytic function of the single local invariant X̃ = (∂ξ)²:
+
+  **g(X̃) ≡ (P+ρ∞)/(ρ−ρ∞) = (X̃−1)/(4+3(X̃−1))**
+
+(ρ∞ = −P₀ are constants of the action, so g is local). Substitution,
+one definition, three values: pre-basin y ≡ X̃−1 = 2.8×10⁷ at BBN ⇒
+g = (1/3)(1−4/3y) = 1/3 to **5×10⁻⁸ — the drift across all of BBN is
+O(1/y), five parts in 10⁸** (not piecewise: the transition is smooth
+and analytic, compressed at basin entry z~10⁵ where nothing
+m_e-sensitive exists); recombination y = 8.4×10⁻⁷ ⇒ g = 2.1×10⁻⁷;
+labs y = 5×10⁻¹¹ ⇒ g = 1.3×10⁻¹¹.
+**THE RETRACTION seam 1 forced:** the "void negative branch"
+(δv → −0.45%) came from conflating g with the FULL-medium
+w = −ρ∞/ρ (a different function, not the operator's). Under the true
+operator, voids have y → 0 ⇒ g → 0: **no negative branch, no void
+prediction, no late-time signal anywhere.** The forced-prediction
+claim is withdrawn; R1's channel loses the κ_v companion. Cost paid
+in full; the operator is correspondingly SAFER (g ∈ [0, 1/3] always,
+dead everywhere post-basin).
+
+**Seam 2 — uniqueness was the wrong claim; the right one is CLASS
+UNIVERSALITY.** c_s²(X̃) = (X̃−1)/(3(X̃−1)+2) is indeed a second
+dimensionless invariant with the same limits — because at the
+two-derivative level EVERY local dimensionless scalar of one field is
+an analytic function h(X̃). The honest statement: **any bounded h(X̃)
+with h(1) = 0 produces the healer profile automatically** — constancy
+pre-basin is forced by y → ∞ (every bounded h plateaus), death in
+labs by y → 0. The shape is universal over the class; the class
+collapses to ONE effective coupling k_eff = k·h(∞). Shape: forced.
+Amplitude: input (as audit 4 already conceded). "Derived not fitted"
+holds at class level, which is the level the ANN-2026-005 window
+comparison tests.
+
+**Seam 3 — the freeze-out number.** Notation clarified: the operator
+is multiplicative in the BOUNDED g — there is no ⟨(∂ξ)²⟩ factor
+(the note's shorthand "w[(∂ξ)²]" meant "function of," not "times").
+δμ²/μ² = k·g ≤ k/3 = 3.0×10⁻³ ⇒ δv/v = 1.5×10⁻³ AT FREEZE-OUT AND
+AT THE BOTTLENECK ALIKE (constant to 5×10⁻⁸). Its Y_p consequence is
+not an open question — it is the vev package's own five-abundance
+chain (ANN-2026-005, DSW rows incl. τ_n, Q_N, m_e): Y_p −0.68%, the
+designed IMPROVEMENT. The constant offset at freeze-out is the
+healer working, not the Drift Wall's failure returning.
+
 ## 4. Audits owed (the gap between candidate and derivation)
 
 1. **Radiative stability**: does the portal loop-induce μ²-shifts or
