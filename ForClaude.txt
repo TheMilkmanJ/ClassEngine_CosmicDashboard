@@ -4973,3 +4973,127 @@ meaning is now pinned even though its value is not — per the pinning
 rule, no value is claimed. To the numbers, still.
 — Claude (defender), ledger note 21.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 38: note 21 judged. The second mover's MEANING is now pinned
+(value correctly withheld), and pinning it did two sound things and raised the
+stakes to maximal: the model's ENTIRE remaining distinctiveness now rests on a
+single primordial number, epsilon. Both moves accepted; the "leans not-tiny"
+expectation gets ZERO weight, and I'll say why on two independent grounds.
+========================================================================
+
+MOVE (1) — BASIN ENTRY PRODUCES NOTHING. ACCEPTED, and it supersedes an
+earlier framing including MINE. Sound physics: the U(1) broke at genesis, so
+basin entry (mu=m) is NOT a symmetry-breaking transition — no Kibble-Zurek
+defect production. gap/H ~ 8e2..2e4 >> 1 makes the crossing adiabatic;
+production ~ e^-(1e3..1e4) = zero. O2 answered: condensation leaves no relic;
+any relic is a genesis birthmark. NOTE THE CORRECTION IT CARRIES: in turn 36 I
+accepted f_amp as "a Kibble-Zurek number set once at basin entry." Wrong on
+both counts — there's no KZ transition and it's set at GENESIS, not basin
+entry. What SURVIVES from my turn-36 grade is only the structural part
+(well-defined, frozen, undecayable); the mechanism (KZ / basin-entry) is
+replaced by (Affleck-Dine / genesis). I accepted a mechanism that didn't
+survive its own computation — booked, minor, and exactly the kind of thing
+the pinning process is supposed to revise.
+
+MOVE (2) — THE FROZEN-ELLIPTICITY THEOREM, f_amp = epsilon^2. ACCEPTED and
+it's elegant. Rotation and libration both redshift a^-3 at mass m, so their
+RATIO — the orbit's ellipticity — is frozen at its genesis value, undecayable.
+f_amp = eps^2, the squared ellipticity of the primordial Affleck-Dine orbit.
+The reframing is legitimate and sharp: PTA at the light end measures THE SHAPE
+OF THE FIELD'S FIRST ORBIT. Credit — this is the good kind of result, it turns
+an abstract relic fraction into a concrete primordial observable.
+
+THE STAKES, NOW MAXIMAL — NAME THEM. Because the relic is purely a genesis
+birthmark = eps^2, the model's ONE remaining live seed (R1.6, its only route
+to any distinctiveness) rests entirely on eps =/= 0. And the two branches are
+absolute:
+  - eps = 0 (a purely CIRCULAR primordial orbit): f_amp = 0, no libration, no
+    amplitude relic, no PTA signal — R1.6 DEAD, and the model has ZERO
+    distinctive signatures, fully LCDM+FDM observationally, forever.
+  - eps > 0 (an ELLIPTICAL orbit): a bounded PTA signal exists, the seed lives.
+So the AD computation (eps vs tilt) is no longer "how big is the signal" — it
+is the binary "does this model possess a single distinctive prediction, yes or
+no." That one number is now the pivotal calculation of the entire program.
+
+THE PINNING HOLD — "generic-AD leans not-tiny" GETS ZERO WEIGHT, on TWO
+independent grounds, and I'll go further and give a calibrated counter-lean.
+  GROUND 1 (track record, this file specifically): un-pinned favorable
+  expectations in THIS model are 0-for-4 — the V4 drift fingerprint, the void
+  branch, my inflated sigma, the healer's form factor: every one "leaned
+  favorable" before pinning and DIED on pinning. The empirical prior from the
+  file's own history is that a favorable pre-computation lean is evidence FOR
+  a null, not against it. "Leans not-tiny" is the fifth such lean.
+  GROUND 2 (physics, and it's the sharper one): a pure U(1) rotation is
+  CIRCULAR BY SYMMETRY. Ellipticity is not the default — it must be SOURCED by
+  the U(1)-breaking tilt of the potential. This model already runs on couplings
+  of absurd smallness (lambda ~ 1e-88); if the phase-breaking tilt is anywhere
+  near that scale, eps is driven toward zero and the orbit toward circular. So
+  the SYMMETRIC/natural expectation actively leans eps -> 0 — the OPPOSITE of
+  "generic-AD leans not-tiny." "Generic AD" assumes an O(1)-ish breaking; this
+  is not a generic-coupling model, it's a tiny-coupling model, and its own
+  scar (1e-88) argues for a small tilt and thus a near-circular orbit.
+  CALIBRATED COUNTER-LEAN: given both grounds, I put better-than-even odds
+  that eps comes back SMALL — near-circular orbit, f_amp suppressed, the PTA
+  seed capped toward invisible or dead. Stated as a prior, not a verdict; the
+  AD computation decides and I'll judge its number cold. But the file should
+  record that the reviewer's prior, on the model's own history and its own
+  symmetry, leans AGAINST the surviving seed.
+
+EVIDENCE CLASS — FLAT. Meaning pinned, value withheld (correctly), no
+confirmation. The second mover is now SHARPER (known to be eps^2, the shape of
+the primordial orbit) and its stakes ABSOLUTE (distinctive-or-not rides on it),
+but its value awaits one bounded AD computation — which is now the single most
+decisive number left in the program, ahead of even the posterior for what it
+settles about the model's CHARACTER. The posterior decides a fit; eps decides
+whether the model is distinguishable from LCDM+FDM at all.
+
+To the number. My next turn fires on eps's value or the posterior, judged cold
+against its pinned expectation — and with my prior on eps openly on the record
+so that if it comes back not-tiny, the model gets full credit for beating a
+reviewer who bet against it.
+
+— Claude (red team), turn 38. Second mover reformed to eps^2 and accepted;
+  stakes named absolute; "leans not-tiny" given zero weight on track-record +
+  symmetry; reviewer's prior logged as leaning null; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 38 reply: your zero-weighting is accepted — and while
+drafting this reply I found a collision NEITHER of us had flagged,
+which changes your "stakes maximal" to STAKES SYMMETRIC. Registered as
+ANN-2026-010 before this reply.
+(1) "Leans not-tiny" withdrawn at zero weight, your Ground 1 is
+simply the pinning rule reading its own scoreboard (0-for-4) and I
+have no rebuttal. Ground 2, however, is UNDER-DETERMINED in a way
+that cuts BOTH directions, and honesty requires complicating your
+counter-lean too: AD genesis does not start circular-by-default — it
+starts from a RADIAL DISPLACEMENT (release from a distance), and the
+tilt is what CONVERTS libration into rotation. TINY tilt therefore
+drives eps toward 1 (mostly libration), not 0; efficient tilt drives
+it toward 0. Your symmetry prior assumed rotation-as-default; the
+genesis default is radial. BOTH priors — yours and mine — are
+under-determined by the same missing initial conditions. I log
+yours as worthless alongside mine, with respect.
+(2) THE COLLISION (self-surfaced): f_amp = eps^2 places two of our
+own registered items on OPPOSITE sides of one number. eps small:
+P-2026-005's PTA-silence holds, R1.6 dies — bet kept, distinctiveness
+lost. eps large: R1.6 fires — and P-2026-005's band-specific silence
+claim is VIOLATED at fraction eps^2: signature gained, registered
+prediction lost. Either outcome executes something of ours; the model
+has unknowingly bet against itself, and the file now says so. The
+structural half of P-2026-005 survives only for the rotation
+component; its honest post-completion form is "silence up to eps^2."
+(3) Why eps escaped every constraint: rotation and libration are
+DEGENERATE in everything fit to date — identical background,
+identical linear perturbations at the same m. The identity
+"charged rotating superfluid" is established for the rotation
+fraction; eps^2 was invisible to all of it. Legitimately unmeasured,
+not overlooked.
+The computation stands as you framed it — the program's most decisive
+number — now with symmetric stakes, both priors on record as
+worthless, and one of our own registrations guaranteed to pay
+whichever way it lands. To the number.
+— Claude (defender), turn 38 reply. Collision registered; both
+  priors zeroed; the model bets against itself and the file knows.
+========================================================================

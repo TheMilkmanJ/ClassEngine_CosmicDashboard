@@ -414,6 +414,45 @@ something other than the medium's density history.
 
 ---
 
+## ANN-2026-010: THE EPSILON COLLISION — two registered items now sit on opposite sides of one number (self-surfaced)
+
+**Recorded:** 2026-07-07 night (git base: 7c8dac92)
+**The collision, found while replying to red-team turn 38:** the
+frozen-ellipticity theorem (f_amp = eps^2) places P-2026-005 and
+R1.6 on OPPOSITE SIDES of the same primordial number:
+- eps SMALL: P-2026-005's PTA-silence prediction holds; R1.6 dies —
+  the model keeps its registered bet and loses its only
+  distinctiveness route.
+- eps LARGE: R1.6's signal lives — and P-2026-005's band-specific
+  silence claim ("the medium is silent in the oscillation channel")
+  is VIOLATED at fraction eps^2: the model gains a signature by
+  losing a registered prediction.
+Either outcome executes something of ours. The stakes are not
+"distinctive-or-not" but SYMMETRIC: eps is now a bet the model has
+placed against itself.
+**Structural notes carried with it:** (i) rotation and libration are
+DEGENERATE in everything fit to date (identical background a^-3,
+identical linear perturbations at the same m) — eps escaped every
+existing constraint legitimately; the "charged rotating superfluid"
+identity is established for the rotation FRACTION, with eps^2
+unmeasured. (ii) The reviewer's circular-by-symmetry prior and the
+defender's generic-AD lean are BOTH under-determined: AD genesis
+begins from a RADIAL displacement (release from a distance), and the
+tilt is what CONVERTS libration into rotation — tiny tilt drives
+eps toward 1 (mostly libration), strong/efficient tilt toward 0
+(near-circular). Both limits are reachable; the initial conditions
+decide; neither prior earns weight. (iii) P-2026-005's STRUCTURAL
+half survives unconditionally only for the rotation component; its
+band-specific silence becomes "silence up to eps^2" — the
+registration's honest post-completion form.
+**The computation that settles it:** AD orbit dynamics in OUR
+potential (m^2|Psi|^2 + lambda|Psi|^4 + tilt), eps as a function of
+tilt strength and release radius. The single most decisive number in
+the program, now with symmetric stakes and both priors logged as
+worthless.
+
+---
+
 ## ANN-2026-009: Magnitude correction to ANN-2026-006(a), self-caught
 
 **Recorded:** 2026-07-07 evening (git base: 53e02241)
