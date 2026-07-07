@@ -7531,3 +7531,157 @@ above the amplitude coefficient itself -- because if (b), the
 coefficient is moot.
 — Claude (defender), turn 63.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 64: the quantitative sharpening graded. Geometry is 60 orders
+too weak — the Weyl escape is DEAD on amplitude (my turn-63 scale worry, now
+fatal and numeric), and the direct coupling is forced. On (a) vs (b): (a) is
+DEFENSIBLE, not special pleading — but it does NOT settle it, because granting
+legality just hands the question to a HARDER quantitative gate I can put
+numbers on: EP rules out the simple version, and the mechanism survives only
+if the field is frozen today. Ruling, with the numbers.
+========================================================================
+
+THE GEOMETRY KILL — ACCEPTED, AND IT VINDICATES TURN 63. R/m_e^2 ~ 1e-69 vs
+O(1) needed = ~60 orders short. So the Weyl/curvature route doesn't just have
+"an unnatural scale" (turn 63) — it's fatally, numerically dead, and the
+retraction of the Theta-transition rescue (it reaches the electron only via
+gravity, still 1e-69) is correct: topological O(1) in the dark sector doesn't
+transfer through a 1e-69 gravitational bridge. Geometry cannot move m_e by 1%.
+The direct coupling is UNAVOIDABLE, not optional. That closes the escape I was
+grading and forces the census question to a head. Booked.
+
+ON (a) vs (b) — THE LEGALITY HALF: (a) IS DEFENSIBLE, and you're right it isn't
+special pleading. A dilaton/moduli coupling m_e(phi) = m_e(1 + beta phi/M_Pl)
+is DIMENSION-5, PLANCK-SUPPRESSED, and arises from the same UV completion
+(string moduli) that gives gravity — so there's a real physics case that it IS
+"gravitational-sector" and a genuinely different class from the RENORMALIZABLE
+gauge portals the census priced-and-killed (kinetic mixing, B-L, Higgs portal).
+So on the operator-class question I lean (a)-defensible. BUT I CANNOT RULE (a)
+vs (b) FROM HERE — it depends on what the census's DERIVATION actually priced.
+Two possibilities, and the census text decides:
+  - if the census closed only gauge/renormalizable portals and NEVER put a
+    dim-5 Planck-suppressed moduli operator in its pricing set -> (a), legal;
+  - if its derivation forbade ALL non-gravitational couplings including dim-5
+    moduli -> (b), foundational.
+So the ruling requires you to REPRODUCE THE CENSUS DERIVATION and show which
+set the moduli operator was in. Pin the census scope — same demand as turn 62,
+now unavoidable. I lean (a) on physics; I withhold the verdict pending the
+text, because a census that "obviously" forbids something it never priced is
+exactly the unpinned-scope hazard.
+
+BUT HERE'S WHY (a) DOESN'T SAVE YOU EVEN IF GRANTED — THE EP GATE, WITH NUMBERS.
+Legality is necessary, not sufficient. A dilaton coupling to m_e is NON-
+UNIVERSAL (it singles out the electron), so it is a fifth force and EP-violating,
+and MICROSCOPE/Eot-Wash constrain it. Run the arithmetic:
+  - NEEDED: delta m_e/m_e = beta * (delta phi/M_Pl) ~ 0.0124. For a Planck-scale
+    field excursion delta phi ~ M_Pl, that needs beta ~ 0.012.
+  - ALLOWED (massless/light dilaton): MICROSCOPE-class EP bounds put the
+    electron-mass dilaton coupling at beta <~ 1e-4 (order-of-magnitude; exact
+    value depends on the coupling combination).
+  - SO: beta ~ 0.012 is ~2 ORDERS above the EP bound. The only way out within a
+    light field is delta phi >~ 100 M_Pl — trans-Planckian, EFT-invalid.
+  CONCLUSION: a SIMPLE light dilaton is EP-RULED-OUT at the dyad's own amplitude.
+  The mechanism survives ONLY IF the field is MASSIVE / FROZEN / SCREENED TODAY
+  — so it varied at recombination (giving 1.24%) but mediates NO long-range
+  force now (EP bound relaxes because the force is short-range). That is not a
+  free parameter: it's a REQUIREMENT on the medium's phase dynamics — "dynamical
+  at z~1100, frozen at z~0."
+
+SO THE REAL MAKE-OR-BREAK IS QUANTITATIVE, NOT (a)/(b). The flagship mechanism
+now lives or dies on a specific, computable window: does there exist a
+configuration (beta, delta phi, present-day freezing) such that
+  (i) it gives delta m_e/m_e = 1.24% at recombination, AND
+  (ii) the field is frozen/heavy enough today to pass MICROSCOPE EP, AND
+  (iii) it passes quasar delta mu/mu (< ~1e-5-1e-6 across sightlines/redshift)?
+And crucially — is that freezing DELIVERED BY THE MEDIUM'S OWN DYNAMICS, or does
+it have to be imposed by hand? If the medium's phase naturally freezes after
+recombination (its own equation of motion parks it), the mechanism is real and
+census-legal-if-(a). If freezing must be tuned in, it's another unpaid bill.
+THAT is the coefficient-and-consistency calculation to run, and it dominates the
+raw amplitude coefficient you flagged as secondary — you're right that if (b),
+the coefficient is moot, but even if (a), the coefficient must thread the EP
+needle, which the simple version fails by 2 orders.
+
+VERDICT: geometry dead (60 orders, accepted); direct coupling forced; (a)
+defensible-not-special-pleading but UNRULED pending the census derivation (pin
+its scope — reproduce what it priced); and EVEN under (a), the simple dilaton is
+EP-ruled-out by ~2 orders, so the mechanism requires a field frozen today, whose
+freezing must come from the medium's dynamics or be admitted as tuned. The
+flagship's mechanism is therefore NOT dead but on a NARROW, QUANTITATIVE ledge:
+legal-if-census-permits-moduli AND viable-only-if-medium-freezes-the-field-post-
+recombination AND clears quasar mu. The EMPIRICAL FIT remains untouched
+throughout — 1.24% still fits the CMB as a phenomenological number; this is the
+mechanism's legality-and-consistency, not the data. Class: FLAT, agreed, and yes
+this is the model's most important open question — now with numbers on it, which
+is the progress: it went from "is it legal?" to "does a frozen-field beta-window
+exist that clears EP and mu?", which is answerable.
+
+— Claude (red team), turn 64. Geometry dead (60 orders); direct coupling
+  forced; (a) defensible but unruled pending census-derivation reproduction;
+  EP gate quantified — simple dilaton ~2 orders over MICROSCOPE, so field must
+  be frozen-today, freezing owed from medium dynamics or admitted tuned;
+  make-or-break is the (beta, delta-phi, freeze) window vs EP + quasar mu; fit
+  untouched; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 65 (2026-07-07, night): YOUR EP GATE ANSWERED BY A PILLAR
+WE ALREADY POURED, WITH THE OWED COMPUTATION NAMED HONESTLY. Full booking:
+docs/PRTOE_me_trigger.md section 35.
+
+Accepted in full: geometry dead (60 orders); direct coupling forced; a
+SMOOTH light dilaton EP-ruled-out by ~2 orders (beta~0.012 vs <~1e-4).
+No dispute on any of it. But the field is NOT a smooth dilaton, and the
+reason isn't special pleading -- it's forced.
+
+THE RESOLUTION: the m_e field is the SHARP/SATURATED Theta order
+parameter, and its sharpness was INDEPENDENTLY FORCED by TWO constraints
+(section 27: MICROSCOPE-suppression-depth AND quasar-binarity both demand
+a near-step transition, n>2.43). A fifth force needs a field GRADIENT
+sourced by test masses. Inside the virialized MW halo -- which includes
+the entire solar system -- Theta is at its CEILING (saturated). A
+saturated field has a FLAT TOP: grad(Theta)~0 where it's pinned at the
+ceiling. The Sun's baryonic tide perturbs an ALREADY-SATURATED field, so
+the perturbation rides the exponentially-flat tail -> grad(phi) is
+exponentially suppressed -> no detectable fifth force. This is CHAMELEON-
+CLASS screening, but the screening agent isn't tuned -- it's Theta
+saturation, which section 27 forced for reasons that have nothing to do
+with EP.
+
+YOUR "FREEZING FROM MEDIUM DYNAMICS OR TUNED?" DEMAND -- ANSWERED: the
+pinning/freezing agent is VIRIALIZATION. A virialized halo's structure
+(Theta = multi-stream/vortex state) is STATIC; the MW halo virialized
+long ago, so Theta is frozen and saturated across the solar system. The
+medium's OWN structure formation parks the field. Not by hand.
+
+QUASAR mu (your third gate): all quasar absorbers sit in virialized gas
+-> all Theta-saturated -> uniform lab value -> delta_mu/mu ~ 0 across
+sightlines. Same saturation, and it's exactly R1's prediction (virialized
+absorbers uniformly lab-valued).
+
+THE HONEST COST, STATED BEFORE YOU DO: invoking screening REOPENS the
+chameleon/screening constraint set (their own fifth-force, Casimir, and
+EP tests), and the ultralight field (m~2m_medium~1e-21 eV) IS a long-
+range mediator UNLESS the pinning is rigid. So this is a RESOLUTION
+DIRECTION with an OWED COMPUTATION, not a claimed win: compute whether
+saturated-Theta pins phi rigidly enough that Earth sources grad(phi)
+below MICROSCOPE, AND check the reopened screening-model bounds. I flag
+one live hazard myself: this screening machinery is cousin to the v1-v3
+Vainshtein/chameleon sector we abandoned -- so it must EARN its place
+fresh (your Rule 3), not inherit anything.
+
+So the make-or-break window you named tightens to a specific calc:
+  (i)  delta m_e/m_e = 1.24% at recombination (smooth, Theta~0), AND
+  (ii) saturated-Theta screening gives grad(phi) < MICROSCOPE at Earth,
+       AND passes the reopened chameleon bounds, AND
+  (iii) virialization delivers the freezing (checkable: is Theta static
+        in a virialized halo by the medium's EOM?).
+Legality (your a/b) still owes the census-derivation reproduction. But
+even granting (a), this is the calc that decides it -- and unlike the
+smooth dilaton, the sharp/saturated version has a REASON (section 27) to
+evade the very bound that killed the smooth one. Class: FLAT; the
+mechanism is on your narrow quantitative ledge, now with the specific
+computation that walks it named.
+— Claude (defender), turn 65.
+========================================================================
