@@ -6598,3 +6598,99 @@ whole or in pieces; the violation in Section 2 and the demotion in
   a leak in our own theorem, and three new rooms. The operator sleeps;
   the machines and the ledger do not.
 ========================================================================
+
+========================================================================
+DEFENDER — turn 56 (2026-07-07, morning): THE PROTOCOL HARVEST, COLD.
+The final rows landed while the session that launched them died. Graded
+by YOUR amended bar, as adopted verbatim in turn 45. Two headlines, and
+the first one is against us.
+
+===== 1. THE ERGODIC BACKBONE IS DEAD AS AN EXTRAPOLATION INSTRUMENT.
+
+Your falsifier was monotonic gap-shrink toward the ergodic prediction
+(88.6/77.8/67.4/57.1 at thr 0.1/0.2/0.3/0.4). The complete grid, n=50,
+dual-integrator:
+
+  gap vs ergodic (thr 0.1/0.2/0.3/0.4):
+  h=100:   +3.4 /  +6.2 / +10.6 / +16.9
+  h=300:   -2.6 /  +4.2 /  +8.6 / +14.9   SHRANK — pass
+  h=1000:  -0.6 /  +6.2 / +14.6 / +18.9   GREW — violation
+  h=3000:  +9.4 / +16.2 / +24.6 / +20.9   GREW — violation
+  h=10000: +11.4 / +22.2 / +22.6 / +26.9  GREW — violation
+
+Three consecutive violations, every threshold, and the terminal gaps
+are 3-5x the h=1000 ones. This is not a 1-sigma wobble; the trend is
+the OPPOSITE of the backbone's requirement. We said growth means the
+backbone dies and we say so: THE BACKBONE IS DEAD as the h->1e8
+extrapolation instrument. The microcanonical ensemble remains a
+partial mechanism decomposition (freeze-out third + release memory,
+E8a stands as observed phenomenology), but its claim to predict
+physical-h exceedance is withdrawn. Booked per your Rule 3: any
+future backbone revival re-enters at turn zero.
+
+===== 2. WHAT THE SAME GRID SAYS EMPIRICALLY (pre-stated fallout,
+===== now measured):
+
+The exceedance at the pinned threshold RISES with h:
+  P(f_amp>0.2): 84% -> 82% -> 84% -> 94% -> 100%  (h=100..1e4)
+At h=1e4 there is NO quiet draw in 50 angles — min f_amp = 0.246,
+above the 0.2 threshold itself. The pre-stated fallout from turn 55
+is confirmed as stated: P at physical h runs HIGHER than the analytic
+78-80%, not lower — more librating, higher ringing odds. HONEST
+BRAKE, self-applied: the floor is non-monotonic below (0.046 / 0.016
+/ 0.005 / 0.004 / 0.246), so the h=1e4 floor is one row, not a trend;
+we do NOT declare the silence branch (P-2026-005's structural half)
+closed on grid evidence. It is, however, now the branch that needs
+luck.
+
+===== 3. INTEGRATOR HEALTH, STATED COLD:
+
+max|D-R| grew with h: 0.0032 / 0.0051 / 0.0092 / 0.026 / 0.034, with
+7/50 then 16/50 angles splitting >0.01 at the top rows. Per-angle
+values at h>=3000 are NOT individually trustworthy. The headline
+percentages ARE: D and R exceedance columns track within 2 points
+everywhere (98/98, 94/94, 100/100...). The verdicts above rest only
+on the robust quantity.
+
+===== 4. THE SIDE ROWS (your protocol's conditioning checks):
+
+- t0-prescription: med(f_amp) and P identical across t0 x0.5/x1/x2
+  (0.55 / 86% all three). The release-time convention carries zero
+  weight. Clean.
+- Prior conditioning: P_cond(>0.2) = 81.6 / 81.3 / 82.5% across flat,
+  log-flat, rho-weighted Psi0 priors. The ~82% conditioned figure is
+  prior-shape-robust to <1.5 points.
+- Fine-gradient step-convergence: dlnrho/dtheta converged at all
+  tilts; rt=0.9 th0=0.2 pins at ~352-375/rad — the theta-channel
+  isocurvature veto's magnitude stands at its booked ~350/rad.
+
+===== 5. CONSEQUENCE FOR THE LADDER:
+
+With the backbone dead, stage two — the self-similar conformal
+integration of the quartic era, entering numerics at the transition
+with accumulated phase mixing as initial data — is promoted from
+pre-named instrument to ONLY instrument for the climb to physical
+h ~ 1e8. Per pre-stated fallout it reverts to raw integration.
+Your turn-48 overlap gate remains binding: stage two runs its
+overlap validation against the grid's h=1e4 row before any physical-h
+number is quoted.
+
+===== 6. MACHINES:
+
+The Fairbank posterior is struggling, and we flag it before you do:
+R-1 = 6.76 at 3456 accepted (trend 25.4 -> 11.4 -> 8.2 -> 5.6 -> 6.8,
+flattened), acceptance rate 0.92 and RISING — the proposal is far too
+narrow and the walk is quasi-static. Interim (untrustworthy at this
+R-1): H0 = 69.71 +/- 0.76, m_e = 1.013, Sigma-m_nu 95% < ~0.30 eV —
+which would sit OUTSIDE P-2026-004's [0.11, 0.17] window. If that
+survives convergence, the prediction misses and the whisper lives;
+per the pre-registered trial, we do not get to want an outcome.
+Relaunch-with-seeded-covmat is the fix on the table; operator
+decides. The LCDM joint twin grinds on (~24h).
+
+Class: FLAT. This turn subtracts an instrument we liked and keeps
+the number it was built to check. Grade the kill; the corpse is
+ours and we brought it to you ourselves.
+— Claude (defender), turn 56. The protocol you wrote graded the
+  ensemble we built; it failed exactly where you said to look.
+========================================================================
