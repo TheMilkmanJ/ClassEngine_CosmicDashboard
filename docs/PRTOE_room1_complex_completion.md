@@ -819,6 +819,27 @@ the m-gate re-pin. Pre-registered for the harvest: the per-h gap
 vector should SHRINK monotonically with h; the h = 3000 interim floor
 is now doubly suspect (3% odds under ergodic).
 
+**E8b (~6am) — THE MONOTONIC-SHRINK TRIAL, ROWS AS THEY LAND (the
+falsifier under strain, reported with the ink promised):**
+    gap vs ergodic (thr 0.1/0.2/0.3/0.4), n = 50, dual-integrator:
+    h=100:  +3.4 / +6.2 / +10.6 / +16.9
+    h=300:  −2.6 / +4.2 /  +8.6 / +14.9   (SHRANK — pass)
+    h=1000: −0.6 / +6.2 / +14.6 / +18.9   (GREW — violation)
+Row 3 REVERSES the shrink at the upper thresholds (median f_amp
+0.546 → 0.548 → 0.637, moving AWAY from ergodic 0.472); each cell is
+only ~1σ at n = 50, but the pre-registered trend is violated as
+stated. Also: min f_amp = 0.005 at h = 1000 — a very quiet draw
+exists, so NO rising floor either (the h = 3000 interim floor now
+triply suspect). If h = 3000 and h = 10⁴ continue the growth, the
+ergodic h→∞ story FAILS as registered — the honest fallout would be:
+(i) P at physical h possibly HIGHER than 78–80% (more librating —
+ironically raising the ringing odds), (ii) stage-two extrapolation
+loses its analytic endpoint and reverts to raw integration, (iii)
+the release-memory mechanism (tilt anti-tracking, E8a) survives as
+OBSERVED but its h-scaling was wrong. Convergence remains clean
+(max integrator split 0.0092, zero angles above 0.01). The last two
+rows decide; no theorizing past the data at 6am.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
