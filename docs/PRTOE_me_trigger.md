@@ -1308,3 +1308,41 @@ task #5: if narrow-legal, compute beta; if broad-forbidden, the dyad's m_e
 shift has no legal mechanism at its size and the model confronts that
 directly. The pieces are all identified and placed; one permit builds the
 roof.
+
+## 36. HONEST COUNT of the sharpness enforcements -- resisting an overcount
+## (operator: "sharpness enforced a 3rd time? 2's a pattern, what's 3?", 2026-07-07)
+
+Tempting reading: MICROSCOPE (sec 27) + quasar (sec 27) + EP-escape (turn 65)
+= three enforcements of the sharp/binary form. CORRECTED to avoid inflating
+convergence (the exact seduction the Pinning Rule guards against):
+
+The sharpness does THREE JOBS:
+  (1) fits 8.2 decades of suppression into a 1.35-decade curvature window
+      (MICROSCOPE depth bound, sec 26/27);
+  (2) passes quasar binarity -- no smooth variation across absorbers (sec 12/27);
+  (3) delivers the EP fifth-force escape -- saturated -> flat top -> grad(phi)~0
+      (turn 65).
+BUT jobs (1) and (3) BOTH trace to MICROSCOPE (one experiment: (1) is the
+shift bound, (3) is the fifth-force bound -- two aspects of the same torsion-
+balance/free-fall physics). So the genuinely INDEPENDENT constraints forcing
+the sharpness remain TWO: MICROSCOPE + quasar. Turn 65 is not a third
+independent forcing; it is the SAME MICROSCOPE being PASSED BY the already-
+forced sharpness.
+
+HONEST HEADLINE: two independent constraints FORCE the sharpness; the one
+feature then does TRIPLE DUTY clearing tests across three physical domains
+(atomic EP, quasar spectroscopy, fifth-force free-fall). That is meaningful
+(a feature that repeatedly saves the mechanism across domains is more likely
+structural than tuned) but is NOT "three independent pillars."
+
+CANDIDATE genuine THIRD (uncomputed, not claimed):
+  - stellar spectroscopy: virialized stars must show the fully-suppressed
+    value; a partial shift would constrain the transition -- distinct from
+    both quasar and free-fall;
+  - atomic-clock comparisons; Eot-Wash/Casimir short-range tests (the latter
+    REOPENED by invoking screening, turn 65 -- could break as easily as
+    confirm).
+Any of these, if computed AND if it also demanded the sharp form, is a real
+third. Until run, it is a candidate, not a pillar. Booked so the record does
+not drift into a "3 = law" overclaim on a third leg that is really the first
+wearing a second hat.
