@@ -550,3 +550,69 @@ Rule. Adds one concrete item to the #11 sim spec: check for m_e-
 relevant structural differences between the psi and chi components
 WITHIN a single simulated halo, not just aggregate halo-vs-void
 comparisons.
+
+## 20. A FIELD-THEORETIC ANSATZ FOR THE m_e COUPLING (2026-07-07 night, operator's order:
+## "derive the bare 1.0124 from an actual field coupling")
+
+**THE PROPOSAL:** couple the electron mass to the medium's own COHERENCE
+ORDER PARAMETER, not to density or to a foreign thermometer:
+
+    L_int = -epsilon * G(x) * m_e_bar * (electron mass bilinear)
+    m_e_eff(x) = m_e_bar * [1 + epsilon * G(x)]
+
+where G(x) is the LOCAL SUPERFLUID COHERENCE FRACTION, built from the
+phase gradient of Psi = |Psi| e^{i xi}. Grounding: curl(grad(xi)) = 0
+IDENTICALLY for any smooth, single-valued phase (a mathematical fact,
+not an assumption) — so G=1 (full coupling) wherever the phase is
+smooth and vortex-free, and G->0 wherever phase singularities (vortex
+lines) have nucleated. This is the SAME vortex tangle ALREADY booked
+for virialized halos ("granulated halos ARE quantum turbulence — a
+Vinen-class vortex tangle," Part I domains doc) — the coupling reuses
+existing model structure, not an invented mechanism.
+
+**WHY THIS SATISFIES LAW 3 (bank branch transfer, not reallocation):**
+G(x) is a purely GEOMETRIC/TOPOLOGICAL property of the phase field
+configuration — not an energy-exchange vertex. No energy is dumped
+anywhere; the effective mass is redefined by the local coherence
+STATE, exactly the non-dynamical "rules amendment" structure Law 3
+requires. No new y-distortion risk beyond what section 10 already
+priced.
+
+**THE AMPLITUDE, CHECKED HONESTLY:** tested epsilon=0.0124 against
+every already-pinned dimensionless number in the model (lambda~1e-88,
+m/M2, m/MPl, M2/MPl, rho_inf^(1/4)/M2, and forced powers) — NONE land
+near 1e-2 without an arbitrary forced exponent (e.g. lambda^(1/44)
+hits it by construction, not derivation). **NO NATURAL MATCH FOUND.**
+The amplitude is NOT derived by this construction — it remains a
+genuinely new, independent coupling constant, honestly reported as
+such. This ansatz derives the FORM of the coupling (what it couples
+to, why it satisfies Law 3, why it reproduces the on/off trigger with
+a topological reason), not the NUMBER.
+
+**FLAGGED TENSION WITH §19 (not silently overwritten): the mechanism,
+followed carefully, REVERSES §19's psi/chi layering direction.**
+Section 19 treated "collapse" as monolithically disruptive. But
+collapse bundles TWO physically distinct processes with OPPOSITE
+effects on coherence: (i) INITIAL VIOLENT RELAXATION (fast, chaotic
+virialization) genuinely destroys coherence, nucleating the vortex
+tangle — this is what §19 had in mind; (ii) LEVKOV GRAVITATIONAL
+CONDENSATION (slow, quasi-adiabatic cooling into a soliton core) is
+the OPPOSITE: coherence being REBUILT, not destroyed — a soliton is
+close to the medium's most coherent state. Under THIS mechanism:
+**psi (already condensed into a soliton, per Levkov) should carry the
+HIGH-coherence, closer-to-BARE value; chi (still an uncondensed,
+still-turbulent wave gas) should carry the SUPPRESSED value** — the
+REVERSE of §19's guess. NOT resolved tonight: whether the coupling
+tracks INSTANTANEOUS local coherence (favoring this entry's direction)
+or CUMULATIVE violent-relaxation history that a later coherent core
+doesn't erase (favoring §19's direction). Genuinely open, flagged for
+the same two-field sims (#11) to settle — this is now the SHARPEST,
+most concrete open question the sim campaign needs to answer, since
+it flips the sign of a real prediction depending on which physics
+wins.
+
+STATUS: hypothesis-grade field-theoretic ansatz. Form of coupling
+proposed and motivated; amplitude honestly reported as undetermined;
+one self-identified internal tension flagged rather than resolved by
+assertion. Same Pinning Rule discipline throughout — nothing here is
+registered as a prediction.
