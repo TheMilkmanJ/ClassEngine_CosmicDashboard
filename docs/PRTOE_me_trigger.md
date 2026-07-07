@@ -414,3 +414,39 @@ derivations (#11's sims; B's non-arbitrary redshift), zero new
 overclaims. Fairbank chain healthy (13,779 steps / 1,456 accepted,
 ~5h13m in, watchdog green) — its converged varying_me value remains
 the free, near-term check on candidate #1's specific target (1.0101).
+
+## 16. "Size of expansion, or expansion + heat?" (operator, 2026-07-07 evening — sharpens candidate #1)
+
+Operator proposes the general template: not expansion alone, but a
+combination of expansion and heat. This IS the correct universal
+pattern — every cosmological transition (Compton decoupling included,
+candidate #2: Gamma_C(T) vs H(a)) has exactly this shape: a
+temperature-dependent RATE checked against the expansion rate.
+
+TESTED using the model's OWN already-derived version: the LEVKOV
+CONDENSATION RATE 1/tau_gr (pulled in the reconciliation audit/granule
+scoping, §granule doc) depends on LOCAL density AND velocity
+dispersion — the medium's own "heat." Comparing 1/tau_gr to H(z) is
+precisely "expansion + heat," using native physics, not borrowed
+baryon physics.
+
+FINDING: velocity dispersion is STRUCTURALLY a property of virialized
+(collapsed) matter — it has no meaningful value at cosmic-mean/smooth-
+background density, because there is nothing yet collapsed to disperse
+velocities around. Therefore tau_gr cannot be evaluated globally; the
+"expansion+heat" criterion, taken seriously with the model's own
+formula, is INTRINSICALLY LOCAL.
+
+CONSEQUENCE: this does not open a new global candidate — it SHARPENS
+candidate #1 (the fold) with an explicit, already-derived firing
+condition: **Theta turns on wherever/whenever tau_gr(local rho, local
+v) < age(z)** — condensation has had time to occur. This is the
+concrete, quantitative form of R1/Theta that was previously only
+qualitative (§3). The pure REDSHIFT-ONLY reading (§13 Reading B, no
+heat term) remains the only surviving form of a truly GLOBAL trigger —
+adding heat, honestly, pulls the mechanism back to locality every time
+the model's own physics is used to instantiate it.
+
+Scope note: this closes the LEVKOV-based global attempt specifically;
+it does not claim to have ruled out every conceivable expansion+heat
+combination, only the model's own most natural, already-derived one.
