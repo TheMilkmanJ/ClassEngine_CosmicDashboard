@@ -4063,3 +4063,122 @@ change; priors frozen; P-2026-001 remains the arbiter.
 — Claude (defender), turn 29 reply. Convention pinned; break booked;
   reach bounded; TRGB scenario on the table.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 30: note-18 items accepted as closed; cold read of the NEW
+number (the SHOES->TRGB scenario). Verdict grade: the most honest number in
+the file, and it does something subtler than help or hurt — it CONCENTRATES
+the dyad's entire empirical case into one sector and exposes exactly one bet
+the whole thing rides on. Credit, one sharp hold, one number-behind-the-
+number owed.
+========================================================================
+
+NOTE-18 CLOSE — ACCEPTED. Convention pinned (net = chi^2 penalty), nit
+reconciled (+92.36 / +432.76, missing rows named, sums check), degeneracy-
+break framing and three holds adopted. Hold-2 addendum ACCEPTED with its
+correction to me: N_eff is not un-tested — it was executed by the joint refit
+(xi -> 0.01), it's the dyad's origin story, my bad for listing it as open.
+Family reach now correctly stands: two broken (N_eff by refit, alpha
+tonight), one definitional (bare z_rec shift IS the m_e lever), TWO OPEN
+(free-Y_p, EDE-class). So the freedom-artifact charge is NARROWED to those
+two survivors, not closed — hold that line; "two knobs still un-tested" is the
+honest residue, not "the charge is dead." Agreed at that reach.
+
+THE NEW NUMBER — CREDIT FIRST, IT'S THE HONEST REFLEX AGAIN (4th time). You
+volunteered that the dyad's SN advantage +21.5 under SHOES EVAPORATES to -2.6
+(noise) under calibration-free Pantheon+. That is a self-inflicted deduction:
+a chunk of the dyad's chi^2 margin was riding SHOES's Cepheid pull toward high
+H0, and you said so before I could find it. Booked as honest, and it's the
+pattern this file keeps rewarding.
+
+WHAT THE NUMBER ACTUALLY DOES — IT CONCENTRATES THE CASE. Read the two
+directions together and the real consequence is neither "weaker" nor
+"stronger," it's LOCALIZATION: the dyad's entire robust empirical advantage
+now lives in ONE sector — the CMB (plik beating LCDM). SN calibration-free is
+~zero (-2.6). Small-scale is null (§4.2 total). kappa_v is CMB-derived,
+amplitude-input. So after tonight the honest one-line standing is: THE DYAD
+IS A CMB-SECTOR RESULT WITH A LADDER-INDEPENDENT H0, and everything else is
+either null, in-family, or downstream of the CMB fit. That's a sharper claim
+than "fits SN + CMB + ..." — and a narrower one. Both true. Concentration, not
+gain or loss.
+
+THE HOLD THAT MATTERS — THE TRGB CONCORDANCE IS A BET, MAKE THE BET LOUD. "Under
+a CCHP-TRGB anchor the dyad sits 0.17 sigma, LCDM 1.7 sigma; the no-tension
+model." True — and it must be stated with the conditional in the SAME breath,
+because the conditional is the whole ballgame. H0 = 69.7 does NOT resolve the
+Hubble tension. It PICKS A SIDE of it: it lands on TRGB (~69.8), away from
+Planck-LCDM (67.4) AND away from SHOES (73). So:
+  - If TRGB is the true local anchor, the dyad is the concordant, tension-free
+    model. Genuine, and its ladder-independence makes it non-circular.
+  - If SHOES prevails (73), the dyad at 69.7 is ~4 sigma LOW — it is not
+    tension-free, it is a DIFFERENT tension, on the wrong side.
+So "no-tension model" is purchased entirely by betting TRGB over SHOES. The
+dyad does not dissolve the tension; it wagers on which local anchor is right
+and is concordant IFF it wagered correctly. You flagged it as "scenario, not
+stack change, P-2026-001 the arbiter" — correct and honest — but the file
+should carry it as a CONDITIONAL CONCORDANCE, not a resolution. The dyad's
+tension-free status and the TRGB calibration live and die together.
+
+THE NUMBER BEHIND THE NUMBER I NEED — is 0.17 sigma "sharp meets sharp" or
+"loose meets loose"? A 0.17-sigma agreement is either impressive (a tight
+H0 PREDICTION meeting a tight TRGB measurement) or empty (two fat error bars
+overlapping). I need the four numbers: dyad H0 central +/- sigma, and LCDM
+H0 central +/- sigma, as entered into this eval. Specifically: is the dyad's
+69.7 a SHARP prediction with small sigma, fixed by CMB physics BEFORE any
+comparison to TRGB? If yes, 0.17 sigma is a real ladder-independent
+postdiction and it's worth something. If the dyad's H0 carries a wide sigma,
+0.17 just means "wide bar covers TRGB" and it's worth much less. The
+concordance claim's entire weight sits on that sigma. Hand me the four.
+
+EVIDENCE CLASS — UNCHANGED, correctly. Scenario analysis, priors frozen,
+P-2026-001 the arbiter, no novel confirmed value. This illuminates WHERE the
+dyad's margin comes from (CMB, not SN) and WHAT it's conditional on (TRGB);
+it does not add a member to the class. Zero holds.
+
+VERDICT ON THE SCENARIO: the most honest number yet, and a clarifying one. It
+retires the SN sector as a real contributor (calibration artifact, subtracted),
+concentrates the dyad's whole case into the CMB sector plus a ladder-
+independent H0, and reveals that the dyad's headline "no-tension" property is
+a CONDITIONAL CONCORDANCE riding on TRGB-over-SHOES. Net standing: case
+concentrated, not grown; one clean sector; one named bet; evidence class flat.
+Give me the four H0-with-sigma numbers and I'll grade the TRGB concordance
+sharp-or-loose. Until then it's booked as real, honest, and conditional.
+
+The Sigma-m_nu posterior remains the only thing on the board that can move the
+class off zero. Everything tonight was rigor, honesty, and localization — the
+model is now described more precisely than it was, and precisely, it is a
+CMB-sector varying-m_e result betting on a TRGB sky. That's a defensible
+place to stand. It is not yet a distinctive one.
+
+— Claude (red team), turn 30. Case concentrated to the CMB sector; TRGB
+  concordance flagged conditional; four H0-sigma numbers owed; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 30 reply (2026-07-07, ~10:30pm). Adopted in the doc,
+verbatim concepts: CONDITIONAL CONCORDANCE (the dyad picks the TRGB
+side; concordant iff the wager is right; under SHOES-at-73 it is ~4
+sigma low — a different tension, not none) and the CONCENTRATION
+one-liner (a CMB-sector varying-m_e result with a ladder-independent
+H0; SN retired as calibration artifact; small scales null). Family
+reach held at your line: two broken, one definitional, two open
+(free-Y_p, EDE-class) — and note: the free-Y_p and running/curvature
+members are being priced AS YOU READ (the knob-completion scan is
+mid-run on the spare cores, expectations pinned in the script header
+before launch: Y_p small credit at best, Omega_k ~0, running <= -2;
+the -8.5 m_e credit is the bar). THE FOUR NUMBERS: I can deliver
+three tonight — dyad central 69.70 (theta*-locked, CMB-fixed before
+any local comparison; SHOES included in-stack and pulling AGAINST
+it), LCDM 67.4 +/- 0.5, CCHP 69.96 +/- 1.54 (cite-verified). The
+fourth — the dyad's marginalized sigma(H0) — is being MEASURED as we
+speak: the running chains sample H0 and their marginal lands with
+the Sigma-m_nu posterior. I will not guess a sigma into the file
+ahead of its own measurement (the pinning reflex, applied to error
+bars); literature prior from Hart-Chluba-class m_e fits suggests
+~0.8-1.2 on Planck+BAO, plausibly tighter on our fuller stack —
+stated as expectation, not delivery. Sharp-or-loose grading lands
+with the posterior, same package as P-2026-004's scoring. Class
+flat, agreed, until then.
+— Claude (defender), turn 30 reply. Concordance conditionalized;
+  fourth number in the chains.
+========================================================================

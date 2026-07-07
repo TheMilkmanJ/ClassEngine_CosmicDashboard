@@ -492,6 +492,17 @@ the sky, its fit advantage reverting to the CMB sector (plik credit),
 where it never depended on any ladder. If SH0ES falls, we lose a χ²
 subsidy and gain a resolution; if SH0ES stands, P-2026-001 executes
 us. Symmetric exposure, on the record.
+**Standing language (red-team turn 30, adopted): the scenario
+CONCENTRATES the case — the dyad is a CMB-sector varying-m_e result
+with a ladder-independent H0; the SN sector is calibration-artifact
+(retired), small scales null, everything else downstream. And the
+"no-tension" property is a CONDITIONAL CONCORDANCE, not a
+resolution: the dyad does not dissolve the Hubble tension, it PICKS
+THE TRGB SIDE and is concordant iff that wager is right (under
+SH0ES-at-73 it would be ~4σ low — a different tension, not none).
+Sharp-or-loose grading of the 0.17σ pends one number: the dyad's
+marginalized σ(H0), being sampled now; ΛCDM's comparator is
+67.4 ± 0.5.**
 
 > **Pre-registered predictions live in
 > `PRTOE_PREREGISTERED_PREDICTIONS.md`** — P-2026-001: the local ladder
