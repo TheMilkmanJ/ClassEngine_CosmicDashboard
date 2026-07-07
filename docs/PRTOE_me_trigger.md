@@ -1596,3 +1596,49 @@ is the electron's EM self-energy bistable under the medium's coherence? --
 supported by the established sharpness and with SM precedent. Best resolution
 direction to date. STATUS: resolution direction, not proof; the bistability
 QFT calculation is the make-or-break, now sharply named.
+
+## 43. RED-TEAM WON THE BISTABILITY EXCHANGE: QED is subcritical, so the
+## reframe RELOCATES the census fight, not dissolves it (Gemini turn 69 /
+## defender turn 70, 2026-07-07 ~4pm) -- CONCEDED
+
+Gemini's turn-69 attack on the sec-42 bistability reframe is correct and
+conceded:
+  1. QED is SUBCRITICAL: alpha ~ 1/137 << critical coupling alpha_c ~ pi/3.
+     The electron self-energy has ONE well, is NOT bistable in the SM as-is.
+  2. The precedent cited (chiral symmetry breaking / dynamical mass) is a QCD
+     phenomenon -- strong, supercritical -- and does NOT transfer to the
+     electron (wrong force borrowed). Conceded.
+  3. So the bistability needs a SUPERCRITICAL PUSH to create the second well,
+     and that push is exactly where the strong coupling re-enters: dark-
+     mediated -> census reopens; SM-internal -> unmotivated strong QED claim.
+     The reframe RELOCATES the census fight ("amplitude coupling" -> "the
+     bistability's origin"), does NOT dissolve it. Turns 61-67 STAND.
+  4. The 1e-60 trigger only works if the wells are degenerate to 1e-60 (tuned
+     to criticality); reaching/holding criticality is itself tuned or driven-
+     strong. The 1e-60 was doing suspicious work. Conceded.
+
+WHAT SURVIVES (genuine residue, Gemini-granted):
+  - The 60-ORDERS PROBLEM IS PERMANENTLY DEAD. The latent-heat picture is
+    sound: if a switch exists, gravity flips it and EM pays the ~6 keV from
+    the reorganization, not the trigger. Gravity's weakness is off the table;
+    the sole obstacle is now the switch's EXISTENCE.
+  - THE QUESTION IS SHARPER: from "is a strong dark-EM coupling legal" (vague)
+    to "what makes the electron bistable, and is that origin weak-legal or
+    strong-illegal" (concrete QFT). Progress, not dissolution.
+
+CLEARINGHOUSE PRINCIPLE (sec: Atlas, this session) SHARPENS THE FORK: if space
+has NO EM account (its only clearinghouse is gravity, opened at contact), the
+supercritical push CANNOT be dark-mediated -> it MUST be SM-internal -> Gemini's
+"unmotivated strong QED claim" branch is FORCED, not optional. The operator's
+architecture does not rescue the dissolution; it collapses the fork to one
+prong: EITHER the electron is bistable on SM-INTERNAL grounds (a real, hard,
+defend-or-die claim), OR the census must grant space a limited EM-trigger
+account (narrow reading, turns 61-67, back to reproducing the census
+derivation).
+
+NET STATE: census fight NOT dissolved, back as THE hinge; 60-orders permanently
+dead; question sharpened to electron-bistability-origin; empirical fit
+(varying_me=1.0124) untouched. MAKE-OR-BREAK (Gemini turn 69, unchanged):
+exhibit a concrete bistable-electron mechanism whose supercritical binding is
+NOT a strong dark-EM coupling. We do NOT have one. Absent that, the narrow
+census reading is the only surviving path.
