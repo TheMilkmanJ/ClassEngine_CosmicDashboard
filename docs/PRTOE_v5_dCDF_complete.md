@@ -1504,6 +1504,17 @@ everyone" — two picks in the lock (Gleason: pricing forced by ledger
 geometry, proven; Zurek: unit-note counting, respected but contested
 for circularity). Neither fully turned; the operator reconstructed
 the second from a cash register.
+**Addendum — "easier to distribute" (same evening):** the operator's
+one-line follow-up is the third Zurek pillar, quantum Darwinism: the
+environment is a broadcast medium; branches become CLASSICAL when
+their records copy redundantly into many independently-readable
+environmental fragments — classicality is selected by distributional
+cheapness (observed: photonic/NV-center redundancy experiments,
+2018–19). And fungibility closes the counting loop: probability can
+only be built on interchangeable units — swap-symmetry (envariance)
+is exactly what forces equal notes to equal odds. Small bills are not
+merely convenient; they are the only denomination symmetric enough
+to price.
 
 ### Closed
 
