@@ -136,3 +136,24 @@ physical, from quasar/BBN-adjacent bounds, and must be defended as
 such when quoted). PolyChord remains necessary for the NON-nested
 comparisons and as the S-D cross-check; it is no longer the only door
 to an evidence number.
+
+## GRANULE-POWER FORMULA CONFIRMED (Tier-3 partial, 2026-07-07)
+
+Ran the statistical core of the granule sim: two INCOHERENT wave-DM fields
+(psi=particle, chi=antiparticle), each a Gaussian speckle field, total density
+rho = |psi|^2 + |chi|^2. Measured granule power S = Var(rho)/mean(rho)^2 vs the
+predicted p^4+q^4 = (1+f_rot^2)/2.
+
+RESULT (N=2e6 cells): S = (1+f_rot^2)/2 CONFIRMED to <1% at f_rot = 0, 0.4, 0.8,
+1.0. (An initial 10% offset at N=400 was heavy-tail under-sampling, resolved by
+high statistics.) So the epsilon-meter's LOAD-BEARING number is verified: the
+dice-median f_rot~0.4 (f_amp~0.6) gives S~0.58 -> granule heating suppressed ~40%
+vs free FDM. This is the number dwarf-heating / stellar-stream data would test.
+
+STILL OWED (the bigger Tier-3 piece, needs a real SP integrator, not statistics):
+  - full Schrodinger-Poisson DYNAMICS (self-gravity, soliton formation);
+  - the psi/chi CONDENSATION LAG (Levkov rate, Room 5 chi-lag) -- needs time
+    evolution to produce the redshift-dependent core-halo scatter pattern;
+  - mapping S -> actual dwarf-heating rate and comparison to real SPARC/stream data.
+Status: statistical core DONE (S-formula confirmed); dynamical sim + data
+confrontation NOT started (infrastructure).
