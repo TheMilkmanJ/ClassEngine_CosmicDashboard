@@ -900,3 +900,35 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   = a private-clock rate posted on a chip; khronon tick = the public
   current. Operator's reconstruction streak: Zurek, Jacobson,
   Affleck-Dine, Penrose CCC, ergodic backbone — now Weyl.
+
+  **Weyl-door follow-ups (same hour, operator's stream, scored):**
+  (a) "TIME IS HOW THE LEDGER GETS PAID BACK — IN DECOHERENCE": the
+  TICK/ARROW split resolves it. The tick is FUNDAMENTAL in this model
+  (the khronon's foliation is physical, not emergent). The ARROW is
+  exactly what the operator said — and the file already carries it as
+  C1c's rate law: decoherence IS the posting event (C4a), entropy =
+  record count, and time's direction = the direction net records
+  accumulate ("posting is cheaper than shredding"). The operator
+  re-derived the file's own arrow law unprompted. Cousin flagged at
+  correspondence grade: Page–Wootters (time from entanglement with a
+  clock subsystem; lab analog Moreva et al. 2014) — the emergent-TIME
+  road exists in physics, but our model does not take it (the khronon
+  is load-bearing; (δK)² rides the foliation). Past-hypothesis wall
+  unmoved: who opened the books empty remains one floor up.
+  (b) "EM IS HOW IT GETS PAID BACK — IN MAGNETIC FIELDS": two kernels,
+  one kill. KERNEL 1 (adopted): magnetic fields are the EM sector's
+  UNSHREDDABLE RECORDS — the universe screens charge (Debye hides the
+  E-ledger) but cannot screen circulation (no monopoles = no eraser),
+  so B is the only large-scale EM memory the universe keeps; galactic
+  fields sit at equipartition (~μG ↔ eV/cm³, CMB/cosmic-ray class).
+  Magnetogenesis (the first B-field's origin) is a REAL open problem —
+  logged as a silence, not claimed. KERNEL 2 (named): "dark sector
+  paid out through magnetic fields" is literally the AXION HALOSCOPE
+  concept (ADMX-class: DM→photon conversion inside B). THE KILL, and
+  the standing bet it funds: our medium is kinetic-class (P-2026-005
+  zoo split), holds no two-photon coupling (census) — so the model
+  VOTES NULL ON EVERY HALOSCOPE, forever, kill-only, joining the
+  direct/indirect/lab zeros. One caveat kept honest: Room 1's unmapped
+  ANGULAR mode is the file's single axion-shaped hole — if that room
+  is ever built and couples to FF̃, haloscopes become relevant and the
+  entry pays full graveyard price at turn zero.
