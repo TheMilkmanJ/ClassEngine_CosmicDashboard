@@ -917,3 +917,97 @@ built by the answers, which is what real rooms do.*
 near-closure (R1.7). The silences: strong CP stays silent;
 turbulence's tie (the tangle) lives in the phase sector already
 mapped.*
+
+## THE MORNING RECONCILIATION AUDIT (2026-07-07, executed — the one
+## consolidated family; every number below re-derived this morning,
+## arithmetic in the session record)
+
+**The family:** m-band fragments, h_eff anchors, KR norm, Levkov
+prefactor, the "superradiance 3e-19" label. Booked numbers that
+predated the two-fluid structure, audited together because they
+turned out to be ONE inconsistency wearing five costumes: an
+un-pinned mass.
+
+**A1 — THE m-BAND PIN. The 10^-22 bottom is DEAD.** The three
+fragments resolve by provenance: E2.6's 10^-22 was generic-FDM
+phrasing inherited as a courtesy floor (never derived); R1.6's
+5x10^-22 was factor-2 loose language off the amplitude gap; the
+CONTROLLING structure is V2's fork (five-verdict doc): DK-fails
+branch -> m in [1, 3]x10^-21 eV (the 60-200 pc core window);
+DK-holds branch -> M_eff >= 3x10^-19 eV. Model-specific transfer
+factors cannot rescue the light end: the two-fluid heating
+relaxation is <= 2x in TIME, and heating time ~ m^3 means the
+bound shifts by 2^(1/3) ~ 1.26 — a factor 1.3 against three
+decades. THE BAND IS [1, 3]x10^-21 eV on the branch where the
+cosmology lives.
+
+**A2 — PTA CONSEQUENCE (the casualty; E7a-CAVEAT's fear confirmed
+by its own audit):** beat_needed = 0.1(m/10^-22)^2 = 10 at the
+band bottom, 90 at the top; beat = sqrt(f_amp(2-f_amp)) <= 1.
+**The PTA beat channel is DEAD on every surviving branch — by
+mass, regardless of loudness.** The detection table's nonzero
+rows all lived below m = 3.2x10^-22; the 33% marginal (21-51%
+bracket) and the 6:1 / 4:1 collision odds DIE WITH THEM. The
+h-scan verdict stands as structure: the universe almost certainly
+rings (P(f_amp>0.2) -> 100% at h=1e4), at a pitch PTAs cannot
+hear (f ~ 5x10^-7 Hz at band bottom, amplitude ~ 1/m^2 crushed
+>= 100x). ANN-2026-010 resolves: P-2026-005's PTA-silence half
+survives BY THE MASS GATE. The GRANULE channel (m-independent,
+p^2+q^2) inherits the epsilon-meter role ALONE — sims owed.
+
+**A3 — THE h_eff ANCHORS RECONCILED (no inconsistency existed):**
+one formula, h_eff = lambda*rho/m^4. Anchor A (3x10^-6) is the
+LOCAL-HALO density (0.3 GeV/cm^3) at m = 10^-22. Anchor B
+(10^-15) is the COSMIC MEAN at m ~ 1-2x10^-21 — and the audit
+finds the pretty identity hiding inside it: h = 1 at basin entry
+BY CONSTRUCTION (quartic = mass term there), so h_eff(mean,
+today) = (1+z_x)^-3 exactly. Verified: m=1e-21 gives z_x = 1.0e5
+and h_eff(mean) = 9.7e-16. The "9 decades" = 5.4 decades of
+density (halo vs mean) + 4-5 decades of m^4 (10^-22 vs 10^-21),
+two correct answers to two different questions, conflated.
+
+**A4 — tau_Q RE-PRICED AT THE AUDITED BAND. THE RULING IS LIFTED.**
+At m >= 10^-21 in a halo: h_eff <= 2.3x10^-10, so tau_Q ~
+[(r_t h)^2 m]^-1 >= 1.6x10^9 Gyr WITHOUT the detuning
+suppression (3.4x10^12 Gyr at the band top). The 94-160 Gyr
+worst case existed only at the m = 10^-22 corner — the corner A1
+just killed. **The frozen-ellipticity theorem is restored to
+EXACT at every surviving mass; Room 4's "frozen to <~1%"
+demotion is un-demoted.** (The detuning derivation remains good
+hygiene but no longer load-bearing.)
+
+**A5 — THE LEVKOV PREFACTOR, PULLED:** tau_gr = (b*sqrt(2)/
+(12 pi^3)) m^3 v^6/(G^2 rho^2 Lambda), b ~ 0.9 (Gaussian),
+Lambda = ln(m v R) — LPT, PRL 121, 151301 (2018); structural
+cross-check against the follow-up (Dmitriev-Levkov-Panin-
+Tkachev, arXiv:2305.01005: t_gr = 2b^2 w0^3/(3 pi^3 G^2 rho^2
+ln p0L) — same object, distribution conventions). Absolute
+normalization carries ~x10 convention slop (flagged; scalings
+robust). The table at the audited band:
+    typical dwarf (0.03 Msun/pc^3, 15 km/s): psi condenses in
+      ~0.2-3 Gyr across [1,3]x10^-21 — dwarf cores FORM;
+    chi (x11 lag, median draw): ~2-30+ Gyr — typical dwarfs' chi
+      is UNCONDENSED TODAY. Room 5's "mid-phase-transition
+      universe" now has numbers: the redshift-dependent
+      core-halo relation is live exactly at the audited band.
+    MW-class and clusters: never condense (>= 10^5 Gyr) —
+      standard FDM lore, inherited cleanly.
+
+**A6 — THE "SUPERRADIANCE 3e-19" LABEL, CORRECTED:** 3x10^-19 eV
+is the DALAL-KRAVTSOV dwarf-heating bound on M_eff (free FDM),
+not a superradiance number. The superradiance exclusion stays
+M87*'s [2.9, 4.6]x10^-21 (Davoudiasl & Denton) — and the audit
+notices what the corrected band does to it: **the M87* free-
+scalar exclusion OVERLAPS the audited band's top.** At m ~
+3x10^-21, free FDM is already dead by spin data while the dyad
+survives by the lambda-quench (margin +2.5 to +12.7 decades).
+The free-vs-condensate discriminator is LIVE at the band top
+NOW — not a future test.
+
+**Casualty and restoration summary:** PTA detection table, 33%
+marginal, 6:1/4:1 collision odds — DEAD (un-pinned-mass
+predictions, the Pinning Rule's 4th firing, called in advance by
+E7a-CAVEAT). Frozen ellipticity — RESTORED to exact. Room 5 —
+QUANTIFIED. The epsilon-meter — now a one-instrument program
+(granules), sims owed. The audit closed the family it was
+ordered to close and the file is smaller and harder for it.

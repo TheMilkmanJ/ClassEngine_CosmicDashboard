@@ -553,3 +553,36 @@ wrong shape still kills the mechanism; a confirmed drift at
 DETECTABLE amplitude now also kills it (the lock forbids it).
 
 ---
+
+## ANN-2026-011: THE EPSILON COLLISION RESOLVED BY THE MASS GATE (the morning reconciliation audit, 2026-07-07)
+
+**Status of ANN-2026-010: SETTLED, neither side by the mechanism it
+expected.** The audit (Room 1 doc, "Morning Reconciliation Audit")
+pinned the model's mass band to [1, 3]x10^-21 eV (V2's fork is the
+controlling structure; the 10^-22 bottom was inherited phrasing,
+never derived). At that band, beat_needed = 10-90 while the beat
+observable saturates at 1: **the PTA channel is dead by mass on
+every surviving branch, regardless of f_amp.**
+
+Consequences, stated per the registry's own discipline:
+- P-2026-005's PTA-silence half SURVIVES — by the mass gate, not by
+  a quiet draw. The h-scan grid says the medium almost certainly
+  rings loudly (P(f_amp>0.2) -> 100% at h = 1e4); it rings above
+  the PTA band at crushed amplitude.
+- The 6:1 "fires" pricing, the softened 4:1, and the 33% (21-51%)
+  near-future detection marginal are all DEAD — they rode the
+  un-audited band bottom. This is the Pinning Rule's FOURTH firing
+  (an un-pinned mass this time, not an un-pinned function), and
+  E7a-CAVEAT predicted it in writing before the audit ran.
+- The epsilon-meter program is now single-instrument: the GRANULE
+  channel (p^2 + q^2 suppression, m-independent) carries the dice
+  readout alone. Simulation-grade follow-up owed before any granule
+  number is quotable.
+- The free-vs-condensate discriminator (superradiance lambda-quench)
+  is LIVE at the band top: M87*'s [2.9, 4.6]x10^-21 free-scalar
+  exclusion overlaps m ~ 3x10^-21. A spin measurement there kills
+  free FDM and not the dyad — present-day data, not future.
+
+No new prediction is registered by this annotation; it settles one
+collision, kills three advertised numbers, and narrows the program's
+falsification surface to instruments that still point at it.
