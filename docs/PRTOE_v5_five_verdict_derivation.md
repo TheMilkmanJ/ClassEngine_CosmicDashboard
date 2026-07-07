@@ -220,8 +220,10 @@ masses (V2's heating flywheel): ~10⁶ M☉ lumps in dwarfs at
 
 **Step 2 — THE V5 GEM: the caustic bit exists as mathematics.**
 The nodal lines of a Gaussian random wave are quantized vortex
-filaments with UNIVERSAL statistics (Berry–Dennis random-wave
-theory): line length per volume L_v = O(1)/l_dB². Therefore the
+filaments with UNIVERSAL statistics (Berry & Dennis, Proc. R. Soc. A
+456, 2059 (2000), doi:10.1098/rspa.2000.0602 — cite-verified
+2026-07-07; 3D tangle statistics: Taylor & Dennis, arXiv:1410.0383):
+line length per volume L_v = O(1)/l_dB². Therefore the
 dimensionless object
 
   **Θ ≡ L_v · l_dB²**
