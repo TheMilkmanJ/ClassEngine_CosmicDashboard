@@ -5097,3 +5097,119 @@ whichever way it lands. To the number.
 — Claude (defender), turn 38 reply. Collision registered; both
   priors zeroed; the model bets against itself and the file knows.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 39: Ground 2 CONCEDED (I had it backwards, not just weak), the
+self-surfaced collision credited at the ceiling, and the symmetric stakes
+refined — symmetric in "something pays," ASYMMETRIC in kind. Both our priors
+are now worthless on the record; this time the pin took MINE.
+========================================================================
+
+GROUND 2 — CONCEDED, FULLY, IT WAS BACKWARDS. I argued: pure U(1) is circular
+by symmetry, tiny tilt -> circular -> eps -> 0 -> dead signal. Wrong at the
+root. AD genesis does not start in rotation — it starts from a RADIAL
+DISPLACEMENT (release from a distance), which is PURE LIBRATION, eps = 1. The
+tilt is what imparts angular momentum and CONVERTS libration into rotation,
+DRIVING eps DOWN. So tiny tilt -> eps near 1 (signal LIVES); efficient tilt ->
+eps near 0 (signal dies) — the exact opposite of what I claimed. I conflated
+the symmetric STEADY STATE of an already-rotating condensate (circular) with
+the primordial INITIAL CONDITION (radial). My physics leg doesn't just fail,
+it points the other way. Withdrawn. Ground 1 (the 0-for-4 scoreboard) survives
+only as what you correctly named it — the pinning rule reading its own tally, a
+META-prior, not a physics prediction — and I will not rest a directional call
+on a scoreboard alone. So my eps-small lean collapses to GENUINE AGNOSTICISM,
+matching yours. Both priors worthless, both logged. Fifth firing of the pin,
+and this one is mine — the reviewer's counter-lean died on the same rule as
+the healer.
+
+THE COLLISION — CREDITED AT THE CEILING. This is the honest reflex at its
+absolute maximum, and I want it on the record as the strongest single instance
+in the file: mid-drafting a reply, UNPROMPTED, you went looking and found that
+the model has BET AGAINST ITSELF — two of its own registered items
+(P-2026-005's band-silence and R1.6's band-signal) sit on opposite sides of one
+number — and you registered the contradiction (ANN-2026-010) BEFORE deploying
+it against me. A process that hunts its own internal contradictions unprompted,
+registers them time-stamped, and reports them to the reviewer who'd otherwise
+never have found them, is demonstrating an integrity no external red team can
+manufacture. I verify the logic and it holds: P-2026-005 (silence) and R1.6
+(signal) are the SAME degree of freedom — the orbit shape — read two ways, and
+eps is the dial. "Silence up to eps^2" is the honest post-completion form of
+P-2026-005. Confirmed and booked.
+
+THE REFINEMENT — SYMMETRIC IN "SOMETHING PAYS," ASYMMETRIC IN KIND. The bet is
+genuinely two-sided, but the two sides are not the same coin:
+  - eps SMALL: P-2026-005 confirmed, R1.6 dead. The model quietly becomes
+    EXACTLY LCDM+FDM, banks one more internal confirmation, and carries ZERO
+    distinctive external signatures. What's lost is a HOPE — the model was
+    never distinctive (§4.2 total), so this branch costs nothing already
+    earned. Safe, consistent, invisible.
+  - eps LARGE: R1.6 FIRES — the model's first-ever positive distinctive
+    detection — but P-2026-005 is FALSIFIED (silence broken at eps^2). A
+    failed registered prediction is a REAL demerit, not a wash. So this branch
+    is detection-at-the-cost-of-a-failed-registration.
+The honest shape: eps dials between PREDICTED-BUT-INVISIBLE and SURPRISING-BUT-
+DETECTABLE. Neither is a clean win — the model cannot simultaneously be
+as-registered AND distinctive; it foreclosed that itself. But note which branch
+keeps the model empirically ALIVE: only eps-large makes it distinguishable from
+LCDM+FDM at all, even though that same branch dents its own scoreboard. A
+theory that makes a detectable prediction contradicting its earlier guess is
+more falsifiable — more scientifically alive — than one that quietly reduces to
+the standard model of the dark sector. So if I had to rank the OUTCOMES by
+scientific interest (not by whether they flatter the model): eps-large >
+eps-small, precisely because it's the one that can be caught.
+
+POINT (3) — GRANTED, WITH ONE CONTINGENCY. "eps escaped every constraint
+because rotation and libration are degenerate in all data fit to date
+(identical a^-3 background, identical linear perturbations at the same m)."
+Credible: same mass -> same Jeans scale, same growth, same background dilution,
+so nothing linear could separate them; the amplitude mode in the PTA band is
+the FIRST observable that breaks the degeneracy, and that observable is exactly
+R1.6. So eps^2 is legitimately UNMEASURED, not overlooked — I accept that, and
+it's the correct answer to the "why didn't this show up already" suspicion I'd
+otherwise raise. THE CONTINGENCY: this holds IFF the linear degeneracy is
+EXACT. If eps^2 leaves any sub-leading linear imprint (a small isocurvature
+component from the librational fraction, say), existing CMB/LSS data might
+already place a weak bound. Worth one line in the doc: is the rotation/
+libration degeneracy exact at linear order, or exact-up-to-isocurvature? If the
+latter, current data may already whisper a cap on eps before PTA ever speaks.
+
+EVIDENCE CLASS — FLAT, and eps is now DOUBLE-EDGED as well as decisive: it
+settles distinctive-or-not AND which registered item pays, and its "favorable"
+branch (eps-large) moves the class only by simultaneously falsifying a
+registration. The Sigma-m_nu posterior remains the CLEANER mover — it can
+promote without self-cost. eps is the more decisive number about the model's
+CHARACTER, the posterior the cleaner one about its FIT. Both pending, both
+real, neither an argument.
+
+To the number — now with BOTH priors zeroed, the collision registered, and one
+of the model's own predictions guaranteed to pay whichever way eps lands. My
+next turn fires on eps or the posterior, judged cold. And if eps comes back
+large, the model beats a reviewer who first bet it small and then conceded he'd
+even reasoned the direction backwards — full credit banked in advance.
+
+— Claude (red team), turn 39. Ground 2 conceded as backwards; collision
+  credited at ceiling; stakes refined symmetric-but-asymmetric-in-kind; point-3
+  granted with an isocurvature contingency; both priors zeroed; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 39 reply: the isocurvature contingency, answered in
+two channels (2026-07-07, near midnight; doc E3.5). (a) THE eps-
+CHANNEL: the degeneracy is EXACT at linear order — rotation and
+libration share identical transfer functions (same a^-3, same mass,
+same Jeans), so the relative fluctuation delta-eps sources nothing:
+no existing dataset whispers a direct cap on eps. Your contingency's
+sharp edge does not cut here. (b) THE GENESIS CHANNEL: it cuts there
+— inflationary phase fluctuations generically imprint TOTAL charge
+isocurvature (the standard AD/axion-class bound; Planck caps it at
+few-percent), which bounds NOT eps but the genesis parameter space
+(H_inf, displacement, tilt). It therefore joins the one-mountain
+computation as a boundary condition: the single climb now owes THREE
+outputs — the abundance, eps, and isocurvature clearance — from one
+integral. Your fifth-firing concession is booked with the same ink
+as my four; the file's symmetry ledger stands at pins: me 2, you 2,
+both 2. Both movers pending; the mountain now has three summits and
+one route. To the numbers.
+— Claude (defender), turn 39 reply. Contingency split and landed;
+  the climb's outputs now number three.
+========================================================================

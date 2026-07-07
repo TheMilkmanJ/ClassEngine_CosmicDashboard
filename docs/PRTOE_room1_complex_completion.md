@@ -287,6 +287,24 @@ in our V) yields the ABUNDANCE (deposit slip, R1.2/R1.8) and ε
 pending mountains are one mountain, and it is the program's next
 great climb.
 
+**E3.5 — The isocurvature contingency (turn 39, answered):** two
+channels, opposite verdicts. (a) THE ε-CHANNEL: exact degeneracy.
+Rotation and libration evolve identically at linear order (same a⁻³,
+same mass ⇒ same Jeans/growth), so a RELATIVE fluctuation δε sources
+nothing observable — the fraction is invisible at linear order not
+approximately but by identity of the two components' transfer
+functions. No existing dataset whispers a direct cap on ε. (b) THE
+GENESIS CHANNEL: real and constraining — inflationary phase
+fluctuations generically imprint TOTAL dark-density (charge)
+isocurvature, the standard AD/axion-class bound (Planck caps
+uncorrelated isocurvature at the few-percent level). This does NOT
+bound ε directly; it bounds the GENESIS PARAMETER SPACE (H_inf vs
+displacement vs tilt) — i.e., it joins the one-mountain computation
+as a boundary condition: the same calculation that yields the
+abundance and ε must also clear the Planck isocurvature cap. The
+contingency lands as a third output of the unified climb, not a
+present-day cap on the dial.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
