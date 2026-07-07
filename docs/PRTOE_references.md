@@ -72,6 +72,15 @@ V = verified, exactly as used in our documents):
   frozen-ellipticity proposal's existing instrument. Verified at
   booking.
 
+- [V] **Levkov, Panin, Tkachev**, PRL 121, 151301 (2018),
+  arXiv:1804.05857 — kinetic gravitational condensation time for Bose
+  stars (E7b condensation-lag scaling). Verified 2026-07-07 ~5:30am.
+- [V] **Chiang, Schive, Chiueh**, PRD 103, 103019 (2021),
+  arXiv:2104.13359 — soliton-oscillation heating of Eri II negligible
+  in self-consistent sims, CONTRADICTING Marsh & Niemeyer PRL 123,
+  051103 (2019); the pulse-heating channel is booked contested-to-dead
+  on this pair. Verified at booking (the rule catching an overclaim).
+
 ## Remaining tail (named from training, verification pending —
 ## none currently feeds a registered number)
 Hafele–Keating (1971); Grishchuk & Sidorov (squeezed cosmological

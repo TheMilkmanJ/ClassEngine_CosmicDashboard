@@ -635,6 +635,42 @@ granules regardless); the 14%-branch predicts silence AND full
 granule contrast. A joint sky reading of the same single dice roll.
 Simulation-grade follow-up owed before any number is quotable.
 
+**E7b (~5:30am) — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
+meter's concrete observables, with one overclaim caught pre-booking):**
+(i) CONDENSATION LAG: each fluid condenses into its soliton on its
+own kinetic timescale (Levkov, Panin, Tkachev, PRL 121, 151301
+(2018), cite-verified): τ ∝ 1/(component density)² ⇒ τ_ψ = τ₁/p²,
+τ_χ = τ₁/q². Median draw (p ≈ 0.7): the particle-sector soliton forms
+2× slower than single-field FDM, the antiparticle soliton 11× slower
+— halos where single-field FDM predicts a marginal core give ψ-ONLY
+cores (lighter by ~p at fixed halo mass) over a still-uncondensed χ
+fluid. The core–halo relation normalization READS p. Sims-owed;
+Levkov prefactor to be pulled at daylight.
+(ii) THE PULSE, HONESTLY GRADED: co-spatial two-component solitons DO
+breathe at 2m with contrast 2√(pq) — the beat formula's third
+appearance — but the heating channel this would drive is CONTESTED-
+TO-DEAD in the literature: Chiang, Schive, Chiueh (PRD 103, 103019
+(2021), cite-verified) contradicted Marsh & Niemeyer (PRL 123,
+051103 (2019)): soliton-oscillation heating of the Eri II cluster is
+negligible in self-consistent sims. The pulse exists; it is NOT an
+instrument. Caught by citation-verify BEFORE booking — the rule
+working as designed.
+(iii) WHAT SURVIVES AS THE METER: halo-wide GRANULE heating
+(speckle, not soliton pulse) — suppressed by p² + q²: free-FDM
+heating exclusions at fixed m RELAX by up to 2× in heating time for
+the mixed medium; the dice draw is a dial inside every FDM heating
+bound.
+(iv) **THE BAND AUDIT (flagged, owed, not resolved tonight):** the
+booked m-band [10⁻²², 2×10⁻²¹] predates tonight's two-fluid
+structure, and free-FDM literature bounds (Lyman-α, dwarf-heating
+claims reaching far above our band top for FDM-as-all-DM) transfer
+to the dyad only through model-specific factors (p²+q² in heating;
+the medium's own perturbation sector in P(k) — it is NOT free FDM at
+perturbation level). Whether the band survives the current
+literature WITH those factors is a dedicated morning audit — booked
+here so it cannot be quietly skipped; if the band dies, the PTA
+channel and the collision pricing inherit the wound.
+
 **No-cosmic-strings null (same burn):** the broken global U(1) would
 support a string network only if the symmetry was ever restored — it
 never was (born condensed, no Tc crossing, booked); inflationary
