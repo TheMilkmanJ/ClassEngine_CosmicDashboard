@@ -225,6 +225,23 @@ CEILING-ONLY, near-term testable iff f_amp ~ O(1). Expedition 2
 closed by the reviewer as NET STRENGTHENING with the D/H scar carried
 in daylight; the board is two-mover (the Σm_ν posterior; f_amp).
 
+**E2.7 — the identity's disappointment (found in the silences sweep,
+same night):** the minimal completion has P(μ = m) = 0 at the basin
+point — it does NOT supply the floor. ρ∞ enters as a bare constant
+added to V: **the identity explains the dark-MATTER side completely
+(charge, rotation, mass, dispersion, granules) and the dark-ENERGY
+side not at all.** The dyad's dark sector splits: matter = the
+condensate's charge; energy = a constant the condensate sits on —
+the cosmological-constant problem, untouched, now precisely located.
+X1's "condensate constant" reading is sharpened accordingly; the meV
+whisper remains a whisper. Also numbered en route: λ ~ 10⁻⁸⁸ gives
+utterly negligible self-interaction (σ/m — all bullet-cluster-class
+bounds trivially passed; a null with its number). Silences status
+after the identity: strong CP silence now STRUCTURAL (one angle,
+employed — derived, permanent in the minimal room); intermittency
+silence unchanged but the model now natively inhabits quantum
+turbulence (the partly-solved cousin). No new silences found.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
