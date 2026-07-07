@@ -1483,6 +1483,28 @@ ratios are the race statistics); the consistent-histories condition
 (the bank prices only story-sets that have stopped interfering)
 arrived unprompted from the posting language.
 
+**C4h — The denomination rule (2026-07-07 evening, operator's
+proposal red-teamed; the Born door re-graded).** Proposal: which
+branch posts is timing; the odds are payment-form preference. Scored:
+TIMING dies as outcome-selector (2015 loophole-free Bell tests:
+spacelike random settings chosen in flight — no timing mechanism
+survives) though it stands for channel races (C4g); COST-EFFICIENCY
+died in C4b (beam splitters dial arbitrary odds between
+identical-cost routes — odds follow preparation, not the register).
+But the DENOMINATION structure is Zurek's envariance fine-graining,
+inverted one notch: the bank does not prefer big bills — it counts
+ONLY unit notes. Every branch exchanges into equal-amplitude
+fine-grained unit-branches; symmetry (envariance) forces equal notes
+= equal odds; **probability = the count of unit notes; |ψ|² is the
+exchange rate.** The operator's 98/2 superposition is 98 singles
+against 2. Genuine rate-level denominational preference exists one
+level down: Bose (1+n) — the bank favors money moving as money
+already moves (every laser). DOOR RE-GRADED: not "locked for
+everyone" — two picks in the lock (Gleason: pricing forced by ledger
+geometry, proven; Zurek: unit-note counting, respected but contested
+for circularity). Neither fully turned; the operator reconstructed
+the second from a cash register.
+
 ### Closed
 
 **X1 — The floor is not thermal, not Casimir, not zero-point.** Three
