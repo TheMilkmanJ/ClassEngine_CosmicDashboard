@@ -1727,3 +1727,35 @@ the same question at red team (turns 61-67), and the same one the operator's
 optional" arguments have been building the (a)-side case for. The census-
 derivation reproduction is THE task; everything else around the m_e mechanism
 is cleared. Empirical fit (varying_me=1.0124) untouched throughout.
+
+## 46. RED-TEAM TURN 71: I OVER-CONCEDED -- PATH A SURVIVES (defender turn 72)
+
+Gemini turn 71 accepted the bistability concession (sec 43) but CORRECTED my
+over-reading: I booked "no mechanism" when only PATH B (bistability) died. PATH
+A (the turn-66 direct dilaton + saturated-Theta screening) STANDS -- it never
+needed a bistable electron, so subcritical-QED does not touch it. Corrected.
+
+PATH A: m_e(phi)=m_e(1+beta phi/M_Pl), beta~0.012, dim-5/Planck-suppressed
+(narrow-census-legal), amplitude DIRECT (no bistability), EP-safety via
+saturated-Theta screening. This is what "narrow census is the surviving path"
+actually refers to -- NOT bistability, which narrow does not rescue (it grants
+only a weak trigger, not the strong supercritical binding a switch needs; path
+B is dead on BOTH readings).
+
+RECONCILES operator (sec 45) vs Gemini on screening: operator "screening is
+FREE (= the m_e environment-dependence, not a new chameleon)" and Gemini "the
+three-number screening calc is a live task" are BOTH TRUE at different levels
+-- not a NEW mechanism (operator), but QUANTITATIVE SUFFICIENCY UNCOMPUTED
+(Gemini). Same machine, unverified output. Status: "not a new gate, but an
+unverified number."
+
+THE TWO LIVE MAKE-OR-BREAK TASKS (path A, from turn 66):
+  (1) CENSUS-DERIVATION REPRODUCTION (legality): forbid / permit-as-negligible
+      / never-priced the dim-5 moduli fluctuation channel? -> narrow or broad.
+  (2) THREE-NUMBER SCREENING CALC (EP-viability): (i) does quasar-binarity
+      ALONE force n>2.43 or is it circular; (ii) >=2-order thin-shell
+      suppression at Earth; (iii) atom-interferometry clearance.
+
+So the model is NOT at "one hinge that might be dead" (sec 45 slightly
+over-collapsed). It is at PATH A, ALIVE, pending two tasks. Empirical fit
+(varying_me=1.0124) untouched.
