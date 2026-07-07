@@ -1642,3 +1642,49 @@ dead; question sharpened to electron-bistability-origin; empirical fit
 exhibit a concrete bistable-electron mechanism whose supercritical binding is
 NOT a strong dark-EM coupling. We do NOT have one. Absent that, the narrow
 census reading is the only surviving path.
+
+## 44. "THE BANK PROVIDES THE LINE, NOT THE CONSUMER" -- reframes onto the
+## SURVIVING moduli path (operator, 2026-07-07: "I can't be in 2 places at
+## once... it can't all come down to the consumer, the bank provides a line")
+
+Operator's intuition: the consumer (medium) should NOT have to satisfy both
+regulators (EM + gravity) itself; the BANK/infrastructure should provide a
+settlement LINE between them. This maps onto a specific, ALREADY-SURVIVING
+mechanism -- the MODULUS/dilaton as the line:
+
+  medium --> MODULUS (gravitational sector) --> m_e
+
+  - medium <-> modulus: the modulus is Planck-suppressed, gravitational-sector
+    (same UV completion as gravity, Gemini turn 64) -> the medium transacts
+    with ITS OWN bank (gravity), never crosses to EM. Legal.
+  - modulus <-> m_e: standard moduli-fermion coupling m_e(phi)=m_e(1+beta
+    phi/M_Pl). THE LINE does the cross-regulator delivery.
+So the consumer (medium) stays home in the gravity bank; the modulus is the
+bank-provided line to the EM regulator. Exactly "it can't all come down to the
+consumer."
+
+CRUCIAL: THIS IS THE PATH THAT SURVIVED. The bistability idea Gemini killed
+(sec 43, turn 69: subcritical QED) needed the ELECTRON to be bistable -- a
+different, now-dead gadget. The moduli-line does NOT need electron bistability;
+it needs a scalar phi whose VALUE is environment-set (bare in voids, screened
+in structure), m_e tracking it. That is the moduli+screening path Gemini
+already graded "real and honestly costed" (turn 66). The operator's reframe
+re-centers on the SURVIVOR, away from the corpse.
+
+REMAINING GATES (unchanged, honest):
+  1. EP/screening: a light modulus active everywhere is a fifth force
+     (beta<1e-4 allowed vs 0.012 needed). Needs the field frozen in dense
+     regions (sharp-form/virialization screening) -> owed computation +
+     reopens chameleon constraints.
+  2. Census legality: medium->modulus AND modulus->m_e both CLAIMED
+     gravitational-sector (narrow reading) -> still pending census-derivation
+     reproduction.
+  3. Modulus reality: must be a real field -- a UV modulus, OR the medium's
+     OWN amplitude mode (the "dark Higgs", Room1 R1.6). If the latter, the
+     line is ALREADY in the model, not bolted on -- the strongest version.
+
+NET: the operator's reframe is GOOD NEWS -- it re-centers on the surviving
+moduli path with the right intuition (bank runs the line, consumer stays put)
+and steers off the dead bistability. Does NOT clear the two gates (screening +
+census) but aims at the mechanism that can pass them. Candidate strongest form:
+the medium's amplitude mode IS the line.
