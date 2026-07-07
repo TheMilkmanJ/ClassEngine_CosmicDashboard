@@ -909,3 +909,67 @@ STATUS: EP-test line of section 23/24 substantively advanced. Amplitude
 still undetermined (unchanged). Functional-form derivation is now the
 named, concrete next task -- distinct from and sharper than the vague
 "needs its own scrutiny" flag from section 23.
+
+## 27. THE SATURATING FORM DERIVED — and it's a PILLAR: two independent
+## constraints force the same sharp transition, merging candidates #1 and #23
+## (2026-07-07 night, the roof-and-walls session)
+
+**THE DERIVATION.** Attempted the gentle saturating form
+m_e_eff = m_bar*[1 + eps*exp(-C/C_ref)]. It REQUIRES C_ref fine-tuned to
+a factor of 1.22 -- unacceptable by the model's own standards. Chasing
+WHY exposed the real result:
+  - Weyl curvature between recombination (smoothest relevant epoch,
+    delta~1e-5) and a dwarf-halo core (full suppression required)
+    changes by only ~22x (1.35 decades).
+  - MICROSCOPE (section 26) demands the m_e shift drop by ~8.2 decades
+    across that SAME gap.
+  - An 8-decade suppression cannot fit a 1.35-decade curvature window
+    with a gentle function. THE TRANSITION IS FORCED TO BE SHARP:
+    exp(-(C/C_ref)^n) needs n > 2.43 -- essentially a threshold/step.
+  - Once sharp enough to suppress at the dwarf core, Earth (17 decades
+    higher curvature) is suppressed automatically -- MICROSCOPE's own
+    test location is the EASY end. No separate Earth tuning needed.
+
+**WHY THIS IS A PILLAR, NOT A PATCH -- THE CONVERGENCE.** The model had
+ALREADY, independently, required this exact sharpness: the continuous-
+density trigger was killed earlier (this doc) because smooth density-
+dependence produces quasar-absorber differentials 1e4 over bound --
+"binarity is forced." So TWO INDEPENDENT EXPERIMENTAL CONSTRAINTS --
+MICROSCOPE (EP/atomic) and quasar spectroscopy -- both demand a near-
+binary threshold switch. Two unrelated experiments forcing the same
+structural feature is CONVERGENT EVIDENCE, not tuning. This is the
+first genuine foundation-pillar the m_e mechanism has earned.
+
+**CANDIDATES #1 AND #23 MERGE.** The sharp threshold's natural physical
+implementation IS a binary quantity: Theta = the multi-stream/vortex
+bit (the fold, candidate #1). Weyl curvature is the smooth OBSERVABLE
+proxy; the clean underlying variable is topological -- "has multi-
+streaming/shell-crossing happened here, yes/no." This DISSOLVES the
+Weyl-vs-fold fork: they are one mechanism viewed two ways. It also
+removes the last tuning worry -- the threshold is not a curvature
+NUMBER needing placement in a window, it is a topological EVENT (first
+shell-crossing) that BY DEFINITION marks the smooth/structured boundary.
+The C_ref "reference scale" question (section 23's open item) is
+answered: there is no free reference scale, because the transition is
+set by a topological event, not a tuned curvature value.
+
+**HONEST CAVEATS (kept in front):** (i) amplitude eps still UNDETERMINED
+-- this derives the FORM and its forced sharpness, not the NUMBER;
+(ii) the recombination Weyl estimate (delta~1e-5 * background) is
+order-of-magnitude, so the "22x gap" is approximate -- but the
+qualitative result (gap << required suppression depth -> sharpness
+forced) is robust to factors of a few; (iii) the EP receiving-side
+universality question (does the coupling shift m_e without shifting
+other SM masses identically) is SEPARATELY handled by the fact that,
+post-merger, this is geometric/topological (Theta is environmental,
+not species-selective) -- but a full proof that the induced m_e shift
+is EP-safe at the operator level is still owed.
+
+STATUS: candidate #1 = candidate #23 (MERGED), now resting on a
+two-constraint convergence pillar (MICROSCOPE + quasar both force
+sharpness). This is the strongest structural result the m_e mechanism
+has. Remaining: the amplitude (open), the operator-level EP-safety
+proof (owed), and the census scope adjudication (red team, turn 61/62,
+still pending -- and now MORE likely narrow-reading-compatible since
+the coupling is to a topological/geometric bit, not a dark-medium
+internal quantity).
