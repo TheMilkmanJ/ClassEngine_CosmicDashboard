@@ -471,3 +471,36 @@ comparison partner, no derived value yet) remains the sole open form
 of a global trigger; candidate #1 (the fold, tau_gr < age) remains the
 best-derived mechanism overall. Session paused here by operator to
 regroup.
+
+## 18. Quantum pressure / oscillation-onset — the third and final "heat," tested (2026-07-07 evening)
+
+Third natural reading of the medium's own "heat" (distinct from Levkov's
+LATE-TIME/virial dispersion, §16): the field's EARLY-TIME quantum
+pressure, via the standard ULDM oscillation-onset criterion H(z) = m
+(field is Hubble-frozen while H>m, begins oscillating once H<m — the
+mechanism by which any axion-like field transitions from dark-energy-
+like to matter-like behavior).
+
+COMPUTED at the audited mass band: **z_osc ~ 8.4e6 to 1.5e7** —
+roughly 100x EARLIER than basin entry itself (z_x~1e5, already ruled
+out as "100x too early" earlier tonight). Two independent formulations
+(density-based: basin entry; rate-based: H=m) AGREE on the same
+failure mode — anything keyed to the medium's own intrinsic mass scale
+m fires far too early for the z=4-1100 survival window, regardless of
+which formulation is used. Cross-validates the earlier basin-entry
+kill rather than just repeating it.
+
+**"EXPANSION + HEAT" IS NOW FULLY CLOSED, ALL THREE READINGS TRIED:**
+  baryon-photon bath (foreign):     z~131,   IN WINDOW — alive (§9/13)
+  medium's own late/virial heat:    n/a,     structurally LOCAL (§16)
+  medium's own early/quantum heat:  z~1e7,   100x too early (this entry)
+Only the foreign-keyed version lands in the epoch that matters — which
+is exactly why the Compton gate, despite needing the shared-clock
+resolution to avoid a sensing debit, keeps surviving every test run
+against it tonight, while every purely medium-native "heat" attempt
+(local or early-time) fails on its own terms.
+
+STANDING PICTURE UNCHANGED: candidate #1 (fold, tau_gr<age, local) and
+candidate #3-as-Reading-B (pure redshift/scale-factor, global, value
+still undetermined) remain the two live mechanism classes; the 21-cm
+dark-ages sky remains the sole discriminator between them.
