@@ -321,6 +321,26 @@ is its only account). Pay it curvature and the product is determined:*
   of hydrodynamic instabilities (a graveyard-relevant body). Elevates
   ONLY if a ν-portal is derived that produces ρ_∞ ~ m_ν⁴ from
   structure rather than by fitting. Watched, not claimed.
+- **THE SPEAKER'S UNMAPPED ROOMS (operator's localization of the
+  silences, 2026-07-07 night):** the silences translate perfectly but
+  say nothing — the operator bet the gap is on the SPEAKER'S end (the
+  medium's own unmapped structure). Inventory of the unmapped:
+  ROOM 1 — the medium is modeled as a REAL scalar; every laboratory
+  superfluid is COMPLEX (Ψ = amplitude·e^{iξ}): unmapped are the
+  amplitude/Higgs mode (measured in lab BECs), the genuinely
+  QUANTIZED phase (C4's condition; the Born prize), and an ANGULAR
+  direction — which is axion-shaped: the only axion-shaped hole in
+  the architecture, and strong CP's missing speaker. ROOM 2 — the
+  origin trio: M₂, m̄₂, and Ω_ini (the medium's abundance is a
+  SHOOTING PARAMETER — an opening balance with no deposit slip: the
+  medium's own baryogenesis problem) + the meV whisper. ROOM 3 — the
+  completion's form factor (the one property κ_v and R1 both queue
+  on). Cross-reference: both silences point INTO the rooms (strong
+  CP → the angular mode; turbulence intermittency → the granule
+  tangle's quantum-turbulence statistics, where labs can count
+  vortices). Tripwires pre-staged before entry: turn-25's
+  fresh-certificates rule; P-2026-005's no-oscillation registration
+  binds any angular mode. Rooms real; entry at full price.
 - **The X₀ erasure (running):** four consecutive observables with X₀
   cancelled. The theory appears to want a formulation in which X₀
   never appears (variables: x = u/X₀ and the basin structure only) —
