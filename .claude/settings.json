@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./class *)",
+      "Bash(make class *)",
+      "Run anything without asking. Exception: do NOT revert or restore files to a previous state without explicit permission."
+    ]
+  },
+  "autoMode": {
+    "soft_deny": [
+      "$defaults",
+      "Reverting, restoring, or checking out files to a previous version/state (git checkout/restore/reset on files, /rewind-style restores, overwriting with old content) without the user explicitly asking for it this session."
+    ]
+  }
+}

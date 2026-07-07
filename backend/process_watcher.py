@@ -186,7 +186,11 @@ def find_and_adopt_running_cobaya():
                         break
                 # Prioritize prtoe_standard.yaml over lcdm_config.yaml
                 if yaml_file:
-                    if 'prtoe_standard' in yaml_file:
+                    if (
+                        'prtoe_standard' in yaml_file
+                        or 'uploaded_config' in yaml_file
+                        or 'prtoe_poly' in yaml_file
+                    ):
                         priority = 0
                     else:
                         priority = 1
@@ -195,13 +199,19 @@ def find_and_adopt_running_cobaya():
                 # ALWAYS mark as optimizer - this is the critical fix
                 candidates.append((priority, proc, yaml_file, True))
 
-            elif "cobaya" in cmd_str and "run" in cmd_str:
+            elif ("cobaya" in cmd_str and "run" in cmd_str) or "-m cobaya" in cmd_str:
                 for arg in cmdline:
                     if arg.endswith(('.yaml', '.ini')):
                         yaml_file = arg
                         break
                 if yaml_file:
-                    candidates.append((2, proc, yaml_file, False))
+                    prio = 2
+                    if (
+                        'prtoe_standard' in (yaml_file or '')
+                        or 'uploaded_config' in (yaml_file or '')
+                    ):
+                        prio = 0
+                    candidates.append((prio, proc, yaml_file, False))
         except Exception:
             continue
 

@@ -20,14 +20,22 @@ TUNNEL_LOG="$SCRIPT_DIR/chains/dashboard_tunnel.log"
 PORT=8000
 RESTART_DELAY=5   # seconds to wait before restarting a crashed service
 
-# Set Python path to pgtoe_gold conda environment directly if available
-if [ -f "/home/themilkmanj/miniconda3/envs/pgtoe_gold/bin/python3" ]; then
-    PYTHON="/home/themilkmanj/miniconda3/envs/pgtoe_gold/bin/python3"
-elif command -v conda &>/dev/null; then
-    PYTHON=$(conda run -n pgtoe_gold --no-capture-output python3 2>/dev/null || command -v python3 || command -v python)
-elif [ -n "${CONDA_PREFIX:-}" ]; then
+# Set Python path to prtoe_gold conda environment directly to avoid shell function activation crashes
+PYTHON=""
+for _env in prtoe_gold; do
+  for _root in "/home/themilkmanj/miniconda3" "$HOME/miniconda3" "$HOME/anaconda3"; do
+    if [ -f "${_root}/envs/${_env}/bin/python3" ]; then
+      PYTHON="${_root}/envs/${_env}/bin/python3"
+      break 2
+    fi
+  done
+done
+if [ -z "$PYTHON" ] && command -v conda &>/dev/null; then
+    PYTHON=$(conda run -n prtoe_gold --no-capture-output python3 2>/dev/null \
+      || command -v python3 || command -v python)
+elif [ -z "$PYTHON" ] && [ -n "${CONDA_PREFIX:-}" ]; then
     PYTHON="${CONDA_PREFIX}/bin/python3"
-else
+elif [ -z "$PYTHON" ]; then
     PYTHON=$(command -v python3 || command -v python)
     # Add ~/.local/bin to PATH for pip-installed packages when not using conda
     export PATH="$HOME/.local/bin:${PATH}"
@@ -37,12 +45,43 @@ export DASHBOARD_PYTHON="$PYTHON"
 _CONDA_BIN="$(dirname "$PYTHON")"
 _CONDA_LIB="$(dirname "$_CONDA_BIN")/lib"
 export PATH="$_CONDA_BIN:$PATH"
-if [ -d "$_CONDA_LIB" ]; then
-    export LD_LIBRARY_PATH="$_CONDA_LIB${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
-fi
+# if [ -d "$_CONDA_LIB" ]; then
+#     export LD_LIBRARY_PATH="$_CONDA_LIB${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+# fi
 NPX=$(command -v npx || true)
 
 mkdir -p "$SCRIPT_DIR/chains"
+
+# ---------------------------------------------------------------------------
+# Interactive launch configuration prompts (WSL/Linux/Mac compatible)
+# ---------------------------------------------------------------------------
+if [ -t 0 ]; then
+    echo "==========================================================================="
+    echo " COSMICDASHBOARD LAUNCH CONFIGURATION"
+    echo "==========================================================================="
+    
+    # Subdomain prompt (fully optional)
+    read -r -p " Enter LT_SUBDOMAIN (optional, press Enter for random): " input_subdomain
+    export LT_SUBDOMAIN="${input_subdomain:-${LT_SUBDOMAIN:-}}"
+    
+    # Username prompt (defaults to admin)
+    default_user="${DASHBOARD_USER:-admin}"
+    read -r -p " Enter DASHBOARD_USER [$default_user]: " input_user
+    export DASHBOARD_USER="${input_user:-$default_user}"
+    
+    # Password prompt (defaults to generating a random password)
+    default_pass="${DASHBOARD_PASS:-}"
+    if [ -n "$default_pass" ]; then
+        read -r -p " Enter DASHBOARD_PASS [$default_pass]: " input_pass
+        export DASHBOARD_PASS="${input_pass:-$default_pass}"
+    else
+        read -r -p " Enter DASHBOARD_PASS (press Enter for random): " input_pass
+        export DASHBOARD_PASS="${input_pass:-}"
+    fi
+    
+    echo "==========================================================================="
+    echo ""
+fi
 
 # ---------------------------------------------------------------------------
 # Dashboard HTTP Basic Auth credentials (prevents repeated login prompts)
@@ -153,18 +192,14 @@ trap cleanup SIGINT SIGTERM
 # Wait for the backend to respond (with timeout)
 # ---------------------------------------------------------------------------
 wait_for_backend() {
-    local deadline=$((SECONDS + 120))
+    local timeout_sec="${1:-120}"
+    local deadline=$((SECONDS + timeout_sec))
     while [ $SECONDS -lt $deadline ]; do
-        # Use the DASHBOARD_PASS exported by this script (not a subshell shadow)
-        if curl -s --max-time 3 -u "${DASHBOARD_USER:-admin}:${DASHBOARD_PASS}" \
-               "$BACKEND_URL/api/status" >/dev/null 2>&1; then
+        # Use a highly reliable Python socket check instead of curl to avoid curl dependency or auth issues (Security/Portability Fix)
+        if "$DASHBOARD_PYTHON" -c "import socket; s = socket.socket(); s.settimeout(1.5); s.connect(('127.0.0.1', 8000))" >/dev/null 2>&1; then
             return 0
         fi
-        # Health endpoint is public — try it too
-        if curl -s --max-time 3 "$BACKEND_URL/api/health" >/dev/null 2>&1; then
-            return 0
-        fi
-        sleep 2
+        sleep 1
     done
     return 1
 }
@@ -172,14 +207,53 @@ wait_for_backend() {
 # ---------------------------------------------------------------------------
 # Start / restart the backend in a loop (watchdog)
 # ---------------------------------------------------------------------------
+kill_stale_backend_on_port() {
+    if [ -f "$BACKEND_PID_FILE" ]; then
+        local old_pid
+        old_pid="$(cat "$BACKEND_PID_FILE" 2>/dev/null || true)"
+        if [ -n "${old_pid:-}" ] && kill -0 "$old_pid" 2>/dev/null; then
+            kill -TERM "$old_pid" 2>/dev/null || true
+            sleep 0.5
+            kill -KILL "$old_pid" 2>/dev/null || true
+        fi
+    fi
+    fuser -k "${PORT}/tcp" 2>/dev/null || true
+    sleep 1
+}
+
+backend_health_ok() {
+    curl -s --max-time 2 "$BACKEND_URL/api/health" >/dev/null 2>&1
+}
+
 run_backend_watcher() {
     while [ ! -f "$SHUTDOWN_FLAG" ]; do
+        kill_stale_backend_on_port
         echo "[Backend] Starting cosmo_dashboard_backend.py..."
         "$PYTHON" "$BACKEND_SCRIPT" \
             >> "$BACKEND_LOG" 2>&1 &
         BACKEND_PID=$!
         echo "$BACKEND_PID" > "$BACKEND_PID_FILE"
         echo "[Backend] PID=$BACKEND_PID  (log: $BACKEND_LOG)"
+
+        # If the process hangs (port bound but /api/health dead), force-restart it.
+        local hung_checks=0
+        while kill -0 "$BACKEND_PID" 2>/dev/null; do
+            if backend_health_ok; then
+                hung_checks=0
+            else
+                hung_checks=$((hung_checks + 1))
+                if [ "$hung_checks" -ge 6 ]; then
+                    echo "[Backend] Health check failed for 30s — killing hung backend (PID=$BACKEND_PID)"
+                    kill -TERM "$BACKEND_PID" 2>/dev/null || true
+                    sleep 1
+                    kill -KILL "$BACKEND_PID" 2>/dev/null || true
+                    fuser -k "${PORT}/tcp" 2>/dev/null || true
+                    break
+                fi
+            fi
+            sleep 5
+        done
+
         wait "$BACKEND_PID" 2>/dev/null || true
         rm -f "$BACKEND_PID_FILE"
         [ -f "$SHUTDOWN_FLAG" ] && break
@@ -318,19 +392,40 @@ run_tunnel_watcher() {
 # Open browser
 # ---------------------------------------------------------------------------
 open_browser() {
-    if wait_for_backend; then
+    if wait_for_backend 45; then
         echo "[Browser] Dashboard is up — opening $BACKEND_URL"
-        # WSL: open in Windows default browser
-        if command -v powershell.exe &>/dev/null; then
-            powershell.exe Start-Process "$BACKEND_URL" &
-        elif command -v cmd.exe &>/dev/null; then
-            cmd.exe /c start "" "$BACKEND_URL" &
-        elif command -v xdg-open &>/dev/null; then
-            xdg-open "$BACKEND_URL" &
-        elif command -v open &>/dev/null; then
-            open "$BACKEND_URL" &
-        else
-            echo "[Browser] Could not detect a browser opener. Navigate to $BACKEND_URL manually."
+        # Robust browser open, especially for WSL/Linux where Windows exe interop may be partial or broken.
+        # We test execution first to avoid "Exec format error" spam when powershell.exe is in PATH (via /mnt/c)
+        # but the current environment (container, restricted WSL, etc.) can't exec PE binaries.
+        opened=false
+
+        # Prefer cmd.exe for starting URLs in WSL (more reliable than powershell in some interop setups)
+        if command -v cmd.exe &>/dev/null; then
+            if cmd.exe /c "echo %OS%" >/dev/null 2>&1; then
+                (cmd.exe /c start "" "$BACKEND_URL" > /dev/null 2>&1 &)
+                opened=true
+            fi
+        fi
+
+        if ! $opened && command -v powershell.exe &>/dev/null; then
+            if powershell.exe -Command "Write-Host 'interop-test'" >/dev/null 2>&1; then
+                (powershell.exe -Command "Start-Process '$BACKEND_URL'" > /dev/null 2>&1 &)
+                opened=true
+            fi
+        fi
+
+        if ! $opened && command -v xdg-open &>/dev/null; then
+            (xdg-open "$BACKEND_URL" > /dev/null 2>&1 &)
+            opened=true
+        fi
+
+        if ! $opened && command -v open &>/dev/null; then
+            (open "$BACKEND_URL" > /dev/null 2>&1 &)
+            opened=true
+        fi
+
+        if ! $opened; then
+            echo "[Browser] Could not detect a working browser opener (WSL interop may be disabled or this is a restricted env). Navigate to $BACKEND_URL manually."
         fi
     else
         echo "[Browser] Backend did not start in time — skipping auto-open. Navigate to $BACKEND_URL manually."
@@ -347,7 +442,7 @@ echo ""
 
 rm -f "$SHUTDOWN_FLAG" "$BACKEND_PID_FILE" 2>/dev/null || true
 
-if curl -s --max-time 1 "$BACKEND_URL/api/health" >/dev/null 2>&1 || curl -s --max-time 1 -u "${DASHBOARD_USER:-admin}:${DASHBOARD_PASS}" "$BACKEND_URL/api/status" >/dev/null 2>&1; then
+if wait_for_backend 3 2>/dev/null || curl -s --max-time 1 "$BACKEND_URL/api/health" >/dev/null 2>&1 || curl -s --max-time 1 -u "${DASHBOARD_USER:-admin}:${DASHBOARD_PASS}" "$BACKEND_URL/api/status" >/dev/null 2>&1; then
     echo "[Backend] Already running at $BACKEND_URL"
     open_browser
 else

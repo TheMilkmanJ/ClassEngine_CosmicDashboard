@@ -5,20 +5,6 @@ from pathlib import Path
 from typing import Optional, List
 from fastapi import HTTPException
 from parsers.logs import safe_parse_python_dict, get_best_fit_from_log
-import os.path as osp
-
-def _assert_within_workspace(path: str, detail: str) -> None:
-    """Canonical workspace containment check using realpath and commonpath."""
-    allowed_dir = os.path.realpath(
-        os.path.abspath(os.environ.get("DASHBOARD_WORKSPACE_ROOT", os.getcwd()))
-    )
-    abs_path = os.path.realpath(os.path.abspath(path))
-    try:
-        is_allowed = os.path.commonpath([allowed_dir, abs_path]) == allowed_dir
-    except ValueError:
-        is_allowed = False
-    if not is_allowed:
-        raise HTTPException(status_code=400, detail=detail)
 
 def get_output_prefix_from_yaml(config_path: str) -> str:
     """Parses the YAML file to find the 'output' key and sanitizes the path."""
@@ -32,23 +18,33 @@ def get_output_prefix_from_yaml(config_path: str) -> str:
         pass
     
     # Sanitize prefix to prevent path traversal
-    _assert_within_workspace(prefix, "Path traversal detected in YAML 'output' configuration.")
+    abs_path = Path(prefix).resolve()
+    allowed_dir = Path(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.expanduser("~")).resolve()
+    try:
+        abs_path.relative_to(allowed_dir)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Path traversal detected in YAML 'output' configuration.")
     return prefix
 
-def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optional[Path]:
+def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "", allow_alphabetized: bool = True) -> Optional[Path]:
     """Finds a configuration YAML file corresponding to output_prefix."""
-    # 1. Try updated.yaml
-    updated_yaml = Path(f"{output_prefix}.updated.yaml")
-    if updated_yaml.exists():
+    # 1. Prefer explicit active config — preserves Cobaya chain column order.
+    if active_yaml_path and Path(active_yaml_path).exists():
         try:
-            with open(updated_yaml, 'r') as f:
-                content = yaml.safe_load(f)
-            if isinstance(content, dict):
-                return updated_yaml
+            active_path = Path(active_yaml_path).resolve()
+            allowed_dir = Path(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.expanduser("~")).resolve()
+            active_path.relative_to(allowed_dir)
+            if get_output_prefix_from_yaml(active_yaml_path) == output_prefix:
+                with open(active_path, 'r') as f:
+                    content = yaml.safe_load(f)
+                if isinstance(content, dict):
+                    return active_path
+        except ValueError:
+            raise HTTPException(status_code=400, detail="Access denied: invalid active YAML path.")
         except Exception:
             pass
-        
-    # 2. Try input.yaml
+
+    # 2. Try input.yaml (original run order)
     input_yaml = Path(f"{output_prefix}.input.yaml")
     if input_yaml.exists():
         try:
@@ -58,23 +54,13 @@ def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optio
                 return input_yaml
         except Exception:
             pass
-        
-    # 3. Try active_yaml_path
-    if active_yaml_path and Path(active_yaml_path).exists():
-        try:
-            if get_output_prefix_from_yaml(active_yaml_path) == output_prefix:
-                try:
-                    with open(active_yaml_path, 'r') as f:
-                        content = yaml.safe_load(f)
-                    if isinstance(content, dict):
-                        return Path(active_yaml_path)
-                except Exception:
-                    pass
-        except Exception:
-            pass
-            
-    # 4. Search in root and chains/ directories for matching output field
-    for ypath in [Path("."), Path("chains")]:
+
+    # 3. Search in root, chains/ and templates/ directories for matching output field.
+    #    These preserve the original param declaration order, which MUST match the
+    #    chain column order for headerless files. (.updated.yaml is tried LAST because
+    #    Cobaya stores its params alphabetically — mapping chain columns with that
+    #    order scrambles every parameter, e.g. xi_prtoe picking up another column.)
+    for ypath in [Path("."), Path("chains"), Path("templates")]:
         if ypath.exists():
             for yfile in ypath.glob("*.yaml"):
                 try:
@@ -89,6 +75,19 @@ def get_model_yaml_path(output_prefix: str, active_yaml_path: str = "") -> Optio
                             pass
                 except Exception:
                     pass
+
+    # 4. LAST resort: updated.yaml — params are alphabetized so the column mapping
+    #    is only safe for files WITH a header (mapped by name, not position).
+    updated_yaml = Path(f"{output_prefix}.updated.yaml")
+    if allow_alphabetized and updated_yaml.exists():
+        try:
+            with open(updated_yaml, 'r') as f:
+                content = yaml.safe_load(f)
+            if isinstance(content, dict):
+                return updated_yaml
+        except Exception:
+            pass
+
     return None
 
 def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
@@ -107,8 +106,17 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
     # 1. Try reading the completed stats file first
     if stats_file.exists():
         try:
-            with open(stats_file, 'r') as f:
-                content = f.read()
+            # Use safe non-intrusive read if available (avoids exclusive lock contention
+            # with PolyChord during nested sampling, which triggers Cobaya tamper alarms).
+            content = None
+            try:
+                from scripts.cosmo_dashboard_backend import safe_read_text_for_monitor
+                content = safe_read_text_for_monitor(stats_file, description="polychord stats")
+            except Exception:
+                pass
+            if content is None:
+                with open(stats_file, 'r') as f:
+                    content = f.read()
 
             # Read dead points
             ndead_match = re.search(r"ndead:\s*(\d+)", content)
@@ -120,14 +128,44 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
             if nlive_match:
                 stats["nlive"] = int(nlive_match.group(1))
 
-            # Read log(Z) and error from stats file
-            logz_match = re.search(r"log\(Z\)\s*=\s*([-\d.eE+]+)\s*\+/-\s*([-\d.eE+]+)", content)
+            if "optimizer run" in content.lower():
+                stats["is_optimizer"] = True
+
+            # Read log(Z) and error from stats file (nan/inf → leave as None)
+            logz_match = re.search(
+                r"log\(Z\)\s*=\s*([-\w\d.eE+]+)\s*\+/-\s*([-\w\d.eE+]+)", content
+            )
             if logz_match:
-                stats["log_evidence"] = float(logz_match.group(1))
-                stats["log_evidence_error"] = float(logz_match.group(2))
+                import math
+                try:
+                    lz = float(logz_match.group(1))
+                    if math.isfinite(lz):
+                        stats["log_evidence"] = lz
+                except ValueError:
+                    pass
+                try:
+                    lz_err = float(logz_match.group(2))
+                    if math.isfinite(lz_err):
+                        stats["log_evidence_error"] = lz_err
+                except ValueError:
+                    pass
                 stats["evidence_source"] = "polychord_stats"
                 stats["evidence_is_final"] = True
                 stats["evidence_quality"] = "final_nested_sampling"
+
+            # Optimizer .stats files include a best-fit parameter table
+            if stats.get("is_optimizer"):
+                raw_params = {}
+                for line in content.splitlines():
+                    m = re.match(
+                        r"^\s*([a-zA-Z0-9_]+)\s+([-\d.eE+]+)\s+([-\d.eE+]+)\s*$", line
+                    )
+                    if m:
+                        raw_params[m.group(1)] = float(m.group(2))
+                if raw_params:
+                    stats["best_raw_params"] = raw_params
+
+            if stats.get("dead_points") or stats.get("log_evidence") is not None or stats.get("is_optimizer"):
                 return stats
         except Exception:
             pass
@@ -135,8 +173,15 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
     # 2. Fall back to reading the resume file for real-time progress
     if resume_file and resume_file.exists():
         try:
-            with open(resume_file, 'r') as f:
-                content = f.read()
+            content = None
+            try:
+                from scripts.cosmo_dashboard_backend import safe_read_text_for_monitor
+                content = safe_read_text_for_monitor(resume_file, description="polychord resume")
+            except Exception:
+                pass
+            if content is None:
+                with open(resume_file, 'r') as f:
+                    content = f.read()
 
             # Read dead points (iterations)
             dead_points_match = re.search(r"=== Number of dead points/iterations ===\s*\n\s*(\d+)", content)
@@ -200,14 +245,8 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
                                 chi2_sn = params_dict.get('chi2__SN', sn_sum)
                                 
                                 tot_chi2 = (chi2_bao or 0.0) + (chi2_cmb or 0.0) + (chi2_sn or 0.0)
-                                # Include all chi2__* terms in total, not just grouped ones
                                 if tot_chi2 == 0.0:
                                     tot_chi2 = sum([params_dict[k] for k in chi2_keys])
-                                else:
-                                    # Add any ungrouped chi2 terms to the grouped total
-                                    grouped_keys = {k for k in chi2_keys if any(g in k.lower() for g in ['cmb', 'planck', 'bao', 'boss', 'sn', 'pantheon', 'shoes'])}
-                                    ungrouped_vals = [params_dict[k] for k in chi2_keys if k not in grouped_keys]
-                                    tot_chi2 += sum(ungrouped_vals)
                                 
                                 if tot_chi2 > 0.0:
                                     logls.append(-0.5 * tot_chi2)
@@ -236,15 +275,19 @@ def parse_polychord_stats(stats_file: Path, resume_file: Optional[Path] = None):
 
     return stats
 
-def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str = ""):
-    """Fixed, non-duplicated version of get_best_fit_details.
-    state is optional for backward compatibility with one-argument call sites."""
+def get_best_fit_details(output_prefix: str, state, active_yaml_path: str = ""):
+    """Fixed, non-duplicated version of get_best_fit_details."""
     # Sanitize output_prefix to prevent directory traversal
-    _assert_within_workspace(output_prefix, "Access denied: invalid output prefix path.")
+    abs_path = Path(output_prefix).resolve()
+    allowed_dir = Path(os.environ.get("DASHBOARD_WORKSPACE_ROOT") or os.path.expanduser("~")).resolve()
+    try:
+        abs_path.relative_to(allowed_dir)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Access denied: invalid output prefix path.")
 
     log_file = Path(f"{output_prefix}.log")
     
-    best_log_fit = get_best_fit_from_log(log_file, state) if state else None
+    best_log_fit = get_best_fit_from_log(log_file, state)
     
     prefix_path = Path(output_prefix)
     raw_file = prefix_path.parent / f"{prefix_path.name}_polychord_raw" / f"{prefix_path.name}.txt"
@@ -303,9 +346,7 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
             raw_file_positions = state.get("raw_file_positions", {}) if is_dict else getattr(state, "raw_file_positions", {})
             best_fit_file_cache = state.get("best_fit_file_cache", {}) if is_dict else getattr(state, "best_fit_file_cache", {})
             
-            if fpath_str not in raw_file_positions:
-                raw_file_positions[fpath_str] = 0
-            elif file_size < raw_file_positions[fpath_str]:
+            if fpath_str not in raw_file_positions or file_size < raw_file_positions[fpath_str]:
                 raw_file_positions[fpath_str] = 0
                 best_fit_file_cache.pop(fpath_str, None)
                 
@@ -314,22 +355,20 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
             best_fit_this_file = current_best
             
             with open(fpath, 'r', errors='ignore') as f:
-                start_pos = raw_file_positions[fpath_str]
-                
-                # Check for header in final_file on every incremental read so
-                # appended rows still use the correct column mapping.
+                # Check for header in final_file and seek to cached position
                 has_header = False
                 names_in_header = []
                 if ftype == "final":
-                    f.seek(0)
                     first_line = f.readline()
                     if first_line.startswith('#'):
                         has_header = True
                         names_in_header = first_line.lstrip('#').strip().split()
-                        if start_pos == 0:
-                            start_pos = f.tell()
-                            raw_file_positions[fpath_str] = start_pos
-                f.seek(start_pos)
+                        if raw_file_positions[fpath_str] > 0:
+                            f.seek(raw_file_positions[fpath_str])
+                    else:
+                        f.seek(raw_file_positions[fpath_str])
+                else:
+                    f.seek(raw_file_positions[fpath_str])
                 
                 for line in f:
                     if line.strip().startswith('#'):
@@ -366,9 +405,9 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                                 pass
                                 else:
                                     if ftype == "final":
-                                        sampled_clean = [p for p in sampled if not params[p].get('drop')]
-                                        names_params = sampled_clean + derived
-                                        idx_start = 3
+                                        # drop:true params still occupy columns in Cobaya chain files
+                                        names_params = sampled + derived
+                                        idx_start = 2
                                     elif ftype == "live":
                                         priors = ["logprior__0"]
                                         likes = [f"loglike__{name}" for name in likelihoods.keys()]
@@ -388,15 +427,13 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                 # 3. Safely sum likelihood parameters to positive chi2 values
                                 cmb_vals = []
                                 bao_vals = []
-                                boss_vals = []
                                 desi_vals = []
                                 sn_vals = []
                                 lensing_vals = []
                                 other_vals = []
                                 
                                 has_cmb_group = any(k.startswith('chi2__') and ('cmb' in k.lower() or 'planck' in k.lower()) for k in raw_params.keys())
-                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() and 'boss' not in k.lower()) for k in raw_params.keys())
-                                has_boss_group = any(k.startswith('chi2__') and 'boss' in k.lower() for k in raw_params.keys())
+                                has_bao_group = any(k.startswith('chi2__') and ('bao' in k.lower() or 'boss' in k.lower()) for k in raw_params.keys())
                                 has_desi_group = any(k.startswith('chi2__') and 'desi' in k.lower() for k in raw_params.keys())
                                 has_sn_group = any(k.startswith('chi2__') and ('sn' in k.lower() or 'pantheon' in k.lower() or 'shoes' in k.lower()) for k in raw_params.keys())
                                 has_lensing_group = any(k.startswith('chi2__') and ('lensing' in k.lower() or 'lens' in k.lower()) for k in raw_params.keys())
@@ -409,9 +446,7 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                         k_lower = k.lower()
                                         if has_cmb_group and ('cmb' in k_lower or 'planck' in k_lower):
                                             continue
-                                        if has_bao_group and ('bao' in k_lower and 'boss' not in k_lower):
-                                            continue
-                                        if has_boss_group and 'boss' in k_lower:
+                                        if has_bao_group and ('bao' in k_lower or 'boss' in k_lower):
                                             continue
                                         if has_desi_group and 'desi' in k_lower:
                                             continue
@@ -425,9 +460,7 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                     
                                     if 'desi' in k_lower:
                                         desi_vals.append(val)
-                                    elif 'boss' in k_lower:
-                                        boss_vals.append(val)
-                                    elif 'bao' in k_lower:
+                                    elif 'bao' in k_lower or 'boss' in k_lower:
                                         bao_vals.append(val)
                                     elif 'lensing' in k_lower or 'lens' in k_lower:
                                         lensing_vals.append(val)
@@ -442,7 +475,6 @@ def get_best_fit_details(output_prefix: str, state=None, active_yaml_path: str =
                                     "total": chi2,
                                     "cmb": sum(cmb_vals) if cmb_vals else 0.0,
                                     "bao": sum(bao_vals) if bao_vals else 0.0,
-                                    "boss": sum(boss_vals) if boss_vals else 0.0,
                                     "desi": sum(desi_vals) if desi_vals else 0.0,
                                     "sn": sum(sn_vals) if sn_vals else 0.0,
                                     "lensing": sum(lensing_vals) if lensing_vals else 0.0,

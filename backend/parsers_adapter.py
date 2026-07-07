@@ -68,6 +68,7 @@ def _import_polychord_module():
         logger.debug("Strategy 1 (top-level) failed:\n%s", traceback.format_exc())
 
     # Strategy 2: load by absolute file path (preferred — no sys.path mutation)
+    # parsers live under scripts/parsers/ relative to project root
     scripts_dir = Path(__file__).resolve().parents[1] / 'scripts'
     candidate = scripts_dir / 'parsers' / 'polychord.py'
     if candidate.exists():
@@ -189,11 +190,16 @@ def get_model_yaml_path(output_prefix: str, active_yaml_path: str = ""):
             return _polychord_mod.get_model_yaml_path(output_prefix, active_yaml_path)
         except Exception as e:
             logger.warning("get_model_yaml_path failed: %s", e)
-    # Fallback: attempt conventional locations
-    for suffix in ('.updated.yaml', '.input.yaml'):
-        cand = Path(f"{output_prefix}{suffix}")
-        if cand.exists():
-            return cand
+    # Fallback: attempt conventional locations. Order matters: .input.yaml and the
+    # active yaml preserve the original param order (= chain column order), while
+    # Cobaya's .updated.yaml alphabetizes params and would scramble positional
+    # column mapping — so it goes last.
+    cand = Path(f"{output_prefix}.input.yaml")
+    if cand.exists():
+        return cand
     if active_yaml_path and Path(active_yaml_path).exists():
         return Path(active_yaml_path)
+    cand = Path(f"{output_prefix}.updated.yaml")
+    if cand.exists():
+        return cand
     return None

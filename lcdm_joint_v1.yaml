@@ -1,0 +1,103 @@
+packages_path: /home/themilkmanj/cobaya_packages_clean
+output: chains/lcdm_joint_v1
+likelihood:
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lensing.clik: null
+  bao.sixdf_2011_bao: null
+  bao.sdss_dr7_mgs: null
+  bao.sdss_dr12_consensus_final: null
+  sn.pantheonplusshoes: null
+  act_dr6:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/ACT_DR6_CMB_only.yaml
+    clear_internal_priors: true
+  spt3g_lite:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/SPT3G_2018_TTTEEE_lite.yaml
+    clear_internal_priors: true
+theory:
+  classy:
+    stop_at_error: false
+    extra_args:
+      non_linear: halofit
+      output: mPk,tCl,pCl,lCl
+      modes: s
+      N_ur: 2.0328
+      N_ncdm: 1
+      T_ncdm: 0.71611
+      l_max_scalars: 9000
+      lensing: 'yes'
+params:
+  omega_b:
+    prior: {min: 0.0200, max: 0.0250}
+    ref: {dist: norm, loc: 0.0224, scale: 0.0002}
+    proposal: 0.0002
+    latex: \omega_\mathrm{b}
+  H0:
+    prior: {min: 64.0, max: 78.0}
+    ref: {dist: norm, loc: 69.0, scale: 0.5}
+    proposal: 0.5
+    latex: H_0
+  logA:
+    prior: {min: 2.90, max: 3.25}
+    ref: {dist: norm, loc: 3.050, scale: 0.01}
+    proposal: 0.01
+    drop: true
+    latex: \log(10^{10} A_\mathrm{s})
+  A_s:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    derived: true
+    latex: A_\mathrm{s}
+  omega_cdm:
+    prior: {min: 0.10, max: 0.14}
+    ref: {dist: norm, loc: 0.12, scale: 0.001}
+    proposal: 0.001
+    latex: \omega_\mathrm{cdm}
+  n_s:
+    prior: {min: 0.92, max: 1.03}
+    ref: {dist: norm, loc: 0.980, scale: 0.005}
+    proposal: 0.005
+    latex: n_\mathrm{s}
+  z_reio:
+    prior: {min: 4.0, max: 12.0}
+    ref: {dist: norm, loc: 8.0, scale: 0.5}
+    proposal: 0.5
+    latex: z_\mathrm{reio}
+  A_planck:
+    prior: {dist: norm, loc: 1.0, scale: 0.0025}
+    ref: {dist: norm, loc: 1.0, scale: 0.002}
+    proposal: 0.002
+    latex: A_\mathrm{planck}
+  A_act:
+    prior: {dist: norm, loc: 1.0, scale: 0.003}
+    ref: {dist: norm, loc: 1.0, scale: 0.002}
+    proposal: 0.002
+    latex: A_\mathrm{ACT}
+  P_act:
+    prior: {min: 0.9, max: 1.1}
+    ref: {dist: norm, loc: 1.0, scale: 0.005}
+    proposal: 0.005
+    latex: P_\mathrm{ACT}
+  Tcal:
+    prior: {dist: norm, loc: 1.0, scale: 0.00449}
+    ref: {dist: norm, loc: 1.0, scale: 0.003}
+    proposal: 0.003
+    latex: T_\mathrm{cal}
+  Ecal:
+    prior: {dist: norm, loc: 1.0, scale: 0.00727}
+    ref: {dist: norm, loc: 1.0, scale: 0.005}
+    proposal: 0.005
+    latex: E_\mathrm{cal}
+  m_ncdm: 0.06
+  sigma8:
+    latex: \sigma_8
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
+
+sampler:
+  evaluate: null

@@ -1,0 +1,164 @@
+=============================================================================
+PRTOE CLASS BUILD & COMPILATION FIX LOG
+=============================================================================
+Created: 2026-06-29
+Purpose: Track all fixes, TODOs completed, and detailed explanations
+
+=============================================================================
+IMMEDIATE CRISIS FIX #1: MISSING CLOSING BRACE IN background_derivs()
+=============================================================================
+
+ISSUE:
+------
+Compilation error: "expected declaration or statement at end of input"
+Location: source/background.c:3685
+
+ROOT CAUSE:
+-----------
+The function background_derivs() was missing its final return statement and 
+closing brace. The function starts at line 3032 and contains PRTOE handling 
+code that was added in commit e913decf. The closing brace was accidentally 
+omitted when prtoe_compute_quantities() was defined immediately after.
+
+TECHNICAL DETAILS:
+------------------
+- background_derivs() function signature: int background_derivs(...) at line 3032
+- Function handles background evolution equations for PRTOE and standard models
+- PRTOE code path (lines ~3100-3256): Computes F(phi), activates PRTOE if needed
+- Fallback path (lines 3246-3256): Zeros PRTOE derivatives for LambdaCDM/null limit
+- Missing: return _SUCCESS_; and closing } after line 3256
+- This caused the compiler to try parsing prtoe_compute_quantities() as part of
+  background_derivs(), resulting in brace mismatch at EOF
+
+FIX APPLIED:
+------------
+Location: source/background.c, line 3256-3260 (after PRTOE else block)
+
+Added:
+    }                    // Close the else block (was present)
+                         // (blank line was present)
+    return _SUCCESS_;    // <-- ADDED
+                         // (blank line was added)
+    }                    // <-- ADDED - Close background_derivs() function
+                         // (blank line was present)
+
+BEFORE:
+    }
+  }
+
+/**
+
+AFTER:
+    }
+  }
+
+  return _SUCCESS_;
+
+}
+
+/**
+
+WHY THIS WORKS:
+---------------
+The C parser now correctly:
+1. Closes the PRTOE if-else block structure
+2. Returns success status from background_derivs() function
+3. Closes background_derivs() function body
+4. Starts prtoe_compute_quantities() as a new top-level function
+
+This fixes the "expected declaration or statement" error because the 
+compiler no longer sees unmatched braces at the end of the file.
+
+VERIFICATION:
+-------------
+make clean && make -j4
+Result: ✅ COMPILATION SUCCESSFUL (2026-06-29 23:55:00)
+- background.c compiled without errors
+- All object files created
+- Binary ./class (9.3M) created
+- Static library libclass.a (14M) created  
+- All symbols linked correctly
+- Symbol check: prtoe_compute_quantities at 0x7070 in background.o
+
+Test Results:
+- Binary executes and can parse .ini files
+- Background evolution computes successfully
+- Some configuration files need parameter tuning (numerical issues)
+- Core compilation and linking verified working
+
+=============================================================================
+COMPLETED & VERIFIED:
+=============================================================================
+1. ✅ Fix missing closing brace in background_derivs() - DONE
+2. ✅ Full clean build with make clean && make -j4 - DONE
+3. ✅ Verify symbol prtoe_compute_quantities compiled - DONE
+4. ✅ Binary and libraries created successfully - DONE
+
+=============================================================================
+NEXT STEPS - TODO LIST:
+=============================================================================
+5. ⏳ TODO-4: Clean Lambda + PRTOE interaction (TBD)
+6. ⏳ TODO-9: Index management cleanup (TBD)
+7. ✅ TODO-10: prtoe_compute_quantities() helper function implemented and verified
+   - Function located at source/background.c lines 3499-3574
+   - Returns _SUCCESS_ and outputs F, F_phi, F_dot, trans, xi_screened
+   - Uses safe guards for tiny densities and avoids log(0)
+8. ⏳ TODO-11: Clean up PRTOE comments (TBD)
+9. ⏳ TODO-12: Implement perturbed Einstein equations (TBD)
+10. ⏳ TODO-13: Add PRTOE to density/velocity perturbations (TBD)
+11. ⏳ TODO-14: Test background + perturbation stability (in progress)
+
+RECENT ACTIONS (null-limit test):
+- Adjusted a_ini_over_a_today_default -> 1e-18 to start earlier (radiation era)
+- Re-ran test_prtoe_null_limit with adjusted ini
+- Background computed, but perturbation sampling failed: initial time for sources is after recombination.
+  Suggestion: decrease 'start_sources_at_tau_c_over_tau_h' in ini to start source computation earlier.
+
+=============================================================================
+139. PERTURBATIONS AUDIT SUMMARY
+140. ---------------------------
+141. Findings:
+142. - perturbations.c contains prtoe_compute_delta_F helper and multiple uses of F_phi, F_phiphi, F_phiphiphi read from pvecback.
+143. - Most uses are already guarded by (pba->use_prtoe) or conditional operators, but some local blocks assign pvecback values without explicit prtoe_is_physically_active() check (they are inside larger PRTOE branches).
+144. - prtoe_is_physically_active() uses xi_prtoe threshold tol=1e-10. Input defaults set xi_prtoe=1e-7, so tests MUST set xi_prtoe small to trigger null-limit.
+145. - perturbations_timesampling_for_sources() uses prtoe_source_condition OR prtoe_is_physically_active() to relax source-start checks; current tests showed the sampling-time check failed until start_sources_at_tau_c_over_tau_h was decreased.
+146.
+147. Proposed immediate edits (safe, minimal):
+148. 1) Add defensive guards in perturbations.c where F_phiphiphi-derived terms are added:
+149.    - Wrap any expression that uses pvecback[pba->index_bg_F_phiphiphi_prtoe] with
+150.      if (pba->use_prtoe == _TRUE_ && prtoe_is_physically_active(pba) && fabs(F) > 1e-30) { ... }
+151. 2) Ensure background stores zero values for F, F_phi, F_phiphi, F_phiphiphi when use_prtoe==_FALSE_ OR prtoe inactive, to guarantee stable reads when indices exist.
+152. 3) For testing null-limit, prefer setting xi_prtoe explicitly in INI to smaller than prtoe_is_physically_active tolerance (e.g., xi_prtoe=1e-12). Alternatively lower the tolerance in prtoe_is_physically_active() to 1e-12 if desired.
+153.
+154. Next actions (pick order):
+155. - Implement item (1) defensive guards in perturbations.c (fast, low-risk).
+156. - Verify that background.c always writes safe zeros when PRTOE inactive (item 2) and add writes if missing.
+157. - Re-run test_prtoe_null_limit.tuned.ini (xi_prtoe=1e-11) and, if still considered active, set xi_prtoe=1e-12 and re-run.
+158. - If prtoe_is_physically_active() still behaves unexpectedly, instrument (temporary print) in background_init() to log pba->xi_prtoe at startup for debugging.
+159.
+160. Asking: Proceed to implement the defensive guards in perturbations.c and ensure background writes zeros for inactive PRTOE now? (No confirmation needed if you want immediate changes.)
+2026-06-30T00:46:42-06:00 - Moved logs to Test_Results and created Test_Results/run_tests.sh
+--- CoPilot log entry ---
+Planned: run LambdaCDM with perturbations (test_lambda_cdm.ini), save logs to Test_Results/run_lambda_cdm.log
+
+[Step] Built project and ran test_lambda_cdm.ini with perturbations.
+- Build: make succeeded; ./class produced binary.
+- Test run: logs at Test_Results/run_lambda_cdm.log.
+- Observations: background debug shows tau_table entries constant in background_sources while background_derivs computes nonzero dy_tau (pointer/index mismatch suspected).
+
+=== EDIT: Defensive guards added in perturbations.c ===
+Date: 2026-06-30
+Changes:
+- Added SAFE_BG macro after includes to safely read pvecback entries with defaults.
+- Replaced direct reads of ppw->pvecback[pba->index_bg_F_*] in three places with SAFE_BG guarded reads.
+Rationale:
+- Prevents out-of-range or NULL pvecback reads when indices are -1 or tables not present, reducing crashes and ensuring safe defaults (F=1, derivatives=0).
+Verification:
+- Modified source/perturbations.c; build and tests recommended.
+
+=== TODO: Fix perturbations.c brace mismatch ===
+Action: Removed extra closing brace at perturbations.c (near line ~6680) that caused premature function termination and macro expansion failures.
+Why it works: Restores correct brace balance so perturbations_einstein remains open; class_call macro now expands within function scope.
+Result: Project rebuilt successfully; 'class' library and Python wheel installed.
+Files changed: source/perturbations.c
+Timestamp: 2026-06-30T07:50:53Z

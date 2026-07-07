@@ -46,7 +46,8 @@ chains/*.yaml
 chains/*.txt
 chains/*.resume
 chains/*.stats
-chains/dashboard_sessions.json
+chains/*.json
+chains/*.db
 chains/dashboard_backend.pid
 *.png
 !screenshots/*.png
@@ -58,3 +59,27 @@ CosmicDashboard_Data.zip
 prtoe_posteriors.png
 # Note: repo intentionally does not track build products, run data, or generated chains for portability and size.
 .aider*
+
+# Test and validation artifacts
+Test-Results/
+*.unused_parameters
+validation_suite_*.log
+
+
+test_background
+
+# session/debug scratch (agents)
+*.bak
+cramer_log.txt
+prof_output.txt
+print_*.py
+run_prof.py
+run_test*.py
+fix_*.py
+check_rel_diff.py
+test_tanh*
+tmp_*/
+archive/
+scratch/SPARC_data/
+scratch/SPARC_data_repo/
+python/external/

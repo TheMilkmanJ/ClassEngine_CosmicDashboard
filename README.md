@@ -1,14 +1,14 @@
 # CosmicDashboard + PRTOE (CLASS + Cobaya Controller)
 
-**A production-grade web UI for running, monitoring, and performing advanced Bayesian analysis on cosmological models (including PRTOE) with CLASS and Cobaya/PolyChord.**
+**An experimental research dashboard for running, monitoring, and performing advanced Bayesian analysis on cosmological models (including PRTOE) with CLASS and Cobaya/PolyChord.**
 
 **Author:** Justin Ryan Pulford
 
-This repository provides the **PRTOE** (Pulford-Romsa Theory of Everything) model modifications to the CLASS C solver, plus **CosmicDashboard** — a beautiful, glassmorphic, dark-themed web application that makes it easy to:
+This repository provides the **PRTOE** (Pulford-Romsa scalar-tensor cosmology extension) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
 - Compile custom CLASS engines
 - Run nested sampling (Cobaya + PolyChord)
 - Perform rich diagnostics and comparisons
-- **Use a full modern Bayesian toolkit that obsoletes traditional AIC/BIC** for complex models (see features below)
+- **Add exploratory Bayesian diagnostics beyond simple information criteria** for complex models (see features below)
 
 It is built on top of the excellent upstream [CLASS code](http://class-code.net) by Julien Lesgourgues et al.
 
@@ -61,9 +61,9 @@ TAKING APPLICATION FEATURE REQUESTS!!! Please leave a detailed description of wh
 
 **See the UI in action:** Real screenshots and videos will be added to the [Screenshots & Demo Videos](#screenshots--demo-videos) section below (user-captured).
 
-> **New in recent releases (see detailed sections below):** Full PSIS-LOO with Pareto k fragility audit, Bayesian Stacking weights, Savage-Dickey exact nested BFs, Parameter Evolution History that *only* captures on real posterior shifts + working GIF compiler, the "Alive" Nebula cosmic portal (always-visible, comes alive on run with flowing dust), hardened Phone Sync (file fallbacks, always-visible pill, manual set everywhere), the complete "Copy ALL AI Prompts" suite (with all new features baked into the prompts), and production fixes for wrappers / best-fit helpers so nothing crashes on derived/compare/status paths. The entire Bayesian comparison stack + visuals now make AIC/BIC tables look like 1970s relics.
+> **New in recent releases (see detailed sections below):** Full PSIS-LOO with Pareto k fragility audit, Bayesian Stacking weights, Savage-Dickey nested BFs, Parameter Evolution History that *only* captures on real posterior shifts + working GIF compiler, the "Alive" Nebula cosmic portal (always-visible, comes alive on run with flowing dust), hardened Phone Sync (file fallbacks, always-visible pill, manual set everywhere), the complete "Copy ALL AI Prompts" suite (with all new features baked into the prompts), and reliability fixes for wrappers / best-fit helpers so nothing crashes on derived/compare/status paths. The entire Bayesian comparison stack + visuals now provides advanced exploratory diagnostics.
 
-**See the [Full Modern Bayesian Model Comparison Suite](#full-modern-bayesian-model-comparison-suite-making-aicbic-obsolete-for-complex-models) and [Visual & UX Upgrades](#visual--ux-upgrades) sections below for everything that has been added or significantly upgraded.**
+**See the [Full Modern Bayesian Model Comparison Suite](#full-modern-bayesian-model-comparison-suite-adding-advanced-diagnostics-for-complex-models) and [Visual & UX Upgrades](#visual--ux-upgrades) sections below for everything that has been added or significantly upgraded.**
 
 ### Changelog
 
@@ -72,15 +72,15 @@ TAKING APPLICATION FEATURE REQUESTS!!! Please leave a detailed description of wh
 README fully updated (I first read the entire 240-line file end-to-end via the tools to ensure all sections, cross-references, and existing descriptions were understood and lined up before editing).
 
 Summary of changes made
-• Top-level description (PRTOE + CosmicDashboard intro paragraph): Expanded to highlight the full modern Bayesian suite (PSIS-LOO + Pareto k, Stacking, Savage-Dickey, conditional evolution movies, etc.) that makes AIC/BIC obsolete, plus visuals (alive nebula), reliability fixes, AI prompts, phone/remote, etc.
+• Top-level description (PRTOE + CosmicDashboard intro paragraph): Expanded to highlight the full modern Bayesian suite (PSIS-LOO + Pareto k, Stacking, Savage-Dickey, conditional evolution movies, etc.) that adds advanced diagnostics beyond simple information criteria, plus visuals (alive nebula), reliability fixes, AI prompts, phone/remote, etc.
 • "New in recent releases" call-out (right after the "Working & Usable Control Suite" header): Added a prominent highlighted block listing all the major additions/upgrades (with links to the new detailed sections). This makes the "all the new features" immediately visible.
 • Phone section: Left the existing detailed text mostly intact (it was already accurate from prior work) but added a short cross-reference at the end pointing to the new "Visual & UX Upgrades" section for the latest hardening (file fallbacks, always-visible pill, etc.). This keeps everything lined up without duplication.
 • Advanced Academic & Diagnostic Features list: Kept all the pre-existing bullets (Playground, Live Sampler Health, Run-vs-Run, Per-Point Residuals, Provenance, Notebook Generator, Autopsy Timeline, Auto-Rebuilder) exactly as they were. Appended a clean new block of bullets for the major recent additions/upgrades so the list is now comprehensive and up-to-date.
 • Two brand-new detailed sections (inserted after the legacy Advanced list, before Screenshots):
-  • Full Modern Bayesian Model Comparison Suite (Making AIC/BIC Obsolete for Complex Models): Comprehensive coverage of PSIS-LOO + Pareto k (with integration notes, k>0.7 fragility meaning, per-probe extraction), Bayesian Stacking (M-open vs BMA, weights explanation), Savage-Dickey (exact nested BF, YAML prior loading, PRTOE example), and the upgraded Parameter Evolution History (now only on real posterior shifts via key-means signature, auto-advance in UI, working GIF compiler). Also notes exposure in UI, APIs, bundles, and AI prompts.
-  • Visual & UX Upgrades: Details the "Alive" Nebula Cosmic Portal (always-visible, has-model glass name readability, fully-alive running state with flowing dust/pulse/energy/live glow, pure CSS), the hardened Phone Sync (with explicit pointers back to the phone section), the complete AI Prompt Suite ("Copy All" + specialized buttons, shared builder, new features baked into every prompt with "why this obsoletes AIC/BIC" language), and Production Reliability (wrapper _original_* captures, get_current_best_fit_params() helper + StateManager shim, no more crashes).
+  • Full Modern Bayesian Model Comparison Suite (Adding Advanced Diagnostics for Complex Models): Comprehensive coverage of PSIS-LOO + Pareto k (with integration notes, k>0.7 fragility meaning, per-probe extraction), Bayesian Stacking (M-open vs BMA, weights explanation), Savage-Dickey (nested BF estimator, YAML prior loading, PRTOE example), and the upgraded Parameter Evolution History (now only on real posterior shifts via key-means signature, auto-advance in UI, working GIF compiler). Also notes exposure in UI, APIs, bundles, and AI prompts.
+  • Visual & UX Upgrades: Details the "Alive" Nebula Cosmic Portal (always-visible, has-model glass name readability, fully-alive running state with flowing dust/pulse/energy/live glow, pure CSS), the hardened Phone Sync (with explicit pointers back to the phone section), the complete AI Prompt Suite ("Copy All" + specialized buttons, shared builder, new features baked into every prompt), and Production Reliability (wrapper _original_* captures, get_current_best_fit_params() helper + StateManager shim, no more crashes).
 • Screenshots & Demo Videos section: Updated the placeholder text + "Coming soon" list to specifically call out the new visuals (alive nebula states, evolution scrubber + GIF, PSIS/Stacking/Savage buttons + results, always-visible phone pill, Copy ALL AI Prompts flow, new Bayesian cards). Added encouragement for user contributions of exactly these. Minor polish on the "cool integration" note.
-• Cross-references and consistency: All new anchors (#full-modern-bayesian-model-comparison-suite-making-aicbic-obsolete-for-complex-models and #visual--ux-upgrades) are used from the top call-out, the phone section, the screenshots section, etc. Language is consistent with current code (endpoint names, button text, exact behaviors like "only on noticeable posterior change", "k>0.7", "M-open", "flowing space dust", etc.). The classic upstream CLASS documentation (after the custom CosmicDashboard content) was left completely untouched.
+• Cross-references and consistency: All new anchors (#full-modern-bayesian-model-comparison-suite-adding-advanced-diagnostics-for-complex-models and #visual--ux-upgrades) are used from the top call-out, the phone section, the screenshots section, etc. Language is consistent with current code (endpoint names, button text, exact behaviors like "only on noticeable posterior change", "k>0.7", "M-open", "flowing space dust", etc.). The classic upstream CLASS documentation (after the custom CosmicDashboard content) was left completely untouched.
 • Overall flow: The README now reads as a single coherent story from quick start → phone/remote → (new) "New in recent releases" teaser → detailed Advanced list (legacy + new) → the two deep new sections (Bayesian suite + Visuals) → screenshots. Everything "lines up" with the actual implemented state (including recent evolution-history conditional logic + GIF path fix, nebula always-on + states, phone file fallback + always-visible pill, AI prompt refactoring, wrapper/helper reliability, etc.).
 
 ### Quick Start (One-Click Launch)
@@ -102,7 +102,7 @@ We have added a custom desktop shortcut featuring a high-fidelity glowing spiral
 
 To manually recreate or redeploy this shortcut, run:
 ```bash
-conda activate pgtoe_gold
+conda activate prtoe_gold
 python scripts/create_desktop_shortcut.py
 ```
 
@@ -165,8 +165,8 @@ Manual tunnel (no launcher):
 * **Auto-Rebuilder & Parallel Solver Control:**
   * Easily toggle active CPU cores and run nested PolyChord samplers via multi-threaded MPI natively in the background, with automatic CLASS C-engine rebuilding.
 
-### Full Modern Bayesian Model Comparison Suite (Making AIC/BIC Obsolete for Complex Models)
-CosmicDashboard now ships a complete production-grade toolkit that replaces point-estimate + crude k-penalty tools (AIC/BIC) with posterior-aware, predictive, and exact-nested methods. All are exposed in the UI "Analysis & Utilities Suite" (Tension & Compare tab), via dedicated REST endpoints, in the submit-bundle reports, and auto-injected into the AI prompt generators.
+### Full Modern Bayesian Model Comparison Suite (Adding Advanced Diagnostics for Complex Models)
+CosmicDashboard now ships an experimental toolkit that adds posterior-aware, predictive, and nested-model diagnostics beyond simple information criteria. All are exposed in the UI "Analysis & Utilities Suite" (Tension & Compare tab), via dedicated REST endpoints, in the submit-bundle reports, and auto-injected into the AI prompt generators.
 
 * **PSIS-LOO (Pareto-Smoothed Importance Sampling Leave-One-Out Cross-Validation) + Pareto k Fragility Audit** (`/api/psis_loo`, integrated in WAIC/evidence cards):
   * True out-of-sample predictive accuracy from a *single* run (no thousands of re-runs of CLASS/Cobaya).
@@ -183,7 +183,7 @@ CosmicDashboard now ships a complete production-grade toolkit that replaces poin
   * Exact Bayes factor for nested models directly from the posterior + prior (no expensive marginal likelihood re-runs).
   * For PRTOE: test whether extra parameters ($\xi_{\text{prtoe}}$, $\delta_{\text{prtoe}}$, etc.) are physically required. $BF_{10} = p(\xi=0 | \text{data}, M_{\text{custom}}) / \pi(\xi=0 | M_{\text{custom}})$.
   * Auto-loads current posterior draws for the chosen param + prior spec from the active YAML (supports uniform / Gaussian etc.).
-  * Returns $BF_{10}$, densities at the nested point, and clear interpretation. Perfect "smoking gun" evidence that your modifications are favored, completely side-stepping BIC's artificial parameter-count penalty.
+  * Returns $BF_{10}$, densities at the nested point, and clear interpretation. Provides preliminary diagnostic signals that your modifications may be favored, pending validation with matched nested-sampling evidence.
 * **Parameter Evolution History (Conditional "Movie" of Posterior Evolution)**:
   * Real-time capture of posterior triangle plots (`prtoe_posteriors.png` from the live GetDist monitor) into `dashboard/history/`.
   * **Only records a new frame when there is a detectable change in the actual posterior** (rounded means of key parameters H0/S8/Ωm + PRTOE params via `get_realtime_posterior_stats`; image-hash is now secondary). No more trivial updates from plot jitter.
@@ -217,7 +217,7 @@ To make model exploration and parameter profiling fast and accessible, CosmicDas
 
 ### AI Prompt Suite (First-Class "Copy All AI Prompts")
 * Multiple specialized generators (all buttons live in the Analysis panel):
-  * "✨ Copy AI Diagnostic Prompt" — the big unified context (now auto-includes full new Bayesian metrics + "NEW FEATURES" header telling the AI to use PSIS-LOO k values, stacking weights, Savage-Dickey BF10, etc., and to explain why this obsoletes AIC/BIC).
+  * "✨ Copy AI Diagnostic Prompt" — the big unified context (now auto-includes full new Bayesian metrics + "NEW FEATURES" header telling the AI to use PSIS-LOO k values, stacking weights, Savage-Dickey BF10, etc., and to explain the advantages of these exploratory diagnostics).
   * Dedicated "📊 Copy Stacking / Ensemble Prompt" and "🔬 Copy Savage-Dickey / Nested Test Prompt".
   * **Master "📋 Copy ALL AI Prompts"** — concatenates Diagnostic + Stacking + Savage + new "Paper Writing Aid" (drafts abstract + model-selection paragraph + suggested LaTeX/figures for the new metrics) + "Full multi-turn context" block.
 * All prompts are dynamically populated from live `lastStatusData` + scraped UI (advanced-metrics-body, phone link, evidence deltas, per-point chi², provenance, etc.) + explicit instructions to use the new tools and contrast with point-estimate penalties.
@@ -230,12 +230,12 @@ To make model exploration and parameter profiling fast and accessible, CosmicDas
 * These changes (plus the phone file fallback) make the whole system resilient to the exact classes of bugs that previously appeared after feature-add / undo cycles.
 
 ### Other Upgraded / Integrated Features
-* Evidence / IC comparison cards and "Why Evidence & WAIC Beat AIC/BIC" explainer now surface PSIS-LOO + k diagnostics, stacking weights, and Savage-Dickey results with live buttons.
-* Submit-bundle / report generator and provenance ledger now include the new metrics (and the "Obsolete AIC/BIC" narrative).
+* Evidence / IC comparison cards and "Advanced Bayesian Diagnostics" explainer now surface PSIS-LOO + k diagnostics, stacking weights, and Savage-Dickey results with live buttons.
+* Submit-bundle / report generator and provenance ledger now include the new metrics.
 * Model Zoo presets (including EDE Test) and the configurable template system work seamlessly with all the new comparison tools.
-* The "Obsolete AIC/BIC" explainer (in UI + now emphasized in README + AI prompts) decomposes exactly why the new tools are superior (prior volume, effective parameters from posterior variance, predictive focus, data-leverage diagnostics, exact nested BFs).
+* The "Advanced Bayesian Diagnostics" explainer (in UI + documentation) describes the advantages of these exploratory tools (prior volume sensitivity, effective parameters from posterior variance, predictive focus, data-leverage diagnostics, nested BF estimators).
 
-All of the above is fully wired in the glassmorphic UI (glass panels, neon accents, copy buttons everywhere), exposed via clean REST APIs, and automatically available in the one-click launchers. The goal is a single tool that lets you do real research with proper Bayesian evidence, predictive checks, and diagnostics instead of ever having to reach for AIC/BIC tables again.
+All of the above is fully wired in the glassmorphic UI (glass panels, neon accents, copy buttons everywhere), exposed via clean REST APIs, and automatically available in the one-click launchers. The goal is a single tool that provides exploratory Bayesian diagnostics for complex cosmological models.
 
 ### Screenshots & Demo Videos
 

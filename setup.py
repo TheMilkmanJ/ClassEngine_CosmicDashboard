@@ -1,5 +1,6 @@
 from setuptools import setup, Extension
-from Cython.Distutils import build_ext
+from setuptools.command.build_ext import build_ext
+from Cython.Build import cythonize
 
 import numpy as np
 import os
@@ -63,7 +64,10 @@ classy_ext = Extension("classy._classy", [os.path.join("python", "classy.pyx")],
                        depends=["libclass.a","python/cclassy.pxd"]
                        )
 
-classy_ext.cython_directives = {'language_level': "3" if sys.version_info.major>=3 else "2"}
+classy_ext = cythonize(
+    [classy_ext],
+    compiler_directives={'language_level': "3" if sys.version_info.major>=3 else "2"},
+)[0]
 
 
 
