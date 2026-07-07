@@ -240,6 +240,24 @@ local-state loophole; the universal-vev kill via epoch gating).*
   *Resurrects if:* never as H0 mechanism; the coupling zoo it explored
   feeds the door taxonomy.
 
+## Whispers (patterns the model produces unprompted; below bet-grade, logged so they can be watched)
+- **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
+  on sub-eV scales without being asked — M₂ = 9.4 eV (dictionary),
+  the ~20 nm cutoff, the κ_v opening pass demanding an eV-scale
+  portal, and, computed tonight: **ρ_∞^(1/4) = 2.25 meV — the mass
+  scale of the lightest neutrino** (normal hierarchy: ~1–10 meV).
+  This is the known dark-energy/neutrino-mass coincidence, and the
+  model sits on both ends of it while its top-priority deliverable is
+  a Σm_ν posterior. GRADE: coincidence, NOT a bet — the known attempt
+  to mechanize it (mass-varying neutrinos, Fardon–Nelson–Weiner) died
+  of hydrodynamic instabilities (a graveyard-relevant body). Elevates
+  ONLY if a ν-portal is derived that produces ρ_∞ ~ m_ν⁴ from
+  structure rather than by fitting. Watched, not claimed.
+- **The X₀ erasure (running):** four consecutive observables with X₀
+  cancelled. The theory appears to want a formulation in which X₀
+  never appears (variables: x = u/X₀ and the basin structure only) —
+  a reformulation project, queued behind the numbers.
+
 ## Nulls checked (asked and answered: not in this model)
 - **The golden ratio (2026-07-07, operator's query):** swept the derived
   structure — the model's fixed numbers are rationals and simple

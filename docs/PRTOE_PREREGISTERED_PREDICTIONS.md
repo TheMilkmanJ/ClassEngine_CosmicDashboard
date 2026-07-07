@@ -382,7 +382,9 @@ fail structurally: the order parameter is constant from z~1e5 through
 today (zero rec/today contrast — cannot be the lever); the clustering
 part grows into the past (the dead linear door).
 **Verdict, adopted in advance of the red team's reading:** the vev
-package files as a PARALLEL BBN-only result; the attribution
+package files as a PARALLEL BBN-only result;
+*(Magnitude correction, see ANN-2026-009: the eta-rebooking side
+effect quoted in half (a) overstated m_p's vev response ~16x.)* the attribution
 correction (turn 19) stands — its five-abundance economy is the
 STANDARD varying-vev BBN behavior, and the dCDF-specific content is
 the carrier alone; the amendment debt stays DOUBLE (normal->|phi|^2
@@ -409,6 +411,29 @@ capture.** The two amendments cannot be siblings. The open
 recombination search is narrowed accordingly: shared-carrier stories
 are closed; candidate mechanisms must produce epoch contrast through
 something other than the medium's density history.
+
+---
+
+## ANN-2026-009: Magnitude correction to ANN-2026-006(a), self-caught
+
+**Recorded:** 2026-07-07 evening (git base: 53e02241)
+ANN-2026-006 half (a) stated that under a universal vev shift, m_p
+moves +1% and its absorption into the omega_b refit rebooks eta by
+-1% (BBN D/H +1.6%). WRONG MAGNITUDE, self-caught while door-hunting:
+the proton mass is ~94% Lambda_QCD; at fixed Yukawa couplings and
+fixed Lambda_QCD, a vev shift moves m_p only through the sigma term,
+dln(m_p)/dln(v) ~ 0.06. The eta rebooking is therefore ~-0.06%, D/H
+~+0.1% — negligible, NOT "+1.6%". CONSEQUENCES: (i) half (a)'s actual
+conclusion (universal-v indistinguishable from m_e-only at
+recombination) is STRENGTHENED — the m_p side effect is 16x smaller
+than stated; (ii) the hoped-for "free deuterium credit" from the
+rebooking is dead — a 1% m_p shift requires a GLUONIC (Lambda_QCD)
+amendment, which cannot serve as the recombination lever at all
+(hydrogen's binding is m_e*alpha^2 — no Lambda_QCD in atomic physics,
+so no H0 mechanism) and is therefore not a competitor flavor for the
+dyad; (iii) the deuterium scar's only live door remains kappa_v's
+action-form (the vev package). Corrections to corrections are logged
+with the same ink.
 
 ---
 
