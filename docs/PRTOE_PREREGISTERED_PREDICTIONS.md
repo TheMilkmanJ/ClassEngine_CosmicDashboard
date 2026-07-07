@@ -672,3 +672,41 @@ X-ray heating, Lya coupling); global/statistical signal; instruments HERA/
 SKA-low/REACH (operating/near-future). CONFIRM = +2.5% 21-cm frequency offset
 (dyad-specific, LCDM-impossible); NULL = consistent-with-zero kills the sharp
 step. Awaits the cosmic-dawn measurement + astrophysical-degeneracy control.
+
+## P-2026-008: THE DETECTION PREDICTION -- "what can detect space?" (operator's question, 2026-07-07; consolidates census bets + P-2026-005 + the epsilon-meter into one forced detection story)
+
+**The medium's detection rules are FORCED and unusually definite:**
+
+1. **NO material detects it via any force but gravity (census).** No nuclear
+   recoil (direct detection LZ/XENONnT), no photon conversion (haloscopes ADMX),
+   no annihilation/decay line (indirect), no fifth force. ALL null, forever. ANY
+   lab detection of the dark sector via a non-gravitational channel KILLS the
+   model. Forced kill-only prediction (consolidates the standing bets).
+
+2. **NO oscillation-based gravitational detector either (P-2026-005).** The
+   medium ROTATES, does not OSCILLATE ("rolls-never-oscillates"). Generic
+   ultralight scalar DM oscillates at its mass frequency (pulsar-timing / clock
+   targets); the dyad produces NO such oscillation signal. Distinctive NULL vs
+   generic scalar DM.
+
+3. **NO lab-scale gravitational detection.** Local density ~7e-25 g/cm^3
+   (ephemeris null -- solar system can't feel it); granule structure is ~6 pc /
+   ~1e4 yr -- an astrophysical structure, not a lab signal.
+
+**THE ONLY DETECTOR = VISIBLE MATTER, GRAVITATIONALLY, reading the medium's
+SUPERFLUID STRUCTURE at astrophysical scale:**
+  - GRANULES (wave-interference speckle) -> gravitational heating of stellar
+    streams / dwarf galaxies (the epsilon-meter, granule scoping doc);
+  - VORTICES (quantum turbulence) -> tangle signatures in halo dynamics;
+  - SOLITONS (condensed cores) -> dwarf-galaxy cores + the chi-lag relation
+    (Room 5, two-fluid).
+The "material that detects space" is ORDINARY MATTER (stars, gas, streams) via
+gravity in dwarf galaxies / streams -- NOT a lab device.
+
+**Why it's strong:** forced, dyad-specific (generic DM allows lab detection;
+this medium forbids it), double-edged -- the null half is permanent
+falsification exposure (one lab detection kills it), the positive half (the
+superfluid structure in dwarf/stream data) becomes CONFIRMABLE once the
+two-fluid sims produce quotable granule/soliton/chi-lag numbers (Tier 3). This
+is the model's answer to "how do you detect the dark medium": you don't build a
+detector, you point a telescope at a dwarf galaxy and read its stars.
