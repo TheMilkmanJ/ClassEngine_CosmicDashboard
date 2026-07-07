@@ -932,3 +932,21 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   ANGULAR mode is the file's single axion-shaped hole — if that room
   is ever built and couples to FF̃, haloscopes become relevant and the
   entry pays full graveyard price at turn zero.
+
+- **"Does space revert to its own properties, or keep a lighter file
+  on record?" (operator, 2026-07-07 night) — answered by the model's
+  own regime-label principle, not a new derivation.** Correction first:
+  the medium is a MATTER FIELD on spacetime (gravity stays exactly GR);
+  "space is a fluid" is the founding intuition, "the dark sector is one
+  fluid" is the physics. Then: NOT sequential dominance-borrowing —
+  regime labels are densities, not times, so the one substance's
+  behavior tracks ITS OWN density, not competition with other fields.
+  Answer is BOTH simultaneously, sorted by location: cosmic-MEAN
+  density sits near rho_inf today (asymptotic approach to the de
+  Sitter fixed point, Room 1) -> space genuinely reverting to its own
+  ground state ON AVERAGE; LOCALLY, gravity has already locked
+  collapsed halos at far higher density, decoupled from cosmic
+  dilution -> those regions stay matter-like, not reverting at all.
+  Generalizes Room 5's psi/chi mid-transition language (already booked
+  for INSIDE halos) up one level, to the whole cosmic web: voids near
+  the floor, halos frozen above it, both true at the same cosmic time.
