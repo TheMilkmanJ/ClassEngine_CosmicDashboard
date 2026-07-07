@@ -458,6 +458,16 @@ is its only account). Pay it curvature and the product is determined:*
   wall), B-L current portal (BBN wall). The identity's isolation is
   now a theorem-grade census result.
 
+- **The one direction (operator, 2026-07-07 ~12:45am):** spatially NO
+  (isotropy to 1e-5; the medium's rotation is field-space, compass-
+  blind); temporally YES AND LITERAL — the khronon's tick is a
+  universal temporal current and the Hubble flow is matter comoving
+  with its foliation ("sliding with the superfluid down the current
+  of time" = the comoving frame, in house language). RECEIPT: the CMB
+  dipole (370 km/s) is our measured speedometer AGAINST the medium's
+  rest frame — everything slides with the current to 99.9%; peculiar
+  velocity is the crosscurrent swim.
+
 ## Strains (where the translation is PARTIAL — the streak's honest scars)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
   domains, found by hunting for a break):** the ledger's core axiom —
