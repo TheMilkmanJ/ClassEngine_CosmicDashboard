@@ -146,3 +146,43 @@ Neither candidate registers until it has a mechanism (Pinning Rule).
 Candidate #1 remains structurally favored (medium-native variable);
 candidate #2 holds the natural-scale advantage. Both pass the §7
 requirements table; the plasma and radiation-era candidates do not.
+
+## 9. The Compton gate's first tests (2026-07-07 afternoon, operator's order: "try Compton first")
+
+**(a) The scale, derived not fit:** the Compton-heating/H crossing in
+the dyad background (x_e,res = 2.5e-4, H0 = 70.2, dyad best-fit) lands
+at **z_dec = 131** (literature ~150 by convention differences;
+self-consistency shift from the amendment itself: z 131→132,
+negligible). The gate has no dial.
+
+**(b) The data test — PASSED at zero cost:** single-point χ² at the
+chain's current best point (Planck 2018 + BAO + Pantheon+SHOES stack),
+identical configs except the gate:
+    gate at z = 50 (by hand):   χ² = 2496.607
+    gate at z = 131 (derived):  χ² = 2496.645   (Δχ² = +0.04)
+The data is indifferent — the derived scale is fully legal. (Same runs
+reproduce the dyad point's ~19-point win over the ΛCDM anchor on this
+stack, on today's clean tree: CMB 1015.9 / BAO 10.7 / SN 1470.0,
+σ8 = 0.832.) NOT a confirmation: nothing current distinguishes 50 from
+131; the discriminator remains the dark-ages 21-cm sky (§8).
+
+**(c) NEW DEBIT, surfaced by the operator's "biggest payees" framing —
+THE STELLAR-INTERIOR DIFFERENTIAL:** "thermal contact between matter
+and radiation" exists in every star (LTE interiors). A LOCAL-contact
+trigger flips stellar cores bare → dies exactly like the plasma
+candidate. The gate survives ONLY in its GLOBAL form: matter slaved to
+the COSMIC bath. New defense, model-native: the khronon's preferred
+frame makes "the cosmic bath" well-defined without tuning — the CMB is
+the global books' temperature in the medium's own rest frame; a star
+is a local space heater, not the bath. Generic models can't make that
+distinction naturally; this one can.
+
+**(d) The payee argument itself, scored:** "matter and radiation are
+the biggest payers, so they'd dictate the gate" — plausibility, not a
+channel. The window is BLIND by measurement (EP to 1e-15): payment
+size buys no access to the rulebook. And the lock's end leaves no
+gravitational trace (gas thermal energy ~1e-9 of the budget), so the
+medium cannot READ the lock through its one window. The sensing-
+channel debit stands; candidate #2 remains foreign-keyed with a
+derived scale, now with one passed test, one new debit, one new
+defense. Candidate #1 (the fold) remains medium-native and untested.
