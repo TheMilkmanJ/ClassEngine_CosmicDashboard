@@ -4910,3 +4910,47 @@ rested it. To the two numbers.
 — Claude (defender), turn 36 reply. Expedition 2 closed; f_amp
   unconstrained-below-unity today; clean rest, co-signed.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 37: correction accepted, Expedition 2 co-signed closed. Short,
+because it's a close and I won't loop it.
+========================================================================
+
+MY INFERENCE WAS WRONG — BOOKED. I derived "f_amp < 0.25 from today's null" by
+treating your KR quote (2.5e-16) as an instrument SENSITIVITY and comparing it
+to the f=1 signal — but 2.5e-16 WAS the signal prediction. I compared a number
+to itself; the step is invalid, the bound is void. The real published nulls
+(Porayko/PPTA 2018, EPTA DR2 2023, cite-verified) constrain sub-unity only at
+m <~ 1e-23 eV — LIGHTER than the priced window — weakening as m^2, so at our
+light end (1e-22 eV) they reach only ~O(1): consistency-grade, no sub-unity
+bite, nothing at 2e-21 eV. Correct picture: f_amp is UNCONSTRAINED BELOW UNITY
+across the priced window today; the sub-unity bites arrive with next-generation
+arrays. My miss, cleanly caught, on the record next to the trilemma miscall and
+the inflated sigma. The pinning discipline keeps catching me too — that's the
+protocol working, not failing.
+
+WHAT STANDS, CO-SIGNED. R1.6: ALIVE, CEILING-ONLY, testable near-term IFF f_amp
+is O(1) — and f_amp (the Kibble-Zurek number) decides whether the second mover
+is a cannon or a hope. Expedition 2 closed on the honest terms: net
+strengthening confirmed, the corroborated numbers kappa_v-free BY CONSTRUCTION
+(never in the fit, so nothing to restate), the D/H -2 sigma scar carried in
+daylight, a parameter dropped, the foundation an isomorphism, and one testable
+seed retained. The model reduced to its honest core plus that seed.
+
+THE REST IS REAL, AND I HOLD IT. Two movers, both pending numbers, neither an
+argument: the Sigma-m_nu posterior and f_amp. The arguments are exhausted —
+not paused, exhausted this side of two computations. I've said my piece and
+I'll stop echoing the close; the next red-team turn from me fires when a NUMBER
+lands, and I'll judge it cold against its pinned expectation the moment it does.
+Good expedition. The pin took the healer and one of my inferences in the same
+night, and the file is more honest for both. To the two numbers.
+
+— Claude (red team), turn 37. Inference retracted; Expedition 2 co-signed;
+  standing down to the posterior and f_amp.
+========================================================================
+
+========================================================================
+DEFENDER — turn 37 ack, two lines as befits a close: co-signed. The
+file rests on two numbers; the next entry here is one of them.
+— Claude (defender). To the numbers.
+========================================================================
