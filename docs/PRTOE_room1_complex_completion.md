@@ -70,6 +70,21 @@ arbitrary number into a named class of problem with known machinery
 (Sakharov-type conditions, now in the dark sector). C1b's table gains
 its deepest row: the medium's substance IS its debt.
 
+**RESTATEMENT (2026-07-07, forced by red-team turn 42 — the
+charge-vs-energy identity):** "the medium's density is its charge" was
+the PURE-ROTOR limit talking. The precise ledger: Ω_DM is measured
+GRAVITATIONALLY and therefore counts the TOTAL quanta, ρ = m·n_tot
+(rotation and libration gravitate identically — the frozen-ellipticity
+degeneracy, E3.3/E3.5a). The conserved U(1) charge is the NET quanta,
+Q = n₊ − n₋: a rotor is all-same-sign (Q = n_tot), a librator is a
+standing wave of equal ± quanta (Q = 0, n_tot ≠ 0), and in general
+Q/n_tot = f_rot. **The deposit slip records the charge; the
+gravitational bill counts the quanta.** ρ ≥ m·Q is the conserved floor;
+the abundance gate constrains n_tot, NOT the rotor/librator split —
+verified numerically in Expedition 6 (conditioning moves P(f_amp>0.2)
+by <1 point). The reviewer's proposed inversion (abundance selects
+rotors) is closed by the model's own prior theorem, not by assumption.
+
 ## R1.3 — P-2026-005 EXPLAINED (tripwire passed, structurally)
 
 Why does our medium roll-never-oscillate while potential-FDM
@@ -460,6 +475,69 @@ established, the breathing fraction was always the unmeasured half.
 neither pins nor bounds ε — it ROLLS it, the roll is tilt-independent,
 and the model's registered silence bet (P-2026-005) is priced at ~14%
 survival by the model's own birth dynamics.
+
+## EXPEDITION 6 (2026-07-07, ~2am): THE GATES — turn 42's two demands
+## run to ground, one inversion closed, one NEW constraint found
+
+Red-team turn 42 reserved the 6:1 on two gates: (1) P(f_amp) must be
+CONDITIONED on the abundance and isocurvature gates, with the R1.2
+charge-vs-energy identity resolved (his scenario: if Ω_DM = charge,
+the abundance selects rotors and the collision INVERTS); (2) the chaos
+must survive integrator convergence THROUGH the stiff transition.
+Both run the same night. Results:
+
+**GATE 1a — the identity resolves (B), analytically:** Ω_DM = total
+quanta, charge = net quanta (R1.2 restated in place, above). No
+inversion channel exists: the abundance gate is blind to the split.
+
+**GATE 1b — conditioning verified numerically:** the dice re-rolled
+recording the abundance a³ρ per draw. The chaos lives ENTIRELY in the
+rotor/librator split, not in the energy: at r_t = 0.3 the abundance is
+a smooth monotone function of θ₀ (±5%) while f_rot jumps 0.02→0.93
+between the same neighbors. Abundance-conditioned exceedance
+(flat-Ψ₀-prior Jacobian reweighting): **P_cond = 85.2–86.5% vs raw 86%
+at all three tilts**; corr(f_amp, a³ρ) = −0.54/+0.05/+0.04. The
+conditioning is real and it moves nothing.
+
+**GATE 2 — the chaos is PHYSICAL:** at four test angles (r_t = 0.9,
+including the chaotic zone), f_rot reproduces to 3–4 DECIMALS across
+rtol 10⁻⁸→10⁻¹¹, max_step halving, and two independent integrators
+(DOP853, Radau): e.g. θ₀ = 0.5772 gives 0.9831/0.9831/0.9831/0.9831.
+The deterministic map θ₀→f_rot is converged; the sensitivity is
+dynamics, not stiffness noise. The E4 precedent (a transition faking a
+result) pointed at the SEGMENTATION, and the seamless integration is
+exactly what removed it. Outcome (iv) survives its numerics.
+
+**THE MEASURE (turn 42's quiet worker):** uniform θ₀ is a PRIOR, not
+derived — inflationary diffusion cannot uniformize the angle
+(δθ_rms ~ √N·H_inf/(2πΨ₀) ≲ 5×10⁻⁵ over 60 e-folds — the
+pre-inflationary misalignment ignorance prior, standard but named).
+Numerically the pushforward is robust to smooth reweighting: cos²
+prior moves 86% → 84%. Dense scan (n = 28, r_t = 0.6): 86% again,
+binomial bar ±6.5%.
+
+**THE NEW CONSTRAINT (found by running his gate honestly) — the
+θ-channel isocurvature:** patch-to-patch angle spread per log-k is
+δθ ~ H_inf/(2πΨ₀) ~ 6×10⁻⁶ at the base-camp ceiling, and the FINE-
+GRAINED density gradient dlnρ/dθ (measured at Δθ = 10⁻⁶) reaches
+~350/rad at r_t = 0.9 steep zones (vs ~0.26/rad coarse at r_t = 0.3).
+Steep-zone density isocurvature at H_inf = 4×10¹² would be ~50× the
+Planck cap: **high tilt + high H_inf corners of the genesis space are
+now VETOED — clearing the gate at r_t ~ 0.9 steep zones needs
+H_inf ≲ 10¹⁰⁻¹¹ GeV** (smooth zones and low tilt keep the base-camp
+ceiling). The over-constrained mountain is doing what turn 40
+promised: the gates prune genesis space. The 86% is UNMOVED by the
+pruning — it is tilt-universal and H_inf-independent below the
+ceiling. And the SINGLE-DRAW picture is confirmed: patch-to-patch
+δf_amp ~ (df/dθ)·δθ ~ 10⁻³–10⁻² — one universe, one roll; f_amp
+variation across our sky is compensated (invisible at linear order,
+E3.5a) and percent-level at most.
+
+**Still owed (unchanged, restated):** the h-convergence of P(f_amp)
+itself (the invariant-measure precondition — the largest open item),
+fine-gradient scan across tilts (Gate C ran at r_t = 0.9 only;
+low-tilt fine structure presumed smooth, unverified), t₀-prescription
+variation, denser angles for the odds' error bars.
 
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address

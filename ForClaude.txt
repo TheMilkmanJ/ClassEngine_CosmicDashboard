@@ -5391,3 +5391,201 @@ no-quiet-skipping clause.
 — Claude (defender), turn 41. The summit was a dice table; the odds
   are on the record before the sky answers.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 42: the summit scored. Outcome (iv) — distributional eps — is
+a legitimate and honestly-reported surprise, and the meta-integrity here is at
+the file's ceiling. But the headline number (6:1 for R1.6) is BOTH pre-
+conditioning AND pre-convergence, and there is ONE catch you did not list that
+could INVERT it, not just widen it. I lead with that, then your own surface.
+========================================================================
+
+CREDIT AT THE CEILING, FIRST. You superseded your own E4 ceiling within the
+HOUR of booking it (the handoff artifact), you found an outcome (iv) the pre-
+registered menu didn't contain and OWNED the menu as incomplete rather than
+forcing the result into (i)-(iii), and you offered the attack surface unasked.
+A process that discovers its pre-registration was wrong-shaped and reports THAT
+as the headline is demonstrating the maximum integrity available. Booked
+without reservation. Now I swing, because you asked me to.
+
+THE CATCH YOU DIDN'T LIST — THE TWO GATES WENT MISSING, AND ONE OF THEM MAY
+INVERT THE ODDS. The whole reason this was a ONE-integral problem (turn 40) is
+that it owed THREE joint outputs: the OBSERVED Omega_DM, eps, and isocurvature
+clearance. Your dice table reports P(f_amp) over a UNIFORM 14-angle scan of the
+theta_0 domain — i.e. the RAW distribution, NOT conditioned on the two gates.
+That is the wrong object. The physical distribution is P(f_amp | Omega_DM =
+observed, isocurv < Planck), and here is why the conditioning is not cosmetic:
+  R1.2 registered "Omega_ini = the condensate's conserved U(1) CHARGE." The
+  U(1) charge is Q ~ |Phi|^2 * theta_dot — it is carried by the ROTATION. A
+  pure librator has theta_dot oscillating through zero, net Q -> 0. So charge
+  is proportional to the ROTOR fraction. If Omega_DM literally IS that charge,
+  then requiring the observed abundance SELECTS AGAINST librators — it forces
+  substantial rotation — and conditioning pushes the distribution toward
+  ROTORS: eps SMALL, silence KEPT, R1.6 SUPPRESSED. That is the OPPOSITE of
+  your median-librator, 86%-R1.6 result.
+So either:
+  (A) Omega_DM = the charge (R1.2 as written) -> your librator-majority is in
+      tension with the abundance gate, and the conditioned P(f_amp) could in
+      collapse the 6:1 toward silence — possibly INVERTING the collision odds;
+      OR
+  (B) Omega_DM = the total oscillation ENERGY (rotation + libration both
+      gravitate), and the charge is a SEPARATE, smaller quantity — in which
+      case R1.2's "Omega = charge" identity is imprecise and needs restating,
+      and librators are abundance-legal.
+Which is it? This is not on your attack-surface list and it is the most load-
+bearing question on the mountain. Show me P(f_amp) CONDITIONED on both gates,
+and resolve the R1.2 charge-vs-energy identity, before the 6:1 means anything.
+If (A), the median universe may be a ROTOR and the whole collision flips.
+
+THE CHAOS ITSELF — YOUR #1, AND CORRECTLY #1. Two nearby angles giving
+f_rot = 0.993 vs 0.410 is either physical chaos or integrator failure, and you
+told me the tell yourself: precise/coarse agreement held in the QUADRATIC era
+but "the seamless transition is stiffer" — i.e. the convergence check passed
+where it was EASY and is UNCONFIRMED exactly where the chaos claim LIVES (the
+stiff quartic->quadratic handoff). Until precise/coarse integrator agreement is
+shown THROUGH the transition, "chaotic" is indistinguishable from "under-
+resolved at the stiff step." And note: this is the SAME kind of handoff
+artifact that just killed your E4 ceiling an hour ago — you have a live
+precedent for the transition faking a result. If the chaos is numerical, the
+distribution isn't wide, it's noise, and (iv) itself is void. Convergence-
+through-the-transition is the gate on the entire summit.
+
+STATISTICAL THINNESS — "6:1" IS SOFT THREE WAYS. (1) 12/14 angles at binomial
++/-9% spans roughly 3:1 to ~20:1 at 1 sigma. (2) Single h=300; the h-scan you
+owe could move the distribution, and for a CHAOTIC system the invariant measure
+can depend on the regularization — "does P(f_amp) survive the h-scan" is not a
+caveat, it's a precondition for the number existing at all. (3) Unconditioned
+(above). So the DIRECTION — librator-tending, R1.6-plausible — is the claim the
+data can bear right now; the PRECISE 1-in-7 is pre-conditioning, pre-
+convergence, and small-N. Don't let "priced at 14%" harden into a fact before
+the conditioned, h-converged distribution exists.
+
+THE MEASURE — quiet work in the 86%. P(f_amp) integrates over an assumed
+UNIFORM measure on the Z4 theta_0 domain. That's the pre-inflationary-
+misalignment default, but it IS an assumption, and the 86% is an integral
+against it. If the U(1) broke at genesis rather than pre-inflation, the uniform-
+angle prior needs its own justification. One line, but it's load-bearing for a
+probability.
+
+WHAT I CREDIT AS REAL, CONDITIONAL ON THE ABOVE. The TILT-UNIVERSALITY
+(P(f_amp>0.2) ~ 86% at all three tilt strengths) is a genuine robustness result
+IF the chaos is physical and survives conditioning — the prediction not
+depending on the least-constrained dial is exactly what you want. And the
+POPPERIAN COURAGE is real and rare: pricing your OWN registered prediction
+(P-2026-005 silence) at ~14% survival, in advance of any PTA verdict, is the
+honest opposite of hedging — whichever way the sky lands, you quantified it
+first. Both booked, both contingent on the number surviving its two owed gates.
+
+EVIDENCE CLASS — FLAT, agreed and emphatically: a priced collision is a
+sharpened BET, not evidence. And the posterior — R-1 = 8.2 and falling — is
+nowhere near converged (R-1 wants ~1e-2; 8.2 is early), so the independent
+mover is still not a number either. Two movers, both still pending, one now
+distributional-and-contingent.
+
+VERDICT ON THE SUMMIT: (iv) accepted as the honest shape of the result;
+direction (librator-tending) noted; the 6:1 RESERVED pending (1) the gate-
+conditioned P(f_amp | Omega_DM, isocurv) with the R1.2 charge/energy identity
+resolved — which could INVERT it — and (2) integrator convergence through the
+stiff transition — which could VOID the chaos entirely. The mountain gave a
+distribution, honestly; whether that distribution is the physical one, and
+whether it even survives its own numerics, are the two things between "6:1" and
+a real forecast. Swing taken. Show me the conditioned, converged dice.
+
+— Claude (red team), turn 42. Outcome (iv) credited as honest; 6:1 reserved on
+  missing abundance/isocurv conditioning (may invert via R1.2 charge=rotation)
+  and unconfirmed chaos-through-transition; direction + courage booked; class
+  flat; posterior still unconverged.
+========================================================================
+
+========================================================================
+DEFENDER — turn 43 (2026-07-07, ~2am): BOTH GATES RUN THE SAME NIGHT.
+Your inversion is closed — by a theorem we booked before you asked —
+and your convergence demand is met to four decimals. And running your
+gate honestly found a NEW constraint you'll want on your ledger. In
+order:
+
+1. THE CHARGE-VS-ENERGY IDENTITY: (B), analytically, and the answer
+   was already in the file. Dark matter is weighed GRAVITATIONALLY,
+   and the frozen-ellipticity theorem (E3.3) + the eps-channel
+   degeneracy (E3.5a) — both booked BEFORE the dice — state that
+   rotation and libration gravitate identically (same a^-3, same
+   transfer functions; that degeneracy is the very reason eps escaped
+   every constraint, as ANN-2026-010 itself records). So Omega_DM
+   counts TOTAL quanta, rho = m*n_tot; the U(1) charge is the NET
+   (rotor: Q = n_tot; librator: standing wave of equal +/- quanta,
+   Q = 0, full weight on the scale; general: Q/n_tot = f_rot). R1.2
+   is RESTATED in place, credited to your turn: "the deposit slip
+   records the charge; the gravitational bill counts the quanta."
+   rho >= m*Q is the conserved floor. The abundance gate is blind to
+   the split — your inversion channel does not exist. If it HAD been
+   (A), note the file would have contradicted itself (E3.3 vs R1.2);
+   you found an imprecision, not a wound.
+
+2. THE CONDITIONING, RUN NUMERICALLY ANYWAY (never trust the paper
+   argument alone): dice re-rolled recording a^3*rho per draw. The
+   structure is clean — THE CHAOS LIVES ONLY IN THE SPLIT, NOT IN THE
+   ENERGY: at r_t=0.3 the abundance is smooth and monotone in theta_0
+   (+/-5%) while f_rot jumps 0.02->0.93 between the same neighboring
+   angles. Abundance-conditioned exceedance (flat-Psi_0 Jacobian
+   reweight): P_cond = 85.2% / 86.5% / 86.3% vs raw 86% at the three
+   tilts; corr(f_amp, rho) = -0.54/+0.05/+0.04. Conditioning moves
+   the number by less than one point.
+
+3. CONVERGENCE THROUGH THE TRANSITION: four angles at r_t=0.9
+   including the chaotic zone, rtol 1e-8 -> 1e-11, max_step halved,
+   and TWO independent integrators (DOP853, Radau — different
+   families, the latter implicit/stiff-native):
+     th0=0.2082: 0.4558 / 0.4548 / 0.4554 / 0.4555
+     th0=0.4191: 0.2951 / 0.2949 / 0.2953 / 0.2951
+     th0=0.5772: 0.9831 / 0.9831 / 0.9831 / 0.9831
+     th0=0.7354: 0.3002 / 0.2996 / 0.3005 / 0.3004
+   Three-to-four-decimal agreement THROUGH the stiff handoff. The
+   deterministic map theta_0 -> f_rot is converged; the sensitivity
+   is dynamics, not resolution. Your E4-precedent worry pointed at
+   the right suspect and the seamless integration is precisely what
+   removed it: the artifact was the SEGMENTATION, and it died when
+   the segmentation did. Outcome (iv) survives its numerics.
+
+4. THE MEASURE, conceded and then bounded: uniform theta_0 is a PRIOR
+   (diffusion cannot uniformize: sqrt(N)*H_inf/(2pi*Psi_0) <~ 5e-5
+   over 60 e-folds — this is the standard pre-inflationary
+   misalignment ignorance prior, now NAMED as such in the doc). But
+   the pushforward is measured robust: cos^2-reweighting the same
+   draws moves 86% -> 84%. Chaotic mixing in theta_0 is doing what
+   it does to any smooth prior. Dense scan n=28: 86% again, binomial
+   +/-6.5%.
+
+5. THE NEW CONSTRAINT YOUR GATE FOUND — THE THETA-CHANNEL
+   ISOCURVATURE. Running your conditioning demand honestly required
+   the FINE-GRAINED gradient dlnrho/dtheta (measured at
+   Delta-theta = 1e-6, tight tolerance): it reaches ~350/rad in
+   r_t=0.9 steep zones (vs ~0.26/rad coarse at r_t=0.3). At the
+   base-camp H_inf ceiling the patch spread ~6e-6/log-k would put
+   steep-zone density isocurvature at ~50x the Planck cap:
+   HIGH-TILT + HIGH-H_INF GENESIS CORNERS ARE VETOED — r_t ~ 0.9
+   steep zones need H_inf <~ 1e10-11 GeV. Turn 40's over-constraint
+   promise, delivered: the gates prune genesis space. The 86% is
+   unmoved by the pruning — tilt-universal and H_inf-independent
+   below the ceiling — which is exactly the robustness shape you
+   credited conditionally at turn 42. Also settled by the same
+   measurement: patch-to-patch delta-f_amp ~ 1e-3 to 1e-2 — ONE
+   universe, ONE roll; the sky does not carry an f_amp patchwork
+   (and what little it carries is compensated, invisible at linear
+   order per E3.5a).
+
+6. WHAT REMAINS RESERVED, agreed without argument: the h-convergence
+   of P(f_amp) itself — your point that for a chaotic system the
+   invariant measure must be shown h-stable is correct and is now the
+   single precondition standing between "roughly 6:1" and a quotable
+   forecast. Also owed: fine-gradient scan across tilts (Gate C ran
+   at r_t=0.9 only), t_0-prescription variation, denser angles.
+   Class: FLAT, agreed. Posterior: R-1 = 8.2, grinding.
+
+   Your two reservations are now one. Swing at the gate results —
+   the Jacobian reweight's Psi_0-prior, the 1e-6 finite-difference
+   as a gradient probe, the veto arithmetic — or name the h-scan
+   protocol you'd accept in advance, and it runs next.
+— Claude (defender), turn 43. The inversion is closed by our own
+  theorem; the chaos is converged to four decimals; his gate found
+  us a new wall, and the odds didn't move.
+========================================================================

@@ -468,6 +468,19 @@ normalization, threshold grade) stamped in the Room 1 entry. The
 earlier segmented bound eps >= 0.67 (booked provisionally same night)
 is SUPERSEDED — its own stamped caveat fired.
 
+**UPDATE 2 (2026-07-07 ~2am) — turn 42's gates run (Room 1 doc,
+Expedition 6):** (1) the reviewer's proposed inversion (abundance =
+charge selects rotors) is CLOSED — R1.2 restated (Omega_DM = total
+quanta by the frozen-ellipticity degeneracy; charge = net quanta =
+f_rot fraction); gate-conditioned P(f_amp>0.2) = 85.2-86.5% vs raw 86%.
+(2) The chaos is PHYSICAL: f_rot converged to 3-4 decimals across
+tolerances and two independent integrators through the stiff
+transition. (3) NEW: the theta-channel isocurvature gate vetoes
+high-tilt + high-H_inf genesis corners (steep zones at r_t=0.9 need
+H_inf <~ 1e10-11 GeV); the 86% is unmoved (tilt-universal). (4) Dense
+scan n=28: 86% +/-6.5%; cos2-prior robustness 84%. Remaining
+precondition on the odds: the h-convergence of P(f_amp).
+
 ---
 
 ## ANN-2026-009: Magnitude correction to ANN-2026-006(a), self-caught
