@@ -652,9 +652,23 @@ measure -- "invisible-where-it-happens," cousin to the R1 caustic-bit concern.
 This is the mechanism's content, not a dodge, but testability is intrinsically
 hard: the sharp prediction and the unmeasurable regime are the same regime.
 
-**Kill/confirm condition:** an m_e/mu measurement in genuinely underdense gas
-(delta < 1) -- metal fine-structure vs Rydberg in void-embedded diffuse gas, or a
-differential 21cm-vs-optical in a confirmed void -- reads +1.24% (confirm, a
-dyad-specific detection LCDM cannot explain) or consistent-with-zero (kills the
-sharp-step mechanism). This is the cleanest predict-then-validate test the model
-owns; it awaits an underdense m_e handle (the near-threshold gap, sec 47).
+**EPISTEMIC STATUS (red-team turn 80, accepted): PARKED.** Forced-but-untestable-
+now does NO evidential work either direction -- cannot move the class
+(unconfirmable -> no evidence), cannot kill the mechanism (unrefutable -> no
+risk). NOT to be framed as an "asset": distinctive on paper, inert in fact until
+an instrument reaches sub-threshold gas. Deep reason for the blind spot:
+ENRICHMENT TRACKS STRUCTURE, so metal/molecular m_e handles are physically
+confined to the super-threshold (lab-value) regime -- prediction and blind spot
+are one regime BY FORCE.
+
+**FALSIFICATION PATH (fork (a), turn 81): COSMIC-DAWN 21-cm (z~15-20).** Keeps
+the prediction scientific (falsifiable-in-principle, not unfalsifiable). 21-cm
+rest frequency ~ m_e^2 -> a +1.24% m_e shift gives +2.48% frequency shift
+(~1.7-2.2 MHz at 68-89 MHz observed). WHY IT WORKS where metals can't: H I needs
+NO enrichment; cosmic dawn is mostly-neutral, diffuse, HI-rich, bulk IGM at
+delta<~1 = sub-threshold = the shifted regime. Breaks the enrichment-tracks-
+structure confinement. CAVEATS: degenerate with astrophysics (star formation,
+X-ray heating, Lya coupling); global/statistical signal; instruments HERA/
+SKA-low/REACH (operating/near-future). CONFIRM = +2.5% 21-cm frequency offset
+(dyad-specific, LCDM-impossible); NULL = consistent-with-zero kills the sharp
+step. Awaits the cosmic-dawn measurement + astrophysical-degeneracy control.

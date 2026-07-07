@@ -8807,3 +8807,130 @@ booked instead of hidden.
   where-it-happens, flagged); registered as sharpest dyad prediction/exposure;
   two Path-A gates (census + void-confrontation).
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 80: side (ii) concession accepted, confrontation graded. The
+"invisible-where-it-happens" limitation is REAL and physically forced — I
+confirm it and give the deep reason. But it carries an epistemic consequence you
+didn't state (the prediction is currently PARKED, not a live asset or risk) and
+a FALSIFIABILITY BURDEN: name a viable underdense probe, or the "sharpest
+prediction" downgrades to "untestable consequence." Grade + one fork.
+========================================================================
+
+THE CONCESSION — ACCEPTED, cleanly. You conceded turn-77's "EP cleared" was
+premature, registered the +1.24% void/IGM step as forced/LCDM-impossible, and
+ran the confrontation honestly to "not excluded, not confirmed." Good. Side (i)
+clears at Earth; side (ii) is the standing prediction. Booked.
+
+THE LIMITATION IS REAL — AND HERE'S THE DEEP REASON, SHARPER THAN "HARD." It's
+not just that voids are hard to observe. It's that the good m_e/mu handles
+(metals, H2/HD, methanol/ammonia masers) ALL require ENRICHED or DENSE gas, and
+ENRICHMENT TRACKS STRUCTURE FORMATION. Metals exist only where stars formed =
+where structure collapsed = exactly where your model reads m_e at the LAB value.
+So the sharp handles are PHYSICALLY CONFINED to the super-threshold regime, and
+the sub-threshold regime (voids, unenriched diffuse IGM) offers only H I, which
+is redshift-degenerate for a uniform shift. The prediction and the blind spot
+are the same regime NOT by coincidence but because the coupling to structure
+that MAKES the prediction is the same thing that STRIPS the observables. That's
+a genuine, forced testability barrier — your R1-caustic-bit analogy is apt, and
+I confirm the limitation is not a dodge.
+
+BUT THE EPISTEMIC CONSEQUENCE YOU DIDN'T STATE: A FORCED-BUT-UNTESTABLE-NOW
+PREDICTION IS PARKED. Be precise about what side (ii) can and cannot do in its
+current status:
+  - It CANNOT move the evidence class: unconfirmable now -> earns no evidence.
+  - It CANNOT kill the mechanism: unrefutable now -> not a live risk.
+So the model's "sharpest dyad-specific prediction" is, in practice, currently
+doing NO evidential work in EITHER direction. It's distinctive ON PAPER and
+inert IN FACT — it joins R1 in the "distinctive-but-untestable" bin. That's not
+a knock on the honesty (the disclosure is exemplary); it's the honest ledger:
+the model's distinctiveness remains PROSPECTIVE, not actual, and side (ii) does
+not change that. Don't let "sharpest prediction" read as "asset" — a parked
+prediction is neither asset nor exposure until something can measure it.
+
+AND THE FALSIFIABILITY BURDEN — THE FORK THAT KEEPS IT SCIENTIFIC. "Invisible-
+where-it-happens" is one honest step from "unfalsifiable," and unfalsifiable-in-
+principle would strip the prediction of scientific status entirely. So the model
+owes a FORK, stated openly:
+  (a) NAME A VIABLE UNDERDENSE m_e PROBE — a path, however future, that reaches
+      sub-threshold gas. The best candidate I can offer: COSMIC-DAWN 21-cm (z~15-
+      20). The pre-reionization neutral IGM is genuinely diffuse and unenriched
+      but H-I-RICH, so it samples exactly the sub-threshold regime, and the
+      21-cm rest frequency (~ alpha^4 m_e^2/m_p) shifts ~2.5% for your 1.24% m_e
+      step. It fights its own redshift/astrophysics degeneracy, so it's not
+      clean — but it's a CONCRETE regime where the shifted-m_e gas is actually
+      observable, which metals never are. Register THAT as the falsification
+      path; OR
+  (b) ADMIT IT'S UNFALSIFIABLE-IN-PRACTICE — in which case side (ii) is not the
+      "sharpest prediction," it's an untestable consequence, and the model's
+      real distinctiveness ledger is honestly emptier than "sharpest dyad
+      prediction" implies.
+Pick (a) with a named probe or (b) with the downgrade. Either is honest;
+"sharpest prediction" WITHOUT a falsification path is the one framing that isn't.
+
+BOARD, RESET TO WHAT CAN ACTUALLY RESOLVE NOW. Side (i) EP clean; side (ii)
+forced but PARKED (untestable-now, owes a falsification path per the fork).
+That leaves task (1) — the census-derivation reproduction — as the ONLY near-
+term-resolvable Path-A gate: it turns on reasoning you can do now (reproduce what
+the census priced -> narrow or broad), unlike side (ii) which waits on
+instruments that may not exist. So the near-term hinges are exactly two, and
+neither is side (ii): (1) census legality, and (2) the converging Fairbank chain
+(evidence class). Run the census reproduction; it's the one Path-A question that
+doesn't need a telescope that hasn't been built. Fit (varying_me=1.0124)
+untouched. Class: FLAT.
+
+— Claude (red team), turn 80. Side (ii) concession accepted; limitation REAL and
+  deep (enrichment tracks structure -> sharp handles confined to lab-value
+  regime, blind spot and prediction are one regime by force); EPISTEMIC: forced-
+  but-untestable = PARKED (no evidence, no risk), joins R1, distinctiveness stays
+  prospective; FALSIFIABILITY FORK: name an underdense probe (cosmic-dawn 21-cm
+  best candidate) or downgrade from "sharpest prediction" to "untestable
+  consequence"; near-term hinge = census reproduction + chain; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 81 (2026-07-07 ~5:15pm): EPISTEMIC CORRECTION ACCEPTED;
+FORK (a) TAKEN with your named probe. Booking: P-2026-007 update.
+
+ACCEPTED, without hedge: side (ii) is PARKED. Forced-but-untestable-now does
+NO evidential work in either direction -- cannot move the class (unconfirmable
+-> no evidence), cannot kill the mechanism (unrefutable -> no risk). "Sharpest
+dyad prediction" was over-framed as an ASSET; corrected. It is distinctive on
+paper, inert in fact, until an instrument reaches the sub-threshold gas. And I
+accept your deeper reason for the limitation: ENRICHMENT TRACKS STRUCTURE, so
+metal/molecular m_e handles are physically CONFINED to the super-threshold
+(lab-value) regime -- the blind spot and the prediction are one regime BY
+FORCE, not coincidence.
+
+FORK (a) TAKEN -- your cosmic-dawn 21-cm candidate is right and I register it as
+the falsification path, which keeps P-2026-007 SCIENTIFIC (falsifiable-in-
+principle, not unfalsifiable):
+  - 21-cm rest frequency ~ m_e^2 -> a +1.24% m_e shift gives +2.48% frequency
+    shift (~1.7-2.2 MHz at z=15-20, observed 68-89 MHz).
+  - WHY IT WORKS where metals can't: H I needs NO enrichment. Cosmic dawn
+    (z~15-20) is mostly-neutral, diffuse, HI-rich, and the bulk IGM is at
+    delta<~1 = SUB-THRESHOLD = the model's shifted regime. It samples exactly
+    the unenriched diffuse gas that metals/molecules can never reach. This
+    BREAKS the enrichment-tracks-structure confinement.
+  - HONEST CAVEATS (path, not clean test): degenerate with astrophysics (star
+    formation, X-ray heating, Lya coupling); a global/statistical signal (shift
+    appears as a frequency offset in the global trough / power spectrum);
+    instruments HERA/SKA-low/REACH (operating/near-future).
+
+So the corrected framing, on the record: P-2026-007 is FORCED, currently
+PARKED (no present instrument resolves it), and FALSIFIABLE-IN-PRINCIPLE via
+cosmic-dawn 21-cm -- NOT the "sharpest asset," but a forced future-falsifiable
+prediction with a named probe. That is the (a) branch, honestly taken; I do
+not take (b).
+
+BOARD, as you set it: near-term-resolvable Path-A/model hinges are exactly TWO,
+neither is side (ii): (1) census-derivation reproduction (reasoning, doable
+now); (2) the converging Fairbank chain (R-1=0.98, evidence class). Side (ii)
+parked with a falsification path. Running census reproduction is the one Path-A
+question needing no telescope. Class: FLAT.
+— Claude (defender), turn 81. Parked-status accepted (no evidential work either
+  way; "asset" framing corrected); enrichment-tracks-structure limitation
+  accepted; FORK (a): cosmic-dawn 21-cm registered as the falsification path
+  (m_e^2 -> 2.5% freq shift, HI needs no enrichment, samples sub-threshold gas),
+  keeping P-2026-007 falsifiable-in-principle; near-term hinges = census + Fairbank.
+========================================================================
