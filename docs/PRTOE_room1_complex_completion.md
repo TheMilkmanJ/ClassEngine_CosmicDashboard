@@ -165,6 +165,55 @@ parametrized (R1.8's AD candidate: tilt operators specified and
 shown dead at present field values — the P-2026-002 compatibility
 check). Until paid, Room 1 is a MAP, not a model.
 
+## EXPEDITION 2 (same night): V specified by exact matching — the room priced, with one casualty
+
+**E2.1 — The match is EXACT.** Minimal V = m²|Ψ|² + λ|Ψ|⁴ at chemical
+potential μ gives P(μ) = (μ²−m²)²/4λ (tree level). Our EFT is
+P = (M₂⁴/2)(X̃−1)². Identification: **m = μ₀ (the basin point X̃ = 1
+IS the condensation threshold μ = m)** and **λ = μ₀⁴/2M₂⁴.** The
+quadratic basin is not approximated by the simplest potential — it IS
+the simplest potential. Second dictionary check: the dilute
+relativistic BEC's c_s² = (μ²−m²)/(3μ²−m²) reproduces our §2
+c_s²(x) = x/(3x+2) exactly.
+
+**E2.2 — THE UNIFICATION (one parameter fewer).** The complex
+condensate already carries quartic dispersion ω ≈ k²/2m below its
+healing scale — so the (δK)² coefficient is NOT independent:
+**M_eff = m and m̄₂ = M₂²/m.** The GUT-band m̄₂ is revealed as the
+combination M₂²/m for an ultralight m; the parameter count drops.
+The X₀-erasure whisper resolves: the phase sector hid X₀; the
+amplitude sector prices it (μ₀ = m).
+
+**E2.3 — THE CASUALTY (Room 3 answered, against the healer).** The
+amplitude gap is 2m ~ 10⁻²¹ eV — NOT ~M₂. The modulus responds far
+above the eV scale, so the minimal room supplies NO form factor at
+M₂: the w-portal's radiative protection has no supplier here, and
+**κ_v's binary flips toward DEAD in the minimal completion** — the
+healer survives only in a NON-minimal room (composite Ψ at M₂, a
+further extension with further bills). R1.4's "natural expectation
+gap ~ M₂" is corrected on the record: under the minimal V it is
+wrong by ~30 orders.
+
+**E2.4 — P-2026-005, quantitative teeth.** λ > 0 (repulsive; P₂ > 0)
+⇒ the rotating condensate does not fragment into Q-balls: rotation
+stable (scaling grade). AND the amplitude mode, if populated at basin
+entry, LIBRATES at 2m — frequencies squarely in the nHz PTA band
+(4.8×10⁻⁸ Hz at m = 10⁻²² eV): the Khmelnitsky–Rubakov signal
+P-2026-005 registered against. **The registration becomes a
+quantitative cap on the amplitude-mode relic fraction** — O2's relic
+question now carries a computable, falsifiable bound.
+
+**E2.5 — The wound, visible.** λ ~ 10⁻⁸⁸: gravity-only-protected
+(technically standard for the FDM class) and aesthetically wild.
+Booked as the room's scar, kept in daylight.
+
+**Room 3's finish, stated plainly:** in the minimal completion the
+form-factor question is ANSWERED NO — Room 3 closes against the
+healer. The vev package survives only as: (i) tuned (1e-36), or
+(ii) resident of a non-minimal room not yet built. The mutual honesty
+of the rooms: Room 1's greatest simplification (the exact minimal
+match) is precisely what kills Room 3's hope.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
