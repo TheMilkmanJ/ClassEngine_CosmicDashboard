@@ -1435,3 +1435,34 @@ effect. This is the first physical intuition for WHY the void carries the bare
   intuition keeps landing exactly on the coupling -- a signal that the coupling
   is the model's true crux, and every good instinct routes back to it. Added-
   mass is a PICTURE for the sign/direction, not an escape from the census.
+
+## 39. "Does space have weight?" -- yes (the model's thesis), but the 1.24%
+## is NOT that weight (operator, 2026-07-07 night) -- a conflation to guard against
+
+TRUE (the model's core): space physically has weight. It is filled with the
+dark medium = dark matter + dark energy = ~95% of the universe's mass-energy.
+Local density ~0.3 GeV/cm^3; the dark-energy floor ~(2.25 meV)^4 everywhere.
+"Empty space is a heavy superfluid" is the model's premise. Confirmed.
+
+CONFLATION TO AVOID: attaching the number 1.24% to space's weight. Two
+distinct quantities:
+  - 1.24% = the fractional shift in the ELECTRON's OWN mass between void and
+    structure (a property of the electron; in the added-mass picture, the
+    ~6 keV sliver of medium dressing ONE electron).
+  - space's actual weight = the dark medium's ENERGY DENSITY (~0.3 GeV/cm^3
+    locally), the model's core quantity, vastly larger and unrelated to 1.24%.
+"Part-per-part space has 1.24% extra weight" misreads the electron-dressing
+FRACTION as space's weight-per-volume. Space's weight is the full dark-sector
+density, not 1.24% of anything.
+
+UNSETTLED (honest): whether space ADDS weight to the electron depends on which
+picture is right -- added-mass (space drags a ~6 keV sliver, physically adds
+mass) vs EM-self-energy (space modulates the electron's OWN field energy, adds
+nothing external). Same 1.24%, same direction, disagree on whether the mass is
+BORROWED FROM space or INTRINSIC to the electron. Open.
+
+CLEAN FRAMING (the salvageable version of the intuition): the m_e shift is a
+local PROBE/FINGERPRINT of the medium's presence -- a particle locally feeling
+that space is heavy. Valid in the added-mass reading. Just do not confuse the
+fingerprint's SIZE (1.24% of one electron) with space's actual WEIGHT (the
+dark sector, vastly larger).
