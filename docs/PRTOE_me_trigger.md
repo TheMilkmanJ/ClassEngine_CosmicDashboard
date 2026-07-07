@@ -783,3 +783,43 @@ STATUS: candidate legal path, hypothesis-grade, routed to red team
 adjudicated. If it survives review, this becomes the leading candidate
 for HOW varying_me could be legally mechanized without violating the
 coupling census; if it fails, the search continues.
+
+## 24. BOUNDARY SET: "same parents" does not license "any matter flavor
+## couples" (operator, 2026-07-07 night)
+
+Operator's observation, CORRECT and precise: Ricci and Weyl share an
+exact mathematical parent -- the full Riemann tensor decomposes into a
+Ricci part (trace, sourced by local density) + a Weyl part (traceless,
+tidal, propagates through vacuum). Confirmed as literal, not
+analogical.
+
+Operator's generalization, CORRECTED: "if density and structure couple,
+anything matter-related IS the couple, depending on flavor" does NOT
+follow, and in fact runs the wrong direction. The shared parentage is
+PRECISELY why R and Weyl are BOTH legal -- they are UNIVERSAL geometric
+invariants (properties of the metric, sourced by ANY matter, coupling
+to ANY matter identically), which is just the equivalence principle
+restated. A DIRECT coupling between the dark medium's specific
+internal structure and a SPECIFIC SM particle (as opposed to geometry
+universally) is composition-dependent BY CONSTRUCTION -- different
+materials, carrying different amounts of whatever "flavor" is
+specified, respond differently to the same environment. This is
+EXACTLY what MICROSCOPE excludes to 15 decimal places (domain #26,
+eta(Ti,Pt) = (-1.5+/-2.7)e-15) -- the SAME wall that closed every
+direct portal in the census. "Any matter flavor couples" reopens it.
+
+THE CORRECTLY-SCOPED MENU: not "matter flavors" but a SHORT, FINITE
+family of GEOMETRIC INVARIANTS (R, Weyl^2, (delta K)^2, and their
+relatives) -- all legal because all universal. This is the real
+family tonight's work opened; it is bounded by the same theorem
+(gravity only) that closed everything else, not an escape from it.
+
+**NEW REQUIRED CHECK, surfaced by this exchange, added to turn 62's
+open list:** the Weyl-Higgs coupling (section 23) itself needs an
+EXPLICIT EP TEST. If it shifts m_e specifically without shifting other
+particle masses (e.g. the proton) the same way, materials with
+different electron-to-nucleon ratios fall differently -- exactly
+MICROSCOPE's test class. NOT YET CHECKED. Added alongside the
+amplitude (undetermined) and the certificate-transfer question
+(section 23) as things the Weyl proposal must clear before being
+trusted, not assumed to pass by virtue of being "gravity-mediated."
