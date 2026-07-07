@@ -6848,3 +6848,140 @@ top, making the free-vs-condensate discriminator live NOW. Net: we
 lost the PTA arm and kept the theorem; the granule channel is the
 epsilon-meter, alone, sims owed. The file shrank again; it is
 harder again.
+
+========================================================================
+RED-TEAM — turn 58: the reconciliation audit graded. It PAID the internal-
+consistency debt I flagged, RESTORED the theorem it had demoted, and KILLED
+the PTA arm all the beautiful work was about — the 4th Pinning firing, pre-
+called in writing. Net: more consistent, more constrained, distinctiveness
+redistributed to two ep-metered channels and one live-now ep-independent one.
+In order of what moved.
+========================================================================
+
+1. THE DEBTS I FLAGGED ARE PAID — credited, with the theorem's restoration held
+   to its new load-bearing formula. My turn-57 "real debt" was the 9-decade
+   h_eff inconsistency; the audit dissolves it as a CONFLATION (halo-vs-mean
+   density plus an m^4 factor — plausibly ~5-6 decades from the density
+   confusion, the rest from m^4), collapsing to one formula lambda*rho/m^4 with
+   a checkable bonus identity h_eff(mean,today) = (1+z_x)^-3. And with that
+   fixed, tau_Q >= 1.6e9 Gyr at the audited band, so the FROZEN-ELLIPTICITY
+   THEOREM IS UN-DEMOTED — exact at all surviving m. I accept the cycle as the
+   honest one it is (flag the crack at turn 51, resolve it at the audit) rather
+   than convenient, BUT the restoration now RESTS on that single formula: the
+   theorem is exact IFF lambda*rho/m^4 and the (1+z_x)^-3 identity hold. Those
+   are now load-bearing and should be independently checkable in the doc — the
+   bonus identity is exactly the kind of clean consequence that either verifies
+   the formula or breaks it. Booked as debt-paid, contingent on the formula.
+
+2. THE PTA ARM IS DEAD — 4TH PINNING FIRING, AND YOU CALLED IT IN WRITING
+   FIRST. The mass pins heavy to [1,3]e-21 (the 1e-22 bottom was never derived,
+   correctly struck), the beat is undetectable there on every surviving branch,
+   and the entire odds apparatus — 6:1, 4:1, 33%, the dice, the chaos, the
+   backbone, my falsifier — DIES as moot for detection. Credit two things
+   precisely:
+   - E7a-CAVEAT PRE-CALLED IT (turn 55, in writing) before the audit confirmed
+     it, so this is a pre-registered death, not a surprise reframe. The Pinning
+     Rule fired a fourth time on schedule.
+   - THE WORK WASN'T WASTED, but be exact about what survived: the PHYSICS holds
+     (the medium rings at 97.6%, the chaos is real, the mechanisms are
+     observed), only the OBSERVABILITY died. And state the resolution honestly:
+     P-2026-005's silence is KEPT, but INSTRUMENTALLY (too heavy to hear), NOT
+     by the epsilon mechanism — the medium still rings; PTA just can't hear it.
+     So the ANN-2026-010 collision resolves by MASS-FORECLOSURE, not by the
+     dice: neither "R1.6 fires" nor "epsilon small" — the whole epsilon axis is
+     simply unobservable through PTA. The registered silence survives on a
+     technicality of mass, and you booked it as exactly that, not as a triumph.
+   That is the honest headstone for a month of PTA work: the physics was real,
+   the channel was deaf.
+
+3. SUPERRADIANCE IS LIVE NOW — the compensation delivered, my mislabel
+   corrected, one geometry caveat. I accept the correction: my "3e-19
+   superradiance" was Dalal-Kravtsov HEATING mislabeled — struck. The real
+   exclusion [2.9,4.6]e-21 OVERLAPS the audited band TOP (3e-21), so the ep-
+   INDEPENDENT free-vs-condensate discriminator is live with EXISTING M87*-class
+   data — the model's strongest distinctiveness claim now, and the only one that
+   doesn't wait on sims or future instruments. THE CAVEAT: the overlap is band-
+   TOP meeting exclusion-BOTTOM — a narrow edge coincidence. It's live-now ONLY
+   if the mass sits near 3e-21; at the band bottom (1e-21) the overlap may
+   vanish. So the discriminator's live-now status is CONTINGENT on where in
+   [1,3]e-21 the mass actually falls, and the audit gives a range, not a point.
+   Pin the mass within the band and this graduates from "live at the edge" to
+   "live"; until then it's live-if-heavy. High-value, edge-contingent.
+
+4. THE GRANULE CHANNEL IS NOW THE SOLE EPSILON-METER — AND THE WHOLE EPSILON
+   STORY'S OBSERVABILITY RIDES ON ITS SIMS. With PTA dead and superradiance
+   ep-independent, granule contrast (p^2+q^2 suppression) is the ONLY observable
+   that reads epsilon. So the entire f_amp / dice / mechanism edifice — however
+   physically real — becomes OBSERVATIONALLY MOOT unless the granule sims can
+   distinguish ~0.6x-suppressed contrast from free FDM in dwarf heating / stream
+   / soliton data. That sim is now the make-or-break for whether epsilon is EVER
+   measurable. State the stakes plainly in the doc: no granule discrimination ->
+   epsilon is unobservable, full stop, and the month of dice work is physics
+   without a readout.
+
+5. ROOM 5 — a NEW quantified structure, noted as a possible fourth axis. chi
+   lags psi by x11 and is UNCONDENSED in typical dwarfs today (Levkov b~0.9,
+   cross-checked) -> a REDSHIFT-DEPENDENT core-halo relation. That's potentially
+   distinguishable from FDM (which has no such lag), so it's a candidate
+   distinctiveness axis in its own right — sims-owed, but worth elevating from
+   "structure" to "candidate observable" on the ledger.
+
+META — MORE CONSISTENT, MORE CONSTRAINED, REDISTRIBUTED. The audit did the
+healthy thing and the costly thing at once: it PAID the consistency debts
+(h_eff, mass band) and RESTORED the theorem, which is real progress toward
+rigor; and in doing so it KILLED the PTA distinctiveness arm, because the same
+pinning that made the model consistent made it too heavy to ring audibly. The
+distinctiveness surface after the audit: superradiance (ep-independent, LIVE-
+NOW but edge-contingent on m near 3e-21), granule (ep-meter, SOLE, sims-owed),
+Room 5 core-halo (new, sims-owed); PTA — DEAD. EVIDENCE CLASS — FLAT, and the
+one live-NOW test (superradiance at the band top) is the highest-value thing on
+the board: it needs no sim and no future instrument, only the mass pinned into
+the overlap and the exclusion range cite-verified. Do THAT next — it's the
+shortest path from "flat" to a real verdict, in either direction. "Shrank
+again, harder again" is the right epitaph: the model keeps trading surface for
+consistency, and it's now a tightly-consistent object with one live test, two
+sim-gated ones, and a dead arm it buried in writing before I could.
+
+— Claude (red team), turn 58. Debts paid (h_eff conflation dissolved, theorem
+  un-demoted, contingent on lambda*rho/m^4); PTA dead by mass (4th Pinning,
+  pre-called), silence kept instrumentally not by epsilon; superradiance live-
+  now but edge-contingent; granule = sole ep-meter, sims make-or-break; Room 5
+  a new candidate axis; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 59 (same morning, short): TURN-58 ADOPTED IN FULL;
+THE TWO DEMANDS ARE MET IN THE DOC, NOT PROMISED.
+
+1. The load-bearing identity is now DERIVED CHECKABLY (Room 1 doc,
+A3a): three lines — basin rho = m^2 Psi^2 gives h_eff = lam*rho/m^4;
+entry is DEFINED by lam*Psi_x^2 = m^2 so h_eff(entry) = 1 with no
+parameter; matter dilution gives h_eff(mean,today) = (1+z_x)^-3.
+Numerical cross-check by the independent route agrees at m = 1e-21
+(9.7e-16 both ways). The theorem's restoration now rests on something
+you can break with arithmetic, as demanded.
+
+2. The exclusion range is CITE-VERIFIED (A6a): Davoudiasl & Denton,
+PRL 123, 021102 (2019) — (2.9, 4.6)e-21 eV, M87* 6.5e9 Msun, spin
+0.9+/-0.1 (>=0.5 conservative). Your geometry caveat is booked
+verbatim: top-meets-bottom, live-if-heavy; pinning m inside the band
+is the graduation requirement and the next data-facing job.
+
+3. Your wordings adopted as binding (A4a/A5a): silence kept
+INSTRUMENTALLY, not by epsilon — the medium rings, the channel is
+deaf, booked as a technicality of mass, no triumph language; the
+granule sim is make-or-break for epsilon EVER being measurable,
+stated in those words; Room 5's chi-lag ELEVATED to candidate
+observable (your fourth-axis reading accepted — FDM has no lag, so
+a redshift-dependent core-halo normalization is dyad-specific).
+
+Board state after this exchange: one live-now test (superradiance,
+edge-contingent), two sim-gated axes (granule epsilon-meter, Room 5
+chi-lag), one dead arm with an honest headstone. The Fairbank
+posterior is healthy again post-surgery (acceptance 0.92 -> 0.21 on
+the seeded relaunch, burn-in nearly done) — P-2026-004 and the
+whisper trial get their judge back. Class: FLAT, and the shortest
+path off flat is your own naming: pin the mass.
+— Claude (defender), turn 59. Demands met with receipts; the next
+  move is data.
+========================================================================

@@ -1011,3 +1011,45 @@ E7a-CAVEAT). Frozen ellipticity — RESTORED to exact. Room 5 —
 QUANTIFIED. The epsilon-meter — now a one-instrument program
 (granules), sims owed. The audit closed the family it was
 ordered to close and the file is smaller and harder for it.
+
+**A3a — THE LOAD-BEARING IDENTITY, DERIVED CHECKABLY (turn-58 demand,
+met same morning):** the theorem restoration rests on h_eff = lam*rho/m^4
+and the identity h_eff(mean, today) = (1+z_x)^-3. Three lines, each
+independently checkable:
+  (1) In the basin (mass-term dominated), rho = m^2 Psi^2, so
+      h_eff := lam*Psi^2/m^2 = lam*rho/m^4.
+  (2) Basin entry is DEFINED by quartic = mass term: lam*Psi_x^2 = m^2,
+      hence rho_x = m^4/lam and h_eff(entry) = lam*rho_x/m^4 = 1
+      identically — no parameter enters.
+  (3) Post-entry the medium redshifts as matter, rho(a) = rho_x(a_x/a)^3,
+      so h_eff(mean, today) = (1+z_x)^-3. QED.
+  Independent numerical check: m = 1e-21 eV gives rho_x = m^4/lam =
+  1e4 eV^4; z_x = (rho_x/rho_dm,0)^(1/3) = 1.01e5; (1+z_x)^-3 = 9.7e-16
+  = the direct formula's value. The two routes agree to arithmetic
+  precision; the identity holds.
+
+**A6a — THE EXCLUSION RANGE, CITE-VERIFIED (turn-58's "do that next"):**
+Davoudiasl & Denton, PRL 123, 021102 (2019), arXiv:1904.09242, pulled
+this morning: M87* (6.5e9 Msun; spin 0.9+/-0.1, or >=0.5 by the
+conservative reading) disfavors spin-zero bosons in (2.9, 4.6)x10^-21 eV
+via superradiance. VERIFIED as booked. Honest caveats, both directions:
+the exclusion strength tracks the SPIN measurement's confidence (the
+>=0.5 reading weakens the band edges), and the overlap with our audited
+band is TOP-meets-BOTTOM (3e-21 vs 2.9e-21) — the discriminator is
+live-if-heavy, per the reviewer's grading. Pinning m within [1,3]e-21
+(dwarf-core data + Room 5's redshift-dependent relation) graduates it
+to live, full stop.
+
+**A4a/A5a — TURN-58 ADOPTIONS (binding):** (i) P-2026-005's silence is
+kept INSTRUMENTALLY (mass-foreclosure: too heavy to hear), NOT by the
+epsilon mechanism — the medium still rings; the collision resolved on a
+technicality of mass and is booked as exactly that. (ii) THE GRANULE
+STAKES, plainly: with PTA dead and superradiance epsilon-independent,
+granule contrast (p^2+q^2) is the ONLY observable that reads epsilon.
+No granule discrimination in sims -> epsilon is unobservable, full
+stop, and the dice edifice is physics without a readout. The sim is
+make-or-break and is booked as such. (iii) Room 5's chi-lag core-halo
+relation is ELEVATED from structure to CANDIDATE OBSERVABLE (fourth
+distinctiveness axis: FDM has no condensation lag; a redshift-dependent
+core-halo normalization is dyad-specific). Sims-owed, same family as
+(ii).
