@@ -337,6 +337,26 @@ is its only account). Pay it curvature and the product is determined:*
   entire PTA collision pricing rides on. FALSIFIABLE FOR THOUSANDS OF
   DOLLARS, not billions — logged for the day someone with a ring trap
   asks for a project.
+  **FAITHFULNESS MAPPING (turn-50 caveat closed, ~4:30am):** what the
+  ring-BEC actually probes. FAITHFUL: (i) both are U(1) condensates —
+  lab winding number (persistent current) ↔ our charge/rotation, lab
+  breathing/phonon mode ↔ our libration; (ii) slow ring expansion was
+  MEASURED to act as Hubble friction (Eckel 2018) — the adiabatic
+  drive is the right analog; (iii) the lab's strong contact
+  interaction maps to our QUARTIC ERA — the lab regime is the GENESIS
+  epoch, exactly where the freezing is decided. NOT FAITHFUL: thermal
+  damping (labs dissipate; the medium doesn't — run cold/fast or the
+  ratio unfreezes trivially), trap boundaries, 2D-ring vs 3D scaling
+  exponents (mapped in their paper), no gravity, no Z4 tilt. WHAT A
+  RESULT MEANS: the experiment tests the theorem's CORE — no
+  rotor↔librator conversion under adiabatic U(1)-symmetric expansion.
+  A lab violation (with damping controlled) genuinely wounds the
+  adiabatic-invariance core; a confirmation supports the core but not
+  the cosmological application details. BONUS ALREADY IN THE DATA:
+  Eckel's RAPID (non-adiabatic) expansion spontaneously GENERATED
+  persistent currents — the lab has already demonstrated "expansion
+  dynamics deposits winding," the qualitative analog of our
+  tilt-torqued genesis. The birth mechanism has a tabletop cousin.
 - **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
   on sub-eV scales without being asked — M₂ = 9.4 eV (dictionary),
   the ~20 nm cutoff, the κ_v opening pass demanding an eV-scale
@@ -628,6 +648,26 @@ is its only account). Pay it curvature and the product is determined:*
   observational axis that separates "self-interacting condensate"
   from "free ultralight scalar" at fixed m. Citation-verified at
   booking; order-of-magnitude grade on the saturation margin.
+  **UPGRADE (same night, ~4:30am — turn 50's demand met by sensitivity
+  analysis):** the quench margin re-derived as a rate balance
+  (Γ_SR ~ α_g⁹m pump vs Γ_nl ~ λ²N²α_g^p m transfer) with the unknown
+  α-power p swept over [5, 15] — the margin log₁₀(N_spin-down/N_eq)
+  stays POSITIVE everywhere: +2.5 to +7.7 decades at the band's heavy
+  edge (m = 2×10⁻²¹, M87*-class holes), +4.4 to +10 at the light edge
+  (10¹¹ M_sun); the independent detuning criterion gives +9 to +13.
+  The conclusion is INSENSITIVE to the rate-algebra details across
+  any plausible reading — quotable as "≥ 2.5-decade margin, typically
+  5–10." **THE PARTITION (reviewer's turn-52 insight, adopted):** the
+  distinctiveness axes partition the mass band — PTA beat at the
+  LIGHT edge (Ψ_KR ∝ 1/m²), superradiance quench at the HEAVY edge,
+  granule suppression everywhere between; which test applies is an
+  OUTPUT of the m-posterior, not a given. **HEAVY-EDGE ADJACENCY
+  (recovered from the R1.6 booking, m-band = 10⁻²²–2×10⁻²¹ eV):** the
+  band's top sits immediately below the M87* exclusion floor
+  (2.9×10⁻²¹) — the discriminator is NOT doubly-future there; a
+  modest improvement in SMBH spin data (or one heavier fast hole)
+  pushes the free-scalar exclusion INTO the band, at which point:
+  free FDM dies at that mass, the dyad survives by the quoted margin.
 
 - **The asymmetric-dark-matter coincidence is NOT ours (same burn):**
   ADM models explain Ω_DM ~ 5Ω_b by tying the dark asymmetry to the
