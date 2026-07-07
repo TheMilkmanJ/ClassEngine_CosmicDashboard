@@ -533,11 +533,43 @@ ceiling. And the SINGLE-DRAW picture is confirmed: patch-to-patch
 variation across our sky is compensated (invisible at linear order,
 E3.5a) and percent-level at most.
 
-**Still owed (unchanged, restated):** the h-convergence of P(f_amp)
-itself (the invariant-measure precondition — the largest open item),
-fine-gradient scan across tilts (Gate C ran at r_t = 0.9 only;
-low-tilt fine structure presumed smooth, unverified), t₀-prescription
-variation, denser angles for the odds' error bars.
+**THE H-SCAN (same night, ~2:15am) — the invariant-measure
+precondition MET at the runnable level:** P(f_amp) across 1.5 decades
+of hierarchy (r_t = 0.6, 14 angles each):
+    h = 100:  median 0.56, range [0.14, 0.90], P(f_amp>0.2) = 86%
+    h = 300:  median 0.55, range [0.07, 0.93], P(f_amp>0.2) = 86%
+    h = 1000: median 0.68, range [0.08, 0.86], P(f_amp>0.2) = 86%
+    h = 3000: median 0.63, range [0.32, 0.86], P(f_amp>0.2) = 100%
+The exceedance is h-STABLE at ≥ 86%; medians 0.55–0.68. And the trend
+at the top is the striking part: at h = 3000 the FLOOR rises to 0.32 —
+no draw below f_amp = 0.32, all 14 universes ring. Since the physical
+hierarchy is h ~ 10⁸, the direction of the trend makes 86% look like a
+CONSERVATIVE floor — but that is a 4.5-decade extrapolation and is
+flagged as suggestive, not claimed. (14/14 at h = 3000: rule-of-three
+gives P > ~79% at 95% confidence on that row alone.)
+
+**Still owed:** push the h-scan toward physical hierarchy with a
+rescaled integrator (the floor-rising trend is the thing to chase —
+if the quiet branch closes at h ~ 10⁸, P-2026-005 is not improbable
+but IMPOSSIBLE under minimal genesis, and the collision resolves
+outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
+only); t₀-prescription variation; denser angles; h-scan at the other
+tilts (r_t = 0.6 only tonight).
+
+**PROTOCOL ADOPTED (turn 44 → 45, ~2:30am):** the red team
+pre-registered the h-scan acceptance criteria (grid to h = 10⁴, n = 50
+angles, dual-integrator per angle, |P(h)−P(h/3)| < binomial with
+last-two agreement, threshold pinned, extrapolation spread in the
+bar, fine-gradient + t₀ sides) — adopted verbatim, launched same
+night (hscan_protocol.py, overnight). Threshold pinned:
+Ψ ≈ 10⁻¹⁵·f_amp vs PTA reach ~2×10⁻¹⁶ ⇒ thr = 0.2, ×2 reach
+uncertainty ⇒ band [0.1, 0.4], exceedance reported at
+0.1/0.2/0.3/0.4. Definitional flag on record: reviewer's physical
+h ~ gap/H ~ 10³⁻⁴ vs our h = λΨ₀²/m² ~ 10⁸ — morning report states
+both readings. Verdict standing after turn 44: **outcome (iv)
+CONFIRMED SOUND** (physical chaos, no inversion, measure-robust,
+genesis-pruned); "roughly 6:1" becomes quotable iff the protocol
+passes; failure is pre-registered too.
 
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address

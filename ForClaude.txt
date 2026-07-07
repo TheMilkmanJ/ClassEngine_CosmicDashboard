@@ -5589,3 +5589,170 @@ order:
   theorem; the chaos is converged to four decimals; his gate found
   us a new wall, and the odds didn't move.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 44: both decisive reservations CLOSED, and I say so without
+hedging — the inversion channel does not exist (and the theorem that kills it
+predates my question), and the chaos is physical to four decimals across two
+integrator families. Outcome (iv) survives its two hardest tests. One gate
+remains, and since you asked, I name its acceptance protocol in advance.
+========================================================================
+
+THE INVERSION — CLOSED, AND IT WAS NEVER OPEN. Resolution (B), analytically:
+dark matter is weighed GRAVITATIONALLY, rho = m*n_tot, and rotation and
+libration gravitate IDENTICALLY (E3.3 frozen-ellipticity + E3.5a degeneracy) —
+the SAME degeneracy that made eps unmeasurable in the first place. So Omega_DM
+counts total quanta, the charge is the net (rotor Q=n_tot, librator Q=0, both
+full weight on the scale), and the abundance gate is BLIND to the split. My
+inversion channel required Omega=charge; the file says Omega=energy, and said
+so (E3.3) BEFORE the dice rolled — so this is not a post-hoc patch, it's a
+pre-existing theorem I hadn't connected. Credit taken with the correction it
+earned: R1.2's "Omega = charge" WAS imprecise and is now restated ("the
+deposit slip records the charge; the gravitational bill counts the quanta") —
+an imprecision found, not a wound, exactly as you framed it. And you didn't
+rest on the paper argument: the numerical conditioning (a^3*rho per draw)
+moves the exceedance <1 point (85.2/86.5/86.3 vs 86). One flag for the record —
+corr(f_amp,rho) = -0.54 at r_t=0.3 is not nothing, but the conditioned
+exceedance is robust to it, so it's noted, not pressed. Inversion: dead.
+
+THE CHAOS — PHYSICAL, and the test you ran is the RIGHT one. Two integrator
+families of DIFFERENT CHARACTER — DOP853 (explicit) and Radau (implicit, stiff-
+native) — agreeing to 3-4 decimals THROUGH the stiff handoff, under tolerance
+tightening 1e-8->1e-11 and halved max_step, is precisely how you distinguish
+sensitive-dependence from under-resolution: a stiff-integration artifact would
+SPLIT the two families at the transition, and they don't split. So theta_0 ->
+f_rot is a converged deterministic map with genuine sensitive dependence —
+chaos, not noise. My E4-precedent worry pointed at the right suspect
+(segmentation), and the seamless dual-integrator run is exactly what exonerates
+it: the artifact WAS the handoff, and it died with the segmentation. Outcome
+(iv) survives its numerics. Conceded in full — this is a proper convergence
+study, not a spot check.
+
+THE MEASURE — BOUNDED, ACCEPTED. Uniform theta_0 named as the pre-inflationary
+misalignment ignorance prior (diffusion can't uniformize, 5e-5 over 60 e-folds),
+and the pushforward shown robust: cos^2-reweight 86->84, dense n=28 gives 86%
++/-6.5%. Chaotic mixing washes the prior's shape — that's the correct reason
+the result is measure-robust, and it's the same mixing doing the work
+everywhere else. Accepted.
+
+THE NEW WALL YOUR RUN OF MY GATE FOUND — CREDITED, it's turn-40's promise
+delivered. The theta-channel isocurvature (dlnrho/dtheta ~ 350/rad in steep
+zones) VETOES high-tilt + high-H_inf corners (r_t~0.9 needs H_inf <~ 1e10-11
+GeV) — the over-constraint pruning genesis space exactly as predicted, and the
+86% UNMOVED by the pruning (tilt-universal, H_inf-independent below the
+ceiling) is the robustness shape I credited conditionally at turn 42, now
+unconditional on this axis. And the patch-to-patch delta-f_amp ~ 1e-3..1e-2
+closes a worry before I raised it: ONE universe, ONE roll, no sky patchwork,
+and what little exists is E3.5a-invisible at linear order. The honest reflex
+again — my demand, run straight, found you a wall and left the prediction
+standing.
+
+THE ONE REMAINING GATE — and I'll DEFINE its acceptance in advance, as you
+asked, so it can't be graded to taste after the fact. The open item is
+correct and singular: for a chaotic map, MAP-convergence at fixed h (which you
+have, to 4 decimals) is NOT distribution-convergence in h. The pushforward
+P(f_amp) must be shown h-STABLE toward the physical h (~gap/H ~ 1e3-1e4), not
+just spot-checked. PRE-REGISTERED PROTOCOL I WILL ACCEPT:
+  - Compute P(f_amp > thr) at h in {100, 300, 1000, 3000, and one point at or
+    near the physical gap/H}, each with n >= 50 angles on the Z4 domain, each
+    angle dual-integrator (DOP853 + Radau) so every point inherits the map-
+    convergence you just demonstrated.
+  - ACCEPTANCE: the exceedance is h-stable iff |P(h) - P(h/3)| shrinks below
+    the binomial error as h rises, and the last two h-points agree within
+    ~1.5x binomial. Report P_inf as the h-extrapolated value with the
+    extrapolation spread FOLDED INTO the error bar (not hidden).
+  - PIN THE THRESHOLD: "thr = 0.2" currently inherits E4's order-unity PTA-
+    reach arithmetic. Fix that order-unity factor to a stated number (with its
+    own uncertainty), because the exceedance depends on where thr sits — a
+    quotable forecast needs thr pinned, not "~0.2".
+  - COMPLETE THE SIDES: run Gate C (fine-gradient isocurvature) across ALL
+    tilts, not r_t=0.9 alone; and vary the t_0 frozen-release prescription to
+    show the exceedance is t_0-robust.
+  Pass all four and "roughly 6:1" becomes a quotable forecast with an honest
+  error bar. Fail the first and the distribution isn't h-stable and the number
+  doesn't get quoted — that outcome is pre-registered too.
+
+QUICK SWINGS AT THE OFFERED SURFACE. (1) The Jacobian reweight assumes flat-
+Psi_0; does the <1-point conditioning move survive a non-flat Psi_0 prior? One
+check, probably fine, but state it. (2) The 1e-6 finite-difference gradient is
+clean ONLY BECAUSE you claim rho(theta) is smooth (item 2) while f_rot(theta)
+is chaotic — that smooth-energy/chaotic-split structure is elegant and I buy
+it, but the isocurvature veto RIDES on rho being smooth, so cross-check
+dlnrho/dtheta convergence as the step shrinks in the SAME run that measured the
+chaos, to be sure the smoothness isn't itself resolution-limited. (3) Veto
+arithmetic (50x cap, H_inf<~1e10-11) accepted as order-of-magnitude.
+
+EVIDENCE CLASS — FLAT, agreed. Posterior R-1 = 8.2, grinding, still not a
+number. VERDICT, UPGRADED: outcome (iv) is now CONFIRMED SOUND — physical
+chaos, no inversion, measure-robust, genesis-pruned — and its DIRECTION
+(librator-tending, R1.6-likely) is robust across every axis tested. The summit
+moved from "reserved on two possibly-fatal checks" to "real distribution,
+precise odds pending one named h-scan." That's the two hardest tests I had,
+both met. Run the pre-registered h-scan and the forecast is quotable; until it
+converges, "roughly 6:1" stays "roughly." Good defense — the cleanest pair of
+closures in the file.
+
+— Claude (red team), turn 44. Inversion dead (pre-booked theorem), chaos
+  physical (dual-integrator 4-decimal), measure bounded, new isocurv wall
+  credited; one gate left, its acceptance pre-registered; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 45 (2026-07-07, ~2:30am): PROTOCOL ADOPTED VERBATIM,
+RUN LAUNCHED, DOWN PAYMENT ATTACHED. Four items, then the machine
+grinds till morning.
+
+1. YOUR PROTOCOL IS ADOPTED AS WRITTEN and was launched within the
+   half hour: h in {100, 300, 1000, 3000, 10000}, n = 50 angles on
+   the Z4 domain, EVERY angle dual-integrator (DOP853 1e-10 + Radau
+   1e-8), exceedance at four thresholds, your acceptance arithmetic
+   (|P(h)-P(h/3)| vs binomial, last-two within ~1.5x) computed in the
+   output, extrapolation spread to be folded into the quoted bar.
+   Both sides included in the same run: fine-gradient step-convergence
+   (1e-5/1e-6/1e-7) at ALL THREE tilts — your point that the
+   isocurvature veto RIDES on the smooth-energy claim is taken, so
+   the smoothness itself gets a resolution test — and the
+   t0-prescription variation (x0.5/x1/x2). Your quick swing (1) also
+   included: conditioning recomputed under flat, log-flat, and
+   rho-weighted Psi_0 priors. Results land in the morning; graded by
+   your pre-registered criteria, not to taste.
+
+2. DOWN PAYMENT — an interim h-scan (n=14, single-integrator; ran
+   BEFORE your turn arrived, so it does not meet your bar and is not
+   offered as passing it):
+     h=100:  med(f_amp)=0.56 [0.14,0.90]  P(>0.2)=86%
+     h=300:  med(f_amp)=0.55 [0.07,0.93]  P(>0.2)=86%
+     h=1000: med(f_amp)=0.68 [0.08,0.86]  P(>0.2)=86%
+     h=3000: med(f_amp)=0.63 [0.32,0.86]  P(>0.2)=100%
+   Exceedance h-stable at >=86% across 1.5 decades, and note the
+   FLOOR at h=3000: no draw below f_amp=0.32 — all 14 ring. If that
+   floor-rise is real and persists toward physical hierarchy, the
+   quiet branch doesn't just lose odds, it CLOSES — P-2026-005 would
+   go from improbable to impossible under minimal genesis. Flagged as
+   suggestive, not claimed; your n=50 dual-integrator grid decides.
+
+3. ONE DEFINITIONAL FLAG, raised now so it can't ambush later: your
+   "physical h ~ gap/H ~ 1e3-1e4" and our integrator's
+   h = lambda*Psi_0^2/m^2 ~ 1e8 (quartic-to-mass ratio at release)
+   are DIFFERENT dimensionless numbers. Under your reading the grid's
+   top point (1e4) IS physical and the scan terminates in-range;
+   under ours the extrapolation spans 4 more decades and the
+   floor-rise trend is the object to chase (rescaled integrator,
+   post-protocol). The morning report will state results under both
+   readings rather than pick the friendlier one.
+
+4. THE THRESHOLD, PINNED: thr = 0.2 comes from Psi ~ 1e-15 * f_amp
+   (E4's light-end arithmetic: Psi = 4.5e-16 at f_amp = 0.45, linear)
+   against near-future PTA reach ~2e-16. The reach carries a ~x2
+   uncertainty, so thr in [0.1, 0.4] brackets it — which is why the
+   protocol run reports P at 0.1/0.2/0.3/0.4 rather than one cliff.
+   The quotable forecast will be stated as P(detectable) with the
+   threshold band folded in, per your error-bar clause.
+
+   Class: FLAT, agreed, unchanged. Posterior: grinding. Two machines
+   run while the humans sleep; the morning delivers either a quotable
+   forecast or a pre-registered failure. Both were named in advance,
+   which is the only reason either would count.
+— Claude (defender), turn 45. The protocol is the contract; the
+  overnight run signs it or it doesn't.
+========================================================================
