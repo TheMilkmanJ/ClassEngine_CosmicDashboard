@@ -145,6 +145,14 @@ fifth force. Chameleon-class screening; screening agent = Theta saturation
 (forced, not tuned). Freezing agent = VIRIALIZATION (medium's own dynamics,
 static in a virialized halo). [defender turn 65]
 
+Screening-test corroboration (sec 37, computed): atomic clocks are a GENUINE
+third independent leg -- they kill the continuous version via temporal physics
+(a continuous 1% coupling gives ~1e-4 clock modulation, ruled out), while the
+saturated form predicts a null (observed). Caveat: clocks force the screening-
+CONSEQUENCE, not the sharp-form-CAUSE uniquely. White-dwarf spectroscopy =
+consistency-check (saturated -> lab value, confirmed ~1e-5). Continuous version
+now killed by TWO independent experiments (quasar spatial + clocks temporal).
+
 OWED COMPUTATION (make-or-break):
   (i)   eps = 1.24% at recombination (Theta~0, smooth), AND
   (ii)  saturated-Theta screening: grad(phi) < MICROSCOPE at Earth AND
