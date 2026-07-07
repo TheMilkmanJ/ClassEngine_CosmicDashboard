@@ -55,7 +55,27 @@ S8 ≈ 0.823). **Two riders belong in this headline, not in footnotes**
 its ΛCDM+BBN baseline was mid-refit when measured; (ii) the champion
 carries a **−2.0σ deuterium scar** (D/H = 2.468×10⁻⁵, χ² 3.85): the
 model holds ω_b for the CMB and underfeeds deuterium — a residual it
-cannot relieve without paying the CMB back. And the §4.2 rider rides
+cannot relieve without paying the CMB back.
+**[SCAR REPRICED, 2026-07-07 ~6:45am — two-barrel attack; see §11
+addendum]:** (i) the −2.0σ used obs-only errors; with the post-LUNA
+nuclear-theory error (PRIMAT ±0.037, cite-verified) the scar is
+**−1.2σ**, and the inter-code controversy (PRIMAT 2.439 vs
+PArthENoPE ~2.51-2.54; ΛCDM itself at 1.85σ under PRIMAT —
+arXiv:2011.11320 vs 2011.11537) is LARGER than the model's marginal
+cost; the champion sits CLOSER to the observed D/H than PRIMAT-ΛCDM
+does. (ii) The "cannot relieve without paying the CMB back" clause
+is FALSIFIED by the model's own completion: the pre-basin w = 1/3
+phase is BBN-only dark radiation (ΔN_eff = 7.45 a_x/a_eq, §11's
+boxed bound) that becomes the dark matter itself at basin entry
+z_x ~ 10⁵ — invisible to recombination. At optimal z_x ≈ 1.7×10⁵
+(inside the booked bound), ΔN_eff(BBN) = 0.15 heals D/H to −0.7σ at
+a helium price (Y_p +1.4σ → +1.9σ), net Δχ²_BBN ≈ −1.75. §11's open
+item (Y_p/D/H vs entry redshift) is thereby CLOSED, with a healer's
+sign. (iii) Headline cascade: the dyad's honest-incl-BBN charge
+reprices 5.9 → 3.6 under σ_th, widening the dyad-vs-ΛCDM gap by
+~2 χ² (ΛCDM's own BBN charge barely moves). The scar's honest final
+form: ~1σ-class inside the field's shared nuclear fog, with a
+model-owned bounded partial healer. And the §4.2 rider rides
 on: the −8 is m_e's; the fluid is degenerate through all of it — the
 dyad wins while the unification watches it win. Census: known
 radiation, baryons, one dark medium, one rules amendment. See

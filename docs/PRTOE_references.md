@@ -81,6 +81,16 @@ V = verified, exactly as used in our documents):
   051103 (2019); the pulse-heating channel is booked contested-to-dead
   on this pair. Verified at booking (the rule catching an overclaim).
 
+- [V] **Pitrou, Coc, Uzan, Vangioni**, MNRAS 502, 2474 (2021),
+  arXiv:2011.11320 — "A new tension in the cosmological model from
+  primordial deuterium?": PRIMAT post-LUNA D/H = 2.439±0.037, LCDM
+  itself at ~1.8sigma. The scar-repricing's theory-error anchor.
+  Verified 2026-07-07 ~6:45am at booking.
+- [V] **Pisanti et al.**, JCAP 04 (2021) 020, arXiv:2011.11537 —
+  "Primordial Deuterium after LUNA": PArthENoPE concordance; the
+  inter-code spread that dwarfs the model's marginal D/H cost.
+  Verified at booking.
+
 ## Tail closed (2026-07-07 ~6:15am — task #19, the pre-Fairbank gate)
 - [V] **Hafele & Keating**, Science 177, 166 & 168 (1972) — flown
   cesium clocks: east −59±10 ns (pred −40±23), west +273±7 ns
