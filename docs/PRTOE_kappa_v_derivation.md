@@ -1,7 +1,13 @@
 # The κ_v Derivation (task #17, working document)
 
-**Status (2026-07-07 night): CANDIDATE OPERATOR FOUND — the w-portal.
-Three audits owed before "derived" is claimed.**
+**Status (2026-07-07, post-turn-28): the honest triple, binding —
+SHAPE-FORCED (class universality) / AMPLITUDE-INPUT (k_eff is chosen,
+not derived) / WINDOW-CONSISTENT (0.06 lands inside ANN-2026-005's
+window as a consistency, not a prediction). "Derived" may not
+re-inflate; this header governs every summary of this document. The
+void prediction is retracted (§3a); the surviving audits (radiative
+stability, BBN form-factor, k-naturalness) can CLEAR the operator but
+cannot make it distinctive.**
 
 ## 1. The problem
 

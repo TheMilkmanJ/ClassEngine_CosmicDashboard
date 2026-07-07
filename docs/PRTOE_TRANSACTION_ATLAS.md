@@ -8,7 +8,16 @@ class ("values nature confirmed that appeared from this map and nowhere
 else") holds ZERO confirmed entries to date (ν·x₀ died with its
 operator; ρ(basin) = 2M₂⁴ is internal; P-2026-006 is conditional).
 Faithful ≠ confirmed; consistency is a different ocean from evidence.
-Every qualifier in an entry body binds its summary.*
+Every qualifier in an entry body binds its summary.
+**THE PINNING RULE (red-team turn 28, adopted as binding):** every
+prediction this program has produced from an UN-PINNED function has
+died when the function was pinned — 3 for 3 (the V4 drift fingerprint
+from the un-locked scaling; the deep-end DESI claim; the κ_v void
+branch). Standing law: no prediction born of a function is advertised,
+registered, or shared with a reviewer until the function is pinned to
+a single definition with values by substitution. Un-pinned functions
+flatter both author and reviewer; the file has measured this three
+times.*
 
 **The program (2026-07-06):** every booked equation decomposes as
 *contents + environment* — a "what is around me" term (standard physics)
