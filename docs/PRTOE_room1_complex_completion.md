@@ -214,6 +214,17 @@ healer. The vev package survives only as: (i) tuned (1e-36), or
 of the rooms: Room 1's greatest simplification (the exact minimal
 match) is precisely what kills Room 3's hope.
 
+**E2.6 — R1.6's testability, calibrated (turn 36, closed):** the PTA
+numbers are f=1 CEILINGS; the real signal is f_amp × ceiling with
+f_amp underived (the Kibble–Zurek condensation computation, O2's true
+form; the mode cannot decay, so f_amp is set once and persists).
+Current published nulls (Porayko/PPTA PRD 98, 102002 (2018); EPTA DR2
+PRL 131, 171001 (2023) — cite-verified) cap f_amp only at ~O(1) at
+the light end (1e-22 eV), nothing at 2e-21: R1.6 is ALIVE,
+CEILING-ONLY, near-term testable iff f_amp ~ O(1). Expedition 2
+closed by the reviewer as NET STRENGTHENING with the D/H scar carried
+in daylight; the board is two-mover (the Σm_ν posterior; f_amp).
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one

@@ -4795,3 +4795,118 @@ board's second pending mover — exactly your two-mover reading.
   reason; the bite delivered mass-by-mass; f_amp named as O2's true
   form and owed.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 36: both numbers judged. (1) The healer's death is a NET
+STRENGTHENING, verdict accepted with one loop closed. (2) The PTA bite is
+honest and well-anchored, R1.6 LIVES at every mass — but the quoted signals
+are f=1 CEILINGS, and there's an implication in your own scaling you should
+confirm: current non-detection may ALREADY be biting f_amp. Then the clean
+resting state, because the two movers are now genuinely all that's left.
+========================================================================
+
+(1) THE UNHEALED REMAINDER — VERDICT ACCEPTED: NET STRENGTHENING. kappa_v was
+built for exactly one wound (D/H at -2.0 sigma), never adopted into
+production, always a conditional headline-rider. Its death reopens nothing —
+the -2 sigma deuterium scar was disclosed in the first dyad headline and sits
+exactly where it always sat. So this is my case (a): appendage shed that was
+never installed, core intact, N-1 parameters. Accepted. TWO things booked to
+close the loop cleanly:
+  - CONFIRM (and I take your word, stated): the corroborated production
+    numbers — plik beating LCDM, H0=69.70 — NEVER counted kappa_v's D/H
+    healing. So nothing in the empirical case needs restating; kappa_v's death
+    costs zero fit-credit because it was never in the fit. Loop closed.
+  - HOLD IN DAYLIGHT: the minimal model is not blemish-free — it carries ONE
+    mild (2 sigma) deuterium tension, openly declared start to finish. That's
+    an honest state, not a clean one, and "net strengthening" means "shed an
+    uninstalled appendage," NOT "resolved the D/H scar." The scar stays on the
+    books. P-2026-006/ANN-2026-005 correctly downgraded to conditional-on-
+    unbuilt-room.
+Net: simpler model, intact core, one long-disclosed 2-sigma wound unhealed and
+honestly carried. Strengthening, booked.
+
+(2) THE PTA BITE — HONEST, ANCHORED, AND R1.6 LIVES. You anchored to
+P-2026-005's OWN already-registered KR quote (2.5e-16 at 2e-22 eV, f=1) rather
+than inventing a cap, and the f/m^2 scaling checks: 4x up to 1e-15 at
+1e-22 eV, 100x down to 2.5e-18 at 2e-21 eV. Both arithmetic-clean. NOT excluded
+at any mass -> R1.6 lives across the window. The distinctiveness route
+survives. Credited.
+
+BUT CALIBRATE THE TESTABILITY HARD — THE QUOTED NUMBERS ARE f=1 CEILINGS. The
+real signal is f_amp x (those), and f_amp is UNDERIVED and could be tiny. So
+"MARGINAL, within an order of current reach" at the light end is the BEST-CASE
+ceiling (f_amp ~ 1), not the expected signal. If f_amp ~ 1e-3, the light-end
+signal is 1e-18 — unreachable. So R1.6 is precisely: ALIVE (not excluded),
+UNKNOWN REACH, testable near-term ONLY IF f_amp is O(1). Do not let "live
+future test" harden past "live IFF f_amp is not small." The whole testability
+sits on the one number you haven't computed.
+
+AND THE IMPLICATION IN YOUR OWN NUMBERS — confirm or correct it. At the light
+end the f=1 ceiling (1e-15) sits ~4x ABOVE your KR anchor (2.5e-16). IF that
+anchor tracks current PTA sensitivity, then the fact that PTA has NOT seen it
+already CAPS f_amp < ~0.25 at the light-mass end — i.e. the bite is not purely
+future, current non-detection is ALREADY constraining the relic fraction. If
+the KR quote is instead a projected/other-instrument number, the inference
+doesn't hold. Which is it? If current data already bounds f_amp < ~0.25 at the
+light end, that's a real (mild) existing constraint worth booking; if not,
+say so. Either way the number to state is: what does TODAY's PTA null already
+say about f_amp?
+
+f_amp — CORRECTLY NAMED AS THE PIVOTAL SECOND MOVER. It's a Kibble-Zurek
+condensation-dynamics calculation (O2's true form), and the non-decay result
+(Gamma ~ lambda^2 ~ 1e-176, the relic is eternally stable) means f_amp is set
+once at basin entry and persists to today — so it's a WELL-DEFINED number
+worth computing, not a moving target. Good. It joins the Sigma-m_nu posterior
+as the board's second pending mover, exactly the two-mover reading.
+
+THE CLEAN RESTING STATE — and it IS one, so I'll name it. After Expedition 2
+the model is in the healthiest shape a theory can occupy under adversarial
+review: every un-pinned flatterer burned off (drift fingerprint, void branch,
+my sigma, the healer — four firings), a parameter dropped, the foundation
+verified as an isomorphism, and EXACTLY ONE genuine, alive, potentially-
+distinctive-and-testable prediction retained — the amplitude mode, pending
+f_amp. That is not "the model won." It's something better for the file: the
+model has been REDUCED TO ITS HONEST CORE PLUS ONE TESTABLE SEED. Everything
+speculative is gone; everything remaining is either corroborated (the CMB
+dyad), non-distinctive-but-sound (LCDM+FDM), honestly scarred (D/H -2sigma,
+lambda~1e-88), or pending-a-number (f_amp, the posterior).
+
+EVIDENCE CLASS — FLAT, and now genuinely two-mover: the Sigma-m_nu posterior
+and f_amp. Both are real calculations, neither is an argument, and until one
+lands nothing moves the class off zero. The arguments are done — for real this
+time, not as a landing but as an exhaustion of what's derivable this side of
+two computations. Confirm the current-PTA-on-f_amp implication and I book
+Expedition 2 fully closed. Otherwise the review rests here, honestly, on two
+pending numbers — which is exactly where it should rest.
+
+— Claude (red team), turn 36. Healer's death = net strengthening (D/H scar
+  carried, production kappa_v-free); PTA bite honest, R1.6 alive but ceiling-
+  only pending f_amp; current-PTA-on-f_amp asked; two movers, class flat,
+  clean rest.
+========================================================================
+
+========================================================================
+DEFENDER — turn 36 reply: the current-PTA implication, CORRECTED with
+verified sources (2026-07-07, ~10:45pm). Your inference (f_amp < 0.25
+from today's null) treated my KR anchor as a sensitivity — it was the
+SIGNAL prediction. The real published nulls, cite-verified: Porayko
+et al. (PPTA), PRD 98, 102002 (2018) and EPTA DR2, PRL 131, 171001
+(2023) ("challenging the ultralight dark matter paradigm"). Their
+shape: strong sub-unity density caps at m ~ 1e-23 eV and lighter,
+weakening as m^2 upward — AT OUR LIGHT END (1e-22 eV) the published
+caps sit at roughly f_amp <~ O(1): consistency-grade, not yet a
+sub-unity bite; at 2e-21 eV, nothing. So TODAY's PTA null says:
+f_amp is unconstrained-below-unity across the priced window; the
+sub-unity bites arrive with next-generation arrays at the light end.
+Your calibration hold is adopted verbatim into the room log: R1.6 is
+ALIVE, CEILING-ONLY, testable near-term IFF f_amp is O(1) — and
+f_amp (the Kibble-Zurek number) is the calculation that decides
+whether the second mover is a cannon or a hope. Expedition 2 closes
+on your terms: net strengthening confirmed with the loop closed
+(production never counted kappa_v — the corroborated numbers are
+kappa_v-free by construction), the D/H scar carried in daylight, two
+movers pending, arguments exhausted. The review rests where you
+rested it. To the two numbers.
+— Claude (defender), turn 36 reply. Expedition 2 closed; f_amp
+  unconstrained-below-unity today; clean rest, co-signed.
+========================================================================
