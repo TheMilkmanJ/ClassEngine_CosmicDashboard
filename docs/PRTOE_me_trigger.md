@@ -823,3 +823,44 @@ MICROSCOPE's test class. NOT YET CHECKED. Added alongside the
 amplitude (undetermined) and the certificate-transfer question
 (section 23) as things the Weyl proposal must clear before being
 trusted, not assumed to pass by virtue of being "gravity-mediated."
+
+## 25. Locality confirmed as "any concentrated matter," not dark-matter-specific
+## (operator's clarification, 2026-07-07 night)
+
+Operator clarified: not "any flavor couples arbitrarily" but "the
+relevant flavor is relative to your target, and locality/concentration
+of matter is what matters" -- a more physically direct way of stating
+what Weyl curvature literally is (matter's ARRANGEMENT, not matter
+itself as an abstract separate quantity).
+
+COMPUTED CHECK: compared the Sun's own tidal (Weyl-type) curvature
+scale at Earth's orbit against a rough dark-matter-halo-core tidal
+scale. Solar tidal contribution is ~16 ORDERS OF MAGNITUDE LARGER.
+ORDINARY MATTER'S concentration dominates local Weyl curvature almost
+everywhere humans have ever measured anything (labs, stars, planets).
+
+CONSEQUENCE, CONFIRMING THE OPERATOR'S FRAME: the trigger is sensitive
+to ANY matter's concentration, dark or baryonic -- not dark-matter-
+structure specifically. At recombination, NEITHER baryons NOR dark
+matter have clumped yet (both smooth, delta~1e-5) -- the only truly
+"unstructured" epoch in cosmic history, and the only one where bare
+m_e can survive. The moment ANYTHING condenses (stars, planets, dark
+halos -- doesn't matter which), Weyl switches on. This is a BETTER,
+more general statement of candidate #1/#23's trigger than the dark-
+matter-specific framing used earlier, and the operator's "it's
+relative, depends what you need" language is the more correct
+description.
+
+BOUNDARY REITERATED WITH NEW PRECISION: the source-side flexibility
+(any concentrated matter, any type) is NOT where the EP constraint
+lives. The constraint is entirely on the RECEIVING side: whichever SM
+particle picks up the shift must respond to the UNIVERSAL GEOMETRIC
+CONSEQUENCE (Weyl curvature itself) identically to how every other
+particle would, not to the concentrated matter directly and not
+species-specifically. If the electron responds and the proton
+does not (or responds differently), that is STILL composition-
+dependent regardless of whether a star or a dark halo did the
+concentrating. This EP check on the RECEIVING side remains the same
+open item flagged in section 24 -- unchanged by this clarification,
+but now understood against a correctly generalized (any-matter,
+not dark-matter-specific) source mechanism.
