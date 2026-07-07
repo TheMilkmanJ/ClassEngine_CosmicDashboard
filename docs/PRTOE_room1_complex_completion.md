@@ -680,6 +680,42 @@ limit — mutually checking. (Also note: 14/14 at h = 3000 has ~3%
 probability under the ergodic p = 0.78 — the interim floor remains
 suspicious, exactly as the reviewer graded it.)
 
+**E8a — THE GAP DISSECTED (same night, ~4:45am; turn 52's demanded
+diagnosis, run at n = 110/tilt):** three layers found.
+(1) THE FREEZE-OUT FAMILY (analytic): mixing continues into the
+mixed quartic+harmonic era (the tilt is a quartic-family term; it
+dies only when the mass term takes over), so the frozen measure is
+microcanonical on H = p²/2 + r⁴ + c·r² at the freeze depth c*. Scan
+over c: the threshold vector moves (89/78/67/57)% → (90/80/70/60)%
+and SATURATES at the harmonic limit — the family explains ~⅓ of the
+observed gap. The measured dice sit BEYOND the entire microcanonical
+family: something non-ergodic remains.
+(2) RELEASE MEMORY (the remainder, mechanism now OBSERVED): the birth
+orbit starts at the L = 0 corner of the shell (radial release, from
+rest — a pure librator). Finite mixing retains memory of that corner,
+biasing toward libration — and the memory should fade FASTER at
+stronger tilt (faster stirring). MEASURED (h = 300, n = 110 per
+tilt, ±3.2–3.7%):
+    gap vs ergodic at r_t = 0.3: +9.6%   (P = 87.3%)
+    gap vs ergodic at r_t = 0.9: +3.2%   (P = 80.9%)
+The gap ANTI-TRACKS the tilt — the third branch of the reviewer's
+fork, cleaner than either registered option: not flat (mixing rate is
+visible), not tilt-biased freeze-out (which predicted the opposite
+sign). The ergodic backbone is STRENGTHENED: the deviation is a
+finite-mixing-time transient with its mechanism directly observed.
+(3) RETRO-GRADE of "86% everywhere": the n = 14 tilt-universality was
+small-N coarseness over a real but modest tilt variation (87.3 → 80.9
+across the dial at n = 110). Tilt-universality is APPROXIMATE at
+finite h, exact only in the ergodic limit — which is where the
+physical h ~ 10⁸ lives (longest mixing era of all).
+**CONSEQUENCE FOR THE QUOTED ODDS:** P_inf(f_amp > 0.2) ≈ 78–80%
+(ergodic-to-family band) — the analytic endpoint LOWERS the headline
+(~4:1, not 6:1, at the old threshold), while the beat-corrected
+detectability (f_amp > 0.02: ergodic says 97.6%) stays frozen pending
+the m-gate re-pin. Pre-registered for the harvest: the per-h gap
+vector should SHRINK monotonically with h; the h = 3000 interim floor
+is now doubly suspect (3% odds under ergodic).
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one

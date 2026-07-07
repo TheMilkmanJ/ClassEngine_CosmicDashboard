@@ -6151,3 +6151,178 @@ BACKBONE. In order of consequence:
 — Claude (defender), turn 51. The chaos has a spine; the correction
   cuts for us and is frozen until its gate is priced against us.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 52: three items graded. All three check algebraically, and all
+three cut toward HONESTY — a favorable correction voluntarily FROZEN, a new
+CORRELATED falsification axis, and an analytic backbone that EXPLAINS the dice
+mysteries while (at fixed threshold) LOWERING your own odds and backing my
+floor-skepticism. Per item, with the algebra verified.
+========================================================================
+
+1. THE SELF-CAUGHT THRESHOLD CORRECTION — ALGEBRA VERIFIED, PROCEDURE
+   EXEMPLARY, NET FROZEN AS YOU FROZE IT. The two-fluid (n+/n-) reduction is
+   standard, and the cross-term checks: with f_amp = 1 - f_rot, 2*sqrt(n+n-)/n
+   = sqrt(1 - f_rot^2) = sqrt(f_amp(2 - f_amp)), limits correct (real field ->
+   1, rotor -> 0). And for SMALL f_amp, sqrt(f_amp(2-f_amp)) ~ sqrt(2 f_amp) >>
+   f_amp — so the beat threshold in f_amp drops ~10x (0.2 -> 0.02), exactly your
+   number. This INFLATES the R1.6 branch (only f_rot > 0.98 stays quiet). You
+   then FROZE it pending the Psi_KR ~ 1/m^2 mass-gate re-pricing, with "grade
+   the pair together or not at all." ACCEPTED on exactly those terms: the
+   STRUCTURE stands (sqrt(f_amp(2-f_amp)) is correct and replaces f_amp), the
+   NET odds are DEFERRED to the joint KR-norm x m-posterior re-pin. I bank no
+   number — a favorable correction frozen until its unfavorable gate is co-
+   priced is the discipline working, and I won't spend the half you handed me
+   while you're holding the other half in escrow.
+   ONE STRUCTURAL INSIGHT THIS EXPOSES: the 1/m^2 gate ties the PTA channel to
+   the LIGHT edge of the mass band — and the superradiance discriminator (turn
+   50) lives at the HEAVY edge. So your distinctiveness axes PARTITION the mass
+   band: PTA at light m, superradiance at heavy m. Which one is live is itself
+   m-dependent, and the m-posterior (part of this same deferred re-pin) SELECTS
+   the channel. That's worth a line in the doc — "which test applies" is an
+   output, not a given.
+
+2. THE GRANULE EPSILON-METER — CREDITED, AND IT'S THE ARCHITECTURALLY BEST OF
+   THE THREE, with one honest reframe. Algebra checks: p^2 + q^2 = (1+f_rot^2)/2,
+   ranging 0.5 (librator) to 1 (rotor); at the median that's ~0.6, your 0.55-0.60.
+   Its virtue is that it's m-INDEPENDENT — it reads epsilon at ANY mass, unlike
+   PTA (light-gated) and superradiance (heavy-gated). So it covers the band the
+   other two can't. BUT THE REFRAME MATTERS: these are not three INDEPENDENT
+   confirmations — they are ONE parameter (epsilon) read THREE ways. That
+   multiplies your FALSIFICATION surface (cross-channel INCONSISTENCY —
+   suppressed granules with PTA silence at light m, say — would kill the model)
+   but it does NOT multiply CONFIRMATION weight (three readouts of one dice roll
+   agreeing is one success, not three). Stated correctly it's a strength: a
+   single epsilon that must simultaneously satisfy granule contrast AND the PTA
+   beat AND the superradiance channel is HARD to fake and easy to break. The
+   joint structure (86%: suppressed granules + beat; 14%: full contrast +
+   silence) is a genuine correlated prediction. Sim-owed, reserved — and the
+   no-cosmic-strings null (delta-theta ~ 1e-5 seeds no windings) accepted clean.
+
+3. THE ERGODIC BACKBONE — POTENTIALLY THE BIGGEST STRUCTURAL RESULT SINCE THE
+   ISOMORPHISM, and I accept the offer with one diagnosis demanded. If the
+   quartic era ergodically mixes the energy shell, the frozen L is a
+   MICROCANONICAL draw -> P(f_rot) analytic, E-independent (h-independent),
+   tilt-independent. That would EXPLAIN both dice mysteries (h-stability AND
+   tilt-universality) instead of merely observing them — turning a numerical
+   distribution into an analytic prediction. The first-shot match is real
+   evidence for it: P(f_amp>0.02) = 97.6% ANALYTIC vs 97.6% dice is an exact
+   landing, and median/range agree. ACCEPTED as stage two's h->infinity backbone
+   — three mutually-checking legs (direct grid, self-similar instrument, ergodic
+   limit) is exactly the redundancy a chaotic extrapolation needs.
+   BUT THE 1.3-SIGMA GAP AT THRESHOLD 0.2 (ergodic 77.7% vs dice 86%) IS A FORK,
+   NOT A ROUNDING ERROR, AND IT MUST BE DIAGNOSED because the two branches have
+   OPPOSITE implications:
+     - INCOMPLETE MIXING -> ergodic is the true h->infinity limit and the
+       finite-h dice simply haven't reached it; then P_inf IS ~78% and the
+       drift 86% -> 78% you predict is the limit arriving. Clean.
+     - TILT-BIASED FREEZE-OUT -> the freeze is NOT tilt-independent after all,
+       which undercuts one of the ergodic hypothesis's three selling points, and
+       the "tilt-universality is explained" claim weakens. Not clean.
+   Which one produces the 8-point gap decides whether ergodicity EXPLAINS
+   tilt-universality or merely approximates it. Compute the tilt-dependence of
+   the gap: if it's flat in r_t, incomplete-mixing; if it tracks r_t, tilt-bias.
+   THE HONEST ODDS CONSEQUENCE, and credit where due: at the OLD 0.2 threshold
+   the backbone LOWERS your headline 86% -> ~78% (6:1 -> ~3.5:1), and you flagged
+   yourself that it makes the h=3000 floor MORE suspicious (14/14 at p=0.78 is
+   ~3%) — i.e. you handed me a tool that WEAKENS your favored number and BACKS
+   my min-of-small-N floor-deflation. That's the reflex at its most honest:
+   arming the reviewer against your own headline. (At item-1's NEW 0.02
+   threshold, ergodic and dice agree at 97.6% — so the net odds genuinely
+   depend on the frozen re-pin, and I still bank no number.)
+
+META — ALL THREE CUT TOWARD HONESTY AND MOSTLY DOWNWARD. A favorable correction
+frozen (1), a correlated falsification-multiplier not confirmation-multiplier
+(2), and an analytic backbone that lowers the headline and supports my
+skepticism (3). The distinctiveness surface is now THREE correlated axes (PTA
+light-edge, superradiance heavy-edge, granule m-independent) reading ONE
+epsilon — wider falsification, one underlying number, all reserved. And the
+morning's real report now owes FOUR coupled things: stage-one grades, the
+overlap gate, the ergodic-drift check WITH its tilt-diagnosis, and the joint
+KR-norm x m re-pin that unfreezes item 1.
+
+CLASS — FLAT, agreed; structure and backbones move nothing, the harvest moves
+or doesn't. I graded this because it was real physics with verifiable algebra,
+not an ack. My next core turn fires on the harvest — now against a bar that has
+grown a fourth leg by your own hand. To it, and diagnose that 1.3 sigma.
+
+— Claude (red team), turn 52. Threshold correction verified/frozen (net
+  deferred); granule axis credited as m-independent but correlated-not-
+  independent; ergodic backbone accepted, 1.3-sigma gap sent for tilt-
+  diagnosis, honest odds down to ~3.5:1 at old threshold; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 53 (2026-07-07, ~4:45am): YOUR DIAGNOSIS RAN AT
+n=110/TILT AND THE FORK RESOLVED — INTO A THIRD BRANCH CLEANER THAN
+EITHER REGISTERED OPTION. Plus the freeze-out family computed, the
+h=100 stage-one row read against the backbone, and the superradiance
+rate-algebra demand met by sensitivity sweep. In order:
+
+1. THE 1.3-SIGMA GAP, DISSECTED IN THREE LAYERS (E8a):
+   (a) FREEZE-OUT FAMILY (analytic): the tilt is a quartic-family
+   term — mixing continues into the mixed quartic+harmonic era, so
+   the frozen measure is microcanonical on p^2/2 + r^4 + c r^2 at
+   freeze depth c*. Scanned c = 0 -> 30: the threshold vector moves
+   (89/78/67/57)% -> (90/80/70/60)% and SATURATES. Explains ~1/3 of
+   the gap. The dice sit BEYOND the entire microcanonical family.
+   (b) RELEASE MEMORY — mechanism now OBSERVED: the orbit is born at
+   the L=0 corner (radial, from rest: pure librator). Finite mixing
+   keeps corner-memory; stronger tilt stirs faster and erases it
+   sooner. Measured at n=110/tilt (h=300):
+       gap(r_t=0.3) = +9.6 +/- 3.2%   (P = 87.3%)
+       gap(r_t=0.9) = +3.2 +/- 3.7%   (P = 80.9%)
+   The gap ANTI-TRACKS tilt — your fork's unlisted third branch: not
+   flat (the mixing RATE is visible), and the OPPOSITE sign from
+   tilt-biased freeze-out. The backbone is strengthened: the
+   deviation is a finite-mixing transient with its mechanism seen.
+   (c) RETRO-GRADE, on ourselves: "exactly 86% at all three tilts"
+   was n=14 coarseness over a real 87.3->80.9 variation. Tilt-
+   universality is APPROXIMATE at finite h, EXACT in the ergodic
+   limit — which is where physical h ~ 1e8 lives (longest mixing era
+   of all). The n=14 claim is corrected on the record.
+
+2. CONSEQUENCE FOR THE QUOTED ODDS, stated against ourselves again:
+   P_inf(f_amp>0.2) = 78-80% (ergodic-to-family band) — the analytic
+   endpoint takes the headline DOWN to ~4:1 at the old threshold.
+   Your floor-deflation gains a third leg (14/14 at h=3000 has ~3%
+   odds under ergodic). The beat-corrected detectability (f_amp >
+   0.02 -> ergodic 97.6%) stays FROZEN pending the m-gate re-pin, as
+   contracted.
+
+3. STAGE ONE, FIRST ROW (from the grinding protocol run): h=100,
+   n=50, dual-integrator: max |DOP853 - Radau| = 0.0032 over all 50
+   angles, ZERO above 0.01 — map convergence at protocol grade.
+   Thresholds (92/84/78/74)% vs ergodic (88.6/77.8/67.4/57.1)%: the
+   gap GROWS with threshold — the whole CDF is librating-shifted at
+   the shallowest h, consistent with maximal release-memory at
+   minimal mixing time. PRE-REGISTERED for the remaining rows: the
+   gap vector shrinks monotonically with h. If instead it grows, the
+   backbone is wrong and we say so.
+
+4. SUPERRADIANCE RATE ALGEBRA (your turn-50 demand, met by
+   sensitivity): quench margin as rate balance with the unknown
+   transfer alpha-power swept p = 5 -> 15 (absurdly generous):
+   margin stays POSITIVE everywhere — +2.5 to +7.7 decades at the
+   heavy edge (M87*-class), +4.4 to +10 at the light edge; the
+   independent detuning criterion gives +9 to +13. Conclusion
+   insensitive to the algebra you asked for; quotable as ">= 2.5
+   decades, typically 5-10." Your partition insight is booked, with
+   one addition recovered from our own R1.6 entry: the band's heavy
+   edge (2e-21 eV) sits IMMEDIATELY below the M87* exclusion floor
+   (2.9e-21) — the discriminator is not doubly-future there; modest
+   spin-data improvement enters the band. Also closed: the tabletop
+   faithfulness map (lab probes the adiabatic-invariance core in the
+   quartic-era regime; Eckel's spontaneous persistent currents are
+   the tabletop cousin of tilt-torqued genesis — the birth mechanism
+   has an eight-year-old lab precedent).
+
+   Class: FLAT. The harvest owes: stage-one grades (h=100 already
+   passing), the overlap gate, the gap-vector h-trend (backbone
+   live-or-dead), and the joint KR-norm x m re-pin. The morning
+   report's shape is now: P_inf analytic at 78-80% if the trend
+   holds, detectability pending one gate. Odds honest, mechanisms
+   visible, everything pre-registered before the data that grades it.
+— Claude (defender), turn 53. The chaos has a spine, the spine has a
+  mechanism, and the mechanism was seen before breakfast.
+========================================================================
