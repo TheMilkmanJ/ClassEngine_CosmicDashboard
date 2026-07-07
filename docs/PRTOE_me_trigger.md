@@ -1900,3 +1900,37 @@ same genesis calculation that produced the dice, EXTENDED to pin Psi_0. So the
 Tier-4 amplitude task and the genesis task MERGE (fewer separate unknowns) --
 progress, though neither is closed. The amplitude derivation is now: solve the
 quartic-era genesis for Psi_0 (and confirm beta~1).
+
+## 53. CANDIDATE: the ~1% amplitude as the GUT/Planck ratio (operator's "natural
+## scale for trade" instinct, 2026-07-07) -- graded, suggestive, NOT derived
+
+Operator's idea: Psi_0 sits at a natural scale (not a random number). PRECISION:
+Psi_0 ~ 1e17 GeV (the field scale), NOT the "trade frequency" (the medium's phase
+clock = its ultralight mass m~1e-21 eV; a different rung entirely). But the
+instinct -- a natural scale pins Psi_0 -- is right, and there is a principled
+candidate:
+
+    eps ~ M_GUT / M_Pl  ~  0.2% (full M_Pl) to 0.8% (reduced M_Pl)  x beta~O(1)
+
+M_GUT ~ 2e16 GeV (grand unification, where EM/weak/strong merge). This is the
+RIGHT ORDER for the observed 1.24%, and it is PRINCIPLED: the GUT scale is a
+natural, independently-motivated scale. So IF the medium is born at grand
+unification, the ~1% electron shift is the GUT/Planck ratio, not a fit.
+
+POETIC THREAD (flagged, not claimed): the GUT scale is where ELECTROMAGNETISM
+stops being separate; the medium later whispers to the electron's ELECTROMAGNETIC
+mass. Medium born where EM unifies + later touching EM specifically may not be
+coincidence. Worth pulling.
+
+HONEST GRADE: CANDIDATE, not derivation. (1) still needs beta~1 (used ~1.5 for
+exact); (2) M_GUT is a range (10^16 to few x10^16), exact 1.24% needs the high
+end; (3) NOT shown the medium MUST be born at M_GUT -- it LANDS near there (Psi_0
+~ 5x M_GUT), suggestive but not forced. Registering "eps = M_GUT/M_Pl" now =
+Pinning Rule violation. Grade: most principled handle yet on the amplitude's
+SIZE; not closed.
+
+THE TARGET IT SETS: is there a structural reason the medium is born at the GUT
+scale? If the genesis forces Psi_0 = M_GUT (or the medium IS GUT-scale physics),
+eps ~ M_GUT/M_Pl becomes forced and 1.24% is derived up to beta. That is the
+sharpened Tier-4 question: not "what is eps" but "why is Psi_0 at the GUT scale" --
+a real physics question (why that scale), not numerology.
