@@ -840,6 +840,58 @@ OBSERVED but its h-scaling was wrong. Convergence remains clean
 (max integrator split 0.0092, zero angles above 0.01). The last two
 rows decide; no theorizing past the data at 6am.
 
+## THE NEW UNMAPPED ROOMS (2026-07-07 ~7:30am, operator's question:
+## what rooms did tonight's discoveries build?)
+
+Tonight closed the genesis corridor and in doing so framed THREE new
+rooms the identity did not have yesterday:
+
+**ROOM 4 — THE TILT ROOM (the most load-bearing unmapped structure
+in the file):** everything tonight — the dice, the chaos, the
+collision odds, the charge itself — rides on the Z4 tilt, and the
+tilt has NO derivation: its origin, its size r_t, and its Z4-ness
+were inputs. FIRST WALL, MAPPED TONIGHT: **Z4 is not a choice — it
+is what renormalizability leaves.** At dimension 4, the only
+U(1)-breaking operators are Ψ⁴ + h.c. (preserves Z4) and Ψ³Ψ* + h.c.
+(breaks to Z2); if the UV respects field parity Ψ → −Ψ, the Ψ³Ψ*
+family is forbidden and **Ψ⁴ + h.c. is the UNIQUE renormalizable
+tilt — Z4 is forced by parity + renormalizability.** SECOND WALL:
+r_t ~ O(1) is NATURAL if λ and λ' share a UV origin (both
+μ₀⁴/M₂⁴-class operators of the same phase EFT) — the dice's O(0.1–1)
+dial is the generic expectation, not a tuning. THIRD WALL (the room
+self-closes a consistency): the tilt is quartic-family, so it DIES
+with the quartic era — charge conservation today is an accidental
+symmetry restored by the transition; the same physics that rolled
+the dice also locked the vault. OPEN in this room: the UV origin of
+the parity; dimension-6 Z4-breaking remnants (a calculable,
+presumably absurdly slow charge-decay channel for the rotor — the
+room's one potential observable, unpriced).
+
+**ROOM 5 — THE ANTIPARTICLE ROOM (χ's separate life):** E7 split the
+medium into ψ and χ; the frozen ratio is mapped, but χ's own
+dynamics is not: (i) χ condenses ~1/q² SLOWER (E7b) — in the median
+draw, many halos today hold a condensed ψ core inside an
+UNCONDENSED χ wave gas: the universe's dark sector is
+MID-PHASE-TRANSITION right now, still settling, and the condensed
+fraction grows with cosmic time (a redshift-dependent core–halo
+relation is the room's natural observable); (ii) the two components
+support INDEPENDENT vortex tangles and perpetual granule-scale
+counterflow (the lab superfluid's two-fluid hydrodynamics, dark
+edition) — what, if anything, the relative-phase sector (the beat's
+local phase) carries topologically is unmapped; (iii) the ψ–χ
+relative velocity field in mergers. This room is where the granule
+ε-meter's sims will live.
+
+**ROOM 6 — THE CONSTITUTION ROOM (the floor's status):** framed
+tonight (deposit vs rule); the whisper's trial is its first
+scheduled measurement (the converging posterior judges). Unmapped
+beyond the trial: the (δK)² sector's relation to the floor, and the
+de Sitter-boundary face of the integration-constant reading
+(likely silence-class; flagged so it cannot be quietly skipped).
+
+*Rooms 1–3 were the speaker's; Rooms 4–6 are the identity's own —
+built by the answers, which is what real rooms do.*
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
