@@ -1006,3 +1006,31 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   new number or change the load-bearing open calc (EM self-energy
   bistability, sec 42). A right blueprint, turning three assertions into
   one rule.
+
+- **CROSS-BANK TRANSACTIONS AND THE E=mc^2 SETTLEMENT LAYER (operator,
+  2026-07-07: "is there ever a point where they clear between both
+  clearinghouses?").** YES -- and it is the m_e mechanism itself. The
+  trigger/amplitude split (gravity triggers, EM executes) is ONE
+  transaction that starts in the space<->matter bank (gravity) and
+  finishes in the matter<->matter bank (EM) -- it cannot clear in a
+  single bank. THE SETTLEMENT LAYER between the two banks is E=mc^2
+  enforced by the equivalence principle: any energy in the EM bank
+  must also post to the gravity bank as mass/weight, universally. This
+  is ubiquitous -- every binding energy is a cross-bank entry (the
+  electron's EM self-energy is EM-bank field energy that simultaneously
+  weighs in the gravity bank). THE USEFUL CONSEQUENCE: a cross-bank
+  transaction is regulated by BOTH banks' rulebooks at once -- EM's
+  (quasar delta_mu, MICROSCOPE composition-dependence) AND gravity's
+  (equivalence principle, fifth-force bounds). Those are EXACTLY the
+  constraints that have shaped/killed the m_e mechanism all along. So
+  the m_e mechanism is the hardest thing in the model to legalize NOT
+  by bad luck but STRUCTURALLY -- it is DOUBLE-REGULATED (cross-bank),
+  facing two banks' inspectors where most transactions face one. Also
+  clarifies the census: space reaches EM via its gravity account + the
+  E=mc^2 settlement (census-clean, no EM account needed, matches the
+  contingent-clearinghouse principle) -- BUT the reach is the E=mc^2/
+  curvature route = 60-orders-weak, so this re-confirms the strength
+  problem rather than solving it. GRADE: structural insight -- explains
+  the mechanism's cross-bank status and WHY it is maximally constrained;
+  does NOT supply the missing mechanism (the settlement ensures
+  consistency once a shift happens, does not create the shift).
