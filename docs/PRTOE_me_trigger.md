@@ -372,3 +372,45 @@ one, a redshift-keyed switch is exactly as tunable as beta was.
 This attempt (T_GH vs T_gamma) is now a closed, tested line rather
 than an open guess — a real contribution to the search even in
 failure, per the graveyard's own standard.
+
+## 15. Session synthesis (2026-07-07 evening) — Reading B adopted as the leading picture
+
+Operator confirms: Reading B (shared clock via H(z), §13) over Reading
+A (direct foreign sensing). Rationale, stated plainly: B is the only
+picture requiring NO new machinery. Direct sensing (Reading A) needs a
+channel the census forbids. An invented cosmic-mean threshold (early
+candidate #3 form) repeats beta's exact kill. Space's horizon literally
+matching the photon bath (§14) is dead by 30 orders of magnitude. B
+needs only H(z) — already real, already shared, already what the
+fluid's own background equations run on. Compton decoupling and the
+ledger's own redshift-keyed rule change are both readouts of the SAME
+funnel, not two mechanisms needing reconciliation.
+
+**STANDING PICTURE, all candidates after tonight's full pass:**
+- Candidate #1 (the fold, R1/Theta): LOCAL, medium-native, structural
+  favorite going in. Gate: two-field sims (#11).
+- Candidate #2 (Compton gate, direct): RETIRED as a rival mechanism in
+  favor of staging (§11) or shared-clock correlation (§13) — no longer
+  scored as an independent foreign-sensing trigger.
+- Candidate #3 (the ledger decree via shared clock, Reading B): GLOBAL,
+  medium-native, ADOPTED as the leading non-local picture. Open task,
+  UNCHANGED: derive the actual redshift/scale-factor value from H(z)
+  or the total energy budget, non-arbitrarily — without it, B is a
+  well-motivated MECHANISM CLASS, not yet a pinned prediction.
+
+**THE DISCRIMINATOR IS UNCHANGED AND NOW DECISIVE BETWEEN TWO, NOT
+THREE:** the dark-ages/cosmic-dawn 21-cm sky (unvirialized IGM,
+z~15-90) separates LOCAL (candidate #1, patchy suppression only in
+structure) from GLOBAL (candidate #3/Reading B, uniform suppression
+everywhere past the shared-clock redshift). This is now the cleanest
+open question in the trigger investigation: not "which foreign
+channel," but "local or global" — answerable by one instrument,
+neither candidate registered until #11 (fold's coupling) and a
+derived threshold (B's value) both exist. Pinning Rule unchanged.
+
+STATUS AT SESSION CLOSE: two live mechanism classes (local/fold,
+global/shared-clock), one shared falsification instrument, two open
+derivations (#11's sims; B's non-arbitrary redshift), zero new
+overclaims. Fairbank chain healthy (13,779 steps / 1,456 accepted,
+~5h13m in, watchdog green) — its converged varying_me value remains
+the free, near-term check on candidate #1's specific target (1.0101).
