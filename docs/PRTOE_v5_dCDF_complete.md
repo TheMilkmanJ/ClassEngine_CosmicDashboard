@@ -865,6 +865,16 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
    predicted inferior to m_e (Thomson surtax σ_T ∝ α²/m_e²); queued as
    the rules-class control scan. Four executions and one demotion at
    the speed of algebra: the screening theory works.
+   **α CONTROL SCAN RUN (2026-07-07 night) — prediction confirmed,
+   decisively.** θ*-locked pricing on the full joint stack (H0
+   relocked per point; α = 1.0 baseline reproduces the dyad's own
+   numbers, plik 586.5): α = +0.5% buys H0 = 70.65 but costs plik
+   +55, ACT +23, SPT +17 — net ≈ +91 after the SN refund; α = +1%
+   buys 71.69 at plik +200, ACT +167, SPT +62 — net ≈ +420. Contrast
+   m_e = +1%: CREDIT −8.5. The damping tail executes α exactly as
+   predicted — **the data selects m_e specifically, not "any
+   recombination-rules knob":** the dyad's lever is data-selected,
+   not a freedom artifact. The rules-class control is closed.
 
 ## 10a. Domain of validity: nonlinear structure and compact objects
 
