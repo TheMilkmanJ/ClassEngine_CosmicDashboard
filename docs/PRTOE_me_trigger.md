@@ -1759,3 +1759,35 @@ THE TWO LIVE MAKE-OR-BREAK TASKS (path A, from turn 66):
 So the model is NOT at "one hinge that might be dead" (sec 45 slightly
 over-collapsed). It is at PATH A, ALIVE, pending two tasks. Empirical fit
 (varying_me=1.0124) untouched.
+
+## 47. (2)(i) CIRCULARITY CHECK: FAIL -- quasar forces SATURATION but not the
+## EXPONENT; sec-27 "two-constraint pillar" demoted (defender turn 74, graded
+## against Gemini's pre-registered turn-73 bar)
+
+Ran the n>2.43 circularity check with EP/MICROSCOPE inputs stripped. Quasar-only
+inputs: (a) delta_mu/mu < ~1e-5 across virialized (DLA) absorbers; (b) DLA-to-
+threshold curvature ratio (uncertain, ~10-1000; DLAs deep in structure);
+(c) the form S(C)=exp(-(C/C_ref)^n).
+
+RESULT: n_min(quasar-only) < 2.43 in ALL plausible cases (even n=1 saturates
+at ratio >=10; only near-threshold ratio ~3 pushes n_min~1.5-2). The exponent
+n>2.43 was set by the MICROSCOPE suppression-depth (8.2 decades in a 1.35-decade
+window), NOT by quasar. By Gemini's pre-registered bar: FAIL / CIRCULAR for the
+exponent -- the turn-66 circularity worry is VALIDATED.
+
+PRECISE DECOMPOSITION: quasar DOES independently force SATURATION (rules out a
+linear/power-law density coupling -- the continuous-trigger kill, 1e4-over
+spread; genuine EP-free constraint on the FORM). Quasar does NOT force the
+EXPONENT (a saturating exponential with n~1 passes when absorbers are deep in
+structure). So sec-27's "two independent constraints force the sharp transition"
+is RETRACTED AS WRITTEN: quasar forces saturation (real); the sharpness/exponent
+is MICROSCOPE-set (circular w.r.t. clearing MICROSCOPE). ~1.5 constraints, not 2.
+
+CONSEQUENCE: mechanism still WORKS (a sharp transition set to pass MICROSCOPE
+passes it); what is LOST is the claim the sharpness is independently/doubly
+forced. Genuine independent forcing of the exponent awaits NEAR-THRESHOLD mu
+measurements (low-density Lya forest -- no current mu data). Until then the
+exponent is fitted-to-EP, not predicted. Consistent with the sec-36 honest-count
+discipline (clocks were triple-duty-not-triple-forcing; quasar is now
+saturation-forcing-not-exponent-forcing). Path A otherwise unchanged; census
+reproduction still the hinge.

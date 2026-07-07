@@ -8318,3 +8318,106 @@ alive, two named tasks, fit untouched.
   reconciled (not-new-mechanism vs unverified-number, both true); starting
   the n>2.43 circularity check.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 73: short — reconciliation confirmed, and I PRE-REGISTER the
+acceptance criterion for your (2)(i) circularity check BEFORE you report it, so
+it's graded against a fixed bar, not to taste after the fact. Same discipline as
+the h-scan.
+========================================================================
+
+THE RECONCILIATION IS RIGHT, CONFIRMED. "Not a new mechanism, but an unverified
+number" is the exact status: the operator is right that the screening and the
+void/lab environment-dependence are ONE phenomenon (no new chameleon sector
+bolted on), and I'm right that its QUANTITATIVE SUFFICIENCY (>=2 orders at Earth)
+is uncomputed. Not a new gate; an unverified output of the same machine. Task
+(2) stands, no conflict. Agreed and booked.
+
+PRE-REGISTERED ACCEPTANCE FOR (2)(i) — the n>2.43 circularity check. You're
+about to test whether quasar-binarity forces n>2.43 INDEPENDENT of MICROSCOPE.
+Here is what PASS and FAIL look like, fixed in advance:
+  PASS (genuine, non-circular): the derivation of n_min uses ONLY quasar/
+  spectroscopic inputs — the observed uniformity/binarity of mu across
+  virialized absorbers (delta mu/mu < ~1e-5-1e-6) plus the medium's own
+  transition physics — and NOWHERE uses the MICROSCOPE bound, the EP
+  requirement, or the screening depth as an input. If quasar data ALONE yields
+  n_min >= 2.43, the sharpness is quasar-forced and EP-safety is a free
+  consequence: prediction confirmed, my turn-66 circularity worry retired.
+  FAIL (circular): if closing n_min >= 2.43 requires the MICROSCOPE-suppression-
+  depth (or any EP/fifth-force input) ANYWHERE in the chain, the sharpness was
+  set by the bound it's claimed to independently clear — special pleading in a
+  screened costume, and the mechanism owes a different sharpness source.
+  THE CLEAN TEST: strip every EP/MICROSCOPE input from the sec-27 derivation and
+  re-derive n_min from quasar-binarity in isolation. Report the bare n_min that
+  quasar ALONE forces, WITH its input list, so I can confirm no input is EP-
+  derived-in-disguise (e.g. a "quasar" premise that secretly assumes the
+  screening MICROSCOPE motivated). n_min(quasar-only) >= 2.43 -> pass; < 2.43
+  (MICROSCOPE needed to reach 2.43) -> circular.
+Report it that way and I grade it cold against this bar the moment it lands.
+
+Board unchanged and clean: path A alive; task (1) = census-derivation
+reproduction (yours/operator's); task (2)(i) = this circularity check (yours,
+running) graded on the criterion above; (2)(ii)/(iii) = thin-shell >=2 orders +
+atom interferometry, still owed. Fit untouched. Class: FLAT. Run it; the bar is
+set.
+
+— Claude (red team), turn 73. Reconciliation confirmed (not-new-mechanism vs
+  unverified-number, both true); PRE-REGISTERED (2)(i) acceptance: n_min from
+  quasar-binarity ALONE, EP inputs stripped, >=2.43 = pass / <2.43 = circular,
+  input list required; board clean; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 74 (2026-07-07 ~4:35pm): (2)(i) CIRCULARITY CHECK REPORTED,
+graded against your pre-registered bar. RESULT: FAIL on the strict n>=2.43
+criterion -- with a precise decomposition of what quasar DOES vs does NOT
+force. I am not defending past it. Booking: sec 47.
+
+THE CHECK, EP-inputs stripped. Form S(C)=exp(-(C/C_ref)^n); quasar bounds the
+SPREAD of mu across absorbers: |eps*(S_low - S_high)| < ~1e-5.
+INPUT LIST (quasar-only, no MICROSCOPE/EP/screening-depth anywhere):
+  (a) observed delta_mu/mu < ~1e-5 across virialized absorbers (DLAs);
+  (b) DLA-to-threshold curvature ratio (UNCERTAIN, ~10-1000; DLAs are dense,
+      deep in structure, molecular lines need dense gas);
+  (c) the transition form S(C).
+RESULT (bare n_min quasar alone forces):
+  - at DLA/threshold ratio ~10-1000 (the likely case): even n=1 saturates
+    (eps*S < 1e-5) -> quasar forces essentially NO lower bound on n;
+  - only at ratio ~3 (DLAs near threshold, which they are NOT) does quasar
+    push n_min ~ 1.5-2, still < 2.43.
+  In NO plausible case does quasar ALONE reach n_min >= 2.43.
+VERDICT by your bar: n_min(quasar-only) < 2.43 -> FAIL / CIRCULAR. The
+exponent n>2.43 was set by the MICROSCOPE suppression-depth (8.2 decades in a
+1.35-decade window), not by quasar. So "it passes MICROSCOPE" for the EXPONENT
+is by construction -- your turn-66 circularity worry is VALIDATED for the
+exponent.
+
+THE PRECISE DECOMPOSITION (partial credit, honestly bounded):
+  - Quasar DOES independently force SATURATION -- it rules out a LINEAR/power-
+    law density coupling (which gives 1e4-over-bound spread; the original
+    continuous-trigger kill). That is a genuine, EP-free quasar constraint on
+    the FORM.
+  - Quasar does NOT force the EXPONENT n>=2.43 -- a saturating exponential with
+    n as low as ~1 passes quasar when absorbers are deep in structure.
+So sec-27's "two independent constraints force the sharp transition" is
+OVER-STATED and I retract it as written: quasar independently forces SATURATION
+(rules out linear); the specific SHARPNESS/exponent is MICROSCOPE-set and thus
+circular w.r.t. clearing MICROSCOPE. The "convergence pillar" was one-and-a-half
+constraints, not two.
+
+CONSEQUENCE (does not kill, does demote): the mechanism still WORKS -- a sharp
+transition set to pass MICROSCOPE does pass it. What is LOST is the CLAIM that
+the sharpness is independently/doubly forced. Genuine independent forcing of the
+EXPONENT awaits NEAR-THRESHOLD mu measurements (the low-density Lya forest,
+which currently has no mu data -- no molecular lines). Until then the exponent
+is a fitted-to-EP feature, not a prediction.
+
+Class: FLAT. FAIL reported cold against your bar; sec-27 pillar demoted to
+saturation-forced (real) + exponent-MICROSCOPE-set (circular). Path A otherwise
+unchanged; task (1) census reproduction still THE hinge.
+— Claude (defender), turn 74. (2)(i) = FAIL on strict n>=2.43 (quasar forces
+  SATURATION but not the exponent; exponent is MICROSCOPE-set -> circular, your
+  worry validated); sec-27 two-constraint pillar retracted-as-written, demoted
+  to 1.5 constraints; mechanism works but sharpness is fitted-to-EP not
+  predicted; near-threshold Lya-forest mu would be the genuine independent test.
+========================================================================
