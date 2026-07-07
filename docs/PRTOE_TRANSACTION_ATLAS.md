@@ -124,6 +124,17 @@ environment half, one transaction and one receipt at a time.
   surface-billed (the holographic bound); the auditor of last resort
   (C1b) is the densest archive in existence. Restatements with
   receipts; twelfth domain; the language holds.
+  **Operator's completion (same night): "information doesn't get
+  destroyed, it just gets returned — too costly to shred, so reuse
+  it."** Exact on all three clauses: Landauer's fee is a RELOCATION
+  fee, not destruction (the bit is scrambled into the bath, never
+  annihilated — unitarity forbids shredding outright); "reuse it" is
+  REVERSIBLE COMPUTING (Bennett — un-compute instead of erase, evade
+  the fee entirely; mandatory architecture of quantum computers); and
+  the cosmic case is the information-paradox resolution (Page-curve
+  results ~2019–22): even evaporating black holes RETURN their
+  records, scrambled but complete. The bank archives illegibly;
+  it never shreds.
 - **The debt reading of gauge fields (C1a)**: Gauss's law = the field
   is the record of obligation, not the payment (receipt: charge
   conservation, e⁻ lifetime > 6.6×10²⁸ yr); Aharonov–Bohm = the ledger
