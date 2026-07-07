@@ -222,3 +222,41 @@ out by a phone call, not a wire. "Hey, new branch. Who dis?" — Law 3
 closed. The 1.5x FIRAS margin doesn't just permit this reading — it is
 close to being the receipt that would exist if the operator were
 wrong, and it doesn't.
+
+## 11. Can two branches claim the rule change at once? (operator's question, 2026-07-07 evening)
+
+Three structurally distinct ways "both candidates are right" could hold:
+(1) COMPETING — mutually exclusive, only one is the true trigger (the
+default framing used through §7-9); (2) NESTED — one is a precondition,
+the other the actual trigger; (3) ADDITIVE — each contributes part of
+the total shift, predicting a compound (two-step) m_e(z) history.
+
+**OPTION 2 IS FAVORED BY THE EXISTING TIMING, not asserted new:**
+Compton decoupling (z≈131, §9) precedes first structure in the audited
+band (z≈15-25, §2 timing check) — and this ordering is not
+coincidental. Standard early-universe physics: while gas is thermally
+locked to the CMB (T∝1+z), Compton heating keeps it pressure-supported
+and the Jeans mass high, so efficient collapse cannot begin. Only after
+decoupling does gas cool freely (T∝(1+z)^2), the Jeans mass drops, and
+matter can fall into wells — the fold's precondition, not a rival
+event to it.
+
+**CONSEQUENCE — THE COMPTON GATE'S SENSING-CHANNEL DEBIT (§9c/9d)
+DISSOLVES UNDER THIS READING:** if Compton decoupling is staging rather
+than the trigger itself, the medium never needs to sense a foreign
+thermometer — it only ever reads Θ (structure/granules), fully
+medium-native, as R1 always required. Compton decoupling becomes "why
+there was no structure to read before z≈131," not a second claimant to
+the switch. Two branches, one surviving mechanism.
+
+OPTION 3 (additive) stays open and falsifiable in principle: it
+predicts a COMPOUND m_e(z) — a small step at z≈131 plus continued
+drift tracking structure growth to z≈15-25 — distinguishable from a
+single clean transition in future CMB/21-cm precision, well beyond
+current sensitivity.
+
+STATUS: hypothesis-grade synthesis, NOT registered (Pinning Rule
+unchanged — #11's sims still gate everything). Net effect: strengthens
+candidate #1 (the fold) by explaining its onset epoch rather than
+diluting it with a rival; retires Compton gate from "competing
+mechanism" to "necessary cosmological precondition."
