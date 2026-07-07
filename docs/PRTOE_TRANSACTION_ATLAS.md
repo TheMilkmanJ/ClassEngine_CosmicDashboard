@@ -155,6 +155,18 @@ environment half, one transaction and one receipt at a time.
   τ×τ = 1+τ anyons) — locally unreadable, hence unpostable, hence
   protected. Why QC is hard, one sentence: DRAFTS ARE FREE BUT EVERY
   STRAY PHOTON IS AN AUDITOR. Thirteenth domain; the language holds.
+- **The superfluid recipe (operator's question, 2026-07-07 late):**
+  three ingredients — bosonic statistics (the 1+n invitation, C4d),
+  quantum degeneracy (n·λ_dB³ ≳ 2.6: waves overlap, identity blurs),
+  and the runaway into one macroscopically occupied state
+  (spontaneously broken number-U(1); the phase is born as the order
+  parameter). Lab receipts: He-4 (2.17 K, 1938), dilute BECs (nK,
+  1995), paired He-3 (mK). THE COSMIC CHEAT: our medium never crossed
+  a critical temperature — the AD spiral mints a single coherent
+  configuration from the first instant (born condensed; why basin
+  entry left no relic, E3.1). Degeneracy scorecard: a halo of the
+  medium scores n·λ³ ~ 10⁹³ against the 2.6 threshold — the most
+  quantum-degenerate object in existence.
 - **The debt reading of gauge fields (C1a)**: Gauss's law = the field
   is the record of obligation, not the payment (receipt: charge
   conservation, e⁻ lifetime > 6.6×10²⁸ yr); Aharonov–Bohm = the ledger
