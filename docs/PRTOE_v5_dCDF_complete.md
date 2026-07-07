@@ -472,6 +472,27 @@ and will be largely moot the day it lands: that stack omits data
    budget knob. This is the live number; it is being measured as this
    revision is written.
 
+**The SH0ES→TRGB scenario (2026-07-07 night; robustness diagnostic,
+not a stack change — priors frozen, P-2026-001 remains the arbiter).**
+Four point-evaluations (both models × both SN calibrations) plus the
+CCHP-2025 local anchor (69.96 ± 1.54, cite-verified):
+
+| | SN(Pantheon+SHOES) | SN(Pantheon+, shape-only) |
+|---|---|---|
+| dyad (H0=69.70) | 1473.4 | 1406.3 |
+| ΛCDM anchor (67.4) | 1494.9 | 1403.7 |
+
+Read honestly in both directions: (i) the dyad's SN advantage under
+SHOES (−21.5) EVAPORATES under calibration-free Pantheon+ (+2.6,
+noise-level) — the current SN-sector credit rides the SH0ES pull
+(69.7 sits closer to 73 than 67.4 does); (ii) under a TRGB-calibrated
+local anchor the dyad is **0.17σ** from the local measurement and
+ΛCDM is 1.7σ — the dyad becomes the model with no tension anywhere on
+the sky, its fit advantage reverting to the CMB sector (plik credit),
+where it never depended on any ladder. If SH0ES falls, we lose a χ²
+subsidy and gain a resolution; if SH0ES stands, P-2026-001 executes
+us. Symmetric exposure, on the record.
+
 > **Pre-registered predictions live in
 > `PRTOE_PREREGISTERED_PREDICTIONS.md`** — P-2026-001: the local ladder
 > resolves TRGB-side, H0(local) ∈ [69.0, 71.0] (no hedge; 72+ falsifies
@@ -865,16 +886,30 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
    predicted inferior to m_e (Thomson surtax σ_T ∝ α²/m_e²); queued as
    the rules-class control scan. Four executions and one demotion at
    the speed of algebra: the screening theory works.
-   **α CONTROL SCAN RUN (2026-07-07 night) — prediction confirmed,
-   decisively.** θ*-locked pricing on the full joint stack (H0
-   relocked per point; α = 1.0 baseline reproduces the dyad's own
-   numbers, plik 586.5): α = +0.5% buys H0 = 70.65 but costs plik
-   +55, ACT +23, SPT +17 — net ≈ +91 after the SN refund; α = +1%
-   buys 71.69 at plik +200, ACT +167, SPT +62 — net ≈ +420. Contrast
-   m_e = +1%: CREDIT −8.5. The damping tail executes α exactly as
-   predicted — **the data selects m_e specifically, not "any
-   recombination-rules knob":** the dyad's lever is data-selected,
-   not a freedom artifact. The rules-class control is closed.
+   **α CONTROL SCAN RUN (2026-07-07 night) — THE DEGENERACY BREAK
+   (framing per red-team turn 29). Sign convention, pinned: positive
+   = χ² PENALTY = worse fit.** θ*-locked pricing, full joint stack,
+   H0 relocked per point; α = 1.0 baseline reproduces the dyad's own
+   numbers (plik 586.5). Exact component totals (full reconciliation
+   in chains/alpha_scan_*.1.txt): α = +0.5% buys H0 = 70.65 at
+   **+92.36 total penalty** (plik +55.07, ACT +22.56, SPT +17.44,
+   lensing +4.35, BAO +1.16, SN −7.83, lowl −0.38); α = +1% buys
+   71.69 at **+432.76** (plik +200.5, ACT +167.3, SPT +62.2). The
+   penalties scale quadratically (ratio 4.7 ≈ 2²), as χ² near a
+   forbidden direction should. Contrast m_e = +1%: −8.5 (a CREDIT).
+   **The result is a hard degeneracy break, not a ranking: the two
+   nearest-degenerate recombination knobs (binding ~ m_e α², Thomson
+   ~ α²/m_e²) are resolved by the damping tail onto OPPOSITE sides —
+   α actively forbidden (~20σ at 1%), m_e actively preferred.**
+   Reach, bounded (turn 29 holds, adopted): this retires the
+   freedom-artifact charge for the NEAREST sibling only — of the
+   knob family, N_eff was already executed by the joint refit
+   (ξ → 0.01, the dyad's origin), α is now broken, a bare z_rec
+   shift is the m_e lever's own phenomenological definition; free-Y_p
+   and EDE-class members remain unexcluded. And data-selected lever
+   ≠ confirmed mechanism: this makes the amendment non-arbitrary in
+   its knob, not derived in its origin. Robustness up; evidence
+   class unchanged.
 
 ## 10a. Domain of validity: nonlinear structure and compact objects
 

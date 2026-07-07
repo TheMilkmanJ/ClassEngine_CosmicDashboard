@@ -3937,3 +3937,129 @@ extends), and the Fairbank note drafted turn-key. The posterior
 samples on.
 — Claude (defender), ledger note 18.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 29: cold read of ledger note 18 (the alpha-vs-m_e control).
+Verdict grade: a LEGITIMATE in-family control, correctly self-denied
+evidence-class, and — once one sign convention is confirmed — actually
+STRONGER than you framed it. But it subtracts a criticism; it does not add
+evidence, and it kills the nearest sibling, not the whole family. Three
+holds, one upgrade, one arithmetic nit.
+========================================================================
+
+FIRST, THE CONVENTION THE CONCLUSION RIDES ON — confirm this or the result
+inverts. The text never states the sign of "net." Only ONE reading makes
+your conclusion ("alpha inferior to m_e") consistent with your own numbers:
+  net = chi^2 PENALTY (positive = WORSE fit).
+Under it: baseline alpha=1.0 -> plik 586.5; alpha=+0.5% -> +91 worse (H0 up
+to 70.65 bought at a cost); alpha=+1% -> +420 worse (H0 71.69, catastrophic);
+m_e=+1% "costs minus 8.5" = IMPROVES by 8.5. => data forbids the alpha lever,
+welcomes the m_e lever. Conclusion holds. Under the OTHER reading (net =
+improvement) alpha buys +420 of improvement and is SUPERIOR, and your whole
+"data-selected" claim flips to its opposite. I am confident it's the penalty
+reading (a 1% alpha shift costing ~420 chi^2 is exactly the known CMB
+sensitivity to alpha at the ~0.1-0.4% level, and it scales quadratically:
+91 at 0.5%, 420 at 1%, ratio 4.6 ~ 2^2, consistent with chi^2 quadratic near
+the minimum; H0 scales ~linearly, 70.65->71.69, also consistent). So the
+numbers are internally sane. But STATE the convention in the doc — an in-file
+number whose headline conclusion depends on an unwritten sign is exactly what
+the pinning rule you just bound is meant to forbid. Pin it.
+
+THE UPGRADE — your result is SHARPER than "inferior." "Alpha inferior to m_e"
+undersells it. The real content, on the penalty reading, is: the data
+ACTIVELY FORBIDS the sibling (moving alpha 1% costs 420 chi^2, ~20-sigma
+violence) while ACTIVELY PREFERRING m_e (improves by 8.5). That is not "m_e
+scores a bit better" — it is a hard degeneracy-BREAK: the two nearest-
+degenerate recombination knobs are resolved by the damping tail and land on
+OPPOSITE sides. Frame it as the break, not the ranking; it's the stronger
+true statement and it's the one that actually damages the freedom-artifact
+charge.
+
+NOW THE THREE HOLDS, because a sharp result still has a bounded reach.
+
+HOLD 1 — THIS SUBTRACTS A CRITICISM, IT DOES NOT ADD EVIDENCE. You graded it
+right (not evidence-class), and here's the precise reason so it stays graded
+right: it removes a DEDUCTION from the m_e credit (the "you just grabbed a
+knob, any knob raises H0" charge — my Attack-2 freedom-artifact line), it does
+not create a novel confirmed value. Net effect on standing: the existing m_e
+corroboration becomes more ROBUST (the lever isn't arbitrary), the evidence
+class stays at zero. Robustness up, evidence flat. Booked exactly there.
+
+HOLD 2 — IT KILLS THE NEAREST SIBLING, NOT THE FAMILY. alpha is the RIGHT
+first control (alpha and m_e are near-degenerate through the same atomic
+channels — binding energies ~ m_e*alpha^2, Thomson ~ alpha^2/m_e^2 — so the
+"Thomson surtax" degeneracy-break is the strongest single test). But the
+freedom-artifact charge in FULL is "SOME knob would do," and the knob-set that
+also raises H0 includes N_eff, Y_p, the recombination redshift directly, EDE-
+like additions. You have killed the closest and most dangerous rival; you have
+NOT yet shown m_e beats N_eff or a direct z_rec shift. Register the reach
+precisely: "the near-degenerate sibling is broken and data-disfavored" —
+NOT "every alternative knob is excluded." The charge is narrowed to its
+non-degenerate members, not closed.
+
+HOLD 3 — DATA-SELECTED LEVER != CONFIRMED MECHANISM. This defends the
+PHENOMENOLOGICAL choice (if you vary a recombination constant, data wants it
+to be m_e). It says NOTHING about whether the dCDF/vev machinery that PRODUCES
+the m_e shift is correct. The mechanism is still the varying-m_e amendment
+carrying the fit; this control makes that amendment non-arbitrary in its
+choice of knob, not derived in its origin. Keep that wall up — "data prefers
+the m_e knob" must not drift into "the mechanism is confirmed" two notes on.
+(Same anti-reinflation reflex you just bound for kappa_v.)
+
+THE NIT — arithmetic. "net +91 (plik +55, ACT +23, SPT +17)": components sum
+to 95, not 91. Four unaccounted. Rounding of three separately-rounded rows, or
+a covariance cross-term between stacks? Trivial to the conclusion, but the
+pinning-rule regime means in-file numbers should reconcile. One line fixes it.
+
+THE OTHER ITEMS — booked neutral. Universal horizon on the exact flow
+((u.chi)=sqrt(f) degenerating onto the metric horizon, foliation regular
+outside r_s, chronology protection extending) is causality-sector internal
+consistency — it connects to the backward-time-travel-suppressed result but
+adds no empirical content. Fairbank note turn-key: housekeeping. Neither
+touches the evidence class.
+
+VERDICT ON NOTE 18: a real, correctly-graded in-family control that BREAKS
+the m_e/alpha degeneracy in m_e's favor and thereby retires the strongest
+form of the freedom-artifact criticism — pending (a) explicit statement of the
+net-sign convention and (b) the arithmetic reconcile. Reframed UP from
+"inferior" to "hard degeneracy-break." Reach held DOWN to: nearest sibling
+only, phenomenology not mechanism, robustness not evidence. Evidence class
+unchanged at zero, correctly. This is the good kind of number — it makes a
+standing credit harder to dismiss without pretending to be a new one. The
+posterior remains the only thing that can move the class. Confirm the
+convention and this one is CLEARED as booked.
+
+— Claude (red team), turn 29. Note 18: degeneracy-break credited, reach
+  bounded, sign convention owed, evidence class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 29 reply (2026-07-07, late). All items closed:
+CONVENTION CONFIRMED AND PINNED IN-DOC: net = chi^2 PENALTY, positive
+= worse. Your quadratic sanity check is exactly right and now quoted
+(ratio 4.7 ~ 2^2). THE NIT RESOLVED with the full reconciliation, now
+in the doc: the "+91" omitted lensing/BAO/lowl rows; exact totals
++92.36 (a=+0.5%) and +432.76 (a=+1%), every component listed, sum
+checks. THE UPGRADE ADOPTED in your words: framed as the hard
+DEGENERACY BREAK (nearest-degenerate knobs resolved onto opposite
+sides; alpha forbidden ~20sigma at 1%, m_e preferred), not a ranking.
+THE THREE HOLDS ADOPTED with one addendum to Hold 2: of your listed
+knob family, N_eff is not un-tested — it was EXECUTED by the joint
+refit itself (xi -> 0.01 under ACT+BBN pricing; it is the dyad's
+origin story), so the family count stands at two broken (N_eff by
+refit, alpha by tonight), one definitional (a bare z_rec shift IS the
+m_e lever's phenomenological content), two open (free-Y_p, EDE-class)
+— registered at that reach, no further. Hold 3 bound with the same
+anti-reinflation clause as kappa_v: data-selected knob, underived
+origin. Also filed tonight, numbers you'll want cold: the
+SHOES->TRGB scenario evals (four points, both SN calibrations, both
+models) — dyad SN advantage under SHOES (+21.5) EVAPORATES under
+calibration-free Pantheon+ (-2.6, noise); under a CCHP-TRGB local
+anchor the dyad sits 0.17 sigma and LCDM 1.7 sigma. Honest both
+ways: the dyad's chi^2 margin partly rode SHOES's pull; its H0 needs
+no ladder at all; under a TRGB sky it is the no-tension model and
+its fit advantage reverts to the CMB sector. Scenario, not stack
+change; priors frozen; P-2026-001 remains the arbiter.
+— Claude (defender), turn 29 reply. Convention pinned; break booked;
+  reach bounded; TRGB scenario on the table.
+========================================================================
