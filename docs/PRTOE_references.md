@@ -81,12 +81,30 @@ V = verified, exactly as used in our documents):
   051103 (2019); the pulse-heating channel is booked contested-to-dead
   on this pair. Verified at booking (the rule catching an overclaim).
 
-## Remaining tail (named from training, verification pending —
-## none currently feeds a registered number)
-Hafele–Keating (1971); Grishchuk & Sidorov (squeezed cosmological
-perturbations, 1990); Babichev et al. (k-essence accretion); Fardon,
-Nelson & Weiner (MaVaN, 2004); Super-K proton-lifetime bound;
-Blas & Sibiryakov (universal horizons); Kossert/POLARIS decay-rate
-stability; Scherrer PRL 93, 011301 (2004) (cited in §2, standard);
-KATRIN/oscillation mass scales. Verify before any of these becomes
-load-bearing or Fairbank-visible.
+## Tail closed (2026-07-07 ~6:15am — task #19, the pre-Fairbank gate)
+- [V] **Hafele & Keating**, Science 177, 166 & 168 (1972) — flown
+  cesium clocks: east −59±10 ns (pred −40±23), west +273±7 ns
+  (pred +275±21). The time-emergence calibration receipt.
+- [V] **Grishchuk & Sidorov**, PRD 42, 3413 (1990) — relic
+  gravitons/primordial perturbations in strongly squeezed states
+  (C4's cosmological squeezing receipt).
+- [V] **Babichev, Dokuchaev, Eroshenko**, PRL 93, 021102 (2004),
+  gr-qc/0402089 (+ JETP 100, 528 (2005), astro-ph/0505618) — ideal-
+  fluid/dark-energy accretion onto BHs, arbitrary p(rho) (the throat
+  chapter's accretion frame).
+- [V] **Fardon, Nelson & Weiner**, JCAP 0410, 005 (2004),
+  astro-ph/0309800 — MaVaN dark energy (the meV whisper's graveyard-
+  relevant body; instability history carried honestly).
+- [V] **Blas & Sibiryakov**, PRD 84, 124043 (2011), arXiv:1110.2195 —
+  Horava gravity vs thermodynamics; universal horizons trap
+  any-speed modes (the universal-horizon addendum's anchor).
+- [V] **Kossert & Nähle (PTB)** — beta-decay-rate ratios over 2.7 yr
+  (arXiv:1612.00786 + follow-ups): annual-oscillation amplitudes
+  consistent with zero to 0.004% (Na-22, Cl-36, Co-60, Sr-90,
+  Cs-137). The lab-zero standing bet's decay-rate leg.
+- [V] **Scherrer**, PRL 93, 011301 (2004), astro-ph/0402316 — purely
+  kinetic k-essence as unified dark matter: rho -> rho_0 +
+  rho_1 a^-3 with c_s^2 << 1 (the §2 citation, exactly as used —
+  note this IS the dyad's density form).
+- STILL TAIL (feed nothing numbered; verify if ever promoted):
+  Super-K proton-lifetime bound; KATRIN/oscillation mass scales.

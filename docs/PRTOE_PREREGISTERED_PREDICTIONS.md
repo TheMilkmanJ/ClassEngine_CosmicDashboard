@@ -481,6 +481,27 @@ H_inf <~ 1e10-11 GeV); the 86% is unmoved (tilt-universal). (4) Dense
 scan n=28: 86% +/-6.5%; cos2-prior robustness 84%. Remaining
 precondition on the odds: the h-convergence of P(f_amp).
 
+**UPDATE 3 (2026-07-07 ~6am) — the late-night restructuring (Room 1
+doc E7/E7a/E7b/E8/E8a/E8b; delivered to red team through turn 53,
+further items batched):** (1) KR BEAT CORRECTION (self-caught): the
+oscillation amplitude is sqrt(f_amp(2-f_amp)), not f_amp — physical
+silence requires f_rot > 0.98, priced at ~2.4% by the ergodic
+measure. (2) ERGODIC BACKBONE (operator's insight): P(f_rot) =
+microcanonical on the quartic shell, approx matches the dice;
+analytic endpoint P_inf(f_amp>0.2) ~ 78-80% (~4:1); release-memory
+mechanism observed (gap anti-tracks tilt). (3) E8b: the h=1000
+protocol row VIOLATES the pre-registered monotonic shrink (soft,
+~1sigma/cell); final rows decide the backbone. (4) E7a-CAVEAT: the
+PTA channel is BAND-BOTTOM-SENSITIVE and may be dead on both V2-fork
+branches (band fragments disagree: 1e-22 / 5e-22 / 1-3e-21); the
+morning band audit gates ALL PTA numbers. (5) The collision now has
+THREE correlated readouts of one eps: PTA beat (light-m-gated),
+granule power p^2+q^2 (any m), superradiance quench (heavy edge,
+CONFIRMED-QUENCH grade, possibly live with existing data on the
+DK-holds branch). The registration's spirit is unchanged: both
+directions still executable, now with the instruments named per
+mass branch.
+
 ---
 
 ## ANN-2026-009: Magnitude correction to ANN-2026-006(a), self-caught
