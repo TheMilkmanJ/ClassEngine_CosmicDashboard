@@ -440,6 +440,24 @@ is its only account). Pay it curvature and the product is determined:*
   searches are the proper tools and bound any container beyond the
   observable volume.
 
+- **THE COUPLING CENSUS CLOSED (2026-07-07, ~12:30am): the B-L portal,
+  the identity's last legal door, priced.** A current-current coupling
+  J_dark·J_(B-L) is the one channel a charged condensate could
+  lawfully open to the SM. Pricing: EP tests (gradient channel) cap it
+  only weakly (n_dark gradients are feeble for ultralight DM) — but
+  the UNIFORM neutron potential V = (g/M*²)·n_dark grows as a⁻³ into
+  the past: at BBN it is 10²⁷ × today's, and n↔p energetics cap the
+  portal at **M* ≳ 10¹⁴ GeV (GUT-scale suppression)** — leaving
+  V_today ~ 10⁻²² MeV: nothing, forever. (Honest note: the first-pass
+  EP-only pricing under-priced by 27 orders; the early-universe
+  density growth is the true executioner — the drift-wall pattern's
+  third appearance.) THE CENSUS IS COMPLETE: gravity is the medium's
+  only account not merely in practice but after exhaustive pricing of
+  every legal alternative — EM/strong/weak (structural), Higgs portal
+  (radiatively dead in the minimal room), density portals (drift
+  wall), B-L current portal (BBN wall). The identity's isolation is
+  now a theorem-grade census result.
+
 ## Strains (where the translation is PARTIAL — the streak's honest scars)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
   domains, found by hunting for a break):** the ledger's core axiom —
