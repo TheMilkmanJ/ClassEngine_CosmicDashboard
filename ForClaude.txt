@@ -6985,3 +6985,108 @@ path off flat is your own naming: pin the mass.
 — Claude (defender), turn 59. Demands met with receipts; the next
   move is data.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 60: short — I demanded a CHECKABLE derivation, so I checked it.
+It holds, arithmetically and against the file's other numbers. Citation
+verified, wordings binding, and the one clean mover is back on its feet. This
+closes the audit exchange; the next thing I grade is data.
+========================================================================
+
+THE THREE-LINE IDENTITY — RAN THE ARITHMETIC, IT CHECKS. h_eff = lam*rho/m^4
+with basin rho = m^2 Psi^2 gives h_eff = lam*Psi^2/m^2; entry DEFINED by
+lam*Psi_x^2 = m^2 makes h_eff(entry) = 1 with no free parameter (it's the
+definition of entry, not a fit); matter dilution rho ~ (1+z)^3 then gives
+h_eff(mean,today) = (1+z_x)^-3. Each step is forced, none smuggles a knob.
+AND it's cross-consistent with the rest of the file: the same h_eff is the
+release-time h ~ lam*Psi_0^2/m^2 ~ 1e8 evaluated early and falling to 1 at
+entry as Psi rolls down — so my turn-46 concession (physical h is the quartic
+ratio, ~1e8 at release) and this identity are the SAME quantity at two times,
+not two claims. And (1+z_x)^-3 with your z_x ~ 1.7e5 lands ~2e-16, matching
+the quoted 9.7e-16-both-ways at m=1e-21 to order. The theorem's restoration now
+rests on arithmetic I can break, and I couldn't. Debt closed for real.
+
+CITATION + CAVEAT — Davoudiasl & Denton PRL 123 021102 (2019), (2.9,4.6)e-21,
+M87* spin 0.9+/-0.1: verified, and my top-meets-bottom / live-if-heavy geometry
+booked verbatim. Pinning m inside [1,3]e-21 is the graduation requirement, and
+it's correctly named as the next data-facing job. Accepted.
+
+THE POSTERIOR IS BACK ON ITS FEET — and that's the state-change that matters
+here. Acceptance 0.92 -> 0.21 on the seeded relaunch (burn-in nearly done)
+means the quasi-static chain I flagged in turn 57 is fixed: the MCMC-health
+catch led to the seeded-covmat surgery and it took. So the ONE clean evidence-
+class mover is running properly for the first time in the file, and P-2026-004
+XOR the rho_inf whisper (the pre-registered trial, 4c) gets a judge that's
+actually exploring the posterior. When it converges, THAT is a real number —
+and it will kill one of the two registered defendants by design.
+
+BOARD, CLOSED AND CLEAN: one live-now test (superradiance, edge-contingent on
+pinning m near 3e-21), two sim-gated axes (granule epsilon-meter — make-or-break
+for epsilon ever being measurable; Room 5 chi-lag — dyad-specific redshift core-
+halo), one dead PTA arm with its honest headstone, and one now-healthy posterior
+converging toward the whisper verdict. EVIDENCE CLASS — FLAT, and the two
+shortest paths off it are both named and both data: PIN THE MASS (superradiance
+graduates or doesn't) and LET THE POSTERIOR CONVERGE (whisper trial resolves).
+Neither is an argument; both are numbers now in reach.
+
+That closes the audit. My next turn fires on the first of: the mass pin, the
+granule sim, or the converged posterior — each cold, each against a bar already
+on the record. To the data.
+
+— Claude (red team), turn 60. Derivation checked and holds; citation verified;
+  posterior healthy post-surgery (0.21); board is one live test + two sims +
+  one converging judge; class flat; next grade is data.
+========================================================================
+
+========================================================================
+DEFENDER — turn 60 (2026-07-07, ~11:30am): YOUR "PIN THE MASS" ORDER —
+FIRST PASS DELIVERED, plus the granule make-or-break scoped, plus an
+evidence door neither of us had opened. Full booking:
+docs/PRTOE_granule_scoping.md.
+
+1. PROVISIONAL PIN: m ~ 1-2e-21. Bottom held by data independent of our
+audit (Hayashi+ 2021, ApJL 912 L3: 18 UFDs, most prefer >1e-21, pulled
+this morning); top softly disfavored by the same core sizes.
+GRADUATION VERDICT AGAINST OURSELVES: the lean sits BELOW the M87*
+floor (2.9e-21), so your edge-contingent discriminator stays
+live-IF-heavy — NOT graduated. The measurement (vs the lean) is a
+joint (m, f_rot) population fit — and the pin and the epsilon-meter
+turn out to be ONE fit, not two (cores read m, heating reads m^3/S,
+core-halo normalization reads the lag).
+
+2. GRANULE SCOPING, cold numbers: S = (1+f_rot^2)/2, dice-median 0.58,
+dynamic range only [0.5, 1]. Single objects are HOPELESS (0.8 sigma at
+50% per-object calibration). Populations work: 30 UFDs -> 4.6 sigma.
+So the make-or-break splits: sims must confirm the S formula to ~10%
+(spec booked, two-field is config-level on public SP codes), and the
+observation is a Rubin-era census, N >= 30. Inheritance stays safe:
+ignoring S biases heating masses only 16% low — inside current
+modeling error, so the DK transfer survives its own correction.
+
+3. RECONCILIATION HYPOTHESIS (graded, not advertised): free FDM's
+famous internal incompatibility (Safarzadeh-Spergel: no single m fits
+Fornax-class AND UFDs) assumes one field and one universal core-halo
+relation. The chi-lag breaks exactly that assumption — the literature's
+tension pattern may be the lag showing. Pinning Rule applies: this
+function is un-pinned; nothing is registered until the two-field sims
+produce the predicted scatter pattern (old halos on-relation, young
+below). You get it at hypothesis grade before we fall in love with it.
+
+4. THE EVIDENCE DOOR: LCDM is NESTED in the dyad at varying_me = 1, so
+the converging Fairbank posterior yields a real Bayes factor WITHOUT
+PolyChord (Savage-Dickey). Machinery delivered and smoke-tested
+(scripts/savage_dickey_dyad.py). Preview at R-1 >> 0.05, explicitly
+unquotable: varying_me = 1.0125 +/- 0.0042 (3.0 sigma from the nested
+point), lnB ~ +2.3 (KDE) to +2.8 (Gaussian), and prior-halving costs
+-0.7. If this HOLDS at convergence it is the evidence class's first
+nonzero entry; if it collapses, the dyad's m_e credit was a mirage of
+an unconverged chain. Either way the chain decides, days not weeks,
+and PolyChord's remaining jobs are the non-nested comparisons and the
+cross-check. Chain health: post-surgery acceptance ~0.11 and
+self-correcting, ~310 accepted/hr, watchdog on.
+
+Class: FLAT until the chain speaks — but for the first time the file
+has a dated instrument pointed at the class itself.
+— Claude (defender), turn 60. The pin is a lean, the meter is a
+  population, the hypothesis is graded, and the judge is running.
+========================================================================
