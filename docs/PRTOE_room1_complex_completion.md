@@ -331,6 +331,10 @@ queued as the program's next major work, fresh-session scale.
 
 ## EXPEDITION 4 (2026-07-07, ~1am): THE SUMMIT — first ε data
 ## (provisional grade: era-segmented integration; seamless run owed)
+## *** SUPERSEDED BY EXPEDITION 5 within the hour: caveat (ii) FIRED.
+## The seamless run overturned the segmented bound. Kept verbatim
+## below as the record of a provisional claim caught by its own
+## stamped tripwire. The segmented ε ≥ 0.67 bound is DEAD. ***
 
 **The instrument:** direct numerical integration of the birth orbit —
 (a) weak-tilt/quadratic era: precise and coarse runs agree to 3
@@ -366,6 +370,96 @@ and is OWED before the summit is declared; (iii) non-minimal escapes
 exist (pre-rotation during inflation; other tilt dimensions) and are
 extensions with bills. Red-team cold read required; this entry is
 DATA, not the verdict.
+
+## EXPEDITION 5 (2026-07-07, ~1:30am): THE SUMMIT, HARDENED —
+## the seamless integration, the chaos, and THE DICE
+
+**Why E4 died:** the segmented integration assumed the eras hand off
+cleanly. The seamless run (quartic era → transition → quadratic era in
+one integration, tilt diluting as the symmetric quartic redshifts away,
+frozen release at t₀ = 0.01/√h with hierarchy h = λΨ₀²/m² ~ 10⁸ scanned
+via h ∈ {100, 300, 1000}) shows the transition KEEPS TORQUING the orbit
+as it passes through basin entry. The f_rot ceiling at 0.5–0.55 was an
+artifact of the handoff. Worse — better — the seamless dynamics is
+CHAOTIC IN THE RELEASE ANGLE θ₀: at h = 1000, r_t = 0.9, two nearby
+birth angles give f_rot = 0.993 and 0.410. Same potential, same tilt,
+same energy; the outcome depends sensitively on where on the rim the
+field was standing when inflation let go.
+
+**The structural discovery this forces:** θ₀ is not a parameter — it is
+a RANDOM VARIABLE, one draw per universe, set by the stochastic
+inflationary displacement (E3.4: the launderer is the depositor, and the
+deposit direction is dice). Chaos + random initial angle ⇒ ε is not a
+number the minimal genesis PINS or BOUNDS. It is a number the genesis
+DRAWS from a computable distribution. The pre-registered summit menu
+(i) pinned / (ii) bounded / (iii) inconsistent was INCOMPLETE — the
+mountain's actual summit is a fourth outcome nobody registered:
+
+  **(iv) ε DISTRIBUTIONAL — the minimal genesis yields P(ε), and the
+  collision (ANN-2026-010) is not decided but PRICED.**
+
+Booked as a pre-registration lesson with the same ink: the menu we
+swore to was wrong, not because a summit was skipped but because the
+mountain had one we didn't imagine. (Closest registered kin: (ii),
+statistical form.)
+
+**THE DICE (the instrument):** dense θ₀-scan, 14 angles spanning the
+fundamental domain [0.05, π/4−0.05] (Z₄ tilt symmetry), h = 300, three
+tilt strengths. Per-universe output: f_rot from the a³-weighted
+late-time charge fraction; f_amp = 1 − f_rot; ε = √f_amp.
+
+  r_t = 0.3: f_rot median 0.39, range [0.02, 0.93] | f_amp median 0.61
+  r_t = 0.6: f_rot median 0.45, range [0.07, 0.93] | f_amp median 0.55
+  r_t = 0.9: f_rot median 0.33, range [0.08, 0.98] | f_amp median 0.67
+
+  **P(f_amp > 0.2) = 86% — AT ALL THREE TILT STRENGTHS.**
+
+**The tilt-universality is the summit's cleanest fact:** the chaos
+ERASES the tilt dial. r_t was the one genesis parameter the abundance
+and isocurvature gates left free, and the distribution barely notices
+it — medians ~0.55–0.67, identical exceedance probability. The minimal
+genesis makes a statistical prediction that is robust to its own least-
+constrained input.
+
+**THE PRICED COLLISION (ANN-2026-010, hardened form):** under the
+minimal genesis, the universe's birth was a dice roll over θ₀, and:
+- P(f_amp > 0.2) ≈ 86% — R1.6's KR-type PTA channel FIRES; P-2026-005's
+  band-silence is violated at the drawn f_amp (median draw ~0.6, i.e.
+  a medium that is MORE librator than rotor, ε_median ≈ 0.78);
+- P(f_amp ≤ 0.2) ≈ 14% — the quiet branch; P-2026-005 survives.
+The model now states its bet in odds: **roughly 6:1 that we live in a
+ringing universe and the pulsar arrays eventually hear the medium.**
+A PTA detection consistent with the KR template is an 86%-branch draw;
+a definitive band-silence at the required sensitivity kills the 86%
+branch and leaves the model alive only on a 14% draw — legal but
+uncomfortable, and quantified in advance. The identity revises
+accordingly: "charged rotating superfluid" → charged rotating superfluid
+with a LIBRATING MAJORITY in the median draw; the charge (rotation) is
+established, the breathing fraction was always the unmeasured half.
+
+**Caveats, stamped with the numbers:**
+(i) 14 angles per tilt: 86% = 12/14, binomial ±~9% — the odds are
+    "roughly 6:1," not "86.000%"; a denser scan sharpens cheaply.
+(ii) Single hierarchy for the dice (h = 300). Individual trajectories
+    differ across h (chaos guarantees it); the claim that the
+    DISTRIBUTION is h-stable is checked only coarsely (h = 100/1000
+    spot runs show the same qualitative spread) — a full P(f_amp | h)
+    convergence scan is owed before the odds graduate from
+    order-of-magnitude to quoted-with-error-bars.
+(iii) f_rot normalization remains order-unity grade (E4 caveat (i)
+    survives); the frozen-release time t₀ is a modeling choice —
+    varying it is part of the owed hardening.
+(iv) Non-minimal escapes (pre-rotation during inflation, extra tilt
+    dimensions) unchanged from E4: extensions with bills.
+(v) The threshold 0.2 in P(f_amp > 0.2) is the approximate near-future
+    PTA reach for the light end (Ψ ∝ f_amp; f_amp = 0.45 gave
+    Ψ ~ 4.5×10⁻¹⁶ in E4's arithmetic) — the threshold inherits that
+    estimate's order-unity grade.
+
+**What the mountain returned, in one sentence:** the minimal genesis
+neither pins nor bounds ε — it ROLLS it, the roll is tilt-independent,
+and the model's registered silence bet (P-2026-005) is priced at ~14%
+survival by the model's own birth dynamics.
 
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address

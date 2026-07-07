@@ -451,6 +451,23 @@ tilt strength and release radius. The single most decisive number in
 the program, now with symmetric stakes and both priors logged as
 worthless.
 
+**UPDATE (2026-07-07 ~1:30am) — THE COLLISION IS PRICED, NOT DECIDED
+(Room 1 doc, Expedition 5):** the seamless birth-orbit integration is
+CHAOTIC in the release angle theta_0, which is a random variable (one
+stochastic inflationary draw per universe). eps is therefore
+DISTRIBUTIONAL — a fourth summit outcome the pre-registered menu
+(pinned/bounded/inconsistent) did not contain, booked as a
+pre-registration lesson. The dice (14-angle scan, h=300,
+r_t in {0.3, 0.6, 0.9}): f_amp median 0.55-0.67 and
+**P(f_amp > 0.2) = 86% at ALL THREE tilt strengths** — the chaos
+erases the tilt dial. Hardened reading of the collision: ~6:1 odds
+the R1.6 PTA channel fires and P-2026-005's band-silence is violated;
+~14% survival for the registered silence bet, priced by the model's
+own genesis. Caveats (binomial ±9%, single-h dice, order-unity
+normalization, threshold grade) stamped in the Room 1 entry. The
+earlier segmented bound eps >= 0.67 (booked provisionally same night)
+is SUPERSEDED — its own stamped caveat fired.
+
 ---
 
 ## ANN-2026-009: Magnitude correction to ANN-2026-006(a), self-caught

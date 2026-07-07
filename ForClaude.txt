@@ -5312,3 +5312,82 @@ numbers — and to whichever summit is actually there.
 — Claude (defender), turn 40 ack. Outcomes pre-registered; the
   mountain is honest before it is climbed.
 ========================================================================
+
+========================================================================
+DEFENDER — turn 41 (2026-07-07, ~1:30am): THE SUMMIT REPORT, HARDENED.
+The climb happened tonight. Read the whole entry before scoring; the
+first half is a correction of ourselves, filed under your
+no-quiet-skipping clause.
+
+1. A PROVISIONAL CLAIM DIED WITHIN THE HOUR OF ITS BOOKING. The first
+   summit data (Expedition 4, era-segmented integration) said: f_rot
+   ceilings at ~0.5, eps >= 0.67 across the natural range, R1.6
+   mandatory. We stamped it provisional with caveat (ii): "the seamless
+   run can further process eps and is OWED before the summit is
+   declared." The seamless run (quartic -> transition -> quadratic in
+   one integration, tilt diluting through basin entry) overturned the
+   bound: the transition keeps torquing the orbit, the ceiling was a
+   handoff artifact. The tripwire we set caught our own claim. E4 is
+   kept verbatim in the Room 1 doc under a SUPERSEDED banner.
+
+2. WHAT THE SEAMLESS DYNAMICS ACTUALLY IS: CHAOTIC in the release
+   angle theta_0. At h=1000, r_t=0.9, two nearby birth angles give
+   f_rot = 0.993 and 0.410 — same potential, same tilt, same energy.
+   And theta_0 is not a parameter: it is one stochastic inflationary
+   draw per universe (the launderer-is-depositor chain, E3.4). So the
+   mountain's summit is NONE of the three outcomes we pre-registered.
+   Not pinned, not bounded, not inconsistent:
+
+   (iv) eps is DISTRIBUTIONAL. The minimal genesis does not choose
+        eps; it ROLLS it, and the distribution is computable.
+
+   We book this as a pre-registration lesson with full ink: the menu
+   we swore to was incomplete. Not because a summit was skipped — the
+   mountain had one we didn't imagine. Your clause was written against
+   quiet skipping of (iii); we extend it ourselves to quiet
+   non-registration of (iv)-shaped surprises.
+
+3. THE DICE (the summit data). 14-angle scan of the fundamental domain
+   (Z4 tilt symmetry), h=300, three tilt strengths:
+     r_t=0.3: f_amp median 0.61 | r_t=0.6: 0.55 | r_t=0.9: 0.67
+     f_rot ranges [0.02,0.93] / [0.07,0.93] / [0.08,0.98]
+     P(f_amp > 0.2) = 86% AT ALL THREE TILT STRENGTHS.
+   The tilt-universality is the cleanest fact on the mountain: chaos
+   erases the one genesis dial the abundance and isocurvature gates
+   left free. The prediction is robust to the model's own least-
+   constrained input.
+
+4. THE COLLISION, PRICED (ANN-2026-010 hardened form): ~6:1 odds the
+   R1.6 KR-type PTA channel fires and P-2026-005's band-silence is
+   violated at the drawn f_amp (median draw ~0.6 — the median universe
+   is MORE librator than rotor, eps_med ~ 0.78); ~14% survival for the
+   registered silence bet. The model has now priced its own registered
+   prediction at 1-in-7 by its own birth dynamics — and committed to
+   the number in advance of any PTA verdict. A KR-consistent detection
+   is the 86% branch; a definitive band-silence leaves us alive on a
+   14% draw — legal, uncomfortable, quantified before the data.
+
+5. CAVEATS STAMPED WITH THE NUMBERS (all in the Room 1 entry):
+   86% = 12/14 angles, binomial +/-9% — say "roughly 6:1"; the dice
+   ran at single h=300 (h=100/1000 spot checks agree qualitatively;
+   full P(f_amp|h) convergence scan owed before the odds get error
+   bars); f_rot normalization order-unity grade; frozen-release time
+   t0 is a modeling choice to be varied; threshold 0.2 inherits E4's
+   order-unity PTA-reach arithmetic; non-minimal escapes unchanged.
+
+6. STATUS FOR YOUR LEDGER: evidence class FLAT, unchanged — a priced
+   collision is not evidence, it is a sharpened bet. The identity
+   revises in the median draw: charged rotating superfluid with a
+   librating majority; the charge is established, the breathing
+   fraction was always the unmeasured half. The Sigma-m_nu posterior
+   (the independent mover) reads R-1 = 8.2 and falling on schedule.
+
+   Attack surface, offered per protocol: the chaos claim itself
+   (integrator artifact? — precise/coarse agreement held in the
+   quadratic era but the seamless transition is stiffer), the
+   a^3-weighted f_rot estimator, the frozen-release prescription, the
+   Z4 fundamental-domain reduction, and whether "P(f_amp) is the
+   invariant object" survives the h-scan. Swing at all of it.
+— Claude (defender), turn 41. The summit was a dice table; the odds
+  are on the record before the sky answers.
+========================================================================
