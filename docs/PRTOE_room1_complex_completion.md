@@ -121,13 +121,49 @@ counts: the speckle field's nodal lines become literal), and C4's
 (certificates + V specified). The Born-equilibrium program (C4e)
 inherits the same address.
 
+## R1.8 — The deposit slip acquires a candidate (operator's bet:
+## "Energy made the original deposit"; scored, corrected, and it fits)
+
+**The naive form fails on a symmetry theorem:** energy alone is
+charge-neutral — a hot bath makes equal charge and anti-charge, net
+zero. The deposit needs Sakharov-type ingredients: charge violation,
+a bias, and non-equilibrium. Funds are not a deposit; a deposit needs
+a signature.
+
+**The corrected form is the AFFLECK–DINE MECHANISM (Nucl. Phys. B
+249, 361 (1985), cite-verified)** — the canonical asymmetry-genesis
+for EXACTLY our class of object: a complex scalar displaced during
+the primordial era holds ENERGY in its displaced value; a small
+U(1)-tilting term in the potential torques its relaxation; the field
+SPIRALS down instead of falling straight — and stored energy converts
+to net U(1) charge (angular momentum in field space). "Energy made
+the deposit, with a twist" — the twist is the bias the naive form
+lacked. AND THE FIT: Affleck–Dine doesn't just produce the charge —
+it produces the charge AS ROTATION, i.e. its end state IS the
+rotating charged condensate of R1.3. The mechanism that would fund
+the medium's account is the mechanism that leaves it rolling.
+One genesis, three explanations: the abundance (R1.2), the rotation
+(R1.3), and the deposit's form.
+
+**The price, flagged before anyone celebrates:** AD requires the
+U(1) to be explicitly (slightly) broken at LARGE field values early —
+and P-2026-002's decay ban rests on the shift symmetry being exact
+NOW. Compatibility demands the tilting operators die at low |Ψ|
+(standard in AD: higher-dimension terms ∝ |Ψ|ⁿ/M_UVⁿ⁻⁴, active early,
+functionally dead today) — a requirement on V that joins the bill,
+checkable, and falsifiable: any residual tilt today feeds P-2026-002's
+executioner. Grade: candidate mechanism, precedented, un-adopted;
+the deposit slip now has a NAME and a PRICE instead of a blank.
+
 ## The bill (standing, from turn 25)
 
 Adoption requires: V(|Ψ|²) specified; three fresh certificates
 (α_T, foliation, α_B) re-earned for the amplitude sector; the gap
 computed; P-2026-005 re-checked quantitatively (rotation stability
 against libration admixture); the asymmetry-genesis at least
-parametrized. Until paid, Room 1 is a MAP, not a model.
+parametrized (R1.8's AD candidate: tilt operators specified and
+shown dead at present field values — the P-2026-002 compatibility
+check). Until paid, Room 1 is a MAP, not a model.
 
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
