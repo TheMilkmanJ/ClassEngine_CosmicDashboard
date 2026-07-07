@@ -362,6 +362,29 @@ is its only account). Pay it curvature and the product is determined:*
   problem, and no substance fixes arithmetic. Planck-scale bounce
   speculation (Rovelli-class) noted as beyond-EFT footnote.
 
+- **Wormholes (same night, the contrast verdict):** where the white
+  hole failed BOOKKEEPING, the wormhole fails PROCUREMENT — legal
+  books, denied credit. Non-traversable Einstein–Rosen bridges are
+  paper geometry (they pinch off faster than light crosses; collapsed
+  stars don't build the far side). TRAVERSABLE throats (Morris–Thorne)
+  require NEC violation — sustained negative energy — i.e. a
+  PERMANENT OVERDRAFT. The bank's one negative-energy counter
+  (Casimir, booked calibration) lends only in whispers and under the
+  QUANTUM INTEREST CONJECTURE (Ford & Roman, PRD 60, 104018 (1999),
+  cite-verified — physics' own banking language: every negative pulse
+  repaid fast, with overcompensating interest growing with the
+  loan's duration). A human-traversable throat needs ~negative
+  planetary masses held open indefinitely: the loan is denied by
+  theorem-grade credit policy. Our medium cannot co-sign: NEC-
+  saturating at the floor (w ≥ −1 in the basin; the funded floor's
+  1e-8 effective phantom is a cosmic average, not throat collateral).
+  And the back door is welded: a financed wormhole converts to a time
+  machine (Morris–Thorne–Yurtsever), which the khronon's global clock
+  forbids structurally (C1e) — the operator's "no way to invert time"
+  call closes both exits. VERDICT: white hole = illegal books;
+  wormhole = legal books, uncreditworthy; time machine = forbidden
+  regardless of financing.
+
 ## Strains (where the translation is PARTIAL — the streak's honest scars)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
   domains, found by hunting for a break):** the ledger's core axiom —
