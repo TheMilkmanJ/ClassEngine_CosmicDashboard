@@ -267,6 +267,26 @@ one AD-dynamics computation (ε vs tilt strength): model-dependent,
 bounded, and generic AD gives ε not tiny — the mover leans cannon,
 pending the orbit calculation.
 
+**E3.4 — THE GENESIS CHAIN (operator's bet: "answer how to charge a
+superfluid and you find the depositor" — landed):** the chain is
+(1) DISPLACE: inflation's stochastic de Sitter kicks ratchet the
+light complex field to large radius — the launderer of the first
+ledger accidentally loads the escrow; (2) TILT: U(1)-breaking
+operators torque at large |Ψ|; (3) RELEASE: post-inflation spiral
+converts stored energy to rotation = the charge. **The launderer and
+the depositor are the same agent, writing with quantum noise as the
+pen** — the medium's bank balance and the universe's structure share
+one parent (amplified vacuum fluctuations). The fee: reheating's
+entropy (~10⁸⁸⁻⁹⁰) — the first ledger was laundered at the price of
+all subsequent disorder. RECURSION WALL, kept visible: inflation
+itself needs a low-entropy patch (the past hypothesis moves up one
+floor; who audits the auditor). UNIFICATION OF THE MOUNTAINS: the
+genesis computation (AD dynamics + inflationary initial conditions
+in our V) yields the ABUNDANCE (deposit slip, R1.2/R1.8) and ε
+(the collision number, ANN-2026-010) in ONE calculation — the two
+pending mountains are one mountain, and it is the program's next
+great climb.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
