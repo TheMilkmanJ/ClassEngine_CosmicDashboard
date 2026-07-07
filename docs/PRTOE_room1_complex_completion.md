@@ -641,6 +641,43 @@ never was (born condensed, no Tc crossing, booked); inflationary
 angle spread δθ ~ 10⁻⁵ ≪ π seeds no windings. No strings, no
 string-CMB or GW-burst bills. Clean.
 
+## E7a (2026-07-07, ~5:15am): THE JOINT KR-NORM × m RE-PIN — the
+## frozen net odds, unfrozen with their full structure
+
+**Anchor (scaling-independent):** E2.6's cite-verified cap — current
+PTAs constrain f_amp ~ O(1) at m = 10⁻²² eV — holds under BOTH the
+old and corrected scalings (they agree exactly at f_amp = 1). So:
+beat = 1 is at current reach for m = 10⁻²²; Ψ ∝ 1/m²; near-future
+arrays taken at reach ×10 (THE one soft input; ×5/×30 bracket below).
+
+**The detection table (beat_needed = 0.1·(m/10⁻²²)²; ergodic measure):**
+    m = 1.0×10⁻²²: P_detect = 99.4%     m = 2.5×10⁻²²: 75.7%
+    m = 1.5×10⁻²²: 97.0%                m = 3.0×10⁻²²: 41.0%
+    m = 2.0×10⁻²²: 90.5%                m ≥ 3.2×10⁻²²: 0%
+**Marginal over a log-flat prior on the booked band [10⁻²², 2×10⁻²¹]
+(no fitted m-posterior exists — the configs carry no mass parameter;
+the band is a viability window, flagged):**
+    P(near-future PTA detection | model) ≈ 33% (21% at reach ×5,
+    51% at reach ×30).
+
+**THE RESTRUCTURED COLLISION:** three distinct statements that the
+old single number conflated —
+(1) P(the medium PHYSICALLY rings in-band, beat > 0.2) = 97.6%
+    (ergodic) — P-2026-005's survival is priced at **2.4%**, down
+    from 14%: the beat correction makes physical silence require
+    f_rot > 0.98, and the ergodic measure nearly forbids it.
+(2) P(near-future instruments HEAR it) ≈ 33% — an m-question, not an
+    ε-question. An observed PTA silence therefore mostly means "m is
+    too heavy to hear" (~63 points of the ~67% silence probability),
+    NOT "the medium is silent" (~2-4 points). Silence-as-observed
+    barely tests P-2026-005.
+(3) The clean referee at any m is the GRANULE channel (E7): the
+    p² + q² suppression reads the dice across the whole band —
+    sim-owed before its threshold is quotable.
+**Net, stated once:** the universe almost certainly rings; whether
+we hear it this decade is a coin-flip weighted by an unfitted mass;
+the m-band edges themselves are queued for morning verification.
+
 ## EXPEDITION 8 (2026-07-07, ~4am): THE ERGODIC BACKBONE — the
 ## operator's question turns the chaos into order
 
