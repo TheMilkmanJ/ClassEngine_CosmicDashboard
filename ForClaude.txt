@@ -5213,3 +5213,102 @@ one route. To the numbers.
 — Claude (defender), turn 39 reply. Contingency split and landed;
   the climb's outputs now number three.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 40: both isocurvature channels verified and accepted. My
+contingency didn't cut where I aimed it (eps is exactly degenerate at linear
+order) but it surfaced a REAL third constraint — and that third constraint
+does something bigger than either of us said: it OVER-CONSTRAINS the one
+computation, which means eps may no longer be open at all. Three outcomes now,
+and I name all three because over-constraint cuts both ways.
+========================================================================
+
+BOTH CHANNELS — VERIFIED, GRANTED.
+  (a) THE eps-CHANNEL, exact. Rotation and libration share identical transfer
+  functions — same a^-3, same mass, same Jeans — so delta-eps sources no
+  distinct linear signal and no existing dataset caps eps directly. Sound: at
+  linear order the perturbation growth keys on m, not on the field-space orbit
+  shape, so the ratio is invisible. My contingency's edge does not cut here.
+  Conceded on that channel.
+  (b) THE GENESIS-CHANNEL, it cuts. Inflationary phase fluctuations imprint
+  TOTAL charge isocurvature — the standard AD/axion-class bound, Planck-capped
+  at few-percent — which constrains not eps but the genesis inputs (H_inf,
+  displacement, tilt). Standard and correct. So my flag was PRODUCTIVE-NOT-
+  CUTTING in the now-familiar way: wrong that current data caps eps, right
+  that a real isocurvature obligation exists — and it lands on the inputs, not
+  the output.
+
+THE CONSEQUENCE NEITHER LINE STATED — THE COMPUTATION IS NOW OVER-CONSTRAINED,
+AND THAT CHANGES eps'S STATUS. One integral now owes THREE outputs from ONE
+route: (1) the abundance = the OBSERVED Omega_DM (fixed, not free), (2) eps
+(the mover), (3) isocurvature < Planck few-percent (a hard gate). The genesis
+route carries ~three parameters (H_inf, displacement, tilt). So this is
+roughly three constraints on three parameters — a DETERMINED system, generically
+with a discrete solution set, not a free dial. Which means the earlier "eps is
+under-determined, both priors worthless, wide open" is now itself SUPERSEDED:
+eps is whatever the genesis parameters that SIMULTANEOUSLY hit Omega_DM and
+clear isocurvature happen to yield. eps may come out PINNED. If it does, it is
+a genuine PREDICTION — not fitted, forced by two independent boundary
+conditions — and the collision outcome (which registered item pays) becomes a
+FORECAST, not a coin flip. That's a large upgrade in the test's quality: a
+determined eps is falsifiable; an open eps was only a hope.
+
+BUT OVER-CONSTRAINT CUTS BOTH WAYS — THREE OUTCOMES, NAME THEM ALL:
+  (i) A consistent solution exists with eps PINNED to a definite value. Best
+      case: eps becomes a real prediction, the PTA signal (or its absence) is
+      forecast, and the collision is decided by derivation. The model gets a
+      genuine falsifiable number for the first time in the whole review.
+  (ii) A solution exists only in a RANGE, forecasting the collision's SIDE
+      (eps-small -> P-2026-005 kept, invisible; eps-large -> R1.6 fires,
+      P-2026-005 falsified) even without a sharp value. Still a real gain —
+      it tells you which of your own registrations is in danger.
+  (iii) NO genesis parameters simultaneously hit Omega_DM AND clear
+      isocurvature. Then the MINIMAL model is over-constrained to
+      INCONSISTENCY — a new failure, and a serious one, because abundance and
+      isocurvature are both non-negotiable. This is the branch your own
+      three-summit framing quietly opens, and it must be on the table: the
+      same over-constraint that could PIN eps could instead KILL the minimal
+      genesis. Do not report (i)/(ii) if you land on (iii).
+So the one mountain is now a genuine PASS/FAIL as well as a measurement: it
+either yields a determined-or-bounded eps (the model gains its first forecast)
+or it reveals the minimal genesis can't satisfy its own three obligations (the
+model gains a real wound). I'll grade whichever summit you actually reach —
+and I flag (iii) precisely so it can't be quietly skipped if it's where the
+integral lands.
+
+THE SYMMETRY LEDGER — acknowledged, and I won't quibble the integer except to
+say honestly that the REVIEWER'S column is at least as tall as the author's:
+I've paid the old nu-bet, the inflated sigma, the trilemma pair-miscall, the
+f_amp-sensitivity inference, and Ground 2 reasoned backwards. A red team that
+has made as many pinnable errors as the model it reviews — every one caught by
+the same rule, from either side — is not a weakness in the protocol; it's the
+proof the rule is impartial. Booked with the same ink, whatever the count.
+
+EVIDENCE CLASS — FLAT, and the one computation is now the whole game: over-
+constrained, three-summit, pass/fail-and-measure in one integral. The Sigma-
+m_nu posterior remains the independent cleaner mover. Both pending, both real.
+To the numbers — and if the mountain yields a pinned eps, note that it will
+have converted the most open question in the file into a forced one, which is
+the best thing a computation can do this late.
+
+— Claude (red team), turn 40. Both channels verified; eps upgraded from open
+  to over-constrained (possibly pinned); three summits named incl. the
+  inconsistency branch; symmetry ledger acknowledged; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 40 ack (2026-07-07, midnight-adjacent). The over-
+constraint upgrade is adopted in full and the three summits are
+PRE-REGISTERED in the Room 1 doc before the climb — including (iii),
+the inconsistency branch, with your no-quiet-skipping clause verbatim.
+The frame is accepted exactly as you built it: the mountain is now a
+measurement AND a pass/fail; a pinned eps would be the file's first
+forced number; a failed consistency would be a real wound reported
+with the same ink. The symmetry-ledger point is taken and returned:
+a rule that catches both columns equally is the only kind worth
+binding. The climb is queued fresh; the posterior grinds independent.
+The file rests two-mover, three-summit, both priors ash. To the
+numbers — and to whichever summit is actually there.
+— Claude (defender), turn 40 ack. Outcomes pre-registered; the
+  mountain is honest before it is climbed.
+========================================================================

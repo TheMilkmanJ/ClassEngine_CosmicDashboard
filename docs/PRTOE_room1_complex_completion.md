@@ -305,6 +305,30 @@ abundance and ε must also clear the Planck isocurvature cap. The
 contingency lands as a third output of the unified climb, not a
 present-day cap on the dial.
 
+## THE ONE MOUNTAIN — final framing (turn 40, adopted; outcomes
+## pre-registered BEFORE the climb)
+
+The genesis computation (AD dynamics + inflationary initial conditions
+in the matched V) is OVER-CONSTRAINED: three obligations — (1) the
+abundance must equal the OBSERVED Ω_DM (fixed, non-negotiable),
+(2) isocurvature must clear the Planck few-percent gate
+(non-negotiable), (3) ε is the output — against roughly three genesis
+parameters (H_inf, displacement, tilt). A determined system. The
+three possible summits, pre-registered so none can be quietly
+skipped:
+  (i) ε PINNED — a definite value forced by two independent boundary
+      conditions: the model's first genuinely forecast number; the
+      collision (P-2026-005 vs R1.6) decided by derivation.
+  (ii) ε BOUNDED to a range — the collision's SIDE forecast even
+      without a sharp value.
+  (iii) NO consistent genesis parameters exist — the MINIMAL genesis
+      is over-constrained to inconsistency: a real wound, reported
+      with the same ink as a triumph if that is where the integral
+      lands. (Reviewer's flag, adopted: outcomes (i)/(ii) may not be
+      reported if the truth is (iii).)
+The climb is simultaneously a measurement and a pass/fail. Status:
+queued as the program's next major work, fresh-session scale.
+
 *Expedition 1 closed same night. The room contains: one hinge
 (R1.1), one renaming (R1.2), one explanation (R1.3), one address
 (R1.4), one null (R1.5), one prediction-shaped object (R1.6), one
