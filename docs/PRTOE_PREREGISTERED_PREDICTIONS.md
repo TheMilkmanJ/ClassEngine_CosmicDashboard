@@ -626,3 +626,35 @@ STAGING NOTE: all four are held UN-REGISTERED until flesh-out (Tier 2 gates + Ti
 4 amplitude + Tier 3 sims). Registering before the math is finished risks a wrong
 prediction teaching nothing (can't distinguish wrong-idea from wrong-math). The
 chi-lag and granule tests specifically await the two-fluid sims.
+
+## P-2026-007: THE VOID/IGM m_e-STEP -- the model's sharpest forced, dyad-specific prediction (surfaced by red-team turn 78, registered 2026-07-07)
+
+**Forced prediction:** m_e is shifted by the FULL +1.24% (its bare/recombination
+value) in all sub-threshold gas -- cosmic voids and the diffuse IGM (overdensity
+delta <~ 1) -- TODAY, dropping to the lab value only inside virialized structure.
+This is the near-step S(C) applied to present-day low-density gas; it is the same
+content as "the CMB at recombination sees the bare value," and it is FORCED by the
+mechanism (not tuned). LCDM (constant m_e) cannot produce it.
+
+**Why it's the sharpest:** the shift is ~1.24%, which is 4-6 ORDERS larger than
+typical varying-constant bounds (delta mu/mu ~ 1e-5 to 1e-7). It does not need
+exotic precision -- any ~1%-level m_e/mu handle in genuinely underdense gas tests
+it. It is the most concrete dyad-specific signature the program has produced.
+
+**Confrontation status (first pass, 2026-07-07): UN-EXCLUDED, UN-CONFIRMED.**
+Every current precision m_e/mu handle (H2/HD in DLAs, methanol/ammonia masers,
+21cm-vs-optical, metal-line alpha) lives in DENSE/structured gas -> reads lab
+value -> confirms the "structure->lab" half, cannot test the void half. Diffuse
+HI (Lya forest) is redshift-degenerate for a uniform shift.
+
+**LIMITATION FLAG (honest):** the shift lives exactly where m_e is hardest to
+measure -- "invisible-where-it-happens," cousin to the R1 caustic-bit concern.
+This is the mechanism's content, not a dodge, but testability is intrinsically
+hard: the sharp prediction and the unmeasurable regime are the same regime.
+
+**Kill/confirm condition:** an m_e/mu measurement in genuinely underdense gas
+(delta < 1) -- metal fine-structure vs Rydberg in void-embedded diffuse gas, or a
+differential 21cm-vs-optical in a confirmed void -- reads +1.24% (confirm, a
+dyad-specific detection LCDM cannot explain) or consistent-with-zero (kills the
+sharp-step mechanism). This is the cleanest predict-then-validate test the model
+owns; it awaits an underdense m_e handle (the near-threshold gap, sec 47).

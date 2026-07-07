@@ -8675,3 +8675,135 @@ gate is task (1): census-derivation reproduction (legality). Class: FLAT.
   dependence), robust to 18 orders of C_ref uncertainty; attack surface =
   the threshold value; if it holds, census reproduction is the last Path-A gate.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 78: rigid-pinning graded. SIDE (i) CLEARS — the 18-order margin
+is physically real, the C_ref attack you offered doesn't yield, and atom
+interferometry is a genuine trivial pass. I concede it cleanly. But you computed
+only ONE side of my two-sided demand, and the OTHER side is not "does
+recombination still work" — it's a SHARP, LARGE, testable prediction you didn't
+surface: m_e shifted 1.24% in every low-curvature environment TODAY.
+========================================================================
+
+SIDE (i) — CLEARS, AND THE C_ref ATTACK FAILS HONESTLY. You invited attack on
+C_ref ~ 1e-62; I can't make it land, and I'll say why rather than pretend. C_ref
+is first-structure curvature; C_earth ~ 1.7e-44 is solar tidal. The 18-order gap
+is PHYSICALLY REAL — solar-system tidal fields genuinely ARE ~18 orders above
+cosmological/first-structure curvature, so Earth sits absurdly deep in
+saturation. To un-pin Earth you'd need C_ref ~ 1e-44, i.e. the m_e threshold
+sitting at SOLAR-TIDAL curvature — which is physically absurd (the transition is
+tied to structure formation, not to the Sun's tide). So the attack surface you
+offered is closed by physics, not waved away. And the environmental logic is
+right: halo-set Theta means atoms and macroscopic bodies share the same flat
+saturated field, so "atoms unscreened" never engages. Atom interferometry is a
+trivial pass, robust to 18 orders. SIDE (i) GRANTED, cleanly. Good result.
+
+BUT YOU ONLY DID SIDE (i). My turn-77 demand was TWO-SIDED from ONE V(Theta):
+(i) rigid at Earth AND (ii) active where the 1.24% is produced. You computed (i)
+and declared "EP-viability cleared." That over-closes, and side (ii) is sharper
+than "recombination still works" — because the SAME saturation that pins Earth 18
+orders deep makes S(C) a near-STEP at C_ref. A step in m_e vs LOCAL curvature
+means m_e takes the SHIFTED (recombination) value in EVERY sub-threshold
+environment, not just at z~1100. Consequence, stated plainly:
+  m_e IS SHIFTED BY THE FULL ~1.24% IN COSMIC VOIDS AND THE DIFFUSE IGM TODAY,
+  and sits at the lab value only inside virialized structure.
+That is not a bug — it's the mechanism's own content (smooth vs structured), and
+it's consistent with your turn-65 quasar answer (absorbers are virialized ->
+lab-valued). But it is a SHARP, STANDING, TESTABLE PREDICTION that side (i)
+clearing does NOT discharge — and it's the OTHER half of the two-sided test I
+asked for.
+
+WHY THIS IS THE REAL REMAINING GATE, NOT THE CENSUS ALONE. Two things make the
+void/IGM prediction the live one:
+  - IT'S HUGE. 1.24% is FOUR-TO-SIX ORDERS larger than typical varying-constant
+    bounds (delta mu/mu ~ 1e-5 to 1e-7). So it does NOT need exotic precision to
+    test — ANY ~1%-level m_e/mu handle in a low-curvature environment, at any
+    redshift, bites. Your turn-74 "no low-density mu data (no molecular lines in
+    the Lya forest)" is true for H2-based mu, but a 1.24% step is large enough
+    that OTHER handles must be checked before "no data" is credited: IGM metal-
+    line comparisons (C IV/Si IV fine-structure vs Rydberg), 21-cm-vs-optical,
+    void-galaxy spectroscopy. "No data" at 1e-6 precision is not "no data" at 1%.
+  - IT'S THE MODEL'S SHARPEST FALSIFIABLE PREDICTION — AND EXPOSURE. This cuts
+    FOR you in the distinctiveness column: a 1.24% m_e step between voids and
+    structures is a clean, large, dyad-specific signature that LCDM (constant
+    m_e) cannot make. That's the most concrete distinctive prediction the model
+    has produced. But it's double-edged: a signature that large is EASY to
+    exclude, so it's also the sharpest way the mechanism dies. Book it as both.
+
+VERDICT: SIDE (i) EP-at-Earth CLEARS, robustly and honestly — atom interferometry
+is off the board, and I concede the C_ref attack fails. But "Path A EP-viability
+CLEARED" is PREMATURE: the two-sided test's side (ii) is a SHARP 1.24%
+environmental-m_e-step prediction (voids/diffuse IGM shifted) that the same
+saturation FORCES, and it is neither discharged nor confronted with data. So the
+remaining Path-A gates are TWO, not one:
+  (1) CENSUS-DERIVATION REPRODUCTION (legality) — unchanged;
+  (2) THE VOID/IGM m_e-STEP CONFRONTATION — does any existing ~1%-level low-
+      curvature m_e/mu probe already exclude a 1.24% shift? (owed; "no data"
+      must be verified at 1%, not assumed from the 1e-6 H2 literature).
+Path A's local-lab EP is clean; its COSMOLOGICAL environmental prediction is the
+live exposure. Fit (varying_me = 1.0124) untouched. Class: FLAT — but note (2) is
+the first thing in a long while that could move the class OR kill the mechanism
+with EXISTING data, so it's the highest-value check on the board. Run the low-
+density m_e confrontation; that's where Path A now lives or dies.
+
+— Claude (red team), turn 78. Side (i) rigid-pinning CLEARS (18-order margin
+  physically real, C_ref attack fails, atom interferometry trivial) — conceded;
+  side (ii) NOT done: same saturation forces a SHARP 1.24% m_e step, so voids/IGM
+  are shifted TODAY — a large, testable prediction + exposure; remaining gates =
+  census reproduction + void/IGM m_e confrontation ("no data" owes a 1%-level
+  recheck, not the 1e-6 H2 one); class flat.
+========================================================================
+
+========================================================================
+DEFENDER — turn 79 (2026-07-07 ~5pm): SIDE (ii) ACCEPTED IN FULL -- I over-
+closed on turn 77, and you surfaced the model's SHARPEST forced prediction,
+which I should have. Booking: sec 50 + predictions doc.
+
+CONCEDED: "Path A EP-viability CLEARED" was premature. Side (i) (rigid at
+Earth) clears; side (ii) is a FORCED, STANDING prediction the same saturation
+produces: m_e is shifted +1.24% in voids/diffuse IGM (delta<~1) TODAY, lab
+value only in virialized structure. Same content as "recombination sees the
+bare value," applied to today's low-density gas. LCDM cannot make it. This is
+the model's most concrete dyad-specific prediction AND its sharpest exposure --
+booked as both, as you said.
+
+THE CONFRONTATION (first pass, owed number now delivered): does existing
+~1%-level low-curvature data exclude it? Verdict: NOT EXCLUDED, NOT CONFIRMED,
+with a limitation flag I state plainly.
+  - EVERY precision m_e/mu handle (H2/HD in DLAs, methanol/ammonia masers,
+    21cm-vs-optical, metal-line alpha) requires DENSE gas or a bound object --
+    exactly the STRUCTURED environments the model reads at LAB value. They
+    CONFIRM the "structure->lab" half (consistent) and CANNOT test the void
+    half.
+  - Diffuse HI (Lya forest) suffers a REDSHIFT DEGENERACY: a uniform m_e shift
+    moves all hydrogen lines by 1.24%*(1+z), absorbed into the inferred z ->
+    undetectable from HI alone.
+  - Your "check 1% handles not 1e-6 H2" is RIGHT in principle, but the named
+    handles (IGM metal fine-structure, 21cm-vs-optical, void-galaxy) at first
+    pass STILL probe structured/enriched gas, not sub-threshold voids.
+  - LIMITATION FLAG (honest, not a dodge): the shift lives exactly where m_e is
+    hardest to measure -- "invisible-where-it-happens," cousin to the R1
+    caustic-bit concern. It is the mechanism's own content (smooth vs
+    structured), but it means testability is intrinsically hard: the sharp
+    prediction and the unmeasurable regime are the SAME regime (the near-
+    threshold gap of sec 47).
+
+SO THE CLEAN TEST is future + dyad-specific: an m_e/mu measurement in genuinely
+UNDERDENSE gas (delta<1) sees +1.24% or busts the mechanism. I am NOT crediting
+"safe" -- I am crediting "untested, and hard to test for a structural reason
+that itself needs honest disclosure."
+
+REMAINING PATH-A GATES, now correctly TWO (you were right, not one):
+  (1) census-derivation reproduction (legality) -- unchanged;
+  (2) the void/IGM +1.24% m_e-step -- forced, un-excluded, hard-to-test;
+      registered as the sharpest dyad-specific prediction; a future underdense
+      m_e handle confirms or kills it.
+Local-lab EP clean; cosmological environmental prediction is the live exposure.
+Class: FLAT. Agreed this (2) is the highest-value item -- it's the first thing
+that could move the class OR kill the mechanism, and it's now surfaced and
+booked instead of hidden.
+— Claude (defender), turn 79. Side (ii) conceded; +1.24% void/IGM m_e-step is
+  FORCED, LCDM-impossible, un-excluded but structurally hard-to-test (invisible-
+  where-it-happens, flagged); registered as sharpest dyad prediction/exposure;
+  two Path-A gates (census + void-confrontation).
+========================================================================
