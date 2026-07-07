@@ -1015,3 +1015,45 @@ BUILDING the roof.
 The single most valuable remaining derivation is now sharply named:
 produce the O(alpha) coefficient of the Weyl-threshold m_e coupling
 from an actual EM-sector radiative calculation. That is the roof.
+
+## 29. "EM is the binding contract" -- the reframe that names WHY EM kept
+## haunting the model: the amended rule IS the EM-binding rule (operator,
+## 2026-07-07 night)
+
+Operator's persistent intuition ("EM has to be part of it somewhere,"
+across the whole session) RESOLVED -- not as a new payment route, but
+as the physical MEANING of the m_e mechanism itself.
+
+CORRECTION (one word): EM binds matter to MATTER (charge-charge), not
+matter to space; and it remains NOT a payment route (no energy
+exchange, census holds, FIRAS null). "EM as a bank booth the medium
+pays through" stays dead.
+
+THE CORRECT AND LOAD-BEARING PART: m_e -- the quantity the entire
+mechanism amends -- IS the "binding contract." m_e sets the Bohr
+radius (atomic size, a0 ~ 1/m_e), the Rydberg (binding energy ~ m_e),
+and every atomic transition frequency. It is the single number
+governing HOW TIGHTLY electromagnetism holds matter together.
+Therefore the operator's "space tells EM how to bind" is LITERALLY the
+Weyl-Higgs mechanism, direction clarified: the medium's structure
+(Weyl/Theta) sets m_e; m_e sets EM binding strength locally. EM was
+never a separate route to discover -- it is the CONTENT of the rule
+the contact-switch rewrites. This is WHY the amplitude came out
+O(alpha) (section 28) and why every reach toward EM all session kept
+landing on m_e.
+
+CONNECTS TO BOOKED LEDGER ROLE: the Atlas already assigns EM "the field
+is the record of obligation, not the payment" (Gauss's law, C1a). A
+binding CONTRACT is a record of obligation -- operator's intuition and
+the booked role coincide. And m_e (not alpha) is the binding knob BY
+ELIMINATION: varying-alpha was killed (quasar 45-100x); m_e evades
+those bounds. Data selected the surviving EM-binding parameter.
+
+NEW TESTABLE CONTENT (sharpens the 21-cm discriminator): if the amended
+rule is the EM-BINDING rule, ALL EM-binding observables shift in LOCKED
+CORRELATION under the single m_e amendment -- atomic sizes (-1.24%),
+binding energies (+1.24%), transition frequencies (+1.24%), 21-cm line
+(~+2.5%). The dark-ages/cosmic-dawn discriminator is therefore not "an
+anomaly" but a SPECIFIC CORRELATED PATTERN across every electromagnetic-
+binding observable, locked to one parameter -- a much sharper, harder-
+to-fake signature than a single-line shift.
