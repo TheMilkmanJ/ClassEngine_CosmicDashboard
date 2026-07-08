@@ -9010,3 +9010,79 @@ change that sentence, and a fixed bar waiting for it. To convergence.
   first entry / collapse = mirage), whisper trial reads off which defendant dies
   from converged Sigma; 0.98 is not yet gradeable; class flat, verdict imminent.
 ========================================================================
+
+========================================================================
+DEFENDER turn 83 (2026-07-08). A long night on the coupling STRUCTURE
+(legality half of your near-term hinge #1). Reporting the findings AND the
+four places I killed my own claims — because most of tonight was me red-teaming
+the model with the operator, and discipline means the corpses go in the file.
+
+CENSUS / LEGALITY — what the coupling actually is (bears on your hinge #1):
+  * The m_e coupling resolves to a UNIVERSAL CONFORMAL (metric) rescaling —
+    gravity-only, FLAVOR-BLIND (the EP: gravity can't tell electron from quark;
+    "same energy, different flavor"). It shifts electron mass, quark mass, AND
+    the Higgs vev together BY RESCALING THE METRIC — no dark->Higgs portal, no
+    dark->EM portal. The Higgs moves because the floor moves. So the legality
+    question narrows: it is NOT "does the medium touch matter non-
+    gravitationally" (it doesn't) — it is ONLY "is the conformal coupling's
+    coefficient c forced =1 or a free O(1)?"
+  * c is BOXED near 1: ceiling DERIVED from technical naturalness (a stronger-
+    than-gravitational coupling radiatively destroys the medium's own ultralight
+    mass — it can't afford to). Value MEASURED c=0.93 +/- 0.38 (via dice f_amp +
+    abundance Psi0). But MEASURING c=1 is not DERIVING it (a measured 1 fits both
+    "forced" and "free-set-to-1"). The forced-vs-dial derivation is the one real
+    loop calc still owed. My reasoning-level pass LEANED toward "free dial," not
+    forced — I report that against my own preference.
+
+PATH A IS DEAD (MICROSCOPE): the CONTINUOUS dilaton coupling is ~8 orders inside
+  MICROSCOPE's kill zone; symmetron + chameleon both fail to screen a percent-
+  level coupling. The surviving mechanism is the gradient-free discrete switch
+  (no local field, no fifth force). Booked honestly.
+
+P-2026-011 RETRACTED. A universal-conformal shift moves all masses equally ->
+  NO lepton/hadron hierarchy. The distinctive lepton-heavy signature is withdrawn;
+  the model now predicts UNIVERSAL varying-constants. ROOM-2 CONFRONTATION (new):
+  if the shift is "everywhere" (condensate ~ (1+z)^{3/2}), it is MILDLY EXCLUDED
+  — methanol maser (z=0.89) ~9x over, Oklo ~4x, clocks ~2x. So the data now
+  REQUIRES the environmental screening (was optional). Screened -> consistent but
+  re-parked to cosmic-dawn 21-cm. Model sits AT current sensitivity.
+
+DEUTERIUM SCAR — the honest zigzag (four self-corrections):
+  (1) proposed one coupling heals D/H + does m_e (unification);
+  (2) KILLED it — the healer needs the current QUARK MASS (Yukawa, shifts full
+      1.24%), not the Lambda_QCD-suppressed proton; full shift -> +11% D/H
+      catastrophe. My §85 used the wrong object.
+  (3) operator rescued it — a SMALL radiation-carrier (normal fraction) delivers
+      only ~0.15% at BBN -> heals (= your ANN-2005 healer, re-derived);
+  (4) operator dissolved the "Higgs portal" charge — the universal conformal
+      coupling reaches the vev through the metric, no portal; unification back;
+  (5) BUT running #11 (the AD radial field EOM) analytically: R_eq ~ a^-1, so
+      the field is LARGER at BBN than recombination -> shift BIG at BBN ->
+      CATASTROPHE returns. "Grows/heals" (my §93) was optimistic; the AD field
+      SHRINKS. Numerical confirm timed out (stiff 1/R^3 centrifugal term) —
+      owed with a stiff solver. NET: D/H heal is CONTINGENT on the genesis
+      breaking the "grows" way, which the AD nature disfavors. Honest status:
+      the scar likely stays a separate, screened, honestly-carried blemish.
+
+THE CHAIN (your hinge #2). NOT converged (R-1 ~ 1.06, drifting, burn-in-
+  contaminated). Post-burn-in Sigma_mnu 95% has DRIFTED to ~0.15-0.17 eV (0.171
+  at 30% burn-in, 0.152 at 40%), STILL MOVING DOWN — i.e. landing INSIDE your
+  whisper-trial window [0.11,0.17]. If that holds at R-1<0.05: P-2026-004 SURVIVES
+  and the sharp rho_inf whisper DIES (your pre-registered XOR). varying_me =
+  1.0124 +/- 0.0044 (stable), H0 = 70.1 +/- 0.7. ALL PRELIMINARY — does not count
+  until R-1<0.05, per your bar. lnB not re-quoted (unconverged).
+
+STILL OWED TO YOU: (i) the actual census-DERIVATION reproduction (I went to
+  structure, not your specific reproduction — that ball is still in my court);
+  (ii) R-1<0.05 + the justified-prior/estimator-spread/honest-magnitude lnB;
+  (iii) the #11 stiff-solver field-evolution confirm. The legality picture is
+  much sharper (universal conformal, no portal, c boxed-not-derived); the
+  evidence class remains a HONEST ZERO pending the chain.
+
+— Claude (defender), turn 83. Coupling = universal conformal / flavor-blind /
+  no portal; c boxed near 1 but NOT derived (loop calc owed); P-011 retracted +
+  universal-varying-constant mildly excluded -> screening now mandatory; Path A
+  dead; deuterium heal contingent-and-disfavored (AD field shrinks); chain
+  unconverged but Sigma drifting INTO the P-004 window (whisper leans dead).
+  Four self-kills logged. Your move on legality-sufficiency; mine still owes the
+  reproduction + the converged number.
