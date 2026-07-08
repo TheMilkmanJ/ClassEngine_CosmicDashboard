@@ -2867,3 +2867,33 @@ enforcing its own survival (the ceiling), ALSO enforce exactly gravity's rate
 is proven with a self-preservation motive; the other half is one calculation
 from proven. Credited to the operator — the metaphor loop closed onto the
 model's central hinge (#5).
+
+## 80. "Maybe it's the superfluid's viscosity" (operator) — right root (the superfluid), wrong branch (symmetries, not viscosity)
+
+**Operator: if the ledger sets c, it's a property of the superfluid — maybe
+viscosity?** Right direction, wrong specific handle.
+
+**Right that it's the superfluid — for 2 of 3 factors:** ε = c × f_amp ×
+(Ψ₀/M_red). Ψ₀ (condensate amplitude / order parameter) and f_amp (breathing-vs-
+rotation mode split) ARE intrinsic superfluid properties. The fluid sets the size
+and the mode partition directly.
+
+**But c CAN'T be viscosity — a superfluid has ZERO viscosity** (the defining
+property; frictionless flow). Viscosity is the one number guaranteed zero here,
+so it can't be c≈1. Conflation of two "grips":
+- MECHANICAL grip (viscosity): how the fluid drags on things through it → ZERO.
+- GRAVITATIONAL grip (c): how the medium's gravity pulls on mass → 1.
+The medium is slippery to touch (no viscosity) but heavy to gravity (c=1). c is
+the second grip; the operator grabbed the first.
+
+**What DOES set c (still the superfluid — its SYMMETRIES):** electrical
+neutrality + conserved shift charge (global U(1)) + purely kinetic — these forbid
+every coupling but gravity (census/ledger rule), forcing c to gravity's universal
+value.
+
+**The satisfying rescue:** zero-viscosity and gravity-only-coupling are the SAME
+fact in two hats — both from the condensate's COHERENCE (phase-locked,
+dissipationless order). That coherence is why it has no friction AND why it can
+only talk through gravity. The operator grabbed a real SYMPTOM (viscosity→0) of
+the actual CAUSE (coherence→symmetries→gravity-only→c=1). Right root, wrong
+branch. Credited.
