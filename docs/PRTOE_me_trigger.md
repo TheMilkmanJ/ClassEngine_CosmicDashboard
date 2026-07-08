@@ -2561,3 +2561,30 @@ energy) — a real conceptual win. Does NOT pin the value at 0.6: "information �
 O(1)" argues the RANGE (0.1–1), not the number. "Order-one → 0.6" still needs
 the operator + sim (§68). β's CHARACTER derived (informational, small, FIRAS-
 safe); β's VALUE still open. Credited to the operator.
+
+## 70. "β is the all-clear from matter" (operator) — the all-clear is real, but it's Θ, not β
+
+**Operator: "Maybe β is the 'all clear' sign from matter."** The all-clear is a
+REAL feature of the model — but it's Θ (the gate), not β (the magnitude).
+Right bones, wrong variable.
+
+**An "all clear" is a BINARY permission signal — that's Θ:**
+- matter DIFFUSE (voids/IGM/early universe): Θ unsaturated → shift HELD ON
+  ("not clear yet").
+- matter VIRIALIZED (collapsed): Θ saturated → shift RELEASES to lab ("all
+  clear"). Matter's clustering state = the signal that tells the fluid hold vs
+  release. Virialization = matter saying "all clear, m_e back to normal."
+
+**β is a MAGNITUDE, not a signal:** how far off lab m_e sits WHILE held (a
+continuous 0.6). An all-clear is binary (held/released) = Θ; β is the size of
+the hold.
+
+**The distinction tightens §67 (which loosely called β "our side"):** matter has
+TWO roles in the transaction —
+- OUTGOING signal: **Θ** (the gate, the "all clear from matter" — binary,
+  matter→fluid),
+- INCOMING responsiveness: **β** (how much its mass answers the fluid's state —
+  continuous magnitude).
+The operator named the first (Θ). β is how big the shift is while the all-clear
+has NOT been given. Credited — the all-clear intuition separated the gate from
+the magnitude cleanly.
