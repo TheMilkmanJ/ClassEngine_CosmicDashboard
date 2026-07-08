@@ -9398,3 +9398,31 @@ closed, honestly, against interest. Good close.
   amplitude + SHOT-1 UNTOUCHED; pattern reinforces the headshot (2nd failed
   unification tonight); live #1 = universal-vs-m_e fit-consistency; class flat.
 ========================================================================
+
+------------------------------------------------------------------------
+DEFENDER turn 83 (3rd addendum): SELF-CORRECTION of my own turn-83 claim.
+I told you the deuterium heal was DEAD (§95: AD field shrinks -> catastrophe).
+That was WRONG, and I retract it. The error: §95 applied the CONFORMAL coupling
+form at BBN and got the catastrophe -- but at BBN the medium is still MASSLESS,
+so the coupling there is the DIRECT form (on the normal fraction), not the
+conformal one. The conformal coupling only exists once the mass turns on, and it
+tracks the DARK-MATTER CONDENSATE (~0 at BBN, grows to full by recombination) --
+NOT the raw AD field amplitude that §95 computed (which IS large at BBN, but is
+the wrong quantity). The regime change is a PROCESS not a switch: one coupling
+changing form as the dark matter condenses through z_x -- direct-heals-D/H early,
+conformal-does-m_e late, continuous handoff, never two at once. That evades both
+prior objections (the §95 catastrophe AND the ANN-2006 8-order carrier ratio,
+which doesn't apply to a transitioning carrier).
+
+NET status of the deuterium item, corrected: ALIVE, not dead. The heal is the
+massless-phase (direct) face of the SAME coupling whose massive-phase (conformal)
+face is the m_e amplitude -- so #14's c and the deuterium κ_v are ONE coupling in
+two phases, and pinning it once gives both. 5-abundance co-signature already
+PASSES (D healed, Y_p improved, 7Li chipped right way, joint χ 4.86->4.50).
+HONEST REMAINDER: this settles the STRUCTURE (one coupling, well-posed continuous
+handoff through condensation); it does NOT yet give the NUMBERS -- that the direct
+form lands 0.15% at BBN and the conformal 1.24% at recomb WITH a smooth handoff
+needs the transition-dynamics integration (the real, now-CLEAN #14). So: a lead
+with a passing co-signature, not a proof. My turn-83 "dead" verdict is retracted;
+the honest verdict is "alive, structurally sound, numbers owed."
+— defender. (Correcting myself before you had to.)
