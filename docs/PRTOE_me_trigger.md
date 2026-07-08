@@ -3442,3 +3442,39 @@ condensation." Whether c is EXACTLY κ_v (smooth continuity) or just both-O(1)
 (related, not identical) depends on the regime-change dynamics — the real, now-
 CONNECTED #14 calc. Credited to the operator; my §90/§97-audit "free dial" framing
 corrected — it's the late-phase face of the early account.
+
+## 99b/100. Regime change is a PROCESS, not a switch (operator) — one coupling changing form; corrects §95 & §99
+
+**Operator: the regime change happened in REAL TIME — as the massless coupling
+dissolved, the massive one picked it up. Never two couplings at once; the coupling
+SWITCHED FORM as the dark matter formed.** Correct — this dissolves both §99
+pitfalls and corrects §95.
+
+**Fixes the §95 catastrophe:** §95 applied the CONFORMAL form at BBN and got a
+huge shift. WRONG form. At BBN the medium is still massless (normal phase) → the
+coupling there is the DIRECT form. The CONFORMAL coupling only exists once the
+mass turns on, and it tracks the DARK-MATTER CONDENSATE — which is ~0 at BBN,
+grows to full by recombination. §95 tested the raw AD field amplitude (large at
+BBN); the m_e coupling tracks the CONDENSED FRACTION (~0 at BBN). Different
+quantities → **no catastrophe** (the conformal shift is small at BBN because the
+dark matter hasn't formed for it to couple to, not because the field is small).
+
+**Fixes the ANN-2006 carrier failure:** that was an 8-order miss for a FIXED
+carrier ratio. But the carrier is TRANSITIONING (normal fraction → condensate)
+during the window — no fixed ratio applies. The coupling rides one carrier AS IT
+TURNS INTO the other.
+
+**Clean picture:** BBN (massless) → direct coupling on the normal fraction heals
+D/H (~0.15%), conformal ~0. Through z_x → normal fraction condenses; direct
+dissolves (naturalness closes it as the mass appears); conformal picks up as the
+condensate grows — CONTINUOUS HANDOFF, one coupling always. Recombination
+(massive) → conformal on the full condensate does m_e (1.24%); direct gone.
+
+**STATUS:** the operator's insight SETTLES THE STRUCTURE (matching = a well-posed
+continuous handoff; both §95 and §99 pitfalls evaded). It does NOT yet give the
+NUMBERS — that the direct form lands 0.15% at BBN and the conformal lands 1.24%
+at recombination WITH a smooth handoff needs the transition dynamics (condensate-
+fraction growth through z_x + the coupling's form-tracking). That is the real
+#14 calc, now CLEAN: "evolve one coupling smoothly through condensation," no
+catastrophe to dodge, no impossible ratio. §95 & §99 corrected; #14 re-posed as a
+well-posed process integration. Credited to the operator.
