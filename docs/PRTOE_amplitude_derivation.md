@@ -322,3 +322,17 @@ NOT w_DE evolution.
 DE-component w-evolution; the theorem forbids it IF the settling shares the m̄₂² operator with
 the drift (likely). DOWNGRADED to uncertain pending: is the field's SETTLING onto the floor a
 separate process from the floor's DRIFT? Owed.
+
+## SESSION UPDATE — #8 granule sim built: the S=(1+f_rot^2)/2 law does NOT reproduce (2026-07-08)
+
+`scripts/granule_sim.py` (first build, transparent). Tested whether the claimed granule-power
+law S=(1+f_rot^2)/2 (which would let a halo's granule contrast read out f_amp independently of
+the Z4 dice) falls out of plausible two-component speckle models. RESULT: NONE reproduce it.
+  - two independent complex speckles -> S~1.0 FLAT (no f_amp dependence);
+  - speckle + coherent smooth -> S runs 1.0->0.0 (OPPOSITE trend to the doc's 0.5->1.0);
+  - real-amplitude + complex-rotation -> erratic, no match.
+=> the S=(1+f_rot^2)/2 formula is NOT reproduced by naive speckle; its underlying physical
+model is UNPINNED. #8 is blocked deeper than "infrastructure/code" -- the granule channel cannot
+serve as an independent f_amp cross-check until the correct two-component speckle statistics are
+derived. Honest negative (same discipline as the self-tuning toy). f_amp~0.6 currently rests on
+the Z4-dice orbit calc ALONE; the granule cross-check is not yet real.
