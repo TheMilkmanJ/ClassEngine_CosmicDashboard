@@ -154,6 +154,45 @@ parity-even). So β doesn't rescue birefringence; it's more evidence of the same
 rule — every legal leg the medium has (gravity, β) is parity-even, and handedness
 lives in the one sector (EM) the medium has no account at.
 
+### The theorem (JP: "pseudo-parity-odd?") — the deepest closure
+
+Can the effect be FAKED from parity-even parts? No — by symmetry, not by model
+limitation. **A parity-odd observable in a parity-even state is exactly ZERO:** β
+flips sign under parity, so in a parity-symmetric setup β = −β ⇒ β = 0. Cosmic
+birefringence (the ⟨EB⟩ correlation) IS parity-odd, so β = 0 in ANY parity-even
+theory. To get β ≠ 0 needs parity genuinely broken, two doors only: **explicit**
+(a θ·F·F̃ term — census-forbidden) or **spontaneous** (a parity-odd background —
+the medium's rotation/helicity is the candidate, but it still needs to COUPLE to
+photons to rotate them = the missing EM account). No third door. Banking form: you
+cannot counterfeit handedness currency with parity-even bills — the symmetry audits
+the parity-odd column to zero every time. **Where pseudo-parity-odd IS real:** the
+MEASUREMENT (detector-angle miscalibration + Galactic dust ⟨EB⟩ can fake β — the
+leading systematic, why β isn't confirmed). That fake lives in the instrument, not
+the model, and it VINDICATES the model: if the observed β is that systematic,
+P-2026-009's null is confirmed. The model roots for a pseudo-birefringence (in the
+detector); it cannot build one (in its physics).
+
+### The "2 odds = even" refinement (JP) — parity was a FAKE wall; the EM account is the real one
+
+Sharp correction, adopted: odd × odd = even, so two parity-odd factors CAN combine
+into a census-legal parity-even term — and that IS the birefringence coupling:
+**θ·F·F̃ = (θ, pseudoscalar, ODD) × (F·F̃, Pontryagin, ODD) = a legal parity-EVEN
+term.** So **parity was never the true obstacle** (earlier "parity wall" framing was
+imprecise — the coupling is parity-legal). The real wall, exposed by "you need BOTH
+odds": the medium HAS one factor (θ, its own pseudoscalar) but the other (F·F̃) is
+built from PHOTONS, and the medium has no EM account to reach it (EM-neutral ⇒ no
+anomaly ⇒ θ·F·F̃ never generated). **TELL:** the medium CAN build the *other*
+two-odds-even coupling, **θ·R·R̃** (θ × gravitational Pontryagin, both odd → even),
+because R·R̃ is drawn on the GRAVITY bank where it holds an account — but that pays
+out in gravitational-WAVE birefringence (chiral GWs), NOT CMB/photon rotation. So
+the medium's parity-odd coupling exists and is legal; it merely clears in GWs, not
+light. **CORRECTED bottom line:** the medium is not "parity-even all the way down" —
+it is **EM-NEUTRAL**. It can break parity (θ rolls), can carry a parity-odd gravity
+coupling (θRR̃ → GWs); the one thing it cannot do is reach the **photon** (θFF̃),
+because handedness that rotates *light* is denominated in the EM sector — the one
+bank where the medium has no account. The irreducible wall is the account, not the
+parity.
+
 ---
 
 ## Open / to confirm (please correct)
