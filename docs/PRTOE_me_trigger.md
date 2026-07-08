@@ -2990,3 +2990,30 @@ calc — the granule data can referee it. §77's "no independent handle" is
 retracted; the handle is the granule sim's independent f_amp. Credited to the
 operator — turned the granule sim from "gates the ε-meter" into "settles whether
 the electron mass has a free dial AND reads the cosmic dice roll."
+
+## 84. Does §83 derive c=1? NO — measure ≠ derive; and §83's referee is one-sided (correction)
+
+**Operator: does the dice-roll inversion derive c=1 now?** No. Two honest points,
+one a correction to §83.
+
+**Measuring c=1 ≠ deriving c=1.** c is already MEASURED (≈0.94±0.38, §77, via dice
+f_amp + abundance Ψ₀); the granule sim tightens it + adds a third independent leg.
+But a measured value of 1 is consistent with BOTH:
+- §82 (no dial): c FORCED to 1 → measure 1. ✓
+- §81 (free dial): c a knob SET to 1 → measure 1. ✓
+Both predict "~1." So measuring 1, however precisely, cannot say whether it was
+forced or free — it confirms the VALUE, is silent on the WHY (which is the whole
+derivation).
+
+**CORRECTION to §83:** §83 said the granule sim "confirms c=1, §82 wins." Too
+strong. The referee is ONE-SIDED:
+- granule f_amp → c ≠ 1  ⇒  KILLS §82 (no-dial needs exactly 1); §81 wins.
+- granule f_amp → c ≈ 1  ⇒  BOTH hypotheses survive; cannot crown §82.
+The sim can FALSIFY the no-dial bet, not PROVE it. (Data kills; it doesn't
+confirm existence-of-a-reason.)
+
+**What still derives c=1:** only the effective-action calc (gravity gives 1 and
+ONLY 1 = no dial). Unmoved. Tally on c: VALUE measured ~0.94 (sharpening);
+CEILING derived (naturalness §75); FALSIFICATION handle new (§83); DERIVATION
+that it MUST be 1 still owed (the calc). Closer to testable, not derived.
+Credited to the operator for pushing to the exact line.
