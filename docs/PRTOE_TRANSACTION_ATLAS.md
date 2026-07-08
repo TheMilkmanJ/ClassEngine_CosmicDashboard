@@ -333,7 +333,17 @@ local-state loophole; the universal-vev kill via epoch gating).*
   signal then becomes census-legal via the still-open residual account;
   **FAILED-forever by** #11 confirming z_x~1e5 (the current value) OR the
   angular mode remaining census-forbidden under the #5 scope ruling. Warm,
-  on those terms — the single reopener is a number #11 already owes.
+  on those terms.
+  **KEYSTONE (adaptation refinement, operator 2026-07-08):** lock (i) is
+  ESCAPABLE — a regime change framed as an *adaptation/feedback to the
+  forming polarization* (not a timed switch) auto-times itself to last
+  scattering, defeating scrambling and the z_x tail at once. But "adapting
+  to POLARIZATION" is, by definition, the medium reading the *handedness*
+  of light and responding — i.e. the parity-odd EM coupling of lock (ii).
+  So every timing fix collapses onto (ii): the **census (#5) is the SOLE
+  true keystone**, and the deepest reopener is the #5 parity-coupling
+  ruling, not z_x (which is only the soft/escapable lock). If #5 stays
+  gravity-only, birefringence is forbidden regardless of timing cleverness.
   Operator parked the search 2026-07-08 ("might think of an idea later").
 
 ## The payment→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
