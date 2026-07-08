@@ -9851,3 +9851,86 @@ is derived-up-to-one-O(1). No further adjudication owed; #10 (Path A gates) inhe
 (census legality confirmed; the continuous coupling was already dead, the discrete switch +
 void step P-007 is the surviving external test).
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 92: #5 self-adjudication RATIFIED — weak census (c natural-not-
+forced) matches my turn-84/90 grade, and you supplied the RIGHT reason I hadn't
+named: PSEUDO-dilaton. Short: accept the ruling, hold the SHOT-1 consequence
+sharp, credit the census-as-structure.
+========================================================================
+
+THE RULING IS CORRECT, AND THE REASON IS THE RIGHT ONE. I called c "natural-not-
+derived, leaning free" at turns 84 and 90; you've now closed WHY, and it's the
+proper physics: the amplitude mode is a PSEUDO-dilaton (scale invariance
+EXPLICITLY broken by the m^2 term), so the dilaton low-energy theorem that pins
+c=1 for a TRUE Goldstone dilaton simply does not bind. That's exactly right — a
+pseudo-dilaton's coupling is NOT fixed by the symmetry it explicitly breaks. So
+"c not forced" isn't a gap in the derivation, it's a THEOREM about why it can't
+be forced at this level. Weak census, c a bounded-natural O(1): ratified.
+
+THE SHOT-1 CONSEQUENCE, HELD SHARP. "Amplitude derived UP TO one O(1) coupling
+(c)" means, stated plainly: the flagship amplitude eps=1.24% is NOT derived — it
+is derived-up-to-a-free-O(1)-knob that is FIT to the data (c=0.93+/-0.38). So the
+headline number is a ONE-PARAMETER FIT, and the "strong census -> fully-derived
+amplitude" hope is dead by your own ruling. That is SHOT 1 confirmed from the
+inside: the model's one empirical contact is a fit (up to c), the ontology
+doesn't derive it, and the exact-c threshold-matching calc (#11/#17) is the only
+thing that would move it from "fit-up-to-c" toward "derived" — and it's research-
+level-owed. So the headshot stands exactly, now with its escape route named
+(threshold-matching) and priced (research-level, un-run).
+
+CENSUS-AS-STRUCTURE — VALIDATED, credited, and the distinction matters. Even
+WEAK, the census is the load-bearing constraint of the whole model: it kills the
+MICROSCOPE fifth force (continuous Path A dead), forbids cosmic birefringence to
+theorem depth (anomaly matching), and forces flavor-blind universal varying-
+constants. So the census EARNED its place as structure this session — what died
+is only the STRONG (c=1-forcing) version, not the census itself. Clean
+separation: the constraint is real and load-bearing; it just isn't strong enough
+to turn the fit into a derivation. Both true, both booked.
+
+NET: #5 CLOSED, converges with the external ruling (weak census), now with the
+correct pseudo-dilaton reason. Amplitude = derived-up-to-one-fitted-O(1) -> SHOT
+1 intact and sharpened (the number is a fit; only threshold-matching #11/#17
+could change that). Census validated as load-bearing structure. Nothing moves
+the evidence class. Class: FLAT. The board is unchanged in what decides the
+model: the amplitude DERIVATION (now precisely = pin c via threshold-matching),
+#14's knife-edge, the converged chain, and the sky. Good close on #5 — it
+confirmed the headshot rather than retiring it.
+
+— Claude (red team), turn 92. #5 RATIFIED: weak census (c natural-not-forced),
+  right reason = pseudo-dilaton (broken scale inv -> dilaton LET doesn't bind);
+  SHOT 1 confirmed from inside (amplitude = one-parameter fit up to c=0.93+/-0.38,
+  fully-derived hope dead, only threshold-matching #11/#17 could move it); census
+  validated as load-bearing structure (kills MICROSCOPE, forbids birefringence,
+  flavor-blind) — only the strong version died; class flat.
+========================================================================
+
+========================================================================
+— Claude (red team), turn 93. THE BIREFRINGENCE NIGHT: slap-or-ratify pass.
+Challenge accepted. Verdict is SPLIT, and honesty demands I say which is which.
+
+WHAT I CANNOT SLAP (it's clean science):
+ • Method was textbook. Every claim COMPUTED, not asserted (chiral_gw_genesis.py,
+   chiral_induced_gw.py, granule_sim.py). Every negative booked. Zero overclaiming.
+ • Two GENUINE surviving findings:
+   (1) #8 granule S=(1+f_rot^2)/2 does NOT reproduce from speckle -> the f_amp
+       granule cross-check is NOT real. This DEMOTES a prior claim. Honest, load-bearing.
+   (2) The gravitational parity door was put on a NUMBER for the first time: chiral GW
+       Pi~1e-7 (Planck-suppressed), induced channel frequency-banished, and the
+       theta*R R̃ coupling may be exactly zero (scalar -> no grav anomaly). Where there
+       was hand-waving, there is now a computed null. That is an addition.
+
+WHAT I SLAP (hard):
+ • STRATEGIC YIELD ~ ZERO. Memory birefringence-null-proven said explicitly "do NOT
+   re-open the 'can we source it' question -- closed to theorem depth." We re-opened it
+   for ~11 rounds. Every attack died on the SAME fact (EM-neutral / charge conservation).
+   This was PREDICTION-HARDENING of an already-closed null, not progress.
+ • The model's real open fronts got ZERO attention tonight: #11 (amplitude derivation),
+   #14 (c forced-vs-dial is done but #16/#17 open), #10 (void m_e-step P-007). Those are
+   where standing actually moves. We spent the night in the graveyard, not the frontier.
+
+NET: GOOD SCIENCE, LOW YIELD. Not a breakthrough to defend -- a clean set of nulls plus
+one honest demotion. Model standing: UNCHANGED. Score stays "winning, not won." The
+pedagogical value (user reconstructed plasma-mass, acoustic coupling, the census by feel)
+is real but is not a result. Ratified as method; slapped as strategy. Tomorrow: the frontier.
+========================================================================
