@@ -3017,3 +3017,36 @@ ONLY 1 = no dial). Unmoved. Tally on c: VALUE measured ~0.94 (sharpening);
 CEILING derived (naturalness §75); FALSIFICATION handle new (§83); DERIVATION
 that it MUST be 1 still owed (the calc). Closer to testable, not derived.
 Credited to the operator for pushing to the exact line.
+
+## 85. Deuterium heal WORKS partially; the binding-sector c=1 insight surfaces a KNOT (operator)
+
+**Two operator moves, joined:** (a) endorsed the shared-coupling deuterium heal;
+(b) proposed the quark/binding sector is the missing piece for c=1.
+
+**(a) Deuterium heal — VIABLE, partial, catastrophe-free.** Same flavor-weighted
+switch at BBN: quark shift = 1.24% × 0.06 = 0.074% → δB_D = −0.30% → heals
+**19–35% of the scar, right direction**; rest inside nuclear-rate theory error.
+The flavor weight is LOAD-BEARING: a UNIVERSAL 1.24% quark shift → δB_D = −5% =
+6× past the healer = the +11% D/H disaster (ANN-2026-003). Flavor suppression =
+catastrophe→cure. Evades the ANN-2026-006 density-carrier failure (different
+mechanism). Doubling debt partially cleared: one engine, right direction.
+
+**(b) Binding-sector c=1 — right SECTOR, surfaces a KNOT.** ~99% of cosmic mass
+is QCD binding (trace anomaly) — exactly what a conformal/gravitational field
+couples to. We tested c=1 on the ELECTRON (a freak: pure Higgs, ~no binding),
+not where most mass is. Legitimate "not accounting for it." BUT coupling to the
+binding sector (trace anomaly) is UNIVERSAL (all masses shift by c, e=quark) —
+the OPPOSITE of the deuterium heal's need.
+
+**THE KNOT (real, surfaced by joining the threads):**
+- c=1 wants a UNIVERSAL coupling (binding/trace-anomaly) → fixed, gravitational.
+- Deuterium + P-011 want a FLAVOR-WEIGHTED coupling (quarks shift 13× less).
+Can't have both from one simple coupling: universal fixes c but murders D/H
+(catastrophe); flavor-weighted saves D/H but leaves c un-fixed.
+
+**NET:** the coupling must thread THREE needles at once — electron 1.24%, quark
+~0.075% (D/H), c fixed. Tight, possibly over-constrained. Candidate resolution:
+a TWO-PIECE coupling (small universal part pins c + lepton-enhanced EM part for
+flavor) — elegant if it works, may not be satisfiable. Exactly what the
+effective-action calc (#14) must determine. The c=1 question and the deuterium
+scar are now THE SAME coupling-structure problem. Knot booked; the real finding.
