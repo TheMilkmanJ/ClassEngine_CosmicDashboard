@@ -900,3 +900,43 @@ matter-coupling (it's EP-illegal), so the only census-compatible m_e route is a
 gradient-free discrete environmental state. The "narrow vs broad census" hinge
 narrows: broad continuous coupling is excluded by MICROSCOPE, independent of the
 red-team's ruling.
+
+---
+
+## ANN-2026-014: P-2026-009 first confrontation — the birefringence hint is CONSOLIDATING, not dissolving (task #13, priced 2026-07-07)
+
+**Recorded:** 2026-07-07 20:55 MDT (git base: 81e9cc5d)
+**Data pulled (web, this session):**
+- **ACT DR6 (released 2026-05-08): β = 0.215° ± 0.074°, 2.9σ** — an INDEPENDENT
+  instrument (ground-based, different systematics from Planck's satellite).
+- Planck PR4 analyses: β ≈ 0.3°, ~2.7σ.
+- Combined global significance: **2.4–3.6σ.** Simons Observatory / LiteBIRD /
+  CMB-S4 project a ~7× error reduction — i.e. a 5σ verdict is reachable this
+  decade.
+- Active literature is now trying to identify the SOURCE as a dark-sector
+  axion-like / early-dark-energy field (arXiv 2602.12019, 2605.24341).
+
+**Confrontation with P-2026-009 (which predicts the dark medium contributes
+ZERO parity-odd rotation):** the prediction's "it dissolves as systematics are
+controlled" branch is **losing** — an independent instrument (ACT) did not wash
+it out, it reproduced it at 2.9σ. The signal is consolidating across
+instruments, not fading. **This is pressure on the model, reported as such.**
+- If it reaches 5σ and is confirmed as a rolling-dark-field signal, P-2026-009's
+  clean null is FALSIFIED, and the model is forced to invoke its one unbuilt
+  degree of freedom — the EM-anomalous **angular mode** (the parity-odd
+  pseudoscalar the scalar identity does not currently contain, ANN-2026-012).
+- That is a double bind with Shot 1 (kill/patch session): the branch the data is
+  pushing the model toward is exactly its **unbuilt, un-derived** sector. The
+  literature actively modeling the source as an axion-like field is modeling
+  precisely the operator the census forbids the medium from having.
+
+**Honest status:** P-2026-009 is NOT yet falsified (2.4–3.6σ is not 5σ, and
+detector polarization-angle calibration + Galactic foreground EB remain the
+live systematics). But its favorable branch is eroding. **Watch item, elevated:**
+Simons Observatory first-season and LiteBIRD are the deciders. If β survives to
+5σ, the model owes the angular mode or dies on this prediction. Priced before
+the deciding data, as the registry requires.
+
+**Sources:** ACT DR6 birefringence (arXiv 2508-class / researchgate 395582441);
+SPIDER+Planck+ACT combination (arXiv 2510.25489); LiteBIRD forecast
+(arXiv 2503.22322); source-identification SBI (arXiv 2602.12019).
