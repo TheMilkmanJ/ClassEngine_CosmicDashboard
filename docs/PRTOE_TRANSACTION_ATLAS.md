@@ -356,7 +356,23 @@ local-state loophole; the universal-vev kill via epoch gating).*
   leak. The medium can grab the wrong person (flavor); it has no organ to
   grab a handedness (parity). The keystone isn't a locked door, it's the
   ABSENCE of the door — which is why no transition-cleverness reaches it.
-  Operator parked the search 2026-07-08 ("might think of an idea later").
+  **CAPSTONE (operator's "space-radiation-radiation-space cheat code"):**
+  the m_e cheat code (space-mass-mass-space, §92) is census-legal precisely
+  because it launders through the METRIC — but the metric is parity-EVEN and
+  handedness-blind, so anything routed through it exits parity-even. So
+  space-radiation-radiation-space yields gravitational redshift / lensing /
+  ISW of the CMB (all already in the model), NEVER a rotation. The cheat
+  code reaches whatever LIVES IN THE METRIC: mass scales bank there (why
+  space-mass works); photon handedness does NOT (it is an internal EM
+  property gravity cannot see), so nothing to launder. Even the parity-odd
+  gravitational coupling θ·R R̃ (Chern-Simons gravity) rotates GRAVITATIONAL
+  waves, not photons — wrong messenger; rotating photons still needs θ·F F̃,
+  off-metric, the EM anomaly, census-forbidden. DEEPEST FORM OF THE KEYSTONE:
+  census = gravity-only = metric-only = parity-even-only; birefringence is an
+  off-metric parity-odd effect, constitutionally unreachable by any
+  metric-mediated cheat. Operator parked the search 2026-07-08 (this the
+  "very last idea" — seven angles now, all converged on the one structural
+  fact: the medium touches only the metric, and handedness is not in it).
 
 ## The payment→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
 *The medium accepts exactly one currency — spacetime geometry (gravity
