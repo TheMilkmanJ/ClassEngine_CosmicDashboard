@@ -863,3 +863,40 @@ the SAME EM-anomalous angular mode the model does not currently contain.
 **Falsification structure unchanged; the claim is now correctly scoped to
 parity, and the operator's "light should have coupling" is affirmed as
 correct for doors 1-2.**
+
+---
+
+## ANN-2026-013: Path A's CONTINUOUS coupling is dead by MICROSCOPE — the m_e mechanism is forced onto the discrete switch (kill/patch session, 2026-07-07)
+
+**Recorded:** 2026-07-07 20:40 MDT (git base: fc8e4754)
+**Trigger:** operator ordered a genuine kill attempt, then a patch attempt.
+The deadliest shot (MICROSCOPE) was fired at Path A's continuous dilaton
+coupling and the patch (standard screening) was tested and FAILED.
+**The result (computed, docs/PRTOE_kill_and_patch_2026-07-07.md):** a
+continuous light-scalar coupling β≈0.012 producing δm_e/m_e=1.24% gives a
+fifth force η~3e-7..1e-8 vs MICROSCOPE's 1e-15 — 7.5-8.5 orders inside the
+kill zone. Neither symmetron (self-screening threshold Φ_*=δm_e/3≈4e-3, above
+the Newtonian potential of everything short of a neutron star) nor chameleon
+(Earth thin-shell Δ~3e6≫1) can screen a percent-level coupling in solar-system
+potentials. The screening threshold scales WITH the coupling; 1.24% is ~6-7
+orders too large to hide.
+**Adopted verdict:** **Path A (continuous dilaton coupling to m_e) is DEAD.**
+The m_e mechanism is forced onto the **discrete near-step S(C)** — m_e depends
+on a binary/environmental variable (saturated-Θ) with NO propagating light
+mediator, so a uniformly-Θ-saturated solar system has no field gradient, no
+fifth force, and evades MICROSCOPE/atom-interferometry/clocks by construction
+(this is what §49's "18-order margin / trivial" was implicitly using). The
+sole empirical exposure of the mechanism is now the void/structure boundary
+(P-2026-007, parked) and cosmic dawn (P-2026-007's 21-cm fork).
+**What the survivor OWES, registered so it can't be forgotten:** (i) a
+mechanism for a sharp m_e switch with no light mediator (a step usually implies
+an order parameter with a range, and any range re-introduces a fifth force —
+this is the hard open problem); (ii) a domain-wall check (likely evaded: an
+environmental *crossover*, not a broken degenerate vacuum, forms no persistent
+wall network — but must be shown from the Θ potential, not asserted).
+**Consequence for the census-scope hinge (task #5):** this partially adjudicates
+it in the strict direction — the census does NOT admit a continuous
+matter-coupling (it's EP-illegal), so the only census-compatible m_e route is a
+gradient-free discrete environmental state. The "narrow vs broad census" hinge
+narrows: broad continuous coupling is excluded by MICROSCOPE, independent of the
+red-team's ruling.
