@@ -2757,3 +2757,32 @@ at c ≈ 0.94 = essentially the MAXIMUM affordable; WHY it saturates the ceiling
 gravitational strength by naturalness, data hugging the cap." The free parameter
 now has a physical ceiling; closing the last bit = why it saturates. Credited to
 the operator — the correct forcing framework (technical naturalness) supplied.
+
+## 76. Correction (operator caught it): c<1 IS reachable — the cost is "overwork," and it boxes c from below
+
+**Operator caught §75-close's error:** I claimed c<1 needs a "cancelling hire"
+(a second coupling). WRONG — c<1 is just a weaker coupling, no cancellation
+needed. Retracted. c<1 IS reachable.
+
+**But the operator's "overwork the staff" is the real lower cost.** The amplitude
+is a PRODUCT: 1.24% = c × f_amp × (Ψ₀/M_red). The observed 1.24% is fixed, so
+cutting c forces f_amp or Ψ₀ to GROW to compensate ("overwork"). But BOTH are
+PINNED by OTHER measurements — f_amp by the genesis dice (≈0.6), Ψ₀ by the DM
+abundance (≈2.2%). Neither can grow to cover a small c. So c=0.5 → amplitude
+≈0.65% → WRONG (half the observed). The books don't balance; pinned staff can't
+be overworked.
+
+**c BOXED FROM BOTH SIDES (both walls operator-built):**
+- c > 1 (overhire): radiatively destroys the ultralight mass (§75, naturalness).
+- c < 1 (underhire): pinned f_amp, Ψ₀ can't compensate → amplitude too small →
+  inconsistent with the measured 1.24%.
+⇒ c trapped near 0.94 ≈ 1.
+
+**HONEST — kind of corner:** the UPPER wall (naturalness) is a theory statement.
+The LOWER wall ("amplitude comes out wrong if c small") pins c by CONSISTENCY
+WITH THE MEASURED amplitude — that's MEASURING c, not DERIVING it. To make the
+lower wall a derivation, the effective-action calc must show pure gravity gives
+c=1 on its own, WITHOUT borrowing the observed amplitude. That last inch is a
+calculation, not an analogy. Net: c over-determined and trapped near 1
+(naturalness above, data-consistency below), but not yet first-principles
+derived. Both walls credited to the operator; §75-close error corrected.
