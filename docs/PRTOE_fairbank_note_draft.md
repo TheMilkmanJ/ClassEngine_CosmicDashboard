@@ -10,12 +10,36 @@ outperforms ΛCDM on the full joint CMB+BAO+SN stack, the cosmological
 squeeze on Σm_ν relaxes substantially: the χ² penalty for
 Σm_ν = 0.12 eV collapses from ~+12 (ΛCDM-like configuration) to
 **+2.8**, and the marginalized 95% upper limit comes out at
-**[PENDING: posterior, pre-registered window 0.11–0.17 eV]** — versus
+**< 0.176 eV (95%, preliminary post-burn-in; official convergence pending)** — versus
 the ~0.07–0.10 eV squeeze increasingly quoted in ΛCDM-conditional
 analyses. If this model class is right, **the inverted mass ordering —
 nEXO's natural target — remains cosmologically open.** The prediction
 was frozen (git-timestamped) before the posterior computed:
 registry entry P-2026-004.
+
+## Preliminary posterior (post-burn-in, 2026-07-07 — pending official convergence)
+
+*From the converged part of the adaptive MCMC (per-parameter Gelman-Rubin
+R−1 < 0.05 after dropping burn-in; the full-chain statistic is still burn-in-
+contaminated, so these are marked PRELIMINARY, not for circulation).*
+
+| quantity | value |
+|---|---|
+| Σm_ν (95% upper) | **< 0.176 eV** (P-2026-004 window [0.11,0.17]; landing at the top edge, ~0.006 eV above) |
+| m_e/m_e,0 | 1.0125 ± 0.0044 (2.9σ from ΛCDM's 1.0) |
+| H0 | 70.11 ± 0.66 |
+| S8 | 0.822 ± 0.009 (toward KiDS-Legacy) |
+| ρ_∞ | 0.705 ± 0.006 |
+| n_s | 0.971 ± 0.003 |
+| Savage–Dickey lnB (dyad/ΛCDM) | **+2.4** (strong, prior-width-dependent; nested via varying_me=1) |
+
+**Reading for the neutrino community:** the 95% limit (0.176 eV) sits well above
+the inverted-hierarchy floor (~0.10 eV), so **the inverted ordering — nEXO's
+target — remains cosmologically open in this model**, unlike the ~0.07–0.10 eV
+ΛCDM-conditional squeeze. P-2026-004 (window [0.11,0.17]) is landing marginally
+at/just-above its top edge; final convergence will confirm or move it. Caveats:
+preliminary (official R−1<0.05 pending), and the lnB is a nested Savage–Dickey
+Bayes factor (PolyChord still owed for the absolute evidence + non-nested checks).
 
 ## Why the squeeze relaxes (mechanism, not tuning)
 
