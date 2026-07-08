@@ -42,6 +42,22 @@ unitarity (`v5_dCDF:1178`). Operator's plain-language forms shown in quotes.
   reads only w** (the equivalence principle); clearinghouses are gauge fields, and
   gravity is the energy sector's clearinghouse. `[CORPUS: v5_dCDF:1179]` **This is
   "the census."**
+  - **L1a — Parity corollary (NOT a new law; a consequence of L1).** "Clears
+    through gravity only" *means* "carries no charge at any other clearinghouse" —
+    i.e. the medium is **EM-neutral** (and color-neutral, etc.). Gravity couples to
+    energy-momentum, which is **parity-even and handedness-blind**; so the medium's
+    entire reach to matter/radiation is parity-even. Consequence, proven this session
+    (2026-07-08): the medium **cannot produce cosmic birefringence** — the θ·F·F̃
+    anomaly coefficient is exactly zero (Σ q_dark·Q_EM² = 0), and 't Hooft anomaly
+    matching keeps it zero across every regime change. **Placement note (honest):**
+    this is a *corollary of L1*, not a 5th founding law — "EM-neutral" is what
+    "gravity-only" already asserts, viewed through the parity/EM lens. Booking it as
+    a law would double-count L1 and inflate the amendment ledger; it is recorded here
+    as a named rider so the birefringence result has a constitutional home. (Precise
+    form: EM-neutral. The medium CAN carry internal pseudoscalar structure — the
+    θ mode — and a parity-odd *gravitational* coupling θ·R·R̃ → GWs; what it cannot do
+    is reach the *photon*. So "parity-even" describes its reach to EM, not its
+    internal content.)
 - **L2 — Posting law.** *"All transactions must be posted to the ledger."*
   `[OP-PHRASING — verify]` Corpus: the **adiabatic background ledger** — virtual
   transactions are exactly reversible (S-matrix unitarity); "posting is cheaper

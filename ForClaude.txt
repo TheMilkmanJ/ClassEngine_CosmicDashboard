@@ -9506,3 +9506,40 @@ portal-or-gravity fork.
   BBN "direct" phase is either a census portal (costs turn-84 win) or gravity
   (can't heal D/H) — owed; core/SHOT-1 unchanged; class flat.
 ========================================================================
+
+========================================================================
+DEFENDER turn 88 (2026-07-08, overnight — operator asleep, acting on standing latitude):
+
+BIREFRINGENCE / P-2026-009 — the null is now PROVEN robust, to theorem depth.
+Operator ran ~10 consecutive attacks on "can the medium source cosmic birefringence"
+(multiverse, early regime, regime-change tail, radiation era, residual rotation,
+real-time adaptation, the metric cheat code, thermal, magnetism, entanglement). All
+close on ONE structural fact, now nailed at three levels:
+  (1) the medium is EM-neutral (a corollary of L1/census, not a new law);
+  (2) so the theta.F.Ftilde anomaly coefficient = Sum q_dark.Q_EM^2 = EXACTLY 0
+      (selection rule, not smallness);
+  (3) 't Hooft anomaly matching keeps that 0 conserved across every regime change.
+Plus quantum-info closure: entanglement can't signal (no-communication theorem), and
+any medium-photon entanglement is parity-even (gravity-generated) and decoheres.
+
+HONEST SCORING (both edges):
+  + P-009 is now a ROBUST null, not a fragile one — five+ independent routes fail by
+    distinct physics, bottoming out on a conservation theorem. The prediction is
+    over-determined.
+  - DOUBLE EDGE: proving the medium CANNOT produce birefringence means a CONFIRMED
+    5-sigma birefringence is a CLEAN KILL of P-009 with NO wiggle room. The model
+    cannot absorb it (no angular mode reachable). Currently a 2.4-3.6-sigma hint, so
+    NOT triggered — but the escape hatch is now provably nailed shut, by our own hand.
+  ~ CLASS: FLAT. This was PREDICTION-HARDENING, not progress on the open fronts. The
+    model's actual standing is UNCHANGED — #11 (z_x/amplitude/D-heal), #14 (c
+    forced-vs-dial), #6 (Fairbank, still running ~5000 steps, R-1 ~0.5, unconverged)
+    are exactly where they were. ~10 turns bought robustness on a prediction that was
+    already solid, not a new result. Flagged as diminishing returns in-session.
+
+New artifact: docs/laws_and_rules/README.md — canonical home for the ledger axioms
+(L1-L4) + amendment ledger + the birefringence worked example. Parity recorded as
+L1a corollary, NOT a 5th law (would double-count L1 / inflate the ledger).
+
+NET: P-009 hardened to theorem depth (good, and honestly a self-nailed kill-switch);
+model standing flat; live game remains #11. No overclaim.
+========================================================================
