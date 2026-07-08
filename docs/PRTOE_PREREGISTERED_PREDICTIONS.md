@@ -940,3 +940,27 @@ the deciding data, as the registry requires.
 **Sources:** ACT DR6 birefringence (arXiv 2508-class / researchgate 395582441);
 SPIDER+Planck+ACT combination (arXiv 2510.25489); LiteBIRD forecast
 (arXiv 2503.22322); source-identification SBI (arXiv 2602.12019).
+
+---
+
+## ANN-2026-015: P-2026-011 status change — RETRACTED under the universal-conformal coupling (2026-07-08)
+
+**Recorded:** 2026-07-08 (git base: 0dca3614)
+**Trigger:** the coupling-structure work of me_trigger §75–92. P-2026-011 predicted
+a lepton/hadron varying-constant hierarchy (leptons shift ~13× more than hadrons,
+EM-self-energy driven). The effective-action reasoning (§90–92) found:
+- a FLAVOR-structured shift (leptons > hadrons) requires the dark medium to reach
+  the Higgs/EM sector NON-gravitationally — a portal the census forbids (§90);
+- the census-legal coupling is a UNIVERSAL conformal (metric) rescaling: it shifts
+  the electron mass, quark mass, AND Higgs vev by the SAME fraction, through the
+  metric, with no portal (§92, operator's "space→mass→mass→space").
+**Consequence:** under the census-legal (universal-conformal) reading, all masses
+shift equally — **there is no lepton/hadron hierarchy.** P-2026-011 is
+**RETRACTED**; the model predicts **UNIVERSAL varying-constants** (cleaner and
+more standard than the flavored version). P-2026-011 would only survive if the
+model relaxes the census to admit a Higgs/EM portal (reopening the #5 scope
+question) — currently NOT the leading reading.
+**Net:** the distinctive lepton-heavy signature is withdrawn; the model's
+varying-constant prediction is now "all constants shift together," and the
+deuterium heal (universal small shift at BBN) rides the same one coupling as m_e
+(unification, §92) contingent on the BBN→recombination field-value ratio.
