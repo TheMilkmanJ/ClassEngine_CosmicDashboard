@@ -83,3 +83,35 @@ blowup) is eliminated. Remaining honest caveats: c=1 not forced (only natural);
 distributional (median, our universe typical); the dice's own h-convergence
 caveats; and the whole chain still assumes the discrete-switch m_e mechanism
 (ANN-2026-013), whose payload operator is un-built.
+
+---
+
+## FOUNDATIONAL NOTE (parked, 2026-07-07): R=0 ontology, bubble-vs-infinite, and the multiverse edge
+
+*Operator's foundational question chain, and its correct parking. Recorded so the
+model's silent assumption is on record, NOT so anything is built on it.*
+
+**R=0 = the model's absolute nothing** (no medium, no curvature — the genesis
+ground state). Its direction is TEMPORAL ("before"), not spatial ("outside"):
+the genesis happened everywhere at once in an already-unbounded space; the
+universe DILUTES (ρ∝a⁻³) as it expands, it does not invade fresh R=0.
+
+**OPEN foundational choice (data cannot reach it):** the fitted cosmology ASSUMES
+unbounded homogeneity (FLRW). Whether the medium is globally infinite OR a finite
+BUBBLE of R=1 in an R=0 void is undetermined — the CMB fit assumes the former but
+never earns it. In the bubble reading, expansion IS into R=0 nothingness (the
+operator's picture is then literally correct).
+
+**Multiverse extension (operator, correctly PARKED as philosophy):** if R=1
+nucleates in R=0, generic bubble/eternal-inflation logic gives OTHER R=1 regions.
+Untestable in principle — causally sealed by super-horizon R=0 inflation. The
+operator flagged this un-chaseable; adopted.
+
+**The neighbor rule + its single crack (honest):** no signal from a neighbor
+reaches us EXCEPT a possible early BUBBLE COLLISION (a circular CMB temperature
+disk). Planck/WMAP searched — NULL. So the one testable edge CONFIRMS the
+neighbor rule (nothing has reached us). Additional distance from PRTOE: its
+genesis is Affleck-Dine ROLLING, not Coleman-De Luccia bubble NUCLEATION — so the
+multiverse isn't even clearly this model's mechanism. Speculation atop an
+unearned assumption: doubly un-chaseable. Booked PARKED; the model leans on none
+of it.
