@@ -317,7 +317,13 @@ local-state loophole; the universal-vev kill via epoch gating).*
   locks: (i) any source must be *alive at last scattering* z~1100 → needs
   the condensation redshift z_x near matter-radiation equality, but the
   model gives z_x~1e5 where the residual normal fraction is ~1e-8
-  (scripts/birefringence_window.py, ANN-2026-017); (ii) the birefringence
+  (scripts/birefringence_window.py, ANN-2026-017). CLEANEST STATEMENT
+  (the BBN→recomb synthesis, operator 2026-07-08): across the whole
+  BBN→recombination span the account is open only in the OPAQUE era
+  (z≳1e5), where Thomson scattering scrambles any imprint; the light does
+  not free-stream until z~1100, by which point the account is ~1e-8
+  closed — the account-open and light-remembers windows are DISJOINT
+  epochs, bridged only by the negligible residual tail. (ii) the birefringence
   *signature* (EB rotation) requires a parity-ODD coupling → the
   EM-anomalous angular mode the census forbids (ANN-2026-012). Generating
   vs rotating does not evade (ii); reionization does not reopen (i) (data
