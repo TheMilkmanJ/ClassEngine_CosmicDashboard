@@ -2652,3 +2652,42 @@ distribution MEDIAN. The sole open piece is the OPERATOR proving β = f_amp
 for catching the deferral. §65's retraction stands (that used β=1 + cherry-picked
 Ψ₀); THIS uses β=f_amp(dice) + misalignment Ψ₀ + reduced M_Pl — all traced, no
 cherry-picking.
+
+## 73. How to FIX the operator link (operator's question) — the amplitude mode is the scale-symmetry dilaton
+
+**The operator link asserts:** (1) coupling coefficient = gravitational strength
+(=1), (2) only the amplitude mode couples (β = f_amp). To fix = DERIVE both, not
+assume. There is a symmetry in the model that forces both.
+
+**THE FIX: the amplitude mode is the (pseudo-)dilaton of the quartic era's scale
+invariance.** The quartic λ|Ψ|⁴ is scale-invariant (λ dimensionless, |Ψ|⁴
+marginal). Spontaneous condensation breaks scale symmetry → a dilaton Goldstone,
+which IS the amplitude mode (the |Ψ|-breathing direction changes the scale Ψ₀).
+Then:
+- **Coefficient = 1 (property 1):** a dilaton couples to masses with UNIVERSAL,
+  symmetry-fixed strength — no free constant (like the graviton's locked
+  coupling). β = 1 forced by scale invariance, not assumed.
+- **Amplitude-mode-only (property 2):** TWO Goldstones — amplitude (dilaton, from
+  broken SCALE symmetry, couples to MASS) and phase (from broken U(1), couples to
+  CHARGE/number, NOT mass). Masses feel only the dilaton → only f_amp reaches
+  m_e. Forced by the two-Goldstone structure.
+⇒ β = f_amp DERIVED: amplitude mode = scale dilaton (universal mass coupling) +
+rotation = U(1) Goldstone (charge only). Builds on task #7 (derived the
+Weyl/conformal coupling FORM); this pins its COEFFICIENT.
+
+**HONEST CAVEATS — the route, a calc to execute, not done:**
+1. Scale symmetry APPROXIMATE (m²|Ψ|² breaks it) → pseudo-dilaton; coefficient=1
+   up to (m/Ψ₀)² ~ 1e-94 corrections (negligible, but must be shown).
+2. NORMALIZATION: a dilaton's scale is naively Ψ₀ (breaking scale), but we need
+   M_red (gravitational) for 1.24%. Reconciling dilaton-decay-constant with
+   gravitational-strength is the crux the effective-action calc must settle —
+   the one place the answer isn't guaranteed without doing it.
+3. SURVIVAL genesis→recombination: dilaton identity cleanest in the quartic era;
+   by recombination the field is at its floor — must check the coupling keeps its
+   dilaton form.
+
+**THE FIX, stated:** construct the medium–matter effective action and prove the
+amplitude mode is the scale-symmetry pseudo-dilaton → derives coefficient (scale
+invariance) + mode selection (two Goldstones) together. A concrete field-theory
+calculation traceable to a symmetry the model already has; the genuine last piece
+of the amplitude derivation. Credited to the operator.
