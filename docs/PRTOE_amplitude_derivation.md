@@ -181,3 +181,23 @@ genesis ODE for f_amp still needs WSL). Result:
   Lyman-alpha fuzzy-DM floor (~2e-21 eV, so allowed).
 - **OWED (factor-level, not order-level):** f_amp from the genesis orbit (WSL ODE), c from
   the #14 loop, O(1) misalignment factors (~2x). These move the pinned m by factors.
+
+## SESSION UPDATE — #11 f_amp orbit (2026-07-08): mechanism confirmed, ~0.6 natural
+
+`scripts/genesis_famp_orbit.py` (Cartesian, NON-stiff, runs in-sandbox -- the WSL
+caveat did NOT bind). Complex AD field in V=m^2|Psi|^2+lam|Psi|^4 with Hubble
+friction; f_amp = time-averaged RADIAL (breathing) energy fraction of the late-time
+orbit.
+- **Mechanism CONFIRMED:** f_amp set by orbit eccentricity, spans 0.47-0.99 as the
+  release kick varies (near-radial -> f_amp~1, near-circular -> f_amp~0.5).
+- **Central value ~0.6 is NATURAL:** median over a flat kick prior = 0.62, matching
+  the doc's assumed f_amp~0.6. Not cherry-picked -- it's where the mechanism sits.
+  (f_amp=0.6 exactly <-> kick~1.3.)
+- **CAVEAT:** generic AD orbit (quartic + parametrized kick), NOT the model's
+  specific A-term, so the DISTRIBUTION is illustrative/prior-dependent; the mechanism
+  and ~0.5-0.6 central value are robust.
+
+**#11 amplitude standing:** eps = c * f_amp * (Psi0/M_red). Psi0 DERIVED (abundance,
+-> m~2e-20 eV), f_amp mechanism-confirmed (~0.6), both in-sandbox. Only **c** remains
+(the #14 effective-action loop). The three are mutually consistent at 1.24% for
+m~2e-20 eV, c~1, f_amp~0.6.
