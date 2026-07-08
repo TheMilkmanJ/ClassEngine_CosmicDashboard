@@ -710,3 +710,109 @@ superfluid structure in dwarf/stream data) becomes CONFIRMABLE once the
 two-fluid sims produce quotable granule/soliton/chi-lag numbers (Tier 3). This
 is the model's answer to "how do you detect the dark medium": you don't build a
 detector, you point a telescope at a dwarf galaxy and read its stars.
+
+---
+
+## P-2026-009: NO cosmic birefringence from the dark medium — the census tests itself against a live 2-3σ hint
+
+**Registered:** 2026-07-07 19:37 MDT (git base: e5f9f455)
+**The structural fact:** PRTOE's medium, as built, is a complex scalar with
+a global U(1) and a *parity-EVEN* coupling to mass (Path A: m_e(phi) =
+m_e(1 + beta phi/M_Pl), the dilaton form). Cosmic birefringence — a rotation
+of the CMB linear polarization plane by an angle beta — requires a
+*parity-ODD* coupling of a rolling (pseudo)scalar to electromagnetism, the
+Chern-Simons operator (g/4) phi F_mu-nu Fdual^mu-nu. **PRTOE has no such
+operator.** The census ("gravity is the medium's only account") forbids a
+direct dark->EM coupling under both its narrow and broad readings, and the
+parity-even mass coupling of Path A is a *different, independent* operator
+that generates no birefringence. The medium rolls a large field excursion,
+so IF it carried the Chern-Simons coupling the birefringence would be
+*large*; the coupling's absence is what makes the prediction sharp.
+
+**The prediction:** the dark medium contributes ZERO cosmic birefringence.
+The current hint (Minami-Komatsu-class analyses of Planck/ACT, beta ~ 0.3
++/- 0.1 deg, ~2-3sigma, not decisive) will either (a) fail to consolidate as
+the systematics (detector polarization-angle calibration, foreground EB) are
+controlled, or (b) if it consolidates as a real cosmological-scalar signal,
+it is NOT this medium — and it forces PRTOE's one unmapped degree of freedom,
+the **angular mode** (Room 1's "only axion-shaped hole in the architecture"),
+into physical existence as a parity-odd sector the scalar identity does not
+currently contain.
+
+**Why it's a real bet (double-edged, near-term):**
+- NULL / systematics: confirms the strict gravity-only, parity-even identity.
+  Consistent with PRTOE-as-built.
+- CONFIRMED cosmological birefringence: mild tension with the pure-scalar
+  identity AND the first *positive* motivation for the angular mode — the
+  SAME hole that strong-CP would need a speaker for (see the strong-CP
+  silence, Transaction Atlas). Birefringence and strong-CP would then be
+  two symptoms of one missing parity-odd mode.
+**Falsification:** a community-consolidated nonzero beta attributed to a
+rolling cosmological scalar falsifies the strict "scalar + parity-even mass
+coupling only" identity and promotes the angular-mode extension from
+speculation to requirement. Measured now by Planck/ACT/SPT and, decisively,
+by Simons Observatory and LiteBIRD this decade.
+
+---
+
+## P-2026-010: The gravitational-wave standard sirens land on the model's cornered H0 (independent-instrument companion to P-2026-001)
+
+**Registered:** 2026-07-07 19:37 MDT (git base: e5f9f455)
+**The commitment:** the executed-lever audit of P-2026-001 corners the model
+at **H0 = 69.7-70.1 km/s/Mpc** (joint optimum 69.70; free-Sigma-m_nu
+posterior 70.11 +/- 0.66) with NO lever left to reach 72+. P-2026-001 bets
+this against the *distance-ladder* (Cepheid vs TRGB). Standard sirens are a
+*physically independent* ladder — the GW luminosity distance is read straight
+off the waveform amplitude, calibrated by general relativity, touching no
+Cepheid, no TRGB, no rung.
+
+**The prediction:** as bright-siren (GW+EM counterpart) and dark-siren
+(GW+galaxy-catalog) samples reach ~1-2% by ~2030, the siren H0 converges into
+**[68.5, 71.5] km/s/Mpc** — consistent with the CMB/TRGB side, NOT with SH0ES
+(73.0 +/- 1.0). A siren H0 that consolidates at >=72 with the model's other
+data fixed falsifies the cornered-H0 program by the same logic as P-2026-001,
+through a channel with entirely different systematics.
+
+**Honest grade — SHARED, not unique:** any model that fits the joint stack to
+H0 ~ 70 makes this same siren prediction; it does not fingerprint PRTOE. Its
+value is (i) a second, systematics-independent instrument aimed at the one
+number the model cannot dodge, and (ii) a near-term, unhedgeable exposure. It
+is registered as a *commitment*, not a discriminator — the discriminators
+remain P-2026-005 (kinetic-medium) and P-2026-007/009 (dyad-specific).
+
+---
+
+## P-2026-011: The lepton/hadron varying-constant hierarchy — a FORCED ratio, parked in the same blind regime as P-2026-007
+
+**Registered:** 2026-07-07 19:37 MDT (git base: e5f9f455)
+**The structural fact (from the m_e-trigger EM-self-energy mechanism):** the
+dyad's constant shift is driven by the electromagnetic self-energy fraction of
+each species, NOT a universal Higgs-vev rescaling. Therefore the shift is
+strongly flavor/sector-ordered:
+  Delta m_e/m_e  ~=  Delta m_mu/m_mu  ~  +1.24%   (leptons, EM-self-energy dominated)
+  Delta m_p/m_p  ~  +0.075%                        (hadron, ~13x weaker, QCD-dominated mass)
+Consequence for the measurable ratios: **Delta mu/mu ~= +Delta m_e/m_e** (the
+proton is nearly fixed, so the mass ratio mu = m_e/m_p carries essentially the
+full electron shift), and Delta alpha/alpha is separately small. A UNIVERSAL
+vev shift, by contrast, moves all masses together (Delta m_e/m_e = Delta
+m_p/m_p) and gives Delta mu/mu ~ 0. The two mechanisms predict OPPOSITE
+hadron behavior.
+
+**The prediction (the falsifiable ratio):** wherever a genuine PRTOE constant
+shift exists, it must show the lepton-heavy pattern — leptons shifting ~13x
+more than the proton, mu carrying the full lepton shift. A measured varying-
+constant signal with Delta m_p/m_p ~ Delta m_e/m_e (equal shifts), or with
+hadrons shifting MORE than leptons, falsifies the EM-self-energy mechanism.
+
+**Honest grade — FORCED but PARKED (cousin of P-2026-007):** the shift only
+*exists* at its full amplitude in sub-threshold gas (voids/IGM) and at
+recombination — exactly the regimes where (i) no clean m_e/mu handle reaches
+(P-2026-007's enrichment-tracks-structure blind spot), and (ii) ANN-2026-006(a)
+showed a pure-m_e shift and a universal-vev shift are INDISTINGUISHABLE at
+recombination to five decimals (the reduced-mass suppression). So the ratio is
+a genuine forced structural claim that currently has no clean testing ground
+— it becomes live only when an instrument reaches sub-threshold gas AND
+resolves two mass species there (cosmic-dawn HI gives m_e via the 21-cm ~m_e^2
+handle of P-2026-007; a co-located molecular/mu handle would complete the
+ratio). Registered so the forced pattern is on record before any such
+measurement, not as an asset doing evidential work today.

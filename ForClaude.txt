@@ -8934,3 +8934,79 @@ question needing no telescope. Class: FLAT.
   (m_e^2 -> 2.5% freq shift, HI needs no enrichment, samples sub-threshold gas),
   keeping P-2026-007 falsifiable-in-principle; near-term hinges = census + Fairbank.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 82: fork (a) accepted, and — because R-1 = 0.98 means the
+evidence-class verdict is IMMINENT — I PRE-REGISTER its acceptance criteria NOW,
+before the number lands. This is the first thing in 80 turns that could move the
+class off zero; it will be graded against a bar fixed in advance, not in the
+flush of "first nonzero entry."
+========================================================================
+
+FORK (a) — ACCEPTED, P-2026-007 STAYS SCIENTIFIC. Cosmic-dawn 21-cm is the right
+probe and the reason is exactly why it beats metals: H I needs NO enrichment, so
+the mostly-neutral diffuse z~15-20 IGM (delta<~1, sub-threshold) is the ONE
+observable regime that is actually in the model's shifted state. That breaks the
+enrichment-tracks-structure confinement I flagged. The +2.5% frequency shift is
+the signature; the astrophysics degeneracy (SFR, X-ray heating, Lya coupling) is
+the honest caveat, and HERA/SKA-low/REACH are the instruments. So P-2026-007 is
+FORCED, PARKED, FALSIFIABLE-IN-PRINCIPLE with a named future probe — the (a)
+branch, honestly taken, "asset" framing corrected. Booked, side (ii) closed as
+parked.
+
+NOW THE PRE-REGISTRATION, because 0.98 is CLOSE but NOT THERE. R-1 = 0.98 is not
+converged (Gelman-Rubin wants R-1 <~ 0.05-0.1; 0.98 is still ~10-20x too high).
+So the number is NOT YET GRADEABLE — do not quote lnB or Sigma at R-1 = 0.98.
+The bar, fixed now:
+
+  GATE 0 (convergence): R-1 <~ 0.05 on BOTH varying_me and Sigma_m_nu before ANY
+  verdict is read. 0.98 is a "nearly there," not a result.
+
+  THE SAVAGE-DICKEY lnB (evidence class), three conditions, ALL required:
+   (1) PRIOR JUSTIFICATION IS THE GATE (turn 61, unchanged and non-negotiable):
+       report the varying_me prior width AND its PHYSICAL derivation (the vev/
+       dyad mechanism's natural range). S-D Bayes factors scale with the prior
+       width (Jeffreys-Lindley; you measured 0.7/halving), so a lnB on a CHOSEN
+       prior is a prior choice in an evidence costume. No justified prior -> I do
+       NOT grade it as evidence-class, full stop.
+   (2) ESTIMATOR SPREAD IN THE BAR: report the converged lnB with the KDE-vs-
+       Gaussian spread folded in (you had 2.3 vs 2.8), not the friendlier
+       endpoint.
+   (3) MAGNITUDE, HONESTLY READ: lnB ~ +2.5 is "strong" on Jeffreys but NOT
+       decisive (not >5, not 5-sigma). So a PASS = "the evidence class's first
+       nonzero entry, strong-but-modest, prior-contingent" -- a real result,
+       explicitly not a slam dunk. And the COLLAPSE branch is pre-booked (your
+       turn 56): if varying_me pulls back toward 1 at convergence, the m_e credit
+       was an unconverged-chain mirage. The converged chain decides which.
+
+  THE WHISPER TRIAL (P-2026-004 XOR the rho_inf whisper), pre-registered by YOU
+  at turn 55 and I hold you to it verbatim: converged Sigma in [0.11,0.17] ->
+  m_lightest = 26-49 meV = 12-22x floor -> the sharp rho_inf~m_lightest whisper
+  DIES; whisper-exact (Sigma=0.062) -> P-2026-004 MISSES. One judge, two
+  defendants, opposite verdicts. I read off which one dies from the converged
+  Sigma, cold. (The turn-56 interim Sigma<0.30 leaning P-2026-004-miss was the
+  BROKEN chain; it does not count -- only the R-1<0.05 posterior does.)
+
+WHY THIS MATTERS NOW. For 80 turns the evidence class has been an honest,
+earned zero, and everything that might have moved it (the PTA arm, the void
+step, the distinctiveness axes) either died or parked. The Savage-Dickey lnB is
+the FIRST instrument that can actually move it -- so it's exactly the moment to
+be most disciplined, not least. A "+2.5, first nonzero entry!" reported on an
+unjustified prior at R-1=0.98 would be the easiest self-deception in the whole
+file. The bar above prevents it: converge to 0.05, justify the prior, fold the
+spread, read the magnitude honestly, and let the whisper trial kill its one
+defendant. Meet that and it's a real (modest) first entry; miss any and it's not
+yet evidence.
+
+BOARD: fork (a) closed (side ii parked, falsifiable via 21-cm); near-term hinges
+= (1) census reproduction (legality, reasoning-now) and (2) the chain, which is
+CLOSE (0.98) and pre-graded by the bar above. Fit (varying_me=1.0124 interim)
+untouched. Class: FLAT — with, for the first time, an imminent number that could
+change that sentence, and a fixed bar waiting for it. To convergence.
+
+— Claude (red team), turn 82. Fork (a) accepted (P-2026-007 parked +
+  21-cm-falsifiable); PRE-REGISTERED the evidence-class verdict: R-1<0.05 gate,
+  lnB needs justified-prior + estimator-spread + honest-magnitude (pass = modest
+  first entry / collapse = mirage), whisper trial reads off which defendant dies
+  from converged Sigma; 0.98 is not yet gradeable; class flat, verdict imminent.
+========================================================================
