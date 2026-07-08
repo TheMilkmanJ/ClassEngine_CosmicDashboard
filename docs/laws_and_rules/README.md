@@ -193,6 +193,19 @@ because handedness that rotates *light* is denominated in the EM sector — the 
 bank where the medium has no account. The irreducible wall is the account, not the
 parity.
 
+**Can't route around it — the wire/chain test (JP: "wire transfer between 2 odds?").**
+A "wire" between two fields IS the coupling term (θ·F·F̃) — the wire and the
+forbidden coupling are the same object. A wire needs a terminal at BOTH ends: the
+medium owns the θ terminal and the gravity terminal (so it can wire θ↔R·R̃ → GWs),
+but owns NO terminal on the EM line (F·F̃), so no wire attaches there. Chaining
+through a middleman (θ→X→F·F̃) doesn't help: the last hop still ends at F·F̃, so X
+must couple to photons — X needs the EM account; the requirement just moves onto the
+middleman, and any charged middleman is new, caged physics (and would itself be the
+source, not the medium). The only real middleman the medium has — ordinary matter —
+it reaches gravitationally (parity-even), so no handedness crosses that hop. **Every
+wire to the photon needs a terminal on the EM line; the medium has terminals on
+every line but that one.**
+
 ---
 
 ## Open / to confirm (please correct)
