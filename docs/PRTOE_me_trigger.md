@@ -2177,3 +2177,36 @@ granule/Θ multi-stream field reduce to the same object in the two-field SP
 sims of task #8?). Registered as the corrected (structure-formation, not
 genesis) reading of "dark matter meets dark energy." Pinning Rule intact —
 nothing here is a registered prediction.
+
+## 59a. TEST RESULT — the §59 "same field" conjecture is FALSIFIED (2026-07-07, statistical)
+
+Ran the direct test (scratchpad dk_theta_test.py): built multi-stream wave-DM
+interference fields and correlated the density-fluctuation field (Θ = |ψ|²,
+granule power) against the kinetic-fluctuation field (δK = |∇ψ|²/2). Result,
+averaged over 12 realizations:
+  N=30 streams:  r(δρ, δK) = -0.009 ± 0.034
+  N=100 streams: r(δρ, δK) = +0.010 ± 0.030  (both consistent with ZERO)
+Single-stream control (N=1): both fields EXACTLY flat (Var=0), as required.
+
+**Verdict:**
+- **STRONG claim (δK = Θ, one field, "three jobs"): FALSIFIED.** The density
+  speckle and the kinetic speckle are spatially DECORRELATED (r≈0). Physical
+  reason: ρ=|ψ|² weights every mode-pair equally; T=|∇ψ|² weights pair (j,l) by
+  k_j·k_l, which is randomly signed over random stream directions — so the two
+  interference patterns are DIFFERENT random fields sharing the same modes.
+- **WEAK claim (both require multi-streaming to be nonzero — same on/off
+  condition): CONFIRMED.** N=1 → both zero; N>1 → both nonzero.
+- **UNTESTED (needs the task-8 dynamical sim): whether both rise together inside
+  a COLLAPSING region** (spatial co-trigger, as opposed to fine-grained
+  identity). This statistical test uses a homogeneous speckle box with no
+  large-scale structure gradient, so it cannot see co-trigger; only the
+  dynamical SP campaign can.
+
+**Consequence for the DM-DE bridge (§59):** the elegant "one field, three jobs"
+economy is DEAD. What survives is weaker and honest: the m_e-switch field (Θ)
+and the DE-funding field (δK) are DISTINCT fields that both switch on under the
+same CONDITION (multi-streaming / shell-crossing). Same parent event, different
+children — a shared trigger, NOT a shared identity. The bridge is real but
+demoted from "unification" to "co-occurrence." Booked as a falsification the
+same night the conjecture was raised; the Pinning Rule held (§59 was never
+registered as a prediction).

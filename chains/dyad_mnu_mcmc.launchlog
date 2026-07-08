@@ -743,3 +743,28 @@ candl: clearing all internal priors.
 [mcmc] Progress @ 2026-07-07 20:13:42 : 31062 steps taken, and 3594 accepted.
 [mcmc] Progress @ 2026-07-07 20:14:48 : 31132 steps taken, and 3603 accepted.
 [mcmc] Progress @ 2026-07-07 20:16:03 : 31200 steps taken, and 3613 accepted.
+[mcmc] Progress @ 2026-07-07 20:17:13 : 31265 steps taken, and 3622 accepted.
+[mcmc] Progress @ 2026-07-07 20:18:24 : 31310 steps taken, and 3628 accepted.
+[mcmc] Progress @ 2026-07-07 20:19:28 : 31378 steps taken, and 3636 accepted.
+[mcmc] Learn + convergence test @ 3640 samples accepted.
+[mcmc]  - Acceptance rate: 0.852
+[mcmc]  - Convergence of means: R-1 = 1.133286 after 2912 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2026-07-07 20:20:32 : 31456 steps taken, and 3648 accepted.
+[mcmc] Progress @ 2026-07-07 20:21:49 : 31537 steps taken, and 3659 accepted.
+[mcmc] Progress @ 2026-07-07 20:22:58 : 31580 steps taken, and 3664 accepted.
+[mcmc] Progress @ 2026-07-07 20:24:02 : 31591 steps taken, and 3666 accepted.
+[mcmc] Progress @ 2026-07-07 20:25:11 : 31685 steps taken, and 3680 accepted.
+[mcmc] Progress @ 2026-07-07 20:26:14 : 31741 steps taken, and 3687 accepted.
+[mcmc] Progress @ 2026-07-07 20:27:15 : 31790 steps taken, and 3693 accepted.
+[mcmc] Progress @ 2026-07-07 20:28:17 : 31829 steps taken, and 3699 accepted.
+[mcmc] Progress @ 2026-07-07 20:29:17 : 31903 steps taken, and 3708 accepted.
+[mcmc] Progress @ 2026-07-07 20:30:31 : 31934 steps taken, and 3712 accepted.
+[mcmc] Progress @ 2026-07-07 20:31:44 : 32010 steps taken, and 3721 accepted.
+[mcmc] Progress @ 2026-07-07 20:32:47 : 32043 steps taken, and 3725 accepted.
+[mcmc] Progress @ 2026-07-07 20:34:06 : 32059 steps taken, and 3728 accepted.
+[mcmc] Progress @ 2026-07-07 20:35:27 : 32116 steps taken, and 3736 accepted.
+[mcmc] Progress @ 2026-07-07 20:36:38 : 32151 steps taken, and 3741 accepted.
+[mcmc] Progress @ 2026-07-07 20:38:02 : 32213 steps taken, and 3748 accepted.
+[mcmc] Progress @ 2026-07-07 20:39:28 : 32267 steps taken, and 3755 accepted.
+[mcmc] Progress @ 2026-07-07 20:40:49 : 32323 steps taken, and 3763 accepted.
