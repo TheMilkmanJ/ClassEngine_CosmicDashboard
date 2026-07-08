@@ -163,3 +163,21 @@ flavor must be matter's own — the medium has no organ to make it.
 - Deuterium: unified with m_e (one coupling), rides the BBN→recomb field ratio.
 - Three live walls: #14 (c=1 loop calc), #8 (granule sim → dice roll + c),
   #6 (Fairbank convergence). All calculation/simulation, no fog.
+
+---
+
+## SESSION UPDATE — #11 analytic backbone (2026-07-08): the amplitude PINS the mass
+
+`scripts/amplitude_11_analytic.py` (fast/analytic, completes in-sandbox; the stiff
+genesis ODE for f_amp still needs WSL). Result:
+- **Psi0 ~ 5e16 GeV is DERIVED from the DM abundance** (leading-order misalignment,
+  rho_dm0 = 1/2 m^2 Psi0^2 a_osc^3, a_osc from H=m). Confirms the traced value.
+- eps = c*f_amp*(Psi0/M_red) lands in the **right decade (1-5%) from abundance alone**.
+- Demanding **eps = 1.24%** (c=1, f_amp=0.6) **PINS the mass: m ~ 2e-20 eV** (Psi0/M_red
+  = 2.07%, matching the traced pair). The amplitude program is internally self-consistent
+  and corresponds to m ~ 2e-20 eV, NOT the 1e-21 fuzzy-DM fiducial we had loosely quoted.
+- **This converts the fit into a prediction / advances #9 (mass pin):** abundance fixes
+  Psi0; eps=1.24% then pins m to the ~1e-20 decade. Falsifiable, and consistent with the
+  Lyman-alpha fuzzy-DM floor (~2e-21 eV, so allowed).
+- **OWED (factor-level, not order-level):** f_amp from the genesis orbit (WSL ODE), c from
+  the #14 loop, O(1) misalignment factors (~2x). These move the pinned m by factors.
