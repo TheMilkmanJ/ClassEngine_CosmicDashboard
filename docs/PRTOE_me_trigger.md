@@ -2961,3 +2961,32 @@ dial. So: does the coupling have a dial? Effective-action calc is the referee.
 NO dial → operator wins, c=1 was never free, the tilt was the whole story.
 HAS dial → §81 stands. Live bet, honestly logged; §81 not retracted, now
 contested.
+
+## 83. Inverting the amplitude reads the dice roll — and BREAKS the §77 degeneracy (operator)
+
+**Operator: "tying c to tilt might also tell us the actual dice roll on the
+tilt."** Correct, and bigger than it looks — it breaks §77.
+
+**BREAKS §77:** §77 called c permanently degenerate with the amplitude (no
+observable isolates it). WRONG. The granule sim (task #8) measures f_amp
+INDEPENDENTLY (dwarf heating, no c dependence). Then **c = ε/(f_amp,granule ×
+Ψ₀/M_red)** — c ISOLATED. The granule sim IS the independent handle §77 denied.
+
+**Reads the dice roll:** if c=1 (§82), the amplitude inverts to our universe's
+ACTUAL genesis draw (previously known only as a distribution):
+- f_amp = ε/(Ψ₀/M_red) = **0.56 ± 0.22** (our roll; sits in the dice median
+  0.55-0.67 → typical universe), f_rot = 0.44, granule S ≈ 0.60. Preliminary
+  (37% amplitude error), tightens with Fairbank.
+
+**Task #8 now does TRIPLE duty** — one f_amp measurement:
+1. ISOLATES c (breaks §77);
+2. REFEREES §81-vs-§82 WITH DATA (not just the effective-action calc): granule
+   f_amp ≈ 0.56 → c=1 confirmed (operator's §82 wins); ≠ 0.56 → c has a dial
+   (§81), c = ε/(f_amp,granule × Ψ₀/M_red);
+3. PINS our universe's genesis dice roll (f_amp, f_rot, tilt).
+
+**Consequence:** the c=1 question no longer REQUIRES the hard effective-action
+calc — the granule data can referee it. §77's "no independent handle" is
+retracted; the handle is the granule sim's independent f_amp. Credited to the
+operator — turned the granule sim from "gates the ε-meter" into "settles whether
+the electron mass has a free dial AND reads the cosmic dice roll."
