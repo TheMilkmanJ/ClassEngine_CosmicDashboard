@@ -1074,3 +1074,16 @@ DM->DE regime change is DENSITY-driven (rho_matter dilutes to rho_floor). SEPARA
 the neutrino relativistic->non-relativistic transition (w_nu:1/3->0, z~12-300) IS its own regime
 change and fits the threshold-crossing framework (T_nu=m_nu, gradual, tied to H) -- just distinct
 from the DE onset. So P-012 is a SCALE coincidence (testable), not a claim that neutrinos trigger DE.
+
+**MECHANISM WORKED OUT (2026-07-08, JP "let's work out the causal floor"): THE CENSUS BLOCKS IT.**
+The causal version of P-012 = growing neutrino quintessence (neutrinos brake the rolling field,
+setting where it stops; the field's own potential supplies the DE energy -- JP's "increment not
+drive"). To brake the field, the neutrino force must match the potential slope: beta*rho_nu ~
+rho_Lambda => **beta ~ rho_Lambda/rho_nu ~ 500** (because rho_nu is ~0.2% of rho_Lambda, its
+gradient must be ~500x enhanced). BUT the census-legal neutrino coupling is the conformal coupling
+c~1 (gravitational) => **beta ~ 1 -- 500x too weak.** So the census FORBIDS the strong coupling a
+causal neutrino-floor needs. **P-012 has NO census-legal causal mechanism:** it is either (a) a bare
+scale coincidence (no mechanism), or (b) requires relaxing the census (major cost, like the
+birefringence dark-photon). P-012 stays a coincidence to TEST, not a mechanism the model DERIVES.
+THEME: the census (c~1, gravity-only) keeps forbidding wanted connections -- birefringence, and now
+the causal neutrino-floor. Strong constraint = predictive power AND blocked explanations.
