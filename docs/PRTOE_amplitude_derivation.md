@@ -302,3 +302,23 @@ costs the mutual-exclusion theorem; 2.9sigma hint, not a detection).
 **CONCRETE TEST:** the SHAPE of w(z). Prediction: a smooth MONOTONIC gradual crossover to -1
 (not a step, wiggle, or bump-return). DESI/Euclid measure the shape -> supports or breaks the
 "always gradual + approaching-attractor" picture. First falsifiable DE-shape prediction.
+
+## RETRACTION (2026-07-08) — the DESI "regime change caught live" reframe was WRONG
+
+Red-team turn 89 objection #2 adjudicated and UPHELD. The DESI reframe (w evolving = the
+late regime change, threat->confirmation) CONTRADICTED the mutual-exclusion theorem
+(ANN-2026-008), and the theorem WINS -- it is LSS-derived, not fiat: observable DE drift
+nu~1e-3 requires a core scale M_eff~6.6e-25 eV (l_dB~90 kpc) => galaxies could not exist.
+Galaxies exist => nu<=1e-8 => NO observable DE thawing.
+**The error (mine):** conflated two w's. The dCDF "w:0->-1" is the TOTAL/effective medium
+w, running because the floor's DENSITY overtakes the condensate (a density handover). The
+DE COMPONENT itself (sign-locked funded floor) is w=-1 ALWAYS (nu<=1e-8). DESI measures the
+DE-component w = -1, flat. So the model predicts NO thawing; a confirmed DESI thawing is a
+THREAT that falsifies (its ORIGINAL status), NOT a live confirmation. RETRACTED.
+**Survives (corrected):** we ARE witnessing the late regime change -- but the observable is
+the DENSITY HANDOVER (Omega_DE overtaking Omega_DM, the accelerated expansion, H(z)/Omega(z)),
+NOT w_DE evolution.
+**Also downgraded:** the "smooth w(z) crossover to -1" prediction assumed observable
+DE-component w-evolution; the theorem forbids it IF the settling shares the m̄₂² operator with
+the drift (likely). DOWNGRADED to uncertain pending: is the field's SETTLING onto the floor a
+separate process from the floor's DRIFT? Owed.
