@@ -255,6 +255,19 @@ Every fermion the medium's U(1) acts on has EM charge = 0, so the coefficient is
 enlarge. E·B is the destination; the missing piece is the medium's ticket into the
 EM sector (EM charge), a fixed structural fact no coupling/regime/channel confers.
 
+**Why a regime change can't unstick the zero (JP: "give 0 and F·F̃ their own place
+to couple, during a regime change").** True in general that a phase transition can
+generate new couplings — but the birefringence coupling is an ANOMALY, and anomalies
+obey **'t Hooft anomaly matching**: the coefficient is a fixed, conserved number that
+must be IDENTICAL in every phase (before/during/after any regime change), like a
+charge. So g_UV = Σ q_dark·Q_EM² = 0 ⇒ g = 0 in every phase, provably, forever — the
+regime change is the one place a theorem *guarantees* the zero survives, not where it
+can grow. (The medium's anomaly IS nonzero with gravity — θ·R·R̃ → gravitational
+waves — but each anomaly coefficient is separately UV-fixed and matched; a transition
+cannot move it from the gravity slot into the EM slot.) **Strongest form: not just
+"the medium has no EM charge," but "no phase transition can give it one where it
+counts, because the anomaly is matched across all of them."**
+
 ---
 
 ## Open / to confirm (please correct)
