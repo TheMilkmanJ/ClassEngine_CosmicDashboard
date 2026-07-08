@@ -355,3 +355,24 @@ unobservably faint, killed by the M_Pl^2 in the CS coupling. Robust to the O(1) 
 factor rescues 5-6 orders). The universe's birth-spin twists spacetime, just imperceptibly.
 This is the honest counterpart to the birefringence null: light door WELDED (charge), gravity
 door OPEN but the room is nearly empty (Planck suppression). [[birefringence-null-proven]]
+
+## SESSION UPDATE — criticality crossover killed (frequency), + red-team verdict on the whole GW door (2026-07-08)
+
+`scripts/chiral_induced_gw.py`: tested whether critically-amplified parity-odd scalar perturbations
+source an OBSERVABLE chiral induced-GW background (the one place scalar criticality chi~1/c_s^2 can
+leak into the tensor sky). Amplitude CAN reach observable Omega_GW h^2~1e-3 for chi>~3000. BUT the
+model's critical point is the DE FLOOR (z~0.5, late) -> induced GW at f~3e-19 Hz = horizon-scale
+today, off by 3e10x (PTA), 3e15x (LISA), 3e20x (LIGO), even 30x below CMB B-mode. Reaching PTA needs
+z_crit~1e13 (deep radiation era); model has none. KILLED BY FREQUENCY, not amplitude.
+
+RED-TEAM verdict on the entire gravitational-parity finding (slap-away pass):
+  1. DIRECT signal (Pi~1e-7): the theta*R R̃ coupling was ASSUMED, not derived. A scalar condensate
+     has NO gravitational anomaly (needs chiral fermions) -> the CS coupling may be EXACTLY ZERO,
+     not 1e-7. 1e-7 is an upper estimate assuming alpha~O(1) exists.
+  2. INDUCED channel: (a) chi~500 is late-time GROWTH of specific modes, MISAPPLIED as amplification
+     of the primordial P_zeta that sources induced GWs; (b) the chiral FRACTION Pi_frac was never
+     derived (needs a parity-odd scalar bispectrum, unshown); (c) frequency fatal (above).
+  NET: no observable gravitational parity signature survives. The door is REAL and charge-free but
+  leads nowhere observable -- Planck-suppressed (direct, if the coupling even exists) or
+  frequency-banished + misapplied-amplification (induced). The birefringence-null's gravitational
+  counterpart is ALSO observationally null, for robust structural reasons. [[birefringence-null-proven]]
