@@ -10,7 +10,7 @@ outperforms ΛCDM on the full joint CMB+BAO+SN stack, the cosmological
 squeeze on Σm_ν relaxes substantially: the χ² penalty for
 Σm_ν = 0.12 eV collapses from ~+12 (ΛCDM-like configuration) to
 **+2.8**, and the marginalized 95% upper limit comes out at
-**< 0.176 eV (95%, preliminary post-burn-in; official convergence pending)** — versus
+**< ~0.15–0.17 eV (95%, PRELIMINARY, burn-in-sensitive and still drifting down; official convergence pending, R-1~1.06)** — versus
 the ~0.07–0.10 eV squeeze increasingly quoted in ΛCDM-conditional
 analyses. If this model class is right, **the inverted mass ordering —
 nEXO's natural target — remains cosmologically open.** The prediction
@@ -25,7 +25,7 @@ contaminated, so these are marked PRELIMINARY, not for circulation).*
 
 | quantity | value |
 |---|---|
-| Σm_ν (95% upper) | **< 0.176 eV** (P-2026-004 window [0.11,0.17]; landing at the top edge, ~0.006 eV above) |
+| Σm_ν (95% upper) | **< ~0.15–0.17 eV** (preliminary, drifting down; now landing INSIDE (P-2026-004 window [0.11,0.17]; landing at the top edge, ~0.006 eV above) |
 | m_e/m_e,0 | 1.0125 ± 0.0044 (2.9σ from ΛCDM's 1.0) |
 | H0 | 70.11 ± 0.66 |
 | S8 | 0.822 ± 0.009 (toward KiDS-Legacy) |
