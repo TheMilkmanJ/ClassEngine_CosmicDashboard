@@ -39,7 +39,7 @@ dead, and the corpse ledger is public.
 | 10 | Superfluidity & BEC | Son isomorphism; two-fluid; KR beat; lab receipts | The identity itself |
 | 11 | Particle physics | Affleck-Dine genesis; coupling census closed | Gravity-only = theorem-grade |
 | 12 | Black holes | Superradiance margin; de-condensation at 1.8393 r_s | Shielded, twice |
-| 13 | GW & pulsar timing | ε collision priced (~6:1 → ~4:1) | The PTA channel watches |
+| 13 | GW & pulsar timing | ε collision (ANN-2026-010) | **PTA channel DEAD by mass** (ANN-2026-011); granule meter carries ε |
 | 14 | Galactic dynamics | SIDM/SPARC; FDM-inherited verdicts; granules | V1–V3 inherited, V5 alive |
 | 15 | Inflation & genesis | Isocurvature pins; chaotic release; THE DICE | P(f_amp>0.2) ≈ 78–86% |
 | 16 | Chaos & ergodic theory | The One Mountain; microcanonical backbone | Backbone on trial (h-scan) |
@@ -290,17 +290,21 @@ the shield is the same scar the genesis left.**
 
 ## 13. Gravitational waves & pulsar timing
 
-The PTA band is where the genesis becomes falsifiable. The KR beat
-(Ψ ~ 10⁻¹⁵ × the beat factor against PTA reach 2×10⁻¹⁶) is the light-edge
-test; ANN-2026-010 booked the ε collision — two registered items on
-opposite sides of one number — priced at ~6:1 that the PTA channel fires
-vs ~14% that P-2026-005's silence survives (softened to ~4:1 by the
-ergodic analytic). Also booked as a null: the chaotic genesis itself left
-no observable stochastic background (the medium is ~5×10⁻⁴ of total
-density at release; GW production scales as the fraction squared).
+**STATUS UPDATED (reconciliation audit, ANN-2026-011): the PTA beat channel
+is DEAD BY MASS.** The KR beat (Ψ ~ 10⁻¹⁵ × beat factor) was the light-edge
+test, and ANN-2026-010 originally priced the ε collision at ~6:1 that PTA
+fires. But the morning reconciliation audit pinned the mass band to
+[1,3]×10⁻²¹ eV — where beat_needed = 10–90 while the observable beat
+saturates at 1. So the beat is undetectable at every surviving mass, the
+~6:1 / 33% detection pricing is DEAD, and P-2026-005's PTA-silence survives
+**by the mass gate**, not by the collision (the 4th Pinning-Rule firing,
+pre-called by E7a-CAVEAT). The medium almost certainly rings (P(f_amp>0.2)
+→ 100% at h=1e4) — at a pitch PTAs cannot hear. Also a genuine null: the
+chaotic genesis left no observable stochastic background (fraction² tiny).
 
-**Verdict: the model's cleanest near-term exposure; which edge tests it is
-an output of the m-posterior, not a choice.**
+**Verdict: PTA is a KILLED-BY corpse (dead by mass); the ε-meter role passed
+entirely to the GRANULE channel (§14). The model's cleanest near-term GW-
+adjacent exposure is now superradiance (§12 discriminator), NOT pulsar timing.**
 
 ## 14. Galactic dynamics & dark-matter phenomenology
 
