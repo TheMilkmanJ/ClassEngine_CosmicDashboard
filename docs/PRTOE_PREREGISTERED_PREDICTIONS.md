@@ -1026,3 +1026,41 @@ robust**, reducing to a single checkable number: **z_x, the condensation
 redshift.** z_x ~ 1e5 → null holds (five ways over); z_x ~ 3500 → a small
 suppressed isotropic signal becomes allowed. The birefringence fate is a *side
 output* of the #11 condensation calc we already owe (which also sets Ψ₀, f_amp).
+
+---
+
+## P-2026-012: The lightest neutrino mass = the dark-energy floor scale (the neutrino-funded floor, pre-registered 2026-07-08)
+
+**The claim (CONDITIONAL, disciplined pre-registration):** IF the dCDF dark-energy
+floor is neutrino-funded (MaVaN-style — the medium's census-legal conformal coupling to
+m_nu stalls the field when neutrinos go non-relativistic), then the floor SCALE is set by
+the neutrino mass:
+  **m_lightest = rho_Lambda^(1/4) = 2.24 meV**
+
+**The math (scripts: inline, 2026-07-08):** rho_Lambda = Omega_Lambda * rho_crit =>
+rho_Lambda^(1/4) = 2.24 meV. With the FIXED oscillation splittings (dm2_sol=7.4e-5,
+dm2_atm=2.5e-3 eV^2):
+| quantity | Normal hierarchy | Inverted hierarchy |
+|---|---|---|
+| m_lightest | 2.24 meV | 2.24 meV |
+| **Sum m_nu** | **0.061 eV** | **0.103 eV** |
+| m_beta (KATRIN-type) | 9.1 meV | ~50 meV |
+
+**Falsification (both ways, per the registry rule):**
+- KILLED by: Sum m_nu measured >> 0.10 eV (excludes both hierarchies); OR m_lightest pinned
+  != 2.24 meV (0nubb / precision cosmology finding it consistent with 0 to <<2 meV, or much
+  larger); OR the DE floor shown NOT neutrino-funded (then the conditional is void, prediction
+  withdrawn -- not falsified, just inapplicable).
+- SUPPORTED by: Sum m_nu ~ 0.06 eV with a small nonzero m_lightest ~ 2 meV (normal hierarchy).
+
+**Status:** CONSISTENT with current data -- this chain's preliminary upper limit ~0.13 eV
+allows both hierarchies (NH comfortably). Distinctive content: m_lightest is NONZERO but
+SMALL (~2.24 meV, not 0, not large) -- testable by neutrinoless double-beta decay + precision
+cosmology (CMB-S4/DESI reach ~0.02 eV on Sum m_nu).
+
+**HONEST CAVEATS:** (1) CONDITIONAL on the floor being neutrino-funded (unconfirmed thread,
+alive-but-unpromoted). (2) m_lightest = rho_Lambda^(1/4) is ONE clean realization of "floor
+scale = neutrino scale"; other relations (Sum/3, Delta-m^2-based) give different numbers -- this
+is the minimal/cleanest choice. (3) Does not by itself fix the hierarchy (both work at
+m_lightest=2.24 meV); cosmology mildly prefers NH. Pre-registered BEFORE a Sum m_nu detection,
+as the registry requires.
