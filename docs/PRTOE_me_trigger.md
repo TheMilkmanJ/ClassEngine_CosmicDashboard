@@ -2210,3 +2210,43 @@ children — a shared trigger, NOT a shared identity. The bridge is real but
 demoted from "unification" to "co-occurrence." Booked as a falsification the
 same night the conjecture was raised; the Pinning Rule held (§59 was never
 registered as a prediction).
+
+## 60. The two amplitude factors ARE the two couplers (operator, 2026-07-07) — gravity × EM, the ledger's two channels
+
+**Operator's identification:** the amplitude's two factors are the model's two
+couplers — "EM to the matter, gravity to space."
+
+**It holds structurally:**
+- **Factor 1 = displacement = Ψ₀/M_Pl.** The denominator is the Planck mass =
+  the GRAVITATIONAL scale (G = 1/M_Pl²). "Ψ₀ in Planck units" IS the medium's
+  gravitational registration. → the GRAVITY coupler (medium ↔ space).
+- **Factor 2 = coupling = the EM-self-energy response.** How the electron's own
+  electromagnetic mass is reweighted. → the EM coupler (shift realized in matter).
+
+  **1.24% = (Ψ₀/M_Pl) × (EM response) = (gravity coupler) × (EM coupler).**
+
+**Census-legal (why it avoids the Path-A grave):** the two couplers do two
+DIFFERENT jobs in sequence, so the medium never touches matter with EM directly:
+- GRAVITY POSTS the trigger — the medium registers in space (Θ / shell-crossing),
+  gravitationally. The only thing the medium itself does.
+- MATTER'S OWN EM REALIZES it — the electron self-energy responds. The EM factor
+  is matter's INTERNAL clearinghouse responding to a gravitational signal, not
+  the medium reaching into matter. (Consistent with the census + the discrete
+  switch of ANN-2026-013 / §58.)
+
+**Explains the factor structure:** exactly TWO factors because exactly TWO steps
+in the transaction — gravity posts, EM pays — which are the two couplers. The
+product structure is the ledger's two channels, not a coincidence.
+
+**HONEST GRADE — structural interpretation, NOT a derivation:**
+- Names the factors (gravity × EM) in the model's own language; does NOT derive
+  the number.
+- Factor 1 still un-pinned: Ψ₀ is abundance-anchored, not genesis-derived (the
+  ~42-order genesis under-determination stands).
+- Factor 2 still un-pinned: its IDENTITY is now clear (EM self-energy response),
+  but its MAGNITUDE (why O(1) not α-suppressed) is the unsolved magnitude-vs-
+  flavor tension.
+- Converts "why two factors?" → "the two couplers" (real). Does NOT crack "why
+  1.24% exactly?" (open). The amplitude is now the medium's two ledger channels
+  multiplied — gravity to space, EM to matter — the most coherent framing the
+  amplitude has had. Credited to the operator.
