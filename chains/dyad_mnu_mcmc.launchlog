@@ -883,3 +883,6 @@ candl: clearing all internal priors.
 [mcmc]  - Updated covariance matrix of proposal pdf.
 [mcmc] Progress @ 2026-07-07 22:42:14 : 39216 steps taken, and 4681 accepted.
 [mcmc] Progress @ 2026-07-07 22:43:38 : 39274 steps taken, and 4689 accepted.
+[mcmc] Progress @ 2026-07-07 22:44:45 : 39329 steps taken, and 4696 accepted.
+[mcmc] Progress @ 2026-07-07 22:45:56 : 39406 steps taken, and 4707 accepted.
+[mcmc] Progress @ 2026-07-07 22:46:56 : 39427 steps taken, and 4710 accepted.

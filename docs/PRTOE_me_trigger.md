@@ -2815,3 +2815,31 @@ gravity and not 0.6" is not written in any observable; it's in the effective-
 action calc (pure gravity → c=1, independent of the measured amplitude). The
 staff know the value inside-out; they don't hold the reason. Survey credited to
 the operator; the c error budget (±0.38, ε-dominated) is a new result.
+
+## 78. "Who's out back?" (operator) — the rate-setter candidate is the equivalence principle
+
+**Operator: "gravity is the back door where the money moves out; the staff never
+see it; who's out back?"**
+
+**Correction (per §71, uncollectable):** out back, no money MOVES — a RATE gets
+SET. The back room is the rate-setting office: gravity fixes the exchange rate c;
+the front-of-house staff run trades at that rate but never see it set (rate-
+setting isn't an observable transaction). This IS why the staff can't derive c
+(§77 degeneracy) — they see trades, not the rate board.
+
+**Who's out back — the EQUIVALENCE PRINCIPLE (candidate).** The EP is gravity's
+refusal to play favorites: every mass couples to gravity identically, no per-
+customer dial. If the medium reaches matter ONLY through gravity (census, the
+only door), then its coupling to m_e is set by the one entity that gives no
+special rate — gravity at its universal strength → c = 1. Not a person, a
+principle: gravity can't price-discriminate, so one rate for everybody, and it's
+gravitational.
+
+**HONEST KICKER — the back room is DARK:** nobody has done the effective-action
+calc, so the EP-as-rate-setter is INFERRED, not seen. And a known puzzle waits:
+the EP applied to MOTION gives only the ~10⁻⁵ redshift effect, NOT the 2.2% mass-
+RESCALING needed. So either the EP sets c through a subtler channel than free-
+fall, or a different manager is back there. **We know the door (gravity) and
+suspect the rate-setter (EP); we haven't confirmed how it gets from "no favorites"
+to "2.2%."** Narrows "why c=1" to "confirm the EP is the rate-setter" — a
+nameable check (the effective-action calc). Credited to the operator.
