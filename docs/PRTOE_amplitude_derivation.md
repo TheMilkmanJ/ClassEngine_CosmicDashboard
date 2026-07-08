@@ -225,3 +225,17 @@ compute xi (hard theory), measure m (fuzzy-DM astro), or the granule sim (#8).
 Z4 dice (~0.6), c a bounded soft-dial degenerate with m. The 1.24% is now a **derived
 relation between two ultralight-sector numbers (c, m)**, not a free fit -- a constraint
 surface with two astrophysical ways to close it.
+
+## SESSION UPDATE — c-m degeneracy BROKEN by fuzzy-DM data (2026-07-08)
+
+c-m curve (f_amp=0.6): **c(m) = (m / 2.24e-20 eV)^(1/4)**; naturalness c<~1 => m <~ 2.24e-20 eV.
+Fuzzy-DM lower bounds: Lyman-alpha (Rogers&Peiris 2021) m>2e-20 eV (95%); UFD (Dalal&Kravtsov
+2022) m>3e-19 eV (99%, stronger but more model-dependent).
+- **NEAR-COINCIDENCE:** the model's natural ceiling (2.24e-20) sits right at the Lyman-alpha
+  floor (2e-20) -> model cornered to m~2e-20 eV, **PREDICTS c~0.97-1.0**. Measured c=0.93+-0.38
+  confirms. FIVE independent lines (amplitude, abundance, naturalness, Lyman-a, measured c)
+  converge on (m~2e-20 eV, c~1). Degeneracy broken; c pinned ~1, no longer a free dial.
+- **THREAT (3rd):** the UFD bound (m>3e-19) would force c~1.9 -- mildly unnatural AND ~2.5sigma
+  against the measured c. If UFD holds (debated), real tension. 
+- **#6 is now a SHARP test:** as c tightens from +-0.38, it either nails c~1 (confirms corner)
+  or drifts low (m below Lyman-a floor -> tension).
