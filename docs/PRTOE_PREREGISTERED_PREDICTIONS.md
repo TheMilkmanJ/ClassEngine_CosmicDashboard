@@ -964,3 +964,65 @@ question) — currently NOT the leading reading.
 varying-constant prediction is now "all constants shift together," and the
 deuterium heal (universal small shift at BBN) rides the same one coupling as m_e
 (unification, §92) contingent on the BBN→recombination field-value ratio.
+
+---
+
+## ANN-2026-016: Room-2 confrontation — the universal varying-constant prediction is CONSTRAINED; screening now MANDATORY (2026-07-08)
+
+**Recorded:** 2026-07-08 (git base: 5845d9d3)
+**The confrontation:** after P-2026-011's retraction (ANN-2026-015), the model
+predicts UNIVERSAL varying-constants. If the shift tracks the condensate order
+parameter everywhere (δ ∝ |Ψ| ∝ (1+z)^{3/2}, normalized to 1.24% at recombination),
+it predicts a low-z drift confronted against existing data:
+| probe | z | model | bound | verdict |
+|---|---|---|---|---|
+| H2 absorption (μ) | 2.5 | 2e-6 | 5e-6 | OK |
+| methanol maser (μ) | 0.89 | 9e-7 | 1e-7 | TENSION ~9× |
+| Oklo (α) | 0.14 | 4e-7 | 1e-7 | TENSION ~4× |
+| atomic clocks (α) | 0 | 3e-7 | 1e-7 | TENSION ~2× |
+
+**Verdict:** the "everywhere" reading is MILDLY EXCLUDED (2–9×). The data bites.
+It FORCES the ENVIRONMENTAL SCREENING (Θ switch, P-2026-007): masers/H2/Oklo/
+clocks all sit in dense/structured gas or on Earth → screened → lab value →
+consistent. **Screening is now DATA-REQUIRED, not optional.** The naive
+condensate-drifts-everywhere version is out.
+**Double-edge:** screening saves the model AND re-parks the prediction — the only
+clean surviving test is cosmic-dawn 21-cm (diffuse HI, P-2026-007's falsification
+path). The model sits RIGHT AT current sensitivity; near-future maser/clock gains
+are decisive. First data-confrontation of the post-P-011 universal prediction.
+
+---
+
+## ANN-2026-017: P-2026-009's ONE escape window priced and CLOSED at the model's z_x — birefringence rides the residual normal fraction, which dies ~8 orders before recombination (2026-07-08)
+
+**Recorded:** 2026-07-08 (operator's push: "can it happen during the regime
+change / until recombination?"). Five escape routes for a model-sourced
+birefringence were stress-tested; four die on distinct physics (isotropy,
+timing, scrambling, parity — the multiverse/early-regime/radiation-era attempts,
+see me_trigger). The fifth — a residual OPEN account surviving *to* recombination
+— is the only structurally-allowed one (coupling allowed while account open,
+uniform → isotropic, present when the CMB is born). It is now PRICED.
+
+**The mechanism:** the parity-odd coupling rides the NORMAL fraction f_n (the
+still-massless, w=1/3, un-condensed part). In a two-fluid superfluid f_n dies as
+(T/T_c)^n below condensation (n=4 for a phonon branch ρ_n∝T⁴, the slowest-dying
+case; a gapped branch dies exponentially). With T/T_c = (1+z)/(1+z_x):
+  **f_n(z_rec) = ((1+z_rec)/(1+z_x))^n**   (scripts/birefringence_window.py)
+
+**The number (z_rec = 1100):**
+| z_x | f_n(rec), n=4 | f_n(rec), n=2 |
+|---|---|---|
+| **1e5 (the model's value)** | **1.5e-8** | 1.2e-4 |
+| 3400 (equality) | 1.1e-2 | 1.1e-1 |
+| 1500 | 2.9e-1 | 5.4e-1 |
+Window reaches f_n = 1% only at **z_x ≈ 3500 (n=4)** — ~30× below the model's z_x.
+
+**Verdict:** at the model's condensation redshift (z_x ~ 1e5) the open account is
+dead ~8 orders of magnitude before recombination → any birefringence imprinted
+there is suppressed ~1e-8 → **the window is CLOSED.** It cracks open only if the
+genesis calc (#11) pins z_x near matter-radiation equality (~few×10³), ~30×
+lower than the current value. So P-2026-009's null is now **quantitatively
+robust**, reducing to a single checkable number: **z_x, the condensation
+redshift.** z_x ~ 1e5 → null holds (five ways over); z_x ~ 3500 → a small
+suppressed isotropic signal becomes allowed. The birefringence fate is a *side
+output* of the #11 condensation calc we already owe (which also sets Ψ₀, f_amp).

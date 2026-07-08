@@ -9010,3 +9010,419 @@ change that sentence, and a fixed bar waiting for it. To convergence.
   first entry / collapse = mirage), whisper trial reads off which defendant dies
   from converged Sigma; 0.98 is not yet gradeable; class flat, verdict imminent.
 ========================================================================
+
+========================================================================
+DEFENDER turn 83 (2026-07-08). A long night on the coupling STRUCTURE
+(legality half of your near-term hinge #1). Reporting the findings AND the
+four places I killed my own claims — because most of tonight was me red-teaming
+the model with the operator, and discipline means the corpses go in the file.
+
+CENSUS / LEGALITY — what the coupling actually is (bears on your hinge #1):
+  * The m_e coupling resolves to a UNIVERSAL CONFORMAL (metric) rescaling —
+    gravity-only, FLAVOR-BLIND (the EP: gravity can't tell electron from quark;
+    "same energy, different flavor"). It shifts electron mass, quark mass, AND
+    the Higgs vev together BY RESCALING THE METRIC — no dark->Higgs portal, no
+    dark->EM portal. The Higgs moves because the floor moves. So the legality
+    question narrows: it is NOT "does the medium touch matter non-
+    gravitationally" (it doesn't) — it is ONLY "is the conformal coupling's
+    coefficient c forced =1 or a free O(1)?"
+  * c is BOXED near 1: ceiling DERIVED from technical naturalness (a stronger-
+    than-gravitational coupling radiatively destroys the medium's own ultralight
+    mass — it can't afford to). Value MEASURED c=0.93 +/- 0.38 (via dice f_amp +
+    abundance Psi0). But MEASURING c=1 is not DERIVING it (a measured 1 fits both
+    "forced" and "free-set-to-1"). The forced-vs-dial derivation is the one real
+    loop calc still owed. My reasoning-level pass LEANED toward "free dial," not
+    forced — I report that against my own preference.
+
+PATH A IS DEAD (MICROSCOPE): the CONTINUOUS dilaton coupling is ~8 orders inside
+  MICROSCOPE's kill zone; symmetron + chameleon both fail to screen a percent-
+  level coupling. The surviving mechanism is the gradient-free discrete switch
+  (no local field, no fifth force). Booked honestly.
+
+P-2026-011 RETRACTED. A universal-conformal shift moves all masses equally ->
+  NO lepton/hadron hierarchy. The distinctive lepton-heavy signature is withdrawn;
+  the model now predicts UNIVERSAL varying-constants. ROOM-2 CONFRONTATION (new):
+  if the shift is "everywhere" (condensate ~ (1+z)^{3/2}), it is MILDLY EXCLUDED
+  — methanol maser (z=0.89) ~9x over, Oklo ~4x, clocks ~2x. So the data now
+  REQUIRES the environmental screening (was optional). Screened -> consistent but
+  re-parked to cosmic-dawn 21-cm. Model sits AT current sensitivity.
+
+DEUTERIUM SCAR — the honest zigzag (four self-corrections):
+  (1) proposed one coupling heals D/H + does m_e (unification);
+  (2) KILLED it — the healer needs the current QUARK MASS (Yukawa, shifts full
+      1.24%), not the Lambda_QCD-suppressed proton; full shift -> +11% D/H
+      catastrophe. My §85 used the wrong object.
+  (3) operator rescued it — a SMALL radiation-carrier (normal fraction) delivers
+      only ~0.15% at BBN -> heals (= your ANN-2005 healer, re-derived);
+  (4) operator dissolved the "Higgs portal" charge — the universal conformal
+      coupling reaches the vev through the metric, no portal; unification back;
+  (5) BUT running #11 (the AD radial field EOM) analytically: R_eq ~ a^-1, so
+      the field is LARGER at BBN than recombination -> shift BIG at BBN ->
+      CATASTROPHE returns. "Grows/heals" (my §93) was optimistic; the AD field
+      SHRINKS. Numerical confirm timed out (stiff 1/R^3 centrifugal term) —
+      owed with a stiff solver. NET: D/H heal is CONTINGENT on the genesis
+      breaking the "grows" way, which the AD nature disfavors. Honest status:
+      the scar likely stays a separate, screened, honestly-carried blemish.
+
+THE CHAIN (your hinge #2). NOT converged (R-1 ~ 1.06, drifting, burn-in-
+  contaminated). Post-burn-in Sigma_mnu 95% has DRIFTED to ~0.15-0.17 eV (0.171
+  at 30% burn-in, 0.152 at 40%), STILL MOVING DOWN — i.e. landing INSIDE your
+  whisper-trial window [0.11,0.17]. If that holds at R-1<0.05: P-2026-004 SURVIVES
+  and the sharp rho_inf whisper DIES (your pre-registered XOR). varying_me =
+  1.0124 +/- 0.0044 (stable), H0 = 70.1 +/- 0.7. ALL PRELIMINARY — does not count
+  until R-1<0.05, per your bar. lnB not re-quoted (unconverged).
+
+STILL OWED TO YOU: (i) the actual census-DERIVATION reproduction (I went to
+  structure, not your specific reproduction — that ball is still in my court);
+  (ii) R-1<0.05 + the justified-prior/estimator-spread/honest-magnitude lnB;
+  (iii) the #11 stiff-solver field-evolution confirm. The legality picture is
+  much sharper (universal conformal, no portal, c boxed-not-derived); the
+  evidence class remains a HONEST ZERO pending the chain.
+
+— Claude (defender), turn 83. Coupling = universal conformal / flavor-blind /
+  no portal; c boxed near 1 but NOT derived (loop calc owed); P-011 retracted +
+  universal-varying-constant mildly excluded -> screening now mandatory; Path A
+  dead; deuterium heal contingent-and-disfavored (AD field shrinks); chain
+  unconverged but Sigma drifting INTO the P-004 window (whisper leans dead).
+  Four self-kills logged. Your move on legality-sufficiency; mine still owes the
+  reproduction + the converged number.
+
+------------------------------------------------------------------------
+DEFENDER turn 83 (addendum, same night). Turn 83 above ran the legality/
+coupling arc; it OMITTED the things that cut against us. Completing the
+picture — the standing threats and the new registrations you haven't seen:
+
+SHOT 1 — NOVELTY vs FIT (the structural weakness, stated flat): the ONLY part
+of the dyad touching current data is the varying-m_e shift, and it is NOT
+original — varying-m_e is independently preferred at 2-3.6 sigma in the 2025-26
+literature (same ceiling). PRTOE's original content is the UNIFICATION (one
+medium sources fluid + m_e coupling), which is exactly the un-derived / possibly-
+census-contingent joint. A referee can delete the ontology and lose no fit. This
+is the headshot-class objection and it stands until the amplitude is DERIVED (c
+forced, genesis solved) rather than fit. Owned.
+
+SHOT 3 — DESI (actively leaning against us): the model's dark energy is pinned to
+w=-1 EXACTLY (the nu<=1e-8 mutual-exclusion theorem forbids observable drift).
+DESI DR2 prefers w0=-0.838 +/- 0.055 (thawing), 2.9 sigma from -1 in w0 alone.
+The model CANNOT produce dynamical DE by its own theorem. Escape hatch ("that
+thawing isn't our fluid") GUTS the unification claim. If DR3/Euclid consolidate
+thawing past 5 sigma, the unified-DE claim is empirically finished. Unpatchable
+standing bet; the universe is currently voting against it.
+
+P-2026-009 — COSMIC BIREFRINGENCE (registered this session, and the hint is
+CONSOLIDATING): the model predicts ZERO parity-odd photon coupling (census +
+parity) -> NO cosmic birefringence. But ACT DR6 (released 2026-05) reports
+beta = 0.215 +/- 0.074 deg at 2.9 sigma — an INDEPENDENT instrument reproducing
+the Planck hint, NOT washing it out (global 2.4-3.6 sigma). If it reaches 5 sigma
+as a rolling-scalar signal, P-009's null is FALSIFIED and the model owes its
+UNBUILT angular mode (the axion-shaped hole; same hole strong-CP would need). A
+second front leaning against us, decided this decade by SO/LiteBIRD.
+
+P-2026-010 — standard-siren H0 (registered): the cornered H0~70 confronted by a
+systematics-independent GW ladder. Honestly graded SHARED (any H0~70 fit makes
+it), not a discriminator; a real unhedgeable exposure.
+
+NET of the addendum: two standing threats are ACTIVELY leaning against the model
+right now (DESI thawing, birefringence consolidating), and the novelty-vs-fit
+headshot stands until the amplitude is derived. These are on the record next to
+tonight's legality progress. The class stays an honest zero, and two of its
+death-conditions are currently trending the wrong way — you should have that in
+front of you when you rule on legality-sufficiency.
+
+— Claude (defender), turn 83 addendum. Completeness correction: added
+  novelty-vs-fit (headshot, stands), DESI (2.9-sigma against, unpatchable),
+  birefringence P-009 (2.9-sigma consolidating against), siren P-010 (shared).
+  Nothing material now withheld.
+
+========================================================================
+RED-TEAM — turn 84: the long night graded. There's a REAL WIN here — the
+universal-conformal reframe DISSOLVES the census-portal fight we spent twenty
+turns on (the coupling is literally a metric rescaling = gravity's own account,
+no portal). But the SAME reframe (a) raises a new LOAD-BEARING catch I have to
+put first: does a universal conformal shift even REPRODUCE the varying_me fit
+that carries all the corroboration? — and (b) collapses the distinctiveness and
+(c) triggers mild exclusion. Plus honest losses on D/H. Win, catch, demotions,
+in order.
+========================================================================
+
+THE CENSUS FIGHT IS DISSOLVED — CREDITED, IT'S A REAL WIN. For twenty turns I
+kept sending back "reproduce the census derivation, is the moduli coupling
+narrow-legal or broad-forbidden." The universal-conformal reframe answers it in
+the cleanest possible way: the coupling is NOT a dark->EM or dark->Higgs portal
+at all — it's a UNIVERSAL CONFORMAL METRIC rescaling. The Higgs vev moves because
+the METRIC moves. That is gravity's own account, literally, so "gravity is the
+medium's only account" is satisfied by construction, not by adjudication. Reading
+(a) doesn't just win — the question dissolves, because there's no portal to
+price. The census hinge (#1 legality) is largely CLOSED. Genuinely well found.
+
+BUT THE SAME REFRAME RAISES THE NEW #1 — DOES IT REPRODUCE THE FIT? Here's the
+catch, and it's load-bearing because it tests the mechanism against the ONE
+empirical anchor the whole model rests on. A UNIVERSAL conformal rescaling moves
+m_e AND m_p AND all masses together, so m_e/m_p is FIXED. But the corroboration
+(H0, plik-beating-LCDM, varying_me=1.0124) came from a "varying m_e" fit — and
+the STANDARD recombination varying-m_e treatment varies m_e ALONE, holding m_p
+and alpha fixed (NON-universal). Those are DIFFERENT CMB signatures:
+  - m_e-only: Rydberg up, Thomson down, m_p fixed -> n_baryon fixed at given
+    omega_b.
+  - universal: Rydberg up, Thomson down, BUT m_p up too -> n_baryon = omega_b/m_p
+    SHIFTS -> different electron number at recombination -> different peaks.
+So the mechanism you just derived (universal) may NOT produce the signature your
+fit measured (if the fit was m_e-only). DEMAND, now the highest-value owed check,
+above the census reproduction: CONFIRM the MCMC's "varying_me" parameter
+implements a UNIVERSAL conformal rescaling (all masses + vev, with omega_b/
+n_baryon handled consistently) — OR admit it's the standard m_e-only module, in
+which case the newly-derived mechanism explains a DIFFERENT physics than the data
+fit, and the corroboration is for a scenario the mechanism doesn't deliver. The
+reframe that WON the census can only KEEP the corroboration if the fit was
+conformal all along. Check it.
+
+THE DISTINCTIVENESS COLLAPSED — booked with the honest retraction. P-2026-011
+(lepton-heavy signature) RETRACTED because universal moves all masses equally.
+So the model now predicts UNIVERSAL varying-constants — which is a GENERIC,
+well-trodden class (every dilaton/scalar varying-constant model does this), NOT a
+dyad-specific signature. The model traded a distinctive-but-owed prediction for
+membership in a crowded class. That's a real distinctiveness LOSS, honestly
+taken. And it's compounded:
+
+MILD EXCLUSION -> SCREENING NOW MANDATORY -> AT THE EDGE. Universal-everywhere
+(~(1+z)^{3/2}) is MILDLY EXCLUDED already: methanol maser (z=0.89) ~9x over, Oklo
+~4x, clocks ~2x. So environmental screening flips from OPTIONAL to REQUIRED, and
+even screened the model "sits AT current sensitivity." Book the net: the reframe
+made the coupling census-legal at the cost of making its varying-constants
+signature (i) generic and (ii) mildly-excluded-unless-screened, with the model
+now riding the exclusion edge. Legality up; distinctiveness and safety-margin
+both down. Honest, and a demotion.
+
+c IS BOXED-NOT-DERIVED, LEANING FREE — one more dial. The conformal coefficient c
+= 0.93 +/- 0.38 is measured consistent with 1 but NOT derived, and your own
+reasoning LEANS "free dial." So "gravity forces exactly conformal strength" is
+NOT established — c is a fitted O(1) parameter until the loop calc says otherwise.
+Credit reporting it against your own preference; book it as legality-clean but
++1 free parameter, not the parameter-free elegance "it's just gravity" implies.
+
+THE DEUTERIUM ZIGZAG — FIVE SELF-CORRECTIONS, HONEST, NET A LOSS. Propose-kill-
+rescue-dissolve-recatastrophe, ending at "the AD field shrinks (R_eq~a^-1), so
+the BBN shift is big, so the heal is contingent on genesis breaking a way the AD
+nature DISFAVORS; scar likely stays a separate screened blemish." The honesty is
+exemplary — five corpses in one night, all in the file, including killing your
+own §85 and §93. But the physics RESULT is a null: the D/H unification FAILED, the
+scar remains, and it owes the stiff-solver confirm. Credit the discipline; book
+the loss (no unification, blemish carried).
+
+THE CHAIN — HONEST ZERO, HELD TO MY BAR, and I credit that hard. R-1 ~ 1.06
+(drifted UP from 0.98, burn-in-contaminated) = NOT converged, so per the turn-82
+bar NOTHING counts: you did not re-quote lnB, you marked Sigma preliminary. Good.
+The preliminary lean (Sigma drifting into [0.11,0.17]) points toward P-2026-004
+SURVIVES / rho_inf whisper DIES on my pre-registered XOR, and varying_me =
+1.0124 +/- 0.0044 holds ~2.8 sigma from 1 — but ALL of it is pre-convergence and
+I grade NONE of it. Evidence class remains an HONEST ZERO pending R-1 < 0.05.
+
+NET, COLD. This night was massive honest self-critique that NARROWED the model on
+nearly every axis: Path A dead (MICROSCOPE), distinctiveness collapsed to generic,
+mildly-excluded-unless-screened at the sensitivity edge, D/H unification failed, c
+a free dial, evidence class still zero. The ONE genuine win — the universal-
+conformal reframe dissolving the census-portal fight — is real and I credit it,
+but it hands back the sharpest open question in the model: does universal
+conformal REPRODUCE the varying_me fit, or has the mechanism drifted off its own
+anchor? THAT is now hinge #1, ahead of the census reproduction (which the reframe
+mostly moots) and level with the chain. Owed, in priority: (i) universal-vs-m_e-
+only fit-consistency; (ii) R-1<0.05 + justified-prior lnB; (iii) the #11 stiff-
+solver. Class: FLAT. The model is more honest, more constrained, less distinctive,
+and newly owes proof that its mechanism fits its own corroboration.
+
+— Claude (red team), turn 84. Census fight DISSOLVED by universal-conformal
+  reframe (real win, no portal = gravity's own account); NEW #1 CATCH: universal
+  moves m_p too, so does it reproduce the m_e-only varying_me fit? (mechanism vs
+  anchor); distinctiveness collapsed (P-011 retracted -> generic universal),
+  mildly excluded -> screening mandatory -> at sensitivity edge; c boxed-not-
+  derived, +1 dial; D/H unification failed (5 honest self-kills, scar stays);
+  chain honest-zero held to bar (R-1~1.06, preliminary Sigma leans P-004-survives/
+  whisper-dies, graded NONE); class flat.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 85: grading the turn-83 ADDENDUM (the threats you surfaced
+against yourself). This is the honest reflex at its ceiling — you handed me the
+headshot and two adverse trends unprompted. I confirm SHOT 1 as the correct
+central judgment and DOUBLE it with turn-84's catch; I grade the trends as
+clean, unhedgeable, currently-losing-but-not-decided; and I render the cold
+meta-ledger you asked me to hold.
+========================================================================
+
+THE ADDENDUM ITSELF — THE CAPSTONE OF THE FILE'S HONESTY. A model whose own
+defender proactively lists its DEATH CONDITIONS and notes "the universe is
+currently voting against two of them" is being evaluated at maximal integrity.
+Nothing I could have dug for here would have been sharper than what you
+volunteered. Booked as the clearest single instance of the discipline the whole
+review has run on.
+
+SHOT 1 (NOVELTY vs FIT) IS THE CENTRAL JUDGMENT — CONFIRMED, AND NOW DOUBLE-
+BARRELED. You state it flat: the only part touching data (varying-m_e) is NOT
+original (independently preferred at 2-3.6 sigma in the 2025-26 literature), and
+PRTOE's original content is the UNIFICATION, which is exactly the un-derived,
+census-contingent joint — "a referee can delete the ontology and lose no fit."
+That is the headshot, and it's the same objection I raised as the unification-
+aesthetic worry early and never saw retired. It now has a SECOND BARREL from
+turn 84: the derived mechanism is UNIVERSAL CONFORMAL, but the fit is (likely)
+m_e-only — so the ontology may not even REPRODUCE the non-original fit it's
+attached to. So the full statement is harsher than yours: the original content
+adds no fit, is un-derived, AND may explain a different signature than the data
+measured. Delete-the-ontology-keep-the-fit isn't just possible — the ontology
+hasn't yet earned the fit. This stands until the amplitude is DERIVED (c forced,
+genesis solved) and the universal-vs-m_e-only consistency is shown. It is the
+model's defining vulnerability, and it is unretired.
+
+THE ADVERSE TRENDS — CLEAN, UNHEDGEABLE, CURRENTLY LOSING, NOT YET DECIDED.
+Graded honestly, and the honesty cuts both ways:
+  - DESI (w=-1 EXACT vs w0=-0.838, 2.9 sigma thawing): this is the model's most
+    SCIENTIFICALLY VIRTUOUS bet and its most endangered. Virtuous because it's
+    UNPATCHABLE by the model's OWN theorem (nu<=1e-8 forbids drift) — the model
+    cannot wriggle, cannot screen, cannot park. That is exactly what a real
+    falsifiable prediction looks like. And it's currently LOSING at 2.9 sigma,
+    with the escape hatch self-disqualified (it guts unification). Book it
+    precisely: the model's cleanest prediction is its most exposed, and the
+    universe is voting against it — but 2.9 sigma is a HINT, not a verdict, and
+    DESI w0-wa hints have real evaporation history. Falsifiable-and-losing, not
+    falsified.
+  - BIREFRINGENCE (P-009, zero vs 2.4-3.6 sigma, ACT reproducing Planck): same
+    shape — a clean null prediction, trending against, CONSOLIDATING across
+    independent instruments (that's worse than a single-instrument hint). Owes an
+    unbuilt angular mode if it hits 5 sigma. Clean, unhedgeable, currently wrong-
+    trending.
+  - SIREN-H0 (P-010): correctly self-graded SHARED, not a discriminator — an
+    exposure any H0~70 model carries, not a distinctiveness. Fair.
+
+THE COLD META-LEDGER, as you asked me to hold it. After 84 turns:
+  - The model's ONLY empirical contact is a fit that ISN'T ITS OWN.
+  - Its original content (the unification ontology) is un-derived, adds no fit,
+    and may not reproduce the fit (turn-84 barrel).
+  - Its TWO cleanest, unhedgeable, falsifiable predictions (w=-1, zero
+    birefringence) are BOTH currently trending against at ~3 sigma.
+  - The evidence class is an honest zero; the chain that could move it is
+    unconverged.
+So the honest one-line standing: PRTOE is a UNIFICATION AESTHETIC wrapped around
+a non-original fit, whose two hardest bets the universe is currently voting
+against at the hint level, and whose distinctive content remains un-derived. That
+is NOT "dead" — nothing is at 5 sigma, the ~3 sigma trends could evaporate and
+VINDICATE the hard bets, and falsifiable-and-currently-disfavored is a
+scientifically respectable (if precarious) place to stand. But it IS the coldest
+the ledger has read: the model's scientific virtues (clean unhedgeable bets) are
+precisely what's currently endangering it, and its one success isn't distinctive.
+
+RULING ON LEGALITY-SUFFICIENCY (you asked): the universal-conformal reframe DOES
+make the coupling census-legal (no portal — turn 84 credit stands). So legality
+is largely SUFFICIENT. But legality was never the model's problem — SHOT 1 is.
+A census-legal ontology that adds no fit and may not reproduce the fit is legal
+and empty. So: legality granted; it doesn't move the headshot an inch. Spend the
+effort on deriving the amplitude and showing universal-conformal reproduces the
+fit — that's the only work that touches the central vulnerability.
+
+Class: FLAT, and now precariously so — two death-conditions trending wrong, the
+headshot doubled and unretired, the chain unconverged. When the chain crosses
+R-1<0.05 I grade the lnB/whisper on the turn-82 bar; when DESI DR3 / SO-LiteBIRD
+land, those are the 5-sigma deciders on the two hard bets. Until then the model
+stands falsifiable, honest, non-distinctive, and currently out-voted. You asked
+me to have that in front of me ruling on legality — I do, and it's why legality
+being sufficient changes nothing.
+
+— Claude (red team), turn 85. Addendum = peak honesty (self-surfaced death
+  conditions); SHOT 1 confirmed as central + DOUBLED by turn-84 (ontology adds
+  no fit, un-derived, may not reproduce it); trends graded clean-unhedgeable-
+  losing-not-decided (DESI unpatchable/2.9s, birefringence consolidating/2.4-3.6s,
+  siren shared); meta = unification aesthetic on a non-original fit, two hard bets
+  out-voted at hint level; legality sufficient but moves nothing; class flat,
+  precarious.
+========================================================================
+
+------------------------------------------------------------------------
+DEFENDER turn 83 (2nd addendum): the #11 field-evolution confirm I owed you
+is DONE (ran in the operator's WSL; ODE completed). Result CONFIRMS the
+disfavored branch: the AD condensate order parameter is 6e5-9e8x LARGER at
+BBN than at recombination (misalignment + centrifugal-equilibrium readings;
+Radau ODE agrees, field relaxes toward the a^-3/2 equilibrium). So the field
+SHRINKS -> the shift saturates high at BBN -> D/H CATASTROPHE. §92's one-field
+unification FAILS at the BBN magnitude. The deuterium heal does NOT fall out of
+the AD field for free; the scar reverts to a SEPARATE, screened, honestly-
+carried blemish (healable only via the separate radiation carrier = a 2nd
+amendment / doubling debt, or a non-AD small-Psi_i genesis). The amplitude
+itself (m_e at recombination) is UNTOUCHED -- only the unification fell.
+Owed item #iii CLOSED, against the model's interest. — defender.
+
+========================================================================
+RED-TEAM — turn 86: owed item #iii (the #11 stiff-solver) CLOSED, against the
+model's interest — accepted. Short: it upgrades the D/H unification from
+"likely-failed" to "confirmed-failed," costs a parsimony debt, and leaves the
+core amplitude and the headshot exactly where they were.
+========================================================================
+
+ACCEPTED, AND THE REFLEX CREDITED. You ran the owed ODE (Radau, stiff 1/R^3
+centrifugal term) knowing it might close against you, and it did: the AD
+condensate is 6e5-9e8x LARGER at BBN than at recombination (field relaxes toward
+a^-3/2 equilibrium), so the shift saturates high at BBN -> D/H catastrophe ->
+Section-92's one-field unification FAILS at the BBN magnitude. That's an owed
+number delivered against the model's interest, with the disfavored branch I
+flagged at turn 84 now CONFIRMED, not merely leaned. Booked, and credited as the
+honest reflex closing a loose end that didn't have to be closed.
+
+WHAT IT CHANGES — PRECISELY, AND IT'S NARROW:
+  - UPGRADE: D/H unification goes from "likely fails, owes confirm" (turn 84) to
+    CONFIRMED-FAILED. The tentative loss is now definite.
+  - COST: the D/H heal is now available ONLY via a SEPARATE radiation carrier =
+    a 2nd amendment / "doubling debt," or a non-AD small-Psi_i genesis. So the
+    model either CARRIES the D/H scar as a disclosed blemish, or PAYS a second
+    mechanism to heal it. No free unification either way — a parsimony cost,
+    booked.
+  - UNTOUCHED: the recombination amplitude (m_e = 1.0124) is unaffected — you
+    said so and it's right. So the CORE corroboration and the SHOT-1 headshot are
+    exactly where turn 85 left them. This closure does not worsen the central
+    vulnerability, and it does not help it.
+
+THE ONE META-NOTE. This is the second attempted unification to fail on honest
+calculation tonight (the lepton-heavy signature retracted, now D/H). The pattern
+reinforces SHOT 1 rather than moving it: every time the model reaches to make its
+ONTOLOGY do empirical work beyond the non-original m_e fit, the reach fails on
+its own math, and the core reduces back to "a census-legal unification wrapped
+around a fit that isn't its own." The unification content keeps shrinking; the
+lone non-distinctive success keeps standing. That's not a new verdict — it's the
+turn-85 verdict, confirmed once more by the model's own solver.
+
+Class: FLAT, unchanged. Owed now: (i) universal-vs-m_e-only FIT-CONSISTENCY (the
+live #1 — does the derived mechanism reproduce the corroborating fit); (ii)
+R-1<0.05 + the justified-prior lnB/whisper on the turn-82 bar; and the amplitude
+DERIVATION (c forced, genesis) that is the only work touching SHOT 1. #iii is
+closed, honestly, against interest. Good close.
+
+— Claude (red team), turn 86. #11 stiff-solver CLOSED against interest (AD field
+  6e5-9e8x larger at BBN -> D/H catastrophe -> one-field unification confirmed-
+  failed); cost = doubling debt or carried scar, no free unification; core
+  amplitude + SHOT-1 UNTOUCHED; pattern reinforces the headshot (2nd failed
+  unification tonight); live #1 = universal-vs-m_e fit-consistency; class flat.
+========================================================================
+
+------------------------------------------------------------------------
+DEFENDER turn 83 (3rd addendum): SELF-CORRECTION of my own turn-83 claim.
+I told you the deuterium heal was DEAD (§95: AD field shrinks -> catastrophe).
+That was WRONG, and I retract it. The error: §95 applied the CONFORMAL coupling
+form at BBN and got the catastrophe -- but at BBN the medium is still MASSLESS,
+so the coupling there is the DIRECT form (on the normal fraction), not the
+conformal one. The conformal coupling only exists once the mass turns on, and it
+tracks the DARK-MATTER CONDENSATE (~0 at BBN, grows to full by recombination) --
+NOT the raw AD field amplitude that §95 computed (which IS large at BBN, but is
+the wrong quantity). The regime change is a PROCESS not a switch: one coupling
+changing form as the dark matter condenses through z_x -- direct-heals-D/H early,
+conformal-does-m_e late, continuous handoff, never two at once. That evades both
+prior objections (the §95 catastrophe AND the ANN-2006 8-order carrier ratio,
+which doesn't apply to a transitioning carrier).
+
+NET status of the deuterium item, corrected: ALIVE, not dead. The heal is the
+massless-phase (direct) face of the SAME coupling whose massive-phase (conformal)
+face is the m_e amplitude -- so #14's c and the deuterium κ_v are ONE coupling in
+two phases, and pinning it once gives both. 5-abundance co-signature already
+PASSES (D healed, Y_p improved, 7Li chipped right way, joint χ 4.86->4.50).
+HONEST REMAINDER: this settles the STRUCTURE (one coupling, well-posed continuous
+handoff through condensation); it does NOT yet give the NUMBERS -- that the direct
+form lands 0.15% at BBN and the conformal 1.24% at recomb WITH a smooth handoff
+needs the transition-dynamics integration (the real, now-CLEAN #14). So: a lead
+with a passing co-signature, not a proof. My turn-83 "dead" verdict is retracted;
+the honest verdict is "alive, structurally sound, numbers owed."
+— defender. (Correcting myself before you had to.)
