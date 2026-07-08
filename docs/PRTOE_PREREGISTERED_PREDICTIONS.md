@@ -816,3 +816,50 @@ resolves two mass species there (cosmic-dawn HI gives m_e via the 21-cm ~m_e^2
 handle of P-2026-007; a co-located molecular/mu handle would complete the
 ratio). Registered so the forced pattern is on record before any such
 measurement, not as an asset doing evidential work today.
+
+---
+
+## ANN-2026-012: Sharpening of P-2026-009 (operator's push: "light is radiation, light should have coupling") — the null is about PARITY, not about whether light couples
+
+**Recorded:** 2026-07-07 20:05 MDT (git base: 6f5462e0)
+**The correction, adopted:** P-2026-009 as first written ("the dark medium
+contributes zero birefringence / no dark->EM coupling") over-stated the
+silence. The operator is correct that light couples to the model. It couples
+through THREE distinct doors, and P-2026-009 is a claim about only the third:
+
+1. **GRAVITY (parity-even, universal, ON):** photons trace the medium's
+   gravitational potentials — lensing, ISW. Always present, already in the
+   model. Real coupling.
+2. **LOOP-INDUCED VARYING-alpha (parity-even, bounded/killed):** the Path-A
+   coupling to m_e (phi psi-bar psi) drags in a phi F_mu-nu F^mu-nu coupling
+   through charged-lepton loops — a varying fine-structure constant, generically
+   ~alpha/pi suppressed relative to the m_e shift. THIS IS ALREADY IN THE
+   MODEL'S GRAVEYARD: varying-alpha was excluded by quasar bounds (45-100x
+   over), which is precisely WHY the dyad's shift lives in m_e and not alpha.
+   So light's parity-even coupling was met, priced, and is what forced the
+   m_e-not-alpha structure. Honest caveat: the m_e/alpha separation is
+   enforced by DATA (quasar alpha-bounds), not by an exact symmetry — the
+   parity-even photon door is bounded small, not forbidden.
+3. **PARITY-ODD phi F Fdual (the birefringence door) — the actual subject of
+   P-2026-009:** rotating CMB polarization requires a PSEUDOSCALAR coupled to
+   the photon TOPOLOGICAL term. A scalar with a parity-even mass coupling
+   (doors 1-2), including all its loops, CANNOT generate a parity-odd rotation
+   — parity forbids it. The model's only pseudoscalar candidate is the ANGULAR
+   MODE (the phase theta of Psi = |Psi| e^{i theta}); but theta's shift
+   symmetry is a DARK number-U(1) ("charge = abundance", NOT electric charge —
+   the medium is electrically neutral per the census), so it carries no EM
+   anomaly and generates no theta F Fdual. No EM-anomalous pseudoscalar -> no
+   birefringence.
+
+**P-2026-009, restated precisely:** the dark medium produces NO PARITY-ODD
+photon coupling, hence zero cosmic birefringence — NOT because light is
+decoupled (it couples via doors 1-2), but because the medium has no
+EM-anomalous pseudoscalar. A consolidated nonzero beta therefore isolates
+door 3 specifically: it would require the angular mode to be EM-anomalous
+(the dark U(1) secretly carrying an EM anomaly — a departure from the neutral,
+gravity-only identity), or be unrelated visible-sector axion physics. The
+tie to strong-CP (Transaction Atlas) is unchanged and now sharper: both want
+the SAME EM-anomalous angular mode the model does not currently contain.
+**Falsification structure unchanged; the claim is now correctly scoped to
+parity, and the operator's "light should have coupling" is affirmed as
+correct for doors 1-2.**
