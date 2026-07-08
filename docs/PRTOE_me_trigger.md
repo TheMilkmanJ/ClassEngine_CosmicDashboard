@@ -2361,3 +2361,39 @@ dependent, spatially-uniform, α-preserving EM weight."
 **Grade:** conceptual grounding + problem-specification, NOT a derivation. The
 architecture (§62) is reinforced from the forces' nature; the open payload is
 now a precisely-bounded target. Credited to the operator.
+
+## 64. "Hydrogen" (operator's instinct) — the arena where the couplers meet, and the resolution of §63's electron-weight-1 puzzle
+
+**Operator: "I don't know why, but I want to say hydrogen."** Three threads
+converge on it:
+
+**(1) Hydrogen is WHERE the amplitude acts.** The entire cosmological effect of
+the 1.24% is on hydrogen: binding energy (∝ m_e → moves z_rec) and Thomson
+cross-section (∝ 1/m_e²). This is the answer to "at what moment does 1.24%
+appear in the equation?" — hydrogen recombination, z≈1100.
+
+**(2) Hydrogen is where the two couplers MEET.** Rydberg = ½ α² μ = 13.6 eV.
+α² = EM structure ("how to bind"); μ = mass ("the amount"). The hydrogen binding
+energy IS (EM)×(mass) fused — §62/§63's gravity-size × EM-flavor sitting in one
+formula.
+
+**(3) Hydrogen RESOLVES §63's puzzle (why the electron is the weight-1 reference).**
+§63 flagged: the electron is the heavy shifter (weight≈1) but its mass is mostly
+Higgs-Yukawa, not EM — so self-energy fraction couldn't be why. Hydrogen answers
+it: atomic binding rides the REDUCED MASS, which is 99.95% electron
+(d ln μ/d ln m_e = 0.9995; proton contributes m_e/m_p ≈ 5.4e-4, 1836× heavier,
+barely participates). The electron is weight-1 because it IS the binding — it
+dominates the reduced mass. Clean and exact.
+
+**Correction to the run's phrasing:** reduced-mass (1836:1) vs self-energy
+(13:1) is NOT a fork — they answer different questions and are complementary.
+P-2026-011 (self-energy) = how much each particle's MASS moves (e 1.24%, p
+0.075%). Reduced-mass = how hydrogen BINDING responds (≈ the electron shift,
+proton negligible). Two steps, both electron-dominated.
+
+**Honest limit:** hydrogen is the ARENA (where it acts) and the FLAVOR resolver
+(why electron = weight-1, via reduced mass) — NOT the SIZE source. The 1.24%
+magnitude is still gravitational (Ψ₀/M_Pl), still un-derived. Hydrogen sharpened
+the flavor half without touching the size half. Grade: real piece clicking in —
+the couplers meet in the Rydberg and the reduced mass fixes the electron
+reference; credited to the operator's instinct.
