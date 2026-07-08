@@ -3230,3 +3230,37 @@ re-derived.
 carrier, operator's catch — my §90 over-shot); unification still DEAD (two
 carriers); portal cost still there. Scar = curable blemish riding the
 radiation-soup carrier, not a catastrophe. Operator's correction to §90, booked.
+
+## 92. "No Higgs portal — follow the order, space-mass-mass-space" (operator) — dissolves the §90/§91 portal; resurrects the unification
+
+**Operator: the heal doesn't need a direct Higgs coupling; the medium posts a
+gravitational trigger and the information reaches the Higgs through matter's own
+chain (space→mass→mass→space).** CORRECT — §90/§91 over-charged.
+
+**My §90 error:** I pictured "shift the Higgs" as a dark→Higgs door (portal). But
+the SAME universal conformal coupling that shifts m_e rescales the METRIC, and
+the Higgs vev is a mass scale IN that metric. So one gravitational nudge shifts
+electron mass, quark mass, AND the vev together — the Higgs moves because the
+medium moved the FLOOR, not because it touched the Higgs. The Higgs shift is a
+FREE byproduct of the one coupling the model already has. No portal, no new door.
+The medium reaches the metric; the Higgs is already in it, as part of matter.
+
+**RESURRECTS THE UNIFICATION (§85):** one universal conformal coupling does the
+electron at recombination AND the quark/vev at BBN — one engine, both wounds, no
+separate carrier, no portal. §90/§91 charged for a door never needed.
+
+**TWO HONEST COSTS:**
+1. **P-011 DIES.** Universal conformal shift moves ALL masses by the same
+   fraction — leptons ≡ hadrons. "Leptons shift more" is RETRACTED; model now
+   predicts UNIVERSAL varying-constants (cleaner/more standard, but P-011 off the
+   board).
+2. **BBN magnitude is now THE question.** The heal needs the shift SMALL (~0.15%)
+   at BBN, LARGE (~1.24%) at recombination → the field must be SMALLER at BBN.
+   But the simplest history (misalignment: frozen then redshifting) gives the
+   OPPOSITE (larger at BBN → §90 catastrophe returns). So the whole heal now
+   hinges on: **does the dark field's value GROW or SHRINK from BBN to
+   recombination?** Grows → heal. Shrinks → catastrophe. Genesis-unsettled.
+
+**NET:** operator dissolved the portal (real §90 error corrected); unification
+BACK (one conformal coupling, no door); cost = P-011 retracted; fulcrum = the
+BBN→recombination field evolution. Booked.
