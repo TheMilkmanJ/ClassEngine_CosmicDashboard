@@ -1101,3 +1101,22 @@ effect.** CAVEAT: hangs on chi actually being ~500 near the transition -- a real
 calc (depends on the k^4 scale M and how close to c_s^2=0 the field sits). CANDIDATE mechanism, not
 confirmed. But it is a census-legal DOOR where step "census blocks it" saw only a wall -- found by
 JP insisting there had to be a mechanism (no coincidence) without relaxing the census.
+
+**HOW TO TEST chi~500 (2026-07-08, JP "how do we find this out?"): it reduces to c_s^2 ~ 0.002.**
+chi ~ 1/c_s^2, so chi~500 <=> **c_s^2 ~ 0.002 near the transition** -- one concrete number, not an
+abstract response function. Method: (1) P(X) -> c_s^2(X) [c_s^2 ∝ (X-X0), 0 at the minimum]; (2)
+solve the ghost-condensate cosmological ODE (field EOM + neutrino coupling + Hubble friction) for
+where the field sits (X) at the transition; (3) read c_s^2 -> chi -> check vs 500. Same species as
+the genesis ODEs.
+**SELF-TUNING WATCH (the beautiful outcome):** the needed c_s^2~0.002 IS ρ_nu/ρ_Λ. Plausible
+self-consistency: neutrino force pushes field off the minimum; it settles where push balances
+restoring force (∝ c_s^2 ∝ distance) => c_s^2 ~ ρ_nu/ρ_Λ => chi ~ ρ_Λ/ρ_nu => amplified neutrino
+effect ~ ρ_Λ. IF the loop closes, the coupling self-parks at the criticality that makes it O(1) --
+an ATTRACTOR, not a tuning; the floor locks to the neutrino scale. P-012 then: not coincidence, not
+strong coupling, not tuned -- SELF-tuned.
+**CAVEATS (self-tuning is a graveyard):** (1) scaling only -- O(1) coeffs (0.002 vs 0.02 vs 0.0002?)
+are what the ODE decides; (2) **Weinberg's no-go** looms over all self-tuning-vacuum-energy schemes
+-- this may evade it (floor at ρ_nu not zero) but must be checked; (3) ODE could give the attractor,
+OR c_s^2 far from 0.002, OR hit Weinberg. Research-level calc (ghost-condensate perturbation theory +
+Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute c_s^2, watch for the
+ρ_nu/ρ_Λ attractor.
