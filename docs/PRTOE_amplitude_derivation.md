@@ -389,3 +389,20 @@ VERDICT: eps is NO LONGER a free fit parameter. Two of three factors are indepen
 and force the ~1% SCALE; the central value lands on the data. The ONLY residual freedom is the
 single O(1) coupling c, natural at ~1. #11 status: 1 free param -> 0, plus one natural O(1) the
 data pins to ~1. Order-of-magnitude + central value DERIVED; sharp value pending c (= #14/#16/#17).
+
+## SESSION UPDATE — #16 swing: c-m degeneracy mapped, UFD tension survived (2026-07-08)
+
+`scripts/c_m_degeneracy.py`: the amplitude fixes a COMBINATION of c and the field mass m, not
+either alone. Abundance pins Psi0 ∝ m^(-1/4), so at fixed observed eps:
+    c(m) = 0.974 * (m / 2e-20 eV)^(1/4)    (higher m needs higher c)
+An INDEPENDENT fuzzy-DM mass therefore pins c. Trial of the mass landmarks:
+    m = 2e-20 (model pin / Lyman-a)  -> c = 0.97  (comfortable)
+    m = 3e-19 (UFD Dalal-Kravtsov)   -> c = 1.92  (edge of O(1))  <- the tension
+    m = 1e-18 (CDM-like)             -> c = 2.59  (strained)
+    c reaches 2 at m=3.6e-19, 3 at 1.8e-18, 4 at 5.7e-18.
+VERDICT: the UFD tension is SURVIVABLE, NOT a kill. The model ABSORBS m~3e-19 by setting
+c~1.92 -- still O(1)/natural. Cost: spends c's naturalness margin (0.97->1.9). And c is pinned
+only as tightly as m is measured: m in [2e-20, 3e-19] => c in [1.0, 1.9], a RANGE consistent
+with natural, not yet sharp. #16 delivers c empirically to a factor ~2, bounded by the mass data.
+NEW THREAT REGISTERED: if future data pushes m > ~1e-18 eV, c strains past ~2.6 toward unnatural
+-- a naturalness ceiling on the field mass. That is the live falsifier for the amplitude program.
