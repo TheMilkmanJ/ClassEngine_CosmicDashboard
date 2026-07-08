@@ -1120,3 +1120,19 @@ are what the ODE decides; (2) **Weinberg's no-go** looms over all self-tuning-va
 OR c_s^2 far from 0.002, OR hit Weinberg. Research-level calc (ghost-condensate perturbation theory +
 Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute c_s^2, watch for the
 ρ_nu/ρ_Λ attractor.
+
+**RED-TEAM CORRECTIONS (turn 89 adjudicated, 2026-07-08):**
+- **The critical-amplification reopening FAILED its test.** The self-tuning toy
+  (scripts/selftune_toy.py) RAN AWAY (unstable fixed point), it did not converge to the
+  c_s^2~rho_nu/rho_L attractor. So the census-legal "chi~500 via criticality" rescue is
+  UNSUPPORTED by the one calc we could run. **P-012 reverts to a BARE pre-registered
+  coincidence** -- testable (Sum m_nu), but with NO working causal mechanism (census blocks
+  the direct coupling, the amplification rescue failed the toy, Weinberg looms, and it's
+  m_nu-agnostic anyway). Keep P-012 as a falsifiable coincidence; drop all causal claims.
+- **"c~1 derived" -> "c~1 NATURAL"** (naturalness ceiling + census; the ~50x-saturated story
+  leans on a shaky naive-dilaton estimate; exact c owed via threshold matching).
+- **Floor mechanism:** ghost-condensate stability is a REAL risk (the toy showed the runaway),
+  not a footnote.
+- **Meta:** this session's DE/neutrino superstructure is speculation-heavy; the honest state is
+  scoped-and-owed, not built. Priority now = TESTS (Sum m_nu, DESI w=-1, fuzzy-DM mass), not
+  more structure.
