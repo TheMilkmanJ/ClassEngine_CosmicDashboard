@@ -373,6 +373,19 @@ local-state loophole; the universal-vev kill via epoch gating).*
   metric-mediated cheat. Operator parked the search 2026-07-08 (this the
   "very last idea" — seven angles now, all converged on the one structural
   fact: the medium touches only the metric, and handedness is not in it).
+  **FINAL / 8th angle (operator's "imperfect handoff — maybe a signal got
+  fumbled"):** the premise is sound (the universe is imperfect — the model's
+  own deuterium scar is exactly such a fumble). But imperfection CANNOT
+  manufacture parity violation: a symmetry is not broken by sloppiness. A
+  fumbled parity-even coupling is still parity-even; its imperfections are
+  symmetric NOISE (equally likely either handedness) that averages to ZERO
+  net rotation and is incoherent (patchy), not the observed coherent
+  isotropic β (which needs a SYSTEMATIC handedness preference). Tellingly,
+  every imperfection the model DOES engage (deuterium = a mass/abundance
+  fumble) is parity-EVEN — the medium fumbles what it holds (masses, in the
+  metric); it cannot fumble a handedness it never held. You can drop the
+  plate you are carrying, not one you never picked up. Eight angles, one
+  structural fact; the null is now maximally over-determined. Parked.
 
 ## The payment→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
 *The medium accepts exactly one currency — spacetime geometry (gravity
