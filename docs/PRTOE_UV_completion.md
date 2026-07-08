@@ -113,3 +113,28 @@ early ones).
 matter (matter falls out of radiation for free, via H<m condensation) and BREAKS at DM->DE
 (needs the floor as an extra ingredient). JP has now circled this same gap from THREE angles
 (DM+DE audit, pressure-sign flip, causal chain). The universe keeps pointing at the floor.
+
+## Step 5 (2026-07-08) — H is the clock: regime changes tie to the medium's scales (JP)
+
+Every regime change fires when the expansion rate H falls through a characteristic
+scale OF THE MEDIUM: condensation at H~m (m~2e-20 eV); DE onset at H~H_Lambda (floor
+~meV^4). H monotonic => the medium passes each threshold ONCE, in FIXED ORDER (m first,
+H_Lambda last) = the whole radiation->matter->energy chain from one downward-ticking quantity.
+
+**Unifies the recent JP insights:**
+- always-gradual = each H-crossing has width;
+- intervals-lengthen = H flattens toward de Sitter (H->const), so sweep-time between
+  thresholds stretches to infinity (forced, not separate);
+- late-templates-early = all transitions are the same object (an H-threshold crossing).
+
+**Predictive (not tautology):** thresholds are the medium's OWN scales, so transition
+redshifts MEASURE the parameters -- DE onset z~0.7 pins floor~(meV)^4; condensation z_x
+pins m~2e-20 eV.
+
+**Vindicates "uses its own gravity" (late-time):** early, H is set by radiation (medium
+rides the shared background); LATE, the medium (as DE) DOMINATES rho, so H->H_Lambda is set
+by the medium's OWN floor -> the final regime change is SELF-DRIVEN (the floor sets the
+expansion rate that freezes it into DE). JP was early, not wrong.
+
+**Caveat:** "everything ties to H" is partly just cosmology; the CONTENT is that the
+thresholds are the MEDIUM's scales (m, floor) -> transition-times are predictions.
