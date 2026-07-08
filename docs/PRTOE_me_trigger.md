@@ -2843,3 +2843,27 @@ fall, or a different manager is back there. **We know the door (gravity) and
 suspect the rate-setter (EP); we haven't confirmed how it gets from "no favorites"
 to "2.2%."** Narrows "why c=1" to "confirm the EP is the rate-setter" — a
 nameable check (the effective-action calc). Credited to the operator.
+
+## 79. "The ledger sets c=1" (operator) — the authority named; ceiling PROVEN (self-preservation), exact rate INFERRED
+
+**Operator: "so the ledger is the one setting c=1."** Correct — the ledger is the
+authority. Its rule (census: gravity is the medium's only account) removes every
+other coupling option, forcing the medium onto gravity's one window; the
+equivalence principle is the fixed rate posted there. Ledger: "bank only here";
+EP: "rate is 1." Together c=1.
+
+**The ledger enforces the rate two ways — one PROVEN, one INFERRED:**
+- **CEILING (c ≤ 1): PROVEN, and it's self-preservation.** Naturalness (§75): a
+  large coupling radiatively balloons the medium's own ultralight mass and
+  DESTROYS it. The ledger caps the rate at gravitational strength to SURVIVE.
+  Derived, self-interested: the ledger sets c ≤ 1 to protect its own existence.
+- **EXACT RATE (c = 1, not 0.6): INFERRED.** The EP claim (§78) — suspected but
+  unseen (no effective-action calc), with the unsolved "EP moves things (~10⁻⁵)
+  vs rescales masses (2.2%)" puzzle.
+
+**Sharpest statement of the whole "why 1.24%" question:** *does the ledger, in
+enforcing its own survival (the ceiling), ALSO enforce exactly gravity's rate
+(the exact value)?* The authority is named (the ledger/census); half its ruling
+is proven with a self-preservation motive; the other half is one calculation
+from proven. Credited to the operator — the metaphor loop closed onto the
+model's central hinge (#5).
