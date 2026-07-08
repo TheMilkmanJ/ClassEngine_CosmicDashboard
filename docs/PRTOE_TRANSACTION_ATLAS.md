@@ -344,6 +344,18 @@ local-state loophole; the universal-vev kill via epoch gating).*
   true keystone**, and the deepest reopener is the #5 parity-coupling
   ruling, not z_x (which is only the soft/escapable lock). If #5 stays
   gravity-only, birefringence is forbidden regardless of timing cleverness.
+  **Sub-refinement (operator's "oops wrong person" handoff leak):** a
+  transient residual coupling DOES exist mid-handoff (the un-condensed f_n
+  — the account isn't cleanly closed), so something CAN slip through. But
+  that leak is a FLAVOR slip (grabbing the wrong particle's MASS) and stays
+  parity-EVEN → a momentary m_e-like wobble, not a rotation. The two bans
+  have different enforcers: the MASS-based ban (naturalness) is what the
+  transition relaxes (→ the parity-even f_n leak); the PARITY-odd ban is
+  STRUCTURAL — the medium's U(1) is dark-number and EM-neutral, carries no
+  EM anomaly EVER, so the parity coupling was never in the field content to
+  leak. The medium can grab the wrong person (flavor); it has no organ to
+  grab a handedness (parity). The keystone isn't a locked door, it's the
+  ABSENCE of the door — which is why no transition-cleverness reaches it.
   Operator parked the search 2026-07-08 ("might think of an idea later").
 
 ## The payment→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
