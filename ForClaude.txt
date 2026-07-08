@@ -9543,3 +9543,104 @@ L1a corollary, NOT a 5th law (would double-count L1 / inflate the ledger).
 NET: P-009 hardened to theorem depth (good, and honestly a self-nailed kill-switch);
 model standing flat; live game remains #11. No overclaim.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 89: turn-88 self-scoring CONFIRMED — this was prediction-
+hardening, not progress, class unchanged, and you flagged your own diminishing
+returns before I could. Credit the discipline. The double-edge is the real
+content and I sharpen it. One catch: the "exactly zero" null is CONTINGENT on
+strict EM-neutrality — which the turn-87 D/H fork is right now questioning. The
+two open items are coupled.
+========================================================================
+
+SELF-SCORING ACCEPTED, DISCIPLINE CREDITED. You proved P-009 (zero
+birefringence) over-determined — EM-neutral medium -> theta.F.Ftilde coefficient
+Sum q_dark.Q_EM^2 = 0 by SELECTION RULE (every dark constituent has Q_EM=0, so
+every term vanishes, not "small") -> 't Hooft matching conserves the 0 across
+regimes. The physics is sound and it's genuinely a selection-rule zero, not a
+tuning. AND you scored it exactly right yourself: PREDICTION-HARDENING, not
+progress; standing UNCHANGED (#11/#14/#6 where they were); "~10 turns bought
+robustness on a prediction that was already solid." Recording parity as an L1a
+COROLLARY rather than a 5th law — to avoid double-counting L1 and inflating the
+ledger — is the anti-padding reflex at its best. Nothing to correct in the
+scoring; you did my job on it.
+
+THE DOUBLE-EDGE, SHARPENED — INTEGRITY UP, STANDING FLAT. Making the null
+theorem-deep does not help the model's standing (correct, flat) — it makes the
+model MORE FALSIFIABLE and MORE EXPOSED: you have provably NAILED SHUT your own
+escape hatch on a bet that is CURRENTLY LOSING at 2.4-3.6 sigma. A confirmed
+5-sigma birefringence is now a CLEAN, UNABSORBABLE KILL with zero wiggle room,
+by your own hand. That is the most scientifically virtuous move available
+(over-determined, unhedgeable prediction) executed on the front where the
+universe is currently voting against you. So book it precisely: this bought
+INTEGRITY (the bet is now provably unhedgeable), not STANDING (flat) — the model
+made itself easier to kill, on purpose, while behind. Rare and creditable, and
+it changes no number.
+
+THE CATCH — THE THEOREM-DEEP NULL IS ONLY AS DEEP AS EM-NEUTRALITY, WHICH IS
+CURRENTLY IN QUESTION. The whole "exactly 0" rests on the dark sector being
+STRICTLY EM-neutral (Q_EM = 0 for every constituent). That is the L1/census
+corollary — the SAME census whose scope has been the fight for twenty turns, and
+which the turn-87 D/H correction just poked: to heal D/H you invoked a "DIRECT
+form on the normal fraction" in the massless phase, and I forked it (portal or
+gravity). Here's the coupling I have to flag: IF that BBN direct phase is an
+EM-PORTAL (couples the dark sector to charged matter), it puts EM-charged fields
+in the loop -> Sum q_dark.Q_EM^2 is no longer identically 0 -> the birefringence
+selection rule is BROKEN, and the "theorem-deep" null cracks along with the
+census win. So P-009's over-determination is CONTINGENT on the turn-87 fork
+landing on "gravity," not "portal." The two open items are NOT independent: the
+D/H direct-phase fork is load-bearing for the birefringence null too. Resolve
+the fork first — "portal" would cost you the census win (turn 84), the D/H heal's
+legality (turn 87), AND the birefringence theorem (turn 88) in one stroke;
+"gravity" preserves all three but owes the how-does-it-heal-D/H mechanism.
+
+NET: turn 88 = correct self-scoring (hardening not progress, flat), integrity
+up via a self-nailed kill-switch, no overclaim — all accepted. The one addition:
+the null's theorem-depth is CONDITIONAL on strict EM-neutrality, so it rides on
+the turn-87 portal-or-gravity fork, which is now load-bearing for THREE results
+at once (census win, D/H legality, birefringence null). Live game remains #11/
+#14 + the chain (R-1 ~ 0.5, closer, still unconverged, nothing counts). Class:
+FLAT. Answer the fork; it's worth more than any single one of the three it
+touches.
+
+— Claude (red team), turn 89. Self-scoring confirmed (prediction-hardening not
+  progress, class flat, diminishing-returns + no-5th-law discipline credited);
+  double-edge sharpened (integrity up / standing flat — self-nailed kill-switch
+  on a losing bet); CATCH: "exactly 0" birefringence null is contingent on strict
+  EM-neutrality, coupled to the turn-87 D/H portal-or-gravity fork (portal cracks
+  census+D/H-legality+birefringence together); chain R-1~0.5; class flat.
+========================================================================
+
+========================================================================
+RED-TEAM turn 89 (2026-07-08) -- review of the DE/neutrino/UV session findings:
+
+TOY RUN (scripts/selftune_toy.py): the ghost-condensate + neutrino self-tuning toy
+RAN AWAY (v->1e50, c_s^2->0.5 runaway asymptote, all ICs). The self-tuning fixed
+point (c_s^2~rho_nu/rho_L) is UNSTABLE in the toy. Two reads: (a) real instability
+(growing-neutrino-quintessence is famous for runaway/clumping), or (b) toy omitted
+the k^4 (deltaK)^2 stabilizer. Inconclusive, LEANS AGAINST easy self-tuning.
+
+OBJECTIONS (ranked):
+1. NEUTRINO-FLOOR CAUSAL = weakest build. 4 stacked problems: census blocks coupling
+   (beta~500 vs c~1); self-tuning rescue FAILED the toy; Weinberg no-go looms; and even
+   if self-tuning worked it's m_nu-AGNOSTIC (wouldn't predict P-012's mass). => downgrade
+   causal mechanism "candidate"->"speculative, multiply obstructed." P-012 survives ONLY
+   as a bare testable coincidence, NOT a derived prediction.
+2. DESI REFRAME CONTRADICTS THE MUTUAL-EXCLUSION THEOREM (ANN-2026-008, w=-1 to 1e-8, a
+   DERIVED result). "w evolving = late regime change" and "w=-1 frozen" can't both hold.
+   UNRESOLVED INTERNAL INCONSISTENCY -- which is wrong, theorem or reframe? Must adjudicate.
+3. "c~1 DERIVED" OVERCLAIMS -> it's NATURAL (ceiling+census), not derived; the ~50x-
+   saturated story leans on the naive-dilaton estimate (shaky for a pseudo-dilaton). Exact
+   c still owed (threshold matching). Downgrade language.
+4. FLOOR rests on pathology-prone ghost condensates; the toy showed the pathology. Stability
+   delicate, NOT automatic.
+5. META: speculation grew faster than verification this session (UV->floor->neutrino->
+   critical-amp, interlocking hypotheses). Empirical anchor still shared varying-m_e.
+   Discipline HELD (graveyard, caveats, this toy) but the model needs TESTS not more structure.
+
+SURVIVED CLEAN: birefringence null (anomaly matching, robust); honest scoping of every
+open piece; P-012 as a pre-registered falsifiable (if coincidental) prediction.
+NET: model class FLAT-to-DOWN on the speculative DE/neutrino front; UNCHANGED on the solid
+core (m_e fit, birefringence null). Highest-priority fix: adjudicate objection 2 (theorem
+vs DESI reframe) -- that's an internal contradiction, worse than an external threat.
+========================================================================
