@@ -239,3 +239,19 @@ Fuzzy-DM lower bounds: Lyman-alpha (Rogers&Peiris 2021) m>2e-20 eV (95%); UFD (D
   against the measured c. If UFD holds (debated), real tension. 
 - **#6 is now a SHARP test:** as c tightens from +-0.38, it either nails c~1 (confirms corner)
   or drifts low (m below Lyman-a floor -> tension).
+
+## SESSION UPDATE — origins audit: c derives from the CENSUS (honest downgrade, 2026-07-08)
+
+Traced the "convergences on c~1" to their roots; two corrections + one deepening:
+- **OVERCOUNT corrected:** "measured c=0.93" is NOT independent -- it is the amplitude eps
+  rearranged (c = eps/(f_amp*Psi0/M_red)). Same input, not a separate confirmation.
+- **Naturalness ceiling and UV/ALP share ONE root:** "can't exceed gravitational strength"
+  (ceiling) and "gravity generates it at gravitational strength" (floor) are the same
+  statement -- **c~1 because the coupling IS gravity (strength 1 in M_red units) = the census.**
+- **Genuine convergence = TWO independent things, agreeing:** (1) THEORY/census predicts c~1
+  (= the strong census restated quantitatively); (2) DATA: Lyman-alpha m>2e-20 -> via the c-m
+  curve -> c>0.97. The census's predicted c~1 and the mass data's implied c~0.97 AGREE, non-
+  circularly.
+- **Upshot:** c does not derive from 5 places; it derives from the census. "c=1" IS "the coupling
+  is exactly gravitational." The amplitude program is therefore "census predicts c~1; does the
+  independent mass agree?" -- YES (Lyman-a), with the UFD bound as the one dissenting dataset.
