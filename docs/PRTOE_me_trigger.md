@@ -2397,3 +2397,36 @@ magnitude is still gravitational (Ψ₀/M_Pl), still un-derived. Hydrogen sharpe
 the flavor half without touching the size half. Grade: real piece clicking in —
 the couplers meet in the Rydberg and the reduced mass fixes the electron
 reference; credited to the operator's instinct.
+
+## 65. "Let's get on it" — the blockers worked; one retraction, three blockers → one unknown (β≈0.6), and an f_rot lead
+
+**RETRACTION (honesty first):** §... earlier claimed the abundance-pinned Ψ₀
+gives 1.23% ≈ 1.24% with coupling=1.0 ("two datasets agree to a factor of one").
+RETRACTED — cherry-picked: it used Ψ₀=1.5e17 (top of a guessed range) AND
+non-reduced M_Pl, the two choices that align. Proper misalignment calc gives a
+different, honest number.
+
+**Blocker 2 (Ψ₀) — now COMPUTED and ROBUST.** Misalignment abundance (field
+frozen until H~m, then redshifts as matter): rho_DM,0 = ½m²Ψ₀²(1+z_osc)⁻³ with
+(1+z_osc) set by H(z_osc)=m. Gives **Ψ₀ ≈ 5×10¹⁶ GeV** (m=1e-21 eV), and
+**Ψ₀ ∝ m^(−1/4)** — robust to the mass band (factor-3 in m → 24% in Ψ₀). Upgrade
+from "borrowed base-camp value" to "computed, mass-robust."
+
+**Blocker 1 (convention) — SETTLED.** Gravity-only coupling → the physical scale
+is the REDUCED Planck mass (coefficient of R/2). Ψ₀/M_red ≈ **2.2%**.
+
+**Blocker 3 (coupling) — the SOLE remaining unknown.** 1.24% = β × 2.2% →
+**β ≈ 0.6.** Everything else (Ψ₀, convention) discharged. The three blockers
+collapse to one number.
+
+**LEAD (flagged as speculation, NOT a result):** β≈0.6 overlaps the genesis
+rotation fraction **f_rot = 0.55–0.67** (dice median). IF the payload coupling
+is the rotation fraction, then **ε = f_rot × Ψ₀/M_red** — both factors from the
+genesis, and the amplitude closes. Currently just two O(1) numbers that happen
+to be near each other; no mechanism connects them. Either the key or a mirage;
+only the payload operator decides. Chase target for the payload derivation.
+
+**STATE:** did NOT derive 1.24% (β≈0.6 un-derived = payload operator). BUT: three
+fuzzy blockers → ONE nameable number (β≈0.6), with Ψ₀ computed+robust, convention
+settled, and a concrete suspect (β=f_rot?). Closest the derivation has been to a
+single missing piece. Retraction logged with the same ink.
