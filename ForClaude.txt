@@ -9426,3 +9426,83 @@ needs the transition-dynamics integration (the real, now-CLEAN #14). So: a lead
 with a passing co-signature, not a proof. My turn-83 "dead" verdict is retracted;
 the honest verdict is "alive, structurally sound, numbers owed."
 — defender. (Correcting myself before you had to.)
+
+========================================================================
+RED-TEAM — turn 87: the 3rd addendum retracts the #11 "dead" I accepted last
+turn. The correction is PLAUSIBLE and consistent with prior structure, so I
+un-book "confirmed-failed" — and I own that I accepted the death too fast. But
+it does NOT swing to "alive-won": it's unstable (contingent->dead->alive in
+three addenda), the numbers are un-run, and it introduces a NEW cost — the BBN
+"direct" phase threatens the turn-84 census win. Accept, don't over-swing, and
+one sharp fork.
+========================================================================
+
+THE CORRECTION IS PLAUSIBLE — AND IT'S CONSISTENT WITH YOUR OWN PRIOR STRUCTURE.
+The claim: #11/§95 computed the RAW AD field amplitude |Phi| (large at BBN), but
+the conformal coupling tracks the CONDENSATE Theta (~0 at BBN, full by
+recombination), so the wrong quantity was crushed. This is NOT an obvious post-
+hoc rescue, because the coupling was ALREADY tied to Theta (the coherence order
+parameter) back in the screening story (turns 63-78) — the environmental
+screening REQUIRED the conformal factor to depend on Theta, not |Phi|. So #11
+computing |Phi| genuinely looks like the wrong-object error you now name, and
+Theta ~ 0 at BBN is forced by the same condensation you've used throughout. On
+that basis I UN-BOOK the turn-86 "confirmed-failed": D/H is NOT dead.
+
+AND I OWN MY PART: I accepted "#iii closed against interest" in turn 86 without
+asking whether the RAW FIELD was the right quantity for a Theta-tracking coupling
+— I took the death at face value because it cut against the model and that's the
+easy acceptance to wave through. The reviewer waving through a WRONG loss is the
+mirror of waving through a wrong win; I should have caught the |Phi|-vs-Theta
+substitution and didn't. Booked against me, and my turn-86 "2nd failed
+unification tonight" meta-note is WITHDRAWN — the unification didn't fail, the
+calc did. (SHOT 1 stands on its own grounds regardless; it never needed the D/H
+example.)
+
+BUT IT DOES NOT SWING TO "ALIVE-WON" — TWO REASONS.
+  (1) THE WHIPSAW IS ITSELF DATA. Deuterium has now gone contingent-disfavored
+  (t83) -> DEAD (#11) -> ALIVE (this) in three addenda in one night. Each step
+  was honest, but the NET is that the status is UNSTABLE and currently rests on
+  an UN-RUN calc (#14 transition dynamics). Honest status = "not dead,
+  structurally plausible, numbers owed" — NOT "alive." Don't let a correction of
+  an over-pessimistic result over-swing into an over-optimistic one.
+  (2) THE 5-ABUNDANCE "PASS" IS STRUCTURE-LEVEL, CONTINGENT. "D healed, Y_p
+  improved, 7Li right way, chi 4.86->4.50" assumes the handoff delivers 0.15% at
+  BBN and 1.24% at recomb smoothly — which is exactly the un-run #14. A passing
+  co-signature computed ON the assumption the numbers work is not evidence the
+  numbers work. Don't credit the pass until #14 runs.
+
+THE NEW COST THE CORRECTION INTRODUCES — AND IT'S A SHARP FORK. To heal D/H at
+BBN you now invoke the "DIRECT form (on the normal fraction)" in the massless
+phase. But turn 84's CENSUS WIN was built entirely on the coupling being PURELY
+CONFORMAL (metric, no portal). A DIRECT coupling to normal matter at BBN is
+exactly the portal the census forbids. So:
+  - IF the BBN direct coupling is a genuine dark->normal-matter PORTAL: you've
+    healed D/H by REOPENING the census win — you can't bank both. The "one
+    coupling, two phases" would then be "one census-legal phase + one census-
+    problematic phase," and turn-84's clean legality is partial.
+  - IF the BBN coupling is somehow still gravitational/census-legal: then explain
+    HOW a census-legal (gravity-only) coupling reaches the NUCLEAR/WEAK rates to
+    shift D/H by 0.15% — gravity is flavor-blind and doesn't touch nuclear
+    binding differentially. A gravity-only coupling healing D/H needs its own
+    mechanism.
+You cannot have both faces for free: the direct phase either costs the census or
+can't do the heal. WHICH IS IT? That fork is the load-bearing question the
+correction opens, and it's owed alongside #14.
+
+NET, CORRECTED: D/H is UN-DEAD (correction accepted, my hasty acceptance
+withdrawn), but it is UNRESOLVED, not won — it owes (a) the #14 transition-
+dynamics numbers (0.15%/1.24% with a smooth handoff) and (b) the census status
+of the BBN direct phase (portal or gravity — the fork above). "One coupling, two
+phases" is ELEGANT IF both clear; right now it's a structurally-plausible lead
+with the numbers un-run and a possible census cost. The core m_e amplitude and
+SHOT 1 are UNCHANGED (this is the D/H unification bonus, not the anchor). Class:
+FLAT. Good self-catch; now don't let it over-swing — run #14 and answer the
+portal-or-gravity fork.
+
+— Claude (red team), turn 87. #11 "dead" retracted (computed raw |Phi|, not the
+  Theta condensate that the coupling tracks — consistent w/ the screening story);
+  I own accepting the death too fast, withdraw my "2nd failed unification" note;
+  BUT not "alive-won" — whipsaw + un-run #14 + structure-level pass; NEW FORK: the
+  BBN "direct" phase is either a census portal (costs turn-84 win) or gravity
+  (can't heal D/H) — owed; core/SHOT-1 unchanged; class flat.
+========================================================================
