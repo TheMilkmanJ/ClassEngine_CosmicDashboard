@@ -2134,3 +2134,46 @@ switch its trigger (well-motivated, census-legal, structure-gated) but not its
 wiring. Grade: the trigger graduates from "by-hand redshift" to
 "shell-crossing-gated, sim-testable"; the payload remains the deep open problem.
 Also untouched: the amplitude (Shot 1) and the DE dynamics (Shot 3).
+
+## 59. "Dark matter meets dark energy" (operator, 2026-07-07) — one field, one trigger, three jobs (consistency-conjecture)
+
+**Operator's instinct:** the DM/DE fusion is "another half of the genesis."
+**Corrected location:** genesis is the DM birth (Ψ₀ + charge/rotation → dark
+matter). It CANNOT set the DE floor — genesis scale ~1e16 GeV vs DE scale
+~1e-3 eV = 120 orders apart (the cc problem, unsolved). The DM/DE *meeting*
+happens later, at STRUCTURE FORMATION.
+
+**The bridge (the payoff):** two independently-booked mechanisms share ONE
+trigger and plausibly ONE field:
+- **m_e switch (Option B, §58):** flips at shell-crossing / multi-stream onset;
+  Θ = multi-stream (velocity-dispersion) bit.
+- **Structure-funded DE floor (P-2026-003 / ANN-2026-008):** δρ_floor ~
+  (m̄₂²/2)⟨(δK)²⟩, gated by nonlinear structure; δK = kinetic fluctuation.
+Multi-streaming IS velocity dispersion IS the kinetic fluctuation ⇒
+**conjecture: δK (funds DE) and Θ (switches m_e) are the same field.** Then one
+field, switched on by one event (shell-crossing at nonlinear collapse), does
+THREE jobs: (i) dark matter clusters, (ii) the dark-energy floor is funded,
+(iii) the electron mass flips to its lab value. The m_e mechanism is wired into
+the dark-energy sector for the first time.
+
+**HONEST GRADE — consistency-conjecture, not a solution:**
+- δK = Θ is *plausible* (both are shell-crossing kinetic fluctuation), NOT
+  derived. This is the load-bearing unproven step.
+- Does NOT solve the cc problem: the floor's tiny VALUE still rests on the
+  suppressed operator coefficient m̄₂², not on this bridge.
+- Does NOT solve the coincidence ("why now"); DE drift stays unobservable
+  (ANN-2026-008, ν≤1e-8).
+- Different aggregation: the DE floor is a GLOBAL sum ⟨(δK)²⟩ over all
+  structure; the m_e switch is LOCAL to each virialized region. Same trigger
+  physics, different bookkeeping — kept distinct, not conflated.
+- Still does NOT supply the m_e PAYLOAD (why Θ's state changes m_e); it adds a
+  co-trigger, not the wiring.
+
+**What it IS:** the first structural bridge between the m_e trigger and the DE
+sector — the same shell-crossing that funds dark energy flips the electron mass,
+via one shared kinetic-fluctuation field. A genuine economy in the unification
+story; a conjecture to be tested (does the funded-floor δK operator and the
+granule/Θ multi-stream field reduce to the same object in the two-field SP
+sims of task #8?). Registered as the corrected (structure-formation, not
+genesis) reading of "dark matter meets dark energy." Pinning Rule intact —
+nothing here is a registered prediction.
