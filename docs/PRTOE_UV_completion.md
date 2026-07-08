@@ -155,3 +155,29 @@ Can we extract DM's ceiling/floor and DE's floor from the current regime + H? So
 
 **Bracket filled:** ceiling (pinned m,Psi0) / floor=DE-floor (Omega_Lambda now) / density-rate
 (now) all in hand; the field freeze-rate is the lone future number, = DESI w(z) IF thawing.
+
+## Step 7 (2026-07-08) — THE FLOOR MECHANISM: a sign-locked kinetic condensate
+
+First real swing at the (deltaK)^2 funded floor (the missing 20%).
+**Mechanism:** put the structure in the KINETIC term. Lagrangian P(X), X=(d phi)^2. Canonical
+P=X oscillates to zero (DM forever). But if **P(X) has a minimum at X0 != 0 (ghost condensate)**,
+the field settles into a constant-velocity kinetic condensate: at the min P'=0, so
+**rho = -P(X0) = const, w = P/(-P) = -1 exactly.** That IS the floor. "Funded" = energy from the
+kinetic condensate (not a bare Lambda); "sign-locked" = stability needs P''>0 (floor, not ceiling).
+**Gives the whole transition:** high density -> X large, P~X, canonical -> DM (w=0); as rho dilutes
+to rho_Lambda, field slides to X0, condensate takes over -> w runs 0->-1 -> DE. Crossover at
+rho_field ~ rho_Lambda = z~0.7 automatically. GRADUAL (crossover), SELF-DRIVEN (condensate sets
+rho_Lambda -> H_Lambda), CENSUS-LEGAL (self-interaction of the medium's OWN kinetic term). Makes
+"one field = DM + DE" literally true (canonical high-density / condensate low-density).
+
+**HONEST LIMITS:**
+1. ADDED ingredient -- a canonical ALP has no P(X) minimum for free; the ghost-condensate structure
+   is put in (census-legal, motivated, not automatic).
+2. Does NOT solve the CC problem -- rho_Lambda = -P(X0) ~ (meV)^4 is still a TUNING (relocated from
+   "why Lambda~meV^4" to "why X0 gives P(X0)~-meV^4"). Every dynamical-DE model has this; PRTOE no
+   worse, no better. The meV~m_nu coincidence still unexplained.
+3. STABILITY delicate -- ghost condensates have gradient instabilities; w=-1 stability needs the
+   sign-locked certificates (alpha_T/foliation/alpha_B, corpus-cleared, the technical risk to watch).
+
+**NET:** the floor is now a REAL mechanism (not a placeholder) -- "one field, both jobs" is
+BUILDABLE; "explains the DE scale" is NOT and should not be promised. #17's missing 20% = roughed in.
