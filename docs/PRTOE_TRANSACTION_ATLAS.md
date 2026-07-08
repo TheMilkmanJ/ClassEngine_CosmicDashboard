@@ -220,7 +220,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
    transaction alone (precedent: (□φ)² → (δK)² re-earned via three
    fresh certificates).
 
-**Census: 7 cold (never) / 5 warm / 3 risen.**
+**Census: 7 cold (never) / 6 warm / 3 risen.**
 
 - **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
   structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
@@ -306,6 +306,29 @@ local-state loophole; the universal-vev kill via epoch gating).*
 - **v1–v3 F(φ)R screening program** — four independent kills.
   *Resurrects if:* never as H0 mechanism; the coupling zoo it explored
   feeds the door taxonomy.
+- **Model-SOURCED cosmic birefringence (the six-angle source hunt)** —
+  killed 2026-07-08. IMPORTANT SCOPE: this buries the search for a way to
+  make the medium *produce* birefringence; it does NOT touch **P-2026-009**
+  (medium produces ZERO parity-odd rotation), which is the opposite —
+  a healthy, now over-determined standing prediction. Six independent
+  source-routes (multiverse/external, early open-account regime, the
+  regime-change tail, the radiation era, residual-account rotation, and
+  real-time generation at last scattering) all closed on the SAME TWO
+  locks: (i) any source must be *alive at last scattering* z~1100 → needs
+  the condensation redshift z_x near matter-radiation equality, but the
+  model gives z_x~1e5 where the residual normal fraction is ~1e-8
+  (scripts/birefringence_window.py, ANN-2026-017); (ii) the birefringence
+  *signature* (EB rotation) requires a parity-ODD coupling → the
+  EM-anomalous angular mode the census forbids (ANN-2026-012). Generating
+  vs rotating does not evade (ii); reionization does not reopen (i) (data
+  separates recomb z~1100 from reion z~7 by ~140×, four ways over).
+  *Resurrects if (Rule-1 bet, both ways):* **MET by** the #11 genesis calc
+  pinning z_x near equality (~few×10³) — a small suppressed isotropic
+  signal then becomes census-legal via the still-open residual account;
+  **FAILED-forever by** #11 confirming z_x~1e5 (the current value) OR the
+  angular mode remaining census-forbidden under the #5 scope ruling. Warm,
+  on those terms — the single reopener is a number #11 already owes.
+  Operator parked the search 2026-07-08 ("might think of an idea later").
 
 ## The payment→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
 *The medium accepts exactly one currency — spacetime geometry (gravity
