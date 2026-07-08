@@ -2897,3 +2897,36 @@ dissipationless order). That coherence is why it has no friction AND why it can
 only talk through gravity. The operator grabbed a real SYMPTOM (viscosity→0) of
 the actual CAUSE (coherence→symmetries→gravity-only→c=1). Right root, wrong
 branch. Credited.
+
+## 81. "Why c=1 not c=0.5?" (operator) — THE HONEST FLOOR: c may be a free O(1) coupling, not derivable
+
+**Operator: ask the superfluid why c=1 and not 0.5.** Straight answer:
+**c=0.5 is NOT forbidden. We have no principle forcing c to be exactly 1.**
+
+**What IS forced (real):** c is gravitational in KIND and O(1) in SIZE —
+naturalness forbids c≫1 (§75), the symmetries force gravitational-not-other-
+channel (§80), a gravitationally-generated coupling is an O(1) number. But
+"order-one" ≠ "exactly one." Within O(1), both 1 and 0.5 are allowed by every
+principle established. The symmetries force gravity's KIND, not gravity's exact
+STRENGTH.
+
+**Why the tower doesn't reach it (structural):** the real effect needs a
+CONFORMAL (scalar-tensor) coupling — pure minimal gravity gives only ~10⁻⁵
+redshift. A scalar-tensor coupling INHERENTLY carries a free coefficient (a
+dial). Naturalness caps the dial; data reads it (≈0.94); nothing forces it to
+exactly 1.
+
+**THE HONEST POSSIBILITY:** c=1 may not be derivable at all — it may be an O(1)
+coupling constant our universe has at ≈0.94, with no deeper "why."
+
+**Balanced (NOT a failure):**
+- NORMAL: most couplings (Yukawas, CKM angles) are O(1) numbers, measured not
+  derived; the SM isn't broken for it. c joins that list.
+- The model STILL predicts amplitude ~1% (forced: traced factors × O(1)
+  coupling) — genuine and correct. Only the exact digit 1.24% rides on an
+  empirical O(1) coefficient, like every other O(1) coupling.
+
+**Status:** the superfluid tells you the coupling is gravitational + order-one;
+whether it tells you EXACTLY one is the open effective-action calc, which may
+return "free" rather than "forced." Genuine floor of the derivation, stated flat.
+Credited to the operator for pushing to it.
