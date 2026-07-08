@@ -2497,3 +2497,34 @@ open is only β's VALUE (≈0.6, the f_amp mechanism-sketch, §66). Structure:
 complete and closed. Middle gear (β): still a sketch. This is the whole m_e
 transaction, not the whole model (the dark fluid, DE floor, genesis are separate).
 Credited to the operator's synthesis.
+
+## 68. Can β be derived now? NO — and the EM-vs-gravity comparison proves why (operator's comparison, run)
+
+**Operator: "compare EM and gravity's couplings to see exactly why β" + "can you
+derive β right now?"** Ran the comparison. Answer: NO, and the comparison shows
+why.
+
+**The comparison:** electron EM coupling α ≈ 0.007; electron gravitational
+coupling (m_e/M_red)² ≈ 4e-44; ratio ≈ **10⁴²**. β needs to be **0.6**. No power,
+root, or log of a 10⁴² number lands near 0.6.
+
+**Result (a ruled-out route):** β is NOT a ratio of coupling strengths — those
+are astronomically huge/tiny, never O(1). **β ≈ 0.6 is a pure GEOMETRIC fraction**
+(consistent with f_amp, a mode fraction; §66). The "β = some ratio of the forces"
+idea is permanently closed.
+
+**Why β is NOT derivable now — two missing ingredients, neither obtainable by
+reasoning:**
+1. **Operator coefficient:** is the coupling exactly gravitational strength (=1),
+   giving β = f_amp×1? The census does NOT force this — it killed the CONTINUOUS
+   coupling (MICROSCOPE); the DISCRETE Θ-switch amplitude is not census-pinned.
+   Needs the payload operator written down.
+2. **Field configuration across the switch:** does exactly f_amp participate?
+   That's the actual shape of |Ψ| in the two Θ states — only the task-8 sim gives
+   it.
+
+**State:** β's IDENTITY known (geometric mode-fraction, ≈f_amp, 60% of gravity's
+grip); its VALUE has a falsifiable target (0.6, checkable when sims read f_amp);
+but it CANNOT be computed cold without (1) the operator + (2) the sim. Deriving β
+= build the operator + run the sim (task #8), not more reasoning. Comparison
+credited to the operator (closed the coupling-ratio route).
