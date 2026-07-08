@@ -386,6 +386,25 @@ local-state loophole; the universal-vev kill via epoch gating).*
   metric); it cannot fumble a handedness it never held. You can drop the
   plate you are carrying, not one you never picked up. Eight angles, one
   structural fact; the null is now maximally over-determined. Parked.
+  **BLUE-TEAM SOLUTION HUNT (2026-07-08, JP's request — find a mechanism, not
+  just re-bury):** four fresh angles thrown and answered. (a) Weak-sector bridge
+  (EM-neutral but weak-charged, neutrino-like) — DEAD: the photon anomaly counts
+  (T₃+Y)²=Q_em²=0 for EM-neutral, and the surviving θ·Z·Z̃ is irrelevant (Z absent
+  at CMB energies). (b) θ·R·R̃ chiral GWs → photons via Gertsenshtein — DEAD:
+  needs external B, Planck×B suppressed, incoherent. (c) vorticity·E (parity-odd)
+  — DEAD: coupling ω to E needs the EM account / chiral charged fermions. (d)
+  **Kinetic mixing / dark photon — the real find:** gauging the medium's GLOBAL
+  U(1) into a dark photon + a kinetic-mixing portal (ε F F′) DOES transfer a dark
+  axion coupling into visible θ·F·F̃ (∝ε²) → genuine birefringence. It WORKS — but
+  requires exactly what the census forbids and the model explicitly excludes ("no
+  dark photon"). **So the resurrection cost is now SPECIFIC: a confirmed 5σ
+  birefringence forces the model to gauge its U(1) into a dark photon + open a
+  kinetic-mixing portal, surrendering the census (and MICROSCOPE-safety,
+  flavor-blind constants).** Not "the model dies" — "the model becomes a
+  dark-photon-portal model." Graveyard cross-link sweep: NONE — the other entries
+  (carrier-ratio/caustic, funded floor, screening) are parity-even scalar/DE/DM
+  sector; birefringence is parity/EM, no shared handedness structure. Stays buried;
+  the one gain is that the cost of a future signal is now named, not vague.
 
 ## The payment→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
 *The medium accepts exactly one currency — spacetime geometry (gravity
