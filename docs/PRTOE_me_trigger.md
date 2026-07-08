@@ -1934,3 +1934,41 @@ scale? If the genesis forces Psi_0 = M_GUT (or the medium IS GUT-scale physics),
 eps ~ M_GUT/M_Pl becomes forced and 1.24% is derived up to beta. That is the
 sharpened Tier-4 question: not "what is eps" but "why is Psi_0 at the GUT scale" --
 a real physics question (why that scale), not numerology.
+
+## 54. THE DEEP REASON THE VOID PREDICTION IS HARD: a uniform m_e shift is a
+## LOCAL RESCALING, invisible from inside (operator's "no change in resolution",
+## 2026-07-07)
+
+Operator's insight: the medium is smooth/all-pervasive, so objects within it see
+"no change in resolution." Sharpened to precise physics:
+
+REAL AND DEEP: a uniform m_e shift inside a void RESCALES the entire EM-binding
+world together (atom sizes ~1/m_e, binding energies ~m_e, clock rates, emitted
+wavelengths). An observer INSIDE the void, using void-rulers/clocks, sees NOTHING
+unusual -- their ruler rescaled with the thing measured. A uniform rescaling is
+LOCALLY INVISIBLE (same principle as: no detectable absolute size, no detectable
+uniform motion -- only ratios/comparisons are ever observable). THIS is the
+deepest reason P-2026-007 is "parked" -- deeper than "voids are hard to see":
+you cannot detect the shift from INSIDE, only by comparison.
+
+THE PRECISE CATCH (the falsifiability escape): m_e shifts but m_p does NOT, so the
+RATIO m_e/m_p changes. Anything depending on that ratio (molecular vibration/
+rotation, 21-cm ~ m_e^2/m_p) shifts RELATIVE to nucleus-only scales. So the shift
+is invisible to PURELY ATOMIC measurement (EM world rescales together) but VISIBLE
+by comparing an electron-scale quantity to a nuclear-scale one -- which is exactly
+how varying-constant measurement works, and WHY cosmic-dawn 21-cm (fork a, sec
+P-2026-007) can probe it. The "no change in resolution" holds WITHIN the atomic
+world, breaks at the atomic-vs-nuclear boundary -- the crack that keeps it
+falsifiable.
+
+CORRECTION on "smooth at every scale": smooth WITHIN a region and on the electron's
+scale (-> no local gradient -> no fifth force, the rigid-pinning result), but NOT
+smooth at every scale -- at the de Broglie wavelength (~6 pc for the mass band) it
+GRANULATES (speckle = the epsilon-meter signal, P-2026-008's detector). Truly-
+smooth-at-every-scale would be perfectly undetectable; the graininess is the
+fingerprint.
+
+AMPLITUDE NOTE: does NOT derive 1.24% (still the GUT-scale question, sec 53). But
+explains WHY the amplitude is hard to measure -- a uniform rescaling hides from
+local observers, forcing cross-environment/cross-sector comparisons where data
+thins. The medium's SMOOTHNESS and its effect's INVISIBILITY are the same fact.
