@@ -129,6 +129,7 @@ sampler:
     burn_in: 40
     max_tries: 400
     learn_proposal: true
+    covmat: chains/dyad_mnu_seed.covmat
     Rminus1_stop: 0.05
     Rminus1_cl_stop: 0.2
     max_samples: 40000

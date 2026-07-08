@@ -553,3 +553,414 @@ wrong shape still kills the mechanism; a confirmed drift at
 DETECTABLE amplitude now also kills it (the lock forbids it).
 
 ---
+
+## ANN-2026-011: THE EPSILON COLLISION RESOLVED BY THE MASS GATE (the morning reconciliation audit, 2026-07-07)
+
+**Status of ANN-2026-010: SETTLED, neither side by the mechanism it
+expected.** The audit (Room 1 doc, "Morning Reconciliation Audit")
+pinned the model's mass band to [1, 3]x10^-21 eV (V2's fork is the
+controlling structure; the 10^-22 bottom was inherited phrasing,
+never derived). At that band, beat_needed = 10-90 while the beat
+observable saturates at 1: **the PTA channel is dead by mass on
+every surviving branch, regardless of f_amp.**
+
+Consequences, stated per the registry's own discipline:
+- P-2026-005's PTA-silence half SURVIVES — by the mass gate, not by
+  a quiet draw. The h-scan grid says the medium almost certainly
+  rings loudly (P(f_amp>0.2) -> 100% at h = 1e4); it rings above
+  the PTA band at crushed amplitude.
+- The 6:1 "fires" pricing, the softened 4:1, and the 33% (21-51%)
+  near-future detection marginal are all DEAD — they rode the
+  un-audited band bottom. This is the Pinning Rule's FOURTH firing
+  (an un-pinned mass this time, not an un-pinned function), and
+  E7a-CAVEAT predicted it in writing before the audit ran.
+- The epsilon-meter program is now single-instrument: the GRANULE
+  channel (p^2 + q^2 suppression, m-independent) carries the dice
+  readout alone. Simulation-grade follow-up owed before any granule
+  number is quotable.
+- The free-vs-condensate discriminator (superradiance lambda-quench)
+  is LIVE at the band top: M87*'s [2.9, 4.6]x10^-21 free-scalar
+  exclusion overlaps m ~ 3x10^-21. A spin measurement there kills
+  free FDM and not the dyad — present-day data, not future.
+
+No new prediction is registered by this annotation; it settles one
+collision, kills three advertised numbers, and narrows the program's
+falsification surface to instruments that still point at it.
+
+## STAGED CANDIDATE TESTS (2026-07-07, "predict-then-validate-with-existing-science"; NOT yet registered -- staged for the falsification phase, pending full flesh-out)
+
+*Operator's question: what prediction-then-validate tests should we try? Criteria
+for a CLEAN test: (a) forced by the model's UNIQUE structure (single-field DM
+cannot reproduce it), and (b) validated against data NOT used in the cosmology
+fit. Listed here staged, to develop once the model is fully fleshed out (two m_e
+gates closed, amplitude derived, two-fluid sims run).*
+
+- **MOLECULAR SPECTROSCOPY (operator's benzene idea) -- CONSISTENCY, not unique.**
+  m_e-dependent molecular spectra (benzene, and more sensitively methanol/ammonia)
+  shift with environment. Existing science: astronomical mu=m_e/m_p bounds
+  (methanol masers ~1e-7). CATCH: (i) not unique -- any varying-m_e model predicts
+  it; (ii) molecules only form in DENSE gas (all structured -> all "lab value"),
+  so current data confirms the "structure->lab" half but cannot test the
+  "void->bare" half (no molecules in voids). Grade: consistency check, not a clean
+  unique prediction. The unique test needs unvirialized/diffuse molecular data
+  (hard) -- same gap as the Lya-forest near-threshold test (sec 47).
+
+- **THE chi-LAG CORE-HALO RELATION (Room 5) -- UNIQUE, best candidate.** The
+  two-fluid split forces a REDSHIFT-DEPENDENT dwarf core-halo size relation (chi
+  condenses ~11x slower, Levkov). Single-field FDM has NO such lag. Validate
+  against dwarf-galaxy structural data (NOT in the cosmology fit). Forced + unique
+  + out-of-fit = clean. Needs: two-fluid sims to produce the predicted scatter
+  pattern (old halos on-relation, young below).
+
+- **GRANULE HEATING SUPPRESSION -- UNIQUE, needs sims.** Two fluids suppress
+  granule speckle heating by S=(1+f_rot^2)/2 relative to free FDM at fixed m.
+  Validate against dwarf-heating / stellar-stream data. Forced + unique. Needs the
+  granule sims (Tier 3) to make S a quotable number.
+
+- **SUPERRADIANCE DISCRIMINATOR (P-2026-005 heavy edge) -- UNIQUE, near-term.** At
+  the mass band top (~3e-21 eV), SMBH-spin data already excludes FREE FDM (M87*)
+  while the lambda-quenched dyad survives. A spin measurement there separates them.
+  Forced + unique + existing/near-term data.
+
+STAGING NOTE: all four are held UN-REGISTERED until flesh-out (Tier 2 gates + Tier
+4 amplitude + Tier 3 sims). Registering before the math is finished risks a wrong
+prediction teaching nothing (can't distinguish wrong-idea from wrong-math). The
+chi-lag and granule tests specifically await the two-fluid sims.
+
+## P-2026-007: THE VOID/IGM m_e-STEP -- the model's sharpest forced, dyad-specific prediction (surfaced by red-team turn 78, registered 2026-07-07)
+
+**Forced prediction:** m_e is shifted by the FULL +1.24% (its bare/recombination
+value) in all sub-threshold gas -- cosmic voids and the diffuse IGM (overdensity
+delta <~ 1) -- TODAY, dropping to the lab value only inside virialized structure.
+This is the near-step S(C) applied to present-day low-density gas; it is the same
+content as "the CMB at recombination sees the bare value," and it is FORCED by the
+mechanism (not tuned). LCDM (constant m_e) cannot produce it.
+
+**Why it's the sharpest:** the shift is ~1.24%, which is 4-6 ORDERS larger than
+typical varying-constant bounds (delta mu/mu ~ 1e-5 to 1e-7). It does not need
+exotic precision -- any ~1%-level m_e/mu handle in genuinely underdense gas tests
+it. It is the most concrete dyad-specific signature the program has produced.
+
+**Confrontation status (first pass, 2026-07-07): UN-EXCLUDED, UN-CONFIRMED.**
+Every current precision m_e/mu handle (H2/HD in DLAs, methanol/ammonia masers,
+21cm-vs-optical, metal-line alpha) lives in DENSE/structured gas -> reads lab
+value -> confirms the "structure->lab" half, cannot test the void half. Diffuse
+HI (Lya forest) is redshift-degenerate for a uniform shift.
+
+**LIMITATION FLAG (honest):** the shift lives exactly where m_e is hardest to
+measure -- "invisible-where-it-happens," cousin to the R1 caustic-bit concern.
+This is the mechanism's content, not a dodge, but testability is intrinsically
+hard: the sharp prediction and the unmeasurable regime are the same regime.
+
+**EPISTEMIC STATUS (red-team turn 80, accepted): PARKED.** Forced-but-untestable-
+now does NO evidential work either direction -- cannot move the class
+(unconfirmable -> no evidence), cannot kill the mechanism (unrefutable -> no
+risk). NOT to be framed as an "asset": distinctive on paper, inert in fact until
+an instrument reaches sub-threshold gas. Deep reason for the blind spot:
+ENRICHMENT TRACKS STRUCTURE, so metal/molecular m_e handles are physically
+confined to the super-threshold (lab-value) regime -- prediction and blind spot
+are one regime BY FORCE.
+
+**FALSIFICATION PATH (fork (a), turn 81): COSMIC-DAWN 21-cm (z~15-20).** Keeps
+the prediction scientific (falsifiable-in-principle, not unfalsifiable). 21-cm
+rest frequency ~ m_e^2 -> a +1.24% m_e shift gives +2.48% frequency shift
+(~1.7-2.2 MHz at 68-89 MHz observed). WHY IT WORKS where metals can't: H I needs
+NO enrichment; cosmic dawn is mostly-neutral, diffuse, HI-rich, bulk IGM at
+delta<~1 = sub-threshold = the shifted regime. Breaks the enrichment-tracks-
+structure confinement. CAVEATS: degenerate with astrophysics (star formation,
+X-ray heating, Lya coupling); global/statistical signal; instruments HERA/
+SKA-low/REACH (operating/near-future). CONFIRM = +2.5% 21-cm frequency offset
+(dyad-specific, LCDM-impossible); NULL = consistent-with-zero kills the sharp
+step. Awaits the cosmic-dawn measurement + astrophysical-degeneracy control.
+
+## P-2026-008: THE DETECTION PREDICTION -- "what can detect space?" (operator's question, 2026-07-07; consolidates census bets + P-2026-005 + the epsilon-meter into one forced detection story)
+
+**The medium's detection rules are FORCED and unusually definite:**
+
+1. **NO material detects it via any force but gravity (census).** No nuclear
+   recoil (direct detection LZ/XENONnT), no photon conversion (haloscopes ADMX),
+   no annihilation/decay line (indirect), no fifth force. ALL null, forever. ANY
+   lab detection of the dark sector via a non-gravitational channel KILLS the
+   model. Forced kill-only prediction (consolidates the standing bets).
+
+2. **NO oscillation-based gravitational detector either (P-2026-005).** The
+   medium ROTATES, does not OSCILLATE ("rolls-never-oscillates"). Generic
+   ultralight scalar DM oscillates at its mass frequency (pulsar-timing / clock
+   targets); the dyad produces NO such oscillation signal. Distinctive NULL vs
+   generic scalar DM.
+
+3. **NO lab-scale gravitational detection.** Local density ~7e-25 g/cm^3
+   (ephemeris null -- solar system can't feel it); granule structure is ~6 pc /
+   ~1e4 yr -- an astrophysical structure, not a lab signal.
+
+**THE ONLY DETECTOR = VISIBLE MATTER, GRAVITATIONALLY, reading the medium's
+SUPERFLUID STRUCTURE at astrophysical scale:**
+  - GRANULES (wave-interference speckle) -> gravitational heating of stellar
+    streams / dwarf galaxies (the epsilon-meter, granule scoping doc);
+  - VORTICES (quantum turbulence) -> tangle signatures in halo dynamics;
+  - SOLITONS (condensed cores) -> dwarf-galaxy cores + the chi-lag relation
+    (Room 5, two-fluid).
+The "material that detects space" is ORDINARY MATTER (stars, gas, streams) via
+gravity in dwarf galaxies / streams -- NOT a lab device.
+
+**Why it's strong:** forced, dyad-specific (generic DM allows lab detection;
+this medium forbids it), double-edged -- the null half is permanent
+falsification exposure (one lab detection kills it), the positive half (the
+superfluid structure in dwarf/stream data) becomes CONFIRMABLE once the
+two-fluid sims produce quotable granule/soliton/chi-lag numbers (Tier 3). This
+is the model's answer to "how do you detect the dark medium": you don't build a
+detector, you point a telescope at a dwarf galaxy and read its stars.
+
+---
+
+## P-2026-009: NO cosmic birefringence from the dark medium — the census tests itself against a live 2-3σ hint
+
+**Registered:** 2026-07-07 19:37 MDT (git base: e5f9f455)
+**The structural fact:** PRTOE's medium, as built, is a complex scalar with
+a global U(1) and a *parity-EVEN* coupling to mass (Path A: m_e(phi) =
+m_e(1 + beta phi/M_Pl), the dilaton form). Cosmic birefringence — a rotation
+of the CMB linear polarization plane by an angle beta — requires a
+*parity-ODD* coupling of a rolling (pseudo)scalar to electromagnetism, the
+Chern-Simons operator (g/4) phi F_mu-nu Fdual^mu-nu. **PRTOE has no such
+operator.** The census ("gravity is the medium's only account") forbids a
+direct dark->EM coupling under both its narrow and broad readings, and the
+parity-even mass coupling of Path A is a *different, independent* operator
+that generates no birefringence. The medium rolls a large field excursion,
+so IF it carried the Chern-Simons coupling the birefringence would be
+*large*; the coupling's absence is what makes the prediction sharp.
+
+**The prediction:** the dark medium contributes ZERO cosmic birefringence.
+The current hint (Minami-Komatsu-class analyses of Planck/ACT, beta ~ 0.3
++/- 0.1 deg, ~2-3sigma, not decisive) will either (a) fail to consolidate as
+the systematics (detector polarization-angle calibration, foreground EB) are
+controlled, or (b) if it consolidates as a real cosmological-scalar signal,
+it is NOT this medium — and it forces PRTOE's one unmapped degree of freedom,
+the **angular mode** (Room 1's "only axion-shaped hole in the architecture"),
+into physical existence as a parity-odd sector the scalar identity does not
+currently contain.
+
+**Why it's a real bet (double-edged, near-term):**
+- NULL / systematics: confirms the strict gravity-only, parity-even identity.
+  Consistent with PRTOE-as-built.
+- CONFIRMED cosmological birefringence: mild tension with the pure-scalar
+  identity AND the first *positive* motivation for the angular mode — the
+  SAME hole that strong-CP would need a speaker for (see the strong-CP
+  silence, Transaction Atlas). Birefringence and strong-CP would then be
+  two symptoms of one missing parity-odd mode.
+**Falsification:** a community-consolidated nonzero beta attributed to a
+rolling cosmological scalar falsifies the strict "scalar + parity-even mass
+coupling only" identity and promotes the angular-mode extension from
+speculation to requirement. Measured now by Planck/ACT/SPT and, decisively,
+by Simons Observatory and LiteBIRD this decade.
+
+---
+
+## P-2026-010: The gravitational-wave standard sirens land on the model's cornered H0 (independent-instrument companion to P-2026-001)
+
+**Registered:** 2026-07-07 19:37 MDT (git base: e5f9f455)
+**The commitment:** the executed-lever audit of P-2026-001 corners the model
+at **H0 = 69.7-70.1 km/s/Mpc** (joint optimum 69.70; free-Sigma-m_nu
+posterior 70.11 +/- 0.66) with NO lever left to reach 72+. P-2026-001 bets
+this against the *distance-ladder* (Cepheid vs TRGB). Standard sirens are a
+*physically independent* ladder — the GW luminosity distance is read straight
+off the waveform amplitude, calibrated by general relativity, touching no
+Cepheid, no TRGB, no rung.
+
+**The prediction:** as bright-siren (GW+EM counterpart) and dark-siren
+(GW+galaxy-catalog) samples reach ~1-2% by ~2030, the siren H0 converges into
+**[68.5, 71.5] km/s/Mpc** — consistent with the CMB/TRGB side, NOT with SH0ES
+(73.0 +/- 1.0). A siren H0 that consolidates at >=72 with the model's other
+data fixed falsifies the cornered-H0 program by the same logic as P-2026-001,
+through a channel with entirely different systematics.
+
+**Honest grade — SHARED, not unique:** any model that fits the joint stack to
+H0 ~ 70 makes this same siren prediction; it does not fingerprint PRTOE. Its
+value is (i) a second, systematics-independent instrument aimed at the one
+number the model cannot dodge, and (ii) a near-term, unhedgeable exposure. It
+is registered as a *commitment*, not a discriminator — the discriminators
+remain P-2026-005 (kinetic-medium) and P-2026-007/009 (dyad-specific).
+
+---
+
+## P-2026-011: The lepton/hadron varying-constant hierarchy — a FORCED ratio, parked in the same blind regime as P-2026-007
+
+**Registered:** 2026-07-07 19:37 MDT (git base: e5f9f455)
+**The structural fact (from the m_e-trigger EM-self-energy mechanism):** the
+dyad's constant shift is driven by the electromagnetic self-energy fraction of
+each species, NOT a universal Higgs-vev rescaling. Therefore the shift is
+strongly flavor/sector-ordered:
+  Delta m_e/m_e  ~=  Delta m_mu/m_mu  ~  +1.24%   (leptons, EM-self-energy dominated)
+  Delta m_p/m_p  ~  +0.075%                        (hadron, ~13x weaker, QCD-dominated mass)
+Consequence for the measurable ratios: **Delta mu/mu ~= +Delta m_e/m_e** (the
+proton is nearly fixed, so the mass ratio mu = m_e/m_p carries essentially the
+full electron shift), and Delta alpha/alpha is separately small. A UNIVERSAL
+vev shift, by contrast, moves all masses together (Delta m_e/m_e = Delta
+m_p/m_p) and gives Delta mu/mu ~ 0. The two mechanisms predict OPPOSITE
+hadron behavior.
+
+**The prediction (the falsifiable ratio):** wherever a genuine PRTOE constant
+shift exists, it must show the lepton-heavy pattern — leptons shifting ~13x
+more than the proton, mu carrying the full lepton shift. A measured varying-
+constant signal with Delta m_p/m_p ~ Delta m_e/m_e (equal shifts), or with
+hadrons shifting MORE than leptons, falsifies the EM-self-energy mechanism.
+
+**Honest grade — FORCED but PARKED (cousin of P-2026-007):** the shift only
+*exists* at its full amplitude in sub-threshold gas (voids/IGM) and at
+recombination — exactly the regimes where (i) no clean m_e/mu handle reaches
+(P-2026-007's enrichment-tracks-structure blind spot), and (ii) ANN-2026-006(a)
+showed a pure-m_e shift and a universal-vev shift are INDISTINGUISHABLE at
+recombination to five decimals (the reduced-mass suppression). So the ratio is
+a genuine forced structural claim that currently has no clean testing ground
+— it becomes live only when an instrument reaches sub-threshold gas AND
+resolves two mass species there (cosmic-dawn HI gives m_e via the 21-cm ~m_e^2
+handle of P-2026-007; a co-located molecular/mu handle would complete the
+ratio). Registered so the forced pattern is on record before any such
+measurement, not as an asset doing evidential work today.
+
+---
+
+## ANN-2026-012: Sharpening of P-2026-009 (operator's push: "light is radiation, light should have coupling") — the null is about PARITY, not about whether light couples
+
+**Recorded:** 2026-07-07 20:05 MDT (git base: 6f5462e0)
+**The correction, adopted:** P-2026-009 as first written ("the dark medium
+contributes zero birefringence / no dark->EM coupling") over-stated the
+silence. The operator is correct that light couples to the model. It couples
+through THREE distinct doors, and P-2026-009 is a claim about only the third:
+
+1. **GRAVITY (parity-even, universal, ON):** photons trace the medium's
+   gravitational potentials — lensing, ISW. Always present, already in the
+   model. Real coupling.
+2. **LOOP-INDUCED VARYING-alpha (parity-even, bounded/killed):** the Path-A
+   coupling to m_e (phi psi-bar psi) drags in a phi F_mu-nu F^mu-nu coupling
+   through charged-lepton loops — a varying fine-structure constant, generically
+   ~alpha/pi suppressed relative to the m_e shift. THIS IS ALREADY IN THE
+   MODEL'S GRAVEYARD: varying-alpha was excluded by quasar bounds (45-100x
+   over), which is precisely WHY the dyad's shift lives in m_e and not alpha.
+   So light's parity-even coupling was met, priced, and is what forced the
+   m_e-not-alpha structure. Honest caveat: the m_e/alpha separation is
+   enforced by DATA (quasar alpha-bounds), not by an exact symmetry — the
+   parity-even photon door is bounded small, not forbidden.
+3. **PARITY-ODD phi F Fdual (the birefringence door) — the actual subject of
+   P-2026-009:** rotating CMB polarization requires a PSEUDOSCALAR coupled to
+   the photon TOPOLOGICAL term. A scalar with a parity-even mass coupling
+   (doors 1-2), including all its loops, CANNOT generate a parity-odd rotation
+   — parity forbids it. The model's only pseudoscalar candidate is the ANGULAR
+   MODE (the phase theta of Psi = |Psi| e^{i theta}); but theta's shift
+   symmetry is a DARK number-U(1) ("charge = abundance", NOT electric charge —
+   the medium is electrically neutral per the census), so it carries no EM
+   anomaly and generates no theta F Fdual. No EM-anomalous pseudoscalar -> no
+   birefringence.
+
+**P-2026-009, restated precisely:** the dark medium produces NO PARITY-ODD
+photon coupling, hence zero cosmic birefringence — NOT because light is
+decoupled (it couples via doors 1-2), but because the medium has no
+EM-anomalous pseudoscalar. A consolidated nonzero beta therefore isolates
+door 3 specifically: it would require the angular mode to be EM-anomalous
+(the dark U(1) secretly carrying an EM anomaly — a departure from the neutral,
+gravity-only identity), or be unrelated visible-sector axion physics. The
+tie to strong-CP (Transaction Atlas) is unchanged and now sharper: both want
+the SAME EM-anomalous angular mode the model does not currently contain.
+**Falsification structure unchanged; the claim is now correctly scoped to
+parity, and the operator's "light should have coupling" is affirmed as
+correct for doors 1-2.**
+
+---
+
+## ANN-2026-013: Path A's CONTINUOUS coupling is dead by MICROSCOPE — the m_e mechanism is forced onto the discrete switch (kill/patch session, 2026-07-07)
+
+**Recorded:** 2026-07-07 20:40 MDT (git base: fc8e4754)
+**Trigger:** operator ordered a genuine kill attempt, then a patch attempt.
+The deadliest shot (MICROSCOPE) was fired at Path A's continuous dilaton
+coupling and the patch (standard screening) was tested and FAILED.
+**The result (computed, docs/PRTOE_kill_and_patch_2026-07-07.md):** a
+continuous light-scalar coupling β≈0.012 producing δm_e/m_e=1.24% gives a
+fifth force η~3e-7..1e-8 vs MICROSCOPE's 1e-15 — 7.5-8.5 orders inside the
+kill zone. Neither symmetron (self-screening threshold Φ_*=δm_e/3≈4e-3, above
+the Newtonian potential of everything short of a neutron star) nor chameleon
+(Earth thin-shell Δ~3e6≫1) can screen a percent-level coupling in solar-system
+potentials. The screening threshold scales WITH the coupling; 1.24% is ~6-7
+orders too large to hide.
+**Adopted verdict:** **Path A (continuous dilaton coupling to m_e) is DEAD.**
+The m_e mechanism is forced onto the **discrete near-step S(C)** — m_e depends
+on a binary/environmental variable (saturated-Θ) with NO propagating light
+mediator, so a uniformly-Θ-saturated solar system has no field gradient, no
+fifth force, and evades MICROSCOPE/atom-interferometry/clocks by construction
+(this is what §49's "18-order margin / trivial" was implicitly using). The
+sole empirical exposure of the mechanism is now the void/structure boundary
+(P-2026-007, parked) and cosmic dawn (P-2026-007's 21-cm fork).
+**What the survivor OWES, registered so it can't be forgotten:** (i) a
+mechanism for a sharp m_e switch with no light mediator (a step usually implies
+an order parameter with a range, and any range re-introduces a fifth force —
+this is the hard open problem); (ii) a domain-wall check (likely evaded: an
+environmental *crossover*, not a broken degenerate vacuum, forms no persistent
+wall network — but must be shown from the Θ potential, not asserted).
+**Consequence for the census-scope hinge (task #5):** this partially adjudicates
+it in the strict direction — the census does NOT admit a continuous
+matter-coupling (it's EP-illegal), so the only census-compatible m_e route is a
+gradient-free discrete environmental state. The "narrow vs broad census" hinge
+narrows: broad continuous coupling is excluded by MICROSCOPE, independent of the
+red-team's ruling.
+
+---
+
+## ANN-2026-014: P-2026-009 first confrontation — the birefringence hint is CONSOLIDATING, not dissolving (task #13, priced 2026-07-07)
+
+**Recorded:** 2026-07-07 20:55 MDT (git base: 81e9cc5d)
+**Data pulled (web, this session):**
+- **ACT DR6 (released 2026-05-08): β = 0.215° ± 0.074°, 2.9σ** — an INDEPENDENT
+  instrument (ground-based, different systematics from Planck's satellite).
+- Planck PR4 analyses: β ≈ 0.3°, ~2.7σ.
+- Combined global significance: **2.4–3.6σ.** Simons Observatory / LiteBIRD /
+  CMB-S4 project a ~7× error reduction — i.e. a 5σ verdict is reachable this
+  decade.
+- Active literature is now trying to identify the SOURCE as a dark-sector
+  axion-like / early-dark-energy field (arXiv 2602.12019, 2605.24341).
+
+**Confrontation with P-2026-009 (which predicts the dark medium contributes
+ZERO parity-odd rotation):** the prediction's "it dissolves as systematics are
+controlled" branch is **losing** — an independent instrument (ACT) did not wash
+it out, it reproduced it at 2.9σ. The signal is consolidating across
+instruments, not fading. **This is pressure on the model, reported as such.**
+- If it reaches 5σ and is confirmed as a rolling-dark-field signal, P-2026-009's
+  clean null is FALSIFIED, and the model is forced to invoke its one unbuilt
+  degree of freedom — the EM-anomalous **angular mode** (the parity-odd
+  pseudoscalar the scalar identity does not currently contain, ANN-2026-012).
+- That is a double bind with Shot 1 (kill/patch session): the branch the data is
+  pushing the model toward is exactly its **unbuilt, un-derived** sector. The
+  literature actively modeling the source as an axion-like field is modeling
+  precisely the operator the census forbids the medium from having.
+
+**Honest status:** P-2026-009 is NOT yet falsified (2.4–3.6σ is not 5σ, and
+detector polarization-angle calibration + Galactic foreground EB remain the
+live systematics). But its favorable branch is eroding. **Watch item, elevated:**
+Simons Observatory first-season and LiteBIRD are the deciders. If β survives to
+5σ, the model owes the angular mode or dies on this prediction. Priced before
+the deciding data, as the registry requires.
+
+**Sources:** ACT DR6 birefringence (arXiv 2508-class / researchgate 395582441);
+SPIDER+Planck+ACT combination (arXiv 2510.25489); LiteBIRD forecast
+(arXiv 2503.22322); source-identification SBI (arXiv 2602.12019).
+
+---
+
+## ANN-2026-015: P-2026-011 status change — RETRACTED under the universal-conformal coupling (2026-07-08)
+
+**Recorded:** 2026-07-08 (git base: 0dca3614)
+**Trigger:** the coupling-structure work of me_trigger §75–92. P-2026-011 predicted
+a lepton/hadron varying-constant hierarchy (leptons shift ~13× more than hadrons,
+EM-self-energy driven). The effective-action reasoning (§90–92) found:
+- a FLAVOR-structured shift (leptons > hadrons) requires the dark medium to reach
+  the Higgs/EM sector NON-gravitationally — a portal the census forbids (§90);
+- the census-legal coupling is a UNIVERSAL conformal (metric) rescaling: it shifts
+  the electron mass, quark mass, AND Higgs vev by the SAME fraction, through the
+  metric, with no portal (§92, operator's "space→mass→mass→space").
+**Consequence:** under the census-legal (universal-conformal) reading, all masses
+shift equally — **there is no lepton/hadron hierarchy.** P-2026-011 is
+**RETRACTED**; the model predicts **UNIVERSAL varying-constants** (cleaner and
+more standard than the flavored version). P-2026-011 would only survive if the
+model relaxes the census to admit a Higgs/EM portal (reopening the #5 scope
+question) — currently NOT the leading reading.
+**Net:** the distinctive lepton-heavy signature is withdrawn; the model's
+varying-constant prediction is now "all constants shift together," and the
+deuterium heal (universal small shift at BBN) rides the same one coupling as m_e
+(unification, §92) contingent on the BBN→recombination field-value ratio.
