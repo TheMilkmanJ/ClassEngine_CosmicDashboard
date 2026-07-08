@@ -203,3 +203,21 @@ overall ~1 +- (matching, sub-% to few-%). Owed honestly.
 dynamical kinetic condensate, NOT an inert Lambda (aligns with JP's no-true-constants view). Only
 the VALUE (why X0 -> P~-(meV)^4) is tuned, off the promises list. Hint: meV ~ m_nu coincidence ->
 IF neutrino-connected, the value gets a dynamical origin too (speculative, unclaimed).
+
+## Step 9 (2026-07-08) — #6 MCMC checked for the neutrino-floor thread: BOUND, not detection
+
+Preliminary read of the running dyad_mnu chain (~9200 rows, R-1~0.2, STALLED/plateaued):
+- **Sigma m_nu = UPPER LIMIT** -- mean~0.055 eV, ~24% weight piled below 0.02 eV, min=0,
+  rough 95% upper ~0.13 eV (consistent w/ the Fairbank ~0.15 note). Boundary pileup at
+  Sigma m_nu>=0 EXPLAINS the R-1 stall (Gelman-Rubin is bad on boundary posteriors) -> R-1<0.05
+  is likely the WRONG target; the stable quantity is the upper limit.
+- (Column map unreliable past m_ncdm: the "c" column read 2808 != conformal ~0.93 -> NO c value
+  claimed from this chain.)
+
+**DEBATE -- can we use it for the neutrino-funded floor (piece 3 thread)? VERDICT: NO.**
+- FOR: upper limit ~0.13 eV is CONSISTENT with meV-scale masses the floor would need; thread not killed.
+- AGAINST (wins): it's a BOUND not a DETECTION -- the MaVaN-floor needs the neutrino mass to SET
+  rho_Lambda~m_nu^4, and a bound gives no mass to build from. Consistent != confirming. Using
+  "Sigma m_nu<0.13 => floor is neutrino-funded" would over-read a non-exclusion as a confirmation.
+- NET: the neutrino-floor thread stays ALIVE-BUT-UNCONFIRMED; not promoted. #6 gives a bound; a
+  bound can't fund a floor.
