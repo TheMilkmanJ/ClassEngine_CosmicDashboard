@@ -41,8 +41,8 @@ dead, and the corpse ledger is public.
 | 12 | Black holes | Superradiance margin; de-condensation at 1.8393 r_s | Shielded, twice |
 | 13 | GW & pulsar timing | ε collision (ANN-2026-010) | **PTA channel DEAD by mass** (ANN-2026-011); granule meter carries ε |
 | 14 | Galactic dynamics | SIDM/SPARC; FDM-inherited verdicts; granules | V1–V3 inherited, V5 alive |
-| 15 | Inflation & genesis | Isocurvature pins; chaotic release; THE DICE | P(f_amp>0.2) ≈ 78–86% |
-| 16 | Chaos & ergodic theory | The One Mountain; microcanonical backbone | Backbone on trial (h-scan) |
+| 15 | Inflation & genesis | Isocurvature pins; chaotic release; THE DICE | P(f_amp>0.2) rises 84→100% (h-scan) |
+| 16 | Chaos & ergodic theory | The One Mountain; the DICE | **Backbone DEAD** (pre-registered falsifier fired); dice stand |
 | 17 | Thermodynamics & information | Landauer, demon, holography, chaos bound | Language exact; 14 domains |
 | 18 | Quantum foundations & metrology | Tsirelson to 4×10⁻¹⁶; Josephson volt | Calibration receipts |
 | 19 | Quantum computing | Willow error-correction reading | Restatement; language holds |
@@ -354,13 +354,21 @@ reconstruction — approximately reproduces the dice; the gap was dissected
 L = 0, and anti-tracks tilt at n = 110/tilt), and the analytic exceedance
 came out 78–80%. The whole edifice was then handed to the red team, which
 pre-registered the acceptance protocol for the h-scan (dual integrator,
-n = 50 angles, h to 10⁴, graded by *their* criteria); h = 100 passed,
-h = 1000 violated monotonic shrink at ~1σ, and the final rows decide the
-backbone.
+n = 50 angles, h to 10⁴, graded by *their* criteria). **RESULT (protocol
+harvest, complete): the ergodic BACKBONE IS DEAD as an extrapolation
+instrument** — the gap-vs-ergodic GREW at h = 1000, 3000, and 1e4 (three
+consecutive violations of the pre-registered monotonic-shrink falsifier,
+terminal gaps 3–5× the first). The microcanonical ensemble remains a
+partial mechanism decomposition (freeze-out third + release memory), but
+its claim to predict physical-h exceedance is WITHDRAWN. What survived is
+empirical: P(f_amp>0.2) ROSE with h — 84 → 82 → 84 → 94 → 100% — with no
+quiet draw at h=1e4 (min f_amp 0.246). The dice stand; the backbone that
+tried to extrapolate them does not.
 
-**Verdict: the honest answer to "what is ε?" is a probability
-distribution — and the machinery that produced it is under adversarial
-audit by protocol, mid-execution.**
+**Verdict: the honest answer to "what is ε?" is a probability distribution
+(the dice, intact) — and the pre-registered falsifier killed the backbone
+that tried to derive it, exactly where the red team said to look. Stage-two
+conformal integration is now the sole ladder to physical h.**
 
 ## 17. Statistical mechanics, thermodynamics & information
 
