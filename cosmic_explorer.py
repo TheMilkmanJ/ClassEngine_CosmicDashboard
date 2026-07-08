@@ -75,7 +75,7 @@ SYSTEM = (
     "   - background_process_watcher() polls every 5s, detects completion/crash\n"
     "   - Supports multiple CLASS engines via chains/class_engines.json\n"
     "   - Templates: lcdm_baseline, prtoe_standard, wcdm_test, ede_test\n"
-    "   - PRTOE (Pulford-Romsa Theory of Everything) param aliases normalized: prtoe_xi→xi_prtoe, prtoe_delta→delta_prtoe, etc.\n\n"
+    "   - PRTOE (Pulford-Romsa Theory of Expansion) param aliases normalized: prtoe_xi→xi_prtoe, prtoe_delta→delta_prtoe, etc.\n\n"
     "5. Complete data flow (click to chain):\n"
     "   User clicks Start → backend validates & injects params → mpirun cobaya run →\n"
     "   Cobaya loads classy.Class → PolyChord nested sampling loop:\n"

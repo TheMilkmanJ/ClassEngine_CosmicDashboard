@@ -11,7 +11,7 @@
 
 ## 📋 Executive Summary
 
-The PRTOE (Pulford-Romsa Theory of Everything) scalar-tensor cosmology model has been **fully implemented** in the CLASS codebase with **publication-grade mathematical rigor**. All perturbation equations are derived from first principles via second-order action variation, providing a complete theoretical foundation.
+The PRTOE (Pulford-Romsa Theory of Expansion) scalar-tensor cosmology model has been **fully implemented** in the CLASS codebase with **publication-grade mathematical rigor**. All perturbation equations are derived from first principles via second-order action variation, providing a complete theoretical foundation.
 
 **Key Achievement:** Bridge between covariant action and numerical implementation is complete and verified.
 
