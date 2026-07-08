@@ -221,3 +221,22 @@ Preliminary read of the running dyad_mnu chain (~9200 rows, R-1~0.2, STALLED/pla
   "Sigma m_nu<0.13 => floor is neutrino-funded" would over-read a non-exclusion as a confirmation.
 - NET: the neutrino-floor thread stays ALIVE-BUT-UNCONFIRMED; not promoted. #6 gives a bound; a
   bound can't fund a floor.
+
+## CANDIDATE #17 MECHANISM — c=1 as the conformal-origin boundary condition (2026-07-08)
+
+Directional hypothesis for deriving c (the un-derived O(1) in eps = c*f_amp*Psi0/M_red).
+CHAIN: (1) a true r=0 singularity is unphysical; the minimal physical origin is SCALE-FREE
+= conformally symmetric. (2) PRTOE's FIRST regime is w=1/3 (phonon-gas/radiation-like), whose
+stress tensor is traceless (T^mu_mu=0) => APPROXIMATELY CONFORMALLY INVARIANT. The model begins
+conformal, not singular. (3) Conformal symmetry fixes the scalar-matter coupling to its
+conformal value c=1 -> c is SYMMETRY-PROTECTED at the origin, not a free dial. (4) As w runs
+1/3 -> 0 -> -1, scales (m, Psi0) turn on, conformality breaks, and c RUNS from 1.
+CONSISTENCY: matches #14 (low-energy does NOT fix c -- correct; the UV/conformal origin does) and
+#16 (c in [1.0,1.9] today = "starts at 1, drifts up as conformality breaks"). Three findings,
+one arrow. PAYOFF IF TRUE: c=1 becomes PREDICTED -> amplitude sharp (1.23% vs measured 1.20%) ->
+#11 fully closed.
+STATUS: HYPOTHESIS, not derivation. Open work (the real #17 climb): (a) show the w=1/3 superfluid
+phase carries the FULL protecting conformal symmetry (not just a traceless T at the fluid level);
+(b) compute the RUNNING of c from the conformal point and check it stays ~1 (not drifting to >2.6,
+the #16 naturalness ceiling). The conformal symmetry is only APPROXIMATE (broken by m, Psi0), so c
+is protected NEAR the origin and runs away from it -- by how much is uncomputed.
