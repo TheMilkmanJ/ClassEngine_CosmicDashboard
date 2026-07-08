@@ -91,3 +91,25 @@ structure producing w->-1 is ADDITIONAL, not free from the ALP.
    field's (deltaK)^2 structure give a stable w->-1 and stay census-legal?
 2. **c threshold-matching** (the precision residual from step 2).
 The ALP delivers ~80% (DM/mass/coupling/normal-fraction); the missing 20% is the DE floor.
+
+## Step 4 (2026-07-08) — the causal chain is self-generating to DM, BREAKS at DM->DE (JP)
+
+Common factor of every regime change: **expansion driving a THRESHOLD CROSSING** (one
+quantity falls until it hits a fixed threshold): condensation at H=m; recombination at
+T=binding; the engine draining the field = Hubble friction (3H phidot bleeds kinetic
+energy). All are GRADUAL crossings (width) -> supports "always gradual" + "late templates
+early" (every transition shares the crossing form; the late/observable one templates the
+early ones).
+
+**"How does energy fall out of matter?" -> IT DOESN'T, not on its own:**
+- Matter (w=0) = field oscillating (kinetic~potential). DE (w=-1) = field frozen, potential
+  dominates.
+- In a SIMPLE m^2 phi^2 well the field oscillates as DM FOREVER (well bottom = 0 energy;
+  freezing lands at nothing). **A simple field never becomes DE -- it stays DM to the end.**
+- DE requires the field to freeze onto a nonzero POTENTIAL FLOOR = the funded-floor/(deltaK)^2
+  piece (#17's missing 20%).
+
+**Sharpest statement of the #17 gap:** the regime-change chain is SELF-GENERATING up to dark
+matter (matter falls out of radiation for free, via H<m condensation) and BREAKS at DM->DE
+(needs the floor as an extra ingredient). JP has now circled this same gap from THREE angles
+(DM+DE audit, pressure-sign flip, causal chain). The universe keeps pointing at the floor.
