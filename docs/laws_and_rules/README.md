@@ -124,6 +124,36 @@ the polarization form through its gravity account, but gravity is handedness-bli
 IS when the EM handedness-window opens — but it opens for EM *customers*, the
 charged matter doing Thomson scattering; the medium isn't one.)
 
+### The exchange-rate refinement (JP: "transfer it EM → gravity")
+
+There IS a wire between the banks — EM has stress-energy and stress-energy
+gravitates (light bends space). But what crosses is only the **parity-even
+denomination**: gravity's receiving account is T_μν^EM = F_μα F_ν^α − ¼ g_μν F²,
+**every term parity-even**; the handedness invariant **F·F̃ is topological and does
+NOT appear in T_μν**, so it never sources the metric. **Exchange rate for handedness
+= 0** — the energy crosses, the handedness is left at the EM bank. Both directions
+shut for different reasons: EM→gravity, gravity's account can't *hold* a parity-odd
+balance; gravity→EM (what making birefringence needs), posting to the EM ledger
+needs the EM charge the neutral medium lacks. **This is why R1 WORKS by contrast:**
+mass is parity-even, sits in T_μν, so the medium wires it into its gravity account
+(→ the m_e win). Same wire, same bank — mass wires through, handedness doesn't; the
+only difference is the parity of the currency.
+
+### β (the read gain) — is it the bridge? (JP: "Beta?")
+
+β is the **matter→space return leg** ("space+matter do gravity, matter+matter do
+EM, matter+space do β"), the read gain that CLOSES the m_e transaction
+(space→mass→mass→**β**→space). Natural to ask if β is the inter-bank wire for
+handedness. It is not: **β is parity-EVEN.** It reads Θ — matter's *clustering /
+saturation* state (a scalar, no handedness) — and writes it onto m_e (a mass). So β
+carries the same parity-even denomination as gravity; it is the third leg of the
+transaction that WORKS (R1), not a handedness bridge. To make β read the photon's
+*handedness* instead of matter's *clustering* would turn it into a parity-odd
+matter→space coupling — which violates L1 (matter↔space clears through gravity =
+parity-even). So β doesn't rescue birefringence; it's more evidence of the same
+rule — every legal leg the medium has (gravity, β) is parity-even, and handedness
+lives in the one sector (EM) the medium has no account at.
+
 ---
 
 ## Open / to confirm (please correct)
