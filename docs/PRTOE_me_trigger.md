@@ -3167,3 +3167,37 @@ sector never touches flavor because it has no organ that could.
 Pure matter-sector QED/QCD question, the last thing #14 checks. Gravity's role
 SETTLED: universal, flavor-blind trigger, full stop; everything else is matter
 sorting itself out under a push it all felt equally. Booked.
+
+## 90. #14 ATTEMPTED — comes out AGAINST §85–89; two errors exposed (honest negative)
+
+**Operator: try #14 (the sign/mechanism of the flavor weight). Fingers crossed.**
+Result: negative. The §85-89 tower had two loose bricks; the calc pulled both.
+
+**ERROR 1 — the deuterium heal (§85) used the wrong object.** The healer depends
+on the CURRENT QUARK MASS m_hat (sets B_D). §85 shrank the quark shift to 0.075%
+using the PROTON's flavor weight (0.06) — but the proton is suppressed because
+it's ~99% Λ_QCD (binding, doesn't move); the QUARK MASS is pure Yukawa×vev and
+shifts the FULL amount, same as the electron. So quark shifts 1.24%, not 0.075%
+→ δB_D = −5% → the +11% D/H CATASTROPHE, not a heal. Compounded by the
+already-known ANN-2026-006 wall (BBN needs ~0.15%, recomb needs 1.24%, ~8×
+mismatch, no shared coupling). **Deuterium unification DEAD; scar stays separate
+and honest (its state before tonight).**
+
+**ERROR 2 — the flavor legality (§89) resolved the wrong direction.** The sign
+CAN be right (leptons > protons, because the proton is mostly Λ_QCD which doesn't
+shift) — BUT only if the medium couples to the HIGGS VEV (shifts Yukawa masses).
+That is a NON-gravitational portal. So §89's "flavor is legal because gravity
+can't make it → matter's own" is FALSE: gravity's blindness makes flavor
+IMPOSSIBLE from gravity, throwing it onto a Higgs/EM portal the census forbids.
+§89 resolved legality backwards. Flavor is achievable but census-COSTLY (reopens
+#5), not free.
+
+**WHAT SURVIVES:** the amplitude itself (m_e at recombination — electron-
+dominated, intact). NOT touched.
+**DEAD:** the deuterium unification; §89's clean legality.
+**COSTLY:** P-011 flavor needs a Higgs-vev portal (census-tension).
+
+**VALUE:** the calc did its job — falsified cleanly. We now KNOW deuterium is
+genuinely separate, and the flavor sign is physically reachable but portal-costly.
+Two loose bricks pulled; tower doesn't stand as built. Booked as an honest
+negative; #14 remains open (needs the real loop calc for the portal's viability).
