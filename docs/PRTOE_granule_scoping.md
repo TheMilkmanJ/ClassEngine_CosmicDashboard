@@ -157,3 +157,24 @@ STILL OWED (the bigger Tier-3 piece, needs a real SP integrator, not statistics)
   - mapping S -> actual dwarf-heating rate and comparison to real SPARC/stream data.
 Status: statistical core DONE (S-formula confirmed); dynamical sim + data
 confrontation NOT started (infrastructure).
+
+## CHI-LAG: analytic scaling confirmed; dynamical sim NOT achieved in-session (2026-07-07)
+
+Attempted a minimal 3D two-field Schrodinger-Poisson sim to demonstrate the
+psi/chi condensation lag DYNAMICALLY. HONEST RESULT: the minimal version (N=32-48,
+<=1500 steps) did NOT cleanly condense -- initial contrast was already ~10-13 and
+did not grow over the available steps (gravitational Bose-star formation takes many
+dynamical times; needs careful ICs far from condensation, a bigger grid, and long
+runs with convergence testing). Reported as a failed minimal attempt, not dressed up.
+
+What IS solid: the chi-lag SCALING is analytic (Levkov condensation tau ~ 1/rho^2):
+  tau_chi/tau_psi = (p^2/q^2)^2
+  f_rot=0.4 -> 5.4x ; f_rot=0.54 -> 11.2x (matches Room-5 booked ~11x) ; f_rot=0.67 -> 26x.
+
+TIER-3 HONEST STATE:
+  - S = (1+f_rot^2)/2 (granule power): CONFIRMED numerically (<1%).
+  - chi-lag = (p^2/q^2)^2: CONFIRMED analytically (Levkov scaling); NOT demonstrated
+    dynamically (minimal SP sim failed to condense -- real campaign owed).
+  - core-halo SCATTER PATTERN (the observable prediction) + dwarf/stream DATA
+    confrontation: NOT done, needs a real SP sim campaign (PyUltraLight/UltraDark-
+    class, careful ICs, convergence) = genuine infrastructure beyond a chat session.
