@@ -2330,3 +2330,34 @@ payload operator (the gravity↔EM joint, §61). So the ARCHITECTURE is selected
 Credited to the operator — the physical instinct closed §61's fork via the
 census. A real advance on Shot 1: from "naked fit" → "census-selected product
 with a falsifiable abundance link."
+
+## 63. "Gravity = amount, EM = binding" (operator) — grounds the flavor, and specifies the payload's three-way needle
+
+**Operator's framing:** gravity responds to the AMOUNT of something (→ size); EM
+tells it how to BIND (→ flavor). Physically exact: gravity sources from T_μν
+(total energy, universal, the quantity force); EM sources from charge/current
+(configuration/binding, scale-free — α is a pure number). Each force can only do
+the job matching its nature — gravity can't help but set scale, EM can't help
+but set structure. Reinforces §62's census selection from the forces' character.
+
+**The subtlety (red-team, and it sharpens rather than breaks):** the flavor
+weight is NOT literally "fraction of mass that is EM self-energy." Check the
+extreme: the electron's mass is mostly Higgs-Yukawa, its EM piece only ~α — yet
+the electron is the HEAVY shifter (weight ≈ 1) and the proton the light one
+(≈ 0.06) in P-2026-011. So the weight is SOME EM-structural quantity (direction
+right: leptons vs hadrons split electromagnetically), but not the naive fraction.
+
+**What this specifies — the payload operator's THREE-WAY NEEDLE (now stated
+exactly):** the EM flavor weight must be
+  (1) COMPOSITION-DEPENDENT (leptons ≠ hadrons — the flavor), AND
+  (2) GRADIENT-FREE in space (no fifth force — MICROSCOPE-safe via the discrete
+      Θ switch, ANN-2026-013 / §58), AND
+  (3) α-PRESERVING (not varying-α — census-legal, §62).
+The payload = the one EM-structural weight satisfying all three at once, riding
+a gravitationally-set size (Ψ₀/M_Pl). This is the sharpest the payload has been
+specified: not "derive the coupling somehow" but "derive the composition-
+dependent, spatially-uniform, α-preserving EM weight."
+
+**Grade:** conceptual grounding + problem-specification, NOT a derivation. The
+architecture (§62) is reinforced from the forces' nature; the open payload is
+now a precisely-bounded target. Credited to the operator.
