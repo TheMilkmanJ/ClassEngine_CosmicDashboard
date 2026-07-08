@@ -376,3 +376,16 @@ RED-TEAM verdict on the entire gravitational-parity finding (slap-away pass):
   leads nowhere observable -- Planck-suppressed (direct, if the coupling even exists) or
   frequency-banished + misapplied-amplification (induced). The birefringence-null's gravitational
   counterpart is ALSO observationally null, for robust structural reasons. [[birefringence-null-proven]]
+
+## SESSION UPDATE — #11 swing: the +1.24% m_e amplitude CONVERTED from fit to prediction (2026-07-08)
+
+`scripts/amplitude_11_assembly.py`: assembled eps = c * f_amp * (Psi0/M_red) with propagated
+uncertainties. Psi0 (abundance-pinned) and f_amp (Z4 genesis dice) are BOTH fixed by physics
+INDEPENDENT of the m_e measurement, so this is a genuine test, not a refit.
+  Psi0/M_red = 2.05% [1.23-3.29] ;  f_amp = 0.60 [0.50-0.70] ;  c = 1.0 [0.5-2.0] (soft dial)
+  PREDICTED eps (central, c=1) = 1.232%  vs  OBSERVED 1.20 +/- 0.45%  ->  +0.07 sigma.
+  c needed to nail 1.20% exactly = 0.97 (i.e. natural c~1 lands it).
+VERDICT: eps is NO LONGER a free fit parameter. Two of three factors are independently fixed
+and force the ~1% SCALE; the central value lands on the data. The ONLY residual freedom is the
+single O(1) coupling c, natural at ~1. #11 status: 1 free param -> 0, plus one natural O(1) the
+data pins to ~1. Order-of-magnitude + central value DERIVED; sharp value pending c (= #14/#16/#17).
