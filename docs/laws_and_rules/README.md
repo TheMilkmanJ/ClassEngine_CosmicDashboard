@@ -58,6 +58,19 @@ unitarity (`v5_dCDF:1178`). Operator's plain-language forms shown in quotes.
     θ mode — and a parity-odd *gravitational* coupling θ·R·R̃ → GWs; what it cannot do
     is reach the *photon*. So "parity-even" describes its reach to EM, not its
     internal content.)
+    - **Can't split the roles / "parity-even mass + parity-odd EM" (JP, overnight).**
+      Two deeper closures. (i) *Single-particle anomaly:* θ·F·F̃ is a triangle,
+      coefficient Σ_f q_dark(f)·Q_EM(f)² *per particle* — an actor with EM-but-no-dark
+      gives 0·Q_EM², one with dark-but-no-EM gives q_dark·0; **no cross-term between
+      two particles**, so you cannot divide the labor — the anomaly needs both charges
+      on ONE entity, which the medium lacks. (ii) *"Parity-odd EM" doesn't exist:* the
+      photon couples to everything with a **vector (parity-even)** coupling — QED
+      conserves parity. A parity-even MASS *forces* the parity-even photon coupling
+      (gauge invariance: a mass pairs L+R, which must share EM charge), so massive ⇒
+      parity-even-photon, always. Parity violation is quarantined in the **weak**
+      sector (W/Z), never the photon. Birefringence is the *only* parity-odd photon
+      effect and exists solely as the anomaly — needing one particle bridging the dark
+      charge to the chiral electroweak sector, which the medium has not.
 - **L2 — Posting law.** *"All transactions must be posted to the ledger."*
   `[OP-PHRASING — verify]` Corpus: the **adiabatic background ledger** — virtual
   transactions are exactly reversible (S-matrix unitarity); "posting is cheaper
