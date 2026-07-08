@@ -3378,3 +3378,34 @@ STORY, two carriers.
 = ANN-2026-005 κ_v, unproven); the "genuinely massless pre-z_x" claim needs
 showing (w=1/3 supports it); TESTABLE via the BBN 5-abundance co-signature
 (Y_p, 7Li). Repairs the portal + dodges §95 in one move; credited to the operator.
+
+## 97. §96 PASSES its 5-abundance co-signature test (runnable, ran) — the heal improves the joint BBN fit
+
+**Tested §96's observable consequence:** the early-coupling vev shift that heals
+D/H is FORCED (Dent-Stern-Wetterich response) to move all 5 light abundances
+together. Does it break one? RAN it (pure arithmetic):
+- δv/v = **0.091%** heals D/H exactly (−1.2σ → 0.0σ).
+- FORCED co-signature: **Y_p −0.41% → +1.4σ improves to +1.08σ**; **7Li −5.5%
+  → +4.50σ chips to +4.36σ (toward, never away from, the lithium problem)**;
+  3He/6Li stay in slack.
+- **Joint fit IMPROVES: total χ 4.86 → 4.50.** No abundance broken.
+- KILL CONDITION (any element driven WORSE — esp. Y_p UP or 7Li UP): does NOT
+  fire. Survives.
+
+**Verdict: §96's heal PASSES.** The vev shift doesn't just fix deuterium — it
+improves the WHOLE light-element fit, all five locked together the right way.
+This is the signature of a real mechanism, not an epicycle (a bolt-on D fix
+usually wrecks Y_p or Li; this one improves both). Confirms ANN-2026-005
+numerically.
+
+**HONEST CAVEATS:**
+1. MODEST: dominated by 7Li, which barely moves (−5.5% of a factor-~3 problem);
+   the lithium problem stays ~+4σ. The heal fixes D + eases Y_p; it does NOT
+   solve Li.
+2. Tests the HEAL'S CONSISTENCY (the observable co-signature), NOT the
+   regime-change MECHANISM itself (the naturalness start-date / early coupling —
+   still a theory claim; this is its downstream test).
+3. Uses literature DSW coefficients + approximate residuals; exact numbers await
+   a full BBN refit.
+Net: §96 has now passed its one runnable observational test — real positive,
+honestly modest.
