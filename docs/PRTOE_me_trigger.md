@@ -2930,3 +2930,34 @@ coupling constant our universe has at ≈0.94, with no deeper "why."
 whether it tells you EXACTLY one is the open effective-action calc, which may
 return "free" rather than "forced." Genuine floor of the derivation, stated flat.
 Credited to the operator for pushing to it.
+
+## 82. "c can't be 0.5 or no tilt" (operator) — the LIVE COUNTER-HYPOTHESIS to §81's floor
+
+**Operator, pushing back on §81: c=1 "because that's how it got its tilt — it
+literally can't do 0.5 otherwise no tilt."** A real counter, booked as the live
+competing hypothesis (not buried under §81).
+
+**The idea with teeth:** maybe there is NO free dial on c. c=1 isn't a knob set
+to 1 — it's the BASELINE ("full gravitational strength"), and "half-gravitational"
+isn't a thing (the EP is a flat rate, no 50%-off). All the actual VARIATION lives
+in the TILT → f_amp, not in c. The genesis committed the medium fully to gravity
+(c=1) AND torqued it (tilt→f_amp) in one act; can't have the tilt without the
+full commitment. If so, §81 is WRONG — c can't be 0.5 (not a dial-able strength),
+and the tilt was the whole story.
+
+**Two OPPOSITE predictions about the same effective-action calc:**
+- **OPERATOR (§82):** the coupling has NO free dial — c=1 forced (EP baseline),
+  tilt/f_amp carries all variation, 0.5 impossible.
+- **§81 (me):** the coupling HAS a dial — c is a free O(1), 0.5 allowed.
+
+**Why §82 is the stronger idea (not just louder):** it's more elegant AND it ties
+c to something already determined (the tilt/genesis) instead of leaving it
+floating — the move that's worked all session.
+
+**The honest referee:** the same puzzle decides it — for "c=1, no dial" the EP
+must deliver the 2.2% mass-RESCALING, but the plain EP gives only the 10⁻⁵
+redshift; the 2.2% needs the CONFORMAL coupling, which is exactly what carries a
+dial. So: does the coupling have a dial? Effective-action calc is the referee.
+NO dial → operator wins, c=1 was never free, the tilt was the whole story.
+HAS dial → §81 stands. Live bet, honestly logged; §81 not retracted, now
+contested.
