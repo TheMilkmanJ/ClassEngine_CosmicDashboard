@@ -1064,3 +1064,13 @@ scale = neutrino scale"; other relations (Sum/3, Delta-m^2-based) give different
 is the minimal/cleanest choice. (3) Does not by itself fix the hierarchy (both work at
 m_lightest=2.24 meV); cosmology mildly prefers NH. Pre-registered BEFORE a Sum m_nu detection,
 as the registry requires.
+
+**CLARIFICATION (2026-07-08, JP "is the DM->DE regime change neutrinos changing mass?"):**
+SCALE, not TRIGGER. Neutrinos may set the DE floor SCALE (rho_Lambda^(1/4) ~ m_nu, P-012) but
+do NOT drive the DM->DE transition: (a) MAGNITUDE -- neutrino energy today is ~0.2% of rho_Lambda
+(Omega_nu~0.0014 vs Omega_Lambda~0.69), ~500x too small to fuel the floor; (b) TIMING -- neutrinos
+go non-relativistic at z~12-300 (T_nu=m_nu), the DE onset is z~0.7 -- different epochs. So the
+DM->DE regime change is DENSITY-driven (rho_matter dilutes to rho_floor). SEPARATE TRUE POINT:
+the neutrino relativistic->non-relativistic transition (w_nu:1/3->0, z~12-300) IS its own regime
+change and fits the threshold-crossing framework (T_nu=m_nu, gradual, tied to H) -- just distinct
+from the DE onset. So P-012 is a SCALE coincidence (testable), not a claim that neutrinos trigger DE.
