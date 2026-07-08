@@ -3314,3 +3314,30 @@ OPEN, riding on a genesis calc nobody has run.
 chat-session solve — needs a committed genesis + numerical integration of the AD
 spiral through condensation. The D/H heal's survival is contingent on it breaking
 the "grows" way.
+
+## 95. #11 field-evolution RAN (operator's WSL) — the AD field SHRINKS; deuterium heal does NOT come free (§93 dead, §94 confirmed)
+
+**Ran scripts/genesis_field_evolution.py in the operator's WSL (my sandbox timed
+out twice; his environment completed it, ODE included).** RESULT — the dark
+condensate order parameter is FAR LARGER at BBN than at recombination:
+- Reading 1 (misalignment, frozen then a^-3/2): |Ψ|_BBN/|Ψ|_rec = **6.2e5**.
+- Reading 2 (charged-AD centrifugal equilibrium R_eq ~ a^-3/2): **8.7e8**.
+- Stiff Radau ODE: converged (ok=True), field relaxes toward the DECREASING
+  equilibrium (a^-3/2) — confirms the direction numerically.
+- Heal branch (Reading 3) needs |Ψ|_BBN/|Ψ|_rec ~ 0.12 (~12% condensed at BBN) —
+  requires a SMALL initial displacement, NON-generic for Affleck-Dine.
+
+**VERDICT: the field SHRINKS** (large at BBN, redshifts/relaxes away). So the
+m_e/quark shift SATURATES HIGH at BBN → **D/H CATASTROPHE**, not a heal.
+- **§93 ("grows/heals") is DEAD.** §94 caveat CONFIRMED, numerically.
+- **§92's one-field unification FAILS at the BBN magnitude.** The deuterium heal
+  does NOT fall out of the AD field for free.
+- **Honest endpoint of the deuterium arc:** the scar stays a SEPARATE, screened,
+  honestly-carried blemish — healable only via the separate small radiation
+  carrier (§91, = ANN-2026-005, a second amendment with the doubling debt) OR a
+  non-AD small-Ψ_i genesis. The clean "one engine heals everything" is closed.
+
+**What SURVIVES untouched:** the amplitude itself (m_e at recombination, where
+the field IS at its ~1.24% value) — the whole night's amplitude structure stands;
+only the deuterium *unification* fell. The scar returns to what it honestly always
+was (§90/§91's separate-amendment status), now numerically confirmed.
