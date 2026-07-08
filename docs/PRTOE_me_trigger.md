@@ -2083,3 +2083,54 @@ the amplitude (Shot 1) or the DESI/DE bet (Shot 3). Grade:
 consistency-construction; a census-legal trigger candidate, not a derivation.
 Registered as the corrected (gravitational) reading of the operator's residual
 idea; Branch A logged as the grave it must avoid.
+
+## 58. Option B developed (operator's order) — the trigger IS multi-stream onset; Θ = the granule field
+
+**Chosen branch (from §57): gravitational residual.** Matter's clustering
+imprints the superfluid's FLOW STATE. Developed concretely:
+
+**Θ identified physically.** Θ is the multi-stream / interference bit — and in
+wave dark matter that is *the granule field itself* (the speckle from
+overlapping streams, the ε-meter of the scoping doc). Two states:
+- **Single coherent stream (laminar): Θ UNSATURATED → m_e SHIFTED (bare).**
+  Smooth, pre-shell-crossing gas: the early universe, the diffuse IGM, voids.
+- **Multi-stream / vortex-tangled (interference on): Θ SATURATED → m_e = lab.**
+  Virialized halos, where shell-crossing has produced the granule/interference
+  field.
+
+**The trigger (gravitational, no mediator).** Gravitational infall drives
+SHELL-CROSSING: at nonlinear collapse the dark fluid goes from single-stream to
+multi-stream (caustics, vortex tangle, virialization). That onset — overdensity
+δ climbing from ≲1 to the virial ~178 — flips Θ. Matter's gravity is the whole
+"residual that flows back"; no new field, no fifth force, MICROSCOPE-safe by
+construction (ANN-2026-013 trigger-debt discharged).
+
+**EPOCH-CONSISTENCY CHECK (the §1 requirement table, all rows):**
+| epoch/site | stream state | Θ | m_e | needed? |
+|---|---|---|---|---|
+| BBN (z~1e9, smooth) | single | unsat | shifted | ✓ shifted |
+| recombination (z~1100, δ~1e-4) | single | unsat | shifted | ✓ shifted (the dyad's engine) |
+| cosmic-dawn IGM (z~15-20, diffuse) | single | unsat | shifted | ✓ (P-2026-007 21-cm fork) |
+| today's voids/IGM (δ≲1) | single | unsat | shifted | ✓ (P-2026-007 void step) |
+| every virialized absorber (quasar/molecular/Oklo/lab, δ≳178) | multi | sat | lab | ✓ lab |
+**Passes every row.** The switch reproduces "shifted at BBN+recombination+voids,
+lab in all structure" — the entire data requirement — with ONE physical gate.
+
+**Upgrade over the by-hand gate.** Replaces the arbitrary global
+varying_transition_redshift=50 with a LOCAL structure gate (multi-stream onset).
+CMB-identical (the universe is single-stream at z~1100 regardless, so the full
+shift is present for the fit); the difference is physical motivation, not a
+refit. The gate is now derived-from-collapse, not chosen.
+
+**Ties to existing machinery.** The trigger and the granule ε-meter are the SAME
+field (multi-stream interference). The Tier-3 two-field SP sims (task #8) that
+would quote the granule power S ALSO map where Θ saturates — one simulation
+campaign tests the trigger AND the ε-meter. This fuses the m_e-trigger program
+with the granule program.
+
+**STILL OWED (honest, unchanged):** the PAYLOAD — *why* Θ's state changes m_e
+(the multi-stream→electron-mass link) — is NOT derived. Option B gives the
+switch its trigger (well-motivated, census-legal, structure-gated) but not its
+wiring. Grade: the trigger graduates from "by-hand redshift" to
+"shell-crossing-gated, sim-testable"; the payload remains the deep open problem.
+Also untouched: the amplitude (Shot 1) and the DE dynamics (Shot 3).
