@@ -1972,3 +1972,39 @@ AMPLITUDE NOTE: does NOT derive 1.24% (still the GUT-scale question, sec 53). Bu
 explains WHY the amplitude is hard to measure -- a uniform rescaling hides from
 local observers, forcing cross-environment/cross-sector comparisons where data
 thins. The medium's SMOOTHNESS and its effect's INVISIBILITY are the same fact.
+
+## 55. THE EM-MASS THREAD PULLED: why m_e specifically, and the amplitude = alpha
+## = the GUT shadow (operator, 2026-07-07) -- a real structural payoff
+
+Following the sec-53 poetic thread (medium born where EM unifies, touches EM mass).
+If the medium couples to the ELECTROMAGNETIC sector, it modulates each particle's
+EM SELF-ENERGY -- so each particle shifts by ITS OWN EM fraction, not uniformly:
+  - electron EM self-energy fraction: ~1.24% (electron is almost pure EM dressing)
+  - proton EM self-energy fraction: ~0.075% (proton is QCD-dominated, barely EM)
+  - RATIO: electron shifts ~17x more than proton (per unit mass).
+
+PAYOFF 1 -- EXPLAINS "why m_e specifically": the model varies m_e (not m_p, not
+everything) BECAUSE the electron is the most electromagnetic particle -- it shifts
+most under an EM-sector coupling; the QCD-dominated proton barely feels it. This
+was previously an ASSUMPTION; the EM-coupling makes it a CONSEQUENCE.
+
+PAYOFF 2 -- distinctive prediction: the medium shifts m_e/m_p (composition-
+dependent by EM fraction). Consistent with the void prediction (P-2026-007): in
+the void m_e shifts 1.24%, m_p ~17x less -> m_e/m_p changes ~1% -> the 21-cm
+(~m_e^2/m_p) signature. The EM-coupling PREDICTS the m_e/m_p pattern the falsi-
+fication path relies on.
+
+PAYOFF 3 -- amplitude = alpha = GUT shadow: eps ~ (EM self-energy fraction) ~ alpha,
+and alpha is the LOW-ENERGY value of the unified GUT coupling (RG running). So
+"born at GUT" (sec 53) and "couples to EM" (this section) are ONE story: the
+amplitude is alpha, and alpha traces to grand unification. The two amplitude
+routes (Route 1 EM-self-energy ~alpha; Route 2 Psi_0/M_Pl ~GUT/Planck) are
+UNIFIED by grand unification -- both ~1% because alpha and M_GUT/M_Pl both descend
+from the unified scale.
+
+COUPLING-STRUCTURE SELECTION: this favors the medium coupling to the EM SECTOR
+(EM self-energy), NOT a generic moduli-Yukawa coupling (which would shift the whole
+mass uniformly, m_e/m_p unchanged). The EM-sector coupling is the one with the
+distinctive m_e>>m_p signature. GRADE: structural hypothesis, well-motivated,
+distinctive, testable (m_e/m_p ratio); still not the exact-value derivation (needs
+the coupling coefficient), but SELECTS the structure and explains "why m_e".
