@@ -228,6 +228,21 @@ handedness lives only on the EM line.** (NB the early medium→matter channel th
 deuterium heal, not a handedness channel. That channel is a real live front, #11 /
 D-repair — but a parity-even one.)
 
+**Magnetism isn't a separate lens either (JP: "look at magnetics, not just
+electro").** Three points: (1) counter-intuitively a magnetic field **B is
+parity-EVEN** (an axial/pseudovector — it does NOT flip under parity); the
+parity-ODD EM invariant is **E·B** (= −¼F·F̃), needing both fields — that pairing IS
+the birefringence coupling, not a new object. (2) Magnetism *does* rotate light, via
+**Faraday rotation** — but that is **chromatic** (angle ∝ λ²), whereas cosmic
+birefringence is **achromatic** (frequency-independent); Faraday is the *foreground
+subtracted OUT* of the β measurement, not the signal, so it's distinguishable AND
+the wrong effect. (3) Sourcing any B needs currents = EM charge the neutral medium
+lacks; and the genuinely parity-odd magnetic object (magnetic **helicity** B·∇×B)
+needs a parity-violating source (the theorem) *plus* EM charge — both walls. The
+medium's own rotation is magnet-like (axial vorticity) but lives in the dark sector;
+reaching photons still needs the EM account or a cosmic-rotation gravitational
+Faraday bounded ~0 by isotropy.
+
 ---
 
 ## Open / to confirm (please correct)
