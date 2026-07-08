@@ -873,3 +873,13 @@ candl: clearing all internal priors.
 [mcmc] Progress @ 2026-07-07 22:34:03 : 38756 steps taken, and 4622 accepted.
 [mcmc] Progress @ 2026-07-07 22:35:16 : 38857 steps taken, and 4636 accepted.
 [mcmc] Progress @ 2026-07-07 22:36:23 : 38901 steps taken, and 4643 accepted.
+[mcmc] Progress @ 2026-07-07 22:37:40 : 38976 steps taken, and 4652 accepted.
+[mcmc] Progress @ 2026-07-07 22:38:49 : 39045 steps taken, and 4662 accepted.
+[mcmc] Progress @ 2026-07-07 22:40:08 : 39094 steps taken, and 4667 accepted.
+[mcmc] Progress @ 2026-07-07 22:41:09 : 39131 steps taken, and 4671 accepted.
+[mcmc] Learn + convergence test @ 4680 samples accepted.
+[mcmc]  - Acceptance rate: 0.875
+[mcmc]  - Convergence of means: R-1 = 0.379656 after 3744 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2026-07-07 22:42:14 : 39216 steps taken, and 4681 accepted.
+[mcmc] Progress @ 2026-07-07 22:43:38 : 39274 steps taken, and 4689 accepted.

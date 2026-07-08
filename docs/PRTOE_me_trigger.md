@@ -2786,3 +2786,32 @@ c=1 on its own, WITHOUT borrowing the observed amplitude. That last inch is a
 calculation, not an analogy. Net: c over-determined and trapped near 1
 (naturalness above, data-consistency below), but not yet first-principles
 derived. Both walls credited to the operator; §75-close error corrected.
+
+## 77. The staff survey (operator's order) — c = 0.93 ± 0.38, consistent with gravity=1 but DEGENERATE with the amplitude
+
+**Operator: "survey the staff, get their feedback, we'll see why c has to be
+gravity=1."** Surveyed each parameter's independent value+error:
+| staff | value | error |
+|---|---|---|
+| ε (varying_me−1), Fairbank chain | 0.0123 | ±37% |
+| f_amp, genesis dice | 0.60 | ±10% |
+| Ψ₀/M_red, misalignment abundance | 0.022 | ±14% |
+| **→ c (by division)** | **0.93** | **±0.38** |
+
+**Verdict:** c = 0.93 ± 0.38 — **consistent with gravitational strength (c=1) at
+0.2σ**, and mildly disfavors under-hiring (c=0.5 is ~1σ low). The data LEANS
+toward gravity=1 over weaker. Error dominated by ε (37%) → **tightens as Fairbank
+converges** (better data sharpens c; the operator's "enough data" is partly
+right — enough to CONFIRM and sharpen).
+
+**THE STRUCTURAL WALL (why the survey can't give the WHY):** no single staff
+member reports c alone. c appears ONLY as ε/(f_amp × Ψ₀/M_red) — **DEGENERATE
+with the amplitude.** The staff know the PRODUCT (the observed 1.24%) and c by
+division. So the survey MEASURES c (well, and tightening); it cannot DERIVE why
+c must be 1, because no observable isolates c from the amplitude it's baked into.
+
+**Honest:** data confirms c≈1 and will sharpen it (real, ongoing) — but "why
+gravity and not 0.6" is not written in any observable; it's in the effective-
+action calc (pure gravity → c=1, independent of the measured amplitude). The
+staff know the value inside-out; they don't hold the reason. Survey credited to
+the operator; the c error budget (±0.38, ε-dominated) is a new result.
