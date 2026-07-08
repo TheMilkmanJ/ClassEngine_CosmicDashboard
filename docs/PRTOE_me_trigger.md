@@ -2727,3 +2727,33 @@ else in the program. Close task #5 in the strong direction → the electron-mass
 amplitude is derived end to end (f_amp × Ψ₀/M_red). The make-or-break is behind
 us; the last freedom is the census strength itself. Credited to the operator's
 "let's do it."
+
+## 75. Why the medium can't have its own dial (operator: "too expensive to employ every shopper") — technical naturalness caps c
+
+**Operator's principle for #5:** the medium has no free coupling to matter "the
+same reason you don't employ every shopper at your bank — too expensive."
+This IS technical naturalness, correctly identified:
+
+**The physics.** The medium is ultralight (m ~ 10⁻²¹ eV — that lightness is what
+makes it dark matter). In QFT every coupling radiatively kicks the field's own
+mass up by ~(coupling)². A gravitational-strength coupling is Planck-suppressed →
+microscopic kick → the tiny mass survives (affordable). A STRONG coupling →
+enormous kick → the mass balloons → the medium stops being ultralight → stops
+being dark matter. **A strong coupling costs the model its own dark matter** =
+"too expensive." Hire every shopper (couple strongly) → bankrupt the bank
+(destroy the light mass).
+
+**WIN for #5 — a rigorous UPPER BOUND with a reason:** c ≫ 1 is FORBIDDEN (the
+ultralight mass radiatively self-destructs). So **c ≲ 1 (gravitational strength),
+forced by naturalness** — the coupling CANNOT be stronger than gravity. First
+principle beyond "c ≈ 1 is natural."
+
+**HONEST GAP — bound, not pin:** naturalness caps c from above but does not nail
+c = 1 exactly (c = 0.5 is also affordable — the bank can under-hire). Data sits
+at c ≈ 0.94 = essentially the MAXIMUM affordable; WHY it saturates the ceiling
+(rather than coupling weaker) is the residual open piece.
+
+**Net:** #5's coefficient went from "totally free, UV-set" → "capped at
+gravitational strength by naturalness, data hugging the cap." The free parameter
+now has a physical ceiling; closing the last bit = why it saturates. Credited to
+the operator — the correct forcing framework (technical naturalness) supplied.
