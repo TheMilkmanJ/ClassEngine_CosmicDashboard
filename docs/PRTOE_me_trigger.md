@@ -2008,3 +2008,33 @@ mass uniformly, m_e/m_p unchanged). The EM-sector coupling is the one with the
 distinctive m_e>>m_p signature. GRADE: structural hypothesis, well-motivated,
 distinctive, testable (m_e/m_p ratio); still not the exact-value derivation (needs
 the coupling coefficient), but SELECTS the structure and explains "why m_e".
+
+## 56. PARTICLE-PHYSICS DEVELOPMENT: the environmental LEPTON-mass-shift pattern
+## (operator: "tackle theoretical particle physics", 2026-07-07)
+
+Developed the EM-mass thread (sec 55) into a full particle spectrum. The medium
+couples to EM self-energy, so each particle shifts by its EM-self-energy fraction.
+With a universal high cutoff (Lambda ~ Psi_0 ~ GUT scale), normalized to the
+electron = 1.24%:
+    electron 1.24% | muon 1.10% | tau 1.02% | proton 0.075% (~15-20x less)
+
+THE DISTINCTIVE BSM PREDICTION: the medium shifts LEPTON masses (~1%, correlated
+across e/mu/tau) while SPARING HADRONS (proton QCD-dominated, ~0.075%). It varies
+m_lepton/m_hadron -- specifically mu = m_e/m_p -- NOT varying-everything. This
+EXPLAINS why the model uses varying-m_e (electron is lightest, most EM-dressed ->
+shifts most). Falsifiable: void 21-cm / low-density mu (P-2026-007); a uniform
+"varying-everything" model OR a proton-shifting model would be EXCLUDED by this
+pattern (correlated leptons, spared hadrons).
+
+HONEST GRADE:
+  - GENUINE distinctive particle-physics prediction (a novel signature that
+    distinguishes this dark sector from rivals) -- the shape of a real theoretical-
+    particle-physics contribution.
+  - Does NOT solve the field's open problems (strong-CP silence, hierarchy/g-2
+    untouched).
+  - Exact per-particle numbers are cutoff/scheme-dependent (EM self-energy
+    formally divergent, same UV gap as the amplitude); ROBUST content = the
+    QUALITATIVE pattern (leptons >> hadrons, correlated across leptons), not the
+    precise muon/tau values.
+  - Prize-level only after confirmation (void-21cm road) + community recognition;
+    a testable prediction, not a theorem.
