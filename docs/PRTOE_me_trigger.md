@@ -2038,3 +2038,48 @@ HONEST GRADE:
     precise muon/tau values.
   - Prize-level only after confirmation (void-21cm road) + community recognition;
     a testable prediction, not a theorem.
+
+## 57. The "residual back-flow" fork (operator, 2026-07-07 evening) — a census-legal TRIGGER candidate for the discrete switch
+
+**Operator's question:** "what if the transactions for matter don't stop at
+matter — what if there are residuals that flow back into the ledger?"
+
+**The physical bones are real:** the medium is a superfluid; matter moving
+through / clustering in a superfluid deposits excitations (phonons, vortices)
+above the Landau critical velocity. This is an instantiated idea — cf.
+Berezhiani-Khoury superfluid DM (2015), where baryons couple to the phonon
+field and phonons mediate a MOND-like force.
+
+**THE DECIDING FORK — gravitational vs non-gravitational residual:**
+
+- **Branch A (non-gravitational, e.g. a phonon-mediated matter-medium
+  channel): RE-KILLS the model.** Couplings are symmetric: any action term
+  that lets matter dump residuals into the medium by a non-gravitational
+  channel lets the medium push back on matter by that same channel — which
+  IS a fifth force. A non-gravitational back-flow ⟺ a fifth force, and
+  MICROSCOPE already excluded one at the required strength (ANN-2026-013,
+  the Path A death). Detailed balance forbids a one-way non-gravitational
+  door. Dead on arrival, same grave as Path A.
+
+- **Branch B (gravitational — matter's clustering imprints the medium's FLOW
+  STATE): census-SAFE, and USEFUL.** Matter collapses → deepens the potential
+  → the superfluid goes multi-stream / vortex-tangled / virialized locally →
+  **Θ saturates → the m_e near-step flips.** The "residual" is matter's
+  gravitational back-reaction on the medium's local *state*, not an energy/
+  info channel — no new field, no mediator, no fifth force, pure gravity
+  (doesn't even engage the narrow-vs-broad census hinge).
+
+**Why Branch B matters:** the Path A death (ANN-2026-013) left the surviving
+discrete switch owing "a mechanism for a sharp m_e switch with NO light
+mediator." Branch B is the first plausible answer: the switch needs no
+mediator of its own because it is TRIGGERED by matter's gravitational imprint
+on the superfluid's flow state (Θ). This DISCHARGES the trigger half of the
+ANN-2026-013 debt, MICROSCOPE-safe by construction.
+
+**What it does NOT do (honest, Pinning Rule intact):** Branch B explains the
+TRIGGER ("what flips Θ where matter is") but NOT the PAYLOAD ("why Θ's state
+changes m_e") — that link stays un-derived (the deep part). It does not touch
+the amplitude (Shot 1) or the DESI/DE bet (Shot 3). Grade:
+consistency-construction; a census-legal trigger candidate, not a derivation.
+Registered as the corrected (gravitational) reading of the operator's residual
+idea; Branch A logged as the grave it must avoid.
