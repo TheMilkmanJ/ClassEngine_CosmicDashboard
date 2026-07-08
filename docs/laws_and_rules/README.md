@@ -96,6 +96,36 @@ the judgment call.
 
 ---
 
+## Worked example — why cosmic birefringence can't clear (L1 in action)
+
+*The clearest demonstration of L1, from JP's "clear it through gravity or EM?"
+question (2026-07-08). Cross-refs the graveyard entry "model-SOURCED cosmic
+birefringence" (8 angles) in `PRTOE_TRANSACTION_ATLAS.md`.*
+
+Cosmic birefringence is a transaction in **handedness currency** — rotating
+photon polarization is a *parity-odd* obligation (left-circular treated
+differently from right). Trace it through the clearing law:
+
+- **Bank 1 — Gravity (L1, the medium's ONLY account).** Gravity's ledger is
+  identity-blind — it has columns for **energy/mass**, nothing else. It posts a
+  *mass* transaction fine (that's R1, the m_e shift). But it has **no handedness
+  column** (the metric is parity-even). A handedness check has no line to post on
+  → clears as parity-even only (redshift/lensing), never a rotation.
+- **Bank 2 — EM (the bank that DOES carry handedness).** Photon polarization *is*
+  the EM sector's ledger, so EM is the right bank. But clearing through EM requires
+  an **EM account = EM charge**, and the medium is **EM-neutral** (dark, by
+  constitution). No account, no posting. *This is the census, stated as banking.*
+
+**Net:** birefringence is a check in a currency the medium's only bank (gravity)
+doesn't carry, at the bank that does carry it (EM) but where the medium holds no
+account. **Un-clearable by banking structure, not by fiat.** The medium *watches*
+the polarization form through its gravity account, but gravity is handedness-blind
+— it has no pen that writes in that ink. (Timing intuition preserved: recombination
+IS when the EM handedness-window opens — but it opens for EM *customers*, the
+charged matter doing Thomson scattering; the medium isn't one.)
+
+---
+
 ## Open / to confirm (please correct)
 
 1. Exact founding wording of L1–L3 (your memory vs the corpus's interpreted form).
