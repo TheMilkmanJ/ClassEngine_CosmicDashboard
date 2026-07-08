@@ -3201,3 +3201,32 @@ dominated, intact). NOT touched.
 genuinely separate, and the flavor sign is physically reachable but portal-costly.
 Two loose bricks pulled; tower doesn't stand as built. Booked as an honest
 negative; #14 remains open (needs the real loop calc for the portal's viability).
+
+## 91. "At BBN everything is blended, radiation included" (operator) — rescues the deuterium heal (small radiation carrier), partly undoing §90
+
+**Operator: at 3 min the universe is packed tight & radiation-dominated — maybe
+the BBN coupling is a blend of everything, radiation included, not one clean
+coupling.** Correct, and it rescues the heal §90 killed.
+
+**The rescue:** §90's catastrophe assumed the BBN shift = full 1.24%. But if the
+amendment rides the RADIATION-LIKE NORMAL FRACTION (pre-condensation, w=1/3,
+alive at BBN, gone by recombination — a SMALL fraction of the energy then), the
+delivered vev shift is SMALL: ~+0.15%, NOT 1.24%. That is exactly the healer's
+target → deuterium binding moves the right amount → heals, NO catastrophe. The
+"radiation-included blend" makes the BBN shift small enough to cure not kill.
+§90 was killing the WRONG version (a big shared coupling); the small-carrier
+version evades it. This is essentially the model's existing ANN-2026-005 healer,
+re-derived.
+
+**Two honest catches (rescue, not full win):**
+1. SEPARATE amendment, not the unification: BBN shift rides the radiation-like
+   normal fraction; m_e rides the condensate. Two carriers (ANN-2026-006: differ
+   ~8 orders, one coupling can't source both). Deuterium heals; the one-engine
+   dream stays dead — two engines, both real. Doubling debt STANDS.
+2. Still needs a HIGGS-VEV PORTAL (dark→Higgs, non-gravitational) — the §90
+   census cost doesn't vanish; reopens #5.
+
+**NET (better than §90, not §85):** deuterium HEALABLE again (small radiation
+carrier, operator's catch — my §90 over-shot); unification still DEAD (two
+carriers); portal cost still there. Scar = curable blemish riding the
+radiation-soup carrier, not a catastrophe. Operator's correction to §90, booked.
