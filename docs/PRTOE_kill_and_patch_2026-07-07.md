@@ -96,3 +96,41 @@ m_e route survives MICROSCOPE, the fit is real, DESI is not yet decisive — but
 the kill attempt materially narrowed it: the continuous coupling is gone, and
 the model's survival now rests on (a) a discrete switch it must still derive,
 and (b) DESI regressing to w=−1. Both are falsifiable. Nothing was dressed up.
+
+## Amplitude update (operator's "combination of reasons", 2026-07-07 later) — Shot 1 upgraded from "homeless fit" to "abundance-anchored to a factor of one"
+
+**The correction to Patch attempt 2:** that patch used M_GUT (2e16 GeV) for the
+displacement and got 0.1% (factor 12 short). WRONG SCALE. The medium's field Ψ₀
+is pinned INDEPENDENTLY by the DM abundance (base-camp pin) at 0.7-1.5e17 GeV —
+higher than M_GUT.
+
+**The amplitude is a PRODUCT of two factors** (operator's "combination",
+correct): δm_e/m_e = (coupling) × (displacement), displacement = Ψ₀/M_Pl,
+coupling = EM-self-energy structure (also sets leptons-not-hadrons, P-2026-011).
+
+**The number:**
+| | value |
+|---|---|
+| Ψ₀/M_Pl (non-reduced M_Pl, abundance-pinned Ψ₀) | 0.57% - 1.23% |
+| Ψ₀/M_Pl at top of range (Ψ₀=1.5e17) | **1.23%** |
+| ε from CMB H0 fit (independent dataset) | **1.24%** |
+| implied coupling | **1.009 ~ O(1)** |
+
+**Two INDEPENDENT datasets — DM abundance (→Ψ₀) and CMB H0 (→ε) — agree on the
+same Ψ₀/M_Pl to a factor ~1**, with an order-one coupling. The displacement
+factor nearly delivers 1.24% alone; the α (0.73%), M_GUT/M_Pl (0.16%), and
+proton EM self-energy (0.075%) are NOT separate contributions — they are inputs
+to / lenses on the two factors.
+
+**HONEST CAVEATS (fragile in 3 named ways):**
+1. CONVENTION: reduced M_Pl → Ψ₀/M_Pl = 2.9-6.2%, needs coupling ~0.2-0.4
+   (factor-2.9 swing).
+2. RANGE: only the TOP of the abundance range (1.5e17) touches 1.24%; bottom
+   gives 0.57%.
+3. COUPLING: "~O(1)" is assumed, not derived.
+
+**Grade:** Shot 1 (novelty⊥fit) is UPGRADED, not closed. The 1.24% is no longer
+a naked fit — it is (abundance-pinned Ψ₀)/(Planck) × (O(1) coupling), and the
+abundance and the CMB agree on it to a factor of one. Full closure still needs
+the convention fixed (the actual coupling normalization) and the O(1) coupling
+derived. Credited to the operator's "combination of reasons" instinct.
