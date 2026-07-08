@@ -2291,3 +2291,42 @@ the payload operator). Building that operator IS the derivation. Credited to the
 operator's "pick up all the pieces" push; the honest finding is that a pile of
 correct pieces is not a roof until the joints are known, and this joint must be
 derived, not placed.
+
+## 62. Assembly A SELECTED by the census (operator: "gravity sets size, EM sets flavor") — §61's fork closed
+
+**Operator's argument:** gravity and size "know each other" (gravity is the
+scale force); EM "doesn't understand size" (scale-free), so EM sets flavor.
+Made rigorous + strengthened:
+
+**(1) Dimensional:** δm_e/m_e is a pure fraction; the medium's field Ψ₀ carries
+units (GeV). Converting it to a fraction REQUIRES dividing by a mass scale.
+Gravity owns the only universal scale (M_Pl); EM's coupling α is dimensionless
+and offers no scale. A field-sized magnitude MUST be gravitational (Ψ₀/M_Pl).
+
+**(2) Census clincher — this FORCES it:** "EM sets the size" means the medium
+modulates the electron's EM self-energy = a medium→EM coupling = varying-α in
+disguise = CENSUS-FORBIDDEN and already quasar-KILLED (graveyard). So Assembly B
+is dead. Assembly A is the only census-legal option: the medium acts
+GRAVITATIONALLY (its sole licensed action), and matter's OWN pre-existing EM
+structure supplies fixed flavor weights — no medium→EM coupling. **The census
+SELECTS A. §61's under-determination is resolved.**
+
+**(3) Dissolves the magnitude-vs-flavor tension:** EM was never the size-setter,
+so its α-suppression is irrelevant (category error). EM sets dimensionless
+flavor WEIGHTS: electron ≈ 1, proton ≈ 0.06 (the 13:1 lepton/hadron ratio of
+P-2026-011). Gravity sets the size (Ψ₀/M_Pl ≈ 1.2%). Product: electron 1.24%,
+proton 0.075%. No α-too-small problem.
+
+**Consequences:**
+- Architecture FIXED: amplitude = (gravity: Ψ₀/M_Pl, the SIZE) × (EM: fixed
+  flavor weights, the DISTRIBUTION).
+- Fingerprint LOCKED: **ε ∝ √Ω_DM** (size rides Ψ₀, which the abundance pins).
+  Assembly B's ε ∝ α (abundance-blind) excluded with it.
+
+**STILL OPEN (honest):** the number is abundance-anchored, not genesis-derived
+(Ψ₀'s 42-order genesis hole, §... stands); the exact flavor weights await the
+payload operator (the gravity↔EM joint, §61). So the ARCHITECTURE is selected
+(gravity-size × EM-flavor, census-forced), the NUMBER is not yet computed cold.
+Credited to the operator — the physical instinct closed §61's fork via the
+census. A real advance on Shot 1: from "naked fit" → "census-selected product
+with a falsifiable abundance link."
