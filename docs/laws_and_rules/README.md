@@ -213,6 +213,21 @@ transition moves the medium's MASS (relaxing the ban on its parity-even matter
 coupling — the f_n leak), not its CHARGE; the missing terminal is a charge fact, so
 the 2-odds wall is invariant across the regime change.
 
+**Thermal is not a way out either (JP: "what if the early pairs paid through THERMAL,
+not EM?").** Two reasons: (1) thermal equilibrium isn't a separate force — it is
+*maintained by* EM (the plasma thermalizes via Thomson scattering), so "paying
+thermal" is paying EM one floor down; (2) more fundamentally, **thermal is
+parity-EVEN** — equilibrium has no preferred handedness (detailed balance, max
+entropy), so a thermal transaction carries *energy*, not chirality. The real
+parity-odd thermal effects (chiral magnetic / chiral vortical) need chiral CHARGED
+fermions + B-field/vorticity — internal to the EM plasma; the neutral medium can't
+source them without the chiral/EM coupling it lacks. So thermal joins the list:
+**every legal channel the medium owns — gravity, β, thermal — is parity-even;
+handedness lives only on the EM line.** (NB the early medium→matter channel that
+*was* open pre-condensation was itself parity-even — it shifted the vev/masses = the
+deuterium heal, not a handedness channel. That channel is a real live front, #11 /
+D-repair — but a parity-even one.)
+
 ---
 
 ## Open / to confirm (please correct)
