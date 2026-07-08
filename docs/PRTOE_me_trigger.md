@@ -3082,3 +3082,30 @@ at 0.075% needs the calc (#14/#15); and a competing epoch structure exists in th
 old notes ("amendment OFF at BBN") to sort against this ("ON at BBN, flavored").
 But as a DIRECTION it's the first thing that could UNTIE the knot rather than
 tighten it. Booked.
+
+## 87. "Deuterium needs a flavor weight because its flavor is its neighbors" (operator) — grounding the flavor weight in bound-vs-free
+
+**Operator: deuterium formed because the neighbor rule was broken; it needs a
+flavor weight because "its flavor was the hydrogen atoms around it."** A real
+grounding of the flavor weight.
+
+**True core:** deuterium is not a mass, it's a RELATIONSHIP — a barely-bound
+proton+neutron, defined by its neighbors (the bond, the plasma). The healer works
+through EXACTLY that bond: it shifts the BINDING energy δB_D (the neighbor bond),
+not the bulk mass, with an AMPLIFIED response (−4: a delicate cancellation). So
+deuterium is coupling-sensitive THROUGH its neighbors, with leverage a lone
+particle lacks. "Flavor = the neighbors" is physically real.
+
+**Grounds the flavor weight (toward DERIVING P-011, not asserting it):** the
+weight = the BOUND-vs-FREE distinction. A lepton is alone (no neighbors, pure
+Higgs mass = "hermit"); a hadron/deuterium is all-neighbors (mass = binding,
+relationship = "marriage"). Different weights because one is a hermit and one is
+a marriage — a physical basis, not a fudge.
+
+**HONEST CAUTION (the sign, same as §85):** the heal needs the BOUND sector
+(hadrons) to shift LESS than the FREE sector (leptons). But naively, a coupling
+that grabs BINDING would shift the bound things MORE (wrong sign). The heal works
+only in the electromagnetic-self-energy version (leptons shift more). Reconciling
+"flavor comes from being bound/neighbored" with "leptons shift MORE, not less" is
+the needle #14/#15 must thread. Operator names the SOURCE of the flavor weight
+(bound vs free); the SIGN is the open check. Genuine step toward deriving P-011.
