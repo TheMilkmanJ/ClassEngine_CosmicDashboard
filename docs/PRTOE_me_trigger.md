@@ -3409,3 +3409,36 @@ numerically.
    a full BBN refit.
 Net: §96 has now passed its one runnable observational test — real positive,
 honestly modest.
+
+## 98. #14's c IS the closed account (operator's correction) — one medium-matter coupling in two phases, not a free dial
+
+**Operator: "we just solved this -- the coupling we're missing for c is the CLOSED
+ACCOUNT (§96)."** Correct; I wrongly treated #14 as an independent free Wilson
+coefficient. Corrected.
+
+**One interaction, two phases (across the regime change):**
+- MASSLESS phase (early): the medium-matter interaction is DIRECT + STRONG — the
+  account that heals deuterium (κ_v ~ O(1)), allowed because no mass to protect.
+- MASSIVE phase (late, post-condensation): the SAME interaction survives only in
+  its Planck-suppressed CONFORMAL form — and that is the coupling that shifts m_e
+  (c ~ O(1)). Naturalness closes the strong direct piece; the gentle conformal
+  piece remains.
+
+⇒ **#14's c and the deuterium κ_v are the SAME coupling before/after the account
+closed** — NOT two independent unknowns, NOT a free late-time dial. The "missing
+non-minimal term" for c=1 is the residual of the early account, not a mystery.
+
+**Two payoffs:**
+1. ONE coupling, not two: pin the medium-matter interaction once → get BOTH the
+   deuterium heal (κ_v) AND the m_e amplitude (c). Halves the open parameters,
+   links the two parallel problems.
+2. O(1) for a REASON: both phases are the same underlying interaction, both come
+   out order-one (early direct κ_v ~ O(1), late conformal c ~ O(1)) — which is
+   WHY c sits near 1, the shadow of the open account, not a free-parameter fluke.
+
+**#14 RE-POSED (better than before):** not "derive a free Wilson coefficient from
+nothing" but "MATCH the coupling across the massless→massive transition at
+condensation." Whether c is EXACTLY κ_v (smooth continuity) or just both-O(1)
+(related, not identical) depends on the regime-change dynamics — the real, now-
+CONNECTED #14 calc. Credited to the operator; my §90/§97-audit "free dial" framing
+corrected — it's the late-phase face of the early account.
