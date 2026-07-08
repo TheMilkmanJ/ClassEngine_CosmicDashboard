@@ -181,3 +181,25 @@ rho_Lambda -> H_Lambda), CENSUS-LEGAL (self-interaction of the medium's OWN kine
 
 **NET:** the floor is now a REAL mechanism (not a placeholder) -- "one field, both jobs" is
 BUILDABLE; "explains the DE scale" is NOT and should not be promised. #17's missing 20% = roughed in.
+
+## Step 8 (2026-07-08) — floor STABILITY: the (deltaK)^2 funds AND stabilizes (piece 2)
+
+Fluctuations delta phi around the condensate minimum: sound speed **c_s^2 ~ P'(X0) = 0**
+(because P'=0 IS the minimum) -> marginal at leading order (where a normal field would go
+unstable). The (deltaK)^2 term RESCUES it: supplies a higher-derivative dispersion
+**omega^2 ~ +k^4/M^2** (in place of the missing c_s^2 k^2). Fluctuations oscillate (stable),
+NOT grow -- IF the sign is right. So **the "sign-lock" IS the stability condition**: the SAME
+operator that funds the floor (P min at X0!=0) stabilizes it (k^4 dispersion, sign-locked). One
+operator, both jobs -- a consistency, not a patch.
+**w(z) transition:** field slides to X0 -> w runs 0->-1 as a SMOOTH MONOTONIC crossover, width
+set by P''(X0) -- exactly the "gradual crossover, no step/wiggle" DESI prediction. The mechanism
+PRODUCES the predicted w(z), doesn't just allow it.
+**Caveat:** stable at LINEAR order with the sign-lock, but ghost condensates carry real baggage
+(k^4 -> low scale M~meV; full viability debated in the literature). Standard risks flagged.
+
+**Piece 1 (c exact):** still the threshold-matching loop, un-shortcut. Stands: flavor-break 0.35%,
+overall ~1 +- (matching, sub-% to few-%). Owed honestly.
+**Piece 3 (CC value):** the model already dissolves the CC's CONSTANT-NESS -- the floor is a
+dynamical kinetic condensate, NOT an inert Lambda (aligns with JP's no-true-constants view). Only
+the VALUE (why X0 -> P~-(meV)^4) is tuned, off the promises list. Hint: meV ~ m_nu coincidence ->
+IF neutrino-connected, the value gets a dynamical origin too (speculative, unclaimed).
