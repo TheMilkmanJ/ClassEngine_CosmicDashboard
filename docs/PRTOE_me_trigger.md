@@ -2250,3 +2250,44 @@ product structure is the ledger's two channels, not a coincidence.
   1.24% exactly?" (open). The amplitude is now the medium's two ledger channels
   multiplied — gravity to space, EM to matter — the most coherent framing the
   amplitude has had. Credited to the operator.
+
+## 61. The assembly attempt (operator: "we have all the pieces, build it like the roof") — over-determined at 1%, under-determined at 1.24%
+
+**Did the assembly:** laid out every piece that bears on the amplitude and tried
+to force each into place (as the roof's pieces were forced by parity /
+renormalizability). Result:
+
+**Every road lands near 1%** — gravity displacement Ψ₀/M_Pl (0.6-1.2%), EM
+self-energy (~1%), α (0.73%), M_GUT/M_Pl (0.16%). The ~1% is **OVER-DETERMINED**:
+many independent roads arrive there. This is WHY the amplitude is robustly ~1%
+and not 10% or 0.01%.
+
+**But each road has one un-forced knob** to reach exactly 1.24%: the gravity
+road needs coupling = 1.01; the EM road needs cutoff = 18 MeV. And the roads are
+DIFFERENT MECHANISMS that disagree on which coupler sets the SIZE:
+- **Assembly A:** gravity sets size (Ψ₀/M_Pl), EM sets flavor. Knob: the O(1)
+  coupling.
+- **Assembly B:** EM sets size (self-energy ~α), gravity coincidental. Knob: the
+  cutoff.
+The pieces DO NOT choose between them. So exact 1.24% is **UNDER-DETERMINED**:
+same pieces, two valid buildings.
+
+**Why the roof went up and this hasn't:** the roof's pieces each had a FORCING
+CONSTRAINT (parity, renormalizability) fixing where they go. The amplitude
+pieces have no such label yet — nothing forces "gravity sets size" over "EM sets
+size." The missing thing is NOT an ingredient (all rafters are on the table) —
+it is the **JOINT that connects the gravity factor to the EM factor**: the
+operator coupling Θ to m_e (the "payload," §58/§59 open). That joint would force
+the assembly AND turn the knob.
+
+**Discriminator (how the joint would decide):** Assembly A predicts ε ∝ √Ω_DM
+(abundance-linked through Ψ₀); Assembly B predicts ε ∝ α (abundance-independent).
+Deriving the payload operator — or a test of whether ε tracks the abundance —
+picks the assembly.
+
+**Grade:** the amplitude problem is now stated at its sharpest — over-determined
+at 1%, under-determined at 1.24%, one bracket short (the gravity↔EM joint =
+the payload operator). Building that operator IS the derivation. Credited to the
+operator's "pick up all the pieces" push; the honest finding is that a pile of
+correct pieces is not a roof until the joints are known, and this joint must be
+derived, not placed.
