@@ -863,13 +863,21 @@ peacefully BECAUSE no channel exists. *Hook: this is §57–61's guillotine
 from the other side — ANY dark annihilation signature simultaneously
 falsifies the reframe and the census.*
 
-**74. The 21-cm cosmic dawn — PREDICTS (epoch gate).** Constants return
-exactly to standard at z < 50 by construction: REACH/SKA-low should see
-a standard sky; EDGES-class anomalies get no retro-fit. Meanwhile the
-granule scale lives in the 21-cm forest's small-scale territory. *Hook:
-a confirmed cosmic-dawn constants anomaly is NOT ours and its
-confirmation would hand the m_e mechanism to a rival epoch structure;
-forest P(k) at granule scales re-opens §43's trial.*
+**74. The 21-cm cosmic dawn — PREDICTS (updated: the void m_e-step's
+falsification path, P-2026-007).** TWO candidate m_e gates make OPPOSITE
+predictions here, and cosmic-dawn 21-cm is the discriminator: (i) the
+by-hand EPOCH gate (config varying_transition_redshift=50) says constants
+are standard below z=50 → a standard sky; (ii) the physical STRUCTURE
+gate (the fold/saturation, established this session) says m_e is shifted
++1.24% in ALL sub-threshold gas — and cosmic dawn (z~15–20) is mostly
+diffuse, unenriched, HI-rich sub-threshold IGM, so it should carry the
+shift → a +2.48% shift in the 21-cm rest frequency (~m_e²/m_p), ~1.7–2.2
+MHz at 68–89 MHz. The structure gate is the current best physics; the
+epoch gate is its homogeneous approximation. *Hook: cosmic-dawn 21-cm
+(HERA/SKA-low/REACH) reads +2.5% (confirm P-2026-007, dyad-specific,
+LCDM-impossible) or consistent-with-zero (kills the sharp-step / favors
+the epoch-gate approximation). HI needs no enrichment, so it reaches the
+sub-threshold voids metals never can. Fights astrophysical degeneracy.*
 
 ---
 
@@ -953,7 +961,7 @@ against, not a claim).*
 | 71 | FIRAS distortions | PASSING-NULL | μ/y at standard levels, as Law 2 requires |
 | 72 | CMB dipole | PASSING | 370 km/s speedometer; frame statistics boring, as required |
 | 73 | Dark antimatter | STANDING | same guillotines as §57–61, taken from the other side |
-| 74 | 21-cm dawn | AWAITING-DATA | epoch gate z<50 in every config; REACH/SKA-low will read it |
+| 74 | 21-cm dawn | AWAITING-DATA | now the void-step (P-2026-007) falsification path: structure gate -> +2.5% shift vs epoch gate -> standard; REACH/SKA-low discriminate |
 
 **The honest tally:** 0 falsified · **1 TRAILING (§41, DESI — the only
 attachment currently moving against us, and the file says so in bold)** ·
