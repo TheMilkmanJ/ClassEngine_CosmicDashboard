@@ -67,3 +67,27 @@ the mass at ~2e-20 eV exactly (the Coleman-Weinberg / shift-breaking structure).
 **Net:** flavor-blindness quantified (0.35%); mass de-mystified (alpha~0.06, exponential,
 data-pinned). ONE hard number remains: the UV threshold matching for c's exact overall
 normalization (the genuine months-part).
+
+## Step 3 (2026-07-08) — does ONE ALP field give the whole dCDF (DM+DE)?
+
+The model's core claim is unification (one field = DM + DE, w: 1/3->0->-1). Audit of
+the ALP completion against the full dCDF feature list:
+- **DM (w=0):** YES -- rotation = charge = abundance (Co-Harigaya).
+- **Ultralight mass:** YES -- shift-protected, exponential (step 2).
+- **Conformal coupling c~1:** YES -- saturated ceiling (step 1).
+- **Normal fraction (w=1/3 early):** plausible -- pre-condensation radiation-like phase.
+- **DARK ENERGY (w->-1 floor):** **NOT automatic.** The rotation redshifts as matter /
+  kination (w=1); it does NOT supply a near-constant late-time density. DE needs a
+  separate piece.
+
+**The gap + what fills it:** the DE floor is the "funded floor" (sign-locked phantom
+floor via the (deltaK)^2 operator, the graveyard resurrection). So:
+  **Full UV completion = ALP (DM + mass + coupling) + (deltaK)^2 funded-floor (DE).**
+One field can host both (rotation -> DM; derivative self-interaction -> DE floor), but the
+structure producing w->-1 is ADDITIONAL, not free from the ALP.
+
+**#17 remaining scope, now named (not vague "months"):**
+1. **DE floor UV realization** (the CENTRAL piece -- the unification itself): does the ALP
+   field's (deltaK)^2 structure give a stable w->-1 and stay census-legal?
+2. **c threshold-matching** (the precision residual from step 2).
+The ALP delivers ~80% (DM/mass/coupling/normal-fraction); the missing 20% is the DE floor.
