@@ -41,3 +41,29 @@ holds, maximally."
 unfinished half — how saturated the ceiling is); the environmental Θ-switch that
 gates WHERE m_e shifts is separate (#8). Also owed: why the explicit breaking lands
 the mass at ~2e-20 eV exactly (the Coleman-Weinberg / shift-breaking structure).
+
+## Step 2 (2026-07-08) — attacking the two residuals
+
+**Residual 1 (margin below 1) — split:**
+- **1a Flavor-breaking (computed):** conformal coupling universal (c=1) at tree level;
+  trace anomaly breaks it by each species' anomalous dimension. Electron (QED):
+  gamma_me = 3 alpha/(2pi) = 0.0035 = **0.35%**. So **c_e ~ 1.00 to sub-percent** (the
+  electron sets the CMB amplitude). Hadrons ~few-10% (QCD). Predicts a tiny residual
+  varying-constant flavor-dependence -- anomaly-level, NOT the retracted P-011 factor.
+- **1b Overall normalization (HARD WALL):** how saturated the gravitational ceiling is =
+  a UV threshold-matching calc, not shortcuttable. c_e = 1 - (matching, sub-% to few-%).
+  Honest prediction: **c ~ 1.00**; measured 0.93+-0.38 consistent (offset within
+  f_amp/Psi0 systematics + error bar).
+
+**Residual 2 (why m~2e-20 eV) — largely resolved by reframing:**
+- The mass is PINNED BY DATA (amplitude+abundance -> 2e-20), not derived from the UV.
+  The UV's job is to ACCOMMODATE it naturally, and it does:
+- Exponentially-small shift-breaking mass m ~ M_red exp(-S): ln(m/M_red) ~ -108 => S~108
+  => **alpha_hidden = 2pi/S ~ 0.06**. A modest O(0.06) hidden coupling generates
+  m~2e-20 eV via non-perturbative dimensional transmutation; shift symmetry protects it
+  (technically natural). So the tiny mass is NOT fine-tuned -- exponentially generated
+  from an unremarkable input, value fixed by data.
+
+**Net:** flavor-blindness quantified (0.35%); mass de-mystified (alpha~0.06, exponential,
+data-pinned). ONE hard number remains: the UV threshold matching for c's exact overall
+normalization (the genuine months-part).
