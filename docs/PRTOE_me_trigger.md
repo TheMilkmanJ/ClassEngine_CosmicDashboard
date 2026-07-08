@@ -2430,3 +2430,33 @@ only the payload operator decides. Chase target for the payload derivation.
 fuzzy blockers → ONE nameable number (β≈0.6), with Ψ₀ computed+robust, convention
 settled, and a concrete suspect (β=f_rot?). Closest the derivation has been to a
 single missing piece. Retraction logged with the same ink.
+
+## 66. What β≈0.6 is in relation to — gravitational strength, and (corrected) f_amp not f_rot
+
+**CORRECTION to §65:** §65 said β≈0.6 matches f_rot. WRONG. The dice median is
+f_amp ≈ 0.55–0.67, and f_rot = 1−f_amp ≈ 0.33–0.45. The required β = 0.56–0.73
+matches **f_amp**, NOT f_rot. §65's lead is corrected to β ≈ f_amp.
+
+**What β is measured against — GRAVITATIONAL STRENGTH.** β is the medium's
+coupling to m_e in units of gravitational strength. β=1 = full dilaton strength
+(δm_e/m_e = Ψ₀/M_red exactly; the electron feels the field as hard as spacetime
+does). **β≈0.6 = the medium grips the electron at 60% of gravitational strength.**
+Natural benchmark because the census makes gravity the yardstick.
+
+**Why f_amp is the RIGHT match (not just closer):** f_amp is the AMPLITUDE MODE —
+the radial oscillation of |Ψ| (the field's size). The electron mass couples to
+exactly that: δm_e/m_e ∝ |Ψ|/M_red depends on the amplitude. So the fraction of
+the medium's dynamics in the amplitude mode (f_amp) is precisely the fraction
+that can couple to m_e. **β = f_amp is the coupling equal to the fraction of the
+field in the mode the electron can feel** — a mechanism sketch, not a numerical
+coincidence.
+
+**If it holds:** ε = f_amp × Ψ₀/M_red — both factors are genesis outputs (Ψ₀
+from misalignment abundance, f_amp from the dice), and β stops being a free knob.
+
+**Grade — mechanism SKETCH, not a derivation** (stated carefully after §65's
+retraction): "amplitude mode = m_e channel" is sensible but not yet an operator.
+What lifts it above hope: it's TESTABLE. f_amp also sets granule power
+S=(1+f_rot²)/2=(1+(1−f_amp)²)/2, so the task-8 sims that read f_amp off
+dwarf-heating independently check whether β≈f_amp≈0.6. Granule-f_amp → β=0.6
+closes the amplitude; otherwise the lead dies. Fifth thread onto task #8.
