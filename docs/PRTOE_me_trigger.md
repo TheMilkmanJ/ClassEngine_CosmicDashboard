@@ -2588,3 +2588,35 @@ TWO roles in the transaction —
 The operator named the first (Θ). β is how big the shift is while the all-clear
 has NOT been given. Credited — the all-clear intuition separated the gate from
 the magnitude cleanly.
+
+## 71. How does the ledger collect the 0.6? It doesn't — it's the bank collecting its own information (operator)
+
+**Unit fix:** β = 0.6 (pure number, 60% of gravitational strength), NOT 0.6%.
+The amplitude is 1.24%.
+
+**Operator: "how does the ledger collect that 0.6? Or is it the bank coming to
+collect its own information?"** The latter — UNCOLLECTABLE. Trace every line:
+- **Energy?** No — the mass-shift energy is reallocated INSIDE matter (§69);
+  the medium supplies none.
+- **Information (when to shift)?** That's Θ = matter's OWN clustering state
+  (§70). The medium didn't make it; matter wrote it by collapsing. β reading it
+  back = the medium handing matter its own entry.
+- **The medium's field scale Ψ₀?** Read but not depleted — information is
+  copyable; referencing the field doesn't spend it.
+
+**So the medium is a REGISTER:** it holds a record of matter's state (Θ) against
+its own reference (Ψ₀), and β is the READ-OUT GAIN. The 0.6 isn't a debt — it's
+the gain on a read. Matter writes its state into the fluid (clustering, via
+gravity) and later reads it back (mass shift, via β): a closed self-referential
+loop, no account debited. "Bank collecting its own information" — nothing to
+collect because the information was matter's all along; the medium only mirrored
+it.
+
+**Places β with the global-U(1) charge (Transaction Atlas: "bank comes to
+collect / uncollectable"):** both are INFORMATIONAL/conserved quantities, not
+payments. β = a read gain, not a transaction cost. Reinforces §69 (information,
+not energy).
+
+**Grade:** interpretive placement — coherent, census-consistent, locks β into
+the "information not energy" class. Does NOT move β's value or derivation
+(still operator + sim). Conceptual consolidation of a mapped structure.
