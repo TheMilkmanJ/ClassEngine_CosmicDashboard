@@ -964,3 +964,29 @@ question) — currently NOT the leading reading.
 varying-constant prediction is now "all constants shift together," and the
 deuterium heal (universal small shift at BBN) rides the same one coupling as m_e
 (unification, §92) contingent on the BBN→recombination field-value ratio.
+
+---
+
+## ANN-2026-016: Room-2 confrontation — the universal varying-constant prediction is CONSTRAINED; screening now MANDATORY (2026-07-08)
+
+**Recorded:** 2026-07-08 (git base: 5845d9d3)
+**The confrontation:** after P-2026-011's retraction (ANN-2026-015), the model
+predicts UNIVERSAL varying-constants. If the shift tracks the condensate order
+parameter everywhere (δ ∝ |Ψ| ∝ (1+z)^{3/2}, normalized to 1.24% at recombination),
+it predicts a low-z drift confronted against existing data:
+| probe | z | model | bound | verdict |
+|---|---|---|---|---|
+| H2 absorption (μ) | 2.5 | 2e-6 | 5e-6 | OK |
+| methanol maser (μ) | 0.89 | 9e-7 | 1e-7 | TENSION ~9× |
+| Oklo (α) | 0.14 | 4e-7 | 1e-7 | TENSION ~4× |
+| atomic clocks (α) | 0 | 3e-7 | 1e-7 | TENSION ~2× |
+
+**Verdict:** the "everywhere" reading is MILDLY EXCLUDED (2–9×). The data bites.
+It FORCES the ENVIRONMENTAL SCREENING (Θ switch, P-2026-007): masers/H2/Oklo/
+clocks all sit in dense/structured gas or on Earth → screened → lab value →
+consistent. **Screening is now DATA-REQUIRED, not optional.** The naive
+condensate-drifts-everywhere version is out.
+**Double-edge:** screening saves the model AND re-parks the prediction — the only
+clean surviving test is cosmic-dawn 21-cm (diffuse HI, P-2026-007's falsification
+path). The model sits RIGHT AT current sensitivity; near-future maser/clock gains
+are decisive. First data-confrontation of the post-P-011 universal prediction.
