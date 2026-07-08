@@ -2528,3 +2528,36 @@ grip); its VALUE has a falsifiable target (0.6, checkable when sims read f_amp);
 but it CANNOT be computed cold without (1) the operator + (2) the sim. Deriving β
 = build the operator + run the sim (task #8), not more reasoning. Comparison
 credited to the operator (closed the coupling-ratio route).
+
+## 69. Why β is small: it carries INFORMATION, not energy (operator) — census-forced, and FIRAS-safe
+
+**Operator: "β doesn't need to be big because it's only dealing with the end of
+the transaction. All it does is feed the fluid the information of the
+transaction."** Sound, and census-FORCED:
+
+**Census forces it.** The census forbids the medium transferring ENERGY to
+matter (gravity-only; the medium cannot pay the electron). So β CANNOT be an
+energy-carrying coupling — it can only be PARAMETRIC/INFORMATIONAL: it tells the
+electron the medium's state changed (sets a dial), it doesn't pump a current.
+
+**This EXPLAINS §68's O(1) finding.** Energy-transfer couplings scale with
+strength and span huge ranges (the 10⁴² EM-vs-gravity gap). A RESPONSE
+COEFFICIENT ("how much the dial moves when the field changes") is dimensionless
+and generically O(1). So β is O(1) BECAUSE it's information, not energy —
+answering §68's bare fact ("β is a geometric O(1) fraction") with a physical
+reason. It needn't be big because it isn't lifting anything, just passing a
+message.
+
+**It picks the FIRAS-safe branch.** The model priced a fork: mass shift by
+TRANSFER (medium dumps energy → y-distortion, nearly FIRAS-EXCLUDED, margin
+~1.5×) vs REALLOCATION (matter re-books its own energy, no dump, no distortion).
+"Information only, no energy" IS the reallocation branch — the medium supplies no
+energy, matter pays itself internally, no spectral distortion. The operator's
+intuition lands on the interpretation that SURVIVES FIRAS. Medium informs;
+matter reallocates.
+
+**HONEST LIMIT:** explains why β is ORDER-ONE (census-forced, information-not-
+energy) — a real conceptual win. Does NOT pin the value at 0.6: "information →
+O(1)" argues the RANGE (0.1–1), not the number. "Order-one → 0.6" still needs
+the operator + sim (§68). β's CHARACTER derived (informational, small, FIRAS-
+safe); β's VALUE still open. Credited to the operator.
