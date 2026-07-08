@@ -1087,3 +1087,17 @@ scale coincidence (no mechanism), or (b) requires relaxing the census (major cos
 birefringence dark-photon). P-012 stays a coincidence to TEST, not a mechanism the model DERIVES.
 THEME: the census (c~1, gravity-only) keeps forbidding wanted connections -- birefringence, and now
 the causal neutrino-floor. Strong constraint = predictive power AND blocked explanations.
+
+**REOPENED, CENSUS-LEGAL (2026-07-08, JP "the ongoing regime change means the weak coupling has more say"):**
+The beta~500 estimate assumed NORMAL field response. But the ghost-condensate floor sits at
+**c_s^2 = 0 (step 8) -- a CRITICAL point**, where the field's susceptibility to any perturbation
+blows up: chi ~ 1/c_s^2 -> large. So the effective neutrino coupling is beta_eff ~ beta * chi.
+The census fixes beta~1, but critical amplification can enhance its EFFECT: **if chi ~ 500 near the
+transition, the census-legal (c~1) coupling suffices -- neutrinos set the floor scale WITHOUT
+relaxing the census.** This ties together the ghost-condensate floor + its c_s^2=0 criticality
+(step 8) + the neutrino coupling (amplified BY that criticality). So the neutrino-floor stops being
+a coincidence AND stops needing option (b): it becomes a **census-legal critical-amplification
+effect.** CAVEAT: hangs on chi actually being ~500 near the transition -- a real susceptibility
+calc (depends on the k^4 scale M and how close to c_s^2=0 the field sits). CANDIDATE mechanism, not
+confirmed. But it is a census-legal DOOR where step "census blocks it" saw only a wall -- found by
+JP insisting there had to be a mechanism (no coincidence) without relaxing the census.
