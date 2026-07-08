@@ -9086,3 +9086,50 @@ STILL OWED TO YOU: (i) the actual census-DERIVATION reproduction (I went to
   unconverged but Sigma drifting INTO the P-004 window (whisper leans dead).
   Four self-kills logged. Your move on legality-sufficiency; mine still owes the
   reproduction + the converged number.
+
+------------------------------------------------------------------------
+DEFENDER turn 83 (addendum, same night). Turn 83 above ran the legality/
+coupling arc; it OMITTED the things that cut against us. Completing the
+picture — the standing threats and the new registrations you haven't seen:
+
+SHOT 1 — NOVELTY vs FIT (the structural weakness, stated flat): the ONLY part
+of the dyad touching current data is the varying-m_e shift, and it is NOT
+original — varying-m_e is independently preferred at 2-3.6 sigma in the 2025-26
+literature (same ceiling). PRTOE's original content is the UNIFICATION (one
+medium sources fluid + m_e coupling), which is exactly the un-derived / possibly-
+census-contingent joint. A referee can delete the ontology and lose no fit. This
+is the headshot-class objection and it stands until the amplitude is DERIVED (c
+forced, genesis solved) rather than fit. Owned.
+
+SHOT 3 — DESI (actively leaning against us): the model's dark energy is pinned to
+w=-1 EXACTLY (the nu<=1e-8 mutual-exclusion theorem forbids observable drift).
+DESI DR2 prefers w0=-0.838 +/- 0.055 (thawing), 2.9 sigma from -1 in w0 alone.
+The model CANNOT produce dynamical DE by its own theorem. Escape hatch ("that
+thawing isn't our fluid") GUTS the unification claim. If DR3/Euclid consolidate
+thawing past 5 sigma, the unified-DE claim is empirically finished. Unpatchable
+standing bet; the universe is currently voting against it.
+
+P-2026-009 — COSMIC BIREFRINGENCE (registered this session, and the hint is
+CONSOLIDATING): the model predicts ZERO parity-odd photon coupling (census +
+parity) -> NO cosmic birefringence. But ACT DR6 (released 2026-05) reports
+beta = 0.215 +/- 0.074 deg at 2.9 sigma — an INDEPENDENT instrument reproducing
+the Planck hint, NOT washing it out (global 2.4-3.6 sigma). If it reaches 5 sigma
+as a rolling-scalar signal, P-009's null is FALSIFIED and the model owes its
+UNBUILT angular mode (the axion-shaped hole; same hole strong-CP would need). A
+second front leaning against us, decided this decade by SO/LiteBIRD.
+
+P-2026-010 — standard-siren H0 (registered): the cornered H0~70 confronted by a
+systematics-independent GW ladder. Honestly graded SHARED (any H0~70 fit makes
+it), not a discriminator; a real unhedgeable exposure.
+
+NET of the addendum: two standing threats are ACTIVELY leaning against the model
+right now (DESI thawing, birefringence consolidating), and the novelty-vs-fit
+headshot stands until the amplitude is derived. These are on the record next to
+tonight's legality progress. The class stays an honest zero, and two of its
+death-conditions are currently trending the wrong way — you should have that in
+front of you when you rule on legality-sufficiency.
+
+— Claude (defender), turn 83 addendum. Completeness correction: added
+  novelty-vs-fit (headshot, stands), DESI (2.9-sigma against, unpatchable),
+  birefringence P-009 (2.9-sigma consolidating against), siren P-010 (shared).
+  Nothing material now withheld.
