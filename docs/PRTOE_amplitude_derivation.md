@@ -115,3 +115,51 @@ genesis is Affleck-Dine ROLLING, not Coleman-De Luccia bubble NUCLEATION — so 
 multiverse isn't even clearly this model's mechanism. Speculation atop an
 unearned assumption: doubly un-chaseable. Booked PARKED; the model leans on none
 of it.
+
+---
+
+## SESSION UPDATE — §75–92 (2026-07-08): the coupling structure, and where it stands
+
+*The consolidation above froze at §74. This block carries it to §92.*
+
+**Factor 3 (c) — much more resolved.** c is now BOXED near 1, not free:
+- **Ceiling (c ≲ 1):** DERIVED from technical naturalness (§75, operator's "too
+  expensive"). A stronger-than-gravitational coupling radiatively destroys the
+  medium's own ultralight mass — so c can't exceed gravitational strength. The
+  ledger caps c to survive.
+- **Floor:** the amplitude is over-determined (pinned f_amp, Ψ₀) so c can't drop
+  far without breaking the fit (§76–77). Measured value: **c = 0.93 ± 0.38**,
+  consistent with 1, sharpening as Fairbank converges.
+- **The remaining bet (§81 vs §82):** is c a *free dial* (§81) or *forced = 1*
+  (§82, operator — "no half-gravity")? DATA can referee it: the granule sim's
+  independent f_amp isolates c (§83, breaks the §77 degeneracy) and reads our
+  universe's dice roll (f_amp ≈ 0.56). But *measuring* c=1 ≠ *deriving* it (§84):
+  only the effective-action calc (#14) proves "no dial."
+
+**Why the coupling is universal & flavor-blind (§89, operator):** gravity couples
+to mass-energy only — it *cannot* tell electron from quark ("same shit, different
+flavor" = the equivalence principle). So c is universal by constitution, and any
+flavor must be matter's own — the medium has no organ to make it.
+
+**Flavor / deuterium arc (§85–92) — resolved, with retractions:**
+- The lepton/hadron flavor (P-2026-011) needs a NON-gravitational touch on the
+  Higgs/EM sector — a portal the census forbids (§90). **P-011 RETRACTED**
+  (ANN-2026-015); the model predicts UNIVERSAL varying-constants.
+- **No Higgs portal is actually needed (§92, operator's correction to my §90):**
+  the SAME universal conformal coupling rescales the metric, and the Higgs vev is
+  a mass scale in it — so one gravitational nudge shifts electron + quark + vev
+  together. The Higgs moves because the FLOOR moved, not a direct touch.
+- **Unification RESURRECTED:** one conformal coupling does m_e (recombination) AND
+  the quark/vev shift (BBN) — one engine, no separate carrier, no portal.
+- **The deuterium heal now hinges on ONE calculable question:** does the dark
+  field's value GROW or SHRINK from BBN to recombination? Grows → small BBN shift
+  (~0.15%) heals D/H, no catastrophe. Shrinks (misalignment's naive answer) →
+  full 1.24% quark shift → the +11% D/H catastrophe. Genesis-set, computable.
+
+**Current standing of the whole amplitude program:**
+- Architecture: complete (gravity universal-conformal, flavor-blind).
+- c: boxed near 1 (ceiling derived, value measured ~0.93, "forced vs dial" = #14).
+- Flavor: universal (P-011 retracted); no portal owed.
+- Deuterium: unified with m_e (one coupling), rides the BBN→recomb field ratio.
+- Three live walls: #14 (c=1 loop calc), #8 (granule sim → dice roll + c),
+  #6 (Fairbank convergence). All calculation/simulation, no fog.
