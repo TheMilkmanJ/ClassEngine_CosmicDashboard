@@ -3288,3 +3288,29 @@ heal direction; unification holds.
 **CAVEAT:** direction answered (grows/heals); the exact ~12%-condensed-at-BBN
 ratio (→ 0.15% shift) needs the condensation dynamics = the genesis calc, still
 under-determined. So: qualitative HEAL confirmed; quantitative ratio owes #11.
+
+## 94. Room 1 (condensation calc) scoped — and a CAVEAT on §93: "grows" is the hopeful branch, not the guaranteed one
+
+**Operator: start on the genesis condensation calc (Room 1).** Set up + honest
+reopening.
+
+**Setup:** solve Ψ″ + 3HΨ′ + dV/dΨ = 0 (V = m²|Ψ|² + λ|Ψ|⁴) from genesis through
+condensation (z_x~1e5) → the |Ψ|(z) curve → Ψ₀, the growth shape, and the one
+number the D/H heal rides on: |Ψ|(BBN)/|Ψ|(recomb) (~12% needed).
+
+**CAVEAT on §93:** §93 assumed a phase-transition picture (|Ψ|≈0 pre-condensation,
+GROWS). But the model's field is AFFLECK-DINE: it starts LARGE (inflaton-displaced)
+and ROLLS INWARD; "condensation" = settling into a coherent rotating state, NOT
+growing from zero. So the fork is sharper:
+- phase-transition-like (|Ψ| small at BBN, grows): → heal (§93's optimistic read).
+- standard AD (|Ψ| already large at BBN): → full 1.24% quark shift → CATASTROPHE
+  creeps back.
+Which one = the GENESIS INITIAL CONDITIONS (inflaton displacement, tilt-torqued
+roll) — the under-determined inputs. So "grows" is the HOPEFUL branch, not
+guaranteed. §93 was optimistic; the grow-vs-catastrophe question is genuinely
+OPEN, riding on a genesis calc nobody has run.
+
+**Room 1 status:** real computational project (= #11, owed for Ψ₀ too). Not a
+chat-session solve — needs a committed genesis + numerical integration of the AD
+spiral through condensation. The D/H heal's survival is contingent on it breaking
+the "grows" way.
