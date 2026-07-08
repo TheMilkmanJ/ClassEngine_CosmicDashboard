@@ -3050,3 +3050,35 @@ a TWO-PIECE coupling (small universal part pins c + lepton-enhanced EM part for
 flavor) — elegant if it works, may not be satisfiable. Exactly what the
 effective-action calc (#14) must determine. The c=1 question and the deuterium
 scar are now THE SAME coupling-structure problem. Knot booked; the real finding.
+
+## 86. "The neighbor rule was violated early on" (operator) — the epoch-structure key that could untie the §85 knot
+
+**Operator's resolution to the §85 knot (universal-for-c vs flavor-for-deuterium):
+"the neighbor rule was being violated early on."** Read as EPOCH STRUCTURE via
+the QCD phase transition:
+
+- **EARLY (neighbor rule VIOLATED — all in causal contact, QCD DECONFINED, nearly
+  CONFORMAL):** no separate mass sectors, no flavor — one UNIVERSAL coupling.
+  **c = 1 is pinned here** (the binding/trace-anomaly coupling, §85b, when
+  everything is one undifferentiated soup).
+- **LATER (neighbor rule RESTORED — QCD CONFINES, protons form, sectors separate):**
+  FLAVOR structure emerges (hadron masses appear, leptons≠hadrons). By BBN the
+  coupling is already flavor-weighted → quark shifts 13× less → **deuterium heals**
+  catastrophe-free (§85a).
+
+**Untying the knot:** same coupling, two faces, split by QCD confinement (the
+moment the universe stopped being one thing). c fixed in the universal
+(neighbor-violated) era; the quark-sparing flavor split emerges in the separated
+(neighbor-restored) era. NOT in tension — DIFFERENT EPOCHS.
+
+**Support:** the model ALREADY flagged epoch structure as an escape from the
+doubling debt (ANN-2026-003: "flavor OR epoch structure"). The operator arrived
+at the EPOCH escape independently AND supplied a mechanism (the early conformal/
+deconfined era) the earlier note lacked.
+
+**Honest caveats (lead, not win):** it's a reading of the operator's metaphor;
+whether universal-early/flavored-late QUANTITATIVELY pins c AND lands the quark
+at 0.075% needs the calc (#14/#15); and a competing epoch structure exists in the
+old notes ("amendment OFF at BBN") to sort against this ("ON at BBN, flavored").
+But as a DIRECTION it's the first thing that could UNTIE the knot rather than
+tighten it. Booked.
