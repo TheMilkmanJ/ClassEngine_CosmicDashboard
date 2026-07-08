@@ -138,3 +138,20 @@ expansion rate that freezes it into DE). JP was early, not wrong.
 
 **Caveat:** "everything ties to H" is partly just cosmology; the CONTENT is that the
 thresholds are the MEDIUM's scales (m, floor) -> transition-times are predictions.
+
+## Step 6 (2026-07-08) — bracketing the dark sector: ceiling & floors (JP)
+
+Can we extract DM's ceiling/floor and DE's floor from the current regime + H? Sorted:
+- **DM floor = DE floor = rho_Lambda ~ (2.3 meV)^4:** SAME number (DM & DE cross at the
+  constant floor). Measured NOW from Omega_Lambda. (Floor sits at the meV scale ~ neutrino
+  mass -> the rho_Lambda ~ m_nu^4 coincidence / the "meV whisper".)
+- **DE-takeover rate (density):** measured now (matter-Lambda crossing z~0.4); works even if
+  w frozen.
+- **DE-takeover rate (FIELD w: 0->-1, the floor's DYNAMICS):** ONLY measurable if w is
+  evolving (thawing / B-branch). This is the one NEW number the current transition offers.
+- **DM ceiling (peak density at condensation):** an EARLY quantity, NOT from the late
+  transition -- but already pinned via m~2e-20 & Psi0~5e16 (abundance/amplitude door). Or via
+  the untested late-templates-early universality.
+
+**Bracket filled:** ceiling (pinned m,Psi0) / floor=DE-floor (Omega_Lambda now) / density-rate
+(now) all in hand; the field freeze-rate is the lone future number, = DESI w(z) IF thawing.
