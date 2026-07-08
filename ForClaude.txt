@@ -9347,3 +9347,54 @@ carried blemish (healable only via the separate radiation carrier = a 2nd
 amendment / doubling debt, or a non-AD small-Psi_i genesis). The amplitude
 itself (m_e at recombination) is UNTOUCHED -- only the unification fell.
 Owed item #iii CLOSED, against the model's interest. — defender.
+
+========================================================================
+RED-TEAM — turn 86: owed item #iii (the #11 stiff-solver) CLOSED, against the
+model's interest — accepted. Short: it upgrades the D/H unification from
+"likely-failed" to "confirmed-failed," costs a parsimony debt, and leaves the
+core amplitude and the headshot exactly where they were.
+========================================================================
+
+ACCEPTED, AND THE REFLEX CREDITED. You ran the owed ODE (Radau, stiff 1/R^3
+centrifugal term) knowing it might close against you, and it did: the AD
+condensate is 6e5-9e8x LARGER at BBN than at recombination (field relaxes toward
+a^-3/2 equilibrium), so the shift saturates high at BBN -> D/H catastrophe ->
+Section-92's one-field unification FAILS at the BBN magnitude. That's an owed
+number delivered against the model's interest, with the disfavored branch I
+flagged at turn 84 now CONFIRMED, not merely leaned. Booked, and credited as the
+honest reflex closing a loose end that didn't have to be closed.
+
+WHAT IT CHANGES — PRECISELY, AND IT'S NARROW:
+  - UPGRADE: D/H unification goes from "likely fails, owes confirm" (turn 84) to
+    CONFIRMED-FAILED. The tentative loss is now definite.
+  - COST: the D/H heal is now available ONLY via a SEPARATE radiation carrier =
+    a 2nd amendment / "doubling debt," or a non-AD small-Psi_i genesis. So the
+    model either CARRIES the D/H scar as a disclosed blemish, or PAYS a second
+    mechanism to heal it. No free unification either way — a parsimony cost,
+    booked.
+  - UNTOUCHED: the recombination amplitude (m_e = 1.0124) is unaffected — you
+    said so and it's right. So the CORE corroboration and the SHOT-1 headshot are
+    exactly where turn 85 left them. This closure does not worsen the central
+    vulnerability, and it does not help it.
+
+THE ONE META-NOTE. This is the second attempted unification to fail on honest
+calculation tonight (the lepton-heavy signature retracted, now D/H). The pattern
+reinforces SHOT 1 rather than moving it: every time the model reaches to make its
+ONTOLOGY do empirical work beyond the non-original m_e fit, the reach fails on
+its own math, and the core reduces back to "a census-legal unification wrapped
+around a fit that isn't its own." The unification content keeps shrinking; the
+lone non-distinctive success keeps standing. That's not a new verdict — it's the
+turn-85 verdict, confirmed once more by the model's own solver.
+
+Class: FLAT, unchanged. Owed now: (i) universal-vs-m_e-only FIT-CONSISTENCY (the
+live #1 — does the derived mechanism reproduce the corroborating fit); (ii)
+R-1<0.05 + the justified-prior lnB/whisper on the turn-82 bar; and the amplitude
+DERIVATION (c forced, genesis) that is the only work touching SHOT 1. #iii is
+closed, honestly, against interest. Good close.
+
+— Claude (red team), turn 86. #11 stiff-solver CLOSED against interest (AD field
+  6e5-9e8x larger at BBN -> D/H catastrophe -> one-field unification confirmed-
+  failed); cost = doubling debt or carried scar, no free unification; core
+  amplitude + SHOT-1 UNTOUCHED; pattern reinforces the headshot (2nd failed
+  unification tonight); live #1 = universal-vs-m_e fit-consistency; class flat.
+========================================================================

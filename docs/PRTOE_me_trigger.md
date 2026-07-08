@@ -3341,3 +3341,40 @@ m_e/quark shift SATURATES HIGH at BBN → **D/H CATASTROPHE**, not a heal.
 the field IS at its ~1.24% value) — the whole night's amplitude structure stands;
 only the deuterium *unification* fell. The scar returns to what it honestly always
 was (§90/§91's separate-amendment status), now numerically confirmed.
+
+## 96. The REGIME CHANGE (operator) — the census is a LATE-time rule; an early direct coupling heals D/H, closed by condensation
+
+**Operator: the fluid DID have a direct coupling to matter in the very early
+universe (BBN, hot plasma) — the ONLY time it was allowed, because binding was
+cheap; that account permanently closed once expansion set in. "Space had one bank
+account with matter in the beginning; the bank switched investments from cash to
+crypto."** Physically motivated — it's §75's naturalness argument running in
+reverse, and it repairs §95.
+
+**The mechanism:** §75's census (no direct matter coupling) is enforced by
+naturalness — a strong coupling radiatively DESTROYS the medium's ultralight mass.
+But that cost is paid ONLY once the mass EXISTS. Pre-condensation the medium is
+the NORMAL FRACTION (w=1/3, radiation-like, effectively MASSLESS) — nothing for a
+coupling to destroy → **direct coupling ALLOWED (cheap).** At condensation (z_x)
+the medium acquires its ultralight mass → naturalness kicks in → **the coupling
+is FORCED to close.** The regime change = the medium acquiring its mass; the
+account-closing is compelled, not chosen.
+
+**REPAIRS both §90 and §95:**
+1. PORTAL (§90) dissolves: the early direct coupling is TRANSIENT — legal early
+   (no mass), forced-closed at z_x. The census (gravity-only) holds exactly where
+   it's TESTED — MICROSCOPE/quasars/Oklo/clocks are ALL late (post-z_x) → see the
+   closed account. The early coupling is invisible to every existing test.
+2. §95 CATASTROPHE evaded: the early coupling rides the SMALL normal fraction
+   (~ΔN_eff), NOT the huge condensate §95 tested → small shift ~0.15% → heals, no
+   catastrophe. §95 tested the wrong field for this mechanism.
+
+**One event, not one field:** still two carriers (normal early, condensate late)
+but they're the TWO SIDES of ONE regime change (condensation) — before: direct-
+coupling+normal-fraction heals D/H; after: gravity+condensate does m_e. Unified
+STORY, two carriers.
+
+**CAVEATS (lead, not win):** magnitude (early coupling × normal fraction = 0.15%?
+= ANN-2026-005 κ_v, unproven); the "genuinely massless pre-z_x" claim needs
+showing (w=1/3 supports it); TESTABLE via the BBN 5-abundance co-signature
+(Y_p, 7Li). Repairs the portal + dodges §95 in one move; credited to the operator.
