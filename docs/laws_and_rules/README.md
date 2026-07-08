@@ -204,7 +204,14 @@ middleman, and any charged middleman is new, caged physics (and would itself be 
 source, not the medium). The only real middleman the medium has — ordinary matter —
 it reaches gravitationally (parity-even), so no handedness crosses that hop. **Every
 wire to the photon needs a terminal on the EM line; the medium has terminals on
-every line but that one.**
+every line but that one.** And a regime change can't grow that terminal (JP:
+"regime change during 2 odds?"): condensation switches on a condensate's coupling
+to the gauge field it is CHARGED under (superconductor: EM-charged Cooper pairs
+condense → photon mass), but the medium's condensate is dark-U(1)-charged and
+EM-neutral, so condensing activates its dark/gravity coupling, never an EM one. A
+transition moves the medium's MASS (relaxing the ban on its parity-even matter
+coupling — the f_n leak), not its CHARGE; the missing terminal is a charge fact, so
+the 2-odds wall is invariant across the regime change.
 
 ---
 
