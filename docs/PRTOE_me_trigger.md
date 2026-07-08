@@ -3109,3 +3109,35 @@ only in the electromagnetic-self-energy version (leptons shift more). Reconcilin
 "flavor comes from being bound/neighbored" with "leptons shift MORE, not less" is
 the needle #14/#15 must thread. Operator names the SOURCE of the flavor weight
 (bound vs free); the SIGN is the open check. Genuine step toward deriving P-011.
+
+## 88. Exploring both knot-resolutions (operator) — §85 knot was a FALSE DICHOTOMY; Ideas A & B MERGE
+
+**Operator: explore both resolutions (epoch §86, two-piece §85).** Result: the
+§85 knot loosens (correction), and the two ideas turn out COMPLEMENTARY.
+
+**CORRECTION to §85:** §85 said "can't have both universal (for c) and flavored
+(for D/H) from one coupling." FALSE DICHOTOMY — they don't add, they MULTIPLY.
+
+**IDEA B (two-piece / MULTIPLICATIVE) hits all three targets:**
+amplitude = [c · f_amp · Ψ₀/M_red] × w_species (universal SIZE × EM WEIGHT).
+- electron: size × w_e(1.0) = 1.3% ✓
+- quark: size × w_q(0.06) = 0.08% → deuterium heals ✓
+- c = 1 universal ✓
+Universal strength c (fixes size) × EM-weighted response w (flavor). Both, by
+multiplication.
+
+**IDEA A (epoch/confinement) = the ORIGIN of w (not a competitor):** B is the
+structure but doesn't say where w comes from. A does: w EMERGES at QCD
+confinement. Pre-confinement (neighbor rule violated) quarks≡leptons, w=1 for
+all — THAT era pins c. Post-confinement hadrons form, gain binding, become ≠
+leptons — w splits. A = the birth of w; B = the body it leaves. c fixed in the
+universal era, w born at confinement, multiplying forever after.
+
+**THE ONE SHARED CRUX (task #14):** everything now rides on w being BOTH:
+(i) census-LEGAL — matter's OWN EM structure responding to a gravitational
+    trigger, NOT the medium modulating α (varying-α, forbidden/quasar-killed);
+(ii) correctly SIGNED — leptons MORE, hadrons LESS (EM self-energy gives this; a
+    naive binding-grab gives the opposite and re-breaks deuterium).
+Both ideas alive, MERGED into one structure (universal c × confinement-born
+weight w), entire uncertainty concentrated into that sign-and-legality check.
+Booked; §85 knot corrected to a false dichotomy.
