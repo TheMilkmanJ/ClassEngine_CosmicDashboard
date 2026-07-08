@@ -255,3 +255,28 @@ Traced the "convergences on c~1" to their roots; two corrections + one deepening
 - **Upshot:** c does not derive from 5 places; it derives from the census. "c=1" IS "the coupling
   is exactly gravitational." The amplitude program is therefore "census predicts c~1; does the
   independent mass agree?" -- YES (Lyman-a), with the UFD bound as the one dissenting dataset.
+
+## SESSION UPDATE — the LATE regime change reframes DESI (JP insight, 2026-07-08)
+
+The dCDF w runs 1/3->0->-1 = TWO regime changes: early (radiation->DM condensation,
+z~1e5) and LATE (DM->DE floor, w:0->-1, z~0.7 -> now). **We live inside the late one**
+(the onset of accelerated expansion IS the medium's 2nd phase transition). DESI's w
+measurement is therefore the DIRECT THERMOMETER of this regime change.
+
+**FORK (JP's insight vs the model's theorem):**
+- **(A) current bet:** the late transition FROZE at w=-1 -- mutual-exclusion theorem
+  (ANN-2026-008) caps drift at <=2e-8, unobservable. DESI thawing (w0~-0.84, 2.9sigma)
+  = THREAT / systematic.
+- **(B) JP:** the regime change is still VISIBLY in progress (w evolving toward -1). Then
+  DESI's thawing is NOT a threat -- it's the late regime change SEEN LIVE, a CONFIRMATION.
+- JP's intuition and DESI's data point the SAME way (witnessable evolving w), i.e. AGAINST
+  the model's own theorem.
+
+**COST (honest):** (B) doesn't bend the theorem, it ABANDONS it -- the drift cap (2e-8) vs
+DESI (~0.1) is 7 orders apart. So it's a major revision, not a tweak. (A) keeps theorem +
+calls DESI systematic; (B) drops theorem + reads DESI as the live 2nd regime change.
+
+**Upshot:** DESI flips from pure-threat to threat-OR-live-confirmation, forked on ONE
+theorem. Highest-leverage DESI question is now: is the mutual-exclusion theorem's "w=-1
+frozen" truly FORCED, or assumed? If relaxable, the acceleration we observe = the medium's
+2nd phase transition witnessed.
