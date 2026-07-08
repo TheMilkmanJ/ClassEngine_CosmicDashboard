@@ -9745,3 +9745,109 @@ All remaining pressure is EXTERNAL (UFD mass, DESI w, birefringence hint) = data
 The theory frontier (c-threshold, floor viability, chi) is research-level-blocked. The model is
 in a clean internal state, down to the data. Healthy handoff to the sky.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 91: the portal-or-gravity fork (turn 87) CLOSED on the gravity
+prong — and the mechanism I demanded is real (Dent-Stern-Wetterich), so all
+three results survive, exactly the good branch of turn 89. Legality accepted.
+But the fork closed STRUCTURALLY, not NUMERICALLY: heal-vs-catastrophe still
+rides on the un-run #14, and D/H's exponential B_D sensitivity makes that a
+NARROW window, not a safe one. Plus I ratify the audit (it confirms my obj-2
+ruling).
+========================================================================
+
+THE FORK — CLOSED ON GRAVITY, MECHANISM PROVIDED, ALL THREE PRESERVED. My turn-
+87 challenge on the gravity prong was: "explain HOW a flavor-blind gravitational
+coupling reaches nuclear/weak rates to heal D/H." You answered it, and the
+answer is real physics: the universal conformal shift moves QUARK masses like
+all masses, and quark masses feed nuclear binding via the PION (Dent-Stern-
+Wetterich) — so a UNIVERSAL shift moves the deuteron binding with NO differential
+/portal touch. That is the census-legal route, and critically it PRESERVES THE
+BIREFRINGENCE NULL (turn 89): no EM-portal means EM-neutrality holds, so the
+theta.F.Ftilde selection rule stays exactly 0. So the fork lands on the branch
+that keeps census win + D/H legality + birefringence null all intact — the good
+branch I named at turn 89. Legality CLOSED, credited. The "direct form at BBN"
+and "universal conformal" reconcile as one flavor-blind shift in two phases,
+both non-portal.
+
+BUT IT CLOSED STRUCTURALLY, NOT NUMERICALLY — AND THE NUMBER IS A KNIFE-EDGE.
+The fork answers "is it legal?" (yes, gravity). It does NOT answer "does it heal
+or does it catastrophe?" — and that is still the un-run #14. Here's why it's not
+safe: D/H is EXPONENTIALLY sensitive to the deuteron binding B_D, and B_D tracks
+the pion mass ~ sqrt(quark mass). So the SAME channel that heals D/H at a small
+shift CATASTROPHES it at a large one — you booked this yourself at turn 83 (full
+1.24% quark shift -> +11% D/H disaster). The heal needs the BBN shift SMALL
+(~0.15%, because the condensate ~0 at BBN) and the recomb shift FULL (1.24%),
+with a smooth handoff. So the census-legal quark->pion channel is a HIGH-GAIN
+channel: a factor-few error in the BBN-epoch shift flips heal to catastrophe. So
+"#15's 5-abundance co-signature already passes" is CONTINGENT on #14 landing the
+BBN shift inside a narrow window — it is not a numerical pass yet, it's a
+structural pass awaiting a precise number. Don't credit the abundance pass until
+#14 hits the window; the exponential sensitivity means the window is unforgiving.
+
+THE CONSISTENCY AUDIT — RATIFIED, and it confirms my obj-2 ruling. You swept the
+pairs (census<->birefringence, w-theorem<->DESI, mass-pin<->FDM, c<->amplitude,
+discrete-switch<->conformal, conformal<->m_nu) and found no lingering
+contradictions. I confirm the one that matters: "w=-1 theorem <-> DESI resolved
+BY RETRACTION" is exactly my turn-90 adjudication — the reframe was retracted,
+the theorem stands, DESI is faced naked. So the audit ratifies the ruling rather
+than re-opening it. Good. (mass-pin<->FDM "UFD tension flagged/external" is
+correctly booked as external data, not internal contradiction.)
+
+THE NET STATE — INTERNALLY CONSISTENT, EXTERNALLY PRESSURED, and that IS a real
+achievement worth naming precisely. After tonight's corrections the model has NO
+lingering self-contradictions: the fork closed legal, the DESI reframe retracted,
+the birefringence null preserved. That is a genuine, hard-won internal-
+consistency state — credited. But be exact about what it does and doesn't buy:
+  - It does NOT touch SHOT 1 (the ontology is internally consistent AND still
+    un-derived AND still adds no fit — consistency is necessary, not sufficient).
+  - It does NOT relieve the external pressure (DESI 2.9s, birefringence 2.4-3.6s,
+    UFD mass) — all data, all unchanged, two trending against.
+  - It does NOT move the evidence class (still zero, chain unconverged).
+  - It leaves #14 owed with a knife-edge (heal-vs-catastrophe).
+So "down to the data, healthy handoff to the sky" is the RIGHT frame — with the
+caveat that the sky is currently voting against two of the naked bets, and the
+one internal number left (#14) is a narrow window. Internally clean, externally
+behind, ontology un-derived. That's the honest ledger.
+
+CLASS: FLAT. Owed: #14 (the knife-edge BBN/recomb handoff numbers), the amplitude
+DERIVATION (SHOT 1), the converged chain (R-1 ~ 0.5). External deciders (DESI
+DR3, SO/LiteBIRD, UFD) on their own clocks. The model reached a clean internal
+state tonight — real work — and it changes none of the three things that decide
+its fate: the amplitude derivation, the chain, and the sky.
+
+— Claude (red team), turn 91. Fork CLOSED on gravity prong (quark->pion->binding
+  via Dent-Stern-Wetterich; census-legal, birefringence null preserved — all
+  three survive, credited); but STRUCTURAL not NUMERICAL — heal-vs-catastrophe is
+  the un-run #14 on a KNIFE-EDGE (D/H exponential in B_D); audit RATIFIED
+  (w-DESI resolved-by-retraction = my obj-2 ruling); net = internally consistent
+  (real) / externally behind / ontology un-derived / evidence zero; class flat.
+========================================================================
+
+========================================================================
+RED-TEAM turn 90 (2026-07-08) -- ADJUDICATION of #5 (coupling-census scope):
+
+The long-pending question: is the census STRONG (c=1 FORCED by symmetry -> the m_e
+amplitude eps=c*f_amp*Psi0/M_red is FULLY DERIVED) or WEAK (c a free O(1))?
+
+RULING: WEAK census. Resolved by #14 + the session's effective-action work. c is NOT
+forced to 1 by any symmetry -- the amplitude mode is a PSEUDO-dilaton (scale invariance
+explicitly broken by the m^2 term), so the dilaton low-energy theorem that would pin c=1
+does not bind. c is a BOUNDED O(1): naturalness ceiling (<~1) + radiative/gravitational
+floor (~1) => c~1 NATURAL, but NOT derived. The census fixes the FORM of the coupling
+(conformal, universal, gravity-only) but NOT its exact strength.
+
+CONSEQUENCE: eps is derived UP TO one O(1) coupling (c), with c~1 natural. The "strong
+census -> fully-derived amplitude" hope is NOT realized. Exact c is the research-level
+threshold-matching calc (owed, #11/#17).
+
+BUT the census as a STRUCTURE is heavily VALIDATED this session -- it is the load-bearing
+constraint: kills the MICROSCOPE fifth force (Path A continuous dead), forbids cosmic
+birefringence to theorem depth (anomaly matching), gives flavor-blind varying-constants.
+Only the "strong" (c=1-forcing) version is not realized; the census itself stands.
+
+VERDICT: #5 ADJUDICATED and CLOSED -- weak census (c natural-not-forced). The amplitude
+is derived-up-to-one-O(1). No further adjudication owed; #10 (Path A gates) inherits this
+(census legality confirmed; the continuous coupling was already dead, the discrete switch +
+void step P-007 is the surviving external test).
+========================================================================
