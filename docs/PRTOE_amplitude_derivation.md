@@ -336,3 +336,22 @@ model is UNPINNED. #8 is blocked deeper than "infrastructure/code" -- the granul
 serve as an independent f_amp cross-check until the correct two-component speckle statistics are
 derived. Honest negative (same discipline as the self-tuning toy). f_amp~0.6 currently rests on
 the Z4-dice orbit calc ALONE; the granule cross-check is not yet real.
+
+## SESSION UPDATE — the gravitational parity door: computed, Planck-suppressed (2026-07-08)
+
+The birefringence-of-LIGHT door is welded shut (EM-neutral -> anomaly coeff = 0, and charge
+conservation forbids any residual). The genesis twist's parity preference (theta-dot != 0 from
+the Affleck-Dine spiral) is REAL but lives in the GRAVITATIONAL sector, not the EM one. Its
+charge-free home is a CHIRAL gravitational-wave background via Chern-Simons gravity
+(L ⊃ alpha*theta*R R̃). `scripts/chiral_gw_genesis.py` computes the net GW circular polarization:
+    Pi ~ alpha * theta_dot * H_gen / M_Pl^2   (net chirality)
+RESULT: Planck-suppressed. At the model's natural genesis scale (Psi0~5e16 GeV, H_inf<=1e13 GeV),
+Pi ~ 1e-7 to 1e-8 -- about 5-6 orders below any conceivable detection (CMB TB/EB reach ~1e-2),
+even though the GW background itself can be detectable (r~1e-3). Boosting alpha by 1e3 -> Pi~1e-5,
+still unobservable. Observable Pi (>=1e-2) needs near-Planckian genesis H_gen>=2.4e17 GeV, which
+(a) is ~4000x above the inflationary tensor ceiling and (b) gives an absurd r. VERDICT: the door
+is REAL and charge-free (NOT forbidden, unlike the light channel) -- but the fingerprint is
+unobservably faint, killed by the M_Pl^2 in the CS coupling. Robust to the O(1) estimate (no
+factor rescues 5-6 orders). The universe's birth-spin twists spacetime, just imperceptibly.
+This is the honest counterpart to the birefringence null: light door WELDED (charge), gravity
+door OPEN but the room is nearly empty (Planck suppression). [[birefringence-null-proven]]
