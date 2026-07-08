@@ -42,6 +42,15 @@ unitarity (`v5_dCDF:1178`). Operator's plain-language forms shown in quotes.
   reads only w** (the equivalence principle); clearinghouses are gauge fields, and
   gravity is the energy sector's clearinghouse. `[CORPUS: v5_dCDF:1179]` **This is
   "the census."**
+  - **Interface vs substance (JP, 2026-07-08).** L1 is a statement about the
+    medium's **interface** with matter (purely gravitational) — NOT its
+    **substance** (a scalar condensate: mass ~2e-20 eV, abundance Ψ₀, charge,
+    clustering into halos). We know the medium *only through* its gravity; it *is
+    not* gravity. c~1 (the origins audit) is the **measurement that the interface is
+    nothing but gravity**; the substance behind it is what predicts m, Ψ₀, f_amp.
+    Guardrail: the "medium is made of gravity" monism is a category error — gravity
+    has no mass/abundance/clustering, so identifying the two would dissolve every
+    dark-matter property the model needs.
   - **L1a — Parity corollary (NOT a new law; a consequence of L1).** "Clears
     through gravity only" *means* "carries no charge at any other clearinghouse" —
     i.e. the medium is **EM-neutral** (and color-neutral, etc.). Gravity couples to
