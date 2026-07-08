@@ -280,3 +280,25 @@ calls DESI systematic; (B) drops theorem + reads DESI as the live 2nd regime cha
 theorem. Highest-leverage DESI question is now: is the mutual-exclusion theorem's "w=-1
 frozen" truly FORCED, or assumed? If relaxable, the acceleration we observe = the medium's
 2nd phase transition witnessed.
+
+## SESSION UPDATE — regime changes are GRADUAL; late one templates the early (JP, 2026-07-08)
+
+Three claims, calibrated:
+- **Always gradual:** consistent with JP's §100 process-not-switch; defensible for the
+  medium's superfluid CROSSOVERS (condensation, potential-domination). ("Always" isn't a
+  law of ALL physics -- first-order transitions are sharp -- but holds for THIS model.)
+- **Intervals lengthen approaching stability: CORRECT.** Clock: BB->condensation ~1e3 yr;
+  condensation->DE onset ~7.7 Gyr; DE onset->full de Sitter = asymptotically infinite. The
+  medium relaxes to a stable ATTRACTOR (de Sitter, w=-1); approach to a fixed point slows
+  (the physics behind "critical slowing down"). Final regime change is slowest.
+- **Late templates early (THE BET):** the late transition is OBSERVABLE (DESI w(z)), the
+  early ones aren't. IF regime changes share a UNIVERSAL form (universality-class precedent),
+  measuring the late shape gives the early (condensation) shape -> feeds #11, deuterium,
+  birefringence-width at once. CATCH: early/late driven by different physics (mu=m vs
+  potential>kinetic), so universality is a HYPOTHESIS, not a theorem.
+
+**LOAD-BEARING:** the whole structure rests on DESI thawing being REAL (the (B) branch that
+costs the mutual-exclusion theorem; 2.9sigma hint, not a detection).
+**CONCRETE TEST:** the SHAPE of w(z). Prediction: a smooth MONOTONIC gradual crossover to -1
+(not a step, wiggle, or bump-return). DESI/Euclid measure the shape -> supports or breaks the
+"always gradual + approaching-attractor" picture. First falsifiable DE-shape prediction.
