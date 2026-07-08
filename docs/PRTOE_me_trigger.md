@@ -3264,3 +3264,27 @@ separate carrier, no portal. §90/§91 charged for a door never needed.
 **NET:** operator dissolved the portal (real §90 error corrected); unification
 BACK (one conformal coupling, no door); cost = P-011 retracted; fulcrum = the
 BBN→recombination field evolution. Booked.
+
+## 93. Grow or shrink? — the field GROWS (condenses between BBN & recombination); heal direction (§92 fulcrum answered)
+
+**Operator: can we answer whether the dark field grows or shrinks BBN→recomb?**
+Yes. Depends on which field value couples to m_e:
+- **Misalignment amplitude (Reading A):** frozen then redshifts (~a^-3/2) →
+  |Ψ|_rec/|Ψ|_BBN ~ 1.6e-6, SHRINKS ~6 orders → larger at BBN → full 1.24% quark
+  shift → D/H CATASTROPHE.
+- **Condensate ORDER PARAMETER |Ψ| (Reading B, natural for a superfluid):** |Ψ|=0
+  pre-condensation, grows to Ψ₀ at z_x, full by recombination. **z_x ≈ 1e5 sits
+  BETWEEN BBN (1e9) and recomb (1e3)** → at BBN the field is barely condensed
+  (small shift → heals), at recomb fully condensed (1.24% → m_e). GROWS → HEALS.
+
+**Verdict: GROWS.** For a superfluid the coupling is to the order parameter
+(Reading B); the catastrophe (Reading A) is a misalignment red herring (wrong
+field). NOT a tuning: z_x was fixed by the DM abundance + hierarchy for separate
+reasons — that it lands between BBN and recomb (field small at 3 min, full at
+recomb) is a CONSEQUENCE of pre-existing structure. The deuterium heal falls out
+of the SAME condensation that makes the dark matter. §92 fulcrum answered in the
+heal direction; unification holds.
+
+**CAVEAT:** direction answered (grows/heals); the exact ~12%-condensed-at-BBN
+ratio (→ 0.15% shift) needs the condensation dynamics = the genesis calc, still
+under-determined. So: qualitative HEAL confirmed; quantitative ratio owes #11.
