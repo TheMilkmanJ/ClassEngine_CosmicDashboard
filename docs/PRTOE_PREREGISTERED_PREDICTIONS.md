@@ -1298,3 +1298,38 @@ provisionally, until it passes ALL SIX:
 Only a path passing ALL SIX is even a candidate. The stronger the null, the higher the bar to overturn it
 -- and this null is as strong as they come. Pre-committed NOW so a future excited self cannot skip it.
 [[birefringence-null-proven]]
+
+## P-2026-016: Rotating dark-matter halos carry a quantized-vortex lattice (pre-registered 2026-07-08)
+
+**The claim (STRUCTURAL CERTAINTY of the superfluid identity):** any rotating dark-matter halo made
+of the PRTOE medium MUST contain a lattice of QUANTIZED VORTICES. This is not a model choice -- a
+superfluid physically cannot carry angular momentum by rigid rotation (curl v = 0); the only way it
+rotates is to nucleate quantized vortices (Onsager-Feynman, observed in He-II and lab BECs). Each
+vortex is a thin tube where the field amplitude -> 0 and the phase winds by 2*pi; the core is a
+density DEPLETION. Lattice spacing and core thickness are set by the HEALING LENGTH (~ de Broglie
+wavelength ~ kpc for m~2e-20 eV -- the SAME length that sets halo cores; see P-2026-016 note).
+
+**Falsification:** a halo shown to rotate as a RIGID/normal fluid (no vortex substructure) at the
+relevant scales, OR the medium shown NOT to be a superfluid (no condensate/phonon), removes the
+vortices. Observability of the substructure itself (lensing perturbations, halo dynamics, tidal
+signatures) is a further, harder question -- but the vortices' EXISTENCE is mandatory given the
+identity.
+
+**Status:** structural prediction, not yet observationally tested. Ties the granule/vortex-tangle
+discussion and the fuzzy-DM core scale to one length (the healing length). [[dyad-era-state]]
+
+## P-2026-017: PRTOE dark matter is direct-detection null (discriminator vs WIMP/particle DM)
+
+**The claim (from the census + the wave-like medium):** PRTOE dark matter produces NO nuclear-recoil
+signal in direct-detection experiments (XENON, LZ, PandaX, ...). Two independent reasons: (1) the
+gravity-only census (L1) forbids any non-gravitational coupling to nuclei -- the conformal m_e shift
+is a slow background rescaling, NOT a recoil interaction; (2) the medium is wave-like/ultralight
+(m~2e-20 eV), so there is no particle-scale momentum to transfer in a scatter. No recoil channel exists.
+
+**Discriminator content:** WIMP/particle dark matter predicts direct detection eventually lights up
+as sensitivity improves; PRTOE predicts it stays dark FOREVER. So every decade of null direct-
+detection results is quietly consistent with PRTOE and increasingly awkward for WIMPs.
+
+**Falsification (both ways):** KILLED by a confirmed dark-matter nuclear-recoil detection (a genuine
+particle-DM signal). SUPPORTED by continued direct-detection nulls at improving sensitivity.
+**Status:** CONSISTENT (all direct-detection null to date). A clean, standing PRTOE-vs-WIMP referee.
