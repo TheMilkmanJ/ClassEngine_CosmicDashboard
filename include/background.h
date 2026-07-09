@@ -131,8 +131,10 @@ struct background
   double Omega_ini_dcdf;  /**< dust-era abundance at a_ini (shooting unknown) */
   double Omega0_dcdf;     /**< target dCDF density fraction today (shooting target) */
   double dcdf_rho_inf;    /**< rho_infinity, de Sitter floor density, in H0^2 units */
-  double dcdf_c_gamma;
-  double dcdf_c_EM;
+  double dcdf_z_rad_onset; /**< PRTOE #17 conformal-origin phase: redshift above which
+                                the dCDF acquires a w=1/3 (radiation-like) component,
+                                so total w runs 1/3 -> 0 -> -1. <=0 disables it (default),
+                                recovering the pure dust->deSitter fluid exactly. */
   int dcdf_deltam_mode; /**< what galaxies trace in delta_m/sigma8: 0 = fluid's full
                              density (floor in denominator), 1 = clustering part only
                              (delta rho over (1+w) rho, floor smooth by definition),
@@ -689,48 +691,35 @@ static inline double cs2_dcdf(struct background *pba, double rho) {
   return 0.0;
 }
 
-/* ===== Sandbox: fold radiation + ionization directly into the dCDF w(rho) =====
- * Ionization-fraction proxy (Saha equilibrium, hydrogen-only), ported from the
- * v6 scalar-field friction term so the same "environmental coupling" ansatz can
- * be tried directly on the fluid's own equation of state rather than as a
- * separate additive N_ur term. Self-contained analytic function: at
- * background-integration time the real thermodynamics table does not exist yet. */
-static inline double dcdf_xe_saha(struct background *pba, double a) {
-  double YHe = 0.245;
-  double m_H = 1.673575e-27; /* kg */
-  double m_e = 9.10938215e-31; /* kg */
-  double SIunit_H0 = pba->H0 * _c_ / _Mpc_over_m_; /* pba->H0 is H0/c in Mpc^-1 */
-  double SIunit_nH0 = 3.*SIunit_H0*SIunit_H0*pba->Omega0_b/(8.*_PI_*_G_*m_H)*(1.-YHe);
-  double const_NR_numberdens = 2.*_PI_*(m_e/_h_P_)*(_k_B_/_h_P_);
-  double const_Tion_H = 13.6 * _eV_ / _k_B_;
-  double T_gamma = pba->T_cmb / a;
-  double nH = SIunit_nH0 / (a*a*a);
+/* [REMOVED 2026-07-09] The v6 "environmental coupling" sandbox (dcdf_w_env +
+ * dcdf_xe_saha, knobs c_gamma / c_EM) is deleted as census-illegal, not merely
+ * disabled. c_EM coupled the medium to free-electron / ionization density -- the
+ * EM (matter-matter) sector the medium provably has no account in (L1a, the
+ * birefringence null). c_gamma coupled it to the photon density specifically,
+ * violating L1 identity-blindness (gravity reads total w/energy, it cannot single
+ * out photons). Both were off in every config and drove nothing. A legal
+ * environmental coupling, if ever wanted, must read total energy / H, not a
+ * species. See docs/laws_and_rules/README.md. */
 
-  if (const_Tion_H / T_gamma > 200.0) return 0.0;
-  if (const_Tion_H / T_gamma < 1.0) return 1.0;
-
-  double rhs = exp(1.5*log(const_NR_numberdens*T_gamma) - const_Tion_H/T_gamma) / nH;
-  double x_e = 2.0 / (1.0 + sqrt(1.0 + 4.0/rhs));
-  return MIN(x_e, 1.0);
-}
-
-/* Environmental correction added on top of the base barotropic w(rho): pushes
- * w up (less negative / more matter-like) in proportion to how much radiation
- * energy density and free-electron density are around, both expressed as
- * fractions of critical density today so c_gamma/c_EM are O(1) dimensionless
- * knobs. Vanishes at c_gamma=c_EM=0, recovering the original v4 fluid exactly. */
-static inline double dcdf_w_env(struct background *pba, double a, double rho_g) {
-  /* Saturating (not power-law) coupling: rho_g/rho_b ~ a^-4/a^-3 diverge as
-   * a->0, so a raw ratio to H0^2 blows up the ODE at early times. Saturate
-   * each term to its own c_gamma/c_EM ceiling instead, so the correction is
-   * bounded in [0, c_gamma+c_EM] at all times, vanishing smoothly once
-   * radiation/ionization redshift away. */
+/* PRTOE #17 conformal-origin radiation. A SEPARATE, background-only dark-radiation
+ * energy density active above z_rad_onset, so the total dCDF-associated energy
+ * redshifts ~a^-4 (radiation) -> a^-3 (dust) -> const (de Sitter): the equation
+ * of state runs 1/3 -> 0 -> -1. By design it drives ONLY the expansion -- it is
+ * added to rho_tot / p_tot / rho_r (like any relativistic species) and is
+ * DELIBERATELY NOT folded into w_dcdf, rho_m, or the dcdf perturbation sector:
+ * radiation has pressure support and must not bleed into clustering/structure.
+ * The amplitude is DERIVED from the fluid's own abundance (Omega_ini_dcdf) and is
+ * continuous with the dust density at the onset -- no free amplitude knob, only
+ * z_rad_onset. f(a) = x^2/(1+x^2), x = a_onset/a: ->1 early, ->0 late.
+ * dcdf_z_rad_onset <= 0 disables it, recovering the pure dust->deSitter fluid. */
+static inline double dcdf_rho_rad(struct background *pba, double a) {
+  if (pba->dcdf_z_rad_onset <= 0.0) return 0.0;
+  double a_on = 1.0 / (1.0 + pba->dcdf_z_rad_onset);
+  double x = a_on / MAX(a, 1e-300);
+  double f = (x*x) / (1.0 + x*x);
   double H0sq = pba->H0 * pba->H0;
-  double rho_b = pba->Omega0_b * H0sq / (a*a*a);
-  double x_e = dcdf_xe_saha(pba, a);
-  double gamma_term = pba->dcdf_c_gamma * rho_g / (rho_g + H0sq);
-  double em_term = pba->dcdf_c_EM * (rho_b*x_e) / (rho_b*x_e + H0sq);
-  return gamma_term + em_term;
+  double a2 = a*a;
+  return pba->Omega_ini_dcdf * H0sq * a_on / (a2*a2) * f;
 }
 
 #endif

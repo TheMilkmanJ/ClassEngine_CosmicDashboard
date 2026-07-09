@@ -94,3 +94,44 @@ ENFORCE the link (derive m_e from dcdf params per #11, fix the transition from s
 re-fit with m_e no longer free) -- the constrained dyad may fit worse. Any paper MUST state that the
 fit uses an effective parametrization with independent m_e; the linked superfluid is the theoretical
 claim, not directly tested. This reframes the odds: the fit's competitiveness is partly unenforced freedom.
+
+## EVIDENCE VERDICT — LANDED 2026-07-09 (#19 resolved; the pre-committed gate met, marginally)
+
+The constrained-dyad vs LCDM full-data comparison (matched optimizers, same 10
+likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
+  - LCDM:  chi2 = 2809.179 | Laplace lnZ = -1474.566 | H0 = 68.18
+  - dyad:  chi2 = 2799.654 | Laplace lnZ = -1471.931 | H0 = 69.82  (m_e FIXED at 1.01232)
+  - Delta chi2 = -9.52 (dyad better) ; **Delta lnZ = +2.635 (Laplace, dyad favored)** ; Delta BIC ~ -9.5.
+
+**VERDICT: the +2.5 win threshold is CROSSED (+2.635) — the first time — but heavily qualified:**
+  1. LAPLACE, not PolyChord: margin over the line (+0.135) < the Laplace estimator's own
+     systematic uncertainty => a MARGINAL crossing on the APPROXIMATE number. PolyChord is
+     the only thing that makes it robust. (Pipeline itself says "use --polychord to cross-validate.")
+  2. SHOES-CONDITIONAL: the -9.52 edge is dominated by SN+SHOES (~-13.7, the H0 easing
+     68.18->69.82) + ACT (~-3.8, high-l m_e). So the win RIDES ON the H0 tension being physical
+     (Stage 0). SHOES-as-systematic sinks it. The win and the single window are the same brick.
+  3. Gate A SIDESTEPPED (stronger than passed): m_e was FIXED, not floated -> no prior to game;
+     the win comes from a better fit with m_e pinned at the prediction.
+  4. Gate B CAPS it SUGGESTIVE (f_amp partial-mover, Psi0 OOM-fixed); SHOT 1 SURVIVES (amplitude
+     ontology un-derived). w=1/3 phase confirmed NEUTRAL (onset never moved) -> kept, free.
+
+**LABEL: suggestive / SHOES-conditional / Laplace-marginal WIN.** Best realistic outcome on the
+table, landed exactly at the line. NOT decisive, NOT robust, NOT prediction-confirmed.
+
+**ODDS UPDATE: ~10% -> ~13-16%** (real first positive, discounted hard for marginality + Laplace +
+SHOES-conditionality + PolyChord-pending). The ONE lever that moves it hard: PolyChord confirming
+the +2.6 on the paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready). The two things that
+still sink it: SHOES-as-systematic (Stage 0), or PolyChord pulling +2.6 back under +2.5. Full
+red-team grading in ForClaude.txt (defender "THE NUMBER" turn).
+
+### SHARPENED by red-team turn 102 (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
+Two corrections to the verdict above, both taken: (1) BRAKE 2 is worse than "conditional" — it is
+SHOES-DEPENDENT: net Delta chi2 -9.52 minus SHOES ~-13.7 = +4.2, i.e. WITHOUT SHOES the dyad is
+~4 WORSE than LCDM (the edge INVERTS to a loss). The m_e signature alone (ACT -3.8) does NOT beat
+the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SHOES H0 tension — NOT on
+CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family does it, turn 85),
+so the win adds ZERO evidence for the ontology (superfluid/census/dyad). (2) Standing revised
+DOWN: ~10% -> ~12% (not 13-16%), because the win is robust only if BOTH PolyChord confirms +2.6
+AND SHOES is physical (two live-uncertain gates). Final label: "suggestive / SHOES-DEPENDENT /
+Laplace-marginal / non-original-class win, no ontology evidence." Deciders from here: PolyChord
+(marginal->robust or sinks it) and SHOES-vs-TRGB (physical->holds, systematic->INVERTS to a loss).

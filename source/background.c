@@ -602,7 +602,7 @@ int background_functions(
    * density (not of a directly), read from the integrated variable. */
   if (pba->has_dcdf == _TRUE_) {
     double rho_dcdf = pvecback_B[pba->index_bi_rho_dcdf];
-    double w_dcdf_val = w_dcdf(pba, rho_dcdf) + dcdf_w_env(pba, a, pvecback[pba->index_bg_rho_g]);
+    double w_dcdf_val = w_dcdf(pba, rho_dcdf);
     double cs2_dcdf_val = cs2_dcdf(pba, rho_dcdf);
 
     pvecback[pba->index_bg_rho_dcdf] = rho_dcdf;
@@ -617,6 +617,17 @@ int background_functions(
        rho_m: full weight at w=0, zero at the w=-1 de Sitter floor. Feeds
        Omega_m(z) (halofit), Omega0_m, and the growth ODE consistently. */
     rho_m += (1.+w_dcdf_val) * rho_dcdf;
+
+    /* PRTOE #17 conformal-origin radiation: a background-only dark-radiation term
+       that drives ONLY the expansion (total dCDF energy runs a^-4 -> a^-3 above
+       z_rad_onset). Added exactly like a relativistic species -- rho_tot, p_tot,
+       dp_dloga, rho_r -- and DELIBERATELY NOT to rho_m or the dcdf perturbation
+       sector: it must not bleed into clustering. Zero unless dcdf_z_rad_onset>0. */
+    double rho_dcdf_rad = dcdf_rho_rad(pba, a);
+    rho_tot  += rho_dcdf_rad;
+    p_tot    += (1./3.) * rho_dcdf_rad;
+    dp_dloga += -(4./3.) * rho_dcdf_rad;
+    rho_r    += rho_dcdf_rad;
   }
 
   /* relativistic neutrinos (and all relativistic relics) */

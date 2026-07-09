@@ -2361,6 +2361,26 @@ int input_read_parameters_general(struct file_content * pfc,
     break;
   }
 
+  /* --- PRTOE dyad link (R1): m_e is a CONSEQUENCE of the dark sector, not a free
+   * knob. When dcdf_dyad_link=yes, m_e is DERIVED from the #11 amplitude relation
+   * eps = c * f_amp * (Psi0 / M_red), so varying_me = 1 + eps is computed rather
+   * than read. This structurally enforces the dyad (the audit found m_e and the
+   * dcdf fluid were independent in the code). Defaults reproduce the derived
+   * +1.232% shift; off by default so existing configs are unaffected. */
+  class_call(parser_read_string(pfc,"dcdf_dyad_link",&string1,&flag1,errmsg),errmsg,errmsg);
+  if (flag1 == _TRUE_ && (strstr(string1,"y") != NULL || strstr(string1,"Y") != NULL)) {
+    double dyad_c = 1.0, dyad_f_amp = 0.6, dyad_Psi0 = 5.e16, dyad_Mred = 2.435e18, dyad_eps;
+    class_read_double("dyad_c", dyad_c);
+    class_read_double("dyad_f_amp", dyad_f_amp);
+    class_read_double("dyad_Psi0_GeV", dyad_Psi0);
+    dyad_eps = dyad_c * dyad_f_amp * dyad_Psi0 / dyad_Mred;
+    pba->varconst_dep = varconst_instant;
+    pba->varconst_me = 1.0 + dyad_eps;
+    if (pba->background_verbose > 0)
+      printf(" -> PRTOE dyad link ON: m_e DERIVED from amplitude (c=%g, f_amp=%g, Psi0=%g GeV) -> varying_me = %.6f\n",
+             dyad_c, dyad_f_amp, dyad_Psi0, pba->varconst_me);
+  }
+
   if (pba->varconst_dep!=varconst_none){
     /* 10.b) Sensitivity of bbn to a variation of the fine structure constant */
     class_read_double("bbn_alpha_sensitivity",pth->bbn_alpha_sensitivity);
@@ -3404,10 +3424,12 @@ int input_read_parameters_species(struct file_content * pfc,
      * a_ini (since H0^2 ~ 5e-8 is tiny), freezing the fluid at an
      * enormous, wrong floor that swamps the entire universe. */
     pba->dcdf_rho_inf = pba->dcdf_rho_inf * pba->H0 * pba->H0;
-    /* Sandbox: fold radiation + ionization directly into w_dcdf(rho). Default
-     * 0 (no coupling, exact v4 fluid recovered) unless explicitly requested. */
-    class_read_double("dcdf_c_gamma", pba->dcdf_c_gamma);
-    class_read_double("dcdf_c_EM", pba->dcdf_c_EM);
+    /* PRTOE #17 conformal-origin phase: redshift above which the fluid carries a
+     * w=1/3 (radiation-like) component (total w runs 1/3 -> 0 -> -1). Default 0
+     * (disabled, exact dust->deSitter fluid recovered) unless explicitly set. */
+    class_read_double("dcdf_z_rad_onset", pba->dcdf_z_rad_onset);
+    class_test(pba->dcdf_z_rad_onset < 0., errmsg,
+               "dcdf_z_rad_onset must be >= 0 (0 disables the w=1/3 conformal-origin phase).");
     /* What galaxies trace in delta_m/sigma8 (model-definition experiment):
      * 0 = full fluid density, 1 = clustering part only, 2 = baryons only. */
     class_read_int("dcdf_deltam_mode", pba->dcdf_deltam_mode);
@@ -6022,8 +6044,7 @@ int input_default_params(struct background *pba,
   pba->Omega0_dcdf = 0.0;
   pba->Omega_ini_dcdf = 0.0;
   pba->dcdf_rho_inf = 0.7;   /* order Omega_Lambda, in H0^2 units */
-  pba->dcdf_c_gamma = 0.0;   /* radiation-coupling sandbox knob, off by default */
-  pba->dcdf_c_EM = 0.0;      /* ionization-coupling sandbox knob, off by default */
+  pba->dcdf_z_rad_onset = 0.0; /* w=1/3 conformal-origin phase off by default (#17 test) */
   pba->dcdf_deltam_mode = 1; /* delta_m counts the fluid's clustering part (1+w)rho by default;
                                 the smooth de Sitter floor is not matter. Mode 0 (full density)
                                 decided against 2026-07-05: BAO DR12 chi2 593 vs 8.2 for mode 1. */

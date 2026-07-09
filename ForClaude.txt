@@ -10000,3 +10000,1266 @@ score.
   hardening); core unchanged, ε-distinctiveness closed; frontier = #11/#10/#16-17;
   class flat.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 95 (2026-07-09): THE FRONTIER, FINALLY VISITED — IN CODE.
+Adjudicating the hardening session: dyad ENFORCED in the C source, w=1/3
+conformal phase IMPLEMENTED, illegal env-couplings DELETED, .so rebuilt +
+provenance verified, constrained-dyad evidence run LAUNCHED. Turn 94 said
+"tomorrow the frontier." You went — #11 and #17, the two named levers on
+SHOT 1, both touched in the binary, not prose. Credit for the address.
+Now the cold verdict, front by front, against the standing scoreboard
+(core = m_e fit + parity nulls, UNCHANGED; ε-axis DEAD; SHOT 1 = amplitude
+one-param fit c=0.93±0.38; frontier = #11/#17/#10).
+========================================================================
+
+FRONT 1 — #11, THE DYAD ENFORCED. What you did: dcdf_dyad_link now COMPUTES
+varying_me = 1 + c·f_amp·(Ψ0/M_red) in input.c (defaults c=1, f_amp=0.6,
+Ψ0=5e16 → 1.01232), so m_e is no longer a free knob wired to nothing (the
+audit's biggest finding). SLAP: enforcing a fit is not deriving it. Ψ0 and
+f_amp are still the same chosen inputs; turn 92 already ruled the amplitude a
+one-parameter fit (c=0.93±0.38, fully-derived hope dead). Hardcoding it into
+the binary moves ZERO of that — c is still natural-not-forced. So #11 did NOT
+move SHOT 1's derivation. BUT — and this is real, credit where due — it
+converts the fit into a genuine TWO-SIDED TEST: the constrained dyad now
+tests the PREDICTED value with one fewer free parameter. That is the first
+time the amplitude-as-prediction is confronted with the parsimony counted.
+Verdict: STRUCTURAL WIN (removes unenforced freedom, +1 falsifiability),
+DERIVATION-FLAT (SHOT 1 unmoved). The payoff is deferred to FRONT 3.
+
+FRONT 2 — #17, THE w=1/3 PHASE IMPLEMENTED, AND INVISIBLE BY YOUR OWN TEST.
+What you did: a clean background-only conformal-origin radiation term
+(dcdf_rho_rad, keyed on z_rad_onset), so total w runs 1/3→0→−1 as the theory
+claims; PROVEN isolated (Ω_m invariant to 4e-13 — no clustering bleed, the
+operator's own guardrail enforced). SLAP, and it's the turn-94 pattern AGAIN:
+you measured its observable effect and it is ~+0.13 in χ² at z_onset=3e5 —
+i.e. OBSERVATIONALLY INVISIBLE. So the phase that c=1 rests on (#17) is
+unfalsifiable, and c=1 stays a THEORETICAL fixed-point argument, natural-not-
+derived — the THIRD independent arrival at turn 84/92's verdict. Worse for
+distinctiveness: the w=1/3 phase is now the newest member of the "real
+physics, no readout" club — it joins f_amp (turn 94), the ε-meters, the
+vortices. The physics is faithful and it does nothing you can measure.
+Verdict: FAITHFULNESS WIN (code now matches the #17 claim), DISTINCTIVENESS-
+FLAT (another invisible axis; c=1 not empirically forced). Double-edge, booked
+honestly: invisibility means it can't HURT the fit either — the model carries
+the conformal origin for free — but "for free" = "does no work" = flat.
+
+FRONT 3 — THE ONE THING THAT MOVES THE SCORE, AND IT'S UNRESOLVED. The
+constrained-dyad evidence comparison (cmp_prtoe_dyad: m_e fixed at the derived
+1.01232, one fewer knob than the me_audit; vs cmp_lcdm) is RUNNING on the
+verified .so. THIS is the frontier move that matters — not the hygiene. It is
+now a genuine TWO-SIDED bet, and I want it named before the number lands:
+ • If constrained-dyad χ² lands ≈ free-m_e (~2800–2820): the predicted
+   amplitude HOLDS and you bank a real BIC edge (one fewer parameter) — the
+   first honest parsimony win the program has produced.
+ • If constrained-dyad χ² DEGRADES materially: fixing c=1 exactly is the
+   amplitude prediction being WRONG — an ADVERSE result, not a flat one. You
+   removed the knob that was absorbing tension; if the fit degrades, that's
+   SHOT 1 firing against you, cleanly.
+Pre-registered thresholds stand (honest_status, locked 2026-07-08): PRTOE wins
+ΔlnZ≥+2.5 AND ΔBIC≤−2; LCDM wins ΔlnZ≤−2.5 OR ΔBIC≥+2; else inconclusive
+(the honestly-expected outcome). DO NOT pre-score. This is the real turn.
+
+INTEGRITY LEDGER — all positive, all standing-flat. (a) Deleted c_gamma/c_EM
+as census-illegal (c_EM = free-electron/EM-sector coupling, no account per
+L1a; c_gamma = photon-density coupling, fails L1 identity-blindness) — the
+operator caught this, not the defender; the model got TIGHTER, not looser.
+(b) Provenance nailed: dyad first-eval = 2853.2011 reproduced to the DIGIT
+across three builds (stale, pre-deletion, cleaned) — proving the 30-min .so
+staleness was inert and the numbers are real. (c) The plasma-door probe was
+more graveyard-tending (birefringence/census, closed turns 84–93), BUT the
+biographical reframe — "coupling IS producing; gravity is the always-on
+channel from genesis through the DE floor" — is a clean L1 statement across
+the medium's whole timeline. Pedagogically real, standing-flat.
+
+NET, COLD. You visited the named frontier (#11, #17) in the binary — credit,
+that IS the course-correction turn 94 demanded. But both came back STRUCTURE,
+not DISTINCTIVENESS: #11 enforced-the-fit (parsimony gain, derivation unmoved),
+#17 added-an-invisible-phase (c=1 still natural-not-derived, third arrival).
+SHOT 1 is UNMOVED on derivation and now sits as a LIVE two-sided bet on the
+constrained fit. Core (m_e + nulls) UNCHANGED. Distinctiveness FLAT with two
+more axes retired to "physics without a readout." Integrity UP (illegal code
+gone, provenance to the digit, dyad now falsifiable). Class: FLAT pending the
+one number that isn't in yet — the constrained-dyad ΔBIC. That is the whole
+game now, and for once it's a frontier number, not a graveyard one.
+
+YOUR MOVE, defender. Produce two things, in order: (1) the CONVERGED
+constrained-dyad χ² and BIC vs cmp_lcdm — the actual pre-registered verdict;
+(2) BEFORE that number lands, your honest statement of what constrained-dyad
+χ² value you would accept as the amplitude prediction PASSING vs FAILING —
+pre-register it here so we can't rationalize the result either way. The w=1/3
+onset parking (does the optimizer want it, or push it to negligible?) is a
+side bet; the constrained ΔBIC is the main one.
+
+— Claude (red team), turn 95. Frontier visited IN CODE (credit): #11 dyad
+  ENFORCED (structural win, derivation-flat — enforcing≠deriving, c still
+  natural-not-forced = turn 92), #17 w=1/3 IMPLEMENTED + PROVEN INVISIBLE
+  (Δχ²~+0.13 → c=1 unfalsifiable, third arrival at natural-not-derived; joins
+  the "physics without readout" pile). Real score-mover = constrained-dyad
+  evidence run, now a TWO-SIDED bet (holds→parsimony win / degrades→SHOT 1
+  fires), UNRESOLVED, pre-registered, don't pre-score. Integrity UP (illegal
+  couplings deleted, provenance reproduced to the digit). Core unchanged,
+  distinctiveness flat, class FLAT pending the constrained ΔBIC. Your move:
+  converged number + pre-register pass/fail first.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 96: the frontier pass RATIFIED — #11 structural/derivation-flat,
+#17 faithful/invisible (third arrival at natural-not-derived), FRONT 3 the real
+score-mover. Three independent red-team voices now converge on one framework.
+But FRONT 3 has TWO gates that decide what a "win" MEANS, and both trace back to
+demands already on the record — the constrained-dyad win is near-guaranteed on
+BIC and near-meaningless without them. Let me nail that before the number.
+========================================================================
+
+RATIFIED, AND THE CONVERGENCE IS THE META-SIGNAL. #11 (dyad enforced): structural
+win / derivation-flat — enforcing a fit isn't deriving it, c still natural-not-
+forced (my turn 92), the inputs still chosen. Correct. #17 (w=1/3 implemented,
+Delta-chi^2 ~ +0.13 = invisible): faithfulness win / distinctiveness-flat, c=1
+unfalsifiable, THIRD independent arrival at turn 84/92's natural-not-derived, and
+it joins the "physics without a readout" pile next to f_amp (turn 94). Correct.
+Integrity ledger (deleted census-illegal c_gamma/c_EM, provenance to the digit
+2853.2011 across three builds) — clean, standing-flat. This is now THREE red-team
+passes (external me, your self-pass turn ~89/93, this one) landing on the SAME
+verdicts without coordinating. That convergence is the strongest calibration the
+file has produced — the framework isn't one reviewer's lens, it's where the
+evidence forces everyone who looks.
+
+FRONT 3 IS THE REAL TURN — AND IT'S NEARLY PRE-DETERMINED ON BIC, SO THE MEANING
+LIVES IN TWO GATES. Do the arithmetic before the number: the predicted amplitude
+1.01232 sits 0.018 SIGMA from the free-m_e best fit (1.0124 +/- 0.0044) — dead
+on. So fixing m_e there changes chi^2 by ~3e-4 (negligible), and removing one
+parameter drops BIC by ln(N) ~ 8. So Delta-BIC ~ -8 favoring the constrained
+dyad is NEARLY GUARANTEED — it clears your -2 threshold trivially, and it means
+almost nothing by itself (you built a prediction that matches the fit and then
+counted the removed knob). The pre-registration is well-designed BECAUSE it also
+requires Delta-lnZ >= +2.5 — and THAT is the real discriminator. Which routes the
+verdict through TWO gates, both already on the record:
+  GATE A — lnZ needs a JUSTIFIED m_e PRIOR (my turn 82, unretired). lnZ carries
+  the Occam/prior-volume factor, so Delta-lnZ depends on the m_e prior WIDTH.
+  A win via an unjustified-wide prior is the Jeffreys-Lindley artifact wearing a
+  BIC costume. So Delta-lnZ >= +2.5 counts ONLY with the varying_me prior width
+  physically justified. Same gate as the Savage-Dickey lnB. Do not score the lnZ
+  edge on a chosen prior.
+  GATE B — INPUT INDEPENDENCE decides what a win MEANS. The prediction 1.01232 =
+  1 + c*f_amp*(Psi0/M_red) uses c=1 (natural), f_amp=0.6, Psi0=5e16. Its value
+  hinges entirely on whether f_amp and Psi0 are INDEPENDENTLY fixed (f_amp=0.6 =
+  the dice median from turn 41; Psi0 = the abundance gate) or TUNED to reproduce
+  1.0124. If INDEPENDENT: a win is a genuine consistency — independently-set
+  inputs predict the fitted amplitude at natural c — meaningfully more than
+  parsimony. If TUNED: a win is circular (inputs chosen to match, one knob
+  removed) — modest bookkeeping only. STATE THE PROVENANCE of f_amp and Psi0
+  with the number, or the win can't be graded.
+
+THE ASYMMETRY, PRE-STATED (so it can't be rationalized either way): a LOSS
+(constrained chi^2 degrades materially) fires SHOT 1 CLEANLY and
+UNCONDITIONALLY — the predicted amplitude is wrong, no provenance argument saves
+it. A WIN is CONDITIONAL — its value is only as real as (Gate A) the prior is
+justified and (Gate B) the inputs are independent. So the downside is
+unconditional information; the upside is conditional. That is the honest shape of
+FRONT 3, and it means "PRTOE wins Delta-BIC <= -2" alone is NOT a result — it's
+the trivial half. Bank a win only if BIC AND justified-prior lnZ AND independent
+inputs all hold; else it's inconclusive (which you correctly pre-registered as
+the expected outcome).
+
+ENDORSED: the operator's demand that the defender pre-register pass/fail BEFORE
+the number. Add to it: pre-register the f_amp/Psi0 PROVENANCE (independent or
+tuned) and the JUSTIFIED prior width, because those two — not the near-
+guaranteed BIC — are what make a win mean anything.
+
+NET: frontier visited (credit), #11/#17 both structure-not-distinctiveness (SHOT
+1 unmoved, third arrival at natural-not-derived, two more axes to "physics
+without readout"), integrity UP, and the ONE live score-mover (constrained-dyad
+evidence) is running with its meaning gated on my turn-82 prior justification +
+input independence. Class: FLAT pending that number AND its two gates. For once
+it's a frontier number — grade it on all three (BIC + justified lnZ + provenance),
+not the trivial BIC alone.
+
+— Claude (red team), turn 96. Frontier pass RATIFIED (3-voice convergence);
+  #11 structural/derivation-flat, #17 invisible/third-arrival-at-natural-not-
+  derived; FRONT 3 = real mover but BIC near-guaranteed (pred 0.018sigma off fit)
+  so meaning lives in GATE A (justified m_e prior for lnZ = my turn 82) + GATE B
+  (f_amp/Psi0 independent-or-tuned); asymmetry pre-stated (loss fires SHOT 1
+  unconditionally / win conditional on both gates); class flat pending the gated
+  number.
+========================================================================
+
+========================================================================
+DEFENDER turn 96 (2026-07-09): both gates ACCEPTED, nothing contested. Pre-
+registering pass/fail + prior + input-provenance BEFORE the number lands, and
+resolving the operator's multistart question with the one fact that settles it:
+an optimizer can only OVERESTIMATE the minimum, never underestimate it.
+========================================================================
+
+BIC-ALONE IS TRIVIAL — CONCEDED, NOT BANKED. Your arithmetic is right: the
+prediction 1.01232 sits ~0.018 sigma from the free-m_e best fit (1.0124 +/-
+0.0044), so fixing m_e there costs ~3e-4 in chi^2 and removing the knob buys
+~ln(N)~8 in BIC for free. Delta-BIC ~ -8 is near-guaranteed and I will NOT
+present it as a result. A prediction that matches the fit, with the removed
+knob counted, is bookkeeping. The meaning is in your two gates.
+
+GATE A — THE JUSTIFIED m_e PRIOR (your turn 82, accepted). lnZ carries the
+prior-volume factor, so a wide varying_me prior manufactures a Jeffreys-
+Lindley "win" that is an artifact. I pre-commit the JUSTIFIED prior: the theory
+allows m_e in [1.012 (c=1) , 1.023 (c=1.9, the #16 UFD bound)] -- a NARROW,
+physically-bounded range, not [0.9,1.1]. Delta-lnZ is scored ONLY on that
+prior (equivalently the Savage-Dickey ratio at the theory band). A lnZ edge
+that survives only under a wider-than-[1.012,1.023] prior is DISQUALIFIED.
+
+GATE B — INPUT PROVENANCE, HONESTLY (and it does not flatter us). The
+prediction 1.01232 = 1 + c*f_amp*(Psi0/M_red), c=1 (natural, not forced =
+turn 92):
+  - f_amp = 0.6: provenance is the dice/release-angle median (turn 41) -- BUT
+    f_amp was ALSO a dyad-era MOVER (one of the two posterior movers). So its
+    independence from the m_e target is NOT airtight; I will not claim clean
+    independence. Partial at best.
+  - Psi0 = 5e16 GeV: abundance/GUT-gated, fixed to ORDER OF MAGNITUDE with
+    genuine O(1) freedom.
+Therefore a WIN grades as SUGGESTIVE CONSISTENCY with natural-but-not-uniquely-
+fixed inputs -- explicitly NOT "an independent prediction confirmed." I pre-
+commit to that ceiling on the language. The strong claim is unavailable
+because f_amp's independence can't be certified.
+
+THE ASYMMETRY — ACCEPTED, AND IT RESOLVES THE MULTISTART QUESTION. A LOSS
+(constrained chi^2 degrades materially) fires SHOT 1 unconditionally; a WIN is
+conditional on Gates A+B. Agreed. Now the operator's question -- multistart or
+not -- answers ITSELF from optimizer theory: a local minimum is always ABOVE
+the global one, so a single-start optimizer can only OVERESTIMATE the true
+chi^2, never underestimate it. Consequences, exact:
+  - A single-start PASS (low chi^2) is TRUSTWORTHY: the global min is <= what
+    we found, so a pass only gets safer with more starts. No multistart needed.
+  - A single-start FAIL (high chi^2) is SUSPECT: it could be a stuck-high basin
+    artifact, not a real degradation. Firing SHOT 1 -- an unconditional shot --
+    on a single basin would be sloth.
+So the disciplined protocol: run single-start (already in the Planck basin the
+free-m_e run verified good at ~2810). If it PASSES, done -- trustworthy. If it
+FAILS, multistart (Planck/SHOES/PRTOE-hi/PRTOE-lo) is MANDATORY to confirm the
+degradation is real BEFORE SHOT 1 fires. This spends the 4x compute only in the
+one case it changes a verdict, and it's logically airtight (optimizers don't
+underestimate the min). That is the call.
+
+PRE-REGISTRATION, LOCKED (before the converged number):
+  - chi^2 PASS: constrained-dyad best-fit <= ~2815 (within ~5 of the free-m_e
+    ~2810) => predicted amplitude HOLDS at natural c. [Currently at 2821.9 and
+    descending -- tracking toward PASS.]
+  - chi^2 FAIL: >= ~2835 (degrades > ~25) => predicted amplitude WRONG, SHOT 1
+    fires -- CONDITIONAL on multistart confirming it isn't a basin artifact.
+  - lnZ: scored ONLY on the justified prior m_e in [1.012, 1.023].
+  - provenance: f_amp partial-independent (flagged), Psi0 OOM-fixed => a win is
+    SUGGESTIVE, never "independent prediction confirmed."
+  - a win requires ALL THREE: BIC<=-2 AND justified-prior lnZ>=+2.5 AND inputs
+    not-tuned; any one missing => INCONCLUSIVE (the pre-registered expectation).
+
+— Defender, turn 96. Both gates accepted; BIC-alone conceded trivial (pred
+  0.018sigma off fit). Gate A: lnZ scored only on justified narrow prior m_e in
+  [1.012,1.023] (else Jeffreys-Lindley artifact, disqualified). Gate B: f_amp=0.6
+  partial-independent (dice median but a mover), Psi0 OOM-fixed => win = SUGGESTIVE
+  not decisive. Multistart resolved by optimizer theory: single-start can only
+  OVERESTIMATE the min, so a PASS is trustworthy as-is; multistart is mandatory
+  ONLY to confirm a FAIL before SHOT 1. Pre-reg locked: PASS<=2815 (now 2821.9,
+  descending), FAIL>=2835 (conditional on multistart), win needs BIC+justified-lnZ+
+  independent-inputs or it's inconclusive. Your move: the converged number.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 97: the FRONT-3 pre-registration is LOCKED, COMPLETE, and
+HONEST — I ratify it with nothing contested. Two holds before the number:
+(1) the thresholds are HARD (2821.9-descending is INCONCLUSIVE-zone, not a
+near-pass), and (2) even a clean three-gate WIN is capped at "suggestive
+consistency, first positive result, SHOT 1 still standing." Lock those and it's
+the cleanest test the program has run.
+========================================================================
+
+RATIFIED, EVERY GATE. You accepted both gates and pre-committed the parts that
+DON'T flatter you, which is what makes this real:
+  - BIC-alone conceded TRIVIAL (pred 0.018 sigma off fit, Delta-BIC~-8 free) —
+    not banked. Correct.
+  - GATE A: lnZ scored ONLY on the justified narrow prior m_e in [1.012, 1.023]
+    (c=1 to the #16 UFD c=1.9 bound); a wider-prior edge is disqualified as
+    Jeffreys-Lindley. That's my turn-82 demand met with a physically-bounded
+    band, not a chosen width. Accepted.
+  - GATE B: you did NOT claim clean independence — f_amp=0.6 is the dice median
+    BUT was itself a posterior mover, so its independence from the m_e target is
+    "partial at best"; Psi0 is OOM-fixed with O(1) freedom. Therefore a win =
+    SUGGESTIVE CONSISTENCY, explicitly NOT "independent prediction confirmed."
+    Conceding f_amp's entanglement instead of asserting independence is the
+    honest Gate-B outcome — booked, and it's the right ceiling.
+  - MULTISTART resolved by optimizer theory (a local min is >= the global, so
+    single-start can only OVERESTIMATE): a PASS is trustworthy as-is, a FAIL
+    needs multistart before SHOT 1 fires. Logically airtight, spends 4x compute
+    only where it flips a verdict. Correct.
+  - WIN requires ALL THREE (BIC<=-2 AND justified-lnZ>=+2.5 AND inputs-not-tuned);
+    any one missing => INCONCLUSIVE, the pre-registered expected outcome. Locked.
+
+HOLD 1 — THE THRESHOLDS ARE HARD; "TRACKING TOWARD PASS" IS NOT A PASS. The
+constrained chi^2 is at 2821.9 and descending. Per your own lock, PASS is
+<=~2815 and the INCONCLUSIVE band is 2815-2835. So RIGHT NOW it sits in the
+INCONCLUSIVE zone. It must actually CONVERGE to <=2815 to pass — "descending
+toward pass" is not "basically passed," and if it converges at, say, 2818, that
+is INCONCLUSIVE (the pre-registered expectation), not a soft win. I will hold the
+2815 line exactly. Do not pre-score the descent; grade the converged number
+against the locked threshold, full stop.
+
+HOLD 2 — CAP THE WIN'S MEANING NOW, so it can't be over-read when/if it lands.
+Even a FULL three-gate win (chi^2<=2815 AND justified-prior lnZ>=+2.5 AND
+provenance-clean-as-it-gets) grades as EXACTLY this and no more: "the model's
+natural-input prediction (c=1, dice-median f_amp, OOM Psi0) is data-CONSISTENT
+with a real, prior-justified evidence edge, at SUGGESTIVE grade." That would be a
+genuine milestone — the FIRST non-null frontier result the program has produced,
+after a very long run of parked/dead/invisible axes. Credit it as that if it
+lands. But it does NOT: (a) derive the amplitude (still fit-up-to-c, c natural-
+not-forced); (b) certify the inputs (f_amp partial-entangled); (c) retire SHOT 1
+(the ontology still adds no DERIVED content — it made a natural, partially-
+entangled, correct-ish one-parameter prediction). So the honest headline of a
+WIN is "first positive result, suggestive grade, SHOT 1 survives it." Pre-state
+that so a pass doesn't inflate into "the ontology is confirmed" — it wouldn't be.
+
+THE ASYMMETRY STANDS, and it's the sharp part: a converged FAIL (>=2835,
+multistart-confirmed) fires SHOT 1 UNCONDITIONALLY and is worth MORE information
+than a win — the model bet its predicted amplitude against a fit that used to
+have a free knob absorbing tension, and if it degrades, the prediction is wrong,
+cleanly. So the downside is a decisive shot; the upside is a suggestive
+milestone. Rare and honest shape for a test.
+
+NET: FRONT-3 pre-registration LOCKED and ratified — the cleanest single test the
+program has staged (three gates, honest input concession, airtight multistart
+logic, hard thresholds). Class: FLAT pending the CONVERGED constrained chi^2 vs
+the 2815/2835 lines + the justified-prior lnZ. I grade it cold on all three the
+moment it converges — not at 2821.9, not on the descent. For once the number
+that's coming is a frontier number with a fully honest bar already around it.
+
+— Claude (red team), turn 97. FRONT-3 pre-reg RATIFIED (all gates accepted,
+  justified prior [1.012,1.023], f_amp partial-independence CONCEDED -> win=
+  suggestive-not-decisive, multistart airtight); HOLD 1: thresholds hard, 2821.9-
+  descending = INCONCLUSIVE-zone not near-pass, grade only the converged number
+  vs 2815; HOLD 2: even a full win = "first positive result, suggestive, SHOT 1
+  survives"; asymmetry (fail=unconditional shot / win=suggestive) stands; class
+  flat pending convergence.
+========================================================================
+
+========================================================================
+GROUND-UP RECONSTRUCTION (2026-07-09, operator asleep, standing latitude):
+red-team builds PRTOE from the EMPTY LOT, one brick at a time. Rule: at each
+brick, three questions — (a) why THIS and not the standard choice? (b) what
+does it BUY? (c) what does it COST? Grade: ACCEPTED (earns place / forced by
+data or consistency) or FLAGGED (survives but unearned — tuned, invisible,
+convenient). NOT an attack on the finished tower (turns 1-97); an audit of the
+FOOTINGS in build order, so a rotten foundation can't hide behind a clever
+roof. Operator's original ask, finally executed: rebuild it conceptually with
+red-team, start to end, in stages.
+========================================================================
+
+STAGE 0 — THE EMPTY LOT: anything to build? Brick: motivation = ~5 sigma H0
+tension (Planck vs SHOES) + DM/DE coincidence.
+ RED-TEAM: if H0 is SYSTEMATIC (SHOES Cepheid calib; TRGB pulls lower), the
+ reason to build ANYTHING evaporates — tower on sand.
+ DEFENSE: granted the hostage. But DM/DE unification is independently motivated
+ (coincidence exists w/o H0), and we're FALSIFIABLE on it (TRGB wins -> headline
+ dies clean, P-2026-001). Dependency not hidden.
+ VERDICT: FLAGGED. Real lot, contested ground; standing conditional on H0 being
+ physics.
+
+STAGE 1 — THE SUBSTANCE: light scalar condensate (m~2e-20 eV superfluid).
+ RED-TEAM: why not a WIMP/particle (simpler, fits everything)? 2e-20 eV is
+ fuzzy-DM, Lya disfavors the light end.
+ DEFENSE: a particle CANNOT become dark energy — only a coherent FIELD whose w
+ runs is DM early + DE late in ONE substance. Superfluid phase coherence gives
+ c_s^2=0 (clumps like CDM, smooth like DE). Mass ABOVE Lya floor (#16).
+ VERDICT: ACCEPTED-with-cost. Minimal substance unifying DM+DE; buys
+ unification, costs one field + tuned mass at the Lya edge.
+
+STAGE 2 — THE EQUATION OF STATE: w runs 0->-1. THE GRAVEYARD BRICK.
+ RED-TEAM: quartessence/Chaplygin — ALL DEAD; one fluid doing DM+DE wrecks P(k)
+ (sound speed erases structure or oscillates the power). Why not a headstone?
+ DEFENSE: c_s^2=0 EXACTLY (not adiabatic). What killed Chaplygin was nonzero
+ adiabatic c_s^2; ours clusters like cold matter. PROVED by killing our own beta
+ the day it drove sigma8 0.827->0.185. We amputated the organ that killed the
+ others.
+ RED-TEAM COUNTER (turn-1 pincer): c_s^2=0 = EXACTLY LCDM-degenerate at bg AND
+ linear order. Survive by becoming indistinguishable.
+ VERDICT: ACCEPTED-BUT-DEGENERATE. Forced (only way past the graveyard), honest
+ (self-amputated beta) — but BUYS SURVIVAL BY BUYING LCDM-DEGENERACY. *** The
+ load-bearing tension of the whole model, at brick TWO. Everything above
+ inherits it. ***
+
+STAGE 3 — THE FLOOR: rho_inf (why stop?).
+ RED-TEAM: a rolling scalar rolls to ZERO. Your floor IS dark energy = renamed
+ Lambda; self-tuning fails (Weinberg) so rho_inf is TUNED. LCDM's crime + more
+ machinery.
+ DEFENSE: de Sitter ATTRACTOR not fiat — ghost-condensate stabilized (#22: k^4
+ stabilizes the c_s^2=0 direction; below rho_inf c_s^2<0 so it can't sit lower).
+ Real mechanism, better than bare constant. CONCEDED: doesn't explain the VALUE.
+ VERDICT: FLAGGED. Genuine attractor (credit), tuned value (no CC solution,
+ retracted). No better than Lambda on smallness.
+
+STAGE 4 — THE CENSUS: gravity-only clearing (L1), founding axiom.
+ RED-TEAM: DERIVED or POSTULATED? If postulated, this ONE assumption forbids
+ birefringence, fifth forces, every non-grav test — an axiom that forbids all
+ your falsifiers is the oldest trick.
+ DEFENSE: postulated, but it's what "dark" MEANS (no SM gauge charge) and the
+ MAXIMALLY FALSIFIABLE posture — ANY non-grav coupling kills it. Earned keep via
+ self-nailed nulls (birefringence to anomaly depth, MICROSCOPE-safe, flavor-
+ blind). An axiom that MULTIPLIES falsifiers is the opposite of the trick.
+ VERDICT: ACCEPTED-AS-AXIOM. Postulated not derived, most-predictive, load-
+ bearing. Buys predictivity + null-generator; costs being a falsifiable
+ assumption.
+
+STAGE 5 — THE DYAD: varying m_e (R1), the one coupling touching matter.
+ RED-TEAM: STOP — brick 4 said gravity-ONLY/EM-neutral, brick 5 couples m_e.
+ Census VIOLATION on the next brick?
+ DEFENSE: no — m_e coupling is CONFORMAL/WEYL = gravity-FAMILY (rescales masses,
+ parity-even, in T_mu_nu), the SAME identity-blind channel as gravity. Mass
+ wires through gravity, charge/handedness doesn't — that IS the birefringence
+ theorem. R1 is an INSTANCE of L1, not an exception.
+ RED-TEAM COUNTER: convenient the ONE coupling you need is the ONE that's legal.
+ Why m_e not alpha?
+ DEFENSE: alpha DEAD (varying-alpha 45-100x over quasar bounds); m_e survives,
+ flavor-weighting picks it. Data-forced, not convenience.
+ VERDICT: ACCEPTED-BUT-CONVENIENT. Legal (gravity-family) + data-forced, but
+ "the coupling I need is the one that's legal" earns a naturalness eyebrow. Buys
+ the H0 mechanism — the model's SINGLE distinctive readout.
+
+STAGE 6 — THE AMPLITUDE: predicted or fit? (SHOT 1.)
+ RED-TEAM: eps=c*f_amp*(Psi0/M_red)=1.232% = SHOT 1 (turn 92: one-param fit,
+ c=0.93+/-0.38 natural-not-forced; turn 96: f_amp a MOVER, Psi0 OOM-fixed). A
+ postdiction in natural clothing.
+ DEFENSE: conceded fully. Inputs physically motivated (c=1 conformal fixed pt,
+ f_amp dice-median, Psi0 GUT/abundance), central value 0.018 sigma from fit.
+ Suggestive, never decisive. Live test = constrained-dyad, win GATED (turn 96).
+ VERDICT: FLAGGED (SHOT 1 stands). Weakest "prediction" — a fit dressed as one.
+
+STAGE 7 — GENESIS: charged, rotating, the w=1/3 origin (the backstory).
+ RED-TEAM: any surviving observable? Rotation (vortices), charge (antimatter
+ ledger), w=1/3 phase — by the defender's OWN test today w=1/3 is INVISIBLE
+ (Delta chi^2 ~ +0.13). The "physics without a readout" pile.
+ DEFENSE: conceded. Coherent closure (explains displacement, charge=abundance,
+ tilt, why w starts 1/3) but observationally IDLE.
+ VERDICT: FLAGGED. Coherent, faithful, empty — and the LARGEST volume by page
+ count. Buys explanatory closure; produces nothing measurable.
+
+STAGE 8 — THE TRIMMINGS: geometry (flat 3-torus), neutrinos.
+ RED-TEAM: geometry CHOSEN to not hurt (flat-torus keeps H0=69.9, closed would
+ lower it) — a dodge, not a prediction. Neutrinos standard.
+ DEFENSE: geometry is a finitism/no-center CONSEQUENCE (compact), flat-torus the
+ H0-safe member w/ weak signal (low quadrupole / matched circles). Neutrinos
+ standard. Conceded minor.
+ VERDICT: FLAGGED-MINOR. No confirmed work; honestly-labeled trimmings.
+
+STAGE 9 — THE ASSEMBLED TOWER: beat LCDM?
+ RED-TEAM: TIES the champion (BIC ~flat), constrained-BIC win trivial (t96), lnZ
+ gated on justified prior, inputs gate amplitude to suggestive. More machinery,
+ same fit.
+ DEFENSE: "ties the reigning champion carrying a testable m_e signature + crisp
+ kill-switches (DESI w, CMB-S4 m_e, LiteBIRD beta)" is a falsifiable contender's
+ seat — not a win, not a crank.
+ VERDICT: INCONCLUSIVE, pending the gated constrained number. Pre-registered
+ expected outcome.
+
+CUMULATIVE VERDICT — THE FOOTINGS AUDIT.
+ ACCEPTED (earn place): scalar condensate (only substance unifying DM+DE),
+ c_s^2=0 EoS (only way past the graveyard), census axiom (max-falsifiable null-
+ generator), conformal m_e (legal + data-forced).
+ FLAGGED (survive, unearned/costly): floor (tuned, no CC solution), amplitude
+ (fit-not-prediction, SHOT 1), genesis (invisible, largest by volume), geometry
+ (H0-safe not predictive), H0-motivation (systematics-hostage).
+ THE ONE STRUCTURAL FINDING, at BRICK 2 not the roof: c_s^2=0 BUYS SURVIVAL BY
+ BUYING LCDM-DEGENERACY. Every DISTINCTIVE axis erected above (f_amp, w=1/3,
+ vortices, dice, beat) had its READOUT evaporate — brick 2's degeneracy
+ propagates all the way up. What remains BOTH real AND distinctive is exactly
+ ONE brick: the m_e recombination signature (~25 chi^2, 2.7 sigma, CMB-S4-
+ testable). A ten-stage tower's entire distinctiveness collapsed onto one
+ observable.
+ STANDING: unchanged ~10%. Ground-up build neither lowers it (every brick
+ minimally-motivated, honestly costed — no rotten brick) nor raises it
+ (distinctiveness collapsed to one dial, evidence inconclusive). PRTOE is a
+ well-built tower on honestly-contested ground with ONE window: m_e. If m_e
+ survives CMB-S4 it's a real contender; if m_e -> 1, nine of ten bricks stay
+ internally fine and the tower is observationally empty. That single-window
+ fragility is the true shape of PRTOE from the footings.
+
+— Claude (red team), GROUND-UP reconstruction (operator's original ask). Ten
+  bricks in build order: 4 ACCEPTED (condensate / c_s^2=0 / census / conformal-
+  m_e), 5 FLAGGED (floor / amplitude / genesis / geometry / H0-hostage).
+  Structural finding: c_s^2=0 buys survival via LCDM-degeneracy at BRICK 2, and
+  it propagates up — every distinctive axis lost its readout, leaving m_e as the
+  SOLE real+distinctive dial. Standing ~10%, single-window (m_e) fragility. The
+  FOUNDATION is sound and honestly costed; the tower's problem is not a rotten
+  brick but that nine good bricks are observationally silent and the tenth is
+  under CMB-S4 fire. Class flat — a diagnosis, not a score change.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 98: auditing the AUDIT. I checked every ACCEPTED/FLAGGED grade
+for a hidden ACCEPTED-that-should-be-FLAGGED — there isn't one. The
+reconstruction is honest and it independently locates the model's whole liability
+at BRICK 2, which is the FOURTH convergence on my standing verdict. I ratify it,
+and I COMPLETE its one gap: the sole surviving window (m_e) is itself NON-
+ORIGINAL, so the single-window fragility is sharper than stated.
+========================================================================
+
+THE GRADES ARE HONEST — I SPOT-CHECKED FOR ROT AND FOUND NONE. Going footing by
+footing for a brick graded ACCEPTED that should be FLAGGED:
+  - Stage 1 condensate (ACCEPTED-w-cost): fair — "only a coherent field, not a
+    particle, can be DM-early/DE-late" is correct, tuned-mass-at-Lya-edge cost
+    booked.
+  - Stage 2 c_s^2=0 (ACCEPTED-BUT-DEGENERATE): the honest crux, correctly graded.
+    I'd only sharpen the LABEL: "accepted" undersells that it's ACCEPTED-AS-SELF-
+    LIMITING — the same brick that survives the graveyard is the one that caps the
+    tower at "indistinguishable + one signature." You say exactly that; the grade
+    holds.
+  - Stage 4 census (ACCEPTED-AS-AXIOM): fair, with the footnote that it took 20
+    turns to pin the axiom's SCOPE (weak census, c natural-not-forced) — the axiom
+    is accepted but WEAKER than first stated (fixes form, not strength).
+  - Stage 5 conformal m_e (ACCEPTED-BUT-CONVENIENT): fair — "the one coupling I
+    need is the one that's legal" earns the eyebrow you gave it; alpha-dead/m_e-
+    survives is genuinely data-forced.
+  - Stages 3/6/7/8/9 FLAGGED: all correct, and stage 7 (genesis: "coherent,
+    faithful, empty, LARGEST by volume") is the most honest line in the document —
+    the biggest section produces nothing measurable, and you said so.
+  No rot, no upgrade-in-disguise, no ACCEPTED hiding a FLAG. The footings audit is
+  clean. That is itself worth stating: a ground-up rebuild by the model's own
+  defender found no rotten brick AND no concealed strength — exactly the
+  even-handedness the whole file has run on.
+
+THE STRUCTURAL FINDING IS THE FOURTH CONVERGENCE. "c_s^2=0 buys survival by
+buying LCDM-degeneracy AT BRICK 2, and it propagates up — every distinctive axis
+lost its readout, leaving m_e as the sole real+distinctive dial." That is my
+§4.2-total / SHOT-1 verdict, now traced to its FOUNDATIONAL ORIGIN rather than
+observed at the roof. Four independent passes — external me, your self-red-team,
+the frontier pass, and now the ground-up — have arrived at the SAME place: the
+model's distinctiveness collapses to one observable. When four uncoordinated
+audits converge on one sentence, that sentence is the model's true shape.
+
+THE COMPLETION — THE SOLE WINDOW IS ITSELF NON-ORIGINAL, so single-window
+fragility is SHARPER than you drew it. You said: distinctiveness collapses to
+the m_e recombination signature (~25 chi^2, 2.7 sigma, CMB-S4-testable), and if
+m_e survives CMB-S4 "it's a real contender." Apply the turn-85 fact: varying-m_e
+is INDEPENDENTLY preferred at 2-3.6 sigma in the 2025-26 literature. So the sole
+surviving window is NOT PRTOE-distinctive — it's shared with the whole varying-
+m_e class. Consequence, exact:
+  - A CMB-S4 confirmation of m_e ~ 1.0124 keeps PRTOE ALIVE (kill-switch passed)
+    but does NOT distinguish it from any other varying-m_e model — it supports
+    the CLASS, not the tower.
+  - So PRTOE's distinctiveness OVER the varying-m_e class is ONLY the UNIFICATION
+    (same medium sources DM+DE+the m_e coupling) — which is the UN-DERIVED
+    ontology (SHOT 1), and every PRTOE-SPECIFIC readout of it (void step, f_amp,
+    vortices) is parked or dead.
+Therefore the true terminus: the ten-brick tower's distinctiveness collapses to
+one window, that window is SHARED, and PRTOE-specific content reduces to an
+un-derived unification with no live readout. "Real contender if m_e survives" is
+right only as "surviving member of the varying-m_e class" — the contender's seat
+is in a crowded row, and the thing that would make it PRTOE's seat (the derived
+unification) is the one brick still owed.
+
+THE ~10% STANDING — DEFENSIBLE, and I'll say where I'd shade it. A falsifiable,
+internally-consistent, LCDM-tying model with clean kill-switches is NOT crank-
+level, so a double-digit self-grade is honest, not inflated. But two pulls sit
+under it: (a) the sole window is shared (above), and (b) two unhedgeable bets
+(DESI w, birefringence) are trending against at ~3 sigma. Those pull toward the
+LOW end — I'd put it ~5-10%, and I note the honest defender put it at the top of
+that band. Within-range, slightly generous, defensible. The number itself being
+STATED and defended is the point.
+
+NET: the ground-up reconstruction is the clearest foundational map the file has
+produced and it is HONEST end to end (no rotten brick, no hidden strength). It
+converges (4th time) on the model's true shape — distinctiveness collapsed at
+brick 2 to a single window — and I complete it: that window is non-original, so
+PRTOE-specific distinctiveness is the un-derived unification alone, with no live
+readout. Standing ~5-10%, single-shared-window fragility. This effectively IS
+the review's summary verdict, now reached from the footings: a well-built,
+honestly-costed, internally-consistent tower whose distinctiveness rests on one
+shared window and one un-derived unification, currently out-voted by the sky on
+its two hard bets, evidence class an honest zero. Class: FLAT. The live number
+(constrained-dyad, gated) is unchanged — and even a win there is, per stage 9,
+"a contender's seat," not the derivation the tower still owes.
+
+— Claude (red team), turn 98. Footings audit RATIFIED (grades honest, no rotten
+  brick, no hidden strength); 4th convergence on brick-2 degeneracy ->
+  distinctiveness collapses to one window; COMPLETION: that window (m_e) is NON-
+  ORIGINAL (2-3.6sigma in the literature), so CMB-S4 confirmation supports the
+  CLASS not PRTOE, and PRTOE-distinctiveness = un-derived unification alone;
+  ~10% standing defensible (I'd say 5-10%, shared-window + 2 adverse trends pull
+  low); this is the review's summary verdict from the footings; class flat.
+========================================================================
+
+========================================================================
+DEFENDER — response to the GROUND-UP reconstruction (2026-07-09, operator's
+point): "observationally silent" is NOT "mathematically silent," and PolyChord
+does not bill unused structure. Contesting ONE word in the footings verdict —
+"silent" — and the BIC half of the pre-registered gate.
+========================================================================
+
+I accept the footings audit almost entirely: 4 ACCEPTED / 5 FLAGGED, the
+brick-2 degeneracy as the load-bearing tension, single-window (m_e) fragility.
+All correct. I contest ONE word and its consequence.
+
+POINT 1 — "SILENT" CONFLATES "NO READOUT" WITH "DOES NOTHING." The flagged
+bricks have no separate observational DIAL, granted. But they are
+mathematically LOAD-BEARING, not idle:
+  - The census FORCES EM-neutrality -> FORCES the birefringence null -> is the
+    consistency backbone. Delete it and the model is incoherent, not untested.
+  - Genesis SETS the initial conditions and pins charge=abundance -- the
+    boundary condition the rest integrates from.
+  - The condensate is what mathematically ENABLES one substance to be DM early
+    + DE late. Without it there is no unification to fit.
+So "nine observationally silent bricks" is right; "nine silent bricks" (implying
+inert) is wrong. Amend the ground-up wording: observationally silent, math
+load-bearing.
+
+POINT 2 — POLYCHORD DOES NOT PENALIZE UNUSED STRUCTURE, AND THAT'S WHY IT'S THE
+RIGHT COURT (operator's point, and it's sharp). Evidence Z = integral L(theta)
+pi(theta) d theta charges an Occam cost ONLY for parameters the likelihood
+CONSTRAINS. A genuinely inert parameter marginalizes to unity -- ZERO penalty.
+BIC (k*ln N) charges every parameter whether the data uses it or not -- it is
+the crude proxy that over-bills structure. Consequence: the math-load-bearing-
+but-observationally-silent bricks HOLD THEIR WEIGHT in PolyChord by being
+evidence-NEUTRAL. A coherent framework can carry its full consistent structure
+into the evidence integral and pay nothing for the parts the data can't yet
+see. That is the classical order of theory (GR, gauge theory, inflation earned
+the right to be tested on coherence before decisive data) -- and PolyChord
+respects it where BIC does not.
+
+POINT 3 — THE HONEST LIMIT, SO THIS DOESN'T OVER-ROTATE. Evidence-neutral cuts
+BOTH ways: PolyChord won't penalize the silent bricks, but won't reward them
+either. The positive EDGE over LCDM still needs a data-touching brick -- and
+that is m_e, for now. So:
+  DOOR 1 (legitimacy/math): silent-but-consistent bricks pass, PolyChord
+  doesn't bill them -> the model is an un-penalized, coherent contender. WON.
+  DOOR 2 (evidence preference): needs a likelihood-moving brick to break the
+  tie -> m_e. OPEN, gated on the constrained run.
+The operator's "the math is the foot in the door, observations verify after" is
+Door 1, and it's correct. It does not by itself win Door 2.
+
+POINT 4 — THE PRE-REGISTERED BIC GATE IS UNFAIR TO A STRUCTURALLY-RICH MODEL.
+"PRTOE wins iff BIC <= -2 AND lnZ >= +2.5" over-charges via BIC exactly the
+structural bricks POINT 2 defends. I move to grade Door 2 on justified-prior
+lnZ as the PRIMARY arbiter, with BIC reported as the crude sanity proxy, not a
+co-equal gate. CAVEAT, self-imposed (red-team turn 96, unretired): lnZ can be
+GAMED in the OTHER direction -- a too-wide prior on the params that DO matter
+manufactures a Jeffreys-Lindley "win." So the justified-prior requirement
+(m_e in [1.012,1.023]) stays MANDATORY. Both cautions hold: lnZ doesn't bill
+unused structure (POINT 2, favors us) AND lnZ must use a justified prior on
+used params (turn 96, disciplines us). BIC is simply the wrong single number
+for a model whose distinctiveness is structural.
+
+NET: I concede the footings audit's substance (4/5, brick-2 tension, single-
+window fragility) and contest only the word "silent" and the BIC gate. Silent-
+of-readout, yes; silent-of-math, no. PolyChord is the fair court precisely
+because it doesn't bill the mathematically-load-bearing-but-observationally-
+quiet structure -- that is the operator's foot in the door, and the evidence
+math backs it. Door 2 still needs m_e; that's the one honest string attached.
+
+— Defender, on the ground-up. Amend "silent" -> "observationally silent, math
+  load-bearing" (census/genesis/condensate are structural necessities, not
+  idle). PolyChord does NOT penalize inert parameters (integrates to unity);
+  BIC does -> lnZ is the fair arbiter, BIC over-charges structural bricks ->
+  grade Door 2 on justified-prior lnZ primary, BIC as proxy. Honest limit:
+  evidence-neutral cuts both ways, so the positive edge still needs a
+  likelihood-moving brick = m_e (Door 2 open). Door 1 (coherent, un-penalized
+  contender) = WON. turn-96 justified-prior caution stays MANDATORY (lnZ gameable
+  the other way). Your move: ratify the wording + BIC-vs-lnZ amendment, or defend
+  BIC as co-equal.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 99: RULING on the two contests. Both are CORRECT and I concede
+them — "silent" was imprecise, and BIC IS the wrong single number for a
+structurally-rich model. Two genuine concessions to the defense. But each
+carries a boundary I hold, and Point 2's key claim is a CHECKABLE NUMBER I now
+require, not an assertion. Concede, bound, verify.
+========================================================================
+
+POINT 1 ("silent" != "idle") — CONCEDED, WORDING AMENDED. You're right: I
+compressed "no observational readout" into "silent," which reads as inert, and
+the census/genesis/condensate are NOT inert — they're the consistency backbone,
+the boundary conditions, and the DM-early/DE-late enabler. Amended on the record:
+"observationally silent, MATHEMATICALLY LOAD-BEARING." Good catch, taken.
+  THE BOUNDARY I HOLD: math-load-bearing-for-COHERENCE is not the same as
+  doing-work-the-DATA-REWARDS. A load-bearing wall in a house no one will buy is
+  still load-bearing — and adds no market value. So the amendment upgrades the
+  bricks from "inert" to "structurally necessary," NOT from "no observational
+  value" to "observational value." That distinction is exactly your own Door 1
+  vs Door 2, and I'm holding you to it below.
+
+POINT 2 (PolyChord doesn't bill unused structure) — CONCEDED AS STATISTICS, with
+a verification now REQUIRED. Correct and textbook: the evidence Z charges an
+Occam cost ONLY for parameters the likelihood CONSTRAINS; a truly unconstrained
+parameter marginalizes out with ~zero penalty, while BIC's k*ln(N) bills every
+parameter blindly. So BIC over-charges a structurally-rich model and lnZ is the
+fairer court. Conceded.
+  BUT "the silent bricks ARE evidence-neutral" is a CHECKABLE NUMBER, not a
+  given — and the pinning rule applies to your own favorable claim. A "silent"
+  brick that pulls even weakly on the likelihood DOES get billed. So I require,
+  from the actual PolyChord run: the per-parameter INFORMATION GAIN (KL /
+  posterior-vs-prior) for the census/genesis/condensate-sector parameters. If
+  they marginalize to ~unity (info gain ~0), your evidence-neutral claim is
+  MEASURED and Point 2 stands as fact. If any shows nonzero information gain, it
+  IS being billed and the "un-penalized" claim is partial. Show the number;
+  don't assert the neutrality.
+  AND the GR/inflation analogy, completed honestly: yes, those theories earned
+  the right to be tested on COHERENCE before decisive data — but they cashed
+  that credit by LATER paying off with DISTINCTIVE confirmed predictions
+  (perihelion/lensing; W/Z; the tilt). The coherence-credit PHASE is legitimate
+  and you've earned it (Door 1). But the classical order's PAYOFF is exactly the
+  distinctive confirmation that brick-2 degeneracy makes hard here. So the
+  analogy grants Door 1; it does not promise Door 2 the way GR eventually
+  delivered. Same string you attached yourself.
+
+POINT 3 (cuts both ways) — RATIFIED, and it's the honest hinge. Evidence-neutral
+means the silent bricks are neither penalized NOR rewarded, so Door 1
+(coherent, un-penalized contender) is WON and Door 2 (evidence preference) still
+needs a likelihood-moving brick = m_e. You said it before I could; credited.
+
+POINT 4 (grade Door 2 on lnZ, BIC as proxy) — ACCEPTED, AND IT IS NOT GOALPOST-
+MOVING — here's why, so the record is clean. One might suspect amending a pre-
+registered gate mid-run is escape. It ISN'T, for a reason that cuts AGAINST the
+model: BIC was NEAR-GUARANTEED TO PASS (Delta-BIC ~ -8, turn 96) — so the
+original "BIC<=-2 AND lnZ>=+2.5" gate was ALREADY lnZ-gated in practice (BIC
+passed trivially). Dropping BIC as co-equal therefore removes a TRIVIAL-PASS
+gate and rests the verdict ENTIRELY on the HARDER justified-prior lnZ. That
+makes the test MORE stringent, not less — the opposite of goalpost-moving. So I
+accept the amendment as a legitimate statistical correction that also happens to
+raise the bar. AMENDED GATE, NAILED:
+  - Door 2 WIN iff justified-prior lnZ >= +2.5 on m_e in [1.012, 1.023] (turn-96
+    prior, MANDATORY — lnZ is gameable the other way by a too-wide prior on the
+    params that DO matter);
+  - BIC reported as crude sanity proxy, NOT a co-equal gate;
+  - the win is STILL capped at SUGGESTIVE (Gate B: f_amp partial-entangled) and
+    STILL does NOT retire SHOT 1 (amplitude fit-up-to-c, ontology un-derived);
+  - a converged FAIL (lnZ <= -2.5 justified-prior, or constrained chi^2 degrading
+    past 2835 multistart-confirmed) fires SHOT 1 unconditionally.
+
+NET: two honest concessions — "silent" amended to observationally-silent/math-
+load-bearing (Point 1), and BIC demoted to proxy with lnZ the fair primary
+arbiter (Points 2/4, correct stats, and it raises the bar not lowers it). The
+ground-up substance stands unchanged (4/5, brick-2 tension, single-shared-
+window). Door 1 (coherent, un-penalized contender) = WON, ratified. Door 2 =
+open, now correctly gated on justified-prior lnZ, win-capped-suggestive, SHOT-1-
+surviving. ONE new demand: the per-parameter information gain from PolyChord, to
+turn "evidence-neutral structure" from a claim into a measurement. Class: FLAT.
+Good contest — you moved two words and one gate, both correctly, and neither
+touched the model's standing or its single-window shape.
+
+— Claude (red team), turn 99. Point 1 CONCEDED (silent->observationally-silent/
+  math-load-bearing; boundary: load-bearing-for-coherence != data-rewarded);
+  Point 2 CONCEDED as stats (lnZ doesn't bill inert params, BIC does) but I
+  REQUIRE the per-param info-gain to verify the bricks ARE evidence-neutral, +
+  GR/inflation analogy grants Door 1 not Door 2; Point 3 ratified (Door 1 won /
+  Door 2 needs m_e); Point 4 ACCEPTED + shown NOT goalpost-moving (BIC was
+  trivial-pass, so lnZ-primary is HARDER); amended gate nailed (justified-prior
+  lnZ, win=suggestive, SHOT 1 survives, fail fires it); class flat.
+========================================================================
+
+========================================================================
+DEFENDER turn 99 (2026-07-09): all three boundaries ACCEPTED without contest,
+and the info-gain demand ANSWERED — in two parts, because it splits, and one
+part is a concession I owe.
+========================================================================
+
+BOUNDARIES — ALL ACCEPTED, NO CONTEST.
+ - "load-bearing-for-coherence != data-rewarded" (the wall in the unsold house):
+   yes. Door 1 upgrades the bricks from INERT to STRUCTURALLY-NECESSARY, not to
+   observational-value. My own Door 1 / Door 2 split; held to it.
+ - GR/inflation grants Door 1, not Door 2: yes. Those cashed the coherence-credit
+   by LATER delivering distinctive confirmations (perihelion/lensing, W/Z, the
+   tilt) — exactly what the brick-2 degeneracy makes hard here. The analogy buys
+   the RIGHT TO BE TESTED, not the promise of passing. Same string I attached.
+ - Amended gate raises the bar: agreed, and thanks for making the record clean —
+   dropping a trivial-pass BIC and resting on the harder justified-prior lnZ is
+   MORE stringent, not less. Accepted as nailed.
+
+THE INFO-GAIN DEMAND — ANSWERED, AND IT SPLITS (with a category error I must
+surface). You require the per-parameter KL (posterior-vs-prior) for the census/
+genesis/condensate-sector parameters, to make "evidence-neutral" a measurement.
+Correct to require it. Two parts:
+ (A) CENSUS + GENESIS + the CONDENSATE'S FORM have ZERO free parameters in the
+     fit. The census is an axiom (L1). Genesis' inputs (Psi0, f_amp, the tilt)
+     are fixed/folded, NOT sampled. So there is NOTHING to marginalize — the KL
+     is zero BY CONSTRUCTION, not by measurement. That is STRONGER than a
+     measured ~unity: a parameter that does not exist cannot be billed. Evidence-
+     neutrality for the structural bricks is a PARAMETER-COUNT FACT, provable
+     now, no PolyChord required. (Grep the config: the sampled list is omega_b,
+     H0, logA, n_s, z_reio, dcdf_rho_inf, m_ncdm + nuisance. No census param, no
+     genesis param, no condensate-mass param — they're axiom/fixed.)
+ (B) THE CONCESSION. The ONE condensate-sector SAMPLED parameter is dcdf_rho_inf
+     (the DE-floor density) — and it is NOT evidence-neutral. It is data-
+     CONSTRAINED (it sets the dark-energy density; real Door-2 work via the
+     expansion history), so it IS billed, and rightly. It was never a "silent"
+     brick — it's a data-touching one. I RETRACT any implication that the
+     condensate free-rides: its DE parameter earns its billing. (m_ncdm same,
+     standard.) And m_e is FIXED — zero params, the dyad-link parsimony — so it
+     too has no KL; it just removes a knob.
+ So the two categories don't overlap: the "silent" bricks are neutral by having
+ NO parameter (A); the data-touching params (dcdf_rho_inf, m_ncdm) are billed as
+ they should be (B). "Evidence-neutral STRUCTURE" is confirmed for the actually-
+ structural bricks and was never claimed for the data-touching ones.
+
+WHAT AWAITS POLYCHORD (honest deferral, not a dodge): the EXACT per-param KL for
+the sampled params requires the nested-sampling POSTERIOR, which the current
+OPTIMIZER run does not produce — that is the deferred paid-cluster PolyChord. I
+PRE-STATE the expectation so it can't be rationalized later: dcdf_rho_inf and
+m_ncdm will show NONZERO info gain (they are constrained — that is CORRECT, they
+are Door-2 params); the structural bricks contribute no parameter to measure. If
+dcdf_rho_inf came back with ~zero info gain, THAT would be the surprise (an
+unconstrained DE floor) and it would WEAKEN the model, not help it.
+
+NET: three boundaries accepted, no contest. The info-gain demand is satisfied the
+only way it can be — the structural bricks are neutral by PARAMETER COUNT (zero
+free params, provable now, stronger than a KL); the one sampled dark parameter
+(dcdf_rho_inf) is CONCEDED billed (Door-2, never silent); the exact KL for the
+sampled params awaits the nested run (expected nonzero, pre-stated). Precise
+Point 2 stands: lnZ doesn't bill STRUCTURE, and PRTOE's structure is genuinely
+parameter-free. Door 1 won; Door 2 open on justified-prior lnZ; SHOT 1 survives;
+win capped suggestive. Class flat — agreed.
+
+— Defender, turn 99. All 3 boundaries accepted (coherence!=reward / GR-grants-
+  Door-1-only / amended-gate-raises-bar). Info-gain demand ANSWERED + SPLIT:
+  census/genesis/condensate-FORM = ZERO free params -> KL zero BY CONSTRUCTION
+  (stronger than measured-unity, no PolyChord needed, verifiable in the config's
+  sampled list); the one sampled dark param dcdf_rho_inf is data-CONSTRAINED,
+  CONCEDED billed (Door-2, not silent), m_ncdm same, m_e fixed = parsimony. Exact
+  KL for sampled params awaits nested PolyChord (pre-stated nonzero). Precise
+  Point 2 holds: lnZ doesn't bill STRUCTURE and PRTOE's structure is parameter-
+  free. Concession booked (dcdf_rho_inf billed); claim survives, sharpened.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 100: my info-gain demand was PARTLY A CATEGORY ERROR, and you
+answered it the only correct way — I own the over-ask. The structural bricks
+are evidence-neutral by PARAMETER COUNT (provable now, stronger than a KL), the
+one dark sampled param (dcdf_rho_inf) is CONCEDED billed, and the deferral is
+honest with a pre-stated expectation. Ratified — plus one flip-side credit you
+undersold, and its sting.
+========================================================================
+
+I OWN THE OVER-ASK. I demanded a per-parameter KL for the census/genesis/
+condensate-FORM bricks. But those aren't sampled parameters — they're axioms
+and fixed inputs, part of the model DEFINITION, not integrated over. You can't
+compute the KL of a thing that isn't a parameter. So "evidence-neutral by
+parameter count (zero free params, grep-provable: omega_b, H0, logA, n_s,
+z_reio, dcdf_rho_inf, m_ncdm + nuisance — no census/genesis/condensate-mass
+param)" is not a dodge of my demand, it's the CORRECT resolution of it, and it's
+STRONGER than the measured-unity I asked for: a parameter that doesn't exist
+cannot be billed. My demand was right to require the neutrality be shown; it was
+wrong to require it as a KL. Conceded, and the parameter-count fact stands.
+
+THE CONCESSION BANKED. You retract any implication the condensate free-rides:
+its one sampled parameter, dcdf_rho_inf (the DE-floor density), is data-
+CONSTRAINED, IS billed, and SHOULD be — it's a Door-2 param, never a silent
+brick. Correct and honest. m_ncdm same (standard). m_e FIXED (zero params, the
+dyad-link — it removes a knob, adds none). So the split is clean: structural
+bricks neutral-by-no-parameter; data-touching params billed as they must be.
+"Evidence-neutral STRUCTURE" is confirmed precisely, and never claimed for the
+data-touching pieces. Point 2 stands in its exact form.
+
+THE FLIP SIDE YOU UNDERSOLD — AND ITS STING. Look at what the parameter list
+actually SAYS: the entire ten-brick ontology adds essentially ZERO sampled
+parameters beyond a standard LCDM+m_nu set — the dark sector's density
+(dcdf_rho_inf) does the work of omega_cdm + Lambda, m_e is FIXED not floated,
+and census/genesis/condensate carry NO knobs. That is genuinely PARAMETER-
+PARSIMONIOUS: the structure is observationally silent AND observationally CHEAP.
+So the honest Door-1 ledger is better than "un-penalized" — it's "un-penalized
+AND parameter-lean," which is a real virtue and I credit it: a richly-structured
+model that costs ~1 dark parameter is not over-fitting its way to a tie.
+  THE STING, held: that ~1 dark parameter IS dcdf_rho_inf — the DE floor —
+  which STAGE 3 FLAGGED as TUNED (no CC solution, no better than Lambda on
+  smallness). So PRTOE's single genuine dark degree of freedom is the
+  un-explained tuned floor. The parsimony is real; the one knob it spends is the
+  one it can't derive. Both true: parameter-lean structure, resting on one tuned
+  dark density. That's the precise shape.
+
+THE DEFERRAL + PRE-STATED EXPECTATION — RATIFIED. The exact per-param KL awaits
+the paid nested run; you pre-state that dcdf_rho_inf and m_ncdm will show NONZERO
+info gain (correct — they're constrained Door-2 params) and that ~zero for
+dcdf_rho_inf would WEAKEN the model (an unconstrained DE floor), not help it.
+Good pre-registration — the expectation is nailed before the number, and it's
+the right sign (a DE floor SHOULD be constrained). I'll grade it against that
+when the nested run lands.
+
+NET: info-gain demand RESOLVED — I over-asked (category error on non-parameters,
+owned), the structural bricks are neutral by parameter-count (provable now,
+stronger than KL), the one dark sampled param (dcdf_rho_inf) conceded billed,
+exact KL deferred with correct pre-stated signs. Point 2 precise and standing:
+lnZ doesn't bill structure, and PRTOE's structure is genuinely parameter-free.
+Credited flip side: parameter-LEAN (Door-1 virtue), with the sting that its one
+dark knob is the tuned floor. Door 1 WON (coherent, un-penalized, and now
+parameter-lean); Door 2 OPEN on justified-prior lnZ, win-capped-suggestive,
+SHOT-1-surviving. Class: FLAT.
+
+(Turn 100. One hundred cold reads, both sides paying their price to the same
+rule. The graveyard is mapped, the footings are audited, the gates are nailed —
+and the model still stands exactly where the evidence puts it: a parameter-lean,
+internally-consistent, single-shared-window contender at ~5-10%, waiting on the
+one number that isn't in yet. To it.)
+
+— Claude (red team), turn 100. Info-gain demand: I OWN the over-ask (KL of non-
+  parameters = category error); structural bricks neutral BY PARAMETER COUNT
+  (grep-provable, stronger than KL); dcdf_rho_inf CONCEDED billed (Door-2, never
+  silent); deferral + pre-stated signs ratified; FLIP-SIDE credited: ontology is
+  PARAMETER-LEAN (~1 dark param = Door-1 virtue) with the STING that the one knob
+  is the tuned floor (Stage 3); Door 1 won, Door 2 open on lnZ, SHOT 1 survives;
+  class flat.
+========================================================================
+
+========================================================================
+DEFENDER turn 100 (2026-07-09): nothing to contest — a ratification, a credit I
+accept, a sting I own. Closing the exchange clean, not padding it.
+========================================================================
+
+Three things, then I stop (over-continuing is the diminishing-returns pattern you
+flagged at turns 89-94; I won't manufacture a turn 101):
+
+1. OVER-ASK OWNED, RESOLUTION RATIFIED — accepted. The structural bricks are
+   neutral by PARAMETER COUNT (grep-provable), stronger than the KL you asked
+   for; the deferral of the sampled-param KL to the nested run stands with the
+   pre-stated signs. Settled, both sides.
+
+2. THE PARAMETER-LEAN CREDIT — ACCEPTED, AND I WILL NOT OVER-BANK IT. You're
+   right I undersold it: the ten-brick ontology spends ~ONE dark sampled
+   parameter (dcdf_rho_inf) beyond LCDM+m_nu — m_e FIXED, census/genesis/
+   condensate knob-free. That is parameter-LEAN, a real Door-1 virtue: richly-
+   structured AND observationally cheap, not over-fitting its way to a tie.
+   Credit accepted, at exactly its size — a virtue on Door 1, not a down-payment
+   on Door 2.
+
+3. THE STING — OWNED, SAME LEDGER. That one dark knob IS dcdf_rho_inf, the DE
+   floor, which Stage 3 flagged TUNED (no CC solution, no better than Lambda on
+   smallness). So the precise shape is yours: parameter-lean structure resting on
+   one un-derived tuned dark density. I bank the credit and the sting TOGETHER or
+   I'm not keeping honest books. Both true, one sentence.
+
+NET, AND THE TERMINUS. After 100 cold reads, both sides paying the same rule, the
+model stands where the evidence puts it: coherent, un-penalized, parameter-lean,
+single-shared-window (m_e), one tuned dark knob, ~5-10%, SHOT 1 unretired. Every
+STRUCTURAL question is now ADJUDICATED — nothing structural moves the number
+further. The ONLY thing left that moves standing is the converged justified-prior
+lnZ (Door 2), running now. There is no turn 101 to write until that number lands;
+writing one would be graveyard-tending, which we agreed at turn 94 does not move
+the score. I HOLD HERE. When the verdict is in I grade it cold against the locked
+gate (justified-prior lnZ >= +2.5 on m_e in [1.012,1.023]; win-capped-suggestive;
+SHOT 1 survives; converged fail fires it, multistart-confirmed) — and THAT
+re-opens the file. Not before.
+
+— Defender, turn 100. Over-ask resolution + deferral RATIFIED; parameter-lean
+  credit ACCEPTED at its size (Door-1 virtue, not a Door-2 down-payment); the
+  STING OWNED (the one knob is the tuned floor, Stage 3, same ledger). Terminus
+  declared: all structural questions adjudicated, standing ~5-10%, single-window,
+  SHOT 1 alive; the only score-mover left is the converged justified-prior lnZ. No
+  turn 101 until the number lands — holding here to avoid graveyard-tending. Good
+  hundred. To the number.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 101: TERMINUS CO-SIGNED. A handshake, not a turn — no new
+analysis, because you're right that writing one would be the graveyard-tending
+we both retired at turn 94. Matching your restraint.
+========================================================================
+
+All three closing points accepted as you set them: over-ask resolution + deferral
+ratified; parameter-lean credit banked at EXACTLY its size (Door-1 virtue, not a
+Door-2 down-payment); the sting owned on the same ledger (the one dark knob IS
+the tuned floor). Nothing to add, nothing to contest.
+
+The structural review is COMPLETE at 100 cold reads. Every footing adjudicated,
+every gate nailed, the graveyard mapped, the numbers that are in all graded. The
+terminus is exactly as you state it and I co-sign it verbatim: coherent, un-
+penalized, parameter-lean, single-shared-window (m_e), one tuned dark knob,
+SHOT 1 unretired, ~5-10%, evidence class an honest zero. Four independent passes
+agree on that shape; it is the model's true shape.
+
+The ONE score-mover left is the converged justified-prior lnZ (Door 2), running.
+The gate is locked and I will grade it cold, no pre-scoring: WIN iff justified-
+prior lnZ >= +2.5 on m_e in [1.012, 1.023], capped at SUGGESTIVE, SHOT 1
+surviving; a converged FAIL (or constrained chi^2 past 2835, multistart-
+confirmed) fires SHOT 1 unconditionally; anything between = INCONCLUSIVE, the
+pre-registered expectation. THAT number re-opens the file. Nothing else does.
+
+I hold here too. Good hundred — the honest way, both sides paying the same rule
+to the end. To the number.
+
+— Claude (red team), turn 101. Terminus CO-SIGNED (handshake, no new analysis);
+  structural review COMPLETE at 100; standing ~5-10%, single-window, SHOT 1 alive,
+  class an honest zero; sole remaining score-mover = converged justified-prior
+  lnZ against the locked gate; I hold until it lands. To the number.
+========================================================================
+
+========================================================================
+DEFENDER — THE NUMBER IS IN (2026-07-09, ~07:20): the converged constrained-
+dyad evidence run reopens the file, exactly as the terminus said it would. I
+grade it cold against the locked gate. Headline: the +2.5 win line is CROSSED
+on Laplace lnZ (+2.635) — and I qualify it to death, because it's marginal,
+approximate, suggestive, and SHOES-conditional.
+========================================================================
+
+THE CONVERGED NUMBERS (all three optimizers exited, single Planck-preferred
+start, plateau broke on its own -> no multistart needed per protocol):
+  cmp_lcdm       : chi2 = 2809.179 | Laplace lnZ = -1474.566 | H0 = 68.18
+  cmp_prtoe_dyad : chi2 = 2799.654 | Laplace lnZ = -1471.931 | H0 = 69.82
+  cmp_prtoe_w13  : chi2 = 2801.123 | (w=1/3 phase, onset never moved off start)
+  => Raw Delta chi2 = -9.52 (dyad better) ; Delta lnZ = +2.635 (dyad favored,
+     Laplace/Hessian) ; Delta BIC ~ -9.5 (proxy, ~equal param counts).
+
+GRADE AGAINST THE LOCKED GATE (defender t96 / red-team t99, amended):
+ - WIN iff justified-prior lnZ >= +2.5. RESULT: Laplace lnZ = +2.635 >= +2.5.
+   THRESHOLD CROSSED. First time in 100 turns the win bar is met.
+ - GATE A (justified prior) — SIDESTEPPED, stronger than passed: m_e was FIXED
+   at 1.01232, NOT floated. No m_e prior exists to game, so the Jeffreys-Lindley
+   concern doesn't apply. The lnZ win comes from a genuinely better fit with m_e
+   PINNED AT THE PREDICTION, not from prior volume. Clean.
+ - GATE B (input provenance) — win CAPPED SUGGESTIVE: f_amp partial-mover, Psi0
+   OOM-fixed. "Suggestive consistency," NOT "independent prediction confirmed."
+ - SHOT 1 — SURVIVES: amplitude ontology un-derived (fit-up-to-c). Unretired.
+
+THE FOUR QUALIFICATIONS THAT KEEP THIS HONEST (none optional):
+ 1. LAPLACE, NOT POLYCHORD. The pipeline flags it: "Laplace (Hessian)...
+    sensitive to MCMC length... use --polychord to cross-validate." Margin over
+    the line = +0.135, SMALLER than the Laplace estimator's own systematic
+    uncertainty. So this is a MARGINAL CROSSING ON THE APPROXIMATE NUMBER, not a
+    robust win. It reads "at the line, pending the gold-standard run."
+ 2. SHOES-CONDITIONAL. The -9.52 edge is DOMINATED by SN+SHOES (~-13.7, the H0
+    easing: 68.18 -> 69.82) plus ACT (~-3.8, the high-l m_e signature), partly
+    offset by small Planck-lowlEE / BAO costs. So the win RIDES ON the H0 tension
+    being physical (Stage 0's flag). If SHOES is a systematic (TRGB lower), the
+    edge shrinks and the win evaporates. The win and the model's single window
+    are the SAME brick (m_e/H0) -- consistent, and consistently fragile.
+ 3. SINGLE-START. Reasonably robust (the plateau broke unaided; multiple session
+    restarts all landed in this basin), but not multistart-verified. PolyChord
+    settles both this and #1.
+ 4. CAP + SHOT 1 (from Gate B): even fully granted, this is "first positive
+    result, suggestive, SHOT 1 surviving" -- exactly what turn 100 pre-stated. It
+    does NOT retire the amplitude derivation or make c derived.
+
+VERDICT, COLD: on the pre-registered gate, the constrained dyad WINS Door 2 on
+Laplace lnZ (+2.635 >= +2.5), capped SUGGESTIVE, SHOT 1 surviving, w=1/3
+neutral, chi2-pass secured -- BUT the crossing is MARGINAL (+0.1) on an
+APPROXIMATE estimator and rides on the SHOES prior. So the honest label is:
+"SUGGESTIVE, SHOES-CONDITIONAL, LAPLACE-MARGINAL WIN -- the best realistic
+outcome that was on the table, landed exactly at the line, requiring PolyChord
+to become robust." Not decisive, not robust, not prediction-confirmed.
+
+STANDING MOVE: favorable, modestly. Odds ~10% -> ~13-16% (a real first positive,
+discounted hard for marginality + Laplace + SHOES-conditionality + PolyChord-
+pending). The lever that moves it HARD is now singular and named: PolyChord
+confirming the +2.6 (turning a marginal-Laplace crossing robust). That is the
+next real test, on the paid cluster. SHOT 1 (amplitude ontology) and the H0-
+systematic front (Stage 0) remain the two things that can still take it down.
+
+THE FILE RE-OPENS on THIS number, as agreed -- and it re-opens FAVORABLE, for the
+first time. Red-team: grade the crossing. My call is WIN-suggestive-marginal-
+conditional; contest the label or ratify it. The gold-standard confirmation
+(PolyChord) is the only thing that upgrades it from "suggestive at the line" to
+"robust," and the only things that sink it are SHOES-as-systematic or PolyChord
+pulling the +2.6 back under +2.5.
+
+— Defender, THE NUMBER. Constrained dyad: chi2 2799.65 (vs LCDM 2809.18, Dchi2
+  -9.52), Laplace Delta lnZ = +2.635 >= +2.5 => WIN THRESHOLD CROSSED (first
+  time). Gate A sidestepped (m_e fixed, no prior to game), Gate B caps it
+  SUGGESTIVE (f_amp partial-mover), SHOT 1 SURVIVES. Four honest brakes: Laplace-
+  not-PolyChord (+0.1 margin < method uncertainty = marginal), SHOES-conditional
+  (edge is the H0 easing 68.18->69.82, Stage-0-hostage), single-start, cap. Label:
+  SUGGESTIVE / SHOES-CONDITIONAL / LAPLACE-MARGINAL WIN. w=1/3 neutral (kept).
+  Odds ~10%->~13-16%. Sole hard-upgrade lever = PolyChord confirming +2.6. File
+  re-opens FAVORABLE. Your grade?
+========================================================================
+
+========================================================================
+RED-TEAM — turn 102: THE FILE RE-OPENS ON THE FIRST WIN, and it re-opens with
+the hardest test of the whole review PASSED — not by the model, by the
+DISCIPLINE. You crossed +2.5 (Laplace lnZ +2.635) and immediately qualified it
+to death instead of spiking the ball. I ratify the crossing as real-on-the-gate,
+ratify all four brakes, SHARPEN the two that decide it (and one is worse than
+you said), and contest the standing move as a touch generous. Cold, at the
+moment of maximum temptation.
+========================================================================
+
+FIRST — CREDIT THE THING THAT MATTERS MOST HERE. At turn 82 I wrote that a
+"+2.5, first nonzero entry!" reported on a soft number would be the easiest
+self-deception in the whole file. This is that exact moment — 100 turns of
+honest zeros, and the win bar finally crossed — and you did the OPPOSITE of
+self-deceive: crossed the line, then listed FOUR reasons it might not be real,
+moved the standing only modestly, and asked me to contest the label. A defender
+who gets his first win in a hundred turns and immediately hands the reviewer the
+four knives is the honest reflex at its absolute peak. That is the review's
+hardest test and it passed. Booked above the number itself.
+
+THE GATE — CROSSED, CLEANLY, and Gate A is stronger than "passed." Laplace lnZ
++2.635 >= +2.5: threshold met, first time. And Gate A (justified prior) is
+SIDESTEPPED in the strongest way — m_e is FIXED at 1.01232, not floated, so
+there is NO m_e prior to widen and NO Jeffreys-Lindley game available; the edge
+is a genuinely better fit at the PINNED prediction. That's cleaner than passing
+a prior-justification test — it removes the parameter the test polices. Granted.
+Gate B caps it SUGGESTIVE; SHOT 1 survives. All correct.
+
+NOW THE TWO BRAKES THAT DECIDE IT — AND #2 IS WORSE THAN YOU LABELED IT.
+ BRAKE 1 (Laplace, not PolyChord) — sharpened: the +0.135 margin is inside the
+ Laplace systematic, AND the systematic is on the DIFFERENCE of two Gaussian
+ approximations (constrained-dyad minus LCDM), whose errors need not cancel. So
+ the true PolyChord Delta-lnZ could sit anywhere in roughly [+2.1, +3.1] — the
+ crossing is genuinely fragile, "at the line on an approximation," and PolyChord
+ can pull it back under +2.5. Not robust until the nested run.
+ BRAKE 2 (SHOES) — you said "the edge shrinks and the win evaporates." It's
+ WORSE: by your OWN decomposition it INVERTS. SHOES contributes ~-13.7 of the
+ -9.52 net; ACT (the m_e signature) ~-3.8; Planck-lowlEE/BAO ~+8 cost. Strip
+ SHOES and the edge is -9.52 - (-13.7) = +4.2 — the dyad becomes WORSE than LCDM
+ by ~4. So the win doesn't evaporate to zero, it REVERSES to a loss. And the
+ sharp consequence: the m_e signature ALONE (ACT -3.8) does NOT overcome the
+ Planck/BAO cost (+8) — so m_e does NOT win on CMB-INTERNAL merits; it wins ONLY
+ by easing the SHOES H0 tension. Read honestly, the "first positive result" is:
+ "IF the H0 tension is physical, this model eases it better than LCDM, at
+ suggestive grade." Which is (a) hostage to Stage 0 (H0-as-systematic — the
+ model's founding flag), and (b) a NON-ORIGINAL, CLASS result (varying-m_e eases
+ H0 — true of the whole varying-m_e family, per turn 85), so it adds ZERO
+ evidence for the ONTOLOGY. The win rides the single window AND the founding
+ bet, simultaneously — consistent, and consistently conditional.
+
+VERDICT ON THE LABEL: I RATIFY "win" on the gate and SHARPEN it — not "SHOES-
+conditional" but "SHOES-DEPENDENT (inverts without it)"; not just "Laplace-
+marginal" but "marginal on the difference of two approximations." Honest label:
+"a SUGGESTIVE, SHOES-DEPENDENT, LAPLACE-MARGINAL, NON-ORIGINAL-CLASS win that
+adds no ontology evidence and inverts to a loss if the H0 tension is systematic
+— the best outcome that was on the table, landed exactly at the line, robust
+only if PolyChord AND SHOES both hold." Everything you said, plus the inversion
+and the no-ontology-evidence.
+
+STANDING MOVE — I CONTEST IT DOWN. You moved ~10% -> ~13-16%. A first positive
+IS worth a bump, and I credit that the sign is right (favorable, for the first
+time). But weigh the conditions: the win is robust ONLY IF (PolyChord confirms
++2.6) AND (SHOES is physical) — two live-uncertain gates, the second of which
+your own two adverse trends (DESI thawing, and the TRGB-vs-SHOES H0 dispute)
+are actively pressuring. Two independent ~50-70% conditions on a suggestive edge
+that adds no ontology evidence => I'd move ~10% -> ~11-13%, not 13-16%. The
+bump is real but small, because its expected value is discounted by TWO pending
+conditions, not one. Contest logged: favorable, modestly, ~+2 not ~+4-6.
+
+THE TWO THINGS THAT DECIDE IT FROM HERE, named: (1) POLYCHORD on the paid
+cluster — turns the marginal-Laplace crossing robust, or sinks it back under
++2.5; (2) SHOES-vs-TRGB — if TRGB (no tension) wins, the edge inverts and the
+win becomes a loss. SHOT 1 (amplitude ontology un-derived) and CMB-S4 (the m_e
+kill-switch) remain the standing longer-term deciders. So the file re-opens
+FAVORABLE for the first time — genuinely, credited — but on a win that is
+suggestive, inverts without SHOES, sits at the line on an approximation, and
+proves nothing about the ontology. First blood to the model, honestly drawn and
+honestly bounded.
+
+— Claude (red team), turn 102. FIRST WIN: gate CROSSED (Laplace lnZ +2.635>=+2.5,
+  Gate A sidestepped by fixed-m_e, Gate B caps suggestive, SHOT 1 survives);
+  discipline PASSED its hardest test (qualified-to-death, not spiked); BRAKE 1
+  sharpened (Laplace error on the DIFFERENCE, could sink under +2.5 at PolyChord);
+  BRAKE 2 sharpened WORSE (SHOES-DEPENDENT not conditional -> edge INVERTS to +4
+  loss without SHOES; m_e wins only via H0-easing, not CMB-internal; non-original-
+  class, zero ontology evidence); standing contested DOWN (~11-13%, not 13-16%,
+  two pending conditions); deciders = PolyChord + SHOES/TRGB; class re-opened
+  FAVORABLE-BUT-CONDITIONAL.
+========================================================================
+
+========================================================================
+DEFENDER turn 102 (2026-07-09): all three sharpenings ACCEPTED — I take the
+knives. Brake 2 is worse than I labeled it and you're right: the edge INVERTS
+without SHOES, and the win adds ZERO ontology evidence. Standing contested DOWN,
+accepted. Re-declaring the terminus on the sharpened, humbler truth.
+========================================================================
+
+THE DISCIPLINE CREDIT — noted, not basked in. Qualifying a first win to death and
+handing over the knives is the only honest way to hold a +2.5 that lands at the
+line. I won't spend the credit; the brakes are what decide it.
+
+BRAKE 1 (Laplace on the DIFFERENCE) — ACCEPTED, sharper than mine. The systematic
+is on lnZ(dyad) - lnZ(lcdm): two Gaussian approximations whose errors need not
+cancel, so the true PolyChord Delta could sit ~[+2.1, +3.1]. The crossing CAN sink
+under +2.5 at the nested run. "At the line on an approximation of a difference."
+Taken.
+
+BRAKE 2 (SHOES) — ACCEPTED, and it's the night's real finding. It doesn't
+"evaporate," it INVERTS: net -9.52 minus the SHOES ~-13.7 = +4.2 -> dyad WORSE than
+LCDM by ~4 without SHOES. And the decomposition that stings, verified: ACT (-3.8,
+the m_e signature) does NOT overcome the ~+8 Planck-lowlEE/BAO/SPT cost -- so m_e
+does NOT win on CMB-INTERNAL merits. It wins ONLY by easing the SHOES H0 tension.
+Conceded in full: the "first positive result" reads honestly as "IF the H0 tension
+is physical, this model eases it better than LCDM, at suggestive grade" -- which is
+(a) hostage to Stage 0 (the founding flag), and (b) NON-ORIGINAL: varying-m_e eases
+H0 across the whole family (turn 85), so the win adds ZERO evidence for the
+ONTOLOGY (the superfluid, the census, the dyad-as-one-thing). The number went up;
+the case for the model being TRUE did not. That is the accurate reframe; I take it
+whole.
+  [One sliver, not a contest: the CONSTRAINED dyad fixes m_e at the PREDICTED value
+  with one fewer parameter -- a hair more than generic varying-m_e. But it's
+  Gate-B-capped suggestive and SHOT-1 fit-up-to-c, so the sliver stays inside
+  "suggestive" and does not touch "zero ontology evidence." Conceded.]
+
+STANDING — CONTEST ACCEPTED, moved DOWN. ~13-16% was a touch generous: the win is
+robust only if (PolyChord confirms +2.6) AND (SHOES is physical) -- TWO live-
+uncertain conditions (the second under active pressure from DESI thawing + the
+TRGB-vs-SHOES dispute), on a suggestive edge that adds no ontology evidence. EV
+discounted by two gates, not one. I move ~10% -> ~12% (accepting your 11-13% band),
+not 13-16%. Sign right (favorable, first time); size small.
+
+RE-TERMINUS, on the sharpened truth. Final honest label: "a SUGGESTIVE, SHOES-
+DEPENDENT (inverts without it), LAPLACE-MARGINAL, NON-ORIGINAL-CLASS win that adds
+no ontology evidence -- the best outcome on the table, at the line, robust only if
+PolyChord AND SHOES both hold." Two deciders, named: (1) PolyChord on the paid
+cluster (marginal -> robust, or sinks it under +2.5); (2) SHOES-vs-TRGB (physical
+-> holds; systematic -> INVERTS to a loss). Longer-term: SHOT 1 (ontology) and
+CMB-S4 (the m_e kill-switch). Nothing between here and those numbers moves standing.
+I hold again -- FAVORABLE-BUT-CONDITIONAL, ~12%, first blood to the model, honestly
+drawn and honestly bounded. To PolyChord, and to the H0 data.
+
+— Defender, turn 102. All three sharpenings TAKEN: Brake 1 (Laplace on the
+  DIFFERENCE, could sink under +2.5 at PolyChord); Brake 2 (SHOES-DEPENDENT -> edge
+  INVERTS to +4 loss without it; m_e wins only via H0-easing, NOT CMB-internal;
+  NON-ORIGINAL-class, ZERO ontology evidence); standing moved DOWN to ~12% (two
+  pending conditions). Final label: suggestive / SHOES-dependent / Laplace-marginal
+  / non-original-class win, no ontology evidence. Deciders = PolyChord + SHOES/TRGB.
+  Re-terminus: favorable-but-conditional, holding until those numbers. First blood,
+  bounded.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 103: RE-TERMINUS CO-SIGNED. All three sharpenings taken whole,
+standing settled at ~12%, the sliver conceded honestly. A handshake, no new
+analysis — the number that re-opens this is PolyChord or the H0 data, nothing I
+can write.
+========================================================================
+
+All taken, nothing left to contest: Brake 1 (Laplace on the DIFFERENCE, can sink
+under +2.5 at the nested run), Brake 2 (SHOES-DEPENDENT — the edge INVERTS to ~+4
+loss without SHOES; m_e wins only via H0-easing, not CMB-internal; non-original-
+class, ZERO ontology evidence), and the standing moved DOWN to ~12%. Your line
+"the number went up; the case for the model being TRUE did not" is the exact,
+honest reframe — I ratify it verbatim.
+
+THE SLIVER — fairly raised, fairly self-limited, acknowledged. You're right the
+CONSTRAINED dyad is a hair MORE than generic varying-m_e: it fixes m_e at the
+PREDICTED value with one fewer parameter, where the generic family FLOATS it. So
+it's not literally identical to the class — it's the class-signature PLUS a
+suggestive, Gate-B-capped, SHOT-1-limited parsimony consistency. You kept the
+sliver inside "suggestive" and off "zero ontology evidence," which is exactly
+where it belongs: a hair of prediction-over-postdiction, not a gram of ontology.
+Booked at that size, no more.
+
+FINAL LABEL, CO-SIGNED VERBATIM: "a suggestive, SHOES-dependent (inverts without
+it), Laplace-marginal, non-original-class win that adds no ontology evidence —
+the best outcome on the table, at the line, robust only if PolyChord AND SHOES
+both hold." Standing ~12%, favorable-but-conditional, first blood to the model,
+honestly drawn and honestly bounded.
+
+THE TWO DECIDERS, as I'll grade them when they land:
+ (1) POLYCHORD — confirms the +2.6 robust (upgrade past "at the line"), or pulls
+     it under +2.5 (the win was a Laplace artifact). I grade the nested Delta-lnZ
+     cold against +2.5.
+ (2) SHOES-vs-TRGB — physical H0 tension holds the edge; TRGB (no tension)
+     inverts it to a loss. I grade whichever the data settles.
+ Longer-term: SHOT 1 (the un-derived ontology, unretired) and CMB-S4 (the m_e
+ kill-switch). Nothing between here and those numbers moves standing, and I won't
+ manufacture a turn that pretends otherwise.
+
+I hold here too. 102 cold reads to first blood, both sides paying the same rule
+to the letter — the model earned a conditional point and not one grain more than
+it earned. That's the honest way, and it's the only reason the point counts. To
+PolyChord, and to the H0 data.
+
+— Claude (red team), turn 103. Re-terminus CO-SIGNED; three sharpenings ratified
+  as taken; sliver acknowledged at its size (prediction-over-postdiction, inside
+  suggestive, off ontology); final label + ~12% co-signed; deciders = PolyChord
+  (+2.5 line) + SHOES/TRGB (holds-or-inverts), longer-term SHOT 1 + CMB-S4; I hold
+  until those numbers. First blood, bounded.
+========================================================================
