@@ -240,3 +240,39 @@ phase carries the FULL protecting conformal symmetry (not just a traceless T at 
 (b) compute the RUNNING of c from the conformal point and check it stays ~1 (not drifting to >2.6,
 the #16 naturalness ceiling). The conformal symmetry is only APPROXIMATE (broken by m, Psi0), so c
 is protected NEAR the origin and runs away from it -- by how much is uncomputed.
+
+## ASSUMPTION (explicitly fenced — NOT a derivation): gravity self-clumping to the c=1 attractor
+
+**The assumption, stated plainly.** Gravity is the one force that sources itself — its own
+energy gravitates, which is *why* Einstein's equations are nonlinear. We can therefore *assume*
+that due to gravity's ability to source itself, it stands to reason that gravity underwent the
+same clumping it enforces on everything else: starting diffuse (an effectively tiny coupling per
+element, c_i -> 0) and accumulating on itself until it reached c=1. IF this is the case — and IF
+the conformal origin (§ above) fixes c=1 as an *attractor* — then c is DRIVEN toward 1 by the
+self-clumping (the flow) and HELD at 1 by the conformal symmetry (the fixed point). The clumping
+supplies the journey; the fixed point supplies the stop.
+
+**The math that follows (ILLUSTRATIVE ANSATZ — makeable only in this limited form).** A coupling
+flowing to an attractive fixed point at c=1 obeys, schematically,
+
+    dc/dN = -beta(c),      beta(1) = 0,   beta'(1) > 0   (c=1 is attractive)
+
+Linearizing beta(c) = gamma (c - 1):
+
+    c(N) = 1 - (1 - c_i) e^{-gamma N}    ->    1   as N -> infinity
+
+With a diffuse start c_i ≈ 0:   c(N) = 1 - e^{-gamma N}   (rises from ~0 toward 1 — "the clumping").
+Then, as the medium leaves the conformal regime (w: 1/3 -> 0 -> -1) and conformal symmetry breaks,
+the fixed point drifts and c runs slightly ABOVE 1 — consistent with the #16 result c in [1.0, 1.9].
+
+**THE CATCH (why this is fenced as an assumption, not booked as a result).**
+  1. gamma (flow rate), N (the flow parameter — e-folds? a clumping measure? undefined), and c_i are
+     ALL undetermined. The equation illustrates the STRUCTURE of the assumption; it derives no number.
+  2. The attractor at c=1 is INPUT from the conformal-fixed-point hypothesis — it is not produced by
+     the clumping itself. The clumping alone gives no reason to stop at 1 rather than anywhere.
+  3. MOST FUNDAMENTALLY: the pre-origin "clumping of c into existence" is BEFORE the observable
+     universe. No light, no CMB, no data reaches it. So in its specific form this is UNPROVABLE and
+     UNFALSIFIABLE — a motivating natural-philosophy narrative, not physics. (The user flagged this
+     himself, correctly, before it was written down.)
+  4. What IS testable lives in #17, NOT here: whether the w=1/3 phase actually attracts/protects c to
+     1, and how c runs afterward. The clumping ORIGIN story is the *why-it-feels-right*, not the proof.
