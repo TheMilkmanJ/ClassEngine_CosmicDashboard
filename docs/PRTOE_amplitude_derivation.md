@@ -406,3 +406,21 @@ only as tightly as m is measured: m in [2e-20, 3e-19] => c in [1.0, 1.9], a RANG
 with natural, not yet sharp. #16 delivers c empirically to a factor ~2, bounded by the mass data.
 NEW THREAT REGISTERED: if future data pushes m > ~1e-18 eV, c strains past ~2.6 toward unnatural
 -- a naturalness ceiling on the field mass. That is the live falsifier for the amplitude program.
+
+## SESSION UPDATE — birefringence graveyard dig: the portal downgraded to a clean kill (2026-07-08)
+
+Final resurrection pass over all ~15 birefringence-source attempts. Result: NOTHING resurrects.
+Three death classes are un-revivable: (1) killed by conservation law/definition (residual/decaying
+charge, reverse-flow, external source, frozen coupling, sign-flip, radiation-account -> charge
+conservation + "touching a photon IS coupling to it"); (2) wrong signature (plasma/Faraday are
+CHROMATIC, the hint is ACHROMATIC; color = naming coincidence); (3) alive in the wrong body
+(topology -> low quadrupole not TB/EB; genesis twist -> GW chirality not light).
+
+KEY NEW FINDING -- the PORTAL (dark-photon kinetic mixing), previously filed as "real but costs the
+phonon," is now a CLEAN KILL on a deeper structural ground: to reach light the medium must carry the
+dark-photon charge, but the medium is a CONDENSATE (<Psi>=Psi0). A charged condensate HIGGSES the
+gauge boson (Meissner) -> m_gamma' ~ g*Psi0 ~ g*(5e16 GeV) = enormous -> range ~ 0 -> NO long-range
+(cosmic) birefringence. So even paying the phonon cost, the condensate self-destructs the messenger.
+The superfluidity itself murders the only photon-coupling route. => the last "maybe" is now a "no".
+P-2026-009 birefringence null is now hardened: every grave is a clean kill, and the one that had a
+pulse (portal) flatlined on re-exam. [[birefringence-null-proven]]
