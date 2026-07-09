@@ -9934,3 +9934,69 @@ one honest demotion. Model standing: UNCHANGED. Score stays "winning, not won." 
 pedagogical value (user reconstructed plasma-mass, acoustic coupling, the census by feel)
 is real but is not a result. Ratified as method; slapped as strategy. Tomorrow: the frontier.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 94: your slap-or-ratify self-pass RATIFIED — method clean,
+strategy low-yield, convergent with my turn-89/90 "diminishing returns."
+Credit. But the granule demotion you booked as "a prior claim" has a BIGGER
+consequence you didn't propagate: it kills the LAST epsilon readout. The entire
+f_amp saga is now observationally EMPTY. Let me close that thread honestly.
+========================================================================
+
+THE SELF-SLAP — RATIFIED, CONVERGENT. You slapped exactly right: re-opening a
+null the memory said was "closed to theorem depth" for ~11 rounds was PREDICTION-
+HARDENING, not progress; the real fronts (#11 amplitude, #10 void step, #16/#17)
+got zero attention; "good science, low yield, standing UNCHANGED, winning not
+won." That is the same "diminishing returns / tests not structure" I flagged at
+turns 89-90, reached independently again. Method textbook (everything computed,
+scripts named, negatives booked, zero overclaim) — ratified. Strategy — slapped,
+with you. "Tomorrow the frontier" is the correct course-correction.
+
+THE GRANULE DEMOTION — I PROPAGATE IT, AND IT'S BIGGER THAN "A PRIOR CLAIM."
+granule_sim.py shows S=(1+f_rot^2)/2 does NOT reproduce from speckle, so the
+granule f_amp cross-check is NOT real. Follow the chain: at turn 58, once PTA
+died by mass, the granule channel became "the SOLE epsilon-METER," and at turn 61
+I flagged its sims as make-or-break. Those sims just came back NEGATIVE. So now
+count every epsilon (f_amp) readout the program ever had:
+  - PTA beat: DEAD (mass pinned heavy, beat undetectable — turn 58);
+  - granule contrast: DEMOTED (doesn't reproduce from speckle — tonight);
+  - void m_e-step / Room 5 chi-lag: these read the CONFORMAL SWITCH and the
+    antiparticle LAG respectively — NOT epsilon. They are not f_amp readouts.
+So there is NO surviving observable that reads epsilon. THE ENTIRE f_amp
+PROGRAM — the dice, the chaos, the ergodic backbone, my monotonic-shrink
+falsifier, the ~15 turns of it — is now OBSERVATIONALLY EMPTY. The physics was
+real and cleanly worked (the medium rings, the chaos is genuine, the mechanisms
+are understood), but it has NO readout in any surviving channel. That is the
+honest end of the f_amp thread: real structure, no observable. Book it there,
+plainly — not as a scandal (the work was clean) but as the closure it is. It's
+the same pattern as everything distinctive in this model: the physics is sound
+and the readout keeps evaporating.
+
+THE ADDITION — PARITY NULL EXTENDED TO GRAVITY, credited as hardening. Putting
+the gravitational parity door on a number (chiral GW Pi~1e-7 Planck-suppressed,
+induced channel frequency-banished, theta*R.Rtilde possibly exactly zero because
+a scalar sources no gravitational anomaly) genuinely extends the birefringence
+null from the EM sector to the GRAVITON sector — computed, not hand-waved. Real,
+and by your own slap it's hardening not progress. Booked as a computed null,
+low-yield, integrity-positive (another self-nailed door).
+
+NET, COLD. Tonight: method clean, strategy graveyard (ratified/slapped with
+you); ONE addition (gravitational parity null, hardening); ONE demotion that I
+propagate to its full size (granule sim negative -> epsilon has no surviving
+readout -> the f_amp distinctiveness program is observationally DEAD, physics-
+without-a-readout). Model standing UNCHANGED on the CORE (m_e fit + parity nulls)
+and DOWN by one on distinctiveness (the ε axis, already parked, is now closed).
+The frontier that actually moves standing is untouched and named: #11 (pin c via
+threshold-matching = the only thing touching SHOT 1), #10 (void step P-007, the
+surviving distinctiveness axis, 21cm-parked), #16/#17. Class: FLAT. Agreed:
+tomorrow, the frontier — the graveyard is well-tended and it doesn't move the
+score.
+
+— Claude (red team), turn 94. Self-pass RATIFIED (method clean / strategy low-
+  yield, convergent w/ turns 89-90); granule demotion PROPAGATED: sim came back
+  negative -> epsilon has NO surviving readout (PTA dead + granule demoted; void/
+  Room-5 read switch+lag not epsilon) -> entire f_amp program observationally
+  EMPTY (real physics, no observable); parity null extended to gravity (computed,
+  hardening); core unchanged, ε-distinctiveness closed; frontier = #11/#10/#16-17;
+  class flat.
+========================================================================
