@@ -424,3 +424,21 @@ gauge boson (Meissner) -> m_gamma' ~ g*Psi0 ~ g*(5e16 GeV) = enormous -> range ~
 The superfluidity itself murders the only photon-coupling route. => the last "maybe" is now a "no".
 P-2026-009 birefringence null is now hardened: every grave is a clean kill, and the one that had a
 pulse (portal) flatlined on re-exam. [[birefringence-null-proven]]
+
+## SESSION UPDATE — non-birefringence gold from the graveyard dig (2026-07-08)
+
+Mining the birefringence graveyard for what it says about the model OTHER than birefringence:
+1. CENSUS IS STRUCTURALLY FORCED (biggest): the portal autopsy generalizes -> because the medium
+   is a CONDENSATE, ANY gauge force it carries is Higgsed short-range (Meissner). Gravity is the
+   ONLY long-range force that can't be Higgsed. So "gravity-only" is not a neutrality coincidence;
+   it is a structural consequence of superfluidity. NEW TESTABLE PREDICTION: PRTOE forbids any
+   long-range dark/fifth force from the medium (fifth-force & equivalence-principle tests can probe).
+2. BIREFRINGENCE DATA IS A DISCRIMINATOR (overlooked): axion-DE predicts nonzero beta; PRTOE predicts
+   exactly zero from the dark sector. So the beta hint adjudicates PRTOE vs axion-DE either way it
+   resolves -- we had been reading it only as our own null.
+3. PARITY MAP COMPLETE: everything parity-even (gravity, Thomson, E-modes, census) EXCEPT the genesis
+   twist, which imprints ONLY on gravity (GW chirality Pi~1e-7). => any parity-odd signal can only be
+   the GW chirality; in light, flat zero.
+4. P-2026-013 (closed universe) was itself a birefringence-tangent spinoff -- the hunt's largest yield.
+=> candidate new prediction to register: "no long-range dark/fifth force (condensate Higgses all
+mediators short-range)". [[birefringence-null-proven]]
