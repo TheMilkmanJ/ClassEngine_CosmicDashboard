@@ -1274,3 +1274,27 @@ observed low quadrupole is only ~2sigma (cosmic variance). => P-2026-013 is quan
 TIGHT: falsifiers now sharpened to (a) matched circles found at L<2D (would've been seen) OR pushed
 so large no suppression remains; (b) octupole suppressed as much as/more than quadrupole (wrong
 pattern); (c) confirmed infinite. Near-future full-sky circle searches + low-l pattern analysis test it.
+
+## P-2026-009 RESURRECTION PROTOCOL (pre-committed 2026-07-08): axe any birefringence-positive BEFORE celebrating
+
+The birefringence null is proven from ~15 independent angles and is LOAD-BEARING (tied to L1/census,
+charge conservation, P-2026-013 net-0, P-2026-014 no-fifth-force). THEREFORE any future result showing
+PRTOE CAN source cosmic birefringence has a HIGH PRIOR of being an ERROR, not a discovery. Correct first
+reaction: "what did I break?" -- NOT "eureka." A birefringence-positive path is NOT accepted, even
+provisionally, until it passes ALL SIX:
+  1. GRAVEYARD GAUNTLET: run it through all ~15 prior kills. It MUST die where they died -- OR the exact
+     reason it survives must be identified and shown to be a real NEW mechanism, not a hidden assumption
+     or a dropped constraint.
+  2. CHARGE AUDIT: did it secretly hand the medium a net/effective EM charge? If yes -> ERROR (charge
+     conservation + census). Charge cannot be created, decayed, frozen, or relocated; a path needing it
+     is broken by definition.
+  3. CENSUS CHECK: is gravity-only (L1) violated? A birefringence coupling IS an EM transaction. Re-derive
+     the census; if the path breaks it, the path is what breaks.
+  4. TOPOLOGY CHECK: does it violate P-2026-013 net-0 (a compact universe forces total gauged charge = 0)?
+  5. SIGNATURE CHECK: ACHROMATIC (fundamental) or CHROMATIC ~lambda^2 (Faraday/foreground)? Chromatic ->
+     not us. Also rule out polarization-angle miscalibration (the field's dominant systematic).
+  6. PHONON CHECK: did it require gauging the U(1)? That makes a superconductor (eats the w=1/3 phonon,
+     Higgses the mediator) -> a DIFFERENT model, not PRTOE.
+Only a path passing ALL SIX is even a candidate. The stronger the null, the higher the bar to overturn it
+-- and this null is as strong as they come. Pre-committed NOW so a future excited self cannot skip it.
+[[birefringence-null-proven]]
