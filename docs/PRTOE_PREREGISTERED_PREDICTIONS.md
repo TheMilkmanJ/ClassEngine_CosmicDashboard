@@ -1255,3 +1255,22 @@ is WITHDRAWN (flat is now the prediction, not a falsifier). New live falsifiers:
 INFINITE universe / no compact-topology signature at any scale; (b) no large-angle power suppression;
 (c) Ok pushed firmly NEGATIVE by data (positively-curved-closed) -- which would both cost H0 and
 contradict the flat-torus form. The H0 easing and the (refined) shape bet are now COMPATIBLE.
+
+## P-2026-013 QUANTITATIVE UPDATE (2026-07-08): flat-torus quadrupole window computed
+
+`scripts/torus_quadrupole.py` (sanity-matched: numeric C2(full)=0.0833=analytic). Sachs-Wolfe
+leading-order estimate of the flat 3-torus large-angle suppression (finite box -> no modes with
+k<2pi/L). Quadrupole suppression C2(torus)/C2(inf) vs box size L (D=comoving dist to last scatter):
+   L=10D: 1.00 ;  L=4D: 0.94 ;  L=3D: 0.83 ;  L=2D(=obs.univ.diam): 0.49 ;  L=1.5D: 0.19 (excluded).
+KEY RESULTS:
+ (1) the torus reproduces the observed low quadrupole (~0.2-0.5 of LCDM) ONLY for L ~ 2-2.5 D --
+     i.e. a box just larger than the observable universe, RIGHT AT the matched-circle bound (no
+     circles => L > ~2D). Bigger box -> suppression fades; smaller -> circles would be seen. A
+     razor-thin viable window L ~ 2-3D at the current detection threshold.
+ (2) DISTINCTIVE SIGNATURE: quadrupole suppressed MORE than octupole (0.49 vs 0.85 at L=2D) --
+     scale-dependent, hits the largest scale hardest, matching the FORM of the real low-l anomaly.
+CAVEATS: SW-only, isotropic-cutoff estimate; full torus C_l is anisotropic (preferred axes) + ISW;
+observed low quadrupole is only ~2sigma (cosmic variance). => P-2026-013 is quantitatively LIVE but
+TIGHT: falsifiers now sharpened to (a) matched circles found at L<2D (would've been seen) OR pushed
+so large no suppression remains; (b) octupole suppressed as much as/more than quadrupole (wrong
+pattern); (c) confirmed infinite. Near-future full-sky circle searches + low-l pattern analysis test it.
