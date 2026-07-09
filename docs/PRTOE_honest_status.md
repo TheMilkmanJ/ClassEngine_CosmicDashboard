@@ -53,3 +53,21 @@ we get. For the running PRTOE-vs-LCDM full-data comparison (#19), verdict thresh
                   LCDM-like + the m_e signature; a decisive win would be a genuine surprise.
 No moving these after the optimizers finish. (Optimizer gives a Laplace ln Z + bestfit chi2 for
 BIC/AIC; gold-standard PolyChord ln Z is the eventual publication number.)
+
+## #22 DE-FLOOR — the one serious calculation, RESOLVED (2026-07-08)
+
+`scripts/floor_ghost_condensate.py`. Ran red-team's demanded single calculation of the (delta K)^2 /
+ghost-condensate critical-point floor. k-essence P(X): rho=2X P_X - P, p=P, c_s^2=P_X/(P_X+2X P_XX).
+RESULTS:
+  - w=-1 EXACTLY at P_X=0 (X0), c_s^2=0 there -> exact de Sitter floor. And for X<X0, c_s^2<0 (unstable)
+    -> the floor is an ATTRACTOR approached from ABOVE (field cannot sit below it). Good feature.
+  - STABILITY: PASS. The c_s^2=0 flat direction is stabilized by the (delta K)^2 k^4 term
+    (omega^2 = alpha/M^2 k^4 > 0 for alpha>0; window P_XX>0 & alpha>0, Arkani-Hamed+ 2004). The
+    self-tuning TOY RAN AWAY ONLY because it dropped that k^4 term; WITH it, the floor holds.
+  - SELF-TUNING: FAIL. V0(=Lambda) is a free, TUNED parameter -- mechanism does NOT explain why
+    Lambda is small (Weinberg's no-go stands).
+VERDICT (red-team fight-or-concede resolved): KEEP the stable DYNAMICAL w=-1 floor (a real mechanism,
+an attractor, better than a bare constant); CONCEDE the self-tuning / "solves the cosmological-constant
+problem" claim. Update the least-trusted-joints ranking: the floor is no longer "no working mechanism"
+-- it has a stable mechanism -- it just isn't a CC-problem solution (which we should never have claimed).
+Net odds effect: mildly favorable (the floor is not a fatal flaw), minus one over-claim retracted.
