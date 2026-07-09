@@ -41,3 +41,15 @@ internally consistent, honestly labeled, and carrying a ~2.7sigma detected signa
 dominated by RESOLVABLE cruxes: Q1 (evidence), Q2 (m_e reality), Q4 (floor). Favorable resolutions
 move it up hard; unfavorable collapse it honestly. High-variance bet with crisp cruxes -- the kind
 worth holding. **Update this number as each crux lands.**
+
+## PRE-COMMITTED evidence verdict (locked 2026-07-08, BEFORE #19 returns)
+
+Red-team rule: lock what counts as a win BEFORE the number comes back, or we rationalize whatever
+we get. For the running PRTOE-vs-LCDM full-data comparison (#19), verdict thresholds committed NOW:
+  - PRTOE WINS:   Delta lnZ >= +2.5 in PRTOE's favor (moderate+) AND Delta BIC <= -2
+                  (BIC/AIC already penalize PRTOE's ~2 extra physical params: varying_me, m_ncdm).
+  - LCDM WINS:    Delta lnZ <= -2.5  OR  Delta BIC >= +2.
+  - INCONCLUSIVE: anything in between -- and this is the HONESTLY-EXPECTED outcome, since PRTOE is
+                  LCDM-like + the m_e signature; a decisive win would be a genuine surprise.
+No moving these after the optimizers finish. (Optimizer gives a Laplace ln Z + bestfit chi2 for
+BIC/AIC; gold-standard PolyChord ln Z is the eventual publication number.)
