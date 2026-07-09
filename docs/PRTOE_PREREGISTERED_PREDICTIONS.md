@@ -1233,3 +1233,25 @@ scoreboard.
 
 **Status:** the beta hint is ~2.4-3.6 sigma (not yet decisive). PRTOE is on the "beta -> 0" side of
 the bet. Next-gen CMB (LiteBIRD, CMB-S4, with polarization-angle calibration) will resolve it.
+
+## P-2026-013 STATUS UPDATE + REFINEMENT (2026-07-08, same-day): flat-finite, NOT curved-closed
+
+**Justin's directional call (logged as placed):** a closed universe RAISES H0 toward SHOES.
+**Quick check adjudication (`scripts/curvature_H0_check.py`, sanity-matched: Ok=-0.044 -> H0=55.0,
+= Planck-alone):** the geometry says the OPPOSITE. At fixed CMB acoustic scale theta_* and fixed
+omega_m: Ok=0 -> H0=69.9 ; Ok=-0.01 -> 65.3 ; Ok=-0.04 -> 56.0 ; Ok=+0.02 (open) -> 84.6.
+=> CLOSED (Ok<0) LOWERS H0 (away from SHOES); OPEN raises it. The directional bet is AGAINST the
+geometry, and the earlier threat is CONFIRMED: positive curvature fights the m_e H0 easing.
+
+**Tension exposed:** finitism WANTS closed; H0-easing WANTS flat. Opposite pulls on curvature.
+**Resolution (REFINES the prediction, does not kill it):** the bet needed FINITENESS, not CURVATURE.
+A FLAT 3-TORUS is finite + compact + no-center + no-edge (satisfies finitism and the whole no-center
+chain) AND flat (Ok=0 -> H0 easing untouched, stays 69.9). So the corrected bet is FLAT-AND-COMPACT
+(3-torus, Ok~0), NOT positively-curved-closed (3-sphere, Ok<0).
+
+**P-2026-013 primary claim updated:** Ok ~ 0 (FLAT) + compact/finite topology + suppressed large-angle
+CMB power (a finite box quantizes the largest modes even when flat). The old falsifier "Ok firmly >=0"
+is WITHDRAWN (flat is now the prediction, not a falsifier). New live falsifiers: (a) a confirmed
+INFINITE universe / no compact-topology signature at any scale; (b) no large-angle power suppression;
+(c) Ok pushed firmly NEGATIVE by data (positively-curved-closed) -- which would both cost H0 and
+contradict the flat-torus form. The H0 easing and the (refined) shape bet are now COMPATIBLE.
