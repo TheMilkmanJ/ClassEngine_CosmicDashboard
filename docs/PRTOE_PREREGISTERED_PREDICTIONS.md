@@ -1136,3 +1136,45 @@ Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute 
 - **Meta:** this session's DE/neutrino superstructure is speculation-heavy; the honest state is
   scoped-and-owed, not built. Priority now = TESTS (Sum m_nu, DESI w=-1, fuzzy-DM mass), not
   more structure.
+
+## P-2026-013: The universe is closed/compact (the "all in" topology bet, pre-registered 2026-07-08)
+
+**The claim (COHERENCE LEAN — the softest evidential class in this registry, labeled honestly):**
+PRTOE favors a **closed / compact universe** (finite volume, no edge, no center, no infinities).
+This is NOT a hard derivation — the model does not *force* closed topology. It is a *convergence*
+of three independent structural instincts that all point to the same geometry:
+  1. **Finitism** — the model's own stance that physical infinities are unreal (same instinct that
+     makes r=0 singularities unphysical). A closed universe is finite; an infinite flat one is not.
+  2. **No-center resolution** — a finite universe with no center and no edge REQUIRES a closed
+     (compact) geometry (3-sphere / 3-torus): "infinite without actually being infinite."
+  3. **The census net-0** — a closed (compact) universe FORCES total gauged (electric) charge = 0
+     by Gauss's law (field lines have no boundary to escape through). This is EXACTLY the census's
+     EM-neutrality. Consistency note: the model's DARK charge is GLOBAL, not gauged, so it is FREE
+     to carry the net surplus ("charge = abundance") even in a closed universe — the electric books
+     close because they must, the dark books run the surplus because they may.
+
+**The honest logical catch (why this is a LEAN, not a proof):** net-0 electric charge is DEMANDED by
+closed topology but ALSO ALLOWED by flat/infinite topology -> observing net-0 is NECESSARY but NOT
+SUFFICIENT. It keeps closure alive; it cannot convict. The bet rests on the *coherence* of the three
+instincts, not on the charge test alone.
+
+**Observable content / where the shape imprints:**
+  - **Ω_k < 0** (positive spatial curvature). [primary handle]
+  - **Suppressed large-angle CMB power** (low quadrupole / large-scale cutoff): a compact universe
+    cannot fit wavelengths larger than its box, so the largest primordial modes (set by the genesis
+    twist-and-snap) get chopped. The topology *filters* the genesis imprint at the top end.
+  - **Matched circles / repeated patterns** in the CMB IF the topology scale is within the horizon
+    (none found to date -> if compact, the loop is LARGER than the observable universe).
+
+**Falsification (both ways, per registry rule):**
+- KILLED by: Ω_k pinned firmly >= 0 (flat or open) with NORMAL large-angle power; OR a confirmed
+  flat-AND-infinite universe; OR discovery of a net gauged (electric) charge (directly forbids closed).
+- SUPPORTED by: Ω_k tightening to a robust negative value; persistent large-angle power suppression;
+  eventual detection of matched circles.
+
+**Status at registration:** MILDLY + CONTESTEDLY consistent. The Planck-lensing closed hint
+(Ω_k ~ -0.04 at ~2-3 sigma, Di Valentino-Melchiorri-Silk 2019) weakens when BAO is added; the low
+CMB quadrupole is a real but cosmic-variance-limited anomaly. NOT proven, NOT dismissed. Future data
+(CMB-S4, improved lensing + BAO) will tighten Ω_k and the large-angle spectrum decisively. This is
+the first PRTOE prediction to emerge purely from the foundational-coherence chain (finitism + census
++ no-center), and the first the *global shape of space itself* can adjudicate.
