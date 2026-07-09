@@ -1178,3 +1178,58 @@ CMB quadrupole is a real but cosmic-variance-limited anomaly. NOT proven, NOT di
 (CMB-S4, improved lensing + BAO) will tighten Ω_k and the large-angle spectrum decisively. This is
 the first PRTOE prediction to emerge purely from the foundational-coherence chain (finitism + census
 + no-center), and the first the *global shape of space itself* can adjudicate.
+
+## P-2026-014: No long-range dark / fifth force — the condensate forbids it (pre-registered 2026-07-08)
+
+**The claim (STRUCTURAL COROLLARY of the census, now with a mechanism + a lab test):** PRTOE
+forbids any **long-range** mediated (gauge) force from the dark medium. Only gravity — which
+cannot be Higgsed — acts at long range. Equivalently: **no fifth force, no long-range dark force,
+no equivalence-principle violation** sourced by the dark sector.
+
+**The mechanism (why this is robust, not assumed):** the medium is a **condensate** (<Psi> = Psi0
+~ 5e16 GeV). A charged condensate **Higgses any gauge boson it couples to** (Anderson-Meissner):
+the mediator acquires mass m ~ g*Psi0, which is enormous for any non-tiny coupling -> range ~ 0.
+So even IF the medium carried a gauge charge, the force it mediated would be **short-range by
+construction.** Gravity is the sole long-range survivor because it is the only interaction that a
+condensate cannot make massive. "Gravity-only" is therefore a STRUCTURAL consequence of
+superfluidity, not a coincidence of neutrality. (Emerged from the birefringence portal autopsy,
+2026-07-08.)
+
+**Falsification (both ways):**
+- KILLED by: detection of a long-range fifth force, a new light mediator, or an equivalence-
+  principle violation attributable to the dark sector (torsion-balance / MICROSCOPE-class / lunar
+  laser ranging finding a composition- or dark-density-dependent acceleration).
+- SUPPORTED by: continued null results in fifth-force and EP tests (current bounds are already
+  extremely tight and consistent with this claim).
+
+**Status:** CONSISTENT with all current data (no fifth force detected; EP holds to ~1e-15).
+Distinctive content vs a bare "gravity-only" restatement: (a) a concrete mechanism (condensate
+Higgsing) that makes the null robust and explains WHY; (b) it forbids even the *screened/short-range*
+loopholes a neutral-but-not-condensed sector might allow. Related: hardens the census (L1) and
+[P-2026-009] (the same charge-free structure that kills birefringence).
+
+## P-2026-015: The cosmic-birefringence angle beta adjudicates PRTOE vs axion dark energy (pre-registered 2026-07-08)
+
+**The claim (DISCRIMINATOR — a pre-registered interpretation built on the proven P-2026-009 null):**
+PRTOE predicts **beta = 0 exactly** from the dark sector (P-2026-009, proven robust from ~15 angles:
+EM-neutral medium -> anomaly coeff 0 -> charge conservation + anomaly matching; the portal route is
+also a clean kill because the condensate Higgses the dark photon). The leading COMPETITOR class —
+**axion / rolling-scalar dark energy** — generically predicts a **nonzero** isotropic beta (a rolling
+pseudoscalar with a photon coupling). Therefore the measured beta **adjudicates between the two model
+families**, whichever way it resolves:
+
+**Pre-registered readings (locked in NOW so neither outcome can be spun later):**
+- beta confirmed **NONZERO at >=5 sigma (isotropic, achromatic)** -> **KILLS PRTOE as the source**
+  (P-2026-009 falsified) AND **supports axion-DE**. Clean separation in axion-DE's favor.
+- beta consolidates to **ZERO** -> **PRTOE null stands**, and axion-DE **loses its signature**
+  (its rolling field must then have a suppressed/absent photon coupling). Separation in PRTOE's favor.
+- The achromatic requirement matters: a CHROMATIC (~lambda^2) signal is Faraday/foreground, not a
+  fundamental-field beta, and adjudicates neither.
+
+**Falsification:** this entry is an interpretation lock, not an independent falsifiable claim — its
+falsifiable core is P-2026-009 (beta_dark = 0). Its value is that it PRE-COMMITS the model-selection
+meaning of the beta data so the result is a referee between families, not just PRTOE's private
+scoreboard.
+
+**Status:** the beta hint is ~2.4-3.6 sigma (not yet decisive). PRTOE is on the "beta -> 0" side of
+the bet. Next-gen CMB (LiteBIRD, CMB-S4, with polarization-angle calibration) will resolve it.
