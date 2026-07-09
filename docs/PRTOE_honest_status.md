@@ -71,3 +71,26 @@ an attractor, better than a bare constant); CONCEDE the self-tuning / "solves th
 problem" claim. Update the least-trusted-joints ranking: the floor is no longer "no working mechanism"
 -- it has a stable mechanism -- it just isn't a CC-problem solution (which we should never have claimed).
 Net odds effect: mildly favorable (the floor is not a fatal flaw), minus one over-claim retracted.
+
+## CODE-vs-THEORY AUDIT (basement check, 2026-07-08) — the dyad link is NOT enforced in code
+
+Audited the CLASS C source against the model's claims. GOOD: dcdf has a real perturbation sector
+(delta/theta/delta_p) -- old gap closed; the w=-1 floor is asymptotic/never-crossed (matches the
+#22 ghost-condensate attractor). THREE theory-vs-code GAPS found:
+  1. **BIGGEST -- m_e and dcdf are INDEPENDENT in the code.** thermodynamics.c has ZERO dcdf refs;
+     m_e is CLASS's generic varying_fundamental_constants (hardcoded step at z=50), disconnected from
+     the dcdf field. In the config varying_me and dcdf_rho_inf are independent free params. So the DYAD
+     (m_e + dark sector = ONE superfluid) is NOT enforced -- the fit tests "dcdf + free m_e step", not
+     "one linked superfluid". Consequences: (a) the #11 amplitude derivation (eps = c*f_amp*Psi0/M_red)
+     is NEVER tested by the fit -- m_e is just a free number; (b) part of the "competitive with LCDM"
+     result comes from the extra freedom of 2 independent knobs, not the constrained dyad.
+  2. Screening is a hardcoded REDSHIFT step (z=50), NOT the density-dependent Theta-saturation the
+     model claims -> the void m_e-step (#10) physics is not in the code (why it was demoted).
+  3. The w=1/3 radiation-like phase is ABSENT (dcdf starts as dust w~0); the claimed 1/3->0->-1 is
+     really 0->-1 in code. The conformal-origin c=1 argument (#17) rests on this unimplemented phase.
+  (Unverified: whether cs2_dcdf enforces c_s^2=0 at the floor -- function body in an unlocated header.)
+HONEST IMPLICATION: the fit is of a MORE FLEXIBLE model than the theory. To test the actual dyad,
+ENFORCE the link (derive m_e from dcdf params per #11, fix the transition from screening physics,
+re-fit with m_e no longer free) -- the constrained dyad may fit worse. Any paper MUST state that the
+fit uses an effective parametrization with independent m_e; the linked superfluid is the theoretical
+claim, not directly tested. This reframes the odds: the fit's competitiveness is partly unenforced freedom.
