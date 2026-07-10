@@ -122,6 +122,14 @@ struct background
   double varconst_me; /**< electron mass for varying fundamental constants */
   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */
   double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
+  double varconst_z_high; /**< PRTOE dyad HIGH-z window edge (2026-07-10): above this
+                              redshift the constants return to STANDARD -- the dyad
+                              condensate is thermally DISORDERED above its T_c (electron-CW
+                              radiative SSB, v ~ m_e[eps(L-1)/4pi^2]^(1/4) ~ 100 keV;
+                              leptonic BBN exposure ~0.02-0.25 sigma, gate-0 CLEARS; see
+                              docs/PRTOE_me_mechanism_math.md + ForClaude t214). The dyad
+                              window is varconst_transition_redshift < z < varconst_z_high.
+                              <=0 disables (default): plain varconst_instant step exactly. */
 
   /* ===== PRTOE v4 -- dCDF: single dark fluid unifying CDM+DE =====
    * See docs/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
@@ -134,11 +142,34 @@ struct background
   double dcdf_z_rad_onset; /**< PRTOE #17 conformal-origin phase: redshift above which
                                 the dCDF acquires a w=1/3 (radiation-like) component,
                                 so total w runs 1/3 -> 0 -> -1. <=0 disables it (default),
-                                recovering the pure dust->deSitter fluid exactly. */
+                                recovering the pure dust->deSitter fluid exactly.
+                                DERIVED IDENTITY (2026-07-10, ForClaude t215/t216): z=4e7
+                                <-> T ~ 9.4 keV is the H=m epoch of the fluid's own
+                                dyad-amplitude-pinned mass m = 2.24e-20 eV -- i.e. the
+                                textbook ULDM start-of-oscillation clock, T = sqrt(m*M_red/
+                                0.61) = 9.41 keV (g*=3.36). Radiation-like above H~m, dust
+                                below. NOT a condensation T_c (t182 charge dissolved). */
   int dcdf_deltam_mode; /**< what galaxies trace in delta_m/sigma8: 0 = fluid's full
                              density (floor in denominator), 1 = clustering part only
                              (delta rho over (1+w) rho, floor smooth by definition),
                              2 = baryons only (fluid excluded from delta_m) */
+
+  /* PRTOE rotation-cancellation conversion (operator, 2026-07-09): as the twist
+   * relaxes, the dcdf matter-part (rho - rho_inf) sheds to a free-streaming dark-
+   * radiation component. Background-only (thermo untouched; the sigma8 effect rides
+   * the depleted rho_dcdf through the existing dcdf perturbation sector). */
+  double dcdf_conv_g;   /**< conversion strength: Gamma/H = g*shape(a); <=0 disables
+                             (default), recovering the pure dust->deSitter fluid exactly */
+  double dcdf_conv_at;  /**< conversion turn-on scale factor: shape=(a/at)^n/(1+(a/at)^n) */
+  double dcdf_conv_n;   /**< conversion turn-on sharpness */
+
+  /* PRTOE Route-D thawing floor (2026-07-10, ForClaude t217-223): the sequestered-Lambda
+   * reading forces turnaround~now -> floor mass m_J ~ H0 -> the de Sitter floor THAWS,
+   * 1+w_floor(a) = thaw * a^3 (standard thawing growth). Background-only deviation
+   * component (the dcdf barotropic sector untouched), pre-registration branch Route-D
+   * vs P-2026-018. Net prediction: w0 ~ -0.92..-0.86, wa ~ -0.2..-0.5, no true phantom. */
+  double dcdf_floor_thaw; /**< 1+w of the floor TODAY (thaw*a^3 growth); <=0 disables
+                              (default), recovering the exactly-constant floor (w=-1). */
 
   //@}
 
@@ -193,6 +224,7 @@ struct background
   int index_bg_rho_dcdf;      /**< dCDF (PRTOE v4) fluid density */
   int index_bg_w_dcdf;        /**< dCDF equation of state w(rho) */
   int index_bg_cs2_dcdf;      /**< dCDF adiabatic sound speed squared, c_s^2(rho) */
+  int index_bg_rho_dcdf_conv; /**< dCDF rotation-cancellation shed dark-radiation density */
 
   int index_bg_phi_scf;       /**< scalar field value */
   int index_bg_phi_prime_scf; /**< scalar field derivative wrt conformal time */
@@ -277,6 +309,7 @@ struct background
   int index_bi_rho_dr;  /**< {B} dr density */
   int index_bi_rho_fld; /**< {B} fluid density */
   int index_bi_rho_dcdf;/**< {B} dCDF (PRTOE v4) fluid density */
+  int index_bi_rho_dcdf_conv;/**< {B} dCDF rotation-cancellation shed dark-radiation density */
   int index_bi_phi_scf;       /**< {B} scalar field value */
   int index_bi_phi_prime_scf; /**< {B} scalar field derivative wrt conformal time */
 
@@ -720,6 +753,34 @@ static inline double dcdf_rho_rad(struct background *pba, double a) {
   double H0sq = pba->H0 * pba->H0;
   double a2 = a*a;
   return pba->Omega_ini_dcdf * H0sq * a_on / (a2*a2) * f;
+}
+
+/* PRTOE rotation-cancellation conversion rate Gamma/H (dimensionless, per dln a).
+ * The twist relaxes -> the dcdf matter-part sheds to free-streaming dark radiation.
+ * shape(a) = x^n/(1+x^n), x=a/at: ->0 early, ->1 late (turns on near at). This is the
+ * fraction-per-e-fold of the matter-part that converts. dcdf_conv_g<=0 disables it,
+ * recovering the pure dust->deSitter fluid exactly (backward compatible). */
+static inline double dcdf_conv_rate(struct background *pba, double a) {
+  if (pba->dcdf_conv_g <= 0.0) return 0.0;
+  double x = a / MAX(pba->dcdf_conv_at, 1e-300);
+  double xn = pow(x, pba->dcdf_conv_n);
+  return pba->dcdf_conv_g * xn / (1.0 + xn);
+}
+
+/* PRTOE Route-D thawing floor: 1+w_floor(a) = thaw * a^3 (thawing growth), normalized so
+ * rho_floor(a=1) = rho_inf. rho_floor(a) = rho_inf * exp(thaw*(1-a^3)) (decreasing).
+ * Implemented as a background-only DEVIATION component (like dcdf_rho_rad):
+ *   E(a)   = rho_floor(a) - rho_inf                              (>=0 for a<1, ->0 today)
+ *   P_E(a) = (-1 + thaw*a^3) * rho_floor(a) + rho_inf            (floor pressure minus the
+ *                                                                  constant part already in
+ *                                                                  the barotropic sector)
+ *   dP_E/dlna = 3*thaw*a^3 * rho_floor(a) * (2 - thaw*a^3)
+ * Added to rho_tot / p_tot / dp_dloga ONLY (DE-like: not rho_m, not rho_r, no perturbation
+ * sector). dcdf_floor_thaw <= 0 disables it: the exactly-constant floor is recovered. */
+static inline double dcdf_floor_rho(struct background *pba, double a) {
+  if (pba->dcdf_floor_thaw <= 0.0) return pba->dcdf_rho_inf;
+  double a3 = a*a*a;
+  return pba->dcdf_rho_inf * exp(pba->dcdf_floor_thaw * (1.0 - a3));
 }
 
 #endif

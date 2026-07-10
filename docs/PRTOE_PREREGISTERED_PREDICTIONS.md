@@ -1275,6 +1275,29 @@ TIGHT: falsifiers now sharpened to (a) matched circles found at L<2D (would've b
 so large no suppression remains; (b) octupole suppressed as much as/more than quadrupole (wrong
 pattern); (c) confirmed infinite. Near-future full-sky circle searches + low-l pattern analysis test it.
 
+## P-2026-013 SECOND, INDEPENDENT MOTIVATION (2026-07-10): the genesis demands the torus axis
+
+A wholly separate thread — the twist-and-snap genesis (docs/PRTOE_cyclic_torus_genesis.md) — arrives
+at the torus from the other end. Computed (scratchpad/c1_locus_twist.py, curl-index validated,
+Beltrami H/E=0.998):
+  - **A SPHERE cannot seed a net twist:** spherical radial collapse has helicity H=∫v·(∇×v)=0 EXACTLY
+    (radial flow is curl-free). The heat-fountain genesis therefore cannot spin up from a spherical center.
+  - **A TORUS can and must:** a torus-supported (Beltrami) flow reaches H/E=+1 (maximal twist); its
+    poloidal+toroidal circulation ARE the two counter-rotations of the twist; the torus symmetry axis
+    supplies the missing genesis axis.
+  - **Cross-bounce persistence:** rotation is dynamical (→0 at the crunch, which drove the reverse);
+    topology is NOT — the torus survives the bounce and carries the axis so the fountain re-seeds spin.
+So TWO independent arguments (finitism/no-center/H0-safety AND the genesis twist-axis) land on the
+same flat-3-torus. This does NOT add a new observable falsifier (the CMB tests above are unchanged);
+it raises the PRIOR on the shape by independent convergence.
+
+MECHANISM note (bubble-ring): a confined buoyant plume rolls up (Kelvin-Helmholtz) into a vortex ring,
+and background swirl makes it helical — textbook vortex-ring formation, i.e. the torus forms
+DYNAMICALLY (answers "why a torus not a sphere at the bounce"). CAVEAT (do not conflate): the LOCAL
+vortex-ring torus (a structure IN space) is NOT the same object as the GLOBAL 3-torus topology (the
+shape OF space); they coincide only IF the primordial ring is comparable to the whole compact universe.
+The convergence is real; the local↔global identification is conditional and unproven.
+
 ## P-2026-009 RESURRECTION PROTOCOL (pre-committed 2026-07-08): axe any birefringence-positive BEFORE celebrating
 
 The birefringence null is proven from ~15 independent angles and is LOAD-BEARING (tied to L1/census,
@@ -1333,3 +1356,235 @@ detection results is quietly consistent with PRTOE and increasingly awkward for 
 **Falsification (both ways):** KILLED by a confirmed dark-matter nuclear-recoil detection (a genuine
 particle-DM signal). SUPPORTED by continued direct-detection nulls at improving sensitivity.
 **Status:** CONSISTENT (all direct-detection null to date). A clean, standing PRTOE-vs-WIMP referee.
+
+## P-2026-010: Cosmic birefringence — the census fork (registered 2026-07-09, operator's call: Version B)
+
+**Context:** the original strict census (P-2026-009) predicted birefringence NULL as a
+kill-switch (dark sector EM-neutral). This registers the OPPOSITE, unification-motivated
+branch as a live, falsifiable alternative — chosen by the operator on the physics
+("unification inverts the burden; the coupling is the generic leftover, strict-neutrality
+is the special case").
+
+**The fork (both falsifiable; the sky discriminates):**
+- **Version A (strict census):** β = 0 (null). [= P-2026-009]
+- **Version B (unification-inherited θ·F·F̃):** β ~ **0.1–0.3°**, from a GUT-scale
+  axion-photon coupling of natural size β ~ c_γ·α/(4π)·(Δθ/f), c_γ ~ 1–8. This is the
+  observed hint's magnitude (~0.3°, Planck reanalyses ~3.4σ) WITHOUT tuning.
+
+**Falsifier / adjudicator:** LiteBIRD + CMB-S4 will pin β to a fraction of the current
+error within ~years. β → 0 confirms Version A (census holds); β firmed at ~0.1–0.3°
+confirms Version B (dark sector GUT-unified with the SM, size predicted from α/4π).
+
+**Owed before B is a clean prediction (not banked):** (i) the real θ-rolling history
+(does θ evolve by ~f along the photon path at the right epoch?) and the specific GUT
+c_γ; (ii) Meissner check — does the condensate screen θ·F·F̃ as it screens the
+dark-photon portal? (likely not — an axion coupling is not a mediator exchange, survives
+the photon mass); (iii) B is a Version of the (unproven, ~10%) thermal successor, not the
+dead AD model. Registered as an HONEST BET on the record, not a banked result. Purple-team
+def139; grade pending. Standing on B unchanged until the sky answers — this is a neck-out
+falsifiable call, the good kind.
+
+---
+
+## ANN-2026-018: P-2026-010 item (i) RESOLVED — birefringence phase-route COMPUTED NULL; Version A confirmed by computation (2026-07-09, P1's first enforcement)
+
+**What was owed (P-2026-010, item i):** "the real θ-rolling history — does θ evolve by
+~f along the photon path at the right epoch?" Version B was registered *without* this
+computed. This session it was computed.
+
+**The computation (P1-compliant — object produced, not characterized):** the birefringence
+phase is θ, and θ̇ is fixed by the rotating-condensate-as-CDM relation + charge
+conservation (the U(1) charge = Ω_DM, gate-0): θ̇ = m in the dust era (Compton rotation
+that makes the fluid matter-like), constant then falling once the field freezes (DE era).
+With m = 2×10⁻²⁰ eV (fuzzy-DM/granule mass):
+- θ̇/H₀ ≈ 1.4×10¹³ (fast, sub-horizon winding)
+- Δθ(recomb→now) ≈ 1.3×10¹³ rad ≈ **2×10¹² windings**
+- the fluid's own c_s²=0 clustering carries θ spatial fluctuations; even a 10⁻⁹ fractional
+  inhomogeneity in Δθ scrambles β across the sky by ≫π → **the isotropic signal washes out.**
+- no-washout would require m ≲ 9×10⁻³³ eV (≈ H₀, a DE-scale mass); the actual mass is
+  **~2×10¹²× too heavy.** Escape excluded by the structure-fixed fuzzy-DM mass.
+
+**Verdict:** the rotation is too *fast*, not too weak — it winds trillions of times and
+self-scrambles. Combined with the other two routes — the energy/amplitude mode is a true
+Λ-form background (a scalar F² coupling = varying-α, quasar-excluded) and the θ·F·F̃ EM
+coupling was deleted 2026-07-09 as census-illegal — **all three birefringence routes are
+null.** Version A (β=0) is confirmed **by computation**, not merely by assumption.
+
+**Retraction booked (ForClaude def149/def150 + process-law P1):** a transient claim this
+session that the dCDF is "rolling dark energy" sourcing β ~ 0.01–0.3° *locked to w(z)* is
+**withdrawn** — it rode two label-reasoning fouls ("w runs 0→-1" → "rolling field";
+"P=const" → "true Λ"), neither checked against w_dcdf(ρ)=-ρ_inf/ρ (background.h:680) or a
+computed θ̇(a). **Version B (P-2026-010) is demoted:** the as-built dCDF *cannot* source it
+(it would need a DE-scale-mass slow roller it does not have, plus the deleted coupling).
+Version B survives only as a property of a hypothetical *different* field, not this model.
+
+**Open extension [OBJECT-PENDING, per P1]:** a counter-rotating / two-component **beat**
+(operator, 2026-07-09) — two opposite rotations whose fast (~m) windings cancel, leaving a
+slow net Δω that *could* survive the washout — is a *candidate* route NOT present in the
+as-built single-U(1) fluid (which has one phase θ, θ̇=m). It would need Δω ~ H₀ (a DE-scale
+tuning of the mismatch), *exact* cancellation of the fast part (any residual re-washes), and
+the deleted EM coupling reinstated. Tagged **[OBJECT-PENDING]** — not booked either way
+until a two-component θ̇(a) is computed against a written-down two-field Lagrangian. The
+as-built null (above) stands; this is a proposed extension, not a refutation of it.
+
+---
+
+## P-2026-018: PRTOE predicts w_DE = −1 with NO wiggle — DESI evolving-DE is a clean kill (pre-registered 2026-07-09)
+
+**The forced prediction.** The as-built dCDF background is w_dcdf(ρ) = −ρ_inf/ρ ⇒
+P = −ρ_inf = constant ⇒ ρ_dcdf(a) = ρ_inf + C·a⁻³. This is **algebraically ΛCDM** at the
+background: decomposed into DM + DE, the DE component is ρ_inf with **w_DE = −1 exactly.**
+The one knob that could bend it (the eq.-9 barotropic shape β_shape) is **σ8-locked to 0**
+(β_shape > 10⁻⁶ destroys structure, 0.827 → 0.185 at 10⁻⁴; background.h:685–688). So PRTOE
+predicts w = −1 **with no freedom to chase a departure.**
+
+**Why this is a knife, and a sharp one.** DESI DR2 pulls **~2.8–4σ away from w = −1**
+(evolving DE) in CMB+BAO+SN combos. PRTOE inherits that tension **at full strength** and is
+**more rigid than a generic dynamical-DE model** — a quintessence can bend toward the DESI
+pull; PRTOE structurally cannot. This is *not* a shared shrug that kills PRTOE and ΛCDM
+symmetrically: ΛCDM is the null everyone contests, while PRTOE *loses the one degree of
+freedom* a dark-fluid model would use to survive an evolving-w detection.
+
+**Falsifier.** DESI DR2 → DR3 (and Euclid). If evolving DE (w₀ > −1, wₐ < 0) firms up past
+~5σ, PRTOE's DE sector is falsified with no patch available in the as-built model.
+**Non-contingent** on the birefringence and EP threads — this stands on its own.
+
+**Honest note.** This is a *liability* registered as a prediction, on the record before the
+data, per the resurrection-protocol discipline. PRTOE's genuine distinction from ΛCDM lives
+**not** in the DE sector (Λ-form) but in c_s²=0 dark-fluid clustering (growth/S8/ISW) + the
+varying-m_e dyad. The DE sector is where PRTOE is *most* exposed, not least.
+
+---
+
+## ANN-2026-019: P-2026-012 PROMOTED whisper → prediction, as the price of the census refinement (2026-07-10)
+
+The 2026-07-10 census refinement ("couple to what you're made of"; laws doc, def160/rt161)
+legalizes the medium's own-sector (neutrino-mass) coupling as SUBSTANCE. The price of that
+rule change is that the meV/m_ν coincidence stops being a "watched whisper" and becomes a
+**neck-out prediction**:
+
+**P-2026-012 (now a prediction, not a whisper):** m_ν,lightest = ρ_inf^(1/4) = **2.3 meV**,
+which REQUIRES **normal ordering** and **Σm_ν ~ 61 meV**.
+
+**Testability (rt161, honest grade):**
+- The **2.3 meV value itself** is NOT resolvable by foreseeable experiment — distinguishing
+  2.3 meV from 0 needs ~2 meV precision on Σm_ν; CMB-S4+DESI reach ~20–30 meV, KATRIN ~0.2
+  eV, next-gen 0νββ far above.
+- The **coarse handle IS live this decade**: the prediction *requires* normal ordering and
+  Σ ~ 61 meV. If cosmology firms Σm_ν well below ~59 meV (the NO floor), or the ordering is
+  inverted, P-2026-012 is **disfavored/killed**. Cosmology is actively squeezing Σ toward
+  ~60 meV now.
+
+**Status:** genuine, in-principle-falsifiable prediction with a coarse near-term handle
+(ordering + Σ-scale), NOT a sharp imminent test of the value. This is how the rule change
+was paid for. Does NOT discharge the leptophilia debit (the δm_e coupling remains
+[OBJECT-PENDING], prior unfavorable — rt161): the medium's substance is the neutrino sector
+(δm_ν), and the dyad is δm_e; "made of" reaches δm_ν, not δm_e. See docs/laws_and_rules
+(census refinement) and docs/PRTOE_cosmological_constant.md.
+
+---
+
+## P-2026-020: Neutrinoless double beta decay (0νββ) MUST occur — the neutrino home is Majorana (pre-registered 2026-07-10)
+
+**The forced prediction.** P-2026-012 + the #30 mechanism give the neutrino its mass from
+the **Weinberg operator (LLHH)** — a **Majorana** mass. A Majorana neutrino IS its own
+antiparticle (ν = ν̄), which violates lepton number by 2 units. Therefore **neutrinoless
+double beta decay (0νββ) MUST occur** at a nonzero rate. A Dirac-only neutrino (0νββ
+forbidden) **kills the neutrino-sector home**, and with it P-2026-012 and the #30 leptonic
+mechanism's foundation.
+
+**Why it's forced, not optional.** The whole leptonic edifice this session rests on the
+medium living in the neutrino-mass sector via LLHH. LLHH is intrinsically L-violating /
+Majorana. So 0νββ is not an add-on — it is the same physics as the DE-floor = m_ν tie.
+If neutrinos are proven Dirac, the medium's neutrino home is false.
+
+**Second forced consequence — the asymmetry (thread, 2026-07-10).** Majorana L-violation is
+the Sakharov ingredient for **leptogenesis**. The lepton sector is the ONLY sector with
+renormalizable number-violation (quarks have none → B conserved), so the model's AD
+asymmetry, IF it is the lepton asymmetry, is built here — and the medium's coupling to L
+(for leptogenesis) drags along the amplitude coupling that IS the dyad (δm_e). This is the
+candidate DERIVATION of the leptophilia (#30's owed object): leptonic because the medium is
+the asymmetry field and the asymmetry can only route through the L-violating (lepton) sector.
+[OBJECT-PENDING on: AD-asymmetry = lepton asymmetry; amplitude-follows-current; magnitude
+→ eta_B ~ 6e-10.]
+
+**Falsifiers (three independent, all on the neutrino home):**
+1. **0νββ null at the sensitivity that covers Σm_ν ~ 61 meV / normal ordering** → Majorana
+   disfavored → neutrino home cracks. (nEXO, LEGEND-1000, next-gen reach m_ββ ~ 10-20 meV.)
+2. **Neutrinos proven Dirac** (any means) → neutrino home false.
+3. Ties to P-2026-012 (m_ν,lightest = 2.3 meV, ordering + Σ-scale) and the quasar varying-m_e
+   shape bound — three probes of ONE sector.
+
+**Honest grade.** 0νββ is a genuine, sharp, near-term-testable prediction of the neutrino
+home (credit — this is a real neck-out). BUT it is NOT distinctive to PRTOE: any Majorana-
+mass model predicts 0νββ. Its PRTOE-specific content is the CONJUNCTION — 0νββ AND
+m_ν,lightest=2.3 meV AND the leptogenesis-sourced dyad — not 0νββ alone. Booked as a forced
+consequence + a leg of the three-falsifier neutrino-home test, not a standalone distinctive.
+
+---
+
+## ANN-2026-020: The neutrino-home gate-0 session — three deltas to P-2026-012/020 (2026-07-10)
+
+Tonight's gate-0 / leptophilia / MaVaN work re-derived much of the already-registered neutrino
+home (P-012 m_ν,lightest=2.3 meV=DE floor; P-020 Majorana/0νββ). It adds **no new prediction** —
+Σm_ν ~ 61 meV / normal ordering is already P-012/P-020. It adds **three honest deltas**:
+
+**(1) The dyad onset is DERIVED but its clearance is a coin-flip.** On the charge-free field, the
+electron Coleman-Weinberg backreaction derives the dyad's condensation VEV v ~ 100 keV from m_e0 +
+the dyad amplitude alone (robust ±25%, 1/4-power) — a *reduction* (onset no longer free). BUT the
+finite-T condensation temperature T_c is log-ambiguous (~40–450 keV, central ~70–160 keV) and
+**straddles the deuterium bottleneck (~70 keV)** → the dyad's BBN quietness is genuinely marginal,
+needing an RG-improved V_eff(φ,T) + a BBN D/H network pass. Structural: onset derives to an *electron*
+scale and D/H is set at an electron scale, so "derived" and "marginal" are the same fact.
+
+**(2) Leptophilia narrowed: "allowed ≠ generated," but the Majoron forces the *neutrino* coupling,
+not the charged-lepton dyad.** Credit: a lepton-sector Ψ generates |Ψ|²q̄q only at ~2-loop (~1e-9)
+→ quarks effectively untouched. BUT the Majoron's tree coupling is σNN (neutrino/Weinberg), NOT the
+charged-lepton Yukawa. So the dyad's (δm_e) leptophilia rests on **P-020's leptogenesis
+amplitude-follows-current route OR a lepton-specific portal** (a Higgs portal |Ψ|²H†H would feed
+quarks democratically and break it). Sharpens P-020's [OBJECT-PENDING] — the leptophilia is a portal/
+leptogenesis assumption, not a bare Majoron consequence.
+
+**(3) The DE = m_ν tie MOTIVATES, does not FORCE — and the MaVaN derivation route hits AZK.** Trying
+to *derive* ρ_DE = f(m_ν) via mass-varying-neutrino dynamics hits the Afshordi–Zaldarriaga–Kohri
+(2005) instability (c_s² < 0 once ν non-relativistic → catastrophic clumping). **Escape:** PRTOE's
+DE floor is the Majoron's *own* pseudo-Goldstone potential (ρ_inf, constant), not ν-density-driven —
+so the tie is **shared-scale** (one L-breaking parameter μ sets both), which dodges AZK but only
+*motivates* the meV coincidence rather than deriving the value. So P-012's DE=m_ν tie is
+MOTIVATED-not-forced (same status as the CC value).
+
+**Net:** neutrino home unchanged and re-confirmed; the dyad's BBN clearance is a live coin-flip
+(resolver: RG+BBN), the leptophilia is a portal/leptogenesis assumption, the DE=m_ν tie is
+shared-scale-motivated (AZK-dodging) not MaVaN-derived. Standing ~12–16%.
+
+---
+
+## ANN-2026-021: P-2026-004 FALSIFIED — the whisper wins the pre-registered collision (2026-07-10)
+
+**P-2026-004 (Σm_ν ∈ [0.11, 0.17] eV) is FALSIFIED.** The pre-registered collision (Atlas
+2026-07-07: whisper ρ_inf = m_ν,lightest → Σ ~ 62 meV **XOR** P-004's high-Σ) is resolved by DESI's
+low-Σ preference (<~60 meV): the **low-Σ / whisper branch survives, P-004's high-Σ branch dies.**
+Per P-004's own clause ("a limit below 0.10 eV embarrasses this entry"), it is embarrassed. **Stop
+advertising the "dyad allows high Σm_ν" reading anywhere it appears.**
+
+**Honest accounting — a real cost, partially offset:**
+- COST: a pre-registered prediction is dead. Booked.
+- OFFSET (i): the model PRE-REGISTERED the collision — it pre-committed that one branch would die,
+  so this is a designed either/or resolving, not an unanticipated failure.
+- OFFSET (ii): a model that makes falsifiable predictions and has one KILLED by data is behaving
+  like a real theory — genuine falsifiability, a point of respect under the corrected standard.
+
+**The surviving whisper is THIN (not new credit):** ρ_inf = m_ν,lightest = 2.25 meV / Σ ~ 62 meV is
+(a) NON-DISTINCTIVE (NH-minimal is the generic expectation DESI squeezes everyone toward; 2.25 meV
+vs 0 unresolvable) and (b) VALUE UN-DERIVED (√(H₀M_Pl) = the Λ-dominance tautology; the m_e→M₂→ρ_inf
+cascade = meV-kinship factor ~3-4; the "constitution" fallback = value-is-an-input). Its survival =
+the Σm_ν ~ 60 meV live falsifier *not yet firing*, not a positive result.
+
+**POST-HOC FLAG (red-team t206, conceded):** the whisper PREDICTION is legitimately pre-registered
+(2026-07-07), BUT the shared-spurion MECHANISM (this session, def203) that makes the structure "pick
+the whisper" is NEW — devised *after* DESI's low-Σ was known. So it is a **post-hoc rationalization**
+of the data-favored branch, NOT an independent prediction. It earns NO "derivation" credit until it
+produces a NEW falsifiable consequence beyond the already-registered whisper. Flagged, not banked.
+
+**Standing ~13-17%, roughly flat:** a dead prediction (cost) offset by demonstrated falsifiability;
+the survivor is thin + un-derived + carries a post-hoc flag on its mechanism.

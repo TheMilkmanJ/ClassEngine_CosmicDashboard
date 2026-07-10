@@ -51,6 +51,33 @@ unitarity (`v5_dCDF:1178`). Operator's plain-language forms shown in quotes.
     Guardrail: the "medium is made of gravity" monism is a category error — gravity
     has no mass/abundance/clustering, so identifying the two would dissolve every
     dark-matter property the model needs.
+  - **Census refinement — "couple to what you're made of" (2026-07-10, def160 / rt161).**
+    The *gravity-only* phrasing was OVER-STATED relative to the model's own content: the
+    varying-m_e **dyad has always been a non-gravitational coupling** to matter, so
+    "gravity is the medium's ONLY account" was never strictly true. Refinement (sharpening
+    interface/substance into one line): the medium couples to **(a) all energy
+    gravitationally** [L1 clearing, unchanged] and **(b) its own substance sector
+    non-gravitationally** — it is a lepton-mass / neutrino-sector scalar, so it may couple
+    *within that sector*; it is NOT a gauge/EM field, so it may NOT reach EM. This ONE line
+    **consolidates two clauses**: dyad-legality and the L1a birefringence-null become the
+    two sides of "couple within your sector; open no new interface to a sector you are not
+    part of."
+    - *Red-team adjudication (rt161):* **PRINCIPLED to forbid** — correctly bars dark
+      photon, dark chemistry, EM birefringence, and quark/baryon fifth force (NOT a
+      loophole); and **breaks no prior verdict** (birefringence-null, gate-0, EP, BBN all
+      intact).
+    - *HONEST CAP (rt161):* the rule does **not derive the dyad it legalizes.** "What the
+      medium is made of" is the NEUTRINO-mass sector (δm_ν, Weinberg LLHH); the dyad is
+      **δm_e** (charged-lepton Higgs-Yukawa L̄He — *quark-structured*, the t156 no-go). Read
+      strictly the rule yields δm_ν, not δm_e; broadening "made of" to reach the charged-
+      lepton mass **is** the un-derived leptophilia postulate. So the rule **renames** the
+      leptophilia gap "substance" — it does not close it. Explicit δm_e coupling from a
+      neutrino-sector medium: **[OBJECT-PENDING], prior unfavorable.**
+    - *Price paid:* **P-2026-012 promoted** from watched-whisper to falsifiable prediction —
+      m_ν,lightest = ρ_inf^(1/4) = **2.3 meV** (normal ordering, Σm_ν ~ 61 meV; coarse
+      near-term handle via ordering + Σ-scale, not the sub-meV value). **Standing Bet #3
+      (DE = exactly Λ) untouched** — the refinement is a lepton-mass coupling, not a
+      DE-sector change.
   - **L1a — Parity corollary (NOT a new law; a consequence of L1).** "Clears
     through gravity only" *means* "carries no charge at any other clearinghouse" —
     i.e. the medium is **EM-neutral** (and color-neutral, etc.). Gravity couples to
@@ -124,13 +151,15 @@ judgment in it, flagged per row.*
 | 1 | dyad era | **R1** added | ADD a rule: masses ride the medium (m_e coupling) | H0 tension | clear amendment |
 | 2 | §96 (2026-07-08) | **L1 / census** | BROADEN: clearing is gravity-only *after condensation*; a direct account is allowed while the medium is massless | the regime change | broaden (you called this the "broaden the other better") |
 | 3 | 2026-07-07 night | **L4** added | ADD an axiom: internal ledger keeps totals, not line-items | gravitational self-energy strain | clear amendment |
+| 4 | 2026-07-10 | **L1 / census** | REFINE: "gravity-only" → "couple to what you're made of" (grav clearing + own-substance-sector); consolidates dyad-legality + L1a birefringence-null into one line | census-vs-dyad internal inconsistency (the dyad was always non-gravitational) | refine (rt161: PRINCIPLED to forbid, breaks no verdict; does NOT derive δm_e — leptophilia renamed, not closed) |
 
 **Count, honest:** by the corpus's own bookkeeping the **balances (Tier 0) have
-never been touched.** At the **law** level there is **one clean addition (L4)** and
-**one broadening (L1 via §96)**. At the **rule** level there is **one addition
+never been touched.** At the **law** level there is **one clean addition (L4)**, **one
+broadening (L1 via §96)**, and **one refinement (L1 via the 2026-07-10 census
+refinement — consolidating, not adding)**. At the **rule** level there is **one addition
 (R1)**. So "3, maybe 4 laws" reads as: **3 founding laws (L1–L3) + 1 added (L4) = 4**,
-which matches your memory. Whether the §96 broadening "counts" toward the tally is
-the judgment call.
+which matches your memory. The §96 broadening and the 2026-07-10 refinement are both
+judgment calls on whether they "count" — both are L1 clarifications, not new laws.
 
 ---
 

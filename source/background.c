@@ -536,13 +536,28 @@ int background_functions(
     /* Loop over species: */
     for (n_ncdm=0; n_ncdm<pba->N_ncdm; n_ncdm++) {
 
+      /* PRTOE varying-m_nu (Majoron/kinetic mechanism, 2026-07-10): the medium shifts the
+         neutrino mass by delta m_nu = 2 delta m_e, so m_nu(z) = M_ncdm * (me_factor)^2,
+         with me_factor from the varconst module (=1 below the transition redshift). This
+         keeps the ncdm background consistent with the dyad's mechanism. Observationally
+         null (neutrinos are relativistic at recomb, z_nr~100<<1100), so it changes nothing
+         measurable; it removes the code-vs-mechanism inconsistency. me_factor=1 when
+         varconst is off -> exact backward compatibility. */
+      double me_vc_ncdm = 1.0;
+      if (pba->has_varconst == _TRUE_) {
+        double alpha_vc_ncdm;
+        class_call(background_varconst_of_z(pba, 1./a-1., &alpha_vc_ncdm, &me_vc_ncdm),
+                   pba->error_message, pba->error_message);
+      }
+      double M_ncdm_eff = pba->M_ncdm[n_ncdm] * me_vc_ncdm * me_vc_ncdm;
+
       /* function returning background ncdm[n_ncdm] quantities (only
          those for which non-NULL pointers are passed) */
       class_call(background_ncdm_momenta(
                                          pba->q_ncdm_bg[n_ncdm],
                                          pba->w_ncdm_bg[n_ncdm],
                                          pba->q_size_ncdm_bg[n_ncdm],
-                                         pba->M_ncdm[n_ncdm],
+                                         M_ncdm_eff,
                                          pba->factor_ncdm[n_ncdm],
                                          1./a-1.,
                                          NULL,
@@ -628,6 +643,30 @@ int background_functions(
     p_tot    += (1./3.) * rho_dcdf_rad;
     dp_dloga += -(4./3.) * rho_dcdf_rad;
     rho_r    += rho_dcdf_rad;
+
+    /* PRTOE rotation-cancellation conversion: free-streaming dark radiation shed from
+       the dcdf matter-part (sourced in the continuity ODE below). Background/expansion
+       only -- like the #17 term, into rho_tot/p_tot/dp_dloga/rho_r but NOT rho_m: it
+       free-streams and must not cluster. The sigma8 effect comes from the DEPLETED
+       rho_dcdf (fed to rho_m above), not from this component. Zero unless conv_g>0. */
+    double rho_dcdf_conv = pvecback_B[pba->index_bi_rho_dcdf_conv];
+    pvecback[pba->index_bg_rho_dcdf_conv] = rho_dcdf_conv;
+    rho_tot  += rho_dcdf_conv;
+    p_tot    += (1./3.) * rho_dcdf_conv;
+    dp_dloga += -(4./3.) * rho_dcdf_conv;
+
+    /* PRTOE Route-D thawing floor (background-only deviation; see background.h).
+       Zero unless dcdf_floor_thaw > 0: the constant floor is recovered exactly. */
+    if (pba->dcdf_floor_thaw > 0.) {
+      double a3_th = a*a*a;
+      double rho_fl = dcdf_floor_rho(pba, a);
+      double E_th   = rho_fl - pba->dcdf_rho_inf;
+      double P_E    = (-1. + pba->dcdf_floor_thaw*a3_th) * rho_fl + pba->dcdf_rho_inf;
+      rho_tot  += E_th;
+      p_tot    += P_E;
+      dp_dloga += 3. * pba->dcdf_floor_thaw * a3_th * rho_fl * (2. - pba->dcdf_floor_thaw*a3_th);
+    }
+    rho_r    += rho_dcdf_conv;
   }
 
   /* relativistic neutrinos (and all relativistic relics) */
@@ -861,8 +900,17 @@ int background_varconst_of_z(
 
   case varconst_instant:
     if (z>pba->varconst_transition_redshift){
-      *alpha = pba->varconst_alpha;
-      *me = pba->varconst_me;
+      /* PRTOE dyad high-z window (2026-07-10): above varconst_z_high the condensate is
+         thermally disordered (T > T_c, electron-CW) -> constants STANDARD -> quiet BBN.
+         varconst_z_high <= 0 disables (default): plain instantaneous step, unchanged. */
+      if ((pba->varconst_z_high > 0.) && (z > pba->varconst_z_high)) {
+        *alpha = 1.;
+        *me = 1.;
+      }
+      else {
+        *alpha = pba->varconst_alpha;
+        *me = pba->varconst_me;
+      }
     }
     else{
       *alpha = 1.;
@@ -1168,6 +1216,7 @@ int background_indices(
   class_define_index(pba->index_bg_rho_dcdf,pba->has_dcdf,index_bg,1);
   class_define_index(pba->index_bg_w_dcdf,pba->has_dcdf,index_bg,1);
   class_define_index(pba->index_bg_cs2_dcdf,pba->has_dcdf,index_bg,1);
+  class_define_index(pba->index_bg_rho_dcdf_conv,pba->has_dcdf,index_bg,1);
 
   /* - index for ultra-relativistic neutrinos/species */
   class_define_index(pba->index_bg_rho_ur,pba->has_ur,index_bg,1);
@@ -1256,6 +1305,8 @@ int background_indices(
 
   /* -> energy density in PRTOE v4 dCDF unified dark fluid */
   class_define_index(pba->index_bi_rho_dcdf,pba->has_dcdf,index_bi,1);
+  /* -> conversion-shed dark radiation (rotation-cancellation) */
+  class_define_index(pba->index_bi_rho_dcdf_conv,pba->has_dcdf,index_bi,1);
 
   /* -> scalar field and its derivative wrt conformal time (Zuma) */
   class_define_index(pba->index_bi_phi_scf,pba->has_scf,index_bi,1);
@@ -2379,6 +2430,8 @@ int background_initial_conditions(
      * (see background_output_budget / input.c shooting target). */
     pvecback_integration[pba->index_bi_rho_dcdf] =
       pba->Omega_ini_dcdf*pba->H0*pba->H0*pow(a,-3);
+    /* no conversion has occurred yet in the deep radiation era (shape(a)->0) */
+    pvecback_integration[pba->index_bi_rho_dcdf_conv] = 0.0;
     if (pba->background_verbose > 3)
       printf("dCDF density is %g. Omega_ini_dcdf=%g\n",pvecback_integration[pba->index_bi_rho_dcdf],pba->Omega_ini_dcdf);
   }
@@ -2803,7 +2856,15 @@ int background_derivs(
      *  (w depends only on rho, not explicitly on a). See
      *  docs/PRTOE_v4_dCDF_derivation.md eq. (4),(9). Exact fixed point at
      *  rho=rho_inf (w=-1 there), approached asymptotically, never crossed. */
-    dy[pba->index_bi_rho_dcdf] = -3.*(1.+pvecback[pba->index_bg_w_dcdf])*y[pba->index_bi_rho_dcdf];
+    /* PRTOE rotation-cancellation: the dcdf matter-part (1+w)rho = rho-rho_inf sheds to
+       free-streaming dark radiation at rate Gamma/H = conv_rate(a). Energy-conserving
+       sink/source pair; the floor (rho_inf, w=-1) is untouched. conv=0 recovers the
+       pure barotropic continuity exactly. */
+    double w_dcdf_v = pvecback[pba->index_bg_w_dcdf];
+    double matter_part = (1.+w_dcdf_v)*y[pba->index_bi_rho_dcdf];  /* = rho - rho_inf */
+    double conv = dcdf_conv_rate(pba,a) * matter_part;             /* (Gamma/H)*matter_part */
+    dy[pba->index_bi_rho_dcdf] = -3.*(1.+w_dcdf_v)*y[pba->index_bi_rho_dcdf] - conv;
+    dy[pba->index_bi_rho_dcdf_conv] = -4.*y[pba->index_bi_rho_dcdf_conv] + conv;
   }
 
   if (pba->has_scf == _TRUE_) {

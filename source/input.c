@@ -2358,6 +2358,11 @@ int input_read_parameters_general(struct file_content * pfc,
     class_read_double("varying_alpha",pba->varconst_alpha);
     class_read_double("varying_me",pba->varconst_me);
     class_read_double("varying_transition_redshift",pba->varconst_transition_redshift);
+    /* PRTOE dyad high-z window (2026-07-10): constants STANDARD above this z (dyad
+     * disordered above T_c -> quiet BBN). <=0 disables (default, backward compat). */
+    class_read_double("varying_z_high",pba->varconst_z_high);
+    class_test((pba->varconst_z_high > 0.) && (pba->varconst_z_high <= pba->varconst_transition_redshift),
+               errmsg, "varying_z_high must exceed varying_transition_redshift (the dyad window is transition < z < z_high).");
     break;
   }
 
@@ -3435,6 +3440,20 @@ int input_read_parameters_species(struct file_content * pfc,
     class_read_int("dcdf_deltam_mode", pba->dcdf_deltam_mode);
     class_test((pba->dcdf_deltam_mode < 0) || (pba->dcdf_deltam_mode > 2), errmsg,
                "dcdf_deltam_mode must be 0 (full density), 1 (clustering part), or 2 (baryons only).");
+    /* PRTOE rotation-cancellation conversion (operator, 2026-07-09): the dcdf matter-
+     * part sheds to free-streaming dark radiation, Gamma/H = conv_g*(a/at)^n/(1+(a/at)^n).
+     * conv_g<=0 disables (default), recovering the pure dust->deSitter fluid exactly. */
+    class_read_double("dcdf_conv_g", pba->dcdf_conv_g);
+    class_read_double("dcdf_conv_at", pba->dcdf_conv_at);
+    class_read_double("dcdf_conv_n", pba->dcdf_conv_n);
+    class_test(pba->dcdf_conv_at <= 0., errmsg,
+               "dcdf_conv_at must be > 0 (conversion turn-on scale factor).");
+
+    /* PRTOE Route-D thawing floor (2026-07-10): 1+w_floor(a) = thaw*a^3.
+     * thaw<=0 disables (default), recovering the exactly-constant floor (w=-1). */
+    class_read_double("dcdf_floor_thaw", pba->dcdf_floor_thaw);
+    class_test(pba->dcdf_floor_thaw > 0.5, errmsg,
+               "dcdf_floor_thaw = 1+w_floor(today) must be <= 0.5 (thawing regime).");
   }
 
   /** 8.a) If Omega fluid is different from 0 */
@@ -5976,6 +5995,7 @@ int input_default_params(struct background *pba,
   pba->varconst_me = 1.;
   pth->bbn_alpha_sensitivity = 1.;
   pba->varconst_transition_redshift = 50.;
+  pba->varconst_z_high = 0.; /* dyad high-z window off by default (backward compat) */
 
   /**
    * Default to input_read_parameters_species
@@ -6048,6 +6068,10 @@ int input_default_params(struct background *pba,
   pba->dcdf_deltam_mode = 1; /* delta_m counts the fluid's clustering part (1+w)rho by default;
                                 the smooth de Sitter floor is not matter. Mode 0 (full density)
                                 decided against 2026-07-05: BAO DR12 chi2 593 vs 8.2 for mode 1. */
+  pba->dcdf_conv_g  = 0.0;   /* rotation-cancellation conversion off by default (backward compat) */
+  pba->dcdf_floor_thaw = 0.0; /* Route-D thawing floor off by default (constant floor, w=-1 exact) */
+  pba->dcdf_conv_at = 0.6;   /* turn-on scale factor ~ z=0.67 */
+  pba->dcdf_conv_n  = 4.0;   /* turn-on sharpness */
 
   /** 7.2) Interacting Dark Matter */
   /** 7.2.1.a) Current factional density of idm */

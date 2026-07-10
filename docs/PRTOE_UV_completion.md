@@ -276,3 +276,23 @@ the fixed point drifts and c runs slightly ABOVE 1 — consistent with the #16 r
      himself, correctly, before it was written down.)
   4. What IS testable lives in #17, NOT here: whether the w=1/3 phase actually attracts/protects c to
      1, and how c runs afterward. The clumping ORIGIN story is the *why-it-feels-right*, not the proof.
+
+## #17 UPDATE — the conformal see-saw defuses the gate-0 TeV kill (2026-07-10, fountain_scale.py)
+
+The gate-0 radiation-phase escape needs the dyad condensate DISORDERED at BBN (T~MeV) and
+CONDENSED at recomb (T~eV) — i.e. condensation temperature **T_c in (0.26 eV, 1 MeV)**, anywhere
+in the keV decade. Red-team t182 killed this by asserting T_c ~ VEV ~ soft mass ~ TeV → condensed
+at BBN → loud. That assumed the naive ghost-condensate scale M ~ VEV.
+
+**The #17 conformal origin says otherwise.** The w=1/3 "radiation youth" is a scale-invariant
+window bracketed at BOTH ends: UV = soft mass ~TeV, IR = DE floor Λ_IR = 2.3 meV. A conformal
+window's dynamical scale sits at the **geometric mean**, sqrt(m_soft·Λ_IR) = sqrt(TeV·meV) ≈ **48
+keV** — INSIDE the escape window. Consistency: the DE floor is itself the TeV↔M_pl see-saw
+[(m_soft)²/M_pl = 0.42 meV ≈ Λ_IR], so {meV ← keV ← TeV ← M_pl} is ONE ladder; the keV condensate
+scale is the middle rung, not a new posit. The whole keV cluster (see-saw 48, coded onset 10,
+dyad·m_e 6.3, α·m_e 3.7 keV) sits in-window — the escape is robust to the coefficient.
+
+**STATUS: DEFUSES, does not clear.** The geometric-mean is the standard conformal-window heuristic,
+not a proof that condensation picks that rung rather than the VEV (loud) or the IR floor (too cold).
+So gate-0 moves from "dead on the TeV soft mass" → "escape physical-but-unproven, pending #17
+deciding the condensate rung." Booked to red-team def183. NOT banked (Pinning Rule).
