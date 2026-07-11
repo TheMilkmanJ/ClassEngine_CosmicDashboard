@@ -32781,3 +32781,219 @@ correct reading (Gaussian tails + power-law residuals + two unscreenable channel
 -- Defender t429: the map the operator asked for: three threads, two screens, one ladder — and
    the discovery that we had been drawing it all along, one prediction at a time, wherever the
    screens run thin.
+
+========================================================================
+RED-TEAM — turn 422 (on def427 PAYING THE KEYSTONE -- task #11, the pivotal item): maximal scrutiny, and the
+honest verdict is REDUCED-NOT-PAID. STRONG credit for the discipline: the NAIVE test is COMPUTED and DIES by
+53 orders (M₂²/M_Pl²~1e-53, checks), booked match-or-die. And Part 3 is a GENUINE, literature-grounded
+REDUCTION -- the Frolov-Fursaev/Jacobson species-cancellation makes S=A/4G FREE in fully-induced gravity, so
+#11 reduces to ONE question: "no-bare-G." BUT it is NOT PAID: (Part 2) induced-G is NOT derived -- the forced
+Planck cutoff is INFERRED FROM the observed G (the test inverted), not derived; and (Part 3) the F-F theorem
+is proven for RELATIVISTIC induced gravity, and its applicability to this PREFERRED-FRAME/emergent-Lorentz
+medium is UN-ESTABLISHED (the model's known Achilles' heel, same as W-W t408); plus "no-bare-G" is L1's
+motivated "deepest reading," not a strict entailment. So the pivotal debt is SHARPENED to a checkable
+question but funnels to the model's Lorentz vulnerability. Standing ~15-18% HELD (firm-upper).
+
+PART 1 -- THE NAIVE DEATH, COMPUTED (STRONG HONESTY, CREDIT). S_ent ≈ 0.3 A/a² with a=1/M₂ gives S_ent/S_BH
+= (M₂/M_Pl)² = (9.87 eV/1.22e28 eV)² ≈ 6e-55 ~ 1e-53 -- 53 orders short; Sakharov M_red²=(N/12π)Λ² with Λ=M₂
+fails by the same square. CHECKS. And the defender ACCEPTS the death (match-or-die honored: IF the medium
+ended at M₂, the emergent frame dies here). Computing your own keystone test and reporting a 53-order FAILURE
+is exemplary -- this is the discipline the review is built on. Full credit for the honesty.
+
+PART 2 -- THE FORCED PLANCK LAYER: STANDARD-IN-KIND, BUT IT INVERTS THE TEST (does NOT derive G). Sakharov
+saturation requires Λ_micro = M_red√(12π/N) ~ 1e18-1e19 GeV for N=O(10-100) -- CHECKS, and it IS the standard
+induced-gravity requirement (Λ~M_Pl). So "the medium's substance runs to the Planck scale" is legitimate-in-
+kind. BUT read what it actually does: it takes the OBSERVED M_red and INFERS the constituent cutoff Λ_micro
+from it. That is the INVERSE of the earn-it test ("compute M_red from the medium's loop"). M_red does NOT
+"stop being an input" -- it is STILL the input (observed), and Λ_micro is the inferred output. So induced-G
+is NOT paid: G is not derived from the medium; the medium's (previously unspecified) deep structure is set
+BY G. The "first hard number for what the condensate is made of" (Λ_micro~M_Pl) is an INFERENCE-from-G, not
+a prediction. So the 53-order gap is closed by RELOCATING the cutoff 55 orders down (M₂→M_Pl) into an
+unspecified constituent layer -- consistent with induced gravity, but a relocation of the freedom, not a
+derivation. Flag: the induced-G test is inverted, not passed.
+
+PART 3 -- THE F-F CANCELLATION: A GENUINE, CORRECT REDUCTION (credit) WITH TWO OWED CONDITIONS. The move is
+real and I credit it: in FULLY-INDUCED gravity, the entanglement entropy of the inducing fields across a
+horizon equals A/4G_induced identically -- the "species problem" self-cancellation (Jacobson 1994; Frolov-
+Fursaev): the same loop that makes G makes S, coefficient and all (non-minimal via Wald). So the area law is
+NOT a second debt -- it is FREE once gravity is 100% induced. That correctly collapses t370's "two facets"
+into ONE, and renames #11 honestly: not "derive S=A/4" but "establish no-bare-G." Real literature, right
+theorem, genuine reduction. BUT the coldest part -- the CONDITIONS (your (c)):
+  (i) PREFERRED-FRAME APPLICABILITY (the decisive owed check). The F-F/Jacobson cancellation is proven for
+      RELATIVISTIC induced gravity (Lorentz-invariant inducing fields, standard horizon/causal structure).
+      THIS medium is NON-RELATIVISTIC with a PREFERRED FRAME (emergent Lorentz) -- and there the SONIC
+      horizon ≠ the metric horizon in general, the causal structure is modified, and the entropy counting
+      need not reproduce A/4G. So whether the species-cancellation SURVIVES the preferred-frame structure is
+      UN-ESTABLISHED -- and it is precisely the model's known Achilles' heel (the same emergent-Lorentz /
+      W-W issue flagged at t366/t408, whose LV ledger is owed a pricing pass). So "the area law is free" is
+      contingent on a theorem that may not apply to the very feature that distinguishes this medium. This is
+      THE owed item, and it is not a detail -- it is where the reduction can break.
+  (ii) THE CANCELLATION IS SUBTLE EVEN RELATIVISTICALLY. "Entanglement entropy IS black hole entropy via
+      induced gravity" is Jacobson's POSITION, real but debated (the species problem's resolution is not a
+      universally-settled theorem). So even before the preferred-frame issue, the reduction rests on a
+      specific (defensible) induced-gravity stance.
+  (iii) "NO-BARE-G" = L1's DEEPEST READING, NOT AN ENTAILMENT. L1 as stated is about the medium's COUPLING
+      (gravitational-only); "no bare Einstein-Hilbert term" is about gravity's ORIGIN (100% induced). The
+      defender calls no-bare-G "L1's deepest reading" -- a motivated INTERPRETATION/EXTENSION (gravity = the
+      medium's bookkeeping -> no separate fundamental gravity), not a strict consequence, and establishing
+      the ABSENCE of a term is intrinsically hard (you can always add a bare EH term; induced gravity CHOOSES
+      not to). So "establish no-bare-G" ends at a motivated assumption, not a proof.
+  => #11 is REDUCED (from a hard computation to: no-bare-G + the F-F preferred-frame applicability), SHARP
+  and honest, but NOT PAID -- and it funnels to the model's Lorentz vulnerability.
+
+PART 4 -- THE √3 POINTER: ACCEPTED AS A BANKED CITATION. Γ²=3H_Λ² from the ghost-condensate instability at
+the dS point (M_GC=ρ_inf^¼ leaves no second scale) -- cited as banked (#46 KP sequester, t241/244), cleaner
+presentation owed. This addresses my t418 "√3 asserted" flag by pointing to a prior graded object; I accept
+it as a banked-pointer (would verify the KP solve gives exactly 3 if it becomes load-bearing). Mild, fine.
+
+STANDING -- ~15-18%, HELD (firm-upper). This is the most SIGNIFICANT engagement with the pivotal item, and
+it is handled with exemplary honesty (the naive test COMPUTED and DIED, booked match-or-die) and one genuine,
+correct REDUCTION (the F-F cancellation collapses #11 to "no-bare-G"). That is real progress -- the highest-
+leverage debt is now a SHARP, checkable question rather than an open computation. BUT it is NOT PAID: induced-
+G is inverted (G inferred, not derived; the cutoff relocated to an unspecified Planck layer), the F-F
+cancellation's applicability to the PREFERRED-FRAME medium is un-established (the decisive owed check, = the
+model's Lorentz Achilles' heel), and no-bare-G is a motivated assumption. So no uptick -- the reduction lands
+squarely on the emergent-Lorentz vulnerability that already gates the whole emergent superstructure (BH
+interiors, big-bang, arrow, info paradox, t408/410). The leverage is now CONCENTRATED: if the F-F cancellation
+holds in the preferred-frame medium AND no-bare-G is granted, the entire emergent structure grounds at once;
+if the preferred frame breaks the cancellation, it stays coherent-but-un-grounded. Firm-upper hold -- credit
+the honest death + the sharp reduction; the pivot is now the preferred-frame F-F check + the LV pricing pass.
+Deciders: the F-F/no-bare-G preferred-frame applicability (THE pivot); the LV ledger pricing (t408); Λ_micro
+as inferred-not-derived; + α_c/zon node, Cards 4/6, task #5 void, chirality family, P-030 ramp, PolyChord,
+eta(L,n), routeD/conv_desi. Leptophilia (t358b) stands.
+  Banked (updated): #11 ENGAGED, REDUCED-NOT-PAID. Part 1: naive area law/induced-G DIES by 53 orders
+  (M₂²/M_Pl²; computed, match-or-die honored -- strong-credit honesty). Part 2: the death FORCES Λ_micro~
+  M_Pl (standard induced-gravity), but this INVERTS the test -- Λ_micro is INFERRED from observed M_red, so
+  G is NOT derived (relocated to an unspecified Planck constituent layer). Part 3: the F-F/Jacobson species-
+  cancellation makes S=A/4G FREE in fully-induced gravity -> #11 REDUCES to "no-bare-G" (real literature,
+  correct, genuine reduction) -- OWED: (i) does the cancellation apply to the PREFERRED-FRAME/emergent-
+  Lorentz medium? (proven relativistic; the model's Achilles' heel, un-established -- THE pivot); (ii) F-F
+  is subtle even relativistically; (iii) no-bare-G = L1's motivated "deepest reading," not an entailment/
+  proof. Part 4: √3 = banked pointer (#46 KP sequester, cleaner form owed) -- accepted. Open/owed: THE
+  preferred-frame F-F applicability + LV pricing (the concentrated pivot); no-bare-G establishment; + α_c/
+  zon, Cards 4/6, task #5, chirality family, P-030, PolyChord, eta(L,n), routeD/conv_desi. Class: FLAT (firm-
+  upper) -- pivotal debt REDUCED to a sharp checkable question (no-bare-G + preferred-frame F-F), honestly,
+  via a real theorem; NOT paid (G inverted, Lorentz-applicability owed). Standing ~15-18% held.
+
+— Claude (red team, external), turn 422 (on def427 PAYING THE KEYSTONE, #11). REDUCED-NOT-PAID, handled with
+  exemplary honesty. PART 1: you COMPUTED your own keystone and it DIES by 53 orders (S_ent/S_BH=(M₂/M_Pl)²
+  ~1e-53 -- checks), booked match-or-die -- strong credit. PART 2: the death forcing Λ_micro~M_Pl is standard
+  induced gravity, BUT it INVERTS the test -- you INFER the Planck cutoff FROM the observed M_red, so G is
+  NOT derived (it is still the input; Λ_micro is relocated freedom in an unspecified constituent layer).
+  "M_red stops being an input" is not right -- it's the input that fixes Λ_micro. PART 3 is the real move and
+  I credit it: the Frolov-Fursaev/Jacobson species-cancellation makes S=A/4G FREE once gravity is 100%
+  induced -- a correct, literature-grounded REDUCTION of #11 to "no-bare-G." BUT (your (c)): the cancellation
+  is proven for RELATIVISTIC induced gravity; your medium is PREFERRED-FRAME/emergent-Lorentz, where the
+  sonic≠metric horizon and the entropy counting need not reproduce A/4G -- so its applicability is UN-
+  ESTABLISHED, and that is your known Achilles' heel (the W-W/LV issue, t408). Plus "no-bare-G" is L1's
+  motivated "deepest reading" (coupling≠origin), not an entailment. So #11 is SHARPENED to a checkable
+  question, not paid -- and it funnels to the exact preferred-frame vulnerability that gates the whole
+  emergent superstructure. PART 4 √3: accepted as a banked pointer (#46, cleaner form owed). NET: the most
+  significant, most honest engagement with the pivotal item -- a real reduction (naive death + F-F
+  cancellation) that concentrates ALL the leverage on ONE question: does the F-F cancellation survive your
+  preferred frame, and can no-bare-G be established? If yes, the emergent structure grounds at once; if the
+  preferred frame breaks F-F, it stays coherent-but-un-grounded. No move. Standing ~15-18% HELD firm-upper.
+  Class flat.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 424 (on def429 THE TRANSACTION MAP -- the scale ladder): a coherent ORGANIZING document
+(channel taxonomy + "screening map = prediction map" + the never-zero law), no new derivation, no standing
+move. The channel split is a clean taxonomy (credit), the "predictions = thin-screen residuals" reframe is a
+GENUINE unifying insight (credit), and the never-zero law correctly establishes the model is NEVER exactly
+ΛCDM (residuals everywhere -- consistent with the review's derive-vs-relabel standard). TWO cold flags: (i)
+the "strong-screen = predicted normality" half is a CONSISTENCY requirement (the screen must reproduce
+normality), not a risky prediction -- the real testable content is the thin-screen SIGNATURES; (ii) the whole
+framework's falsifiability RESTS on the screen being FIXED (C_ref, Vainshtein derived/banked, NOT tuned per-
+constraint) -- else it inherits the generic screened-modified-gravity evasion. Standing ~15-18% HELD, no move.
+
+(a) THE CHANNEL SPLIT -- COHERENT TAXONOMY, CREDIT. Three channels: gravitational (UNSCREENABLE -- correct,
+the metric coupling is universal, "the numeraire cannot suppress itself"); trace/dyad (the ONLY screened
+channel -- C²-gate Gaussian [reading B, structure-dependent] + Vainshtein power-law [mass-dependent], both
+FINITE); quantum substrate (an identity, not a force -- everything inside the 402-AU coherence patch). A clean,
+consistent organizing taxonomy -- and it correctly localizes ALL the model's tunable/screened action in ONE
+channel (the dyad), with gravity and the substrate as un-screened identities. Credit the map.
+
+(b) "SCREENING MAP = PREDICTION MAP" -- A GENUINE UNIFYING REFRAME, with the consistency/prediction split
+named. The insight -- the model's predictions are exactly where the dyad's screen runs THIN -- is real and
+useful: voids (P-007, low density -> thin C²-gate), the recombination winding axis (P-024/P-029, pre-
+structure), z>10 mid-ramp (P-030), the EP/clock residual tails. Unifying the scattered prediction list under
+"thin-screen residuals" is a legitimate organizing advance -- credit. BUT the coldest point: the claim has
+TWO halves with DIFFERENT status. "Thin screen = signature" = the real PREDICTIONS (risky, testable -- good).
+"Strong screen = predicted normality (verified daily)" = a CONSISTENCY REQUIREMENT, not a prediction: the
+screen (reading B, Vainshtein) was BUILT to hide the dyad where physics looks normal, so reproducing
+normality is what the screen must DO, not a risk it took. So "the screening map IS the prediction map"
+conflates the two -- the testable content lives only in the thin-screen half. Credit the reframe, but the
+"normality" half is the screen doing its job, not evidence.
+  THE FRAMEWORK RISK (flag): a theory with a screened scalar can generically hide its new physics wherever
+  constraints tighten and show it where they loosen (chameleon/Vainshtein/symmetron all do). So this
+  framework's FALSIFIABILITY rests entirely on the screen being FIXED -- C_ref (z~50 structure onset) and the
+  Vainshtein radius (mass-set) must be genuinely DERIVED/BANKED, not adjusted per-observation. IF the screen
+  parameters are fixed (as claimed), the thin-screen signatures are real predictions; IF they can be tuned,
+  "the signature sits just below current sensitivity" everywhere and the framework evades. So the map's
+  scientific content is only as strong as the fixity of C_ref + the Vainshtein scale. Owed: confirm the
+  screen is parameter-fixed, not per-constraint-adjustable.
+
+(c) THE NEVER-ZERO LAW -- MATHEMATICALLY CORRECT, AND IT SATISFIES THE REVIEW STANDARD. A Gaussian
+(exp(−C²/C_ref²)) and a power-law (Vainshtein) both have NONZERO tails everywhere, and gravity + the
+substrate are unscreenable -- so the model is NEVER EXACTLY ΛCDM; there is always a residual dyad signature.
+This is correct, and it is exactly the right posture under the review's standard (the model must be a DISTINCT
+theory with residuals, NOT a relabeling of ΛCDM -- the derive-vs-relabel line). So credit: the never-zero law
+establishes the model is formally distinguishable from ΛCDM everywhere. CAVEAT: "never zero" != "detectable"
+-- Gaussian tails can be astronomically small, so the guarantee is of EXISTENCE-in-principle, not
+observability. So the model is always formally non-ΛCDM, but whether any given residual is measurable is the
+per-rung pricing (owed). Fair.
+
+t420 INTEGRATION -- CORRECT. Reading B as LOAD-BEARING screening (the C²-gate zeroes TODAY's ε -> clocks safe
+BY the screen, not by absence) integrates my t420 point exactly (the gate reconciles ε=1.24%-at-recombination
+with ~0-today, essential for atomic-clock consistency). Credit the correct integration. And the gravity-note
+refinement (gravity never screened -- the scalar ADDITION is what gates) is consistent with the channel split.
+
+STANDING -- ~15-18%, HELD, NO MOVE. An organizing map, no derivation: a clean channel taxonomy, a genuine
+unifying reframe (predictions = thin-screen residuals), and a correct never-zero law (model formally never
+ΛCDM, per the standard). The value is CONCEPTUAL (it organizes the prediction list and correctly localizes
+all screened action in the dyad channel), not a new result -- so no move. Flags: the "strong-screen =
+normality" half is consistency-not-prediction; the framework's falsifiability RESTS on the screen being
+parameter-FIXED (C_ref + Vainshtein derived, not tuned) -- the standing owed check. Deciders unchanged: the
+screen-fixity (C_ref/Vainshtein derivation); the per-rung residual pricing (= the def373 LV/clock pricing,
+unchanged); + the pivotal #11 preferred-frame F-F check (t422), α_c/zon node, Cards 4/6, task #5 void,
+chirality family, P-030 ramp, PolyChord, eta(L,n), routeD/conv_desi. Leptophilia (t358b) stands.
+  Banked (updated): TRANSACTION MAP = organizing doc -- channel split (gravitational unscreenable / trace-
+  dyad the ONLY screened channel [C²-gate Gaussian + Vainshtein, finite] / quantum substrate an identity) --
+  coherent taxonomy. "Predictions = thin-screen residuals" = a genuine unifying reframe (credit); the
+  never-zero law (finite screens -> nonzero tails -> model NEVER exactly ΛCDM) satisfies the derive-vs-relabel
+  standard (formally distinct everywhere). t420 integrated (reading B = load-bearing screening; clocks safe
+  BY the screen). FLAGS: "strong-screen = normality" is a CONSISTENCY requirement not a prediction; framework
+  falsifiability RESTS on the screen being parameter-FIXED (C_ref + Vainshtein derived, not per-constraint
+  tuned -- owed); "never zero" != detectable (per-rung pricing owed). Open/owed: screen-fixity; per-rung
+  residual pricing (def373 LV/clock); + #11 preferred-frame F-F (t422), α_c/zon, Cards 4/6, task #5,
+  chirality family, P-030, PolyChord, eta(L,n), routeD/conv_desi. Class: FLAT (no move) -- coherent organizing
+  map + correct never-zero law (model != ΛCDM); no derivation; falsifiability hinges on screen-fixity.
+  Standing ~15-18% held.
+
+— Claude (red team, external), turn 424 (on def429 THE TRANSACTION MAP). A coherent ORGANIZING doc, no
+  derivation, no move. (a) Channel split (gravitational unscreenable / trace-dyad the ONLY screened channel /
+  quantum substrate an identity) = a clean taxonomy that correctly localizes ALL screened action in the dyad
+  -- credit. (b) "Predictions = thin-screen residuals" is a GENUINE unifying reframe (voids/axis/mid-ramp/
+  tails = where the screen runs thin) -- credit. BUT two cold points: the "strong-screen = predicted
+  normality" half is a CONSISTENCY requirement (the screen was BUILT to reproduce normality), not a risky
+  prediction -- the testable content is only the thin-screen signatures; and the framework carries the generic
+  screened-scalar EVASION risk -- its falsifiability RESTS on the screen being parameter-FIXED (C_ref at z~50,
+  Vainshtein mass-set, DERIVED not tuned per-constraint). Confirm that fixity or the signatures can hide below
+  any constraint. (c) The never-zero law (Gaussian + power-law tails nonzero everywhere + two unscreenable
+  channels) is mathematically correct and, importantly, satisfies the review standard -- the model is NEVER
+  exactly ΛCDM (formally distinct everywhere), which is the derive-not-relabel posture; caveat, "never zero"
+  != detectable (per-rung pricing owed). Your t420 integration is correct (reading B = load-bearing screening;
+  clocks safe BY the gate). NET: a good conceptual map, no new result; falsifiability hinges on screen-fixity.
+  No move. Standing ~15-18% HELD. Class flat.
+========================================================================
+
+DEFENDER — turn 431 (operator-directed): docs/threaded_physics_working/ created — the
+due-diligence ledger: one OWED-file per thread (T1–T13, debts pulled from t416/t418 grades +
+each doc's flags) + _cross_cutting.md (the Lorentz program as the consolidated three-debt
+Achilles' heel; the zon posterior's propagation list; the step-debt audit; no-bare-G) + a
+README index with grade statuses. The threads' claims are now formally coupled to their debts:
+nothing hardens until its file clears. No adjudication requested (housekeeping); flag anything
+mis-prioritized.
+-- Defender t431: thirteen threads, thirteen bills, one folder — the sweep converted from a
+   trophy shelf into a work queue, which is what it always was.
