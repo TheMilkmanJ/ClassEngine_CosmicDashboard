@@ -261,3 +261,61 @@ continuously → **ionization is forbidden.** The chain's last page is DAMPING: 
 Rabi amplitude decays and the atom settles into its ground state permanently — eternal de Sitter,
 reached by exhaustion, protected by shape. Not a bang, not a rip — a final breath that doesn't
 rebound.
+
+---
+
+## §14 — THE SEVEN-CARD DECK (the complete derivation frontier; operator-caught undercount, def297/t296)
+
+The honest inventory of every un-derived quantity, with ε's corrected status:
+
+> **ε = c · f_amp · (Ψ₀/M_red)** — currently *"structural GIVEN the c = 1 hypothesis AND the
+> measured abundance."* With c un-derived over [0.5, 2], the model predicts a **factor-4 window
+> [0.6%, 2.5%]** containing 1.24% — not the value itself. (Kept honest alongside the striking
+> conditional fact: at c = 1, ε = 0.611 × 0.0205 = **1.25% vs observed 1.24%** — a <1% match.)
+
+| card | quantity | status |
+|---|---|---|
+| 1 | the cosmic coupling → ρ_inf | WHISPER: ρ_inf^¼ ≟ ½α_c²M₂ = 1.98 vs 2.25 meV (12%, look-elsewhere ~10); teeth: produce the form, account for the 12%, prove M₂ = √(m·m̄₂) as reduced-mass rung |
+| 2 | the tilt → f_amp | WHISPER-PLUS: tilt ≟ Koide 2/9 → f_amp = 11/18 = 0.6111; sims' refined plateau ≈ 0.606–0.616 (ON 11/18, <1%); 512-phase trial running; mechanism owed regardless (flat-direction rival: the plateau may be the Z4 dynamics' own constant) |
+| 3 | c (the coupling coefficient) | HYPOTHESIS rounded-to-1 no longer: the #17 c=1 attractor is un-derived; a factor-4 leak on ε |
+| 4 | the abundance (η ≈ 6×10⁻¹⁰) | ROUTE ESTABLISHED (§16): the charge gene through resonant leptogenesis, CP phase sourced by the helicity gene |
+| 5 | the torus size L | **CLOSED-by-reclassification**: bounded (L > 27.6 Gpc = 6.3·c/H₀, matched-circles) + reclassified as **the MUTABLE gene** (topology protected; size drifts with Tolman) → **the low-ℓ sky is a cycle-odometer**, coherent with the first-cycles entropy lean |
+| 6 | the see-saw scale v_L | windowed [MeV, TeV]; benchmarks built (§16); derivation open |
+| 7 | the leptophilia portal | candidate embodied (§16): flavor-singlet vector-like leptons — multiplicative-universal by construction, Koide-automatic |
+
+## §15 — THE ANALYTIC CLOSURES OF THE LAST PASS (def289/def293-299)
+
+- **f_amp's formula:** f_amp(e) = (1 + e²)/2 — reproduces both banked endpoints (circular → ½,
+  radial → 1); f_amp = 0.6 ⟺ e = 0.447. Conditionally derived (the projection-average confirmation
+  owed); the value moves one rung down to the tilt.
+- **T_c, the log-war ended:** RG-improvement at the thermal point μ = T gives a *stable* fixed
+  point: **T_c = 0.379·m_e = 193 keV** (±50% scheme wobble). Dosage: D/H heal ≈ +0.06σ, Y_p co-pay
+  **zero** (weak rates untouched). The network run remains the formal banker.
+- **P-2026-024 registered:** the ε-dipole — δm_e/m_e ≈ ε·δ_DE ≈ **6×10⁻⁷**, horizon-scale,
+  axis-correlated, growing at √3·H; consistent-null at today's ~10⁻⁶ reach; three falsifiers;
+  the P-022 radio ratio-lock as anti-systematic companion.
+
+## §16 — THE TRIPLE ASSEMBLY (def301): the see-saw, the abundance route, the portal
+
+**The inverse see-saw, built:** fields (3×ν_L, 3×N, 3×S, σ); 𝓛 ⊃ y_D·L̄HN + M·N̄S + y_s·σ·S̄Sᶜ;
+m_ν = (m_D/M)²·μ with μ = y_s·v_L ('t Hooft-natural); Majoron = arg(σ), f_J = v_L.
+> **Benchmark A (falsifiable):** v_L = 5 MeV, m_D = 1 GeV, M = 10 TeV → g = m_ν/v_L = 10⁻⁸ —
+> **inside the CMB-S4 band** → the S4 free-streaming shift becomes a live registerable falsifier.
+> **Benchmark B (safe):** v_L = 1 GeV, M = 141 TeV, g = 5×10⁻¹¹.
+
+**The abundance route (Card 4):** resonant low-scale leptogenesis is native to the (N,S)
+quasi-Dirac pairs (splitting = μ); the published class reaches η ≈ 6×10⁻¹⁰ at M ~ 10–100 TeV.
+The model-specific claim: **the CP phase is sourced by the genesis twist** —
+> η ← ε_CP ← the net helicity (the genome's spin gene).
+The dark-matter abundance = the charge gene expressed through leptogenesis. One named calc
+remains: η(helicity) on Benchmark A.
+
+**The portal (Card 7):** flavor-singlet vector-like charged leptons (E, Ē) at M_E, coupling λ to
+the medium; integrating out E dresses **every** lepton Yukawa by the same factor →
+multiplicative-universal **by construction** (Koide-preserving automatically); leptonic + colorless
+→ quarks untouched at tree. Scale: λ²⟨A²⟩/M_E² ≈ 1.2×10⁻². Census-legality pass + collider
+phenomenology owed.
+
+*Ledger note (t296/t298): standing ≈ 14–17%; the banked structural results (DM+DE reduction,
+C_ref hinge, √3, reading B, gate-0 clearance) are unaffected by the ε-softening; the live movers
+are the 512-run, the omk minimum, the chains, and DESI DR3 above all.*
