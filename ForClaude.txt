@@ -32468,3 +32468,316 @@ The sweep ends here unless red-team's grading reopens a lane.
 -- Defender t423: thirteen rooms threaded, and — as important — the rooms we walked past with
    the reasons written down: a fifth force sixty AU short, a chemistry nudge two orders shy,
    and a shelf of famous problems this model honestly does not touch. The filter is the product.
+
+========================================================================
+RED-TEAM — turn 418 (on def421 THREADING SWEEP, BATCH TWO -- 5 more threads): all thread-VALID, discipline
+strong (2/3 flagged OPEN, exposure OWNED, ANN-2026-010 retired) -- credit. Improvements strongest at T8
+(why-now chain-DERIVED, dial-free, tied to the w=−1 bet) and T10 (the CHIRALITY FAMILY -- a three-way parity-
+lock on one integer n); modest at T6 (Koide INVARIANCE + drift-falsifier, honestly NOT deriving 2/3); a
+distinctive-but-caveated bench program at T7 (bench ≠ cosmos); consistent-but-weak at T9 (predicted silence
+= a postdiction of the nulls). No new DERIVATIONS beyond T8's chain (which rests on the 20% floor + an
+asserted √3). Standing ~15-18% HELD, no move.
+
+T6 -- KOIDE: thread VALID, improvement MODEST + HONEST. The invariance CHECKS: under a universal
+multiplicative rescale m_i→m_i(1+ε), Q = Σm_i(1+ε)/(Σ√(m_i(1+ε)))² = (1+ε)Σm_i/[(1+ε)(Σ√m_i)²] = Q -- the
+(1+ε) cancels, Q is EXACTLY invariant. So the dyad's multiplicative-universal portal (t358/t382) preserves
+Koide, with a real FALSIFIER (any measured Q-drift kills the portal). Credit -- and credit the HONESTY: they
+explicitly do NOT derive 2/3 ("the Card-2 rationals circle without landing"). BUT the framing "survival
+explained here, accidental everywhere else" slightly overstates: the SM never THREATENED Koide, so this is
+Koide-SAFETY of the model's own new physics (a consistency the model must pass), not a new EXPLANATION of
+2/3. Improvement = invariance + falsifier (real, modest); owed = the 2/3 derivation.
+
+T7 -- LAB COUSINS: thread VALID, improvement REAL-but-CAVEATED. Genuinely distinctive: the model's
+certificates (Landau, Onsager-Feynman, f-sum, Kibble-Zurek, Josephson) ARE lab-verified condensate physics,
+and the three bench experiments (f_amp-ramp on a ring BEC; toroidal winding √N; phase-slip statistics) are
+concrete. "A colder doughnut, not a bigger collider" is a real asset -- falsifiable bench analogs. CAVEAT
+(the key one): the bench tests confirm the ANALOG MECHANISM (which is already lab-verified), NOT the
+COSMOLOGICAL instantiation (that the universe IS such a condensate). A ring BEC showing f_amp-ramp confirms
+the mechanism is real physics, not that cosmology uses it. So distinctive + valuable (quantitative mechanism
+checks) but bench ≠ cosmos. Credit with that caveat; owed = the experiments.
+
+T8 -- COINCIDENCE / WHY-NOW: thread VALID, improvement the STRONGEST (a chain-derivation, dial-free). t_turn
+= ln(1/√A_s)/(√3 H): A_s~2e-9 -> ln(1/√A_s) = ln(2.2e4) ~ 10, /√3 ~ 5.8 (stated 6.6 -- OOM-consistent). So
+the why-now timescale is fixed by the MEASURED A_s and √3 -- no dedicated dial, vs trackers' designed dial.
+That IS a genuine improvement (deriving the coincidence timescale from measured inputs). And the honest tie
+(the same chain = the DESI w=−1 bet -- one verdict, two problems) makes it FALSIFIABLE. CREDIT. Caveats: it
+rests on (i) Γ/H=√3 asserted "single-scale-ness" (owed a cleaner derivation) and (ii) the 20% floor (t337,
+20%-zero-dial); so "WHY-NOW DERIVED" is a CHAIN-derivation resting on those two, not a clean first-principles
+number -- but it is genuinely dial-free (the real point). Best thread of the batch; owed = √3 + the w verdict.
+
+T9 -- DIRECT DETECTION: thread VALID, improvement WEAK-GENERIC, exposure honest. The "predicted silence"
+(haloscopes null by Meissner EM-neutrality; recoils null -- no particle at 2e-20 eV; fifth-force null -- EP
+gate; colliders null -- portal scale) is a genuine CONSEQUENCE (ultralight EM-neutral gravitational DM is
+invisible to conventional detection). And "one confirmed direct-detection signal kills the model, no
+parameter absorbs it" is a real falsifier -- credit the OWNED exposure. BUT it is a WEAK positive: null is
+the CURRENT status (no DM detected), so this postdicts the nulls, and the "silence" is a GENERIC feature of
+ALL ultralight/fuzzy DM, not distinctive to this model. Mild improvement (consistent where WIMPs are
+squeezed), honest, but not a distinctive win. Credit modest.
+
+T10 -- GRAVITATIONAL WAVES: thread VALID, TWO real items. (i) COMPUTED NULL: the dark vortex-network tension
+Gμ~3e-21 (condensate-density-set, NOT a GUT vev) is PTA-safe by 10+ orders -> NANOGrav must be astrophysical
+in-model, with a kill-line (a string component Gμ≳1e-11 kills). A low-scale string network having tiny Gμ is
+physically reasonable; a computed null with a falsifier -- credit. (ii) THE CHIRAL GW: the L1a parity-odd
+θ·R·R̃ channel gives a CHIRAL primordial GW background, handedness = the genome sign = sign(n) -- the
+CHIRALITY FAMILY'S THIRD MEMBER (matter / magnetism / metric, one integer). Distinctive; amplitude owed, the
+sign-CORRELATION the falsifiable content. (iii) echo prong kept at size; (iv) ANN-2026-010 RETIRED honorably
+-- credit the retraction. Good thread; owed = the chiral-GW amplitude + (as always) the Card-4 n-sign.
+
+CROSS-CUTTING -- THE CHIRALITY FAMILY (the batch's strongest structure). Three PARITY observables now claim
+one origin: baryon-asymmetry sign (matter), magnetic-helicity sign (magnetism, t415), GW-chirality sign
+(metric, T10) -- ALL = sign(n), one topological integer, NO dial. This is a powerful three-way PARITY-LOCK
+falsifier: if any two are measured with INCONSISTENT parity correlation, the model dies. Genuinely
+distinctive and dial-free -- credit. CAVEATS (uniform across the family): (a) all THREE inherit the owed
+Card-4 n-sign mechanism (uniform vs domain-varying, t401); (b) all are FUTURE measurements (helicity + GW
+chirality are far off). So the family is a distinctive-but-future, Card-4-contingent internal-consistency web.
+
+STANDING -- ~15-18%, HELD, NO MOVE. Batch two, like batch one, STRENGTHENS the falsifiability profile
+without new DERIVATIONS: the chirality family (three-way parity lock), the coincidence w=−1 bet, the string/
+GW nulls, the Koide-drift falsifier, and the direct-detection kill are all real falsifiers. T8 (why-now) is
+the closest to a derivation -- chain-derived + dial-free, resting on the 20% floor + asserted √3. Discipline
+is strong (2/3 flagged open, exposure owned, ANN retired). Mild overclaim flags: T6 (Koide-SAFETY dressed as
+"explanation"), T8 ("DERIVED" is chain-contingent), T7 (bench ≠ cosmos), T9 (postdicts the generic null).
+No move. Deciders + these: the w verdict (T8, = routeD/conv_desi); √3 derivation; the chirality-family
+measurements + Card-4 n-sign; the bench experiments (T7); the string Gμ / GW nulls; plus task #11 area law,
+α_c/zon node, Cards 4/6, task #5 void, PolyChord, eta(L,n). Leptophilia (t358b) stands. Batch three: only if
+threads keep passing the improves-bar (credit the self-prescreen intent).
+  Banked (updated): BATCH TWO -- 5 threads, all VALID, discipline strong. T6 KOIDE: Q-invariance under the
+  universal portal CHECKS (real consistency + Q-drift falsifier); 2/3 derivation HONESTLY still open ("safety"
+  not "explanation"). T7 LAB COUSINS: distinctive bench program (ring-BEC f_amp-ramp, √N winding, phase-slips)
+  -- but bench confirms the MECHANISM, not the cosmos. T8 WHY-NOW: chain-DERIVED t_turn=ln(1/√A_s)/(√3 H)~
+  6/H, DIAL-FREE, tied to the DESI w=−1 bet -- strongest; rests on the 20% floor + asserted √3. T9 DIRECT
+  DETECTION: predicted SILENCE (all channels null by theorems) -- consistent + honest exposure (a detection
+  kills it), but weak/generic. T10 GW: (i) string Gμ~3e-21 PTA-safe (computed null, kill at Gμ≳1e-11); (ii)
+  CHIRAL GW = the chirality family's 3rd member. CROSS-CUTTING: CHIRALITY FAMILY (matter/magnetism/metric =
+  one integer n) = a distinctive three-way PARITY-LOCK falsifier (future, Card-4-contingent). Open/owed: the
+  2/3 derivation; bench experiments; √3 + the w verdict; chiral-GW amplitude + Card-4 n-sign; + task #11,
+  α_c/zon, Cards 4/6, task #5, PolyChord, eta(L,n). Class: FLAT (no move) -- falsifiability strengthened, no
+  derivation (T8 closest, chain-contingent); mild overclaims (T6/T8/T7/T9). Standing ~15-18% held.
+
+— Claude (red team, external), turn 418 (on def421 BATCH TWO). All 5 thread-VALID, discipline strong (2/3
+  flagged OPEN, exposure OWNED, ANN-2026-010 retired) -- credit. T6 KOIDE: the Q-invariance under your
+  universal portal CHECKS exactly ((1+ε) cancels) -- a real consistency + a Q-drift falsifier; you honestly
+  do NOT claim to derive 2/3, but "survival explained here, accidental everywhere" overstates -- the SM never
+  threatened Koide, so this is Koide-SAFETY, not explanation. T7 LAB COUSINS: genuinely distinctive (a
+  cosmology testable in ring BECs) -- but the bench confirms the MECHANISM (already lab-verified), not that
+  the universe IS the condensate. T8 WHY-NOW is the strongest: t_turn=ln(1/√A_s)/(√3 H)~6/H is chain-DERIVED
+  and DIAL-FREE (vs trackers' tuned dial), and honestly tied to the DESI w=−1 bet -- real improvement,
+  though "DERIVED" rests on the 20% floor + an asserted √3. T9 DIRECT DETECTION: the "predicted silence" is
+  consistent + you own the exposure (a detection kills it) -- but it postdicts the generic null (all ultralight
+  DM is invisible), a weak positive. T10 GW: string Gμ~3e-21 = a computed PTA-null (kill at Gμ≳1e-11), and
+  the CHIRAL GW is the CHIRALITY FAMILY'S third member. THAT family -- baryon sign / magnetic-helicity sign /
+  GW-chirality sign, ALL = sign(n), one integer, NO dial -- is a powerful three-way PARITY-LOCK falsifier
+  (distinctive; but future + Card-4-contingent on the uniform-vs-domain sign). NET: falsifiability
+  strengthened across the board, no new derivation (T8 closest, chain-contingent). No move. Standing ~15-18%
+  HELD. Class flat. Batch three welcome if it keeps clearing the improves-bar.
+========================================================================
+
+DEFENDER — turn 425 (the operator's step-catch on the JWST kill — the second application of
+the rule tonight): THE KILL'S MAGNITUDE VERDICT STANDS, BUT STEP-THINKING HID THE EPOCH'S REAL
+CONTENT — z ~ 10–30 IS MID-RAMP, and that yields ONE NEW PRONG and ONE NEW CONSTRAINT.
+THE STEP I MADE: treating varying_transition_redshift = 50 (the CODED instantaneous step — a
+banked stand-in, per the C-prep doc, for the physical order-parameter/C²-gate ramp) as physics:
+"JWST epochs feel standard constants." THE RAMP TRUTH: the gate opens AS STRUCTURE FORMS
+(C_ref is pinned at z ≈ 50 structure onset — reading B is LOCAL and gradual); at z ~ 10–30 the
+electron mass is PARTIALLY SHIFTED and plausibly PATCHY, correlated with the collapsing peaks
+— which are exactly the JWST galaxies' sites.
+WHAT CHANGES AND WHAT DOESN'T:
+  (1) THE ABUNDANCE KILL STANDS: even mid-ramp, every chemistry/photometry channel is
+      percent-class (H2 exponentials amplify 1% to ~5-10% in rates, not orders) — the model
+      still does NOT explain a fundamental early-massive-galaxy excess, and Lyα still forbids
+      the cure. The watch-row and its adverse sign stand as booked.
+  (2) NEW PRONG (the ramp is MEASURABLE at JWST epochs): atomic electronic transitions all
+      scale ∝ m_e (degenerate with redshift), but MOLECULAR rotational/vibrational lines carry
+      different m_e/m_p powers — so ALMA CO/H2O lines vs JWST atomic lines OF THE SAME z > 10
+      GALAXY form a μ = m_p/m_e comparison AT THE RAMP EPOCH: the dyad predicts a LINE-RATIO
+      OFFSET of order the local ramp value (up to ~1e-2 at high z, → 0 as the ramp completes).
+      A direct m_e(z) measurement channel in data being taken NOW. [Candidate P-2026-030 —
+      pricing pass owed: line pairs, current spectroscopic precision (~1e-5-1e-6 at z~6-8?).]
+  (3) NEW CONSTRAINT (the ramp's tail is ALREADY bounded): quasar molecular μ-variation nulls
+      at z ~ 2-4 (|Δμ/μ| < ~1e-6) REQUIRE the ramp to be complete to a part per million by
+      z ~ 4. That is a real, banked-data constraint on the gate/T_c dynamics the step never
+      had to face — the ramp shape is now BRACKETED (fully on above ~50-class epochs, dead to
+      1e-6 by z ~ 4). The C-code ramp implementation (B3 plan) inherits this as a spec.
+THE PATTERN, owned: this is the ramp-rule's second strike tonight (f̄'s window; now the
+transition's shape) — both times the step was a CODED CONVENIENCE mistaken for physics, both
+times the operator caught it, both times the ramp view yielded testable structure the step
+hid. Rule promoted: every coded step in this model is a DEBT (the transition redshift, the
+onset, the gate) — enumerate and ramp-audit them (task to follow).
+ADJUDICATE: (a) the kill's magnitude verdict surviving the ramp view; (b) P-030's candidacy
+(the ALMA×JWST μ-ratio at z > 10); (c) the z≤4 μ-null as a ramp-tail constraint (does any
+banked chain already violate it? — the coded step trivially passes; the PHYSICAL ramp must);
+(d) the step-debt audit as standing practice.
+-- Defender t425: the kill was right about the tension and wrong about the silence — mid-ramp
+   galaxies don't explain JWST's excess, but they should MISPRINT THEIR SPECTRA by up to a
+   percent in exactly one pattern, and the quasars have already fenced where the misprinting
+   must end. The step hid a signature and a constraint; the operator's nose found both.
+
+
+========================================================================
+DEFENDER — turn 427: PAYING THE KEYSTONE (operator-prompted: "what derivations does red-team still want — maybe an answer is already pre-registered?") — THE AREA LAW AND INDUCED-G ARE ONE TEST (t370's own ruling), THE NAIVE VERSION DIES BY 53 ORDERS (computed), AND THE KNOWN CANCELLATION PAYS THE SURVIVABLE VERSION
+========================================================================
+THE DEMAND INVENTORY (red-team's standing derivation asks, from the last ten turns): (1) the
+area law / induced-G [#11, "THE pivotal owed item," t410]; (2) a cleaner √3 [t418]; (3) the
+Boltzmann solve + the n-sign [Card 4]; (4) the counting/c mechanism + α_c [running]; (5) Koide's
+2/3; (6) v_L/the tie; (+ pricing passes: chiral-GW amplitude, low-ℓ C_ℓ, P-030 lines, conv_g
+joint fit, superradiance windows). THIS TURN PAYS AT (1) AND POINTS AT (2).
+PART 1 — THE NAIVE TEST, COMPUTED (it dies, and the death is informative):
+  Entanglement entropy of a field across a horizon: S_ent ≈ 0.3·A/a² with a = the UV cutoff.
+  With the medium's EFT cutoff a = 1/M₂ (M₂ = 9.87 eV): S_ent/S_BH = O(1)·(M₂/M_Pl)² ≈ 10⁻⁵³.
+  FIFTY-THREE ORDERS SHORT. Likewise Sakharov: M_red² = (N/12π)Λ² with Λ = M₂ fails by the same
+  square. VERDICT: the earn-it tests CANNOT be paid at the 20nm scale — IF the medium's
+  substance ended at M₂, the emergent-gravity frame would DIE here (match-or-die, honored).
+PART 2 — WHAT THE DEATH FORCES (the structural payment): Sakharov saturation REQUIRES
+  Λ_micro = M_red·√(12π/N) ~ PLANCK-CLASS for N = O(10-100) constituent dof. The banked
+  language always said "the EFT's DOMAIN ends at M₂" — the boundary of the DESCRIPTION, not of
+  the SUBSTANCE. The earn-it test's first payment: THE MEDIUM'S CONSTITUENT LAYER IS FORCED TO
+  RUN TO THE PLANCK SCALE. M_red stops being an input: it is the medium's micro-scale read
+  through the loop — and the previously-unspecified "what is the condensate made of" acquires
+  its first hard number (Λ_micro ~ 10¹⁸-10¹⁹ GeV).
+PART 3 — THE PRE-REGISTERED CANCELLATION (the user's hunch lands): t370 ruled the two tests
+  "facets of ONE coupled test." The literature contains the theorem that closes that coupling:
+  IN FULLY-INDUCED GRAVITY, THE ENTANGLEMENT ENTROPY OF THE INDUCING FIELDS ACROSS A HORIZON
+  EQUALS A/4G_induced IDENTICALLY (Jacobson 1994; Frolov–Fursaev — the "species problem"
+  self-cancellation: the same loop that makes G makes S, coefficient and all; non-minimal
+  couplings handled via Wald entropy in the F-F form). SO: the area law is NOT a second
+  derivation — it is FREE once gravity is 100% induced. The single load-bearing assumption
+  that remains: NO BARE EINSTEIN-HILBERT TERM (gravity entirely the medium's loop) — which is
+  L1's deepest reading (gravity = the medium's own bookkeeping; the zero-sum theorem's frame)
+  and is the honest new name of task #11: not "derive S = A/4" but "establish no-bare-G."
+PART 4 — THE √3 POINTER (demand 2): the derivation is banked (the KP sequester solve, #46;
+  t241/244 value-independent form): at the dS point the ghost-condensate instability's growth
+  rate is set by the only scale present — Γ² = 3H_Λ² because M_GC = ρ_inf^¼ leaves NO second
+  scale to displace it (single-scale-ness is not asserted; it is the fluid's one-parameter
+  identity, the same fact that sharpened the f-sum). A cleaner presentation can be drafted on
+  demand, but the object exists and is cited.
+ADJUDICATE (coldest): (a) the 53-order death of the naive test (accepted as match-or-die
+honored?); (b) the forced Planck layer (Λ_micro as OUTPUT — does the banked "EFT-domain"
+phrasing legitimately leave the substance running deeper?); (c) the Jacobson/Frolov–Fursaev
+cancellation's applicability to THIS medium (the known result's conditions vs our
+non-minimal/preferred-frame structure — name what breaks if anything); (d) #11's rename
+(no-bare-G as the real remaining assumption) and what evidence bears on it (L1, the zero-sum
+theorem, the numeraire's channel-forcing).
+-- Defender t427: the keystone's naive form died by fifty-three orders and its death fixed the
+   medium's basement at the Planck scale — and the theorem the operator guessed was already
+   registered somewhere turns out to be thirty years old: build G from the loop and the quarter-
+   area comes free. What remains of the pivotal debt is one clean question: does this universe
+   carry any gravity it did not make itself? L1 has always answered no.
+
+========================================================================
+RED-TEAM — turn 420 (on def425 THE JWST STEP-CATCH -- the step-vs-ramp rule's SECOND STRIKE): a productive,
+honest turn -- the ABUNDANCE KILL is booked adverse straight (the model does NOT explain the JWST excess,
+percent-class + Lyα-forbidden), AND the ramp view generates TWO genuinely testable items the coded step hid:
+(b) P-030, an ALMA×JWST μ=m_p/m_e measurement at z>10 (sound method, near-term, distinctive) and (c) a real
+z~2-4 quasar μ-null (<1e-6) that BRACKETS the ramp tail. MY COLD ADDITION: reading B (the C²-gate) is now
+seen to be LOAD-BEARING -- it makes ε=1.24% a RECOMBINATION shift that DECAYS to ~0 by z~4/today, which is
+ESSENTIAL for consistency with present-day atomic-clock bounds (a present 1.24% m_e offset would be grossly
+excluded). The rule (its 2nd hit tonight) is validated; the step-debt audit (d) is the right systematic
+practice. Standing ~15-18% HELD (firm-mid).
+
+(a) THE KILL'S MAGNITUDE VERDICT SURVIVES -- HONEST ADVERSE BOOKING, CREDIT. Even mid-ramp, the m_e shift at
+z~10-30 is at most percent-class (~1e-2), which amplifies H2 chemistry/photometry rates to ~5-10% (exponential
+sensitivity) but NOT orders -- so the model does NOT explain a fundamental early-massive-galaxy EXCESS, and
+Lyα forbids a larger shift. The watch-row + adverse sign stand as booked. Credit the honest booking: the ramp
+view does NOT rescue the JWST non-explanation (it neither explains the excess nor is killed by JWST -- a
+percent-class, Lyα-consistent null). Booked adverse-neutral, straight.
+
+(b) P-030 -- THE μ-RATIO PRONG: SOUND, DISTINCTIVE, NEAR-TERM (the rule's constructive payoff). The physics
+is correct and standard: atomic electronic transitions ∝ m_e (degenerate with redshift -- unmeasurable
+alone), but MOLECULAR rotational (∝1/m_p) and vibrational (∝1/√(m_p m_e)) lines carry DIFFERENT m_e/m_p
+powers, so molecular-vs-atomic line comparison measures μ=m_p/m_e -- this is EXACTLY how quasar-absorption
+μ-variation limits are set. Applying it to ALMA (CO/H2O) × JWST (atomic) in the SAME z>10 galaxy is a novel,
+in-reach μ(z) probe AT the ramp epoch, predicting a LINE-RATIO OFFSET of order the local ramp value (≲1e-2
+at high z, →0 as the ramp completes). This is a genuine, near-term FALSIFIABLE prediction that the coded
+STEP HID (the step said "JWST epochs feel standard constants" -> no signal; the ramp says "a ≲1e-2 μ-offset
+at z>10, patchy, correlated with the peaks"). The rule turned a hidden convenience into an observable in data
+being taken NOW -- credit. OWED (flagged): detectability pricing -- molecular lines at z>10 are faint and
+the required precision to see ≲1e-2 (mid-ramp, so likely well below 1e-2) needs the line-pair/precision pass.
+
+(c) THE z~2-4 μ-NULL -- A REAL BANKED-DATA CONSTRAINT THAT BRACKETS THE RAMP. Quasar molecular μ-variation
+nulls at z~2-4 (|Δμ/μ|<~1e-6) REQUIRE the observable shift to be dead-to-ppm by z~4. This is a real,
+established constraint the STEP never faced (the instantaneous step trivially passes; the PHYSICAL ramp
+must). So the ramp is now BRACKETED: full above z~50 (structure onset), ≲1e-2 at z~10-30, <1e-6 by z~4. The
+model PLAUSIBLY passes -- reading B's gate f=exp(−C²/C_ref²) closes as structure forms (by z~4, C >> C_ref
+-> f→0) -- but the EXACT SHAPE must thread BOTH (b) ~1e-2 at z>10 AND (c) <1e-6 by z~4, a specific ~4-order
+decay across z~10→4 (the bulk of structure formation). That is a genuine, falsifiable joint constraint on the
+gate dynamics. OWED: the C-code ramp (B3 plan) must show reading B naturally threads both -- does no banked
+chain already violate the z~4 null? (The coded step passes trivially; the physical gate is the test.)
+
+MY COLD ADDITION -- READING B IS LOAD-BEARING (the ramp reveals why the gate matters). The gate f(C(z))
+running 1→0 as structure forms means ε=1.24% is the shift AT RECOMBINATION (z~1100, C~0, f~1 -- where the
+patchiness/CMB/leptophilia predictions live), decaying to ~0 by z~4 and TODAY. This is ESSENTIAL, not
+cosmetic: a PRESENT-DAY δm_e/m_e = 1.24% would be excluded by ~16 orders (atomic-clock / lab bounds ~1e-16/
+yr; a standing 1% offset is absurd). So reading B (the C²-gate) is what RECONCILES a large recombination
+dyad with a null present-day lab bound. Two consequences: (i) the c-arc's ε=1.24% is correctly the
+RECOMBINATION value (consistent); (ii) items (b)/(c) DIRECTLY PROBE the gate's shape between z~50 and z~4 --
+so P-030 and the μ-null are not peripheral, they test the load-bearing gate. NOTE there are now TWO ramps in
+play -- the f_amp PARTITION ramp (freezes early, t~300, t404) and the C²-GATE f (structure-gated, z~50→4) --
+which is exactly why the step-debt audit (d) matters: enumerate ALL coded steps, ramp-audit each separately.
+
+(d) THE STEP-DEBT AUDIT -- ADOPT AS STANDING PRACTICE (credit; the rule is validated). "Every coded step
+(transition redshift, onset, gate) is a DEBT -- enumerate and ramp-audit them" is the correct generalization
+of the rule. And the rule has now scored TWO real hits tonight: the f̄ window bias (t404 -- a ~0.02 correction)
+and this JWST-epoch ramp structure (a new prong + a new constraint). Two hits, both a coded convenience
+mistaken for physics, both yielding testable structure -- that validates the rule as productive, not a
+nitpick. The C-prep/B3 ramp implementation inherits the z~4 spec. Endorse the systematic audit.
+
+STANDING -- ~15-18%, HELD (firm-mid). A model-favorable-in-honesty turn: the JWST non-explanation is booked
+adverse straight (no rescue), AND the ramp view adds a near-term FALSIFIABLE prong (P-030 μ-ratio at z>10)
+plus a real banked-data CONSTRAINT (z~4 μ-null) that jointly bracket the load-bearing C²-gate. No derivation,
+but genuine testable structure gained and the gate's essential role clarified (it reconciles ε with lab
+bounds). The rule (yours) is now twice-validated. No move (testability up, honesty maintained, nothing
+derives; the JWST adverse-neutral was already booked). Deciders + these: the C-code ramp shape (thread z>10
+~1e-2 AND z~4 <1e-6); P-030 detectability pricing; the full step-debt enumeration (partition ramp + C²-gate
++ any others); plus task #11 area law, α_c/zon node, Cards 4/6, task #5 void, chirality family, PolyChord,
+eta(L,n), routeD/conv_desi. Leptophilia (t358b) stands (its BBN ε at f~1, full).
+  Banked (updated): JWST STEP-CATCH = the rule's 2nd strike. (a) ABUNDANCE KILL STANDS -- model does NOT
+  explain the early-massive-galaxy excess (percent-class + Lyα-forbidden), booked adverse-neutral. (b) P-030
+  NEW PRONG -- ALMA(molecular)×JWST(atomic) μ=m_p/m_e at z>10, a SOUND standard method predicting a ≲1e-2
+  ramp-value line-ratio offset -> a near-term m_e(z) measurement the step hid (detectability pricing owed).
+  (c) NEW CONSTRAINT -- z~2-4 quasar μ-null (<1e-6) brackets the ramp tail (dead by z~4); reading B's gate
+  plausibly threads it, but the exact shape (≲1e-2 at z>10 AND <1e-6 at z~4) is owed (C-code B3). LOAD-
+  BEARING: reading B (C²-gate) makes ε=1.24% a RECOMBINATION shift decaying to ~0 by z~4/today -- ESSENTIAL
+  for present-day lab-bound consistency; TWO ramps now (f_amp partition + C²-gate). (d) STEP-DEBT AUDIT
+  adopted (enumerate + ramp-audit all coded steps); rule twice-validated (f̄ bias + JWST structure). Open/
+  owed: the C-code ramp shape (threads both); P-030 pricing; step-debt enumeration; + task #11, α_c/zon,
+  Cards 4/6, task #5, chirality family, PolyChord, eta(L,n), routeD/conv_desi. Class: FLAT (firm-mid) --
+  honest adverse booking + two testable items + gate's load-bearing role clarified; rule validated; no
+  derivation. Standing ~15-18% held.
+
+— Claude (red team, external), turn 420 (on def425 JWST STEP-CATCH -- the rule's 2nd strike). Productive +
+  honest. (a) The KILL'S MAGNITUDE STANDS -- even mid-ramp the shift is percent-class (H2 rates ~5-10%, not
+  orders), so the model does NOT explain the JWST excess and Lyα forbids the cure; booked adverse-neutral,
+  credit the straight booking. (b) P-030 is a SOUND, distinctive, near-term prong: molecular(ALMA)-vs-
+  atomic(JWST) line comparison IS the standard μ=m_p/m_e method, and applying it to the SAME z>10 galaxy
+  measures m_e(z) at the ramp epoch (predicted ≲1e-2 offset, →0 as the ramp completes) -- an observable your
+  coded STEP HID. Credit (detectability pricing owed -- faint molecular lines at z>10). (c) The z~2-4 quasar
+  μ-null (<1e-6) is a REAL banked-data bracket the step never faced -- the physical ramp must thread ≲1e-2 at
+  z>10 AND <1e-6 by z~4 (a specific ~4-order decay); reading B's structure-gate plausibly does, but the
+  C-code shape is owed. COLD ADDITION: reading B (the C²-gate) is LOAD-BEARING -- it makes ε=1.24% a
+  RECOMBINATION shift that decays to ~0 by z~4/today, which is ESSENTIAL (a present 1.24% m_e offset would be
+  excluded by ~16 orders via atomic clocks); so (b)/(c) directly test the gate, and note you now have TWO
+  ramps (the f_amp partition + this C²-gate) -- exactly why (d) the STEP-DEBT AUDIT (enumerate + ramp-audit
+  every coded step) is right. The rule has scored TWO hits tonight (f̄ bias; now this) -- validated as
+  productive, not a nitpick; adopt the audit. No move (testability up, honesty kept, nothing derives).
+  Standing ~15-18% HELD. Class flat (firm-mid).
+========================================================================
+
+DEFENDER — turn 429 (operator-directed): docs/PRTOE_transaction_map.md filed — THE SCALE
+LADDER: the medium's three channels (gravitational: unscreenable; trace/dyad: the ONLY
+screened channel — C²-gate Gaussian + Vainshtein power-law, both FINITE; quantum substrate:
+an identity, not a force — everything sits inside the 402-AU coherence patch) crossed against
+the screening axis, rung by rung from horizon to the Planck basement (def427). THE OPERATOR'S
+LAW: no screen reaches zero — and the threads that survive screening ARE the prediction list
+(P-007 the void whisper, P-024 the dipole, P-030 the mid-ramp lines, the EP residual band, the
+clock tail). The screening map IS the prediction map read as residuals: strong screen =
+predicted normality (verified daily in every lab and galaxy), thin screen = the model's
+signature. t420's gift integrated: reading B as LOAD-BEARING screening (the gate zeroes
+today's ε — clocks safe BY the screen, not by absence). The gravity-note refined per the
+channel split (gravity never screened — the numeraire cannot suppress itself; the scalar
+ADDITION is what gates). OWED: the rung residual numbers beyond banked (= the def373 LV/clock
+pricing, unchanged). ADJUDICATE: (a) the ladder's channel split; (b) "the screening map = the
+prediction map" as the organizing claim; (c) the operator's never-zero law as the model's
+correct reading (Gaussian tails + power-law residuals + two unscreenable channels).
+-- Defender t429: the map the operator asked for: three threads, two screens, one ladder — and
+   the discovery that we had been drawing it all along, one prediction at a time, wherever the
+   screens run thin.
