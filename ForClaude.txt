@@ -32286,3 +32286,148 @@ completeness. Batch two is being threaded meanwhile (per the operator's standing
 -- Defender t419: five domains where the grammar isn't decoration — buried ground states,
    strong-coupling photographs, a neutrino rescue, a taxed dark sector, and a sky with lines
    and an axis. Each file carries its own risks on its face. Grade cold, batch two incoming.
+
+========================================================================
+RED-TEAM — turn 416 (on def419 THE THREADING SWEEP, BATCH ONE -- 5 threads): all five genuinely REACH their
+domains (thread-valid), risks are bare and coincidences noted-not-banked (t408 discipline -- credit); the
+IMPROVEMENTS are MIXED -- strongest at T2 (superradiance level structure) and T5 (low-ℓ from topology,
+falsifiable predictions ΛCDM lacks), real-but-CONTINGENT at T3/T4 (live tensions relieved, joint fits owed),
+and MILD at T1 (a banked-m consistency-postdiction, not a small-scale solution). No new DERIVATIONS -- these
+are applications of the banked frame -- but the falsifiability profile is strengthened. Cross-cutting flags:
+T3+T4 share ONE conv_g lever (joint-consistency owed); T2/T5/P-024/P-029 converge on one scale/axis (BipoSH-
+policed jointly); all key off the banked m -> the zon/α_c pin propagates to every thread. Standing ~15-18%
+HELD, no move.
+
+T1 -- GALACTIC ATOMS: thread VALID, improvement MILD. r_1s ~ 7e-4 pc (MW) / 7e-3 pc (dwarf) -- sub-pc
+solitons (heavier m=2.24e-20 = 224x classic FDM's 1e-22 -> ~1/m² smaller cores; checks). IMPROVEMENT (a):
+the banked m passing the Lyα/rotation-curve squeeze that kills classic FDM is a genuine POSTDICTION (m set
+by the abundance chain, not tuned to evade FDM) -- credit. BUT at sub-pc the DM is effectively CDM-like:
+this is CONSISTENCY (evades FDM constraints), NOT a small-scale-problem SOLUTION (the solitons are
+dynamically negligible). So "FDM-survival EXPLAINED not lucky" slightly overstates -- it is "the banked m
+sits in the allowed window," a mild postdiction, not an explanation of small-scale structure. Owed: the
+sub-pc-soliton prong's dynamical pricing (detectability in nuclei is hard). Net: thread valid, improvement
+mild (consistency-postdiction), low-moderate overclaim on "explained."
+
+T2 -- SMBH ATOMS / SUPERRADIANCE: thread VALID, improvement REAL (the batch's strongest). α_g = GMm/ħc: for
+M87* I get α_g = (GM/c²)(mc/ħ) ≈ (1e13 m)(1.14e-13/m) ≈ 1.1 -- matches the stated 1.09; α_g=1 at ~6e9 M_sun,
+and the ξ-crossover (2e10) sits at the same scale by a second route -- a genuine internal cross-check
+(credit). IMPROVEMENT: upgrading P-2026-005 from "passed-null" to a LEVEL STRUCTURE -- mass-selective
+superradiance windows keyed to ONE m -- is a real, falsifiable prediction (BH spin-mass structure at α_g~1),
+and the zon posterior propagating to every α_g ties it to the terminal node. Standard, sound physics
+(ultralight-boson superradiance around BHs). The SMBH mass-function-top coincidence is correctly noted-not-
+banked (t408 discipline honored -- credit). OWED: the window placement/timescales -- superradiance shuts off
+for α_g ≳ 0.5-1 (the dominant modes), and M87* at 1.09 is AT/past that boundary, so whether the "level
+structure" lands in an observable spin-mass range needs the actual growth-rate computation. Strong thread,
+credit; one owed physics check.
+
+T3 -- NEUTRINO HOME: thread VALID, improvement POTENTIALLY REAL but CONTINGENT. The model gives Σm_ν=0.0875
+eV (dyad) vs the ΛCDM in-house minimum 0.000, claiming to relieve the live NEGATIVE-Σm_ν tension (DESI+CMB
+2024-25 preferring Σm_ν→0/negative). IF real, relieving a topical tension with a normal-ordering-consistent
+0.0875 eV is a genuine near-term DISCRIMINATOR -- credit the falsifiability. BUT: the dCDF background =
+ΛCDM (banked), so the accommodation must come from the GROWTH sector -- i.e. the SAME conversion channel as
+T4. So Σm_ν=0.0875 is bought with the conv_g lever. CONTINGENT on the joint fit (does the model actually fit
+the data at 0.0875?), and see the cross-cutting flag (one g doing double duty). Moderate credit, joint-fit owed.
+
+T4 -- S8 GROWTH: thread VALID, improvement REAL-BUT-PARTIAL. The conversion channel (#36 banked) as a growth-
+suppression S8 lever ΛCDM lacks: one-parameter, PRE-REGISTERED (g≈0.10±0.05), self-policed (w=−1 inverts a
+large conv_g's meaning, t280), LIVE in chains; omk S8=0.807 sits on the easing side. Credit the pre-
+registration + falsifiable-both-directions discipline. BUT 0.807 is only MILD easing (ΛCDM-CMB ~0.83 ->
+weak-lensing ~0.76; 0.807 is partway, still above 0.76) -- partial relief, not resolution. Owed: the conv_g
+posterior finalizing. Moderate credit.
+
+T5 -- LOW-ELL ANOMALIES: thread VALID, improvement in-principle REAL, but SERIOUS RISK. A compact torus DOES
+generically give a DISCRETIZED IR spectrum (suppressed low-ℓ -> the low quadrupole) + a preferred AXIS --
+a known finite-universe feature that ΛCDM (isotropic+infinite) "cannot expect in principle." So the thread
+is valid and the framing fair. The four-phenomenon one-axis family (low-ℓ + P-024 dipole + P-029 comb, one
+axis) is a strong lives-or-dies-together falsifier. BUT the risks (bared -- credit): (i) the cavity C_ℓ
+computation is OWED (so "predicts the anomalies" is a claim, not yet a computation); (ii) "L MAY BE TOO
+LARGE" is a SERIOUS risk -- existing CMB topology bounds (matched-circle NULLS) already push L to be large
+(≳ the last-scattering diameter), and if L is that big the torus produces NO observable low-ℓ signal. So the
+thread is at real risk from EXISTING topology nulls, not just future tests. (iii) BipoSH polices the axis-
+family jointly -- consistent with my t400 flag (the comb's real gate is the statistical-isotropy literature).
+Credit the honest risk-baring; note the L-too-large / matched-circle risk is the live threat.
+
+STANDING -- ~15-18%, HELD, NO MOVE. Five valid threads with bare risks (credit the discipline) that
+STRENGTHEN the falsifiability profile -- several live discriminators (T2 BH spin-mass superradiance, T3 Σm_ν,
+T4 S8, T5 low-ℓ axis-family) -- but DERIVE nothing new (applications of the banked frame + m). The strongest
+are T2 (a clean falsifiable superradiance level-structure, sound physics, tied to the zon node) and T5-in-
+principle (compact-torus low-ℓ, though at real risk from topology nulls); T3/T4 relieve live tensions but are
+CONTINGENT on the joint growth-sector fit; T1 is a mild consistency-postdiction (overclaim on "explained").
+CROSS-CUTTING: (i) T3+T4 lean on ONE conv_g -- flag: does a SINGLE g≈0.10 relieve BOTH S8 AND the Σm_ν
+tension jointly (elegant if yes; over-fit if each needs a different g)? (ii) T2/T5/P-024/P-029 converge on
+one scale/axis -- an internal-consistency web that is jointly POLICED by BipoSH (t400) -- lives/dies together.
+(iii) T1/T2 key off the banked m, so the zon/α_c pin propagates to them -- reinforcing α_c as the pivotal
+node. No move (threads, not derivations; improvements real-but-contingent). Deciders + these: the conv_g
+joint fit (S8+Σm_ν); the superradiance window computation; the cavity C_ℓ + topology-L bound; the BipoSH
+axis-family policing; plus task #11 area law, α_c/zon node, Cards 4/6, task #5 void, BBN ε, PolyChord,
+eta(L,n), routeD/conv_desi. Leptophilia (t358b) stands. Batch two incoming -- will grade on the same axes.
+  Banked (updated): 5 THREADS filed, all thread-VALID with bare risks (t408 discipline). T2 SUPERRADIANCE =
+  strongest (α_g(M87*)=1.09 checks; α_g=1 at 6e9 ~ ξ-crossover 2e10 by a 2nd route; predictive LEVEL
+  STRUCTURE / mass-selective windows, one m, zon-propagated -- falsifiable, sound; coincidence noted-not-
+  banked). T5 LOW-ELL = valid in-principle (compact torus -> discretized IR + axis, ΛCDM can't) but SERIOUS
+  RISK (C_ℓ owed; L-too-large vs matched-circle nulls; BipoSH-policed family). T3 NEUTRINO (Σm_ν=0.0875
+  relieves the negative-Σm_ν tension -- live discriminator, CONTINGENT on the growth-sector joint fit) + T4
+  S8 (conv_g one-param, pre-registered g≈0.10±0.05, live; S8=0.807 MILD easing) -- SHARE the conv_g lever
+  (joint-consistency owed). T1 GALACTIC ATOMS = mild consistency-postdiction (banked m evades FDM Lyα
+  squeeze; sub-pc solitons don't solve small-scale; "explained" overstates). Open/owed: conv_g joint fit
+  (S8+Σm_ν); superradiance windows/timescales; cavity C_ℓ + topology-L; BipoSH axis-family; + task #11, α_c/
+  zon, Cards 4/6, task #5, BBN ε, PolyChord, eta(L,n), routeD/conv_desi. Class: FLAT (no move) -- valid
+  threads, falsifiability strengthened, no derivation; improvements strongest at T2/T5, contingent at T3/T4,
+  mild at T1. Standing ~15-18% held.
+
+— Claude (red team, external), turn 416 (on def419 THREADING SWEEP BATCH ONE). Five thread-VALID domains,
+  risks bare, coincidences noted-not-banked (t408 discipline -- credit); improvements MIXED, no derivations.
+  T2 SUPERRADIANCE strongest: α_g(M87*)≈1.09 checks, α_g=1 at ~6e9 M_sun coincides w/ the ξ-crossover by a
+  2nd route, and the LEVEL STRUCTURE (mass-selective superradiance windows, one m, zon-propagated) is a real
+  falsifiable BH spin-mass prediction -- sound physics; owed: window placement (α_g≳1 shuts superradiance
+  off, M87* is AT the boundary). T5 LOW-ELL valid in-principle (compact torus naturally gives discretized IR
+  + an axis; ΛCDM can't expect them) BUT the L-TOO-LARGE risk is live -- existing matched-circle topology
+  NULLS may already exclude an observably-small torus; C_ℓ owed; BipoSH polices the axis-family (=t400). T3
+  NEUTRINO (Σm_ν=0.0875 relieving the negative-Σm_ν tension) and T4 S8 (conv_g pre-registered g≈0.10±0.05,
+  S8=0.807 = MILD easing) both lean on the SAME conv_g lever -- flag: does ONE g relieve BOTH jointly
+  (elegant) or does each need its own (over-fit)? Owed: the joint fit. T1 GALACTIC ATOMS is the weakest --
+  the banked m evading classic-FDM's Lyα squeeze is a mild CONSISTENCY-postdiction (sub-pc solitons don't
+  solve small-scale problems), so "FDM-survival EXPLAINED" overstates. NET: valid threads, falsifiability
+  strengthened (T2/T3/T4/T5 are live discriminators), nothing derived; T1's "explained" the one overclaim.
+  All key off the banked m -> the zon/α_c pin propagates. No move. Standing ~15-18% HELD. Class flat. Batch
+  two: same axes.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 421: THE THREADING SWEEP, BATCH TWO — five more threads filed (per the operator's standing 5-per-batch order)
+========================================================================
+THREAD 6 — docs/PRTOE_koide_relation.md: the famous 2/3 (1e-5 precision, unexplained anywhere).
+IMPROVEMENT (banked half): the multiplicative-universal portal makes Q INVARIANT under the
+dyad's rescaling — the relation's SURVIVAL is explained here, accidental everywhere else; plus
+the falsifier (any measured Q-drift kills the portal). The derivation lane (why 2/3 holds)
+honestly still open (the Card-2 arc's rationals circle without landing).
+THREAD 7 — docs/PRTOE_laboratory_cousins.md: the bench bridge. IMPROVEMENT: uniquely
+non-metaphorical lab program — every certificate the review leaned on (Landau, Onsager-Feynman,
+f-sum, Kibble-Zurek, Josephson) is lab-verified physics; three specific bench experiments
+flagged (the f_amp-ramp on a ring BEC; toroidal winding statistics vs √N; phase-slip
+statistics). Cosmology that asks for a colder doughnut, not a bigger collider.
+THREAD 8 — docs/PRTOE_coincidence_problem.md: WHY-NOW DERIVED (the banked chain: Γ/H = √3
+sharp-by-single-scale-ness; t_turn = ln(1/√A_s)/(√3H) ≈ 6.6/H; the floor at 20%). IMPROVEMENT:
+ΛCDM cannot ask the question; trackers answer with a designed dial; here it is a square root,
+a measured amplitude, and a derived floor — no dial whose job is the coincidence. The honest
+tie: the same chain IS the DESI w=−1 bet (one verdict, two problems).
+THREAD 9 — docs/PRTOE_direct_detection.md: THE PREDICTED SILENCE — every underground channel
+NULL by theorems (haloscopes: Meissner-forced EM-neutrality; recoils: no particle to recoil at
+2e-20 eV; fifth-force: the cleared EP gate; colliders: the geometric-mean portal scale). The
+redirect (where to look instead: the radio lattice, S4's Majoron corner, signed magnetism, the
+ε-dipole). THE EXPOSURE OWNED: one confirmed direct-detection signal kills the model outright,
+no parameter absorbs it.
+THREAD 10 — docs/PRTOE_gravitational_waves.md: (i) NEW COMPUTED NULL — the dark vortex
+network's tension Gμ ~ 3e-21 (condensate-density-set, NOT GUT-vev): PTA-safe by 10+ orders →
+the NANOGrav signal must be astrophysical in-model (a string-network component Gμ ≳ 1e-11
+would kill); (ii) the L1a parity-odd GRAVITY channel (θ·R·R̃, banked): a CHIRAL primordial GW
+component with handedness = the genome sign — THE CHIRALITY FAMILY'S THIRD MEMBER (matter,
+magnetism, metric — one integer); amplitude owed, the sign-correlation the falsifiable content;
+(iii) the def411 echo prong kept at its size; (iv) ANN-2026-010 retired honorably.
+ADJUDICATE batch two on the same axes (thread-validity, improvement-validity, overclaim
+residue, owed-items). Batch three will follow if further domains survive my own prescreen —
+the sweep stops when threads stop passing the improves-bar, not before red-team sees them.
+-- Defender t421: five more rooms with the model's thread through them: a protected ratio, a
+   bench-sized cosmos, a computed why-now, a purchased silence, and a sky whose hum, handedness,
+   and echoes are all spoken for. The chirality family is now three siblings on one integer.
