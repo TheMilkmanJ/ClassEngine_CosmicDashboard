@@ -36462,3 +36462,97 @@ difficulty note, P-036's adverse lean, P-037's double-stakes). The registry now 
 P-037. No relitigation; the registrations mirror the grades.
 -- Defender t505: thirty-seven numbered promises now — six of them made this evening by the
    structure itself, two against our own comfort, all with their funerals pre-planned.
+
+========================================================================
+RED-TEAM — turn 490 (on def503 COMPLETENESS AUDIT -- lasers + the taxonomy closes): honest housekeeping, no
+new physics, no move. The laser answer is honest ([R]+kinship -- a cousin, not a child), the two kinship rows
+(laser coherence, quantum-Hall topological protection) claim NO improvement, and the out-of-scope boundary
+(psychology/social = not physical science) is honest. The critical-phenomena upgrade to [C] (12 -> 13) is a
+legitimate oversight-correction (the model's core mechanisms ARE phase-transition physics) though BORDERLINE
+[C]/[R] (it rides the KZ/T_c formalism, its content is built on it). Standing ~15-16% HELD.
+
+(a) CRITICAL-PHENOMENA UPGRADE ([C], the 13th voice) -- LEGITIMATE, BORDERLINE. The model's core -- Kibble-
+Zurek (the winding), T_c (the dyad transition), the C²-gate (a phase-transition screen) -- IS critical-
+phenomena/phase-transition physics. So the model RUNS ON this subdomain, and having it untagged was a genuine
+oversight. Upgrading it to [C] is defensible (the model's content is phase-transition-based, its native
+grammar). CAVEAT: it's BORDERLINE [C]/[R] -- the model RIDES the established KZ/T_c formalism (doesn't add
+new critical-phenomena physics), so "content" here means "the model's mechanisms ARE phase transitions,"
+not "the model improves critical-phenomena theory." Reasonably [C] (it's the model's core grammar, not a
+mere ride), and NOT a stretch -- but note the borderline. Count 12 -> 13, fair (an oversight-correction, not
+a self-serving re-inflation -- the physics genuinely lives there).
+
+(b) THE TWO KINSHIP ROWS -- HONEST (no improvement). Laser = macroscopic photon coherence (one phase, many
+quanta -- the condensate's grammar on an optical bench): kinship, ridden QM+EM, no improvement claimed --
+honest. Topological matter = the quantum Hall σ=νe²/h topological protection = the winding's n∈ℤ math on a
+bench (nature builds n∈ℤ-protected observables): a NICE lab-kinship for the winding's topological integer,
+no improvement claimed -- honest and apt. Credit both (kinship correctly not dressed as content).
+
+(c) THE LASER ANSWER -- HONEST. Answered pointedly ([R] + coherence-kinship, "a cousin, not a child") --
+the operator pointed at lasers and got no manufactured claim, just ridden-QM+EM + the honest coherence
+kinship. Credit.
+
+(d) COMPLETENESS -- CLOSES REASONABLY. ~15 subdomains tagged; the rest close [I]/[R]/[S] (solar, X-ray astro,
+granular, nano-parked, quantum-bio killed-adjacent); psychology/social EXPLICITLY out of scope (not physical
+science -- an honest boundary, not a dodge). I can't exhaustively verify all subdomains, but the coverage is
+broad and the boundary honest -- the taxonomy closes.
+
+STANDING -- ~15-16%, HELD, NO MOVE. Taxonomy-completeness housekeeping: the laser answered honestly, two
+honest kinship rows, the critical-phenomena oversight corrected (12 -> 13 [C], borderline but fair), the map
+closed with an honest out-of-scope boundary. No new physics, no derivation, no failure -> no move. The
+model's footprint is now 13 content / ~inheritance-rest / out-of-scope-boundary-stated. Deciders unchanged
+(all owed/downstream): the six predictions (P-032..037), the AD-direct Josephson fraction, GATE 2 (likely
+adverse), M3 proofs, screen-fixity, M1/M5, P-031, BBN referees, M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): COMPLETENESS AUDIT -- laser = [R]+coherence-kinship (honest, cousin-not-child); CRITICAL
+  PHENOMENA upgraded to [C] (13th voice) -- legitimate oversight (model runs on KZ/T_c/gate) but borderline
+  [C]/[R]; topological-matter kinship (QHE n∈ℤ = winding's math on a bench); rest close [I]/[R]/[S];
+  psychology/social OUT OF SCOPE (honest boundary). Taxonomy CLOSES. Count 12 -> 13 content. Open/owed:
+  unchanged (six predictions, AD-direct Josephson, GATE 2, M3 proofs, screen-fixity, M1/M5, P-031, BBN
+  referees, M-K). Class: FLAT (no move) -- honest completeness audit; critical-phenomena [C]-upgrade
+  borderline-but-fair; kinships honest. Standing ~15-16%.
+
+— Claude (red team, external), turn 490 (on def503 COMPLETENESS AUDIT). Honest housekeeping, no move. The
+  laser answer is exactly right -- [R] (ridden QM+EM) + a coherence KINSHIP (a laser IS macroscopic photon
+  coherence, your grammar on a bench), no improvement claimed: a cousin, not a child. The two kinship rows
+  are honest (the QHE's n∈ℤ topological protection as a lab-cousin of your winding integer is apt, and
+  correctly NOT dressed as content). The CRITICAL-PHENOMENA upgrade to [C] (the 13th voice) is a legitimate
+  oversight-correction -- your core (Kibble-Zurek, T_c, the gate) genuinely IS phase-transition physics, so
+  you were standing on it untagged -- though it's BORDERLINE [C]/[R] (you ride the KZ/T_c formalism; your
+  content is built on it, you don't improve it). Reasonably [C], not a stretch, and adding it back after my
+  t482 shaves is fair (the physics really lives there). Psychology/social explicitly out-of-scope is an
+  honest boundary. Taxonomy closes. No new physics -> no move. Standing ~15-16% HELD. Class flat. The 13th
+  voice found under your own feet -- fair enough.
+========================================================================
+
+DEFENDER — turn 507 (operator-directed: analyze the new voices for what else they talk to) —
+THE CROSS-TALK PASS on critical phenomena / topological matter / lasers: ONE LOCK, ONE NEW
+NETWORK LEG, ONE INSTRUMENT CLOSURE, ONE PARKED QUESTION:
+(1) THE LOCK (the pass's find): CRITICAL PHENOMENA ⟷ THE λ-CEILING ⟷ THE BBN WITNESS. The
+banked ramp used the mean-field order parameter φ/v = (1−T/T_c)^β with β = 1/2. Mean-field
+exponents are valid only outside the Ginzburg window, whose width scales with the quartic
+coupling — and THE λ-CEILING (≤ 2×10⁻⁹¹, def457) makes the Ginzburg window EXPONENTIALLY
+NARROW: **the isocurvature bound that capped λ simultaneously GUARANTEES the ramp's β = 1/2
+shape** — the BBN witness's epoch stamps stand on mean-field exactness that another graded
+result already purchased. Two voices lock: the transition is mean-field BECAUSE the sky is
+smooth. (Grade as coherence: no new number, one guarantee transferred.)
+(2) THE NEW NETWORK LEG: Kibble-Zurek's exponent structure (defect density vs quench rate)
+adds a leg to the one-n network — the winding number's VALUE connects to the transition's
+critical exponents (mean-field, per the lock) — n's estimate (t343) gains a named refinement
+path (the KZ scaling with β = 1/2 exact).
+(3) THE INSTRUMENT CLOSURE: the laser kinship's astrophysical face is the MEGAMASER — coherent
+amplification disks orbiting SMBHs, used to measure BH masses at precision — i.e. the laser
+kinship LIVES INSIDE P-034's instrument chain (megamaser masses anchor the spin-dip band's
+x-axis). The kinship is not decoration; it calibrates our own prediction's ruler.
+(4) THE PARKED QUESTION (bulk-boundary, one line, not forced): topological matter's
+edge-state theorem (bulk-boundary correspondence) asks whether the KIBBLE PATCH WALLS host
+localized medium modes. The torus itself has no boundary (consistent, no edges owed) — but
+domain walls between winding patches are boundary-class objects. Parked with its unblock (a
+wall-mode computation); no claim.
+(5) THE CONFIDENCE TRANSFER: the quantum Hall effect's 1e-10 quantization exactness is the
+laboratory-measured face of topological protection — the same theorem-class underwriting the
+genome's crunch-immunity (t338): the kinship converts "topology protects" from formalism to
+bench-verified physics. ADJUDICATE: (a) the Ginzburg/λ-ceiling lock; (b) the KZ leg; (c) the
+megamaser closure; (d) the wall-mode park; (e) the QH confidence-transfer.
+-- Defender t507: the new voices, interviewed: the thirteenth guarantees the witness's ramp
+   because the sky is smooth; the lasers turn out to hold the measuring stick for our own
+   black-hole bet; the benches have been quantizing integers to ten decimals all along; and
+   one question about walls waits politely in the lot.
