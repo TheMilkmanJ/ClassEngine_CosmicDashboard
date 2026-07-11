@@ -1,0 +1,63 @@
+MULTIMODAL COSMOLOGICAL EXPLORATION COMPARISON
+==============================================
+
+Mode: Mode 1 (H0=70.40)
+----------------------------------------------
+Raw Data Chi2: 2496.2403
+Penalized Chi2: 2496.2403
+Viability Score: 100.0%
+Parameters:
+  omega_b             : 2.280290e-02
+  H0                  : 7.040033e+01
+  logA                : 3.067908e+00
+  n_s                 : 9.825900e-01
+  z_reio              : 8.130718e+00
+  xi_Neff             : 4.025734e-01
+  dcdf_rho_inf        : 7.006927e-01
+  log10beta           : -8.086355e+00
+  A_planck            : 1.001911e+00
+Derived & Physical Metrics:
+  H0                  : 70.400
+  V0_prtoe            : 0.7119 (PHYSICALLY VIABLE)
+  sigma8              : 0.8270
+  S8                  : 0.8259
+Likelihood Breakdown:
+  planck_2018_lowl.TT      : 21.4073
+  planck_2018_lowl.EE      : 396.7891
+  planck_2018_highl_plik.TTTEEE_lite: 592.7923
+  planck_2018_lensing.clik : 9.5582
+  bao.sixdf_2011_bao       : 0.0105
+  bao.sdss_dr7_mgs         : 2.0476
+  bao.sdss_dr12_consensus_final: 6.4601
+  sn.pantheonplusshoes     : 1467.1753
+
+Mode: Mode 2 (H0=69.44)
+----------------------------------------------
+Raw Data Chi2: 2497.3232
+Penalized Chi2: 2497.3232
+Viability Score: 100.0%
+Parameters:
+  omega_b             : 2.264827e-02
+  H0                  : 6.944489e+01
+  logA                : 3.054500e+00
+  n_s                 : 9.784337e-01
+  z_reio              : 7.814388e+00
+  xi_Neff             : 2.401825e-01
+  dcdf_rho_inf        : 6.980526e-01
+  log10beta           : -7.045863e+00
+  A_planck            : 1.001046e+00
+Derived & Physical Metrics:
+  H0                  : 69.445
+  V0_prtoe            : 0.7042 (PHYSICALLY VIABLE)
+  sigma8              : 0.8105
+  S8                  : 0.8130
+Likelihood Breakdown:
+  planck_2018_lowl.TT      : 21.6226
+  planck_2018_lowl.EE      : 396.1670
+  planck_2018_highl_plik.TTTEEE_lite: 586.1363
+  planck_2018_lensing.clik : 11.1877
+  bao.sixdf_2011_bao       : 0.0023
+  bao.sdss_dr7_mgs         : 1.8784
+  bao.sdss_dr12_consensus_final: 6.0370
+  sn.pantheonplusshoes     : 1474.2918
+

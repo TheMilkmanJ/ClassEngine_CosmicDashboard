@@ -1,0 +1,140 @@
+# Black Holes Without Singularities — the PRTOE Interior (2026-07-11)
+
+*Derivation-from-banked-structure. Every load-bearing input cites a graded ledger object; owed
+items are flagged. Status: STRUCTURAL (candidate) — booked def411, awaiting red-team grade.
+The exterior is unchanged (horizons, shadows, P-2026-005 intact); this document is about what
+replaces the singular interior, with the actual numbers.*
+
+---
+
+## 0. The claim
+
+In this model a black hole has a horizon but **no singularity**: the interior is a
+**finite-density quantum condensate core** (a soliton of the medium, thermalized where the
+Landau criterion breaks). The claim rests on three graded pillars and closes with real numbers.
+
+## 1. Pillar one: the metric is emergent — and it ends before r = 0
+
+The metric here is the medium's collective structure (the acoustic/Son isomorphism;
+Sakharov-induced action; the Jacobson thermodynamic kit — the assembled QG frame, graded t366:
+a "legitimate emergent/analog-gravity model"). An emergent metric is only defined where the
+collective description holds — for gradients longer than the **healing length**
+
+    ξ = ħ/(m c_s),   with m = 2.24×10⁻²⁰ eV (banked) and c_s = √α_c = 0.146 (derived, def337)
+
+    **ξ = 6.0×10¹³ m = 402 AU = 0.0064 ly.**
+
+A "singularity" is a statement about the metric at arbitrarily small scales. Below ξ **there is
+no metric to be singular** — only the quantum medium. This is the same no-double-counting move
+that resolved the vacuum catastrophe (def337/t334) and the graviton's non-renormalizability
+(t366): the degree of freedom dissolves at the cutoff; questions about it beneath the cutoff
+are category errors.
+
+## 2. The number that changes the picture: every known black hole fits inside ONE healing length
+
+| object | r_s | r_s/ξ |
+|---|---|---|
+| 10 M☉ (stellar) | 3.0×10⁴ m | 5×10⁻¹⁰ |
+| Sgr A* (4.3×10⁶ M☉) | 1.3×10¹⁰ m | 2×10⁻⁴ |
+| M87* (6.5×10⁹ M☉) | 1.9×10¹³ m | 0.32 |
+| TON 618 (6.6×10¹⁰ M☉) | 2.0×10¹⁴ m | 3.2 |
+
+**Crossover mass (r_s = ξ): M ≈ 2.0×10¹⁰ M☉.**
+
+Every stellar and nearly every supermassive black hole is **smaller than the ambient healing
+length**: its entire interior is a single quantum-coherent region of the condensate. For these
+objects the question "what is the spacetime geometry inside?" has no referent — the interior
+is **one quantum object wearing a classical horizon**. (The horizon itself is safe: it lives at
+r_s, in the emergent-metric regime, as the sonic horizon — §4.)
+
+*Noted, not banked:* the crossover sits at ~2×10¹⁰ M☉ — the empirical top of the observed SMBH
+mass function (TON 618-class objects just exceed it). Whether the model's interior-character
+change at that mass relates to the observed cutoff is flagged as a possible prong, with the
+honest caveat that astrophysical explanations for the cutoff exist. ξ inside the dense core is
+also shorter than ambient (ξ ∝ 1/c_s,local); the table uses the ambient value as the scale at
+which infalling matter *enters* the quantum regime.
+
+## 3. Pillar two: the collapse has a floor — quantum pressure and the quartic
+
+A self-interacting condensate resists compression: gravity is balanced by quantum pressure and
+the quartic repulsion (Colpi–Shapiro–Wasserman class). The maximum mass supportable at finite
+density:
+
+    M_max ≈ 0.062 √λ · M_Pl³/m²  =  2.0×10⁵⁶ √λ  M☉.
+
+The physical λ is un-pinned (owed), but the margin is so vast that **any λ ≳ 10⁻⁹⁰ supports
+every known black-hole mass** as a finite-density equilibrium. In the Thomas–Fermi regime the
+core radius is mass-independent and the central density scales as ρ_c ∝ M — **finite for all
+astrophysical M**. There is no mass in the observed universe that this medium must crush to a
+point.
+
+## 4. Pillar three: the Landau ceiling — where the horizon comes from and where the energy goes
+
+In acoustic gravity the event horizon **is** the sonic horizon: the surface where infall speed
+exceeds c_s. Inside it, the flow is super-critical — **the Landau criterion (cert-1/F3, the
+founding certificate) is violated** — so the superfluid description fails *dissipatively*: the
+infalling medium transitions to the **normal phase** and thermalizes. This is the same physics
+as the crunch's mouth (def331, banked): super-threshold flow gets massed, caught, and
+thermalized. The interior is therefore:
+
+    a normal-phase, thermal, finite-density core (the Landau-broken region),
+    embedded in the condensate, wearing a sonic horizon.
+
+The infall energy is not concentrated at a point; it is **stored as heat and entropy in the
+core** — which is where the Bekenstein–Hawking entropy must live in this model. *(Owed: the
+area scaling of that entropy from the medium — the same owed item as the Jacobson area law,
+task #11. Honest status: located, not derived.)*
+
+Hawking radiation survives: phonon Hawking emission from sonic horizons is standard
+analog-gravity physics (Unruh) — the exterior thermodynamics is inherited, not lost.
+
+## 5. Rotation: Kerr as a vortex bundle
+
+A superfluid cannot rotate rigidly (Onsager–Feynman, t338-granted): a spinning black hole's
+angular momentum is carried by **quantized circulation** — a bundle of N_v = J/ħ vortex lines
+threading the core (N_v ~ 10⁷⁷ (M/M☉)² a* — astronomically many, classical in aggregate).
+Vortex cores are normal-phase threads: rotation *adds more thermalized thread*, never a ring
+singularity. The Kerr exterior (frame dragging, ergosphere) is the aggregate flow field —
+unchanged at observational scales. Superradiance physics (P-2026-005) is untouched.
+
+## 6. Why the Penrose singularity theorem does not apply
+
+The theorem's premises, audited against this interior:
+
+1. **A Lorentzian metric on the full domain** — FAILS below ξ / inside the quantum core (§1–2):
+   the theorem's arena dissolves before its conclusion's locus.
+2. **Energy conditions (SEC/NEC on the relevant congruences)** — FAIL in the core: quantum
+   pressure and the quartic produce the effective-stress violations standard to every bounce
+   and boson-star solution (and to this model's own thaw sector).
+3. **Trapped surfaces** — form (the sonic horizon is real); the theorem correctly predicts
+   geodesic incompleteness *of the emergent metric* — which here means the emergent
+   description ends (at the core boundary), not that physical histories end. Geodesics are
+   phonon paths; phonons decohere into the normal phase and continue as ordinary transport.
+
+The theorem is not violated — it is **discharged at its premises**, exactly as in every
+analog-gravity system where sonic horizons demonstrably form and nothing singular ever occurs.
+
+## 7. Observational posture (honest)
+
+- **Null-prediction stance** (the operator's epistemology): exteriors indistinguishable from GR
+  at current precision — shadows, ringdowns, superradiance margins all inherited.
+- **Distinctive prongs, flagged not banked:** (i) the M ~ 2×10¹⁰ M☉ interior-character
+  crossover vs the SMBH mass-function top (§2); (ii) horizon-scale microstructure at the core
+  boundary could imprint late-time ringdown echoes — generic to horizon-scale-structure models,
+  amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
+  thermodynamics to the medium's Landauer ledger (banked bookkeeping, def-atom-night).
+
+## 8. Summary
+
+| GR statement | PRTOE replacement | status |
+|---|---|---|
+| Singularity at r = 0 | finite-density condensate/normal-phase core | derived-from-banked (§1–4) |
+| Metric to arbitrarily small r | metric ends at ξ; interior is one quantum object for M < 2×10¹⁰ M☉ | computed (§2) |
+| Collapse unbounded | CSW equilibrium at any known mass (λ ≳ 10⁻⁹⁰) | computed, λ owed (§3) |
+| Ring singularity (Kerr) | quantized vortex bundle, normal-phase threads | structural (§5) |
+| Penrose theorem | discharged at premises (no metric below ξ; SEC violated; phonon geodesics end, histories don't) | argued (§6) |
+| BH entropy | thermal core + Landauer ledger; area law OWED | located, not derived |
+
+*The medium does not permit infinities: the same Landau threshold that caps the vacuum budget
+and feeds the crunch dissolves the singularity. What falls in is not crushed to a point — it is
+caught, thermalized, and kept on the books, at four hundred astronomical units of coherence.*

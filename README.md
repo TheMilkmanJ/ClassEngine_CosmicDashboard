@@ -4,6 +4,7 @@
 
 **Author:** Justin Ryan Pulford
 
+This repository provides the **PRTOE** (Pulford-Romsa **Theory of Expansion**) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
 This repository provides the **PRTOE** (Pulford-Romsa Theory of Expansion) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
 - Compile custom CLASS engines
 - Run nested sampling (Cobaya + PolyChord)
@@ -11,6 +12,16 @@ This repository provides the **PRTOE** (Pulford-Romsa Theory of Expansion) model
 - **Add exploratory Bayesian diagnostics beyond simple information criteria** for complex models (see features below)
 
 It is built on top of the excellent upstream [CLASS code](http://class-code.net) by Julien Lesgourgues et al.
+
+### What is PRTOE (Theory of Expansion)?
+
+PRTOE is an **exploratory dark-sector cosmology** — a *theory of the expanding cosmos, not a theory of everything.* Its core idea: treat **dark matter and dark energy as one medium** (a dark condensate whose effective equation of state runs from radiation-like → matter → a dark-energy floor), and add a small, **environment-screened shift in the electron mass at recombination**, aimed at the **H₀ and S₈ tensions**. Whether that shift *actually* eases those tensions is exactly what these tools are for testing — **it is a hypothesis under evaluation, not a claimed result.**
+
+By construction PRTOE **cedes local, bound-matter physics to the Standard Model**: the medium couples to ordinary matter essentially only through gravity, and screens to standard values inside dense structure — so it makes *no* claim on atoms, chemistry, planets, or the lab. Its domain is the diffuse, expanding cosmos, and nothing smaller.
+
+**Status — a falsifiable alternative under active testing: "winning, not won."** It sticks its neck out on specific measurements that can cut it — a dark-energy equation of state **w = −1** (vs. DESI), a **varying-mₑ step in cosmic voids** (cosmic-dawn 21-cm), a **pinned neutrino-mass sum**, and **zero cosmic birefringence**. We are *not* claiming it is proven. We are claiming it is *specific enough to be wrong* — and inviting the community to help find out.
+
+> The earlier **v1–v3 scalar-tensor formulation** (the `ξ / δ / ζ / β` modified-gravity parameters still present in the code and the dashboard's Modified Gravity Playground) is retained for comparison and documented under [`docs/historical_v1-v3_scalar_tensor/`](docs/historical_v1-v3_scalar_tensor/).
 
 > [!IMPORTANT]
 > **Invitation to Researchers:** If you are downloading this code, we politely ask you to run the PRTOE model configurations and help us test its viability as an alternative cosmological model. By comparing its Bayesian evidence ($\Delta\ln\mathcal{Z}$), $\chi^2$ fits, and parameter pulls (such as the $H_0$ and $S_8$ tensions) against standard $\Lambda\text{CDM}$, you can help the cosmology community determine if PRTOE is a framework worth exploring further. Thank you for your contribution!

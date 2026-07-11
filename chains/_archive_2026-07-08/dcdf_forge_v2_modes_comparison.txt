@@ -1,0 +1,61 @@
+MULTIMODAL COSMOLOGICAL EXPLORATION COMPARISON
+==============================================
+
+Mode: Mode 1 (H0=70.32)
+----------------------------------------------
+Raw Data Chi2: 2496.1950
+Penalized Chi2: 2496.1950
+Viability Score: 100.0%
+Parameters:
+  omega_b             : 2.279384e-02
+  H0                  : 7.031673e+01
+  logA                : 3.068236e+00
+  n_s                 : 9.820907e-01
+  z_reio              : 8.078110e+00
+  xi_Neff             : 3.840514e-01
+  dcdf_rho_inf        : 7.004386e-01
+  A_planck            : 1.002801e+00
+Derived & Physical Metrics:
+  H0                  : 70.317
+  V0_prtoe            : 0.7112 (PHYSICALLY VIABLE)
+  sigma8              : 0.8277
+  S8                  : 0.8270
+Likelihood Breakdown:
+  planck_2018_lowl.TT      : 21.4392
+  planck_2018_lowl.EE      : 396.6252
+  planck_2018_highl_plik.TTTEEE_lite: 592.4376
+  planck_2018_lensing.clik : 9.4541
+  bao.sixdf_2011_bao       : 0.0099
+  bao.sdss_dr7_mgs         : 2.0398
+  bao.sdss_dr12_consensus_final: 6.4792
+  sn.pantheonplusshoes     : 1467.7099
+
+Mode: Mode 2 (H0=71.00)
+----------------------------------------------
+Raw Data Chi2: 2496.9626
+Penalized Chi2: 2496.9626
+Viability Score: 100.0%
+Parameters:
+  omega_b             : 2.287576e-02
+  H0                  : 7.100475e+01
+  logA                : 3.068268e+00
+  n_s                 : 9.857134e-01
+  z_reio              : 8.039699e+00
+  xi_Neff             : 5.078322e-01
+  dcdf_rho_inf        : 7.019759e-01
+  A_planck            : 1.001146e+00
+Derived & Physical Metrics:
+  H0                  : 71.005
+  V0_prtoe            : 0.7166 (PHYSICALLY VIABLE)
+  sigma8              : 0.8315
+  S8                  : 0.8287
+Likelihood Breakdown:
+  planck_2018_lowl.TT      : 21.1721
+  planck_2018_lowl.EE      : 396.4437
+  planck_2018_highl_plik.TTTEEE_lite: 597.0934
+  planck_2018_lensing.clik : 9.7568
+  bao.sixdf_2011_bao       : 0.0174
+  bao.sdss_dr7_mgs         : 2.1431
+  bao.sdss_dr12_consensus_final: 6.7168
+  sn.pantheonplusshoes     : 1463.6193
+

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mode_1",
+    "name": "Mode 1 (H0=67.40)",
+    "point": {
+      "H0": 67.4,
+      "xi_prtoe": 1e-07,
+      "omega_b": 0.0224,
+      "omega_cdm": 0.12
+    },
+    "viability_score": 100.0,
+    "stability": 100.0,
+    "isolation": -1.0,
+    "mcmc_acc_rate": 0.0,
+    "surrogate_hit_rate": 0.0,
+    "ess": {},
+    "rhat": {},
+    "unphysical_fraction": 0.0
+  }
+]

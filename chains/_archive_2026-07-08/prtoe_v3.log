@@ -1,0 +1,461 @@
+ 2026-07-03 18:21:07,000 [output] Output to be read-from/written-into folder 'chains', with prefix 'prtoe_v3'
+ 2026-07-03 18:21:07,000 [optimizer] Launching Hybrid Cosmo Optimizer (Method: BOBYQA, Multi-start: 1)...
+ 2026-07-03 18:21:54,812 [input] Parameter 'A_planck' is multiply defined but consistent.
+ 2026-07-03 18:21:54,816 [model] *WARNING* Ignored blocks/options: ['output']
+ 2026-07-03 18:21:54,899 [model] Input info updated with defaults (dumped to YAML):
+theory:
+  classy:
+    path: /home/themilkmanj/prtoe_class
+    speed: 0.2
+    stop_at_error: false
+    extra_args:
+      use_prtoe: 'yes'
+      non_linear: halofit
+      output: mPk,tCl,pCl,lCl
+      modes: s
+      N_ur: 2.0328
+      N_ncdm: 1
+      T_ncdm: 0.71611
+      l_max_scalars: 2508
+      lensing: 'yes'
+      z_pk: 0.61 0.51 0.38
+      z_max_pk: 2.5
+      P_k_max_1/Mpc: 1
+      g3_prtoe: 1.0e-11
+      prtoe_enforce_wedge: 'no'
+    ignore_obsolete: false
+    use_renames: false
+    renames:
+      As: A_s
+      ns: n_s
+      nrun: alpha_s
+      nrunrun: beta_s
+      nt: n_t
+      ntrun: alpha_t
+      rdrag: rs_drag
+      omegak: Omega_k
+      omegal: Omega_Lambda
+      w: w0_fld
+      wa: wa_fld
+      omegabh2: omega_b
+      omegab: Omega_b
+      omegach2: omega_cdm
+      omegac: Omega_cdm
+      omegam: Omega_m
+      omegan: Omega_nu
+      tau: tau_reio
+      zrei: z_reio
+      deltazrei: reionization_width
+      helium_redshift: helium_fullreio_redshift
+      helium_delta_redshift: helium_fullreio_width
+      yhe: YHe
+      yheused: YHe
+    version: null
+likelihood:
+  planck_2018_lowl.TT:
+    lmin: 2
+    lmax: 29
+    type: CMB
+    aliases:
+    - lowT
+    speed: -1
+    stop_at_error: false
+    version: null
+  planck_2018_lowl.EE:
+    type: CMB
+    aliases:
+    - lowE
+    speed: -1
+    stop_at_error: false
+    version: null
+  planck_2018_highl_plik.TTTEEE_lite:
+    path: null
+    clik_file: baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik
+    product_id: '151902'
+    aliases:
+    - plikHM_TTTEEE
+    speed: 500
+    params:
+      A_planck:
+        prior:
+          dist: norm
+          loc: 1
+          scale: 0.0025
+        ref:
+          dist: norm
+          loc: 1
+          scale: 0.002
+        proposal: 0.0005
+        latex: y_\mathrm{cal}
+        renames: calPlanck
+    type: CMB
+    stop_at_error: false
+    version: null
+  planck_2018_lensing.clik:
+    path: null
+    clik_file: baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing
+    product_id: '151902'
+    aliases:
+    - lensing
+    speed: 600
+    params:
+      A_planck:
+        prior:
+          dist: norm
+          loc: 1
+          scale: 0.0025
+        ref:
+          dist: norm
+          loc: 1
+          scale: 0.002
+        proposal: 0.0005
+        latex: y_\mathrm{cal}
+        renames: calPlanck
+    type: CMB
+    stop_at_error: false
+    version: null
+  bao.sixdf_2011_bao:
+    path: null
+    rs_rescale: 1.027369826
+    data:
+    - 0.106
+    - 0.336
+    - 0.015
+    - rs_over_DV
+    aliases:
+    - BAO
+    speed: 5000
+    type: BAO
+    measurements_file: null
+    rs_fid: null
+    prob_dist: null
+    cov_file: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+  bao.sdss_dr7_mgs:
+    path: null
+    prob_dist: bao_data/sdss_MGS_prob.txt
+    prob_dist_bounds:
+    - 0.8005
+    - 1.1985
+    rs_rescale: 4.29720761315
+    data:
+    - 0.15
+    - 4.465666824
+    - 0.1681350461
+    - DV_over_rs
+    aliases:
+    - BAO
+    speed: 5000
+    type: BAO
+    measurements_file: null
+    rs_fid: null
+    cov_file: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+  bao.sdss_dr12_consensus_final:
+    path: null
+    measurements_file: bao_data/sdss_DR12Consensus_final.dat
+    cov_file: bao_data/final_consensus_covtot_dM_Hz_fsig.txt
+    rs_fid: 147.78
+    aliases:
+    - BAO
+    speed: 2000
+    type: BAO
+    rs_rescale: null
+    prob_dist: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+  bao.desi_2024_bao_all:
+    measurements_file: bao_data/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt
+    cov_file: bao_data/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt
+    rs_fid: 1
+    aliases:
+    - BAO
+    speed: 2000
+    type: BAO
+    rs_rescale: null
+    prob_dist: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+  sn.pantheonplusshoes:
+    path: null
+    dataset_file: PantheonPlus/config.dataset
+    dataset_params: null
+    aliases:
+    - PantheonPlusSHOES
+    use_abs_mag: false
+    speed: 100
+    type: SN
+    stop_at_error: false
+    version: null
+params:
+  omega_b:
+    prior:
+      min: 0.019
+      max: 0.026
+    ref: 0.0224
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+    renames:
+    - omegabh2
+  omega_cdm:
+    prior:
+      min: 0.1
+      max: 0.2
+    ref: 0.12
+    proposal: 0.001
+    latex: \Omega_\mathrm{c} h^2
+    renames:
+    - omegach2
+  H0:
+    prior:
+      min: 55.0
+      max: 85.0
+    ref: 67.4
+    proposal: 0.5
+    latex: H_0
+  logA:
+    prior:
+      min: 1.61
+      max: 3.91
+    ref: 3.05
+    proposal: 0.001
+    latex: \ln(10^{10} A_\mathrm{s})
+    drop: true
+  A_s:
+    value: 'lambda logA: 1e-10 * np.exp(logA)'
+    derived: true
+    renames:
+    - As
+  n_s:
+    prior:
+      min: 0.8
+      max: 1.2
+    ref: 0.965
+    proposal: 0.005
+    latex: n_\mathrm{s}
+    renames:
+    - ns
+  z_reio:
+    prior:
+      min: 5.0
+      max: 12.0
+    ref: 8.0
+    proposal: 0.1
+    latex: z_\mathrm{reio}
+    renames:
+    - zrei
+  A_planck:
+    prior:
+      dist: norm
+      loc: 1.0
+      scale: 0.0025
+    ref: 1.0
+    proposal: 0.00025
+    latex: A_\mathrm{planck}
+    renames: calPlanck
+  log_xi_prtoe:
+    prior:
+      min: -5.0
+      max: 0.0
+    ref: -2.0
+    proposal: 0.15
+    latex: \log_{10}\xi_\mathrm{prtoe}
+    drop: true
+  xi_prtoe:
+    value: 'lambda log_xi_prtoe: 10**log_xi_prtoe'
+    derived: false
+    latex: \xi_\mathrm{prtoe}
+  log_xi1_prtoe:
+    prior:
+      min: -3.0
+      max: 0.0
+    ref: -0.5
+    proposal: 0.15
+    latex: \log_{10}\xi_1
+    drop: true
+  xi1_prtoe:
+    value: 'lambda log_xi1_prtoe: 10**log_xi1_prtoe'
+    derived: false
+    latex: \xi_{1,\mathrm{prtoe}}
+  zeta_prtoe:
+    prior:
+      min: 0.0001
+      max: 5.0
+    ref: 0.1
+    proposal: 0.05
+    latex: \zeta_\mathrm{prtoe}
+  lambda_prtoe:
+    value: 0.05
+    latex: \lambda_\mathrm{prtoe}
+  m_prtoe:
+    value: 0.05
+    latex: m_\mathrm{prtoe}
+  m_ncdm:
+    value: 0.06
+    latex: \sum m_\nu \ [\mathrm{eV}]
+  beta_prtoe:
+    value: 1.0e-06
+    latex: \beta_\mathrm{prtoe}
+  M_prtoe:
+    value: 100.0
+    latex: M_\mathrm{prtoe}
+  alpha_prtoe:
+    value: 0.1
+    latex: \alpha_\mathrm{prtoe}
+  M_ew_prtoe:
+    value: 100.0
+    latex: M_{\mathrm{ew},\mathrm{prtoe}}
+  H_vac_floor:
+    value: 64.1218
+    latex: H_{\mathrm{vac,floor}}
+  delta_prtoe:
+    value: 0.0
+    latex: \Delta_\mathrm{prtoe}
+  phi_0_prtoe:
+    value: 1.0
+    latex: \phi_{0,\mathrm{prtoe}}
+  sigma8:
+    latex: \sigma_8
+    derived: true
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+    derived: true
+    renames:
+    - omegam
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
+  chi2__BAO:
+    latex: \chi^2_\mathrm{BAO}
+    derived: true
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+    derived: true
+  chi2__SN:
+    latex: \chi^2_\mathrm{SN}
+    derived: true
+debug: true
+packages_path: /home/themilkmanj/cobaya_packages_clean
+
+ 2026-07-03 18:21:54,969 [classy] Attempting import from /home/themilkmanj/prtoe_class.
+ 2026-07-03 18:21:54,971 [classy] 'classy' to be imported from (sub)directory /home/themilkmanj/prtoe_class/build/lib.linux-x86_64-cpython-313
+ 2026-07-03 18:21:54,990 [classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/build/lib.linux-x86_64-cpython-313/classy
+ 2026-07-03 18:21:56,931 [planck_2018_highl_plik.ttteee_lite] Attempting import of Cobaya-installed version, but defaulting to global import if not found.
+ 2026-07-03 18:21:56,933 [planck_2018_highl_plik.ttteee_lite] 'clik' to be imported from (sub)directory /home/themilkmanj/cobaya_packages_clean/code/planck/clik-main/lib/python/site-packages
+ 2026-07-03 18:21:58,236 [planck_2018_highl_plik.ttteee_lite] `clik` module loaded successfully from /home/themilkmanj/cobaya_packages_clean/code/planck/clik-main/lib/python/site-packages/clik
+----
+clik version clik_16.0b1-12-gcde855c6debd
+  plik_cmbonly
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86223e-09)
+----
+ 2026-07-03 18:21:58,681 [planck_2018_lensing.clik] Attempting import of Cobaya-installed version, but defaulting to global import if not found.
+ 2026-07-03 18:21:58,683 [planck_2018_lensing.clik] 'clik' to be imported from (sub)directory /home/themilkmanj/cobaya_packages_clean/code/planck/clik-main/lib/python/site-packages
+ 2026-07-03 18:21:58,684 [planck_2018_lensing.clik] `clik` module loaded successfully from /home/themilkmanj/cobaya_packages_clean/code/planck/clik-main/lib/python/site-packages/clik
+Checking lensing likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+ 2026-07-03 18:21:58,759 [bao.sixdf_2011_bao] Initialized.
+ 2026-07-03 18:21:58,804 [bao.sdss_dr12_consensus_final] Initialized.
+ 2026-07-03 18:21:58,818 [bao.desi_2024_bao_all] Initialized.
+ 2026-07-03 18:21:58,827 [sn.pantheonplusshoes] Reading /home/themilkmanj/cobaya_packages_clean/data/sn_data/PantheonPlus/Pantheon+SH0ES.dat
+ 2026-07-03 18:21:58,977 [sn.pantheonplusshoes] Number of SN read: 1701 
+ 2026-07-03 18:21:58,978 [sn.pantheonplusshoes] Reading covmat for: mag 
+ 2026-07-03 18:21:59,090 [exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "/home/themilkmanj/prtoe_class/run_cosmicforge.py", line 2763, in <module>
+    main()
+    ~~~~^^
+  File "/home/themilkmanj/prtoe_class/run_cosmicforge.py", line 1100, in main
+    model = get_model(info)
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/model.py", line 1371, in get_model
+    return Model(updated_info["params"], updated_info["likelihood"],
+                 updated_info.get("prior"), updated_info.get("theory"),
+                 packages_path=info.get("packages_path"),
+                 timing=updated_info.get("timing"),
+                 stop_at_error=info.get("stop_at_error", False))
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/model.py", line 247, in __init__
+    self.likelihood = LikelihoodCollection(info_likelihood, theory=self.theory,
+                      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           packages_path=packages_path, timing=timing)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/likelihood.py", line 276, in __init__
+    self.add_instance(name, like_class(info, packages_path=packages_path,
+                            ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                       timing=timing, standalone=False,
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                       name=name))
+                                       ^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/likelihoods/base_classes/InstallableLikelihood.py", line 54, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/likelihood.py", line 94, in __init__
+    super().__init__(info, name=name, timing=timing,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     packages_path=packages_path, initialize=initialize,
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     standalone=standalone)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/theory.py", line 65, in __init__
+    super().__init__(info, name=name, timing=timing,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     packages_path=packages_path, initialize=initialize,
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     standalone=standalone)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/component.py", line 367, in __init__
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/likelihoods/base_classes/DataSetLikelihood.py", line 52, in initialize
+    self.load_dataset_file(data_file, getattr(self, 'dataset_params', {}))
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/likelihoods/base_classes/DataSetLikelihood.py", line 62, in load_dataset_file
+    self.init_params(ini)
+    ~~~~~~~~~~~~~~~~^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/likelihoods/sn/pantheonplus.py", line 22, in init_params
+    self.covs[name] = self._read_covmat(
+                      ~~~~~~~~~~~~~~~~~^
+        os.path.join(self.path, ini.string('%s_covmat_file' % name)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/likelihoods/base_classes/sn.py", line 203, in _read_covmat
+    cov = np.loadtxt(filename)
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 1395, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+                converters=converters, skiplines=skiprows, usecols=usecols,
+                unpack=unpack, ndmin=ndmin, encoding=encoding,
+                max_rows=max_rows, quote=quotechar)
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 1046, in _read
+    arr = _load_from_filelike(
+        data, delimiter=delimiter, comment=comment, quote=quote,
+    ...<3 lines>...
+        encoding=encoding, filelike=filelike,
+        byte_converters=byte_converters)
+  File "<frozen codecs>", line 334, in getstate
+KeyboardInterrupt
+-------------------------------------------------------------
+
+ 2026-07-03 18:21:59,091 [exception handler] Interrupted by the user.

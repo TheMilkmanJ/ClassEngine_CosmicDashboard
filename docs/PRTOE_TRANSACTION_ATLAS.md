@@ -220,7 +220,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
    transaction alone (precedent: (□φ)² → (δK)² re-earned via three
    fresh certificates).
 
-**Census: 7 cold (never) / 5 warm / 3 risen.**
+**Census: 7 cold (never) / 6 warm / 3 risen.**
 
 - **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
   structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
@@ -306,6 +306,105 @@ local-state loophole; the universal-vev kill via epoch gating).*
 - **v1–v3 F(φ)R screening program** — four independent kills.
   *Resurrects if:* never as H0 mechanism; the coupling zoo it explored
   feeds the door taxonomy.
+- **Model-SOURCED cosmic birefringence (the six-angle source hunt)** —
+  killed 2026-07-08. IMPORTANT SCOPE: this buries the search for a way to
+  make the medium *produce* birefringence; it does NOT touch **P-2026-009**
+  (medium produces ZERO parity-odd rotation), which is the opposite —
+  a healthy, now over-determined standing prediction. Six independent
+  source-routes (multiverse/external, early open-account regime, the
+  regime-change tail, the radiation era, residual-account rotation, and
+  real-time generation at last scattering) all closed on the SAME TWO
+  locks: (i) any source must be *alive at last scattering* z~1100 → needs
+  the condensation redshift z_x near matter-radiation equality, but the
+  model gives z_x~1e5 where the residual normal fraction is ~1e-8
+  (scripts/birefringence_window.py, ANN-2026-017). CLEANEST STATEMENT
+  (the BBN→recomb synthesis, operator 2026-07-08): across the whole
+  BBN→recombination span the account is open only in the OPAQUE era
+  (z≳1e5), where Thomson scattering scrambles any imprint; the light does
+  not free-stream until z~1100, by which point the account is ~1e-8
+  closed — the account-open and light-remembers windows are DISJOINT
+  epochs, bridged only by the negligible residual tail. (ii) the birefringence
+  *signature* (EB rotation) requires a parity-ODD coupling → the
+  EM-anomalous angular mode the census forbids (ANN-2026-012). Generating
+  vs rotating does not evade (ii); reionization does not reopen (i) (data
+  separates recomb z~1100 from reion z~7 by ~140×, four ways over).
+  *Resurrects if (Rule-1 bet, both ways):* **MET by** the #11 genesis calc
+  pinning z_x near equality (~few×10³) — a small suppressed isotropic
+  signal then becomes census-legal via the still-open residual account;
+  **FAILED-forever by** #11 confirming z_x~1e5 (the current value) OR the
+  angular mode remaining census-forbidden under the #5 scope ruling. Warm,
+  on those terms.
+  **KEYSTONE (adaptation refinement, operator 2026-07-08):** lock (i) is
+  ESCAPABLE — a regime change framed as an *adaptation/feedback to the
+  forming polarization* (not a timed switch) auto-times itself to last
+  scattering, defeating scrambling and the z_x tail at once. But "adapting
+  to POLARIZATION" is, by definition, the medium reading the *handedness*
+  of light and responding — i.e. the parity-odd EM coupling of lock (ii).
+  So every timing fix collapses onto (ii): the **census (#5) is the SOLE
+  true keystone**, and the deepest reopener is the #5 parity-coupling
+  ruling, not z_x (which is only the soft/escapable lock). If #5 stays
+  gravity-only, birefringence is forbidden regardless of timing cleverness.
+  **Sub-refinement (operator's "oops wrong person" handoff leak):** a
+  transient residual coupling DOES exist mid-handoff (the un-condensed f_n
+  — the account isn't cleanly closed), so something CAN slip through. But
+  that leak is a FLAVOR slip (grabbing the wrong particle's MASS) and stays
+  parity-EVEN → a momentary m_e-like wobble, not a rotation. The two bans
+  have different enforcers: the MASS-based ban (naturalness) is what the
+  transition relaxes (→ the parity-even f_n leak); the PARITY-odd ban is
+  STRUCTURAL — the medium's U(1) is dark-number and EM-neutral, carries no
+  EM anomaly EVER, so the parity coupling was never in the field content to
+  leak. The medium can grab the wrong person (flavor); it has no organ to
+  grab a handedness (parity). The keystone isn't a locked door, it's the
+  ABSENCE of the door — which is why no transition-cleverness reaches it.
+  **CAPSTONE (operator's "space-radiation-radiation-space cheat code"):**
+  the m_e cheat code (space-mass-mass-space, §92) is census-legal precisely
+  because it launders through the METRIC — but the metric is parity-EVEN and
+  handedness-blind, so anything routed through it exits parity-even. So
+  space-radiation-radiation-space yields gravitational redshift / lensing /
+  ISW of the CMB (all already in the model), NEVER a rotation. The cheat
+  code reaches whatever LIVES IN THE METRIC: mass scales bank there (why
+  space-mass works); photon handedness does NOT (it is an internal EM
+  property gravity cannot see), so nothing to launder. Even the parity-odd
+  gravitational coupling θ·R R̃ (Chern-Simons gravity) rotates GRAVITATIONAL
+  waves, not photons — wrong messenger; rotating photons still needs θ·F F̃,
+  off-metric, the EM anomaly, census-forbidden. DEEPEST FORM OF THE KEYSTONE:
+  census = gravity-only = metric-only = parity-even-only; birefringence is an
+  off-metric parity-odd effect, constitutionally unreachable by any
+  metric-mediated cheat. Operator parked the search 2026-07-08 (this the
+  "very last idea" — seven angles now, all converged on the one structural
+  fact: the medium touches only the metric, and handedness is not in it).
+  **FINAL / 8th angle (operator's "imperfect handoff — maybe a signal got
+  fumbled"):** the premise is sound (the universe is imperfect — the model's
+  own deuterium scar is exactly such a fumble). But imperfection CANNOT
+  manufacture parity violation: a symmetry is not broken by sloppiness. A
+  fumbled parity-even coupling is still parity-even; its imperfections are
+  symmetric NOISE (equally likely either handedness) that averages to ZERO
+  net rotation and is incoherent (patchy), not the observed coherent
+  isotropic β (which needs a SYSTEMATIC handedness preference). Tellingly,
+  every imperfection the model DOES engage (deuterium = a mass/abundance
+  fumble) is parity-EVEN — the medium fumbles what it holds (masses, in the
+  metric); it cannot fumble a handedness it never held. You can drop the
+  plate you are carrying, not one you never picked up. Eight angles, one
+  structural fact; the null is now maximally over-determined. Parked.
+  **BLUE-TEAM SOLUTION HUNT (2026-07-08, JP's request — find a mechanism, not
+  just re-bury):** four fresh angles thrown and answered. (a) Weak-sector bridge
+  (EM-neutral but weak-charged, neutrino-like) — DEAD: the photon anomaly counts
+  (T₃+Y)²=Q_em²=0 for EM-neutral, and the surviving θ·Z·Z̃ is irrelevant (Z absent
+  at CMB energies). (b) θ·R·R̃ chiral GWs → photons via Gertsenshtein — DEAD:
+  needs external B, Planck×B suppressed, incoherent. (c) vorticity·E (parity-odd)
+  — DEAD: coupling ω to E needs the EM account / chiral charged fermions. (d)
+  **Kinetic mixing / dark photon — the real find:** gauging the medium's GLOBAL
+  U(1) into a dark photon + a kinetic-mixing portal (ε F F′) DOES transfer a dark
+  axion coupling into visible θ·F·F̃ (∝ε²) → genuine birefringence. It WORKS — but
+  requires exactly what the census forbids and the model explicitly excludes ("no
+  dark photon"). **So the resurrection cost is now SPECIFIC: a confirmed 5σ
+  birefringence forces the model to gauge its U(1) into a dark photon + open a
+  kinetic-mixing portal, surrendering the census (and MICROSCOPE-safety,
+  flavor-blind constants).** Not "the model dies" — "the model becomes a
+  dark-photon-portal model." Graveyard cross-link sweep: NONE — the other entries
+  (carrier-ratio/caustic, funded floor, screening) are parity-even scalar/DE/DM
+  sector; birefringence is parity/EM, no shared handedness structure. Stays buried;
+  the one gain is that the cost of a future signal is now named, not vague.
 
 ## The payment→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
 *The medium accepts exactly one currency — spacetime geometry (gravity

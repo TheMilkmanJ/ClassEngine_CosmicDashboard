@@ -1,0 +1,73 @@
+MULTIMODAL COSMOLOGICAL EXPLORATION COMPARISON
+==============================================
+
+Mode: Mode 1 (H0=70.35)
+----------------------------------------------
+Raw Data Chi2: 2815.7948
+Penalized Chi2: 2815.7948
+Viability Score: 100.0%
+Parameters:
+  omega_b             : 2.293086e-02
+  H0                  : 7.034785e+01
+  logA                : 3.068528e+00
+  n_s                 : 9.863095e-01
+  z_reio              : 8.228904e+00
+  xi_Neff             : 3.701160e-01
+  dcdf_rho_inf        : 7.009674e-01
+  A_planck            : 1.001185e+00
+  A_act               : 1.000131e+00
+  P_act               : 1.004973e+00
+  Tcal                : 1.000709e+00
+  Ecal                : 1.000558e+00
+Derived & Physical Metrics:
+  H0                  : 70.348
+  V0_prtoe            : 0.7112 (PHYSICALLY VIABLE)
+  sigma8              : 0.8281
+  S8                  : 0.8267
+Likelihood Breakdown:
+  planck_2018_lowl.TT      : 20.9453
+  planck_2018_lowl.EE      : 397.0505
+  planck_2018_highl_plik.TTTEEE_lite: 596.4671
+  planck_2018_lensing.clik : 9.5276
+  bao.sixdf_2011_bao       : 0.0113
+  bao.sdss_dr7_mgs         : 2.0598
+  bao.sdss_dr12_consensus_final: 6.5192
+  sn.pantheonplusshoes     : 1467.6259
+  act_dr6                  : 172.2876
+  spt3g_lite               : 143.3005
+
+Mode: Mode 2 (H0=71.90)
+----------------------------------------------
+Raw Data Chi2: 2844.0810
+Penalized Chi2: 2844.0810
+Viability Score: 100.0%
+Parameters:
+  omega_b             : 2.324388e-02
+  H0                  : 7.190123e+01
+  logA                : 3.069015e+00
+  n_s                 : 9.877674e-01
+  z_reio              : 8.045927e+00
+  xi_Neff             : 4.841311e-01
+  dcdf_rho_inf        : 7.127146e-01
+  A_planck            : 1.001506e+00
+  A_act               : 1.000713e+00
+  P_act               : 1.008305e+00
+  Tcal                : 9.982359e-01
+  Ecal                : 1.000073e+00
+Derived & Physical Metrics:
+  H0                  : 71.901
+  V0_prtoe            : 0.7229 (PHYSICALLY VIABLE)
+  sigma8              : 0.8250
+  S8                  : 0.8072
+Likelihood Breakdown:
+  planck_2018_lowl.TT      : 21.0572
+  planck_2018_lowl.EE      : 396.5118
+  planck_2018_highl_plik.TTTEEE_lite: 605.9241
+  planck_2018_lensing.clik : 9.9271
+  bao.sixdf_2011_bao       : 0.1831
+  bao.sdss_dr7_mgs         : 3.1512
+  bao.sdss_dr12_consensus_final: 8.9159
+  sn.pantheonplusshoes     : 1462.4354
+  act_dr6                  : 190.6330
+  spt3g_lite               : 145.3422
+

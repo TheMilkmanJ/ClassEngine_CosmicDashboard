@@ -1,0 +1,10 @@
+# Optimizer Run completed successfully.
+log(Z) = -5.0000 +/- 0.1
+ndead: 35
+nlive: 1
+
+parameter   best-fit    error
+H0    67.400000    0.500000
+xi_prtoe    0.000000    141.421356
+omega_b    0.022400    0.000500
+omega_cdm    0.120000    0.003000

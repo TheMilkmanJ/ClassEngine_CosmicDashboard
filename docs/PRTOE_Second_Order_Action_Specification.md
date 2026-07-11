@@ -11,7 +11,7 @@
 
 ## 0. Executive Summary
 
-This document provides the **publication-grade mathematical specification** for the PRTOE (Pulford-Romsa Theory of Everything) scalar-tensor cosmology model. The derivation is **formal** and **top-down**, starting from a covariant action and deriving all perturbation equations via variation. No phenomenological assumptions are made without theoretical justification.
+This document provides the **publication-grade mathematical specification** for the PRTOE (Pulford-Romsa Theory of Expansion) scalar-tensor cosmology model. The derivation is **formal** and **top-down**, starting from a covariant action and deriving all perturbation equations via variation. No phenomenological assumptions are made without theoretical justification.
 
 **Key Achievement:** The PRTOE linear perturbation sector is now derived from first principles via second-order action variation, providing a rigorous bridge between theory and the CLASS implementation.
 

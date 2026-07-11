@@ -1,0 +1,22 @@
+yhe_lo: {'YHe': 0.235} relocked H0 = 69.596
+    [evaluate]    chi2_act_dr6 = 159.382
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 594.045
+    [evaluate]    chi2_sn.pantheonplusshoes = 1473.79
+yhe_hi: {'YHe': 0.262} relocked H0 = 69.679
+    [evaluate]    chi2_act_dr6 = 193.042
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 593.345
+    [evaluate]    chi2_sn.pantheonplusshoes = 1473.05
+Traceback (most recent call last):
+  File [35m"/home/themilkmanj/prtoe_class/knob_scan.py"[0m, line [35m32[0m, in [35m<module>[0m
+    if [31mtheta[0m[1;31m(mid,extra)[0m<TARGET: lo=mid
+       [31m~~~~~[0m[1;31m^^^^^^^^^^^[0m
+  File [35m"/home/themilkmanj/prtoe_class/knob_scan.py"[0m, line [35m19[0m, in [35mtheta[0m
+    M=classy.Class(); M.set(p); [31mM.compute[0m[1;31m()[0m
+                                [31m~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"classy.pyx"[0m, line [35m631[0m, in [35mclassy.Class.compute[0m
+[1;35mclassy.CosmoComputationError[0m: [35m
+
+Error in Class: harmonic_init(L:298) :error in harmonic_cls(ppr,pba,ppt,ptr,ppm,phr);
+=>operator()(L:762) :error in harmonic_compute_cl(ppr, pba, ppt, ptr, ppm, phr, index_md, index_ic1, index_ic2, index_l, cl_integrand_num_columns, cl_integrand, cl_integrand_limber, primordial_pk, transfer_ic1, transfer_ic2);
+=>harmonic_compute_cl(L:1306) :error in array_integrate_all_trapzd_or_spline(integrand, num_columns, num_k, index_spline, column_k, column_integrand, column_derivative, &clvalue, phr->error_message);
+=>array_integrate_all_trapzd_or_spline(L:1534) index_start_spline outside of range[0m

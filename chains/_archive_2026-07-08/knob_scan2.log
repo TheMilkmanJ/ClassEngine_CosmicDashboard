@@ -1,0 +1,17 @@
+omk_m: {'Omega_k': -0.005} relocked H0 = 68.283
+    [evaluate]    chi2_act_dr6 = 172.176
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 595.653
+    [evaluate]    chi2_sn.pantheonplusshoes = 1486.81
+omk_p: {'Omega_k': 0.005} relocked H0 = 71.052
+    [evaluate]    chi2_act_dr6 = 160.255
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 633.105
+    [evaluate]    chi2_sn.pantheonplusshoes = 1463.9
+nrun_m: {'alpha_s': -0.01} relocked H0 = 69.638
+    [evaluate]    chi2_act_dr6 = 174.335
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 593.047
+    [evaluate]    chi2_sn.pantheonplusshoes = 1473.41
+nrun_p: {'alpha_s': 0.01} relocked H0 = 69.638
+    [evaluate]    chi2_act_dr6 = 157.061
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 585.956
+    [evaluate]    chi2_sn.pantheonplusshoes = 1473.41
+knob scan complete

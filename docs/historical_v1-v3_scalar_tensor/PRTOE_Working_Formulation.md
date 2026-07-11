@@ -9,7 +9,7 @@
 
 ## 📌 Executive Summary
 
-This document presents the **current working formulation** of PRTOE (Pulford-Romsa Theory of Everything) as an **incomplete scalar-tensor cosmology ansatz** with a phenomenological activation function.
+This document presents the **current working formulation** of PRTOE (Pulford-Romsa Theory of Expansion) as an **incomplete scalar-tensor cosmology ansatz** with a phenomenological activation function.
 
 **Critical Honesty:** The formulation below exposes several deep theoretical problems that **must be resolved** before PRTOE can be called a complete or covariant theory. This document is intentionally titled to reflect its preliminary status.
 
