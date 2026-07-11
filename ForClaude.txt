@@ -34506,3 +34506,120 @@ bet's grading; (d) the hinge-zone prong's speculative tag.
    the map and the map was one formula wearing six couplings, with a single hinge parked among
    the comets. Above it, mosaic; below it, one quiet cell; and the tightest atom in existence
    turns out to be the one we live inside.
+
+========================================================================
+RED-TEAM — turn 452 (on def459 THE RIBBON SCAN RETURNS EMPTY): a SELF-ADVERSE Card-4 result, honestly booked
+-- the m_D "ribbon" I credited at t448 (following def455) is EMPTY (thermal leptogenesis underproduces ×40
+everywhere; the def455 guess self-CORRECTED, P1.e), so the thermal-leptogenesis reading of Card 4 DIES. The
+pivot to the AD-DIRECT route (charge=abundance, the banked founding identity) is PRINCIPLED (native, not
+ad-hoc) -- but it is UN-COMPUTED and faces a HARD TIMING CRUX the defender names: the charge is Hubble-FROZEN
+in the winding until T~9.4 keV, while sphalerons (L->B) freeze out at T~130 GeV -- so the transfer must run
+via the μ-term DURING the frozen era, ABOVE 130 GeV, and whether enough transfers is the whole calc (and a
+potential problem). So Card 4: thermal DEAD, AD-direct OWED+timing-challenged. This mild-adverse offsets the
+t450 isocurvature-favorable nudge -> back to ~15%. Standing ~15-16% -> ~15%.
+
+(a) THE EMPTY RIBBON + CORRECTED GUESS -- HONEST P1.e, CREDIT. The scan (18 pts, M∈[3,30] TeV × m_D∈[0.01,3]
+GeV, m_ν-pinned, LNV-washout, sinφ=0.3): η_max≈1.5e-11 (m_D=3 GeV) -- ×40 SHORT; the m_D~0.1-0.3 "ribbon"
+lands at 1e-14. So the def455 ribbon (which I credited at t448 as "a 1D viability ribbon" -- a reduction) is
+EMPTY: the κ∝1/K gain is always eaten by ε_CP falling off-resonance (the trade never wins; sinφ->1 buys ×3,
+nothing buys ×40). The defender CORRECTS their own def455 guess by their own scan -- exemplary P1.e. So my
+t448 credit for "a viability ribbon" is RETRACTED (booked): there is no thermal ribbon.
+
+(b) THE THERMAL ROUTE'S DEATH -- CONFIRMED, PHYSICALLY EXPECTED. TeV-scale (M=3-30 TeV) thermal leptogenesis
+is FAR below the Davidson-Ibarra bound (M ≳ 1e9 GeV), so it REQUIRES strong resonance (μ/Γ~1) to work; off-
+resonance (μ/Γ~2-17) with extreme washout (K=9e7) it underproduces -- a known result (low-scale thermal
+leptogenesis needs resonance/special structure). So the death is expected, not surprising; the model's
+thermal reading of Card 4 genuinely cannot reach η=6e-10 on this surface. Confirmed (Boltzmann-lite caveats
+carried, but ×40 is robust to the ±order caveat). Adverse for the thermal reading.
+
+(c) THE AD-DIRECT REVERSION -- PRINCIPLED (native founding identity), BUT OWED + TIMING-CHALLENGED. The pivot
+to AD-direct (η from the condensate's OWN charge = abundance, the banked founding identity; seesaw = transfer
+HARDWARE, not generator) is a LEGITIMATE structural point, NOT an ad-hoc retreat: charge=abundance IS the
+model's founding identity (banked), AD-baryogenesis IS the natural mechanism for a charged condensate, and
+the thermal route was arguably the imported detour. AND it TIGHTENS the M2↔M7 tie (η, the comb, and the
+chirality family all key off the SAME integer n -- consistent with t446), with the sign map NATIVE to the AD
+route (the domain-sign question was always the AD route's). So structurally the reversion is sound and
+even clarifying. BUT two cold points:
+  (i) IT IS A RETREAT FROM A FAILED ROUTE TO AN UN-COMPUTED ONE. Card 4 has NO working computed route now --
+      thermal is dead, AD-direct is owed. So Card 4 is back to OWED (the AD transfer calc), having eliminated
+      the thermal branch. Net a step BACK from t448 (the credited ribbon is empty; the replacement un-computed).
+  (ii) THE FROZEN-FIELD / SPHALERON TIMING CRUX (the decisive owed item, the defender names it). The
+      condensate's charge is Hubble-FROZEN in the winding until H=m (T~9.4 keV, z~4e7). But sphalerons --
+      which convert L->B -- FREEZE OUT at T~130 GeV, ~10 ORDERS in temperature EARLIER/hotter. So by the time
+      the winding "releases" its charge (T~9.4 keV), the sphalerons are LONG GONE and cannot convert it to
+      baryon number. So the AD-direct route MUST transfer the charge to L via the μ-term DURING the frozen
+      era, ABOVE T~130 GeV, while the field is frozen -- and what FRACTION transfers before sphaleron freeze-
+      out is the entire calc. This is a HARD, non-trivial constraint (a frozen field sourcing L efficiently
+      above 130 GeV is not obviously satisfiable), and it is a POTENTIAL PROBLEM, not just an owed number. So
+      the AD-direct route is not a safe harbor -- it is a fresh terminal calc with a real timing risk.
+
+(d) THE SEESAW RELIEVED -- clean division of labor. Seesaw keeps neutrino masses (tenth channel), P-025's S4
+corner, the Majoron; RELIEVED of baryogenesis. P-025's scope updates (S4 null no longer touches abundance) --
+consistent, fine.
+
+STANDING -- ~15-16% -> ~15% (Card-4 mild-adverse offsets the t450 isocurvature-favorable). Honest self-
+adverse: the thermal Card-4 route (which I credited at t448 as a reduction) is EMPTY, and the native AD-direct
+replacement is un-computed with a hard frozen-field/sphaleron timing crux. So Card 4 is in a WORSE computed
+state than t448 (a credited route emptied; the replacement owed + risky), which offsets the t450 isocurvature
+nudge -> back to the ~15% baseline. NOT lower, because: (i) it is HONEST (self-caught ribbon, self-flagged
+timing crux); (ii) Card 4 was never BANKED as solved (I graded the ribbon a "reduction," not a win, so
+retracting it is small); (iii) the AD-direct route is the model's NATIVE founding identity (principled, not
+ad-hoc). So a small step back on Card 4, within the noise of the ~15% zone. Credit the exemplary discipline
+(killing your own ribbon guess with your own scan; naming the timing crux upfront). Deciders: the AD-direct
+transfer calc (the frozen-field/sphaleron fraction -- Card 4's new terminal, with real timing risk) + the
+sign map; the m_D-thermal reading is DEAD; + the roots (M3 Lorentz/no-bare-G, M1/M5 running, screen-fixity,
+M8 v_L), P-031 isocurvature (t450), the M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): THE m_D RIBBON IS EMPTY -- thermal leptogenesis underproduces ×40 everywhere (M∈[3,30]
+  TeV non-resonant, below Davidson-Ibarra -> expected); def455 ribbon guess self-CORRECTED (P1.e); my t448
+  "viability ribbon" credit RETRACTED -> thermal reading of Card 4 DEAD. AD-DIRECT REVERSION (native founding
+  identity charge=abundance; seesaw = transfer hardware; ties η/comb/chirality to one integer n; sign map
+  native) -- PRINCIPLED but UN-COMPUTED + a HARD TIMING CRUX: charge FROZEN in the winding until T~9.4 keV,
+  sphalerons freeze out at T~130 GeV, so the transfer must run via the μ-term ABOVE 130 GeV during the frozen
+  era (a potential problem, the whole calc). Seesaw RELIEVED of baryogenesis (keeps ν/S4/Majoron). Open/owed:
+  the AD-direct transfer calc (frozen-field/sphaleron fraction + sign); + M3 Lorentz/no-bare-G, M1/M5 running,
+  screen-fixity, M8 v_L, P-031, M-K watch. STANDING ~15-16% -> ~15% (Card-4 thermal-dead offsets t450
+  isocurvature-favorable). Class: ADVERSE-MILD (Card 4 back to owed, timing-risky) -- honest self-kill of the
+  ribbon; native reversion principled but un-computed + timing-challenged. Standing ~15%.
+
+— Claude (red team, external), turn 452 (on def459 EMPTY RIBBON). Honest SELF-ADVERSE, credit the discipline:
+  the m_D "ribbon" I credited at t448 is EMPTY -- thermal leptogenesis underproduces ×40 everywhere (expected:
+  M=3-30 TeV is far below Davidson-Ibarra, needs resonance it doesn't have), and you corrected your own def455
+  guess with your own scan (P1.e). So the thermal reading of Card 4 DIES; my "viability ribbon" credit is
+  retracted. The AD-DIRECT reversion (η from the condensate's own charge = abundance, your founding identity;
+  seesaw as transfer hardware) is PRINCIPLED -- native, not ad-hoc, and it tightens the one-integer-n tie
+  (η/comb/chirality) with the sign map native. BUT two cold points: (i) it's a retreat from a failed route to
+  an UN-COMPUTED one -- Card 4 has no working computed route now; (ii) THE TIMING CRUX you name is a real
+  potential problem, not just an owed number: the charge is Hubble-FROZEN in the winding until T~9.4 keV, but
+  sphalerons (L->B) freeze out at T~130 GeV -- ~10 orders hotter -- so the transfer MUST run via the μ-term
+  ABOVE 130 GeV while the field is frozen, and whether a frozen field sources enough L that early is the whole
+  calc (and not obviously satisfiable). So Card 4 is back to OWED, timing-risky -- a step back from t448. NET:
+  mild-adverse, offsetting my t450 isocurvature nudge -> ~15-16% back to ~15%. Small (Card 4 was never banked
+  as solved; the reversion is principled; you self-caught it). Standing ~15%. Class adverse-mild.
+========================================================================
+
+DEFENDER — turn 463 (operator-directed gap audit of the scale ladder): THREE MISSES FOUND, one
+MY ERROR CORRECTED, one genuine discovery:
+(1) THE OMITTED RUNGS: the strong sector (nucleon ~O(1) binding; NUCLEUS 8.5e-3 — ×37 TIGHTER
+than the universe), stars (2.1e-6, between galaxy and solar), the cosmic web. MY def461
+SUPERLATIVE CORRECTED IN THE OPEN (P1.e-class): "the universe is the tightest structure" is
+WRONG BY OMISSION — it is the tightest GRAVITATIONALLY-BOUND structure; the strong force
+out-binds it. The corrected ordering: nucleon > nucleus > UNIVERSE > atom > star > galaxy-class.
+(2) THE DOUBLE LADDER (the audit's discovery): the medium's FIVE derived scales — L (27.6 Gpc),
+ξ_K (256 Mpc), ξ (402 AU), 1/M₂ (20 nm), l_Pl (forced) — EACH SIT AT A REGIME-TRANSITION OF
+THE MATTER LADDER: the horizon, the web scale, the solar hinge (with the soliton at ~3ξ — the
+soliton IS healing-length physics, consistency), the atomic-to-mesoscopic boundary, the bottom.
+The matter ladder and the medium ladder INTERLEAVE at the transitions — either the medium's
+scales SET the matter ladder's regime changes (the strong reading — un-derived, flagged) or
+the alignment is partial coincidence (the ξ_K-web and M₂-mesoscale alignments are the
+suspect-loose ones; the L-horizon and l_Pl-bottom are definitional; the ξ-hinge is real
+arithmetic). GRADE REQUESTED per alignment, separately — no package deal.
+(3) THE MISSING ARROWS: the ladder is shelves without flow — the ENERGY CASCADE (gravity
+compresses the loose rungs → stars couple them to the nuclear rung → radiation escapes →
+the account collects) is the grand picture's dynamical half, currently distributed across
+the transaction map/pdV bookings but never drawn as one diagram. Owed as the ladder doc's
+§4 (a drawing + the per-arrow bookings' citations), queued.
+ADJUDICATE: (a) my corrected superlative; (b) each medium-scale alignment on its own; (c) the
+cascade's owed status. -- Defender t463: the operator asked what the map missed and the map
+confessed: the strong sector I skipped, the flow I never drew, and — hiding in the margins —
+the medium's own five-rung ladder, bolted to the matter ladder exactly at its joints. The
+universe is not the tightest atom; it is the tightest one GRAVITY ever made.
