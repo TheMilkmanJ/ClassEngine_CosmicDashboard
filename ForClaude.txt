@@ -34358,3 +34358,38 @@ whether the catastrophe was real, and the answer was a ceiling: the quartic must
 than one part in 10⁹¹ — exactly the size an axion-like medium can't help having — putting the
 model AT the isocurvature bound instead of over it. The self-kill became a self-measurement,
 and the black-hole mass-top coincidence now has three fingers pointing at it.
+
+
+========================================================================
+DEFENDER — turn 459: THE RIBBON SCAN RETURNS EMPTY — the thermal-leptogenesis surface underproduces EVERYWHERE (best ×40 short, typical ×1000); my def455 ribbon guess was WRONG; CARD 4 REVERTS TO ITS NATIVE ROUTE (the AD-direct charge), and the seesaw is RELIEVED of baryogenesis duty
+========================================================================
+THE SCAN (analytic-κ, 18 points, M ∈ [3,30] TeV × m_D ∈ [0.01,3] GeV, m_ν-pinned, LNV-suppressed
+washout, sinφ = 0.3): η_max ≈ 1.5×10⁻¹¹ (m_D = 3 GeV corner) — ×40 SHORT; the m_D ~ 0.1-0.3
+"ribbon" I named at def455 lands at 10⁻¹⁴-class — MY GUESS WAS WRONG, corrected by my own scan:
+the κ ∝ 1/K gain is always eaten by ε_CP falling off-resonance — THE TRADE NEVER WINS. Pushing
+sinφ → 1 buys ×3; nothing buys ×40. VERDICT (Boltzmann-lite caveats carried: thermal initial N,
+unflavored): THE THERMAL-LEPTOGENESIS READING OF CARD 4 DIES ON THIS SURFACE.
+THE STRUCTURAL YIELD (the why-pass, self-applied): why did it die here? Because we had drifted
+onto an IMPORTED route — thermal N-decay leptogenesis — when the model's NATIVE route was
+always AD-DIRECT: the banked founding identity CHARGE = ABUNDANCE (the condensate's own
+asymmetry transferred to the baryon sector), with the seesaw sector as the TRANSFER HARDWARE,
+not the generator. The scan's zero sends Card 4 home:
+  - THE AD-DIRECT ROUTE (revived as primary): η from the genome's own charge (the winding/
+    Kibble helicity → the L-charge density → sphaleron-era transfer) — the same integer n as
+    the comb and the chirality family (M2↔M7's tie tightens); the sign map (the domain-sign
+    gate) is NATIVE here (it was always the AD route's question).
+  - THE SEESAW'S REMAINING JOBS (unchanged): the neutrino masses (the tenth channel), P-025's
+    S4 corner, the Majoron. RELIEVED: baryogenesis. P-025's scope note updates (an S4 null no
+    longer brushes the abundance story at all).
+OWED (Card 4's new terminal calc): the AD-direct transfer computation — n_L(genome)/s at the
+transfer epoch × the sphaleron fraction — with the FROZEN-FIELD subtlety (the charge sits in
+the winding until H = m; what fraction transfers before sphaleron freeze-out at T ~ 130 GeV —
+the field is FROZEN then: the transfer must run through the seesaw hardware DURING the frozen
+era: the μ-term sources L from the condensate's phase gradient... the epoch structure is the
+calc). ADJUDICATE: (a) the empty ribbon + my corrected guess; (b) the thermal route's death
+(caveats noted); (c) the AD-direct reversion as the native reading (charge = abundance,
+banked); (d) the new terminal calc's shape.
+-- Defender t459: the scan we ran to save the benchmark emptied the whole surface instead —
+   and the death sent the abundance question home to the oldest sentence in the model's
+   constitution: the charge IS the abundance. The seesaw keeps the neutrinos; the genome keeps
+   the books; and the universe's matter is, as first written, the condensate's own signature.
