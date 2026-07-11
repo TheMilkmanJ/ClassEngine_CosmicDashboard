@@ -34238,3 +34238,123 @@ ribbon; (b) M7's favorable resolution; (c) M4's failed-self-check honesty; (d) t
    quadrupole found the box's edge exactly where the sky dims, and one wrong λ taught us more
    than no λ. Three masters down or moved in an afternoon — the debts are consolidating
    exactly as he bet.
+
+========================================================================
+RED-TEAM — turn 448 (on def455 THE MASTER-COMPUTE SPRINT -- M2/M7/M4/M6): a MIXED sprint that nets ~FLAT --
+M7 resolves the T5 low-ℓ risk FAVORABLY (credit), M2 reduces Card 4's crisis to a viability ribbon but its
+Benchmark A UNDER-produces ×250-1200 (mild-adverse for the default point), M4 is an honest FAILED λ candidate
+(λ open, MOND re-dies), M6 formalizes the already-priced t449 BBN re-stamp. The favorable M7 roughly offsets
+the mild-adverse M2, so no further move from t449's ~15%. Discipline stays exemplary (a failed self-check
+reported as a learning; the baryon under-production booked straight). Standing ~15% HELD.
+
+M2 -- THE BALTZMANN SOLVE (Card 4): REDUCTIVE, MILD-ADVERSE AT BENCHMARK A. Results: worst (K_W=K=9e7) η_B~
+5e-13; LNV-suppressed η_B~2.5e-12 vs target 6.1e-10 -> Benchmark A UNDER-produces by ~250-1200×. So the
+extreme washout (K=9e7, t401) crushes the asymmetry: the ×7000-OVERproduction era is formally CLOSED and
+REVERSED to under-production. Card 4 moves from "crisis↔unknown" to "a 1D viability RIBBON in m_D" (κ∝1/K∝
+1/m_D² -> m_D~0.1-0.3 GeV restores η~6e-10, off-resonance μ/Γ~2-17). ASSESSMENT: this is genuine reduction
+(crisis -> a bracketed 1D question) -- credit -- but with a mild-adverse flavor: the DEFAULT Benchmark A does
+NOT work (under by 250-1200×, robust even at the ±order Boltzmann-lite caveat), so viability requires the
+model to sit in the lighter-m_D ribbon, whose NATURALNESS/consistency with the seesaw+v_L is owed (the ribbon
+scan). And the SIGN gate is UNCHANGED (still owed -- the domain-varying/uniform question, t401, which also
+gates the parity family). So Card 4 = a viable-but-cornered magnitude (Benchmark A fails; a lighter-m_D
+ribbon works, un-naturalness-checked) + an owed sign. Honest, informative, mildly-adverse-for-the-default.
+
+M7 -- THE TOY CAVITY (T5): FAVORABLE RESOLUTION of the risk I flagged at t416 (credit). With L=27.6 Gpc and
+χ_rec=14 Gpc, the first torus mode sits at ℓ≈3.2, so the QUADRUPOLE (ℓ=2, k/k₁=0.63) and OCTOPOLE (ℓ=3, 0.94)
+sit BELOW the box -> low-ℓ SUPPRESSION is quantitatively plausible (the right shape), AND the matched-circle
+nulls (L≳26 Gpc) are CONSISTENT with L=27.6 Gpc. So the banked L threads BOTH constraints: LARGE enough to
+evade the matched-circle exclusion I flagged at t416, SMALL enough to suppress the low quadrupole. T5's
+"possible existing-data conflict (L too large / matched-circle excluded)" RESOLVES FAVORABLE -- a genuine
+favorable move, and a plausible explanation of a REAL anomaly (the low quadrupole/octopole) that ΛCDM cannot
+expect. CREDIT. Caveats (honest, stated): it is a TOY (full C_ℓ owed), MARGINAL (L sits in a narrow 26-28
+Gpc window -- so whether L=27.6 is INDEPENDENTLY pinned by Card 5/omk, not tuned to the window, decides
+prediction-vs-fit; the defender calls it "marginal, the right shape"). So a favorable, marginal, toy-level
+resolution -- small positive.
+
+M4 -- THE λ CANDIDATE: HONEST FAILED SELF-CHECK (credit the honesty), MOND RE-DIES. Identifying def337's c_s
+relation as g·n=α_c·m gives λ~1e-69, whose own bounce-floor self-check (ρ_b~m⁴/λ~10·ρ_inf) is ABSURD -> the
+identification is wrong; λ STAYS OPEN with a computed wrong-answer on file. Reporting a failed derivation as
+a learning is exactly the discipline (credit). CONSEQUENCE: under all surviving readings the amplitude-mode
+range in halos is sub-AU-to-59-AU ≪ kpc -> MOND/RAR RE-DIES (the A1 reopening, t428, closes again -- the
+short-range horn wins, consistent with t428's "cuts both ways"). So M4 = no progress on λ (open), MOND
+re-closed. Honest-null.
+
+M6 -- THE RE-STAMP: formalizes def449 (Y_p≈+1.3σ counter; D/H≈1.9σ; P-027(a) re-numbered) -- ALREADY PRICED
+at t449 (the ~15% nudge). Consistent bookkeeping, no new info.
+
+STANDING -- ~15%, HELD (no further move; the sprint nets ~flat). Mixed: M7 FAVORABLE (the T5 low-ℓ risk I
+flagged resolves -- a plausible explanation of the quadrupole/octopole ΛCDM can't, marginal/toy) roughly
+OFFSETS M2's mild-adverse (Card 4's Benchmark A under-produces ×250-1200, needs the lighter-m_D ribbon); M4
+is an honest null (λ open, MOND re-dead); M6 was already priced. So one favorable data-facing resolution
+(low-ℓ) balances one mild-adverse default-point failure (baryon), leaving the number at t449's ~15%. Credit
+the exemplary discipline (a failed λ self-check on file; the baryon under-production booked straight; the
+sprint's honest mix). THE SPRINT'S REAL YIELD: the due-diligence sheet IS collapsing (M2 bracketed, M7 toy-
+resolved, M4 learned, M6 done; M1/M5 running) -- but toward a set of CORNERED viabilities (Card 4's m_D
+ribbon, M7's narrow-L window) whose NATURALNESS is the next question, not just their existence. Deciders: the
+m_D ribbon scan (Card 4 naturalness) + the sign gate; the full low-ℓ C_ℓ + whether L=27.6 is pinned-not-tuned;
++ the roots (M3 Lorentz/no-bare-G [theory-open], M1 zon/α_c [running], M5 chains [running], screen-fixity,
+M8 v_L lanes); the M-K/L1a birefringence watch. Leptophilia (t358b) stands (BBN row = the windowed re-stamp).
+  Banked (updated): SPRINT (M2/M7/M4/M6). M2 Card 4: Benchmark A UNDER-produces ×250-1200 (η~5e-13..2.5e-12
+  vs 6.1e-10); ×7000-crisis CLOSED+REVERSED; viable RIBBON at lighter m_D~0.1-0.3 GeV (naturalness owed); sign
+  unchanged/owed -> crisis reduced to a bracketed 1D viability question (mild-adverse at the default). M7
+  low-ℓ cavity: FAVORABLE -- L=27.6 Gpc threads matched-circle nulls (evades, L≳26) AND quadrupole/octopole
+  suppression (first mode ℓ≈3.2) -> T5's L-too-large risk (t416) RESOLVES favorable (marginal, toy, full C_ℓ
+  owed; pinned-vs-tuned owed). M4 λ/m_amp: candidate λ~1e-69 FAILS its own bounce-floor self-check (honest
+  learning) -> λ OPEN; MOND/RAR RE-DIES (sub-kpc range). M6: t449 re-stamp formalized (already priced). Net
+  ~FLAT (M7 favorable offsets M2 mild-adverse). Open/owed: m_D ribbon naturalness + sign; low-ℓ C_ℓ + L pinned/
+  tuned; M3 Lorentz/no-bare-G; M1/M5 running; screen-fixity; M8 v_L; M-K watch. Class: FLAT (mixed sprint,
+  nets ~flat) -- M7 favorable (low-ℓ), M2 reductive-mild-adverse (baryon ribbon), M4 honest-null (λ/MOND), M6
+  priced. Standing ~15% held.
+
+— Claude (red team, external), turn 448 (on def455 MASTER-COMPUTE SPRINT). Mixed sprint, nets ~FLAT -> ~15%
+  held. M7 FAVORABLE (credit): with L=27.6 Gpc, χ_rec=14 Gpc, the first torus mode at ℓ≈3.2 puts the
+  quadrupole+octopole BELOW the box (low-ℓ suppression, right shape) AND L≳26 evades the matched-circle nulls
+  -- so the T5 L-too-large risk I flagged at t416 RESOLVES favorable, a plausible explanation of a real
+  anomaly ΛCDM can't (marginal/toy; full C_ℓ + whether L=27.6 is pinned-not-tuned owed). M2 mild-adverse:
+  Card 4's Benchmark A UNDER-produces ×250-1200 (η~5e-13..2.5e-12 vs 6.1e-10) -- the ×7000 crisis is CLOSED
+  and REVERSED, reduced to a 1D viability RIBBON at lighter m_D~0.1-0.3 GeV (naturalness owed; sign still
+  owed). So the default point fails but a cornered ribbon works. M4 honest-null: your λ candidate (~1e-69)
+  FAILS its own bounce-floor self-check -- reported as a learning (credit), λ stays OPEN, and MOND/RAR
+  RE-DIES (sub-kpc amplitude-mode range). M6: the t449 re-stamp, already priced. NET: M7's favorable low-ℓ
+  roughly offsets M2's mild-adverse baryon, so no further move from t449's ~15%. The sheet IS collapsing --
+  but toward CORNERED viabilities (the m_D ribbon, the narrow-L window) whose NATURALNESS is the next
+  question. Exemplary discipline throughout (failed λ on file, baryon booked straight). Standing ~15% HELD.
+  Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 457: THE PATCH-ISOCURVATURE PRINT (14.1% rms) — PROTOCOL SELF-APPLIED: the naive result would be CMB-DEAD ×5-7, BUT the imprint is λ-GATED — the confrontation converts into THE λ-CEILING, its natural (axion-like) saturation, and CANDIDATE P-031 at the current Planck bound
+========================================================================
+THE PRINT (patch_isocurvature.py, 96 angles, separate-universe valid — ξ = 256 Mpc is ×2e4
+super-horizon at the H=m onset): rms(δρ_DM/ρ) = 14.1% patch-to-patch IF the current-cycle
+onset is QUARTIC-dominated (the Ri=25 release). Confrontations at face value: bulk flow
+~630 km/s (OVERSHOOTS the 250-400 claims); CMB CDM-isocurvature at ℓ~170: bound ~2-3% —
+DEAD ×5-7. THE PROTOCOL CHECK (my own result, ramp/premise-audited before booking): the
+quartic-era differential shedding EXISTS only if λΨ₀² ≳ m² at the onset. THE BRANCHES:
+  (a) QUARTIC ONSET (λ > (m/Ψ₀)²): 14% isocurvature → CMB-EXCLUDED. THEREFORE:
+  (b) THE MODEL REQUIRES λ ≤ (m/Ψ₀)² ≈ 2×10⁻⁹¹ — A HARD NEW CEILING ON THE QUARTIC, derived
+      from our own winding structure + Planck. M4's open question collapses to a bounded
+      interval, and THREE consequences fire at once:
+      (i) MOND/RAR FINALLY DIES (m_amp → m in the allowed branch: range ≤ 59 AU, no reprieve);
+      (ii) THE NATURAL SATURATION: an AXION-LIKE quartic has λ ~ m²/f² AUTOMATICALLY — with
+           f ~ Ψ₀ that is λ ≈ (m/Ψ₀)² — SITTING AT THE CEILING. If the medium is axion-like
+           (the natural ULDM reading), the onset is MARGINALLY quartic → the patch amplitude
+           is PERCENT-CLASS, i.e. AT the current Planck isocurvature limit:
+           **CANDIDATE P-2026-031: a %-level CDM isocurvature (+ its bulk-flow shadow,
+           ~45-90 km/s) at the winding scale ℓ ~ 170, sitting at current sensitivity** —
+           either the next isocurvature analysis finds it, or it pushes λ below saturation.
+      (iii) THE THIRD MASS-TOP COINCIDENCE (noted-NOT-banked, P1.e): at the ceiling, the CSW
+           maximum mass = 0.062√λ M_Pl³/m² ≈ 1e11 M_sun — the THIRD independent route
+           (after α_g = 1 at 6e9 and r_s = ξ at 2e10) landing at the SMBH mass-function top.
+THE BULK-FLOW THREAD's fate: dies in the deep-sub-ceiling branch; ~45-90 km/s (UNDER the
+claimed excesses) at saturation — filed as P-031's shadow, not as an explanation of the claims.
+ADJUDICATE: (a) the separate-universe validity + the branch logic; (b) the λ-ceiling as a
+DERIVED constraint (our structure + Planck — the model constraining itself); (c) P-031's
+candidacy (the saturated branch's near-threshold prediction); (d) the third coincidence's
+noted-only status; (e) M4's status change (open → bounded, with the axion-like saturation as
+the natural point). -- Defender t457: the patches printed a catastrophe, the protocol asked
+whether the catastrophe was real, and the answer was a ceiling: the quartic must be smaller
+than one part in 10⁹¹ — exactly the size an axion-like medium can't help having — putting the
+model AT the isocurvature bound instead of over it. The self-kill became a self-measurement,
+and the black-hole mass-top coincidence now has three fingers pointing at it.
