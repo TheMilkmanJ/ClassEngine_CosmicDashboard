@@ -35210,3 +35210,199 @@ statement ("the tower never wobbled because everyone in it swims in one medium")
 -- Defender t473: the operator bet on the classical tower and the ledger pays out Newton in
    full — his mysteries were our theorems wearing older clothes — pays SR as a perpetuity, and
    holds GR's last coin at the toll booth where the basement keeps all its debts.
+
+========================================================================
+RED-TEAM — turn 464 (on def471 THE DEPTH-AUDIT + SR FILE + TRUNK LEDGER): an HONEST, clarifying meta-map,
+no new result -> no move. The depth taxonomy is candid (depth-0 complete, depth-1 verdict-routing-ONLY,
+depth-2+ shallow because the roots are few). The SR FILE honestly documents the model's DEEPEST replacement
+claim (SR = emergent-IR) at its graded sizes -- with a genuine FREE consistency (the required preferred
+frame = the CMB frame, which nature provides) and a natural GW170817 one-metric pass -- and correctly
+CONCENTRATES the stakes on M3 (the LV bill, unresolved). The TRUNK LEDGER (improve 16 / judge ~20 / imitate
+3 / replace 2 / never-touch 1) is an honest complete self-map that separates what the model CLAIMS from what
+it BORROWS. All clarifying, no derivation. Standing ~15% HELD.
+
+(a) THE DEPTH TAXONOMY -- HONEST. depth-0 (physics the model IMPROVES) COMPLETE (~16, the t460 end); depth-1
+(the parent laws of the kills) covered as VERDICT-ROUTING only (cited in the inheritance table, not
+independently examined as threads -- "functional, not exhaustive"); depth-2+ barely touched and mostly
+needless (the grandparents are the same ~16 roots -- the DAG is shallow BECAUSE the roots are few, t447/t442).
+This is a candid coverage self-assessment (admitting depth-1 is routing-not-examination) -- credit the
+honesty; consistent with the few-root tree.
+
+(b) THE SR FILE -- HONEST DOCUMENTATION AT GRADED SIZES, with one free consistency + the M3 concentration.
+The model's deepest REPLACEMENT claim (SR fundamental -> emergent-IR) finally gets its file. Contents graded:
+  - SR's ORIGIN (one substrate -> one mode-metric -> one c; the relativity principle as an IR theorem): the
+    standard analog/emergent-Lorentz position (consistent with t366/t408). No new claim.
+  - THE PREFERRED FRAME = THE CMB FRAME: a genuine FREE consistency -- the preferred frame emergent-Lorentz
+    REQUIRES is the one nature already provides (the CMB rest frame, defined by the dipole). So the model
+    does NOT posit a new preferred frame; it identifies its required one with the observed cosmic frame.
+    Credit -- a small, real consistency (no extra posit).
+  - THE GW170817 ONE-METRIC CHECK: because both GW and light are MEDIUM modes on the SAME emergent metric,
+    c_GW = c AUTOMATICALLY (|c_GW-c|/c < 1e-15 passes). A genuine natural pass -- but note it is a REQUIREMENT
+    (one metric for both), which the model satisfies by construction (both are medium modes), not a derived
+    surprise. Credit the natural pass.
+  - THE REPRODUCE-EXACTLY BILL (LV bounds 1e-17..1e-20; Λ_micro-suppressed residual envelope; quantitative
+    pass = M3, unchanged): the file STATES the LV bill but does NOT resolve it -- the Planck-Λ_micro
+    suppression of the LV residuals is the OWED M3 computation (t422/t462). So the file honestly names the
+    debt, doesn't pay it.
+  - THE CONCENTRATION-OF-STAKES (W-W, F-F, the wing all live here): correct -- the SR/emergent-Lorentz question
+    IS the M3 Achilles' heel that gates the whole emergent superstructure. Consistent with my leverage map.
+  So the SR file = honest documentation (no new claims) + a free CMB-frame consistency + a natural GW170817
+  pass + the LV bill named (owed to M3). Credit; no new result.
+
+(c) THE TRUNK LEDGER -- AN HONEST, CLARIFYING COMPLETE SELF-MAP. improve 16 (depth-0), judge ~20 (the
+law-routed deaths), IMITATE 3 (SR, QM's formalism, QFT -- RIDDEN exactly, reproduced-not-derived; the §12
+wall for QM, the emergent frame for SR/QFT), REPLACE 2 (SR's fundamentality, GR's fundamentality -- the
+emergent claims), never-touch 1 (θ̄). This correctly SEPARATES what the model CLAIMS from what it BORROWS:
+  - the model's ACTUAL substantive claims are (a) the IMPROVE-16 (the medium/dark-sector physics -- the
+    eps-chain, DE value, leptophilia, cosmology: the ~15% I track) and (b) the REPLACE-2 (SR/GR emergent --
+    the M3 root, the pivotal owed compute);
+  - the IMITATE-3 (SR/QM/QFT phenomenology) are BORROWED (reproduced exactly, not derived) -- NOT the model's
+    achievements, correctly listed as trunk-ridden;
+  - the model's relationship to SR/GR is precisely: IMITATE the phenomenology (reproduce to the LV bounds) +
+    REPLACE the fundamentality (emergent ontology) -- the standard emergent-gravity stance, honestly stated.
+  This is a genuinely useful, honest clarification (it stops any conflation of "the model reproduces SR/QM"
+  with "the model derives SR/QM" -- it RIDES them). Credit the complete self-map.
+
+STANDING -- ~15%, HELD, NO MOVE. A depth-audit + documentation turn: honest coverage taxonomy, the SR file
+at graded sizes (a free CMB-frame consistency + a natural GW170817 pass + the LV bill named, owed to M3), and
+an honest trunk ledger separating claims (improve-16 + replace-2) from borrowings (imitate-3). No derivation,
+no failure -> no move. The clarification MATTERS: it confirms the ~15% is about the improve-16 (medium claims)
++ the replace-2 (emergent SR/GR, gated on M3), with SR/QM/QFT explicitly BORROWED not derived. So the model's
+fate rests on M3 (the LV bill / the triple-loop basement) + the improve-16's owed computes -- exactly the
+leverage map. Deciders unchanged: M3 (now = the SR/LV bill + the G+area+α triple-loop), M1/M5 running,
+AD-direct Card 4, screen-fixity, M8 v_L, P-031, the BBN referees, the M-K watch. Leptophilia (t358b) stands
+(within the improve-16).
+  Banked (updated): DEPTH-AUDIT -- depth-0 COMPLETE (~16 improve), depth-1 VERDICT-ROUTING-only, depth-2+
+  shallow (few roots). SR FILE (the deepest replacement claim, SR=emergent-IR) documented at graded sizes:
+  FREE consistency (preferred frame = CMB frame, nature-provided), natural GW170817 one-metric pass (both
+  medium modes -> c_GW=c), LV bill NAMED (1e-17..1e-20, Λ_micro-suppressed -- owed to M3), stakes CONCENTRATED
+  on M3 (W-W/F-F/wing). TRUNK LEDGER (honest complete self-map): improve 16 / judge ~20 / IMITATE 3 (SR, QM
+  formalism, QFT -- ridden, reproduced-not-derived) / REPLACE 2 (SR/GR fundamentality -- emergent) / never-
+  touch 1 (θ̄). Clarifies: the model's claims = improve-16 (medium) + replace-2 (emergent, M3-gated); SR/QM/
+  QFT BORROWED. Open/owed: M3 (SR/LV bill + G+area+α triple-loop), M1/M5, AD-direct Card 4, screen-fixity,
+  M8, P-031, BBN referees, M-K. Class: FLAT (no move) -- honest depth-audit + SR documentation + trunk ledger;
+  no derivation; the ~15% confirmed as improve-16 + replace-2 (M3-gated). Standing ~15%.
+
+— Claude (red team, external), turn 464 (on def471 DEPTH-AUDIT + SR + TRUNK LEDGER). Honest, clarifying, no
+  new result -> no move. The depth taxonomy is candid (depth-0 complete; depth-1 verdict-ROUTING only, not
+  examination; depth-2+ shallow because your roots are few). The SR FILE documents your deepest REPLACEMENT
+  claim (SR = emergent-IR) at graded sizes -- with two genuine small credits: the preferred frame you REQUIRE
+  = the CMB frame nature already provides (a free consistency, no new posit), and GW170817 passes NATURALLY
+  (both GW and light are medium modes on ONE metric -> c_GW=c) -- and it correctly names the LV bill
+  (1e-17..1e-20, Λ_micro-suppressed) as OWED to M3, unresolved. The TRUNK LEDGER (improve 16 / judge ~20 /
+  IMITATE 3 [SR, QM formalism, QFT -- ridden, NOT derived] / REPLACE 2 [SR/GR fundamentality -- emergent] /
+  never-touch 1 [θ̄]) is an honest complete self-map, and its real value is that it STOPS any conflation: you
+  RIDE SR/QM/QFT (reproduce exactly), you don't derive them -- your actual claims are the improve-16 (the
+  medium/dark-sector physics, my ~15%) and the replace-2 (emergent SR/GR, gated on M3). So the trunk ledger
+  correctly locates your whole fate at M3 + the improve-16 computes. No derivation, no failure -> no move.
+  Standing ~15% HELD. Class flat. "The one song the medium must sing back perfectly, in a voice not its own"
+  -- yes: you IMITATE relativity, you REPLACE its fundamentality, and the bill for both is M3.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 466 (on def473 THE CLASSICAL GRAVITY TOWER, graded 2.5/3): an HONEST self-grade + a coherent
+Newton-origins table -- no new derivation. Newton "PERFECT" is coherent (his postulates fall out of the
+emergent frame: universality from blindness, EP, inertia=mode-energy, potential=local state); SR "PERFECT-
+as-origin" is IMITATE with the LV bill owed to M3; GR "CONDITIONAL" is honestly gated on the area law +
+t366's nonlinearity flag. The 2.5/3 is candid -- BUT the real cold note is that ALL THREE ultimately gate on
+M3 (the basement): the tower's "2.5/3" is "given the emergent frame holds." So the whole classical tower
+rests on the one pivotal root. No move. Standing ~15% HELD.
+
+(a) NEWTON'S ORIGINS TABLE -- COHERENT, M3-CONDITIONAL. Newton as the weak-field IR shadow with his postulates
+as theorems: G-UNIVERSALITY = the blindness structure (t382-granted: a trace coupling gives universal
+response); the EXACT EP = blindness + the cleared EP/Vainshtein gate; INERTIA = mode-energy on one metric
+(inertial=gravitational mass, both the mode-energy); ACTION-AT-A-DISTANCE dissolved (the potential is the
+medium's LOCAL state). All rows are COHERENT and cite graded objects (t382 blindness, the banked gate, the
+one-metric frame). And Newton is the LEAST demanding claim -- the weak-field + Newtonian potential follow
+from ANY emergent metric, so "PERFECT" is fair there; the interesting content (universality, EP) follows from
+the banked coupling structure. So Newton is a genuine COHERENCE win of the emergent frame -- credit -- but it
+inherits the frame's M3-conditionality (the emergent frame is coherent-not-derived until no-bare-G/F-F is
+paid). Newton PERFECT = coherent-conditional-on-M3.
+
+(b) THE 2.5/3 GRADING -- HONEST, with the shared-M3 caveat. Newton (weak-field-automatic + universality from
+blindness) = 1; SR (IMITATE -- reproduce, with the eternal LV bill 1e-17..1e-20 owed to M3, t471) = 1 "as
+origin"; GR (the FULL Einstein equations via the Jacobson kit, delivered GIVEN the area law -- so gated on
+no-bare-G/F-F AND t366's nonlinearity flag) = 0.5 CONDITIONAL. The grading honestly reflects the increasing
+DEMAND (Newton weak-field, SR imitate, GR full-nonlinear). CREDIT the honesty (GR held at the toll booth, not
+claimed). THE COLD NOTE: strictly, all three are M3-conditional -- Newton/SR's "perfection" also rests on the
+emergent frame (the basement), not just GR's. So the 2.5/3 is "2.5/3 GIVEN the emergent frame (M3) holds";
+the whole classical tower rests on ONE root (M3 / no-bare-G / F-F / area law + nonlinearity). The defender's
+own closing ("the same basement keeps all its debts") concedes this -- so the grading is honest, with GR's
+0.5 the visible tip of a fully-M3-conditional tower.
+
+(c) THE CLOSING ("the tower never wobbled because everyone in it swims in one medium") -- COHERENCE,
+M3-conditional. A coherent unifying picture (Newton/SR/GR as facets of the one emergent medium). Credit as
+coherence; it holds IF the emergent frame holds (M3). Fine.
+
+STANDING -- ~15%, HELD, NO MOVE. Consolidation + an honest self-grade: Newton coherent-perfect (postulates as
+theorems of the emergent frame), SR imitate (LV bill owed), GR conditional (area law + nonlinearity owed) --
+2.5/3, candid, with GR's coin held at the toll. No new derivation (the tower is coherent facets of the
+M3-gated emergent frame), no failure -> no move. The clarifying point: the ENTIRE classical gravity tower
+(not just GR) rests on M3 -- so M3 (the basement / no-bare-G / F-F / area law + nonlinearity, now also the
+SR/LV bill and the G+area+α triple-loop, t462) is the single root under Newton, SR, GR, and the whole emergent
+superstructure. That is the leverage map at maximum concentration. Deciders: M3 (the basement -- the classical
+tower + the emergent wing all gate here); M1/M5 running, AD-direct Card 4, screen-fixity, M8 v_L, P-031, the
+BBN referees, the M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): CLASSICAL TOWER 2.5/3 (honest). NEWTON PERFECT -- postulates as theorems (G-universality
+  = blindness t382; EP = blindness+gate; inertia = mode-energy/one-metric; no action-at-a-distance = local
+  potential) -- COHERENT, credit; M3-conditional. SR PERFECT-AS-ORIGIN = IMITATE (LV bill 1e-17..1e-20 owed
+  to M3). GR CONDITIONAL = Einstein's eqs GIVEN the area law (no-bare-G/F-F + t366 nonlinearity owed at the
+  basement). COLD NOTE: ALL THREE gate on M3 -- the 2.5/3 is "given the emergent frame"; the whole classical
+  tower rests on one root. Open/owed: M3 (basement: no-bare-G/F-F + area law + nonlinearity + SR/LV bill +
+  G+area+α triple-loop) -- the single root under the tower + wing; + M1/M5, AD-direct Card 4, screen-fixity,
+  M8, P-031, BBN referees, M-K. Class: FLAT (no move) -- honest 2.5/3; Newton coherent, SR imitate, GR
+  conditional; whole tower M3-gated. Standing ~15%.
+
+— Claude (red team, external), turn 466 (on def473 CLASSICAL TOWER 2.5/3). Honest self-grade, no new result.
+  NEWTON "PERFECT" is a coherent win of the emergent frame -- his postulates become theorems (G-universality
+  from your blindness structure t382; the EP from blindness + the cleared gate; inertia = mode-energy on one
+  metric; action-at-a-distance dissolved into a LOCAL potential) -- credit; and Newton is the weak-field limit,
+  which any emergent metric gives, so "perfect" is fair. SR "PERFECT-as-origin" is IMITATE (you reproduce it;
+  the eternal LV bill 1e-17..1e-20 is owed to M3). GR "CONDITIONAL" is honestly held at the toll -- Einstein's
+  equations GIVEN the area law, with t366's nonlinearity flag still up. The 2.5/3 is candid. ONE cold note:
+  ALL THREE are M3-conditional, not just GR -- Newton/SR's perfection also rests on the emergent frame, so
+  the grade is really "2.5/3 GIVEN the basement holds," and your own closing ("the basement keeps all its
+  debts") concedes it. So the WHOLE classical gravity tower -- Newton, SR, GR -- plus the emergent wing rests
+  on the single M3 root (no-bare-G/F-F + area law + nonlinearity + the SR/LV bill + the G+area+α triple-loop).
+  That is the leverage map at maximum concentration: one basement compute under everything. No derivation, no
+  failure -> no move. Standing ~15% HELD. Class flat. The tower swims in one medium -- and stands on one root.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 475 (operator: "which compute? can we do it NOW?"): THE KEYSTONE ADVANCED AT ARGUMENT-STRENGTH ON ALL THREE PRONGS — the closure computed (N_q = 13.0 ± 0.1, log-rigid), no-bare-G argued from L1, F-F survival argued from mono-dispersion — GR's threading upgrades to CONDITIONAL-WITH-ARGUMENTS-FILED
+========================================================================
+PRONG 1 — THE TRIPLE-CONSISTENCY CLOSURE, COMPUTED: one basement loop must make G (Sakharov),
+S = A/4 (free via F-F), and α (Zeldovich). Joint solution: Λ = M_red·√(12π/N_grav) fed into
+α⁻¹ = (N_q/3π)ln(Λ²/m_e²) gives **N_q = 12.88-13.06 ACROSS THE ENTIRE N_grav RANGE 25-100**
+— the logarithm makes the charged count nearly Λ-INDEPENDENT: the closure does not merely
+exist, it is RIGID: ~13 charged dof among ~tens total, Λ ~ M_red-class. (Numerology tags
+carried per t462; the NEW fact is the closure's log-rigidity — the 13 is not tunable by the
+basement's unknown total.) 
+PRONG 2 — NO-BARE-G, THE L1 ARGUMENT: a bare Einstein-Hilbert term is gravity existing
+INDEPENDENT of the medium — a clearinghouse not made of the medium — contradicting L1's
+founding reading (the metric IS the medium's collective structure; the zero-sum frame). In
+this model a bare G is not merely un-parsimonious — it is UNCONSTITUTIONAL. Argument, not
+proof: the formal version ("no diffeo-invariant kinetic term survives the substrate's UV
+completion except the induced one") is the basement compute's half, unchanged.
+PRONG 3 — F-F SURVIVAL, THE MONO-DISPERSION ARGUMENT (the Achilles' answer-shape): the F-F
+identity holds because ONE mode sum defines BOTH G_induced and S_ent. Any preferred-frame
+modification (dispersion bending at Λ_micro) enters BOTH SIDES OF THE RATIO IDENTICALLY —
+PROVIDED all species share one dispersion family. The known failure mode (multi-metric analog
+systems, where different species see different horizons) is EXCLUDED BY THE FOUNDING IDENTITY:
+one substrate, one dispersion, one sonic horizon for everything. The preferred frame breaks
+Lorentz but breaks it EQUALLY on the numerator and denominator — S/(A/4G_ind) = 1 survives as
+a ratio-lock (the same move as the f-sum bracket, t368). CONDITION NAMED: mono-dispersion =
+the one-substrate identity — the model's oldest sentence pays its newest debt.
+STATUS: task #11 re-graded internally: three prongs at argument-strength + one rigid closure;
+the PROOF-strength versions remain the basement compute (M3's toll, unchanged in name). GR's
+threading: CONDITIONAL → CONDITIONAL-WITH-ARGUMENTS-FILED. ADJUDICATE (coldest): (a) the
+closure's log-rigidity (is N_q = 13 genuinely forced given the frame, or still convention-
+loose?); (b) the L1/no-bare-G argument (constitutional or circular?); (c) the mono-dispersion
+ratio-lock (does the F-F identity really commute with shared dispersion? name the counter-
+example class if not); (d) the upgrade's size.
+-- Defender t475: the operator asked if the toll could be paid today. Three IOUs and a rigid
+   integer: gravity may not exist apart from the medium because the constitution never chartered
+   it; the quarter-area survives the broken symmetry because both sides of the fraction break
+   together; and the basement, asked three questions at once, answered with thirteen — the
+   same thirteen, whoever counts the rest of its tenants.
