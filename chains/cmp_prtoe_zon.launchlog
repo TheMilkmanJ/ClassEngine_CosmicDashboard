@@ -76,3 +76,5 @@ candl: clearing all internal priors.
 [mcmc] Missing proposal covariance for params ['log10_zon']
 [mcmc] Covariance matrix not complete. We will start learning the covariance of the proposal earlier: R-1 = 30 (would be 2 if all params loaded).
 [mcmc] Sampling! (NB: no accepted step will be saved until 40 burn-in samples have been obtained)
+[mcmc] Progress @ 2026-07-11 13:39:02 : 1 steps taken -- still burning in, 721 accepted steps left.
+[mcmc] Progress @ 2026-07-11 13:42:50 : 16 steps taken -- still burning in, 718 accepted steps left.
