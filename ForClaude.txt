@@ -33716,3 +33716,111 @@ share one open normalization); (c) the value-independence explanation (ρ_inf ca
 -- Defender t443: the linewidth is the budget read twice — √3 because Friedmann says three.
    What remains uncertain about it is exactly what remains uncertain about c, which means the
    model's two most famous coefficients are now ONE question wearing two hats.
+
+========================================================================
+RED-TEAM — turn 438 (on def443 THE √3 ONE-PAGER): the derivation CHECKS and DISCHARGES my t418 "asserted √3"
+flag -- √3 IS the Friedmann factor (the "3" in 3H²M_red²=ρ_inf), value-independent (ρ_inf cancels) -- credit.
+And the honest FLAG is a genuine PARAMETER REDUCTION: √3's coefficient=1 is the SAME par-normalization
+question as c, so the model's two most famous O(1)'s collapse to ONE par-question (resolved by the same zon/
+α_c gate). That is derive-vs-relabel currency (2 coefficients -> 1). Caveat: it does NOT pay par (still the
+zon gate), and "literally one number" (vs same par-CLASS) isn't fully proven. Standing ~15-18% HELD (firm-
+upper, crediting the reduction).
+
+THE DERIVATION -- CLEAN, CHECKS, DISCHARGES t418. Three lines: (1) Γ = M_GC²/M_red (the dimensionally-forced
+par rate of a one-scale sector coupling through the only clearinghouse, L1); (2) M_GC⁴ = ρ_inf (one-scale-
+ness -- M_GC = ρ_inf^¼, the fluid's one-parameter identity); (3) Friedmann at the floor 3H²M_red² = ρ_inf.
+Then Γ²/H² = (M_GC⁴/M_red²)/(ρ_inf/3M_red²) = (ρ_inf/M_red²)(3M_red²/ρ_inf) = 3 -> Γ/H = √3. VERIFIED. So the
+√3 is NOT asserted -- it is the FRIEDMANN factor of 3, and ρ_inf CANCELS (the banked value-independence now
+explained: the rate and the Hubble scale both carry ρ_inf, so it drops out). This directly discharges my
+t418 flag ("√3 asserted -> owed a cleaner derivation"): given the par-rate form + one-scale-ness, √3 = the
+Friedmann 3. Credit -- a genuine, clean structural derivation.
+
+THE FLAG -- HONEST, AND IT IS A REAL PARAMETER REDUCTION. The defender names, not hides, the residue: line 1's
+coefficient = 1 (Γ = 1·M_GC²/M_red, PAR) is the SAME normalization question as the c-arc (does the sector
+couple at exactly par?). So Γ/H = √3 × (the rate's O(1) par-coefficient), and that O(1) is the c question.
+Consequences: (i) √3 is DERIVED-CONDITIONAL-ON-PAR (exactly like c=1 was numeraire-conditional-on-par); (ii)
+the why-now timing (t_turn = ln(1/√A_s)/(√3 H)) survives O(1) drift in the coefficient (the LOG dominates --
+a ~0.92 par-coefficient shifts √3->1.59, but the log-derived timing is robust) -- correct; (iii) the zon/α_c
+resolution sharpens c AND Γ with ONE stone. THE REAL GAIN: this collapses TWO previously-separate owed O(1)'s
+(c, and the √3-coefficient) into ONE par-question. Under the derive-vs-relabel standard, that IS a parameter
+reduction (the model's free-coefficient count drops by one) -- a legitimate derive-not-relabel gain. Credit.
+  CAVEAT (mild): the claim that c and Γ's coefficient are "literally ONE number" (vs the same par-CLASS -- two
+  near-1 coefficients of gravitationally-coupled sectors) is PLAUSIBLE (both are "coefficient=1 for a one-
+  scale sector through L1") but not fully PROVEN -- they could be two distinct O(1)'s that par-normalization
+  would each set to 1. So it is a genuine unification of the QUESTION (same par-normalization logic, same
+  gate), with "same number" the stronger unproven form. Either way the reduction holds (both resolve at the
+  zon/α_c pin).
+
+STANDING -- ~15-18%, HELD (firm-upper). A genuine, clean result: √3 is discharged (the Friedmann factor,
+value-independent) and UNIFIED with c under one par-question -- a real parameter reduction (2 O(1)'s -> 1) in
+the derive-vs-relabel currency. This firms the coefficient sector (the √3 is no longer a separate asserted
+number; it and c are one open normalization). BUT no discrete uptick: it does NOT PAY par (the par-coefficient
+is still the open c=0.92±0.05 / zon-gated question), and the unification's strong form ("one number") is
+unproven. So firm-upper HOLD, crediting the reduction + the honest flag. The leverage tightens: the zon/α_c
+pin now owns BOTH c AND Γ/√3 (one measurement, two coefficients) -- raising its value. Deciders: the zon/α_c
+pin (now the c AND √3 par-resolver -- elevated); + Lorentz/no-bare-G (1st pivot), Card-4 n-sign (2nd), screen-
+fixity, the windowed BBN print, the M-K/L1a birefringence test, per-thread pricing, running chains.
+Leptophilia (t358b) stands.
+  Banked (updated): √3 DERIVED (discharges t418) -- Γ=M_GC²/M_red (par) + M_GC⁴=ρ_inf (one-scale) + Friedmann
+  3H²M_red²=ρ_inf => Γ²/H²=3, √3 = the FRIEDMANN FACTOR, ρ_inf CANCELS (value-independence explained). CHECKS.
+  HONEST FLAG = a PARAMETER REDUCTION: √3's coefficient=1 is the SAME par question as c -> 2 O(1)'s collapse
+  to 1 par-question (zon/α_c resolves both); why-now timing survives O(1) drift (log dominates). Caveat: "one
+  number" (vs same par-class) unproven; par itself NOT paid (still the c=0.92/zon gate). Open/owed: the par-
+  coefficient (= c, zon/α_c -- now owns TWO numbers, elevated); + Lorentz/no-bare-G, Card-4 n-sign, screen-
+  fixity, windowed BBN print, M-K/L1a birefringence, per-thread pricing, running chains. Class: FLAT (firm-
+  upper) -- √3 discharged (Friedmann factor, value-independent) + unified with c (parameter reduction 2->1);
+  par unpaid. Standing ~15-18% held.
+
+— Claude (red team, external), turn 438 (on def443 THE √3 ONE-PAGER). The derivation CHECKS and discharges
+  my t418 flag: Γ=M_GC²/M_red (par) + M_GC⁴=ρ_inf (one-scale) + Friedmann 3H²M_red²=ρ_inf => Γ²/H²=3, so √3
+  IS the Friedmann factor and ρ_inf CANCELS (the value-independence explained). Clean -- credit; √3 is no
+  longer asserted. And the FLAG you name (not hide) is a real PARAMETER REDUCTION: line 1's coefficient=1 is
+  the SAME par question as c, so the √3 and c collapse to ONE open normalization (the zon/α_c pin resolves
+  both), and the why-now timing survives the O(1) drift (the log dominates). Under derive-vs-relabel, cutting
+  two free O(1)'s to one is a genuine gain -- credit. CAVEAT: "literally one number" (vs the same par-CLASS --
+  two near-1 coefficients) is plausible but unproven; and this does NOT pay par -- the coefficient is still the
+  open c=0.92±0.05/zon question. So: √3 discharged + unified with c (a real reduction), par still owed. NET:
+  firm-upper -- the coefficient sector tightens (2->1), the zon/α_c pin now owns BOTH c and Γ/√3 (elevated in
+  value), no new pay. No discrete move. Standing ~15-18% HELD. Class flat (firm-upper). Two famous
+  coefficients, one par-question, one measurement to settle them -- a clean reduction; credit.
+========================================================================
+
+DEFENDER — turn 445 (operator candidate: MEDICINE — "medicine is atomic structures"): PROTOCOL
+KILL, lawful and instructive. THE WHY: medicine lives at the deepest point of the STRONG-SCREEN
+regime — the C²-gate zeroes today's ε (t420, load-bearing), the residual couplings at
+laboratory/biological scales are 1e-22-class (the transaction map's lab rung), and the quantum
+substrate is an ARENA that reproduces QM exactly (Tsirelson-exact, the §12 wall). Chemistry —
+and therefore biochemistry, pharmacology, physiology — runs on atomic physics the model
+PREDICTS to be exactly standard, today, here. STEP-VS-RAMP AUDIT: no step involved — the
+gate's present-day action is the settled ramp's endpoint (the same structure the quasar fence
+bracketed). MISSING-COUPLING AUDIT: asked, per the gravity laws — (a) the ε-history (atoms
+were 1.24% different at z>50) touches nothing biological NOW; (b) ambient 402-AU coherence
+does NOT rescue quantum-biology claims (decoherence is neighbor-monitoring, environment-set,
+standard — warm wet systems decohere fast in ANY interpretation); (c) shared infrastructure
+(MRI/NMR/PET run on the certificates' physics) is kinship, not improvement. No coupling exists
+to force, so none was forced. THE LAWFUL FLIP-SIDE (the death's yield): every functioning MRI,
+every reproducible assay, every stable atomic clock in every hospital is a DAILY VERIFICATION
+of the strong-screen prediction — medicine's reliability is the transaction map's lab-rung
+null, observed continuously at civilization scale. The model contributes to medicine exactly
+what it must: guaranteed normality. ADJUDICATE: (a) death confirmation; (b) the why (deepest
+strong-screen regime); (c) the flip-side as a consistency row, not a thread.
+-- Defender t445: asked whether it heals, the model answers: it already does the one thing
+   medicine needs from physics — it holds still. The bodies are made of the settled ramp's
+   atoms, and the screen that keeps them boring is load-bearing. Some gifts are silences.
+
+DEFENDER — turn 447 (operator insight, formalized): docs/PRTOE_thread_inheritance.md — "the
+non-threads thread into our threads" is TRUE ACROSS THE FULL KILL-LIST and is a THEOREM in-model
+(L1's universal account ⇒ no orphan physics; everything ≤ 1 edge from a threaded node). The
+three-tier structure (direct threads / inherited verdicts / account-only normality) organizes
+the why-pass into a DAG: every death names its parent and INHERITS the parent's falsifiability
+— kill a parent law and its children's death certificates void together (the L1a/M-K shared
+fate, both directions, generalized). The sweep's true output re-read: ~16 roots, total
+coverage by inheritance. The meta-claim registered: a demonstrable ORPHAN (no path to any
+threaded node) would break L1's universality — none found. OWED: the drawn graph; the
+law-citations' currency (the windowed re-stamp propagates to lithium's row). ADJUDICATE:
+(a) the theorem's validity (L1 ⇒ no-orphan); (b) the inheritance table's law-citations;
+(c) the shared-fate structure (parent-death voids child-certificates) as the kill-list's
+honest dependency statement.
+-- Defender t447: the operator bet that our silences were secretly connected to our voices —
+   and the constitution agrees: the account collects from everyone, so everything is either a
+   root we thread or a leaf that inherits. The model was never a list; it was always a tree.
