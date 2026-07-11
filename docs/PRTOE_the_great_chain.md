@@ -117,3 +117,34 @@ frozen-era μ-term calc — Card 4's terminal); GEN 4's fork (H-TOE Gates 1–3,
 on Gate 2 recorded); GEN 8's stellar yields (standard astrophysics — inherited, not owed by
 us); GEN 11's quantitative F_available budget (computable from the account — queued).
 *A row with a debt is a row with a debt — it is never a row with a story.*
+
+---
+
+# APPENDIX B — THE SCIENCES AS PHYSICS (living; the master equation per science)
+
+*The operator's directive: thread the sciences until science and physics are the same thing.
+The method: a science enters ONLY by its master equation, its physics parent, and the medium's
+relationship. No equation, no row.*
+
+| science | its master equation | physics parent | the medium's relationship |
+|---|---|---|---|
+| chemistry | Ĥ = Σᵢp²ᵢ/2m_e − Σᵢ,ₐZₐe²/rᵢₐ + Σᵢ<ⱼe²/rᵢⱼ + Pauli exclusion | QM (ridden-exact) | m_e, α held constant BY THE GATE — uniformity is our prediction (def479); the Oklo natural reactor: |Δα/α| < 10⁻⁸ over 2 Gyr — a PASSED fence (gate-consistent, now cited) |
+| thermodynamics | dE = T dS − p dV; dS ≥ 0 | **natively OURS** | the account IS the first law (t348); the arrow IS the drawdown (graded chain) |
+| statistical mechanics | Z = Σ e^(−Eᵢ/kT); S = k ln Ω | QM + counting (ridden) | Landauer citizenship: E_erase ≥ kT ln 2 is constitution-grade (the fees) |
+| bioenergetics / botany | ΔG_ATP ≈ −30.5 kJ/mol; photosynthesis ~8–10 γ per O₂; ΔG = −RT ln K | chemistry's child | the license: F_available > 0 traces to S_start = min (the arrow doc); plants = account taps |
+| geology / geochronology | N(t) = N₀e^(−λt) (radiometric clocks); ∂T/∂t = κ∇²T | nuclear + thermo | the clocks work BECAUSE λ is screened constant — the same fence as chemistry (Oklo + the ppm ramp-tail); GEN 8–9 supply the isotopes |
+| materials / electronics | ψ_k = e^(ikr)u_k(r) (Bloch); I = I₀(e^(eV/kT)−1) (Shockley) | QM (ridden-exact) | GEN 13's substrate; the volt via Josephson V = (h/2e)f — the cousin calibrates the science |
+| optics / imaging | Maxwell: ∇×B = μ₀J + μ₀ε₀∂E/∂t; Fermat: δ∫n ds = 0 | EM (untouched by law) | L1a: Σq_dark Q² = 0 — every image arrives unedited; astronomy exists by our blindness |
+| meteorology / oceanography | ρ(∂v/∂t + v·∇v) = −∇p + μ∇²v + ρg; radiative transfer dI/ds = −κI + j | fluids + EM (inherited) | the energy budget is GEN 8's photon flux on GEN 9's surface — the account's local weather |
+| computer science | E_erase ≥ kT ln 2 (Landauer); Shannon C = B log₂(1+S/N) | information physics | **constitution-grade**: the universe's own bookkeeping law; standing null (no sub-Landauer erasure, kill-class) |
+| medicine / pharmacology | ΔG_bind = −RT ln K_d; Michaelis–Menten v = v_max[S]/(K_M+[S]) | chemistry's child | the screen's gift (t440-confirmed): guaranteed normality — reproducibility IS the strong-screen prediction |
+| astronomy / cosmology | the threads themselves (this ledger) | — | the sixteen roots |
+
+**The unification statement, no sugar:** every science's master equation is a physics equation;
+every physics equation in the table stands on a rung of the ladder; every rung transacts with
+the medium through the channels of the transaction map — imitated exactly (QM/EM), owned
+natively (thermodynamics/information), or screened into constancy (the constants every clock
+and assay silently trusts). Science and physics were always the same thing; the medium's
+contribution is the PROOF OF CONSTANCY the sciences borrowed unexamined — now a registered,
+falsifiable, court-dated prediction. **New fence added this pass: Oklo (|Δα/α| < 10⁻⁸/2 Gyr) —
+passed, cited, and inherited by every radiometric date in every geology paper.**
