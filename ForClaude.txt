@@ -36250,3 +36250,97 @@ equation-bearing per the def483 standard. PLUS docs/PRTOE_INDEX.md — the maste
 -- Defender t499: the shelf now has a card catalog and no content-node lacks a face. Fifty
    files, one index, every relation labeled — the library the threading built, shelved the way
    the operator ordered: equations first, stories never.
+
+========================================================================
+RED-TEAM — turn 486 (on def499, housekeeping): four standalone docs + a master index -- pure documentation,
+no new physics, no standing move. Credit the discipline: the standalones consolidate already-graded material
+(BBN witness = t465, chaos = the ω_genome/cycle-map t332/361, astrochem = P-030/t425) with equations per the
+def483 standard, and -- notably -- they CARRY THE RED-TEAM'S CAVEATS (the astrochem cooling subdomain wears
+my t480 "likely-small" label; the BBN witness carries BOTH helium datasets = the honest 1.3-3.7σ from t458).
+The index (~50 files by relation class) is sound bookkeeping. No move. Standing ~15-16% HELD.
+
+(a) THE FOUR STANDALONES -- FIDELITY GOOD (consolidations, caveats carried). BBN witness (def465 synthesis:
+T_c-stamps + Aver AND EMPRESS = the 1.3-3.7σ honest range), plasma physics (the fifth threshold, the mouth,
+the dispersion row, the superfluid "rhyme" honestly tagged), chaos dynamics (natively-ours: the quantified
+dice, the no-attractor verdict t361, the topology-averages-chaos pointwise/integral duality), astrochemistry
+(P-030's μ-comparison powers, the ppm fence, the parked-live cooling subdomain WITH t480's "likely-small"
+label, the astrobiology scope). These document banked, already-graded content -- fidelity is good (no new
+claims), and the carrying of the red-team caveats (likely-small, both-helium) is exemplary living-standard
+discipline. Credit.
+
+(b) THE INDEX -- SOUND. PRTOE_INDEX.md maps the ~50-file shelf by relation class ([O]/[R]/[S]/[I]/[C]/[P]) --
+a card catalog for the corpus. I cannot exhaustively audit 50 files' labels from here, but the STRUCTURE is
+right and the demonstrated discipline (the t480/t482 shaves accepted, caveats carried) indicates honest
+labeling. Credit the completeness; note the caveat that I audit by sampling, not exhaustively.
+
+(c) RELATION-CLASS MISLABELS -- NONE VISIBLE (sampled). The recently-audited nodes are correctly classed
+(astrochem cooling = [P] parked-live; the biochem-tap/materials demotions from t482 held). No new mislabel
+surfaced in this turn's four standalones. Fine.
+
+STANDING -- ~15-16%, HELD, NO MOVE. Pure housekeeping (four equation-bearing standalones consolidating graded
+material + the master index), no new physics, no derivation, no failure. Credit the documentation discipline
+and the caveat-carrying. The review is in its documentation/consolidation tail -- the substantive physics has
+converged, the corpus is being shelved. Deciders unchanged (all downstream/owed): the AD-direct Josephson
+fraction (Card 4), GATE 2 (likely adverse), the JWST IMF-cooling calc (likely small), chiral-GW dCS, M3
+proofs, screen-fixity, M1/M5, P-031, BBN referees, M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): FOUR STANDALONES filed (BBN witness / plasma / chaos / astrochem -- equation-bearing,
+  consolidating graded content, carrying the red-team caveats: astrochem "likely-small" t480, BBN witness
+  both-helium t458) + PRTOE_INDEX.md (~50 files by relation class). Documentation only, no new physics.
+  Open/owed: unchanged (AD-direct Josephson fraction, GATE 2, JWST-IMF, chiral-GW dCS, M3 proofs, screen-
+  fixity, M1/M5, P-031, BBN referees, M-K). Class: FLAT (no move) -- housekeeping; fidelity good, caveats
+  carried, index sound. Standing ~15-16%.
+
+— Claude (red team, external), turn 486 (on def499, housekeeping). Pure documentation, no move -- and the
+  discipline is good: the four standalones consolidate already-graded material with equations (per your t483
+  standard) and CARRY the red-team caveats on their face (astrochem's cooling subdomain wears my t480
+  "likely-small"; the BBN witness carries BOTH Aver and EMPRESS = the honest 1.3-3.7σ). The ~50-file index by
+  relation class is a sound card-catalog. I sample rather than audit all 50, but the demonstrated discipline
+  (t480/t482 shaves accepted, caveats carried) reads honest. No new physics, no derivation, no failure -> no
+  move. The corpus is shelved; the physics is converged and waiting on the owed root computes. Standing
+  ~15-16% HELD. Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 501 (operator: "can the assembled structure predict something we don't know yet?") — SIX NEW PREDICTIONS MINED FROM THE ASSEMBLY (candidates P-032…P-037), THREE ON LIVE CONTROVERSIES
+========================================================================
+P-032 (cand) — THE FOUR-AXIS COINCIDENCE: the ε-dipole (P-024), the winding comb (P-029), the
+magnetic-helicity parity (P-028's sign structure), and the low-ℓ alignment family must share
+ONE sky direction (they are all the winding axis). Four independent datasets, one direction;
+chance coincidence for four axes within ~10°: p ~ (1−cos10°)³/8-class ≈ 3×10⁻⁶. KILL: any two
+family members with settled axes > ~20° apart.
+P-033 (cand) — THE ℓ-CO-LOCATION: P-029's comb (ℓ_mod ≈ 6.4n ≈ 130) and P-031's %-level
+isocurvature (ℓ ≈ πχ_rec/ξ_K ≈ 170) are TWO READINGS OF THE SAME PATCH STRUCTURE: if either is
+detected, the other must sit in the SAME multipole band (ℓ ~ 120–180), and both must return
+the SAME n. KILL: detections at incompatible scales.
+P-034 (cand) — THE SMBH SPIN-DIP BAND: one m for the whole sky ⇒ superradiance windows at
+fixed α_g ⇒ a SPIN-DOWN DIP in the BH spin-mass plane at M ≈ 6×10⁸–3×10⁹ M☉ (α_g ~ 0.1–0.5
+for m = 2.24×10⁻²⁰ eV), relative to neighbors above and below. Testable with SMBH spin
+catalogs (X-ray reflection/continuum fitting). The zon posterior sharpens the band. KILL: a
+flat or oppositely-featured spin-mass plane at good statistics. [T2's owed check, inverted
+into the prediction it always was.]
+P-035 (cand) — THE SMOOTHNESS FLOOR: the medium cannot clump below its local healing length ⇒
+NO dark substructure below ~10⁻³ pc-class (the soliton scale) — a registered ABSENCE:
+microlensing/astrometric surveys must find the dark sector SMOOTH below that scale, forever.
+KILL: any confirmed sub-milliparsec dark compact object (non-baryonic, non-PBH-attributable).
+P-036 (cand) — THE HELIUM WAR RESOLVES HIGH (the uncomfortable one): the windowed prediction
+Y_p = 0.2495–0.2505 sits ABOVE both Aver (0.2453) and EMPRESS (0.2370) ⇒ the model CALLS THE
+DIRECTION of the live observational controversy: as systematics resolve, the helium
+determinations must DRIFT UP toward ~0.25. KILL: the war resolving low (EMPRESS-ward) —
+which would harden the Y_p counter from +1.3σ toward +4σ and bleed the BBN witness badly.
+Registered AGAINST our comfort — the honest direction.
+P-037 (cand) — WIDE BINARIES ARE NEWTONIAN (the live-controversy null): the ξ-scale force is
+dead (m_amp, the ceiling) ⇒ the claimed Gaia wide-binary MOND-like anomalies are SYSTEMATICS,
+not physics. The model takes a side in an active fight: KILL: a confirmed wide-binary
+anomaly at the MOND acceleration scale (it would resurrect what we buried and kill the
+ceiling that buried it).
+PROVENANCE: every call derives from assembled, graded structure (the one-axis topology, the
+one-n network, the one-m sky, the healing floor, the windowed witness, the λ-ceiling) — none
+required new assumptions; the assembly PRODUCED them. ADJUDICATE each for registration; grade
+P-036 and P-037 coldest (they bet against our comfort and with our funerals, respectively —
+which is why they are the valuable ones).
+-- Defender t501: the operator asked if the built thing predicts. Six answers: one direction
+   the sky must share four ways, one multipole band two signals must co-inhabit, one dip in
+   the black-hole spins, one eternal smoothness, one side of the helium war, and one side of
+   the wide-binary fight — the last two chosen by the model against its own comfort, because
+   the assembly, not the hope, does the choosing.
