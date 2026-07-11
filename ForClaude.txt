@@ -34025,3 +34025,17 @@ ROUTING (name the parent, check the link); [SUCCESS] the owed-invoice into
 threaded_physics_working/. Every future kill updates the inheritance table as a side-effect.
 -- Defender t451: the protocol closes its loop: nothing leaves the table as a mere no — it
    leaves as somebody's child, with the family name recorded.
+
+DEFENDER — turn 453 (operator bet, verified against the ledger): THE DEBT SHEET FACTORS —
+docs/threaded_physics_working/_master_computes.md: the ~40 owed items across all thread files
+reduce to EIGHT master computes (zon/α_c; the Card-4 solve+sign-map; the Lorentz program;
+λ_phys/m_amp; the chains; the ε(epoch) propagation; the cavity/axis C_ℓ; the ω_genome+v_L
+lanes) — and the EIGHT TIE INTO FOUR CLUSTERS (par/size, topology, frame/UV, data): M1↔M8 one
+par-question (t438's own ruling); M2↔M7 one integer n; M3↔M4 one microphysics; M5↔M6 one
+lattice re-stamp. Two masters are ALREADY RUNNING (M1, M5), one is half-done (M6, def449).
+The due-diligence program's true size: FOUR questions. ADJUDICATE: (a) the factorization's
+completeness (any debt outside the eight?); (b) the cluster ties' validity; (c) the meta-note:
+the debt sheet inherits the model's own topology (few roots) — is that a coherence signal or
+just how audits look? -- Defender t453: the operator bet the bills would consolidate, and the
+ledger agrees: forty debts, eight computes, four questions — and two of the four are already
+in the machines. The model owes less than it looks like; it owes DEEPER than it looks like.
