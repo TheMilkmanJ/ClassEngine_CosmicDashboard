@@ -34735,3 +34735,85 @@ T_c-pressure's flagged-not-taken status; (d) the helium-landscape honesty (1.3σ
 dataset). -- Defender t465: the threads' collective answer: BBN stopped being our medicine
 cabinet and became our witness stand — three isotopes deposing, under oath, about the only
 phase transition they ever saw, in testimony the model is no longer allowed to coach.
+
+========================================================================
+RED-TEAM — turn 456 (on def463 SCALE-LADDER GAP AUDIT): a clean P1.e self-correction (the "tightest structure"
+superlative was wrong -- the strong sector out-binds the universe) + a "DOUBLE LADDER" alignment claim that,
+graded per-alignment as requested (no package deal), is NOT a structural discovery -- 2 alignments are
+DEFINITIONAL (no content) and 3 are LOOSE COINCIDENCES with NO mechanism. The defender honestly flags the
+loose ones and asks for separate grading -- credit the discipline. No new result, no move. Standing ~15% HELD.
+
+(1) THE CORRECTED SUPERLATIVE -- P1.e, CREDIT. The nucleus binds at ~8.5e-3 per nucleon (~8 MeV/940 MeV;
+checks) -- ×37 TIGHTER than the universe's 2.3e-4 -- and the nucleon is ~O(1) QCD-bound. So "the universe is
+the tightest structure per unit mass" (t461) was WRONG by omission; corrected ordering: nucleon > nucleus >
+UNIVERSE > atom > star > galaxy -- the universe is the tightest GRAVITATIONALLY-sectored (α_c) structure, not
+the tightest overall. Honest self-catch (I also missed the strong-sector omission at t454 -- credit their
+catch). Correct.
+
+(2) THE DOUBLE LADDER -- GRADED PER ALIGNMENT (no package deal), and it is NOT a discovery:
+  - L (27.6 Gpc) ↔ HORIZON: DEFINITIONAL. L is the torus size ≈ the observable-universe scale by
+    construction -- no content (the defender agrees "definitional").
+  - l_Pl ↔ BOTTOM: DEFINITIONAL. l_Pl is the bottom of the matter ladder by definition -- no content.
+  - ξ_K (256 Mpc) ↔ WEB SCALE: LOOSE COINCIDENCE, no mechanism. The "web scale" is a broad range (~100-300
+    Mpc), and 256 Mpc falls in it -- a wide-range match. A MECHANISM would require the winding domains to SEED
+    the web, but t457 just showed the winding isocurvature is PERCENT-class (sub-dominant) -- so the winding
+    does NOT structure the web. Loose coincidence, mechanism absent (the defender flags it "suspect-loose" --
+    agreed).
+  - M₂ (20 nm) ↔ ATOMIC-TO-MESOSCOPIC BOUNDARY: LOOSE COINCIDENCE, no mechanism. 20 nm sits in the broad
+    mesoscopic range, but the atomic->mesoscopic (coherence->classical) boundary is set by DECOHERENCE/thermal
+    physics, NOT the medium's EFT cutoff. No mechanism links M₂ to the mesoscale (flagged "suspect-loose" --
+    agreed).
+  - ξ (402 AU) ↔ SOLAR HINGE: REAL NUMBER, COINCIDENTAL LOCATION. ξ=402 AU is a real computed value that
+    happens to fall in the outer solar system -- but the solar system's scales (heliopause, Oort) are set by
+    SOLAR dynamics + the galactic tide, NOT by the medium's ξ, so there is NO mechanism making ξ a solar-
+    system boundary. "Real arithmetic" (the defender's phrase) means the NUMBER is real, not that the
+    ALIGNMENT is meaningful. (The soliton-at-~3ξ is a self-CONSISTENCY -- the soliton IS healing-length physics,
+    so ~ξ by construction -- not a matter-ladder alignment.) So: real number, coincidental location, no matter-
+    ladder mechanism.
+  => VERDICT: the "double ladder" = 2 definitional endpoints (no content) + 3 mechanism-less coincidences (2
+  loose-range, 1 coincidental-location). It is a NUMERICAL CURIOSITY, NOT a structural discovery. The "strong
+  reading" (the medium's scales SET the matter transitions) is un-derived AND implausible for ξ (solar) and M₂
+  (mesoscale), whose matter scales are set by other physics. So NOT bankable as a finding. Credit the honest
+  per-alignment / no-package-deal framing (and the pre-flagged loose ones) -- but the discovery is not one.
+
+(3) THE MISSING ARROWS (energy cascade) -- HONEST GAP, OWED. The ladder is static (shelves without flow); the
+energy cascade (gravity compresses loose rungs -> stars couple them to the nuclear rung -> radiation escapes
+-> the account collects) is the dynamical half, distributed across the transaction-map/pdV bookings but never
+drawn as one diagram. Owed as §4 (a drawing + per-arrow citations). Honest acknowledgment of an organizational
+gap; no new content, a queued diagram. Fine.
+
+STANDING -- ~15%, HELD, NO MOVE. A gap audit: an honest P1.e superlative correction (strong sector out-binds
+the universe), a "double ladder" that is NOT a discovery (2 definitional + 3 mechanism-less coincidences,
+graded per-alignment as requested -- credit the no-package-deal honesty, but it does not bank), and an owed
+cascade diagram. No derivation, no new structural result -> no move. The discipline is good (self-corrected
+superlative, per-alignment grading, loose alignments pre-flagged); the substance (the double ladder) does not
+survive per-alignment scrutiny. Deciders unchanged: the AD-direct Card-4 transfer calc (t452), the roots (M3
+Lorentz/no-bare-G, M1/M5 running, screen-fixity, M8 v_L), P-031 isocurvature, the M-K watch. Leptophilia
+(t358b) stands.
+  Banked (updated): SCALE-LADDER AUDIT -- (1) SUPERLATIVE CORRECTED (P1.e): strong sector out-binds the
+  universe (nucleus 8.5e-3 ×37 > universe 2.3e-4); ordering nucleon>nucleus>UNIVERSE>atom>star>galaxy (the
+  universe is the tightest GRAVITATIONAL-sector structure, not overall). (2) DOUBLE LADDER = NOT a discovery,
+  per-alignment: L-horizon + l_Pl-bottom DEFINITIONAL (no content); ξ_K-web + M₂-mesoscale LOOSE COINCIDENCES
+  (no mechanism -- winding doesn't seed the web per t457; mesoscale is decoherence-set); ξ-solar-hinge = real
+  number, COINCIDENTAL location (solar scales are solar-dynamics-set; soliton-at-3ξ is self-consistency). The
+  "strong reading" (medium sets matter transitions) un-derived + implausible for ξ/M₂. NOT bankable. (3)
+  ENERGY CASCADE owed (§4 diagram). Open/owed: unchanged (AD-direct Card 4, M3 Lorentz/no-bare-G, M1/M5,
+  screen-fixity, M8, P-031, M-K) + the cascade diagram. Class: FLAT (no move) -- honest P1.e correction +
+  per-alignment discipline, but the double ladder is coincidence not discovery; no derivation. Standing ~15%.
+
+— Claude (red team, external), turn 456 (on def463 GAP AUDIT). Clean P1.e self-correction: the strong sector
+  out-binds the universe (nucleus 8.5e-3 ×37 tighter than 2.3e-4), so t461's "tightest structure" was wrong
+  by omission -- the universe is the tightest GRAVITATIONAL-sector one, ordering nucleon>nucleus>universe>atom
+  >star>galaxy. Credit (I missed the omission at t454 too). On the DOUBLE LADDER -- grading per-alignment as
+  you asked (no package deal): L-horizon and l_Pl-bottom are DEFINITIONAL (no content); ξ_K-web and M₂-
+  mesoscale are LOOSE COINCIDENCES with NO mechanism (the winding does NOT seed the web -- you just showed its
+  isocurvature is percent-class, t457; the mesoscale is decoherence-set, not M₂-set); and ξ-solar is a REAL
+  NUMBER in a COINCIDENTAL location (solar-system scales are set by solar dynamics + the galactic tide, not
+  your ξ -- "real arithmetic" means the number is real, not the alignment meaningful; the soliton-at-3ξ is a
+  self-consistency, not a matter alignment). So the "double ladder" is 2 definitional + 3 mechanism-less
+  coincidences -- a numerical curiosity, NOT a discovery; the "strong reading" (medium sets the matter
+  transitions) is un-derived and implausible for ξ/M₂. Credit the honest no-package-deal framing and the
+  pre-flagged loose ones -- but it doesn't bank. The energy cascade (§4) is an honest owed diagram. No new
+  result -> no move. Standing ~15% HELD. Class flat. The universe is the tightest one GRAVITY made -- true;
+  the medium's five scales bolted to the matter ladder's joints -- mostly coincidence.
+========================================================================

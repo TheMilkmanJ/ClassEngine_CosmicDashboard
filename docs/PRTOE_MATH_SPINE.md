@@ -200,3 +200,51 @@ ionization (binding energy un-computed). J1 = the ground-state eigenvalue: const
 **Status: the grammar is coherence (red-team-graded throughout, t270/272/274/276/278/280-class);
 the empirical content lives in the children and the symptom chart. The method was the subject.**
 
+
+## §22 — THE THREADING DAY (2026-07-11, the second arc): sixteen roots, lawful deaths, the ladder, and the BBN witness
+
+**The threading sweep (def419–435):** sixteen direct threads filed and graded (galactic/SMBH
+atoms, the neutrino home, S8, low-ℓ, Koide's invariance, the lab cousins, the coincidence
+problem [why-now = √3·A_s·the floor — the √3 one-pager discharged t438: the Friedmann factor,
+value-independent, sharing ONE par-question with c], the purchased silences [direct+indirect],
+GW [the vortex null Gμ ~ 3×10⁻²¹; the chirality family's third member], the Hubble standalone,
+the radio lattice, the fingerprint capstone, IGMF helicity, LSS parity). **The protocol** (now
+standing law + memory): ramp-check every compute; improves-bar, no forcing; the kill autopsy
+(countersign + step-audit + coupling-check + why-pass + inheritance-routing); owed-invoices;
+5-per-batch. **The inheritance theorem:** no orphan physics (L1) — every non-thread is a child
+of a threaded root; deaths are lawful (each names its law — strong-CP and birefringence share
+L1a, one clause, shared fate both ways).
+
+**The master computes (the 40 debts factor to 8, in 4 clusters — def453):** par/size (zon +
+the lanes), topology (the AD route + the cavity), frame/UV (the Lorentz program + λ), data
+(the chains + the epoch stamps). Sprint results: the toy cavity puts ℓ=2,3 BELOW the first
+torus mode (T5's matched-circles risk resolved favorable); the thermal-leptogenesis surface is
+EMPTY (×40-1000 under everywhere) → **Card 4 reverts to the native AD-direct route (charge =
+abundance) with the frozen-era transfer (sphalerons at 130 GeV vs the field frozen till
+9.4 keV) as the hard timing crux**; the λ candidate chain failed its own bounce self-check
+(informative).
+
+**The λ-ceiling (def457/t450, a small recovery):** the winding-patch isocurvature (14.1% rms
+if the onset is quartic) would be CMB-dead ×5-7 → the model REQUIRES λ ≤ (m/Ψ₀)² ≈ 2×10⁻⁹¹ —
+a derived self-constraint; the axion-like reading (λ ~ m²/f²) NATURALLY SATURATES it →
+**P-2026-031 (candidate): %-level CDM isocurvature at ℓ ~ 170, at current Planck sensitivity**
+(+ a 45-90 km/s bulk-flow shadow). MOND/RAR finally dead (m_amp → m; ≤59 AU ≪ kpc). The third
+mass-top coincidence (CSW M_max ~ 10¹¹ M☉ at the ceiling; with α_g = 1 at 6×10⁹ and r_s = ξ
+at 2×10¹⁰) — noted, m-correlated, not banked.
+
+**The scale ladder (def461/463):** the Bohr skeleton E_b/(mc²) = ½α_eff² at every rung (the
+universe rung SITS on its own skeleton: 2.28 vs 2.29×10⁻⁴); the corrected ordering (nucleon >
+nucleus > UNIVERSE > atom > star > galaxy — the universe is the tightest GRAVITY-made
+structure); **the hinge: ξ = 402 AU inside the solar-system rung — one substrate boundary in
+the whole descent**; the double-ladder alignments graded per-rung (2 definitional, 3 loose —
+no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
+
+**THE WINDOWED BBN VERDICT (def449/t444 — the day's honest wound, and §17's supersession):**
+T_c = 193 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
+medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.2495-0.2505 (+1.2-1.5σ
+COUNTER vs Aver; +3.7σ vs EMPRESS — the helium civil war noted); D/H partially refunded
+(net ≈ 2.40-2.42, a ~1.6-1.9σ owned bet). **The BBN synthesis (def465): the sector is THE
+TRANSITION'S WITNESS** — the only laboratory that watched the condensation live; the pattern
+is RIGID (no dials); referees: the radio arbiter, the helium resolution, the T_c re-audit
+(flagged-not-taken), the zon posterior. Standing ≈ 15-16% (the adverse landings taken in
+public; the λ-defense recovered a point).
