@@ -36723,3 +36723,69 @@ arithmetic; (c) the HPA-as-fifth-member candidacy (axis-testable, fluke-caveated
    floor, and the comb walks through the isotropy gate with room to spare — while the sky's
    one detected asymmetry stands at the family's door, axis in hand, waiting to be claimed or
    disowned.
+
+========================================================================
+RED-TEAM — turn 496 (on def509 THE COUSIN PASS): one LEGITIMATE refinement (percolation for n), one honest
+self-placement (He-4 lambda point), and honest zero-claim kinship (topological integers, the atom laser) --
+no new physics, no forcing, no move. The percolation point genuinely bears on the n-estimate; the He-4
+placement correctly states the lock's converse (the model is mean-field, not fluctuation); the kinship notes
+keep the L1a-fence explicit (OAM bench-only). Standing ~15-16% HELD.
+
+(1) PERCOLATION -- A LEGITIMATE n-REFINEMENT (credit). The n_rms~√N random-walk estimate (t343) silently
+assumed the phase field is CONNECTED across domains -- but whether the winding PERCOLATES whole or FRAGMENTS
+depends on the domain connectivity (percolation threshold p_c). So percolation theory DOES bear on n_rms:
+above p_c the √N random-walk holds (coherent winding); below, the estimate needs connectivity-weighting
+(fragmented). A real refinement (redo the Kibble n-estimate with domain-connectivity weighting) -- credit;
+queued to the n-refinement list alongside the KZ leg (t507). n still owed, now with two refinement routes
+(KZ exponents + percolation connectivity).
+
+(2) THE He-4 LAMBDA POINT -- HONEST PLACEMENT, the lock's converse stated correctly. The dyad's transition
+is U(1)/XY-class -- the same universality family as superfluid He-4's lambda transition (the most precisely-
+measured critical exponents in physics, the microgravity lambda-point experiment, ν~0.671 to ~1e-3). So the
+machinery is precision-validated in a cousin. AND the honest placement: He-4 (STRONG coupling) lives DEEP in
+the fluctuation window (non-mean-field, the measured XY exponents), while the model (λ-ceiling -> WEAK
+coupling) sits exponentially OUTSIDE it (mean-field, β=1/2, the t507 lock). So the SAME class, DIFFERENT
+regime -- and the defender uses He-4 to show "what we are provably NOT" (not in the fluctuation window). This
+is the t507 lock's CONVERSE stated correctly (He-4 = the fluctuation face; the model = the mean-field face,
+by the λ-ceiling). Honest coherence/placement, no claim -- credit.
+
+(3) THE TOPOLOGICAL-INTEGER COUSINS -- ZERO-CLAIM KINSHIP, L1a-FENCE EXPLICIT (credit the hygiene). OAM/
+optical-vortex beams (quantized ℓħ winding in LIGHT -- flagged BENCH-ONLY: L1a forbids the medium imprinting
+OAM on passing light, so no over-claim); skyrmions (magnetic n∈ℤ solitons); DNA LINKING NUMBER (Lk=Tw+Wr, an
+exactly-conserved integer edited only by enzymes paying work -- a lovely biology cousin: conserved winding +
+Landauer-adjacent fees). Kinship notes, ZERO claims, and the "(we argue) the sky" is flagged as the model's
+ARGUMENT (not established). Credit the zero-claim hygiene + the explicit L1a-fence on OAM.
+
+(4) THE ATOM LASER -- FOUNDING-IDENTITY KINSHIP. A coherent matter-wave beam outcoupled from a BEC IS the
+"one phase, many quanta" grammar on a bench -- the founding identity "walking." Kinship, no claim -- credit.
+
+STANDING -- ~15-16%, HELD, NO MOVE. A cousin pass: one legitimate n-refinement (percolation connectivity),
+one honest self-placement (mean-field via He-4, the t507 lock's converse), and honest zero-claim kinship
+(topological integers with the L1a-fence, the atom laser). No new physics/derivation -> no move; the
+percolation point adds an n-refinement route (n still owed), the He-4/kinship items are coherence/placement.
+Deciders unchanged: AD-direct Josephson fraction, GATE 2 (likely adverse), M3 proofs, screen-fixity, M1/M5,
+P-031, BBN referees, M-K watch, the six predictions, n's refinement (KZ + percolation). Leptophilia (t358b)
+stands.
+  Banked (updated): COUSIN PASS -- (1) PERCOLATION = a legitimate n-refinement (connectivity-weighting bears
+  on n_rms; percolate-whole vs fragment; queued with the KZ leg). (2) He-4 LAMBDA POINT = the dyad's XY/U(1)
+  class precision-validated in He-4, with the honest placement (He-4 = fluctuation window/strong-coupling; the
+  model = mean-field/weak-coupling by the λ-ceiling -- the t507 lock's converse). (3) TOPOLOGICAL-INTEGER
+  cousins (OAM bench-only-per-L1a, skyrmions, DNA linking Lk=Tw+Wr) = zero-claim kinship, fence explicit. (4)
+  ATOM LASER = founding-identity kinship. No new physics, no forcing. Open/owed: unchanged (+ n's percolation
+  refinement). Class: FLAT (no move) -- one legit n-refinement, honest He-4 placement, zero-claim kinship.
+  Standing ~15-16%.
+
+— Claude (red team, external), turn 496 (on def509 COUSIN PASS). One real refinement, the rest honest
+  placement/kinship -- no move. (1) PERCOLATION genuinely bears on n_rms: your √N random-walk (t343) assumed
+  the phase field is CONNECTED across domains, but whether the winding percolates whole or fragments depends
+  on the connectivity (p_c) -- so a percolation-weighted Kibble estimate is a legitimate n-refinement; credit
+  (n now has two refinement routes, KZ + percolation, still owed). (2) The He-4 lambda point honestly places
+  you: same XY/U(1) universality class (precision-measured to ~1e-3 in the microgravity experiment), but He-4
+  is STRONG-coupling/in-the-fluctuation-window while you are WEAK-coupling/mean-field (your λ-ceiling) -- so
+  the cousin "shows what you are provably not," which is exactly the t507 lock's converse, stated correctly.
+  Credit the honest placement. (3) The topological-integer cousins are zero-claim kinship with the L1a-fence
+  EXPLICIT (OAM is bench-only -- you can't imprint it on passing light) -- and DNA linking number (Lk=Tw+Wr,
+  conserved, edited only by work-paying enzymes) is a delightful, honest cousin. (4) The atom laser is your
+  founding identity on a bench. No forcing, no new physics -> no move. Standing ~15-16% HELD. Class flat.
+  Nature liking exactly one trick is a suspicion, properly parked -- not a claim; good hygiene.
+========================================================================
