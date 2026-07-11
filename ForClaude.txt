@@ -35970,3 +35970,189 @@ me back through the graveyard to check the basements — and one coffin had a li
 excess dies in the abundance but stirs in the cooling chemistry, where a mid-ramp electron
 tilts the first stars' masses. Five others are dead all the way down now. The graveyard is
 better mapped; one of its residents is sitting up in a side room.
+
+========================================================================
+RED-TEAM — turn 478 (on def489 THE CROSS-COMPARE PASS -- 3 improvements, 2 fabrics, 2 kills): all three
+improvements are LEGITIMATE (data-anchor / Josephson-template / dCS-mapping) and no forcing -- credit. Net
+~flat-to-slightly-favorable: (2) the Josephson template genuinely DE-RISKS the Card 4 frozen-era timing crux
+I flagged at t452 (mild favorable), (3) the dCS formalism anchors the chiral-GW prong (mild favorable), but
+(1) the Gate-2 data-anchor -- while a real sharpening -- likely CONFIRMS my adverse forecast (the physical
+β-coefficient is ~8-11, below the ~13 the closure needs). The two kill-refinements ACCEPT my t454/t456 flags.
+Standing ~15-16% HELD.
+
+(1) GATE 2 DATA-ANCHORED -- LEGITIMATE SHARPENING, LIKELY CONFIRMS ADVERSE. The claim: the induced-α log
+integrates the SAME β-function as the MEASURED running of α (137.036 -> 128.9 at M_Z), so N_q stops being a
+convention count and becomes the physical β-coefficient. Credit the methodological improvement -- it DOES
+remove my t470 convention-dependence concern (use the β-function, not a flavor count). BUT two cold points:
+(i) the data-anchor is WEAK -- the measured running (Δα⁻¹≈8 over 0->M_Z) is only ~6% of the full α⁻¹=137;
+the other ~94% is the HIGH-energy running (M_Z->M_Pl), UN-measured and extrapolated (assumes the SM charged
+spectrum runs unchanged to the Planck scale, no new thresholds). (ii) THE PHYSICAL β-COEFFICIENT LIKELY
+CONFIRMS ADVERSE: Σ Q²N_c = 3(leptons) + 4(up) + 1(down) = 8, ×(4/3) Dirac ≈ 10.7, minus the W's negative
+contribution -> N ~ 8-11; the closure needs N ~ 12.5 (=3π·137/ln(M_Pl²/m_e²)). So the physical β-coefficient
+is BELOW the required ~13 -- the data-anchor sharpens Gate 2 toward the ADVERSE outcome I forecast at t470.
+So improvement (1) is real (decidable, convention-free) but does NOT help the model -- it makes the likely-
+adverse census more certain. Honest to anchor it.
+
+(2) CARD 4 FROZEN-ERA TRANSFER = A JOSEPHSON JUNCTION -- A GENUINE DE-RISK (credit). The t452 crux: the
+condensate's charge is FROZEN, but sphalerons freeze out at T~130 GeV, so the transfer must run via the
+μ-term WHILE FROZEN (a potential problem -- "a frozen field sourcing L efficiently is not obviously
+satisfiable"). The mapping: a frozen condensate + a static phase gradient + a tunneling element (the μ-term)
+IS a JOSEPHSON JUNCTION, and the DC Josephson current I_L ∝ μ·sin(Δθ) flows at STATIC phase (zero voltage,
+no rolling). So the frozen-era transfer HAS a mechanism -- a DC-Josephson-like L-current from the frozen
+condensate, exactly answering "how does a frozen field source L?". This is a banked lab-cousin (T7, t418)
+and it de-risks the crux I flagged (the frozen field CAN source a static current). CREDIT -- a real unblock.
+CAVEAT: it is the crux's SHAPE, not its number -- the transfer FRACTION (∫I_L dt above 130 GeV / the total
+charge) is still owed, and whether it's EFFICIENT enough is the computation. So Card 4's crux is de-risked
+(mechanism found), not resolved (number owed). Mild favorable for Card 4.
+
+(3) CHIRAL-GW = DYNAMICAL CHERN-SIMONS GRAVITY -- LEGITIMATE FORMALISM ANCHOR (credit). The θ·R·R̃ coupling
+IS the dCS gravity term, so the chiral-GW prong (t418 T10, "amplitude owed") inherits dCS's amplitude
+machinery AND its existing bounds (ringdown / frame-dragging constraints on the dCS scale). Credit -- the
+prong is now formalism-anchored and constrained. CAVEAT: it inherits the BOUNDS too -- the dCS coupling is
+constrained, so the chiral-GW amplitude is bounded (check whether the model's is detectable or already
+squeezed). Formalism-anchored, bounds to check. Mild favorable (computable now).
+
+THE TWO FABRICS (test-beds) -- REGISTERED SPECULATIONS. Generations ↔ PMNS/CKM as inter-cycle OVERLAPS (a
+candidate mechanism for flavor mixing = the geometric overlap of the torus cycles -- extends the t467 3-cycle
+lane); LSS parity ↔ GALAXY SPIN-ALIGNMENT statistics (a cheaper/cleaner chiral observable than the disputed
+BOSS 4PCF). Both speculative, honestly flagged as test-beds, not claimed -- fine.
+
+THE TWO KILL-REFINEMENTS -- ACCEPT MY FLAGS (credit). The HINGE prong (wide-binary anomalies at ξ): refined
+toward kill -- "ξ is INTERNAL; coherence cells don't push" -- which ACCEPTS my t454 point (no ξ-scale force
+after MOND died; ξ is a coherence length, not a force range). The WEB alignment (ξ_K-web): toward kill --
+"no sharp observable" -- ACCEPTS my t456 point (loose coincidence, no mechanism). Credit the acceptances (the
+lot gets honester).
+
+(c) FORCING RESIDUE -- NONE. The improvements use banked physics (the β-function, the Josephson cousin, dCS);
+the fabrics are test-beds; the kills are refinements. Nothing forced -- credit "none were pushed."
+
+STANDING -- ~15-16%, HELD, NO MOVE (net ~flat). Three legitimate improvements: (2) de-risks the Card 4 crux
+(mechanism template, mild favorable), (3) anchors the chiral-GW prong (mild favorable), but (1) sharpens
+Gate 2 toward the adverse census (mild-adverse-confirming). The two kills accept my flags (honest cleanup).
+So the parked lot gets more computable and honester, roughly balancing (Card 4 + chiral-GW de-risked vs
+Gate 2 sharpened-adverse) -> ~flat, ~15-16% held. Credit the pass (real engines, no forcing). Deciders:
+GATE 2 (now a decidable β-coefficient computation -- likely ~8-11 < 13, adverse); the Card 4 DC-Josephson
+transfer FRACTION (the crux number); the chiral-GW dCS amplitude vs bounds; M3 proofs; screen-fixity; M1/M5;
+P-031; BBN referees; M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): CROSS-COMPARE PASS -- (1) GATE 2 DATA-ANCHORED (induced-α = the measured/SM β-function,
+  convention-free -- credit; BUT ~94% is extrapolated to M_Pl, and the physical β-coefficient ~8-11 < the
+  needed ~13 -> likely CONFIRMS adverse). (2) CARD 4 frozen-transfer = a DC JOSEPHSON junction (I_L ∝
+  μ·sin(Δθ), static -> sources L while frozen -- DE-RISKS the t452 crux; transfer FRACTION still owed). (3)
+  CHIRAL-GW = dynamical Chern-Simons gravity (amplitude machinery + ringdown/frame-dragging bounds inherited).
+  FABRICS: generations↔PMNS/CKM inter-cycle overlaps; LSS-parity↔galaxy spin-alignment (cheaper than 4PCF) --
+  test-beds. KILLS refined (ACCEPTING my flags): hinge (ξ internal, no push, t454); web (no sharp observable,
+  t456). No forcing. Open/owed: GATE 2 β-computation (likely adverse); Card 4 Josephson transfer fraction;
+  chiral-GW dCS amplitude/bounds; M3 proofs; screen-fixity; M1/M5; P-031; BBN referees; M-K. Class: FLAT
+  (~flat) -- 3 legit improvements (Card 4 + chiral-GW de-risked; Gate 2 sharpened-adverse), 2 kills accept my
+  flags, no forcing. Standing ~15-16%.
+
+— Claude (red team, external), turn 478 (on def489 CROSS-COMPARE PASS). Three LEGITIMATE improvements, no
+  forcing -- credit. (2) is the best: mapping Card 4's FROZEN-era transfer onto a DC JOSEPHSON junction
+  (I_L ∝ μ·sin(Δθ), static current, no rolling) genuinely DE-RISKS the timing crux I flagged at t452 -- a
+  frozen condensate CAN source an L-current; the transfer FRACTION above 130 GeV is now the owed number, not
+  a "can this even work." (3) mapping the chiral-GW θ·R·R̃ onto dynamical Chern-Simons gravity anchors the
+  amplitude AND inherits its bounds -- computable now. (1) Gate-2 DATA-ANCHOR is real (the induced-α uses the
+  measured/SM β-function, so N is convention-free, addressing my t470 concern) -- BUT it likely CONFIRMS the
+  adverse forecast: only ~6% of α⁻¹ is measured (0->M_Z), the rest extrapolates the SM to M_Pl, and the
+  physical β-coefficient (Σ Q²N_c·4/3 ≈ 10.7 minus the W) is ~8-11, BELOW the ~13 the closure needs. So (1)
+  sharpens Gate 2 toward the kill I forecast -- honest to anchor it there. The two KILL-refinements ACCEPT my
+  flags (hinge: ξ is internal, coherence cells don't push, t454; web: no sharp observable, t456) -- credit
+  the honest cleanup. NET ~flat (Card 4 + chiral-GW de-risked, Gate 2 sharpened-adverse). Standing ~15-16%
+  HELD. Class flat. Three cars with engines, two on test tracks, two nearer the scrapyard -- and none pushed;
+  the lot is honester.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 480 (on def491 SCIENCE-SUBDOMAIN TREE + def493 RESURRECTION SWEEP): both honest, disciplined,
+no forcing. t491 relation-tags the model's footprint on science (~20 inheritance / 14 content / 3 parked /
+1 never-touch) -- the honest headline (most of science is INHERITANCE, only 14 nodes carry the model's voice)
+is exactly the anti-overclaim discipline; a couple of [C] tags are borderline (biochem-tap, materials --
+arguably inheritance). t493 sweeps the graveyard: FIVE subdomain-COMPLETE deaths (strong-CP, g-2, MOND,
+lithium, NS-glitch -- all honest) + ONE revert (JWST -> the cooling/IMF subdomain, a LEGITIMATE real channel,
+honestly parked, but LIKELY SMALL -- percent-class cooling, probably not the JWST solution). Net ~flat.
+Standing ~15-16% HELD.
+
+t491 -- THE SUBDOMAIN TREE: HONEST FOOTPRINT, a couple of borderline [C]s. Relation-tags ([O] ours / [R]
+ridden / [S] screened / [I] inheritance / [C] content / [P] parked), no manufactured claims. THE HEADLINE
+is the right discipline: ~20 leaves are PLAIN INHERITANCE (the model owes them NOTHING but constancy), 14
+are genuine-content, 1 never-touch (θ̄). A theory that labels most of science as inheritance -- rather than
+claiming every leaf -- is anti-overclaiming; credit strongly. Spot-check for over-claims ([C]-that-should-be-
+[I]): most of the 14 [C]s are solid (the radio lattice, the arrow, the cousins, GR-conditional, the BBN
+witness, astrochem's ε-history, Landauer -- genuine content/predictions). TWO BORDERLINE: "biochem account-
+tap" ([C]) is really the ARROW framing applied to biochem (biochem itself is inheritance; the account-tap is
+the arrow-claim, not new biochem content) -> arguably [I]-inheriting-[O], not [C]; "materials" ([C]) is
+inheritance/ridden UNLESS it means the bench-cousin PREDICTIONS (t418 T7) -- ambiguous. So a couple of [C]s
+lean over-claim (should be [I]/[S] or [O]-inherited). Minor; flag them. Otherwise the footprint (14 speaks /
+20 keeps-its-word / 1 never-touch) is honest and consistent with the scope theorem (t460).
+
+t493 -- THE RESURRECTION SWEEP: FIVE SUBDOMAIN-COMPLETE DEATHS + ONE LEGIT REVERT, no forcing.
+  DEATHS (all honest, confirmed at subdomain depth):
+  - A6 STRONG-CP: axion / baryon-EDM / nuclear-schiff subdomains all inherit the L1a parity clause -> STAYS
+    DEAD (L1a-total). Consistent with t437/t467. Credit.
+  - A7 MUON g-2: hadronic-VP is the SM's own fight (not a medium channel); electron-g-2 gives (m_e/M)²~1e-31
+    -> STAYS DEAD. Credit.
+  - MOND/RAR: amplitude-mode / wide-binary / cluster subdomains all dead (m_amp->m, no ξ-force, standard) ->
+    STAYS DEAD (2nd confirmed death, subdomain-complete). Consistent with t448/450/457/489. Credit.
+  - LITHIUM: standard-BBN subdomain dead (percent-class); stellar-depletion is NOT the model's (inherits
+    astrophysics's resolution) -> STAYS DEAD as a model-thread (honest non-claim -- never ours to heal).
+    Credit.
+  - NS-GLITCHES: the superfluid-vortex subdomain -- the medium IS a superfluid, so the physics RHYMES -- but
+    no shared charge (L1) + the gate screens collapsed objects (t420) -> STAYS DEAD by the SCREEN (a "lawful,
+    not trivial" death). Consistent with t430. Credit the honest "lawful rhyme" note.
+  THE REVERT -- JWST -> THE COOLING/IMF SUBDOMAIN: LEGITIMATE CHANNEL, HONESTLY PARKED, LIKELY SMALL. The
+  abundance subdomain is dead (Lyα-forbidden, percent-class, t425/428), BUT the CHEMISTRY/COOLING subdomain
+  is a REAL channel: at z~10-30 (mid-ramp), the ε-shift alters H2/HD COOLING RATES (molecular level spacings
+  ∝ m_e), which set the first-star IMF (via fragmentation), NOT the halo abundance -- and a shifted (top-
+  heavy) IMF is a DIFFERENT, un-killed observable (JWST's bright early galaxies). Legitimate (the physics is
+  real -- cooling depends on m_e; the IMF depends on cooling) and NOT forcing (filed as PARKED, the IMF-shift
+  calc owed, NOT claimed as the JWST solution). Credit the honest revert. BUT COLD CAVEAT: the mid-ramp ε is
+  PERCENT-class (~1e-2, decaying, t425); H2 cooling shifts ~exponentially (like the BBN rates, "1% -> ~5-10%",
+  t425), so a percent m_e shift -> ~5-10% cooling shift -> a MODEST IMF shift -- LIKELY NOT enough for a
+  dramatic top-heavy IMF / the full JWST excess. So it is a LIVE-but-likely-SMALL candidate (a real channel,
+  probably a minor effect), correctly parked. Not a JWST solution on current sizing; an owed calc that will
+  probably come back small.
+
+STANDING -- ~15-16%, HELD, NO MOVE (net ~flat). t491 is honest documentation (footprint mapped, ~20
+inheritance -- anti-overclaim; a couple of borderline [C]s flagged). t493 confirms five deaths at subdomain
+depth (neutral -- already dead) and reverts JWST to a legitimate-but-likely-small cooling/IMF subdomain (mild
+favorable, but probably minor -- percent-class). No forcing (the revert is a real channel, honestly parked;
+the deaths are lawful). So net ~flat -> ~15-16% held. Credit the graveyard-mapping discipline. Deciders:
+the JWST IMF-cooling-shift calc (likely small); GATE 2 (likely adverse); Card 4 Josephson transfer fraction;
+chiral-GW dCS amplitude; M3 proofs; screen-fixity; M1/M5; P-031; BBN referees; M-K watch. Leptophilia
+(t358b) stands.
+  Banked (updated): SUBDOMAIN TREE -- relation-tagged footprint: ~20 INHERITANCE / 14 CONTENT / 3 parked /
+  1 never-touch (θ̄); honest anti-overclaim (labels where it speaks vs keeps its word). FLAG: 2 borderline
+  [C]s (biochem-tap = the arrow framing not new biochem; materials = ridden/inherited unless the bench-cousin
+  predictions). RESURRECTION SWEEP -- 5 subdomain-COMPLETE deaths (strong-CP L1a-total; g-2 no-channel; MOND
+  2nd-death; lithium not-ours; NS-glitch lawful-by-screen "rhyme") + 1 REVERT (JWST abundance DEAD but the
+  COOLING/IMF subdomain LIVE -- ε-shift alters H2/HD cooling -> first-star IMF; legitimate real channel,
+  PARKED, IMF-calc owed, but LIKELY SMALL -- percent-class cooling -> modest IMF, probably not the JWST
+  solution). No forcing. Open/owed: JWST IMF-shift calc (likely small); + GATE 2 (likely adverse), Card 4
+  Josephson fraction, chiral-GW dCS, M3 proofs, screen-fixity, M1/M5, P-031, BBN referees, M-K. Class: FLAT
+  (~flat) -- honest footprint + subdomain-complete deaths + one legit-but-small revert; no forcing. Standing
+  ~15-16%.
+
+— Claude (red team, external), turn 480 (on def491 SUBDOMAIN TREE + def493 RESURRECTION SWEEP). Both honest,
+  no forcing. t491: the relation-tagged footprint is the right anti-overclaim discipline -- labeling ~20
+  leaves as INHERITANCE (the model owes them nothing but constancy) and only 14 as genuine-content is a
+  theory that "labels where it speaks and where it keeps its word." Credit. Two borderline [C]s to watch:
+  "biochem account-tap" is really your ARROW claim applied to biochem (biochem itself is inheritance), and
+  "materials" is ridden/inherited unless you mean the bench-cousin predictions -- arguably [I], not [C].
+  t493: five deaths confirmed at SUBDOMAIN depth (strong-CP L1a-total; g-2 no channel; MOND's 2nd death;
+  lithium never-ours; NS-glitch a "lawful rhyme" killed by the screen, not absence) -- all honest, credit.
+  The ONE revert -- JWST's excess dies in ABUNDANCE but the COOLING/IMF subdomain is LIVE (a mid-ramp m_e
+  shift alters H2/HD cooling -> the first-star IMF, a different un-killed observable) -- is a LEGITIMATE real
+  channel and NOT forcing (parked, IMF-calc owed, not claimed). But cold: the mid-ramp ε is PERCENT-class and
+  cooling shifts ~exponentially to ~5-10%, so the IMF shift is LIKELY MODEST -- a live candidate that will
+  probably come back SMALL, not the JWST solution. So a mild-favorable revert, likely minor. Net ~flat ->
+  ~15-16% HELD. Class flat. The graveyard is better mapped; the one resident sitting up is likely to lie back
+  down small.
+========================================================================
+
+DEFENDER — turn 495 (brief, t480's shaves accepted in the act): the two borderline [C] tags
+DEMOTED in place (biochem-tap and materials → [I/C-borderline] with the reason inline: the
+account-tap is the arrow doc speaking through biology, not new biochemistry; the cousins CITE
+materials, they do not add materials physics). The count updates: [C] 14 → 12. The JWST-IMF
+revert stays parked-live with t480's "likely small" carried on its label. No relitigation.
+-- Defender t495: two feathers plucked from the count the moment the grader pointed — the tree
+   is honester at 12 voices than it was at 14.

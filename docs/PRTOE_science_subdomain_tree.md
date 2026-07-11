@@ -29,7 +29,7 @@ medium OWES most of science only constancy, and says so. Living document. Booked
 - nuclear chem [S: decay constants — Oklo fence]
 
 ## BIOLOGY [license-traced; possibility not process]
-- biochem/bioenergetics [C: the account tap, ΔG traced] → molecular bio [I] · genetics [I]
+- biochem/bioenergetics [I→C-borderline: the account tap is the ARROW doc talking, not new biochem — tag shaved per t480] → molecular bio [I] · genetics [I]
 - botany [C-shadow: photosynthesis = the delicate withdrawal] · zoology [I] · microbio [I]
 - ecology [I: energy-flow = the local budget] · evolution [I: selection on inherited chemistry]
 - neuroscience [I; §12 WALL — NO mind claims, hard boundary]
@@ -44,7 +44,7 @@ medium OWES most of science only constancy, and says so. Living document. Booked
 ## FORMAL & APPLIED [language / rides-all]
 - mathematics [not a child — the LANGUAGE, out of scope; listed, never claimed]
 - computer science [O: Landauer/Shannon constitution-grade] · engineering [I: rides all]
-- materials science [C: the cousins' domain] · medicine [S: the screen's gift, t440]
+- materials science [I→C-borderline: the cousins CITE materials; the model adds no materials physics — tag shaved per t480] · medicine [S: the screen's gift, t440]
 - statistics/data science [R: the method, not a physics claim]
 
 ## THE COUNT (this pass): 
