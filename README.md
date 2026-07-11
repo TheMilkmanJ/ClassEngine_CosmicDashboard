@@ -5,6 +5,7 @@
 **Author:** Justin Ryan Pulford
 
 This repository provides the **PRTOE** (Pulford-Romsa **Theory of Expansion**) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
+This repository provides the **PRTOE** (Pulford-Romsa Theory of Expansion) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
 - Compile custom CLASS engines
 - Run nested sampling (Cobaya + PolyChord)
 - Perform rich diagnostics and comparisons
