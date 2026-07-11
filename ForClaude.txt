@@ -34039,3 +34039,202 @@ the debt sheet inherits the model's own topology (few roots) — is that a coher
 just how audits look? -- Defender t453: the operator bet the bills would consolidate, and the
 ledger agrees: forty debts, eight computes, four questions — and two of the four are already
 in the machines. The model owes less than it looks like; it owes DEEPER than it looks like.
+
+========================================================================
+RED-TEAM — turn 444 (on def449 THE WINDOWED BBN VERDICT -- a pre-registered ADVERSE landing): the result is
+genuinely adverse and I move the number DOWN a notch, to ~15% (the lower end of the held band) -- honestly,
+as invited. THE Y_P "MEDICINE" REVERSES (verified): it was an artifact of applying ε ABOVE T_c where the
+dyad does not exist; windowed correctly, Y_p goes +1.1% -> a +1.3-1.5σ COUNTER-LEAN, WORSE than ΛCDM's
++0.5σ. The BBN "zero counter-leans" status (def329) is REVOKED. D/H improves (2.3σ->1.9σ, accepted). This is
+mild (~1.3σ, not a kill), partially offset (D/H), and already partly PRICED (I flagged BBN provisional at
+t428) -- so a NUDGE, not a big downtick. And it is delivered with EXEMPLARY discipline (pre-registered
+adverse at t439 + self-computed + a P1.e self-caught bracketing error + booked straight) -- strong credit on
+the process even as the physics goes against the model. Standing 15-18% -> ~15% (lower band-end).
+
+THE Y_P REVERSAL -- VERIFIED, ADVERSE. The prints: std Y_p=0.24689; "full" (constant ε)=0.24468 (−0.9%, the
+old "medicine"); LT (windowed)=0.2497 (+1.1%). The −0.9% medicine was earned at n/p FREEZE-OUT (~0.8 MeV),
+which is ABOVE T_c=0.193 MeV -- where the order-parameter dyad is NOT yet condensed (ε≈0). So the medicine
+was spurious (ε applied where it does not exist). Windowed correctly, the shift REVERSES: Y_p≈0.2497-0.2505
+vs Aver 0.2453±0.0034 -> +1.3 to +1.5σ (I verify: (0.2497−0.2453)/0.0034=1.3σ), vs standard BBN's ~+0.5σ.
+So the model now makes Y_p WORSE than ΛCDM -- a COUNTER-LEAN, and the def329 "zero counter-leans" claim is
+REVOKED. Confirmed adverse.
+
+THE SELF-CAUGHT BRACKETING ERROR -- P1.e, CORRECT, CREDIT. def439 called [LT, MTLT] the ramp bracket; the
+defender now catches that the MT zone (1->0.1 MeV) STRADDLES T_c AND contains n/p freeze-out (~0.8 MeV, dyad
+OFF), so MTLT SHIFTS the freeze-out epoch -> a GROSS OVER-COUNT (Y_p +4.7%), NOT a bracket edge. Correct --
+MTLT is not a valid upper edge (it applies ε above T_c). The honest estimate is LT-CLASS with two partially-
+cancelling corrections (LT over-weights 100->50 keV ~×2; misses 193->100 keV) -> Y_p(ramped)≈+0.5-1.5%,
+D/H≈+0.5-1.5%. Reasonable, and the "MTLT D/H=2.527=Cooke to 4 digits" correctly flagged as an over-count
+COINCIDENCE, not read. Good self-catch in the verdict booking.
+
+D/H -- IMPROVEMENT, ACCEPTED (with a mild verification caveat). The windowed +~1% partially offsets the
+η-widening -> the owned D/H bet narrows ~2.3σ->~1.9σ. I accept this as stated (the D/H likelihood depends on
+the model's ω_b, which I don't have in front of me to fully re-derive the σ), noting the direction (a partial
+offset toward the data) is plausible. So D/H is a mild positive, partially cushioning the Y_p reversal.
+
+(4) RESIDUAL SYSTEMATIC flagged honestly: the thermo m_e(T) below T_c (e± annihilation tail) left standard in
+the splice -- the full-ramp thermo correction is the remaining wobble (expected sub-dominant since the RATE
+epochs dominate the elasticities). Fair caveat; the sign of the main result (Y_p up) is robust.
+
+STANDING -- 15-18% -> ~15% (LOWER BAND-END, an honest nudge down). The BBN column re-poses ADVERSE: H0(+),
+Y_p (now a +1.3σ COUNTER-lean, new), D/H (owned bet narrowed to ~1.9σ), ν(+), quark-bleed(~1σ, unchanged).
+A previously-claimed strength (the Y_p medicine / "zero counter-leans") is REVOKED and becomes a mild counter-
+lean. That is genuine adverse movement and I book it -- DOWN a notch. BUT the size is honest too: it is
+~1.3σ (a mild tension, NOT a kill), partially OFFSET by the D/H improvement, and I had ALREADY discounted the
+BBN consistency (flagged the whole sub-lattice PROVISIONAL at t428 pending exactly this run) -- so much of
+the adverse move was pre-priced; the realized landing confirms it resolved against the model on Y_p. Hence a
+NUDGE to ~15%, not a discrete drop. AND the DISCIPLINE is exemplary and deserves explicit credit: the
+defender pre-registered this as likely-adverse (t439), computed it in public, self-caught its own bracketing
+error in the same booking, and revoked its own prior claim straight -- this is exactly how a model should
+meet an adverse result, and it is WHY the standing moves only a notch (an honestly-reported mild counter-lean
+is far less damaging than a hidden one). The propagation is correctly queued (P-027(a) re-number, the
+fingerprint lattice, T13, the spine §17, lithium's row). Deciders: the BBN column now carries a Y_p counter-
+lean (watch); + the root set (Lorentz/no-bare-G, L1a/M-K, par-normalization c+√3, Card-4 n-sign, screen-
+fixity), per-thread pricing, running chains. Leptophilia (t358b) stands -- its quark-bleed row unchanged (~1σ).
+  Banked (updated): WINDOWED BBN VERDICT = pre-registered ADVERSE landing (honestly taken). Y_P MEDICINE
+  REVERSES -- the −0.9%/−0.2σ was an ARTIFACT of ε applied above T_c (n/p freeze-out ~0.8 MeV > T_c=0.193
+  MeV, dyad OFF); windowed Y_p ≈ 0.2497-0.2505 -> +1.3-1.5σ COUNTER-lean (worse than ΛCDM +0.5σ); the "zero
+  counter-leans" status (def329) REVOKED. D/H IMPROVES (~2.3σ->~1.9σ, accepted). P1.e SELF-CATCH: MTLT
+  straddles T_c/contains freeze-out -> gross over-count, NOT a bracket edge (LT-class is the honest estimate,
+  +0.5-1.5%). Residual: sub-T_c thermo m_e(T) left standard (sub-dominant wobble). STANDING NUDGED 15-18% ->
+  ~15% (lower band-end) -- genuine adverse move (a claimed strength -> a mild counter-lean), but mild (~1.3σ),
+  D/H-offset, and PRE-PRICED (BBN flagged provisional t428); exemplary discipline (pre-registered + self-
+  computed + self-caught + booked straight). Open/owed: propagation (P-027(a), lattice doc, T13, §17,
+  lithium); + root set + chains. Class: ADVERSE-MILD (down a notch) -- Y_p counter-lean confirmed, "zero
+  counter-leans" revoked; honestly reported. Standing ~15% (lower band-end).
+
+— Claude (red team, external), turn 444 (on def449 WINDOWED BBN VERDICT). This is a genuinely ADVERSE
+  landing and I move the number DOWN a notch, to ~15% -- honestly, as you invited. VERIFIED: the Y_p
+  "medicine" (−0.9%, −0.2σ) was an ARTIFACT -- it was earned at n/p freeze-out (~0.8 MeV), ABOVE T_c=0.193
+  MeV where the dyad is OFF. Windowed correctly, Y_p goes +1.1% -> +1.3-1.5σ (I check: (0.2497−0.2453)/0.0034
+  =1.3σ), a COUNTER-LEAN WORSE than ΛCDM's +0.5σ; your def329 "zero counter-leans" status is REVOKED. Your
+  P1.e SELF-CATCH is correct -- MTLT straddles T_c and shifts the freeze-out epoch, so it's a gross over-count,
+  not a bracket edge; LT-class (+0.5-1.5%) is the honest estimate (and MTLT's D/H=2.527=Cooke is an over-count
+  coincidence, rightly not read). D/H improving (~2.3σ->1.9σ) partially cushions it (accepted). WHY only a
+  NOTCH, not a plunge: it is ~1.3σ (mild, not a kill), D/H-offset, and I had ALREADY flagged the whole BBN
+  sub-lattice PROVISIONAL at t428 pending this exact run -- so most of the adverse move was pre-priced, and
+  the landing confirms it went against you on Y_p. And the DISCIPLINE is exemplary -- pre-registered adverse
+  (t439), self-computed in public, self-caught bracketing error in the same booking, prior claim revoked
+  straight. An honestly-reported mild counter-lean costs far less than a hidden one; that is why the move is
+  a notch. Standing 15-18% -> ~15% (lower band-end). Class ADVERSE-MILD. The medicine was prescribed above
+  the condensation line -- and you handed it back in public. Credit the honesty; the physics still went against
+  you.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 446 (on def451 PROTOCOL CODIFICATION + def453 THE DEBT SHEET FACTORS): both process/
+organizing, no new result -> standing HOLDS at ~15% (t449's adverse BBN nudge stands; nothing here moves it
+further). t451 codifies the protocol (my step-vs-ramp rule is now the [PRE] step -- credit the discipline).
+t453 factors ~40 debts -> 8 computes -> 4 clusters: the consolidation is USEFUL and aligns with the leverage
+map (2 clusters already running, 1 half-done), but with TWO flags -- (a) completeness: screen-fixity and the
+per-thread DETECTABILITY pricing look UNDER-counted; (b) two of the four cluster ties (M1↔M8, M3↔M4) are
+plausible CLUSTERS but possibly OVER-unified ("one question" when they read as two related). Standing ~15%.
+
+t451 -- PROTOCOL CODIFICATION: CREDIT, NO MOVE. The full protocol -- [PRE] ramp-or-step; [THREAD] improves-
+bar/no-forcing; [KILL] autopsy + why-pass + inheritance-routing; [SUCCESS] owed-invoice -- formalizes the
+discipline in use, and it correctly installs the STEP-vs-RAMP rule as the standing [PRE] gate (the rule that
+scored twice tonight -- f̄ bias, JWST structure -- now runs before every compute). Good discipline
+codification; no adjudication requested, none needed. No move.
+
+t453 -- THE DEBT FACTORIZATION: USEFUL, ALIGNS WITH THE LEVERAGE MAP, TWO FLAGS.
+  (a) COMPLETENESS -- the 8 capture the MAJOR derivation debts (M1 zon/α_c = the par node; M2 Card-4 n-sign;
+      M3 Lorentz program; M4 λ_phys/m_amp; M5 chains; M6 ε(epoch); M7 cavity/axis C_ℓ; M8 ω_genome+v_L) --
+      good coverage of my root list. BUT two items look UNDER-counted: (i) SCREEN-FIXITY (t424 -- is C_ref/
+      Vainshtein DERIVED, not tuned? -- the whole thin-screen prediction map rests on it) is not obviously
+      one of the eight; (ii) the per-thread DETECTABILITY PRICING (P-030 μ-lines, superradiance windows, RM
+      statistics, chiral-GW amplitude, LSS-parity amplitude) is not clearly in the eight -- M7 is the
+      cavity/axis C_ℓ (low-ℓ/comb), but the others read as a separate DOWNSTREAM pricing tier. So either fold
+      screen-fixity + the pricing passes in, or state them as a distinct tier below the eight. Flag: the "8"
+      may be the DERIVATION computes, with pricing a separate layer.
+  (b) THE CLUSTER TIES -- TWO SOUND, TWO LOOSE. M2↔M7 "one integer n" is SOUND (Card-4's n-sign and reading n
+      off the sky are literally the same winding integer). M5↔M6 "one lattice re-stamp" is SOUND (chains +
+      ε(epoch) = run the data pipeline with correct physics). BUT M1↔M8 "one par-question" (zon/α_c ↔ ω_genome
+      +v_L) and M3↔M4 "one microphysics" (Lorentz ↔ λ_phys/m_amp) are plausible CLUSTERS (size/scale;
+      deep-UV/frame) but possibly OVER-unified: c/√3 share a par (t438, granted), but v_L/ω_genome being the
+      SAME number is a stronger, un-justified claim (they may be distinct scales both pinned by the abundance/
+      par logic); likewise the quartic λ_phys and the emergent-frame/no-bare-G are related deep-structure but
+      distinct questions. So "FOUR questions" is really "four clusters -- two tight (n, data), two loose
+      (par-family, UV-family)"; the loose two may each be two questions. Mild over-consolidation.
+  (c) THE META-NOTE (few-root debt sheet -- coherence signal or audit-generic?): MOSTLY the latter, with a
+      real kernel. Any hierarchical audit consolidates (that is what organizing does), so consolidation alone
+      is not diagnostic. BUT a model genuinely built on few root laws WILL have debts that roll up to those
+      roots -- so the 4-cluster shape does partly REFLECT the model's few-root topology (t447), a mild
+      coherence signal. Honest answer to your question: partly how audits look, with a genuine kernel of the
+      model's own topology. Fair either way.
+  THE USEFUL POINT (credit): the owed program is FINITE and CONCENTRATED (~4 clusters), with 2 already RUNNING
+  (M1 zon/α_c, M5 chains) and 1 HALF-DONE (M6 ε(epoch), def449) -- so most of the model's fate is computable
+  and in progress, and it maps onto the leverage roots. "Owes less than it looks, deeper than it looks" is a
+  fair characterization -- the debts are few but they sit at the roots (where a failure cascades, t447/442).
+
+STANDING -- ~15% (HELD, no further move). Process + organizing turns after the t449 adverse nudge -- nothing
+new derives or fails, so the number stays at ~15% (the lower band-end that the windowed-BBN counter-lean set).
+The debt factorization is a useful, leverage-aligned consolidation (credit) with a completeness flag (screen-
+fixity + pricing possibly under-counted) and a mild over-consolidation flag (M1↔M8, M3↔M4 loose). The
+protocol codification correctly installs the step-vs-ramp rule as [PRE]. Deciders (now consolidated to ~4
+clusters + the flagged extras): [par] M1↔M8 zon/α_c (c+√3) + v_L/ω_genome; [topology] M2↔M7 Card-4 n-sign +
+cavity/axis; [frame/UV] M3↔M4 Lorentz/no-bare-G + λ_phys/m_amp; [data] M5↔M6 chains + ε(epoch); + screen-
+fixity + per-thread pricing (the possibly-uncounted tier); + the M-K/L1a birefringence WATCH (external data,
+not a model compute). Leptophilia (t358b) stands (BBN row now the windowed re-stamp).
+  Banked (updated): PROTOCOL CODIFIED ([PRE] step-vs-ramp / [THREAD] improves-bar-no-forcing / [KILL] autopsy
+  +why-pass+inheritance / [SUCCESS] owed-invoice) -- my rule installed as [PRE]. DEBT FACTORS: ~40 -> 8
+  computes -> 4 clusters (M1↔M8 par, M2↔M7 integer-n, M3↔M4 microphysics, M5↔M6 lattice); 2 RUNNING (M1,M5),
+  1 HALF-DONE (M6). FLAGS: completeness -- screen-fixity (t424) + per-thread detectability pricing (P-030,
+  superradiance, RM, chiral-GW) possibly UNDER-counted (a separate pricing tier?); ties -- M2↔M7 + M5↔M6
+  SOUND, M1↔M8 + M3↔M4 LOOSE (possibly two questions each). Meta-note: consolidation is mostly audit-generic
+  with a real few-root kernel. Open/owed (4 clusters + extras): par (M1↔M8), topology (M2↔M7), frame/UV
+  (M3↔M4), data (M5↔M6), + screen-fixity + pricing tier + the M-K watch. Class: FLAT (no move) -- useful
+  leverage-aligned consolidation; completeness + over-consolidation flags; step-vs-ramp installed as [PRE].
+  Standing ~15% (held at t449's lower band-end).
+
+— Claude (red team, external), turn 446 (on def451 PROTOCOL + def453 DEBT FACTORS). Both process/organizing;
+  standing HOLDS at ~15% (t449's adverse BBN nudge stands, nothing here moves it). t451: good codification --
+  and credit for installing the step-vs-ramp rule as the standing [PRE] gate (it earned it, twice). t453: the
+  ~40->8->4 factorization is USEFUL and maps onto the leverage roots (2 clusters RUNNING, 1 half-done -- most
+  of your fate is computable and in progress). TWO flags: (a) COMPLETENESS -- SCREEN-FIXITY (t424, the whole
+  thin-screen map rests on it) and the per-thread DETECTABILITY pricing (P-030, superradiance windows, RM
+  stats, chiral-GW amplitude) look UNDER-counted; are they in the eight, or a separate downstream pricing
+  tier? (b) TWO of the four ties are LOOSE: M2↔M7 (one integer n) and M5↔M6 (one lattice re-stamp) are SOUND,
+  but M1↔M8 (v_L/ω_genome = the SAME par as c/√3?) and M3↔M4 (λ_phys = the SAME question as the Lorentz frame?)
+  are plausible CLUSTERS that may each be TWO related questions -- so "four questions" is really "two tight +
+  two loose clusters." (c) The few-root debt-shape is MOSTLY how audits look, with a genuine kernel of your
+  own topology (t447). NET: "owes less than it looks, deeper than it looks" is fair -- few debts, but at the
+  roots where failure cascades. No move. Standing ~15%. Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 455: THE MASTER-COMPUTE SPRINT (operator-directed: run every py-quick master NOW) — M2 LANDS ADVERSE-INFORMATIVE (Benchmark A underproduces ×250-1200; the viable corner named), M7 LANDS FAVORABLE (the quadrupole sits BELOW the first torus mode; matched-circles consistent), M4's candidate chain FAILS ITS OWN SELF-CHECK (reported as a learning), M6 re-stamped
+========================================================================
+M2 — THE BOLTZMANN SOLVE (Card 4's terminal calc, Boltzmann-lite, both washout brackets):
+    worst (K_W = K = 9e7):              η_B ~ 5×10⁻¹³
+    LNV-suppressed (K_W = K(μ/Γ)²):     η_B ~ 2.5×10⁻¹²    [target 6.1×10⁻¹⁰]
+  BENCHMARK A UNDERPRODUCES BY ~250-1200×: the extreme washout (K = 9e7) crushes the
+  asymmetry — the ×7000-overproduction era is formally closed and REVERSED. THE VIABLE CORNER,
+  named: κ ∝ 1/K ∝ 1/m_D² (at fixed m_ν) → m_D ~ 0.1-0.3 GeV restores η ~ 6×10⁻¹⁰-class —
+  the m_ν-pinned ribbon shifts to LIGHTER Dirac masses (where μ/Γ runs 2-17: off-resonance,
+  trading ε_CP down as κ rises — the 1D ribbon scan is the follow-up). CAVEATS: Boltzmann-lite
+  (thermal initial N, unflavored, non-resonant kernel) — ±order-class; the sign gate unchanged.
+  CARD 4's STATUS: from "crisis↔unknown" to "a 1D viability ribbon in m_D, bracketed."
+M7 — THE TOY CAVITY (T5's decisive risk resolved): with L = 27.6 Gpc and χ_rec = 14 Gpc, the
+  first torus mode sits at ℓ ≈ 3.2: THE QUADRUPOLE (k_ℓ/k₁ = 0.63) AND OCTOPOLE (0.94) SIT
+  BELOW THE BOX — low-ℓ suppression is quantitatively PLAUSIBLE (marginal, the right shape),
+  AND the matched-circles nulls (L ≳ 26 Gpc) are CONSISTENT with Card 5's bound — T5's
+  possible-existing-data-conflict RESOLVES FAVORABLE. The full C_ℓ stays owed; the toy puts
+  the mechanism in range.
+M4 — THE λ CANDIDATE CHAIN, failed honestly: identifying def337's c_s relation as g·n = α_c·m
+  at ρ_inf gives λ ~ 4α_c m⁴/ρ_inf ~ 10⁻⁶⁹ — whose OWN self-check (the bounce floor
+  ρ_b ~ m⁴/λ ~ 10·ρ_inf) is ABSURD → the identification misreads the binding-sector context;
+  λ STAYS OPEN with a computed wrong-answer on file. Under all surviving readings the
+  amplitude-mode range in halos is sub-AU-to-59-AU ≪ kpc → MOND/RAR RE-DIES (leaning; the
+  m_amp question now bundled into M4 proper).
+M6 — THE RE-STAMP (formalizing def449): lattice rows now read Y_p ≈ +1.3σ COUNTER; D/H (dyad,
+  windowed+η) ≈ 2.39-2.42 → the owned bet ≈ 1.9σ; P-027(a) re-numbered accordingly.
+STATUS OF THE EIGHT: M1 running (zon), M2 bracketed (ribbon scan owed), M3 theory-open (the
+Achilles program), M4 open-with-learning, M5 running (chains), M6 done, M7 toy-done (full C_ℓ
+owed), M8 open lanes. THE OPERATOR'S BET UPDATE: three masters moved in ONE sprint; the
+due-diligence sheet is visibly collapsing. ADJUDICATE: (a) M2's underproduction + the m_D
+ribbon; (b) M7's favorable resolution; (c) M4's failed-self-check honesty; (d) the re-stamp.
+-- Defender t455: the sprint the operator ordered: the baryon crisis became a ribbon, the
+   quadrupole found the box's edge exactly where the sky dims, and one wrong λ taught us more
+   than no λ. Three masters down or moved in an afternoon — the debts are consolidating
+   exactly as he bet.
