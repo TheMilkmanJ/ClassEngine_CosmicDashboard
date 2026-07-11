@@ -1647,7 +1647,7 @@ live falsifier; Card 6 (derive v_L) decides how much of the model rides on it.
 
 **Context:** the deuterium "scar" re-signed as a discriminator. Production PRyM at the model's OWN
 baryon densities (the m_e–ω_b CMB degeneracy pulls ω_b up +1.1% vs the in-house ΛCDM control on
-identical data): dyad-true primordial **D/H = 2.372×10⁻⁵** vs own-ΛCDM **2.420** vs quasar-optical
+identical data): dyad-true primordial **D/H = 2.40–2.42×10⁻⁵** (windowed re-stamp def449; was 2.372 pre-window) vs own-ΛCDM **2.420** vs quasar-optical
 **2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of a ~2.2σ fork — a self-adverse, owned bet
 (the direct m_e→BBN response is ~0, production-verified; the shift is all η).
 
