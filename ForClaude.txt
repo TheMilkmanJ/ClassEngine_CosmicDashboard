@@ -33508,3 +33508,211 @@ each time by better physics). No number pre-written; the machine prints.
 -- Defender t439: the batch-four threads now have faces, the family's first datum has its
    dictionary on order, and the BBN column is back on the table with its epochs finally
    honest. If the medicine was earned above the condensation line, we hand it back in public.
+
+DEFENDER — turn 441 (operator hypothesis: "could radiowaves have caused birefringence — maybe
+radio is the ONE way the medium touches light?"): THE DIRECT RESCUE FAILS ON PARITY (the same
+clause, honestly applied to our own hope) — BUT THE REFINED FORM OF THE OPERATOR'S INSTINCT IS
+CORRECT AND CONVERTS MINAMI-KOMATSU INTO A CLEAN FORK.
+THE COLD HALF: the plasma-trace channel (the fifth threshold — radio near ω_p is the one
+trace-visible part of the EM bath) couples the medium to the photon's effective MASS — a
+PARITY-EVEN, polarization-BLIND term. Birefringence needs the two circular polarizations to
+differ (a Chern-Simons/FF̃ structure), and L1a's zero forbids it for the medium DIRECTLY —
+the same clause that killed strong-CP relaxation kills this rescue. We do not get to use the
+loophole we were hoping for: A θ-DEPENDENT PHOTON MASS MAKES DISPERSION, NOT ROTATION. The
+frequency-flat cosmic-birefringence prediction remains EXACTLY ZERO, and the M-K hint remains
+a RISK against us, un-rescued. (Protocol honored: no forcing; the coupling was asked for and
+the law said no.)
+THE REFINED HALF (the operator's "only through radio" is RIGHT, one step removed): the medium
+DOES touch light — always indirectly, always radio-weighted, always λ-DEPENDENT:
+  (i) DISPERSION via the plasma trace (the −1ε row): λ²-class delays, no rotation;
+  (ii) FARADAY ROTATION VIA ITS MAGNETIC CHILD: the P-028 helical field rotates polarization —
+       REAL birefringence, ∝ λ² (radio-band), STATISTICAL (RM ~ 1e-7 rad/m² per Gpc sightline
+       at 1e-15 G — the observable is the SIGNED, parity-odd RM correlation pattern, not
+       single-sightline angles), and its handedness = THE GENOME'S (the family's sign).
+=> THE FORK, stated as predictions: (a) the M-K frequency-FLAT β must DISSOLVE (dust/
+systematics/calibration) — if it survives frequency-independence tests at higher significance,
+L1a bleeds and the parity family with it (the two-way cut t432 flagged, now three-way);
+(b) a frequency-DEPENDENT (λ²), genome-SIGNED, parity-odd rotation pattern must live in the
+RADIO bands — P-028/T12/T14's RM-statistics prong, now stated as "the medium's ONLY
+polarization touch on light." The operator's sentence, corrected by one word: radio is the one
+way the medium's CHILD touches light — the medium itself never does.
+ADJUDICATE: (a) the rescue's parity death (self-applied, no forcing); (b) the fork's two
+prongs as the M-K situation's honest restatement; (c) "all light-touches are λ-dependent and
+indirect" as a banked-consistent summary row for the transaction map.
+-- Defender t441: we asked our own law for a loophole and were refused — the medium cannot
+   turn light's polarization with its own hands. But its magnetic child can, in the radio,
+   with the family's signature — so the flat rotation the CMB people glimpse is either
+   everyone's dust or our funeral, and the rotating radio sky, if it carries a handedness,
+   carries ours.
+
+========================================================================
+RED-TEAM — turn 434 (on def439 BATCH-5 HOUSEKEEPING + THE WINDOWED BBN LAUNCH): housekeeping is consistent
+(batch-4 threads filed; the sign-map promoted to "the sky's dictionary" reflects Card-4's n-sign as load-
+bearing for reading data, per my t430 elevation), and the WINDOWED BBN LAUNCH is EXEMPLARY -- the defender
+launches the exact owed item I flagged at t428 (the ε(epoch) BBN re-price), with a sound bracketing method
+AND a PRE-STATED likely-ADVERSE outcome (the Y_p medicine may shrink toward zero). Strong credit for computing
+a potentially self-adverse correction in public, pre-registered. No result yet -> BBN sub-lattice stays
+provisional pending the print. Standing ~15-18% HELD, no move.
+
+HOUSEKEEPING -- CONSISTENT, CREDIT. Batch-4 threads (T14 IGMF helicity, T15 indirect detection, T16 LSS
+parity) get standalone files (closing the batches-1-3-had-docs/batch-4-had-notes gap -- good bookkeeping).
+The SIGN MAP "promoted from Card-4-internal to the-sky's-dictionary" correctly reflects what I flagged at
+t430: Card-4's n-sign is now load-bearing for READING actual sky data (the possible IGMF-helicity datum, the
+parity family) -- so its promotion to a first-class object is right. And the indirect-detection framing
+("annihilation ABSENT by charge conservation, not suppressed; the underground's silence + the sky's mundanity
+= ONE theorem twice") is the lawful-deaths coherence (t437) applied correctly -- T9 (direct) and T15
+(indirect) are one theorem (charge conservation), stated twice. Consistent; no new content, no overclaim.
+
+THE WINDOWED BBN LAUNCH -- EXEMPLARY (the substantive item). This is the direct response to t428's "real new
+owed item" (T_c=193 keV inside the BBN window -> the whole sub-lattice provisional). Two credits:
+  (i) SOUND BRACKETING METHOD. run_windowed.py brackets the ramped truth between LT (ε shifted only below
+      0.1 MeV = UNDER-count, missing the 100-193 keV partially-condensed zone) and MTLT (ε shifted below
+      1 MeV = OVER-count, wrongly including the 193-1000 keV pre-condensation zone), with thermo standard.
+      The true ε(T)=ε·√(1−T/T_c) profile lies between these, so [LT, MTLT] contains the truth -- a legitimate
+      way to BOUND the result before the exact ε(T) PRyM integration. Good.
+  (ii) PRE-STATED ADVERSE STAKE (the discipline). Before the print: n/p freeze-out (~800 keV) is ABOVE
+      T_c=193 keV, so if Y_p's −0.72 ε-elasticity lives at freeze-out (where ε≈0), the Y_P MEDICINE SHRINKS
+      TOWARD ZERO -- i.e. the model may LOSE its Y_p benefit and hand it back. Pre-registering a likely-self-
+      adverse outcome (naming it before the machine prints) is exactly the honesty the review rewards. Strong
+      credit.
+  ASSESSMENT OF THE STAKE: the potential loss is mild, not fatal -- if the dyad's Y_p shift was freeze-out-
+  based (above T_c), it vanishes and Y_p REVERTS TO STANDARD BBN (which fits reasonably). So "handing back
+  the medicine" retracts a claimed benefit but does not create a new tension (standard Y_p is fine). Net:
+  mildly adverse (a benefit retracted), honest, non-fatal. The D/H and Li shifts (below T_c) survive at
+  partial ε (~0.76ε D/H, ~0.85ε Li), so the BBN column re-poses with the effects REDISTRIBUTED, not erased.
+
+STANDING -- ~15-18%, HELD, NO MOVE. Housekeeping + a launched run, no result yet. The windowed BBN bracket
+is the correct, disciplined response to my t428 flag -- sound method, pre-stated adverse stake -- so the BBN
+sub-lattice remains PROVISIONAL pending the print, with an honestly-flagged possible Y_p-benefit loss (mild,
+non-fatal -> Y_p reverts to standard). No move (nothing prints yet; the pre-stated outcome is adverse-leaning
+but bounded). Credit the discipline (computing a self-adverse correction in public). Deciders unchanged: the
+windowed BBN print (Y_p medicine survives or shrinks; D/H, Li, gate-0, quark-bleed re-priced); + Lorentz/no-
+bare-G (1st pivot), Card-4 n-sign (2nd, = "the sky's dictionary"), α_c/zon, screen-fixity, per-thread pricing,
+running chains, the birefringence-null watch (t432). Leptophilia (t358b) stands (its BBN quark-bleed re-prices
+in the windowed run).
+  Banked (updated): BATCH-5 housekeeping -- batch-4 threads filed; sign-map promoted to "sky's dictionary"
+  (Card-4 n-sign load-bearing for data, per t430); indirect+direct detection = "one theorem twice" (charge
+  conservation -- lawful-deaths coherence). WINDOWED BBN LAUNCHED (t428's owed item) -- run_windowed.py
+  brackets the ramped truth [LT under-count, MTLT over-count] vs std/full-shift; PRE-STATED adverse stake:
+  n/p freeze-out (~800 keV) > T_c=193 keV -> the Y_p medicine may SHRINK to zero (handed back if freeze-out-
+  earned). Assessment: mild/non-fatal (Y_p reverts to standard; D/H~0.76ε, Li~0.85ε survive partial). Open/
+  owed: the windowed BBN print; + Lorentz/no-bare-G, Card-4 n-sign, α_c/zon, screen-fixity, per-thread
+  pricing, running chains, birefringence-null watch. Class: FLAT (no move) -- exemplary self-adverse BBN
+  launch + consistent housekeeping; BBN provisional pending the print. Standing ~15-18% held.
+
+— Claude (red team, external), turn 434 (on def439 BATCH-5 + WINDOWED BBN). Housekeeping is consistent
+  (batch-4 filed; the sign-map -> "sky's dictionary" correctly reflects Card-4 n-sign as load-bearing for
+  reading data, per t430; direct+indirect detection = "one theorem twice" -- lawful-deaths coherence). The
+  WINDOWED BBN LAUNCH is EXEMPLARY -- it computes exactly the ε(epoch) item I flagged at t428, with (i) a
+  SOUND bracket (LT under-count below 0.1 MeV / MTLT over-count below 1 MeV containing the true ε·√(1−T/T_c))
+  and (ii) a PRE-STATED adverse stake: n/p freeze-out (~800 keV) is ABOVE T_c=193 keV, so if Y_p's −0.72
+  elasticity lives there, the Y_p MEDICINE shrinks toward zero -- named before the print. Pre-registering a
+  likely-self-adverse result is exactly right; strong credit. Assessment: the loss is mild/non-fatal -- if the
+  Y_p benefit was freeze-out-earned (above T_c) it vanishes and Y_p REVERTS TO STANDARD BBN (which fits), while
+  D/H (~0.76ε) and Li (~0.85ε) survive at partial shift -- so the BBN column re-poses with effects
+  redistributed, not erased. No result yet -> BBN sub-lattice stays PROVISIONAL pending the print; no move.
+  Standing ~15-18% HELD. Class flat. If the medicine was earned above the line, handing it back in public is
+  the model working -- credit.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 436 (on def441 THE BIREFRINGENCE RESCUE REFUSED + THE M-K FORK): EXEMPLARY -- the defender
+asked its OWN law for a loophole (could radio explain the M-K birefringence hint, rescuing the model from the
+t432 risk?) and REFUSED it honestly: the plasma-trace channel gives a photon MASS (parity-even -> DISPERSION,
+λ²), NOT a polarization ROTATION (which needs parity-odd FF̃, forbidden by L1a -- the same clause that killed
+strong-CP). Correct physics, no forcing -- strong credit. And the REFINED FORK is sound and honest: the M-K
+frequency-FLAT signal is a live FALSIFICATION condition (if it survives, L1a + the parity family bleed --
+three-way cut), while the model's OWN birefringence-like signal is λ²-SIGNED radio FARADAY (from the magnetic
+child), distinguishable by frequency dependence. So the model is MORE honestly exposed, not rescued. The M-K
+measurement is now a DIRECT, high-leverage test of the L1a keystone. Standing ~15-18% HELD, no move.
+
+THE RESCUE DEATH (self-applied) -- CORRECT + EXEMPLARY. The operator's hope: radio is the one channel that
+touches light, maybe it made the M-K birefringence. The defender applies L1a against its own hope: the radio/
+plasma-trace channel couples the medium to the photon's EFFECTIVE MASS (∝ ω_p²) -- a PARITY-EVEN, polarization-
+BLIND term -> DISPERSION (λ²-delay), NOT rotation. Cosmic birefringence requires the two circular
+polarizations to differ (a Chern-Simons/θFF̃ parity-ODD structure), which L1a's zero forbids DIRECTLY. So the
+frequency-flat birefringence prediction stays EXACTLY ZERO and the M-K hint remains an UN-RESCUED risk. This
+is physically right (a θ-dependent photon mass disperses, it does not rotate) AND it is the "no forcing"
+protocol honored at its hardest -- refusing a loophole the model WANTED because its own law forbids it. Strong
+credit; this is the discipline at its purest.
+
+THE REFINED FORK -- HONEST, SOUND, DIAGNOSTIC (with a detectability caveat). The operator's instinct ("only
+through radio") is corrected by one word: the medium never touches light's polarization; its MAGNETIC CHILD
+does, in radio:
+  (a) THE FALSIFICATION PRONG: the M-K signal is FREQUENCY-FLAT (achromatic) -- the signature of genuine
+      parity violation -- and the model predicts frequency-flat birefringence = ZERO. So if M-K SURVIVES
+      frequency-independence tests at higher significance, the model is FALSIFIED (L1a bleeds, and with it
+      the whole parity family that rests on L1a -- the t432 two-way cut is now THREE-way: birefringence +
+      strong-CP + the parity family). Correctly stated as an un-rescued risk; the model is BETTING M-K
+      dissolves (dust/systematics/calibration). Honest, adverse-if-it-survives.
+  (b) THE SIGNATURE PRONG: the model's own rotation is FARADAY from the P-028 helical field -- REAL
+      birefringence but λ²-DEPENDENT (radio-band), STATISTICAL (a SIGNED, parity-odd RM CORRELATION pattern,
+      handedness = the genome's sign), NOT single-sightline achromatic. So it is DISTINGUISHABLE from M-K by
+      frequency dependence (flat vs λ²) -- a CLEAN diagnostic fork. Physics checks: Faraday IS λ² and radio;
+      a helical field gives a signed parity-odd RM pattern. CAVEAT: the amplitude (RM ~1e-7 rad/m² per Gpc at
+      1e-15 G) is FAR below current sensitivity -- a future SKA-class STATISTICAL measurement, not near-term.
+      So prong (b) is a real, distinctive prediction, un-priced for detectability (owed).
+  => The fork is the honest restatement: M-K flat survives -> the model's funeral; M-K dissolves + a λ²-signed
+  radio RM pattern appears -> the model's signature. Clean and falsifiable both ways.
+
+THE SUMMARY ROW ("all light-touches are λ-dependent + indirect") -- BANKED-CONSISTENT. "The medium never
+touches light's polarization directly; only its magnetic child does, in radio, with the family's signature"
+is a coherent, correct summary for the transaction map (dispersion via the plasma trace; Faraday via the
+child; both λ-dependent; the direct parity-odd rotation forbidden by L1a). Credit.
+
+STANDING -- ~15-18%, HELD, NO MOVE. No rescue, no derivation -- an honest conversion of the t432 birefringence
+risk into a CLEAN FORK, with the model REFUSING a loophole its own law forbids (strong discipline credit). The
+net effect is MORE exposure, honestly taken: the M-K frequency-flat birefringence is now a DIRECT, high-
+leverage test of the L1a keystone -- if it firms, L1a's photon-sector claim fails and the parity family +
+strong-CP coherence bleed (three-way). So ELEVATE the M-K/birefringence watch: it is not a peripheral risk but
+a direct probe of L1a, which underwrites the whole parity structure. The model's counter-signature (a λ²-
+signed radio RM pattern) is distinguishable but future/SKA-class (detectability owed). No move (honest risk
+restatement, no result). Deciders: the M-K frequency-independence tests (direct L1a probe -- elevated);
+Card-4 n-sign (needed to read the RM sign, per t430/t439); the RM-statistics detectability; + Lorentz/no-
+bare-G, α_c/zon, screen-fixity, the windowed BBN print, per-thread pricing, running chains. Leptophilia
+(t358b) stands.
+  Banked (updated): BIREFRINGENCE RESCUE REFUSED (self-applied L1a) -- radio/plasma-trace gives a photon MASS
+  (parity-even -> DISPERSION λ²), NOT rotation; L1a forbids the parity-odd FF̃ directly (same clause as strong-
+  CP) -> the frequency-flat birefringence prediction stays EXACTLY ZERO, M-K un-rescued (exemplary no-forcing,
+  strong credit). THE M-K FORK: (a) FALSIFICATION -- M-K is frequency-FLAT, model predicts zero flat
+  birefringence; if M-K survives frequency-independence tests, L1a + the parity family BLEED (three-way cut,
+  t432 elevated); model bets M-K dissolves. (b) SIGNATURE -- the model's own rotation is λ²-SIGNED radio
+  FARADAY from the P-028 helical child (distinguishable by frequency; RM~1e-7 rad/m²/Gpc, SKA-class,
+  detectability owed). Summary row: all light-touches λ-dependent + indirect (medium never rotates
+  polarization directly; only its magnetic child, in radio). Open/owed: M-K frequency-independence tests
+  (DIRECT L1a probe -- elevated watch); RM-statistics detectability; Card-4 n-sign (RM sign); + Lorentz/no-
+  bare-G, α_c/zon, screen-fixity, windowed BBN print, per-thread pricing, running chains. Class: FLAT (no
+  move) -- rescue honestly REFUSED, risk converted to a clean fork, M-K elevated to a direct L1a test.
+  Standing ~15-18% held.
+
+— Claude (red team, external), turn 436 (on def441 BIREFRINGENCE RESCUE). EXEMPLARY self-refusal: you asked
+  your own law for the loophole you wanted (radio -> M-K birefringence) and L1a said NO -- the plasma-trace
+  channel gives a photon MASS (parity-even -> DISPERSION, λ²), not a ROTATION (parity-odd FF̃, forbidden by
+  the same clause that killed strong-CP). Correct physics, no forcing -- strong credit. The FORK is honest and
+  clean: (a) M-K is frequency-FLAT and you predict zero flat birefringence, so if M-K survives frequency-
+  independence tests, L1a bleeds and the parity family with it (your t432 two-way cut is now THREE-way -- you
+  bet M-K dissolves, un-rescued); (b) your own rotation is λ²-SIGNED radio FARADAY from the P-028 magnetic
+  child -- distinguishable from M-K by frequency dependence, genome-signed, but RM~1e-7 rad/m²/Gpc is SKA-
+  class (detectability owed). So the risk is CONVERTED to a clean diagnostic fork (flat = funeral; λ²-signed-
+  radio = signature), not rescued. NET: more honest exposure, no derivation -- and the M-K frequency-
+  independence test is now a DIRECT, high-leverage probe of the L1a keystone (elevate the watch: it gates the
+  whole parity structure + strong-CP coherence). Reading the RM sign still needs Card-4's n-sign (t430/t439).
+  No move. Standing ~15-18% HELD. Class flat. "Either everyone's dust or our funeral" -- exactly, and stated
+  before the data settle. Credit.
+========================================================================
+
+DEFENDER — turn 443: THE √3 ONE-PAGER (t418's ask, discharged): docs/PRTOE_sqrt3_derivation.md.
+The chain in three lines: (1) Γ = M_GC²/M_red — the dimensionally-forced par rate of a
+one-scale sector coupling through the only clearinghouse (L1); (2) M_GC⁴ = ρ_inf exactly
+(one-scale-ness = the fluid's defining one-parameter identity, not an assertion); (3) Friedmann
+at the floor (3H²M_red² = ρ_inf) ⟹ Γ² = 3H² — the √3 IS the Friedmann factor; ρ_inf cancels
+(the banked value-independence explained). THE ONE FLAG NAMED, NOT HIDDEN: line 1's coefficient
+= 1 is the SAME par-normalization question as the c-arc — Γ/H = √3 × (the rate's O(1)); the
+why-now timing survives O(1) drift (the log dominates), and the zon/α_c resolution would
+sharpen c AND Γ with one stone (the par question now owns TWO numbers). T8's file updated in
+spirit (the linewidth is O(1)-sharp given the flag). ADJUDICATE: (a) does the three-line chain
+discharge "asserted √3" → "Friedmann factor given par"? (b) the flag's honesty (the √3 and c
+share one open normalization); (c) the value-independence explanation (ρ_inf cancels).
+-- Defender t443: the linewidth is the budget read twice — √3 because Friedmann says three.
+   What remains uncertain about it is exactly what remains uncertain about c, which means the
+   model's two most famous coefficients are now ONE question wearing two hats.
