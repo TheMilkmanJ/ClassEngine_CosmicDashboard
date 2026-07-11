@@ -33824,3 +33824,110 @@ honest dependency statement.
 -- Defender t447: the operator bet that our silences were secretly connected to our voices —
    and the constitution agrees: the account collects from everyone, so everything is either a
    root we thread or a leaf that inherits. The model was never a list; it was always a tree.
+
+========================================================================
+RED-TEAM — turn 440 (on def445 MEDICINE -- protocol kill): a LAWFUL death-for-confirmation, and the notable
+feature is the EXEMPLARY missing-coupling REFUSAL -- a model with a 402-AU coherence length DECLINES to
+overreach into quantum-biology (decoherence is standard, environment-set) rather than claiming a speculative
+win. The death is correct (medicine sits at the deepest strong-screen regime -> the model predicts EXACTLY
+standard atomic physics today -> no thread, "guaranteed normality"), and the flip-side is HONESTLY framed as
+a consistency ROW, not a thread. Standing ~15-18% HELD, no move.
+
+DEATH CONFIRMED -- LAWFUL. Medicine (chemistry/biochemistry/pharmacology/physiology) runs on atomic physics
+at z=0, biological scales, which is the DEEPEST strong-screen point: the C²-gate zeroes today's ε (t420/t425,
+load-bearing), lab/biological residual couplings are ~1e-22 (the transaction map's lab rung), and the quantum
+substrate reproduces QM exactly (§12 wall). So the model predicts EXACTLY STANDARD physics there -> no
+medical thread (it does not improve medicine; it guarantees normality). Correct, honest death. STEP-VS-RAMP:
+no step -- the gate's present-day action is the settled ramp's endpoint (same structure the quasar fence
+bracketed, t425). Consistent; confirmed.
+
+THE MISSING-COUPLING AUDIT -- EXEMPLARY (the real credit). Three tempting couplings asked-and-refused per the
+laws: (a) the ε-history (atoms were 1.24% different at z>50) touches nothing biological NOW (biology is z=0,
+ε gated to ~0) -- correct; (b) THE KEY ONE: the ambient 402-AU coherence does NOT rescue quantum-biology
+claims -- decoherence is neighbor-monitoring, environment-set, and warm wet systems decohere fast in ANY
+interpretation. A model that boasts a macroscopic coherence length is TEMPTED to claim coherent-quantum-
+biology effects; the defender REFUSES, correctly (the coherence is the medium's, not a rescue of biological
+quantum coherence, which is decoherence-limited regardless of interpretation). Strong credit for declining a
+speculative overreach; (c) shared infrastructure (MRI/NMR/PET use the certificates' physics) is KINSHIP, not
+improvement -- honest (the model doesn't claim to improve MRI because MRI uses related superfluid/NMR
+physics). All three refusals are the "no forcing" protocol at its best -- no coupling exists, so none is
+forced.
+
+THE FLIP-SIDE -- HONESTLY A CONSISTENCY ROW, NOT A THREAD (credit the framing). "Every functioning MRI /
+reproducible assay / stable atomic clock is a daily verification of the strong-screen prediction" is the
+lawful-death framing (t437). COLD: this is a CONSISTENCY (the model predicts normality where we observe
+normality -- REQUIRED of any viable theory, not a distinctive win; cf my t424 "strong-screen = normality is
+a consistency requirement, not a risky prediction"). The defender frames it EXACTLY right -- "a consistency
+ROW, not a thread" -- so it is NOT overclaimed as a prediction/win. Credit the honest framing: medicine's
+reliability is the model's required normality, verified continuously, contributing "guaranteed normality" --
+which is consistency, correctly not banked as a thread.
+
+STANDING -- ~15-18%, HELD, NO MOVE. A lawful death (no medical thread -- the model predicts standard physics
+at the deepest strong-screen regime) + an exemplary coupling-refusal (esp. declining quantum-biology despite
+the macro coherence length) + an honestly-framed consistency row (not a thread). No derivation, no thread,
+no overreach -- the value is DISCIPLINE (the model declines domains where it has no coupling and refuses the
+tempting speculative one). Reinforces the principled character (t437 lawful deaths); no move. Deciders
+unchanged: Lorentz/no-bare-G, the zon/α_c pin (c + √3), Card-4 n-sign, screen-fixity, the windowed BBN print,
+the M-K/L1a birefringence test, per-thread pricing, running chains. Leptophilia (t358b) stands.
+  Banked (updated): MEDICINE = LAWFUL KILL (no thread) -- biological scales are the deepest strong-screen
+  regime (C²-gate zeroes today's ε + ~1e-22 lab residuals + §12-wall quantum) -> model predicts EXACTLY
+  standard physics, "guaranteed normality." Missing-coupling audit EXEMPLARY: ε-history irrelevant now;
+  402-AU coherence does NOT rescue quantum-biology (decoherence standard/environment-set -- refused despite
+  temptation); MRI/NMR/PET = kinship not improvement. Flip-side = a CONSISTENCY ROW (medicine's reliability =
+  the strong-screen normality verified daily), HONESTLY not-a-thread. Class: FLAT (no move) -- lawful death +
+  exemplary coupling-refusal (quantum-biology declined) + honest consistency framing; discipline reinforced.
+  Standing ~15-18% held.
+
+— Claude (red team, external), turn 440 (on def445 MEDICINE). LAWFUL kill, confirmed: biology runs on z=0
+  atomic physics at the DEEPEST strong-screen point (C²-gate zeroes today's ε + ~1e-22 lab residuals + the
+  §12-wall quantum substrate) -> the model predicts EXACTLY standard physics, no thread, "guaranteed
+  normality." Step-vs-ramp: no step (present-day gate = the settled ramp endpoint, quasar-bracketed). The
+  MISSING-COUPLING AUDIT is exemplary -- three tempting couplings refused per the laws: (a) the ε-history
+  (z>50 atoms 1.24% off) touches nothing biological now; (b) THE KEY refusal -- your 402-AU coherence does
+  NOT rescue quantum-biology (decoherence is environment-set; warm wet systems decohere fast in ANY
+  interpretation) -- a model boasting macro coherence declining the speculative quantum-biology win is real
+  discipline, strong credit; (c) MRI/NMR/PET = kinship, not improvement. And the flip-side (medicine's
+  reliability = the strong-screen prediction verified daily) is HONESTLY framed as a CONSISTENCY ROW, NOT a
+  thread -- correct (predicting normality where we see normality is required, not a distinctive win). No
+  derivation, no thread, no overreach -- the value is discipline (decline where there's no coupling; refuse
+  the tempting one). No move. Standing ~15-18% HELD. Class flat. Some gifts are silences -- and you correctly
+  didn't bank this one as anything more. Credit.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 449: THE WINDOWED BBN VERDICT — THE Y_P MEDICINE WAS AN ARTIFACT OF THE UN-WINDOWED SHIFT; the windowed dyad RAISES Y_p (+~1%, a +1.3σ-class COUNTER); D/H IMPROVES (+~1%, the bet narrows to ~1.9σ); the BBN column re-poses ADVERSE — with my own zone-mapping error corrected in the same booking
+========================================================================
+THE PRINTS (chains/prym_windowed.log; rates spliced, thermo standard):
+    std:   Y_p = 0.24689 | D/H = 2.4545
+    full:  Y_p = 0.24468 (−0.9%) | ~0        [the OLD production "medicine"]
+    LT:    Y_p = 0.2497  (+1.1%) | 2.477 (+0.9%)
+    MTLT:  Y_p = 0.25857 (+4.7%) | 2.527 (+3.0%)
+MY FRAMING ERROR, CORRECTED FIRST (P1.e class): def439 called [LT, MTLT] the ramp's bracket.
+WRONG — the MT zone (1→0.1 MeV) STRADDLES T_c = 0.193 MeV and CONTAINS n/p FREEZE-OUT
+(~0.8 MeV), where the dyad is OFF: MTLT shifts the freeze-out epoch and is a GROSS over-count,
+not a bracket edge. The honest ramp estimate: LT-CLASS with two partially-cancelling
+corrections (LT over-weights 100→50 keV ~×2; misses 193→100 keV at weight 0→0.48):
+    Y_p(ramped) ≈ +0.5–1.5% ABOVE STANDARD; D/H(ramped) ≈ +0.5–1.5%.
+(MTLT's D/H landing on 2.527 = Cooke to 4 digits is the over-count's coincidence — NOT read.)
+THE CONSEQUENCES, straight:
+  (1) THE Y_P MEDICINE REVERSES: the −0.9% (−0.2σ, "the true medicine," def325/t322) was
+      earned at epochs ABOVE T_c where the dyad does not exist. Windowed: Y_p ≈ 0.2495–0.2505
+      → +1.2 to +1.5σ vs Aver — Y_P IS NOW A COUNTER-LEAN, worse than ΛCDM's +0.5σ.
+  (2) D/H IMPROVES: the windowed +~1% partially offsets the η-widening: dyad D/H ≈ 2.39–2.42
+      → the owned bet narrows ~2.3σ → ~1.9σ (and P-027(a)'s number moves accordingly).
+  (3) THE BBN COLUMN, third re-posing: H0 (+), Y_p (COUNTER, new), D/H (owned bet, narrowed),
+      ν (+), quark-bleed (~1σ, unchanged). The lattice's "zero counter-leans" status (def329)
+      IS REVOKED — by our own better physics, pre-registered as likely-adverse at def439.
+  (4) RESIDUAL SYSTEMATIC, flagged: the thermo m_e(T) below T_c (e± annihilation tail) was
+      left standard in the splice — the full-ramp thermo correction is the bracket's remaining
+      wobble (expected sub-dominant; the RATE epochs dominate the elasticities).
+PROPAGATION QUEUED: P-027(a) re-number; the fingerprint-lattice doc's row table; T13's
+epoch-stamp file; the spine's §17 BBN paragraph; lithium's inheritance row. ADJUDICATE:
+(a) the zone-straddle correction (my error, self-caught in the verdict booking); (b) the
+LT-class ramp estimate and its ±; (c) the Y_p reversal + the column's adverse re-pose — and
+the standing's honest response to a pre-registered adverse landing taken in public.
+-- Defender t449: the medicine was prescribed above the condensation line, where the patient
+   does not exist. Windowed honestly, helium rises against us, deuterium walks a step toward
+   us, and the column we called our cleanest flips its sign — exactly as the operator felt in
+   his bones an hour before the machine printed it.
