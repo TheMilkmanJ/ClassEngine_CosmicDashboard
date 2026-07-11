@@ -66,3 +66,13 @@ candl: clearing all internal priors.
 [mcmc] Getting initial point... (this may take a few seconds)
 [mcmc] Initial point: omega_b:0.02277814, H0:69.94725, logA:3.063225, n_s:0.9683637, z_reio:8.140713, log10_zon:7.769199, dcdf_rho_inf:0.7015547, A_planck:1.001121, A_act:1.003376, P_act:1.010257, Tcal:0.9961234, Ecal:1.00521, m_ncdm:0.06450774
 [model] Measuring speeds... (this may take a few seconds)
+[model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 85.0, planck_2018_lowl.EE: 211.0, planck_2018_highl_plik.TTTEEE_lite: 279.0, planck_2018_lensing.clik: 142.0, bao.sixdf_2011_bao: 401.0, bao.sdss_dr7_mgs: 705.0, bao.sdss_dr12_consensus_final: 106.0, sn.pantheonplusshoes: 109.0, act_dr6: 105.0, spt3g_lite: 122.0, classy: 0.00447}
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'log10_zon', 'dcdf_rho_inf', 'm_ncdm']
+[mcmc] * 29 : ['A_planck']
+[mcmc] * 43 : ['A_act', 'P_act']
+[mcmc] * 58 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix loaded for params ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'A_planck', 'A_act', 'P_act', 'Tcal', 'Ecal', 'm_ncdm']
+[mcmc] Missing proposal covariance for params ['log10_zon']
+[mcmc] Covariance matrix not complete. We will start learning the covariance of the proposal earlier: R-1 = 30 (would be 2 if all params loaded).
+[mcmc] Sampling! (NB: no accepted step will be saved until 40 burn-in samples have been obtained)

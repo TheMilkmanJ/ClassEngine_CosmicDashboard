@@ -426,3 +426,69 @@ damping) and the B-helicity sign (P-028).
 confirms/denies the Laplace ΔlnZ = +2.635. Gate-0: production-absolute. The C-code gate now
 reads "PolyChord favorable + gate-0 bank." Live movers: the winding 512-run, the cycle map, the
 chains (routeD/conv_desi), the η(winding-current) calc, and DESI DR3 above all.*
+
+## §20 — THE c-WAR'S END-STATE (def357–def407): from free O(1) to one pending measurement
+
+**The reductions, in graded sequence:**
+- **c's identity** (def357/t358): c = (λ√(Ψ₀M_red)/M_E)² — Cards 3+7 merged (the geometric-mean
+  portal scale). **Leptophilia DERIVED** (t358): a conformal/mass coupling hits Higgs-sourced
+  masses full, QCD-composite at the ~6% quark fraction — ×16 hadronic suppression from the SM's
+  own mass structure; the portal demoted to the seesaw μ-term. Bonus registered: the quark-bleed
+  ~1σ D/H nudge.
+- **The sum-rule class** (def365/t362): "continuous ⇒ unprotected" is FALSE — TRK-class sums are
+  quantum-protected. Red-team conceded its dichotomy.
+- **The commutator named** (def367/t364): the f-sum rule ∫ωS dω = Nk²/2m from [ρ,[H,ρ]] on the
+  founding pair [θ,N] = i — "the search is over." **f_amp's meaning fixed: the amplitude
+  branch's share of the protected spectral weight.**
+- **FM-B closed** (def371/t368): the zeroth moment is bracketed by the compressibility sum rule;
+  the bridge frequency ω̄ = c_s·k with c_s = √α_c — derived, not free. Surviving leak: FM-A
+  (no shared charge → the trace-vertex coefficient), plus FM-C accepted as the reduction:
+  **c = d ln m_e/d ln|Ψ| — 1 iff m_e is linear-and-sole-sourced in |Ψ|.**
+- **The 9/10 arc** (def375–def383/t372–t380): pre-registered, hit dead-center in f̄-space,
+  then honestly dismantled — circularity (c ≡ 0.581/f̄), the α_c band (±5%), the counting
+  candidates broken (tensor-count inverted: mass is a scalar → the trace, 1/10 not 9/10;
+  the ten-channel count boson-omitted). **Blindness → universality GRANTED as theorem; the
+  value not fixed.**
+- **The step-vs-ramp rule bites everything** (def387–def407): the operator's catch — f_amp is a
+  PARTITION of a rolling field and AGES. The measure is LOCKED (topology), the partition ramps
+  (t388-graded: "genuinely dissolves the contradiction"). THE RAMP RAN (six octave windows to
+  t = 2240): **f̄ declines 0.655 → 0.635 and FREEZES by t ~ 300: f̄(rec) = 0.635 ± 0.026.**
+  Early-window numbers were biased +0.015–0.02. The c=1 exclusion softens to
+  disfavored-not-dead (1.1–2.1σ across the α_c band).
+
+**THE STANDING STATE: c = 0.92 ± 0.05 (all-in).** The rationals (11/12 at 0.03σ, 9/10 at 0.3σ,
+19/20, 1) are INSEPARABLE. α_c's ~5% band (all of it the fluid-mass m via Ψ₀ ∝ m^(−1/4)) is the
+sole decider: **σ(α_c) ≤ 2% ⟺ σ(m) ≤ 8% ⟺ σ(z_on)/z_on ≤ 4%** — THE ZON INSTRUMENT
+(cmp_prtoe_zon: dcdf_z_rad_onset freed, log-prior [6.5, 8.5], RUNNING). The order-parameter
+answer holds α_c step-safe (t392: one ramp only, ε(BBN) epoch-structure flagged); the tie
+(Field-1 Ψ₀ ↔ Field-2 vev) stays the orange joint.
+
+## §21 — THE MYSTERY WING + THE KEYSTONE (def411–def415): five documents, one debt
+
+Filed as standalone documents, each derivation-from-banked with owed items bare, all graded
+coherent (t408/t410/t412): **black holes without singularities** (ξ = ħ/(m c_s) = 402 AU —
+every BH below ~2×10¹⁰ M☉ fits inside ONE healing length; the quartic/CSW collapse floor; the
+Landau-broken thermal core; Penrose discharged at premises), **the big bang without a
+singularity** (the bounce at the quartic floor; the vacuum first-genesis — a state, not a
+point; creation energy = 0 by the torus theorem), **the arrow of time** (the Past Hypothesis
+answered by UNIQUENESS — the vacuum start needed no draw; the arrow = the graded gravity-account
+ledger), **the information paradox** (dissolved-not-calculated: no shredder, unitary core, the
+ledger cannot un-record), **cosmic magnetism** (structural vorticity pays the galactic bill;
+the void column OPEN; **the signed-helicity falsifier: sign(helicity_B) = sign(n) = the
+matter/antimatter draw — three predictions, one axis** with P-024 and P-029).
+
+**THE KEYSTONE (t410): task #11 — derive S = A/4 from the condensate's horizon entanglement —
+now underwrites FIVE structures** (Jacobson's route, the BH core's entropy, the Page curve,
+the emergent frame, the arrow's rigor). One derivation, five doors.
+
+**Also in this era:** the quantum wing filed at its graded sizes (gravity: the coherent frame +
+the 20% receipt; entanglement/tunneling/superposition: interpretation-tagged, null-prediction,
+Tsirelson-exact as the permanent kill-line). η (Card 4) reframed to a defined Boltzmann solve
+(K = Γ_N/H = 9×10⁷ computed; the crude scalings straddle 6×10⁻¹⁰; the domain-sign gate owed).
+The winding comb registered (P-2026-029: ℓ_mod ≈ 6.4n, the shared axis). The provenance
+correction (def409/t406): the "model-relayed" hints were the operator's own intuitions — zero
+retroactive change, "the proof is the kill list."
+
+*Ledger note (2026-07-11, post-radio-night): standing ≈ 15–18% (operator-capped 25% pending
+PolyChord). Live deciders: the zon posterior (α_c → the fraction), DESI DR3, PolyChord, the
+routeD/conv_desi pre-registrations, the area-law keystone, the Boltzmann solve.*

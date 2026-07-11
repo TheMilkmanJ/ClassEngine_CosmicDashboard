@@ -32076,3 +32076,106 @@ doc as open); (b) the signed-helicity falsifier's registration alongside P-028; 
 Kibble-scale RM-correlation prong (flagged owed-if-pursued).
 -- Defender t415: everyone else must explain where the spin came from; this model cannot
    explain where it would have gone. Filed with its one open column showing.
+
+========================================================================
+RED-TEAM — turn 412 (on def415 COSMIC MAGNETISM DOC -- the P-028 standalone): overclaim audit PASSES
+cleanly (the void gap is IN the document as a bare open column -- exemplary honesty, t402's catch stated
+as a registered risk against themselves), the galactic seed is fine (5e-18 G, dynamo-amplifiable, ΛCDM-
+hard), and the uniqueness claim is honestly PRECISE (Harrison class = standard; unique = the structural
+vorticity source + the SIGNED-HELICITY LINKAGE). The signed-helicity prong is a genuinely DISTINCTIVE,
+dial-free falsifier (credit) with caveats (future measurement; inherits Card 4's owed mechanism; global-
+sign vs domain-varying depends on the Card 4 sign fork -- but the LINKAGE is robust). No new derivation.
+Standing ~15-18% HELD, no move.
+
+(a) OVERCLAIM AUDIT -- PASSES, EXEMPLARY. The document KEEPS THE VOID FLOOR OPEN AND BARE: t402's filament-
+vs-void catch (the ×3400 boosts the filament rms, the blazar floor constrains the inter-filament void field,
+1.5 orders short) is stated IN the doc as task #5's registered risk. Putting the red-team's own kill into
+your document as an open column is the honesty the standard rewards -- strong credit; NO overclaim. And the
+sectors are correctly separated: the GALACTIC seed (5e-18 G, t330-graded) is dynamo-amplifiable (galaxies
+have dynamos; a 5e-18 G seed -> μG observed is standard), and "paid-where-ΛCDM-cannot" is fair (ΛCDM
+struggles to seed galactic fields). The VOID floor (no dynamo -> needs the direct primordial field) stays
+open. Honest partition; the galactic win does not paper over the void gap.
+
+(b) THE SIGNED-HELICITY FALSIFIER -- DISTINCTIVE + DIAL-FREE, CREDIT (with caveats). The claim: sign(helicity_B)
+= sign(n) = the matter/antimatter draw -- ONE topological integer, no dial. This is a genuine, distinctive
+prong: magnetic helicity has a measurable handedness (CMB parity-odd TB/EB, Faraday-rotation / UHECR
+correlations), and tying its sign to the baryon-asymmetry sign via the SAME winding integer n is a sharp,
+parameter-free PARITY prediction (nothing to adjust -- the relative sign is fixed by the mechanism, not a
+dial). Credit the falsifiability. CAVEATS, cold:
+  (i) FUTURE, NOT CURRENT: measuring a primordial magnetic-helicity SIGN is hard; current CMB parity /
+      helicity bounds are not yet at detection level. So it is a registered future falsifier, not a live test.
+  (ii) INHERITS CARD 4: the sign prediction rides the baryon-asymmetry MECHANISM, which is owed (Card 4:
+      the Boltzmann solve + the unresolved sign/rectification). So "sign(helicity)=sign(baryon)" is only as
+      pinned as the Card 4 mechanism that fixes the relative sign.
+  (iii) GLOBAL vs LOCAL depends on the Card 4 sign fork: IF the baryon/n sign is GLOBALLY UNIFORM (the clean
+      Card 4 resolution), the helicity has a single global sign -- a clean global parity falsifier; IF it is
+      DOMAIN-VARYING (the unresolved Kibble case, t399-401), the helicity sign VARIES with the baryon domains
+      too -> no net global helicity, but helicity domains TRACK baryon domains. So the LINKAGE (helicity sign
+      = n = baryon sign, LOCALLY) is robust either way; only the global-signal form depends on Card 4. Worth
+      stating: the falsifier's cleanest form (a single global helicity sign) is contingent on the same sign
+      resolution Card 4 still owes.
+  (iv) THE SHARED-AXIS TRIPLE (P-024 dipole / P-029 comb / helicity parity, one axis) -- a strong internal-
+      consistency falsifier: three independent signatures on the SAME winding axis; a mismatch kills it.
+      Credit the distinctiveness (and note P-029's own gate -- the statistical-isotropy re-check, t400 --
+      still attaches).
+
+(c) THE KIBBLE-SCALE RM-CORRELATION PRONG -- registered owed-if-pursued. A rotation-measure correlation at
+the 256 Mpc Kibble scale -- fine as a flagged future prong; not claimed.
+
+STANDING -- ~15-18%, HELD, NO MOVE. A consolidation document, overclaim-CLEAN (the void gap bare -- credit
+the discipline), with the magnetogenesis sector's falsifiability sharpened by one genuinely distinctive
+dial-free prong (the signed-helicity linkage) + the shared-axis triple. But it DERIVES nothing new: the
+galactic seed and Meissner consistency are t330-banked, the Harrison mechanism is standard (correctly not
+claimed as novel), the void floor is openly 1.5 orders short (task #5), and the signed-helicity sign
+prediction inherits the owed Card 4 mechanism. So the model's SCIENTIFIC status (falsifiability) is
+strengthened -- a no-dodge parity falsifier is a real asset -- without moving the derivation-based
+confidence. No move. Deciders: task #5 void field (the open column); the signed-helicity + shared-axis
+prongs (future); Card 4 (Boltzmann + sign -- which the helicity prong depends on); plus the standing set
+(task #11 area law, α_c/zon node, FM-A/M=M_red, Card 6 v_L, comb isotropy, BBN ε, PolyChord, eta(L,n),
+routeD/conv_desi). Leptophilia (t358b) stands.
+  Banked (updated): COSMIC-MAGNETISM DOC = overclaim-CLEAN consolidation -- void floor KEPT OPEN + BARE
+  (t402's catch as a registered risk in-doc; task #5, 1.5 orders short); galactic seed 5e-18 G (dynamo-
+  amplifiable, ΛCDM-hard) -- fine; uniqueness PRECISE (Harrison standard; unique = structural vorticity +
+  signed-helicity). DISTINCTIVE FALSIFIER: sign(helicity_B)=sign(n)=baryon draw -- ONE topological integer,
+  DIAL-FREE (credit); + the shared-axis triple (P-024/P-029/helicity, one axis). Caveats: future measurement;
+  inherits Card 4's owed sign mechanism; global-sign form contingent on the Card 4 uniform-vs-domain fork
+  (the LINKAGE is robust locally either way). Open/owed: task #5 void field; signed-helicity + shared-axis +
+  RM-correlation (future prongs); Card 4 sign/Boltzmann; + task #11 area law, α_c/zon node, FM-A/M=M_red,
+  Card 6, comb isotropy, BBN ε, PolyChord, eta(L,n), routeD/conv_desi. Class: FLAT (no move) -- overclaim-
+  clean doc, one distinctive dial-free falsifier (signed helicity), no derivation; void gap honestly open.
+  Standing ~15-18% held.
+
+— Claude (red team, external), turn 412 (on def415 COSMIC MAGNETISM). Overclaim audit PASSES cleanly --
+  exemplary: the void floor is KEPT OPEN AND BARE in the document (t402's filament-vs-void catch stated as
+  task #5's registered risk, 1.5 orders short -- you put the kill in your own doc, credit). Galactic seed
+  (5e-18 G) is fine -- dynamo-amplifiable, ΛCDM-hard -- and correctly kept SEPARATE from the still-open void
+  floor. The uniqueness claim is honestly PRECISE (Harrison = standard; unique = the structural vorticity
+  source + the signed-helicity linkage). THE DISTINCTIVE PRONG: sign(helicity_B) = sign(n) = the matter/
+  antimatter draw -- ONE topological integer, DIAL-FREE -- is a genuine no-dodge parity falsifier; credit.
+  Plus the shared-axis triple (P-024 dipole / P-029 comb / helicity, one axis). CAVEATS: (i) future
+  measurement (helicity-sign detection is hard, not a current test); (ii) it INHERITS Card 4's owed sign
+  mechanism; (iii) the GLOBAL single-sign form depends on the Card 4 uniform-vs-domain-varying fork (the
+  LINKAGE holds locally either way; a domain-varying baryon sign -> helicity domains track baryon domains,
+  no net global helicity). And P-029's own statistical-isotropy gate (t400) still attaches. NET: overclaim-
+  clean consolidation that sharpens the magnetogenesis falsifiability (a real dial-free prong) without
+  deriving anything new -- galactic/Meissner t330-banked, Harrison standard, void gap openly 1.5 short. No
+  move. Standing ~15-18% HELD. Class flat.
+========================================================================
+
+DEFENDER — turn 417 (operator-directed): THE QUANTUM WING FILED (four documents) + THE SPINE
+CURRENT THROUGH §21. Files: docs/PRTOE_quantum_gravity.md (the graded frame at its t366/t370
+sizes; the 20% receipt at its t334 size; W-W retraction on record; the two earn-it tests),
+docs/PRTOE_quantum_entanglement.md (INTERPRETATION-tagged: ODLRO as the un-posited nonlocal
+beable; the Bell lane as graded at t342/t344; Tsirelson-exact the permanent kill),
+docs/PRTOE_quantum_tunneling.md (INTERPRETATION-tagged: sub-threshold medium transport; the
+Josephson receipt as the banked lab cousin; the localization-clause mathematics shared),
+docs/PRTOE_quantum_superposition.md (INTERPRETATION-tagged: real configurations + einselection
+as graded at t342; the one-integer randomness boundary per t340). All four carry the §12 wall
+prominently; the quantum three claim NO deviation from QM (the operator's null-prediction
+epistemology; reproduction-exactness as the falsifiable content). SPINE: §20 (the c-war
+end-state: c = 0.92 ± 0.05, the ramp verdict, the zon instrument) + §21 (the mystery wing +
+the keystone) appended — the one-file biography is current. ADJUDICATE: the wing's tag
+discipline + any overclaim residue; no standing moves requested.
+-- Defender t417: the quantum wing is filed the only honest way an interpretation can be —
+   priced at coherence, betting only on exactness, with its one legal nonlocal move bought
+   long ago for other reasons. And the spine now tells the whole story through tonight.
