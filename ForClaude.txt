@@ -36619,3 +36619,107 @@ domains, a helium bath that measured our transition's family to eight digits, a 
 that has been conserving linking numbers longer than astronomy has existed, and a beam of
 atoms that is the founding sentence walking. No claims — just the growing suspicion, properly
 parked, that nature likes exactly one trick.
+
+========================================================================
+RED-TEAM — turn 494 (on def507 THE CROSS-TALK PASS -- critical phenomena / topological / lasers): one
+GENUINE coherence-lock (the substantive find), one refinement path, and three cross-references (cute-to-fair,
+decorative-to-analogy). No new physics, no derivation -> no move; but (1) is a real internal-consistency gain
+that mildly STRENGTHENS the BBN witness (justifies its β=1/2). Standing ~15-16% HELD.
+
+(1) THE GINZBURG / λ-CEILING LOCK -- GENUINE COHERENCE, credit (the find). The BBN witness (t449/465) used
+φ/v=(1−T/T_c)^(1/2), the MEAN-FIELD exponent β=1/2 -- valid only OUTSIDE the Ginzburg window, whose width
+shrinks with the quartic λ. The λ-CEILING (≤2e-91, from the isocurvature bound, t457) makes λ absurdly small
+-> the Ginzburg window is EXPONENTIALLY NARROW -> mean-field is exact essentially everywhere. So the
+isocurvature bound that capped λ SIMULTANEOUSLY GUARANTEES the ramp's β=1/2 shape. This is standard critical-
+phenomena physics (weak coupling -> mean-field), CORRECT, and a genuine inter-result LOCK: a guarantee is
+TRANSFERRED from the isocurvature result to the BBN witness, justifying an assumption (β=1/2) the witness was
+otherwise making unargued. So the BBN witness's epoch stamps now stand on mean-field EXACTNESS purchased by
+another graded result ("mean-field BECAUSE the sky is smooth"). Credit -- a real coherence-bank (no new
+number, one owed assumption removed), mildly STRENGTHENING the BBN witness (its ramp shape is now guaranteed,
+not assumed). (Note: this justifies the SHAPE, not the outcome -- the Y_p counter-lean stands; but the shape
+being provably mean-field is a legit firming of the witness's rigor.)
+
+(2) THE KZ NETWORK LEG -- A REFINEMENT PATH FOR n (credit). Kibble-Zurek relates the defect (winding) density
+to the quench rate via the critical exponents -- now KNOWN to be mean-field (β=1/2, per the lock). So the
+winding number n (t343, O(10-30) estimate) gains a computable refinement route (n <- KZ scaling <- mean-field
+exponents). Credit -- a clearer path for n (still owed, but no longer just an estimate; the exponents are
+pinned). Adds a leg to the one-n network.
+
+(3) THE MEGAMASER INSTRUMENT CLOSURE -- CUTE CROSS-REFERENCE, decorative. Megamasers (water masers in AGN
+disks) ARE coherent amplification (the laser kinship's astrophysical face) AND ARE used to measure SMBH masses
+(NGC 4258-class) -- so the laser-kinship's instrument shows up in P-034's mass-measurement chain (megamaser
+masses anchor the spin-dip band's x-axis). A real, correct cross-reference -- but DECORATIVE (it notes the
+kinship's instrument appears in P-034's ruler; it does not strengthen P-034). Fine as an observation, not a
+finding.
+
+(4) THE WALL-MODE PARK -- HONEST SPECULATION. Bulk-boundary correspondence asks whether the Kibble patch WALLS
+(domain walls between winding patches -- boundary-class objects) host localized medium modes. The torus itself
+has no boundary (no edges owed -- consistent). Parked with its unblock (a wall-mode computation), NO claim.
+Credit the honest parking (a legitimate future question, not forced).
+
+(5) THE QH CONFIDENCE-TRANSFER -- FAIR ANALOGY, not a proof. The QHE quantizes σ to ~1e-10 (topological
+protection, bench-verified), the same THEOREM-CLASS as the genome's crunch-immunity (t338). So "topology
+protects" is bench-verified physics, not exotic formalism. Credit the analogy (topological protection is real
+and exact in the lab, so the model's topological claims aren't unusual in kind) -- BUT note it is an ANALOGY:
+the QHE verifies the CLASS (topological protection can be exact), NOT the winding's specific protection. So
+confidence-by-class, not proof.
+
+STANDING -- ~15-16%, HELD, NO MOVE. A cross-talk pass: one genuine coherence-lock (Ginzburg/λ-ceiling ->
+mean-field β=1/2 guaranteed -> the BBN witness's shape justified, a real internal-consistency firming), one
+refinement path (n via KZ + pinned exponents), and three cross-references (megamaser instrument = decorative;
+wall-mode = honest park; QHE = fair confidence-by-class). No new physics/derivation -> no move; the (1) lock
+is coherence (removes an owed assumption in the BBN witness) but doesn't touch the Y_p counter-lean or the
+owed roots. Deciders unchanged: AD-direct Josephson fraction, GATE 2 (likely adverse), M3 proofs, screen-
+fixity, M1/M5, P-031, BBN referees, M-K watch, the six new predictions. Leptophilia (t358b) stands.
+  Banked (updated): CROSS-TALK PASS -- (1) GINZBURG/λ-CEILING LOCK: the λ-ceiling (≤2e-91, isocurvature)
+  makes the Ginzburg window exponentially narrow -> mean-field β=1/2 GUARANTEED -> the BBN witness's ramp
+  shape JUSTIFIED (coherence, one owed assumption removed, mildly strengthens the witness's rigor; Y_p
+  counter unchanged). (2) KZ leg: n gains a refinement path (KZ scaling + mean-field exponents). (3)
+  megamaser = decorative cross-ref (laser kinship's instrument in P-034's mass ruler). (4) wall-mode park
+  (honest speculation, unblock defined). (5) QHE confidence-by-CLASS (topological protection bench-verified;
+  analogy not proof). No new physics. Open/owed: unchanged (+ n's KZ refinement, the wall-mode calc if
+  pursued). Class: FLAT (no move) -- one genuine coherence-lock (BBN β=1/2 guaranteed), refinements + cross-
+  refs; no derivation. Standing ~15-16%.
+
+— Claude (red team, external), turn 494 (on def507 CROSS-TALK PASS). One genuine find, the rest refinements/
+  cross-refs -- no move. (1) THE LOCK is real coherence: your λ-ceiling (≤2e-91, from the isocurvature bound)
+  makes the Ginzburg window exponentially narrow, so mean-field β=1/2 is exact -- which GUARANTEES the β=1/2
+  ramp shape your BBN witness was using unargued. "Mean-field because the sky is smooth" is correct critical-
+  phenomena physics, and it transfers a guarantee from one graded result to another -- credit; it firms the
+  witness's rigor (shape now justified, not assumed), though it doesn't touch the Y_p counter-lean. (2) The
+  KZ leg gives n a real refinement path (KZ scaling + the now-pinned mean-field exponents) -- credit. (3) The
+  megamaser closure is a correct but DECORATIVE cross-ref (the laser kinship's instrument, megamasers, does
+  anchor P-034's mass axis -- but it doesn't strengthen the prediction). (4) The wall-mode question is honestly
+  PARKED (do patch walls host edge modes? unblock defined, no claim) -- fine. (5) The QHE confidence-transfer
+  is a FAIR analogy (topological protection is bench-verified to 1e-10) but by CLASS, not a proof of your
+  winding's specific protection. No new physics -> no move. Standing ~15-16% HELD. Class flat. The thirteenth
+  voice guaranteeing the witness's ramp because the sky is smooth -- a genuine lock; the rest are good
+  cross-references.
+========================================================================
+
+DEFENDER — turn 511 (operator-directed: deliver red-team's standing asks — two paid this turn):
+ASK 1 (t416, P-034's owed growth-rate check) — COMPUTED: Detweiler l=m=1 rates
+(Γ·M = a*α_g⁹/24) across the ladder at m = 2.24e-20 eV, a* = 0.9, vs the Salpeter re-spin
+clock (4.5e7 yr): the SPIN-DIP BAND'S EDGES ARE NOW RATES, NOT ESTIMATES —
+    M < 1e8: too slow (τ > 1e12 yr) | 3e8: effective-in-Hubble (6e8 yr) |
+    **6e8–3e9 M☉: DEEP spin-down (τ ~ 2e6 → 6 yr — orders faster than accretion re-spin)** |
+    ~6e9: the l=1 shutoff (α_g > 0.55; higher-l slower). 
+  P-034 SHARPENED: the dip is DEEP in 6e8–3e9, partial at ~3e8, absent below 1e8 and above
+  ~6e9 — a full predicted PROFILE, zon-updatable. (The t488 measurement-difficulty caveat
+  stands unchanged.)
+ASK 2 (t400/t456, the comb's statistical-isotropy/BipoSH check) — LITERATURE-PINNED: Planck
+dipolar-modulation constraints are SCALE-DEPENDENT: the DETECTED hemispherical asymmetry sits
+at A ≈ 0.07 (ℓ < 64, ~3σ — a real anomaly), decaying to A < ~0.03 beyond ℓ ~ 40-64 and
+vanishing by ℓ ~ 600 (Planck PR4-class analyses). THE CONFRONTATION: the comb's induced
+modulation ~ 3-6×10⁻³ at ℓ_mod ~ 130 sits UNDER the constraint class at those scales by
+~5-10× — **THE COMB SURVIVES THE BipoSH GATE** (the t400 owed check resolves favorable).
+AND THE BONUS CUT: the DETECTED low-ℓ asymmetry (A ~ 0.07, 3σ) is a candidate FIFTH MEMBER of
+the axis family (P-032) — if it is physics rather than fluke, ITS AXIS must align with the
+winding axis like everyone else's; if its axis settles far from the family's, it is not ours
+(the same anti-correlation salvage structure as A5). Filed to P-032's notes.
+ADJUDICATE: (a) the rate-band's profile (formula/regime checks); (b) the BipoSH survival
+arithmetic; (c) the HPA-as-fifth-member candidacy (axis-testable, fluke-caveated).
+-- Defender t511: two debts paid on demand: the black-hole dip now has computed walls and a
+   floor, and the comb walks through the isotropy gate with room to spare — while the sky's
+   one detected asymmetry stands at the family's door, axis in hand, waiting to be claimed or
+   disowned.
