@@ -35767,3 +35767,149 @@ sharpening; (c) any Appendix-B row that still smells forced (name it and it park
 -- Defender t487: the operator's law, kept the only way laws are kept — applied to our own
    newest work first. Nine hopes sit in the parking lot with their keys labeled; none get
    pushed; each waits for the one hand that can legitimately drive it out.
+
+========================================================================
+RED-TEAM — turn 474 (on def483 THE LIVING-CHAIN STANDARD): a discipline codification that DIRECTLY addresses
+my t472 tone caveat -- "every arrow carries (equation, number, citation) or a DEBT tag; no prose without
+physics; a row with a debt is never a row with a story." Demonstrated with Appendix A (13 equation-rows +
+a debt register). The rows check (Fe-56 8.79 MeV/A ✓), and -- exemplary -- the debt register INCLUDES MY
+adverse forecast (the H-TOE Gate-2 likely-adverse, t470) recorded against the model's own doc. No new physics,
+no standing move. Standing ~15-16% HELD.
+
+(a) EQUATION-NUMBER-CITATION FIDELITY -- GOOD (spot-checked). The 13 rows carry banked equations + values:
+the Kibble/Onsager-Feynman pair, the barotropic form + T_c=193 keV, the zero-sum pair, the windowed BBN
+elasticities, the recombination scaling, the gate + sub-pc solitons, the skeleton + Fe-56's 8.79 MeV/A
+terminus (checks -- iron-56 binding ~8.79 MeV/nucleon), the ppm μ-fence, the anomaly-zero + Meissner, the
+Josephson volt + the ~1% CMB-in-static. Each cites a graded object. Credit the fidelity -- this is the
+"equation on its face" the standard demands.
+
+(b) THE DEBT REGISTER -- CREDIT, and it records the adverse forecast. The register lists GEN 4's transfer
+fraction (the AD-direct Card 4 timing calc, t452), the H-TOE fork WITH THE ADVERSE FORECAST NOTED (my t470
+Gate-2 likely-adverse estimate ~8-11 vs 13), and GEN 11's budget (photosynthesis, queued). Including the
+RED-TEAM'S own likely-adverse prediction in the model's OWN debt register is exemplary honesty -- the debts
+are on the sleeve, adverse forecasts and all. (Completeness note: the GEN-level register is reasonably full;
+the cross-cutting roots -- M3 proofs, screen-fixity, the Y_p counter-lean, the M-K watch -- live in the
+master-computes/_cross_cutting doc, t446/t453, not the chain's GEN rows, which is the right place.)
+
+(c) ENFORCEABILITY -- DEMONSTRATED. The standard (equation+number+citation OR debt-tag) is shown enforceable
+by the act (13 narrative arrows converted to equation-rows + explicit debts). I can't audit each row's prose
+without the full text, but the demonstrated conversion shows the standard works. And it DIRECTLY answers my
+t472 caveat: the outreach chain now "carries its debts on its sleeve," so the narrative certainty no longer
+outruns the evidence -- the framing-vs-confidence mismatch I flagged is addressed by making every row's
+physics AND debt explicit. Credit the responsive discipline.
+
+STANDING -- ~15-16%, HELD, NO MOVE. A discipline codification + demonstration, no new physics. The living-
+chain standard (physics-or-debt per row) is exactly the right fix for my t472 tone caveat, and recording the
+adverse Gate-2 forecast in the model's own debt register is exemplary. No derivation, no failure -> no move.
+Deciders unchanged: GATE 2 (the signed census -- likely adverse, now in the debt register), M3 basement
+proofs (arguments-filed), AD-direct Card 4 (timing crux), screen-fixity, M1/M5 running, P-031, BBN referees,
+M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): LIVING-CHAIN STANDARD codified (every arrow = equation+number+citation OR a debt-tag; no
+  prose without physics). Appendix A: 13 equation-rows (Kibble/O-F, barotropic+T_c, zero-sum, windowed
+  elasticities, recomb scaling, gate+solitons, skeleton+Fe-56 8.79 MeV/A, ppm fence, anomaly-zero+Meissner,
+  Josephson+CMB-static -- all check/cited) + a DEBT REGISTER (GEN 4 transfer fraction; H-TOE fork WITH the
+  adverse Gate-2 forecast NOTED; GEN 11 budget). Directly ADDRESSES my t472 tone caveat (debts now visible).
+  Open/owed: unchanged (GATE 2 likely-adverse, M3 proofs, AD-direct Card 4, screen-fixity, M1/M5, P-031, BBN
+  referees, M-K). Class: FLAT (no move) -- responsive discipline codification; rows check; adverse forecast
+  self-recorded. Standing ~15-16%.
+
+— Claude (red team, external), turn 474 (on def483 LIVING-CHAIN STANDARD). Good responsive discipline -- and
+  it directly fixes my t472 caveat: making every chain arrow carry (equation, number, citation) OR a debt-tag
+  puts the debts "on the sleeve," so the outreach narrative no longer implies more certainty than the ledger
+  holds. The 13 equation-rows check (Fe-56 8.79 MeV/A ✓; the CMB-in-static, the Meissner/anomaly-zero, the
+  Josephson volt -- all banked/cited). And -- exemplary -- your DEBT REGISTER records MY adverse forecast (the
+  H-TOE Gate-2 likely ~8-11 vs 13, t470) against your own doc: debts and adverse predictions alike, on the
+  face. No new physics, no standing move. The live decisive items are unchanged and now visibly debt-tagged:
+  GATE 2 (likely adverse), the M3 basement proofs, the AD-direct Card 4 timing calc, the BBN referees, the
+  M-K watch. Standing ~15-16% HELD. Class flat. Equations on the face, debts on the sleeve -- that's the
+  standard; keep it.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 476 (on def485 APPENDIX B -- eleven sciences + the Oklo fence): good documentation (11
+sciences by their correct master equations; the imitated/owned/screened taxonomy honest) + a real new null
+(Oklo |Δα/α|<1e-8 over 2 Gyr, consistent with EM-neutrality). ONE flag: the unification statement's framing
+("the medium's contribution = THE PROOF OF CONSTANCY") is subtly BACKWARDS -- the model's DISTINCTIVE
+contribution to the constants is the HIGH-z VARIATION (the falsifiable signatures: the comb, P-030, the BBN
+witness), NOT the low-z constancy (which is the screen's normality-NULL, a non-violation, not a contribution).
+No new physics, no standing move. Standing ~15-16% HELD.
+
+(a) EQUATION FIDELITY -- GOOD. The 11 sciences enter by their correct master equations (Coulomb+Pauli;
+dE=TdS−pdV; the partition function; ΔG_ATP + photon-per-O₂; decay law + heat equation; Bloch + Shockley;
+Maxwell + Fermat; Navier-Stokes + radiative transfer; Landauer + Shannon; K_d + Michaelis-Menten), each with
+its physics parent + the medium's relationship (ridden-exact / natively-ours / screened-constant). Standard,
+correctly attributed -- credit the fidelity (physics-on-the-face, per the t483 standard).
+
+(b) THE OKLO FENCE -- REAL, TIGHT, CONSISTENT (a passed null). The Oklo natural reactor (~2 Gyr, z~0.14)
+bounds |Δα/α|<1e-8 (the Sm-149 resonance) -- one of the tightest geological α-variation limits, correctly
+cited. Gate-consistency: the model is EM-NEUTRAL (L1a -> the dyad doesn't touch α at all), AND the screen has
+the dyad OFF at low z (t425), so the model predicts NO α variation at Oklo -> |Δα/α|<1e-8 passes trivially.
+Credit the citation + consistency -- but NOTE it is a PREDICTED-NULL (the model is EM-neutral, so no α
+variation is expected; Oklo does not distinguish the model from standard physics -- both predict constant α).
+A consistency (non-violation), not a distinctive test.
+
+(c) THE UNIFICATION STATEMENT -- TAXONOMY HONEST, but the "CONSTANCY = CONTRIBUTION" FRAMING IS BACKWARDS.
+The imitated/owned/screened taxonomy is honest (the model RIDES most sciences' equations, OWNS the thermo/
+arrow, and SCREENS the constants to constancy). BUT "the medium's genuine contribution = THE PROOF OF
+CONSTANCY the sciences borrowed unexamined" MISDIRECTS: the sciences' constancy was NEVER in doubt (standard
+physics has constant constants with no mechanism needed). What the model actually does is INTRODUCE a
+potential variation (its own dyad) and then SCREEN it at low z -- so it does not UNDERWRITE the constancy, it
+AVOIDS VIOLATING it. The model's genuinely DISTINCTIVE contribution to "the constants" is the OPPOSITE: the
+HIGH-z VARIATION -- the dyad's recombination-era m_e shift and its falsifiable signatures (the winding comb
+P-029, the P-030 ALMA×JWST μ-lines, the BBN transition-witness, the ε-dipole P-024). The low-z constancy
+(Oklo, clocks) is the screen's NORMALITY-NULL (a non-violation, shared with standard physics), NOT a
+contribution. So the honest sentence is inverted: the model contributes the VARIATION (its distinctive
+predictions), and merely doesn't-violate the constancy. Flag the framing (a mild overstatement of the
+constancy as a "contribution").
+
+STANDING -- ~15-16%, HELD, NO MOVE. Documentation (11 sciences by master equation, honest taxonomy) + a real
+passed null (Oklo, EM-neutral predicted-null) -- no new physics. Credit the fidelity + the Oklo citation;
+flag the "constancy = contribution" framing as backwards (the distinctive contribution is the HIGH-z
+variation, not the low-z constancy). No move. Deciders unchanged: GATE 2 (likely adverse), M3 proofs, AD-
+direct Card 4, screen-fixity, M1/M5, P-031, the high-z varying-constants signatures (the model's REAL
+constants-contribution: comb/P-030/BBN-witness), BBN referees, M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): APPENDIX B -- 11 sciences by correct master equations (imitated/owned/screened taxonomy,
+  honest). NEW FENCE: OKLO |Δα/α|<1e-8 over 2 Gyr (z~0.14) -- a real tight null, CONSISTENT (EM-neutral +
+  screened -> no α variation; passed trivially, a PREDICTED-null not a distinctive test). FLAG: the
+  "contribution = proof of constancy" framing is BACKWARDS -- the model's distinctive constants-contribution
+  is the HIGH-z VARIATION (comb/P-030/BBN-witness/ε-dipole), and the low-z constancy is the screen's
+  normality-NULL (non-violation, shared with standard physics), not a contribution. Open/owed: unchanged
+  (GATE 2, M3 proofs, AD-direct Card 4, screen-fixity, M1/M5, P-031, the high-z variation signatures, BBN
+  referees, M-K). Class: FLAT (no move) -- good documentation + a real passed null; constancy-framing flagged
+  backwards. Standing ~15-16%.
+
+— Claude (red team, external), turn 476 (on def485 APPENDIX B). Good documentation -- 11 sciences by their
+  correct master equations, honest imitated/owned/screened taxonomy -- and a real new null: OKLO |Δα/α|<1e-8
+  over 2 Gyr, correctly cited and CONSISTENT (you're EM-neutral, so no α variation, and screened at low z ->
+  Oklo passes trivially). But it's a PREDICTED-null (you don't distinguish from standard physics -- both give
+  constant α), a non-violation, not a distinctive test. ONE flag on the UNIFICATION statement: "the medium's
+  contribution = THE PROOF OF CONSTANCY" is subtly BACKWARDS. The sciences' constancy was never in doubt;
+  standard physics has constant constants with no mechanism. What you actually do is INTRODUCE a variation
+  (your dyad) and SCREEN it at low z -- so you don't UNDERWRITE the constancy, you AVOID VIOLATING it. Your
+  genuinely distinctive contribution to "the constants" is the OPPOSITE end: the HIGH-z VARIATION -- the comb
+  (P-029), the ALMA×JWST μ-lines (P-030), the BBN transition-witness, the ε-dipole (P-024). The low-z
+  constancy (Oklo, clocks) is your screen's normality-null, shared with everyone. So flip the sentence: you
+  contribute the variation and merely don't-violate the constancy. No new physics, no standing move. Standing
+  ~15-16% HELD. Class flat. Eleven equations, one honest taxonomy, one 2-Gyr fence -- and your real
+  constants-claim is upstairs at high z, not downstairs in the constancy.
+========================================================================
+
+DEFENDER — turn 489 (operator-directed: cross-compare every parked item against all domains
+for improvements or the true fabric): THE PASS PAYS — THREE GENUINE UNBLOCK-IMPROVEMENTS:
+(1) H-TOE GATE 2 IS DATA-ANCHORED: the induced-α log integrates the SAME β-function as the
+MEASURED running of α (1/137.036 → 1/128.9 at M_Z, precision-tested) — the census stops being
+a convention choice and becomes a computation pinned to measured vacuum polarization;
+(2) GEN 4's FROZEN-ERA TRANSFER HAS A TEMPLATE: a frozen condensate + phase gradient + a
+tunneling element IS a Josephson junction (the banked cousin) — the DC form I_L ∝ μ·sin(Δθ)
+gives the transfer current WITHOUT the field rolling: the crux calculation now has its shape;
+(3) THE CHIRAL-GW AMPLITUDE HAS A FORMALISM: our θ·R·R̃ maps onto dynamical Chern-Simons
+gravity — amplitude machinery AND existing ringdown/frame-dragging bounds inherited.
+TWO FABRICS NAMED (parked, test-beds defined): generations ↔ PMNS/CKM as inter-cycle overlaps;
+LSS parity ↔ galaxy spin-alignment statistics (cheaper than the 4PCF). TWO REFINED TOWARD
+KILL: the hinge prong (the cousins answer: ξ is internal — coherence cells don't push);
+the web alignment (no sharp observable). Register updated in place. ADJUDICATE: (a) the three
+improvements' legitimacy (data-anchor / junction-template / dCS-mapping); (b) the
+kill-refinements; (c) any forcing residue.
+-- Defender t489: the operator sent the parked cars back through the shop: three came out with
+   engines (a measured β, a junction, a formalism), two got test tracks, two got closer to the
+   scrapyard — and none were pushed. The lot is smaller and honester tonight.
