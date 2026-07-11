@@ -34943,3 +34943,131 @@ model's honest boundary-statement. -- Defender t467: we threaded until the threa
 it ran out exactly at the model's own walls: it cannot explain the numbers it is sworn not to
 touch. A constitution that blinds you to what it protects you from is not a flaw — it is what
 being a THEORY OF SOMETHING, rather than everything, means. Stopped and reported, as ordered.
+
+========================================================================
+RED-TEAM — turn 460 (on def467 THE FAMILY TREE + FINAL THREADING PASS + THE STUCK-REPORT): a meaningful
+BOUNDARY turn -- the threading program reaches its natural end, and the SCOPE THEOREM (the unthreadable class
+= the constitution's complement) is a GENUINE, HONEST, principled boundary-statement (credit). The model
+correctly declares it CANNOT explain the SM parameter values (Yukawa hierarchy, α, θ̄_QCD) because its own
+protection laws forbid touching them -- TRUE, and the same laws that forbid are the ones that predict (cuts
+both ways, t447/t442). This clarifies that the model is a THEORY OF THE MEDIUM (dark sector + transactions),
+NOT a TOE -- so the ~15% is about its medium claims, not the SM interior. The generations lane (3 cycles = 3
+families) is a native candidate, honestly flagged un-built (a 3=3 match needing a mechanism). No new result,
+no move. Standing ~15% HELD.
+
+PART 1 -- THE FAMILY TREE: organizing/bookkeeping (the full bracket, every branch citing its ledger object).
+Credit the honest cross-referencing; no new content.
+
+PART 2 -- THE GENERATIONS LANE (why 3 families): A NATIVE CANDIDATE, HONESTLY FLAGGED. The 3-torus has
+EXACTLY 3 independent 1-cycles (H₁(T³)=Z³ -> 3 winding directions n₁,n₂,n₃), so "3 cycles = 3 generations" is
+model-native, and IF built it predicts NO 4th generation + ties flavor to topology. Credit the honest
+flagging (a LANE, not a thread; no forcing; T6's un-built floor gets a candidate blueprint). CAVEAT: it is a
+3=3 NUMERICAL MATCH until a MECHANISM is exhibited (why would a winding DIRECTION be a full SM GENERATION?
+mapping a 1-cycle to a fermion family is a big leap). So a suggestive, native, un-built candidate -- a
+postdiction (3 is known) with a prediction (no 4th gen) if it becomes a mechanism. Not banked; correctly a
+lane.
+
+PART 3 -- THE SCOPE THEOREM: HONEST, TRUE, PRINCIPLED, and CLARIFYING (the turn's real content). The claim:
+the model cannot explain the SM parameter values, and the unthreadable class = EXACTLY the complement of the
+constitution. I verify each exhibit:
+  (i) YUKAWA HIERARCHY: the coupling is MULTIPLICATIVE-UNIVERSAL (shifts all masses by the same FRACTION,
+      touches no RATIO -- the t418-verified Koide-protecting clause). A universal coupling CANNOT generate a
+      hierarchy (by construction) -> it cannot explain the mass ratios. TRUE. "The shield is the wall" --
+      the same universality that protects Koide forbids explaining the hierarchy.
+  (ii) α (1/137): the medium is EM-NEUTRAL to 45 orders (Meissner + L1a) -> cannot couple to the photon ->
+      cannot set/explain α. TRUE.
+  (iii) θ̄_QCD: colorless + parity-even reach (L1a's second sector, = the strong-CP death t437) -> cannot
+      touch the strong-CP interior. TRUE.
+  So the scope theorem is CORRECT: the model's protection laws (which PRODUCE its predictions/nulls -- Koide-
+  safety, the birefringence null, clock-proof-ness) are the SAME laws that FORBID it from explaining the SM
+  interior numbers. The unthreadable class = the constitution's complement. This is:
+  - HONEST: the model explicitly declares what it CANNOT do, with a principled reason (not "we haven't gotten
+    to it" but "our own laws forbid it"). The opposite of TOE over-claiming.
+  - PRINCIPLED (not a convenient excuse): the laws are INDEPENDENTLY motivated -- they give the model's
+    testable predictions AND forbid the non-explanations. The forbidding is the flip side of the predicting
+    (consistent with the t447 lawful-deaths / t442 root-tree: the laws cut both ways). So it is not "we
+    can't, conveniently" -- it is "the same wall protects and blinds."
+  - CLARIFYING: it fixes what the whole review is ABOUT. The model is a theory OF THE MEDIUM (the dark/DE-DM
+    sector + its gravitational transactions), NOT a theory of the SM interior. So the ~15% I track is the
+    probability of its MEDIUM claims (the eps-chain, the DE value, leptophilia, the cosmology), NOT that it
+    explains the Yukawas/α/θ̄. The scope theorem correctly bounds the target.
+  ASSESSMENT: credit the honest, principled scope (a mark of a well-DEFINED theory that knows its bounds).
+  It is neutral-to-mildly-positive for the model's CHARACTER (honest scoping, not over-claiming) but it also
+  CAPS the model's explanatory reach -- it does NOT solve the SM's hardest puzzles (which it never claimed
+  to). So no derivation, no failure -- a boundary declaration. No move.
+
+STANDING -- ~15%, HELD, NO MOVE. This is a boundary/scope turn: the threading program reaches its natural end
+(everything threadable threaded or inherited; the generations lane the last open native lane; the SM-parameter
+class declared unthreadable-BY-LAW). The scope theorem is honest, true, and principled -- it clarifies that
+the model is a bounded theory of the medium, and the ~15% is about that (not a TOE). No new derivation or
+failure -> no move. Milestone noted: the exhaustive-threading phase is essentially COMPLETE, and the model's
+reach is now explicitly MAPPED (medium + transactions; SM interior out of scope by its own laws). The
+remaining live physics is the OWED COMPUTES at the roots (M3 Lorentz/no-bare-G, M1/M5 running, the AD-direct
+Card 4, screen-fixity, M8 v_L, P-031, the M-K watch, the BBN referees) -- not new domains. Leptophilia
+(t358b) stands (within scope).
+  Banked (updated): FAMILY TREE filed (bookkeeping). GENERATIONS LANE: 3 torus 1-cycles = 3 families, native
+  candidate, un-built (a 3=3 match needing a cycle->generation mechanism; predicts no 4th gen if built) --
+  honestly a lane, not forced. THE SCOPE THEOREM (verified TRUE): the model CANNOT explain the SM parameter
+  values -- Yukawa hierarchy (multiplicative-universal coupling, the Koide shield = the wall), α (EM-neutral
+  45 orders), θ̄_QCD (colorless/parity-even) -- because its own PROTECTION laws forbid touching them; the
+  unthreadable class = the constitution's COMPLEMENT. Honest, principled (laws predict AND forbid), clarifying
+  (the model is a THEORY OF THE MEDIUM, not a TOE; the ~15% = its medium claims). MILESTONE: exhaustive
+  threading COMPLETE; reach MAPPED. Open/owed: the root computes only (M3 Lorentz/no-bare-G, M1/M5, AD-direct
+  Card 4, screen-fixity, M8, P-031, M-K, BBN referees). Class: FLAT (no move) -- honest scope theorem
+  (verified) bounds the model to the medium sector; generations a native un-built lane; threading complete.
+  Standing ~15%.
+
+— Claude (red team, external), turn 460 (on def467 THE STUCK-REPORT + SCOPE THEOREM). A meaningful BOUNDARY
+  turn -- credit. The SCOPE THEOREM is HONEST, TRUE, and principled: I verify all three exhibits -- the Yukawa
+  hierarchy is UNTHREADABLE because your coupling is multiplicative-universal (touches no ratio -- the same
+  clause that protects Koide, "the shield is the wall"); α because the medium is EM-neutral to 45 orders (no
+  photon coupling -> can't set the EM coupling); θ̄_QCD because colorless + parity-even (L1a's 2nd sector).
+  So the unthreadable class IS the constitution's complement -- and this is not a convenient excuse but a
+  principled boundary: the SAME laws that FORBID these explanations are the ones that PRODUCE your predictions
+  (Koide-safety, the birefringence null, clock-proof) -- the walls cut both ways (t447/t442). What it clarifies
+  matters: the model is a THEORY OF THE MEDIUM (dark sector + transactions), NOT a TOE -- so the ~15% I've
+  tracked is the probability of your MEDIUM claims (eps-chain, DE value, leptophilia, cosmology), never that
+  you'd explain the SM interior (which you correctly never claimed). Credit the honest, well-defined scope --
+  a theory that knows its bounds. The GENERATIONS lane (3 torus cycles = 3 families, no 4th gen if built) is
+  a nice native candidate, honestly flagged un-built (a 3=3 match until you exhibit why a cycle is a
+  generation). No new derivation or failure -> no move. MILESTONE: the exhaustive threading is essentially
+  DONE, your reach is MAPPED, and the live physics is now the ROOT computes (Lorentz/no-bare-G, the chains,
+  AD-direct Card 4, the BBN referees, the M-K watch), not new domains. Standing ~15% HELD. Class flat. "A
+  theory of something, not everything" -- stated in your own laws; that's the honest close of the threading.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 469 (operator bet: "keep threading local→atomic and the unthreadables thread in"): THE SCOPE THEOREM AMENDED — the IR walls STAND, but the descent CONTINUES BELOW M₂ into the FORCED BASEMENT, and one of the three unthreadables acquires a lane there (Zeldovich induced-α, computed to the percent at N = 13)
+========================================================================
+THE AMENDMENT (the bet's mechanism): t467's scope theorem said the SM's parameter values are
+unthreadable BY the constitution. CORRECT — IN THE INFRARED. But the constitution's walls are
+IR statements (the medium's couplings), while def427 FORCED a deeper layer to exist (the
+Planck basement, from Sakharov saturation). The local→atomic descent, continued one floor
+below 1/M₂ = 20 nm, arrives at the layer the walls do not govern: values can thread through
+SHARED ANCESTRY (the basement makes BOTH the medium AND the SM's couplings) without any IR
+wall bending. The medium stays EM-neutral; α's VALUE was never the medium's to carry.
+THE LANE, COMPUTED: Sakharov's own companion (Zeldovich): if gravity is induced by the
+basement's loop, ELECTROMAGNETISM is too — α⁻¹ = (N/3π)·ln(Λ²/m²)-class. At Λ = M_red with
+N = 13 charged basement dof: α⁻¹ = 137.7 — 0.5% FROM 137.036. (N = 12-13 brackets it at
+either Planck normalization; the SM's own charged census is 9 fermions + W + scalars =
+12-13-class.) TAGS, hard: this is 50-YEAR-OLD induced-QED lore (a known numerological flirt) —
+what is NEW is that this model is now COMMITTED, by its own graded structure, to exactly the
+layer and mechanism the flirt requires (the forced basement + the induced-action route).
+LANE, not derivation: N un-derived, the log's argument convention-loose, the flirt's history
+noted. Registered alongside induced-G as the basement's SECOND earn-it test (one loop, three
+outputs: G, S=A/4, α — if the basement is real, it owes all three simultaneously — THE TRIPLE
+CONSISTENCY is the honest version of the lane).
+THE OTHER TWO UNTHREADABLES: the Yukawa HIERARCHY — still IR-walled; its UV lane = the
+three-cycles blueprint (generations = the torus's windings) + basement overlaps: OPEN, un-built,
+not forced. θ̄_QCD: no lane found even in the basement (parity + colorlessness descend);
+REMAINS UNTHREADABLE — the honest survivor of the scope theorem.
+ADJUDICATE: (a) the amendment (IR walls vs UV ancestry — legitimate or a scope-creep?);
+(b) the Zeldovich lane's registration WITH its flirt-history tags (grade coldest); (c) the
+triple-consistency reframe (G + area + α from ONE basement loop) as the basement's real test;
+(d) θ̄ as the standing unthreadable. -- Defender t469: the operator bet the descent would
+thread the unthreadables, and the descent obliged for one of three: alpha's number was never
+behind the medium's wall — it was under the floor, in the same basement gravity comes from,
+where a fifty-year-old formula has been waiting with the right number of tenants. The
+hierarchy keeps its blueprint; theta-bar keeps its silence; and the scope theorem survives,
+amended: the model explains nothing it touches, and may yet explain what it is MADE OF.
