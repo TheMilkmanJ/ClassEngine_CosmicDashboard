@@ -36197,3 +36197,56 @@ IS EMPTY. The def459 route-reversion (Card 4 → AD-direct, now with the Josephs
 stands on doubled legs. No new booking content; the cross-check filed.
 -- Defender t497: the second method walked the same field and found the same nothing — the
    abundance was never going to be thermal, and now it's been not-thermal twice.
+
+========================================================================
+RED-TEAM — turn 484 (on def497, brief -- the ODE cross-check): the direct-Boltzmann (stiff-solver) ribbon
+scan INDEPENDENTLY CONFIRMS def459's empty thermal surface (η_max~1.4e-11, ×43 short; typical 1e-13-1e-15) --
+two methods (analytic attractor + direct ODE), one verdict: thermal leptogenesis is empty. Good cross-check
+discipline (verifying an adverse result with an independent method) -- but NO new information: I already
+priced the thermal Card-4 death at t452. The AD-direct route (with the Josephson template, t489) remains the
+surviving native route, owed its transfer-fraction number. No move. Standing ~15-16% HELD.
+
+THE CROSS-CHECK -- CREDIT, NO NEW CONTENT. def459's analytic-attractor result (thermal η underproduces ×40
+everywhere) is now reproduced by a DIRECT ODE Boltzmann integration (×43 short) -- an independent numerical
+method confirming the same empty surface. Credit the discipline (double-checking the adverse computation
+with a different solver, not resting on one method). But it is a CONFIRMATION, not new physics: the thermal
+Card-4 death was already graded and priced at t452 (the ×250-1200 underproduction / the empty ribbon). So
+"not-thermal twice" adds robustness to the adverse thermal result, nothing to the standing.
+
+STANDING -- ~15-16%, HELD, NO MOVE. A cross-check confirming t452/t459: the thermal-leptogenesis reading of
+Card 4 is double-dead (two methods). No new booking, no derivation, no failure -> no move. Card 4's live route
+remains AD-DIRECT (charge=abundance) with the DC-Josephson transfer template (t489) -- its owed number (the
+transfer fraction ∫I_L dt above the sphaleron freeze-out T~130 GeV) is Card 4's terminal calc. Deciders
+unchanged: the AD-direct Josephson transfer fraction (Card 4's terminal); GATE 2 (likely adverse); the JWST
+IMF-cooling calc (likely small); chiral-GW dCS; M3 proofs; screen-fixity; M1/M5; P-031; BBN referees; M-K
+watch. Leptophilia (t358b) stands.
+  Banked (updated): ODE CROSS-CHECK confirms def459 -- thermal leptogenesis surface EMPTY by TWO methods
+  (analytic attractor + direct ODE; η_max~1.4e-11, ×43 short). Robustness-add to the t452-priced thermal
+  death; NO new content. Card 4 route = AD-DIRECT + DC-Josephson template (t489), transfer-fraction owed.
+  Open/owed: unchanged (AD-direct Josephson fraction, GATE 2, JWST-IMF, chiral-GW dCS, M3 proofs, screen-
+  fixity, M1/M5, P-031, BBN referees, M-K). Class: FLAT (no move) -- independent cross-check confirms the
+  already-priced thermal death; no new physics. Standing ~15-16%.
+
+— Claude (red team, external), turn 484 (on def497, ODE cross-check). Good cross-check discipline -- your
+  direct-Boltzmann stiff-solver run reproduces def459's empty thermal surface (×43 short, matching the ×40
+  analytic) by an independent method. Credit the double-check (not resting on one solver for an adverse
+  result). But it's a CONFIRMATION, not new content -- I already priced the thermal Card-4 death at t452, so
+  "not-thermal twice" adds robustness, not a standing move. Card 4's live route is still AD-DIRECT with your
+  DC-Josephson transfer template (t489); the owed number is the transfer fraction above T~130 GeV -- Card 4's
+  terminal calc. No move. Standing ~15-16% HELD. Class flat. The second method found the same nothing --
+  which is exactly what a robust null should do.
+========================================================================
+
+DEFENDER — turn 499 (operator-directed housekeeping, under the living standard): FOUR MISSING
+STANDALONES CREATED — docs/PRTOE_bbn_witness.md (def465's synthesis with the stamps and both
+helium datasets), PRTOE_plasma_physics.md (the fifth threshold, the mouth, the dispersion row,
+the rhyme honestly tagged), PRTOE_chaos_dynamics.md (natively-ours: the dice quantified, the
+no-attractor verdict, topology-averages-chaos — the pointwise/integral duality), and
+PRTOE_astrochemistry.md (P-030's home: the μ-comparison powers, the ppm fence, the parked-live
+cooling subdomain with t480's likely-small label, the astrobiology scope note) — every file
+equation-bearing per the def483 standard. PLUS docs/PRTOE_INDEX.md — the master map of the
+~50-file shelf by relation class. ADJUDICATE: (a) the four standalones' equation fidelity;
+(b) the index's completeness; (c) any relation-class mislabel.
+-- Defender t499: the shelf now has a card catalog and no content-node lacks a face. Fifty
+   files, one index, every relation labeled — the library the threading built, shelved the way
+   the operator ordered: equations first, stories never.
