@@ -35553,3 +35553,99 @@ vs chemistry); (c) the Landauer null's kill-class registration.
 -- Defender t479: the canopy threads: chemistry's sameness is our screen at work, life drinks
    from the account through a straw of starlight, and every computer pays fees to the same
    ledger as the crunch. Nothing new grows on the tree — but every leaf now knows its root.
+
+========================================================================
+RED-TEAM — turn 470 (on def477 H-TOE REGISTERED WITH GATES): EXEMPLARY hypothesis-hygiene -- the operator's
+maximal TOE claim ("matter is MADE of the medium; the basement's tenants ARE the SM fields") is REGISTERED
+as a hypothesis (H-TOE) with three explicit gates, NOT argued, NOT banked, NO standing implications (the ~15%
+prices the medium-claims only, unchanged). Strong credit for refusing to inflate. GATE 2 (the census check)
+is the sharp near-term decidable test, and it correctly CORRECTS the earlier flavor-count to the proper
+charge-weighted signed sum -- BUT my cold estimate is that the proper N is ~8-11 (below 13), so GATE 2 is
+LIKELY ADVERSE (the naive 13 is probably a flavor-count artifact). GATE 3 (two listed inputs) is honest.
+Standing ~15-16% HELD (H-TOE adds nothing to the number, correctly).
+
+(a) H-TOE REGISTRATION -- EXEMPLARY, CREDIT. The operator wants the model to be a TOE; the defender does the
+RIGHT thing -- registers it as a NAMED HYPOTHESIS with three gates and "no standing implications," keeping it
+SEPARATE from the graded medium-claims and the ~15%. This is textbook hypothesis-hygiene: the ambitious claim
+is on the books as testable, not banked as a result. Consistent with the t460 scope theorem (the model IS a
+theory of the medium; H-TOE is the more-ambitious hypothesis, gated). Strong credit -- no standing move
+implied or taken.
+
+(b) GATE 2 -- THE CENSUS CHECK: THE SHARP FIRST TEST, correctly framed, LIKELY ADVERSE (my estimate). The
+closure's log-rigid N_q=13.0±0.1 (t468) must equal the SM's PROPERLY-counted charged content. CRUCIALLY, the
+defender CORRECTS the earlier framing: the naive roster (9 fermions + W + scalars ~ 12-13, FLAVOR-count) is
+NOT the right object -- the honest count is SIGNED and WEIGHTED (charge², color, Dirac 4/3-factors, the W's
+NEGATIVE vacuum-polarization). This is exactly right (the Zeldovich N is the vacuum-polarization coefficient,
+Σ Q²·N_c·(Dirac), NOT a flavor count -- addressing my t468 convention-dependence flag), and it turns the
+flirt into a DECIDABLE pencil-and-paper test. Credit the sharp, honest gating (defender flags "may or may
+not land on 13"). MY COLD ESTIMATE (flagging the likely outcome): the charge-weighted fermion sum is Σ Q²·N_c
+= leptons 3·1·1=3, up-quarks 3·(2/3)²·3=4, down-quarks 3·(1/3)²·3=1 -> ~8; times the ~4/3 Dirac factor ~10.7;
+minus the W's NEGATIVE contribution -> N ~ 8-11, BELOW 13. So the proper (charge-weighted, signed) count is
+LIKELY NOT 13 -- the naive "12-13" was an UNWEIGHTED flavor-count coincidence that the physical sum probably
+breaks. So GATE 2 is decidable AND likely ADVERSE for the α-lane / H-TOE. I flag this as the expected outcome
+(the defender honestly leaves it open; the proper count deserves the careful pencil-and-paper they queue --
+but my estimate says the naive 13 won't survive the weighting). If it DOES land ~13 after the full signed
+count, that would be a genuine surprise worth a real look; if ~8-11 (my expectation), the α-closure dies.
+
+(c) GATE 3 -- THE TWO-ACCEPTED-INPUTS CLAUSE: HONEST. Even H-TOE must DERIVE or formally ACCEPT θ̄ and the
+Born-rule value (the survivors of all floors, t437/t467/§12). "A TOE with two accepted inputs is still a TOE,
+but they must be LISTED, never hidden." Cold: defensible -- NO candidate TOE derives everything from nothing
+(all have some axioms), and 2 LISTED inputs is few. The discipline is the LISTING (θ̄ + Born rule as declared
+inputs, not hidden). So H-TOE would be "derive-all-but-2-listed," which is honest and a reasonable working
+TOE standard. Credit the honesty (the survivors are named as inputs).
+
+STANDING -- ~15-16%, HELD, NO MOVE. H-TOE is registered as a gated hypothesis with NO standing implications --
+correctly, the ~15% prices the medium-claims only, and the t468 M3 firming (~15-16%) stands. The turn's value
+is DISCIPLINE (the maximal claim on the books as testable, not banked) + the sharpening of the α-closure into
+a DECIDABLE census test (GATE 2). My cold flag: GATE 2 is likely ADVERSE (the proper charge-weighted count is
+probably ~8-11, not 13) -- so the α-lane's first real test may kill it; honest to leave open, but I expect it
+to fail. No number move (H-TOE separate by design). Deciders: GATE 2 (the signed census -- the near-term
+decidable test, likely adverse); GATE 1 (the M3 basement proof, arguments-filed t468); GATE 3 (list θ̄ +
+Born); + M1/M5 running, AD-direct Card 4, screen-fixity, M8 v_L, P-031, BBN referees, M-K watch. Leptophilia
+(t358b) stands.
+  Banked (updated): H-TOE REGISTERED (hypothesis-tagged, NO standing implications -- exemplary hygiene) --
+  the maximal reading (SM fields ARE the basement's tenants) with 3 GATES: G1 = the M3 basement PROOF (triple
+  G+S=A/4+α, arguments-filed t468); G2 = THE CENSUS CHECK (log-rigid N_q=13 must equal the SM's PROPER
+  charge-weighted SIGNED count -- correctly NOT the flavor-count; DECIDABLE pencil-and-paper, queued); G3 =
+  the survivors (θ̄ + Born-rule value must be DERIVED or LISTED as inputs -- honest). MY COLD FLAG: G2 is
+  LIKELY ADVERSE -- charge-weighted Σ Q²N_c·Dirac ~10.7 fermions minus W-negative ~ 8-11 < 13; the naive 13
+  is probably a flavor-count artifact. Open/owed: G2 (signed census, near-term, likely adverse); G1 (M3
+  proof); G3 (list inputs); + M1/M5, AD-direct Card 4, screen-fixity, M8, P-031, BBN referees, M-K. STANDING
+  ~15-16% HELD (H-TOE separate; no move). Class: FLAT (no move) -- exemplary hypothesis-hygiene; G2 the sharp
+  near-term test (likely adverse per my estimate). Standing ~15-16%.
+
+— Claude (red team, external), turn 470 (on def477 H-TOE WITH GATES). EXEMPLARY hypothesis-hygiene: you
+  register the operator's TOE claim ("everything is MADE of the medium") as a NAMED HYPOTHESIS with three
+  gates and NO standing implications, keeping it separate from the ~15% (which prices the medium-claims only).
+  Strong credit for not inflating. GATE 2 (the census check) is the sharp near-term test, and you correctly
+  CORRECT the framing -- the Zeldovich N is NOT a flavor count (9+W+scalars~13) but the PROPER charge-weighted,
+  SIGNED vacuum-polarization sum (Σ Q²·N_c·Dirac, W NEGATIVE). That is exactly the right object, and it's a
+  decidable pencil-and-paper test. COLD FLAG on the likely OUTCOME: my estimate of the proper sum is ~8-11
+  (charged fermions Σ Q²N_c ~8, ×4/3 Dirac ~10.7, minus the W's negative contribution), BELOW 13 -- so the
+  naive "12-13" looks like an unweighted flavor-count coincidence that the physical, signed count probably
+  BREAKS. So GATE 2 is decidable AND likely ADVERSE for the α-lane -- you honestly leave it open ("may or may
+  not land on 13"), and it deserves the careful signed count you queue, but I expect ~8-11, not 13. If it
+  lands ~13 after the full computation, that's a real surprise worth a look. GATE 3 (θ̄ + Born rule as LISTED
+  inputs) is honest -- a TOE with 2 listed inputs is defensible; the discipline is the listing. NO standing
+  move (H-TOE separate by design; the ~15-16% stands). Standing ~15-16%. Class flat. Thirteen is holding the
+  door -- but the signed census may not let it keep its grip.
+========================================================================
+
+DEFENDER — turn 481 (operator-directed): docs/PRTOE_the_great_chain.md — THE FULL GENEALOGY,
+thirteen generations from the vacuum to the living room, every arrow a ledger citation (the
+discipline section lists them; GEN 4's H-TOE fork tagged in place; no standing implications —
+the inheritance DAG read aloud as a life). The concrete closures the operator asked for:
+THE IRON SUPPLEMENT (GEN 8: iron = fusion's ash, the most-bound nucleus — the ladder's
+corrected champion def463 — forged where stellar burning ends, sunk into GEN 9's crusts,
+trusted because of GEN 10's uniformity-prediction); THE PLANTS (GEN 11: photosynthesis as a
+tap on the Weyl account — the arrow doc's license); THE IMAGES (GEN 12: vision and astronomy
+exist because of L1a's PROVEN blindness — the medium may not touch the mail); THE TV (GEN 13:
+QM's exactness in the transistors, the Josephson volt, Maxwell untouched — and the literal
+loop-closure: ~1% of analog static IS GEN 6, the CMB in the living room). ADJUDICATE:
+(a) citation fidelity per arrow; (b) the H-TOE fork's in-place tag; (c) the outreach-facing
+tone's compatibility with the ledger (nothing claimed beyond the graded record).
+-- Defender t481: the operator asked the medium for its autobiography and it runs thirteen
+   generations: nothing that needed deciding, one turn with a receipt, books balanced at zero,
+   fossils, furnaces, iron, a promise kept to a part per million, taps on the account, mail it
+   may not touch — and at the end, a screen full of snow in which, one flake in a hundred, the
+   whole story phones home.
