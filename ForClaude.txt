@@ -32997,3 +32997,130 @@ nothing hardens until its file clears. No adjudication requested (housekeeping);
 mis-prioritized.
 -- Defender t431: thirteen threads, thirteen bills, one folder — the sweep converted from a
    trophy shelf into a work queue, which is what it always was.
+
+========================================================================
+RED-TEAM — turn 426 (on def431 THE DUE-DILIGENCE LEDGER -- housekeeping): the discipline is EXACTLY right
+and I credit it strongly -- coupling every thread-claim to its owed debts ("nothing hardens until its file
+clears") converts the sweep from a trophy shelf into a work queue, which is the honest posture. The
+prioritization is SOUND on the big one: the LORENTZ PROGRAM (preferred-frame / W-W / F-F applicability) as
+the consolidated Achilles' heel is correctly THE pivot -- it gates #11, the emergent frame, and thus the
+whole emergent superstructure. TWO prioritization flags (per your request): (1) elevate CARD 4's n-SIGN to
+CROSS-CUTTING -- it gates the entire CHIRALITY FAMILY (baryon / magnetic-helicity / GW-chirality, three
+predictions on one integer), not one thread; (2) add SCREEN-FIXITY (C_ref + Vainshtein derived-not-tuned,
+t424) as a CROSS-CUTTING debt -- the whole "predictions = thin-screen residuals" map rests on it. Standing
+~15-18% HELD, no move.
+
+THE STRUCTURE -- CREDIT THE DISCIPLINE. A due-diligence ledger (one OWED-file per thread T1-T13, debts pulled
+from the t416/t418 grades + each doc's flags, + _cross_cutting.md + a README with grade statuses), formally
+coupling claims to debts so nothing banks until it clears, is the correct conversion of the threading sweep.
+It is the model holding ITSELF to the derive-vs-relabel standard (a thread is a candidate until its bill is
+paid). Strong credit -- this is the honest bookkeeping the review rewards.
+
+PRIORITIZATION -- SOUND ON THE PIVOT. The _cross_cutting.md items are right: the LORENTZ PROGRAM as the
+consolidated three-debt Achilles' heel is correctly THE highest-leverage debt (it is the preferred-frame
+F-F applicability + W-W + the LV pricing pass -- gating #11/no-bare-G and the entire emergent superstructure,
+t408/410/422). The zon-posterior propagation list (α_c -> c, m -> T1/T2) correctly identifies the second hub
+(the terminal c-node). The step-debt audit and no-bare-G are correctly standing. Good map.
+
+TWO FLAGS -- ITEMS TO ELEVATE TO CROSS-CUTTING (mis-prioritized as thread-local):
+  (1) CARD 4's n-SIGN is a CROSS-CUTTING debt, not a Card-4-local one. It underwrites the CHIRALITY FAMILY --
+      three independent parity predictions (baryon-asymmetry sign / magnetic-helicity sign, t415 / GW-
+      chirality sign, T10), ALL = sign(n). The GLOBAL-sign form of all three depends on the SAME uniform-vs-
+      domain-varying sign resolution (t401). So Card 4's n-sign clears (or sinks) three threads at once --
+      it belongs in _cross_cutting.md next to the Lorentz program, not buried in a single Card-4 file.
+  (2) SCREEN-FIXITY (t424) is a CROSS-CUTTING debt. The entire "predictions = thin-screen residuals" map
+      (t429) -- and thus the falsifiability of most threads (voids, dipole/comb, P-030, EP/clock tails) --
+      rests on the screen parameters (C_ref at z~50; the Vainshtein radius) being DERIVED/FIXED, not tuned
+      per-constraint. If the screen can be adjusted, every thin-screen signature can hide below sensitivity
+      and the framework evades. So screen-fixity underwrites the whole prediction map and should be a named
+      cross-cutting debt, not left implicit.
+  MINOR: the LEPTOPHILIA (t358b, the one banked derivation) carries a small residual -- the BBN ε re-price
+  (ε(BBN) via the early f_amp, ~3%, t404) -- worth a line so the one win isn't over-stated as exact.
+
+STANDING -- ~15-18%, HELD, NO MOVE (housekeeping). The debt-ledger is the right structure and the Lorentz-
+program prioritization is correct; my only additions are elevating Card 4's n-sign and screen-fixity to
+cross-cutting (both are multi-thread underwriters), plus the leptophilia BBN re-price as a minor line. Nothing
+derives or fails -- the value is that the sweep is now honestly a work queue. The leverage map stands: (A)
+the Lorentz program / preferred-frame F-F + no-bare-G (THE pivot -- clears #11 and the emergent superstructure);
+(B) the α_c/zon node (the terminal c-decider + m-propagation); (C) Card 4's n-sign (the chirality family);
+(D) screen-fixity (the prediction map); then the per-thread pricing (P-030, chiral-GW amplitude, low-ℓ C_ℓ,
+conv_g joint fit, superradiance windows, v_L, Koide 2/3, √3); + the running chains (PolyChord, eta(L,n),
+routeD/conv_desi). Leptophilia (t358b) stands (BBN re-price ~3%).
+  Banked (updated): DUE-DILIGENCE LEDGER filed (T1-T13 OWED-files + _cross_cutting + README) -- claims
+  formally coupled to debts, "nothing hardens until its file clears" -- correct discipline, strong credit.
+  Prioritization SOUND (Lorentz program = the consolidated Achilles' heel = THE pivot; zon propagation; step-
+  debt; no-bare-G). FLAGS (elevate to cross-cutting): (1) Card 4's n-sign gates the CHIRALITY FAMILY (3
+  predictions); (2) SCREEN-FIXITY (t424) underwrites the whole thin-screen prediction map. Minor: leptophilia
+  BBN ε re-price (~3%). Open/owed (leverage order): (A) Lorentz/preferred-frame F-F + no-bare-G; (B) α_c/zon;
+  (C) Card 4 n-sign; (D) screen-fixity; then per-thread pricing + running chains. Class: FLAT (no move) --
+  correct debt-ledger discipline; two cross-cutting elevations flagged. Standing ~15-18% held.
+
+— Claude (red team, external), turn 426 (on def431 DUE-DILIGENCE LEDGER). Housekeeping, and the discipline
+  is EXACTLY right -- credit: coupling every thread to its debts ("nothing hardens until its file clears")
+  honestly converts the sweep from a trophy shelf to a work queue. Prioritization is SOUND on the pivot --
+  the LORENTZ PROGRAM (preferred-frame F-F applicability + W-W + LV pricing) as the consolidated Achilles'
+  heel is correctly the highest-leverage debt (it gates #11/no-bare-G and the whole emergent superstructure).
+  TWO flags (mis-prioritized as thread-local -> elevate to CROSS-CUTTING): (1) CARD 4's n-SIGN gates the
+  CHIRALITY FAMILY -- baryon / magnetic-helicity / GW-chirality signs, three predictions on one integer,
+  whose global-sign form all hangs on the same uniform-vs-domain resolution; it clears or sinks three threads
+  at once. (2) SCREEN-FIXITY (C_ref + Vainshtein DERIVED-not-tuned, t424) underwrites the entire "predictions
+  = thin-screen residuals" map -- if the screen is adjustable, every signature hides below sensitivity. MINOR:
+  give the leptophilia (your one banked derivation) a line for its BBN ε re-price (~3%) so it's not over-
+  stated as exact. Otherwise the map is right. No move -- the sweep is now honestly a work queue. Standing
+  ~15-18% HELD. Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 433: THE AUTOPSY PROTOCOL (operator-directed: for every non-fit, confirm the death with red-team, audit for step-thinking, and check for missing co-threads) — EIGHT AUTOPSIES: one kill REOPENED, one run UN-MOOTED, one new thread found SAFE, five deaths standing for confirmation
+========================================================================
+A1 — MOND/RAR (killed at def423 on "range = ħ/(m·c) = 59 AU ≪ kpc"): STEP-THINKING FOUND —
+THE KILL IS UNSAFE, REOPENED. The kill silently set the force-carrier's mass = m (the fluid
+quantum). But the carrier is the AMPLITUDE MODE, whose mass in the broken/quartic phase is
+m_amp ~ √(2λ)·Ψ-class — and λ_phys is UN-PINNED (the same un-pinned λ as the BH/bounce floor).
+The force range ħ/(m_amp·c) could be ANYTHING from sub-AU to super-kpc. STATUS: RAR/MOND
+phenomenology moves from DEAD to OPEN-PENDING-m_amp — with the flag that a kpc-range
+gravitational-strength scalar force is ALSO dangerous (it must then explain why lensing/cluster
+dynamics stay standard) — the reopening cuts both ways. [+ the two-phonon (Casimir-class)
+channel noted as the sub-dominant alternative, un-priced.]
+A2 — LITHIUM (death by magnitude: −1.2% vs −70%): RAMP AUDIT — the death STANDS but the
+production runs used CONSTANT ε (a step): Li7 forms at T ~ 30-60 keV, BELOW T_c = 193 keV —
+MID-CONDENSATION, ε_eff = ε(1−T/T_c) ≈ 0.7-0.85ε. Direction unchanged (the response shrinks),
+death confirmed-shaped — but the T_c-WINDOWED PRyM RUN IS HEREBY UN-MOOTED (#40 called it moot
+for D/H safety; it is NOT moot for the Li/Y_p epoch-stamps — T13's ε(epoch) bookkeeping needs
+it). Queued.
+A3 — SPECTRAL DISTORTIONS (NEW THREAD, found safe by the ramp): the dyad turn-OFF at z ~ 50
+sits in FIRAS's y-era. A VIOLENT STEP would shock/radiate the binding/rest-mass readjustment;
+computed: the atomic-binding channel is ~3e-9 of ρ_γ (negligible) and the rest-mass exchange
+runs coherently through the MEDIUM (the order parameter absorbs it) — ADIABATIC IF RAMPED:
+the slow gate radiates NOTHING (the adiabatic theorem). VERDICT: FIRAS-safe with a
+DISCRIMINATOR: a sufficiently violent transition would have left μ/y marks — their absence is
+CONSISTENT with (and mildly prefers) the ramp over the step. Files into the step-debt audit
+(#14) as the transition's thermodynamic signature. The z_on = 4e7 onset sits beyond the μ-era:
+safe trivially.
+A4 — THE ISW EXCESS (stacked-void claims ~5× ΛCDM): dies on magnitude (the thaw's DE-clustering
+gives ~0.5% growth-side effects vs the order-of-magnitude claim) — DEATH FOR CONFIRMATION; the
+co-thread check: even paired with conv_g the lever is percent-class. No rescue found.
+A5 — THE COSMIC NUMBER-COUNT DIPOLE EXCESS (quasar/radio dipole ~2-5× kinematic): dies on
+magnitude (the ε-dipole is 6e-7; the excess wants ~1e-2-class) — DEATH FOR CONFIRMATION; the
+SALVAGE registered: IF the excess is real, its AXIS should be uncorrelated with our family axis
+(P-024/P-029/low-ℓ) — an anti-correlation consistency check for free (a correlated axis would
+be a coincidence our model does NOT predict — the excess is not ours).
+A6 — STRONG-CP: the co-thread check run (could the medium's phase relax θ̄_QCD axion-style?):
+NO — the Goldstone is leptophilic/colorless (census + t358): no color anomaly, no relaxation
+channel. DEATH FOR CONFIRMATION (the model honestly does not touch it).
+A7 — MUON g-2: no medium channel at reachable size (the portal at 3.5e17 GeV gives (m_μ/M)²
+~ 1e-31); the anomaly itself is dissolving lattice-side. DEATH FOR CONFIRMATION.
+A8 — THE A_L LENSING ANOMALY (NEW CANDIDATE, un-computed): the conversion channel and the m_e
+shift both touch peak-smoothing-vs-growth in opposite ways — whether the dyad stack moves
+effective A_L toward Planck's >1 preference is CHECKABLE IN OUR OWN CHAINS (sample or derive
+A_L in a dyad fit). Queued as a batch-4 thread candidate pending that check — not filed, not
+killed.
+ADJUDICATE each: (a) death confirmations for A4-A7; (b) A1's reopening (was the range-kill
+step-thinking? does the both-ways danger flag hold?); (c) A2's un-mooting; (d) A3's
+adiabatic/FIRAS thread + its step-vs-ramp discriminator; (e) A5's anti-correlation salvage;
+(f) A8's queue status.
+-- Defender t433: the protocol's first sweep: one corpse sat up when asked what its mass
+   actually was, one experiment came back from the moot pile, one silence (FIRAS) turned out
+   to be evidence for the ramp, and five deaths await your countersignature. Killing honestly
+   takes as much arithmetic as living.
