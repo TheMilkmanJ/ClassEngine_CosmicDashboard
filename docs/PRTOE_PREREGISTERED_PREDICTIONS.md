@@ -1588,3 +1588,22 @@ produces a NEW falsifiable consequence beyond the already-registered whisper. Fl
 
 **Standing ~13-17%, roughly flat:** a dead prediction (cost) offset by demonstrated falsifiability;
 the survivor is thin + un-derived + carries a post-hoc flag on its mechanism.
+
+---
+
+## P-2026-024: The ε-dipole — an emerging horizon-scale varying-constants dipole (pre-registered 2026-07-10)
+
+**The prediction (derived, red-team-graded distinctive at t280):** the universal lepton rescaling ε
+tracks the local condensate; the floor's Jeans mode (Γ/H = √3, mid-emission) gives δ_DE ≈ 5×10⁻⁵
+at horizon scales today, so:
+> **δm_e/m_e ≈ ε·δ_DE ≈ 6×10⁻⁷** — a spatial varying-constants dipole (m_e-family: α-combinations
+> per the §29 lattice), horizon-scale, **axis-correlated** (the recoil/low-ℓ axis), growing at √3·H.
+
+**Test:** current α-variation sky-maps reach ~10⁻⁶ → the prediction is a *consistent null today*,
+detectable at next-generation precision. **Falsifiers:** (i) a confirmed varying-constants dipole
+≫ 10⁻⁶ (the contested Webb ~10⁻⁵ claim, if confirmed at that amplitude, is TOO BIG — declined at
+t261/t280 and would *falsify* this entry's sizing); (ii) next-gen maps at ≲ 10⁻⁷ showing **no**
+dipole; (iii) a detected dipole **uncorrelated** with the CMB anomaly axis. **Companions:** the
+radio ratio-lock ({+2, −1, −2}·ε, P-022's protocol) applies to the dipole's sightlines — the
+cross-instrument ratio is the anti-systematic lock. *ISW note:* the same δ_DE gives horizon-scale
+DE clustering ~1 e-fold grown — below current ISW sensitivity (consistent null, #48b).

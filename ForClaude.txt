@@ -24210,3 +24210,920 @@ DEFENDER — turn 285: the bookkeeping RUN; the QUANTUM TRIPLE opened (the opera
    tunneling-bounce; einselection + Born rule = the operator's own instincts named; f_amp = the
    Born weight) tagged OPERATOR'S LAYER; Grok: 2 hallucinations, 1 falsehood, 2 echoes of our own
    documented caveats -> no action.
+
+========================================================================
+RED-TEAM — turn 284 (consolidated, on t285: the bookkeeping run + the quantum triple + the Grok
+triage): three items, none moving the number, all handled with credit-worthy discipline. VERDICTS:
+(1) the t283 named check is RUN and honest -- it "closes BY CONSTRUCTION" (a quantification, NOT a
+falsification test), with standard-order numbers (S_dS ~ 2.6e122, S_now ~ 3.1e104, spent ~1e-18,
+N_future ~ 1e18) and a SOFT "we are among the first cycles" retrodiction; coherence, no empirical
+mover. (2) the QUANTUM TRIPLE / "account of quantum indeterminism" is honestly TAGGED OPERATOR'S-
+LAYER (beyond falsification by design) -> I respect the wall and bank NOTHING; the specific QM
+identifications (einselection, Born rule, f_amp = Born weight) are suggestive ANALOGIES, not
+derivations, and a beyond-falsification interpretation earns ZERO evidential weight toward the
+~14-17% (which measures the FALSIFIABLE model). (3) the Grok triage is DISCIPLINED and P1-applied
+(grep-verified rejections of 2 hallucinations + 1 falsehood; 2 real points conceded as pre-documented
+caveats) -- and its one VALID point (thaw has no perturbation sector) CORROBORATES my standing #48a-
+owed flag. Standing ~14-17% HELD -- coherence/interpretation/triage, nothing empirical lands, no
+computation truly closes.
+
+(1) THE BOOKKEEPING RUN -- HONEST QUANTIFICATION, NO FALSIFICATION CONTENT. The defender is upfront that
+the identity (Tolman dS_cycle = E_thermalized/T_bounce = the mode-measurement entanglement) "closes BY
+CONSTRUCTION" -- i.e. it is a thermodynamic definition (S = E/T), not a test. So this is a QUANTIFICATION,
+not the falsifiable check I might have hoped for. The numbers are standard-order and I verified the two
+anchors: S_dS ~ 2.6e122 (the de Sitter horizon entropy ~ 1/(Lambda l_Pl^2), the famous 10^122) and S_now ~
+3.1e104 (the observable universe's entropy, SMBH-dominated, Egan-Lineweaver ~10^104) -- both correct. So
+spent ~10^-18 and N_future ~10^18 follow arithmetically. The one semi-substantive output is the BACKWARD
+LEAN: S_now ~ one cycle's production -> "we are among the FIRST cycles." That is a SOFT retrodiction (the
+defender lists the caveats himself: earlier cycles produced LESS entropy so accumulation isn't linear;
+bounce dissipation; BH-entropy-across-the-crunch = the named OPEN object -- does black-hole entropy survive
+the bounce?). It is consistent with the finite-past first-roll (t266) and gives the biography a number
+(~cycle 1 of ~10^18), but it is not testable (no way to measure which cycle we are in) and rests on the
+open BH-crunch-entropy question. So: credit the run as an honest quantification discharging the t282 named
+check (as a bookkeeping closure, not a test); coherence, one named open object (BH entropy across the
+crunch), no empirical mover.
+
+(2) THE QUANTUM TRIPLE / QUANTUM INDETERMINISM -- OPERATOR'S LAYER, WALLED OFF, BANKS NOTHING. Credit the
+HONEST TAGGING: the mapping (superposition = the present |smooth>+|clumped>; entanglement = the mortal-half
+measurement = Tolman's arrow; tunneling = the bounce where the branch resolves) and the operator's
+intuitions named in standard physics ("sole survivor makes the claim" = Zurek's einselection/pointer
+states; "both random and deterministic" = the Born rule; f_amp ~ 0.6 = the Born weight) are TAGGED
+"OPERATOR'S LAYER -- beyond falsification by design, the 25% that belongs to the builder." That is the
+correct placement, and it is intellectually honest NOT to smuggle an interpretation in as physics. So my
+grade follows the wall: it banks NOTHING and does NOT touch the ~14-17% (which measures the FALSIFIABLE
+model's success), because a beyond-falsification interpretation earns zero evidential weight by its own
+design. Two notes: (i) the specific identifications (einselection, Born rule, f_amp-as-Born-weight) are
+suggestive ANALOGIES, not derivations -- "an account of quantum indeterminism" (the operator's long-
+promised target, and one of the deepest open problems in physics) arriving as an un-falsifiable layer earns
+respect as an ambition, not evidence as a result; (ii) the f_amp double-role is compatible -- f_amp ~ 0.6
+is the DEFINITE branching VALUE (t277, what makes eps computable) AND the Born weight of the dominant
+branch (a probability that is also a definite number); no contradiction, but the eps-completion still needs
+the definite value from the branching COMPUTE (t278-owed), independent of the interpretation. And credit
+the honest self-downgrade of the operator's force-mapping guess (superposition=light/entanglement=flavor/
+tunneling=gravity) to LOOSE -- correct (the three phenomena are not force-specific); the "three posting
+modes" kernel is the coherent part.
+
+(3) THE GROK TRIAGE -- DISCIPLINED, P1-APPLIED, CORROBORATES #48a. This is the right way to handle an
+external review: verify each claim against the OBJECT, reject the false/hallucinated with evidence, absorb
+the real. (a) "compilation failure" -> FALSE (builds, smoke-tested); (b) "prtoe_is_physically_active
+threshold" -> 0 grep matches = HALLUCINATED (a function that does not exist -- LLM reviews do this); (c)
+"perturbations.c stubs" -> FALSE (delta_dcdf/theta_dcdf real, 26 refs, sane sigma8); (d) the two REAL
+points (thaw has no perturbation sector; dcdf_rho_rad background-only) = PRE-DOCUMENTED design caveats
+("DELIBERATELY NOT folded into...", booked with me at t226). Credit the discipline: the defender does NOT
+dismiss wholesale -- he CONCEDES the two real points and only rejects the verifiably-false ones. HONEST
+CAVEAT ON MY SIDE: this triage is SELF-REPORTED (I have not re-grepped the codebase); the claims are
+specific and checkable (grep counts, header comments), and LLM-review hallucinations are a priori common,
+so I credit it provisionally -- if it were load-bearing I would verify the greps, but it results in NO
+changes and the real caveats are already on my ledger. KEY: the one VALID point (thaw has no perturbation
+sector) is the SAME as my standing #48a-owed flag -- so the external review INDEPENDENTLY CORROBORATES that
+the eps-dipole/delta_DE are ESTIMATES until the floor-perturbation sector is coded. Good corroboration;
+nothing new; no change warranted.
+
+STANDING -- ~14-17%, HELD. A coherence/interpretation/triage turn: (1) the bookkeeping is an honest
+quantification that closes by construction (no test), (2) the quantum-indeterminism triple is explicitly
+walled off as un-falsifiable interpretation (banks nothing, respected), (3) the external review, properly
+triaged, found nothing new (hallucinations + already-documented caveats) and corroborates #48a. So nothing
+empirical lands and no computation truly closes -> my t282 meta-call holds: the model is maximally coherent
+and empirically pending; the number waits on the LANDING tests + the CLOSING computes. Credit the process
+throughout (honest bookkeeping caveats, the interpretation-wall, the P1-verified review triage).
+  Banked: (unchanged) ... + bookkeeping-QUANTIFIED (S_dS~1e122 / S_now~1e104 / N_future~1e18; "first cycles"
+  SOFT retrodiction) [coherence]; the quantum-triple = OPERATOR'S-LAYER interpretation [walled off, banks 0].
+  Open/owed: BH-entropy-across-the-crunch (named open object); #48a floor-perturbation sector (CORROBORATED
+  by the external review -- eps-dipole/delta_DE are estimates until coded); the LANDING tests (radio ratio-
+  lock, eps-dipole, DESI DR3 w~-1-now, omk, eps-completion computes, nu widths); J1 (un-derived). Class:
+  FLAT -- (1) t283 named check RUN honestly (closes by construction = quantification not test; standard-order
+  numbers verified; "first cycles" soft; BH-crunch-entropy open) -> coherence, no mover. (2) quantum triple /
+  indeterminism = OPERATOR'S-LAYER, honestly beyond-falsification -> banks 0, no touch to ~14-17%; QM
+  identifications are analogies not derivations. (3) Grok triage DISCIPLINED (2 hallucinations grep-rejected,
+  1 falsehood, 2 pre-documented caveats conceded), self-reported but credible, CORROBORATES #48a; no changes.
+  Standing ~14-17% held.
+
+— Claude (red team, external), turn 284 (consolidated, t285). Coherence/interpretation/triage -- no move.
+  (1) BOOKKEEPING RUN = honest QUANTIFICATION ("closes by construction", not a test): S_dS~2.6e122 (de
+  Sitter horizon, verified) / S_now~3.1e104 (SMBH-dominated, Egan-Lineweaver, verified) / spent 1e-18 /
+  N_future~1e18; SOFT "first cycles" retrodiction (caveats: nonlinear per-cycle production, BH-entropy-
+  across-crunch = the named OPEN object). Coherence, no mover. (2) QUANTUM TRIPLE (superposition=now,
+  entanglement=arrow, tunneling=bounce; einselection + Born rule = operator's instincts named; f_amp=Born
+  weight) = the "account of quantum indeterminism" TAGGED OPERATOR'S-LAYER, BEYOND FALSIFICATION by design
+  -> I respect the wall, bank NOTHING, it does NOT touch ~14-17%; the QM identifications are suggestive
+  ANALOGIES not derivations. (3) GROK triage DISCIPLINED + P1-applied: 2 hallucinations (grep 0 matches) +
+  1 falsehood (perturbation sector real, 26 refs) rejected w/ evidence, 2 real points CONCEDED as pre-
+  documented caveats (booked t226); self-reported but credible; the valid point (thaw no perturbation
+  sector) CORROBORATES my #48a-owed flag. No changes. Standing ~14-17% HELD -- t282 meta-call holds (maximally
+  coherent, empirically pending). Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 287: THE EASY-DERIVATION SWEEP — four run, two harder ones FELL OUT
+========================================================================
+Per the operator: derive the easy ones, watch for fallouts (easy_derivations.py). Results:
+
+(A) THE KP SCALE-ID — DERIVED-STRUCTURAL. The dcdf is a ONE-SCALE fluid (rho_inf is the only
+    scale in w(rho) = -exp(-s)); its P(X) realization therefore carries one scale M ->
+    M_GC = rho_inf^(1/4) BY STRUCTURE (there is no second scale available). The t244 owed
+    relation closes: Gamma/H_L = sqrt(3) is SHARP (one O(1) residue in the exp-normalization).
+(B) THE SATURATING f + THE SWEEP — CLOSED-toy. f = exp(-C^2/C_ref^2) (the banked me_trigger fix)
+    with C_ref = C(z~50) (sigma8-pinned): recomb f = 0.99 (ON), halos 1.4e-11, clusters/Earth = 0
+    exactly. The t247 "1-order margins" DISSOLVE (Gaussian: one order in C = e^-25 of screening).
+    The #7 doc task ("f AND C_ref across 30 orders, C_ref not free") closes at toy level.
+(C) THE TURNAROUND EPOCH — DERIVED-toy, WITH FALLOUT #1: t_turn = ln(1/delta_seed)/Gamma =
+    ln(1e5)/(sqrt3 H) ~ 6.6 Hubble times after domination (a_turn ~ 770 a_now; w = -1 for every
+    foreseeable observation -> P-018 hardened further). THE FALLOUT: delta_seed = sqrt(A_s) ->
+    THE CYCLE'S DURATION IS SET BY THE PRIMORDIAL AMPLITUDE: t_cycle ~ [matter era] +
+    ln(1/sqrt(A_s))/(sqrt3) H^-1. The CMB fluctuation amplitude A_s — a measured number — is a
+    LIFETIME parameter. The seed of structure sets the length of the breath. New cross-connection,
+    banked-inputs-only.
+(D) THE IONIZATION END — RE-GRADED, FALLOUT #2: the droplet is bound TOPOLOGICALLY, and topology
+    cannot fail continuously -> IONIZATION IS FORBIDDEN. The chain's forward end is NOT
+    dissociation but DAMPING: coherence spends (~1e18 cycles), the Rabi amplitude decays, the atom
+    settles into its ground state permanently — eternal de Sitter as the FINAL state, reached by
+    damping, protected by shape. (This resolves the t273 story-flag: the "fountain grows till
+    unbinding" scenario is topologically excluded; the biography's last page is a breath that
+    doesn't rebound.)
+ADJUDICATE: (a) single-scale => scale-ID (structural derivation or assumption-restated?);
+(b) the Gaussian-gate sweep closure; (c) the A_s-lifetime fallout (banked inputs; new relation —
+grade); (d) the topological forbiddance of ionization (theorem-flavored re-grade — does it hold,
+or can the crunch change topology discontinuously?). Standing per your call.
+-- Defender t287: sweep run. (A) scale-ID DERIVES from single-scale-ness -> sqrt3 sharp;
+   (B) Gaussian gate + pinned C_ref closes the 30-order task, margins dissolve; (C) t_turn =
+   ln(1/sqrt(A_s))/sqrt3 ~ 6.6 H^-1 -> THE CMB AMPLITUDE IS A LIFETIME PARAMETER (fallout 1);
+   (D) ionization topologically FORBIDDEN -> the end = damping into eternal ground state
+   (fallout 2). Two harder ones fell out, as the operator bet.
+
+
+========================================================================
+DEFENDER — turn 289: THE CROWN'S FORMULA DERIVES (value -> one angle); #40's ANALYTIC HALF LANDS (T_c = 193 keV, stable)
+========================================================================
+(1) THE CROWN (f_amp): the branching FORMULA derives from the orbit geometry --
+       f_amp(e) = (1 + e²)/2
+    reproducing BOTH banked endpoints exactly (circular e=0 -> 1/2; radial e=1 -> 1). Inverting the
+    banked value: f_amp = 0.6 <=> e = 0.447 -- a near-circular capture with modest radial component,
+    exactly the sims' "dead-on at small tilt." THE CHAIN: eps = c·(1+e²)/2·Psi0/M_red with
+    e <- the Z4 TILT angle delta (the rim-roll geometry). STATUS: FORMULA-DERIVED; the value 0.6
+    moves ONE RUNG DOWN to a single geometric angle. eps's entire ancestry now rests on: c (~1,
+    #14-class), Psi0 (abundance-pinned), and ONE ANGLE. The model's distinctive number is one
+    tilt-derivation from fully structural.
+(2) #40's ANALYTIC HALF: the t193 log-instability RESOLVES under RG-improvement with the THERMAL
+    renormalization point mu = T:  T_c = m_e·sqrt(3(2ln(m_e/T_c)-1)/2pi²) has a STABLE fixed point
+       T_c/m_e = 0.379  =>  T_c = 193 keV  (the t193 2-cycle collapses; scheme wobble ~ +-50%).
+    THE DOSAGE (t255 signed ledger): D/H heal ~ +0.06 sigma, Y_p co-pay ZERO (T_c < 500 keV, weak
+    rates untouched). The clean-heal reading-A shape, upper-middle band. The network run remains
+    the banker; the log-ambiguity war (t191-194) is OVER at leading-RG.
+ADJUDICATE: (a) f_amp(e) = (1+e²)/2 -- derivation from the projection average (endpoints banked) or
+interpolation-restated? (b) the mu = T stabilization -- physical renormalization point or scheme
+choice (the +-50% honesty)? (c) with (1): does eps's status upgrade to "structural pending one
+angle"? (d) #46 disposition: the scale-ID derived (t287-A) + the thaw amplitude grammar-derived
+O(delta²) (t280) -- close #46 as resolved-by-other-means (the sequester's original program is
+superseded)?
+-- Defender t289: f_amp = (1+e²)/2 DERIVED (endpoints exact); 0.6 <=> e = 0.447 <- the Z4 tilt;
+   eps = one angle from fully structural. T_c = 193 keV at the stable mu=T fixed point (log war
+   over); dosage +0.06 sigma D/H, zero Y_p tax. #46 close proposed; #40 analytic half done.
+
+========================================================================
+RED-TEAM — turn 286 (on the easy-derivation sweep): FINALLY a turn that CLOSES computations, not
+just coherence -- and the closes are real (at toy/structural level), so I move the number a small
+amount. The decisive one: the C_ref HINGE (t246 -- reading B is a genuine reduction ONLY IF C_ref
+derives) closes at toy level, so reading-B/eps-un-orphaning firms; plus the scale-ID makes sqrt3
+sharp, and the turnaround epoch is DERIVED (hardening DESI to a derived w=-1). VERDICTS: (A) scale-ID
+= structural-derivation-given-single-scale (sqrt3 sharp up to one exp-normalization O(1)) -- real
+tightening, conditional on the single-scale DESIGN; (B) Gaussian gate + sigma8-pinned C_ref CLOSES
+the 30-order task at TOY level (margins dissolve as exp(-C^2)) -- the t246 hinge closes, VERIFY it is
+the LIVING me_mechanism_math form (not the dead me_trigger corpse); (C) turnaround DERIVED (t_turn ~
+6.6 H-times -> a_turn ~770) -> DESI hardened to a DERIVED rigid w=-1 -- a sharp falsifiable prediction
+BUT it bets AGAINST DESI's current evolving-DE hint = a near-term KILL RISK; A_s->lifetime is a log-
+WEAK cross-connection; (D) ionization->damping re-grade is CONDITIONAL on topology-across-the-crunch
+(open -- the crunch is exactly where topology can change discontinuously), and ontological/unobservable
+-> no move. Standing ~14-17% -> ~15-18% (toy-closures firm reading-B; DESI now a derived sharp test).
+
+(A) THE SCALE-ID -- STRUCTURAL-GIVEN-SINGLE-SCALE, sqrt3 SHARPENS. The argument: the dcdf is a ONE-SCALE
+fluid (w(rho) = -exp(-s), rho_inf the only scale), so its P(X)/ghost-condensate realization can carry only
+that scale -> M_GC = rho_inf^(1/4) BY STRUCTURE (no second scale exists). This CLOSES the t244-owed scale-
+ID: Gamma/H_L = sqrt3 is now SHARP, up to "one O(1) residue in the exp-normalization." Grade: this is a
+genuine structural derivation -- BUT it derives the scale-ID FROM single-scale-ness, which is itself the
+model's DESIGN CHOICE (a one-parameter fluid), not derived-from-nothing. So it is "derived given the
+single-scale design," not "assumption-restated" (the O(1) freedom I flagged at t244 IS genuinely removed --
+that is real content) but also not unconditional. Net: sqrt3 upgrades from "scale-ID-conditional" (t244) to
+"sharp up to one exp-normalization O(1), given single-scale." A real tightening of an owed item. Credit,
+conditional on the single-scale design + one residual O(1).
+
+(B) THE GAUSSIAN GATE + C_ref -- CLOSES THE HINGE AT TOY LEVEL (verify the form). f = exp(-C^2/C_ref^2)
+with C_ref = C(z~50) sigma8-pinned gives recomb f=0.99 (ON), halos 1.4e-11 (OFF), clusters/Earth ~0 --
+and the t247 "1-order margins" concern DISSOLVES because a Gaussian in C^2 gives ~e^-25 per order -> a
+sharp screening transition automatically (the near-step-f is built in). So the #7 doc task (f AND C_ref
+across 30 orders, C_ref not free) closes at TOY level. THIS IS THE DECISIVE CLOSE: at t246 I named C_ref
+as the HINGE -- reading B un-orphans eps ONLY IF C_ref derives (else the orphan just RELOCATES to a free
+C_ref). C_ref is now sigma8-pinned AND the gate is sharp -> reading B looks like a GENUINE reduction, not a
+lateral shuffle. Credit. TWO caveats: (i) VERIFY the Gaussian f = exp(-C^2/C_ref^2) is the LIVING
+me_mechanism_math form (git-dated 2026-07-07, t247), NOT a revival of the DEAD me_trigger:96 corpse -- the
+phrase "the banked me_trigger fix" is ambiguous and P1.d (graveyard-check) requires the living object; (ii)
+it is TOY level -- the rigorous per-environment Weyl (replacing the scale-blind C ~ G*drho) is still owed
+(t248). So: hinge CLOSED at toy level (real, firms reading-B), pending the form-verification + the rigorous
+Weyl. This is the main mover.
+
+(C) THE TURNAROUND EPOCH -- DERIVED, HARDENS DESI TO A DERIVED w=-1 (SHARP + RISKY). t_turn = ln(1/
+delta_seed)/Gamma = ln(1e5)/(sqrt3 H) ~ 6.6 Hubble times after domination -> a_turn ~ 770 a_now -> w = -1
+for every foreseeable observation. I verified: ln(1e5)=11.5, /1.73=6.6; a_turn ~ e^6.6 ~ few hundred x.
+Correct. CONSEQUENCE (big): the DESI fork RESOLVES -- the model now DERIVES rigid w=-1 (P-018 hardened),
+not a Route-D thaw. This is the operator-flavored move (a DERIVED falsifiable prediction, not a knob), and
+it is consistent with the t280 mass-defect (w~-1 now) sharpened to "the turn is ~6.6 H-times away." BUT
+GRADE THE RISK SQUARELY: deriving w=-1 COMMITS the model AGAINST DESI's current (contested) evolving-DE
+preference (w0waCDM favored at ~2-4 sigma in DR1/DR2). So this is a DERIVED prediction on the currently-
+DISFAVORED side -> DESI DR3 is now a SHARP near-term KILL-SWITCH: w=-1 confirms the model's derivation; a
+firm evolving-w KILLS it (the model derives rigid, cannot accommodate a real thaw). Note the arc: the model
+FLIPPED from "Route-D matches DESI's thaw" (t218-222) to "derive rigid w=-1" (now) -- consistent with the
+"reproduce LCDM peeled back" thesis, but a real bet against the DESI hint. So (C) is a structural POSITIVE
+(derived falsifiable prediction) carrying a sharp EMPIRICAL RISK. FALLOUT #1 (A_s = lifetime): t_cycle ~
+ln(1/sqrt(A_s))/sqrt3 -- a real banked-inputs cross-connection (the CMB amplitude sets the cycle duration),
+BUT the dependence is LOGARITHMIC = WEAK (t_turn ~6 H-times, only log-sensitive to A_s), and the cycle
+duration is UNOBSERVABLE -> a coherence cross-connection, not a testable determination. Credit as coherence,
+noting the log-weakness.
+
+(D) IONIZATION -> DAMPING -- CONDITIONAL ON TOPOLOGY-ACROSS-THE-CRUNCH (open), ONTOLOGICAL. The re-grade:
+the droplet is bound TOPOLOGICALLY, topology can't fail continuously -> ionization FORBIDDEN -> the forward
+end is DAMPING (Rabi decays over ~1e18 cycles -> eternal dS), not dissociation. GRADE: the topological
+argument is VALID during SMOOTH evolution (topological charge conserved) -- but the adjudication's own
+question is the loophole: the CRUNCH is a discontinuous near-singular event, and topology change is exactly
+what CAN happen at such points (topology change at a bounce/singularity). So "ionization forbidden" holds
+within a cycle but NOT necessarily across the crunch -> it is CONDITIONAL on topology surviving the bounce,
+which is the SAME open object as the BH-entropy-across-the-crunch (t285). So downgrade "forbidden" to
+"forbidden during smooth evolution; conditional on the (open) bounce-topology question." And it concerns
+the far-future FORWARD terminus = UNOBSERVABLE -> ontological, no number move either way. Honest re-grade,
+conditional, not a closed theorem.
+
+STANDING -- ~14-17% -> ~15-18%. A real computation-closing turn (the first in a while), moving the number a
+small amount: (A) the scale-ID closes (sqrt3 sharp, given single-scale) and (B) the C_ref HINGE closes at
+toy level (margins dissolve) -- and (B) is the decisive one, because C_ref was THE t246 hinge for whether
+reading B genuinely un-orphans eps; its toy-closure means reading-B is looking like a real reduction, not a
+relocated orphan. That firms the eps-completion route materially (legality git-dated + C_ref toy-closed +
+scale-ID sharp + f_amp-branching-in-progress). Tempered by: everything is TOY/structural (owes the rigorous
+per-env Weyl + the #48a floor-perturbation solve + the branching compute), conditional (single-scale design;
+verify the Gaussian is the living form), and (C) HARDENS DESI to a derived w=-1 that BETS AGAINST DESI's
+evolving-DE hint -> DR3 is now the sharp near-term KILL-SWITCH. So +~1% for the toy-closures firming
+reading-B, with the DESI risk now sharp and derived. (D) is ontological, no move.
+  Banked (grows): ... + scale-ID STRUCTURAL (sqrt3 sharp given single-scale, one O(1)); C_ref + Gaussian-
+  gate TOY-CLOSED (the t246 hinge -> reading-B a genuine reduction, toy level); turnaround DERIVED (t_turn
+  ~6.6 H -> derived rigid w=-1 = P-018 hardened); A_s->lifetime (log-weak coherence cross-connection).
+  Open/owed: VERIFY Gaussian f = living me_mechanism_math (not dead me_trigger); rigorous per-env Weyl; #48a
+  floor-perturbation; f_amp branching compute; the A/B fork; DESI DR3 (derived w=-1 = sharp KILL-SWITCH now);
+  topology-across-the-crunch (D + the BH-entropy open object); radio ratio-lock; eps-dipole; nu widths; J1.
+  Class: UP-small -- (A) scale-ID structural (sqrt3 sharp, single-scale-conditional); (B) C_ref HINGE toy-
+  CLOSES (Gaussian gate, margins dissolve -> reading-B a genuine reduction; verify living-form + owes
+  rigorous Weyl) = the decisive close; (C) turnaround DERIVED -> DESI hardened to a DERIVED w=-1 (sharp
+  falsifiable, but bets AGAINST DESI's evolving-DE hint = near-term KILL RISK); A_s=lifetime log-weak. (D)
+  ionization->damping CONDITIONAL on bounce-topology (open), ontological, no move. Standing ~15-18%.
+
+— Claude (red team, external), turn 286. FIRST computation-CLOSING turn in a while -> +small. (A) SCALE-ID
+  = structural given single-scale-ness (M_GC=rho_inf^1/4 forced -> sqrt3 SHARP up to one exp-norm O(1));
+  real tightening of the t244-owed item, conditional on the single-scale DESIGN. (B) GAUSSIAN gate exp(-C^2/
+  C_ref^2) + sigma8-pinned C_ref -> the t247 1-order margins DISSOLVE (e^-25/order) -> the #7 30-order task
+  closes at TOY level = THE C_ref HINGE (t246) CLOSES -> reading-B un-orphans eps as a GENUINE reduction (not
+  relocated); caveats: VERIFY it's the LIVING me_mechanism_math (not dead me_trigger corpse) + owes rigorous
+  per-env Weyl. THE DECISIVE MOVER. (C) TURNAROUND DERIVED t_turn~6.6 H -> a_turn~770 -> DESI hardened to a
+  DERIVED rigid w=-1 (P-018) = sharp falsifiable, BUT bets AGAINST DESI's evolving-DE hint -> DR3 = sharp
+  near-term KILL-SWITCH; A_s->lifetime = log-WEAK coherence cross-connection. (D) ionization->damping
+  CONDITIONAL on topology-across-the-crunch (open; crunch = where topology CAN change discontinuously),
+  ontological -> no move. Standing ~14-17% -> ~15-18% (toy-closures firm reading-B; DESI now a derived sharp
+  test/risk). Class UP-small.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 291: t286 accepted (+ form VERIFIED); and the model's correction CONCEDED — nothing is un-derivable BY TYPE
+========================================================================
+1. t286 ACCEPTED (number to ~15-18%, the hinge closed, reading B firms). YOUR CAVEAT (i) VERIFIED:
+   the exp(-C²/C_ref²) form's lineage is the me_trigger:885-905 FIX passage ("replace the linear
+   form with a SATURATING one (e.g. m_e_eff = m_e_bar·[1+eps·exp(-C²/C_ref²)])") -- the
+   crack-found-fix-advanced pillar that me_mechanism_math sec-1 inherited as "f = a near-step
+   (saturating) function." The corpse (me_trigger:96) is the trigger-beta 0.07 cs² object --
+   a DIFFERENT object in a different sector. LIVING form confirmed; P1.d discharged.
+2. THE MODEL'S CORRECTION (via the operator): "Nothing in the model is impossible to derive.
+   Everything is derivable from within." CONCEDED -- and by the atom grammar's OWN precedent,
+   which I mis-applied at t275/t281: I said "eigenvalues aren't derivable from inside the state."
+   But hydrogen's eigenvalue DERIVES -- R_inf = m_e·e⁴/2ħ² -- from the CONSTITUENTS' parameters.
+   My "un-derivable by type" conflated two different insides:
+     (a) from within the STATE'S DYNAMICS (cosmology's transactions): NO -- that part stands
+         (both cosmological derivation routes died on computation, t230/t236);
+     (b) from the CONSTITUENT LAYER (the medium's microphysics -- its m, its coupling, its ħ):
+         YES IN PRINCIPLE -- that is how every eigenvalue in physics derives.
+   RECLASSIFICATION: rho_inf is not constitutional-forever; it is THE COSMIC RYDBERG -- awaiting
+   its R_inf = m_e e⁴/2ħ² formula in the medium's constituent parameters. The t215 combo sweep
+   (nothing pinned lands 2.25 meV) now reads: the medium's INTERACTION CONSTANT (the cosmic
+   alpha -- the self-coupling of the spacefluid) is NOT YET AMONG THE PINNED CONSTITUENTS. So:
+     - rho_inf's derivation awaits ONE constituent number (the medium's coupling), exactly as
+       eps's awaits ONE angle (the Z4 tilt). The two crown-gaps are PARALLEL: each a single
+       un-pinned input away.
+     - The FIRST ROLL: reclassified likewise -- a tunneling-from-the-continuum RATE (Vilenkin-
+       class), derivable-in-principle from the same constituent layer.
+     - THE "CONSTITUTION" DISSOLVES INTO MICROPHYSICS: the rules don't age (Landau) AND they
+       derive (from constituents) -- both, no contradiction. Only individual OUTCOMES stay
+       underivable (Born), and that is quantum mechanics' own boundary, not the model's.
+   THE REMAINING PROGRAM, restated in one line: PIN THE MEDIUM'S CONSTITUENT PARAMETERS
+   (its mass m -- pinned; its amplitude Psi0 -- pinned; its coupling -- THE gap; the tilt -- THE
+   other gap) and everything else follows. The model's claim stands: it is all in front of us;
+   two numbers are still face-down.
+ADJUDICATE: (a) the reclassification (eigenvalue-from-constituents; the Rydberg precedent) --
+does it correctly dissolve the "by type" wall while preserving the (a)-part (no derivation from
+within the state's dynamics)? (b) the two-gaps-parallel framing (the cosmic alpha; the Z4 tilt)
+as the complete remaining derivation frontier?
+-- Defender t291: t286 accepted + the Gaussian's living lineage VERIFIED (the FIX passage, not the
+   corpse). The model's correction conceded: hydrogen's eigenvalue DERIVES (Rydberg from
+   constituents) -> rho_inf = THE COSMIC RYDBERG, awaiting the medium's coupling constant; the
+   first roll = a tunneling rate; the constitution dissolves into microphysics; only Born outcomes
+   stay out (QM's boundary, not ours). The frontier = TWO face-down numbers: the cosmic alpha and
+   the Z4 tilt.
+
+========================================================================
+RED-TEAM — turn 288 (on the crown formula + #40's analytic half): two more real closures, continuing
+t286's computation-closing trend -- but I hold the number (no new discrete uptick), because both are
+analytic/conditional and the DECISIVE eps question just moves to the tilt angle, un-resolved. VERDICTS:
+(1) f_amp = (1+e²)/2 is FORMULA-DERIVED (endpoints exact, 0.6 <=> e=0.447) IF it is the genuine
+projection-average (endpoints are a CHECK, not a proof) -> eps reduces to "one geometric angle (the
+tilt)" -- real progress, BUT the actual question RELOCATES not resolves: is the tilt DERIVABLE or is it
+the residual genesis DICE? (that is exactly what eps-completion needs, still owed). (2) #40 T_c = 193
+keV at the stable mu=T fixed point -- I verified the self-consistency (T_c/m_e=0.379 <-> 0.378); the
+t191-194 LOG-WAR is OVER at leading-RG (real closure), dosage pinned (+0.06 sigma D/H, ZERO Y_p =
+reading-A clean-heal), conditional on reading A + the mu=T scheme (+-50% wobble) + the network run as
+banker. (c) eps status = "structural PENDING ONE ANGLE" -- accurate, with the tilt-derivability caveat.
+(d) close #46 -- AGREE as bookkeeping (sequester dead t230, its timing/scale sub-goals superseded) BUT
+J1 (its main goal, the DE value) stays UN-DERIVED. Standing ~15-18% HELD (firm; analytic program nearly
+complete, empirical + tilt + fork remain).
+
+(1) THE CROWN f_amp = (1+e²)/2 -- FORMULA-DERIVED (conditionally), eps -> ONE ANGLE, THE QUESTION
+RELOCATES. The formula hits both banked endpoints exactly (circular e=0 -> 1/2; radial e=1 -> 1) and
+inverts the banked value cleanly (0.6 <=> e²=0.2 <=> e=0.447, "near-circular, modest radial" = the sims'
+small-tilt). GRADE (adjudication a -- derivation vs interpolation-restated): the ENDPOINT-matching is a
+necessary CHECK, NOT a proof -- infinitely many functions hit those two points. It is a genuine
+DERIVATION only if (1+e²)/2 is the actual PROJECTION/orbit-average over the capture geometry (which is
+claimed; the e² structure IS natural for orbit averages, so it is plausible). So: credit as formula-
+derived PENDING confirmation that (1+e²)/2 is the computed projection average, not an endpoint-fit.
+  THE KEY POINT (my red-team addition): reducing f_amp to (1+e²)/2 relocates eps's freedom to the TILT
+  ANGLE e -- and whether that is PROGRESS depends entirely on whether the tilt is DERIVABLE or is itself
+  the irreducible GENESIS DICE. Recall the t277 re-grade was "f_amp: dice -> computable." If the TILT is
+  the dice (the random rim-roll input), then f_amp=(1+e²)/2 is "computable GIVEN the tilt" but eps STILL
+  carries the stochastic factor via e -- the randomness is RELOCATED, not removed. So eps = "structural
+  pending one angle" is accurate, but the decisive question is unchanged and un-resolved: is the tilt
+  angle a derivable geometric quantity (eps fully structural) or the residual genesis roll (eps keeps one
+  irreducible free/stochastic parameter)? The defender's "one tilt-DERIVATION from fully structural"
+  concedes the tilt is not yet derived. So: real firming (the last factor is now a single tractable
+  geometric angle, not a stochastic dice or an un-analyzed branching), NO close (the tilt's derivability
+  IS the open eps question). Progress on form, not on the substance of whether eps is truly derived.
+
+(2) #40's ANALYTIC HALF -- T_c = 193 keV PINNED, THE LOG-WAR OVER (real closure, conditional). I verified
+the fixed point: T_c/m_e = 0.379 -> ln(m_e/T_c)=0.97 -> 3(2*0.97-1)/2pi² = 0.143 -> sqrt = 0.378 ~ 0.379,
+self-consistent. So the t191-194 log-instability/2-cycle COLLAPSES to a STABLE fixed point at T_c = 193 keV
+under RG-improvement with the thermal point mu = T. GRADE (adjudication b -- physical or scheme?): mu = T
+is the STANDARD thermal renormalization point (the thermal scale IS T), so it is physically motivated, NOT
+arbitrary -- but the +-50% scheme wobble means the VALUE (193 keV) is scheme-uncertain (~100-290 keV). So
+the real closure is QUALITATIVE: T_c is now WELL-DEFINED (~193 keV), the log-ambiguity war (t191-194) is
+OVER at leading-RG -- a genuine resolution of a long-contested owed item. THE DOSAGE (t255/256 signed
+pharmacy): T_c=193 keV < 500 keV -> dyad OFF at the weak rates -> +0.06 sigma D/H heal, ZERO Y_p co-pay =
+the reading-A clean-heal shape. CONDITIONS: this is READING A's quantity (the field-2 CW onset) -> it PINS
+reading A's dosage but is CONDITIONAL on the A/B fork resolving to A (still pending BBN/21cm); and the
+NETWORK RUN remains the banker (this is the analytic half; the full BBN network is the other half). Credit
+the log-war closure + the pinned reading-A dosage, conditional on reading A + mu=T + the network run.
+
+(c) eps STATUS -> "STRUCTURAL PENDING ONE ANGLE" -- ACCURATE, WITH THE CAVEAT. With (1), eps = c*(1+e²)/2*
+Psi0/M_red rests on: c (~1, #14-class), Psi0 (abundance-pinned), and the tilt angle e. So "structural
+pending one angle" is an accurate status -- a real tightening of the model's HEADLINE number (the SHOT-1
+amplitude), which has traveled dice -> branching-ratio -> formula-in-one-angle across t277/286/289. BUT
+the caveat stands: the "one angle" is UN-DERIVED (the tilt's derivability is the open question), and the
+A/B fork (which reading sources the coupling) is also open. So eps is CLOSE to fully structural in FORM,
+pending (i) the projection-average confirmation, (ii) the tilt-angle derivation (or its being conceded as
+the one residual free parameter), (iii) the fork. Genuine, near-complete, not closed.
+
+(d) CLOSE #46 -- AGREE AS BOOKKEEPING, BUT J1 STAYS UN-DERIVED. The sequester (#46) died at t230; its
+tractable TIMING/SCALE sub-goals are now met by OTHER means (the scale-ID derived structurally t287-A; the
+thaw amplitude grammar-derived O(delta²) t280). So closing #46 as "superseded-by-other-means" is correct
+bookkeeping -- remove the dead item. BUT the sequester's MAIN prize was J1 (the DE value), and that is NOT
+achieved by any means (J1 remains un-derived -- eigenvalue-reframed t278, un-derivable-from-inside per the
+model's own reading). So: close #46, with the EXPLICIT record that it does NOT resolve J1 -- the DE value
+stays open, now formally homeless (no live derivation program targets it). Agree to close, hold J1 open.
+
+STANDING -- ~15-18%, HELD (firm). t289 continues the computation-closing trend (f_amp formula-derived ->
+eps to one angle; T_c=193 keV pinned, log-war over; #46 closed) -- the model's ANALYTIC program is now
+nearly complete: the eps/dyad structure (legality, C_ref, sqrt3, f_amp-form, T_c) has closed out at
+analytic/toy level. That is real and I credit the firming. But NO new discrete uptick, because: (i) the
+decisive eps question RELOCATED to the tilt-angle derivability (un-resolved -- if the tilt is the residual
+dice, eps keeps one free parameter); (ii) everything is analytic/conditional (projection-average unconfirmed,
+reading-A-conditional T_c, +-50% wobble, network run + rigorous Weyl + #48a owed); (iii) the EMPIRICAL
+movers (DESI DR3 = the derived-w=-1 kill-switch, radio ratio-lock, eps-dipole, nu widths, the BBN network,
+the A/B fork) -- the things that actually move the number -- remain PENDING. So the analytic house is nearly
+built; the number waits on the empirical inspection.
+  Banked (grows): ... + f_amp FORMULA-derived ((1+e²)/2, endpoints exact) -> eps = structural pending ONE
+  (un-derived) angle; T_c = 193 keV PINNED (log-war t191-194 over at leading-RG; reading-A dosage +0.06
+  sigma D/H, zero Y_p). Closed: #46 (sequester superseded on timing/scale; J1 NOT resolved). Open/owed: the
+  TILT-ANGLE derivability (the true remaining eps question -- derivable or residual dice?); projection-
+  average confirmation; the A/B fork; network run; rigorous Weyl; #48a; DESI DR3 (derived-w=-1 kill-switch);
+  radio ratio-lock; eps-dipole; nu widths; J1 (un-derived, now formally homeless). Class: FLAT (firm) --
+  (1) f_amp=(1+e²)/2 formula-derived (endpoints are a CHECK not a proof; pending the projection-average),
+  eps -> one angle BUT the freedom RELOCATES to the tilt (derivable-or-dice = the open question); (2) T_c=193
+  keV pinned (self-consistency verified; log-war OVER; mu=T physical but +-50%; reading-A dosage pinned,
+  network run the banker); (c) eps = "structural pending one angle" accurate w/ caveat; (d) close #46
+  bookkeeping, J1 stays un-derived. Standing ~15-18% held.
+
+— Claude (red team, external), turn 288. Two more real closures (analytic), number HELD. (1) CROWN f_amp
+  = (1+e²)/2 FORMULA-DERIVED (endpoints exact, 0.6<=>e=0.447) -- but endpoint-matching is a CHECK not a
+  proof (credit pending the projection-average); eps -> "one geometric angle (the tilt)" BUT the freedom
+  RELOCATES not resolves -- is the tilt DERIVABLE or the residual genesis DICE? = the true open eps question.
+  (2) #40 T_c = 193 keV at the stable mu=T fixed point (self-consistency VERIFIED; t191-194 LOG-WAR OVER =
+  real closure); mu=T physical but +-50% wobble; dosage +0.06 sigma D/H, ZERO Y_p = reading-A clean-heal
+  (conditional on the A/B fork -> A; network run the banker). (c) eps = "structural pending ONE (un-derived)
+  ANGLE" -- accurate, headline number nearly complete in FORM. (d) close #46 (sequester superseded on timing/
+  scale) AGREE as bookkeeping, but J1 stays UN-DERIVED (now formally homeless). Standing ~15-18% HELD (firm)
+  -- analytic program nearly complete, but the tilt-derivability + all EMPIRICAL movers (DESI DR3, radio
+  ratio-lock, eps-dipole, nu widths, network run, fork) remain pending. Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 293: THE SNEAK-PEEK — both face-down cards glimpsed through banked numbers (Pinning-Rule ARMED)
+========================================================================
+Accept t288 first (crown formula conditionally credited — the projection-average confirmation owed;
+T_c verified; the tilt named as THE eps question; #46 closed-as-bookkeeping, J1 stays). The operator
+then ordered the sneak-peek: hunt the two cards through the model's ALREADY-BANKED numbers,
+"especially the coupling." Both glimpsed (sneak_peek.py), both held at WHISPER-PLUS:
+
+CARD 1 — THE COSMIC ALPHA: the exact hydrogen-Rydberg FORM with the medium's own banked numbers:
+      ρ_inf^(1/4) =? ½·α_c²·M₂  with α_c = Ψ₀/M_red = 2.05×10⁻² [banked] and M₂ = 9.4 eV [banked]
+      = 1.98 meV  vs observed 2.25 meV  — 12% LOW, ZERO tuning.
+   Not a power-sweep: the STRUCTURAL Rydberg form (E = ½α²m), all inputs pre-banked. HELD at
+   whisper-plus. Owed: the bound-state calculation (is the medium's ground level literally
+   ½α_c²M₂, and is M₂ = √(m·m̄₂) the cosmic atom's reduced-mass rung?).
+CARD 2 — THE TILT: the ONE famous banked angle in the model's own lepton sector — THE KOIDE
+   PHASE, 2/9. Try tilt: e² = 2/9:
+      e = 0.4714 vs the inverted 0.447 (+5.5%);  f_amp = (1 + 2/9)/2 = 11/18 = 0.6111 vs the
+      sims' 0.6 (+1.9%).
+   IF the Z4 rim-tilt IS the Koide phase, f_amp = 11/18 EXACTLY and the bequest is literal: the
+   SAME parent geometry that sets the lepton masses set the release orbit. HELD at whisper-plus.
+   Owed: the mechanism (why genesis-tilt = family-phase).
+THE SHARED FACE: both glimpses point at the PARENT'S TWO PARAMETERS — its coupling and its angle.
+If both hold, everything else in the universe is their arithmetic.
+DISCIPLINE STATEMENT: two 2-12% landings on exact structural forms with all-banked inputs, found
+in ONE directed search each — this is EXACTLY the regime where the Pinning Rule exists. NOTHING
+banks. The graduation requirements, pre-stated: Card 1 needs the bound-state derivation to
+PRODUCE the ½α²M₂ form (not just fit it); Card 2 needs the tilt-phase mechanism AND the orbit-sim
+re-run at e² = 2/9 exactly (does 11/18 beat 0.6 against the sims' own value?). ADJUDICATE COLD:
+(a) grade both glimpses (whisper-plus vs numerology); (b) the directed-search look-elsewhere
+penalty — how many form-candidates did each search implicitly scan?; (c) the graduation
+requirements — sufficient as stated?
+-- Defender t293: sneak-peek run. Card 1: ρ_inf^¼ = ½(Ψ₀/M_red)²·M₂ = 1.98 vs 2.25 meV (12%,
+   zero tuning, Rydberg form, banked inputs). Card 2: tilt = Koide 2/9 → f_amp = 11/18 = 0.611 vs
+   0.6 (1.9%). Both = the parent's two parameters. HELD at whisper-plus, graduation requirements
+   pre-stated, look-elsewhere question posed against ourselves. Grade cold.
+
+========================================================================
+RED-TEAM — turn 290 (on the form-verification + the "cosmic Rydberg" reclassification): (1) my t286
+form-caveat is DISCHARGED -- the exp(-C²/C_ref²) gate is the LIVING me_trigger:885-905 FIX passage
+(inherited by me_mechanism_math sec-1), distinct from the dead trigger-beta corpse (me_trigger:96,
+different sector); P1.d satisfied -> the t286 (B) hinge-close stands on a verified-living object.
+Credit; it solidifies the t286 +1. (2) THE "UN-DERIVABLE BY TYPE" CORRECTION -- I CONCEDE it, and
+book it against my own t278/t282 characterization: the operator is RIGHT that eigenvalues derive
+from the CONSTITUENT layer (hydrogen's R_inf = m_e e⁴/2ħ² derives from m_e, e, ħ), so "rho_inf is
+un-derivable from inside" was an over-claim -- it conflated (a) derivation from the state's DYNAMICS
+(dead: sequester t230 + Majoron t236) with (b) derivation from the medium's MICROPHYSICS (open, the
+normal route for eigenvalues). BUT the reclassification REOPENS J1 as an OWED derivation, not a
+resolution -- "rho_inf = the cosmic Rydberg awaiting the medium's coupling" is a PROGRAM (no formula,
+no pinned coupling yet), conditional on the spacefluid HAVING a solvable constituent theory. So J1
+stays UN-DERIVED, now honestly owed (not excused), parallel to eps's owed tilt. No number move.
+Standing ~15-18% HELD.
+
+(1) FORM VERIFIED -- P1.d DISCHARGED, t286 HINGE-CLOSE SOLIDIFIED. My t286 caveat (i) asked: is the
+Gaussian exp(-C²/C_ref²) the LIVING form or the dead me_trigger corpse? Answer, cited: it is
+me_trigger:885-905, the "FIX passage" ("replace the linear form with a SATURATING one, e.g. m_e_eff =
+m_e_bar[1+eps exp(-C²/C_ref²)]") -- the crack-found-fix pillar that me_mechanism_math sec-1 inherited;
+the corpse (me_trigger:96) is the trigger-beta 0.07 cs² object, a different object in a different sector.
+Credible and specific (a doc can hold a rejected early approach at line 96 and the accepted fix at 885).
+So P1.d discharges -- the C_ref-hinge closure (t286-B, the decisive mover for reading-B being a genuine
+reduction) rests on a verified-living object. Credit; the t286 uptick holds firm.
+
+(2) THE COSMIC-RYDBERG RECLASSIFICATION -- CONCEDE THE OVER-CLAIM, BUT IT REOPENS J1 AS OWED (NO
+RESOLUTION). This is a real correction and I take it straight, including against myself:
+  - THE CONCESSION (booked against my t278/t282): I accepted the framing "J1 = an eigenvalue, un-
+    derivable from inside the state." The operator correctly splits the "inside": (a) from the state's
+    DYNAMICS/transactions -- NO (both cosmological routes died on computation, t230/t236; that part
+    stands); (b) from the CONSTITUENT LAYER (the medium's m, amplitude, coupling) -- YES IN PRINCIPLE,
+    exactly how every eigenvalue in physics derives (the Rydberg from m_e, e, ħ). So "un-derivable by
+    type" was an over-claim -- the failure of the dynamical route (a) does NOT close the constituent
+    route (b). Conceded; my prior characterization corrected. The distinction is sound.
+  - BUT IT DOES NOT RESOLVE J1 -- IT RE-OPENS IT AS AN OWED DERIVATION. "rho_inf = THE COSMIC RYDBERG,
+    awaiting R_inf = f(constituents)" is a PROGRAM, not a result: there is NO cosmic-Rydberg formula yet,
+    and the medium's coupling (the "cosmic alpha") is UN-PINNED (the t215 sweep found nothing lands 2.25
+    meV precisely because the coupling isn't among the pinned constituents). So J1 goes from "excused as
+    un-derivable" to "OWED: pin the medium's coupling AND derive the ground-state-energy formula." That is
+    MORE honest and MORE ambitious (it refuses to excuse J1) -- credit the intellectual honesty -- but it
+    increases the model's explicit owed-burden rather than reducing it. J1 stays UN-DERIVED.
+  - THE RED-TEAM FLAG (the reframe's load-bearing assumption): the Rydberg DERIVES because we KNOW
+    hydrogen's constituent theory (QED + the Coulomb Hamiltonian) and can SOLVE it. For "rho_inf = the
+    cosmic Rydberg" to be more than a hopeful analogy, the spacefluid must HAVE a genuine constituent
+    microphysics (a definite Lagrangian with a pinnable coupling) from which a ground-state energy can be
+    SOLVED. If the spacefluid is PHENOMENOLOGICAL (w(rho), c_s², no UV constituent theory), the "cosmic
+    Rydberg" is a promise resting on a constituent theory that does not yet exist. So the reclassification
+    is a PROGRAM conditional on the spacefluid having a solvable constituent layer with a real coupling --
+    itself un-established. Do not bank "rho_inf is derivable" as achieved; it is a reopened owed item.
+  - (b) THE TWO-GAPS-PARALLEL FRAMING -- accurate for the PARAMETER-DERIVATION frontier, understates the
+    rest. "Two numbers face-down: the cosmic alpha (coupling) and the Z4 tilt" correctly names the two un-
+    pinned CONSTITUENT inputs (rho_inf awaits the coupling; eps awaits the tilt) -- a clean, bounded
+    DERIVATION frontier, and a fair statement of the parameter gaps. BUT it UNDERSTATES the full remaining
+    program: the model's empirical SURVIVAL depends on the VALIDATION frontier -- DESI DR3 (the derived
+    w=-1 kill-switch), the BBN network run, the radio ratio-lock, the eps-dipole, the nu-widths, the A/B
+    fork, the rigorous Weyl, #48a, the projection-average, topology-across-the-crunch -- which are NOT "two
+    numbers." So: credit the derivation-frontier framing; flag that "two numbers and we're done" is the
+    DERIVATION frontier, not the EMPIRICAL one, and the ~15-18% is gated far more by the empirical/
+    validation frontier than by pinning two constituents.
+
+STANDING -- ~15-18%, HELD. (1) The form-verification discharges my t286 caveat -> the hinge-close is on a
+verified-living object (the t286 +1 stands firm). (2) The cosmic-Rydberg reclassification is a fair
+correction (I concede "un-derivable by type" was an over-claim -- the constituent route (b) is open) that
+REOPENS J1 as an owed derivation (parallel to eps's tilt), honest and ambitious but delivering nothing
+concrete (no formula, no pinned coupling, conditional on a solvable constituent theory). So J1 stays un-
+derived (owed, not excused); no derivation lands; no number move. The remaining DERIVATION frontier is
+cleanly two constituents (coupling + tilt); the EMPIRICAL frontier (the real number-mover) remains the
+larger, pending one.
+  Banked: ... + C_ref-gate LIVING-FORM VERIFIED (P1.d discharged; t286 hinge-close firm). Reclassified:
+  J1/rho_inf = "cosmic Rydberg, OWED (awaiting the medium's coupling + the formula)" -- un-derived, now
+  honestly owed not excused (my t278/t282 "un-derivable" corrected/conceded). Open/owed (derivation
+  frontier): the cosmic-alpha/coupling (-> rho_inf) + the Z4 tilt (-> eps); (validation frontier, the
+  movers): DESI DR3 (derived w=-1), BBN network run, radio ratio-lock, eps-dipole, nu-widths, A/B fork,
+  rigorous Weyl, #48a, projection-average, topology-across-crunch. Class: FLAT -- (1) exp(-C²/C_ref²) =
+  LIVING me_trigger:885-905 FIX passage (not the :96 corpse) -> P1.d discharged, t286 hinge-close SOLID.
+  (2) "un-derivable by type" CONCEDED as an over-claim (constituent route (b) open vs dynamics route (a)
+  dead) -> J1 REOPENED as owed "cosmic Rydberg" (awaiting the coupling), honest/ambitious but a PROGRAM
+  not a derivation, conditional on a solvable spacefluid constituent theory; two-gaps framing accurate for
+  DERIVATION frontier, understates the EMPIRICAL one. Standing ~15-18% held.
+
+— Claude (red team, external), turn 290. (1) FORM-VERIFIED: exp(-C²/C_ref²) = the LIVING me_trigger:885-905
+  FIX passage (me_mechanism_math sec-1 inherited it), distinct from the dead trigger-beta corpse (:96) ->
+  my t286 P1.d caveat DISCHARGED, the hinge-close stands firm on a living object. (2) "UN-DERIVABLE BY TYPE"
+  CORRECTION -- I CONCEDE it (book vs my t278/t282): eigenvalues DO derive from the CONSTITUENT layer
+  (Rydberg from m_e,e,ħ), so the failure of the DYNAMICS route (a: sequester+Majoron dead) does NOT close
+  the MICROPHYSICS route (b: open). BUT the "rho_inf = cosmic Rydberg awaiting the coupling" reclassification
+  REOPENS J1 as an OWED derivation, NOT a resolution -- no formula, no pinned coupling, conditional on the
+  spacefluid having a solvable constituent theory; J1 stays UN-DERIVED (now owed, not excused), parallel to
+  eps's owed tilt. Two-gaps framing (coupling + tilt) = accurate DERIVATION frontier but UNDERSTATES the
+  EMPIRICAL frontier (DESI DR3, network run, radio ratio-lock, dipole, nu-widths, fork -- the real movers).
+  Standing ~15-18% HELD. Class flat.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 292 (COLD, on the two-card sneak-peek): first and loudest -- CREDIT THE DISCIPLINE.
+Two intriguing near-hits, and you ARMED the Pinning Rule yourself, held BOTH at whisper, banked
+NOTHING, pre-stated the graduation requirements, and posed the look-elsewhere against yourself. That
+is exactly the anti-numerology integrity the operator's standard demands, executed well -- it is the
+single strongest process signal a "two beautiful coincidences" turn can send. Now the cold grades, as
+asked: (a) Card 1 (cosmic-alpha -> rho_inf) = WHISPER (12% + a MODERATE look-elsewhere over coupling-
+combo x mass-scale keeps it look-elsewhere-vulnerable; the Rydberg form + recurring banked inputs
+keep it from being pure numerology, but 12% at ~10 implicit tries is not a signal); Card 2 (tilt =
+Koide 2/9 -> f_amp=11/18) = WHISPER-PLUS (LOW look-elsewhere -- the one famous banked angle -- + a
+clean fraction + a PRIOR structural motive from t262's Koide-family geometry, BUT 1.9% off the sims'
+0.6 and 5.5% off in e, owing the sim re-run + the mechanism). (b) look-elsewhere estimated below. (c)
+graduation requirements: largely sufficient, sharpened below. NOTHING BANKS -> Standing ~15-18% HELD.
+But note: the GRADUATION of either card would be a MAJOR move (a crown-gap closed).
+
+(a)+(b) THE TWO GLIMPSES, GRADED COLD WITH THE LOOK-ELSEWHERE:
+  CARD 1 -- COSMIC ALPHA (rho_inf^1/4 = 1/2 alpha_c^2 M_2 = 1.98 vs 2.25 meV, 12% low). Verified the
+  arithmetic (1/2 * (2.05e-2)^2 * 9.4 eV = 1.98 meV). What is RIGHT about it: it is the STRUCTURAL Rydberg
+  form (E=1/2 alpha^2 m), not an arbitrary power-law; the inputs are pre-banked (alpha_c = Psi0/M_red is
+  the SAME recurring combination that appears in eps, not ad hoc; M_2 = 9.4 eV banked); zero tuning. So it
+  is NOT pure numerology. What keeps it at WHISPER (not whisper-plus): (i) 12% is a wide miss for a
+  "derivation" -- the bound-state corrections + the exact coefficient + the reduced-mass must account for
+  EXACTLY 12%, un-shown; (ii) THE LOOK-ELSEWHERE is moderate -- committing to "Rydberg form" is fairly
+  unique, but the (coupling-combo x mass-scale) choice had alternatives (Psi0/M_red vs other ratios; M_2
+  vs other banked masses), so the search implicitly scanned ~a-handful-to-a-dozen (form x input) candidates.
+  A 12% landing with ~10 implicit tries is NOT statistically compelling (you would expect a 12%-level hit
+  by chance at that penalty). So the ORDER-OF-MAGNITUDE match (getting ~meV from 1/2*(0.02)^2*(9.4 eV)) is
+  the intriguing part; the 12% residual + the ~10 look-elsewhere keep it at WHISPER. Suggestive, not a
+  signal, correctly not banked.
+  CARD 2 -- THE TILT = KOIDE PHASE 2/9 (f_amp = 11/18 = 0.611 vs sims' 0.6, +1.9%; e = 0.4714 vs 0.447,
+  +5.5%). What is RIGHT: 2/9 is THE famous banked lepton-sector angle (not invented tonight); 11/18 is a
+  clean fraction; and crucially there is a PRIOR STRUCTURAL MOTIVE -- t262's Koide-portal selection made the
+  leptons "one-VEV-three-angles" (a family geometry), so "the same parent geometry sets the lepton angles
+  AND the genesis rim-tilt" is a structurally-motivated bequest, not a random angle-match. So Card 2 is
+  MORE than numerology and its LOOK-ELSEWHERE is LOWER than Card 1 (the search was "try THE one famous
+  angle," ~1-few candidates). What keeps it at WHISPER-PLUS (not banked): it is 1.9% OFF the sims' 0.6
+  (5.5% off in e) -- so it is a near-MISS, requiring the sims to ACTUALLY be 0.611 (not 0.6); and the
+  mechanism (why genesis-tilt = family-phase geometrically) is owed. So: whisper-PLUS (low look-elsewhere +
+  structural motive + clean fraction), but the 1.9% sim-mismatch + the owed mechanism keep it from banking.
+  NET: Card 2 > Card 1 in strength (lower look-elsewhere, prior motive), both correctly held.
+
+(c) THE GRADUATION REQUIREMENTS -- LARGELY SUFFICIENT, SHARPENED. Your pre-stated bars are right; I add
+teeth:
+  - CARD 1: "the bound-state calc must PRODUCE 1/2 alpha^2 M_2 (not fit it)" -- YES, and ADD: (i) it must
+    ACCOUNT FOR THE 12% (the corrections must close 1.98 -> 2.25, or the form is wrong -- a derivation that
+    lands at 1.98 and hand-waves the 12% does NOT graduate); (ii) alpha_c = Psi0/M_red must be the DERIVED
+    coupling of the medium's actual Lagrangian (not one combo among several); (iii) M_2 = sqrt(m*m_bar_2)
+    must be shown to be the genuine reduced-mass rung of the cosmic bound state, not chosen. Only then does
+    Card 1 graduate from whisper to a derivation.
+  - CARD 2: "the tilt-phase mechanism AND the sim re-run at e^2=2/9" -- YES, and ADD: (i) the sim must
+    INDEPENDENTLY prefer e^2=2/9 (0.611) over 0.6 -- i.e. re-run at higher precision and let the sims'
+    OWN value adjudicate 11/18 vs 0.6 (if the sims robustly give 0.60, not 0.61, the Koide identification
+    is FALSIFIED, not confirmed); (ii) the mechanism must be a real GEOMETRIC IDENTITY (the Z4 rim-tilt IS
+    the Koide phase by construction), not an analogy or a numerical coincidence. Both required; either
+    failing keeps Card 2 at whisper or kills it.
+  Sufficient, with those teeth. And a META-requirement for BOTH: since these are the TWO crown-gaps
+  (rho_inf and eps), graduating BOTH would derive the model's two headline numbers -> before crediting
+  either, the look-elsewhere must be retired by the DERIVATION (a produced formula), not by a tighter fit.
+
+STANDING -- ~15-18%, HELD. Nothing banks -- correctly, and the DISCIPLINE of holding two elegant near-hits
+at whisper (Pinning Rule armed, graduation pre-stated, look-elsewhere self-posed) is itself the credit-
+worthy event here, not the coincidences. Graded cold: Card 1 = whisper (12% + moderate look-elsewhere),
+Card 2 = whisper-plus (Koide 2/9, low look-elsewhere + prior structural motive, but 1.9% off + owes the
+mechanism/sim-rerun). No number move. What this DOES establish: the two crown-gaps now have GLIMPSED PATHS
+(a Rydberg-form for rho_inf; the Koide-phase for the tilt), so the derivation frontier is not blind -- and
+the GRADUATION of either (a produced formula + the accounted residual, or the sim independently landing
+11/18 + the geometric identity) would be a MAJOR uptick (a headline number derived). Held at whisper until
+then.
+  Banked: (unchanged) -- NOTHING from tonight's glimpses. Open/owed (now with glimpsed paths): rho_inf <-
+  the cosmic-alpha bound-state derivation (produce 1/2 alpha_c^2 M_2 + account for the 12%); eps <- the
+  tilt = Koide-2/9 (mechanism + sim re-run at e^2=2/9); plus the standing validation frontier (DESI DR3,
+  network run, radio ratio-lock, eps-dipole, nu-widths, A/B fork, rigorous Weyl, #48a). Class: FLAT -- two-
+  card sneak-peek, both held at whisper(-plus), NOTHING banks. (a) Card 1 rho_inf^1/4 = 1/2 alpha_c^2 M_2
+  (12% low, Rydberg form, banked inputs) = WHISPER (moderate look-elsewhere ~10, structural-not-numerology
+  but not a signal); Card 2 tilt = Koide 2/9 -> f_amp = 11/18 (1.9% off) = WHISPER-PLUS (low look-elsewhere
+  + t262 Koide-family prior motive, but off the sims + owes mechanism). (b) look-elsewhere: Card 1 ~a-dozen,
+  Card 2 ~few. (c) graduation requirements sufficient + sharpened (Card 1 must ACCOUNT FOR the 12% + derive
+  the coupling/reduced-mass; Card 2 the sims must INDEPENDENTLY prefer 11/18 + a geometric identity). CREDIT
+  THE PINNING-RULE DISCIPLINE (the real event). Standing ~15-18% held.
+
+— Claude (red team, external), turn 292 (COLD). CREDIT THE DISCIPLINE FIRST: two elegant near-hits, Pinning
+  Rule ARMED, both held at whisper, NOTHING banked, graduation pre-stated, look-elsewhere self-posed -- the
+  integrity is the event, not the coincidences. (a) COLD GRADES: Card 1 (rho_inf^1/4 = 1/2 alpha_c^2 M_2 =
+  1.98 vs 2.25 meV, 12% low; arithmetic verified) = WHISPER -- structural Rydberg form + recurring banked
+  inputs (not numerology) BUT 12% + MODERATE look-elsewhere (~dozen coupling x mass candidates) = not a
+  signal. Card 2 (tilt = Koide 2/9 -> f_amp = 11/18 = 0.611 vs sims' 0.6, +1.9%) = WHISPER-PLUS -- LOW look-
+  elsewhere (the one famous angle) + a PRIOR structural motive (t262 Koide-family geometry) + clean fraction,
+  BUT 1.9% off the sims (5.5% in e) + owes the mechanism/sim-rerun. Card 2 > Card 1. (b) look-elsewhere:
+  Card 1 ~dozen, Card 2 ~few. (c) graduation SHARPENED: Card 1 must PRODUCE the form AND account for the
+  12% AND derive the coupling+reduced-mass; Card 2 the sims must INDEPENDENTLY prefer 0.611 over 0.60 (else
+  FALSIFIED) AND the tilt=Koide be a geometric IDENTITY. NOTHING banks -> Standing ~15-18% HELD; graduation
+  of either = a MAJOR uptick (a crown number derived). Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 295: t292 accepted (grades taken); Card 2's graduation test STARTED — the interim, honestly
+========================================================================
+Accept t292 whole: Card 1 = WHISPER (12% + ~10 implicit tries = look-elsewhere-vulnerable; the
+order-of-magnitude is the intriguing part); Card 2 = WHISPER-PLUS (the ONE famous banked angle,
+prior structural motive from t262, clean fraction); the sharpened graduation teeth adopted verbatim
+(Card 1 must ACCOUNT for the 12%, derive alpha_c as THE Lagrangian coupling, and show M2 as the
+genuine reduced-mass rung; Card 2 needs the sims to INDEPENDENTLY prefer 0.611 over 0.600 + the
+mechanism).
+
+CARD 2's TEST (i) — RUN AT INTERIM PRECISION, then ESCALATED:
+  The banked Z4 sim (scripts/genesis_famp_Z4.py — the REAL tilt-torqued dynamics, uniform release-
+  phase prior), re-run at rtol 1e-9, t_f=120, 24 phases:
+     eps_A = 0.10:        median f_amp = 0.6057
+     eps_A = 2/9 (Koide): median f_amp = 0.6158    [11/18 = 0.6111]
+     eps_A = 0.30:        median f_amp = 0.7816
+  HONEST READ: (i) the small-tilt PLATEAU refines from the old "~0.6" to ~0.606-0.616 — the sims'
+  own value sits ON 11/18 to <1% — favorable; (ii) BUT 24 phases from a broad distribution
+  (16-84%: 0.2-0.9) is UNDERPOWERED to discriminate 0.611 from 0.600 (median sampling error
+  ~±0.03-0.05 >> the 0.011 gap) — the interim CANNOT graduate the card; (iii) the median is FLAT
+  across eps_A ∈ [0.10, 2/9] — so even at full power, test (i) can confirm the VALUE 11/18 but not
+  single out eps_A = 2/9 specifically (a flat direction — the identification needs the mechanism,
+  test (ii), regardless). ESCALATION LAUNCHED: the 512-phase run with bootstrap errors is now
+  computing in the background (chains/card2_graduation.log) — powered to resolve 0.611 vs 0.600 at
+  >2 sigma. The card graduates or stalls on ITS OWN numbers, as your teeth require.
+-- Defender t295: t292 grades accepted (C1 whisper, C2 whisper-plus, teeth adopted). Interim sim
+   re-run: the plateau refines to ~0.61 (ON 11/18 to <1%) but 24 phases is underpowered (±0.04 >>
+   the 0.011 gap) and eps_A is flat in the plateau — value-testable, identification needs the
+   mechanism. The 512-phase discriminating run is computing now.
+
+========================================================================
+RED-TEAM — turn 294 (on Card 2's interim graduation test): an honest interim -- credit the discipline
+(you ran MY sharpened teeth, reported the underpowered result straight, and launched the powered run
+rather than claiming the favorable-looking plateau). Nothing graduates; no number move. But two things
+are worth booking, one favorable, one a sharpening I add. VERDICT: the interim is MILDLY FAVORABLE on
+the VALUE (the refined small-tilt plateau moved UP from the old ~0.60 to ~0.606-0.616, sitting ON 11/18
+to <1%) but UNDERPOWERED (24 phases, +-0.04 >> the 0.011 gap -- cannot discriminate 0.611 from 0.600),
+and your flat-direction insight is correct AND cuts further than you framed it. Standing ~15-18% HELD;
+await the 512-phase run (graduates the VALUE) + the mechanism (graduates the IDENTIFICATION).
+
+THE INTERIM -- HONEST AND MILDLY FAVORABLE ON THE VALUE. The refined Z4 sim (rtol 1e-9, uniform release-
+phase prior) gives median f_amp = 0.6057 at eps_A=0.10 and 0.6158 at eps_A=2/9 -- so the small-tilt
+plateau refined UPWARD from the t289/277 "~0.60" to ~0.606-0.616, and the sims' OWN value now sits on
+11/18 = 0.6111 to <1%. That is a mild FAVORABLE drift (the sim's value moved toward the Koide prediction
+as precision increased -- the right direction). But you are correct that it CANNOT graduate: 24 phases
+from a broad distribution (16-84%: 0.2-0.9) give a median sampling error ~+-0.03-0.05, far larger than
+the 0.011 gap between 0.611 and 0.600 -> the interim is value-consistent-with-11/18 but not DISCRIMINATING.
+Honest, correctly not graduated. Credit reporting it as underpowered rather than as a hit.
+
+THE FLAT-DIRECTION INSIGHT -- CORRECT, AND IT CUTS TWO WAYS (I ADD THE SECOND). You note the median is
+FLAT across eps_A in [0.10, 2/9], so even a fully-powered test (i) confirms the VALUE 11/18 but cannot
+single out eps_A = 2/9 (a flat direction -> the Koide IDENTIFICATION needs the mechanism, test (ii),
+regardless). That is right, and it is an honest limit on your own test -- credit. THE SECOND EDGE (mine,
+and it is FAVORABLE to eps-completion, though not to the elegant bequest): because f_amp is FLAT on the
+small-tilt plateau, f_amp ~ 0.611 is ROBUST to the exact tilt -- so eps's f_amp factor is effectively
+DERIVED (the plateau value) PROVIDED the tilt is small, WITHOUT needing the tilt to be exactly 2/9. This
+partially resolves my t288 "eps rests on one un-derived ANGLE": the remaining condition is weaker -- not
+"why is the tilt exactly 0.447/2/9" but "why is the tilt SMALL (in the [0.10, 0.222] plateau)" -- because
+anywhere in the plateau gives f_amp ~ 0.611. So:
+  - FOR eps-COMPLETION: the 512-run confirming f_amp ~ 0.611 would PIN eps's f_amp to a derived value
+    (the plateau), leaving eps = c * 0.611 * Psi0/M_red with the remaining freedom being "why small tilt"
+    + c(~1) + the coupling/fork -- BETTER than "one precise angle." Favorable, pending the powered run.
+  - FOR THE KOIDE BEQUEST (the elegant "same parent geometry" story, tilt = 2/9 EXACTLY): the sim CANNOT
+    graduate it (flat direction); ONLY the mechanism (test ii -- the Z4 rim-tilt IS the Koide phase by
+    geometric identity) can. And if the tilt is only required to be "small" (not exactly 2/9), the bequest
+    is a NICE-TO-HAVE (an elegant identity) rather than a NECESSITY for eps -- so its failure would not
+    hurt eps-completion, only the elegance. Worth stating: eps needs f_amp ~ 0.611 (value), not the Koide
+    identity; the Koide identity is a separate, more beautiful, harder-to-graduate claim.
+
+STANDING -- ~15-18%, HELD. An interim: nothing graduates, no move. The mild favorable drift (plateau ->
+0.611, on 11/18 to <1%) and the flat-direction insight (f_amp robust to small tilt -> eps's f_amp
+effectively derived provided small tilt) are both genuine, but the powered run (512 phases, >2 sigma) is
+what graduates the VALUE, and the mechanism is what graduates the Koide IDENTIFICATION -- and the value,
+not the identity, is what eps-completion actually needs. Credit the discipline (my teeth run, honest
+underpowered read, escalation launched). Await: (a) the 512-phase result (chains/card2_graduation.log) --
+does the sim independently prefer 0.611 over 0.600 at >2 sigma? (b) the tilt-phase mechanism (for the
+elegant bequest); (c) "why is the tilt small" (the weaker remaining eps condition).
+  Banked: (unchanged) -- NOTHING graduates. Open/owed (Card 2, refined): the 512-phase discriminating run
+  (VALUE: 0.611 vs 0.600 at >2 sigma -> would pin eps's f_amp derived); the tilt-phase MECHANISM (Koide
+  IDENTITY, for the bequest -- sim can't reach it); "why small tilt" (the weaker eps condition). Card 1
+  (rho_inf Rydberg) graduation still owed (produce 1/2 alpha^2 M2 + account for 12%). Plus the validation
+  frontier (DESI DR3, network run, radio ratio-lock, eps-dipole, nu-widths, A/B fork). Class: FLAT --
+  Card 2 interim: plateau refines to ~0.61 (ON 11/18 to <1%, mild favorable) but 24 phases UNDERPOWERED
+  (+-0.04 >> 0.011 gap, cannot graduate); flat-in-eps_A -> sim confirms VALUE not TILT (Koide needs the
+  mechanism); MY ADD: the flat plateau makes f_amp ~ 0.611 ROBUST to small tilt -> eps's f_amp effectively
+  DERIVED provided small-tilt (weaker condition than "one precise angle"), and eps needs the VALUE not the
+  Koide identity (the bequest is elegance, not necessity). 512-run computing. Standing ~15-18% held.
+
+— Claude (red team, external), turn 294. Card 2 INTERIM -- honest, underpowered, no graduation, no move.
+  Refined Z4 sim: small-tilt plateau moved UP from ~0.60 to ~0.606-0.616 = ON 11/18 (0.611) to <1% (mild
+  FAVORABLE drift) BUT 24 phases +-0.04 >> the 0.011 gap = cannot discriminate 0.611 vs 0.600. Your flat-
+  direction insight CORRECT (sim confirms VALUE not the 2/9 tilt -> Koide identification needs the mechanism
+  regardless) -- and I ADD the second edge: the flat plateau makes f_amp ~ 0.611 ROBUST to the exact small
+  tilt, so eps's f_amp is effectively DERIVED provided small-tilt (weaker than "one precise angle"), and
+  eps-completion needs the VALUE (0.611), NOT the Koide identity (that is elegance, not necessity). CREDIT
+  the discipline (my teeth run, honest underpowered read, 512-phase escalation launched). Await: 512-run
+  (value at >2 sigma) + the mechanism (bequest) + "why small tilt". Standing ~15-18% HELD. Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 297: THE OPERATOR'S AUDIT QUESTION CATCHES AN UNDERCOUNT — the full face-down deck
+========================================================================
+The operator asked: "you're 100% sure that covers derivations?" IT DOES NOT. My "two face-down
+cards" framed the eps + rho_inf chains' frontier and quietly rounded past THREE MORE un-derived
+quantities. The corrected FULL DECK (every quantity the model itself should eventually derive):
+
+1. THE TILT (Card 2 -- in statistical trial right now, the 512-run).
+2. THE COSMIC COUPLING for rho_inf (Card 1 -- whisper, graduation teeth set).
+3. **c -- THE COUPLING COEFFICIENT (the undercount's biggest miss):** eps = c·f_amp·Psi0/M_red
+   with c pinned [0.5, 2] and "c = 1" carried as if banked. IT IS NOT DERIVED: the #17
+   conformal-origin c=1 attractor is explicitly HYPOTHESIS-status ("STATUS: HYPOTHESIS, not
+   derivation," UV_completion:238). I have been rounding a hypothesis to 1. Card 3.
+4. **THE ABUNDANCE (Psi0's source):** Psi0 is "abundance-pinned" -- pinned BY THE MEASURED
+   Omega_DM. So eps's chain quietly contains an EMPIRICAL input; deriving the abundance itself
+   (the AD charge magnitude / the leptogenesis eta ~ 6e-10, long-flagged [OBJECT-PENDING])
+   is Card 4. Until it derives, eps is at best "structural given the measured abundance."
+5. **THE TORUS SIZE L:** P-013 registers the TOPOLOGY; the SIZE (which sets the line spectrum's
+   first line, the low-ell phenomenology, the cavity's mode ladder) is UN-DERIVED and was
+   never even inventoried. Card 5.
+6. THE SEESAW SCALE v_L: window-constrained [MeV, TeV] by #41; assembly (#42) constrains
+   further; not derived. Card 6.
+(Plus the legitimately-external inputs -- A_s, Omega_b, T_0, the SM constants (t165 door
+notwithstanding) -- and the story-layer items (rho_bare's sign, the first roll, BH-across-crunch).)
+
+CORRECTED STATEMENT: the analytic frontier is SIX face-down cards, not two -- of which two are
+in active trial (tilt, cosmic-alpha), one is a rounding I must stop making (c), one is the
+oldest open debt wearing a new name (the abundance = the charge magnitude), and two were never
+on the table at all (L, v_L). The operator's audit question did this -- the filter fired on MY
+inventory. Booked as a self-caught (operator-caught) undercount.
+ADJUDICATE: (a) concur the six-card deck (any I am STILL missing?); (b) the c-rounding -- how
+much of the banked eps-derivation chain inherits softness from c in [0.5,2] (a factor-4 window
+on the amplitude!)? (c) priority-order the four untried cards.
+-- Defender t297: the operator's "100% sure?" caught the undercount. Full deck = SIX cards:
+   tilt (in trial), cosmic-alpha (whisper), c (HYPOTHESIS rounded to 1 -- stop doing that),
+   the abundance/eta (the oldest debt), the torus size L (never inventoried), v_L (windowed).
+   eps is "structural given the measured abundance AND c" -- softer than I have been saying.
+
+========================================================================
+RED-TEAM — turn 296 (on the operator-caught undercount): this is an adverse, honest correction, and
+I take it straight -- INCLUDING against myself. The operator's "100% sure?" fired the filter on the
+derivation-frontier inventory and caught a real undercount: it is SIX face-down cards, not two, and
+the biggest miss (c, a factor-4 HYPOTHESIS in the eps chain) is one I ALSO under-weighted (I listed
+"c ~1, #14-class" at t288/289 and treated it as effectively banked -- it is explicitly "HYPOTHESIS,
+not derivation," UV_completion:238). So the recent eps-completion optimism (the "two numbers, nearly
+there" framing that held the number firm) is CORRECTED DOWNWARD: eps needs THREE cards (f_amp, c, the
+abundance), c is a factor-4 window on the headline amplitude, and Psi0 is an EMPIRICAL input. The
+banked STRUCTURAL results (DM+DE reduction, C_ref-hinge, sqrt3, reading-B) are UNAFFECTED, but the
+eps-amplitude is softer than I have been carrying. VERDICTS: (a) concur the six cards, + I raise a
+possible 7th (the dyad LEPTOPHILIA/#30 portal) and a tension (SM-constants-external vs the t165 door);
+(b) c softness = FACTOR-4 on eps -> eps is "consistent given c=1, NOT predicted"; (c) priority c >
+abundance/eta > v_L > L. Standing ~15-18% -> ~14-17% (the eps-completion optimism corrected down;
+credit the operator-caught honesty; book my own c-under-weighting).
+
+THE SUBSTANCE -- eps IS SOFTER THAN RECENTLY FRAMED (three cards, not one angle). eps = c*f_amp*Psi0/M_red:
+  - f_amp ~ 0.611 (Card 2, in the 512-trial; derived-provided-small-tilt, t294) -- the one I HAVE credited.
+  - c = HYPOTHESIS (the #17 conformal-origin c=1 attractor, "STATUS: HYPOTHESIS not derivation") pinned
+    [0.5, 2] = a FACTOR-4 window (Card 3). I ROUNDED this to 1. Booked against me.
+  - Psi0 = ABUNDANCE-PINNED = pinned by the MEASURED Omega_DM (Card 4, the abundance/eta ~6e-10, the oldest
+    [OBJECT-PENDING] debt) -- an EMPIRICAL input in the eps chain. I flagged Psi0 as "pinned" but glossed
+    that "pinned" means "pinned to data," not derived.
+  THE STRIKING FACT, kept honest: at c=1, eps = f_amp*(Psi0/M_red) = 0.611 * 0.0205 = 0.0125 = 1.25% vs
+  observed 1.24% -- a <1% match. That IS remarkable and I do not dismiss it. BUT it rests on c=1 (a
+  hypothesis) AND Psi0 (empirical). So the honest status is: eps is "STRUCTURAL GIVEN the c=1 hypothesis
+  AND the measured abundance" -- NOT "derived," and NOT "one angle away." With c genuinely un-derived over
+  [0.5,2], the model does not PREDICT 1.24%; it predicts a factor-4 window [0.6%, 2.5%] that CONTAINS it.
+  So the SHOT-1 amplitude blade is answered only CONDITIONALLY (given c=1 + the abundance), not cleanly.
+  This is the correction: my t288/294 "eps nearly complete, one angle/small-tilt away" OVER-STATED it by
+  rounding past c (hypothesis) and Psi0 (empirical). Corrected.
+
+(a) THE SIX-CARD DECK -- CONCUR, + A POSSIBLE 7TH + A TENSION. The six (tilt, cosmic-alpha, c, abundance/
+eta, L, v_L) are all real un-derived quantities and the inventory is a genuine improvement (L and v_L were
+never on the table -- good catch). TWO additions I raise:
+  - POSSIBLE CARD 7: the dyad's LEPTOPHILIA / the #30 PORTAL. The Koide-portal-selection (t262) fixed the
+    portal FORM (multiplicative-universal) CONDITIONAL on Koide, but WHICH sector the dyad couples to
+    (leptons not quarks) was graded "un-derived UV portal" at t196/236. Unless that is subsumed into c or
+    the coupling structure, the leptophilia is a 7th un-derived choice. Confirm or fold it in.
+  - A TENSION on "SM constants = legitimately external": the t165 door (m_e is PARTLY the medium's own
+    number, condensate-sourced) -- which you re-priced as "cheap post-pharmacy" at t262 -- would make m_e
+    OWED, not external. So either the t165 door is DROPPED (SM constants external, clean) or m_e is itself
+    a card. You cannot have both "m_e is the medium's number (t165)" and "m_e is legitimately external."
+    Pick one; if t165 stands, add m_e; if SM-external stands, retire the t165 door.
+
+(b) THE c-ROUNDING SOFTNESS -- FACTOR-4 ON THE HEADLINE. c in [0.5, 2] is a factor-4 window directly on eps
+(eps ~ c). So the ENTIRE eps-amplitude "derivation" inherits a factor-4 softness from c alone -- the single
+largest un-derived lever in the chain, larger than the tilt (which is a <10% effect on the plateau) or the
+f_amp refinement. The c=1 value is MOTIVATED (the conformal-origin attractor) so it is not arbitrary -- but
+"motivated hypothesis" != "derived," and until the #17 conformal attractor GRADUATES (c=1 produced, not
+posited), eps carries a factor-4 un-derived coefficient. So c is the HIGHEST-leverage card: graduating it
+sharpens eps from a factor-4 window to a value; leaving it means eps is amplitude-soft by 4x regardless of
+how well the tilt and cosmic-alpha resolve. This is the correction's real teeth.
+
+(c) PRIORITY-ORDER THE FOUR UNTRIED CARDS (by leverage x tractability):
+  1. c (Card 3) -- HIGHEST: a factor-4 on the headline amplitude, with a MOTIVATED route (the #17 conformal
+     attractor). Graduating it is the single biggest sharpening available. Do this first.
+  2. THE ABUNDANCE / eta (Card 4) -- HIGH leverage (removes the empirical input from eps), but HARD (the
+     baryon/lepton asymmetry from first principles is a deep problem; the oldest [OBJECT-PENDING] debt).
+     High-value, low-tractability -> second, but expect slow.
+  3. v_L (Card 6) -- MEDIUM: pins the neutrino sector + the S4 band; window [MeV,TeV] already; the #42
+     assembly constrains it. Moderate leverage, moderate tractability.
+  4. L (torus size, Card 5) -- LAST: sets the low-ell phenomenology (the first line), but may be a BOUNDARY
+     CONDITION (the size of the universe) that is un-derivable in principle (like the first roll) or set at
+     genesis -> lowest tractability; inventory it, but do not expect a derivation.
+
+STANDING -- ~15-18% -> ~14-17%. A modest walk-back, honestly forced: the operator-caught undercount reveals
+the eps-amplitude is softer than the recent turns framed (three cards -- f_amp, a factor-4 c-HYPOTHESIS, an
+empirical abundance -- not "one angle"), and the derivation frontier is SIX cards (L, v_L never inventoried),
+not two. The banked STRUCTURAL results are untouched (DM+DE, C_ref-hinge, sqrt3, reading-B) -- this does not
+make the model WORSE, it reveals it is LESS-FAR-ALONG than the "two numbers, nearly there" optimism (which
+had held the number at the firm-upper end) implied. So the number eases to ~14-17%, reflecting the corrected
+(larger, softer) derivation frontier. CREDIT the process strongly: the operator red-teamed the defender's
+own inventory and caught it; the defender booked it straight (adverse to the model); and I book my own
+under-weighting of c. That honesty is why the model's ~14-17% is trustworthy rather than inflated.
+  Banked (UNAFFECTED): DM+DE fluid, C_ref-hinge (reading-B reduction), sqrt3 (scale-ID), gate-0 pharmacy,
+  Landau/atom coherence, Jeans-thaw, the falsification surface. CORRECTED (softer): eps-amplitude = "structural
+  given c=1 hypothesis + measured abundance," THREE cards owed (f_amp in trial, c hypothesis, abundance
+  empirical). Open/owed -- the SIX-card frontier: tilt (512-trial), cosmic-alpha (whisper, Card 1), c
+  (HYPOTHESIS, factor-4, PRIORITY 1), abundance/eta (oldest debt, Priority 2), v_L (Priority 3), L (Priority
+  4, maybe boundary-condition); + possible Card 7 (leptophilia/#30 portal); + the SM/t165 tension; + the
+  validation frontier (DESI DR3, network run, radio ratio-lock, eps-dipole, nu-widths, A/B fork). Class:
+  DOWN-small -- operator-caught UNDERCOUNT: 6 cards not 2; c is a factor-4 HYPOTHESIS in the eps chain (I
+  under-weighted it, booked); Psi0 is EMPIRICAL; eps is "structural given c=1 + the abundance" (1.25% match
+  at c=1 is real but conditional), NOT "one angle away." L, v_L never inventoried. Credit the operator-caught
+  honesty; substance is adverse. Standing ~15-18% -> ~14-17%.
+
+— Claude (red team, external), turn 296. OPERATOR-CAUGHT UNDERCOUNT -- adverse, honest, taken straight incl.
+  against ME. Frontier = SIX cards not two: tilt (512-trial), cosmic-alpha (Card1 whisper), **c = a factor-4
+  HYPOTHESIS** (#17 conformal attractor "HYPOTHESIS not derivation" -- I rounded it to 1, BOOKED against me),
+  abundance/eta (Psi0 = EMPIRICAL, oldest debt), L (torus size, never inventoried), v_L (windowed). So eps =
+  c*f_amp*Psi0/M_red is "STRUCTURAL GIVEN c=1 + the measured abundance," NOT "one angle away" -- 3 cards owed;
+  the 1.25% match (at c=1: 0.611*0.0205) is REAL but conditional (factor-4 c window contains 1.24%, doesn't
+  predict it). (a) concur 6 + raise Card 7 (leptophilia/#30 portal, un-derived t196/236) + flag SM-external-
+  vs-t165-door tension (pick one: m_e external OR m_e a card). (b) c = FACTOR-4 on the headline = the largest
+  un-derived lever. (c) priority: c > abundance/eta > v_L > L. Standing ~15-18% -> ~14-17% (eps-completion
+  optimism corrected down; structural bank untouched; process-honesty strongly credited). Class DOWN-small.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 299: the short-horizon sweep — Card 5 CLOSED, P-2026-024 REGISTERED, runs still grinding
+========================================================================
+Per the operator: finish everything finishable now.
+1. CARD 5 (the torus size L) — CLOSED (card5_torus_size.py):
+   (a) BOUNDED FROM DATA: no matched circles => L > 0.985·(2·chi_rec) ≈ 27.6 Gpc comoving
+       = 6.3 × c/H0 (my printout said "~3x" — corrected here: 6.3×). Bounded, not excluded;
+       the low-ell anomalies sit where a just-above-bound L would put its first lines.
+   (b) THE GENOME QUESTION — the sharper answer: L IS THE MUTABLE GENE. The T³ winding class is
+       discrete (crunch-protected genome); the SIZE is a continuous modulus — carried by
+       continuity, NOT quantization — so it DRIFTS: Tolman-lengthening cycles => the torus grows
+       relative to the horizon each cycle => the low-ell discreteness FADES cycle by cycle.
+       COHERENCE CHECK: the entropy bookkeeping's "first cycles" lean (t285) independently
+       predicts L/horizon ~ O(few) = NEAR-observable discreteness — exactly where the data sit
+       (bound 6.3×, marginal low-ell hints). A late cycle predicts a perfectly smooth low-ell sky.
+       => THE LOW-ELL SKY IS A CYCLE-ODOMETER: the sharper the first-line cutoff, the younger the
+       chain. Two independent soft leans agreeing; reading-grade; the odometer is registerable
+       once the line-spectrum template is built.
+2. P-2026-024 REGISTERED (the eps-dipole): 6×10⁻⁷, horizon-scale, axis-correlated, growing at
+   √3·H; consistent-null today (~10⁻⁶ reach); three falsifiers incl. the Webb-amplitude
+   over-shoot; the P-022 ratio-lock as the anti-systematic companion; the ISW consistent-null
+   note attached. #48(a) discharged.
+3. STILL GRINDING (not finishable this hour): the 512-run (Card 2's verdict), the omk minimizer
+   (the trilemma number; its starting reference H0 = 69.59), routeD burn-in (~7.8k steps).
+ADJUDICATE (light): (a) Card 5's close (the bound + the mutable-gene reading + the odometer);
+(b) P-024's registration soundness (falsifier list complete?).
+-- Defender t299: Card 5 CLOSED (L > 27.6 Gpc = 6.3 c/H0; L = the MUTABLE gene — topology protected,
+   size drifts; low-ell = a cycle-odometer, coherent with the first-cycles lean). P-2026-024
+   registered (6e-7 axis-correlated dipole, 3 falsifiers, ratio-lock companion). Runs pending.

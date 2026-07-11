@@ -244,3 +244,20 @@ operator's long-standing promised target — arriving as the interpretation laye
 chosen at the last second (the tunneling node), with computable weights and unpredictable outcome.
 **Status: OPERATOR'S LAYER — coherent with the grammar, largely beyond falsification by design;
 the part of the structure that belongs to its builder.**
+
+---
+
+## §13 — THE EASY-DERIVATION SWEEP (2026-07-10, last pass)
+
+**(A) The scale-ID, derived structurally:** the dcdf carries exactly ONE scale (ρ_inf) — its P(X)
+realization has no second scale available → M_GC = ρ_inf^¼ by structure → **Γ/H_Λ = √3 sharp.**
+**(B) The gate, closed (toy):** f(C) = e^(−C²/C_ref²) with C_ref = C(z≈50), σ8-pinned: recomb
+f = 0.99 (ON); halos ≈ 10⁻¹¹; clusters/Earth = 0. The 30-order task closes; the margins dissolve.
+**(C) The turnaround epoch, derived (toy) — fallout #1:** t_turn = ln(1/√A_s)/(√3·H) ≈ 6.6 H⁻¹
+after Λ-domination (a_turn ≈ 770·a_now; w = −1 for all foreseeable observation). **The primordial
+amplitude A_s is a lifetime parameter — the seed of structure sets the length of the breath.**
+**(D) The end, re-graded — fallout #2:** the droplet is bound *topologically*; topology cannot fail
+continuously → **ionization is forbidden.** The chain's last page is DAMPING: after ~10¹⁸ cycles the
+Rabi amplitude decays and the atom settles into its ground state permanently — eternal de Sitter,
+reached by exhaustion, protected by shape. Not a bang, not a rip — a final breath that doesn't
+rebound.
