@@ -36556,3 +36556,66 @@ megamaser closure; (d) the wall-mode park; (e) the QH confidence-transfer.
    because the sky is smooth; the lasers turn out to hold the measuring stick for our own
    black-hole bet; the benches have been quantizing integers to ten decimals all along; and
    one question about walls waits politely in the lot.
+
+========================================================================
+RED-TEAM — turn 492 (on def505, brief -- the registration): P-032..P-037 formally registered (registry now
+P-001 -> P-037) with my t488 grades/caveats carried VERBATIM -- P-034's measurement-difficulty, P-036's
+adverse lean, P-037's double-stakes. Faithful bookkeeping (the registrations mirror the grades, including the
+adverse ones), no relitigation, no new physics. No standing move. Standing ~15-16% HELD.
+
+THE REGISTRATION -- FAITHFUL, CREDIT. The six new predictions are entered with their kills AND their red-team
+caveats on the face (P-036 explicitly carries "adverse lean / +4σ if it resolves low"; P-034 "measurement-
+difficult"; P-037 "double-stakes"). Recording the grader's caveats verbatim -- including the one that says a
+prediction is currently LOSING -- is exemplary living-standard discipline (the registry is honest about which
+of its promises are bets against comfort). No relitigation. Credit.
+
+STANDING -- ~15-16%, HELD, NO MOVE. Pure registration bookkeeping; the predictions mirror the t488 grades.
+No derivation, no failure -> no move. The canonical registry now holds 37 numbered, kill-conditioned
+predictions (six from this evening's assembly, caveats carried). Deciders unchanged (all owed/downstream):
+the six predictions' data (P-034 SMBH spin-dip, P-036 helium direction, P-037 wide-binary null), the AD-direct
+Josephson fraction, GATE 2 (likely adverse), M3 proofs, screen-fixity, M1/M5, P-031, BBN referees, M-K watch.
+Leptophilia (t358b) stands.
+  Banked (updated): P-032..P-037 REGISTERED (registry P-001->P-037) with t488 caveats VERBATIM (P-036 adverse
+  lean, P-034 measurement-difficulty, P-037 double-stakes) -- faithful, no relitigation. Class: FLAT (no move)
+  -- honest registration mirroring the grades. Standing ~15-16%.
+
+— Claude (red team, external), turn 492 (on def505). Faithful registration -- credit: the six predictions
+  enter the canonical registry (now P-001->P-037) with my t488 caveats carried VERBATIM, including the
+  uncomfortable ones (P-036's adverse lean / +4σ-if-it-resolves-low, P-034's measurement difficulty). A
+  registry that records which of its promises are currently LOSING bets is honest bookkeeping. No new physics,
+  no move. Standing ~15-16% HELD. Class flat.
+========================================================================
+
+DEFENDER — turn 509 (operator-directed: what talks to the new voices from OUTSIDE their
+family — subclasses, distant cousins): THE COUSIN PASS, no forcing:
+(1) PERCOLATION THEORY (the one REFINEMENT, not just kinship): the Kibble domain network IS a
+percolation problem — the n_rms ~ √N random-walk estimate (t343) silently assumed the phase
+field's CONNECTIVITY across domains; percolation thresholds (p_c-class results) sharpen
+whether the winding percolates whole or fragments. NAMED UNBLOCK-IMPROVEMENT for the
+n-statistics: redo the Kibble estimate with domain-connectivity weighting. (Queued to the
+n-network's refinement list alongside the KZ leg.)
+(2) THE He-4 LAMBDA POINT (the precision anchor): the dyad's transition is U(1)/XY-class —
+the SAME universality family as superfluid helium's lambda transition, whose critical
+exponents are the most precisely measured in physics (the microgravity lambda-point
+experiment). The cousin VALIDATES the machinery at extreme precision AND locates us honestly:
+He-4 (strong coupling) lives deep in the fluctuation window; our λ-ceiling keeps us
+exponentially OUTSIDE it (the def507 lock) — the cousin shows what we are provably not.
+(3) THE TOPOLOGICAL-INTEGER COUSIN FAMILY (benches and biology): optical-vortex/OAM beams
+(quantized ℓħ winding in LIGHT — bench-made; and honestly BENCH-ONLY for us: L1a forbids the
+medium imprinting OAM on passing light); skyrmions (magnetic n∈ℤ solitons); and — the
+delightful one — DNA LINKING NUMBER: Lk = Tw + Wr, an EXACTLY conserved integer in every cell,
+changeable only by enzymes that PAY WORK to cut and reseal — biology running on conserved
+winding numbers and paying Landauer-adjacent fees to edit them. Kinship notes, zero claims:
+nature builds protected integers at every scale from chromosomes to quantum Hall bars to (we
+argue) the sky.
+(4) THE ATOM LASER (the bridge cousin): coherent matter beams outcoupled from BECs — the
+laser voice and the FOUNDING IDENTITY shake hands on a bench: the medium's grammar (one
+phase, many quanta) making a directed beam of atoms. Files to the cousins' shelf.
+ADJUDICATE: (a) percolation's refinement legitimacy (does connectivity-weighting really bear
+on n_rms?); (b) the He-4 placement (the lock's converse stated correctly?); (c) the kinship
+notes' zero-claim hygiene (OAM's L1a fence explicit). -- Defender t509: the cousins from
+outside the family: a mathematics that asks whether our winding holds hands across its
+domains, a helium bath that measured our transition's family to eight digits, a chromosome
+that has been conserving linking numbers longer than astronomy has existed, and a beam of
+atoms that is the founding sentence walking. No claims — just the growing suspicion, properly
+parked, that nature likes exactly one trick.
