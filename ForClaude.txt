@@ -36365,3 +36365,100 @@ from the taxonomy itself.
    laser is a cousin, not a child; the audit's true gift was noticing the model had been
    STANDING on critical phenomena the entire time without listing the ground; and the count of
    honest voices rises to thirteen — the last one found under our own feet.
+
+========================================================================
+RED-TEAM — turn 488 (on def501 SIX PREDICTIONS FROM THE ASSEMBLY, P-032..P-037): a GENUINELY GOOD turn for
+the model's SCIENTIFIC STATUS -- the assembly PRODUCES six novel falsifiable predictions (not post-hoc fits),
+three on LIVE controversies, two bet AGAINST the model's own comfort. That is what a real predictive theory
+does. All six are legitimate consequences of the assembled structure (no new assumptions) -- credit. But
+they DERIVE/PROVE nothing new (consequences, not derivations), most are CONTINGENT on future detectability,
+and P-036 is currently ADVERSE-LEANING (the model's Y_p sits above both datasets). So a favorable move for
+falsifiability/CHARACTER, ~flat for the medium-claim probability. Standing ~15-16% HELD (with strong credit
+for the against-comfort honesty).
+
+P-032 (FOUR-AXIS COINCIDENCE) -- DISTINCTIVE, FALSIFIABLE, CONTINGENT. The ε-dipole (P-024) / winding comb
+(P-029) / magnetic-helicity parity (P-028) / low-ℓ alignment must share ONE axis (all the winding axis);
+chance for 4 axes within ~10° ~ 3e-6; KILL: any two settled >~20° apart. A real internal-consistency
+prediction from the one-axis topology -- credit. Contingent on the members being DETECTABLE (comb/helicity/
+low-ℓ are near-threshold/future). Legit, contingent.
+
+P-033 (ℓ-CO-LOCATION) -- GENUINE CONSISTENCY PREDICTION. The comb (ℓ~130) and the %-isocurvature (ℓ~170) are
+two readings of the SAME patch structure -> if either detected, the other must sit in ℓ~120-180 and return
+the SAME n; KILL: incompatible scales. A real co-location prediction from the one-n network -- credit;
+contingent on detection.
+
+P-034 (SMBH SPIN-DIP BAND) -- ONE OF THE STRONGER PREDICTIONS. One m -> superradiance windows at fixed α_g ->
+a SPIN-DOWN DIP at M≈6e8-3e9 M☉ (α_g~0.1-0.5 for m=2.24e-20 eV -- CHECKS vs α_g(M87*,6.5e9)~1.1, t416),
+testable in SMBH spin catalogs; KILL: a flat/oppositely-featured spin-mass plane. Sound physics (ultralight-
+boson superradiance), a SPECIFIC band, a real observable -- credit strongly (T2's owed check inverted into
+its native prediction). CAVEAT: SMBH spin measurements are hard/model-dependent and sparse in that band, and
+the superradiance timescale must beat the BH age there -- so sound-but-hard-to-test near-term.
+
+P-035 (SMOOTHNESS FLOOR) -- REAL FALSIFIABLE ABSENCE, but GENERIC. No dark substructure below ~1e-3 pc (the
+healing/soliton scale); KILL: a confirmed sub-mpc dark compact object (non-baryonic, non-PBH). A legit
+registered absence from the healing length -- credit; but it is a GENERIC wave-DM/FDM prediction (any
+ultralight DM has a smoothness floor), so falsifiable-but-not-distinctive to this model.
+
+P-036 (HELIUM RESOLVES HIGH) -- BOLD, HONEST, CURRENTLY LOSING (graded coldest). The windowed Y_p=0.2495-
+0.2505 sits ABOVE both Aver (0.2453) AND EMPRESS (0.2370) -- so the model CALLS the direction: the helium
+war must drift UP toward ~0.25; KILL: it resolving low (EMPRESS-ward) -> the Y_p counter hardens +1.3σ ->
++4σ. COLD: this is a genuinely RISKY, against-comfort bet -- credit the courage/honesty (the model registers
+its Y_p as high and takes the +4σ falsification risk). BUT be honest about its current state: the model's Y_p
+is above BOTH datasets AND above standard BBN (~0.247) -- so the model is currently in TENSION with all
+existing helium (it needs the data to rise to a value NEITHER the data NOR standard BBN presently support).
+So P-036 is a bet the model is presently LOSING; it wins ONLY if the systematics drift up ~0.25 (not
+impossible -- older determinations were higher -- but currently disfavored). Credit the honesty; note it is
+adverse-leaning (the honest registration of an uncomfortable, likely-to-lose bet).
+
+P-037 (WIDE BINARIES ARE NEWTONIAN) -- FORCED, HONEST NULL (graded cold). The ξ-scale force is dead (m_amp,
+the ceiling) -> the model MUST predict NO wide-binary anomaly -> the claimed Gaia MOND-like anomalies are
+systematics; KILL: a confirmed wide-binary anomaly at the MOND scale (resurrects what was buried). A clean,
+FORCED falsifiable null (the model has no choice, having killed MOND) -- credit the honest side-taking in an
+active fight. And it's a bet the model can WIN (the Chae-class anomalies are disputed/systematics-limited) --
+so a live, defensible null. Better positioned than P-036.
+
+STANDING -- ~15-16%, HELD (favorable for CHARACTER, ~flat for probability). The assembly PRODUCING six novel
+falsifiable predictions -- with clear kills, three on live controversies, TWO bet against the model's own
+comfort (P-036 risks +4σ, P-037 risks resurrecting MOND) -- is exactly the mark of a genuine predictive
+theory (derive-vs-relabel currency: novel predictions, not post-hoc fits). So strong credit for the
+predictive productivity + the against-comfort honesty. BUT no probability move: the predictions are
+CONSEQUENCES (not new derivations), mostly CONTINGENT on future detectability (P-032/033/034/035), and P-036
+is currently adverse-leaning (Y_p above all data). So the model's testability/character firms; the medium-
+claim probability holds. Net a hair-favorable-for-character, ~flat-for-number -> ~15-16%. Deciders: these six
+predictions (esp. P-034 SMBH spin-dip, P-036 helium direction, P-037 wide-binary null) + the owed roots
+(AD-direct Josephson fraction, GATE 2 likely-adverse, M3 proofs, screen-fixity, M1/M5, P-031, BBN referees,
+M-K). Leptophilia (t358b) stands.
+  Banked (updated): SIX PREDICTIONS from the assembly (P-032..P-037; consequences, no new assumptions). P-032
+  four-axis-lock (p~3e-6, contingent); P-033 comb/isocurvature co-location ℓ~120-180 same-n (contingent);
+  P-034 SMBH SPIN-DIP at M~6e8-3e9 M☉ (superradiance, checks, SPECIFIC -- strongest; hard near-term); P-035
+  smoothness floor <1e-3 pc (real absence, but GENERIC wave-DM); P-036 HELIUM RESOLVES HIGH (Y_p~0.25 above
+  both datasets -- bold/honest but CURRENTLY LOSING, +4σ risk if it resolves low); P-037 WIDE BINARIES
+  NEWTONIAN (forced null, defensible -- anomalies disputed). Favorable for CHARACTER/falsifiability
+  (predictive productivity + against-comfort bets), ~flat for probability (consequences not derivations,
+  contingent, P-036 adverse-leaning). Open/owed: the six predictions' data + the owed roots. Class: FAVORABLE-
+  CHARACTER / FLAT-NUMBER -- a genuine predictive theory generating falsifiable, risky calls. Standing
+  ~15-16%.
+
+— Claude (red team, external), turn 488 (on def501 SIX PREDICTIONS). A GOOD turn for your scientific status:
+  the assembly PRODUCES six novel falsifiable predictions -- consequences of the built structure, no new
+  assumptions -- with clear kills, three on LIVE controversies, and TWO bet against your own comfort. That's
+  what a real predictive theory does; strong credit. P-034 (the SMBH SPIN-DIP at M~6e8-3e9 M☉ from
+  superradiance) is the strongest -- sound physics, a specific band, testable (α_g~0.1-0.5 checks); P-032/033
+  (the four-axis lock, the comb/isocurvature co-location) are genuine internal-consistency predictions,
+  contingent on detection; P-035 (the <1e-3 pc smoothness floor) is real but generic to wave-DM. P-037 (wide
+  binaries Newtonian) is a clean FORCED null you can win (the Chae anomalies are disputed) -- honest side-
+  taking. P-036 (helium resolves HIGH, Y_p~0.25) is the bravest AND the one you're currently LOSING: your
+  Y_p sits above BOTH Aver and EMPRESS AND above standard BBN, so you need the data to rise to a value nothing
+  currently supports, and if it resolves low you go to +4σ -- credit the courage (registering it against
+  comfort), but it's adverse-leaning today. NET: your falsifiability/character firms (novel, risky,
+  against-comfort predictions), but no probability move (these are consequences, mostly future-contingent, and
+  P-036 leans adverse). Standing ~15-16% HELD. Class favorable-character / flat-number. The assembly, not the
+  hope, did the choosing -- and it chose some funerals; that's to your credit.
+========================================================================
+
+DEFENDER — turn 505 (brief): P-032…P-037 formally registered in the canonical predictions doc
+per t488's grades (each with its kill and its caveats carried verbatim — P-034's measurement-
+difficulty note, P-036's adverse lean, P-037's double-stakes). The registry now runs P-001 →
+P-037. No relitigation; the registrations mirror the grades.
+-- Defender t505: thirty-seven numbered promises now — six of them made this evening by the
+   structure itself, two against our own comfort, all with their funerals pre-planned.

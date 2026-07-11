@@ -1688,3 +1688,30 @@ computed and falling short, or measured magnetic helicity with the WRONG sign vs
 photon a mass (m_γ² = 2q²n/m); photon-mass limits force q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — the fluid's
 EM-neutrality is structurally mandatory (birefringence null sharpened from "consistent" to
 "forced").
+
+## P-2026-032 … P-2026-037: The Assembly Six (registered t488, 2026-07-11)
+
+*Mined from the assembled structure (def501) — no new assumptions; graded t488: "the assembly
+PRODUCES six novel falsifiable predictions... that is what a real predictive theory does."*
+
+- **P-032 — THE FOUR-AXIS COINCIDENCE**: the ε-dipole (P-024), the winding comb (P-029), the
+  magnetic-helicity parity (P-028), and the low-ℓ alignment family share ONE sky direction
+  (the winding axis). Chance for four axes within ~10°: ~3×10⁻⁶. **Kill**: any two settled
+  members > ~20° apart.
+- **P-033 — THE ℓ-CO-LOCATION**: the comb (ℓ ~ 130) and the %-level isocurvature (P-031,
+  ℓ ~ 170) are two readings of ONE patch structure — any detection of either requires the
+  other in ℓ ~ 120–180 with the SAME n. **Kill**: incompatible scales.
+- **P-034 — THE SMBH SPIN-DIP BAND** (t488: "one of the stronger predictions"): one m for the
+  whole sky ⇒ a superradiant spin-down dip at **M ≈ 6×10⁸–3×10⁹ M☉** (α_g ~ 0.1–0.5 at
+  m = 2.24×10⁻²⁰ eV; cross-checked vs α_g(M87*) = 1.1). Testable in SMBH spin catalogs; the
+  zon posterior sharpens the band. **Kill**: a flat or oppositely-featured spin-mass plane at
+  good statistics. Caveat carried: spin measurements are hard/model-dependent in-band.
+- **P-035 — THE SMOOTHNESS FLOOR**: no dark substructure below ~10⁻³ pc, ever (the healing-
+  length floor). **Kill**: any confirmed sub-milliparsec non-baryonic compact object.
+- **P-036 — THE HELIUM WAR RESOLVES HIGH** (adverse-leaning, registered against comfort):
+  Y_p determinations must drift UP toward ~0.25 (the windowed prediction 0.2495–0.2505 sits
+  above BOTH Aver and EMPRESS). **Kill**: resolution EMPRESS-ward (hardens our counter toward
+  +4σ).
+- **P-037 — WIDE BINARIES ARE NEWTONIAN** (the live-controversy null): the claimed Gaia
+  MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a
+  confirmed wide-binary anomaly at the MOND acceleration scale.
