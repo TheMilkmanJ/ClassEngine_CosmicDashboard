@@ -33303,3 +33303,208 @@ its law).
    working screen, a parity law enforcing itself in its second sector, a scale that silences
    twice. The model's noes have the same jurisprudence as its yeses — and strong-CP turns out
    to share a tombstone with our cleanest proven null.
+
+========================================================================
+RED-TEAM — turn 430 (on def435 THREADING BATCH FOUR, T14-T18): thread-valid, honest, ramp-checked -- no
+derivations, discipline strong (T18 clean self-kill via the channel audit; T16 likely-SHORT flagged; T14
+owed-sign-map flagged; forced-null exposures owned). Notable: T14 (a possibly-MEASURED magnetic-helicity)
+and T16 (LSS parity) both feed the PARITY sector -- so Card 4's n-sign now gates FOUR parity observables
+(baryon / helicity[T14] / GW-chirality[T10] / LSS-parity[T16]), further elevating it (I flagged 3 at t426).
+Standing ~15-18% HELD, no move.
+
+T14 -- IGMF HELICITY: a POSSIBLE MEASURED FAMILY MEMBER, but UN-READABLE until Card 4's sign map. The
+Tashiro-Vachaspati-class gamma-ray parity-odd claim (LEFT-handed IGMF helicity, ~2σ, DISPUTED) is real and
+topical -- so the chirality family's helicity member MIGHT already be (weakly) measured, moving it toward
+one-measured/two-predicted. BUT the crucial honesty (credit): the SIGN MAP is OWED -- the model predicts
+sign(helicity)=sign(n)=matter's-sign, but WHICH handedness = "matter-wins" is NOT yet derivable (it needs
+Card 4's rectification/n-sign). So the model cannot yet READ the datum (can't say if it predicts left or
+right). So T14 = "a disputed ~2σ hint may be a family member IF the owed sign-map aligns" -- contingent on
+Card 4's n-sign (the cross-cutting debt, now with a possibly-measured datum riding on it). Honest, modest;
+credit the owed-map flag, no overclaim.
+
+T15 -- INDIRECT DETECTION: FORCED NULL, honest exposure, weak/generic (like T9). Conserved dark charge (never-
+annihilating) + a 3.5e17 GeV portal ⇒ NO annihilation/decay signals: the GC GeV excess, 511 keV, positron
+excess all predicted ASTROPHYSICAL, with the unhedgeable exposure "one confirmed DM-attributed signal kills."
+Consistent (the model predicts the indirect-detection null) + honest falsifier -- but a WEAK positive (null is
+the current status, and it is GENERIC to non-annihilating DM, not distinctive). Credit the owned exposure;
+cross-section ceiling owed ("how null"). Modest.
+
+T16 -- LSS PARITY VIOLATION: the BOLDEST + most distinctive thread, honestly likely-short. The BOSS 4PCF
+parity-odd signal (~5-7σ claimed, HEAVILY systematics-disputed) is genuinely hard to source -- standard
+inflation gives ZERO LSS parity, so it needs real parity-violating physics. The model's helical-vorticity
+injection (winding + rotation-seeded Harrison, chiral) IS a native parity-violating source -- distinctive
+(few frameworks have one). Credit the machinery. BUT credit equally the HONEST likely-SHORT flag: the
+amplitude is (v/c)-suppressed, so it probably CANNOT reach the claimed ~5-7σ -- "has the machinery, likely
+too small." Ramp-check correctly applied (the injection integrates through the growth history, not an initial
+stamp). Axis correlation/anti-correlation dichotomy registered (like A5). MILD flag on "near-ALONE": other
+parity-violating-LSS proposals exist (chiral inflation, Chern-Simons gravity), so "one of few" is fairer than
+"alone." Net: a distinctive, honestly-hedged thread feeding the parity/chirality sector (Card 4 n-sign),
+pricing owed. Good thread.
+
+T17 -- THE A_L CHECK: procedure defined (compare chi2_lensing at MATCHED minima; dyad omk minimum 8.40),
+queued as a chain/minimize deliverable, not filed/not killed. Fine -- un-computed, noted.
+
+T18 -- NS/PULSAR-GLITCH: KILLED CLEAN, correct channel audit (credit). The winding↔NS-vortex coupling fails
+THREE ways: no shared charge (L1), ×16 hadron-suppression (t358 -- NS matter is hadronic), AND the C²-gate
+SCREENS collapsed objects (a NS is dense -> deep in Gaussian-dead screening -- a correct application of the
+t429 screening map: strong-screen = predicted normality). Triple-killed, honest self-death -- credit. AND the
+CONSISTENCY ROW: the binary-pulsar drag check computes medium drag ~3e-5% of the measured GW decay -> a
+PASSED NULL (the medium does not spoil the Hulse-Taylor-class GR test -- a real consistency the model must
+pass, and does). Credit the passed consistency null.
+
+CROSS-CUTTING -- CARD 4's n-SIGN NOW GATES FOUR PARITY OBSERVABLES (further elevation). At t426 I flagged
+Card 4's n-sign as cross-cutting for THREE (baryon / helicity / GW-chirality). Batch four adds a FOURTH --
+T16 LSS parity -- AND raises the stakes: T14 means one member (helicity) may ALREADY be measured (disputed).
+So the n-sign / rectification (the uniform-vs-domain resolution, t401) now clears-or-sinks FOUR parity threads
+AND is needed to READ a possibly-existing datum. This makes Card 4's n-sign arguably the SECOND-highest-
+leverage debt after the Lorentz program -- elevate accordingly in the ledger.
+
+STANDING -- ~15-18%, HELD, NO MOVE. Batch four is thread-valid, honest, ramp-checked -- one clean self-kill
+(T18, correct channel audit + a passed binary-pulsar null), two forced/weak nulls (T15), one possibly-measured
+family member (T14, un-readable pending Card 4), and one bold-distinctive parity thread (T16, honestly likely-
+short). No derivations, no rescues, no new banked wins -- the parity threads sharpen the falsifiability web
+but all funnel to Card 4's n-sign (owed) and per-thread pricing. So the model's testability profile broadens
+(LSS parity, indirect-null, a possible helicity datum) without moving the derivation-based confidence. No
+move. Deciders: Card 4's n-sign (now gating 4 parity observables + a datum) elevated to ~2nd pivot; the
+Lorentz/no-bare-G program (1st pivot); α_c/zon; screen-fixity; the BBN ε(epoch) run (t428); + per-thread
+pricing (T16 amplitude, T15 cross-section, T14 sign-map, T17 A_L) and running chains. Leptophilia (t358b)
+stands.
+  Banked (updated): BATCH FOUR -- T14 IGMF HELICITY: a possibly-MEASURED family member (Tashiro-Vachaspati
+  ~2σ, disputed) but UN-READABLE until Card 4's sign map (owed, load-bearing). T15 INDIRECT DETECTION: forced
+  null (conserved charge + heavy portal -> all signals astrophysical), honest exposure, weak/generic. T16 LSS
+  PARITY: distinctive native machinery (helical vorticity -> BOSS 4PCF parity), honestly likely-SHORT ((v/c)-
+  suppressed), ramp-checked, axis-salvage registered ("near-alone" -> "one of few"). T17 A_L: procedure
+  defined, queued. T18 NS/GLITCH: KILLED CLEAN (channel audit: no charge + hadron-suppressed + C²-screened
+  -- correct) + a PASSED binary-pulsar drag null (~3e-5% of GW decay). CROSS-CUTTING: Card 4's n-sign now
+  gates FOUR parity observables (+ a possibly-measured datum) -> elevated to ~2nd pivot. Open/owed: Card 4
+  n-sign (elevated); Lorentz/no-bare-G; α_c/zon; screen-fixity; BBN ε(epoch); per-thread pricing (T16/T15/T14/
+  T17); running chains. Class: FLAT (no move) -- thread-valid + honest + ramp-checked; parity threads broaden
+  falsifiability, all funnel to Card 4 n-sign; no derivation. Standing ~15-18% held.
+
+— Claude (red team, external), turn 430 (on def435 BATCH FOUR). Thread-valid, honest, ramp-checked -- credit
+  the discipline. T14 IGMF HELICITY: the Tashiro-Vachaspati LEFT-handed helicity claim (~2σ, disputed) may be
+  a MEASURED family member -- but you honestly flag the SIGN MAP is OWED (which handedness = matter-wins isn't
+  derivable without Card 4), so you can't yet READ the datum. Contingent on Card 4's n-sign. T15 INDIRECT
+  DETECTION: forced null (no annihilation + heavy portal), honest exposure -- weak/generic like T9. T16 LSS
+  PARITY is the bold one: the BOSS 4PCF parity signal (~5-7σ, systematics-disputed) is hard to source, and
+  your helical-vorticity injection is a genuine native parity mechanism (distinctive) -- but you rightly flag
+  it likely-SHORT ((v/c)-suppressed), and "near-alone" is really "one of few" (chiral inflation / CS-gravity
+  exist). Credit the machinery + the honest hedge. T17 A_L: queued. T18 NS/GLITCH: KILLED CLEAN -- correct
+  triple channel-audit (no shared charge L1 + ×16 hadron-suppression + C²-gate screens the collapsed object,
+  a right use of the screening map) + a PASSED binary-pulsar drag null (~3e-5% of the GW decay -- the medium
+  doesn't spoil Hulse-Taylor). CROSS-CUTTING: Card 4's n-sign now gates FOUR parity observables (baryon /
+  helicity / GW-chirality / LSS-parity) AND is needed to read a possibly-existing helicity datum -- elevate
+  it to ~2nd pivot after the Lorentz program. NET: falsifiability web broadens (parity sector), all funnels
+  to the owed n-sign; no derivation, no rescue. No move. Standing ~15-18% HELD. Class flat.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 432 (on def437 THE WHY-PASS / LAWFUL DEATHS): the why-answers are VALID for all five deaths
+-- each dies by a principled, independently-motivated reason (A4 fixed-pricing, A5 the screen, A6 L1a-parity,
+A7 the forced portal scale, T18 the gate+L1), NOT ad-hoc absence -- credit. The A6 birefringence/strong-CP
+unification ("TWO NULLS, ONE CLAUSE") is a genuine COHERENCE observation -- credit, with ONE cold flag: the
+birefringence null is at mild RISK from the Minami-Komatsu cosmic-birefringence hint (~2-3σ nonzero), and via
+this very unification that risk is SHARED with the parity structure (a two-way cut). The meta-finding (deaths
+die BY named laws) is a real QUALITY/coherence signal -- the model forbids by the same independently-motivated
+laws it predicts by, which is the mark of a principled (not ad-hoc) framework. Coherence-bank granted; no
+standing move.
+
+THE WHY-PASS -- VALID PER DEATH (principled, not shrugs). A4 ISW: death by PRICED-COUPLING (the family DOES
+couple to ISW = evolving potentials = the pdV ledger seen by light, but the size is FIXED by the w=−1
+commitment + percent-class thaw; the ~5× excess exceeds the fixed coupling) -- a stronger, more honest framing
+than "magnitude mismatch" (the coupling can't be dialed up without breaking w=−1). A5 dipole: death by the
+SCREEN (the C²-gate zeroes local ε; the directional patchiness lives at z>50) -- consistent with reading B /
+the screening map. A7 g-2: death by the FORCED PORTAL SCALE (geometric-mean ~3.5e17 GeV -> (m_μ/M)²~1e-31),
+the flip side of collider-safety (one forced scale, two silences). T18 NS-glitch: death by the GATE (C²
+screens the collapsed object) + L1 (no shared charge) -- consistent with my t430 triple-audit. All four are
+principled deaths (the coupling either doesn't exist by L1, is screened by the gate, or is priced/scaled too
+small by a fixed commitment) -- credit; none is an ad-hoc absence.
+
+A6 STRONG-CP -- THE UNIFICATION IS GENUINE COHERENCE (credit), WITH A TWO-WAY RISK FLAG. The finding: θ̄-
+relaxation needs a parity-ODD gluon coupling (a color anomaly, PQ-style); L1a says the medium couples PARITY-
+EVEN to every gauge sector; so the PHOTON clause of L1a = the birefringence null (no parity-odd γ coupling ->
+no cosmic polarization rotation), and the GLUON clause of the SAME law = the strong-CP non-solution (no
+parity-odd g coupling -> no θ̄ relaxation). BOTH follow from ONE parity-even clause -- a real unification (the
+strong-CP death and a proven null are two faces of L1a). CREDIT the coherence: it converts the strong-CP
+death from "doesn't touch it" to "cannot, by the same law that gave a proven null." BUT THE COLD FLAG: the
+birefringence null is NOT unassailable -- the Minami-Komatsu cosmic-birefringence measurement (ACT/Planck)
+shows a ~2-3σ HINT of NONZERO rotation (β~0.3°). IF that firms up, the birefringence null is FALSIFIED -- and
+by THIS unification, a nonzero birefringence would implicate L1a's parity-even claim in the photon sector,
+which is the SAME clause underwriting the strong-CP framing. So "two nulls, one clause" cuts BOTH ways: the
+clause's strength (it forbids two things by one law) is also its exposure (one measured birefringence
+threatens the whole parity clause). Credit the unification; log that its keystone (the birefringence null) is
+a live prediction under mild observational pressure, and the unification means that pressure is shared.
+
+THE META-FINDING (LAWFUL DEATHS) -- A REAL QUALITY SIGNAL, CREDIT AS COHERENCE. "Every proper death dies by a
+named law (L1 census, L1a parity, the gate, fixed pricing, the forced scale), none by ad-hoc absence" is a
+genuine mark of a PRINCIPLED framework: the model's NOes follow from the SAME independently-motivated laws as
+its YESes, so the laws cut both ways (forbid as well as predict). This matters BECAUSE the laws are non-
+trivially predictive elsewhere (the falsifiable lattice) -- a law that both predicts signatures AND forbids
+non-signatures is doing real work, not post-hoc excusing. So the kill-list being "the constitution enforcing
+itself at the boundaries" is a fair and creditable characterization -- it distinguishes this model from an
+ad-hoc one. CAVEAT: this is COHERENCE (re-characterizing existing deaths by their laws), not a new derivation
+or prediction -- so it reinforces the model's principled CHARACTER without moving the derivation-based
+confidence. And "lawful" is a virtue only as long as the laws stay independently motivated (L1a's proof is
+the birefringence null -- itself now under the Minami-Komatsu pressure above). Granted as a coherence bank.
+
+THE AMENDMENT (every future kill owes its WHY + its law) -- GOOD STANDING PRACTICE, CREDIT. Requiring each
+death to name the law that kills it is exactly the discipline that keeps the kill-list principled (and catches
+step-thinking / mis-attributed deaths, as A1's reopening showed). Endorse it as permanent.
+
+STANDING -- ~15-18%, HELD, NO MOVE. A coherence-bank turn + a protocol amendment: the five deaths are shown
+LAWFUL (principled, each by an independently-motivated law -- credit), the A6 birefringence/strong-CP
+unification is a genuine coherence (credit, with the shared birefringence-hint risk flagged), and the meta-
+finding (lawful deaths) creditably characterizes the model as principled rather than ad-hoc. No derivation, no
+prediction, no rescue -- so no move; the value is CHARACTER/coherence (the model forbids by law), which
+reinforces the overall picture (a principled, internally-consistent framework) without changing the leverage
+map. Flag banked: the birefringence null (L1a's photon-sector keystone) is a live prediction under mild ~2-3σ
+observational pressure (Minami-Komatsu), and via the A6 unification that pressure touches the parity clause.
+Deciders unchanged: Lorentz/no-bare-G (1st pivot); Card-4 n-sign (2nd, gating 4 parity observables + a datum);
+α_c/zon; screen-fixity; BBN ε(epoch); per-thread pricing; running chains; + now the birefringence-null watch
+(Minami-Komatsu). Leptophilia (t358b) stands.
+  Banked (updated): THE WHY-PASS -- five deaths shown LAWFUL: A4 fixed-pricing (ISW coupling exists but w=−1-
+  fixed too small), A5 the C²-screen, A6 L1a-parity, A7 the forced portal scale, T18 the gate+L1 -- principled,
+  not ad-hoc (credit). A6 UNIFICATION: birefringence-null (photon clause) + strong-CP-non-solution (gluon
+  clause) = ONE L1a parity-even clause ("two nulls, one clause") -- genuine coherence; FLAG: the birefringence
+  null is under ~2-3σ Minami-Komatsu pressure, and the unification SHARES that risk with the parity clause
+  (two-way cut). META-FINDING: lawful deaths = a real principled-framework quality signal (coherence, not
+  derivation). Amendment (every kill owes WHY+law) endorsed. Open/owed: unchanged + the birefringence-null
+  watch. Class: FLAT (no move) -- coherence bank (lawful deaths + A6 unification) + amendment; principled
+  character reinforced; birefringence-hint risk logged. Standing ~15-18% held.
+
+— Claude (red team, external), turn 432 (on def437 THE WHY-PASS). The why-answers are VALID for all five --
+  each death is principled, by an independently-motivated law (A4 the ISW coupling EXISTS but is w=−1-fixed
+  too small -> death by PRICED-coupling, not absence; A5 the C²-screen; A6 L1a-parity; A7 the forced portal
+  scale; T18 the gate+L1) -- credit; no ad-hoc shrugs. A6 is a genuine COHERENCE unification: birefringence-
+  null (photon) + strong-CP-non-solution (gluon) both follow from L1a's PARITY-EVEN gauge clause -- "two
+  nulls, one clause." Credit. BUT cold flag: your birefringence null is under live pressure -- Minami-Komatsu
+  reports a ~2-3σ HINT of NONZERO cosmic birefringence; if it firms, the null falsifies, and by THIS very
+  unification that implicates L1a's parity clause (which also underwrites strong-CP). The clause's strength
+  (forbids two things at once) is also its exposure (one measured birefringence threatens the whole clause) --
+  a two-way cut. The META-FINDING (every proper death dies BY A NAMED LAW, none by ad-hoc absence) is a real
+  QUALITY signal -- the model forbids by the same independently-motivated laws it predicts by, which is what
+  makes a framework principled rather than ad-hoc; granted as a coherence bank (it reinforces character, not a
+  derivation). Amendment (every kill owes WHY+law) endorsed as permanent. No move -- coherence/character, no
+  new result. Standing ~15-18% HELD. Class flat. Add the birefringence-null (Minami-Komatsu) to the watch row.
+========================================================================
+
+DEFENDER — turn 439 (operator-directed batch-5 housekeeping + the windowed launch): THE
+BATCH-FOUR THREADS GET THEIR STANDALONE FILES (the operator caught the gap: batches 1-3 had
+docs; batch 4 had only owed-notes): docs/PRTOE_igmf_helicity.md (the family's possible first
+datum; THE SIGN MAP promoted from Card-4-internal to the-sky's-dictionary), docs/
+PRTOE_indirect_detection.md (the second purchased silence: annihilation ABSENT by charge
+conservation, not suppressed; the sky's mundanity and the underground's silence = one theorem
+twice), docs/PRTOE_lss_parity.md (the BOSS 4PCF thread: native chirality machinery, the
+pricing = life-or-death, the three-outcome value statement). T17 (A_L) remains queued-not-filed
+per protocol; T18 stays dead per t430.
+ALSO LAUNCHED: THE WINDOWED BBN BRACKET (t428's "real new owed item" — the entire BBN
+sub-lattice provisional): run_windowed.py splices T_c-side-shifted weak rates by zone
+(mode LT: shifted below 0.1 MeV only = ramp under-count; mode MTLT: shifted below 1 MeV =
+over-count) with thermo standard — the bracket [LT, MTLT] contains the ramped truth, vs the
+banked std/full-shift extremes. THE STAKE, stated before the print: n/p freeze-out (~800 keV)
+is ABOVE T_c = 193 keV — if Y_p's −0.72 elasticity lived at freeze-out, THE Y_P MEDICINE
+SHRINKS TOWARD ZERO in the windowed truth (and the BBN column re-poses again — the third time,
+each time by better physics). No number pre-written; the machine prints.
+-- Defender t439: the batch-four threads now have faces, the family's first datum has its
+   dictionary on order, and the BBN column is back on the table with its epochs finally
+   honest. If the medicine was earned above the condensation line, we hand it back in public.
