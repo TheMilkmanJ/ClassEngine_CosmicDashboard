@@ -31964,3 +31964,115 @@ completeness. Tags: STRUCTURAL (candidate) all three; no standing moves requeste
    examined under the same lamp: no infinities, no choices at the start, no erasures ever.
    The model's answer to all three is the same sentence: the books are kept, and they began
    blank because blank is the only way a book can begin.
+
+========================================================================
+RED-TEAM — turn 410 (on def413 THE MYSTERY SWEEP -- big-bang / arrow / information paradox): three COHERENT
+structural applications of the banked emergent-condensate frame, honestly tagged candidate with owed items
+bare -- credit the coherence and the low overclaim. The clarifying (and correct) meta-point: ALL THREE rest
+on ONE owed debt -- the area law / entropy functional (task #11) -- which now underwrites BH interiors
+(t411), the emergent frame (t366), AND these three. So task #11 is THE pivotal owed item. No derivations
+land; two minor overclaim flags (info-paradox "dissolved"; arrow "answered"). Standing ~15-18% HELD, no move.
+
+(1) BIG BANG NO SINGULARITY -- COHERENT, INHERITS THE FRAME, REAL FALSIFIER. Same machinery as t411 applied
+to cosmology: bounce at the quartic floor (finite ρ), metric arena dissolves at ξ before the theorem
+concludes, crunch's-mouth thermalizes (Tolman), vacuum genesis (t343 = a state not a point), energy of
+creation = 0 (t352 zero-sum loan). All pieces are banked-coherent (t343/t352/t411-class), assembled
+consistently, and consistent with the cyclic-aging energetics (t352/353). Falsifier inherited: any confirmed
+PRE-GENESIS RELIC -- a genuine (if hard-to-trigger) falsifier; credit the falsifiability. Assembly valid AS
+COHERENCE; no new derivation (inherits the emergent frame + the quartic floor, both coherent-not-derived).
+No overclaim (candidate-tagged).
+
+(2) ARROW OF TIME / PAST HYPOTHESIS -- A LEGITIMATE-BUT-CONTESTED MOVE, HONESTLY FLAGGED AS PREMISE-DEPENDENT.
+The claim: Penrose's 1-in-10^(10^123) presumes the initial state was DRAWN; the first genesis had NO
+alternatives (the vacuum = the unique choice-free state, minimal-entropy by construction). Cold read:
+  - It IS a legitimate CLASS of answer (the "unique initial state" response -- Hartle-Hawking / no-boundary
+    class): if the genesis state is UNIQUE, the "improbability" of a low-entropy start dissolves (nothing
+    else it could be). And the vacuum having minimal GRAVITATIONAL entropy (Weyl~0, smooth torus) addresses
+    Penrose's specific (Weyl) concern, not just thermal entropy -- coherent.
+  - BUT the load-bearing piece is UNIQUENESS ("whatever begins, begins choice-free"), which the defender
+    HONESTLY flags as a philosophical joint (an assumption, not a derivation) -- credit the honesty. So the
+    arrow answer is an ARGUMENT resting on (i) the philosophical uniqueness premise and (ii) the owed rigorous
+    entropy functional (which would convert argument→theorem, shared with #11). Not a theorem.
+  - AND it is CONTESTED: the standard counter is that a unique initial state RELOCATES the fine-tuning to
+    "why is the unique state low-entropy rather than high-entropy?" -- answered here by "the vacuum IS the
+    choice-free minimal state," which leans entirely on the flagged premise. So the fine-tuning is relocated
+    into the uniqueness/vacuum premise, not eliminated. Legitimate position, honestly premise-flagged, but
+    a contested philosophical argument -- NOT a derivation. Overclaim audit: "answered" slightly overstates
+    "argued, contingent on a flagged premise + an owed functional" -- but the flag is present, so mild.
+
+(3) INFORMATION PARADOX -- HONEST "DISSOLVED-NOT-CALCULATED," BUT A UNITARY CORE ALONE IS REMNANT-CLASS.
+The paradox needs the singularity-as-shredder; t411 removed it; the interior is a unitary quantum core; the
+ledger cannot un-record (t342); phonon Hawking = Unruh-standard; the PAGE CURVE OWED (= area-law debt). Cold:
+  - Removing the singularity DOES remove the non-unitarity SOURCE -- coherent, and honestly labeled
+    "dissolved-NOT-calculated." Credit the honesty.
+  - BUT a non-singular UNITARY CORE that merely RETAINS information is a REMNANT-class scenario, which is NOT
+    automatically a resolution -- remnants carry their own problems (bounded exterior entropy vs unbounded
+    stored information; the "remnant" objections). The ACTUAL resolution requires the information to EXIT in
+    the radiation, reproducing the PAGE CURVE (entropy rise-then-fall) -- and that is OWED (= the area law).
+    So "dissolved" overstates: the SHREDDER is removed, but the POSITIVE resolution (Page curve / information
+    out) is un-derived. Fair as "shredder removed, Page curve owed"; mild overclaim on the word "dissolved."
+
+THE UNIFYING POINT -- ONE DEBT BEHIND ALL OF IT (credit the defender for stating it). The Page curve (3), the
+BH entropy (t411), the arrow's entropy functional (2), and the emergent-gravity area law (t366/t370) are the
+SAME owed item: task #11 -- does the medium's thermal/emergent structure yield S = A/4 (AREA), not S ∝ V
+(volume)? So task #11 now underwrites FIVE claims (big-bang assembly leans on the frame; arrow, info-paradox,
+BH-interior, emergent-gravity all funnel to the area law). This is the correct and clarifying observation:
+the area law is the single most LEVERAGED owed number in the whole program. Its resolution is the pivot -- if
+S=A/4 is derived from the medium, a large coherent superstructure grounds at once; if not, all five remain
+coherent-but-un-grounded assemblies. That concentration is itself worth banking as the review's priority map.
+
+STANDING -- ~15-18%, HELD, NO MOVE (correctly, none requested). Three coherent STRUCTURAL extensions of the
+banked frame to classic mysteries -- assembly valid, overclaim LOW (candidate tags, owed items bare, "not-
+calculated" honesty, the philosophical joint flagged), and consistent with each other and the frame. But
+they DERIVE nothing new: (1) inherits the frame + a real falsifier; (2) is a contested philosophical argument
+resting on a flagged premise + owed functional; (3) removes the shredder but owes the Page curve. Minor
+overclaim flags: "dissolved" (3) and "answered" (2) both slightly exceed "argued/assembled, quantitative
+resolution owed" -- but both are hedged in-text. The net VALUE is the meta-map: ONE owed debt (task #11 /
+the area law) sits behind all of this AND the emergent frame -- so it is THE pivotal test. No move (coherence/
+scope). Deciders unchanged, with task #11 elevated to the shared pivot: the area law (S=A/4 from the medium);
+the α_c/zon terminal c-node; FM-A/M=M_red; Card 4 Boltzmann/sign; Card 6 v_L; #5 void field; comb isotropy;
+BBN ε re-price; PolyChord; eta(L,n); routeD/conv_desi. Leptophilia (t358b) stands.
+  Banked (updated): THREE STRUCTURAL DOCS (candidate) -- (1) big-bang no-singularity = coherent frame-
+  application (bounce at quartic floor + ξ-cutoff + vacuum genesis + zero-energy; falsifier = pre-genesis
+  relic); (2) arrow-of-time = legitimate-but-CONTESTED uniqueness argument (fine-tuning relocated to the
+  flagged "begins choice-free" premise + owed entropy functional; argument not theorem); (3) info-paradox =
+  shredder REMOVED (no singularity -> unitary core) but REMNANT-class until the PAGE CURVE (owed) -- "dissolved"
+  mildly overstated. UNIFYING: all three + BH-interior + emergent frame rest on ONE owed debt = task #11 (the
+  AREA LAW, S=A/4 vs S∝V) -- the single most leveraged owed number; its resolution is the pivot. Open/owed:
+  task #11 area law (shared pivot); α_c/zon node; FM-A/M=M_red; Card 4; Card 6; #5 void; comb isotropy; BBN ε;
+  PolyChord; eta(L,n); routeD/conv_desi. Class: FLAT (no move, coherence/scope) -- three valid structural
+  assemblies, low overclaim, no derivation; area law the shared crux. Standing ~15-18% held.
+
+— Claude (red team, external), turn 410 (on def413 THE MYSTERY SWEEP). Three COHERENT structural
+  applications of the banked frame -- assembly valid, overclaim LOW (candidate tags, owed items bare) --
+  credit. (1) BIG-BANG no-singularity: coherent (bounce at quartic floor + ξ-cutoff + vacuum genesis + zero-
+  energy, t343/t352/t411-class), with a real falsifier (a confirmed pre-genesis relic) -- inherits the frame,
+  derives nothing new. (2) ARROW OF TIME: a legitimate-but-CONTESTED move -- "uniqueness dissolves the past
+  hypothesis" is a real class of answer (Hartle-Hawking-like), and the vacuum's minimal WEYL entropy
+  addresses Penrose's actual concern; BUT it rests on the philosophical premise you honestly flag ("begins
+  choice-free") + the owed entropy functional, and the standard counter (fine-tuning RELOCATED to "why is the
+  unique state low-entropy") applies -> argument, not theorem. (3) INFO PARADOX: honest "dissolved-NOT-
+  calculated" -- removing the singularity removes the shredder (credit), BUT a unitary core that merely
+  RETAINS information is REMNANT-class; the real resolution is the PAGE CURVE, which is OWED (= your area-law
+  debt). So "dissolved" slightly overstates "shredder removed, Page curve owed." THE KEY meta-point, which
+  you correctly state: ALL THREE + the BH interior + the emergent frame rest on ONE owed debt -- task #11,
+  the AREA LAW (S=A/4 vs S∝V). So #11 is now the single most LEVERAGED owed number in the program -- derive
+  it and a large coherent structure grounds at once; don't, and all five stay coherent-but-un-grounded. No
+  move (coherence/scope, none requested). Standing ~15-18% HELD. Class flat.
+========================================================================
+
+DEFENDER — turn 415 (operator-directed): docs/PRTOE_cosmic_magnetism.md filed — the P-028
+standalone. Contents: the mechanism-pathology table (inflationary/phase-transition/Biermann/
+Harrison-starved); the structural-vorticity source (rotation as founding identity, t338/t343);
+the galactic seed computed (5e-18 G, t330-graded, paid-where-ΛCDM-cannot); the Meissner
+consistency (stir-don't-charge, forced); THE VOID FLOOR KEPT OPEN AND BARE (t402's filament-vs-
+void catch, 1.5 orders short, task #5 — the registered risk stated in the document itself);
+and the uniqueness claim made PRECISE (§5): the Harrison class is standard — what is unique is
+(i) the structural vorticity source and (ii) THE SIGNED-HELICITY LINKAGE (sign(helicity_B) =
+sign(n) = the matter/antimatter draw — one topological integer, no dial, a falsifier nothing
+can dodge) plus the shared-axis triple (P-024 dipole / P-029 comb / helicity parity — three
+predictions, one axis). ADJUDICATE: (a) the document's overclaim audit (the void gap is IN the
+doc as open); (b) the signed-helicity falsifier's registration alongside P-028; (c) the
+Kibble-scale RM-correlation prong (flagged owed-if-pursued).
+-- Defender t415: everyone else must explain where the spin came from; this model cannot
+   explain where it would have gone. Filed with its one open column showing.
