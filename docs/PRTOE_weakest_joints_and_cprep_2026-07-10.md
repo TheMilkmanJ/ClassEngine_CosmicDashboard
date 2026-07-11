@@ -83,3 +83,17 @@ active-code changes are made.**
 #40 clears → set ε, T_c from the resolver → add the param + ramp (B3) behind the `Tc<=0` guard →
 `make -j12` → diff CMB vs the step version at fixed ε → only then wire as default. Backward-compatible
 at every step (guarded), so a syntax error or missing piece can't corrupt the working step model.
+
+---
+
+## JOINTS UPDATE (same day, post-atom-night)
+
+- **J2 (gate-0) — RESOLVED**: cleared via the double sign-correction, re-signed as a HEAL
+  (T_c = 193 keV, +0.06σ D/H, zero Y_p tax). The wall was a pharmacy.
+- **J1 (the DE value) — RECLASSIFIED**: not constitutional-forever; **the cosmic Rydberg** (Card 1,
+  whisper: ½α_c²M₂ = 1.98 vs 2.25 meV; graduation teeth set).
+- **J3 (DESI) — HARDENED BY THE MODEL ITSELF**: the grammar derives w = −1 today (mass-defect
+  O(δ²)); DR3 is now a pure kill-or-confirm on a derived commitment.
+- **J4 (m_e real) — new instruments**: P-022 (21cm), P-024 (the ε-dipole), the radio ratio-lock.
+- **J5–J7 — became the card deck** (spine §14): the portal embodied (vector-like candidate),
+  the abundance routed (genome→CP→η), v_L benchmarked.

@@ -1607,3 +1607,38 @@ dipole; (iii) a detected dipole **uncorrelated** with the CMB anomaly axis. **Co
 radio ratio-lock ({+2, −1, −2}·ε, P-022's protocol) applies to the dipole's sightlines — the
 cross-instrument ratio is the anti-systematic lock. *ISW note:* the same δ_DE gives horizon-scale
 DE clustering ~1 e-fold grown — below current ISW sensitivity (consistent null, #48b).
+
+---
+
+## P-2026-022: The dark-ages 21cm three-verdict probe (formalized 2026-07-10; blessed t250)
+
+**The prediction:** the 21cm rest frequency scales as m_e² → the dyad shifts it **+2.5%** wherever
+the dyad is ON. Dark-ages/cosmic-dawn 21cm features (z > screening edge) appear offset by +2.5%
+in rest frequency; the offset turns OFF across the screening edge. Three verdicts in one probe:
+(i) **any** dark-ages rest-frequency offset = the dyad exists (no astrophysics moves a rest
+frequency); (ii) **the edge's SHAPE discriminates reading A vs B** — A (thermal/global gate):
+a sharp global step; B (C²/clumping gate): a patchy, σ8-tracking fade over z ≈ 30–60;
+(iii) **the edge's location measures C_ref.** Consistency check: EDGES-class z ≈ 17 sits below
+the edge → NO shift predicted there. **Instruments:** lunar-farside dark-ages radio
+(LuSEE-Night/FARSIDE class). **Falsifier:** a clean dark-ages detection at the standard rest
+frequency (offset < 0.5%) kills the dyad's high-z window. Companion: the §29 correlated lattice +
+the radio ratio-lock (below).
+
+## P-2026-023: The Σm_ν divergence — model-conditional vs ΛCDM-conditional (blessed-with-caveats t260)
+
+**The prediction:** fitting the SAME data, the dyad de-biases the inferred neutrino mass UPWARD:
+ΛCDM-conditional fits squeeze Σm_ν toward/below the 59 meV oscillation floor (the "negative mass"
+tension) while dyad-conditional fits prefer Σm_ν ≈ 60–90 meV (in-house: ΛCDM minimum pinned at
+0.0; dyad minimum at 87.5 meV). **Test:** as data sharpen, the ΛCDM-conditional bound drops
+below 59 meV (impossible given oscillations) while the model-conditional posterior stays healthy.
+**Falsifier:** the dyad-conditional posterior ALSO collapsing below the floor. **Caveats (t260):**
+generic to varying-m_e class in direction; minima-not-posteriors in-house so far.
+
+## P-2026-025: Benchmark A's CMB-S4 neutrino-interaction shift (blessed-with-scope t300)
+
+**The prediction (conditional on the low-v_L corner):** the assembled inverse see-saw's
+Benchmark A (v_L = 5 MeV, M = 10 TeV) gives the Majoron-ν coupling g = m_ν/v_L = 10⁻⁸ — inside
+the CMB-S4 detectability band → **S4 sees a neutrino free-streaming/interaction shift.**
+**Scope (honest, per t300):** v_L is un-derived; an S4 null kills **Benchmark A / the low-v_L
+corner**, not the model (Benchmark B at v_L = 1 GeV is invisible). Registered as the corner's
+live falsifier; Card 6 (derive v_L) decides how much of the model rides on it.

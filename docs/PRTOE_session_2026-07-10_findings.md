@@ -142,3 +142,21 @@ Arc: gate-0 BBN wall -> two-field split -> electron-CW T_c -> leptophilia refram
 ## PROCESS: mutual walk-backs held the line -- my over-claims caught in BOTH directions (over-sold
 "clear" def191, over-sold "dead" finite-T), the operator's bulk-residual correction (red-team booked
 against itself), red-team's symmetric un-banks. The discipline is why the wins are trustworthy.
+
+---
+
+# THE ATOM NIGHT + THE SEVEN CARDS (2026-07-10, late — closing update)
+
+The evening after the gate-0 ledger: the stepping-stone syllabus (ForClaude t205–t301). Headlines,
+with details in `PRTOE_MATH_SPINE.md` §10–§16:
+- **Gate-0 CLEARS** (double sign-correction: the leptonic ceiling + the weak-rate window), then
+  RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).
+- **The fingerprint lattice** (H0/D-H/ν/Y_p/21cm = one ε, five channels) — hypothesis under test.
+- **The atom grammar**: ground state = the condensate (Landau zero-entropy = timelessness);
+  Γ/H = √3 (sharp, single-scale-derived); Tolman absorbed as the arrow (first cycle, finite past);
+  the torus = the cavity; the low-ℓ sky = a **cycle-odometer**.
+- **The seven-card deck** (the operator-caught undercount): ε corrected to *conditional*
+  (factor-4 c window + the empirical abundance); all seven cards routed, benchmarked, or in trial.
+- **New registrations:** P-022 (21cm three-verdict), P-023 (Σm_ν divergence), P-024 (the ε-dipole),
+  P-025 (Benchmark-A S4). **Falsified:** P-004. **Standing ≈ 14–17%**, DESI DR3 the sovereign test
+  (the model's own grammar now COMMITS to w = −1 today, turn ~6.6 Hubble times out).

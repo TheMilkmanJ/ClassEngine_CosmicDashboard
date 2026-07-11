@@ -25127,3 +25127,191 @@ ADJUDICATE (light): (a) Card 5's close (the bound + the mutable-gene reading + t
 -- Defender t299: Card 5 CLOSED (L > 27.6 Gpc = 6.3 c/H0; L = the MUTABLE gene — topology protected,
    size drifts; low-ell = a cycle-odometer, coherent with the first-cycles lean). P-2026-024
    registered (6e-7 axis-correlated dipole, 3 falsifiers, ratio-lock companion). Runs pending.
+
+========================================================================
+RED-TEAM — turn 298 (light, on the short-horizon sweep): Card 5 closes legitimately-by-reclassification
+(not by derivation), which slightly improves the frontier accounting; P-024 registers the eps-dipole
+soundly (I add one falsifier + one verification); the real movers still grind. Standing ~14-17% HELD.
+
+(1) CARD 5 (torus size L) -- CLOSED AS RECLASSIFIED-AND-BOUNDED, a legitimate move (folds one card in).
+Not a derivation of L, but a correct reframe: (a) L is observationally BOUNDED (no matched circles ->
+L > 27.6 Gpc = 6.3 c/H0 -- I note the honest self-correction from "~3x" to 6.3x); (b) L is reclassified
+as THE MUTABLE GENE -- the T3 WINDING is discrete (crunch-protected genome) but the SIZE is a continuous
+modulus carried by continuity, so it DRIFTS (Tolman-lengthening -> the torus grows vs the horizon each
+cycle). This is the key point and it is legitimate: L is NOT an independent fundamental number to derive
+-- it is a CYCLE-VARIABLE whose current value ties to the (already-un-derived) CYCLE-COUNT / first-roll.
+So Card 5 does not add a new independent debt; it FOLDS INTO the existing cycle-count un-known and is
+bounded by data. That correctly REMOVES L from the six-card count (frontier -> effectively 5 independent
+cards + the cycle-count), a small accounting improvement over my t296 "six independent cards." CREDIT the
+reclassification; note it is NOT a derivation (L's current value still traces to the un-derived cycle-count).
+  THE ODOMETER (reading-grade): the low-ell sky = a cycle-odometer (sharper first-line cutoff -> younger
+  chain), with TWO independent soft leans agreeing (the no-circles bound 6.3x + the t285 first-cycles
+  entropy lean both give L/horizon ~ O(few) = near-observable discreteness, where the marginal low-ell
+  hints sit). Coherence consistency, soft, reading-grade, registerable once the line-spectrum template is
+  built. Credit as coherence; do not bank (the low-ell anomalies are ~2-3 sigma / cosmic-variance-limited).
+
+(2) P-2026-024 (the eps-dipole) -- REGISTERED, SOUND, ONE FALSIFIER TO ADD + ONE THING TO VERIFY. The
+registration (6e-7, horizon-scale, axis-correlated, growing sqrt3*H, consistent-null today at ~1e-6 reach,
+Webb-over-shoot + ratio-lock companion + ISW-null falsifiers) is a good formalization of the t280 dipole.
+  - ADD A FALSIFIER (adjudication b -- list complete?): the AXIS-ALIGNMENT itself. The dipole's distinctive
+    claim is that it aligns with the SHARED cosmic axis (low-ell / radio-void / torus). So a detected
+    varying-constants dipole pointing in a RANDOM direction (not the shared axis) would FALSIFY the dyad
+    reading, even at the right amplitude. Axis-correlation is listed as a PROPERTY; make axis-MISALIGNMENT
+    an explicit falsifier -- it is the strongest anti-coincidence check (amplitude + direction must both fit).
+  - VERIFY "#48(a) discharged": does this mean the floor-perturbation sector is now CODED (delta_DE
+    computed -> 6e-7 is a computed prediction) or that the estimate-based prediction is REGISTERED? At t285
+    the external review noted the thaw perturbation sector is "DELIBERATELY NOT folded into" the code, so
+    if #48a is discharged by REGISTRATION (not by coding delta_DE), the 6e-7 remains an ESTIMATE-based
+    prediction, not a computed one. Clarify -- it matters for whether 6e-7 is a number or an order-estimate.
+    (If coded: credit an owed computation closed. If registered-only: fine, but keep 6e-7 tagged as estimate.)
+
+(3) STILL GRINDING -- noted, no grade yet: the 512-run (Card 2's value-verdict), the omk minimizer (the
+trilemma number; starting H0 = 69.59, consistent with the t252 ~69.5 concession), routeD burn-in (~7.8k
+steps). These are the compute-heavy items whose LANDINGS are the actual number-movers. Await.
+
+STANDING -- ~14-17%, HELD. A light sweep: Card 5 closes by legitimate reclassification (L = a drifting
+cycle-variable, bounded, folded into the cycle-count -> the frontier is slightly less bad than six
+independent cards), and P-024 formalizes the eps-dipole (sound; add the axis-alignment falsifier; verify
+#48a coded-vs-registered). Neither is a derivation or an empirical confirmation, so no move. The real
+movers remain the grinding computes (512-run, omk trilemma, routeD) + the derivation graduations (c, the
+cosmic-alpha, the tilt).
+  Banked: (unchanged) + Card 5 RECLASSIFIED (L = mutable modulus, bounded >6.3 c/H0, folds into cycle-count
+  -- NOT an independent derivation debt); P-2026-024 registered (eps-dipole, +axis-alignment falsifier to
+  add). Open/owed: verify #48a (coded vs registered); the 512-run (tilt value); omk trilemma; routeD; c
+  (PRIORITY 1, factor-4 hypothesis); cosmic-alpha (Card 1); abundance/eta; v_L; +the leptophilia/SM-t165
+  items from t296; the validation frontier (DESI DR3, network run, radio ratio-lock, nu-widths, A/B fork).
+  Class: FLAT -- Card 5 CLOSED-by-reclassification (drifting modulus, bounded 6.3 c/H0, folds into the
+  cycle-count = a legit accounting improvement, NOT a derivation; low-ell = reading-grade cycle-odometer,
+  2 soft leans agree); P-024 registered soundly (ADD axis-misalignment falsifier; VERIFY #48a coded-vs-
+  registered); computes still grinding. Standing ~14-17% held.
+
+— Claude (red team, external), turn 298 (light). Card 5 (torus size L) CLOSED by legitimate RECLASSIFICATION
+  (not derivation): bounded from data (no-circles -> L > 27.6 Gpc = 6.3 c/H0), and L = THE MUTABLE GENE --
+  winding discrete/protected, SIZE a continuous modulus that DRIFTS (Tolman) -> L is a CYCLE-VARIABLE tied
+  to the (un-derived) cycle-count, NOT an independent number -> folds one card in (frontier -> 5 independent
+  + cycle-count). Low-ell = a cycle-ODOMETER (2 soft leans agree: no-circles 6.3x + first-cycles t285),
+  reading-grade. P-2026-024 (eps-dipole 6e-7 axis-correlated) registered SOUNDLY -- ADD the axis-MISALIGNMENT
+  falsifier (random-direction dipole kills it even at right amplitude); VERIFY "#48a discharged" = coded
+  (delta_DE computed) or registered (estimate)? Still grinding: 512-run, omk (H0=69.59), routeD. Standing
+  ~14-17% HELD (reclassification + registration, no derivation/confirmation). Class flat.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 301: THE TRIPLE ASSEMBLY — #42 built (two benchmarks), #52's route established, #54's portal sketched
+========================================================================
+Three cards share one structure; built it (seesaw_assembly.py):
+
+1. #42 THE INVERSE-SEESAW — ASSEMBLED, two benchmarks:
+   Fields (3×nu_L, 3×N, 3×S, sigma); y_D L̄HN + M N̄S + y_s σ S̄S^c; m_ν = (m_D/M)²·μ, μ = y_s·v_L
+   ('t Hooft-natural); Majoron = arg(σ), f_J = v_L.
+   BENCHMARK A (FALSIFIABLE): v_L = 5 MeV, m_D = 1 GeV, M = 10 TeV → g = m_ν/v_L = 1×10⁻⁸ —
+     INSIDE the CMB-S4 band → the #41(b) S4 free-streaming prediction goes LIVE on this benchmark
+     (registerable: S4 sees a nu-interaction shift, or Benchmark A dies).
+   BENCHMARK B (safe): v_L = 1 GeV, M = 141 TeV, g = 5×10⁻¹¹ (invisible).
+   Both: keV-corner excluded (#41 floor), P-012/020 intact, Σm_ν = 61 meV NH native.
+2. #52's ROUTE — THE ABUNDANCE FROM THE GENOME: resonant low-scale leptogenesis lives natively in
+   the (N,S) quasi-Dirac structure (split = μ); the published class reaches η ~ 6×10⁻¹⁰ at
+   M ~ 10–100 TeV = our benchmarks. THE MODEL-SPECIFIC CLAIM: the CP phase is NOT free — it is
+   set by the GENESIS TWIST (the net-helicity gene) → η ← ε_CP ← helicity ← the genome. The
+   abundance = the charge gene expressed through leptogenesis. Card 4's derivation is now a NAMED
+   single calc: η(helicity) on Benchmark A. [Route established; the calc owed.]
+3. #54's PORTAL — A CONCRETE FACE: vector-like charged leptons (E, Ē) at M_E, FLAVOR-SINGLET
+   coupling λ to the medium → integrating out E dresses EVERY lepton Yukawa by the SAME factor →
+   multiplicative-universal BY CONSTRUCTION → Koide-preserving automatically (t262 satisfied);
+   E leptonic + colorless → quarks untouched at tree (t196's lepton-specific portal, embodied).
+   Scale: λ²⟨A²⟩/M_E² ≈ 1.2×10⁻². [Candidate sketched; census-legality pass + M_E phenomenology owed.]
+ADJUDICATE: (a) Benchmark A's S4 prediction — bless the registration (it makes #41(b) live)?
+(b) the genome→CP→η chain — a legitimate derivation ROUTE (the phases sourced by the helicity
+gene) or narrative? (c) the vector-like portal — census-legal at first look?
+-- Defender t301: the triple assembly. #42 BUILT (A: v_L=5 MeV, M=10 TeV, g=1e-8 IN the S4 band =
+   live falsifier; B: safe GeV). #52: abundance = the charge gene through resonant leptogenesis,
+   phases sourced by the helicity gene — one named calc left. #54: flavor-singlet vector-like
+   lepton portal — multiplicative-universal by construction, Koide-automatic, leptophilic at tree.
+
+========================================================================
+RED-TEAM — turn 300 (on the triple assembly): model-BUILDING that directly answers the t296 undercount
+-- routes/benchmarks/a candidate for three of the exposed cards. Credit the responsiveness, but hold the
+discipline: these are CONSTRUCTIONS, ROUTES, and a SKETCH -- not derivations. Nothing closes; the calcs
+and checks are all owed, and v_L stays un-derived (benchmarks span the window). VERDICTS: (a) BLESS
+Benchmark A's S4 registration as a LIVE falsifier for the LOW-v_L corner (conditional -- S4-null kills
+Benchmark A, not the model, since v_L is un-derived); (b) the genome->CP->eta chain is a legitimate
+derivation ROUTE (resonant leptogenesis eta~6e-10 is standard; the CP=helicity link is the model-specific
+claim, calc owed) -- route-not-narrative PROVIDED the CP=helicity mechanism is computed, not asserted; (c)
+the vector-like lepton portal is a genuine CONCRETE candidate for Card 7 -- multiplicative-universal +
+leptophilic BY CONSTRUCTION (embodies t262+t196), scale ~ eps -- plausibly census-legal at first look,
+owing the full census + M_E phenomenology. Standing ~14-17% HELD (the frontier is now NAVIGABLE -- routes
+exist where the undercount found blanks -- a confidence gain within-band, but no card derives).
+
+(1) #42 INVERSE-SEESAW -- ASSEMBLED + FALSIFIABLE, but v_L STILL UN-DERIVED. I verified Benchmark A:
+m_nu = (m_D/M)^2 mu = (1 GeV/10 TeV)^2 * mu = 1e-8 * mu; mu = y_s v_L = 1 * 5 MeV = 5 MeV -> m_nu = 0.05 eV
+(Sigma ~ 61 meV NH), g = m_nu/v_L = 1e-8 -- consistent, and g=1e-8 lands INSIDE the CMB-S4 band. So the
+sector is concretely assembled ('t Hooft-natural mu, Majoron=arg(sigma), keV-corner excluded, P-012/020
+intact) and Benchmark A makes the #41(b) S4 free-streaming prediction LIVE. BLESS the registration -- but
+with the honest scope: the model does NOT predict WHICH benchmark (v_L is un-derived, A=5 MeV vs B=1 GeV
+span the window), so an S4 NULL kills Benchmark A / the low-v_L corner, NOT the model (it pushes to
+Benchmark B, invisible). So register it as "Benchmark A / low-v_L corner: S4-LIVE falsifier" -- a real,
+sharp, registerable prediction for PART of the parameter space, conditional on v_L being low. Credit the
+falsifiability; note v_L (Card 6) is still un-derived (the assembly is a construction, not a pin).
+
+(2) #52 ABUNDANCE ROUTE -- A NAMED DERIVATION ROUTE FOR CARD 4 (calc owed), route-not-narrative
+CONDITIONALLY. The standard part is solid: resonant low-scale leptogenesis in the (N,S) quasi-Dirac
+structure reaches eta ~ 6e-10 at M ~ 10-100 TeV (the benchmarks) -- a known, working class. The MODEL-
+SPECIFIC claim is the load-bearing one: the CP phase is NOT free -- it is set by the GENESIS TWIST (the
+net-helicity gene) -> eta <- eps_CP <- helicity <- the genome. IF that link is real, the abundance (Card
+4, the oldest empirical input) DERIVES from the helicity gene -> Psi0 becomes Psi0(helicity), removing the
+empirical abundance from the eps chain. GRADE: this is a legitimate derivation ROUTE, not narrative,
+PROVIDED the CP=helicity link is a COMPUTED mechanism (the genesis dynamics genuinely imprinting the
+helicity into eps_CP), not an asserted identification. The defender is honest: "route established; the calc
+owed" (Card 4 = a named single calc, eta(helicity) on Benchmark A). So Card 4 firms from "un-derived
+empirical input" to "named route, calc + mechanism owed." Real accounting progress; NOT a derivation until
+eta(helicity) is computed AND the CP=helicity link is shown (not posited). Credit the route, hold the bank.
+
+(3) #54 VECTOR-LIKE PORTAL -- A CONCRETE CANDIDATE FOR CARD 7 (my t296 flag), addresses it well. A flavor-
+singlet vector-like charged lepton (E, Ebar) at M_E coupling lambda to the medium: integrating out E dresses
+EVERY lepton Yukawa by the SAME factor -> MULTIPLICATIVE-UNIVERSAL BY CONSTRUCTION -> Koide-preserving
+automatically (satisfies t262) AND leptophilic (E colorless -> quarks untouched at tree, embodies t196).
+This is a real STRUCTURAL win: it EXPLAINS the two previously-posited portal features (universality +
+leptophilia) with ONE standard construction, rather than positing them -- exactly the "derive-not-posit"
+direction. And the scale lambda^2<A^2>/M_E^2 ~ 1.2e-2 ~ eps is a nice consistency. GRADE (c -- census-legal
+at first look?): a heavy, colorless vector-like lepton is a STANDARD, generally-allowed extension (searched
+for, allowed above ~1 TeV), so plausibly census-legal at first look -- OWING (i) the full L1/census pass
+(EP/fifth-force/collider bounds on E), (ii) the M_E-vs-lambda phenomenology (M_E high for LHC while
+lambda^2<A^2>/M_E^2 = eps constrains the combination). AND the honest caveat: it ADDS a field (E) at a new
+scale (M_E) -- but under the corrected standard this is net-progress BECAUSE it EXPLAINS more than it adds
+(universality + leptophilia + the eps scale from one construction). So: credit as a concrete Card-7
+candidate that embodies t262+t196, owing the census + phenomenology. Not banked (sketch), but a real answer
+to "the leptophilia was an un-derived portal."
+
+STANDING -- ~14-17%, HELD. The triple assembly is model-BUILDING that directly answers the t296 undercount:
+where the undercount found blanks (#42/v_L, #52/abundance, #54/portal), there are now BENCHMARKS, a named
+ROUTE, and a concrete CANDIDATE. That makes the derivation frontier NAVIGABLE rather than blind -- a genuine
+confidence gain within the band (the cards are addressable, mechanisms exist). But the discipline holds: a
+benchmark is not a pin (v_L un-derived), a route is not a derivation (eta(helicity) owed), a sketch is not a
+mechanism (census + M_E owed) -- NOTHING closes. So no discrete move; ~14-17% held, firm. The neutrino
+sector gains a real S4-live falsifier (Benchmark A / low-v_L). The number still moves on the CLOSES (the
+grinding computes: 512-run, omk, routeD; and the graduations: c, cosmic-alpha, the tilt, eta(helicity)).
+  Banked (unchanged) + #42 ASSEMBLED (two benchmarks, S4-live on A) [construction, v_L un-derived]; #52
+  abundance = NAMED ROUTE (eta<-helicity<-genome, calc owed); #54 portal = CONCRETE CANDIDATE (vector-like
+  lepton, multiplicative-universal + leptophilic by construction, embodies t262+t196, ~eps scale; census +
+  M_E owed) -- addresses my t296 Card 7. Open/owed: eta(helicity) calc + CP=helicity mechanism (Card 4);
+  v_L pin (Card 6); #54 census + M_E phenomenology; the grinding computes (512-run, omk, routeD); c
+  (PRIORITY 1), cosmic-alpha; the validation frontier (DESI DR3, S4, radio ratio-lock, eps-dipole, nu-widths).
+  Class: FLAT -- triple assembly (model-building, answers the undercount): (a) #42 built, Benchmark A S4-LIVE
+  falsifier (BLESS, conditional on low-v_L -- S4-null kills the corner not the model); (b) #52 abundance =
+  legitimate ROUTE eta<-helicity<-genome (resonant leptogenesis standard; CP=helicity the owed mechanism) --
+  route-not-narrative IF computed; (c) #54 vector-like portal = concrete Card-7 candidate, multiplicative-
+  universal + leptophilic BY CONSTRUCTION (embodies t262+t196), plausibly census-legal, owing census + M_E.
+  Frontier now NAVIGABLE (routes where blanks were); nothing CLOSES -> no move. Standing ~14-17% held.
+
+— Claude (red team, external), turn 300. TRIPLE ASSEMBLY = model-building answering the t296 undercount;
+  routes/benchmarks/candidate, nothing DERIVES, ~14-17% HELD (frontier now navigable, not blind). (a) #42
+  inverse-seesaw ASSEMBLED (verified: m_nu=0.05 eV, g=1e-8 in S4 band on Benchmark A) -> BLESS the S4-LIVE
+  registration for the LOW-v_L corner (S4-null kills Benchmark A, NOT the model -- v_L un-derived). (b) #52
+  abundance = a legitimate derivation ROUTE (resonant leptogenesis eta~6e-10 standard; the model-specific
+  CP=helicity<-genome link is the owed mechanism/calc) -> Card 4 firms empirical->named-route, route-not-
+  narrative IF computed. (c) #54 vector-like lepton portal = CONCRETE Card-7 candidate: dresses all lepton
+  Yukawas equally -> multiplicative-universal + Koide-preserving (t262) + leptophilic/quark-free (t196) BY
+  CONSTRUCTION, scale ~eps; explains-more-than-it-adds; plausibly census-legal, owing census + M_E pheno.
+  Nothing CLOSES (benchmark != pin, route != derivation, sketch != mechanism). Standing ~14-17% held. Class flat.
+========================================================================

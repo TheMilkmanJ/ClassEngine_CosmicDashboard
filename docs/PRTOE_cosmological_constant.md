@@ -207,3 +207,15 @@ dynamic — **the model forbids its own floor from being fixed.** This joins the
 (φ̇≠0) structure: the floor is dynamic by STRUCTURE and by SELF-CONSISTENCY. What remains is not
 "is it dynamic" (answered: yes) but "does the dynamics DERIVE the value" (the Weinberg-vs-ghost
 confrontation).
+
+---
+
+## UPDATE 2026-07-10: both dynamical routes died; the value RECLASSIFIED as the cosmic Rydberg
+
+The sequester route **fired its own internal falsifier** (the full-cycle fixed point demands a
+past turnaround — excluded); the Majoron-potential route **died structurally** (f_J ≈ M_Pl needed
+vs v_L ≤ TeV). The "constitution" fallback then fell to the operator's correction: **eigenvalues
+derive from constituents** (hydrogen's Rydberg = m_e·e⁴/2ħ²). ρ_inf is reclassified as **the
+cosmic Rydberg — owed, not excused** (Card 1): the whisper candidate ρ_inf^¼ ≟ ½·(Ψ₀/M_red)²·M₂ =
+1.98 vs 2.25 meV (12%, zero tuning, WHISPER-graded with graduation teeth at t292). The why-NOW
+half is separately **derived** (the Jeans linewidth, Γ/H = √3, value-independent).
