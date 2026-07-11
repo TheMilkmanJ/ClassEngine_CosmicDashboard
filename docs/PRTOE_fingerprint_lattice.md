@@ -15,8 +15,8 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the zon ch
 | window | the row | current standing |
 |---|---|---|
 | CMB/H0 | +ε at recombination → H0 = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
-| BBN: D/H | ~0 (production cancellation, def325) + the η-route widening OWNED | the signed 2.3σ bet; radio-arbitrated |
-| BBN: Y_p | −0.72ε → +0.5σ → −0.2σ | production-grade improvement |
+| BBN: D/H | ~0 direct (def325) + η-widening − windowed refund | the signed ~1.9σ bet (def449); radio-arbitrated |
+| BBN: Y_p | windowed (ε OFF at freeze-out): +1.1% → +1.3σ COUNTER | the reversed row (def449; was briefly ‘the medicine’) |
 | BBN: quark-bleed | δm_q = ε full → ~1σ D/H nudge | t358's credited side-prediction |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
 | the radio bands | +2 : +1 : −1 : −1 : −2, ratio-locked | threads 12; P-022/P-027/P-029 |
@@ -43,7 +43,7 @@ correlation test of this width.
 
 ## 3. Honest ledger
 
-Rows currently favorable: H0, Y_p, Σm_ν, the nulls. Rows owned-adverse: D/H (the 2.3σ fork).
+Rows currently favorable: H0, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.3σ, the reversed row) and D/H (the ~1.9σ fork).
 Rows pending: the radio chord, the axis family, the comb. The lattice is winning on breadth,
 not yet on any single decisive row — exactly the profile the review has priced at 15–18%
 (capped 25% pending PolyChord). *One lever, many windows, no exits: the lattice is either the
