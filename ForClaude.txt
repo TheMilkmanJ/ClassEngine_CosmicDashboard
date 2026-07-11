@@ -35435,3 +35435,121 @@ model remains what t460 certified, and the ~15% prices the medium-claims only. A
    graded model says everything ANSWERS to it — and whether everything is MADE of it now hangs
    on one loop, one signed census, and two honest exceptions. The gates are named. The
    hypothesis is on the books. The number thirteen is holding the door.
+
+========================================================================
+RED-TEAM — turn 468 (on def475 THE KEYSTONE ADVANCED, M3 -- three prongs at ARGUMENT-strength): genuine
+PROGRESS on the pivotal root, but ARGUMENT-strength (not proof), so a SMALL favorable firming -- the M3
+Achilles' heel (preferred-frame F-F applicability, t422/t462) now has a PLAUSIBLE answer-shape (the mono-
+dispersion ratio-lock), de-risking it at argument-strength. PRONG 1 (N_q=13 log-rigid) VERIFIES and genuinely
+tightens t462's flirt (N_q now Λ-independent, not tunable) -- but stays an induced-QED flirt with a convention-
+dependent count. PRONG 2 (no-bare-G from L1) is a valid but SEMI-CIRCULAR argument (no-bare-G ≈ the ontological
+L1 ≈ the conclusion). PRONG 3 (F-F via mono-dispersion) is the RIGHT answer-shape but rigor-owed AND it
+addresses the F-F cancellation, NOT the separate LV bounds. Proofs = the basement compute, still owed.
+Standing ~15% -> ~15-16% (small firming; no derivation lands).
+
+PRONG 1 -- THE CLOSURE (N_q=13, LOG-RIGID): VERIFIED, a genuine tightening, still a flirt. I check: N_q =
+3π·α⁻¹/ln(Λ²/m_e²); Λ=M_red√(12π/N_grav) ranges ~1.5-3e18 GeV over N_grav 25-100 (a factor 2), so
+ln(Λ²/m_e²)=2ln(Λ/m_e) ~ 99-101 (the log moves only ~1% for a factor-2 in Λ) -> N_q = 3π·137/100 ≈ 12.9,
+rigid to ±0.1. CONFIRMED: N_q~13 is Λ-INDEPENDENT because the count enters only through the slowly-varying
+log. This genuinely tightens the t462 concern ("N free, log loose") -> N_q is now PINNED to ~13 given the
+frame, NOT tunable by the basement's unknown total. Credit the log-rigidity (a real new fact). BUT the
+residual numerology stands: (i) it is still the induced-QED FRAMEWORK (Zeldovich), un-proven; (ii) "N_q=13 =
+the SM charged census" is CONVENTION-DEPENDENT (9 flavors + W + scalars ~ 12-13 under FLAVOR-counting; ~21
+under color-counting) -- so whether the rigid 13 MATCHES the SM depends on the count. So: "a RIGID flirt" --
+the basement must have ~13 charged dof given the frame, matching the SM under flavor-counting; suggestive,
+tighter than t462, NOT a derivation.
+
+PRONG 2 -- NO-BARE-G FROM L1: VALID ARGUMENT, but SEMI-CIRCULAR. The argument: a bare EH term = gravity
+existing INDEPENDENT of the medium = a clearinghouse not made of the medium = contradicts L1 (the metric IS
+the medium's collective structure) -> a bare G is "unconstitutional." Cold: this is VALID given L1 read
+ONTOLOGICALLY (the metric IS the medium). BUT that reading is essentially EQUIVALENT to the conclusion:
+"no gravity independent of the medium" (ontological L1) ≈ "no bare G" (gravity entirely induced). So the
+argument REDUCES no-bare-G to "L1 is ontological," which is the founding ASSUMPTION that gravity is entirely
+emergent -- close to assuming the conclusion. So it NAMES the assumption clearly (credit the honesty --
+"argument, not proof") but does NOT prove it; the formal version ("no diffeo-invariant kinetic term survives
+the UV completion except the induced one") is the owed basement half. So Prong 2 clarifies, does not advance
+toward proof.
+
+PRONG 3 -- F-F SURVIVAL VIA MONO-DISPERSION: THE RIGHT ANSWER-SHAPE (credit), RIGOR + LV-SCOPE OWED. This
+answers my t422/t462 Achilles'-heel question (does F-F survive the preferred frame?) with a ratio-lock: S_ent
+and G_induced come from ONE mode sum, so a preferred-frame dispersion modification at Λ_micro enters BOTH
+IDENTICALLY and CANCELS in S/(A/4G_ind)=1 -- PROVIDED mono-dispersion (one substrate -> one dispersion -> one
+horizon for all species), which EXCLUDES the known failure mode (multi-metric analog systems). This is the
+CORRECT SHAPE of answer (a ratio-lock, analogous to the f-sum bracket t368), and the mono-dispersion condition
+IS met by the one-metric/one-substrate structure (banked; consistent with the t473 GW170817 one-metric).
+Credit the argument-shape. BUT two owed items: (i) RIGOR -- S_ent (entanglement across the horizon) and
+G_induced (the R-coefficient) are DIFFERENT functionals of the mode sum, weighting the high-k modes
+DIFFERENTLY; a k-dependent dispersion bending at Λ_micro need NOT enter both integrals IDENTICALLY, so the
+exact cancellation is PLAUSIBLE but not established (a k-dependent residual could survive). (ii) SCOPE --
+mono-dispersion answers the F-F CANCELLATION, NOT the LV BOUNDS: mono-dispersion (one common dispersion) is
+NOT the same as LORENTZ-INVARIANT dispersion (1e-17..1e-20); the LV bill (the Λ_micro-suppression of the LV
+residual) is a SEPARATE owed item. So Prong 3 de-risks the F-F Achilles' heel (a plausible answer-shape) but
+does NOT close it (rigor owed) and does NOT address the LV bounds (separate).
+
+STATUS + THE UPGRADE'S SIZE. M3 advances from "an open compute with a scary Achilles' heel (preferred-frame
+F-F)" to "three ARGUMENTS filed + one rigid closure, proofs owed": the F-F heel has a plausible ratio-lock
+shape (Prong 3), no-bare-G is named as the ontological-L1 assumption (Prong 2), and the α-closure is rigid
+(Prong 1). GR: CONDITIONAL -> CONDITIONAL-WITH-ARGUMENTS-FILED -- fair. This is genuine progress on the
+PIVOTAL root (its resolution has a plausible shape now, not just an open risk), which slightly DE-RISKS the
+whole emergent superstructure that gates here. BUT it is ARGUMENT-strength: nothing is PROVEN (Prong 2 semi-
+circular, Prong 3 rigor-owed + LV-scope-separate, Prong 1 a rigid flirt), and the proof-strength versions ARE
+the basement compute (still owed). So a SMALL favorable firming, not a derivation.
+
+STANDING -- ~15% -> ~15-16% (small firming). The M3 Achilles' heel (the preferred-frame F-F applicability
+that gated the entire emergent superstructure, and via t473 the whole classical tower) now has a PLAUSIBLE
+ANSWER-SHAPE (the mono-dispersion ratio-lock) -- de-risking the pivotal root at argument-strength. That is a
+genuine, if modest, favorable move (the biggest risk is less scary). NOT more, because: all three are
+arguments, not proofs (semi-circular / rigor-owed / rigid-flirt); the LV bill is untouched (separate from the
+F-F cancellation); and the numerology tags on α stand. So the path to paying M3 is sharper, but M3 is not
+paid. Deciders: the M3 basement compute (the PROOF versions -- F-F ratio-lock rigor [k-dependent residual?],
+the formal no-bare-G, the α-closure) + the SEPARATE LV bounds (Λ_micro-suppression to 1e-17..1e-20); M1/M5
+running, AD-direct Card 4, screen-fixity, M8 v_L, P-031, BBN referees, M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): M3 KEYSTONE at ARGUMENT-STRENGTH (3 prongs). PRONG 1: closure N_q=13 LOG-RIGID (verified:
+  N_q=3π·137/ln(Λ²/m_e²)~12.9, Λ-independent because the log~100±1 over N_grav 25-100) -- genuinely tightens
+  t462 (N_q not tunable) BUT still an induced-QED flirt + convention-dependent count (13=SM census under
+  flavor-counting). PRONG 2: no-bare-G from L1 = VALID but SEMI-CIRCULAR (no-bare-G ≈ ontological-L1 ≈ the
+  conclusion; names the assumption, no proof). PRONG 3: F-F via MONO-DISPERSION = the RIGHT answer-shape
+  (ratio-lock, modification cancels in S/(A/4G) given one-substrate mono-dispersion; excludes multi-metric)
+  -- PLAUSIBLE, but RIGOR owed (S_ent vs G_induced weight modes differently -> k-dependent residual?) AND
+  addresses the F-F CANCELLATION not the separate LV BOUNDS (mono-dispersion != Lorentz-invariant). GR ->
+  CONDITIONAL-WITH-ARGUMENTS-FILED. Open/owed: M3 proof versions (F-F rigor, formal no-bare-G, α-closure) +
+  the separate LV bill; + M1/M5, AD-direct Card 4, screen-fixity, M8, P-031, BBN referees, M-K. STANDING
+  ~15% -> ~15-16% (the F-F Achilles' heel de-risked to a plausible answer-shape; argument-strength, no proof).
+  Class: FAVORABLE-MILD (small firming) -- M3 gets an answer-shape; nothing proven. Standing ~15-16%.
+
+— Claude (red team, external), turn 468 (on def475 KEYSTONE, M3). Genuine PROGRESS on the pivotal root, at
+  ARGUMENT-strength -> small firming. PRONG 1 VERIFIES: N_q=3π·137/ln(Λ²/m_e²)~12.9, and because Λ (over
+  N_grav 25-100) moves the LOG only ~1%, N_q~13 is Λ-INDEPENDENT -- genuinely tightening t462 (the count is
+  no longer tunable by the basement total). Credit the log-rigidity -- but it's still an induced-QED FLIRT,
+  and "13 = SM charged census" is convention-dependent (flavor-count ~13, color-count ~21). PRONG 2 (no-bare-G
+  from L1): valid but SEMI-CIRCULAR -- "the metric IS the medium" (ontological L1) is essentially the
+  conclusion (gravity entirely induced), so you NAME the assumption cleanly (honest: argument not proof), you
+  don't prove it. PRONG 3 is the important one and it's the RIGHT ANSWER-SHAPE: the F-F identity is a ratio,
+  so a preferred-frame modification entering BOTH S_ent and G_induced (one mode sum) cancels -- a ratio-lock
+  (like your f-sum bracket t368), given mono-dispersion (your one-substrate identity, which excludes the
+  multi-metric failure mode). Credit the shape. BUT: (i) RIGOR owed -- S_ent and G_induced weight the high-k
+  modes DIFFERENTLY, so a k-dependent bending at Λ_micro need not cancel EXACTLY (a residual could survive);
+  (ii) SCOPE -- this answers the F-F cancellation, NOT the LV bounds (mono-dispersion != Lorentz-invariant;
+  the 1e-17..1e-20 bill is separate). So the M3 Achilles' heel (preferred-frame F-F) is DE-RISKED to a
+  plausible answer-shape, not closed. NET: the pivotal root now has a resolution SHAPE (small favorable
+  firming), but nothing is proven -- the proofs are the basement compute, and the LV bill is untouched.
+  Standing ~15% -> ~15-16%. Class favorable-mild. Three IOUs and a rigid integer -- the toll is argued, not
+  paid.
+========================================================================
+
+DEFENDER — turn 479 (operator-directed): docs/PRTOE_sciences_inheritance.md — the sciences
+thread as INHERITANCE CHAINS (the DAG's canopy), with THREE content-bearing inheritances:
+(1) CHEMISTRY's cosmic uniformity = a DERIVED, screened, falsifiable condition (the lattice's
+null rows + the ramp-tail fence + the gate) — the assumption astronomy lives on is our
+registered prediction, with its one signed exception (P-030's mid-ramp lines); (2) BIOLOGY's
+thermodynamic license = the graded chain from the unique vacuum start through the gravity
+account to solar photons — life as a tap on the Weyl account (possibility traced, biology NOT
+explained — the scope held); (3) INFORMATION SCIENCE — Landauer as constitution-grade (the
+cosmology RUNS on it; standing null: no sub-Landauer erasure, ever). The rest: normality +
+lineage (medicine's lesson generalized); neuroscience explicitly no-claims (§12); mathematics
+out of scope (the language, not a child). ADJUDICATE: (a) the three content claims' provenance
+chains; (b) the no-overclaim audit (biology's possibility vs biology; chemistry's uniformity
+vs chemistry); (c) the Landauer null's kill-class registration.
+-- Defender t479: the canopy threads: chemistry's sameness is our screen at work, life drinks
+   from the account through a straw of starlight, and every computer pays fees to the same
+   ledger as the crunch. Nothing new grows on the tree — but every leaf now knows its root.
