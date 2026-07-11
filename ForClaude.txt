@@ -33931,3 +33931,97 @@ the standing's honest response to a pre-registered adverse landing taken in publ
    does not exist. Windowed honestly, helium rises against us, deuterium walks a step toward
    us, and the column we called our cleanest flips its sign — exactly as the operator felt in
    his bones an hour before the machine printed it.
+
+========================================================================
+RED-TEAM — turn 442 (on def447 THREAD INHERITANCE -- the kill-list as a DAG): a useful ORGANIZING
+formalization + a GOOD HONESTY structure (correlated falsifiability made explicit), no derivation, no move.
+The DAG is credit-worthy AS BOOKKEEPING (every death cites its parent law + inherits its falsifiability;
+updates propagate), and the shared-fate structure (parent-death voids child-certificates -- the L1a/M-K
+cascade generalized) is the RIGHT, honest way to represent the model's correlated predictions. TWO cold
+notes: (a) the "no-orphan theorem" (L1 ⇒ everything connects) is TRUE but TRIVIAL (it is just universal
+gravity -- everything gravitates); (b) the tree is DOUBLE-EDGED -- efficient coverage (~16 roots cover all)
+= CONCENTRATED FRAGILITY (the ~16 roots are single-points-of-failure), which ALIGNS with the red-team
+leverage map (the roots ARE the tests the model lives or dies by). Standing ~15-18% HELD, no move.
+
+(a) THE THEOREM (L1 ⇒ NO-ORPHAN) -- TRUE BUT THIN. "L1's universal account ⇒ no orphan physics; everything
+≤1 edge from a threaded node" reduces to: the medium couples to everything gravitationally (L1 = universal),
+so nothing is disconnected from its account. That is TRUE -- but it is just UNIVERSAL GRAVITY (everything
+gravitates), not a substantive result. And "no orphan found" is safe-but-trivial: an "orphan" would be
+something that does not gravitate, which will not be found. So the theorem's CONTENT is thin -- it guarantees
+CONNECTION (via gravity), NOT that the model SAYS something specific about each node. The organizing value
+(a DAG) is real; the "theorem" is not deep. Credit the structure, not the depth.
+
+(b) THE LAW-CITATIONS + DEPENDENCY TRACKING -- GOOD DISCIPLINE, CREDIT. Every death naming its parent law
+(L1 / L1a / the gate / fixed-pricing / the portal scale) formalizes the t437 lawful-deaths, and making updates
+PROPAGATE (the windowed BBN re-stamp flows to lithium's row) is exactly right -- the DAG makes the dependency
+explicit so a re-computed parent re-stamps its children. This is the honest bookkeeping the review rewards
+(no stale death-certificates). Credit.
+
+(c) THE SHARED-FATE STRUCTURE -- THE REAL VALUE, AND IT CUTS BOTH WAYS. "Kill a parent law and its children's
+death-certificates void together" (the L1a/M-K cascade generalized) is a GOOD HONESTY structure: it makes
+explicit that the model's many predictions/deaths are NOT INDEPENDENT -- they share root laws, so a single
+root failure cascades through a whole subtree. This is the correct, non-inflating way to state falsifiability
+(the model does NOT get to claim N independent confirmations if they share a root). Strong credit for the
+honesty. BUT the same structure is DOUBLE-EDGED, and the honest reading must include the flip: efficient
+coverage (~16 roots cover everything) means CONCENTRATED FRAGILITY -- the ~16 roots are SINGLE-POINTS-OF-
+FAILURE, and a root death takes its whole subtree. So the model's fate rests on a SMALL set of root laws.
+This is not adverse -- it is HONEST (and efficient theories are principled) -- but it means the review's
+weight belongs ON THE ROOTS, exactly where the red-team leverage map already sits:
+  - L1a (M-K birefringence) -> the parity subtree (birefringence-null, strong-CP, the chirality family).
+  - no-bare-G / preferred-frame F-F (Lorentz) -> the emergent-gravity subtree (BH interiors, big-bang, arrow,
+    info paradox, the area law).
+  - the par-normalization -> c AND √3 (t438).
+  - Card-4 n-sign -> the four parity observables.
+  - L1 (no shared charge) -> the channel-census deaths.
+So the DAG is the model's OWN honest self-map of its single-points-of-failure -- and it MATCHES the red-team
+leverage map (t426). Credit the alignment: the tree correctly identifies that the ~16 roots (not the leaves)
+are where the model lives or dies, which is where the owed computations already point.
+
+STANDING -- ~15-18%, HELD, NO MOVE. An organizing/coherence formalization (the kill-list + threads as a tree
+of inherited laws), no derivation. The DAG is useful bookkeeping (credit) and the shared-fate structure is a
+genuinely honest falsifiability statement (correlated deaths, no double-counting -- credit), with the trivial-
+no-orphan and the root-fragility notes attached. Net: the model's self-representation as a tree is honest and
+efficient, and it CONCENTRATES the review onto the ~16 roots -- which is exactly the standing leverage map.
+No move (coherence, no new result). Deciders unchanged and now explicitly root-organized: the Lorentz/no-bare-
+G root, the L1a/M-K root, the par-normalization root (c+√3, zon/α_c), the Card-4-n-sign root, screen-fixity,
+the windowed BBN print, per-thread pricing, running chains. Leptophilia (t358b) stands (a derived LEAF whose
+BBN row re-stamps in the windowed run).
+  Banked (updated): THREAD-INHERITANCE DAG -- kill-list + threads as a tree of ~16 root laws; every claim
+  cites its parent + inherits its falsifiability; updates propagate (windowed re-stamp -> lithium). SHARED-
+  FATE (parent-death voids children -- L1a/M-K cascade generalized) = an HONEST correlated-falsifiability
+  statement (no double-counting -- credit). NOTES: the no-orphan "theorem" is TRIVIAL (= universal gravity);
+  the tree is DOUBLE-EDGED (efficient coverage = concentrated root-fragility; the ~16 roots are single-points-
+  of-failure), which ALIGNS with the red-team leverage map (the roots are the live tests). Open/owed
+  (root-organized): Lorentz/no-bare-G; L1a/M-K; par-normalization (c+√3, zon/α_c); Card-4 n-sign; screen-
+  fixity; windowed BBN print; per-thread pricing; running chains. Class: FLAT (no move) -- useful DAG +
+  honest correlated-falsifiability; trivial no-orphan; root-fragility concentrates the review on the roots
+  (= leverage map). Standing ~15-18% held.
+
+— Claude (red team, external), turn 442 (on def447 THREAD INHERITANCE). A useful ORGANIZING DAG + a GENUINELY
+  HONEST falsifiability structure -- no derivation, no move. Credit the bookkeeping (every death cites its
+  parent law, updates propagate -- the windowed re-stamp flows to lithium) and, especially, the SHARED-FATE
+  structure (parent-death voids child-certificates): making explicit that your predictions are CORRELATED via
+  shared roots -- so you can't claim N independent confirmations, and a root failure cascades (L1a/M-K
+  generalized) -- is the right, non-inflating way to state falsifiability. TWO cold notes: (a) the "no-orphan
+  theorem" (L1 ⇒ everything connects) is TRUE but TRIVIAL -- it's just universal gravity (everything
+  gravitates); an "orphan" would be something that doesn't gravitate, which won't be found. (b) The tree is
+  DOUBLE-EDGED and the honest reading needs the flip: efficient coverage (~16 roots) = CONCENTRATED FRAGILITY
+  -- the roots are single-points-of-failure, a root death takes its subtree. That's not adverse, it's honest
+  -- and it puts the weight exactly where the red-team leverage map already sits: L1a (M-K -> the parity
+  subtree), no-bare-G/preferred-frame F-F (-> the emergent subtree), the par-normalization (-> c AND √3),
+  Card-4 n-sign (-> the 4 parity observables). So your tree is your own honest self-map of your single-points-
+  of-failure, and it MATCHES my leverage map -- the roots are where the model lives or dies. No move.
+  Standing ~15-18% HELD. Class flat. The model was always a tree -- and its roots are the review.
+========================================================================
+
+DEFENDER — turn 451 (PROTOCOL CODIFICATION, operator-directed): THE INHERITANCE-ROUTING RULE
+is now standing law of the threading protocol: FOR EVERY NON-THREAD, (1) identify the physics
+it DOES thread into (its parent node), (2) check the link from that parent into the model,
+(3) record the inherited law in the inheritance table (PRTOE_thread_inheritance.md). The full
+threading protocol now reads, in order: [PRE] ramp-or-step check before every compute;
+[THREAD] the improves-bar with no forcing; [KILL] the autopsy (death confirmation + step-audit
++ missing-coupling gated by the gravity laws) + the why-pass (name the law) + INHERITANCE
+ROUTING (name the parent, check the link); [SUCCESS] the owed-invoice into
+threaded_physics_working/. Every future kill updates the inheritance table as a side-effect.
+-- Defender t451: the protocol closes its loop: nothing leaves the table as a mere no — it
+   leaves as somebody's child, with the family name recorded.
