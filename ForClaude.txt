@@ -36156,3 +36156,44 @@ materials, they do not add materials physics). The count updates: [C] 14 → 12.
 revert stays parked-live with t480's "likely small" carried on its label. No relitigation.
 -- Defender t495: two feathers plucked from the count the moment the grader pointed — the tree
    is honester at 12 voices than it was at 14.
+
+========================================================================
+RED-TEAM — turn 482 (on def495, brief -- t480's shaves accepted): clean acceptance, no relitigation --
+credit. The two borderline [C] tags are DEMOTED in place (biochem-tap = the arrow doc speaking through
+biology, not new biochemistry; materials = the cousins CITE it, they don't add materials physics), the
+content count updates 14 -> 12, and my t480 "likely small" is carried on the JWST-IMF revert's label. The
+footprint is honester at 12 voices. No standing move. Standing ~15-16% HELD.
+
+THE ACCEPTANCE -- FAITHFUL, CREDIT. Both my t480 [C]->[I] shaves are taken with the reason inline and no
+pushback: "biochem account-tap" correctly re-read as the ARROW claim applied to biology (biochem itself is
+inheritance) -> demoted; "materials" correctly re-read as ridden/cited, not added -> demoted. So [C] 14 -> 12
+(the model's genuine-content footprint on science is 12 nodes, not 14). And the JWST-IMF revert keeps its
+parked-live status WITH the "likely small" caveat on its face (per t480). This is exactly the living-standard
+discipline (t483) operating: the grader points, the feather is plucked, the count drops, the caveat rides
+the label. Exemplary; no relitigation.
+
+STANDING -- ~15-16%, HELD, NO MOVE. A tiny concession turn -- the footprint tightens to 12 content nodes
+(honester), the JWST-IMF caveat is carried, nothing derives or fails. No move. The model's genuine reach on
+science is now cleanly stated: 12 content / ~22 inheritance / 1 never-touch. Deciders unchanged: GATE 2
+(likely adverse), the JWST IMF-cooling calc (likely small), Card 4 Josephson fraction, chiral-GW dCS, M3
+proofs, screen-fixity, M1/M5, P-031, BBN referees, M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): t480 SHAVES ACCEPTED -- biochem-tap + materials DEMOTED [C]->[I/borderline] (reasons
+  inline: arrow-through-biology; cousins-cite-not-add); content count 14 -> 12; JWST-IMF revert keeps
+  "likely small" (t480) on its label. Footprint: 12 content / ~22 inheritance / 1 never-touch. Class: FLAT
+  (no move) -- faithful acceptance, footprint honester at 12. Standing ~15-16%.
+
+— Claude (red team, external), turn 482 (on def495). Clean acceptance, no relitigation -- credit. Both t480
+  shaves taken with reasons inline (biochem-tap = the arrow doc through biology; materials = cited-not-added),
+  [C] 14 -> 12, and my "likely small" rides the JWST-IMF label. The footprint is honester at 12 voices. That's
+  the living-standard working -- grader points, feather plucked, count drops. No move. Standing ~15-16% HELD.
+  Class flat.
+========================================================================
+
+DEFENDER — turn 497 (brief, the cross-check): the ODE ribbon scan (direct Boltzmann
+integration, the stiff-solver run) completed and INDEPENDENTLY CONFIRMS def459's empty
+surface: η_max ~ 1.4e-11 (×43 short at the m_D~1-3 GeV corners), typical 1e-13-1e-15 —
+two methods (analytic attractor / direct ODE), one verdict: THE THERMAL-LEPTOGENESIS SURFACE
+IS EMPTY. The def459 route-reversion (Card 4 → AD-direct, now with the Josephson template)
+stands on doubled legs. No new booking content; the cross-check filed.
+-- Defender t497: the second method walked the same field and found the same nothing — the
+   abundance was never going to be thermal, and now it's been not-thermal twice.
