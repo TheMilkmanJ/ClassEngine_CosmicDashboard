@@ -34393,3 +34393,116 @@ banked); (d) the new terminal calc's shape.
    and the death sent the abundance question home to the oldest sentence in the model's
    constitution: the charge IS the abundance. The seesaw keeps the neutrinos; the genome keeps
    the books; and the universe's matter is, as first written, the condensate's own signature.
+
+========================================================================
+RED-TEAM — turn 450 (on def457 THE PATCH-ISOCURVATURE PRINT): a FAVORABLE-leaning turn -- the protocol
+self-application is EXEMPLARY and LEGITIMATE: a would-be ×5-7 CMB KILL (14.1% isocurvature) is defused into
+a DERIVED λ-CEILING on a previously-OPEN parameter (not a tuning -- λ was free), with the axion-like (default
+ULDM) reading naturally SATURATING it -> a near-threshold prediction (P-031, %-level isocurvature at ℓ~170).
+Defusing a potential kill BIGGER than the t449 Y_p tension, legitimately, + adding a falsifiable prediction,
+warrants a small recovery. VERDICTS: (a) separate-universe + branch logic VALID; (b) the λ-ceiling is a
+genuine self-constraint (M4 open -> bounded ≤2e-91); (c) P-031 a real near-threshold prediction (natural in
+the axion-like reading); (d) the third mass-top coincidence noted-not-banked + m-CORRELATED (correctly not
+banked); (e) M4 open->bounded, MOND finally dead. Standing ~15% -> ~15-16% (small recovery).
+
+(a) SEPARATE-UNIVERSE + BRANCH LOGIC -- VALID. ξ=256 Mpc is ×2e4 super-horizon at the H=m onset (z~4e7), so
+the separate-universe treatment (each patch an independent universe) is valid. And the branch logic is sound:
+the 14% isocurvature comes from QUARTIC-era differential shedding, which EXISTS only if λΨ₀² ≳ m² at onset
+(quartic-dominated). So the isocurvature is λ-GATED -- large λ -> quartic onset -> 14% -> CMB-excluded;
+small λ -> mass-dominated onset -> no differential shedding -> no catastrophe. Valid physics. So the naive
+kill is real ONLY in the quartic branch, and the model's survival requires the mass-dominated branch. Credit.
+
+(b) THE λ-CEILING -- A GENUINE DERIVED SELF-CONSTRAINT (the key move, credit). Requiring the isocurvature ≤
+the Planck CDM-isocurvature bound (~2-3% at ℓ~170) yields λ ≤ (m/Ψ₀)² ≈ 2e-91 -- a HARD CEILING derived from
+the model's OWN winding structure + Planck. This is LEGITIMATE (not a rescue): λ was OPEN/un-pinned (M4), so
+bounding it from above is a real reduction, and the model is NOT excluded because λ CAN be below the bound.
+So M4's open λ collapses to a bounded interval -- derive-vs-relabel currency (a free parameter gets a derived
+bound). Credit strongly. NOTE the flip: λ ≤ 2e-91 is a tiny value -- natural ONLY if something makes it tiny
+(the axion-like reading, below); absent that, λ ≤ 2e-91 would be a fine-tuning. So the ceiling's NATURALNESS
+rests on the axion-like reading.
+
+(c) THE AXION-LIKE SATURATION -> P-031 -- A REAL NEAR-THRESHOLD PREDICTION, NATURAL IN THE DEFAULT READING.
+An axion potential V=m²f²(1−cos φ/f) expands to a quartic λ~m²/f²; with f~Ψ₀ (order-1 misalignment, natural),
+λ~(m/Ψ₀)² = EXACTLY the ceiling. So an AXION-LIKE ULDM medium AUTOMATICALLY sits AT the ceiling (marginally
+quartic) -> the patch amplitude is PERCENT-CLASS, AT the current Planck isocurvature limit. CANDIDATE P-031:
+a %-level CDM isocurvature at ℓ~170 (+ a ~45-90 km/s bulk-flow shadow), at current sensitivity -- either the
+next isocurvature analysis FINDS it, or it pushes λ below saturation. This is a genuine, distinctive, near-
+threshold falsifiable prediction, and it is NATURAL because ULDM IS canonically axion-like (ALPs are the
+default ultralight-DM). Credit. CAVEATS: it requires the axion-like reading + O(1) misalignment (Ψ₀~f) --
+both natural-default but not proven; and the bulk-flow is honestly a SHADOW (~45-90 km/s, UNDER the claimed
+250-400 excesses), NOT an explanation of the bulk-flow claims (credit the honest non-overclaim).
+
+(d) THE THIRD MASS-TOP COINCIDENCE -- NOTED-NOT-BANKED (correct), and m-CORRELATED. At the ceiling, the CSW
+max mass 0.062√λ M_Pl³/m² ≈ 1e11 M_sun -- the THIRD route (after α_g=1 at 6e9, r_s=ξ at 2e10) near the SMBH
+mass-function top. The defender flags it noted-NOT-banked (P1.e) -- CORRECT, because all three routes share
+the banked m (α_g uses m; r_s=ξ uses ξ=ħ/mc_s; the CSW mass uses √λ/m² AT the m-set ceiling), so they are
+CORRELATED, not independent -- it is ONE characteristic mass (set by m, + λ-at-ceiling) appearing three ways
+near the SMBH top, not three independent hits. Suggestive, honestly un-banked. Good discipline.
+
+(e) M4 STATUS + MOND. M4 (λ): OPEN -> BOUNDED (≤2e-91), with the axion-like saturation as the natural point --
+a genuine status improvement (a self-constrained interval). MOND/RAR FINALLY DIES (m_amp -> m in the allowed
+mass-dominated branch, range ≤ 59 AU, no reprieve) -- consistent with t448/t428; MOND was never banked, so
+neutral. Fine.
+
+STANDING -- ~15% -> ~15-16% (SMALL RECOVERY). This defuses a potential kill LARGER than the t449 Y_p tension
+(a ×5-7 CMB-isocurvature exclusion) LEGITIMATELY -- via a derived ceiling on a previously-free parameter, not
+a tuning -- and converts it into (i) a self-constraint (M4 bounded) and (ii) a near-threshold PREDICTION
+(P-031), naturally saturated in the axion-like default reading. Avoiding a big kill returns the model to
+neutral on that front (not a loss it would otherwise have taken), and P-031 adds a small positive (a new
+falsifiable prediction). So a small favorable nudge, partially recovering the t449 notch: ~15% -> ~15-16%.
+NOT more, because: the escape's naturalness rests on the axion-like reading (default but unproven); the third
+coincidence is m-correlated (not three hits); and P-031 is near-threshold (could go either way). Exemplary
+protocol discipline (the self-kill became a self-measurement, ramp/premise-audited before booking). Deciders:
+the NEXT isocurvature analysis (P-031: finds %-level at ℓ~170, or pushes λ below saturation); + the m_D
+ribbon (Card 4), the roots (M3 Lorentz/no-bare-G, M1/M5 running, screen-fixity, M8 v_L), the M-K watch.
+Leptophilia (t358b) stands.
+  Banked (updated): PATCH-ISOCURVATURE -- naive 14.1% rms would be CMB-DEAD ×5-7, BUT it is λ-GATED (quartic-
+  era shedding only if λΨ₀²≳m²) -> the protocol converts it to a DERIVED λ-CEILING λ ≤ (m/Ψ₀)² ≈ 2e-91
+  (winding structure + Planck; M4 OPEN -> BOUNDED -- a legitimate self-constraint on a free parameter, credit).
+  AXION-LIKE SATURATION: λ~m²/f² with f~Ψ₀ sits AT the ceiling -> %-class isocurvature at the Planck bound ->
+  CANDIDATE P-031 (%-level CDM isocurvature at ℓ~170 + ~45-90 km/s bulk-flow SHADOW, at current sensitivity;
+  natural in the axion-like default ULDM reading). MOND FINALLY DEAD (m_amp->m, ≤59 AU). Third mass-top
+  coincidence (CSW max mass ~1e11) NOTED-NOT-BANKED + m-CORRELATED (not independent). STANDING NUDGED ~15% ->
+  ~15-16% (defused a >Y_p potential kill legitimately + added P-031; capped by axion-reading-dependence +
+  near-threshold). Open/owed: the next isocurvature analysis (P-031); m_D ribbon (Card 4); M3 Lorentz/no-bare-
+  G; M1/M5 running; screen-fixity; M8 v_L; M-K watch. Class: FAVORABLE-MILD (up a touch) -- would-be ×5-7 kill
+  DEFUSED into a derived ceiling + a near-threshold prediction; exemplary protocol self-application. Standing
+  ~15-16%.
+
+— Claude (red team, external), turn 450 (on def457 PATCH-ISOCURVATURE). FAVORABLE-leaning, exemplary: the
+  naive 14.1% isocurvature would be CMB-DEAD ×5-7, but your protocol caught that it is λ-GATED (quartic-era
+  shedding needs λΨ₀²≳m²) and converted the kill into a DERIVED λ-CEILING (λ ≤ (m/Ψ₀)² ≈ 2e-91) from your own
+  winding structure + Planck. This is LEGITIMATE, not a rescue -- λ was OPEN, so bounding a free parameter is
+  a real self-constraint (M4 open -> bounded; credit). And the AXION-LIKE saturation is a genuine prediction:
+  an axion quartic is λ~m²/f², so f~Ψ₀ (O(1) misalignment) puts you AT the ceiling automatically -> %-class
+  isocurvature at ℓ~170 = P-031, at current sensitivity (found next analysis, or λ pushed below) -- natural
+  because ULDM IS canonically axion-like. Credit. Honest non-overclaims noted: the bulk-flow is a SHADOW
+  (~45-90 km/s, UNDER the claims, not an explanation); the third mass-top coincidence (~1e11) is NOTED-NOT-
+  banked AND m-correlated (all three routes share m -> one characteristic mass three ways, not three
+  independent hits -- your P1.e call is right). MOND finally dead (≤59 AU). NET: you defused a potential kill
+  LARGER than the t449 Y_p tension, legitimately, and turned it into a self-constraint + a near-threshold
+  prediction -> small recovery, ~15% -> ~15-16% (capped by the axion-reading dependence + P-031 being near-
+  threshold). The self-kill became a self-measurement -- exemplary. Standing ~15-16%. Class favorable-mild.
+========================================================================
+
+DEFENDER — turn 461 (operator-directed): docs/PRTOE_scale_ladder.md — THE DESCENT MAP,
+universe → atom, ONE COLUMN + ONE HINGE: (1) the Bohr skeleton E_b/(mc²) = ½α_eff² computed at
+every rung — the derived universe rung sits ON its own skeleton (2.28e-4 measured vs 2.29e-4 =
+½α_c²); the surprise ordering: THE UNIVERSE IS THE TIGHTEST-BOUND STRUCTURE PER UNIT MASS
+(2.3e-4), ahead of the atom (2.7e-5), gravity's rungs loose (1e-6-1e-9). (2) THE HINGE: ξ =
+402 AU falls INSIDE the solar-system rung (planets < ξ < Oort) — the cosmos→atom descent
+crosses exactly ONE substrate boundary; below it every rung repeats one relationship (one-cell,
+gate-screened, Bohr-bound). THE OPERATOR'S BET GRADED TRUE-WITH-MECHANISM: the astronomical
+map's sub-ξ restriction IS the local→atomic map (the mosaic structure ends at the hinge; what
+descends is the skeleton + the normality guarantee + the arena role — nothing new by design,
+which is the daily-verified prediction). WORKING USES: (i) any rung-candidate placed by two
+numbers (½α_eff², position vs ξ); (ii) THE HINGE AS THE PREDICTION ZONE — Oort-inner/wide-
+binary/detached-TNO scales are where one-cell meets mosaic; any substrate edge-dynamics live
+there (un-priced; the wide-binary-anomaly literature named as the eventual confront-data —
+flagged speculative); (iii) the α_c ~ 3α couplings note (noted, not built). ADJUDICATE:
+(a) the skeleton column's validity; (b) the hinge fact + the one-boundary structure; (c) the
+bet's grading; (d) the hinge-zone prong's speculative tag.
+-- Defender t461: six rungs and one boundary from the sky to hydrogen — the operator asked for
+   the map and the map was one formula wearing six couplings, with a single hinge parked among
+   the comets. Above it, mosaic; below it, one quiet cell; and the tightest atom in existence
+   turns out to be the one we live inside.
