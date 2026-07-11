@@ -33124,3 +33124,144 @@ adiabatic/FIRAS thread + its step-vs-ramp discriminator; (e) A5's anti-correlati
    actually was, one experiment came back from the moot pile, one silence (FIRAS) turned out
    to be evidence for the ramp, and five deaths await your countersignature. Killing honestly
    takes as much arithmetic as living.
+
+========================================================================
+RED-TEAM — turn 428 (on def433 THE AUTOPSY PROTOCOL -- 8 autopsies): EXEMPLARY systematic discipline (step-
+vs-ramp applied to past kills + honest death-confirmation) -- strong credit. VERDICTS: A1 MOND reopening is
+a VALID step-thinking catch (but NOT a rescue -- cuts both ways); A2 Lithium death STANDS, and its ramp audit
+surfaces the substantive finding -- T_c=193 keV is INSIDE the BBN window, so the ENTIRE BBN sub-lattice is
+PROVISIONAL pending the ε(epoch) run (this CORRECTS my t395/t404); A3 is a NEW thread found FIRAS-SAFE
+(checks) with a mild ramp-preference; A4-A7 deaths CONFIRMED (honest magnitude/mechanism mismatches); A5's
+anti-correlation salvage is a fair consistency check; A8 is an un-computed queued candidate. Standing ~15-18%
+HELD -- credit the discipline; the BBN ε(epoch) provisionality is the real new owed item.
+
+A1 -- MOND/RAR REOPENING: VALID CATCH, NOT A RESCUE. The step-thinking is real: the def423 kill set the
+force-carrier mass = m (the fluid quantum, range ħ/mc=59 AU, checks), but the carrier is the AMPLITUDE MODE
+(m_amp ~ √(2λ)·Ψ, λ_phys UN-PINNED = the same un-pinned λ as the BH/bounce floor). So the range is undetermined
+and the kill is unsafe -- REOPENED, correctly. BUT credit the HONEST both-ways flag: a MOND-useful kpc-range
+gravitational-strength scalar force must then explain why lensing/cluster dynamics stay STANDARD (a long-range
+scalar would show there). So MOND moves DEAD -> OPEN-PENDING-m_amp, DOUBLY constrained (short range -> no MOND;
+kpc range -> lensing/cluster problem) -- not a win, tied to λ_phys. Confirm the reopening; it is honest, not
+a rescue.
+
+A2 -- LITHIUM: DEATH STANDS, AND THE RAMP AUDIT SURFACES A SUBSTANTIVE BBN COMPLICATION (the key item). The
+death is confirmed and MORE robust mid-condensation: Li7 forms at T~30-60 keV < T_c=193 keV, so ε_eff ~
+0.7-0.85ε (the response SHRINKS) -- −1.2% becomes even smaller vs the needed −70%. Dead. BUT the audit
+reveals what my t395/t404 got WRONG: T_c=193 keV is SUB-MeV and sits INSIDE the BBN window. So ε is NOT full
+at BBN -- it SPANS the condensation:
+  - n/p freeze-out (Y_p): T~800 keV > T_c=193 keV -> ε_eff ≈ 0 (pre-condensation) -> the dyad does NOT shift
+    the n/p ratio; my earlier "Y_p +0.65σ dyad effect" (constant-ε) likely VANISHES.
+  - D/H bottleneck: T~80 keV < T_c -> ε_eff ~ 0.76ε (φ/v=√(1−80/193)) -> the D/H widening is REDUCED from
+    the constant-ε value ("~2.3σ" re-prices down).
+  - Li: T~30-60 keV -> ε_eff ~ 0.85ε.
+  => the ENTIRE BBN sub-lattice (Y_p, D/H, gate-0, AND the t358b leptophilia quark-bleed) is PROVISIONAL,
+  needing the T_c-windowed ε(epoch) PRyM run. This is a LARGER re-price than my t404 "~3%" flag (that was the
+  f_amp partition; this is the ORDER-PARAMETER condensation straddling BBN, a 0→0.85 variation). Booked as a
+  correction to my t395 ("T_c > MeV") and t404: T_c=193 keV is inside BBN, ε is species-dependent, and the
+  BBN consistency I credited is un-settled until the epoch-stamped run. The defender correctly UN-MOOTS the
+  PRyM run for this -- credit the honesty; note the complication is substantive (the whole BBN lattice re-runs).
+
+A3 -- SPECTRAL DISTORTIONS: NEW THREAD, FIRAS-SAFE (checks) + A MILD RAMP DISCRIMINATOR. The dyad turn-off at
+z~50 (y-era): the atomic-binding channel ~3e-9 of ρ_γ CHECKS (n_H/n_γ~6e-10 × 13.6eV/T(z50)~0.012eV × δm_e~
+1e-2 ≈ 7e-9), negligible vs FIRAS (~1e-5); the rest-mass readjustment runs coherently through the order
+parameter -> ADIABATIC IF RAMPED (slow gate radiates nothing, adiabatic theorem). So FIRAS-safe, with a mild
+DISCRIMINATOR: a violent STEP would have left μ/y marks -> their absence mildly prefers the ramp over the step
+(a small independent support for the C²-gate being gradual, consistent with the whole step-vs-ramp program).
+Credit -- a new consistency found by the ramp view + a mild ramp-preference. (z_on=4e7 beyond the μ-era: safe
+trivially -- fine.)
+
+A4-A7 -- DEATHS CONFIRMED (honest, correct). A4 ISW EXCESS (~5× ΛCDM): the thaw/conv_g levers are percent-
+class, cannot give an order-of-magnitude excess -> DEAD, confirmed (and the ISW-void excess is itself a
+marginal claim). A5 NUMBER-COUNT DIPOLE (~2-5× kinematic): the ε-dipole is 6e-7 vs a ~1e-2 excess -> DEAD,
+confirmed; the SALVAGE (the excess axis should be UNCORRELATED with the winding-axis family P-024/P-029/low-ℓ)
+is a fair registered CONSISTENCY check -- a correlated axis would be an unpredicted coincidence, so anti-
+correlation is the model's honest expectation. A6 STRONG-CP: the leptophilic/colorless Goldstone (census +
+t358) has NO color anomaly -> no θ̄ relaxation -> DEAD, confirmed (honestly doesn't touch it; consistent with
+leptophilia). A7 MUON g-2: the 3.5e17 GeV portal gives (m_μ/M)²~1e-31 (negligible), and the anomaly is
+dissolving lattice-side -> DEAD, confirmed. All four are honest magnitude/mechanism mismatches, correctly
+booked as the model NOT explaining them -- credit the honest deaths (a model that claims only what it reaches).
+
+A8 -- A_L LENSING ANOMALY: un-computed candidate (the conversion channel + m_e shift touch peak-smoothing vs
+growth oppositely), CHECKABLE in the chains, queued-not-claimed. Fine -- a registered candidate, no grade
+until computed. Note it.
+
+STANDING -- ~15-18%, HELD, NO MOVE. An exemplary autopsy sweep: five deaths honestly confirmed (the model
+claims only what it reaches -- ISW, dipole, strong-CP, g-2 all booked as not-ours), one VALID step-thinking
+reopening that is not a rescue (MOND, doubly-constrained, pending λ_phys), one new FIRAS-safe thread (with a
+mild ramp-preference), and one substantive self-found complication: T_c=193 keV inside the BBN window makes
+the WHOLE BBN sub-lattice PROVISIONAL (ε species-dependent, 0→0.85) -- correcting my t395/t404. Net: rigor UP
+(the model audits its own kills), one real complication (BBN provisional -- uncertainty up, not shown adverse),
+no rescues, no new wins. No downtick (the BBN re-run could help or hurt; nothing is shown wrong -- the effects
+redistribute), no uptick (deaths confirmed, MOND not rescued). The substantive owed item added: the ε(epoch)
+PRyM run (Y_p/D-H/Li/gate-0/quark-bleed across T_c=193 keV) -- elevate it in the debt ledger. Deciders: the
+BBN ε(epoch) run; m_amp/λ_phys (MOND + BH floor); + the leverage set (Lorentz/no-bare-G, α_c/zon, Card-4
+n-sign, screen-fixity), per-thread pricing, running chains. Leptophilia (t358b) stands BUT its BBN quark-bleed
+now re-prices at ε(quark-bleed epoch).
+  Banked (updated): AUTOPSY PROTOCOL -- exemplary. A1 MOND: kill was STEP-THINKING (carrier = amplitude mode
+  m_amp~√λΨ, λ un-pinned, not the fluid quantum m) -> REOPENED but cuts both ways (kpc range -> lensing
+  problem); not a rescue, pending λ_phys. A2 LITHIUM: death STANDS (shrinks mid-condensation); KEY -- T_c=193
+  keV is INSIDE the BBN window -> ε(epoch) spans ~0 (Y_p n/p freeze-out T~800keV>T_c) to ~0.85ε (Li) -> WHOLE
+  BBN sub-lattice PROVISIONAL pending the ε(epoch) PRyM run (CORRECTS my t395 "T_c>MeV"/t404 "~3%"). A3
+  SPECTRAL DISTORTIONS: NEW thread FIRAS-SAFE (binding ~3e-9 ρ_γ checks; adiabatic-if-ramped) + mild ramp>step
+  discriminator. A4-A7: DEATHS CONFIRMED (ISW/dipole/strong-CP/g-2 -- honest not-ours; A5 anti-correlation
+  axis salvage = fair check). A8: un-computed A_L candidate queued. Open/owed (elevated): the ε(epoch) PRyM
+  run (BBN lattice); m_amp/λ_phys; + Lorentz/no-bare-G, α_c/zon, Card-4 n-sign, screen-fixity, per-thread
+  pricing, running chains. Class: FLAT -- rigor up, BBN provisional (uncertainty not adversity), deaths
+  confirmed, MOND reopened-not-rescued. Standing ~15-18% held.
+
+— Claude (red team, external), turn 428 (on def433 AUTOPSY PROTOCOL). EXEMPLARY -- step-vs-ramp on your own
+  kills + honest death-confirmation. A1 MOND: the reopening is a VALID step-thinking catch (the kill used the
+  fluid quantum m, but the carrier is the AMPLITUDE MODE m_amp~√(2λ)Ψ, λ_phys un-pinned) -- so the range is
+  undetermined, kill unsafe. BUT credit the both-ways flag: a MOND-useful kpc-range scalar force then owes why
+  lensing/clusters stay standard. DEAD -> OPEN-PENDING-m_amp, doubly-constrained -- not a rescue. A2 LITHIUM:
+  death STANDS (shrinks to ~0.85ε mid-condensation) -- and the audit surfaces the real finding: T_c=193 keV
+  is INSIDE the BBN window, so ε is species-dependent (≈0 at n/p freeze-out T~800keV>T_c -> your Y_p +0.65σ
+  likely VANISHES; ~0.76ε at D/H; ~0.85ε at Li). This CORRECTS my t395/t404 (I had ε full at BBN) -- the WHOLE
+  BBN sub-lattice (Y_p, D/H, gate-0, the leptophilia quark-bleed) is now PROVISIONAL pending your ε(epoch)
+  PRyM run. Substantive; elevate it. A3 SPECTRAL DISTORTIONS: new thread FIRAS-SAFE (binding channel ~3e-9
+  ρ_γ checks; adiabatic-if-ramped) + a mild ramp>step discriminator -- credit. A4-A7: DEATHS CONFIRMED (ISW,
+  dipole, strong-CP, g-2 -- honest not-ours; A5's anti-correlation-axis salvage is a fair consistency check).
+  A8 A_L: un-computed candidate, queued -- noted. NET: rigor up, one real complication (BBN provisional --
+  uncertainty, not shown adverse), no rescues, no new wins. No move. Standing ~15-18% HELD. Class flat.
+  Killing honestly does take as much arithmetic as living -- credit.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 435: THREADING BATCH FOUR (protocol-armed, ramp-checked) — two LIVE-ANOMALY threads, one forced-null thread, one queued check, one clean kill + consistency row
+========================================================================
+T14 — IGMF HELICITY (docs/threaded_physics_working/T14): the chirality family may already have
+a MEASURED member — published gamma-ray parity-odd claims of LEFT-HANDED intergalactic magnetic
+helicity (Tashiro–Vachaspati class, ~2σ, disputed). The family (sign(helicity_B) = sign(n) =
+matter's sign = chiral-GW handedness) could move to one-measured/two-predicted — BUT the
+SIGN MAP through Card 4's rectification is OWED before the datum can be read (which handedness
+= matter-wins is not yet derivable). Filed with the owed-map flagged load-bearing.
+T15 — INDIRECT DETECTION (the second forced-null thread): the dark charge is CONSERVED (the
+never-annihilating reframe, banked) + the portal at 3.5e17 GeV ⇒ NO annihilation/decay signals
+ever: the GC GeV excess, 511 keV, positron excess — ALL predicted astrophysical. Same
+unhedgeable exposure class as T9: one confirmed DM-attributed signal kills. Cross-section
+ceiling computation owed (state "how null").
+T16 — LSS PARITY VIOLATION (the boldest thread of the batch): the BOSS 4PCF parity-odd signal
+(~5-7σ claimed, systematics-disputed) — the model is nearly ALONE in possessing native LSS
+parity machinery (helical vorticity injection: the winding + the rotation-seeded Harrison era).
+PRICING OWED with the honest likely-SHORT flag ((v/c)-suppressed amplitudes); the axis
+correlation/anti-correlation dichotomy registered (same salvage structure as A5). Ramp-check
+applied: the injection integrates through the growth history (ramped), not an initial stamp.
+T17 — THE A_L CHECK (from A8): procedure defined — compare chi2__lensing at MATCHED minima
+(dyad omk minimum: 8.40; the ΛCDM twin's breakdown not in the stats format) — queued as a
+small chain/minimize deliverable. Not filed, not killed.
+T18 — NS/PULSAR-GLITCH THREAD: KILLED CLEAN (protocol applied): the candidate coupling
+(cosmic winding ↔ NS superfluid vortices) fails the CHANNEL AUDIT — no shared charge (L1),
+the trace channel is ×16 hadron-suppressed AND the C²-gate screens collapsed objects
+(ramp-thinking: the gate is the local screen, correctly applied — a NS is deep in
+Gaussian-dead territory). Death submitted for confirmation. CONSISTENCY ROW banked instead:
+the binary-pulsar drag check (computed this session: medium drag ~ 3e-5% of the measured GW
+decay — a passed null, filed to the transaction map's solar-lab rung).
+OWED-NOTES: T14/T15/T16 files created in threaded_physics_working/ per the operator's standing
+order. ADJUDICATE: (a) T14's family-datum status + the sign-map dependency; (b) T16's
+native-machinery claim (is the model really near-alone here?) + the likely-short flag;
+(c) T15's forced-null scope; (d) T18's death; (e) the batch's ramp-check discipline.
+-- Defender t435: batch four: the sky may have already measured one of our three chiralities,
+   the galaxy survey that violates parity meets the one model that owns an axis, and a neutron
+   star declined the thread politely through a Gaussian gate. Two live anomalies now have our
+   name on the visitor list — pricing owed before we claim chairs.
