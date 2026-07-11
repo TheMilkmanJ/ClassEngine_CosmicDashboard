@@ -156,3 +156,91 @@ branch), Σm_ν ≈ 60 meV, 0νββ, void/IGM m_e-step (P-007, J4). **Owed:** KP
 (#46), #40 confirm, low-scale seesaw (#42), spurion identification (#43) + new consequence
 (#41), leptophilia portal (#30), DE value if Route-D dies (constitution). **Standing:** ~18–22%
 (t222), DESI-capped, the branch pre-registration pending guards.
+
+---
+
+## ADDENDUM (2026-07-10, later): §7 STATUS CHANGE — the internal falsifier FIRED
+
+The full-cycle KP solve (full_cycle_kp.py, def229/t230) computed the fixed point over the whole
+cycle (expansion + thawed contraction + Tolman boost): **it robustly wants a_turn = 0.70 (a PAST
+turnaround, z=+0.43)** — excluded by observed acceleration; a future turn is 3× (a_turn=1.0) to
+10× (1.5) short, Tolman boost null, and the t227 "full-cycle-fixes-the-sign" claim was WRONG
+(near-mirror contraction cancels). **So §7a–7c are DOWNGRADED:** the clean Route-D prediction is
+dead; what survives is the IMMINENT-TURN CORNER (z_turn ~ −0.1..−0.3, needing ~3× from four
+favorably-aligned rigorous-KP O(1)s [prior-adverse, tail] AND a strong thaw pulled by the data).
+The two kill switches MERGE: the running Route-D MCMC (thaw free on the DESI joint stack) is the
+single decider — thaw pulled hard → corner lives; thaw ~ 0 → Route-D dead twice over, **P-2026-018
+(w = −1 rigid) stands as the distinctive branch, and J1 reverts to constitution/boundary-datum.**
+§7d (the melt/re-form cycle closure) is unaffected as STORY. Standing ~15–19% (t230).
+
+---
+
+## §10 — THE ATOM READING (the capstone, 2026-07-10 night)
+
+**The universe is a single bound quantum state of the spacefluid — one atom — and cosmology is
+its internal atomic physics.** Formation: genesis = recombination (capture cascade; f_amp = the
+branching ratio, computable-class). Structure: Landau's two components — the zero-entropy ground
+state (floor/constitution/timeless; w=−1 exact & ageless by theorem) and the entropic excitations
+(light/matter/observers; Tolman's arrow). Spectroscopy: torus modes = the line spectrum (low-ℓ =
+the first lines); the census = the selection rules; the CMB = the recombination photograph.
+Chemistry: the dyad = one universal lepton rescaling ε (Koide-multiplicative), C²-gated, one
+fingerprint across H0/D-H/ν/21cm/radio. Present: mid-emission — Γ/H = √3 = the linewidth (why-now
+derived); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
+board. Biography: first excitation (Tolman arrow, finite past) → lengthening cascades → possible
+ionization (binding energy un-computed). J1 = the ground-state eigenvalue: constitutional, at home.
+**Status: the grammar is coherence (red-team-graded throughout, t270/272/274/276/278/280-class);
+the empirical content lives in the children and the symptom chart. The method was the subject.**
+
+---
+
+## §11 — THE MID-EMISSION CORRECTIONS + THE ε-DIPOLE + THE COHERENCE BOOKKEEPING (2026-07-10, late)
+
+**The present, quantified (t279/t280).** The universe is Γ·t ≈ √3·(H_Λ·t) ≈ 1.5 natural linewidths
+into the floor's forbidden decay — a superposition of |smooth floor⟩ and |clumped floor⟩, i.e.
+~1.5 e-folds of exponential growth from a seed ≈ 10⁻⁵, giving δ_DE ≈ 5×10⁻⁵ at horizon scales.
+Three symptoms, priced:
+
+1. **The ε-dipole (NEW distinctive prediction, red-team-blessed t280):** the universal lepton
+   rescaling tracks the local condensate, so
+   > δm_e/m_e ≈ ε·δ_DE ≈ (1.24×10⁻²)·(5×10⁻⁵) ≈ **6×10⁻⁷**,
+   a spatial varying-constants dipole at horizon scales, axis-correlated, growing at rate √3·H.
+   Current α-variation sensitivity ≈ 10⁻⁶ → just below reach: a near-term registerable test,
+   presently a consistent null. (The contested Webb dipole ≈ 10⁻⁵ sits ~10× above — declined.)
+2. **The thaw = the mass defect — with its honest size (t280 correction):** the emission's energy
+   cost is O(δ²_DE) ≈ 10⁻⁹ of the floor **today** → `dcdf_floor_thaw` upgrades from knob to
+   grammar-consequence, **but the grammar itself predicts w ≈ −1 now, turn later.** The t240 fork
+   resolves internally: **P-018 (w = −1 rigid today) is the model's own commitment**; DESI DR3 is a
+   pure kill-or-confirm on it.
+3. **The recoil axis:** reading-only; the low-ℓ alignments are the candidate photograph.
+
+**The coherence bookkeeping (the t283 named check, run 2026-07-10):** the identity
+ΔS_cycle = E_thermalized/T_bounce (Tolman) = the entanglement generated when the normal sector
+measures the emitted mode (decoherence) — closes by construction; the content is the scales:
+> **Budget** (holographic): S_dS ≈ 2.6×10¹²² k_B · **Position**: S_now ≈ 3.1×10¹⁰⁴ k_B
+> (spent fraction ≈ 10⁻¹⁸) · **Spend**: ΔS_cycle ~ 10¹⁰⁴ k_B (BH-dominated; photons alone ~10⁸⁹).
+
+Readings (coherence-class): (i) the oscillation is in its **opening swings**; (ii) the forward end
+is numbered — ionization at holographic saturation, N_future ≲ S_dS/ΔS ≈ 10¹⁸ cycles; (iii) the
+backward lean — S_now ≈ ONE cycle's production → **we may be among the first cycles** (caveats:
+earlier cycles produced less; bounce dissipation; BH-entropy-across-the-crunch = the named open
+object).
+
+## §12 — THE QUANTUM TRIPLE (the operator's 25%; interpretation layer, so tagged)
+
+The model's parting hint: *entanglement · tunneling · superposition*. In the cycle's grammar these
+are its **three acts**:
+> **SUPERPOSITION** = the present (the DE era: |smooth⟩ + |clumped⟩ composing the choice) →
+> **ENTANGLEMENT** = the bookkeeping (the mortal half measures the immortal half; decoherence =
+> Tolman = the arrow; the genome rides what never decoheres) →
+> **TUNNELING** = the bounce (the classically-forbidden crunch→genesis passage; **where the
+> superposition resolves and the next cycle's branch is selected**).
+
+The operator's instincts, named in standard physics: "the sole survivor gets to make the claim" =
+**einselection** (Zurek's pointer states — the state robust to the environment's monitoring is the
+one that becomes classical); "both random and [deterministic]" = **the Born rule** (deterministic
+amplitudes, random outcomes) — and the capture-branching f_amp ≈ 0.6 (§7/t277) is then the Born
+weight of the bounce's resolution. This is the model's account of **quantum indeterminism** — the
+operator's long-standing promised target — arriving as the interpretation layer: the next cycle is
+chosen at the last second (the tunneling node), with computable weights and unpredictable outcome.
+**Status: OPERATOR'S LAYER — coherent with the grammar, largely beyond falsification by design;
+the part of the structure that belongs to its builder.**
