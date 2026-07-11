@@ -1642,3 +1642,49 @@ the CMB-S4 detectability band → **S4 sees a neutrino free-streaming/interactio
 **Scope (honest, per t300):** v_L is un-derived; an S4 null kills **Benchmark A / the low-v_L
 corner**, not the model (Benchmark B at v_L = 1 GeV is invisible). Registered as the corner's
 live falsifier; Card 6 (derive v_L) decides how much of the model rides on it.
+
+## P-2026-027: The radio deuterium arbiter — dark-ages D 327 MHz, the two-line ratio-lock (registered t324, 2026-07-11)
+
+**Context:** the deuterium "scar" re-signed as a discriminator. Production PRyM at the model's OWN
+baryon densities (the m_e–ω_b CMB degeneracy pulls ω_b up +1.1% vs the in-house ΛCDM control on
+identical data): dyad-true primordial **D/H = 2.372×10⁻⁵** vs own-ΛCDM **2.420** vs quasar-optical
+**2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of a ~2.2σ fork — a self-adverse, owned bet
+(the direct m_e→BBN response is ~0, production-verified; the shift is all η).
+
+**The prediction (three-part):**
+(a) **The arbiter:** dark-ages D I 327.384 MHz vs H I 1420.406 MHz absorption (against the CMB —
+the only backlight older than the first pulsar/quasar/BH) yields radio-primordial
+**D/H ≈ 2.37×10⁻⁵** — no astration, no quasar optics, no BBN network in the measurement.
+(b) **The twinned edge:** BOTH dark-age hyperfine lines from z > 50 are shifted **+2.50%** in
+rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in the D-line.
+(c) **The ratio-lock:** ν_H/ν_D = **4.338649 at every z, exactly preserved** (both lines ∝ m_e²)
+— the dyad-immune internal check; generic line-shifting physics breaks it, a universal m_e
+shift cannot.
+
+**Kill:** radio-primordial D/H at ~2.53, or an unlocked ratio, or improved quasar systematics
+confirming 2.53 with the astration/optical channels closed. **Grade (t324):** registered; the
+ratio-lock independently verified; the ~2.2σ D/H tension booked as a real standing cost, roughly
+cancelling the production Y_p improvement (BBN column = mixed-net-neutral).
+
+## P-2026-028: Magnetogenesis from genome vorticity (candidate; registered t330, 2026-07-11)
+
+**Context:** the radio audit's unpaid bill. ΛCDM cannot seed cosmic magnetic fields at linear
+order (no primordial vorticity — the Harrison mechanism's missing ingredient); PRTOE has
+primordial vorticity by construction (rotation + vortex network + the genome).
+
+**The prediction:** Harrison seeding from the model's own vorticity, B ≈ 2(m_p c/e)·ω_vort ≈
+**5×10⁻¹⁸ G** (comoving-class) at ω_vort ~ 0.5 H(rec) — sufficient to seed every galactic field
+via dynamo (a bill ΛCDM cannot pay). The primordial field's **magnetic helicity is signed by the
+genome** (post-def339: the quantized winding current) → parity-odd radio/gamma observables carry
+the same sign as the matter/antimatter draw.
+
+**Honest gap (flagged at registration):** the void floor (blazar TeV halos, ~10⁻¹⁶ G) sits ~1.5
+orders above the smooth-Harrison number. Candidates: vortex-line-network structure (not smooth),
+post-recombination vorticity persistence, or blazar-floor caveats (plasma-instability
+alternative). **Kill:** void fields confirmed ≥10⁻¹⁶ G with the vortex-network enhancement
+computed and falling short, or measured magnetic helicity with the WRONG sign vs the genome's.
+
+**Constraint closed en route (the Meissner bill):** any EM charge on the condensate gives the
+photon a mass (m_γ² = 2q²n/m); photon-mass limits force q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — the fluid's
+EM-neutrality is structurally mandatory (birefringence null sharpened from "consistent" to
+"forced").

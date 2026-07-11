@@ -1,0 +1,30 @@
+{
+  "output_prefix": "chains/toy_test",
+  "timestamp": "2026-07-04 09:47:06",
+  "optimizer_version": "1.1",
+  "args": {
+    "config_file": null,
+    "packages_path": null,
+    "cores": 1,
+    "method": "bobyqa",
+    "multistart": 1,
+    "mcmc_steps": 0,
+    "mcmc_chains": 4,
+    "profile": null,
+    "profile_range": null,
+    "profile_steps": 8,
+    "test_toy": true,
+    "polychord": false,
+    "run_polychord": false,
+    "cross_validate": false,
+    "ess_threshold": 100.0,
+    "rhat_threshold": 1.05,
+    "seed_polychord": false,
+    "seed_nlive": 200,
+    "seed_random_fraction": 0.3,
+    "seed_min_samples_per_mode": 20,
+    "no_emit_modes": false,
+    "start_from_run": 1
+  },
+  "git_sha": "daf23a36e9b32d9242ddecaf50dc846260ced7f1"
+}

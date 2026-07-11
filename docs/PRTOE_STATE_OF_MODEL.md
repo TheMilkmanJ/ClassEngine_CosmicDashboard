@@ -66,3 +66,25 @@ the √3 timing, the C_ref gate, and the turnaround epoch are **derived**; ε is
 P-022/023/024/025, the (D/H, Y_p) pattern, and above all **w = −1 today as the model's own derived
 commitment — DESI DR3 is the sovereign kill-or-confirm.** The headline remains honest: a competitive,
 unusually falsifiable framework — not a confirmed theory.
+
+---
+
+# ADDENDUM — 2026-07-11 (the radio night)
+
+**Standing: ~15–18%** (t334), operator-capped ~25% until PolyChord. The two headline numbers
+split: **ρ_inf is now a candidate-DERIVATION** (½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV —
+20%, zero dials, the velocity→energy bridge BCS-discharged, why-not-M₂⁴ = no-double-counting) and
+**ε restructured** from "definitively a draw" (t332) to the winding average (def339, pending
+grade): f̄ = 0.644 ± 0.03, implied c = 0.90 ± 0.04, Koide 1.1σ-compatible, net helicity = the
+quantized n=1 winding current.
+
+**Gate-0 is production-absolute** (clean PRyM: D/H response ≈ 0); Y_p flips favorable (−0.2σ);
+the dyad OWNS a D/H-widening bet (2.372 vs Cooke 2.527, 2.31σ) with the radio D-line as arbiter
+(P-027: the two-line ratio-lock, ν_H/ν_D = 4.338649). New fronts: EM-neutrality FORCED
+(Meissner, 25–45 orders); magnetogenesis P-028 (galactic paid, void 1.5-order gap, helicity
+genome-signed). omk returned: curvature-for-H0 declined by the data — the flat torus stands, the
+69.5 residual owned, P-023 confirmed.
+
+**Live deciders:** DESI DR3 (sovereign), PolyChord (the evidence confirmer + the C-code gate),
+the winding grade + 512-run, the η(winding-current) calc on Benchmark A, routeD/conv_desi
+pre-registrations.

@@ -1,0 +1,56 @@
+MULTIMODAL COSMOLOGICAL EXPLORATION COMPARISON
+==============================================
+
+Combined Multimodal Evidence ln(Z) : -5.0000
+Unphysical Exploration Health      : 1/1 starts viable (100.0%)
+
+Mode: Mode 1 (H0=67.40)
+----------------------------------------------
+Raw Data Chi2: 10.0000
+Penalized Chi2: 10.0000
+Viability Score: 100.0%
+Mode Stability (Basin Size): 100.0%
+Mode Isolation Index: -1.000
+Mode Evidence ln(Z): -5.0000 (Laplace (Hessian))
+MCMC Acceptance Rate: 0.0%
+Parameters:
+  H0                  : 6.740000e+01 +/- 5.000000e-01
+  xi_prtoe            : 1.000000e-07 +/- 1.414214e+02
+  omega_b             : 2.240000e-02 +/- 5.000000e-04
+  omega_cdm           : 1.200000e-01 +/- 3.000000e-03
+Derived & Physical Metrics:
+  H0                  : 67.400
+  V0_prtoe            : 0.6865 (PHYSICALLY VIABLE)
+  sigma8              : 0.8000
+  S8                  : 0.4382
+Likelihood Breakdown:
+  planck_2018_lowl.TT      : 10.0000
+  sn.pantheonplusshoes     : 10.0000
+
+
+================================================================================
+PROVENANCE & RUN METADATA
+================================================================================
+  Optimizer Version : 1.1 (Dual-Track Validation Edition)
+  Method            : BOBYQA
+  Multi-start Count : 1
+  MCMC Steps/Mode   : 0
+  Physical Const.   : 3 custom constraints loaded
+  Surrogate Model   : Disabled (direct CLASS evaluation only)
+
+================================================================================
+LIMITATIONS & ASSUMPTIONS
+================================================================================
+  1. Bridge-Sampling Evidence: Bridge-Sampling is an iterative estimator
+     which assumes the proposal density (a truncated Gaussian) is a good
+     approximation of the high-density posterior region. It is highly sensitive
+     to MCMC chain length, sample correlation, and proposal support.
+     CRITICAL: It is strongly recommended to cross-validate important cosmological
+     evidence results using a full nested sampler (e.g., PolyChord) via the
+     '--polychord' flag.
+  2. Local Surrogate Model: GP surrogate model accelerates evaluations by
+     interpolating the likelihood. Though guarded against unphysical regions,
+     fine structures in the likelihood or sharp constraint boundaries may be smoothed.
+  3. Physical Constraints: Model-agnostic constraints are applied via a penalty
+     function. Viability scores represent the percentage of constraints satisfied.
+================================================================================

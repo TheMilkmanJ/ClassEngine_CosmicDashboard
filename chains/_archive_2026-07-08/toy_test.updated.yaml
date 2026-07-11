@@ -1,0 +1,26 @@
+output: chains/toy_test
+params:
+  H0:
+    prior:
+      max: 85.0
+      min: 55.0
+    proposal: 0.5
+    ref: 67.4
+  omega_b:
+    prior:
+      max: 0.026
+      min: 0.018
+    proposal: 0.0005
+    ref: 0.0224
+  omega_cdm:
+    prior:
+      max: 0.2
+      min: 0.08
+    proposal: 0.003
+    ref: 0.12
+  xi_prtoe:
+    prior:
+      max: 0.0001
+      min: 1.0e-07
+    proposal: 1.0e-07
+    ref: 1.0e-06

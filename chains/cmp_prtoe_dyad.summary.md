@@ -1,17 +1,17 @@
 # Run Summary for chains/cmp_prtoe_dyad
 
-Timestamp: 2026-07-09 06:41:46
+Timestamp: 2026-07-09 19:58:50
 
-Combined ln(Z): -1471.9313
+Combined ln(Z): -1472.7536
 
 Number of modes: 1
 
 
-## Mode 1 (H0=69.82)
+## Mode 1 (H0=69.68)
 
-* ln(Z) = -1471.9313 (Laplace (Hessian))
+* ln(Z) = -1472.7536 (Laplace (Hessian))
 
-* Penalized Chi2 = 2799.6541
+* Penalized Chi2 = 2798.6227
 
 * Viability = 100.0% | Stability = 100.0% | Isolation = -1.000
 

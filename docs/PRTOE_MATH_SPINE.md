@@ -319,3 +319,110 @@ phenomenology owed.
 *Ledger note (t296/t298): standing ≈ 14–17%; the banked structural results (DM+DE reduction,
 C_ref hinge, √3, reading B, gate-0 clearance) are unaffected by the ε-softening; the live movers
 are the 512-run, the omk minimum, the chains, and DESI DR3 above all.*
+
+## §17 — THE RADIO NIGHT (2026-07-11): the production BBN verdict, the trace grammar completed, the radio audit's two bills
+
+**The production BBN verdict (clean PRyM, m_e set before import — def325/329):**
+- ∂ln(D/H)/∂ln m_e ≈ 0.000 (the network's competing terms cancel) → the full 1.24% dyad moves
+  D/H by +0.0004%: **gate-0 safety is ABSOLUTE at production grade.** The D/H "pharmacy"
+  (def253/255's hand-rolled sign chain) is DEAD — retired by the real network.
+- ∂ln Y_p/∂ln m_e ≈ −0.72 → the dyad LOWERS Y_p: 0.24689 (+0.5σ vs Aver) → 0.24468 (−0.2σ).
+  **Y_p is the true medicine (+0.65σ); the fingerprint lattice's one counter-lean FLIPS favorable.**
+- The η route (the scar was never set by BBN): the dyad's CMB fit pulls ω_b UP +1.1% vs its own
+  ΛCDM control (0.022757 vs 0.022517, same data — the m_e–ω_b degeneracy). D/H ∝ η^(−1.6):
+  **own-ΛCDM D/H = 2.420e-5 (1.59σ below Cooke 2.527±0.030); dyad = 2.372e-5 (2.31σ).**
+  The dyad OWNS the widening as a signed discriminator (P-2026-027): dyad 2.372 / ΛCDM 2.420 /
+  quasar-optical 2.527 — the radio deuterium arbiter decides.
+- **The radio deuterium arbiter (P-027):** D I hyperfine at 327.384 MHz (91.6 cm) — deuterium's
+  own 21cm. Dark-ages D/H absorption against the CMB (the only backlight older than the first
+  pulsar/quasar/BH): no astration, no quasar optics, no BBN network in the measurement. The dyad
+  signs the instrument: both dark-age lines (z>50) shift **+2.50%** ((1+ε)², hyperfine ∝ m_e²)
+  while the ratio **ν_H/ν_D = 4.338649 is EXACTLY preserved at every z** — the two-line
+  ratio-lock (universal-m_e-only signature). Kill: radio primordial D/H at 2.53, or an unlocked
+  ratio. EDGES addendum: if the EDGES over-depth is a real synchrotron background, the D line at
+  18.2 MHz sees it amplified ×45 (spectral leverage (78.9/18.2)^2.6) → ~×46 over-deep: the
+  D-line is the three-way EDGES discriminator (systematics / early compact objects / relic —
+  relic already declined by the crunch null).
+
+**The plasma trace (the fifth threshold — def331/t328 banked):** a photon in plasma is massive
+(ω² = ω_p² + k²c², m_γ = ħω_p) and hence NOT traceless: trace fraction (ω_p/ω)². Radio near ω_p
+is the ONE part of the EM bath the trace-bus can see — light itself two-fluids in frequency
+space. The one threshold now sorts FIVE sectors: Landau (coherent/dissipative), Landauer
+(fee-exempt/fee-paying), trace-bus (trace/traceless), the vacuum cap (sub/super-gap), and light
+(sub/super-ω_p). The crunch's mouth: as density rises, ν_p sweeps up through the radio bands
+(~900 MHz at n_e ~ 1e10 cm⁻³) — each band is massed, then thermalized: the before-genesis null's
+mechanism. (The 1/m trace-ownership — electrons 99.95%, protons 0.054% — is banked
+SUGGESTIVE-ONLY for leptophilia: in-medium dressing ≠ vacuum rest-mass; Card 7's candidate stays
+the vector-like portal.)
+
+**The radio audit's two bills (def333/t330):**
+- **Meissner (paid on the spot):** any EM charge on the condensate Higgs-es the photon:
+  m_γ² = 2q²n/m. Halo density + photon-mass limits force **q_EM < 4.7×10⁻³⁸ … 4.7×10⁻⁴⁷** —
+  EM-neutrality is FORCED by 25–45 orders, not chosen (the birefringence null upgraded to
+  structurally mandatory).
+- **Magnetogenesis (P-2026-028, opened):** ΛCDM cannot seed cosmic B at linear order (no
+  primordial vorticity); PRTOE is a rotation machine. Harrison: B ≈ 2(m_p c/e)·ω_vort →
+  **~5×10⁻¹⁸ G at ω_vort = 0.5 H(rec)** — pays the GALACTIC bill (dynamo amplifies).
+  Honest gap: the void floor (blazar ~1e-16 G) sits ~1.5 orders above smooth-Harrison
+  (candidates: vortex-network structure, persistence, blazar caveats). The field's magnetic
+  HELICITY is signed by the genome.
+
+**The omk return (def333):** minimum at H0 = 68.99, Ω_k = −0.0046, m_ncdm = 0.071 eV — the data
+DECLINE curvature-as-H0-escape (pre-registered pull to 71–73 did NOT appear; booked half-wrong
+against ourselves). The trilemma resolves to (c): the flat torus stands, the ~69.5 residual is
+owned. P-023's nonzero-Σm_ν preference holds with curvature freed.
+
+## §18 — THE LOCALIZATION CLAUSE COMPUTED (def337/t334): the DE-floor VALUE from zero dials
+
+**The bridge (t320's owed item, discharged):** the Landau criterion's mode-decay form: a
+collective mode Landau-decays into the pair continuum at ω ≥ 2Δ, and for a bound pair
+**E_b = 2Δ** (the energy to break one pair) — the pair-breaking threshold IS E_b, exactly
+(BCS: the amplitude mode sits at 2Δ; sub-gap phonons protected).
+
+**Why not M₂⁴ (no double counting):** above E_b the excitations are BROKEN PAIRS = the
+two-granule continuum = the MATTER sector, already counted in the a₀-packing/DM branch (§15's
+fork repair). The vacuum budget integrates ONLY the genuinely-collective sub-gap sector; the
+cutoff is where the field stops existing as an independent degree of freedom. **Scope (t334,
+cold):** this derives the MODEL's collective-field floor at E_b⁴-scale — it does NOT solve the
+CC problem writ large (SM vacuum energy untouched; sequester dead t230).
+
+**The budget (honest prefactor):**
+    ρ_vac = ∫ d³k/(2π)³ · ½ω,  ω = c_s k,  up to ω_max = E_b
+          = E_b⁴ / (16π² c_s³)
+with the BEC relation c_s = √(gn/m), gn ≈ α_c m → **c_s = √α_c = 0.146** (a relation, not a dial):
+    ρ_inf^¼ = ½α_c²M₂ / (16π² α_c^{3/2})^{1/4} = **2.695 meV vs banked 2.25 meV — 20% off,
+    ZERO free dials** (α_c = 0.0214 and M₂ = 9.87 eV both banked upstream).
+The old "0.4% match" (ρ = E_b⁴ with no prefactor) is RETIRED as prefactor-naive. The 20% is the
+new honest O(1) (refinement candidates: the gn ≈ α_c m identification, dispersion curvature near
+the gap, c_s running). **Standing moved 14–17% → 15–18% on this turn (t334): of the two headline
+numbers, ε is a draw and ρ_inf is a derivation.**
+
+## §19 — THE FIRST DRAW (def335/def339): the dice, the cycle map, the winding sector
+
+**The one-draw result (t332):** composing the first-roll-at-rest theorem with the
+self-generating Z4 tilt: ω_genome is the first roll's OWN OUTPUT, and the universe is one draw
+of one angle θ_i. Computed: f_amp(θ_i) is CHAOTIC-BROAD ([0.034, 0.964]) — the banked
+release-angle chaos made quantitative. t332 verdict: ε is a draw; the derive-ε ladder
+superseded. Koide 11/18 reachable WITHOUT inherited spin (20/64 of the domain below it) but not
+pinned (multiplicity) → the last stand = a joint over-constrained check (Koide + η + B-helicity
+on one θ_i).
+
+**The winding sector (def339, APPEAL FILED — pending grade):** the model's stone: find the FIRST
+draw's starting conditions. Proposed: the first genesis lives in a topologically twisted sector
+of the torus (n ≠ 0 winding; n = 0 has no genome — nothing conserved to inherit; minimal
+nontrivial n = 1). Winding forces the phase to sweep ALL angles across space at EXACTLY uniform
+measure; gradient energy (2π/L)²R² is negligible at horizon-scale L → patches roll
+independently → **the observable f_amp is the WINDING AVERAGE — a determined number, not a
+draw**:
+    f̄ = 0.6438 ± 0.0305 (64-pt; 512-pt precision pass grinding)
+    → implied c = 0.581/f̄ = 0.90 ± 0.04;  Koide 11/18 = 0.6111 sits 1.1σ away (compatible).
+**The helicity separates:** the roll-averaged net helicity VANISHES over the winding (Z4
+antisymmetry; measured ⟨L⟩ ≈ −0.006) → the universe's net helicity is the WINDING CURRENT
+itself: topological, QUANTIZED (n = 1), v = 2π/(mL) — ω_genome is a derived discrete object,
+feeding the η route (Benchmark A needs sin φ × κ ≈ 4×10⁻⁷, i.e. φ ≈ 4×10⁻⁵ after Hubble
+damping) and the B-helicity sign (P-028).
+
+*Ledger note (2026-07-11): standing ≈ 15–18%, operator-capped at ~25% until PolyChord
+confirms/denies the Laplace ΔlnZ = +2.635. Gate-0: production-absolute. The C-code gate now
+reads "PolyChord favorable + gate-0 bank." Live movers: the winding 512-run, the cycle map, the
+chains (routeD/conv_desi), the η(winding-current) calc, and DESI DR3 above all.*

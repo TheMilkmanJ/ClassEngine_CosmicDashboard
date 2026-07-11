@@ -97,3 +97,21 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 - **J4 (m_e real) — new instruments**: P-022 (21cm), P-024 (the ε-dipole), the radio ratio-lock.
 - **J5–J7 — became the card deck** (spine §14): the portal embodied (vector-like candidate),
   the abundance routed (genome→CP→η), v_L benchmarked.
+
+## JOINTS UPDATE 2 (2026-07-11, the radio night)
+
+- **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS (def337/t334):** ρ_inf^¼ =
+  ½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV. Bohr binding × Landau-capped collective
+  zero-point (pair-breaking = E_b = 2Δ) × BEC phonon speed (c_s = √α_c). The 0.4% "match"
+  retired as prefactor-naive; scope held cold: the MODEL's floor value, not the CC problem writ
+  large. J1 is no longer RED — it is a candidate-derivation with a 20% honest O(1).
+- **J2 (gate-0) — PRODUCTION-ABSOLUTE:** clean PRyM: ∂ln(D/H)/∂ln m_e ≈ 0. The D/H pharmacy
+  died with it; Y_p is the true medicine (+0.65σ); the dyad owns a D/H-widening discriminator
+  (2.372 vs Cooke 2.527, 2.31σ) with the radio D-line (P-027) as arbiter.
+- **J4 gains the sharpest instrument:** the two-line ratio-lock (ν_H/ν_D = 4.338649 preserved,
+  both lines +2.50% at z>50).
+- **NEW STANDING RISK:** the D/H fork (the model bets 2.372 against the quasar 2.527).
+- **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved draw→winding-average
+  (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
+- **C-code gate RESET (operator):** >85% deleted; PolyChord is the gate (standing capped ~25%
+  until it runs).

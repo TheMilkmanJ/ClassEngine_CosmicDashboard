@@ -1,0 +1,400 @@
+theory:
+  classy:
+    path: /home/themilkmanj/prtoe_class
+    speed: 0.2
+    stop_at_error: false
+    extra_args:
+      use_prtoe: 'yes'
+      non_linear: halofit
+      output: mPk,tCl,pCl,lCl
+      modes: s
+      N_ur: 2.0328
+      N_ncdm: 1
+      T_ncdm: 0.71611
+      l_max_scalars: 2508
+      lensing: 'yes'
+      z_pk: 0.61 0.51 0.38
+      z_max_pk: 2.5
+      P_k_max_1/Mpc: 1
+      g3_prtoe: 1.0
+      prtoe_enforce_wedge: 'no'
+    ignore_obsolete: false
+    use_renames: false
+    renames:
+      As: A_s
+      ns: n_s
+      nrun: alpha_s
+      nrunrun: beta_s
+      nt: n_t
+      ntrun: alpha_t
+      rdrag: rs_drag
+      omegak: Omega_k
+      omegal: Omega_Lambda
+      w: w0_fld
+      wa: wa_fld
+      omegabh2: omega_b
+      omegab: Omega_b
+      omegach2: omega_cdm
+      omegac: Omega_cdm
+      omegam: Omega_m
+      omegan: Omega_nu
+      tau: tau_reio
+      zrei: z_reio
+      deltazrei: reionization_width
+      helium_redshift: helium_fullreio_redshift
+      helium_delta_redshift: helium_fullreio_width
+      yhe: YHe
+      yheused: YHe
+    version: v3.3.4
+    input_params:
+    - omega_b
+    - omega_cdm
+    - H0
+    - A_s
+    - n_s
+    - z_reio
+    - xi_prtoe
+    - zeta_prtoe
+    - lambda_prtoe
+    - m_prtoe
+    - m_ncdm
+    - beta_prtoe
+    - M_prtoe
+    - alpha_prtoe
+    - M_ew_prtoe
+    - H_vac_floor
+    - delta_prtoe
+    - phi_0_prtoe
+    output_params:
+    - sigma8
+    - Omega_m
+likelihood:
+  planck_2018_lowl.TT:
+    lmin: 2
+    lmax: 29
+    type: CMB
+    aliases:
+    - lowT
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_lowl.EE:
+    type: CMB
+    aliases:
+    - lowE
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_highl_plik.TTTEEE_lite:
+    path: null
+    clik_file: baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik
+    product_id: '151902'
+    aliases:
+    - plikHM_TTTEEE
+    speed: 500
+    type: CMB
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_lensing.clik:
+    path: null
+    clik_file: baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing
+    product_id: '151902'
+    aliases:
+    - lensing
+    speed: 600
+    type: CMB
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  bao.sixdf_2011_bao:
+    path: null
+    rs_rescale: 1.027369826
+    data:
+    - 0.106
+    - 0.336
+    - 0.015
+    - rs_over_DV
+    aliases:
+    - BAO
+    speed: 5000
+    type: BAO
+    measurements_file: null
+    rs_fid: null
+    prob_dist: null
+    cov_file: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+  bao.sdss_dr7_mgs:
+    path: null
+    prob_dist: bao_data/sdss_MGS_prob.txt
+    prob_dist_bounds:
+    - 0.8005
+    - 1.1985
+    rs_rescale: 4.29720761315
+    data:
+    - 0.15
+    - 4.465666824
+    - 0.1681350461
+    - DV_over_rs
+    aliases:
+    - BAO
+    speed: 5000
+    type: BAO
+    measurements_file: null
+    rs_fid: null
+    cov_file: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+  bao.sdss_dr12_consensus_final:
+    path: null
+    measurements_file: bao_data/sdss_DR12Consensus_final.dat
+    cov_file: bao_data/final_consensus_covtot_dM_Hz_fsig.txt
+    rs_fid: 147.78
+    aliases:
+    - BAO
+    speed: 2000
+    type: BAO
+    rs_rescale: null
+    prob_dist: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+  bao.desi_2024_bao_all:
+    measurements_file: bao_data/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt
+    cov_file: bao_data/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt
+    rs_fid: 1
+    aliases:
+    - BAO
+    speed: 2000
+    type: BAO
+    rs_rescale: null
+    prob_dist: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+  sn.pantheonplusshoes:
+    path: null
+    dataset_file: PantheonPlus/config.dataset
+    dataset_params: null
+    aliases:
+    - PantheonPlusSHOES
+    use_abs_mag: false
+    speed: 100
+    type: SN
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+params:
+  omega_b:
+    prior:
+      min: 0.019
+      max: 0.026
+    ref: 0.0224
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+    renames:
+    - omegabh2
+  omega_cdm:
+    prior:
+      min: 0.1
+      max: 0.2
+    ref: 0.12
+    proposal: 0.001
+    latex: \Omega_\mathrm{c} h^2
+    renames:
+    - omegach2
+  H0:
+    prior:
+      min: 55.0
+      max: 85.0
+    ref: 67.4
+    proposal: 0.5
+    latex: H_0
+  logA:
+    prior:
+      min: 1.61
+      max: 3.91
+    ref: 3.05
+    proposal: 0.001
+    latex: \ln(10^{10} A_\mathrm{s})
+    drop: true
+  A_s:
+    value: 'lambda logA: 1e-10 * np.exp(logA)'
+    derived: true
+    renames:
+    - As
+  n_s:
+    prior:
+      min: 0.8
+      max: 1.2
+    ref: 0.965
+    proposal: 0.005
+    latex: n_\mathrm{s}
+    renames:
+    - ns
+  z_reio:
+    prior:
+      min: 5.0
+      max: 12.0
+    ref: 8.0
+    proposal: 0.1
+    latex: z_\mathrm{reio}
+    renames:
+    - zrei
+  A_planck:
+    prior:
+      dist: norm
+      loc: 1.0
+      scale: 0.0025
+    ref: 1.0
+    proposal: 0.00025
+    latex: A_\mathrm{planck}
+    renames: calPlanck
+  log_xi_prtoe:
+    prior:
+      min: -5.0
+      max: 0.0
+    ref: -2.0
+    proposal: 0.15
+    latex: \log_{10}\xi_\mathrm{prtoe}
+    drop: true
+  xi_prtoe:
+    value: 'lambda log_xi_prtoe: 10**log_xi_prtoe'
+    derived: false
+    latex: \xi_\mathrm{prtoe}
+  zeta_prtoe:
+    prior:
+      min: 0.0001
+      max: 5.0
+    ref: 0.1
+    proposal: 0.05
+    latex: \zeta_\mathrm{prtoe}
+  lambda_prtoe:
+    value: 0.05
+    latex: \lambda_\mathrm{prtoe}
+  m_prtoe:
+    value: 0.05
+    latex: m_\mathrm{prtoe}
+  m_ncdm:
+    value: 0.06
+    latex: \sum m_\nu \ [\mathrm{eV}]
+  beta_prtoe:
+    value: 1.0e-06
+    latex: \beta_\mathrm{prtoe}
+  M_prtoe:
+    value: 100.0
+    latex: M_\mathrm{prtoe}
+  alpha_prtoe:
+    value: 0.1
+    latex: \alpha_\mathrm{prtoe}
+  M_ew_prtoe:
+    value: 100.0
+    latex: M_{\mathrm{ew},\mathrm{prtoe}}
+  H_vac_floor:
+    value: 64.1218
+    latex: H_{\mathrm{vac,floor}}
+  delta_prtoe:
+    value: 0.0
+    latex: \Delta_\mathrm{prtoe}
+  phi_0_prtoe:
+    value: 1.0
+    latex: \phi_{0,\mathrm{prtoe}}
+  sigma8:
+    latex: \sigma_8
+    derived: true
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+    derived: true
+    renames:
+    - omegam
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
+  chi2__BAO:
+    latex: \chi^2_\mathrm{BAO}
+    derived: true
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+    derived: true
+  chi2__SN:
+    latex: \chi^2_\mathrm{SN}
+    derived: true
+sampler:
+  polychord:
+    path: null
+    nlive: 500
+    num_repeats: 30
+    nprior: 10nlive
+    nfail: nlive
+    do_clustering: true
+    precision_criterion: 0.001
+    max_ndead: 5000
+    compression_factor: 0.36787944117144233
+    callback_function: null
+    logzero: -1.0e+30
+    boost_posterior: 0
+    feedback: 1
+    synchronous: false
+    nlives: {}
+    maximise: false
+    measure_speeds: true
+    oversample_power: 0.4
+    blocking: null
+    confidence_for_unbounded: 0.9999995
+    seed: 42
+    posteriors: true
+    equals: true
+    cluster_posteriors: true
+    write_resume: true
+    read_resume: true
+    write_stats: true
+    write_live: true
+    write_dead: true
+    write_prior: true
+    version: null
+output: prtoe_v2
+packages_path: /home/themilkmanj/cobaya_packages_clean
+test: true
+version: 3.5.7

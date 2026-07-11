@@ -1,0 +1,191 @@
+# lcdm_full_cosmo.yaml
+# Maximum-load ΛCDM baseline for fair PRTOE evidence comparison.
+#
+# Dataset coverage (standard Cobaya likelihood names):
+#   CMB: Planck 2018 TT/TE/EE + lensing
+#   BAO: 6dFGS, SDSS MGS, BOSS DR12, eBOSS LRG/QSO, DESI 2024 ALL
+#   Lyα: DESI+eBOSS Lyα forest (combined Gaussian)
+#   SN:  Pantheon+SH0ES (local H0), Union3
+#   LSS: DES Y1 clustering + shear (DES Y3 requires CosmoLike compile — see prtoe_full_cosmo.yaml)
+#
+# NOT in standard Cobaya (dashboard references only):
+#   KiDS lensing, Planck cluster counts, DESI Y5 / CMB-S4 forecasts, ACT/SPT/WMAP
+#
+# Pair with: chains/prtoe_full_cosmo.yaml (identical likelihoods; only use_prtoe differs)
+
+output: chains/lcdm_full_cosmo
+packages_path: /home/themilkmanj/cobaya_packages_clean
+debug: false
+
+theory:
+  classy:
+    path: /home/themilkmanj/prtoe_class
+    stop_at_error: false
+    extra_args:
+      use_prtoe: 'no'
+      non_linear: halofit
+      output: 'mPk,tCl,pCl,lCl'
+      modes: s
+      gauge: newtonian
+      N_ur: 2.0328
+      N_ncdm: 1
+      T_ncdm: 0.71611
+      base_path: /home/themilkmanj/prtoe_class
+      l_max_scalars: 2508
+      lensing: 'yes'
+      z_pk: '0.61 0.51 0.38'
+      P_k_max_1/Mpc: 1.0
+      k_per_decade_for_pk: 100
+      hyper_flat_approximation_nu: 7000.0
+      transfer_neglect_delta_k_S_t0: 0.17
+      transfer_neglect_delta_k_S_t1: 0.05
+      transfer_neglect_delta_k_S_t2: 0.17
+      transfer_neglect_delta_k_S_e: 0.13
+      delta_l_max: 1000
+
+likelihood:
+  # --- CMB (Planck 2018) ---
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lensing.clik: null
+
+  # --- BAO (expansion history) ---
+  bao.sixdf_2011_bao: null          # 6dFGS
+  bao.sdss_dr7_mgs: null            # SDSS MGS
+  bao.sdss_dr12_consensus_final: null  # BOSS DR12 composite
+  bao.sdss_dr16_baoplus_lrg: null   # eBOSS LRG
+  bao.sdss_dr16_baoplus_qso: null   # eBOSS QSO
+  bao.desi_2024_bao_all: null       # DESI 2024 all GC tracers
+
+  # --- Lyα forest ---
+  bao.desi_2024_eboss_bao_lya: null # DESI+eBOSS Lyα (combined; avoids double-count with auto/cross)
+
+  # --- Supernovae (+ SH0ES via Pantheon+ calibration) ---
+  sn.pantheonplusshoes: null
+  sn.union3: null
+
+  # --- DES Y3 (requires: ./scripts/install_des_y3.sh before cobaya-run) ---
+  des_y3.cosmic_shear:
+    path: /home/themilkmanj/cobaya_packages_clean/des_y3/data
+    data_file: des_y3_real.dataset
+  des_y3.combo_xi_gg:
+    path: /home/themilkmanj/cobaya_packages_clean/des_y3/data
+    data_file: des_y3_real.dataset
+
+  # --- DES Y1 fallback (comment out when DES Y3 is installed) ---
+  # des_y1.clustering: null
+  # des_y1.shear: null
+
+params:
+  omega_b:
+    prior:
+      min: 0.019
+      max: 0.026
+    ref: 0.0224
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+
+  omega_cdm:
+    prior:
+      min: 0.1
+      max: 0.2
+    ref: 0.12
+    proposal: 0.001
+    latex: \Omega_\mathrm{c} h^2
+
+  H0:
+    prior:
+      min: 55.0
+      max: 85.0
+    ref: 67.4
+    proposal: 0.5
+    latex: H_0
+
+  logA:
+    prior:
+      min: 1.61
+      max: 3.91
+    ref: 3.05
+    proposal: 0.005
+    latex: \ln(10^{10} A_\mathrm{s})
+    drop: true
+
+  A_s:
+    value: 'lambda logA: 1e-10 * np.exp(logA)'
+    latex: A_\mathrm{s}
+
+  n_s:
+    prior:
+      min: 0.8
+      max: 1.2
+    ref: 0.965
+    proposal: 0.004
+    latex: n_\mathrm{s}
+
+  z_reio:
+    prior:
+      min: 5.0
+      max: 12.0
+    ref: 8.0
+    proposal: 0.1
+    latex: z_\mathrm{reio}
+
+  m_ncdm:
+    value: 0.06
+    latex: \sum m_\nu \ [\mathrm{eV}]
+
+  A_planck:
+    prior:
+      dist: norm
+      loc: 1.0
+      scale: 0.0025
+    ref: 1.0
+    proposal: 0.0002
+    latex: A_\mathrm{planck}
+    renames: calPlanck
+
+  sigma8:
+    latex: \sigma_8
+
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
+
+  chi2__BAO:
+    latex: \chi^2_\mathrm{BAO}
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+  chi2__SN:
+    latex: \chi^2_\mathrm{SN}
+  chi2__DES:
+    latex: \chi^2_\mathrm{DES}
+
+sampler:
+  polychord:
+    nlive: 500
+    num_repeats: 30
+    do_clustering: true
+    precision_criterion: 0.01
+    fast_fraction: 0.0
+    boost_posterior: 0.0
+    compression_factor: 0.36787944117144233
+    feedback: 1
+    synchronous: true
+    oversample_power: 0.4
+    blocking:
+      - [1, [omega_b, omega_cdm, H0, logA, n_s, z_reio]]
+      - [30, [A_planck]]
+    write_resume: true
+    read_resume: false
+    write_stats: true
+    write_live: true
+    write_dead: true
+    write_prior: true
+    posteriors: true
+    equals: true
+    cluster_posteriors: true
+    seed: 42

@@ -1,0 +1,83 @@
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_prtoe_lepton'
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.sixdf_2011_bao] Initialized.
+[bao.sdss_dr12_consensus_final] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[minimize] Initializing
+[minimize] Run 1/2 will start from random initial point:
+[minimize] {'omega_b': np.float64(0.02333133671059315), 'H0': np.float64(69.87480016847326), 'logA': np.float64(3.064123717955472), 'n_s': np.float64(0.9685770832765039), 'z_reio': np.float64(8.392229905599354), 'dcdf_rho_inf': np.float64(0.6761408169754676), 'A_planck': np.float64(0.9994069891953238), 'A_act': np.float64(1.0048237398009692), 'P_act': np.float64(1.008240194202871), 'Tcal': np.float64(0.9949344132736038), 'Ecal': np.float64(1.005480130767674), 'm_ncdm': np.float64(0.06051837732362066)}
+[minimize] Run 2/2 will start from random initial point:
+[minimize] {'omega_b': np.float64(0.02233289369329165), 'H0': np.float64(70.01378567221565), 'logA': np.float64(3.067575389266386), 'n_s': np.float64(0.9665322667977496), 'z_reio': np.float64(8.23746333172044), 'dcdf_rho_inf': np.float64(0.723376222808241), 'A_planck': np.float64(1.000579055739017), 'A_act': np.float64(1.0017746519465194), 'P_act': np.float64(1.004276960688378), 'Tcal': np.float64(0.9992768560564914), 'Ecal': np.float64(1.0132838009033127), 'm_ncdm': np.float64(0.08069450324733474)}
+[prior] *WARNING* There are unbounded parameters (['Tcal', 'Ecal', 'A_planck', 'A_act']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Starting run 1/2
+[minimize] Run 1/2 converged.
+[minimize] Starting run 2/2
+[minimize] Run 2/2 converged.
+[minimize] Finished successfully!
+[minimize] *WARNING* Big spread in minima: [1379.7911263188576, 1381.306487843264]
+[minimize] -log(posterior) minimized to 1379.79
+[minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b        H0     logA      n_s    z_reio  dcdf_rho_inf  A_planck     A_act     P_act      Tcal      Ecal  m_ncdm           A_s  Omega0_dcdf    sigma8   Omega_m        S8  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__bbn        chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite  chi2__planck_2018_lensing.clik  chi2__bao.sixdf_2011_bao  chi2__bao.sdss_dr7_mgs  chi2__bao.sdss_dr12_consensus_final  chi2__sn.pantheonplusshoes  chi2__act_dr6  chi2__spt3g_lite
+0     1.0   1379.791126  0.022749  69.95516  3.05295  0.97191  7.737141       0.70316  1.002451  1.004011  1.001709  0.995412  1.005461  0.0515  2.117773e-09     0.953515  0.832154  0.296766  0.827657   9.581488  1016.345791  1471.268589     -21.613319         -23.43717            1.823852  2802.80889                  22.470007                 396.061959                                588.244132                        9.569693                  0.043924                2.403737                             7.133827                 1471.268589     162.501373        143.111649
+[minimize] Full set of minima:
+{'0': (1379.7911263188576, True), '1': (1381.306487843264, True)}

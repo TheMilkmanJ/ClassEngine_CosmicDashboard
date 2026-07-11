@@ -1,17 +1,17 @@
 # Run Summary for chains/cmp_prtoe_w13
 
-Timestamp: 2026-07-09 07:19:02
+Timestamp: 2026-07-09 20:21:19
 
-Combined ln(Z): -1400.6309
+Combined ln(Z): -1400.9703
 
 Number of modes: 1
 
 
-## Mode 1 (H0=69.73)
+## Mode 1 (H0=69.61)
 
-* ln(Z) = -1400.6309 (Laplace (Hessian))
+* ln(Z) = -1400.9703 (Laplace (Hessian))
 
-* Penalized Chi2 = 2801.2618
+* Penalized Chi2 = 2801.9406
 
 * Viability = 100.0% | Stability = 100.0% | Isolation = -1.000
 

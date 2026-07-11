@@ -1,0 +1,47 @@
+theta* target: 1.04215
+alpha=1.0: relocked H0 = 69.638
+    [evaluate]    chi2_act_dr6 = inf
+    [evaluate]    chi2_bao.sdss_dr12_consensus_final = inf
+    [evaluate]    chi2_bao.sdss_dr7_mgs = inf
+    [evaluate]    chi2_bao.sixdf_2011_bao = inf
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = inf
+    [evaluate]    chi2_planck_2018_lensing.clik = inf
+    [evaluate]    chi2_planck_2018_lowl.EE = inf
+    [evaluate]    chi2_planck_2018_lowl.TT = inf
+    [evaluate]    chi2_sn.pantheonplusshoes = inf
+    [evaluate]    chi2_spt3g_lite = inf
+    [evaluate]    chi2__BAO = nan
+    [evaluate]    chi2__CMB = nan
+    [evaluate]    chi2__SN = nan
+   [alpha=1.0 eval done]
+alpha=1.005: relocked H0 = 70.654
+    [evaluate]    chi2_act_dr6 = inf
+    [evaluate]    chi2_bao.sdss_dr12_consensus_final = inf
+    [evaluate]    chi2_bao.sdss_dr7_mgs = inf
+    [evaluate]    chi2_bao.sixdf_2011_bao = inf
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = inf
+    [evaluate]    chi2_planck_2018_lensing.clik = inf
+    [evaluate]    chi2_planck_2018_lowl.EE = inf
+    [evaluate]    chi2_planck_2018_lowl.TT = inf
+    [evaluate]    chi2_sn.pantheonplusshoes = inf
+    [evaluate]    chi2_spt3g_lite = inf
+    [evaluate]    chi2__BAO = nan
+    [evaluate]    chi2__CMB = nan
+    [evaluate]    chi2__SN = nan
+   [alpha=1.005 eval done]
+alpha=1.01: relocked H0 = 71.686
+    [evaluate]    chi2_act_dr6 = inf
+    [evaluate]    chi2_bao.sdss_dr12_consensus_final = inf
+    [evaluate]    chi2_bao.sdss_dr7_mgs = inf
+    [evaluate]    chi2_bao.sixdf_2011_bao = inf
+    [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = inf
+    [evaluate]    chi2_planck_2018_lensing.clik = inf
+    [evaluate]    chi2_planck_2018_lowl.EE = inf
+    [evaluate]    chi2_planck_2018_lowl.TT = inf
+    [evaluate]    chi2_sn.pantheonplusshoes = inf
+    [evaluate]    chi2_spt3g_lite = inf
+    [evaluate]    chi2__BAO = nan
+    [evaluate]    chi2__CMB = nan
+    [evaluate]    chi2__SN = nan
+   [alpha=1.01 eval done]
+scan complete
