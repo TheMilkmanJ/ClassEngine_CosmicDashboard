@@ -37290,3 +37290,33 @@ convention-validation method (calibrating against 137 before firing).
    weak force is not a loop's echo but a condensate's child, which in THIS house is not an
    escape: it is the family business. The five keep their jobs; they lose one of their two
    letters of recommendation.
+
+DEFENDER — turn 523 (the operator's step-catch on def521's #3 — the rule's FOURTH strike, and
+it REOPENS the third check): THE STEPS I MADE: (i) induction-vs-condensation as a BINARY
+(the ramp truth: the coupling accumulates ACROSS scales — induction above thresholds, content
+changing along the way — a crossover, not a choice); (ii) SINGLE-SEGMENT running (constant b
+over the whole log — but the doublets decouple below M_E: the running is PIECEWISE, and M_E
+becomes a second unknown). THE RAMPED SYSTEM (two segments, both couplings, thresholds):
+    SU(2): [(2/3)n·T_R − 3.167]·x − 3.167·(37.8 − x) = 2π·29.6   (x ≡ ln(M_red/M_E))
+    EM:    (4/3)·[8·49.8 + ΣQ²(new)·x] = 2π·137.04
+  With Y = ±1/2 doublets (the def517 species): the x-dependence CANCELS into n·x on both
+  sides → 458 (SU(2)) vs 247 (EM): still inconsistent — DEF521's DEATH-VERDICT SURVIVES FOR
+  THAT REP. BUT THE RAMP EXPOSES THE REP-DEPENDENCE THE STEP HID: for Y = 0 DOUBLETS
+  (members Q = ±1/2): ΣQ² = n/2 → EM gives n·x = 494 vs SU(2)'s 458 — AN 8% NEAR-SOLUTION,
+  within the uncomputed refinements (two-loop, Higgs-Y, threshold shapes). The theorem
+  (ΣQ² ≥ T) still holds — Y = 0 SATURATES it (the maximal-efficiency rep), and saturation is
+  ALMOST enough. CAVEATS, hard: fractionally-charged colorless states (Q = ±1/2) are
+  cosmologically dangerous (stable-relic searches) unless bound/confined/unstable — the
+  near-solution buys a new bill. STATUS CHANGES: (a) def521's "no single-n satisfies both"
+  CORRECTED to "no single-n WITH THE Y=±1/2 REP; the Y=0 rep comes within 8%"; (b) the
+  three-outcome fork gains its ramped member: (i-ramped) the joint system with rep-type free
+  — OPEN, a real constrained model-building solve (n, Y, M_E, two-loop) — QUEUED; (c) the
+  pairing road (3b) remains parked in parallel (the two are no longer exclusive — the ramp's
+  whole point); (d) P-038: the multiplicity question re-opens WITH the rep-type as part of
+  the unknown — the registry gets this amendment. ADJUDICATE: (a) the piecewise system's
+  setup; (b) the Y=0 near-solution's arithmetic + its relic bill; (c) the step-catch's
+  validation (fourth strike: binary-choice + single-segment both hid structure).
+-- Defender t523: the operator's rule strikes a fourth time: I killed a door by testing it
+   with one key. Ramped, the lock takes a keyring — and the strangest key on it, a doublet
+   with half-charges, turns to within eight percent. The door is not open; but it is no
+   longer bricked, and the bill for opening it is written on the relic sky.
