@@ -1046,3 +1046,25 @@ exponential gap = the hierarchy), the meV vacuum is BEC-side (one-per-cell = the
 Each side of condensed matter's most famous crossover doing the job its side is famous
 for, in one vacuum. The gap equation (task #18) inherits a new demand: its solution must
 CONTAIN the crossover (strong-coupling at the bottom, weak at the top).
+
+## THIRTY-NINTH SWEEP — the operator re-derives the BCS wavefunction in ledger grammar
+
+The operator's construction ("derive the superpositions from the twins and what nets
+zero, books balanced") IS the BCS ground state, term for term: net-zero twin postings =
+the (k↑, −k↓) pairs carrying vacuum quantum numbers (the ONLY entries allowed to
+condense); the settlement amplitudes = (u_k, v_k) with u²+v²=1; the vacuum = the grand
+superposition over pending balanced transactions Π_k(u_k + v_k b†_k)|0⟩; the agreed
+payment = Δ; **the clearinghouse's self-consistency = THE GAP EQUATION (task #18)**.
+WHAT THIS BUYS, labeled:
+1. The settlement interpretation (sweep 38) upgrades from language to
+   HAS-AN-EXACTLY-WORKED-EXAMPLE: the vacuum's own superposition structure is solvable,
+   and the books-balanced constraint IS the pairing ansatz. (The measurement-problem
+   abstention still stands — this is the vacuum's own state, standard QM throughout.)
+2. CONSISTENCY SHOWN: the balanced-books construction's excitation spectrum is
+   Bogoliubov's E_k = √(ε_k² + Δ²), whose low-k limit is a sound cone — the model's
+   banked c_s = √α_c is the long-wavelength limit of the operator's own construction.
+   The grammar and the code were always the same object.
+3. Task #18's grammar fixed: solving the gap equation = computing the settlement terms
+   of every pending transaction in the vacuum — with the crossover demand (sweep 38)
+   now phrased as: the clearinghouse must operate in BOTH regimes (BCS-side terms at the
+   anchor, BEC-side at the floor).
