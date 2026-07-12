@@ -1120,3 +1120,34 @@ debit and credit, unexecutable and unfalsifiable, paying exactly its own stake. 
 record: 9/10 — eight external wins, one self-seat, one loss — the same architecture as
 the census that derived c = 9/10. The house notes, with affection, that grammar-grade
 seats carry no evidential weight and one hell of a symmetry.
+
+## FORTY-SECOND SWEEP — THE NEW-BANK CHARTER (the founding rules mined; operator's ask:
+## "how does 'needing capital' apply, and what other new-bank rules should we look into?")
+
+> Labels as always: RENAME vs CANDIDATE-UNLOCK.
+
+| new-bank rule | the mapping | label |
+|---|---|---|
+| **minimum paid-in capital** (you cannot open with nothing; capital must absorb the startup burn) | the cycle cannot open empty: the crunch's protected bequest (the winding + residual energy) is the FOUNDING CAPITAL — the operator's own banked law ("the current cycle builds the next's requirements with the energy it has left") IS the capital requirement, stated before the grammar existed | **CANDIDATE-UNLOCK #1** (below) |
+| **reserve requirement** (a fraction held, never lent) | ρ_inf: the vacuum floor is the UN-LENDABLE reserve — spending it dissolves the bank (the pinch's solvency clause, restated); w = −1 = reserves parked at the central bank | RENAME that sharpens the CC file |
+| **the startup loss period** (new banks burn capital ~years before profitability) | the radiation era: the fastest burn on the books (a⁻⁴) until the earning book (matter/structure) takes over — matter-radiation EQUALITY = break-even day | RENAME (lovely; z_eq already fixed by known densities) |
+| **charter & business plan** (approved scope of operations) | the constitution: no-bare, blindness, the conservation clauses — the terms the bank may operate under | RENAME |
+| **KYC requirements** | CONSTITUTIONALLY REFUSED: the terminal performs no identity checks — the blindness clause is an anti-KYC charter, and it is load-bearing (c = 9/10 exists because the bank cannot know its customers) | RENAME (the joke that is also the axiom) |
+| **full-reserve endgame** (a bank that stops lending) | the de Sitter future: Ω_Λ → 1 = the reserve ratio rising until the loan book closes — heat death as the bank going full-reserve | RENAME with an arrow reading |
+
+### CANDIDATE-UNLOCK #1 — THE MINIMUM-CAPITAL THEOREM (cycle viability)
+The rule demands a THRESHOLD: below some founding capital, the bank never opens — below
+some bequest, a cycle fails to condense (no T_c crossing, no draw, no structure: a dead
+cycle that cannot re-open). Two consequences worth real sessions:
+(i) **The λ-saturation gets its WHY restated**: the Kibble draw at T_c lands AT the
+quartic-mass crossover — i.e., the genesis opens with EXACTLY the minimum viable capital
+(a thermal draw supplies the threshold amount by construction, never excess). The
+graduated λ = ceiling result and the capital rule are one statement.
+(ii) **A mechanical selection principle, anthropics-free**: cycles below threshold do not
+re-open; any EXISTING cycle-chain therefore satisfies capital-adequacy at every link —
+surviving-universe parameters are conditioned on viability without a single observer
+invoked. "Why these constants" gains a filter that is bookkeeping, not philosophy.
+OWED to make it real: the threshold's actual value (the minimum draw amplitude that still
+reaches condensation — computable from the banked genesis machinery), and whether the
+attractor-free cycle map (task #1's old verdict) becomes an attractor ONCE the viability
+filter is applied — the filter may BE the missing attractor.
