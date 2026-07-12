@@ -174,3 +174,23 @@ the independent quanta-count is the missing piece).
 measure the freeze trajectory directly), η ∝ n (the shared integer), A_s = 1/N. STANDING —
 M3 (the root), the transfer integral, the spurion, the "2". The operator's guarantee:
 four-for-four across three sweeps.*
+
+## THE MACHINES' ANSWERS, PRE-DERIVED (fourth sweep — the operator's bet: "the things
+## we're calculating can all be derived too")
+
+Every running instrument, with the value the banked structure predicts it will find —
+registered here so each convergence grades a derivation, not just fills a posterior:
+
+| machine | measures | the derived expectation | status |
+|---|---|---|---|
+| zon chain | z_on | **log₁₀ = 7.59** (3α + onset clock + shape offset) | P-040 corollary; interim 7.94 — the closure-purity branch or the ramp decides |
+| f̄ ensemble | f̄ | **2/π = 0.63662** (the freeze-out closed form) | P-041; referee in flight |
+| zon → α_c | α_c | **3α = 0.021892** | P-040 |
+| routeD | dcdf_floor_thaw | **0, exactly** — the floor is the zero-point's de Sitter state; a nonzero thaw = the vacuum leaking, which the no-bare grammar forbids (the drain lives in conv_g by coded design, not in the floor) | NEW derived-expectation this sweep; def325's pre-registration stands as the bet's frame |
+| conv_desi | conv_g | firewalled candidates only: 10ε = 0.1254 (= 54α/π) or 1/8; the S8 minimizer picked 0.12 | mechanism owed (the twist-relaxation rate per e-fold); NOTE-ONLY |
+| (external) m itself | the genome mass | heavy-firewall note: ½ρ_inf^¼·α_c^N with N = 10 (the census count!) lands at 2.3×10⁻²⁰ vs 2.24×10⁻²⁰ eV (3%) — ladder-cascade-shaped (each census seat one rung of α_c suppression), but α_c^10 is the most numerology-prone object in this file; QUARANTINED until a cascade mechanism exists | note-only, firewalled hard |
+
+The thaw = 0 row is the sweep's real find: routeD was launched as a measurement, but the
+no-bare clause DERIVES its answer — the floor cannot thaw without the vacuum leaking. If
+routeD's posterior excludes zero, that is not a parameter update; it is evidence against
+the clause itself. The instrument was a falsifier all along.
