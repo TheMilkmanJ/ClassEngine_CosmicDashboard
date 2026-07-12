@@ -31,7 +31,11 @@ theory:
       varying_alpha: 1.0
       varying_transition_redshift: 50.0
       dcdf_deltam_mode: 1
-      dcdf_z_rad_onset: 4.0e7
+      # ZON-FREEZE (operator order 2026-07-12): this value is ILLEGAL until the zon
+      # chain converges; at launch, set dcdf_z_rad_onset := 10**(zon posterior mean of
+      # log10_zon, converged R-1 < 0.05) from chains/cmp_prtoe_zon. Interim ~8.7e7,
+      # derived corollary 3.9e7 (log10 = 7.59) -- the chain arbitrates, not us.
+      dcdf_z_rad_onset: ZON_FREEZE_PENDING
       non_linear: halofit
       output: mPk,tCl,pCl,lCl
       modes: s
