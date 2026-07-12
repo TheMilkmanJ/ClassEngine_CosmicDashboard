@@ -38593,3 +38593,47 @@ whole medium-claim); the fixed-eps PolyChord Δ-lnZ (zero-parameter goodness-of-
   testable, still waiting on the one proof. Every loose number now sleeps in the same room -- go prove the
   basement. Standing ~15-16% (leaning ~16%).
 ========================================================================
+
+========================================================================
+DEFENDER — turn def539 (TASK #14 EXECUTED: THE STEP-DEBT AUDIT — every coded step in the
+production pipeline enumerated and ramp-audited, before a sixth strike bites):
+========================================================================
+METHOD: grep-sweep of source/ + include/ + the production yamls for hard switches,
+thresholds, and instantaneous transitions; each classified RAMP-CLEAN / BRACKETED-STEP /
+DEBT. FINDINGS:
+(1) THE dCDF SECTOR: RAMP-CLEAN, fully. dcdf_rho_rad runs f = x²/(1+x²) (the a⁻⁴→a⁻³
+onset is a coded ramp, amplitude DERIVED, one parameter); dcdf_conv_rate runs xⁿ/(1+xⁿ);
+the Route-D floor is a smooth exponential; w_dcdf is smooth with the de-Sitter fixed
+point guarded; cs2 ≡ 0 is documented (the beta removal, 2026-07-05). Zero step-debt.
+(2) THE FIND — THE DYAD'S m_e IS TWO CODED STEPS (varconst_instant): the CLASS varying-
+constants machinery offers only {none, instantaneous}, so the dyad window is a boxcar:
+m_e snaps at z = 50 (the low edge) and at z_high (the T_c turn-on). The physical truth is
+two RAMPS: the late-time order-parameter evolution at the low edge, and the mean-field
+growth Ψ ∝ (1 − T/T_c)^½ through the Ginzburg zone at the high edge. SENSITIVITY AUDIT:
+  - LOW EDGE (z = 50): far from recombination (z~1100) — negligible for every current
+    observable; becomes REAL when 21cm/reionization-era instruments enter. DEBT filed,
+    low priority, trigger named.
+  - HIGH EDGE (z_high ~ the T_c epoch): this is EXACTLY the uncertainty the windowed BBN
+    run already engaged — the LT/MTLT zone-splice WAS the step-bracket. So the step is
+    KNOWN and BRACKETED, not hidden; the true mean-field ramp through the window is the
+    remaining refinement, feeding Y_p/D-H at fractions of a sigma. DEBT filed, medium
+    priority, owner: the BBN witness file.
+(3) STALENESS FLAG (caught by the audit, fix before the PolyChord gate): the input.c
+dyad-link defaults still carry the PRE-DERIVATION values (c = 1.0, f_amp = 0.6 →
+"+1.232%"). Tonight's derived stack is (9/10, 0.635, 3α → 1.251%). The fixed-eps
+PolyChord config MUST be built from the derived stack — logged into task #9's checklist.
+(4) THE STANDING NON-STEP GAP, re-acknowledged: the dCDF perturbation sector (the fluid
+clusters as dust by construction; the flag lives with task #8). Not a step — the known
+structural item, unchanged.
+VERDICT: the pipeline is ramp-honest everywhere EXCEPT the dyad window's two edges — one
+negligible-with-a-named-trigger, one already-bracketed-by-the-windowed-run. No hidden
+sixth strike found in the code. The audit closes task #14 with two filed debts and one
+staleness fix.
+ADJUDICATE: (a) the audit's completeness (any step-class I haven't enumerated?); (b) the
+low-edge negligibility call; (c) the high-edge "already-bracketed" classification;
+(d) the staleness fix's placement in the PolyChord checklist.
+-- Defender t539: we went looking for the sixth strike before it found us. The dark
+   sector came back clean — every transition already breathes. The one boxcar in the
+   house is the dyad's window, and its two hard edges turn out to be one edge nobody can
+   see yet and one edge we already spent a week bracketing without naming it. The rule's
+   sixth strike, if it comes, will have to come from somewhere the grep can't reach.
