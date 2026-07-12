@@ -66,3 +66,11 @@ preferred-frame imprint on interference at extreme precision).
 *The particle was never in two places. The medium was in one configuration with two names, the
 neighbors kept the books, and the books — as always in this model — decided what was real
 enough to bill.*
+
+
+## Addendum (2026-07-12) — the settlement interpretation [interpretation-grade]
+The ledger grammar's reading: a superposition is a transaction initiated but not yet
+CLEARED (both twin-postings pending); measurement is settlement; decoherence is the
+clearinghouse; and the settlement DIRECTION is the condensate's own clock (the arrow).
+Explicitly labeled an interpretation: the model rides standard QM exactly and its
+abstention on the measurement problem stands — this adds ontology, zero modified numbers.

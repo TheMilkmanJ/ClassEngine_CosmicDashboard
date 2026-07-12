@@ -75,3 +75,15 @@ k ≈ 1.3 unravels the hierarchy leg.
 [Planck2018] (the measured ρ_Λ), [Volovik2003] (vacuum-as-condensate precedent),
 [Sakharov1967] (induced-everything), the internal chain: §18, the sixth/seventh sweeps
 (PRTOE_DERIVATION_HUNT.md). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+
+## 5. Addendum (2026-07-12) — THE PINCH [argument-grade, un-refereed]
+Why occupancy-one exactly: **≥1 by solvency** (the vacuum is the bound state — every
+binding mode holds its quantum or there is no condensate) and **≤1 by coherence** (one
+independent mode per coherence cell by definition; a second quantum is an excitation,
+not vacuum), with the two scales coinciding because the cell IS the binding mode's own
+length. Pinched ⟹ exactly one ⟹ ρ_Λ = E_b⁴ is the unique solution. OWNED ASSUMPTION:
+this holds on the BEC side of the BCS–BEC crossover (coherence length = bound-state
+size), which is the model's Bohr/universe-atom grammar — while the TeV anchor sector is
+BCS-side (the exponential gap). The two famous jobs of the crossover's two sides, one
+vacuum: the hierarchy from the weak side, the cosmological constant from the strong side.

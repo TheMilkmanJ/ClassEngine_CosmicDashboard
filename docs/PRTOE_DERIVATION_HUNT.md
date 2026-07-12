@@ -1011,3 +1011,38 @@ bound). If yes, the CC file's §2(b) upgrades from reading to derivation.
 justification) — the lexicon didn't invent work, it may have found the keys to work
 already on the books. The renames are being applied to their files' language where they
 sharpen without claiming.*
+
+## THIRTY-EIGHTH SWEEP — the two unlocks chased (operator-directed)
+
+### #1 → the superposition file: THE SETTLEMENT INTERPRETATION (interpretation-grade)
+Double-entry's quantum face: a superposition is a transaction INITIATED BUT NOT YET
+CLEARED — both postings pending; measurement is SETTLEMENT (the entry becomes definite);
+decoherence is the clearinghouse (the environment forcing the books to close); and the
+DIRECTION of settlement is the GC clock's arrow (the condensate's ⟨φ̇⟩ decides which way
+entries clear). LABEL: an INTERPRETATION, not a mechanism — the model's constitutional
+abstention on the measurement problem stands untouched (QM's numbers unmodified); what
+the grammar adds is an ontology in which the arrow of time and the definiteness of
+outcomes are the same banking fact: books close forward. Filed to the superposition
+file as language, with the abstention re-stated beside it.
+
+### #2 → THE PINCH: why occupancy is EXACTLY one (argument-grade, the CC's missing "why")
+- **≥ 1** (solvency): the vacuum IS the bound state — each binding mode must hold its
+  binding quantum E_b, or there is no condensate (an empty cell = no binding = not this
+  vacuum).
+- **≤ 1** (coherence): a coherence cell holds ONE independent mode by definition; a
+  second quantum in the same cell is an EXCITATION — definitionally not vacuum. The
+  credit line cannot exceed ħ per cell without the account decohering.
+- **The scales coincide**: the cell's size IS the binding mode's own length (ξ = 1/E_b —
+  one scale). Pinched from both sides ⟹ occupancy = 1, uniquely. ρ_Λ = E_b⁴ becomes the
+  credit law's only solution, not a pricing choice.
+**THE HONEST CHECK THAT SHARPENED IT**: in weak-coupling BCS the one-per-cell rule FAILS
+badly (u_cond = ½N(0)Δ² ≠ Δ/ξ³ by orders — ξ_BCS ≫ the pair size). The pinch holds only
+on the BEC SIDE of the crossover, where the coherence length equals the bound state's own
+size — exactly the model's "universe-atom" Bohr grammar (tightly-bound composite bosons).
+So the assumption is OWNED, not hidden: the meV sector is BEC-side.
+**THE CROSSOVER COROLLARY (new structure, free):** the model's two pairing floors sit on
+OPPOSITE SIDES of the BCS–BEC crossover — the TeV anchor is BCS-side (weak coupling, the
+exponential gap = the hierarchy), the meV vacuum is BEC-side (one-per-cell = the CC).
+Each side of condensed matter's most famous crossover doing the job its side is famous
+for, in one vacuum. The gap equation (task #18) inherits a new demand: its solution must
+CONTAIN the crossover (strong-coupling at the bottom, weak at the top).
