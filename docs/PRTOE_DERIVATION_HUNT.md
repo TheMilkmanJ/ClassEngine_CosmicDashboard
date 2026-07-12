@@ -297,3 +297,32 @@ claimed; logged as the pattern it is.
 3. THE TeV ANCHOR — one merged question absorbing "pin M₂," "x₀ = e⁻³⁵," and plausibly
    the portal's mass scale: why does the medium's hierarchy anchor at the TeV rung?
 4. The bets in flight (zon now grades P-040 AND the triangle AND x₀ simultaneously).
+
+## EIGHTH SWEEP — the root re-heard: induced-G decomposes; the model's final question is named
+
+### The two-loop shooter's instructive failure (booked straight)
+The numeric two-loop shooting run found NO bracket for the duty family: the integration
+cannot reach 1/α = 0 because the top of the run is strong-coupling — EXACTLY the def531
+structural point, now materialized as a solver failure rather than an estimate. The
+redesign (owed): impose the induced condition at the PERTURBATIVE EDGE (1/α ~ 1 at
+M_red·e^{-few}), treating the last e-folds as the basement's non-perturbative birth zone
+with a matching parameter. The anchor cloud (34.85–35.43) stands as the current statement;
+P-042's kills unchanged.
+
+### The root (induced-G / M3's second half), decomposed by listening:
+1. **No-bare-G** — a named clause (participation Λ-forced; the census grammar).
+2. **F-F species cancellation → S = A/4 free** — BANKED (the keystone, t422-credited).
+3. **Area law + Clausius → Einstein equations** — literature-standard [Jacobson1995].
+4. **Applicability under the preferred frame** — PAID by the Lorentz shield (the LV
+   pricing pass: the frame is invisible to every matter sector, so the entanglement
+   structure computing the area law is standard LI QFT to 12+ orders).
+5. **Nonlinear exactness** (t366's "linearized-plus" flag) — PRICED: non-equilibrium
+   corrections to Clausius give curvature-squared terms suppressed by the basement scale;
+   R²/M_Pl² corrections are allowed by data with enormous margins. A performance bill
+   (SR-class), not an open door.
+**THE RESIDUE — the model's final structural question:** THE BASEMENT ROSTER. What are
+the medium's microscopic degrees of freedom? It is the one question feeding everything
+still open: the F-F sum's species list, A_s = 1/N's count, the gap-equation lanes
+(condensation-born couplings), the "3" in 3α (a basement multiplicity?), and the anchor's
+"35." The root was never a wall of separate computations — it is one door with one
+question written on it: WHO LIVES DOWNSTAIRS.
