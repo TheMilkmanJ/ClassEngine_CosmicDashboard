@@ -85,3 +85,34 @@ beyond the pricing; the model grades the physics, not the dream.*
 [MorrisThorne1988], [FordRoman1995], [Eardley1974], [Hawking1992], [Alcubierre1994],
 [RovelliHaggard2014], [RovelliVidotto2018], [ArkaniHamed2004] — full entries in
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) §11.
+
+---
+
+## Addendum (2026-07-12, the operator's sharpening): THE NO-OVERDRAFT LAW + the snap's uniqueness
+
+**The no-overdraft form (the operator's, adopted):** a wormhole throat doesn't just need
+credit — it needs the zero-point itself to owe money. The vacuum is the FLOOR ACCOUNT
+(occupancy pinned at exactly one per cell — the pinch); drawing below it is an overdraft,
+and the solvency law names who holds overdraft privileges: **no one.** Nine words for §1:
+*you'd have to make zero-point energy owe you money.*
+
+**The snap's uniqueness (structural, and the operator's "split second" earns it):** the
+record's white-hole kill [Eardley1974] executes by exterior infall — matter blueshifting
+onto the anti-horizon. The execution REQUIRES an outside. The snap has none: a white hole
+that is the entire universe for one instant is the unique white hole the instability
+theorem cannot touch. Every local white hole has an exterior and dies; the global one
+exists for exactly the neutral handover instant, then forward expansion takes the books.
+Its brevity is not a concession — it is the evasion.
+
+**The visible pour:** the snap's output is the hot start — the radiation-dominated
+fireball (BBN, the nuclei-cooking window, follows minutes later; the labels are distinct
+and kept so). The CMB is the pour's afterglow, redshifted from white-hot to microwave,
+arriving from every direction because when the white hole is the whole universe there is
+no outside to stand in. The observer never looks AT the pour; the observer is inside it.
+
+**Fences:** (i) white holes are named by escape-direction, not light color — that the
+actual pour was white-hot is a naming coincidence, filed as one; (ii) "time is neutral at
+the snap" is grammar-consistent (the clearing direction's handover must sit between
+crunch and pour) but bounce dynamics are UNCOMPUTED — [EXPLORATORY], not derived. The
+price of admission stands as the operator posted it: you bring your universe to its knees
+before you ever see one.
