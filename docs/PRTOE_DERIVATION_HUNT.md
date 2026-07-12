@@ -855,3 +855,18 @@ Self-caught items filed to the failures ledger's §3. The audit's meta-lesson: t
 physics-grammar has been red-teamed continuously; the ARITHMETIC's inputs need the same
 regime-tagging discipline (the label firewall applies to numbers too — every α_c must
 carry its value-choice tag).
+
+## THIRTY-SECOND SWEEP — the operator's ramp reminder re-reads the audit
+
+A3's "input mismatch" gets its ramp interpretation: the two α_c values may be SAMPLES OF
+α_c(t) AT DIFFERENT EPOCHS, not competing constants — the ε-fit's band (0.0205–0.0214)
+reads the RECOMBINATION-era coupling; 3α may be the ONSET/vacuum-era value (or vice
+versa) — and the 2–6% spread between them is then the onset→observation DRIFT the banked
+t390 flag always demanded we map ("locked measure vs aging partition"). Consequences:
+(i) P-040's grading sharpens — zon reads the onset side, ε reads the rec side; the bet's
+kill-condition must name WHICH epoch's α_c equals 3α; (ii) the dressing-identity autopsy
+(A3) converts from "sloppy input" to "unpriced ramp" — same correction, better lesson;
+(iii) STANDING ORDER adopted for the three pending re-derivations (the two-clock lineup,
+the sphaleron-weighted transfer integral, the two-census routing argument): RAMPS FIRST —
+every quantity enters as q(t) with its epoch tag, and point-values must justify their
+freezing. The label firewall now covers time: no number without its WHEN.
