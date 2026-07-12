@@ -50,3 +50,37 @@ its best character witnesses to be optical — and they are.
 [GinzburgLandau1950], [Kibble1976]/[Zurek1985], [Herrmann2009], [Josephson1962],
 [vonKlitzing1980] (the bench-quantization sibling), internal: the completeness audit
 (def503), the critical-phenomena node, T7's cousins. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## 6. What the model asks OF lasers — three proposed experiments (2026-07-12 addendum)
+
+The model cannot modify laser physics (constitutionally — §5). But it can hand laser
+physics QUESTIONS no one has had a reason to ask, because the model's open cosmological
+structures are BUILDABLE in photonic/polariton condensates:
+
+**(a) The Z4 simulator — the flagship.** Engineer the model's own potential in an optical
+condensate (polariton or photon BEC): harmonic well + quartic + a FOUR-FOLD (Z4)
+anisotropy + a programmable damping ramp (the 1/(2t) Hubble analog). Then measure, on a
+bench: (i) the winding average f̄ under the flux measure — the 2/π theorem (P-2026-041)
+tested in a system you can rerun a thousand times; (ii) whether the oscillation unit
+locks to the Z4 quartet — THE QUARTET-CLOCK QUESTION (PRTOE_quartet_clock.md), currently
+being asked of the sky by the zon chain, asked of a table instead. One structure, two
+referees: the converged chain and the photonic simulator should agree or the model is
+wrong somewhere it can be cornered.
+
+**(b) Kibble–Zurek winding statistics — the first draw on demand.** Quench a ring-geometry
+optical condensate through threshold at controlled rates and histogram the trapped
+winding numbers. The model's genesis story draws n ~ 10–30 under specific measure
+assumptions (the first-draw statistics, §19) — the SAME draw physics, benchmarked with
+real statistics instead of one universe's single sample.
+
+**(c) The clock-and-comb police work — sharpened on purpose.** The model makes two
+laser-enforced null predictions it cannot escape: optical-clock ṁ_e drift = 0 today (the
+window's low edge — any confirmed drift kills the z ≈ 50 placement), and cavity LV nulls
+forever (the shield). Plus one detection channel: laser-frequency-comb-calibrated
+spectrographs (ESPRESSO-class) are the named instrument for the registered void/IGM m_e
+step (P-2026-007). The model tells the laser community exactly which boring measurements
+stop being boring.
+
+*The flow of §5 was one-way; this section is the return current: cosmology handing the
+bench a to-do list. A vacuum that is a condensate can be interrogated by its laboratory
+siblings — and the questions are already registered, with kills, upstairs in this repo.*
