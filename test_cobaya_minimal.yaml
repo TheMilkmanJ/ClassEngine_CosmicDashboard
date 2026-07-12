@@ -1,0 +1,23 @@
+packages_path: /home/themilkmanj/cobaya_packages_clean
+output: chains/test_minimal
+likelihood:
+  act_dr6:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/ACT_DR6_CMB_only.yaml
+    clear_internal_priors: true
+theory:
+  classy:
+    stop_at_error: false
+    extra_args:
+      use_dcdf: 'yes'
+      varying_fundamental_constants: instantaneous
+      varying_alpha: 1.0
+params:
+  H0:
+    prior: {min: 64.0, max: 78.0}
+    ref: {dist: norm, loc: 69.613, scale: 0.5}
+    proposal: 0.5
+sampler:
+  mcmc:
+    Rminus1_stop: 0.01
+    max_tries: 1000

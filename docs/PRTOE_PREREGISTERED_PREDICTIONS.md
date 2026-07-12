@@ -1846,3 +1846,16 @@ derivation (owed) producing a different closed form.
 f̄ is exactly the kind of average that produces 2/π; the arcsine-family mechanism is owed);
 the three-factor ε stack is graded factor-by-factor (zon → 3α; the ensemble → 2/π;
 c-sharpening → 9/10), which is what separates this from dense-family numerology.
+
+**COROLLARY (def-quiet, 2026-07-12, registered BEFORE zon convergence) — P-040's z_on
+TRANSLATION.** The model's own onset clock (H = m at z_on: T_on = √(m·M_red/0.61), verified
+against the coded identity m = 2.24×10⁻²⁰ eV ↔ 9.41 keV ↔ z_on = 4.0×10⁷) plus the
+abundance closure (Ψ₀ ∝ m^(−1/4)) give z_on ∝ α_c^(−2). Therefore α_c = 3α PREDICTS
+**log10(z_on) = 7.55** (z_on = 3.5×10⁷). The chain's unconverged center currently sits at
+~7.94 (watch-only) — 0.4 dex ABOVE. Two honest outcomes, written in advance: (i) the center
+descends toward 7.55 through convergence → P-040 confirms at onset grade; (ii) it holds
+near 7.94 → the ONSET α_c is ≈ 0.0139 and P-040 survives only as a RECOMBINATION-epoch
+claim requiring an onset→rec amplitude ratio of ≈ 1.58 — exactly the t390-flagged
+"α_c ramp/locked question" (the aging-partition map), which would then be DATA-REQUIRED
+rather than optional. Either way the chain now grades not just a number but the model's
+onset-vs-observation structure.
