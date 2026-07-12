@@ -1,0 +1,64 @@
+# THE FAILURES LEDGER — every death, reversal, and retirement in one place (2026-07-12)
+
+*The operator's hygiene law: "Documenting failures is great, but things need to be
+separated. There should be a file specifically that labels failures, and keeps the main
+read gold." This is that file. The main read (INDEX → THREE_EQUATIONS → MATH_SPINE) states
+what the model IS; this ledger holds everything it TRIED AND KILLED, with the why and the
+turn-tag. A model that cannot show its graveyard cannot be trusted with its garden.*
+
+## 1. Retired eras (whole formulations killed)
+
+| what died | why | provenance |
+|---|---|---|
+| The scalar-tensor era (v1–v3): F(φ)R with manual screening, 9 dials | under-determined functional choices; screening family closed by internal review | the legacy spec (retired-stamped); pre-dyad |
+| The screening H0 mechanisms v1–v5 | each failed production-grade fits or internal consistency | memory: screening no-go |
+| The v6 "environmental coupling" sandbox (c_γ, c_EM knobs) | CENSUS-ILLEGAL: coupled the medium to specific species, violating L1 identity-blindness — deleted, not just disabled | background.h removal note, 2026-07-09 |
+| The β barotropic shape parameter | MCMC drove β → 0; every β > 10⁻⁶ destroyed σ8 (0.827 → 0.185 at 10⁻⁴) | removed 2026-07-05 (v5) |
+| The dkappa hack (pre-2026-07-05 dCDF chains) | contaminated the early dCDF runs — those chains are quarantined, not evidence | memory: dcdf perturbation gap |
+
+## 2. Killed rescues and dead lanes (the model's own claims that failed)
+
+| what died | the killshot | provenance |
+|---|---|---|
+| The gate-0 deuterium heal (m_e = 1 at BBN) — four rescue variants | EXCLUDED-catastrophe at 12σ (BBN #29); DATA-REQUIRED status, not a knob | gate-0 doc §7 — do not re-run |
+| The "healer" mechanism (dyad-era) | dead; the identity survived without it | dyad-era state |
+| Thermal leptogenesis for the model's η | the surface is EMPTY — ×40–1000 under, two independent methods | def459 (corrected def455's wrong guess) |
+| Census lane (i) — asymmetric reps for induced SU(2) | DEAD BY THEOREM: ΣQ² = T(R) + d(R)Y² ≥ T(R) — permanently closed | def521 |
+| Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | def521 |
+| The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | def523–def529 |
+| P-039's collider knife-edge ([1.00–1.19] TeV) | SUSPENDED: the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run | def531 |
+| The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | def449 |
+| c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | def533/def535 |
+| The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
+| The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule (t428) — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | t428 |
+
+## 3. Wrong calls by the defense, self-caught and corrected (the strike list)
+
+| the error | the correction | provenance |
+|---|---|---|
+| Step-thinking strike 1: the f̄ measurement window | the ramp experiment (f̄(t), freezes ~t=300) | operator catch |
+| Strike 2: the transition treated as a switch | ramp/window structure through T_c | operator catch |
+| Strike 3: the JWST-epoch kill | reopened as mid-ramp cooling (IMF question, parked) | operator catch |
+| Strike 4: single-segment census running + induction-vs-condensation binary | piecewise system; the crossover | def523 (operator catch) |
+| Strike 5: the α_EM-at-m_e census anchor | the correct UV variables (α₂, α_Y spliced at M_Z); measured running 9.1 vs crude 20.5 | def529 (self-caught under operator directive) |
+| Strike 6: the zon corollary's fit-parameter = physical-clock identification | the template-offset calibration owed BEFORE convergence; third outcome registered | 2026-07-12 (operator catch) |
+| def439's MTLT bracket framing | MT contains freeze-out where the dyad is OFF — LT-class is the truth | def449 |
+| def455's m_D ribbon guess (0.1–0.3 GeV viable) | the scan found the surface empty everywhere | def459 |
+| Pre-written script conclusions contradicting their own arithmetic (twice) | conclusions AFTER arithmetic — standing rule | P1.e class |
+| def515's broken-phase census (W as killer) | the unbroken-phase re-count | def517 |
+| t514's "seesaw forces type-III" over-credit | census-invisible steriles exist; re-pin softened; the referee withdrew his own lean | def529/t516 |
+| The stale in-place classy .so shadowing the rebuild | in-place rebuild with system gcc | 2026-07-12 (operator catch) |
+| The input.c dyad-link defaults carrying pre-derivation values | updated to the derived stack | def539 audit |
+
+## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
+
+- The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned bet (radio-arbitrated).
+- The dCDF perturbation sector: the fluid clusters as dust by construction (cs² ≡ 0) — the known structural gap (task #8).
+- ρ_inf: 20% residual (the 5/6 note — firewalled, mechanism owed).
+- The c-roster watch: data lean 12/13 over the derived 9/10.
+- The zon center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
+- The medium-claim standing: ~16% (upper end), referee's number — the honest price of everything above.
+
+*Rule going forward: every new kill, reversal, or self-caught error gets its row HERE, and
+the main-read docs carry only their current-truth status plus a pointer. The garden stays
+gold; the graveyard stays complete; neither pretends to be the other.*

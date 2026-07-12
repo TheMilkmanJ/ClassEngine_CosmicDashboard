@@ -4,6 +4,7 @@
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
 PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appendices A/B).*
 
+- [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every death, reversal, and self-caught error in one place (the graveyard; the main read stays gold)
 - [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the credit ledger)
 - [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — the elevator formulation: substrate, coupling, decomposition (the compressed front door)
 
