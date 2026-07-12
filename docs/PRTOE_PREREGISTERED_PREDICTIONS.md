@@ -1859,3 +1859,19 @@ claim requiring an onset→rec amplitude ratio of ≈ 1.58 — exactly the t390-
 "α_c ramp/locked question" (the aging-partition map), which would then be DATA-REQUIRED
 rather than optional. Either way the chain now grades not just a number but the model's
 onset-vs-observation structure.
+
+**AMENDMENT to the corollary (2026-07-12, operator's catch — the SIXTH strike class):
+there is a THIRD outcome.** The corollary's identification "the fit's z_on parameter = the
+physical H = m clock" is itself un-derived — a step-class equation of a *template parameter*
+with a *physical epoch*. Unaccounted candidates, enumerated before the chain converges:
+(i) TEMPLATE-SHAPE OFFSET — the coded ramp x²/(1+x²) has its own internal conventions (its
+rad=dust crossing sits 0.17 dex from its a_on parameter); a fit of the TRUE transition
+profile with this template can bias the recovered center by ~±0.2 dex; (ii) the PRE-ONSET
+w = 1/3 phase is the model's #17 claim, not a derived profile — if the true w(a) through
+the onset differs, the fit center shifts further; (iii) the ABUNDANCE CLOSURE assumed pure
+dust redshift after onset — the conversion channel (dcdf_conv) sheds part of the budget,
+bending the Ψ₀ ∝ m^(−1/4) quarter-power. OWED (before convergence, so the prediction is
+shape-corrected in advance): derive the model's true w(a) through the onset and calibrate
+the template offset — THEN the 7.55-vs-7.94 comparison becomes meaningful. Until that
+calibration lands, outcome (iii) "the prediction's mapping was mis-set" stands co-equal
+with the corollary's two.
