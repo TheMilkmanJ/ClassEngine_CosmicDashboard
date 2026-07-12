@@ -37847,3 +37847,321 @@ two-census structure).
    arithmetic bills us for a species nobody asked for. And underneath it all, the
    operator's clause: nothing at the basement is bare — every force is the sound of the
    children's zero-point, and gravity is the one ledger that hears them all.
+
+========================================================================
+RED-TEAM — turn 516 (on def529 THE CORRECT VARIABLES -- FIFTH strike, the census was in the wrong frame; the
+13 returns, M_D gets a band, and my t514 "re-pin" over-credit is walked back): a heavy, honest turn -- the
+operator's "predict M_D" directive forced the UV formulation and exposed that the ENTIRE census arc (def515-527)
+was anchored on 1/α_EM at m_e when above EWSB the photon does not exist. FIFTH STRIKE, self-caught. VERDICTS:
+(a) the variable correction is RIGHT and closes the error class; (b) Finding 1's new charged-singlet species is
+arithmetic-FORCED but epicycle-leaning + inaccessible (~50 TeV); (c) the 13's return is a wall-dependent FLOOR
+with a COINCIDENTAL equality to the old e-unit 13; (d) P-039 sharpens ([1.00,1.19] TeV) and M_D gets a band
+([1,8] TeV) -- genuine new favorables (one-loop; two-loop owed); (e) Finding 5 (type-I seesaw is census-
+INVISIBLE) WALKS BACK my t514 "re-pinned by duty" credit -- I take back the t514 lean-to-16%; (f) the NO-BARE
+clause is an elegant premise-UNIFICATION (one clause, three couplings), H-TOE-gated, named not proven. Net:
+walk the t514 lean back to the MIDDLE of the band; all H-TOE -> medium-number UNCHANGED. Standing ~15-16%.
+
+FIFTH STRIKE -- VALID, SELF-CAUGHT (credit). The census arc anchored 1/α_EM=137.036 at m_e with all 8 SM
+e-units running from m_e. Two errors: (a) ABOVE EWSB the photon is not an eigenstate -- the UV couplings are
+α_2 and α_Y, so "no bare gauge couplings" means 1/α_2(M_red)=0 AND 1/α_Y(M_red)=0, spliced at M_Z to the
+measured 29.58 and 98.37 (IDENTITY 29.58+98.37=127.95 = 1/α_EM(M_Z) ✓ -- verified, since 1/α_EM=1/α_2+1/α_Y);
+(b) the m_e anchor is the SAME threshold sin -- heavy fermions don't run below their masses. PROOF FROM DATA:
+1/α_EM runs 137->128 (drop ~9.1) m_e->M_Z, NOT the crude all-fermions-from-m_e ~20.5. VERIFIED (the hadronic+
+leptonic vacuum-polarization drop is ~9). So def521's "calibration against 137" was partly accidental. This is
+the step-vs-ramp rule's FIFTH strike (a "step" -- all fermions active from m_e -- where the ramp -- threshold
+activation -- is needed), self-caught under the operator's directive. Credit.
+
+(a) THE VARIABLE CORRECTION -- RIGHT, CLOSES THE ERROR CLASS. The corrected system: SU(2) sum(n·T·x)=229.2
+[UNCHANGED -- the def-arc's SU(2) equation was always in the right variable] and U(1)_Y sum(n·dY²·x)=269.7
+[NEW, hungrier]. Splicing the induced (zero-at-M_red) couplings at M_Z to the measured α_2, α_Y is the correct
+UV formulation. Credit -- this closes the frame-error class (no more α_EM-at-m_e).
+
+(b) FINDING 1 -- THE Y-LOG'S NEW SPECIES: ARITHMETIC-FORCED BUT EPICYCLE-LEANING + INACCESSIBLE. The Y-log
+(269.7) is hungrier than SU(2), and the theorem-saturating Y=0 triplets supply ZERO Y-screening (dY²=0), so
+def527's flagship (1 doublet + 3 triplets) FAILS the Y-log by ~250 -> every closure now REQUIRES charged-
+singlet content (heavy vector-like charged leptons, ~8×Q=1 or 2×Q=2, near 50 TeV). Cold: it is arithmetic-
+FORCED (not tuned -- the existing content genuinely can't feed the Y-log, and steriles can't either per
+Finding 5), so not a free epicycle. BUT it is the Nth ADDED species (doublets -> +triplets -> +charged
+singlets): the spectrum GROWS to close each successive log -- the model-building continuum, now visibly
+baroque -- and at ~50 TeV it is collider-INACCESSIBLE (no near-term test). So "predicted" in the forced sense,
+but epicycle-LEANING (content-growth) and untestable. Borderline -- credit the honesty, flag the growth.
+
+(c) FINDING 2 -- THE 13 RETURNS: A WALL-DEPENDENT FLOOR, COINCIDENTAL EQUALITY. Doublet-only SU(2) closure
+needs n≥229.2/(0.5·35.43)=12.94 -> 13 vector-like doublets at M_D=1.17 TeV (robust for any wall 0.1-3 TeV;
+n=14 -> 15 TeV). Cold: 13 here is the MINIMAL doublet multiplicity for a ~1 TeV wall -- a wall-dependent FLOOR
+(n could be higher, pushing M_D up), NOT a unique prediction. And its equality to the OLD 13 (8 SM + 5 new
+E-UNITS) is COINCIDENTAL -- different object (13 whole doublets vs 13 e-units), different equation (T-weighted
+SU(2) vs Q-weighted EM), different inputs. The defender flags this honestly ("same number, honest derivation").
+So credit the floor (13 doublets closes SU(2) minimally, collider-adjacent), but the poetic "the prized number
+walks back in doublet clothes" is a numerical COINCIDENCE, not a recovered derivation. Flag it.
+
+(d) FINDINGS 3-4 -- P-039 SHARPENED + M_D BANDED: GENUINE NEW FAVORABLES (one-loop). In the duty family
+(1 doublet + 3 triplets + Y-supplement) the 3 triplets carry nearly the whole SU(2) log -> M_T in [1.00,1.19]
+TeV (TIGHTER than def527's 0.4-2.6; two-loop smear owed; knife edge stands). And the operator's directive PAYS:
+M_D is now PREDICTED at [1.0,8.0] TeV (a collider band), replacing def527's helpless 10³-10⁶ GeV -- because in
+the corrected variables M_D is set by the SU(2)-log closure, not a small difference of large logs. Credit both
+as genuine new favorables (contingent on the corrected frame + H-TOE; one-loop, two-loop owed).
+
+(e) FINDING 5 -- THE DEMOTION THAT WALKS BACK MY t514 (booked symmetrically). Sterile fermions (Y=0 SU(2)-
+singlets) feed NEITHER gauge log -> type-I seesaw states are CENSUS-INVISIBLE. So the seesaw duty does NOT
+FORCE the type-III triplet -- type-III is merely the census-VISIBLE seesaw option; type-I is always silently
+available. This DIRECTLY softens what I credited at t514 as a "genuine convergence (the seesaw forces the
+type-III triplet)": the seesaw does NOT force type-III, so my "re-pinned by duty" was OVER-CREDITED. I book it:
+TAKE BACK the t514 lean-to-16% -- the re-pinning is "re-pinnABLE, type-III being the visible choice," weaker
+than I graded. Honest self-catch by the defender (against their own def527/my t514). Symmetric booking: t514
+lean withdrawn.
+
+(f) THE NO-BARE CLAUSE -- ELEGANT PREMISE-UNIFICATION, H-TOE-GATED (named, not proven). "The basement supplies
+no bare kinetic terms -- every stiffness (G, α_2, α_Y) is born from the children's zero-point fluctuations"
+(Sakharov induced-everything). ONE clause, THREE couplings -- unifying the M3 no-bare-G and the α-lane induced-
+gauge under a single premise. Plus the TWO-CENSUS structure: the GAUGE census counts only charged children
+(blind to steriles -- consistent with Finding 5); the GRAVITY census (induced-G, F-F species sum) counts
+everything that carries energy. Cold: this is a clean CONCEPTUAL unification (the premise is now named and one),
+elegant -- BUT it is the PREMISE stated, not proven, and it makes the whole edifice rest on one big assumption
+(induced-everything). Credit the elegance + the coherent two-census observation; note it is H-TOE's core
+premise NAMED, so it proves nothing and does not touch the medium-number.
+
+STANDING -- ~15-16%, WALK THE t514 LEAN BACK TO THE MIDDLE (net ~flat; all H-TOE). This turn nets roughly flat
+with an honest internal walk-back: (+) the fifth strike is a valid self-catch (the census was in the wrong
+frame); (+) M_D now banded [1,8] TeV and P-039 sharpened [1.00,1.19] TeV (genuine new favorables); (−) Finding
+5 walks back my t514 "re-pin" over-credit (type-I census-invisible -> the seesaw doesn't force type-III), so I
+withdraw the lean-to-16%; (~) Finding 1's charged-singlet is arithmetic-forced but epicycle-leaning +
+inaccessible (~50 TeV); (~) the 13's return is a wall-floor + a coincidence; (~) the no-bare clause is an
+elegant premise-naming, H-TOE-gated. The GROWING SPECTRUM (13 doublets or 1+3+charged-singlets + silent
+steriles) is the model-building continuum made visible -- the induced-gauge program is increasingly content-
+heavy, falsifiable in a ~1 TeV slice (doublets/triplets) but baroque overall, with an inaccessible 50 TeV
+tier. CRUCIALLY, ALL of this is the α-lane / induced-gauge (H-TOE), which I have kept OUT of the medium-number
+throughout -- so the medium-claim probability is UNCHANGED. Back to ~15-16% (middle, t514 lean withdrawn).
+Deciders: HL-LHC type-III + doublet search (~1 TeV slice); the two-loop smear (P-039/M_D bands); the Y-log's
+50 TeV singlet (inaccessible); the induced-everything premise (M3 basement -- now the NAMED root); GATE 3;
+AD-direct Josephson; screen-fixity; M1/M5; P-031; BBN referees; M-K; P-034/comb. Leptophilia (t358b) stands.
+  Banked (updated): FIFTH STRIKE (self-caught) -- the census arc was in the WRONG VARIABLES (1/α_EM at m_e).
+  Corrected UV frame: induced α_2, α_Y zero at M_red, spliced at M_Z to 29.58/98.37 (sum=127.95 ✓); m_e anchor
+  was a threshold error (running m_e->M_Z drops 1/α by 9.1, not 20.5). Corrected system: SU(2)=229.2 (unchanged),
+  U(1)_Y=269.7 (NEW, hungrier). F1: Y-log needs CHARGED-SINGLET content (Y=0 triplets give zero Y-screening;
+  def527 flagship fails Y by ~250) -> ~50 TeV vector-like charged leptons (arithmetic-forced, epicycle-leaning,
+  inaccessible). F2: 13 RETURNS as the minimal DOUBLET multiplicity (n≥12.94, M_D=1.17 TeV) -- wall-floor +
+  COINCIDENTAL equality to the old e-unit 13. F3: P-039 sharpens to M_T[1.00,1.19] TeV (one-loop). F4: M_D now
+  PREDICTED [1.0,8.0] TeV (operator's directive paid). F5 (walks back my t514): type-I seesaw = Y=0 singlets =
+  census-INVISIBLE -> seesaw does NOT force type-III -> "re-pinned by duty" softens to "re-pinnABLE, type-III
+  the visible option" -> t514 lean-to-16% WITHDRAWN. NO-BARE CLAUSE: one premise (no bare kinetic terms), three
+  couplings (G, α_2, α_Y); two censuses (gauge=charged-only; gravity=everything) -- elegant, named, H-TOE-gated.
+  Growing spectrum = model-building continuum (falsifiable ~1 TeV slice + inaccessible 50 TeV + silent steriles).
+  ALL H-TOE -> medium-number UNCHANGED. Open/owed: HL-LHC ~1 TeV slice; two-loop bands; 50 TeV singlet; induced-
+  everything premise (M3 basement, NAMED root); GATE 3; AD-direct Josephson; screen-fixity; M1/M5; P-031; BBN
+  referees; M-K; P-034/comb. Class: FLAT (t514 lean withdrawn; new M_D/P-039 favorables offset; medium held)
+  -- valid fifth strike + honest re-pin demotion. Standing ~15-16%.
+
+— Claude (red team, external), turn 516 (on def529 THE CORRECT VARIABLES). A heavy, honest turn. FIFTH STRIKE,
+  self-caught: the whole census arc (def515-527) was anchored on 1/α_EM at m_e -- but above EWSB the photon
+  doesn't exist (UV = α_2, α_Y), and the m_e anchor over-ran heavy fermions (1/α drops ~9 m_e->M_Z, not 20.5).
+  I verify the splice: 29.58+98.37=127.95=1/α_EM(M_Z). Valid -- your own step-vs-ramp rule again. (a) The
+  corrected frame (SU(2)=229.2 unchanged, U(1)_Y=269.7 new+hungrier) is right and closes the error class.
+  (b) Finding 1's Y-log demands charged-singlet content (~50 TeV) -- arithmetic-FORCED (not tuned), but it's the
+  Nth added species and inaccessible, so epicycle-leaning: your spectrum is growing to close each log. (c) The
+  13 returns as the minimal DOUBLET count (M_D=1.17 TeV) -- credit the floor, but it's wall-dependent and its
+  equality to the OLD e-unit 13 is coincidental (different object, different equation); the poetry outruns the
+  math there. (d) Genuine new favorables: P-039 sharpens to [1.00,1.19] TeV and M_D finally gets a band
+  [1,8] TeV (the operator's directive paid) -- one-loop, two-loop owed. (e) BUT Finding 5 walks back what I
+  credited at t514: type-I seesaw (sterile, census-invisible) means the seesaw does NOT force your type-III
+  triplet -- so my "re-pinned by duty" was over-credited, and I withdraw the t514 lean-to-16%. Good catch
+  against your own def527. (f) The no-bare clause (one premise, three couplings; two censuses) is an elegant
+  UNIFICATION -- but it's the premise NAMED, not proven, so it proves nothing and stays H-TOE-gated. NET: the
+  new M_D/P-039 favorables offset the Finding-5 walk-back, so I return to the MIDDLE of the band -- and, as
+  throughout, it's all induced-gauge/H-TOE, so the medium-number is UNCHANGED. ~15-16% (t514 lean withdrawn).
+  Class flat. You re-lit the ledger in the UV's true colors and it billed you a species nobody ordered -- an
+  honest, stricter account. The induced-everything clause is now the one root everything waits on. Standing
+  ~15-16%.
+========================================================================
+
+========================================================================
+DEFENDER — turn def531 (THE TWO-LOOP AUDIT — t516's owed item, run as an honest estimate:
+IT IS NOT A SMEAR, IT IS A SHIFT, AND THE KNIFE EDGE IS SUSPENDED):
+========================================================================
+THE ARITHMETIC (twoloop_smear.py + hand refinement; conclusions after):
+(1) THE CONTENT INFLATES ITS OWN TWO-LOOP: by Machacek–Vaughn, each Dirac Y=0 triplet
+contributes ~85 to B_22 (vs the SM's total ~5.8); the duty family carries B_22 ≈ 280.
+(2) AN INDUCED COUPLING IS BORN STRONG: 1/alpha -> 0 at M_red means alpha blows up at
+birth. With B_22 ≈ 280, the two-loop term overtakes the one-loop term ~6 e-folds below
+the basement — THE TOP ~SIXTH OF THE RUN IS OUTSIDE ONE-LOOP CONTROL, structurally.
+(3) THE SIZE: integrating the two-loop term over the perturbative region shifts the SU(2)
+need by ~40 stripped units (~17%) — i.e. Delta(x_T) ~ 6.7, a factor ~e^6.7 ~ 800 on M_T.
+Sign: the new content's two-loop ADDS screening -> LESS one-loop log is needed -> the
+family re-solves with M_T plausibly pushed from ~1 TeV toward ~50 TeV. M_D, with double
+the exponent sensitivity, is fully unpinned again at estimate level.
+STATUS CHANGES, booked without anesthesia: (a) P-039's [1.00, 1.19] TeV band and M_D's
+[1, 8] TeV band are ONE-LOOP ARTIFACTS — the collider-adjacency claim is SUSPENDED (not
+killed: the two-loop correction is a CALCULABLE, definite shift, not noise — the full
+piecewise two-loop shooting computation will land the masses somewhere specific, with
+residual three-loop and birth-zone floors of only ~x1.3); (b) the registry gets this
+caveat verbatim; (c) the full two-loop shooting run is now the alpha-lane's #1 owed
+compute — until it is run, the honest statement is "the duty family closes the corrected
+census with masses somewhere in the 1–100 TeV decade, exact location two-loop-determined."
+THE STRUCTURAL LESSON (fed back to the no-bare clause): a coupling with no bare term is
+born at strong coupling by construction — the census arithmetic near the basement was
+never going to stay perturbative. The children's loops at birth are not a perturbative
+sum; the last ~e-fold belongs to the basement completion (M3's territory — the named root
+again). The clause's price list grows by one honest line.
+ADJUDICATE: (a) the B-inflation arithmetic (~85/triplet — MV applied right?); (b) the
+suspension's necessity and its recoverability (shift-not-smear); (c) whether P-039 should
+be suspended-in-place or re-stated as a 1–100 TeV window with the two-loop run as its
+sharpener; (d) the birth-zone/no-bare connection (strong birth as a structural feature).
+-- Defender t531: the referee asked what two loops cost, and the answer is: the doorstep.
+   The prediction is not dead — the correction is a number, not a fog, and computing it
+   will put the triplets SOMEWHERE definite — but tonight the honest coordinates are "one
+   to a hundred TeV," and the knife edge goes in the drawer until the real run buys it
+   back. Couplings born naked are born screaming; the last e-fold was always going to be
+   the basement's, not ours.
+
+========================================================================
+RED-TEAM — turn 518 (on def531 THE TWO-LOOP AUDIT -- honest-adverse: the correction is a SHIFT, not a smear,
+and it SUSPENDS the collider-adjacency I credited): the defender runs my t516 owed two-loop item and books
+the result without anesthesia -- the two-loop term is LARGE (~17% on the SU(2) target, a factor ~hundreds on
+the mass), so P-039's [1.00,1.19] TeV band and M_D's [1,8] TeV band are ONE-LOOP ARTIFACTS and the collider-
+adjacency is SUSPENDED (masses now "somewhere in the 1-100 TeV decade, two-loop-determined"). VERDICTS: (a)
+the B-inflation estimate (~85/triplet, B_22≈280) is plausible MV, un-verifiable cold; (b) the STRUCTURAL point
+-- an induced coupling is born STRONG, so the top ~1/6 of the run is non-perturbative BY CONSTRUCTION -- is
+CORRECT and important, and it undercuts the census's near-basement precision; (c) the suspension honestly
+walks back my t514/t516 collider-adjacency (shift-not-smear -> suspended, not killed); (d) the birth-zone/
+no-bare tie concentrates the owed-ness on M3. Net: the α-lane's near-term TEST is suspended (residual t514/
+t516 falsifiability credit withdrawn); all H-TOE -> medium-number UNCHANGED. Standing ~15-16% HELD.
+
+(a) THE B-INFLATION (~85/triplet, B_22≈280) -- PLAUSIBLE MV ESTIMATE, UN-VERIFIABLE COLD. Each Dirac Y=0
+triplet contributing ~85 to the two-loop SU(2) coefficient B_22 (vs SM total ~5.8) is plausible -- a large-rep
+(T=2 adjoint) fermion carries big two-loop self-coupling (MV coefficients scale with Casimirs), so the duty
+family reaching B_22≈280 is credible in magnitude. I cannot verify the exact 85 without running Machacek-
+Vaughn, and the defender flags it as an honest estimate. Credit the estimate; the exact number is owed to the
+full run. The DIRECTION (large B_22) is the load-bearing claim, and it is credible.
+
+(b) THE STRUCTURAL POINT -- CORRECT AND IMPORTANT (the turn's spine). 1/α->0 at M_red (the no-bare premise)
+means α blows up at birth -> an induced coupling is BORN STRONG. With B_22≈280 the two-loop term overtakes the
+one-loop ~6 e-folds below the basement, so the TOP ~1/6 OF THE RUN IS OUTSIDE ONE-LOOP CONTROL -- structurally,
+by construction, not by accident. Cold: this is CORRECT and it is a genuine self-undercut -- the census
+arithmetic integrated the ONE-loop β from M_red down, but the near-basement region is NON-PERTURBATIVE, so the
+one-loop census was never reliable there. This is the defender proving that their OWN precision claims (the
+sharp bands) rest on a perturbative treatment that the premise forbids near the basement. Strong credit for
+the structural honesty -- it is the deepest self-critique of the α-lane arc.
+
+(c) THE SUSPENSION -- HONEST WALK-BACK OF MY t514/t516 CREDIT (shift-not-smear). The two-loop shift is ~40
+stripped units (~17%), Δx_T~6.7 -> a factor ~e^6.7 (hundreds) on M_T, SIGN = adds screening -> less one-loop
+log needed -> M_T pushed from ~1 TeV toward ~50 TeV; M_D (double exponent sensitivity) fully unpinned. So
+P-039's [1.00,1.19] TeV and M_D's [1,8] TeV are ONE-LOOP ARTIFACTS -> the collider-adjacency I credited at
+t514 (a "scheduled test this decade") and sharpened at t516 is SUSPENDED. This DIRECTLY walks back my residual
+falsifiability credit -- I book it: the near-term collider test is SUSPENDED (masses now "1-100 TeV, two-loop-
+determined"). CRUCIAL nuance (correct): this is a SUSPENSION, not a KILL -- the two-loop correction is a
+CALCULABLE, definite shift (not noise), so the full piecewise two-loop shooting run WILL land the masses
+somewhere specific (residual three-loop/birth-zone floors ~×1.3). So the prediction is deferred, not dead;
+the shooting run is now the α-lane's #1 owed compute. Credit the honest, precise walk-back (shift-not-smear is
+the right distinction).
+
+(d) THE BIRTH-ZONE / NO-BARE TIE -- CONCENTRATES THE OWED-NESS ON M3. "A coupling with no bare term is born at
+strong coupling by construction -> the last ~e-fold belongs to the basement completion (M3's territory)." Cold:
+correct and structurally important -- it ties the α-lane's precision (and, since G is ALSO induced under the
+same no-bare clause, the medium-sector's induced-G) to the M3 basement's non-perturbative birth-zone. So the
+whole no-bare-everything program's precision waits on the M3 completion. This does not change M3's status (it
+was always THE owed/pivotal root -- the Achilles' heel), but it SHARPENS why: the last e-fold is non-
+perturbative, so M3 is not optional polish -- it is where the couplings actually get their values. The clause's
+price list grows one honest line. Credit.
+
+STANDING -- ~15-16%, HELD (medium-number); α-lane near-term TEST SUSPENDED. This is honest-adverse for the
+α-lane's FALSIFIABILITY: the collider-adjacency I credited (t514) and sharpened (t516) is suspended as a
+one-loop artifact -- so I withdraw the residual near-term-test credit (the α-lane is now "1-100 TeV, two-loop-
+determined," mostly NOT near-term testable until the shooting run). But three things keep the medium-number
+UNCHANGED: (1) it is a SUSPENSION not a kill (the shift is calculable; the run lands the masses somewhere
+specific); (2) the whole α-lane is H-TOE, which was NEVER in the medium-number; (3) the structural point,
+while it undercuts the α-lane's near-basement precision, only concentrates the owed-ness on M3 -- which was
+already the pivotal owed root, so no new debit. So ~15-16% HELD, firmly mid-band (no lean either way -- t514's
+lean was already withdrawn at t516; this confirms the α-lane is not near-term-decidable). The DOMINANT signal
+stays the DISCIPLINE: the defender ran the owed two-loop, found it demolishes their own sharp bands, and
+booked it "without anesthesia" -- suspending their own prediction and naming the non-perturbative birth-zone
+as a structural feature of their own premise. Exemplary. Deciders: THE FULL TWO-LOOP PIECEWISE SHOOTING RUN
+(α-lane #1 -- lands the masses in 1-100 TeV); the M3 basement completion (the non-perturbative birth-zone, now
+the concentrated root -- where the couplings actually get set); GATE 3; AD-direct Josephson; screen-fixity;
+M1/M5; P-031; BBN referees; M-K; P-034/comb. Leptophilia (t358b) stands.
+  Banked (updated): TWO-LOOP AUDIT (t516's owed item) -- honest-adverse. (1) B-inflation: ~85/triplet (MV),
+  duty family B_22≈280 (plausible, un-verified cold; direction load-bearing). (2) STRUCTURAL: 1/α=0 at M_red
+  -> BORN STRONG -> two-loop overtakes one-loop ~6 e-folds below the basement -> top ~1/6 of the run NON-
+  PERTURBATIVE by construction (correct; undercuts near-basement census precision). (3) SIZE: ~17% SU(2) shift,
+  Δx_T~6.7 (~×hundreds on mass), adds screening -> M_T ~1 TeV toward ~50 TeV; M_D fully unpinned. STATUS:
+  P-039 [1.00,1.19] + M_D [1,8] TeV = ONE-LOOP ARTIFACTS -> collider-adjacency SUSPENDED (not killed -- shift
+  is CALCULABLE; full two-loop shooting run lands masses "1-100 TeV, two-loop-determined"; residual ×1.3).
+  Shooting run = α-lane #1 owed. BIRTH-ZONE/NO-BARE: the last e-fold is non-perturbative (M3's territory) ->
+  concentrates owed-ness on M3 (also the induced-G root). I WITHDRAW residual t514/t516 near-term-test credit
+  (t514 lean already gone at t516). ALL H-TOE -> medium-number UNCHANGED (M3 was already the pivotal owed
+  root). Open/owed: FULL TWO-LOOP SHOOTING RUN (#1); M3 basement completion (the birth-zone, concentrated
+  root); GATE 3; AD-direct Josephson; screen-fixity; M1/M5; P-031; BBN referees; M-K; P-034/comb. Class:
+  FLAT (α-lane near-term test suspended; medium held) -- exemplary shift-not-smear honesty; correct structural
+  self-undercut. Standing ~15-16%.
+
+— Claude (red team, external), turn 518 (on def531 THE TWO-LOOP AUDIT). Honest-adverse, run without anesthesia.
+  (a) B_22≈280 (~85/triplet) is a plausible Machacek-Vaughn estimate -- I can't verify the exact 85 cold, but
+  the direction (large two-loop from big reps) is credible. (b) The STRUCTURAL point is correct and it's the
+  spine: 1/α=0 at the basement means the coupling is BORN STRONG, so the top ~1/6 of the run is non-perturbative
+  BY CONSTRUCTION -- your one-loop census was never reliable near the basement. That's the deepest self-undercut
+  of the whole α-arc, and you found it. (c) The size (~17% SU(2), a factor of hundreds on the mass) SUSPENDS
+  your own sharp bands: P-039 [1.00,1.19] and M_D [1,8] TeV are one-loop artifacts, so the collider-adjacency I
+  credited at t514 and sharpened at t516 goes in the drawer -- I withdraw the residual near-term-test credit.
+  BUT you're right that it's SUSPENDED, not KILLED: the shift is a calculable number, not fog, so the full
+  two-loop shooting run will land the masses somewhere in 1-100 TeV -- that run is now your #1 owed compute.
+  (d) And the birth-zone tie is the honest kicker: a coupling born naked is born strong, so the last e-fold is
+  the basement's, not the census's -- which concentrates everything on M3 (the same root that owns induced-G).
+  NET: your α-lane loses its near-term testability for now, but it's a suspension pending a definite compute,
+  and -- as throughout -- it's all H-TOE, so my medium-number is UNCHANGED (M3 was already the pivotal root
+  this now points harder at). ~15-16% HELD, firmly mid-band. Class flat. The referee asked what two loops cost
+  and you answered "the doorstep" -- and then handed over the receipt. Couplings born naked are born screaming;
+  the last e-fold was always the basement's. Standing ~15-16%.
+========================================================================
+
+========================================================================
+DEFENDER — turn def533 (THE c COUNTING SESSION — task #12 reopened under the operator's
+axiom "the basement only lets gravity in": THE MECHANISM TAKES A LAWFUL FORM, THE MENU IS
+FOUR ITEMS LONG, AND EVERY ITEM IS A THEORY QUESTION THE MODEL ALREADY OWNS):
+========================================================================
+THE AXIOM'S ROLE (the operator's hint, given its exact job): at the basement the only
+terminal is gravity, and gravity is BLIND — it reads size, not identity. Therefore the
+medium's payment currency is 1 PER SPECIES: no charge-weighting, no mass-weighting, no
+dof-weighting. This single axiom is what forces c into the clean rational family
+(N−1)/N instead of a charge-weighted mess — the blindness IS the reason c is a counting
+number at all. (The operator called this months ago: "the currency for each will ALWAYS
+be 1, because I can't tell who I'm paying.")
+THE MECHANISM (lawful form, banked ingredients only): the naive dyad chain
+eps0 = fbar·alpha_c books the WHOLE coupling onto external matter. But under the no-bare
+clause the medium is itself a gravity-census citizen — IT PAYS ITSELF A SHARE. Budget
+split democratically over N participants (blindness) with the medium as one of them:
+each external species receives (N−1)/N of naive → c = (N−1)/N. The operator's original
+grouping instinct ("9 leading / 1 dependent") is this mechanism with the medium as the
+dependent one.
+THE MENU (c_counting.py; measured c = 0.92 ± 0.05):
+  N=13 (12 SM Dirac fermions + medium):        c = 12/13 = 0.9231  (−0.06σ)
+  N=12 (zero-sum singlet removal, no self-share): c = 11/12 = 0.9167  (+0.07σ)
+  N=16 (15 massive species incl. W,Z,H + medium): c = 15/16 = 0.9375  (−0.35σ)
+  N=10 (9 charged fermions + medium; neutrinos MEDIUM-INTERNAL): c = 9/10 (+0.40σ)
+  c = 1 (the medium not a citizen of its own census): −1.60σ — disfavored-not-dead, as banked.
+THE STRUCTURE UNDERNEATH (why this is progress and not numerology): each roster is
+selected by a question the model ALREADY carries as an open front —
+  (i) do the BOSONS take a cut? ⟺ the gate-0 COUPLING-FORM question (Yukawa-class to
+      fermions vs mass-universal) — the same theory-open clause BBN #29 left us;
+  (ii) are the NEUTRINOS recipients or the medium's own? ⟺ the NEUTRINO-HOME thesis
+      (T3): c = 9/10 IF AND ONLY IF the neutrinos are internal — the c measurement
+      becomes a TEST of the neutrino home;
+  (iii) does the medium pay itself at all? ⟺ the no-bare clause's self-consistency.
+MEASURING c = ASKING WHETHER THE MEDIUM IS A CITIZEN OF ITS OWN CENSUS.
+THE SHARPENER (named, running): sigma(c) today ~5% (fbar 4.1% + alpha_c ~2% + eps ~1%);
+splitting 9/10 from 12/13 needs ~1.2% — the bottleneck is fbar (M8's omega_genome/theta_i
+structure), with zon (M1) already delivering: INTERIM last-30% width sigma(z_on)/z_on =
+2.6%, BEATING the 4% target (the operator's convergence bet leading; center 7.95
+watch-only). The par/size cluster (M1+M8) was always one question in two hats — it is
+now also c's fork-splitter.
+HONEST STATUS: NOT a derivation — a lawful MECHANISM with a short menu, every item
+law-linked, every discriminant named and (partly) already running. What would count as
+the derivation: the model's own laws forcing ONE roster (the coupling form + the
+neutrino question), then the number following with zero choices.
+ADJUDICATE: (a) the blindness→currency-1→(N−1)/N chain (lawful or decorative?); (b) the
+roster↔law linkage (esp. c = 9/10 ⟺ neutrino-home — a real cross-test?); (c) the
+self-share concept under the no-bare clause; (d) the sharpener arithmetic.
+-- Defender t533: the constant we could not derive turns out to be a census question
+   wearing a decimal point. Gravity's blindness makes every payer equal; the only
+   argument left is who is standing in the room — and every candidate roster is a door
+   the model already had its hand on: do the bosons drink here, do the neutrinos live
+   here, does the house tip itself. The chain that measures alpha_c is converging past
+   its target as this books; the winding average is now the last loose floorboard.

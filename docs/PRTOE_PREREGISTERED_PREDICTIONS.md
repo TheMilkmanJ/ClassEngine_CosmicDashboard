@@ -1791,3 +1791,13 @@ NEW predicted species class; (iv) the doublet-only closure needs EXACTLY n = 13 
 1.17 TeV (the dissolved integer returns as a multiplicity floor); (v) honest demotion:
 census-invisible steriles (type-I) could carry the seesaw instead — the type-III triplets
 are the census-VISIBLE option, not forced.
+
+**AMENDMENT 3 (def531, 2026-07-11) — THE KNIFE EDGE IS SUSPENDED PENDING THE TWO-LOOP RUN.**
+The new content inflates its own two-loop coefficients (B₂₂ ≈ 280 vs the SM's ~6; each Dirac
+triplet contributes ~85), the induced coupling is born strong (the top ~6 e-folds of the run
+are outside one-loop control), and the estimated two-loop shift on the SU(2) need is ~17% —
+enough to move M_T from ~1 TeV toward ~50 TeV. The one-loop bands ([1.00–1.19] TeV;
+M_D [1–8] TeV) are therefore ONE-LOOP ARTIFACTS. Honest current statement: the duty family
+closes the corrected census with masses in the 1–100 TeV decade; the exact location is a
+CALCULABLE definite shift (not noise) owed to the full piecewise two-loop shooting run,
+with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recoverable.
