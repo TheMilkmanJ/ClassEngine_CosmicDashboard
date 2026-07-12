@@ -38767,3 +38767,103 @@ notes' compliance.
    lands on it, the number this model was born from stops being a number at all — it
    becomes twenty-seven fifths of alpha over pi, a census times a circle times the one
    constant the vacuum ever learned. And the machine that decides is already flying.
+
+========================================================================
+RED-TEAM — turn 528 (on def541 THE SECOND SWEEP -- f̄=2/π collapses ε to 27α/5π; a MOTIVATED, FALSIFY-FIRST
+rational, mid-flight of its own referee -- but a stack of three UNCONFIRMED bets): the operator's "more secrets
+in epsilon" hunch lands on f̄=2/π (0.06σ from the ramp-corrected 0.635 -- verified), which if it and P-040 both
+live collapses the dyad amplitude to ε=27α/5π=1.2543% (verified). VERDICTS: (a) f̄=2/π is BETTER than cheap
+rational-spotting (motivated by the winding-average closed-form family AND registered falsify-first with the
+deciding ensemble MID-FLIGHT -- the cleanest instance yet), BUT the mechanism has a real SQUARED-vs-RECTIFIED
+gap; (b) the ε=27α/5π collapse is a lawful CONDITIONAL STACK that correctly ANSWERS my t537 dense-family
+objection (each factor its own referee); (c) the grammar (ε = count × geometry × constant) is a genuine
+structural hypothesis, conditional on the three referees; (d) the firewalled notes (3/8, 1/9.2) are compliant.
+Net: the eps-chain reaches MAXIMAL structure but stays UNCONFIRMED (three running bets) -- HOLD ~16% (upper
+end), now imminently decidable. Standing ~15-16%.
+
+(a) f̄=2/π -- MOTIVATED + FALSIFY-FIRST, with a MECHANISM GAP (credit, flag). 2/π=0.63662 sits 0.06σ from
+f̄=0.635±0.026 (verified). This is BETTER than the cheap rational-spotting I've been guarding against, on two
+counts: (1) MOTIVATED -- 2/π is not an exotic rational, it is the textbook uniform-phase average of a rectified
+projection (⟨|cos|⟩ = 2/π), exactly the closed-form family a winding/phase average should live in; (2)
+FALSIFY-FIRST at its cleanest -- registered as P-2026-041 BEFORE the 256-angle × 3-R_i ensemble (mid-flight
+NOW) delivers f̄ to sub-percent precision, so the referee is literally in the air. Strong credit for both. BUT
+COLD -- the mechanism has a real gap: the defender describes f̄ as an average of a "SQUARED radial projection,"
+and ⟨cos²⟩ = 1/2 = 0.5, NOT 2/π (verified). The value 2/π is ⟨|cos|⟩ (RECTIFIED, absolute value), not
+⟨cos²⟩ (squared). So the mechanism-shape as stated points to 1/2, while the claimed number needs the rectified
+average -- the derivation is genuinely OWED and not yet self-consistent on squared-vs-rectified. So: a motivated,
+imminently-testable candidate (0.06σ, physical family, running referee), NOT a derivation -- and the mechanism
+must resolve why rectified not squared. Credit the falsify-first; hold the mechanism gap.
+
+(b) THE COLLAPSE ε=27α/5π -- LAWFUL CONDITIONAL STACK, and it ANSWERS MY t537 OBJECTION (credit). (9/10)(2/π)
+(3α) = 27α/5π = 1.2543% (verified), +1.8% above the production fit 1.232% (inside the posterior width). At
+t537 I objected that ε~1.25% is dense-family degenerate (many (c,α_c) combos land there, so ε doesn't
+discriminate). The defender's answer is correct and it dissolves the objection: the discriminant stack grades
+all THREE factors SEPARATELY -- c=9/10 by zon + the c-roster/neutrino-home; f̄=2/π by the ensemble (P-041);
+α_c=3α by zon (P-040) -- so each factor has its OWN referee, and the product-degeneracy is irrelevant because
+nobody is fitting the product; each factor is predicted and refereed independently. That is the right rebuttal
+to my dense-family flag -- credit it. The collapse is therefore a lawful CONDITIONAL stack of three separately-
+refereed bets: IF all three live, ε=27α/5π. Conditional on all three (none yet confirmed).
+
+(c) THE GRAMMAR (ε = COUNTING × GEOMETRY × CONSTANT) -- STRUCTURE-IF-THE-BETS-LIVE (credit, conditional).
+The claim: the three factors are the medium quoting its three languages -- counting (9/10, the census),
+geometry (2/π, the phase average), and the one external constant it reads (3α) -- so "nothing in ε is native
+to ε; every factor is inherited," and the amplitude "was never a parameter, it was a sentence." Cold: IF the
+three factors are each independently derived, this is a genuine STRUCTURAL statement (ε is a product of
+pre-existing quantities, zero native parameters), not poetry. Currently each factor is a bet/candidate, so it
+is structure-IF-the-three-referees-confirm -- a testable structural hypothesis, not mere narrative (there is a
+falsifiable claim under it), but not yet confirmed structure. Credit the hypothesis; flag it rides on the three
+running referees.
+
+(d) THE FIREWALLED NOTES -- COMPLIANT (credit the discipline). T_c/m_e=0.3776 vs 3/8=0.375 (0.69%, verified);
+T_γ/T_c~1/9.2 (watch-only, meaningless pre-zon). Both LOGGED, NO claims, neither registered -- per the 5/6
+discipline. Correct: these are loose post-hoc rationals (0.7% is cheap), correctly parked awaiting mechanisms-
+or-deaths. The discipline is exactly right -- only the MOTIVATED + TESTABLE rational (2/π, with a family and a
+running referee) got registered; the cheap ones stay firewalled. Credit the selectivity.
+
+STANDING -- ~16% (upper end), HELD; the eps-chain reaches MAXIMAL structure but stays UNCONFIRMED (three
+running bets), now imminently decidable. This is the medium-sector's core number (ε) reaching its cleanest
+possible form: ε=27α/5π, a fully-factored product of three separately-refereed falsify-first bets, with my
+t537 dense-family objection correctly dissolved (separate referees per factor). That is a genuine favorable
+CONSOLIDATION -- the amplitude is now a clean, testable structure rather than a fitted parameter. BUT the
+number holds, not jumps, because it adds no CONFIRMED support: all three factors are still BETS -- c=9/10
+consistent-not-preferred (data leans 12/13), f̄=2/π a mid-flight bet with a squared-vs-rectified mechanism gap,
+α_c=3α 2.3% from the current band -- and the whole stack is conditional on the mechanism (M3). What HAS changed
+is that the eps-chain is now IMMINENTLY DECIDABLE: the f̄ ensemble lands within hours (grades P-041), zon
+converges (grades P-040 AND the c-roster), and the fixed-eps PolyChord scores the assembled ε. So the model is
+poised -- the next turns could genuinely move the number (up if the bets land on 2/π and 3α, down if they
+miss). I do NOT pre-credit the bets; I credit the falsify-first discipline (register before the referee lands)
+and hold ~16% pending the verdicts. Deciders (now firing): the f̄ ensemble (P-041, 2/π -- hours); zon/M1
+(P-040 α_c=3α + the c-roster 9/10-vs-12/13); the fixed-eps PolyChord Δ-lnZ (derived stack); M3 (the one root);
+the f̄=2/π mechanism (rectified-not-squared); the comb (n); Cards 4/6; ρ_inf; two-loop shooting (α-lane); GATE
+3; M-K; P-034/comb. Leptophilia (t358b) stands.
+  Banked (updated): SECOND SWEEP -- f̄=2/π (0.63662, 0.06σ from 0.635±0.026, verified) MOTIVATED (⟨|cos|⟩=2/π,
+  the rectified winding-average family) + FALSIFY-FIRST (P-2026-041, registered while the 256×3 ensemble is
+  MID-FLIGHT -- cleanest instance). MECHANISM GAP: defender says "squared" but ⟨cos²⟩=1/2, not 2/π=⟨|cos|⟩ --
+  rectified-vs-squared owed. COLLAPSE (if P-040+P-041 live): ε=(9/10)(2/π)(3α)=27α/5π=1.2543% (verified), +1.8%
+  vs fit 1.232%. ANSWERS my t537 dense-family objection: three factors SEPARATELY refereed (c by zon/roster,
+  f̄ by ensemble, α_c by zon) -> product-degeneracy irrelevant. GRAMMAR: ε = counting × geometry × constant,
+  inherited-not-native -- structural hypothesis conditional on the three referees. FIREWALLED (compliant, no
+  claims): 3/8 vs T_c/m_e (0.7%), 1/9.2 (pre-zon). Eps-chain at MAXIMAL structure, UNCONFIRMED (3 bets: c
+  consistent-not-preferred, f̄=2/π mid-flight, α_c 2.3% off), conditional on M3; IMMINENTLY DECIDABLE (ensemble
+  hours; zon converging). MEDIUM-sector. Open/owed: f̄ ensemble (P-041); zon (P-040 + c-roster); fixed-eps
+  PolyChord; M3; f̄=2/π mechanism (rectified); comb; Cards 4/6; ρ_inf; two-loop shooting; GATE 3; M-K;
+  P-034/comb. Class: FAVORABLE-MILD (maximal eps-chain structure + t537 objection dissolved; unconfirmed,
+  imminently decidable) -> HOLD ~16% (upper end).
+
+— Claude (red team, external), turn 528 (on def541 THE SECOND SWEEP). f̄=2/π is the good kind of rational, and
+  I verified it: 0.06σ from your ramp-corrected 0.635, and 2/π isn't an exotic ratio -- it's ⟨|cos|⟩, the
+  textbook uniform-phase average, exactly the family a winding average should inhabit. And you registered it
+  (P-2026-041) with the deciding ensemble already in the air -- that's falsify-first at its cleanest; strong
+  credit. TWO holds: (1) your mechanism says "squared radial projection," but ⟨cos²⟩=1/2, not 2/π -- the value
+  you want is the RECTIFIED average, so the derivation owes you an account of why |·| not (·)²; (2) it's still
+  a bet until the ensemble lands. The collapse ε=27α/5π=1.2543% checks out, and -- importantly -- it ANSWERS my
+  t537 dense-family objection: because each factor (9/10, 2/π, 3α) has its OWN referee (zon+roster, the
+  ensemble, zon), nobody's fitting the product, so the degeneracy I worried about is gone by construction. Nice.
+  The grammar reading (ε = a count × a circle × the one constant the vacuum learned) is a real structural claim
+  IF the three bets live -- testable, not just pretty. And you kept 3/8 and 1/9.2 firewalled, registering only
+  the motivated+testable one -- correct selectivity. NET: your core number is now the cleanest structure it
+  could be -- but it's three unconfirmed bets on a conditional stack, so I HOLD ~16% (upper end), not jump. What
+  HAS changed: the eps-chain is now imminently decidable -- the ensemble in hours, zon converging -- so the
+  next turns can actually move this, up or down. Register the bet, fly the referee, and let it land. Standing
+  ~15-16% (leaning ~16%).
+========================================================================
