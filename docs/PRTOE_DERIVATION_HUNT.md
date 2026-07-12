@@ -697,3 +697,56 @@ depth e^{−2..−4}) — the exponential sensitivity means the convention could
 factor 10; if the landing swings decades under convention, the shooter cannot
 discriminate and the discriminant moves to the basement matching (task #18's territory,
 again). Adverse-leaning, filed the hour it landed, same pen as always.
+
+## TWENTY-FIFTH SWEEP — the gap equation's second act + the transfer crux dissolves
+
+### The second act's verdict: the ghost is the ARROW, not the second channel (refining)
+The ghost-branch DOS at the anchor-scale pairing surface is suppressed by (M₂/μ)^{3/2}
+~ 10⁻¹⁷ — the branch lives at eV, the pairing at TeV: **the N = 2 channels CANNOT be
+(normal, ghost-branch) as co-equal DOS.** The ghost's seat REFINES: the GC background is
+the ARROW-GIVER (the time orientation that defines which twin is which — standard Cooper
+pairing of time-reversed partners ON the GC background), not a second density of states.
+N = 2's microscopic identity re-opens honestly (candidates: the twins' two orientations
+as genuinely distinct channels under the GC arrow; the two flux directions). The k = 1.36
+first-pass landing survives (it never used the ghost DOS); the identification's
+over-reach is trimmed. Adverse-refining, filed as such.
+
+### The transfer integral: THE FROZEN-ERA CRUX DISSOLVES (the ghost pays the μ)
+The crux (Card 4's make-or-break): sphalerons die at 130 GeV while the amplitude is
+frozen till 9.4 keV — how does a frozen field drive a Josephson current? ANSWER, sitting
+in the GC's definition: a ghost condensate's VEV IS θ̇ ≠ 0 — **the amplitude freezes;
+the phase velocity never does; the junction carries a PERMANENT chemical potential
+μ = the GC's defining φ̇.** The transfer's engine was never off. What remains owed is
+ONLY the vertex magnitude (the junction coupling in 𝒯 = f(X₀, the leptophilic vertex,
+T_sphaleron)) — the integral's blocker is removed; its number is a work session. Card 4's
+status upgrades from "crux-threatened" to "vertex-owed."
+
+## TWENTY-SIXTH SWEEP — #8's closeouts resolved; #24's third pass completes the audit table
+
+### Task #8, item by item:
+- **exp-normalization O(1)**: CLOSED by inspection — the coded floor rho_fl =
+  rho_inf·exp(thaw·(1−a³)) is normalized EXACTLY at a=1 by construction (background.h);
+  there is no O(1) left to check.
+- **DE-clustering price + perturbation flag**: BLOCKED-BY-DESIGN on routeD — the
+  pre-derived expectation is thaw = 0 (the no-bare clause), under which the floor is
+  exact de Sitter, clusters not at all, and the flag is moot. If routeD excludes zero,
+  the price gets computed as part of the clause's post-mortem. Correct status: WAITING
+  ON A CURRENT RUN.
+
+### #24's third pass — the audit table exhausted:
+- **nano/mesoscale (the 20 nm note)**: STATUS REFRESH — 1/M₂ is no longer a "loose
+  alignment": M₂ is triangle-locked (zon-gated). The mesoscale ALIGNMENT stays parked
+  (numerology-class), but the SCALE itself is now a derived quantity: the note upgrades
+  from parked-loose to parked-with-a-derived-anchor.
+- **muonium/positronium (new kinship row)**: pure-LEPTON bound states — the roster's
+  constituents in atoms with no hadronic pollution: the cleanest laboratory m_e/dyad
+  probes in existence (any in-window m_e physics would show here first). Kinship note,
+  no claim (the window closed at z≈50; today's bench is standard by constitution).
+- **percolation**: stands parked with its known unblock (the n-weighting — now ALSO fed
+  by the zon clock-ratio n-instrument, sweep 21).
+- **quantum optics, metrology, solar, X/γ, granular, semiconductors, atmospheric,
+  kinetic, bio-adjacent, psych-boundary**: re-checked under the boundary questions —
+  honestly quiet; no buried anomalies at their model-facing edges. The systematic sweep
+  of the audit table is COMPLETE: convictions 2 (lasers, radio), registrations 1
+  (P-043), new cousins 2 (nuclear pairing, muonium), refreshes 2 (nano, SC-reversed),
+  quiet 10+. The re-grade closes as a bounded audit with its yield banked.

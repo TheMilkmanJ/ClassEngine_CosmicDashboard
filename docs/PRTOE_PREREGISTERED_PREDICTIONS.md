@@ -1928,3 +1928,23 @@ radiometers) and SKA-era cosmic dawn. **Kills:** a measured trough ~5% SHALLOWER
 standard (wrong sign); the window's low edge moving off z ≈ 50 enough to exit decoupling
 (breaks the mechanism); estimate-grade caveat: the full RECFAST-class thermal-history run
 is owed and may move the % by O(1) factors — the SIGN is the registered content.
+
+---
+## REGISTRY STATUS SWEEP (2026-07-12, consolidated — the anti-staleness block)
+- **P-2026-039** (type-III triplets ~1 TeV): SUSPENDED (two-loop, def531) → shooter v2
+  now lands the census triplets at 13–20 TeV under edge-matching: the collider-visible
+  branch is ADVERSE-LEANING pending the edge-convention audit (hunt, sweep 24).
+- **P-2026-040** (α_c = 3α): LIVE — referee upgraded to the DISPERSION zon chain; the
+  z_on corollary's lineup is RETIRED pending the two-clock re-derivation (strike 7);
+  the triangle (M₂, x₀, ρ_Λ) rides this chain.
+- **P-2026-041** (f̄ = 2/π): MECHANISM WALKED BACK (sweep 18: the rectified estimator
+  ≠ 2/π in-sim; the flux shortcut failed) — the VALUE claim stands, un-mechanized,
+  awaiting the 256×3 ensemble's squared-estimator precision. The speed-weighted retrial
+  runs.
+- **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND; arrow C (the census
+  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
+  C fell or the convention did.
+- **P-2026-043** (the cosmic-dawn trough, ~5% deeper): FRESH — estimate-grade, sign is
+  the content, full thermal-history run owed.
+- All other entries: statuses unchanged from their last amendments; the birefringence
+  visibility note (vs the claimed EB rotation) and the neutrino block stand as written.
