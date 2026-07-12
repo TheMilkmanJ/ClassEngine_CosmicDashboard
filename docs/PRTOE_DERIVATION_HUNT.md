@@ -1188,3 +1188,24 @@ Leggett equations (gap + number, contact regularization) solved across 1/(k_F a)
 weak-coupling gap (the anchor's regime — the hierarchy's shape) through unitarity to
 μ < 0 bound pairs (the floor's regime — one-per-cell, the CC's shape). **The
 clearinghouse operates in both regimes: the settlement terms contain the crossover.**
+
+### Sweep 43 completion — THE BRIDGE IS THE MODEL'S OWN SOUND CONE [ESTIMATE grade]
+
+The named retardation candidate computed IMMEDIATELY, and every ingredient was already
+banked: for a sound-mode-mediated pairing, the gap's prefactor is the pairing BANDWIDTH
+ω_c = c_s·(2k_F) — the mode's max frequency over the pair-momentum span (the same 2k_F
+the Lindhard integral runs to) — not the full surface scale. With the banked
+c_s = √α_c: **ln(E_F/ω_c) = 1.218** vs the bridge's needed ~1.2. The target moves:
+k_target(bandwidth) = 1.259 / 1.326 / **1.353 (banked 4π)** / 1.381 across the
+convention menu, ± ~0.04 per O(1)-prefactor ln-unit. Against the prescription-robust
+computed **k = 1.36: a 0.5% landing, inside the honesty band.**
+
+THE CIRCLE, named: c_s = √α_c is the low-k limit of the operator's own sweep-39
+construction (the BCS ground state in ledger grammar) — the settlement law's own output
+supplied the settlement terms' bridge. Zero dials: the log (banked), N=2 (the twins,
+structural), the screening class (the pinch, forced), c_s (banked), the 2k_F span
+(standard). GRADE: [ESTIMATE] — the O(1) BCS prefactor spread (±0.04) spans the
+residual; an Eliashberg-grade session remains nameable as REFINEMENT, no longer as
+bridge. Task #18's gap-equation act: **menu collapsed, crossover contained, landing
+achieved.** The trial's residue is the roster's full N (A_s's payroll) — the one door
+still marked WHO LIVES DOWNSTAIRS.
