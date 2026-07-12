@@ -1735,3 +1735,44 @@ un-flip of the marginal b₂ = −0.167 (the fragility check, owed).
 **Scope (honest, per t504):** MULTIPLY-CONTINGENT — lives inside H-TOE's induced-gauge premise
 (Gate-1-class); the "5" is FIXED-NOW as a prediction, not retrodicted. It recovers M3's
 α-prong and gives H-TOE its first collider-facing test.
+
+**AMENDMENT (def521/def523/def525, 2026-07-11) — THE "5" IS WITHDRAWN; CONTENT SURVIVES,
+COUNT DOES NOT.** The third check (induced sin²θ_W, def521) broke the two-vote basis: the
+flip's vote was conditional on log-induced SU(2), and the induced α₂ came out ~30× too
+strong. The ramped piecewise reopening (def523: doublets decouple at M_E; the running is
+two-segment) then dissolved the log-rigid 13 itself — the census becomes a two-equation
+system in (n, rep, M_E). The joint solve (def525) closed the system: NO single relic-legal
+rep works (exact closure needs illegal Y at every dimension; the theorem-saturating Y=0 reps
+sit 6.9% under, beyond two-loop reach ~1.9%), but TWO legal species close it exactly and
+abundantly (~10³ solutions, n ≤ 15) — minimal flagship: 1 vector-like lepton doublet
+(Y = ½) at 3.3 TeV + 3 wino-like Y=0 triplets at ~1.1 TeV, all integer charges, zero relic
+bill. STANDING CLAIM (replaces the "5"): the induced-gauge premise REQUIRES new
+electroweak-charged vector-like matter below M_red — the content is the prediction;
+multiplicity and rep-type are model-building unknowns until the portal's other duties
+(the AD-direct transfer, the seesaw) select among the solutions. The collider-facing flavor
+survives: the minimal solutions sit at 1–3 TeV.
+
+## P-2026-039: Three Type-III Seesaw Triplets at ~1 TeV (registered def527, 2026-07-11)
+
+**The claim:** the induced-gauge closure (def525's joint solve), duty-pinned by the model's
+own hiring needs (Card 6's seesaw + Card 7's portal), predicts **exactly three wino-like
+Y=0 fermion triplets** — the type-III seesaw mediators — at **M_T = 1.07 TeV central, band
+0.4–2.6 TeV** (two-loop + input uncertainties). The count is forced from both sides: the RG
+system REFUSES n_T = 2 (solves to 22 keV, absurd), the seesaw refuses n_T < 2; the minimal
+joint content is 3 — equal to the generation count by a route that never consulted it.
+
+**What is and is not predicted:** M_T is ROBUST (stable across n_D = 1–5, factor ~2.5 band);
+the accompanying vector-like doublet's mass is NOT predicted (exponentially sensitive to the
+two-loop difference — nominal 3.3 TeV, honest range 10³–10⁶ GeV). The triplet Yukawa needed
+for m_ν = 0.05–0.09 eV (P-023's band) is y ~ 1.5×10⁻⁶ — electron-class, no new tuning.
+
+**Kills:** (i) HL-LHC/future type-III searches exhausting the band (current limit ~0.9–1.0
+TeV — the window is a factor ≲2.6: this prediction is SCHEDULED, not safe); (ii) any
+demonstration that the triplets cannot carry the seesaw while the doublet carries the portal
+(duty conflict); (iii) the full two-loop run pushing M_T outside collider reach (that kills
+the sharp version and reverts to "content required, unpinned").
+
+**Scope (honest):** lives inside H-TOE's induced-gauge premise (Gate-1-class), THIRD in the
+contingency chain (premise → closure → duty-pin) — but it is the chain's first knife-edge
+collider number, leptophilic per t358b, and the neutral members self-dispose via the seesaw
+Yukawa (no relic bill).

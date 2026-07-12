@@ -37320,3 +37320,369 @@ becomes a second unknown). THE RAMPED SYSTEM (two segments, both couplings, thre
    with one key. Ramped, the lock takes a keyring — and the strangest key on it, a doublet
    with half-charges, turns to within eight percent. The door is not open; but it is no
    longer bricked, and the bill for opening it is written on the relic sky.
+
+========================================================================
+RED-TEAM — turn 508 (on def521 THE THIRD CHECK RUN -- the recovery breaks, honestly): a MASTERCLASS in
+self-red-teaming -- the defender ran the sin²θ_W check (calibrating the convention against 137 first),
+CONFIRMED the def519 failure forecast, then KILLED their own two rescue lanes -- outcome (i) DEAD BY A
+GROUP-THEORY THEOREM (ΣQ² ≥ T(R)) and (3a) DEAD BY ABSURDITY (Λ₂~e^1100) -- leaving only an un-computed
+condensation-born SU(2) (3b), and DEMOTED their own P-038 (two-vote -> one-vote) straight. VERDICTS: (a) the
+theorem is CORRECT and permanently closes lane (i); (b) 3b is borderline grammatical/convenient (native to a
+pairing medium, but un-computed + a mechanism-switch when the log failed); (c) the P-038 demotion is honest;
+(d) the convention-validation method is exemplary. This walks back the t504 slight-favorable (the α-lane's
+clean recovery is broken), but H-TOE was never counted -> medium-number UNCHANGED. Standing ~15-16% HELD
+(α-lane back to precarious; discipline exemplary).
+
+THE CONVENTION + TENSION -- VERIFIED, THE FAILURE CONFIRMED. Calibrating d(1/α)/dlnμ = b/2π against 137 first
+is exactly the right method: b_EM(13)=(4/3)×13=17.33, ×ln(M_red/m_e)~49.9 /2π = 137.7 ✓. Then the SAME
+convention gives 1/α₂ = |b₂|·ln(Λ/M_Z)/2π = 0.167×37.8/2π ≈ 1.0 -> α₂≈1, ~30× TOO STRONG (measured 0.034).
+Fixing α₂ needs |b₂|≈4.9 -> n≈12 -> EM count 8+12=20 -> α⁻¹≈211, not 137. CONFIRMED: no single-n satisfies
+both logs at one cutoff (the def519 forecast holds). Credit the careful, convention-validated computation
+that confirms the adverse outcome.
+
+OUTCOME (i) -- DEAD BY THEOREM (strong credit, a self-closed escape). Σ_R Q² = T(R) + d(R)·Y² ≥ T(R) for
+every SU(2) rep (Q=T₃+Y, ΣT₃=0 -> the cross term vanishes, d(R)·Y²≥0; color scales both sides). So no
+content can EVER screen SU(2) (add T(R)) faster than it charges EM (add ΣQ²) -- the asymmetry the rescue
+needed (T-heavy, EM-light) is GROUP-THEORETICALLY IMPOSSIBLE for elementary matter. Correct, and it closes
+the cleanest lane PERMANENTLY. This is the defender proving their OWN rescue impossible by algebra -- the gold
+standard of self-red-teaming. Strong credit.
+
+OUTCOME (3a) -- DEAD BY ABSURDITY. Matching α₂ with the marginal |b₂|=0.167 needs ln(Λ₂/M_Z)≈1113 -> Λ₂~
+e^1100·M_Z -- physically absurd. Dead. (Checks: 29.6×2π/0.167≈1113.) Credit.
+
+THE SURVIVOR (3b) -- CONDENSATION-BORN SU(2): BORDERLINE (grammatical AND convenient), UN-COMPUTED. The
+escape: SU(2) is NOT log-induced -- its coupling is set by BCS-class pairing/gap dynamics (a condensate's
+second way to make a force). GRAMMATICAL ARGUMENT (fair): the model IS a pairing condensate, so a
+condensation-born force is native to its grammar, not an ad hoc bolt-on. BUT COLD: (i) it is UN-COMPUTED --
+the gap-equation estimate giving α₂~1/30 is owed (heavy, un-run); (ii) it is a MECHANISM-SWITCH invoked
+precisely when the induced-log route FAILED -- so it is grammatical AND convenient, and it only escapes
+"convenient relabeling" IF the gap equation actually COMPUTES α₂~1/30 (not "the pairing gives whatever α₂
+needs"). So the survivor is a POSSIBLE mechanism, owed a real computation; credit the grammar (native to a
+pairing medium) but flag it un-computed + switch-motivated.
+
+THE CASUALTY -- P-038 DEMOTED STRAIGHT (honest). The def517 recovery's STRENGTH was "TWO independent
+constraints (the b₂-flip + the EM count) both pick n=5" (which I credited at t504). If SU(2) is condensation-
+born (3b), the b₂-flip requirement EVAPORATES -> the second vote for n=5 is GONE. Survives: the EM count still
+needs +5 e-units (content required, but the COUNT is now un-voted-for -- 5 e-units could be other content),
+and the vector-like doublets stay the model's natural candidates (Card 7's three prior reasons). So "two
+independent votes pick 5" degrades to "one constraint needs +5; the second vote was conditional on a premise
+the third check disfavors." P-038's basis WEAKENS, booked verbatim into the registry. Exemplary honesty (the
+defender demotes their own prediction).
+
+STANDING -- ~15-16%, HELD (α-lane back to precarious; medium-number unchanged). This WALKS BACK the t504
+slight-favorable: the clean 8+5=13 convergence is BROKEN (the third check fails; the log-induced SU(2) route
+is dead), the cleanest rescue (asymmetric reps) is DEAD BY THEOREM, and the survivor is an UN-COMPUTED
+condensation-born mechanism -- with P-038 demoted to a one-vote basis. So the α-lane is back to precarious/
+adverse (the clean recovery died; a fragile un-computed escape + a weakened prediction remain). BUT it is all
+in H-TOE -- the medium-number was never in this, so it is UNCHANGED (~15-16%). Net over the arc
+(t502-fail -> t504-recover -> t519-rerisk -> t521-recovery-broken): the α-lane returns to roughly adverse,
+the medium-number holds throughout. The DOMINANT signal is the DISCIPLINE: a defender who kills their own
+recovery's escapes by a group-theory THEOREM and by absurdity, confirms the forecast failure, and demotes
+their own prediction -- this is the review functioning at its best. Strong credit. Deciders: the condensation-
+born α₂ gap-equation (does it compute 1/30?); P-038 (now one-vote, collider); the M3 basement; GATE 3;
+AD-direct Josephson; screen-fixity; M1/M5; P-031; BBN referees; M-K; P-034/comb. Leptophilia (t358b) stands.
+  Banked (updated): THIRD CHECK RUN -> def517 CLEAN RECOVERY BROKEN. Convention validated (b/2π gives 137 at
+  N=13). Tension CONFIRMED: 1/α₂(n=5)≈1.0, ~30× too strong; α₂ wants n~12 -> EM count breaks (α⁻¹~211). No
+  single-n. OUTCOME (i) asymmetric reps DEAD BY THEOREM (ΣQ²=T(R)+d(R)Y² ≥ T(R) -> can't screen SU(2) faster
+  than charge EM -- permanent). (3a) per-factor cutoffs DEAD BY ABSURDITY (Λ₂~e^1100). SURVIVOR (3b):
+  CONDENSATION-BORN SU(2) (BCS-class, native to a pairing medium -- grammatical BUT un-computed + switch-
+  motivated; gap-equation α₂~1/30 owed). P-038 DEMOTED: two-vote convergence -> one-vote (b₂-flip vote
+  evaporates; EM count still needs +5 but un-voted-for; Card-7 doublets remain natural candidates) -- booked
+  verbatim. Walks back t504's slight-favorable (α-lane precarious again); H-TOE-space -> medium-number
+  UNCHANGED. Open/owed: condensation-born α₂ gap-equation; P-038 (one-vote); M3 basement; GATE 3; AD-direct
+  Josephson; screen-fixity; M1/M5; P-031; BBN referees; M-K; P-034/comb. Class: FLAT (α-lane back to
+  precarious; medium-number held) -- exemplary self-red-teaming (theorem + absurdity + honest demotion).
+  Standing ~15-16%.
+
+— Claude (red team, external), turn 508 (on def521 THIRD CHECK RUN). A MASTERCLASS -- you ran the sin²θ_W
+  check (calibrating the convention against 137 first -- exactly right), CONFIRMED it fails (1/α₂(n=5)≈1.0,
+  ~30× too strong; α₂ wants n~12 which breaks the EM count -> α⁻¹~211), and then KILLED YOUR OWN rescue lanes:
+  (i) asymmetric reps DEAD BY THEOREM -- ΣQ²=T(R)+d(R)Y² ≥ T(R), so no content can screen SU(2) faster than
+  it charges EM; the T-heavy/EM-light asymmetry is group-theoretically impossible. Correct, permanent, and
+  proving your own escape impossible by algebra is the gold standard. (3a) per-factor cutoffs DEAD BY
+  ABSURDITY (Λ₂~e^1100). The SURVIVOR (3b) -- SU(2) condensation-born (BCS-class) -- is fairly argued as
+  GRAMMATICAL (you ARE a pairing medium) but is UN-COMPUTED and switch-motivated (invoked when the log route
+  died), so it only beats "convenient" IF the gap equation actually computes α₂~1/30. And you DEMOTED P-038
+  yourself, straight: without the b₂-flip, "two independent votes pick 5" becomes "one constraint needs +5,
+  un-voted-for" -- honest. NET: this walks back my t504 slight-favorable (the clean recovery is broken, the
+  α-lane precarious again), but H-TOE was never in the number, so the medium-claim probability is UNCHANGED.
+  ~15-16% HELD. Class flat. Algebra closed the pretty door and absurdity the cheap one -- and you did the
+  closing. The five keep their jobs and lose a letter; the review is working exactly as it should. Standing
+  ~15-16%.
+========================================================================
+
+========================================================================
+RED-TEAM — turn 510 (on def523 THE FOURTH STRIKE -- the ramp reopens the third check): the step-vs-ramp rule
+(mine) strikes a fourth time, SYMMETRICALLY -- it reopens def521's DEATH (as it reopened the MOND kill at
+t428), and legitimately: def521's single-segment running was a "step"; the doublets decouple at M_E -> the
+running is PIECEWISE. VERDICTS: (a) the piecewise setup is valid; (b) def521's death SURVIVES for the def517
+species (Y=±1/2: 458 vs 247), BUT the theorem-SATURATING Y=0 rep (Q=±1/2) comes within 8% (494 vs 458) --
+so "dead by theorem" is corrected to "the max-efficiency rep is ALMOST enough," at the cost of a serious
+FRACTIONALLY-CHARGED-RELIC bill; (c) the fourth strike is validated (binary + single-segment both hid
+structure). The α-lane OSCILLATES AGAIN (broke -> reopened-near-8%) -- but it is ALL in H-TOE, so the
+medium-number is UNCHANGED. Standing ~15-16% HELD.
+
+(a) THE PIECEWISE SETUP -- VALID STEP-CATCH (fourth strike, credit). def521 ran the couplings SINGLE-SEGMENT
+(constant b over the whole m_e->M_red log). But the vector-like doublets have a mass M_E and DECOUPLE below
+it -> the running is PIECEWISE (SM+doublets above M_E, SM below), with M_E a second unknown. So def521's
+single-segment count was a step-approximation; the piecewise treatment is the ramp. Legitimate application of
+the rule -- and SYMMETRIC (the rule reopens a DEATH here, as it reopened the MOND kill at t428; it cuts both
+ways, which is correct). Credit the fourth strike. AND the binary (induction-vs-condensation) is also a step:
+the ramp says it's a CROSSOVER (induction above thresholds, condensation possibly below) -> 3b and (i) are
+NOT exclusive (they can co-operate) -- fair, so 3b stays parked in parallel.
+
+(b) THE Y=0 NEAR-SOLUTION -- GENUINE 8%, BUT IT BUYS A RELIC BILL. For the def517 SPECIES (Y=±1/2), the
+x-dependence cancels and def521's DEATH SURVIVES (458 vs 247 -- still dead). So the ramp does NOT save the
+original rep. What it EXPOSES is rep-dependence: Y=0 doublets (members Q=±1/2) SATURATE the ΣQ²≥T(R) theorem
+(equality iff Y=0 -> the MAXIMAL-efficiency rep: charges EM the least per unit of SU(2) screening) -> ΣQ²=n/2,
+and the joint system gives EM n·x=494 vs SU(2) 458 -- an 8% NEAR-solution, within uncomputed refinements
+(two-loop, Higgs-Y, threshold shapes). So def521's "outcome (i) DEAD by theorem" is CORRECTED: the theorem
+BOUNDS it, and the bound (Y=0 saturation) is ALMOST enough (8% off), not zero. Genuine and honest. BUT THE
+BILL: colorless Q=±1/2 states are FRACTIONALLY-CHARGED RELICS -- among the most strongly EXCLUDED objects in
+cosmology/particle searches (stable fractional charges are ruled out to extreme levels) unless bound/confined/
+unstable. So the Y=0 near-solution REQUIRES a confinement or instability mechanism for the Q=±1/2 states -- a
+serious NEW owed constraint. So it is "8% close, with a dangerous relic bill" -- a precarious near-solution,
+not a clean recovery. Credit the honest flagging of the bill.
+
+(c) THE FOURTH STRIKE -- VALIDATED. Both step-approximations (the binary induction-vs-condensation; the
+single-segment running) hid real structure (the crossover; the rep-dependence + M_E). The ramped view exposes
+both. So the rule's fourth strike is legitimate. And it converts def521's clean fork into a RAMPED member
+((i-ramped): the joint n/Y/M_E/two-loop solve -- OPEN, a real constrained model-building problem, queued),
+with 3b parallel and P-038's multiplicity re-opened (rep-type now part of the unknown). Fair.
+
+STANDING -- ~15-16%, HELD (α-lane oscillates again; medium-number unchanged). The α-lane / H-TOE Gate 2 has
+now oscillated across the arc: t502-fail -> t504-recover(2-vote) -> t519-rerisk -> t521-broke(theorem+absurdity)
+-> t523-REOPENED(Y=0 within 8%, relic bill). So it is genuinely UNSETTLED -- a near-solution (Y=0, 8%) exists
+but buys a fractionally-charged-relic problem, and the clean solve (n, Y, M_E, two-loop, no dangerous relic)
+is OWED. CRUCIALLY, this whole drama is in H-TOE -- which I have correctly kept OUT of the medium-number
+throughout -- so the MEDIUM-CLAIM PROBABILITY is UNCHANGED (~15-16%) across all the oscillation. So HOLD
+~15-16%. The dominant signal remains the DISCIPLINE (killing by theorem, reopening by the rule, flagging the
+relic bill -- all honest and symmetric). Deciders: the joint (i-ramped) solve (n/Y/M_E/two-loop -- does a
+NON-relic-dangerous rep close it?); the Y=0 relic bill (confinement/instability); 3b condensation gap-equation;
+P-038 (rep-type + multiplicity); the M3 basement; GATE 3; AD-direct Josephson; screen-fixity; M1/M5; P-031;
+BBN referees; M-K; P-034/comb. Leptophilia (t358b) stands.
+  Banked (updated): FOURTH STRIKE of the step-vs-ramp rule (SYMMETRIC -- reopens def521's death). Piecewise
+  running (doublets decouple at M_E) valid. Y=±1/2 (def517 species): def521 DEATH SURVIVES (458 vs 247).
+  Y=0 rep (Q=±1/2, theorem-SATURATING): 494 vs 458 = 8% NEAR-solution (within two-loop/Higgs-Y/threshold
+  refinements) -> def521's "dead by theorem" CORRECTED to "the saturating rep is almost enough." BILL:
+  colorless Q=±1/2 = FRACTIONALLY-CHARGED RELICS, strongly excluded unless confined/unstable (serious new
+  owed constraint). Fork gains (i-ramped): the joint n/Y/M_E/two-loop solve, OPEN; 3b condensation parallel;
+  P-038 re-opens with rep-type unknown. α-lane OSCILLATES (broke->reopened); ALL in H-TOE -> medium-number
+  UNCHANGED. Open/owed: (i-ramped) joint solve; Y=0 relic bill; 3b gap-equation; P-038; M3 basement; GATE 3;
+  AD-direct Josephson; screen-fixity; M1/M5; P-031; BBN referees; M-K; P-034/comb. Class: FLAT (α-lane
+  reopened but unsettled + relic-billed; medium-number held) -- valid symmetric fourth strike; honest relic
+  bill. Standing ~15-16%.
+
+— Claude (red team, external), turn 510 (on def523 FOURTH STRIKE). The step-vs-ramp rule strikes a fourth
+  time, and SYMMETRICALLY -- it reopens YOUR OWN death-verdict (def521), as it reopened the MOND kill at t428;
+  the rule cutting both ways is correct. Valid catch: def521 ran SINGLE-SEGMENT, but the doublets decouple at
+  M_E -> the running is PIECEWISE (M_E a second unknown). Verdicts: for the def517 species (Y=±1/2) def521's
+  death SURVIVES (458 vs 247) -- the ramp doesn't save the original rep. What it exposes is REP-dependence:
+  the theorem-SATURATING Y=0 doublet (Q=±1/2, the max-efficiency rep -- charges EM least per unit of SU(2)
+  screening) comes within 8% (494 vs 458). So your "dead by theorem" is corrected -- the theorem BOUNDS it,
+  and the bound is ALMOST enough. Genuine. BUT the bill is real and serious: colorless Q=±1/2 states are
+  FRACTIONALLY-CHARGED RELICS, among the most strongly excluded objects there are -- so the Y=0 rescue needs
+  a confinement/instability mechanism (owed). So it's "8% close, with a dangerous relic bill" -- a precarious
+  near-solution, not a clean recovery; the real (i-ramped) joint solve (n, Y, M_E, two-loop, no dangerous
+  relic) is OWED. NET: your α-lane oscillates AGAIN (fail->recover->broke->reopened), and it's genuinely
+  unsettled -- but ALL of this is in H-TOE, which was never in my number, so the medium-claim probability is
+  UNCHANGED throughout. ~15-16% HELD. Class flat. You killed a door with one key; ramped, the lock takes a
+  keyring, and the strangest key turns to 8% -- but that key is a fractional charge the relic sky may not
+  allow. The discipline (theorem, rule, relic-bill) stays exemplary. Standing ~15-16%.
+========================================================================
+
+========================================================================
+DEFENDER — turn def525 (the (i-ramped) JOINT SOLVE, RUN — t510's #1 decider answered):
+THE RELIC BILL WAS AN ARTIFACT OF THE DOUBLET, THE LEGAL PALETTE CLOSES THE SYSTEM
+EXACTLY, AND THE PRICE IS THE PRETTY 13 ITSELF
+========================================================================
+THE SCAN (scratchpad joint_solve.py; conclusions after arithmetic): reps (d, Y, color) with
+the relic-legality wall coded as a constraint (colorless => all member charges integer;
+color-triplet => quark-like Q mod 1; octet => integer), n <= 15, M_E >= 1 TeV, piecewise
+one-loop, both logs. Stripped targets: EM sum(n*Q^2*x) = 246.4, SU(2) sum(n*T*x) = 229.3;
+the single-species closure ratio = 1.0747, n-, x-, and COLOR-INDEPENDENT (a pure
+representation-theory number — color cancels in the ratio).
+FINDING 1 — NO SINGLE LEGAL REP CLOSES IT: exact closure needs |Y| = 0.137 (d=2), 0.223
+(d=3), 0.306 (d=4) — none legal. The saturating reps (dY^2 = 0) all sit 6.9% under. def521's
+death survives one more test: "no single-n, no single-REP" is now the theorem-grade statement.
+FINDING 2 — THE RELIC BILL DISSOLVES BY PARITY: the theorem-saturating rep needs Y = 0; for
+d EVEN that forces half-charges (the def523 bill) — but for d ODD it forces INTEGER charges.
+THE Y=0 TRIPLET (members Q = -1, 0, +1 — wino-like) saturates the theorem at the SAME 6.9%
+and is fully relic-legal. def523's "dangerous fractional relic" was an artifact of testing
+only doublets: the max-efficiency rep has a LEGAL sibling one dimension up.
+FINDING 3 — THE TWO-SPECIES SYSTEM CLOSES EXACTLY, ABUNDANTLY, ALL-LEGAL: with two legal
+species and two masses the system has ~10^3 exact solutions (n <= 15). The minimal flagship:
+ONE vector-like lepton doublet (Y = 1/2 — Card 7's ORIGINAL species, N0 + E-) at 3.3 TeV
+PLUS THREE wino-like Y=0 triplets at ~1.1 TeV — every state collider-adjacent, every charge
+integer, zero relic bill (the neutral triplet members must decay or stay subdominant to the
+dCDF — owed refinement, not a wall). Runner-up: 4 triplets at 9x10^5 GeV + 1 charged VL
+lepton singlet at 9x10^10 GeV.
+FINDING 4 — TWO-LOOP CANNOT DO IT ALONE: the 2-loop shift is ~1.9% on the SU(2) target
+(~0.1% EM) — it cannot close the 6.9% saturation gap; the second species is GENUINELY
+required, not a refinement artifact.
+FINDING 5 — THE SU(3) WIDENING, un-asked until now: if the premise induces ALL gauge
+couplings, the third log needs > 10.5 color-triplet units to flip b3 AND n >= 13.5 units to
+match 1/alpha_3 = 8.5 — heavy. The fork: SU(3) condensation-born — and QCD is CONFINEMENT
+ITSELF, the most pairing-native force there is. In this house the strong force being the
+family business is the GRAMMATICAL reading; the log-induced reading is the expensive one.
+THE HONEST DEFLATION, booked before adjudication: with two species and two free masses the
+system is UNDER-determined (2 equations, 4+ unknowns) — exact solutions were GUARANTEED once
+the legal palette spans the ratio. So the finding is NOT "a miracle fit"; it is (a) the
+death-verdict lifts at the two-species level, (b) legally and cheaply, (c) AT THE COST OF
+THE RIGID 13: the census integer dissolves into a model-building continuum. P-038's
+multiplicity claim ("portal multiplicity = 5") loses its remaining census vote — the registry
+amendment (already pending from def523) now reads: content REQUIRED (something beyond the SM
+must screen both logs), count and rep-type UNPINNED by the census; Card 7's three prior
+reasons for vector-like doublets stand on their own feet. What would re-pin it: the portal's
+OTHER duties (the AD-direct transfer, the seesaw) selecting among the 10^3 solutions.
+ADJUDICATE: (a) the parity find (Y=0 triplet legality) — arithmetic or insight?; (b) the
+flagship's collider-adjacency (3.3 TeV + 1.1 TeV — testable, near the wall) as a feature;
+(c) the deflation's honesty (under-determination confessed before the referee asks);
+(d) the SU(3) fork (condensation-born QCD as the grammatical reading); (e) P-038's final
+registry wording.
+-- Defender t525: the strangest key turned out to have a legal twin one size larger. The
+   lock opens — but opening it cost us the number we liked best. The door was never the
+   prize; the 13 was, and it is gone: what remains is a hallway of a thousand doors, and
+   the only compass left is what the portal must DO, not how many of it there are.
+
+========================================================================
+RED-TEAM — turn 512 (on def525 THE JOINT SOLVE RUN -- death lifts, the 13 dissolves, honestly): an EXEMPLARY
+turn -- the defender runs my t510 #1 decider, finds the two-species system CLOSES (Gate 2's death lifts,
+legally and cheaply), and then DEFLATES it before I can ask: the closure was GUARANTEED by under-determination
+(2 equations, 4+ unknowns), NOT a miracle, and it costs the rigid 13 (the census integer dissolves into a
+model-building continuum). VERDICTS: (a) the Y=0 TRIPLET parity find (integer-charge, relic-legal, saturates
+the theorem) is a genuine INSIGHT -- the def523 relic bill was a doublet-artifact; (b) collider-adjacency
+(1-3 TeV) is a testable feature but under-determined (~10³ solutions); (c) the deflation is GOLD-STANDARD
+honesty (under-determination + the lost 13 confessed unprompted); (d) SU(3) condensation-born = the same 3b
+escape, un-computed; (e) P-038 demoted to "content required, count UNPINNED." The α-lane nets ~flat (death
+lifts, sharp 13/P-038 dies, under-determined) -- and it is ALL in H-TOE, so the medium-number is UNCHANGED.
+Standing ~15-16% HELD.
+
+(a) THE Y=0 TRIPLET PARITY FIND -- A GENUINE INSIGHT (credit). The theorem-saturating rep needs Y=0. For d
+EVEN (doublet): Q=T₃+0=±1/2 (half-integer -> the def523 fractional-relic bill). For d ODD (triplet): T₃=
+{−1,0,+1} -> Q={−1,0,+1} (INTEGER -> relic-legal, wino-like), and ΣQ²=(−1)²+0+1²=2 = T(SU(2) adjoint)=2
+(saturation). CHECKS. So def523's "dangerous fractional relic" was an ARTIFACT of testing only DOUBLETS --
+the max-efficiency rep has a LEGAL sibling one dimension up (the Y=0 triplet, same 6.9% saturation, integer
+charges). That is a real representation-theory INSIGHT (the parity of d controls charge-integrality), and it
+dissolves the relic bill the defender flagged against themselves at def523. Credit.
+
+(b) COLLIDER-ADJACENCY -- TESTABLE FEATURE, UNDER-DETERMINED. The flagship (1 VL lepton doublet Y=1/2 at
+3.3 TeV -- Card 7's original species -- + 3 wino-like Y=0 triplets at ~1.1 TeV) puts every new state at 1-3
+TeV, integer-charged, zero relic bill -- collider-adjacent (LHC/future-collider testable). CREDIT the
+testability. BUT it is ONE of ~10³ legal solutions (the system is under-determined) -- so it's "SOME collider-
+adjacent spectrum closes it," not "THIS specific spectrum is predicted." The collider-adjacency is a feature
+of the solution SPACE (legal solutions cluster near the TeV wall), not a unique prediction. Feature, with the
+under-determination caveat.
+
+(c) THE DEFLATION -- GOLD-STANDARD HONESTY (the turn's core, strong credit). The defender BOOKS the deflation
+BEFORE adjudication: with 2 species + 2 free masses the system is UNDER-DETERMINED (2 eqs, 4+ unknowns), so
+exact solutions were GUARANTEED once the legal palette spans the ratio -- NOT a miracle fit. And the COST is
+named: the rigid 13 DISSOLVES (the census integer -> a model-building continuum), and P-038's multiplicity
+loses its remaining census vote. Confessing "this closure is guaranteed, not impressive, and it kills my
+prettiest number" -- unprompted, before the referee asks -- is the OPPOSITE of over-claiming. This is the
+gold standard of self-adverse reporting. Strong credit. (FINDING 4 -- two-loop can't close the 6.9% gap alone
+(~1.9% SU(2)) -> the second species is GENUINELY required -- is a correct supporting check.)
+
+(d) THE SU(3) FORK -- SAME 3b ESCAPE, un-computed. If the premise induces ALL gauge couplings, SU(3) needs
+heavy content (>10.5 triplet units to flip b3 + n≥13.5 for α₃) -> the fork: SU(3) condensation-born (QCD =
+confinement, pairing-native). Cold: this is the SAME condensation escape as SU(2)'s 3b (t508), extended to
+SU(3), with a fair grammar-argument (QCD's vacuum IS a condensate) but UN-COMPUTED. Consistent with 3b;
+borderline grammatical/convenient; parked. Fine.
+
+(e) P-038's FINAL WORDING -- HONEST DEMOTION. From def517's "portal multiplicity = 5" (a sharp prediction)
+to "content REQUIRED (something beyond the SM must screen both logs); count and rep-type UNPINNED by the
+census; Card 7's three prior reasons stand on their own." So the census no longer pins the multiplicity --
+the sharp P-038 is GONE, a weak "content required" survives, re-pinnable only by the portal's OTHER duties
+(the AD-direct transfer, the seesaw) selecting among the 10³ solutions. Honest, correct demotion.
+
+STANDING -- ~15-16%, HELD (α-lane nets ~flat; medium-number unchanged). Gate 2's DEATH LIFTS (the two-species
+system closes, legally, all-integer) -- but at the COST of the rigid 13 (the sharp census prediction
+dissolves) and it is UNDER-DETERMINED (10³ solutions, a model-building continuum). So the α-lane is NEITHER
+dead NOR sharply-predictive -- "openable but unpinned." Net ~flat (death lifts [+], the pretty 13/P-038 dies
+[−], under-determined [neutral]). And -- the constant refrain -- it is ALL in H-TOE, which I have kept OUT of
+the medium-number throughout; so the MEDIUM-CLAIM PROBABILITY is UNCHANGED. The whole α-lane arc (t502-t525)
+resolves to: Gate 2 openable-but-unpinned (the 13 lost), model-building continuum, in H-TOE, medium-number
+untouched. Dominant signal: the DISCIPLINE -- the defender red-teamed their own recovery to the point of
+DISSOLVING THEIR OWN PRIZED NUMBER and demoting their own prediction, unprompted. Gold standard. Deciders:
+the portal's OTHER duties re-pinning the spectrum (AD-direct transfer, seesaw); the collider search (1-3 TeV
+states); SU(3) condensation gap-equation; the M3 basement; GATE 3; AD-direct Josephson; screen-fixity; M1/M5;
+P-031; BBN referees; M-K; P-034/comb. Leptophilia (t358b) stands.
+  Banked (updated): JOINT SOLVE RUN -> Gate 2 DEATH LIFTS at two-species, legally/cheaply, BUT the closure was
+  GUARANTEED by under-determination (2 eqs, 4+ unknowns -- NOT a miracle) AND costs the RIGID 13. (1) No
+  single legal rep closes (ratio 1.0747; saturating reps 6.9% under -- "no single-n, no single-REP" theorem-
+  grade). (2) PARITY FIND: Y=0 TRIPLET (Q=−1,0,+1, integer, wino-like) saturates the theorem AND is relic-
+  legal -- def523's fractional-relic bill was a DOUBLET artifact. (3) TWO-SPECIES closes: ~10³ legal exact
+  solutions; flagship = 1 VL doublet (3.3 TeV) + 3 Y=0 triplets (1.1 TeV), collider-adjacent, integer, no
+  relic bill. (4) two-loop (~1.9%) can't close the 6.9% gap -> second species GENUINELY required. (5) SU(3)
+  fork: condensation-born (same 3b escape, grammar-argued QCD=confinement, un-computed). DEFLATION booked:
+  under-determined -> solutions guaranteed; the 13 DISSOLVES; P-038 -> "content REQUIRED, count/rep UNPINNED"
+  (Card 7's reasons stand alone; re-pinnable by the portal's other duties). α-lane ~flat (death lifts, 13/P-038
+  dies, under-determined); ALL in H-TOE -> medium-number UNCHANGED. Open/owed: portal-duty re-pinning; collider
+  1-3 TeV; SU(3) gap-equation; M3 basement; GATE 3; AD-direct Josephson; screen-fixity; M1/M5; P-031; BBN
+  referees; M-K; P-034/comb. Class: FLAT (α-lane openable-but-unpinned; medium-number held) -- exemplary
+  deflation (dissolves own prized 13); genuine parity insight. Standing ~15-16%.
+
+— Claude (red team, external), turn 512 (on def525 THE JOINT SOLVE). EXEMPLARY -- you ran my #1 decider,
+  found it CLOSES, and DEFLATED it before I could ask. (a) The Y=0 TRIPLET parity find is a genuine insight:
+  odd-d saturating reps (Q=−1,0,+1, wino-like) are integer-charged and relic-legal, so your def523 fractional-
+  relic bill was a doublet-only artifact -- the max-efficiency rep has a legal sibling one size up. Correct
+  and clever. (b) The flagship (1 VL doublet @3.3 TeV + 3 Y=0 triplets @1.1 TeV) is collider-adjacent and
+  all-legal -- testable -- but it's ONE of ~10³ solutions, so it's a feature of the solution SPACE, not a
+  unique prediction. (c) THE DEFLATION is the gold standard: you confess UNPROMPTED that with 2 species + 2
+  masses the system is UNDER-DETERMINED (solutions guaranteed, not a miracle) and that the price is the RIGID
+  13 dissolving into a continuum -- and you demote P-038 to "content required, count UNPINNED." Killing your
+  own prettiest number before the referee asks is exactly right; strong credit. (d) SU(3) condensation-born
+  is your same 3b escape (grammatical-QCD-is-confinement, un-computed) -- fine, parked. NET: Gate 2's death
+  LIFTS but only openably (under-determined) and at the cost of the sharp prediction -- so the α-lane nets
+  ~flat, and -- as throughout -- it's ALL in H-TOE, so my medium-number is UNCHANGED. ~15-16% HELD. Class
+  flat. The door opens onto a hallway of a thousand doors, and the compass is now what the portal must DO,
+  not how many -- an honest place to leave it. Standing ~15-16%.
+========================================================================
+
+========================================================================
+DEFENDER — turn def527 (THE PORTAL RE-PIN, RUN — t512's #1 decider: the duties select, and
+the selection is SHARP): THE SECOND SPECIES HAS A FAMOUS JOB, THE RG SYSTEM REFUSES THE
+TWO-TRIPLET SEESAW, AND THE TRIPLET TRIO'S MASS LANDS ON THE COLLIDER'S DOORSTEP
+========================================================================
+THE RECOGNITION, first: a Y=0 SU(2)-triplet fermion is not an exotic — it is EXACTLY the
+TYPE-III SEESAW mediator (the textbook rep for neutrino mass via a fermionic triplet). The
+joint solve's parity find didn't just produce a legal species; it produced the one species
+the model's Card-6 duty (the seesaw) was already hiring for. The duty-pin: n_D vector-like
+doublets (the Card-7 portal/Koide role) + n_T type-III triplets (the seesaw role) — content
+pinned by JOBS, masses then FIXED by the two RG equations. THE ARITHMETIC (portal_repin.py,
+conclusions after):
+FINDING 1 — THE RG SYSTEM REFUSES n_T = 2: the minimal seesaw (two triplets, one massless
+neutrino — data-legal!) solves to M_T = 22 keV — absurd/excluded. The seesaw wants >= 2;
+the RG legality wants >= 3. THE MINIMAL JOINT CONTENT IS EXACTLY 3 — equal to the number of
+generations, by a route that never consulted them. (n_T = 4 is legal but pushes M_T to
+7x10^6 GeV — seesaw-capable, collider-invisible.)
+FINDING 2 — THE TRIPLET MASS IS THE ROBUST NUMBER: M_T = 1.07 TeV, and it is STABLE — the
+same 1.07 TeV for n_D = 1, 2, 3, or 5 (the SU(2) equation owns it), moving only 0.5–2.3 TeV
+under M_red doubled/halved, 0.9–1.2 TeV under coupling-input shifts, 0.44–2.6 TeV under the
+two-loop band. A GENUINE BAND PREDICTION: three type-III triplets at ~1 TeV (0.4–2.6 TeV).
+FINDING 3 — THE DOUBLET MASS IS NOT PREDICTED (booked against ourselves): M_D solves from
+the small DIFFERENCE of two ~230-unit logs (17.1), so it swings 10^3–10^6 GeV under the
+two-loop shift alone. M_D = 3.3 TeV is the nominal, NOT a prediction — the doublet is
+"present, mass unpinned pending the full two-loop run."
+FINDING 4 — THE YUKAWA IS UNREMARKABLE: m_nu = 0.05–0.09 eV (P-023's band!) at M_T = 1.07
+TeV needs y = 1.3–1.8x10^-6 — electron-Yukawa-class. No new fine-tuning enters.
+FINDING 5 — THE KNIFE EDGE, stated before anyone asks: CMS/ATLAS type-III searches already
+exclude ~0.9–1.0 TeV (flavor-democratic). The central prediction sits JUST ABOVE the
+current limit — the window is a factor ~2.6 at most. HL-LHC pushing past ~2.6 TeV KILLS the
+collider-visible branch outright (minimality then forces n_T = 4, invisible, and the sharp
+version dies). This is not a safe prediction; it is a scheduled one.
+COHERENCE NOTES: (a) type-III triplets couple ONLY to lepton doublets + Higgs — leptophilic,
+exactly t358b's standing requirement; (b) the neutral triplet members decay via the seesaw
+Yukawa (no relic problem — the def525 refinement closes itself); (c) the doublet keeps its
+three Card-7 jobs. REGISTERED: P-2026-039 (three type-III seesaw triplets at 0.4–2.6 TeV,
+central 1.1 TeV; kills listed). P-038's "re-pinnable by duties" clause: EXERCISED.
+ADJUDICATE: (a) the type-III recognition (does the identification hold, or is it a label?);
+(b) Finding 1's convergence (RG >= 3, seesaw >= 2, minimal joint = 3 = generations — earned
+or numerological?); (c) the M_T robustness vs the M_D fragility split (booked both ways);
+(d) the knife-edge honesty (a prediction the next collider decade can execute);
+(e) P-2026-039's registration wording.
+-- Defender t527: the hallway of a thousand doors had a directory all along: ask what work
+   each tenant does. The triplets turn out to hold the oldest lease in neutrino physics,
+   the arithmetic refuses to let there be two of them, and their rent is due at exactly the
+   energy the collider reaches next. If they don't show, we don't get to keep the sharp
+   version — and that is precisely what makes it worth registering.
