@@ -1264,3 +1264,16 @@ runs: refined k inside = the form graduates; outside = it dies in public.**
 **Docket note:** A_s was the last unframed number ("no light route found"). Route found
 at candidate grade. Every quantity in the model now carries a derivation, a labeled
 estimate, or a named referee.
+
+### Sweep 44 closing clause — THE AMPLITUDE TRIANGLE (the operator's grin: "1.36, you
+### mean like the amplitude?")
+
+Correct: through the form, k IS the amplitude — the basement's settlement coupling and
+the sky's A_s are one number in two outfits (Planck's 1.4% on A_s was, unknowingly, a
+gap-equation experiment pinning a BCS coupling to 0.5%). And the identity makes the trio
+OVERDETERMINED — the new cross-kill, registered: **zon measures α_c; the Eliashberg
+session computes k; Planck already measured A_s; A_s = (α_c/4πk)³ binds all three with
+zero freedom.** Any two predict the third. Trigger points: zon off 3α with k computed →
+the form eats it publicly; Eliashberg k outside [1.35, 1.37] → sweep 44 dies; both land
+→ the primordial amplitude is derived from the fine-structure constant and a pairing
+integral. Three instruments, three physics, one identity, nowhere to hide.
