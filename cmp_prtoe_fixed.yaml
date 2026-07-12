@@ -1,4 +1,14 @@
 # THE FIXED-EPSILON EVIDENCE RUN (task #9; committed def537, credited t524).
+# ===== THE FREEZE CASCADE (updated 2026-07-12, the derivation-hunt night) =====
+# LAW: nothing is fixed that a referee has not signed. Status of every candidate:
+#   eps = 27*alpha/(5*pi):  2/pi now THEOREM (flux measure), 9/10 derived-conditional,
+#                           3*alpha AWAITS ZON (P-040). Fixed below, gate stands.
+#   z_on:                   ZON_FREEZE_PENDING sentinel (operator order).
+#   AT ZON CONVERGENCE, also freeze-eligible (do NOT fix before):
+#     n_s  -> 1 - 2/ln(M_Pl/T_on(zon))   [the census-running tilt; needs basement choice]
+#     dcdf_rho_inf -> the occupancy value [needs the triangle confirmed: 3alpha + M2 + x0]
+#     m_ncdm -> 61.4 meV                  [needs the spurion (#43) lifted + P-023 tension resolved]
+#   The anchor (P-042) and the two-loop landing are graded by the shooting run (in flight).
 # ZERO extra parameters vs LCDM: eps DERIVED = 27*alpha/(5*pi) = 1.2543%, NOT sampled.
 # Freeze-gate note (def539/def541): launched on operator's direct order 2026-07-11 with
 # the derived stack; if P-040 (zon) or P-041 (the f_bar ensemble, in flight) KILLS a
@@ -68,7 +78,7 @@ params:
     value: 'lambda logA: 1e-10*np.exp(logA)'
     derived: true
     latex: A_\mathrm{s}
-  n_s:
+  n_s:   # FREEZE-ELIGIBLE at zon convergence: 1 - 2/ln(M_Pl/T_on) = 0.963-0.964 (P-den. hunt, sweep 3/6)
     prior: {min: 0.92, max: 1.03}
     ref: {dist: norm, loc: 0.970999, scale: 0.005}
     proposal: 0.005
@@ -79,7 +89,7 @@ params:
     proposal: 0.5
     latex: z_\mathrm{reio}
   xi_Neff: 0.0
-  dcdf_rho_inf:
+  dcdf_rho_inf:   # FREEZE-ELIGIBLE at zon: the occupancy value (rho^1/4 = half a_c^2 M2, 0.4 per mille)
     prior: {min: 0.50, max: 0.80}
     ref: {dist: norm, loc: 0.701221, scale: 0.02}
     proposal: 0.02
@@ -110,7 +120,7 @@ params:
     ref: {dist: norm, loc: 1.00563, scale: 0.005}
     proposal: 0.005
     latex: E_\mathrm{cal}
-  m_ncdm:
+  m_ncdm:   # FREEZE-ELIGIBLE post-spurion: 0.0614 eV (the rho_inf/Majoron closure)
     prior: {min: 0.0, max: 0.6}
     ref: {dist: norm, loc: 0.0654, scale: 0.02}
     proposal: 0.02

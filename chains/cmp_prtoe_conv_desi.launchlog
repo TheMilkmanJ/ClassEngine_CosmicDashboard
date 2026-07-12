@@ -980,3 +980,7 @@ candl: clearing all internal priors.
 [mcmc] Progress @ 2026-07-12 00:57:47 : 780 steps taken, and 1703 accepted.
 [mcmc] Progress @ 2026-07-12 00:59:23 : 829 steps taken, and 1707 accepted.
 [mcmc] Progress @ 2026-07-12 01:01:03 : 882 steps taken, and 1711 accepted.
+[mcmc] Progress @ 2026-07-12 01:02:36 : 889 steps taken, and 1712 accepted.
+[mcmc] Progress @ 2026-07-12 01:04:16 : 898 steps taken, and 1712 accepted.
+[mcmc] Progress @ 2026-07-12 01:06:07 : 904 steps taken, and 1713 accepted.
+[mcmc] Progress @ 2026-07-12 01:07:56 : 918 steps taken, and 1714 accepted.
