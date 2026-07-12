@@ -1,3 +1,5 @@
+> **LAB-LOG DOC (reader's rule):** this file documents derivations INCLUDING their dead ends, chronologically — the sanctioned format for post-mortems (like the hunt log). Correct-version summaries live in the standalone files; the failures ledger indexes all deaths.
+
 # Room 1: The Complex Completion (expedition log, opened 2026-07-07 night)
 
 **Grade throughout: STRUCTURAL/correspondence — Room 1 is an extension

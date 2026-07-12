@@ -745,14 +745,36 @@ static inline double cs2_dcdf(struct background *pba, double rho) {
  * continuous with the dust density at the onset -- no free amplitude knob, only
  * z_rad_onset. f(a) = x^2/(1+x^2), x = a_onset/a: ->1 early, ->0 late.
  * dcdf_z_rad_onset <= 0 disables it, recovering the pure dust->deSitter fluid. */
+/* [2026-07-12 THE DISPERSION UPGRADE, derivation-hunt sweep 1] The phenomenological
+ * ramp x^2/(1+x^2) is REPLACED by the DERIVED single-mode shape: the winding is one
+ * comoving mode, so its energy is the exact massive dispersion rho ~ omega(a)/a^3,
+ * omega = sqrt(m^2 + (k/a)^2), normalized to the dust density late. With x = a_on/a
+ * (a_on = the H=m clock, now EXACTLY the fit parameter -- the fit-vs-clock offset
+ * dissolves by construction): total/dust = sqrt(1+x^2), i.e. the EXTRA (radiation-like)
+ * part is dust*(sqrt(1+x^2)-1). Pressure exact: p_extra = dust * x^2/(3*sqrt(1+x^2)).
+ * Old-template chains (pre-2026-07-12) carry the old shape; do not resume them. */
 static inline double dcdf_rho_rad(struct background *pba, double a) {
   if (pba->dcdf_z_rad_onset <= 0.0) return 0.0;
   double a_on = 1.0 / (1.0 + pba->dcdf_z_rad_onset);
   double x = a_on / MAX(a, 1e-300);
-  double f = (x*x) / (1.0 + x*x);
-  double H0sq = pba->H0 * pba->H0;
-  double a2 = a*a;
-  return pba->Omega_ini_dcdf * H0sq * a_on / (a2*a2) * f;
+  double dust = pba->Omega_ini_dcdf * pba->H0 * pba->H0 / (a*a*a);
+  return dust * (sqrt(1.0 + x*x) - 1.0);
+}
+static inline double dcdf_p_rad(struct background *pba, double a) {
+  if (pba->dcdf_z_rad_onset <= 0.0) return 0.0;
+  double a_on = 1.0 / (1.0 + pba->dcdf_z_rad_onset);
+  double x = a_on / MAX(a, 1e-300);
+  double dust = pba->Omega_ini_dcdf * pba->H0 * pba->H0 / (a*a*a);
+  return dust * x*x / (3.0 * sqrt(1.0 + x*x));
+}
+static inline double dcdf_dpdloga_rad(struct background *pba, double a) {
+  if (pba->dcdf_z_rad_onset <= 0.0) return 0.0;
+  double a_on = 1.0 / (1.0 + pba->dcdf_z_rad_onset);
+  double x = a_on / MAX(a, 1e-300);
+  double dust = pba->Omega_ini_dcdf * pba->H0 * pba->H0 / (a*a*a);
+  double s = sqrt(1.0 + x*x);
+  /* d/dlna of p_extra: -(dust)*( x^2/s + x^2*(2+x^2)/(3*s^3) ) */
+  return -dust * ( x*x/s + x*x*(2.0 + x*x)/(3.0*s*s*s) );
 }
 
 /* PRTOE rotation-cancellation conversion rate Gamma/H (dimensionless, per dln a).

@@ -43,3 +43,9 @@ adjustable paradigm shrinks and this model simply remains.
 answer arriving on schedule: you cannot trap in a crystal what has no charge to grab, no
 particle to recoil, and no scale within reach — you can only weigh it, time it, and listen to
 it on the radio.*
+
+
+## The number (paid 2026-07-12)
+The trace-channel recoil cross-section, computed: **σ ≈ 8×10⁻¹⁵⁰ cm² — ~100 orders below
+the neutrino fog.** The underground silence is not a bet; it is arithmetic. Standing for
+every future exposure: continued nulls cost the model nothing and earn it nothing.

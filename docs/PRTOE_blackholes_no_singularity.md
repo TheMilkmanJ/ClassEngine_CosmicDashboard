@@ -138,3 +138,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 *The medium does not permit infinities: the same Landau threshold that caps the vacuum budget
 and feeds the crunch dissolves the singularity. What falls in is not crushed to a point — it is
 caught, thermalized, and kept on the books, at four hundred astronomical units of coherence.*
+
+## Sources
+
+[Penrose1965] (the theorem discharged), [Bekenstein1973]/[Hawking1975] (the entropy/temperature the frame must earn), [Unruh1981]/[BLV2005] (acoustic horizons), [Detweiler1980] (the superradiance rate). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

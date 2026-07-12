@@ -44,3 +44,10 @@ it simply survives every year the sky stays mundane, while tuned-WIMP interpreta
 *Two decades of maybe-signals, and this model's reading of every one is the boring answer —
 not from timidity but from a conservation law with a genome behind it. The silence
 underground and the mundanity overhead are the same theorem observed twice.*
+
+
+## The ceiling (paid 2026-07-12)
+Tree-level σv = 0 exactly (the conserved dark charge); the gravitational ceiling
+~10⁻¹⁵⁴ cm³/s — ~128 orders below thermal-relic. **Every indirect excess (GC GeV,
+511 keV, positrons) is predicted astrophysical.** The kill stands: one confirmed
+DM-annihilation signal executes the conserved-charge structure.

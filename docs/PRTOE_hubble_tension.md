@@ -44,3 +44,6 @@ because the model can afford it.
 *The tension asked: which measurement is lying? The model answers: neither — the early universe
 was being read with the wrong electron. Half the gap closes, the other half is signed and
 owned, and the arbiters are named and scheduled.*
+
+## Sources
+[Riess2022] (SH0ES), [Freedman2021] (TRGB), [Planck2018], [HartChluba2020] + [SekiguchiTakahashi2021] (the varying-m_e degeneracy), [DiValentino2021] (the competitor map), [DESI2024] (the named falsifier). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

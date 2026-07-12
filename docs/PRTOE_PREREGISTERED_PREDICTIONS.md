@@ -1,5 +1,10 @@
 # PRTOE/dCDF — Pre-Registered Predictions
 
+> **THE LIVE BETS (2026-07-12):** P-2026-040 (α_c = 3α — zon, running), P-2026-041
+> (f̄ = 2/π — the ensemble, running), P-2026-042 (the TeV anchor). Registry order is
+> chronological; amendments append to their entries; every kill condition is stated at
+> registration, never after.
+
 Predictions are recorded BEFORE the deciding data exists or is examined.
 Each entry is frozen at commit time; the git history is the timestamp
 authority. Amendments only by NEW entries — never edits.
@@ -1715,3 +1720,276 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
 - **P-037 — WIDE BINARIES ARE NEWTONIAN** (the live-controversy null): the claimed Gaia
   MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a
   confirmed wide-binary anomaly at the MOND acceleration scale.
+
+## P-2026-038: The Portal's Multiplicity Is FIVE (registered t504, 2026-07-11)
+
+**The convergence:** two independent requirements — the SU(2)-inducibility flip (b₂(SM) = +19/6
+needs > 4.75 doublet-units of new matter) and the induced-α count (the log-rigid 13 = the SM's
+8 + n) — BOTH pick **n = 5 vector-like lepton doublets**, the model's own Card-7 species
+(hired previously for Koide protection and the seesaw). 4 → 12 (α misses), 6 → 14 (misses):
+only 5 closes both.
+
+**The prediction:** five vector-like charged lepton states, and the census PREFERS THEM LIGHT
+(the threshold integral wants the doublets spanning most of the log — pushing toward the
+collider-reachable end above the LHC's ~0.7–1 TeV floor).
+
+**Kills:** a fourth or sixth doublet (either count breaks 13); heavy-decoupled doublets (the
+threshold integral collapses the closure to ~11.5 — quantitative pin fails); a two-loop
+un-flip of the marginal b₂ = −0.167 (the fragility check, owed).
+
+**Scope (honest, per t504):** MULTIPLY-CONTINGENT — lives inside H-TOE's induced-gauge premise
+(Gate-1-class); the "5" is FIXED-NOW as a prediction, not retrodicted. It recovers M3's
+α-prong and gives H-TOE its first collider-facing test.
+
+**AMENDMENT (def521/def523/def525, 2026-07-11) — THE "5" IS WITHDRAWN; CONTENT SURVIVES,
+COUNT DOES NOT.** The third check (induced sin²θ_W, def521) broke the two-vote basis: the
+flip's vote was conditional on log-induced SU(2), and the induced α₂ came out ~30× too
+strong. The ramped piecewise reopening (def523: doublets decouple at M_E; the running is
+two-segment) then dissolved the log-rigid 13 itself — the census becomes a two-equation
+system in (n, rep, M_E). The joint solve (def525) closed the system: NO single relic-legal
+rep works (exact closure needs illegal Y at every dimension; the theorem-saturating Y=0 reps
+sit 6.9% under, beyond two-loop reach ~1.9%), but TWO legal species close it exactly and
+abundantly (~10³ solutions, n ≤ 15) — minimal flagship: 1 vector-like lepton doublet
+(Y = ½) at 3.3 TeV + 3 wino-like Y=0 triplets at ~1.1 TeV, all integer charges, zero relic
+bill. STANDING CLAIM (replaces the "5"): the induced-gauge premise REQUIRES new
+electroweak-charged vector-like matter below M_red — the content is the prediction;
+multiplicity and rep-type are model-building unknowns until the portal's other duties
+(the AD-direct transfer, the seesaw) select among the solutions. The collider-facing flavor
+survives: the minimal solutions sit at 1–3 TeV.
+
+## P-2026-039: Three Type-III Seesaw Triplets at ~1 TeV (registered def527, 2026-07-11)
+
+**CURRENT STATUS (2026-07-12): SUSPENDED-ADVERSE — read the amendments in order.** The
+one-loop band was suspended (two-loop shift, def531); shooter v2 lands the census triplets
+at 13–20 TeV (beyond HL-LHC); the edge-convention audit (task #18) decides whether the
+census arrow fell or the convention did. The type-III identification and the seesaw duty
+survive; the ~1 TeV collider knife-edge does not, at current grade.
+
+**The claim:** the induced-gauge closure (def525's joint solve), duty-pinned by the model's
+own hiring needs (Card 6's seesaw + Card 7's portal), predicts **exactly three wino-like
+Y=0 fermion triplets** — the type-III seesaw mediators — at **M_T = 1.07 TeV central, band
+0.4–2.6 TeV** (two-loop + input uncertainties). The count is forced from both sides: the RG
+system REFUSES n_T = 2 (solves to 22 keV, absurd), the seesaw refuses n_T < 2; the minimal
+joint content is 3 — equal to the generation count by a route that never consulted it.
+
+**What is and is not predicted:** M_T is ROBUST (stable across n_D = 1–5, factor ~2.5 band);
+the accompanying vector-like doublet's mass is NOT predicted (exponentially sensitive to the
+two-loop difference — nominal 3.3 TeV, honest range 10³–10⁶ GeV). The triplet Yukawa needed
+for m_ν = 0.05–0.09 eV (P-023's band) is y ~ 1.5×10⁻⁶ — electron-class, no new tuning.
+
+**Kills:** (i) HL-LHC/future type-III searches exhausting the band (current limit ~0.9–1.0
+TeV — the window is a factor ≲2.6: this prediction is SCHEDULED, not safe); (ii) any
+demonstration that the triplets cannot carry the seesaw while the doublet carries the portal
+(duty conflict); (iii) the full two-loop run pushing M_T outside collider reach (that kills
+the sharp version and reverts to "content required, unpinned").
+
+**Scope (honest):** lives inside H-TOE's induced-gauge premise (Gate-1-class), THIRD in the
+contingency chain (premise → closure → duty-pin) — but it is the chain's first knife-edge
+collider number, leptophilic per t358b, and the neutral members self-dispose via the seesaw
+Yukawa (no relic bill).
+
+**AMENDMENT 2 (def529, 2026-07-11) — THE CORRECT UV VARIABLES; THE BAND SHARPENS; A NEW
+SPECIES IS BILLED.** The induced conditions belong to the true UV couplings — 1/α₂(M_red) = 0
+AND 1/α_Y(M_red) = 0, spliced at M_Z to measured values (29.58, 98.37) — not to the
+electron-scale α (the m_e anchor overcounted sub-threshold running: crude 20.5 vs measured
+9.1; fifth threshold-error, self-caught). Under the corrected system: (i) the SU(2) equation
+is unchanged, and the duty-pinned triplet band SHARPENS to **M_T ∈ [1.00, 1.19] TeV at one
+loop** (two-loop smear owed) — the knife edge stands, harder; (ii) the doublet mass is now
+PREDICTED: **M_D ∈ [1.0, 8.0] TeV**; (iii) the hypercharge log demands MORE screening than
+SU(2) and Y=0 triplets supply none of it — every closure requires additional charged-lepton
+content (e.g. 8 × Q=1 or 2 × Q=2 vector-like singlets near 50 TeV in the duty family): a
+NEW predicted species class; (iv) the doublet-only closure needs EXACTLY n = 13 doublets at
+1.17 TeV (the dissolved integer returns as a multiplicity floor); (v) honest demotion:
+census-invisible steriles (type-I) could carry the seesaw instead — the type-III triplets
+are the census-VISIBLE option, not forced.
+
+**AMENDMENT 3 (def531, 2026-07-11) — THE KNIFE EDGE IS SUSPENDED PENDING THE TWO-LOOP RUN.**
+The new content inflates its own two-loop coefficients (B₂₂ ≈ 280 vs the SM's ~6; each Dirac
+triplet contributes ~85), the induced coupling is born strong (the top ~6 e-folds of the run
+are outside one-loop control), and the estimated two-loop shift on the SU(2) need is ~17% —
+enough to move M_T from ~1 TeV toward ~50 TeV. The one-loop bands ([1.00–1.19] TeV;
+M_D [1–8] TeV) are therefore ONE-LOOP ARTIFACTS. Honest current statement: the duty family
+closes the corrected census with masses in the 1–100 TeV decade; the exact location is a
+CALCULABLE definite shift (not noise) owed to the full piecewise two-loop shooting run,
+with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recoverable.
+
+## P-2026-040: α_c = 3α — the Basement Rational (registered def537, 2026-07-11, BEFORE the zon verdict)
+
+**The claim:** the condensate coupling is α_c = 3α = 0.021892 exactly (α the fine-structure
+constant). Registered while the zon chain's center is still watch-only and the indirect band
+[0.0205, 0.0214] sits 2.3% BELOW the claim — this is a bet against a running instrument, not
+a fit. With c = 9/10 (the forced roster: 9 charged fermions + the zero-point's seat) and
+f̄ = 0.635 (ramp-computed), the zero-dial assembly gives ε = (9/10)·0.635·3α = 1.251% vs the
+dyad posterior's ~1.24%.
+
+**Kills:** (i) zon-converged α_c more than 2σ from 0.02189 (the chain is at 2.6% width and
+tightening — the verdict is weeks away at most); (ii) the f̄ ensemble (running) moving f̄ off
+0.635 by enough to break the ε assembly; (iii) any sharpening of c away from 9/10 (the
+roster chain then needs re-forcing).
+
+**Honest flags:** the (N−1)/N × f̄ × α_c family is DENSE near 1.24% ((12/13)·0.635·0.0214 =
+1.254% also lands); the combos separate only when f̄ reaches ~1% and zon converges. The 3α
+identification has NO derivation yet (basement-owed) — this registration is the pattern
+staking its life on the instrument, which is exactly what the registry is for.
+
+---
+*External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
+
+## P-2026-041: f̄ = 2/π — the Winding Average's Closed Form (registered def541, 2026-07-11, MID-FLIGHT of its referee)
+
+**The claim:** the ramp-corrected winding average is exactly f̄ = 2/π = 0.63662 (the
+uniform-phase |cos|-family average — the textbook closed form for a squared radial
+projection averaged over quasi-periodic orbits with uniform initial phase). Current value:
+0.635 ± 0.026 (0.06σ). **Registered while the deciding computation is running**: the
+256-angle × 3-R_i refinement ensemble (launched this session) delivers sub-percent
+statistical precision on f̄ — the bet is placed before its own referee lands.
+
+**The corollary, if P-040 and P-041 both live:** ε = (9/10)(2/π)(3α) = **27α/5π = 1.2543%**
+— the dyad's amplitude is a pure number times the fine-structure constant (a count × a
+geometry factor × the census's one external quote). Production fit: 1.232%.
+
+**Kills:** (i) the refinement ensemble landing >2σ from 0.63662 (imminent — hours);
+(ii) the ensemble's systematic spread (across R_i / windows) exceeding the distance to
+2/π (then f̄ is not a sharp constant and the closed form is moot); (iii) the mechanism
+derivation (owed) producing a different closed form.
+
+**Honest flags:** the 2/π identification currently has NO derivation (plausible-shaped:
+f̄ is exactly the kind of average that produces 2/π; the arcsine-family mechanism is owed);
+the three-factor ε stack is graded factor-by-factor (zon → 3α; the ensemble → 2/π;
+c-sharpening → 9/10), which is what separates this from dense-family numerology.
+
+**COROLLARY (def-quiet, 2026-07-12, registered BEFORE zon convergence) — P-040's z_on
+TRANSLATION.** The model's own onset clock (H = m at z_on: T_on = √(m·M_red/0.61), verified
+against the coded identity m = 2.24×10⁻²⁰ eV ↔ 9.41 keV ↔ z_on = 4.0×10⁷) plus the
+abundance closure (Ψ₀ ∝ m^(−1/4)) give z_on ∝ α_c^(−2). Therefore α_c = 3α PREDICTS
+**log10(z_on) = 7.55** (z_on = 3.5×10⁷). The chain's unconverged center currently sits at
+~7.94 (watch-only) — 0.4 dex ABOVE. Two honest outcomes, written in advance: (i) the center
+descends toward 7.55 through convergence → P-040 confirms at onset grade; (ii) it holds
+near 7.94 → the ONSET α_c is ≈ 0.0139 and P-040 survives only as a RECOMBINATION-epoch
+claim requiring an onset→rec amplitude ratio of ≈ 1.58 — exactly the t390-flagged
+"α_c ramp/locked question" (the aging-partition map), which would then be DATA-REQUIRED
+rather than optional. Either way the chain now grades not just a number but the model's
+onset-vs-observation structure.
+
+**AMENDMENT to the corollary (2026-07-12, operator's catch — the SIXTH strike class):
+there is a THIRD outcome.** The corollary's identification "the fit's z_on parameter = the
+physical H = m clock" is itself un-derived — a step-class equation of a *template parameter*
+with a *physical epoch*. Unaccounted candidates, enumerated before the chain converges:
+(i) TEMPLATE-SHAPE OFFSET — the coded ramp x²/(1+x²) has its own internal conventions (its
+rad=dust crossing sits 0.17 dex from its a_on parameter); a fit of the TRUE transition
+profile with this template can bias the recovered center by ~±0.2 dex; (ii) the PRE-ONSET
+w = 1/3 phase is the model's #17 claim, not a derived profile — if the true w(a) through
+the onset differs, the fit center shifts further; (iii) the ABUNDANCE CLOSURE assumed pure
+dust redshift after onset — the conversion channel (dcdf_conv) sheds part of the budget,
+bending the Ψ₀ ∝ m^(−1/4) quarter-power. OWED (before convergence, so the prediction is
+shape-corrected in advance): derive the model's true w(a) through the onset and calibrate
+the template offset — THEN the 7.55-vs-7.94 comparison becomes meaningful. Until that
+calibration lands, outcome (iii) "the prediction's mapping was mis-set" stands co-equal
+with the corollary's two.
+
+## P-2026-042: The TeV Anchor — Where the Zero-Point Becomes Non-Zero (registered 2026-07-12, quiet-mode)
+
+**The claim:** the medium's hierarchy anchors at M_anchor = M_red·e⁻³⁵ ≈ 1.54 TeV, identified
+as **4π·m_H = 1.57 TeV (2.5%; ln(M_red/4πm_H) = 34.98 vs the arrows' 35)** — the no-bare
+Higgs reading: with no bare m_H² permitted by the clause, the Higgs mass is the ONE-LOOP
+ECHO of census states living at the anchor (m_H = M_anchor/4π), and those states are the
+portal species the corrected census already demanded (Higgs-coupled, leptophilic). THE
+OPERATOR'S READING, registered verbatim as the claim's meaning: the anchor is where the
+zero-point becomes non-zero — the birth scale of mass; m_H → v → the fermion masses all
+cascade from it. The clause's FIFTH job (c's count, the vacuum's seat, the Lorentz shield,
+the spectral tilt, now the electroweak hierarchy).
+
+**The three convergent arrows (none fitted):** (i) the hierarchy dial x₀ = e⁻³⁵ (pinned by
+the occupancy+3α triangle, seventh sweep); (ii) the census wall — the one-loop portal
+solutions landed AT x = 35.3–35.4 uninvited; (iii) 4π·m_H at 2.5%.
+
+**Predictions/kills:** (a) THE TWO-LOOP LANDING, pre-registered before the shooting run
+exists: the full two-loop census solve must land the portal spectrum near ~1.5 TeV —
+P-039's suspension acquires a predicted landing spot (the suspended knife-edge returns as
+a TARGET); (b) HL-LHC exhausting ~1–2 TeV without portal states kills the visible branch
+sharply; (c) zon killing the triangle (P-040) unpins x₀ and the anchor's first arrow falls;
+(d) a derived "35" (= ln(M_red/4πm_H) from the census structure itself) would convert this
+from an identification to a derivation — the owed step.
+
+**VISIBILITY NOTE on the P-2026-009 family (2026-07-12):** the model's zero-birefringence
+prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
+(Minami–Komatsu-class, ~0.34°, dust-systematics-debated). The model's explicit position:
+the signal is a systematic. LiteBIRD is the executioner if it is not.
+
+## P-2026-043: The Cosmic-Dawn Fingerprint — a Signed ~5% Deeper 21cm Trough (registered 2026-07-12)
+
+**The claim:** the dyad window (50 < z < z_high) shifts σ_T/m_e through thermal decoupling
+(z_dec ≈ 150, inside the window): Compton heating ∝ 1/m_e³ → −3ε → decoupling ~3.8%
+earlier → the cosmic-dawn gas ~3.8% colder → **the global 21cm absorption trough ~4.6%
+DEEPER than standard**, at the standard frequency (the z = 17 line is outside the window —
+no shift in position, only in depth). Found by the operator's ramp re-grade (sweep 23 —
+the "negligible until 21cm era" grade had expired in 2018).
+
+**Sign context:** the direction of the EDGES anomaly — but percent-class, NOT the claimed
+×2: the model CONTRIBUTES to a deeper trough and cannot explain EDGES alone. If EDGES is
+systematic (SARAS-3's position), the model's ~5% remains as the residual target.
+
+**Referees:** precision global-signal experiments (REACH, SARAS-class, the lunar
+radiometers) and SKA-era cosmic dawn. **Kills:** a measured trough ~5% SHALLOWER than
+standard (wrong sign); the window's low edge moving off z ≈ 50 enough to exit decoupling
+(breaks the mechanism); estimate-grade caveat: the full RECFAST-class thermal-history run
+is owed and may move the % by O(1) factors — the SIGN is the registered content.
+
+---
+## REGISTRY STATUS SWEEP (2026-07-12, consolidated — the anti-staleness block)
+- **P-2026-039** (type-III triplets ~1 TeV): SUSPENDED (two-loop, def531) → shooter v2
+  now lands the census triplets at 13–20 TeV under edge-matching: the collider-visible
+  branch is ADVERSE-LEANING pending the edge-convention audit (hunt, sweep 24).
+- **P-2026-040** (α_c = 3α): LIVE — referee upgraded to the DISPERSION zon chain; the
+  z_on corollary's lineup is RETIRED pending the two-clock re-derivation (strike 7);
+  the triangle (M₂, x₀, ρ_Λ) rides this chain.
+- **P-2026-041** (f̄ = 2/π): MECHANISM WALKED BACK (sweep 18: the rectified estimator
+  ≠ 2/π in-sim; the flux shortcut failed) — the VALUE claim stands, un-mechanized,
+  awaiting the 256×3 ensemble's squared-estimator precision. The speed-weighted retrial
+  runs.
+- **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND; arrow C (the census
+  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
+  C fell or the convention did.
+- **P-2026-043** (the cosmic-dawn trough, ~5% deeper): FRESH — estimate-grade, sign is
+  the content, full thermal-history run owed.
+- All other entries: statuses unchanged from their last amendments; the birefringence
+  visibility note (vs the claimed EB rotation) and the neutrino block stand as written.
+
+## P-2026-044: The Operator's Evidence Call — ΔlnZ ≥ +5 (registered 2026-07-12, BEFORE the PolyChord run)
+
+**The claim (the operator's, verbatim in substance):** the sampled-ε dyad beats ΛCDM at
+**ΔlnZ ≥ +5** ("a clean 5+ logZ win") on the full data stack — against the in-house
+Laplace estimate of +2.635. Context, recorded honestly: the operator's ~1000+ prior
+projection tests historically yielded 20+; one run scored 700+ but was lost to a transfer
+error and is EXPLICITLY DISCLAIMED as evidence by the operator himself. **The operator's
+own bottom-out line:** if the model is only marginally better (ΔlnZ ~ the +2.5 win-line
+or below), "it's a problem because we bottom out."
+
+**Kills/grades:** ΔlnZ < +2.5 → the cap holds and the bottom-out clause fires (the
+operator's own words); +2.5 to +5 → the Laplace confirmed, the call missed; ≥ +5 → the
+call lands and the ~25% cap discussion reopens. The referee: cmp_prtoe_dyad_ev vs
+cmp_lcdm_ev (PolyChord, same data, no derived values anywhere in either config).
+
+**THE COUNTER-BET (the defender's, registered alongside P-2026-044, same timestamp class):**
+**ΔlnZ = +3.0 ± 1.0 (interval +2 to +4).** Reasoning, shown: the Laplace +2.635 was
+computed for the OLD setup (z_on and ε fixed); the evidence run FREES both (+2 dims →
+Occam costs ~ln(prior/posterior width) each, partially repaid by their likelihood gains —
+the chain demonstrably prefers z_on ≈ 6–8×10⁷ over the coded 4×10⁷) plus the new
+dispersion shape. Costs and gains roughly cancel: PolyChord should land NEAR the Laplace,
+slightly reshuffled. The operator's ≥+5 requires the data to reward the freed sector well
+beyond the Laplace-era fit — his nose against my bookkeeping. GRADING: the number lands
+in exactly one interval (≥+5 operator | +2–4 defender | 4–5 = both graze | <+2.5 = the
+bottom-out clause and NOBODY wins). House rule unchanged: the loser's reasoning gets the
+autopsy.
+
+**THE OPERATOR'S TIDE ARGUMENT (filed pre-verdict, against the defender's bookkeeping):**
+freed parameters that DO WORK don't net-cancel — "they pay up in tide": a parameter that
+actively relieves a CROSS-DATASET tension (H0: Planck-vs-SH0ES is IN this stack via
+pantheonplusshoes; S8's direction) earns likelihood gains of tension-release class, which
+generically exceed its Occam cost (the operator's basis: ~1000 prior projection runs).
+The defender's counter, also on record: the H0-relief gain is already largely PRICED into
+the Laplace +2.635 (SH0ES was in that fit); the NEW freedom (z_on, varying_me) must earn
+its own keep beyond it. THE AUTOPSY PROTOCOL, set now: when the number lands, decompose
+it — best-fit Δχ² of the freed run vs the old fixed run, against the measured Occam costs
+(from the PolyChord outputs) — and grade WHOSE MECHANISM STORY was right, independent of
+who wins the interval. Bets stand as registered; no slides.

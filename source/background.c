@@ -640,8 +640,8 @@ int background_functions(
        sector: it must not bleed into clustering. Zero unless dcdf_z_rad_onset>0. */
     double rho_dcdf_rad = dcdf_rho_rad(pba, a);
     rho_tot  += rho_dcdf_rad;
-    p_tot    += (1./3.) * rho_dcdf_rad;
-    dp_dloga += -(4./3.) * rho_dcdf_rad;
+    p_tot    += dcdf_p_rad(pba, a);            /* exact dispersion pressure (2026-07-12) */
+    dp_dloga += dcdf_dpdloga_rad(pba, a);      /* exact d p/dln a */
     rho_r    += rho_dcdf_rad;
 
     /* PRTOE rotation-cancellation conversion: free-streaming dark radiation shed from

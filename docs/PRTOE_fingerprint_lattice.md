@@ -27,8 +27,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the zon ch
 ## 1. What makes this an improvement rather than a list
 
 Standard cosmology's anomalies are ORPHANS — each tension gets its own bespoke model, each
-null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H0 must lower Y_p
-(it did, at production grade), must de-bias Σm_ν upward (it does, in-house), must widen D/H
+null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H0 engages Y_p through its window (the windowed verdict: a +1.3σ counter-lean, honestly owned — the early "lowers Y_p" reading was reversed by def449), must de-bias Σm_ν upward (it does, in-house), must widen D/H
 (it did — owned as a bet, not hidden), must chord the radio bands at fixed ratios, must point
 one axis, and must never touch Koide or a haloscope. **Any single row failing at its assigned
 weight kills the lever for every row.** No other framework on the market submits to a
@@ -49,3 +48,12 @@ not yet on any single decisive row — exactly the profile the review has priced
 (capped 25% pending PolyChord). *One lever, many windows, no exits: the lattice is either the
 most over-constrained correct idea in cosmology or the most efficiently falsifiable wrong one.
 Both are compliments to its construction; only the sky knows which.*
+
+
+## The ε(epoch) table (paid 2026-07-12 — rows must cite THIS, not "the" ε)
+| epoch | ε | provenance |
+|---|---|---|
+| today (z < 50) | 0 exactly | the window's low edge |
+| recombination | 1.232% (fit) / 1.254% (derived) | production chain / the derived stack |
+| BBN window (LT) | ε_rec × [0.8–1.0] (ramp factor) | the windowed splice |
+| above z_high | 0 (disordered) | the window's high edge |

@@ -1,3 +1,5 @@
+> **LAB-LOG DOC (reader's rule):** this file documents derivations INCLUDING their dead ends, chronologically — the sanctioned format for post-mortems (like the hunt log). Correct-version summaries live in the standalone files; the failures ledger indexes all deaths.
+
 # What Threw the m_e Switch? (2026-07-07, operator's question — the dyad's open trigger, formalized)
 
 *The dyad's m_e amendment (~1% heavier electron in the early universe)

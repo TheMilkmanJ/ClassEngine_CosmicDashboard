@@ -2374,7 +2374,7 @@ int input_read_parameters_general(struct file_content * pfc,
    * +1.232% shift; off by default so existing configs are unaffected. */
   class_call(parser_read_string(pfc,"dcdf_dyad_link",&string1,&flag1,errmsg),errmsg,errmsg);
   if (flag1 == _TRUE_ && (strstr(string1,"y") != NULL || strstr(string1,"Y") != NULL)) {
-    double dyad_c = 1.0, dyad_f_amp = 0.6, dyad_Psi0 = 5.e16, dyad_Mred = 2.435e18, dyad_eps;
+    double dyad_c = 0.9, dyad_f_amp = 0.63661977, dyad_Psi0 = 5.33073e16, dyad_Mred = 2.435e18, dyad_eps; /* def541 derived stack: (9/10)*(2/pi)*3alpha -> eps = 1.2543% (P-040/P-041; freeze-gate def539) */
     class_read_double("dyad_c", dyad_c);
     class_read_double("dyad_f_amp", dyad_f_amp);
     class_read_double("dyad_Psi0_GeV", dyad_Psi0);

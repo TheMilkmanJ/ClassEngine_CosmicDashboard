@@ -1,5 +1,10 @@
 # PRTOE — Honest Status Board (red-team ledger)
 
+> **STALENESS NOTE (2026-07-12):** dated 2026-07-08 — predates the threading program, the
+> derivation hunt, and the evidence run. Current state: [PRTOE_INDEX.md](PRTOE_INDEX.md);
+> current standing and live bets: [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md)
+> (banner). Kept as the honest historical baseline.
+
 Dated 2026-07-08. This is the model's self-assessment, kept honest on purpose. Updated as
 cruxes resolve. Companion to the pre-registered predictions and the birefringence null.
 

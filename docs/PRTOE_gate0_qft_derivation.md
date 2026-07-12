@@ -1,3 +1,5 @@
+> **LAB-LOG DOC (reader's rule):** this file documents derivations INCLUDING their dead ends, chronologically — the sanctioned format for post-mortems (like the hunt log). Correct-version summaries live in the standalone files; the failures ledger indexes all deaths.
+
 # Gate 0 — Does the conformal m_e coupling ride the coherent order parameter (heal) or the field (catastrophe)?
 
 **Status: DERIVATION RUN 2026-07-09. Verdict: the heal is NOT forced, NOT the

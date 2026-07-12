@@ -1,3 +1,5 @@
+> **PROVENANCE NOTE (2026-07-12):** skeleton/outline era; for current state see PRTOE_INDEX.md.
+
 # PRTOE: The Skeleton in Plain Math (2026-07-07)
 
 *The core structure, stripped to its hinges. Not a sum -- a SEQUENCE, each step

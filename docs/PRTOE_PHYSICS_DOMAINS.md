@@ -346,7 +346,7 @@ pre-registered menu — making ε distributional: an inflationary dice roll.
 THE DICE (14 angles × 3 tilts): f_amp median 0.55–0.67,
 P(f_amp > 0.2) = 86% at all three tilts (chaos erases the tilt dial); the
 chaos was verified physical (3–4 decimal convergence across DOP853/Radau/
-tolerances), and an earlier segmented bound (ε ≥ 0.67) was killed by its
+tolerances); an earlier segmented bound's death is filed in the failures ledger — the surviving bound is stated by its
 own stamped caveat within the hour. Then the ergodic backbone: a
 microcanonical ensemble on the quartic shell — the operator's blind
 reconstruction — approximately reproduces the dice; the gap was dissected
@@ -360,7 +360,7 @@ instrument** — the gap-vs-ergodic GREW at h = 1000, 3000, and 1e4 (three
 consecutive violations of the pre-registered monotonic-shrink falsifier,
 terminal gaps 3–5× the first). The microcanonical ensemble remains a
 partial mechanism decomposition (freeze-out third + release memory), but
-its claim to predict physical-h exceedance is WITHDRAWN. What survived is
+its physical-h exceedance claim is retired to the failures ledger. What stands is
 empirical: P(f_amp>0.2) ROSE with h — 84 → 82 → 84 → 94 → 100% — with no
 quiet draw at h=1e4 (min f_amp 0.246). The dice stand; the backbone that
 tried to extrapolate them does not.

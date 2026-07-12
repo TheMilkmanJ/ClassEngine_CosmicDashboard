@@ -60,12 +60,20 @@ allowed to make fields directly; it is allowed to stir.
 The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
 vortex-network rms boost, ×3400) was caught by red-team (t402): it concentrates B on the
 **filaments/lines**, while the void floor constrains the **inter-line** field — which stays
-**~1.5 orders short** on the smooth estimate. The gap STANDS (task #5, reopened). Live
+**~1.5 orders short** on the smooth estimate. [Historical framing — see the RESOLVED verdict below: the internal rescues died; the blazar debate is the arbiter.] Live
 candidates, none yet computed: (i) return-flux topology (field lines must close — the void
 threading is not zero, its floor is computable); (ii) post-recombination vorticity persistence;
 (iii) the blazar bound's own caveats (plasma-instability alternative would relax the floor).
-**If the void floor is confirmed AND the inter-line threading computes short, P-028 fails in
-the void column while the galactic column stands.** That is the registered risk.
+**RESOLVED (task #5, 2026-07-12): the inter-line threading COMPUTES SHORT.** Candidate (i)
+falls to flux conservation — the return flux through the void cell equals the flux-average,
+i.e. the smooth estimate; concentration on lines cannot raise the inter-line floor. Candidate
+(ii) (vorticity persistence) sources the same average and cannot beat the same theorem.
+THEREFORE the void column now rides SOLELY on candidate (iii): the blazar bound's own
+robustness. The live external debate (plasma instabilities — beam-plasma energy loss may
+relax the ≥10⁻¹⁶ G floor entirely) is the arbiter: **if the blazar floor survives that
+debate, P-028's void column FAILS while the galactic column stands** — the registered risk,
+now sharpened to a single external question. Adverse-honest closure; filed in the failures
+ledger (the internal rescue's death) and here (the standing exposure).
 
 ## 4. The signature no one else can write down: THE SIGN
 

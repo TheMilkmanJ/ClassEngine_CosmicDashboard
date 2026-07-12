@@ -68,3 +68,46 @@ one permanent bill (the Lorentz-violation ledger). What it already owns: a quant
 an emergent metric with working horizons, a matched vacuum-energy number, and singularity-free
 interiors. *The metric is not a stage the universe stands on; it is the sound of the medium —
 and the medium was quantum before there was anything to hear it.*
+
+## Sources
+
+[Sakharov1967] (induced gravity — the no-bare clause's ancestor), [Jacobson1995] (the thermodynamic route), [Bekenstein1973]/[Hawking1975] (the area law), [FFZ1997] (the species cancellation), [WeinbergWitten1980] (the no-go and its frame-based evasion). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## ADDENDUM (2026-07-12, the derivation-hunt night) — the earn-it tests: three paid, one priced, one question left
+
+> **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking; sweeps 5–9 of
+> PRTOE_DERIVATION_HUNT.md). This addendum upgrades the file's original "CONDITIONAL"
+> standing materially — and states exactly what the condition has narrowed to.
+
+The original file left quantum gravity conditional on a WALL of tests (the keystone's
+address). Tonight the wall decomposed into five pieces, and four are settled:
+
+1. **No-bare-G** — now a named constitutional clause (the same axiom that counts c,
+   seats the vacuum, shields Lorentz, tilts the spectrum, and gaps the hierarchy).
+2. **Frolov–Fursaev species cancellation → S = A/4 free** — banked (t422-credited).
+3. **Jacobson: S = A/4 + Clausius ⟹ Einstein's equations** — literature-standard
+   [Jacobson1995].
+4. **Applicability under the preferred frame** — PAID by the Lorentz shield
+   (PRTOE_LV_pricing.md): matter has NO vector/tensor bridge to the frame (the dangerous
+   operators are unwritable, not suppressed), so the local QFT whose entanglement builds
+   the area law is standard Lorentz-invariant QFT to 12–38 orders. The Weinberg–Witten
+   no-go is evaded by the same structure that pays this bill.
+5. **Nonlinear exactness** (the analog-gravity "linearized-plus" worry) — PRICED:
+   non-equilibrium corrections to the Clausius step generate curvature-squared terms
+   suppressed by the basement scale; $R^2/M_{\rm Pl}^2$ corrections are allowed by every
+   existing test with enormous margins. A performance bill, not an open door.
+
+**What remains — one question:** the basement roster (task #18) — the explicit species
+list entering the F-F sum. The graviton's earn-it program went from a wall to a door:
+*who lives downstairs.* With the roster hypothesis (the paired lepton-sector vacuum) the
+sum has a candidate census; the gap equation that must produce k ≈ 1.3 for the hierarchy
+is the SAME computation that fills this list — quantum gravity's last condition and the
+hierarchy problem's last number are one calculation.
+
+**What this model still does NOT claim in the quantum realm, kept honest:** no new
+resolution of the measurement problem (the model RIDES standard QM); no modification to
+entanglement (the Tsirelson bound remains the permanent exam it must keep passing, never
+exceed); tunneling and superposition keep their standard mathematics with the medium
+supplying ontology, not corrections. The quantum wing's posture is unchanged: exact
+reproduction, plus an origin story, plus one emergent metric that must serve gravitons
+and photons identically — which GW170817 already tests and passes by construction.

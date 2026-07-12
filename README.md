@@ -4,7 +4,6 @@
 
 **Author:** Justin Ryan Pulford
 
-This repository provides the **PRTOE** (Pulford-Romsa **Theory of Expansion**) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
 This repository provides the **PRTOE** (Pulford-Romsa Theory of Expansion) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
 - Compile custom CLASS engines
 - Run nested sampling (Cobaya + PolyChord)
@@ -27,6 +26,26 @@ By construction PRTOE **cedes local, bound-matter physics to the Standard Model*
 > **Invitation to Researchers:** If you are downloading this code, we politely ask you to run the PRTOE model configurations and help us test its viability as an alternative cosmological model. By comparing its Bayesian evidence ($\Delta\ln\mathcal{Z}$), $\chi^2$ fits, and parameter pulls (such as the $H_0$ and $S_8$ tensions) against standard $\Lambda\text{CDM}$, you can help the cosmology community determine if PRTOE is a framework worth exploring further. Thank you for your contribution!
 
 ---
+
+## For Physicists: the 10-minute path
+
+1. **[docs/PRTOE_THREE_EQUATIONS.md](docs/PRTOE_THREE_EQUATIONS.md)** — the testable core in three lines (substrate, coupling, decomposition).
+2. **[docs/PRTOE_PREREGISTERED_PREDICTIONS.md](docs/PRTOE_PREREGISTERED_PREDICTIONS.md)** — every prediction time-stamped BEFORE its deciding measurement, kills included.
+3. **[docs/PRTOE_FAILURES_LEDGER.md](docs/PRTOE_FAILURES_LEDGER.md)** — everything we tried and killed, with the killshots. We consider this file as load-bearing as the results.
+4. **[docs/BIBLIOGRAPHY.md](docs/BIBLIOGRAPHY.md)** — the ~60 external sources; **[docs/PRTOE_INDEX.md](docs/PRTOE_INDEX.md)** — the full map.
+
+**The neutrino block** ([docs/PRTOE_neutrino_sector.md](docs/PRTOE_neutrino_sector.md) — predictions in force): the model ties the lightest neutrino mass to
+the dark-energy scale (m₁ = ρ_Λ^{1/4} ≈ 2.25 meV), fixing **Σm_ν ≈ 61 meV, normal ordering,
+Majorana nature — so 0νββ MUST occur** (P-2026-020): a bounded, non-optional target for the
+ton-scale double-beta program. A confirmed Dirac nature, an inverted ordering, or
+Σm_ν well above ~70 meV each kill the sector outright.
+
+**Honesty notes:** (i) the H₀ mechanism's current in-house evidence is ΔlnZ ≈ +2.6
+(Laplace, SH0ES-conditional; nested-sampling confirmation gated and pending); (ii) the
+model runs under continuous internal adversarial review, which currently prices the
+deeper "medium" interpretation at **~16%** — the phenomenological fit stands on its own
+regardless; (iii) material marked EXPLORATORY (notably docs/PRTOE_DERIVATION_HUNT.md) is
+recent, un-refereed work-in-progress and should be read as such.
 
 ## CosmicDashboard: How This Dashboard Works
 

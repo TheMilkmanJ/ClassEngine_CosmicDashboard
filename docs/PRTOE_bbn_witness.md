@@ -4,6 +4,7 @@
 sits INSIDE the BBN window. The three abundances are three frames of the condensation.*
 
 ## The equations
+
 - the ramp: ε(T) = ε·(1 − T/T_c), T_c = 193 keV (the μ=T fixed point, banked)
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
   (~70 keV): ε_eff = 0.64ε; Li (~40 keV): 0.79ε
@@ -13,8 +14,24 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
   2.527±0.030 → a ~1.6–1.9σ OWNED bet (P-027's radio arbiter decides)
 
 ## How PRTOE connects
+
 The sector is RIGID — every number derived or measured (T_c, ε = c·f̄·α_c, ω_b, the stamps):
 the model cannot coach its witness. Referees: the radio arbiter (P-027), the helium
 resolution, the T_c re-audit (flagged-not-taken — a rescue-by-retuning is forbidden), the zon
 posterior. History: wall → pharmacy → artifact → WITNESS (def253→325→449→465) — each
 re-posing by better physics, booked adverse when adverse.
+
+## Sources
+
+[Cooke2018] (D/H), [Aver2021] + [EMPRESS2022] (the helium war's two poles), [PRIMAT2018] (rates), [PRyMordial2023] (the windowed engine), [DamourDyson1996] (the Oklo fence). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## The lithium row — CLOSED AS A NULL (task #19, 2026-07-12)
+
+The windowed run's full output (tools/PRyMordial, baseline vs LT/MTLT splices):
+Li7/H = 5.439×10⁻¹⁰ (baseline) → 5.456 (LT, +0.33%) → 5.578 (MTLT, +2.6%). The dyad's
+windowed effect on lithium is at the percent level and slightly UPWARD — **the model
+neither causes nor cures the lithium problem** (observed 1.6×10⁻¹⁰; the ×3.4 discrepancy
+stands exactly as the field left it, where the modern consensus leans stellar depletion).
+Verdict: the row is SAFE (no new damage) and the model claims nothing — an abstention,
+filed with the same prominence as the conquests (the strong-CP precedent). M6's lithium
+debt: paid.
