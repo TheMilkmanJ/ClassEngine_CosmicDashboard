@@ -60,3 +60,12 @@ The onset-clock identity (include/background.h, the coded T = 9.41 keV derivatio
 [Volovik2003] (composite-vacuum precedent); internal: sweeps 6, 12, 13
 (PRTOE_DERIVATION_HUNT.md), P-2026-040's corollary chain. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## 5. The operator's call (registered 2026-07-12, BEFORE the dispersion chain's convergence)
+
+**The operator calls PAIR (7.70).** Reasoning, registered verbatim in structure: the
+model's two-fluid identity — the superfluid's two-fluid hydrodynamics, the complex
+field's two real degrees of freedom, and the gap equation's independent first-pass hint
+(N = 2 channels, k = 1.36) — makes "2" the resident's natural count. The call is
+timestamped against the running cmp_prtoe_zon_disp chain (lineup 7.55 / 7.70 / 7.85);
+whatever the converged center selects, this line does not move.

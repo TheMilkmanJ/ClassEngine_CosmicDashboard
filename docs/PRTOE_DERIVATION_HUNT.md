@@ -550,3 +550,23 @@ physical f̄ is a flux average, the physical claim requires the REAL winding dyn
 mix fully where the sim's does not (cosmological times vs the sim's t=2240) — a
 mixing-timescale question, honestly open. The night's first machine-adverse note; filed
 without anesthesia.
+
+## NINETEENTH SWEEP — the gap equation's first pass PASSES; sweep 18 under estimator review
+
+### The trial's opening (task #18, first pass)
+T=0 BCS, relativistic DOS at the basement surface, medium-mode exchange with static
+screening: k = λ/α_c computed across the honest grid (channels N × screening
+prescription): **k spans 0.79–4.37, and (N = 2, Thomas–Fermi) gives k = 1.36 — 4% from
+the anchor cloud's 1.29–1.31.** The pairing form survives its first quantitative contact;
+the equation points at TWO channels (suggestive for a pair condensate; un-forced). Owed:
+derive N and the screening from the roster's structure instead of a menu — that
+derivation is the trial's remaining act.
+
+### Sweep 18 reopened (the operator's catch): wrong estimator suspected
+Sweep 18 tested the UNWEIGHTED ⟨|cos ψ|⟩ = 0.745 and declared the flux mechanism dead —
+but a flux weights by SPEED: the true estimator is ⟨v|cos ψ|⟩/⟨v⟩. In libration, speed
+and alignment correlate, so the two differ exactly as observed. The speed-weighted check
+is RUNNING; outcomes registered in advance: E3 ≈ 2/π → sweep 18 inverts (the mechanism
+lives; the estimator was the corpse); E3 ≈ 0.70+ → sweep 18 stands and P-041 remains
+un-mechanized. Either way the error-class gets a name: estimator-weighting is the
+seventh strike's candidate family (steps, clocks, and now measures).
