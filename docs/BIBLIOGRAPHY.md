@@ -118,7 +118,7 @@ that is a bug — file it.*
 - **[Horndeski1974]** G. W. Horndeski, Int. J. Theor. Phys. 10, 363 (1974). — The general scalar-tensor frame.
 - **[LangloisNoui2016]** D. Langlois, K. Noui, "Degenerate higher derivative theories beyond Horndeski," JCAP 02 (2016) 034, arXiv:1510.06930. — The DHOST conditions the legacy spec invoked.
 
-## 11. Exotic spacetime (the impossibility shelf — PRTOE_exotic_spacetime.md)
+## 11. Exotic spacetime (the impossibility shelf — PRTOE_wormholes.md + PRTOE_white_holes.md)
 
 - **[MorrisThorne1988]** M. Morris, K. Thorne, "Wormholes in spacetime and their use for interstellar travel," Am. J. Phys. 56, 395 (1988). — The traversable-wormhole exotic-matter requirement (NEC violation) the solvency reading re-derives.
 - **[FordRoman1995]** L. H. Ford, T. A. Roman, "Averaged energy conditions and quantum inequalities," Phys. Rev. D 51, 4277 (1995), arXiv:gr-qc/9410043. — The quantum bounds squeezing sustained negative energy; the record's version of "no eternal overdraft."
