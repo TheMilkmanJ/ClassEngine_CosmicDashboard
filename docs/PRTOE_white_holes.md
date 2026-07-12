@@ -160,3 +160,13 @@ P-031). **The white-hole reading inherits the genesis's falsifiers**: the axis f
 the data is the fingerprint of how the fountain poured. [GRAMMAR — unification of two
 banked descriptions; no new mechanism; the torus's dynamical origin stays owned by the
 banked Kelvin-Helmholtz roll-up.]
+
+**Asked and answered (2026-07-12) — can the white hole do birefringence? NO, three walls:**
+(1) timing — CMB polarization is minted at last scattering, ~380 kyr after the pour;
+rotation accumulates only along the post-recombination path; (2) coupling — the banked
+P-009 closed null: the medium is EM-neutral BY FORCE (the Meissner bill), anomaly
+coefficient exactly zero, and the white hole is the same medium, adding geometry, not
+couplings; (3) the pour's parity mark is real but lives in the vorticity/magnetic
+channel: P-028's genome-signed magnetic helicity — birefringence's cousin in the channel
+the neutral medium actually owns. The anti-birefringence bet (the unownable 0.34°) stands
+unchanged, white hole included.
