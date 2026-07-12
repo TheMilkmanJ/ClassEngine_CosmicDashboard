@@ -1963,3 +1963,15 @@ or below), "it's a problem because we bottom out."
 operator's own words); +2.5 to +5 → the Laplace confirmed, the call missed; ≥ +5 → the
 call lands and the ~25% cap discussion reopens. The referee: cmp_prtoe_dyad_ev vs
 cmp_lcdm_ev (PolyChord, same data, no derived values anywhere in either config).
+
+**THE COUNTER-BET (the defender's, registered alongside P-2026-044, same timestamp class):**
+**ΔlnZ = +3.0 ± 1.0 (interval +2 to +4).** Reasoning, shown: the Laplace +2.635 was
+computed for the OLD setup (z_on and ε fixed); the evidence run FREES both (+2 dims →
+Occam costs ~ln(prior/posterior width) each, partially repaid by their likelihood gains —
+the chain demonstrably prefers z_on ≈ 6–8×10⁷ over the coded 4×10⁷) plus the new
+dispersion shape. Costs and gains roughly cancel: PolyChord should land NEAR the Laplace,
+slightly reshuffled. The operator's ≥+5 requires the data to reward the freed sector well
+beyond the Laplace-era fit — his nose against my bookkeeping. GRADING: the number lands
+in exactly one interval (≥+5 operator | +2–4 defender | 4–5 = both graze | <+2.5 = the
+bottom-out clause and NOBODY wins). House rule unchanged: the loser's reasoning gets the
+autopsy.
