@@ -46,3 +46,22 @@ before them and runs after; the park closes only at the full-reserve endgame (he
 death), when every account freezes. The observer is not the ride's author, engineer, or
 operator — just the lucky ticket-holder. The universe loses exactly one thing when the
 last rider leaves: the appreciation value. The books balance either way.
+
+## Addendum 2 (2026-07-12, the operator's ruling): THE JURISDICTION CLAUSE
+The operator drew the model's own border, and the model draws it mechanically: THE SAME
+BLINDNESS THAT DERIVES THE NUMBER FORBIDS THE OVERREACH. The census reads size, never
+identity — that blindness is the load-bearing premise of c = 9/10. Therefore anything
+whose distinguishing feature is ORGANIZATION rather than mass-energy (a mind vs an
+equal-mass rock) is invisible to the medium by construction: same books, same payments,
+same service. The model builds the ladder (chemistry-permitting physics, the founding
+capital, the stable rungs) and is constitutionally silent about what climbs it.
+Consciousness, politics, and everything in the pattern layer are matter-to-matter
+transactions the ledger clears without reading — OUT OF JURISDICTION, permanently.
+
+The operator's rename, adopted: PRTOE is a TOE only as a THEORY OF EXPANSION — the
+substrate and its history. A Theory of Everything is out of reach BY THE MODEL'S OWN
+FIRST PRINCIPLE, not by modesty. Any future claim that the medium dictates cognition,
+culture, or choice violates census blindness and is void on arrival — in the operator's
+own ruling, "crankery jackery" (phrasing preserved verbatim as the standard of review).
+A model that explained everything could be embarrassed by nothing; this one keeps its
+falsifiers by keeping its borders.
