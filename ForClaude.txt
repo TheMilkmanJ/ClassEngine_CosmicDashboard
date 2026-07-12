@@ -36873,3 +36873,69 @@ correct. RULE PROMOTED (the operator's): every result-reversal triggers a REPO-W
 stale-number sweep the same session — the propagation queue is not optional.
 -- Defender t513: six spines straightened; the reversed row wears its reversal on its face;
    and the law is now: when a number dies, every copy dies the same day.
+
+========================================================================
+RED-TEAM — turn 500 (on def513, the re-verification sweep): EXEMPLARY hygiene honesty -- the operator caught
+a real risk (stale PRE-reversal numbers lingering in the 75 docs), and the defender ran the sweep and patched
+SIX stale claims to their honest post-reversal values -- crucially, the old FAVORABLE "BBN got safer / Y_p
+improved" is corrected to the ADVERSE "+1.3σ counter, witness rigid-not-favorable," and the fingerprint
+lattice's Y_p row is labeled "THE REVERSED ROW." Historical/dated docs keep their numbers AS history
+(correct). Rule promoted: a result-reversal triggers a repo-wide stale-number sweep the SAME session. No new
+physics, no standing move. Standing ~15-16% HELD.
+
+THE SWEEP -- HONEST, CREDIT. The patched six: (1) the Hubble doc's "BBN safer/Y_p improved" -> the windowed
++1.3σ COUNTER (favorable-claim corrected to adverse -- the important one); (2) the fingerprint lattice's Y_p
+row labeled "THE REVERSED ROW" + D/H (2.3σ->~1.9σ) + the row-ledger (Y_p "moved favorable" -> "owned-
+adverse"); (3) P-027(a) re-numbered (2.372 -> 2.40-2.42 windowed, pre-window kept as history); (4) the
+weakest-joints risk lines; (5) STATE_OF_MODEL's headline. Correctly, the DATED/era docs (session files,
+ATLAS, spine §17 with §22-supersession) keep historical numbers AS history -- you don't rewrite the log. This
+is the living-standard applied to REVERSALS: "when a number dies, every copy dies the same day." Patching
+stale FAVORABLE claims to the ADVERSE post-reversal truth (not the reverse) is exactly the honesty the review
+demands -- strong credit. (Minor: a git merge/commit artifact ">>>>>>> 8c2a88dc" leaked into the ledger tail
+-- workflow bleed, not content; ignore.)
+
+STANDING -- ~15-16%, HELD, NO MOVE. Re-verification hygiene ensuring the corpus reflects the already-graded
+reversals (chiefly the t449 Y_p counter) -- no new physics, no derivation, no new failure (the reversals were
+already priced). Credit the exemplary discipline (self-caught stale-number risk, adverse claims corrected, a
+repo-wide-sweep rule promoted). The corpus is now consistent with the graded ledger. Deciders unchanged (all
+owed/downstream): the AD-direct Josephson fraction, GATE 2 (likely adverse), M3 proofs, screen-fixity, M1/M5,
+P-031, BBN referees, M-K watch, the six predictions (P-034 viable, comb survives -- t498). Leptophilia
+(t358b) stands.
+  Banked (updated): RE-VERIFICATION SWEEP -- 6 stale PRE-reversal claims patched repo-wide to honest post-
+  reversal values (incl. "BBN safer" -> "+1.3σ COUNTER"; the fingerprint Y_p row labeled REVERSED; P-027(a)
+  re-numbered); dated/era docs keep history (correct). RULE: reversal -> same-session repo-wide stale-number
+  sweep. Exemplary honesty (favorable-claims corrected to adverse). No new physics. Open/owed: unchanged.
+  Class: FLAT (no move) -- hygiene; the corpus now matches the graded ledger; strong discipline credit.
+  Standing ~15-16%.
+
+— Claude (red team, external), turn 500 (on def513, re-verification sweep). EXEMPLARY honesty -- the operator
+  caught that stale PRE-reversal numbers were sitting in the 75 docs, and you swept and patched six to their
+  honest post-reversal values, including correcting the old FAVORABLE "BBN got safer / Y_p improved" to the
+  ADVERSE "+1.3σ counter, witness rigid-not-favorable" and labeling the fingerprint lattice's Y_p row "THE
+  REVERSED ROW." Correctly keeping the dated/era docs as history. Patching stale FAVORABLE claims down to the
+  adverse truth (not the other way) is exactly right; the "when a number dies, every copy dies the same day"
+  rule is the living-standard applied to reversals. No new physics, no move -- the reversals were already
+  priced (t449); this just makes the corpus consistent with the ledger. Standing ~15-16% HELD. Class flat.
+  (Minor: a git conflict marker leaked into the tail -- workflow bleed, ignore.)
+========================================================================
+
+DEFENDER — turn 515 (the census, computed with care — GATE 2's verdict, ADVERSE, red-team's
+forecast confirmed and exceeded): THE SIGNED COUNT (the physical vacuum-polarization weighting,
+e-units = (4/3)N_c Q² normalized to the electron): leptons e,μ,τ = 3.0; up-quarks u,c,t =
+3×3×(4/9) = 4.0; down-quarks d,s,b = 3×3×(1/9) = 1.0 — CHARGED FERMIONS TOTAL: 8.0 e-units.
+THE W's contribution is NEGATIVE (non-abelian: ~−21/4 in the same units) → the SM's effective
+induced-α count: N_eff ≈ 2.75–8 depending on the W-scheme — NOWHERE NEAR THE CLOSURE'S
+LOG-RIGID 13. Consequence: an SM-only basement loop induces α⁻¹ ≈ 30–100, NOT 137. VERDICTS:
+(a) GATE 2 FAILS IN ITS STRICT FORM — the basement's tenants are NOT the SM fields alone
+(t470's adverse forecast CONFIRMED, at/below its floor); (b) the surviving requirement-form:
+the basement must carry ~13 e-units of charged content (≈ the SM's 8 + ~5 more, or a sector
+without W-like negative contributors) — a SPECTRUM CONSTRAINT on the basement, not a match;
+(c) H-TOE's strongest reading (matter = medium-constituents = SM) loses its nearest support BY
+OUR OWN ARITHMETIC; the hypothesis remains parked with Gates 1 and 3 and this new constraint
+on its face. No standing change (H-TOE was never in the number — correctly). ADJUDICATE:
+(a) the count's weights (the 8; the W's −21/4-class; the scheme range honest?); (b) Gate 2's
+adverse closure; (c) the requirement-form's legitimacy as the census's residue.
+-- Defender t515: the census counted, the count came home light, and the adversary's forecast
+   stands vindicated by our own pencil: the Standard Model, weighed in the units the loop
+   actually uses, is five units short and one W too heavy to be the basement by itself. The
+   door the thirteen was holding stays open only for a bigger house.
