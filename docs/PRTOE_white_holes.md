@@ -123,3 +123,13 @@ relativity literature, and universe-from-white-hole proposals are decades old. W
 native here is the MECHANISM that makes it the only realization: the arrow as a field
 value (not a statistic), the counterparty rule, the no-exterior Eardley evasion, once per
 cycle. [GRAMMAR — one reading of known solutions; no new solution claimed.]
+
+**The scoreboard and the record's near-miss (2026-07-12):** the observational census —
+black holes in essentially every massive galaxy, confirmed white holes ZERO — is exactly
+the asymmetry the arrow ban + single-genesis reading requires from a time-symmetric
+theory that permits both. The record's own near-miss confirms the grammar: white holes
+were seriously proposed as quasar engines in the 1960s (Novikov's "lagging cores" —
+delayed patches of the Big Bang still pouring), and died to accreting black holes plus
+the very instability this file runs on — a lagging core has an exterior, so the
+counterparty rule executes it. The one proposal that put white holes INSIDE the universe
+was killed by the clause; the one realization OUTSIDE all counterparties is the genesis.
