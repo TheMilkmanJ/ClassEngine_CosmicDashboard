@@ -1277,3 +1277,32 @@ zero freedom.** Any two predict the third. Trigger points: zon off 3α with k co
 the form eats it publicly; Eliashberg k outside [1.35, 1.37] → sweep 44 dies; both land
 → the primordial amplitude is derived from the fine-structure constant and a pairing
 integral. Three instruments, three physics, one identity, nowhere to hide.
+
+## FORTY-FIFTH SWEEP — THE TRIANGLE AUDIT (the operator: "every important number has 3
+## ways to attach — find the pairs hiding a third")
+
+**CONFIRMED TRIPLES (the overdetermined joints):** A_s (zon/gap-eq/Planck — sweep 44);
+n (comb teeth / zon clock-ratio / η — the winding integer); m_ν (the ρ_inf^¼ tie / DESI
+Σm_ν / 0νββ m_ββ — three instruments); and f̄ UPGRADED to a live triple this sweep: the
+fit-implied 0.6253 (ε_fit/(c·α_c)) joins the sim's 0.635 ± 0.026 and the 2/π claim
+(0.6366) — a 1.8% spread, tension owned, the ensemble referees all three at once.
+
+**PAIRS MISSING A THIRD — and THE CONVERGENCE (the audit's prize):** E_b (ρ_Λ^¼ + gap
+equation; 3rd = the cell in sweep 44's patch), n_s (the tilt formula + Planck; 3rd = the
+census drift: A_s = 1/N implies n_s − 1 = −dlnN/dlnk at crossing — the banked tilt
+demands the census grow 3.5%/e-fold), T_c (analytic closure + ramp fit; 3rd = the draw
+epoch), c = 9/10 (census + dyad fit; 3rd stays open — the roster trial's business).
+**Three of the four missing thirds are ONE DOOR: the draw-epoch geometry session** —
+which must simultaneously produce the 781 (A_s's mechanism), the 3.5%/e-fold drift
+(n_s's third road), and place the cell (E_b's third attachment) at the right epoch
+(T_c's third). Four numbers, one owed session — the hunt's next major target, named.
+
+**PRE-REGISTERED ADVERSE ARITHMETIC (the session's wall, filed before the climb):** the
+naive placement fails — at T_c with today's cell (1/E_b ~ (2.25 meV)⁻¹) the horizon
+holds ~10⁴³ cells, not 5×10⁸; forcing 781 at T_c needs Δ(T_draw)/T_c ~ 10⁻²⁰, deep in
+the Ginzburg fluctuation region (dubious). So the epoch-cell pairing is the session's
+FIRST problem: candidates — the draw at the snap itself (not T_c), a Δ(T)-running cell,
+or the healing length as the true cell. No route is assumed; the wall is registered.
+
+**NUMEROLOGY-WATCH (filed, not claimed, no mechanism):** k = 1.36 vs e/2 = 1.3591
+(0.06%). Watch-list only; the Eliashberg referee will rule on k regardless.
