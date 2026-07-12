@@ -1,6 +1,6 @@
 # The Auditor — a Philosophy Note (2026-07-12)
 
-> **STATUS: PHILOSOPHY. Zero physics claims. The model's mechanism needs nothing on this
+> **STATUS: PHILOSOPHY. Zero NEW physics claims (the fences cite banked mechanisms only). The model's mechanism needs nothing on this
 > page (definiteness comes from decoherence/envariance; anti-stagnation from the genesis
 > draw). This is the operator's teleological reading, preserved because it completes a
 > symmetry the grammar built — and because a repository this honest can afford one page
