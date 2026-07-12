@@ -90,3 +90,4 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | the clock lineup 7.55/7.70/7.85 (hunt sweep 13, quartet file §1) | marks retired; two-clock re-derivation owed ramps-first — quartet file §4b |
 | "transfer favorable-leaning" (hunt sweep 28) | reservoir survives; delivered η owed the sphaleron-weighted integral — task #2 |
 | shooter v2's 13–20 TeV read as P-042 support | it is a STRAIN on arrow C — hierarchy §2(a) |
+| the quartet-clock mechanism (sweep 13: "Z4-locked quartet") | conflated phase-sector locking (cos 4θ) with composite binding; killed by the banked stability sign (c_s real ⟹ λ > 0 ⟹ pairs repel ⟹ no quartets) | sweep 33; the pair stands by derivation |

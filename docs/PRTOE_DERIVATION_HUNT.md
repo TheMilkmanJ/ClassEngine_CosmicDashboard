@@ -876,3 +876,20 @@ kill-condition must name WHICH epoch's α_c equals 3α; (ii) the dressing-identi
 the sphaleron-weighted transfer integral, the two-census routing argument): RAMPS FIRST —
 every quantity enters as q(t) with its epoch tag, and point-values must justify their
 freezing. The label firewall now covers time: no number without its WHEN.
+
+## THIRTY-THIRD SWEEP — PAIR BY STABILITY (the quick way the operator asked for)
+
+The pair-vs-quartet question does not need the chain: quartet condensation requires an
+ATTRACTIVE pair-pair channel, and the pair-field's self-interaction is the quartic λ —
+whose sign the model banked long ago: **c_s = √α_c is real and positive (the localization
+clause; ξ = 402 AU rides it), and c_s² > 0 ⟺ λ > 0 (Bogoliubov) ⟺ pairs REPEL ⟺
+quartets do not bind.** The Z4 term is a PHASE-locking anisotropy (cos 4θ — it locks
+directions, not composites); the sweep-13 quartet mechanism conflated phase-sectors with
+bound states and is hereby corrected (→ failures ledger).
+**VERDICT: THE OSCILLATING UNIT IS THE PAIR — derived from the model's own stability
+requirement.** The operator's registered call acquires its derivation. The chain's
+remaining jobs are unchanged and still essential: the MARK (the ramps-first two-clock
+re-derivation gives the pair's exact z_on), α_c = 3α, and the n-instrument — zon now
+CONFIRMS rather than decides the pair. And the second quick route stands open: with the
+ruler re-derived, the EXISTING samples (old-template 1149 + dispersion 340+) grade
+immediately — the re-derivation is pen-and-paper, not sampling.

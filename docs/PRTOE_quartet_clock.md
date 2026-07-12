@@ -61,6 +61,12 @@ The onset-clock identity (include/background.h, the coded T = 9.41 keV derivatio
 (PRTOE_DERIVATION_HUNT.md), P-2026-040's corollary chain. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
+## 4a. RESOLVED BY STABILITY (sweep 33): THE UNIT IS THE PAIR
+Quartets require attractive pair-pair coupling; the model's banked real sound speed
+(c_s = √α_c) forces λ > 0 — repulsive — so quartets do not bind. The Z4 term locks
+phases, not composites (the §2 sketch conflated the two — failures ledger). The
+operator's pair call is now DERIVED, not just registered. The chain confirms the mark.
+
 ## 4b. STATUS (current truth): the lineup marks are SUPERSEDED
 Strike 7 (two components, two clocks — the zero-mode's H = m AND the winding mode's
 k/a = m coexist, sharing one m; their ratio measures n) RETIRES the §1 table as grading
