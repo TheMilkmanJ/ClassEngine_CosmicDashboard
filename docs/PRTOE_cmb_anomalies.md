@@ -35,3 +35,33 @@ sensitivity; n reading differently in two members.
 
 [PlanckIso2019], [HajianSouradeep2003], [CSS1998], internal: P-024/P-029/P-031, the
 Assembly Six, the BipoSH pass, threads 12–16. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## 3. How to check — the tiered protocol (2026-07-12) + the Tier-0 reading
+
+**Ramp discipline governs every template** (the operator's standing law): comb teeth are
+finite-width smeared bumps (coherence), never delta spikes; the comb's envelope rises and
+falls across the band (projection is quasi-periodic); the isocurvature "line" is a band
+(ℓ ~ 120–180); the ε-dipole's amplitude GROWS at √3·H, so sightlines at different z carry
+different amplitudes — any constant-amplitude dipole fit is a step-shaped error.
+
+- **Tier 0 (in-house arithmetic, done):** pairwise axial separations of the PUBLISHED
+  candidate axes (galactic, headless): quadrupole vs octopole **6.5°**; quadrupole/octopole
+  vs kinematic dipole **17.1°/11.9°**; HPA modulation vs the cluster **~70–80°**
+  (HPA direction ±~20°, estimator/scale-dependent). READING: the core low-ℓ cluster is
+  coherent (the object P-024 is registered against); the HPA's fifth-member candidacy is
+  **adverse-leaning at face value** — no kill fires (P-032's clause binds SETTLED members
+  only; HPA was banked as candidate), and the geometric-object question is open (a power
+  MODULATION dipole vs a planar alignment axis need not be the same direction under the
+  winding mechanism — the BipoSH pass decides the mapping). Fence: the cluster's ecliptic
+  proximity keeps the systematics/masking caveat alive.
+- **Tier 1 (this box, light CPU, REHEARSAL only):** comb + isocurvature template fit on
+  the public binned Planck TT residuals (plik-class, on disk), profiling tooth width,
+  spacing, envelope, and the SHARED n (the P-033 co-location built in). Labeled rehearsal:
+  a sensitivity check, not the referee — registered bets get the real referee.
+- **Tier 2 (post-PolyChord, the registered referee):** the map-level BipoSH joint fit —
+  ONE direction forced through comb + ε-dipole + helicity parity + alignment family
+  simultaneously (referee calendar: "analysis-limited — data exists").
+- **Tier 3 (future data):** next-gen α-variation maps (~10⁻⁷, the z-ramped dipole
+  template above), dark-ages 21cm (the P-022/P-027 edges), CMB-S4.
+- **The free cross-kill:** zon's clock-ratio and the comb's tooth count must read the
+  SAME integer n — two instruments, unrelated data, one number.

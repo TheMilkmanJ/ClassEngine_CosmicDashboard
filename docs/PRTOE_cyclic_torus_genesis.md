@@ -54,6 +54,7 @@ twist_floor.py, c1_locus_twist.py.*
 ### 8. The torus convergence — two independent threads meet (P-2026-013)
 - The torus was ALREADY the registered shape: **P-2026-013**, flat 3-torus, motivated independently (finitism, no-center, H0-safe; CMB quadrupole suppression for L~2–2.5 D).
 - Genesis, worked from the other end, **demands** a torus for the twist axis. Independent convergence.
+- **The GR name for this instant (2026-07-12) [GRAMMAR + EXPLORATORY]:** the heat-fountain genesis reads as the one realized white-hole-like handover — the time-reverse solution GR always carried, cashed exactly once with no exterior counterparty. Causal-structure reading, not a derivation; the identification, grades, and fences: [PRTOE_white_holes.md](PRTOE_white_holes.md).
 - **Cross-bounce bookkeeping:** rotation is dynamical (resets to 0 at crunch); **topology is not** — the torus survives and carries the axis across the bounce for the heat fountain to re-seed spin. Topology holds what dynamics loses.
 
 ### 9. Bubble-ring mechanism + the LOCAL≠GLOBAL torus caveat

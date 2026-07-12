@@ -35,7 +35,7 @@ $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm an
 $$\frac{1}{g} = 34.85\text{–}35.43 \;\Longrightarrow\; g = (1.29\text{–}1.31)\,\alpha_c$$
 
 — stable to ±1% while the arrows scatter by ±0.3. Hence
-$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with $k \approx 1.3$, **the gap
+$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with $k \approx 1.3$ (SWEEP-43 UPDATE 2026-07-12: gap-equation k = 1.36 computed prescription-robust within the roster-forced screening class; sound-cone-bandwidth target 1.353 ± 0.04 — a 0.5% landing, estimate-grade, all ingredients banked), **the gap
 equation's single owed number** (nearby rationals firewalled; the k is the equation's to
 derive). The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
 that runs the dyad and prices the vacuum (the one-coupling portfolio).

@@ -7,9 +7,10 @@ cd /home/themilkmanj/prtoe_class
 for arg in "$@"; do
   case "$arg" in
     *.yaml|*.yml)
-      if [ -f "$arg" ] && grep -nE '^[^#]*:\s*[A-Z_]+_PENDING\b' "$arg" >/dev/null; then
+      sentinel_re="^[^#]*:[[:space:]]*[\"']?[A-Z_]+_PENDING[\"']?([[:space:]]|#|$)"
+      if [ -f "$arg" ] && grep -nE "$sentinel_re" "$arg" >/dev/null; then
         echo "ABORT: $arg contains a freeze sentinel (a *_PENDING value):" >&2
-        grep -nE '^[^#]*:\s*[A-Z_]+_PENDING\b' "$arg" >&2
+        grep -nE "$sentinel_re" "$arg" >&2
         echo "This config is deliberately un-runnable until the pending value is frozen from its converged source." >&2
         exit 1
       fi

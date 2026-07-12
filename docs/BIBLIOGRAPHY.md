@@ -63,6 +63,8 @@ that is a bug — file it.*
 
 - **[ArkaniHamed2004]** N. Arkani-Hamed, H.-C. Cheng, M. Luty, S. Mukohyama, "Ghost condensation and a consistent infrared modification of gravity," JHEP 05 (2004) 074, arXiv:hep-th/0312099. — The ghost-condensate frame the arrow-giver adopts (theta-dot background = the permanent mu); its bounded NEC-flexibility is the exotic-spacetime shelf's priced sector.
 
+- **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the settlement-terms computation runs on (sweep 43).
+
 ## 5. Emergent gravity, entropy, and the keystone
 
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.
