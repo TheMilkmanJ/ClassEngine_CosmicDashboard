@@ -1237,3 +1237,30 @@ ASSEMBLED, zero new purchases: three flavors of tenant, all paired, their balanc
 pairs = the zero-point, their collective work = the two signs. STILL LOCKED: the payroll
 (A_s = 1/N, count ~ 10⁸⁻⁹ — plausibly the genesis horizon's pair-cell census under the
 pinch's one-per-cell; framed, not computed).
+
+## FORTY-FOURTH SWEEP — THE PAYROLL'S FORM (operator-forced: "the count already exists
+## in our files") — A_s = (α_c/4πk)³ [CANDIDATE, UNMECHANIZED, numerology-risk stamped]
+
+**The mechanism half [mechanism-grade]:** blindness → equal shares; the pinch → shares
+CANNOT differ (identical cells, occupancy one — the no-size-differences clause is law
+downstairs); so a genesis patch of N cells fluctuates only by counting noise:
+δ = 1/√N, **A_s = 1/N — the sky's lumpiness is the shot noise of the blind census.**
+(The operator's afternoon claim, formalized.)
+
+**The count half [assembled tonight]:** N^(1/3) = 4πk/α_c with the sweep-43 gap-equation
+k = 1.36 (prescription-robust, never fit to A_s) and banked α_c = 3α:
+**A_s = (α_c/4πk)³ = 2.102×10⁻⁹ vs Planck 2.101×10⁻⁹** (patch = 781 cells across;
+N = 4.76×10⁸ residents).
+
+**FIREWALLS:** (i) UNMECHANIZED — why the draw-epoch horizon is exactly 4πk/α_c
+cell-lengths across is the owed geometric session; a form that lands, not yet a
+derivation that forces. (ii) Look-elsewhere: the convention menu's four rows, only 4π
+lands (2π/8π miss ×8 each way) — trial factor ×4 noted. (iii) The 0.05% is luck within
+the band: k's ±3% honesty cubes to ±10% on A_s; the honest claim is Planck-sits-mid-band.
+(iv) **THE REGISTERED REFEREE: A_s pins k to ±0.5% (k ∈ [1.35, 1.37]) — the Eliashberg
+refinement session, previously a rigor nicety, is now a KILL TEST registered before it
+runs: refined k inside = the form graduates; outside = it dies in public.**
+
+**Docket note:** A_s was the last unframed number ("no light route found"). Route found
+at candidate grade. Every quantity in the model now carries a derivation, a labeled
+estimate, or a named referee.
