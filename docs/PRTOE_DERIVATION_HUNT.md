@@ -97,3 +97,41 @@ HONEST FLAGS: (a) the shared-scale claim carries its own post-hoc flag (task #43
 un-lifted); (b) the residual mechanism is still two-candidate; (c) mild internal tension
 to resolve: P-023's de-biased band (0.07–0.09 eV) vs this chain's 0.061 eV — the running
 chains' m_ncdm posterior discriminates.
+
+## FOUND THIS PASS (second sweep) — λ GRADUATES CONDITIONALLY, plus three frame finds
+
+### λ — the saturation argument was already banked ✓ (conditional graduation)
+The ceiling: λ ≤ (m/Ψ₀)² (derived, the isocurvature bound). The missing piece was "why
+does the draw amplitude sit AT the ceiling?" — and the answer is the DEFINITION of the
+banked genesis: the first draw is a Kibble draw AT T_c, and T_c is precisely the
+temperature where the effective mass term and the quartic balance — a thermal draw at its
+own transition is BORN at the quartic-mass crossover. Saturation is not a hypothesis; it
+is what "Kibble draw" means. Therefore **λ = (m/Ψ₀)², equality, up to the O(1) Ginzburg
+factor** — and P-031 (the %-level isocurvature at ℓ~170) converts from a registered
+hypothesis to a DERIVED CONSEQUENCE of the genesis. Honest bounds: the O(1) Ginzburg
+factor is the residual unknown (same class as f̄'s freeze-out — the third job of the
+same transition mathematics); conditional on the Kibble-draw genesis (banked, t343-class).
+
+### η and the comb share ONE integer (frame find — a new structural falsifier)
+Card 4's AD-direct route: the transferred charge rides the phase gradient — which IS the
+winding. So the baryon asymmetry inherits the topological integer: **η ∝ n**. The comb's
+tooth count (P-029) and the baryon density become two readings of the same n. New
+cross-kill, registered here: once the comb measures n, η/n is a pure-mechanism number —
+if the Josephson transfer calc then misses it by orders, the AD-direct route dies with no
+retreat. (The transfer integral itself remains the docket's heavy calc.)
+
+### A_s — the census form (frame find, value open)
+In the medium's grammar the primordial amplitude is Poisson noise of the condensate:
+A_s = 1/N_quanta (per coherence volume at genesis) → N = 1/A_s ≈ 4.8×10⁸. Mechanism-shaped
+(counting, the model's native language); the independent count of N is the missing piece.
+No value claimed.
+
+### n_s — the e-fold form (frame find, value open)
+The tilt's textbook origin is duration: n_s − 1 ≈ −2/N_gen → N_gen ≈ 66 for the measured
+0.9649. The model's conformal/genesis phase owes an e-fold count; if the genesis story
+produces ~66 naturally, n_s graduates. No value claimed; the count is the piece to find.
+
+*Scorecard after two sweeps: graduated — the template offset, λ (conditional); closed into
+one mechanism — ρ_inf + m_ν (pending the §18 audit); framed — f̄'s freeze-out, η∝n,
+A_s = 1/N, n_s = 1 − 2/N_gen. Still standing untouched: M3, the §18 audit itself, the
+transfer integral, the spurion. The operator's guarantee is running ahead of the referee.*
