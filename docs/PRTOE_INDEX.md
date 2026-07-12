@@ -4,6 +4,9 @@
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
 PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appendices A/B).*
 
+- [THE INFLATION REPLACEMENT](PRTOE_inflation_replacement.md) — every problem inflation was hired for, answered without an inflaton (MIXED)
+- [THE CMB ANOMALIES](PRTOE_cmb_anomalies.md) — one axis, one integer: the anomalies as a single object's signature
+- [THE S8 TENSION](PRTOE_s8_tension.md) — the second fight, fought with the right sign (PRODUCTION)
 - [LASER PHYSICS](PRTOE_laser_physics.md) — the medium's grammar at 10¹⁵ Hz: threshold = condensation, the bench rehearsal of T_c
 - [THE QUARTET CLOCK](PRTOE_quartet_clock.md) — whose mass does the onset read? The 7.59/7.74/7.89 lineup vs zon (EXPLORATORY)
 - [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ^¼ = ½α_c²M₂ at 0.4‰ (EXPLORATORY)
