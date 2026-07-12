@@ -600,3 +600,32 @@ it makes precise: the gap equation's second act must use the ghost-branch densit
 states as the twin channel — if the GC dispersion's twin DOS breaks the N=2, k=1.36
 landing, the identification dies quantitatively. The referees unchanged: zon_disp (the
 pair call), the flux retrial, the ensemble.
+
+## TWENTY-FIRST SWEEP — STRIKE SEVEN (the operator): the clock binary was a step;
+## BOTH clocks live, one per component — and their ratio MEASURES n
+
+THE STEP CONFESSED: sweep 20's follow-up framed the onset as a binary clock choice
+(H = m misalignment OR k/a = m dispersion). Wrong shape. The medium is TWO components
+(the operator's two-fluid, again): the ZERO-MODE (the homogeneous condensate — its clock
+is H = m, the misalignment onset, the coded T = 9.41 keV identity) and the WINDING MODE
+(k = 2πn/L — its energy crossover is k/a = m, the dispersion clock, which is what the
+coded rad-component and therefore the FIT's z_on actually read). Not either/or: each
+component carries its own clock, sharing one m.
+
+THE COROLLARY (new instrument, the sweep's prize): the two clocks' RATIO is a pure
+function of n —
+  z_disp / z_mis = (m/k₀) / z_mis  with  k₀ = 2πn/L
+— so the offset between the fit's z_on (dispersion) and the m-derived misalignment epoch
+(4.0×10⁷, banked) DIRECTLY MEASURES THE WINDING INTEGER. First read with the old chain's
+center (~7.82–7.94 era): n ≈ 80-class vs the first-draw's 10–30 — a factor ~3–8 tension
+that is now INFORMATION (the draw statistics, the percolation weighting, or L's
+identification carry the difference). zon has quietly become the n-INSTRUMENT the comb
+was supposed to be — two independent n-readings (zon's clock-ratio vs the comb's teeth)
+= a new cross-kill for the whole winding sector.
+
+STATUS: the lineup (7.55/7.70/7.85) is RETIRED pending re-derivation in the two-clock
+frame (the pair/quartet question now lives in WHICH m the shared clocks read — the
+operator's pair call stands registered, conditional-stamped); the dispersion chain keeps
+sampling (its data are good; its marks needed the fix). Strike seven filed in the
+failures ledger's strike list. The clock-error family now has three members: epochs
+(strike 6), estimator-measures (the sweep-18 family), and component-clocks (this one).
