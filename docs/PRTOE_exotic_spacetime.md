@@ -116,3 +116,27 @@ the snap" is grammar-consistent (the clearing direction's handover must sit betw
 crunch and pour) but bounce dynamics are UNCOMPUTED — [EXPLORATORY], not derived. The
 price of admission stands as the operator posted it: you bring your universe to its knees
 before you ever see one.
+
+---
+
+## Addendum 2 (2026-07-12, the operator's catch): THE COUNTERPARTY RULE [GRAMMAR]
+
+The operator lined up the two kills and found one law: **anything running against the
+clearing direction is an isolation-only object, destroyed by its first transaction with
+the forward ledger.** A superposition (unsettled books) survives isolation and dies of
+one environmental photon — decoherence. A white hole (reversed clearing) survives
+isolation and dies of one infalling particle — the Eardley instability. Neither dies of
+age; both die of CONTACT. No anti-arrow object survives its first counterparty.
+
+The rule closes the snap's exemption from both directions: the global white hole lives
+because no exterior exists — **no counterparty can post the killing transaction**. The
+snap is the white-hole analog of a perfectly isolated superposition; the clause that
+executes every local pretender is the clause the global one is structurally outside of.
+
+Fence: the mechanisms are distinct (Eardley = classical blueshift pileup; decoherence =
+quantum phase scrambling) and the shared structure — anti-arrow states wrecked by generic
+contact with an arrow-carrying environment — is also standard thermodynamic lore
+(time-reversed states need fine-tuned correlations any perturbation destroys). This is
+one grammar for three known facts, not a new mechanism: [GRAMMAR], the ledger's kind of
+unification. Cross-reference: the settlement law (PRTOE_quantum_superposition.md), the
+arrow-giver, §2 above.
