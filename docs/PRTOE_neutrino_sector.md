@@ -8,13 +8,13 @@
 ## 0. The claims, stacked
 1. **Neutrinos are Majorana** → 0νββ MUST occur (P-2026-020). Non-optional.
 2. **The lightest mass is dark energy's quarter-power**: $m_1 = \rho_\Lambda^{1/4} = 2.25$ meV
-   (the Majoron/L-breaking shared scale, §6) — the smallest known mass and the largest
+   (the Majoron/L-breaking shared scale — PRTOE_MATH_SPINE.md §6; "Majoron" = the Goldstone boson of spontaneously broken lepton number, whose scale the model ties to the dark-energy density) — the smallest known mass and the largest
    known structure share one number.
 3. **The sum**: with measured splittings, $\Sigma m_\nu = 61.4$ meV, **normal ordering**
-   (P-2026-012; the inverted-ordering collision already fought and won in-registry).
+   (P-2026-012). Full disclosure: an earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this one's own pre-registered collision test and is retired in the registry — the ordering claim survived its internal challenger.
 4. **The closure** (EXPLORATORY): the occupancy-corrected ρ_inf derivation reproduces this
    Σ by an independent route (the ρ_Λ ↔ M₂ ↔ 3α triangle) — one mechanism, three
-   graduations, zon-refereed.
+   quantities co-determined; refereed by an in-house CMB parameter chain ("zon"), currently running.
 
 ## 1. Why this block is the model's sharpest neck
 Every claim is measurable THIS DECADE, and none is adjustable: (i) ton-scale 0νββ
@@ -32,18 +32,25 @@ bridge un-built); the Majoron's post-hoc flag (un-lifted until a NEW falsifiable
 consequence, #41); the ρ_inf closure's zon-dependence.
 
 ## 3. For the double-beta community, specifically
-The model's 0νββ effective mass follows from m₁ = 2.25 meV + normal ordering + measured
-mixings: m_ββ in the few-meV band — BELOW current ton-scale reach but with the floor's
-structure fixed in advance. The prediction is not "you will see it next year"; it is
-"it exists, at a computable floor, and Dirac-nature evidence at any level kills this
-model's neutrino sector outright." A bounded target with a stated kill — the rarest gift
-theory can hand an experiment.
+The model's effective mass, computed from m₁ = 2.25 meV + normal ordering + NuFIT-class
+mixings (sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.022): the three mass contributions are
+|U²m| = (1.52, 2.67, 1.10) meV, giving
+
+$$m_{\beta\beta} \in [0.04,\ 5.3]\ \text{meV over free Majorana phases},\ \sim 3.3\ \text{meV typical}$$
+
+— honestly BELOW ton-scale reach (nEXO/LEGEND-1000 target ~5–20 meV), and the
+cancellation floor near 0.04 meV is stated rather than hidden (the model does not yet
+predict the Majorana phases; that is an open item, not a hedge). The prediction's value
+is structural: (i) 0νββ MUST exist (Dirac-nature evidence at any level kills this
+sector outright); (ii) the normal-ordering floor's shape is fixed in advance; (iii) if a
+ton-scale experiment DOES see a signal well above ~5.3 meV, this model is also killed —
+the band cuts both ways. A bounded two-sided target with stated kills.
 
 ## Sources
 [SNO2002]/[SuperK1998] (oscillations), [Planck2018] (Σm_ν context), internal: §6, the
 CC file, P-2026-012/020/023, the sixth/seventh sweeps. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
-## 4. Addendum (sweep 28) — the vertex's double duty
+## 4. Addendum — the vertex's double duty [estimate-grade]
 The transfer integral's first run requires a junction coupling y ≈ 0.7–3×10⁻⁵; the
 seesaw vertex that makes m_ν is y ≈ 1.3–1.8×10⁻⁶ — same class, factor 4–20 apart, inside
 the crude rate-form's O(1)s. If the careful session closes that factor, **the neutrino

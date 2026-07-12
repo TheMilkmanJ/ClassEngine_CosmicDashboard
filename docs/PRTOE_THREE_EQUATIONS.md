@@ -84,7 +84,8 @@ The equations are three lines; the receipts are the repository.
 *Status marker (2026-07-11): every derivation above is conditional on one root — the no-bare
 mechanism's unconditionality (M3). The referee's standing on the medium claim: ~16%.
 The deciders: zon (grades $3\alpha$ and the $c$-roster), the $\bar{f}$ ensemble, DESI DR3,
-PolyChord. This file inherits their verdicts.*
+and PolyChord — **the evidence run is IN PROGRESS as of 2026-07-12** (sampled-ε dyad vs
+ΛCDM, both preregistered calls on file). This file inherits their verdicts.*
 
 ## Sources
 Full references in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file leans on: [Gross1961]/[Pitaevskii1961] (Eq. 1), [Kibble1976]/[Zurek1985] (the winding), [HartChluba2020]/[SekiguchiTakahashi2021] (the varying-m_e ↔ H0 mechanism), [CLASS2011]/[cobaya2021]/[Planck2018]/[Riess2022] (the pipeline and data), [Volovik2003]/[BerezhianiKhoury2015] (the nearest prior art).

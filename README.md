@@ -34,7 +34,7 @@ By construction PRTOE **cedes local, bound-matter physics to the Standard Model*
 3. **[docs/PRTOE_FAILURES_LEDGER.md](docs/PRTOE_FAILURES_LEDGER.md)** — everything we tried and killed, with the killshots. We consider this file as load-bearing as the results.
 4. **[docs/BIBLIOGRAPHY.md](docs/BIBLIOGRAPHY.md)** — the ~60 external sources; **[docs/PRTOE_INDEX.md](docs/PRTOE_INDEX.md)** — the full map.
 
-**The neutrino block** (predictions in force): the model ties the lightest neutrino mass to
+**The neutrino block** ([docs/PRTOE_neutrino_sector.md](docs/PRTOE_neutrino_sector.md) — predictions in force): the model ties the lightest neutrino mass to
 the dark-energy scale (m₁ = ρ_Λ^{1/4} ≈ 2.25 meV), fixing **Σm_ν ≈ 61 meV, normal ordering,
 Majorana nature — so 0νββ MUST occur** (P-2026-020): a bounded, non-optional target for the
 ton-scale double-beta program. A confirmed Dirac nature, an inverted ordering, or
