@@ -629,3 +629,38 @@ operator's pair call stands registered, conditional-stamped); the dispersion cha
 sampling (its data are good; its marks needed the fix). Strike seven filed in the
 failures ledger's strike list. The clock-error family now has three members: epochs
 (strike 6), estimator-measures (the sweep-18 family), and component-clocks (this one).
+
+## TWENTY-SECOND SWEEP — THE RAMP RE-GRADE opens (the operator's meta-catch): first pass
+
+The asymmetry confessed: kills got autopsies WITH step-audits; the [R]/"no-effect"
+verdicts got neither — and "no effect" is a step-shaped grade (a point where a boundary
+question belongs). Proven instance: LASER PHYSICS ([R] until the operator forced the
+re-look → the Z4 simulator, KZ-on-demand, the threshold rehearsal). Task #24 opened;
+first-pass finds (inventory-grade, un-forced):
+
+1. **NUCLEAR PAIRING — a missed lab-cousin (the best find).** The odd-even mass
+   staggering of nuclei IS a pairing gap — nucleon superfluidity inside every nucleus,
+   measured to keV precision across the whole chart of nuclides. The roster's grammar
+   (paired fermions, gap equations, k = O(1) couplings) has a laboratory sibling with
+   THOUSANDS of measured gaps — a calibration bench for the gap-equation program that the
+   [R] grade of nuclear physics walked straight past. The cousins' bench gains its
+   heaviest instrument.
+2. **QUANTUM TURBULENCE — a possibly-buried channel.** The medium's vortex network (the
+   magnetogenesis engine, the void work) is a QUANTUM vortex tangle — and quantum
+   turbulence (decay laws, Kelvin-wave cascades) is a mature lab field. The buried
+   boundary: the tangle's DECAY should imprint somewhere (a stochastic GW background
+   floor? the conversion channel's microphysics — conv_g's mechanism may BE tangle
+   decay!). The "no-effect" grade was regime-limited: no effect TODAY, un-graded at the
+   relaxation epochs.
+3. **THE GIBBS PARADOX — the blindness clause's thermodynamic shadow.** Entropy of
+   mixing depends on distinguishability — the paradox is literally an identity-blindness
+   question. The two-census structure (gauge counts species; gravity counts none) implies
+   gravitational and gauge sectors price mixing entropy DIFFERENTLY — the F-F species
+   sum already lives on this edge (the keystone). Filed as a boundary worth one careful
+   session, not claimed.
+4. **SUPERCONDUCTIVITY'S grade is now WRONG-WAY.** Graded [R + kinship] (we learn from
+   it); post-roster, the flow reverses: the model PREDICTS the vacuum is a
+   superconductor-class object, so SC's full toolbox (Ginzburg parameters, vortex
+   lattices, the Hebel-Slichter class of coherence effects) becomes a source of
+   REQUIRED-consistency checks on the basement. Upgrade queued.
+The systematic sweep of all remaining [R]/[I] rows: task #24's body, sessions ahead.
