@@ -362,3 +362,22 @@ already measured. That is the basement-roster computation, now with a candidate 
 **The operator's sequencing, adopted:** compute the two interfaces first (#5 the vortex
 carrier, #2 the junction carrier) — each independently cross-examines the tenant before
 the gap equation is attempted.
+
+## TENTH SWEEP — the He-3 reading (operator's instinct; the roster hypothesis gets its lab analog)
+
+LITERAL He-3: DEAD, four killshots (baryonic vs Ω_b; EM-visible vs L1a; no pairing at
+cosmic density/temperature; post-BBN). Filed to prevent relitigation.
+STRUCTURAL He-3: THE ROSTER HYPOTHESIS'S LAB COAT. The operator's instinct lands on
+[Volovik2003] independently: the medium as a FERMIONIC PAIRED superfluid — and
+specifically He-3-A-CLASS (p-wave, ANISOTROPIC): preferred axis + chiral order parameter
++ winding textures = the model's axis family (P-024/P-029/P-031), the Z4 sector, and the
+chiral-GW note, natively. Slogan: the medium is helium-3 made of leptons. The A-phase
+reading PREDICTS the anisotropy family as the order parameter's signature rather than an
+added feature — a coherence upgrade, un-refereed.
+THE CRUNCH-PAIRING GENESIS NOTE (operator): pairing at extreme density is observed
+astrophysics (neutron-star superfluid cores); at the crunch, pairing becomes mandatory
+and the paired cell's WINDING is the one crunch-immune object (banked topological
+protection) — the operator's own cycle law ("the current cycle builds the next's
+requirements") acquires its mechanism-shape: what survives is what paired and wound.
+Firewalled: mechanism-shaped, not computed; the H/He imagery maps to "the crunch's
+fermion inventory," not literal nuclei.
