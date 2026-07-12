@@ -1151,3 +1151,40 @@ OWED to make it real: the threshold's actual value (the minimum draw amplitude t
 reaches condensation — computable from the banked genesis machinery), and whether the
 attractor-free cycle map (task #1's old verdict) becomes an attractor ONCE the viability
 filter is applied — the filter may BE the missing attractor.
+
+## FORTY-THIRD SWEEP — task #18 session 2: THE SETTLEMENT TERMS (the menu collapses,
+## the crossover is contained, the 2–4% gap stands honest)
+
+*(script: scripts/settlement_terms.py; machinery credited [Leggett1980]/[NSR1985])*
+
+**1. The edge-convention audit ABSORBED (sweep 24's debt):** the anchor's k_target over
+the honest convention menu {m_H, 2π m_H, 4π m_H (banked), 8π m_H}:
+k_target = 1.218 / 1.280 / 1.306 / 1.332 → **THE TARGET BAND: k ∈ [1.22, 1.33]**.
+
+**2. THE MENU COLLAPSE [the screening derivation — F1 upgrades from FUDGED-pick]:** the
+roster forces the response class — the T=0 vacuum kills Debye/classical rows; the pinch
+(occupancy exactly one) is full degeneracy; surface pairing is static at leading order.
+Forced class: STATIC DEGENERATE (Lindhard; Thomas–Fermi = its q→0 limit). Within the
+forced class the remaining freedom computes to **R = λ_Lindhard/λ_TF = 1.002 — 0.2%**:
+the screening scale (s² = α_c/π ≈ 0.007) sits so far under the pairing surface that the
+prescription cannot matter. **k = 1.36 is PRESCRIPTION-ROBUST within the derived class**;
+sweep 19's 0.79–4.37 spread belonged to the now-forbidden menu rows. F1's status:
+[DERIVED-class, robust ±0.3%] — no longer a pick.
+
+**3. THE STANDING GAP, filed without anesthesia:** computed 1.36 vs the band [1.22,
+1.33] — **2–4% high, and the collapse means the screening menu can no longer absorb it.**
+Named bridge residues, directions annotated: (i) RETARDATION (μ*-class logarithmic
+reduction of the effective coupling — reduces k, the right direction; bridging 3.7%
+needs ln(scale ratio) ≈ 1.2, an O(e) ratio — plausible, THE candidate, one careful
+session); (ii) vertex corrections (typically reduce — favorable); (iii) gapped-medium
+self-consistent screening (screeners are themselves paired → weaker screening → RAISES
+k — adverse). The trial's remaining act is now exactly one item: the retardation session.
+
+**4. THE CROSSOVER CONTAINMENT [computed — sweep 38's demand met]:** the T=0
+Leggett equations (gap + number, contact regularization) solved across 1/(k_F a) ∈
+[−2, +2], VALIDATED at all three landmarks: BCS asymptote (8/e²)e^{−π/(2k_F|a|)} ratio
+0.990; unitarity μ/E_F = 0.592 vs the known 0.5906 and Δ/E_F = 0.686 vs 0.6864; BEC
+μ → −1/(k_F a)² (molecular half-binding). ONE equation family runs from the exponential
+weak-coupling gap (the anchor's regime — the hierarchy's shape) through unitarity to
+μ < 0 bound pairs (the floor's regime — one-per-cell, the CC's shape). **The
+clearinghouse operates in both regimes: the settlement terms contain the crossover.**
