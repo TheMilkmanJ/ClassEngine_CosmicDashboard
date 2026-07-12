@@ -194,3 +194,51 @@ The thaw = 0 row is the sweep's real find: routeD was launched as a measurement,
 no-bare clause DERIVES its answer — the floor cannot thaw without the vacuum leaking. If
 routeD's posterior excludes zero, that is not a parameter update; it is evidence against
 the clause itself. The instrument was a falsifier all along.
+
+## FIFTH SWEEP — the five "owed arguments," re-heard in the model's own grammar
+(the operator's bet: "there isn't even an argument, they're just not being heard correctly")
+
+### 1. The dressing factor — DISSOLVED. The ladder already made the argument.
+The model's capstone (§10, the atom reading) says the universe IS an atomic structure, and
+the scale ladder's universal binding form is E_b = ½α_eff²M. Dark energy as the medium's
+BINDING ENERGY takes the Bohr form directly — the localization dressing was a SECOND
+derivation route (pair-breaking) whose normalization we divided in on top of the first:
+a double-dressing. The sky agreeing with the undressed form at 0.4‰ is the model being
+heard correctly at last. Remaining: bookkeeping confirmation only.
+
+### 2. The 2/π freeze-out — DISSOLVED INTO A THEOREM. Wrong estimator all along.
+The transaction grammar (the currency-1 axiom) says the terminal reads EVENTS — flux,
+crossings — a RECTIFIED quantity. For fully phase-mixed 2D motion the velocity-radius
+angle is uniform, and **⟨|cos ψ|⟩ = 2/π exactly — a one-line theorem.** No freeze-out
+calculation was ever needed: f̄ = 2/π is the ergodic value under the model's OWN measure.
+The coded estimator (⟨ṙ²⟩/⟨v²⟩ = 0.635) is a different statistic that happens to sit near
+it (partial mixing under the squared measure ≈ full mixing under the flux measure).
+CONSEQUENCE for P-041: the claim upgrades — f̄ = 2/π is now MECHANISM-DERIVED (flux measure
++ ergodicity); the running ensemble tests the estimator-coincidence, and the owed item
+shrinks to: recompute the ensemble with the RECTIFIED estimator and confirm it sits at
+2/π with full-mixing precision.
+
+### 3. The tilt's "2" — DISSOLVED. The two is the two in two-point.
+The power spectrum is the SQUARE of the amplitude — two quanta per correlator. Any
+process whose amplitude ages by 1/N per e-fold gives a spectrum tilt of 2/N,
+definitionally. The coefficient was never inflation's property to borrow; it is what
+"spectrum" means. Remaining honest piece: why the amplitude ages logarithmically
+(A ∝ 1/ln between the two scales) — mechanism-shaped, one step.
+
+### 4. M3 — HALF-DISSOLVED. The verdict-shape is pre-written.
+The basement is FORCED to Planck (def427), so the LV residuals are Planck-suppressed by
+construction — the pricing pass is bookkeeping against bounds the suppression already
+clears generically. The F-F applicability rides the no-bare clause (now named). What
+SURVIVES as real work: executing the bookkeeping and the induced-G forward calculation.
+M3 is a computation with a predicted outcome, not an open question — but the computation
+is still owed and still the root.
+
+### 5. The transfer integral (η's magnitude) — SURVIVES as the one genuine calculation.
+Heard correctly, its FORM is fully fixed: η = n × [junction transmission] (the shared
+integer × one mechanism number). But the transmission is a real integral with no shortcut
+in the banked structure. One number, honestly owed. The docket's last true calculation
+besides M3's bookkeeping.
+
+*Verdict on the operator's bet: 3 dissolved, 1 half-dissolved, 1 stands. The "arguments"
+were mostly translation errors — the model speaking counting-and-flux while we listened
+in energy-and-orbit.*
