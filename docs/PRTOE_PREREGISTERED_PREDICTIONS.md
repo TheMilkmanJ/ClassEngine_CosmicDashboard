@@ -1823,3 +1823,26 @@ staking its life on the instrument, which is exactly what the registry is for.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
+
+## P-2026-041: f̄ = 2/π — the Winding Average's Closed Form (registered def541, 2026-07-11, MID-FLIGHT of its referee)
+
+**The claim:** the ramp-corrected winding average is exactly f̄ = 2/π = 0.63662 (the
+uniform-phase |cos|-family average — the textbook closed form for a squared radial
+projection averaged over quasi-periodic orbits with uniform initial phase). Current value:
+0.635 ± 0.026 (0.06σ). **Registered while the deciding computation is running**: the
+256-angle × 3-R_i refinement ensemble (launched this session) delivers sub-percent
+statistical precision on f̄ — the bet is placed before its own referee lands.
+
+**The corollary, if P-040 and P-041 both live:** ε = (9/10)(2/π)(3α) = **27α/5π = 1.2543%**
+— the dyad's amplitude is a pure number times the fine-structure constant (a count × a
+geometry factor × the census's one external quote). Production fit: 1.232%.
+
+**Kills:** (i) the refinement ensemble landing >2σ from 0.63662 (imminent — hours);
+(ii) the ensemble's systematic spread (across R_i / windows) exceeding the distance to
+2/π (then f̄ is not a sharp constant and the closed form is moot); (iii) the mechanism
+derivation (owed) producing a different closed form.
+
+**Honest flags:** the 2/π identification currently has NO derivation (plausible-shaped:
+f̄ is exactly the kind of average that produces 2/π; the arcsine-family mechanism is owed);
+the three-factor ε stack is graded factor-by-factor (zon → 3α; the ensemble → 2/π;
+c-sharpening → 9/10), which is what separates this from dense-family numerology.
