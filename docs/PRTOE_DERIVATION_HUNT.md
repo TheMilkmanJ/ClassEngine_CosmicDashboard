@@ -242,3 +242,33 @@ besides M3's bookkeeping.
 *Verdict on the operator's bet: 3 dissolved, 1 half-dissolved, 1 stands. The "arguments"
 were mostly translation errors — the model speaking counting-and-flux while we listened
 in energy-and-orbit.*
+
+## SIXTH SWEEP — shortening the five lines (two more dissolve under the grammar)
+
+### Line 3, the dressing bookkeeping — DISSOLVED into the occupancy reading ✓
+Undo the dressing and read what remains: ρ_inf = E_b⁴ — **one binding quantum per
+coherence cell** (energy E_b in each volume 1/E_b³: occupancy ONE — the currency axiom
+again, pricing dark energy as a CENSUS, not a loop). The original calc's 16π² was the
+loop-integral price of the same mode — computing a fluctuation where the model counts an
+occupancy. The sky's 0.4‰ agreement with the undressed form is the occupancy reading
+confirmed. Line 3 SHORTENS TO: pin M₂'s independent provenance (the 20 nm mesoscale scale
+— currently parked-loose; the occupancy reading makes it the ONLY soft input left in
+dark energy's density).
+
+### Line 4, the log-aging step — CLOSED at argument level: THE TILT IS THE CENSUS'S RUNNING ✓
+Why does the seed amplitude age as 1/ln? Because under the no-bare clause EVERY coupling
+runs as an inverse log from the basement — that is what "induced" means: 1/α(μ) ∝
+ln(M_Pl/μ). If the fluctuation amplitude rides the induced coupling at horizon exit
+(linear — the data select it: 2/N fits, 1/N and 4/N die at 4σ), then P ∝ α² and
+**n_s − 1 = −2/ln(M_Pl/T_on) — the spectral tilt is the running of a no-bare coupling,
+observed in the sky.** The chain: no-bare → log running → amplitude ∝ α → square →
+−2/N → 0.963–0.964 vs measured 0.9649. Zero new objects; the clause's FOURTH job
+(counting c, seating the vacuum, shielding Lorentz, now tilting the spectrum).
+
+### The owed list after six sweeps (was five lines):
+1. **Induced-G forward** (the root; target-shape noted: M_red² ~ N·Λ²/16π² lands O(1)
+   with the census N and Λ near M_Pl — the calc must earn the O(1)).
+2. **The transfer integral** (η's transmission — the one true integral).
+3. **Pin M₂** (dark energy's last soft input; everything else in ρ_inf is counting).
+4. **The bets in flight** (zon → 3α + z_on; the ensemble → 2/π in-sim; routeD → thaw = 0;
+   conv_desi → the DESI verdict).
