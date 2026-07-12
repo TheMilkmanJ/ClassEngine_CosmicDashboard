@@ -1330,3 +1330,25 @@ the draw at z ~ 10⁶? Scale-invariance stays owned by the banked tilt mechanism
 census sets the amplitude at the pivot; the k-dependence is not shot-noise — the white
 n=4 disaster is NOT incurred because the draw is one global instant, not per-mode).
 (script: scripts/settlement_terms.py companion runs; scan receipts in the session log)
+
+## FORTY-SIXTH SWEEP — THE μ-ERA THREAD (operator-pushed: "I bet that's the missing H0
+## lever for SH0ES — chase it")
+
+**The bet, graded LOST at estimate grade (filed as the operator's):** the SH0ES-scale
+lever needs ~5% of radiation as recombination-era ΔN_eff ≈ 0.3; the draw's ENTIRE
+dark-sector budget at z ~ 10⁶ is (1+z_eq)/(1+z) = 0.06–0.3% of radiation — shortfall
+×17 (ξ-branch) to ×83 (1/m-branch). The D/H-fork heal (needs η_BBN < η_CMB by ~2.7% =
+percent-level photon injection) fails by the same arithmetic. The v6 triad keeps the
+H0 front.
+
+**The yield — SPECTRAL DISTORTIONS ARE A DRAW-BRANCH DISCRIMINATOR (new, the link was
+genuinely unmade):** the two cell candidates straddle the thermalization ceiling
+(z_therm ≈ 2×10⁶): (i) THE ξ-BRANCH (z_draw = 1.2×10⁶, inside the μ-window): FIRAS
+(|μ| < 9×10⁻⁵) ALREADY constrains its photon-leakage efficiency to < 2%; PIXIE-class
+(μ ~ 10⁻⁸) sees any efficiency > 2×10⁻⁶ — the branch glows for almost any coupling.
+(ii) THE 1/m-BRANCH (z_draw = 5.6×10⁶, above the ceiling): fully thermalized,
+FIRAS-invisible, spectrally silent forever. A future unexplained μ detection points ξ;
+a deep μ null squeezes ξ toward zero coupling or forces 1/m. STATUS: the discriminator
+inherits sweep 44's CANDIDATE grade (everything downstream of the unmechanized form is
+conditional on it); framed as the geometric session's data referee, not a registered
+prediction. (Receipts: this sweep's session log; z_eq/z budget frame, μ ≈ 1.4×injection.)
