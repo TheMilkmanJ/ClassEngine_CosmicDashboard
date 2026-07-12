@@ -10434,3 +10434,78 @@ if __name__ == "__main__":
         log_dashboard_error("Keyboard interrupt received - shutting down gracefully", console=True)
     finally:
         log_dashboard_error("Dashboard backend stopped", console=True)
+
+# ============ THE PRTOE CYCLE SCRUBBER (2026-07-12, operator-requested) ============
+# One cosmic cycle as a sliding scale: zero-point fluctuations -> genesis draw ->
+# torus expansion (the dyad window marked; the resident born at T_c) -> de Sitter ->
+# crunch (pairing glow) -> the twist-and-snap into the next torus, GENOME PERSISTING
+# (the winding's hue pattern survives the bounce -- watch the colors).
+# Entirely client-side canvas: the server serves ONE string; ~zero CPU.
+_CYCLE_HTML = """<!DOCTYPE html><html><head><title>PRTOE Cycle Scrubber</title><style>
+body{background:#0b0e14;color:#dce3f0;font-family:system-ui,sans-serif;margin:0;padding:18px;text-align:center}
+h2{margin:6px 0 2px;font-weight:600}#stage{color:#8fd3ff;min-height:44px;margin:4px auto;max-width:720px;font-size:14px}
+canvas{background:radial-gradient(ellipse at center,#101624 0%,#070a10 100%);border-radius:12px;margin-top:6px}
+input[type=range]{width:70%;max-width:640px;margin-top:10px}
+.era{color:#7f8ba3;font-size:12px}button{background:#1c2740;color:#dce3f0;border:1px solid #33415e;border-radius:8px;padding:6px 14px;margin:8px 4px;cursor:pointer}
+</style></head><body>
+<h2>The PRTOE Cycle</h2><div class="era">zero-point &rarr; genesis draw &rarr; torus &rarr; the window (the resident born at T<sub>c</sub>=193 keV) &rarr; de Sitter &rarr; crunch pairing &rarr; twist &amp; snap &rarr; next torus &mdash; the winding (colors) survives: the genome</div>
+<div id="stage"></div>
+<canvas id="cv" width="760" height="420"></canvas><br>
+<input type="range" id="tau" min="0" max="1000" value="0">
+<br><button onclick="autoplay()">&#9654; play the cycle</button><button onclick="stopplay()">&#9632; stop</button>
+<script>
+const cv=document.getElementById('cv'),cx=cv.getContext('2d'),W=cv.width,H=cv.height,CXc=W/2,CYc=H/2;
+const N_WIND=20; // the draw's winding integer (Kibble 10-30; the hue pattern = the genome)
+let seed=42; function rnd(){seed=(seed*1103515245+12345)&0x7fffffff;return seed/0x7fffffff}
+const stages=[[0.00,"THE ZERO-POINT: vacuum fluctuations -- no shape, no time, only jitter. The oldest customer waits."],
+[0.08,"THE DRAW (genesis): Kibble picks the winding n -- the phase locks around the torus. The genome is written."],
+[0.16,"RADIATION ERA: the torus inflates; the winding stretches but cannot unwind (topology). The twist energy redshifts a&#8315;&#8308;."],
+[0.30,"THE WINDOW OPENS (T_c = 193 keV, during BBN): the electron-midwife's loop condenses the medium -- THE RESIDENT (the twin-pair) IS BORN and pays the leptons their 1.25%."],
+[0.42,"MATTER ERA: the pairs bind the structure; dwarf cores at the kpc grain; the window closes at z&asymp;50."],
+[0.58,"DE SITTER: the vacuum's binding energy (one quantum per cell) is all that is left to pay -- the floor, w = -1 exactly."],
+[0.74,"CONTRACTION: density rises; degeneracy pairing becomes mandatory (neutron-star physics at cosmic scale). The twins hold."],
+[0.87,"THE CRUNCH: the pressure floor refuses the singularity; everything melts EXCEPT the winding -- watch the colors survive."],
+[0.95,"THE SNAP: the protected twist re-locks into the next torus. Same genome, new body. The cycle breathes again."]];
+function stageFor(t){let s=stages[0];for(const g of stages) if(t>=g[0]) s=g;return s[1]}
+function torus(t){
+ // cycle geometry: R grows to max at tau ~0.6 then contracts to the snap
+ let R,r,glow=0,jit=0,snap=0;
+ if(t<0.08){R=8+50*t;r=3;jit=1-t/0.08}
+ else if(t<0.66){const u=(t-0.08)/0.58;R=12+178*Math.pow(u,0.7);r=6+34*Math.pow(u,0.8)}
+ else if(t<0.95){const u=(t-0.66)/0.29;R=190-165*Math.pow(u,1.4);r=40-30*Math.pow(u,1.2);glow=Math.pow(u,2)}
+ else{const u=(t-0.95)/0.05;snap=1;R=25+40*u;r=10+6*u;glow=1-u}
+ return {R,r,glow,jit,snap}}
+function draw(){
+ const t=document.getElementById('tau').value/1000;
+ document.getElementById('stage').innerHTML=stageFor(t);
+ cx.clearRect(0,0,W,H);
+ const {R,r,glow,jit,snap}=torus(t);
+ seed=42;
+ if(jit>0){ // zero-point noise field
+   cx.globalAlpha=jit;for(let i=0;i<420;i++){const x=rnd()*W,y=rnd()*H,a=rnd();cx.fillStyle=`rgba(140,170,255,${0.15+0.5*a})`;cx.fillRect(x,y,1.6,1.6)}cx.globalAlpha=1}
+ // crunch glow (the pairing)
+ if(glow>0){const g=cx.createRadialGradient(CXc,CYc,2,CXc,CYc,R*2.4+40);g.addColorStop(0,`rgba(255,210,140,${0.55*glow})`);g.addColorStop(1,'rgba(0,0,0,0)');cx.fillStyle=g;cx.fillRect(0,0,W,H)}
+ // the torus: ring of tube-circles, hue = winding phase theta(x)=2*pi*N*x/L (THE GENOME)
+ const twist=(t>0.66)?(t-0.66)*9:0; // the contraction twists the pattern
+ const M=140;
+ for(let i=0;i<M;i++){const a=2*Math.PI*i/M;
+  const ex=CXc+R*Math.cos(a),ey=CYc+R*0.42*Math.sin(a); // perspective squash
+  const hue=((N_WIND*(a/(2*Math.PI))+twist)%1)*360;
+  const depth=0.55+0.45*Math.sin(a); // fake 3D shading
+  cx.beginPath();cx.arc(ex,ey,Math.max(1.2,r*(0.7+0.3*Math.sin(a))),0,7);
+  cx.fillStyle=`hsla(${hue},85%,${38+22*depth}%,${0.75})`;cx.fill()}
+ // labels for the window + T_c marker on the slider track
+ cx.fillStyle='#7f8ba3';cx.font='11px system-ui';
+ cx.fillText('winding n = '+N_WIND+'  (the hue pattern = the genome; it survives the crunch)',W/2-170,H-10);
+ if(snap){cx.fillStyle='rgba(255,255,255,0.85)';cx.font='13px system-ui';cx.fillText('SAME COLORS. NEW UNIVERSE.',W/2-90,30)}
+}
+let timer=null;
+function autoplay(){stopplay();timer=setInterval(()=>{const s=document.getElementById('tau');s.value=(+s.value+2)%1001;draw()},33)}
+function stopplay(){if(timer){clearInterval(timer);timer=null}}
+document.getElementById('tau').addEventListener('input',draw);draw();
+</script></body></html>"""
+
+@app.get("/playground/cycle")
+async def prtoe_cycle_scrubber():
+    """The PRTOE cycle as a sliding scale (client-side canvas; ~zero server CPU)."""
+    return FastAPIResponse(content=_CYCLE_HTML, media_type="text/html")
