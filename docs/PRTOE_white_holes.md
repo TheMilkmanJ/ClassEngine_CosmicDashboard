@@ -189,3 +189,18 @@ is a neutral HANDOVER, not a rule inversion, and census blindness holds at genes
 mechanic's observable content (the at-birth parity stamp) is the real and already-owed
 channel. The amplitude computation is the owed step (T10) — no signal size is claimed
 until it runs.
+
+**T10-light PAID (2026-07-12, fudge-grade — the fingerprint's amplitude):** three
+channels priced against literature benchmarks. (A) Chiral-GW TB/EB ∝ r × chirality: even
+at maximal genome-signed chirality, the banked bounce r ("far below current bounds")
+puts it ≥100× under the LiteBIRD/S4-class future floor. (B) Faraday rotation off the
+P-028 helical field (5×10⁻¹⁸ G): 4.5×10⁻¹⁰ degrees at 100 GHz — 9 orders below the 0.34°
+EB hint. (C) Magnetic stress EB/TB ∝ B⁴: 10⁻³⁴ relative. VERDICT: **the white hole signs
+light in invisible ink.** The at-birth channel is real (strike 9's ramp) and FAINT — so
+the model's sharp prediction, zero new mechanisms: the EB sky is NULL beyond calibration
+systematics; the 0.34° hint is unownable by ANY sector of this model and must resolve as
+a systematic (it is degenerate with polarimeter calibration angles). The loud copy of the
+signature stays where registered: the genome-signed magnetic helicity (P-028, parity-odd
+radio/gamma) and the axis family. GR's receipt preserved, the neutrality null preserved,
+no new mechanism spent. [FUDGE-GRADE amplitudes; T10's heavy remainder (proper spectral
+shapes) stays on the debt list, de-urgented by these ceilings.]
