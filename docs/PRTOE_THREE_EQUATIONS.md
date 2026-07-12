@@ -60,8 +60,9 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
   (def537) from three independently-banked theses; the data-lean toward the neighboring
   $12/13$ is an open watch.
 - $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
-  candidately $2/\pi$ EXACTLY (the flux-measure theorem, P-2026-041; the verifying ensemble
-  is running). A simulation output graduating toward a theorem, not a parameter.
+  candidately $2/\pi$ (P-2026-041 — the value claim stands; its proposed mechanism was
+  killed in-sim and honestly walked back; the high-statistics ensemble decides). A
+  simulation output with an open closed-form question, not a parameter.
 - $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), booked BEFORE the deciding
   measurement (the zon chain) converges — and 2.3% ABOVE where current data points, so it is
   falsifiable within weeks, not retrofit ever.

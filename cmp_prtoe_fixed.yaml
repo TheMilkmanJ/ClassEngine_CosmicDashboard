@@ -9,6 +9,9 @@
 #     dcdf_rho_inf -> the occupancy value [needs the triangle confirmed: 3alpha + M2 + x0]
 #     m_ncdm -> 61.4 meV                  [needs the spurion (#43) lifted + P-023 tension resolved]
 #   The anchor (P-042) and the two-loop landing are graded by the shooting run (in flight).
+#   [2026-07-12] DISPERSION CONSISTENCY: the C code now carries the derived sqrt(1+x^2)
+#   onset shape — this config MUST be re-cloned from the dispersion-era dyad baseline
+#   before launch (the old-template numbers are not comparable).
 # ZERO extra parameters vs LCDM: eps DERIVED = 27*alpha/(5*pi) = 1.2543%, NOT sampled.
 # Freeze-gate note (def539/def541): launched on operator's direct order 2026-07-11 with
 # the derived stack; if P-040 (zon) or P-041 (the f_bar ensemble, in flight) KILLS a

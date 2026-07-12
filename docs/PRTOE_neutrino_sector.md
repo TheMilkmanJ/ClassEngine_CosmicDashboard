@@ -42,3 +42,11 @@ theory can hand an experiment.
 ## Sources
 [SNO2002]/[SuperK1998] (oscillations), [Planck2018] (Σm_ν context), internal: §6, the
 CC file, P-2026-012/020/023, the sixth/seventh sweeps. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## 4. Addendum (sweep 28) — the vertex's double duty
+The transfer integral's first run requires a junction coupling y ≈ 0.7–3×10⁻⁵; the
+seesaw vertex that makes m_ν is y ≈ 1.3–1.8×10⁻⁶ — same class, factor 4–20 apart, inside
+the crude rate-form's O(1)s. If the careful session closes that factor, **the neutrino
+mass and the baryon asymmetry share one vertex** — two measured numbers, one coupling —
+and this sector co-derives η. The overshoot wall (the portal must carry no L-channel)
+rides with it.

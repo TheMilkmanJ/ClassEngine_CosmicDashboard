@@ -797,3 +797,11 @@ the GHOST'S receipt instead — "the asymmetry is the arrow's charge" (matter wi
 the condensate's clock runs forward). The second reading unifies baryogenesis with the
 arrow of time AND the operator's zero-point grammar; it is also the more falsifiable
 (η then reads X₀Ψ₀ — both triangle-locked: zon grades baryogenesis too).
+
+## TWENTY-NINTH SWEEP (the quick batch) — the spurion candidate: the arrow itself
+Task #43's dimensional puzzle (ε dimensionless vs μ dimensionful) meets sweep 28's
+promotion: the L-breaking spurion CANDIDATE = the GC's θ̇ — a genuinely dimensionful,
+L-charged, always-on object (the same clock that pays the junction's μ and defines the
+arrow). One object, now holding four jobs (the arrow, the junction's μ, the baryon
+reservoir, the spurion candidate). Candidate-grade only: the m_ν magnitude chain through
+θ̇ is NOT yet arithmetic — filed un-forced. #43's flag: candidate named, lift pending.
