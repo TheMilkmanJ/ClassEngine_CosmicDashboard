@@ -1,3 +1,5 @@
+> **PROVENANCE NOTE (2026-07-12):** narrative history; for current state see PRTOE_INDEX.md.
+
 # PRTOE: An Intellectual History
 
 *How this model actually developed — the deaths, the resurrections, and what

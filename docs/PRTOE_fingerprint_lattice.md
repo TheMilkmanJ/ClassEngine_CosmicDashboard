@@ -49,3 +49,12 @@ not yet on any single decisive row — exactly the profile the review has priced
 (capped 25% pending PolyChord). *One lever, many windows, no exits: the lattice is either the
 most over-constrained correct idea in cosmology or the most efficiently falsifiable wrong one.
 Both are compliments to its construction; only the sky knows which.*
+
+
+## The ε(epoch) table (paid 2026-07-12 — rows must cite THIS, not "the" ε)
+| epoch | ε | provenance |
+|---|---|---|
+| today (z < 50) | 0 exactly | the window's low edge |
+| recombination | 1.232% (fit) / 1.254% (derived) | production chain / the derived stack |
+| BBN window (LT) | ε_rec × [0.8–1.0] (ramp factor) | the windowed splice |
+| above z_high | 0 (disordered) | the window's high edge |

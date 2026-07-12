@@ -1,3 +1,5 @@
+> **PROVENANCE NOTE (2026-07-12):** the v4 era (superseded by v5+/the dyad era); for current state see PRTOE_INDEX.md.
+
 # PRTOE v4 dCDF — Honest-Pipeline Results (2026-07-05)
 
 All numbers below are from the **clean tree** (dkappa hack removed, perturbation

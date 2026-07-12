@@ -54,3 +54,11 @@ All three outcomes are informative because the model computes rather than fits.
 *A galaxy survey looked in the mirror and the reflection didn't match. Almost every theory
 must call that impossible. This one built the asymmetry into its first turn — the question,
 as always here, is not whether the machinery exists but whether its number is big enough.*
+
+
+## The pricing (paid 2026-07-12 — decisive)
+The model's parity channel (helical vorticity) yields parity-odd fractions ~(v/c)³ ~10⁻⁹
+— **seven orders short** of the claimed BOSS 4PCF amplitude. The model cannot source the
+signal and formally **bets the claim is systematic** (the second registered
+anti-anomaly bet, after birefringence). If independent surveys (DESI) confirm the 4PCF
+at claimed amplitude, the model has no channel — the exposure is priced and owned.
