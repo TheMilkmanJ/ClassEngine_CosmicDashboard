@@ -77,3 +77,6 @@ candl: clearing all internal priors.
 [mcmc] Covariance matrix not complete. We will start learning the covariance of the proposal earlier: R-1 = 30 (would be 2 if all params loaded).
 [mcmc] Sampling! (NB: no accepted step will be saved until 40 burn-in samples have been obtained)
 [mcmc] Progress @ 2026-07-12 02:50:50 : 1 steps taken -- still burning in, 521 accepted steps left.
+[mcmc] Progress @ 2026-07-12 02:52:16 : 2 steps taken -- still burning in, 520 accepted steps left.
+[mcmc] Progress @ 2026-07-12 02:53:26 : 52 steps taken -- still burning in, 505 accepted steps left.
+[mcmc] Progress @ 2026-07-12 02:54:35 : 71 steps taken -- still burning in, 498 accepted steps left.

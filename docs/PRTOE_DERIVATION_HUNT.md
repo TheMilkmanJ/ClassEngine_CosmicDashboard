@@ -570,3 +570,33 @@ is RUNNING; outcomes registered in advance: E3 ≈ 2/π → sweep 18 inverts (th
 lives; the estimator was the corpse); E3 ≈ 0.70+ → sweep 18 stands and P-041 remains
 un-mechanized. Either way the error-class gets a name: estimator-weighting is the
 seventh strike's candidate family (steps, clocks, and now measures).
+
+## TWENTIETH SWEEP — THE GHOST'S SEAT (the operator names the second channel)
+
+The operator's identification, and it lands on standard physics: **Cooper pairing pairs
+TIME-REVERSED partners** — the textbook pair is (k↑, −k↓): a mode and its time-reversed
+twin. And the medium's banked EFT identity (the M₂ certificates — the GHOST-CONDENSATE
+dictionary, load-bearing since the ledger's oldest pages) is precisely the structure
+whose condensate breaks time-translation: ⟨φ̇⟩ ≠ 0 — a background with a chosen time
+orientation, in which "mode" and "time-reversed twin" are physically distinct residents.
+
+**THE IDENTIFICATION: the pair's two members = {the ordinary branch, the ghost branch} —
+the mode and its time-reversed twin.** Every "2" in the model's rooms is the SAME 2, and
+its name is TIME-REVERSAL DOUBLING:
+- the two-fluid components (Landau's superfluid/normal — the condensed pair vs unpaired);
+- the complex field's two real dof;
+- the gap equation's N = 2 channels (k = 1.36 — the twin-pairing channels);
+- the pair clock's 2m (the oscillating unit = mode + twin);
+- the two flux directions (inward/outward crossings = the twins' two orientations —
+  the rectified average's "2" counts them);
+- E_b = 2Δ (pair-breaking severs the twins).
+And one inheritance more: the GC background's ⟨φ̇⟩ ≠ 0 is a time-ARROW structure — the
+arrow-of-time file's mechanism and the pairing's twin-structure are the same clause read
+at two scales (the arrow = the condensate choosing which twin is "forward").
+
+FIREWALL/STATUS: an IDENTIFICATION (grammar-level), grounded in two banked structures
+(the GC dictionary; standard Cooper time-reversal pairing) — not yet a computation. What
+it makes precise: the gap equation's second act must use the ghost-branch density of
+states as the twin channel — if the GC dispersion's twin DOS breaks the N=2, k=1.36
+landing, the identification dies quantitatively. The referees unchanged: zon_disp (the
+pair call), the flux retrial, the ensemble.
