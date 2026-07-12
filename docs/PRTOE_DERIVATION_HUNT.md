@@ -893,3 +893,27 @@ re-derivation gives the pair's exact z_on), α_c = 3α, and the n-instrument —
 CONFIRMS rather than decides the pair. And the second quick route stands open: with the
 ruler re-derived, the EXISTING samples (old-template 1149 + dispersion 340+) grade
 immediately — the re-derivation is pen-and-paper, not sampling.
+
+## THIRTY-FOURTH SWEEP — THE EMPLOYMENT LAW (the operator's counting grammar, named)
+
+The operator's principle, stated in his own economics: "too many is over-employed, too
+few is under-employed — we don't overspend in one place, and we don't pay 3+ people for
+jobs already covered." FORMALIZED: **every count in the model equals its number of JOBS
+— no featherbedding (redundant dof get no seat), no vacancies (uncovered jobs =
+inconsistency).** Where it has already ruled, with its enforcement mechanism per case:
+
+| count | the jobs | the enforcement |
+|---|---|---|
+| the pair (2) | run forward + mirror backward (time-reversal completion) | stability (λ > 0 lays off the quartet) + the operator's necessity ("doesn't need 2 more") |
+| c = 9/10 (N = 10) | 9 mass-recipients + the vacuum's seat (dark energy = its paycheck) | the budget (currency 1, blindness) |
+| α_c = 3α | three flavor channels, each employed once | leptophilia (the roster) |
+| n_s's "2" | two quanta per correlator (a spectrum's payroll) | the definition of a two-point function |
+| two clocks (strike 7) | two components, two onset jobs | the two-fluid structure |
+| two censuses | charged bookkeeping + total bookkeeping | the blindness clause |
+| thermal leptogenesis (dead) | applied for a job AD-direct already covered | the empty-surface kill |
+
+PREDICTIVE EDGE (the law's forward use): every remaining unknown count must be derived by
+ENUMERATING JOBS — the gap equation's k ≈ 1.3 (what exactly do the two channels do?),
+the basement roster's N, A_s = 1/N's genesis payroll. FIREWALL: a razor with named
+enforcement where it has teeth (stability, the budget) and heuristic-grade where it
+doesn't yet — graded per use, never assumed.
