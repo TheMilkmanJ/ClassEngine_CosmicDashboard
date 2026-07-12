@@ -1306,3 +1306,27 @@ or the healing length as the true cell. No route is assumed; the wall is registe
 
 **NUMEROLOGY-WATCH (filed, not claimed, no mechanism):** k = 1.36 vs e/2 = 1.3591
 (0.06%). Watch-list only; the Eliashberg referee will rule on k regardless.
+
+### Sweep 45 addendum — THE EPOCH-CELL SCAN (adverse, honest) + THE OPERATOR'S
+### SUPERHORIZON AMENDMENT (the pour re-poses the equation)
+
+**The scan [adverse]:** every banked epoch (T_c, the fit z_on, the n_s-formula T, T_eq)
+× every banked cell (1/E_b, the healing ξ, 1/m, thermal, sonic) — NO pairing yields the
+781 under the horizon-patch assumption; misses by 3–25 orders. Filed as misses.
+
+**The operator's amendment [accepted — it fixes the frame]:** "you didn't account for
+the white hole pouring everywhere at once." The scan wrongly confined the patch to the
+CAUSAL horizon; the pour has no counterparty and no center — the crunch supplied causal
+contact, so the draw is one instant EVERYWHERE and the patch may be SUPERHORIZON (the
+standard bounce answer to the horizon problem, in the white-hole grammar). The equation
+re-poses: **λ_pivot,phys(z_draw) = 781 × cell(z_draw)** — the pivot scale itself was 781
+cells across at the draw.
+
+**Solved:** cell = the banked healing ξ → z_draw = 1.18×10⁶ (T ≈ 278 eV); cell = 1/m →
+z_draw = 5.6×10⁶. WELL-POSED, UNBANKED: no model scale currently lives at z ~ 10⁶ (the
+μ-distortion era is the neighborhood — a possible observable hook, unexplored). The
+geometric session's question is now one line: does the bounce/dispersion machinery put
+the draw at z ~ 10⁶? Scale-invariance stays owned by the banked tilt mechanism (the
+census sets the amplitude at the pivot; the k-dependence is not shot-noise — the white
+n=4 disaster is NOT incurred because the draw is one global instant, not per-mode).
+(script: scripts/settlement_terms.py companion runs; scan receipts in the session log)
