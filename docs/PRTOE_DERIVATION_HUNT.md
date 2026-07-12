@@ -519,3 +519,19 @@ Nothing else in the banked structure carries unclaimed jewel-grade content. From
 the miners are the referees: zon (the lineup + the triangle + five freezes), the f̄
 ensemble (2/π), routeD (thaw = 0), conv_desi (g), PolyChord (gated), HL-LHC, ton-scale
 0νββ, LiteBIRD, DESI DR3. We wait it out — with every bet timestamped.
+
+## SEVENTEENTH SWEEP — THE LIABILITY AUDITED: the census brings the vacuum home
+
+The portal Higgs-stability bill (sixteenth sweep), computed (one-loop RGE, SM vs SM+duty
+family, portal Yukawas fixed by the induced-m_H condition N·y_P² ≈ 1.1):
+- **SM only**: λ dips to −0.022 and NEVER recovers — the standard metastability.
+- **SM + portal**: the dip is SHALLOWER (−0.017), and then the census's rising gauge
+  couplings — the definition of "induced" — TURN λ AROUND: **λ(10¹⁶ GeV) = +0.146,
+  positive and climbing into the basement.** The endpoint is STABLE.
+VERDICT: the liability inverts. The portal does not destabilize the vacuum; the census
+structure CURES the SM's metastability at high scales (recovery the SM cannot produce),
+leaving only the familiar shallow midlife window (tunneling-safe by the usual margins).
+The anchor reading (P-2026-042) gains an internal-consistency pass it was owed — and a
+NEW selling point: in this model the vacuum's deep future is not a doom clock.
+CAVEATS: one-loop; y_P crude (the induced-m_H estimate); sharp thresholds; the final
+e-folds belong to the birth zone. The two-loop pass inherits the shooter-v2 redesign.

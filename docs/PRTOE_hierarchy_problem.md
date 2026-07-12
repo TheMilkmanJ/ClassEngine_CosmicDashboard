@@ -68,3 +68,12 @@ coupling); (iii) the redesigned two-loop run landing the portal far from ~1.5 Te
 [BCS1957] (the gap form), [MachacekVaughn1983] (the loop structure), [Volovik2003],
 the internal chain: sweeps 7–11 (PRTOE_DERIVATION_HUNT.md), P-2026-042. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## 5. Addendum (the stability audit, seventeenth sweep)
+
+The reading's owed consistency check — do the portal's Yukawas destabilize the Higgs
+vacuum? — computed at one loop: the dip is SHALLOWER than the SM's own (−0.017 vs −0.022),
+and the census's rising gauge couplings then return λ to **+0.146 at 10¹⁶ GeV**: the
+endpoint is stable, unlike the SM's. The anchor does not merely coexist with the vacuum's
+health; the census structure CURES the Standard Model's metastability. (One-loop;
+two-loop inherited by the shooter redesign.)
