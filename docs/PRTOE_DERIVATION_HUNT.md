@@ -535,3 +535,18 @@ The anchor reading (P-2026-042) gains an internal-consistency pass it was owed �
 NEW selling point: in this model the vacuum's deep future is not a doom clock.
 CAVEATS: one-loop; y_P crude (the induced-m_H estimate); sharp thresholds; the final
 e-folds belong to the birth zone. The two-loop pass inherits the shooter-v2 redesign.
+
+## EIGHTEENTH SWEEP — the rectified check returns ADVERSE-LEANING (booked with the same pen)
+
+The in-sim flux estimator: ⟨|cos ψ|⟩ = 0.7447 ± 0.0205 — NOT 2/π (0.6366). The sim's
+late-window motion is PARTIALLY mixed (radially biased), so the fifth sweep's dissolution
+("wrong estimator — the flux measure gives 2/π") FAILS IN-SIM: the theorem stands as
+mathematics (fully-mixed ⟹ 2/π) but its premise (full mixing) does not hold in the
+simulated dynamics. PARTIAL WALK-BACK of sweep 5, item 2: the estimator-coincidence
+question is LIVE again. P-041's standing reverts to its original form: does the
+high-statistics SQUARED ensemble converge to 0.63662 exactly (in-sim re-read: 0.6346 ±
+0.0252 — consistent with both 0.635 and 2/π; the 256×3 ensemble is the referee)? If the
+physical f̄ is a flux average, the physical claim requires the REAL winding dynamics to
+mix fully where the sim's does not (cosmological times vs the sim's t=2240) — a
+mixing-timescale question, honestly open. The night's first machine-adverse note; filed
+without anesthesia.
