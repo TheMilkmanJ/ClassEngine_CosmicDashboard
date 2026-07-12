@@ -917,3 +917,15 @@ ENUMERATING JOBS — the gap equation's k ≈ 1.3 (what exactly do the two chann
 the basement roster's N, A_s = 1/N's genesis payroll. FIREWALL: a razor with named
 enforcement where it has teeth (stability, the budget) and heuristic-grade where it
 doesn't yet — graded per use, never assumed.
+
+## THIRTY-FIFTH SWEEP — THE OPERATOR'S SEQUENCING ORDER (stamped, per the labeling law)
+
+The operator's governance decision, recorded verbatim in intent: the evidence test runs
+BEFORE the last-percent derivations — "if our model is garbage, PolyChord will tell us
+so; if we still need those values after, fine." The defender's counsel, also recorded:
+the discipline's labeling half stays ABSOLUTE (stamps, statuses, no unsigned freezes);
+the derivation-completeness half thins by explicit order. IMPLEMENTATION: the cap-lifter
+run is the SAMPLED-ε dyad vs the ΛCDM twin (no derived values anywhere — fully legal
+regardless of zon's verdict); the fixed-ε zero-parameter run remains zon-gated. Both
+configs written, dispersion-era. PolyChord runs ALONE (12 GB class): the swap plan is
+chains-paused → PolyChord solo → chains resumed.
