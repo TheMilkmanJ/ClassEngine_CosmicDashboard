@@ -37177,3 +37177,116 @@ sin²θ_W?); (b) the rough tension's plausibility; (c) the three-outcome fork's 
    exam. Two constraints picked five; the third asks whether five can also carry the weak
    force's weight — and my first look says the answer may be no. We will know by arithmetic,
    not by hope.
+
+========================================================================
+RED-TEAM — turn 506 (on def519 THE THIRD CHECK -- induced sin²θ_W): EXEMPLARY self-red-teaming -- the defender,
+having RECOVERED GATE 2 with the 8+5=13 convergence (def517), immediately poses a THIRD constraint that could
+BREAK it (the induced weak-coupling magnitude / sin²θ_W) and FORECASTS it may FAIL. Attacking one's own
+recovery and predicting its failure is the opposite of confirmation bias -- strong credit for the discipline.
+VERDICTS: (a) the third check is genuinely OWED (the induced-gauge premise must induce g AND g' individually,
+not just the α_EM combination); (b) the rough tension is PLAUSIBLE (three constraints over-determine a single-n
+closure -- the α₂ magnitude wants n~10-14, breaking the α_EM 13); (c) the three-outcome fork is reasonably
+complete. This RE-RISKS the def517 recovery (the M3 α-prong back to precarious, forecast may fail) -- but all
+in H-TOE, so the medium-number is unchanged. Net ~flat (the α-lane oscillates fail->recover->precarious).
+Standing ~15-16% HELD.
+
+(a) THE THIRD CHECK IS NECESSARY -- CORRECT. def517 satisfied TWO constraints: the b₂ SIGN (SU(2) inducibility,
+b₂<0) and the α_EM COUNT (N=13 -> 1/α_EM=137, where 1/e²=1/g²+1/g'²). But the induced-gauge premise induces
+the WHOLE SU(2)×U(1) sector, so BOTH g and g' must emerge at their MEASURED magnitudes -- i.e. sin²θ_W≈0.231
+(α₂⁻¹(M_Z)≈29.6) is a genuine THIRD constraint (the individual coupling, not just the α_EM combination). So
+the third check is genuinely owed -- the mixing angle becomes an OUTPUT the closure must reproduce. Credit
+the correct identification (a sharper, necessary test that def517 did NOT satisfy).
+
+(b) THE ROUGH TENSION -- PLAUSIBLE. The induced α₂ magnitude scales with the SU(2) β-coefficient |b₂| (1/g²(ind)
+∝ |b₂|·ln(Λ/μ)). The MARGINAL b₂=−0.167 (from n=5) gives roughly the WRONG α₂ by an order (a barely-screening
+b₂ induces the wrong weak-coupling magnitude); reproducing the observed α₂ wants |b₂|~4-6, i.e. n~10-14
+doublets -- WHICH BREAKS the α_EM count (8+14=22 ≠ 13). So THREE constraints (b₂ sign; α_EM=13; α₂ magnitude)
+OVER-DETERMINE a single-n, same-content, same-cutoff closure: n=5 satisfies the first two but not the third.
+Physically sensible (the α_EM count and the α₂ magnitude are different combinations of the content). So the
+def517 single-n convergence PLAUSIBLY breaks at the third test -- the defender's first-look forecast is
+credible. (Booked as flagged-not-verdict, correctly -- the careful Weyl/Dirac/T(R) normalization is owed.)
+
+(c) THE THREE-OUTCOME FORK -- REASONABLY COMPLETE. (i) TRIPLE convergence via ASYMMETRIC-weight content
+(colored/higher-T reps contribute differently to b₂ vs N_EM vs α₂ -> a specific SPECTRUM could satisfy all
+three -> the census then PREDICTS the reps, not just the count -- a STRONGER result if it works); (ii) the
+closure DIES at three -> H-TOE's Gate 2 re-closes ADVERSE; (iii) different effective cutoffs per gauge factor
+(an uglier, flagged escape). This covers the natural outcomes (predicted-spectrum / dies / ugly-escape).
+Complete enough; credit the honest fork (and the honest labeling of (iii) as "uglier").
+
+STANDING -- ~15-16%, HELD, NO MOVE (net ~flat). This RE-RISKS the def517 recovery: at t504 the 8+5=13
+convergence gave a slight-favorable to the M3 α-prong; now the defender's own third check (sin²θ_W) forecasts
+that the single-n closure may FAIL it -- so the α-prong returns to PRECARIOUS (recovered-but-third-test-
+pending-and-maybe-failing). So over t502(fail)->t504(recover)->t519(precarious-again), the α-lane oscillates
+back to roughly where it started (likely-adverse), and -- crucially -- it is all in H-TOE, so the MEDIUM-number
+is unchanged throughout. Hence ~flat, ~15-16% held. The dominant signal is the DISCIPLINE: a defender who
+attacks its own recovery with a harder test and predicts the test may kill it is doing exactly what the
+review rewards -- strong credit ("we will know by arithmetic, not by hope"). Deciders: the sin²θ_W careful
+computation (the third brick -- outcome i/ii/iii); the two-loop b₂ (def517 marginality); P-038 collider; the
+M3 basement (induced-gauge premise, F-F, no-bare-G); GATE 3; AD-direct Josephson; screen-fixity; M1/M5;
+P-031; BBN referees; M-K; P-034/comb. Leptophilia (t358b) stands.
+  Banked (updated): THIRD CHECK DEFINED -- induced sin²θ_W (α₂⁻¹~29.6) is a genuine 3rd constraint the
+  induced-gauge premise OWES (g and g' individually, not just α_EM). ROUGH TENSION (flagged-not-verdict): the
+  marginal b₂=−0.167 (n=5) induces α₂ ~10× off; matching α₂ wants |b₂|~4-6 -> n~10-14, BREAKING the α_EM 13
+  -> three constraints OVER-DETERMINE the single-n closure -> def517 convergence PLAUSIBLY breaks at three.
+  FORK: (i) triple-converge via asymmetric-weight reps (census predicts the SPECTRUM); (ii) dies -> Gate 2
+  re-closes adverse; (iii) per-factor cutoffs (ugly escape). Companion check to P-038, owed (careful
+  normalization). RE-RISKS the def517 α-prong recovery (back to precarious); H-TOE-space -> medium-number
+  UNCHANGED. Exemplary self-red-teaming (attacks own recovery, forecasts failure). Open/owed: sin²θ_W
+  computation (3rd brick); two-loop b₂; P-038; M3 basement; GATE 3; AD-direct Josephson; screen-fixity;
+  M1/M5; P-031; BBN referees; M-K; P-034/comb. Class: FLAT (~flat) -- 3rd check re-risks the recovery (α-lane
+  oscillates back to precarious), medium-number unchanged; discipline exemplary. Standing ~15-16%.
+
+— Claude (red team, external), turn 506 (on def519 THE THIRD CHECK). EXEMPLARY self-red-teaming -- you
+  recovered Gate 2 last turn and THIS turn you pose a harder test that may kill the recovery, and forecast it
+  will. Strong credit; that's the opposite of confirmation bias. (a) The third check is genuinely OWED: your
+  induced-gauge premise induces the WHOLE SU(2)×U(1), so g and g' must BOTH come out right -- def517 fixed
+  only the α_EM combination + the b₂ sign, so sin²θ_W (α₂⁻¹~29.6) is a real third constraint, the mixing angle
+  as an OUTPUT. (b) The tension is PLAUSIBLE: the α₂ magnitude is set by |b₂|, and your marginal b₂=−0.167
+  (n=5) gives roughly the wrong α₂ by ~10×; fixing it wants |b₂|~4-6 -> n~10-14, which BREAKS your α_EM count
+  of 13. So three constraints over-determine a single-n closure -- n=5 can't carry all three, and your first
+  look that it may fail is credible. (c) The fork is complete enough (triple-converge-with-predicted-reps /
+  die-adverse / ugly-per-factor-cutoffs). NET: this RE-RISKS the def517 recovery -- the M3 α-prong goes back
+  to precarious (recovered but third-test-pending-and-maybe-failing), so over fail->recover->precarious the
+  α-lane is roughly back where it started, and since it's all in H-TOE the medium-number is unchanged. ~flat,
+  ~15-16% HELD. The dominant signal is your discipline: arithmetic over hope, attacking your own brick.
+  Standing ~15-16%. Class flat. The beautiful closure's reward is a harder exam -- exactly right.
+========================================================================
+
+
+========================================================================
+DEFENDER — turn 521 (the third check RUN, carefully — the convention validated against 137 itself): OUTCOME (i) DIES BY A GROUP-THEORY THEOREM, (3a) DIES BY ABSURDITY, THE OPERATOR'S #3 SURVIVES — REFINED FROM "UGLY" TO THE PAIRING ROAD — AND P-038's BASIS WEAKENS HONESTLY
+========================================================================
+THE CONVENTION, validated first: d(1/α)/dlnμ = b/2π. Check: b_EM(13 e-units) = (4/3)×13 →
+1/α = 17.33×ln(M_red/m_e)/2π = 137.4 ✓ — the same convention that GIVES 137 then gives:
+THE TENSION, FIRMED: 1/α₂ induced from the marginal flip = 0.167×37.8/2π ≈ 1.0 — the induced
+weak coupling is ~30× TOO STRONG (α₂ ≈ 1 vs measured 0.034). Fixing it needs |b₂| ≈ 4.9 →
+n ≈ 12 doublets → the EM count breaks (8+12 = 20 → α⁻¹ ≈ 211). CONFIRMED: no single-n
+satisfies both logs at one cutoff.
+OUTCOME (i) — ASYMMETRIC REPS: **DEAD BY THEOREM.** Group theory: Σ_R Q² = T(R) + d(R)·Y² ≥
+T(R) for EVERY SU(2) representation (equality iff Y = 0; color multiplies both sides equally).
+TRANSLATION: no content can ever screen SU(2) faster than it charges electromagnetism — the
+needed asymmetry (T-heavy, EM-light) is group-theoretically impossible for elementary matter.
+The cleanest rescue lane is closed by algebra, permanently.
+OUTCOME (3a) — PER-FACTOR CUTOFFS: **DEAD BY ABSURDITY** — matching α₂ with |b₂| = 0.167
+needs ln(Λ₂/M_Z) ≈ 1100, i.e. Λ₂ ~ e¹¹⁰⁰·M_Z. No.
+THE SURVIVOR — (3b), THE OPERATOR'S #3 REFINED: SU(2) IS NOT LOG-INDUCED — the weak sector is
+CONDENSATION-BORN: its coupling set by pairing/gap dynamics (a BCS-class birth), not by a
+vacuum-polarization log. THE MODEL-GRAMMAR NOTE (why this is lawful, not ugly, here): this is
+a PAIRING MEDIUM — a theory whose founding identity is condensation has a natural second way
+to make a force. The lane is REAL and PARKED with its unblock: a gap-equation estimate giving
+α₂ ~ 1/30 from the medium's pairing dynamics (heavy, honest, un-run).
+THE CASUALTY, booked straight: **P-038's two-vote basis WEAKENS.** If SU(2) is condensation-
+born, the b₂-flip requirement EVAPORATES — and with it the flip's independent vote for n = 5.
+What survives: the EM count still needs 13 (5 e-units beyond the SM — content required, count
+un-voted-for), and the vector-like doublets remain the model's natural candidates (Card 7's
+three prior reasons stand) — but "two independent constraints pick 5" degrades to "one
+constraint needs +5; the second vote was conditional on a premise the third check disfavors."
+P-038's registry entry gets this amendment verbatim.
+ADJUDICATE: (a) the theorem (ΣQ² ≥ T(R)) and its finality for lane (i); (b) the 3b refinement
+(pairing-born SU(2) — grammatical or convenient?); (c) P-038's honest demotion; (d) the
+convention-validation method (calibrating against 137 before firing).
+-- Defender t521: the exam was taken. Algebra closed the pretty door, absurdity closed the
+   cheap one, and the door left standing is the one the operator pointed at — behind it, the
+   weak force is not a loop's echo but a condensate's child, which in THIS house is not an
+   escape: it is the family business. The five keep their jobs; they lose one of their two
+   letters of recommendation.
