@@ -70,3 +70,12 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | LITERAL He-3 as the medium | four shots: baryonic (Ω_b×5 short), EM-visible (vs L1a), no pairing at cosmic density/temperature (mK physics), post-BBN existence | tenth sweep; the STRUCTURAL He-3-A reading survives separately |
 | The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | the birth zone is strong-coupling — perturbative RGEs cannot reach the induced point; redesign owed (perturbative-edge matching) | eighth sweep; def531's structural point materialized |
 | P-028's void-column internal rescue (return-flux topology) | flux conservation: the return flux through voids = the flux-average = the smooth estimate — the ×3400 line-concentration cannot raise the inter-line floor; the 1.5-order gap does NOT close internally | task #5 closure, 2026-07-12 |
+
+## 6. The mathematical self-audit (2026-07-12, operator-ordered — sweep 31)
+
+| finding | correction | status |
+|---|---|---|
+| The "residual = dressing" identity (sweep 6) used α_c = 0.0214 while the stack uses 3α | at 3α: 0.846 vs 0.835 — the identity downgrades to suggestive; red-team's 0.846 recompute resolved (input mismatch, not algebra) | self-caught, corrected |
+| The triangle's "0.1% match" (sweep 7) | x₀ is a free dial whose band covers the target — the triangle selects, not confirms; arrow A = consistency-only | overstated, corrected |
+| The two-census marriage (c's recipient-split vs the scalar delivery) | the gravity-routing step of the c-derivation is un-audited — the ε-decomposition's weakest joint | FLAGGED, owed |
+| n_s under the clock ambiguity | 0.9638–0.9640 both ways | PASS |

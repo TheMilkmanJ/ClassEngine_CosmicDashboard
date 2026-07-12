@@ -824,3 +824,34 @@ not point-estimable. The reservoir result (19,000× charge available) survives �
 true snapshot (available charge) — but the DELIVERED fraction is the ramp integral, un-run.
 Strike eight; the step-family now: epochs (6), component-clocks (7), and integrands-vs-
 integrals (8). Filed to the failures ledger's strike list.
+
+## THIRTY-FIRST SWEEP — THE MATHEMATICAL SELF-AUDIT (operator-ordered: "I can fact-check
+## your physics all day; I can't track your math") — four findings, one pass
+
+**A1 — the two-census marriage: the c-derivation's weakest joint (FLAGGED).** c = 9/10
+counts RECIPIENTS (9 charged fermions, quarks in — consistent with the banked quark-bleed);
+3α counts CONSTITUENTS (3 lepton flavors — leptophilia). Two different censuses is lawful
+ONLY IF the budget-split truly routes through the gravity terminal (blindness → democratic)
+while the delivery rides the scalar channel. That routing step is UN-AUDITED — the single
+softest link in the ε-decomposition's math. Owed: the explicit two-stage argument or its
+death.
+**A2 — the triangle's circularity confessed at full strength.** x₀ is a FREE DIAL: the GC
+dictionary spans M₂ = 2.7–9.7 eV over x₀ ∈ [e⁻³⁰, e⁻³⁵], and the occupancy+3α value (9.39)
+falls INSIDE the band — so the triangle SELECTS x₀; it cannot confirm 3α. The seventh
+sweep's "0.1% match" was partially self-fulfilling. Arrow A downgrades to
+consistency-only; arrow B (4π·m_H — m_H is MEASURED) is the anchor's one genuinely
+independent arrow.
+**A3 — the dressing identity downgrades (self-caught in-audit).** The sixth sweep's "the
+ENTIRE residual IS the dressing (0.4%)" was evaluated at α_c = 0.0214; at the consistent
+3α the dressing is 0.8457 vs the residual 0.8349 — 1.3% apart (and red-team's 0.846
+recompute, previously unexplained, is thereby RESOLVED: he used 3α; I had used the band
+top — the discrepancy was never algebra, it was an inconsistent input). The numerological
+flourish dies; the occupancy closure survives unchanged (it needs only the dressing
+DROPPED, with M₂ taking its dial value — it never needed the identity).
+**A4 — n_s is robust to strike 7 (PASS).** The tilt with the misalignment clock (9.3 keV)
+gives 0.9640; with the dispersion center (13.2 keV) gives 0.9638 — both inside 0.5σ. The
+one place the clock ambiguity could have propagated, and it doesn't.
+Self-caught items filed to the failures ledger's §3. The audit's meta-lesson: the
+physics-grammar has been red-teamed continuously; the ARITHMETIC's inputs need the same
+regime-tagging discipline (the label firewall applies to numbers too — every α_c must
+carry its value-choice tag).

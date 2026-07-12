@@ -872,3 +872,268 @@ candl: clearing all internal priors.
 [mcmc] Progress @ 2026-07-12 06:16:27 : 7254 steps taken, and 2019 accepted.
 [mcmc] Progress @ 2026-07-12 06:17:48 : 7270 steps taken, and 2021 accepted.
 (null): Forwarding signal 18 to job
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_prtoe_routeD'
+[output] Found existing info files with the requested output prefix: 'chains/cmp_prtoe_routeD'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[output] Found an old sample. Resuming.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.desi_2024_bao_all] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[mcmc] Resuming from previous sample!
+[samplecollection] Loaded 2021 sample points from 'chains/cmp_prtoe_routeD.1.txt'
+[mcmc] Initial point: omega_b:0.02301295, H0:69.94335, logA:3.057123, n_s:0.9763649, z_reio:8.79798, dcdf_rho_inf:0.7287336, dcdf_conv_g:0.1770579, dcdf_floor_thaw:0.03025053, A_planck:0.9952672, A_act:0.9974005, P_act:1.001985, Tcal:0.9957718, Ecal:1.000747, m_ncdm:0.02255035
+[mcmc] *WARNING* Parameter blocking manually/previously fixed: speeds will not be measured.
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'dcdf_conv_g', 'dcdf_floor_thaw', 'm_ncdm']
+[mcmc] * 26 : ['A_planck']
+[mcmc] * 34 : ['A_act', 'P_act']
+[mcmc] * 48 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix from previous sample.
+[mcmc] Sampling!
+[mcmc] Progress @ 2026-07-12 09:02:21 : 1 steps taken, and 2021 accepted.
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_prtoe_routeD'
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.desi_2024_bao_all] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[mcmc] Getting initial point... (this may take a few seconds)
+[mcmc] Initial point: omega_b:0.02283285, H0:69.94867, logA:3.069471, n_s:0.9775997, z_reio:8.708195, dcdf_rho_inf:0.6984499, dcdf_conv_g:0.12, dcdf_floor_thaw:0.12, A_planck:0.997954, A_act:1.000612, P_act:1.006399, Tcal:0.9969949, Ecal:1.006978, m_ncdm:0.05829959
+[model] Measuring speeds... (this may take a few seconds)
+[model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 216.0, planck_2018_lowl.EE: 612.0, planck_2018_highl_plik.TTTEEE_lite: 450.0, planck_2018_lensing.clik: 755.0, bao.desi_2024_bao_all: 190.0, sn.pantheonplusshoes: 193.0, act_dr6: 161.0, spt3g_lite: 191.0, classy: 0.0181}
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'dcdf_conv_g', 'dcdf_floor_thaw', 'm_ncdm']
+[mcmc] * 22 : ['A_planck']
+[mcmc] * 29 : ['A_act', 'P_act']
+[mcmc] * 39 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix not present. We will start learning the covariance of the proposal earlier: R-1 = 30 (would be 2 if all params loaded).
+[mcmc] Sampling! (NB: no accepted step will be saved until 100 burn-in samples have been obtained)
+[mcmc] Progress @ 2026-07-12 09:10:36 : 1 steps taken -- still burning in, 1201 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:11:51 : 10 steps taken -- still burning in, 1198 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:12:59 : 70 steps taken -- still burning in, 1182 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:14:13 : 92 steps taken -- still burning in, 1178 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:15:17 : 101 steps taken -- still burning in, 1172 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:16:27 : 139 steps taken -- still burning in, 1166 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:17:30 : 143 steps taken -- still burning in, 1166 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:18:33 : 146 steps taken -- still burning in, 1165 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:19:42 : 161 steps taken -- still burning in, 1163 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:20:45 : 167 steps taken -- still burning in, 1160 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:21:46 : 179 steps taken -- still burning in, 1152 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:22:56 : 183 steps taken -- still burning in, 1151 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:24:06 : 196 steps taken -- still burning in, 1151 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:26:06 : 258 steps taken -- still burning in, 1136 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:27:09 : 278 steps taken -- still burning in, 1131 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:29:06 : 297 steps taken -- still burning in, 1125 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:30:08 : 322 steps taken -- still burning in, 1121 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:31:11 : 367 steps taken -- still burning in, 1115 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:33:07 : 384 steps taken -- still burning in, 1115 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:34:11 : 434 steps taken -- still burning in, 1110 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:35:12 : 461 steps taken -- still burning in, 1106 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:36:13 : 481 steps taken -- still burning in, 1105 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:38:10 : 493 steps taken -- still burning in, 1103 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:39:12 : 501 steps taken -- still burning in, 1102 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:40:13 : 521 steps taken -- still burning in, 1098 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:41:14 : 527 steps taken -- still burning in, 1097 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:43:10 : 576 steps taken -- still burning in, 1088 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:45:04 : 601 steps taken -- still burning in, 1082 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:46:58 : 661 steps taken -- still burning in, 1067 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:48:56 : 696 steps taken -- still burning in, 1059 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:50:45 : 758 steps taken -- still burning in, 1047 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:52:38 : 794 steps taken -- still burning in, 1038 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:54:28 : 802 steps taken -- still burning in, 1038 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:56:17 : 837 steps taken -- still burning in, 1031 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:58:04 : 857 steps taken -- still burning in, 1028 accepted steps left.
+[mcmc] Progress @ 2026-07-12 09:59:52 : 909 steps taken -- still burning in, 1015 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:01:46 : 962 steps taken -- still burning in, 1005 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:03:32 : 986 steps taken -- still burning in, 1001 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:04:35 : 1004 steps taken -- still burning in, 997 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:06:24 : 1016 steps taken -- still burning in, 995 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:08:21 : 1027 steps taken -- still burning in, 994 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:10:15 : 1107 steps taken -- still burning in, 975 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:12:02 : 1187 steps taken -- still burning in, 964 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:13:51 : 1229 steps taken -- still burning in, 954 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:15:38 : 1251 steps taken -- still burning in, 951 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:17:33 : 1294 steps taken -- still burning in, 944 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:19:26 : 1338 steps taken -- still burning in, 938 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:21:12 : 1401 steps taken -- still burning in, 929 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:23:04 : 1435 steps taken -- still burning in, 925 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:24:54 : 1486 steps taken -- still burning in, 917 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:26:45 : 1499 steps taken -- still burning in, 914 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:28:37 : 1569 steps taken -- still burning in, 907 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:30:30 : 1591 steps taken -- still burning in, 904 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:32:23 : 1618 steps taken -- still burning in, 897 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:34:15 : 1658 steps taken -- still burning in, 891 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:36:07 : 1686 steps taken -- still burning in, 888 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:37:54 : 1717 steps taken -- still burning in, 885 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:39:46 : 1730 steps taken -- still burning in, 884 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:41:35 : 1774 steps taken -- still burning in, 874 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:43:25 : 1805 steps taken -- still burning in, 869 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:45:15 : 1846 steps taken -- still burning in, 862 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:47:00 : 1898 steps taken -- still burning in, 847 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:48:48 : 1949 steps taken -- still burning in, 840 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:50:37 : 1967 steps taken -- still burning in, 836 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:52:28 : 2028 steps taken -- still burning in, 826 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:54:19 : 2046 steps taken -- still burning in, 823 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:56:06 : 2070 steps taken -- still burning in, 818 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:57:54 : 2128 steps taken -- still burning in, 807 accepted steps left.
+[mcmc] Progress @ 2026-07-12 10:59:43 : 2184 steps taken -- still burning in, 798 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:01:36 : 2202 steps taken -- still burning in, 790 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:03:26 : 2243 steps taken -- still burning in, 782 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:05:11 : 2254 steps taken -- still burning in, 781 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:07:03 : 2285 steps taken -- still burning in, 780 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:08:47 : 2372 steps taken -- still burning in, 766 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:10:36 : 2388 steps taken -- still burning in, 764 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:12:29 : 2430 steps taken -- still burning in, 759 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:14:25 : 2492 steps taken -- still burning in, 745 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:16:15 : 2519 steps taken -- still burning in, 741 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:18:04 : 2547 steps taken -- still burning in, 737 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:20:03 : 2564 steps taken -- still burning in, 732 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:21:55 : 2604 steps taken -- still burning in, 724 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:23:50 : 2649 steps taken -- still burning in, 718 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:25:35 : 2688 steps taken -- still burning in, 710 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:27:24 : 2743 steps taken -- still burning in, 695 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:29:14 : 2774 steps taken -- still burning in, 685 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:31:04 : 2803 steps taken -- still burning in, 678 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:32:09 : 2852 steps taken -- still burning in, 666 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:34:02 : 2878 steps taken -- still burning in, 663 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:35:55 : 2921 steps taken -- still burning in, 654 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:36:58 : 2922 steps taken -- still burning in, 654 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:38:53 : 2924 steps taken -- still burning in, 654 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:39:57 : 2966 steps taken -- still burning in, 646 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:41:55 : 3030 steps taken -- still burning in, 634 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:43:55 : 3085 steps taken -- still burning in, 619 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:45:00 : 3122 steps taken -- still burning in, 615 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:46:04 : 3168 steps taken -- still burning in, 611 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:47:09 : 3196 steps taken -- still burning in, 609 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:48:17 : 3260 steps taken -- still burning in, 599 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:49:27 : 3344 steps taken -- still burning in, 579 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:50:46 : 3439 steps taken -- still burning in, 566 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:51:54 : 3487 steps taken -- still burning in, 559 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:53:00 : 3601 steps taken -- still burning in, 537 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:54:05 : 3637 steps taken -- still burning in, 529 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:55:09 : 3702 steps taken -- still burning in, 519 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:56:19 : 3786 steps taken -- still burning in, 499 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:57:29 : 3804 steps taken -- still burning in, 497 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:58:32 : 3920 steps taken -- still burning in, 476 accepted steps left.
+[mcmc] Progress @ 2026-07-12 11:59:39 : 3962 steps taken -- still burning in, 470 accepted steps left.
+[mcmc] Progress @ 2026-07-12 12:00:48 : 3986 steps taken -- still burning in, 468 accepted steps left.
+[mcmc] Progress @ 2026-07-12 12:02:06 : 4053 steps taken -- still burning in, 459 accepted steps left.
+[mcmc] Progress @ 2026-07-12 12:03:30 : 4095 steps taken -- still burning in, 451 accepted steps left.
