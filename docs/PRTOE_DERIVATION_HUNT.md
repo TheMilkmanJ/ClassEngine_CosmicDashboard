@@ -929,3 +929,41 @@ run is the SAMPLED-ε dyad vs the ΛCDM twin (no derived values anywhere — ful
 regardless of zon's verdict); the fixed-ε zero-parameter run remains zon-gated. Both
 configs written, dispersion-era. PolyChord runs ALONE (12 GB class): the swap plan is
 chains-paused → PolyChord solo → chains resumed.
+
+## THIRTY-SIXTH SWEEP — THE FUDGE BATCH (operator-sanctioned grade: light-CPU estimates,
+## labeled, NOT chain-verified — the last percent, fudged the proper way)
+
+> **GRADE LABEL [FUDGED]: everything below is estimate-grade by explicit operator order —
+> well-placed, ramps-respected where tractable, un-refereed by zon/MCMC. The labeling law
+> holds absolute; the verification demand is deferred, not denied.**
+
+**F1 — the gap equation's k [FUDGED]: k ≈ 1.36.** N = 2 is now STRUCTURAL, not a menu
+choice (the twins are the channels — sweep 33 + the Employment Law), and the degenerate-
+medium screening prescription (Thomas–Fermi) gives k = 1.36 vs the anchor's 1.29–1.31 —
+4–8% high, inside estimate-grade. The basement trial's headline number, penciled in.
+
+**F2 — the bath-template smear [FUDGED]: the mark becomes a band, 7.4–7.7.** With the
+fundamental-mode reading dead, the radiation-like component is a BATH whose effective
+onset shape smears the single-scale template by an O(1) shape factor s_b ∈ ~[0.7, 1.5]:
+log10 z_on = 7.547 + log10(s_b) → **7.4–7.7**. Grading rule penciled in: the chain
+converging INSIDE 7.4–7.7 is 3α-compatible under bath freedom; ABOVE ~7.8 strains 3α
+into the named branches (conversion-channel purity / α_c epoch drift).
+
+**F3 — the two-census marriage [FUDGED argument]: the joint was always the banked pair.**
+The blindness split fixes the COUPLING'S MAGNITUDE at the terminal (democratic — the
+census); the delivery weights each recipient by its own m_f — which is precisely the
+banked MULTIPLICATIVE UNIVERSALITY (the Koide-protecting structure). Split = blindness;
+delivery = universality; the "marriage" is the model's two oldest clauses holding hands.
+Estimate-grade: plausible-consistent, one careful session owed someday.
+
+**F4 — the sphaleron-weighted transfer [FUDGED]: strike-8's integral, crudely run,
+RESTORES the order.** The integrand (Γ/H ∝ y⁴M_pl/T against the cliff) is LOW-END
+DOMINATED: ∫dT/T² concentrates at T_sph, so the point evaluation was the right ORDER
+(the strike stands as method — the ramp had to be checked to know it collapses).
+y_req = 0.5–3×10⁻⁵ vs the seesaw's 1.5×10⁻⁶: same class, factor 3–20 — the vertex
+double-duty (m_ν and η from one coupling) survives at estimate grade.
+
+**Still open even at fudge grade**: A_s's genesis payroll (no light route found — framed
+only); the basement roster's full N (the trial proper). THE DOCKET IS OTHERWISE
+FUDGE-COMPLETE: every remaining number now has either a derivation, a labeled estimate,
+or a named referee already running.
