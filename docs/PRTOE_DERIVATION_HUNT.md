@@ -217,7 +217,7 @@ derivation route (pair-breaking) whose normalization we divided in on top of the
 a double-dressing. The sky agreeing with the undressed form at 0.4‰ is the model being
 heard correctly at last. Remaining: bookkeeping confirmation only.
 
-### 2. The 2/π freeze-out — DISSOLVED INTO A THEOREM. Wrong estimator all along.
+### 2. The 2/π freeze-out — [SUPERSEDED (sweeps 18–19): the dissolution failed in-sim; P-041 = un-mechanized value, ensemble decides]
 The transaction grammar (the currency-1 axiom) says the terminal reads EVENTS — flux,
 crossings — a RECTIFIED quantity. For fully phase-mixed 2D motion the velocity-radius
 angle is uniform, and **⟨|cos ψ|⟩ = 2/π exactly — a one-line theorem.** No freeze-out
