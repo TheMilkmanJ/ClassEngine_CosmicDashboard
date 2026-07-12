@@ -4,6 +4,7 @@
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
 PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appendices A/B).*
 
+- [LV PRICING](PRTOE_LV_pricing.md) — def373 executed: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
 - [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) — the remaining underived numbers and where their pieces already sit (living)
 - [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every death, reversal, and self-caught error in one place (the graveyard; the main read stays gold)
 - [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the credit ledger)
