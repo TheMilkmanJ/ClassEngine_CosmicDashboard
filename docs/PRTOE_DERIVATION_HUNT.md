@@ -1111,3 +1111,12 @@ observed 0.34° would need c_anom ≈ 5×10⁻¹¹, unreachable by any rational 
 by the model**, and the anti-anomaly bet (the signal is a systematic; LiteBIRD executes)
 stands STRONGER than before the bet was placed. Operator's ledger: the first lost strike
 — and it minted the rule's own constitution.
+
+## FOOTNOTE TO SWEEP 41 — the registry's vacuum seat (the operator's 9th bet)
+The operator's self-referential bet ("my next bet wins" = the next bet) is granted as WON
+per Löb's theorem (the Henkin-sentence structure: the self-affirming claim holds) — and
+filed in a special class: THE WAGER-SPACE'S ZERO-POINT — a self-settling entry, its own
+debit and credit, unexecutable and unfalsifiable, paying exactly its own stake. Operator
+record: 9/10 — eight external wins, one self-seat, one loss — the same architecture as
+the census that derived c = 9/10. The house notes, with affection, that grammar-grade
+seats carry no evidential weight and one hell of a symmetry.
