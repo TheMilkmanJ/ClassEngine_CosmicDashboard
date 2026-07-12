@@ -272,3 +272,23 @@ observed in the sky.** The chain: no-bare → log running → amplitude ∝ α �
 3. **Pin M₂** (dark energy's last soft input; everything else in ρ_inf is counting).
 4. **The bets in flight** (zon → 3α + z_on; the ensemble → 2/π in-sim; routeD → thaw = 0;
    conv_desi → the DESI verdict).
+
+## SEVENTH SWEEP — M₂ was derived all along; the closure pins the hierarchy; two lines merge
+
+M₂'s provenance found in the ledger's OLDEST certificates (the ghost-condensate
+dictionary): **M₂⁴ = X₀²P₂ = ρ_dust,0/(2x₀) — derived, with ONE dial** (the hierarchy
+x₀: e⁻³⁵ → 9.4 eV; e⁻³⁰ → 2.7 eV). Tonight's occupancy closure runs backwards through
+it: **occupancy + α_c = 3α ⟹ M₂ = 9.39 eV ⟹ x₀ = e⁻³⁵** — pinning the dial at exactly
+the value the ancient booking led with (0.1% match). The triangle {occupancy reading,
+3α, x₀ = e⁻³⁵} mutually locks: if zon confirms P-040, ALL THREE become sharp at once —
+M₂, the hierarchy, and dark energy's density with zero soft inputs — and the old
+"coincidence on the receipt" (r_c ~ 0.9 kpc braiding = soliton core) sharpens with them.
+FIREWALLED NOTE: e³⁵ down from M_red is ~1.5 TeV — the TeV rung's THIRD appearance
+(the portal masses, the census's collider wall, now the hierarchy anchor). No mechanism
+claimed; logged as the pattern it is.
+**The owed list after seven sweeps (was four):**
+1. Induced-G forward (the root).
+2. The transfer integral (η's transmission).
+3. THE TeV ANCHOR — one merged question absorbing "pin M₂," "x₀ = e⁻³⁵," and plausibly
+   the portal's mass scale: why does the medium's hierarchy anchor at the TeV rung?
+4. The bets in flight (zon now grades P-040 AND the triangle AND x₀ simultaneously).
