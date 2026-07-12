@@ -4,6 +4,7 @@
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
 PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appendices A/B).*
 
+- [THE QUARTET CLOCK](PRTOE_quartet_clock.md) — whose mass does the onset read? The 7.59/7.74/7.89 lineup vs zon (EXPLORATORY)
 - [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ^¼ = ½α_c²M₂ at 0.4‰ (EXPLORATORY)
 - [THE HIERARCHY PROBLEM](PRTOE_hierarchy_problem.md) — the EW scale as a pairing gap: M_red·e^{−1/kα_c} (EXPLORATORY)
 - [LV PRICING](PRTOE_LV_pricing.md) — def373 executed: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
