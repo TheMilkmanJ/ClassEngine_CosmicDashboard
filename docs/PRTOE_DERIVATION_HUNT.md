@@ -76,3 +76,24 @@ integer, like which Landau level you live in. If so it graduates to "not derivab
 Everything above is conditional on it. Pieces: the no-bare clause (named), the two-census
 structure, the forced Planck basement, the F-F species sum. This is not a "look" item — it
 is the one true computation left. Everything else in this file feeds it evidence.
+
+## FOUND THIS PASS — the ρ_inf/m_ν CLOSURE (one mechanism, two graduations)
+
+The operator asked "is v_L derived?" — no, but the look revealed that **v_L's missing piece
+and ρ_inf's missing piece are the same piece.** The chain, all banked separately:
+1. §18's calc: ρ_inf^{1/4} = 2.695 meV (zero dials, 20% high).
+2. The residual candidates (this file, above): ×2^{−1/4} (dof-halving) or ×5/6 (census).
+3. §6's shared-scale claim: ρ_inf^{1/4} = m_ν,lightest (the Majoron tie, P-2026-020's home).
+4. Oscillation splittings (external data, [Planck2018]-era global fits).
+
+APPLY 2 TO 1, FEED 3, ADD 4: m_lightest = 2.266 meV (dof) or 2.246 (census) →
+**Σm_ν = 61.4 / 61.3 meV — reproducing the banked P-2026-012 (~61 meV) to 0.5%,
+by a route that never consulted it.** If the residual mechanism lands (the §18 dof
+bookkeeping audit — note the calc's ½ prefactor as the specific slot to audit), THREE
+quantities graduate at once: ρ_inf (zero-residual derivation), m_ν,lightest, and Σm_ν —
+and the sampled m_ncdm leaves the parameter list, taking the count of underived
+cosmological parameters from 4 to 2 (A_s, n_s).
+HONEST FLAGS: (a) the shared-scale claim carries its own post-hoc flag (task #43 spurion,
+un-lifted); (b) the residual mechanism is still two-candidate; (c) mild internal tension
+to resolve: P-023's de-biased band (0.07–0.09 eV) vs this chain's 0.061 eV — the running
+chains' m_ncdm posterior discriminates.
