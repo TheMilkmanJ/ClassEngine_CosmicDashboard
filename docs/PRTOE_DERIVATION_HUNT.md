@@ -750,3 +750,19 @@ status upgrades from "crux-threatened" to "vertex-owed."
   of the audit table is COMPLETE: convictions 2 (lasers, radio), registrations 1
   (P-043), new cousins 2 (nuclear pairing, muonium), refreshes 2 (nano, SC-reversed),
   quiet 10+. The re-grade closes as a bounded audit with its yield banked.
+
+## TWENTY-SEVENTH SWEEP — the transfer vertex's first pass: COLD (booked cold)
+
+With the crux dissolved (the ghost's permanent μ), the first-pass magnitude check: the
+GC phase rate θ̇ ~ √(2X₀)/Ψ₀ ~ 10⁻¹⁹ eV against H(T_sph) ~ 10⁻⁵ eV — a bias ratio of
+~10⁻¹⁴: **the naive AD-direct yield lands many orders under η ~ 6×10⁻¹⁰.** The engine
+runs forever but idles. ADVERSE-LEANING first pass, filed cold. What could rescue (owed,
+named): (i) the bias is not θ̇/H but resonant (a level-crossing era where the junction's
+sin Δθ sweeps — the Josephson analogy's AC side, un-priced); (ii) the vertex is the
+α_c channel, not the Majoron-suppressed one (changes 𝒯 by ~26 orders — needs the
+roster's actual junction structure = task #18 again); (iii) the transfer happened at the
+CRUNCH (the pairing epoch — charge inherited through the bounce with the genome, making
+η a CYCLE-INHERITED number like n — which would marry η ∝ n at the root and explain the
+shared integer STRUCTURALLY). Candidate (iii) is the grammar-native one. The careful
+session stands owed; the model's baryogenesis is now honestly priced: crux dissolved,
+magnitude unproven, one native rescue named.
