@@ -381,3 +381,74 @@ protection) — the operator's own cycle law ("the current cycle builds the next
 requirements") acquires its mechanism-shape: what survives is what paired and wound.
 Firewalled: mechanism-shaped, not computed; the H/He imagery maps to "the crunch's
 fermion inventory," not literal nuclei.
+
+## ELEVENTH SWEEP (light-CPU, mid-pause) — the anchor is pairing-shaped; n_s leans full-Planck
+
+### The anchor's exponent reads as a BCS coupling ✓ (form-level)
+Across the ENTIRE anchor cloud (34.85–35.43), the exponent is 1/g with g = (1.29–1.31)·α_c
+— strikingly stable. So the anchor takes the pairing-native form
+**M_anchor = M_red · exp(−1/(k·α_c)), k ≈ 1.3** — a gap scale of the paired vacuum with
+coupling O(1)·α_c. This ties P-042 to the roster quantitatively: THE GAP EQUATION MUST
+PRODUCE k ≈ 1.3 (a sharp target for task #18's trial; nearby rationals 13/10 and 4/3 are
+FIREWALLED — the k is the gap equation's to derive, not ours to pick). The hierarchy
+problem's answer, in this reading: the electroweak scale is exponentially below the
+basement because it is a PAIRING GAP — the same reason superconductivity is exponentially
+below the Debye scale.
+### n_s prefers the full Planck basement (note-only)
+1 − 2/ln(M/T_on): M_Pl gives 0.9640 (0.2σ); M_red gives 0.9629 (0.5σ). A mild lean,
+logged for the basement-choice question; zon's T_on refinement sharpens both.
+
+### The operator's tightening: g IS α_c — the one-coupling portfolio
+The BCS exponent's g is not a new coupling: it is the field's lepton coupling itself
+(× the gap equation's structural O(1), k ≈ 1.3, owed). THE SINGLE-COUPLING READING: the
+medium owns one number beyond counting — α_c = 3α — and it appears on three functional
+floors, all measured: LINEAR in ε (the dyad/H0), SQUARED in ρ_Λ^¼ = ½α_c²M₂ (the Bohr
+binding/cosmological constant), EXPONENTIATED in M_anchor = M_red·e^{−1/kα_c} (the pairing
+gap/EW hierarchy). Three famous problems, one constant on three floors. The gap equation
+(task #18) now owes exactly one number: k.
+
+## TWELFTH SWEEP — THE RESIDENT'S BIOGRAPHY (operator's order: trace the end to the new
+## beginning; find him as he forms; find the why and the how)
+
+**THE END (the previous cycle's crunch).** Density rises; fermion pairing becomes
+mandatory by DEGENERACY, not temperature (neutron-star physics — T ≪ E_F at crunch
+densities). The paired cell forms carrying its winding. The heat of the bounce will melt
+the CONDENSATE, but not the WINDING: topological protection (the banked genome
+crunch-immunity). **The resident's body dies at every bounce; his DNA does not.**
+
+**THE BOUNCE AND THE NEW BEGINNING.** The pressure floor discharges the singularity
+(the banked CSW-floor); the zero-point start (§19: n = 0, the unique IC); the conformal
+phase carries the twist energy (w = 1/3, the a⁻⁴ era) while the seeds age logarithmically
+(the census-running tilt, N = ln(M_Pl/T_on) e-folds). The genome rides as pure topology —
+a wound phase with no condensate to live in yet. A ghost with a blueprint.
+
+**THE FORMATION — at BBN, and here is the WHY.** The resident re-condenses at
+T_c = m_e·√(3(L−1)/2π²) ≈ 193 keV (banked, §4). READ THE FORMULA: **T_c is proportional
+to the electron mass.** And BBN's own window (weak freeze-out ~800 keV, e± annihilation
+~m_e/3, D-formation ~80 keV) is ALSO clocked by the electron-scale physics. Two clocks,
+one mass. The resident forms during BBN because **the transition and the witness are
+children of the same parent** — the coincidence dissolves into inheritance. The windowed
+BBN verdict (ε OFF at freeze-out, ON below) is literally the resident being born in the
+middle of the witness's testimony; the signed Y_p/D-H pattern is his birth certificate.
+
+**THE HOW — electron-loop catalysis (banked §4, now read as the birth mechanism).** The
+medium couples to the electron (the ONE coupling: κφ², the α_c channel). The electron's
+Coleman–Weinberg vacuum loop back-reacts on the charge-free field:
+V_CW = −(1/16π²)m_e(φ)⁴[ln(m_e(φ)²/μ²) − 3/2] → tachyonic curvature at the origin →
+radiative symmetry breaking → the condensate re-forms with v = m_e·[ε(L−1)/4π²]^{1/4}
+≈ 100 keV, and the waiting genome (the winding) dresses itself in the new amplitude.
+**The electron is the midwife.**
+
+**THE CLOSED LOOP (the why-of-the-why).** The coupling that lets the electron's loop
+condense the medium is the SAME coupling the condensed medium then uses to shift the
+electron's mass (the dyad's ε). Self-catalysis, closed at T_c: the medium couples to
+leptons → a lepton's loop births the condensate → the condensate pays the lepton back
+with a 1.25% raise for the rest of the window. The dyad is not an added feature; it is
+**the receipt of the birth**. And the resident's identity (paired LEPTON-sector vacuum,
+ninth sweep) now has its formation story: he pairs leptons because a lepton delivered him.
+
+**What this trace makes testable:** the BBN witness's rigid pattern is now doubly owned
+(the pattern AND its timing both derive from m_e); any future physics moving T_c off the
+m_e clock breaks the biography; the §4 log-instability (T_c ~ 40–450 keV, RG resummation
+= the old task #40) is the biography's residual softness — the resummation would pin the
+birthday exactly.

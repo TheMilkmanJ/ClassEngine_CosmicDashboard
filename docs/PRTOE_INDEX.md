@@ -4,6 +4,8 @@
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
 PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appendices A/B).*
 
+- [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ^¼ = ½α_c²M₂ at 0.4‰ (EXPLORATORY)
+- [THE HIERARCHY PROBLEM](PRTOE_hierarchy_problem.md) — the EW scale as a pairing gap: M_red·e^{−1/kα_c} (EXPLORATORY)
 - [LV PRICING](PRTOE_LV_pricing.md) — def373 executed: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
 - [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) — the remaining underived numbers and where their pieces already sit (living)
 - [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every death, reversal, and self-caught error in one place (the graveyard; the main read stays gold)
