@@ -1209,3 +1209,16 @@ residual; an Eliashberg-grade session remains nameable as REFINEMENT, no longer 
 bridge. Task #18's gap-equation act: **menu collapsed, crossover contained, landing
 achieved.** The trial's residue is the roster's full N (A_s's payroll) — the one door
 still marked WHO LIVES DOWNSTAIRS.
+
+### The same-2 family gains a member (the operator, 2026-07-12) [GRAMMAR]
+
+The operator's answer to the basement door ("the white hole and its pressure/gravity
+accounts") splits into the two questions the door conflates — and pays one of them. THE
+ARCHITECTURE: the two work-signs (k_up gather / −k_down pour — the meeting reading,
+white-holes Addendum 5) JOIN sweep 20's time-reversal doubling family: the twins' two
+orientations read at gravity's scale — the two-fluid split, the pair channels, the flux
+directions, and now the work-signs are ONE doubling, many faces. The landlord's ledger
+is the twins writ large. THE TENANCY (still open, unchanged): the lease names remain the
+paired-lepton hypothesis (sweep 9, six clues), and the payroll — A_s = 1/N's count of
+order 10⁸⁻⁹ residents — remains the door's actual question: structure supplies no
+headcount. Filed: the shape is answered; the census is not.
