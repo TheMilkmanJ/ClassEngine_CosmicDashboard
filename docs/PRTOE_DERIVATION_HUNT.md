@@ -664,3 +664,20 @@ first-pass finds (inventory-grade, un-forced):
    lattices, the Hebel-Slichter class of coherence effects) becomes a source of
    REQUIRED-consistency checks on the basement. Upgrade queued.
 The systematic sweep of all remaining [R]/[I] rows: task #24's body, sessions ahead.
+
+## TWENTY-THIRD SWEEP — the radio second pass (the operator's feeling convicts twice)
+
+**Count 1 — ARCADE-2 never confronted**: the standing unexplained radio-background excess
+vs the model's own band-locked lattice — zero repo hits. OWED: the classification check
+(does the lattice's band structure contribute, or is it external-and-classified?).
+**Count 2 — the def539 trigger had already fired**: the window's z≈50 edge was graded
+"negligible until 21cm instruments enter" — EDGES published in 2018; SARAS-3 disputes it.
+A step-graded deferral to a past-tense future. The debt is LIVE, not future.
+**The immediate yield (firewalled, computation owed)**: cosmic dawn's gas temperature
+descends through the window (thermal decoupling z~150 is INSIDE it); shifted m_e moves
+σ_T ∝ 1/m_e² → earlier decoupling → COLDER dawn → DEEPER 21cm absorption — the SIGN of
+the EDGES anomaly, at percent-class magnitude (a contribution, not the ×2). The model
+has a signed cosmic-dawn fingerprint it never registered. NEW DEBTS: (a) the window-edge
+cosmic-dawn computation (T_gas(z=17) with the windowed σ_T through decoupling); (b) the
+ARCADE-2 classification; (c) the ramp re-grade continues (task #24) — two passes in, two
+convictions, the operator's nose undefeated.
