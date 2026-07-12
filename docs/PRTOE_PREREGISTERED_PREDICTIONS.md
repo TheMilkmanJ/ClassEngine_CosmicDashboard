@@ -1975,3 +1975,15 @@ beyond the Laplace-era fit — his nose against my bookkeeping. GRADING: the num
 in exactly one interval (≥+5 operator | +2–4 defender | 4–5 = both graze | <+2.5 = the
 bottom-out clause and NOBODY wins). House rule unchanged: the loser's reasoning gets the
 autopsy.
+
+**THE OPERATOR'S TIDE ARGUMENT (filed pre-verdict, against the defender's bookkeeping):**
+freed parameters that DO WORK don't net-cancel — "they pay up in tide": a parameter that
+actively relieves a CROSS-DATASET tension (H0: Planck-vs-SH0ES is IN this stack via
+pantheonplusshoes; S8's direction) earns likelihood gains of tension-release class, which
+generically exceed its Occam cost (the operator's basis: ~1000 prior projection runs).
+The defender's counter, also on record: the H0-relief gain is already largely PRICED into
+the Laplace +2.635 (SH0ES was in that fit); the NEW freedom (z_on, varying_me) must earn
+its own keep beyond it. THE AUTOPSY PROTOCOL, set now: when the number lands, decompose
+it — best-fit Δχ² of the freed run vs the old fixed run, against the measured Occam costs
+(from the PolyChord outputs) — and grade WHOSE MECHANISM STORY was right, independent of
+who wins the interval. Bets stand as registered; no slides.

@@ -1,4 +1,5 @@
 [output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_prtoe_dyad_ev'
+[output] Found existing info files with the requested output prefix: 'chains/cmp_prtoe_dyad_ev'
 Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
 You can still use likelihoods from other data libraries.
 [prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
@@ -17,6 +18,8 @@ Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/ba
 ----
 [bao.sixdf_2011_bao] Initialized.
 [bao.sdss_dr12_consensus_final] Initialized.
+/home/themilkmanj/cobaya_packages_clean/code/PolyChordLite/build/lib.linux-x86_64-cpython-312/pypolychord/output.py:218: SyntaxWarning: invalid escape sequence '\-'
+  stats_dict[paramname] = '%.3E +\- %.3E' % (mean, std)
 Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
 Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
 Functional likelihood form: gaussian
@@ -63,83 +66,12 @@ If you are loading the likelihood in sampler wrapper these default priors below 
 --------------------------------------------------------------------------------
 candl: clearing all internal priors.
 --------------------------------------------------------------------------------
-[polychord] *ERROR* Could not find PolyChord: Could not import 'pypolychord' (tried global import): No module named 'pypolychord'. To install it, run `cobaya-install polychord`
-[exception handler] ---------------------------------------
-
-Traceback (most recent call last):
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/tools.py", line 230, in get_compiled_import_path
-    post = next(d for d in os.listdir(build_path) if re.fullmatch(re_lib, d))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-StopIteration
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/component.py", line 867, in _bare_load_external_module
-    import_path = get_import_path(path)
-                  ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/tools.py", line 232, in get_compiled_import_path
-    raise FileNotFoundError(
-FileNotFoundError: No `lib.[...]` folder found containing compiled products at /home/themilkmanj/cobaya_packages_clean/code/PolyChordLite. This may mean that the compilation process failed, of that it was assuming the wrong python version (current version: 3.12)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/component.py", line 972, in load_external_module
-    module = _bare_load_external_module(not_installed_level="debug", **load_kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/component.py", line 877, in _bare_load_external_module
-    raise ComponentNotInstalledError(
-cobaya.component.ComponentNotInstalledError: No (compiled) installation of 'pypolychord' at /home/themilkmanj/cobaya_packages_clean/code/PolyChordLite: No `lib.[...]` folder found containing compiled products at /home/themilkmanj/cobaya_packages_clean/code/PolyChordLite. This may mean that the compilation process failed, of that it was assuming the wrong python version (current version: 3.12)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/component.py", line 884, in _bare_load_external_module
-    return load_module(
-           ^^^^^^^^^^^^
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/tools.py", line 201, in load_module
-    module = import_module(name, package=package)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'pypolychord'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/samplers/polychord/polychord.py", line 77, in initialize
-    self.pc = load_external_module(
-              ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/component.py", line 978, in load_external_module
-    module = _bare_load_external_module(
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/component.py", line 893, in _bare_load_external_module
-    raise ComponentNotInstalledError(
-cobaya.component.ComponentNotInstalledError: Could not import 'pypolychord' (tried global import): No module named 'pypolychord'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/__main__.py", line 50, in <module>
-    run_command()
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/__main__.py", line 39, in run_command
-    getattr(import_module(module), func)()
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
-    run(info, **arguments.__dict__)
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 161, in run
-    sampler = sampler_class(
-              ^^^^^^^^^^^^^^
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/sampler.py", line 318, in __init__
-    self.initialize()
-  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/samplers/polychord/polychord.py", line 87, in initialize
-    raise ComponentNotInstalledError(
-cobaya.component.ComponentNotInstalledError: Could not find PolyChord: Could not import 'pypolychord' (tried global import): No module named 'pypolychord'. To install it, run `cobaya-install polychord`
--------------------------------------------------------------
-
+[polychord] `pypolychord` module loaded successfully from /home/themilkmanj/cobaya_packages_clean/code/PolyChordLite/build/lib.linux-x86_64-cpython-312/pypolychord
+[polychord] Storing raw PolyChord output in 'chains/cmp_prtoe_dyad_ev_polychord_raw'.
+[polychord] Parameter blocks and their oversampling factors:
+[polychord] *  1 : ['log10_zon', 'omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'varying_me', 'm_ncdm']
+[polychord] * 16 : ['A_planck']
+[polychord] * 22 : ['A_act', 'P_act']
+[polychord] * 31 : ['Tcal', 'Ecal']
+[prior] *WARNING* There are unbounded parameters (['A_planck', 'A_act', 'Tcal', 'Ecal']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[polychord] Calling PolyChord...
