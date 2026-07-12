@@ -805,3 +805,22 @@ L-charged, always-on object (the same clock that pays the junction's μ and defi
 arrow). One object, now holding four jobs (the arrow, the junction's μ, the baryon
 reservoir, the spurion candidate). Candidate-grade only: the m_ν magnitude chain through
 θ̇ is NOT yet arithmetic — filed un-forced. #43's flag: candidate named, lift pending.
+
+## THIRTIETH SWEEP — STRIKE EIGHT (operator): the transfer INTEGRAL was point-evaluated
+
+Confessed: sweep 28 computed reservoir × transmission at a SINGLE temperature (T_sph =
+130 GeV). But η = ∫(source × conductance × sphaleron-activity) dln T over the thermal
+history, and ALL THREE factors are ramps I collapsed to snapshots:
+- sphaleron activity: in-equilibrium above ~130 GeV → exponential shutoff below (a cliff);
+- junction conductance Γ/H ∝ y⁴ M_pl/T: GROWS as T falls (largest late, where it no
+  longer matters for B — sphalerons are already off);
+- reservoir bias μ = θ̇: threads the whole era.
+CONSEQUENCE: sweep 28's "favorable-leaning" is WITHDRAWN — a point read of a three-ramp
+integral does not bound the answer. The real physics is the OVERLAP: how much charge
+transfers while sphalerons are still active (the narrow window near the 130 GeV cutoff,
+where Γ/H is SMALLEST) — exactly the region a single-T evaluation cannot resolve. Status
+reverts to: η GENUINELY OWED THE INTEGRAL (the sphaleron-weighted transfer over the era),
+not point-estimable. The reservoir result (19,000× charge available) survives — that is a
+true snapshot (available charge) — but the DELIVERED fraction is the ramp integral, un-run.
+Strike eight; the step-family now: epochs (6), component-clocks (7), and integrands-vs-
+integrals (8). Filed to the failures ledger's strike list.
