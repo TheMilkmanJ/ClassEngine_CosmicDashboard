@@ -98,3 +98,28 @@ Theory-of-Expansion border. The model grades the physics, not the dream.*
 ## Sources
 [Eardley1974], [RovelliHaggard2014], [RovelliVidotto2018], [ArkaniHamed2004] — full
 entries in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) §11.
+
+---
+
+## Addendum (2026-07-12, the operator's realization): WHY GR PREDICTS WHITE HOLES AT ALL [GRAMMAR]
+
+GR's equations are time-symmetric — they own no arrow. Every black hole solution
+therefore ships with its time-reverse for free, and the complete Schwarzschild geometry
+(the Kruskal extension) literally contains both regions sewn together. Real collapse
+builds only the black half, and GR itself cannot say why: **the censor is not in the
+metric.** In this model the arrow lives in the medium (⟨θ̇⟩, the permanent μ), so the
+condensate signs only one half of what the equations permit — except at the one moment
+with no counterparty (§2, §3).
+
+The operator's form, adopted: **the white-hole solution is not a prediction of an object;
+it is the receipt of the initial condition.** The universe realized the white half
+exactly once — as its own opening — and the time-symmetric equations have carried the
+record ever since. Nobody could find a white hole IN the universe because the white hole
+WAS the universe, for one instant. "The universe was telling Einstein how it started."
+
+Record credit (per the house rule): "the Big Bang is structurally white-hole-like"
+(everything exits the past singularity, nothing enters) is a known observation in the
+relativity literature, and universe-from-white-hole proposals are decades old. What is
+native here is the MECHANISM that makes it the only realization: the arrow as a field
+value (not a statistic), the counterparty rule, the no-exterior Eardley evasion, once per
+cycle. [GRAMMAR — one reading of known solutions; no new solution claimed.]
