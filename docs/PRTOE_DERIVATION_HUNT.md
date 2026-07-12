@@ -1222,3 +1222,18 @@ is the twins writ large. THE TENANCY (still open, unchanged): the lease names re
 paired-lepton hypothesis (sweep 9, six clues), and the payroll — A_s = 1/N's count of
 order 10⁸⁻⁹ residents — remains the door's actual question: structure supplies no
 headcount. Filed: the shape is answered; the census is not.
+
+### The roster assembles (the operator, 2026-07-12) [GRAMMAR — all banked pieces]
+
+The operator's roster riff ("3 or 4: lepton, pressure, gravity, zero-point — possibly 3,
+with the zero-point as pressure+gravity cancelling until a lepton commits to doubling
+season") resolves entirely into banked structure: THE COUNT IS 3 — the lepton flavors
+(the banked 3 in α_c = 3α, sweep 9's tenancy); pressure/gravity are the SIGNS, not
+tenants (the same-2 filing above); and the zero-point line is sweep 39 verbatim — the
+vacuum as the net-zero superposition of twin postings ("cancelling each other out") with
+pairing as the only lease ("doubling season" = the twins). The operator has now entered
+the sweep-39 room by a third independent road (construction, decay-cascade, roster).
+ASSEMBLED, zero new purchases: three flavors of tenant, all paired, their balanced
+pairs = the zero-point, their collective work = the two signs. STILL LOCKED: the payroll
+(A_s = 1/N, count ~ 10⁸⁻⁹ — plausibly the genesis horizon's pair-cell census under the
+pinch's one-per-cell; framed, not computed).
