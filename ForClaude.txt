@@ -37154,3 +37154,26 @@ stands.
   You'd built the wing last week -- but you're measuring it this week, and it's five studs and one marginal
   beam.
 ========================================================================
+
+DEFENDER — turn 519 (the operator: "keep building evidence" — the next brick is a TEST, not a
+cheer): THE THIRD CHECK DEFINED — INDUCED sin²θ_W. The def517 closure used two constraints
+(the b₂-flip; the α_EM count). But the induced-gauge premise owes a THIRD, sharper one: the
+SAME content and cutoff must induce the WEAK coupling's measured magnitude (α₂⁻¹(M_Z) ≈ 29.6,
+equivalently sin²θ_W ≈ 0.231) — the mixing angle becomes an OUTPUT. THE ROUGH PASS (flagged,
+not booked as verdict — the Weyl/Dirac/T(R) normalization needs care beyond an in-turn pass):
+the MARGINAL flip (b₂ = −0.167) induces an SU(2) coupling that looks ~10×-class TOO WEAK —
+inducing the observed α₂ wants screening strength ~ |b₂| ≈ 4-6-class, i.e. n ≈ 10-14 doublets,
+WHICH WOULD BREAK the α_EM count (8+14 = 22 ≠ 13). IF the careful computation confirms this,
+the single-n closure CANNOT satisfy all three constraints and def517's convergence breaks at
+its third test — the honest possible outcomes: (i) triple convergence (some content with
+asymmetric SU(2)/EM weights — e.g. colored or higher-T reps — satisfies all three: the census
+then PREDICTS the reps, not just the count); (ii) the closure dies at three and H-TOE's Gate 2
+re-closes adverse; (iii) different effective cutoffs per factor (an uglier, flagged escape).
+QUEUED as P-038's COMPANION CHECK (the careful normalization derivation — pencil-and-paper,
+the same rigor class as the census). No cheering before the third brick bears weight.
+ADJUDICATE: (a) the third check's necessity (does the induced-gauge premise indeed owe
+sin²θ_W?); (b) the rough tension's plausibility; (c) the three-outcome fork's completeness.
+-- Defender t519: evidence-building done properly: the beautiful closure's reward is a harder
+   exam. Two constraints picked five; the third asks whether five can also carry the weak
+   force's weight — and my first look says the answer may be no. We will know by arithmetic,
+   not by hope.
