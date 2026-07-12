@@ -38480,3 +38480,116 @@ fixed-eps PolyChord commitment.
    within one percent of what the sky asked for. Every loose number left in the house
    now sleeps in the same room: the basement. One mechanism to prove, and the decimal
    points take care of themselves.
+
+========================================================================
+RED-TEAM — turn 524 (on def537 THE DERIVATION BLITZ -- a strong MEDIUM-sector consolidation, honestly bounded;
+it concentrates the whole medium-number onto ONE root, M3): ordered to "finish deriving everything," the
+defender assembles the eps-chain end-to-end -- c=9/10 CONDITIONALLY derived (roster forced by three banked
+cards), α_c=3α PRE-REGISTERED as a falsify-first bet (P-2026-040), the zero-dial ε=1.251% vs fit ~1.24% -- and
+does NOT over-claim: the dense family is flagged, α_c is a bet not a fit, ρ_inf stays under the firewall, and
+what remains is stated exactly (M3 + running machines). VERDICTS: (a) c=9/10 is a LAWFUL conditional
+inheritance (not premise-stacking), but consistent-NOT-preferred (0.4σ; the data leans to the non-derived
+12/13 at 0.06σ -- a WATCH); (b) P-2026-040 is a genuine falsify-first bet (2.3% above the current band --
+strong credit); (c) the ε assembly is a CANDIDATE closure, dense-family-degenerate (verified: both combos land
+~1.25%) -- consistency, not unique confirmation; (d) the ρ_inf 5/6 note is firewall-compliant; (e) the
+fixed-eps PolyChord is the right design (zero extra params vs ΛCDM -> no Occam penalty). Net: strong
+consolidation, but ALL conditional on the un-proven mechanism -> it adds no unconditional support; it
+CONCENTRATES the medium-number's risk onto M3. HOLD ~16% (upper end). Standing ~15-16%.
+
+(a) STEP 1 -- c=9/10 CONDITIONALLY DERIVED: LAWFUL INHERITANCE, but consistent-not-preferred (WATCH). The
+roster forces from three BANKED cards, no new physics: (i) coupling-form -- the dyad couples Yukawa-class
+(ψ̄ψ, shifts FERMION masses; m_e production-grade + t358 quark-bleed), and W/Z/H get mass from EWSB's v which
+the medium does NOT source (no Higgs portal) -> bosons take no share -> N∉16; (ii) neutrinos -- Card 6 has the
+medium SOURCE v_L, so neutrino masses are the medium's own product (interior, not external recipients: "you
+cannot fractionally shift what you wholly create") -> N=9 charged fermions + the zero-point seat (def535) = 10
+-> c=9/10. Cold: this is LAWFUL INHERITANCE, not premise-stacking -- the three theses (census mechanism;
+Yukawa-coupling/no-Higgs-portal; Card 6 v_L) are all PRE-EXISTING banked cards, not fitted for this. So c=9/10
+is a genuine CONDITIONAL derivation (given the banked theses). BUT two firm caveats: (1) it is conditional on
+the UN-PROVEN mechanism (M3); (2) the derived 0.9 is at 0.4σ from the measured 0.92, while the NON-derived
+12/13=0.923 sits at 0.06σ (verified) -- so the data currently leans toward the alternative roster, and the
+derivation is consistent-NOT-confirmed. WATCH: the derivation PREDICTS c=0.9; if the sharpened c (zon+f̄) lands
+near 0.923, the 9/10 roster is in tension. Credit the lawful inheritance; flag the watch.
+
+(b) STEP 2 -- α_c=3α (P-2026-040): A GENUINE FALSIFY-FIRST BET (strong credit). α_c=3α=0.021892, pre-registered
+BEFORE zon converges, and the current indirect band [0.0205,0.0214] sits 2.3% BELOW it (verified) -- so this is
+a BET AGAINST the current central estimate, not a fit (a fit would give ~0.0214). Kill stated: zon-converged
+α_c >2σ from 0.02189. This is exactly the falsify-first discipline -- registering a sharp value the deciding
+measurement can kill, before it lands, against where the data currently points. Strong credit. Caveat: the "3"
+in 3α is basement-MOTIVATED (a parked rational), not fully derived in this turn -- so it is a well-posed bet
+with a partially-derived value. The falsifiability is the virtue.
+
+(c) STEP 3 -- THE ZERO-DIAL ε: CANDIDATE CLOSURE, DENSE-FAMILY (honestly flagged). ε=(9/10)(0.635)(3α)=1.251%
+vs the dyad posterior ~1.24% -- within ~1%, zero dials (a count × a sim output × a basement rational). VERIFIED.
+But the defender's own HONEST FLAG holds: (12/13)(0.635)(0.0214)=1.254% ALSO lands (verified) -- because the
+~2.5% c-variation and ~2.3% α_c-variation CANCEL in the product. So ε~1.25% is ROBUST across the (c,α_c) family
+and therefore does NOT discriminate the roster -- it is a CONSISTENCY check (the zero-dial construction lands
+near the fit), NOT a unique confirmation of (9/10,3α). Discrimination must come from measuring c and α_c
+SEPARATELY (zon, f̄, neutrino-home), which the defender correctly identifies. Credit the assembly + the honest
+degeneracy flag; do not over-read the 1% landing.
+
+(d) STEP 4 -- ρ_inf 5/6: FIREWALL-COMPLIANT (credit the discipline). obs/calc=0.8349; 5/6=0.8333 (0.2%) noted,
+NO mechanism claimed, logged awaiting derivation-or-kill. Correct posture -- post-hoc rationals are CHEAP
+(many rationals sit within 0.2% of any number), so the firewall (note-don't-claim) is exactly right. Credit
+the restraint (a suggestive pattern parked, not banked).
+
+(e) STEP 5 -- FIXED-EPS POLYCHORD: THE RIGHT DESIGN (credit the methodological virtue). Deriving ε (zero dials)
+makes the dyad a ZERO-extra-parameter model vs ΛCDM -> the evidence run has NO Occam penalty, and Δ-lnZ is
+pure goodness-of-fit. Correct: if ε is genuinely fixed, the model is a zero-parameter alternative testable by
+pure evidence. Committing to run fixed-eps (task #9) as the true claim, alongside sampled-eps for reference, is
+the honest test of the derived value -- if ε=1.25% fits as well as ΛCDM, Δ-lnZ~0 with no penalty (favorable);
+if not, it shows. Credit -- deriving ε converts the model into a falsifiable zero-parameter claim.
+
+STANDING -- HOLD ~16% (upper end); the blitz CONSOLIDATES but concentrates risk on M3. This is a strong
+MEDIUM-sector consolidation: the eps-chain now assembles END-TO-END, zero dials, to within 1% of the number
+the model was born from -- c=9/10 (conditional derivation), α_c=3α (falsify-first bet), ε=1.251% (candidate
+closure), with a clean zero-parameter evidence test committed. That is real and favorable. BUT it adds NO
+UNCONDITIONAL support: (1) every derivation is conditional on the un-proven mechanism (M3 -- "the one root");
+(2) the derived c=9/10 is consistent-not-preferred (data leans 12/13 -- a watch); (3) the ε landing is dense-
+family degenerate (not unique); (4) α_c=3α is a bet that zon can kill. So the blitz's true effect is CLARIFYING,
+not number-moving: it reduces the entire medium-claim to ONE pivotal root -- M3, the mechanism's
+unconditionality -- with everything else (c, the self-share, the zero-dial ε, and by the shared clause induced-G
+and the α-lane) hanging from it, plus a few running machines (zon/M1, f̄/M8, the comb, Cards 4/6). So I HOLD
+~16% (upper end): the unconditional evidence is unchanged (all waits on M3), but the model is now maximally
+consolidated and maximally testable (falsify-first α_c; zero-parameter PolyChord; a c-roster watch). The
+DISCIPLINE is exemplary -- ordered to "derive everything," the defender delivered conditional derivations,
+flagged the dense family, bet-not-fit on α_c, firewalled ρ_inf, and named M3 as the single owed root rather
+than papering it. Deciders (now sharply defined): M3 -- the mechanism's unconditionality (THE root, carries the
+whole medium-claim); the fixed-eps PolyChord Δ-lnZ (zero-parameter goodness-of-fit); zon/M1 (grades P-2026-040
+α_c=3α AND the c-roster); f̄/M8 (ensemble running -- c's fork-splitter); the comb (n); Cards 4/6 (η, v_L); the
+ρ_inf residual mechanism. Leptophilia (t358b) stands.
+  Banked (updated): DERIVATION BLITZ. STEP1: c=9/10 CONDITIONALLY DERIVED -- roster forced by 3 BANKED cards
+  (census mechanism; Yukawa/no-Higgs-portal -> bosons take no share, N∉16; Card 6 v_L -> neutrinos interior,
+  N=9+zero-point=10). Lawful inheritance, NOT premise-stacking; conditional on M3. WATCH: derived 0.9 at 0.4σ,
+  but data leans NON-derived 12/13 (0.06σ) -- consistent-not-confirmed. STEP2: α_c=3α=0.021892 PRE-REGISTERED
+  (P-2026-040) as a FALSIFY-FIRST bet -- 2.3% above the current band [0.0205,0.0214] (verified); kill: zon >2σ
+  from 0.02189. "3" basement-motivated, not fully derived. STEP3: zero-dial ε=(9/10)(0.635)(3α)=1.251% vs fit
+  ~1.24% (verified) -- CANDIDATE closure, DENSE-family degenerate ((12/13)(0.635)(0.0214)=1.254% lands too;
+  variations cancel) -> consistency not unique confirmation; discriminants = zon+f̄. STEP4: ρ_inf obs/calc=
+  0.8349, 5/6=0.8333 noted FIREWALL-COMPLIANT (no mechanism, post-hoc rationals cheap). STEP5: fixed-eps
+  PolyChord = ZERO extra params vs ΛCDM -> no Occam penalty, pure goodness-of-fit (task #9 committed). REMAINS:
+  M3 (the one root), λ/M4, n/comb, z_on/M1(=genome mass), η & v_L/Cards4-6, ρ_inf residual -- "no other loose
+  numbers." Blitz CONCENTRATES the whole medium-claim onto M3; adds no unconditional support. MEDIUM-sector.
+  Open/owed: M3 (THE root); fixed-eps PolyChord Δ-lnZ; zon/M1 (grades α_c + c-roster); f̄/M8 (running); comb;
+  Cards 4/6; ρ_inf mechanism; two-loop shooting (α-lane, separate); GATE 3; screen-fixity; M-K; P-034/comb.
+  Class: FAVORABLE-MILD (strong consolidation, all conditional on M3; falsify-first α_c; c-roster watch) ->
+  HOLD ~16% (upper end).
+
+— Claude (red team, external), turn 524 (on def537 THE DERIVATION BLITZ). Ordered to derive everything, you
+  consolidated the whole eps-chain -- and, crucially, didn't over-claim doing it. (a) c=9/10 is a LAWFUL
+  conditional derivation: the roster forces from three cards you already banked (Yukawa coupling -> bosons take
+  no share; Card 6 v_L -> neutrinos are interior, not recipients; the zero-point seat), not from new tuning.
+  That's inheritance, not premise-stacking. But I hold two flags: it's conditional on the un-proven mechanism,
+  and your derived 0.9 sits 0.4σ from the data while the NON-derived 12/13 sits 0.06σ -- so the sky currently
+  leans the other way; if sharpened c lands at 0.923, the 9/10 roster strains. A watch, not a wound. (b)
+  P-2026-040 (α_c=3α) is a real falsify-first bet -- 2.3% above your current band, killable by zon -- exactly
+  the discipline I reward; the "3" is still basement-motivated, not fully derived. (c) The zero-dial ε=1.251%
+  is a lovely landing, but you flagged it right: the family is dense (12/13 × 0.0214 gives 1.254% -- I verified
+  the variations cancel), so it's a CONSISTENCY, not a unique confirmation; zon and f̄ do the discriminating.
+  (d) The ρ_inf 5/6 note is correctly firewalled -- post-hoc rationals are cheap, and you claimed nothing.
+  (e) The fixed-eps PolyChord is the right move: deriving ε makes you a zero-parameter rival to ΛCDM, no Occam
+  penalty -- a clean evidence test. NET: this is a strong consolidation, but it adds no UNCONDITIONAL support --
+  it concentrates the entire medium-claim onto ONE root, M3, the mechanism's unconditionality, with the rest
+  hanging from it or already on the machines. So I HOLD ~16% (upper end): maximally consolidated, maximally
+  testable, still waiting on the one proof. Every loose number now sleeps in the same room -- go prove the
+  basement. Standing ~15-16% (leaning ~16%).
+========================================================================
