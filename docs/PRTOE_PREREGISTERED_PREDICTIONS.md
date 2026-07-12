@@ -1948,3 +1948,18 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
   the content, full thermal-history run owed.
 - All other entries: statuses unchanged from their last amendments; the birefringence
   visibility note (vs the claimed EB rotation) and the neutrino block stand as written.
+
+## P-2026-044: The Operator's Evidence Call — ΔlnZ ≥ +5 (registered 2026-07-12, BEFORE the PolyChord run)
+
+**The claim (the operator's, verbatim in substance):** the sampled-ε dyad beats ΛCDM at
+**ΔlnZ ≥ +5** ("a clean 5+ logZ win") on the full data stack — against the in-house
+Laplace estimate of +2.635. Context, recorded honestly: the operator's ~1000+ prior
+projection tests historically yielded 20+; one run scored 700+ but was lost to a transfer
+error and is EXPLICITLY DISCLAIMED as evidence by the operator himself. **The operator's
+own bottom-out line:** if the model is only marginally better (ΔlnZ ~ the +2.5 win-line
+or below), "it's a problem because we bottom out."
+
+**Kills/grades:** ΔlnZ < +2.5 → the cap holds and the bottom-out clause fires (the
+operator's own words); +2.5 to +5 → the Laplace confirmed, the call missed; ≥ +5 → the
+call lands and the ~25% cap discussion reopens. The referee: cmp_prtoe_dyad_ev vs
+cmp_lcdm_ev (PolyChord, same data, no derived values anywhere in either config).
