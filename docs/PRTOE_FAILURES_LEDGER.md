@@ -62,3 +62,11 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 *Rule going forward: every new kill, reversal, or self-caught error gets its row HERE, and
 the main-read docs carry only their current-truth status plus a pointer. The garden stays
 gold; the graveyard stays complete; neither pretends to be the other.*
+
+## 5. Late additions (the derivation-hunt night, 2026-07-12)
+
+| what died | the killshot | provenance |
+|---|---|---|
+| LITERAL He-3 as the medium | four shots: baryonic (Ω_b×5 short), EM-visible (vs L1a), no pairing at cosmic density/temperature (mK physics), post-BBN existence | tenth sweep; the STRUCTURAL He-3-A reading survives separately |
+| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | the birth zone is strong-coupling — perturbative RGEs cannot reach the induced point; redesign owed (perturbative-edge matching) | eighth sweep; def531's structural point materialized |
+| P-028's void-column internal rescue (return-flux topology) | flux conservation: the return flux through voids = the flux-average = the smooth estimate — the ×3400 line-concentration cannot raise the inter-line floor; the 1.5-order gap does NOT close internally | task #5 closure, 2026-07-12 |
