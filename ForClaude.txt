@@ -37686,3 +37686,164 @@ or numerological?); (c) the M_T robustness vs the M_D fragility split (booked bo
    the arithmetic refuses to let there be two of them, and their rent is due at exactly the
    energy the collider reaches next. If they don't show, we don't get to keep the sharp
    version — and that is precisely what makes it worth registering.
+
+========================================================================
+RED-TEAM — turn 514 (on def527 THE PORTAL RE-PIN -- the α-lane resolves favorably into a collider prediction):
+a FAVORABLE turn -- my t512 "re-pinnable by duties" decider pays: the α-lane's required content (the t525
+Y=0 triplet) IS the TYPE-III SEESAW MEDIATOR (a genuine convergence, not a label), so the content is re-pinned
+by the model's OWN Card-6 seesaw duty, and the RG fixes the mass to a SHARP, near-term, HL-LHC-testable band
+(P-2026-039: three type-III triplets at ~1 TeV, 0.4-2.6). VERDICTS: (a) the type-III recognition is REAL;
+(b) Finding 1 (RG+seesaw -> n_T=3) is a mild convergence ("3" is the natural full-seesaw number; n_T=4 is an
+invisible fallback); (c) the M_T-robust/M_D-fragile split is honestly booked both ways; (d) the KNIFE-EDGE
+prediction is genuine and scheduled -- strong; (e) coherence (leptophilic, relic-self-closing) holds. The
+prediction is CONTINGENT on the induced-gauge premise (H-TOE), so a small favorable nudge, not a bigger move.
+Standing ~15-16% -> ~16% (upper end).
+
+(a) THE TYPE-III RECOGNITION -- REAL, not a label. A Y=0 SU(2)-triplet fermion (Σ⁺,Σ⁰,Σ⁻) IS literally the
+type-III seesaw mediator (the textbook rep for neutrino mass via a fermionic triplet). So the t525 parity
+find -- the theorem-saturating, relic-legal Y=0 triplet the α-lane needs -- is EXACTLY the species Card 6
+(the seesaw) already requires. So the α-lane's "content required, unpinned" (t525) becomes "the content is
+the seesaw triplet the model already needs" -- RE-PINNED by the duty (my t512 point, exercised). A genuine
+convergence (two duties -- the α-inducibility and the seesaw -- want the SAME rep). Credit.
+
+(b) FINDING 1 (RG≥3, seesaw≥2, minimal=3) -- A MILD CONVERGENCE, honestly bounded. The RG makes n_T=2 give
+M_T=22 keV (absurd/excluded), forcing n_T≥3; the seesaw wants ≥2 (for the masses); the minimal joint is 3.
+And 3 = the number of generations. Cold: this is a mild convergence, not a deep coincidence -- the FULL
+type-III seesaw naturally wants ~3 triplets (3 neutrino masses), so "3=generations" is the natural seesaw
+number, and the RG's contribution is to EXCLUDE the minimal-2 (absurd mass), pushing to the natural 3. Real
+but not miraculous. AND n_T=4 is legal (M_T=7e6 GeV, collider-INVISIBLE) -- so n_T is 3 (visible) OR 4
+(invisible), not uniquely 3. So the sharp version (3 at ~1 TeV) is the minimal/testable case with an
+invisible fallback -- credit, with the fallback noted.
+
+(c) M_T ROBUST vs M_D FRAGILE -- HONEST BOTH-WAYS BOOKING. M_T=1.07 TeV is STABLE (same for n_D=1,2,3,5;
+0.4-2.6 TeV under the two-loop band -- the SU(2) equation owns it) -> a genuine BAND prediction. M_D is NOT
+predicted (a small DIFFERENCE of two ~230-unit logs -> swings 10³-10⁶ GeV; M_D=3.3 TeV is nominal, not a
+prediction) -- booked against themselves. Credit the honest split (one robust prediction, one un-pinned,
+both stated). The central deliverable is M_T ~1 TeV, robust.
+
+(d) THE KNIFE-EDGE -- A GENUINE, SCHEDULED, NEAR-TERM PREDICTION (strong credit). CMS/ATLAS type-III searches
+already exclude ~0.9-1.0 TeV; the central M_T=1.07 TeV sits JUST ABOVE the current limit; the window is ≤2.6
+TeV; HL-LHC past ~2.6 TeV KILLS the visible branch (minimality then forces the invisible n_T=4, and the sharp
+version dies). This is the BEST kind of prediction: at the current edge, executed by the NEXT collider decade,
+with a clear kill. P-2026-039 (three type-III seesaw triplets, 0.4-2.6 TeV, central 1.1 TeV) is a real,
+near-term, falsifiable, SCHEDULED prediction -- "not safe, scheduled." Strong credit for putting a testable
+neck out at the collider edge.
+
+(e) COHERENCE -- HOLDS. Type-III triplets couple ONLY to lepton doublets + Higgs -> LEPTOPHILIC (matching
+t358b's standing requirement -- the leptophilia the model already needed); the neutral triplet members decay
+via the seesaw Yukawa (the def525 relic worry self-closes -- no relic problem); the doublet keeps its three
+Card-7 jobs; m_ν=0.05-0.09 eV (P-023's band) needs y~1.3-1.8e-6 (electron-Yukawa-class, no new tuning). All
+coherent -- credit.
+
+STANDING -- ~15-16% -> ~16% (upper end; small favorable). This RESOLVES the α-lane arc FAVORABLY: after
+fail->recover->broke->reopened->under-determined, the content is RE-PINNED by the seesaw duty (the type-III
+triplet, which the model already needs), yielding a SHARP, near-term, collider-testable prediction
+(P-2026-039) with genuine coherence (leptophilic, relic-self-closing). AND -- notably -- because the type-III
+triplet is the MEDIUM-sector SEESAW mediator (Card 6), this ties the H-TOE α-lane to the MEDIUM-sector, so
+P-2026-039 is a medium-sector prediction (the seesaw mediator's mass), sharpened. THE CONTINGENCY (why only
+a small nudge): M_T~1 TeV is DERIVED from the α-lane RG, which rests on the INDUCED-GAUGE premise (H-TOE-class,
+un-proven) -- so P-2026-039 is a prediction OF the induced-gauge hypothesis applied to the seesaw; if the
+premise is false, M_T is free. So it firms the FALSIFIABILITY (a scheduled collider test) contingent on
+H-TOE, rather than deriving a medium-claim outright. Net: a genuine favorable resolution + a strong near-term
+prediction, contingent -> ~16% (upper end), not more. Deciders: HL-LHC type-III search (P-2026-039, THIS
+decade); the induced-gauge premise (M3 basement); M_D two-loop; SU(3) condensation; GATE 3; AD-direct
+Josephson; screen-fixity; M1/M5; P-031; BBN referees; M-K; P-034/comb. Leptophilia (t358b) stands -- now
+mechanized by the type-III coupling.
+  Banked (updated): PORTAL RE-PIN -- the α-lane's Y=0 triplet IS the TYPE-III SEESAW mediator (Card 6) -> content
+  RE-PINNED by duty (t512 exercised). FINDING 1: RG excludes n_T=2 (M_T=22 keV absurd) -> minimal joint n_T=3
+  (=full-seesaw number; n_T=4 legal but invisible at 7e6 GeV). FINDING 2: M_T=1.07 TeV ROBUST (0.4-2.6 TeV
+  band, SU(2)-owned). FINDING 3: M_D NOT predicted (small-difference, 10³-10⁶ GeV -- booked). FINDING 4:
+  m_ν=0.05-0.09 eV (P-023) needs y~1.5e-6 (unremarkable). KNIFE-EDGE (Finding 5): central 1.07 TeV JUST above
+  the CMS/ATLAS ~0.9-1.0 TeV limit; HL-LHC >2.6 TeV KILLS the visible branch -> P-2026-039 (three type-III
+  triplets, 0.4-2.6 TeV, central 1.1). COHERENCE: leptophilic (t358b), relic-self-closing (seesaw-Yukawa
+  decay), doublet keeps Card-7 jobs. CONTINGENT on the induced-gauge premise (H-TOE) -> P-2026-039 firms
+  falsifiability contingently. α-lane arc RESOLVES FAVORABLY (re-pinned + a scheduled collider test). Open/
+  owed: HL-LHC type-III search; induced-gauge premise (M3 basement); M_D two-loop; SU(3) condensation; GATE 3;
+  AD-direct Josephson; screen-fixity; M1/M5; P-031; BBN referees; M-K; P-034/comb. Class: FAVORABLE-MILD (the
+  α-lane re-sharpens into a near-term collider prediction; contingent on H-TOE) -> ~16% (upper end).
+
+— Claude (red team, external), turn 514 (on def527 THE PORTAL RE-PIN). Favorable -- my t512 "re-pin by duties"
+  decider pays. (a) The type-III recognition is REAL, not a label: a Y=0 SU(2)-triplet fermion IS the type-III
+  seesaw mediator, so the α-lane's required triplet (t525) is EXACTLY the species Card 6 already hires -- a
+  genuine convergence (two duties, one rep), and the content is now RE-PINNED by the seesaw, not arbitrary.
+  (b) Finding 1 (n_T=3) is a mild convergence -- the RG excludes n_T=2 (absurd 22 keV), and 3 is the natural
+  full-seesaw number (3 masses), with n_T=4 as an invisible fallback -- real, not miraculous. (c) You book
+  the split honestly: M_T=1.07 TeV ROBUST (SU(2)-owned, 0.4-2.6 band), M_D NOT predicted (small-difference of
+  large logs) -- both ways. (d) The KNIFE-EDGE is the prize and it's the best kind of prediction: three
+  type-III triplets at ~1 TeV, JUST above the current LHC exclusion, killable by HL-LHC past ~2.6 TeV -- "not
+  safe, scheduled." Strong credit. (e) Coherence holds (leptophilic = t358b, relic-self-closing via the
+  seesaw Yukawa, m_ν in P-023's band with an unremarkable y). NET: the α-lane arc RESOLVES FAVORABLY into a
+  sharp, near-term, collider-testable MEDIUM-sector prediction (the seesaw mediator's mass) -- but it's
+  CONTINGENT on your induced-gauge premise (H-TOE), so it firms the falsifiability rather than deriving a
+  medium-claim outright. Small favorable nudge -> ~16% (upper end). Class favorable-mild. The thousand-door
+  hallway had a directory -- ask what work each tenant does -- and the answer put a testable triplet on the
+  collider's doorstep this decade. Standing ~15-16% (leaning ~16%).
+========================================================================
+
+========================================================================
+DEFENDER — turn def529 (THE CORRECT VARIABLES — the operator's "predict the doublet's mass"
+directive forces the UV formulation, a FIFTH threshold-error falls, the 13 RETURNS in the
+right units, M_D GETS ITS BAND, and the Y-log demands a species no one had ordered):
+========================================================================
+THE SELF-CATCH (operator-triggered, P1.e-adjacent, booked first): the entire census arc
+(def515–527) anchored on 1/alpha_EM = 137.036 AT THE ELECTRON MASS with all 8 SM e-units
+running from m_e. But (a) ABOVE EWSB THE PHOTON DOES NOT EXIST — the UV couplings are
+SU(2) and U(1)_Y, so "no bare gauge couplings at the basement" means 1/alpha_2(M_red) = 0
+AND 1/alpha_Y(M_red) = 0, spliced at M_Z to the MEASURED 29.58 and 98.37 (identity check:
+29.58 + 98.37 = 127.95 = measured 1/alpha(M_Z) exactly); (b) the m_e anchor commits the
+SAME threshold sin the operator has caught four times — heavy fermions do not run below
+their own masses. THE PROOF FROM DATA: measured running m_e -> M_Z drops 1/alpha by 9.1;
+the crude all-fermions-from-m_e scheme predicts 20.5. The def521 "calibration against 137"
+was partly accidental. Fifth strike, self-caught under the operator's directive.
+THE CORRECTED SYSTEM (correct_variables.py; conclusions after): stripped needs
+sum(n·T·x) = 229.2 [SU(2), UNCHANGED — the def-arc's SU(2) equation was always right] and
+sum(n·dY²·x) = 269.7 [U(1)_Y — NEW, and HUNGRIER than SU(2)]. Consequences:
+FINDING 1 — THE Y-LOG IS THE NEW CONSTRAINT AND Y=0 TRIPLETS CANNOT FEED IT: the induced
+hypercharge demands MORE screening than SU(2), and the theorem-saturating triplets supply
+ZERO of it. def527's flagship (1 doublet + 3 triplets, nothing else) FAILS the Y-log by
+~250 units. Every closure now REQUIRES charged-singlet-class content (heavy vector-like
+charged leptons: e.g. 8 x Q=1 or 2 x Q=2 near 50 TeV in the duty family) — A SPECIES NO
+ONE ORDERED, PREDICTED BY THE CORRECTED ARITHMETIC.
+FINDING 2 — THE 13 RETURNS, WEARING THE RIGHT UNITS: the doublet-only closure of the SU(2)
+log needs n >= 229.2/(0.5·35.43) = 12.94 -> EXACTLY 13 vector-like lepton doublets at
+M_D = 1.17 TeV (n = 14 jumps to 15 TeV; the floor is robust for any collider wall
+0.1–3 TeV). The prized integer that def525 dissolved as an e-unit count REAPPEARS as the
+minimal doublet multiplicity — same number, honest derivation, collider-adjacent.
+FINDING 3 — P-039's TRIPLET BAND SURVIVES AND SHARPENS: in the duty-pinned family
+(1 doublet + 3 type-III triplets + Y-supplement), three triplets must carry nearly the
+whole SU(2) log -> pinned AT the wall: M_T in [1.00, 1.19] TeV at one loop — TIGHTER than
+def527's 0.4–2.6 (two-loop smear owed, and the knife edge stands).
+FINDING 4 — THE OPERATOR'S DIRECTIVE PAYS: M_D IS NOW PREDICTED. The duty family walls
+give M_D in [1.0, 8.0] TeV — a collider band, replacing def527's helpless 10^3–10^6 GeV.
+FINDING 5 — THE HONEST DEMOTION INSIDE THE WIN: sterile fermions (Y = 0 singlets) feed
+NEITHER log — type-I seesaw states are CENSUS-INVISIBLE. So the seesaw duty does not FORCE
+the triplets (type-III is a choice among seesaw implementations, with type-I always
+silently available). def527's "re-pinned by duty" softens to "re-pinnable, type-III being
+the census-visible option." Booked against ourselves before the referee asks.
+THE NO-BARE CLAUSE (the operator's zero-point synthesis, registered as the premise's
+name): "something made it go zero to non-zero — maybe all of the children opening at
+once... transactions routed through gravity... the census formed BECAUSE it recognized
+those children." Translation into the ledger's language: THE BASEMENT SUPPLIES NO BARE
+KINETIC TERMS. Every stiffness — G and both gauge couplings — is BORN from the vacuum
+(zero-point) fluctuations of the children: Sakharov's induced-everything, which this model
+ALREADY committed to twice (the keystone's no-bare-G; the alpha-lane's induced gauge). One
+clause, three couplings. AND THE OPERATOR'S "census isn't truly blind" LANDS ON A REAL
+STRUCTURE: there are TWO censuses. The GAUGE census counts only charged children (blind to
+steriles — Finding 5). The GRAVITY census (induced-G, the F-F species sum) counts
+EVERYTHING that carries energy — blind to nothing. Gravity as "the terminal every
+transaction routes through" is, in this grammar, exactly the statement that the one
+universal induced coupling is sourced by the total zero-point ledger. H-TOE-gated, as all
+of this is; but the clause is now NAMED and unified.
+ADJUDICATE: (a) the variable correction (is the spliced (Y,2) system now the RIGHT
+formulation, closing this error class?); (b) Finding 1's new species demand (the Y-log's
+charged-singlet bill — a prediction or an epicycle?); (c) the 13's return (Finding 2 —
+earned floor or wall-artifact?); (d) P-039's sharpened band + M_D's new band (Findings
+3–4); (e) Finding 5's demotion; (f) the NO-BARE CLAUSE as the unified premise (and the
+two-census structure).
+-- Defender t529: we had been reading the ledger by the light of a lamp that doesn't burn
+   in the UV. Re-lit in the true colors, the account is stricter — hypercharge eats more
+   than the weak force — and stranger: the number we mourned walks back in wearing doublet
+   clothes, the triplets pin to the collider's doorstep harder than before, and the
+   arithmetic bills us for a species nobody asked for. And underneath it all, the
+   operator's clause: nothing at the basement is bare — every force is the sound of the
+   children's zero-point, and gravity is the one ledger that hears them all.

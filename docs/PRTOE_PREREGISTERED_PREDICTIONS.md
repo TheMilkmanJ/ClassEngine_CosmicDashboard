@@ -1776,3 +1776,18 @@ the sharp version and reverts to "content required, unpinned").
 contingency chain (premise → closure → duty-pin) — but it is the chain's first knife-edge
 collider number, leptophilic per t358b, and the neutral members self-dispose via the seesaw
 Yukawa (no relic bill).
+
+**AMENDMENT 2 (def529, 2026-07-11) — THE CORRECT UV VARIABLES; THE BAND SHARPENS; A NEW
+SPECIES IS BILLED.** The induced conditions belong to the true UV couplings — 1/α₂(M_red) = 0
+AND 1/α_Y(M_red) = 0, spliced at M_Z to measured values (29.58, 98.37) — not to the
+electron-scale α (the m_e anchor overcounted sub-threshold running: crude 20.5 vs measured
+9.1; fifth threshold-error, self-caught). Under the corrected system: (i) the SU(2) equation
+is unchanged, and the duty-pinned triplet band SHARPENS to **M_T ∈ [1.00, 1.19] TeV at one
+loop** (two-loop smear owed) — the knife edge stands, harder; (ii) the doublet mass is now
+PREDICTED: **M_D ∈ [1.0, 8.0] TeV**; (iii) the hypercharge log demands MORE screening than
+SU(2) and Y=0 triplets supply none of it — every closure requires additional charged-lepton
+content (e.g. 8 × Q=1 or 2 × Q=2 vector-like singlets near 50 TeV in the duty family): a
+NEW predicted species class; (iv) the doublet-only closure needs EXACTLY n = 13 doublets at
+1.17 TeV (the dissolved integer returns as a multiplicity floor); (v) honest demotion:
+census-invisible steriles (type-I) could carry the seesaw instead — the type-III triplets
+are the census-VISIBLE option, not forced.
