@@ -67,6 +67,22 @@ Quartets require attractive pair-pair coupling; the model's banked real sound sp
 phases, not composites (the §2 sketch conflated the two — failures ledger). The
 operator's pair call is now DERIVED, not just registered. The chain confirms the mark.
 
+**The operator's plain-language completion (registered post-derivation):** "It's running
+forward and mirroring backwards. It doesn't need 2 more to do that." — the NECESSITY half
+of the argument: the pairing's job is time-reversal completion (one member with the
+arrow, one mirrored against it — the ghost's grammar), and that job is FULL at two. The
+stability proof says quartets cannot bind; the operator's line says they would have
+nothing to do. Impossibility and pointlessness, one verdict.
+
+**Bets graded (2026-07-12):** the TWINS bet — WON (derived, sweep 33). The exact-number
+bet — LOST honestly (operator's in-head 7.72 vs the collapsed mark 7.547; the 7.70/7.72
+zone was the defender's constructional double-count, so the operator's number-bet was
+placed against a mislabeled board — noted, still graded as lost per the house rules).
+THE LIVE STAKES NOW: the chain (drifting 7.66→7.77) must DESCEND to ~7.55 for α_c = 3α
+to confirm — which makes the operator's crest-and-descend trajectory call LOAD-BEARING
+for P-040 itself: if his descent materializes and lands at 7.55, the trajectory call and
+3α confirm in the same breath.
+
 ## 4b. STATUS (current truth): the lineup marks are SUPERSEDED
 Strike 7 (two components, two clocks — the zero-mode's H = m AND the winding mode's
 k/a = m coexist, sharing one m; their ratio measures n) RETIRES the §1 table as grading
