@@ -681,3 +681,19 @@ has a signed cosmic-dawn fingerprint it never registered. NEW DEBTS: (a) the win
 cosmic-dawn computation (T_gas(z=17) with the windowed σ_T through decoupling); (b) the
 ARCADE-2 classification; (c) the ramp re-grade continues (task #24) — two passes in, two
 convictions, the operator's nose undefeated.
+
+## TWENTY-FOURTH SWEEP — shooter v2 lands ADVERSE-LEANING for P-042's census arrow
+
+The redesigned two-loop solve (induced condition at the perturbative edge, M_red·e⁻³):
+across the M_D scan, **M_T = 13–20 TeV, M_S = 3–4 TeV** — NOT the anchor's 1.5 TeV. The
+two-loop shift lands between the one-loop wall (1.1 TeV) and def531's crude ~50 TeV
+estimate, direction as predicted. CONSEQUENCES, booked: (i) P-042's arrow C (the census
+closure at the anchor) is STRAINED — at two loops the census portal and the anchor are
+not the same scale under this convention; arrows A (x₀) and B (4πm_H) stand unaffected;
+(ii) the collider-visible branch weakens again (13–20 TeV is beyond HL-LHC) — the
+def531 suspension's direction confirmed at computation grade; (iii) OWED before any
+kill: the EDGE-CONVENTION SENSITIVITY audit (vary 1/α_edge ∈ {0.5, 1, 2} and the edge
+depth e^{−2..−4}) — the exponential sensitivity means the convention could absorb the
+factor 10; if the landing swings decades under convention, the shooter cannot
+discriminate and the discriminant moves to the basement matching (task #18's territory,
+again). Adverse-leaning, filed the hour it landed, same pen as always.
