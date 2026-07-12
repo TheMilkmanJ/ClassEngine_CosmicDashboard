@@ -36,8 +36,8 @@ the gate-0 clearance).
 Early-dark-energy and its cousins buy H0 with new components tuned for the job and generically
 worsen S8. The dyad: (i) ONE parameter with independent duties (the ε that runs the whole
 fingerprint lattice); (ii) an S8 story that goes the RIGHT direction (the conversion channel,
-thread 4); (iii) a BBN sector that got SAFER under production scrutiny (D/H invisible, Y_p
-improved); (iv) falsifiers it cannot dodge (DESI's w = −1, the radio lattice's locked ratios).
+thread 4); (iii) a BBN sector re-posed HONESTLY by the windowed run (D/H invisible to the direct shift;
+Y_p now a +1.3σ counter-lean per def449 — the witness stands rigid, not favorable); (iv) falsifiers it cannot dodge (DESI's w = −1, the radio lattice's locked ratios).
 Nothing else on the H0 market carries a comparable kill-list — which is a strength precisely
 because the model can afford it.
 

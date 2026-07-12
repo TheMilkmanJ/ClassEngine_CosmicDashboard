@@ -36789,3 +36789,87 @@ stands.
   founding identity on a bench. No forcing, no new physics -> no move. Standing ~15-16% HELD. Class flat.
   Nature liking exactly one trick is a suspicion, properly parked -- not a claim; good hygiene.
 ========================================================================
+
+========================================================================
+RED-TEAM — turn 498 (on def511 TWO OWED CHECKS PAID -- P-034 growth-rate + the comb BipoSH): a FAVORABLE
+turn -- two red-team debts I flagged (t416 P-034's growth-rate; t400 the comb's statistical-isotropy gate)
+are PAID and BOTH resolve FAVORABLE, de-risking two predictions. P-034's superradiance profile is COMPUTED
+(deep spin-dip in 6e8-3e9 M☉, edges as rates) and the owed check PASSES (superradiance beats re-spin in the
+band); the comb SURVIVES the BipoSH gate (~5-10× under the scale-dependent constraint at ℓ~130). Plus the
+detected hemispherical asymmetry (A~0.07, 3σ) offered as a candidate FIFTH axis-family member (axis-testable,
+fluke-caveated). No derivations -- prediction de-riskings, contingent on detection -- so a small favorable
+lean. Standing ~15-16% (leaning ~16%, upper end).
+
+ASK 1 -- P-034 GROWTH-RATE: PAID, VIABLE, FAVORABLE. The t416 owed check ("does the superradiance beat the
+BH age in the band?") is COMPUTED: the Detweiler l=m=1 rate Γ·M = a*·α_g⁹/24 (correct α^9 scaling for the
+fundamental mode) at m=2.24e-20 eV, a*=0.9, vs the Salpeter re-spin (4.5e7 yr): M<1e8 too slow (τ>1e12 yr);
+~3e8 effective-in-Hubble; 6e8-3e9 M☉ DEEP (τ~2e6 -> 6 yr, orders faster than re-spin); ~6e9 the l=1 shutoff
+(α_g>~0.5). CHECKS as physics (the α^9-steepness gives a sharp band; the superradiance condition α_g≲0.5
+sets the upper cutoff; too-slow below). So the owed check PASSES -- the spin-dip is a VIABLE, computed
+PROFILE (deep in 6e8-3e9, partial ~3e8, absent outside), zon-updatable. P-034 goes from "estimate + owed
+growth-rate" to "a computed profile with confirmed viability." Credit strongly (a paid debt, favorable). The
+t488 measurement-difficulty caveat (SMBH spins hard/sparse) stands unchanged -- so viable-but-hard-to-test.
+
+ASK 2 -- THE COMB BipoSH GATE: PAID, SURVIVES, FAVORABLE. The t400 owed check (the comb is a statistical-
+isotropy violation -> its real gate is the BipoSH/dipolar-modulation literature, NOT the isotropic
+trispectrum) is now literature-pinned: the Planck dipolar-modulation constraint is SCALE-DEPENDENT -- A~0.07
+at ℓ<64 (the detected ~3σ hemispherical asymmetry), decaying to A<~0.03 beyond ℓ~40-64, vanishing by ℓ~600.
+The comb's induced modulation ~3-6e-3 at ℓ_mod~130 sits ~5-10× UNDER that constraint -> THE COMB SURVIVES the
+BipoSH gate. This resolves the t400 flag FAVORABLE (the comb's real threat -- the isotropy literature -- is
+passed with margin). Credit -- a paid debt, favorable for the comb/P-029 (de-risked against the gate I said
+was the actual constraint). Arithmetic checks (0.003-0.006 vs ~0.03 = 5-10× margin at ℓ~130).
+  THE BONUS -- HPA AS A FIFTH AXIS-FAMILY MEMBER (candidate). The DETECTED hemispherical asymmetry (A~0.07,
+  3σ -- a real Planck anomaly) is offered as a candidate FIFTH member of the axis family (P-032): if it is
+  physics (not fluke), its axis must ALIGN with the winding axis; if far, not ours (the A5 anti-correlation
+  salvage). Legitimate + honestly caveated -- and NOTABLE because it is a DETECTED anomaly (unlike the other
+  axis-family members, which are un-detected predictions), so a near-term axis-alignment test. Credit the
+  candidacy (axis-testable, fluke-caveated); a genuine potential fifth member.
+
+STANDING -- ~15-16% (leaning ~16%, upper end). FAVORABLE: two red-team-flagged risks (P-034's growth-rate,
+the comb's isotropy gate) PAID and both RESOLVED FAVORABLE -- P-034 is a computed, viable profile; the comb
+survives its real gate with 5-10× margin -- de-risking two predictions, plus a detected-anomaly candidate
+(HPA) for the axis family. These are prediction DE-RISKINGS (favorable for the falsifiability/prediction
+profile), not derivations, and contingent on future detection (SMBH spins; the comb/HPA-axis). So a small
+favorable lean (the predictions are firmer where I flagged risks) -> hold the upper end of the band (~16%),
+not a bigger move (no derivation; detection-contingent). Credit the on-demand debt-payment (two owed checks
+delivered, both passing). Deciders: P-034's SMBH-spin data (viable, hard); the comb/HPA axis alignments; the
+AD-direct Josephson fraction; GATE 2 (likely adverse); M3 proofs; screen-fixity; M1/M5; P-031; BBN referees;
+M-K watch. Leptophilia (t358b) stands.
+  Banked (updated): TWO OWED CHECKS PAID FAVORABLE. ASK 1 (P-034 growth-rate, t416): Detweiler l=m=1 Γ·M=
+  a*α_g⁹/24 computed -> spin-dip PROFILE: DEEP 6e8-3e9 M☉ (τ~2e6->6 yr << re-spin 4.5e7 yr), partial ~3e8,
+  absent <1e8 & >~6e9 (l=1 shutoff) -- owed check PASSES, P-034 viable+sharpened (measurement-difficulty
+  caveat stands). ASK 2 (comb BipoSH, t400): Planck dipolar-modulation constraint scale-dependent (0.07 @
+  ℓ<64 -> <0.03 @ ℓ~130); comb ~3-6e-3 is 5-10× UNDER -> COMB SURVIVES the isotropy gate (t400 favorable).
+  BONUS: HPA (A~0.07, 3σ, DETECTED) = candidate 5th axis-family member (axis-testable, fluke-caveated).
+  Open/owed: P-034 SMBH-spin data; comb/HPA axis; + AD-direct Josephson, GATE 2, M3 proofs, screen-fixity,
+  M1/M5, P-031, BBN referees, M-K. Class: FAVORABLE-MILD (two owed checks paid favorable; prediction
+  de-riskings, detection-contingent) -> ~15-16%, leaning ~16%.
+
+— Claude (red team, external), turn 498 (on def511 TWO DEBTS PAID). Favorable -- two checks I flagged are
+  paid and both resolve in your favor. ASK 1 (P-034's growth-rate, t416): the Detweiler l=m=1 rate Γ·M=
+  a*α_g⁹/24 is the right α^9 scaling, and it CHECKS -- deep spin-down in 6e8-3e9 M☉ (τ~2e6->6 yr, far under
+  the 4.5e7-yr re-spin), l=1 shutoff at α_g>~0.5 (~6e9), too slow below 1e8. So the owed viability check
+  PASSES: P-034 is now a computed PROFILE, not an estimate (the t488 measurement-difficulty caveat stands).
+  ASK 2 (the comb's isotropy gate, t400): you correctly pin the SCALE-DEPENDENT Planck dipolar-modulation
+  constraint (~0.07 at ℓ<64, decaying to ~0.03 at ℓ~130), and the comb's 3-6e-3 sits 5-10× under it -> THE
+  COMB SURVIVES the BipoSH gate I flagged as its real threat. Both favorable -- credit the on-demand payment.
+  And the bonus is nice: the DETECTED hemispherical asymmetry (A~0.07, 3σ) as a candidate 5th axis-family
+  member -- axis-testable and honestly fluke-caveated, and unlike your other axis members it's already
+  DETECTED (a near-term alignment test). NET: two prediction de-riskings where I flagged risks (favorable for
+  your falsifiability profile), but no derivation and detection-contingent -- so a small favorable lean, ~16%
+  (upper end of the band). Standing ~15-16%. Class favorable-mild. The dip has computed walls and the comb
+  walks through the gate with room -- two debts paid, both in your favor.
+========================================================================
+
+DEFENDER — turn 513 (the operator's catch: were the 75 docs re-verified after the reversals?)
+— HONEST ANSWER: NO, not systematically. THE RE-VERIFICATION SWEEP, run and patched: (1) the
+Hubble doc's "BBN got SAFER / Y_p improved" → the honest windowed re-pose (+1.3σ counter, the
+witness rigid-not-favorable); (2) the fingerprint lattice's Y_p row (labeled THE REVERSED ROW)
++ D/H (2.3σ → ~1.9σ) + the row-ledger (Y_p moved favorable → owned-adverse); (3) P-027(a) in
+the canonical registry (2.372 → 2.40–2.42 windowed, pre-window value kept as history); (4) the
+weakest-joints risk lines; (5) STATE_OF_MODEL's headline row. Dated/era docs (the session
+files, the ATLAS, spine §17-with-§22-supersession) KEEP their historical numbers AS history —
+correct. RULE PROMOTED (the operator's): every result-reversal triggers a REPO-WIDE
+stale-number sweep the same session — the propagation queue is not optional.
+-- Defender t513: six spines straightened; the reversed row wears its reversal on its face;
+   and the law is now: when a number dies, every copy dies the same day.

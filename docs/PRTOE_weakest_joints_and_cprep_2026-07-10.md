@@ -107,10 +107,10 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
   large. J1 is no longer RED — it is a candidate-derivation with a 20% honest O(1).
 - **J2 (gate-0) — PRODUCTION-ABSOLUTE:** clean PRyM: ∂ln(D/H)/∂ln m_e ≈ 0. The D/H pharmacy
   died with it; Y_p is the true medicine (+0.65σ); the dyad owns a D/H-widening discriminator
-  (2.372 vs Cooke 2.527, 2.31σ) with the radio D-line (P-027) as arbiter.
+  (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per def449; was 2.372/2.31σ pre-window) with the radio D-line (P-027) as arbiter.
 - **J4 gains the sharpest instrument:** the two-line ratio-lock (ν_H/ν_D = 4.338649 preserved,
   both lines +2.50% at z>50).
-- **NEW STANDING RISK:** the D/H fork (the model bets 2.372 against the quasar 2.527).
+- **NEW STANDING RISK:** the D/H fork (windowed bet: 2.40–2.42 vs the quasar 2.527, ~1.9σ) AND the Y_p reversal (+1.3σ counter, def449 — the medicine was an artifact).
 - **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved draw→winding-average
   (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
 - **C-code gate RESET (operator):** >85% deleted; PolyChord is the gate (standing capped ~25%
