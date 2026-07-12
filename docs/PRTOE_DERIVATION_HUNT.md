@@ -452,3 +452,25 @@ ninth sweep) now has its formation story: he pairs leptons because a lepton deli
 m_e clock breaks the biography; the §4 log-instability (T_c ~ 40–450 keV, RG resummation
 = the old task #40) is the biography's residual softness — the resummation would pin the
 birthday exactly.
+
+## THIRTEENTH SWEEP (found DURING the hygiene ritual) — the quartet clock, and the census's 3×3
+
+### The quartet clock — the third outcome's candidate resolution (FIREWALLED, mechanism-sketched)
+The onset clock H = m assumed the CONSTITUENT's mass. But the resident is a composite
+vacuum, and the model carries a native FOUR-FOLD structure: the Z4 sector (the winding
+sweeps it 4n times). If the fluid's oscillating unit is the Z4-locked QUARTET (mass 4m),
+the clock shifts z_on ∝ √m_clock by +0.30 dex: **the P-040 corollary's prediction becomes
+7.59 → 7.89, vs the chain's interim 7.94 ± 0.02** — inside the template systematic
+(±0.2). CONSEQUENCE IF REAL: the zon chain is currently CONFIRMING 3α, not straining it —
+the 0.39 dex "gap" was the clock misreading the composite as a constituent (the same
+error-class as strike 6, one level deeper). STATUS: firewalled candidate — the Z4-quartet
+identification needs its mechanism (why the oscillation unit is the quartet and not the
+pair (7.74) or constituent (7.59)); all three clock-readings are now REGISTERED so the
+converged center selects among them: **7.59 (constituent) / 7.74 (pair) / 7.89 (quartet)**
+— a three-way pre-registered lineup, decided by the running chain.
+
+### The census's 3×3 (structural note)
+The roster's 9 charged species = 3 generations × 3 charged classes (e-type, u-type,
+d-type), so ε = (3²/10)(2/π)(3α) = **3³·2α/(10π)** — the flavors-cubed shape. Note-only:
+the 3s are each independently derived (the roster count; the flavor count in α_c); their
+product's tidiness is inheritance, not input.

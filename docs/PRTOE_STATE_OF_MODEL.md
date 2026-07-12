@@ -1,5 +1,11 @@
 # State of the Model — Checkpoint (2026-07-07 evening)
 
+> **STALENESS NOTE (2026-07-12):** this checkpoint predates the threading program, the
+> census arc, and the derivation-hunt night. For current state: [PRTOE_INDEX.md](PRTOE_INDEX.md)
+> (the map), [PRTOE_THREE_EQUATIONS.md](PRTOE_THREE_EQUATIONS.md) (the core),
+> [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) (the open work, EXPLORATORY).
+> Kept as the honest historical baseline it is.
+
 *Honest status assessment, requested by the operator ("how close to understanding
 are we? what questions need answers?"). No inflation; evidence class stated first.*
 

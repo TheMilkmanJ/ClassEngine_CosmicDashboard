@@ -1,5 +1,10 @@
 # PRTOE/dCDF — Pre-Registered Predictions
 
+> **THE LIVE BETS (2026-07-12):** P-2026-040 (α_c = 3α — zon, running), P-2026-041
+> (f̄ = 2/π — the ensemble, running), P-2026-042 (the TeV anchor). Registry order is
+> chronological; amendments append to their entries; every kill condition is stated at
+> registration, never after.
+
 Predictions are recorded BEFORE the deciding data exists or is examined.
 Each entry is frozen at commit time; the git history is the timestamp
 authority. Amendments only by NEW entries — never edits.
