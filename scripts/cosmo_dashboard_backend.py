@@ -2080,6 +2080,12 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
                 if k in best_fit_params and k not in c_params:
                     c_params[k] = best_fit_params[k]
             c_params.setdefault('use_dcdf', 'yes')
+            # the shooting target is REQUIRED by use_dcdf; derive a rough one if absent
+            if 'Omega0_dcdf' not in c_params:
+                ob = float(c_params.get('omega_b', 0.0224)); h = float(c_params.get('H0', 69.9))/100.0
+                c_params['Omega0_dcdf'] = best_fit_params.get('Omega0_dcdf', 1.0 - ob/h**2)
+            if 'YHe' not in c_params and 'YHe' in best_fit_params:
+                c_params['YHe'] = best_fit_params['YHe']
     else:
         c_params['use_prtoe'] = 'no'
         for k in list(c_params.keys()):
