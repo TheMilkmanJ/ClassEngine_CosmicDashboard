@@ -170,3 +170,22 @@ couplings; (3) the pour's parity mark is real but lives in the vorticity/magneti
 channel: P-028's genome-signed magnetic helicity — birefringence's cousin in the channel
 the neutral medium actually owns. The anti-birefringence bet (the unownable 0.34°) stands
 unchanged, white hole included.
+
+**The ramp audit of the three walls (2026-07-12, operator-forced) — and T10's identity:**
+the operator ramp-checked the birefringence answer and one wall moved. Wall 2 (anomaly
+coefficient exactly zero) is a LEGAL step — the exemption clause (quantized/anomaly
+numbers may step; topology doesn't ramp). Wall 1 was step-PHRASED: the pour cannot rotate
+light en route, but it writes light's BIRTH CERTIFICATE — parity-odd initial conditions
+(the genome-signed helicity, P-028; chiral gravitational waves, debt T10) generate EB/TB
+correlations at last scattering with NO EM coupling, no violation of the neutrality null,
+and no birefringence. The channels are distinguishable (en-route rotation is coherent
+across scales with birefringence-specific EB/TB shapes; primordial parity-odd sources
+carry their own spectra), so the anti-birefringence bet stands unchanged while T10 gains
+its physical identity: **the white hole's fingerprint in light** — the one
+no-counterparty instant stamps parity-odd structure on everything it pours, and
+parity-even physics downstream preserves what it cannot erase. Fence: the operator's
+"gravity reverses and attaches to light" mechanic grades [EXPLORATORY] — the banked snap
+is a neutral HANDOVER, not a rule inversion, and census blindness holds at genesis; the
+mechanic's observable content (the at-birth parity stamp) is the real and already-owed
+channel. The amplitude computation is the owed step (T10) — no signal size is claimed
+until it runs.
