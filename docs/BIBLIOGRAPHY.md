@@ -61,6 +61,8 @@ that is a bug — file it.*
 - **[Volovik2003]** G. E. Volovik, *The Universe in a Helium Droplet*, Oxford (2003). — The deepest prior art for medium-cosmology; the model's closest intellectual neighbor.
 - **[vonKlitzing1980]** K. von Klitzing, G. Dorda, M. Pepper, PRL 45, 494 (1980). — Topological quantization on a bench (the lab-cousin row).
 
+- **[ArkaniHamed2004]** N. Arkani-Hamed, H.-C. Cheng, M. Luty, S. Mukohyama, "Ghost condensation and a consistent infrared modification of gravity," JHEP 05 (2004) 074, arXiv:hep-th/0312099. — The ghost-condensate frame the arrow-giver adopts (theta-dot background = the permanent mu); its bounded NEC-flexibility is the exotic-spacetime shelf's priced sector.
+
 ## 5. Emergent gravity, entropy, and the keystone
 
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.
@@ -115,6 +117,15 @@ that is a bug — file it.*
 - **[BransDicke1961]** C. Brans, R. H. Dicke, Phys. Rev. 124, 925 (1961). — The e^{ξφ}-class ancestor.
 - **[Horndeski1974]** G. W. Horndeski, Int. J. Theor. Phys. 10, 363 (1974). — The general scalar-tensor frame.
 - **[LangloisNoui2016]** D. Langlois, K. Noui, "Degenerate higher derivative theories beyond Horndeski," JCAP 02 (2016) 034, arXiv:1510.06930. — The DHOST conditions the legacy spec invoked.
+
+## 11. Exotic spacetime (the impossibility shelf — PRTOE_exotic_spacetime.md)
+
+- **[MorrisThorne1988]** M. Morris, K. Thorne, "Wormholes in spacetime and their use for interstellar travel," Am. J. Phys. 56, 395 (1988). — The traversable-wormhole exotic-matter requirement (NEC violation) the solvency reading re-derives.
+- **[FordRoman1995]** L. H. Ford, T. A. Roman, "Averaged energy conditions and quantum inequalities," Phys. Rev. D 51, 4277 (1995), arXiv:gr-qc/9410043. — The quantum bounds squeezing sustained negative energy; the record's version of "no eternal overdraft."
+- **[Eardley1974]** D. M. Eardley, "Death of white holes in the early universe," PRL 33, 442 (1974). — The classical white-hole instability; the record's statistical/instability kill the arrow argument upgrades structurally.
+- **[Hawking1992]** S. W. Hawking, "Chronology protection conjecture," Phys. Rev. D 46, 603 (1992). — The record's CTC ban; the ledger form is "no entry can be its own funding source."
+- **[Alcubierre1994]** M. Alcubierre, "The warp drive: hyper-fast travel within general relativity," Class. Quantum Grav. 11, L73 (1994), arXiv:gr-qc/0009013. — The warp bubble paying the same NEC bill.
+- **[RovelliHaggard2014]** H. Haggard, C. Rovelli, "Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling," Phys. Rev. D 92, 104020 (2015), arXiv:1407.0989. / **[RovelliVidotto2018]** C. Rovelli, F. Vidotto, "Small black/white hole stability and dark matter," Universe 4, 127 (2018), arXiv:1805.03872. — The black-to-white transition program the operator's mirror instinct independently reproduced; its confirmed LOCAL remnant signature is this shelf's named killer.
 
 ---
 
