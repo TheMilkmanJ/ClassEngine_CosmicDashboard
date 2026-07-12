@@ -86,7 +86,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 |---|---|
 | "the residual IS the dressing, 0.4%" (hunt sweep 6) | occupancy closure without the identity — CC file §2(d) |
 | "the triangle pins x₀ at 0.1%" (hunt sweep 7) | x₀ = free dial, closure selects it — CC file §2(c), hierarchy §2(a) |
-| the flux-measure "theorem dissolution" of f̄ (hunt sweep 5) | P-041 = un-mechanized value, ensemble decides — THREE_EQUATIONS Eq. 3 |
+| the flux-measure "theorem dissolution" of f̄ (hunt sweep 5; killed in-sim sweep 18; the retrial estimator itself corrected sweep 19) | P-041 = un-mechanized value, ensemble decides — THREE_EQUATIONS Eq. 3 |
 | the clock lineup 7.55/7.70/7.85 (hunt sweep 13, quartet file §1) | marks retired; two-clock re-derivation owed ramps-first — quartet file §4b |
 | "transfer favorable-leaning" (hunt sweep 28) | reservoir survives; delivered η owed the sphaleron-weighted integral — task #2 |
 | shooter v2's 13–20 TeV read as P-042 support | it is a STRAIN on arrow C — hierarchy §2(a) |

@@ -1759,6 +1759,12 @@ survives: the minimal solutions sit at 1–3 TeV.
 
 ## P-2026-039: Three Type-III Seesaw Triplets at ~1 TeV (registered def527, 2026-07-11)
 
+**CURRENT STATUS (2026-07-12): SUSPENDED-ADVERSE — read the amendments in order.** The
+one-loop band was suspended (two-loop shift, def531); shooter v2 lands the census triplets
+at 13–20 TeV (beyond HL-LHC); the edge-convention audit (task #18) decides whether the
+census arrow fell or the convention did. The type-III identification and the seesaw duty
+survive; the ~1 TeV collider knife-edge does not, at current grade.
+
 **The claim:** the induced-gauge closure (def525's joint solve), duty-pinned by the model's
 own hiring needs (Card 6's seesaw + Card 7's portal), predicts **exactly three wino-like
 Y=0 fermion triplets** — the type-III seesaw mediators — at **M_T = 1.07 TeV central, band

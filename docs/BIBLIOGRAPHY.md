@@ -53,6 +53,7 @@ that is a bug — file it.*
 - **[Onsager1949]** L. Onsager, Nuovo Cimento 6 (Suppl. 2), 279 (1949). / **[Feynman1955]** R. P. Feynman, Prog. Low Temp. Phys. 1, 17 (1955). — Quantized circulation; the winding sector's protection.
 - **[BCS1957]** J. Bardeen, L. N. Cooper, J. R. Schrieffer, Phys. Rev. 108, 1175 (1957). — The pairing grammar (the 3b "family business" lane).
 - **[Josephson1962]** B. D. Josephson, Phys. Lett. 1, 251 (1962). — The junction template for the Card-4 AD-direct transfer.
+- **[Haken1975]** H. Haken, "Cooperative phenomena in systems far from thermal equilibrium and in nonphysical systems," Rev. Mod. Phys. 47, 67 (1975). — The laser threshold as a nonequilibrium phase transition (the laser file's GL mapping).
 - **[GinzburgLandau1950]** V. L. Ginzburg, L. D. Landau, Zh. Eksp. Teor. Fiz. 20, 1064 (1950). — Mean-field order parameters; the λ-ceiling's β = 1/2 lock.
 - **[Kibble1976]** T. W. B. Kibble, "Topology of cosmic domains and strings," J. Phys. A 9, 1387 (1976). / **[Zurek1985]** W. H. Zurek, "Cosmological experiments in superfluid helium?," Nature 317, 505 (1985). — Defect formation at the transition; the first-draw statistics.
 - **[Unruh1981]** W. G. Unruh, "Experimental black-hole evaporation?," PRL 46, 1351 (1981). — Acoustic horizons; the analog frame.

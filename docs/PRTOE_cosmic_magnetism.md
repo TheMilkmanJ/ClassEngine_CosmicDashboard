@@ -60,7 +60,7 @@ allowed to make fields directly; it is allowed to stir.
 The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
 vortex-network rms boost, ×3400) was caught by red-team (t402): it concentrates B on the
 **filaments/lines**, while the void floor constrains the **inter-line** field — which stays
-**~1.5 orders short** on the smooth estimate. The gap STANDS (task #5, reopened). Live
+**~1.5 orders short** on the smooth estimate. [Historical framing — see the RESOLVED verdict below: the internal rescues died; the blazar debate is the arbiter.] Live
 candidates, none yet computed: (i) return-flux topology (field lines must close — the void
 threading is not zero, its floor is computable); (ii) post-recombination vorticity persistence;
 (iii) the blazar bound's own caveats (plasma-instability alternative would relax the floor).

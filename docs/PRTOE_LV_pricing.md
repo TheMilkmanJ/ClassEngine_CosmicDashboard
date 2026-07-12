@@ -13,7 +13,7 @@ holds no account with the medium except (a) THE METRIC — universal, one-metric
 Lorentz-preserving by construction; and (b) THE DYAD CHANNEL — a SCALAR coupling
 (m_f(1+εf(T/T_c))ψ̄ψ), and scalars carry no frame index: a time-dependent mass is not a
 b_μ. No vector/tensor bridge between the frame and any non-gravitational sector EXISTS in
-the constitution — the dangerous operators are not suppressed, they are UNWRITABLE.
+the constitution — the dangerous operators are not suppressed, they are UNWRITABLE — within this model's constitution (the statement is conditional on the no-bridge structure itself, which the shield section states; violate the constitution and the operators return).
 **The census axiom and the Lorentz shield are one clause — its third job.**
 
 ## 1. The table (sector → the model's coefficient → the bound → margin)

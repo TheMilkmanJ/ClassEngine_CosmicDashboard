@@ -6,7 +6,11 @@
 > ton-scale 0νββ (nEXO, LEGEND-1000, CUPID) and next-generation cosmology.
 
 ## 0. The claims, stacked
-1. **Neutrinos are Majorana** → 0νββ MUST occur (P-2026-020). Non-optional.
+
+1. **Neutrinos are Majorana** → the 0νββ PROCESS must exist (P-2026-020). Non-optional as
+   mechanism; the OBSERVABLE rate carries the §3 cancellation-floor caveat (m_ββ can sit
+   near 0.04 meV at unlucky phases — Dirac-nature evidence kills, but a null at any given
+   sensitivity does not).
 2. **The lightest mass is dark energy's quarter-power**: $m_1 = \rho_\Lambda^{1/4} = 2.25$ meV
    (the Majoron/L-breaking shared scale — PRTOE_MATH_SPINE.md §6; "Majoron" = the Goldstone boson of spontaneously broken lepton number, whose scale the model ties to the dark-energy density) — the smallest known mass and the largest
    known structure share one number.
@@ -17,6 +21,7 @@
    quantities co-determined; refereed by an in-house CMB parameter chain ("zon"), currently running.
 
 ## 1. Why this block is the model's sharpest neck
+
 Every claim is measurable THIS DECADE, and none is adjustable: (i) ton-scale 0νββ
 experiments reach the normal-ordering floor's neighborhood — a confirmed Dirac nature
 (0νββ nulls at full sensitivity + other Majorana channels closed) kills claim 1;
@@ -27,11 +32,13 @@ sits ABOVE this block's 0.061 — the running chains' own posterior arbitrates b
 model's two neutrino numbers.
 
 ## 2. The mechanism's honest debts
+
 The spurion identification (task #43: ε dimensionless vs μ dimensionful — the dimensional
 bridge un-built); the Majoron's post-hoc flag (un-lifted until a NEW falsifiable
 consequence, #41); the ρ_inf closure's zon-dependence.
 
 ## 3. For the double-beta community, specifically
+
 The model's effective mass, computed from m₁ = 2.25 meV + normal ordering + NuFIT-class
 mixings (sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.022): the three mass contributions are
 |U²m| = (1.52, 2.67, 1.10) meV, giving
@@ -56,10 +63,12 @@ itself) — this model's Σ = 61.4 meV sits just inside, and the frontier is act
 squeezing. This sector may be graded within one to two years by exactly that number.
 
 ## Sources
-[SNO2002]/[SuperK1998] (oscillations), [Planck2018] (Σm_ν context), internal: §6, the
+
+[SNO2002]/[SuperK1998] (oscillations), [Planck2018] (Σm_ν context), internal: PRTOE_MATH_SPINE.md §6, the
 CC file, P-2026-012/020/023, the sixth/seventh sweeps. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## 4. Addendum — the vertex's double duty [estimate-grade]
+
 The transfer integral's first run requires a junction coupling y ≈ 0.7–3×10⁻⁵; the
 seesaw vertex that makes m_ν is y ≈ 1.3–1.8×10⁻⁶ — same class, factor 4–20 apart, inside
 the crude rate-form's O(1)s. If the careful session closes that factor, **the neutrino

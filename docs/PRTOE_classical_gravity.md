@@ -46,4 +46,5 @@ model explains why the tower never wobbled: **everyone in it was always swimming
 medium, reading the same account, blind to everything but size.**
 
 ## Sources
+
 [Will2014] (the PPN ledger), [Vainshtein1972] + [HNS2009] (the EP gate's margin), [Jacobson1995] (the GR route), [Banik2024]/[Chae2023] (the wide-binary dispute P-036 bets on). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

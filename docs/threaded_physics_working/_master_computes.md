@@ -13,7 +13,7 @@ it is (like the threads) a small-rooted tree. Booked def453.*
 | M5 | **THE CHAINS** (routeD/conv_desi convergence) | RUNNING | conv_g (T3+T4 jointly), the thaw posterior, the def325 pre-registrations — ~4 |
 | M6 | **THE ε(EPOCH) PROPAGATION** | done to current depth (windowed re-stamp + the template-offset derivation) | the lattice rows, P-027(a), lithium's row, spine §17 — ~4 |
 | M7 | **THE CAVITY/AXIS COMPUTATION** (C_ℓ on the winding torus) | un-run | T5's spectrum + matched circles + the BipoSH policing of the whole axis family (P-024/P-029/T12) — ~4 |
-| M8 | **ω_genome/θ_i + v_L** | f̄ = 2/π THEOREM (flux measure); v_L closed into the ρ_inf/Majoron chain (pending spurion #43); ensemble verifying in-sim | Koide's 2/3, f̄ refinements; T3's corner scope, P-025 — ~4 |
+| M8 | **ω_genome/θ_i + v_L** | f̄ = 2/π now an UN-MECHANIZED value claim (the flux-measure mechanism died in-sim, sweep 18; ensemble decides); v_L closed into the ρ_inf/Majoron chain (pending spurion #43) | Koide's 2/3, f̄ refinements; T3's corner scope, P-025 — ~4 |
 
 Residual standalone: bench designs (T7), TRGB/PolyChord (external clocks), instrument forecasts.
 

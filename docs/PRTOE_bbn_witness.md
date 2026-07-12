@@ -4,6 +4,7 @@
 sits INSIDE the BBN window. The three abundances are three frames of the condensation.*
 
 ## The equations
+
 - the ramp: ε(T) = ε·(1 − T/T_c), T_c = 193 keV (the μ=T fixed point, banked)
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
   (~70 keV): ε_eff = 0.64ε; Li (~40 keV): 0.79ε
@@ -13,6 +14,7 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
   2.527±0.030 → a ~1.6–1.9σ OWNED bet (P-027's radio arbiter decides)
 
 ## How PRTOE connects
+
 The sector is RIGID — every number derived or measured (T_c, ε = c·f̄·α_c, ω_b, the stamps):
 the model cannot coach its witness. Referees: the radio arbiter (P-027), the helium
 resolution, the T_c re-audit (flagged-not-taken — a rescue-by-retuning is forbidden), the zon
@@ -20,6 +22,7 @@ posterior. History: wall → pharmacy → artifact → WITNESS (def253→325→4
 re-posing by better physics, booked adverse when adverse.
 
 ## Sources
+
 [Cooke2018] (D/H), [Aver2021] + [EMPRESS2022] (the helium war's two poles), [PRIMAT2018] (rates), [PRyMordial2023] (the windowed engine), [DamourDyson1996] (the Oklo fence). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## The lithium row — CLOSED AS A NULL (task #19, 2026-07-12)

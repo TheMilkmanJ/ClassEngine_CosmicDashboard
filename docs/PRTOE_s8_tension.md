@@ -16,8 +16,10 @@ late growth → lowers S8 — while the background expansion barely moves (the w
 checked and cleared at ~1%, t223).
 
 ## 2. Where it lands (production numbers)
-The minimizer picks g = 0.12 → **S8 = 0.821** vs KiDS 0.814 — the model crosses INTO the
-lensing band while HOLDING its H0 = 69.9 fit: the rare right-sign pair. (ΛCDM sits at
+The minimizer picks g = 0.12 → **S8 = 0.821**, moving from the CMB value (≈0.83) TOWARD
+the lensing band (KiDS/DES ≈ 0.76–0.81) while HOLDING the H0 = 69.9 fit — the rare
+right-sign pair. (0.821 approaches the band's upper edge; "into" awaits the matched
+lensing-likelihood fit this file already lists as owed.) (ΛCDM sits at
 S8 ≈ 0.83 with H0 = 68.2 — wrong on both.) The conv_desi chain (running) delivers the
 posterior; the firewalled derivation candidate g = 10ε = 54α/π (the machines' table)
 awaits its mechanism.

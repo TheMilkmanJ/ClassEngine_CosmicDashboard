@@ -1,4 +1,9 @@
-# THE PRTOE DOCUMENT INDEX — domains, files, relations (living; def499)
+# THE PRTOE DOCUMENT INDEX
+
+*STATUS LABELS used across this shelf: PRODUCTION (fit-grade, chain-backed) · BANKED
+(red-team-graded, in the ledger) · EXPLORATORY (review-hold work, un-refereed) ·
+FUDGED (operator-sanctioned estimate grade) · SCHEDULED (referee named and funded) ·
+interpretation-grade (ontology only, zero modified numbers).* — domains, files, relations (living; def499)
 
 *The master map: every covered domain/subdomain → its standalone → its relation class
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:

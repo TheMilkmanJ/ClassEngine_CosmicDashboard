@@ -31,8 +31,9 @@ $$\eta = n \times \mathcal{T}$$
   must resolve or the route fails.
 
 ## 4. What confirmation looks like
-The transmission integral computed → η/n matched → the comb's n read off the CMB →
-three independent numbers (η, n_comb, 𝒯) closing one triangle. Kill: any leg failing.
+The transmission integral computed → η/n matched → the comb's n read off the CMB —
+two measurements (η, n_comb) and one computation (𝒯) closing one consistency triangle
+(the legs are NOT mutually independent; the triangle is one constraint). Kill: any leg failing.
 
 ## Sources
 [AffleckDine1985], [FukugitaYanagida1986] (the killed baseline), [Josephson1962],

@@ -59,8 +59,9 @@ electroweak hierarchy). Smallness is not tuned; it is inherited twice.
 
 ## 3. The consequences already in force
 
-- $\rho_\Lambda^{1/4} = m_{\nu,\rm lightest}$ (the Majoron tie, §6) → **Σm_ν = 61.4 meV,
-  normal ordering, 0νββ required** — the neutrino block is this file's downstream.
+- $\rho_\Lambda^{1/4} = m_{\nu,\rm lightest}$ (the Majoron tie, PRTOE_MATH_SPINE.md §6) → **Σm_ν = 61.4 meV,
+  normal ordering, the MAJORANA MECHANISM required** (0νββ exists as a process; its
+  observable rate carries the cancellation-floor caveat — see the neutrino sector file).
 - w = −1 exactly (the floor is a ground state, not a rolling field) — DESI's target.
 - The floor cannot thaw (routeD's pre-derived answer: thaw = 0).
 
@@ -72,12 +73,14 @@ w ≠ −1; (iii) routeD's posterior excludes thaw = 0; (iv) Σm_ν measured wel
 k ≈ 1.3 unravels the hierarchy leg.
 
 ## Sources
+
 [Planck2018] (the measured ρ_Λ), [Volovik2003] (vacuum-as-condensate precedent),
 [Sakharov1967] (induced-everything), the internal chain: §18, the sixth/seventh sweeps
 (PRTOE_DERIVATION_HUNT.md). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 
 ## 5. Addendum (2026-07-12) — THE PINCH [argument-grade, un-refereed]
+
 Why occupancy-one exactly: **≥1 by solvency** (the vacuum is the bound state — every
 binding mode holds its quantum or there is no condensate) and **≤1 by coherence** (one
 independent mode per coherence cell by definition; a second quantum is an excitation,

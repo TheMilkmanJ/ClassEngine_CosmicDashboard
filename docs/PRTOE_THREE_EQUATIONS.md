@@ -39,7 +39,9 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 193\
 - Implemented in CLASS, run against full Planck likelihoods; the Bayesian evidence currently
   favors it over ΛCDM at $\Delta\ln Z \approx +2.6$ (Laplace; marginal, SH0ES-conditional,
   PolyChord-capped — the standing ~25% cap).
-- The same $\varepsilon$ is then owed everywhere at fixed weights: BBN's windowed pattern,
+- The same $\varepsilon$ — ONE amplitude passed through window-specific activation (OFF at
+  BBN freeze-out, ON below $T_c$; the ε-epoch table in the fingerprint file governs) — is
+  then owed everywhere at its epoch weights: BBN's windowed pattern,
   the radio-band ratios, the de-biased $\Sigma m_\nu$, the Koide invariance, the underground
   nulls — the fingerprint lattice (thread 13). One lever, many windows, no exits.
 
@@ -67,9 +69,10 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
   measurement (the zon chain) converges — and 2.3% ABOVE where current data points, so it is
   falsifiable within weeks, not retrofit ever.
 
-Because $\varepsilon$ is derived, the model is a **zero-extra-parameter rival to ΛCDM**: the
-committed evidence run (fixed-$\varepsilon$ PolyChord, task #9) carries no Occam penalty —
-pure goodness-of-fit, no retreat.
+IF the decomposition's referees sign (its factors are currently: one conditional derivation,
+one open closed-form, one running bet), the model becomes a **zero-extra-parameter rival to
+ΛCDM** in the committed fixed-$\varepsilon$ evidence run — no Occam penalty, pure
+goodness-of-fit, no retreat. The claim is CONDITIONAL until then.
 
 ---
 
