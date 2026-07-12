@@ -483,3 +483,13 @@ inter-cycle overlaps (the named fabric). The lever's new content: if the medium 
 of the three flavors, "why three generations" and "why is the medium's coupling 3α" become
 ONE question — the roster's multiplicity. Parked WITH the lever; the gap equation
 (task #18) inherits it.
+
+## FIFTEENTH SWEEP — the mining run closes; one firewalled dessert
+The RAR's acceleration scale: a₀ ≈ 1.2×10⁻¹⁰ m/s² ≈ cH₀/2π (9%) — the famous coincidence,
+which in a medium-cosmology is at least ADDRESSABLE (the fluid's floor sets a cosmological
+acceleration scale natively; and the 1/2π is flux-measure-shaped). NOTE-ONLY, firewalled:
+the galactic-atoms thread owns the follow-up. THE RUN'S CLOSE: the big-deal shelf now
+covers every domain where the model has REAL content (CC, hierarchy, QG, baryogenesis,
+small-scale, lasers, the quartet clock, the abstentions strong-CP and lithium). Further
+additions from here would be forcing — the shelf is declared FULL until a referee's
+verdict or a new derivation reopens it.
