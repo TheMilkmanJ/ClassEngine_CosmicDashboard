@@ -68,3 +68,6 @@ one permanent bill (the Lorentz-violation ledger). What it already owns: a quant
 an emergent metric with working horizons, a matched vacuum-energy number, and singularity-free
 interiors. *The metric is not a stage the universe stands on; it is the sound of the medium —
 and the medium was quantum before there was anything to hear it.*
+
+## Sources
+[Sakharov1967] (induced gravity — the no-bare clause's ancestor), [Jacobson1995] (the thermodynamic route), [Bekenstein1973]/[Hawking1975] (the area law), [FFZ1997] (the species cancellation), [WeinbergWitten1980] (the no-go and its frame-based evasion). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

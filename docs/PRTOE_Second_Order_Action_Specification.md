@@ -1,3 +1,5 @@
+> **STATUS: RETIRED (2026-07).** This is the legacy scalar-tensor formulation (the pre-dyad era). The screening-mechanism family it belongs to was closed by internal review (v1–v5); the production model is the dyad + dCDF in CLASS (see PRTOE_THREE_EQUATIONS.md). Kept for the record. Ancestry: [BransDicke1961], [Horndeski1974], [LangloisNoui2016], [ColemanWeinberg1973] — see BIBLIOGRAPHY.md.
+
 # PRTOE Second-Order Action Specification
 
 ## Document Information

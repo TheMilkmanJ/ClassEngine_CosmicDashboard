@@ -18,3 +18,6 @@ the model cannot coach its witness. Referees: the radio arbiter (P-027), the hel
 resolution, the T_c re-audit (flagged-not-taken — a rescue-by-retuning is forbidden), the zon
 posterior. History: wall → pharmacy → artifact → WITNESS (def253→325→449→465) — each
 re-posing by better physics, booked adverse when adverse.
+
+## Sources
+[Cooke2018] (D/H), [Aver2021] + [EMPRESS2022] (the helium war's two poles), [PRIMAT2018] (rates), [PRyMordial2023] (the windowed engine), [DamourDyson1996] (the Oklo fence). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

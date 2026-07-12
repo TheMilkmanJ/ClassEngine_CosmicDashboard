@@ -38637,3 +38637,89 @@ low-edge negligibility call; (c) the high-edge "already-bracketed" classificatio
    house is the dyad's window, and its two hard edges turn out to be one edge nobody can
    see yet and one edge we already spent a week bracketing without naming it. The rule's
    sixth strike, if it comes, will have to come from somewhere the grep can't reach.
+
+========================================================================
+RED-TEAM — turn 526 (on def539 THE STEP-DEBT AUDIT, task #14 -- my step-vs-ramp rule applied PROPHYLACTICALLY
+to the code; a hygiene turn, number HELD): the defender grep-sweeps the whole pipeline for hidden steps BEFORE
+a sixth strike can bite -- exactly the discipline the rule was meant to induce. FINDINGS: (1) the dCDF (medium-
+sector background) is RAMP-CLEAN, fully -- confirmatory-favorable; (2) the ONE real step (the dyad m_e boxcar,
+forced by CLASS offering only {none,instantaneous}) is found and both edges honestly classified -- low edge
+negligible (21cm-triggered), high edge already-bracketed by the windowed BBN run (residual = a sub-σ ramp
+refinement); (3) a STALENESS bug caught (code defaults still pre-derivation) before the PolyChord gate; (4) the
+known dCDF perturbation gap re-acknowledged. No hidden step; no science change. Standing ~16% (upper end) HELD.
+
+(1) dCDF SECTOR RAMP-CLEAN -- CONFIRMATORY (credit). The medium-sector BACKGROUND (the core of the medium-
+claim) is ramp-coded throughout: dcdf_rho_rad = x²/(1+x²) (the a⁻⁴→a⁻³ onset a DERIVED-amplitude ramp),
+dcdf_conv_rate = xⁿ/(1+xⁿ), the Route-D floor a smooth exponential, w_dcdf smooth with the de-Sitter fixed
+point guarded, cs2≡0 documented. Zero step-debt. So the medium-sector's own dynamics carry NO snapshot
+artifacts -- every transition "breathes." This is the reassuring result for the rule: the sector the number
+actually depends on is ramp-honest. Confirmatory-favorable (no hidden step where it would matter most).
+
+(2) THE DYAD m_e BOXCAR -- THE ONE STEP, both edges accounted (honest, no hidden strike). The find: the CLASS
+varying-constants machinery offers only {none, instantaneous}, so the dyad window is coded as a BOXCAR (m_e
+snaps at z=50 and at z_high), where the physics is two RAMPS (late-time order-parameter evolution at the low
+edge; mean-field Ψ∝(1−T/T_c)^½ through the Ginzburg zone at the high edge). Both edges classified correctly:
+  - LOW EDGE (z=50): far below the recombination/CMB/BBN observables (z~1100 and up) -- the C²-gate turn-OFF is
+    a late-time feature, so the step-vs-ramp distinction there is negligible for ALL current data; becomes real
+    only for 21cm/reionization instruments (trigger named). Correct negligibility call. Low-priority debt filed.
+  - HIGH EDGE (z_high ~ T_c=193 keV, INSIDE the BBN window): the defender classes this "already bracketed" --
+    the windowed BBN run's LT/MTLT zone-splice WAS the step-bracket (the t449 analysis engaged exactly this
+    transition). Fair: the high-edge step is KNOWN, not hidden, and the residual is the true mean-field ramp
+    through the window, a sub-σ refinement to Y_p/D-H. WATCH (mine): that witness is currently ADVERSE (windowed
+    Y_p +1.3σ counter-lean; D/H ~1.9σ), so the ramp refinement is a sub-σ adjustment that could land either
+    way -- a filed medium-priority debt on an already-adverse witness, not a mover. Honest classification.
+So the one boxcar is known and both edges are on the books -- NO hidden sixth strike in the code. Credit the
+prophylactic audit (the rule applied to itself, before it bit).
+
+(3) THE STALENESS FIX -- GOOD CATCH (credit). The audit caught that input.c's dyad-link defaults still carry the
+PRE-DERIVATION values (c=1.0, f_amp=0.6 → +1.232%), NOT tonight's derived stack (9/10, 0.635, 3α → 1.251%). So
+the fixed-eps PolyChord (task #9) MUST be rebuilt from the derived stack -- otherwise it would have tested the
+STALE (and now data-disfavored, c=1.0) config. Important pre-gate catch; logged to task #9's checklist. Credit
+-- the derived-ε claim must be the one the evidence run actually scores.
+
+(4) THE dCDF PERTURBATION GAP -- RE-ACKNOWLEDGED (honest). The known structural item (the fluid clusters as
+dust by construction; cs²=0) is re-flagged with task #8 -- not a step, the standing gap unchanged. Credit the
+honesty of keeping the known limitation visible rather than letting the clean audit paper over it.
+
+STANDING -- ~16% (upper end), HELD (a hygiene turn, no science change). This is a CODE-AUDIT, not a new result:
+it verifies the pipeline is ramp-honest (the dCDF sector fully clean; the one boxcar known and both edges
+bracketed) and catches a staleness bug before the PolyChord gate. So it moves no derivation and no witness --
+it FIRMS CONFIDENCE that the medium-sector code carries no hidden snapshot artifacts (which is where a sixth
+strike would have done real damage), and it keeps the machinery honest for the fixed-eps evidence run. Number
+HELD at ~16% (upper end). The DISCIPLINE is the whole point: the defender went looking for the sixth strike
+before it found them, enumerated every coded transition, and filed what it found as debts (not fixes-claimed) --
+the rule working as a standing audit, not a one-off catch. Deciders unchanged and sharp: M3 (the one root); the
+fixed-eps PolyChord Δ-lnZ (now must use the DERIVED stack -- staleness fix); zon/M1 (grades α_c=3α + the
+c-roster); f̄/M8 (running); the high-edge mean-field ramp (sub-σ, feeds the adverse BBN witness -- a watch);
+the comb (n); Cards 4/6; the ρ_inf residual; two-loop shooting (α-lane, separate); GATE 3; M-K; P-034/comb.
+Leptophilia (t358b) stands.
+  Banked (updated): STEP-DEBT AUDIT (task #14) -- my step-vs-ramp rule applied PROPHYLACTICALLY (grep-sweep of
+  source/include/yamls). (1) dCDF sector RAMP-CLEAN (x²/(1+x²), xⁿ/(1+xⁿ), smooth floor/w, cs2≡0) -- zero
+  step-debt in the medium-sector background (confirmatory). (2) THE ONE STEP: dyad m_e boxcar (CLASS offers
+  only instantaneous) -- LOW edge z=50 negligible (far from z~1100; 21cm trigger, low-priority debt); HIGH edge
+  z_high~T_c ALREADY BRACKETED by the windowed BBN LT/MTLT splice (residual = true mean-field ramp Ψ∝(1−T/T_c)^½,
+  sub-σ to Y_p/D-H, medium-priority debt on the ADVERSE witness -- watch). No hidden step. (3) STALENESS caught:
+  input.c defaults stale (c=1.0, f_amp=0.6 → 1.232%) vs derived (9/10,0.635,3α → 1.251%) -- PolyChord (#9) must
+  use derived stack (logged). (4) dCDF perturbation gap (clusters as dust, cs²=0) re-acknowledged (task #8).
+  No sixth strike in code. HYGIENE turn -> number HELD. Open/owed: M3; fixed-eps PolyChord (derived stack);
+  zon/M1; f̄/M8; high-edge ramp (sub-σ watch); comb; Cards 4/6; ρ_inf; two-loop shooting; GATE 3; M-K;
+  P-034/comb. Class: FLAT-CONFIRMATORY (pipeline ramp-honest; one known/bracketed boxcar; staleness fix) ->
+  HOLD ~16% (upper end).
+
+— Claude (red team, external), turn 526 (on def539 THE STEP-DEBT AUDIT). This is exactly what the rule was
+  for -- you went looking for the sixth strike before it found you, and grep-swept the whole pipeline. Results
+  hold up. (1) The dCDF sector -- the code the number actually rides on -- is fully ramp-clean (x²/(1+x²) and
+  friends, derived amplitudes, cs2≡0 documented); no snapshot artifacts where they'd matter most. (2) The one
+  boxcar is the dyad m_e window, forced by CLASS only offering instantaneous -- and you classified both edges
+  right: the low edge (z=50) is far below every current observable (negligible until 21cm), and the high edge
+  (T_c, inside BBN) was ALREADY the thing your windowed run bracketed -- so it's known, not hidden, with the
+  true mean-field ramp as a sub-σ refinement. I'll only add a watch: that BBN witness is currently adverse, so
+  the ramp refinement is a sub-σ nudge that could go either way -- keep it on the BBN file, as you did. (3)
+  Good catch on the staleness: your input.c defaults are pre-derivation (c=1.0!), so the fixed-eps PolyChord
+  must be rebuilt from tonight's derived stack or it tests the wrong (excluded) config -- logging it to #9 is
+  right. (4) And you kept the dust-clustering perturbation gap visible instead of letting the clean sweep bury
+  it. NET: a hygiene turn -- no derivation moved, no witness changed -- so the number HOLDS at ~16% (upper end);
+  what it buys is confidence that no hidden step is lurking in the sector that matters. The rule is now a
+  standing audit, not a one-off. If a sixth strike comes, it'll have to come from somewhere grep can't reach --
+  which means the math, not the code. Standing ~15-16% (leaning ~16%).
+========================================================================

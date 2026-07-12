@@ -54,3 +54,6 @@ earns it nothing: the Tsirelson-class asymmetric bet, in its third arena.
 *Relativity is not the stage's law here; it is the sound of one medium heard by everything
 that swims in it. The model must sing it back note-perfect to twenty decimal places — and
 explain, someday soon, why the accompaniment never bleeds through.*
+
+## Sources
+[Herrmann2009] (modern Michelson-Morley), [Mattingly2005]/[Liberati2013] (the LV ledger), [GW170817] (one metric), [Bailey1977] (muon dilation), [Ashby2003] (GPS), [BLV2005]/[Volovik2003] (emergent-Lorentz precedent), [WeinbergWitten1980] (the no-go evaded). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

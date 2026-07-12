@@ -1820,3 +1820,6 @@ roster chain then needs re-forcing).
 1.254% also lands); the combos separate only when f̄ reaches ~1% and zon converges. The 3α
 identification has NO derivation yet (basement-owed) — this registration is the pattern
 staking its life on the instrument, which is exactly what the registry is for.
+
+---
+*External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
