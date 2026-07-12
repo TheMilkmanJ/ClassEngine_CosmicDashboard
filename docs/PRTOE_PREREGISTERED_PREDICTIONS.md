@@ -1801,3 +1801,22 @@ M_D [1–8] TeV) are therefore ONE-LOOP ARTIFACTS. Honest current statement: the
 closes the corrected census with masses in the 1–100 TeV decade; the exact location is a
 CALCULABLE definite shift (not noise) owed to the full piecewise two-loop shooting run,
 with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recoverable.
+
+## P-2026-040: α_c = 3α — the Basement Rational (registered def537, 2026-07-11, BEFORE the zon verdict)
+
+**The claim:** the condensate coupling is α_c = 3α = 0.021892 exactly (α the fine-structure
+constant). Registered while the zon chain's center is still watch-only and the indirect band
+[0.0205, 0.0214] sits 2.3% BELOW the claim — this is a bet against a running instrument, not
+a fit. With c = 9/10 (the forced roster: 9 charged fermions + the zero-point's seat) and
+f̄ = 0.635 (ramp-computed), the zero-dial assembly gives ε = (9/10)·0.635·3α = 1.251% vs the
+dyad posterior's ~1.24%.
+
+**Kills:** (i) zon-converged α_c more than 2σ from 0.02189 (the chain is at 2.6% width and
+tightening — the verdict is weeks away at most); (ii) the f̄ ensemble (running) moving f̄ off
+0.635 by enough to break the ε assembly; (iii) any sharpening of c away from 9/10 (the
+roster chain then needs re-forcing).
+
+**Honest flags:** the (N−1)/N × f̄ × α_c family is DENSE near 1.24% ((12/13)·0.635·0.0214 =
+1.254% also lands); the combos separate only when f̄ reaches ~1% and zon converges. The 3α
+identification has NO derivation yet (basement-owed) — this registration is the pattern
+staking its life on the instrument, which is exactly what the registry is for.
