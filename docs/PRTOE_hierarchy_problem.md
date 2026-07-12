@@ -21,9 +21,12 @@ one-loop echo.**
 
 ## 2. The math
 
-**(a) The anchor.** Four independent structures converge on one scale (the "35" cloud):
-the hierarchy dial $x_0 = e^{-34.85}$ (pinned by the CC triangle), the census closure
-$x = 35.27$, the duty-family landing $35.26$–$35.43$, and:
+**(a) The anchor — current truth (post-audit, post-shooter-v2).** The arrows, graded:
+the hierarchy dial $x_0$ is CONSISTENCY-ONLY (a free dial of the GC dictionary that this
+closure selects — failures ledger §6); the census closure / duty-family landing is
+STRAINED (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
+the edge-convention audit decides whether that arrow fell or the convention did). THE
+ONE GENUINELY INDEPENDENT ARROW ($m_H$ is measured) STANDS:
 
 $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm anchor} \approx 4\pi\,m_H \approx 1.57\ \text{TeV}\ \ (2.5\%)$$
 

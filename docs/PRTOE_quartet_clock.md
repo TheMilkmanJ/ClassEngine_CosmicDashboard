@@ -61,6 +61,14 @@ The onset-clock identity (include/background.h, the coded T = 9.41 keV derivatio
 (PRTOE_DERIVATION_HUNT.md), P-2026-040's corollary chain. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
+## 4b. STATUS (current truth): the lineup marks are SUPERSEDED
+Strike 7 (two components, two clocks — the zero-mode's H = m AND the winding mode's
+k/a = m coexist, sharing one m; their ratio measures n) RETIRES the §1 table as grading
+marks; the ramps-first re-derivation is owed before any center is graded. The QUESTION
+stands (whose mass does the oscillating unit carry). Live watch: the dispersion chain's
+raw center is CLIMBING through the pair zone (7.66 → 7.77 across early segments,
+unconverged; log10_zon's own split-R−1 = 1.38 — no verdict until the drift dies).
+
 ## 5. The operator's call (registered 2026-07-12, BEFORE the dispersion chain's convergence)
 
 **The operator calls PAIR (7.70).** Reasoning, registered verbatim in structure: the

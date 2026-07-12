@@ -1,3 +1,9 @@
+> **READER'S RULE (the operator's separation law): this is the CHRONOLOGICAL LAB LOG —
+> later sweeps supersede earlier ones, and dead versions remain visible as history. THE
+> CORRECT VERSIONS live in the standalone files (CC, hierarchy, quartet clock, …); every
+> dead version is indexed in PRTOE_FAILURES_LEDGER.md §5–7. Superseded passages below
+> carry [SUPERSEDED] stamps.**
+>
 > **STATUS: EXPLORATORY / UN-REFEREED.** Everything below was booked during a
 > review-hold (2026-07-12) and has NOT yet been adversarially graded. Claims here are
 > argument-level candidates, hours old, awaiting both the internal red-team and the
@@ -250,7 +256,7 @@ in energy-and-orbit.*
 
 ## SIXTH SWEEP — shortening the five lines (two more dissolve under the grammar)
 
-### Line 3, the dressing bookkeeping — DISSOLVED into the occupancy reading ✓
+### Line 3, the dressing bookkeeping — [SUPERSEDED IN PART (audit A3): the identity flourish is dead; the occupancy reading stands — see CC file + failures §6] ✓
 Undo the dressing and read what remains: ρ_inf = E_b⁴ — **one binding quantum per
 coherence cell** (energy E_b in each volume 1/E_b³: occupancy ONE — the currency axiom
 again, pricing dark energy as a CENSUS, not a loop). The original calc's 16π² was the
@@ -278,7 +284,7 @@ observed in the sky.** The chain: no-bare → log running → amplitude ∝ α �
 4. **The bets in flight** (zon → 3α + z_on; the ensemble → 2/π in-sim; routeD → thaw = 0;
    conv_desi → the DESI verdict).
 
-## SEVENTH SWEEP — M₂ was derived all along; the closure pins the hierarchy; two lines merge
+## SEVENTH SWEEP — [SUPERSEDED IN PART (audit A2): x₀ is a free dial; 'pins' overstated — the closure SELECTS; consistency-only] M₂ derived-as-band; two lines merge
 
 M₂'s provenance found in the ledger's OLDEST certificates (the ghost-condensate
 dictionary): **M₂⁴ = X₀²P₂ = ρ_dust,0/(2x₀) — derived, with ONE dial** (the hierarchy
