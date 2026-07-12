@@ -1909,3 +1909,22 @@ from an identification to a derivation — the owed step.
 prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
 (Minami–Komatsu-class, ~0.34°, dust-systematics-debated). The model's explicit position:
 the signal is a systematic. LiteBIRD is the executioner if it is not.
+
+## P-2026-043: The Cosmic-Dawn Fingerprint — a Signed ~5% Deeper 21cm Trough (registered 2026-07-12)
+
+**The claim:** the dyad window (50 < z < z_high) shifts σ_T/m_e through thermal decoupling
+(z_dec ≈ 150, inside the window): Compton heating ∝ 1/m_e³ → −3ε → decoupling ~3.8%
+earlier → the cosmic-dawn gas ~3.8% colder → **the global 21cm absorption trough ~4.6%
+DEEPER than standard**, at the standard frequency (the z = 17 line is outside the window —
+no shift in position, only in depth). Found by the operator's ramp re-grade (sweep 23 —
+the "negligible until 21cm era" grade had expired in 2018).
+
+**Sign context:** the direction of the EDGES anomaly — but percent-class, NOT the claimed
+×2: the model CONTRIBUTES to a deeper trough and cannot explain EDGES alone. If EDGES is
+systematic (SARAS-3's position), the model's ~5% remains as the residual target.
+
+**Referees:** precision global-signal experiments (REACH, SARAS-class, the lunar
+radiometers) and SKA-era cosmic dawn. **Kills:** a measured trough ~5% SHALLOWER than
+standard (wrong sign); the window's low edge moving off z ≈ 50 enough to exit decoupling
+(breaks the mechanism); estimate-grade caveat: the full RECFAST-class thermal-history run
+is owed and may move the % by O(1) factors — the SIGN is the registered content.
