@@ -1858,7 +1858,7 @@ def check_and_update_history():
                 if rt:
                     # Key params for PRTOE/LCDM etc; rounded for "noticeable"
                     key_means = []
-                    for k in ['h0', 's8', 'omega_m', 'xi_prtoe', 'delta_prtoe', 'zeta_prtoe', 'beta_prtoe', 'omega_b']:
+                    for k in ['h0', 's8', 'omega_m', 'omega_b', 'varying_me', 'log10_zon', 'dcdf_rho_inf', 'dcdf_conv_g', 'dcdf_floor_thaw', 'xi_prtoe', 'delta_prtoe', 'zeta_prtoe', 'beta_prtoe']:
                         if k in rt and 'mean' in rt[k]:
                             key_means.append(round(float(rt[k]['mean']), 5))
                     if key_means:
@@ -1975,8 +1975,11 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         c_params['A_s'] = 2.1e-9
 
     use_prtoe_flag = False
+    # LEGACY (v1-v3 scalar-tensor era, RETIRED 2026-07 -- kept for old-yaml compatibility):
     prtoe_keys = ['xi_prtoe', 'prtoe_xi', 'delta_prtoe', 'prtoe_delta', 'beta_prtoe', 'prtoe_beta', 'log_beta_prtoe', 'zeta_prtoe', 'V0_prtoe', 'm_prtoe', 'lambda_prtoe']
-    prtoe_param_keys = frozenset(prtoe_keys + ['use_prtoe'])
+    # CURRENT (the dyad + dCDF era, dispersion template 2026-07-12):
+    dcdf_keys = ['dcdf_rho_inf', 'dcdf_z_rad_onset', 'log10_zon', 'dcdf_conv_g', 'dcdf_conv_at', 'dcdf_floor_thaw', 'varying_me', 'varying_z_high']
+    prtoe_param_keys = frozenset(prtoe_keys + dcdf_keys + ['use_prtoe', 'use_dcdf'])
 
     # Safety: if no real best_fit_params yet, force plain LCDM (never merge PRTOE yaml extras).
     warm_lcdm_default = not best_fit_params or len(best_fit_params) < 5
@@ -1987,7 +1990,7 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
                 up_cfg = yaml.safe_load(f) or {}
             theory_classy = up_cfg.get('theory', {}).get('classy', {})
             extra = theory_classy.get('extra_args', {})
-            if extra.get('use_prtoe') == 'yes':
+            if extra.get('use_prtoe') == 'yes' or extra.get('use_dcdf') == 'yes':
                 use_prtoe_flag = True
             for k, v in extra.items():
                 if k not in c_params and k not in CLASS_DIRECT_CALL_STRIP_KEYS:
@@ -1995,7 +1998,7 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         except Exception:
             pass
 
-    if any(k in best_fit_params for k in prtoe_keys):
+    if any(k in best_fit_params for k in prtoe_keys + dcdf_keys):
         use_prtoe_flag = True
 
     if warm_lcdm_default:
@@ -2012,7 +2015,7 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
                 up_cfg = yaml.safe_load(f)
             theory = up_cfg.get('theory', {}).get('classy', {}).get('extra_args', {})
             params = up_cfg.get('params', {})
-            if theory.get('use_prtoe') == 'yes' or any(k in params for k in prtoe_keys):
+            if theory.get('use_prtoe') == 'yes' or theory.get('use_dcdf') == 'yes' or any(k in params for k in prtoe_keys + dcdf_keys):
                 model_type = "prtoe"
             elif 'w0_fld' in params or 'wa_fld' in params:
                 model_type = "wcdm"
@@ -2023,46 +2026,60 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
 
     if use_prtoe_flag:
         model_type = "prtoe"
-        c_params['use_prtoe'] = 'yes'
-        xi = best_fit_params.get('xi_prtoe', best_fit_params.get('prtoe_xi', 1e-7))
-        # Sanity guard: CLASS hard-rejects xi outside the DHOST wedge [1e-7, 1.2e-5]
+        # Era split: dcdf-era yamls must NOT get legacy use_prtoe/xi injection.
+        is_dcdf_era = ('use_dcdf' in c_params) or any(k in c_params or k in best_fit_params for k in dcdf_keys)
+        if is_dcdf_era:
+            c_params.pop('use_prtoe', None)
+            xi = None
+        else:
+            c_params['use_prtoe'] = 'yes'
+            xi = best_fit_params.get('xi_prtoe', best_fit_params.get('prtoe_xi', 1e-7))
+        # Sanity guard (LEGACY era only; skipped when xi is None): CLASS hard-rejects xi outside the DHOST wedge [1e-7, 1.2e-5]
         # (xi <= 1e-8 allowed as null limit). A wildly out-of-range xi here almost
         # always means the chain-column → parameter-name mapping was scrambled
         # (e.g. mapped via alphabetized .updated.yaml); fall back to the wedge
         # floor instead of hammering CLASS with a guaranteed-fatal value.
-        try:
-            xi = float(xi)
-        except (TypeError, ValueError):
-            xi = 1e-7
-        if not (0.0 <= xi <= 1.2e-5):
-            log_dashboard_error(
-                f"[CURVES] Implausible xi_prtoe={xi:.3e} from best-fit mapping "
-                f"(outside [0, 1.2e-5]); using 1e-7. Check chain column mapping.",
-                console=True)
-            xi = 1e-7
-        delta = best_fit_params.get('delta_prtoe', best_fit_params.get('prtoe_delta', 0.2))
-        zeta = best_fit_params.get('zeta_prtoe', best_fit_params.get('prtoe_zeta', 0.1))
-        v0 = best_fit_params.get('V0_prtoe', best_fit_params.get('prtoe_v0', 0.68))
-        m = best_fit_params.get('m_prtoe', best_fit_params.get('prtoe_mass', 1e-20))
-        lam = best_fit_params.get('lambda_prtoe', best_fit_params.get('prtoe_lambda', 0.1))
+        if not is_dcdf_era:
+            # ---- LEGACY (v1-v3) branch only: never inject these into dcdf-era calls ----
+            try:
+                xi = float(xi)
+            except (TypeError, ValueError):
+                xi = 1e-7
+            if not (0.0 <= xi <= 1.2e-5):
+                log_dashboard_error(
+                    f"[CURVES] Implausible xi_prtoe={xi:.3e} from best-fit mapping "
+                    f"(outside [0, 1.2e-5]); using 1e-7. Check chain column mapping.",
+                    console=True)
+                xi = 1e-7
+            delta = best_fit_params.get('delta_prtoe', best_fit_params.get('prtoe_delta', 0.2))
+            zeta = best_fit_params.get('zeta_prtoe', best_fit_params.get('prtoe_zeta', 0.1))
+            v0 = best_fit_params.get('V0_prtoe', best_fit_params.get('prtoe_v0', 0.68))
+            m = best_fit_params.get('m_prtoe', best_fit_params.get('prtoe_mass', 1e-20))
+            lam = best_fit_params.get('lambda_prtoe', best_fit_params.get('prtoe_lambda', 0.1))
 
-        if 'beta_prtoe' in best_fit_params:
-            beta = best_fit_params['beta_prtoe']
-        elif 'prtoe_beta' in best_fit_params:
-            beta = best_fit_params['prtoe_beta']
-        elif 'log_beta_prtoe' in best_fit_params:
-            beta = 10**best_fit_params['log_beta_prtoe']
+            if 'beta_prtoe' in best_fit_params:
+                beta = best_fit_params['beta_prtoe']
+            elif 'prtoe_beta' in best_fit_params:
+                beta = best_fit_params['prtoe_beta']
+            elif 'log_beta_prtoe' in best_fit_params:
+                beta = 10**best_fit_params['log_beta_prtoe']
+            else:
+                beta = 1e-6
+
+            c_params.update({
+                'xi_prtoe': xi,
+                'zeta_prtoe': zeta,
+                'V0_prtoe': v0,
+                'm_prtoe': m,
+                'lambda_prtoe': lam,
+                'beta_prtoe': beta
+            })
         else:
-            beta = 1e-6
-
-        c_params.update({
-            'xi_prtoe': xi,
-            'zeta_prtoe': zeta,
-            'V0_prtoe': v0,
-            'm_prtoe': m,
-            'lambda_prtoe': lam,
-            'beta_prtoe': beta
-        })
+            # ---- CURRENT (dyad + dCDF) era: pass through the best-fit dcdf params ----
+            for k in dcdf_keys:
+                if k in best_fit_params and k not in c_params:
+                    c_params[k] = best_fit_params[k]
+            c_params.setdefault('use_dcdf', 'yes')
     else:
         c_params['use_prtoe'] = 'no'
         for k in list(c_params.keys()):
@@ -3654,7 +3671,7 @@ async def supported_models():
     return {
         "status": "success",
         "supported": ["lcdm", "wcdm", "prtoe", "general"],
-        "notes": "Dashboard works for any Cobaya+CLASS yaml. PRTOE features (playground, mu plots) auto-detected via use_prtoe or prtoe_* params. Use extra_args in requests for custom extensions. Set non_linear in config for Pk models.",
+        "notes": "Dashboard works for any Cobaya+CLASS yaml. PRTOE features auto-detected via use_dcdf (current dyad+dCDF era) or use_prtoe/prtoe_* (legacy v1-v3, retired). Use extra_args in requests for custom extensions. Set non_linear in config for Pk models.",
         "general_tips": "For new models, add params to yaml; dashboard will treat as 'general' for curves. Use /validate_config first."
     }
 
