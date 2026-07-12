@@ -12,3 +12,6 @@
 | BBN window (LT era, inside) | ε_rec × [0.8–1.0] (mean-field ramp factor, def539 debt) | the windowed splice |
 | above z_high (~T_c epoch) | 0 (disordered) | the dyad window's high edge |
 Rows must cite THIS table, not "the" ε. Item 2 (the masters' calendar) still open.
+
+## PAID item 2 (2026-07-12): the masters' calendar — docs/PRTOE_REFEREE_CALENDAR.md.
+T13 is COMPLETE (both items paid: the ε-epoch table + the calendar).
