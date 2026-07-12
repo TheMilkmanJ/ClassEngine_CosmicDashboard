@@ -238,3 +238,29 @@ properties, tested against the banked snap:
 payments (the receipt, T10's identity, the scoreboard) and zero new mechanisms or
 parameters. Crown-jewel status is CONDITIONAL — it inherits the axis family's falsifiers
 (P-029/024/031/032) and the anti-EB bet; it is crowned by the maps or bled by them.
+
+---
+
+## Addendum 4 (2026-07-12, the operator's sign law): SAME LAW, OPPOSITE WORK [GRAMMAR]
+
+The operator's form: gravity never changes rules at genesis — it flips the SIGN of its
+work. Mechanically exact and record-legal: the acceleration equation responds to
+ρ + 3p (pressure pays once per spatial direction — the three), so the SAME law with the
+SAME constant does opposite work when the dominant source has p < −ρ/3. The pour's
+engine is the condensate's own w = −1 pressure driving the equation repulsive — the
+superfluid "enters and makes itself known" as the bounce's required push. No new rule,
+no G sign change, no reversal clause: the flip lives in the source, and everything still
+clears through gravity at genesis (census blindness holds). The operator's k_up/−k_down
+= the sign of the acceleration.
+
+**Timing fix (booked):** the handover to attractive work is the pour-to-radiation
+transfer, well BEFORE BBN — nucleosynthesis sits deep inside the attractive era.
+
+**The twice-crossed threshold (the model's native unification):** the sign flip has run
+TWICE — repulsive at genesis (condensate-led), attractive through the long middle
+(radiation/matter-led), repulsive again since z ≈ 0.7 (the condensate's zero-point
+sector re-dominating: dark energy). ΛCDM needs two unrelated repulsion stories
+(primordial + Λ); this model has ONE component doing ONE thing at two epochs — the white
+hole's push and today's accelerating sky are the same mechanism. The cycle is gravity's
+work-sign alternating as the medium's accounts trade dominance (the crunch's turn is the
+banked cycle map's business, not improvised here).
