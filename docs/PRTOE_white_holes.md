@@ -133,3 +133,30 @@ delayed patches of the Big Bang still pouring), and died to accreting black hole
 the very instability this file runs on — a lagging core has an exterior, so the
 counterparty rule executes it. The one proposal that put white holes INSIDE the universe
 was killed by the clause; the one realization OUTSIDE all counterparties is the genesis.
+
+---
+
+## Addendum 2 (2026-07-12, the operator's identification): THE FOUNTAIN IS THE POUR [GRAMMAR]
+
+The operator connected today's shelf to the banked genesis mechanism and closed a loop
+the books had left open: **the heat fountain and the white hole are the same instant in
+two grammars.** The thermodynamic ledger (PRTOE_cyclic_torus_genesis.md, MATH_SPINE):
+blueshifted crunch radiation reignites through T_c and fountains. The geometric ledger
+(this file): the time-reversed horizon pours, once, with no counterparty. One event, two
+languages — the white hole is the fountain's name in GR; the fountain is the white hole's
+mechanism in the medium.
+
+Already banked, now unified: the fountain pours EVERYWHERE (the preregistered file's own
+proof — radial flow from a spherical center is curl-free and cannot spin up; there is no
+pour-point), and the fountain MAKES THE TORUS dynamically (the confined plume rolls up at
+its edge, Kelvin-Helmholtz, into a helical vortex ring — "why not a sphere"), while the
+torus TOPOLOGY survives the bounce and carries the axis for the fountain to re-seed spin.
+Topology holds what dynamics loses.
+
+The inheritance: the one white hole poured through a shape that remembered its axis, so
+the pour was everywhere-at-once but axis-marked — and that memory is the registered
+observable family (the ℓ~130 comb P-029, the ε-dipole P-024, the isocurvature line
+P-031). **The white-hole reading inherits the genesis's falsifiers**: the axis family in
+the data is the fingerprint of how the fountain poured. [GRAMMAR — unification of two
+banked descriptions; no new mechanism; the torus's dynamical origin stays owned by the
+banked Kelvin-Helmholtz roll-up.]
