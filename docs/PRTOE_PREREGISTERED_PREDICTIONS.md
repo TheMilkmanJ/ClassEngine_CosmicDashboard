@@ -1875,3 +1875,27 @@ shape-corrected in advance): derive the model's true w(a) through the onset and 
 the template offset — THEN the 7.55-vs-7.94 comparison becomes meaningful. Until that
 calibration lands, outcome (iii) "the prediction's mapping was mis-set" stands co-equal
 with the corollary's two.
+
+## P-2026-042: The TeV Anchor — Where the Zero-Point Becomes Non-Zero (registered 2026-07-12, quiet-mode)
+
+**The claim:** the medium's hierarchy anchors at M_anchor = M_red·e⁻³⁵ ≈ 1.54 TeV, identified
+as **4π·m_H = 1.57 TeV (2.5%; ln(M_red/4πm_H) = 34.98 vs the arrows' 35)** — the no-bare
+Higgs reading: with no bare m_H² permitted by the clause, the Higgs mass is the ONE-LOOP
+ECHO of census states living at the anchor (m_H = M_anchor/4π), and those states are the
+portal species the corrected census already demanded (Higgs-coupled, leptophilic). THE
+OPERATOR'S READING, registered verbatim as the claim's meaning: the anchor is where the
+zero-point becomes non-zero — the birth scale of mass; m_H → v → the fermion masses all
+cascade from it. The clause's FIFTH job (c's count, the vacuum's seat, the Lorentz shield,
+the spectral tilt, now the electroweak hierarchy).
+
+**The three convergent arrows (none fitted):** (i) the hierarchy dial x₀ = e⁻³⁵ (pinned by
+the occupancy+3α triangle, seventh sweep); (ii) the census wall — the one-loop portal
+solutions landed AT x = 35.3–35.4 uninvited; (iii) 4π·m_H at 2.5%.
+
+**Predictions/kills:** (a) THE TWO-LOOP LANDING, pre-registered before the shooting run
+exists: the full two-loop census solve must land the portal spectrum near ~1.5 TeV —
+P-039's suspension acquires a predicted landing spot (the suspended knife-edge returns as
+a TARGET); (b) HL-LHC exhausting ~1–2 TeV without portal states kills the visible branch
+sharply; (c) zon killing the triangle (P-040) unpins x₀ and the anchor's first arrow falls;
+(d) a derived "35" (= ln(M_red/4πm_H) from the census structure itself) would convert this
+from an identification to a derivation — the owed step.
