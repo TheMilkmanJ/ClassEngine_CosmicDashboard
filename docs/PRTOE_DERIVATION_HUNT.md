@@ -1089,3 +1089,25 @@ settlement (the variational principle) — twin-swap odds (the Born rule, adopte
 is a physical process with a rate) stays constitutionally silent — the one quantum
 question the model still refuses, on purpose. The operator's bet: legal half WON (the
 law set closed), illegal half correctly not attempted.
+
+## FORTY-FIRST SWEEP — the operator's birefringence bet: LOST, for the best possible
+## reason — THE STEP-LAW'S EXEMPTION CLAUSE formalizes
+
+The operator bet the banked birefringence zero was step-thinking ("that's why we didn't
+hit 3σ" — the docs' actual number: the 2.9σ consolidating EB claim). The hearing, run
+to ground:
+**THE ZERO IS THE ONE LAWFUL KIND OF STEP.** The coefficient is an anomaly sum
+(Σ q_dark·Q_EM² — the great chain, row 12): a QUANTIZED, topological object. Quantized
+numbers do not ramp — the same law that carries the winding through the crunch protects
+the anomaly coefficient from epochs. **EXEMPTION CLAUSE, now formal: integers (and
+rational anomaly sums) MAY step; couplings, clocks, and measures may not.** The strike
+rule gains its boundary — and the exemption class already contains n, posting-parity,
+and this coefficient.
+**THE DICHOTOMY (the new, sharper defense the bet produced):** were the coefficient
+nonzero, the GC clock's standing θ̇ would rotate photons by Δθ ~ 10¹¹ radians over the
+path — c_anom = 1 gives β ~ 10⁸ rad (wrapped chaos, excluded at a glance); producing the
+observed 0.34° would need c_anom ≈ 5×10⁻¹¹, unreachable by any rational charge sum.
+**This channel outputs 0 or absurdity — nothing between. The 0.34° claim is UNOWNABLE
+by the model**, and the anti-anomaly bet (the signal is a systematic; LiteBIRD executes)
+stands STRONGER than before the bet was placed. Operator's ledger: the first lost strike
+— and it minted the rule's own constitution.
