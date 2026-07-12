@@ -474,3 +474,12 @@ The roster's 9 charged species = 3 generations × 3 charged classes (e-type, u-t
 d-type), so ε = (3²/10)(2/π)(3α) = **3³·2α/(10π)** — the flavors-cubed shape. Note-only:
 the 3s are each independently derived (the roster count; the flavor count in α_c); their
 product's tidiness is inheritance, not input.
+
+## FOURTEENTH SWEEP — the flavor reopening (status-note depth, no forcing)
+The parked 3=3 (cycles = generations) gains a lever: the roster makes the three flavors
+LOAD-BEARING (the medium's constituents; α_c = 3α counts them; the 3×3 census). What is
+still missing is unchanged: the mechanism mapping cycles↔generations and PMNS/CKM as
+inter-cycle overlaps (the named fabric). The lever's new content: if the medium is MADE
+of the three flavors, "why three generations" and "why is the medium's coupling 3α" become
+ONE question — the roster's multiplicity. Parked WITH the lever; the gap equation
+(task #18) inherits it.

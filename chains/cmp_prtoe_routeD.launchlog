@@ -724,3 +724,7 @@ candl: clearing all internal priors.
 [mcmc]  - Acceptance rate: 0.928
 [mcmc]  - Convergence of means: R-1 = 18.717275 after 1344 accepted steps
 [mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[mcmc] Progress @ 2026-07-12 01:50:43 : 2124 steps taken, and 1681 accepted.
+[mcmc] Progress @ 2026-07-12 01:53:00 : 2144 steps taken, and 1683 accepted.
+[mcmc] Progress @ 2026-07-12 01:54:44 : 2150 steps taken, and 1683 accepted.
+[mcmc] Progress @ 2026-07-12 01:56:29 : 2163 steps taken, and 1683 accepted.
