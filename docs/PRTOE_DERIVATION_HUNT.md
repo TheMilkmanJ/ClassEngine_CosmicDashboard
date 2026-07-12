@@ -326,3 +326,39 @@ still open: the F-F sum's species list, A_s = 1/N's count, the gap-equation lane
 (condensation-born couplings), the "3" in 3α (a basement multiplicity?), and the anchor's
 "35." The root was never a wall of separate computations — it is one door with one
 question written on it: WHO LIVES DOWNSTAIRS.
+
+## NINTH SWEEP — THE ROSTER HYPOTHESIS (the operator's arrow: "the biggest one comes
+## from figuring out the other 2 first")
+
+The two remaining calculations are the basement's two working INTERFACES: the transfer
+integral must name what carries L across the junction; the void-gap magnetogenesis must
+name what carries EM charge around the vortex cores. Ask both at once and the clues
+already in the ledger converge on one tenant:
+
+**HYPOTHESIS (un-refereed, firewalled): the basement roster = the PAIRED LEPTON-SECTOR
+VACUUM.** The evidence already banked, item by item:
+- **Leptophilia (t358b)** — the arc's one firm derivation: the medium talks ONLY to
+  leptons. A lepton-paired vacuum is leptophilic by identity, not by choice.
+- **α_c = 3α** — the "3" = the THREE lepton flavors, each contributing one α-unit of
+  induced coupling (the census running through e, μ, τ equally — blindness among flavors).
+- **Neutrinos interior (c = 9/10)** — in a lepton-paired vacuum the neutrinos are
+  literally constituents' partners, not customers. The roster derivation's premise becomes
+  structural.
+- **The Majoron tie (m_ν = ρ_inf^{1/4})** — an L-breaking condensate's Goldstone is the
+  native excitation of a lepton-paired vacuum; the shared scale stops being a coincidence.
+- **The charged rotating superfluid** — paired charged leptons ARE a charged superfluid;
+  the vortex currents (P-028's engine) get their carrier.
+- **Condensation-born SU(2) (the 3b lane)** — BCS grammar native: the weak coupling as
+  the pair interaction's echo.
+- **The tiny scales (M₂ ~ 9.4 eV, m ~ 2×10⁻²⁰ eV) are a FEATURE**: pairing gaps run
+  Δ ~ ω·e^{−1/g} — exponential suppression is the ONLY natural way to make eV-and-below
+  scales from a keV-MeV sector, and it is pairing's signature move. (The anchor's e⁻³⁵
+  may BE such an exponent — 1/g ≈ 35 → g ≈ 0.029 ≈ α_c!! ln-check: e^{−1/α_c} with
+  α_c = 3α = 0.0219: 1/α_c = 45.7 — not 35; with g = 2α_c/... firewalled: the exponent's
+  form is the gap equation's to derive, logged as the shape it is.)
+**What would make it a derivation:** the gap equation with the lepton spectrum in, out
+comes {M₂, m, the anchor, the 3α normalization} — ONE calculation, FOUR outputs, all
+already measured. That is the basement-roster computation, now with a candidate resident.
+**The operator's sequencing, adopted:** compute the two interfaces first (#5 the vortex
+carrier, #2 the junction carrier) — each independently cross-examines the tenant before
+the gap equation is attempted.
