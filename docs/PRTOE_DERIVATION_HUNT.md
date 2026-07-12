@@ -1,3 +1,8 @@
+> **STATUS: EXPLORATORY / UN-REFEREED.** Everything below was booked during a
+> review-hold (2026-07-12) and has NOT yet been adversarially graded. Claims here are
+> argument-level candidates, hours old, awaiting both the internal red-team and the
+> running numerical referees. Read the confirmed spine first.
+
 # THE DERIVATION HUNT — the remaining underived numbers, and where their pieces already sit (living; 2026-07-12)
 
 *The operator's thesis: "we have enough in our model to derive everything — the last pieces

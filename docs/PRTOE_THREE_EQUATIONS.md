@@ -49,7 +49,10 @@ $\varepsilon$ is not tuned; it decomposes:
 
 $$\varepsilon = c \cdot \bar{f} \cdot \alpha_c = \tfrac{9}{10} \times 0.635 \times 3\alpha \approx 1.25\%$$
 
-against the sky's fitted $\sim 1.24\%$ — zero dials end to end:
+against the sky's fitted $\sim 1.24\%$ — zero dials end to end. (Three ε values appear in
+this repo and differ deliberately: **1.232%** = the production-chain fit; **~1.24%** = the
+posterior-era rounding; **1.2543%** = the derived stack above. The gap between fit and
+derivation is ~1.8% — inside the posterior width — and the running measurements decide.)
 
 - $c = 9/10$: a **counting fraction**. Gravity is blind (it reads size, not identity), so the
   coupling budget splits democratically over the census of participants — 9 charged fermion
