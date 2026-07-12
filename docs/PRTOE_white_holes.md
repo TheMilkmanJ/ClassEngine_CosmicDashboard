@@ -264,3 +264,27 @@ sector re-dominating: dark energy). ΛCDM needs two unrelated repulsion stories
 hole's push and today's accelerating sky are the same mechanism. The cycle is gravity's
 work-sign alternating as the medium's accounts trade dominance (the crunch's turn is the
 banked cycle map's business, not improvised here).
+
+---
+
+## Addendum 5 (2026-07-12, the operator's question): THE MEETING READING — k_up MEETS −k_down [GRAMMAR]
+
+Not two literal objects (the §Addendum-3 fences hold: horizons, isometry) — but as a
+reading of the two-fluid structure, exact: the medium carries BOTH signs at every moment.
+The excitations do gather-work (the black sign, k_up); the condensate does pour-work (the
+white sign, −k_down); the cosmic history is which sign holds the gavel (pour-led genesis,
+gather-led middle, pour-led since z ≈ 0.7 — Addendum 4's twice-crossed threshold).
+
+**The record's coincidence, claimed as RENAME only:** the observable universe's
+Schwarzschild radius ≈ the Hubble radius — critical density IS the black-hole condition
+in cosmology's units (a known observation; flatness restated, O(1)-loose). In horizon
+language, Ω = 1 says NEITHER SIGN OWNS THE PLACE: too much gather → collapse; too much
+pour → hyperbolic emptiness; exactly at threshold → the cycle. The operator's "k_up
+meets −k_down" = Ω = 1 as the balanced meeting.
+
+**The motif register (structural watch, not a claim):** the model now shows THREE
+exactly-at-threshold conditions — occupancy exactly one (the pinch), founding capital
+exactly minimum (the minimum-capital candidate, sweep 42), density exactly critical (the
+balanced meeting). Whether the three exactlys are one law is basement-roster business
+(#18). Debt honestly restated: flatness must be DERIVED from the cycle map, not assumed
+— the bounce owes it (cycle-map business, standing).
