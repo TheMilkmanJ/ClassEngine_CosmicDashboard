@@ -766,3 +766,34 @@ CRUNCH (the pairing epoch — charge inherited through the bounce with the genom
 shared integer STRUCTURALLY). Candidate (iii) is the grammar-native one. The careful
 session stands owed; the model's baryogenesis is now honestly priced: crux dissolved,
 magnitude unproven, one native rescue named.
+
+## TWENTY-EIGHTH SWEEP — THE TRANSFER INTEGRAL RUN: the cold verdict REVERSES; η lands
+## at the right order from banked inputs alone (operator-forced re-run)
+
+SWEEP 27 PARTIALLY WALKED BACK: it compared the bias RATE (θ̇/H) — the wrong figure of
+merit. The integral's engine is the charge RESERVOIR: the GC background carries
+n_med = θ̇Ψ₀² = √(2X₀)·Ψ₀ — and with both factors BANKED (X₀^{1/4} = 80 eV, the ancient
+certificate; Ψ₀ = 5.33×10¹⁶ GeV, the triangle):
+  **n_med/s = 4.7×10⁻⁶ — the medium carries ~19,000× the charge the baryon asymmetry
+  needs.** The question was never "can it make enough" — it is "why doesn't it
+  overshoot": the required junction transmission is 𝒯 = 5×10⁻⁵.
+THE JUNCTION: thin-junction 𝒯 ≈ Γ/H at T_sph gives the required coupling
+y_req ≈ 0.7–3×10⁻⁵ (rate-form spread) — **electron-Yukawa class, and the model's OWN
+seesaw vertex (the P-039 neutrino block: y = 1.3–1.8×10⁻⁶) sits the same class, a factor
+4–20 below** — inside the O(1)s of the crude rate form and the era-length integral.
+η emerges at the right order from {a banked reservoir × the model's own neutrino
+Yukawa} with ZERO new inputs. FAVORABLE-LEANING first run; the careful rate-form
+session still owed.
+TWO STRUCTURAL CONSEQUENCES, booked with it:
+(i) **THE OVERSHOOT CONSTRAINT (new, falsifiable)**: if the PORTAL's large Yukawas
+(y ~ 0.4) touched the junction, the transfer would equilibrate and overproduce by
+orders. Leptophilia SHARPENS to a structural requirement: the portal must carry NO
+L-channel to the medium — a new internal wall, checkable in the census structure.
+(ii) **THE η ∝ n CLAIM IS CHALLENGED**: the reservoir is θ̇-sourced (the TEMPORAL
+winding — the GC's clock), not the spatial winding n. The baryogenesis file's shared-
+integer cross-kill must be re-derived or re-scoped: either the spatial winding modulates
+the junction (keeping η(n)) or the comb cross-kill retires and the baryon number becomes
+the GHOST'S receipt instead — "the asymmetry is the arrow's charge" (matter wins because
+the condensate's clock runs forward). The second reading unifies baryogenesis with the
+arrow of time AND the operator's zero-point grammar; it is also the more falsifiable
+(η then reads X₀Ψ₀ — both triangle-locked: zon grades baryogenesis too).
