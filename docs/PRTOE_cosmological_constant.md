@@ -36,18 +36,21 @@ $$\rho_\Lambda = \frac{E_b}{(1/E_b)^3} = E_b^4 \quad\Longrightarrow\quad \rho_\L
 **Measured: $\rho_\Lambda^{1/4} = 2.25$ meV. Agreement: 4 parts in 10⁴.**
 
 **(c) Where M₂ comes from** (not fitted): the ghost-condensate EFT dictionary (the
-ledger's earliest certificates): $M_2^4 = X_0^2 P_2 = \rho_{\rm dust,0}/(2x_0)$, with the
-hierarchy dial pinned by this very closure at $x_0 = e^{-35}$ — the same "35" that is the
-electroweak anchor's exponent (see the hierarchy file). The triangle
-{ρ_Λ, M₂, α_c = 3α} is mutually locking and is graded AS A UNIT by the zon chain.
+ledger's earliest certificates): $M_2^4 = X_0^2 P_2 = \rho_{\rm dust,0}/(2x_0)$, The hierarchy
+dial $x_0$ is a FREE parameter of that dictionary (band $e^{-30}$–$e^{-35}$, i.e.
+$M_2 = 2.7$–$9.7$ eV); this closure SELECTS $x_0 = e^{-35}$ — a consistency, not an
+independent confirmation (audit, failures ledger §6). The triangle {ρ_Λ, M₂, α_c = 3α}
+is one constraint wearing three names, and it is graded by the zon chain.
 
 **(d) Why the 10¹²⁰ never appears.** The Λ_cutoff⁴ catastrophe is the loop-pricing of the
 vacuum — summing fluctuations. Under the no-bare clause the medium's ground state IS the
 vacuum, and its gravitating energy is its BINDING energy — an occupancy count, not a mode
-sum. (The model's own earlier calculation made precisely this error in miniature: a
-dressing factor $(16\pi^2\alpha_c^{3/2})^{1/4}$ — loop-pricing — created a 20% "residual"
-that vanished identically when the occupancy reading replaced it. The 10¹²⁰ problem is
-the same mistake at full scale.)
+sum. (The model's own earlier calculation made this error in miniature: a loop-pricing
+dressing factor created a 20% "residual"; DROPPING it — pricing by occupancy instead —
+removes the residual, with $M_2$ taking its EFT-dictionary value. The 10¹²⁰ problem is
+the same mistake at full scale. The audit note: an earlier draft claimed the dressing
+EQUALED the residual numerically — that flourish was input-inconsistent and is dead;
+see the failures ledger §6. The occupancy closure never needed it.)
 
 **(e) Why so small — the two-step hierarchy.** $E_b$ is doubly suppressed: $\alpha_c^2$
 (a small coupling, squared) on $M_2 \sim 10$ eV, itself sitting at the bottom of the
