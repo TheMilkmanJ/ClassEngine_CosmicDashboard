@@ -1904,3 +1904,8 @@ a TARGET); (b) HL-LHC exhausting ~1–2 TeV without portal states kills the visi
 sharply; (c) zon killing the triangle (P-040) unpins x₀ and the anchor's first arrow falls;
 (d) a derived "35" (= ln(M_red/4πm_H) from the census structure itself) would convert this
 from an identification to a derivation — the owed step.
+
+**VISIBILITY NOTE on the P-2026-009 family (2026-07-12):** the model's zero-birefringence
+prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
+(Minami–Komatsu-class, ~0.34°, dust-systematics-debated). The model's explicit position:
+the signal is a systematic. LiteBIRD is the executioner if it is not.

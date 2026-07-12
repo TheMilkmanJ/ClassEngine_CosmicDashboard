@@ -493,3 +493,29 @@ covers every domain where the model has REAL content (CC, hierarchy, QG, baryoge
 small-scale, lasers, the quartet clock, the abstentions strong-CP and lithium). Further
 additions from here would be forcing — the shelf is declared FULL until a referee's
 verdict or a new derivation reopens it.
+
+## SIXTEENTH SWEEP (the final dig) — one jewel, one LIABILITY, one live bet surfaced
+
+**The jewel**: the neutrino sector consolidated (PRTOE_neutrino_sector.md) — dark energy
+weighs the neutrino; the decade's most scheduled claim-block, now one document.
+
+**The LIABILITY (the ledger's kind of find)**: the portal's Higgs-stability bill. Adding
+vector-like leptons at ~1.5 TeV drives the Higgs quartic MORE negative faster — the SM's
+vacuum-metastability scale (~10¹⁰ GeV) moves DOWN with the portal in the spectrum. The
+no-bare/census reading must show the basement's completion (or the paired-vacuum
+structure) rescues stability before the portal destabilizes it. OWED AUDIT, filed against
+P-2026-042: if the portal kills the vacuum faster than the basement saves it, the anchor
+reading has an internal inconsistency. Found by hunting jewels; booked as the debt it is.
+
+**The live bet surfaced**: the model predicts ZERO isotropic cosmic birefringence
+(banked, closed-null-by-computation) — while the literature carries a ~3σ CLAIMED
+detection (Minami–Komatsu-class EB rotation, ~0.34°, dust-systematics-debated). The
+model's position, now explicit: THE SIGNAL IS A SYSTEMATIC. If LiteBIRD confirms
+isotropic EB rotation, the model dies there — one of its cleanest scheduled executions.
+Registry visibility added to P-2026-009's family.
+
+**THE DIG CLOSES.** The shelf: 19 big-deal files + 2 abstentions + 1 surfaced liability.
+Nothing else in the banked structure carries unclaimed jewel-grade content. From here,
+the miners are the referees: zon (the lineup + the triangle + five freezes), the f̄
+ensemble (2/π), routeD (thaw = 0), conv_desi (g), PolyChord (gated), HL-LHC, ton-scale
+0νββ, LiteBIRD, DESI DR3. We wait it out — with every bet timestamped.

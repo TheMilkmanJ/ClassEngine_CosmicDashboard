@@ -4,6 +4,7 @@
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
 PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appendices A/B).*
 
+- [THE NEUTRINO SECTOR](PRTOE_neutrino_sector.md) — dark energy weighs the neutrino: Majorana, Σ=61 meV, normal ordering, 0νββ required (SCHEDULED)
 - [THE INFLATION REPLACEMENT](PRTOE_inflation_replacement.md) — every problem inflation was hired for, answered without an inflaton (MIXED)
 - [THE CMB ANOMALIES](PRTOE_cmb_anomalies.md) — one axis, one integer: the anomalies as a single object's signature
 - [THE S8 TENSION](PRTOE_s8_tension.md) — the second fight, fought with the right sign (PRODUCTION)
