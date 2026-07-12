@@ -68,6 +68,10 @@ marks; the ramps-first re-derivation is owed before any center is graded. The QU
 stands (whose mass does the oscillating unit carry). Live watch: the dispersion chain's
 raw center is CLIMBING through the pair zone (7.66 → 7.77 across early segments,
 unconverged; log10_zon's own split-R−1 = 1.38 — no verdict until the drift dies).
+THE OPERATOR'S TRAJECTORY CALL (registered mid-drift, 2026-07-12): the center will
+OVERSHOOT and then whittle back DOWN toward the pair zone, turnover near the ~500-sample
+marker — the same crest-and-descend the old-template chain showed (7.94 → 7.82,
+descending when retired). Graded at samples ≈ 500 and ≈ 800.
 
 ## 5. The operator's call (registered 2026-07-12, BEFORE the dispersion chain's convergence)
 
