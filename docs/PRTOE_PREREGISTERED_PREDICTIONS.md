@@ -1715,3 +1715,23 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
 - **P-037 — WIDE BINARIES ARE NEWTONIAN** (the live-controversy null): the claimed Gaia
   MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a
   confirmed wide-binary anomaly at the MOND acceleration scale.
+
+## P-2026-038: The Portal's Multiplicity Is FIVE (registered t504, 2026-07-11)
+
+**The convergence:** two independent requirements — the SU(2)-inducibility flip (b₂(SM) = +19/6
+needs > 4.75 doublet-units of new matter) and the induced-α count (the log-rigid 13 = the SM's
+8 + n) — BOTH pick **n = 5 vector-like lepton doublets**, the model's own Card-7 species
+(hired previously for Koide protection and the seesaw). 4 → 12 (α misses), 6 → 14 (misses):
+only 5 closes both.
+
+**The prediction:** five vector-like charged lepton states, and the census PREFERS THEM LIGHT
+(the threshold integral wants the doublets spanning most of the log — pushing toward the
+collider-reachable end above the LHC's ~0.7–1 TeV floor).
+
+**Kills:** a fourth or sixth doublet (either count breaks 13); heavy-decoupled doublets (the
+threshold integral collapses the closure to ~11.5 — quantitative pin fails); a two-loop
+un-flip of the marginal b₂ = −0.167 (the fragility check, owed).
+
+**Scope (honest, per t504):** MULTIPLY-CONTINGENT — lives inside H-TOE's induced-gauge premise
+(Gate-1-class); the "5" is FIXED-NOW as a prediction, not retrodicted. It recovers M3's
+α-prong and gives H-TOE its first collider-facing test.
