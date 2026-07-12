@@ -204,3 +204,37 @@ signature stays where registered: the genome-signed magnetic helicity (P-028, pa
 radio/gamma) and the axis family. GR's receipt preserved, the neutrality null preserved,
 no new mechanism spent. [FUDGE-GRADE amplitudes; T10's heavy remainder (proper spectral
 shapes) stays on the debt list, de-urgented by these ceilings.]
+
+---
+
+## Addendum 3 (2026-07-12, operator-demanded): THE REVERSAL AUDIT + THE VALIDATION AUDIT
+
+**The reversal audit (is the no-birefringence verdict mirror-proof?):** physics owns
+exactly three discrete mirrors — C, P, T — and their products. Every one is an
+involution: it re-signs quantities, it cannot create magnitudes. The photon-medium
+coupling is ZERO (Meissner-forced), and zero is the unique self-conjugate number: an
+empty account reads the same in every mirror. A full rule-reversal instant at the snap
+therefore still has no ink to rotate light with — **the reversal's entire observable
+content is the SIGN of parity-odd stamps** (the genome's sign, the matter/antimatter
+draw, the helicity autograph), never new couplings. The verdict is mirror-proof.
+
+**The validation audit (is the identification earned?):** a white hole's four defining
+properties, tested against the banked snap:
+1. *Exit-only causal boundary* — PASS (the arrow forbids entry; entry = a backwards
+   settlement).
+2. *Time-reverse of a collapse* — PASS with the distinguishing refinement: the crunch is
+   the collapse, the bounce is the black-to-white transition ([RovelliHaggard2014] at
+   cosmic scale), and ONLY THE CAUSAL STRUCTURE MIRRORS — entropy rides forward through
+   the bounce (the banked Tolman carrier). A full T-mirror would break Tolman; ours is a
+   causal white hole with forward books. This is content, not weakness.
+3. *No exterior* — OWNED DEVIATION from Schwarzschild: the textbook object sits in an
+   empty exterior; ours has none, and the deviation does work (the Eardley evasion, the
+   counterparty exemption).
+4. *A past horizon* — PARTIAL, the honest fence: Schwarzschild's white boundary is null;
+   the cosmic past boundary is spacelike. The identification is **causal-structure
+   class, not an isometry** — posted here before any critic posts it for us.
+
+**Status:** the identification validates as a structural reading with three banked
+payments (the receipt, T10's identity, the scoreboard) and zero new mechanisms or
+parameters. Crown-jewel status is CONDITIONAL — it inherits the axis family's falsifiers
+(P-029/024/031/032) and the anti-EB bet; it is crowned by the maps or bled by them.
