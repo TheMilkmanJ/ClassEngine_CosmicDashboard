@@ -967,3 +967,47 @@ double-duty (m_ν and η from one coupling) survives at estimate grade.
 only); the basement roster's full N (the trial proper). THE DOCKET IS OTHERWISE
 FUDGE-COMPLETE: every remaining number now has either a derivation, a labeled estimate,
 or a named referee already running.
+
+## THIRTY-SEVENTH SWEEP — THE BANKING LEXICON MINE (operator's generator: "maybe there's
+## more ledger language that unlocks something we aren't seeing")
+
+> Firewall up front: grammar ≠ mechanism. Each entry labeled RENAME (better words, same
+> physics) or CANDIDATE-UNLOCK (the grammar demands an uncomputed thing).
+
+| banking concept | the mapping | label |
+|---|---|---|
+| **double-entry bookkeeping** | every transaction posts TWICE — a debit and its mirrored credit. The model's transactions post as THE TWINS (forward + time-reversed). Conservation = ledger balance (Noether as bookkeeping integrity) | **CANDIDATE-UNLOCK #1** (below) |
+| **credit limit ΔE·Δt ≤ ħ** | vacuum fluctuations = unsecured intraday loans; the uncertainty relation is the credit term | **CANDIDATE-UNLOCK #2** (below) |
+| **escrow** | the frozen-era reservoir: the medium HOLDS the baryon charge (θ̇Ψ², 19,000× the need) until the junction's release conditions — the transfer is an escrow release, not a payment | RENAME (sharpens the baryogenesis file's language) |
+| **collateral seizure** | Hawking radiation: a vacuum loan defaults across the horizon (one twin falls in, the debt can't close) — the horizon's MASS is the collateral seized. Unitarity = "ledgers don't burn, they transfer" | RENAME (upgrades the information-paradox file's mechanism sentence) |
+| **currency peg** | w = −1 exactly: the floor is a PEGGED currency, defended absolutely (routeD's thaw = 0 tests the peg) | RENAME (CC file language) |
+| **bankruptcy exemption** | the crunch liquidates every asset EXCEPT the protected class — the winding is the homestead exemption; the genome survives the bankruptcy | RENAME (cycle language, lovely) |
+| **seigniorage** | expansion "prints volume"; the issuer's cut compounds until the vacuum owns the economy — Λ-domination as seigniorage crossover ("why now" = when printing overtakes the endowment) | RENAME (coincidence-file language; no new number) |
+| **exchange fees** | ε = c·f̄·α_c as a conversion chain: the house commission (1/10 kept), the market-average rate (f̄), the base rate (α_c) | RENAME (already the census grammar) |
+| **Glass–Steagall firewall** | the overshoot wall: the portal must carry NO L-channel to the medium — commercial and investment banking legally separated | RENAME (names the wall perfectly) |
+
+### CANDIDATE-UNLOCK #1 — the double-entry selection rule
+If every medium↔matter transaction must POST TWICE (once per twin — the debit and its
+time-mirrored credit), then single-twin processes are FORBIDDEN as unbalanced entries.
+This is a selection-rule claim the model has never stated: the junction's transmission,
+the dyad's delivery, and the pairing channel should all carry an even "posting parity" —
+and any factor-2's in those calculations (the transfer's O(1)s, the gap equation's N=2,
+E_b = 2Δ) may be the DOUBLE-ENTRY showing up as arithmetic. OWED: one session checking
+whether posting-parity is equivalent to the time-reversal structure already banked, or
+STRONGER (a genuinely new constraint on the junction's rate form — which would feed the
+strike-8 integral directly).
+
+### CANDIDATE-UNLOCK #2 — the maximally-drawn credit line
+The occupancy reading says the vacuum pays ρ_Λ = one quantum E_b per cell of size 1/E_b:
+the standing loan per cell is E_b × (1/E_b) = 1 = ħ — **the vacuum's credit line is drawn
+EXACTLY to the uncertainty limit, everywhere, always.** If that saturation is a THEOREM
+(the ground state as the maximal legal draw), the occupancy reading stops being a pricing
+choice and becomes the credit law's unique solution — the CC derivation's missing
+"why occupancy-one and not two or half." OWED: one careful look at whether saturation-of-
+the-credit-term is derivable from the condensate's coherence (a squeezed/coherent-state
+bound). If yes, the CC file's §2(b) upgrades from reading to derivation.
+
+*Both unlocks feed EXISTING owed items (the strike-8 rate form; the CC's occupancy
+justification) — the lexicon didn't invent work, it may have found the keys to work
+already on the books. The renames are being applied to their files' language where they
+sharpen without claiming.*
