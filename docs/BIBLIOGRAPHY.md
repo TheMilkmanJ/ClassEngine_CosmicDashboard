@@ -80,6 +80,8 @@ that is a bug — file it.*
 - **[Koide1983]** Y. Koide, "A fermion-boson composite model of quarks and leptons," Phys. Lett. B 120, 161 (1983); PRD 28, 252 (1983). — The charged-lepton relation the dyad must not break (thread 6).
 - **[Tsirelson1980]** B. S. Tsirelson, "Quantum generalizations of Bell's inequality," Lett. Math. Phys. 4, 93 (1980). — The bound the quantum wing treats as a standing exam.
 
+- **[Zurek2003]** W. H. Zurek, "Environment-assisted invariance, entanglement, and probabilities in quantum physics," PRL 90, 120404 (2003), arXiv:quant-ph/0211037 (and PRA 71, 052105). — The envariance derivation of the Born rule; the swap partners are the twins (the settlement law, clause ii — adopted).
+
 ## 7. Precision tests (the bills the medium must pay)
 
 - **[Will2014]** C. M. Will, "The confrontation between general relativity and experiment," Living Rev. Rel. 17, 4 (2014), arXiv:1403.7377. — The PPN ledger.

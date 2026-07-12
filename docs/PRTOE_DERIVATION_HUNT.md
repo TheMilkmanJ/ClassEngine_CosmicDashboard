@@ -1068,3 +1068,24 @@ WHAT THIS BUYS, labeled:
    of every pending transaction in the vacuum — with the crossover demand (sweep 38)
    now phrased as: the clearinghouse must operate in BOTH regimes (BCS-side terms at the
    anchor, BEC-side at the floor).
+
+## FORTIETH SWEEP — THE SETTLEMENT LAW (the quantum-facing law set closes; the operator's
+## "last law" bet, graded legal-half-won)
+
+**THE SETTLEMENT LAW, two clauses:**
+(i) **THE TERMS** [mechanism-grade, standard]: superpositions settle at LEAST CARRYING
+COST subject to books-balanced — the variational principle in banking dress. For the
+vacuum this is exact: (u_k, v_k) minimize the free energy → the gap equation. "How the
+superposition is chosen" = the cheapest balanced clearing.
+(ii) **THE ODDS** [interpretation-grade, ADOPTED from the literature]: settlement
+probabilities follow amplitude-squared by TWIN-SWAP SYMMETRY — Zurek's envariance
+derivation of the Born rule [Zurek2003], whose swap partners are precisely the twins:
+exchanging the paired entries leaves the joint books invariant ⟹ equal amplitudes are
+equiprobable ⟹ Born weights. Cited and mapped, not invented here.
+**THE QUANTUM-FACING LAW SET, now complete and labeled:** double-entry (conservation) —
+balanced books (the vacuum's state) — the settlement arrow (the GC clock) — least-cost
+settlement (the variational principle) — twin-swap odds (the Born rule, adopted).
+**THE ABSTENTION, narrowed but standing:** the DYNAMICS of collapse (whether settlement
+is a physical process with a rate) stays constitutionally silent — the one quantum
+question the model still refuses, on purpose. The operator's bet: legal half WON (the
+law set closed), illegal half correctly not attempted.

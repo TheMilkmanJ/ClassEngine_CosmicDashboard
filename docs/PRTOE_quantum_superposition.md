@@ -74,3 +74,11 @@ CLEARED (both twin-postings pending); measurement is settlement; decoherence is 
 clearinghouse; and the settlement DIRECTION is the condensate's own clock (the arrow).
 Explicitly labeled an interpretation: the model rides standard QM exactly and its
 abstention on the measurement problem stands — this adds ontology, zero modified numbers.
+
+
+## Addendum 2 (2026-07-12) — THE SETTLEMENT LAW [terms: standard; odds: adopted]
+How the superposition is chosen, completed: (i) THE TERMS — least carrying cost subject
+to balanced books (the variational principle; exact for the vacuum: the gap equation);
+(ii) THE ODDS — amplitude-squared by twin-swap symmetry (Zurek envariance [Zurek2003],
+adopted: the swap partners are the twins). The abstention narrows to collapse DYNAMICS
+only — still constitutionally silent.
