@@ -23,6 +23,8 @@ that is a bug — file it.*
 - **[NANOGrav2023]** G. Agazie et al. (NANOGrav), "The NANOGrav 15 yr data set: evidence for a gravitational-wave background," ApJL 951, L8 (2023), arXiv:2306.16213. — The PTA band; the vortex-string Gμ null lives here.
 - **[SNO2002]** Q. R. Ahmad et al. (SNO), PRL 89, 011301 (2002). / **[SuperK1998]** Y. Fukuda et al., PRL 81, 1562 (1998). — Neutrino flavor transformation; the fusion-neutrino ledger.
 
+- **[KamLANDZen2024]** KamLAND-Zen Collaboration (S. Abe et al.), "Search for Majorana neutrinos with the complete KamLAND-Zen dataset," arXiv:2406.11438. — The strongest current 0νββ limit (m_ββ ≲ 28–122 meV); also the refuter (with GERDA) of the historical Heidelberg–Moscow claim.
+- **[GERDA2020]** GERDA Collaboration (M. Agostini et al.), "Final results of GERDA on the search for 0νββ decay," PRL 125, 252502 (2020), arXiv:2009.06079.
 - **[nEXO2021]** nEXO Collaboration (G. Adhikari et al.), "nEXO: neutrinoless double beta decay search beyond 10²⁸ year half-life sensitivity," J. Phys. G 49, 015104 (2022), arXiv:2106.16243. — The ton-scale referee this sector names.
 - **[LEGEND2021]** LEGEND Collaboration, "The Large Enriched Germanium Experiment for Neutrinoless ββ Decay: LEGEND-1000 pCDR," arXiv:2107.11462.
 - **[CUPID2019]** CUPID Interest Group, "CUPID pre-CDR," arXiv:1907.09376.
