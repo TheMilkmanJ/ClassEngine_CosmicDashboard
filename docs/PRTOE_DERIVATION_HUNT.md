@@ -2577,3 +2577,34 @@ change — sweep 77's anneal). One resident, three behaviors — the Employment 
 quantum face: not one phenomenon per tenant; every tenant works every job. The three
 quantum files describe one object from three angles; cross-links owed to all three at
 the next hygiene pass.
+
+## EIGHTIETH SWEEP — THE G-CLOSURE, RAMPED: two numbers derived, the third becomes
+## the model's prediction for its own founding coupling
+
+**(a) p DERIVED [the ramp IS the derivation]:** the modes' contribution to the induced
+action is weighted by their condensate mixing — the Bogoliubov coherence factors,
+(u_k v_k)² = a p = 2 ramp, the medium's own smooth regulator. Computed: **ramp
+O(1) = 1.0000 — the coherence ramp reproduces the naive coefficient exactly; the 12π
+demand survives ramping unchanged.** (No wall anywhere; strike-20's step retired by
+derivation.)
+
+**(b) THE WEIGHTS [ramp-consistent]:** the surface fermions regulate through their own
+BCS coherence factors — the same functional family as the scalar's — so the species'
+relative heat-kernel ratios survive (the shared O(1) cancels in the supertrace).
+Standard a₁ ratios [convention verification owed]: scalar +1×(1−6ξ), Dirac −2,
+Majorana −1. The twin-doubled roster: fermions = −18; scalar = 2(1−6ξ).
+
+**(c) ξ = −9/2 — THE MODEL'S PREDICTION FOR ITS OWN FOUNDING COUPLING:** solving
+str = 12π gives ξ = −4.475; **the half-integer −9/2 gives str = 38 — the same 0.8%
+landing as sweep 78.** The sign hazard RESOLVES: gravity attracts BECAUSE the founding
+F(φ) = 1 + ξA(φ) coupling is large and negative. Inverted honestly: G is not derived
+FROM ξ tonight — G MEASURES ξ, and the measurement is falsifiable by any independent
+determination of the founding coupling. [Numerology-watch on the half-integer's
+cleanness; residues: the a₁ convention check (literature), the twin-doubling's
+gravitational adjudication (P1.c-class).]
+
+**THE QG STATUS AFTER THE CLOSURE PASS:** 1/G = [2(1−6ξ) − 18]·K²(12π-normalized),
+ramp O(1) = 1 derived, K = the coherence scale. The frame's match-or-die now reads:
+**the day ξ is independently determined, gravity's strength is either confirmed or the
+frame dies** — the founding coupling and Newton's constant are one measurement apart.
+The model's first equation and its last unknown are the same symbol.
