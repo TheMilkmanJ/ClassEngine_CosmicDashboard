@@ -1921,3 +1921,15 @@ Already banked and confirmed present: the secondary shedding (the vortex network
 P-028's engine), the core waves (Kelvin/Widnall). The sequence carries no other gaps a
 lab ring would flag. Concordance note: the armed A_s freeze value updates to the JOINT
 k at firing time (2.089e-9 vs the closed form's 2.081e-9 — inside all windows).
+
+### Sweep 60 ramp correction (strike 13 — two steps confessed)
+
+(1) THE CORE SIZING was a two-point evaluation of a continuous profile: the honest
+object is the MEAN INTERIOR DEFICIT via the growth equation's centrifugal term —
+suppression ~ (ω/H)² ≈ 10⁻⁴ vs the ~10⁻¹ needed. **The cold verdict SURVIVES ramping,
+now by the right calculation**; B1's sixth ambush (the axis-void profile) stands.
+(2) THE SOUND'S FATE was a binary ("damps OR seeds"); the truth is a FILTER: the pour's
+acoustic spectrum × the medium's damping envelope = the surviving patch spectrum —
+smooth, scale-dependent. UPGRADE: if P-031's isocurvature line is the pour's sound, its
+ℓ ~ 170 WIDTH AND SHAPE are the damping envelope's imprint — a computable target for
+B2's thermodynamics, replacing the maybe with a spectral prediction-in-waiting.
