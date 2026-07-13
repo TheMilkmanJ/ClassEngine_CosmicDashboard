@@ -37,7 +37,7 @@ a billed transaction, and the bill is why it has a direction.**
 ## 3. The outcome question — the one legal move, and its price (graded)
 
 Decoherence gives the basis and the statistics; WHICH outcome occurs is the residual question.
-The model's lane, graded across internal review (internal review):
+The model's lane, graded across internal review:
 - outcomes are consistent with selection by the medium's **global phase** (the nonlocal beable
   — the same ODLRO object as the entanglement document), through the triple co-link (local
   structure, own structure, the handoff budget);

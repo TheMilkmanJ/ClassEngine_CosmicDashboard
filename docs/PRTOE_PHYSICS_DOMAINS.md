@@ -808,7 +808,7 @@ analog).** The Feynman relation S(k) = k²/2mω(k) with Bogoliubov ω(k)
 is measured (PRL 88, 120407) — the form-factor softness that
 radiatively protects κ_v has a lab-verified shape. *Hook: the κ_v
 program's protection argument leans on this shape holding for the
-medium; the #11 nonlinear derivation must reproduce it.*
+medium; the nonlinear derivation must reproduce it.*
 
 **65. Amplitude ("dark Higgs") modes in lattice superfluids — RECEIPT
 (R1.6's lab twin).** The medium's amplitude mode — the object whose gap

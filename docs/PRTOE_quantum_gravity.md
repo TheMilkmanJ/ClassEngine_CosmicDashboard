@@ -1,10 +1,10 @@
 # Quantum Gravity — the Medium's Own Metric (2026-07-11)
 
-> \*New reader? House terms decode in \[PRTOE\_READERS\_GUIDE.md](PRTOE\_READERS\_GUIDE.md); claim conditionality maps in \[PRTOE\_DEPENDENCY\_TREE.md](PRTOE\_DEPENDENCY\_TREE.md).\*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
 
-*The standalone for the graded QG frame (internal review, internal review). Status: a COHERENT
+*The standalone for the graded QG frame (internal review). Status: a COHERENT
 emergent-quantum-gravity FRAME (internal review words), with its receipts at their graded sizes and its
 two earn-it tests registered (the working docket). This is the strongest of the quantum documents: unlike
 the interpretation-layer three, this one carries graded structure and one computed, matched
@@ -20,10 +20,10 @@ from three banked routes and one canonical commutator.
 ## 1\. The three routes to the emergent metric (all banked, one object)
 
 1. **The acoustic metric** (Son's phase-EFT isomorphism — founding-banked): excitations of the
-condensate propagate on an effective metric g\_μν built from the medium's own variables
+condensate propagate on an effective metric g_μν built from the medium's own variables
 (density, flow). Horizons are sonic horizons; geodesics are phonon paths.
 2. **Sakharov induction** (in-tree): the Einstein–Hilbert action induced by the medium's
-quantum fluctuations — gravity's stiffness (M\_red²) as a loop output, not an input.
+quantum fluctuations — gravity's stiffness (M_red²) as a loop output, not an input.
 3. **The Jacobson thermodynamic route**: Einstein's equations as an equation of state from
 δQ = T dS on local horizons. The radio night derived Jacobson's entire input kit piece by
 piece without naming it: dE = −p dV (internal review-graded), the zero-sum Hamiltonian constraint
@@ -32,7 +32,7 @@ internal review: the area law is the posited input and the hard part).
 
 ## 2\. Quantum by inheritance
 
-The medium's canonical pair is number and phase: **\[θ̂, N̂] = i** (Anderson) — the same
+The medium's canonical pair is number and phase: **[θ̂, N̂] = i** (Anderson) — the same
 commutator that protects the f-sum rule (internal review-graded: "the right identity... founding-
 canonical"). The emergent metric is a composite of these canonically-quantized operators, so
 its perturbations — the collective "graviton" — are quantum **without a separate quantization
@@ -43,7 +43,7 @@ step** (internal review: "the standard analog-gravity position, and it is cohere
 |obstruction|the model's answer|provenance|
 |-|-|-|
 |non-renormalizability|above the cutoff there is no metric to quantize — the d.o.f. dissolves (a relocation to the medium's microphysics, honestly so)|internal review(3)|
-|the cosmological constant|the vacuum budget capped at the gap by no-double-counting; the VALUE computed: ρ\_inf^¼ = ½α\_c²M₂/(16π²α\_c^{3/2})^¼ = 2.7 vs 2.25 meV — 20%, zero dials|internal review (graded: the model's floor, NOT the CC problem writ large)|
+|the cosmological constant|the vacuum budget capped at the gap by no-double-counting; the VALUE computed: ρ_inf^¼ = ½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.7 vs 2.25 meV — 20%, zero dials|internal review (graded: the model's floor, NOT the CC problem writ large)|
 |Weinberg–Witten (no composite gravitons)|evaded by the preferred frame (Lorentz emergent/IR) — the correct textbook escape; the LV pricing ledger OWED (clock-comparison/GRB class, 1e-14..1e-20)|internal review (the "fully paid" retraction on record)|
 |the singularity theorems|discharged at premises (the arena ends at ξ)|internal review|
 
@@ -61,7 +61,7 @@ qualification is permanent (internal review(2): "QG only CONDITIONAL on the asse
 horizon. This single derivation currently underwrites FIVE structures (the Jacobson route,
 the BH interior's entropy, the information paradox's Page curve, this document's §1.3, and
 the arrow document's rigor). internal review: "the working docket is THE pivotal owed item."
-2. **Compute induced-G**: M\_red² from the medium's loop (Sakharov's formula) — match or die
+2. **Compute induced-G**: M_red² from the medium's loop (Sakharov's formula) — match or die
 (internal review phrase).
 
 ## 6\. Honest summary
@@ -75,12 +75,12 @@ and the medium was quantum before there was anything to hear it.*
 
 ## Sources
 
-\[Sakharov1967] (induced gravity — the no-bare clause's ancestor), \[Jacobson1995] (the thermodynamic route), \[Bekenstein1973]/\[Hawking1975] (the area law), \[FFZ1997] (the species cancellation), \[WeinbergWitten1980] (the no-go and its frame-based evasion). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+[Sakharov1967] (induced gravity — the no-bare clause's ancestor), [Jacobson1995] (the thermodynamic route), [Bekenstein1973]/[Hawking1975] (the area law), [FFZ1997] (the species cancellation), [WeinbergWitten1980] (the no-go and its frame-based evasion). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## ADDENDUM (2026-07-12,) — the tests: three paid, one priced, one question left
 
-> \*\*STATUS: EXPLORATORY / UN-REFEREED\*\* (review-hold booking; sweeps 5–9 of
-> PRTOE\_DERIVATION\_HUNT.md). This addendum upgrades the file's original "CONDITIONAL"
+> **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking; sweeps 5–9 of
+> PRTOE_DERIVATION_HUNT.md). This addendum upgrades the file's original "CONDITIONAL"
 > standing materially — and states exactly what the condition has narrowed to.
 
 The original file left quantum gravity conditional on a WALL of tests (the keystone's
@@ -90,15 +90,15 @@ address). Tonight the wall decomposed into five pieces, and four are settled:
 seats the vacuum, shields Lorentz, tilts the spectrum, and gaps the hierarchy).
 2. **Frolov–Fursaev species cancellation → S = A/4 free** — banked (internal review-credited).
 3. **Jacobson: S = A/4 + Clausius ⟹ Einstein's equations** — literature-standard
-\[Jacobson1995].
+[Jacobson1995].
 4. **Applicability under the preferred frame** — PAID by the Lorentz shield
-(PRTOE\_LV\_pricing.md): matter has NO vector/tensor bridge to the frame (the dangerous
+(PRTOE_LV_pricing.md): matter has NO vector/tensor bridge to the frame (the dangerous
 operators are unwritable, not suppressed), so the local QFT whose entanglement builds
 the area law is standard Lorentz-invariant QFT to 12–38 orders. The Weinberg–Witten
 no-go is evaded by the same structure that pays this bill.
 5. **Nonlinear exactness** (the analog-gravity "linearized-plus" worry) — PRICED:
 non-equilibrium corrections to the Clausius step generate curvature-squared terms
-suppressed by the basement scale; $R^2/M\_{\\rm Pl}^2$ corrections are allowed by every
+suppressed by the basement scale; $R^2/M_{\\rm Pl}^2$ corrections are allowed by every
 existing test with enormous margins. A performance bill, not an open door.
 
 **What remains — one question:** the basement roster (the working docket) — the explicit species
@@ -121,7 +121,7 @@ and photons identically — which GW170817 already tests and passes by construct
 ## ADDENDUM 2 (2026-07-13, the fresh-eyes night) — the match-or-die test FIRED
 
 **The first shot (sweep 78, Fermi grade):** the induced-gravity bootstrap (Λ = the
-induced scale itself) makes Sakharov's formula a pure-number demand — N\_eff = 12π =
+induced scale itself) makes Sakharov's formula a pure-number demand — N_eff = 12π =
 37.70 — and the roster's twin-doubled count (18 lepton components × 2) + the medium's
 scalar (2) = **38: a 0.8% landing at that convention.** The frame did not die.
 
@@ -132,7 +132,7 @@ UV is a measurable dispersion shape (the ramp O(1) computed: definite once p is 
 wrong-signed 1/G; **the rescue candidate is the founding coupling itself: the scalar's
 non-minimal ξ (F(φ) = 1 + ξA(φ)) dominating the supertrace with the right sign.**
 THE G-CLOSURE: three model-owned numbers — the dispersion shape p, the fermion weights
-under that regulator, ξ — between the frame and Newton's constant. Queued (#29).
+under that regulator, ξ — between the frame and Newton's constant. Queued (docketed).
 
 ## ADDENDUM 3 (2026-07-13, sweep 80) — THE G-CLOSURE: the formula closes; the grade
 
@@ -141,7 +141,7 @@ under that regulator, ξ — between the frame and Newton's constant. Queued (#2
 The three owed numbers, resolved at their honest grades:
 
 1. **The regulator shape — DERIVED.** The modes' contribution to the induced action is
-weighted by their condensate mixing: the Bogoliubov coherence factors, (u\_k v\_k)² —
+weighted by their condensate mixing: the Bogoliubov coherence factors, (u_k v_k)² —
 a p = 2 ramp, the medium's own smooth UV (no scheme choice anywhere). Computed ramp
 O(1) = 1.0000 exactly: the physical regulator reproduces the naive coefficient, and
 Sakharov's half-century scheme ambiguity is CLOSED within this model — the medium
@@ -158,7 +158,7 @@ the first shot.** The fermion-sign hazard RESOLVES: gravity attracts because the
 founding F(φ) = 1 + ξA(φ) coupling is large and negative — the model's first
 equation is the term that outvotes its thirty-six fermionic components.
 
-**THE CLOSED FORMULA:** 1/G = \[2(1−6ξ) − 18] · K²/(12π-normalization), K = the
+**THE CLOSED FORMULA:** 1/G = [2(1−6ξ) − 18] · K²/(12π-normalization), K = the
 coherence scale, ramp O(1) = 1 (derived).
 
 **THE GRADE, stated exactly:** DERIVED-CONDITIONAL — not signed. G is not derived from

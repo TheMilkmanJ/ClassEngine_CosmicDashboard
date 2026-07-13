@@ -20,18 +20,18 @@ CMB's ΛCDM prediction: the late universe is smoother than the early universe sa
 The dCDF is ONE fluid whose phases exchange: the conversion channel (recorded, coded:
 dcdf_conv_g/at/n) lets the DM component shed into the floor/dark-radiation at late times —
 **the same physics as the cycle's pdV ledger** (the fluid pays gravity's tax through its own
-equation of state; internal review–353 graded the ledger this belongs to). Converting a percent-level
+equation of state; internal review graded the ledger this belongs to). Converting a percent-level
 fraction of DM after z ~ 1 suppresses late growth (lower S₈) WITHOUT touching the CMB-era
 history — exactly the shape of the observed tension.
 
 ## 2. Where it stands empirically (live)
 
-- The mechanism is built and recorded (the #36 CLASS implementation; the damping-tail check #37
+- The mechanism is built and recorded (the CLASS implementation; the damping-tail check #37
   passed).
-- The omk minimum (internal review): S₈ = 0.807 at the dyad's best point — between the CMB-ΛCDM 0.83
+- The omk minimum: S₈ = 0.807 at the dyad's best point — between the CMB-ΛCDM 0.83
   and the lensing 0.76–0.78: the model already sits on the tension's easing side.
 - The chains NOW: conv_g is a sampled parameter in the thaw chain/conv_desi (pre-registered at
-  g ≈ 0.10 ± 0.05, internal review); their posteriors are the mechanism's live test. Interim the thaw chain
+  g ≈ 0.10 ± 0.05); their posteriors are the mechanism's live test. Interim the thaw chain
   explores conv_g ~ 0.2 — UNCONVERGED, watch-don't-grade.
 - MEANING-INVERSION NOTE (internal review-class, kept): a conv_g pulled LARGE would ease S₈ at the price
   of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.

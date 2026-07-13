@@ -4,7 +4,7 @@
 
 
 *Thread 2 of the atom-grammar survey. Status: STRUCTURAL (candidate) with computed numbers;
-booked internal review/421. The improvement: the superradiance physics recorded at P-2026-005 acquires a
+booked internal review. The improvement: the superradiance physics recorded at P-2026-005 acquires a
 LEVEL STRUCTURE and a characteristic mass scale — and two independent routes land on the same
 number.*
 
@@ -26,7 +26,7 @@ model the medium is not hypothetical — it is the dark matter itself, with a RE
 
 ## 2. The two-route coincidence (the sharp point)
 
-The black-hole interior document (internal review) found, by a *different* route (r_s = ξ), that black
+The black-hole interior document found, by a *different* route (r_s = ξ), that black
 holes change character at **M ≈ 2×10¹⁰ M☉**. Both routes are ħ/(mc)-class against GM/c² — but
 their conspiring means: **the top of the observed SMBH mass function is where this model's
 black holes stop being weak-coupling atoms and become strong-coupling quantum objects whose

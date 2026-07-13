@@ -25,7 +25,7 @@ acquiring rotation (charge). Runs ONCE.
   **V(Ψ) = m²|Ψ|² + λ|Ψ|⁴**          (m ~ 10⁻²¹ eV,  λ ~ 10⁻⁸⁸)
   outputs:  **Ψ₀** (field scale ~10¹⁷ GeV),  **f_rot ≈ 0.4 / f_amp ≈ 0.6** (dice)
   [DERIVED mechanism (Room 1 identity = charged rotating superfluid);
-   exact Ψ₀, f_amp OPEN — the #11 genesis calc]
+   exact Ψ₀, f_amp OPEN — the genesis calc]
 
 ## ACT 2 — The regime change: the one early account  (§96)
 Before condensation the medium is the NORMAL FRACTION — w = 1/3, radiation-like,
@@ -59,7 +59,9 @@ order parameter |Ψ| forms; thereafter it dilutes as dark matter.
 The condensate, now gravity-only, rescales the metric — shifting ALL masses
 UNIVERSALLY (flavor-blind: the equivalence principle can't tell electron from
 quark). For the CMB the electron piece dominates:
-  **ε ≡ δm_e/m_e = c · f_amp · (Ψ₀/M_red) ≈ 1.24%**
+  **ε ≡ δm_e/m_e ≈ 1.24%** *(the decomposition shown in this story is the earlier
+  dyad-era form; the standing derived stack is ε = c·f̄·α_c = 27α/5π — see
+  THREE_EQUATIONS Eq. 3; this file is kept as the narrative of how the number was found)*
      c ≈ 1        (gravitational strength; naturalness ceiling DERIVED §75,
                    "forced vs free dial" OPEN — #14 loop calc)
      f_amp ≈ 0.6  (genesis dice — COMPUTED)
@@ -98,11 +100,11 @@ structure → today: H₀≈70, dark matter + dark energy from one fluid, a univ
 varying-constant drift at the edge of detection.
 
 ## The honest ledger of what's DERIVED vs OWED
-  DERIVED : R=0; genesis mechanism; basin-entry/census-switch; field SHRINKS (#11);
+  DERIVED : R=0; genesis mechanism; basin-entry/census-switch; field SHRINKS (docketed);
             G=8πGT; S formula; naturalness ceiling on c.
   TRACED  : the 1.24% amplitude (= c·f_amp·Ψ₀/M_red), c≈0.93±0.38 measured.
   CONDITIONAL : the regime-change deuterium heal (co-signature passes; κ_v owed).
-  OPEN (the 3 walls) : c forced-vs-dial (#14 loop calc); exact Ψ₀/f_amp (#11
-            genesis); granule/dice readout (#8 sim); + Fairbank convergence (#6).
+  OPEN (the 3 walls) : c forced-vs-dial (docketed; loop calc); exact Ψ₀/f_amp (docketed
+            genesis); granule/dice readout (docketed; sim); + Fairbank convergence (docketed).
   THREATS : DESI thawing (2.9σ against), birefringence consolidating (2.9σ,
             P-009), novelty⊥fit (stands until amplitude derived).

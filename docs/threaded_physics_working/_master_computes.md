@@ -23,7 +23,7 @@ Residual standalone: bench designs (T7), TRGB/PolyChord (external clocks), instr
   feeds the same ε chain.
 - M2 ↔ M7: the same integer n (the winding) sets the η-era phase pattern, the comb's tooth
   count, and the cavity's modulation — one topological number, three computations.
-- M3 ↔ M4: the medium's UV completion (the Planck basement, internal review) plausibly fixes BOTH the
+- M3 ↔ M4: the medium's UV completion (the Planck basement) plausibly fixes BOTH the
   quartic's origin and the frame question — one microphysics, two masters.
 - M5 ↔ M6: the chains' posteriors re-stamp the same lattice the windowed run re-stamped.
 

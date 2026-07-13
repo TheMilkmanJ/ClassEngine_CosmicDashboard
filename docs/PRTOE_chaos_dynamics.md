@@ -9,8 +9,8 @@
   the recorded dice made quantitative); the cycle map: NO attractor (7 chains × 120 cycles,
   spreads [0.1, 0.97] to the last cycle — internal review)
 - the resolution: TOPOLOGY averages what chaos scatters — f̄ = ∫f_amp(θ)dθ/(π/4) = 0.635 ±
-  0.026 (ramp-corrected, internal review): the winding's uniform measure integrates the chaos out
-- the odometer: f̄(Ri) shallow (~0.09 per 100× energy) — chaos-robust, clock-weak (internal review)
+  0.026 (ramp-corrected): the winding's uniform measure integrates the chaos out
+- the odometer: f̄(Ri) shallow (~0.09 per 100× energy) — chaos-robust, clock-weak
 
 ## How PRTOE connects
 Chaos is not decoration here — it is the model's account of WHY individual draws are lawless

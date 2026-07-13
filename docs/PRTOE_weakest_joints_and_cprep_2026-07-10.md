@@ -45,7 +45,7 @@ Post-fragmentation the Q-ball charge IS the DM; the magnitude is [OBJECT-PENDING
 leptogenesis magnitude calc (ties to J5/P-020).
 
 **TOP-3 make-or-break: J1 (DE value), J2 (gate-0 clearance), J3 (DESI w=−1).**
-**Most buildable / highest-leverage: J2 (#40) and J4 (independent m_e detection).** J1 may be
+**Most buildable / highest-leverage: J2 (docketed) and J4 (independent m_e detection).** J1 may be
 constitutional; J3 is a data verdict.
 
 ---
@@ -54,12 +54,12 @@ constitutional; J3 is a data verdict.
 
 ### B0. GATE (do not skip)
 Integration is GATED on **both**: (a) confidence on the new model **>85%**, and (b) gate-0
-resolver (#40) landing **clear**. Current confidence **~13–17%** → **NO INTEGRATION THIS TURN.**
+resolver (docketed) landing **clear**. Confidence assessed as insufficient → **NO INTEGRATION THIS PASS.**
 This section is a map so the eventual fix drops in without syntax/missing-piece thrash. **No
 active-code changes are made.**
 
 ### B1. Current surface (recon)
-- `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (#17 conformal onset), `dcdf_conv_g/at/n`
+- `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (docketed; conformal onset), `dcdf_conv_g/at/n`
   (DM→DE/dark-rad conversion); inline `dcdf_s_of_rho`, `dcdf_rho_rad`, `dcdf_conv_rate`.
 - varying-m_e: via CLASS `varying_fundamental_constants` (instantaneous step at
   `varying_transition_redshift`, currently z=50 — a HARD STEP, not the order-parameter ramp).
@@ -67,7 +67,7 @@ active-code changes are made.**
 ### B2. What the new model changes (when unlocked)
 1. **Dyad as a thermal order parameter, not a z=50 step.** Replace the hard step with a smooth ramp
    φ(T)/v = √(max(0, 1 − T/T_c)), so δm_e/m_e = ε·(φ/v)² turns on continuously below T_c.
-   New param: `dcdf_dyad_Tc` (condensation temperature, ~keV, the #40 output). `Tc<=0` disables →
+   New param: `dcdf_dyad_Tc` (condensation temperature, ~keV, the output). `Tc<=0` disables →
    recovers the current step (backward-compatible, like the `z_rad_onset<=0` guard).
 2. **Two-field bookkeeping.** Field 1 = existing dcdf (charge/DM+DE). Field 2 = dyad (charge-free).
    Only field 2 sources δm_e; field 1 stays as-is. Minimal: one new ramp function, one new param.
@@ -103,7 +103,7 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 
 ## JOINTS UPDATE 2 (2026-07-11, the radio night)
 
-- **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS (internal review):** ρ_inf^¼ =
+- **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS:** ρ_inf^¼ =
   ½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV. Bohr binding × Landau-capped collective
   zero-point (pair-breaking = E_b = 2Δ) × BEC phonon speed (c_s = √α_c). The 0.4% "match"
   retired as prefactor-naive; scope held cold: the MODEL's floor value, not the CC problem writ

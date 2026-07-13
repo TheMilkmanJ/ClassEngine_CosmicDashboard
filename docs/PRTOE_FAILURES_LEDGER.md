@@ -32,7 +32,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
 | The candle room's "mass-step candidate explanation" reading | entry 85's dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | entries 85/85b, 2026-07-13 |
 | Entry 86's vector escape (n Kelvin branches closing gravity's sign; the n = 19 co-landing) | DEAD FOURFOLD within one day (entry 87): the global winding is coreless (no Kelvin sector); measure 10⁻²⁵; infrared 10⁻²⁵; the halo route kinematically fenced — the coincidence-watch protocol caught its own flag at designed speed | entries 86–87, 2026-07-13 |
-| The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule (internal review) — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | internal review |
+| The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | internal review |
 
 ## 3. Wrong calls by the defense, self-caught and corrected (the error log)
 
@@ -135,7 +135,7 @@ wall — the audit confirms the catch discipline worked retroactively.
 | candidate | the step in the kill | the ramp re-run | weight |
 |---|---|---|---|
 | **The ξ-scale wide-binary force** (§2) | "coherence lengths don't push on *embedded* bodies" — embedded/not-embedded read as a binary | **RE-RUN EXECUTED (entry 83): the ramp is real (smooth across the 402 AU hinge) but the census caps the amplitude at gravitational polarization, 4πGρ_dm ξ²/c_s² ≈ 10⁻¹⁸ — 17.3 orders under the claims. THE KILL STANDS, now mechanism-grade; corollary: the model predicts NO wide-binary anomaly (a confirmed one = a P-2026-014-class kill)** | closed 2026-07-13 |
-| The two-loop shooter v1 (§5) | "perturbative RGEs cannot reach" — but perturbativity fails *gradually*, not at a wall | already docketed as its own named redesign (perturbative-edge matching); the ramp re-run and the redesign are the same object | heavy (#29 class) |
+| The two-loop shooter v1 (§5) | "perturbative RGEs cannot reach" — but perturbativity fails *gradually*, not at a wall | already docketed as its own named redesign (perturbative-edge matching); the ramp re-run and the redesign are the same object | heavy (docketed; class) |
 | The gate-0 deuterium heal (§2) | the heal variants were window/step-shaped couplings | the coupling form is already filed theory-open — but the kill is a 12σ DATA exclusion across four variants and carries a standing do-not-re-run order; the ramp question lives as theory-open, not as a re-run | closed by data + standing order |
 
 **Net: one new live re-run (the wide-binary intermediate regime), one already-owed

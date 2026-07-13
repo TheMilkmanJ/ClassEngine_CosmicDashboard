@@ -179,8 +179,8 @@ $$c_s^2 = \frac{\mathcal{G}}{\mathcal{K}} > 0$$
 
 **Mass (No Tachyon):**
 $$\\n\begin{aligned}
-\mathcal{M} &= a^2 V_{\phi\phi} + \frac{F_\phi}{F} \left( \frac{R_0}{2} - 3 \mathcal{H}^2 - \frac{\phi_0''}{a^2} \right) \\
-&- \frac{F_{\phi\phi}}{F} \left( \frac{\phi_0'^2}{a^2} \right) + \frac{F_{\phi\phi\phi} \phi_0'^2 \phi_0''}{F}
+\mathcal{M} &= a^2 V_{\phi\phi} + \frac{F_\phi}{F} \left(\frac{R_0}{2} - 3 \mathcal{H}^2 - \frac{\phi_0''}{a^2} \right) \\
+&- \frac{F_{\phi\phi}}{F} \left(\frac{\phi_0'^2}{a^2} \right) + \frac{F_{\phi\phi\phi} \phi_0'^2 \phi_0''}{F}
 \end{aligned}
 $$
 

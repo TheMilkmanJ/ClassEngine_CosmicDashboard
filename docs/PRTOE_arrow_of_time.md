@@ -16,7 +16,7 @@ initial state was so absurdly special: Penrose priced the required fine-tuning a
 
 ## 1. The answer: the initial state was not selected — it was FORCED, by uniqueness
 
-The first genesis starts in **the zero-point state** (internal review, graded: "the measure problem
+The first genesis starts in **the zero-point state** (graded: "the measure problem
 dissolves at the root — the initial condition is unique... NO initial draw"). The vacuum:
 
 - has **no structure to specify** — it is the one state carrying zero information;
@@ -33,7 +33,7 @@ begins, begins in the state that needs no choosing, and that state is minimal-en
 
 ## 2. The running arrow: the gravity account's drawdown
 
-With the low start explained, the arrow itself is the model's graded ledger (internal review):
+With the low start explained, the arrow itself is the model's graded ledger:
 
 1. **The reservoir**: gravitational free energy = smoothness (gravity's negative heat capacity
    inverts intuition: uniform = far from equilibrium = the full account). Graded
@@ -47,7 +47,7 @@ With the low start explained, the arrow itself is the model's graded ledger (int
    erasure toll; the environment's monitoring IS the recording (internal review: "the model reinvented
    quantum Darwinism"). Time's direction is the direction in which the records accumulate.
 5. **The compounding**: Tolman — the crunch keeps the heat; cycles lengthen; the un-crunchable
-   Weyl is debt that can never be called back (internal review). The arrow survives the bounce.
+   Weyl is debt that can never be called back. The arrow survives the bounce.
 6. **The terminus**: the free-energy threshold (internal review-graded: "the same ledger from opposite
    sides") — the last cycle is the one that cannot fund the next genesis; the chain damps into
    the eternal ground state (~10¹⁸ cycles, recorded bookkeeping). **The arrow ends where it
@@ -66,7 +66,7 @@ With the low start explained, the arrow itself is the model's graded ledger (int
 ## 4. The two-sided audit (honest)
 
 - **What is genuinely derived-from-recorded:** the uniqueness argument (internal review-graded), the ledger
-  chain (internal review, each link individually graded), the terminus bookkeeping.
+  chain (each link individually graded), the terminus bookkeeping.
 - **What is owed:** (i) the entropy of the vacuum start is *defined* as minimal within the
   model's state space — a rigorous entropy functional for the medium (von Neumann on the
   condensate) would convert §1 from argument to theorem; (ii) the area-law/entanglement piece

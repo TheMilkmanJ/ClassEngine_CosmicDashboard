@@ -1,4 +1,4 @@
-# Plasma Physics — the Trace's One Window (standalone; internal review/333, internal review graded)
+# Plasma Physics — the Trace's One Window (standalone; internal review graded)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

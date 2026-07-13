@@ -139,7 +139,7 @@ of it.
   (§82, author — "no half-gravity")? DATA can referee it: the granule sim's
   independent f_amp isolates c (§83, breaks the §77 degeneracy) and reads our
   universe's dice roll (f_amp ≈ 0.56). But *measuring* c=1 ≠ *deriving* it (§84):
-  only the effective-action calc (#14) proves "no dial."
+  only the effective-action calc (docketed) proves "no dial."
 
 **Why the coupling is universal & flavor-blind (§89, author):** gravity couples
 to mass-energy only — it *cannot* tell electron from quark ("same shit, different
@@ -185,7 +185,7 @@ genesis ODE for f_amp still needs WSL). Result:
   Psi0; eps=1.24% then pins m to the ~1×10⁻²⁰ decade. Falsifiable, and consistent with the
   Lyman-α fuzzy-DM floor (~2×10⁻²¹ eV, so allowed).
 - **OWED (factor-level, not order-level):** f_amp from the genesis orbit (WSL ODE), c from
-  the #14 loop, O(1) misalignment factors (~2x). These move the pinned m by factors.
+  the loop, O(1) misalignment factors (~2x). These move the pinned m by factors.
 
 ## SESSION UPDATE — #11 f_amp orbit (2026-07-08): mechanism confirmed, ~0.6 natural
 
@@ -204,7 +204,7 @@ orbit.
 
 **#11 amplitude standing:** eps = c * f_amp * (Psi0/M_red). Psi0 DERIVED (abundance,
 → m~2×10⁻²⁰ eV), f_amp mechanism-confirmed (~0.6), both in-sandbox. Only **c** remains
-(the #14 effective-action loop). The three are mutually consistent at 1.24% for
+(the effective-action loop). The three are mutually consistent at 1.24% for
 m~2×10⁻²⁰ eV, c~1, f_amp~0.6.
 
 ## SESSION UPDATE — #2 (real Z4 A-term) + #14 (c verdict), 2026-07-08
@@ -224,7 +224,7 @@ matter scalar couples conformally via a non-minimal ξ φ² R with CONTINUOUS ξ
 is a BOUNDED O(1) (≤1 by naturalness, ~0.93 measured), not symmetry-forced.
 **Consequence:** with f_amp computed, eps = c*f_amp*(Psi0(m)/M_red) = 1.24% is ONE
 equation in TWO unknowns → pins a **c-m relation**, not either alone. Breaks 3 ways:
-compute ξ (hard theory), measure m (fuzzy-DM astro), or the granule sim (#8).
+compute ξ (hard theory), measure m (fuzzy-DM astro), or the granule sim (docketed).
 
 **AMPLITUDE PROGRAM, post-#11/#14:** Psi0 DERIVED (abundance), f_amp DERIVED from the
 Z4 dice (~0.6), c a bounded soft-dial degenerate with m. The 1.24% is now a **derived
@@ -310,7 +310,7 @@ costs the mutual-exclusion theorem; 2.9sigma hint, not a detection).
 
 ## RETRACTION (2026-07-08) — the DESI "regime change caught live" reframe was WRONG
 
-internal review turn 89 objection #2 adjudicated and UPHELD. The DESI reframe (w evolving = the
+internal review, objection #2 adjudicated and UPHELD. The DESI reframe (w evolving = the
 late regime change, threat→confirmation) CONTRADICTED the mutual-exclusion theorem
 (ANN-2026-008), and the theorem WINS -- it is LSS-derived, not fiat: observable DE drift
 ν~1×10⁻³ requires a core scale M_eff~6.6×10⁻²⁵ eV (l_dB~90 kpc) ⇒ galaxies could not exist.

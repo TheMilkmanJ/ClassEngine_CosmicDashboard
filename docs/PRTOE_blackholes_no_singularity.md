@@ -23,14 +23,14 @@ Sakharov-induced action; the Jacobson thermodynamic kit — the assembled QG fra
 a "legitimate emergent/analog-gravity model"). An emergent metric is only defined where the
 collective description holds — for gradients longer than the **healing length**
 
-    ξ = ħ/(m c_s),   with m = 2.24×10⁻²⁰ eV (recorded) and c_s = √α_c = 0.146 (derived, internal review)
+    ξ = ħ/(m c_s),   with m = 2.24×10⁻²⁰ eV (recorded) and c_s = √α_c = 0.146 (derived)
 
     **ξ = 6.0×10¹³ m = 402 AU = 0.0064 ly.**
 
 A "singularity" is a statement about the metric at arbitrarily small scales. Below ξ **there is
 no metric to be singular** — only the quantum medium. This is the same no-double-counting move
-that resolved the vacuum catastrophe (internal review) and the graviton's non-renormalizability
-(internal review): the degree of freedom dissolves at the cutoff; questions about it beneath the cutoff
+that resolved the vacuum catastrophe and the graviton's non-renormalizability
+: the degree of freedom dissolves at the cutoff; questions about it beneath the cutoff
 are category errors.
 
 ## 2. The number that changes the picture: every known black hole fits inside ONE healing length
@@ -77,7 +77,7 @@ In acoustic gravity the event horizon **is** the sonic horizon: the surface wher
 exceeds c_s. Inside it, the flow is super-critical — **the Landau criterion (cert-1/F3, the
 founding certificate) is violated** — so the superfluid description fails *dissipatively*: the
 infalling medium transitions to the **normal phase** and thermalizes. This is the same physics
-as the crunch's mouth (internal review, recorded): super-threshold flow gets massed, caught, and
+as the crunch's mouth (recorded): super-threshold flow gets massed, caught, and
 thermalized. The interior is therefore:
 
     a normal-phase, thermal, finite-density core (the Landau-broken region),

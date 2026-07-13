@@ -4,7 +4,7 @@
 
 
 *Thread 15's standalone; T9's sibling (underground silence → sky silence). Status: STRUCTURAL —
-the null is FORCED by the conserved dark charge (recorded) and the portal scale (internal review).
+the null is FORCED by the conserved dark charge (recorded) and the portal scale.
 The improvement: every DM-annihilation "excess" of the last two decades is PREDICTED
 astrophysical, from theorems — with the same unhedgeable exposure as T9.*
 

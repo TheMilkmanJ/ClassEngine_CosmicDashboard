@@ -17,7 +17,7 @@ past, but its first moment is a *state*, not a point of infinite density.
 ## 1. Why the crunch cannot singularize (the same three pillars as the black-hole interior)
 
 1. **The metric ends before the density diverges.** The metric is emergent (the graded QG
-   frame, internal review); it exists only for gradients longer than the healing length ξ = ħ/(m c_s).
+   frame); it exists only for gradients longer than the healing length ξ = ħ/(m c_s).
    A contracting universe approaching ξ-scale curvature radii exits the metric description
    *before* any singularity theorem's conclusion can be located — the arena dissolves
    (the same no-double-counting as internal review).
@@ -31,17 +31,17 @@ past, but its first moment is a *state*, not a point of infinite density.
    are massed, made trace-visible, and thermalized. The crunch is a *dissipative thermal
    process* — Tolman's kept entropy — not a geometric implosion. What survives it is exactly
    the genome: the topological winding, which the crunch **cannot** unwind without tearing the
-   torus (internal review, granted — the genome's crunch-immunity is topological protection).
+   torus (granted — the genome's crunch-immunity is topological protection).
 
 So each cycle ends: finite density, thermalized radiation, conserved topology — and reignites
-(the next genesis funded by the gravitational account, internal review). No cycle contains a
+(the next genesis funded by the gravitational account). No cycle contains a
 singularity at either end.
 
 ## 2. The first genesis: the beginning is a state, not a point
 
 The chain is **not past-eternal**: Tolman's entropy accumulation, run backward, terminates at a
 FIRST cycle (recorded, the before-genesis theorem). The classical intuition wants a singular
-t = 0 there. The model's answer (internal review, graded "a cleaner re-founding"):
+t = 0 there. The model's answer (graded "a cleaner re-founding"):
 
 > **The first genesis starts in the zero-point state** — R = 0, θ undefined, n = 0: the vacuum,
 > the unique state that requires no choice. The tachyonic roll-out amplifies the vacuum's own
@@ -68,9 +68,9 @@ rearranged itself.
 |---|---|---|
 | initial singularity (t = 0, ρ = ∞) | first genesis from the vacuum state; ρ ≤ ρ_bounce always | structural (§1–2) |
 | the singularity theorems | discharged at premises (emergent metric ends at ξ; SEC violated by quantum pressure) | argued (BH doc §6) |
-| "what banged?" | the zero-sum loan: condensate energy vs gravitational debt, total = 0 (theorem) | graded (internal review) |
+| "what banged?" | the zero-sum loan: condensate energy vs gravitational debt, total = 0 (theorem) | graded |
 | "what came before?" | earlier cycles back to a FIRST roll; before the first roll: no clock, no light, no question with a referent | recorded (before-genesis theorem) |
-| initial-conditions fine-tuning | the vacuum is unique — no draw, no choice, no tuning | graded (internal review) |
+| initial-conditions fine-tuning | the vacuum is unique — no draw, no choice, no tuning | graded |
 | the pre-genesis relic hunt | NULL: the crunch eats all light (τ_ff ≫ 1); any confirmed pre-genesis EM relic KILLS the model | recorded falsifier |
 
 ## 5. Honest owed items

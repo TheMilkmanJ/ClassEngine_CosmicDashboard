@@ -47,8 +47,8 @@ twist_floor.py, c1_locus_twist.py.*
 - **Ladder:** Reverse = viable-but-not-in-PRTOE (clamp forbids it). Bounce = hits BKL. Cyclic = hits Tolman.
 
 ### 6. The c=1 location — a DEFINED, confining acoustic horizon (c1_locus_twist.py)
-- Ghost-condensate dispersion v²(k)=c_s²+k²/M² ⇒ perturbations hit c at **k\*=M** (condensate UV scale). v RISES with k; long modes crawl, short modes reach c.
-- Infalling matter slower than v(k\*) is **trapped inside k\*=M** ⇒ an **acoustic horizon (dumb hole)** = "stuck in c=1." The confinement the genesis needs is real and defined.
+- Ghost-condensate dispersion v²(k)=c_s²+k²/M² ⇒ perturbations hit c at **k*=M** (condensate UV scale). v RISES with k; long modes crawl, short modes reach c.
+- Infalling matter slower than v(k*) is **trapped inside k*=M** ⇒ an **acoustic horizon (dumb hole)** = "stuck in c=1." The confinement the genesis needs is real and defined.
 
 ### 7. Twist seeding — a SPHERE can't, a TORUS must (c1_locus_twist.py)
 - Helicity H=∫v·(∇×v): **spherical radial collapse → H=0 exactly** (curl-free; no net twist — the missing-axis problem, proven).
@@ -75,7 +75,7 @@ A **coherent cyclic-genesis narrative assembled from real mechanisms** (acoustic
 
 ---
 
-## THE BIREFRINGENCE DOOR ARC (2026-07-10, internal review) — the model's first distinctive-in-principle object, computed down
+## THE BIREFRINGENCE DOOR ARC (2026-07-10) — the model's first distinctive-in-principle object, computed down
 
 **Claim:** one complex field Psi=|Psi|e^{i θ}, three field-handles: |Psi|→mass (dyad),
 θ→birefringence (θ F.Ftilde via the electron chiral anomaly), θ-dot→AD charge.
@@ -105,16 +105,16 @@ JILA (4.1×10⁻³⁰), robust to the owed prefactor (factor-10 still 200x over)
 CANNOT suppress the EDM without killing the signal (exact correlation). Door + EDM are ONE WALL
 FROM TWO SIDES: β-large needs sin-φ-large + the door, which MAXIMIZES the Barr-Zee; the only
 escape (heavier <Psi>) worsens the hierarchy.
-  - NUANCE (internal review, firewall both ways): the τ Barr-Zee needs Psi to couple to the TAU. The
+  - NUANCE (firewall both ways): the τ Barr-Zee needs Psi to couple to the TAU. The
     dyad is electron-(+neutrino-)specific; if Psi does NOT couple to μ/τ, the τ loop is
     absent and the EDM falls back to the SAFE one-loop. This ESCAPES the EDM but (a) does NOT
     open the door and (b) buys a "why only the electron" flavor-selectivity debit. EDM escapable;
     door is not.
 
-**VERDICT (internal review, accepted):** the MECHANISM is real & ΛCDM-inaccessible, but THIS model
+**VERDICT (accepted):** the MECHANISM is real & ΛCDM-inaccessible, but THIS model
 cannot wear it at observable amplitude -- both roads (universal-lepton = door+EDM dead;
-electron-specific = door+flavor-puzzle) end at the #30 DOOR. SHOT 1 dented at internal review, RE-CLOSED at
-internal review, stands FIRMER. Standing ~6-10% unchanged (birefringence was upside). The DOOR (m_e fully
+electron-specific = door+flavor-puzzle) end at the DOOR. SHOT 1 dented at internal review, RE-CLOSED at
+internal review, stands FIRMER. The claim is held provisional pending its named referees. The DOOR (m_e fully
 Psi-sourced, beating gate-0 BBN + hierarchy + τ-Barr-Zee EDM) is now the WHOLE GAME for BOTH
 #30 and birefringence -- one wall, three defenders.
 

@@ -16,7 +16,7 @@ The rotation-cancellation conversion: as the medium's twist relaxes, part of the
 matter-component sheds into free-streaming dark radiation (dcdf_conv_g — a RAMP,
 x^n/(1+x^n), coded in background.h). The shed DEPLETES late-time ρ_m → suppresses
 late growth → lowers S₈ — while the background expansion barely moves (the w-mirage
-checked and cleared at ~1%, internal review).
+checked and cleared at ~1%).
 
 ## 2. Where it lands (production numbers)
 The minimizer picks g = 0.12 → **S₈ = 0.821**, moving from the CMB value (≈0.83) TOWARD

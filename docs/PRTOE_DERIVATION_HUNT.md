@@ -237,7 +237,7 @@ definitionally. The coefficient was never inflation's property to borrow; it is 
 (A ∝ 1/ln between the two scales) — mechanism-shaped, one step.
 
 ### 4. M3 — HALF-DISSOLVED. The verdict-shape is pre-written.
-The basement is FORCED to Planck (internal review), so the LV residuals are Planck-suppressed by
+The basement is FORCED to Planck, so the LV residuals are Planck-suppressed by
 construction — the pricing pass is bookkeeping against bounds the suppression already
 clears generically. The F-F applicability rides the no-bare clause (now named). What
 SURVIVES as real work: executing the bookkeeping and the induced-G forward calculation.
@@ -365,7 +365,7 @@ VACUUM.** The evidence already recorded, item by item:
 **What would make it a derivation:** the gap equation with the lepton spectrum in, out
 comes {M₂, m, the anchor, the 3α normalization} — ONE calculation, FOUR outputs, all
 already measured. That is the basement-roster computation, now with a candidate resident.
-**The author's sequencing, adopted:** compute the two interfaces first (#5 the vortex
+**The author's sequencing, adopted:** compute the two interfaces first (docketed; the vortex
 carrier, #2 the junction carrier) — each independently cross-examines the tenant before
 the gap equation is attempted.
 
@@ -727,7 +727,7 @@ ONLY the vertex magnitude (the junction coupling in 𝒯 = f(X₀, the leptophil
 T_sphaleron)) — the integral's blocker is removed; its number is a work session. Card 4's
 status upgrades from "crux-threatened" to "vertex-owed."
 
-## ENTRY 26 — #8's closeouts resolved; #24's third pass completes the audit table
+## ENTRY 26 — the docketed closeouts resolved; the docketed third pass completes the audit table
 
 ### Task #8, item by item:
 - **exp-normalization O(1)**: CLOSED by inspection — the coded floor ρ_fl =
@@ -739,7 +739,7 @@ status upgrades from "crux-threatened" to "vertex-owed."
   the price gets computed as part of the clause's post-mortem. Correct status: WAITING
   ON A CURRENT RUN.
 
-### #24's third pass — the audit table exhausted:
+### the docketed third pass — the audit table exhausted:
 - **nano/mesoscale (the 20 nm note)**: STATUS REFRESH — 1/M₂ is no longer a "loose
   alignment": M₂ is triangle-locked (the α_c MCMC-gated). The mesoscale ALIGNMENT stays parked
   (numerology-class), but the SCALE itself is now a derived quantity: the note upgrades
@@ -805,12 +805,12 @@ arrow of time AND the author's zero-point grammar; it is also the more falsifiab
 (η then reads X₀Ψ₀ — both triangle-locked: the α_c MCMC grades baryogenesis too).
 
 ## ENTRY 29 (the quick batch) — the spurion candidate: the arrow itself
-Task #43's dimensional puzzle (ε dimensionless vs μ dimensionful) meets entry 28's
+Task the docketed dimensional puzzle (ε dimensionless vs μ dimensionful) meets entry 28's
 promotion: the L-breaking spurion CANDIDATE = the GC's θ̇ — a genuinely dimensionful,
 L-charged, always-on object (the same clock that pays the junction's μ and defines the
 arrow). One object, now holding four jobs (the arrow, the junction's μ, the baryon
 reservoir, the spurion candidate). Candidate-grade only: the m_ν magnitude chain through
-θ̇ is NOT yet arithmetic — filed un-forced. #43's flag: candidate named, lift pending.
+θ̇ is NOT yet arithmetic — filed un-forced. the docketed flag: candidate named, lift pending.
 
 ## ENTRY 30 — PROCESS ERROR 8 (author): the transfer INTEGRAL was point-evaluated
 
@@ -1063,7 +1063,7 @@ WHAT THIS BUYS, labeled:
    Bogoliubov's E_k = √(ε_k² + Δ²), whose low-k limit is a sound cone — the model's
    recorded c_s = √α_c is the long-wavelength limit of the author's own construction.
    The grammar and the code were always the same object.
-3. Task #18's grammar fixed: solving the gap equation = computing the settlement terms
+3. Task the docketed grammar fixed: solving the gap equation = computing the settlement terms
    of every pending transaction in the vacuum — with the crossover demand (entry 38)
    now phrased as: the clearinghouse must operate in BOTH regimes (BCS-side terms at the
    anchor, BEC-side at the floor).
@@ -1205,7 +1205,7 @@ supplied the settlement terms' bridge. Zero dials: the log (recorded), N=2 (the 
 structural), the screening class (the pinch, forced), c_s (recorded), the 2k_F span
 (standard). GRADE: [ESTIMATE] — the O(1) BCS prefactor spread (±0.04) spans the
 residual; an Eliashberg-grade session remains nameable as REFINEMENT, no longer as
-bridge. Task #18's gap-equation act: **menu collapsed, crossover contained, landing
+bridge. Task the docketed gap-equation act: **menu collapsed, crossover contained, landing
 achieved.** The trial's residue is the roster's full N (A_s's payroll) — the one door
 still marked WHO LIVES DOWNSTAIRS.
 
@@ -2430,7 +2430,7 @@ languages, joined at one temperature. **The closure owed: an INDEPENDENT T_pour 
 the melt's energetics (the crunch's blueshifted budget through the bounce — B1/B7's
 room)** — landing it converts the identity from consistent-by-construction to
 forced-by-physics, and completes the frozen A_s's mechanization end to end. The A_s
-clearance pair (#26) closes its conceptual half tonight; the assembly computations
+clearance pair (docketed) closes its conceptual half tonight; the assembly computations
 (T_pour, the KZ epoch, the phonon bound) are the named remainder.
 
 ## ENTRY 76 — THE NIGHT'S CLOSURES: B3 COMPLETE, ς CONFIRMED, T_pour FRAMED

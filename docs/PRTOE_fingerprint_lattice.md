@@ -18,7 +18,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c c
 | window | the row | current standing |
 |---|---|---|
 | CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
-| BBN: D/H | ~0 direct (internal review) + η-widening − windowed refund | the signed ~1.9σ bet (internal review); radio-arbitrated |
+| BBN: D/H | ~0 direct + η-widening − windowed refund | the signed ~1.9σ bet; radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out): +1.1% → +1.3σ COUNTER | the reversed row (internal review; was briefly ‘the medicine’) |
 | BBN: quark-bleed | δm_q = ε full → ~1σ D/H nudge | internal review credited side-prediction |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |

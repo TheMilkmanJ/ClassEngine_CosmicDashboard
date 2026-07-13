@@ -30,7 +30,7 @@ If the IGMF helicity measurement firms, the family converts to ONE-MEASURED / TW
 the measured handedness FIXES sign(n), which then PREDICTS (i) the chiral-GW background's
 handedness (thread T10) and (ii) the baryon-sign consistency. **THE OWED KEY: the SIGN MAP** —
 which magnetic handedness corresponds to matter-wins runs through Card 4's rectification
-mechanism (the domain-sign gate, internal review). Until that map is derived, the datum cannot be
+mechanism (the domain-sign gate). Until that map is derived, the datum cannot be
 read — the family has a measured member but no dictionary. The map is therefore promoted: it
 is no longer only Card 4's internal debt; it is the key to the sky's first chirality datum.
 

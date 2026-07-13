@@ -4,7 +4,7 @@
 
 
 *internal review explicit ask ("the asserted √3 — owed a cleaner derivation"), discharged as a
-presentation of the recorded object (the KP-sequester solve, #46; internal review/244 value-independent
+presentation of the recorded object (the KP-sequester solve, #46; internal review value-independent
 form). Three lines, one honest flag. Status: the derivation as recorded, with its single
 O(1) assumption named rather than hidden.*
 
@@ -31,7 +31,7 @@ IS the floor's quantum,
 The √3 is the Friedmann factor itself: the instability rate is the geometric combination
 M_GC²/M_red, and the same ρ_inf appears in both the rate's numerator and the Hubble rate's
 definition — the ratio cannot help being √3. This is why the result is VALUE-INDEPENDENT
-(internal review/244): ρ_inf cancels. Nothing about the floor's magnitude enters — only its
+: ρ_inf cancels. Nothing about the floor's magnitude enters — only its
 one-scale-ness.
 
 ## The one honest flag (named, not hidden)

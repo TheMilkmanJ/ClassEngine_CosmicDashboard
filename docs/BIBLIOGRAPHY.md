@@ -1,7 +1,7 @@
 # PRTOE BIBLIOGRAPHY — every external source the model stands on (2026-07-11)
 
 *The credit ledger (the working docket). Keys are used across the docs as [AuthorYear]. Internal
-provenance (t###/def### turn-tags) traces to the internal review record (private; turn-tags cited for provenance); THIS file traces everything
+provenance (t###/def### turn-tags) traces to the the private internal review record; THIS file traces everything
 we borrowed from the field. If a claim in any doc leans on a result not listed here,
 that is a bug — file it.*
 
@@ -87,7 +87,7 @@ that is a bug — file it.*
 - **[Jacobson1995]** T. Jacobson, "Thermodynamics of spacetime: the Einstein equation of state," PRL 75, 1260 (1995), arXiv:gr-qc/9504004. — The route from the area law to Einstein's equations.
 - **[Bekenstein1973]** J. D. Bekenstein, PRD 7, 2333 (1973). / **[Hawking1975]** S. W. Hawking, Commun. Math. Phys. 43, 199 (1975). — S = A/4 and its temperature.
 - **[FFZ1997]** V. P. Frolov, D. V. Fursaev, A. I. Zelnikov, "Statistical origin of black hole entropy in induced gravity," Nucl. Phys. B 486, 339 (1997), arXiv:hep-th/9607104. — The species-cancellation the keystone leans on.
-- **[WeinbergWitten1980]** S. Weinberg, E. Witten, "Limits on massless particles," Phys. Lett. B 96, 59 (1980). — The no-go the preferred frame evades (internal review).
+- **[WeinbergWitten1980]** S. Weinberg, E. Witten, "Limits on massless particles," Phys. Lett. B 96, 59 (1980). — The no-go the preferred frame evades.
 - **[Penrose1965]** R. Penrose, "Gravitational collapse and space-time singularities," PRL 14, 57 (1965). — The theorem the CSW-floor core discharges by violating its energy condition honestly.
 
 ## 6. Particle theory (the census arc and the portal)
@@ -109,7 +109,7 @@ that is a bug — file it.*
 - **[Vainshtein1972]** A. I. Vainshtein, "To the problem of nonvanishing gravitation mass," Phys. Lett. B 39, 393 (1972). — The screening margin in the EP gate.
 - **[HNS2009]** L. Hui, A. Nicolis, C. Stubbs, "Equivalence principle implications of modified gravity models," PRD 80, 104002 (2009), arXiv:0905.2966. — The EP test the gate clears with five orders.
 - **[Herrmann2009]** S. Herrmann et al., "Rotating optical cavity experiment testing Lorentz invariance at the 10⁻¹⁷ level," PRD 80, 105011 (2009), arXiv:1002.1284. — Modern Michelson-Morley; the M3 bill's size.
-- **[Mattingly2005]** D. Mattingly, "Modern tests of Lorentz invariance," Living Rev. Rel. 8, 5 (2005). / **[Liberati2013]** S. Liberati, "Tests of Lorentz invariance: a 2013 update," Class. Quant. Grav. 30, 133001 (2013), arXiv:1304.5795. — The LV pricing pass's ledger (internal review).
+- **[Mattingly2005]** D. Mattingly, "Modern tests of Lorentz invariance," Living Rev. Rel. 8, 5 (2005). / **[Liberati2013]** S. Liberati, "Tests of Lorentz invariance: a 2013 update," Class. Quant. Grav. 30, 133001 (2013), arXiv:1304.5795. — The LV pricing pass's ledger.
 - **[Bailey1977]** J. Bailey et al., "Measurements of relativistic time dilatation for positive and negative muons in a circular orbit," Nature 268, 301 (1977). — Time dilation with no atoms to heat.
 - **[Ashby2003]** N. Ashby, "Relativity in the Global Positioning System," Living Rev. Rel. 6, 1 (2003). — The 38 μs/day that keeps maps working.
 - **[DamourDyson1996]** T. Damour, F. Dyson, "The Oklo bound on the time variation of the fine-structure constant revisited," Nucl. Phys. B 480, 37 (1996), arXiv:hep-ph/9606486. — The Oklo fence (great chain, Appendix B).
@@ -127,7 +127,7 @@ that is a bug — file it.*
 - **[HBG2000]** W. Hu, R. Barkana, A. Gruzinov, "Cold and fuzzy dark matter," PRL 85, 1158 (2000), arXiv:astro-ph/0003365. / **[Hui2017]** L. Hui, J. P. Ostriker, S. Tremaine, E. Witten, "Ultralight scalars as cosmological dark matter," PRD 95, 043541 (2017), arXiv:1610.08297. — The ultralight-field toolbox (ξ-scale physics).
 - **[Kamenshchik2001]** A. Kamenshchik, U. Moschella, V. Pasquier, "An alternative to quintessence," Phys. Lett. B 511, 265 (2001), arXiv:gr-qc/0103004. — The unified-dark-fluid (Chaplygin) precedent dCDF improves on.
 - **[Hu1998]** W. Hu, "Structure formation with generalized dark matter," ApJ 506, 485 (1998), arXiv:astro-ph/9801234. — The GDM formalism the perturbation-sector debt (the working docket) will be phrased in.
-- **[Milgrom1983]** M. Milgrom, ApJ 270, 365 (1983). / **[MLS2016]** S. McGaugh, F. Lelli, J. Schombert, "The radial acceleration relation in rotationally supported galaxies," PRL 117, 201101 (2016), arXiv:1609.05917. — The RAR the galactic-atoms thread engages; MOND's kill/reopen history (internal review).
+- **[Milgrom1983]** M. Milgrom, ApJ 270, 365 (1983). / **[MLS2016]** S. McGaugh, F. Lelli, J. Schombert, "The radial acceleration relation in rotationally supported galaxies," PRL 117, 201101 (2016), arXiv:1609.05917. — The RAR the galactic-atoms thread engages; MOND's kill/reopen history.
 - **[Banik2024]** I. Banik et al., "Strong constraints on MOND from wide binaries," MNRAS 527, 4573 (2024), arXiv:2311.03436. / **[Chae2023]** K.-H. Chae, ApJ 952, 128 (2023), arXiv:2305.04613. — The live wide-binary dispute (P-036 sides with Newton).
 
 ## 10. Historical foundations (the legacy action's ancestry — retired era)

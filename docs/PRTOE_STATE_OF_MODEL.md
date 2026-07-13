@@ -88,10 +88,10 @@ unusually falsifiable framework — not a confirmed theory.
 
 # ADDENDUM — 2026-07-11 (the radio night)
 
-**Standing: ~15–18%** (internal review), author-capped ~25% until PolyChord. The two headline numbers
+The claim is held provisional pending its named referees. The two headline numbers
 split: **ρ_inf is now a candidate-DERIVATION** (½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV —
 20%, zero dials, the velocity→energy bridge BCS-discharged, why-not-M₂⁴ = no-double-counting) and
-**ε restructured** from "definitively a draw" (internal review) to the winding average (internal review, pending
+**ε restructured** from "definitively a draw" to the winding average (pending
 grade): f̄ = 0.644 ± 0.03, implied c = 0.90 ± 0.04, Koide 1.1σ-compatible, net helicity = the
 quantized n=1 winding current.
 

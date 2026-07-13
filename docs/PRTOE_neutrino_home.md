@@ -27,7 +27,7 @@ channel," the carrier's own.
 Fitting the SAME data, the dyad de-biases the inferred neutrino mass UPWARD:
 - in-house minima: ΛCDM pins m_ncdm = 0.000 eV (the collapse toward the impossible), the dyad
   prefers **0.0875 eV** (healthy, above the floor, in the lab-allowed band);
-- the omk run (internal review): the dyad's preference SURVIVES curvature being freed (m_ncdm = 0.071);
+- the omk run: the dyad's preference SURVIVES curvature being freed (m_ncdm = 0.071);
 - the mechanism: the m_e shift re-partitions the CMB constraints that ΛCDM spends on
   suppressing Σm_ν.
 **Test**: as data sharpen, ΛCDM-conditional bounds cross below 59 meV (contradiction) while
@@ -38,7 +38,7 @@ This is a live, near-term discriminator — arguably the model's quietest real-t
 
 Benchmark A (v_L = 5 MeV, M = 10 TeV): near-resonant (μ/Γ = 0.46, benchmark-local per the
 internal review self-catch), Majoron coupling g = 1.2×10⁻⁸ — INSIDE the CMB-S4 band (P-2026-025).
-The corner map (internal review): S4 tests v_L < 20 MeV ≈ one-third of the natural space. The η route
+The corner map: S4 tests v_L < 20 MeV ≈ one-third of the natural space. The η route
 (Card 4) rides this same sector: K = Γ_N/H = 9×10⁷ computed; one Boltzmann solve from the
 baryon abundance. The neutrino sector is where the model's laboratory future lives.
 

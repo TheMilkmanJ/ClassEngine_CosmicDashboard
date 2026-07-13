@@ -17,7 +17,7 @@ the cosmic coupling for the universe):
 
 | rung | size | α_eff | E_b/(mc²) = ½α² | coherence status |
 |---|---|---|---|---|
-| **UNIVERSE** (derived, internal review) | 27.6 Gpc | 0.0214 | 2.3×10⁻⁴ | many-cell |
+| **UNIVERSE** (derived) | 27.6 Gpc | 0.0214 | 2.3×10⁻⁴ | many-cell |
 | galaxy cluster | ~3 Mpc | 3.3×10⁻³ | 5.6×10⁻⁶ | many-cell |
 | galaxy (MW) | ~30 kpc | 7.3×10⁻⁴ | 2.7×10⁻⁷ | many-cell |
 | **SOLAR SYSTEM** | 40–10⁵ AU | 1.0×10⁻⁴ | 5×10⁻⁹ | **THE HINGE (ξ = 402 AU inside it)** |

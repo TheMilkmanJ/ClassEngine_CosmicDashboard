@@ -16,7 +16,7 @@ Every horn of the dilemma leans on one premise: **that the interior terminates h
 
 ## 1. The model removes the shredder
 
-Per the black-hole document (internal review): there is no singularity. The interior is a
+Per the black-hole document: there is no singularity. The interior is a
 **finite-density quantum core** — the Landau-broken normal phase of the condensate — and for
 every known black hole the whole interior sits within one healing length: **a single quantum
 system**. Consequences, each from a graded object:
@@ -35,14 +35,14 @@ system**. Consequences, each from a graded object:
 4. **The slow-return guarantee**: the core's information re-enters the exterior on
    evaporation/purification timescales — and in the cyclic frame, anything still held at the
    crunch is thermalized into the Tolman ledger while the **topological content joins the
-   genome** (the only strictly-conserved-through-crunch data, internal review). Nothing exits the
+   genome** (the only strictly-conserved-through-crunch data). Nothing exits the
    universe's books; some of it just changes column.
 
 ## 2. What the paradox becomes
 
 | paradox ingredient | standard status | PRTOE status |
 |---|---|---|
-| the singularity (the shredder) | required | absent (internal review) |
+| the singularity (the shredder) | required | absent |
 | unitarity | threatened | manifest (the interior is a quantum many-body system) |
 | "where is the information during evaporation?" | mysterious | in the core's correlations + outgoing-mode entanglement (ordinary) |
 | the Page curve | the quantitative test | **OWED** — requires the core's entropy functional (= the area-law debt, the working docket) |

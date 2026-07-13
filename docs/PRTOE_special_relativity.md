@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The depth-audit's find (internal review): SR is the model's DEEPEST replacement claim — fundamental
+*The depth-audit's find: SR is the model's DEEPEST replacement claim — fundamental
 Lorentz symmetry → EMERGENT, IR symmetry of the medium — and it never had its own file while
 carrying the whole Achilles' heel (M3). Filed now, at its graded sizes. Status: STRUCTURAL,
 riding the internal-review rulings. Companion: [PRTOE_inertia.md](PRTOE_inertia.md) — the
@@ -36,14 +36,14 @@ Emergent symmetries have residuals; the data are merciless:
   light identically: automatic if both ride one metric, a CHECK not a freebie.
 **The LV pricing pass (internal review ledger) is this file's one debt — shared with M3.** The
 model's residuals live where the medium's microstructure leaks: suppressed by (E/Λ_micro)ⁿ
-with Λ_micro now FORCED to Planck (internal review) — which is exactly why the bounds are survivable:
+with Λ_micro now FORCED to Planck — which is exactly why the bounds are survivable:
 Planck-suppressed LV at 10⁻¹⁷-class energy ratios is generically below current reach. (The
 quantitative pass: owed, M3.)
 
 ## 3. The stakes concentrated here (why this trunk thread owns the Achilles' heel)
 
-Three graded structures live or die on emergent-Lorentz: the W-W evasion (internal review — the composite
-graviton NEEDS the preferred frame), the Frolov–Fursaev applicability (internal review — the keystone's
+Three graded structures live or die on emergent-Lorentz: the W-W evasion (the composite
+graviton NEEDS the preferred frame), the Frolov–Fursaev applicability (the keystone's
 one condition), and the quantum wing's frame notes. M3 was always THIS file's debt: **"does
 the emergent symmetry preserve the relativistic theorems the model borrows and evade the ones
 it must?"** One question, three dependents, one address.

@@ -62,7 +62,7 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
 - $c = 9/10$: a **counting fraction**. Gravity is blind (it reads size, not identity), so the
   coupling budget splits democratically over the census of participants — 9 charged fermion
   species plus the zero-point's own seat → $c = (N-1)/N = 9/10$. Conditionally derived
-  (internal review) from three independently-recorded theses; the data-lean toward the neighboring
+  from three independently-recorded theses; the data-lean toward the neighboring
   $12/13$ is an open watch.
 - $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
   candidately $2/\pi$ (P-2026-041 — the value claim stands; its proposed mechanism was

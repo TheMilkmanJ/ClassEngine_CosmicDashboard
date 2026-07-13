@@ -40,9 +40,9 @@ UFD-tension value c~1.9 is doubly forbidden (above the ceiling). Ties to the cen
 the ceiling IS gravitational strength, so "c saturates the ceiling" = "the census
 holds, maximally."
 
-**Residuals (owed):** exact margin below 1 = the effective-action loop (#14's
+**Residuals (owed):** exact margin below 1 = the effective-action loop (the docketed
 unfinished half — how saturated the ceiling is); the environmental Θ-switch that
-gates WHERE m_e shifts is separate (#8). Also owed: why the explicit breaking lands
+gates WHERE m_e shifts is separate (docketed). Also owed: why the explicit breaking lands
 the mass at ~2×10⁻²⁰ eV exactly (the Coleman-Weinberg / shift-breaking structure).
 
 ## Step 2 (2026-07-08) — attacking the two residuals
@@ -110,9 +110,9 @@ early ones).
 - In a SIMPLE m² φ² well the field oscillates as DM FOREVER (well bottom = 0 energy;
   freezing lands at nothing). **A simple field never becomes DE -- it stays DM to the end.**
 - DE requires the field to freeze onto a nonzero POTENTIAL FLOOR = the funded-floor/(deltaK)²
-  piece (#17's missing 20%).
+  piece (the docketed missing 20%).
 
-**Sharpest statement of the #17 gap:** the regime-change chain is SELF-GENERATING up to dark
+**Sharpest statement of the gap:** the regime-change chain is SELF-GENERATING up to dark
 matter (matter falls out of radiation for free, via H<m condensation) and BREAKS at DM→DE
 (needs the floor as an extra ingredient). JP has now circled this same gap from THREE angles
 (DM+DE audit, pressure-sign flip, causal chain). The universe keeps pointing at the floor.
@@ -183,7 +183,7 @@ to ρ_Λ, field slides to X0, condensate takes over → w runs 0→-1 → DE. Cr
    sign-locked certificates (α_T/foliation/α_B, corpus-cleared, the technical risk to watch).
 
 **NET:** the floor is now a REAL mechanism (not a placeholder) -- "one field, both jobs" is
-BUILDABLE; "explains the DE scale" is NOT and should not be promised. #17's missing 20% = roughed in.
+BUILDABLE; "explains the DE scale" is NOT and should not be promised. the docketed missing 20% = roughed in.
 
 ## Step 8 (2026-07-08) — floor STABILITY: the (deltaK)² funds AND stabilizes (piece 2)
 
@@ -241,7 +241,7 @@ one arrow. PAYOFF IF TRUE: c=1 becomes PREDICTED → amplitude sharp (1.23% vs m
 STATUS: HYPOTHESIS, not derivation. Open work (the real #17 climb): (a) show the w=1/3 superfluid
 phase carries the FULL protecting conformal symmetry (not just a traceless T at the fluid level);
 (b) compute the RUNNING of c from the conformal point and check it stays ~1 (not drifting to >2.6,
-the #16 naturalness ceiling). The conformal symmetry is only APPROXIMATE (broken by m, Psi0), so c
+the naturalness ceiling). The conformal symmetry is only APPROXIMATE (broken by m, Psi0), so c
 is protected NEAR the origin and runs away from it -- by how much is uncomputed.
 
 ## ASSUMPTION (explicitly fenced — NOT a derivation): gravity self-clumping to the c=1 attractor
@@ -266,7 +266,7 @@ Linearizing β(c) = γ (c - 1):
 
 With a diffuse start c_i ≈ 0:   c(N) = 1 - e^{-γ N}   (rises from ~0 toward 1 — "the clumping").
 Then, as the medium leaves the conformal regime (w: 1/3 → 0 → -1) and conformal symmetry breaks,
-the fixed point drifts and c runs slightly ABOVE 1 — consistent with the #16 result c in [1.0, 1.9].
+the fixed point drifts and c runs slightly ABOVE 1 — consistent with the result c in [1.0, 1.9].
 
 **THE CATCH (why this is fenced as an assumption, not booked as a result).**
   1. γ (flow rate), N (the flow parameter — e-folds? a clumping measure? undefined), and c_i are

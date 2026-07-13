@@ -34,7 +34,7 @@ a free profile — it is **quantized circulation** (Onsager–Feynman; internal 
 superfluid CANNOT have n = 0"). The recorded sources of spin, each graded:
 
 1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis, internal review;
-   topologically locked through every crunch, internal review).
+   topologically locked through every crunch).
 2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc (internal review scale) thread
    the medium with quantized vortex lines.
 3. **The genesis helicity** — the AD roll's self-generated rotation (the first-roll theorem).
@@ -61,7 +61,7 @@ allowed to make fields directly; it is allowed to stir.
 ## 3. The void floor — the honest open gap
 
 The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
-vortex-network rms boost, ×3400) was caught by internal review (internal review): it concentrates B on the
+vortex-network rms boost, ×3400) was caught by internal review: it concentrates B on the
 **filaments/lines**, while the void floor constrains the **inter-line** field — which stays
 **~1.5 orders short** on the smooth estimate. [Historical framing — see the RESOLVED verdict below: the internal rescues died; the blazar debate is the referee.] Live
 candidates, none yet computed: (i) return-flux topology (field lines must close — the void
@@ -112,8 +112,8 @@ Consequences:
 
 | item | status |
 |---|---|
-| galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded (internal review), P-028 |
-| EM-neutrality consistency (stir, don't charge) | forced (Meissner, internal review) |
+| galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded, P-028 |
+| EM-neutrality consistency (stir, don't charge) | forced (Meissner) |
 | void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — 1.5 orders short; the working docket** |
 | helicity sign = genome sign = baryon sign | registered prediction (the falsifier with no dial) |
 | coherence scale ~ Kibble ξ | distinctive, un-priced in RM statistics (owed if pursued) |

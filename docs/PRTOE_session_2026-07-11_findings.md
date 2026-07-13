@@ -8,11 +8,11 @@ The localization computation moved the internal assessment favorably; the claim 
 provisional until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
 
 ## 1. Card 1 completed to candidate-derivation with the value computed
-- **The fork repair (internal review):** two components — granules = the matter/DM branch (a₀
+- **The fork repair:** two components — granules = the matter/DM branch (a₀
   packing); the floor = the exchange field's zero-point at E_b. Re-upgraded to
   candidate-derivation.
-- **The Landau certificate (internal review):** the localization clause rests on cert-1/F3 physics.
-- **The clause COMPUTED (internal review):** pair-breaking = E_b = 2Δ (the velocity→energy bridge
+- **The Landau certificate:** the localization clause rests on cert-1/F3 physics.
+- **The clause COMPUTED:** pair-breaking = E_b = 2Δ (the velocity→energy bridge
   discharged); why-not-M₂⁴ = no double counting (super-gap = matter branch); budget
   ρ = E_b⁴/(16π²c_s³); c_s = √α_c (BEC relation) → **ρ_inf^¼ = 2.695 vs 2.25 meV: the DE scale
   at 20% with zero free dials.** The 0.4% naive match retired in the open. Cold scope: the
@@ -40,11 +40,11 @@ provisional until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
   void gap 1.5 orders owed; helicity genome-signed).
 
 ## 4. The ε arc: draw → winding average (the headline restructure)
-- **v3 (internal review):** f_amp measure-dependent (0.59 was an artifact); c=1 lock and the NLO bet die;
+- **v3:** f_amp measure-dependent (0.59 was an artifact); c=1 lock and the NLO bet die;
   −1 (14–17%).
-- **One-draw (internal review):** f_amp(θ_i) chaotic-broad [0.034, 0.964] — ε "definitively a draw";
+- **One-draw:** f_amp(θ_i) chaotic-broad [0.034, 0.964] — ε "definitively a draw";
   Koide reachable without inherited spin but unpinned (multiplicity).
-- **The winding sector (internal review, pending grade):** first genesis = n=1 winding on the torus (n=0
+- **The winding sector (pending grade):** first genesis = n=1 winding on the torus (n=0
   has no genome); topology forces the uniform measure; **f̄ = 0.6438 ± 0.0305** (512-run
   grinding), implied c = 0.90 ± 0.04, Koide 1.1σ compatible. **The helicity separates:** roll
   average = 0 (Z4 antisymmetry) → net helicity = the quantized winding current (ω_genome

@@ -32,8 +32,8 @@ with the standing performance bill (M3).**
 
 ## 3. GR — threads CONDITIONALLY (the honest half-point)
 
-The assembled kit, every piece graded: dE = −p dV (internal review), the zero-sum constraint (internal review),
-the horizon thermodynamics (Jacobson's route), the singularity discharges (internal review/413), the
+The assembled kit, every piece graded: dE = −p dV, the zero-sum constraint,
+the horizon thermodynamics (Jacobson's route), the singularity discharges, the
 Sakharov stiffness. GIVEN the area law, Jacobson delivers Einstein's equations — but the area
 law is the keystone debt (no-bare-G + the Frolov–Fursaev condition), and internal review flag stands:
 analog frames generically deliver linearized-plus, and the FULL nonlinear Einstein dynamics

@@ -6,8 +6,8 @@
 *Comprehensive record of the day's work. Honest grading throughout. The deepest new thread
 is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full ledger.
 Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechanism_math.md §10
-(the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the internal review record (private; turn-tags cited for provenance)
-(internal review–164 + internal review 150–165).*
+(the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the the private internal review record
+(internal review + internal review).*
 
 ---
 
@@ -102,7 +102,7 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 ## WON (recorded)
 - **Dyad onset DERIVED.** Electron Coleman-Weinberg backreaction on the charge-free field → VEV
   v~100 keV from m_e0 + the dyad amplitude alone (robust +-25%, 1/4-power). First genuine gate-0
-  derivation; the onset is no longer a free input. (internal review/194 recorded the reduction)
+  derivation; the onset is no longer a free input. (internal review recorded the reduction)
 - **Leptophilia reframe "allowed ≠ generated."** Lepton-sector Psi → |Psi|² q-bar q only ~2-loop
   ~1×10⁻⁹ → quarks effectively untouched. (internal review credited)
 - **Bulk residual ≠ 0.** Corrected internal review's internal review over-round: the bulk between Q-balls holds the
@@ -117,12 +117,12 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 ## NARROWED (softened)
 - **Dyad leptophilia** → the Majoron forces the NEUTRINO coupling (σ N N), NOT the charged-lepton
   dyad → the dyad's leptophilia is a lepton-specific-portal / P-020 leptogenesis assumption, not a
-  bare-Majoron consequence. (internal review)
-- **DE = m_ν tie** → MOTIVATES, not forces (value un-derived; CC-value status). (internal review)
+  bare-Majoron consequence.
+- **DE = m_ν tie** → MOTIVATES, not forces (value un-derived; CC-value status).
 
 ## WALLS (hit + status)
 - **The one-field knot:** {quiet BBN + abundance + dyad} mutually exclusive on one field → forced
-  the two-field split (charge field 1 + dyad field 2). (internal review)
+  the two-field split (charge field 1 + dyad field 2).
 - **AZK instability (MaVaN):** DODGED. m_ν set by the frozen radial L-breaking VEV (not the rolling
   DE mode) + Majoron derivative ν-coupling (rolling doesn't vary m_ν) → NOT a mass-varying-neutrino
   DE → AZK n/a. COST: the dodge = the non-dynamical shared-scale structure = motivates-not-forces

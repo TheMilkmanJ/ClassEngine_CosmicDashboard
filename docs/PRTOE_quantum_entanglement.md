@@ -24,7 +24,7 @@ metaphor; it is the defining property of the medium (founding identity), the sam
 - forces the winding quantization (internal review-granted),
 - supplies the uniform genesis measure (internal review-granted),
 - and was graded as "the rare interpretation whose ontology ALREADY CONTAINS the global object
-  the interpretation requires" (internal review, on internal review Bell handling).
+  the interpretation requires" (on internal review Bell handling).
 
 Entangled systems are subsystems whose joint state is serviced by the medium's one phase: the
 correlation does not travel *between* them — it is *held beneath* them.
