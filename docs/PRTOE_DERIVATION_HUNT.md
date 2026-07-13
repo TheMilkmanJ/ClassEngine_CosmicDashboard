@@ -1763,3 +1763,41 @@ function [all CANDIDATE/UNSIZED, the inverse problem's new docket]:**
    [If it holds, n stops being statistics and becomes mechanics.]
 4. **ENTRAINMENT:** a traveling ring carries an "atmosphere" of ambient fluid — the
    carried-volume fraction is another partition function of the same geometry.
+
+## FIFTY-SEVENTH SWEEP — THE THREAD HUNT: survivors documented, failures categorized
+## (ramp-based throughout)
+
+**SURVIVOR 1 — the formation number [FRAME grade]:** circulation saturates as a ramp
+(Γ(t) = Γ_∞(1−e^{−t/τ}), never a step); the measured ε = 0.88 requires
+window/roll-up ≈ 2.1 — an O(1) consistent with an expansion-clipped collection window
+(the operator's "expansion happening as it started the fountain" IS the clip). The O(1)
+is the inverse problem's one undelivered number here. Mechanism consistent, survives.
+
+**SURVIVOR 2 — the pinch-off partition [HYPOTHESIS grade]:** real; the pour's capital
+partitions into {ring = the rotational/winding sector} + {trailing wake = the thermal
+fireball}. Target named: the dark/thermal partition. NUMEROLOGY FLAG (noted, NOT
+claimed): the dark fraction of matter (Ω_c/Ω_m ≈ 0.84) sits near ε = 0.88 — no
+mechanism connects them tonight; the partition is UNSIZED pending the fountain's
+discharge profile. Survives as a target, carries no numbers.
+
+**SURVIVOR 3 — the Widnall selection [CONSISTENCY grade, the hunt's prize]:**
+formation-number-limited rings carry a/R ~ 0.1–0.2 (lab); the most-amplified azimuthal
+mode n ~ (O(1)≈2.3)·R/a gives **the gain band n ~ 11–23 — inside the Kibble draw band
+(10–30).** RAMP SYNTHESIS (the step "dice OR mechanics" rejected): the instability's
+gain curve is smooth — the surviving n distribution = (the draw's seeds) × (the Widnall
+gain band): the draw provides, the ring amplifies, the distribution NARROWS. Prediction
+sharpened: n concentrates in the gain band. FALSIFIER: zon/comb returning n outside
+~5–40 kills the selection (the pure draw survives it). Coefficient + the formation-epoch
+core size: literature session + inverse problem owed.
+
+**FAILURE — entrainment [category: ABSORBED, not dead]:** the ring's atmosphere IS the
+flow's coherent volume already banked; entrainment's only distinct effect is a
+sub-measurable correction to the lookback exponent ((1+z)^{2−δ}, δ ~ the entrainment
+rate — below PV-survey precision). Dissolves into the kinematic line; revisit only if
+the lookback exponent becomes measurable at the % level. No independent observable, no
+independent thread.
+
+**The docket after the hunt:** the genesis inverse problem now owes exactly three O(1)
+outputs — the clipped-window ratio (→ε), the discharge partition, and the
+formation-epoch aspect ratio (→n's gain band) — each with a measured or banked target
+waiting. Three numbers, three ambushes set.
