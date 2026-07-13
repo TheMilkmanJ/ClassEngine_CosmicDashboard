@@ -2139,3 +2139,23 @@ absorber constraints (|Δμ/μ| < 10⁻⁶ class) re-read environment-by-environ
 genuinely unscreened null absorber kills the room; (c) everything conditional on
 reading B (the gate discriminator is registered, P-022). NOTHING CLAIMED TONIGHT:
 a room, a size, a candidate fingerprint, three named audits.
+
+### Sweep 66 audits — THE μ-AUDIT PASSES STRUCTURALLY; THE FOREST TEST NAMED (sharp
+### both ways)
+
+**μ-AUDIT [firewall (b)]: PASSED at first pass, structurally:** every constraining
+Δμ/μ bound (10⁻⁷-class H₂ in DLAs; NH₃/CH₃OH toward PKS 1830−211) lives in DENSE
+MOLECULAR GAS — molecules only form dust-shielded and dense, and under reading B those
+are maximally screened rooms (anywhere Earth screens, they screen). **The μ-instrument
+and the ε-screen are the same variable: density — the bounds cannot reach the void-dyad
+by construction.** [Sources: MNRAS 465,4057; A&A 562,A88; the PKS1830 NH₃ literature —
+bibliography follows.]
+
+**THE FOREST TEST [the next audit, double-edged, named before running]:** the Lyα
+forest is ATOMIC gas at near-mean density — likely UNSCREENED under B; Lyα's rest
+wavelength ∝ m_e ⟹ unscreened forest absorbs 1.24% off-wavelength = a redshift-like
+systematic testable in EXISTING data (forest-BAO vs galaxy-BAO cross-calibration; the
+BOSS-era Lyα tension noted, later relaxed — no claim). KILL CLAUSE: a clean forest
+cross-calibration at the 10⁻³ level kills the candle room outright. WIN CLAUSE: a
+hidden %-class forest systematic = the second in-data fingerprint. The forest session
+joins the response-function session on the room's docket.

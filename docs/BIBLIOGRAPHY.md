@@ -73,6 +73,8 @@ that is a bug — file it.*
 
 - **[WidnallTsai1977]** S. E. Widnall, C.-Y. Tsai, "The instability of the thin vortex ring of constant vorticity," Phil. Trans. R. Soc. A 287, 273 (1977). / **[Gharib1998]** M. Gharib, E. Rambod, K. Shariff, "A universal time scale for vortex ring formation," J. Fluid Mech. 360, 121 (1998). — The Widnall azimuthal selection (ka = 2.26-2.51 -> the n-predictor) and the universal formation number (F ~ 4 -> the partition/window targets), sweeps 56-58.
 
+- **[Ubachs-mu-class]** M. Daprà et al., MNRAS 454, 489 (2015) & MNRAS 465, 4057 (2017) (H₂/HD, Δμ/μ ~ 10⁻⁶⁻⁷); J. Albornoz Vásquez et al., A&A 562, A88 (2014) (Q J0643−5041); N. Kanekar-class NH₃/CH₃OH toward PKS 1830−211 (Δμ/μ ~ 10⁻⁷ at z=0.89). — The μ-variation bounds; sweep 66's structural audit: all constraining absorbers are dense molecular gas = screened rooms under reading B.
+
 ## 5. Emergent gravity, entropy, and the keystone
 
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.
