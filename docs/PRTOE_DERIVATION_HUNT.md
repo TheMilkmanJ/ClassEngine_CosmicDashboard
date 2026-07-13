@@ -3428,3 +3428,16 @@ theory-side content. An independent ξ measurement then crowns or kills.
 *The basement's final structural question, asked this morning as "who are the
 opposites?", answered by evening: the opposition was married all along, the couple
 files jointly, and the only thing left to learn is which way the courtroom faces.*
+
+### ENTRY 99b — THE RULING RAMPED (the author's check: "you ramped that test, yeah?")
+
+Amendment 5 applied to entry 99's own products: (i) the exempt step (census 9) shows
+its ramp of approach — the count is FLAT along the entire pairing-strength ramp
+(Bogoliubov rotations are unitary: they mix, they never mint) — the exemption earned
+at every coupling; (ii) the deflation itself, ramped as a look-elsewhere probability
+over continuous ξ: a clean quarter-integer landing among the four convention corners
+was 40–75% likely by chance — the retirement of the 0.8% is confirmed at ramped
+grade, not asserted. Also filed: process error 25 — a stale pre-polish QG file had
+silently resurrected at the reference-purge commit (the author's earlier "weird
+jargon in quantum gravity" sighting was the corpse walking); restored from the last
+good commit with all later passes re-applied; every other jewel audited intact.
