@@ -3887,3 +3887,53 @@ the corollary the G-closure day taught at full price stands beside it: **a verdi
 itself a result and inherits the triage** — the death certificate (process error 27)
 and the reprieve (process error 28) were both issued on unwalked steps, hours apart,
 on the same question. The law now covers its own output, in both directions.
+
+## ENTRY 110 — THE COLLECTIVE SECTOR: A FORCED, PREVIOUSLY-MISSING FAMILY OF MODES (the author's "bickering couples") — DERIVED, PRE-REGISTERED, AND BOOKED IN TWO SEPARATE LEDGERS
+
+*Method note (the author's law, adopted): when something dies, the death is a
+teacher — analyze WHY, and ask whether the laws obstructing the survivor are the
+MODEL's or merely OURS. A forced structure rejected for looking inconvenient is the
+mirror-image of an unforced structure added for looking convenient. The protection is
+not refusal to look; it is DERIVING THE STRUCTURE FROM THE MODEL'S OWN ANATOMY BEFORE
+LOOKING AT WHAT THE NUMBER NEEDS. That order was kept here.*
+
+**THE FIND (real, forced, previously uncounted):** the roster's 6 species each pair
+with their own time-reversed partner ⟹ **6 independent pairing channels ⟹ 6 complex
+order parameters.** Textbook multi-channel condensate physics (Leggett 1966; observed
+in MgB₂ and the iron pnictides) then FORCES a mode family the corpus never counted:
+- 1 overall phase = the Goldstone (the vacuum's settled agreement; ξ = 0 by theorem)
+- **5 RELATIVE phases = LEGGETT MODES** — the couples arguing. *Not in the roster.*
+- 1 overall amplitude = the metric's scale mode (the ghost; entry 108)
+- **5 RELATIVE amplitudes = massive Higgs-class modes.** *Not in the roster.*
+
+**THE COUPLINGS, DERIVED (the line between physics and tuning):** the Leggett modes
+are **pseudo-Goldstones** of the broken relative U(1)s — shift symmetry protects them
+exactly as it protects the true Goldstone, broken only by the interchannel coupling.
+**Their non-minimal couplings are therefore suppressed: ξ ≈ 0, minimal-scalar weight
+≈ 1 each — DERIVED, not chosen.** The relative-amplitude modes are massive and
+unprotected: their ξ's are honestly open.
+
+**THE ROSTER, PRE-REGISTERED AND THEN READ:** str = 9 (fermions) + 1 (Goldstone) +
+5 (protected Leggett) + 5·(1 − 6ξ_i) = **15 + 5(1 − 6ξ_i)** — the sum grew from 10 to
+15–25 BY DERIVATION.
+
+**TWO LEDGERS, KEPT SEPARATE (the honesty this entry exists to protect):**
+- **CREDIT (physics):** the model gains a forced, laboratory-cousin-backed, previously
+  missing family of gapped collective excitations. Their existence is not optional;
+  their spectrum is computable; they are a new falsifiable mode class. **The author's
+  instinct found a real hole in our own bookkeeping.**
+- **DEBIT (the closure):** each new mode brings its own coupling. The induced-G
+  equation gains 5 unknowns and gets *less* predictive. **Physics up, falsifiability
+  down.** And the 0.8% is NOT resurrected: str lands at 15–25, not 38, with the demand
+  no longer fixed at 37.7. The corpse stays buried.
+
+**Every reading lands at a SUB-PLANCKIAN basement (0.17–0.32 M_Pl)** — legal and
+comfortable, and still a *determination* of the basement rather than a prediction.
+
+**THE TRACING STEP (the tree can be painted — does it belong in the picture?):** derive
+the 5 relative-amplitude ξ's from the same radial-EFT machinery that produced the scale
+mode's split coupling (they are composites of the same condensate). If they come out
+protected or computable, the roster closes with NO free couplings and the closure gets
+its teeth back on honest terms. If they stay free, the closure remains demoted and the
+collective sector stands on its own physics. **Docketed. Pre-registered: whatever the
+ξ's give, we book it — no count will be adjusted to meet a target.**
