@@ -2562,3 +2562,18 @@ Sweep 78's 0.8% landing survives as one convention's hit, now properly firewalle
 the sign hazard. Sources: [Visser gr-qc/0204062] (the supertrace + the ambiguity);
 [Sakharov1967] already banked. The QG endgame's honest shape: THREE numbers (p, the
 weights, ξ) — all model-owned, none arbitrary — between the frame and Newton's G.
+
+### THE PAIR AS THE THREE-IN-ONE (the operator's basement instinct, correctly mapped)
+
+The operator's flavor-mapping (one quantum phenomenon per lepton flavor) is FIREWALLED
+by the books' own law — flavor democracy funds the 3 in 3α; functionally distinct
+flavors kill the stack — but the underlying instinct ("the basement already has all
+three figured out") is banked structure: **every pair carries all three phenomena
+inseparably.** Superposition = the pair's u_k + v_k b† existence (the sweep-39 worked
+example); entanglement = the (k↑, −k↓) twin correlation itself (a Cooper pair IS an
+entangled state; ODLRO = that entanglement at macroscopic range; the Born-rule twins
+were entangled by construction); tunneling = the phase slip (the winding's only way to
+change — sweep 77's anneal). One resident, three behaviors — the Employment Law's
+quantum face: not one phenomenon per tenant; every tenant works every job. The three
+quantum files describe one object from three angles; cross-links owed to all three at
+the next hygiene pass.
