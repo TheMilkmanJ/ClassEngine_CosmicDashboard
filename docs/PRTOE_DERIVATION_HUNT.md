@@ -2311,3 +2311,16 @@ EXECUTED: the with-SH0ES run killed (~2.2h prior, logged); **THE TRGB-ANCHORED
 ZERO-PARAMETER RUN LIVE (2026-07-13 ~01:3x, PID 458272)** — Mb prior accepted,
 likelihood checks passing; the with-SH0ES companion and the anchor-free headline rerun
 later per the declaration's tiers.
+
+### THE TRGB-RUN FORECAST (pre-registered 2026-07-13 ~02:00, before any ΔlnZ exists)
+
+The corrected trade ledger (the operator's Occam argument, conceded with arithmetic):
+surrendering the SH0ES tide (~−6 lnZ fit-side) is offset by the stating-parameters
+Occam differential (logA ~3.2 + n_s ~3.3 ≈ **+6.5 lnZ** that ΛCDM pays and the frozen
+dyad does not) — near-wash on the number, plus credibility. Remaining terms: the freeze
+cost (−3.7 lnZ at the SH0ES-stack measurement; plausibly SMALLER under TRGB, whose
+peak sits at the frozen stack's own 69.9) and the two-edged clause: the Occam reward
+pays only at the data's peak — a stated value off its mark executes the model by the
+same machinery. **THE DEFENSE FORECAST: ΔlnZ(dyad-frozen vs ΛCDM, TRGB stack) ∈
+[+1, +6], centered ~+3.** The operator may stake his own number; both grade when the
+pair completes. No draw exists in this configuration by design.
