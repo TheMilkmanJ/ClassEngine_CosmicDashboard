@@ -2358,6 +2358,7 @@ int input_read_parameters_general(struct file_content * pfc,
     class_read_double("varying_alpha",pba->varconst_alpha);
     class_read_double("varying_me",pba->varconst_me);
     class_read_double("varying_transition_redshift",pba->varconst_transition_redshift);
+    class_read_double("varying_transition_width",pba->varconst_transition_width);
     /* PRTOE dyad high-z window (2026-07-10): constants STANDARD above this z (dyad
      * disordered above T_c -> quiet BBN). <=0 disables (default, backward compat). */
     class_read_double("varying_z_high",pba->varconst_z_high);
@@ -5996,6 +5997,7 @@ int input_default_params(struct background *pba,
   pth->bbn_alpha_sensitivity = 1.;
   pba->varconst_transition_redshift = 50.;
   pba->varconst_z_high = 0.; /* dyad high-z window off by default (backward compat) */
+  pba->varconst_transition_width = 0.; /* ramped edges off by default (backward compat) */
 
   /**
    * Default to input_read_parameters_species

@@ -899,7 +899,21 @@ int background_varconst_of_z(
     break;
 
   case varconst_instant:
-    if (z>pba->varconst_transition_redshift){
+    if (pba->varconst_transition_width > 0.) {
+      /* PRTOE ramped window (2026-07-12, the depth law: edges are fades, not steps).
+         Both edges become tanh ramps in ln(1+z): the low edge = the screening fade
+         (banked z ~ 30-60), the high edge = the T_c condensation onset. Width 0
+         reproduces the original steps exactly (backward compatible). */
+      double w = pba->varconst_transition_width;
+      double f_low = 0.5*(1. + tanh(log((1.+z)/(1.+pba->varconst_transition_redshift))/w));
+      double f_high = 1.;
+      if (pba->varconst_z_high > 0.)
+        f_high = 0.5*(1. - tanh(log((1.+z)/(1.+pba->varconst_z_high))/w));
+      double f = f_low*f_high;
+      *alpha = 1. + (pba->varconst_alpha - 1.)*f;
+      *me = 1. + (pba->varconst_me - 1.)*f;
+    }
+    else if (z>pba->varconst_transition_redshift){
       /* PRTOE dyad high-z window (2026-07-10): above varconst_z_high the condensate is
          thermally disordered (T > T_c, electron-CW) -> constants STANDARD -> quiet BBN.
          varconst_z_high <= 0 disables (default): plain instantaneous step, unchanged. */

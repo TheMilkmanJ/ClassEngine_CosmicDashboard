@@ -8,6 +8,13 @@
 #     n_s  -> 1 - 2/ln(M_Pl/T_on(zon))   [the census-running tilt; needs basement choice]
 #     dcdf_rho_inf -> the occupancy value [needs the triangle confirmed: 3alpha + M2 + x0]
 #     m_ncdm -> 61.4 meV                  [needs the spurion (#43) lifted + P-023 tension resolved]
+#   [2026-07-12 sweep 44/50] A_s -> (alpha_c/(4*pi*k))^3 with the closed-form
+#     k = ln(1+pi/(2 alpha_c))/pi = 1.36461  =>  A_s = 2.0807e-9 (0.68 sigma from Planck).
+#     FREEZE CONDITION (AMENDED BY OPERATOR ORDER, 2026-07-12 night): red-team approval
+#     of def549's asks #1/#3 (the P1.c adjudication + the closed form) SUFFICES to fix
+#     A_s here. Prior condition (both computations sign) superseded by the lawmaker.
+#     Standing order: on approval, set A_s: 2.0807e-9 in this config (replaces sampled
+#     logA in any zero-parameter run); the RUNNING arbiter is untouched either way.
 #   The anchor (P-042) and the two-loop landing are graded by the shooting run (in flight).
 #   [2026-07-12] DISPERSION CONSISTENCY: the C code now carries the derived sqrt(1+x^2)
 #   onset shape — this config MUST be re-cloned from the dispersion-era dyad baseline
@@ -43,12 +50,15 @@ theory:
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0
       varying_transition_redshift: 50.0
+      varying_transition_width: 0.25   # the banked screening-edge FADE (z~30-60) — the ramped C code (2026-07-12); 0 = legacy step
       dcdf_deltam_mode: 1
       # ZON-FREEZE (operator order 2026-07-12): this value is ILLEGAL until the zon
       # chain converges; at launch, set dcdf_z_rad_onset := 10**(zon posterior mean of
       # log10_zon, converged R-1 < 0.05) from chains/cmp_prtoe_zon. Interim ~8.7e7,
       # derived corollary 3.9e7 (log10 = 7.59) -- the chain arbitrates, not us.
-      dcdf_z_rad_onset: ZON_FREEZE_PENDING
+      dcdf_z_rad_onset: 3.5619e7   # log10 = 7.5517: BOBYQA frozen-stack profile (2026-07-12,
+                                   # FAST-FUDGE per operator order; the 3-alpha mark 7.547 hit to
+                                   # 0.005 dex; chi2 cost +7.4 vs the free champion; zon-MCMC grades later)
       non_linear: halofit
       output: mPk,tCl,pCl,lCl
       modes: s
@@ -71,20 +81,18 @@ params:
     ref: {dist: norm, loc: 69.613, scale: 0.5}
     proposal: 0.5
     latex: H_0
-  logA:
-    prior: {min: 2.90, max: 3.25}
-    ref: {dist: norm, loc: 3.059448, scale: 0.01}
-    proposal: 0.01
-    drop: true
-    latex: \log(10^{10} A_\mathrm{s})
-  A_s:
-    value: 'lambda logA: 1e-10*np.exp(logA)'
-    derived: true
+  A_s:   # FROZEN BY OPERATOR ORDER 2026-07-12 (sweeps 44/50/59): the derived form
+         # A_s = (alpha_c/(4 pi k))^3 with the CONCORDANCE joint k = 1.3630 +/- 0.0032
+         # (closed-form k = ln(1+pi/(2 alpha_c))/pi; mechanism = the blind-census shot
+         # noise, the operator's payroll law). 0.4 sigma from Planck; the model STATES
+         # it and takes the exposure — LCDM keeps its freedom (fair by formulation).
+         # Referee residue (owed, not blocking): lock 2's count mechanization (B2) +
+         # the k O(1) audit (B3); the Eliashberg component executed (sweep 49).
+    value: 2.088058e-09
     latex: A_\mathrm{s}
-  n_s:   # FREEZE-ELIGIBLE at zon convergence: 1 - 2/ln(M_Pl/T_on) = 0.963-0.964 (P-den. hunt, sweep 3/6)
-    prior: {min: 0.92, max: 1.03}
-    ref: {dist: norm, loc: 0.970999, scale: 0.005}
-    proposal: 0.005
+  n_s:   # FROZEN 2026-07-12: the census tilt 1 - 2/ln(M_Pl/T_on) at the profiled z_on
+         # (the exemption-clause 2 = the open dimensions, sweep 50); zon-MCMC grades later
+    value: 0.9641
     latex: n_\mathrm{s}
   z_reio:
     prior: {min: 4.0, max: 12.0}

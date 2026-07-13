@@ -65,6 +65,16 @@ that is a bug — file it.*
 
 - **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the settlement-terms computation runs on (sweep 43).
 
+- **[Combescot1990]** R. Combescot, "Critical temperature of superconductors: Exact solution from Eliashberg equations on the weak-coupling side," Phys. Rev. B 42, 7810 (1990). / **[Marsiglio2018]** F. Marsiglio et al., "Eliashberg theory in the weak-coupling limit," arXiv:1807.04907; real-axis companion arXiv:1912.09460. — The exact weak-coupling prefactor T_c = 1.13 e^{-3/2} omega_c e^{-1/lambda} the referee sessions run on (sweep 49).
+
+- **[NBV2006]** A. Nayeri, R. Brandenberger, C. Vafa, "Producing a scale-invariant spectrum of perturbations in a Hagedorn phase of string cosmology," PRL 97, 021302 (2006), arXiv:hep-th/0511140. / **[BrandenbergerVafa1989]** R. Brandenberger, C. Vafa, "Superstrings in the early universe," Nucl. Phys. B 316, 391 (1989). / **[SGCreview2011]** R. Brandenberger, "String gas cosmology: progress and problems," Class. Quantum Grav. 28, 204005 (2011), arXiv:1105.3247. — The thermal/maximal-temperature/area-specific-heat cousin of lock 2's lane (sweep 52): the operator's "maximal thermal allowance" = the Hagedorn concept; their winding-mode C_V ∝ R² = the exemption-clause drift, thermodynamic road.
+
+- **[KSS2005]** P. Kovtun, D. T. Son, A. O. Starinets, "Viscosity in strongly interacting quantum field theories from black hole physics," PRL 94, 111601 (2005), arXiv:hep-th/0405231. — The lower viscosity fence (eta/s >= hbar/4pi); the zero-infinity asymmetry's other end (sweep 54 add. 3).
+
+- **[WidnallTsai1977]** S. E. Widnall, C.-Y. Tsai, "The instability of the thin vortex ring of constant vorticity," Phil. Trans. R. Soc. A 287, 273 (1977). / **[Gharib1998]** M. Gharib, E. Rambod, K. Shariff, "A universal time scale for vortex ring formation," J. Fluid Mech. 360, 121 (1998). — The Widnall azimuthal selection (ka = 2.26-2.51 -> the n-predictor) and the universal formation number (F ~ 4 -> the partition/window targets), sweeps 56-58.
+
+- **[Ubachs-mu-class]** M. Daprà et al., MNRAS 454, 489 (2015) & MNRAS 465, 4057 (2017) (H₂/HD, Δμ/μ ~ 10⁻⁶⁻⁷); J. Albornoz Vásquez et al., A&A 562, A88 (2014) (Q J0643−5041); N. Kanekar-class NH₃/CH₃OH toward PKS 1830−211 (Δμ/μ ~ 10⁻⁷ at z=0.89). — The μ-variation bounds; sweep 66's structural audit: all constraining absorbers are dense molecular gas = screened rooms under reading B.
+
 ## 5. Emergent gravity, entropy, and the keystone
 
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.

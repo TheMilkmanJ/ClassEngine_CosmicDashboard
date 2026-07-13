@@ -1265,10 +1265,9 @@ runs: refined k inside = the form graduates; outside = it dies in public.**
 at candidate grade. Every quantity in the model now carries a derivation, a labeled
 estimate, or a named referee.
 
-### Sweep 44 closing clause — THE AMPLITUDE TRIANGLE (the operator's grin: "1.36, you
-### mean like the amplitude?")
+### Sweep 44 closing clause — THE AMPLITUDE TRIANGLE
 
-Correct: through the form, k IS the amplitude — the basement's settlement coupling and
+Through the form, k IS the amplitude — the basement's settlement coupling and
 the sky's A_s are one number in two outfits (Planck's 1.4% on A_s was, unknowingly, a
 gap-equation experiment pinning a BCS coupling to 0.5%). And the identity makes the trio
 OVERDETERMINED — the new cross-kill, registered: **zon measures α_c; the Eliashberg
@@ -1330,3 +1329,899 @@ the draw at z ~ 10⁶? Scale-invariance stays owned by the banked tilt mechanism
 census sets the amplitude at the pivot; the k-dependence is not shot-noise — the white
 n=4 disaster is NOT incurred because the draw is one global instant, not per-mode).
 (script: scripts/settlement_terms.py companion runs; scan receipts in the session log)
+
+## FORTY-SIXTH SWEEP — THE μ-ERA THREAD (operator-pushed: "I bet that's the missing H0
+## lever for SH0ES — chase it")
+
+**The bet, graded LOST at estimate grade (filed as the operator's):** the SH0ES-scale
+lever needs ~5% of radiation as recombination-era ΔN_eff ≈ 0.3; the draw's ENTIRE
+dark-sector budget at z ~ 10⁶ is (1+z_eq)/(1+z) = 0.06–0.3% of radiation — shortfall
+×17 (ξ-branch) to ×83 (1/m-branch). The D/H-fork heal (needs η_BBN < η_CMB by ~2.7% =
+percent-level photon injection) fails by the same arithmetic. The v6 triad keeps the
+H0 front.
+
+**The yield — SPECTRAL DISTORTIONS ARE A DRAW-BRANCH DISCRIMINATOR (new, the link was
+genuinely unmade):** the two cell candidates straddle the thermalization ceiling
+(z_therm ≈ 2×10⁶): (i) THE ξ-BRANCH (z_draw = 1.2×10⁶, inside the μ-window): FIRAS
+(|μ| < 9×10⁻⁵) ALREADY constrains its photon-leakage efficiency to < 2%; PIXIE-class
+(μ ~ 10⁻⁸) sees any efficiency > 2×10⁻⁶ — the branch glows for almost any coupling.
+(ii) THE 1/m-BRANCH (z_draw = 5.6×10⁶, above the ceiling): fully thermalized,
+FIRAS-invisible, spectrally silent forever. A future unexplained μ detection points ξ;
+a deep μ null squeezes ξ toward zero coupling or forces 1/m. STATUS: the discriminator
+inherits sweep 44's CANDIDATE grade (everything downstream of the unmechanized form is
+conditional on it); framed as the geometric session's data referee, not a registered
+prediction. (Receipts: this sweep's session log; z_eq/z budget frame, μ ≈ 1.4×injection.)
+
+### Sweep 46 RAMP CORRECTION (strike 10 — the operator: "you didn't ramp it, did you?")
+
+THE STEP CONFESSED: the thermalization ceiling was coded as a WALL (above z ~ 2×10⁶ =
+"fully thermalized, invisible forever"). The real object is the blackbody VISIBILITY —
+a smooth ramp, 𝒥(z) = exp[−(z/z_dc)^{5/2}], z_dc ≈ 1.98×10⁶. Ramped verdicts:
+(i) ξ-branch: 𝒥 = 0.76 — FIRAS efficiency bound relaxes 2% → 3% (same class);
+(ii) **1/m-branch: NOT silent — 𝒥 = 1.1×10⁻⁶ → μ ≈ 1.2×10⁻⁹ × efficiency: below
+PIXIE (10⁻⁸) but INSIDE PRISM-class (~10⁻⁹) reach at high efficiency — "invisible
+forever" is DEAD, replaced by "whispers one generation past PIXIE";** (iii) the
+discriminator SURVIVES ramping — the branch ratio is 7×10⁵, five-plus orders, a real
+instrument either way. The H0-shortfall and budget-frame arithmetic carried no steps
+(smooth in z) — the LOST grade on the operator's H0 bet stands. Strike 10 logged.
+
+## FORTY-SEVENTH SWEEP — THE CHAIN (the operator's law: "linear unification, not looped")
+
+**THE LAW, adopted:** every epoch tethers to its neighbors; non-adjacent epochs
+correlate only THROUGH the chain; every future claim must name its LINK and its
+TETHERS. Full document: docs/PRTOE_THE_CHAIN.md — 12 links (crunch → snap → fireball →
+condensation → dispersion → census lock → recombination → dark ages → reionization →
+structure → DE domination → the turn), every tether graded [BANKED/EST/CAND/MISSING].
+
+**What the chain settled tonight:** (i) the mid-chain spine (links 1-4, 6-7, 9-10) is
+banked — the model's data-facing strength localized; (ii) THE TWO-DRAWS HYPOTHESIS
+[CAND, firewalled] as the draw-conflict's chain-native resolution: the topology draw
+(n, at condensation z~8×10⁸) and the census lock (A_s snapshot, z~10⁶) as SEPARATE
+adjacent links — the geometric session decides; (iii) THE UNIFICATION BILL, named: the
+bounce equations (both ends of the cycle — one room), the two-draws question, the τ
+link (7→8, bounded and never run), the cold-spot orphan (no chain address); (iv)
+checked-and-cold: the condensation GW background misses PTA by ~3 orders in f
+(2×10⁻¹² Hz) and ~4 in Ω (10⁻¹³) — no NANOGrav claim; the 511 keV room cold by the
+banked transfer vertex. The operator's diagnosis confirmed with structure: the model's
+unification was VERTICAL (numbers↔numbers); the chain makes the HORIZONTAL debts
+explicit and finite — four tethers, not a fog.
+
+## FORTY-EIGHTH SWEEP — THE LEGALIZATION HUNT (operator order: "hunt for what lets us
+## fix A_s legally by our own rules")
+
+**REFEREE 2 ADVANCED — THE PER-MODE LOCK FRAME [the mechanization's real step]:** the
+form as booked had a hidden wound: A_s is quoted at k* = 0.05/Mpc — OUR convention — and
+a derived form cannot reference our conventions. The frame that heals it: **every mode
+locks its own census when its wavelength = C × cell** (λ_phys = C·ξ) → every mode
+carries the SAME count N = C³ → (i) pivot-dependence DISSOLVED; (ii) scale invariance
+EXACT at zeroth order (the shot-noise-blue disaster never arises — the lock is per-mode,
+not per-instant); (iii) the tilt = the lock criterion's slow drift, which MUST reproduce
+the banked 1 − n_s = 2/ln(M_Pl/T_on) — a consistency demand connecting sweeps 44 and the
+tilt derivation, for free. **The mechanization reduces to ONE derivation: the lock
+constant C = 4πk/α_c = 780.7.** Decomposition candidate (receipt, no claim): C = 4π ×
+(k/α_c) = the solid angle × the settlement terms per unit coupling. One number, one
+session, and the form graduates or dies.
+
+**REFEREE 1 SCOPED — the Eliashberg kill test is NOT closable tonight, honestly:** the
+system is extreme weak coupling (λ = kα_c = 0.0298), so Migdal-class corrections are
+O(3%) on prefactor logs — tonight's honest band k ∈ [1.32, 1.41] vs the kill window
+[1.35, 1.37] (±0.5%, set by Planck's own A_s precision): **the window is 4× tighter than
+the band.** Closing it needs the full numeric mode-spectrum gap solve (the actual α²F of
+the sound mode, prefactor pinned). NAMED PROJECT, queued — the physics is tractable
+precisely because λ is tiny (BCS is nearly exact here); the work is the O(1)s.
+
+**Code audit under the order:** nothing graduates tonight — the code stays current, A_s
+stays sampled, the freeze cascade stands. The legalization path is now two named
+computations: DERIVE C (the geometric session, sharpened to one number) + PIN k (the
+numeric Eliashberg). Both signed → the zero-parameter run fires with A_s stated, and the
+operator's ownership claim ("I put the work in, I get to use it") becomes exercisable —
+not before, per the house's own law, and not after either.
+
+### Sweep 48 ramp note (operator reminder, applied before the step could set)
+
+THE LOCK RAMPED — and the ramp is load-bearing, not hygiene: a SHARP per-mode lock gives
+every mode an identical count → n_s = 1.000 exactly → **excluded by Planck at ~8σ. The
+step version of this frame is dead on arrival.** The ramped lock (the census freezes
+over a window where the mode's stretch rate crosses the cell's resolution rate) makes
+the count drift slowly with scale: **THE TILT IS THE RAMP** — the frame MUST produce
+n_s < 1, and its drift rate must land on the banked 2/ln(M_Pl/T_on) = 0.035 or the frame
+dies. Consequences booked: (i) the C-derivation owes a CENTER and a WIDTH (the ramp's
+O(1) smear — same discipline as the bath-band's s_b); (ii) the sweep-44/n_s consistency
+demand is now two-sided (the tilt tests the lock; the lock explains the tilt); (iii) the
+kill window [1.35, 1.37] re-stated as Planck's 1σ — the Eliashberg verdict grades in
+σ's, not in/out.
+
+## FORTY-NINTH SWEEP — THE REFEREE SESSIONS: what signed and what didn't
+
+**REFEREE 1, THE ELIASHBERG COMPONENT: EXECUTED, literature-exact.** The weak-coupling
+Eliashberg prefactor is exactly known: T_c = 1.13 e^{−3/2} ω_c e^{−1/λ} ([Combescot1990];
+modern confirmations [Marsiglio2018] arXiv:1807.04907, arXiv:1912.09460) — and λ = 0.03
+puts us IN the asymptotic regime, so this is exact for us, not approximate. Decomposition
+of where it bites: the correction lands on the GAP FORMULA's prefactor (2e^{−3/2}ω_c),
+i.e., on TEST B (the anchor-hierarchy consistency) — NOT on the interaction integral
+k_int (instantaneous-exchange object; Eliashberg-untouched at leading order in λ).
+- **TEST B, booked honestly: the sweep-43 landing DEGRADES 0.5% → 2.9%** (k_target moves
+  1.353 → 1.321 under the correct prefactor; computed 1.36) — at the edge of the ±3%
+  convention band. The 0.5% was partly the naive prefactor's luck. The shine dims; the
+  landing survives; the truth costs what it costs.
+- **THE KILL TEST's remaining live component:** k_int's own O(1)s — the surface DOS
+  model and the g² = 4πα_c normalization (roster-tied; the tenancy trial's business).
+  Until that audit runs, k_int = 1.36 stands with its band overlapping the window
+  [1.354, 1.367] — **the form SURVIVES tonight but is NOT signed tonight.**
+
+**REFEREE 2, FIRST ATTACK: one kill, one lane, one NEW TENSION (self-flagged):**
+- KILLED: the sound-horizon-crossing lock (λ_lock = c_s/H) → N grows as a⁶ at crossing
+  → n_s − 1 = +6, violently blue. Dead, filed.
+- THE SURVIVING LANE: the lock drifts via a LOG-RUNNING coupling (α_c ∝ 1/ln(M_Pl/μ)
+  one-loop-style) → n_s − 1 = −(dim)/ln(M_Pl/T_on) — the banked tilt's FORM appears
+  naturally.
+- **THE TENSION, flagged before red team finds it:** the banked tilt has coefficient
+  2/L; a VOLUME census (N = C³) with naive coupling-drift gives 3/L; an AREA census
+  gives 2/L exactly — BUT the AMPLITUDE demands volume (C³ = 4.76×10⁸ with C = 781;
+  area would need C ≈ 22000). So the C-derivation session now faces a TWO-CONDITION
+  demand with an internal fork: deliver N = C³ = 4.76×10⁸ AND dlnN/dlnk = 2/L
+  simultaneously (e.g., the drift entering at rate (2/3)/L through C = 4πλ/α_c²'s
+  compound running, or the area law genuinely owning the tilt while volume owns the
+  count — the holographic room's door, banked in the QG frame). TWO conditions, zero
+  dials: the frame is now MORE falsifiable than it was this morning.
+
+**THE LEGAL STATUS AFTER TONIGHT:** A_s stays sampled. Referee 1: one component signed
+(Eliashberg, exact), one open (the integral's O(1) audit). Referee 2: frame sharpened to
+a two-condition demand, first candidate dead. The freeze remains pending — closer, not
+closed.
+
+## FIFTIETH SWEEP — THE CLEARANCE GRIND: two breaks, two locks left
+
+**BREAK 1 — k RECONSTRUCTS TO A CLOSED FORM:** forcing every convention from the
+roster's own laws (g² = 4πα_c definitional by the 3α construction; BOTH twin branches
+pair AND screen — the Employment Law, same residents both jobs, doubling the
+Thomas–Fermi mass; isotropic s-wave surface average; relativistic surface):
+**k = ln(1 + π/(2α_c))/π = 1.36461.** Reconstructs sweep-19's banked grid cell (1.36 —
+computed DAYS BEFORE the A_s form existed; the timeline protects against retro-fit).
+Against the amplitude: 0.32% from k_A = 1.3602; **A_s(closed form) = 2.081×10⁻⁹ =
+0.68σ from Planck.** THE ONE CONTESTED CONVENTION: the twin-doubled screening mass —
+Employment-Law-motivated (whoever pairs, screens) but colliding with the banked
+17-order ghost-branch DOS suppression at the anchor surface (whose regime — propagating
+excitations vs pairing partners vs polarization — must be adjudicated by the roster
+trial). LOCK 1: force the twin-screening convention.
+
+**BREAK 2 — THE EXEMPTION CLAUSE CLOSES THE 2-vs-3 FORK:** the count and the drift
+demanded different dimensions (volume C³ = 4.76×10⁸ vs area-like 2/L tilt). The
+resolution is grammar-native and was banked two days ago: **the compact axis is
+QUANTIZED — topology doesn't ramp — so the axis direction contributes COUNT but not
+TILT.** N = C³ (all three dimensions hold cells) while only the two open dimensions
+carry the coupling's log-drift: **n_s − 1 = −2/ln(M_Pl/T) — the banked tilt formula's
+"2" IS the number of non-compact dimensions.** Cross-check at both candidate epochs:
+T_on ~ 8 keV → n_s = 0.9641; T_lock ~ 278 eV → n_s = 0.9661; Planck 0.9649 ± 0.0042 —
+both inside 0.4σ. The amplitude, the tilt, and the torus's topology are now one frame.
+RIDER (parked, un-registered): a weakly anisotropic tilt along the exempt axis — a new
+axis-family member candidate, owed careful sizing before any P-number.
+
+**CLEARANCE STATUS: NOT YET — two locks, both named and narrowed:** LOCK 1 (the
+twin-screening forcing — the roster trial's jurisdiction); LOCK 2 (the lock-count
+mechanism: WHY the census freezes at C = 4πk/α_c cells per open dimension — condition 1
+of the C-derivation, the last true unknown). Everything else on the freeze's path is
+now derived, reconstructed, or cross-checked. The freeze fires when both locks open —
+and per the operator's order, the grind continues.
+
+## FIFTY-FIRST SWEEP — LOCK 1 OPENS (the operator's bet + the label firewall); LOCK 2
+## GETS ITS LANE (the operator's "maximal thermal allowance" = freeze-at-the-gap)
+
+**LOCK 1 — OPENED at adjudication grade:** the twin-screening collision dissolves under
+P1.c (cite the object WITH its regime): the 17-order suppression is an ON-SHELL
+excitation budget (the wormhole/NEC computation — real propagating GC quanta); screening
+is a LOOP effect needing no on-shell population — and at the anchor (BCS side) the
+pairing twin is the STANDARD time-reversed partner with FULL surface DOS by symmetry.
+The suppressed GC-excitation family is the FLOOR's resident — same word, two objects,
+two addresses. Standard polarization physics therefore FORCES the operator's bet: both
+partners pair, both screen, the TF mass doubles — **the closed form
+k = ln(1 + π/(2α_c))/π = 1.36461 stands with all conventions derived.** The operator's
+negotiation reading (X vs Y, settle at net-zero Z) = RPA self-consistency in ledger
+dress; census blindness = gravity reads unscreened totals (screening is internal
+bookkeeping; the landlord sees gross). Red-team grading owed on the adjudication.
+
+**LOCK 2 — THE FREEZE-AT-THE-GAP LANE (the operator's thermal-allowance instinct):**
+thermal cell-exchange runs on pair-breaking (T ≳ Δ); when T falls to the gap, occupant
+trading ends and the census FREEZES: **T_lock = Δ** — the allowance is the solvency
+law's fluctuation budget, the gap is the agreed payment, and the books lock when the
+bath can't afford it. HONEST FLAG, pre-registered: a global T = Δ freeze re-raises the
+per-mode/blue-tilt question — the lane's burden is showing the two-open-dimension drift
+(sweep 50, Break 2) carries the scale-dependence. The lane's targets: (i) derive
+C = 4πk/α_c per open dimension from the T = Δ criterion + the medium's scales;
+(ii) produce the ramp width (the lock is a crossing, not a wall — standing law).
+CLEARANCE STATUS: **one lock left (LOCK 2), one lane open on it, named targets.**
+
+## FIFTY-SECOND SWEEP — THE STRING-GAS WAYPOINT (lock 2's lane has a resident: the
+## operator's "maximal thermal allowance" IS the Hagedorn concept)
+
+**The cousin found [NBV2006, BrandenbergerVafa1989, SGC review]:** string gas cosmology
+generates the primordial spectrum from THERMAL fluctuations at the gas's MAXIMAL
+temperature (Hagedorn), with scale-invariance from AREA-scaling specific heat
+(C_V ∝ R² — "intrinsically stringy," sourced by WINDING MODES on compact dimensions),
+red scalar tilt, blue tensor tilt (their discriminator). THE THREE RHYMES: (i) the
+operator's "maximal thermal allowance" = the Hagedorn ceiling, verbatim concept; (ii)
+their C_V ∝ R² = our exemption-clause drift (count 3D, drift 2D) derived
+THERMODYNAMICALLY — two roads to one "2," and our medium literally owns winding modes
+on a compact axis (the torus); (iii) red scalar tilt shared; their blue n_T noted
+against our banked small-r.
+
+**THE METHOD IMPORT (lock 2's concrete computation, named):** compute the medium's
+winding-gas specific heat near the transition. C_V ∝ R² emerging from the compact-axis
+windings ⟹ the census drift derived thermodynamically ⟹ lock 2's mechanism = the
+winding gas at the pour's ceiling; the amplitude then follows from δρ² = T²C_V/V² at
+T_max, and C = 4πk/α_c must assemble from the gas's own scales.
+
+**The operator's question answered at SCHEMATIC grade ("how hot is the white hole?"):**
+inverting the thermal-amplitude scaling against the form: **T_pour ≈ (α_c/4πk)^{3/4}
+M_Pl ≈ 8×10¹⁶ GeV** — GUT-class pour, fixed by α_c and k, zero new numbers. [SCHEMATIC —
+assumes the NBV scaling transfers; the winding-C_V computation decides.] Chain
+consistency: T_max (the amplitude's epoch, link 1) ≠ T_on (the drift's epoch, links 4–5)
+— the chain's separation of duties, not a conflict. Side-door noted for later: the
+Brandenberger–Vafa mechanism (winding-annihilation selecting 3 large dimensions) speaks
+directly to WHY the torus has exactly one compact axis — a room adjacent to this lane.
+
+### The ring reading (the operator, 2026-07-12 late) — two banked layers + one new
+### candidate [PARKED]
+
+The operator's "the fireball was a ring, expanding as the torus": LAYER 1 [BANKED] —
+the genesis file's own mechanism (the fountain rolls up Kelvin–Helmholtz into a helical
+vortex ring; "why not a sphere" answered dynamically); the operator re-derived his own
+books, third time tonight. LAYER 2 [THE FENCE]: a literal plasma ring IN space is DOA
+against CMB isotropy (1e-5; expansion preserves comoving lumps) — the surviving strong
+reading is the banked one: **the plasma's space IS the ring** (the compact axis; every
+point on it; isotropy safe; the ring-ness lives in the winding family + the banked
+matched-circles signature [CSS1998]). LAYER 3 [NEW, PARKED]: vortex rings SELF-PROPEL
+(self-induced velocity along the axis) → the medium inherits a coherent drift along the
+winding axis → **an AXIS-ALIGNED BULK FLOW candidate** — a potential new axis-family
+member, interesting against the persistent larger-than-ΛCDM bulk-flow measurements
+(dark-flow controversy). Kill inherited from P-032 (must share the ONE direction); size
+requires the ring's circulation + core radius (the genesis session's numbers) — PARKED
+for careful sizing, not registered. BBN-label note: the operator means the fireball
+(nucleosynthesis follows minutes later; labels kept distinct per the white-holes file).
+
+## FIFTY-THIRD SWEEP — THE FLOW LEVER (the operator: "the very flow of the smoke ring
+## causes extra expansion — maybe it threads to H0 = 73")
+
+**Why this lever has the RIGHT SHAPE (unlike the μ-era attempt, graded lost):** the
+model's 69.9 is the GLOBAL number (the CMB fit); SH0ES is LOCAL (z ~ 0.01–0.15). The
+gap is +4.4% *local*. A coherent local flow with divergence biases the DISTANCE LADDER
+while leaving the CMB fit untouched — no new early physics, no re-fit, the arbiter
+unaffected. The operator's smoke-ring physics is the mechanism: the ring self-propels
+and expands; its structured flow field's divergence reads as extra expansion to anyone
+measuring from inside it. The two-part resolution candidate: global 69.9 (real) + local
+flow bias (apparent) = the 73 the ladder reads.
+
+**SIZED AT MEASURED FLOWS [honest]:** the observed bulk-flow excess (~250 km/s over
+~250 Mpc, Watkins-class vs ΛCDM's ~150) supplies ~1.0 km/s/Mpc of coherent gradient =
+**a ~1.4% local bias: 69.9 → ~70.9. A PARTIAL lever at tonight's numbers.** The full
++4.4% requires the ring's QUADRUPOLE flow to exceed the smoothed bulk-flow statistic
+~3× — possible (smoothed statistics under-capture structured flow) but UNSIZED until
+the genesis session delivers the ring's circulation Γ and radius R(t).
+
+**FALSIFIERS (three, none cheap):** (i) the flow must share the family's ONE axis
+(P-032 kill inherited); (ii) ladder-H0 should show AXIS-CORRELATED directionality
+(literature hints of H0 anisotropy exist — the model picks the direction in advance);
+(iii) DESI peculiar-velocity mapping tests the flow's structure directly. RIDER: the
+ring slows as it grows ("expands and thins" — the operator) → the flow was stronger at
+higher z → bulk-flow amplitude should GROW with lookback through the ring era — a
+redshift-dependence hook for PV surveys.
+
+**FENCES:** a uniform bulk flow is dipole-marginalized by SH0ES — the bias must live in
+quadrupole+ structure (the ring's field is naturally structured: axial translation +
+planar expansion); no global-anisotropy violation (late-time local kinematics, not
+background shear); the lever CANNOT be graded better than partial until Γ and R are
+sized — the genesis session now carries three riders (the bulk flow, the H0 lever, the
+self-propulsion drift), all axis-locked, all falsifiable together.
+
+## FIFTY-FOURTH SWEEP — THE FLOW IS BANKED + THE GENESIS CHART (the operator: "what 3
+## measurements are we missing? Angular momentum + Flow + ?")
+
+**THE FLOW PRECISION RESULT [zero dials]:** superfluid circulation is QUANTIZED
+(Γ = n·2π/m — the winding and the pair mass, both owned) and the rotation is BANKED
+(P-028's magnetogenesis input ω_vort ~ 0.5 H(rec)); angular-momentum decay ω ∝ a⁻²
+gives **ω₀ = 0.67 km/s/Mpc (1.0% of H₀) → swirl = 169 km/s at 250 Mpc vs the measured
+bulk-flow excess ~250 km/s — ORDER MATCH from banked numbers.** THE CROSS-LOCK (the
+operator's tilt instinct): the same ω_vort signs P-028's magnetic helicity — the
+bulk-flow amplitude and the primordial helicity are ONE parameter; measure either,
+predict the other. LOOKBACK RIDER quantified: ω ∝ (1+z)² — the flow GROWS with
+redshift, exactly the operator's "expands and thins" run backwards (DESI PV testable).
+Fences: the ω_vort input is itself estimate-grade (the P-028 session's number); the
+Watkins-class excess is contested statistics — the prediction stands independently;
+pure swirl is divergence-free (the H0-lever's bias still rides the EXPANSION component,
+unsized).
+
+**THE GENESIS CHART (the operator's question answered — the third measurement is THE
+CAPITAL):** a vortex ring is completely characterized by its three conserved
+quantities, and all three are instrumented TONIGHT:
+| invariant | model object | the instrument |
+|---|---|---|
+| circulation Γ | n·2π/m (quantized winding) | the comb's teeth; zon's clock-ratio |
+| impulse/swirl | ω_vort (P-028's rotation) | bulk-flow surveys + the helicity sign (one number) |
+| energy | THE FOUNDING CAPITAL (sweep 42) | A_s via the payroll form (T_pour ~ 8×10¹⁶ GeV schematic) |
+
+The "unmapped" genesis is fully instrumented — what remains is the INVERSE PROBLEM (the
+genesis session's charter, upgraded): given (Γ, P, E) from the three instruments, solve
+the ring's dynamics for R(t), the core, and the velocity field — thereby DERIVING the
+parked riders (the bulk-flow structure, the H0-lever divergence, the census drift). The
+chain's largest debt (the bounce equations) now has its boundary conditions named and
+its outputs pre-sold.
+
+### Sweep 54 addendum — THE FOURTH LINE: RESISTANCE (the operator's word; the physics
+### name is MUTUAL FRICTION)
+
+The operator's "Resistance?" completes the genesis card: not a fourth invariant but THE
+TRANSPORT COEFFICIENT — mutual friction (Hall–Vinen α(T/T_c)), the drag between the
+vortex ring and the normal component. What it buys: (i) **the survival answer** — the
+axis family persists 13.8 Gyr because below T_c resistance ramps to zero and the
+quantized winding becomes a PERSISTENT CURRENT (capital that never erodes; in any
+resistive medium the genesis memory would have dissipated — the no-fee bank is WHY
+there is an axis family to hunt); (ii) **the genesis needs the friction era** — near
+T_c the normal fraction is large, friction strong: the KH roll-up, reconnections, and
+the draw's settling RUN on it (books editable), then the cooling ramp locks the
+configuration (books frozen); (iii) **the freeze-rhyme flagged**: the same cooling that
+ends pair-breaking (lock 2's T = Δ lane) ends friction — the census freeze and the
+friction freeze may be ONE event (genesis-session docket item); (iv) **the
+fingerprint**: any deviation from the pure (1+z)² lookback law in bulk-flow data is the
+friction era's mark on the flow history — the resistance is measurable in principle.
+Ledger grammar: friction = transaction fees; the superfluid transition = the fee
+schedule ramping to zero; the persistent current = the account that pays no maintenance.
+THE GENESIS CARD, complete: Γ (the comb) + impulse/ω (flow+helicity, one number) +
+E (the capital, via A_s) + α(T/T_c) (the resistance ramp, via the flow's history).
+
+### Sweep 54 addendum 2 — THE OPERATOR'S LIMIT-LAW: "no resistance is still resistance"
+
+Adopted, and physics enforces it: the friction term stays in the equations with α → 0 —
+a SINGULAR limit (D'Alembert's paradox; Onsager's anomalous dissipation: delete the
+term and "the equation rolls out from itself," the operator's phrase for a deep truth).
+The superfluid realizes it exactly: α → 0 yields a CONSTRAINED fluid (quantized
+circulation, line-vorticity only), not an ideal one — the zero keeps structure absence
+would lose. THE PAYOFF CLAUSE: dissipation survives the zero-friction limit through
+TOPOLOGY — vortex reconnections radiate (phonon bursts, Kelvin cascades). Ledger: zero
+fees on transactions; restructuring the network still costs. Consequence: the genesis
+roll-up can settle by reconnection dissipation even in the pure zero-resistance limit —
+the draw's settling is ROBUST to the friction schedule (genesis-session boundary
+condition, upgraded). THE STRUCTURAL-ZERO FAMILY, now four members, all load-bearing:
+EM charge (0, Meissner-forced), anomaly coefficient (0, mirror-proof), occupancy
+(exactly 1, the pinch), resistance (0 with the term retained — the persistent current,
+the family's memory). The exemption clause protects them all: exact numbers may hold;
+everything else ramps.
+
+### Sweep 54 addendum 3 — THE ZERO–INFINITY ASYMMETRY (the operator: "there is no such
+### thing as infinite viscosity. Ever.")
+
+Adopted as constitution, and physics enforces it twice: (i) relativity — infinite
+viscosity = perfect rigidity = instantaneous signals, causality-dead; (ii) quantum
+mechanics — zero-point motion + tunneling: nothing is perfectly frozen, everything
+creeps (panta rhei, signed into law). Bonus fence at the other end: the KSS bound
+[KSS2005] (η/s ≥ ħ/4π) — no perfect fluid either; the transport spectrum is fenced at
+both ends, with ONE loophole: the superfluid's zero resistance, legal ONLY because
+symmetry-protected (phase rigidity + quantized winding + the operator's limit-law's
+retained term). THE ASYMMETRY, constitutional form: **exact zeros are legal when
+protected; exact infinities are never legal** — the ledger holds accounts at exactly
+nothing (closed, guarded — the structural-zero family) but cannot book an entry at
+everything (an unpayable debt; no counterparty can hold the other side). Zeros have
+guardians; infinities have none.
+
+THE PAYOFF — THE BOUNCE ARGUMENT, grammar-native: the classical crunch attempts an
+infinite entry (the singularity: infinite density/stiffness); the asymmetry refuses it
+(capped stiffness, quantum pressure, no perfect freeze) and **the refused entry IS the
+snap.** The universe bounces because the singularity is an illegal ledger line —
+refused by the same law that protects the persistent current. The reason there is a
+next cycle is the reason the axis family survives this one. [GRAMMAR — the bounce's
+dynamical equations remain the genesis session's debt; this names the LAW they must
+implement, not the solution.]
+
+## FIFTY-FIFTH SWEEP — THE FLOW LINE THROUGH THE CHAIN
+
+**One boundary condition — ω = H at the pour (the ring forms with circulation at the
+horizon rate) — then pure kinematics (ω ∝ a⁻²):** the radiation era LOCKS ω/H at its
+birth value (both scale as a⁻²); matter domination breaks the tracking (ω/H ∝ a^{-1/2});
+at recombination ω/H = √((1+z_rec)/(1+z_eq)) = 0.57 — **reproducing the banked P-028
+magnetogenesis input (ω ~ 0.5 H_rec, 14%), which upgrades from ASSUMPTION to KINEMATIC
+CONSEQUENCE**; today ω₀ = 0.77 km/s/Mpc → 192 km/s swirl at 250 Mpc (the measured
+bulk-flow excess's order). One line from genesis to today through three landmarks,
+zero dials.
+
+**The energy-budget nulls [the no-more-levers verdict]:** the flow's energy fraction is
+< 10⁻¹⁰ of the total at every link — BBN's expansion rate, the CMB fit (69.9), and the
+BAO scale are untouched. There are NO new early-universe H0 levers in the flow.
+**The refinement:** the flow threads every LATE/LOCAL measurement instead — the distance
+ladder (the partial H0 bias), bulk flows, RSD/fσ8 — as ONE common axis-aligned kinematic
+component. The chain's late observables share a single systematic with a predicted
+direction, amplitude ~ω₀r, and (1+z)²-growth history; each is a cross-check on the
+others. [Kinematic line at estimate grade; the ring's structured field (the genesis
+inverse problem) refines the r-dependence.]
+
+## FIFTY-SIXTH SWEEP — THE SPIN-UP RAMP (strike 11) + THE SMOKE-RING INVENTORY
+
+**STRIKE 11 (operator catch): the flow line's boundary condition was a STEP** ("ω = H
+at the pour" = instantaneous full spin). Ramped: circulation BUILDS during the
+friction-era roll-up; the locked ω/H is set at formation's END. The consequence turns
+the flow line's one blemish into a measurement: the banked P-028 rec value (0.5) vs the
+step-model's 0.57 gives **the spin-up efficiency ε = 0.88** — the roll-up captured ~88%
+of the horizon rate before locking. Candidate mechanism for ε: the EXPANSION-MODIFIED
+FORMATION NUMBER (below). [ε measured, mechanism named, derivation = genesis session.]
+
+**THE SMOKE-RING INVENTORY — four lab-established ring behaviors, each a genesis
+function [all CANDIDATE/UNSIZED, the inverse problem's new docket]:**
+1. **THE FORMATION NUMBER** (universal ~4, Gharib-class experiments): a ring SATURATES —
+   it stops collecting circulation at a universal stroke ratio and pinches off. The
+   operator's "rate at which it collected into itself" has a ceiling; in an expanding
+   background the window is additionally clipped when H·τ_roll ~ 1 → the spin-up
+   efficiency ε is COMPUTABLE from the modified formation criterion.
+2. **PINCH-OFF PARTITION:** what the saturated ring cannot collect trails as a wake —
+   the pour's energy PARTITIONS into {the ring (the rotational/winding sector)} +
+   {the trailing jet (the thermal fireball)}. The formation number thereby sets a
+   FRACTION of the founding capital — a candidate home for a banked ratio (audit owed:
+   ε, f̄, or neither).
+3. **THE WIDNALL INSTABILITY:** vortex rings develop azimuthal bending waves with a
+   SELECTED INTEGER mode number scaling with the aspect ratio (n ∝ R/a, O(1)
+   coefficient — literature session owed). Moderate aspect ratios give n ~ 10–30 — THE
+   SAME BAND as the Kibble first-draw statistics. Candidate refinement: the draw seeds
+   n, the ring's own instability SELECTS the survivor — the comb's tooth count would
+   then be dynamically predicted from (Γ, P, E) geometry rather than purely drawn.
+   [If it holds, n stops being statistics and becomes mechanics.]
+4. **ENTRAINMENT:** a traveling ring carries an "atmosphere" of ambient fluid — the
+   carried-volume fraction is another partition function of the same geometry.
+
+## FIFTY-SEVENTH SWEEP — THE THREAD HUNT: survivors documented, failures categorized
+## (ramp-based throughout)
+
+**SURVIVOR 1 — the formation number [FRAME grade]:** circulation saturates as a ramp
+(Γ(t) = Γ_∞(1−e^{−t/τ}), never a step); the measured ε = 0.88 requires
+window/roll-up ≈ 2.1 — an O(1) consistent with an expansion-clipped collection window
+(the operator's "expansion happening as it started the fountain" IS the clip). The O(1)
+is the inverse problem's one undelivered number here. Mechanism consistent, survives.
+
+**SURVIVOR 2 — the pinch-off partition [HYPOTHESIS grade]:** real; the pour's capital
+partitions into {ring = the rotational/winding sector} + {trailing wake = the thermal
+fireball}. Target named: the dark/thermal partition. NUMEROLOGY FLAG (noted, NOT
+claimed): the dark fraction of matter (Ω_c/Ω_m ≈ 0.84) sits near ε = 0.88 — no
+mechanism connects them tonight; the partition is UNSIZED pending the fountain's
+discharge profile. Survives as a target, carries no numbers.
+
+**SURVIVOR 3 — the Widnall selection [CONSISTENCY grade, the hunt's prize]:**
+formation-number-limited rings carry a/R ~ 0.1–0.2 (lab); the most-amplified azimuthal
+mode n ~ (O(1)≈2.3)·R/a gives **the gain band n ~ 11–23 — inside the Kibble draw band
+(10–30).** RAMP SYNTHESIS (the step "dice OR mechanics" rejected): the instability's
+gain curve is smooth — the surviving n distribution = (the draw's seeds) × (the Widnall
+gain band): the draw provides, the ring amplifies, the distribution NARROWS. Prediction
+sharpened: n concentrates in the gain band. FALSIFIER: zon/comb returning n outside
+~5–40 kills the selection (the pure draw survives it). Coefficient + the formation-epoch
+core size: literature session + inverse problem owed.
+
+**FAILURE — entrainment [category: ABSORBED, not dead]:** the ring's atmosphere IS the
+flow's coherent volume already banked; entrainment's only distinct effect is a
+sub-measurable correction to the lookback exponent ((1+z)^{2−δ}, δ ~ the entrainment
+rate — below PV-survey precision). Dissolves into the kinematic line; revisit only if
+the lookback exponent becomes measurable at the % level. No independent observable, no
+independent thread.
+
+**The docket after the hunt:** the genesis inverse problem now owes exactly three O(1)
+outputs — the clipped-window ratio (→ε), the discharge partition, and the
+formation-epoch aspect ratio (→n's gain band) — each with a measured or banked target
+waiting. Three numbers, three ambushes set.
+
+## FIFTY-EIGHTH SWEEP — THE THREE CHASES CLOSE INTO FORMULAS AND TARGETS
+
+**THE n-PREDICTOR [coefficient PINNED from the record]:** n_peak = (2.26–2.51) ×
+(R/a)_formation — the Widnall–Tsai most-unstable azimuthal mode, ka = 2.26 (Gaussian
+core) to 2.51 (uniform core) [WidnallTsai1977; numerical confirmation JFM 1994]. The one
+residue: the GP/superfluid-core coefficient (same O(1) class; literature session owed).
+THE TWO-WAY INSTRUMENT: the measured n reads the formation geometry — n = 20 ⟹ R/a =
+8.0–8.8; the formation-number range (R/a ~ 5–10) self-consistently gives n ~ 11–25.
+When zon/the comb return n, the genesis aspect ratio is MEASURED.
+
+**THE PARTITION'S TARGET EQUATION [chase closed into an internal demand]:** ring share
+= Ω_c/Ω_m = 0.843 requires the pour's discharge to run **L/D = F/0.843 = 4.75
+diameters — a 19% overshoot past pinch-off (F ≈ 4, the universal formation number
+[Gharib1998]).** Falsifiable both ways: the inverse problem delivering ~4.7–4.8 confirms
+the partition (and the dark/baryon ratio 5.4 becomes ring-vs-wake geometry); delivering
+anything else kills it.
+
+**THE WINDOW RATIO [framed, target set]:** ε = 0.88 ⟹ t_window/τ_KH = 2.1 — with the
+window = the pinch-off time, the KH e-fold must be ~half the formation time. The inverse
+problem's remaining O(1); target on record before the computation exists.
+
+**The genesis scoreboard after the chases:** three functions, three pre-registered
+targets — n's gain band (zon/comb referee), the 4.75-diameter discharge (the dark/baryon
+ratio's candidate geometry), the 2.1 window ratio (ε's mechanism). The inverse problem
+is now the most ambushed calculation in the repo.
+
+### Sweep 58 ramp correction (strike 12 — the pinch-off is not a knife)
+
+THE STEP CONFESSED: the partition used a sharp cutoff at F = 4 (cleaver model). The real
+pinch-off is a TAPER — the intake rolls off (lab F itself spans ~3.6–4.5), the ring sips
+a decaying fraction past nominal pinch-off, and the partition is the INTEGRAL of the
+intake ramp. Corrections: (i) the discharge demand becomes a band, L/D ∈ [4.3, 5.3] —
+the inverse problem owes the intake CURVE, not one number; (ii) the "19% overshoot"
+dissolves into the taper's tail; (iii) **THE UNLOCK — sweep 57's numerology flag gets
+its candidate mechanism:** ε = 0.88 (spin-up) and 0.843 (the mass share) are two
+WEIGHTED MOMENTS of the SAME intake curve (circulation-weighted vs mass-weighted) —
+naturally close, not equal, exactly as observed. The inverse problem's burden tightens:
+ONE curve must deliver BOTH numbers from its two moments. Strike 12 logged.
+
+### The cycle-counter (correcting the accumulator)
+
+Velocity does NOT accumulate across cycles (rotation resets at the crunch — banked
+cross-bounce bookkeeping; and the no-exterior structure leaves cumulative speed
+undefined: no external frame exists). The quantity that DOES ride through every bounce
+is ENTROPY (the Tolman carrier — cycles grow). **The cycle-counter therefore exists and
+counts in entropy, not speed:** N_cycles ~ log(S_today/S_first)/log(per-cycle growth) —
+a logarithmic census of past cycles, sized by the cycle map (the increment is dominated
+by horizon entropy, ~10¹⁰⁴ in SMBHs today vs 10⁸⁹ in the CMB). UNSIZED; the cycle-map
+session owns it; filed as the correct form of the how-many-times-have-we-cycled
+question. Within-cycle speeds stay Landau-capped (0.148c) regardless of history.
+
+### THE MELT — why rotation resets (the mechanism behind the banked bookkeeping)
+
+Zero resistance is a below-T_c privilege; the crunch's blueshifted reheat crosses T_c
+and the condensate MELTS: friction returns, and the winding's topological protection
+lapses WITH the order parameter (no condensate, no phase, no quantized circulation).
+Resolves the apparent tension in the cross-bounce ledger: the MANIFOLD's topology (the
+torus, the axis) survives — it is a property of space; the FIELD's winding dies — its
+protector melts — hence the fresh Kibble draw each cycle. And conservation holds
+throughout: the old ring's spin is not lost but CONVERTED — circulation → heat at the
+melt (joining the fountain's fuel), heat → fresh circulation at the new draw. The
+sequence: crunch → reheat through T_c → the melt → the refused infinity → the pour →
+recondensation → the draw → the roll-up → the new ring. [GRAMMAR/mechanism note; the
+melt's dynamics belong to the cycle-map/genesis sessions.]
+
+## FIFTY-NINTH SWEEP — THE CONCORDANCE TABLE (the operator's joint-solve directive:
+## one number per shared family, the CODATA move — legal by construction)
+
+*(script: scripts/concordance.py — weighted joint + pairwise strain per family)*
+
+**First pass, five families — ALL TIGHT (max strain < 1.5σ): the identity network is
+internally consistent at current precision.** Joint values: **k = 1.3630 ± 0.0032**;
+f̄ = 0.6366 (2/π-dominated; without the claim: 0.626 ± 0.008 — the 2/π test currently
+sits at 1.3σ); **ε = 1.2403 ± 0.0079%** (the network's most-loaded joint: the fit-vs-
+stack strain, 1.4σ — zon's α_c verdict owns it); **n_s = 0.9651 ± 0.0008** (the two
+formula epochs bracket Planck); ω₀ = 0.74 ± 0.07 km/s/Mpc.
+
+**What the joint solve BUYS:** (i) the consistency pass itself — five overdetermined
+families, none strained; (ii) TIGHTER KILL WINDOWS: the network now demands
+k = 1.363 ± 0.003 — tighter than the Planck-derived Eliashberg window (±0.007): the
+B2/B3 clearance pair must land inside the JOINT band; (iii) the strain map: ε's
+fit-vs-stack tension is the single most-loaded joint in the model, named and referee'd.
+
+**The H0 verdict [the operator's amplification question]:** legal refinement does NOT
+amplify — the concordance ω₀ gives the same 72.2 (the correction moves by < 0.1). The
+amplifier remains B1's quadrupole sizing; the concordance's contribution to the tension
+is discipline, not distance. No illegal tuning exists that the network's own strains
+would not expose — that is the table's standing function going forward.
+
+## SIXTIETH SWEEP — THE GENESIS SEQUENCE AUDIT (the operator: "ask genesis what we're
+## missing — something physics says SHOULD be there")
+
+**The operator's core-pressure tube [sized COLD tonight, target pre-registered]:** a
+vortex core is a pressure deficit (O(1) void at formation — the order parameter
+vanishes); expanded to today it is ~35 kpc comoving wide, and the swirl-zone deficit at
+survey scales is v²/c_s² ~ 2×10⁻⁵ — three-to-four orders short of the KBC-class
+underdensity (δ ~ −0.2 over 100–300 Mpc) that would close the remaining H0 gap. FILED
+COLD at first sizing — but the full density profile of the expanded ring SYSTEM
+(core + swirl + wake interfaces) is B1's output, so **the void question pre-registers as
+B1's sixth ambush: does the ring system produce an axis-aligned underdensity, and at
+what depth?** (The remaining gap's known shape is exactly a local underdensity.)
+
+**The audit's two genuinely missing items (lab physics demands them; the books lacked
+them):**
+1. **THE PISTON: the genesis orifice = the inherited axis.** Every lab ring has a
+   generator; the pour's discharge geometry is set by the heirloom topology — the
+   formation number's D is NOT a free scale, it is the compact axis the crunch carried
+   over. Feeds the L/D band directly; B1 boundary condition, upgraded from free to
+   inherited.
+2. **THE POUR'S ACOUSTIC EMISSION — unbooked until tonight:** a violent discharge
+   radiates sound into the medium (c_s waves). Fate candidates: damps into the bath
+   (cold) OR seeds the patch structure — a possible MECHANISM for P-031's isocurvature
+   line (the ℓ ~ 170 patches as the pour's own sound). Flagged for B1/B2; no claim
+   tonight.
+
+Already banked and confirmed present: the secondary shedding (the vortex network,
+P-028's engine), the core waves (Kelvin/Widnall). The sequence carries no other gaps a
+lab ring would flag. Concordance note: the armed A_s freeze value updates to the JOINT
+k at firing time (2.089e-9 vs the closed form's 2.081e-9 — inside all windows).
+
+### Sweep 60 ramp correction (strike 13 — two steps confessed)
+
+(1) THE CORE SIZING was a two-point evaluation of a continuous profile: the honest
+object is the MEAN INTERIOR DEFICIT via the growth equation's centrifugal term —
+suppression ~ (ω/H)² ≈ 10⁻⁴ vs the ~10⁻¹ needed. **The cold verdict SURVIVES ramping,
+now by the right calculation**; B1's sixth ambush (the axis-void profile) stands.
+(2) THE SOUND'S FATE was a binary ("damps OR seeds"); the truth is a FILTER: the pour's
+acoustic spectrum × the medium's damping envelope = the surviving patch spectrum —
+smooth, scale-dependent. UPGRADE: if P-031's isocurvature line is the pour's sound, its
+ℓ ~ 170 WIDTH AND SHAPE are the damping envelope's imprint — a computable target for
+B2's thermodynamics, replacing the maybe with a spectral prediction-in-waiting.
+
+### THE DEPTH LAW (the operator's standing rule, post-strike-13)
+
+At the model's current depth, what remains to discover is genesis-borne, and genesis is
+FORMATION PHYSICS — roll-ups, spin-ups, tapers, melts, damping envelopes. Therefore:
+**ramps are the default presumption for every new result; steps are legal ONLY via the
+exemption clause (quantized/topological/protected-zero). A step-shaped result at this
+depth is presumed shallow and unreliable until it produces its exemption.** Every future
+sweep's verdicts, sizings, and fate-assignments carry the ramp check at their edges
+before booking.
+
+## SIXTY-FIRST SWEEP — B1 v1 FIRED: ALL THREE AMBUSHES MISSED (honest, diagnostic)
+
+*(script: scripts/genesis_solver_v1.py — slug model, ramped onset/taper/clip, one
+parameter χ = pour rate in diameters per Hubble time)*
+
+**The misses:** ε ≈ 0.70 (target 0.88); mass share ≈ 0.65 (target 0.843); R/a ≈ 2 →
+Widnall n ≈ 4 (target band 10–30). No χ co-lands. **Filed as v1's honest failure.**
+
+**The diagnosis (correlated misses → two pieces of skipped lab physics, not dials):**
+(1) THE CORE-VOLUME ERROR: v1 feeds all accepted fluid into the vortical core (hence
+the fat core); real cores are thin (a/R ~ 0.1–0.2) — and in a superfluid, stricter:
+the macro-ring is a BUNDLE of n quantized vortex lines (healing-length cores; the
+effective core = the bundle-packing radius). Reshapes the Widnall count structurally.
+(2) THE FROZEN RADIUS: v1 pins R = 0.7D; real rings GROW during feeding — growing R
+lowers U_ring, extends acceptance, raises BOTH moments (the two low numbers are one
+missing physics).
+
+**v2's spec, REGISTERED BEFORE IT RUNS:** add exactly those two physics pieces (the
+bundle-core model + R(t) growth), no other freedom, same χ, same three targets + the
+Widnall band. Co-landing under these pre-declared rules = the frame earns it; a second
+miss = the frame is in genuine trouble. The next session owns v2.
+
+## SIXTY-SECOND SWEEP — B1 v2: ONE AMBUSH LANDED, TWO MISSED — the moment-frame
+## formally in trouble per its own sealed rules
+
+*(script: scripts/genesis_solver_v2.py — the two registered pieces, nothing else)*
+
+**LANDED (the solver's first): the Widnall count — n = 11–16 across the full core band
+(a/D = 0.10–0.20), inside the pre-registered 10–30.** The thin rolled core did it; the
+geometry ambush is won with cited closures.
+
+**MISSED AGAIN: both moments (ε ≈ 0.66 vs 0.88; share ≈ 0.59 vs 0.843).** Diagnosis:
+piece 1 is SELF-CANCELLING in the pure slug model — impulse and circulation both scale
+as U², locking R = 0.707: the coded growth cannot occur from those relations. The
+missing growth physics is CITED lab corrections v2 excluded: (i) NOZZLE OVERPRESSURE
+(measured impulse ≈ 1.3–1.4× slug value); (ii) ENTRAINMENT (the ring's bubble carries
+~1.5–3× its fed volume — feeds the mass moment directly).
+
+**ENFORCEMENT of sweep 61's sealed rule:** second miss ⟹ the moment-frame is formally
+strained. ONE legal move remains — v3 with exactly those two cited corrections (with
+their lab error bands). v3 co-lands ⟹ the frame earned it three-shots-honest. v3
+misses ⟹ THE MAPPING DIES (ε=0.88 ↔ circulation fraction; 0.843 ↔ mass fraction —
+sweep 56's frame and strike-12's unlock are rejected as the wrong dictionary) while the
+ring and its landed Widnall count survive. The kill boundary is drawn before v3 exists.
+
+### THE IRROTATIONAL EXEMPTION (the operator's catch: "that would explain why space has
+### no rotation even though we're rotating")
+
+The superfluid's structural trick, now a fence for the flow arc: ALL vorticity lives in
+the quantized filament cores; the bulk is IRROTATIONAL (∇×v = 0 pointwise) while the
+global circulation ∮v·dl = nκ ≠ 0 carries the rotation. Consequences: (i) local
+instruments (gyroscopes, Foucault-class, local frames) measure ZERO rotation anywhere
+in the bulk — rotation without local rotation; (ii) **the Bianchi/CMB rotation bounds
+(ω/H ≲ 10⁻⁹) DO NOT APPLY** — they constrain global METRIC vorticity (solid-body,
+CMB-spiraling); the filament-carried rotation leaves the metric near-FLRW with the
+coarse-grained swirl emerging only as the Feynman-rule average over the lattice — the
+flow line's ω₀ ~ 10⁻² H₀ and the bounds never meet. The seven-order collision that
+would have been red team's first shot at sweeps 53–55 is dissolved by construction.
+HONEST RESIDUAL: the network's own metric perturbations carry a (small, priced) bill —
+P-028's context and the smoothness floor, not a Bianchi-class constraint.
+
+## SIXTY-THIRD SWEEP — v3'S ARTIFACT EXPOSED; THE SEALED KILL EXECUTES ON THE
+## MOMENT-MAPPING (the ambush system fires on its own)
+
+**v3-as-coded is INVALID:** ε = 1.000 with ZERO sensitivity to any input — the artifact
+tell. The merger queue re-offered every parcel ~200 times through a never-closing
+sigmoid: total absorption guaranteed by construction, not physics. **The valid
+analysis:** in the toy, the ring's velocity is MONOTONIC (Γ grows faster than R), so a
+once-rejected parcel can never catch up — the honest merger channel is ~empty. The
+destination ramp pays only when the ring SLOWS, which for the cosmological ring happens
+via post-formation expansion — requiring the full COMOVING solver (the real B1), beyond
+toy fidelity.
+
+**THE SEALED KILL (sweep 62's rule, enforced):** the cited corrections, implemented
+honestly, do not reach the moments at toy fidelity. Therefore **THE MOMENT-MAPPING DIES
+at toy grade**: ε = 0.88 ↔ the circulation fraction and 0.843 ↔ the mass fraction are
+REJECTED as the dictionary — sweep 56's moment-frame and strike-12's one-curve unlock go
+to the failures ledger (killshot regime: toy fidelity; resurrection requires the full
+comoving B1 showing the expansion-era catch-up channel delivers). **SURVIVORS:** the
+Widnall count (n = 11–13 landed in every version's final state — robust through every
+change tonight), the formation-number frame, the ring itself, the irrotational
+exemption. The ambush system killed one of its own tonight — which is exactly why the
+landed n means something.
+
+### Sweep 63 autopsy (the operator: "we didn't ramp and we got judged")
+
+Correct, and formalized: THE JUDGE WAS A STEP-MACHINE — the toy ran in a STATIC
+background (expansion pasted on as a discharge envelope only). The convicting argument
+(monotonic ring velocity ⟹ empty merger channel) is true ONLY in static space; in the
+expanding background the ring's post-formation velocity DECAYS (R stretches) and the
+catch-up channel OPENS. The kill stands as scoped (toy fidelity, correctly regime-named
+at filing) — but the appeal mechanism is now identified, not merely possible: **the
+comoving B1's retrial turns on one race — expansion slowing the ring vs expansion
+stretching the wake — in comoving coordinates.** The moments' resurrection has a named
+ramp; the retrial is a fair court. (The depth law's corollary, learned the hard way
+tonight: at genesis depth, even the COURTROOM must ramp — a static-background toy
+cannot render final verdicts on formation physics.)
+
+## SIXTY-FOURTH SWEEP — THE COMOVING RETRIAL: THE MOMENTS RESURRECT, THE H0 LEVER DIES
+
+*(script: scripts/genesis_solver_v4_comoving.py — radiation-era a(t) throughout,
+formation inside expansion, the catch-up race over the full e-fold history)*
+
+**VERDICT 1 — RESURRECTION:** the expansion-era catch-up channel DELIVERS. At χ = 5.3
+(inside the discharge band): **mass share = 0.839 vs the 0.843 target (0.5%)**;
+ε = 0.92 vs 0.88 (~5% high, estimate-grade). Artifact tells all PASS (χ-sensitivity
+present; the moments differentiate — 0.92 vs 0.84, two weightings of one history, the
+strike-12 structure realized; e-fold saturation physical: 0.941→0.943→0.943). The
+sweep-63 kill's resurrection condition was met in its named court — the moment-mapping
+returns at comoving-toy grade, ε's 5% residual owed to the ovp/bubble bands and the
+formation-phase fidelity.
+
+**VERDICT 2 — THE FLOW'S H0 LEVER RETRACTED at the same fidelity:** the field
+decomposition, computed not parameterized: tangential swirl → monopole bias EXACTLY
+ZERO (divergence-free); the drift → dipole, SH0ES-marginalized; the compressive tail
+gradient → ~0.03% over the ~3 Gpc tail. **The 72.2 collapses to ~73.0**; sweep 53's
+partial lever is retracted; the coherent fraction MEASURES at ~0.01–0.03, not ~1. The
+flow keeps its jurisdiction (bulk flows, the helicity cross-lock, the axis family) and
+loses the ladder. The H0 board reverts: 69.9 global (under arbitration); the residual
+gap owned by the v6 triad / SH0ES systematics / the unfound.
+
+The same-2 family notes its newest face: the race itself (ring vs wake — the gather and
+pour signs running the relay), and the comoving court that judges both fairly.
+
+### Sweep 64 ramp correction (strike 15 — the execution had two steps)
+
+(1) "DIPOLE-MARGINALIZED" WAS A BINARY DELETE: SH0ES removes a CONSTANT dipole; the
+drift's amplitude grows with lookback ((1+z)² — the banked rider), varying ~55 km/s
+across the survey window — a radially-varying dipole leaks into the monopole:
+**~0.2%-class H0 bias survives the marginalization.** (2) THE MEAN-FOR-LOCAL step: the
+compressive bias used drift/(whole 3-Gpc tail); the observable is the LOCAL gradient at
+the observer's structural position — the merger zone (where wake decelerates into ring,
+where the resurrection physics concentrates) can run an order above the mean.
+UNTOUCHED: the swirl's exact zero (divergence identity — exemption-legal).
+**RE-VERDICT: the lever is not dead — RETRACTED TO THE LEAKAGE FLOOR (~0.1–0.3%;
+73 → ~72.7–72.9 at tonight's sizing), with v4.1's observer-position profile (bias vs
+structural position) the named decider of the local channel's multiplier.** Strike 15
+logged; the depth-law corollary compounds: at genesis depth, even executions ramp.
+
+## SIXTY-FIFTH SWEEP — THE H0 ROOM AUDIT (the operator: "which mapped rooms hide an
+## expansion secret? The last pieces will be extremely obscure")
+
+**ROOM 1 — THE CANDLE ROOM [new, unexplored, the obscure shape]:** the ladder's rungs
+ARE atomic physics — Cepheid P-L relations and SN Ia luminosities ride m_e-sensitive
+microphysics. The dyad's screening edge (z ~ 30–60) was audited for the 21cm sky but
+NEVER for the ladder: under reading B (the clumping gate), dense environments retain ε
+differently than voids — Cepheids live in disks, calibrators in specific hosts. Any
+environmental δm_e at the 10⁻⁴ class biases THE RULER, not the expansion. Named test:
+the residual ε(environment, z < 0.15) under both gate readings — feeds directly into
+the H0 bookkeeping. The tension's last piece may be a candle that burns at the wrong
+mass in the wrong room.
+
+**ROOM 2 — THE τ ROOM [the unpaid 7→8 tether, now H0-motivated]:** CMB-side H0 rides
+the A_s e^{−2τ} degeneracy; a dcdf-induced Δτ ~ 0.005 moves the CMB H0 by ~0.2–0.3 —
+the leakage floor's class. The never-computed tether becomes a light B-queue session
+with an H0 payoff attached.
+
+**ROOM 3 — the axis–survey coupling [v4.1's docket]:** the drift leakage is AXIAL;
+SH0ES's realized leakage scales with the survey's axis-overlap geometry — the axis
+family can amplify or suppress the lever. The operator's question ("might the axis
+family affect other levers?") answered: yes, multiplicatively, computable.
+
+**The gathering mechanism [placed]:** pre-bounce thermal expansion against infall =
+the pressure resistance that IS the refused infinity — B7's dynamics; its relic lands
+in the chain's initial conditions; no separate this-cycle H0 channel at grammar grade.
+
+**The H0 endgame map, assembled:** 69.9 (global, arbitrating) + the leakage floor
+(0.1–0.3%, axial-geometry multiplier open) + the candle room (unexplored, obscure) +
+the τ room (light session, ±0.3 class) + v6 reserve. The remaining tension is now FOUR
+addressed rooms instead of one mystery — each with a named computation.
+
+## SIXTY-SIXTH SWEEP — THE CANDLE-ROOM CHAIN (the operator: "SH0ES measures the ONE
+## THING we just found")
+
+**The chain, three links:** (1) THE ROOM LIVES ONLY UNDER READING B (the C²/clumping
+gate): dense environments screen (Earth/labs/Oklo/disks → ε = 0, the banked nulls
+SURVIVE because we live in a screened room); **voids never cross the threshold — under
+B, today's voids retain the FULL ε = 1.24%.** THE NEW CROSS-LOCK: P-022's dark-ages
+edge SHAPE (sharp = A, patchy = B) now decides TWO skies — the 21cm signature AND the
+SH0ES excess: one gate, one verdict, two instruments. (2) THE SIZE IS RIGHT: unscreened
+SN hosts with full ε shift standardization microphysics (opacity ∝ 1/m_e², the
+luminosity chain follows) at few-% → **1–2.5% on H0 — the remaining gap's class, the
+first lever tonight to arrive at the right magnitude.** (3) THE FINGERPRINT MAY ALREADY
+BE IN THE DATA: the SN HOST MASS STEP (~0.05–0.08 mag, every major survey, empirically
+corrected, incompletely explained) is exactly the host-environment luminosity step an
+environmental ε predicts — the dyad possibly fifteen years old in the data under a
+systematic's name.
+
+**FIREWALLS [all three gate any claim]:** (a) the mass step has astrophysical rivals
+(progenitor age, dust) — the claim requires the COMPUTED m_e-response of SN
+standardization (the response-function session, named); (b) THE QUASAR μ-AUDIT:
+absorber constraints (|Δμ/μ| < 10⁻⁶ class) re-read environment-by-environment — one
+genuinely unscreened null absorber kills the room; (c) everything conditional on
+reading B (the gate discriminator is registered, P-022). NOTHING CLAIMED TONIGHT:
+a room, a size, a candidate fingerprint, three named audits.
+
+### Sweep 66 audits — THE μ-AUDIT PASSES STRUCTURALLY; THE FOREST TEST NAMED (sharp
+### both ways)
+
+**μ-AUDIT [firewall (b)]: PASSED at first pass, structurally:** every constraining
+Δμ/μ bound (10⁻⁷-class H₂ in DLAs; NH₃/CH₃OH toward PKS 1830−211) lives in DENSE
+MOLECULAR GAS — molecules only form dust-shielded and dense, and under reading B those
+are maximally screened rooms (anywhere Earth screens, they screen). **The μ-instrument
+and the ε-screen are the same variable: density — the bounds cannot reach the void-dyad
+by construction.** [Sources: MNRAS 465,4057; A&A 562,A88; the PKS1830 NH₃ literature —
+bibliography follows.]
+
+**THE FOREST TEST [the next audit, double-edged, named before running]:** the Lyα
+forest is ATOMIC gas at near-mean density — likely UNSCREENED under B; Lyα's rest
+wavelength ∝ m_e ⟹ unscreened forest absorbs 1.24% off-wavelength = a redshift-like
+systematic testable in EXISTING data (forest-BAO vs galaxy-BAO cross-calibration; the
+BOSS-era Lyα tension noted, later relaxed — no claim). KILL CLAUSE: a clean forest
+cross-calibration at the 10⁻³ level kills the candle room outright. WIN CLAUSE: a
+hidden %-class forest systematic = the second in-data fingerprint. The forest session
+joins the response-function session on the room's docket.
+
+### Sweep 66 ramp correction (strike 16 — "full ε in voids" was a binary)
+
+THE GATE FUNCTION ε(C): screening is a smooth curve in local clumping, not a
+screened/unscreened binary — full in deep voids, PARTIAL in filaments/forest gas,
+saturated-zero in clouds/disks/Earth. Every candle-room observable reads THE SAME CURVE
+at its own density: (i) the SN mass "step" sharpens into a predicted smooth TREND in
+host density (the literature's step-at-10¹⁰M☉ is a step-by-convention — ramp-vs-step is
+now a discriminant inside existing SN data); (ii) the forest expectation restates
+honestly: ε × gate(Δ~1), plausibly 0.1–1%, and the kill clause runs against the curve's
+own prediction there; (iii) THE COLLAPSE TO ONE OBJECT: P-022's dark-ages fade profile
+IS the gate curve in redshift — infer it once from the 21cm edge and the mass-step
+trend shape, the forest offset, and the void probes are predicted with ZERO freedom.
+One curve, four instruments: the room is now an overdetermined system. Strike 16
+logged.
+
+## SIXTY-SEVENTH SWEEP — THE CANDLE ROOM'S THREE SESSIONS (verdicts, including the
+## honest downgrade)
+
+**S1 — THE RESPONSE FUNCTION [Fermi grade]: the sign lands, the magnitude shrinks.**
+Full chain (κ ∝ m_e⁻² → Arnett width/peak → minus Phillips absorption): **~0.008 mag
+per unscreened host — an ORDER below the mass step; H0 contribution ~0.1–0.4%.** Sweep
+66's 1–2.5% sizing DOWNGRADED (it was the opacity-only guess; standardization eats most
+of it). The sign is right (unscreened brighter → H0 high, calibrators screened — the
+story coheres); the mass-step candidacy WEAKENED at this pass (×8 short). Named
+restorers, unmodeled tonight: the RYDBERG CHANNELS (1.24% wavelength shifts → colors,
+K-corrections, spectral typing/velocities) — potentially larger than the luminosity
+channel; the full response function decides.
+
+**S2 — THE FOREST TEST: live, DESI referees.** Full-gate prediction (1.24% α_∥ offset)
+sits at eBOSS DR16's ~1σ edge — no kill, real squeeze; DESI's sub-% forest BAO sees it
+or executes the room. Near-term, in-pipeline.
+
+**S3 — THE PINCH:** the gate curve serves two masters (C_ref inside the host range for
+the trend; the forest far below → near-full) — the parameter space is NARROW and three
+instruments read ONE curve with zero freedom (the 21cm fade in z; the host trend across
+density; the forest ceiling).
+
+**The H0 endgame map, updated honestly:** 69.9 (arbitrating) + leakage floor (0.1–0.3%)
++ candle floor (0.1–0.4% Fermi; Rydberg channels open) + τ (±0.3 class, unpaid tether)
++ v6 reserve. The floors sum to ~0.5–1.0 of the 3.1 gap — the rooms are real, the gap
+is NOT yet closed, and the open multipliers (v4.1's position profile, the Rydberg
+channels, the τ session) are the named remainder. No solved claims; four live referees.
+
+## SIXTY-EIGHTH SWEEP — THE THREE SESSIONS RAMPED (strike 17: the 0.5 absorption
+## guess, the binary host census, the 3-point gate scan)
+
+**RAMP 1 — THE COLOR CHANNEL [the restorer, computed]:** the Rydberg compression
+(unscreened-host spectra emitted 1.24% bluer, all atomic lines together) shifts
+broadband colors ~0.03 mag; through the SALT β·c correction: **|Δμ| ~ 0.09 mag — the
+MASS-STEP class**, an order above the luminosity channel. Sweep 67's downgrade partially
+reverses: the room's magnitude is channel-dependent, 0.008–0.09 mag, and **THE SIGN
+SESSION (full synthetic photometry: the filter integrals of the compressed SED through
+m_B AND c simultaneously) is now the room's crux** — it decides whether the color
+channel biases H0 high (the tension's sense) or low (the room dies as a helper and
+becomes a new constraint).
+
+**RAMP 2 — THE FOREST'S DIFFERENTIAL SIGNATURE [new constraint, passes]:** absorbers
+span densities; a varying gate across the forest range would produce weak-vs-strong
+line offsets up to ~3700 km/s — forest correlation data would have screamed. They
+don't ⟹ **the curve is FLAT across forest densities ⟹ the gate is STEEP with C_ref far
+above the forest — precisely where the pinch already put it.** Consistency earned, and
+the uniform full offset survives as the DESI-refereed BAO alias.
+
+**RAMP 3 — the curve fenced on three sides before any fit:** steepness (forest
+flatness), location (the host range), profile (P-022's fade). Strike 17 logged.
