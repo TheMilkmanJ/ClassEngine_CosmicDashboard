@@ -3139,3 +3139,37 @@ computation. Fork-corner-conditional like the whole family.
 none was booked, (ii) the seventh fence, (iii) a candidate diffuse-background
 signature — and did NOT find the full missing S₈: a third of it, fenced. The corollary
 keeps paying; the books keep the change.
+
+## ENTRY 89d — TWO MORE RAMPS BACK (the author's arithmetic: "1/3 each — how many more do we need?"): THE MISSING S₈ ARRIVES AT f_th ≈ 1%, AND S₈ INVERTS FROM A LEAN INTO A MEASUREMENT
+
+The author's instruction, taken literally: 89c's single ramp delivered a third; two
+more ramps were owed. Both are 89b's own lesson applied to 89c's remaining steps:
+
+**RAMP −2 (the cumulative population):** 89c anchored to a SNAPSHOT of heated gas
+(AGN heats ~12% of baryons); but every baryon in every halo crossed the gate ONCE on
+accretion — the crossing population is cumulative, f_cross ≈ 0.4–0.7 of all baryons.
+The snapshot was a step in disguise; the population is an integral.
+
+**RAMP −3 (the deposition epoch):** energy injected at z ≈ 2 suppresses more growth
+than energy injected yesterday — the feedback inherits the growth weighting the force
+already received in 89b (factor 1.0–1.6).
+
+**THE LANDING:** with both ramps, the needed ΔS₈ = −0.007..−0.009 arrives at
+**f_th ≈ 0.008–0.010 — a one-percent thermalization fraction**, trivially inside
+grip #7's ≤ 15% cap. The channel that was honestly short by two-thirds delivers in
+full — at a thermalization so small it is the *natural* middle branch of the
+destination fork (mostly medium-absorbed, a whisper of heat).
+
+**THE INVERSION (the structural prize):** S₈ now grips the gate TWO-SIDED — f_th ≳ 2%
+overshoots the gap. So within the fork corner, **the observed S₈ gap is a MEASUREMENT
+of the energy-destination split: f_th ≈ 1%.** The owed destination computation
+(medium/thermal/radiated) now has a pre-stated target it must hit: when that
+calculation runs, it must yield percent-level local thermalization — or this closure
+dies. Registered as the closure's own kill condition, in advance, per the house law.
+
+**FLAGS (all standing):** the AGN anchor is crude and the scaling is linear across a
+~50× extrapolation in coverage×energy — the weakest link, order-of-magnitude grade
+until a power-spectrum-level computation exists; fork-corner-conditional like the
+whole family; the radiated fraction (~99% − f_th − medium share) still owes its
+diffuse-background pricing. The author's ledger line for the night: one ramp found a
+third; three found the whole; the gap was never missing — it was un-ramped.
