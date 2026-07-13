@@ -2,6 +2,11 @@
 
 # PRTOE v4 dCDF — Honest-Pipeline Results (2026-07-05)
 
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 All numbers below are from the **clean tree** (dkappa hack removed, perturbation
 sector implemented, budget closure exact, null-test validated) against real
 likelihoods: Planck 2018 lowl TT+EE, plik TTTEEE lite, Planck lensing, BAO

@@ -1,5 +1,8 @@
 # The Domain Coverage Map
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **What this file is:** the single auditable index of every domain of
 physics (and adjacent science) the PRTOE/dyad program has burned
 through, with the verdict class and a pointer to where the work is

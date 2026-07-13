@@ -1,5 +1,8 @@
 # The CMB Anomalies — One Axis, One Integer (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STATUS: ASSEMBLY of banked + registered material**; the joint-policing test (BipoSH)
 > is the standing referee. The claim is structural: the anomalies are not separate
 > curiosities — they are one object's signature.

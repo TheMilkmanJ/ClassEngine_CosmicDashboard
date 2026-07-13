@@ -1,5 +1,8 @@
 # The Hierarchy Problem — the Electroweak Scale as a Pairing Gap (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). Conditional on: the no-bare
 > clause, the roster hypothesis (paired lepton-sector vacuum, ninth sweep), P-2026-042's
 > anchor identification, and the gap equation's k (owed, task #18). Referees: zon (the

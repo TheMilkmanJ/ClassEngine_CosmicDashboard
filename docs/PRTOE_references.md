@@ -1,5 +1,10 @@
 # PRTOE Verified References (the pre-Fairbank citation ledger)
 
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **Rule (2026-07-07):** every load-bearing receipt is verified against
 its source before external presentation; new receipts verify at
 booking time. Verified this session (identifiers checked via search;

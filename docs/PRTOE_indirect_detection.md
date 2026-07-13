@@ -1,5 +1,8 @@
 # Indirect Detection — the Second Purchased Silence (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 15's standalone; T9's sibling (underground silence → sky silence). Status: STRUCTURAL —
 the null is FORCED by the conserved dark charge (banked) and the portal scale (def357).
 The improvement: every DM-annihilation "excess" of the last two decades is PREDICTED

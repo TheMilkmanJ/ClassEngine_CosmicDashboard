@@ -1,5 +1,16 @@
 # State of the Model — Checkpoint (2026-07-07 evening)
 
+> **HISTORICAL CHECKPOINT — SUPERSEDED.** This snapshot predates the derivation-hunt
+> era (68 sweeps), the freezes (ε, A_s, n_s, z_on all STATED as of 2026-07-13), and the
+> zero-parameter evidence run now in progress. Current truth lives in:
+> [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) ·
+> [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md) ·
+> [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md). Kept unedited as the July-7 record
+> (including P-2026-004's registered death — the registry's first internal kill).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STALENESS NOTE (2026-07-12):** this checkpoint predates the threading program, the
 > census arc, and the derivation-hunt night. For current state: [PRTOE_INDEX.md](PRTOE_INDEX.md)
 > (the map), [PRTOE_THREE_EQUATIONS.md](PRTOE_THREE_EQUATIONS.md) (the core),
@@ -64,7 +75,7 @@ else is mapping the model so those tests mean something.
 
 ## UPDATE 2026-07-10 (the atom night)
 
-**Standing ≈ 14–17%** (adversarial ledger, ForClaude t205–t301). **One pre-registered prediction
+**Standing ≈ 14–17%** (adversarial ledger, the internal review t205–t301). **One pre-registered prediction
 FALSIFIED and booked** (P-2026-004 — the model demonstrated real falsifiability by dying a little).
 Gate-0 (the BBN wall) **cleared and re-signed as a mild heal**; the dyad onset, the H=m onset,
 the √3 timing, the C_ref gate, and the turnaround epoch are **derived**; ε is **conditional**

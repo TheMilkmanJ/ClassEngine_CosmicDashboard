@@ -1,5 +1,10 @@
 # PRTOE: The Domains of Physics This Program Has Touched
 
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *A showcase, written 2026-07-07. One section per domain: what the program
 actually did there, what was computed or derived (never merely asserted),
 and the honest verdict. Numbers are sourced from the working documents —
@@ -133,7 +138,7 @@ twice, correctly, both times.**
 
 ## 5. Supernova cosmology & the distance ladder
 
-Pantheon+SHOES anchors every joint fit. The dyad's H0 = 69.70 ± ~0.8 sits
+Pantheon+SHOES anchors every joint fit. The dyad's H0 = 69.9 (current production; 69.70 ± ~0.8 at the July-6 refit) sits
 between the ladders, and the program converted that discomfort into its
 flagship falsifiable: **P-2026-001 — the local distance ladder resolves to
 the TRGB side; H0 ∈ [69, 71]; a confirmed 72+ falsifies the H0 program, no

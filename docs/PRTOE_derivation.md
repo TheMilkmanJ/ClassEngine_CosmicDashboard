@@ -1,5 +1,8 @@
 # PRTOE: Action → Equations → Code
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **Status: scaffold with verified content.** Every equation is numbered; every code
 reference is `file:function`. Items marked **[DERIVE]** are implemented in code but
 not yet derived cleanly from the action — they are the open theory debts.

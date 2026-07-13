@@ -2,6 +2,11 @@
 
 # PRTOE: The Skeleton in Plain Math (2026-07-07)
 
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The core structure, stripped to its hinges. Not a sum -- a SEQUENCE, each step
 feeding the next. Written after the operator assembled the ingredients (R=0,
 f_rot, Psi_0) and asked how they fit.*

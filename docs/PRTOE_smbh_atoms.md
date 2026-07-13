@@ -1,5 +1,8 @@
 # SMBH Gravitational Atoms — Strong Coupling at the Top of the Mass Function (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 2 of the atom-grammar sweep. Status: STRUCTURAL (candidate) with computed numbers;
 booked def419/421. The improvement: the superradiance physics banked at P-2026-005 acquires a
 LEVEL STRUCTURE and a characteristic mass scale — and two independent routes land on the same

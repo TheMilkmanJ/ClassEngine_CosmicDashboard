@@ -1,5 +1,8 @@
 # The Scale Ladder — Universe to Atom in One Grammar (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Operator-directed: the connection chain universe → galaxies → solar systems → planets, and the
 claim that this map, once built, IS the local-to-atomic map. Verified structurally: the descent
 crosses exactly ONE boundary (the medium's coherence hinge at ξ = 402 AU), below which every

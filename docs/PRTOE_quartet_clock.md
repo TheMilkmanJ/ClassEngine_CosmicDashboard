@@ -1,5 +1,8 @@
 # The Quartet Clock — Whose Mass Does the Onset Read? (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STATUS: EXPLORATORY / UN-REFEREED — a firewalled candidate with a pre-registered
 > three-way lineup.** Found during a hygiene ritual (thirteenth sweep). The referee is the
 > zon chain, already running; the verdict is weeks away at most. Conditional on: the

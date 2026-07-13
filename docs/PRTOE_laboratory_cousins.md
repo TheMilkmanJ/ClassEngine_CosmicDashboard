@@ -1,5 +1,8 @@
 # The Laboratory Cousins — Cosmology on a Bench (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 7. Status: STRUCTURAL — the bridge itself is banked in pieces (Josephson receipt, the
 Eckel ring class, the Landau certificates). The improvement: for every other cosmology, BEC
 analogs are ANALOGIES; for this one they are the SAME EQUATIONS at bench scale — which turns

@@ -1,5 +1,8 @@
 # The Arrow of Time and the Past Hypothesis — Solved by Uniqueness (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Derivation-from-banked-structure. The deepest of the three mystery documents: it addresses
 Boltzmann's question — WHY did the universe begin in a low-entropy state? — with a graded
 answer. Status: STRUCTURAL (candidate), booked def413.*

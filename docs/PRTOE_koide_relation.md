@@ -1,5 +1,8 @@
 # The Koide Relation — a Famous Coincidence Given a Frame (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 6. Status: STRUCTURAL (candidate) — one banked EXPLANATION (why the relation survives)
 plus one live derivation lane (why it holds). The improvement: mainstream particle physics has
 NO account of Koide at all; this model supplies a protection mechanism it needs for other

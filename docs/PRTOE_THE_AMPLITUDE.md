@@ -1,5 +1,8 @@
 # THE AMPLITUDE — ε, the model's one lever (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The single number the dyad adds to known physics: a universal fractional shift of
 lepton masses, switched by one gate. Everything the model claims about the observable
 universe routes through this page's number. Statuses per the house law; failures live in
@@ -26,7 +29,7 @@ parameters.*
 
 | window | epoch | what ε does there | grade |
 |---|---|---|---|
-| **The CMB / H0** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H0 = 69.9** (the tension's mechanism) | production-fit; the arbiter is running |
+| **The CMB / H0** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H0 = 69.9** (the tension's mechanism) | production-fit; THE ZERO-PARAMETER EVIDENCE RUN is live (2026-07-13: ε, A_s, n_s, z_on all STATED) |
 | **The windowed BBN** | T ≈ 0.7 MeV–70 keV | OFF at n/p freeze-out, ON below T_c mid-BBN → the abundance pattern (Y_p +1.3σ counter owned; the D/H fork, radio-arbitrated) | production (PRyM) |
 | **The 21cm edges** | z ≈ 30–150 | rest frequencies shifted +2.5% ((1+ε)²) with the exact ratio-lock ν_H/ν_D; the screening edge's SHAPE reads the gate | registered (P-022/027) |
 | **The ε-dipole** | today, horizon-scale | δm_e/m_e ≈ 6×10⁻⁷ axis-correlated | registered (P-024), consistent null today |
@@ -47,7 +50,7 @@ nulls survive under B structurally: every such instrument lives in a screened ro
 
 ## 4. The referees and the killers
 
-zon (α_c, the stack's third factor); the arbiter (the evidence run, live); DESI
+zon (α_c, the stack's third factor); the zero-parameter evidence run (live 2026-07-13; the sampled arbiter deferred by operator order); DESI
 forest-BAO (the forest offset); the synthetic-photometry sign session (the candle
 room's crux); the lunar-farside 21cm program (the edges + the gate's shape); the radio
 D-line arbiter (P-027). KILLERS on file: a clean dark-ages detection at the standard
@@ -66,3 +69,13 @@ lines all along: one number, no exits, referees everywhere.
 [HartChluba2020], [SekiguchiTakahashi2021] (the mechanism); [Planck2018], [Riess2022]
 (the two skies); [Ubachs-mu-class] (the screened-room nulls); internal: the fingerprint
 lattice, THREE_EQUATIONS, sweeps 59/66–68. Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+
+## 6. The mechanization status (2026-07-13, the fresh-eyes night)
+
+The frozen form's mechanism closed its conceptual half: the winding gas's AREA LAW
+(derived + confirmed), the activation ramp (the Hagedorn-analog = T_c), and THE
+RECONCILIATION (the NBV thermal amplitude and the census bookkeeping are one object
+joined at T_pour). **The entire A_s chain now hangs on ONE underived number — the
+bounce's stiffness-ceiling scale (~1.6×10¹⁶ GeV) — queued in B1/B7.** The count's
+lock criterion: the phase-slip freeze-out (sweep 77's anneal), Kibble–Zurek class.

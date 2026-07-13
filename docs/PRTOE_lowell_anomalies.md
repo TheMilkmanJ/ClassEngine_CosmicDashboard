@@ -1,5 +1,8 @@
 # The Low-ℓ CMB Anomalies — the Cavity's Line Spectrum (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 5 of the atom-grammar sweep. Status: STRUCTURAL (candidate) — the model gives the
 large-angle anomalies a HOME and, distinctively, ONE SHARED AXIS with two registered
 predictions. The improvement: standard cosmology must call these flukes (and pays a ~0.1%-class

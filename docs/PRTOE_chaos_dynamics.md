@@ -1,5 +1,8 @@
 # Chaos & Dynamical Systems — Natively Ours (standalone; the banked One Mountain + this era's returns)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 ## The equations and results
 - the genesis roll: ẍ = −3H(t)ẋ − ∇V, V = m²R² + λR⁴ + 2ε_A λR⁴cos4θ (ε_A = 2/9)
 - the release-angle chaos: f_amp(θ_i) spans [0.034, 0.964] with adjacent-bin jumps (def335 —

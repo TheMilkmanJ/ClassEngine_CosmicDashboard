@@ -75,3 +75,4 @@ candl: clearing all internal priors.
 [polychord] * 31 : ['Tcal', 'Ecal']
 [prior] *WARNING* There are unbounded parameters (['A_planck', 'A_act', 'Tcal', 'Ecal']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
 [polychord] Calling PolyChord...
+Sun Jul 12 22:38:22 MDT 2026: ARBITER KILLED BY OPERATOR ORDER — fixed run takes priority; prior phase not resumable; relaunch fresh later

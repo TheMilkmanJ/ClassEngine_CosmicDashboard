@@ -1,5 +1,8 @@
 # The Transaction Map — Threaded Into Everything, Screened Almost Everywhere (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Operator-directed (the scale-ladder insight): the medium's expansion-side transactions are
 SCREENED in local regimes, but no screen in this model is an absolute zero — so the medium is
 threaded into every scale, and the map of the threading = the QUANTUM section (which

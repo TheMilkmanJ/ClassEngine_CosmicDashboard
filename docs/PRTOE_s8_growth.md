@@ -1,5 +1,8 @@
 # The S8 Tension and Growth — the Conversion Channel (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 4 of the atom-grammar sweep; the standalone for the banked DM→(DE/dark-radiation)
 conversion lead. Status: STRUCTURAL with a MECHANISM BUILT INTO CLASS (task #36, completed and
 banked) and live chains testing it NOW (conv_g sampled in routeD/conv_desi). The improvement:

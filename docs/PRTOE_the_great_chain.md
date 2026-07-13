@@ -1,5 +1,8 @@
 # The Great Chain — "First I Was This, and Now You Can Watch TV" (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Operator-directed: the full family tree from the medium's first moment to the morning's iron
 supplement, the plants on the sill, the images on the screen. Every arrow cites a graded or
 banked ledger object. The medium's autobiography, thirteen generations long. Booked def481.*

@@ -1,5 +1,8 @@
 # The Neutrino Home — the Tenth Channel (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 3 of the atom-grammar sweep; consolidates the banked neutrino structure into its
 standalone. Status: STRUCTURAL with one REGISTERED prediction (P-2026-023) and live in-house
 numbers. The improvement over standard cosmology: it RESOLVES an emerging tension rather than

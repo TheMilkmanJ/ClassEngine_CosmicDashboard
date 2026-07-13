@@ -1,5 +1,8 @@
 # THE H0 CEILING — how high the model can reach, and why the pipeline can't carry it yet (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The operator's demand: compute the maximum ladder-H0 the model can account for, show the
 formula, and explain the pipeline gap honestly. Statuses per the house law.*
 
@@ -64,3 +67,15 @@ neither invented.
 ## Sources
 Sweeps 64–68 (the hunt log); scripts/candle_room_correction.py, flow_ladder_correction.py;
 [Riess2022] (the ladder), [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+
+## UPDATE (2026-07-13, the sign session) — ς = −1 at estimate grade
+
+The sign session ran (162-configuration template scan, lines-only compression):
+**ς = −1, robust — the candle term pushes the ladder DOWN.** The ceiling above is
+superseded: the reachable bracket collapses to **~70.9–71.3** (leakage + τ only), and
+the ladder's 73 stands as genuine residual tension against the model. The room inverts:
+its surviving claim is the SN HOST MASS STEP's direction and class as the gate curve's
+fingerprint. Appeal path (narrow): the real-SN-template + real-filter synthetic
+photometry; the module stays armed-off. Honesty note: the model does NOT currently
+explain the full SH0ES reading — it predicts ~70–71 and owns the residual as tension.

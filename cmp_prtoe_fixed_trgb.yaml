@@ -1,0 +1,167 @@
+# THE FIXED-EPSILON EVIDENCE RUN (task #9; committed def537, credited t524).
+# ===== THE FREEZE CASCADE (updated 2026-07-12, the derivation-hunt night) =====
+# LAW: nothing is fixed that a referee has not signed. Status of every candidate:
+#   eps = 27*alpha/(5*pi):  2/pi now THEOREM (flux measure), 9/10 derived-conditional,
+#                           3*alpha AWAITS ZON (P-040). Fixed below, gate stands.
+#   z_on:                   ZON_FREEZE_PENDING sentinel (operator order).
+#   AT ZON CONVERGENCE, also freeze-eligible (do NOT fix before):
+#     n_s  -> 1 - 2/ln(M_Pl/T_on(zon))   [the census-running tilt; needs basement choice]
+#     dcdf_rho_inf -> the occupancy value [needs the triangle confirmed: 3alpha + M2 + x0]
+#     m_ncdm -> 61.4 meV                  [needs the spurion (#43) lifted + P-023 tension resolved]
+#   [2026-07-12 sweep 44/50] A_s -> (alpha_c/(4*pi*k))^3 with the closed-form
+#     k = ln(1+pi/(2 alpha_c))/pi = 1.36461  =>  A_s = 2.0807e-9 (0.68 sigma from Planck).
+#     FREEZE CONDITION (AMENDED BY OPERATOR ORDER, 2026-07-12 night): red-team approval
+#     of def549's asks #1/#3 (the P1.c adjudication + the closed form) SUFFICES to fix
+#     A_s here. Prior condition (both computations sign) superseded by the lawmaker.
+#     Standing order: on approval, set A_s: 2.0807e-9 in this config (replaces sampled
+#     logA in any zero-parameter run); the RUNNING arbiter is untouched either way.
+#   The anchor (P-042) and the two-loop landing are graded by the shooting run (in flight).
+#   [2026-07-12] DISPERSION CONSISTENCY: the C code now carries the derived sqrt(1+x^2)
+#   onset shape — this config MUST be re-cloned from the dispersion-era dyad baseline
+#   before launch (the old-template numbers are not comparable).
+# ZERO extra parameters vs LCDM: eps DERIVED = 27*alpha/(5*pi) = 1.2543%, NOT sampled.
+# Freeze-gate note (def539/def541): launched on operator's direct order 2026-07-11 with
+# the derived stack; if P-040 (zon) or P-041 (the f_bar ensemble, in flight) KILLS a
+# factor, this run is superseded and relaunches with the surviving stack.
+packages_path: /home/themilkmanj/cobaya_packages_clean
+output: chains/cmp_prtoe_fixed_trgb_ev
+likelihood:
+  H0_trgb_cchp:   # THE COMPRESSED TRGB ANCHOR (CCHP: H0 = 69.8 +/- 1.7, Freedman 2021)
+    external: 'lambda H0: -0.5*((H0-69.8)/1.7)**2'
+    # replaces the orphaned Mb-prior route (plain pantheonplus marginalizes Mb
+    # internally and rejects the parameter); the standard compressed-anchor form.
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lensing.clik: null
+  bao.sixdf_2011_bao: null
+  bao.sdss_dr7_mgs: null
+  bao.sdss_dr12_consensus_final: null
+  sn.pantheonplus: null   # TRGB-ANCHORED TIER (2026-07-13): plain Pantheon+ with the CCHP
+  # TRGB calibration entering as the Mb prior below. HONESTY FLAG: the TRGB anchor has
+  # its own sub-war (CATS re-standardization pulls toward SH0ES; CCHP JWST holds low) —
+  # this tier tests the CCHP anchor AS LABELED, alongside the anchor-free headline and
+  # the with-SH0ES companion. [EST: Mb from the CCHP-vs-SH0ES +0.06 mag host offset]
+  act_dr6:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/ACT_DR6_CMB_only.yaml
+    clear_internal_priors: true
+  spt3g_lite:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/SPT3G_2018_TTTEEE_lite.yaml
+    clear_internal_priors: true
+theory:
+  classy:
+    stop_at_error: false
+    extra_args:
+      use_dcdf: 'yes'
+      varying_fundamental_constants: instantaneous
+      varying_alpha: 1.0
+      varying_transition_redshift: 50.0
+      varying_transition_width: 0.25   # the banked screening-edge FADE (z~30-60) — the ramped C code (2026-07-12); 0 = legacy step
+      dcdf_deltam_mode: 1
+      # ZON-FREEZE (operator order 2026-07-12): this value is ILLEGAL until the zon
+      # chain converges; at launch, set dcdf_z_rad_onset := 10**(zon posterior mean of
+      # log10_zon, converged R-1 < 0.05) from chains/cmp_prtoe_zon. Interim ~8.7e7,
+      # derived corollary 3.9e7 (log10 = 7.59) -- the chain arbitrates, not us.
+      dcdf_z_rad_onset: 3.5619e7   # log10 = 7.5517: BOBYQA frozen-stack profile (2026-07-12,
+                                   # FAST-FUDGE per operator order; the 3-alpha mark 7.547 hit to
+                                   # 0.005 dex; chi2 cost +7.4 vs the free champion; zon-MCMC grades later)
+      non_linear: halofit
+      output: mPk,tCl,pCl,lCl
+      modes: s
+      N_ur: 2.0328
+      N_ncdm: 1
+      T_ncdm: 0.71611
+      l_max_scalars: 9000
+      lensing: 'yes'
+params:
+  YHe:
+    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236)'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
+    derived: false
+  omega_b:
+    prior: {min: 0.0200, max: 0.0250}
+    ref: {dist: norm, loc: 0.022757, scale: 0.0002}
+    proposal: 0.0002
+    latex: \omega_\mathrm{b}
+  H0:
+    prior: {min: 64.0, max: 78.0}
+    ref: {dist: norm, loc: 69.613, scale: 0.5}
+    proposal: 0.5
+    latex: H_0
+  A_s:   # FROZEN BY OPERATOR ORDER 2026-07-12 (sweeps 44/50/59): the derived form
+         # A_s = (alpha_c/(4 pi k))^3 with the CONCORDANCE joint k = 1.3630 +/- 0.0032
+         # (closed-form k = ln(1+pi/(2 alpha_c))/pi; mechanism = the blind-census shot
+         # noise, the operator's payroll law). 0.4 sigma from Planck; the model STATES
+         # it and takes the exposure — LCDM keeps its freedom (fair by formulation).
+         # Referee residue (owed, not blocking): lock 2's count mechanization (B2) +
+         # the k O(1) audit (B3); the Eliashberg component executed (sweep 49).
+    value: 2.088058e-09
+    latex: A_\mathrm{s}
+  n_s:   # FROZEN 2026-07-12: the census tilt 1 - 2/ln(M_Pl/T_on) at the profiled z_on
+         # (the exemption-clause 2 = the open dimensions, sweep 50); zon-MCMC grades later
+    value: 0.9641
+    latex: n_\mathrm{s}
+  z_reio:
+    prior: {min: 4.0, max: 12.0}
+    ref: {dist: norm, loc: 8.363414, scale: 0.5}
+    proposal: 0.5
+    latex: z_\mathrm{reio}
+  xi_Neff: 0.0
+  dcdf_rho_inf:   # FREEZE-ELIGIBLE at zon: the occupancy value (rho^1/4 = half a_c^2 M2, 0.4 per mille)
+    prior: {min: 0.50, max: 0.80}
+    ref: {dist: norm, loc: 0.701221, scale: 0.02}
+    proposal: 0.02
+    latex: \rho_\infty
+  varying_me: 1.012543  # 1 + 27*alpha/(5*pi): the DERIVED stack (9/10)(2/pi)(3alpha) — P-040+P-041+def537
+  A_planck:
+    prior: {dist: norm, loc: 1.0, scale: 0.0025}
+    ref: {dist: norm, loc: 1.0, scale: 0.002}
+    proposal: 0.002
+    latex: A_\mathrm{planck}
+  A_act:
+    prior: {dist: norm, loc: 1.0, scale: 0.003}
+    ref: {dist: norm, loc: 1.00071, scale: 0.002}
+    proposal: 0.002
+    latex: A_\mathrm{ACT}
+  P_act:
+    prior: {min: 0.9, max: 1.1}
+    ref: {dist: norm, loc: 1.00327, scale: 0.005}
+    proposal: 0.005
+    latex: P_\mathrm{ACT}
+  Tcal:
+    prior: {dist: norm, loc: 1.0, scale: 0.00449}
+    ref: {dist: norm, loc: 0.996386, scale: 0.003}
+    proposal: 0.003
+    latex: T_\mathrm{cal}
+  Ecal:
+    prior: {dist: norm, loc: 1.0, scale: 0.00727}
+    ref: {dist: norm, loc: 1.00563, scale: 0.005}
+    proposal: 0.005
+    latex: E_\mathrm{cal}
+  m_ncdm:   # FREEZE-ELIGIBLE post-spurion: 0.0614 eV (the rho_inf/Majoron closure)
+    prior: {min: 0.0, max: 0.6}
+    ref: {dist: norm, loc: 0.0654, scale: 0.02}
+    proposal: 0.02
+    latex: \Sigma m_\nu
+  Omega0_dcdf:
+    value: 'lambda omega_b, H0: 1.0 - (omega_b) / (H0/100.0)**2'
+    derived: true
+    latex: \Omega_\mathrm{dcdf}
+  sigma8:
+    latex: \sigma_8
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
+
+prior:
+  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) - 2.527e-5)/0.030e-5)**2 )"
+
+sampler:
+  polychord:
+    nlive: 200          # ~17*ndim(12): evidence-grade but j4-tractable
+    num_repeats: 24     # 2*ndim
+    precision_criterion: 0.001
+    measure_speeds: true

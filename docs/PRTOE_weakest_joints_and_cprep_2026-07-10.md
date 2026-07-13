@@ -1,5 +1,8 @@
 # PRTOE — Weakest Joints & C-Code Prep (2026-07-10 evening)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 Written after the gate-0 / neutrino-home session. Two parts: (A) the ranked weakest joints +
 what would shore each, (B) the C-code scaffolding plan (PLAN ONLY — integration is GATED, see §B0).
 

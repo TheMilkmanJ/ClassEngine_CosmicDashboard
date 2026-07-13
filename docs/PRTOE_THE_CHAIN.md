@@ -1,5 +1,8 @@
 # THE CHAIN — the Linear Unification (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The operator's law, stated the night he and the audit converged on it independently:
 "Every epoch tethers to both itself and the epoch coming after it and the epoch before
 it. It's all one very well designed phase transition to phase transition. Linear
@@ -59,6 +62,12 @@ belongs to link 3 (Kibble at condensation, z ~ 8×10⁸) but the CENSUS geometry
 events — the topology draw (n, at condensation) and the census lock (the A_s = 1/N
 snapshot, when the cells freeze at the pivot scale) as SEPARATE ADJACENT LINKS. The
 geometric session confirms or kills this; nothing downstream assumes it.
+
+**[TETHER 4→5 REWRITTEN, 2026-07-13 (sweep 77):** the two-draws hypothesis resolved —
+the "topology draw" = THE QUANTIZATION EVENT (the classical fountain ring's circulation
+quantizes through the condensation ramp; n locks at the phase-slip freeze-out — 
+mechanical, noise-dressed; the KZ dice demoted to the residual + the ± genome coin);
+the census lock = the pour's thermal snapshot (the sweep-75 reconciliation).]**
 
 **5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits sweep 44's grade]:** the payroll snapshot
 — the pivot scale stands 781 cells across; A_s = 1/N frozen. The μ-era referee (sweep

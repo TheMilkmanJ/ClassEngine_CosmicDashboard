@@ -1,7 +1,7 @@
 # PRTOE BIBLIOGRAPHY — every external source the model stands on (2026-07-11)
 
 *The credit ledger (task #17). Keys are used across the docs as [AuthorYear]. Internal
-provenance (t###/def### turn-tags) traces to ForClaude.txt; THIS file traces everything
+provenance (t###/def### turn-tags) traces to the internal adversarial-review record (private; turn-tags cited for provenance); THIS file traces everything
 we borrowed from the field. If a claim in any doc leans on a result not listed here,
 that is a bug — file it.*
 

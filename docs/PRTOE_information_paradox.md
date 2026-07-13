@@ -1,5 +1,8 @@
 # The Black-Hole Information Paradox — Dissolved in Structure (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Short companion to PRTOE_blackholes_no_singularity.md. Honest scope: the paradox DISSOLVES at
 the structural level in this model; the quantitative capstone (the Page curve / area law) is
 OWED and shared with task #11. Status: STRUCTURAL (candidate), booked def413.*

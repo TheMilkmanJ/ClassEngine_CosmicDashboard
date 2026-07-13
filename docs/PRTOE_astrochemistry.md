@@ -1,5 +1,8 @@
 # Astrochemistry — the Epoch-Stamped Sky (standalone; P-030's home + the astrobiology scope note)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 ## The equations
 - atomic lines: E ∝ Rydberg ∝ m_e (degenerate with z); molecular: rotational ∝ m_e²/m_p-class,
   vibrational ∝ √(m_e/m_p) — DIFFERENT powers ⇒ the μ = m_p/m_e comparison

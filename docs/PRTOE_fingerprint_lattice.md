@@ -1,5 +1,8 @@
 # The Fingerprint Lattice — One ε Across Every Messenger (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 13, and the sweep's capstone: the cross-domain methodology file. Status: STRUCTURAL —
 the lattice's rows are individually banked/graded; the file consolidates the correlation
 structure that makes them one test. The improvement: multi-messenger cosmology gains something

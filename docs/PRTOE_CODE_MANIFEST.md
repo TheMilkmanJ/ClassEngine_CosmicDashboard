@@ -1,5 +1,8 @@
 # THE CODE MANIFEST — what is in the pipeline, what is armed, what is banned (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The operator's inclusion law: everything proven beneficial enters the pipeline; nothing
 killed ever does. This file is the single source of truth for implementation status.
 Homes: [C] = CLASS source (background.c/input.c), [Y] = cobaya yaml configs, [CMP] = the
@@ -13,16 +16,17 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 | THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | [C] background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
 | The dyad (varying m_e, the ramp through T_c) | [C] | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | [C] | IN |
-| The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | IN — the arbiter runs the first |
+| **THE ZERO-PARAMETER EVIDENCE RUN** (ε, A_s, n_s, z_on all STATED) | [Y] cmp_prtoe_fixed.yaml | **LIVE (launched 2026-07-12 23:14; PID 442916)** |
+| The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled arbiter KILLED mid-prior by operator order (relaunch fresh later); the ΛCDM twin awaits its slot |
 | The freeze-sentinel launch guards | [CMP] both wrappers | IN — verified quoted+unquoted |
 
 ## 2. ARMED — enters on its named trigger (the operator's amended conditions)
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | 2.088459e-9 = (α_c/4πk)³, concordance joint k (sweep 59) | **EXECUTED — OPERATOR ORDER 2026-07-12 night** (the lawmaker superseded the approval gate; provenance in the yaml) | [Y] cmp_prtoe_fixed.yaml — IN |
-| z_on frozen | the converged zon value | zon convergence (the sentinel guards it) | [Y] |
-| n_s stated | 1 − 2/ln(M_Pl/T_on) — now derivation-backed (the 2 = the open dimensions) | zon (T_on) | [Y] |
+| A_s frozen | 2.088058e-9 = (α_c/4πk)³, concordance joint k | **IN — EXECUTED by operator order; running in the live zero-parameter test** | [Y] |
+| z_on frozen | 3.5619e7 (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — FAST-FUDGE per operator order; zon-MCMC grades it later** | [Y] |
+| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on | **IN — running in the live test** | [Y] |
 | ρ_inf stated | the occupancy value | zon + the triangle confirmed | [Y] |
 | m_ncdm stated | 61.4 meV | the spurion (#43) lifted + P-023 resolved | [Y] |
 | The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | [CMP] flow_ladder_correction.py (built) |

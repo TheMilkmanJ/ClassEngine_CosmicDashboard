@@ -1,5 +1,10 @@
 # The 1.24% Amplitude — Consolidated Derivation (the showcase room, 2026-07-07)
 
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Consolidates the §57–74 build in PRTOE_me_trigger.md into one clean story:
 how the electron-mass amplitude went from a naked fit to a traced, census-gated
 prediction. Every factor labeled by its status: TRACED / COMPUTED / NATURAL /

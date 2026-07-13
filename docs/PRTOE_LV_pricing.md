@@ -1,5 +1,8 @@
 # THE LORENTZ-VIOLATION PRICING PASS — def373's owed ledger, executed (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *M3's bookkeeping half. The question: does the medium's preferred frame leak into any
 sector at a level the data forbid? The structural answer first, then the table. Sources:
 [Mattingly2005], [Liberati2013], [Will2014], [GW170817], [Herrmann2009], [DamourDyson1996].*

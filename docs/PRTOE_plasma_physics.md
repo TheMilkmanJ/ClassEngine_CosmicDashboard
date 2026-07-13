@@ -1,5 +1,8 @@
 # Plasma Physics — the Trace's One Window (standalone; def331/333, t328/t330 graded)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 ## The equations
 - in-medium photon mass: ω² = ω_p² + k²c², ω_p = √(4πn_e e²/m_e); m_γ = ħω_p
 - the trace fraction of light: T^μ_μ/ρ = (ω_p/ω)² — radio near ω_p is the ONE part of the EM

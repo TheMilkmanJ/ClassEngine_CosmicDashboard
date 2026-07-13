@@ -2,6 +2,11 @@
 
 # Room 1: The Complex Completion (expedition log, opened 2026-07-07 night)
 
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **Grade throughout: STRUCTURAL/correspondence — Room 1 is an extension
 program; turn-25's fresh-certificates bill applies at adoption; nothing
 here enters the production model tonight. Six results, one null, one

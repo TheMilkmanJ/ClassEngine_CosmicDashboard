@@ -1,5 +1,8 @@
 # PRTOE — Session Findings 2026-07-11 (the radio night)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 Chronological ledger of the night's verdicts (defender turns def323–def339, red-team t318–t334).
 Standing: 14–17% → **15–18%** (t334 uptick on the localization computation); operator-capped at
 ~25% until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.

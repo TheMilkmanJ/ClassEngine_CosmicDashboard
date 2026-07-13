@@ -1,5 +1,10 @@
 # The Granule-Meter Scoping Study & The Mass Pin (2026-07-07, operator's order)
 
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Two jobs from the morning board: scope whether the granule channel — the
 SOLE surviving ε-meter after the reconciliation audit — can ever actually
 be read; and pin m inside the audited band [1,3]×10⁻²¹ eV. Every number
@@ -133,7 +138,7 @@ Preview at R−1 ≫ 0.05 (NOT quotable): varying_me = 1.0126 ± 0.0041
 unconverged; Gaussian density approximation; prior-width dependent
 (flat [0.98, 1.04] — halving the prior width halves B; the prior is
 physical, from quasar/BBN-adjacent bounds, and must be defended as
-such when quoted). PolyChord remains necessary for the NON-nested
+such when quoted). PolyChord remains necessary for the NON-nested [2026-07-13: the zero-parameter PolyChord run is now LIVE — this requirement is being executed]
 comparisons and as the S-D cross-check; it is no longer the only door
 to an evidence number.
 

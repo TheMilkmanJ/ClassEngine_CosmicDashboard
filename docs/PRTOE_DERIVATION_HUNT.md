@@ -2225,3 +2225,340 @@ the uniform full offset survives as the DESI-refereed BAO alias.
 
 **RAMP 3 — the curve fenced on three sides before any fit:** steepness (forest
 flatness), location (the host range), profile (P-022's fade). Strike 17 logged.
+
+## SIXTY-NINTH SWEEP — THE SIGN SESSION: ς = −1 (robust); the ceiling collapses; the
+## room inverts into the mass step's candidate explanation
+
+*(scripts/sigma_final_sign_v2.py; strike 18 en route: v1's single-template point-eval +
+the whole-SED compression conflating lines with continuum — v2 compresses ONLY the line
+features (Rydberg moves lines; the thermal continuum re-equilibrates via the counted
+Arnett channel) and scans the template space.)*
+
+**THE VERDICT [estimate grade]: ς = −1 in 162/162 configurations** (T, blanketing
+edge/width, β, filter proxies all scanned; Δμ ∈ [+0.0015, +0.047], median +0.015):
+unscreened-host SNe are assigned LARGER distances — the candle correction pushes the
+ladder DOWN. **The 73-reach dies at this grade**: the H0 ceiling collapses to
+~70.9–71.3 (leakage + τ only); the model's late-sky account is ~69.9–71 with the
+ladder's 73 standing as genuine residual tension (priced in the running evidence test's
+SH0ES term). The armed module stays OFF; the real-template + real-filter fidelity is
+the named (and only) appeal.
+
+**THE INVERSION — what strengthens:** the predicted host-environment step has the
+OBSERVED MASS STEP'S DIRECTION (screened/massive hosts relatively brighter
+post-standardization) at 0.015–0.047 mag vs the observed 0.05–0.08 — same sign, same
+class at the scan's edge. The candle room re-files as **a candidate physical
+explanation of the SN host mass step** (the gate curve's in-data fingerprint), testable
+via the step-vs-smooth-trend discriminant (strike 16) and the host-density (not
+host-mass) correlation it predicts. The H0_CEILING file inherits this verdict.
+
+## SEVENTIETH SWEEP — THE LADDER AUDIT (the operator's reframe: the hunt inverts, not
+## dies — assembled from banked pieces, no new claims)
+
+The sign verdict completes the model's testimony rather than ending it: **the model
+cannot reach 73 by any lever it owns (ς = −1; ceiling ~71), and it was ALREADY
+REGISTERED on the other side of the calibration war — P-2026-001: TRGB H0 ∈ [69, 71],
+where the TRGB ladder in fact reads ~69.8–70.4.** The coherent position, all pieces
+banked: (i) the model predicts the TRGB band; (ii) therefore the Cepheid-calibrated 73
+owes ~2–3 km/s/Mpc of systematics if the model is right; (iii) the model CONTRIBUTES
+one named candidate (the gate-curve mass step, sweep 69's inversion) and enters a live
+discriminable rivalry with the community's own suspect for the same systematic
+(host-dust R_V — dust predicts a color-dependent step; the gate predicts a
+host-DENSITY smooth trend), with Cepheid crowding (under active JWST re-measurement)
+as the third front. THE POSTURE: the model as a ladder-audit instrument — either the
+Cepheid path re-converges toward TRGB (the model's band vindicated) or holds at 73
+against a TRGB+model coalition (the residual stands as the model's owned tension).
+Same data decides; P-001 was the pre-registration.
+
+### THE ADVERSE-DATA LAW (constitutional, the operator's TRGB question answered)
+
+**No dataset is ever dropped for disagreeing with the model.** Sides in calibration
+disputes are taken in the REGISTRY (P-2026-001: the TRGB band) and in the PHYSICS (the
+mass-step fingerprint; the crowding front) — never by deletion from a likelihood block.
+Using the data ≠ endorsing its anchor: Pantheon+SH0ES stays whole in every headline run
+(and currently penalizes ΛCDM harder than the dyad — the hostile witness testifying for
+us). The legitimate pressure path: documented ALTERNATE analyses (the published-SH0ES
+headline + a TRGB/CCHP-anchored robustness variant, side by side, neither silent).
+Corollary: the adverse rows (Y_p, D/H) remain load-bearing for the same reason — a
+model that curates its data has no evidence, only preferences.
+
+### THE ANALYSIS-PLAN DECLARATION (pre-registered 2026-07-13, ~01:00 — BEFORE any
+### zero-parameter ΔlnZ exists; the Adverse-Data Law's lawful exercise)
+
+**The operator's declared position, on data-quality grounds stated in advance:** the
+Cepheid calibration is believed contaminated (crowding — neighbors' light in disk
+fields; the model's own gate law predicts environment-dependent readings, and the
+uncontaminated-field ladder (TRGB, ~69.8–70.4) sits in the model's registered band,
+P-001). Therefore: **HEADLINE comparison = the SH0ES-FREE stack** (CMB+BAO+SN without
+the Cepheid anchor); **COMPANION, always published alongside = the with-SH0ES stack**
+(the currently-running zero-parameter test becomes the companion — not wasted, not
+hidden). DECLARED COST, acknowledged in advance: removing the anchor removes the tide
+term that penalizes ΛCDM harder than the dyad — **this choice is expected to SHRINK the
+model's margin**; it is made anyway, which is what distinguishes a data-quality
+judgment from curation. EXTERNAL REFEREE: the JWST crowding re-measurements — the
+headline/companion roles get revisited by that community verdict, not by outcomes.
+Nothing is dropped; everything is shown; the choice predates the numbers.
+
+### The adverse-data law's SYMMETRY CLAUSE (the operator) + the TRGB trade executed
+
+**"I don't believe in punishing ΛCDM for a dataset I don't agree with"** — adopted: the
+data-quality judgment applies symmetrically; the rival is never flogged with a ruler we
+distrust. Under the TRGB anchor: ΛCDM sits < 1σ (68.2 vs 69.8 ± 1.8), the dyad dead
+center (69.9) — the evidence fight becomes mechanism quality + total fit, with far less
+free tide than the SH0ES fight offered (the operator's third margin-shrinking choice
+tonight; the sincerity ledger compounds). The framing, banked-accurate: PRTOE is
+ΛCDM-degenerate by construction plus one derived number — ΛCDM completed, not opposed.
+EXECUTED: the with-SH0ES run killed (~2.2h prior, logged); **THE TRGB-ANCHORED
+ZERO-PARAMETER RUN LIVE (2026-07-13 ~01:3x, PID 458272)** — Mb prior accepted,
+likelihood checks passing; the with-SH0ES companion and the anchor-free headline rerun
+later per the declaration's tiers.
+
+### THE TRGB-RUN FORECAST (pre-registered 2026-07-13 ~02:00, before any ΔlnZ exists)
+
+The corrected trade ledger (the operator's Occam argument, conceded with arithmetic):
+surrendering the SH0ES tide (~−6 lnZ fit-side) is offset by the stating-parameters
+Occam differential (logA ~3.2 + n_s ~3.3 ≈ **+6.5 lnZ** that ΛCDM pays and the frozen
+dyad does not) — near-wash on the number, plus credibility. Remaining terms: the freeze
+cost (−3.7 lnZ at the SH0ES-stack measurement; plausibly SMALLER under TRGB, whose
+peak sits at the frozen stack's own 69.9) and the two-edged clause: the Occam reward
+pays only at the data's peak — a stated value off its mark executes the model by the
+same machinery. **THE DEFENSE FORECAST: ΔlnZ(dyad-frozen vs ΛCDM, TRGB stack) ∈
+[+1, +6], centered ~+3.** The operator may stake his own number; both grade when the
+pair completes. No draw exists in this configuration by design.
+
+## SEVENTY-FIRST SWEEP — B2 FIRST PASS: THE AREA LAW DERIVED AND CONFIRMED (the
+## winding gas delivers the string-gas structure natively)
+
+*(scripts/winding_gas_cv.py; the string-gas method import, sweep 52, executed)*
+
+**(a) THE ACTIVATION RAMP:** the winding gas is frozen far below T_c (C_V/patch ≈ 0.01
+at t = 0.5), proliferates through a Schottky-class bump (≈ 0.67 at t ≈ 0.8), and
+settles to the classical ½ as ε₁ = a·ρ_s(t) → 0: **the proliferation temperature IS
+T_c — the medium's Hagedorn-analog, a ramp, exactly the operator's "maximal thermal
+allowance."** (b) **THE AREA LAW:** winding degrees of freedom are TRANSVERSELY indexed
+(the phase winds ALONG the axis; independent winding integers live per transverse
+coherence patch; the axis adds no multiplicity) ⟹ a region's winding dof = (R/ξ)² ⟹
+**C_V ∝ R² — confirmed numerically (C_V/R² constant, C_V/R³ falling).** The
+"intrinsically stringy" structure [NBV2006] is NATIVE to the medium. (c) **THE NBV
+CHAIN:** C_V ∝ R² ⟹ δρ² ∝ T²/R⁴ ⟹ Φ² scale-invariant at zeroth order — **the tilt's
+THERMODYNAMIC road confirmed, converging with the TOPOLOGICAL road (the exemption
+clause's two open dimensions, sweep 50): two independent derivations, one structure.**
+The drift (n_s − 1) lives in the activation ramp's slope at the draw.
+
+**LOCK 2 STATUS:** the mechanism half ADVANCES (the frame is now derived: areal dof +
+activation at T_c); the count (the 781) remains owed, with its question now sharply
+posed — **THE RECONCILIATION: the A_s form's shot-noise mechanism (volume census,
+N = C³) vs the NBV thermal amplitude (areal dof) must be the same object in two
+languages or must compete** — the next session's single question, and the frozen A_s's
+remaining mechanization debt.
+
+## SEVENTY-SECOND SWEEP — B2 v2 (the operator's ramp bet pays twice): THE CENSUS
+## COLLAPSE + THE LOG-CORRELATED FIELD + THE KIBBLE-ZUREK IDENTIFICATION
+
+*(scripts/winding_gas_cv_v2.py; the two confessed steps: frozen ξ; independent patches)*
+
+**(1) THE CENSUS COLLAPSE:** ξ(t) = ξ₀(1−t)^{−ν} diverges at the transition — the patch
+census N(R,t) = (R/ξ)² is a RAMP collapsing toward the draw (10⁶ → 10³ across the
+approach in the demo units). The count the sky remembers = N at the LOCK — and the lock
+criterion now has its standard name: **KIBBLE-ZUREK — the census freezes when critical
+slowing outruns the quench (the expansion rate at the transition IS the quench rate);
+ξ_freeze = the KZ length.** The mechanization of the A_s count becomes a textbook
+computation (Kibble already banked for the draw; Zurek already banked for the odds —
+the two names of the model's settlement law now BOTH govern its census). FIRST-SHOT
+ARITHMETIC, FILED HONESTLY AS A MISS: naive KZ at T_c with z=1, ν=2/3 gives R/ξ_KZ ~
+10¹³ vs the areal-census need ~10⁴ — orders apart; the epoch (T_c vs the superhorizon
+z~10⁶ frame), the dimension (areal vs volume: THE RECONCILIATION), and the quench-rate
+identification are the open assembly. The frame is standard; the assembly is ours to
+get right.
+
+**(2) THE LOG-CORRELATED CENSUS:** with the vortex-line coupling (the transverse winding
+field = a 2D Gaussian height model, J ∝ ρ_s), the region-averaged winding variance
+carries a ln(L/R) enhancement over independent shot noise (computed: var×R² grows
+log-fashion, not constant). **A log-correlated census deviates from scale-invariance at
+the 1/ln class — the BANKED TILT FORM's structure (n_s − 1 = −2/ln) acquires a
+microphysical candidate: the roughening log.** [CANDIDATE — coefficient + the argument
+(M_Pl/T) owed a session.]
+
+Two ramps, two payoffs: the lock criterion named (KZ) and the tilt's denominator given
+a mechanism (the height-field log). The operator's bet: paid, again.
+
+## SEVENTY-THIRD SWEEP — B3: THE k-INTEGRAL AUDIT (conventions become falsifiable
+## statements against the concordance window [1.360, 1.366])
+
+**The verdict table:** (1) BASELINE k = 1.36461 — INSIDE. (2) **Single-branch screening
+(the pre-P1.c variant) k = 1.583 — EXCLUDED by the window: the P1.c adjudication is now
+FALSIFIABLE** (overturn the twin-screening and the A_s form dies by its own ruler — a
+convention converted into a testable claim). (3) Massive-surface corrections: the
+lepton tenancy satisfies the ultrarelativistic assumption by 5+ orders (τ at the TeV
+surface: δk/k ~ 6×10⁻⁷) — **a quantified consistency win for the roster hypothesis.**
+(4) Channel purity: even 10% p-wave admixture breaks the window (k → 1.448) — s-wave
+purity is REQUIRED, and structurally SUPPLIED (the T-reversed pair's natural channel).
+(5) **THE ONE REMAINING ITEM: the phonon-channel subdominance bound** — the mediator is
+the α_c-defining mode by construction; any additive phonon-exchange attraction raises k
+out of the window; B3 completes when the phonon contribution is bounded subdominant.
+
+B2+B3 status: the clearance pair is 80% paid in one night — the area law derived, KZ
+identified, the audit table filed; residues = the reconciliation (volume vs area), the
+KZ assembly, the phonon bound.
+
+## SEVENTY-FOURTH SWEEP — B4: THE COMB REHEARSAL ON REAL PLANCK BINS (P-029 touches
+## data for the first time — rehearsal grade, the BipoSH referee unaffected)
+
+*(scripts/comb_rehearsal.py — plik_lite binned TT, 215 bins, full covariance, the
+shipped best-fit as baseline, RAMPED template: Gaussian-smeared teeth under a fitted
+envelope)*
+
+**Machinery validated:** null residual χ² = 172.9 / 215 dof (the binning + covariance
+chain reproduces the expected residual statistics). **The scan (P ∈ [15, 60], phases
+profiled): max significance 1.6σ at P = 25 — CONSISTENT NULL**; no pops claimed, none
+present. **THE SENSITIVITY FLOOR, MEASURED (the rehearsal's true deliverable):**
+σ_A ≈ 1.2×10⁻² fractional per-tooth amplitude under the ℓ ~ 130 envelope ⟹ Planck
+plik-lite TT sees combs at ≳ 2.4% (2σ) tooth amplitude and NOTHING below —
+**P-029's comb, if its amplitude is sub-percent (the banked expectation class), is
+invisible to the binned TT and belongs to the map-level BipoSH referee (B6) — now a
+measured statement, not a guess.** (Self-catch: the script's printed floor line was 10×
+optimistic; the σ_A column is the measurement.)
+
+## SEVENTY-FIFTH SWEEP — THE RECONCILIATION DISSOLVES: the two amplitude roads meet
+## at the pour temperature
+
+The sweep-71/72 question (shot-noise volume census vs NBV areal thermodynamics — same
+object or rivals?) resolves at schematic grade: **A_s(NBV) ~ (T_pour/M_Pl)⁴ and
+A_s(census) = (α_c/4πk)³ are IDENTICAL at T_pour = (α_c/4πk)^{3/4} M_Pl ≈ 8×10¹⁶ GeV —
+which is precisely sweep 52's schematic pour temperature.** No competition: the AREAL
+winding thermodynamics is the MECHANISM (it generates the fluctuations, with
+scale-invariance from the area law and the per-mode structure), and the VOLUME census
+is the BOOKKEEPING (the same amplitude relabeled through T_pour). One amplitude, two
+languages, joined at one temperature. **The closure owed: an INDEPENDENT T_pour from
+the melt's energetics (the crunch's blueshifted budget through the bounce — B1/B7's
+room)** — landing it converts the identity from consistent-by-construction to
+forced-by-physics, and completes the frozen A_s's mechanization end to end. The A_s
+clearance pair (#26) closes its conceptual half tonight; the assembly computations
+(T_pour, the KZ epoch, the phonon bound) are the named remainder.
+
+## SEVENTY-SIXTH SWEEP — THE NIGHT'S CLOSURES: B3 COMPLETE, ς CONFIRMED, T_pour FRAMED
+
+**(1) THE PHONON BOUND CLOSES BY IDENTITY — B3 COMPLETE:** in a metal, phonons add a
+second attraction because the lattice is a SEPARATE system; in a one-component
+superfluid the "phonon" IS the density mode of the same medium whose screening the RPA
+already summed — the static screened interaction CONTAINS the density-channel exchange
+in full; an additive phonon term would double-count the same diagrams. **No additive
+channel exists; the k-integral audit is complete; k = 1.36461 stands with every
+convention derived, adjudicated, or closed.**
+
+**(2) ς = −1 CONFIRMED AT FEATURE-RESOLVED GRADE (scripts/sigma_final_sign_v3.py):**
+the named SN Ia absorption features (Ca II H&K through Si II 6150) compressed
+individually over a fixed continuum, Bessell-class filters, 18-config scan: dμ > 0 in
+100%, median +0.0146 (v2's +0.0149 — grade-stable). **The appeal is exhausted at every
+offline fidelity; the module stays armed-off permanently** (a literal-template pass with
+survey filter files remains possible someday; the verdict is not expected to move). The
+ladder-audit posture stands; the mass-step fingerprint claim stands at its class.
+
+**(3) T_pour FRAMED, ONE NUMBER OWED:** the closure attempt — the bounce as the
+stiffness-ceiling refusal (the zero–infinity asymmetry's mechanical face): the pour
+ignites when the crunch's compression meets the medium's quantum-pressure ceiling
+ρ_b = T_pour⁴. The identity requires T_pour = (α_c/4πk)^{3/4} M_red ≈ 1.6×10¹⁶ GeV —
+**the ceiling's scale is THE single remaining underived number of the entire A_s
+chain** (candidates: the vortex-core UV, the winding-tension scale — B1/B7's room).
+The chain now reads: winding thermodynamics (derived) → area law (derived) → NBV
+amplitude at T_pour (mechanism) → = the census form (bookkeeping) → frozen into the
+live run — with ONE number between the whole structure and end-to-end derivation.
+
+## SEVENTY-SEVENTH SWEEP — THE CENSUS SESSION (fresh eyes): three counts wearing one
+## name, the dice demoted, THE QUANTIZATION EVENT
+
+**(1) THE SEPARATION — "the census" was three different counts, now split:**
+n (the winding integer: the comb's teeth, ~10–30), N_As (the amplitude's payroll,
+4.76×10⁸, the pour's thermal snapshot per the reconciliation), and N_roster (the
+species count: the three lepton flavors). Previously conflated; each now has its own
+mechanism and referee.
+
+**(2) THE KZ OVERSHOOT [computed]:** raw Kibble–Zurek at the T_c recondensation gives
+a winding random-walk n_rms ~ 10⁸ across the axis — **seven orders above the banked
+10–30 band: the direct-dice reading of n is DEAD.** The winding field at condensation
+is a mess, not a draw of twenty.
+
+**(3) THE QUANTIZATION EVENT [the synthesis — n is mechanical]:** the fountain ring
+forms in the MELTED fluid (classical vortex rings need no condensate); at the T_c
+crossing, condensation QUANTIZES the pre-existing classical circulation:
+**n = Γ_classical·m/(2π) — the rounding of the ring's formation invariant, not dice.**
+KZ supplies only the ± noise floor; the Widnall gain band (11–25, landed in every
+solver version) stabilizes the survivor. Sweep 54's identity Γ = n·2π/m now reads in
+its causal direction (Γ first; n at the crossing). CONSEQUENCES: (i) n becomes
+PREDICTABLE from the genesis invariants (B1's formation Γ → n — an eighth ambush for
+the comoving solver, with zon/the comb as the referees); (ii) the two-draws hypothesis
+REWRITES: the "topology draw" = the quantization event (mechanics + noise), the census
+lock = the pour snapshot (thermal) — the chain's 4→5 tether updates; (iii) the Kibble
+DICE survive only as the noise dressing and the ± sign (the matter/antimatter draw —
+the genome keeps its coin, loses its d20).
+
+**The roster itself (the tenancy):** unchanged and strengthened — the three lepton
+flavors (sweep 73's five-order ultrarelativistic consistency), with the count questions
+now cleanly theirs: 3 flavors (roster), n from Γ (ring), N from T_pour (thermal).
+
+### Sweep 77 ramp correction (strike 19 — the quantization event was a step)
+
+"Condensation quantizes the circulation" as an instantaneous rounding = a step. THE
+RAMPED VERSION — THE PHASE-SLIP ANNEAL: through the transition window the superfluid
+fraction grows while friction remains; quantized circulation can still change by PHASE
+SLIPS (restructuring, cheap while the fees are on). **The KZ mess (~10⁸) is the
+anneal's INITIAL CONDITION, not the final state**: slips relax the winding field toward
+the dynamical attractor (the classical ring's Γ), and **n locks at the PHASE-SLIP
+FREEZE-OUT (slip rate < H), not at T_c** — resolving the seven-order overshoot the
+step left dangling. The final noise floor = the un-annealed residual (slip-rate-vs-H
+criterion) — **B1's NINTH ambush, computable.** The chain: formation Γ → friction-era
+evolution → the condensation ramp anneals the mess → the slip freeze locks the integer
+→ Widnall stabilizes the ring. The dice demoted twice: first to noise, now to
+un-annealed residue. Strike 19 logged.
+
+## SEVENTY-EIGHTH SWEEP — THE INDUCED-G FIRST SHOT (the match-or-die test fires its
+## first round; the frame does not die)
+
+*(Fermi grade; the operator's order: "if it's light, do it")*
+
+**THE BOOTSTRAP:** self-consistent induced gravity sets Λ = M_red (nothing exists above
+the induced scale to cut off) — Sakharov's 1/G = N_eff Λ²/(12π) becomes a PURE-NUMBER
+demand: **N_eff = 12π = 37.70** (convention band: 1/(16π²) schemes demand 158).
+
+**THE ROSTER'S COUNT:** 3 charged Dirac leptons (12) + 3 Majorana neutrinos (6) = 18
+leptonic components × THE TWIN DOUBLING = 36, + the medium's complex scalar (2) =
+**38 vs 12π = 37.70 — a 0.8% Fermi-grade hit.** The tenancy's roster, counted with the
+model's own doubling law, lands on the induced-gravity bootstrap number.
+
+**FIREWALLS [all standing]:** (i) the heat-kernel per-spin coefficients are THE named
+session (the convention band spans [37.7, 158]; fermion signs scheme-dependent);
+(ii) the twin-doubling here must be FORCED as it was for the gap equation (P1.c-class
+adjudication owed in the gravitational channel); (iii) look-elsewhere ~×3 on the
+convention. NOTHING SIGNED — but the QG frame's registered match-or-die test fired its
+first round tonight and the frame is still standing, with G now derivable-in-principle
+from the same door as everything else: the roster. **The model's three deepest opens
+(A_s's ceiling, the tenancy, induced-G) are now one room with one number-family:
+12π ≈ 38 residents, three flavors, twinned, plus the landlord's own two.**
+
+## SEVENTY-NINTH SWEEP — THE HEAT-KERNEL SESSION (strike 20 en route): the signature
+## NOT signed — and the session found something better than a signature
+
+**STRIKE 20 [the operator's ramp order, applied to sweep 78]:** the bootstrap's sharp
+cutoff Λ = M_red was a step — and in Sakharov's program the step IS the famous
+ambiguity (the quadratic coefficient is regulator-shape-dependent; every textbook
+scheme is an arbitrary ramp). **THE MODEL-NATIVE RESOLUTION, banked: the ambiguity
+dissolves in a medium** — a superfluid's modes soften physically (Bogoliubov-class
+dispersion bending at the core scale), so the regulator is not a choice but a
+measurable shape: the ramp O(1) computed for form-factor powers p = 1.5/2/3 gives
+2.0/1.0/0.5 — **definite once the medium's dispersion fixes p.** Sakharov's
+half-century ambiguity becomes one derivable number in a model whose UV is physical.
+
+**THE FERMION-SIGN HAZARD [the session's real discovery, filed without anesthesia]:**
+the R-term supertrace weighs fermions against bosons; the roster is fermion-dominated
+(36/38) — under naive weights the induced 1/G comes out WRONG-SIGNED. **THE RESCUE
+CANDIDATE IS THE MODEL'S OLDEST STRUCTURE:** scalars enter str[k₁] with weight
+(1/6 − ξ); a non-minimally coupled medium scalar dominates the supertrace with the
+right sign at large |ξ| (schematic demand: ξ ~ −37 for str = 12π) — **and the model
+was BORN with F(φ) = 1 + ξA(φ): the founding coupling may be the term that makes
+gravity attractive.** [UNSIGNED — the full session = the medium-regulated supertrace
+with the model's own ξ: needs (a) the dispersion shape p, (b) the fermion weights
+under that regulator, (c) ξ from the founding form. Queued to #29 as the G-closure.]
+
+Sweep 78's 0.8% landing survives as one convention's hit, now properly firewalled by
+the sign hazard. Sources: [Visser gr-qc/0204062] (the supertrace + the ambiguity);
+[Sakharov1967] already banked. The QG endgame's honest shape: THREE numbers (p, the
+weights, ξ) — all model-owned, none arbitrary — between the frame and Newton's G.

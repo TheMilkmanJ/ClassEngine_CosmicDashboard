@@ -1,5 +1,8 @@
 # The Hubble Tension — the Model's Founding Fight (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 11. Status: the model's CORE empirical claim, consolidated into its standalone. This is
 the one domain where the model was BUILT in contact with the data rather than extended to it —
 the improvement is measured, graded, and evidence-priced.*
@@ -47,3 +50,16 @@ owned, and the arbiters are named and scheduled.*
 
 ## Sources
 [Riess2022] (SH0ES), [Freedman2021] (TRGB), [Planck2018], [HartChluba2020] + [SekiguchiTakahashi2021] (the varying-m_e degeneracy), [DiValentino2021] (the competitor map), [DESI2024] (the named falsifier). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+
+## UPDATE (2026-07-13) — the endgame map
+
+The tension's remainder is now itemized (full accounting:
+[PRTOE_H0_CEILING.md](PRTOE_H0_CEILING.md)): the model's global **69.9** (being
+re-derived live by the zero-parameter evidence run) + the dipole-leakage floor
+(+0.1–0.3%, the flow's lookback-varying component surviving SH0ES's constant-template
+marginalization) + the candle room (the environmental ε reaching the supernova
+standardization channels — CANDIDATE, gated on reading B and the ς sign session) + the
+τ room (±0.3 class, the unpaid reionization tether). The ceiling bracket: **70.9–73.4 —
+73.0 inside the model's reach**, contingent on two named computations (ς, ⟨g⟩). The
+candle room's candidate fingerprint already in public data: the SN host mass step.

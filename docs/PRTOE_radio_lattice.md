@@ -1,5 +1,8 @@
 # The Radio Lattice — Five Bands, One ε, Locked Ratios (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 12. Status: STRUCTURAL with two REGISTERED predictions riding it (P-2026-022, P-2026-027)
 and one candidate (P-029). The improvement: radio cosmology gains a CORRELATED, RATIO-LOCKED
 multi-band fingerprint that no other varying-physics model provides — the sharpest distinctive

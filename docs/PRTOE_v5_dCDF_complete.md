@@ -1,5 +1,12 @@
 # dCDF v5 — The Complete Model: Physics, Math, Implementation, Results
 
+> **HISTORICAL RESULTS RECORD (banner added 2026-07-13):** the July-6 refit tables below are the frozen record of that fit — numbers herein (H0 = 69.70, the chi2 tables) are that era's; the current production state and its live zero-parameter test: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) / [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **Status (2026-07-06): current production model.** This document is
 self-contained: the action, the background and perturbation equations as
 implemented, why the model has exactly this form (including the death of β),
@@ -9,7 +16,7 @@ as a pair; those remain the historical record of how v4 → v5 happened.
 Companion documents: `PRTOE_PREREGISTERED_PREDICTIONS.md` (the no-hedge
 registry, P-2026-001 through -005), `PRTOE_TRANSACTION_ATLAS.md` (every
 derived fixed relation, admission rule: derived-only, falsified
-entry-by-entry), `ForClaude.txt` (the adversarial red-team dialogue,
+entry-by-entry), `the internal adversarial-review record (private; turn-tags cited for provenance)` (the adversarial red-team dialogue,
 14 turns, formally closed 2026-07-06 with verdict "not proven —
 survived"; the four-verdict calculation of §11 is the agreed re-entry
 point).

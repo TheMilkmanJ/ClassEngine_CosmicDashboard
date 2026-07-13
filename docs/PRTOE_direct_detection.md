@@ -1,5 +1,8 @@
 # Direct Detection — the Predicted Silence of Every Underground Lab (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 9. Status: STRUCTURAL — the nulls are FORCED by graded results, not chosen. The
 improvement: WIMP-era cosmology treats forty years of detector silence as bad luck in a
 parameter scan; this model PREDICTS the silence, from theorems, across every channel at once —

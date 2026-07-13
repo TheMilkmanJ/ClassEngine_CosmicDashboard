@@ -2,6 +2,11 @@
 
 # What Threw the m_e Switch? (2026-07-07, operator's question — the dyad's open trigger, formalized)
 
+> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The dyad's m_e amendment (~1% heavier electron in the early universe)
 is epoch-gated BY HAND in every config (varying_transition_redshift =
 50). This document formalizes the trigger question, records the one
@@ -781,7 +786,7 @@ sourcing) and does NOT automatically inherit that clearance; it needs
 its own scrutiny before being trusted.
 
 STATUS: candidate legal path, hypothesis-grade, routed to red team
-(ForClaude.txt) as the follow-up to turn 61's flagged crack. Not yet
+(the internal adversarial-review record (private; turn-tags cited for provenance)) as the follow-up to turn 61's flagged crack. Not yet
 adjudicated. If it survives review, this becomes the leading candidate
 for HOW varying_me could be legally mechanized without violating the
 coupling census; if it fails, the search continues.
