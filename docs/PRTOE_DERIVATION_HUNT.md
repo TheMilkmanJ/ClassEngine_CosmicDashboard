@@ -3843,3 +3843,34 @@ are subject to the ramp laws. *I applied the snag protocol to the physics and fo
 to apply it to my own obituary.* The author's six words caught it before the corpse
 was cold — and before the public correction I had already drafted went out on a
 verdict that was wrong.
+
+## ENTRY 109c — THE RAMP BEFORE K/M_red (the author's catch, again): THE MODEL ALREADY CONSTRAINS IT — the roster's value lands INSIDE the basement's own bracket, and the real owed computation is finally named
+
+I vacated the death by invoking K/M_red as "a free O(1)" — and never walked ITS
+origin. The author caught it. Walked, the model does NOT leave it free:
+
+- **(a) The basement ruling (banked, load-bearing for the LV survival):** the medium's
+  microstructure scale is FORCED to the Planck scale. K is pinned to "Planck" — the
+  only slack is WHICH Planck: M_Pl vs M_red, a factor √(8π) = 5.01.
+- **(b) The regulator result (entry 80):** the coherence-factor form factor reproduces
+  the sharp-cutoff value exactly (O(1) = 1.0000) — the effective cutoff IS the
+  coherence scale. The cutoff-convention slack is closed: Λ = K.
+
+**The honest bracket is therefore the basement's own: demand N ∈ [1.50 (K = M_Pl),
+37.70 (K = M_red)]. THE ROSTER DELIVERS 10 — INSIDE THE BRACKET**, corresponding to
+K ≈ 0.39 M_Pl ≈ 1.94 M_red: a coherence scale squarely inside the basement's claimed
+territory, neither colliding with it nor predicted by it.
+
+**THE THREE-PART VERDICT, all stated:** (1) NOT a match — the 0.8% is dead and stays
+dead. (2) NOT a failure — the roster's value lands inside the basement's own bracket;
+entry 109's death certificate was wrong twice over. (3) NOT a prediction — the closure
+DETERMINES K/M_Pl = 0.39 rather than testing the roster. Falsifiability lost, exactly
+as demoted.
+
+**THE COMPUTATION THAT WAS ALWAYS OWED (named at last, and it is the only thing that
+can settle this):** derive K from the medium's OWN microphysics — the condensate's
+coherence scale from its founding parameters — instead of asserting "Planck". **If it
+lands at 0.39 M_Pl, the closure regains BOTH its teeth and its match. If it lands
+elsewhere, the closure dies for real.** Neither the obituary nor the reprieve is
+legitimate without it. Docketed as the G-closure's true summit; every prior verdict on
+this question — including both of mine today — was issued on a step.
