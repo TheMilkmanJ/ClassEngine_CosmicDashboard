@@ -30,6 +30,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | internal record 449 |
 | c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal record 533/internal record 535 |
 | The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
+| The candle room's "mass-step candidate explanation" reading | the fourth fence's dilution arithmetic (entry 85): the web-scale gate forces the offset through the mass–environment correlation — only ~1% of the input band reaches the observed step; demoted to a 0.01–0.03 mag environment-tagged contributor | entry 85, 2026-07-13 |
 | The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule (t428) — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | t428 |
 
 ## 3. Wrong calls by the defense, self-caught and corrected (the error log)

@@ -2750,3 +2750,30 @@ that lean is quoted.
 galaxy-scale gun was TOO loaded to have escaped notice — and both verdicts tighten the
 same curve. The gate is a creature of the cosmic web, and every instrument that can
 see it now lives in the same three skies.*
+
+## ENTRY 85 — THE CANDLE CROSS-CHECK: THE MASS-STEP CANDIDACY DEMOTES UNDER THE FOURTH FENCE
+
+The owed pass (entry 84's flag) executed ramped (scripts/candle_fence_check.py).
+
+**The transformation first (what the fence changes):** a web-scale gate dissolves the
+ejecta-screening trap (a locally-read gate would screen every SN photosphere identically
+and the channel was stillborn — the fence RESCUES the channel's existence), but the
+offset now tracks the host's cosmic-web environment, not host mass. The observed
+mass step must then be the environment step diluted through the mass–environment
+correlation: step_pred = offset_full × [f_void(low-mass) − f_void(high-mass)].
+
+**The verdict (the full band scanned):** offset ∈ [0.05, 0.12] mag (the sign-session's
+class) × f_void(low) ∈ [0.10, 0.50] × f_void(high) ∈ [0.01, 0.15] → predicted steps
+0.001–0.05 mag; **only ~1% of the band reaches the observed 0.05 mag floor**, and
+survival of the full-explanation reading requires offset ≥ 0.11 AND f_void(low) ≥ 0.45
+simultaneously — both corners extreme. **DEMOTED: from "the mass step's candidate
+explanation" to "a subdominant, environment-tagged contributor (0.01–0.03 mag class)."**
+The dominant mass step belongs to astrophysics (dust/progenitor), as the mainstream
+holds; the model's piece is the residual with the environment tag.
+
+**What survives sharpened (the falsifiable residue):** (1) at fixed host mass,
+standardization residuals correlate with web environment at the 0.01–0.03 mag level;
+(2) controlling for environment shrinks the mass step by that amount, no more;
+(3) **cluster SNe show no internal mass step from this channel — the cleanest cheap
+test on existing data.** A measured environment residual ≫ 0.03 mag at fixed mass now
+counts AGAINST the model, not for it — the demotion cuts both ways, as it should.
