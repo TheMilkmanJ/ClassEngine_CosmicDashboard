@@ -3041,3 +3041,39 @@ to the distribution).
 
 Standing rule appended to the depth law: **locate the physical onset before computing
 the ramp — a ramp entered midway manufactures a step at the entry.**
+
+## ENTRY 91 — GEN 4's FORK RESOLVED: THE TENANCY RAMP — "made of" was a step, and the courts had already ruled
+
+The author's order: resolve the riders-or-tenants fork. The resolution required no new
+computation — only the recognition that the fork's binary was itself a STEP, and that
+the model's own adjudicating law plus four banked results had already graded every
+particle in the building.
+
+**The adjudicating law:** the census refinement — *"couple to what you're made of"*
+(adopted, binding, laws_and_rules) — makes mass-sourcing and coupling two faces of one
+fact. So "how much of you is the medium's?" is not a yes/no; it is the MEASURED
+coupling hierarchy, and it was sitting in the books as four separate entries:
+
+| resident | medium-sourced mass fraction (the tenancy) | the banked receipt |
+|---|---|---|
+| **the neutrino** | **~1 (full tenant)** | the tenth channel — mass medium-sourced via the Majoron structure (P-2026-012/020) |
+| **charged leptons** | **1.24×10⁻² (the dyad's dressing)** | the model's one coupling, fit-measured; value input-grade (the leptophilia cap, stated) |
+| **quarks/baryons** | **≲10⁻⁹ (riders to nine decimals)** | the quark no-go (2-loop leakage); EP/MICROSCOPE-verified |
+| **the photon** | **0, exactly, by law** | L1a's anomaly zero — proven, not bounded |
+
+**THE RESOLUTION: tenancy is a ramp spanning nine orders of magnitude across the
+particle table — 0 → 10⁻⁹ → 10⁻² → 1 — measured at every rung, chosen at none.**
+GEN 4's sentence ("the riders came, or the tenants woke") resolves as BOTH: the
+tenants woke in the lepton wing, the riders kept the baryon wing, and the mail was
+never allowed in the building. The fork's binary was the last unexamined step in the
+chain, and the author's own depth law is what killed it.
+
+**Honest scope (the disambiguation that made this resolvable):** this resolves
+"made of" in the MASS-SOURCING sense — whose account pays you. The CONSTITUENT sense
+(are quarks literally built from basement units — H-TOE's maximal reading, Gates 1–3)
+stays PARKED exactly as registered: gates unpaid, adverse census forecast on Gate 2,
+compositeness bounds (Λ ≳ tens of TeV) consistent with the rider verdict at that
+level too. The parked item keeps its named unblock; nothing is forced.
+
+*The chain's GEN 4 line updates from a question to a census: every particle now knows
+its rent.*
