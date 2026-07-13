@@ -1432,3 +1432,43 @@ O(1) smear — same discipline as the bath-band's s_b); (ii) the sweep-44/n_s co
 demand is now two-sided (the tilt tests the lock; the lock explains the tilt); (iii) the
 kill window [1.35, 1.37] re-stated as Planck's 1σ — the Eliashberg verdict grades in
 σ's, not in/out.
+
+## FORTY-NINTH SWEEP — THE REFEREE SESSIONS FIRED TONIGHT (operator: "can we do this
+## right now?" — partially, and here is exactly what signed and what didn't)
+
+**REFEREE 1, THE ELIASHBERG COMPONENT: EXECUTED, literature-exact.** The weak-coupling
+Eliashberg prefactor is exactly known: T_c = 1.13 e^{−3/2} ω_c e^{−1/λ} ([Combescot1990];
+modern confirmations [Marsiglio2018] arXiv:1807.04907, arXiv:1912.09460) — and λ = 0.03
+puts us IN the asymptotic regime, so this is exact for us, not approximate. Decomposition
+of where it bites: the correction lands on the GAP FORMULA's prefactor (2e^{−3/2}ω_c),
+i.e., on TEST B (the anchor-hierarchy consistency) — NOT on the interaction integral
+k_int (instantaneous-exchange object; Eliashberg-untouched at leading order in λ).
+- **TEST B, booked honestly: the sweep-43 landing DEGRADES 0.5% → 2.9%** (k_target moves
+  1.353 → 1.321 under the correct prefactor; computed 1.36) — at the edge of the ±3%
+  convention band. The 0.5% was partly the naive prefactor's luck. The shine dims; the
+  landing survives; the truth costs what it costs.
+- **THE KILL TEST's remaining live component:** k_int's own O(1)s — the surface DOS
+  model and the g² = 4πα_c normalization (roster-tied; the tenancy trial's business).
+  Until that audit runs, k_int = 1.36 stands with its band overlapping the window
+  [1.354, 1.367] — **the form SURVIVES tonight but is NOT signed tonight.**
+
+**REFEREE 2, FIRST ATTACK: one kill, one lane, one NEW TENSION (self-flagged):**
+- KILLED: the sound-horizon-crossing lock (λ_lock = c_s/H) → N grows as a⁶ at crossing
+  → n_s − 1 = +6, violently blue. Dead, filed.
+- THE SURVIVING LANE: the lock drifts via a LOG-RUNNING coupling (α_c ∝ 1/ln(M_Pl/μ)
+  one-loop-style) → n_s − 1 = −(dim)/ln(M_Pl/T_on) — the banked tilt's FORM appears
+  naturally.
+- **THE TENSION, flagged before red team finds it:** the banked tilt has coefficient
+  2/L; a VOLUME census (N = C³) with naive coupling-drift gives 3/L; an AREA census
+  gives 2/L exactly — BUT the AMPLITUDE demands volume (C³ = 4.76×10⁸ with C = 781;
+  area would need C ≈ 22000). So the C-derivation session now faces a TWO-CONDITION
+  demand with an internal fork: deliver N = C³ = 4.76×10⁸ AND dlnN/dlnk = 2/L
+  simultaneously (e.g., the drift entering at rate (2/3)/L through C = 4πλ/α_c²'s
+  compound running, or the area law genuinely owning the tilt while volume owns the
+  count — the holographic room's door, banked in the QG frame). TWO conditions, zero
+  dials: the frame is now MORE falsifiable than it was this morning.
+
+**THE LEGAL STATUS AFTER TONIGHT:** A_s stays sampled. Referee 1: one component signed
+(Eliashberg, exact), one open (the integral's O(1) audit). Referee 2: frame sharpened to
+a two-condition demand, first candidate dead. The freeze remains pending — closer, not
+closed.

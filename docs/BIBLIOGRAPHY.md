@@ -65,6 +65,8 @@ that is a bug — file it.*
 
 - **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the settlement-terms computation runs on (sweep 43).
 
+- **[Combescot1990]** R. Combescot, "Critical temperature of superconductors: Exact solution from Eliashberg equations on the weak-coupling side," Phys. Rev. B 42, 7810 (1990). / **[Marsiglio2018]** F. Marsiglio et al., "Eliashberg theory in the weak-coupling limit," arXiv:1807.04907; real-axis companion arXiv:1912.09460. — The exact weak-coupling prefactor T_c = 1.13 e^{-3/2} omega_c e^{-1/lambda} the referee sessions run on (sweep 49).
+
 ## 5. Emergent gravity, entropy, and the keystone
 
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.
