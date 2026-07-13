@@ -2462,3 +2462,35 @@ chain** (candidates: the vortex-core UV, the winding-tension scale — B1/B7's r
 The chain now reads: winding thermodynamics (derived) → area law (derived) → NBV
 amplitude at T_pour (mechanism) → = the census form (bookkeeping) → frozen into the
 live run — with ONE number between the whole structure and end-to-end derivation.
+
+## SEVENTY-SEVENTH SWEEP — THE CENSUS SESSION (fresh eyes): three counts wearing one
+## name, the dice demoted, THE QUANTIZATION EVENT
+
+**(1) THE SEPARATION — "the census" was three different counts, now split:**
+n (the winding integer: the comb's teeth, ~10–30), N_As (the amplitude's payroll,
+4.76×10⁸, the pour's thermal snapshot per the reconciliation), and N_roster (the
+species count: the three lepton flavors). Previously conflated; each now has its own
+mechanism and referee.
+
+**(2) THE KZ OVERSHOOT [computed]:** raw Kibble–Zurek at the T_c recondensation gives
+a winding random-walk n_rms ~ 10⁸ across the axis — **seven orders above the banked
+10–30 band: the direct-dice reading of n is DEAD.** The winding field at condensation
+is a mess, not a draw of twenty.
+
+**(3) THE QUANTIZATION EVENT [the synthesis — n is mechanical]:** the fountain ring
+forms in the MELTED fluid (classical vortex rings need no condensate); at the T_c
+crossing, condensation QUANTIZES the pre-existing classical circulation:
+**n = Γ_classical·m/(2π) — the rounding of the ring's formation invariant, not dice.**
+KZ supplies only the ± noise floor; the Widnall gain band (11–25, landed in every
+solver version) stabilizes the survivor. Sweep 54's identity Γ = n·2π/m now reads in
+its causal direction (Γ first; n at the crossing). CONSEQUENCES: (i) n becomes
+PREDICTABLE from the genesis invariants (B1's formation Γ → n — an eighth ambush for
+the comoving solver, with zon/the comb as the referees); (ii) the two-draws hypothesis
+REWRITES: the "topology draw" = the quantization event (mechanics + noise), the census
+lock = the pour snapshot (thermal) — the chain's 4→5 tether updates; (iii) the Kibble
+DICE survive only as the noise dressing and the ± sign (the matter/antimatter draw —
+the genome keeps its coin, loses its d20).
+
+**The roster itself (the tenancy):** unchanged and strengthened — the three lepton
+flavors (sweep 73's five-order ultrarelativistic consistency), with the count questions
+now cleanly theirs: 3 flavors (roster), n from Γ (ring), N from T_pour (thermal).
