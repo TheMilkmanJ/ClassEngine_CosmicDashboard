@@ -289,14 +289,11 @@ balanced meeting). Whether the three exactlys are one law is basement-roster bus
 (#18). Debt honestly restated: flatness must be DERIVED from the cycle map, not assumed
 — the bounce owes it (cycle-map business, standing).
 
-**The operator's settled position (2026-07-12, verbatim substance) + the decay reading:**
-"the idea of both merged into one — not the contents of them, but the ideas" — adopted as
-the meeting reading's cleanest one-line form (the universe inherits both work-sign
-CHARACTERS while being neither OBJECT). And the interrupt's keeper: decay exists because
-the pour was one enormous unsettled posting — every particle decay, dissipation, and
-burn-down since is the SETTLEMENT CASCADE of the opening deposit, still clearing. Record
-credit: this is the past hypothesis (Boltzmann; Penrose's low-entropy initial condition)
-in ledger grammar — all irreversibility traces to the unbalanced opening books. "We live
-deep inside the white hole" is causally literal: everything that exists lives inside the
-causal future of the pour; the gather-resemblance is the gather-dominated CHAPTERS of the
-pour's interior settling itself out. [GRAMMAR — renames of banked + record physics.]
+**The merged reading + the decay reading [GRAMMAR]:** the universe inherits both
+work-sign CHARACTERS while being neither OBJECT (the meeting reading's one-line form).
+Decay exists because the pour was one enormous unsettled posting — every particle decay
+and dissipation since is the settlement cascade of the opening deposit. Record credit:
+the past hypothesis (Boltzmann; Penrose's low-entropy initial condition) in ledger
+grammar. "Inside the white hole" is causally literal — everything lives in the causal
+future of the pour; the gather-resemblance is the gather-dominated chapters of the
+pour's interior settling out.

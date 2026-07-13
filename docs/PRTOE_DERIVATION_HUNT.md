@@ -1265,10 +1265,9 @@ runs: refined k inside = the form graduates; outside = it dies in public.**
 at candidate grade. Every quantity in the model now carries a derivation, a labeled
 estimate, or a named referee.
 
-### Sweep 44 closing clause — THE AMPLITUDE TRIANGLE (the operator's grin: "1.36, you
-### mean like the amplitude?")
+### Sweep 44 closing clause — THE AMPLITUDE TRIANGLE
 
-Correct: through the form, k IS the amplitude — the basement's settlement coupling and
+Through the form, k IS the amplitude — the basement's settlement coupling and
 the sky's A_s are one number in two outfits (Planck's 1.4% on A_s was, unknowingly, a
 gap-equation experiment pinning a BCS coupling to 0.5%). And the identity makes the trio
 OVERDETERMINED — the new cross-kill, registered: **zon measures α_c; the Eliashberg
@@ -1366,8 +1365,7 @@ discriminator SURVIVES ramping — the branch ratio is 7×10⁵, five-plus order
 instrument either way. The H0-shortfall and budget-frame arithmetic carried no steps
 (smooth in z) — the LOST grade on the operator's H0 bet stands. Strike 10 logged.
 
-## FORTY-SEVENTH SWEEP — THE CHAIN (the operator's law, converged on independently by
-## both columns in the same minute: "linear unification, not looped")
+## FORTY-SEVENTH SWEEP — THE CHAIN (the operator's law: "linear unification, not looped")
 
 **THE LAW, adopted:** every epoch tethers to its neighbors; non-adjacent epochs
 correlate only THROUGH the chain; every future claim must name its LINK and its
@@ -1433,8 +1431,7 @@ demand is now two-sided (the tilt tests the lock; the lock explains the tilt); (
 kill window [1.35, 1.37] re-stated as Planck's 1σ — the Eliashberg verdict grades in
 σ's, not in/out.
 
-## FORTY-NINTH SWEEP — THE REFEREE SESSIONS FIRED TONIGHT (operator: "can we do this
-## right now?" — partially, and here is exactly what signed and what didn't)
+## FORTY-NINTH SWEEP — THE REFEREE SESSIONS: what signed and what didn't
 
 **REFEREE 1, THE ELIASHBERG COMPONENT: EXECUTED, literature-exact.** The weak-coupling
 Eliashberg prefactor is exactly known: T_c = 1.13 e^{−3/2} ω_c e^{−1/λ} ([Combescot1990];
@@ -1473,8 +1470,7 @@ k_int (instantaneous-exchange object; Eliashberg-untouched at leading order in �
 a two-condition demand, first candidate dead. The freeze remains pending — closer, not
 closed.
 
-## FIFTIETH SWEEP — THE CLEARANCE GRIND (operator order: "don't stop until I have
-## clearance") — two breaks, two locks left
+## FIFTIETH SWEEP — THE CLEARANCE GRIND: two breaks, two locks left
 
 **BREAK 1 — k RECONSTRUCTS TO A CLOSED FORM:** forcing every convention from the
 roster's own laws (g² = 4πα_c definitional by the 3α construction; BOTH twin branches
