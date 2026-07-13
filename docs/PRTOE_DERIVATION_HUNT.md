@@ -2910,3 +2910,59 @@ the vector sector matter, and does the model own anything there?"
 The fourfold death stands at ramped grade. Process error 23 filed: the checks' grids
 were absent, not merely coarse — the author's catch, the third of its kind this night,
 each one changing either the verdict (85b) or the verdict's grade (87b).
+
+## ENTRY 88 — THE COUPLING-GEOMETRY RE-AUDIT: every thread and null re-classified under the fourth fence; ONE new instrument surfaces (the WHIM)
+
+The author's order: re-run ALL threaded physics and null verdicts — including the
+"no effect" rows — under (a) ramp discipline and (b) the new coupling geometry. The
+prior re-grade predates the fourth fence: every verdict was graded when ε was
+epoch-gated (zero everywhere today); the standing picture is ENVIRONMENT-gated —
+ε alive today in unscreened regions (up to g(Δ≈1) ≈ 0.7 in the fork corner), dead in
+dense rooms, its expansion-era uniformity intact. Classification of the full surface
+(16 threads + 24 domains + the graveyard), by where each verdict's physics lives:
+
+**1. SCREENED-ROOM VERDICTS — HOLD, and now hold BY GEOMETRY rather than by epoch:**
+every precision instrument requires matter, and matter means density: labs, Oklo,
+quasar DLAs and molecular absorbers (μ-fences), 21cm-vs-optical absorbers (cold
+neutral medium — galactic interiors), underground detectors, Josephson/metrology,
+Koide's lab masses, the solar system, medical physics. The α-fences hold doubly:
+the many-multiplet method is common-mode-blind to a uniform m_e shift even where
+unscreened. **The null ledger survives the new geometry wholesale — not by luck:
+precision requires density, and density is exactly what screens.**
+
+**2. EARLY-UNIVERSE VERDICTS — UNCHANGED:** BBN, CMB, BAO physics ran when ε was
+fully on under every reading; the gate question is a late-time question.
+
+**3. MEDIUM-SECTOR VERDICTS — UNTOUCHED:** superfluidity/BEC identity, the scalar
+EFT graveyard, black holes, the dice/chaos verdicts, background cosmology, IGMF
+helicity, LSS parity, P-028's flows — these read the medium's own dynamics, not the
+ε channel; the coupling's geometry is not their variable. Ramp status: graded in
+their own sessions; nothing re-opens.
+
+**4. THE EXPOSED CLASS = THE REGISTERED PREDICTION SET (the audit's consistency
+finding):** the observables that DO live unscreened — the Lyman-α forest (Δ≈1), the
+dark-ages/cosmic-dawn bulk IGM, void walls and composition-tagged kinematics, the
+CMB era itself — are precisely the model's already-registered referees (P-022/024/
+027/029, the forest, the SN environment residual). The fence's geometry re-derives
+the referee list from the outside in. No registered null flips; no registered
+prediction was mislocated.
+
+**5. THE ONE NEW INSTRUMENT (the audit's find): THE WHIM.** The warm-hot
+intergalactic medium (Δ ≈ 10–30, filaments) sits at INTERMEDIATE screening — the
+one occupied environment class between the forest and the halos. Under the fork
+corner its X-ray/UV absorption lines (O VII/O VIII toward blazars) are Rydberg-
+shifted by a partial ε — apparent velocity offsets of order 10²–10³ km/s between
+WHIM absorption redshifts and their host large-scale structure. Claimed WHIM
+detections match structure redshifts at ~10² km/s precision — **so existing WHIM
+data may already FENCE the fork corner independently of the forest — or the offset
+hides in the marginal detections. Either way: a fifth fence candidate and a
+possible signature, one object.** Docketed as its own session (line formation in
+partially screened gas + the actual detection precisions; RAMPED — the offset is
+the gate curve read at Δ ≈ 10–30, a band, not a number).
+
+**Grade of this audit, honestly:** desk-grade classification by environment — the
+holds hold by geometry, not by recomputation; the one item that refused to classify
+cleanly (the WHIM) is docketed rather than guessed. The author's 90%-from-genesis
+instinct read correctly: the verdicts that needed nothing were the ones whose
+physics never touched the gate; every gate-touching observable was either already
+registered or is now (the WHIM) on the docket.
