@@ -2004,3 +2004,26 @@ flow line's ω₀ ~ 10⁻² H₀ and the bounds never meet. The seven-order coll
 would have been red team's first shot at sweeps 53–55 is dissolved by construction.
 HONEST RESIDUAL: the network's own metric perturbations carry a (small, priced) bill —
 P-028's context and the smoothness floor, not a Bianchi-class constraint.
+
+## SIXTY-THIRD SWEEP — v3'S ARTIFACT EXPOSED; THE SEALED KILL EXECUTES ON THE
+## MOMENT-MAPPING (the ambush system fires on its own)
+
+**v3-as-coded is INVALID:** ε = 1.000 with ZERO sensitivity to any input — the artifact
+tell. The merger queue re-offered every parcel ~200 times through a never-closing
+sigmoid: total absorption guaranteed by construction, not physics. **The valid
+analysis:** in the toy, the ring's velocity is MONOTONIC (Γ grows faster than R), so a
+once-rejected parcel can never catch up — the honest merger channel is ~empty. The
+destination ramp pays only when the ring SLOWS, which for the cosmological ring happens
+via post-formation expansion — requiring the full COMOVING solver (the real B1), beyond
+toy fidelity.
+
+**THE SEALED KILL (sweep 62's rule, enforced):** the cited corrections, implemented
+honestly, do not reach the moments at toy fidelity. Therefore **THE MOMENT-MAPPING DIES
+at toy grade**: ε = 0.88 ↔ the circulation fraction and 0.843 ↔ the mass fraction are
+REJECTED as the dictionary — sweep 56's moment-frame and strike-12's one-curve unlock go
+to the failures ledger (killshot regime: toy fidelity; resurrection requires the full
+comoving B1 showing the expansion-era catch-up channel delivers). **SURVIVORS:** the
+Widnall count (n = 11–13 landed in every version's final state — robust through every
+change tonight), the formation-number frame, the ring itself, the irrotational
+exemption. The ambush system killed one of its own tonight — which is exactly why the
+landed n means something.
