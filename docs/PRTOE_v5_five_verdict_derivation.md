@@ -6,7 +6,7 @@
 
 
 **Status: FRAMEWORK (2026-07-07). No verdict is issued in this revision.**
-Per red-team turn 22 (binding): five separately-worked sections sharing
+Per internal review turn 22 (binding): five separately-worked sections sharing
 one framework, each verdict's chain visible from assumption to number —
 built slowly, so a cold read can convict one step without acquitting the
 other four. This document accumulates the derivation; verdicts are
@@ -15,7 +15,7 @@ stamped only when their section is complete.
 ## 0. What this calculation decides (the load)
 
 One derivation — the nonlinear two-fluid sector of the dCDF medium with
-the admissible (δK)² operator — carries five verdicts:
+the admissible (δK)² author — carries five verdicts:
 
 | # | verdict | decides |
 |---|---|---|
@@ -25,7 +25,7 @@ the admissible (δK)² operator — carries five verdicts:
 | V4 | structure-funded floor amplitude + Bianchi withdrawal | P-2026-003's conditional fingerprint |
 | V5 | can the caustic structure support a Θ-type coupling | R1's life (consistency-construction → physics, or death) |
 
-Red-team standing note (turn 10, adopted): V1–V3 are **three readouts of
+internal review standing note (turn 10, adopted): V1–V3 are **three readouts of
 one question** — does the nonlinear sector reduce to pure
 Schrödinger–Poisson (FDM), or does the normal component (the one
 ingredient FDM does not have) reshape the granule statistics? Identical
@@ -38,12 +38,12 @@ in one stroke.
 These are the derived results this calculation stands on, with their
 provenance; none is re-litigated here:
 
-- **F1 (cert 3, exact):** the (δK)² operator is trace-only; gravitons
+- **F1 (cert 3, exact):** the (δK)² author is trace-only; gravitons
   are traceless; det(e^h)=1 ⇒ δK vanishes on tensors to all orders.
-  c_T = 1 identically. The operator cannot see gravitational waves.
+  c_T = 1 identically. The author cannot see gravitational waves.
 - **F2 (cert 2, scaling grade):** the induced particle mass is
   **epoch-independent** — the H² in the kinetic normalization cancels
-  against the operator's. (Load-bearing for V1: without this, the
+  against the author's. (Load-bearing for V1: without this, the
   soliton scale would drift with redshift and no Schive comparison
   would be possible.) Linear-scale leakage suppressed by powers of
   k/k_J: braiding 10⁻³ at k=0.2/Mpc, dispersion 10⁻⁶. GC dictionary:
@@ -102,10 +102,10 @@ The would-be gradient term P_X·(−(∇π)²/2a²) **vanishes identically at
 the extremum** — this is c_s² = 0 seen in fluctuation variables, and
 it carries a structural consequence stated now because V3 leans on it:
 *every bit of spatial stiffness in this medium belongs to the (δK)²
-operator; none of it to the fluid.* The granule physics is entirely
+author; none of it to the fluid.* The granule physics is entirely
 the completion's.
 
-**Step 2 — the operator's gradient energy.** For the perturbed
+**Step 2 — the author's gradient energy.** For the perturbed
 constant-φ foliation, δK = −∇²π/(a²φ̇₀) at leading order, so
 
   (m̄₂²/2)(δK)² = (m̄₂²/4X₀) (∇²π)²/a⁴.
@@ -132,12 +132,12 @@ these variables; the two derivations agree.
 - With M₂ = 9.4 eV: M_eff = 88.4 eV²/m̄₂. The astrophysically
   interesting window maps to **m̄₂ ∈ 10¹¹–10¹⁵ GeV** — the
   intermediate/GUT band (M_eff = 2×10⁻²¹ eV ↔ m̄₂ = 4.4×10¹³ GeV).
-  The completion operator's coefficient sits at a natural UV scale;
+  The completion author's coefficient sits at a natural UV scale;
   it did not have to.
 - λ_dB(M_eff = 2×10⁻²¹ eV, v = 10 km/s) = 0.60 kpc — matches cert 1's
   "~kpc granules at dwarf speeds" independently.
 - Quantum-pressure Jeans scale at today's mean density: 299/Mpc at
-  2×10⁻²¹ eV (67/Mpc even at 10⁻²² eV) — the S8-mute claim
+  2×10⁻²¹ eV (67/Mpc even at 10⁻²² eV) — the S₈-mute claim
   (k_J ≥ 5.5/Mpc) holds with two orders of margin.
 
 **Addendum (2026-07-07 evening) — the X₀-free form: the whisper
@@ -209,7 +209,7 @@ level, the core-mass relation (V1), granule statistics (V3), and
 heating rates (V2) transfer from that literature with m → M_eff. The
 honest possible outcome that V1–V3 must confront: FDM-by-another-
 route, with the model's distinctive content living only in V4 (the
-funded floor — FDM has no such operator) and V5 (the caustic bit).
+funded floor — FDM has no such author) and V5 (the caustic bit).
 - 2.3 DONE below.
 
 ### 2.3 Granule statistics — and the caustic bit found (2026-07-07)
@@ -241,7 +241,7 @@ binarity demanded (turn 22's "can the caustic structure support a
 Θ-type coupling"): granulation happened ⇒ Θ ≈ 1 universally;
 never-crossed ⇒ Θ = 0. The quasar wall's uniformity requirement is
 met BY the universality of random-wave vortex statistics — not by
-tuning. **What 2.5 still owes:** a LOCAL operator in the action whose
+tuning. **What 2.5 still owes:** a LOCAL author in the action whose
 expectation value is Θ (candidates: phase-gradient variance
 normalized at the de Broglie scale; vortex-core density from
 |∇ψ|²/ρ). The statistical object exists; the coupling construction
@@ -282,7 +282,7 @@ w-measurement. **Step 4 — withdrawal:** fractional growth drag
 satisfied. An honest self-kill of our own conditional fingerprint,
 by our own locked relation.
 
-### 2.5 The local caustic-bit operator — constructed and verified (2026-07-07)
+### 2.5 The local caustic-bit author — constructed and verified (2026-07-07)
 
 **Step 1 — construction.** Madelung variables (ρ, S). Define the
 local, dimensionless, bounded scalar
@@ -303,7 +303,7 @@ control: **1.9×10⁻⁶**. Six orders of separation, saturation confirmed,
 environment-independence confirmed at the few-percent level.
 
 **Step 3 — verdict input and caveats.** The caustic bit IS expressible
-as a local operator in the EFT's own variables: R1's forced binarity
+as a local author in the EFT's own variables: R1's forced binarity
 has a mechanism (couple m_e to Θ_loc; every lab/absorber sits at the
 plateau, every laminar region at zero — the quasar uniformity is a
 property of Gaussian statistics, not tuning). Caveats stamped:
@@ -368,7 +368,7 @@ plateau universality between halo environments at the 10⁻⁵ level
 (a large-scale SP simulation question, beyond this document's tools).
 
 *Lyman-α transfers unconditionally as backdrop. All five stamped;
-the red team reads cold, per-verdict, per the turn-22 conditions.*
+the internal review reads cold, per-verdict, per the turn-22 conditions.*
 
 ## 4. V4 STEP-WALK (for the turn-24 reserve — every O(1) skeleton exposed)
 
@@ -377,12 +377,12 @@ the α coefficient. Here is the walk, with the conventions and the one
 undercount surfaced by us before the walk was read.
 
 **Step A — the lock's two powers (structural, not adjustable).**
-(A1) The operator is, by definition, (m̄₂²/2)(δK)² — its contribution
+(A1) The author is, by definition, (m̄₂²/2)(δK)² — its contribution
 to any coherent expansion-fluctuation energy is ∝ m̄₂². Not a choice;
-the operator's name. (A2) The dispersion (2.1 Steps 2–3): the same
+the author's name. (A2) The dispersion (2.1 Steps 2–3): the same
 coefficient supplies the ONLY gradient term, giving
 ω = [m̄₂/(2√P₂X₀)]k², hence M_eff = √P₂X₀/m̄₂ ∝ 1/m̄₂. Power fixed by
-the operator being the sole k⁴ source at a P_X = 0 extremum. (A3)
+the author being the sole k⁴ source at a P_X = 0 extremum. (A3)
 Therefore ν ∝ m̄₂² = (M₂²/M_eff)² — the mutual exclusion needs only
 these two powers. **Any un-kill requires changing a power, i.e.
 changing the theory.**
@@ -401,7 +401,7 @@ medium's own flow varies at l_dB, giving δK ~ M_eff v²/2πħ — 240 H₀
 in dwarfs, ~10⁵ H₀ in MW interiors. A naive m̄₂²(δK)² with these
 values exceeds halo energy budgets by orders — which is a
 NORMALIZATION DIAGNOSIS, not a discovery: for on-shell granule modes
-the operator term is part of the mode energy, capped by equipartition
+the author term is part of the mode energy, capped by equipartition
 at the granule kinetic energy ρv². Cap: ρ_halo v² ~ 10⁻¹⁵ eV⁴;
 cosmic-averaged ≤ 7×10⁻⁸ ρ_c; and — decisive for the verdict — this
 piece is LOCALIZED: it rides with halos as a ~4×10⁻⁷ fractional
@@ -423,11 +423,11 @@ Step A's "two powers" were a symptom, not the cause: the mutual
 exclusion is enforced by exactly one fact, **M₂ is PINNED**
 (M₂⁴ = X₀²P₂ — in k-essence the (δg⁰⁰)² coefficient is a background
 quantity ~X²P_XX fixed by the completion, and the one-term taxonomy
-admits only (δK)² as the added free operator). If M₂ were free, drift
+admits only (δK)² as the added free author). If M₂ were free, drift
 and cores would coexist with no power broken. The reviewer
 interrogated the pin and could not open it. **Registered precisely,
 in the reviewer's words: the kill holds under M₂-pinned (single added
-operator); it is un-killable ONLY by a second independent (δg⁰⁰)²
+author); it is un-killable ONLY by a second independent (δg⁰⁰)²
 term — a MODEL EXTENSION that breaks the one-term taxonomy and owes
 its own three certificates (α_T, foliation, α_B). Within the
 corroborated minimal model, the kill is final.** The turns-12/19

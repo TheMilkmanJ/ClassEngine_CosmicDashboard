@@ -3,11 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Operator-directed (the scale-ladder insight): the medium's expansion-side transactions are
+*Author-directed (the scale-ladder insight): the medium's expansion-side transactions are
 SCREENED in local regimes, but no screen in this model is an absolute zero — so the medium is
 threaded into every scale, and the map of the threading = the QUANTUM section (which
 transactions exist) × the SCREENING section (how much survives each rung). Status: STRUCTURAL
-(candidate), booked def429; companion to the banked TRANSACTION_ATLAS.*
+(candidate), booked internal record 429; companion to the recorded TRANSACTION_ATLAS.*
 
 ## 0. The two axes
 
@@ -20,26 +20,26 @@ transactions exist) × the SCREENING section (how much survives each rung). Stat
    IDENTITY — everything sits inside the medium's coherence (the ambient healing length is
    402 AU: every atom, lab, and planet is DEEP inside one coherent patch).
 
-**The screening axis (how much gets through)** — two banked screens, both finite:
+**The screening axis (how much gets through)** — two recorded screens, both finite:
 - **Reading B's C²-gate**: f = exp(−C²/C_ref²) — the Weyl-metered screen (t350: the
   account-reader; t420: LOAD-BEARING — it is what zeroes today's ε against clock bounds).
   Gaussian: ferociously suppressing, never identically zero.
-- **Vainshtein**: the derivative screen in dense environments — the banked EP clearance
+- **Vainshtein**: the derivative screen in dense environments — the recorded EP clearance
   (5-order margin). Power-law: finite residual by construction.
 
 ## 1. The ladder (rung by rung, with the surviving transactions)
 
 | rung | gravitational channel | trace/dyad channel | quantum substrate |
 |---|---|---|---|
-| horizon / expansion | FULL (the account, the thaw, w=−1) | FULL at z>~50 epochs (ε = 1.24%: H0, Y_p, the lattice) | the winding, the measure |
+| horizon / expansion | FULL (the account, the thaw, w=−1) | FULL at z>~50 epochs (ε = 1.24%: H₀, Y_p, the lattice) | the winding, the measure |
 | voids / IGM today | full (it IS the DM+DE) | **the residual whisper — P-2026-007 (the void m_e-step) + P-024 (the dipole, 6×10⁻⁷)**: the map's live edge | coherence intact |
 | galaxies | full (halos, solitons — thread 1) | Gaussian-dead (C² ≫ C_ref): formally nonzero, practically zero — WHY galaxies are "normal" | granule structure; f_amp's spectral share |
-| solar system | full (ephemerides standard) | Vainshtein-screened: residual ≤ 10⁻⁵ of bounds (the banked margin — a PREDICTION BAND, not a zero) | 402-AU patch: the system sits inside one coherence cell |
-| Earth labs | full | **the ramp's tail: <10⁻⁶ by z~4 (quasar fence), ~0 today (the gate) — clocks safe BY the screen, not by absence** | Josephson/f-sum: the substrate's banked lab receipts |
+| solar system | full (ephemerides standard) | Vainshtein-screened: residual ≤ 10⁻⁵ of bounds (the recorded margin — a PREDICTION BAND, not a zero) | 402-AU patch: the system sits inside one coherence cell |
+| Earth labs | full | **the ramp's tail: <10⁻⁶ by z~4 (quasar fence), ~0 today (the gate) — clocks safe BY the screen, not by absence** | Josephson/f-sum: the substrate's recorded lab receipts |
 | atoms / quantum | full (weight) | the ε-HISTORY written into every mass (the lattice's fossil record) | **the medium IS the arena: the interpretation layer (§12), the neighbor rule, the one phase** |
-| the basement | — | — | the Planck layer (def427: forced by induced-G) |
+| the basement | — | — | the Planck layer (internal record 427: forced by induced-G) |
 
-## 2. The operator's law, stated as physics
+## 2. The author's law, stated as physics
 
 **No screen in this model reaches zero**: the C²-gate is Gaussian (tails), Vainshtein is
 power-law (residuals), and the gravitational and substrate channels are unscreenable in
@@ -60,9 +60,9 @@ weakness is the ADDITION's, not gravity's. The residual addition is the predicti
 
 ## 4. Owed
 
-The rung-by-rung residual NUMBERS beyond the banked ones (the solar-system band's precise
+The rung-by-rung residual NUMBERS beyond the recorded ones (the solar-system band's precise
 value; the galactic tail's formal size; today's clock-drift rate from the gate's tail —
-the LV/clock pricing pass, def373's standing item). The map's structure is banked; its last
+the LV/clock pricing pass, internal record 373's standing item). The map's structure is recorded; its last
 decimal places are the same debts already on the board.
 
 *Screens dim; they do not extinguish. The medium runs one account nothing can leave, one

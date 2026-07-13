@@ -9,11 +9,11 @@ No verdict may be argued after the fact — the rules below were set before the 
 ## Sitting NOW (in-house machines)
 | referee | grades | decision rule | ETA |
 |---|---|---|---|
-| **THE ARBITER** (dyad_ev PolyChord) | P-2026-044 (ΔlnZ bets: operator ≥+5, defender +3±1) | ≥+5 operator wins; +2–4 defender; <+2.5 = the bottom-out clause; autopsy protocol runs regardless | days |
-| the ΛCDM twin (cmp_lcdm_ev) | the ΔlnZ denominator | same stack, same nlive — no comparison without it | after the arbiter |
-| **zon_disp** (paused at 457, resumes post-arbiter) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, FIVE freezes | converged (R−1 < 0.05) center INSIDE 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; ABOVE ~7.8 = the named branches must pay | days after resume |
-| routeD (fresh, resumes) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself | days after resume |
-| conv_desi (queued) | the S8 g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; the 10ε/1-8 candidates stay firewalled | after routeD |
+| **THE REFEREE** (dyad_ev PolyChord) | P-2026-044 (ΔlnZ bets: author ≥+5, defender +3±1) | ≥+5 author wins; +2–4 defender; <+2.5 = the bottom-out clause; autopsy protocol runs regardless | days |
+| the ΛCDM twin (cmp_lcdm_ev) | the ΔlnZ denominator | same stack, same nlive — no comparison without it | after the referee |
+| **zon_disp** (paused at 457, resumes post-referee) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, FIVE freezes | converged (R−1 < 0.05) center INSIDE 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; ABOVE ~7.8 = the named branches must pay | days after resume |
+| the thaw chain (fresh, resumes) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself | days after resume |
+| conv_desi (queued) | the S₈ g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; the 10ε/1-8 candidates stay firewalled | after the thaw chain |
 
 ## THE NEAR SKY (1–2 years)
 | referee | grades | rule |
@@ -21,11 +21,11 @@ No verdict may be argued after the fact — the rules below were set before the 
 | **DESI-era Σm_ν** | the neutrino block's 61.4 meV | robust bound < ~60 meV kills; a measured Σ ≈ 61 crowns; the P-023 internal tension arbitrates itself |
 | DESI DR3 w(z) | w = −1 exactly (the peg) | robust thawing/w ≠ −1 kills the floor |
 | TRGB ladder (P-2026-001) | the no-hedge ladder bet | as registered |
-| the radio arbiter | the D/H fork (the ~1.9σ owned bet) | as registered (t449) |
+| the radio referee | the D/H fork (the ~1.9σ owned bet) | as registered (t449) |
 | THE ZERO-PARAMETER EVIDENCE RUN (live, 2026-07-13) | ε+A_s+n_s+z_on all stated vs ΛCDM free | ΔlnZ verdict; any stated number wrong collapses the model's evidence |
-| the ς sign session (synthetic photometry; queued) | the candle room / the H0 ceiling | ς = −1 kills the candle lever; +1 opens the 73.4 reach |
+| the ς sign session (synthetic photometry; queued) | the candle room / the H₀ ceiling | ς = −1 kills the candle lever; +1 opens the 73.4 reach |
 | DESI forest-BAO (near-term data) | the gate curve at mean density | a clean forest at the curve's prediction kills the candle room |
-| the Eliashberg k-audit + winding-gas C_V (B2/B3, queued) | the A_s closed form | k outside the concordance band [1.360, 1.366] kills sweep 44 |
+| the Eliashberg k-audit + winding-gas C_V (B2/B3, queued) | the A_s closed form | k outside the concordance band [1.360, 1.366] kills entry 44 |
 | BipoSH joint pass (analysis-limited — data exists) | the axis family as ONE axis (comb + dipole + isocurvature + HPA) | any two members robustly misaligned kills the family |
 
 ## THE DECADE

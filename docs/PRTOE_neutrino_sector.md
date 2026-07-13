@@ -1,10 +1,10 @@
-# The Neutrino Sector — Dark Energy Weighs the Neutrino (2026-07-12)
+# The Neutrino Sector — Dark Energy Weighs the Neutrino
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
 > **STATUS: the consolidation of the model's most experimentally-scheduled claim-block.**
-> Components range from banked (the Majoron structure, P-2026-012/020) to EXPLORATORY
+> Components range from recorded (the Majoron structure, P-2026-012/020) to EXPLORATORY
 > (the ρ_inf closure, review-hold). The referees are FUNDED AND UNDER CONSTRUCTION:
 > ton-scale 0νββ (nEXO, LEGEND-1000, CUPID) and next-generation cosmology.
 
@@ -21,7 +21,8 @@
    (P-2026-012). Full disclosure: an earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this one's own pre-registered collision test and is retired in the registry — the ordering claim survived its internal challenger.
 4. **The closure** (EXPLORATORY): the occupancy-corrected ρ_inf derivation reproduces this
    Σ by an independent route (the ρ_Λ ↔ M₂ ↔ 3α triangle) — one mechanism, three
-   quantities co-determined; refereed by an in-house CMB parameter chain ("zon"), currently running.
+   quantities co-determined; refereed by the running α_c chain (an in-house CMB
+   parameter MCMC).
 
 ## 1. Why this block is the model's sharpest neck
 
@@ -36,11 +37,11 @@ model's two neutrino numbers.
 
 ## 2. The mechanism's honest debts
 
-The spurion identification (task #43: ε dimensionless vs μ dimensionful — the dimensional
-bridge un-built); the Majoron's post-hoc flag (un-lifted until a NEW falsifiable
-consequence, #41); the ρ_inf closure's zon-dependence.
+The spurion identification (ε dimensionless vs μ dimensionful — the dimensional bridge
+un-built); the Majoron's post-hoc flag (un-lifted until a new falsifiable consequence
+exists); the ρ_inf closure's dependence on the α_c chain's verdict.
 
-## 3. For the double-beta community, specifically
+## 3. For the double-β community, specifically
 
 The model's effective mass, computed from m₁ = 2.25 meV + normal ordering + NuFIT-class
 mixings (sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.022): the three mass contributions are
@@ -67,8 +68,9 @@ squeezing. This sector may be graded within one to two years by exactly that num
 
 ## Sources
 
-[SNO2002]/[SuperK1998] (oscillations), [Planck2018] (Σm_ν context), internal: PRTOE_MATH_SPINE.md §6, the
-CC file, P-2026-012/020/023, the sixth/seventh sweeps. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+[SNO 2002]/[Super-K 1998] (oscillations), [Planck 2018] (Σm_ν context); internal:
+PRTOE_MATH_SPINE.md §6, [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md),
+P-2026-012/020/023, records 6–7. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## 4. Addendum — the vertex's double duty [estimate-grade]
 

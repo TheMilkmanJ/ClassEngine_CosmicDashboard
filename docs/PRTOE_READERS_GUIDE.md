@@ -34,7 +34,7 @@ translates every recurring house term, and gives the reading order.*
 | the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
 | the gate / screening / the gate curve ε(C) | the environmental switch-off of ε: a smooth function of local clumping (dense regions: ε → 0; voids retain it) |
 | the ledger / books / settlement | conservation laws and decoherence: "books balance" = quantities conserve; "settlement" = decoherence selecting definite outcomes |
-| banked | established within the model at production grade (coded, fit, or derived) and recorded |
+| recorded | established within the model at production grade (coded, fit, or derived) and recorded |
 | the census / census blindness | the counting argument behind c = 9/10: gravity couples to energy content, not particle identity |
 | the pinch / occupancy one | the ground state holds exactly one quantum per coherence cell (sets the vacuum energy scale) |
 | the anchor / the gap equation | the TeV-scale from a BCS-style exponential: M ≈ M_red·e^(−1/kα_c) — the hierarchy mechanism |
@@ -43,10 +43,10 @@ translates every recurring house term, and gives the reading order.*
 | the pour / the snap / the fountain | the bounce: the hot re-start of a cycle (structurally the one realized white-hole-like event) |
 | the melt | reheating above T_c at the crunch: superfluidity ends, friction returns, the winding's protection lapses |
 | ramps vs steps | the house discipline: physical transitions are modeled as smooth (finite-width) functions, never discontinuities, unless protected by quantization/topology |
-| the strike list | the log of the authors' own caught errors (public, in the failures ledger) |
+| the error log | the log of the authors' own caught errors (public, in the failures ledger) |
 | the killer / the kill | the named observation that falsifies a specific claim |
-| fudged / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
-| ς (final sigma) | the one currently-undetermined sign in the H0-ceiling formula (supernova color-channel direction) |
+| estimated / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
+| ς (final σ) | the one currently-undetermined sign in the H₀-ceiling formula (supernova color-channel direction) |
 
 ## 3. The reading order
 
@@ -64,7 +64,7 @@ translates every recurring house term, and gives the reading order.*
   into the current run by explicit decision, with the risk documented).
 - Several numerical landings are estimate-grade with O(1) honesty bands — statuses are
   stamped where they apply.
-- The candle-room/H0-ceiling story is conditional on one screening reading (B) and one
+- The candle-room/H₀-ceiling story is conditional on one screening reading (B) and one
   uncomputed sign (ς).
-- The referee standing on the deepest claim (the medium's reality) is ~15–16% per the
-  internal adversarial review — the authors track it honestly.
+- The deepest claim (the medium's reality) remains an open assumption — the corpus
+  names it as such and tracks its exposure honestly.

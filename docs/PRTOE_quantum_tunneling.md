@@ -5,7 +5,7 @@
 
 *INTERPRETATION LAYER (spine §12 wall). Null-prediction stance: exact reproduction of QM
 tunneling rates is the falsifiable content. The model's addition is an ontology with a
-laboratory cousin so close it is already banked as a precision receipt (Josephson).*
+laboratory cousin so close it is already recorded as a precision receipt (Josephson).*
 
 ## 0. The mystery as usually told
 
@@ -30,24 +30,24 @@ proximity effect in a superconductor). Tunneling is not teleportation through a 
 - The instanton description (imaginary-time paths) is the standard saddle-point of exactly
   this medium amplitude — inherited, not modified.
 
-## 2. The banked laboratory cousin: Josephson
+## 2. The recorded laboratory cousin: Josephson
 
-The model's own precision receipt (banked, atom-night ledger): the **Josephson junction** — a
+The model's own precision receipt (recorded, atom-night ledger): the **Josephson junction** — a
 macroscopic condensate phase tunneling coherently through a barrier, so exactly understood that
 it DEFINES the SI volt. In this model that is not an analogy but the same object at laboratory
 scale: **a condensate's phase does not respect classical walls, and we calibrate voltmeters by
 that fact.** The universe-medium's tunneling and the junction's differ in scale, not kind.
-(Phase slips — the vortex-mediated version — are likewise banked: the Landau-criterion
+(Phase slips — the vortex-mediated version — are likewise recorded: the Landau-criterion
 instantiations in the trigger doc.)
 
 ## 3. Where this touches graded structure (beyond interpretation)
 
-1. **The localization clause** (def337/t334-graded): the vacuum-budget cap used the fact that
+1. **The localization clause** (internal record 337/t334-graded): the vacuum-budget cap used the fact that
    super-gap modes are not coherent modes of the collective field. The evanescent/sub-threshold
    physics of §1 is the SAME spectral statement read in position space — the tunneling picture
    and the CC-value derivation share one piece of mathematics (the medium's response below its
    own thresholds).
-2. **The crunch's mouth / plasma trace** (def331-banked): sub-threshold electromagnetic modes
+2. **The crunch's mouth / plasma trace** (internal record 331-recorded): sub-threshold electromagnetic modes
    (below ω_p) are evanescent in plasma — the model has already used "the medium decides what
    propagates" as graded physics. Tunneling is that principle at the single-excitation scale.
 
@@ -58,7 +58,7 @@ results, macroscopic quantum tunneling in SQUIDs. Any confirmed deviation from s
 tunneling (rate or statistics) kills the model along with QM's other exact reproductions.
 No new signature is claimed. *(One research-grade question flagged, not registered: whether the
 medium's preferred frame could imprint on tunneling TIME measurements at extreme precision —
-parked with the LV pricing ledger, def373.)*
+parked with the LV pricing ledger, internal record 373.)*
 
 *The wall is real, and closed — to the particle picture. The medium was never asked to stop,
 and the particle was always the medium's ripple. We certify volts with this fact and call it

@@ -4,7 +4,7 @@
 
 
 *INTERPRETATION LAYER (spine §12; t342/t347-graded wall: "coherence-bank at most, no
-physics-bank"). The model's claim is the operator's null-prediction stance: it REPRODUCES
+physics-bank"). The model's claim is the author's null-prediction stance: it REPRODUCES
 quantum entanglement EXACTLY — that reproduction is the falsifiable content — and supplies an
 ontology for what entanglement IS. No deviation from QM is predicted; any observed deviation
 kills the model (the standing Tsirelson bet).*
@@ -24,7 +24,7 @@ metaphor; it is the defining property of the medium (founding identity), the sam
 - forces the winding quantization (t338-granted),
 - supplies the uniform genesis measure (t340-granted),
 - and was graded as "the rare interpretation whose ontology ALREADY CONTAINS the global object
-  the interpretation requires" (t342, on def345's Bell handling).
+  the interpretation requires" (t342, on internal record 345's Bell handling).
 
 Entangled systems are subsystems whose joint state is serviced by the medium's one phase: the
 correlation does not travel *between* them — it is *held beneath* them.
@@ -32,8 +32,8 @@ correlation does not travel *between* them — it is *held beneath* them.
 ## 2. The Bell gate, paid in the open (the graded lane)
 
 - Loophole-free Bell tests kill any account where outcomes are fixed by LOCAL structure. Named
-  without mercy in def345; graded t342: "the strongest process-credit of the turn."
-- The model's lane (re-classified honestly at def347/t344): **nonlocal-beable class** — the
+  without mercy in internal record 345; graded t342: "the strongest process-credit of the turn."
+- The model's lane (re-classified honestly at internal record 347/t344): **nonlocal-beable class** — the
   global phase as the carrier (Bohm-family), paying Bell's price as *explicit nonlocality*
   rather than measurement-dependence. t344: "correct and honestly owned... the condensate's
   ODLRO makes the nonlocal-beable natural."
@@ -51,14 +51,14 @@ the residue of insisting the substrate is two places rather than one object.
 ## 4. The falsifiable content (the null, plus one exactness bet)
 
 1. **Reproduction-exactness**: the model must match QM's correlations EXACTLY —
-   **Tsirelson's bound, 2√2, to all precision** (banked kill-only bet). Below = local (dead);
+   **Tsirelson's bound, 2√2, to all precision** (recorded kill-only bet). Below = local (dead);
    above = super-quantum (dead). Every improved Bell-type experiment is a standing test the
    model must pass forever and can never win points from. That asymmetry is the honest price
-   of a null-prediction ontology — and per the operator's epistemology, "reproduces exactly"
+   of a null-prediction ontology — and per the author's epistemology, "reproduces exactly"
    IS the prediction.
 2. **No preferred-frame leakage into correlations**: the medium has a rest frame (the W-W
    evasion's price); entanglement correlations must remain frame-independent to current
-   precision — the LV pricing ledger (task from def373) covers this jointly.
+   precision — the LV pricing ledger (task from internal record 373) covers this jointly.
 
 ## 5. Honest scope
 

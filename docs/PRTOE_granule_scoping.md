@@ -1,4 +1,4 @@
-# The Granule-Meter Scoping Study & The Mass Pin (2026-07-07, operator's order)
+# The Granule-Meter Scoping Study & The Mass Pin (2026-07-07, author's order)
 
 > **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 
@@ -67,8 +67,8 @@ core-halo normalization vs redshift/halo-age.
 
 ## 4. The mass pin: literature triangulation + a reconciliation hypothesis
 
-Band mapping (Schive at M_h = 10⁹ M☉): m = 1e-21 → r_c = 160 pc;
-2e-21 → 80 pc; 3e-21 → 53 pc — the V2 window [60, 200] pc IS the
+Band mapping (Schive at M_h = 10⁹ M☉): m = 1×10⁻²¹ → r_c = 160 pc;
+2×10⁻²¹ → 80 pc; 3×10⁻²¹ → 53 pc — the V2 window [60, 200] pc IS the
 audited band, consistently.
 
 Literature pulled at booking:
@@ -96,13 +96,13 @@ Pinning Rule applies and this function is not yet pinned.
 
 **PROVISIONAL PIN: m ≈ 1–2×10⁻²¹ eV** — bottom held by Hayashi+ (most
 UFDs > 10⁻²¹) and the audit's A1; top disfavored softly by the same
-UFD core sizes (53 pc cores at 3e-21 sit below most measured
+UFD core sizes (53 pc cores at 3×10⁻²¹ sit below most measured
 half-light radii) and watched by M87*. Point estimate honesty: this is
 a lean, not a measurement; the joint (m, f_rot) population fit is the
 measurement.
 
 **Superradiance graduation status: NOT GRADUATED.** The provisional
-lean (1–2e-21) sits below the M87* exclusion floor (2.9e-21), so the
+lean (1–2×10⁻²¹) sits below the M87* exclusion floor (2.9×10⁻²¹), so the
 free-vs-condensate discriminator remains live-IF-heavy. It graduates
 only if the joint fit lands the mass in the top third of the band.
 
@@ -145,40 +145,40 @@ to an evidence number.
 ## GRANULE-POWER FORMULA CONFIRMED (Tier-3 partial, 2026-07-07)
 
 Ran the statistical core of the granule sim: two INCOHERENT wave-DM fields
-(psi=particle, chi=antiparticle), each a Gaussian speckle field, total density
-rho = |psi|^2 + |chi|^2. Measured granule power S = Var(rho)/mean(rho)^2 vs the
-predicted p^4+q^4 = (1+f_rot^2)/2.
+(ψ=particle, χ=antiparticle), each a Gaussian speckle field, total density
+ρ = |ψ|² + |χ|². Measured granule power S = Var(ρ)/mean(ρ)² vs the
+predicted p⁴+q⁴ = (1+f_rot²)/2.
 
-RESULT (N=2e6 cells): S = (1+f_rot^2)/2 CONFIRMED to <1% at f_rot = 0, 0.4, 0.8,
+RESULT (N=2×10⁶ cells): S = (1+f_rot²)/2 CONFIRMED to <1% at f_rot = 0, 0.4, 0.8,
 1.0. (An initial 10% offset at N=400 was heavy-tail under-sampling, resolved by
-high statistics.) So the epsilon-meter's LOAD-BEARING number is verified: the
-dice-median f_rot~0.4 (f_amp~0.6) gives S~0.58 -> granule heating suppressed ~40%
+high statistics.) So the ε-meter's LOAD-BEARING number is verified: the
+dice-median f_rot~0.4 (f_amp~0.6) gives S~0.58 → granule heating suppressed ~40%
 vs free FDM. This is the number dwarf-heating / stellar-stream data would test.
 
 STILL OWED (the bigger Tier-3 piece, needs a real SP integrator, not statistics):
   - full Schrodinger-Poisson DYNAMICS (self-gravity, soliton formation);
-  - the psi/chi CONDENSATION LAG (Levkov rate, Room 5 chi-lag) -- needs time
+  - the ψ/χ CONDENSATION LAG (Levkov rate, Room 5 χ-lag) -- needs time
     evolution to produce the redshift-dependent core-halo scatter pattern;
-  - mapping S -> actual dwarf-heating rate and comparison to real SPARC/stream data.
+  - mapping S → actual dwarf-heating rate and comparison to real SPARC/stream data.
 Status: statistical core DONE (S-formula confirmed); dynamical sim + data
 confrontation NOT started (infrastructure).
 
 ## CHI-LAG: analytic scaling confirmed; dynamical sim NOT achieved in-session (2026-07-07)
 
 Attempted a minimal 3D two-field Schrodinger-Poisson sim to demonstrate the
-psi/chi condensation lag DYNAMICALLY. HONEST RESULT: the minimal version (N=32-48,
-<=1500 steps) did NOT cleanly condense -- initial contrast was already ~10-13 and
+ψ/χ condensation lag DYNAMICALLY. HONEST RESULT: the minimal version (N=32-48,
+≤1500 steps) did NOT cleanly condense -- initial contrast was already ~10-13 and
 did not grow over the available steps (gravitational Bose-star formation takes many
 dynamical times; needs careful ICs far from condensation, a bigger grid, and long
 runs with convergence testing). Reported as a failed minimal attempt, not dressed up.
 
-What IS solid: the chi-lag SCALING is analytic (Levkov condensation tau ~ 1/rho^2):
-  tau_chi/tau_psi = (p^2/q^2)^2
-  f_rot=0.4 -> 5.4x ; f_rot=0.54 -> 11.2x (matches Room-5 booked ~11x) ; f_rot=0.67 -> 26x.
+What IS solid: the χ-lag SCALING is analytic (Levkov condensation τ ~ 1/ρ²):
+  tau_chi/tau_psi = (p²/q²)²
+  f_rot=0.4 → 5.4x ; f_rot=0.54 → 11.2x (matches Room-5 booked ~11x) ; f_rot=0.67 → 26x.
 
 TIER-3 HONEST STATE:
-  - S = (1+f_rot^2)/2 (granule power): CONFIRMED numerically (<1%).
-  - chi-lag = (p^2/q^2)^2: CONFIRMED analytically (Levkov scaling); NOT demonstrated
+  - S = (1+f_rot²)/2 (granule power): CONFIRMED numerically (<1%).
+  - χ-lag = (p²/q²)²: CONFIRMED analytically (Levkov scaling); NOT demonstrated
     dynamically (minimal SP sim failed to condense -- real campaign owed).
   - core-halo SCATTER PATTERN (the observable prediction) + dwarf/stream DATA
     confrontation: NOT done, needs a real SP sim campaign (PyUltraLight/UltraDark-

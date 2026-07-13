@@ -10,7 +10,7 @@ The field's standard answer is the axion. This model's answer is DIFFERENT IN KI
 
 ## 1. The model is constitutionally silent — and says so in advance
 
-The scope theorem (banked): the medium is EM-neutral and universality-walled — it carries
+The scope theorem (recorded): the medium is EM-neutral and universality-walled — it carries
 no account in the strong sector's phases and cannot distinguish quark flavors. θ̄ is
 therefore OUTSIDE the model's jurisdiction, permanently: PRTOE neither explains nor
 touches it. **The silence is load-bearing and falsifiable**: if any future version of the

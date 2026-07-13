@@ -3,10 +3,12 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The depth-audit's find (def471): SR is the model's DEEPEST replacement claim — fundamental
+*The depth-audit's find (internal record 471): SR is the model's DEEPEST replacement claim — fundamental
 Lorentz symmetry → EMERGENT, IR symmetry of the medium — and it never had its own file while
 carrying the whole Achilles' heel (M3). Filed now, at its graded sizes. Status: STRUCTURAL,
-riding the t366/t408/t422 rulings.*
+riding the t366/t408/t422 rulings. Companion: [PRTOE_inertia.md](PRTOE_inertia.md) — the
+dynamical half (zero drag below the cone; this file pays the kinematic objection, that one
+pays the drag objection).*
 
 ## 0. What SR is, in this model
 
@@ -29,12 +31,12 @@ IS the cosmological fluid.)
 Emergent symmetries have residuals; the data are merciless:
 - matter-sector LV (clock-comparison, Michelson-Morley-class): bounds at 10⁻¹⁷–10⁻²⁰;
 - photon-sector: dispersion/GRB timing (the photon rides cleanly in-model — EM-neutral medium —
-  so photon-LV is naturally tiny: a structural pass, flagged at def433's class);
+  so photon-LV is naturally tiny: a structural pass, flagged at internal record 433's class);
 - gravity-sector: GW speed = c to 10⁻¹⁵ (GW170817) — the emergent metric must serve GWs and
   light identically: automatic if both ride one metric, a CHECK not a freebie.
-**The LV pricing pass (def373's ledger) is this file's one debt — shared with M3.** The
+**The LV pricing pass (internal record 373's ledger) is this file's one debt — shared with M3.** The
 model's residuals live where the medium's microstructure leaks: suppressed by (E/Λ_micro)ⁿ
-with Λ_micro now FORCED to Planck (def427) — which is exactly why the bounds are survivable:
+with Λ_micro now FORCED to Planck (internal record 427) — which is exactly why the bounds are survivable:
 Planck-suppressed LV at 10⁻¹⁷-class energy ratios is generically below current reach. (The
 quantitative pass: owed, M3.)
 

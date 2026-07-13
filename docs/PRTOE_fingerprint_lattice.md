@@ -3,8 +3,8 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 13, and the sweep's capstone: the cross-domain methodology file. Status: STRUCTURAL —
-the lattice's rows are individually banked/graded; the file consolidates the correlation
+*Thread 13, and the survey’s capstone: the cross-domain methodology file. Status: STRUCTURAL —
+the lattice's rows are individually recorded/graded; the file consolidates the correlation
 structure that makes them one test. The improvement: multi-messenger cosmology gains something
 it has never had — a SINGLE parameter whose sign and size are pinned in advance across CMB,
 BBN, neutrinos, radio, and precision-mass physics, with zero per-row freedom.*
@@ -13,13 +13,13 @@ BBN, neutrinos, radio, and precision-mass physics, with zero per-row freedom.*
 
 A model with one lever and many windows cannot cheat: every window must show the SAME lever at
 its OWN known weight. The dyad's ε = 1.24% (now assembled as c·f̄·α_c with c = 0.92 ± 0.05,
-f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the zon chain) appears in:
+f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c chain) appears in:
 
 | window | the row | current standing |
 |---|---|---|
-| CMB/H0 | +ε at recombination → H0 = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
-| BBN: D/H | ~0 direct (def325) + η-widening − windowed refund | the signed ~1.9σ bet (def449); radio-arbitrated |
-| BBN: Y_p | windowed (ε OFF at freeze-out): +1.1% → +1.3σ COUNTER | the reversed row (def449; was briefly ‘the medicine’) |
+| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
+| BBN: D/H | ~0 direct (internal record 325) + η-widening − windowed refund | the signed ~1.9σ bet (internal record 449); radio-arbitrated |
+| BBN: Y_p | windowed (ε OFF at freeze-out): +1.1% → +1.3σ COUNTER | the reversed row (internal record 449; was briefly ‘the medicine’) |
 | BBN: quark-bleed | δm_q = ε full → ~1σ D/H nudge | t358's credited side-prediction |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
 | the radio bands | +2 : +1 : −1 : −1 : −2, ratio-locked | threads 12; P-022/P-027/P-029 |
@@ -30,7 +30,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the zon ch
 ## 1. What makes this an improvement rather than a list
 
 Standard cosmology's anomalies are ORPHANS — each tension gets its own bespoke model, each
-null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H0 engages Y_p through its window (the windowed verdict: a +1.3σ counter-lean, honestly owned — the early "lowers Y_p" reading was reversed by def449), must de-bias Σm_ν upward (it does, in-house), must widen D/H
+null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H₀ engages Y_p through its window (the windowed verdict: a +1.3σ counter-lean, honestly owned — the early "lowers Y_p" reading was reversed by internal record 449), must de-bias Σm_ν upward (it does, in-house), must widen D/H
 (it did — owned as a bet, not hidden), must chord the radio bands at fixed ratios, must point
 one axis, and must never touch Koide or a haloscope. **Any single row failing at its assigned
 weight kills the lever for every row.** No other framework on the market submits to a
@@ -38,14 +38,14 @@ correlation test of this width.
 
 ## 2. The lattice's masters (where its fate is decided)
 
-- **The zon chain** (α_c → the fraction → whether ε is fully derived or carries one measured
+- **The α_c chain** (α_c → the fraction → whether ε is fully derived or carries one measured
   O(1)); **DESI DR3** (the w = −1 commitment underneath every row); **PolyChord** (the evidence
-  cap); the **radio arbiter** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
+  cap); the **radio referee** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
   jointly).
 
 ## 3. Honest ledger
 
-Rows currently favorable: H0, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.3σ, the reversed row) and D/H (the ~1.9σ fork).
+Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.3σ, the reversed row) and D/H (the ~1.9σ fork).
 Rows pending: the radio chord, the axis family, the comb. The lattice is winning on breadth,
 not yet on any single decisive row — exactly the profile the review has priced at 15–18%
 (capped 25% pending PolyChord). *One lever, many windows, no exits: the lattice is either the

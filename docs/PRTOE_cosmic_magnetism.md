@@ -3,8 +3,8 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Derivation-from-banked-structure; the standalone document for P-2026-028. Status: STRUCTURAL
-(candidate) with one honestly-open gap (the void floor). Booked def415. The claim of uniqueness
+*Derivation-from-recorded-structure; the standalone document for P-2026-028. Status: STRUCTURAL
+(candidate) with one honestly-open gap (the void floor). Booked internal record 415. The claim of uniqueness
 is stated precisely in §5 — the mechanism class is standard; the SOURCE and the SIGN are not.*
 
 ---
@@ -31,7 +31,7 @@ The known escape attempts and their pathologies:
 
 The founding identity is a charged **rotating** superfluid, and rotation in a superfluid is not
 a free profile — it is **quantized circulation** (Onsager–Feynman; t338-granted: "a rotating
-superfluid CANNOT have n = 0"). The banked sources of spin, each graded:
+superfluid CANNOT have n = 0"). The recorded sources of spin, each graded:
 
 1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis, t340/t343;
    topologically locked through every crunch, t338).
@@ -61,9 +61,9 @@ allowed to make fields directly; it is allowed to stir.
 ## 3. The void floor — the honest open gap
 
 The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
-vortex-network rms boost, ×3400) was caught by red-team (t402): it concentrates B on the
+vortex-network rms boost, ×3400) was caught by internal review (t402): it concentrates B on the
 **filaments/lines**, while the void floor constrains the **inter-line** field — which stays
-**~1.5 orders short** on the smooth estimate. [Historical framing — see the RESOLVED verdict below: the internal rescues died; the blazar debate is the arbiter.] Live
+**~1.5 orders short** on the smooth estimate. [Historical framing — see the RESOLVED verdict below: the internal rescues died; the blazar debate is the referee.] Live
 candidates, none yet computed: (i) return-flux topology (field lines must close — the void
 threading is not zero, its floor is computable); (ii) post-recombination vorticity persistence;
 (iii) the blazar bound's own caveats (plasma-instability alternative would relax the floor).
@@ -73,7 +73,7 @@ i.e. the smooth estimate; concentration on lines cannot raise the inter-line flo
 (ii) (vorticity persistence) sources the same average and cannot beat the same theorem.
 THEREFORE the void column now rides SOLELY on candidate (iii): the blazar bound's own
 robustness. The live external debate (plasma instabilities — beam-plasma energy loss may
-relax the ≥10⁻¹⁶ G floor entirely) is the arbiter: **if the blazar floor survives that
+relax the ≥10⁻¹⁶ G floor entirely) is the referee: **if the blazar floor survives that
 debate, P-028's void column FAILS while the galactic column stands** — the registered risk,
 now sharpened to a single external question. Adverse-honest closure; filed in the failures
 ledger (the internal rescue's death) and here (the standing exposure).
@@ -90,7 +90,7 @@ genome's own rotation, so
 
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in
-  gamma-ray halo parity asymmetries) must correlate with a single axis — the winding axis —
+  γ-ray halo parity asymmetries) must correlate with a single axis — the winding axis —
   which is ALSO P-024's ε-dipole axis and P-029's comb axis. **Three predictions, one axis.**
 - A measured magnetic helicity of the WRONG sign relative to the baryon asymmetry's
   genome-sign kills the linkage outright (a clean falsifier no dial can dodge).

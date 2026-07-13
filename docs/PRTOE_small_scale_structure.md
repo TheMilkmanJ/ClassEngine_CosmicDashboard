@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: ASSEMBLY of banked results** (the galactic-atoms thread + the GC certificates);
+> **STATUS: ASSEMBLY of recorded results** (the galactic-atoms thread + the GC certificates);
 > nothing new claimed here beyond the consolidation.
 
 ## 0. The problems
@@ -18,7 +18,7 @@ DERIVED from the same EFT parameter that prices dark energy:
 $$r_c \sim M_{\rm Pl}/M_2^2 \approx 0.87\ \text{kpc}$$
 — the ghost-condensate braiding scale (the ledger's early certificates), which COINCIDES
 with the soliton core scale because both are set by the same condensate parameters: **the
-model's one exotic operator writes "kpc" in two independent places** (the banked
+model's one exotic author writes "kpc" in two independent places** (the recorded
 "coincidence on the receipt"). Dwarf cores at ~kpc are not a patch; they are the
 substrate's grain.
 
@@ -29,7 +29,7 @@ referee). CDM predicts subhalos all the way down; the fluid forbids them.
 
 ## 3. Status and kills
 The core scale rides M₂ — now triangulated with dark energy and 3α (the CC file), so the
-SAME zon verdict that grades the vacuum grades the dwarf cores. Kills: dwarf cores
+SAME the α_c MCMC verdict that grades the vacuum grades the dwarf cores. Kills: dwarf cores
 robustly below ~0.3 kpc or absent where the fluid demands them; confirmed dark
 substructure below the floor; M₂'s triangle failing.
 

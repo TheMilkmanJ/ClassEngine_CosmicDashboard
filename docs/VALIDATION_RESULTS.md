@@ -27,7 +27,7 @@
 ## Task 2.3 – Stability Sweep
 
 **Parameters Tested**:
-- ξ ∈ {1e-7, 5e-6, 1e-5}
+- ξ ∈ {1×10⁻⁷, 5×10⁻⁶, 1×10⁻⁵}
 - ζ ∈ {0.1, 1.0, 3.0}
 
 **Current Status**: Script created. Needs to be run with real background data.
@@ -35,7 +35,7 @@
 ## Task 3.1-3.4 – Stability Mapping
 
 **Parameter Grid**:
-- ξ ∈ [1e-7, 1.2e-5] (8 points, log-spaced)
+- ξ ∈ [1×10⁻⁷, 1.2×10⁻⁵] (8 points, log-spaced)
 - ζ ∈ [0.01, 5.0] (8 points)
 - φ_c ∈ [-3.0, 3.0] (7 points)
 - Δφ ∈ [0.05, 2.0] (6 points)
@@ -66,7 +66,7 @@
 ### Parameter Reading
 - ✅ `use_prtoe` flag properly read from input
 - ✅ All PRTOE parameters (ξ, ζ, φ_c, Δφ, V0, m, λ, φ₀) properly read
-- ✅ Parameter validation with stability bounds (ξ ∈ [1e-7, 1.2e-5])
+- ✅ Parameter validation with stability bounds (ξ ∈ [1×10⁻⁷, 1.2×10⁻⁵])
 
 ### Validation Scripts
 - ✅ `prtoe_dhost_checks_v2.py`: Enhanced with tensor speed check
@@ -99,7 +99,7 @@
 ## Next Actions
 
 1. ✅ Connect validation scripts to real CLASS output
-2. ⏳ Run null limit test with ξ = 1e-10 using real CLASS background
+2. ⏳ Run null limit test with ξ = 1×10⁻¹⁰ using real CLASS background
 3. ⏳ Expand stability sweep with real CLASS data
 4. ⏳ Update this document with quantitative results
 5. ⏳ Test with actual PRTOE runs and verify numerical stability

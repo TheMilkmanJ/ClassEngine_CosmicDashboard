@@ -46,7 +46,7 @@ $$ V(r) = \mp\frac{\alpha_\chi}{r}e^{-m_\phi r}, \qquad \alpha_\chi\equiv\frac{g
 particle–antiparticle pairs; the sign choice doesn't change the scoping
 conclusions below). This is the single new vertex — one new field, one new
 coupling — layered on top of whichever background cosmology already closed
-out H0 (v4.1's ΛCDM-like high-z behavior, or plain ΛCDM; this piece is
+out H₀ (v4.1's ΛCDM-like high-z behavior, or plain ΛCDM; this piece is
 **cosmologically silent by construction**, see §3).
 
 ## 2. Cross section — three regimes, quoted directly from the source
@@ -80,7 +80,7 @@ point turns out to be needed to fit data.
 
 The interaction rate is $\Gamma \sim n\sigma_T v$, with $n$ the **local**
 number density. At the cosmic mean density at any redshift $z\lesssim
-z_{\rm rec}$, $n\bar{}$ is low enough that $\Gamma\times(\text{Hubble time})\ll1$
+z_{\rm rec}$, $n\bar{}$ is low enough that $\Γ\times(\text{Hubble time})\ll1$
 for any $(\sigma_T/m_\chi)$ in the observationally relevant range (this is
 the same statement as "DM is collisionless on cosmological scales," standard
 and not PRTOE-specific) — so this sector contributes **nothing** to the
@@ -120,8 +120,8 @@ not a fit to any actual rotation-curve or cluster dataset yet.
 
 ## 5. What this is *not*
 
-- **Not an H0 fix.** By design (§3) this sector is invisible to the
-  background/CMB/BAO physics entirely — whatever closes H0 (currently
+- **Not an H₀ fix.** By design (§3) this sector is invisible to the
+  background/CMB/BAO physics entirely — whatever closes H₀ (currently
   nothing, per v4.0/v4.1's tested verdict) has to be a separate mechanism
   layered underneath. This is a σ8/small-scale-structure-only lever.
 - **Not a single-fluid/single-field "one thing."** This reintroduces a

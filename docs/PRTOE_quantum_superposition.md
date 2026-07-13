@@ -31,13 +31,13 @@ monitoring survive — **pointer states** (einselection / quantum Darwinism; t34
 IS textbook decoherence — the model reinvented quantum Darwinism in its own words"). In a
 condensate whose interactions are local-in-position, the survivors are position-like — which
 is what we observe. The "collapse" of textbooks is the thermodynamic side: the record written
-into the environment pays Landauer's fee (the banked transaction ledger) — **a measurement is
+into the environment pays Landauer's fee (the recorded transaction ledger) — **a measurement is
 a billed transaction, and the bill is why it has a direction.**
 
 ## 3. The outcome question — the one legal move, and its price (graded)
 
 Decoherence gives the basis and the statistics; WHICH outcome occurs is the residual question.
-The model's lane, graded across def345/def347 (t342/t344):
+The model's lane, graded across internal record 345/internal record 347 (t342/t344):
 - outcomes are consistent with selection by the medium's **global phase** (the nonlocal beable
   — the same ODLRO object as the entanglement document), through the triple co-link (local
   structure, own structure, the handoff budget);
@@ -48,7 +48,7 @@ The model's lane, graded across def345/def347 (t342/t344):
 
 ## 4. Where the last randomness lives (the graded boundary of determinism)
 
-The radio night sharpened the operator's 25% to a point (t340-graded): after the vacuum start
+The radio night sharpened the author's 25% to a point (t340-graded): after the vacuum start
 (unique — no initial draw), the uniform measure (symmetry-forced), and the determined averages,
 the model's irreducible randomness collapsed to **one quantum integer and its sign** — the
 Kibble winding draw. Whether even that is co-link-selected is the model's deepest open

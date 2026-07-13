@@ -7,8 +7,8 @@
 Impossibility claims are claims: each is labeled with its grade, cites the record it
 inherits (nothing here is claimed as novel where the literature owns it), and names its
 killer. Statuses: [GRAMMAR] = the model's native re-derivation of a known result;
-[PRICED] = quantitative, reusing a banked computed number (fudge-grade, not
-zon-verified). Companion: [PRTOE_white_holes.md](PRTOE_white_holes.md) (the arrow ban and
+[PRICED] = quantitative, reusing a recorded computed number (estimate-grade, not
+MCMC-verified). Companion: [PRTOE_white_holes.md](PRTOE_white_holes.md) (the arrow ban and
 the one exception). Sources in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) §11.*
 
 ---
@@ -26,7 +26,7 @@ timescale; the clearinghouse extends no eternal credit. The medium's bulk sector
 supply the overdraft at all: λ > 0 (from real c_s = √α_c), positive-pressure excitations
 only.
 
-**THE NO-OVERDRAFT LAW (the operator's form, adopted):** a throat doesn't just need
+**THE NO-OVERDRAFT LAW (the author's form, adopted):** a throat doesn't just need
 credit — it needs the zero-point itself to owe money. The vacuum is the FLOOR ACCOUNT
 (occupancy pinned at exactly one per cell — the pinch); drawing below it is an overdraft,
 and the solvency law names who holds overdraft privileges: **no one.** The whole ban in
@@ -37,8 +37,8 @@ the ghost condensate, the arrow-giver (⟨θ̇⟩ ≠ 0 background [ArkaniHamed2
 excitation budget at the anchor surface was computed in the branch-DOS pass: **17 orders
 of magnitude suppressed**. So the model's wormhole statement is sharper than the generic
 one: *the only exotic matter this universe stocks is delivered at ~10⁻¹⁷ of any
-engineering need.* The hardware store exists and it is empty. [PRICED — reuses the banked
-branch-DOS number; fudge-grade.]
+engineering need.* The hardware store exists and it is empty. [PRICED — reuses the recorded
+branch-DOS number; estimate-grade.]
 
 ## 2. Warp drives and closed timelike curves — SAME BILLS [GRAMMAR]
 

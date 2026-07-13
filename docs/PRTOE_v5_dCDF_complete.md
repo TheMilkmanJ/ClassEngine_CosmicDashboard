@@ -1,6 +1,6 @@
 # dCDF v5 — The Complete Model: Physics, Math, Implementation, Results
 
-> **HISTORICAL RESULTS RECORD (banner added 2026-07-13):** the July-6 refit tables below are the frozen record of that fit — numbers herein (H0 = 69.70, the chi2 tables) are that era's; the current production state and its live zero-parameter test: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) / [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+> **HISTORICAL RESULTS RECORD (banner added 2026-07-13):** the July-6 refit tables below are the frozen record of that fit — numbers herein (H₀ = 69.70, the χ² tables) are that era's; the current production state and its live zero-parameter test: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) / [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 
 > **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 
@@ -16,7 +16,7 @@ as a pair; those remain the historical record of how v4 → v5 happened.
 Companion documents: `PRTOE_PREREGISTERED_PREDICTIONS.md` (the no-hedge
 registry, P-2026-001 through -005), `PRTOE_TRANSACTION_ATLAS.md` (every
 derived fixed relation, admission rule: derived-only, falsified
-entry-by-entry), `the internal adversarial-review record (private; turn-tags cited for provenance)` (the adversarial red-team dialogue,
+entry-by-entry), `the internal adversarial-review record (private; turn-tags cited for provenance)` (the adversarial internal review dialogue,
 14 turns, formally closed 2026-07-06 with verdict "not proven —
 survived"; the four-verdict calculation of §11 is the agreed re-entry
 point).
@@ -46,19 +46,19 @@ lensing, BAO 6dF+MGS+DR12, Pantheon+SHOES):
 
 | point | χ² total | Δ vs ΛCDM |
 |---|---|---|
-| **Planck+BAO+SN stack:** ΛCDM anchor (H0=67.4) | 2515.45 | — |
-| dCDF best fit (H0=70.40, ξ=0.403) | 2496.24 | −19.2 |
+| **Planck+BAO+SN stack:** ΛCDM anchor (H₀=67.4) | 2515.45 | — |
+| dCDF best fit (H₀=70.40, ξ=0.403) | 2496.24 | −19.2 |
 | **Joint stack (+ ACT DR6 + SPT-3G):** ΛCDM frozen / refitting | 2817.9 → ~2810 | — |
-| dCDF joint refit (**H0=69.05, ξ=0.142**, n_s=0.979) | **2809.81** | ≈ tie |
-| **THE DYAD** (2026-07-06 BBN-priced refit): fluid + m_e=1.01, **ξ EXECUTED → 0.012** | raw **2798.36**, honest (incl. BBN) **2803.3** at **H0 = 69.70** | **−6.5 to −8.5** vs refit ΛCDM+BBN (band until the twin completes) |
+| dCDF joint refit (**H₀=69.05, ξ=0.142**, n_s=0.979) | **2809.81** | ≈ tie |
+| **THE DYAD** (2026-07-06 BBN-priced refit): fluid + m_e=1.01, **ξ EXECUTED → 0.012** | raw **2798.36**, honest (incl. BBN) **2803.3** at **H₀ = 69.70** | **−6.5 to −8.5** vs refit ΛCDM+BBN (band until the twin completes) |
 
 **The dyad is the current model**: under the full self-consistent stack
 (Planck+ACT+SPT+BAO+SN+BBN) the optimizer executed ξ_Neff entirely —
-the H0 story is carried by recombination timing alone, at +1 effective
+the H₀ story is carried by recombination timing alone, at +1 effective
 parameter, with plik *better than the ΛCDM anchor's own* (586.5 vs
-586.9) and both tensions eased (H0 69.7 = the TRGB ladder value;
-S8 ≈ 0.823). **Two riders belong in this headline, not in footnotes**
-(red-team turn 9): (i) the joint advantage is quoted as a band —
+586.9) and both tensions eased (H₀ 69.7 = the TRGB ladder value;
+S₈ ≈ 0.823). **Two riders belong in this headline, not in footnotes**
+(internal review turn 9): (i) the joint advantage is quoted as a band —
 its ΛCDM+BBN baseline was mid-refit when measured; (ii) the champion
 carries a **−2.0σ deuterium scar** (D/H = 2.468×10⁻⁵, χ² 3.85): the
 model holds ω_b for the CMB and underfeeds deuterium — a residual it
@@ -89,25 +89,25 @@ radiation, baryons, one dark medium, one rules amendment. See
 P-2026-001 for the no-hedge prediction this commits the model to.
 
 **The joint refit happened (2026-07-06) and landed exactly on the
-predicted ridge point** — H0 = 69.05, ξ = 0.142 vs the pre-registered
-"H0 ≈ 69, ξ ≈ 0.15" (§9.1). Against the *refitting* ΛCDM twin the joint
+predicted ridge point** — H₀ = 69.05, ξ = 0.142 vs the pre-registered
+"H₀ ≈ 69, ξ ≈ 0.15" (§9.1). Against the *refitting* ΛCDM twin the joint
 stack is heading to a statistical tie: the honest current claim is **equal
-fit quality on every dataset simultaneously, with H0 = 69.0 and
-S8 = 0.824 vs ΛCDM's 67.4 / 0.833** — both tensions eased directionally at
+fit quality on every dataset simultaneously, with H₀ = 69.0 and
+S₈ = 0.824 vs ΛCDM's 67.4 / 0.833** — both tensions eased directionally at
 zero χ² cost, for one extra parameter. The varying-m_e extension (§9.4,
-same-day discovery) may buy H0 back to ~70.4; its honest credit awaits the
+same-day discovery) may buy H₀ back to ~70.4; its honest credit awaits the
 optimization-slack decomposition. Bayesian evidence (PolyChord) queued.
 
 **Read this first — the result decouples into two independent claims:**
 
 1. *ΛCDM + free N_eff, refit, gains 19.2 in χ² on the Planck+BAO+SN stack*
-   (driven by ξ_Neff and re-optimized H0/n_s along the acoustic-locked
+   (driven by ξ_Neff and re-optimized H₀/n_s along the acoustic-locked
    ridge, §6) — a claim that ACT DR6 has now **adjudicated**: the joint
-   refit landed on the predicted down-ridge point (H0 = 69.05, ξ = 0.142)
+   refit landed on the predicted down-ridge point (H₀ = 69.05, ξ = 0.142)
    and the joint stack is a statistical tie against refit ΛCDM. The
    surviving version of claim 1: *equal fit quality everywhere, both
    tensions eased directionally, zero χ² cost, +1 parameter* — plus a
-   possible H0 → 70.4 extension via recombination timing (m_e, §9.4)
+   possible H₀ → 70.4 extension via recombination timing (m_e, §9.4)
    whose credit is under measurement.
 2. *CDM+Λ can be rewritten as one barotropic fluid with no observable
    consequence at linear order* (§3–§4; proven exactly and verified
@@ -320,11 +320,11 @@ anchor to 5 decimals in σ8 and Δχ² = 1.4 (residual: finite shooting
 precision). Therefore:
 
 - The −19.2 χ² gain is carried by $\xi_{N_{\rm eff}}$ and the re-optimized
-  (H0, n_s) along the θ*-locked ridge (§6) — **not** by the fluid's internal
+  (H₀, n_s) along the θ*-locked ridge (§6) — **not** by the fluid's internal
   dynamics.
 - The unification itself is presently an *interpretation with equal
   likelihood*. The once-claimed "parameter economy" is **conceded false**
-  (red-team review, 2026-07-06): ρ_∞ replaces ω_cdm one-for-one and Λ
+  (internal review review, 2026-07-06): ρ_∞ replaces ω_cdm one-for-one and Λ
   closes by flatness in both models, so the evidence attributable to the
   unification alone is pure prior volume — Δln Z ≈ −0.9 ± 0.5 with the
   declared priors, i.e. slightly *against*. What the unification buys is
@@ -341,8 +341,8 @@ precision). Therefore:
 ## 5. How β lived and died (the sound-speed trap)
 
 v4 carried a two-parameter equation of state
-$w(s) = -\exp[-(s+\beta s^2)]$, giving $c_s^2 = 2\beta s\,e^{-(s+\beta s^2)}
-\ge 0$ with peak $\approx 0.74\beta$. The design goal was to decouple "how
+$w(s) = -\exp[-(s+\beta s^2)]$, giving $c_s² = 2\β s\,e^{-(s+\β s²)}
+\ge 0$ with peak $\approx 0.74\β$. The design goal was to decouple "how
 different from ΛCDM" from "how large the dangerous sound speed" — the
 coupling that kills the generalized Chaplygin gas (Sandvik–Tegmark–
 Zaldarriaga–Frieman 2004: the GCG exponent α controls both, so the model is
@@ -372,10 +372,10 @@ evidence and no explanatory power.
 
 **Resurrection test (2026-07-06, sandboxed v4 build; β stays deleted).**
 Two hypotheses were given their best shot: (a) β might engage in synergy
-with the *engaged* best-fit partners (H0=70.4, ξ=0.403 — the original MCMC
+with the *engaged* best-fit partners (H₀=70.4, ξ=0.403 — the original MCMC
 sampled jointly, but this pins them at their optimum); (b) β's σ8
 suppression might be rewarded by weak lensing, the one dataset never tested
-against β and the one that *wants* lower S8. Scan at the frozen best fit
+against β and the one that *wants* lower S₈. Scan at the frozen best fit
 with DES Y1 cosmic shear added:
 
 | log₁₀β | plik | lensing | SN | DES shear | σ8 | Δtotal |
@@ -405,15 +405,15 @@ to the same shift in `N_ur`). The fit's anatomy, established by direct scans:
 
 1. **Acoustic-scale locking.** The unified budget + extra radiation shift
    both $r_s$ and $D_A$; the data pin $100\,\theta_* = 1.04189$ to ~0.03%.
-   The viable region is a one-dimensional ridge in (H0, ξ):
-   ξ ≈ 0.15 at H0=69 → 0.40 at 70.4 → 0.60 at 71 → 1.0 at 73.
+   The viable region is a one-dimensional ridge in (H₀, ξ):
+   ξ ≈ 0.15 at H₀=69 → 0.40 at 70.4 → 0.60 at 71 → 1.0 at 73.
    Off-ridge points are catastrophic (+0.9% in θ* ≈ +1600 on plik).
-2. **The damping tail prices the H0 relief.** Along the ridge, the Silk-
-   damping cost grows ~quadratically in ξ: totals +11.6 at H0=69, +228 at
+2. **The damping tail prices the H₀ relief.** Along the ridge, the Silk-
+   damping cost grows ~quadratically in ξ: totals +11.6 at H₀=69, +228 at
    71, +759 at 73, +1418 at 74.8 (fixed fiducials). The n_s–N_eff degeneracy
    absorbs part (optimum n_s ≈ 0.98); higher ω_b does not help.
 3. **SN push the other way.** Pantheon+SHOES gains saturate at ~−40 by
-   H0 ≈ 73. The net optimum of (2) vs (3) lands at **H0 ≈ 70–70.5** —
+   H₀ ≈ 73. The net optimum of (2) vs (3) lands at **H₀ ≈ 70–70.5** —
    closing ~55% of the gap to SH0ES (74.0 ± 1.0), endorsed by the SN
    likelihood (−27.8), blocked beyond that by the damping tail.
 
@@ -423,9 +423,9 @@ to the same shift in `N_ur`). The fit's anatomy, established by direct scans:
 |---|---|
 | exact null (fluid ⇒ ΛCDM; v5 form) | **PASS** — σ8 0.81301 vs anchor 0.81304, total 2516.7 vs 2515.5; re-verified bit-identical after the 2026-07-06 gauge-IC fix (σ8 0.81301, total 2516.72) |
 | ξ_Neff ↔ N_ur equivalence | **PASS** — bit-exact (difference 0.0 everywhere) |
-| precision stability | **PASS, with a real discovery (2026-07-06).** The re-run matrix appeared to fail this test — until the "tightened" knob turned out to be a *loosening*: the in-tree `precisions.h` default for `tol_background_integration` is **1e-10** (not vanilla CLASS's 1e-2; tightened during the v4 stiff-system work), so passing any explicit value overrode it. The dcdf background ODE spans ~42 e-folds and converges slowly in this tolerance: at vanilla 1e-2 the background is ~10% wrong (σ8 0.784→0.661!), at 1e-4 still 0.4% off, converging to the exact closed form only near the in-tree default (verified: 4×10⁻⁸ against ρ_∞+Ka⁻³; θ* stable). All production runs use the converged default. A guard now refuses `use_dcdf` with tolerance > 1e-8. |
+| precision stability | **PASS, with a real discovery (2026-07-06).** The re-run matrix appeared to fail this test — until the "tightened" knob turned out to be a *loosening*: the in-tree `precisions.h` default for `tol_background_integration` is **1×10⁻¹⁰** (not vanilla CLASS's 1×10⁻²; tightened during the v4 stiff-system work), so passing any explicit value overrode it. The dcdf background ODE spans ~42 e-folds and converges slowly in this tolerance: at vanilla 1×10⁻² the background is ~10% wrong (σ8 0.784→0.661!), at 1×10⁻⁴ still 0.4% off, converging to the exact closed form only near the in-tree default (verified: 4×10⁻⁸ against ρ_∞+Ka⁻³; θ* stable). All production runs use the converged default. A guard now refuses `use_dcdf` with tolerance > 1×10⁻⁸. |
 | β-branch smoothness (pre-deletion, 8×10⁻⁹→10⁻⁴) | **PASS** — smooth monotone σ8 decline (then β removed) |
-| **dyad-configuration battery (2026-07-06, new machinery: m_e sampled, ξ deleted, YHe lambda)** | **ALL PASS (5/5).** [1] m_e→1 null: dyad config at m_e=1 reproduces v5-anchor physics smoothly (σ8 0.82799, θ* 1.04929). [2] Gauge invariance *at m_e=1.01* (never before tested with varying constants on): max \|ΔCl/Cl\| = 1.6×10⁻⁴ at ℓ=4 — passes the 10⁻³ gate; note this is ~6× the ΛCDM gauge-noise floor, consistent with the varying-constants module's own gauge sensitivity, not a dcdf defect (the m_e=1 limit reproduces the 2.8×10⁻⁵ figure). [3] Precision stability at the dyad optimum (bg guard active): σ8 shift 5.9×10⁻⁶. [4] Both m_e prior corners (0.98, 1.04) graceful. [5] YHe table → self-consistent lambda at the market optimum: σ8 shift 10⁻⁵, max Cl shift 6.6×10⁻³ — the booked inconsistency's measured size, matching the §9.3 pricing (−0.4 in χ², sign-favorable). |
+| **dyad-configuration battery (2026-07-06, new machinery: m_e sampled, ξ deleted, YHe λ)** | **ALL PASS (5/5).** [1] m_e→1 null: dyad config at m_e=1 reproduces v5-anchor physics smoothly (σ8 0.82799, θ* 1.04929). [2] Gauge invariance *at m_e=1.01* (never before tested with varying constants on): max \|ΔCl/Cl\| = 1.6×10⁻⁴ at ℓ=4 — passes the 10⁻³ gate; note this is ~6× the ΛCDM gauge-noise floor, consistent with the varying-constants module's own gauge sensitivity, not a dcdf defect (the m_e=1 limit reproduces the 2.8×10⁻⁵ figure). [3] Precision stability at the dyad optimum (bg guard active): σ8 shift 5.9×10⁻⁶. [4] Both m_e prior corners (0.98, 1.04) graceful. [5] YHe table → self-consistent λ at the market optimum: σ8 shift 10⁻⁵, max Cl shift 6.6×10⁻³ — the booked inconsistency's measured size, matching the §9.3 pricing (−0.4 in χ², sign-favorable). |
 | gauge invariance (synchronous vs newtonian) | **PASS** (2026-07-06, after fix) — max TT deviation 2.8×10⁻⁵, at ΛCDM's own gauge-noise floor (2.1×10⁻⁵). The v4-era 0.26% ℓ=10–12 defect was **not** the suspected late-time (1+w)→0 gauge terms: the fluid was missing from the matter budget in `perturbations_initial_conditions` (`rho_m`/`om` counted only baryons under `use_dcdf`, and the α gauge-transform's `delta_tot` had no dcdf term), so the newtonian branch started from a slightly wrong φ_ini and rang a decaying transient into the SW/early-ISW sources. Synchronous (production) was verified unaffected before and after: fluid ≡ ΛCDM per-ℓ to 4×10⁻⁶ at the null point. Note the epistemic status: the `rho_m`/`om` half of the bug lived in IC code shared by both gauges, so synchronous safety was an **empirical finding** (bit-identical null test, σ8 0.81301 / total 2516.72 before and after the fix), not a structural guarantee — only the `delta_tot` half was newtonian-only by construction. Diagnosis chain: per-ℓ ΛCDM control → dust-limit isolation → per-contribution double ratio (SW+eISW, not late ISW) → φ′ transient at z≈5000 → IC audit. |
 | 6-corner prior-box stress test (v5, β-free) | **PASS** — all corners run gracefully |
 
@@ -449,7 +449,7 @@ acceptance ~27%):
 | parameter | ΛCDM anchor | dCDF best fit |
 |---|---|---|
 | ω_b | 0.02237 | 0.02280 |
-| H0 | 67.4 | **70.40** |
+| H₀ | 67.4 | **70.40** |
 | ln(10¹⁰A_s) | 3.044 | 3.068 |
 | n_s | 0.9649 | **0.9826** |
 | z_reio | 7.67 | 8.13 |
@@ -457,9 +457,9 @@ acceptance ~27%):
 | ρ_∞ | — | 0.7007 |
 | A_planck | 1.0 | 1.0019 |
 
-Derived: σ8 = 0.827, **S8 = 0.826** (ΛCDM 0.833), Ω_m ≈ 0.30.
+Derived: σ8 = 0.827, **S₈ = 0.826** (ΛCDM 0.833), Ω_m ≈ 0.30.
 χ² breakdown vs ΛCDM: plik +10.2, lensing +0.6, lowl.TT −2.1, BAO −0.1,
-**SN −27.8** → total **−19.2**. A second multistart mode at H0=69.44
+**SN −27.8** → total **−19.2**. A second multistart mode at H₀=69.44
 (ξ=0.240) sits only Δχ²=1.1 away: the ridge is flat over at least
 69.4–70.4.
 
@@ -473,7 +473,7 @@ is queued behind it.
 **Phenomenology at the best fit (2026-07-06 probes, vs the ΛCDM anchor):**
 age 13.40 Gyr (vs 13.79; both above the ~12.8 Gyr globular-cluster floor);
 r_s(drag) 143.5 vs 147.1 Mpc — the ξ_Neff sound-horizon compression that
-finances the higher H0, stated as a number; z_eq 3348 vs 3404. Growth:
+finances the higher H₀, stated as a number; z_eq 3348 vs 3404. Growth:
 fσ8(z) against ten compiled RSD points (6dF, MGS, DR12×3, WiggleZ×3,
 VIPERS, eBOSS QSO) gives naive χ² 7.75 vs ΛCDM's 7.75 — **statistically
 indistinguishable**, the §4.2 degeneracy visible in real growth data. The
@@ -500,13 +500,13 @@ and will be largely moot the day it lands: that stack omits data
    revision is written.
 
 **The SH0ES→TRGB scenario (2026-07-07 night; robustness diagnostic,
-not a stack change — priors frozen, P-2026-001 remains the arbiter).**
+not a stack change — priors frozen, P-2026-001 remains the referee).**
 Four point-evaluations (both models × both SN calibrations) plus the
 CCHP-2025 local anchor (69.96 ± 1.54, cite-verified):
 
 | | SN(Pantheon+SHOES) | SN(Pantheon+, shape-only) |
 |---|---|---|
-| dyad (H0=69.70) | 1473.4 | 1406.3 |
+| dyad (H₀=69.70) | 1473.4 | 1406.3 |
 | ΛCDM anchor (67.4) | 1494.9 | 1403.7 |
 
 Read honestly in both directions: (i) the dyad's SN advantage under
@@ -519,9 +519,9 @@ the sky, its fit advantage reverting to the CMB sector (plik credit),
 where it never depended on any ladder. If SH0ES falls, we lose a χ²
 subsidy and gain a resolution; if SH0ES stands, P-2026-001 executes
 us. Symmetric exposure, on the record.
-**Standing language (red-team turn 30, adopted): the scenario
+**Standing language (internal review turn 30, adopted): the scenario
 CONCENTRATES the case — the dyad is a CMB-sector varying-m_e result
-with a ladder-independent H0; the SN sector is calibration-artifact
+with a ladder-independent H₀; the SN sector is calibration-artifact
 (retired), small scales null, everything else downstream. And the
 "no-tension" property is a CONDITIONAL CONCORDANCE, not a
 resolution: the dyad does not dissolve the Hubble tension, it PICKS
@@ -536,14 +536,14 @@ was θ*-locked and CMB-fixed before any local comparison, with SH0ES
 in-stack pulling toward 73 and failing to move it. The meaningful
 comparison number is the dyad–ΛCDM separation under the TRGB anchor:
 (69.70−67.40)/1.54 = **1.5σ, a mild, real, TRGB-conditional
-preference** — a knockout for neither. The dyad's marginalized σ(H0)
+preference** — a knockout for neither. The dyad's marginalized σ(H₀)
 (sampling now) cannot change this grade: TRGB's width dominates any
 plausible fold-in.**
 
 > **Pre-registered predictions live in
 > `PRTOE_PREREGISTERED_PREDICTIONS.md`** — P-2026-001: the local ladder
-> resolves TRGB-side, H0(local) ∈ [69.0, 71.0] (no hedge; 72+ falsifies
-> the H0 program). P-2026-002: the dark medium cannot decay (shift
+> resolves TRGB-side, H₀(local) ∈ [69.0, 71.0] (no hedge; 72+ falsifies
+> the H₀ program). P-2026-002: the dark medium cannot decay (shift
 > charge; death-condition, shared with stable CDM). P-2026-003: any
 > dark-energy drift attributable to the medium is phantom-side with a
 > growth-tracking shape, or absent (conditional fingerprint; confirmed
@@ -572,37 +572,37 @@ plausible fold-in.**
    ACT DR6's damping-tail penalty (+22.7) is the same size as the entire
    Planck+BAO+SN gain (−19.2). SPT-3G (ℓ ≤ 3000, larger errors) is neutral.
    Caveats: a point evaluation overstates tension relative to a joint refit
-   — the flat H0–ξ ridge (§6) means a Planck+ACT fit will slide toward
-   lower ξ (≈0.15) and lower H0 (≈69), where the Planck-side cost is only
+   — the flat H₀–ξ ridge (§6) means a Planck+ACT fit will slide toward
+   lower ξ (≈0.15) and lower H₀ (≈69), where the Planck-side cost is only
    +11.6 and the ACT penalty largely dissolves. **Honest reading: ACT DR6
-   does not kill the model, it compresses the H0 relief from ~3 km/s/Mpc
+   does not kill the model, it compresses the H₀ relief from ~3 km/s/Mpc
    toward ~1.5 km/s/Mpc.** A joint Planck+ACT+SPT refit is the required
    next fit, not optional follow-up. (Setup: `candl` + data at
    `~/candl_data`; script in job scratch `act_spt_test.py`.)
-2. **Weak lensing S8 — substantially settled by the data (2025-26),
-   in the dyad's favor.** KiDS-Legacy (complete survey): S8 = 0.815 ±
+2. **Weak lensing S₈ — substantially settled by the data (2025-26),
+   in the dyad's favor.** KiDS-Legacy (complete survey): S₈ = 0.815 ±
    0.019, 0.73σ from Planck; joint KiDS+DES Y3+Pantheon+DESI:
-   S8 = 0.814 ± 0.012. The lensing side came UP — the resolution
-   direction requiring no new physics. The dyad's S8 ≈ 0.826 sits 0.9σ
+   S₈ = 0.814 ± 0.012. The lensing side came UP — the resolution
+   direction requiring no new physics. The dyad's S₈ ≈ 0.826 sits 0.9σ
    from the new WL consensus (ΛCDM's 0.833: 1.6σ) — the model's
-   "incidental" easing lands on the concordance point. The S8-payer
+   "incidental" easing lands on the concordance point. The S₈-payer
    taxonomy (softest-tax ranking): Σm_ν (taxed only by a lensing
    *preference* — mildest; orthodox, no fingerprint), the drift's
    Bianchi withdrawal (native, sign-locked correct, ~10× too small
    alone, and IDENTICAL to P-2026-003's observable (iii) — the model's
-   S8 mechanism and its drift fingerprint are one object), quantum
+   S₈ mechanism and its drift fingerprint are one object), quantum
    pressure (mute — k_J ≥ 5.5/Mpc cuts below the 8 h/Mpc scale), sound
    speed (executed, §5). Note the Σm_ν interaction (§9.5).
 
 4. **Varying electron mass (§9.4, tested 2026-07-06).** The
-   epoch-response audit identified recombination *timing* as the one H0
+   epoch-response audit identified recombination *timing* as the one H₀
    lever the damping tail cannot tax (it changes when recombination
    happens, not H at recombination). Measured, θ*-locked, on the joint
    stack: +1 km/s/Mpc per +1% m_e with **ACT indifferent-to-favorable**
    (163.1 vs 164.0 at m_e=1.01 refit) — the executioner moves to plik's
    peak structure, and the cost curve is steep beyond ~1.5%
    (frozen-slice: +7.9 / +58.9 / +289 at 1/2/4%). A fixed-m_e=1.01
-   profile refit reached **2801.06 with H0 = 70.41, ξ = 0.124** — note
+   profile refit reached **2801.06 with H₀ = 70.41, ξ = 0.124** — note
    m_e visibly eats ξ's role (the two levers share the r_s budget). The
    >100% refund flags optimization slack in pass-1; a same-companions
    m_e=1.00 control question was settled *analytically* (2026-07-06):
@@ -610,8 +610,8 @@ plausible fold-in.**
    quadratic model gave credit −8.5 with a falsifiable midpoint
    prediction (2812.1) that was then measured at 2812.15 — **clean
    credit −8.5 ± 0.5, validated**; the brute-force control was cancelled
-   as redundant. S8 rises with m_e at fixed amplitude (+0.02/1%) — m_e alone
-   anti-solves S8; pairs naturally with Σm_ν (below).
+   as redundant. S₈ rises with m_e at fixed amplitude (+0.02/1%) — m_e alone
+   anti-solves S₈; pairs naturally with Σm_ν (below).
 
    **Coupling-consistency status — stated so no referee has to ask.**
    What is implemented and fit is the *phenomenological offset*
@@ -699,7 +699,7 @@ plausible fold-in.**
    spectroscopy constrains only weakly (2–3 decades of dark density
    between dwarf cores and cluster cores, largely unprobed for μ/α). Reopening requires
    a mechanism that generates a saturation scale at x ~ x(recombination)
-   naturally, or an H0 mechanism needing only ~0.1% m_e (pointless), or
+   naturally, or an H₀ mechanism needing only ~0.1% m_e (pointless), or
    screening (graveyard). The honest label survives its own best
    challenge: *phenomenology, carried for its measurement value*.
 
@@ -745,7 +745,7 @@ plausible fold-in.**
    exactly what the §2 wall taxes on the early side.
 
    **Independent convergence (LIT-2026-001, literature sweep
-   2026-07-06):** varying-m_e as an H0 mechanism is now *independently
+   2026-07-06):** varying-m_e as an H₀ mechanism is now *independently
    preferred at 2–3.6σ by other groups* on Planck(+DESI) stacks
    (arXiv 2606.06495, 2508.09025 among others) — the field converged
    on this lever without the dCDF motivation. This is corroboration of
@@ -756,10 +756,10 @@ plausible fold-in.**
 
 5. **Σm_ν and c_EM (frozen-slice scans, 2026-07-06).** Σm_ν: on a stack
    with no WL likelihood the best fit is pinned at the 0.06 eV floor
-   (+12.2 at 0.12 eV, ACT +5.6 joining plik); its S8 payoff
+   (+12.2 at 0.12 eV, ACT +5.6 joining plik); its S₈ payoff
    (0.805 at 0.12 eV) is *unpriced* by current data — the lever becomes
    live only if DES shear joins the stack (projected wash, ±2, at
-   Σm_ν ≈ 0.10 with S8 ≈ 0.81).
+   Σm_ν ≈ 0.10 with S₈ ≈ 0.81).
    **REPRICED IN THE DYAD (2026-07-06 night) — the tax collapsed.**
    The +12.2 figure was measured in the ξ-era configuration; re-running
    the θ*-locked pricing scan at the dyad optimum (m_e = 1.01, ξ = 0)
@@ -772,19 +772,19 @@ plausible fold-in.**
    dyad's marginalized 95% upper limit on Σm_ν lands in [0.11, 0.17]
    eV**. The posterior run (m_ncdm sampled on the full joint stack) is
    in flight; its optimizer phase already landed at m_ncdm = 0.065,
-   H0 = 69.61, χ² = 2801.07 — the profile and the posterior will be
+   H₀ = 69.61, χ² = 2801.07 — the profile and the posterior will be
    scored against the registered window when the chains converge, and
-   the S8 side rider is free: Σm_ν = 0.12 eV carries S8 → 0.807, i.e.
+   the S₈ side rider is free: Σm_ν = 0.12 eV carries S₈ → 0.807, i.e.
    *toward* the KiDS-Legacy consensus, so the WL data that is absent
    from the stack would pay this lever, not tax it. The environmental-exchange coupling
-   c_EM is **dead**: +261 at c_EM = 0.005 (plik +198, ACT +41, S8→0.869)
-   for 0.5 km/s of H0 — a w-kick on the *dominant* component through
+   c_EM is **dead**: +261 at c_EM = 0.005 (plik +198, ACT +41, S₈→0.869)
+   for 0.5 km/s of H₀ — a w-kick on the *dominant* component through
    recombination wrecks the acoustic structure with no clustering
    discount. The environment-coupling idea survives only as
    recombination-rule changes (m_e), not energy-exchange terms.
    ρ_∞(z) drift: upgraded (2026-07-06, post-resurrection) from a null
    constraint to a **conditional fingerprint**. The admissible (δK)²
-   operator's fluctuation face funds the floor from *structure
+   author's fluctuation face funds the floor from *structure
    formation itself* (δρ_floor ~ m̄₂²⟨(δK)²⟩/2, gated by nonlinear
    growth — BBN/CMB-immune at every hierarchy), with the **sign locked
    phantom-side** (m̄₂² > 0 by stability: the floor can only grow) and
@@ -793,11 +793,11 @@ plausible fold-in.**
    DESI-scale. Consequence: **the hierarchy acquires a second wall** —
    BBN caps x₀ ≤ e⁻³⁵ from above; a confirmed DESI thawing signal
    (w₀ > −1, the current whisper) excludes the deep end and bounds
-   x₀ ≳ e⁻⁴⁰ from below. See P-2026-003. **Three riders (red-team turn 12, adopted):** (i) the
+   x₀ ≳ e⁻⁴⁰ from below. See P-2026-003. **Three riders (internal review turn 12, adopted):** (i) the
    deposit is drawn from structure's own gravitational energy (Bianchi)
    — an observable funded floor implies an observable *withdrawal*
    (suppressed late growth / ISW / lensing at the sub-percent-to-percent
-   level), which must clear existing RSD+S8 before the deep hierarchy is
+   level), which must clear existing RSD+S₈ before the deep hierarchy is
    called viable; (ii) the two walls carry unequal confidence — BBN is
    brick, the DESI-thawing lower wall is *chalk* (a contested ~2σ hint
    that may evaporate in DR2/DR3); (iii) the fingerprint's honest size:
@@ -809,7 +809,7 @@ plausible fold-in.**
    below (the same nonlinear sector sets both sides of the ledger).
 3. **BBN: checked at fitting-formula grade (2026-07-06).** With standard
    linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff and ∂Y_p/∂ln ω_b ≈
-   0.0096, i.e. Y_p ∝ ω_b^0.039; ∂ln(D/H)/∂ln ω_b ≈
+   0.0096, i.e. Y_p ∝ ω_b⁰.039; ∂ln(D/H)/∂ln ω_b ≈
    −1.6, ∂ln(D/H)/∂N_eff ≈ +0.10):
    at the v4 best fit (ω_b = 0.0228, ΔN_eff = 0.403), Y_p ≈ 0.2524 —
    **+1.9σ** vs Aver et al. (0.2449 ± 0.0040) — while D/H ≈ 2.55×10⁻⁵ is
@@ -841,7 +841,7 @@ plausible fold-in.**
    back into the Y_He table (a booked code inconsistency, §9.4) — are
    now required for any refit that samples m_e. **Both closed
    (2026-07-06 evening): the dyad config computes Y_He self-consistently
-   (YAML-level lambda, no C change) and carries the generalized BBN
+   (YAML-level λ, no C change) and carries the generalized BBN
    prior; the inconsistency priced at the market optimum = 0.66% in raw
    Cls, −0.4 in χ² (ACT −1.5, plik +0.4, SPT +0.7) — sign-favorable,
    absorbed, closed.** PRIMAT-grade
@@ -909,14 +909,14 @@ plausible fold-in.**
 
 Perturbations: fluid block in `source/perturbations.c` (synchronous gauge,
 fld-mirrored); the δ_m accumulation block **must stay after** the
-delta_cb/theta_cb snapshot (cb quantities are baryon+CDM only by contract —
+delta_cb/θ_cb snapshot (cb quantities are baryon+CDM only by contract —
 guard comment in code). `use_dcdf = yes` replaces CDM (floored at
 `Omega0_cdm_min_synchronous` = 10⁻¹⁰ because synchronous gauge is defined in
-the CDM rest frame) and disables the lambda/fld/scf budget auto-fill chain.
+the CDM rest frame) and disables the λ/fld/scf budget auto-fill chain.
 
 Fixed symmetrically in dCDF and the ΛCDM twin: one massive neutrino
 m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
-(ω_b, ω_cdm, H0, logA, n_s, z_reio, A_planck); dCDF samples 8
+(ω_b, ω_cdm, H₀, logA, n_s, z_reio, A_planck); dCDF samples 8
 (ρ_∞ replaces ω_cdm; +ξ_Neff).
 
 6. **The five-lever paper audit (2026-07-06; zero CPU).** Applying the
@@ -934,11 +934,11 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
    the rules-class control scan. Four executions and one demotion at
    the speed of algebra: the screening theory works.
    **α CONTROL SCAN RUN (2026-07-07 night) — THE DEGENERACY BREAK
-   (framing per red-team turn 29). Sign convention, pinned: positive
+   (framing per internal review turn 29). Sign convention, pinned: positive
    = χ² PENALTY = worse fit.** θ*-locked pricing, full joint stack,
-   H0 relocked per point; α = 1.0 baseline reproduces the dyad's own
+   H₀ relocked per point; α = 1.0 baseline reproduces the dyad's own
    numbers (plik 586.5). Exact component totals (full reconciliation
-   in chains/alpha_scan_*.1.txt): α = +0.5% buys H0 = 70.65 at
+   in chains/α_scan_*.1.txt): α = +0.5% buys H₀ = 70.65 at
    **+92.36 total penalty** (plik +55.07, ACT +22.56, SPT +17.44,
    lensing +4.35, BAO +1.16, SN −7.83, lowl −0.38); α = +1% buys
    71.69 at **+432.76** (plik +200.5, ACT +167.3, SPT +62.2). The
@@ -961,9 +961,9 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
    the scan header pre-launch; positive = penalty).** Free Y_p:
    PINNED — penalized both directions (−5.6%: +9.4, ACT alone liking
    it −3.5 but overruled; +5.2%: +38.1, ACT +30). Curvature:
-   FORBIDDEN both ways (Ω_k = −0.005: +30.4 with H0 dragged to 68.3;
-   +0.005: +44.6 — plik +46.6 even while buying H0 = 71.05). Running:
-   FLAT (α_s = +0.01: −0.5 ≈ noise, and it buys zero H0 — θ* blind;
+   FORBIDDEN both ways (Ω_k = −0.005: +30.4 with H₀ dragged to 68.3;
+   +0.005: +44.6 — plik +46.6 even while buying H₀ = 71.05). Running:
+   FLAT (α_s = +0.01: −0.5 ≈ noise, and it buys zero H₀ — θ* blind;
    −0.01: +15.7). All pinned expectations met or exceeded in the
    no-credit direction. **Final standings: N_eff executed, α
    forbidden (+433), Y_p pinned, Ω_k forbidden, running flat — the
@@ -999,9 +999,9 @@ framework has a **structural** limit, not a numerical one:
   Minimal coupling also gives GW speed = c exactly (GW170817 trivially
   satisfied).
   **Addendum (2026-07-07, scaling grade — the throat de-condensation):**
-  the operator's supersolid bet was scored and killed on both routes
+  the author's supersolid bet was scored and killed on both routes
   (no roton — ideal condensate; no vortex lattice — the ultralight
-  circulation quantum is unpayable: a stellar hole mints 1e-10 vortex
+  circulation quantum is unpayable: a stellar hole mints 1×10⁻¹⁰ vortex
   quanta, M87* mints 0.12, vs ~2000 threading a galaxy), and the
   derivation found the opposite: every BH sits inside ONE coherence
   patch (l_dB(v→c) ≈ 0.02 pc ≫ any horizon — kernel 2.2's regime
@@ -1026,7 +1026,7 @@ framework has a **structural** limit, not a numerical one:
   **Addendum 2 (2026-07-07 night) — the universal horizon, located:**
   on the same exact flow, the khronon foliation's overlap with the
   Killing time is (u·χ) = 1/√X̃ exactly (ξ = t + ψ(r)); the transonic
-  branch has y·f → 1 as f → 0 (verified numerically to 1e-4), i.e.
+  branch has y·f → 1 as f → 0 (verified numerically to 1×10⁻⁴), i.e.
   X̃ = 1/f at the horizon, so **(u·χ) = √f: zero AT r_s and positive
   everywhere outside — the medium's universal horizon DEGENERATES onto
   the metric horizon in the probe limit.** No interior trapped region
@@ -1048,8 +1048,8 @@ framework has a **structural** limit, not a numerical one:
 ## 11. Open items
 
 - **Joint Planck+ACT DR6+SPT-3G refit: DONE (2026-07-06)** — landed on
-  the predicted ridge point (H0 = 69.05, ξ = 0.142), then superseded
-  same-day by the dyad (ξ executed, m_e = 1.01, H0 = 69.70; §1
+  the predicted ridge point (H₀ = 69.05, ξ = 0.142), then superseded
+  same-day by the dyad (ξ executed, m_e = 1.01, H₀ = 69.70; §1
   headline). What remains open from this item: the refit ΛCDM+BBN twin
   must complete to convert the headline's −6.5..−8.5 *band* into a
   single honest number (twin paused for CPU, resumes after the Σm_ν
@@ -1110,7 +1110,7 @@ framework has a **structural** limit, not a numerical one:
   route), (ii) the granule heating rate vs the ultra-faint-dwarf knife,
   (iii) the granule spectrum reshaping by the normal component, and
   (iv) the structure-funded floor amplitude (P-2026-003's condition).
-  Lyman-alpha transfers unconditionally as the backdrop.
+  Lyman-α transfers unconditionally as the backdrop.
 - **No-hair citation check** (§10a) for bare P(X).
 - **SIDM-type extension scoping** (`PRTOE_v5_SIDM_scoping.md`): the lawful
   place for new dark-sector physics is density-dependent *interactions*
@@ -1177,7 +1177,7 @@ staying in all three premises at once — no map can, ours included.
 Tunneling *rates* are in scope now (§9.4); the entanglement question is
 open pending which toll the model's quantum extension elects to pay.
 
-### Correspondences & conjectures (relabeled per red-team turn 10:
+### Correspondences & conjectures (relabeled per internal review turn 10:
 "confirmed" is reserved for certificate-grade results — all-orders
 proofs, bounded leakages, stamped caveats. What follows is true-and-
 structural but analogy-grade, except where a cross-check is noted.)
@@ -1198,7 +1198,7 @@ architecture expressed at two scales, with the Unruh/Gibbons-Hawking
 pair (T = a/2π ↔ T = H/2π — the *same formula*) as the bridge.
 
 **C1a — Every gauge field is a clearinghouse; the field is the debt,
-not the toll (2026-07-07, operator's framing; analogy-grade,
+not the toll (2026-07-07, author's framing; analogy-grade,
 calibration-supported).** C1's "clearinghouses are gauge fields" runs
 both directions: EM is the charged sector's gateway exactly as gravity
 is the energy sector's. The sharpening: **Gauss's law makes the field
@@ -1221,7 +1221,7 @@ uncharged — it holds no EM account — so the charged clearinghouse
 never sees it; every α null is structural for this model (cf. R1:
 masses only, α untouched).
 
-**C1b — The debt inventory (2026-07-07, operator's question: "what
+**C1b — The debt inventory (2026-07-07, author's question: "what
 other debts must be accounted for?"; analogy-grade, receipts quoted).**
 Sorting every conserved quantity by whether its debt has a BANK:
 
@@ -1248,7 +1248,7 @@ debt with no visible counterparty; the Sakharov conditions are the
 ledger rules for creating one (a default mechanism, biased
 bookkeeping, and a market that fails to clear).
 
-**The Fairbank connection, explicit:** neutrinoless double-beta decay
+**The Fairbank connection, explicit:** neutrinoless double-β decay
 — nEXO's target — is precisely the experiment that tests whether
 LEPTON NUMBER is a collateralized debt or an unenforceable IOU. A 0νββ
 detection = L defaults (Majorana neutrinos are the default mechanism)
@@ -1258,7 +1258,7 @@ may reopen are the mass-scale side of the same question. The program's
 top-priority deliverable and its debt architecture meet in one
 experiment.
 
-**C1c — Time in the ledger (2026-07-07, operator's claim red-teamed;
+**C1c — Time in the ledger (2026-07-07, author's claim internally reviewed;
 correspondence-grade with one load-bearing technical identification).**
 Three-way split: (i) THE ARROW is the posting direction — drafts are
 time-symmetric (microscopic reversibility), posted records accumulate
@@ -1267,7 +1267,7 @@ front. The arrow requires MATTER to hold the records: a superfluid
 alone never posts — the arrow is emergent from medium+matter, as
 proposed. (ii) THE CLOCK: the condensate has φ̇₀ ≠ 0 — it is a
 KHRONON, and the constant-φ foliation it defines is the very slicing
-the (δK)² operator already runs on: "time from the superfluid" is not
+the (δK)² author already runs on: "time from the superfluid" is not
 an addition to this model but a description of machinery already
 load-bearing in it. Lab precedent for medium-supplied clocks: time
 crystals (realized 2017+). (iii) THE CORRECTION: time is not a third
@@ -1277,7 +1277,7 @@ C4b's loop: reading a clock = counting accrued interest (E = ħω) on
 energy debts. WALL, stamped: why the ledger opened nearly blank (the
 past hypothesis / low-entropy start) is underived here as everywhere.
 
-**C1d — Did time start? (2026-07-07, operator's dichotomy; interpretive
+**C1d — Did time start? (2026-07-07, author's dichotomy; interpretive
 grade, one lab receipt, EFT wall stamped).** The dichotomy "time began
 with the first medium-matter interaction OR everything has always
 been" is well-posed but both horns commit a grammar trap (start/always
@@ -1293,17 +1293,17 @@ but edgeless (time rounds into space; South Pole, not wall).
 tick) exists as far back as the medium; the ARROW (posting) waits for
 matter — time-order predates time's direction. (iv) WALL: the medium's
 own opening lies beyond the EFT cutoff — the model cannot compute its
-first page; and the operator's standing cyclic-universe bet is option
+first page; and the author's standing cyclic-universe bet is option
 (b)'s physical form (CCC-class), which would also address the
 blank-ledger wall. Parked, labeled, no claim.
 
-**C1e — Forward-only time travel (2026-07-07, operator's claim;
+**C1e — Forward-only time travel (2026-07-07, author's claim;
 correct on direction, mechanism priced, one correction; receipts
 routine).** Forward dilation is measured physics (GPS ~38 μs/day;
-Hafele–Keating 1971; Kelly twins). The operator's grow-your-own-mass
+Hafele–Keating 1971; Kelly twins). The author's grow-your-own-mass
 mechanism works in principle (56 M⊕ in 1 m = 29% slowdown; serious
 fast-forward requires hovering near one's own horizon; the ledger
-permits it — debts must merely balance, ~1e43 J borrowed and repaid)
+permits it — debts must merely balance, ~1×10⁴³ J borrowed and repaid)
 but is dominated by velocity or existing wells. Correction:
 de-dilation lands in the then-current now — a held fast-forward
 button, not a timestamp dial. THE MODEL-SPECIFIC RESULT: backward
@@ -1315,7 +1315,7 @@ behind itself; (ii) the ledger writes one way — backward travel =
 un-posting ink (C4a). In this model chronology protection is not a
 conjecture; it is the medium's clock plus the arrow's definition.
 
-**C1f — The emergence census (2026-07-07, operator's question:
+**C1f — The emergence census (2026-07-07, author's question:
 "what else is emergent?"; calibration-grade, one load-bearing frame).**
 Confirmed emergent in ACCEPTED physics: ~99% of ordinary mass (the
 QCD vacuum is a condensate; the proton's 938 MeV is condensate
@@ -1363,9 +1363,9 @@ metaphor's laboratory-physics name. Lab superfluids (helium kept liquid
 at T=0 by zero-point transactions) are structural cousins of the floor
 (the medium kept at ρ_∞ by its condensate nature).
 
-**C3a — Smooth, not foamy (2026-07-07, operator's bet; stance-grade,
+**C3a — Smooth, not foamy (2026-07-07, author's bet; stance-grade,
 receipts quoted, reach-wall stamped).** Against Wheeler's quantum foam
-(a 1955 picture, not a derivation), the operator bets sub-Planck
+(a 1955 picture, not a derivation), the author bets sub-Planck
 smoothness. Status: (i) DATA CURRENTLY SIDES WITH SMOOTH — GRB 090510
 (Fermi 2009): energy-dependent photon dispersion excluded beyond the
 Planck scale at linear order; distant quasar images stay sharp where
@@ -1379,7 +1379,7 @@ condensate paradigm (Volovik school; our C3) predicts the deep UV
 gets MORE ordered descending — possibly discrete at bottom, but
 coherent: atoms in a superfluid, not bubbles in a boil. Wheeler
 conflates quantum with turbulent; this model's ansatz splits them on
-the operator's side. (iii) THE LEDGER ARGUMENT (operator: "the bank
+the author's side. (iii) THE LEDGER ARGUMENT (author: "the bank
 won't allow grime"): the vacuum may DRAFT grime within the credit
 window — that is what vacuum fluctuations are (Casimir, Lamb) — but
 may never POST any: posted texture would appear in the energy books
@@ -1461,7 +1461,7 @@ every laser on Earth is, in this language, the receipt stream of
 unsolicited transactions — and the bookkeeping gets its number right
 to the last decimal.
 
-**C4a — Measurement as settlement (2026-07-07, operator's framing;
+**C4a — Measurement as settlement (2026-07-07, author's framing;
 correspondence-grade, receipts quoted, wall stamped).** Superposition
 = UNSETTLED transactions: pencil entries that can still cancel —
 which is what interference is (the double slit's paths are unposted
@@ -1474,15 +1474,15 @@ kill interference unread (an unread record settles), and the quantum
 ERASER un-posts a draft coherently and interference returns (a
 settled-looking transaction un-settles if the record never went
 public). Settlement has a measured RATE (decoherence times; watched
-in real time in cavity QED — Haroche 2012; ~1e-31 s for a dust grain,
+in real time in cavity QED — Haroche 2012; ~1×10⁻³¹ s for a dust grain,
 which is why the macroscopic ledger is always ink). THE WALL, stamped:
 this language does not pick the outcome and does not derive the Born
 rule — the bank's pricing algorithm (probability = |amplitude|²) is
 the unsolved measurement problem for every interpretation, ours
 included. Filed at C4's edge: same boundary, same honesty.
 
-**C4b — Energy's three roles in settlement (2026-07-07, operator's
-proposal red-teamed; correspondence-grade).** The proposal "the bank
+**C4b — Energy's three roles in settlement (2026-07-07, author's
+proposal internally reviewed; correspondence-grade).** The proposal "the bank
 prefers the transaction with enough energy to spend" FAILS as an
 outcome rule — falsified directly (asymmetric superpositions: the
 higher-energy outcome can carry 2% against 98%; probability is
@@ -1503,16 +1503,16 @@ exactly as interference phase). The Born-rule wall (C4a) stands: what
 prices the menu remains underived, here as everywhere.
 
 **C4c — Neutrality is the settlement condition, not the selection
-rule (2026-07-07, operator's refinement; correspondence-grade, the
+rule (2026-07-07, author's refinement; correspondence-grade, the
 sharpest landing of the series).** "The chosen outcome settles its
 debts without going over or under" cannot select among quantum
 alternatives — every menu item already clears exactly (BKS statistical
 conservation killed by Bothe–Geiger 1925: conservation is exact in
 each INDIVIDUAL settlement). But it is precisely the REAL/VIRTUAL
 boundary: unsettled drafts may run unbalanced within the bank's one
-credit rule (Δt ~ ħ/ΔE — beta decay borrows an 80 GeV W, ~1e5× the
+credit rule (Δt ~ ħ/ΔE — β decay borrows an 80 GeV W, ~1×10⁵× the
 available energy, for ~8×10⁻²⁷ s); POSTING requires exact clearance —
-the on-shell condition E² = p² + m² is the operator's sentence
+the on-shell condition E² = p² + m² is the author's sentence
 verbatim. Every particle ever detected was a cleared entry; the
 unbalanced ones exist only inside the drafting. And the "most logical
 choice" clause is the classical limit: paths surviving the draft
@@ -1523,7 +1523,7 @@ settlement law assembled (C4a–C4c): drafts unbalanced within ħ/ΔE;
 posting requires neutrality; among neutral offers amplitudes price
 (Born — the wall); the dominant coupling picks the printing language.
 
-**C4d — The neighbor rule (2026-07-07, operator's extension; exact,
+**C4d — The neighbor rule (2026-07-07, author's extension; exact,
 no decomposition needed — the golden rule assembled).** "The bank
 refuses internally-balanced transactions that bother the neighbor" is
 quantum statistics in transition rates, exactly: every fermionic
@@ -1538,7 +1538,7 @@ stimulated emission (the laser calibration above threshold), BEC
 And a neighborhood with no receiving account vetoes outright: Purcell
 suppression/photonic bandgaps — inhibited spontaneous emission,
 measured (O3's thread, named). Assembly: with C4b (menu + phases) and
-C4c (on-shell clearance), the operator's proposals reconstruct
+C4c (on-shell clearance), the author's proposals reconstruct
 FERMI'S GOLDEN RULE clause by clause — rate = (2π/ħ)·|amplitude|² ·
 (density of receiving accounts) · (neighbor factors) — pricing (Born,
 the wall) × menu × neighborhood consent. The transaction language has
@@ -1546,7 +1546,7 @@ now re-derived the master transition-rate law of quantum mechanics
 from ledger axioms.
 
 **C4e — The Born clause: the crack and the road (2026-07-07,
-operator's push: "map the superfluid and the answer stares at us";
+author's push: "map the superfluid and the answer stares at us";
 route-map grade, no result claimed).** The wall decomposes. THE CRACK
 (proven): Gleason 1957 — given the Hilbert-space ledger, |amplitude|²
 is the UNIQUE consistent pricing; "why these odds" is answered
@@ -1568,8 +1568,8 @@ condition already owe — the five-verdict machinery and the Born
 question share parts. One calculation, now with a second prize
 behind it.
 
-**C4f — Stability as exhausted trade (2026-07-07, operator's
-synthesis, refined; correspondence-grade).** The operator's law
+**C4f — Stability as exhausted trade (2026-07-07, author's
+synthesis, refined; correspondence-grade).** The author's law
 ("everything pays to exist, netting zero; unstable atoms net ±,
 dirtying the floor") refined to exactness: the books NEVER show red
 ink (per-event conservation, C4c) — an unstable state is not in
@@ -1582,13 +1582,13 @@ third parties: radiation damage = unconsented transaction costs
 Receipts: the valley of stability (nuclear physics as a map of
 pending settlements); the U-238 chain — FOURTEEN consecutive
 settlements over 4.5 Gyr terminating at Pb-206, the first account
-with nothing left to gain (the operator's "cascading chains" made
+with nothing left to gain (the author's "cascading chains" made
 matter). Cosmic-scale instance: vacuum metastability — this model
 bets the floor holds no pending trades (true ground state,
 shift-protected) and signed it as P-2026-002.
 
-**C4g — The contingency tree (2026-07-07 evening, operator's milk
-run; correspondence-grade).** The operator's picture — every route to
+**C4g — The contingency tree (2026-07-07 evening, author's milk
+run; correspondence-grade).** The author's picture — every route to
 the outcome drafted simultaneously, each branch's CONTENT pre-written,
 nothing actual until posting — is the sum-over-histories (Feynman),
 with Heisenberg's potentia as the stocked-store ontology and one
@@ -1604,8 +1604,8 @@ ratios are the race statistics); the consistent-histories condition
 (the bank prices only story-sets that have stopped interfering)
 arrived unprompted from the posting language.
 
-**C4h — The denomination rule (2026-07-07 evening, operator's
-proposal red-teamed; the Born door re-graded).** Proposal: which
+**C4h — The denomination rule (2026-07-07 evening, author's
+proposal internally reviewed; the Born door re-graded).** Proposal: which
 branch posts is timing; the odds are payment-form preference. Scored:
 TIMING dies as outcome-selector (2015 loophole-free Bell tests:
 spacelike random settings chosen in flight — no timing mechanism
@@ -1617,15 +1617,15 @@ inverted one notch: the bank does not prefer big bills — it counts
 ONLY unit notes. Every branch exchanges into equal-amplitude
 fine-grained unit-branches; symmetry (envariance) forces equal notes
 = equal odds; **probability = the count of unit notes; |ψ|² is the
-exchange rate.** The operator's 98/2 superposition is 98 singles
+exchange rate.** The author's 98/2 superposition is 98 singles
 against 2. Genuine rate-level denominational preference exists one
 level down: Bose (1+n) — the bank favors money moving as money
 already moves (every laser). DOOR RE-GRADED: not "locked for
 everyone" — two picks in the lock (Gleason: pricing forced by ledger
 geometry, proven; Zurek: unit-note counting, respected but contested
-for circularity). Neither fully turned; the operator reconstructed
+for circularity). Neither fully turned; the author reconstructed
 the second from a cash register.
-**Addendum — "easier to distribute" (same evening):** the operator's
+**Addendum — "easier to distribute" (same evening):** the author's
 one-line follow-up is the third Zurek pillar, quantum Darwinism: the
 environment is a broadcast medium; branches become CLASSICAL when
 their records copy redundantly into many independently-readable
@@ -1706,7 +1706,7 @@ receipt: FIRAS's blackbody (|μ| < 9×10⁻⁵) is the audit that the action
 ledger has balanced since. Basin entry sits at/below that window and
 deposits nothing (gravity-only) — consistent. C1 survived the
 weak-force stress: massive clearinghouses exist (W/Z) but the cosmic
-one is measured massless to ~10 H0 (graviton-mass bounds); and Law 2's
+one is measured massless to ~10 H₀ (graviton-mass bounds); and Law 2's
 dissipative exception channel (spontaneous emission ↔ dark decay) is
 CLOSED for our medium by shift symmetry — registered as the model's
 second no-hedge prediction, **P-2026-002: the dark medium cannot decay;
@@ -1730,7 +1730,7 @@ parked until the (δK)² certificates define which modes exist.
 ---
 
 *History: v1–v3 (F(φ)R non-minimal coupling + screening) closed — four
-independent H0-rescue mechanisms failed by direct calculation. v4
+independent H₀-rescue mechanisms failed by direct calculation. v4
 (β-deformed dCDF) superseded by this document. Full v4 derivation including
 the GCG no-go algebra and the v4.1 logistic exploration:
 `PRTOE_v4_dCDF_derivation.md`. Results archaeology:

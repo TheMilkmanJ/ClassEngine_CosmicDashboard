@@ -4,8 +4,8 @@
 
 
 *t418's explicit ask ("the asserted √3 — owed a cleaner derivation"), discharged as a
-presentation of the banked object (the KP-sequester solve, #46; t241/244 value-independent
-form). Three lines, one honest flag. Status: the derivation as banked, with its single
+presentation of the recorded object (the KP-sequester solve, #46; t241/244 value-independent
+form). Three lines, one honest flag. Status: the derivation as recorded, with its single
 O(1) assumption named rather than hidden.*
 
 ## The chain
@@ -37,17 +37,17 @@ one-scale-ness.
 ## The one honest flag (named, not hidden)
 
 Line 1's coefficient is taken to be exactly 1 — the PAR-NORMALIZED gravitational rate. That is
-the SAME par-coupling question as the c-story (def363→t422's arc): a rate coefficient of, e.g.,
+the SAME par-coupling question as the c-story (internal record 363→t422's arc): a rate coefficient of, e.g.,
 0.9² would give Γ/H = √3 × 0.9. So the √3 is sharp GIVEN par, O(1)-fuzzy without it — and the
 why-now timing (t_turn = ln(1/√A_s)/(√3·H) ≈ 6.6/H) tolerates O(1) drift in Γ without losing
 its dial-free character (the logarithm dominates). The flag propagates to T8's file: the
 coincidence chain is dial-free with an O(1)-sharp, not exact-sharp, linewidth — unless/until
-the par question resolves (the α_c/zon arc), which would sharpen BOTH c and Γ with one stone.
+the par question resolves (the α_c/the α_c MCMC arc), which would sharpen BOTH c and Γ with one stone.
 
 ## What this replaces
 
 "Asserted single-scale-ness" → the one-scale identity is the fluid's defining property (the
-barotropic one-parameter form, banked from the founding); "asserted √3" → the Friedmann
+barotropic one-parameter form, recorded from the founding); "asserted √3" → the Friedmann
 factor, exact given par. The derivation's entire content: **a one-scale sector coupling at par
 through the only clearinghouse thaws at the Friedmann rate.** The universe's linewidth is √3
 because the universe's budget and the mode's rate are the same number read twice.

@@ -1,23 +1,20 @@
 # PRTOE and White Holes — the One That Ever Existed (2026-07-12)
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
-
-
 *White holes graded in the model's own grammar. Impossibility claims are claims: each is
 labeled with its grade, cites the record it inherits (nothing here is claimed as novel
-where the literature owns it), and names its killer. Statuses: [GRAMMAR] = the model's
-native re-derivation of a known result; [STRUCTURAL] = the model upgrades a
-statistical/record argument to a mechanism; [PRICED] = quantitative, reusing a banked
-computed number (fudge-grade, not zon-verified); [EXPLORATORY] = grammar-consistent,
-uncomputed. Companion: [PRTOE_wormholes.md](PRTOE_wormholes.md) (the throat, the warp
-bubble, the CTC). Sources in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) §11.*
+where the literature owns it), and names its killer. Statuses: \[GRAMMAR] = the model's
+native re-derivation of a known result; \[STRUCTURAL] = the model upgrades a
+statistical/record argument to a mechanism; \[PRICED] = quantitative, reusing a recorded
+computed number (estimate-grade, not MCMC-verified); \[EXPLORATORY] = grammar-consistent,
+uncomputed. Companion:* [*PRTOE\_wormholes.md*](PRTOE_wormholes.md) *(the throat, the warp
+bubble, the CTC). Sources in* [*BIBLIOGRAPHY.md*](BIBLIOGRAPHY.md) *§11.*
 
----
+\---
 
-## 1. Local white holes — FORBIDDEN BY THE ARROW [STRUCTURAL]
+## 1\. Local white holes — FORBIDDEN BY THE ARROW \[STRUCTURAL]
 
 The record: white holes are the time-reverse solutions of black holes, classically
-unstable [Eardley1974] and thermodynamically suppressed (a statistical argument).
+unstable \[Eardley1974] and thermodynamically suppressed (a statistical argument).
 
 The model upgrades the ban from improbable to ungrammatical: the arrow is not a
 statistical tendency here but a **background field value** — ⟨θ̇⟩ ≠ 0, the permanent μ,
@@ -26,29 +23,29 @@ one sign, everywhere. A local white hole requires a patch where settlements run 
 sets the clearing direction globally. No such patch exists: **the clearinghouse has no
 reverse gear.** Accounts close forward or not at all.
 
-## 2. THE ONLY TIME A WHITE HOLE HAS — AND EVER WILL — EXIST [GRAMMAR + EXPLORATORY]
+## 2\. THE ONLY TIME A WHITE HOLE HAS — AND EVER WILL — EXIST \[GRAMMAR + EXPLORATORY]
 
-The operator's flag: black holes switching to white holes at the mirror of the crunch.
+Black holes switching to white holes at the mirror of the crunch.
 The record already runs this program — the black-to-white hole transition
-[RovelliHaggard2014] — so the instinct independently reproduced live research.
+\[RovelliHaggard2014] — so the instinct independently reproduced live research.
 
 The model's ruling: **locally forbidden** (§1 — the arrow does not flip in patches), but
 **globally already on the books**: the crunch is the all-devouring horizon, and the snap
 is its exact mirror — the all-pouring reverse, once per cycle, with the fresh Kibble draw
 setting the new books. **The universe's only white hole is its own birth.** It exists for
 one instant — the neutral handover between crunch and pour, where the clearing direction
-changes hands — and then forward expansion takes the books. The mirror the operator
+changes hands — and then forward expansion takes the books. The mirror the author
 reached for exists; it lives at the cycle scale, not the object scale, and the price of
 admission stands as posted: *you bring your universe to its knees before you ever see
 one.*
 
 **Why the one survivor survives (the Eardley evasion):** the record's white-hole kill
-[Eardley1974] executes by exterior infall — matter blueshifting onto the anti-horizon.
+\[Eardley1974] executes by exterior infall — matter blueshifting onto the anti-horizon.
 The execution REQUIRES an outside. The snap has none: a white hole that is the entire
 universe for one instant is the unique white hole the instability theorem cannot touch.
 Every local white hole has an exterior and dies; the global one exists for exactly the
 neutral instant, then hands over. **Its brevity is not a concession — it is the
-evasion.** [STRUCTURAL]
+evasion.** \[STRUCTURAL]
 
 **The visible pour:** the snap's output is the hot start — the radiation-dominated
 fireball (BBN, the nuclei-cooking window, follows minutes later; the labels are distinct
@@ -56,15 +53,15 @@ and kept so). The CMB is the pour's afterglow, redshifted from white-hot to micr
 arriving from every direction because when the white hole is the whole universe there is
 no outside to stand in. The observer never looks AT the pour; the observer is inside it.
 
-**The dead reach, filed with the operator's suspicion vindicated:** a white hole pouring
+**The dead reach, filed with the author's suspicion vindicated:** a white hole pouring
 out dark matter converted to matter was self-flagged as "a huge reach," and the model's
 own ledger agrees quantitatively — the only DM↔matter door is the transfer vertex,
-computed COLD (seesaw-class junction, y ~ 10⁻⁶; bias ratio ~10⁻¹⁴). Unneeded anyway: the
-snap pours the medium itself, and the draw sets the new books. [PRICED]
+computed COLD (seesaw-class junction, y \~ 10⁻⁶; bias ratio \~10⁻¹⁴). Unneeded anyway: the
+snap pours the medium itself, and the draw sets the new books. \[PRICED]
 
-## 3. THE COUNTERPARTY RULE (the operator's catch) [GRAMMAR]
+## 3\. THE COUNTERPARTY RULE 
 
-The operator lined up the two kills and found one law: **anything running against the
+The author lined up the two kills and found one law: **anything running against the
 clearing direction is an isolation-only object, destroyed by its first transaction with
 the forward ledger.** A superposition (unsettled books) survives isolation and dies of
 one environmental photon — decoherence. A white hole (reversed clearing) survives
@@ -81,30 +78,31 @@ quantum phase scrambling) and the shared structure — anti-arrow states wrecked
 contact with an arrow-carrying environment — is also standard thermodynamic lore
 (time-reversed states need fine-tuned correlations any perturbation destroys). One
 grammar for three known facts, not a new mechanism. Cross-reference: the settlement law
-(PRTOE_quantum_superposition.md), the arrow-giver.
+(PRTOE\_quantum\_superposition.md), the arrow-giver.
 
-## 4. Fences and the named killer
+## 4\. Fences and the named killer
 
-- White holes are named by escape-direction, not light color — that the actual pour was
-  white-hot is a naming coincidence, filed as one.
-- "Time is neutral at the snap" is grammar-consistent (the clearing direction's handover
-  must sit between crunch and pour) but bounce dynamics are UNCOMPUTED — [EXPLORATORY],
-  not derived.
-- **The killer:** a confirmed **local** white-hole transient — e.g., the black-to-white
-  remnant signatures proposed for fast radio bursts / dark-matter remnants
-  [RovelliVidotto2018] — would falsify the global-arrow law of §1 outright, and with it
-  the arrow-giver's structural role. This file stands or falls with the arrow.
+* White holes are named by escape-direction, not light color — that the actual pour was
+white-hot is a naming coincidence, filed as one.
+* "Time is neutral at the snap" is grammar-consistent (the clearing direction's handover
+must sit between crunch and pour) but bounce dynamics are UNCOMPUTED — \[EXPLORATORY],
+not derived.
+* **The killer:** a confirmed **local** white-hole transient — e.g., the black-to-white
+remnant signatures proposed for fast radio bursts / dark-matter remnants
+\[RovelliVidotto2018] — would falsify the global-arrow law of §1 outright, and with it
+the arrow-giver's structural role. This file stands or falls with the arrow.
 
 *Jurisdiction note: everything above concerns the substrate's books — inside the
 Theory-of-Expansion border. The model grades the physics, not the dream.*
 
 ## Sources
-[Eardley1974], [RovelliHaggard2014], [RovelliVidotto2018], [ArkaniHamed2004] — full
+
+\[Eardley1974], \[RovelliHaggard2014], \[RovelliVidotto2018], \[ArkaniHamed2004] — full
 entries in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) §11.
 
----
+\---
 
-## Addendum (2026-07-12, the operator's realization): WHY GR PREDICTS WHITE HOLES AT ALL [GRAMMAR]
+## Addendum (2026-07-12, the author's realization): WHY GR PREDICTS WHITE HOLES AT ALL \[GRAMMAR]
 
 GR's equations are time-symmetric — they own no arrow. Every black hole solution
 therefore ships with its time-reverse for free, and the complete Schwarzschild geometry
@@ -114,7 +112,7 @@ metric.** In this model the arrow lives in the medium (⟨θ̇⟩, the permanent
 condensate signs only one half of what the equations permit — except at the one moment
 with no counterparty (§2, §3).
 
-The operator's form, adopted: **the white-hole solution is not a prediction of an object;
+The author's form, adopted: **the white-hole solution is not a prediction of an object;
 it is the receipt of the initial condition.** The universe realized the white half
 exactly once — as its own opening — and the time-symmetric equations have carried the
 record ever since. Nobody could find a white hole IN the universe because the white hole
@@ -125,7 +123,7 @@ Record credit (per the house rule): "the Big Bang is structurally white-hole-lik
 relativity literature, and universe-from-white-hole proposals are decades old. What is
 native here is the MECHANISM that makes it the only realization: the arrow as a field
 value (not a statistic), the counterparty rule, the no-exterior Eardley evasion, once per
-cycle. [GRAMMAR — one reading of known solutions; no new solution claimed.]
+cycle. \[GRAMMAR — one reading of known solutions; no new solution claimed.]
 
 **The scoreboard and the record's near-miss (2026-07-12):** the observational census —
 black holes in essentially every massive galaxy, confirmed white holes ZERO — is exactly
@@ -137,19 +135,19 @@ the very instability this file runs on — a lagging core has an exterior, so th
 counterparty rule executes it. The one proposal that put white holes INSIDE the universe
 was killed by the clause; the one realization OUTSIDE all counterparties is the genesis.
 
----
+\---
 
-## Addendum 2 (2026-07-12, the operator's identification): THE FOUNTAIN IS THE POUR [GRAMMAR]
+## Addendum 2 (2026-07-12, the author's identification): THE FOUNTAIN IS THE POUR \[GRAMMAR]
 
-The operator connected today's shelf to the banked genesis mechanism and closed a loop
+The author connected today's shelf to the recorded genesis mechanism and closed a loop
 the books had left open: **the heat fountain and the white hole are the same instant in
-two grammars.** The thermodynamic ledger (PRTOE_cyclic_torus_genesis.md, MATH_SPINE):
-blueshifted crunch radiation reignites through T_c and fountains. The geometric ledger
+two grammars.** The thermodynamic ledger (PRTOE\_cyclic\_torus\_genesis.md, MATH\_SPINE):
+blueshifted crunch radiation reignites through T\_c and fountains. The geometric ledger
 (this file): the time-reversed horizon pours, once, with no counterparty. One event, two
 languages — the white hole is the fountain's name in GR; the fountain is the white hole's
 mechanism in the medium.
 
-Already banked, now unified: the fountain pours EVERYWHERE (the preregistered file's own
+Already recorded, now unified: the fountain pours EVERYWHERE (the preregistered file's own
 proof — radial flow from a spherical center is curl-free and cannot spin up; there is no
 pour-point), and the fountain MAKES THE TORUS dynamically (the confined plume rolls up at
 its edge, Kelvin-Helmholtz, into a helical vortex ring — "why not a sphere"), while the
@@ -158,15 +156,15 @@ Topology holds what dynamics loses.
 
 The inheritance: the one white hole poured through a shape that remembered its axis, so
 the pour was everywhere-at-once but axis-marked — and that memory is the registered
-observable family (the ℓ~130 comb P-029, the ε-dipole P-024, the isocurvature line
+observable family (the ℓ\~130 comb P-029, the ε-dipole P-024, the isocurvature line
 P-031). **The white-hole reading inherits the genesis's falsifiers**: the axis family in
-the data is the fingerprint of how the fountain poured. [GRAMMAR — unification of two
-banked descriptions; no new mechanism; the torus's dynamical origin stays owned by the
-banked Kelvin-Helmholtz roll-up.]
+the data is the fingerprint of how the fountain poured. \[GRAMMAR — unification of two
+recorded descriptions; no new mechanism; the torus's dynamical origin stays owned by the
+recorded Kelvin-Helmholtz roll-up.]
 
 **Asked and answered (2026-07-12) — can the white hole do birefringence? NO, three walls:**
-(1) timing — CMB polarization is minted at last scattering, ~380 kyr after the pour;
-rotation accumulates only along the post-recombination path; (2) coupling — the banked
+(1) timing — CMB polarization is minted at last scattering, \~380 kyr after the pour;
+rotation accumulates only along the post-recombination path; (2) coupling — the recorded
 P-009 closed null: the medium is EM-neutral BY FORCE (the Meissner bill), anomaly
 coefficient exactly zero, and the white hole is the same medium, adding geometry, not
 couplings; (3) the pour's parity mark is real but lives in the vorticity/magnetic
@@ -174,8 +172,8 @@ channel: P-028's genome-signed magnetic helicity — birefringence's cousin in t
 the neutral medium actually owns. The anti-birefringence bet (the unownable 0.34°) stands
 unchanged, white hole included.
 
-**The ramp audit of the three walls (2026-07-12, operator-forced) — and T10's identity:**
-the operator ramp-checked the birefringence answer and one wall moved. Wall 2 (anomaly
+**The ramp audit of the three walls (2026-07-12, author-forced) — and T10's identity:**
+the author ramp-checked the birefringence answer and one wall moved. Wall 2 (anomaly
 coefficient exactly zero) is a LEGAL step — the exemption clause (quantized/anomaly
 numbers may step; topology doesn't ramp). Wall 1 was step-PHRASED: the pour cannot rotate
 light en route, but it writes light's BIRTH CERTIFICATE — parity-odd initial conditions
@@ -186,31 +184,31 @@ across scales with birefringence-specific EB/TB shapes; primordial parity-odd so
 carry their own spectra), so the anti-birefringence bet stands unchanged while T10 gains
 its physical identity: **the white hole's fingerprint in light** — the one
 no-counterparty instant stamps parity-odd structure on everything it pours, and
-parity-even physics downstream preserves what it cannot erase. Fence: the operator's
-"gravity reverses and attaches to light" mechanic grades [EXPLORATORY] — the banked snap
+parity-even physics downstream preserves what it cannot erase. Fence: the author's
+"gravity reverses and attaches to light" mechanic grades \[EXPLORATORY] — the recorded snap
 is a neutral HANDOVER, not a rule inversion, and census blindness holds at genesis; the
 mechanic's observable content (the at-birth parity stamp) is the real and already-owed
 channel. The amplitude computation is the owed step (T10) — no signal size is claimed
 until it runs.
 
-**T10-light PAID (2026-07-12, fudge-grade — the fingerprint's amplitude):** three
+**T10-light PAID (2026-07-12, estimate-grade — the fingerprint's amplitude):** three
 channels priced against literature benchmarks. (A) Chiral-GW TB/EB ∝ r × chirality: even
-at maximal genome-signed chirality, the banked bounce r ("far below current bounds")
+at maximal genome-signed chirality, the recorded bounce r ("far below current bounds")
 puts it ≥100× under the LiteBIRD/S4-class future floor. (B) Faraday rotation off the
 P-028 helical field (5×10⁻¹⁸ G): 4.5×10⁻¹⁰ degrees at 100 GHz — 9 orders below the 0.34°
 EB hint. (C) Magnetic stress EB/TB ∝ B⁴: 10⁻³⁴ relative. VERDICT: **the white hole signs
-light in invisible ink.** The at-birth channel is real (strike 9's ramp) and FAINT — so
+light in invisible ink.** The at-birth channel is real (process error 9's ramp) and FAINT — so
 the model's sharp prediction, zero new mechanisms: the EB sky is NULL beyond calibration
 systematics; the 0.34° hint is unownable by ANY sector of this model and must resolve as
 a systematic (it is degenerate with polarimeter calibration angles). The loud copy of the
 signature stays where registered: the genome-signed magnetic helicity (P-028, parity-odd
-radio/gamma) and the axis family. GR's receipt preserved, the neutrality null preserved,
-no new mechanism spent. [FUDGE-GRADE amplitudes; T10's heavy remainder (proper spectral
+radio/γ) and the axis family. GR's receipt preserved, the neutrality null preserved,
+no new mechanism spent. \[ESTIMATE-GRADE amplitudes; T10's heavy remainder (proper spectral
 shapes) stays on the debt list, de-urgented by these ceilings.]
 
----
+\---
 
-## Addendum 3 (2026-07-12, operator-demanded): THE REVERSAL AUDIT + THE VALIDATION AUDIT
+## Addendum 3 (2026-07-12, author-demanded): THE REVERSAL AUDIT + THE VALIDATION AUDIT
 
 **The reversal audit (is the no-birefringence verdict mirror-proof?):** physics owns
 exactly three discrete mirrors — C, P, T — and their products. Every one is an
@@ -222,38 +220,39 @@ content is the SIGN of parity-odd stamps** (the genome's sign, the matter/antima
 draw, the helicity autograph), never new couplings. The verdict is mirror-proof.
 
 **The validation audit (is the identification earned?):** a white hole's four defining
-properties, tested against the banked snap:
-1. *Exit-only causal boundary* — PASS (the arrow forbids entry; entry = a backwards
-   settlement).
-2. *Time-reverse of a collapse* — PASS with the distinguishing refinement: the crunch is
-   the collapse, the bounce is the black-to-white transition ([RovelliHaggard2014] at
-   cosmic scale), and ONLY THE CAUSAL STRUCTURE MIRRORS — entropy rides forward through
-   the bounce (the banked Tolman carrier). A full T-mirror would break Tolman; ours is a
-   causal white hole with forward books. This is content, not weakness.
-3. *No exterior* — OWNED DEVIATION from Schwarzschild: the textbook object sits in an
-   empty exterior; ours has none, and the deviation does work (the Eardley evasion, the
-   counterparty exemption).
-4. *A past horizon* — PARTIAL, the honest fence: Schwarzschild's white boundary is null;
-   the cosmic past boundary is spacelike. The identification is **causal-structure
-   class, not an isometry** — posted here before any critic posts it for us.
+properties, tested against the recorded snap:
 
-**Status:** the identification validates as a structural reading with three banked
+1. *Exit-only causal boundary* — PASS (the arrow forbids entry; entry = a backwards
+settlement).
+2. *Time-reverse of a collapse* — PASS with the distinguishing refinement: the crunch is
+the collapse, the bounce is the black-to-white transition (\[RovelliHaggard2014] at
+cosmic scale), and ONLY THE CAUSAL STRUCTURE MIRRORS — entropy rides forward through
+the bounce (the recorded Tolman carrier). A full T-mirror would break Tolman; ours is a
+causal white hole with forward books. This is content, not weakness.
+3. *No exterior* — OWNED DEVIATION from Schwarzschild: the textbook object sits in an
+empty exterior; ours has none, and the deviation does work (the Eardley evasion, the
+counterparty exemption).
+4. *A past horizon* — PARTIAL, the honest fence: Schwarzschild's white boundary is null;
+the cosmic past boundary is spacelike. The identification is **causal-structure
+class, not an isometry** — posted here before any critic posts it for us.
+
+**Status:** the identification validates as a structural reading with three recorded
 payments (the receipt, T10's identity, the scoreboard) and zero new mechanisms or
 parameters. Crown-jewel status is CONDITIONAL — it inherits the axis family's falsifiers
 (P-029/024/031/032) and the anti-EB bet; it is crowned by the maps or bled by them.
 
----
+\---
 
-## Addendum 4 (2026-07-12, the operator's sign law): SAME LAW, OPPOSITE WORK [GRAMMAR]
+## Addendum 4 (2026-07-12, the author's sign law): SAME LAW, OPPOSITE WORK \[GRAMMAR]
 
-The operator's form: gravity never changes rules at genesis — it flips the SIGN of its
+The author's form: gravity never changes rules at genesis — it flips the SIGN of its
 work. Mechanically exact and record-legal: the acceleration equation responds to
 ρ + 3p (pressure pays once per spatial direction — the three), so the SAME law with the
 SAME constant does opposite work when the dominant source has p < −ρ/3. The pour's
 engine is the condensate's own w = −1 pressure driving the equation repulsive — the
 superfluid "enters and makes itself known" as the bounce's required push. No new rule,
 no G sign change, no reversal clause: the flip lives in the source, and everything still
-clears through gravity at genesis (census blindness holds). The operator's k_up/−k_down
+clears through gravity at genesis (census blindness holds). The author's k\_up/−k\_down
 = the sign of the acceleration.
 
 **Timing fix (booked):** the handover to attractive work is the pour-to-radiation
@@ -266,37 +265,41 @@ sector re-dominating: dark energy). ΛCDM needs two unrelated repulsion stories
 (primordial + Λ); this model has ONE component doing ONE thing at two epochs — the white
 hole's push and today's accelerating sky are the same mechanism. The cycle is gravity's
 work-sign alternating as the medium's accounts trade dominance (the crunch's turn is the
-banked cycle map's business, not improvised here).
+recorded cycle map's business, not improvised here).
 
----
+\---
 
-## Addendum 5 (2026-07-12, the operator's question): THE MEETING READING — k_up MEETS −k_down [GRAMMAR]
+## Addendum 5 (2026-07-12, the author's question): THE MEETING READING — k\_up MEETS −k\_down \[GRAMMAR]
 
 Not two literal objects (the §Addendum-3 fences hold: horizons, isometry) — but as a
 reading of the two-fluid structure, exact: the medium carries BOTH signs at every moment.
-The excitations do gather-work (the black sign, k_up); the condensate does pour-work (the
-white sign, −k_down); the cosmic history is which sign holds the gavel (pour-led genesis,
+The excitations do gather-work (the black sign, k\_up); the condensate does pour-work (the
+white sign, −k\_down); the cosmic history is which sign holds the gavel (pour-led genesis,
 gather-led middle, pour-led since z ≈ 0.7 — Addendum 4's twice-crossed threshold).
 
 **The record's coincidence, claimed as RENAME only:** the observable universe's
 Schwarzschild radius ≈ the Hubble radius — critical density IS the black-hole condition
 in cosmology's units (a known observation; flatness restated, O(1)-loose). In horizon
 language, Ω = 1 says NEITHER SIGN OWNS THE PLACE: too much gather → collapse; too much
-pour → hyperbolic emptiness; exactly at threshold → the cycle. The operator's "k_up
-meets −k_down" = Ω = 1 as the balanced meeting.
+pour → hyperbolic emptiness; exactly at threshold → the cycle. The author's "k\_up
+meets −k\_down" = Ω = 1 as the balanced meeting.
 
 **The motif register (structural watch, not a claim):** the model now shows THREE
 exactly-at-threshold conditions — occupancy exactly one (the pinch), founding capital
-exactly minimum (the minimum-capital candidate, sweep 42), density exactly critical (the
+exactly minimum (the minimum-capital candidate, entry 42), density exactly critical (the
 balanced meeting). Whether the three exactlys are one law is basement-roster business
 (#18). Debt honestly restated: flatness must be DERIVED from the cycle map, not assumed
 — the bounce owes it (cycle-map business, standing).
 
-**The merged reading + the decay reading [GRAMMAR]:** the universe inherits both
-work-sign CHARACTERS while being neither OBJECT (the meeting reading's one-line form).
-Decay exists because the pour was one enormous unsettled posting — every particle decay
-and dissipation since is the settlement cascade of the opening deposit. Record credit:
-the past hypothesis (Boltzmann; Penrose's low-entropy initial condition) in ledger
-grammar. "Inside the white hole" is causally literal — everything lives in the causal
-future of the pour; the gather-resemblance is the gather-dominated chapters of the
-pour's interior settling out.
+**The author's settled position (2026-07-12, verbatim substance) + the decay reading:**
+"the idea of both merged into one — not the contents of them, but the ideas" — adopted as
+the meeting reading's cleanest one-line form (the universe inherits both work-sign
+CHARACTERS while being neither OBJECT). And the interrupt's keeper: decay exists because
+the pour was one enormous unsettled posting — every particle decay, dissipation, and
+burn-down since is the SETTLEMENT CASCADE of the opening deposit, still clearing. Record
+credit: this is the past hypothesis (Boltzmann; Penrose's low-entropy initial condition)
+in ledger grammar — all irreversibility traces to the unbalanced opening books. "We live
+deep inside the white hole" is causally literal: everything that exists lives inside the
+causal future of the pour; the gather-resemblance is the gather-dominated CHAPTERS of the
+pour's interior settling itself out. \[GRAMMAR — renames of recorded + record physics.]
+

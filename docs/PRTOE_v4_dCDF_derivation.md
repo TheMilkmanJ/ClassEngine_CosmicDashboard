@@ -26,8 +26,8 @@ genuine physics/units errors caught by actually running the code, exactly
 the kind of thing hand-derivation can't catch):
 1. **Budget double-fill**: forcing Ω_Λ's shooting flag to "already set" only
    blocked *that* auto-fill branch; Ω_fld's `else if` then filled the
-   residual instead. Fix: wrap the whole lambda/fld/scf auto-fill chain in
-   `if (pba->use_dcdf==_FALSE_)`, not just the lambda branch.
+   residual instead. Fix: wrap the whole λ/fld/scf auto-fill chain in
+   `if (pba->use_dcdf==_FALSE_)`, not just the λ branch.
 2. **Units mismatch**: `dcdf_rho_inf` is documented "in H0² units" but was
    never actually multiplied by H0² before being compared against
    `rho_dcdf` (which *is* in absolute units via the `Ω_ini·H0²·a⁻³` initial
@@ -41,7 +41,7 @@ the kind of thing hand-derivation can't catch):
    0 breaks CLASS's synchronous-gauge assumption (comoving slicing is
    *defined* relative to the CDM rest frame) — fatal error in
    `perturbations_init`. Fixed by using CLASS's own existing
-   `ppr->Omega0_cdm_min_synchronous` floor (1e-10, physically negligible)
+   `ppr->Omega0_cdm_min_synchronous` floor (1×10⁻¹⁰, physically negligible)
    instead of an exact zero.
 
 Also confirmed numerically: for β→0 the continuity equation with
@@ -52,13 +52,13 @@ exactly — this is the shooting initial-guess formula now used in
 
 **Sample working parameters** (`test_dcdf_v4.ini`): h=0.674, Ω0_dcdf=0.9492
 (closes budget with Ω_b=0.049, one 0.06eV ncdm species, radiation),
-dcdf_beta=1e-7, dcdf_rho_inf=0.7 → age=13.98 Gyr, σ8=0.789, w(today)≈-0.70,
+dcdf_beta=1×10⁻⁷, dcdf_rho_inf=0.7 → age=13.98 Gyr, σ8=0.789, w(today)≈-0.70,
 c_s²(today)≈5×10⁻⁸ (order β, as predicted). Falsifiability tests (§6) still
 not run — this was a functionality check, not yet a physics comparison
 against ΛCDM.
 This supersedes the v3 (F(φ)R non-minimal coupling) program, which is closed —
 see `[[prtoe-screening-nogo]]` memory / `HANDOFF_FOR_GEMINI.md` for the four
-independent H0-rescue attempts that failed by direct calculation. v4 does **not**
+independent H₀-rescue attempts that failed by direct calculation. v4 does **not**
 modify gravity. It replaces separate CDM + Λ (or CDM + fld) with a single dark
 fluid whose equation of state depends on its own density, unifying "dark matter"
 (dense, clustering, dust-like) and "dark energy" (dilute, relaxed, vacuum-like)
@@ -67,7 +67,7 @@ analogy: one fabric, stretched near mass, flat far from it.
 
 ## 0. Why not v3's approach, in one paragraph
 
-v3 coupled a scalar field to curvature, `F(φ)R`, and tried to get an H0 win from
+v3 coupled a scalar field to curvature, `F(φ)R`, and tried to get an H₀ win from
 the induced sound-horizon shift. Four independent attempts (trace-kick from
 φ=0, ξ₁ sign flip, λ sign flip, negative φ_ini) all failed or were provably
 sign-locked. v4 abandons curvature coupling entirely: gravity is exactly GR.
@@ -169,10 +169,10 @@ value, located near $s^\*\approx1$ for small β (from $2\beta s^2+s-1=0$):
 
 $$ c_s^2(\text{peak}) \approx 0.74\,\beta \tag{11} $$
 
-Verified numerically (not just algebraically) at β = 1e-1, 1e-3, 1e-5, 1e-7:
+Verified numerically (not just algebraically) at β = 1×10⁻¹, 1×10⁻³, 1×10⁻⁵, 1×10⁻⁷:
 peak scales linearly with β exactly as predicted, **while the transition
 width stays fixed at $s\sim4$–$5$ regardless of β** (checked: reaches
-$w>-0.01$ at $s\approx4.6$ for β from 1e-1 down to 1e-7). This is the
+$w>-0.01$ at $s\approx4.6$ for β from 1×10⁻¹ down to 1×10⁻⁷). This is the
 decoupling §3.1 lacked: β suppresses the dangerous peak sound speed
 independently of how compressed (in e-folds of density) the transition is.
 This is now the adopted background equation of state.
@@ -215,7 +215,7 @@ functions plugged into the existing fluid equations.
 
 ## 6. Falsifiability tests — now well-posed, not yet run
 
-1. **r_s / H0.** The transition (eq. 9–10) is not automatically near
+1. **r_s / H₀.** The transition (eq. 9–10) is not automatically near
    recombination — GCG-type transitions naturally sit at $z\sim0$ (to match
    today's $\Omega_{DE}$). To get *any* r_s effect, $\rho_\infty$ (equivalently
    the transition redshift $z_t$) must be deliberately placed near
@@ -298,13 +298,13 @@ code. The only new physics is $\rho_{\rm kin}(X)$, which reuses v4.0's
 machinery (background ODE + `has_fld`-style perturbations) applied to
 $\rho_{\rm kin}$ alone rather than $\rho_d$.
 
-This is also why the H0/r_s conclusion from §6 test 1 **carries over
+This is also why the H₀/r_s conclusion from §6 test 1 **carries over
 unchanged**: at high density (early universe), $\rho_{\rm kin}\to$ dust
 ($w_{\rm kin}\to0$) by construction (§9.4), and $\Lambda$ is negligible next to
 $\rho_{\rm kin}$ there — so the expansion history pre-recombination is
 ΛCDM+CDM to arbitrary precision regardless of $w_{\rm kin}$'s shape. Nothing
-in this section changes that; Gemini's ongoing v4.0 MCMC chi2 result is not
-wasted, it answers the same H0 question for v4.1 too.
+in this section changes that; Gemini's ongoing v4.0 MCMC χ² result is not
+wasted, it answers the same H₀ question for v4.1 too.
 
 ### 9.3 What's now free: $\rho_{\rm kin}$ no longer needs a fixed point
 
@@ -408,7 +408,7 @@ that route.
 
 ### 9.7 Verdict
 
-- **H0 / r_s:** unchanged from v4.0 — still no relief, same mechanism-inverted
+- **H₀ / r_s:** unchanged from v4.0 — still no relief, same mechanism-inverted
   result Gemini found, since $\rho_{\rm kin}\to$ dust at high-$z$ regardless of
   the ansatz (§9.2).
 - **σ8:** genuinely freed from the GCG no-go coupling (§9.3) — $w_1,\Delta$ are

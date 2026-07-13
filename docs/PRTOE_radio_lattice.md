@@ -35,7 +35,7 @@ varying-constant hypothesis, by arithmetic.**
 
 ## 2. The instruments and epochs
 
-The shifted regime is z > 50: the dark ages (the D/H arbiter against the CMB backlight; the
+The shifted regime is z > 50: the dark ages (the D/H referee against the CMB backlight; the
 lunar-farside band — "video killed the radio star" noted, the terrestrial RFI reality) and
 cosmic dawn's edge structure (P-022's three-verdict shape: the edge frequency mapping shifted
 +2.5%, snap-vs-patchy discriminating readings A/B). Below z = 50 the lattice predicts NULLS

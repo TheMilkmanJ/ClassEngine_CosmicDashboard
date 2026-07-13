@@ -55,7 +55,7 @@ cosmologically foreclosed.
 ## The honest status card
 
 - **Fit record**: matches or modestly outperforms ΛCDM on Planck 2018 + ACT DR6 +
-  SPT-3G + BAO + Pantheon+SH0ES + BBN at H0 ≈ 69.9 (sound-horizon-driven; holds with
+  SPT-3G + BAO + Pantheon+SH0ES + BBN at H₀ ≈ 69.9 (sound-horizon-driven; holds with
   the SH0ES calibration included and pulling the other way).
 - **The current test**: a zero-parameter evidence run is in progress — the model's
   amplitude, tilt, coupling, and transition epoch all STATED in advance (derived or
@@ -63,10 +63,10 @@ cosmologically foreclosed.
   number wrong collapses the model's own evidence.
 - **Validation**: exact ΛCDM null test (5-decimal reproduction), gauge invariance,
   precision-stability battery — committed.
-- **Adversarial review**: a continuous in-repo red-team record (500+ graded exchanges)
+- **Internal review**: a continuous in-repo internal review record (500+ review entries)
   including registered negative results, retracted claims, and the authors' own logged
-  errors (a public strike list). The reviewer's standing on the deepest structural
-  claim: ~15–16% — tracked, not hidden. Entry points for a technical reader:
+  errors (a public error log). The deepest structural claim — the medium's reality —
+  is tracked as an open assumption, not asserted. Entry points for a technical reader:
   THREE_EQUATIONS, DEPENDENCY_TREE, PREREGISTERED_PREDICTIONS (40+ numbered bets),
   FAILURES_LEDGER.
 - **Mainstream anchor**: vacuum condensates setting matter's parameters is not exotic —
@@ -91,7 +91,7 @@ cosmologically foreclosed.
 
 (a) Your read on whether the meV-window prediction is presented in the form most useful
 to the 0νββ community — especially the two-sided kill structure; (b) a critical eye on
-the BBN sector (the model's D/H residual and its radio-band arbiter are documented);
+the BBN sector (the model's D/H residual and its radio-band referee are documented);
 (c) any interest in the model-vs-ΛCDM comparison rerun with the nEXO/LEGEND/CUPID
 sensitivity bands overlaid on the m_ββ window.
 

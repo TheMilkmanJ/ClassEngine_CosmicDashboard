@@ -88,7 +88,7 @@ V = verified, exactly as used in our documents):
 
 - [V] **Pitrou, Coc, Uzan, Vangioni**, MNRAS 502, 2474 (2021),
   arXiv:2011.11320 — "A new tension in the cosmological model from
-  primordial deuterium?": PRIMAT post-LUNA D/H = 2.439±0.037, LCDM
+  primordial deuterium?": PRIMAT post-LUNA D/H = 2.439±0.037, ΛCDM
   itself at ~1.8sigma. The scar-repricing's theory-error anchor.
   Verified 2026-07-07 ~6:45am at booking.
 - [V] **Pisanti et al.**, JCAP 04 (2021) 020, arXiv:2011.11537 —
@@ -98,12 +98,12 @@ V = verified, exactly as used in our documents):
 
 - [V] **Jaffe**, PRD 72, 021301(R) (2005), hep-th/0503158 — Casimir
   forces computable without zero-point energy (relativistic van der
-  Waals; vanish as alpha -> 0). The cc-attack's Casimir deflation.
+  Waals; vanish as α → 0). The cc-attack's Casimir deflation.
   Verified 2026-07-07 ~7am at booking.
 - [V] **DESI DR2**: arXiv:2503.14743 (extended DE analysis) + DESI DR2
   results II, PRD 112, 083515 (2025) — DR2+Planck 3.1sigma CPL
   preference for evolving dark energy with phantom crossing. The
-  object of STANDING BET #3 (Lambda-exactly). Verified at booking.
+  object of STANDING BET #3 (Λ-exactly). Verified at booking.
 
 ## Tail closed (2026-07-07 ~6:15am — task #19, the pre-Fairbank gate)
 - [V] **Hafele & Keating**, Science 177, 166 & 168 (1972) — flown
@@ -114,7 +114,7 @@ V = verified, exactly as used in our documents):
   (C4's cosmological squeezing receipt).
 - [V] **Babichev, Dokuchaev, Eroshenko**, PRL 93, 021102 (2004),
   gr-qc/0402089 (+ JETP 100, 528 (2005), astro-ph/0505618) — ideal-
-  fluid/dark-energy accretion onto BHs, arbitrary p(rho) (the throat
+  fluid/dark-energy accretion onto BHs, arbitrary p(ρ) (the throat
   chapter's accretion frame).
 - [V] **Fardon, Nelson & Weiner**, JCAP 0410, 005 (2004),
   astro-ph/0309800 — MaVaN dark energy (the meV whisper's graveyard-
@@ -122,13 +122,13 @@ V = verified, exactly as used in our documents):
 - [V] **Blas & Sibiryakov**, PRD 84, 124043 (2011), arXiv:1110.2195 —
   Horava gravity vs thermodynamics; universal horizons trap
   any-speed modes (the universal-horizon addendum's anchor).
-- [V] **Kossert & Nähle (PTB)** — beta-decay-rate ratios over 2.7 yr
+- [V] **Kossert & Nähle (PTB)** — β-decay-rate ratios over 2.7 yr
   (arXiv:1612.00786 + follow-ups): annual-oscillation amplitudes
   consistent with zero to 0.004% (Na-22, Cl-36, Co-60, Sr-90,
   Cs-137). The lab-zero standing bet's decay-rate leg.
 - [V] **Scherrer**, PRL 93, 011301 (2004), astro-ph/0402316 — purely
-  kinetic k-essence as unified dark matter: rho -> rho_0 +
-  rho_1 a^-3 with c_s^2 << 1 (the §2 citation, exactly as used —
+  kinetic k-essence as unified dark matter: ρ → ρ_0 +
+  ρ_1 a⁻³ with c_s² << 1 (the §2 citation, exactly as used —
   note this IS the dyad's density form).
 - STILL TAIL (feed nothing numbered; verify if ever promoted):
   Super-K proton-lifetime bound; KATRIN/oscillation mass scales.

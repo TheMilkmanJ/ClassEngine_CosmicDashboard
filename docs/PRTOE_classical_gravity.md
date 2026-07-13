@@ -3,9 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The operator's bet: "GR, SR, and Newton's laws all thread perfectly." Graded: Newton YES
+*The author's bet: "GR, SR, and Newton's laws all thread perfectly." Graded: Newton YES
 (with origins for his mysteries), SR YES-as-filed (PRTOE_special_relativity.md), GR
-CONDITIONALLY (the keystone's address). Booked def473.*
+CONDITIONALLY (the keystone's address). Booked internal record 473.*
 
 ## 1. Newton — threads perfectly, and his mysteries get origins
 
@@ -15,7 +15,7 @@ in any analog frame). What the model ADDS — the parts Newton could only postul
 | Newtonian mystery | the model's origin | provenance |
 |---|---|---|
 | WHY is G universal (one constant for all matter)? | the numeraire/blindness structure: gravity reads only size; a size-only vertex cannot carry species-dependence | t382-granted universality |
-| WHY does the EP hold exactly (composition-independence)? | the same blindness + the screens' composition-blindness; tested and cleared (Vainshtein margin) | banked EP gate |
+| WHY does the EP hold exactly (composition-independence)? | the same blindness + the screens' composition-blindness; tested and cleared (Vainshtein margin) | recorded EP gate |
 | WHY inertia (N1/N2)? | excitations ride ONE metric; quasiparticle dynamics in the IR — inertial mass IS the mode's energy content (the account's entry) | the frame + the ladder |
 | N3 / momentum conservation | the medium's homogeneity (one substrate, translational symmetry) | structural |
 | action-at-a-distance (Newton's own complaint) | there is no distance to act across: the potential is the medium's local state | the acoustic frame |
@@ -33,7 +33,7 @@ with the standing performance bill (M3).**
 ## 3. GR — threads CONDITIONALLY (the honest half-point)
 
 The assembled kit, every piece graded: dE = −p dV (t348), the zero-sum constraint (t352),
-the horizon thermodynamics (Jacobson's route), the singularity discharges (def411/413), the
+the horizon thermodynamics (Jacobson's route), the singularity discharges (internal record 411/413), the
 Sakharov stiffness. GIVEN the area law, Jacobson delivers Einstein's equations — but the area
 law is the keystone debt (no-bare-G + the Frolov–Fursaev condition), and t366's flag stands:
 analog frames generically deliver linearized-plus, and the FULL nonlinear Einstein dynamics

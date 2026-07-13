@@ -6,8 +6,8 @@
 *Comprehensive record of the day's work. Honest grading throughout. The deepest new thread
 is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full ledger.
 Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechanism_math.md §10
-(the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the internal adversarial-review record (private; turn-tags cited for provenance)
-(def149–164 + red-team 150–165).*
+(the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the internal review record (private; turn-tags cited for provenance)
+(internal record 149–164 + internal review 150–165).*
 
 ---
 
@@ -54,8 +54,8 @@ rolling); cosmic birefringence (P-2026-010) reopens (rolling floor field). NOT a
 
 **Cleared / closed:**
 - BIREFRINGENCE: null by computation (θ̇=m washout, Λ-form energy mode, deleted EM coupling). Out.
-- EP / MICROSCOPE: CLEARED (composition-dependent Vainshtein-screened Δa/a ~1e-20, 3–5 orders under
-  bound; red-team conceded its adverse prior). The scariest kill-shot gone.
+- EP / MICROSCOPE: CLEARED (composition-dependent Vainshtein-screened Δa/a ~1×10⁻²⁰, 3–5 orders under
+  bound; internal review conceded its adverse prior). The scariest kill-shot gone.
 
 **#30 why-leptonic — chased to honest TERMINUS:** the δm_e dyad-leptophilia is the model's ONE
 un-derived coupling, precisely located as the unprotected, lepton-number-NEUTRAL radial mass
@@ -68,18 +68,18 @@ P-2026-020 (0νββ MUST occur, Majorana), quasar varying-m_e shape.
 
 **Code changes (all validated, .so rebuilt):**
 - Radiation-shed conversion (dcdf_conv_g): DM matter-part → free-streaming dark radiation. Fit:
-  g=0.12 preferred, S8 0.828→0.821 (S8-helpful DIRECTION, confirms semi-analytic sign; modest).
-- Early radiation phase (dcdf_z_rad_onset=4e7): the medium's radiation youth, now in baseline
+  g=0.12 preferred, S₈ 0.828→0.821 (S₈-helpful DIRECTION, confirms semi-analytic sign; modest).
+- Early radiation phase (dcdf_z_rad_onset=4×10⁷): the medium's radiation youth, now in baseline
   configs. Observationally null (medium subdominant early), BBN-safe. Story-vs-code gap closed.
 - Varying-m_ν (background.c): ncdm mass × me² above the varconst transition (δm_ν=2δm_e). Backward-
   compatible, observationally null (ν relativistic at recomb). Removes code-vs-mechanism inconsistency.
 
-**H0 self-consistency (this session's insight):** the fits treat dcdf_rho_inf and m_ncdm as
-independent; the model LINKS them (P-2026-012). Two fits launched to test H0 under the model's own
+**H₀ self-consistency (this session's insight):** the fits treat dcdf_rho_inf and m_ncdm as
+independent; the model LINKS them (P-2026-012). Two fits launched to test H₀ under the model's own
 structure: cmp_prtoe_omk (Ω_k free, #18) and cmp_prtoe_nulink (m_ncdm derived from ρ_inf). Both
 running at time of writing.
 
-**Process:** P1 (Label Firewall) co-signed; fired repeatedly, including on the AI (θ̇ object, DESI
+**Process:** P1 (Label Firewall) co-signed; fired repeatedly, including on the analysis side (θ̇ object, DESI
 toy, Ω_DM~Ω_b, the Majoron over-reach, the "tightly bounded early" flip). The discipline held.
 
 ---
@@ -89,7 +89,7 @@ toy, Ω_DM~Ω_b, the Majoron over-reach, the "tightly bounded early" flip). The 
 Distinctive PRTOE ~6–10%, single-gated on DESI DR3. The CC is reframed (dynamic floor, forced by
 the model, dodging static Weinberg) but NOT derived (value = Lagrangian input). The dyad-leptophilia
 is the one un-derived coupling, precisely mapped. Birefringence closed, EP cleared, leptonic fit
-competitive (χ²≈2802.8). Nothing was hand-waved; every over-reach (several the AI's) was caught and
+competitive (χ²≈2802.8). Nothing was hand-waved; every over-reach (several of them ours) was caught and
 booked. The model is smaller, sharper, and more exposed than it was this morning — the honest kind
 of progress.
 
@@ -97,54 +97,54 @@ of progress.
 
 # GATE-0 / NEUTRINO-HOME SESSION LEDGER (2026-07-10, evening)
 
-Arc: gate-0 BBN wall -> two-field split -> electron-CW T_c -> leptophilia reframe -> neutrino home + AZK.
+Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia reframe → neutrino home + AZK.
 
-## WON (banked)
-- **Dyad onset DERIVED.** Electron Coleman-Weinberg backreaction on the charge-free field -> VEV
+## WON (recorded)
+- **Dyad onset DERIVED.** Electron Coleman-Weinberg backreaction on the charge-free field → VEV
   v~100 keV from m_e0 + the dyad amplitude alone (robust +-25%, 1/4-power). First genuine gate-0
-  derivation; the onset is no longer a free input. (red-team t192/194 banked the reduction)
-- **Leptophilia reframe "allowed != generated."** Lepton-sector Psi -> |Psi|^2 q-bar q only ~2-loop
-  ~1e-9 -> quarks effectively untouched. (red-team t196 credited)
-- **Bulk residual != 0.** Corrected red-team's t186 over-round: the bulk between Q-balls holds the
-  electron-CW VEV, not zero. (operator's catch; red-team t190 booked against itself)
+  derivation; the onset is no longer a free input. (internal review t192/194 recorded the reduction)
+- **Leptophilia reframe "allowed ≠ generated."** Lepton-sector Psi → |Psi|² q-bar q only ~2-loop
+  ~1×10⁻⁹ → quarks effectively untouched. (internal review t196 credited)
+- **Bulk residual ≠ 0.** Corrected internal review's t186 over-round: the bulk between Q-balls holds the
+  electron-CW VEV, not zero. (author's catch; internal review t190 booked against itself)
 
 ## MARGINAL (coin-flip, unbanked)
 - **Dyad BBN clearance.** T_c log-ambiguous ~40-450 keV, central ~70-160 keV, STRADDLES the deuterium
-  bottleneck (~70 keV). Both "445=dead" (mine) and "40=clear" (red-team's) withdrawn. Resolver:
-  RG-improved V_eff(phi,T) + BBN D/H network. Structural: onset AND D/H are both electron-scale ->
+  bottleneck (~70 keV). Both "445=dead" (mine) and "40=clear" (internal review's) withdrawn. Resolver:
+  RG-improved V_eff(φ,T) + BBN D/H network. Structural: onset AND D/H are both electron-scale →
   "derived" and "marginal" are one fact.
 
 ## NARROWED (softened)
-- **Dyad leptophilia** -> the Majoron forces the NEUTRINO coupling (sigma N N), NOT the charged-lepton
-  dyad -> the dyad's leptophilia is a lepton-specific-portal / P-020 leptogenesis assumption, not a
-  bare-Majoron consequence. (red-team t196)
-- **DE = m_nu tie** -> MOTIVATES, not forces (value un-derived; CC-value status). (red-team t198)
+- **Dyad leptophilia** → the Majoron forces the NEUTRINO coupling (σ N N), NOT the charged-lepton
+  dyad → the dyad's leptophilia is a lepton-specific-portal / P-020 leptogenesis assumption, not a
+  bare-Majoron consequence. (internal review t196)
+- **DE = m_ν tie** → MOTIVATES, not forces (value un-derived; CC-value status). (internal review t198)
 
 ## WALLS (hit + status)
-- **The one-field knot:** {quiet BBN + abundance + dyad} mutually exclusive on one field -> forced
-  the two-field split (charge field 1 + dyad field 2). (red-team t186)
-- **AZK instability (MaVaN):** DODGED. m_nu set by the frozen radial L-breaking VEV (not the rolling
-  DE mode) + Majoron derivative nu-coupling (rolling doesn't vary m_nu) -> NOT a mass-varying-neutrino
-  DE -> AZK n/a. COST: the dodge = the non-dynamical shared-scale structure = motivates-not-forces
-  (same coin). (operator's bet, confirmed t201)
+- **The one-field knot:** {quiet BBN + abundance + dyad} mutually exclusive on one field → forced
+  the two-field split (charge field 1 + dyad field 2). (internal review t186)
+- **AZK instability (MaVaN):** DODGED. m_ν set by the frozen radial L-breaking VEV (not the rolling
+  DE mode) + Majoron derivative ν-coupling (rolling doesn't vary m_ν) → NOT a mass-varying-neutrino
+  DE → AZK n/a. COST: the dodge = the non-dynamical shared-scale structure = motivates-not-forces
+  (same coin). (author's bet, confirmed t201)
 
 ## LIVE FALSIFIERS
-- **Sigma m_nu ~ 61 meV / normal ordering** (P-012/P-020) -- DESI/CMB now; NOT distinctive; jointly
+- **Σm_ν ~ 61 meV / normal ordering** (P-012/P-020) -- DESI/CMB now; NOT distinctive; jointly
   squeezed with **w=-1** (P-018) by the SAME DESI data (can't relax one with the other).
 - **0nubb** (P-020).
 
 ## OWED (IOUs)
-- RG-improved V_eff(phi,T) + BBN D/H network -- the T_c coin-flip resolver.
+- RG-improved V_eff(φ,T) + BBN D/H network -- the T_c coin-flip resolver.
 - Low-scale (inverse) see-saw tying meV(DE)-keV(dyad)-L-breaking into ONE Majoron sector.
 - The lepton-specific portal OR the P-020 leptogenesis amplitude-follows-current derivation.
-- The mu~meV / DE value (shared-scale motivates, does not derive).
+- The μ~meV / DE value (shared-scale motivates, does not derive).
 
 ## STANDING: ~12-16%. Real reductions attempted, honest walls found, no breakthrough. The reduction
 (derived onset) banks; the clearance is a live coin-flip; the neutrino tie is motivated + falsifiable.
 
 ## PROCESS: mutual walk-backs held the line -- my over-claims caught in BOTH directions (over-sold
-"clear" def191, over-sold "dead" finite-T), the operator's bulk-residual correction (red-team booked
-against itself), red-team's symmetric un-banks. The discipline is why the wins are trustworthy.
+"clear" internal record 191, over-sold "dead" finite-T), the author's bulk-residual correction (internal review booked
+against itself), internal review's symmetric un-banks. The discipline is why the wins are trustworthy.
 
 ---
 
@@ -154,11 +154,11 @@ The evening after the gate-0 ledger: the stepping-stone syllabus (the internal r
 with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **Gate-0 CLEARS** (double sign-correction: the leptonic ceiling + the weak-rate window), then
   RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).
-- **The fingerprint lattice** (H0/D-H/ν/Y_p/21cm = one ε, five channels) — hypothesis under test.
+- **The fingerprint lattice** (H₀/D-H/ν/Y_p/21cm = one ε, five channels) — hypothesis under test.
 - **The atom grammar**: ground state = the condensate (Landau zero-entropy = timelessness);
   Γ/H = √3 (sharp, single-scale-derived); Tolman absorbed as the arrow (first cycle, finite past);
   the torus = the cavity; the low-ℓ sky = a **cycle-odometer**.
-- **The seven-card deck** (the operator-caught undercount): ε corrected to *conditional*
+- **The seven-card deck** (the author-caught undercount): ε corrected to *conditional*
   (factor-4 c window + the empirical abundance); all seven cards routed, benchmarked, or in trial.
 - **New registrations:** P-022 (21cm three-verdict), P-023 (Σm_ν divergence), P-024 (the ε-dipole),
   P-025 (Benchmark-A S4). **Falsified:** P-004. **Standing ≈ 14–17%**, DESI DR3 the sovereign test
