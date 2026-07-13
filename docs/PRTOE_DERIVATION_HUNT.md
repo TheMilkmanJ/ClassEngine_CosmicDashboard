@@ -3738,3 +3738,68 @@ equation with the correct weights, and check whether str = +12π is delivered by
 founding point. **Registered before that computation exists: it delivers, or the
 G-closure dies by its own founding equation — the same executioner, now aimed at the
 right target.** The QG file's pinned −4.450 is superseded accordingly.
+
+## ENTRY 109 — TERMINATION-B: THE G-CLOSURE IS DEAD. The pre-registered computation ran and the roster does not deliver 12π. The "0.8% match" was two bookkeeping errors, both found and corrected by our own audits.
+
+**The computation (as pre-registered, ramps only, no reparametrizations):** the
+anisotropic heat kernel with the derived split couplings (ξ_H² = −1, ξ_Ḣ = −2/3) and
+the derived ghost-sign kinetic term (Z < 0), rebuilt the demand at the founding GP
+point.
+
+**THE RESULT: str(n = 1) = +3.0 (de Sitter) / −3.0 (matter) against the demand
+12π = 37.70.** A miss by an order of magnitude — and worse: **the value is
+epoch-dependent (it varies with Ḣ/H²), which is fatal on its own. A coupling constant
+cannot depend on the epoch.** The split coupling that entry 108 derived means the
+scale mode has no epoch-independent contribution to an induced Newton constant. The
+covariant induced-gravity bookkeeping does not apply to this mode, and the model's
+own structure is what proved it.
+
+**The ghost-free reading (the most generous available):** treat the amplitude mode as
+gravitational rather than matter (it IS the metric's scale mode — counting it as a
+matter species was arguably double-counting from the start). Then the roster is
+9 (fermions, filed jointly) + 1 (the phase Goldstone) = **10 against 37.70 — short by
+a factor 3.8.** No corner of the honest parameter space closes it.
+
+**THE AUTOPSY (where the celebrated 38 came from):**
+- **Leg 1: the twin doubling (18).** ADJUDICATED AWAY at entry 99 — Nambu–Gor'kov
+  redundancy; the census is 9. That leg was a double-count.
+- **Leg 2: the scalar block (20), which required a large negative ξ.** REVEALED AS AN
+  ARTIFACT at entry 108 — no such covariant ξ exists; the mode's coupling is split and
+  its kinetic term is a ghost.
+- **Both legs were removed by our OWN audits, running the author's own laws.** With
+  both corrected, the match evaporates. The 0.8% was never structure. It was two
+  bookkeeping errors that happened to sum to a number near 12π — precisely the
+  numerology the coincidence-watch and the menu-deflation were built to catch, caught
+  at last by the chain of ramps that started with "did you ramp that test?"
+
+**TERMINATION-B, per procedure 5a: the confidently-received wrong answer.** Every ramp
+walked, every origin visited, the failure lawful, certified, and booked. No further
+reparametrizations will be entertained; the n ≈ 1.47 slide remains banned; the
+question is closed.
+
+**WHAT DIES:**
+- "Newton's constant computed from the model's roster at 0.8%" — **DEAD.**
+- The 12π demand as a delivered match — **DEAD.**
+- "G measures ξ" as a one-measurement falsifier — **DEAD** (there is no single ξ, and
+  no epoch-independent induced G from this mode).
+- Every public claim resting on the closure (including outreach material) requires
+  correction. Flagged to the author immediately.
+
+**WHAT SURVIVES (stated conservatively, and it is not nothing):**
+- **The emergent-gravity FRAMEWORK** — the metric as the medium's collective structure;
+  gravity quantum by inheritance. This never depended on the closure; it is the
+  standard analog-gravity position and it stands.
+- **The three routes** (acoustic metric, Sakharov induction as a program, Jacobson) and
+  **the obstruction table** (Weinberg–Witten evasion, singularity discharge, the area
+  law via FFZ, nonlinear pricing) — untouched.
+- **The physical-regulator result** (the Bogoliubov coherence factors give O(1) = 1.0000
+  exactly): a genuine technical finding, still standing.
+- **Three derived facts, all new tonight:** ξ_phase = 0 (Goldstone theorem); the census
+  files jointly (Nambu redundancy); the scale mode is split-coupled with a negative
+  kinetic term — **the conformal-factor structure of real gravity, arriving by
+  derivation from the founding GP equation.** That last one is arguably the night's
+  most interesting physics, and it is what killed the closure.
+
+*The framework asked its sharpest question of itself, in public, with the answer
+pre-registered — and the answer came back no. The books record it at the same volume
+they would have recorded a win.*

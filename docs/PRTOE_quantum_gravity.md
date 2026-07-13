@@ -63,84 +63,59 @@ timing and passed identically.
 | The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal | established mechanism, adopted [FFZ 1997; t422] |
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
-## 5. Newton's constant at one loop: the closed form
+## 5. Newton's constant: the closure ATTEMPTED, PRE-REGISTERED, AND FAILED
 
-This is the framework's match-or-die computation [registered as such before it was
-attempted]. Sakharov's program historically stalls on a well-known obstruction: the
-quadratically divergent coefficient of the induced Einstein–Hilbert term is
-regularization-dependent, so 1/G appears to be a scheme artifact rather than a
-prediction.
+**This section records a failure.** It is kept in full, at the same length it would
+have had if it succeeded, because the attempt was the framework's own match-or-die
+test and the corpus does not hide its graves.
 
-**5.1 The regulator is physical here.** In a fundamental field theory the regulator is
-a bookkeeping choice; in a condensate it is a measurable property of the medium. The
-contribution of each mode to the induced action is weighted by its condensate mixing —
-the Bogoliubov coherence factors — giving a smooth, derived form factor
-(u_k v_k)² ∝ [1 + (k/K)²]⁻², where K is the coherence scale. The regulated one-loop
-coefficient evaluates to exactly the naive (sharp-cutoff) value: the physically
-regulated integral carries an O(1) factor of 1.0000. Within this model, the
-half-century scheme ambiguity of induced gravity is closed: *a medium that knows its
-ultraviolet has no regulator freedom.*
+**The program.** Sakharov's proposal makes 1/G a one-loop output of the matter content:
+if the framework's roster is right, the induced Newton constant should follow from a
+species sum with no free parameters. The framework registered this as its match-or-die
+test before attempting it.
 
-**5.2 The species sum.** The one-loop coefficient is a weighted sum over the field
-content at the coherence scale. The model's content (established independently by its
-particle-physics sector): three charged Dirac leptons, three Majorana neutrinos — each
-whose time-reversed pairing partners were ADJUDICATED (derivation log entry 99) as
-Nambu–Gor'kov redundancy — the pairing lives in the regulator (§5.1), so the census
-counts each quasiparticle once, at every pairing strength (the count is flat along the
-coupling ramp: Bogoliubov rotations mix, they never mint): **the fermion block is 9,
-filed jointly** — plus the condensate scalar itself (two real components) with non-minimal
-curvature coupling ξ. The weight convention is now **verified against the literature**
-(Visser gr-qc/0204062, Table 1, from Birrell–Davies): per species the raw
-Seeley–DeWitt coefficient is k₁ = (1/6 − ξ) for a generic scalar, −1/3 for a Dirac
-spinor, −1/6 for a Weyl/Majorana spinor — and the supertrace weights fermions with a
-*further* relative minus (Visser Eq. 12). The two minuses compound: **the fermion's
-net weight in str[k₁] is positive** (+2 per Dirac, +1 per Majorana, in units of a
-minimal real scalar component — confirmed independently by Visser's chiral-supermultiplet
-row, whose net k₁ = +1/2 = scalar ⅓ *plus* fermion +1/6). The earlier draft of this
-section carried a single minus; corrected, the supertrace is
+**What was actually achieved (the technical results, which stand):**
+- **The regulator is physical here** (§5.1 below): mode contributions are weighted by
+  the condensate's own Bogoliubov coherence factors, giving a derived form factor whose
+  regulated one-loop coefficient equals the naive value exactly (O(1) = 1.0000). Within
+  a medium, Sakharov's half-century scheme ambiguity closes: *a medium that knows its
+  ultraviolet has no regulator freedom.* This result survives the failure below.
+- **The census files jointly** (Nambu–Gor'kov redundancy): the condensate's time-reversed
+  pairing partners are not separate one-loop payers; the fermion census is 9, not 18.
+- **The phase mode decouples by theorem**: shift symmetry (Goldstone) forbids its
+  non-minimal coupling — ξ_phase = 0 exactly, at every coupling strength.
+- **The amplitude mode is the emergent metric's own scale mode**, and a direct
+  computation of its second-order action shows it is **split-coupled** (the H² and Ḣ
+  pieces carry different effective couplings: −1 and −2/3 at the founding point) with a
+  **negative kinetic term** — the conformal-factor structure of general relativity,
+  arriving here by derivation from the founding Gross–Pitaevskii equation rather than
+  by analogy. This is a genuine structural result, and it is what killed the closure.
 
-  str = 2(1 − 6ξ) + 9.
+**The failure, stated plainly.** With the corrected census and the derived couplings,
+the rebuilt species sum gives **str ≈ 3 (and epoch-dependent — it varies with Ḣ/H²)
+against the bootstrap demand of 12π ≈ 37.7**. Epoch dependence alone is fatal: a
+coupling constant cannot vary with the cosmological era. The most generous reading —
+treating the scale mode as gravitational rather than as a matter species — leaves
+str = 10 against 37.7, short by a factor of nearly four. **The framework does not
+deliver Newton's constant from its roster.** No corner of the honest parameter space
+closes the gap, and none will be manufactured.
 
-**5.3 The demand as an equation (the honest form, post-adjudication).** The bootstrap
-condition — the cutoff of an induced theory is the induced scale itself — makes the
-one-loop demand a pure number: |str| = 12π. With the adjudicated census this is a
-linear equation pinning ξ, conditional only on the sign convention (§5.4):
+**The autopsy of an earlier claim.** Drafts of this document reported a 0.8% match
+(str = 38 vs 12π = 37.70). That match rested on exactly two errors, both since found
+and corrected by this project's own audits: (i) counting the condensate's pairing
+partners as separate one-loop degrees of freedom (a double-count), and (ii) a large
+negative non-minimal coupling that the direct computation shows does not exist. With
+both corrected, the agreement evaporates. The lesson is recorded in the failures
+ledger: *a numerical coincidence assembled from two bookkeeping errors is exactly what
+a coincidence looks like from the inside.*
 
-  **THE DOOR IS NAMED (entry 106): 1/G = +str[k₁]κ²/2π. The amplitude coupling —
-SUPERSEDED (entry 108): the tensor algebra proved no single covariant ξ_amp exists —
-the scale mode's coupling is split (ξ_H² = −1, ξ_Ḣ = −2/3 at the founding point,
-exact) and its kinetic term is negative (the conformal-factor structure, derived).
-The covariant −4.450 bet was voided by discovery; the live computation is the
-anisotropic (preferred-frame) heat kernel with the split weights, pre-registered to
-deliver str = +12π at the founding point or kill the closure.**
-The convention bit was adjudicated by the framework's own keystone: the FFZ mechanism
-ties 1/G and horizon entanglement entropy to the same species sum, and entropy
-positivity (scalars +, fermions +; vectors −, per the Kabat contact term — a class
-this roster does not contain) forces the +str reading; the alternative breaks
-S = A/4G's own sign. Combined with the Goldstone theorem (entry 103: ξ_phase = 0
-exactly), the demand str = 11 − 6ξ_amp = +12π pins the founding coupling's amplitude
-half at −4.450 — the framework's registered prediction, awaiting its own radial-EFT
-derivation (pre-registered to hit this value or die) and any independent measurement
-(which executes either way).
-
-Earlier drafts celebrated proximity to clean fractions (−9/2, then −3/2); that
-celebration is RETIRED (entry 99, confirmed at ramped grade): a clean quarter-integer
-landing among the convention corners was 40–75% likely by chance — dense menus carry
-no evidence. What survives is smaller and stronger: **G measures ξ.** The framework
-converts Newton's constant into a measurement of its founding coupling; the one-bit
-court names the door, and any independent determination of ξ delivers the verdict —
-one measurement, crown or grave.
-
-**5.4 Open items on this computation** (named, none hidden): (i) ~~the heat-kernel
-weight-ratio convention~~ **EXECUTED 2026-07-13** — magnitudes confirmed, the fermion
-block's sign corrected; (ii) ~~the end-to-end sign chain~~ **EXECUTED 2026-07-13**
-(entry 86) — the matter-only branch closed adverse; the sign routes through the
-winding's vector sector; (iii) ~~the Kelvin-mode weight~~ **EXECUTED 2026-07-13** (entry 87) — the vector
-escape is dead fourfold; (iv) the pairing-doubling's validity in the gravitational
-channel, now extended to the vector sector; (v) ~~the co-landing~~ retired as numerology by (iii)'s
-execution; (vi) **THE ONE-BIT SESSION** — the Euclidean↔Lorentzian effective-action
-matching in the emergent-metric frame: the single item deciding the sign, and with it
-this section's fate.
+**What this means for the framework.** The emergent-gravity structure — the metric as
+the medium's collective description, gravity quantum by inheritance, the obstruction
+table of §4 — never depended on the closure and stands unaffected. What the framework
+has lost is its claim to *compute* G. It retains an emergent-gravity ontology with a
+physical regulator, a derived scale-mode structure that reproduces general relativity's
+own conformal-factor pathology, and an open question it can no longer pretend to have
+answered.
 
 ## 6. What this framework does and does not claim
 
