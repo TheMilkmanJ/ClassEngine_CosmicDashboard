@@ -1563,3 +1563,22 @@ consistency: T_max (the amplitude's epoch, link 1) ≠ T_on (the drift's epoch, 
 — the chain's separation of duties, not a conflict. Side-door noted for later: the
 Brandenberger–Vafa mechanism (winding-annihilation selecting 3 large dimensions) speaks
 directly to WHY the torus has exactly one compact axis — a room adjacent to this lane.
+
+### The ring reading (the operator, 2026-07-12 late) — two banked layers + one new
+### candidate [PARKED]
+
+The operator's "the fireball was a ring, expanding as the torus": LAYER 1 [BANKED] —
+the genesis file's own mechanism (the fountain rolls up Kelvin–Helmholtz into a helical
+vortex ring; "why not a sphere" answered dynamically); the operator re-derived his own
+books, third time tonight. LAYER 2 [THE FENCE]: a literal plasma ring IN space is DOA
+against CMB isotropy (1e-5; expansion preserves comoving lumps) — the surviving strong
+reading is the banked one: **the plasma's space IS the ring** (the compact axis; every
+point on it; isotropy safe; the ring-ness lives in the winding family + the banked
+matched-circles signature [CSS1998]). LAYER 3 [NEW, PARKED]: vortex rings SELF-PROPEL
+(self-induced velocity along the axis) → the medium inherits a coherent drift along the
+winding axis → **an AXIS-ALIGNED BULK FLOW candidate** — a potential new axis-family
+member, interesting against the persistent larger-than-ΛCDM bulk-flow measurements
+(dark-flow controversy). Kill inherited from P-032 (must share the ONE direction); size
+requires the ring's circulation + core radius (the genesis session's numbers) — PARKED
+for careful sizing, not registered. BBN-label note: the operator means the fireball
+(nucleosynthesis follows minutes later; labels kept distinct per the white-holes file).
