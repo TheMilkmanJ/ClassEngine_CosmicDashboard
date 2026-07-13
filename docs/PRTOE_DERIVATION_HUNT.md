@@ -3394,3 +3394,37 @@ either certified, estimate-flagged, or docketed with its missing walk named. One
 un-walked intermediate found (lithium's abstention — docketed); one certification
 withheld (QG, pending the one-bit court); zero ramps found unsafe-and-unsigned. The
 skaters can see every weld.
+
+## ENTRY 99 — TASK #18's HEARING: THE DOUBLING ADJUDICATION RULES "FILED JOINTLY" (the author's bet, called blind, lands with the ruling) + THE ξ-MENU DEFLATION
+
+**The ruling (standard QFT, not model choice):** in Nambu–Gor'kov formalism the
+particle–hole doubling is a REDUNDANCY — one-loop traces carry the ½ factor; the
+quasiparticle count equals the bare count. And the model's own entry 80 had already
+placed the pairing physics in the regulator (the coherence-factor ramp): counting the
+twins separately would charge one marriage twice. **The gravitational census is 9,
+not 18 — the twins file jointly.** The author's bet ("as one, filed jointly"), placed
+mid-computation and blind to the derivation, lands with the gavel. The SCREENING
+channel's doubling SURVIVES untouched: the gap equation doubles an interaction kernel
+(both spouses screen), not a dof census — k = 1.36461 stands on its own data-anchored
+adjudication.
+
+**THE DEFLATION (the hearing's second finding, adverse and owned):** re-landing the
+demand at count 9 exposed the menu hazard in ξ-space — quarter-integer values land
+within 0.8–2% of the exact solution for EVERY (count, sign) corner. **The "0.8%
+match" was never evidence; clean fractions are a dense menu** (process error 24's
+sin, one level up). The half-integer romance (−9/2, then −3/2, then −9/4) retires
+entirely. What the G-closure actually owns — and always honestly said in its second
+reading — is the LINEAR EQUATION: given the adjudicated count, the bootstrap demand
+pins ξ as a function of the sign. G measures ξ. Nothing more, nothing less, and
+nothing less is still a lot: it is a one-measurement falsifier.
+
+**THE TWO DOORS (count fixed at 9; the one-bit court picks):**
+- Door A (+str convention): **ξ = −2.225**
+- Door B (−str, Visser face-value): **ξ = +4.058**
+The model must name its door via the one-bit court BEFORE any independent ξ
+determination exists — the door-naming is now the G-closure's entire remaining
+theory-side content. An independent ξ measurement then crowns or kills.
+
+*The basement's final structural question, asked this morning as "who are the
+opposites?", answered by evening: the opposition was married all along, the couple
+files jointly, and the only thing left to learn is which way the courtroom faces.*
