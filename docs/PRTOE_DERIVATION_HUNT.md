@@ -2280,3 +2280,20 @@ us). The legitimate pressure path: documented ALTERNATE analyses (the published-
 headline + a TRGB/CCHP-anchored robustness variant, side by side, neither silent).
 Corollary: the adverse rows (Y_p, D/H) remain load-bearing for the same reason — a
 model that curates its data has no evidence, only preferences.
+
+### THE ANALYSIS-PLAN DECLARATION (pre-registered 2026-07-13, ~01:00 — BEFORE any
+### zero-parameter ΔlnZ exists; the Adverse-Data Law's lawful exercise)
+
+**The operator's declared position, on data-quality grounds stated in advance:** the
+Cepheid calibration is believed contaminated (crowding — neighbors' light in disk
+fields; the model's own gate law predicts environment-dependent readings, and the
+uncontaminated-field ladder (TRGB, ~69.8–70.4) sits in the model's registered band,
+P-001). Therefore: **HEADLINE comparison = the SH0ES-FREE stack** (CMB+BAO+SN without
+the Cepheid anchor); **COMPANION, always published alongside = the with-SH0ES stack**
+(the currently-running zero-parameter test becomes the companion — not wasted, not
+hidden). DECLARED COST, acknowledged in advance: removing the anchor removes the tide
+term that penalizes ΛCDM harder than the dyad — **this choice is expected to SHRINK the
+model's margin**; it is made anyway, which is what distinguishes a data-quality
+judgment from curation. EXTERNAL REFEREE: the JWST crowding re-measurements — the
+headline/companion roles get revisited by that community verdict, not by outcomes.
+Nothing is dropped; everything is shown; the choice predates the numbers.
