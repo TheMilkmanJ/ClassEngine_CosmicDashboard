@@ -2067,3 +2067,18 @@ gap owned by the v6 triad / SH0ES systematics / the unfound.
 
 The same-2 family notes its newest face: the race itself (ring vs wake — the gather and
 pour signs running the relay), and the comoving court that judges both fairly.
+
+### Sweep 64 ramp correction (strike 15 — the execution had two steps)
+
+(1) "DIPOLE-MARGINALIZED" WAS A BINARY DELETE: SH0ES removes a CONSTANT dipole; the
+drift's amplitude grows with lookback ((1+z)² — the banked rider), varying ~55 km/s
+across the survey window — a radially-varying dipole leaks into the monopole:
+**~0.2%-class H0 bias survives the marginalization.** (2) THE MEAN-FOR-LOCAL step: the
+compressive bias used drift/(whole 3-Gpc tail); the observable is the LOCAL gradient at
+the observer's structural position — the merger zone (where wake decelerates into ring,
+where the resurrection physics concentrates) can run an order above the mean.
+UNTOUCHED: the swirl's exact zero (divergence identity — exemption-legal).
+**RE-VERDICT: the lever is not dead — RETRACTED TO THE LEAKAGE FLOOR (~0.1–0.3%;
+73 → ~72.7–72.9 at tonight's sizing), with v4.1's observer-position profile (bias vs
+structural position) the named decider of the local channel's multiplier.** Strike 15
+logged; the depth-law corollary compounds: at genesis depth, even executions ramp.
