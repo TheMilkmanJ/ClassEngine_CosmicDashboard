@@ -1827,3 +1827,16 @@ problem's remaining O(1); target on record before the computation exists.
 targets — n's gain band (zon/comb referee), the 4.75-diameter discharge (the dark/baryon
 ratio's candidate geometry), the 2.1 window ratio (ε's mechanism). The inverse problem
 is now the most ambushed calculation in the repo.
+
+### Sweep 58 ramp correction (strike 12 — the pinch-off is not a knife)
+
+THE STEP CONFESSED: the partition used a sharp cutoff at F = 4 (cleaver model). The real
+pinch-off is a TAPER — the intake rolls off (lab F itself spans ~3.6–4.5), the ring sips
+a decaying fraction past nominal pinch-off, and the partition is the INTEGRAL of the
+intake ramp. Corrections: (i) the discharge demand becomes a band, L/D ∈ [4.3, 5.3] —
+the inverse problem owes the intake CURVE, not one number; (ii) the "19% overshoot"
+dissolves into the taper's tail; (iii) **THE UNLOCK — sweep 57's numerology flag gets
+its candidate mechanism:** ε = 0.88 (spin-up) and 0.843 (the mass share) are two
+WEIGHTED MOMENTS of the SAME intake curve (circulation-weighted vs mass-weighted) —
+naturally close, not equal, exactly as observed. The inverse problem's burden tightens:
+ONE curve must deliver BOTH numbers from its two moments. Strike 12 logged.

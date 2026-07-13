@@ -54,6 +54,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | Strike 9: the birefringence timing wall step-phrased ("polarization didn't exist yet") | ramped: the pour writes light's BIRTH CERTIFICATE — parity-odd initial conditions (P-028/T10) make EB/TB with no EM coupling; T10 = the white hole's fingerprint in light; en-route null unchanged (exempt anomaly zero) | 2026-07-12 (operator catch: "steps or ramps?") |
 | Strike 10: the thermalization ceiling coded as a wall (sweep 46) | the blackbody visibility ramp exp[−(z/z_dc)^{5/2}]: the 1/m-branch whispers at μ ~ 1.2e-9×eff (PRISM-reachable), not "silent forever"; discriminator survives at 7e5 ratio | 2026-07-12 (operator catch: "you didn't ramp it, did you?") |
 | Strike 11: the flow line's boundary condition ("ω = H at the pour") was a step | the spin-up ramp: circulation builds through the friction-era roll-up; the 0.5-vs-0.57 gap becomes the measured spin-up efficiency ε = 0.88; expansion-modified formation number = the candidate mechanism | 2026-07-12 (operator catch: "it started up slow") |
+| Strike 12: the pinch-off partition as a sharp cutoff at F = 4 | the intake TAPER: partition = the ramp's integral; target becomes a band (L/D 4.3–5.3); the unlock — ε (0.88) and the mass share (0.843) = two weighted moments of ONE intake curve, the sweep-57 numerology flag's candidate mechanism | 2026-07-12 (operator catch: "say it with me now") |
 
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 
