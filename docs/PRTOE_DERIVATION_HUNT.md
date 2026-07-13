@@ -2225,3 +2225,28 @@ the uniform full offset survives as the DESI-refereed BAO alias.
 
 **RAMP 3 — the curve fenced on three sides before any fit:** steepness (forest
 flatness), location (the host range), profile (P-022's fade). Strike 17 logged.
+
+## SIXTY-NINTH SWEEP — THE SIGN SESSION: ς = −1 (robust); the ceiling collapses; the
+## room inverts into the mass step's candidate explanation
+
+*(scripts/sigma_final_sign_v2.py; strike 18 en route: v1's single-template point-eval +
+the whole-SED compression conflating lines with continuum — v2 compresses ONLY the line
+features (Rydberg moves lines; the thermal continuum re-equilibrates via the counted
+Arnett channel) and scans the template space.)*
+
+**THE VERDICT [estimate grade]: ς = −1 in 162/162 configurations** (T, blanketing
+edge/width, β, filter proxies all scanned; Δμ ∈ [+0.0015, +0.047], median +0.015):
+unscreened-host SNe are assigned LARGER distances — the candle correction pushes the
+ladder DOWN. **The 73-reach dies at this grade**: the H0 ceiling collapses to
+~70.9–71.3 (leakage + τ only); the model's late-sky account is ~69.9–71 with the
+ladder's 73 standing as genuine residual tension (priced in the running evidence test's
+SH0ES term). The armed module stays OFF; the real-template + real-filter fidelity is
+the named (and only) appeal.
+
+**THE INVERSION — what strengthens:** the predicted host-environment step has the
+OBSERVED MASS STEP'S DIRECTION (screened/massive hosts relatively brighter
+post-standardization) at 0.015–0.047 mag vs the observed 0.05–0.08 — same sign, same
+class at the scan's edge. The candle room re-files as **a candidate physical
+explanation of the SN host mass step** (the gate curve's in-data fingerprint), testable
+via the step-vs-smooth-trend discriminant (strike 16) and the host-density (not
+host-mass) correlation it predicts. The H0_CEILING file inherits this verdict.
