@@ -4,7 +4,7 @@
 
 
 *The atom grammar applied to galactic dynamics, with the model's recorded mass. Status:
-STRUCTURAL (candidate) with computed numbers; booked internal record 419. The improvement over standard
+STRUCTURAL (candidate) with computed numbers; booked internal review. The improvement over standard
 CDM: a predicted, computable ground-state object in every halo — and an explanation, rather
 than an accident, for why this model SURVIVED the constraints that killed lighter fuzzy DM.*
 
@@ -16,7 +16,7 @@ If the dark matter is a condensate of quanta with mass m, every galaxy is litera
 the gravitational coupling. This is standard fuzzy-DM structure — the model's additions are
 (i) the mass is RECORDED, not tuned per-galaxy (m = 2.24×10⁻²⁰ eV, the H=m onset value now being
 MEASURED by the α_c chain), and (ii) the grammar is the same one that derived the cosmic floor
-(the Bohr×BEC skeleton of internal record 337).
+(the Bohr×BEC skeleton of internal review).
 
 ## 1. The ground state, computed
 

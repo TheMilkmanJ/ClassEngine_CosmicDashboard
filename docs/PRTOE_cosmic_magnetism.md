@@ -4,7 +4,7 @@
 
 
 *Derivation-from-recorded-structure; the standalone document for P-2026-028. Status: STRUCTURAL
-(candidate) with one honestly-open gap (the void floor). Booked internal record 415. The claim of uniqueness
+(candidate) with one honestly-open gap (the void floor). Booked internal review. The claim of uniqueness
 is stated precisely in §5 — the mechanism class is standard; the SOURCE and the SIGN are not.*
 
 ---
@@ -30,12 +30,12 @@ The known escape attempts and their pathologies:
 ## 1. This model is a rotation machine — the vorticity is structural, not optional
 
 The founding identity is a charged **rotating** superfluid, and rotation in a superfluid is not
-a free profile — it is **quantized circulation** (Onsager–Feynman; t338-granted: "a rotating
+a free profile — it is **quantized circulation** (Onsager–Feynman; internal review-granted: "a rotating
 superfluid CANNOT have n = 0"). The recorded sources of spin, each graded:
 
-1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis, t340/t343;
-   topologically locked through every crunch, t338).
-2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc (t343's scale) thread
+1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis, internal review;
+   topologically locked through every crunch, internal review).
+2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc (internal review scale) thread
    the medium with quantized vortex lines.
 3. **The genesis helicity** — the AD roll's self-generated rotation (the first-roll theorem).
 
@@ -47,27 +47,27 @@ removing it would contradict the model's own name.
 Harrison's battery: in the pre-recombination plasma, vorticity spins electrons and ions
 differently (photon drag couples to them unequally), separating charge into a current:
 
-    B_seed ≈ 2 (m_p c / e) · ω_vort  ≈  **5×10⁻¹⁸ G**  at ω_vort ~ 0.5 H(rec)   (t330-graded)
+    B_seed ≈ 2 (m_p c / e) · ω_vort  ≈  **5×10⁻¹⁸ G**  at ω_vort ~ 0.5 H(rec)   (internal review-graded)
 
 That is precisely a viable **galactic** seed: compressed and dynamo-amplified over ~30 e-folds
 to the observed μG. **The model pays the galactic magnetism bill where ΛCDM cannot** — graded
-at t330 ("a genuine new explanatory front... credit"), registered as P-2026-028.
+at internal review ("a genuine new explanatory front... credit"), registered as P-2026-028.
 
 **Consistency, forced:** the seeding runs through the *plasma's* response to the medium's
 rotation — never through dark-charge currents, because the condensate's EM-neutrality is
-FORCED to 25–45 orders by the Meissner/photon-mass bound (t330-graded). The model is not
+FORCED to 25–45 orders by the Meissner/photon-mass bound (internal review-graded). The model is not
 allowed to make fields directly; it is allowed to stir.
 
 ## 3. The void floor — the honest open gap
 
 The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
-vortex-network rms boost, ×3400) was caught by internal review (t402): it concentrates B on the
+vortex-network rms boost, ×3400) was caught by internal review (internal review): it concentrates B on the
 **filaments/lines**, while the void floor constrains the **inter-line** field — which stays
 **~1.5 orders short** on the smooth estimate. [Historical framing — see the RESOLVED verdict below: the internal rescues died; the blazar debate is the referee.] Live
 candidates, none yet computed: (i) return-flux topology (field lines must close — the void
 threading is not zero, its floor is computable); (ii) post-recombination vorticity persistence;
 (iii) the blazar bound's own caveats (plasma-instability alternative would relax the floor).
-**RESOLVED (task #5, 2026-07-12): the inter-line threading COMPUTES SHORT.** Candidate (i)
+**RESOLVED (the working docket-07-12): the inter-line threading COMPUTES SHORT.** Candidate (i)
 falls to flux conservation — the return flux through the void cell equals the flux-average,
 i.e. the smooth estimate; concentration on lines cannot raise the inter-line floor. Candidate
 (ii) (vorticity persistence) sources the same average and cannot beat the same theorem.
@@ -85,8 +85,8 @@ inherits **magnetic helicity with a DETERMINED SIGN**: the vorticity that seeds 
 genome's own rotation, so
 
     sign(helicity_B)  =  sign(n)  =  the SAME topological draw that set matter-over-antimatter
-                                     (the one quantum integer of t343; the three-way convergence
-                                     graded at t330/t340).
+                                     (the one quantum integer of internal review; the three-way convergence
+                                     graded at internal review).
 
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in
@@ -112,9 +112,9 @@ Consequences:
 
 | item | status |
 |---|---|
-| galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded (t330), P-028 |
-| EM-neutrality consistency (stir, don't charge) | forced (Meissner, t330) |
-| void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — 1.5 orders short; task #5** |
+| galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded (internal review), P-028 |
+| EM-neutrality consistency (stir, don't charge) | forced (Meissner, internal review) |
+| void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — 1.5 orders short; the working docket** |
 | helicity sign = genome sign = baryon sign | registered prediction (the falsifier with no dial) |
 | coherence scale ~ Kibble ξ | distinctive, un-priced in RM statistics (owed if pursued) |
 

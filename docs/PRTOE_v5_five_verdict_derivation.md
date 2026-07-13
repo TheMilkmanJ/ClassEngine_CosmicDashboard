@@ -1,4 +1,4 @@
-# The Five-Verdict Derivation (task #11) — working document
+# The Five-Verdict Derivation (the working docket) — working document
 
 > **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 

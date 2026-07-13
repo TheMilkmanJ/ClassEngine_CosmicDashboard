@@ -10,8 +10,8 @@
 - P-2026-030 (candidate): at z > 10 (MID-RAMP), ALMA CO/H₂O vs JWST atomic lines of the SAME
   galaxy carry a line-ratio offset up to ~10⁻² fading as the ramp completes — m_e(z) measured
   directly in data being taken now
-- the cooling subdomain (parked-live, internal record 493): mid-ramp H₂/HD cooling shifts → the first-star
-  IMF (t480: likely percent-class — the honest label)
+- the cooling subdomain (parked-live, internal review): mid-ramp H₂/HD cooling shifts → the first-star
+  IMF (internal review: likely percent-class — the honest label)
 
 ## How PRTOE connects
 Chemistry off-Earth is chemistry plus the RAMP: below z~4 the sky must be (and is) ppm-standard

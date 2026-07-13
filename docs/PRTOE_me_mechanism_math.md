@@ -278,7 +278,7 @@ internal review CAVEAT (rt161, 2026-07-10) -- the deeper gap this section does N
 medium is made of the neutrino sector" strictly implies a coupling to the WEINBERG author
 (→ dm_nu only). Reaching dm_e requires coupling to L's KINETIC term (Z_L), which is an
 ADDITIONAL step beyond "makes neutrino mass" -- and THAT step is the leptophilia postulate
-itself (dm_e is the charged-lepton Higgs-Yukawa L-bar H e = quark-structured, t156 no-go).
+itself (dm_e is the charged-lepton Higgs-Yukawa L-bar H e = quark-structured, internal review no-go).
 So the census refinement "couple to what you're made of" (laws doc, 2026-07-10) RENAMES the
 leptophilia gap "substance" but does not close it: it legalizes a dm_nu coupling; the dyad
 is dm_e. The un-derived core is precisely "why couple to L's kinetic term (reaching dm_e)
@@ -313,10 +313,10 @@ restoring); symmetry restored above T_c where it cancels the tachyonic curvature
 **T_c = m_e0·√(3(L−1)/2π²), coupling-independent, ~electron-scale.** Leading-log is UNRELIABLE
 here (μ~T_c → L−1→0 iterates unstably), so T_c is log-ambiguous ~40–450 keV, central ~70–160 keV —
 **STRADDLING the deuterium bottleneck (~70 keV).** Structural: onset AND D/H are both electron-scale
-→ "derived" and "marginal" are one fact. Resolver: RG-improved V_eff + BBN network (task #40).
+→ "derived" and "marginal" are one fact. Resolver: RG-improved V_eff + BBN network (the working docket).
 
 **Leptophilia (allowed ≠ generated).** Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
 EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia. CAVEAT
-(internal review t196): the Majoron forces the NEUTRINO coupling (σNN), NOT the charged-lepton Yukawa — so
+(internal review): the Majoron forces the NEUTRINO coupling (σNN), NOT the charged-lepton Yukawa — so
 the dyad's leptophilia rests on a lepton-specific portal / the P-020 leptogenesis route, not bare
 Majoron. Scripts: electron_cw_Tc.py, finite_T_Tc.py, leptophilia.py.

@@ -51,7 +51,7 @@ unitarity (`v5_dCDF:1178`). Author's plain-language forms shown in quotes.
     Guardrail: the "medium is made of gravity" monism is a category error — gravity
     has no mass/abundance/clustering, so identifying the two would dissolve every
     dark-matter property the model needs.
-  - **Census refinement — "couple to what you're made of" (2026-07-10, internal record 160 / rt161).**
+  - **Census refinement — "couple to what you're made of" (2026-07-10, internal review / rt161).**
     The *gravity-only* phrasing was OVER-STATED relative to the model's own content: the
     varying-m_e **dyad has always been a non-gravitational coupling** to matter, so
     "gravity is the medium's ONLY account" was never strictly true. Refinement (sharpening
@@ -68,7 +68,7 @@ unitarity (`v5_dCDF:1178`). Author's plain-language forms shown in quotes.
       intact).
     - *HONEST CAP (rt161):* the rule does **not derive the dyad it legalizes.** "What the
       medium is made of" is the NEUTRINO-mass sector (δm_ν, Weinberg LLHH); the dyad is
-      **δm_e** (charged-lepton Higgs-Yukawa L̄He — *quark-structured*, the t156 no-go). Read
+      **δm_e** (charged-lepton Higgs-Yukawa L̄He — *quark-structured*, the internal review no-go). Read
       strictly the rule yields δm_ν, not δm_e; broadening "made of" to reach the charged-
       lepton mass **is** the un-derived leptophilia postulate. So the rule **renames** the
       leptophilia gap "substance" — it does not close it. Explicit δm_e coupling from a

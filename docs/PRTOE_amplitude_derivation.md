@@ -45,12 +45,12 @@ Product: c × f_amp × Ψ₀/M_red ≈ 1 × 0.6 × 2.2% ≈ **1.3%**, bracketing
   charge/number, NOT mass. So the fraction of the field in the amplitude mode,
   f_amp, is what reaches the electron.
 - f_amp ≈ 0.55–0.67 was **already computed** by the genesis orbit integration
-  (the "One Mountain" dice), NOT sim-pending. The granule sim (task #8) is an
+  (the "One Mountain" dice), NOT sim-pending. The granule sim (the working docket) is an
   independent cross-check (granule power S = (1+(1−f_amp)²)/2), not the source.
 - **Distributional:** f_amp is one genesis-dice roll per universe (median ~0.6);
   our 1.24% ⇒ we drew the median ⇒ a typical universe.
 
-## Factor 3 — c ≈ 1 (NATURAL, GATED on the census — task #5)
+## Factor 3 — c ≈ 1 (NATURAL, GATED on the census — the working docket)
 
 - **Make-or-break PASSED.** The dangerous alternative was the Ψ₀ normalization
   (δm_e/m_e = δΨ/Ψ₀ → O(1) blowup), which requires m_e ∝ Ψ (dark-sourced Yukawa).
@@ -61,7 +61,7 @@ Product: c × f_amp × Ψ₀/M_red ≈ 1 × 0.6 × 2.2% ≈ **1.3%**, bracketing
   masses, not a Goldstone to scale-sector masses). Data wants c ≈ 0.94.
 - **c = 1 ⟺ the STRONG census** ("medium couples to matter at exactly
   gravitational strength, no free constant"). So c reduces to the **census-scope
-  adjudication (task #5)**:
+  adjudication (the working docket)**:
   - STRONG census → **ε = f_amp × Ψ₀/M_red is FULLY DERIVED = 1.24%.**
   - WEAK census → c ≈ 1 is natural + data-consistent, not forced.
 
@@ -82,7 +82,7 @@ The m_e shift is a closed loop of couplings, matter → space → matter:
 
 **Traced end-to-end.** Two of three factors are traced/computed (Ψ₀/M_red,
 f_amp); the third (c) passed its make-or-break and reduces to the model's central
-census-scope hinge. **The 1.24% is now one census ruling (task #5, strong
+census-scope hinge. **The 1.24% is now one census ruling (the working docket, strong
 direction) away from a complete derivation.** The scariest failure mode (Ψ₀
 blowup) is eliminated. Remaining honest caveats: c=1 not forced (only natural);
 distributional (median, our universe typical); the dice's own h-convergence

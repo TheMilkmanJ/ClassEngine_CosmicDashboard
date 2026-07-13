@@ -5,7 +5,7 @@
 
 > **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). Conditional on: the no-bare
 > clause, the roster hypothesis (paired lepton-sector vacuum, entry 9), P-2026-042's
-> anchor identification, and the gap equation's k (owed, task #18). Referees: the α_c MCMC (the
+> anchor identification, and the gap equation's k (owed, the working docket). Referees: the α_c MCMC (the
 > triangle), the two-loop redesign, HL-LHC (the portal search).
 
 ## 0. The problem

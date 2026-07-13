@@ -56,7 +56,7 @@ its best character witnesses to be optical — and they are.
 
 \[GinzburgLandau1950], \[Kibble1976]/\[Zurek1985], \[Herrmann2009], \[Josephson1962],
 \[vonKlitzing1980] (the bench-quantization sibling), internal: the completeness audit
-(internal record 503), the critical-phenomena node, T7's cousins. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+(internal review), the critical-phenomena node, T7's cousins. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## 6\. What the model asks OF lasers — three proposed experiments (2026-07-12 addendum)
 

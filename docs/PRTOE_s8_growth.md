@@ -4,7 +4,7 @@
 
 
 *Thread 4 of the atom-grammar survey; the standalone for the recorded DM→(DE/dark-radiation)
-conversion lead. Status: STRUCTURAL with a MECHANISM BUILT INTO CLASS (task #36, completed and
+conversion lead. Status: STRUCTURAL with a MECHANISM BUILT INTO CLASS (the working docket, completed and
 recorded) and live chains testing it NOW (conv_g sampled in the thaw chain/conv_desi). The improvement:
 a one-parameter, physically-motivated easing of the growth tension that ΛCDM must treat as
 systematics.*
@@ -20,7 +20,7 @@ CMB's ΛCDM prediction: the late universe is smoother than the early universe sa
 The dCDF is ONE fluid whose phases exchange: the conversion channel (recorded, coded:
 dcdf_conv_g/at/n) lets the DM component shed into the floor/dark-radiation at late times —
 **the same physics as the cycle's pdV ledger** (the fluid pays gravity's tax through its own
-equation of state; internal record 349–353 graded the ledger this belongs to). Converting a percent-level
+equation of state; internal review–353 graded the ledger this belongs to). Converting a percent-level
 fraction of DM after z ~ 1 suppresses late growth (lower S₈) WITHOUT touching the CMB-era
 history — exactly the shape of the observed tension.
 
@@ -28,12 +28,12 @@ history — exactly the shape of the observed tension.
 
 - The mechanism is built and recorded (the #36 CLASS implementation; the damping-tail check #37
   passed).
-- The omk minimum (internal record 333): S₈ = 0.807 at the dyad's best point — between the CMB-ΛCDM 0.83
+- The omk minimum (internal review): S₈ = 0.807 at the dyad's best point — between the CMB-ΛCDM 0.83
   and the lensing 0.76–0.78: the model already sits on the tension's easing side.
 - The chains NOW: conv_g is a sampled parameter in the thaw chain/conv_desi (pre-registered at
-  g ≈ 0.10 ± 0.05, internal record 325); their posteriors are the mechanism's live test. Interim the thaw chain
+  g ≈ 0.10 ± 0.05, internal review); their posteriors are the mechanism's live test. Interim the thaw chain
   explores conv_g ~ 0.2 — UNCONVERGED, watch-don't-grade.
-- MEANING-INVERSION NOTE (t280-class, kept): a conv_g pulled LARGE would ease S₈ at the price
+- MEANING-INVERSION NOTE (internal review-class, kept): a conv_g pulled LARGE would ease S₈ at the price
   of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
 
 ## 3. The improvement, honestly bounded
@@ -48,7 +48,7 @@ is information; ΛCDM's position provides none.
 
 The chains' converged posteriors (running); a matched-lensing-likelihood fit (DES/KiDS proper,
 not just the S₈ point) before any tension-easing CLAIM is recorded; the conversion's
-perturbation-sector flag (task #8's deferred item).
+perturbation-sector flag (the docketed session's deferred item).
 
 *The universe got smoother than the standard books allow. This model's dark sector pays a tax
 that does exactly that — and the receipts are being printed by three chains in the next room.*

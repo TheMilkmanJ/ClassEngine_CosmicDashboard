@@ -28,8 +28,8 @@ the relation's robustness is EXPLAINED here and accidental everywhere else.
 
 The genesis tilt is ε_A = 2/9 — Koide's fraction is native to the model's Z4 structure — and
 the Card-2 arc (the 512-run, the winding average, the ramp) has circled f_amp = 11/18-class
-values without landing them (t377: Koide-f̄ disfavored 3.3σ as f̄'s own value; the
-Koide-with-spending triple remains one of three live endings at 0.9σ, internal record 407). The honest
+values without landing them (internal review: Koide-f̄ disfavored 3.3σ as f̄'s own value; the
+Koide-with-spending triple remains one of three live endings at 0.9σ, internal review). The honest
 statement: **the model keeps producing Koide's rationals in its own arithmetic without yet
 deriving the mass relation** — a lane, not a result. The generation structure (three families
 on the Z4 torus?) is the un-built floor beneath it.

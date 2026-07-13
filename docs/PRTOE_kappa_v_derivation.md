@@ -1,4 +1,4 @@
-# The κ_v Derivation (task #17, working document)
+# The κ_v Derivation (the working docket, working document)
 
 > **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 
@@ -138,7 +138,7 @@ condition and the verdict is sharp both ways:**
 - Audit 3: MOOT (void branch retracted). Audit 4: permanent residue
   (the honest triple's amplitude-input clause).
 
-**Final status of task #17: the author is written, local,
+**Final status of the working docket: the author is written, local,
 tree-natural, shape-forced, seam-closed, and radiatively viable
 conditional on completion softness. Nothing further is derivable
 this side of the §2 wall.**

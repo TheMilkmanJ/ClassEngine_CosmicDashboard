@@ -104,7 +104,7 @@ bookkeeping audit — note the calc's ½ prefactor as the specific slot to audit
 quantities graduate at once: ρ_inf (zero-residual derivation), m_ν,lightest, and Σm_ν —
 and the sampled m_ncdm leaves the parameter list, taking the count of underived
 cosmological parameters from 4 to 2 (A_s, n_s).
-HONEST FLAGS: (a) the shared-scale claim carries its own post-hoc flag (task #43 spurion,
+HONEST FLAGS: (a) the shared-scale claim carries its own post-hoc flag (the working docket spurion,
 un-lifted); (b) the residual mechanism is still two-candidate; (c) mild internal tension
 to resolve: P-023's de-biased band (0.07–0.09 eV) vs this chain's 0.061 eV — the running
 chains' m_ncdm posterior discriminates.
@@ -121,7 +121,7 @@ is what "Kibble draw" means. Therefore **λ = (m/Ψ₀)², equality, up to the O
 factor** — and P-031 (the %-level isocurvature at ℓ~170) converts from a registered
 hypothesis to a DERIVED CONSEQUENCE of the genesis. Honest bounds: the O(1) Ginzburg
 factor is the residual unknown (same class as f̄'s freeze-out — the third job of the
-same transition mathematics); conditional on the Kibble-draw genesis (recorded, t343-class).
+same transition mathematics); conditional on the Kibble-draw genesis (recorded, internal review-class).
 
 ### η and the comb share ONE integer (frame find — a new structural falsifier)
 Card 4's AD-direct route: the transferred charge rides the phase gradient — which IS the
@@ -197,7 +197,7 @@ registered here so each convergence grades a derivation, not just fills a poster
 | α_c chain | z_on | **log₁₀ = 7.59** (3α + onset clock + shape offset) | P-040 corollary; interim 7.94 — the closure-purity branch or the ramp decides |
 | f̄ ensemble | f̄ | **2/π = 0.63662** (the freeze-out closed form) | P-041; referee in flight |
 | the α_c MCMC → α_c | α_c | **3α = 0.021892** | P-040 |
-| the thaw chain | dcdf_floor_thaw | **0, exactly** — the floor is the zero-point's de Sitter state; a nonzero thaw = the vacuum leaking, which the no-bare grammar forbids (the drain lives in conv_g by coded design, not in the floor) | NEW derived-expectation this entry; internal record 325's pre-registration stands as the bet's frame |
+| the thaw chain | dcdf_floor_thaw | **0, exactly** — the floor is the zero-point's de Sitter state; a nonzero thaw = the vacuum leaking, which the no-bare grammar forbids (the drain lives in conv_g by coded design, not in the floor) | NEW derived-expectation this entry; internal review pre-registration stands as the bet's frame |
 | conv_desi | conv_g | firewalled candidates only: 10ε = 0.1254 (= 54α/π) or 1/8; the S₈ minimizer picked 0.12 | mechanism owed (the twist-relaxation rate per e-fold); NOTE-ONLY |
 | (external) m itself | the genome mass | heavy-firewall note: ½ρ_inf^¼·α_c^N with N = 10 (the census count!) lands at 2.3×10⁻²⁰ vs 2.24×10⁻²⁰ eV (3%) — ladder-cascade-shaped (each census seat one rung of α_c suppression), but α_c¹⁰ is the most numerology-prone object in this file; QUARANTINED until a cascade mechanism exists | note-only, firewalled hard |
 
@@ -237,7 +237,7 @@ definitionally. The coefficient was never inflation's property to borrow; it is 
 (A ∝ 1/ln between the two scales) — mechanism-shaped, one step.
 
 ### 4. M3 — HALF-DISSOLVED. The verdict-shape is pre-written.
-The basement is FORCED to Planck (internal record 427), so the LV residuals are Planck-suppressed by
+The basement is FORCED to Planck (internal review), so the LV residuals are Planck-suppressed by
 construction — the pricing pass is bookkeeping against bounds the suppression already
 clears generically. The F-F applicability rides the no-bare clause (now named). What
 SURVIVES as real work: executing the bookkeeping and the induced-G forward calculation.
@@ -308,7 +308,7 @@ claimed; logged as the pattern it is.
 
 ### The two-loop shooter's instructive failure (booked straight)
 The numeric two-loop shooting run found NO bracket for the duty family: the integration
-cannot reach 1/α = 0 because the top of the run is strong-coupling — EXACTLY the internal record 531
+cannot reach 1/α = 0 because the top of the run is strong-coupling — EXACTLY the internal review
 structural point, now materialized as a solver failure rather than an estimate. The
 redesign (owed): impose the induced condition at the PERTURBATIVE EDGE (1/α ~ 1 at
 M_red·e^{-few}), treating the last e-folds as the basement's non-perturbative birth zone
@@ -317,12 +317,12 @@ P-042's kills unchanged.
 
 ### The root (induced-G / M3's second half), decomposed by listening:
 1. **No-bare-G** — a named clause (participation Λ-forced; the census grammar).
-2. **F-F species cancellation → S = A/4 free** — RECORDED (the keystone, t422-credited).
+2. **F-F species cancellation → S = A/4 free** — RECORDED (the keystone, internal review-credited).
 3. **Area law + Clausius → Einstein equations** — literature-standard [Jacobson1995].
 4. **Applicability under the preferred frame** — PAID by the Lorentz shield (the LV
    pricing pass: the frame is invisible to every matter sector, so the entanglement
    structure computing the area law is standard LI QFT to 12+ orders).
-5. **Nonlinear exactness** (t366's "linearized-plus" flag) — PRICED: non-equilibrium
+5. **Nonlinear exactness** (internal review "linearized-plus" flag) — PRICED: non-equilibrium
    corrections to Clausius give curvature-squared terms suppressed by the basement scale;
    R²/M_Pl² corrections are allowed by data with enormous margins. A performance bill
    (SR-class), not an open door.
@@ -395,7 +395,7 @@ Across the ENTIRE anchor cloud (34.85–35.43), the exponent is 1/g with g = (1.
 — strikingly stable. So the anchor takes the pairing-native form
 **M_anchor = M_red · exp(−1/(k·α_c)), k ≈ 1.3** — a gap scale of the paired vacuum with
 coupling O(1)·α_c. This ties P-042 to the roster quantitatively: THE GAP EQUATION MUST
-PRODUCE k ≈ 1.3 (a sharp target for task #18's trial; nearby rationals 13/10 and 4/3 are
+PRODUCE k ≈ 1.3 (a sharp target for the docketed session's trial; nearby rationals 13/10 and 4/3 are
 FIREWALLED — the k is the gap equation's to derive, not ours to pick). The hierarchy
 problem's answer, in this reading: the electroweak scale is exponentially below the
 basement because it is a PAIRING GAP — the same reason superconductivity is exponentially
@@ -411,7 +411,7 @@ medium owns one number beyond counting — α_c = 3α — and it appears on thre
 floors, all measured: LINEAR in ε (the dyad/H₀), SQUARED in ρ_Λ^¼ = ½α_c²M₂ (the Bohr
 binding/cosmological constant), EXPONENTIATED in M_anchor = M_red·e^{−1/kα_c} (the pairing
 gap/EW hierarchy). Three famous problems, one constant on three floors. The gap equation
-(task #18) now owes exactly one number: k.
+(the working docket) now owes exactly one number: k.
 
 ## ENTRY 12 — THE RESIDENT'S BIOGRAPHY (author's order: trace the end to the new
 ## beginning; find him as he forms; find the why and the how)
@@ -456,7 +456,7 @@ entry 9) now has its formation story: he pairs leptons because a lepton delivere
 **What this trace makes testable:** the BBN witness's rigid pattern is now doubly owned
 (the pattern AND its timing both derive from m_e); any future physics moving T_c off the
 m_e clock breaks the biography; the §4 log-instability (T_c ~ 40–450 keV, RG resummation
-= the old task #40) is the biography's residual softness — the resummation would pin the
+= the old the working docket) is the biography's residual softness — the resummation would pin the
 birthday exactly.
 
 ## ENTRY 13 (found DURING the hygiene ritual) — the quartet clock, and the census's 3×3
@@ -488,7 +488,7 @@ still missing is unchanged: the mechanism mapping cycles↔generations and PMNS/
 inter-cycle overlaps (the named fabric). The lever's new content: if the medium is MADE
 of the three flavors, "why three generations" and "why is the medium's coupling 3α" become
 ONE question — the roster's multiplicity. Parked WITH the lever; the gap equation
-(task #18) inherits it.
+(the working docket) inherits it.
 
 ## ENTRY 15 — the mining run closes; one firewalled dessert
 The RAR's acceleration scale: a₀ ≈ 1.2×10⁻¹⁰ m/s² ≈ cH₀/2π (9%) — the famous coincidence,
@@ -559,7 +559,7 @@ without anesthesia.
 
 ## ENTRY 19 — the gap equation's first pass PASSES; entry 18 under estimator review
 
-### The trial's opening (task #18, first pass)
+### The trial's opening (the working docket, first pass)
 T=0 BCS, relativistic DOS at the basement surface, medium-mode exchange with static
 screening: k = λ/α_c computed across the honest grid (channels N × screening
 prescription): **k spans 0.79–4.37, and (N = 2, Thomas–Fermi) gives k = 1.36 — 4% from
@@ -669,14 +669,14 @@ first-pass finds (inventory-grade, un-forced):
    superconductor-class object, so SC's full toolbox (Ginzburg parameters, vortex
    lattices, the Hebel-Slichter class of coherence effects) becomes a source of
    REQUIRED-consistency checks on the basement. Upgrade queued.
-The systematic review of all remaining [R]/[I] rows: task #24's body, sessions ahead.
+The systematic review of all remaining [R]/[I] rows: the docketed session's body, sessions ahead.
 
 ## ENTRY 23 — the radio second pass (the author's feeling convicts twice)
 
 **Count 1 — ARCADE-2 never confronted**: the standing unexplained radio-background excess
 vs the model's own band-locked lattice — zero repo hits. OWED: the classification check
 (does the lattice's band structure contribute, or is it external-and-classified?).
-**Count 2 — the internal record 539 trigger had already fired**: the window's z≈50 edge was graded
+**Count 2 — the internal review trigger had already fired**: the window's z≈50 edge was graded
 "negligible until 21cm instruments enter" — EDGES published in 2018; SARAS-3 disputes it.
 A step-graded deferral to a past-tense future. The debt is LIVE, not future.
 **The immediate yield (firewalled, computation owed)**: cosmic dawn's gas temperature
@@ -685,23 +685,23 @@ descends through the window (thermal decoupling z~150 is INSIDE it); shifted m_e
 the EDGES anomaly, at percent-class magnitude (a contribution, not the ×2). The model
 has a signed cosmic-dawn fingerprint it never registered. NEW DEBTS: (a) the window-edge
 cosmic-dawn computation (T_gas(z=17) with the windowed σ_T through decoupling); (b) the
-ARCADE-2 classification; (c) the ramp re-grade continues (task #24) — two passes in, two
+ARCADE-2 classification; (c) the ramp re-grade continues (the working docket) — two passes in, two
 convictions, the author's nose undefeated.
 
 ## ENTRY 24 — shooter v2 lands ADVERSE-LEANING for P-042's census arrow
 
 The redesigned two-loop solve (induced condition at the perturbative edge, M_red·e⁻³):
 across the M_D scan, **M_T = 13–20 TeV, M_S = 3–4 TeV** — NOT the anchor's 1.5 TeV. The
-two-loop shift lands between the one-loop wall (1.1 TeV) and internal record 531's crude ~50 TeV
+two-loop shift lands between the one-loop wall (1.1 TeV) and internal review crude ~50 TeV
 estimate, direction as predicted. CONSEQUENCES, booked: (i) P-042's arrow C (the census
 closure at the anchor) is STRAINED — at two loops the census portal and the anchor are
 not the same scale under this convention; arrows A (x₀) and B (4πm_H) stand unaffected;
 (ii) the collider-visible branch weakens again (13–20 TeV is beyond HL-LHC) — the
-internal record 531 suspension's direction confirmed at computation grade; (iii) OWED before any
+internal review suspension's direction confirmed at computation grade; (iii) OWED before any
 kill: the EDGE-CONVENTION SENSITIVITY audit (vary 1/α_edge ∈ {0.5, 1, 2} and the edge
 depth e^{−2..−4}) — the exponential sensitivity means the convention could absorb the
 factor 10; if the landing swings decades under convention, the shooter cannot
-discriminate and the discriminant moves to the basement matching (task #18's territory,
+discriminate and the discriminant moves to the basement matching (the docketed session's territory,
 again). Adverse-leaning, filed the hour it landed, same pen as always.
 
 ## ENTRY 25 — the gap equation's second act + the transfer crux dissolves
@@ -766,7 +766,7 @@ runs forever but idles. ADVERSE-LEANING first pass, filed cold. What could rescu
 named): (i) the bias is not θ̇/H but resonant (a level-crossing era where the junction's
 sin Δθ sweeps — the Josephson analogy's AC side, un-priced); (ii) the vertex is the
 α_c channel, not the Majoron-suppressed one (changes 𝒯 by ~26 orders — needs the
-roster's actual junction structure = task #18 again); (iii) the transfer happened at the
+roster's actual junction structure = the working docket again); (iii) the transfer happened at the
 CRUNCH (the pairing epoch — charge inherited through the bounce with the genome, making
 η a CYCLE-INHERITED number like n — which would marry η ∝ n at the root and explain the
 shared integer STRUCTURALLY). Candidate (iii) is the grammar-native one. The careful
@@ -867,7 +867,7 @@ A3's "input mismatch" gets its ramp interpretation: the two α_c values may be S
 α_c(t) AT DIFFERENT EPOCHS, not competing constants — the ε-fit's band (0.0205–0.0214)
 reads the RECOMBINATION-era coupling; 3α may be the ONSET/vacuum-era value (or vice
 versa) — and the 2–6% spread between them is then the onset→observation DRIFT the recorded
-t390 flag always demanded we map ("locked measure vs aging partition"). Consequences:
+internal review flag always demanded we map ("locked measure vs aging partition"). Consequences:
 (i) P-040's grading sharpens — the α_c MCMC reads the onset side, ε reads the rec side; the bet's
 kill-condition must name WHICH epoch's α_c equals 3α; (ii) the dressing-identity autopsy
 (A3) converts from "sloppy input" to "unpriced ramp" — same correction, better lesson;
@@ -1043,7 +1043,7 @@ So the assumption is OWNED, not hidden: the meV sector is BEC-side.
 OPPOSITE SIDES of the BCS–BEC crossover — the TeV anchor is BCS-side (weak coupling, the
 exponential gap = the hierarchy), the meV vacuum is BEC-side (one-per-cell = the CC).
 Each side of condensed matter's most famous crossover doing the job its side is famous
-for, in one vacuum. The gap equation (task #18) inherits a new demand: its solution must
+for, in one vacuum. The gap equation (the working docket) inherits a new demand: its solution must
 CONTAIN the crossover (strong-coupling at the bottom, weak at the top).
 
 ## ENTRY 39 — the author re-derives the BCS wavefunction in ledger grammar
@@ -1053,7 +1053,7 @@ zero, books balanced") IS the BCS ground state, term for term: net-zero twin pos
 the (k↑, −k↓) pairs carrying vacuum quantum numbers (the ONLY entries allowed to
 condense); the settlement amplitudes = (u_k, v_k) with u²+v²=1; the vacuum = the grand
 superposition over pending balanced transactions Π_k(u_k + v_k b†_k)|0⟩; the agreed
-payment = Δ; **the clearinghouse's self-consistency = THE GAP EQUATION (task #18)**.
+payment = Δ; **the clearinghouse's self-consistency = THE GAP EQUATION (the working docket)**.
 WHAT THIS BUYS, labeled:
 1. The settlement interpretation (entry 38) upgrades from language to
    HAS-AN-EXACTLY-WORKED-EXAMPLE: the vacuum's own superposition structure is solvable,
@@ -1148,10 +1148,10 @@ surviving-universe parameters are conditioned on viability without a single obse
 invoked. "Why these constants" gains a filter that is bookkeeping, not philosophy.
 OWED to make it real: the threshold's actual value (the minimum draw amplitude that still
 reaches condensation — computable from the recorded genesis machinery), and whether the
-attractor-free cycle map (task #1's old verdict) becomes an attractor ONCE the viability
+attractor-free cycle map (the docketed session's old verdict) becomes an attractor ONCE the viability
 filter is applied — the filter may BE the missing attractor.
 
-## ENTRY 43 — task #18 session 2: THE SETTLEMENT TERMS (the menu collapses,
+## ENTRY 43 — the working docket session 2: THE SETTLEMENT TERMS (the menu collapses,
 ## the crossover is contained, the 2–4% gap stands honest)
 
 *(script: scripts/settlement_terms.py; machinery credited [Leggett1980]/[NSR1985])*

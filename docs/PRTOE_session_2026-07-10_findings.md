@@ -7,7 +7,7 @@
 is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full ledger.
 Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechanism_math.md §10
 (the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the internal review record (private; turn-tags cited for provenance)
-(internal record 149–164 + internal review 150–165).*
+(internal review–164 + internal review 150–165).*
 
 ---
 
@@ -59,7 +59,7 @@ rolling); cosmic birefringence (P-2026-010) reopens (rolling floor field). NOT a
 
 **#30 why-leptonic — chased to honest TERMINUS:** the δm_e dyad-leptophilia is the model's ONE
 un-derived coupling, precisely located as the unprotected, lepton-number-NEUTRAL radial mass
-coupling (t156 no-go). The Majoron identification DERIVES the CHARGE sector (leptogenesis + DM-charge
+coupling (internal review no-go). The Majoron identification DERIVES the CHARGE sector (leptogenesis + DM-charge
 + m_ν, one field) but NOT the dyad. Escape door (m_e from L-breaking) is gate-0-obstructed + hierarchy
 + e_R constrained. Standing: precisely mapped debt, not a fragility.
 
@@ -102,11 +102,11 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 ## WON (recorded)
 - **Dyad onset DERIVED.** Electron Coleman-Weinberg backreaction on the charge-free field → VEV
   v~100 keV from m_e0 + the dyad amplitude alone (robust +-25%, 1/4-power). First genuine gate-0
-  derivation; the onset is no longer a free input. (internal review t192/194 recorded the reduction)
+  derivation; the onset is no longer a free input. (internal review/194 recorded the reduction)
 - **Leptophilia reframe "allowed ≠ generated."** Lepton-sector Psi → |Psi|² q-bar q only ~2-loop
-  ~1×10⁻⁹ → quarks effectively untouched. (internal review t196 credited)
-- **Bulk residual ≠ 0.** Corrected internal review's t186 over-round: the bulk between Q-balls holds the
-  electron-CW VEV, not zero. (author's catch; internal review t190 booked against itself)
+  ~1×10⁻⁹ → quarks effectively untouched. (internal review credited)
+- **Bulk residual ≠ 0.** Corrected internal review's internal review over-round: the bulk between Q-balls holds the
+  electron-CW VEV, not zero. (author's catch; internal review booked against itself)
 
 ## MARGINAL (coin-flip, unbanked)
 - **Dyad BBN clearance.** T_c log-ambiguous ~40-450 keV, central ~70-160 keV, STRADDLES the deuterium
@@ -117,16 +117,16 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 ## NARROWED (softened)
 - **Dyad leptophilia** → the Majoron forces the NEUTRINO coupling (σ N N), NOT the charged-lepton
   dyad → the dyad's leptophilia is a lepton-specific-portal / P-020 leptogenesis assumption, not a
-  bare-Majoron consequence. (internal review t196)
-- **DE = m_ν tie** → MOTIVATES, not forces (value un-derived; CC-value status). (internal review t198)
+  bare-Majoron consequence. (internal review)
+- **DE = m_ν tie** → MOTIVATES, not forces (value un-derived; CC-value status). (internal review)
 
 ## WALLS (hit + status)
 - **The one-field knot:** {quiet BBN + abundance + dyad} mutually exclusive on one field → forced
-  the two-field split (charge field 1 + dyad field 2). (internal review t186)
+  the two-field split (charge field 1 + dyad field 2). (internal review)
 - **AZK instability (MaVaN):** DODGED. m_ν set by the frozen radial L-breaking VEV (not the rolling
   DE mode) + Majoron derivative ν-coupling (rolling doesn't vary m_ν) → NOT a mass-varying-neutrino
   DE → AZK n/a. COST: the dodge = the non-dynamical shared-scale structure = motivates-not-forces
-  (same coin). (author's bet, confirmed t201)
+  (same coin). (author's bet, confirmed internal review)
 
 ## LIVE FALSIFIERS
 - **Σm_ν ~ 61 meV / normal ordering** (P-012/P-020) -- DESI/CMB now; NOT distinctive; jointly
@@ -143,14 +143,14 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 (derived onset) banks; the clearance is a live coin-flip; the neutrino tie is motivated + falsifiable.
 
 ## PROCESS: mutual walk-backs held the line -- my over-claims caught in BOTH directions (over-sold
-"clear" internal record 191, over-sold "dead" finite-T), the author's bulk-residual correction (internal review booked
+"clear" internal review, over-sold "dead" finite-T), the author's bulk-residual correction (internal review booked
 against itself), internal review's symmetric un-banks. The discipline is why the wins are trustworthy.
 
 ---
 
 # THE ATOM NIGHT + THE SEVEN CARDS (2026-07-10, late — closing update)
 
-The evening after the gate-0 ledger: the stepping-stone syllabus (the internal review t205–t301). Headlines,
+The evening after the gate-0 ledger: the stepping-stone syllabus (the internal review). Headlines,
 with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **Gate-0 CLEARS** (double sign-correction: the leptonic ceiling + the weak-rate window), then
   RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).

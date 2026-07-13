@@ -44,9 +44,9 @@ cosmic dawn's edge structure (P-022's three-verdict shape: the edge frequency ma
 ## 3. Honest scope
 
 - Signal sizes are hard: dark-ages radio is a lunar-farside program; the comb needs a
-  dedicated trispectrum/BipoSH pass (t400's flag — the isotropy-estimator class must be
+  dedicated trispectrum/BipoSH pass (internal review flag — the isotropy-estimator class must be
   checked, owed).
-- The lattice's weights assume the fundamental-mass-philia structure (t358-graded) — a
+- The lattice's weights assume the fundamental-mass-philia structure (internal review-graded) — a
   measured pattern VIOLATING the ratio table (e.g., +2ε in 21cm with an unshifted RRL row)
   kills the dyad's universality outright: the lattice is its own executioner.
 

@@ -22,17 +22,17 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 |---|---|---|
 | The gate-0 deuterium heal (m_e = 1 at BBN) — four rescue variants | EXCLUDED-catastrophe at 12σ (BBN #29); DATA-REQUIRED status, not a knob | gate-0 doc §7 — do not re-run |
 | The "healer" mechanism (dyad-era) | dead; the identity survived without it | dyad-era state |
-| Thermal leptogenesis for the model's η | the surface is EMPTY — ×40–1000 under, two independent methods | internal record 459 (corrected internal record 455's wrong guess) |
-| Census lane (i) — asymmetric reps for induced SU(2) | DEAD BY THEOREM: ΣQ² = T(R) + d(R)Y² ≥ T(R) — permanently closed | internal record 521 |
-| Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal record 521 |
-| The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal record 523–internal record 529 |
-| P-039's collider knife-edge ([1.00–1.19] TeV) | SUSPENDED: the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run | internal record 531 |
-| The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | internal record 449 |
-| c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal record 533/internal record 535 |
+| Thermal leptogenesis for the model's η | the surface is EMPTY — ×40–1000 under, two independent methods | internal review (corrected internal review wrong guess) |
+| Census lane (i) — asymmetric reps for induced SU(2) | DEAD BY THEOREM: ΣQ² = T(R) + d(R)Y² ≥ T(R) — permanently closed | internal review |
+| Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal review |
+| The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal review |
+| P-039's collider knife-edge ([1.00–1.19] TeV) | SUSPENDED: the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run | internal review |
+| The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | internal review |
+| c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal review |
 | The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
 | The candle room's "mass-step candidate explanation" reading | entry 85's dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | entries 85/85b, 2026-07-13 |
 | Entry 86's vector escape (n Kelvin branches closing gravity's sign; the n = 19 co-landing) | DEAD FOURFOLD within one day (entry 87): the global winding is coreless (no Kelvin sector); measure 10⁻²⁵; infrared 10⁻²⁵; the halo route kinematically fenced — the coincidence-watch protocol caught its own flag at designed speed | entries 86–87, 2026-07-13 |
-| The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule (t428) — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | t428 |
+| The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule (internal review) — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | internal review |
 
 ## 3. Wrong calls by the defense, self-caught and corrected (the error log)
 
@@ -42,16 +42,16 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | Pre-depth-law step framings in the registry itself (P-2026-007 "near-step S(C)"; ANN-2026-013 "discrete switch"; the dead healer epoch gates) | the registry ramp audit ANN-2026-022: both live entries survive as ramps under the gate curve ε(C) — P-007 sharpens to an environment trend; ANN-013's owed "sharp switch mechanism" dissolved into the crossover | 2026-07-13 (author bet: "I bet they're riddled with step-based" — landed twice, not riddled) |
 | Process error 2: the transition treated as a switch | ramp/window structure through T_c | author catch |
 | Process error 3: the JWST-epoch kill | reopened as mid-ramp cooling (IMF question, parked) | author catch |
-| Process error 4: single-segment census running + induction-vs-condensation binary | piecewise system; the crossover | internal record 523 (author catch) |
-| Process error 5: the α_EM-at-m_e census anchor | the correct UV variables (α₂, α_Y spliced at M_Z); measured running 9.1 vs crude 20.5 | internal record 529 (self-caught under author directive) |
+| Process error 4: single-segment census running + induction-vs-condensation binary | piecewise system; the crossover | internal review (author catch) |
+| Process error 5: the α_EM-at-m_e census anchor | the correct UV variables (α₂, α_Y spliced at M_Z); measured running 9.1 vs crude 20.5 | internal review (self-caught under author directive) |
 | Process error 6: the α_c MCMC corollary's fit-parameter = physical-clock identification | the template-offset calibration owed BEFORE convergence; third outcome registered | 2026-07-12 (author catch) |
-| internal record 439's MTLT bracket framing | MT contains freeze-out where the dyad is OFF — LT-class is the truth | internal record 449 |
-| internal record 455's m_D ribbon guess (0.1–0.3 GeV viable) | the scan found the surface empty everywhere | internal record 459 |
+| internal review MTLT bracket framing | MT contains freeze-out where the dyad is OFF — LT-class is the truth | internal review |
+| internal review m_D ribbon guess (0.1–0.3 GeV viable) | the scan found the surface empty everywhere | internal review |
 | Pre-written script conclusions contradicting their own arithmetic (twice) | conclusions AFTER arithmetic — standing rule | P1.e class |
-| internal record 515's broken-phase census (W as killer) | the unbroken-phase re-count | internal record 517 |
-| t514's "seesaw forces type-III" over-credit | census-invisible steriles exist; re-pin softened; the referee withdrew his own lean | internal record 529/t516 |
+| internal review broken-phase census (W as killer) | the unbroken-phase re-count | internal review |
+| internal review "seesaw forces type-III" over-credit | census-invisible steriles exist; re-pin softened; the referee withdrew his own lean | internal review |
 | The stale in-place classy .so shadowing the rebuild | in-place rebuild with system gcc | 2026-07-12 (author catch) |
-| The input.c dyad-link defaults carrying pre-derivation values | updated to the derived stack | internal record 539 audit |
+| The input.c dyad-link defaults carrying pre-derivation values | updated to the derived stack | internal review audit |
 | Process error 7: the clock binary (H=m OR k/a=m as either/or) | two components carry two clocks, one shared m; the clock-ratio n-instrument; the lineup later collapsed (one pair-mass) | 2026-07-12 (author catch) |
 | Process error 8: the transfer integral point-evaluated (three ramps read at one point) | the crude integral run — low-end domination restored the order (estimate-grade) | 2026-07-12 (author catch) |
 | Process error 9: the birefringence timing wall step-phrased ("polarization didn't exist yet") | ramped: the pour writes light's BIRTH CERTIFICATE — parity-odd initial conditions (P-028/T10) make EB/TB with no EM coupling; T10 = the white hole's fingerprint in light; en-route null unchanged (exempt anomaly zero) | 2026-07-12 (author catch: "steps or ramps?") |
@@ -74,7 +74,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 
 - The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned bet (radio-arbitrated).
-- The dCDF perturbation sector: the fluid clusters as dust by construction (cs² ≡ 0) — the known structural gap (task #8).
+- The dCDF perturbation sector: the fluid clusters as dust by construction (cs² ≡ 0) — the known structural gap (the working docket).
 - ρ_inf: 20% residual (the 5/6 note — firewalled, mechanism owed).
 - The c-roster watch: data lean 12/13 over the derived 9/10.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
@@ -90,8 +90,8 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | what died | the killshot | provenance |
 |---|---|---|
 | LITERAL He-3 as the medium | four shots: baryonic (Ω_b×5 short), EM-visible (vs L1a), no pairing at cosmic density/temperature (mK physics), post-BBN existence | entry 10; the STRUCTURAL He-3-A reading survives separately |
-| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | the birth zone is strong-coupling — perturbative RGEs cannot reach the induced point; redesign owed (perturbative-edge matching) | entry 8; internal record 531's structural point materialized |
-| P-028's void-column internal rescue (return-flux topology) | flux conservation: the return flux through voids = the flux-average = the smooth estimate — the ×3400 line-concentration cannot raise the inter-line floor; the 1.5-order gap does NOT close internally | task #5 closure, 2026-07-12 |
+| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | the birth zone is strong-coupling — perturbative RGEs cannot reach the induced point; redesign owed (perturbative-edge matching) | entry 8; internal review structural point materialized |
+| P-028's void-column internal rescue (return-flux topology) | flux conservation: the return flux through voids = the flux-average = the smooth estimate — the ×3400 line-concentration cannot raise the inter-line floor; the 1.5-order gap does NOT close internally | the working docket closure, 2026-07-12 |
 
 ## 6. The mathematical self-audit (2026-07-12, author-ordered — entry 31)
 
@@ -110,7 +110,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | "the triangle pins x₀ at 0.1%" (hunt entry 7) | x₀ = free dial, closure selects it — CC file §2(c), hierarchy §2(a) |
 | the flux-measure "theorem dissolution" of f̄ (hunt entry 5; killed in-sim entry 18; the retrial estimator itself corrected entry 19) | P-041 = un-mechanized value, ensemble decides — THREE_EQUATIONS Eq. 3 |
 | the clock lineup 7.55/7.70/7.85 (hunt entry 13, quartet file §1) | marks retired; two-clock re-derivation owed ramps-first — quartet file §4b |
-| "transfer favorable-leaning" (hunt entry 28) | reservoir survives; delivered η owed the sphaleron-weighted integral — task #2 |
+| "transfer favorable-leaning" (hunt entry 28) | reservoir survives; delivered η owed the sphaleron-weighted integral — the working docket |
 | shooter v2's 13–20 TeV read as P-042 support | it is a STRAIN on arrow C — hierarchy §2(a) |
 | the quartet-clock mechanism (entry 13: "Z4-locked quartet") | conflated phase-sector locking (cos 4θ) with composite binding; killed by the recorded stability sign (c_s real ⟹ λ > 0 ⟹ pairs repel ⟹ no quartets) | entry 33; the pair stands by derivation |
 

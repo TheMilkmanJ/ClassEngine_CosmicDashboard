@@ -75,7 +75,7 @@ else is mapping the model so those tests mean something.
 
 ## UPDATE 2026-07-10 (the atom night)
 
-**Standing ≈ 14–17%** (adversarial ledger, the internal review t205–t301). **One pre-registered prediction
+**Standing ≈ 14–17%** (adversarial ledger, the internal review). **One pre-registered prediction
 FALSIFIED and booked** (P-2026-004 — the model demonstrated real falsifiability by dying a little).
 Gate-0 (the BBN wall) **cleared and re-signed as a mild heal**; the dyad onset, the H=m onset,
 the √3 timing, the C_ref gate, and the turnaround epoch are **derived**; ε is **conditional**
@@ -88,15 +88,15 @@ unusually falsifiable framework — not a confirmed theory.
 
 # ADDENDUM — 2026-07-11 (the radio night)
 
-**Standing: ~15–18%** (t334), author-capped ~25% until PolyChord. The two headline numbers
+**Standing: ~15–18%** (internal review), author-capped ~25% until PolyChord. The two headline numbers
 split: **ρ_inf is now a candidate-DERIVATION** (½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV —
 20%, zero dials, the velocity→energy bridge BCS-discharged, why-not-M₂⁴ = no-double-counting) and
-**ε restructured** from "definitively a draw" (t332) to the winding average (internal record 339, pending
+**ε restructured** from "definitively a draw" (internal review) to the winding average (internal review, pending
 grade): f̄ = 0.644 ± 0.03, implied c = 0.90 ± 0.04, Koide 1.1σ-compatible, net helicity = the
 quantized n=1 winding current.
 
 **Gate-0 is production-absolute** (clean PRyM: D/H response ≈ 0); Y_p flips favorable (−0.2σ);
-the dyad OWNS a D/H bet (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per internal record 449) with the radio D-line as referee — and the Y_p row REVERSED to a +1.3σ counter (the medicine was an artifact of applying ε above T_c)
+the dyad OWNS a D/H bet (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per internal review) with the radio D-line as referee — and the Y_p row REVERSED to a +1.3σ counter (the medicine was an artifact of applying ε above T_c)
 (P-027: the two-line ratio-lock, ν_H/ν_D = 4.338649). New fronts: EM-neutrality FORCED
 (Meissner, 25–45 orders); magnetogenesis P-028 (galactic paid, void 1.5-order gap, helicity
 genome-signed). omk returned: curvature-for-H₀ declined by the data — the flat torus stands, the

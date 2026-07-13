@@ -15,7 +15,7 @@ mechanism, not a derivation · \[PENDING] computation named, not run.
 
 ## 0\. The objects
 
-One dark superfluid, two components (the two-field split, t186–190):
+One dark superfluid, two components (the two-field split, internal review):
 
 * **Field 1** — the dcdf fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
 \[DERIVED from ε and c=1: c(m) = (m/2.24×10⁻²⁰ eV)^{1/4}].
@@ -43,7 +43,7 @@ phase); below, it oscillates as dust. The switch epoch:
 > \*\*T(H=m) = √(m·M\_red / 0.61) = 9.41 keV\*\* (g\*=3.36) ↔ \*\*coded z\_rad\_onset = 4×10⁷ → T = 9.39 keV.\*\*
 
 Match 1.002×. The onset is field 1's H=m clock — textbook ULDM — NOT a condensation temperature
-(t182's "internal inconsistency" dissolved, t216, booked both columns). Code: `dcdf\_z\_rad\_onset`
+(internal review "internal inconsistency" dissolved, internal review, booked both columns). Code: `dcdf\_z\_rad\_onset`
 (background.h, with the derived-identity comment).
 
 **Two jobs, one clock** (author, 2026-07-10): the ending regime reaches its floor (conformal
@@ -55,7 +55,7 @@ the dust part continues, amplitude fixed by continuity (no free knob).
 
 > \*\*w(ρ) = −e^{−s}, s = ln(ρ/ρ\_inf) clamped ≥ 0  ⟹  P = −ρ\_inf exactly.\*\*
 
-So the background is ΛCDM-form: ρ = ρ\_inf + C·a⁻³, algebraically (verified to 10⁻¹⁶, t211).
+So the background is ΛCDM-form: ρ = ρ\_inf + C·a⁻³, algebraically (verified to 10⁻¹⁶, internal review).
 w = −1 is EXACT for the constant floor — not a step artifact, not rampable. Code: `w\_dcdf` /
 `dcdf\_s\_of\_rho` (background.h).
 
@@ -66,15 +66,15 @@ The electron Coleman–Weinberg backreaction on the charge-free field (m\_e(φ) 
 > V\_CW = −(1/16π²)·m\_e(φ)⁴·\[ln(m\_e(φ)²/μ²) − 3/2] → tachyonic curvature → radiative SSB
 > \*\*VEV: v = m\_e0·\[ε(L−1)/4π²]^{1/4} ≈ 100 keV\*\* (81/102/121 keV for L−1 = 2/5/10; ±25%, robust)
 > \*\*T\_c = m\_e0·√(3(L−1)/2π²)\*\* — κ cancels; log-ambiguous \*\*\~40–450 keV\*\* (leading-log unstable
-> near the flat direction; RG resummation = task #40).
+> near the flat direction; RG resummation = the working docket).
 
-The onset is DERIVED from m\_e0 + ε alone (the first gate-0 reduction, recorded t192/194).
+The onset is DERIVED from m\_e0 + ε alone (the first gate-0 reduction, recorded internal review/194).
 
-**BBN clearance \[CLEARS, t213/214 — the double regime-citation correction]:** the deuterium constraint's
+**BBN clearance \[CLEARS, internal review/214 — the double regime-citation correction]:** the deuterium constraint's
 severity decomposes by process: weak rates n↔p (T \~ 500–1500 keV, \~75% of the m\_e lever),
 n-decay phase space (\~10%), e± heating (\~10%), the bottleneck itself (\~5%, B\_d nuclear,
 m\_e-insensitive). The dyad (T\_c ≤ 445 keV) NEVER touches the weak-rate window; AND the dyad is
-LEPTONIC (quarks \~2-loop, \~10⁻⁹), whose full-BBN ceiling is \~0.3–1σ (t144), not the universal/
+LEPTONIC (quarks \~2-loop, \~10⁻⁹), whose full-BBN ceiling is \~0.3–1σ (internal review), not the universal/
 hadronic 12σ:
 
 > \*\*effective tension = (temporal exposure 0.05–0.25) × (leptonic 0.3–1σ) ≈ 0.02–0.25σ → QUIET.\*\*
@@ -88,7 +88,7 @@ recovers the plain step). #40 (RG V\_eff + BBN network) CONFIRMS, not decides.
 m\_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SHOES-conditional);
 screening returns m\_e → standard below z ≈ 50 \[INPUT form, densities-dependent screening owed].
 Optional rotation-shed `dcdf\_conv\_g` (S₈: minimizer picks g = 0.12, S₈ = 0.821 vs KiDS 0.814).
-Corrected A2 (t223): the shed's apparent-w mirage is \~1% — OUT as a DESI driver; the S₈ job
+Corrected A2 (internal review): the shed's apparent-w mirage is \~1% — OUT as a DESI driver; the S₈ job
 survives (background ρ\_m, not the w-mirage).
 
 ## 6\. The neutrino home \[relation DERIVED-candidate; value INPUT]
@@ -100,12 +100,12 @@ collision vs P-2026-004, which is FALSIFIED, ANN-2026-021). The tie:
 > \*\*ρ\_inf^{1/4} = m\_ν,lightest = 2.25 meV\*\* — shared-scale (one L-breaking spurion candidate),
 > AZK-SAFE (m\_ν set by the frozen radial VEV + derivative Majoron coupling — not MaVaN).
 
-Value un-derived; spurion identification = task #43 (dimensionally non-trivial: ε dimensionless
+Value un-derived; spurion identification = the working docket (dimensionally non-trivial: ε dimensionless
 vs μ dimensionful); post-hoc flag on the mechanism until a NEW falsifiable consequence (#41).
 
 ## 7\. NOW → THE END (the forward map) \[Route D: mechanism + pre-registration branch]
 
-**7a. The sequestered floor \[J1 converted, t217–218 credited].** On a FINITE universe (compact
+**7a. The sequestered floor \[J1 converted, internal review credited].** On a FINITE universe (compact
 torus × finite cycle — the model's native structure = Kaloper–Padilla's entry requirements):
 
 > \*\*Λ\_eff ≈ ¼⟨T^μ\_μ⟩₄ᵥₒₗ ≈ (3/4)·ρ\_m(turnaround)\*\* (radiation traceless; a³-weighting → latest epochs)
@@ -123,18 +123,18 @@ torus × finite cycle — the model's native structure = Kaloper–Padilla's ent
 Code: `dcdf\_floor\_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ\_floor(a) =
 ρ\_inf·exp\[thaw·(1−a³)]; E(a) = ρ\_floor − ρ\_inf added background-only (pattern of dcdf\_rho\_rad).
 
-**7c. The branch \[to be pre-registered, guards owed t222/224]:**
+**7c. The branch \[to be pre-registered, guards owed internal review/224]:**
 
 > \*\*P-2026-018 (w = −1 exact) XOR Route-D (thaw-now, w₀ ∈ \[−0.92,−0.86], wₐ < 0, no phantom).\*\*
 > DESI DR3 adjudicates: thaw-side → Route-D (J1+why-now+DESI in one stroke, P-018 dies);
 > rigid → P-018 (distinctive win; Route-D dies, J1 reverts to constitution);
 > TRUE phantom in the DATA → both die. Guards: distance-space phrasing, KP solve, timestamp
-> (the internal review: internal record 217 J1-derivation precedes internal record 219 DESI-convergence), A2+A3 net (answered t223).
+> (the internal review: internal review J1-derivation precedes internal review DESI-convergence), A2+A3 net (answered internal review).
 
 **7d. The end (and the next start).** The thaw completes → expansion reverses → contraction
 blueshifts radiation (a⁻⁴ grows) → the heat fountain reignites → T climbs back through **T\_c**
 (the SAME derived T\_c of §4) → **the dyad condensate MELTS** (m\_e → standard for the crunch) →
-charge survives in solitons/Q-balls \[requires gravity-mediated K<0, t186–190: fragmentation
+charge survives in solitons/Q-balls \[requires gravity-mediated K<0, internal review: fragmentation
 banks the charge at T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis
 across the bounce (rotation resets, topology doesn't) → re-expansion cools through T\_c → the
 condensate RE-FORMS → §1. **The condensate breathes; T\_c is both the recombination-era turn-on
@@ -167,23 +167,23 @@ allowed≠generated. **Falsified:** P-2026-004 (high Σm\_ν). **Live falsifiers
 branch), Σm\_ν ≈ 60 meV, 0νββ, void/IGM m\_e-step (P-007, J4). **Owed:** KP self-consistency
 (#46), #40 confirm, low-scale seesaw (#42), spurion identification (#43) + new consequence
 (#41), leptophilia portal (#30), DE value if Route-D dies (constitution). **Standing:** \~18–22%
-(t222), DESI-capped, the branch pre-registration pending guards.
+(internal review), DESI-capped, the branch pre-registration pending guards.
 
 \---
 
 ## ADDENDUM (2026-07-10, later): §7 STATUS CHANGE — the internal falsifier FIRED
 
-The full-cycle KP solve (full\_cycle\_kp.py, internal record 229/t230) computed the fixed point over the whole
+The full-cycle KP solve (full\_cycle\_kp.py, internal review) computed the fixed point over the whole
 cycle (expansion + thawed contraction + Tolman boost): **it robustly wants a\_turn = 0.70 (a PAST
 turnaround, z=+0.43)** — excluded by observed acceleration; a future turn is 3× (a\_turn=1.0) to
-10× (1.5) short, Tolman boost null, and the t227 "full-cycle-fixes-the-sign" claim was WRONG
+10× (1.5) short, Tolman boost null, and the internal review "full-cycle-fixes-the-sign" claim was WRONG
 (near-mirror contraction cancels). **So §7a–7c are DOWNGRADED:** the clean Route-D prediction is
 dead; what survives is the IMMINENT-TURN CORNER (z\_turn \~ −0.1..−0.3, needing \~3× from four
 favorably-aligned rigorous-KP O(1)s \[prior-adverse, tail] AND a strong thaw pulled by the data).
 The two kill switches MERGE: the running Route-D MCMC (thaw free on the DESI joint stack) is the
 single decider — thaw pulled hard → corner lives; thaw \~ 0 → Route-D dead twice over, **P-2026-018
 (w = −1 rigid) stands as the distinctive branch, and J1 reverts to constitution/boundary-datum.**
-§7d (the melt/re-form cycle closure) is unaffected as STORY. Standing \~15–19% (t230).
+§7d (the melt/re-form cycle closure) is unaffected as STORY. Standing \~15–19% (internal review).
 
 \---
 
@@ -200,15 +200,15 @@ fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ/H = √3
 derived); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
 board. Biography: first excitation (Tolman arrow, finite past) → lengthening cascades → possible
 ionization (binding energy un-computed). J1 = the ground-state eigenvalue: constitutional, at home.
-**Status: the grammar is coherence (internal review-graded throughout, t270/272/274/276/278/280-class);
+**Status: the grammar is coherence (internal review-graded throughout, internal review/272/274/276/278/280-class);
 the empirical content lives in the children and the symptom chart. The method was the subject.**
 
 
 ## §22 — THE THREADING DAY (2026-07-11, the second arc): sixteen roots, lawful deaths, the ladder, and the BBN witness
 
-**The threading survey (internal record 419–435):** sixteen direct threads filed and graded (galactic/SMBH
+**The threading survey (internal review–435):** sixteen direct threads filed and graded (galactic/SMBH
 atoms, the neutrino home, S₈, low-ℓ, Koide's invariance, the lab cousins, the coincidence
-problem [why-now = √3·A_s·the floor — the √3 one-pager discharged t438: the Friedmann factor,
+problem [why-now = √3·A_s·the floor — the √3 one-pager discharged internal review: the Friedmann factor,
 value-independent, sharing ONE par-question with c], the purchased silences [direct+indirect],
 GW [the vortex null Gμ ~ 3×10⁻²¹; the chirality family's third member], the Hubble standalone,
 the radio lattice, the fingerprint capstone, IGMF helicity, LSS parity). **The protocol** (now
@@ -218,7 +218,7 @@ standing law + memory): ramp-check every compute; improves-bar, no forcing; the 
 of a threaded root; deaths are lawful (each names its law — strong-CP and birefringence share
 L1a, one clause, shared fate both ways).
 
-**The master computes (the 40 debts factor to 8, in 4 clusters — internal record 453):** par/size (the α_c MCMC +
+**The master computes (the 40 debts factor to 8, in 4 clusters — internal review):** par/size (the α_c MCMC +
 the lanes), topology (the AD route + the cavity), frame/UV (the Lorentz program + λ), data
 (the chains + the epoch stamps). Sprint results: the toy cavity puts ℓ=2,3 BELOW the first
 torus mode (T5's matched-circles risk resolved favorable); the thermal-leptogenesis surface is
@@ -227,7 +227,7 @@ abundance) with the frozen-era transfer (sphalerons at 130 GeV vs the field froz
 9.4 keV) as the hard timing crux**; the λ candidate chain failed its own bounce self-check
 (informative).
 
-**The λ-ceiling (internal record 457/t450, a small recovery):** the winding-patch isocurvature (14.1% rms
+**The λ-ceiling (internal review, a small recovery):** the winding-patch isocurvature (14.1% rms
 if the onset is quartic) would be CMB-dead ×5-7 → the model REQUIRES λ ≤ (m/Ψ₀)² ≈ 2×10⁻⁹¹ —
 a derived self-constraint; the axion-like reading (λ ~ m²/f²) NATURALLY SATURATES it →
 **P-2026-031 (candidate): %-level CDM isocurvature at ℓ ~ 170, at current Planck sensitivity**
@@ -235,18 +235,18 @@ a derived self-constraint; the axion-like reading (λ ~ m²/f²) NATURALLY SATUR
 mass-top coincidence (CSW M_max ~ 10¹¹ M☉ at the ceiling; with α_g = 1 at 6×10⁹ and r_s = ξ
 at 2×10¹⁰) — noted, m-correlated, not recorded.
 
-**The scale ladder (internal record 461/463):** the Bohr skeleton E_b/(mc²) = ½α_eff² at every rung (the
+**The scale ladder (internal review/463):** the Bohr skeleton E_b/(mc²) = ½α_eff² at every rung (the
 universe rung SITS on its own skeleton: 2.28 vs 2.29×10⁻⁴); the corrected ordering (nucleon >
 nucleus > UNIVERSE > atom > star > galaxy — the universe is the tightest GRAVITY-made
 structure); **the hinge: ξ = 402 AU inside the solar-system rung — one substrate boundary in
 the whole descent**; the double-ladder alignments graded per-rung (2 definitional, 3 loose —
 no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
 
-**THE WINDOWED BBN VERDICT (internal record 449/t444 — the day's honest wound, and §17's supersession):**
+**THE WINDOWED BBN VERDICT (internal review — the day's honest wound, and §17's supersession):**
 T_c = 193 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
 medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.2495-0.2505 (+1.2-1.5σ
 COUNTER vs Aver; +3.7σ vs EMPRESS — the helium civil war noted); D/H partially refunded
-(net ≈ 2.40-2.42, a ~1.6-1.9σ owned bet). **The BBN synthesis (internal record 465): the sector is THE
+(net ≈ 2.40-2.42, a ~1.6-1.9σ owned bet). **The BBN synthesis (internal review): the sector is THE
 TRANSITION'S WITNESS** — the only laboratory that watched the condensation live; the pattern
 is RIGID (no dials); referees: the radio referee, the helium resolution, the T_c re-audit
 (flagged-not-taken), the α_c MCMC posterior. The adverse landings are logged in public;

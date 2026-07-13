@@ -1148,7 +1148,7 @@ needs (a) the precise cutoff/scheme (18 MeV is not an obviously
 motivated scale) AND (b) the exact fraction of the EM self-energy the
 environment modulates. The roof's FRAME is up (material identified,
 size bounded); the final coefficient is not nailed. The keystone task
-(section 28 / task #10) is now sharper: derive the cutoff and the
+(section 28 / the working docket) is now sharper: derive the cutoff and the
 modulation fraction of the electron's curvature-dependent EM self-
 energy.
 
@@ -1310,8 +1310,8 @@ and it is the single question already under adjudication. The amplitude roof
 is therefore NOT an open-ended search -- it is gated on one decidable yes/no.
 
 STATUS: the amplitude work reduces cleanly to the census-scope adjudication
-(task #5). Task #10 (derive the coefficient) is DOWNSTREAM of and BLOCKED BY
-task #5: if narrow-legal, compute β; if broad-forbidden, the dyad's m_e
+(the working docket). Task #10 (derive the coefficient) is DOWNSTREAM of and BLOCKED BY
+the working docket: if narrow-legal, compute β; if broad-forbidden, the dyad's m_e
 shift has no legal mechanism at its size and the model confronts that
 directly. The pieces are all identified and placed; one permit builds the
 roof.
@@ -2130,7 +2130,7 @@ shift is present for the fit); the difference is physical motivation, not a
 refit. The gate is now derived-from-collapse, not chosen.
 
 **Ties to existing machinery.** The trigger and the granule ε-meter are the SAME
-field (multi-stream interference). The Tier-3 two-field SP sims (task #8) that
+field (multi-stream interference). The Tier-3 two-field SP sims (the working docket) that
 would quote the granule power S ALSO map where Θ saturates — one simulation
 campaign tests the trigger AND the ε-meter. This fuses the m_e-trigger program
 with the granule program.
@@ -2181,7 +2181,7 @@ sector — the same shell-crossing that funds dark energy flips the electron mas
 via one shared kinetic-fluctuation field. A genuine economy in the unification
 story; a conjecture to be tested (does the funded-floor δK author and the
 granule/Θ multi-stream field reduce to the same object in the two-field SP
-sims of task #8?). Registered as the corrected (structure-formation, not
+sims of the working docket?). Registered as the corrected (structure-formation, not
 genesis) reading of "dark matter meets dark energy." Pinning Rule intact —
 nothing here is a registered prediction.
 
@@ -2466,7 +2466,7 @@ retraction): "amplitude mode = m_e channel" is sensible but not yet an author.
 What lifts it above hope: it's TESTABLE. f_amp also sets granule power
 S=(1+f_rot²)/2=(1+(1−f_amp)²)/2, so the task-8 sims that read f_amp off
 dwarf-heating independently check whether β≈f_amp≈0.6. Granule-f_amp → β=0.6
-closes the amplitude; otherwise the lead dies. Fifth thread onto task #8.
+closes the amplitude; otherwise the lead dies. Fifth thread onto the working docket.
 
 ## 67. The complete m_e transaction (author's synthesis) — gravity → β → EM, matter to space to matter
 
@@ -2533,7 +2533,7 @@ reasoning:**
 **State:** β's IDENTITY known (geometric mode-fraction, ≈f_amp, 60% of gravity's
 grip); its VALUE has a falsifiable target (0.6, checkable when sims read f_amp);
 but it CANNOT be computed cold without (1) the author + (2) the sim. Deriving β
-= build the author + run the sim (task #8), not more reasoning. Comparison
+= build the author + run the sim (the working docket), not more reasoning. Comparison
 credited to the author (closed the coupling-ratio route).
 
 ## 69. Why β is small: it carries INFORMATION, not energy (author) — census-forced, and FIRAS-safe
@@ -2679,7 +2679,7 @@ Then:
   CHARGE/number, NOT mass). Masses feel only the dilaton → only f_amp reaches
   m_e. Forced by the two-Goldstone structure.
 ⇒ β = f_amp DERIVED: amplitude mode = scale dilaton (universal mass coupling) +
-rotation = U(1) Goldstone (charge only). Builds on task #7 (derived the
+rotation = U(1) Goldstone (charge only). Builds on the working docket (derived the
 Weyl/conformal coupling FORM); this pins its COEFFICIENT.
 
 **HONEST CAVEATS — the route, a calc to execute, not done:**
@@ -2699,7 +2699,7 @@ invariance) + mode selection (two Goldstones) together. A concrete field-theory
 calculation traceable to a symmetry the model already has; the genuine last piece
 of the amplitude derivation. Credited to the author.
 
-## 74. THE CALCULATION RUN (author: "let's do it") — make-or-break PASSED; the last coefficient reduces to the census-scope question (task #5)
+## 74. THE CALCULATION RUN (author: "let's do it") — make-or-break PASSED; the last coefficient reduces to the census-scope question (the working docket)
 
 **Ran the effective-action reasoning for the coupling scale.** Result: a win, an
 honest loss, and a clean reduction.
@@ -2730,7 +2730,7 @@ to the census-scope adjudication = **TASK #5** (Gemini's ball):
 - WEAK census (c free O(1)): c≈1 natural + data-consistent, not forced.
 
 **STATE:** the 1.24% now hangs on the SAME census-scope question as everything
-else in the program. Close task #5 in the strong direction → the electron-mass
+else in the program. Close the working docket in the strong direction → the electron-mass
 amplitude is derived end to end (f_amp × Ψ₀/M_red). The make-or-break is behind
 us; the last freedom is the census strength itself. Credited to the author's
 "let's do it."
@@ -2975,7 +2975,7 @@ contested.
 tilt."** Correct, and bigger than it looks — it breaks §77.
 
 **BREAKS §77:** §77 called c permanently degenerate with the amplitude (no
-observable isolates it). WRONG. The granule sim (task #8) measures f_amp
+observable isolates it). WRONG. The granule sim (the working docket) measures f_amp
 INDEPENDENTLY (dwarf heating, no c dependence). Then **c = ε/(f_amp,granule ×
 Ψ₀/M_red)** — c ISOLATED. The granule sim IS the independent handle §77 denied.
 
@@ -3140,7 +3140,7 @@ all — THAT era pins c. Post-confinement hadrons form, gain binding, become ≠
 leptons — w splits. A = the birth of w; B = the body it leaves. c fixed in the
 universal era, w born at confinement, multiplying forever after.
 
-**THE ONE SHARED CRUX (task #14):** everything now rides on w being BOTH:
+**THE ONE SHARED CRUX (the working docket):** everything now rides on w being BOTH:
 (i) census-LEGAL — matter's OWN EM structure responding to a gravitational
     trigger, NOT the medium modulating α (varying-α, forbidden/quasar-killed);
 (ii) correctly SIGNED — leptons MORE, hadrons LESS (EM self-energy gives this; a

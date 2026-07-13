@@ -9,7 +9,7 @@
 default, and leans AGAINST. The leading-order symmetry-allowed coupling gives the
 CATASTROPHE; the heal requires a specific, non-generic "emergent-coherence"
 coupling that the action as written does not encode. So the m_e=1@BBN choice is an
-ASSUMPTION, not a derivation — exactly as internal review graded it (t104/105).**
+ASSUMPTION, not a derivation — exactly as internal review graded it (internal review/105).**
 
 This document answers the single fit-independent question that gate 0 rests on:
 is "the conformal mass coupling rides the coherent condensate ⟨Ψ⟩ (0 above T_c),
@@ -148,7 +148,7 @@ construction. Gate 0 does **not** pass on theory.
 
 ### Consequence
 - The **m_e=1@BBN config choice is an ASSUMPTION**, not a derivation. internal review
-  t104/105 graded it exactly right; this derivation confirms it and adds *which
+  internal review/105 graded it exactly right; this derivation confirms it and adds *which
   way it leans*: against.
 - The honest, consistent, action-faithful config is closer to the **catastrophe**
   reading (m_e shifted at BBN, per the local F(φ)R), which reinstates the
@@ -159,7 +159,7 @@ construction. Gate 0 does **not** pass on theory.
   1. **Build the emergent-coherence coupling** from the superfluid EFT — show the
      fermion mass shift arises from coherent forward-scattering off ⟨Ψ⟩ (∝|⟨Ψ⟩|²,
      0 above T_c) with the fluctuation/magnitude piece provably decoupled. This is
-     a real derivation (task #27/#17 territory), not a relabeling. Hard.
+     a real derivation (the working docket territory), not a relabeling. Hard.
   2. **BBN-abundance data (#29)** — the external tiebreaker: catastrophe reading
      predicts a BBN varying-constants signal in D/H, Y_p, Li; heal predicts
      standard abundances. The data decide regardless of the theory.
@@ -244,11 +244,11 @@ is what the sky *requires* — even though the model does not yet derive the mec
 2. **Rotation as the coupling:** the current J·J ∝ (R²θ̇)² is ~10⁵¹× too small to source
    1.2% (θ̇ ~ fuzzy-DM mass ~10⁻²² eV). Rotation is the CLOCK (release/twist marks the
    snap) and the ABUNDANCE/sign carrier — NOT the mass coupling. DEAD as source.
-3. **Trace-driven conformal F(φ) build (task #28, purple-team turns 111–113):** the
+3. **Trace-driven conformal F(φ) build (the working docket, purple-team turns 111–113):** the
    F(φ) sector is DORMANT in the dyad (no scf in config, no F/φ in background, no
    parameter reads); the coded activation is a hardcoded a=1×10⁻⁴, not H=m; and the coded
    ξ_eff is QUADRATIC (0.04% at φ=0.02, 30× short of 1.2%). DEAD as coded.
-   **CAVEAT (self-correction, internal record 115):** the 30× is CONTINGENT on the quadratic form.
+   **CAVEAT (self-correction, internal review):** the 30× is CONTINGENT on the quadratic form.
    #11's amplitude is LINEAR (c·f_amp·φ → 1.2% at φ=0.02, natural). The model is
    INTERNALLY INCONSISTENT on the mass-coupling form (linear #11 vs quadratic coded
    G_eff). The linear form escapes the 30×. This is the ONE thread still open (§7.4).
@@ -265,20 +265,20 @@ or brings its own catastrophe. Reshuffling cannot fix a field-level problem. **D
 propose an Nth reshuffle of this field.** The honest routes are: accept the debt, use
 the data (#29, done), or design a different field (future project).
 
-### 7.4 THE ONE OPEN THREAD (task #27) — derive the coupling FORM, not select it
+### 7.4 THE ONE OPEN THREAD (the working docket) — derive the coupling FORM, not select it
 #29 proves the mechanism EXISTS in nature. The remaining debt is theory-completeness:
 - **Derive whether the mass coupling is LINEAR (#11) or QUADRATIC (coded G_eff) from the
   conformal structure — INDEPENDENT of which heals.** Selecting linear *because* it heals
-  is the motivated move we refuse (internal record 115). If genuinely linear + rides a quantity ~0
+  is the motivated move we refuse (internal review). If genuinely linear + rides a quantity ~0
   before the snap (condensation) → the heal is derived AND data-backed. If quadratic →
   the 30× stands and the heal stays data-required-but-theory-unexplained.
 - The snap (condensation at H=m, z~4×10⁷, between BBN and recomb) is the MODEL-FIXED
   timing — that part is clean; it is the AMPLITUDE/FORM that is open.
 
-### 7.5 Standing (corrected by internal review turn 116 — the t115 ~15-20% was over-optimistic)
+### 7.5 Standing (corrected by internal review turn 116 — the internal review ~15-20% was over-optimistic)
 **~10-12% now, and BIMODAL.** #29 flipped only ONE of the win's three conditions (the
 BBN VALUE m_e=1@BBN is data-required, not a free knob — that debit is dead). TWO remain:
-the differential mechanism must derive, and the recomb win is still SHOES-dependent (t102).
+the differential mechanism must derive, and the recomb win is still SHOES-dependent (internal review).
 Crucially, #29 did NOT gift the heal — it made gate-0-FAIL **FATAL**: the ~12σ exclusion
 runs through the QUARK-shared channel, and the model's coupling IS universal (the very
 feature that bought census-legality, t84). So **universality = census-legality = 12σ BBN
@@ -286,12 +286,12 @@ severity — the feature is the executioner.** Hence:
 - differential mechanism DERIVES (single coupling, 0@BBN + 1.24%@recomb, form+timing from
   first principles, NOT selected-to-heal) → real contender, 15-20%+ EARNED;
 - only a UNIVERSAL shift derivable (m_e ≠ 1 at BBN) → **12σ DEAD (~0).**
-Correction of a t115 over-claim: "#29 proves the mechanism exists in nature" is WRONG —
+Correction of a internal review over-claim: "#29 proves the mechanism exists in nature" is WRONG —
 nature's m_e=1@BBN is CONSTANT m_e (standard physics), a CONSTRAINT the model must meet,
 not proof a varying-heal mechanism exists. §7.4 is survive-or-die, not tidy-up.
 
 ### 7.6 TERMINUS (internal review turn 122–123) — STRUCTURAL NO-GO, ~1-2%, model dead
-The §7.4 survive-or-die derivation was RUN healing-blind (internal record 119/121) and FAILED as a
+The §7.4 survive-or-die derivation was RUN healing-blind (internal review/121) and FAILED as a
 **structural no-go (~99%, modulo composite/higher-derivative exotica)**, not a search failure:
 - **Symmetry protects the WRONG mode.** U(1) shift symmetry → PHASE is a Goldstone →
   derivative coupling → vanishes for the static frozen field (would heal) BUT is the
@@ -342,6 +342,6 @@ certain** without a marginalized fit.
 but the bump-producing resonance relocates the catastrophe to the recombination damping tail,
 ~22x the fittable scale → **likely-dead-pending-marginalization.** It is a SUCCESSOR-model
 direction (quiet-at-BBN by structure), NOT a rescue of the AD condensate (still dead, §7.6).
-Also booked: an over-built "timing-conflict" wall (internal record 172) was MINE, not model-implied, and
+Also booked: an over-built "timing-conflict" wall (internal review) was MINE, not model-implied, and
 was conceded — the m_e shift and the recomb decoupling are ONE gradual process. C-code build
 is GATED on a confident WIN verdict (user instruction); current read = no win → not built.

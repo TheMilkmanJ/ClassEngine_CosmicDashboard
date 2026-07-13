@@ -9,7 +9,7 @@ manufactured claim. Legend — [O]=natively ours, [R]=ridden-exact (imitate), [S
 (our proof-of-constancy), [I]=plain inheritance (parent's relation, nothing added),
 [C]=carries genuine content (a prediction/derivation — enumerated), [P]=parked (a snag, in the
 register). Most leaves are [I]: that is the honest result, not a failure — a theory of the
-medium OWES most of science only constancy, and says so. Living document. Booked internal record 491.*
+medium OWES most of science only constancy, and says so. Living document. Booked internal review.*
 
 ## PHYSICS (roots — the sixteen threads; [O]/[R] at the top)
 - mechanics [R] → classical [I] · continuum/fluids [I] · chaos/dynamical-systems [O] (the
@@ -32,7 +32,7 @@ medium OWES most of science only constancy, and says so. Living document. Booked
 - nuclear chem [S: decay constants — Oklo fence]
 
 ## BIOLOGY [license-traced; possibility not process]
-- biochem/bioenergetics [I→C-borderline: the account tap is the ARROW doc talking, not new biochem — tag shaved per t480] → molecular bio [I] · genetics [I]
+- biochem/bioenergetics [I→C-borderline: the account tap is the ARROW doc talking, not new biochem — tag shaved per internal review] → molecular bio [I] · genetics [I]
 - botany [C-shadow: photosynthesis = the delicate withdrawal] · zoology [I] · microbio [I]
 - ecology [I: energy-flow = the local budget] · evolution [I: selection on inherited chemistry]
 - neuroscience [I; §12 WALL — NO mind claims, hard boundary]
@@ -47,7 +47,7 @@ medium OWES most of science only constancy, and says so. Living document. Booked
 ## FORMAL & APPLIED [language / rides-all]
 - mathematics [not a child — the LANGUAGE, out of scope; listed, never claimed]
 - computer science [O: Landauer/Shannon constitution-grade] · engineering [I: rides all]
-- materials science [I→C-borderline: the cousins CITE materials; the model adds no materials physics — tag shaved per t480] · medicine [S: the screen's gift, t440]
+- materials science [I→C-borderline: the cousins CITE materials; the model adds no materials physics — tag shaved per internal review] · medicine [S: the screen's gift, internal review]
 - statistics/data science [R: the method, not a physics claim]
 
 ## THE COUNT (this pass): 
@@ -58,7 +58,7 @@ nodes are where the model SAYS something; the rest is where it PROMISES somethin
 
 ---
 
-# THE COMPLETENESS AUDIT (internal record 503): the full taxonomy vs our coverage
+# THE COMPLETENESS AUDIT (internal review): the full taxonomy vs our coverage
 
 *The standard classification (PACS/PhySH-style), diffed against the shelf. Previously-unlisted
 subdomains tagged below — most close honestly as [I]/[R]; TWO new kinship finds and one
@@ -69,8 +69,8 @@ already-ours subdomain surfaced by the audit itself.*
 | subdomain | tag | the connection (or its honest absence) |
 |---|---|---|
 | **LASER PHYSICS** (the author's example) | [R + cousin-note] | stimulated emission = QM+EM, ridden-exact. The kinship: a laser IS a photon coherent state — laboratory macroscopic coherence, the optical sibling of the cousins' bench (one phase, many quanta — the medium's own grammar at 10¹⁵ Hz). No improvement claimed; the kinship is real and unforced |
-| **CRITICAL PHENOMENA / PHASE TRANSITIONS** | **[C — ours, previously untagged!]** | the audit's find: Kibble-Zurek IS this subdomain and the model RUNS on it (the first-genesis domain formation, t343; the T_c condensation, the gate). The universality-class formalism (critical exponents, scaling) is the mathematics of our own transition. Upgraded from unlisted to content-node — the 13th voice |
-| **TOPOLOGICAL MATTER** (quantum Hall, topological insulators) | [R + kinship] | the quantized Hall conductance σ = νe²/h is topological protection — THE SAME MATHEMATICS as the winding's crunch-immunity (t338). A new lab-cousin row: nature already builds n∈ℤ-protected observables on benches. Kinship, not improvement |
+| **CRITICAL PHENOMENA / PHASE TRANSITIONS** | **[C — ours, previously untagged!]** | the audit's find: Kibble-Zurek IS this subdomain and the model RUNS on it (the first-genesis domain formation, internal review; the T_c condensation, the gate). The universality-class formalism (critical exponents, scaling) is the mathematics of our own transition. Upgraded from unlisted to content-node — the 13th voice |
+| **TOPOLOGICAL MATTER** (quantum Hall, topological insulators) | [R + kinship] | the quantized Hall conductance σ = νe²/h is topological protection — THE SAME MATHEMATICS as the winding's crunch-immunity (internal review). A new lab-cousin row: nature already builds n∈ℤ-protected observables on benches. Kinship, not improvement |
 | quantum optics | [R] | rides QM exactly; hosts the Tsirelson-class tests (our permanent exam hall) |
 | metrology | [C-adjacent, existing] | already ours via Josephson/SI (the cousins) — now explicitly tagged as the subdomain |
 | solar physics / heliophysics | [I] | the nearest GEN-8 furnace; solar neutrinos [S — MSW ridden, passed] |
@@ -80,7 +80,7 @@ already-ours subdomain surfaced by the audit itself.*
 | nanoscience / mesoscale | [I + parked note] | hosts 1/M₂ = 20 nm (the loose alignment — parked, unchanged) |
 | atmospheric/space weather, geophysics subfields | [I] | inheritance complete |
 | kinetic theory, percolation | [I]/[R] | percolation rides inside Kibble's mathematics |
-| biomechanics, quantum biology | [I]/killed-adjacent | decoherence is standard everywhere warm (t445) |
+| biomechanics, quantum biology | [I]/killed-adjacent | decoherence is standard everywhere warm (internal review) |
 | psychology / social sciences | OUT OF SCOPE | not physical sciences; the boundary stated, no claims |
 
 ## The audit's verdict

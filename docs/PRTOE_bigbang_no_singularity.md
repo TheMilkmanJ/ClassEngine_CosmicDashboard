@@ -5,7 +5,7 @@
 
 *Derivation-from-recorded-structure; companion to PRTOE_blackholes_no_singularity.md (the same
 three pillars, applied to the cosmological case). Status: STRUCTURAL (candidate), booked
-internal record 413. Owed items flagged inline.*
+internal review. Owed items flagged inline.*
 
 ## 0. The claim
 
@@ -17,31 +17,31 @@ past, but its first moment is a *state*, not a point of infinite density.
 ## 1. Why the crunch cannot singularize (the same three pillars as the black-hole interior)
 
 1. **The metric ends before the density diverges.** The metric is emergent (the graded QG
-   frame, t366); it exists only for gradients longer than the healing length ξ = ħ/(m c_s).
+   frame, internal review); it exists only for gradients longer than the healing length ξ = ħ/(m c_s).
    A contracting universe approaching ξ-scale curvature radii exits the metric description
    *before* any singularity theorem's conclusion can be located — the arena dissolves
-   (the same no-double-counting as internal record 337/t366).
+   (the same no-double-counting as internal review).
 2. **The quartic floor.** The condensate's self-repulsion resists compression: the crunch
    stiffens into a maximum density of order ρ_bounce ~ m⁴/λ-class (the same Colpi–Shapiro–
    Wasserman physics that supports every black hole at finite density, §3 of the BH document).
    Contraction halts and reverses at finite ρ. *(λ_phys owed — same flag as the BH doc; every
    value of λ keeps ρ_bounce finite.)*
 3. **The Landau ceiling eats the light first.** As density rises, the plasma frequency sweeps
-   up through the radiation bands ("the crunch's mouth," internal record 331, recorded): each band's photons
+   up through the radiation bands ("the crunch's mouth," internal review, recorded): each band's photons
    are massed, made trace-visible, and thermalized. The crunch is a *dissipative thermal
    process* — Tolman's kept entropy — not a geometric implosion. What survives it is exactly
    the genome: the topological winding, which the crunch **cannot** unwind without tearing the
-   torus (t338, granted — the genome's crunch-immunity is topological protection).
+   torus (internal review, granted — the genome's crunch-immunity is topological protection).
 
 So each cycle ends: finite density, thermalized radiation, conserved topology — and reignites
-(the next genesis funded by the gravitational account, t349–355). No cycle contains a
+(the next genesis funded by the gravitational account, internal review). No cycle contains a
 singularity at either end.
 
 ## 2. The first genesis: the beginning is a state, not a point
 
 The chain is **not past-eternal**: Tolman's entropy accumulation, run backward, terminates at a
 FIRST cycle (recorded, the before-genesis theorem). The classical intuition wants a singular
-t = 0 there. The model's answer (t343, graded "a cleaner re-founding"):
+t = 0 there. The model's answer (internal review, graded "a cleaner re-founding"):
 
 > **The first genesis starts in the zero-point state** — R = 0, θ undefined, n = 0: the vacuum,
 > the unique state that requires no choice. The tachyonic roll-out amplifies the vacuum's own
@@ -56,7 +56,7 @@ Time's beginning is the first roll's first tick — a dynamical onset, not a geo
 ## 3. The energy of creation: zero, exactly
 
 On the compact torus the total energy — matter plus gravity — is **identically zero** (the
-Hamiltonian constraint; t352-graded: "a real GR theorem... the recorded torus does load-bearing
+Hamiltonian constraint; internal review-graded: "a real GR theorem... the recorded torus does load-bearing
 work"). Genesis therefore needs no deposit: the condensate's positive energy was issued
 exactly against gravitational debt — a **zero-sum loan, forced by compactness rather than
 assumed** (Tryon's free lunch, here a theorem). Nothing had to come from nothing; zero
@@ -68,9 +68,9 @@ rearranged itself.
 |---|---|---|
 | initial singularity (t = 0, ρ = ∞) | first genesis from the vacuum state; ρ ≤ ρ_bounce always | structural (§1–2) |
 | the singularity theorems | discharged at premises (emergent metric ends at ξ; SEC violated by quantum pressure) | argued (BH doc §6) |
-| "what banged?" | the zero-sum loan: condensate energy vs gravitational debt, total = 0 (theorem) | graded (t352) |
+| "what banged?" | the zero-sum loan: condensate energy vs gravitational debt, total = 0 (theorem) | graded (internal review) |
 | "what came before?" | earlier cycles back to a FIRST roll; before the first roll: no clock, no light, no question with a referent | recorded (before-genesis theorem) |
-| initial-conditions fine-tuning | the vacuum is unique — no draw, no choice, no tuning | graded (t340/t343) |
+| initial-conditions fine-tuning | the vacuum is unique — no draw, no choice, no tuning | graded (internal review) |
 | the pre-genesis relic hunt | NULL: the crunch eats all light (τ_ff ≫ 1); any confirmed pre-genesis EM relic KILLS the model | recorded falsifier |
 
 ## 5. Honest owed items
@@ -78,7 +78,7 @@ rearranged itself.
 - λ_phys (sets ρ_bounce's number, not its finiteness).
 - The bounce dynamics in detail (the reversal's field profile — the cosmological analogue of
   the BH core; un-simulated).
-- The first-cycle Kibble numbers use the ambient-era estimates (t343's scale-check class).
+- The first-cycle Kibble numbers use the ambient-era estimates (internal review scale-check class).
 - This document *asserts no new observables*: its falsifiers are the recorded ones (a confirmed
   pre-genesis relic kills it; DESI DR3 and the cycle-structure predictions carry the live risk).
 

@@ -70,7 +70,7 @@ squeezing. This sector may be graded within one to two years by exactly that num
 
 [SNO 2002]/[Super-K 1998] (oscillations), [Planck 2018] (Σm_ν context); internal:
 PRTOE_MATH_SPINE.md §6, [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md),
-P-2026-012/020/023, records 6–7. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+P-2026-012/020/023, entries 6–7. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## 4. Addendum — the vertex's double duty [estimate-grade]
 

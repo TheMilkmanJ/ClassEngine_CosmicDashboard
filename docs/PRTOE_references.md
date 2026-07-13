@@ -105,7 +105,7 @@ V = verified, exactly as used in our documents):
   preference for evolving dark energy with phantom crossing. The
   object of STANDING BET #3 (Λ-exactly). Verified at booking.
 
-## Tail closed (2026-07-07 ~6:15am — task #19, the pre-Fairbank gate)
+## Tail closed (2026-07-07 ~6:15am — the working docket, the pre-Fairbank gate)
 - [V] **Hafele & Keating**, Science 177, 166 & 168 (1972) — flown
   cesium clocks: east −59±10 ns (pred −40±23), west +273±7 ns
   (pred +275±21). The time-emergence calibration receipt.

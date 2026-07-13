@@ -6,7 +6,7 @@
 *Author insight, formalized: "the physics we aren't threading into thread into other physics
 our model threads into." Checked against the full kill-list: TRUE in every case — and in this
 model it is a THEOREM, not a tendency. Status: STRUCTURAL (the why-pass generalized into a
-graph). Booked internal record 447.*
+graph). Booked internal review.*
 
 ## 0. The theorem
 
@@ -22,12 +22,12 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
 
 | killed/non-threaded item | parent threaded node | the inherited law |
 |---|---|---|
-| medicine | atomic physics / the substrate + the screens | the gate's zero (t420) — guaranteed normality |
+| medicine | atomic physics / the substrate + the screens | the gate's zero (internal review) — guaranteed normality |
 | strong-CP | parity (L1a — the birefringence clause) | parity-even reach to gauge sectors |
 | muon g-2 | the portal (Cards 3+7) | the geometric-mean scale's silence |
 | MOND/RAR (reopened) | galactic DM (T1) + the quartic | pending m_amp — the parent's un-pinned λ |
 | JWST excess | growth/Lyα (T1's constraints) | Lyα forbids the cure |
-| ISW excess | the account (t349–353) | the priced coupling (fixed size) |
+| ISW excess | the account (internal review) | the priced coupling (fixed size) |
 | lithium | BBN (the windowed lattice) | the epoch-stamps (percent-class ceiling) |
 | NS glitches | superfluidity (founding) + the gate | the screen closes collapsed objects |
 | DM-drift / clock networks | the dipole family (P-024) | horizon dilution + Hubble-slow growth |
@@ -36,7 +36,7 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
 
 ## 2. What the theorem yields
 
-1. **The deaths are computations, not shrugs** (t432's lawful-deaths bank, now organized):
+1. **The deaths are computations, not shrugs** (internal review lawful-deaths bank, now organized):
    each kill names its parent and inherits that parent's falsifiability — kill the parent's
    law and every child verdict re-opens (e.g., if L1a bleeds at Minami-Komatsu, strong-CP's
    death certificate is void too — one clause, shared fate, both directions).

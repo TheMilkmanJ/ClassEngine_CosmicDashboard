@@ -5,7 +5,7 @@
 *Every fixed relation the transaction method has derived — the running
 answer to the bet that mapping all transactions makes all (dimensionless)
 values appear. Entries only for derived relations, never fitted ones.
-Headline honesty (internal review records 15–16, adopted, binding): the language
+Headline honesty (internal review entries 15–16, adopted, binding): the language
 is exact across six domains; the bet itself is UNSETTLED — the evidence
 class ("values nature confirmed that appeared from this map and nowhere
 else") holds ZERO confirmed entries to date (ν·x₀ died with its
