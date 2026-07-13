@@ -1649,3 +1649,25 @@ the ring's dynamics for R(t), the core, and the velocity field — thereby DERIV
 parked riders (the bulk-flow structure, the H0-lever divergence, the census drift). The
 chain's largest debt (the bounce equations) now has its boundary conditions named and
 its outputs pre-sold.
+
+### Sweep 54 addendum — THE FOURTH LINE: RESISTANCE (the operator's word; the physics
+### name is MUTUAL FRICTION)
+
+The operator's "Resistance?" completes the genesis card: not a fourth invariant but THE
+TRANSPORT COEFFICIENT — mutual friction (Hall–Vinen α(T/T_c)), the drag between the
+vortex ring and the normal component. What it buys: (i) **the survival answer** — the
+axis family persists 13.8 Gyr because below T_c resistance ramps to zero and the
+quantized winding becomes a PERSISTENT CURRENT (capital that never erodes; in any
+resistive medium the genesis memory would have dissipated — the no-fee bank is WHY
+there is an axis family to hunt); (ii) **the genesis needs the friction era** — near
+T_c the normal fraction is large, friction strong: the KH roll-up, reconnections, and
+the draw's settling RUN on it (books editable), then the cooling ramp locks the
+configuration (books frozen); (iii) **the freeze-rhyme flagged**: the same cooling that
+ends pair-breaking (lock 2's T = Δ lane) ends friction — the census freeze and the
+friction freeze may be ONE event (genesis-session docket item); (iv) **the
+fingerprint**: any deviation from the pure (1+z)² lookback law in bulk-flow data is the
+friction era's mark on the flow history — the resistance is measurable in principle.
+Ledger grammar: friction = transaction fees; the superfluid transition = the fee
+schedule ramping to zero; the persistent current = the account that pays no maintenance.
+THE GENESIS CARD, complete: Γ (the comb) + impulse/ω (flow+helicity, one number) +
+E (the capital, via A_s) + α(T/T_c) (the resistance ramp, via the flow's history).
