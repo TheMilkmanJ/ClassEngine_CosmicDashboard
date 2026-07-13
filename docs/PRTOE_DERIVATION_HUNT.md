@@ -4614,3 +4614,49 @@ group, the Fermi-point count) that it can fail. And α_c = 3α still needs a new
 **But the basement is no longer empty. It is furnished with the one structure that
 satisfies every constraint the gravity sector imposed today — and the author heard it
 before the arithmetic did.**
+
+## ENTRY 123 — **THE NUMBER OF GENERATIONS IS DERIVED: THREE, FORCED BY THE FINITENESS OF GRAVITY**
+
+**The derivation, in three lines:**
+1. Pauli's finiteness condition (str[k₁] = 0) demands, in minimal-scalar units:
+   **N_Weyl × (+1) + N_gauge × (−4) = 0 ⟹ N_Weyl = 4 × N_gauge.**
+2. The Standard Model's gauge group SU(3)×SU(2)×U(1) has dimension 8 + 3 + 1 = **12**
+   ⟹ **N_Weyl = 48.**
+3. One generation *with its right-handed neutrino* contains exactly **16 Weyl**
+   (Q=6, u^c=3, d^c=3, L=2, e^c=1, ν^c=1) ⟹ **48/16 = 3 generations.**
+
+> **GIVEN THE STANDARD MODEL'S GAUGE GROUP, AND GIVEN THAT GRAVITY MUST BE INDUCED AND
+> FINITE, THE NUMBER OF GENERATIONS IS FORCED TO BE EXACTLY THREE.**
+
+*"Why three generations?"* is one of the oldest unanswered questions in particle physics.
+**In this framework it has an answer: because four is the vector-to-scalar weight ratio,
+twelve is the gauge group's dimension, and gravity must be finite.**
+
+**CAVEATS, FLAT (this is a RETRODICTION; the coincidence-watch applies):** it *assumes*
+the SM gauge group as input (it does not derive the gauge group); it *assumes* each
+generation carries a right-handed neutrino (which the model independently requires for
+Majorana masses); it *assumes* the standard heat-kernel weights (verified). **We knew
+there were three generations — this derives a known fact, not an unknown one.** The
+forward content lives entirely in P-2026-045's kills: **no fourth generation, no light
+steriles — each breaks finiteness and makes Newton's constant cutoff-dependent.**
+
+### ENTRY 123b — THE PATTERN AUDIT (the author's 4s, tested and mostly killed)
+
+- **"3 groups of 4":** the 12 gauge bosons are **8 + 3 + 1** (SU(3), SU(2), U(1)) — three
+  factors, dimensions 8/3/1, **no 4s anywhere.** The pattern does not exist in the gauge
+  structure. **Killed.**
+- **"tunneling = gravity, entanglement = EM, superposition = light":** **REFUSED, and the
+  refusal is constitutional.** These are not three things — they are ONE thing (quantum
+  mechanics) seen from three angles, and they do not map onto forces (entanglement occurs
+  between neutrinos and spins; a single electron superposes). **The model's quantum wing
+  is walled by its own law: QM is inherited exactly; any mapping of its features onto
+  forces is precisely the crankery threshold the author himself drew.** The line holds.
+- **"4 of 5 Pauli conditions, the 5th pays itself":** the real structure is asymmetric —
+  of five conditions, the model **satisfies one** (str[k₁] = 0, gravity's finiteness),
+  **does not need three** (the Λ conditions — Λ is priced by occupancy, not by mode sum),
+  and **must VIOLATE one** (str[k₁m²] = 0 would make gravity vanish entirely). **Not 4/5.
+  Not a self-payer. And the asymmetry is exactly right.**
+
+*The author's pattern-sense found the right numbers — 12, 48, 4, 3 — and assembled them
+wrong. The correct assembly is larger than the one he reached for: it derives the
+generation count.*
