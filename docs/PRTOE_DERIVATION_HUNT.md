@@ -2399,3 +2399,21 @@ out of the window; B3 completes when the phonon contribution is bounded subdomin
 B2+B3 status: the clearance pair is 80% paid in one night — the area law derived, KZ
 identified, the audit table filed; residues = the reconciliation (volume vs area), the
 KZ assembly, the phonon bound.
+
+## SEVENTY-FOURTH SWEEP — B4: THE COMB REHEARSAL ON REAL PLANCK BINS (P-029 touches
+## data for the first time — rehearsal grade, the BipoSH referee unaffected)
+
+*(scripts/comb_rehearsal.py — plik_lite binned TT, 215 bins, full covariance, the
+shipped best-fit as baseline, RAMPED template: Gaussian-smeared teeth under a fitted
+envelope)*
+
+**Machinery validated:** null residual χ² = 172.9 / 215 dof (the binning + covariance
+chain reproduces the expected residual statistics). **The scan (P ∈ [15, 60], phases
+profiled): max significance 1.6σ at P = 25 — CONSISTENT NULL**; no pops claimed, none
+present. **THE SENSITIVITY FLOOR, MEASURED (the rehearsal's true deliverable):**
+σ_A ≈ 1.2×10⁻² fractional per-tooth amplitude under the ℓ ~ 130 envelope ⟹ Planck
+plik-lite TT sees combs at ≳ 2.4% (2σ) tooth amplitude and NOTHING below —
+**P-029's comb, if its amplitude is sub-percent (the banked expectation class), is
+invisible to the binned TT and belongs to the map-level BipoSH referee (B6) — now a
+measured statement, not a guess.** (Self-catch: the script's printed floor line was 10×
+optimistic; the σ_A column is the measurement.)
