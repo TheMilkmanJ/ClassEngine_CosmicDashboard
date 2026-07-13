@@ -2606,3 +2606,37 @@ ramp O(1) = 1 derived, K = the coherence scale. The frame's match-or-die now rea
 **the day ξ is independently determined, gravity's strength is either confirmed or the
 frame dies** — the founding coupling and Newton's constant are one measurement apart.
 The model's first equation and its last unknown are the same symbol.
+
+## ENTRY 81 — CARD 6 EXECUTED: v_L IS DUTY-FORCED INTO TWO CORNERS, AND THEY EXCLUDE EACH OTHER
+
+The seesaw duty scan (scripts/seesaw_scan_card6.py, ramped: continuous log-grids, band
+outputs). Duties joined: the light-mass duty (m₃ = 50.2 meV), the resonance duty (Card 4's
+η route, μ/Γ_N treated as a ramp 0.1–10), the triplet duty (P-2026-039, M ~ 1 TeV), the
+spurion sourcing (μ = λ′v_L, λ′ ∈ [10⁻³, 1]), the Majoron identity (g = m₃/v_L), and the
+junction vertex (y ∈ [0.7, 3]×10⁻⁵, the transfer integral's landing).
+
+**CORNER 1 (resonance + TeV triplets):** y ≈ 2.5×10⁻³, μ ≈ 0.24 MeV at M = 1 TeV
+(μ ∝ M^{3/2} smoothly along the grid); **v_L ∈ [0.1, ~10³] MeV over the natural λ′ band,
+with ~64% of the band inside CMB-S4 reach at 1 TeV** (the S4-overlap fraction ramps
+0.88 → 0.01 across M = 0.3–30 TeV — S4's Majoron search is secretly an M-probe).
+Benchmark A (v_L = 5 MeV, g ≈ 10⁻⁸) is a RESIDENT of this corner, not an assumption:
+the g cross-check reproduces the recorded 1.2×10⁻⁸ at recorded weighting.
+
+**CORNER 2 (the junction double-duty):** y pinned to the junction band forces
+μ = 2.7–23 GeV at M = 1 TeV → v_L ≥ 2.7 GeV, g ≤ 2×10⁻¹¹ (S4-invisible), and
+μ/Γ ~ 10⁸–10¹⁰ — ten decades off resonance, smoothly, no cliff anywhere.
+
+**THE BRIDGE (the adjudication):** M forced by (resonance + mass duty) crosses 1 TeV
+only at y ≈ 2.8×10⁻³; at the junction's y = 1.5×10⁻⁵ the forced M is ~2.4 keV —
+**8.6 decades from the triplet duty, on a smooth curve**. The neutrino-sector addendum's
+"factor 4–20, inside the O(1)s" hope is ADJUDICATED ADVERSE: adding the resonance duty
+blows the gap to ~100× in y. The vertex double-duty and resonant leptogenesis cannot
+coexist at TeV M. One vertex cannot serve both masters; the corners are exclusive.
+
+**What survives as the derivation:** v_L is not a point tonight — it is a
+corner-conditional band: MeV-class (S4-armed) if η is resonant; ≥ GeV (S4-dark) if the
+junction vertex is the seesaw's. **CMB-S4 becomes the corner-selector**: a Majoron
+detection at g ~ 10⁻⁸–10⁻⁹ selects corner 1 AND kills the double-duty; a null leans
+corner 2 or heavier M. Caveats owned: single-flavor dominance (m₃), one heavy scale,
+flavor O(1)s unaudited (3 triplets × 5 doublets shifts y by ~4^{1/4}-class factors,
+nowhere near the 100× the bridge needs); μ ≪ M holds everywhere quoted.

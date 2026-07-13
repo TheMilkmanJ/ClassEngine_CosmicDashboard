@@ -80,3 +80,11 @@ the crude rate-form's O(1)s. If the careful session closes that factor, **the ne
 mass and the baryon asymmetry share one vertex** — two measured numbers, one coupling —
 and this sector co-derives η. The overshoot wall (the portal must carry no L-channel)
 rides with it.
+
+**ADJUDICATED (the Card 6 duty scan, hunt entry 81):** adding the resonance duty
+(μ ≈ Γ_N, the η route's own requirement) blows the factor 4–20 to ~100× in y — the
+double-duty vertex and resonant leptogenesis exclude each other at TeV-scale M across
+a smooth 8.6-decade bridge. The romance survives only if η's leptogenesis is
+*non*-resonant (then v_L ≥ GeV and the Majoron is S4-dark). CMB-S4's Majoron search
+selects the corner: a detection at g ~ 10⁻⁸–10⁻⁹ kills the shared vertex; a null
+leans toward it.
