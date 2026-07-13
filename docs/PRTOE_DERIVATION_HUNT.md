@@ -3937,3 +3937,22 @@ protected or computable, the roster closes with NO free couplings and the closur
 its teeth back on honest terms. If they stay free, the closure remains demoted and the
 collective sector stands on its own physics. **Docketed. Pre-registered: whatever the
 ξ's give, we book it — no count will be adjusted to meet a target.**
+
+### ENTRY 110b — THE SELF-PAYING FAMILY (the author's separation, and it is derivable)
+
+The singlet combination of the six condensates is NOT matter: its phase is the phonon
+(the light cone itself) and its amplitude is the metric's scale mode — **the singlet
+family IS the gravitational sector. It pays no tax because it is the tax.** The
+remaining five families contribute 10 matter modes (5 Leggett + 5 relative-amplitude)
+— the author's "ten modes, one family pays itself, the rest pay the tax man," and the
+separation is forced by the acoustic-metric construction, not by counting.
+
+**str = 9 (fermions) + 10 (collective payers, at protected/near-minimal weights) ≈ 19**,
+implying a basement m_b ≈ 0.27 M_Pl — sub-Planckian, legal, still an OUTPUT rather than
+a prediction.
+
+**The watch's rule, enforced flat:** "one self-payer among ten" rhymes with the census's
+c = (N−1)/N = 9/10. **It is not the same object** (the census counts 9 fermion species +
+the zero-point seat; this counts 6 pairing families with the singlet as gravity).
+Different ontologies, same shape, **no credit taken** — the registered coincidence-watch
+requires a mechanism connecting them, and none exists. Noted, unclaimed, on the books.
