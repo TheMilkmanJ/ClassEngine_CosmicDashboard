@@ -2268,3 +2268,15 @@ as the third front. THE POSTURE: the model as a ladder-audit instrument — eith
 Cepheid path re-converges toward TRGB (the model's band vindicated) or holds at 73
 against a TRGB+model coalition (the residual stands as the model's owned tension).
 Same data decides; P-001 was the pre-registration.
+
+### THE ADVERSE-DATA LAW (constitutional, the operator's TRGB question answered)
+
+**No dataset is ever dropped for disagreeing with the model.** Sides in calibration
+disputes are taken in the REGISTRY (P-2026-001: the TRGB band) and in the PHYSICS (the
+mass-step fingerprint; the crowding front) — never by deletion from a likelihood block.
+Using the data ≠ endorsing its anchor: Pantheon+SH0ES stays whole in every headline run
+(and currently penalizes ΛCDM harder than the dyad — the hostile witness testifying for
+us). The legitimate pressure path: documented ALTERNATE analyses (the published-SH0ES
+headline + a TRGB/CCHP-anchored robustness variant, side by side, neither silent).
+Corollary: the adverse rows (Y_p, D/H) remain load-bearing for the same reason — a
+model that curates its data has no evidence, only preferences.
