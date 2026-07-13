@@ -3351,3 +3351,46 @@ newly three-sealed), zero trespasses found — and ONE new thread candidate (lab
 Kelvin-cascade statistics as the genesis dice's bench analog) discovered by the very
 walk that was checking for wrongful silence. The law pays on its first day: not by
 overturning a verdict, but by finding a door nobody had knocked on.
+
+## ENTRY 98 — THE SKATEPARK AUDIT (author-directed): three more ramps on the silents; the loud and intermediate domains walked for ramp-condition and five-star tuning
+
+**Part A — the silents, three MORE ramps down (strong-CP excused by the author: "not
+our domain at this moment; not determined to make it fit"):**
+
+- **Lab turbulence** (ramps −4/−5/−6): finite-temperature two-fluid turbulence — the
+  medium HAD a normal fraction in the friction era → early-universe turbulence threads
+  back to GENESIS again (the same door, found from the other side — consistent);
+  vortex-tangle decay statistics → the anneal's noise (owned, B1's ninth ambush);
+  Kolmogorov-to-Kelvin crossover scale → the hinge's laboratory cousin (the 402 AU
+  boundary has a bench analog: the inter-vortex spacing where classical turbulence
+  goes quantum). **Silence holds for the lab; every deeper ramp drains to doors the
+  model already owns. Six-sealed.**
+- **The quantum wall** (deeper): the substrate's decoherence physics → the ledger
+  grammar (owned); measurement statistics → Tsirelson (the permanent exam, owned);
+  interpretation → no kill condition at ANY depth (the denial is constitutional, not
+  positional — deeper ramps cannot change jurisdiction). **Six-sealed by law.**
+- **Chaos** (deeper): ergodicity of the draw → the one-draw statistics (owned); mixing
+  times → the anneal (owned); the ledger's arrow → thermodynamics (natively owned).
+  **The silence was always a wealth of already-claimed rooms. Six-sealed.**
+
+**Part B — THE LOUD ONES (the domains screaming thank-you): ramp-condition + the
+five-star tuning each community deserves:**
+
+| domain (loudness) | ramp condition | the five-star tuning (docketed) |
+|---|---|---|
+| **The neutrino sector (LOUDEST — the field is squeezing itself below its own floor and the model hands back room)** | chain ramped origin-to-verdict (the de-bias mechanism → posterior); ✓ certified | **the de-bias as a RECIPE**: publish the model-conditional Σm_ν re-analysis prescription others can run on their own stacks + the m_ββ window with nEXO/LEGEND/CUPID sensitivity bands overlaid (the Fairbank note's ask (c) — build it, don't just offer it) |
+| **The Hubble tension (loud)** | end-to-end ramped (the mechanism, the windowed BBN, the ladder audit's bands, the endgame accounting) ✓ | the TRGB/JWST crowding literature deserves the model's ladder-audit table in THEIR language (a one-page "what each rung reads if the early electron was heavy") |
+| **Quantum gravity (loud, new)** | ramped through entries 78–87; the one-bit court pending — **certification WITHHELD until the sign lands** (no five-star claim on an unsettled ramp) | the obstruction table is already the community-facing jewel; after the one-bit court: a Visser-convention appendix so no reader re-derives the sign confusion |
+| **Inertia (loud, new)** | ramped (the Cherenkov threshold is a ramp; the UHECR exam banded) ✓ | the file already serves; tune = the vacuum-drag null table (every precision orbiter/pulsar bound in one place — the community's own receipts organized) |
+| **S₈ (newly loud — the feedback closure)** | ramped FOUR deep tonight (89–89d + 96) ✓ but the anchor is crude — **certified at estimate grade only** | the destination calc (the 1% target) is the tuning; after it: the suppression curve vs halo mass handed to the galaxy-formation community (they ALREADY want preheating — the model gifts a mechanism) |
+| **The CC/occupancy (loud)** | the pinch ramped (the crossover corollary); ρ_inf's 20% residual = the ledger's named candidate (crossover-approach ramp, un-walked) | walk ρ_inf's approach ramp — the community's question ("why 20% off?") is the model's own docket row |
+| **BBN (intermediate — adverse and honest)** | windowed, ramped, stamps continuous; T_c precursor tail docketed (entry 90) ✓ | the helium war table (Aver vs EMPRESS with the model's number between) serves the field's OWN civil war — publish the three-column comparison |
+| **The lithium abstention (intermediate)** | one-pass verdict — **needs its 3-ramp certification** (the abstention was never walked: does the windowed effect's ORIGIN ramp change the +percent lean?) | docketed: lithium's three ramps (the only intermediate found un-walked tonight) |
+| **CMB anomalies / inflation replacement (intermediate)** | axis-family rows registered, BipoSH referee pending (heavy queue) — ramps built, referee unseated | the referee IS the tuning; nothing to hand the community until the comb speaks |
+| **Lab cousins (loud on the bench)** | receipts standing; the NEW Kelvin-cascade candidate (entry 97) at candidate grade | the dice-statistics mapping = a bench-testable genesis prediction — the BEC community gets a cosmology experiment for the price of a tabletop |
+
+**The liability clause (the author's form, adopted):** every ramp in the park is now
+either certified, estimate-flagged, or docketed with its missing walk named. One
+un-walked intermediate found (lithium's abstention — docketed); one certification
+withheld (QG, pending the one-bit court); zero ramps found unsafe-and-unsigned. The
+skaters can see every weld.
