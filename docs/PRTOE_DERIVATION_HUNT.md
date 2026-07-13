@@ -1472,3 +1472,38 @@ k_int (instantaneous-exchange object; Eliashberg-untouched at leading order in �
 (Eliashberg, exact), one open (the integral's O(1) audit). Referee 2: frame sharpened to
 a two-condition demand, first candidate dead. The freeze remains pending — closer, not
 closed.
+
+## FIFTIETH SWEEP — THE CLEARANCE GRIND (operator order: "don't stop until I have
+## clearance") — two breaks, two locks left
+
+**BREAK 1 — k RECONSTRUCTS TO A CLOSED FORM:** forcing every convention from the
+roster's own laws (g² = 4πα_c definitional by the 3α construction; BOTH twin branches
+pair AND screen — the Employment Law, same residents both jobs, doubling the
+Thomas–Fermi mass; isotropic s-wave surface average; relativistic surface):
+**k = ln(1 + π/(2α_c))/π = 1.36461.** Reconstructs sweep-19's banked grid cell (1.36 —
+computed DAYS BEFORE the A_s form existed; the timeline protects against retro-fit).
+Against the amplitude: 0.32% from k_A = 1.3602; **A_s(closed form) = 2.081×10⁻⁹ =
+0.68σ from Planck.** THE ONE CONTESTED CONVENTION: the twin-doubled screening mass —
+Employment-Law-motivated (whoever pairs, screens) but colliding with the banked
+17-order ghost-branch DOS suppression at the anchor surface (whose regime — propagating
+excitations vs pairing partners vs polarization — must be adjudicated by the roster
+trial). LOCK 1: force the twin-screening convention.
+
+**BREAK 2 — THE EXEMPTION CLAUSE CLOSES THE 2-vs-3 FORK:** the count and the drift
+demanded different dimensions (volume C³ = 4.76×10⁸ vs area-like 2/L tilt). The
+resolution is grammar-native and was banked two days ago: **the compact axis is
+QUANTIZED — topology doesn't ramp — so the axis direction contributes COUNT but not
+TILT.** N = C³ (all three dimensions hold cells) while only the two open dimensions
+carry the coupling's log-drift: **n_s − 1 = −2/ln(M_Pl/T) — the banked tilt formula's
+"2" IS the number of non-compact dimensions.** Cross-check at both candidate epochs:
+T_on ~ 8 keV → n_s = 0.9641; T_lock ~ 278 eV → n_s = 0.9661; Planck 0.9649 ± 0.0042 —
+both inside 0.4σ. The amplitude, the tilt, and the torus's topology are now one frame.
+RIDER (parked, un-registered): a weakly anisotropic tilt along the exempt axis — a new
+axis-family member candidate, owed careful sizing before any P-number.
+
+**CLEARANCE STATUS: NOT YET — two locks, both named and narrowed:** LOCK 1 (the
+twin-screening forcing — the roster trial's jurisdiction); LOCK 2 (the lock-count
+mechanism: WHY the census freezes at C = 4πk/α_c cells per open dimension — condition 1
+of the C-derivation, the last true unknown). Everything else on the freeze's path is
+now derived, reconstructed, or cross-checked. The freeze fires when both locks open —
+and per the operator's order, the grind continues.
