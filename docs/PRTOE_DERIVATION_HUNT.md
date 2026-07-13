@@ -4025,3 +4025,20 @@ independent measurement.
 10/11 (entry 111: the inference doesn't carry, but registered), 12/13 (all 12 flavors —
 the data-lean, now caveated). **Killed:** 9/12, 9/13. The trial's referee is the
 independent f̄ ensemble, not ε.
+
+### ENTRY 112b — 12/13 GETS ITS RAMPS WALKED (the author's order: the survivor earns the same rigor as the corpse)
+
+12/13 requires f̄ = 0.6097 — marginally below the ramped band's floor (0.617). But
+unlike 9/12 (which needed an 18% jump NO ramp can supply), **12/13 sits within reach of
+three independent ramps**: (1) a longer roll-up or pre-ring gap pushes the f̄ floor down
+into its reach (both banded, both physical); (2) α_c is not frozen — it is being MEASURED
+by the running chain, and a 2% low value (well inside the chain's width) puts 12/13
+inside the band; (3) the fit's own ε uncertainty covers part of the gap.
+
+**VERDICT: 12/13 IS NOT KILLABLE — it survives its ramp walk and stands as a live
+candidate**, not a data-lean artifact. The roster trial is genuinely open between the
+two readings, and the physics question is beautiful: **9/10 = the neutrinos are INTERIOR
+(tenants of the medium — its own tenth channel, paying no rent); 12/13 = the neutrinos
+are EXTERNAL recipients like every other flavor.** The medium either houses them or
+pays them. The independent f̄ ensemble and the α_c chain decide — ε cannot (the
+degeneracy, entry 112).
