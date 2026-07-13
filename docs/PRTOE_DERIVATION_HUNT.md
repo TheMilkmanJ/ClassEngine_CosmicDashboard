@@ -3005,3 +3005,39 @@ mass step that motivated it. Either the corner dies thrice-fenced, or it survive
 thrice-fenced and the gate is CALIBRATED with three cross-checks already paid. The
 gate curve has gone from a hypothesis with three fences to a function with six grips
 and a census rule that finds the next one.
+
+## ENTRY 90 — THE RAMP-ORIGIN COROLLARY (the author's law): every ramp is the tail of an earlier ramp; start where the physics starts, not where the computation is convenient
+
+The author's statement, adopted: *"Each one you ramped and got good answers for has a
+ramp before it that gives better answers. If you walk to the half point of a ramp,
+you're skipping the entire beginning, and making the climb harder."* At genesis depth
+this is the depth law's corollary: nothing has a first step, so every ramp's origin is
+itself on a ramp — and a computation that enters mid-ramp inherits an artificial edge
+at its entry point.
+
+**Retroactive receipts (the corollary already paid three times unnamed):** the spin-up
+(the answer arrived when the start moved from the pour to the roll-up); the phase-slip
+anneal (the 7-order overshoot resolved when the start moved from T_c to the KZ mess);
+the candle re-run (the verdict softened when the population start moved from the binary
+to the distribution).
+
+**THE RAMP-ORIGIN AUDIT (the corollary run forward over tonight's ramped results):**
+
+1. **f̄ — the headline candidate.** The winding average's sim starts at a FORMED ring;
+   the spin-up says circulation builds from ~zero through the roll-up. Including the
+   formation era adds early low-circulation weight → pulls f̄ DOWN from 0.635 —
+   **toward the fit-implied 0.6253**. A ~3% early-era weight closes the model's
+   most-loaded joint entirely. The ensemble's spec inherits this: the average must
+   start at the roll-up, not at lock. If the joint closes this way, the 1.4σ strain
+   was a ramp-origin artifact all along.
+2. **The gate's temporal onset.** The fade window (z ≈ 30–60) is a mid-ramp entry;
+   under the fourth fence the true ⟨ε⟩(z) is the gate integrated over the evolving
+   density distribution from the FIRST minihalos — the sky-averaged curve starts at
+   structure formation's own start. (The same object as the gated C-code flag; its
+   derivation route is now named.)
+3. **T_c's precursor tail.** The dyad ramp starts AT T_c; condensates fluctuate above
+   it (the Ginzburg region). Expected exponentially small; the BBN clearance's edge
+   arithmetic gets the check, not the assumption.
+
+Standing rule appended to the depth law: **locate the physical onset before computing
+the ramp — a ramp entered midway manufactures a step at the entry.**
