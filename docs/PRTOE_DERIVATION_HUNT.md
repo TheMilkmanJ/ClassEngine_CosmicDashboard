@@ -2350,3 +2350,33 @@ posed — **THE RECONCILIATION: the A_s form's shot-noise mechanism (volume cens
 N = C³) vs the NBV thermal amplitude (areal dof) must be the same object in two
 languages or must compete** — the next session's single question, and the frozen A_s's
 remaining mechanization debt.
+
+## SEVENTY-SECOND SWEEP — B2 v2 (the operator's ramp bet pays twice): THE CENSUS
+## COLLAPSE + THE LOG-CORRELATED FIELD + THE KIBBLE-ZUREK IDENTIFICATION
+
+*(scripts/winding_gas_cv_v2.py; the two confessed steps: frozen ξ; independent patches)*
+
+**(1) THE CENSUS COLLAPSE:** ξ(t) = ξ₀(1−t)^{−ν} diverges at the transition — the patch
+census N(R,t) = (R/ξ)² is a RAMP collapsing toward the draw (10⁶ → 10³ across the
+approach in the demo units). The count the sky remembers = N at the LOCK — and the lock
+criterion now has its standard name: **KIBBLE-ZUREK — the census freezes when critical
+slowing outruns the quench (the expansion rate at the transition IS the quench rate);
+ξ_freeze = the KZ length.** The mechanization of the A_s count becomes a textbook
+computation (Kibble already banked for the draw; Zurek already banked for the odds —
+the two names of the model's settlement law now BOTH govern its census). FIRST-SHOT
+ARITHMETIC, FILED HONESTLY AS A MISS: naive KZ at T_c with z=1, ν=2/3 gives R/ξ_KZ ~
+10¹³ vs the areal-census need ~10⁴ — orders apart; the epoch (T_c vs the superhorizon
+z~10⁶ frame), the dimension (areal vs volume: THE RECONCILIATION), and the quench-rate
+identification are the open assembly. The frame is standard; the assembly is ours to
+get right.
+
+**(2) THE LOG-CORRELATED CENSUS:** with the vortex-line coupling (the transverse winding
+field = a 2D Gaussian height model, J ∝ ρ_s), the region-averaged winding variance
+carries a ln(L/R) enhancement over independent shot noise (computed: var×R² grows
+log-fashion, not constant). **A log-correlated census deviates from scale-invariance at
+the 1/ln class — the BANKED TILT FORM's structure (n_s − 1 = −2/ln) acquires a
+microphysical candidate: the roughening log.** [CANDIDATE — coefficient + the argument
+(M_Pl/T) owed a session.]
+
+Two ramps, two payoffs: the lock criterion named (KZ) and the tilt's denominator given
+a mechanism (the height-field log). The operator's bet: paid, again.
