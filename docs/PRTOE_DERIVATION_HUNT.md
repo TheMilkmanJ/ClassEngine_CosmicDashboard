@@ -3650,3 +3650,19 @@ Grade: derived-conditional (the anchor is a banked keystone + entropy positivity
 theorem-class; the residual exposure is the FFZ mechanism itself, which the corpus
 already carries as a named dependency). Ramp check: entropy positivity holds at
 every coupling and every signature — the anchor is ramp-proof by construction.
+
+### ENTRY 106b — THE RULING'S RAMP OF APPROACH (the author's standing check): the three-class anchor upgrades to an identity along continuous ξ
+
+Amendment 5 applied to entry 106's own product: the sign-alignment check had run on
+three discrete classes — a menu. Walked along the continuous coupling: the SAME
+improvement coefficient (1/6 − ξ) governs a non-minimal scalar's horizon-entropy
+contribution AND its induced-G contribution (Solodukhin-class results) — so
+sign(δS) = sign(δ(1/G)) is an **identity in ξ**, holding at every coupling and
+sharing its zero at the conformal point (both vanish together — the crossing is
+structural, not coincidental). The vector's negative contact term is the same
+identity evaluated at the vector's effective coupling: the three classes were three
+points on one line. **The ruling upgrades from coherent-at-three-points to
+identity-along-the-ramp.** The model's seats checked against the ramp: ξ_phase = 0
+(minimal, positive side), ξ_amp = −4.450 ((1/6 − ξ) = +4.62, positive side) — no
+roster member crosses the conformal zero; every seat contributes positively to both
+ledgers. The exemption is earned at every coupling; door A stands on the identity.
