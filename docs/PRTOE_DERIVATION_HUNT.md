@@ -1714,23 +1714,3 @@ refused by the same law that protects the persistent current. The reason there i
 next cycle is the reason the axis family survives this one. [GRAMMAR — the bounce's
 dynamical equations remain the genesis session's debt; this names the LAW they must
 implement, not the solution.]
-
-### Sweep 54 addendum 4 — NAVIER–STOKES: OUT OF JURISDICTION (the operator asked; his
-### own clause answers)
-
-The operator asked whether the zero–infinity asymmetry is "a candidate for Stokes" (the
-Clay Millennium problem). RULING, by the model's own jurisdiction clause: **NO — out of
-jurisdiction.** The prize asks whether the idealized continuum PDE can blow up as a
-mathematical object; the equations contain no atoms and no quanta, so no physical
-mechanism can answer it — physics doesn't dictate pure-math theorems, exactly as the
-medium doesn't dictate politics. Claiming a physics shortcut to a Millennium Prize is
-the crankery-jackery standard's textbook case; the clause holds.
-
-**What the model DOES file (the operator's real content):** the PHYSICAL-REGULARITY
-stance — real fluids cannot blow up (the continuum exits first: mean free path, then
-quantum transport bounds); a mathematical blow-up, if one exists, is a MODEL-BREAKDOWN
-MARKER, not an event. Same grammar as the bounce argument (addendum 3): the crunch
-singularity is GR's blow-up, refused by the medium the way atoms refuse the fluid's.
-**One asymmetry, two equations disciplined: singularities mark where models leave
-physics, never where physics goes.** The theorem stays with the mathematicians; the
-stance stays on our books.
