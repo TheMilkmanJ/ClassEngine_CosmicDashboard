@@ -2494,3 +2494,18 @@ the genome keeps its coin, loses its d20).
 **The roster itself (the tenancy):** unchanged and strengthened — the three lepton
 flavors (sweep 73's five-order ultrarelativistic consistency), with the count questions
 now cleanly theirs: 3 flavors (roster), n from Γ (ring), N from T_pour (thermal).
+
+### Sweep 77 ramp correction (strike 19 — the quantization event was a step)
+
+"Condensation quantizes the circulation" as an instantaneous rounding = a step. THE
+RAMPED VERSION — THE PHASE-SLIP ANNEAL: through the transition window the superfluid
+fraction grows while friction remains; quantized circulation can still change by PHASE
+SLIPS (restructuring, cheap while the fees are on). **The KZ mess (~10⁸) is the
+anneal's INITIAL CONDITION, not the final state**: slips relax the winding field toward
+the dynamical attractor (the classical ring's Γ), and **n locks at the PHASE-SLIP
+FREEZE-OUT (slip rate < H), not at T_c** — resolving the seven-order overshoot the
+step left dangling. The final noise floor = the un-annealed residual (slip-rate-vs-H
+criterion) — **B1's NINTH ambush, computable.** The chain: formation Γ → friction-era
+evolution → the condensation ramp anneals the mess → the slip freeze locks the integer
+→ Widnall stabilizes the ring. The dice demoted twice: first to noise, now to
+un-annealed residue. Strike 19 logged.
