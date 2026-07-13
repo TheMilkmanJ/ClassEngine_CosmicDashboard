@@ -2888,3 +2888,25 @@ The one-bit session — the Euclidean↔Lorentzian effective-action matching at 
 level, run in the emergent-metric frame — is now the G-closure's single named open
 item. It must be adjudicated from the literature at equation level, not from lore
 (the field's own lore is split; that split is Visser's thesis). NOT guessed tonight.
+
+## ENTRY 87b — THE RAMPED RE-RUN (process error 23, author catch: "make sure you're ramping your tests"): THE FOURFOLD DEATH IS RAMP-ROBUST
+
+Entry 87's checks were point ratios — the conclusion asserted rather than shown.
+Re-run as continuous curves (scripts/kelvin_weight_v2.py), the question inverted per
+the depth law: not "is it dead at the model's point?" but "where on the curve WOULD
+the vector sector matter, and does the model own anything there?"
+
+- **Curve 1** (core-localized modes vs n): 24–25 orders short, flat to ×8 across the
+  entire Widnall band (n = 5–40). No n rescues it.
+- **Curve 2** (the worldsheet-reduced treatment — the (1+1)D heat kernel on the line,
+  a treatment v1 did not price): 26–27 orders short across the band. The alternative
+  reduction is deader, not livelier.
+- **Curve 3** (the lattice route vs inter-line spacing b, the full ramp): the
+  contribution crosses O(1) only at **b ≈ 46 AU — a vortex line every ~46 AU filling
+  all of space**. The model stocks n ~ 19 global lines (b ~ 6 Gpc) and
+  environment-fenced halo lattices: **13.5 orders in spacing, ~27 in weight, on a
+  smooth curve with no treatment crossing it.**
+
+The fourfold death stands at ramped grade. Process error 23 filed: the checks' grids
+were absent, not merely coarse — the author's catch, the third of its kind this night,
+each one changing either the verdict (85b) or the verdict's grade (87b).
