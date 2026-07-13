@@ -1840,3 +1840,15 @@ its candidate mechanism:** ε = 0.88 (spin-up) and 0.843 (the mass share) are tw
 WEIGHTED MOMENTS of the SAME intake curve (circulation-weighted vs mass-weighted) —
 naturally close, not equal, exactly as observed. The inverse problem's burden tightens:
 ONE curve must deliver BOTH numbers from its two moments. Strike 12 logged.
+
+### The cycle-counter (correcting the accumulator)
+
+Velocity does NOT accumulate across cycles (rotation resets at the crunch — banked
+cross-bounce bookkeeping; and the no-exterior structure leaves cumulative speed
+undefined: no external frame exists). The quantity that DOES ride through every bounce
+is ENTROPY (the Tolman carrier — cycles grow). **The cycle-counter therefore exists and
+counts in entropy, not speed:** N_cycles ~ log(S_today/S_first)/log(per-cycle growth) —
+a logarithmic census of past cycles, sized by the cycle map (the increment is dominated
+by horizon entropy, ~10¹⁰⁴ in SMBHs today vs 10⁸⁹ in the CMB). UNSIZED; the cycle-map
+session owns it; filed as the correct form of the how-many-times-have-we-cycled
+question. Within-cycle speeds stay Landau-capped (0.148c) regardless of history.
