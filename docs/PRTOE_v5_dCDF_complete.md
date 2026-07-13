@@ -1,5 +1,8 @@
 # dCDF v5 — The Complete Model: Physics, Math, Implementation, Results
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **Status (2026-07-06): current production model.** This document is
 self-contained: the action, the background and perturbation equations as
 implemented, why the model has exactly this form (including the death of β),

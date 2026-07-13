@@ -1,5 +1,8 @@
 # The S8 Tension — the Second Fight, Fought With the Right Sign (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STATUS: PRODUCTION-GRADE** (the banked T4 thread consolidated; the conv_desi chain is
 > refining the posterior now).
 

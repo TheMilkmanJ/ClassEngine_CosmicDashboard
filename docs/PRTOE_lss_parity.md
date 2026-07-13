@@ -1,5 +1,8 @@
 # Large-Scale-Structure Parity Violation — the Survey That Broke a Mirror (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 16's standalone — the boldest thread of batch four. Status: STRUCTURAL (candidate)
 with the PRICING OWED and an honest likely-short flag. The improvement: a claimed ~5–7σ
 anomaly for which almost no framework possesses native machinery — and this model owns an

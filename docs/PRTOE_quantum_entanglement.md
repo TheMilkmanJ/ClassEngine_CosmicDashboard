@@ -1,5 +1,8 @@
 # Quantum Entanglement — Correlations Carried by the One Phase (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *INTERPRETATION LAYER (spine §12; t342/t347-graded wall: "coherence-bank at most, no
 physics-bank"). The model's claim is the operator's null-prediction stance: it REPRODUCES
 quantum entanglement EXACTLY — that reproduction is the falsifiable content — and supplies an

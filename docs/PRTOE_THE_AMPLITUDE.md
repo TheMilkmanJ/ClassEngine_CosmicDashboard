@@ -1,5 +1,8 @@
 # THE AMPLITUDE — ε, the model's one lever (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The single number the dyad adds to known physics: a universal fractional shift of
 lepton masses, switched by one gate. Everything the model claims about the observable
 universe routes through this page's number. Statuses per the house law; failures live in

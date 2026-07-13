@@ -1,5 +1,8 @@
 # The Granule-Meter Scoping Study & The Mass Pin (2026-07-07, operator's order)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Two jobs from the morning board: scope whether the granule channel — the
 SOLE surviving ε-meter after the reconciliation audit — can ever actually
 be read; and pin m inside the audited band [1,3]×10⁻²¹ eV. Every number

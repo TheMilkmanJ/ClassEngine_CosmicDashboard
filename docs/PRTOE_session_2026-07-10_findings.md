@@ -1,5 +1,8 @@
 # PRTOE — Session Findings, 2026-07-10
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Comprehensive record of the day's work. Honest grading throughout. The deepest new thread
 is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full ledger.
 Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechanism_math.md §10

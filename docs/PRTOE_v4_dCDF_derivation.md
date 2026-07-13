@@ -1,5 +1,8 @@
 # PRTOE v4 — dCDF (Dynamic Cold Dark Fluid): Action → Equations → Stability
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **v5 UPDATE (2026-07-05): β has been deleted from the model.** The MCMC
 > drove β to its null limit (log₁₀β ≈ −8; any β ≥ 10⁻⁶ destroys σ8), so the
 > barotropic deformation was removed entirely: the equation of state is now

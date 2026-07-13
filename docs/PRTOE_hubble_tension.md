@@ -1,5 +1,8 @@
 # The Hubble Tension — the Model's Founding Fight (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 11. Status: the model's CORE empirical claim, consolidated into its standalone. This is
 the one domain where the model was BUILT in contact with the data rather than extended to it —
 the improvement is measured, graded, and evidence-priced.*

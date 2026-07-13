@@ -1,5 +1,8 @@
 # The Cosmological Constant — the Vacuum Priced by Census (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STATUS: EXPLORATORY / UN-REFEREED** (booked under review-hold; the red-team grades
 > this when the hold lifts). Conditional on: the occupancy mechanism (argument-level),
 > α_c = 3α (P-2026-040, zon-refereed, running), M₂'s EFT derivation (banked), the no-bare

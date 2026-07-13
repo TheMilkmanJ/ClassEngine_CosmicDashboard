@@ -1,5 +1,8 @@
 # The Auditor — a Philosophy Note (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STATUS: PHILOSOPHY. Zero NEW physics claims (the fences cite banked mechanisms only). The model's mechanism needs nothing on this
 > page (definiteness comes from decoherence/envariance; anti-stagnation from the genesis
 > draw). This is the operator's teleological reading, preserved because it completes a

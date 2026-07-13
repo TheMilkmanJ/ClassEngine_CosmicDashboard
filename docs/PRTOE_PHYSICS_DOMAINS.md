@@ -1,5 +1,8 @@
 # PRTOE: The Domains of Physics This Program Has Touched
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *A showcase, written 2026-07-07. One section per domain: what the program
 actually did there, what was computed or derived (never merely asserted),
 and the honest verdict. Numbers are sourced from the working documents —

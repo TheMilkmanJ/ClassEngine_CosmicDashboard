@@ -1,5 +1,8 @@
 # PRTOE and White Holes — the One That Ever Existed (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *White holes graded in the model's own grammar. Impossibility claims are claims: each is
 labeled with its grade, cites the record it inherits (nothing here is claimed as novel
 where the literature owns it), and names its killer. Statuses: [GRAMMAR] = the model's

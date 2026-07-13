@@ -1,5 +1,8 @@
 # PRTOE — The Cyclic / Torus / Twist-Genesis Arc (session 2026-07-10)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Honest-verdict discipline throughout. This documents a multi-step brainstorm that
 converted a chain of physical instincts into computed results. Every mechanism named
 here maps to real physics; the ASSEMBLY into a genesis story is coherent but NOT a

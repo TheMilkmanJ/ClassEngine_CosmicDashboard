@@ -1,5 +1,8 @@
 # Γ/H = √3 — the One-Page Derivation (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *t418's explicit ask ("the asserted √3 — owed a cleaner derivation"), discharged as a
 presentation of the banked object (the KP-sequester solve, #46; t241/244 value-independent
 form). Three lines, one honest flag. Status: the derivation as banked, with its single

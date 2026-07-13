@@ -1,5 +1,8 @@
 # State of the Model — Checkpoint (2026-07-07 evening)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STALENESS NOTE (2026-07-12):** this checkpoint predates the threading program, the
 > census arc, and the derivation-hunt night. For current state: [PRTOE_INDEX.md](PRTOE_INDEX.md)
 > (the map), [PRTOE_THREE_EQUATIONS.md](PRTOE_THREE_EQUATIONS.md) (the core),

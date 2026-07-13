@@ -1,5 +1,8 @@
 # The m_e Mechanism: Consolidated Mathematical Formulation
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Assembled 2026-07-07. This is the EQUATIONS-ONLY companion to
 `PRTOE_me_trigger.md` (which holds the reasoning, the dead ends, and the
 red-team dialogue). Every result here is cross-referenced to its trigger-doc

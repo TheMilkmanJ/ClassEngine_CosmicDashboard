@@ -2,6 +2,9 @@
 
 # Gate 0 — Does the conformal m_e coupling ride the coherent order parameter (heal) or the field (catastrophe)?
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **Status: DERIVATION RUN 2026-07-09. Verdict: the heal is NOT forced, NOT the
 default, and leans AGAINST. The leading-order symmetry-allowed coupling gives the
 CATASTROPHE; the heal requires a specific, non-generic "emergent-coherence"

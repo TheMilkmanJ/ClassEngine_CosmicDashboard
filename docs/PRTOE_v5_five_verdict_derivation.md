@@ -1,5 +1,8 @@
 # The Five-Verdict Derivation (task #11) — working document
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **Status: FRAMEWORK (2026-07-07). No verdict is issued in this revision.**
 Per red-team turn 22 (binding): five separately-worked sections sharing
 one framework, each verdict's chain visible from assumption to number —

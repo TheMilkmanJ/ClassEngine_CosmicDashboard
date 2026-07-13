@@ -1,5 +1,8 @@
 # Black Holes Without Singularities — the PRTOE Interior (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Derivation-from-banked-structure. Every load-bearing input cites a graded ledger object; owed
 items are flagged. Status: STRUCTURAL (candidate) — booked def411, awaiting red-team grade.
 The exterior is unchanged (horizons, shadows, P-2026-005 intact); this document is about what

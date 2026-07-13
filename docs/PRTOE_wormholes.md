@@ -1,5 +1,8 @@
 # PRTOE and Wormholes — the No-Overdraft Law (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Wormholes, warp drives, and closed timelike curves graded in the model's own grammar.
 Impossibility claims are claims: each is labeled with its grade, cites the record it
 inherits (nothing here is claimed as novel where the literature owns it), and names its

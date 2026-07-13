@@ -1,5 +1,8 @@
 # THE CODE MANIFEST — what is in the pipeline, what is armed, what is banned (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The operator's inclusion law: everything proven beneficial enters the pipeline; nothing
 killed ever does. This file is the single source of truth for implementation status.
 Homes: [C] = CLASS source (background.c/input.c), [Y] = cobaya yaml configs, [CMP] = the

@@ -1,5 +1,8 @@
 # PRTOE — UV Completion for Ψ (task #17): deriving ξ/c
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Home for the model's biggest structural "owed": committing to what Ψ IS
 fundamentally, so the conformal coupling c (the one irreducible free parameter of
 the effective theory) becomes a computation. Months-scale project; this file logs

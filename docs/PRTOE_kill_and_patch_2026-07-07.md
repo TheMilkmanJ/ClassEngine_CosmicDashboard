@@ -1,5 +1,8 @@
 # Kill Attempt & Patch Attempt (operator's order, 2026-07-07 evening)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Operator: "try to kill the model... find something that might shoot it in
 the face," then "patch up all those wounds." Three shots were fired; each
 patch was attempted honestly and graded. Two of three patches FAILED or only

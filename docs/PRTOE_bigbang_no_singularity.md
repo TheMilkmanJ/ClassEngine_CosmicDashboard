@@ -1,5 +1,8 @@
 # The Big Bang Without a Singularity — the PRTOE Origin (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Derivation-from-banked-structure; companion to PRTOE_blackholes_no_singularity.md (the same
 three pillars, applied to the cosmological case). Status: STRUCTURAL (candidate), booked
 def413. Owed items flagged inline.*

@@ -1,5 +1,8 @@
 # Small-Scale Structure — Cores, Satellites, and the kpc the Model Writes Twice (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STATUS: ASSEMBLY of banked results** (the galactic-atoms thread + the GC certificates);
 > nothing new claimed here beyond the consolidation.
 

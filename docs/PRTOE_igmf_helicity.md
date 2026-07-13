@@ -1,5 +1,8 @@
 # IGMF Helicity — the Chirality Family's Possible First Datum (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Thread 14's standalone. Status: STRUCTURAL (candidate) riding P-2026-028's helicity sign; the
 decisive dependency is the SIGN MAP (Card 4's rectification), owed. The improvement: the
 model's three-membered chirality family (matter / magnetism / metric — one integer n) may

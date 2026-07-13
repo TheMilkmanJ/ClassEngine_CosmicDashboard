@@ -1,5 +1,8 @@
 # THE H0 CEILING — how high the model can reach, and why the pipeline can't carry it yet (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The operator's demand: compute the maximum ladder-H0 the model can account for, show the
 formula, and explain the pipeline gap honestly. Statuses per the house law.*
 

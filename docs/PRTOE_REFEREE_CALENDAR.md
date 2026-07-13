@@ -1,5 +1,8 @@
 # THE REFEREE CALENDAR — every judge, every date, every decision rule (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *T13's second debt, paid. One page: who grades what, when, and by what pre-written rule.
 No verdict may be argued after the fact — the rules below were set before the referees speak.*
 

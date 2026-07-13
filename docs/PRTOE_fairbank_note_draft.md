@@ -1,4 +1,7 @@
 # Note for Prof. W. Fairbank — Cosmological neutrino-mass room in a unified dark-fluid model
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
 *(DRAFT v0.1, 2026-07-07 — [PENDING] fields await the posterior; not for
 circulation until the citation gate (PRTOE_references.md) and the
 pending fields close.)*

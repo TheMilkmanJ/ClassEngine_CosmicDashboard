@@ -1,5 +1,8 @@
 # THE CHAIN — the Linear Unification (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The operator's law, stated the night he and the audit converged on it independently:
 "Every epoch tethers to both itself and the epoch coming after it and the epoch before
 it. It's all one very well designed phase transition to phase transition. Linear

@@ -1,5 +1,8 @@
 # Thread Inheritance — No Orphan Physics (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *Operator insight, formalized: "the physics we aren't threading into thread into other physics
 our model threads into." Checked against the full kill-list: TRUE in every case — and in this
 model it is a THEOREM, not a tendency. Status: STRUCTURAL (the why-pass generalized into a

@@ -1,5 +1,8 @@
 # BBN — The Transition's Witness (standalone for def465/t458)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The only laboratory in nature that watched the dyad's phase transition live: T_c = 193 keV
 sits INSIDE the BBN window. The three abundances are three frames of the condensation.*
 

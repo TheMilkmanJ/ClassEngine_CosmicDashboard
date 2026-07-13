@@ -1,5 +1,8 @@
 # Quantum Superposition — Real Configurations, Selected Survivors (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *INTERPRETATION LAYER (spine §12; the t342 wall). Null-prediction stance throughout: exact
 reproduction of QM is the falsifiable claim; the addition is ontology. This document also holds
 the graded boundary of the whole quantum wing: what is textbook (links 1–2), what is the

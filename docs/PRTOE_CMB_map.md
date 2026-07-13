@@ -1,5 +1,8 @@
 # The CMB, Mechanism by Mechanism — a PRTOE map
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 **What this is.** The cosmic microwave background carries three fields on the sky:
 temperature **T**, and two polarization patterns — **E** (gradient-like, parity-even)
 and **B** (curl-like, parity-odd). Correlating them gives six power spectra. This map

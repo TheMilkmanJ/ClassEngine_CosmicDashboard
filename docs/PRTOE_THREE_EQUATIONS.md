@@ -1,5 +1,8 @@
 # PRTOE in Three Equations (2026-07-11)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The elevator formulation — the model's testable core compressed to three lines, written for
 a physicist who asked "can you explain it mathematically without the whole repo?" The
 equations are short; the numbers inside them are earned the long way (see the closing note).

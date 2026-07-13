@@ -2,6 +2,9 @@
 
 # PRTOE: An Intellectual History
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *How this model actually developed — the deaths, the resurrections, and what
 each one taught. Written contemporaneously (2026-07-06), while the record is
 git history rather than memory.*

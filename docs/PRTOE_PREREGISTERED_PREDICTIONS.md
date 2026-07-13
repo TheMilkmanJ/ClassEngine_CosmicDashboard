@@ -1,5 +1,8 @@
 # PRTOE/dCDF — Pre-Registered Predictions
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **THE LIVE BETS (2026-07-12):** P-2026-040 (α_c = 3α — zon, running), P-2026-041
 > (f̄ = 2/π — the ensemble, running), P-2026-042 (the TeV anchor). Registry order is
 > chronological; amendments append to their entries; every kill condition is stated at

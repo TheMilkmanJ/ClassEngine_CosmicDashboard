@@ -1,5 +1,8 @@
 # Strong CP — The Silence the Model Signs Its Name To (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 ## 0. The problem
 
 QCD allows a CP-violating angle θ̄; the neutron EDM bounds it below 10⁻¹⁰. Why so small?

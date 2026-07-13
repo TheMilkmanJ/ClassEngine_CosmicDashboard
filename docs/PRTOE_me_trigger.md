@@ -2,6 +2,9 @@
 
 # What Threw the m_e Switch? (2026-07-07, operator's question — the dyad's open trigger, formalized)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *The dyad's m_e amendment (~1% heavier electron in the early universe)
 is epoch-gated BY HAND in every config (varying_transition_redshift =
 50). This document formalizes the trigger question, records the one

@@ -1,5 +1,8 @@
 # PRTOE — THE MATH SPINE (genesis → now → end)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
 what is DERIVED vs INPUT vs STORY, and where it lives in the code. Cross-references:
 PRTOE\_me\_mechanism\_math.md (dyad detail), PRTOE\_cyclic\_torus\_genesis.md (genesis narrative),

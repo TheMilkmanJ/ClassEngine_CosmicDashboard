@@ -1,5 +1,8 @@
 # Baryogenesis — Why There Is Something Rather Than Antimatter (2026-07-12)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 > **STATUS: FRAME COMPLETE, ONE INTEGRAL OWED** (the docket's one true calculation).
 > Un-refereed portions from the review-hold are marked. The banked deaths and the derived
 > form are production-grade ledger items.

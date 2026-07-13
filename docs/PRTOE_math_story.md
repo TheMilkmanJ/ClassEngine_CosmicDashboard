@@ -1,5 +1,8 @@
 # PRTOE — The Story in Math, Start to Finish (2026-07-08)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 *One narrative from t=0 to today, with the equation at each stage and an honest
 status flag on every piece. Supersedes the older PRTOE_SKELETON.md (which pre-
 dates the regime change). Depth lives in PRTOE_me_trigger.md (§57–97),

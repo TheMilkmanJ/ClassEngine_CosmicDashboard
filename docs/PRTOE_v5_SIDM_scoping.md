@@ -1,5 +1,8 @@
 # PRTOE v5 — Scoping: Local Mass–Medium Interaction via a Light Mediator (SIDM)
 
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
 ## 0. Why this exists
 
 v1–v4.1 all built one thing in common: $w(\rho)$ / $c_s^2(\rho)$ functions
