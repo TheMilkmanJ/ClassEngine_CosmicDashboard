@@ -1470,7 +1470,7 @@ varying-m_e dyad. The DE sector is where PRTOE is *most* exposed, not least.
 
 ## ANN-2026-019: P-2026-012 PROMOTED whisper → prediction, as the price of the census refinement (2026-07-10)
 
-The 2026-07-10 census refinement ("couple to what you're made of"; laws doc, internal review/rt161)
+The 2026-07-10 census refinement ("couple to what you're made of"; laws doc, internal review)
 legalizes the medium's own-sector (neutrino-mass) coupling as SUBSTANCE. The price of that
 rule change is that the meV/m_ν coincidence stops being a "watched whisper" and becomes a
 **neck-out prediction**:
@@ -1478,7 +1478,7 @@ rule change is that the meV/m_ν coincidence stops being a "watched whisper" and
 **P-2026-012 (now a prediction, not a whisper):** m_ν,lightest = ρ_inf^(1/4) = **2.3 meV**,
 which REQUIRES **normal ordering** and **Σm_ν ~ 61 meV**.
 
-**Testability (rt161, honest grade):**
+**Testability (internal review, honest grade):**
 - The **2.3 meV value itself** is NOT resolvable by foreseeable experiment — distinguishing
   2.3 meV from 0 needs ~2 meV precision on Σm_ν; CMB-S4+DESI reach ~20–30 meV, KATRIN ~0.2
   eV, next-gen 0νββ far above.
@@ -1490,7 +1490,7 @@ which REQUIRES **normal ordering** and **Σm_ν ~ 61 meV**.
 **Status:** genuine, in-principle-falsifiable prediction with a coarse near-term handle
 (ordering + Σ-scale), NOT a sharp imminent test of the value. This is how the rule change
 was paid for. Does NOT discharge the leptophilia debit (the δm_e coupling remains
-[OBJECT-PENDING], prior unfavorable — rt161): the medium's substance is the neutrino sector
+[OBJECT-PENDING], prior unfavorable — internal review): the medium's substance is the neutrino sector
 (δm_ν), and the dyad is δm_e; "made of" reaches δm_ν, not δm_e. See docs/laws_and_rules
 (census refinement) and docs/PRTOE_cosmological_constant.md.
 

@@ -274,7 +274,7 @@ MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09):
       Yukawa only, no route to m_ν = unmotivated. So the neutrino-sector home SELECTS
       kinetic → dm_nu = 2 dm_e is the LOCKED prediction, not one of two options. [CLOSED]
 
-internal review CAVEAT (rt161, 2026-07-10) -- the deeper gap this section does NOT close. "The
+internal review CAVEAT (internal review, 2026-07-10) -- the deeper gap this section does NOT close. "The
 medium is made of the neutrino sector" strictly implies a coupling to the WEINBERG author
 (→ dm_nu only). Reaching dm_e requires coupling to L's KINETIC term (Z_L), which is an
 ADDITIONAL step beyond "makes neutrino mass" -- and THAT step is the leptophilia postulate
@@ -284,7 +284,7 @@ leptophilia gap "substance" but does not close it: it legalizes a dm_nu coupling
 is dm_e. The un-derived core is precisely "why couple to L's kinetic term (reaching dm_e)
 rather than only the Weinberg author (reaching only dm_nu)." The mechanism here is a
 coherent, motivated SKETCH; the explicit dm_e coupling from a neutrino-sector medium stays
-[OBJECT-PENDING], prior unfavorable. Standing did NOT move (rt161).
+[OBJECT-PENDING], prior unfavorable. The assessment did not move (internal review).
 
 LEDGER UPDATE to Section 9: the EP-screening computation [7] is now RESOLVED (2026-07-09):
 the composition-dependent Vainshtein-screened Delta_a/a = 8×10⁻²¹..8e-19, 3-5 orders below

@@ -9,9 +9,9 @@ changed a law?" has a real answer going forward.*
 
 **Honesty key:**
 - `[CORPUS]` = quoted or paraphrased from an existing doc, with file:line.
-- `[OP-PHRASING — verify]` = the author's plain-language memory, matched to the
+- `[AUTHOR-PHRASING — verify]` = the author's plain-language memory, matched to the
   corpus by JP; confirm it matches original intent.
-- `[RECONSTRUCTED — confirm]` = my best trace of history from scattered notes;
+- `[RECONSTRUCTED — confirm]` = the best reconstructed trace of history from scattered notes;
   the author is the authority, not this archaeology.
 
 ---
@@ -38,7 +38,7 @@ Numbered here as **L#**; the corpus's "C1" gloss reads them as gauge-structure +
 unitarity (`v5_dCDF:1178`). Author's plain-language forms shown in quotes.
 
 - **L1 — Clearing law.** *"All transactions get cleared through gravity."*
-  `[OP-PHRASING — verify]` Corpus: the cosmic ledger is **identity-blind — it
+  `[AUTHOR-PHRASING — verify]` Corpus: the cosmic ledger is **identity-blind — it
   reads only w** (the equivalence principle); clearinghouses are gauge fields, and
   gravity is the energy sector's clearinghouse. `[CORPUS: v5_dCDF:1179]` **This is
   "the census."**
@@ -51,7 +51,7 @@ unitarity (`v5_dCDF:1178`). Author's plain-language forms shown in quotes.
     Guardrail: the "medium is made of gravity" monism is a category error — gravity
     has no mass/abundance/clustering, so identifying the two would dissolve every
     dark-matter property the model needs.
-  - **Census refinement — "couple to what you're made of" (2026-07-10, internal review / rt161).**
+  - **Census refinement — "couple to what you're made of" (2026-07-10, internal review).**
     The *gravity-only* phrasing was OVER-STATED relative to the model's own content: the
     varying-m_e **dyad has always been a non-gravitational coupling** to matter, so
     "gravity is the medium's ONLY account" was never strictly true. Refinement (sharpening
@@ -62,11 +62,11 @@ unitarity (`v5_dCDF:1178`). Author's plain-language forms shown in quotes.
     **consolidates two clauses**: dyad-legality and the L1a birefringence-null become the
     two sides of "couple within your sector; open no new interface to a sector you are not
     part of."
-    - *internal review adjudication (rt161):* **PRINCIPLED to forbid** — correctly bars dark
+    - *internal review adjudication (internal review):* **PRINCIPLED to forbid** — correctly bars dark
       photon, dark chemistry, EM birefringence, and quark/baryon fifth force (NOT a
       loophole); and **breaks no prior verdict** (birefringence-null, gate-0, EP, BBN all
       intact).
-    - *HONEST CAP (rt161):* the rule does **not derive the dyad it legalizes.** "What the
+    - *HONEST CAP (internal review):* the rule does **not derive the dyad it legalizes.** "What the
       medium is made of" is the NEUTRINO-mass sector (δm_ν, Weinberg LLHH); the dyad is
       **δm_e** (charged-lepton Higgs-Yukawa L̄He — *quark-structured*, the internal review no-go). Read
       strictly the rule yields δm_ν, not δm_e; broadening "made of" to reach the charged-
@@ -108,10 +108,10 @@ unitarity (`v5_dCDF:1178`). Author's plain-language forms shown in quotes.
       effect and exists solely as the anomaly — needing one particle bridging the dark
       charge to the chiral electroweak sector, which the medium has not.
 - **L2 — Posting law.** *"All transactions must be posted to the ledger."*
-  `[OP-PHRASING — verify]` Corpus: the **adiabatic background ledger** — virtual
+  `[AUTHOR-PHRASING — verify]` Corpus: the **adiabatic background ledger** — virtual
   transactions are exactly reversible (S-matrix unitarity); "posting is cheaper
   than ledger bloat." `[CORPUS: v5_dCDF:1183; atlas:120]`
-- **L3 — Payee law.** *"Only one payee at a time."* `[OP-PHRASING — verify]`
+- **L3 — Payee law.** *"Only one payee at a time."* `[AUTHOR-PHRASING — verify]`
   Corpus: every conserved charge defines a ±; **every transaction has a payer and a
   payee; opposites are LEDGER COLUMNS, not parallel worlds.** `[CORPUS: atlas:934]`
   ⚠ `[RECONSTRUCTED — confirm]` whether "only ONE payee at a time" was a founding
@@ -151,7 +151,7 @@ judgment in it, flagged per row.*
 | 1 | dyad era | **R1** added | ADD a rule: masses ride the medium (m_e coupling) | H₀ tension | clear amendment |
 | 2 | §96 (2026-07-08) | **L1 / census** | BROADEN: clearing is gravity-only *after condensation*; a direct account is allowed while the medium is massless | the regime change | broaden (you called this the "broaden the other better") |
 | 3 | 2026-07-07 night | **L4** added | ADD an axiom: internal ledger keeps totals, not line-items | gravitational self-energy strain | clear amendment |
-| 4 | 2026-07-10 | **L1 / census** | REFINE: "gravity-only" → "couple to what you're made of" (grav clearing + own-substance-sector); consolidates dyad-legality + L1a birefringence-null into one line | census-vs-dyad internal inconsistency (the dyad was always non-gravitational) | refine (rt161: PRINCIPLED to forbid, breaks no verdict; does NOT derive δm_e — leptophilia renamed, not closed) |
+| 4 | 2026-07-10 | **L1 / census** | REFINE: "gravity-only" → "couple to what you're made of" (grav clearing + own-substance-sector); consolidates dyad-legality + L1a birefringence-null into one line | census-vs-dyad internal inconsistency (the dyad was always non-gravitational) | refine (internal review: PRINCIPLED to forbid, breaks no verdict; does NOT derive δm_e — leptophilia renamed, not closed) |
 
 **Count, honest:** by the corpus's own bookkeeping the **balances (Tier 0) have
 never been touched.** At the **law** level there is **one clean addition (L4)**, **one
