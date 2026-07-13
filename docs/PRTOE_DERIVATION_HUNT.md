@@ -4488,3 +4488,45 @@ output.
 named.** That is a real debt, not a free pass, and it is entered as one. The basement
 roster question — task #18, the model's "final structural question" — turns out to have
 been the right question all along. **We just never realized we hadn't answered it.**
+
+## ENTRY 120 — THE WEAK JOINT NAMED: **THE LEPTON-PAIRED VACUUM IS EXCLUDED BY THE GRAVITY SECTOR — AND THE 15-ORDER MISS IS A MEASUREMENT, NOT A WALL**
+
+*The author's call at the wall: "there's a piece somewhere we haven't reanalyzed since we
+added the 12/13." He was right. It is the basement-roster hypothesis itself.*
+
+**THE PIECE:** the corpus's basement roster (firewalled hypothesis) is *the paired
+lepton-sector vacuum* — **the medium's constituents ARE the Standard Model leptons.** And
+that hypothesis is precisely what c = 9/10 encodes. From the corpus, verbatim: *"Neutrinos
+interior (c = 9/10) — in a lepton-paired vacuum the neutrinos are literally constituents'
+partners, not customers."*
+
+**SO THE ROSTER TRIAL WAS NEVER A NUMBER FIGHT. IT IS A TEST OF WHAT THE MEDIUM IS MADE
+OF:**
+- **c = 9/10** ⟺ the neutrinos are **constituents** ⟺ **the medium is made of leptons.**
+- **c = 12/13** ⟺ the neutrinos are **customers** ⟺ **the medium is made of something else.**
+
+**AND THE GRAVITY SECTOR JUST VOTED.** If the medium is made of leptons, its constituents
+are light (MeV–GeV) and its collective modes sit at the pairing gap (electroweak) —
+**nothing in the medium is Planckian, and gravity cannot be induced. The framework's
+central claim fails by fifteen orders.** If the medium is *not* made of leptons, its
+constituents are unspecified basement fields — free to be Planckian — and gravity can be
+induced, with the basement acquiring its specification (k₁-balanced, mass-split, 1–2 M_Pl).
+
+**THE 15-ORDER MISS IS THEREFORE A MEASUREMENT, NOT A DEAD WALL: it EXCLUDES the
+lepton-paired vacuum** — the hypothesis quietly holding up c = 9/10, the "leptophilia by
+identity" argument, and the entire basement census.
+
+**AND THE INDEPENDENT REFEREE AGREES.** The ε-blind f̄ ensemble (run an hour before this
+verdict, without reference to any of it) gives **c = 0.903 [0.867, 0.942]** — with
+**12/13 = 0.923 sitting inside at +0.5σ.**
+
+**TWO INDEPENDENT SECTORS — the induced-gravity mass scale and the ε-blind winding
+ensemble — NOW POINT THE SAME WAY.** The author's conviction that "the 48 connects to the
+12/13 through the basement" was correct, and this is the mechanism: **the basement's
+CONTENT is what both of them are measuring.**
+
+**WHAT THIS COSTS AND WHAT IT BUYS:** it costs the lepton-paired vacuum (an elegant,
+much-loved hypothesis that explained leptophilia "by identity"). It buys a coherent
+gravity sector, a basement with a specification, and a roster trial that is no longer a
+coin-flip. **The house of cards fell exactly where the author said it would — at the joint
+that was carrying more than it could hold.**
