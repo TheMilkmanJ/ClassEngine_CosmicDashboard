@@ -2380,3 +2380,22 @@ microphysical candidate: the roughening log.** [CANDIDATE — coefficient + the 
 
 Two ramps, two payoffs: the lock criterion named (KZ) and the tilt's denominator given
 a mechanism (the height-field log). The operator's bet: paid, again.
+
+## SEVENTY-THIRD SWEEP — B3: THE k-INTEGRAL AUDIT (conventions become falsifiable
+## statements against the concordance window [1.360, 1.366])
+
+**The verdict table:** (1) BASELINE k = 1.36461 — INSIDE. (2) **Single-branch screening
+(the pre-P1.c variant) k = 1.583 — EXCLUDED by the window: the P1.c adjudication is now
+FALSIFIABLE** (overturn the twin-screening and the A_s form dies by its own ruler — a
+convention converted into a testable claim). (3) Massive-surface corrections: the
+lepton tenancy satisfies the ultrarelativistic assumption by 5+ orders (τ at the TeV
+surface: δk/k ~ 6×10⁻⁷) — **a quantified consistency win for the roster hypothesis.**
+(4) Channel purity: even 10% p-wave admixture breaks the window (k → 1.448) — s-wave
+purity is REQUIRED, and structurally SUPPLIED (the T-reversed pair's natural channel).
+(5) **THE ONE REMAINING ITEM: the phonon-channel subdominance bound** — the mediator is
+the α_c-defining mode by construction; any additive phonon-exchange attraction raises k
+out of the window; B3 completes when the phonon contribution is bounded subdominant.
+
+B2+B3 status: the clearance pair is 80% paid in one night — the area law derived, KZ
+identified, the audit table filed; residues = the reconciliation (volume vs area), the
+KZ assembly, the phonon bound.
