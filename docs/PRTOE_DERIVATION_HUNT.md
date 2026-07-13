@@ -1866,3 +1866,27 @@ melt (joining the fountain's fuel), heat → fresh circulation at the new draw. 
 sequence: crunch → reheat through T_c → the melt → the refused infinity → the pour →
 recondensation → the draw → the roll-up → the new ring. [GRAMMAR/mechanism note; the
 melt's dynamics belong to the cycle-map/genesis sessions.]
+
+## FIFTY-NINTH SWEEP — THE CONCORDANCE TABLE (the operator's joint-solve directive:
+## one number per shared family, the CODATA move — legal by construction)
+
+*(script: scripts/concordance.py — weighted joint + pairwise strain per family)*
+
+**First pass, five families — ALL TIGHT (max strain < 1.5σ): the identity network is
+internally consistent at current precision.** Joint values: **k = 1.3630 ± 0.0032**;
+f̄ = 0.6366 (2/π-dominated; without the claim: 0.626 ± 0.008 — the 2/π test currently
+sits at 1.3σ); **ε = 1.2403 ± 0.0079%** (the network's most-loaded joint: the fit-vs-
+stack strain, 1.4σ — zon's α_c verdict owns it); **n_s = 0.9651 ± 0.0008** (the two
+formula epochs bracket Planck); ω₀ = 0.74 ± 0.07 km/s/Mpc.
+
+**What the joint solve BUYS:** (i) the consistency pass itself — five overdetermined
+families, none strained; (ii) TIGHTER KILL WINDOWS: the network now demands
+k = 1.363 ± 0.003 — tighter than the Planck-derived Eliashberg window (±0.007): the
+B2/B3 clearance pair must land inside the JOINT band; (iii) the strain map: ε's
+fit-vs-stack tension is the single most-loaded joint in the model, named and referee'd.
+
+**The H0 verdict [the operator's amplification question]:** legal refinement does NOT
+amplify — the concordance ω₀ gives the same 72.2 (the correction moves by < 0.1). The
+amplifier remains B1's quadrupole sizing; the concordance's contribution to the tension
+is discipline, not distance. No illegal tuning exists that the network's own strains
+would not expose — that is the table's standing function going forward.
