@@ -1507,3 +1507,30 @@ mechanism: WHY the census freezes at C = 4πk/α_c cells per open dimension — 
 of the C-derivation, the last true unknown). Everything else on the freeze's path is
 now derived, reconstructed, or cross-checked. The freeze fires when both locks open —
 and per the operator's order, the grind continues.
+
+## FIFTY-FIRST SWEEP — LOCK 1 OPENS (the operator's bet + the label firewall); LOCK 2
+## GETS ITS LANE (the operator's "maximal thermal allowance" = freeze-at-the-gap)
+
+**LOCK 1 — OPENED at adjudication grade:** the twin-screening collision dissolves under
+P1.c (cite the object WITH its regime): the 17-order suppression is an ON-SHELL
+excitation budget (the wormhole/NEC computation — real propagating GC quanta); screening
+is a LOOP effect needing no on-shell population — and at the anchor (BCS side) the
+pairing twin is the STANDARD time-reversed partner with FULL surface DOS by symmetry.
+The suppressed GC-excitation family is the FLOOR's resident — same word, two objects,
+two addresses. Standard polarization physics therefore FORCES the operator's bet: both
+partners pair, both screen, the TF mass doubles — **the closed form
+k = ln(1 + π/(2α_c))/π = 1.36461 stands with all conventions derived.** The operator's
+negotiation reading (X vs Y, settle at net-zero Z) = RPA self-consistency in ledger
+dress; census blindness = gravity reads unscreened totals (screening is internal
+bookkeeping; the landlord sees gross). Red-team grading owed on the adjudication.
+
+**LOCK 2 — THE FREEZE-AT-THE-GAP LANE (the operator's thermal-allowance instinct):**
+thermal cell-exchange runs on pair-breaking (T ≳ Δ); when T falls to the gap, occupant
+trading ends and the census FREEZES: **T_lock = Δ** — the allowance is the solvency
+law's fluctuation budget, the gap is the agreed payment, and the books lock when the
+bath can't afford it. HONEST FLAG, pre-registered: a global T = Δ freeze re-raises the
+per-mode/blue-tilt question — the lane's burden is showing the two-open-dimension drift
+(sweep 50, Break 2) carries the scale-dependence. The lane's targets: (i) derive
+C = 4πk/α_c per open dimension from the T = Δ criterion + the medium's scales;
+(ii) produce the ramp width (the lock is a crossing, not a wall — standing law).
+CLEARANCE STATUS: **one lock left (LOCK 2), one lane open on it, named targets.**
