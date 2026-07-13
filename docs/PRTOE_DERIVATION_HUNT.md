@@ -1852,3 +1852,17 @@ a logarithmic census of past cycles, sized by the cycle map (the increment is do
 by horizon entropy, ~10¹⁰⁴ in SMBHs today vs 10⁸⁹ in the CMB). UNSIZED; the cycle-map
 session owns it; filed as the correct form of the how-many-times-have-we-cycled
 question. Within-cycle speeds stay Landau-capped (0.148c) regardless of history.
+
+### THE MELT — why rotation resets (the mechanism behind the banked bookkeeping)
+
+Zero resistance is a below-T_c privilege; the crunch's blueshifted reheat crosses T_c
+and the condensate MELTS: friction returns, and the winding's topological protection
+lapses WITH the order parameter (no condensate, no phase, no quantized circulation).
+Resolves the apparent tension in the cross-bounce ledger: the MANIFOLD's topology (the
+torus, the axis) survives — it is a property of space; the FIELD's winding dies — its
+protector melts — hence the fresh Kibble draw each cycle. And conservation holds
+throughout: the old ring's spin is not lost but CONVERTED — circulation → heat at the
+melt (joining the fountain's fuel), heat → fresh circulation at the new draw. The
+sequence: crunch → reheat through T_c → the melt → the refused infinity → the pour →
+recondensation → the draw → the roll-up → the new ring. [GRAMMAR/mechanism note; the
+melt's dynamics belong to the cycle-map/genesis sessions.]
