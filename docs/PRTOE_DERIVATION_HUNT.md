@@ -1965,3 +1965,26 @@ missing physics).
 bundle-core model + R(t) growth), no other freedom, same χ, same three targets + the
 Widnall band. Co-landing under these pre-declared rules = the frame earns it; a second
 miss = the frame is in genuine trouble. The next session owns v2.
+
+## SIXTY-SECOND SWEEP — B1 v2: ONE AMBUSH LANDED, TWO MISSED — the moment-frame
+## formally in trouble per its own sealed rules
+
+*(script: scripts/genesis_solver_v2.py — the two registered pieces, nothing else)*
+
+**LANDED (the solver's first): the Widnall count — n = 11–16 across the full core band
+(a/D = 0.10–0.20), inside the pre-registered 10–30.** The thin rolled core did it; the
+geometry ambush is won with cited closures.
+
+**MISSED AGAIN: both moments (ε ≈ 0.66 vs 0.88; share ≈ 0.59 vs 0.843).** Diagnosis:
+piece 1 is SELF-CANCELLING in the pure slug model — impulse and circulation both scale
+as U², locking R = 0.707: the coded growth cannot occur from those relations. The
+missing growth physics is CITED lab corrections v2 excluded: (i) NOZZLE OVERPRESSURE
+(measured impulse ≈ 1.3–1.4× slug value); (ii) ENTRAINMENT (the ring's bubble carries
+~1.5–3× its fed volume — feeds the mass moment directly).
+
+**ENFORCEMENT of sweep 61's sealed rule:** second miss ⟹ the moment-frame is formally
+strained. ONE legal move remains — v3 with exactly those two cited corrections (with
+their lab error bands). v3 co-lands ⟹ the frame earned it three-shots-honest. v3
+misses ⟹ THE MAPPING DIES (ε=0.88 ↔ circulation fraction; 0.843 ↔ mass fraction —
+sweep 56's frame and strike-12's unlock are rejected as the wrong dictionary) while the
+ring and its landed Widnall count survive. The kill boundary is drawn before v3 exists.
