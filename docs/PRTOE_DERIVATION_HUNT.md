@@ -4173,3 +4173,47 @@ and there are exactly two computations left:
 **PRE-REGISTERED, FINAL: if those two land and the sum still misses at a legal coherence
 scale, the closure is TERMINATED — and that verdict's own ramps will be walked BEFORE it
 is issued, not after.** No fourth reprieve. No fifth life.
+
+## ENTRY 115 — THE FULL PROTOCOL WALKED (ramps-before → more-ramps check → validation ramp): THE TENANCY RAMP *IS* THE ξ RAMP; AND THE VALIDATION RAMP KILLS THE 38 FOR THE THIRD TIME
+
+**STEP 1 — THE RAMPS BEFORE (and this one is a genuine find):** in an emergent
+framework, a field's non-minimal coupling arises ONLY from its direct coupling to the
+condensate's density. A pure RIDER — a field that merely propagates on the acoustic
+metric — has **ξ = 0 by construction.** Therefore **ξ is set by TENANCY** (entry 91's
+measured ramp):
+- photon: tenancy 0 (L1a, exact) → **ξ = 0 exactly**
+- quarks/baryons: tenancy ~10⁻⁹ → **ξ ≈ 0**
+- charged leptons: tenancy 1.24×10⁻² (the dyad) → ξ ~ 10⁻², negligible
+- neutrinos: tenancy ~1 (full tenants) → **ξ could be O(1) — OPEN**
+- Higgs: the portal (P-2026-038) → **ξ_H ∝ the portal strength — OURS, and open**
+
+**THE TENANCY RAMP IS THE ξ RAMP.** The morning's "who pays rent" measurement turns out
+to be the same object as the evening's "who couples non-minimally to curvature." One
+ramp, two ledgers. This is the day's best structural find and it stands on its own.
+
+**STEP 2 — ANY MORE RAMPS? One, and it is NOT ours:** the massless-vector contact term
+(Kabat) — a **citation question**, literature-split. It cannot be settled from memory,
+and **the value that helps must not be chosen.**
+
+**STEP 3 — THE SUM** (with the derived ξ ≈ 0 for all riders): vector weight −4 → str = 14
+(K = 1.64 M_red); −3 → 26; **−2 → 38 — and 12π = 37.70. THE 0.8% "MATCH" REAPPEARS, BY A
+COMPLETELY DIFFERENT ROUTE.**
+
+**STEP 4 — THE VALIDATION RAMP (procedure 5b: a perfect fit gets its OWN ramp walked)
+— AND IT KILLS THE 38.** Given the roster's honest open choices (the disputed contact
+term, ξ_H, ξ_r, the Leggett count), **4% of the parameter space lands within 2% of 12π —
+and the sum's plausible range (7–41) straddles the demand.** The reappearance is not
+evidence. **This is the THIRD time this number has surfaced and the THIRD time it is an
+artifact of unfixed weights.** The coincidence-watch's ruling stands: **NO CREDIT. The
+38 is not quoted, not celebrated, not used.**
+
+**STATUS: UNDECIDED, and honestly so.** The two closing computations are named and
+neither is negotiable:
+1. **Settle the vector contact term from the literature** — not from what helps.
+2. **Derive ξ_H from the portal** — a real model computation, and now clearly ours.
+Until both land, **the closure is undecided and no number from it may be quoted
+anywhere.** If they land and the sum still misses at a legal coherence scale:
+terminated, with the verdict's own ramps walked first.
+
+*The validation ramp did exactly what the author built it for: it caught the model's own
+prettiest number wearing a new disguise, for the third time in one day.*
