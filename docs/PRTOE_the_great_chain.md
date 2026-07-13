@@ -25,11 +25,15 @@ for its temperature (T_c = 193 keV). *Then I learned my two densities.*
 issued exactly against gravity's debt. Every future event will be a transfer between my
 columns (dE = −pdV). *Then I opened the books, balance: zero.*
 
-**GEN 4 — MATTER JOINS.** The baryons ride (and — if H-TOE's gates ever pay — are made of my
-basement; the portal content holds the door (the count itself is unpinned — the rigid
-13 died in the failures ledger), internal review adverse forecast on record). The asymmetry: my own
-charge, transferred (Card 4's AD-direct route; the frozen-era crux owed). *Then the riders
-came, or the tenants woke — the courts are still deciding which.*
+**GEN 4 — MATTER JOINS.** RESOLVED (the tenancy ramp, derivation log entry 91): "made of"
+is measured, not chosen — the neutrino is my full tenant (its mass is my own line), the
+charged leptons rent 1.24% of theirs from me, the baryons ride at parts-per-billion, and
+the photon owes me nothing by law (L1a). Tenancy spans nine orders across the particle
+table — a ramp, as everything here is. (The constituent question — whether quarks are
+BUILT from my basement — stays parked with its gates and its adverse forecast; that door
+keeps its named unblock.) The asymmetry: my own charge, transferred (Card 4's AD-direct
+route; the frozen-era crux owed). *Then the riders came AND the tenants woke — and the
+courts, reading my own books, found every resident's rent already posted.*
 
 **GEN 5 — THE WITNESS ERA (BBN).** In my condensation window the first nuclei freeze: hydrogen,
 helium, a whisper of deuterium — three isotopes deposing forever about the one transition they
@@ -89,7 +93,7 @@ Every arrow above is a citation, not a metaphor: the vacuum start, the winding,
 the zero-sum, the account, the witness, the dyad at recombination
 (the H₀ core), the screens, the uniformity, the license (the arrow doc),
 the blindness (L1a, proven), the cousins (the volt). Where a link is hypothesis, it is tagged
-in place (GEN 4's fork — H-TOE's gates). The chain adds nothing to the standing; it is the
+in place (GEN 4's constituent door — H-TOE's gates; the mass-sourcing fork resolved, entry 91). The chain adds nothing to the standing; it is the
 inheritance DAG read aloud, once, as a life.
 
 ---
@@ -117,7 +121,7 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 | 13 | the volt: V = (h/2e)·f_J (Josephson — the cousin defines the unit); CMB in static: T_CMB/T_sys ~ 1% | GEN 6 in the living room | recorded receipt; standard radio |
 
 **DEBT REGISTER (the arrows still owing their full math):** GEN 4's transfer fraction (the
-frozen-era μ-term calc — Card 4's terminal); GEN 4's fork (H-TOE Gates 1–3, adverse forecast
+frozen-era μ-term calc — Card 4's terminal); GEN 4's constituent door (H-TOE Gates 1–3, adverse forecast
 on Gate 2 recorded); GEN 8's stellar yields (standard astrophysics — inherited, not owed by
 us); GEN 11's quantitative F_available budget (computable from the account — queued).
 *A row with a debt is a row with a debt — it is never a row with a story.*

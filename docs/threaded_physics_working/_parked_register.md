@@ -5,7 +5,7 @@ that would reopen it. Nothing leaves the register except through its unblock or 
 
 | item | the snag | the named unblock |
 |---|---|---|
-| H-TOE (the maximal reading) | Gates un-paid; internal review adverse census forecast (proper N ~ 8-11 vs the rigid 13) | Gate 2's careful signed count; the basement compute |
+| H-TOE (the maximal reading — the CONSTITUENT question only; the mass-sourcing fork resolved as the tenancy ramp, entry 91) | Gates un-paid; internal review adverse census forecast (proper N ~ 8-11 vs the rigid 13) | Gate 2's careful signed count; the basement compute |
 | the hinge-zone prong (wide binaries at ξ) | no mechanism (the ξ-scale force died with m_amp) | any derived substrate edge-dynamics at ξ |
 | the double-ladder alignments (web/mesoscale) | loose coincidences, no mechanism | a derivation linking ξ_K or 1/M₂ to the matter transition |
 | the generations lane (3 cycles = 3 families) | a 3=3 match without a mechanism | the flavor-from-winding construction |

@@ -3077,3 +3077,33 @@ level too. The parked item keeps its named unblock; nothing is forced.
 
 *The chain's GEN 4 line updates from a question to a census: every particle now knows
 its rent.*
+
+## ENTRY 89b — THE RAMP-ORIGIN CORRECTION (the author's coaching, applied same-hour): the S₈ counter-lean HALVES when the force's own birth is respected
+
+The author's rule, fired at entry 89's adverse verdict: *"whenever you hit a snare, go
+to the ramp before it — make sure the earlier ramp doesn't cure it."* It partially
+does. Entry 89 ramped the wall force in SPACE and stepped it in TIME: the force cannot
+push walls before walls exist. The gradient is born when web-scale regions first cross
+the gate threshold; weighting the lean by the linear growth accumulated after that
+birth (ramped over the onset, z_on = 0.5–3): the growth fraction with the force active
+is 0.23–0.68, and **the counter-lean band corrects from +0.04–2.6% to +0.01–1.8%,
+centering near half.** The fork corner's S₈ bill halves under the corollary that the
+author stated an hour before the bill was issued. The adverse verdict stands but
+SOFTENS — cured exactly as much as the earlier ramp permits, no more (the force's
+late-time part is real and stays on the books).
+
+Pattern note for the discipline file: this is the corollary's first same-day
+application to a verdict issued the same night — snare → ramp-before → partial cure.
+The sequence [space-ramped, time-stepped] is now a named hazard: **a force born of
+structure inherits structure's own ramp.**
+
+## COINCIDENCE-WATCH REGISTRATION (the author's fence-count rhyme, stated in advance)
+
+The author's instinct, twice raised: the fence census may saturate at 9 + 1 (nine
+fences plus one that "pays itself" — P-022's existence referee), rhyming the census's
+c = 9/10. Registered as a WATCH with its conversion rule fixed NOW: the rhyme converts
+to content ONLY IF a mechanism connecting coupling seats to boundary-observable classes
+exists BEFORE a ninth fence is found. Post-hoc arrival at nine earns nothing — the
+fences count instruments (epistemic); the census counts recipients (ontic); no credit
+crosses that line without a bridge built first. Current count: six grips + one
+existence referee. On watch.
