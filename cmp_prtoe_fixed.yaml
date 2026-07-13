@@ -8,6 +8,10 @@
 #     n_s  -> 1 - 2/ln(M_Pl/T_on(zon))   [the census-running tilt; needs basement choice]
 #     dcdf_rho_inf -> the occupancy value [needs the triangle confirmed: 3alpha + M2 + x0]
 #     m_ncdm -> 61.4 meV                  [needs the spurion (#43) lifted + P-023 tension resolved]
+#   [2026-07-12 sweep 44] A_s -> (alpha_c/(4*pi*k))^3 = 2.102e-9 — CANDIDATE ONLY:
+#     AS_FREEZE_PENDING in spirit (A_s stays SAMPLED everywhere until BOTH referees sign:
+#     the Eliashberg k kill-test [k must land in 1.35-1.37] AND the draw-geometry session
+#     [the 781 mechanized]). Fixing A_s before then = the zon-freeze violation, renamed.
 #   The anchor (P-042) and the two-loop landing are graded by the shooting run (in flight).
 #   [2026-07-12] DISPERSION CONSISTENCY: the C code now carries the derived sqrt(1+x^2)
 #   onset shape — this config MUST be re-cloned from the dispersion-era dyad baseline
