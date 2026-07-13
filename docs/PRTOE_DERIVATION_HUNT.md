@@ -1418,3 +1418,17 @@ computations: DERIVE C (the geometric session, sharpened to one number) + PIN k 
 numeric Eliashberg). Both signed → the zero-parameter run fires with A_s stated, and the
 operator's ownership claim ("I put the work in, I get to use it") becomes exercisable —
 not before, per the house's own law, and not after either.
+
+### Sweep 48 ramp note (operator reminder, applied before the step could set)
+
+THE LOCK RAMPED — and the ramp is load-bearing, not hygiene: a SHARP per-mode lock gives
+every mode an identical count → n_s = 1.000 exactly → **excluded by Planck at ~8σ. The
+step version of this frame is dead on arrival.** The ramped lock (the census freezes
+over a window where the mode's stretch rate crosses the cell's resolution rate) makes
+the count drift slowly with scale: **THE TILT IS THE RAMP** — the frame MUST produce
+n_s < 1, and its drift rate must land on the banked 2/ln(M_Pl/T_on) = 0.035 or the frame
+dies. Consequences booked: (i) the C-derivation owes a CENTER and a WIDTH (the ramp's
+O(1) smear — same discipline as the bath-band's s_b); (ii) the sweep-44/n_s consistency
+demand is now two-sided (the tilt tests the lock; the lock explains the tilt); (iii) the
+kill window [1.35, 1.37] re-stated as Planck's 1σ — the Eliashberg verdict grades in
+σ's, not in/out.
