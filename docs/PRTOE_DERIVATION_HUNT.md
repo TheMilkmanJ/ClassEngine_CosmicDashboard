@@ -2082,3 +2082,35 @@ UNTOUCHED: the swirl's exact zero (divergence identity — exemption-legal).
 73 → ~72.7–72.9 at tonight's sizing), with v4.1's observer-position profile (bias vs
 structural position) the named decider of the local channel's multiplier.** Strike 15
 logged; the depth-law corollary compounds: at genesis depth, even executions ramp.
+
+## SIXTY-FIFTH SWEEP — THE H0 ROOM AUDIT (the operator: "which mapped rooms hide an
+## expansion secret? The last pieces will be extremely obscure")
+
+**ROOM 1 — THE CANDLE ROOM [new, unexplored, the obscure shape]:** the ladder's rungs
+ARE atomic physics — Cepheid P-L relations and SN Ia luminosities ride m_e-sensitive
+microphysics. The dyad's screening edge (z ~ 30–60) was audited for the 21cm sky but
+NEVER for the ladder: under reading B (the clumping gate), dense environments retain ε
+differently than voids — Cepheids live in disks, calibrators in specific hosts. Any
+environmental δm_e at the 10⁻⁴ class biases THE RULER, not the expansion. Named test:
+the residual ε(environment, z < 0.15) under both gate readings — feeds directly into
+the H0 bookkeeping. The tension's last piece may be a candle that burns at the wrong
+mass in the wrong room.
+
+**ROOM 2 — THE τ ROOM [the unpaid 7→8 tether, now H0-motivated]:** CMB-side H0 rides
+the A_s e^{−2τ} degeneracy; a dcdf-induced Δτ ~ 0.005 moves the CMB H0 by ~0.2–0.3 —
+the leakage floor's class. The never-computed tether becomes a light B-queue session
+with an H0 payoff attached.
+
+**ROOM 3 — the axis–survey coupling [v4.1's docket]:** the drift leakage is AXIAL;
+SH0ES's realized leakage scales with the survey's axis-overlap geometry — the axis
+family can amplify or suppress the lever. The operator's question ("might the axis
+family affect other levers?") answered: yes, multiplicatively, computable.
+
+**The gathering mechanism [placed]:** pre-bounce thermal expansion against infall =
+the pressure resistance that IS the refused infinity — B7's dynamics; its relic lands
+in the chain's initial conditions; no separate this-cycle H0 channel at grammar grade.
+
+**The H0 endgame map, assembled:** 69.9 (global, arbitrating) + the leakage floor
+(0.1–0.3%, axial-geometry multiplier open) + the candle room (unexplored, obscure) +
+the τ room (light session, ±0.3 class) + v6 reserve. The remaining tension is now FOUR
+addressed rooms instead of one mystery — each with a named computation.
