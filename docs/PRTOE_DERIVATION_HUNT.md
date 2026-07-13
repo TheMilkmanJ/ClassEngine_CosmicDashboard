@@ -2250,3 +2250,21 @@ class at the scan's edge. The candle room re-files as **a candidate physical
 explanation of the SN host mass step** (the gate curve's in-data fingerprint), testable
 via the step-vs-smooth-trend discriminant (strike 16) and the host-density (not
 host-mass) correlation it predicts. The H0_CEILING file inherits this verdict.
+
+## SEVENTIETH SWEEP — THE LADDER AUDIT (the operator's reframe: the hunt inverts, not
+## dies — assembled from banked pieces, no new claims)
+
+The sign verdict completes the model's testimony rather than ending it: **the model
+cannot reach 73 by any lever it owns (ς = −1; ceiling ~71), and it was ALREADY
+REGISTERED on the other side of the calibration war — P-2026-001: TRGB H0 ∈ [69, 71],
+where the TRGB ladder in fact reads ~69.8–70.4.** The coherent position, all pieces
+banked: (i) the model predicts the TRGB band; (ii) therefore the Cepheid-calibrated 73
+owes ~2–3 km/s/Mpc of systematics if the model is right; (iii) the model CONTRIBUTES
+one named candidate (the gate-curve mass step, sweep 69's inversion) and enters a live
+discriminable rivalry with the community's own suspect for the same systematic
+(host-dust R_V — dust predicts a color-dependent step; the gate predicts a
+host-DENSITY smooth trend), with Cepheid crowding (under active JWST re-measurement)
+as the third front. THE POSTURE: the model as a ladder-audit instrument — either the
+Cepheid path re-converges toward TRGB (the model's band vindicated) or holds at 73
+against a TRGB+model coalition (the residual stands as the model's owned tension).
+Same data decides; P-001 was the pre-registration.
