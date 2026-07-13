@@ -1387,3 +1387,34 @@ checked-and-cold: the condensation GW background misses PTA by ~3 orders in f
 banked transfer vertex. The operator's diagnosis confirmed with structure: the model's
 unification was VERTICAL (numbers↔numbers); the chain makes the HORIZONTAL debts
 explicit and finite — four tethers, not a fog.
+
+## FORTY-EIGHTH SWEEP — THE LEGALIZATION HUNT (operator order: "hunt for what lets us
+## fix A_s legally by our own rules")
+
+**REFEREE 2 ADVANCED — THE PER-MODE LOCK FRAME [the mechanization's real step]:** the
+form as booked had a hidden wound: A_s is quoted at k* = 0.05/Mpc — OUR convention — and
+a derived form cannot reference our conventions. The frame that heals it: **every mode
+locks its own census when its wavelength = C × cell** (λ_phys = C·ξ) → every mode
+carries the SAME count N = C³ → (i) pivot-dependence DISSOLVED; (ii) scale invariance
+EXACT at zeroth order (the shot-noise-blue disaster never arises — the lock is per-mode,
+not per-instant); (iii) the tilt = the lock criterion's slow drift, which MUST reproduce
+the banked 1 − n_s = 2/ln(M_Pl/T_on) — a consistency demand connecting sweeps 44 and the
+tilt derivation, for free. **The mechanization reduces to ONE derivation: the lock
+constant C = 4πk/α_c = 780.7.** Decomposition candidate (receipt, no claim): C = 4π ×
+(k/α_c) = the solid angle × the settlement terms per unit coupling. One number, one
+session, and the form graduates or dies.
+
+**REFEREE 1 SCOPED — the Eliashberg kill test is NOT closable tonight, honestly:** the
+system is extreme weak coupling (λ = kα_c = 0.0298), so Migdal-class corrections are
+O(3%) on prefactor logs — tonight's honest band k ∈ [1.32, 1.41] vs the kill window
+[1.35, 1.37] (±0.5%, set by Planck's own A_s precision): **the window is 4× tighter than
+the band.** Closing it needs the full numeric mode-spectrum gap solve (the actual α²F of
+the sound mode, prefactor pinned). NAMED PROJECT, queued — the physics is tractable
+precisely because λ is tiny (BCS is nearly exact here); the work is the O(1)s.
+
+**Code audit under the order:** nothing graduates tonight — the code stays current, A_s
+stays sampled, the freeze cascade stands. The legalization path is now two named
+computations: DERIVE C (the geometric session, sharpened to one number) + PIN k (the
+numeric Eliashberg). Both signed → the zero-parameter run fires with A_s stated, and the
+operator's ownership claim ("I put the work in, I get to use it") becomes exercisable —
+not before, per the house's own law, and not after either.
