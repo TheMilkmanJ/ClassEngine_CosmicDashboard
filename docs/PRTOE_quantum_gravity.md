@@ -63,59 +63,54 @@ timing and passed identically.
 | The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal | established mechanism, adopted [FFZ 1997; t422] |
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
-## 5. Newton's constant: the closure ATTEMPTED, PRE-REGISTERED, AND FAILED
+## 5. Newton's constant: the closure ATTEMPTED — and left UNDECIDED, with its teeth removed
 
-**This section records a failure.** It is kept in full, at the same length it would
-have had if it succeeded, because the attempt was the framework's own match-or-die
-test and the corpus does not hide its graves.
+**This section records an unfinished computation and a demotion.** It is kept at full
+length because the attempt is the framework's own match-or-die test, and because a
+first verdict of *failure* was issued here and then vacated — a history the corpus
+keeps rather than tidies.
 
 **The program.** Sakharov's proposal makes 1/G a one-loop output of the matter content:
 if the framework's roster is right, the induced Newton constant should follow from a
-species sum with no free parameters. The framework registered this as its match-or-die
-test before attempting it.
+species sum with no free parameters.
 
-**What was actually achieved (the technical results, which stand):**
-- **The regulator is physical here** (§5.1 below): mode contributions are weighted by
-  the condensate's own Bogoliubov coherence factors, giving a derived form factor whose
-  regulated one-loop coefficient equals the naive value exactly (O(1) = 1.0000). Within
-  a medium, Sakharov's half-century scheme ambiguity closes: *a medium that knows its
-  ultraviolet has no regulator freedom.* This result survives the failure below.
-- **The census files jointly** (Nambu–Gor'kov redundancy): the condensate's time-reversed
-  pairing partners are not separate one-loop payers; the fermion census is 9, not 18.
-- **The phase mode decouples by theorem**: shift symmetry (Goldstone) forbids its
-  non-minimal coupling — ξ_phase = 0 exactly, at every coupling strength.
+**The technical results (these stand):**
+- **The regulator is physical here** (§5.1): mode contributions are weighted by the
+  condensate's own Bogoliubov coherence factors — a derived form factor whose regulated
+  one-loop coefficient equals the naive value exactly (O(1) = 1.0000). *A medium that
+  knows its ultraviolet has no regulator freedom.*
+- **The census files jointly**: the condensate's time-reversed pairing partners are
+  Nambu–Gor'kov redundancy, not separate one-loop payers — the fermion census is 9.
+- **The phase mode decouples by theorem**: shift symmetry forbids its non-minimal
+  coupling; ξ_phase = 0 exactly, at every coupling strength.
 - **The amplitude mode is the emergent metric's own scale mode**, and a direct
-  computation of its second-order action shows it is **split-coupled** (the H² and Ḣ
-  pieces carry different effective couplings: −1 and −2/3 at the founding point) with a
-  **negative kinetic term** — the conformal-factor structure of general relativity,
-  arriving here by derivation from the founding Gross–Pitaevskii equation rather than
-  by analogy. This is a genuine structural result, and it is what killed the closure.
+  second-order computation shows it is **split-coupled** (different effective couplings
+  in the H² and Ḣ channels) with a **negative kinetic term** — general relativity's own
+  conformal-factor structure, arriving by derivation from the founding Gross–Pitaevskii
+  equation rather than by analogy.
 
-**The failure, stated plainly.** With the corrected census and the derived couplings,
-the rebuilt species sum gives **str ≈ 3 (and epoch-dependent — it varies with Ḣ/H²)
-against the bootstrap demand of 12π ≈ 37.7**. Epoch dependence alone is fatal: a
-coupling constant cannot vary with the cosmological era. The most generous reading —
-treating the scale mode as gravitational rather than as a matter species — leaves
-str = 10 against 37.7, short by a factor of nearly four. **The framework does not
-deliver Newton's constant from its roster.** No corner of the honest parameter space
-closes the gap, and none will be manufactured.
+**Where it stands, honestly.** A first pass on a Friedmann background returned a species
+sum far below the bootstrap demand, and this document briefly recorded the closure as
+dead. That verdict was **vacated**: it rested on two unexamined assumptions — (i) the
+bootstrap's exact identification of the coherence scale with the induced Planck scale
+(an O(1) freedom that moves the demand by its square; the computed sum corresponds to a
+coherence scale ≈ 2× the reduced Planck mass, well inside the theory's own uncertainty),
+and (ii) a Friedmann background, on which the Einstein–Hilbert coefficient and the
+preferred-frame ("aether") coefficients are degenerate — so the extracted number was a
+mixture rather than the coefficient of interest.
 
-**The autopsy of an earlier claim.** Drafts of this document reported a 0.8% match
-(str = 38 vs 12π = 37.70). That match rested on exactly two errors, both since found
-and corrected by this project's own audits: (i) counting the condensate's pairing
-partners as separate one-loop degrees of freedom (a double-count), and (ii) a large
-negative non-minimal coupling that the direct computation shows does not exist. With
-both corrected, the agreement evaporates. The lesson is recorded in the failures
-ledger: *a numerical coincidence assembled from two bookkeeping errors is exactly what
-a coincidence looks like from the inside.*
+**The demotion that survives.** With the coherence-to-Planck ratio unfixed, the closure
+**loses its match-or-die character**: it becomes a *determination* of that ratio rather
+than a *test* of the roster. This is a genuine loss of falsifiability, stated plainly.
+An earlier draft of this document reported a 0.8% agreement; that figure rested on two
+bookkeeping errors since corrected by this project's own audits (a double-count of the
+pairing partners, and a large non-minimal coupling that the direct computation shows
+does not exist). **The framework does not currently compute Newton's constant, and does
+not claim to.**
 
-**What this means for the framework.** The emergent-gravity structure — the metric as
-the medium's collective description, gravity quantum by inheritance, the obstruction
-table of §4 — never depended on the closure and stands unaffected. What the framework
-has lost is its claim to *compute* G. It retains an emergent-gravity ontology with a
-physical regulator, a derived scale-mode structure that reproduces general relativity's
-own conformal-factor pathology, and an open question it can no longer pretend to have
-answered.
+**What is required to settle it:** an independent determination of the coherence-to-
+Planck ratio, and a clean extraction of the Einstein–Hilbert coefficient on a background
+that separates it from the preferred-frame terms. Both are named, neither is run.
 
 ## 6. What this framework does and does not claim
 

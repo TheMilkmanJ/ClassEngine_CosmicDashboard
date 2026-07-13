@@ -3803,3 +3803,43 @@ question is closed.
 *The framework asked its sharpest question of itself, in public, with the answer
 pre-registered — and the answer came back no. The books record it at the same volume
 they would have recorded a win.*
+
+## ENTRY 109b — ENTRY 109 IS VACATED (process error 27, the author's catch: "did you check the ramps before it?"). THE DEATH CERTIFICATE WAS ISSUED ON TWO UNWALKED STEPS.
+
+Procedure 5a requires that termination-B — the confidently-received wrong answer —
+be declared only after EVERY origin is walked. I walked the ramps *into* the
+computation and declared death on its output. **Two origins behind the verdict were
+never walked, and both were steps:**
+
+**Unwalked step 1 — THE DEMAND'S OWN ORIGIN.** The demand N = 12π came from
+1/G = N·Λ²/(12π) with the bootstrap identification **Λ = M_red exactly** (entry 78).
+That identity is a STEP — an exact equality asserted between the medium's coherence
+scale K and the induced Planck scale. Walked: if K = c·M_red with c an O(1) factor,
+the demand scales as 12π/c². **The roster's str = 10 corresponds to K ≈ 1.94·M_red —
+an O(1) inside the theory's own basement uncertainty. The "3.8× shortfall" is an O(1)
+in the cutoff, not a failure of the roster.**
+
+**Unwalked step 2 — THE BACKGROUND.** I extracted the species sum on an FRW base. In
+a preferred-frame theory the induced action generically carries BOTH the
+Einstein–Hilbert term and aether terms (u^μ u^ν R_μν) — and **on FRW these are
+degenerate** (H² and Ḣ are the only invariants). My "str" was therefore a MIXTURE, not
+the EH coefficient, and the "fatal epoch dependence" is a symptom of that degeneracy —
+**a property of my basis, not of the theory.** A clean extraction needs a background
+that separates them (Bianchi or static-curved). I did not run one.
+
+**ENTRY 109 IS VACATED.** The G-closure is **NOT dead. It is UNDECIDED at this
+computation's grade.** The QG file's "recorded failure" section, the tree's DEAD row,
+the ledger's burial, and def564's obituary are all corrected to this status.
+
+**THE HONEST DEMOTION THAT SURVIVES (and it is real):** with K/M_red an unfixed O(1),
+the closure **loses its match-or-die teeth** — it becomes a *determination* of the
+coherence scale rather than a *test* of the roster. That is a genuine loss of
+falsifiability and it is the correct current status: not a triumph, not a corpse — a
+weakened claim awaiting two computations (an independent K/M_red, and the clean
+EH-coefficient extraction on a non-degenerate background).
+
+**Process error 27 filed:** a termination-B verdict is itself a result, and results
+are subject to the ramp laws. *I applied the snag protocol to the physics and forgot
+to apply it to my own obituary.* The author's six words caught it before the corpse
+was cold — and before the public correction I had already drafted went out on a
+verdict that was wrong.

@@ -63,7 +63,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G (the closure) | — | **DEAD (entry 109, termination-B): the pre-registered computation gives str ≈ 3 (epoch-dependent!) / 10 (most generous) vs the 12π demand; the celebrated 38 was two bookkeeping errors (twin double-count + a nonexistent ξ), both corrected by our own audits** | — (closed; the QG FRAMEWORK survives, the closure does not) |
+| induced-G (the closure) | the roster + the regulator + the bootstrap's K/M_red identification (UNRAMPED — the hidden O(1)) | **UNDECIDED and DEMOTED (entries 109/109b): the death verdict was VACATED (it rested on two unwalked steps — the exact K = M_red bootstrap and an FRW-degenerate basis); with K/M_red free the closure is a DETERMINATION of the coherence scale, not a test of the roster — falsifiability lost** | — (needs: an independent K/M_red; a clean EH extraction off a non-degenerate background) |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 
