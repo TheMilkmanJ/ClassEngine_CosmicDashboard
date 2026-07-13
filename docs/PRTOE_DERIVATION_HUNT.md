@@ -2324,3 +2324,29 @@ pays only at the data's peak — a stated value off its mark executes the model 
 same machinery. **THE DEFENSE FORECAST: ΔlnZ(dyad-frozen vs ΛCDM, TRGB stack) ∈
 [+1, +6], centered ~+3.** The operator may stake his own number; both grade when the
 pair completes. No draw exists in this configuration by design.
+
+## SEVENTY-FIRST SWEEP — B2 FIRST PASS: THE AREA LAW DERIVED AND CONFIRMED (the
+## winding gas delivers the string-gas structure natively)
+
+*(scripts/winding_gas_cv.py; the string-gas method import, sweep 52, executed)*
+
+**(a) THE ACTIVATION RAMP:** the winding gas is frozen far below T_c (C_V/patch ≈ 0.01
+at t = 0.5), proliferates through a Schottky-class bump (≈ 0.67 at t ≈ 0.8), and
+settles to the classical ½ as ε₁ = a·ρ_s(t) → 0: **the proliferation temperature IS
+T_c — the medium's Hagedorn-analog, a ramp, exactly the operator's "maximal thermal
+allowance."** (b) **THE AREA LAW:** winding degrees of freedom are TRANSVERSELY indexed
+(the phase winds ALONG the axis; independent winding integers live per transverse
+coherence patch; the axis adds no multiplicity) ⟹ a region's winding dof = (R/ξ)² ⟹
+**C_V ∝ R² — confirmed numerically (C_V/R² constant, C_V/R³ falling).** The
+"intrinsically stringy" structure [NBV2006] is NATIVE to the medium. (c) **THE NBV
+CHAIN:** C_V ∝ R² ⟹ δρ² ∝ T²/R⁴ ⟹ Φ² scale-invariant at zeroth order — **the tilt's
+THERMODYNAMIC road confirmed, converging with the TOPOLOGICAL road (the exemption
+clause's two open dimensions, sweep 50): two independent derivations, one structure.**
+The drift (n_s − 1) lives in the activation ramp's slope at the draw.
+
+**LOCK 2 STATUS:** the mechanism half ADVANCES (the frame is now derived: areal dof +
+activation at T_c); the count (the 781) remains owed, with its question now sharply
+posed — **THE RECONCILIATION: the A_s form's shot-noise mechanism (volume census,
+N = C³) vs the NBV thermal amplitude (areal dof) must be the same object in two
+languages or must compete** — the next session's single question, and the frozen A_s's
+remaining mechanization debt.
