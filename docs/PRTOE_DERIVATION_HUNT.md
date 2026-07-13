@@ -1671,3 +1671,21 @@ Ledger grammar: friction = transaction fees; the superfluid transition = the fee
 schedule ramping to zero; the persistent current = the account that pays no maintenance.
 THE GENESIS CARD, complete: Γ (the comb) + impulse/ω (flow+helicity, one number) +
 E (the capital, via A_s) + α(T/T_c) (the resistance ramp, via the flow's history).
+
+### Sweep 54 addendum 2 — THE OPERATOR'S LIMIT-LAW: "no resistance is still resistance"
+
+Adopted, and physics enforces it: the friction term stays in the equations with α → 0 —
+a SINGULAR limit (D'Alembert's paradox; Onsager's anomalous dissipation: delete the
+term and "the equation rolls out from itself," the operator's phrase for a deep truth).
+The superfluid realizes it exactly: α → 0 yields a CONSTRAINED fluid (quantized
+circulation, line-vorticity only), not an ideal one — the zero keeps structure absence
+would lose. THE PAYOFF CLAUSE: dissipation survives the zero-friction limit through
+TOPOLOGY — vortex reconnections radiate (phonon bursts, Kelvin cascades). Ledger: zero
+fees on transactions; restructuring the network still costs. Consequence: the genesis
+roll-up can settle by reconnection dissipation even in the pure zero-resistance limit —
+the draw's settling is ROBUST to the friction schedule (genesis-session boundary
+condition, upgraded). THE STRUCTURAL-ZERO FAMILY, now four members, all load-bearing:
+EM charge (0, Meissner-forced), anomaly coefficient (0, mirror-proof), occupancy
+(exactly 1, the pinch), resistance (0 with the term retained — the persistent current,
+the family's memory). The exemption clause protects them all: exact numbers may hold;
+everything else ramps.
