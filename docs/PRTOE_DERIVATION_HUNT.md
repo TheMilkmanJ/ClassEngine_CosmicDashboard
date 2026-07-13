@@ -2297,3 +2297,17 @@ model's margin**; it is made anyway, which is what distinguishes a data-quality
 judgment from curation. EXTERNAL REFEREE: the JWST crowding re-measurements — the
 headline/companion roles get revisited by that community verdict, not by outcomes.
 Nothing is dropped; everything is shown; the choice predates the numbers.
+
+### The adverse-data law's SYMMETRY CLAUSE (the operator) + the TRGB trade executed
+
+**"I don't believe in punishing ΛCDM for a dataset I don't agree with"** — adopted: the
+data-quality judgment applies symmetrically; the rival is never flogged with a ruler we
+distrust. Under the TRGB anchor: ΛCDM sits < 1σ (68.2 vs 69.8 ± 1.8), the dyad dead
+center (69.9) — the evidence fight becomes mechanism quality + total fit, with far less
+free tide than the SH0ES fight offered (the operator's third margin-shrinking choice
+tonight; the sincerity ledger compounds). The framing, banked-accurate: PRTOE is
+ΛCDM-degenerate by construction plus one derived number — ΛCDM completed, not opposed.
+EXECUTED: the with-SH0ES run killed (~2.2h prior, logged); **THE TRGB-ANCHORED
+ZERO-PARAMETER RUN LIVE (2026-07-13 ~01:3x, PID 458272)** — Mb prior accepted,
+likelihood checks passing; the with-SH0ES companion and the anchor-free headline rerun
+later per the declaration's tiers.
