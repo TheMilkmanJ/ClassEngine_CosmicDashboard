@@ -52,8 +52,8 @@ is real and is the sole source of the lepton-mass shift. Referee standing ~15–
 | claim | parents | status | dies if |
 |---|---|---|---|
 | the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — fenced 3 ways | the 21cm edge reads SHARP (A) |
-| the candle room (SN channels) | the gate + the response function | [C] — luminosity channel computed small; color channel ~0.09 mag with ς UNKNOWN | ς = −1; the forest kill; the quasar audit failing |
-| the H0 ceiling (69.9 → up to 73.4) | the candle + the leakage + τ | [C] — the formula's honest bracket | ς, ⟨g⟩, or the forest test |
+| the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED (sweeps 69/76, grade-stable)**: the H0-lever branch DEAD; survives as the mass-step's candidate explanation | the forest kill; the quasar audit; the host-density-trend discriminant failing |
+| the H0 ceiling | the candle + the leakage + τ | **SUPERSEDED by ς = −1: the bracket collapsed to 70.9–71.3; the ladder-audit posture (P-001/TRGB) replaces the reach claim** | — |
 | the forest offset (ε × gate at Δ~1) | the gate curve | [C] — live at DR16's edge; DESI executes | a clean DESI forest cross-calibration |
 
 ## Tier 5b — the deep-structure candidates (2026-07-13 additions)
