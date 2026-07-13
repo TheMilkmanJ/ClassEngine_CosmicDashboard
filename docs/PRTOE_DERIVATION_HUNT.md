@@ -3281,3 +3281,38 @@ grows as s steepens — the herding of entry 94 confirmed at contour grade.
 T-file propagation completed same pass: all sixteen threaded files now carry their
 entry-88 coupling-geometry stamps (the audit's classifications were in the log but
 not in the files — the author's catch).
+
+## ENTRY 96 — THE FOUR MISSING RAMPS, WALKED (author-directed, unsupervised, in priority order)
+
+**1/4 — GRIP 7's wall → the mass curve, and the wall EVAPORATES BY MODE-SPLIT.** The
+heating applies to diffuse (hot-mode) accretion only: cold streams are dense, hence
+screened by the fence's own logic — they cross no swing and carry no heat. Gas-rich
+dwarfs (cold-stream-fed) therefore never bounded f_th; what remains is f_th ≈ 1%
+trimming hot-mode accretion below ~80 km/s — the overcooling regime where standard
+galaxy formation already demands suppression. **The model inherits preheating-class
+phenomenology as a free rider, and the S₈ closure's cap gains margin.** [estimate-
+grade; NEW ramp flagged: the gate value along stream vs diffuse paths.]
+
+**2/4 — nonlinear growth at walls:** the 89-chain's delivery efficiency takes a
+0.7–1.0 factor; the f_th target re-prices to **0.8–1.3%** (16/84). Conclusion stable;
+band honest.
+
+**3/4 — the cliff's orbit ramp:** even 30% partial swing-crossings exceed halo
+potentials ((303 km/s)² vs (200)²) — **fence 4 HOLDS as a curve**; the allowed C_ref
+ceiling rises only ×1.5–2. The wall was conservative; the curve confirms it.
+
+**4/4 — the pre-roll-up origin (f̄'s deepest):** adding the condensation-to-ring
+zero-winding interval, the gap-closed distribution reads **67% / 116% / 181%
+(16/50/84), in-budget fraction 0.65 — the fully-origined f̄ BRACKETS exact closure
+with the median on the slight-overshoot side**, which triggers the amendment rule:
+escalation to out-of-sample validation — and the escalation court is the ensemble
+referee that was already scheduled. The pipeline is its own harder court. [The
+booked median corrected against the table (116, not the draft's 106) — read-after
+enforced again. NEW ramp input owed: the condensation-to-ring gap length (B1's
+business).]
+
+**New missing ramps DISCOVERED during the walk (the next generation, flagged not
+walked):** (i) the gate value along accretion paths (stream vs diffuse — grip 7's
+mode-split needs it); (ii) the condensation-to-ring gap (B1); (iii) the nonlinear
+efficiency factor's proper calibration (N-body-class, heavy queue). The corollary's
+recursion is live: every walked ramp exposed the mouth of the next one down.
