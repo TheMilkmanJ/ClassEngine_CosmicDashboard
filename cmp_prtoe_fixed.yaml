@@ -56,7 +56,9 @@ theory:
       # chain converges; at launch, set dcdf_z_rad_onset := 10**(zon posterior mean of
       # log10_zon, converged R-1 < 0.05) from chains/cmp_prtoe_zon. Interim ~8.7e7,
       # derived corollary 3.9e7 (log10 = 7.59) -- the chain arbitrates, not us.
-      dcdf_z_rad_onset: ZON_FREEZE_PENDING
+      dcdf_z_rad_onset: 3.5619e7   # log10 = 7.5517: BOBYQA frozen-stack profile (2026-07-12,
+                                   # FAST-FUDGE per operator order; the 3-alpha mark 7.547 hit to
+                                   # 0.005 dex; chi2 cost +7.4 vs the free champion; zon-MCMC grades later)
       non_linear: halofit
       output: mPk,tCl,pCl,lCl
       modes: s
@@ -88,10 +90,9 @@ params:
          # the k O(1) audit (B3); the Eliashberg component executed (sweep 49).
     value: 2.088058e-09
     latex: A_\mathrm{s}
-  n_s:   # FREEZE-ELIGIBLE at zon convergence: 1 - 2/ln(M_Pl/T_on) = 0.963-0.964 (P-den. hunt, sweep 3/6)
-    prior: {min: 0.92, max: 1.03}
-    ref: {dist: norm, loc: 0.970999, scale: 0.005}
-    proposal: 0.005
+  n_s:   # FROZEN 2026-07-12: the census tilt 1 - 2/ln(M_Pl/T_on) at the profiled z_on
+         # (the exemption-clause 2 = the open dimensions, sweep 50); zon-MCMC grades later
+    value: 0.9641
     latex: n_\mathrm{s}
   z_reio:
     prior: {min: 4.0, max: 12.0}
