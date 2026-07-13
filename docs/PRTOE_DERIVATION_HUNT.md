@@ -4447,3 +4447,44 @@ demands they sit at 1–2 M_Pl. **That is now the model's single open number in 
 sector — and it is computable from the condensate's own parameters.** The basement went
 from "three guys in one hat" to a fully-interviewed roster in one day, and it has exactly
 one question left to answer.
+
+## ENTRY 119 — THE COLLECTION: THE PAYERS ARE 15 ORDERS TOO LIGHT — the model has NO Planck-scale content, and the basement is finally TOLD what it must contain
+
+**The collection, ramps walked first:** the collective modes' masses track the pairing
+gap (textbook: amplitude modes at 2Δ, Leggett modes at the interchannel scale × Δ). And
+the model's gap is its own founding success — **Δ = M_red·exp(−1/kα_c) ≈ 7 TeV, the
+electroweak scale, the model's solution to the hierarchy problem.** It cannot be moved
+without destroying that solution.
+
+**The Pauli formula demands the payers sit at 1–2 M_Pl. The gap puts them at 5.8×10⁻¹⁶
+M_Pl. A MISS OF FIFTEEN ORDERS OF MAGNITUDE.** Not an O(1), not a convention, not a ramp
+away. And nothing else in the model is heavier: the seesaw scale (TeV) is 15 orders
+short, M₂ (9.4 eV) is 27 short, the dCDF quantum is 47 short, and M_red is the very
+thing being derived (circular).
+
+**THE CRUELTY, NAMED:** the same gap that makes the hierarchy work is what makes gravity
+impossible to induce. **The model cannot have both from the same condensate.**
+
+**THE HONEST FINDING (and it reframes task #18 entirely): the model has NEVER SPECIFIED
+ITS PLANCK-SCALE CONTENT.** It has always *said* "the basement is at Planck" and then
+answered every basement question with the *lepton roster* — which lives at the electroweak
+scale. **The room was never furnished. We had turned on one light and called it a census.**
+
+**THE SPECIFICATION (the first time the basement has been TOLD what it must contain):**
+1. **str[k₁] = 0 over the total content** — Pauli, already satisfied by SM + 3ν_R, so
+   **the basement's own content must ALSO be k₁-balanced** or it breaks the condition
+   that just saved us.
+2. **str[k₁·m²·ln] ≈ 2π M_Pl²** — which requires a **mass SPREAD** in the basement
+   (degenerate masses would make even this vanish — Visser's *second* Pauli condition,
+   which the model must NOT satisfy, or gravity disappears entirely).
+3. **The mass scale: 1–2 M_Pl.**
+
+**THIS IS NOT A REFUTATION — IT IS A SPECIFICATION, AND A SHARP ONE.** Either the
+basement acquires content that is k₁-balanced, mass-split, and Planckian — or the
+induction claim is withdrawn and Newton's constant becomes an input rather than an
+output.
+
+**THE COST, ON THE BOOKS: the model must now carry Planck-scale content it has never
+named.** That is a real debt, not a free pass, and it is entered as one. The basement
+roster question — task #18, the model's "final structural question" — turns out to have
+been the right question all along. **We just never realized we hadn't answered it.**
