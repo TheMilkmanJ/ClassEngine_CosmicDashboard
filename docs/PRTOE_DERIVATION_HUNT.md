@@ -3874,3 +3874,16 @@ lands at 0.39 M_Pl, the closure regains BOTH its teeth and its match. If it land
 elsewhere, the closure dies for real.** Neither the obituary nor the reprieve is
 legitimate without it. Docketed as the G-closure's true summit; every prior verdict on
 this question — including both of mine today — was issued on a step.
+
+## THE TRIAGE LAW FILED (procedure 5b, author-minted 2026-07-13)
+
+*"Every wrong answer is a ramp check. Every poor fit is a ramp check. Every perfect
+fit is a validation RAMP."* — filed as procedure 5b. The amendment (the author's own,
+same session) closes the last loophole: **validation cannot be a step either.** A
+perfect fit gets its own ramp walked, because a fit can be perfect FOR an unwalked
+reason — an artifact at the origin, a degenerate basis, a hidden O(1) doing the work
+in the dark. The model's successes are now bound exactly as hard as its failures, and
+the corollary the G-closure day taught at full price stands beside it: **a verdict is
+itself a result and inherits the triage** — the death certificate (process error 27)
+and the reprieve (process error 28) were both issued on unwalked steps, hours apart,
+on the same question. The law now covers its own output, in both directions.
