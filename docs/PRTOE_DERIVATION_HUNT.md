@@ -3618,3 +3618,35 @@ BEC-Kelvin bench, the type-II vortex cousin for P-016, the Landau bench for iner
 all bench-scale, all already docketed or lab-cousin-filed. The author's thesis holds:
 the grandchildren were never strangers; they just lived one house over.** Ramp check:
 each lineage walked to the medium or to a named hand-off; no further hops owed.
+
+## ENTRY 106 — THE ONE-BIT COURT RULES: DOOR A, BY THE MODEL'S OWN KEYSTONE
+
+The G-closure's last convention bit, adjudicated by an anchor that is independent,
+signature-free, and — the decisive part — ALREADY BANKED IN THE CORPUS: the FFZ
+keystone (the same one-loop content generates 1/G and the horizon entanglement
+entropy, self-consistently, S = A/4G). Species entanglement entropies have known
+signs: minimal scalars POSITIVE, fermions POSITIVE, gauge vectors NEGATIVE (the
+Kabat contact term). Self-consistency of S = A/4G with positive species entropy
+FORCES sign(δ(1/G)) = sign(δS) per species — and only the **+str reading** coheres:
+scalar +1/6 (+), Dirac +1/3 post-supertrace (+), vector −2/3 (−, matching Kabat),
+all three classes aligned. The −str reading breaks S = A/4G's own sign. **RULING:
+1/G = +str[k₁]κ²/2π. Visser's overall minus is his action convention (−R/16πG in
+his Lagrangian), not physics. DOOR A.**
+
+**Roster caveat, honest:** the vector contact term's physicality is debated in the
+literature — but entry 87 emptied the model's roster of vectors, so this verdict
+rides only the unambiguous positive classes. The debate cannot reach it.
+
+**Consequences:** (i) **the G-closure is HEALTHY** — the model's scalar+fermion
+roster induces attractive gravity; entry 86's branch-1 "adverse" re-grades to a
+convention artifact; the crisis that opened at entry 86 CLOSES at entry 106, five
+entries and two theorem-grade findings later. (ii) The pinned door:
+**ξ_amp = −4.450**, now the model's registered prediction for its founding
+coupling's amplitude half (the phase half being zero by Goldstone, entry 103).
+(iii) #38's residue inherits its pre-registered target: the radial-EFT derivation
+of ξ_amp must land at −4.450 or the closure dies by its own hand. (iv) The
+external falsifier stands unchanged: any independent determination executes.
+Grade: derived-conditional (the anchor is a banked keystone + entropy positivity —
+theorem-class; the residual exposure is the FFZ mechanism itself, which the corpus
+already carries as a named dependency). Ramp check: entropy positivity holds at
+every coupling and every signature — the anchor is ramp-proof by construction.
