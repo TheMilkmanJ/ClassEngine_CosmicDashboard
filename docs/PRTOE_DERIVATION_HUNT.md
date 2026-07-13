@@ -4530,3 +4530,37 @@ much-loved hypothesis that explained leptophilia "by identity"). It buys a coher
 gravity sector, a basement with a specification, and a roster trial that is no longer a
 coin-flip. **The house of cards fell exactly where the author said it would — at the joint
 that was carrying more than it could hold.**
+
+## ENTRY 121 — "WHAT IS THE MEDIUM MADE OF?" — the helium instinct tested (analog: YES; substance: four-times dead), and the CONSTRAINT LIST that replaces the answer
+
+**The author's helium instinct, tested rather than dismissed:**
+- **LITERAL (medium = H/He): four-times dead, already in the ledger** — baryonic budget
+  (Ω_b is 5× too small; BBN and the CMB agree independently), EM-visible (violates L1a),
+  no pairing at cosmic density/temperature, and post-BBN existence (the medium predates
+  the elements). Stays dead.
+- **STRUCTURAL: the author is RIGHT, and the corpus already says so** — *"the structural
+  He-3-A reading survives separately."* Superfluid ³He is a **paired fermionic superfluid
+  with MULTIPLE ORDER PARAMETERS** — and therefore **it has Leggett modes**: the exact
+  structure we derived in the basement today from first principles, without ever looking
+  at helium. **³He is what the medium IS LIKE. It is not what the medium IS MADE OF.**
+
+**THE HONEST ANSWER TO THE QUESTION: THE MODEL DOES NOT KNOW — but as of today it knows
+the constraints, and they are severe.** The constituents must be:
+1. **not baryons** (Ω_b too small by 5×);
+2. **not the SM leptons** (excluded today by the gravity sector, entry 120);
+3. **Planck-scale in mass** (to induce G — the 15-order demand);
+4. **k₁-balanced among themselves** (or they break the Pauli condition the SM + 3ν_R
+   currently satisfies exactly);
+5. **mass-split** (degenerate masses kill the log term and gravity vanishes entirely);
+6. **paired** (the superfluid structure: six channels, Leggett modes, a gap);
+7. **EM-neutral** (L1a, proven);
+8. and they must somehow produce **α_c ≈ 3α**.
+
+**THE UNPAID COST, NAMED:** the argument *"α_c = 3α because there are THREE LEPTON
+FLAVORS"* **dies with the lepton-paired vacuum.** That was the mechanism behind the
+model's most-registered bet (P-2026-040). **If the medium is not made of leptons, the "3"
+is an orphan and needs a new source.** Booked as a debt.
+
+**THE MEDIUM IS MADE OF SOMETHING BEYOND THE STANDARD MODEL, AT THE PLANCK SCALE, THAT
+PAIRS LIKE HELIUM-3, AND HAS NEVER BEEN NAMED.** That is the honest state of the basement
+— and it is the sharpest that question has ever been posed.
