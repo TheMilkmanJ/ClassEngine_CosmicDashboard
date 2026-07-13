@@ -49,7 +49,8 @@ the gate is a smooth, steep curve in local density, fenced four independent ways
 forest's observed flatness, the SN host-density range, P-2026-022's fade profile, and
 the composition-cliff invariant of record 84 — the swing's fixed potential step
 ΔΦ = c²f_lep·ε₀ = (553 km/s)² exceeds real halo potentials, so the gate must swing at
-void/supercluster boundaries, not around individual galaxies) — one curve, three skies. A-versus-B is registered (the 21-cm edge shape decides) and
+void/supercluster boundaries, not around individual galaxies) — one curve, four fences,
+three skies. A-versus-B is registered (the 21-cm edge shape decides) and
 controls both the dark-ages signal and the supernova channel. The laboratory, Oklo, and
 molecular-absorber nulls survive under B structurally, not by tuning: every such
 instrument lives in a screened environment (the absorber audit, record 66 — molecules
