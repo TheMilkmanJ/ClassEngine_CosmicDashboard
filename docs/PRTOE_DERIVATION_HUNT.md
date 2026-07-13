@@ -2041,3 +2041,29 @@ stretching the wake — in comoving coordinates.** The moments' resurrection has
 ramp; the retrial is a fair court. (The depth law's corollary, learned the hard way
 tonight: at genesis depth, even the COURTROOM must ramp — a static-background toy
 cannot render final verdicts on formation physics.)
+
+## SIXTY-FOURTH SWEEP — THE COMOVING RETRIAL: THE MOMENTS RESURRECT, THE H0 LEVER DIES
+
+*(script: scripts/genesis_solver_v4_comoving.py — radiation-era a(t) throughout,
+formation inside expansion, the catch-up race over the full e-fold history)*
+
+**VERDICT 1 — RESURRECTION:** the expansion-era catch-up channel DELIVERS. At χ = 5.3
+(inside the discharge band): **mass share = 0.839 vs the 0.843 target (0.5%)**;
+ε = 0.92 vs 0.88 (~5% high, estimate-grade). Artifact tells all PASS (χ-sensitivity
+present; the moments differentiate — 0.92 vs 0.84, two weightings of one history, the
+strike-12 structure realized; e-fold saturation physical: 0.941→0.943→0.943). The
+sweep-63 kill's resurrection condition was met in its named court — the moment-mapping
+returns at comoving-toy grade, ε's 5% residual owed to the ovp/bubble bands and the
+formation-phase fidelity.
+
+**VERDICT 2 — THE FLOW'S H0 LEVER RETRACTED at the same fidelity:** the field
+decomposition, computed not parameterized: tangential swirl → monopole bias EXACTLY
+ZERO (divergence-free); the drift → dipole, SH0ES-marginalized; the compressive tail
+gradient → ~0.03% over the ~3 Gpc tail. **The 72.2 collapses to ~73.0**; sweep 53's
+partial lever is retracted; the coherent fraction MEASURES at ~0.01–0.03, not ~1. The
+flow keeps its jurisdiction (bulk flows, the helicity cross-lock, the axis family) and
+loses the ladder. The H0 board reverts: 69.9 global (under arbitration); the residual
+gap owned by the v6 triad / SH0ES systematics / the unfound.
+
+The same-2 family notes its newest face: the race itself (ring vs wake — the gather and
+pour signs running the relay), and the comoving court that judges both fairly.

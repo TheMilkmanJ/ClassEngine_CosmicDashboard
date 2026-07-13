@@ -57,7 +57,8 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | Strike 12: the pinch-off partition as a sharp cutoff at F = 4 | the intake TAPER: partition = the ramp's integral; target becomes a band (L/D 4.3–5.3); the unlock — ε (0.88) and the mass share (0.843) = two weighted moments of ONE intake curve, the sweep-57 numerology flag's candidate mechanism | 2026-07-12 (operator catch: "say it with me now") |
 | Strike 13: sweep 60's two steps — the core tube sized at two points; the sound's fate a binary | the growth-equation profile (cold verdict survives at (ω/H)² ~ 1e-4); the damping-envelope filter (P-031-as-the-pour's-sound upgraded to a computable line shape) | 2026-07-12 (operator catch: "you didn't...?") |
 
-| The genesis moment-mapping (ε=0.88 ↔ circulation fraction; 0.843 ↔ mass fraction) | killed at TOY fidelity by its own sealed ambush (B1 v1-v3: moments never reached; v3's merger rescue exposed as artifact; the valid channel is empty in the monotonic toy) — resurrection ONLY via the full comoving B1 delivering the expansion-era catch-up | sweeps 61-63 |
+| The genesis moment-mapping (ε=0.88 ↔ circulation fraction; 0.843 ↔ mass fraction) | killed at TOY fidelity (sweeps 61-63) — **RESURRECTED at comoving grade (sweep 64): the named condition met — share 0.839 vs 0.843 at χ=5.3, ε 0.92 vs 0.88; the kill stands as a correct toy-grade ruling, overturned in its named appeal court** | sweeps 61-64 |
+| The flow's H0 ladder lever (sweep 53's partial ~1.4%) | RETRACTED at comoving-field fidelity (sweep 64): the swirl is divergence-free (monopole bias exactly 0), the drift dipole-marginalized, the compressive tail ~0.03% — the coherent fraction measures ~0.02, not ~1 | sweep 64 |
 
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 
