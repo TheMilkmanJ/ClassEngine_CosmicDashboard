@@ -63,7 +63,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G: the CLOSED FORMULA 1/G = [2(1−6ξ)−18]·K² (entry 80) | the roster + the coherence-factor regulator (p = 2 DERIVED, O(1) = 1 exact) + the a₁ weights | [D-conditional] — the sign hazard RESOLVED at ξ = −9/2 (pinned as the model's prediction for its founding coupling) | an independent ξ off −9/2; the a₁ convention check; the doubling adjudication |
+| induced-G: the CLOSED FORMULA 1/G ∝ [2(1−6ξ)+18]·K² (entry 80, SIGN-CORRECTED entry 82) | the roster + the coherence-factor regulator (p = 2 DERIVED, O(1) = 1 exact) + the a₁ weights (VERIFIED vs Visser Table 1) | [D-conditional] — the pinned coupling relocates ξ = −9/2 → **−3/2** (same 38-vs-12π match); the fermion-sign hazard dissolves; the bootstrap demand's end-to-end sign chain is the new open item | an independent ξ off −3/2; the sign-chain re-derivation; the doubling adjudication |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 

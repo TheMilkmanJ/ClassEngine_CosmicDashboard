@@ -87,37 +87,52 @@ particle-physics sector): three charged Dirac leptons, three Majorana neutrinos 
 entering with its time-reversed pairing partner (the Cooper-pair doubling native to the
 condensate; adjudication of this doubling in the gravitational channel is a named open
 item) — plus the condensate scalar itself (two real components) with non-minimal
-curvature coupling ξ. With the standard heat-kernel weight ratios (real scalar:
-+1×(1 − 6ξ); Dirac: −2; Majorana: −1; one overall convention check against the
-literature remains open), the supertrace is
+curvature coupling ξ. The weight convention is now **verified against the literature**
+(Visser gr-qc/0204062, Table 1, from Birrell–Davies): per species the raw
+Seeley–DeWitt coefficient is k₁ = (1/6 − ξ) for a generic scalar, −1/3 for a Dirac
+spinor, −1/6 for a Weyl/Majorana spinor — and the supertrace weights fermions with a
+*further* relative minus (Visser Eq. 12). The two minuses compound: **the fermion's
+net weight in str[k₁] is positive** (+2 per Dirac, +1 per Majorana, in units of a
+minimal real scalar component — confirmed independently by Visser's chiral-supermultiplet
+row, whose net k₁ = +1/2 = scalar ⅓ *plus* fermion +1/6). The earlier draft of this
+section carried a single minus; corrected, the supertrace is
 
-  str = 2(1 − 6ξ) − 18.
+  str = 2(1 − 6ξ) + 18.
 
 **5.3 The closed formula and the pinned coupling.** The self-consistency (bootstrap)
 condition — the cutoff of an induced theory is the induced scale itself — makes the
-one-loop demand a pure number: str = 12π ≈ 37.70. Solving,
+one-loop demand a pure number: str = 12π ≈ 37.70. Solving with the corrected weights,
 
-  **1/G = [2(1 − 6ξ) − 18] · K² (12π-normalized), with ξ = −4.47;**
-  **the half-integer ξ = −9/2 gives str = 38, matching the demand to 0.8%.**
+  **1/G ∝ [2(1 − 6ξ) + 18] · K² (12π-normalized), with ξ = −1.475;**
+  **the half-integer ξ = −3/2 gives str = 38 — the same 0.8% match to the demand.**
+
+(The numerical landing is *unchanged* by the sign correction — 38 against 37.70 —
+because the corrected fermion block, +18, reaches the same total with a far more
+modest scalar coupling. The pinned value relocates: ξ = −9/2 → **ξ = −3/2**.)
 
 Two readings, stated honestly:
-- The framework does **not** derive G from first principles tonight. Rather, **G
-  measures ξ** — the non-minimal coupling of the model's founding interaction
-  F(φ) = 1 + ξA(φ). The measurement converts the framework's deepest assumption into
-  its sharpest falsifier: *any independent determination of ξ must land at −9/2
-  (within the stated band), or this framework is dead.*
-- The sign structure resolves a genuine hazard rather than hiding one: the field
-  content is fermion-dominated (18 of 20 pre-doubling components), and fermions enter
-  the supertrace negatively — a naive count yields repulsive gravity. Attraction
-  requires the scalar's non-minimal term to dominate, i.e. a large negative ξ. In this
-  framework, *gravity attracts because the founding coupling is large and negative.*
+- The framework does **not** derive G from first principles. Rather, **G measures ξ**
+  — the non-minimal coupling of the model's founding interaction F(φ) = 1 + ξA(φ).
+  The measurement converts the framework's deepest assumption into its sharpest
+  falsifier: *any independent determination of ξ must land at −3/2 (within the stated
+  band), or this framework is dead.*
+- The sign question relocates rather than closes: the earlier draft's "fermion-sign
+  hazard" (repulsive gravity from a fermion-dominated roster) *dissolves* — fermions
+  contribute positively to str[k₁] once both minuses are kept. What replaces it:
+  Visser's Eq. (21) carries an overall minus (1/G = −str[k₁]κ²/2π), and Sakharov's
+  route obtains attractive gravity for str[k₁] < 0 — while this roster's corrected
+  supertrace is positive. Whether the framework's bootstrap demand supplies the
+  compensating sign (its normalization was derived in the medium's own conventions,
+  not Visser's) is now the computation's live open item: the end-to-end sign chain,
+  re-derived with Eq. (21) as the anchor.
 
-**5.4 Open items on this computation** (named, none hidden): (i) the heat-kernel
-weight-ratio convention verified against the literature; (ii) the pairing-doubling's
-validity in the gravitational channel (the analogous question was adjudicated for the
-screening channel; the gravitational case requires its own argument); (iii) the
-half-integer value of ξ is flagged at coincidence-watch grade until an independent
-determination exists.
+**5.4 Open items on this computation** (named, none hidden): (i) ~~the heat-kernel
+weight-ratio convention~~ **EXECUTED 2026-07-13** against Visser Table 1 —
+magnitudes confirmed, the fermion block's sign corrected (this section updated);
+(ii) the end-to-end sign chain of the bootstrap demand against Visser Eq. (21)'s
+overall minus — the item the convention check exposed; (iii) the pairing-doubling's
+validity in the gravitational channel; (iv) the half-integer ξ = −3/2 flagged at
+coincidence-watch grade until an independent determination exists.
 
 ## 6. What this framework does and does not claim
 

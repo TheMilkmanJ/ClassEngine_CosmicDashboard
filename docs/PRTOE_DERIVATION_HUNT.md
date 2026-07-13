@@ -2640,3 +2640,30 @@ detection at g ~ 10⁻⁸–10⁻⁹ selects corner 1 AND kills the double-duty;
 corner 2 or heavier M. Caveats owned: single-flavor dominance (m₃), one heavy scale,
 flavor O(1)s unaudited (3 triplets × 5 doublets shifts y by ~4^{1/4}-class factors,
 nowhere near the 100× the bridge needs); μ ≪ M holds everywhere quoted.
+
+## ENTRY 82 — THE a₁ CONVENTION CHECK EXECUTED: THE FERMION BLOCK FLIPS SIGN, THE MATCH SURVIVES, ξ RELOCATES TO −3/2
+
+The G-closure's registered open item (i) run against the source (Visser gr-qc/0204062,
+Table 1, coefficients from Birrell–Davies; the PDF pulled and read directly).
+
+**Confirmed:** the scalar weight (1/6 − ξ) exactly as assumed; |Dirac| = 2 and
+|Weyl/Majorana| = 1 in minimal-scalar units (Lichnerowicz E = R/4 → k₁ = 4(1/6 − 1/4)
+= −1/3); the supertrace structure Str = Tr[(−)^F] (Visser Eq. 12).
+
+**The catch:** the two fermion minuses COMPOUND — k₁'s own Lichnerowicz sign AND the
+loop-statistics minus. Net fermion weight in str[k₁] is **positive** (+2 Dirac,
++1 Majorana). Independent confirmation inside the same table: the chiral
+supermultiplet's net k₁ = +1/2 = scalar 1/3 PLUS fermion +1/6. Entry 80's supertrace
+2(1−6ξ) − 18 carried a single minus; corrected: **str = 2(1−6ξ) + 18**.
+
+**The consequences, ramp-read:** (i) the 12π match is UNCHANGED — str = 38 at the
+half-integer ξ = −3/2 (was −9/2), same 0.8% landing; the closed formula's numerical
+content survives its own sign audit, which is the behavior a real structure shows.
+(ii) The fermion-sign hazard (entry 79's "naive count yields repulsive gravity")
+DISSOLVES — it was an artifact of the single-minus bookkeeping. (iii) The sign
+question relocates upstream: Visser Eq. (21) carries an overall minus
+(1/G = −str[k₁]κ²/2π; Sakharov's route wants str[k₁] < 0), while the corrected roster
+sum is positive — whether the model's bootstrap demand (derived in the medium's own
+conventions, entries 78/80) supplies the compensating sign is the NEW named open item:
+the end-to-end sign chain, re-derived with Eq. (21) as the anchor. Booked as process
+error 21; the founding-coupling prediction is now ξ = −3/2.
