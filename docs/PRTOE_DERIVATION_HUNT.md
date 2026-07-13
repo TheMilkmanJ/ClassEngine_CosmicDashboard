@@ -1582,3 +1582,37 @@ member, interesting against the persistent larger-than-ΛCDM bulk-flow measureme
 requires the ring's circulation + core radius (the genesis session's numbers) — PARKED
 for careful sizing, not registered. BBN-label note: the operator means the fireball
 (nucleosynthesis follows minutes later; labels kept distinct per the white-holes file).
+
+## FIFTY-THIRD SWEEP — THE FLOW LEVER (the operator: "the very flow of the smoke ring
+## causes extra expansion — maybe it threads to H0 = 73")
+
+**Why this lever has the RIGHT SHAPE (unlike the μ-era attempt, graded lost):** the
+model's 69.9 is the GLOBAL number (the CMB fit); SH0ES is LOCAL (z ~ 0.01–0.15). The
+gap is +4.4% *local*. A coherent local flow with divergence biases the DISTANCE LADDER
+while leaving the CMB fit untouched — no new early physics, no re-fit, the arbiter
+unaffected. The operator's smoke-ring physics is the mechanism: the ring self-propels
+and expands; its structured flow field's divergence reads as extra expansion to anyone
+measuring from inside it. The two-part resolution candidate: global 69.9 (real) + local
+flow bias (apparent) = the 73 the ladder reads.
+
+**SIZED AT MEASURED FLOWS [honest]:** the observed bulk-flow excess (~250 km/s over
+~250 Mpc, Watkins-class vs ΛCDM's ~150) supplies ~1.0 km/s/Mpc of coherent gradient =
+**a ~1.4% local bias: 69.9 → ~70.9. A PARTIAL lever at tonight's numbers.** The full
++4.4% requires the ring's QUADRUPOLE flow to exceed the smoothed bulk-flow statistic
+~3× — possible (smoothed statistics under-capture structured flow) but UNSIZED until
+the genesis session delivers the ring's circulation Γ and radius R(t).
+
+**FALSIFIERS (three, none cheap):** (i) the flow must share the family's ONE axis
+(P-032 kill inherited); (ii) ladder-H0 should show AXIS-CORRELATED directionality
+(literature hints of H0 anisotropy exist — the model picks the direction in advance);
+(iii) DESI peculiar-velocity mapping tests the flow's structure directly. RIDER: the
+ring slows as it grows ("expands and thins" — the operator) → the flow was stronger at
+higher z → bulk-flow amplitude should GROW with lookback through the ring era — a
+redshift-dependence hook for PV surveys.
+
+**FENCES:** a uniform bulk flow is dipole-marginalized by SH0ES — the bias must live in
+quadrupole+ structure (the ring's field is naturally structured: axial translation +
+planar expansion); no global-anisotropy violation (late-time local kinematics, not
+background shear); the lever CANNOT be graded better than partial until Γ and R are
+sized — the genesis session now carries three riders (the bulk flow, the H0 lever, the
+self-propulsion drift), all axis-locked, all falsifiable together.
