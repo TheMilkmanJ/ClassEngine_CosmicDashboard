@@ -56,6 +56,14 @@ is real and is the sole source of the lepton-mass shift. Referee standing ~15–
 | the H0 ceiling (69.9 → up to 73.4) | the candle + the leakage + τ | [C] — the formula's honest bracket | ς, ⟨g⟩, or the forest test |
 | the forest offset (ε × gate at Δ~1) | the gate curve | [C] — live at DR16's edge; DESI executes | a clean DESI forest cross-calibration |
 
+## Tier 5b — the deep-structure candidates (2026-07-13 additions)
+
+| claim | parents | status | dies if |
+|---|---|---|---|
+| n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses zon/the comb |
+| the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
+| induced-G (the 12π landing; 38 = the twin-doubled roster + scalar) | the roster + the bootstrap | [Fermi-C] — the fermion-sign hazard standing; the ξ-rescue = the founding coupling | the medium-regulated supertrace signs wrong |
+
 ## Tier 6 — the axis family (children of the winding; registered)
 
 P-024 (dipole), P-029 (comb), P-031 (isocurvature), P-032 (the shared direction),

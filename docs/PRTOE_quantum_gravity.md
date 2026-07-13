@@ -114,3 +114,20 @@ exceed); tunneling and superposition keep their standard mathematics with the me
 supplying ontology, not corrections. The quantum wing's posture is unchanged: exact
 reproduction, plus an origin story, plus one emergent metric that must serve gravitons
 and photons identically — which GW170817 already tests and passes by construction.
+
+
+## ADDENDUM 2 (2026-07-13, the fresh-eyes night) — the match-or-die test FIRED
+
+**The first shot (sweep 78, Fermi grade):** the induced-gravity bootstrap (Λ = the
+induced scale itself) makes Sakharov's formula a pure-number demand — N_eff = 12π =
+37.70 — and the roster's twin-doubled count (18 lepton components × 2) + the medium's
+scalar (2) = **38: a 0.8% landing at that convention.** The frame did not die.
+
+**The heat-kernel session (sweep 79):** NOT signed, with the reasons banked: (i) THE
+PHYSICAL-REGULATOR PRINCIPLE — Sakharov's scheme ambiguity dissolves in a medium whose
+UV is a measurable dispersion shape (the ramp O(1) computed: definite once p is fixed);
+(ii) THE FERMION-SIGN HAZARD — the roster is fermion-dominated and naive weights give a
+wrong-signed 1/G; **the rescue candidate is the founding coupling itself: the scalar's
+non-minimal ξ (F(φ) = 1 + ξA(φ)) dominating the supertrace with the right sign.**
+THE G-CLOSURE: three model-owned numbers — the dispersion shape p, the fermion weights
+under that regulator, ξ — between the frame and Newton's constant. Queued (#29).

@@ -63,6 +63,12 @@ events — the topology draw (n, at condensation) and the census lock (the A_s =
 snapshot, when the cells freeze at the pivot scale) as SEPARATE ADJACENT LINKS. The
 geometric session confirms or kills this; nothing downstream assumes it.
 
+**[TETHER 4→5 REWRITTEN, 2026-07-13 (sweep 77):** the two-draws hypothesis resolved —
+the "topology draw" = THE QUANTIZATION EVENT (the classical fountain ring's circulation
+quantizes through the condensation ramp; n locks at the phase-slip freeze-out — 
+mechanical, noise-dressed; the KZ dice demoted to the residual + the ± genome coin);
+the census lock = the pour's thermal snapshot (the sweep-75 reconciliation).]**
+
 **5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits sweep 44's grade]:** the payroll snapshot
 — the pivot scale stands 781 cells across; A_s = 1/N frozen. The μ-era referee (sweep
 46, ramp-corrected): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;

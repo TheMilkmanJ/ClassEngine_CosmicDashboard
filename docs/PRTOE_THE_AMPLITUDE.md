@@ -69,3 +69,13 @@ lines all along: one number, no exits, referees everywhere.
 [HartChluba2020], [SekiguchiTakahashi2021] (the mechanism); [Planck2018], [Riess2022]
 (the two skies); [Ubachs-mu-class] (the screened-room nulls); internal: the fingerprint
 lattice, THREE_EQUATIONS, sweeps 59/66–68. Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+
+## 6. The mechanization status (2026-07-13, the fresh-eyes night)
+
+The frozen form's mechanism closed its conceptual half: the winding gas's AREA LAW
+(derived + confirmed), the activation ramp (the Hagedorn-analog = T_c), and THE
+RECONCILIATION (the NBV thermal amplitude and the census bookkeeping are one object
+joined at T_pour). **The entire A_s chain now hangs on ONE underived number — the
+bounce's stiffness-ceiling scale (~1.6×10¹⁶ GeV) — queued in B1/B7.** The count's
+lock criterion: the phase-slip freeze-out (sweep 77's anneal), Kibble–Zurek class.
