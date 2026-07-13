@@ -3666,3 +3666,37 @@ identity-along-the-ramp.** The model's seats checked against the ramp: ξ_phase 
 (minimal, positive side), ξ_amp = −4.450 ((1/6 − ξ) = +4.62, positive side) — no
 roster member crosses the conformal zero; every seat contributes positively to both
 ledgers. The exemption is earned at every coupling; door A stands on the identity.
+
+## ENTRY 107 — THE RADIAL EFT SESSION OPENS: ξ_amp IS NOT FREE — IT IS THE ACOUSTIC METRIC'S OWN SCALE MODE, AND THE CLOSURE'S SURVIVAL REQUIRES THE ANISOTROPY
+
+*Preamble — the author's methodological statement, filed as the ramp laws' spine:
+"A model that performs better under a ramp — when the equations legitimately run on
+ramps and applying the very structure they call for is the ONLY reason it aligns with
+the data better — is a much better indication than anything else we could have asked
+for." The discriminator between tuning and structure is that the ramp's form is
+dictated by the physics BEFORE the landing is known; pre-registration enforces it;
+the scrutiny laws apply undiminished.*
+
+**Finding 1 (structural):** the amplitude mode is not a field on the emergent metric —
+it IS the metric's own scale mode, entering ANISOTROPICALLY (GP: g_tt ∝ ρ^{3/2},
+g_ij ∝ ρ^{1/2}, since c_s² ∝ ρ). **ξ_amp is therefore determined by the model's
+founding equation, not free.**
+
+**Finding 2 (theorem-class waypoint — the conformal kill switch):** were the exponents
+equal (pure conformal), the conformal identity fixes ξ = 1/6 exactly, (1−6ξ) = 0, the
+scalar block decouples, str → 10, and the closure DIES. **The G-closure survives only
+because the medium's stiffness scales with its density — Newton's constant, in this
+model, owes its observed strength to c_s² ∝ ρ.** The dispersion physics and gravity's
+strength are one structure.
+
+**Finding 3 (the ramp):** the exponents ramp continuously with the interaction power n
+(c_s² ∝ ρⁿ): (a_t, a_s) = (1 + n/2, 1 − n/2); the founding GP point n = 1 sits
+mid-ramp, the conformal death at n = 0. No menus anywhere — n = 1 is the founding
+equation.
+
+**The pre-registered computation (the session's product):** expand R[g(ρ₀ + δρ)] to
+O(δρ²) at general (a_t, a_s)(n), extract ξ_amp(n) continuously, evaluate at n = 1.
+**Registered NOW, before the tensor algebra exists: ξ_amp(1) = −4.450 or the
+G-closure dies by its own founding equation.** The needed deviation is O(5) from an
+O(1) anisotropy — plausible, not guaranteed, exactly as a real bet should be. The
+tensor-algebra session is the docket's sharpest item.
