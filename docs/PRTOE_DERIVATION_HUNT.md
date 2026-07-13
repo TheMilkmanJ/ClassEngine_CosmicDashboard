@@ -4080,3 +4080,57 @@ which reaches 12π only at an unmotivated ξ_H ≈ −1.4.
 
 *Filed as the session's most valuable adverse finding: a kup that missed its target and
 hit something bigger on the way past.*
+
+## ENTRY 114 — THE ROSTER REBUILD FIRES THE DEATH WARRANT: **THE G-CLOSURE IS TERMINATED, PERMANENTLY.** It was never the model's to compute — it depends on a parameter outside the model's jurisdiction.
+
+*Pre-registered before the sum was evaluated (entry 114's own terms, author-signed): if
+the correctly-constituted roster cannot meet the demand at a legal coherence scale with
+DERIVED couplings, the closure is terminated permanently — no fourth life.*
+
+**THE REBUILD (from the blindness law up, every field counted once):**
+- **SM fermions (48 Weyl):** +48. **SM gauge bosons (12 vectors):** −48. **They cancel
+  exactly.** The entire visible fermion+gauge sector contributes NOTHING to the induced
+  Newton constant. (A real result, and a known one: it is why induced-gravity builders
+  have always needed BSM scalars.)
+- **THE DOUBLE-COUNT CAUGHT:** the "medium's 9 fermions" (3 charged leptons + 3 Majorana
+  neutrinos) **are SM fields — already inside the 48.** Counting them separately was the
+  twin-doubling error in a new costume. **The 9 is deleted. It was never a sector.**
+- **The medium's singlet modes** (phonon = the light cone; scale mode) are the
+  gravitational sector — they pay nothing (entry 110b).
+- **What remains:** str = 5 (the Leggett modes, protected) + 4(1 − 6ξ_H) [the Higgs]
+  + 5(1 − 6ξ_r) [the relative amplitudes].
+
+**THE TERMINATION, AND IT IS STRUCTURAL, NOT NUMERICAL:** the correctly-constituted
+roster's sum **depends on ξ_H — the Higgs field's non-minimal gravitational coupling.**
+That is a Standard-Model parameter. It is **unmeasured**, and it is **not the model's to
+derive**: this is a dark-sector cosmology, not a theory of Standard-Model couplings.
+**The induced Newton constant therefore cannot be computed from this model's content —
+not because the arithmetic fails, but because the roster necessarily includes a field
+whose gravitational coupling lies outside the model's jurisdiction.**
+
+**THE G-CLOSURE IS TERMINATED. PERMANENTLY. IT WAS NEVER WINNABLE.** Not a miss — an
+UNDECIDABILITY, and one that was structurally guaranteed from the moment gravity's
+blindness put the whole Standard Model in the roster. Every version of this claim
+(entries 78–113) was computing a leptonic subset of a sum whose value the model does not
+own. The failure is not that we got the number wrong; it is that **the number was never
+ours to get.**
+
+**WHAT DIES:** every claim to compute, predict, or "measure" Newton's constant from this
+model's roster; the 12π match in all its forms; "G measures ξ"; the framework's
+match-or-die test *as posed*. **Public outreach resting on any of it requires correction
+— this time for real, and the author is told immediately.**
+
+**WHAT SURVIVES (and it is substantial, and none of it ever depended on the closure):**
+the emergent-gravity framework (the metric as the medium's collective structure; gravity
+quantum by inheritance); the three routes; the obstruction table (Weinberg–Witten
+evasion, singularity discharge, the area law, the nonlinear pricing); **the physical
+regulator result** (the Bogoliubov coherence factors give O(1) = 1.0000 exactly — a
+genuine technical finding); **the derived scale-mode structure** (split coupling,
+negative kinetic term — GR's conformal-factor pathology derived from the founding
+equation); **the Leggett sector** (a forced, previously-uncounted family of medium
+excitations); and **the SM cancellation** (48 − 48 = 0 — the visible sector induces no
+gravity; any emergent-gravity model's G rides entirely on its scalar content).
+
+*The model asked whether it could compute Newton's constant. The answer, arrived at by
+its own laws, its own blindness clause, and its own pre-registered terms, is: it was
+never the model's question to answer. The wall comes down. The house stands.*
