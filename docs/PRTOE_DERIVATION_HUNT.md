@@ -1890,3 +1890,34 @@ amplify — the concordance ω₀ gives the same 72.2 (the correction moves by <
 amplifier remains B1's quadrupole sizing; the concordance's contribution to the tension
 is discipline, not distance. No illegal tuning exists that the network's own strains
 would not expose — that is the table's standing function going forward.
+
+## SIXTIETH SWEEP — THE GENESIS SEQUENCE AUDIT (the operator: "ask genesis what we're
+## missing — something physics says SHOULD be there")
+
+**The operator's core-pressure tube [sized COLD tonight, target pre-registered]:** a
+vortex core is a pressure deficit (O(1) void at formation — the order parameter
+vanishes); expanded to today it is ~35 kpc comoving wide, and the swirl-zone deficit at
+survey scales is v²/c_s² ~ 2×10⁻⁵ — three-to-four orders short of the KBC-class
+underdensity (δ ~ −0.2 over 100–300 Mpc) that would close the remaining H0 gap. FILED
+COLD at first sizing — but the full density profile of the expanded ring SYSTEM
+(core + swirl + wake interfaces) is B1's output, so **the void question pre-registers as
+B1's sixth ambush: does the ring system produce an axis-aligned underdensity, and at
+what depth?** (The remaining gap's known shape is exactly a local underdensity.)
+
+**The audit's two genuinely missing items (lab physics demands them; the books lacked
+them):**
+1. **THE PISTON: the genesis orifice = the inherited axis.** Every lab ring has a
+   generator; the pour's discharge geometry is set by the heirloom topology — the
+   formation number's D is NOT a free scale, it is the compact axis the crunch carried
+   over. Feeds the L/D band directly; B1 boundary condition, upgraded from free to
+   inherited.
+2. **THE POUR'S ACOUSTIC EMISSION — unbooked until tonight:** a violent discharge
+   radiates sound into the medium (c_s waves). Fate candidates: damps into the bath
+   (cold) OR seeds the patch structure — a possible MECHANISM for P-031's isocurvature
+   line (the ℓ ~ 170 patches as the pour's own sound). Flagged for B1/B2; no claim
+   tonight.
+
+Already banked and confirmed present: the secondary shedding (the vortex network,
+P-028's engine), the core waves (Kelvin/Widnall). The sequence carries no other gaps a
+lab ring would flag. Concordance note: the armed A_s freeze value updates to the JOINT
+k at firing time (2.089e-9 vs the closed form's 2.081e-9 — inside all windows).

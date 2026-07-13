@@ -19,7 +19,7 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | (α_c/4πk)³ = 2.0807e-9, closed-form k = ln(1+π/2α_c)/π | RED-TEAM APPROVAL of def549 asks #1+#3 (operator order 2026-07-12: approval suffices) | [Y] cmp_prtoe_fixed.yaml |
+| A_s frozen | (α_c/4πk)³ with the CONCORDANCE joint k = 1.3630 ± 0.0032 (sweep 59) → 2.089e-9 | RED-TEAM APPROVAL of def549 asks #1+#3 (operator order 2026-07-12: approval suffices) | [Y] cmp_prtoe_fixed.yaml |
 | z_on frozen | the converged zon value | zon convergence (the sentinel guards it) | [Y] |
 | n_s stated | 1 − 2/ln(M_Pl/T_on) — now derivation-backed (the 2 = the open dimensions) | zon (T_on) | [Y] |
 | ρ_inf stated | the occupancy value | zon + the triangle confirmed | [Y] |
