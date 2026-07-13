@@ -57,11 +57,12 @@ atomic structure" is one sentence and not six.
 1. **Any new rung-candidate physics** (a proposed structure at any scale) gets placed by two
    numbers: its ½α_eff² and its position vs ξ — the thread/kill verdicts follow the rung's
    regime (this systematizes the threading protocol's scale checks).
-2. **The hinge is a PREDICTION ZONE**: structures near 402 AU (Oort-inner, wide binaries,
-   detached TNOs) are where one-cell physics meets mosaic physics — if the medium's substrate
-   has ANY dynamical edge effects, they live there (un-priced; flagged as the ladder's one
-   speculative prong — wide-binary anomaly claims exist in the MOND literature and would be
-   the confront-data if ever pursued).
+2. **The hinge is a PREDICTION ZONE — now PRICED (entry 83)**: structures near 402 AU
+   (Oort-inner, wide binaries, detached TNOs) are where one-cell physics meets mosaic
+   physics. The edge effect exists and ramps smoothly across the hinge, but the census
+   (no fifth force, P-2026-014) caps it at gravitational polarization ≈ 10⁻¹⁸ relative —
+   **the model predicts NO observable wide-binary anomaly**, and a confirmed Gaia-class
+   one is a named kill. The hinge keeps its place; its teeth were an illusion.
 3. **The couplings column invites one question** the model may someday answer: why α_c (0.021)
    ~ 3α (0.0073) — the cosmic and atomic couplings within a factor 3 while gravity's rungs
    float free. Noted, not built upon.

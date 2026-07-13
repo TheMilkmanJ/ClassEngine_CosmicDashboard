@@ -129,7 +129,7 @@ wall — the audit confirms the catch discipline worked retroactively.
 
 | candidate | the step in the kill | the ramp re-run | weight |
 |---|---|---|---|
-| **The ξ-scale wide-binary force** (§2) | "coherence lengths don't push on *embedded* bodies" — embedded/not-embedded read as a binary | embedding is a continuum (the same gate-curve ε(C) logic that overdetermined the candle room): compute the coherence-overlap push on PARTIALLY embedded systems — wide binaries at low ambient density are exactly the intermediate regime | light; the one genuinely new re-run this audit produces |
+| **The ξ-scale wide-binary force** (§2) | "coherence lengths don't push on *embedded* bodies" — embedded/not-embedded read as a binary | **RE-RUN EXECUTED (entry 83): the ramp is real (smooth across the 402 AU hinge) but the census caps the amplitude at gravitational polarization, 4πGρ_dm ξ²/c_s² ≈ 10⁻¹⁸ — 17.3 orders under the claims. THE KILL STANDS, now mechanism-grade; corollary: the model predicts NO wide-binary anomaly (a confirmed one = a P-2026-014-class kill)** | closed 2026-07-13 |
 | The two-loop shooter v1 (§5) | "perturbative RGEs cannot reach" — but perturbativity fails *gradually*, not at a wall | already docketed as its own named redesign (perturbative-edge matching); the ramp re-run and the redesign are the same object | heavy (#29 class) |
 | The gate-0 deuterium heal (§2) | the heal variants were window/step-shaped couplings | the coupling form is already filed theory-open — but the kill is a 12σ DATA exclusion across four variants and carries a standing do-not-re-run order; the ramp question lives as theory-open, not as a re-run | closed by data + standing order |
 

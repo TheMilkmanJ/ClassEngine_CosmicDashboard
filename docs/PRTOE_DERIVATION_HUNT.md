@@ -2667,3 +2667,41 @@ sum is positive — whether the model's bootstrap demand (derived in the medium'
 conventions, entries 78/80) supplies the compensating sign is the NEW named open item:
 the end-to-end sign chain, re-derived with Eq. (21) as the anchor. Booked as process
 error 21; the founding-coupling prediction is now ξ = −3/2.
+
+## ENTRY 83 — THE RESPONSE-FUNCTION SESSION: ONE MEDIUM, TWO LEGAL CHANNELS — A PAIR, NOT A DEGENERACY
+
+Task #33 executed both routes ramped (scripts/response_function_session.py), per the
+author's order ("do both; make sure both answers don't come out exactly the same").
+
+**ROUTE A (the ε channel, mean-field limit) — LIVE AT THE a₀ CLASS.** The gate curve's
+spatial gradient acts on matter's leptonic mass fraction: a(L) = c²·f_lep·ε₀/L, a smooth
+ramp in the gradient scale. **a₀ = 1.2×10⁻¹⁰ m/s² is reached at L = 83 kpc (stellar
+composition)** — the halo-transition scale, exactly where the gate's C variable turns.
+Sign computed: ε rises outward → F = −∇(mc²) points INWARD at galaxy edges —
+RAR-friendly. THE DISCRIMINATOR THE MODEL ADDS: the force rides Z/A — **hydrogen gas
+feels ×1.98 the stellar anomaly** (f_lep gas 5.4×10⁻⁴ vs stars 2.7×10⁻⁴). MOND is
+composition-blind; this is not. Census-legal by construction (it IS the model's one
+coupling); MICROSCOPE evaded in the screened regime as always. OWED before any
+registration: the gate's spatial profile ε(C(r)) through a real halo — whether L lands
+at ~80 kpc is the whole game; conditional on reading B like the rest of the gate family.
+The lead files to the galactic-atoms/RAR lane.
+
+**ROUTE B (the gravity channel, two-body limit) — THE KILL STANDS, NOW WITH A
+MECHANISM-GRADE AUTOPSY.** The census cap (P-2026-014: no fifth force) leaves only
+gravitational polarization: A_rel = 4πGρ_dm ξ²/c_s² ≈ 1.0×10⁻¹⁸, ramping smoothly
+across the hinge (g = d²/(d²+ξ²), half-on at exactly 402 AU) and saturating above it.
+The wide-binary anomaly claims need ~2×10⁻¹ — **the shortfall is 17.3 orders, the
+unloaded-gun class, and the model's own P-2026-014 pre-registered this outcome.** The
+ladder's "un-priced speculative prong" (§3.2's hinge prediction zone) is now PRICED:
+the hinge is real, the ramp is smooth, the teeth are census-capped to nothing.
+COROLLARY, stated as the falsifiable stance it is: **this model predicts NO wide-binary
+dynamical anomaly.** A confirmed Gaia-class wide-binary anomaly at the claimed ~20%
+level is a P-2026-014-class kill.
+
+**THE DEGENERACY CHECK (the author's worry): NOT one number.** Ratio of characteristic
+accelerations A/B ≈ 8×10¹⁶; different channels (lepton vs gravity), different tags
+(composition-split vs composition-blind), different homes (galaxy edges vs the hinge).
+It IS a pair — one medium answering through its only two legal channels, which is the
+census's own constitution — but not a degenerate one. The author's lean ("matter is
+what actually connects to our superfluid") was the right pick: the live route is the
+matter-coupling one.
