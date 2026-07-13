@@ -2434,3 +2434,31 @@ room)** — landing it converts the identity from consistent-by-construction to
 forced-by-physics, and completes the frozen A_s's mechanization end to end. The A_s
 clearance pair (#26) closes its conceptual half tonight; the assembly computations
 (T_pour, the KZ epoch, the phonon bound) are the named remainder.
+
+## SEVENTY-SIXTH SWEEP — THE NIGHT'S CLOSURES: B3 COMPLETE, ς CONFIRMED, T_pour FRAMED
+
+**(1) THE PHONON BOUND CLOSES BY IDENTITY — B3 COMPLETE:** in a metal, phonons add a
+second attraction because the lattice is a SEPARATE system; in a one-component
+superfluid the "phonon" IS the density mode of the same medium whose screening the RPA
+already summed — the static screened interaction CONTAINS the density-channel exchange
+in full; an additive phonon term would double-count the same diagrams. **No additive
+channel exists; the k-integral audit is complete; k = 1.36461 stands with every
+convention derived, adjudicated, or closed.**
+
+**(2) ς = −1 CONFIRMED AT FEATURE-RESOLVED GRADE (scripts/sigma_final_sign_v3.py):**
+the named SN Ia absorption features (Ca II H&K through Si II 6150) compressed
+individually over a fixed continuum, Bessell-class filters, 18-config scan: dμ > 0 in
+100%, median +0.0146 (v2's +0.0149 — grade-stable). **The appeal is exhausted at every
+offline fidelity; the module stays armed-off permanently** (a literal-template pass with
+survey filter files remains possible someday; the verdict is not expected to move). The
+ladder-audit posture stands; the mass-step fingerprint claim stands at its class.
+
+**(3) T_pour FRAMED, ONE NUMBER OWED:** the closure attempt — the bounce as the
+stiffness-ceiling refusal (the zero–infinity asymmetry's mechanical face): the pour
+ignites when the crunch's compression meets the medium's quantum-pressure ceiling
+ρ_b = T_pour⁴. The identity requires T_pour = (α_c/4πk)^{3/4} M_red ≈ 1.6×10¹⁶ GeV —
+**the ceiling's scale is THE single remaining underived number of the entire A_s
+chain** (candidates: the vortex-core UV, the winding-tension scale — B1/B7's room).
+The chain now reads: winding thermodynamics (derived) → area law (derived) → NBV
+amplitude at T_pour (mechanism) → = the census form (bookkeeping) → frozen into the
+live run — with ONE number between the whole structure and end-to-end derivation.
