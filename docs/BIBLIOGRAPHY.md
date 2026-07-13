@@ -69,6 +69,8 @@ that is a bug — file it.*
 
 - **[NBV2006]** A. Nayeri, R. Brandenberger, C. Vafa, "Producing a scale-invariant spectrum of perturbations in a Hagedorn phase of string cosmology," PRL 97, 021302 (2006), arXiv:hep-th/0511140. / **[BrandenbergerVafa1989]** R. Brandenberger, C. Vafa, "Superstrings in the early universe," Nucl. Phys. B 316, 391 (1989). / **[SGCreview2011]** R. Brandenberger, "String gas cosmology: progress and problems," Class. Quantum Grav. 28, 204005 (2011), arXiv:1105.3247. — The thermal/maximal-temperature/area-specific-heat cousin of lock 2's lane (sweep 52): the operator's "maximal thermal allowance" = the Hagedorn concept; their winding-mode C_V ∝ R² = the exemption-clause drift, thermodynamic road.
 
+- **[KSS2005]** P. Kovtun, D. T. Son, A. O. Starinets, "Viscosity in strongly interacting quantum field theories from black hole physics," PRL 94, 111601 (2005), arXiv:hep-th/0405231. — The lower viscosity fence (eta/s >= hbar/4pi); the zero-infinity asymmetry's other end (sweep 54 add. 3).
+
 ## 5. Emergent gravity, entropy, and the keystone
 
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.

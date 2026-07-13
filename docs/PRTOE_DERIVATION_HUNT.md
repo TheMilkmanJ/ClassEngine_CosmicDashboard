@@ -1689,3 +1689,28 @@ EM charge (0, Meissner-forced), anomaly coefficient (0, mirror-proof), occupancy
 (exactly 1, the pinch), resistance (0 with the term retained — the persistent current,
 the family's memory). The exemption clause protects them all: exact numbers may hold;
 everything else ramps.
+
+### Sweep 54 addendum 3 — THE ZERO–INFINITY ASYMMETRY (the operator: "there is no such
+### thing as infinite viscosity. Ever.")
+
+Adopted as constitution, and physics enforces it twice: (i) relativity — infinite
+viscosity = perfect rigidity = instantaneous signals, causality-dead; (ii) quantum
+mechanics — zero-point motion + tunneling: nothing is perfectly frozen, everything
+creeps (panta rhei, signed into law). Bonus fence at the other end: the KSS bound
+[KSS2005] (η/s ≥ ħ/4π) — no perfect fluid either; the transport spectrum is fenced at
+both ends, with ONE loophole: the superfluid's zero resistance, legal ONLY because
+symmetry-protected (phase rigidity + quantized winding + the operator's limit-law's
+retained term). THE ASYMMETRY, constitutional form: **exact zeros are legal when
+protected; exact infinities are never legal** — the ledger holds accounts at exactly
+nothing (closed, guarded — the structural-zero family) but cannot book an entry at
+everything (an unpayable debt; no counterparty can hold the other side). Zeros have
+guardians; infinities have none.
+
+THE PAYOFF — THE BOUNCE ARGUMENT, grammar-native: the classical crunch attempts an
+infinite entry (the singularity: infinite density/stiffness); the asymmetry refuses it
+(capped stiffness, quantum pressure, no perfect freeze) and **the refused entry IS the
+snap.** The universe bounces because the singularity is an illegal ledger line —
+refused by the same law that protects the persistent current. The reason there is a
+next cycle is the reason the axis family survives this one. [GRAMMAR — the bounce's
+dynamical equations remain the genesis session's debt; this names the LAW they must
+implement, not the solution.]
