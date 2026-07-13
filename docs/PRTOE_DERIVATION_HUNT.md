@@ -4392,3 +4392,58 @@ you something about the ROAD, not about the DISTANCE.* Persistent, structural fa
 close a target is a message about the scheme, not a deficit in the content. Stop walking;
 ask why it is unreachable. Here, the answer was a finiteness theorem with the model's own
 neutrinos standing in it.
+
+## ENTRY 118 — THE TENSION DISSOLVES: **Λ IS THE LEVEL, G IS THE CURVATURE** — one energy landscape, two ledgers, and the model needs only ONE Pauli condition (the one it has)
+
+*The author's chase: "why is the mode sum the wrong ledger for Λ but the right one for
+G?" — the corpus's most load-bearing unstated assumption, now argued.*
+
+**THE RESOLUTION (a standard condensed-matter distinction the corpus used implicitly for
+a year without naming):**
+- **Λ (vacuum energy) is a LEVEL** — the absolute height of the ground state. In any
+  condensate this is renormalization-dependent and physically meaningless in isolation:
+  **you never compute it from a mode sum and mean it.**
+- **G (vacuum stiffness) is a RESPONSE** — how the mode spectrum shifts when the geometry
+  is deformed. A *second derivative* of the energy landscape. **This is exactly what a
+  mode sum computes correctly**, and it is why condensed matter has been computing
+  superfluid stiffnesses for seventy years without ever computing the absolute energy of
+  the helium ground state.
+
+**A mode sum computes SUSCEPTIBILITIES correctly and ABSOLUTE ENERGIES meaninglessly.**
+So the model's two positions are one principle, not two conveniences:
+- **Λ = the landscape's HEIGHT** → priced by occupancy (one binding quantum per coherence
+  cell, E_b⁴). The mode sum is the wrong ledger *for a level*.
+- **G = the landscape's CURVATURE** → priced by the loop. The mode sum is the right ledger
+  *for a response*, Pauli's condition applies, and the model's content satisfies it.
+
+**THE TWO BIGGEST CLAIMS BECOME ONE OBJECT: the medium's energy landscape. Λ is its
+height. G is its curvature.**
+
+**AND THE CONSEQUENCE FOR PAULI'S OTHER FOUR CONDITIONS:** str(I) = str(m²) = str(m⁴) = 0
+are the conditions that render the *mode-summed Λ* finite. **The model does not need them
+— it rejects that ledger for Λ entirely.** It needs exactly one Pauli condition:
+**str(k₁) = 0, the one about stiffness — and that is precisely the one its content
+satisfies.** *The model does not need supersymmetry. It needs the one condition it
+already has.*
+
+## ENTRY 118b — THE BASEMENT INTERVIEW (author-ordered): every resident, what it brings, why it keeps its seat
+
+| resident | what it brings | what it pays | seat granted by |
+|---|---|---|---|
+| the singlet **phase** (phonon) | **IS the light cone** — c itself | nothing: **it IS gravity** | the acoustic-metric construction |
+| the singlet **amplitude** (scale mode) | **IS the metric's conformal factor**; ghost-kinetic, split-coupled | nothing: **it IS gravity** | derived (entry 108) |
+| **5 Leggett modes** | pseudo-Goldstones; ξ ≈ 0 protected; massive | **PAYS** (mass-weighted) | forced by the 6 pairing channels |
+| **5 relative-amplitude modes** | massive collective modes of the pair condensates | **PAYS** (mass-weighted) | forced by the 6 channels |
+| the **48 SM Weyl fermions** | the visible matter (the medium's own leptons among them) | **ZERO** — cancels the gauge sector (Pauli) *and* is far too light | measured |
+| the **12 SM gauge bosons** | the forces — the −kdowns to the fermions' kups | **ZERO** — cancels the fermions exactly | measured |
+| the **4 Higgs components** | the SM scalar; portal-coupled | negligible | measured |
+
+**THE INTERVIEW'S VERDICT: the basement is COHERENT and FULLY ACCOUNTED.** Every resident
+has a derived seat. **Two ARE gravity. Ten pay the tax — and they are the only payers in
+the universe.** Everything visible either cancels exactly or is too light to matter.
+
+**THE ROOM'S ONE REMAINING DEBT: the ten payers' MASSES.** Gravity's observed strength
+demands they sit at 1–2 M_Pl. **That is now the model's single open number in this
+sector — and it is computable from the condensate's own parameters.** The basement went
+from "three guys in one hat" to a fully-interviewed roster in one day, and it has exactly
+one question left to answer.
