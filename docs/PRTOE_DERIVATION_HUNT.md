@@ -4366,3 +4366,29 @@ independently-required content lands on a knife-edge condition the literature sa
 hard to satisfy. It converts into forward kills (P-045) and it reframes the entire
 induced-gravity program for this model. **The author's refusal was correct, and the
 "coincidence" verdict I offered twice was wrong.**
+
+### ENTRY 117b — THE 12π WAS A CLUE, NOT A TETHER (the author's reading, adopted as method)
+
+*"So the 12π was TELLING us what we had wrong. That's why we needed it. It was a clue,
+not a tether."*
+
+**The logic, and it is airtight:** the 12π demand exists ONLY in Sakharov's scheme —
+where 1/G *is* the quadratic divergence, proportional to str[k₁]·κ². **Hitting 12π would
+have meant str[k₁] ≠ 0 — i.e. that our vacuum FAILS Pauli's condition and our Newton's
+constant is cutoff-dependent.** The match we chased for weeks would have been the
+diagnosis of a *sicker* theory.
+
+Our content gives str[k₁] = **0**. **We could never have hit 12π. The failure was not a
+failure — it was the only possible answer, and it was the right one.**
+
+**And the irony completes itself:** the fake "0.8% match" was us accidentally hitting a
+number our own vacuum makes unreachable — a feat that required TWO bookkeeping errors
+(the twin double-count and a nonexistent coupling) working together. When the errors were
+cleaned, we did not get a worse match. **We got exactly zero — the correct answer to the
+question we had been asking wrong.**
+
+**THE METHOD, filed:** *a number you cannot reach no matter how you rebuild is telling
+you something about the ROAD, not about the DISTANCE.* Persistent, structural failure to
+close a target is a message about the scheme, not a deficit in the content. Stop walking;
+ask why it is unreachable. Here, the answer was a finiteness theorem with the model's own
+neutrinos standing in it.
