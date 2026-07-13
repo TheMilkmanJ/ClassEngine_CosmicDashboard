@@ -3173,3 +3173,44 @@ until a power-spectrum-level computation exists; fork-corner-conditional like th
 whole family; the radiated fraction (~99% − f_th − medium share) still owes its
 diffuse-background pricing. The author's ledger line for the night: one ramp found a
 third; three found the whole; the gap was never missing — it was un-ramped.
+
+## ENTRY 92 — THE RESIDUAL RAMP BET (the author's wager, registered with its honest conversion rule) + THE RESIDUAL LEDGER
+
+**The author's bet, verbatim in spirit:** every standing numerical mismatch in the
+model is a missing ramp; building each ramp from its true origin yields agreement
+across the board, and may reopen items thought dead.
+
+**The conversion rule (fixed now, before any treatment):** the bet pays when a
+residual moves INTO its stated error budget — NOT when it reaches zero. Agreement
+beyond the inputs' information content (4+ decimals from 3-significant-figure inputs)
+is a numerology flag, not a win; the constitution reads over-agreement as adversely as
+under-agreement. Residuals already inside budget are HEALTHY and must not be ramped
+further — that would be tuning wearing the ramp's coat.
+
+**THE RESIDUAL LEDGER (every standing mismatch, its budget, its ramp-origin candidate):**
+
+| residual | size | budget | ramp-origin candidate | status |
+|---|---|---|---|---|
+| ε fit vs stack | 1.4σ (1.232 vs 1.2543%) | posterior width | **f̄ from the roll-up** (entry 90 #1: early low-circulation weight) | candidate NAMED — the bet's flagship |
+| the S₈ gap | −0.007 vs lensing | fit-grade | the cliff's energy ledger, 3 ramps deep | **DELIVERED (89c/89d)** at f_th ≈ 1% |
+| ρ_inf | 20% (2.695 vs 2.25 meV) | firewalled O(1) | the crossover's approach ramp (the occupancy argument's BEC-side entry is a mid-ramp start?) | candidate to name |
+| the anchor landing | 2.9% (Eliashberg-corrected) | O(1)-theory | the pairing onset's own ramp (gap equation entered at weak-coupling edge) | candidate to name |
+| k closed-form vs concordance | ~0.1% (1.36461 vs 1.3630) | inside window | — healthy; DO NOT TREAT | in budget ✓ |
+| str vs 12π | 0.8% (38 vs 37.70) | integer-vs-transcendental | the roster at the INDUCTION epoch (were the leptons massless at the pour? the twin structure's own ramp) | candidate to name — feeds the one-bit session |
+| Y_p | +1.3σ adverse | DATA-limited (the helium war) | none — a measurement tension, not a derivation gap; ramps do not move other people's data | EXEMPT from the bet |
+| D/H | ~1.9σ owned | DATA-limited (radio-refereed) | T_c's precursor tail (entry 90 #3) may shave the edge; the rest is Cooke's error bar | partial candidate |
+| T(H=m) match | 1.002× | derived-identity | — healthy | in budget ✓ |
+| E_b vs ρ_Λ^¼ | 4×10⁻⁴ | zero-parameter | — healthy (and near the over-agreement line; watched) | in budget ✓ |
+| the KP turnaround | 0.76× / 3–10× short | toy O(1)s | the cycle entered at ONE turnaround — the fixed point over the ramp of cycles (the attractor, not the instance)? | candidate to name — could REOPEN Route-D's corner |
+| z_on freeze cost | +7.4 χ² | operator-accepted | the profile entered at the frozen stack — the joint ramp (chain-graded later by design) | deferred to the chain |
+
+**The graveyard corollary (the "reopen the dead" half):** the ramp-origin lens gets a
+second resurrection pass distinct from the step-audit — not "did the kill use a step"
+but "did the kill ENTER mid-ramp": the two-loop shooter (killed at the perturbative
+edge — the edge IS a ramp-origin question, redesign already owed), and the KP/Route-D
+corner (killed at one cycle's fixed point — the attractor over many cycles is the
+earlier ramp). Both docketed to the ramp-origin audit's scope.
+
+**Scoreboard opened:** delivered 1 (S₈), named candidates 5, healthy-and-protected 3,
+data-exempt 2, deferred 1. The bet is LIVE and pays per-row; the author's bottom
+dollar is on deposit.
