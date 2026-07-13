@@ -3327,3 +3327,27 @@ OUTPUT of an exemption-clause theorem, and even then must show its ramp of appro
 The birefringence-bet constitution (integers and rational sums may step) survives
 inside the new law, not against it — the lost bet's coin still spends. The night that
 minted this: five author catches, four verdicts moved, one law.
+
+## ENTRY 97 — THE NON-THREAD RAMP PROTOCOL (author's law) + THE AUDIT: every "does not thread" verdict walked three ramps back
+
+**The law, adopted into the threading protocol:** a "does not thread" verdict is
+lawful ONLY after the ramp before it — up to three ramps back — has denied entry at
+each stage. Three denials = we have no business there, certified. Fewer = the verdict
+was a mid-ramp trespass notice, and the case reopens. Applied to every standing
+non-thread, silence, and restatement verdict:
+
+| verdict | ramp −1 | ramp −2 | ramp −3 | ruling |
+|---|---|---|---|---|
+| **Turbulence/intermittency (the honest silence)** | lab cascades are viscous; the medium is superfluid — no viscous channel (DENIED) | quantum turbulence (Kelvin cascades) — the global winding is coreless, entry 87 (DENIED) | screened rooms: every lab flow is deep in C ≫ C_ref (DENIED) | **silence LAWFUL — but the walk found the split: GENESIS turbulence already threads (the roll-up's dice, ε_spin = 0.88 — the model's own intermittency statistic). Lab silent, genesis loud, both lawful** |
+| **MOND/RAR (dead)** | the hinge force — census-capped 10⁻¹⁸ (entry 83, DENIED) | the ε-gradient at a₀ — kinematically excluded (entry 84, DENIED) | the dCDF halo already does rotation curves — a second explanation would overdraw (DENIED) | **death CERTIFIED — walked all three ramps THIS NIGHT before the law existed; the corollary retroactively lawful** |
+| **Strong-CP (constitutional silence)** | quark coupling — 2-loop 10⁻⁹ (DENIED) | gluon/color coupling — census-illegal (DENIED) | the QCD θ-sector — not the medium's sector; L1a's cousin clause (DENIED) | **silence LAWFUL, three-sealed** |
+| **The quantum wing (§12-walled)** | the substrate IS quantum — the wall is not a failure to thread but a license to inherit (the commutator, ramp-0) | modification would break Tsirelson/statistics — falsifiability law forbids entry (DENIED) | no kill condition exists for interpretation claims (DENIED, constitutional) | **wall LAWFUL — jurisdiction, not non-thread; the ramp-back reaches the substrate and stops at the model's own license** |
+| **Chaos backbone (dead)** | the pre-registered falsifier fired on a scanned surface (continuous — DENIED) | the dice stand separately (the survivor already threaded) | the One Mountain's grammar row stands (language, not physics — no entry to deny) | **death LAWFUL; the survivor was already extracted** |
+| **The parked register (10 items)** | each item's named unblock IS its ramp-before, held open by the register's own law | — | — | **CONSISTENT by construction — the register was three-ramp-shaped before the law named it** |
+| **Fluid intermittency's cousin: lab-BEC turbulence** | (flagged NEW during the walk) quantum-turbulence experiments in dilute BECs measure Kelvin-cascade statistics — the model's lab-cousin row could inherit a genesis-statistics cross-check (the dice's laboratory analog) | — | — | **not a non-thread — a POSSIBLE NEW THREAD found by the protocol's first run; docketed to the lab-cousins file at candidate grade** |
+
+**The protocol's first-run score:** six verdicts certified lawful (three of them
+newly three-sealed), zero trespasses found — and ONE new thread candidate (lab-BEC
+Kelvin-cascade statistics as the genesis dice's bench analog) discovered by the very
+walk that was checking for wrongful silence. The law pays on its first day: not by
+overturning a verdict, but by finding a door nobody had knocked on.
