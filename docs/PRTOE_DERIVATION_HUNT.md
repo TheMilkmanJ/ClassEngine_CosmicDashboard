@@ -3316,3 +3316,14 @@ walked):** (i) the gate value along accretion paths (stream vs diffuse — grip 
 mode-split needs it); (ii) the condensation-to-ring gap (B1); (iii) the nonlinear
 efficiency factor's proper calibration (N-body-class, heavy queue). The corollary's
 recursion is live: every walked ramp exposed the mouth of the next one down.
+
+## THE DEPTH LAW GOES TOTAL (constitutional amendment 5, author-minted 2026-07-13)
+
+*"This model is a genuine ramp from start to finish. No epoch instantly transfers
+itself to the next; they all blend together. From here on out, we should ONLY trust
+the ramp."* — filed in the laws ledger as amendment 5. Steps are now illegal as
+inputs, assumptions, entries, and methods at every depth; a step survives only as the
+OUTPUT of an exemption-clause theorem, and even then must show its ramp of approach.
+The birefringence-bet constitution (integers and rational sums may step) survives
+inside the new law, not against it — the lost bet's coin still spends. The night that
+minted this: five author catches, four verdicts moved, one law.
