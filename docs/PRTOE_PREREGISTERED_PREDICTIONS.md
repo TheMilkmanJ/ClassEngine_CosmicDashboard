@@ -2046,3 +2046,22 @@ entry's underlying equation and kill condition audited for step-based formulatio
 
 **Registry consequence:** none of the frozen bets moves; P-2026-007's modern reading (the
 graded trend) is noted here rather than by edit, per the append-only law.
+
+---
+
+## ANN-2026-023: P-2026-029's tooth count acquires a SECOND duty — gravity's sign (2026-07-13)
+
+**Recorded:** 2026-07-13, following the sign-chain session (hunt entry 86). The
+induced-G closure, anchored to the literature's signed form, fails on the matter-only
+roster and closes only through the winding's vortex (Kelvin-class) vector modes — one
+branch per winding quantum. At the founding coupling's corrected value (ξ = −3/2), the
+massless-vector weight closes the signed demand at **n = 19** (str = −38 vs −12π, 0.8%);
+the massive-spin-1 weight at n = 25. Both sit inside P-2026-029's expected band.
+
+**The annotation (no frozen content changes):** the comb's measured tooth count now
+referees TWO independent claims — the winding integer itself (as registered) AND the
+G-closure's sign mechanism. A comb reading outside ~19–25 kills the vector-sector
+closure while leaving the original P-029 registration to its own registered kill
+conditions. Status: coincidence-watch until the Kelvin-mode weight is derived (the
+named session); the two duties share one integer only if the Kelvin count equals the
+winding count — itself an assumption the weight session must adjudicate.
