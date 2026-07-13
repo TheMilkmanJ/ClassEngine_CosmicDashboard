@@ -3,3 +3,5 @@
 2. The branching O(1): thaw = √3·B, B ∈ [0,1] (docketed) — derive or bound B tighter.
 3. Propagate the 20% floor into the timing's error band (how sharp is "why now" quantitatively?).
 4. The cycle-level re-pose (why THIS cycle) — tighten the early-cycle bookkeeping's lean.
+
+Coupling-geometry status (entry 88): background-level (no gate exposure).

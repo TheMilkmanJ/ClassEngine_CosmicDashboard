@@ -3,3 +3,5 @@
 2. The conv_g DOUBLE-DUTY consistency (shared with T4): one lever serving Σm_ν and S₈ — show both jobs are compatible in ONE fit.
 3. v_L derivation (Card 6, the meV-keV-L tie) — the corner's scope depends on it.
 4. Track KATRIN/oscillation windows vs the preferred band.
+
+Coupling-geometry status (entry 88): medium-sector (the tenth channel) — untouched by the gate geometry.

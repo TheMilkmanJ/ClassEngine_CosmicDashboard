@@ -3,3 +3,5 @@
 2. A MATCHED LENSING-LIKELIHOOD fit (DES/KiDS proper, not the S₈ point) before any tension-easing claim banks.
 3. The conversion's perturbation-sector flag (docketed; deferred for the running chains).
 4. The DESI-policed w(z) consistency (the meaning-inversion: large conv_g spends against w=−1).
+
+Coupling-geometry status (entry 88): medium-sector + ONE new lever: the wall-feedback channel (entries 89–89d) — the shed inherits a fork-conditional counter-lean and a downward feedback closing the lensing gap at f_th ≈ 1%.

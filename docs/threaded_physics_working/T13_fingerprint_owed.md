@@ -15,3 +15,5 @@ Rows must cite THIS table, not "the" ε. Item 2 (the masters' calendar) still op
 
 ## PAID item 2 (2026-07-12): the masters' calendar — docs/PRTOE_REFEREE_CALENDAR.md.
 T13 is COMPLETE (both items paid: the ε-epoch table + the calendar).
+
+Coupling-geometry status (entry 88): the registered-referee set IS the unscreened class (entry 88's consistency finding).

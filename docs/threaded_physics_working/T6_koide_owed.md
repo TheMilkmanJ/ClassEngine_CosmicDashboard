@@ -7,3 +7,5 @@
 (τ-dominated; 0.9σ from exactly 2/3). THE FENCE: any non-multiplicative dyad distortion
 must sit below ~7×10⁻⁶ — the dyad's multiplicative universality passes by construction;
 improvement path: τ-mass (Belle II class). Item 1 (the 2/3 derivation) stays open.
+
+Coupling-geometry status (entry 88): screened-room (laboratory masses) — verdicts hold by geometry.

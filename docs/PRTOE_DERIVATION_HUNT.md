@@ -3255,3 +3255,29 @@ rather than closing it. Combined standing: the fork corner survives only as
 LARGER (g(1) → 0.94), sharpening DESI's shot. The fences are herding the corner into
 DESI's line of fire. Owed: the actual per-system WHIM redshift precisions from the
 literature (the session's one un-verified input, flagged).
+
+## ENTRY 95 — THE FULL-RAMP RERUNS (the author's bet, sixth confirmation tonight): f̄'s median closure jumps to 92%; the WHIM's verdict becomes a contour
+
+The author's catch: entries 93–94 were not fully ramped — f̄ stepped its roll-up
+profile through a power-law menu (process error 24's sin, repeated same-night), the
+WHIM sampled its density at two points. Rerun with the missing ramps added:
+
+**f̄ v2 (saturating profile Γ = 1−e^{−t/τ}, continuous t_form/p/freeze-window, 20k
+draws):** the gap-closed distribution reads **46% / 92% / 156% (16/50/84th
+percentiles) — the MEDIAN of the fully-ramped band closes the most-loaded joint
+almost exactly**, and 62% of the band lands in the into-budget window (50–150%).
+v1's menu had hidden the central tendency; the ramp reveals the joint's resolution
+as the TYPICAL outcome, not a corner. The ensemble referee decides; its corrected
+spec stands. Still-flagged residue: the pre-roll-up origin (the heat fountain's rise
+before the ring exists) and the freeze-exit shape of f(t) — the ramps before and
+after this one.
+
+**WHIM v2 (lognormal Δ-distribution flux-weighted, continuous (C_ref, s), precision
+as a band):** the visibility boundary is a CONTOUR — s* ≈ 2.2–2.5 at C_ref = 2
+(flux-weighted offsets: 237 km/s at s = 1.5 → 16 km/s at s = 4); **~22% of the fork's
+band is archival-testable now; the remainder flows to the forest**, whose offset
+grows as s steepens — the herding of entry 94 confirmed at contour grade.
+
+T-file propagation completed same pass: all sixteen threaded files now carry their
+entry-88 coupling-geometry stamps (the audit's classifications were in the log but
+not in the files — the author's catch).
