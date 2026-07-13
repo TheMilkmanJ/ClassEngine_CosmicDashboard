@@ -2705,3 +2705,48 @@ It IS a pair — one medium answering through its only two legal channels, which
 census's own constitution — but not a degenerate one. The author's lean ("matter is
 what actually connects to our superfluid") was the right pick: the live route is the
 matter-coupling one.
+
+## ENTRY 84 — THE LEAD INVERTS: THE GATE CANNOT SWING INSIDE GALAXIES — THE COMPOSITION-CLIFF INVARIANT BECOMES THE FOURTH FENCE
+
+Entry 83's route-A follow-up (scripts/gate_halo_profile.py): the gate g(C(r)) mapped
+through a real MW-class halo (NFW + background floor; C proxied by total overdensity —
+flagged), (C_ref, s) scanned as bands, everything continuous.
+
+**The three findings, in escalating order:**
+
+1. **The a₀ landing is structural, not tuned.** Across the entire scanned band
+   (C_ref ∈ [3, 1000], s ∈ [2, 8]) the peak residual acceleration lands at 0.1–3.8 × a₀.
+   Mechanism: the invariant ∫a·dr = c²·f_lep·ε₀ (fixed by two derived numbers) spread
+   over halo-outskirt scales necessarily lands at the a₀ class. The coincidence explains
+   itself — and then kills itself (finding 3).
+
+2. **The ring lives at 115–1025 kpc** (r_gate over the C_ref band) — outside classic
+   rotation curves, inside satellite/stream/Local-Group territory.
+
+3. **THE INVERSION.** The full swing's potential step is invariant:
+   ΔΦ = c²·f_lep·ε₀ = (553 km/s)² for stars, ×1.98 for gas — an ORDER larger than real
+   halo potentials (~(200 km/s)²). A gate swinging anywhere inside bound-orbit scales
+   would double escape velocities and grossly distort satellite/Local-Group kinematics
+   that are measured normal. **Environmental gate swings at galactic boundaries are
+   kinematically over-strong — excluded by an integral invariant** (exemption-class:
+   an integral, not a step). The RAR/rotation-curve lead DIES before reaching the
+   galactic-atoms lane; the halo alone must do galaxy dynamics, which it already does.
+
+**What survives — THE FOURTH FENCE:** the gate's swing must park beyond bound-orbit
+scales: C_ref ≲ few, the transition at void/supercluster boundaries (≳ Mpc). All four
+fences now say ONE thing — the gate swings between cosmic-web environments, not around
+individual galaxies: (i) the forest's flatness, (ii) the host-density range, (iii)
+P-022's fade profile, (iv) **the composition-cliff invariant (new)**. The
+composition-split observable relocates to void walls — gas-vs-galaxy kinematics at
+void boundaries and composition-structured bulk flows, P-028's neighborhood.
+
+**Owed cross-check (flagged, not run):** the candle room's mass-step candidacy — does
+the host-density trend survive the fourth fence? Lean: yes (low-mass SN hosts
+preferentially sample void-adjacent environments, and the spectral channel needs only
+static ε differences, not orbit-crossing energetics) — but it gets its own pass before
+that lean is quoted.
+
+*The night's arc in one line: the wide-binary gun was unloaded by the census, the
+galaxy-scale gun was TOO loaded to have escaped notice — and both verdicts tighten the
+same curve. The gate is a creature of the cosmic web, and every instrument that can
+see it now lives in the same three skies.*

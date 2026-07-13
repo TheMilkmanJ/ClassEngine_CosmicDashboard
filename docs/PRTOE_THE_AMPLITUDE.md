@@ -45,9 +45,11 @@ separate parameters.*
 ε(C) = ε₀·g(C/C_ref): fully on in the early universe (above the condensation at
 T_c ≈ 193 keV, per the BBN window), fading over z ≈ 30–60 by one of two registered
 readings — A (thermal, global) or B (environmental, tracking local clumping). Under B
-the gate is a smooth, steep curve in local density, fenced three independent ways (the
-forest's observed flatness, the SN host-density range, P-2026-022's fade profile) — one
-curve, three skies. A-versus-B is registered (the 21-cm edge shape decides) and
+the gate is a smooth, steep curve in local density, fenced four independent ways (the
+forest's observed flatness, the SN host-density range, P-2026-022's fade profile, and
+the composition-cliff invariant of record 84 — the swing's fixed potential step
+ΔΦ = c²f_lep·ε₀ = (553 km/s)² exceeds real halo potentials, so the gate must swing at
+void/supercluster boundaries, not around individual galaxies) — one curve, three skies. A-versus-B is registered (the 21-cm edge shape decides) and
 controls both the dark-ages signal and the supernova channel. The laboratory, Oklo, and
 molecular-absorber nulls survive under B structurally, not by tuning: every such
 instrument lives in a screened environment (the absorber audit, record 66 — molecules

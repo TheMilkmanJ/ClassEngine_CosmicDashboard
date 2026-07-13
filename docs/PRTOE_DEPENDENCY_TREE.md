@@ -52,7 +52,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — fenced 3 ways | the 21cm edge reads SHARP (A) |
+| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — fenced 4 ways (entry 84: the composition-cliff invariant parks the swing at void boundaries, C_ref ≲ few) | the 21cm edge reads SHARP (A); bound-orbit kinematics if the swing sits inside halos |
 | the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED (entries 69/76, grade-stable)**: the H₀-lever branch DEAD; survives as the mass-step's candidate explanation | the forest kill; the quasar audit; the host-density-trend discriminant failing |
 | the H₀ ceiling | the candle + the leakage + τ | **SUPERSEDED by ς = −1: the bracket collapsed to 70.9–71.3; the ladder-audit posture (P-001/TRGB) replaces the reach claim** | — |
 | the forest offset (ε × gate at Δ~1) | the gate curve | [C] — live at DR16's edge; DESI executes | a clean DESI forest cross-calibration |
