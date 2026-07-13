@@ -117,10 +117,17 @@ it is the receipt of the initial condition.** The universe realized the white ha
 exactly once — as its own opening — and the time-symmetric equations have carried the
 record ever since. Nobody could find a white hole IN the universe because the white hole
 WAS the universe, for one instant. "The universe was telling Einstein how it started."
+(Historical precision, owed: Einstein never saw the white half — the maximal extension
+containing the white-hole region was found by Synge [1950] and Kruskal & Szekeres
+[1960], five years after his death. The quote reads "Einstein" as GR-the-theory: the
+time-symmetric equations carried the record; the man himself never opened it.)
 
 Record credit (per the house rule): "the Big Bang is structurally white-hole-like"
 (everything exits the past singularity, nothing enters) is a known observation in the
-relativity literature, and universe-from-white-hole proposals are decades old. What is
+relativity literature, and universe-from-white-hole proposals are decades old —
+including peer-reviewed black-to-white-transition work [Haggard–Rovelli 2015], which
+this model cites for pedigree while REFUSING for local objects: the arrow ban forbids
+every local white-hole realization; only the global, no-exterior instant survives. What is
 native here is the MECHANISM that makes it the only realization: the arrow as a field
 value (not a statistic), the counterparty rule, the no-exterior Eardley evasion, once per
 cycle. \[GRAMMAR — one reading of known solutions; no new solution claimed.]

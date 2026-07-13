@@ -60,6 +60,8 @@ that is a bug — file it.*
 - **[Kapitza1938]** P. Kapitza, Nature 141, 74 (1938). / **[AllenMisener1938]** J. F. Allen, A. D. Misener, Nature 141, 75 (1938). — Superfluidity's discovery.
 - **[ColemanGlashow1999]** S. Coleman, S. L. Glashow, "High-energy tests of Lorentz invariance," PRD 59, 116008 (1999), arXiv:hep-ph/9812418. — Vacuum-Cherenkov / UHECR bounds; the inertia file's dispersion exam.
 - **[Turyshev2012]** S. G. Turyshev et al., "Support for the thermal origin of the Pioneer anomaly," PRL 108, 241101 (2012), arXiv:1204.2507. — The vacuum-drag null's case study.
+- **[Synge1950]** J. L. Synge, Proc. R. Irish Acad. A 53, 83 (1950). / **[Kruskal1960]** M. D. Kruskal, Phys. Rev. 119, 1743 (1960). / **[Szekeres1960]** G. Szekeres, Publ. Math. Debrecen 7, 285 (1960). — The maximal Schwarzschild extension; the white-hole region's actual discoverers (post-Einstein — the white-holes file's historical note).
+- **[HaggardRovelli2015]** H. M. Haggard, C. Rovelli, "Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling," PRD 92, 104020 (2015), arXiv:1407.0989. — The literature's white-hole revival; cited for pedigree, refused for local objects (the arrow ban).
 - **[Unruh1981]** W. G. Unruh, "Experimental black-hole evaporation?," PRL 46, 1351 (1981). — Acoustic horizons; the analog frame.
 - **[BLV2005]** C. Barceló, S. Liberati, M. Visser, "Analogue gravity," Living Rev. Rel. 8, 12 (2005), arXiv:gr-qc/0505065. — The emergent-metric toolbox and its known limits (the t366 "linearized-plus" flag).
 - **[Volovik2003]** G. E. Volovik, *The Universe in a Helium Droplet*, Oxford (2003). — The deepest prior art for medium-cosmology; the model's closest intellectual neighbor.
