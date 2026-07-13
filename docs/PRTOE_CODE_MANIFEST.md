@@ -52,3 +52,25 @@ Every [C]-expressible beneficial item is ALREADY COMPILED into the live .so the 
 is sampling — the inclusion law is satisfied for the C code as of tonight; the deltas
 are all [Y]-layer freezes on named triggers. Any future sweep that produces a
 pipeline-expressible result MUST add its row here in the same commit.
+
+## 6. THE BUILD QUEUE — everything still needing code, genesis → now (operator order)
+
+*CLASS is complete for its jurisdiction (isotropic background + linear physics — every
+beneficial item compiled and running). The remainder are standalone solvers/analysis
+tools, ordered by the chain:*
+
+| # | build | what it computes | feeds | size |
+|---|---|---|---|---|
+| B1 | **THE GENESIS SOLVER** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core, velocity field, the intake curve | ε + the mass share (one curve, two moments), the discharge band (L/D 4.3–5.3), n's aspect ratio, the flow's coherent fraction, the H0 remainder | PROJECT — the queue's crown |
+| B2 | **the winding-gas C_V** (lock 2's method, string-gas import) | the medium's specific-heat scaling near T_c: does C_V ∝ R² emerge from the compact-axis windings? | the census drift (the tilt, thermodynamic road) + the lock-count C → THE A_s CLEARANCE | one careful session |
+| B3 | **the k_int O(1) audit** (referee 1's residue) | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | one session |
+| B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (REHEARSAL, not the referee) | light — one evening |
+| B5 | **the μ-injection calculator** | μ(z_inject, efficiency) with the visibility ramp | the draw-branch discriminator (ξ vs 1/m) | small script |
+| B6 | **THE BipoSH JOINT PIPELINE** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee ("analysis-limited, data exists") | PROJECT — post-PolyChord |
+| B7 | the cycle-map turn module | the DE-era → contraction transition dynamics | the chain's 10→11 tether, the cycle-counter's sizing | PROJECT — shares B1's room |
+
+*Execution order when the arbiter frees the box: B4 + B5 (light, immediate) → B2 + B3
+(the clearance pair — A_s hangs on them) → B1 (the crown: five pre-registered ambushes
+wait on its outputs) → B6 (the axis referee) → B7. Nothing on the banned list appears
+above; nothing beneficial is missing — any sweep that mints a new computable adds its
+row here in the same commit.*
