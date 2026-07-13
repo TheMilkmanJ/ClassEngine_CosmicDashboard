@@ -37,7 +37,7 @@ $$ F(\phi) = 1 + \xi_{\rm eff}(\phi)\, A(\phi), \qquad
 - **[DERIVE]** `L_Q` (the DHOST interaction sector: α², β², δ operators with 1/(1+φ²)
   screening) is stated in `prtoe_dhost_framework.tex` but its perturbation-level
   contributions are only partially implemented (the β k² term in §4). Either derive
-  each operator's contribution or declare the truncation explicitly.
+  each author's contribution or declare the truncation explicitly.
 
 ## 2. Background equations
 
@@ -94,7 +94,7 @@ Cassini (2.3×10⁻⁵) by ~10× and sits **one order of magnitude below current
 a falsifiable near-term prediction of the model at this coupling.
 
 - **Thin-shell factor: computed 2026-07-03 — NO-GO for the current action.**
-  A thin shell needs m_eff(ρ_body)·R_body ≫ 1. With V = V0e^{−λφ} + ½m²φ² (m ~ H0)
+  A thin shell needs m_eff(ρ_body)·R_body ≫ 1. With V = V0e^{−λφ} + ½m²φ² (m ~ H₀)
   the field's Compton wavelength is cosmological at ALL densities:
   m_eff·R_sun ≈ 5×10⁻¹⁹ independent of ξ (tested ξ = 5×10⁻⁶ … 1). No shell forms;
   the Cassini boundary ξ ≲ 2×10⁻⁵ is final for this potential.
@@ -167,7 +167,7 @@ $$ \delta\phi'' + \Big(2\mathcal{H} + \tfrac{F_\phi}{F}\phi'\Big)\delta\phi'
   analogue with an unexplained factor 5 — both flagged as needing derivation from the
   perturbed □φ = ... equation. **The factor `5.0 * eta_sync` in particular has no
   visible derivation.**
-- **[DERIVE]** β_{k²} = −β_s φ R k²_phys/M_ew²: from which L_Q operator? Sign and
+- **[DERIVE]** β_{k²} = −β_s φ R k²_phys/M_ew²: from which L_Q author? Sign and
   screening 1/(1+φ²) need a source.
 
 Einstein-sector coupling (`perturbations_einstein`): all metric constraints are

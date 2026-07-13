@@ -3,8 +3,8 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Derivation-from-banked-structure. Every load-bearing input cites a graded ledger object; owed
-items are flagged. Status: STRUCTURAL (candidate) — booked def411, awaiting red-team grade.
+*Derivation-from-recorded-structure. Every load-bearing input cites a graded ledger object; owed
+items are flagged. Status: STRUCTURAL (candidate) — booked internal record 411, awaiting internal review grade.
 The exterior is unchanged (horizons, shadows, P-2026-005 intact); this document is about what
 replaces the singular interior, with the actual numbers.*
 
@@ -23,13 +23,13 @@ Sakharov-induced action; the Jacobson thermodynamic kit — the assembled QG fra
 a "legitimate emergent/analog-gravity model"). An emergent metric is only defined where the
 collective description holds — for gradients longer than the **healing length**
 
-    ξ = ħ/(m c_s),   with m = 2.24×10⁻²⁰ eV (banked) and c_s = √α_c = 0.146 (derived, def337)
+    ξ = ħ/(m c_s),   with m = 2.24×10⁻²⁰ eV (recorded) and c_s = √α_c = 0.146 (derived, internal record 337)
 
     **ξ = 6.0×10¹³ m = 402 AU = 0.0064 ly.**
 
 A "singularity" is a statement about the metric at arbitrarily small scales. Below ξ **there is
 no metric to be singular** — only the quantum medium. This is the same no-double-counting move
-that resolved the vacuum catastrophe (def337/t334) and the graviton's non-renormalizability
+that resolved the vacuum catastrophe (internal record 337/t334) and the graviton's non-renormalizability
 (t366): the degree of freedom dissolves at the cutoff; questions about it beneath the cutoff
 are category errors.
 
@@ -50,7 +50,7 @@ objects the question "what is the spacetime geometry inside?" has no referent �
 is **one quantum object wearing a classical horizon**. (The horizon itself is safe: it lives at
 r_s, in the emergent-metric regime, as the sonic horizon — §4.)
 
-*Noted, not banked:* the crossover sits at ~2×10¹⁰ M☉ — the empirical top of the observed SMBH
+*Noted, not recorded:* the crossover sits at ~2×10¹⁰ M☉ — the empirical top of the observed SMBH
 mass function (TON 618-class objects just exceed it). Whether the model's interior-character
 change at that mass relates to the observed cutoff is flagged as a possible prong, with the
 honest caveat that astrophysical explanations for the cutoff exist. ξ inside the dense core is
@@ -77,7 +77,7 @@ In acoustic gravity the event horizon **is** the sonic horizon: the surface wher
 exceeds c_s. Inside it, the flow is super-critical — **the Landau criterion (cert-1/F3, the
 founding certificate) is violated** — so the superfluid description fails *dissipatively*: the
 infalling medium transitions to the **normal phase** and thermalizes. This is the same physics
-as the crunch's mouth (def331, banked): super-threshold flow gets massed, caught, and
+as the crunch's mouth (internal record 331, recorded): super-threshold flow gets massed, caught, and
 thermalized. The interior is therefore:
 
     a normal-phase, thermal, finite-density core (the Landau-broken region),
@@ -119,19 +119,19 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 
 ## 7. Observational posture (honest)
 
-- **Null-prediction stance** (the operator's epistemology): exteriors indistinguishable from GR
+- **Null-prediction stance** (the author's epistemology): exteriors indistinguishable from GR
   at current precision — shadows, ringdowns, superradiance margins all inherited.
-- **Distinctive prongs, flagged not banked:** (i) the M ~ 2×10¹⁰ M☉ interior-character
+- **Distinctive prongs, flagged not recorded:** (i) the M ~ 2×10¹⁰ M☉ interior-character
   crossover vs the SMBH mass-function top (§2); (ii) horizon-scale microstructure at the core
   boundary could imprint late-time ringdown echoes — generic to horizon-scale-structure models,
   amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
-  thermodynamics to the medium's Landauer ledger (banked bookkeeping, def-atom-night).
+  thermodynamics to the medium's Landauer ledger (recorded bookkeeping, def-atom-night).
 
 ## 8. Summary
 
 | GR statement | PRTOE replacement | status |
 |---|---|---|
-| Singularity at r = 0 | finite-density condensate/normal-phase core | derived-from-banked (§1–4) |
+| Singularity at r = 0 | finite-density condensate/normal-phase core | derived-from-recorded (§1–4) |
 | Metric to arbitrarily small r | metric ends at ξ; interior is one quantum object for M < 2×10¹⁰ M☉ | computed (§2) |
 | Collapse unbounded | CSW equilibrium at any known mass (λ ≳ 10⁻⁹⁰) | computed, λ owed (§3) |
 | Ring singularity (Kerr) | quantized vortex bundle, normal-phase threads | structural (§5) |

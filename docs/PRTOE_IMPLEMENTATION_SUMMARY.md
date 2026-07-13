@@ -65,14 +65,14 @@ $$F(\phi) = 1 + \xi \cdot A(\phi) \cdot S(\phi)$$
 | `cosmic_dashboard/templates/prtoe_dhost_checks_v2.py` | DHOST consistency validation | 192 | ✅ NEW |
 | `scripts/test_prtoe_dhost_validation.py` | Test suite for validation module | 170 | ✅ NEW |
 
-### 📂 For AI to Read (Reference)
+### 📂 Derivation archive (reference, stored outside the repository)
 
 | File | Content | Status |
 |------|---------|--------|
-| `For AI to read/PRTOE_Second_Order_Action_Derivation.md` | Derivation reference | ✅ EXISTS |
-| `For AI to read/PRTOE_Perturbation_Sector_Final_Update.txt` | Implementation spec | ✅ EXISTS |
-| `For AI to read/PRTOE_Publication_Update_Diff (1).txt` | Diff-style updates | ✅ EXISTS |
-| `For AI to read/PRTOE_Publication_Update_Diff (2).txt` | Additional updates | ✅ EXISTS |
+| `[derivation archive]/PRTOE_Second_Order_Action_Derivation.md` | Derivation reference | ✅ EXISTS |
+| `[derivation archive]/PRTOE_Perturbation_Sector_Final_Update.txt` | Implementation spec | ✅ EXISTS |
+| `[derivation archive]/PRTOE_Publication_Update_Diff (1).txt` | Diff-style updates | ✅ EXISTS |
+| `[derivation archive]/PRTOE_Publication_Update_Diff (2).txt` | Additional updates | ✅ EXISTS |
 
 ---
 
@@ -256,7 +256,7 @@ $$S^{(2)} = \int d\tau d^3x \, a^3 \Biggl\{\n    \frac{1}{2}\mathcal{K}(\delta\p
 
 **Activation A(φ):**
 - Derived from **Coleman-Weinberg potential** or **second-order phase transition**
-- Represents expectation value of operator in presence of φ
+- Represents expectation value of author in presence of φ
 - Standard EFT result for symmetry breaking
 
 **Screening S(φ):**
@@ -378,7 +378,7 @@ $$\mathcal{L}_{\text{PRTOE}} = \mathcal{L}_{\text{DHOST}}^{(2)} + \mathcal{L}_{m
 
 ### Contact
 - **Author:** Justin Ryan Pulford
-- **Review Status:** Addressing Red-Team Review Findings (2026-06-28)
+- **Review Status:** Addressing internal review Review Findings (2026-06-28)
 - **Branch:** `coderabbit-review-2`
 
 ### References

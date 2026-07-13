@@ -69,7 +69,7 @@ Here:
 - $\Delta \phi$ is the **width** of the transition region (related to bubble wall thickness in early universe)
 - This is a standard EFT result for **spontaneous symmetry breaking**
 
-In this framing, $A(\phi)$ represents the **expectation value of an operator** $\mathcal{O}$ in the presence of the scalar field $\phi$, interpolating between two vacuum states.
+In this framing, $A(\phi)$ represents the **expectation value of an author** $\mathcal{O}$ in the presence of the scalar field $\phi$, interpolating between two vacuum states.
 
 #### 1.3.2 Screening $S(\phi)$ as Infrared Regulator
 
@@ -190,7 +190,7 @@ $$\text{Drag Coefficient} = \frac{F_{\phi}}{2 F} \cdot \frac{k^2}{1 + w_m}$$
 - This modifies the standard Euler equation: $\theta' = -\mathcal{H} \theta + k^2 \frac{\delta p}{\rho + p}$
 - The drag force is proportional to $F_{\phi} / F$, which depends on the field value and screening
 
-**Implementation:** Added to theta_cdm' and theta_b' evolution in `perturbations_derivs()` (lines 9456-9457 for CDM, lines 9276-9278 for baryons)
+**Implementation:** Added to θ_cdm' and θ_b' evolution in `perturbations_derivs()` (lines 9456-9457 for CDM, lines 9276-9278 for baryons)
 
 ---
 
@@ -565,8 +565,8 @@ When positioning PRTOE in publications:
 - `source/background.c`: Background evolution and stability monitors
 - `source/perturbations.c`: Linear perturbation equations and δF implementation
 - `docs/PRTOE_Second_Order_Action_Specification.md`: This document
-- `For AI to read/PRTOE_Second_Order_Action_Derivation.md`: Publication-grade derivation
-- `For AI to read/PRTOE_Perturbation_Sector_Final_Update.txt`: Implementation details
+- `[derivation archive]/PRTOE_Second_Order_Action_Derivation.md`: Publication-grade derivation
+- `[derivation archive]/PRTOE_Perturbation_Sector_Final_Update.txt`: Implementation details
 - `PRTOE_Working_Formulation.md`: Working document with open problems
 
 ---

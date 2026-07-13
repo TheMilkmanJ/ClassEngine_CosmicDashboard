@@ -57,7 +57,7 @@ else if Ω₀_prtoe > 0                              →  de_mode = prtoe_frozen
 else                                              →  de_mode = lambda_limit
 ```
 
-Lambda budget: add Ω₀_Λ to ρ_tot only when PRTOE is not physically active, or `de_mode == lambda_limit`.
+Λ budget: add Ω₀_Λ to ρ_tot only when PRTOE is not physically active, or `de_mode == lambda_limit`.
 
 ---
 

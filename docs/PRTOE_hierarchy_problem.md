@@ -4,8 +4,8 @@
 
 
 > **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). Conditional on: the no-bare
-> clause, the roster hypothesis (paired lepton-sector vacuum, ninth sweep), P-2026-042's
-> anchor identification, and the gap equation's k (owed, task #18). Referees: zon (the
+> clause, the roster hypothesis (paired lepton-sector vacuum, entry 9), P-2026-042's
+> anchor identification, and the gap equation's k (owed, task #18). Referees: the α_c MCMC (the
 > triangle), the two-loop redesign, HL-LHC (the portal search).
 
 ## 0. The problem
@@ -38,7 +38,7 @@ $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm an
 $$\frac{1}{g} = 34.85\text{–}35.43 \;\Longrightarrow\; g = (1.29\text{–}1.31)\,\alpha_c$$
 
 — stable to ±1% while the arrows scatter by ±0.3. Hence
-$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with $k \approx 1.3$ (SWEEP-43 UPDATE 2026-07-12: gap-equation k = 1.36 computed prescription-robust within the roster-forced screening class; sound-cone-bandwidth target 1.353 ± 0.04 — a 0.5% landing, estimate-grade, all ingredients banked), **the gap
+$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with $k \approx 1.3$ (ENTRY-43 UPDATE 2026-07-12: gap-equation k = 1.36 computed prescription-robust within the roster-forced screening class; sound-cone-bandwidth target 1.353 ± 0.04 — a 0.5% landing, estimate-grade, all ingredients recorded), **the gap
 equation's single owed number** (nearby rationals firewalled; the k is the equation's to
 derive). The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
 that runs the dyad and prices the vacuum (the one-coupling portfolio).
@@ -49,7 +49,7 @@ leptophilic, exactly what the corrected census demanded) gives:
 
 $$m_H \sim \frac{M_{\rm anchor}}{4\pi} \approx 125\ \text{GeV}$$
 
-The operator's plain-language form, registered with P-2026-042: *the anchor is where the
+The author's plain-language form, registered with P-2026-042: *the anchor is where the
 zero-point becomes non-zero* — the birth scale of mass; $m_H \to v \to$ every fermion
 mass cascades from it.
 
@@ -65,17 +65,17 @@ One lepton coupling, three functional floors, all measured.
 
 ## 4. Kills
 
-(i) the gap equation failing to produce k ≈ 1.3; (ii) zon killing 3α (the exponent's
+(i) the gap equation failing to produce k ≈ 1.3; (ii) the α_c MCMC killing 3α (the exponent's
 coupling); (iii) the redesigned two-loop run landing the portal far from ~1.5 TeV;
 (iv) HL-LHC exhausting 1–2 TeV without the portal states (the visible branch dies);
 (v) any demonstrated bare-m_H² contribution (kills the no-bare reading outright).
 
 ## Sources
 [BCS1957] (the gap form), [MachacekVaughn1983] (the loop structure), [Volovik2003],
-the internal chain: sweeps 7–11 (PRTOE_DERIVATION_HUNT.md), P-2026-042. Full list:
+the internal chain: entries 7–11 (PRTOE_DERIVATION_HUNT.md), P-2026-042. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
-## 5. Addendum (the stability audit, seventeenth sweep)
+## 5. Addendum (the stability audit, entry 17)
 
 The reading's owed consistency check — do the portal's Yukawas destabilize the Higgs
 vacuum? — computed at one loop: the dip is SHALLOWER than the SM's own (−0.017 vs −0.022),

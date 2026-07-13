@@ -3,10 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Operator insight, formalized: "the physics we aren't threading into thread into other physics
+*Author insight, formalized: "the physics we aren't threading into thread into other physics
 our model threads into." Checked against the full kill-list: TRUE in every case — and in this
 model it is a THEOREM, not a tendency. Status: STRUCTURAL (the why-pass generalized into a
-graph). Booked def447.*
+graph). Booked internal record 447.*
 
 ## 0. The theorem
 
@@ -40,7 +40,7 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
    each kill names its parent and inherits that parent's falsifiability — kill the parent's
    law and every child verdict re-opens (e.g., if L1a bleeds at Minami-Komatsu, strong-CP's
    death certificate is void too — one clause, shared fate, both directions).
-2. **The threading sweep's true output is the ROOT SET**: ~sixteen direct threads cover, by
+2. **The threading survey's true output is the ROOT SET**: ~sixteen direct threads cover, by
    inheritance, every physics the protocol has examined. The model is small at the roots and
    total at the leaves.
 3. **The falsifiable meta-claim**: there should exist NO demonstrable orphan — a physical

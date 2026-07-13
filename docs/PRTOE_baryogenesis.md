@@ -4,25 +4,25 @@
 
 
 > **STATUS: FRAME COMPLETE, ONE INTEGRAL OWED** (the docket's one true calculation).
-> Un-refereed portions from the review-hold are marked. The banked deaths and the derived
+> Un-refereed portions from the review-hold are marked. The recorded deaths and the derived
 > form are production-grade ledger items.
 
 ## 0. The problem
 The universe holds ~6×10⁻¹⁰ baryons per photon and essentially no antimatter. The
 Standard Model's CP violation is orders too small; every mechanism needs new physics.
 
-## 1. What the model has KILLED (banked, production-grade)
+## 1. What the model has KILLED (recorded, production-grade)
 Thermal leptogenesis on the model's own η: the surface is EMPTY — ×40–1000 under target,
-two independent methods (def459; the failures ledger). The model cannot buy its baryons
+two independent methods (internal record 459; the failures ledger). The model cannot buy its baryons
 thermally. This death forced the honest route:
 
 ## 2. The AD-direct route (charge = abundance)
 The medium is a CHARGED condensate with a phase; an Affleck–Dine-class transfer moves its
 charge into the lepton sector through the one leptophilic channel (t358b), then sphalerons
-reprocess L → B. The transfer's structure is the DC-Josephson form (the banked junction
+reprocess L → B. The transfer's structure is the DC-Josephson form (the recorded junction
 template): $I_L \propto \mu \sin\Delta\theta$.
 
-## 3. The derived form (the review-hold sweeps; un-refereed)
+## 3. The derived form (the review-hold sessions; un-refereed)
 $$\eta = n \times \mathcal{T}$$
 — the winding integer times ONE transmission number. Consequences already in force:
 - **The shared-integer cross-kill**: the CMB comb's tooth count (P-029) and the baryon
@@ -40,4 +40,4 @@ two measurements (η, n_comb) and one computation (𝒯) closing one consistency
 
 ## Sources
 [AffleckDine1985], [FukugitaYanagida1986] (the killed baseline), [Josephson1962],
-internal: Card 4, t358b, def459, the ninth sweep. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+internal: Card 4, t358b, internal record 459, the entry 9. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 6. Status: STRUCTURAL (candidate) — one banked EXPLANATION (why the relation survives)
+*Thread 6. Status: STRUCTURAL (candidate) — one recorded EXPLANATION (why the relation survives)
 plus one live derivation lane (why it holds). The improvement: mainstream particle physics has
 NO account of Koide at all; this model supplies a protection mechanism it needs for other
 reasons, and a generation-structure lane under active test.*
@@ -14,7 +14,7 @@ Koide (1981): Q ≡ (m_e+m_μ+m_τ)/(√m_e+√m_μ+√m_τ)² = 2/3 to ~10⁻�
 including QED corrections that had no reason to preserve it. It fits no symmetry anyone has
 made stick; the standard position is "numerology, presumably."
 
-## 1. The banked half: WHY IT SURVIVES (the protection, derived)
+## 1. The recorded half: WHY IT SURVIVES (the protection, derived)
 
 Any new physics touching lepton masses should WRECK a delicate mass relation. This model's
 lepton coupling is **multiplicative-universal by construction** (the Card-7 structure, graded:
@@ -29,7 +29,7 @@ the relation's robustness is EXPLAINED here and accidental everywhere else.
 The genesis tilt is ε_A = 2/9 — Koide's fraction is native to the model's Z4 structure — and
 the Card-2 arc (the 512-run, the winding average, the ramp) has circled f_amp = 11/18-class
 values without landing them (t377: Koide-f̄ disfavored 3.3σ as f̄'s own value; the
-Koide-with-spending triple remains one of three live endings at 0.9σ, def407). The honest
+Koide-with-spending triple remains one of three live endings at 0.9σ, internal record 407). The honest
 statement: **the model keeps producing Koide's rationals in its own arithmetic without yet
 deriving the mass relation** — a lane, not a result. The generation structure (three families
 on the Z4 torus?) is the un-built floor beneath it.

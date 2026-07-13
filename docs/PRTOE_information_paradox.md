@@ -5,7 +5,7 @@
 
 *Short companion to PRTOE_blackholes_no_singularity.md. Honest scope: the paradox DISSOLVES at
 the structural level in this model; the quantitative capstone (the Page curve / area law) is
-OWED and shared with task #11. Status: STRUCTURAL (candidate), booked def413.*
+OWED and shared with task #11. Status: STRUCTURAL (candidate), booked internal record 413.*
 
 ## 0. The paradox, and why it needs a singularity to bite
 
@@ -16,14 +16,14 @@ Every horn of the dilemma leans on one premise: **that the interior terminates h
 
 ## 1. The model removes the shredder
 
-Per the black-hole document (def411): there is no singularity. The interior is a
+Per the black-hole document (internal record 411): there is no singularity. The interior is a
 **finite-density quantum core** — the Landau-broken normal phase of the condensate — and for
 every known black hole the whole interior sits within one healing length: **a single quantum
 system**. Consequences, each from a graded object:
 
 1. **Nothing is destroyed** — the infallen state is *thermalized*, not terminated: unitary
    many-body evolution in the core (decoherence relocates information into correlations; it
-   never deletes it — the Landauer ledger banked at the atom night PRICES record-keeping, it
+   never deletes it — the Landauer ledger recorded at the atom night PRICES record-keeping, it
    does not permit erasure without a fee paid *somewhere kept*).
 2. **The books are kept by construction** — "the universe is not blind to its own
    transactions" (t342-graded: the environment's record IS decoherence). A model whose
@@ -42,7 +42,7 @@ system**. Consequences, each from a graded object:
 
 | paradox ingredient | standard status | PRTOE status |
 |---|---|---|
-| the singularity (the shredder) | required | absent (def411) |
+| the singularity (the shredder) | required | absent (internal record 411) |
 | unitarity | threatened | manifest (the interior is a quantum many-body system) |
 | "where is the information during evaporation?" | mysterious | in the core's correlations + outgoing-mode entanglement (ordinary) |
 | the Page curve | the quantitative test | **OWED** — requires the core's entropy functional (= the area-law debt, task #11) |

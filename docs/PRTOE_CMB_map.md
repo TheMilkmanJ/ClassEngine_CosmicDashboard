@@ -27,14 +27,14 @@ The parity structure is the spine of the whole map:
 gravitational potential wells set by the dark matter, compresses, pressure pushes back,
 it rarefies — **acoustic oscillations**. At recombination the pattern freezes. Compressions
 = hot spots, rarefactions = cold. Peak *positions* encode the geometry (sound horizon vs
-angular-diameter distance → Ω_total, H0); peak *heights* encode baryon density (odd/even
+angular-diameter distance → Ω_total, H₀); peak *heights* encode baryon density (odd/even
 peak asymmetry) and dark-matter density. Add the Sachs–Wolfe redshift at last scattering,
 the late-time ISW from evolving potentials, and Silk (diffusion) damping at small scales.
 
 **PRTOE.** The **dCDF fluid** supplies the wells (it is matter-like, w≈0, at recombination).
 Baryons and photons are standard. The **varying m_e** shifts *when* recombination happens,
 which moves the damping tail and nudges peak positions/heights — this is the model's
-specific fingerprint, and the MCMC detected it at **+1.2% in m_e (~2.7σ)**, easing H0 to
+specific fingerprint, and the MCMC detected it at **+1.2% in m_e (~2.7σ)**, easing H₀ to
 ~69.9. **VERDICT: FIT.** TT is reproduced at ΛCDM quality; the m_e tweak is the live signal.
 
 ## 2. TE — temperature × E-mode
@@ -119,7 +119,7 @@ a no-wiggle-room refutation. Current status: the hint is ~2.4–3.6σ, **not** t
 | **TE** | even | density × velocity (quadrupole → Thomson) | **FIT** |
 | **EE** | even | scalar velocity gradients → E-modes | **FIT** |
 | **BB** (lensing) | even | LSS shears E → B | **INHERITED / FIT** |
-| **BB** (primordial) | even | inflationary tensors (r free) | **FREE**; predicted **non-chiral** (Π~1e-7) |
+| **BB** (primordial) | even | inflationary tensors (r free) | **FREE**; predicted **non-chiral** (Π~1×10⁻⁷) |
 | **TB** | **odd** | E rotated into B by β | **PREDICTED NULL** (β = 0) |
 | **EB** | **odd** | E rotated into B by β | **PREDICTED NULL** (β = 0) |
 

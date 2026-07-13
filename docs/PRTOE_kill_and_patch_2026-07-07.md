@@ -1,11 +1,11 @@
-# Kill Attempt & Patch Attempt (operator's order, 2026-07-07 evening)
+# Kill Attempt & Patch Attempt (author's order, 2026-07-07 evening)
 
 > **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Operator: "try to kill the model... find something that might shoot it in
+*Author: "try to kill the model... find something that might shoot it in
 the face," then "patch up all those wounds." Three shots were fired; each
 patch was attempted honestly and graded. Two of three patches FAILED or only
 partially held — recorded with the same ink as the successes.*
@@ -102,14 +102,14 @@ the kill attempt materially narrowed it: the continuous coupling is gone, and
 the model's survival now rests on (a) a discrete switch it must still derive,
 and (b) DESI regressing to w=−1. Both are falsifiable. Nothing was dressed up.
 
-## Amplitude update (operator's "combination of reasons", 2026-07-07 later) — Shot 1 upgraded from "homeless fit" to "abundance-anchored to a factor of one"
+## Amplitude update (author's "combination of reasons", 2026-07-07 later) — Shot 1 upgraded from "homeless fit" to "abundance-anchored to a factor of one"
 
-**The correction to Patch attempt 2:** that patch used M_GUT (2e16 GeV) for the
+**The correction to Patch attempt 2:** that patch used M_GUT (2×10¹⁶ GeV) for the
 displacement and got 0.1% (factor 12 short). WRONG SCALE. The medium's field Ψ₀
-is pinned INDEPENDENTLY by the DM abundance (base-camp pin) at 0.7-1.5e17 GeV —
+is pinned INDEPENDENTLY by the DM abundance (base-camp pin) at 0.7-1.5×10¹⁷ GeV —
 higher than M_GUT.
 
-**The amplitude is a PRODUCT of two factors** (operator's "combination",
+**The amplitude is a PRODUCT of two factors** (author's "combination",
 correct): δm_e/m_e = (coupling) × (displacement), displacement = Ψ₀/M_Pl,
 coupling = EM-self-energy structure (also sets leptons-not-hadrons, P-2026-011).
 
@@ -117,11 +117,11 @@ coupling = EM-self-energy structure (also sets leptons-not-hadrons, P-2026-011).
 | | value |
 |---|---|
 | Ψ₀/M_Pl (non-reduced M_Pl, abundance-pinned Ψ₀) | 0.57% - 1.23% |
-| Ψ₀/M_Pl at top of range (Ψ₀=1.5e17) | **1.23%** |
-| ε from CMB H0 fit (independent dataset) | **1.24%** |
+| Ψ₀/M_Pl at top of range (Ψ₀=1.5×10¹⁷) | **1.23%** |
+| ε from CMB H₀ fit (independent dataset) | **1.24%** |
 | implied coupling | **1.009 ~ O(1)** |
 
-**Two INDEPENDENT datasets — DM abundance (→Ψ₀) and CMB H0 (→ε) — agree on the
+**Two INDEPENDENT datasets — DM abundance (→Ψ₀) and CMB H₀ (→ε) — agree on the
 same Ψ₀/M_Pl to a factor ~1**, with an order-one coupling. The displacement
 factor nearly delivers 1.24% alone; the α (0.73%), M_GUT/M_Pl (0.16%), and
 proton EM self-energy (0.075%) are NOT separate contributions — they are inputs
@@ -130,7 +130,7 @@ to / lenses on the two factors.
 **HONEST CAVEATS (fragile in 3 named ways):**
 1. CONVENTION: reduced M_Pl → Ψ₀/M_Pl = 2.9-6.2%, needs coupling ~0.2-0.4
    (factor-2.9 swing).
-2. RANGE: only the TOP of the abundance range (1.5e17) touches 1.24%; bottom
+2. RANGE: only the TOP of the abundance range (1.5×10¹⁷) touches 1.24%; bottom
    gives 0.57%.
 3. COUPLING: "~O(1)" is assumed, not derived.
 
@@ -138,4 +138,4 @@ to / lenses on the two factors.
 a naked fit — it is (abundance-pinned Ψ₀)/(Planck) × (O(1) coupling), and the
 abundance and the CMB agree on it to a factor of one. Full closure still needs
 the convention fixed (the actual coupling normalization) and the O(1) coupling
-derived. Credited to the operator's "combination of reasons" instinct.
+derived. Credited to the author's "combination of reasons" instinct.

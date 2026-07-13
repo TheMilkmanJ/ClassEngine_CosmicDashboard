@@ -18,7 +18,7 @@ falsifiable commitment) · MOVER (active evidence channel).
 
 | # | Domain | Verdict | One-line result | Booked in |
 |---|--------|---------|-----------------|-----------|
-| 1 | Cosmology (CMB/BAO/SN background) | MOVER | The dyad: H0 69.7, S8 eased, +1 parameter, plik better than ΛCDM's own; evidence class flat pending the two movers | flagship (v5_dCDF_complete) |
+| 1 | Cosmology (CMB/BAO/SN background) | MOVER | The dyad: H₀ 69.7, S₈ eased, +1 parameter, plik better than ΛCDM's own; evidence class flat pending the two movers | flagship (v5_dCDF_complete) |
 | 2 | BBN / nuclear astrophysics | STRAIN→repriced | Deuterium scar −2.0σ → −1.2σ under post-LUNA theory error; pre-basin ΔN_eff healer (CMB-invisible) closes §11; helium pays | flagship §11 + addendum |
 | 3 | Dark energy | BET | The floor is exactly Λ — no evolution, no phantom crossing; model votes AGAINST DESI DR2's 3.1σ preference (standing bet #3) | atlas: THE BIGGEST MYSTERY |
 | 4 | Vacuum energy / cc problem | DOOR (coherence) | Old half: zero-point = unsettled drafts, never post (＋Jacobson, ＋Jaffe); new half: confessed, opening-balance class | atlas: THE BIGGEST MYSTERY |
@@ -67,5 +67,5 @@ verdict is booked with a pointer — no domain gets claimed by vibes.
 Domains not yet on this map are not covered; add them only with a
 booking.
 
-*Created 2026-07-07 ~8am at the operator's request, end of the
+*Created 2026-07-07 ~8am at the author's request, end of the
 genesis-night marathon. Maintained alongside the atlas.*

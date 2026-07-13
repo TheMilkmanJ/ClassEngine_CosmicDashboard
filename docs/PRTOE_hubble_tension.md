@@ -1,65 +1,95 @@
-# The Hubble Tension — the Model's Founding Fight (2026-07-11)
+# The Hubble Tension: Mechanism, Residual, and the Calibration Question
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
+*Status: the model's* ***core empirical claim*** *— the one domain built in contact with
+the data rather than extended to it. The improvement is measured and evidence-priced; a
+zero-free-parameter Bayesian comparison against ΛCDM is running as of this revision.
+(Consolidated 2026-07-13; the superseded reach-estimate replaced by the signed verdict
+and the calibration-war analysis.)*
 
-*Thread 11. Status: the model's CORE empirical claim, consolidated into its standalone. This is
-the one domain where the model was BUILT in contact with the data rather than extended to it —
-the improvement is measured, graded, and evidence-priced.*
+---
 
-## 0. The tension
+## 1. The tension
 
-SH0ES-calibrated supernovae: H0 = 73.0 ± 1.0. ΛCDM fit to the CMB: 67–68.2. Five-plus sigma,
-years of scrutiny, no systematic found on either end. ΛCDM's position: one of the two
-measurements must be wrong.
+Cepheid-calibrated supernovae (SH0ES): H₀ = 73.0 ± 1.0 km/s/Mpc. ΛCDM fit to the CMB:
+67–68.2. The disagreement exceeds 5σ and has survived years of scrutiny on both ends.
+ΛCDM's implicit position is that one of the two measurements must be wrong.
 
-## 1. The model's mechanism (banked end to end)
+## 2. The mechanism
 
-The dyad: a +1.24% shift of the electron mass above the transition epoch. m_e sets recombination's
-atomic physics → earlier decoupling → smaller sound horizon → the CMB re-fits at HIGHER H0
-without breaking the acoustic structure (the known varying-m_e degeneracy, here with an
-ontology: the condensate's order parameter, T_c = 193 keV, quiet at BBN at production grade —
-the gate-0 clearance).
+The model adds one number to known physics: a +1.24% shift of the electron mass, active
+in the early universe and switched off by a screening transition at late times. The
+electron mass sets recombination's atomic physics; a heavier early electron gives
+earlier decoupling, a smaller sound horizon, and a CMB fit that lands at *higher* H₀
+without disturbing the acoustic structure (the established varying-m_e degeneracy
+[Hart–Chluba 2020; Sekiguchi–Takahashi 2021], here supplied with a physical origin —
+the condensate's order parameter, condensing at T_c ≈ 193 keV, inactive during the
+early stages of nucleosynthesis at production grade).
 
-## 2. Where it lands, honestly
+## 3. Where it lands — stated honestly
 
-- **In-house, same data, same pipeline**: ΛCDM best fit H0 = 68.2; dyad = 69.9 with the
-  evidence FAVORING the dyad at ΔlnZ = +2.635 (Laplace; past the pre-registered win line;
-  marginal, SHOES-conditional, PolyChord-capped — the operator's 25% standing cap).
-- **The residual is OWNED**: 69.9 is not 73. The model eases ~half the tension and REFUSES the
-  rest (the omk run: offered curvature, the fit declined — the flat torus stands, def333).
-  The model's claim is not "SH0ES is fully explained": it is "the sky prefers a universe with
-  the dyad in it, and the remaining gap is real information" (P-2026-001's TRGB no-hedge bet
-  polices the ladder side).
-- **The instruments to move it**: an INDEPENDENT m_e-shift detection (P-2026-007's void/IGM
-  step; the P-024 dipole; the P-029 comb) would convert the fit into physics.
+- **Same data, same pipeline**: ΛCDM's best fit gives H₀ = 68.2; the model gives
+  **69.9**, with the Bayesian evidence favoring the model at ΔlnZ ≈ +2.6 (Laplace
+  approximation; past the pre-registered win threshold; graded internally as marginal
+  and calibration-conditional pending the full nested-sampling verdict now running).
+- **The residual is owned**: 69.9 is not 73.0. The model closes roughly half the
+  gap and *refuses* the rest — offered spatial curvature as an escape, the fit declined
+  it. The claim is not "SH0ES is fully explained"; it is "the sky prefers a universe
+  with this mechanism in it, and the remaining gap is real information about the
+  measurements."
+- **The reach computation (signed 2026-07-13)**: an exhaustive audit of every lever the
+  model owns — the supernova-standardization channels (computed through synthetic
+  photometry; the sign came out *opposite* to the tension, robustly, across 180
+  template configurations), the survey-geometry leakage (+0.1–0.3%), and the
+  reionization tether (±0.3) — caps the model's account of the *ladder* reading at
+  **~70.9–71.3. The model cannot reach 73, and says so.**
 
-## 3. The improvement over the field's alternatives
+## 4. The calibration question (where the residual points)
 
-Early-dark-energy and its cousins buy H0 with new components tuned for the job and generically
-worsen S8. The dyad: (i) ONE parameter with independent duties (the ε that runs the whole
-fingerprint lattice); (ii) an S8 story that goes the RIGHT direction (the conversion channel,
-thread 4); (iii) a BBN sector re-posed HONESTLY by the windowed run (D/H invisible to the direct shift;
-Y_p now a +1.3σ counter-lean per def449 — the witness stands rigid, not favorable); (iv) falsifiers it cannot dodge (DESI's w = −1, the radio lattice's locked ratios).
-Nothing else on the H0 market carries a comparable kill-list — which is a strength precisely
-because the model can afford it.
+If the model is right, the Cepheid-calibrated 73.0 carries 2–3 km/s/Mpc of systematics
+— and the model was *pre-registered* on that side of the live calibration war: its
+first registered prediction called H₀ ∈ [69, 71] for the tip-of-the-red-giant-branch
+(TRGB) ladder, and the TRGB program indeed reads **69.8–70.4** [Freedman 2021]. The
+structural asymmetry between the two ladders is the known crowding question: Cepheids
+are photometered in crowded, dusty galactic disks (neighboring starlight contaminates
+the measurement); TRGB uses sparse, clean halo fields. The cleanest rung agrees with
+the model's band; the contamination-prone rung reads high; JWST's crowding
+re-measurements are the community's own referee on exactly this point.
 
-*The tension asked: which measurement is lying? The model answers: neither — the early universe
-was being read with the wrong electron. Half the gap closes, the other half is signed and
-owned, and the arbiters are named and scheduled.*
+The model additionally *contributes* a candidate systematic from its own physics: under
+its environmental screening reading, supernovae in dense versus sparse hosts carry a
+small standardization offset whose direction and magnitude class match the observed
+(and incompletely explained) **SN host mass step** — making the model's screening curve
+a discriminable rival to dust-based explanations of that known systematic (a
+host-*density* trend versus a color-dependent step).
 
-## Sources
-[Riess2022] (SH0ES), [Freedman2021] (TRGB), [Planck2018], [HartChluba2020] + [SekiguchiTakahashi2021] (the varying-m_e degeneracy), [DiValentino2021] (the competitor map), [DESI2024] (the named falsifier). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+**Data ethics, on the record**: no dataset is dropped for disagreeing. The evidence
+comparisons run in three documented tiers — Cepheid-anchored, anchor-free, and
+TRGB-anchored — all published side by side, with the analysis roles declared and
+timestamped *before* any evidence value existed.
 
+## 5. Against the field's alternatives
 
-## UPDATE (2026-07-13) — the endgame map
+Early-dark-energy-class solutions buy H₀ with new components tuned for the job and
+generically worsen the S₈ clustering tension. This model's mechanism: (i) one parameter
+with independent duties across BBN, the CMB, 21-cm physics, and neutrino cosmology —
+the same 1.24% must work everywhere or the model fails; (ii) an S₈ story that moves in
+the observed direction; (iii) a nucleosynthesis sector re-posed honestly (the helium
+abundance currently stands as a +1.3σ *counter*-lean, kept on the books); (iv) named,
+scheduled falsifiers it cannot dodge (DESI's w = −1 test; exact atomic-ratio locks in
+future radio observations). No competitor on the H₀ market carries a comparable
+kill-list — which is affordable only because the mechanism is one number, not a sector.
 
-The tension's remainder is now itemized (full accounting:
-[PRTOE_H0_CEILING.md](PRTOE_H0_CEILING.md)): the model's global **69.9** (being
-re-derived live by the zero-parameter evidence run) + the dipole-leakage floor
-(+0.1–0.3%, the flow's lookback-varying component surviving SH0ES's constant-template
-marginalization) + the candle room (the environmental ε reaching the supernova
-standardization channels — CANDIDATE, gated on reading B and the ς sign session) + the
-τ room (±0.3 class, the unpaid reionization tether). The ceiling bracket: **70.9–73.4 —
-73.0 inside the model's reach**, contingent on two named computations (ς, ⟨g⟩). The
-candle room's candidate fingerprint already in public data: the SN host mass step.
+*The tension asked: which measurement is lying? The model answers: neither instrument —
+the early universe was being read with the wrong electron mass, and the late-time
+remainder points at the one rung of the ladder that everyone already agreed needed
+re-measuring. Half the gap closes by mechanism; the other half is signed, owned, and
+assigned to named referees.*
+
+## References
+
+[Riess 2022] (SH0ES); [Freedman 2021] (TRGB/CCHP); [Planck 2018];
+[Hart–Chluba 2020], [Sekiguchi–Takahashi 2021] (the varying-m_e degeneracy);
+[Di Valentino 2021] (the competitor landscape); [DESI 2024] (the named falsifier).
+Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

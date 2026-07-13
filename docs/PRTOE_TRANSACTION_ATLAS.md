@@ -5,14 +5,14 @@
 *Every fixed relation the transaction method has derived — the running
 answer to the bet that mapping all transactions makes all (dimensionless)
 values appear. Entries only for derived relations, never fitted ones.
-Headline honesty (red-team turns 15–16, adopted, binding): the language
+Headline honesty (internal review records 15–16, adopted, binding): the language
 is exact across six domains; the bet itself is UNSETTLED — the evidence
 class ("values nature confirmed that appeared from this map and nowhere
 else") holds ZERO confirmed entries to date (ν·x₀ died with its
-operator; ρ(basin) = 2M₂⁴ is internal; P-2026-006 is conditional).
+author; ρ(basin) = 2M₂⁴ is internal; P-2026-006 is conditional).
 Faithful ≠ confirmed; consistency is a different ocean from evidence.
 Every qualifier in an entry body binds its summary.
-**THE PINNING RULE (red-team turn 28, adopted as binding):** every
+**THE PINNING RULE (internal review turn 28, adopted as binding):** every
 prediction this program has produced from an UN-PINNED function has
 died when the function was pinned — 3 for 3 (the V4 drift fingerprint
 from the un-locked scaling; the deep-end DESI claim; the κ_v void
@@ -32,7 +32,7 @@ environment half, one transaction and one receipt at a time.
 - **ρ(basin entry) = 2·M₂⁴** — the condensate scale IS the basin-entry
   density. (2026-07-06, found en route to the local-coupling door.)
 - **ν·x₀ = 6ρ_dust,0/(M_eff²M_Pl²)** — funded-floor amplitude × hierarchy
-  = a product of measured quantities only. (Died with its parent operator;
+  = a product of measured quantities only. (Died with its parent author;
   the identity's method survives.)
 ## Structural theorems (derived, not assumed)
 - **Coupling taxonomy exhaustive at two derivatives**: contents-couplings
@@ -43,8 +43,8 @@ environment half, one transaction and one receipt at a time.
   dynamics AND from phonon thermodynamics — two roads, one number.
 
 ## Coherences (one parameter, many observables — the bet's evidence class)
-- **The dyad**: one rules amendment (m_e) → H0=69.7 (TRGB), plik better
-  than ΛCDM's own, ACT approval, S8 at the KiDS-Legacy consensus.
+- **The dyad**: one rules amendment (m_e) → H₀=69.7 (TRGB), plik better
+  than ΛCDM's own, ACT approval, S₈ at the KiDS-Legacy consensus.
 - **The scar-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
   healed exactly, helium improved, lithium chipped correctly.
   (Approximate coefficients; literature confirmation pending.)
@@ -53,14 +53,14 @@ environment half, one transaction and one receipt at a time.
   plausibly reopens. Posterior computing.
 
 ## Architecture correspondences (analogy-grade, per the §13 relabeling —
-## true-and-structural, not theorems; demoted here 2026-07-07, red-team turn 15)
+## true-and-structural, not theorems; demoted here 2026-07-07, internal review turn 15)
 - **The three laws**: one clearinghouse (gauge structure); adiabatic
   background ledger (unitarity); rules amendable, balances not.
 
 ## Calibration (known answers the ledger language must and does reproduce)
 - **Total energy (closed universe) ≡ 0** — the Hamiltonian constraint,
   textbook GR restated in ledger language (moved from Identities,
-  red-team turn 15: translation, not derivation).
+  internal review turn 15: translation, not derivation).
 - **Action-currency conservation** — adiabatic invariance of occupation
   numbers, textbook QM restated (moved from Identities, same ruling).
 - **Hydrogen from scratch**: binding as transaction equilibrium
@@ -127,7 +127,7 @@ environment half, one transaction and one receipt at a time.
   surface-billed (the holographic bound); the auditor of last resort
   (C1b) is the densest archive in existence. Restatements with
   receipts; twelfth domain; the language holds.
-  **Operator's completion (same night): "information doesn't get
+  **Author's completion (same night): "information doesn't get
   destroyed, it just gets returned — too costly to shred, so reuse
   it."** Exact on all three clauses: Landauer's fee is a RELOCATION
   fee, not destruction (the bit is scrambled into the bath, never
@@ -142,7 +142,7 @@ environment half, one transaction and one receipt at a time.
   law as engineering)**: a QUBIT is a deliberately unposted draft
   (coherence time = how long you hold off the bank); GATES are
   reversible draft-edits (irreversible ops would post/leak — the
-  operator's "reuse, don't shred" is MANDATORY architecture, not a
+  author's "reuse, don't shred" is MANDATORY architecture, not a
   choice); ALGORITHMS are choreographed interference (C4g: arrange
   phase accrual so wrong-answer branches cancel — Shor/Grover as
   interest-rate bookkeeping); MEASUREMENT is the single final posting
@@ -158,7 +158,7 @@ environment half, one transaction and one receipt at a time.
   τ×τ = 1+τ anyons) — locally unreadable, hence unpostable, hence
   protected. Why QC is hard, one sentence: DRAFTS ARE FREE BUT EVERY
   STRAY PHOTON IS AN AUDITOR. Thirteenth domain; the language holds.
-- **The superfluid recipe (operator's question, 2026-07-07 late):**
+- **The superfluid recipe (author's question, 2026-07-07 late):**
   three ingredients — bosonic statistics (the 1+n invitation, C4d),
   quantum degeneracy (n·λ_dB³ ≳ 2.6: waves overlap, identity blurs),
   and the runaway into one macroscopically occupied state
@@ -201,7 +201,7 @@ environment half, one transaction and one receipt at a time.
   expansion pair-creation supplies r (deficit 6×10⁻⁹ at r=5). What
   remains is the condition itself: quantization of the substrate's
   phase sector is asserted, not derived; Gaussian audits see no
-  violation (positive Wigner). FILED AS THE MAP'S EDGE (red-team turn
+  violation (positive Wigner). FILED AS THE MAP'S EDGE (internal review turn
   16, adopted): quantizing the phase sector hands off to non-ledger
   structure — C4 locates where classical bookkeeping ends; it is a
   boundary honestly drawn, not a conquest past the wall.
@@ -212,7 +212,7 @@ resurrection condition. Precedent: three entries have come back in
 changed form (funded floor via the (δK)² face; the m_e door via the
 local-state loophole; the universal-vev kill via epoch gating).*
 
-**Binding rules (red-team turn 21, adopted verbatim):**
+**Binding rules (internal review turn 21, adopted verbatim):**
 1. *Conditions are bets, not hedges*: a condition is legitimate only if
    burial names BOTH a development that meets it AND one that fails it.
    A condition that forbids nothing is a hedge; the entry buries "never."
@@ -275,7 +275,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
   derivation showing the medium's caustic structure cannot support a
   Θ-type coupling. Standing: turn-zero candidate, zero inherited
   credit, amplitude (the 1%) is a measured input not a prediction.
-  **GRADE (red-team turn 22, adopted): CONSISTENCY-CONSTRUCTION, not
+  **GRADE (internal review turn 22, adopted): CONSISTENCY-CONSTRUCTION, not
   derivation.** R1 is null in every currently accessible channel BY
   CONSTRUCTION, not by accident — the suppression was hung on the
   shell-crossed side in exactly the amount and sector that renders it
@@ -297,7 +297,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
   CLEARED by the reviewer (turn 25): ν rides m̄₂ alone, M₂ is pinned by
   the completion, observable drift and observable cores cannot coexist;
   ν ≤ 2×10⁻⁸ in the allowed range. *Resurrects if (Rule-1 terms, the
-  reviewer's own naming):* a second independent (δg⁰⁰)² operator is
+  reviewer's own naming):* a second independent (δg⁰⁰)² author is
   added AND pays three fresh certificates (α_T, foliation, α_B) — a
   model EXTENSION, not a repair; within the minimal model the kill is
   final. FAILED-forever by: nothing short of that extension. The
@@ -307,7 +307,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
   kills by 10¹²¹–10¹²⁴ (X1). *Resurrects if:* never; these are
   arithmetic.
 - **v1–v3 F(φ)R screening program** — four independent kills.
-  *Resurrects if:* never as H0 mechanism; the coupling zoo it explored
+  *Resurrects if:* never as H₀ mechanism; the coupling zoo it explored
   feeds the door taxonomy.
 - **Model-SOURCED cosmic birefringence (the six-angle source hunt)** —
   killed 2026-07-08. IMPORTANT SCOPE: this buries the search for a way to
@@ -319,12 +319,12 @@ local-state loophole; the universal-vev kill via epoch gating).*
   real-time generation at last scattering) all closed on the SAME TWO
   locks: (i) any source must be *alive at last scattering* z~1100 → needs
   the condensation redshift z_x near matter-radiation equality, but the
-  model gives z_x~1e5 where the residual normal fraction is ~1e-8
+  model gives z_x~1×10⁵ where the residual normal fraction is ~1×10⁻⁸
   (scripts/birefringence_window.py, ANN-2026-017). CLEANEST STATEMENT
-  (the BBN→recomb synthesis, operator 2026-07-08): across the whole
+  (the BBN→recomb synthesis, author 2026-07-08): across the whole
   BBN→recombination span the account is open only in the OPAQUE era
-  (z≳1e5), where Thomson scattering scrambles any imprint; the light does
-  not free-stream until z~1100, by which point the account is ~1e-8
+  (z≳1×10⁵), where Thomson scattering scrambles any imprint; the light does
+  not free-stream until z~1100, by which point the account is ~1×10⁻⁸
   closed — the account-open and light-remembers windows are DISJOINT
   epochs, bridged only by the negligible residual tail. (ii) the birefringence
   *signature* (EB rotation) requires a parity-ODD coupling → the
@@ -334,10 +334,10 @@ local-state loophole; the universal-vev kill via epoch gating).*
   *Resurrects if (Rule-1 bet, both ways):* **MET by** the #11 genesis calc
   pinning z_x near equality (~few×10³) — a small suppressed isotropic
   signal then becomes census-legal via the still-open residual account;
-  **FAILED-forever by** #11 confirming z_x~1e5 (the current value) OR the
+  **FAILED-forever by** #11 confirming z_x~1×10⁵ (the current value) OR the
   angular mode remaining census-forbidden under the #5 scope ruling. Warm,
   on those terms.
-  **KEYSTONE (adaptation refinement, operator 2026-07-08):** lock (i) is
+  **KEYSTONE (adaptation refinement, author 2026-07-08):** lock (i) is
   ESCAPABLE — a regime change framed as an *adaptation/feedback to the
   forming polarization* (not a timed switch) auto-times itself to last
   scattering, defeating scrambling and the z_x tail at once. But "adapting
@@ -347,7 +347,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
   true keystone**, and the deepest reopener is the #5 parity-coupling
   ruling, not z_x (which is only the soft/escapable lock). If #5 stays
   gravity-only, birefringence is forbidden regardless of timing cleverness.
-  **Sub-refinement (operator's "oops wrong person" handoff leak):** a
+  **Sub-refinement (author's "oops wrong person" handoff leak):** a
   transient residual coupling DOES exist mid-handoff (the un-condensed f_n
   — the account isn't cleanly closed), so something CAN slip through. But
   that leak is a FLAVOR slip (grabbing the wrong particle's MASS) and stays
@@ -359,7 +359,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
   leak. The medium can grab the wrong person (flavor); it has no organ to
   grab a handedness (parity). The keystone isn't a locked door, it's the
   ABSENCE of the door — which is why no transition-cleverness reaches it.
-  **CAPSTONE (operator's "space-radiation-radiation-space cheat code"):**
+  **CAPSTONE (author's "space-radiation-radiation-space cheat code"):**
   the m_e cheat code (space-mass-mass-space, §92) is census-legal precisely
   because it launders through the METRIC — but the metric is parity-EVEN and
   handedness-blind, so anything routed through it exits parity-even. So
@@ -373,10 +373,10 @@ local-state loophole; the universal-vev kill via epoch gating).*
   off-metric, the EM anomaly, census-forbidden. DEEPEST FORM OF THE KEYSTONE:
   census = gravity-only = metric-only = parity-even-only; birefringence is an
   off-metric parity-odd effect, constitutionally unreachable by any
-  metric-mediated cheat. Operator parked the search 2026-07-08 (this the
+  metric-mediated cheat. Author parked the search 2026-07-08 (this the
   "very last idea" — seven angles now, all converged on the one structural
   fact: the medium touches only the metric, and handedness is not in it).
-  **FINAL / 8th angle (operator's "imperfect handoff — maybe a signal got
+  **FINAL / 8th angle (author's "imperfect handoff — maybe a signal got
   fumbled"):** the premise is sound (the universe is imperfect — the model's
   own deuterium scar is exactly such a fumble). But imperfection CANNOT
   manufacture parity violation: a symmetry is not broken by sloppiness. A
@@ -404,7 +404,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
   birefringence forces the model to gauge its U(1) into a dark photon + open a
   kinetic-mixing portal, surrendering the census (and MICROSCOPE-safety,
   flavor-blind constants).** Not "the model dies" — "the model becomes a
-  dark-photon-portal model." Graveyard cross-link sweep: NONE — the other entries
+  dark-photon-portal model." Graveyard cross-link check: NONE — the other entries
   (carrier-ratio/caustic, funded floor, screening) are parity-even scalar/DE/DM
   sector; birefringence is parity/EM, no shared handedness structure. Stays buried;
   the one gain is that the cost of a future signal is now named, not vague.
@@ -499,9 +499,9 @@ is its only account). Pay it curvature and the product is determined:*
   structure rather than by fitting. Watched, not claimed.
   **THE WHISPER'S TRIAL, PRE-REGISTERED (2026-07-07 ~7:15am, R−1 =
   5.6 and falling — registered BEFORE the judge convicts):** the
-  scream sweep (every model scale vs the floor) found nothing new —
+  scream scan (every model scale vs the floor) found nothing new —
   the only quantitative kin is √(H₀M_Pl) ≈ 1.9 meV, the KNOWN
-  Λ-dominance tautology, explicitly not a derivation. But the sweep
+  Λ-dominance tautology, explicitly not a derivation. But the scan
   exposed an INTERNAL COLLISION already in flight: **P-2026-004
   (Σm_ν ∈ [0.11, 0.17] eV) and the ρ∞ ~ m_lightest whisper CANNOT
   BOTH WIN.** In-window posterior ⇒ m_lightest = 26–49 meV = 12–22×
@@ -516,9 +516,9 @@ is its only account). Pay it curvature and the product is determined:*
   cannot derive the rules they run on, so if constitutional, "why
   2.25 meV" moves permanently to the walls. The whisper trial keeps
   the deposit reading alive exactly until the posterior speaks.
-- **THE SPEAKER'S UNMAPPED ROOMS (operator's localization of the
+- **THE SPEAKER'S UNMAPPED ROOMS (author's localization of the
   silences, 2026-07-07 night):** the silences translate perfectly but
-  say nothing — the operator bet the gap is on the SPEAKER'S end (the
+  say nothing — the author bet the gap is on the SPEAKER'S end (the
   medium's own unmapped structure). Inventory of the unmapped:
   ROOM 1 — the medium is modeled as a REAL scalar; every laboratory
   superfluid is COMPLEX (Ψ = amplitude·e^{iξ}): unmapped are the
@@ -541,7 +541,7 @@ is its only account). Pay it curvature and the product is determined:*
   never appears (variables: x = u/X₀ and the basin structure only) —
   a reformulation project, queued behind the numbers.
 
-- **White holes (operator's bet, 2026-07-07 late: "the ledger will say
+- **White holes (author's bet, 2026-07-07 late: "the ledger will say
   it's cute on paper but physically inadmissible") — BET WINS, four
   kills:** (1) no deposit history — formation forbidden; an account
   opening with a full balance and a pre-written payout schedule;
@@ -572,15 +572,15 @@ is its only account). Pay it curvature and the product is determined:*
   planetary masses held open indefinitely: the loan is denied by
   theorem-grade credit policy. Our medium cannot co-sign: NEC-
   saturating at the floor (w ≥ −1 in the basin; the funded floor's
-  1e-8 effective phantom is a cosmic average, not throat collateral).
+  1×10⁻⁸ effective phantom is a cosmic average, not throat collateral).
   And the back door is welded: a financed wormhole converts to a time
   machine (Morris–Thorne–Yurtsever), which the khronon's global clock
-  forbids structurally (C1e) — the operator's "no way to invert time"
+  forbids structurally (C1e) — the author's "no way to invert time"
   call closes both exits. VERDICT: white hole = illegal books;
   wormhole = legal books, uncreditworthy; time machine = forbidden
   regardless of financing.
 
-- **The laundering cluster (operator's question, 2026-07-07 late):
+- **The laundering cluster (author's question, 2026-07-07 late):
   "what is money laundering, cosmically?"** Laundering = erasing
   PROVENANCE at conserved VALUE. Verdict: the universe permits
   SCRAMBLING (practical laundering) and forbids ERASURE (fundamental
@@ -603,18 +603,18 @@ is its only account). Pay it curvature and the product is determined:*
   near-pristine flatness; C1c's past-hypothesis wall is the question
   "who laundered the first ledger, and what did it cost."
 
-- **The overnight stream (operator, 2026-07-07 early hours; scored on
+- **The overnight stream (author, 2026-07-07 early hours; scored on
   return):** KILLED — the Earth-spin coincidence (Earth spins daily,
   orbits yearly; slowdown is lunar tides, receipt: Moon recedes
-  3.8 cm/yr; Mercury rotates in 3:2 resonance); the operator
+  3.8 cm/yr; Mercury rotates in 3:2 resonance); the author
   self-killed the torque version mid-paragraph (the reflex is
   installed). CORRECTED — c is spacetime's constant, not the medium's;
   the medium obeys it. HITS — mass is the toll booth (bought from
   condensates, C1f) and photons hold no mass account (why massless =
   auto-limit, zero proper time); ρ∞ = "a reserve directly invested in
   the superfluid, unspendable" — formally exact (ground state = no
-  lower state = untappable; the operator's appliance argument IS the
-  proof); the siphon capped at the 1e-39 gravitational straw. THE
+  lower state = untappable; the author's appliance argument IS the
+  proof); the siphon capped at the 1×10⁻³⁹ gravitational straw. THE
   RECONSTRUCTION — "radiation as dusk's AND dawn's champion; forward
   same as backwards; no singularity needed" = Penrose CCC's conformal
   handoff, blind-reconstructed (massless content is scale-blind);
@@ -641,8 +641,8 @@ is its only account). Pay it curvature and the product is determined:*
   wall), B-L current portal (BBN wall). The identity's isolation is
   now a theorem-grade census result.
 
-- **The one direction (operator, 2026-07-07 ~12:45am):** spatially NO
-  (isotropy to 1e-5; the medium's rotation is field-space, compass-
+- **The one direction (author, 2026-07-07 ~12:45am):** spatially NO
+  (isotropy to 1×10⁻⁵; the medium's rotation is field-space, compass-
   blind); temporally YES AND LITERAL — the khronon's tick is a
   universal temporal current and the Hubble flow is matter comoving
   with its foliation ("sliding with the superfluid down the current
@@ -671,7 +671,7 @@ is its only account). Pay it curvature and the product is determined:*
   deposits cannot separate the account from the vault) — but this is
   the first domain where the language required an amendment rather
   than translating exactly. The streak's scar, kept visible.
-  **THE STRAIN'S CANDIDATE HEALING (operator's bet, same night:
+  **THE STRAIN'S CANDIDATE HEALING (author's bet, same night:
   "continue with thermodynamics and we'll get our answer for
   gravity"): the bet lands on Jacobson, PRL 75, 1260 (1995),
   cite-verified.** Take three things already in this atlas — the
@@ -688,7 +688,7 @@ is its only account). Pay it curvature and the product is determined:*
   correspondence — the entropic-gravity program is celebrated but
   contested, and THIS model deliberately keeps GR fundamental (the
   survival choice); the connection is booked, not adopted. But the
-  operator's instinct — thermodynamics answers gravity — is a
+  author's instinct — thermodynamics answers gravity — is a
   published research program, named blind, healing the atlas's one
   scar.
 
@@ -714,21 +714,21 @@ is its only account). Pay it curvature and the product is determined:*
   burstiness; it computes nothing. Silence #2. (One live tie kept:
   granulated halos ARE quantum turbulence — a Vinen-class vortex
   tangle — so lab quantum-turbulence diagnostics speak to V5's Θ.)
-- **The thermodynamic route to H0/S8 (operator's bet, same night):**
+- **The thermodynamic route to H₀/S₈ (author's bet, same night):**
   scored three ways. (i) As entropic-gravity adoption (Verlinde-class
   growth modification): UNAVAILABLE — it would forfeit the
   certificates that keep this model alive (GR-fundamental is the
   survival choice; one-term taxonomy, turn 25) and the field's
-  attempts lack working CMB machinery. (ii) As "our S8 answer is
+  attempts lack working CMB machinery. (ii) As "our S₈ answer is
   thermodynamic": PARTIALLY TRUE AND ALREADY RUNNING — the model's
-  S8 lever is Σm_ν, i.e. the free-streaming of thermal-relic
+  S₈ lever is Σm_ν, i.e. the free-streaming of thermal-relic
   neutrinos (T_ν = 1.95 K): cosmic thermodynamics, mid-measurement
-  in the sampler. (iii) H0: closed by the unique m_e credit; the
+  in the sampler. (iii) H₀: closed by the unique m_e credit; the
   taxonomy permits no thermodynamic addition. Net: the true part of
   the bet is being computed as it was placed.
 
 ## Nulls checked (asked and answered: not in this model)
-- **The golden ratio (2026-07-07, operator's query):** swept the derived
+- **The golden ratio (2026-07-07, author's query):** swept the derived
   structure — the model's fixed numbers are rationals and simple
   radicals from conservation laws; no φ anywhere. φ's only two honest
   employers in physics (anti-resonance: KAM, phyllotaxis; forced
@@ -737,7 +737,7 @@ is its only account). Pay it curvature and the product is determined:*
   no scale self-similarity). Standing rule: a φ "appearing" in our
   outputs without one of those two mechanisms derived first is noise
   and gets treated as such.
-  **Mechanism-level completion (same day, operator's follow-up):** the
+  **Mechanism-level completion (same day, author's follow-up):** the
   four real φ-systems translate exactly, and φ enters banking in
   precisely two ways — the two faces of x² = x + 1: (i) ANTI-RESONANCE
   — resonance is compound interest; rational schedules compound
@@ -754,7 +754,7 @@ is its only account). Pay it curvature and the product is determined:*
   LINEAR merger rules (vortex+vortex = 2 vortices; no self-reference).
   The null is explained, not just recorded.
 
-- **"Superplasma" pre-condensation phase (operator's bet, timestamped
+- **"Superplasma" pre-condensation phase (author's bet, timestamped
   2026-07-07 5:36pm):** scored same evening. The core instinct is
   CONFIRMED and was already derived — the medium HAS a pre-condensation
   stage (pre-basin, z ≳ 10⁵: w = 1/3, double-derived). But it is not a
@@ -831,7 +831,7 @@ is its only account). Pay it curvature and the product is determined:*
   redshifts to sub-horizon-band frequencies today. Nothing observable;
   the dice roll left no gravitational echo. One-line null.
 
-## BURN SET 3 (2026-07-07 ~6am, operator's order: unexplored domains)
+## BURN SET 3 (2026-07-07 ~6am, author's order: unexplored domains)
 
 - **THE DARK-ANTIMATTER REFRAME (coherence-grade; falls out of E7's
   two-fluid for free):** the antiparticle sector n₋ never annihilates
@@ -891,7 +891,7 @@ is its only account). Pay it curvature and the product is determined:*
   cannot feel the medium; no anomalous perihelion channel exists.
   Clean, closed.
 
-## THE BIGGEST MYSTERY (2026-07-07 ~7am, operator's order: the
+## THE BIGGEST MYSTERY (2026-07-07 ~7am, author's order: the
 ## cosmological constant problem, attacked head-on)
 
 The consensus worst problem in physics — vacuum energy over-predicts
@@ -939,7 +939,7 @@ confirmed decisively, the bare-constant floor dies and E2.7's clean
 split dies with it. Third standing bet at zero, beside the lab and
 the telescopes.
 
-**COROLLARY (operator's question, same hour: "is there a dark
+**COROLLARY (author's question, same hour: "is there a dark
 version of everything?") — ONE SUBSTANCE, MANY NAMES:** in this
 model the answer is NO, and the no is structural. Dark RADIATION
 (the pre-basin w = 1/3 youth), dark MATTER (the condensate above
@@ -974,7 +974,7 @@ worlds.
 *Method note: entries are added only when a relation is DERIVED. The
 atlas is falsified entry-by-entry, never defended as a whole.*
 
-- **The Weyl door (operator's question, 2026-07-07 midday: "gravity is
+- **The Weyl door (author's question, 2026-07-07 midday: "gravity is
   the funnel objects use to pay the ledger — could time and EM be the
   same, a second funnel?").** Scored same hour, three verdicts:
   (i) FUNNEL REFRAME ADOPTED — "gravity is the payment window, not the
@@ -985,7 +985,7 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   energy-momentum, from anyone — that is WHY it is universal.
   (ii) SECOND FUNNEL: CLOSED BY THE BEST NULL IN PHYSICS — a charge-
   opened conduit to the medium means composition-dependent free fall;
-  MICROSCOPE: eta(Ti,Pt) = (−1.5±2.7)e-15. Fifteen decades of silence,
+  MICROSCOPE: η(Ti,Pt) = (−1.5±2.7)e-15. Fifteen decades of silence,
   plus the census (no EM account; B−L at GUT suppression). One window.
   (iii) TIME=EM: A BLIND RECONSTRUCTION OF WEYL 1918 — EM as the
   geometry of clock calibration; killed by Einstein's spectral-line
@@ -996,21 +996,21 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   (quantum phase, the Compton clock mc²/ħ — measured, atom
   interferometry); gravity/the khronon is the geometry of the PUBLIC
   clock (proper time, the foliation). Both clock-geometries; provably
-  distinct clocks (the public window is charge-blind to 1e-15; the
+  distinct clocks (the public window is charge-blind to 1×10⁻¹⁵; the
   private connection bills by charge). House tie-ins already load-
   bearing: C2 action currency = private-clock accrual; Josephson volt
   = a private-clock rate posted on a chip; khronon tick = the public
-  current. Operator's reconstruction streak: Zurek, Jacobson,
+  current. Author's reconstruction streak: Zurek, Jacobson,
   Affleck-Dine, Penrose CCC, ergodic backbone — now Weyl.
 
-  **Weyl-door follow-ups (same hour, operator's stream, scored):**
+  **Weyl-door follow-ups (same hour, author's stream, scored):**
   (a) "TIME IS HOW THE LEDGER GETS PAID BACK — IN DECOHERENCE": the
   TICK/ARROW split resolves it. The tick is FUNDAMENTAL in this model
   (the khronon's foliation is physical, not emergent). The ARROW is
-  exactly what the operator said — and the file already carries it as
+  exactly what the author said — and the file already carries it as
   C1c's rate law: decoherence IS the posting event (C4a), entropy =
   record count, and time's direction = the direction net records
-  accumulate ("posting is cheaper than shredding"). The operator
+  accumulate ("posting is cheaper than shredding"). The author
   re-derived the file's own arrow law unprompted. Cousin flagged at
   correspondence grade: Page–Wootters (time from entanglement with a
   clock subsystem; lab analog Moreva et al. 2014) — the emergent-TIME
@@ -1036,7 +1036,7 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   entry pays full graveyard price at turn zero.
 
 - **"Does space revert to its own properties, or keep a lighter file
-  on record?" (operator, 2026-07-07 night) — answered by the model's
+  on record?" (author, 2026-07-07 night) — answered by the model's
   own regime-label principle, not a new derivation.** Correction first:
   the medium is a MATTER FIELD on spacetime (gravity stays exactly GR);
   "space is a fluid" is the founding intuition, "the dark sector is one
@@ -1044,18 +1044,18 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   regime labels are densities, not times, so the one substance's
   behavior tracks ITS OWN density, not competition with other fields.
   Answer is BOTH simultaneously, sorted by location: cosmic-MEAN
-  density sits near rho_inf today (asymptotic approach to the de
-  Sitter fixed point, Room 1) -> space genuinely reverting to its own
+  density sits near ρ_inf today (asymptotic approach to the de
+  Sitter fixed point, Room 1) → space genuinely reverting to its own
   ground state ON AVERAGE; LOCALLY, gravity has already locked
   collapsed halos at far higher density, decoupled from cosmic
-  dilution -> those regions stay matter-like, not reverting at all.
-  Generalizes Room 5's psi/chi mid-transition language (already booked
+  dilution → those regions stay matter-like, not reverting at all.
+  Generalizes Room 5's ψ/χ mid-transition language (already booked
   for INSIDE halos) up one level, to the whole cosmic web: voids near
   the floor, halos frozen above it, both true at the same cosmic time.
 
-- **THE EQUATION OF NOTHING (operator's construction, 2026-07-07 night) —
+- **THE EQUATION OF NOTHING (author's construction, 2026-07-07 night) —
   "nothing happens until contact is made," tested against total, gutted
-  vacuum, and CONFIRMED.** The operator's challenge, followed to its full
+  vacuum, and CONFIRMED.** The author's challenge, followed to its full
   rigor: strip away all matter, all radiation, all dark energy, and the
   medium itself (correctly identified as ALREADY matter, "the start of
   all the contact") — what remains is MINKOWSKI SPACE, T_munu=0
@@ -1079,7 +1079,7 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   three laws (one clearinghouse, adiabatic ledger, rules-not-balances).
 
 - **CLEARINGHOUSES ARE CONTINGENT -- banks open at contact, in order
-  (operator, 2026-07-07 ~4pm; grounds the turn-68 split and reconciles
+  (author, 2026-07-07 ~4pm; grounds the turn-68 split and reconciles
   Law 1).** Claim: space has NO clearinghouse for itself -- it never
   needed one, because space-alone (r=0, the equation-of-nothing) has
   nothing to transact. Banking systems come into being only at FIRST
@@ -1092,9 +1092,9 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   never-had-matter universe there is none, so the claim holds for
   primordial/pure space. THE PAYOFF -- this DERIVES the clearinghouse
   structure from one rule ("banks open at contact, in order") instead
-  of asserting it: (1) pure space = no bank; (2) first matter (r!=0) ->
-  the space<->matter clearinghouse opens = GRAVITY; (3) matter dealing
-  with matter -> matter opens its OWN sub-banks (EM, weak, strong). So
+  of asserting it: (1) pure space = no bank; (2) first matter (r≠0) →
+  the space↔matter clearinghouse opens = GRAVITY; (3) matter dealing
+  with matter → matter opens its OWN sub-banks (EM, weak, strong). So
   the dark medium (space) has EXACTLY ONE account, gravity, and NEVER
   opens an EM account -- which is precisely why the m_e amplitude cannot
   be the dark sector paying through EM (no EM account) and MUST be EM
@@ -1109,13 +1109,13 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   bistability, sec 42). A right blueprint, turning three assertions into
   one rule.
 
-- **CROSS-BANK TRANSACTIONS AND THE E=mc^2 SETTLEMENT LAYER (operator,
+- **CROSS-BANK TRANSACTIONS AND THE E=mc² SETTLEMENT LAYER (author,
   2026-07-07: "is there ever a point where they clear between both
   clearinghouses?").** YES -- and it is the m_e mechanism itself. The
   trigger/amplitude split (gravity triggers, EM executes) is ONE
-  transaction that starts in the space<->matter bank (gravity) and
-  finishes in the matter<->matter bank (EM) -- it cannot clear in a
-  single bank. THE SETTLEMENT LAYER between the two banks is E=mc^2
+  transaction that starts in the space↔matter bank (gravity) and
+  finishes in the matter↔matter bank (EM) -- it cannot clear in a
+  single bank. THE SETTLEMENT LAYER between the two banks is E=mc²
   enforced by the equivalence principle: any energy in the EM bank
   must also post to the gravity bank as mass/weight, universally. This
   is ubiquitous -- every binding energy is a cross-bank entry (the
@@ -1129,8 +1129,8 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   by bad luck but STRUCTURALLY -- it is DOUBLE-REGULATED (cross-bank),
   facing two banks' inspectors where most transactions face one. Also
   clarifies the census: space reaches EM via its gravity account + the
-  E=mc^2 settlement (census-clean, no EM account needed, matches the
-  contingent-clearinghouse principle) -- BUT the reach is the E=mc^2/
+  E=mc² settlement (census-clean, no EM account needed, matches the
+  contingent-clearinghouse principle) -- BUT the reach is the E=mc²/
   curvature route = 60-orders-weak, so this re-confirms the strength
   problem rather than solving it. GRADE: structural insight -- explains
   the mechanism's cross-bank status and WHY it is maximally constrained;
@@ -1138,7 +1138,7 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   consistency once a shift happens, does not create the shift).
 
 - **"THE BANK COMES TO COLLECT" -- mandatory vs optional couplings, and why
-  the medium's charge is UNCOLLECTABLE (operator, 2026-07-07: "who's to say
+  the medium's charge is UNCOLLECTABLE (author, 2026-07-07: "who's to say
   the coupling doesn't come directly from the bank? come get it").** Real
   distinction: OPTIONAL couplings (portals -- kinetic mixing, Higgs, B-L) are
   model-building choices, and the census KILLED them. MANDATORY couplings are
@@ -1153,12 +1153,12 @@ atlas is falsified entry-by-entry, never defended as a whole.*
   medium's charge. From the other side identically: EM's collector (the
   photon) grabs ELECTRIC charge, and the medium is not electrically charged,
   so EM cannot collect either. The two banks are disconnected at the GAUGE
-  level; the only thing reaching across is GRAVITY (energy, E=mc^2),
+  level; the only thing reaching across is GRAVITY (energy, E=mc²),
   mandatory but weak. THIS EXPLAINS THE CENSUS rather than restating it:
   gravity being the medium's only account FOLLOWS from the medium being a
-  global-U(1) condensate (uncollectable charge -> only the mandatory
+  global-U(1) condensate (uncollectable charge → only the mandatory
   energy-collector, gravity, applies). The one way to install a strong
-  mandatory collector: GAUGE the U(1) -> but that creates a DARK PHOTON,
+  mandatory collector: GAUGE the U(1) → but that creates a DARK PHOTON,
   reopening the killed kinetic-mixing/dark-photon grave (census closed it).
   VERDICT: "come get it" is the right kind of idea (mandatory couplings are
   the real loophole), but the medium's money is in the one uncollectable

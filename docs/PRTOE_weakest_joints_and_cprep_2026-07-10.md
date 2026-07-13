@@ -40,7 +40,7 @@ break leptophilia).
 **J6 — The shared-spurion tie. [ORANGE — post-hoc flagged]**
 Needs a NEW falsifiable consequence beyond the whisper to earn credit (task #41).
 
-**J7 — DM abundance magnitude (η_B ~ 6e-10). [ORANGE]**
+**J7 — DM abundance magnitude (η_B ~ 6×10⁻¹⁰). [ORANGE]**
 Post-fragmentation the Q-ball charge IS the DM; the magnitude is [OBJECT-PENDING]. **Shore:** the
 leptogenesis magnitude calc (ties to J5/P-020).
 
@@ -66,7 +66,7 @@ active-code changes are made.**
 
 ### B2. What the new model changes (when unlocked)
 1. **Dyad as a thermal order parameter, not a z=50 step.** Replace the hard step with a smooth ramp
-   φ(T)/v = sqrt(max(0, 1 − T/T_c)), so δm_e/m_e = ε·(φ/v)² turns on continuously below T_c.
+   φ(T)/v = √(max(0, 1 − T/T_c)), so δm_e/m_e = ε·(φ/v)² turns on continuously below T_c.
    New param: `dcdf_dyad_Tc` (condensation temperature, ~keV, the #40 output). `Tc<=0` disables →
    recovers the current step (backward-compatible, like the `z_rad_onset<=0` guard).
 2. **Two-field bookkeeping.** Field 1 = existing dcdf (charge/DM+DE). Field 2 = dyad (charge-free).
@@ -103,18 +103,18 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 
 ## JOINTS UPDATE 2 (2026-07-11, the radio night)
 
-- **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS (def337/t334):** ρ_inf^¼ =
+- **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS (internal record 337/t334):** ρ_inf^¼ =
   ½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV. Bohr binding × Landau-capped collective
   zero-point (pair-breaking = E_b = 2Δ) × BEC phonon speed (c_s = √α_c). The 0.4% "match"
   retired as prefactor-naive; scope held cold: the MODEL's floor value, not the CC problem writ
   large. J1 is no longer RED — it is a candidate-derivation with a 20% honest O(1).
 - **J2 (gate-0) — PRODUCTION-ABSOLUTE:** clean PRyM: ∂ln(D/H)/∂ln m_e ≈ 0. The D/H pharmacy
   died with it; Y_p is the true medicine (+0.65σ); the dyad owns a D/H-widening discriminator
-  (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per def449; was 2.372/2.31σ pre-window) with the radio D-line (P-027) as arbiter.
+  (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per internal record 449; was 2.372/2.31σ pre-window) with the radio D-line (P-027) as referee.
 - **J4 gains the sharpest instrument:** the two-line ratio-lock (ν_H/ν_D = 4.338649 preserved,
   both lines +2.50% at z>50).
-- **NEW STANDING RISK:** the D/H fork (windowed bet: 2.40–2.42 vs the quasar 2.527, ~1.9σ) AND the Y_p reversal (+1.3σ counter, def449 — the medicine was an artifact).
+- **NEW STANDING RISK:** the D/H fork (windowed bet: 2.40–2.42 vs the quasar 2.527, ~1.9σ) AND the Y_p reversal (+1.3σ counter, internal record 449 — the medicine was an artifact).
 - **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved draw→winding-average
   (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
-- **C-code gate RESET (operator):** >85% deleted; PolyChord is the gate (standing capped ~25%
-  until it runs).
+- **C-code gate RESET (author):** >85% deleted; PolyChord is the gate (the claim is held
+  provisional until it runs).

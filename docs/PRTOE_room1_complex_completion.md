@@ -1,4 +1,4 @@
-> **LAB-LOG DOC (reader's rule):** this file documents derivations INCLUDING their dead ends, chronologically — the sanctioned format for post-mortems (like the hunt log). Correct-version summaries live in the standalone files; the failures ledger indexes all deaths.
+> **LAB-LOG DOC (reader's rule):** this file documents derivations INCLUDING their dead ends, chronologically — the sanctioned format for post-mortems (like the derivation log). Correct-version summaries live in the standalone files; the failures ledger indexes all deaths.
 
 # Room 1: The Complex Completion (expedition log, opened 2026-07-07 night)
 
@@ -27,11 +27,11 @@ in the phase EFT and is INHERITED UNCHANGED below the amplitude gap.
 ### R1.1a — The certificate dictionary (turn-33 demand; three lines,
 ### each a consequence of the phase action, none an assertion)
 
-**Line 1 — α_T = 0 (cert 3).** The proof was: the (δK)² operator is
+**Line 1 — α_T = 0 (cert 3).** The proof was: the (δK)² author is
 trace-only; gravitons are traceless; det(e^h) = e^(tr h) = 1 ⇒ δK
 vanishes on tensors to all orders. Every step is METRIC-SIDE GEOMETRY
 on the foliation — the argument never uses what θ is, only that the
-foliation exists (constant-θ surfaces) and the operator is trace-only.
+foliation exists (constant-θ surfaces) and the author is trace-only.
 Map: constant-ξ surfaces ↔ constant-phase-of-Ψ surfaces (identical
 objects; ξ ≡ θ/μ). The proof transports VERBATIM. Inheritance: exact,
 all orders, gap-independent (the tensor sector never probes the
@@ -60,7 +60,7 @@ construction (the boundary all three lines share).
 **The isomorphism statement (the room's load-bearing clause, now
 explicit):** below the amplitude gap, integrating out the radial mode
 yields P(X) + corrections suppressed by (∂/gap)² — Son's result — and
-the (δK)² term is the leading extrinsic-curvature operator on the
+the (δK)² term is the leading extrinsic-curvature author on the
 same foliation. The three certificates are consequences of (i) the
 quadratic phase action and (ii) foliation geometry; the embedding
 changes their UV interpretation and NOT their content. Isomorphism
@@ -77,7 +77,7 @@ arbitrary number into a named class of problem with known machinery
 (Sakharov-type conditions, now in the dark sector). C1b's table gains
 its deepest row: the medium's substance IS its debt.
 
-**RESTATEMENT (2026-07-07, forced by red-team turn 42 — the
+**RESTATEMENT (2026-07-07, forced by internal review turn 42 — the
 charge-vs-energy identity):** "the medium's density is its charge" was
 the PURE-ROTOR limit talking. The precise ledger: Ω_DM is measured
 GRAVITATIONALLY and therefore counts the TOTAL quanta, ρ = m·n_tot
@@ -143,7 +143,7 @@ counts: the speckle field's nodal lines become literal), and C4's
 (certificates + V specified). The Born-equilibrium program (C4e)
 inherits the same address.
 
-## R1.8 — The deposit slip acquires a candidate (operator's bet:
+## R1.8 — The deposit slip acquires a candidate (author's bet:
 ## "Energy made the original deposit"; scored, corrected, and it fits)
 
 **The naive form fails on a symmetry theorem:** energy alone is
@@ -231,7 +231,7 @@ Booked as the room's scar, kept in daylight.
 
 **Room 3's finish, stated plainly:** in the minimal completion the
 form-factor question is ANSWERED NO — Room 3 closes against the
-healer. The vev package survives only as: (i) tuned (1e-36), or
+healer. The vev package survives only as: (i) tuned (1×10⁻³⁶), or
 (ii) resident of a non-minimal room not yet built. The mutual honesty
 of the rooms: Room 1's greatest simplification (the exact minimal
 match) is precisely what kills Room 3's hope.
@@ -242,12 +242,12 @@ f_amp underived (the Kibble–Zurek condensation computation, O2's true
 form; the mode cannot decay, so f_amp is set once and persists).
 Current published nulls (Porayko/PPTA PRD 98, 102002 (2018); EPTA DR2
 PRL 131, 171001 (2023) — cite-verified) cap f_amp only at ~O(1) at
-the light end (1e-22 eV), nothing at 2e-21: R1.6 is ALIVE,
+the light end (1×10⁻²² eV), nothing at 2×10⁻²¹: R1.6 is ALIVE,
 CEILING-ONLY, near-term testable iff f_amp ~ O(1). Expedition 2
 closed by the reviewer as NET STRENGTHENING with the D/H scar carried
 in daylight; the board is two-mover (the Σm_ν posterior; f_amp).
 
-**E2.7 — the identity's disappointment (found in the silences sweep,
+**E2.7 — the identity's disappointment (found in the silences survey,
 same night):** the minimal completion has P(μ = m) = 0 at the basin
 point — it does NOT supply the floor. ρ∞ enters as a bare constant
 added to V: **the identity explains the dark-MATTER side completely
@@ -289,7 +289,7 @@ one AD-dynamics computation (ε vs tilt strength): model-dependent,
 bounded, and generic AD gives ε not tiny — the mover leans cannon,
 pending the orbit calculation.
 
-**E3.4 — THE GENESIS CHAIN (operator's bet: "answer how to charge a
+**E3.4 — THE GENESIS CHAIN (author's bet: "answer how to charge a
 superfluid and you find the depositor" — landed):** the chain is
 (1) DISPLACE: inflation's stochastic de Sitter kicks ratchet the
 light complex field to large radius — the launderer of the first
@@ -390,7 +390,7 @@ SEGMENTED — the seamless run (quartic → transition → quadratic, tilt
 diluting through c_t_eff ~ 1 at basin entry) can further process ε
 and is OWED before the summit is declared; (iii) non-minimal escapes
 exist (pre-rotation during inflation; other tilt dimensions) and are
-extensions with bills. Red-team cold read required; this entry is
+extensions with bills. internal review cold read required; this entry is
 DATA, not the verdict.
 
 ## EXPEDITION 5 (2026-07-07, ~1:30am): THE SUMMIT, HARDENED —
@@ -486,7 +486,7 @@ survival by the model's own birth dynamics.
 ## EXPEDITION 6 (2026-07-07, ~2am): THE GATES — turn 42's two demands
 ## run to ground, one inversion closed, one NEW constraint found
 
-Red-team turn 42 reserved the 6:1 on two gates: (1) P(f_amp) must be
+internal review turn 42 reserved the 6:1 on two gates: (1) P(f_amp) must be
 CONDITIONED on the abundance and isocurvature gates, with the R1.2
 charge-vs-energy identity resolved (his scenario: if Ω_DM = charge,
 the abundance selects rotors and the collision INVERTS); (2) the chaos
@@ -563,7 +563,7 @@ outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 only); t₀-prescription variation; denser angles; h-scan at the other
 tilts (r_t = 0.6 only tonight).
 
-**PROTOCOL ADOPTED (turn 44 → 45, ~2:30am):** the red team
+**PROTOCOL ADOPTED (turn 44 → 45, ~2:30am):** the internal review
 pre-registered the h-scan acceptance criteria (grid to h = 10⁴, n = 50
 angles, dual-integrator per angle, |P(h)−P(h/3)| < binomial with
 last-two agreement, threshold pinned, extrapolation spread in the
@@ -752,9 +752,9 @@ Consistency note: E7's two-fluid reduction AGREES with V2's booked
 the p²+q² dial) — no contradiction between tonight and the verdicts.
 
 ## EXPEDITION 8 (2026-07-07, ~4am): THE ERGODIC BACKBONE — the
-## operator's question turns the chaos into order
+## author's question turns the chaos into order
 
-**The operator asked:** "does the frozen-ellipticity theorem offer
+**The author asked:** "does the frozen-ellipticity theorem offer
 insight that might turn that chaos into order?" Formalized: the
 theorem names the INVARIANTS the chaos delivers (the two mode-actions
 n±, frozen at the tilt's death); if the quartic-era dynamics is
@@ -765,7 +765,7 @@ object: no integration of the chaos at all, E-independent by the
 quartic's self-similarity (⇒ h-independent), tilt-independent (the
 tilt only needs to mix). The two observed mysteries of the dice —
 h-stability and tilt-universality — would both be EXPLAINED, not
-just observed. (The operator has blindly reconstructed the ergodic
+just observed. (The author has blindly reconstructed the ergodic
 hypothesis and the microcanonical ensemble.)
 
 **THE TEST (same hour):** microcanonical P(f_rot) on the H = p²/2+r⁴
@@ -780,7 +780,7 @@ f_rot = L/(L + 2J_r) in the quadratic era):
 slightly MORE librating than pure ergodicity (median 0.43 vs 0.53).
 The residual is itself informative: incomplete mixing, or a
 freeze-out measure biased by the dying tilt — both computable.
-**Pre-registered use (offered to the red team):** the ergodic limit
+**Pre-registered use (offered to the internal review):** the ergodic limit
 is the natural h→∞ ANALYTIC BACKBONE for stage two — if P(h) drifts
 from 86% toward ~78% as h rises, that is the ergodic limit being
 approached, and P_inf gets an analytic value with the freeze-out
@@ -847,7 +847,7 @@ OBSERVED but its h-scaling was wrong. Convergence remains clean
 (max integrator split 0.0092, zero angles above 0.01). The last two
 rows decide; no theorizing past the data at 6am.
 
-## THE NEW UNMAPPED ROOMS (2026-07-07 ~7:30am, operator's question:
+## THE NEW UNMAPPED ROOMS (2026-07-07 ~7:30am, author's question:
 ## what rooms did tonight's discoveries build?)
 
 Tonight closed the genesis corridor and in doing so framed THREE new
@@ -930,84 +930,84 @@ mapped.*
 ## arithmetic in the session record)
 
 **The family:** m-band fragments, h_eff anchors, KR norm, Levkov
-prefactor, the "superradiance 3e-19" label. Booked numbers that
+prefactor, the "superradiance 3×10⁻¹⁹" label. Booked numbers that
 predated the two-fluid structure, audited together because they
 turned out to be ONE inconsistency wearing five costumes: an
 un-pinned mass.
 
-**A1 — THE m-BAND PIN. The 10^-22 bottom is DEAD.** The three
-fragments resolve by provenance: E2.6's 10^-22 was generic-FDM
+**A1 — THE m-BAND PIN. The 10⁻²² bottom is DEAD.** The three
+fragments resolve by provenance: E2.6's 10⁻²² was generic-FDM
 phrasing inherited as a courtesy floor (never derived); R1.6's
-5x10^-22 was factor-2 loose language off the amplitude gap; the
+5x10⁻²² was factor-2 loose language off the amplitude gap; the
 CONTROLLING structure is V2's fork (five-verdict doc): DK-fails
-branch -> m in [1, 3]x10^-21 eV (the 60-200 pc core window);
-DK-holds branch -> M_eff >= 3x10^-19 eV. Model-specific transfer
+branch → m in [1, 3]x10⁻²¹ eV (the 60-200 pc core window);
+DK-holds branch → M_eff ≥ 3x10⁻¹⁹ eV. Model-specific transfer
 factors cannot rescue the light end: the two-fluid heating
-relaxation is <= 2x in TIME, and heating time ~ m^3 means the
+relaxation is ≤ 2x in TIME, and heating time ~ m³ means the
 bound shifts by 2^(1/3) ~ 1.26 — a factor 1.3 against three
-decades. THE BAND IS [1, 3]x10^-21 eV on the branch where the
+decades. THE BAND IS [1, 3]x10⁻²¹ eV on the branch where the
 cosmology lives.
 
 **A2 — PTA CONSEQUENCE (the casualty; E7a-CAVEAT's fear confirmed
-by its own audit):** beat_needed = 0.1(m/10^-22)^2 = 10 at the
-band bottom, 90 at the top; beat = sqrt(f_amp(2-f_amp)) <= 1.
+by its own audit):** beat_needed = 0.1(m/10⁻²²)² = 10 at the
+band bottom, 90 at the top; beat = √(f_amp(2-f_amp)) ≤ 1.
 **The PTA beat channel is DEAD on every surviving branch — by
 mass, regardless of loudness.** The detection table's nonzero
-rows all lived below m = 3.2x10^-22; the 33% marginal (21-51%
+rows all lived below m = 3.2x10⁻²²; the 33% marginal (21-51%
 bracket) and the 6:1 / 4:1 collision odds DIE WITH THEM. The
 h-scan verdict stands as structure: the universe almost certainly
-rings (P(f_amp>0.2) -> 100% at h=1e4), at a pitch PTAs cannot
-hear (f ~ 5x10^-7 Hz at band bottom, amplitude ~ 1/m^2 crushed
->= 100x). ANN-2026-010 resolves: P-2026-005's PTA-silence half
+rings (P(f_amp>0.2) → 100% at h=1×10⁴), at a pitch PTAs cannot
+hear (f ~ 5x10⁻⁷ Hz at band bottom, amplitude ~ 1/m² crushed
+≥ 100x). ANN-2026-010 resolves: P-2026-005's PTA-silence half
 survives BY THE MASS GATE. The GRANULE channel (m-independent,
-p^2+q^2) inherits the epsilon-meter role ALONE — sims owed.
+p²+q²) inherits the ε-meter role ALONE — sims owed.
 
 **A3 — THE h_eff ANCHORS RECONCILED (no inconsistency existed):**
-one formula, h_eff = lambda*rho/m^4. Anchor A (3x10^-6) is the
-LOCAL-HALO density (0.3 GeV/cm^3) at m = 10^-22. Anchor B
-(10^-15) is the COSMIC MEAN at m ~ 1-2x10^-21 — and the audit
+one formula, h_eff = λ*ρ/m⁴. Anchor A (3x10⁻⁶) is the
+LOCAL-HALO density (0.3 GeV/cm³) at m = 10⁻²². Anchor B
+(10⁻¹⁵) is the COSMIC MEAN at m ~ 1-2x10⁻²¹ — and the audit
 finds the pretty identity hiding inside it: h = 1 at basin entry
 BY CONSTRUCTION (quartic = mass term there), so h_eff(mean,
-today) = (1+z_x)^-3 exactly. Verified: m=1e-21 gives z_x = 1.0e5
-and h_eff(mean) = 9.7e-16. The "9 decades" = 5.4 decades of
-density (halo vs mean) + 4-5 decades of m^4 (10^-22 vs 10^-21),
+today) = (1+z_x)⁻³ exactly. Verified: m=1×10⁻²¹ gives z_x = 1.0×10⁵
+and h_eff(mean) = 9.7×10⁻¹⁶. The "9 decades" = 5.4 decades of
+density (halo vs mean) + 4-5 decades of m⁴ (10⁻²² vs 10⁻²¹),
 two correct answers to two different questions, conflated.
 
 **A4 — tau_Q RE-PRICED AT THE AUDITED BAND. THE RULING IS LIFTED.**
-At m >= 10^-21 in a halo: h_eff <= 2.3x10^-10, so tau_Q ~
-[(r_t h)^2 m]^-1 >= 1.6x10^9 Gyr WITHOUT the detuning
-suppression (3.4x10^12 Gyr at the band top). The 94-160 Gyr
-worst case existed only at the m = 10^-22 corner — the corner A1
+At m ≥ 10⁻²¹ in a halo: h_eff ≤ 2.3x10⁻¹⁰, so tau_Q ~
+[(r_t h)² m]⁻¹ ≥ 1.6x10⁹ Gyr WITHOUT the detuning
+suppression (3.4x10¹² Gyr at the band top). The 94-160 Gyr
+worst case existed only at the m = 10⁻²² corner — the corner A1
 just killed. **The frozen-ellipticity theorem is restored to
 EXACT at every surviving mass; Room 4's "frozen to <~1%"
 demotion is un-demoted.** (The detuning derivation remains good
 hygiene but no longer load-bearing.)
 
-**A5 — THE LEVKOV PREFACTOR, PULLED:** tau_gr = (b*sqrt(2)/
-(12 pi^3)) m^3 v^6/(G^2 rho^2 Lambda), b ~ 0.9 (Gaussian),
-Lambda = ln(m v R) — LPT, PRL 121, 151301 (2018); structural
+**A5 — THE LEVKOV PREFACTOR, PULLED:** tau_gr = (b*√(2)/
+(12 π³)) m³ v⁶/(G² ρ² Λ), b ~ 0.9 (Gaussian),
+Λ = ln(m v R) — LPT, PRL 121, 151301 (2018); structural
 cross-check against the follow-up (Dmitriev-Levkov-Panin-
-Tkachev, arXiv:2305.01005: t_gr = 2b^2 w0^3/(3 pi^3 G^2 rho^2
+Tkachev, arXiv:2305.01005: t_gr = 2b² w0³/(3 π³ G² ρ²
 ln p0L) — same object, distribution conventions). Absolute
 normalization carries ~x10 convention slop (flagged; scalings
 robust). The table at the audited band:
-    typical dwarf (0.03 Msun/pc^3, 15 km/s): psi condenses in
-      ~0.2-3 Gyr across [1,3]x10^-21 — dwarf cores FORM;
-    chi (x11 lag, median draw): ~2-30+ Gyr — typical dwarfs' chi
+    typical dwarf (0.03 Msun/pc³, 15 km/s): ψ condenses in
+      ~0.2-3 Gyr across [1,3]x10⁻²¹ — dwarf cores FORM;
+    χ (x11 lag, median draw): ~2-30+ Gyr — typical dwarfs' χ
       is UNCONDENSED TODAY. Room 5's "mid-phase-transition
       universe" now has numbers: the redshift-dependent
       core-halo relation is live exactly at the audited band.
-    MW-class and clusters: never condense (>= 10^5 Gyr) —
+    MW-class and clusters: never condense (≥ 10⁵ Gyr) —
       standard FDM lore, inherited cleanly.
 
-**A6 — THE "SUPERRADIANCE 3e-19" LABEL, CORRECTED:** 3x10^-19 eV
+**A6 — THE "SUPERRADIANCE 3×10⁻¹⁹" LABEL, CORRECTED:** 3x10⁻¹⁹ eV
 is the DALAL-KRAVTSOV dwarf-heating bound on M_eff (free FDM),
 not a superradiance number. The superradiance exclusion stays
-M87*'s [2.9, 4.6]x10^-21 (Davoudiasl & Denton) — and the audit
+M87*'s [2.9, 4.6]x10⁻²¹ (Davoudiasl & Denton) — and the audit
 notices what the corrected band does to it: **the M87* free-
 scalar exclusion OVERLAPS the audited band's top.** At m ~
-3x10^-21, free FDM is already dead by spin data while the dyad
-survives by the lambda-quench (margin +2.5 to +12.7 decades).
+3x10⁻²¹, free FDM is already dead by spin data while the dyad
+survives by the λ-quench (margin +2.5 to +12.7 decades).
 The free-vs-condensate discriminator is LIVE at the band top
 NOW — not a future test.
 
@@ -1015,47 +1015,47 @@ NOW — not a future test.
 marginal, 6:1/4:1 collision odds — DEAD (un-pinned-mass
 predictions, the Pinning Rule's 4th firing, called in advance by
 E7a-CAVEAT). Frozen ellipticity — RESTORED to exact. Room 5 —
-QUANTIFIED. The epsilon-meter — now a one-instrument program
+QUANTIFIED. The ε-meter — now a one-instrument program
 (granules), sims owed. The audit closed the family it was
 ordered to close and the file is smaller and harder for it.
 
 **A3a — THE LOAD-BEARING IDENTITY, DERIVED CHECKABLY (turn-58 demand,
-met same morning):** the theorem restoration rests on h_eff = lam*rho/m^4
-and the identity h_eff(mean, today) = (1+z_x)^-3. Three lines, each
+met same morning):** the theorem restoration rests on h_eff = lam*ρ/m⁴
+and the identity h_eff(mean, today) = (1+z_x)⁻³. Three lines, each
 independently checkable:
-  (1) In the basin (mass-term dominated), rho = m^2 Psi^2, so
-      h_eff := lam*Psi^2/m^2 = lam*rho/m^4.
-  (2) Basin entry is DEFINED by quartic = mass term: lam*Psi_x^2 = m^2,
-      hence rho_x = m^4/lam and h_eff(entry) = lam*rho_x/m^4 = 1
+  (1) In the basin (mass-term dominated), ρ = m² Psi², so
+      h_eff := lam*Psi²/m² = lam*ρ/m⁴.
+  (2) Basin entry is DEFINED by quartic = mass term: lam*Psi_x² = m²,
+      hence ρ_x = m⁴/lam and h_eff(entry) = lam*ρ_x/m⁴ = 1
       identically — no parameter enters.
-  (3) Post-entry the medium redshifts as matter, rho(a) = rho_x(a_x/a)^3,
-      so h_eff(mean, today) = (1+z_x)^-3. QED.
-  Independent numerical check: m = 1e-21 eV gives rho_x = m^4/lam =
-  1e4 eV^4; z_x = (rho_x/rho_dm,0)^(1/3) = 1.01e5; (1+z_x)^-3 = 9.7e-16
+  (3) Post-entry the medium redshifts as matter, ρ(a) = ρ_x(a_x/a)³,
+      so h_eff(mean, today) = (1+z_x)⁻³. QED.
+  Independent numerical check: m = 1×10⁻²¹ eV gives ρ_x = m⁴/lam =
+  1×10⁴ eV⁴; z_x = (ρ_x/ρ_dm,0)^(1/3) = 1.01×10⁵; (1+z_x)⁻³ = 9.7×10⁻¹⁶
   = the direct formula's value. The two routes agree to arithmetic
   precision; the identity holds.
 
 **A6a — THE EXCLUSION RANGE, CITE-VERIFIED (turn-58's "do that next"):**
 Davoudiasl & Denton, PRL 123, 021102 (2019), arXiv:1904.09242, pulled
-this morning: M87* (6.5e9 Msun; spin 0.9+/-0.1, or >=0.5 by the
-conservative reading) disfavors spin-zero bosons in (2.9, 4.6)x10^-21 eV
+this morning: M87* (6.5×10⁹ Msun; spin 0.9±0.1, or ≥0.5 by the
+conservative reading) disfavors spin-zero bosons in (2.9, 4.6)x10⁻²¹ eV
 via superradiance. VERIFIED as booked. Honest caveats, both directions:
 the exclusion strength tracks the SPIN measurement's confidence (the
->=0.5 reading weakens the band edges), and the overlap with our audited
-band is TOP-meets-BOTTOM (3e-21 vs 2.9e-21) — the discriminator is
+≥0.5 reading weakens the band edges), and the overlap with our audited
+band is TOP-meets-BOTTOM (3×10⁻²¹ vs 2.9×10⁻²¹) — the discriminator is
 live-if-heavy, per the reviewer's grading. Pinning m within [1,3]e-21
 (dwarf-core data + Room 5's redshift-dependent relation) graduates it
 to live, full stop.
 
 **A4a/A5a — TURN-58 ADOPTIONS (binding):** (i) P-2026-005's silence is
 kept INSTRUMENTALLY (mass-foreclosure: too heavy to hear), NOT by the
-epsilon mechanism — the medium still rings; the collision resolved on a
+ε mechanism — the medium still rings; the collision resolved on a
 technicality of mass and is booked as exactly that. (ii) THE GRANULE
-STAKES, plainly: with PTA dead and superradiance epsilon-independent,
-granule contrast (p^2+q^2) is the ONLY observable that reads epsilon.
-No granule discrimination in sims -> epsilon is unobservable, full
+STAKES, plainly: with PTA dead and superradiance ε-independent,
+granule contrast (p²+q²) is the ONLY observable that reads ε.
+No granule discrimination in sims → ε is unobservable, full
 stop, and the dice edifice is physics without a readout. The sim is
-make-or-break and is booked as such. (iii) Room 5's chi-lag core-halo
+make-or-break and is booked as such. (iii) Room 5's χ-lag core-halo
 relation is ELEVATED from structure to CANDIDATE OBSERVABLE (fourth
 distinctiveness axis: FDM has no condensation lag; a redshift-dependent
 core-halo normalization is dyad-specific). Sims-owed, same family as

@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 5 of the atom-grammar sweep. Status: STRUCTURAL (candidate) — the model gives the
+*Thread 5 of the atom-grammar survey. Status: STRUCTURAL (candidate) — the model gives the
 large-angle anomalies a HOME and, distinctively, ONE SHARED AXIS with two registered
 predictions. The improvement: standard cosmology must call these flukes (and pays a ~0.1%-class
 look-elsewhere embarrassment); the model expects them as a family.*
@@ -18,10 +18,10 @@ scales are statistically isotropic and Gaussian by assumption.
 
 ## 1. The model's structure: the universe is a cavity with a spectrum and an axis
 
-Three banked/graded objects bear directly on the largest angles:
+Three recorded/graded objects bear directly on the largest angles:
 1. **The torus** (P-013, flat, compact — the omk run re-confirmed the model keeps it): a
    compact topology DISCRETIZES the largest modes — the "missing" ℓ=2 power is the cavity's
-   infrared mode cutoff (no modes longer than the box). The atom reading (§10, banked): the
+   infrared mode cutoff (no modes longer than the box). The atom reading (§10, recorded): the
    low-ℓ sky is the cavity's LINE SPECTRUM — the cycle odometer.
 2. **The winding axis** (t338–t343-graded): the n ≠ 0 winding singles out ONE DIRECTION on the
    sky — the natural seed for alignment/asymmetry families. Standard cosmology has no axis;

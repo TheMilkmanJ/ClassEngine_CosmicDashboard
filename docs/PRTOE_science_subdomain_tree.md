@@ -3,13 +3,13 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Operator-directed: recurse the sciences into subdomains and sub-subdomains until the scientific
+*Author-directed: recurse the sciences into subdomains and sub-subdomains until the scientific
 world is mapped. HELD UNDER THE NO-FORCING LAW: each node is tagged by its RELATION, not given a
 manufactured claim. Legend — [O]=natively ours, [R]=ridden-exact (imitate), [S]=screened-constant
 (our proof-of-constancy), [I]=plain inheritance (parent's relation, nothing added),
 [C]=carries genuine content (a prediction/derivation — enumerated), [P]=parked (a snag, in the
 register). Most leaves are [I]: that is the honest result, not a failure — a theory of the
-medium OWES most of science only constancy, and says so. Living document. Booked def491.*
+medium OWES most of science only constancy, and says so. Living document. Booked internal record 491.*
 
 ## PHYSICS (roots — the sixteen threads; [O]/[R] at the top)
 - mechanics [R] → classical [I] · continuum/fluids [I] · chaos/dynamical-systems [O] (the
@@ -58,7 +58,7 @@ nodes are where the model SAYS something; the rest is where it PROMISES somethin
 
 ---
 
-# THE COMPLETENESS AUDIT (def503): the full taxonomy vs our coverage
+# THE COMPLETENESS AUDIT (internal record 503): the full taxonomy vs our coverage
 
 *The standard classification (PACS/PhySH-style), diffed against the shelf. Previously-unlisted
 subdomains tagged below — most close honestly as [I]/[R]; TWO new kinship finds and one
@@ -68,13 +68,13 @@ already-ours subdomain surfaced by the audit itself.*
 
 | subdomain | tag | the connection (or its honest absence) |
 |---|---|---|
-| **LASER PHYSICS** (the operator's example) | [R + cousin-note] | stimulated emission = QM+EM, ridden-exact. The kinship: a laser IS a photon coherent state — laboratory macroscopic coherence, the optical sibling of the cousins' bench (one phase, many quanta — the medium's own grammar at 10¹⁵ Hz). No improvement claimed; the kinship is real and unforced |
+| **LASER PHYSICS** (the author's example) | [R + cousin-note] | stimulated emission = QM+EM, ridden-exact. The kinship: a laser IS a photon coherent state — laboratory macroscopic coherence, the optical sibling of the cousins' bench (one phase, many quanta — the medium's own grammar at 10¹⁵ Hz). No improvement claimed; the kinship is real and unforced |
 | **CRITICAL PHENOMENA / PHASE TRANSITIONS** | **[C — ours, previously untagged!]** | the audit's find: Kibble-Zurek IS this subdomain and the model RUNS on it (the first-genesis domain formation, t343; the T_c condensation, the gate). The universality-class formalism (critical exponents, scaling) is the mathematics of our own transition. Upgraded from unlisted to content-node — the 13th voice |
 | **TOPOLOGICAL MATTER** (quantum Hall, topological insulators) | [R + kinship] | the quantized Hall conductance σ = νe²/h is topological protection — THE SAME MATHEMATICS as the winding's crunch-immunity (t338). A new lab-cousin row: nature already builds n∈ℤ-protected observables on benches. Kinship, not improvement |
 | quantum optics | [R] | rides QM exactly; hosts the Tsirelson-class tests (our permanent exam hall) |
 | metrology | [C-adjacent, existing] | already ours via Josephson/SI (the cousins) — now explicitly tagged as the subdomain |
 | solar physics / heliophysics | [I] | the nearest GEN-8 furnace; solar neutrinos [S — MSW ridden, passed] |
-| X-ray / gamma astronomy | [I] | instruments of the indirect-detection nulls (T15's watchers) |
+| X-ray / γ astronomy | [I] | instruments of the indirect-detection nulls (T15's watchers) |
 | granular media, rheology, soft matter, polymers | [I] | continuum children; nothing added, nothing owed |
 | semiconductors, magnetism (condensed), spintronics | [R]/[I] | GEN 13's substrate; ridden |
 | nanoscience / mesoscale | [I + parked note] | hosts 1/M₂ = 20 nm (the loose alignment — parked, unchanged) |

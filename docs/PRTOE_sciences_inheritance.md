@@ -3,9 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Operator-directed: the domains of science downstream of the threaded physics. Verdict: they
+*Author-directed: the domains of science downstream of the threaded physics. Verdict: they
 thread as INHERITANCE CHAINS (depth-2/3 of the DAG), each with a citable route to a root —
-and THREE carry genuine content beyond guaranteed normality. Booked def479.*
+and THREE carry genuine content beyond guaranteed normality. Booked internal record 479.*
 
 ## 0. The general theorem (medicine's lesson, generalized)
 

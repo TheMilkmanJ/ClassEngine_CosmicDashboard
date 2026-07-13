@@ -38,7 +38,7 @@ framework, yield the same effective metric:
 3. **The thermodynamic route** [Jacobson 1995]. Einstein's equations follow as an
    equation of state from the Clausius relation δQ = T dS applied to local horizons.
    Each input Jacobson requires was derived independently within the model before the
-   assembly was recognized [internal review t348–t366]: the work term dE = −p dV, the
+   assembly was recognized [internal review t348–366]: the work term dE = −p dV, the
    Hamiltonian constraint, the dissipative bookkeeping, and the area law (originally
    imported; see §4, item 2).
 
@@ -57,9 +57,9 @@ timing and passed identically.
 | Obstruction | Resolution in this framework | Grade |
 |---|---|---|
 | Non-renormalizability | Above the condensate's coherence scale there is no metric degree of freedom to renormalize; the problem relocates (explicitly, not evasively) to the substrate's microphysics | framework property |
-| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the resulting floor value is *computed*: ρ^{1/4} = 2.7 meV against the measured 2.25 meV — 20%, with zero adjustable parameters | derived; 20% residual open [t334] |
+| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the resulting floor value is *computed*: ρ^{1/4} = 2.7 meV against the measured 2.25 meV — 20%, with zero adjustable parameters | derived; 20% residual open [record 334] |
 | Weinberg–Witten (no composite gravitons) | Evaded by the preferred frame: Lorentz invariance is emergent/infrared, which is the recognized escape from the theorem's premises. The corresponding Lorentz-violation obligations are priced in a dedicated audit: matter carries no vector/tensor bridge to the frame (the dangerous operators are unwritable, not merely suppressed), leaving local physics Lorentz-invariant to the 10⁻¹²–10⁻³⁸ level demanded by clock-comparison and astrophysical bounds | paid [LV-pricing audit] |
-| Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property [t408] |
+| Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property [record 408] |
 | The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal | established mechanism, adopted [FFZ 1997; t422] |
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
@@ -146,5 +146,5 @@ the medium was quantum before there was anything to hear it.*
 structure and the scheme ambiguity §5 addresses).
 Volovik, *The Universe in a Helium Droplet*; Barceló–Liberati–Visser, *Analogue
 Gravity* — the framework's nearest ancestors.
-Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal provenance tags [tNNN]
-reference the repository's adversarial-review record.
+Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal provenance tags [record NNN]
+reference the repository's internal review record.

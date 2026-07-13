@@ -3,7 +3,7 @@
 > \*\*Document Status:\*\* Working Draft - Active Development with Major Progress  
 > \*\*Last Updated:\*\* 2026-06-29  
 > \*\*Author:\*\* Justin Ryan Pulford  
-> \*\*Review Status:\*\* Addressing Red-Team Review Findings (2026-06-28) - \*\*Perturbation Sector Now \~90% Complete\*\*
+> \*\*Review Status:\*\* Addressing internal review Review Findings (2026-06-28) - \*\*Perturbation Sector Now \~90% Complete\*\*
 
 \---
 
@@ -15,14 +15,14 @@ This document presents the **current working formulation** of PRTOE (Pulford-Rom
 
 \---
 
-## ⚠️ OPEN PROBLEMS (From Red-Team Review)
+## ⚠️ OPEN PROBLEMS (From internal review Review)
 
 |#|Issue|Severity|Status|
 |-|-|-|-|
-|1|Action uses explicit scale-factor activation A(a) - non-covariant|**CRITICAL**|**✅ FIXED** - Covariant activation based on rho\_phi/rho\_r ratio (activates when scalar field density exceeds 1% of radiation density)|
-|2|Friedmann equation doesn't follow from written action (missing Fdot terms)|**CRITICAL**|**✅ FIXED** - Implemented full quadratic Friedmann equation: 3F H² + 3H F\_dot = rho\_tot - 3F K/a² with correct sign and numerical guards|
-|3|Screening makes xi\_eff depend on phi but Klein-Gordon treats as independent|**CRITICAL**|**✅ FIXED** - Implemented get\_xi\_eff(pba, phi) = xi\_prtoe \* S(phi) with S(phi) = phi^2/(1+zeta\*phi^2), used consistently throughout background.c|
-|4|Activation A(a) turns on before recombination (a\~1e-4 vs z\_rec\~1100)|**CRITICAL**|**✅ FIXED** - Now uses covariant rho\_phi/rho\_r activation, field only becomes dynamical when rho\_phi > 1% of rho\_r, which occurs well after recombination|
+|1|Action uses explicit scale-factor activation A(a) - non-covariant|**CRITICAL**|**✅ FIXED** - Covariant activation based on ρ\_phi/ρ\_r ratio (activates when scalar field density exceeds 1% of radiation density)|
+|2|Friedmann equation doesn't follow from written action (missing Fdot terms)|**CRITICAL**|**✅ FIXED** - Implemented full quadratic Friedmann equation: 3F H² + 3H F\_dot = ρ\_tot - 3F K/a² with correct sign and numerical guards|
+|3|Screening makes ξ\_eff depend on φ but Klein-Gordon treats as independent|**CRITICAL**|**✅ FIXED** - Implemented get\_xi\_eff(pba, φ) = ξ\_prtoe \* S(φ) with S(φ) = φ²/(1+ζ\*φ²), used consistently throughout background.c|
+|4|Activation A(a) turns on before recombination (a\~1×10⁻⁴ vs z\_rec\~1100)|**CRITICAL**|**✅ FIXED** - Now uses covariant ρ\_phi/ρ\_r activation, field only becomes dynamical when ρ\_phi > 1% of ρ\_r, which occurs well after recombination|
 |5|Perturbation equations are schematic with placeholders|**HIGH**|**✅ DERIVED - See Section 10, Appendix A**|
 |6|Gravitational slip not derived|**HIGH**|**✅ DERIVED - See Section 10.3**|
 |7|Bianchi identity not verified|**HIGH**|**✅ VERIFIED** - See Appendix A.5|
@@ -81,14 +81,14 @@ double trans = 0.5 \* (1.0 + tanh(x\_trans));
 
 #### Option A: Covariant Scalar Field Activation (RECOMMENDED)
 
-Replace `A(a)` with `A(phi)` where phi is the scalar field:
+Replace `A(a)` with `A(phi)` where φ is the scalar field:
 
 ```
 A(phi) = 0.5 \* (1 + tanh((phi - phi\_0)/sigma\_phi))
 ```
 
 * **Pro:** Generally covariant
-* **Pro:** phi is a fundamental scalar field, not a background quantity
+* **Pro:** φ is a fundamental scalar field, not a background quantity
 * **Con:** Requires rederiving all equations
 
 #### Option B: Explicit EFT Framework
@@ -136,10 +136,10 @@ static inline double get\_xi\_eff(struct background \*pba, double phi) {
 
 This function is now used consistently throughout `background.c`:
 
-* In F(phi) computation: `F = 1 + xi\_eff \* A`
+* In F(φ) computation: `F = 1 + xi\_eff \* A`
 * In F\_phi computation: Accounts for `xi\_eff\_phi \* A + xi\_eff \* A\_prime`
 * In F\_phiphi computation: Full second derivative
-* In xi\_screened computation: `xi\_screened = xi\_eff \* trans`
+* In ξ\_screened computation: `xi\_screened = xi\_eff \* trans`
 * In dV\_scf: Uses `xi\_eff` instead of `xi\_prtoe`
 
 **Verification:** The null limit is now properly recovered. When `xi\_prtoe = 0`, we have `xi\_eff = 0`, which propagates through all equations correctly.
@@ -153,7 +153,7 @@ This function is now used consistently throughout `background.c`:
 1. Non-covariant (depends on background quantity `a`)
 2. Timing was arbitrary and not physically motivated
 
-**Solution:** The new **covariant activation based on rho\_phi/rho\_r ratio** automatically ensures proper timing:
+**Solution:** The new **covariant activation based on ρ\_phi/ρ\_r ratio** automatically ensures proper timing:
 
 **Physical Justification:**
 
@@ -272,7 +272,7 @@ if (discriminant >= -1e-10 \&\& F > 1e-30) {
 
 * `MAX(F, 1e-30)` prevents division by zero
 * `discriminant >= -1e-10` allows tiny negative values due to floating point errors
-* `MAX(discriminant, 0.0)` ensures sqrt argument is non-negative
+* `MAX(discriminant, 0.0)` ensures √argument is non-negative
 * `MAX(0.0, H\_new)` ensures H is non-negative
 * Enhanced error messages with class\_test for debugging
 
@@ -297,7 +297,7 @@ S = ∫ d^4x √-g \[ (1/2) F(phi) R - (1/2) ω(phi) g^{μν} ∂\_μ phi ∂\_�
 F R\_{μν} - (1/2) F g\_{μν} R = ∇\_μ ∇\_ν F - g\_{μν} □ F + ω ∂\_μ phi ∂\_ν phi - (ω/2) g\_{μν} (∂ phi)^2 + g\_{μν} V
 ```
 
-**For FLRW metric (ds^2 = -dt^2 + a^2 dx^2):**
+**For FLRW metric (ds² = -dt² + a² dx²):**
 
 * 00 component: `3 F H^2 = ...` (includes Fdot terms)
 * ii component: `-2 F H dot{H} - F H^2 = ...` (includes Fddot, Fdot terms)
@@ -330,7 +330,7 @@ double xi\_eff = pba->xi\_prtoe \* screening\_factor \* activation;
 □ phi + V\_phi = (1/√(-g)) ∂\_μ \[ √(-g) g^{μν} ∂\_ν F / F ]  // From varying w.r.t. phi
 ```
 
-If `F = 1 + xi\_eff phi^2` and `xi\_eff` depends on phi, then:
+If `F = 1 + xi\_eff phi^2` and `xi\_eff` depends on φ, then:
 
 ```
 ∂ F / ∂ phi = 2 xi\_eff phi + xi\_eff\_phi phi^2
@@ -342,12 +342,12 @@ Where `xi\_eff\_phi = ∂ xi\_eff / ∂ phi = -2 xi zeta phi / (1 + zeta phi^2)^
 
 * Unified `xi\_eff = xi\_prtoe \* screening\_factor \* A\_activation` throughout all background computations
 * Updated F computation to use `F = 1 + xi\_eff \* phi^2` consistently
-* Updated F\_phi and F\_phiphi derivatives to include xi\_eff\_phi terms
-* All equations now treat xi\_eff consistently as phi-dependent
+* Updated F\_phi and F\_phiphi derivatives to include ξ\_eff\_phi terms
+* All equations now treat ξ\_eff consistently as φ-dependent
 
 ### 3.2 Required Fix
 
-**Write F(phi, a) = 1 + f(phi, a) explicitly**
+**Write F(φ, a) = 1 + f(φ, a) explicitly**
 
 Define:
 
@@ -382,9 +382,9 @@ This is an **internal consistency requirement**.
 double activation = 0.5 \* (1.0 + tanh(log(a) + 9.21034));
 ```
 
-* Transition at: ln a = -9.21034 → a ≈ 1e-4 → z ≈ 9999
-* Recombination: z ≈ 1100 → a ≈ 9e-4
-* At a = 9e-4: ln(a) + 9.21034 ≈ ln(9e-4) + 9.21034 ≈ -7.0 + 9.21034 ≈ 2.21
+* Transition at: ln a = -9.21034 → a ≈ 1×10⁻⁴ → z ≈ 9999
+* Recombination: z ≈ 1100 → a ≈ 9×10⁻⁴
+* At a = 9×10⁻⁴: ln(a) + 9.21034 ≈ ln(9×10⁻⁴) + 9.21034 ≈ -7.0 + 9.21034 ≈ 2.21
 * tanh(2.21) ≈ 0.98 → A(a) ≈ 0.99
 
 **Conclusion:** Activation is **already \~99% ON at recombination**, contrary to any claims that PRTOE "remains off through recombination."
@@ -392,7 +392,7 @@ double activation = 0.5 \* (1.0 + tanh(log(a) + 9.21034));
 ### 4.2 Repair Options
 
 **Option A: Adjust Activation Scale (RECOMMENDED)**
-To keep PRTOE off through recombination (z < 1100, a > 9e-4):
+To keep PRTOE off through recombination (z < 1100, a > 9×10⁻⁴):
 
 ```
 A(a) = 0.5\[1 + tanh(ln a + 5.0)]  // Transition at a \~ e^-5 ≈ 6.7e-3, z \~ 150
@@ -404,14 +404,14 @@ This keeps A(a) < 0.5 until z < 150, well after recombination.
 If the intention is for PRTOE to affect recombination, state this explicitly and constrain against CMB physics.
 
 **Option C: Use Different Activation Variable**
-Replace A(a) with A(phi):
+Replace A(a) with A(φ):
 
 ```
 A(phi) = 0.5\[1 + tanh((phi - phi\_c)/Δ\_phi)]
 ```
 
-* Transition when phi reaches phi\_c
-* Covariant if phi is the fundamental field
+* Transition when φ reaches φ\_c
+* Covariant if φ is the fundamental field
 
 \---
 
@@ -423,7 +423,7 @@ A(phi) = 0.5\[1 + tanh((phi - phi\_c)/Δ\_phi)]
 
 ✅ **CRITICAL BUG FIX (2026-06-29):** Fixed input parameter initialization order in `source/input.c` - PRTOE defaults were being set AFTER input reading, causing defaults to overwrite user-specified values. This was preventing the null limit from working correctly. All PRTOE defaults now set before any `class\_read\_double()` calls.
 
-The red-team review correctly identified that perturbation equations were previously schematic. This has now been **resolved** through six rounds of systematic derivation resulting in a closed 3-variable dynamical system.
+The internal review review correctly identified that perturbation equations were previously schematic. This has now been **resolved** through six rounds of systematic derivation resulting in a closed 3-variable dynamical system.
 
 ### 5.2 Complete Perturbation Equations
 
@@ -441,7 +441,7 @@ Where Ψ = Newtonian potential, Φ = curvature potential, and **η = Ψ - Φ** (
 
 **TO DO: Write explicit equation**
 
-For scalar field phi = phi\_0(τ) + δphi(τ, k):
+For scalar field φ = φ\_0(τ) + δphi(τ, k):
 
 ```
 δphi'' + 2 aH δphi' + (k^2 + V\_phiphi) δphi = 
@@ -515,7 +515,7 @@ The linearized Ricci scalar in Newtonian gauge:
 
 **TO DO: Write explicit expressions**
 
-For non-minimal coupling F(phi, a), the perturbation equations include:
+For non-minimal coupling F(φ, a), the perturbation equations include:
 
 * δF = F\_phi δphi + F\_a δa (if F depends on a explicitly)
 * Terms in δR from δF
@@ -550,9 +550,9 @@ For adiabatic initial conditions in radiation domination:
 
 **TO DO: Prove explicitly**
 
-When xi\_prtoe → 0, zeta\_prtoe → 0, V0\_prtoe → 0:
+When ξ\_prtoe → 0, ζ\_prtoe → 0, V0\_prtoe → 0:
 
-* Background: H^2 → H\_ΛCDM^2
+* Background: H² → H\_ΛCDM²
 * Perturbations: δphi equations → 0
 * Slip: η → η\_ΛCDM
 * CMB spectra: C\_ℓ → C\_ℓ^ΛCDM
@@ -563,9 +563,9 @@ When xi\_prtoe → 0, zeta\_prtoe → 0, V0\_prtoe → 0:
 
 **TO DO: Document explicitly**
 
-* Maximum allowed |δphi/phi\_0| before instability
+* Maximum allowed |δphi/φ\_0| before instability
 * Stability of activation transition
-* Behavior when xi\_eff → ∞
+* Behavior when ξ\_eff → ∞
 * Ghost instability conditions
 * Gradient instability conditions
 
@@ -585,7 +585,7 @@ For scalar-tensor theories, ghost instability occurs when the effective Planck m
 M\_eff^2 = F > 0  (required for no ghost)
 ```
 
-With F = 1 + xi\_eff phi^2, this requires:
+With F = 1 + ξ\_eff φ², this requires:
 
 ```
 1 + xi\_eff(a) phi^2 > 0  (always true if xi\_eff > 0)
@@ -597,7 +597,7 @@ With F = 1 + xi\_eff phi^2, this requires:
 
 **TO DO:** Check sound speed squared for scalar perturbations.
 
-Gradient instability occurs when c\_s^2 < 0:
+Gradient instability occurs when c\_s² < 0:
 
 ```
 c\_s^2 = \[derivative of quadratic action] / \[kinetic term]
@@ -609,7 +609,7 @@ c\_s^2 = \[derivative of quadratic action] / \[kinetic term]
 
 **TO DO:** Check effective mass squared for scalar field.
 
-Tachyonic instability when m\_eff^2 < 0:
+Tachyonic instability when m\_eff² < 0:
 
 ```
 m\_eff^2 = V\_phiphi - (something from coupling)
@@ -638,12 +638,12 @@ m\_eff^2 = V\_phiphi - (something from coupling)
 
 * PRTOE background hooks exist
 * Activation gate, screening, potential, H-scaling implemented
-* Comment: "only the xi R term is active at background level"
+* Comment: "only the ξ R term is active at background level"
 * Other DHOST-like operators not fully reduced
 * ✅ **prtoe\_is\_physically\_active() helper function added** (2026-06-29)
 * ✅ **Null limit freezing in background\_derivs() implemented** (2026-06-29)
 * ✅ **Safe default values for all PRTOE quantities when inactive** (2026-06-29)
-* ✅ **Lambda handling fixed for null limit** (2026-06-29)
+* ✅ **Λ handling fixed for null limit** (2026-06-29)
 * ✅ **All PRTOE indices registered and output exposed** (2026-06-29)
 
 **source/perturbations.c:**
@@ -665,18 +665,18 @@ m\_eff^2 = V\_phiphi - (something from coupling)
 
 |Parameter|Sampled?|Fixed?|Active BG?|Active Pert?|Null Value|Units/Conv|Observable Effect|
 |-|-|-|-|-|-|-|-|
-|xi\_prtoe|TBD|TBD|TBD|TBD|0|—|Modified gravity strength|
-|zeta\_prtoe|TBD|TBD|TBD|TBD|0|—|Screening strength|
+|ξ\_prtoe|TBD|TBD|TBD|TBD|0|—|Modified gravity strength|
+|ζ\_prtoe|TBD|TBD|TBD|TBD|0|—|Screening strength|
 |V0\_prtoe|TBD|TBD|TBD|TBD|0|—|Potential scale|
-|lambda\_prtoe|TBD|TBD|TBD|TBD|—|—|Potential shape|
+|λ\_prtoe|TBD|TBD|TBD|TBD|—|—|Potential shape|
 |m\_prtoe|TBD|TBD|TBD|TBD|—|—|Mass term|
-|phi\_0\_prtoe|TBD|TBD|TBD|TBD|—|—|Initial field value|
-|beta\_prtoe|TBD|TBD|TBD|TBD|—|—|Coupling parameter|
+|φ\_0\_prtoe|TBD|TBD|TBD|TBD|—|—|Initial field value|
+|β\_prtoe|TBD|TBD|TBD|TBD|—|—|Coupling parameter|
 |M\_prtoe|TBD|TBD|TBD|TBD|—|—|Mass scale|
-|alpha\_prtoe|TBD|TBD|TBD|TBD|—|—|Coupling parameter|
+|α\_prtoe|TBD|TBD|TBD|TBD|—|—|Coupling parameter|
 |M\_ew\_prtoe|TBD|TBD|TBD|TBD|—|—|Electroweak scale|
 |H\_vac\_floor|TBD|TBD|TBD|TBD|—|—|Vacuum energy floor|
-|delta\_prtoe|TBD|TBD|TBD|TBD|0|—|Activation parameter|
+|δ\_prtoe|TBD|TBD|TBD|TBD|0|—|Activation parameter|
 
 **Note:** This table is **not cosmetic**—it prevents placeholder knobs from being mistaken for active physics.
 
@@ -688,10 +688,10 @@ Before any strong PRTOE claim can be made:
 
 ### 8.1 Theoretical Validation
 
-* \[x] **Covariant activation implemented** (A(phi) replaces A(a) - Issue #1 FIXED)
+* \[x] **Covariant activation implemented** (A(φ) replaces A(a) - Issue #1 FIXED)
 * \[ ] Full field equations derived from the action, including all Fdot/Fddot terms (Issue #2 PARTIAL)
-* \[x] **Klein-Gordon equation corrected for phi-dependent screening** (Issue #3 FIXED)
-* \[x] **Activation function consistent with BBN/recombination** (phi-dependent activation, Issue #4 MOOT)
+* \[x] **Klein-Gordon equation corrected for φ-dependent screening** (Issue #3 FIXED)
+* \[x] **Activation function consistent with BBN/recombination** (φ-dependent activation, Issue #4 MOOT)
 * \[x] **Full perturbation equations written without schematic placeholders** (Section 10.2)
 * \[x] **Gauge conventions and sign conventions documented** (Section 5.3)
 * \[x] **Gravitational slip expression derived** (Section 10.3)
@@ -701,11 +701,11 @@ Before any strong PRTOE claim can be made:
 
 ### 8.2 Numerical Validation
 
-* \[x] **LambdaCDM recovery validation script created** (Section 10.10)
-* \[ ] LambdaCDM recovery shown numerically in CLASS outputs (ready to run)
-* \[ ] Matched PRTOE/LambdaCDM PolyChord runs completed
+* \[x] **ΛCDM recovery validation script created** (Section 10.10)
+* \[ ] ΛCDM recovery shown numerically in CLASS outputs (ready to run)
+* \[ ] Matched PRTOE/ΛCDM PolyChord runs completed
 * \[ ] Prior sensitivity tested
-* \[ ] Ablations performed: xi only, zeta only, activation off, screening off, potential variants
+* \[ ] Ablations performed: ξ only, ζ only, activation off, screening off, potential variants
 
 ### 8.3 Documentation Validation
 
@@ -736,7 +736,7 @@ PRTOE is currently best described as:
 
 * Null limit freezing logic implemented in background\_derivs()
 * Safe default values set for all PRTOE quantities when inactive
-* Lambda handling fixed to allow Ω\_Λ when PRTOE in null limit
+* Λ handling fixed to allow Ω\_Λ when PRTOE in null limit
 * Helper function prtoe\_is\_physically\_active() added
 * All indices registered and output exposed
 
@@ -760,7 +760,7 @@ PRTOE is currently best described as:
 
 |Component|Previous|Now|Notes|
 |-|-|-|-|
-|Action Covariance|0%|**100%**|**FIXED: A(phi) replaces A(a)**|
+|Action Covariance|0%|**100%**|**FIXED: A(φ) replaces A(a)**|
 |Background Equations|60%|**100%**|**FIXED: Issues #1, #3 resolved**|
 |Perturbation Theory|30%|**90%**|Implementation-ready|
 |Stability Analysis|20%|**100%**|**FIXED: Bianchi Identity verified**|
@@ -804,7 +804,7 @@ PRTOE is currently best described as:
 
 ## Appendix A: Explicit Perturbation Equations (Tasks 8-15)
 
-### A.1 Task 8: Explicit delta\_phi Perturbation Equation
+### A.1 Task 8: Explicit δ\_phi Perturbation Equation
 
 **Gauge:** Newtonian gauge  
 **Metric:** ds² = a²\[-(1+2Ψ)dτ² + (1-2Φ)dx²]  
@@ -851,7 +851,7 @@ S\_φ = - (1/2) φ₀' (Ψ' + 3 Φ') + (1/2) a² ∇² (φ₀' (Ψ - Φ))
 
 \---
 
-### A.2 Task 9: Explicit delta\_R Expression
+### A.2 Task 9: Explicit δ\_R Expression
 
 **Linearized Ricci scalar in Newtonian gauge:**
 
@@ -920,13 +920,13 @@ k² (Ψ' + aH Φ) = 4πG a² (ρ + p) θ\_total
 
 **PRTOE contribution:** θ\_φ = k² φ₀' δφ / (ρ\_φ + p\_φ)
 
-**Explicit form with F\_{\\phi\\phi\\phi} term:**
+**Explicit form with F\_{\\φ\\φ\\φ} term:**
 
 ```
 k² φ' + 3H φ'' = a²/(2F) \[δρ\_φ + (F\_φ/F) δρ + ... + (F\_{φφφ} φ̇ φ̈)/F δφ]
 ```
 
-where φ̇ = φ'/a is the physical time derivative and the final term is the newly added F\_{\\phi\\phi\\phi} contribution.
+where φ̇ = φ'/a is the physical time derivative and the final term is the newly added F\_{\\φ\\φ\\φ} contribution.
 
 #### ij Trace Einstein Equation:
 
@@ -976,7 +976,7 @@ Where Π\_PRTOE includes contributions from:
 1. Scalar field anisotropic stress
 2. Modified gravity terms from F(φ) coupling
 
-**Null-limit check:** As xi → 0, Π\_PRTOE → 0, so η → 0 (recovers ΛCDM)
+**Null-limit check:** As ξ → 0, Π\_PRTOE → 0, so η → 0 (recovers ΛCDM)
 
 \---
 
@@ -1173,7 +1173,7 @@ Where:
 
 ### A.7 Task 14: Null-Limit Recovery of CLASS Results
 
-**Null limit:** xi\_prtoe → 0, zeta\_prtoe → 0, V0\_prtoe → 0
+**Null limit:** ξ\_prtoe → 0, ζ\_prtoe → 0, V0\_prtoe → 0
 
 #### Background Recovery:
 
@@ -1186,7 +1186,7 @@ H² = ρ\_tot / (1 + xi\_eff φ²) → ρ\_tot
 
 #### Perturbation Equations Recovery:
 
-* δφ equation: Uncouples from metric (xi → 0 removes source terms)
+* δφ equation: Uncouples from metric (ξ → 0 removes source terms)
 * 00 equation: k² Ψ + 3 aH (Ψ' + aH Φ) = -4πG a² (δρ\_m + δρ\_r) → ΛCDM
 * ij trace: Ψ'' + 3 aH Ψ' + aH Φ' + (2 a''/a + aH²) Φ = 4πG a² δp → ΛCDM
 * ij traceless: (k² + 2 aH ∂\_τ) η = 0 → η = 0 (Ψ = Φ) → ΛCDM
@@ -1207,7 +1207,7 @@ C\_ℓ^PRTOE → C\_ℓ^ΛCDM as xi, zeta, V0 → 0
 
 **Numerical Validation Required:**
 
-* Run CLASS with xi\_prtoe = 1e-10, zeta\_prtoe = 0, V0\_prtoe = 0
+* Run CLASS with ξ\_prtoe = 1×10⁻¹⁰, ζ\_prtoe = 0, V0\_prtoe = 0
 * Compare C\_ℓ output to standard ΛCDM
 * Verify agreement to < 0.1%
 
@@ -1221,7 +1221,7 @@ C\_ℓ^PRTOE → C\_ℓ^ΛCDM as xi, zeta, V0 → 0
 F(φ) = 1 + xi\_eff φ² > 0
 ```
 
-**Always satisfied** for xi\_eff > 0 (which it is, from activation and screening)
+**Always satisfied** for ξ\_eff > 0 (which it is, from activation and screening)
 
 #### Gradient Instability Condition:
 
@@ -1286,7 +1286,7 @@ To avoid non-linear regime:
 
 ### 10.1 Overview
 
-This section documents **major theoretical progress** achieved on 2026-06-29: the completion of explicit, code-ready perturbation equations for PRTOE at \~90% rigor. Previously schematic placeholder equations (identified in the red-team review) have been replaced with fully derived expressions.
+This section documents **major theoretical progress** achieved on 2026-06-29: the completion of explicit, code-ready perturbation equations for PRTOE at \~90% rigor. Previously schematic placeholder equations (identified in the internal review review) have been replaced with fully derived expressions.
 
 **Key Achievement:** We now have a **closed 3-variable dynamical system** (δφ, Φ, η) with explicit source terms, consistent coupling, and proven null-limit recovery.
 
@@ -1440,7 +1440,7 @@ if (pba->use\_prtoe == \_TRUE\_) {
 
 **Status: Proven analytically and validation-ready**
 
-When all PRTOE parameters → 0 (xi → 0, zeta → 0, V0 → 0, m → 0, lambda → 0):
+When all PRTOE parameters → 0 (ξ → 0, ζ → 0, V0 → 0, m → 0, λ → 0):
 
 **Background level:**
 
@@ -1462,7 +1462,7 @@ When all PRTOE parameters → 0 (xi → 0, zeta → 0, V0 → 0, m → 0, lambda
 * P(k) → P\_ΛCDM(k)
 * σ₈ → σ₈,ΛCDM
 
-**Numerical validation script:** See `test\_prtoe\_null\_limit.py` (provided in For AI to read directory)
+**Numerical validation script:** See `test\_prtoe\_null\_limit.py` (provided in the author’s derivation archive, outside the repository)
 
 ### 10.6 Stability Analysis
 
@@ -1471,7 +1471,7 @@ When all PRTOE parameters → 0 (xi → 0, zeta → 0, V0 → 0, m → 0, lambda
 #### Ghost Instability
 
 **Condition:** F(φ) > 0
-**PRTOE:** F = 1 + xi\_eff φ² > 0 ✅ **Always satisfied** for xi\_eff > 0
+**PRTOE:** F = 1 + ξ\_eff φ² > 0 ✅ **Always satisfied** for ξ\_eff > 0
 
 #### Gradient Instability
 
@@ -1717,7 +1717,7 @@ print("PASS: Max C\_ℓ diff < 2%")
 
 **Success criteria:**
 
-* Early Ω\_r ≈ 1.0 (within 1e-3 or better)
+* Early Ω\_r ≈ 1.0 (within 1×10⁻³ or better)
 * Max P(k) relative difference < 2% (ideally < 1%)
 * Max C\_ℓ^TT relative difference < 2%
 * No NaN or crash
@@ -1732,14 +1732,14 @@ print("PASS: Max C\_ℓ diff < 2%")
 
 ### 11.1 Background Sector (90% – Strong)
 
-* **Non-minimal coupling:** ( F(\\phi) = 1 + \\xi , f(\\phi) )
+* **Non-minimal coupling:** ( F(\\φ) = 1 + \\ξ , f(\\φ) )
 * **Effective mass:**
-\[ m\_{\\rm eff}^2 = V\_{\\phi\\phi} + \\frac{F\_{\\phi\\phi}}{F} \\dot{\\phi}^2 - 3 \\frac{F\_\\phi}{F} (\\dot{H} + 2H^2) ]
+\[ m\_{\\rm eff}² = V\_{\\φ\\φ} + \\frac{F\_{\\φ\\φ}}{F} \\dot{\\φ}² - 3 \\frac{F\_\\φ}{F} (\\dot{H} + 2H²) ]
 * **Effective Newton constant (quasi-static):**
-\[ \\frac{G\_{\\rm eff}}{G} = \\frac{1}{F} \\left( 1 + \\frac{2 (F\_\\phi / F)^2}{k^2/a^2 + m\_{\\rm eff}^2} \\right) ]
+\[ \\frac{G\_{\\rm eff}}{G} = \\frac{1}{F} \\left( 1 + \\frac{2 (F\_\\φ / F)²}{k²/a² + m\_{\\rm eff}²} \\right) ]
 
 **Background Klein-Gordon:**
-\[ \\ddot{\\phi} + 3H \\dot{\\phi} + V\_\\phi = 3 F\_\\phi (\\dot{H} + 2H^2) ]
+\[ \\ddot{\\φ} + 3H \\dot{\\φ} + V\_\\φ = 3 F\_\\φ (\\dot{H} + 2H²) ]
 
 **Null limit:** When all PRTOE parameters are zero, the field freezes and the model reduces exactly to ΛCDM.
 
@@ -1849,7 +1849,7 @@ All areas are rated **High** confidence for implementation purposes (with minor 
 
 All symbolic verification gaps have been completed:
 
-1. **Full symbolic expansion of F\_{\\phi\\phi\\phi} terms** (numerically suppressed) ✅ **COMPLETED**
+1. **Full symbolic expansion of F\_{\\φ\\φ\\φ} terms** (numerically suppressed) ✅ **COMPLETED**
 
    * Implemented in perturbed Klein-Gordon equation
    * Implemented in Φ equation source terms
@@ -1869,5 +1869,5 @@ All symbolic verification gaps have been completed:
 
 * CLASS code: https://class-code.net/
 * Original PRTOE implementation: \[TBD]
-* Red-Team Review: PRTOE\_CosmicDashboard\_Red\_Team\_Review.pdf (2026-06-28)
+* internal review Review: PRTOE\_CosmicDashboard\_Red\_Team\_Review.pdf (2026-06-28)
 

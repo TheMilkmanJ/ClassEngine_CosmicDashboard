@@ -3,11 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Operator-directed: the connection chain universe → galaxies → solar systems → planets, and the
+*Author-directed: the connection chain universe → galaxies → solar systems → planets, and the
 claim that this map, once built, IS the local-to-atomic map. Verified structurally: the descent
 crosses exactly ONE boundary (the medium's coherence hinge at ξ = 402 AU), below which every
 rung repeats one relationship. Companion to the transaction map. Status: STRUCTURAL
-(organizing + one computed column + one hinge fact). Booked def461.*
+(organizing + one computed column + one hinge fact). Booked internal record 461.*
 
 ## 0. The one column that spans everything
 
@@ -17,7 +17,7 @@ the cosmic coupling for the universe):
 
 | rung | size | α_eff | E_b/(mc²) = ½α² | coherence status |
 |---|---|---|---|---|
-| **UNIVERSE** (derived, def337) | 27.6 Gpc | 0.0214 | 2.3×10⁻⁴ | many-cell |
+| **UNIVERSE** (derived, internal record 337) | 27.6 Gpc | 0.0214 | 2.3×10⁻⁴ | many-cell |
 | galaxy cluster | ~3 Mpc | 3.3×10⁻³ | 5.6×10⁻⁶ | many-cell |
 | galaxy (MW) | ~30 kpc | 7.3×10⁻⁴ | 2.7×10⁻⁷ | many-cell |
 | **SOLAR SYSTEM** | 40–10⁵ AU | 1.0×10⁻⁴ | 5×10⁻⁹ | **THE HINGE (ξ = 402 AU inside it)** |
@@ -41,7 +41,7 @@ The medium's coherence length falls BETWEEN the planetary system (~40 AU) and th
   quantum-coherent cell — the medium is a featureless, coherent, gate-screened background.
   ONE relationship, repeated at every rung.
 
-## 2. The operator's bet, graded
+## 2. The author's bet, graded
 
 *"The universe→planets map gives the local→atomic map"* — TRUE, with the mechanism now
 explicit: the inter-rung physics above the hinge (binding grammar + channel shares + screens)

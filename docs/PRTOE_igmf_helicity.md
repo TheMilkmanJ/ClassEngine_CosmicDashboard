@@ -10,7 +10,7 @@ already have ONE MEASURED MEMBER sitting in published data.*
 
 ## 0. The claim in the literature
 
-Parity-odd statistics of diffuse gamma-ray arrival directions (Tashiro–Vachaspati class
+Parity-odd statistics of diffuse γ-ray arrival directions (Tashiro–Vachaspati class
 analyses of Fermi-LAT data) have yielded persistent ~2σ-level indications of a HELICAL
 intergalactic magnetic field — with LEFT-handed helicity — at ~10⁻¹⁴ G-class strengths on Mpc
 scales. Disputed, unconfirmed, systematics-debated — but published, repeated, and exactly the

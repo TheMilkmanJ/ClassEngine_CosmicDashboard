@@ -4,7 +4,7 @@
 
 
 *Thread 15's standalone; T9's sibling (underground silence → sky silence). Status: STRUCTURAL —
-the null is FORCED by the conserved dark charge (banked) and the portal scale (def357).
+the null is FORCED by the conserved dark charge (recorded) and the portal scale (internal record 357).
 The improvement: every DM-annihilation "excess" of the last two decades is PREDICTED
 astrophysical, from theorems — with the same unhedgeable exposure as T9.*
 
@@ -15,13 +15,13 @@ excess, the 511 keV positron line, the AMS positron fraction, (formerly) the 3.5
 line. Each has spawned DM interpretations with tuned cross-sections; each remains contested or
 has died conventionally (3.5 keV: eROSITA).
 
-## 1. The forced null (each clause banked)
+## 1. The forced null (each clause recorded)
 
 1. **The dark charge is CONSERVED** — charge = abundance (the founding AD structure); the
-   banked dark-antimatter reframe (the never-annihilating ~30% counter-charge) exists
+   recorded dark-antimatter reframe (the never-annihilating ~30% counter-charge) exists
    PRECISELY because the medium cannot annihilate its charge away. No annihilation channel
    exists AT ALL — not suppressed: absent by conservation law.
-2. **Decay to the SM runs through the portal at ~3.5×10¹⁷ GeV** (def357's geometric mean) —
+2. **Decay to the SM runs through the portal at ~3.5×10¹⁷ GeV** (internal record 357's geometric mean) —
    lifetimes beyond cosmological by dozens of orders. No decay signals.
 3. **The quanta are 2×10⁻²⁰ eV condensate modes** — there is no particle pair to annihilate
    into photons at ANY energy a telescope observes.

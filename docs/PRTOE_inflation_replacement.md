@@ -4,7 +4,7 @@
 
 
 > **STATUS: MIXED.** The structural pieces (the bounce, the conformal phase, the cyclic
-> geometry) are banked; the tilt derivation is EXPLORATORY (review-hold, sweeps 3–6).
+> geometry) are recorded; the tilt derivation is EXPLORATORY (review-hold, entries 3–6).
 > This file assembles what was never assembled: the model answers every problem inflation
 > was invented for, without an inflaton.
 
@@ -19,7 +19,7 @@ and eternal-inflation's multiverse.
   the singularity) — causal contact is inherited from the previous cycle. No superluminal
   trick needed; the sky is one temperature because it has always been one system.
 - **Flatness/geometry**: the compact flat torus is the model's standing geometry (the omk
-  run: curvature offered, declined — def333); geometry is inherited through the bounce,
+  run: curvature offered, declined — internal record 333); geometry is inherited through the bounce,
   not driven flat.
 - **Relics**: no GUT phase transition is invoked → no monopole problem to dilute. The one
   topological object (the winding) is not a relic problem — it is the GENOME, and its
@@ -31,18 +31,18 @@ and eternal-inflation's multiverse.
   $$n_s - 1 = -\frac{2}{\ln(M_{\rm Pl}/T_{\rm on})} = -0.036 \;\;\text{vs measured}\; -0.0351 \pm 0.0042$$
   Zero new objects — the tilt of the primordial sky is the census's running,
   photographed. (Inflation FITS n_s with potential parameters; this DERIVES it from two
-  banked scales.)
+  recorded scales.)
 - **The isocurvature signature**: inflation must suppress isocurvature; this model
   PREDICTS a specific %-level line at ℓ ~ 170 (P-031, now a consequence of the λ
   saturation) — a discriminant, not an embarrassment.
 
 ## 2. What the model does NOT need
 No inflaton, no slow-roll tuning, no reheating theory, no measure problem, no eternal
-inflation, no multiverse. The price paid instead: the cyclic/bounce machinery (banked),
+inflation, no multiverse. The price paid instead: the cyclic/bounce machinery (recorded),
 and the A_s amplitude count (1/N census form — the one seed number still owed).
 
 ## 3. Kills
-(i) zon moving T_on enough to break the tilt's landing; (ii) a confirmed tensor-to-scalar
+(i) the α_c MCMC moving T_on enough to break the tilt's landing; (ii) a confirmed tensor-to-scalar
 ratio r at inflationary levels (the bounce predicts r far below current bounds — a
 detection of r ~ 0.01+ would resurrect the inflaton and kill this file); (iii) P-031's
 line absent at sensitivity (kills the seed mechanism's λ-saturation leg); (iv) the A_s
@@ -50,4 +50,4 @@ count failing catastrophically when computed.
 
 ## Sources
 [Planck2018] (n_s, r bounds), [PlanckIso2019], internal: §19–22, the bounce file
-(PRTOE_bigbang_no_singularity.md), sweeps 3–6, P-031. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+(PRTOE_bigbang_no_singularity.md), entries 3–6, P-031. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

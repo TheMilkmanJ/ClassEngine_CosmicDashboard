@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 10. Status: STRUCTURAL — one NEW computed null (tonight), one banked parity-odd
+*Thread 10. Status: STRUCTURAL — one NEW computed null (tonight), one recorded parity-odd
 channel with a genome signature, one flagged interior prong. The improvement: the model makes
 its GW sector's silences and signatures SPECIFIC where standard cosmology leaves them generic.*
 
@@ -25,9 +25,9 @@ and therefore a PREDICTION: no vortex-network contribution to the NANOGrav-class
 The observed PTA common signal must be astrophysical (SMBH binaries) in this model; a
 demonstrated cosmic-string-network component with Gμ ≳ 10⁻¹¹ would be foreign blood — a kill.
 
-## 2. The parity-odd channel — the model's distinctive GW mark (banked, L1a's fine print)
+## 2. The parity-odd channel — the model's distinctive GW mark (recorded, L1a's fine print)
 
-The constitutional text (L1a, banked): the medium cannot reach the PHOTON with parity-odd
+The constitutional text (L1a, recorded): the medium cannot reach the PHOTON with parity-odd
 couplings (the birefringence zero) — but it CAN carry a parity-odd GRAVITATIONAL coupling,
 θ·R·R̃ → gravitational waves. Consequence, joined to tonight's structures: **a circularly-
 polarized (chiral) component of any primordial GW background, with handedness set by the
@@ -36,7 +36,7 @@ genome's sign** — the SAME topological draw as the baryon asymmetry and the ma
 metric ripples. (Amplitude un-computed — flagged; the SIGN correlation is the falsifiable
 content whenever any two members are measured.)
 
-## 3. Ringdowns, echoes, and the interior (def411's flag, kept at its size)
+## 3. Ringdowns, echoes, and the interior (internal record 411's flag, kept at its size)
 
 BH exteriors are standard to current precision (the null stance); the finite core replaces the
 singularity at depths current ringdown data cannot resolve. IF pursued: core-boundary
@@ -44,7 +44,7 @@ microstructure generically imprints late-time echoes — amplitude un-computed, 
 as the interior document's honest prong. LIGO/Virgo/ET constraints on echoes are, so far,
 consistent with silence — which costs the model nothing (the core sits deep).
 
-## 4. The banked collision retired honorably
+## 4. The recorded collision retired honorably
 
 ANN-2026-010 (the ε-collision with PTA reach) remains the bookkept boundary: the medium's
 strain-scale sits below PTA sensitivity — the GW sector neither rescues nor threatens the

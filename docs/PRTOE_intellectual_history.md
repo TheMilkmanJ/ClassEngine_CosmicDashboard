@@ -28,7 +28,7 @@ present.
 
 The model began, more than a year before the first CLASS fork, as a single
 sentence: **"mass, gravity, and density dictate spatial expansion."** It
-worked, but not well — H0 trouble from the start. What followed was a
+worked, but not well — H₀ trouble from the start. What followed was a
 sequence of conceptual amputations, each one removing a term that turned
 out to be redundant or derivative:
 
@@ -42,7 +42,7 @@ out to be redundant or derivative:
    equation of state, not a separate density variable.)
 3. **Matter alone remained** — then was placed *inside fluid space*: matter
    as a phase of a fluid medium rather than a separate substance sitting on
-   a stage. This gave excellent S8 behavior and poor H0.
+   a stage. This gave excellent S₈ behavior and poor H₀.
 4. **The environmental breakthrough** — the realization that expansion is
    dictated not by matter alone but by **whichever entity dominates the
    environment at the time**. Radiation was the first addition and pulled
@@ -61,7 +61,7 @@ its inhabitants co-determine each other.
 ## v1–v3: The non-minimal coupling era (died completely)
 
 The first formalization coupled a scalar field to curvature — F(φ)R — and
-tried to buy H0 relief from the induced sound-horizon shift, with screening
+tried to buy H₀ relief from the induced sound-horizon shift, with screening
 machinery to survive solar-system tests. Four independent rescue mechanisms
 were attempted and each failed *by direct calculation*, not by taste:
 the trace-kick from φ=0, the ξ₁ sign flip, the λ sign flip, and negative
@@ -142,7 +142,7 @@ environment passes thresholds set by what's growing in it.
 
 The same audit produced the model's falsifiability spine: the completion's
 entire tuning freedom reduced to one number (x₀ ≲ e⁻³⁵, set by BBN), and
-the H0 mechanism's anatomy — the acoustic-scale ridge, the damping-tail
+the H₀ mechanism's anatomy — the acoustic-scale ridge, the damping-tail
 tax, and the recombination-timing lever (varying m_e) that evades the tax
 where the radiation lever could not.
 
@@ -150,10 +150,10 @@ where the radiation lever could not.
 
 - On Planck+BAO+SN alone: dCDF beat ΛCDM by 19.2 in χ².
 - ACT DR6 clawed essentially all of it back; the joint-stack refit landed
-  at H0 = 69.05, ξ = 0.142 — *exactly* where the ridge analysis predicted
+  at H₀ = 69.05, ξ = 0.142 — *exactly* where the ridge analysis predicted
   it would — and the refit ΛCDM twin is converging to a statistical tie.
 - The model's live claim is therefore: **equal fit quality across every
-  dataset simultaneously, with H0 = 69.0 and S8 = 0.823 instead of
+  dataset simultaneously, with H₀ = 69.0 and S₈ = 0.823 instead of
   ΛCDM's 67.4 / 0.833** — both tensions eased directionally, at zero χ²
   cost, for one extra parameter.
 - The m_e coupling (the possible fourth graft) is under profile test as
@@ -176,8 +176,8 @@ and the session memory files.*
 
 ## Addendum (2026-07-06 afternoon): the nine-turn review
 
-The model's hardest day was an adversarial review by a second AI
-(the internal adversarial-review record (private; turn-tags cited for provenance)), conducted as a turn-based file dialogue with
+The model's hardest day was an independent second review
+(the internal review record; private, turn-tags cited for provenance), conducted as a turn-based written exchange with
 pre-registered bets and written concessions on both sides. Six attacks
 opened it; nine turns closed it. In between: the unfalsifiability
 pincer was broken on paper at the attacker's own chosen line, the
@@ -189,4 +189,4 @@ leg, and the review's extracted qualifiers were promoted into the
 document's headline with turn attributions preserved. The reviewer's
 closing verdict: "a smaller, harder, more honest object than the one I
 opened fire on." The method — the file, the bets, the attributions —
-is as much a result of this project as any chi-squared.
+is as much a result of this project as any χ-squared.

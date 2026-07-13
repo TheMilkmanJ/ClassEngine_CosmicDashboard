@@ -1,4 +1,4 @@
-# THE LORENTZ-VIOLATION PRICING PASS — def373's owed ledger, executed (2026-07-12)
+# THE LORENTZ-VIOLATION PRICING PASS — internal record 373's owed ledger, executed (2026-07-12)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -21,9 +21,9 @@ the constitution — the dangerous operators are not suppressed, they are UNWRIT
 
 ## 1. The table (sector → the model's coefficient → the bound → margin)
 
-| sector / operator | model's value | bound | margin |
+| sector / author | model's value | bound | margin |
 |---|---|---|---|
-| photon, all dims (tree) | **0 — EM-neutrality** (banked, birefringence-null) | — | exact |
+| photon, all dims (tree) | **0 — EM-neutrality** (recorded, birefringence-null) | — | exact |
 | photon dim-5 (loop, via graviton) | ≲ 10⁻³⁰ (double-suppressed) | ξ ≲ 10⁻¹ (Fermi GRB) | ~29 orders |
 | photon dim-6 | (E/M_Pl)² ~ 10⁻³² at TeV | ~10⁻¹⁶ reach | ~16 orders |
 | electron dim-3 b_μ (grav-induced) | ~ρ_inf^½/M_Pl ≈ 4×10⁻³⁴ eV | 10⁻²² eV (10⁻³¹ GeV, torsion/clocks) | **~12 orders** |
@@ -31,7 +31,7 @@ the constitution — the dangerous operators are not suppressed, they are UNWRIT
 | matter dim-5 (Majoron-derivative, the ONE real channel: ∂θ·J_L, leptophilic) | (m_ν/Ψ₀)·θ̇ ~ 10⁻⁶⁰ eV | 10⁻²² eV | ~38 orders |
 | gravity: c_T (GW speed) | = c EXACTLY (one metric) | 10⁻¹⁵ [GW170817] | by construction |
 | gravity: PPN α₁, α₂ (preferred-frame) | ~ local medium fraction ρ_cosmo/ρ_☉ ~ 10⁻²⁹ | 10⁻⁴ / 4×10⁻⁷ | ~22 orders |
-| clock/Oklo (ṁ_e today) | 0 — the window closed at z ≈ 50 | the Oklo fence | banked ✓ |
+| clock/Oklo (ṁ_e today) | 0 — the window closed at z ≈ 50 | the Oklo fence | recorded ✓ |
 | the window era (50 < z < z_high) | ε = 1.25% m_e shift | the CMB fit ITSELF | = the model's evidence, not a bound |
 
 ## 2. Verdict

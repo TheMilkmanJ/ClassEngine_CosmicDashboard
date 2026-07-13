@@ -63,9 +63,9 @@ quark). For the CMB the electron piece dominates:
      c ≈ 1        (gravitational strength; naturalness ceiling DERIVED §75,
                    "forced vs free dial" OPEN — #14 loop calc)
      f_amp ≈ 0.6  (genesis dice — COMPUTED)
-     Ψ₀/M_red ≈ 2.2%  (misalignment abundance — TRACED, ∝ m^-1/4 robust)
+     Ψ₀/M_red ≈ 2.2%  (misalignment abundance — TRACED, ∝ m⁻¹/4 robust)
   enters CLASS via  **σ_T ∝ α²/m_e²**  and binding ∝ m_e  →  shifts recombination
-  →  eases H0 to ≈ 70.
+  →  eases H₀ to ≈ 70.
   [TRACED — value not yet derived (c is the one open knob); CMB fit real]
 
 ## ACT 6 — Structure formation: the screening
@@ -78,7 +78,7 @@ universe), screened to lab value inside virialized structure (Θ saturates).
   [screening MANDATORY (Room 2); void step P-007 = falsification path]
 
 ## ACT 7 — Today: the observables & the ledger's two other outputs
-  H0 ≈ 70.1 ± 0.7,  S8 ≈ 0.82,  Σm_ν 95% < ~0.15–0.17 eV (inverted hierarchy OPEN)
+  H₀ ≈ 70.1 ± 0.7,  S₈ ≈ 0.82,  Σm_ν 95% < ~0.15–0.17 eV (inverted hierarchy OPEN)
   the dark fluid's equation of state runs:
     **w: 1/3 (normal, early) → 0 (condensate = dark matter) → −1 (floor = dark energy)**
   master relations:
@@ -93,8 +93,8 @@ R=0 → genesis makes a charged superfluid (Ψ₀, f_rot) → while it is massle
 keeps ONE cheap direct account with matter, which heals deuterium at BBN → it
 condenses, acquires mass, and naturalness FORCE-CLOSES that account (the census
 switches to gravity-only forever) → the gravity-only condensate universally
-shifts m_e by 1.24% at recombination, easing H0 → the shift is screened inside
-structure → today: H0≈70, dark matter + dark energy from one fluid, a universal
+shifts m_e by 1.24% at recombination, easing H₀ → the shift is screened inside
+structure → today: H₀≈70, dark matter + dark energy from one fluid, a universal
 varying-constant drift at the edge of detection.
 
 ## The honest ledger of what's DERIVED vs OWED
