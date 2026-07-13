@@ -4042,3 +4042,41 @@ two readings, and the physics question is beautiful: **9/10 = the neutrinos are 
 are EXTERNAL recipients like every other flavor.** The medium either houses them or
 pays them. The independent f̄ ensemble and the α_c chain decide — ε cannot (the
 degeneracy, entry 112).
+
+## ENTRY 113 — CHASING 12/13 EXPOSES A ROSTER ERROR: GRAVITY IS BLIND, AND WE USED THE COUPLING CENSUS FOR THE GRAVITATIONAL SUM
+
+*The author refused to drop the 12/13 thread. Chasing it produced something better than
+the connection he was chasing.*
+
+**THE ERROR (ours, structural, and it has been there since entry 78):** the induced-G
+species sum was built on the LEPTONIC roster (9 components) — but that roster is the
+DYAD's census: who the medium gives mass to. **The induced-gravity loop is a
+GRAVITATIONAL sum, and gravity is blind (L1: it reads energy, not identity). Every
+field that lives in the vacuum contributes — quarks, gluons, the photon, the Higgs.**
+We used the coupling census where the model's own blindness law demands the full
+content. The author's "12 flavors" instinct is what surfaced it.
+
+**THE FULL STANDARD-MODEL SUM (minimal-scalar units, post-supertrace):**
+- 48 Weyl fermions (3 generations × 16, with right-handed neutrinos): **+48**
+- 12 gauge bosons (8 gluons + W±, Z + photon; massless vectors carry −4 units each): **−48**
+- the Higgs doublet (4 real components): **4(1 − 6ξ_H)**
+
+**THE FERMIONS AND GAUGE BOSONS CANCEL EXACTLY: 48 − 48 = 0.** The entire visible
+sector contributes *nothing* to the induced Newton constant. (This is a known feature of
+the SM's content — it is precisely why induced-gravity model-builders have always needed
+beyond-Standard-Model scalars.) What survives is the scalar sector alone: str ≈ 4(1−6ξ_H),
+which reaches 12π only at an unmotivated ξ_H ≈ −1.4.
+
+**CONSEQUENCES:**
+1. **The roster must be rebuilt.** The medium's own modes (the 9 + the collective sector,
+   entries 110/110b) sit ON TOP of the SM content — additional, not instead. Every
+   previous species sum in this corpus (entries 78–112) used the wrong census.
+2. **The closure still does not close** — and it is now failing from a *correctly
+   constituted* roster for the first time, which makes the failure more meaningful, not
+   less.
+3. **The 12/13 ↔ 12π connection is still not there** (the 12 in 12π derives to 6 × 2:
+   conformal weight × loop measure). But the author's refusal to drop it forced a real
+   structural correction — **worth more than the connection he was hunting.**
+
+*Filed as the session's most valuable adverse finding: a kup that missed its target and
+hit something bigger on the way past.*
