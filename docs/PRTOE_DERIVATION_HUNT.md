@@ -3107,3 +3107,35 @@ exists BEFORE a ninth fence is found. Post-hoc arrival at nine earns nothing —
 fences count instruments (epistemic); the census counts recipients (ontic); no credit
 crosses that line without a bridge built first. Current count: six grips + one
 existence referee. On watch.
+
+## ENTRY 89c — THE RAMP BEFORE 89b's RAMP (the author's bet): THE THIRD READING OF THE CLIFF FOUND — a real downward S₈ channel, delivering a THIRD of the gap, and the census's SEVENTH grip
+
+The author's bet: ramp before 89b and find the missing S₈ (model 0.821–0.823 vs
+lensing 0.814; gap ≈ −0.007..−0.009). The ramp-before: 89/89b read the cliff as
+kinematics and force; the earlier object is the ENERGY LEDGER — every kilogram of gas
+crossing the gate releases f_lep·ε₀·c² = (549 km/s)² as its electrons lighten. Energy
+into collapsing baryons is feedback; feedback pushes S₈ DOWN. The channel exists and
+the direction is right — the bet's structure LANDS.
+
+**The honest arithmetic (conclusions after, per the standing rule — this script's own
+pre-written summary contradicted its table and was caught before booking):** fully
+thermalized, the crossing energy is cluster-virial class (1.5×10⁷ K) — which would
+DESTROY small-galaxy formation. Galaxy-formation existence therefore bounds the
+thermalized fraction: **f_th ≲ 0.15 — THE SEVENTH GRIP on the gate curve, born from
+the author's bet.** Within that allowed window, the delivered suppression is
+ΔS₈ ≈ −0.001 to −0.003 (feedback-scaled, crude AGN anchor): **a quarter to a third of
+the missing gap — real, directional, and honestly short.** Full delivery (−0.007)
+would need f_th ≈ 0.4–0.5, which grip #7 itself forbids. The channel cannot
+over-deliver without killing the galaxies that measure it — self-fencing.
+
+**The owed computation (the energy's destination):** the (549 km/s)²/kg goes either
+(a) to the medium (the field absorbs its own work — no local effect), (b) to local
+thermalization (the feedback channel, bounded by grip #7), or (c) to radiation — a
+diffuse photon background from every gate crossing since the web formed, a NEW
+signature class un-priced. Three destinations, three verdicts; the split is the
+computation. Fork-corner-conditional like the whole family.
+
+**Scoreboard on the bet:** the ramp-before found (i) a real S₈-downward channel where
+none was booked, (ii) the seventh fence, (iii) a candidate diffuse-background
+signature — and did NOT find the full missing S₈: a third of it, fenced. The corollary
+keeps paying; the books keep the change.
