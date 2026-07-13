@@ -4134,3 +4134,42 @@ gravity; any emergent-gravity model's G rides entirely on its scalar content).
 *The model asked whether it could compute Newton's constant. The answer, arrived at by
 its own laws, its own blindness clause, and its own pre-registered terms, is: it was
 never the model's question to answer. The wall comes down. The house stands.*
+
+## ENTRY 114b — THE TERMINATION IS VACATED (process error 29, the author's catch — THIRD premature verdict on this question in one day)
+
+*A termination is a verdict, and verdicts inherit the triage (procedure 5b). I filed
+that law this morning and then violated it this afternoon. The author's six words caught
+it for the third time today.*
+
+**UNWALKED RAMP 1 — "ξ_H is outside our jurisdiction." FALSE, AND OUR OWN ENTRY 108
+PROVES IT.** In an emergent-gravity framework **non-minimal couplings are OUTPUTS, not
+inputs** — we derived exactly this for the amplitude mode (ξ_amp was fixed by how the
+mode sits in the acoustic metric, not by any Lagrangian we chose). The same logic binds
+every field: **how the Higgs couples to the emergent metric is determined by how the
+Higgs propagates in the medium.** ξ_H is derivable within the framework. The
+jurisdiction argument — the entire basis of the termination — collapses.
+
+**UNWALKED RAMP 2 — "the SM cancels exactly, 48 − 48 = 0."** The gauge weight rests on
+the massless-vector **contact term (Kabat), which I flagged as literature-disputed at
+entry 106 and dismissed because "our roster contains no vectors." The rebuilt roster
+contains TWELVE.** Under the alternative conventions the SM contributes **+24 to +36 —
+the same order as the 12π ≈ 37.7 demand.** The cancellation is not robust; the closure's
+fate rides a coefficient the literature has not settled.
+
+**STATUS: the G-closure is UNDECIDED. Not dead, not alive — and I have now issued THREE
+premature verdicts on it in one day (death, reprieve, termination), every one on
+unwalked steps. That pattern is the day's real finding, and it is about me, not the
+physics.**
+
+**THE ZOMBIE RISK, NAMED HONESTLY:** a claim that dies and revives on every new
+consideration is not a phoenix — it is a zombie, and the corpus must not host one. The
+only thing separating them is whether the next test is FINITE and PRE-REGISTERED. It is,
+and there are exactly two computations left:
+  **(i)** derive ξ for EVERY field from the emergent-metric coupling structure — the
+  same machinery that produced ξ_amp's split coupling. **One calculation, not a family
+  of guesses.**
+  **(ii)** settle the vector contact term against the literature — a citation question,
+  not a physics question.
+**PRE-REGISTERED, FINAL: if those two land and the sum still misses at a legal coherence
+scale, the closure is TERMINATED — and that verdict's own ramps will be walked BEFORE it
+is issued, not after.** No fourth reprieve. No fifth life.
