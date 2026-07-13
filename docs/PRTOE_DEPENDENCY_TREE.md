@@ -63,7 +63,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G: 1/G ∝ −str·K² with str = 2(1−6ξ) + 18 − |w|·n (entries 80/82/86) | the roster + the regulator ramp + the a₁ weights (verified) + **the winding's Kelvin sector (the sign's closer — weight underived)** | [D-conditional] — signed demand −12π met at ξ = −3/2, n = 19 (massless weight; 0.8%, correct sign); matter-only branch CLOSED ADVERSE; coincidence-watch | an independent ξ off −3/2; the comb reading n outside ~19–25; the Kelvin-weight session failing; the doubling adjudication |
+| induced-G: |str| = 38 vs 12π at ξ = −3/2 (entries 80/82/86/87) | the roster + the regulator ramp + the a₁ weights (verified) | [D-conditional, SIGN = ONE OPEN BIT] — magnitude 0.8% convention-independent; the vector escape dead fourfold (entry 87); the sign hangs on the action-matching convention (+str: healthy at ξ = −3/2; −str: wrong-sign, no rescue) | an independent ξ off −3/2; the one-bit session landing on −str; the doubling adjudication |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 

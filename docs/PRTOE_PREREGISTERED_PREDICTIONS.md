@@ -2065,3 +2065,13 @@ closure while leaving the original P-029 registration to its own registered kill
 conditions. Status: coincidence-watch until the Kelvin-mode weight is derived (the
 named session); the two duties share one integer only if the Kelvin count equals the
 winding count — itself an assumption the weight session must adjudicate.
+
+---
+
+## ANN-2026-024: ANN-2026-023's second duty VOIDED (2026-07-13, same day)
+
+The Kelvin-weight session (hunt entry 87) killed the vector-sector closure fourfold
+(the global winding is coreless; measure 10⁻²⁵; infrared 10⁻²⁵; the halo route
+kinematically excluded). **P-2026-029's tooth count no longer referees the G-closure's
+sign.** The comb returns to its single registered duty. The registry records both the
+flag and its retirement within one day — the audit chain working at its designed speed.

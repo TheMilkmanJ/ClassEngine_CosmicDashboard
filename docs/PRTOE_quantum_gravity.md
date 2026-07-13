@@ -116,32 +116,31 @@ Two readings, stated honestly:
   The measurement converts the framework's deepest assumption into its sharpest
   falsifier: *any independent determination of ξ must land at −3/2 (within the stated
   band), or this framework is dead.*
-- The sign chain is now anchored and ROUTED (the check this section owed ran
-  2026-07-13, internal record 86): under Visser's Eq. (21) the demand is *signed*
-  (str = −12π; attraction needs a negative supertrace), and the matter-only roster —
-  all-positive after the corrected weights — cannot meet it at any reasonable ξ. What
-  closes the sign is the sector the original count omitted: **the medium's own vortex
-  (Kelvin-class) collective modes**, the winding's vector sector, which carries the
-  only negative weights this model owns. Keeping ξ = −3/2, a massless-vector weight
-  closes the demand at **n = 19 winding quanta — the same 0.8% landing, correct
-  sign** — and n is independently measurable (the model's registered CMB-comb
-  prediction targets exactly this integer, with its formation-dynamics band at
-  11–25). The framework's sharpest sentence is now: *gravity attracts because the
-  universe spins* — and it is doubly falsifiable: an independent ξ off −3/2 kills it,
-  and a comb tooth-count off ~19–25 kills it separately. The Kelvin sector's actual
-  heat-kernel weight is the named open computation; until it is derived, the
-  co-landing is held at coincidence-watch grade.
+- The sign chain ran end-to-end (internal records 86–87) and reduced to **one bit**.
+  Anchored to Visser's Eq. (21), the demand is signed (attraction needs str < 0) and
+  the matter-only roster cannot meet it; the candidate rescue — the winding's vortex
+  modes as a negative-weight vector sector — was audited within hours and **died
+  fourfold** (the global winding is coreless; line modes are measure-suppressed at
+  10⁻²⁵; lattice modes are infrared-suppressed at 10⁻²⁵; halo lattices are
+  kinematically fenced). What survives is sharp: the **magnitude** landing
+  (|str| = 38 vs 12π at ξ = −3/2, 0.8%) is convention-independent; the **sign** hangs
+  entirely on whether the physical continuation of the effective-action matching gives
+  1/G ∝ +str (this framework healthy, exactly as stated above) or ∝ −str (wrong-sign
+  gravity, no rescue in the current content). That single convention bit — adjudicated
+  at equation level in the emergent-metric frame, not from lore — is the computation's
+  one remaining open item, and the framework's honesty requires stating that both
+  outcomes are live until it is run.
 
 **5.4 Open items on this computation** (named, none hidden): (i) ~~the heat-kernel
 weight-ratio convention~~ **EXECUTED 2026-07-13** — magnitudes confirmed, the fermion
 block's sign corrected; (ii) ~~the end-to-end sign chain~~ **EXECUTED 2026-07-13**
 (record 86) — the matter-only branch closed adverse; the sign routes through the
-winding's vector sector; (iii) **the Kelvin-mode weight derivation** — whether the
-vortex modes live at the coherence scale and with which vector-class weight (the
-three candidate classes span n = 19–38; the counting session must be ramped —
-Kelvin dispersion is soft); (iv) the pairing-doubling's validity in the gravitational
-channel, now extended to the vector sector; (v) the co-landing (ξ = −3/2, n = 19,
-0.8% three times) flagged at coincidence-watch grade until (iii) exists.
+winding's vector sector; (iii) ~~the Kelvin-mode weight~~ **EXECUTED 2026-07-13** (record 87) — the vector
+escape is dead fourfold; (iv) the pairing-doubling's validity in the gravitational
+channel, now extended to the vector sector; (v) ~~the co-landing~~ retired as numerology by (iii)'s
+execution; (vi) **THE ONE-BIT SESSION** — the Euclidean↔Lorentzian effective-action
+matching in the emergent-metric frame: the single item deciding the sign, and with it
+this section's fate.
 
 ## 6. What this framework does and does not claim
 

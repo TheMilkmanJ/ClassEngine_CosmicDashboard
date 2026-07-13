@@ -2852,3 +2852,39 @@ landing survives in branch 2 only; branch 1 is closed adverse.
 *Entry 78 ended: "the model's three deepest opens are one room." Entry 86 adds the
 room's ceiling fan: the winding. If the comb reads ~19, gravity's sign was the torus
 spinning all along.*
+
+## ENTRY 87 — THE KELVIN-WEIGHT SESSION: THE VECTOR ESCAPE DIES FOUR WAYS; THE SIGN REDUCES TO ONE BIT
+
+Task #34 executed (scripts + structural checks; every suppression a continuous ratio,
+no walls; the "no lines" fact is topological — exemption class).
+
+**The fourfold death of entry 86's branch 2:**
+1. **No lines.** The model's global winding is θ(x) = 2πn·x/L — a homogeneous phase
+   gradient on the compact axis, coreless by construction. Kelvin modes require
+   quantized vortex LINES. The global winding has no Kelvin sector at all.
+2. **Measure.** Were the winding split into n lines, core-localized modes carry
+   bulk-loop support nπξ_h²/L² ≈ 3×10⁻²⁵ — needed O(76), delivered O(10⁻²³).
+3. **Infrared.** Coarse-grained lattice (Tkachenko-class) modes live at the
+   inter-line scale b = L/√n ≈ 6 Gpc: their contribution to the κ² coefficient is
+   (ξ_h/b)² ≈ 10⁻²⁵ — twenty-five orders below the coherence-scale loop.
+4. **The halo route.** P-2026-016's halo lattices are real but environment-bound:
+   an O(1) inside-vs-outside G is excluded by the same bound-orbit kinematics as
+   entry 84's cliff. No uniform-vacuum contribution exists.
+
+**The n = 19 co-landing is RETIRED as numerology** — caught by its own named audit
+within hours of being flagged. The coincidence-watch protocol worked exactly as
+designed: three 0.8% landings were two conventions and one fantasy. ANN-2026-023's
+"second duty" for the comb is VOIDED (annotated in the registry, append-only).
+
+**Where the G-closure now stands — one bit:** the magnitude landing (|str| = 38 vs
+12π, 0.8%) is convention-independent and survives everything. The SIGN hangs entirely
+on the action-matching convention — whether the physical (Lorentzian, emergent-metric)
+continuation gives 1/G ∝ +str or −str:
+- **+str**: entry 82's state is fully restored — ξ = −3/2, attractive, 0.8%, healthy;
+  Visser's minus was an artifact of conventions the model's own derivation never used.
+- **−str** (Visser's face-value reading): the model's content induces wrong-sign
+  gravity with NO rescue in its current roster — the frame's sharpest crisis.
+The one-bit session — the Euclidean↔Lorentzian effective-action matching at equation
+level, run in the emergent-metric frame — is now the G-closure's single named open
+item. It must be adjudicated from the literature at equation level, not from lore
+(the field's own lore is split; that split is Visser's thesis). NOT guessed tonight.

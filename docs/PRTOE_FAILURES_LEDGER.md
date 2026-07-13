@@ -31,6 +31,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal record 533/internal record 535 |
 | The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
 | The candle room's "mass-step candidate explanation" reading | entry 85's dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | entries 85/85b, 2026-07-13 |
+| Entry 86's vector escape (n Kelvin branches closing gravity's sign; the n = 19 co-landing) | DEAD FOURFOLD within one day (entry 87): the global winding is coreless (no Kelvin sector); measure 10⁻²⁵; infrared 10⁻²⁵; the halo route kinematically fenced — the coincidence-watch protocol caught its own flag at designed speed | entries 86–87, 2026-07-13 |
 | The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule (t428) — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | t428 |
 
 ## 3. Wrong calls by the defense, self-caught and corrected (the error log)
