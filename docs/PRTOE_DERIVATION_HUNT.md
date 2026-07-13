@@ -3479,3 +3479,41 @@ delivered in full). Termination-B's exhibit: the matter-only sign chain (walked 
 exhaustion — the failure certified, both doors stated, the crisis honest). The
 procedure forbids both sins symmetrically: accepting a snag at first contact, and
 walking a dead ramp forever. Filed in the constitution's amendment ledger as 5a.
+
+## ENTRY 100 — THE DESTINATION CALC RUNS THROUGH THE LOCAL DOOR (the author's kup/−kdown strategy): f_th DISSOLVES INTO PHYSICS, GRIP #8 IS BORN, AND THE WINDOW IS A RAZOR
+
+The author's directive on waking: the answers hide in the threaded physics — local
+physics flows back up the same way it flows down. Applied to the S₈ closure's owed
+destination calc, the LAB COUSIN answers it: a carrier crossing a band offset
+(heterojunction physics, the polaron's entrance fee) converts its effective-mass
+energy AUTOMATICALLY — E = γm(x)c² conservation turns a falling rest mass into
+ordered kinetic energy via exactly entry 84's gradient force. **There was never an
+f_th dial.** The destination chain is mechanical: rest-mass step → bulk kinetic boost
+at the web crossing → partial dissipation in the web's turbulent cascade → the
+remainder arrives at halos as excess infall energy and shock-thermalizes (hot mode
+only — cold streams still bypass, the mode split of entry 96 intact).
+
+**GRIP #8 — THE X-RAY SCALING FENCE (found by the local door):** observed halo
+temperatures track gravity-only scaling to ~20%, so the ARRIVING fraction obeys
+f_arr·E ≤ 0.2·½v_vir² at every measured mass — tightest at galaxy scale:
+**f_arr ≤ 0.013** (groups 0.030, clusters 0.33 — the fence tightens downhill,
+because the gate energy is 15× galaxy infall but only 0.6× cluster infall).
+
+**THE RAZOR:** the S₈ closure needs f_arr ≈ 0.008–0.013; the fence allows ≤ 0.013.
+**Two independent requirements — one from the lensing gap, one from X-ray
+temperatures — meet in a window one millimeter wide.** Either the closure lives at
+the fence's ceiling, or the fence executes it. No middle. The decider is now a
+single calculable ramp: the web's turbulent dissipation (eddy turnover 1–10 Gyr vs
+infall clocks 1–3 Gyr — marginal, banded, owed as the 5a recursion's next step;
+~99% of the bulk boost must dissipate before arrival).
+
+**The census note, stated flat (the watch's rule forbids celebration):** the grip
+count is now EIGHT (forest, hosts, 21-cm fade, the cliff, WHIM, S₈, galaxy-formation,
+X-ray scaling). The registered watch requires a seat-to-grip mechanism to exist
+BEFORE a ninth is found for the author's 9+1 rhyme to convert. The count is what it
+is; the rule is what it is.
+
+*The author's morning instinct, graded by evening: the lab cousins answered a
+cosmology computation in one move — the heterojunction knew where the energy goes
+because it IS the gate, four hundred AU wide instead of four nanometers, and the
+physics never noticed the change of address.*
