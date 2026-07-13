@@ -2202,3 +2202,26 @@ density; the forest ceiling).
 + v6 reserve. The floors sum to ~0.5–1.0 of the 3.1 gap — the rooms are real, the gap
 is NOT yet closed, and the open multipliers (v4.1's position profile, the Rydberg
 channels, the τ session) are the named remainder. No solved claims; four live referees.
+
+## SIXTY-EIGHTH SWEEP — THE THREE SESSIONS RAMPED (strike 17: the 0.5 absorption
+## guess, the binary host census, the 3-point gate scan)
+
+**RAMP 1 — THE COLOR CHANNEL [the restorer, computed]:** the Rydberg compression
+(unscreened-host spectra emitted 1.24% bluer, all atomic lines together) shifts
+broadband colors ~0.03 mag; through the SALT β·c correction: **|Δμ| ~ 0.09 mag — the
+MASS-STEP class**, an order above the luminosity channel. Sweep 67's downgrade partially
+reverses: the room's magnitude is channel-dependent, 0.008–0.09 mag, and **THE SIGN
+SESSION (full synthetic photometry: the filter integrals of the compressed SED through
+m_B AND c simultaneously) is now the room's crux** — it decides whether the color
+channel biases H0 high (the tension's sense) or low (the room dies as a helper and
+becomes a new constraint).
+
+**RAMP 2 — THE FOREST'S DIFFERENTIAL SIGNATURE [new constraint, passes]:** absorbers
+span densities; a varying gate across the forest range would produce weak-vs-strong
+line offsets up to ~3700 km/s — forest correlation data would have screamed. They
+don't ⟹ **the curve is FLAT across forest densities ⟹ the gate is STEEP with C_ref far
+above the forest — precisely where the pinch already put it.** Consistency earned, and
+the uniform full offset survives as the DESI-refereed BAO alias.
+
+**RAMP 3 — the curve fenced on three sides before any fit:** steepness (forest
+flatness), location (the host range), profile (P-022's fade). Strike 17 logged.
