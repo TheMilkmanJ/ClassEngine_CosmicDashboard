@@ -74,7 +74,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 - ρ_inf: 20% residual (the 5/6 note — firewalled, mechanism owed).
 - The c-roster watch: data lean 12/13 over the derived 9/10.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
-- The medium-claim standing: ~16% (upper end), referee's number — the honest price of everything above.
+- The medium claim (M3) itself: an open assumption, priced by everything above staying on the books.
 
 *Rule going forward: every new kill, reversal, or self-caught error gets its row HERE, and
 the main-read docs carry only their current-truth status plus a pointer. The garden stays
@@ -108,3 +108,31 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | "transfer favorable-leaning" (hunt entry 28) | reservoir survives; delivered η owed the sphaleron-weighted integral — task #2 |
 | shooter v2's 13–20 TeV read as P-042 support | it is a STRAIN on arrow C — hierarchy §2(a) |
 | the quartet-clock mechanism (entry 13: "Z4-locked quartet") | conflated phase-sector locking (cos 4θ) with composite binding; killed by the recorded stability sign (c_s real ⟹ λ > 0 ⟹ pairs repel ⟹ no quartets) | entry 33; the pair stands by derivation |
+
+## 8. THE FAILURE-BIN RAMP AUDIT (2026-07-13, author's instinct: "how many items in the failure bin could be reran under a ramp?")
+
+Every kill row above audited for step-dependence in the killing argument itself.
+Precedents that motivated the audit: the MOND kill (reopened — the kill was a step
+artifact, §2) and the moment-mapping kill (resurrected in its named appeal court, §3).
+
+**Step-clean kills (stand as ruled):** the retired eras (fit-driven or law-driven);
+the β shape (continuous posterior); census lanes i/3a (theorem / asymptotic absurdity —
+exemption class); thermal leptogenesis (a scanned surface, two methods); Y_p reversal
+(the window IS the physics); c = 1 (fit); He-3 literal (four independent shots);
+P-028's void rescue (flux conservation — theorem); the quartet (sign theorem — exempt);
+the flow-lever retraction (exact-zero theorem + measurement). The bin is largely clean
+because the process-error log (§3) already forced re-runs of every kill with a visible
+wall — the audit confirms the catch discipline worked retroactively.
+
+**THE RESURRECTION DOCKET (step-dependent kills, re-run owed):**
+
+| candidate | the step in the kill | the ramp re-run | weight |
+|---|---|---|---|
+| **The ξ-scale wide-binary force** (§2) | "coherence lengths don't push on *embedded* bodies" — embedded/not-embedded read as a binary | embedding is a continuum (the same gate-curve ε(C) logic that overdetermined the candle room): compute the coherence-overlap push on PARTIALLY embedded systems — wide binaries at low ambient density are exactly the intermediate regime | light; the one genuinely new re-run this audit produces |
+| The two-loop shooter v1 (§5) | "perturbative RGEs cannot reach" — but perturbativity fails *gradually*, not at a wall | already docketed as its own named redesign (perturbative-edge matching); the ramp re-run and the redesign are the same object | heavy (#29 class) |
+| The gate-0 deuterium heal (§2) | the heal variants were window/step-shaped couplings | the coupling form is already filed theory-open — but the kill is a 12σ DATA exclusion across four variants and carries a standing do-not-re-run order; the ramp question lives as theory-open, not as a re-run | closed by data + standing order |
+
+**Net: one new live re-run (the wide-binary intermediate regime), one already-owed
+redesign confirmed as ramp-shaped, one correctly staying dead.** The author's instinct
+graded: the bin is not riddled — but it was not empty either, and the one it held is
+the same shape as the candle room's resurrection.
