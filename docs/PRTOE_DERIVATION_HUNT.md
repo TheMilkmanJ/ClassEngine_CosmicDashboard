@@ -2804,3 +2804,51 @@ adjudicator of the mass-step candidacy. One curve, four fences, one decider.
 
 Process error 22 filed: the binary host split — v1's grids ramped, its population
 model stepped; the catch was the author's, again.
+
+## ENTRY 86 — THE SIGN CHAIN ANCHORED: THE MATTER-ONLY CLOSURE FAILS THE SIGNED DEMAND; THE WINDING'S VECTOR SECTOR CLOSES IT — "GRAVITY ATTRACTS BECAUSE THE UNIVERSE SPINS" [COINCIDENCE-WATCH]
+
+The session entry 82 owed, run end-to-end with Visser Eq. (21) as the anchor
+(1/G = −str[k₁]κ²/2π; his Eq. (29) states Sakharov's route needs str[k₁] < 0).
+Entry 78's demand was written unsigned and firewalled exactly here ("fermion signs
+scheme-dependent") — adjudicated tonight. The signed demand: **str = −12π.**
+
+**BRANCH 1 (matter-only roster) — ADVERSE.** Post-entry-82 the roster is all-positive
+(fermions +18, scalar 2(1−6ξ) > 0 for ξ < 1/6): the signed demand forces ξ ≈ +4.81,
+where the nearest clean values land 6–10% off. **The 0.8% match does not survive in
+this branch.** A matter-only leptophilic roster induces wrong-sign (repulsive) gravity
+under the anchored convention — the entry-79 hazard, dissolved at the weights level by
+entry 82, reappears at the action-matching level, as real hazards do.
+
+**BRANCH 2 (the model-native escape, quantified) — THE CO-LANDING.** The roster counted
+at entries 78/80 omitted the medium's own non-scalar collective modes: the WINDING's
+vortex sector (Kelvin-class modes — one branch per winding quantum when the n-fold
+winding splits into unit vortices). Vector-class modes carry NEGATIVE k₁ (Visser
+Table 1) — the only negative weights available to this model, and it owns them by
+construction. Keeping ξ = −3/2 (entry 82's landing):
+
+  str = 2(1−6ξ) + 18 − |w|·n  = 20 + 18 − |w|·n  vs  −12π:
+  • massless-vector weight (|w| = 4):  n = 19 → str = −38 — **the same 0.8%, sign CORRECT**
+  • massive-spin-1 weight (|w| = 3):   n = 25 → str = −37 (1.9%) — the Widnall band's top edge
+  • vector(1⊕0) weight (|w| = 2):      n = 38 (outside the band; noted, not used)
+
+**n = 19–25 sits inside the Widnall band (11–25, tree Tier 4) — and the comb
+(P-2026-029) MEASURES n.** If the Kelvin sector is the sign's closer, the G-closure
+acquires a second independent referee: the CMB comb's tooth count must read n ≈ 19–25,
+and gravity attracts because the winding's vector modes outweigh the matter roster —
+the universe's spin supplies the attractive sign. The founding coupling stays at −3/2;
+the demand equation now couples (ξ, n) — one equation, two instruments (independent ξ;
+the comb), each able to kill it alone.
+
+**FIREWALLS [all standing]:** (i) the Kelvin modes' actual a₁ weight in the medium is
+UNDERIVED — the three weight classes span n = 19–38; the counting session is the new
+named computation (and must be run RAMPED: Kelvin dispersion is soft, no sharp mode
+cutoff); (ii) whether vortex modes live at the coherence scale K in the loop at all —
+same session; (iii) coincidence-watch on the triple co-landing (ξ = −3/2, n = 19,
+0.8% thrice); (iv) the twin-doubling question extends to the vector sector;
+(v) the Euclidean↔Lorentzian action-matching convention remains listed, though Eq. (29)
+is now the working anchor. Grade: the G-closure's sign = OPEN → ROUTED; the magnitude
+landing survives in branch 2 only; branch 1 is closed adverse.
+
+*Entry 78 ended: "the model's three deepest opens are one room." Entry 86 adds the
+room's ceiling fan: the winding. If the comb reads ~19, gravity's sign was the torus
+spinning all along.*

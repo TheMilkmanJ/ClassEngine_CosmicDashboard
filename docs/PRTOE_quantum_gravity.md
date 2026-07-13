@@ -116,23 +116,32 @@ Two readings, stated honestly:
   The measurement converts the framework's deepest assumption into its sharpest
   falsifier: *any independent determination of ξ must land at −3/2 (within the stated
   band), or this framework is dead.*
-- The sign question relocates rather than closes: the earlier draft's "fermion-sign
-  hazard" (repulsive gravity from a fermion-dominated roster) *dissolves* — fermions
-  contribute positively to str[k₁] once both minuses are kept. What replaces it:
-  Visser's Eq. (21) carries an overall minus (1/G = −str[k₁]κ²/2π), and Sakharov's
-  route obtains attractive gravity for str[k₁] < 0 — while this roster's corrected
-  supertrace is positive. Whether the framework's bootstrap demand supplies the
-  compensating sign (its normalization was derived in the medium's own conventions,
-  not Visser's) is now the computation's live open item: the end-to-end sign chain,
-  re-derived with Eq. (21) as the anchor.
+- The sign chain is now anchored and ROUTED (the check this section owed ran
+  2026-07-13, internal record 86): under Visser's Eq. (21) the demand is *signed*
+  (str = −12π; attraction needs a negative supertrace), and the matter-only roster —
+  all-positive after the corrected weights — cannot meet it at any reasonable ξ. What
+  closes the sign is the sector the original count omitted: **the medium's own vortex
+  (Kelvin-class) collective modes**, the winding's vector sector, which carries the
+  only negative weights this model owns. Keeping ξ = −3/2, a massless-vector weight
+  closes the demand at **n = 19 winding quanta — the same 0.8% landing, correct
+  sign** — and n is independently measurable (the model's registered CMB-comb
+  prediction targets exactly this integer, with its formation-dynamics band at
+  11–25). The framework's sharpest sentence is now: *gravity attracts because the
+  universe spins* — and it is doubly falsifiable: an independent ξ off −3/2 kills it,
+  and a comb tooth-count off ~19–25 kills it separately. The Kelvin sector's actual
+  heat-kernel weight is the named open computation; until it is derived, the
+  co-landing is held at coincidence-watch grade.
 
 **5.4 Open items on this computation** (named, none hidden): (i) ~~the heat-kernel
-weight-ratio convention~~ **EXECUTED 2026-07-13** against Visser Table 1 —
-magnitudes confirmed, the fermion block's sign corrected (this section updated);
-(ii) the end-to-end sign chain of the bootstrap demand against Visser Eq. (21)'s
-overall minus — the item the convention check exposed; (iii) the pairing-doubling's
-validity in the gravitational channel; (iv) the half-integer ξ = −3/2 flagged at
-coincidence-watch grade until an independent determination exists.
+weight-ratio convention~~ **EXECUTED 2026-07-13** — magnitudes confirmed, the fermion
+block's sign corrected; (ii) ~~the end-to-end sign chain~~ **EXECUTED 2026-07-13**
+(record 86) — the matter-only branch closed adverse; the sign routes through the
+winding's vector sector; (iii) **the Kelvin-mode weight derivation** — whether the
+vortex modes live at the coherence scale and with which vector-class weight (the
+three candidate classes span n = 19–38; the counting session must be ramped —
+Kelvin dispersion is soft); (iv) the pairing-doubling's validity in the gravitational
+channel, now extended to the vector sector; (v) the co-landing (ξ = −3/2, n = 19,
+0.8% three times) flagged at coincidence-watch grade until (iii) exists.
 
 ## 6. What this framework does and does not claim
 

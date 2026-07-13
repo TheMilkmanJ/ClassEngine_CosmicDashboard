@@ -77,6 +77,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 - ρ_inf: 20% residual (the 5/6 note — firewalled, mechanism owed).
 - The c-roster watch: data lean 12/13 over the derived 9/10.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
+- The G-closure's matter-only branch: CLOSED ADVERSE by the signed demand (entry 86 — a leptophilic all-positive roster induces wrong-sign gravity under Visser's anchoring); the closure survives only through the winding's vector sector, whose weight is underived.
 - The medium claim (M3) itself: an open assumption, priced by everything above staying on the books.
 
 *Rule going forward: every new kill, reversal, or self-caught error gets its row HERE, and
