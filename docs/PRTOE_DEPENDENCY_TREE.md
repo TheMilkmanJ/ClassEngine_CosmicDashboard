@@ -63,7 +63,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G: the ξ-equation str = 2(1−6ξ) + 9 = ±12π (entries 80/82/86/87/99) | the ADJUDICATED census (filed jointly, flat along the coupling ramp) + the regulator ramp + verified weights | [D-conditional, SIGN = ONE OPEN BIT] — clean-fraction claims RETIRED (ramped look-elsewhere: 40–75% chance landings); two doors: ξ = −2.225 (+) / +4.058 (−); **G measures ξ** | an independent ξ off the named door; the one-bit court |
+| induced-G: the ξ-equation str = 11 − 6ξ_amp = ±12π (entries 80/82/86/87/99/103: ξ_phase = 0 by Goldstone theorem) | the ADJUDICATED census (filed jointly, flat along the coupling ramp) + the regulator ramp + verified weights | [D-conditional, SIGN = ONE OPEN BIT] — clean-fraction claims RETIRED (ramped look-elsewhere: 40–75% chance landings); two doors: ξ = −2.225 (+) / +4.058 (−); **G measures ξ** | an independent ξ off the named door; the one-bit court |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 

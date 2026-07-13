@@ -3561,3 +3561,20 @@ ramps owed (origins walked across 89b/c/d, 96, 100, 101; all inputs banded; the
 crude literature anchor remains the standing flag, upgradeable only by a
 power-spectrum computation — heavy-queue class). **The 89-series is CLOSED at
 estimate grade: the missing S₈ is an entropy floor the gate pours into the warm web.**
+
+### ENTRY 102 CORRECTION (read-after rule, same pass): the floor's high corners
+(swing ≥ 0.3 at n = 10⁻⁵: S = 800–1350 keV cm²) overshoot the known band — they would
+OVER-suppress, so S₈ self-fences the swing at wall densities: the in-band region is
+swing ≲ 0.3 at n = 10⁻⁴ (≲ 0.1 at 10⁻⁵). Another two-sided grip, folded into #6.
+
+## ENTRY 103 — SEGMENT 2: THE ξ-DERIVATION'S FIRST PASS — HALF THE FOUNDING COUPLING BECOMES A THEOREM
+
+The phase component of the condensate scalar is a Goldstone mode: shift symmetry
+forbids every potential term including the non-minimal ξθ²R class. **ξ_phase = 0,
+derived, exemption-class — protected along the entire coupling ramp.** The founding
+coupling's unknown half halves: the demand re-lands as **str = 11 − 6ξ_amp = ±12π**,
+with the pre-registered doors updating to **ξ_amp = −4.450 (A) / +8.117 (B)** — noted
+flat, the menu deflation binding (−9/2's 1.1% proximity carries nothing). The
+remaining half — the amplitude mode's own ξ from its radial EFT — is #38's residue,
+docketed. Files threaded: QG §5.3, the dependency tree. Ramp check: Goldstone
+protection exact at every strength; segment complete at half-derived grade.

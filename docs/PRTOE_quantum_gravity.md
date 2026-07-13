@@ -106,7 +106,11 @@ condition — the cutoff of an induced theory is the induced scale itself — ma
 one-loop demand a pure number: |str| = 12π. With the adjudicated census this is a
 linear equation pinning ξ, conditional only on the sign convention (§5.4):
 
-  **Door A (+str): ξ = −2.225.   Door B (−str, Visser's face value): ξ = +4.058.**
+  **Door A (+str): ξ_amp = −4.450.   Door B (−str, Visser's face value): ξ_amp = +8.117.**
+(Updated by the shift-symmetry theorem, derivation log entry 103: the phase component
+is a Goldstone — ξ_phase = 0 exactly, at every coupling strength — so the demand reads
+str = 11 − 6ξ_amp and the doors bind the AMPLITUDE mode's coupling only, half of the
+founding coupling now being a theorem rather than a parameter.)
 
 Earlier drafts celebrated proximity to clean fractions (−9/2, then −3/2); that
 celebration is RETIRED (entry 99, confirmed at ramped grade): a clean quarter-integer
