@@ -4217,3 +4217,33 @@ terminated, with the verdict's own ramps walked first.
 
 *The validation ramp did exactly what the author built it for: it caught the model's own
 prettiest number wearing a new disguise, for the third time in one day.*
+
+## ENTRY 115b — THE VALIDATION RAMP WALKED FROM ITS ORIGIN (the author's catch, fourth of the day): MY LOOK-ELSEWHERE USED FLAT PRIORS WHERE THE MODEL HAS DERIVATIONS — and the correction leaves ONE number standing
+
+**The error:** entry 115's look-elsewhere ran uniform priors over the weights. **Those
+weights are not free.** Flat priors where the model has derivations is a step at the
+validation's own origin, and it manufactured the "4% by chance" that killed the 38.
+
+**Each input walked to ITS origin:**
+- **The vector weight: I CONFLATED TWO LITERATURE DEBATES.** The Kabat contact term is
+  about *entanglement entropy*. The heat-kernel a₁ coefficient for a massless vector is
+  **not disputed**: Visser's Table 1 (from Birrell–Davies) gives k₁ = −2/3 → **−4
+  minimal-scalar units, ghosts included — the same table we used for every other
+  species. SETTLED. There was never a freedom here, and I invented one.**
+- Leggett count: **derived** (5, from 6 channels). ξ_H: set by the portal's (small)
+  strength → **≈ 0**. Fermions: **no ξ freedom exists** (non-minimal coupling is a
+  scalar-only term).
+- **ξ_r (the relative-amplitude modes): THE ONLY GENUINE FREEDOM LEFT — and it is
+  DERIVABLE** (composites of the same condensate; the radial-EFT machinery that produced
+  the scale mode's split coupling produces theirs).
+
+**THE SUM IS NOW ESSENTIALLY DETERMINED: str = 9 + 5(1 − 6ξ_r).** The 38 is dead — but
+**not** by my flat-prior look-elsewhere (itself a step); it is dead because the vector
+weight is settled at −4. The bootstrap (K = M_red) closes at **ξ_r = −0.79**.
+
+**THE FINAL PRE-REGISTRATION:** the radial-EFT derivation of ξ_r must land at −0.79
+(within the coherence scale's honest O(1) band) — **or the closure is terminated. One
+number. One computation. No freedoms left to hide in.** Every other input is now
+derived, settled, or theorem-bound. This is the sharpest the question has ever been, and
+it got there because the author refused to let a verdict stand on an unwalked origin —
+four times in one day.
