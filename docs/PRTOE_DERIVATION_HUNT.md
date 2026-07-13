@@ -2533,3 +2533,32 @@ first round tonight and the frame is still standing, with G now derivable-in-pri
 from the same door as everything else: the roster. **The model's three deepest opens
 (A_s's ceiling, the tenancy, induced-G) are now one room with one number-family:
 12π ≈ 38 residents, three flavors, twinned, plus the landlord's own two.**
+
+## SEVENTY-NINTH SWEEP — THE HEAT-KERNEL SESSION (strike 20 en route): the signature
+## NOT signed — and the session found something better than a signature
+
+**STRIKE 20 [the operator's ramp order, applied to sweep 78]:** the bootstrap's sharp
+cutoff Λ = M_red was a step — and in Sakharov's program the step IS the famous
+ambiguity (the quadratic coefficient is regulator-shape-dependent; every textbook
+scheme is an arbitrary ramp). **THE MODEL-NATIVE RESOLUTION, banked: the ambiguity
+dissolves in a medium** — a superfluid's modes soften physically (Bogoliubov-class
+dispersion bending at the core scale), so the regulator is not a choice but a
+measurable shape: the ramp O(1) computed for form-factor powers p = 1.5/2/3 gives
+2.0/1.0/0.5 — **definite once the medium's dispersion fixes p.** Sakharov's
+half-century ambiguity becomes one derivable number in a model whose UV is physical.
+
+**THE FERMION-SIGN HAZARD [the session's real discovery, filed without anesthesia]:**
+the R-term supertrace weighs fermions against bosons; the roster is fermion-dominated
+(36/38) — under naive weights the induced 1/G comes out WRONG-SIGNED. **THE RESCUE
+CANDIDATE IS THE MODEL'S OLDEST STRUCTURE:** scalars enter str[k₁] with weight
+(1/6 − ξ); a non-minimally coupled medium scalar dominates the supertrace with the
+right sign at large |ξ| (schematic demand: ξ ~ −37 for str = 12π) — **and the model
+was BORN with F(φ) = 1 + ξA(φ): the founding coupling may be the term that makes
+gravity attractive.** [UNSIGNED — the full session = the medium-regulated supertrace
+with the model's own ξ: needs (a) the dispersion shape p, (b) the fermion weights
+under that regulator, (c) ξ from the founding form. Queued to #29 as the G-closure.]
+
+Sweep 78's 0.8% landing survives as one convention's hit, now properly firewalled by
+the sign hazard. Sources: [Visser gr-qc/0204062] (the supertrace + the ambiguity);
+[Sakharov1967] already banked. The QG endgame's honest shape: THREE numbers (p, the
+weights, ξ) — all model-owned, none arbitrary — between the frame and Newton's G.
