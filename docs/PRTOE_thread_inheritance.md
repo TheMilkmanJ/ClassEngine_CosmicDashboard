@@ -55,3 +55,6 @@ kept current as parents evolve (the windowed BBN re-stamp will propagate to lith
 
 *The model threads sixteen roots and the universe hands it the rest on inheritance. Nothing is
 outside — some things are just downstream, and the account collects from everyone.*
+
+Entry 105 (the silent-lineage census): every silence mapped to its intermediate parent and walked — zero orphans; the inheritance theorem confirmed at WALKED grade; three bench-scale flow-backs documented (BEC-Kelvin, type-II vortex cousin, the Landau bench). The grandchildren were never strangers.
+

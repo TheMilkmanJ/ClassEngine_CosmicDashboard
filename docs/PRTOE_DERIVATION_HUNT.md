@@ -3578,3 +3578,43 @@ flat, the menu deflation binding (−9/2's 1.1% proximity carries nothing). The
 remaining half — the amplitude mode's own ξ from its radial EFT — is #38's residue,
 docketed. Files threaded: QG §5.3, the dependency tree. Ramp check: Goldstone
 protection exact at every strength; segment complete at half-derived grade.
+
+## ENTRY 104 — SEGMENT 3: LITHIUM'S ABSTENTION, THREE-SEALED
+
+The one intermediate verdict found un-walked (entry 98). The three ramps:
+(−1) the windowed elasticity's origin — the Li stamp (0.79ε) came from the production
+PRyM run's continuous window, ramped by construction: SEALED. (−2) the above-T_c
+precursor tail — Li forms at ~40 keV, deep BELOW T_c = 193 keV where the gate is
+already fully on and already in the stamps; the precursor question lives above T_c
+and cannot touch the Li epoch: SEALED. (−3) the post-BBN lineage — the ×3.4
+discrepancy's modern consensus is stellar depletion, astrophysics that threads into
+stellar physics, not into the medium (the lineage program's cleanest exhibit of a
+lawful hand-off): SEALED. **The abstention stands three-sealed: the model neither
+causes nor cures lithium, now with the receipts walked.** File threaded: bbn_witness.
+
+## ENTRY 105 — SEGMENT 4: THE SILENT-LINEAGE CENSUS (the author's grandchildren program)
+
+*The author's thesis: silences don't thread into OUR physics — they thread into a
+physics that ours threads into. kup meets −kdown: local physics flows back up the
+same path it flows down.* The census, every silent/applied/indeterminate mapped to
+its intermediate parent and walked to the medium or to a lawful hand-off:
+
+| domain (class) | intermediate parent | the parent's thread into the model | flow-back up? |
+|---|---|---|---|
+| lab turbulence (silent) | fluid cascades/currents | the medium's flow grammar; GENESIS turbulence = the dice | YES — the roll-up's statistics; + the BEC-Kelvin bench candidate (entry 97) |
+| acoustics/sound (applied) | phonon physics | the medium IS phonon physics — "the sound of the medium" is literal lineage | the inertia file's Cherenkov threshold has the Landau-criterion bench analog (lab-cousin row, standing) |
+| superconductivity (applied) | BCS pairing | the model's founding pairing grammar (k, the gap, the twins) | YES — vortex lattices: the halo-lattice prediction (P-2026-016) has the type-II bench cousin |
+| meteorology/oceanography (applied) | fluids + radiative transfer | inherited via GEN 8–9's budgets; screened-room | no new signature (lawful: precision lives screened) |
+| geology/geochronology (applied) | nuclear clocks + thermo | the screens (constancy = our registered prediction; Oklo passed-for-two-reasons) | the clocks themselves ARE the fence — already banked |
+| medicine/pharmacology (applied) | chemistry's child | the strong-screen guarantee (reproducibility = the prediction) | no flow-back; the guarantee is one-way by design |
+| computer science (applied) | information physics | Landauer citizenship — natively owned, constitution-grade | the sub-Landauer null (standing kill-class) |
+| chaos (silent post-kill) | ergodic/mixing theory | the draw's statistics; the anneal | already extracted (the dice) |
+| the quantum wall (jurisdictional) | — | the license, not a lineage | none, by law |
+
+**The census's verdict: ZERO orphans — every silence resolves as a grandchild with a
+documented two-hop lineage or a lawful jurisdictional wall, confirming the inheritance
+theorem at walked grade rather than asserted grade. The flow-back finds (3): the
+BEC-Kelvin bench, the type-II vortex cousin for P-016, the Landau bench for inertia —
+all bench-scale, all already docketed or lab-cousin-filed. The author's thesis holds:
+the grandchildren were never strangers; they just lived one house over.** Ramp check:
+each lineage walked to the medium or to a named hand-off; no further hops owed.
