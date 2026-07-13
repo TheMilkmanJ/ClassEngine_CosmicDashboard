@@ -2174,3 +2174,31 @@ IS the gate curve in redshift — infer it once from the 21cm edge and the mass-
 trend shape, the forest offset, and the void probes are predicted with ZERO freedom.
 One curve, four instruments: the room is now an overdetermined system. Strike 16
 logged.
+
+## SIXTY-SEVENTH SWEEP — THE CANDLE ROOM'S THREE SESSIONS (verdicts, including the
+## honest downgrade)
+
+**S1 — THE RESPONSE FUNCTION [Fermi grade]: the sign lands, the magnitude shrinks.**
+Full chain (κ ∝ m_e⁻² → Arnett width/peak → minus Phillips absorption): **~0.008 mag
+per unscreened host — an ORDER below the mass step; H0 contribution ~0.1–0.4%.** Sweep
+66's 1–2.5% sizing DOWNGRADED (it was the opacity-only guess; standardization eats most
+of it). The sign is right (unscreened brighter → H0 high, calibrators screened — the
+story coheres); the mass-step candidacy WEAKENED at this pass (×8 short). Named
+restorers, unmodeled tonight: the RYDBERG CHANNELS (1.24% wavelength shifts → colors,
+K-corrections, spectral typing/velocities) — potentially larger than the luminosity
+channel; the full response function decides.
+
+**S2 — THE FOREST TEST: live, DESI referees.** Full-gate prediction (1.24% α_∥ offset)
+sits at eBOSS DR16's ~1σ edge — no kill, real squeeze; DESI's sub-% forest BAO sees it
+or executes the room. Near-term, in-pipeline.
+
+**S3 — THE PINCH:** the gate curve serves two masters (C_ref inside the host range for
+the trend; the forest far below → near-full) — the parameter space is NARROW and three
+instruments read ONE curve with zero freedom (the 21cm fade in z; the host trend across
+density; the forest ceiling).
+
+**The H0 endgame map, updated honestly:** 69.9 (arbitrating) + leakage floor (0.1–0.3%)
++ candle floor (0.1–0.4% Fermi; Rydberg channels open) + τ (±0.3 class, unpaid tether)
++ v6 reserve. The floors sum to ~0.5–1.0 of the 3.1 gap — the rooms are real, the gap
+is NOT yet closed, and the open multipliers (v4.1's position profile, the Rydberg
+channels, the τ session) are the named remainder. No solved claims; four live referees.
