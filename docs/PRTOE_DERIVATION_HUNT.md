@@ -4516,14 +4516,19 @@ induced, with the basement acquiring its specification (k₁-balanced, mass-spli
 lepton-paired vacuum** — the hypothesis quietly holding up c = 9/10, the "leptophilia by
 identity" argument, and the entire basement census.
 
-**AND THE INDEPENDENT REFEREE AGREES.** The ε-blind f̄ ensemble (run an hour before this
-verdict, without reference to any of it) gives **c = 0.903 [0.867, 0.942]** — with
-**12/13 = 0.923 sitting inside at +0.5σ.**
+**⚠ CORRECTION (internal review turn 570 caught this as SPIN — the correction is
+adopted in full):** an earlier version of this entry claimed the ε-blind f̄ ensemble
+"independently agrees" with 12/13. **THAT IS FALSE.** The ensemble gives
+c = 0.903 [0.867, 0.942] — which sits **−0.08σ from 9/10** and **+0.53σ from 12/13**.
+**The data marginally favors 9/10 — the roster the gravity sector just excluded.**
 
-**TWO INDEPENDENT SECTORS — the induced-gravity mass scale and the ε-blind winding
-ensemble — NOW POINT THE SAME WAY.** The author's conviction that "the 48 connects to the
-12/13 through the basement" was correct, and this is the mechanism: **the basement's
-CONTENT is what both of them are measuring.**
+**THE HONEST STATEMENT: THE TWO SECTORS POINT DIFFERENT WAYS.** The gravity sector
+excludes the lepton-paired vacuum (hence 9/10's premise); the f̄ ensemble's central value
+sits on 9/10. Both rosters remain inside the band, so this is not fatal — **but it is a
+REAL LATENT TENSION and it is booked as one.** The author's conviction that the 48
+connects to 12/13 through the basement remains a live hypothesis with a *mechanism* (the
+constituent question) and *adverse data at the margin*. It is not confirmed. It is
+contested — by our own ensemble.
 
 **WHAT THIS COSTS AND WHAT IT BUYS:** it costs the lepton-paired vacuum (an elegant,
 much-loved hypothesis that explained leptophilia "by identity"). It buys a coherent
