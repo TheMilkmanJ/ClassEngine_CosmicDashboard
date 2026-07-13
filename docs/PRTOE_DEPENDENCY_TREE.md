@@ -52,7 +52,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — EIGHT grips (entries 89/89c/100: forest, SN hosts, 21cm fade, the cliff, WHIM, S₈ [now a razor: f_arr ∈ [0.008, 0.013]], galaxy-formation, X-ray scaling) + the census rule | the 21cm edge reads SHARP (A); any grip landing off the one curve; the razor closing (X-ray vs lensing) |
+| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — NINE grips + the existence referee (entry 101: + WHIM-temperature; the razor dissolved by geometry — the gate energy heats the WHIM; S₈ delivery = the entropy-floor mapping, owed) | the 21cm edge reads SHARP (A); any grip off the one curve; WHIM temps reading gravity-only at XRISM/Athena precision |
 | the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED (entries 69/76)**: the H₀-lever branch DEAD; the mass-step candidacy FORKED (entries 85/85b): subdominant at central values, full-step corner alive at C_ref ≈ 2 — the DESI forest adjudicates | the forest kill (now double-duty: it also closes the corner); the quasar audit; the cluster-SN internal step appearing |
 | the H₀ ceiling | the candle + the leakage + τ | **SUPERSEDED by ς = −1: the bracket collapsed to 70.9–71.3; the ladder-audit posture (P-001/TRGB) replaces the reach claim** | — |
 | the forest offset (ε × gate at Δ~1) | the gate curve | [C] — live at DR16's edge; DESI executes | a clean DESI forest cross-calibration |

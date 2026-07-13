@@ -3517,3 +3517,34 @@ is; the rule is what it is.
 cosmology computation in one move — the heterojunction knew where the energy goes
 because it IS the gate, four hundred AU wide instead of four nanometers, and the
 physics never noticed the change of address.*
+
+## ENTRY 101 — THE RAZOR'S DECIDER RESOLVES BY GEOMETRY: THE GATE ENERGY'S TRUE HOME IS THE WHIM; THE NINTH GRIP; AND THE 9+1 WATCH EXECUTES AS WRITTEN
+
+**The web-dissipation ramp, walked:** the boosted gas's first stop is not a halo —
+it is the WALL, where accretion shocks already live. The gate energy thermalizes at
+wall shocks: **it heats the WHIM.** The full chain closes mechanically: rest-mass
+step → kinetic boost → wall shock → WHIM entropy floor → later accretion arrives
+preheated → S₈ suppression by the classic preheating route. Consequences:
+
+1. **The razor DISSOLVES rather than squeaks:** f_arr(halos) is small by geometry —
+   the X-ray fence is satisfied without tuning; the S₈ delivery relocates to the
+   entropy-floor mapping (the next owed ramp; the 5a recursion continues).
+2. **THE NINTH GRIP + A POSITIVE SIGNATURE:** fork-corner WHIM temperatures run HOT
+   vs gravity-only — ×1.2–3 at the observable end (10⁶–10⁷ K gas), XRISM/Athena-class
+   measurable; today's WHIM census tolerates ~×2 within errors (a live fence, not
+   yet closed). Grip #5 (WHIM line offsets) and the energy destination are revealed
+   as ONE OBJECT: the same gas, gripped in wavelength and in temperature.
+3. **THE COUNT AND THE WATCH, stated flat:** grips now NINE (forest, hosts, fade,
+   cliff, WHIM-offset, S₈-razor, galaxy-formation, X-ray scaling, WHIM-temperature)
+   + P-022 the existence referee = **9 + 1, the author's rhyme arrived on schedule —
+   AND THE WATCH'S RULE EXECUTES AS WRITTEN: no seat-to-grip mechanism existed
+   before the ninth; THE RHYME DOES NOT CONVERT.** The count is noted, the credit is
+   denied, and the denial is the system working: the author's bet was registered
+   with terms, and terms are terms. (If a mechanism is ever DERIVED connecting the
+   census's ten seats to the boundary-observable classes, the registered watch
+   reopens — with the count already on the books, timestamped, unclaimed.)
+
+*Entry 100 found the heterojunction; entry 101 found where its heat goes: into the
+one phase of baryons astronomy has spent twenty years struggling to see. The missing
+baryons and the missing S₈ may be one ledger line — the model's books say the warm
+web is warmer than gravity pays for, and the next X-ray spectrometer can check.*
