@@ -3214,3 +3214,15 @@ earlier ramp). Both docketed to the ramp-origin audit's scope.
 **Scoreboard opened:** delivered 1 (S₈), named candidates 5, healthy-and-protected 3,
 data-exempt 2, deferred 1. The bet is LIVE and pays per-row; the author's bottom
 dollar is on deposit.
+
+### ENTRY 92 AMENDMENT (same session — the author's correction to the conversion rule)
+
+The author's push-back, adopted: *"We can distrust it all we want; validating it is
+the part that confirms or denies it."* The over-agreement flag is hereby corrected
+from a discount to an ESCALATION: a result that agrees beyond its inputs' precision
+is not voided — it is remanded to a harder court. The amended rule: **over-agreement
+raises the validation bar — the same machinery must then produce an out-of-sample
+prediction (something it was not ramped toward) and land it, before the win books.**
+Flags trigger referees, never verdicts — the same law the coincidence-watch already
+runs on, now applied symmetrically to results that look too good instead of only to
+results that look too convenient. Distrust remains free; only validation spends.
