@@ -2777,3 +2777,30 @@ standardization residuals correlate with web environment at the 0.01–0.03 mag 
 (3) **cluster SNe show no internal mass step from this channel — the cleanest cheap
 test on existing data.** A measured environment residual ≫ 0.03 mag at fixed mass now
 counts AGAINST the model, not for it — the demotion cuts both ways, as it should.
+
+## ENTRY 85b — THE RAMPED RE-RUN (process error 22, author catch: "did you ramp that last test?"): THE DEMOTION SOFTENS INTO A FORK
+
+v1's buried step: hosts classified void/not-void — a binary. v2 (scripts/
+candle_fence_check_v2.py): each population carries a continuous lognormal
+large-scale-overdensity distribution; the smooth fourth-fence gate g(Δ) is averaged
+over it; dilution = ⟨g⟩_low − ⟨g⟩_high. 324 configurations, all bands.
+
+**The revision:** dilutions reach 0.86 (v1's binary capped ~0.4); **10.4% of the band
+reaches the observed 0.05 mag floor and 9.2% lands inside the observed band.** The
+working corners are NOT extreme: C_ref ≈ 2 — precisely the fourth fence's parking
+spot — with s ≈ 2–4 and ordinary medians (low-mass hosts at Δ ≈ 1, high-mass at 5–10).
+The median prediction across the full band stays ~0.02 mag, so **the demotion stands
+at central values — but the full-explanation reading is no longer excluded.** It
+revives as a corner claim with a price tag:
+
+**THE FORK (the constructive part):** the reviving corner requires g(Δ ≈ 1) ≈ 0.7 —
+a mostly-ON gate at mean density — which the Lyman-α forest's differential null must
+tolerate. The mass-step corner and the forest fence now grip C_ref from opposite
+sides of the same curve. **If the mass step is the model's, the gate is CALIBRATED
+(C_ref ≈ 2, s ≈ 2–4) and the forest offset becomes a locked prediction at DESI's
+door; if the forest reads clean, the corner closes and entry 85's demotion is final.**
+DESI's forest cross-calibration was already the executioner; it is now also the
+adjudicator of the mass-step candidacy. One curve, four fences, one decider.
+
+Process error 22 filed: the binary host split — v1's grids ramped, its population
+model stepped; the catch was the author's, again.

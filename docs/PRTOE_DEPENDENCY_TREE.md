@@ -53,7 +53,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 | claim | parents | status | dies if |
 |---|---|---|---|
 | the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — fenced 4 ways (entry 84: the composition-cliff invariant parks the swing at void boundaries, C_ref ≲ few) | the 21cm edge reads SHARP (A); bound-orbit kinematics if the swing sits inside halos |
-| the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED (entries 69/76)**: the H₀-lever branch DEAD; the mass-step candidacy DEMOTED under the fourth fence (entry 85) to a 0.01–0.03 mag environment-tagged contributor | the forest kill; the quasar audit; an environment residual ≫ 0.03 mag at fixed mass (now cuts against); the cluster-SN internal step appearing |
+| the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED (entries 69/76)**: the H₀-lever branch DEAD; the mass-step candidacy FORKED (entries 85/85b): subdominant at central values, full-step corner alive at C_ref ≈ 2 — the DESI forest adjudicates | the forest kill (now double-duty: it also closes the corner); the quasar audit; the cluster-SN internal step appearing |
 | the H₀ ceiling | the candle + the leakage + τ | **SUPERSEDED by ς = −1: the bracket collapsed to 70.9–71.3; the ladder-audit posture (P-001/TRGB) replaces the reach claim** | — |
 | the forest offset (ε × gate at Δ~1) | the gate curve | [C] — live at DR16's edge; DESI executes | a clean DESI forest cross-calibration |
 
