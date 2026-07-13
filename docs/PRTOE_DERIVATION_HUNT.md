@@ -3467,3 +3467,15 @@ ever been attempted. Two consequences:
 The pattern, filed: the deflation was a verdict, and amendment 5's discipline applies
 to verdicts symmetrically — a deflation entered mid-ramp can bury treasure with the
 trash. The author's sixth catch of the night; the ledger keeps the count.
+
+## THE SNAG PROTOCOL FILED (procedure 5a under the total depth law, author-minted)
+
+*"Every snag that says 'nope, not happening' is a sign you might be missing the ramp
+before it. Add a ramp. If it improves but doesn't fix, add one more. Add every ramp
+before it until you either (A) get the right answer, or (B) confidently receive the
+wrong answer."* — the depth law's operating procedure, with its two lawful exits
+named. Termination-A's exhibit: the 89-series (snag → four ramps → the missing S₈
+delivered in full). Termination-B's exhibit: the matter-only sign chain (walked to
+exhaustion — the failure certified, both doors stated, the crisis honest). The
+procedure forbids both sins symmetrically: accepting a snag at first contact, and
+walking a dead ramp forever. Filed in the constitution's amendment ledger as 5a.
