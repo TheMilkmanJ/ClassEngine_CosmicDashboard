@@ -24,7 +24,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| c = 9/10 | the census argument (blindness + roster) | [D] | the α_c MCMC/data settle 12/13; the roster trial fails |
+| c = 9/10 (THE ROSTER TRIAL, open) | the census argument: 9 charged flavors + the vacuum's seat | [D] — **the trial: 9/10 (neutrinos = INTERIOR tenants, the medium's own tenth channel) vs 12/13 (neutrinos = EXTERNAL recipients); BOTH survive their ramp walks. 9/12 and 9/13 ramp-proof DEAD. ε CANNOT referee (the c–f̄ degeneracy)** | the independent f̄ ensemble or the α_c chain settling 12/13 |
 | f̄ = 2/π | the winding sim + the claim | [C] (joint 0.626–0.637, claim at 1.3σ) | the ensemble lands off 2/π |
 | α_c = 3α | the registered bet | [R] | the α_c MCMC lands elsewhere |
 | ε = c·f̄·α_c (the stack, 1.2543%) | ALL THREE above | [D-C-R compound] | any factor's death |
