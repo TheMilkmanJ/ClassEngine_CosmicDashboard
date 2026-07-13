@@ -86,7 +86,8 @@ A 1.24% shift in the electron's mass, bought once at the fit and derived once fr
 census, that shrinks the sound horizon at recombination, patterns the primordial
 abundances through its window, shifts every atomic line it touches by exactly itself,
 refused — on its own computed sign — to explain away the rest of the Hubble tension,
-and may have been sitting in the supernova mass step and the forest's lines all along:
+refused — on its own dilution arithmetic — to claim more than a corner of the supernova
+mass step, and may still be sitting in the forest's lines and the void walls all along:
 one number, no exits, referees everywhere.
 
 ## Sources
