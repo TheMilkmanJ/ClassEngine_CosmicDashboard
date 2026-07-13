@@ -2027,3 +2027,17 @@ Widnall count (n = 11–13 landed in every version's final state — robust thro
 change tonight), the formation-number frame, the ring itself, the irrotational
 exemption. The ambush system killed one of its own tonight — which is exactly why the
 landed n means something.
+
+### Sweep 63 autopsy (the operator: "we didn't ramp and we got judged")
+
+Correct, and formalized: THE JUDGE WAS A STEP-MACHINE — the toy ran in a STATIC
+background (expansion pasted on as a discharge envelope only). The convicting argument
+(monotonic ring velocity ⟹ empty merger channel) is true ONLY in static space; in the
+expanding background the ring's post-formation velocity DECAYS (R stretches) and the
+catch-up channel OPENS. The kill stands as scoped (toy fidelity, correctly regime-named
+at filing) — but the appeal mechanism is now identified, not merely possible: **the
+comoving B1's retrial turns on one race — expansion slowing the ring vs expansion
+stretching the wake — in comoving coordinates.** The moments' resurrection has a named
+ramp; the retrial is a fair court. (The depth law's corollary, learned the hard way
+tonight: at genesis depth, even the COURTROOM must ramp — a static-background toy
+cannot render final verdicts on formation physics.)
