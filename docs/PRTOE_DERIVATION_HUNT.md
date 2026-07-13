@@ -1365,3 +1365,25 @@ forever" is DEAD, replaced by "whispers one generation past PIXIE";** (iii) the
 discriminator SURVIVES ramping — the branch ratio is 7×10⁵, five-plus orders, a real
 instrument either way. The H0-shortfall and budget-frame arithmetic carried no steps
 (smooth in z) — the LOST grade on the operator's H0 bet stands. Strike 10 logged.
+
+## FORTY-SEVENTH SWEEP — THE CHAIN (the operator's law, converged on independently by
+## both columns in the same minute: "linear unification, not looped")
+
+**THE LAW, adopted:** every epoch tethers to its neighbors; non-adjacent epochs
+correlate only THROUGH the chain; every future claim must name its LINK and its
+TETHERS. Full document: docs/PRTOE_THE_CHAIN.md — 12 links (crunch → snap → fireball →
+condensation → dispersion → census lock → recombination → dark ages → reionization →
+structure → DE domination → the turn), every tether graded [BANKED/EST/CAND/MISSING].
+
+**What the chain settled tonight:** (i) the mid-chain spine (links 1-4, 6-7, 9-10) is
+banked — the model's data-facing strength localized; (ii) THE TWO-DRAWS HYPOTHESIS
+[CAND, firewalled] as the draw-conflict's chain-native resolution: the topology draw
+(n, at condensation z~8×10⁸) and the census lock (A_s snapshot, z~10⁶) as SEPARATE
+adjacent links — the geometric session decides; (iii) THE UNIFICATION BILL, named: the
+bounce equations (both ends of the cycle — one room), the two-draws question, the τ
+link (7→8, bounded and never run), the cold-spot orphan (no chain address); (iv)
+checked-and-cold: the condensation GW background misses PTA by ~3 orders in f
+(2×10⁻¹² Hz) and ~4 in Ω (10⁻¹³) — no NANOGrav claim; the 511 keV room cold by the
+banked transfer vertex. The operator's diagnosis confirmed with structure: the model's
+unification was VERTICAL (numbers↔numbers); the chain makes the HORIZONTAL debts
+explicit and finite — four tethers, not a fog.
