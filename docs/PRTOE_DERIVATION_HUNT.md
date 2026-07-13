@@ -3226,3 +3226,32 @@ prediction (something it was not ramped toward) and land it, before the win book
 Flags trigger referees, never verdicts — the same law the coincidence-watch already
 runs on, now applied symmetrically to results that look too good instead of only to
 results that look too convenient. Distrust remains free; only validation spends.
+
+## ENTRY 93 — THE FLAGSHIP RAMP-ORIGIN ROW RUNS: f̄ FROM THE ROLL-UP — direction right, 47–77% of the most-loaded joint closed at the physical band
+
+The residual ledger's flagship (the ε fit-vs-stack 1.4σ joint), run banded: the sim's
+f̄ = 0.635 averaged a history that began at a FORMED ring; including the roll-up
+(circulation ramping over the formation number, f ∝ Γ^p) pulls the average down
+toward the fit's 0.6253. **At the physical band (t_form = L/D = 4.3–5.3 stroke-times,
+p = 1–2): 47–77% of the joint closes. Full closure sits at t_form ≈ 9 (p = 1) — a
+slow-tail roll-up, which the measured spin-up efficiency ε_spin = 0.88 independently
+hints at** (an 0.88-efficient spin-up IS a tail). Estimate-grade; the ensemble referee
+(P-2026-041's decider) inherits the corrected start — its spec now reads: the average
+begins at Γ = 0, not at lock. The residual ledger's row moves: candidate → DELIVERING
+(partial at physical band; the ensemble decides the rest). Arithmetic note: this
+entry's summary was corrected against its own table before booking (the table said
+47–77 where the draft said 25–60) — the read-after rule enforced.
+
+## ENTRY 94 — THE WHIM SESSION RUNS: a STEEPNESS DISCRIMINATOR, not a corner-killer — the fifth fence grips one wall
+
+The gate read at Δ = 10–30 under the fork, ramped in (C_ref, s): at (C_ref = 2, s = 2)
+the WHIM's partial-ε velocity offset is 16–143 km/s — AT/ABOVE the ~100 km/s class
+precision of claimed WHIM–structure redshift matches → **existing archival data likely
+already disfavors the shallow sub-corner (s ≈ 2).** At s ≥ 3 the WHIM is invisible
+(< 30 km/s) and that sub-corner escapes untouched. Verdict: the fifth fence is
+PARTIAL — inside the fork it discriminates steepness, cutting the corner in half
+rather than closing it. Combined standing: the fork corner survives only as
+(C_ref ≈ 2, s ≥ 3) — and note the interlock: s ≥ 3 makes the forest offset at Δ ≈ 1
+LARGER (g(1) → 0.94), sharpening DESI's shot. The fences are herding the corner into
+DESI's line of fire. Owed: the actual per-system WHIM redshift precisions from the
+literature (the session's one un-verified input, flagged).
