@@ -26,6 +26,10 @@
 packages_path: /home/themilkmanj/cobaya_packages_clean
 output: chains/cmp_prtoe_fixed_trgb_ev
 likelihood:
+  H0_trgb_cchp:   # THE COMPRESSED TRGB ANCHOR (CCHP: H0 = 69.8 +/- 1.7, Freedman 2021)
+    external: 'lambda H0: -0.5*((H0-69.8)/1.7)**2'
+    # replaces the orphaned Mb-prior route (plain pantheonplus marginalizes Mb
+    # internally and rejects the parameter); the standard compressed-anchor form.
   planck_2018_lowl.TT: null
   planck_2018_lowl.EE: null
   planck_2018_highl_plik.TTTEEE_lite: null
@@ -72,11 +76,6 @@ theory:
       l_max_scalars: 9000
       lensing: 'yes'
 params:
-  Mb:   # the TRGB (CCHP) anchor: SH0ES's -19.253 + the +0.06 mag CCHP host offset
-    prior: {dist: norm, loc: -19.313, scale: 0.05}
-    ref: {dist: norm, loc: -19.313, scale: 0.02}
-    proposal: 0.01
-    latex: M_B
   YHe:
     value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236)'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
     derived: false
