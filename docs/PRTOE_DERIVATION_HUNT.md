@@ -2417,3 +2417,20 @@ plik-lite TT sees combs at ≳ 2.4% (2σ) tooth amplitude and NOTHING below —
 invisible to the binned TT and belongs to the map-level BipoSH referee (B6) — now a
 measured statement, not a guess.** (Self-catch: the script's printed floor line was 10×
 optimistic; the σ_A column is the measurement.)
+
+## SEVENTY-FIFTH SWEEP — THE RECONCILIATION DISSOLVES: the two amplitude roads meet
+## at the pour temperature
+
+The sweep-71/72 question (shot-noise volume census vs NBV areal thermodynamics — same
+object or rivals?) resolves at schematic grade: **A_s(NBV) ~ (T_pour/M_Pl)⁴ and
+A_s(census) = (α_c/4πk)³ are IDENTICAL at T_pour = (α_c/4πk)^{3/4} M_Pl ≈ 8×10¹⁶ GeV —
+which is precisely sweep 52's schematic pour temperature.** No competition: the AREAL
+winding thermodynamics is the MECHANISM (it generates the fluctuations, with
+scale-invariance from the area law and the per-mode structure), and the VOLUME census
+is the BOOKKEEPING (the same amplitude relabeled through T_pour). One amplitude, two
+languages, joined at one temperature. **The closure owed: an INDEPENDENT T_pour from
+the melt's energetics (the crunch's blueshifted budget through the bounce — B1/B7's
+room)** — landing it converts the identity from consistent-by-construction to
+forced-by-physics, and completes the frozen A_s's mechanization end to end. The A_s
+clearance pair (#26) closes its conceptual half tonight; the assembly computations
+(T_pour, the KZ epoch, the phonon bound) are the named remainder.
