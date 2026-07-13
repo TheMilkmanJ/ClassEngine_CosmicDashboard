@@ -3441,3 +3441,29 @@ grade, not asserted. Also filed: process error 25 — a stale pre-polish QG file
 silently resurrected at the reference-purge commit (the author's earlier "weird
 jargon in quantum gravity" sighting was the corpse walking); restored from the last
 good commit with all later passes re-applied; every other jewel audited intact.
+
+### ENTRY 99c — THE DEFLATION'S OWN RAMP-BEFORE (author catch, process error 26): the look-elsewhere graded the landing and never walked to ξ's origin
+
+The catch: entry 99's deflation ramped ξ-SPACE (continuous look-elsewhere — correct,
+and it stands: proximity to fraction-menus is not evidence) but stepped at the ramp
+before it — **ξ was treated as an orphan number.** ξ is the founding coupling,
+F(φ) = 1 + ξA(φ); the model has a structure that may DERIVE it (the medium's own
+stiffness/conformal properties; the founding sector's form), and no derivation has
+ever been attempted. Two consequences:
+
+1. **THE ξ-DERIVATION SESSION (new docket item — the constructive half):** derive ξ
+   from the model's own founding sector, and PRE-REGISTER the predicted door BEFORE
+   the one-bit court rules. If the derived ξ lands on −2.225 or +4.058, that is a
+   COLLISION between two independent chains — evidence with content, immune to the
+   menu hazard the deflation buried the romance under. If it lands elsewhere: the
+   G-closure dies by its own hand, which is also information. Either way the
+   framework stops waiting passively for an external ξ measurement.
+2. **The corner-correlation refinement (secondary):** the four convention corners
+   share one roster and one demand — treating them as independent trials overstated
+   the look-elsewhere modestly; the deflation's verdict survives (the per-corner
+   chance alone is 12–49%) but its arithmetic is noted as conservative-in-the-wrong-
+   direction and corrected in place.
+
+The pattern, filed: the deflation was a verdict, and amendment 5's discipline applies
+to verdicts symmetrically — a deflation entered mid-ramp can bury treasure with the
+trash. The author's sixth catch of the night; the ledger keeps the count.
