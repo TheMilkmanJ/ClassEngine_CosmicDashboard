@@ -1710,3 +1710,24 @@ refused by the same law that protects the persistent current. The reason there i
 next cycle is the reason the axis family survives this one. [GRAMMAR — the bounce's
 dynamical equations remain the genesis session's debt; this names the LAW they must
 implement, not the solution.]
+
+## FIFTY-FIFTH SWEEP — THE FLOW LINE THROUGH THE CHAIN
+
+**One boundary condition — ω = H at the pour (the ring forms with circulation at the
+horizon rate) — then pure kinematics (ω ∝ a⁻²):** the radiation era LOCKS ω/H at its
+birth value (both scale as a⁻²); matter domination breaks the tracking (ω/H ∝ a^{-1/2});
+at recombination ω/H = √((1+z_rec)/(1+z_eq)) = 0.57 — **reproducing the banked P-028
+magnetogenesis input (ω ~ 0.5 H_rec, 14%), which upgrades from ASSUMPTION to KINEMATIC
+CONSEQUENCE**; today ω₀ = 0.77 km/s/Mpc → 192 km/s swirl at 250 Mpc (the measured
+bulk-flow excess's order). One line from genesis to today through three landmarks,
+zero dials.
+
+**The energy-budget nulls [the no-more-levers verdict]:** the flow's energy fraction is
+< 10⁻¹⁰ of the total at every link — BBN's expansion rate, the CMB fit (69.9), and the
+BAO scale are untouched. There are NO new early-universe H0 levers in the flow.
+**The refinement:** the flow threads every LATE/LOCAL measurement instead — the distance
+ladder (the partial H0 bias), bulk flows, RSD/fσ8 — as ONE common axis-aligned kinematic
+component. The chain's late observables share a single systematic with a predicted
+direction, amplitude ~ω₀r, and (1+z)²-growth history; each is a cross-check on the
+others. [Kinematic line at estimate grade; the ring's structured field (the genesis
+inverse problem) refines the r-dependence.]
