@@ -27,7 +27,11 @@ medium that charges nothing for passage.
 Condensed matter found the loophole in 1941: **a superfluid is the unique state of
 matter through which sub-critical motion is exactly dissipation-free.** Landau's
 criterion: an object moving at velocity v through a condensate can shed energy only if
-some excitation of the medium satisfies ε(p) − v·p < 0. For a linear (phonon-class)
+some excitation of the medium satisfies
+
+$$\varepsilon(\mathbf{p}) - \mathbf{v}\cdot\mathbf{p} < 0, \qquad v_c = \min_{\mathbf{p}}\,\frac{\varepsilon(\mathbf{p})}{|\mathbf{p}|}.$$
+
+For a linear (phonon-class)
 dispersion ε = c_s|p|, no excitation qualifies until v > c_s — below that threshold the
 medium *cannot accept* the object's momentum, and drag is not small but **zero**. This
 is laboratory fact (superfluid ⁴He, ³He, dilute-gas condensates), not analogy.

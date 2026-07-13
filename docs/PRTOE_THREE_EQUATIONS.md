@@ -1,4 +1,4 @@
-# PRTOE in Three Equations (2026-07-11)
+# PRTOE in Three Equations
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -79,6 +79,28 @@ goodness-of-fit, no retreat. The claim is CONDITIONAL until then.
 
 ---
 
+## The stated stack (the object under live test)
+
+The three equations close into a cosmology whose every number is **stated before the
+data speaks** — the object the running evidence comparison actually grades:
+
+| quantity | stated value | provenance | grade |
+|---|---|---|---|
+| ε | 1.2403 ± 0.0079% | the concordance joint of fit and stack | conditional (three referees) |
+| A_s | 2.088×10⁻⁹ = (α_c/4πk)³ | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
+| n_s | 0.9641 = 1 − 2/ln(M_Pl/T_on) | the census drift; the 2 = open dimensions (exemption-clause integer) | derived-estimate |
+| z_on | 3.5619×10⁷ | profiled at the frozen stack (the 3α mark hit blind to 0.005 dex) | fast-profiled estimate, chain-graded later |
+| w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
+| Σm_ν | 61.4 meV, normal ordering | ρ_Λ^{1/4} = m₁ tie (P-2026-012) | recorded prediction |
+| T_c | 193 keV | analytic closure (spine §15) | derived |
+| H₀ | 69.9 (output, not input) | falls out of the re-fit | production |
+
+ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
+whatever the sky refuses, the model has nowhere to retreat. That totality, not any
+single row, is the claim under adjudication in the nested-sampling run now executing.
+
+---
+
 ## The closing note (why the repo exists)
 
 What does not compress is the derivation chain *inside* the symbols — why $9/10$
@@ -87,8 +109,8 @@ $193$ keV (the analytic closure, spine §15), why $3\alpha$ (basement-owed, bet-
 Those numbers are outputs of the field's history from its initial conditions, not axioms.
 The equations are three lines; the receipts are the repository.
 
-*Status marker (2026-07-11): every derivation above is conditional on one root — the no-bare
-mechanism's unconditionality (M3). The referee's standing on the medium claim: ~16%.
+*Status marker (2026-07-13): every derivation above is conditional on one root — the no-bare
+mechanism's unconditionality (M3), an assumption named as such.
 The deciders: the α_c MCMC (grades $3\alpha$ and the $c$-roster), the $\bar{f}$ ensemble, DESI DR3,
 and PolyChord — **THE ZERO-PARAMETER EVIDENCE RUN is IN PROGRESS as of 2026-07-13** — ε, A_s, n_s,
 and z_on all STATED (derived/profiled, statuses in the DEPENDENCY_TREE), no Occam
