@@ -1933,3 +1933,13 @@ acoustic spectrum × the medium's damping envelope = the surviving patch spectru
 smooth, scale-dependent. UPGRADE: if P-031's isocurvature line is the pour's sound, its
 ℓ ~ 170 WIDTH AND SHAPE are the damping envelope's imprint — a computable target for
 B2's thermodynamics, replacing the maybe with a spectral prediction-in-waiting.
+
+### THE DEPTH LAW (the operator's standing rule, post-strike-13)
+
+At the model's current depth, what remains to discover is genesis-borne, and genesis is
+FORMATION PHYSICS — roll-ups, spin-ups, tapers, melts, damping envelopes. Therefore:
+**ramps are the default presumption for every new result; steps are legal ONLY via the
+exemption clause (quantized/topological/protected-zero). A step-shaped result at this
+depth is presumed shallow and unreliable until it produces its exemption.** Every future
+sweep's verdicts, sizings, and fate-assignments carry the ramp check at their edges
+before booking.
