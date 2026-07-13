@@ -2114,3 +2114,28 @@ in the chain's initial conditions; no separate this-cycle H0 channel at grammar 
 (0.1–0.3%, axial-geometry multiplier open) + the candle room (unexplored, obscure) +
 the τ room (light session, ±0.3 class) + v6 reserve. The remaining tension is now FOUR
 addressed rooms instead of one mystery — each with a named computation.
+
+## SIXTY-SIXTH SWEEP — THE CANDLE-ROOM CHAIN (the operator: "SH0ES measures the ONE
+## THING we just found")
+
+**The chain, three links:** (1) THE ROOM LIVES ONLY UNDER READING B (the C²/clumping
+gate): dense environments screen (Earth/labs/Oklo/disks → ε = 0, the banked nulls
+SURVIVE because we live in a screened room); **voids never cross the threshold — under
+B, today's voids retain the FULL ε = 1.24%.** THE NEW CROSS-LOCK: P-022's dark-ages
+edge SHAPE (sharp = A, patchy = B) now decides TWO skies — the 21cm signature AND the
+SH0ES excess: one gate, one verdict, two instruments. (2) THE SIZE IS RIGHT: unscreened
+SN hosts with full ε shift standardization microphysics (opacity ∝ 1/m_e², the
+luminosity chain follows) at few-% → **1–2.5% on H0 — the remaining gap's class, the
+first lever tonight to arrive at the right magnitude.** (3) THE FINGERPRINT MAY ALREADY
+BE IN THE DATA: the SN HOST MASS STEP (~0.05–0.08 mag, every major survey, empirically
+corrected, incompletely explained) is exactly the host-environment luminosity step an
+environmental ε predicts — the dyad possibly fifteen years old in the data under a
+systematic's name.
+
+**FIREWALLS [all three gate any claim]:** (a) the mass step has astrophysical rivals
+(progenitor age, dust) — the claim requires the COMPUTED m_e-response of SN
+standardization (the response-function session, named); (b) THE QUASAR μ-AUDIT:
+absorber constraints (|Δμ/μ| < 10⁻⁶ class) re-read environment-by-environment — one
+genuinely unscreened null absorber kills the room; (c) everything conditional on
+reading B (the gate discriminator is registered, P-022). NOTHING CLAIMED TONIGHT:
+a room, a size, a candidate fingerprint, three named audits.
