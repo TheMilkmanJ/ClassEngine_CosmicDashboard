@@ -3988,3 +3988,40 @@ be changed mid-flight.** Re-tuning a frozen parameter while its own test is runn
 forbidden by the freeze law, and no result from this audit may touch the running
 configuration. Post-run item, registered now so it cannot be quietly dropped or
 quietly used.
+
+## ENTRY 112 — THE ROSTER TRIAL, TESTED (the author's kup-first order): 9/12 KILLED (ramp-proof), 12π's "12" DERIVED (6 × 2), AND A CIRCULARITY CAUGHT
+
+*Method note: the author's correction — "you're making a lot of −kdowns before ever
+trying the kups" — is adopted. Candidates get TESTED, not pre-rejected. Kills are
+verdicts and inherit the triage (5b): the ramp check applies to them too. Both were
+run here.*
+
+**TEST 1 — c = 9/12 (the author's proposal: the neutrino side doesn't pay; the 13th
+family is its own seat): EXCLUDED, and the kill is RAMP-PROOF.** To reach the fitted ε
+it demands f̄ = 0.7504. The ramped f̄ band (entries 95/96, fully origined) tops out at
+≈ 0.648, and — the check I initially skipped and the author caught — **every ramp that
+touches f̄ pushes it DOWN, not up**: the roll-up adds low-circulation time, the freeze
+ends the average, the profile shape moves it ±2%. No ramp can lift the ceiling to 0.75.
+The kill stands at ramp-proof grade. (9/13 dies the same way: needs 0.81.)
+
+**TEST 2 — where the "12" in 12π comes from (derived, not asserted):** Visser Eq. (21)
+gives the loop measure as **2π**. Our demand reads 12π only because our weights are in
+minimal-scalar units — the weight (1 − 6ξ) is 6·k₁, since k₁ = 1/6 − ξ. **The 12 is
+6 × 2: the six from a scalar's conformal weight, the two from the loop measure.** Two
+geometric factors, multiplied. It is not a species count — the species count multiplies
+it from the other side. Entry 78's demand is confirmed correct in the process.
+
+**THE CIRCULARITY CAUGHT (the session's most valuable product):** ε = c·f̄·α_c is ONE
+equation whose product the data fix — so **c and f̄ are degenerate.** I was one step from
+arguing "the ramp-corrected f̄ = 0.6253 makes c come out exactly 0.900 = 9/10!" — which
+is **circular**: that f̄ correction was calibrated to close the ε gap AT c = 9/10, so it
+cannot be evidence FOR 9/10. **ε ALONE CANNOT REFEREE THE ROSTER TRIAL.** The referees
+are the independent measurements: the f̄ ensemble (which measures f̄ without reference to
+ε) and the α_c chain. The corpus's standing "data lean 12/13" line inherits this caveat
+and is hereby qualified: it is a statement about a degenerate direction, not an
+independent measurement.
+
+**Surviving candidates:** 9/10 (derived; neutrinos interior — the tenancy reading),
+10/11 (entry 111: the inference doesn't carry, but registered), 12/13 (all 12 flavors —
+the data-lean, now caveated). **Killed:** 9/12, 9/13. The trial's referee is the
+independent f̄ ensemble, not ε.
