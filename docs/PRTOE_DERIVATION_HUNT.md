@@ -2509,3 +2509,27 @@ criterion) — **B1's NINTH ambush, computable.** The chain: formation Γ → fr
 evolution → the condensation ramp anneals the mess → the slip freeze locks the integer
 → Widnall stabilizes the ring. The dice demoted twice: first to noise, now to
 un-annealed residue. Strike 19 logged.
+
+## SEVENTY-EIGHTH SWEEP — THE INDUCED-G FIRST SHOT (the match-or-die test fires its
+## first round; the frame does not die)
+
+*(Fermi grade; the operator's order: "if it's light, do it")*
+
+**THE BOOTSTRAP:** self-consistent induced gravity sets Λ = M_red (nothing exists above
+the induced scale to cut off) — Sakharov's 1/G = N_eff Λ²/(12π) becomes a PURE-NUMBER
+demand: **N_eff = 12π = 37.70** (convention band: 1/(16π²) schemes demand 158).
+
+**THE ROSTER'S COUNT:** 3 charged Dirac leptons (12) + 3 Majorana neutrinos (6) = 18
+leptonic components × THE TWIN DOUBLING = 36, + the medium's complex scalar (2) =
+**38 vs 12π = 37.70 — a 0.8% Fermi-grade hit.** The tenancy's roster, counted with the
+model's own doubling law, lands on the induced-gravity bootstrap number.
+
+**FIREWALLS [all standing]:** (i) the heat-kernel per-spin coefficients are THE named
+session (the convention band spans [37.7, 158]; fermion signs scheme-dependent);
+(ii) the twin-doubling here must be FORCED as it was for the gap equation (P1.c-class
+adjudication owed in the gravitational channel); (iii) look-elsewhere ~×3 on the
+convention. NOTHING SIGNED — but the QG frame's registered match-or-die test fired its
+first round tonight and the frame is still standing, with G now derivable-in-principle
+from the same door as everything else: the roster. **The model's three deepest opens
+(A_s's ceiling, the tenancy, induced-G) are now one room with one number-family:
+12π ≈ 38 residents, three flavors, twinned, plus the landlord's own two.**
