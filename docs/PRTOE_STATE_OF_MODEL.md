@@ -1,5 +1,13 @@
 # State of the Model — Checkpoint (2026-07-07 evening)
 
+> **HISTORICAL CHECKPOINT — SUPERSEDED.** This snapshot predates the derivation-hunt
+> era (68 sweeps), the freezes (ε, A_s, n_s, z_on all STATED as of 2026-07-13), and the
+> zero-parameter evidence run now in progress. Current truth lives in:
+> [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) ·
+> [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md) ·
+> [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md). Kept unedited as the July-7 record
+> (including P-2026-004's registered death — the registry's first internal kill).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 

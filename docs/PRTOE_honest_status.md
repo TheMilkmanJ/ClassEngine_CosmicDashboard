@@ -3,7 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STALENESS NOTE (2026-07-12):** dated 2026-07-08 — predates the threading program, the
+> **STALENESS NOTE (updated 2026-07-13):** dated 2026-07-08 — predates the threading program, the
+> derivation hunt (68 sweeps), the freezes (ε/A_s/n_s/z_on stated), and the running
+> zero-parameter evidence test; see DEPENDENCY_TREE for current conditionality — plus the
 > derivation hunt, and the evidence run. Current state: [PRTOE_INDEX.md](PRTOE_INDEX.md);
 > current standing and live bets: [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md)
 > (banner). Kept as the honest historical baseline.

@@ -22,6 +22,10 @@ No verdict may be argued after the fact — the rules below were set before the 
 | DESI DR3 w(z) | w = −1 exactly (the peg) | robust thawing/w ≠ −1 kills the floor |
 | TRGB ladder (P-2026-001) | the no-hedge ladder bet | as registered |
 | the radio arbiter | the D/H fork (the ~1.9σ owned bet) | as registered (t449) |
+| THE ZERO-PARAMETER EVIDENCE RUN (live, 2026-07-13) | ε+A_s+n_s+z_on all stated vs ΛCDM free | ΔlnZ verdict; any stated number wrong collapses the model's evidence |
+| the ς sign session (synthetic photometry; queued) | the candle room / the H0 ceiling | ς = −1 kills the candle lever; +1 opens the 73.4 reach |
+| DESI forest-BAO (near-term data) | the gate curve at mean density | a clean forest at the curve's prediction kills the candle room |
+| the Eliashberg k-audit + winding-gas C_V (B2/B3, queued) | the A_s closed form | k outside the concordance band [1.360, 1.366] kills sweep 44 |
 | BipoSH joint pass (analysis-limited — data exists) | the axis family as ONE axis (comb + dipole + isocurvature + HPA) | any two members robustly misaligned kills the family |
 
 ## THE DECADE
