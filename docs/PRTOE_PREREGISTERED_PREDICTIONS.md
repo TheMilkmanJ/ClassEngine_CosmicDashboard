@@ -2000,3 +2000,49 @@ its own keep beyond it. THE AUTOPSY PROTOCOL, set now: when the number lands, de
 it — best-fit Δχ² of the freed run vs the old fixed run, against the measured Occam costs
 (from the PolyChord outputs) — and grade WHOSE MECHANISM STORY was right, independent of
 who wins the interval. Bets stand as registered; no slides.
+
+---
+
+## ANN-2026-022: THE REGISTRY RAMP AUDIT (author's bet, 2026-07-13: "I bet they're riddled with step-based")
+
+**Recorded:** 2026-07-13. **Trigger:** the author's standing depth law (every genesis-depth
+result ramps; steps only via the exemption clause) turned on the registry itself. Every
+entry's underlying equation and kill condition audited for step-based formulations.
+
+**The verdict: the bet lands twice — not riddled.** Classification of all entries:
+
+1. **CONFIRMED STEP-DEBT — P-2026-007 (the void/IGM shift).** Registered as "the near-step
+   S(C)": m_e binary across the structure threshold. Pre-depth-law wording. Under the
+   modern gate curve ε(C) (steep, screened, continuous — the fenced crossover), the
+   prediction *survives and sharpens*: deep voids and the cosmic-dawn bulk IGM sit at
+   gate saturation (the full +1.24%; the 21-cm fork's +2.5% frequency offset is
+   unchanged), while intermediate-density gas now takes a *graded partial shift* — an
+   environment *trend*, which is a harder-to-fake signature than a binary. The kill
+   condition does not move; the observable's shape does. Entry stands as registered;
+   its modern reading is the ramp.
+
+2. **CONFIRMED STEP-DEBT — ANN-2026-013 (the "discrete switch").** The MICROSCOPE kill
+   forced m_e onto "a binary/environmental variable," and owed item (i) named the hard
+   problem: a sharp switch with no light mediator. The depth law's presumption (a step
+   at this depth signals a missing mechanism) was *correct in retrospect*: the corpus
+   later resolved exactly this by the steep screened crossover — the "switch" is a ramp
+   whose steepness does the evasion work, the mediator remains gradient-free inside
+   saturated regions, and the owed domain-wall check resolves the crossover way (no
+   broken degenerate vacuum, no wall network). The annotation's step is retired by the
+   gate; the MICROSCOPE evasion is owed (and argued) for the ramp's intermediate regime
+   via the three fences.
+
+3. **Pattern evidence (dead family):** the retired healer annotations (ANN-2026-004/005:
+   epoch gates, basin entry) were step-based throughout — consistent with the author's
+   thesis that pre-depth-law entries default to steps.
+
+4. **NOT step-debt — the exemption clause covers:** P-2026-013 (topology — topological),
+   P-2026-016 (quantized vortices), P-2026-018 (w = −1 — a protected zero, ground state),
+   P-2026-027 (the two-line ratio-lock — rational), P-2026-040/041 (pure numbers),
+   and the null family P-2026-002/008/014/017 (forced zeros). These step by right.
+
+5. **NOT step-debt — statistical verdict lines** (">2σ", "≥10⁻¹⁶ G", band edges): decision
+   thresholds on measurements, not physics discontinuities.
+
+**Registry consequence:** none of the frozen bets moves; P-2026-007's modern reading (the
+graded trend) is noted here rather than by edit, per the append-only law.

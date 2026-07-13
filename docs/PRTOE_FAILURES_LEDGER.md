@@ -37,6 +37,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | the error | the correction | provenance |
 |---|---|---|
 | Step-thinking error 1: the f̄ measurement window | the ramp experiment (f̄(t), freezes ~t=300) | author catch |
+| Pre-depth-law step framings in the registry itself (P-2026-007 "near-step S(C)"; ANN-2026-013 "discrete switch"; the dead healer epoch gates) | the registry ramp audit ANN-2026-022: both live entries survive as ramps under the gate curve ε(C) — P-007 sharpens to an environment trend; ANN-013's owed "sharp switch mechanism" dissolved into the crossover | 2026-07-13 (author bet: "I bet they're riddled with step-based" — landed twice, not riddled) |
 | Process error 2: the transition treated as a switch | ramp/window structure through T_c | author catch |
 | Process error 3: the JWST-epoch kill | reopened as mid-ramp cooling (IMF question, parked) | author catch |
 | Process error 4: single-segment census running + induction-vs-condensation binary | piecewise system; the crossover | internal record 523 (author catch) |
