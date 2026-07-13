@@ -106,7 +106,13 @@ condition — the cutoff of an induced theory is the induced scale itself — ma
 one-loop demand a pure number: |str| = 12π. With the adjudicated census this is a
 linear equation pinning ξ, conditional only on the sign convention (§5.4):
 
-  **THE DOOR IS NAMED (entry 106): 1/G = +str[k₁]κ²/2π, and ξ_amp = −4.450.**
+  **THE DOOR IS NAMED (entry 106): 1/G = +str[k₁]κ²/2π. The amplitude coupling —
+SUPERSEDED (entry 108): the tensor algebra proved no single covariant ξ_amp exists —
+the scale mode's coupling is split (ξ_H² = −1, ξ_Ḣ = −2/3 at the founding point,
+exact) and its kinetic term is negative (the conformal-factor structure, derived).
+The covariant −4.450 bet was voided by discovery; the live computation is the
+anisotropic (preferred-frame) heat kernel with the split weights, pre-registered to
+deliver str = +12π at the founding point or kill the closure.**
 The convention bit was adjudicated by the framework's own keystone: the FFZ mechanism
 ties 1/G and horizon entanglement entropy to the same species sum, and entropy
 positivity (scalars +, fermions +; vectors −, per the Kabat contact term — a class

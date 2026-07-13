@@ -63,7 +63,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G: str = 11 − 6ξ_amp = +12π (entries 80/82/86/87/99/103/106) | the adjudicated census (9, filed jointly) + ξ_phase = 0 (Goldstone) + the sign RESOLVED door A (the FFZ/entropy anchor, entry 106) | [D-conditional] — the G-closure HEALTHY; **ξ_amp = −4.450 pinned; G measures ξ_amp**; the radial-EFT derivation pre-registered to hit it or die | an independent ξ_amp off −4.450; the radial-EFT derivation missing; the FFZ keystone falling |
+| induced-G: sign RESOLVED (door A, entry 106); the amplitude coupling SPLIT (entry 108: ξ_H² = −1, ξ_Ḣ = −2/3, Z < 0 — no covariant ξ exists; the −4.450 bet voided by discovery) | census 9 (jointly) + ξ_phase = 0 (Goldstone) + the split couplings (derived, exact) | [D-conditional, OPEN at the anisotropic heat kernel] — pre-registered: the split-weight a₁ delivers str = +12π at the founding point or the closure dies | the anisotropic heat kernel missing the demand; the FFZ keystone falling; any independent founding-coupling determination off the derived splits |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 

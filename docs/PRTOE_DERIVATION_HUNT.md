@@ -3700,3 +3700,41 @@ O(δρ²) at general (a_t, a_s)(n), extract ξ_amp(n) continuously, evaluate at 
 G-closure dies by its own founding equation.** The needed deviation is O(5) from an
 O(1) anisotropy — plausible, not guaranteed, exactly as a real bet should be. The
 tensor-algebra session is the docket's sharpest item.
+
+## ENTRY 108 — THE TENSOR-ALGEBRA SESSION: THE COVARIANT BET MISSES, AND THE MISS EXPOSES WHY — THE SCALE MODE'S COUPLING IS SPLIT AND ITS KINETIC TERM IS NEGATIVE
+
+The pre-registered computation ran (symbolic, FRW base, O(σ²), by-parts complete,
+exponents ramped over n). Three results, in order of importance:
+
+**1. THE PARAMETRIZATION FAILS — the coupling is SPLIT.** The anisotropic scale mode
+does not couple through a single covariant ξφ²R term: at the founding point the H²
+and Ḣ pieces disagree — **ξ_H² = −1 exactly, ξ_Ḣ = −2/3 exactly** (and on the n-ramp:
+ξ_H² = n(n−4)/3(n−2)², ξ_Ḣ = 2n/3(n−2), with a shared pole at n = 2 where the
+spatial exponent dies). A split coupling is a PREFERRED-FRAME coupling — fully legal
+in this model (the medium has a rest frame) but fatal to the covariant bookkeeping:
+**the demand equation str = 11 − 6ξ_amp was built on the covariant a₁ weight
+(1/6 − ξ), which does not exist for this mode.**
+
+**2. THE KINETIC TERM IS NEGATIVE: Z = −3a_s²/2 (= −3/8 at GP).** The scale mode is
+the emergent metric's conformal-factor cousin, wrong-sign kinetic and all — the
+famous conformal-factor structure, arriving here by derivation rather than analogy.
+Its loop contribution therefore needs the ghost-mode treatment; its SIGN in the
+species sum is not the naive one.
+
+**3. THE PRE-REGISTERED BET, adjudicated honestly:** at covariant face value the
+founding point gives ξ ≈ −1 (split −1/−0.67) against the registered −4.450 —
+**a miss by ~4×.** But the same computation proved the bet's presumption false: no
+single covariant ξ_amp exists to have hit. RULING: **the bet is VOIDED BY DISCOVERY
+— not won, not lost; the question was ill-posed** (the model's own collision-test
+precedent for ill-posed registrations). The red team is explicitly asked to grade
+whether the voiding is legitimate or a dodge. Noted flat, no rescue: ξ_H²(n) passes
+through −4.45 at n ≈ 1.47 — and n = 1 is the founding equation; sliding n would be
+tuning, forbidden, dead on arrival.
+
+**THE NEW PRE-REGISTRATION (the correctly-posed question, 5a's next ramp):** compute
+the heat-kernel a₁ for a split-coupled (ξ_H² = −1, ξ_Ḣ = −2/3), negative-Z scale mode
+in the preferred frame (Hořava-class anisotropic heat kernel), rebuild the demand
+equation with the correct weights, and check whether str = +12π is delivered by the
+founding point. **Registered before that computation exists: it delivers, or the
+G-closure dies by its own founding equation — the same executioner, now aimed at the
+right target.** The QG file's pinned −4.450 is superseded accordingly.
