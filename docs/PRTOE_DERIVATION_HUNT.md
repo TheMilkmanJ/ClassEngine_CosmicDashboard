@@ -2966,3 +2966,42 @@ cleanly (the WHIM) is docketed rather than guessed. The author's 90%-from-genesi
 instinct read correctly: the verdicts that needed nothing were the ones whose
 physics never touched the gate; every gate-touching observable was either already
 registered or is now (the WHIM) on the docket.
+
+## ENTRY 89 — THE S₈ LEVER RAMPED + THE FENCE CENSUS: the gate curve now has SIX grips, and a machine that finds them
+
+**Part 1 — the author's S₈ question, answered.** The coded S₈ machinery (the conversion
+shed; S₈ = 0.821–0.823 vs KiDS 0.814) is continuous, chain-graded physics — ramp-clean
+by construction. But the audit found the un-priced lever: **entry 84's ε-gradient force
+acts on baryons (composition-tagged) at void walls — a growth channel never booked.**
+Ramped across the fence-allowed bands: the force-to-gravity ratio at walls spans
+0.02–2.2, giving **ΔS₈/S₈ = +0.04% to +2.6% — sign UP (extra wall clustering), counter
+to the tension the shed relieves.** Fork-corner-conditional: the lever lives only where
+the gate swings (C_ref ≈ 2); at fence-parked C_ref ≪ 1 it vanishes smoothly. So the
+fork corner now carries a booked S₈ counter-lean: if the mass step is the model's, the
+shed must out-pull an extra +≲2.6% — the corner gets more expensive, honestly.
+
+**Part 2 — "are there more gates we aren't accounting for?" YES — and here is the
+machine that generates them:** any observable that samples atomic physics or dynamics
+ACROSS the screening boundary grips the gate curve. The census, run systematically:
+
+| # | fence | grips via | status |
+|---|---|---|---|
+| 1 | the forest's flatness | atomic lines at Δ ≈ 1 | registered; DESI executes |
+| 2 | the SN host-density range | standardization vs environment | registered; forked (entries 85/85b) |
+| 3 | the 21-cm fade profile | the curve in redshift | registered (P-2026-022) |
+| 4 | the composition cliff | bound-orbit kinematics | entry 84; parks the swing at web scales |
+| 5 | **the WHIM line offsets** | X-ray/UV lines at Δ ≈ 10–30 | entry 88; docketed — archival data may already grip |
+| 6 | **the S₈ counter-lean** (new) | baryon-DM segregation at void walls | this entry; fork-corner-conditional, +≲2.6% |
+
+**Candidates checked and CLEARED by the same machine:** cluster gas and tSZ (screened);
+ISW/kSZ (no photon coupling, L1a); reionization-era uniform shifts (redshift-degenerate);
+α-multiplet fences (common-mode blind to uniform m_e). The machine's rule of thumb,
+stated once: *precision instruments live in screened rooms; dynamics and diffuse
+spectroscopy live on the boundary; only the boundary fences the gate.*
+
+**The consolidation:** the fork corner (C_ref ≈ 2) is now gripped by THREE independent
+referees — the DESI forest, the WHIM archive, and the S₈ counter-lean — plus the
+mass step that motivated it. Either the corner dies thrice-fenced, or it survives
+thrice-fenced and the gate is CALIBRATED with three cross-checks already paid. The
+gate curve has gone from a hypothesis with three fences to a function with six grips
+and a census rule that finds the next one.
