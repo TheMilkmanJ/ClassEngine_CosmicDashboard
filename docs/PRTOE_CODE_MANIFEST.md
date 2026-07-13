@@ -10,6 +10,7 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 | item | home | status |
 |---|---|---|
 | The dispersion shape: ρ_rad = dust·(√(1+x²)−1), exact p and dp/dloga | [C] background.c | IN — the live .so, direct-eval verified (2798.7) |
+| THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | [C] background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
 | The dyad (varying m_e, the ramp through T_c) | [C] | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | [C] | IN |
 | The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | IN — the arbiter runs the first |
@@ -19,7 +20,7 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | (α_c/4πk)³ with the CONCORDANCE joint k = 1.3630 ± 0.0032 (sweep 59) → 2.089e-9 | RED-TEAM APPROVAL of def549 asks #1+#3 (operator order 2026-07-12: approval suffices) | [Y] cmp_prtoe_fixed.yaml |
+| A_s frozen | 2.088459e-9 = (α_c/4πk)³, concordance joint k (sweep 59) | **EXECUTED — OPERATOR ORDER 2026-07-12 night** (the lawmaker superseded the approval gate; provenance in the yaml) | [Y] cmp_prtoe_fixed.yaml — IN |
 | z_on frozen | the converged zon value | zon convergence (the sentinel guards it) | [Y] |
 | n_s stated | 1 − 2/ln(M_Pl/T_on) — now derivation-backed (the 2 = the open dimensions) | zon (T_on) | [Y] |
 | ρ_inf stated | the occupancy value | zon + the triangle confirmed | [Y] |

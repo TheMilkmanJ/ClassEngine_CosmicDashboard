@@ -122,6 +122,11 @@ struct background
   double varconst_me; /**< electron mass for varying fundamental constants */
   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */
   double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
+  double varconst_transition_width; /**< PRTOE (2026-07-12, the depth law): ramp width of
+                              the window edges in ln(1+z). 0 (default) = the original
+                              instantaneous steps (backward compatible); > 0 = both edges
+                              become tanh ramps — the banked screening-edge fade (z~30-60)
+                              and the T_c condensation onset, at global-average level. */
   double varconst_z_high; /**< PRTOE dyad HIGH-z window edge (2026-07-10): above this
                               redshift the constants return to STANDARD -- the dyad
                               condensate is thermally DISORDERED above its T_c (electron-CW
