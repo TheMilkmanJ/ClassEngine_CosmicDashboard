@@ -1988,3 +1988,19 @@ their lab error bands). v3 co-lands ⟹ the frame earned it three-shots-honest. 
 misses ⟹ THE MAPPING DIES (ε=0.88 ↔ circulation fraction; 0.843 ↔ mass fraction —
 sweep 56's frame and strike-12's unlock are rejected as the wrong dictionary) while the
 ring and its landed Widnall count survive. The kill boundary is drawn before v3 exists.
+
+### THE IRROTATIONAL EXEMPTION (the operator's catch: "that would explain why space has
+### no rotation even though we're rotating")
+
+The superfluid's structural trick, now a fence for the flow arc: ALL vorticity lives in
+the quantized filament cores; the bulk is IRROTATIONAL (∇×v = 0 pointwise) while the
+global circulation ∮v·dl = nκ ≠ 0 carries the rotation. Consequences: (i) local
+instruments (gyroscopes, Foucault-class, local frames) measure ZERO rotation anywhere
+in the bulk — rotation without local rotation; (ii) **the Bianchi/CMB rotation bounds
+(ω/H ≲ 10⁻⁹) DO NOT APPLY** — they constrain global METRIC vorticity (solid-body,
+CMB-spiraling); the filament-carried rotation leaves the metric near-FLRW with the
+coarse-grained swirl emerging only as the Feynman-rule average over the lattice — the
+flow line's ω₀ ~ 10⁻² H₀ and the bounds never meet. The seven-order collision that
+would have been red team's first shot at sweeps 53–55 is dissolved by construction.
+HONEST RESIDUAL: the network's own metric perturbations carry a (small, priced) bill —
+P-028's context and the smoothness floor, not a Bianchi-class constraint.
