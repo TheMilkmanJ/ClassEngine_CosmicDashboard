@@ -52,6 +52,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | Strike 7: the clock binary (H=m OR k/a=m as either/or) | two components carry two clocks, one shared m; the clock-ratio n-instrument; the lineup later collapsed (one pair-mass) | 2026-07-12 (operator catch) |
 | Strike 8: the transfer integral point-evaluated (three ramps read at one point) | the crude integral run — low-end domination restored the order (fudge-grade) | 2026-07-12 (operator catch) |
 | Strike 9: the birefringence timing wall step-phrased ("polarization didn't exist yet") | ramped: the pour writes light's BIRTH CERTIFICATE — parity-odd initial conditions (P-028/T10) make EB/TB with no EM coupling; T10 = the white hole's fingerprint in light; en-route null unchanged (exempt anomaly zero) | 2026-07-12 (operator catch: "steps or ramps?") |
+| Strike 10: the thermalization ceiling coded as a wall (sweep 46) | the blackbody visibility ramp exp[−(z/z_dc)^{5/2}]: the 1/m-branch whispers at μ ~ 1.2e-9×eff (PRISM-reachable), not "silent forever"; discriminator survives at 7e5 ratio | 2026-07-12 (operator catch: "you didn't ramp it, did you?") |
 
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 

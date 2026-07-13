@@ -1352,3 +1352,16 @@ a deep μ null squeezes ξ toward zero coupling or forces 1/m. STATUS: the discr
 inherits sweep 44's CANDIDATE grade (everything downstream of the unmechanized form is
 conditional on it); framed as the geometric session's data referee, not a registered
 prediction. (Receipts: this sweep's session log; z_eq/z budget frame, μ ≈ 1.4×injection.)
+
+### Sweep 46 RAMP CORRECTION (strike 10 — the operator: "you didn't ramp it, did you?")
+
+THE STEP CONFESSED: the thermalization ceiling was coded as a WALL (above z ~ 2×10⁶ =
+"fully thermalized, invisible forever"). The real object is the blackbody VISIBILITY —
+a smooth ramp, 𝒥(z) = exp[−(z/z_dc)^{5/2}], z_dc ≈ 1.98×10⁶. Ramped verdicts:
+(i) ξ-branch: 𝒥 = 0.76 — FIRAS efficiency bound relaxes 2% → 3% (same class);
+(ii) **1/m-branch: NOT silent — 𝒥 = 1.1×10⁻⁶ → μ ≈ 1.2×10⁻⁹ × efficiency: below
+PIXIE (10⁻⁸) but INSIDE PRISM-class (~10⁻⁹) reach at high efficiency — "invisible
+forever" is DEAD, replaced by "whispers one generation past PIXIE";** (iii) the
+discriminator SURVIVES ramping — the branch ratio is 7×10⁵, five-plus orders, a real
+instrument either way. The H0-shortfall and budget-frame arithmetic carried no steps
+(smooth in z) — the LOST grade on the operator's H0 bet stands. Strike 10 logged.
