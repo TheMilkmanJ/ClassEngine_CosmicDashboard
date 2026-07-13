@@ -4247,3 +4247,49 @@ number. One computation. No freedoms left to hide in.** Every other input is now
 derived, settled, or theorem-bound. This is the sharpest the question has ever been, and
 it got there because the author refused to let a verdict stand on an unwalked origin —
 four times in one day.
+
+## ENTRY 116 — THE CLOSURE TERMINATES ON EMPTINESS (ramps walked FIRST) — AND THE AUTHOR'S REFUSAL TO DISMISS THE CANCELLATION CONVERTS IT INTO A REGISTERED PREDICTION
+
+**PART A — THE COINCIDENCE CONVERTS (the author's method: perturb, don't dismiss).**
+The 48 − 48 cancellation was tested by variation rather than waved away:
+
+| content | Weyl | gauge | balance |
+|---|---|---|---|
+| Standard Model alone | 45 | 48 | **−3** |
+| + 1 sterile ν | 46 | 48 | −2 |
+| + 2 steriles | 47 | 48 | −1 |
+| **+ 3 right-handed ν (THE MODEL'S OWN CONTENT)** | **48** | **48** | **0 — EXACT** |
+| + 4 steriles | 49 | 48 | +1 |
+| + a 4th generation | 61 | 48 | +13 |
+
+**THE CANCELLATION IS NOT A PROPERTY OF THE STANDARD MODEL — the SM alone misses by 3.
+It balances IF AND ONLY IF there are exactly three right-handed neutrinos, which is
+exactly what this model requires** (Majorana masses, the seesaw, the whole neutrino
+sector). It also requires exactly three generations. **The coincidence is LOAD-BEARING**,
+and it converts into falsifiable content (registered as P-2026-045): **no sterile
+neutrinos beyond the three; no fourth generation.** Each would break the gravitational
+balance and force the visible sector to source gravity — which the model forbids.
+
+**PART B — ξ_r DERIVED, AND THE CLOSURE TERMINATES ON EMPTINESS.** The relative-amplitude
+modes are fluctuations in the *ratio* of channel densities at fixed total; the acoustic
+metric is built from the total, so at leading (degenerate-channel) order they do not
+perturb it and ride minimally: **ξ_r = 0** (corrections proportional to the channel
+coupling spread — computable, unrun). The pre-registered target was −0.79. **It misses.**
+
+**BUT THE TERMINATION DOES NOT REST ON THAT MISS — and this is the verdict whose ramps
+are walked FIRST, as the law now demands.** The bootstrap (K = M_red exactly) was never
+derived; K carries an O(1) that the basement's own slack permits (entry 109c). **With
+K free at O(1), the closure DETERMINES the coherence scale rather than predicting
+anything. It has no falsifiable content. It is not wrong — it is EMPTY.** That verdict
+is robust: it holds for ANY value of ξ_r, so no further computation can revive it.
+
+**THE G-CLOSURE IS TERMINATED — on emptiness, not on error, with its ramps walked
+before the gavel.** No further lives. Every claim to compute, predict, or measure
+Newton's constant from this model is withdrawn permanently.
+
+**WHAT THE PHOENIX LEAVES BEHIND:** the emergent-gravity framework (untouched); the
+physical regulator (O(1) = 1.0000 exactly); the derived scale-mode structure (GR's
+conformal-factor pathology, derived); the Leggett sector (a forced, previously-missing
+mode family); the tenancy-IS-ξ identity; and **P-2026-045 — a new, falsifiable,
+registered prediction born from the closure's own autopsy.** The wall came down and a
+door opened in the same computation.

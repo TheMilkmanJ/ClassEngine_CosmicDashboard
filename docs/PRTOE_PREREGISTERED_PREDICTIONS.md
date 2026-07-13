@@ -2075,3 +2075,35 @@ The Kelvin-weight session (hunt entry 87) killed the vector-sector closure fourf
 kinematically excluded). **P-2026-029's tooth count no longer referees the G-closure's
 sign.** The comb returns to its single registered duty. The registry records both the
 flag and its retirement within one day — the audit chain working at its designed speed.
+
+---
+
+## P-2026-045: THE GRAVITATIONAL BALANCE CONDITION — exactly three right-handed neutrinos, exactly three generations (registered 2026-07-13)
+
+**The claim.** In this framework gravity is induced by the one-loop content of the
+vacuum. The visible sector's contribution is a weighted species sum: the fermions
+contribute +1 per Weyl component, the twelve gauge bosons contribute −4 each. **The
+Standard Model alone does not balance (45 − 48 = −3). It balances EXACTLY — to zero —
+if and only if there are three right-handed neutrinos, which this model independently
+requires for Majorana neutrino masses.** The visible sector then induces no gravity at
+all, and the metric's stiffness is sourced entirely by the medium — the framework's
+central thesis, arrived at from an independent direction.
+
+**Predictions (falsifiable, and not retrofittable — the balance is exact or it is not):**
+1. **No sterile neutrinos beyond the three right-handed states.** Each additional light
+   sterile species breaks the balance by +1 unit and forces the visible sector to source
+   gravity.
+2. **No fourth generation** (breaks the balance by +13).
+3. Exactly three right-handed neutrinos — a requirement the model already carries for
+   the seesaw, now doubly loaded.
+
+**Kills:** a confirmed light sterile neutrino (the eV-scale anomalies — LSND/MiniBooNE
+class — resolving in favor of a real fourth light state); a confirmed fourth generation;
+any evidence for additional light fermionic content in the vacuum.
+
+**Provenance and honest grade:** the cancellation was DISCOVERED, not predicted (2026-07-13,
+during the induced-gravity roster rebuild), and it survives only because the author
+refused to accept "coincidence" as a verdict and demanded it be perturbed instead. It is
+therefore a **consistency converted to a prediction by a robustness test** — its
+forward-looking content (the two kills above) is genuine and registered here; its
+backward-looking agreement with the known three generations earns no credit.
