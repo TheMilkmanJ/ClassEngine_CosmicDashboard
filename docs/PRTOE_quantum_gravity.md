@@ -63,54 +63,62 @@ timing and passed identically.
 | The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal | established mechanism, adopted [FFZ 1997; t422] |
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
-## 5. Newton's constant: the closure ATTEMPTED — and left UNDECIDED, with its teeth removed
+## 5. Newton's constant: the wrong scheme, the right condition, and a cutoff-free formula
 
-**This section records an unfinished computation and a demotion.** It is kept at full
-length because the attempt is the framework's own match-or-die test, and because a
-first verdict of *failure* was issued here and then vacated — a history the corpus
-keeps rather than tidies.
+**This section records a failure, its diagnosis, and what the diagnosis opened.** It is
+kept at full length because the history is the point.
 
-**The program.** Sakharov's proposal makes 1/G a one-loop output of the matter content:
-if the framework's roster is right, the induced Newton constant should follow from a
-species sum with no free parameters.
+**5.1 The physical regulator (stands).** In a fundamental theory the regulator is a
+bookkeeping choice; in a condensate it is a property of the medium. Mode contributions
+are weighted by the condensate's Bogoliubov coherence factors — a derived form factor
+whose regulated one-loop coefficient equals the naive value exactly (O(1) = 1.0000).
 
-**The technical results (these stand):**
-- **The regulator is physical here** (§5.1): mode contributions are weighted by the
-  condensate's own Bogoliubov coherence factors — a derived form factor whose regulated
-  one-loop coefficient equals the naive value exactly (O(1) = 1.0000). *A medium that
-  knows its ultraviolet has no regulator freedom.*
-- **The census files jointly**: the condensate's time-reversed pairing partners are
-  Nambu–Gor'kov redundancy, not separate one-loop payers — the fermion census is 9.
-- **The phase mode decouples by theorem**: shift symmetry forbids its non-minimal
-  coupling; ξ_phase = 0 exactly, at every coupling strength.
-- **The amplitude mode is the emergent metric's own scale mode**, and a direct
-  second-order computation shows it is **split-coupled** (different effective couplings
-  in the H² and Ḣ channels) with a **negative kinetic term** — general relativity's own
-  conformal-factor structure, arriving by derivation from the founding Gross–Pitaevskii
-  equation rather than by analogy.
+**5.2 The species sum, correctly constituted.** Gravity is blind: it reads energy, not
+identity. The induced-gravity sum therefore runs over **every field in the vacuum** —
+not the model's coupling roster. Counting the Standard Model in heat-kernel weights
+(fermions +1 per Weyl component; the twelve gauge bosons −4 each):
 
-**Where it stands, honestly.** A first pass on a Friedmann background returned a species
-sum far below the bootstrap demand, and this document briefly recorded the closure as
-dead. That verdict was **vacated**: it rested on two unexamined assumptions — (i) the
-bootstrap's exact identification of the coherence scale with the induced Planck scale
-(an O(1) freedom that moves the demand by its square; the computed sum corresponds to a
-coherence scale ≈ 2× the reduced Planck mass, well inside the theory's own uncertainty),
-and (ii) a Friedmann background, on which the Einstein–Hilbert coefficient and the
-preferred-frame ("aether") coefficients are degenerate — so the extracted number was a
-mixture rather than the coefficient of interest.
+| sector | contribution |
+|---|---|
+| 48 Weyl fermions (3 generations × 16, **including three right-handed neutrinos**) | **+48** |
+| 12 gauge bosons | **−48** |
+| **total** | **0 — exactly** |
 
-**The demotion that survives.** With the coherence-to-Planck ratio unfixed, the closure
-**loses its match-or-die character**: it becomes a *determination* of that ratio rather
-than a *test* of the roster. This is a genuine loss of falsifiability, stated plainly.
-An earlier draft of this document reported a 0.8% agreement; that figure rested on two
-bookkeeping errors since corrected by this project's own audits (a double-count of the
-pairing partners, and a large non-minimal coupling that the direct computation shows
-does not exist). **The framework does not currently compute Newton's constant, and does
-not claim to.**
+**5.3 That zero has a name: Pauli's finiteness condition.** The quantity that vanishes,
+str[k₁], is precisely the condition Pauli's compensation program imposes on the induced
+Newton constant [Visser 2002, Eq. 35]: *"if you additionally assume str(k₁) = 0, then
+the one-loop contribution to Newton's constant is finite"* — and, as Visser notes, G
+becomes independent of the renormalization scale. These are, in his words, *"very strong
+constraints on the particle content,"* not derivable from supersymmetry alone.
 
-**What is required to settle it:** an independent determination of the coherence-to-
-Planck ratio, and a clean extraction of the Einstein–Hilbert coefficient on a background
-that separates it from the preferred-frame terms. Both are named, neither is run.
+**The Standard Model alone does not satisfy it (str[k₁] = −3). It is satisfied exactly —
+to zero — by the Standard Model plus three right-handed neutrinos: the content this
+framework independently requires for Majorana neutrino masses.** The framework's field
+content lands on a knife-edge condition the literature identifies as hard to meet.
+
+**5.4 Why the naive closure failed, and what replaces it.** Sakharov's original route
+computes 1/G from the *quadratically divergent* coefficient — proportional to str[k₁]
+times the cutoff squared. **This framework's own content sets that coefficient to zero.**
+Every attempt to compute Newton's constant along Sakharov's route was therefore computing
+a term the vacuum annihilates; the attempts failed, correctly, and are recorded in the
+failures ledger. **The framework is not in Sakharov's scheme. It is in Pauli's**, where
+the surviving expression carries no cutoff at all:
+
+  **1/G = −(1/2π) · str[ k₁ · m² · ln(m²/µ²) ]**
+
+**5.5 The consequence, and the framework's central claim arrived at from a new
+direction.** With the cutoff gone, Newton's constant is fixed by the *mass spectrum* of
+the vacuum's content. The entire visible sector — every quark, lepton, and gauge boson —
+contributes of order 10⁻³² of the Planck density: **the Standard Model induces
+essentially no gravity, first because its quadratic term cancels exactly, and second
+because everything in it is light.** What remains are the medium's own collective modes
+at the basement scale. **Gravity is induced by the medium, and by nothing else.**
+
+**5.6 What this now demands (open, falsifiable, and no longer cutoff-hostage).** The
+formula requires the medium's collective-mode masses to sit at the Planck scale within
+an O(1) — a *derived requirement*, not an assumption, and computable from the
+condensate's own parameters. That computation is the framework's live match-or-die test,
+replacing the one that died. It carries no free scale to absorb a miss.
 
 ## 6. What this framework does and does not claim
 

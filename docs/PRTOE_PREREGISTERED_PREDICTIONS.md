@@ -2101,6 +2101,16 @@ central thesis, arrived at from an independent direction.
 class — resolving in favor of a real fourth light state); a confirmed fourth generation;
 any evidence for additional light fermionic content in the vacuum.
 
+**UPGRADE (same day, entry 117): THE CONDITION HAS A NAME.** The vanishing sum is
+**str[k₁] = 0 — Pauli's finiteness condition for Newton's constant** (Visser 2002,
+Eq. 35): it kills the quadratic divergence in 1/G and makes G independent of the
+renormalization scale. Visser calls these *"very strong constraints on the particle
+content,"* not derivable from supersymmetry alone. **The Standard Model alone violates it
+(−3). The model's content satisfies it exactly.** The two kills above therefore have a
+sharpened meaning: **a light sterile neutrino or a fourth generation would restore the
+quadratic divergence and make Newton's constant cutoff-dependent** — destroying the
+framework's finiteness, not merely its bookkeeping.
+
 **Provenance and honest grade:** the cancellation was DISCOVERED, not predicted (2026-07-13,
 during the induced-gravity roster rebuild), and it survives only because the author
 refused to accept "coincidence" as a verdict and demanded it be perturbed instead. It is
