@@ -132,7 +132,7 @@ table, landed exactly at the line. NOT decisive, NOT robust, NOT prediction-conf
 SHOES-conditionality + PolyChord-pending). The ONE lever that moves it hard: PolyChord confirming
 the +2.6 on the paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready). The two things that
 still sink it: SHOES-as-systematic (Stage 0), or PolyChord pulling +2.6 back under +2.5. Full
-red-team grading in ForClaude.txt (defender "THE NUMBER" turn).
+red-team grading in the internal adversarial-review record (private; turn-tags cited for provenance) (defender "THE NUMBER" turn).
 
 ### SHARPENED by red-team turn 102 (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
 Two corrections to the verdict above, both taken: (1) BRAKE 2 is worse than "conditional" — it is

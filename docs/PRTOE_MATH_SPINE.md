@@ -6,7 +6,7 @@
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
 what is DERIVED vs INPUT vs STORY, and where it lives in the code. Cross-references:
 PRTOE\_me\_mechanism\_math.md (dyad detail), PRTOE\_cyclic\_torus\_genesis.md (genesis narrative),
-PRTOE\_UV\_completion.md (#17), PRTOE\_cosmological\_constant.md (J1), ForClaude.txt turns 180–224.*
+PRTOE\_UV\_completion.md (#17), PRTOE\_cosmological\_constant.md (J1), the internal adversarial-review record (private; turn-tags cited for provenance) turns 180–224.*
 
 **Status tags:** \[DERIVED] falls out of prior pieces · \[INPUT] boundary datum · \[STORY] coherent
 mechanism, not a derivation · \[PENDING] computation named, not run.
@@ -129,7 +129,7 @@ Code: `dcdf\_floor\_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ\_
 > DESI DR3 adjudicates: thaw-side → Route-D (J1+why-now+DESI in one stroke, P-018 dies);
 > rigid → P-018 (distinctive win; Route-D dies, J1 reverts to constitution);
 > TRUE phantom in the DATA → both die. Guards: distance-space phrasing, KP solve, timestamp
-> (ForClaude: def217 J1-derivation precedes def219 DESI-convergence), A2+A3 net (answered t223).
+> (the internal review: def217 J1-derivation precedes def219 DESI-convergence), A2+A3 net (answered t223).
 
 **7d. The end (and the next start).** The thaw completes → expansion reverses → contraction
 blueshifts radiation (a⁻⁴ grows) → the heat fountain reignites → T climbs back through **T\_c**

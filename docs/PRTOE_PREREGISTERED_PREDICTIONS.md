@@ -1418,7 +1418,7 @@ self-scrambles. Combined with the other two routes — the energy/amplitude mode
 coupling was deleted 2026-07-09 as census-illegal — **all three birefringence routes are
 null.** Version A (β=0) is confirmed **by computation**, not merely by assumption.
 
-**Retraction booked (ForClaude def149/def150 + process-law P1):** a transient claim this
+**Retraction booked (the internal review def149/def150 + process-law P1):** a transient claim this
 session that the dCDF is "rolling dark energy" sourcing β ~ 0.01–0.3° *locked to w(z)* is
 **withdrawn** — it rode two label-reasoning fouls ("w runs 0→-1" → "rolling field";
 "P=const" → "true Λ"), neither checked against w_dcdf(ρ)=-ρ_inf/ρ (background.h:680) or a

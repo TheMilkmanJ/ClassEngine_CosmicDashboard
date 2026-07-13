@@ -6,7 +6,7 @@
 *Comprehensive record of the day's work. Honest grading throughout. The deepest new thread
 is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full ledger.
 Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechanism_math.md §10
-(the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), ForClaude.txt
+(the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the internal adversarial-review record (private; turn-tags cited for provenance)
 (def149–164 + red-team 150–165).*
 
 ---
@@ -150,7 +150,7 @@ against itself), red-team's symmetric un-banks. The discipline is why the wins a
 
 # THE ATOM NIGHT + THE SEVEN CARDS (2026-07-10, late — closing update)
 
-The evening after the gate-0 ledger: the stepping-stone syllabus (ForClaude t205–t301). Headlines,
+The evening after the gate-0 ledger: the stepping-stone syllabus (the internal review t205–t301). Headlines,
 with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **Gate-0 CLEARS** (double sign-correction: the leptonic ceiling + the weak-rate window), then
   RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).

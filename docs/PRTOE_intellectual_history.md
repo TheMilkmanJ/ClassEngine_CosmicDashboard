@@ -177,7 +177,7 @@ and the session memory files.*
 ## Addendum (2026-07-06 afternoon): the nine-turn review
 
 The model's hardest day was an adversarial review by a second AI
-(ForClaude.txt), conducted as a turn-based file dialogue with
+(the internal adversarial-review record (private; turn-tags cited for provenance)), conducted as a turn-based file dialogue with
 pre-registered bets and written concessions on both sides. Six attacks
 opened it; nine turns closed it. In between: the unfalsifiability
 pincer was broken on paper at the attacker's own chosen line, the

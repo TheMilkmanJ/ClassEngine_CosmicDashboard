@@ -1,5 +1,6 @@
-[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_prtoe_dyad_ev'
-[output] Found existing info files with the requested output prefix: 'chains/cmp_prtoe_dyad_ev'
+Sun Jul 12 23:14:14 MDT 2026: LAUNCHING THE ZERO-PARAMETER RUN (operator order; full box)
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_prtoe_fixed_ev'
 Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
 You can still use likelihoods from other data libraries.
 [prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
@@ -18,8 +19,6 @@ Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/ba
 ----
 [bao.sixdf_2011_bao] Initialized.
 [bao.sdss_dr12_consensus_final] Initialized.
-/home/themilkmanj/cobaya_packages_clean/code/PolyChordLite/build/lib.linux-x86_64-cpython-312/pypolychord/output.py:218: SyntaxWarning: invalid escape sequence '\-'
-  stats_dict[paramname] = '%.3E +\- %.3E' % (mean, std)
 Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
 Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
 Functional likelihood form: gaussian
@@ -67,12 +66,13 @@ If you are loading the likelihood in sampler wrapper these default priors below 
 candl: clearing all internal priors.
 --------------------------------------------------------------------------------
 [polychord] `pypolychord` module loaded successfully from /home/themilkmanj/cobaya_packages_clean/code/PolyChordLite/build/lib.linux-x86_64-cpython-312/pypolychord
-[polychord] Storing raw PolyChord output in 'chains/cmp_prtoe_dyad_ev_polychord_raw'.
+[polychord] Storing raw PolyChord output in 'chains/cmp_prtoe_fixed_ev_polychord_raw'.
+[model] Measuring speeds... (this may take a few seconds)
+[model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 674.0, planck_2018_lowl.EE: 1650.0, planck_2018_highl_plik.TTTEEE_lite: 1200.0, planck_2018_lensing.clik: 2040.0, bao.sixdf_2011_bao: 1690.0, bao.sdss_dr7_mgs: 2210.0, bao.sdss_dr12_consensus_final: 853.0, sn.pantheonplusshoes: 626.0, act_dr6: 468.0, spt3g_lite: 590.0, classy: 0.0327}
 [polychord] Parameter blocks and their oversampling factors:
-[polychord] *  1 : ['log10_zon', 'omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'varying_me', 'm_ncdm']
-[polychord] * 16 : ['A_planck']
-[polychord] * 22 : ['A_act', 'P_act']
-[polychord] * 31 : ['Tcal', 'Ecal']
-[prior] *WARNING* There are unbounded parameters (['A_planck', 'A_act', 'Tcal', 'Ecal']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[polychord] *  1 : ['omega_b', 'H0', 'z_reio', 'dcdf_rho_inf', 'm_ncdm']
+[polychord] * 25 : ['A_planck']
+[polychord] * 34 : ['A_act', 'P_act']
+[polychord] * 47 : ['Tcal', 'Ecal']
+[prior] *WARNING* There are unbounded parameters (['Ecal', 'A_planck', 'A_act', 'Tcal']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
 [polychord] Calling PolyChord...
-Sun Jul 12 22:38:22 MDT 2026: ARBITER KILLED BY OPERATOR ORDER — fixed run takes priority; prior phase not resumable; relaunch fresh later

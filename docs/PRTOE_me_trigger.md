@@ -786,7 +786,7 @@ sourcing) and does NOT automatically inherit that clearance; it needs
 its own scrutiny before being trusted.
 
 STATUS: candidate legal path, hypothesis-grade, routed to red team
-(ForClaude.txt) as the follow-up to turn 61's flagged crack. Not yet
+(the internal adversarial-review record (private; turn-tags cited for provenance)) as the follow-up to turn 61's flagged crack. Not yet
 adjudicated. If it survives review, this becomes the leading candidate
 for HOW varying_me could be legally mechanized without violating the
 coupling census; if it fails, the search continues.

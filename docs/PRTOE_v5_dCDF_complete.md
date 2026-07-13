@@ -14,7 +14,7 @@ as a pair; those remain the historical record of how v4 → v5 happened.
 Companion documents: `PRTOE_PREREGISTERED_PREDICTIONS.md` (the no-hedge
 registry, P-2026-001 through -005), `PRTOE_TRANSACTION_ATLAS.md` (every
 derived fixed relation, admission rule: derived-only, falsified
-entry-by-entry), `ForClaude.txt` (the adversarial red-team dialogue,
+entry-by-entry), `the internal adversarial-review record (private; turn-tags cited for provenance)` (the adversarial red-team dialogue,
 14 turns, formally closed 2026-07-06 with verdict "not proven —
 survived"; the four-verdict calculation of §11 is the agreed re-entry
 point).
