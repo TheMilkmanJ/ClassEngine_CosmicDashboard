@@ -1943,3 +1943,25 @@ exemption clause (quantized/topological/protected-zero). A step-shaped result at
 depth is presumed shallow and unreliable until it produces its exemption.** Every future
 sweep's verdicts, sizings, and fate-assignments carry the ramp check at their edges
 before booking.
+
+## SIXTY-FIRST SWEEP — B1 v1 FIRED: ALL THREE AMBUSHES MISSED (honest, diagnostic)
+
+*(script: scripts/genesis_solver_v1.py — slug model, ramped onset/taper/clip, one
+parameter χ = pour rate in diameters per Hubble time)*
+
+**The misses:** ε ≈ 0.70 (target 0.88); mass share ≈ 0.65 (target 0.843); R/a ≈ 2 →
+Widnall n ≈ 4 (target band 10–30). No χ co-lands. **Filed as v1's honest failure.**
+
+**The diagnosis (correlated misses → two pieces of skipped lab physics, not dials):**
+(1) THE CORE-VOLUME ERROR: v1 feeds all accepted fluid into the vortical core (hence
+the fat core); real cores are thin (a/R ~ 0.1–0.2) — and in a superfluid, stricter:
+the macro-ring is a BUNDLE of n quantized vortex lines (healing-length cores; the
+effective core = the bundle-packing radius). Reshapes the Widnall count structurally.
+(2) THE FROZEN RADIUS: v1 pins R = 0.7D; real rings GROW during feeding — growing R
+lowers U_ring, extends acceptance, raises BOTH moments (the two low numbers are one
+missing physics).
+
+**v2's spec, REGISTERED BEFORE IT RUNS:** add exactly those two physics pieces (the
+bundle-core model + R(t) growth), no other freedom, same χ, same three targets + the
+Widnall band. Co-landing under these pre-declared rules = the frame earns it; a second
+miss = the frame is in genuine trouble. The next session owns v2.
