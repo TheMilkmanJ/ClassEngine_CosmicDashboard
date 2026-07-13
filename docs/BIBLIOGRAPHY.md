@@ -71,6 +71,8 @@ that is a bug — file it.*
 
 - **[KSS2005]** P. Kovtun, D. T. Son, A. O. Starinets, "Viscosity in strongly interacting quantum field theories from black hole physics," PRL 94, 111601 (2005), arXiv:hep-th/0405231. — The lower viscosity fence (eta/s >= hbar/4pi); the zero-infinity asymmetry's other end (sweep 54 add. 3).
 
+- **[WidnallTsai1977]** S. E. Widnall, C.-Y. Tsai, "The instability of the thin vortex ring of constant vorticity," Phil. Trans. R. Soc. A 287, 273 (1977). / **[Gharib1998]** M. Gharib, E. Rambod, K. Shariff, "A universal time scale for vortex ring formation," J. Fluid Mech. 360, 121 (1998). — The Widnall azimuthal selection (ka = 2.26-2.51 -> the n-predictor) and the universal formation number (F ~ 4 -> the partition/window targets), sweeps 56-58.
+
 ## 5. Emergent gravity, entropy, and the keystone
 
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.

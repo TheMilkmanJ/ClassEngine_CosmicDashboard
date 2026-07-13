@@ -1801,3 +1801,29 @@ independent thread.
 outputs — the clipped-window ratio (→ε), the discharge partition, and the
 formation-epoch aspect ratio (→n's gain band) — each with a measured or banked target
 waiting. Three numbers, three ambushes set.
+
+## FIFTY-EIGHTH SWEEP — THE THREE CHASES CLOSE INTO FORMULAS AND TARGETS
+
+**THE n-PREDICTOR [coefficient PINNED from the record]:** n_peak = (2.26–2.51) ×
+(R/a)_formation — the Widnall–Tsai most-unstable azimuthal mode, ka = 2.26 (Gaussian
+core) to 2.51 (uniform core) [WidnallTsai1977; numerical confirmation JFM 1994]. The one
+residue: the GP/superfluid-core coefficient (same O(1) class; literature session owed).
+THE TWO-WAY INSTRUMENT: the measured n reads the formation geometry — n = 20 ⟹ R/a =
+8.0–8.8; the formation-number range (R/a ~ 5–10) self-consistently gives n ~ 11–25.
+When zon/the comb return n, the genesis aspect ratio is MEASURED.
+
+**THE PARTITION'S TARGET EQUATION [chase closed into an internal demand]:** ring share
+= Ω_c/Ω_m = 0.843 requires the pour's discharge to run **L/D = F/0.843 = 4.75
+diameters — a 19% overshoot past pinch-off (F ≈ 4, the universal formation number
+[Gharib1998]).** Falsifiable both ways: the inverse problem delivering ~4.7–4.8 confirms
+the partition (and the dark/baryon ratio 5.4 becomes ring-vs-wake geometry); delivering
+anything else kills it.
+
+**THE WINDOW RATIO [framed, target set]:** ε = 0.88 ⟹ t_window/τ_KH = 2.1 — with the
+window = the pinch-off time, the KH e-fold must be ~half the formation time. The inverse
+problem's remaining O(1); target on record before the computation exists.
+
+**The genesis scoreboard after the chases:** three functions, three pre-registered
+targets — n's gain band (zon/comb referee), the 4.75-diameter discharge (the dark/baryon
+ratio's candidate geometry), the 2.1 window ratio (ε's mechanism). The inverse problem
+is now the most ambushed calculation in the repo.
