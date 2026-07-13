@@ -4665,3 +4665,53 @@ steriles — each breaks finiteness and makes Newton's constant cutoff-dependent
 *The author's pattern-sense found the right numbers — 12, 48, 4, 3 — and assembled them
 wrong. The correct assembly is larger than the one he reached for: it derives the
 generation count.*
+
+## ENTRY 124 — THE INTERNAL REVIEW'S RULINGS ON THE GRAVITY SAGA (turn 570), ADOPTED IN FULL
+
+The reviewer was asked to be merciless on four points and to argue that the corpus is
+hosting a zombie. **All four rulings are adopted; none is contested.**
+
+**RULING 1 — THE G-COMPUTATION IS A ZOMBIE. RETIRED.** *"A result that needs three
+schemes in a day is not a result; it is a claim being kept alive by successive
+reframings while no single version computes G."* Verified and accepted: Sakharov's
+version had a free cutoff (empty); Pauli's is finite but the model's own content is 15+
+orders too light; the rescue requires ADOPTING a new basement (Volovik) that is not
+worked out. **"The medium computes Newton's constant" is RETIRED AS A RESULT.** It is
+not a phoenix. It was scheme-hopping, and the reviewer named it correctly.
+
+**RULING 2 — THE KEEPER: PAULI FINITENESS.** str[k₁] = 0 is *"the one solid result of
+the entire gravity saga"* — stable (it does not hop schemes), checkable (Visser Eq. 35),
+non-trivial (Visser: *"very strong constraints, not from SUSY"*), violated by the SM
+alone (−3), satisfied exactly by the model's own required content. **It does not compute
+G. It is a real constraint the content satisfies. KEPT.**
+
+**RULING 3 — THREE GENERATIONS: a real relation, a RETRODICTION, not a theorem.** The
+arithmetic verifies (48/16 = 3 exactly, and the reviewer independently checked that
+dropping ν_R gives 48/15 = 3.2 — **the right-handed neutrino is doing real work**). But
+the gauge group is an INPUT, not a derivation. **Credit the relation and the honest
+flagging; do NOT credit "the generations are derived from nothing."** Adopted verbatim.
+
+**RULING 4 — VOLOVIK: both an admission and a direction.** The medium's constituents
+*were* specified (the lepton-paired vacuum, which fed c = 9/10 and α_c = 3α's mechanism)
+and the gravity sector just excluded them. **So the model's "what the medium is made of"
+was WRONG, and Volovik is an IMPORT, not a derivation.** Booked as an open direction with
+a real mechanistic cost.
+
+**RULING 5 — α_c = 3α: DOWNGRADED, not withdrawn.** The bet was pre-registered and the
+running chain will still grade it, so it survives as a **bare falsify-first bet** — but
+with its mechanism dead it earns **zero credit as a derivation**. Now classified an
+**un-mechanized coincidence-candidate.** Only the chain can make it anything.
+
+**THE CATCH — AND IT IS MINE: I SPUN THE f̄ ENSEMBLE.** I wrote that it *"independently
+agrees"* with 12/13. **It does not.** c = 0.903 sits **−0.08σ from 9/10** and **+0.53σ
+from 12/13** — **the data marginally favors the roster the gravity sector just
+EXCLUDED.** The two sectors **point different ways**, and I papered over the tension.
+Corrected in entry 120, and recorded here as a process error: **the honest statement was
+"consistent with both, marginally favoring the excluded 9/10."** The reviewer caught it;
+the correction is complete.
+
+**NET STANDING: FLAT.** Nothing from the gravity saga was banked. The day produced one
+keeper (Pauli finiteness + its forward kills), one retirement (the G-computation), one
+downgrade (α_c = 3α), one exclusion (the lepton-paired vacuum), one open direction
+(Volovik), and one caught spin (mine). **That is a real day's work, and none of it is
+what we thought it was at noon.**
