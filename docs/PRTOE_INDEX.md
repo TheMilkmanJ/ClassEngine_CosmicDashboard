@@ -37,7 +37,7 @@ hubble_tension · bbn_witness · neutrino_home · s8_growth · lowell_anomalies 
 fingerprint_lattice · plasma_physics · chaos_dynamics · cosmic_magnetism · igmf_helicity ·
 gravitational_waves · lss_parity · galactic_atoms · smbh_atoms · koide_relation ·
 coincidence_problem · direct_detection · indirect_detection · laboratory_cousins ·
-sqrt3_derivation · classical_gravity · special_relativity · quantum_gravity
+sqrt3_derivation · classical_gravity · special_relativity · inertia · quantum_gravity
 
 ## The mystery wing
 blackholes_no_singularity · bigbang_no_singularity · arrow_of_time · information_paradox ·

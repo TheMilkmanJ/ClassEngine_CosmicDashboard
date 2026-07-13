@@ -56,6 +56,10 @@ that is a bug — file it.*
 - **[Haken1975]** H. Haken, "Cooperative phenomena in systems far from thermal equilibrium and in nonphysical systems," Rev. Mod. Phys. 47, 67 (1975). — The laser threshold as a nonequilibrium phase transition (the laser file's GL mapping).
 - **[GinzburgLandau1950]** V. L. Ginzburg, L. D. Landau, Zh. Eksp. Teor. Fiz. 20, 1064 (1950). — Mean-field order parameters; the λ-ceiling's β = 1/2 lock.
 - **[Kibble1976]** T. W. B. Kibble, "Topology of cosmic domains and strings," J. Phys. A 9, 1387 (1976). / **[Zurek1985]** W. H. Zurek, "Cosmological experiments in superfluid helium?," Nature 317, 505 (1985). — Defect formation at the transition; the first-draw statistics.
+- **[Landau1941]** L. D. Landau, "Theory of the superfluidity of helium II," J. Phys. USSR 5, 71 (1941) [Phys. Rev. 60, 356 (1941)]. — The criterion; sub-critical motion is dissipation-free (the inertia file's spine).
+- **[Kapitza1938]** P. Kapitza, Nature 141, 74 (1938). / **[AllenMisener1938]** J. F. Allen, A. D. Misener, Nature 141, 75 (1938). — Superfluidity's discovery.
+- **[ColemanGlashow1999]** S. Coleman, S. L. Glashow, "High-energy tests of Lorentz invariance," PRD 59, 116008 (1999), arXiv:hep-ph/9812418. — Vacuum-Cherenkov / UHECR bounds; the inertia file's dispersion exam.
+- **[Turyshev2012]** S. G. Turyshev et al., "Support for the thermal origin of the Pioneer anomaly," PRL 108, 241101 (2012), arXiv:1204.2507. — The vacuum-drag null's case study.
 - **[Unruh1981]** W. G. Unruh, "Experimental black-hole evaporation?," PRL 46, 1351 (1981). — Acoustic horizons; the analog frame.
 - **[BLV2005]** C. Barceló, S. Liberati, M. Visser, "Analogue gravity," Living Rev. Rel. 8, 12 (2005), arXiv:gr-qc/0505065. — The emergent-metric toolbox and its known limits (the t366 "linearized-plus" flag).
 - **[Volovik2003]** G. E. Volovik, *The Universe in a Helium Droplet*, Oxford (2003). — The deepest prior art for medium-cosmology; the model's closest intellectual neighbor.
