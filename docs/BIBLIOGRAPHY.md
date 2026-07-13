@@ -67,6 +67,8 @@ that is a bug — file it.*
 
 - **[Combescot1990]** R. Combescot, "Critical temperature of superconductors: Exact solution from Eliashberg equations on the weak-coupling side," Phys. Rev. B 42, 7810 (1990). / **[Marsiglio2018]** F. Marsiglio et al., "Eliashberg theory in the weak-coupling limit," arXiv:1807.04907; real-axis companion arXiv:1912.09460. — The exact weak-coupling prefactor T_c = 1.13 e^{-3/2} omega_c e^{-1/lambda} the referee sessions run on (sweep 49).
 
+- **[NBV2006]** A. Nayeri, R. Brandenberger, C. Vafa, "Producing a scale-invariant spectrum of perturbations in a Hagedorn phase of string cosmology," PRL 97, 021302 (2006), arXiv:hep-th/0511140. / **[BrandenbergerVafa1989]** R. Brandenberger, C. Vafa, "Superstrings in the early universe," Nucl. Phys. B 316, 391 (1989). / **[SGCreview2011]** R. Brandenberger, "String gas cosmology: progress and problems," Class. Quantum Grav. 28, 204005 (2011), arXiv:1105.3247. — The thermal/maximal-temperature/area-specific-heat cousin of lock 2's lane (sweep 52): the operator's "maximal thermal allowance" = the Hagedorn concept; their winding-mode C_V ∝ R² = the exemption-clause drift, thermodynamic road.
+
 ## 5. Emergent gravity, entropy, and the keystone
 
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.

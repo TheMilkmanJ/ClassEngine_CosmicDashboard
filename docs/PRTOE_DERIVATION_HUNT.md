@@ -1534,3 +1534,32 @@ per-mode/blue-tilt question — the lane's burden is showing the two-open-dimens
 C = 4πk/α_c per open dimension from the T = Δ criterion + the medium's scales;
 (ii) produce the ramp width (the lock is a crossing, not a wall — standing law).
 CLEARANCE STATUS: **one lock left (LOCK 2), one lane open on it, named targets.**
+
+## FIFTY-SECOND SWEEP — THE STRING-GAS WAYPOINT (lock 2's lane has a resident: the
+## operator's "maximal thermal allowance" IS the Hagedorn concept)
+
+**The cousin found [NBV2006, BrandenbergerVafa1989, SGC review]:** string gas cosmology
+generates the primordial spectrum from THERMAL fluctuations at the gas's MAXIMAL
+temperature (Hagedorn), with scale-invariance from AREA-scaling specific heat
+(C_V ∝ R² — "intrinsically stringy," sourced by WINDING MODES on compact dimensions),
+red scalar tilt, blue tensor tilt (their discriminator). THE THREE RHYMES: (i) the
+operator's "maximal thermal allowance" = the Hagedorn ceiling, verbatim concept; (ii)
+their C_V ∝ R² = our exemption-clause drift (count 3D, drift 2D) derived
+THERMODYNAMICALLY — two roads to one "2," and our medium literally owns winding modes
+on a compact axis (the torus); (iii) red scalar tilt shared; their blue n_T noted
+against our banked small-r.
+
+**THE METHOD IMPORT (lock 2's concrete computation, named):** compute the medium's
+winding-gas specific heat near the transition. C_V ∝ R² emerging from the compact-axis
+windings ⟹ the census drift derived thermodynamically ⟹ lock 2's mechanism = the
+winding gas at the pour's ceiling; the amplitude then follows from δρ² = T²C_V/V² at
+T_max, and C = 4πk/α_c must assemble from the gas's own scales.
+
+**The operator's question answered at SCHEMATIC grade ("how hot is the white hole?"):**
+inverting the thermal-amplitude scaling against the form: **T_pour ≈ (α_c/4πk)^{3/4}
+M_Pl ≈ 8×10¹⁶ GeV** — GUT-class pour, fixed by α_c and k, zero new numbers. [SCHEMATIC —
+assumes the NBV scaling transfers; the winding-C_V computation decides.] Chain
+consistency: T_max (the amplitude's epoch, link 1) ≠ T_on (the drift's epoch, links 4–5)
+— the chain's separation of duties, not a conflict. Side-door noted for later: the
+Brandenberger–Vafa mechanism (winding-annihilation selecting 3 large dimensions) speaks
+directly to WHY the torus has exactly one compact axis — a room adjacent to this lane.
