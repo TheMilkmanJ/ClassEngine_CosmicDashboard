@@ -1731,3 +1731,35 @@ component. The chain's late observables share a single systematic with a predict
 direction, amplitude ~ω₀r, and (1+z)²-growth history; each is a cross-check on the
 others. [Kinematic line at estimate grade; the ring's structured field (the genesis
 inverse problem) refines the r-dependence.]
+
+## FIFTY-SIXTH SWEEP — THE SPIN-UP RAMP (strike 11) + THE SMOKE-RING INVENTORY
+
+**STRIKE 11 (operator catch): the flow line's boundary condition was a STEP** ("ω = H
+at the pour" = instantaneous full spin). Ramped: circulation BUILDS during the
+friction-era roll-up; the locked ω/H is set at formation's END. The consequence turns
+the flow line's one blemish into a measurement: the banked P-028 rec value (0.5) vs the
+step-model's 0.57 gives **the spin-up efficiency ε = 0.88** — the roll-up captured ~88%
+of the horizon rate before locking. Candidate mechanism for ε: the EXPANSION-MODIFIED
+FORMATION NUMBER (below). [ε measured, mechanism named, derivation = genesis session.]
+
+**THE SMOKE-RING INVENTORY — four lab-established ring behaviors, each a genesis
+function [all CANDIDATE/UNSIZED, the inverse problem's new docket]:**
+1. **THE FORMATION NUMBER** (universal ~4, Gharib-class experiments): a ring SATURATES —
+   it stops collecting circulation at a universal stroke ratio and pinches off. The
+   operator's "rate at which it collected into itself" has a ceiling; in an expanding
+   background the window is additionally clipped when H·τ_roll ~ 1 → the spin-up
+   efficiency ε is COMPUTABLE from the modified formation criterion.
+2. **PINCH-OFF PARTITION:** what the saturated ring cannot collect trails as a wake —
+   the pour's energy PARTITIONS into {the ring (the rotational/winding sector)} +
+   {the trailing jet (the thermal fireball)}. The formation number thereby sets a
+   FRACTION of the founding capital — a candidate home for a banked ratio (audit owed:
+   ε, f̄, or neither).
+3. **THE WIDNALL INSTABILITY:** vortex rings develop azimuthal bending waves with a
+   SELECTED INTEGER mode number scaling with the aspect ratio (n ∝ R/a, O(1)
+   coefficient — literature session owed). Moderate aspect ratios give n ~ 10–30 — THE
+   SAME BAND as the Kibble first-draw statistics. Candidate refinement: the draw seeds
+   n, the ring's own instability SELECTS the survivor — the comb's tooth count would
+   then be dynamically predicted from (Γ, P, E) geometry rather than purely drawn.
+   [If it holds, n stops being statistics and becomes mechanics.]
+4. **ENTRAINMENT:** a traveling ring carries an "atmosphere" of ambient fluid — the
+   carried-volume fraction is another partition function of the same geometry.
