@@ -1,112 +1,100 @@
-# Note for Prof. W. Fairbank — Cosmological neutrino-mass room in a unified dark-fluid model
+# Note for Prof. W. Fairbank — What a unified dark-fluid cosmology predicts for 0νββ
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
-
-*(DRAFT v0.1, 2026-07-07 — [PENDING] fields await the posterior; not for
-circulation until the citation gate (PRTOE_references.md) and the
-pending fields close.)*
+*(DRAFT v0.2, 2026-07-13 — supersedes v0.1 entirely: the earlier draft's headline rode
+a since-retired prediction (the inverted-ordering window), whose retirement by our own
+pre-registered collision test is part of this story. Plain physics throughout;
+self-contained. Circulation gate: the running zero-parameter evidence verdict + final
+citation check.)*
 
 ## The result in three sentences
 
-In a unified dark-sector model that currently matches or modestly
-outperforms ΛCDM on the full joint CMB+BAO+SN stack, the cosmological
-squeeze on Σm_ν relaxes substantially: the χ² penalty for
-Σm_ν = 0.12 eV collapses from ~+12 (ΛCDM-like configuration) to
-**+2.8**, and the marginalized 95% upper limit comes out at
-**< ~0.15–0.17 eV (95%, PRELIMINARY, burn-in-sensitive and still drifting down; official convergence pending, R-1~1.06)** — versus
-the ~0.07–0.10 eV squeeze increasingly quoted in ΛCDM-conditional
-analyses. If this model class is right, **the inverted mass ordering —
-nEXO's natural target — remains cosmologically open.** The prediction
-was frozen (git-timestamped) before the posterior computed:
-registry entry P-2026-004.
+In a unified dark-sector cosmology — one superfluid scalar replacing dark matter and
+dark energy, plus a single ~1.24% early-universe shift of the electron mass — the
+neutrino sector is an output, not an input: the model's dark-energy scale ties to the
+lightest neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**, and because
+the mass mechanism violates lepton number, **neutrinos must be Majorana: the 0νββ
+process is structurally required.** The corresponding effective mass, with measured
+splittings and free Majorana phases, is
+**m_ββ ∈ [0.04, 5.3] meV (typically ~3.3 meV).**
 
-## Preliminary posterior (post-burn-in, 2026-07-07 — pending official convergence)
+## What this means for your program — stated without varnish
 
-*From the converged part of the adaptive MCMC (per-parameter Gelman-Rubin
-R−1 < 0.05 after dropping burn-in; the full-chain statistic is still burn-in-
-contaminated, so these are marked PRELIMINARY, not for circulation).*
+1. **The mechanism is guaranteed; the rate is honestly small.** This model cannot exist
+   without the 0νββ process — but it predicts the effective mass *below* current
+   ton-scale reach, in the normal-ordering meV regime. We are not promising your
+   experiment a signal; we are telling you what universe it is searching in if this
+   model class is right. A null at any given sensitivity does not kill the model (the
+   phase-cancellation floor near 0.04 meV is stated, not hidden);
+   **a demonstrated Dirac nature does kill it — cleanly and permanently.**
+2. **A two-sided kill on the mass scale.** A confirmed detection well ABOVE ~5.3 meV
+   falsifies this model outright (checked against the record: no claimed detection
+   exists there — this is a forward bet, not a retrodiction). From the other side,
+   DESI-era cosmology is already brushing the prediction: a robust Σm_ν > ~70 meV, or
+   inverted ordering from oscillations, kills the stack. Exposed both directions, on
+   purpose.
+3. **The ordering claim earned its seat.** Our earlier registered prediction favored
+   the inverted window; the model's subsequent derivation chain contradicted it, the
+   pre-registered internal collision test executed, and the inverted claim is retired
+   in the public registry. What survives — normal ordering, 61.4 meV — is the winner
+   of an internal falsification, not a retrofit. Every prediction here carries a
+   numbered, git-timestamped registry entry with a named killing observation.
 
-| quantity | value |
-|---|---|
-| Σm_ν (95% upper) | **< ~0.15–0.17 eV** (preliminary, drifting down; now landing INSIDE (P-2026-004 window [0.11,0.17]; landing at the top edge, ~0.006 eV above) |
-| m_e/m_e,0 | 1.0125 ± 0.0044 (2.9σ from ΛCDM's 1.0) |
-| H0 | 70.11 ± 0.66 |
-| S8 | 0.822 ± 0.009 (toward KiDS-Legacy) |
-| ρ_∞ | 0.705 ± 0.006 |
-| n_s | 0.971 ± 0.003 |
-| Savage–Dickey lnB (dyad/ΛCDM) | **+2.4** (strong, prior-width-dependent; nested via varying_me=1) |
+## Why the cosmological squeeze relaxes (mechanism, not tuning)
 
-**Reading for the neutrino community:** the 95% limit (0.176 eV) sits well above
-the inverted-hierarchy floor (~0.10 eV), so **the inverted ordering — nEXO's
-target — remains cosmologically open in this model**, unlike the ~0.07–0.10 eV
-ΛCDM-conditional squeeze. P-2026-004 (window [0.11,0.17]) is landing marginally
-at/just-above its top edge; final convergence will confirm or move it. Caveats:
-preliminary (official R−1<0.05 pending), and the lnB is a nested Savage–Dickey
-Bayes factor (PolyChord still owed for the absolute evidence + non-nested checks).
+ΛCDM-conditional analyses increasingly squeeze Σm_ν toward and below the 59 meV
+oscillation floor (the "negative neutrino mass" tension). This model replaces CDM+Λ
+with one fluid (ΛCDM-degenerate at background and linear level — verified numerically
+to five decimals) plus the electron-mass shift at recombination (the Hart–Chluba
+implementation; varying-m_e is independently preferred at 2–3.6σ by other groups on
+Planck+ACT+DESI stacks). The shifted calibration frees the damping-tail budget that
+ΛCDM fits spend against the neutrino mass: model-conditional fits leave Σm_ν healthy
+near its physical value — the same data, room instead of squeeze. If this model class
+is right, the meV-scale m_ββ frontier is physically meaningful rather than
+cosmologically foreclosed.
 
-## Why the squeeze relaxes (mechanism, not tuning)
+## The honest status card
 
-The model replaces CDM+Λ with one barotropic fluid (exactly
-ΛCDM-degenerate at the background and linear level — verified
-numerically to five decimals) plus a ~1% shift of m_e at recombination
-(Hart & Chluba's implementation; independently, varying-m_e is now
-preferred at 2–3.6σ by other groups on Planck+ACT+DESI stacks). In
-ΛCDM+N_eff extensions, extra radiation and Σm_ν compete for the same
-damping-tail budget; this model's joint fit *executed* the extra
-radiation entirely (ξ → 0.01), freeing that budget. The neutrino-mass
-room is a structural consequence of the fit, not a dial.
-
-Corollary the data pays for free: at Σm_ν ≈ 0.12 eV the model's
-S8 → 0.807, i.e. *toward* the KiDS-Legacy weak-lensing consensus
-(0.815 ± 0.019) — the lensing data absent from our stack would reward,
-not tax, this mass range.
-
-## The honest status card (what this is and isn't)
-
-- Fit record: raw χ² 2798.4 on Planck 2018 + ACT DR6 + SPT-3G + BAO +
-  Pantheon+SHOES + BBN at H0 = 69.70 — [PENDING: final band vs the
-  refit ΛCDM twin]. The H0 value is sound-horizon-driven (it holds
-  with the SH0ES calibration included and pulling the other way).
-- Validation: exact ΛCDM null test (5-decimal reproduction), gauge
-  invariance, precision-stability battery, all committed.
-- Adversarial review: 27-turn red-team record (in-repo), including
-  registered negative results and one self-executed prediction. The
-  reviewer's standing line: "not proven — survived."
-- Evidence class: this model has, to date, **zero confirmed novel
-  numbers** — its pre-registered predictions (six, git-frozen,
-  each with a falsification condition) are pending. P-2026-004 is the
-  first to score. We say this plainly because the program's currency
-  is that every claim knows its grade.
-- Mainstream anchor: vacuum condensates setting matter's parameters is
-  not exotic — ~99% of ordinary mass is QCD-condensate binding. This
-  model adds one more condensate and asks whether it reads into the
-  remaining (Yukawa) percent at the 10⁻² level during one epoch.
+- **Fit record**: matches or modestly outperforms ΛCDM on Planck 2018 + ACT DR6 +
+  SPT-3G + BAO + Pantheon+SH0ES + BBN at H0 ≈ 69.9 (sound-horizon-driven; holds with
+  the SH0ES calibration included and pulling the other way).
+- **The current test**: a zero-parameter evidence run is in progress — the model's
+  amplitude, tilt, coupling, and transition epoch all STATED in advance (derived or
+  profiled; statuses public), against ΛCDM at full freedom. Full exposure: any stated
+  number wrong collapses the model's own evidence.
+- **Validation**: exact ΛCDM null test (5-decimal reproduction), gauge invariance,
+  precision-stability battery — committed.
+- **Adversarial review**: a continuous in-repo red-team record (500+ graded exchanges)
+  including registered negative results, retracted claims, and the authors' own logged
+  errors (a public strike list). The reviewer's standing on the deepest structural
+  claim: ~15–16% — tracked, not hidden. Entry points for a technical reader:
+  THREE_EQUATIONS, DEPENDENCY_TREE, PREREGISTERED_PREDICTIONS (40+ numbered bets),
+  FAILURES_LEDGER.
+- **Mainstream anchor**: vacuum condensates setting matter's parameters is not exotic —
+  ~99% of ordinary mass is QCD-condensate binding. This model adds one more condensate
+  and asks whether it reads into the remaining (Yukawa) percent at the 10⁻² level
+  during one epoch.
 
 ## Two smaller items that may interest you
 
-1. **A scale coincidence, flagged at coincidence grade:** the model's
-   dark-energy floor has ρ_∞^(1/4) = 2.25 meV — the expected mass
-   scale of the lightest neutrino (normal ordering). The known
-   attempts to mechanize the DE–ν coincidence (MaVaN) failed to
-   instabilities; we log the coincidence and claim nothing.
-2. **A framing you may enjoy:** in this model's bookkeeping language,
-   0νββ is the experiment that decides whether lepton number is a
-   *collateralized* charge (like electric charge, with a field
-   enforcing it) or an unenforced accounting identity — Majorana
-   neutrinos being the mechanism by which an unenforced identity
-   defaults. Your detector is, in our language, auditing whether L's
-   debt has a bank.
+1. **A scale coincidence, flagged at coincidence grade**: the model's dark-energy floor
+   has ρ_∞^(1/4) ≈ 2.25 meV — the expected mass of the lightest neutrino under normal
+   ordering. Known attempts to mechanize the DE–ν coincidence (MaVaN) failed to
+   instabilities; we log the coincidence, use the tie that produces the 61.4, and
+   overclaim nothing.
+2. **A framing you may enjoy**: in this model's internal language, 0νββ is the
+   experiment that decides whether lepton number is a *collateralized* charge (like
+   electric charge, with a field enforcing it) or an unenforced accounting identity —
+   Majorana neutrinos being the mechanism by which an unenforced identity defaults.
+   Your detector is auditing whether L's debt has a bank.
 
 ## The ask
 
-The Σm_ν posterior lands [PENDING: date]. We'd value: (a) your read on
-whether the relaxed window is presented in the form most useful to the
-0νββ community; (b) a critical eye on the BBN sector (the model's
-D/H residual and its candidate resolution are documented); (c) any
-interest in the ΛCDM-vs-model comparison being run with nEXO's
-sensitivity band overlaid.
+(a) Your read on whether the meV-window prediction is presented in the form most useful
+to the 0νββ community — especially the two-sided kill structure; (b) a critical eye on
+the BBN sector (the model's D/H residual and its radio-band arbiter are documented);
+(c) any interest in the model-vs-ΛCDM comparison rerun with the nEXO/LEGEND/CUPID
+sensitivity bands overlaid on the m_ββ window.
 
-*(All claims traceable: PRTOE_v5_dCDF_complete.md for the model;
-PRTOE_PREREGISTERED_PREDICTIONS.md for the frozen bets;
-PRTOE_references.md for verified citations; the full adversarial
-review in ForClaude.txt.)*
+*(All claims traceable to documented computations: PRTOE_neutrino_sector.md for this
+sector; PRTOE_PREREGISTERED_PREDICTIONS.md for the frozen bets; BIBLIOGRAPHY.md for
+verified citations.)*

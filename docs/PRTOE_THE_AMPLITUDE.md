@@ -29,7 +29,7 @@ parameters.*
 
 | window | epoch | what ε does there | grade |
 |---|---|---|---|
-| **The CMB / H0** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H0 = 69.9** (the tension's mechanism) | production-fit; the arbiter is running |
+| **The CMB / H0** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H0 = 69.9** (the tension's mechanism) | production-fit; THE ZERO-PARAMETER EVIDENCE RUN is live (2026-07-13: ε, A_s, n_s, z_on all STATED) |
 | **The windowed BBN** | T ≈ 0.7 MeV–70 keV | OFF at n/p freeze-out, ON below T_c mid-BBN → the abundance pattern (Y_p +1.3σ counter owned; the D/H fork, radio-arbitrated) | production (PRyM) |
 | **The 21cm edges** | z ≈ 30–150 | rest frequencies shifted +2.5% ((1+ε)²) with the exact ratio-lock ν_H/ν_D; the screening edge's SHAPE reads the gate | registered (P-022/027) |
 | **The ε-dipole** | today, horizon-scale | δm_e/m_e ≈ 6×10⁻⁷ axis-correlated | registered (P-024), consistent null today |
@@ -50,7 +50,7 @@ nulls survive under B structurally: every such instrument lives in a screened ro
 
 ## 4. The referees and the killers
 
-zon (α_c, the stack's third factor); the arbiter (the evidence run, live); DESI
+zon (α_c, the stack's third factor); the zero-parameter evidence run (live 2026-07-13; the sampled arbiter deferred by operator order); DESI
 forest-BAO (the forest offset); the synthetic-photometry sign session (the candle
 room's crux); the lunar-farside 21cm program (the edges + the gate's shape); the radio
 D-line arbiter (P-027). KILLERS on file: a clean dark-ages detection at the standard
