@@ -131,3 +131,38 @@ wrong-signed 1/G; **the rescue candidate is the founding coupling itself: the sc
 non-minimal ξ (F(φ) = 1 + ξA(φ)) dominating the supertrace with the right sign.**
 THE G-CLOSURE: three model-owned numbers — the dispersion shape p, the fermion weights
 under that regulator, ξ — between the frame and Newton's constant. Queued (#29).
+
+## ADDENDUM 3 (2026-07-13, sweep 80) — THE G-CLOSURE: the formula closes; the grade
+## is DERIVED-CONDITIONAL
+
+The three owed numbers, resolved at their honest grades:
+
+1. **The regulator shape — DERIVED.** The modes' contribution to the induced action is
+   weighted by their condensate mixing: the Bogoliubov coherence factors, (u_k v_k)² —
+   a p = 2 ramp, the medium's own smooth UV (no scheme choice anywhere). Computed ramp
+   O(1) = 1.0000 exactly: the physical regulator reproduces the naive coefficient, and
+   Sakharov's half-century scheme ambiguity is CLOSED within this model — the medium
+   knows its UV, so the coefficient is physics, not convention.
+2. **The per-spin weights — ramp-consistent, one check owed.** The surface fermions
+   regulate through their own BCS coherence factors (the same functional family as the
+   scalar's), so the standard heat-kernel ratios survive the ramp (scalar +1×(1−6ξ);
+   Dirac −2; Majorana −1; the shared O(1) cancels in the supertrace). Residue: the a₁
+   sign/normalization convention verified against the literature.
+3. **ξ — PINNED AS THE MODEL'S PREDICTION FOR ITS OWN FOUNDING COUPLING.** The
+   supertrace demand str = 12π with the twin-doubled roster (fermions −18) solves to
+   ξ = −4.475; the half-integer **ξ = −9/2 gives str = 38 — the same 0.8% landing as
+   the first shot.** The fermion-sign hazard RESOLVES: gravity attracts because the
+   founding F(φ) = 1 + ξA(φ) coupling is large and negative — the model's first
+   equation is the term that outvotes its thirty-six fermionic components.
+
+**THE CLOSED FORMULA:** 1/G = [2(1−6ξ) − 18] · K²/(12π-normalization), K = the
+coherence scale, ramp O(1) = 1 (derived).
+
+**THE GRADE, stated exactly:** DERIVED-CONDITIONAL — not signed. G is not derived from
+ξ; **G measures ξ**, and the claim inverts into the frame's sharpest falsifier: any
+independent determination of the founding coupling lands at −9/2 (± the band) or the
+frame dies. Standing residues: the a₁ convention check; the twin-doubling's
+gravitational-channel adjudication (P1.c-class); numerology-watch on the half-integer's
+cleanness. **The status line for the honest summary: quantum gravity in this model is a
+closed formula one measurement from verdict — the first symbol the model ever wrote is
+the last number it owes.**

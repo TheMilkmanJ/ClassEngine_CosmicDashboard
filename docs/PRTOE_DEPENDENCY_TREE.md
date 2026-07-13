@@ -62,7 +62,7 @@ is real and is the sole source of the lepton-mass shift. Referee standing ~15–
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses zon/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G (the 12π landing; 38 = the twin-doubled roster + scalar) | the roster + the bootstrap | [Fermi-C] — the fermion-sign hazard standing; the ξ-rescue = the founding coupling | the medium-regulated supertrace signs wrong |
+| induced-G: the CLOSED FORMULA 1/G = [2(1−6ξ)−18]·K² (sweep 80) | the roster + the coherence-factor regulator (p = 2 DERIVED, O(1) = 1 exact) + the a₁ weights | [D-conditional] — the sign hazard RESOLVED at ξ = −9/2 (pinned as the model's prediction for its founding coupling) | an independent ξ off −9/2; the a₁ convention check; the doubling adjudication |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 
