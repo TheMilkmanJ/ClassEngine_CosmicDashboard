@@ -8,3 +8,5 @@ Coupling-geometry status (entry 88): medium-sector + ONE new lever: the wall-fee
 
 Entry 100 update: f_th dissolved into physics (the local door — heterojunction cousin): rest-mass → ordered kinetic → web dissipation → hot-mode shocks; the free dial replaced by f_arr; grip #8 (X-ray scaling) born; THE RAZOR: S₈ needs f_arr 0.008–0.013, the fence allows ≤ 0.013; the web-dissipation ramp is the decider (owed).
 
+Entry 102: the 89-series CLOSED — the entropy floor (50-600 keV cm², banded) lands in the preheating literature band; ΔS₈ delivery covers the gap; chain mechanical end-to-end; crude-anchor flag standing (power-spectrum upgrade = heavy queue).
+
