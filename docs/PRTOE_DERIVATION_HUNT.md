@@ -4293,3 +4293,23 @@ conformal-factor pathology, derived); the Leggett sector (a forced, previously-m
 mode family); the tenancy-IS-ξ identity; and **P-2026-045 — a new, falsifiable,
 registered prediction born from the closure's own autopsy.** The wall came down and a
 door opened in the same computation.
+
+### ENTRY 116b — THE RAMPS BEHIND THE TERMINATION, WALKED (the author: "we check for ramps we missed, and THEN we put a bullet in it")
+
+Before the gavel, every constraint the model owns on K was walked:
+- **LV pricing:** its verdict is that the dangerous operators are **unwritable, not
+  suppressed** — a structural prohibition does not scale with Λ_micro. **No bound on K.**
+  *(Note the counterfactual: had LV been a suppression, K would have been bounded below
+  and the closure would have failed QUANTITATIVELY rather than emptily. It is not.)*
+- **The basement ruling:** yields only **K ≤ M_Pl** (an emergent framework cannot seat
+  its constituents above the scale they generate). No lower bound survives.
+- **Other model objects:** the 402 AU healing length is the *cosmological* coherence
+  scale; the dcdf mass is the cosmological quantum. **Neither fixes the microscopic K.**
+- **Self-consistency:** that is the bootstrap — the step itself. Circular.
+
+**K is constrained only by K ≤ M_Pl. The closure's output (K = 0.33 M_Pl) is legal and
+unpredicted. THE TERMINATION SURVIVES ITS RAMP WALK.** The emptiness is structural: it
+holds for every value of every remaining parameter, so no computation can revive it.
+
+**RAMPS WALKED. NONE FOUND. THE G-CLOSURE IS DEAD — this time with the verdict's own
+origins visited first, as the law requires.**
