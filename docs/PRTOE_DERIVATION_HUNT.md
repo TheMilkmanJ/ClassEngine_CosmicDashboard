@@ -3956,3 +3956,35 @@ c = (N−1)/N = 9/10. **It is not the same object** (the census counts 9 fermion
 the zero-point seat; this counts 6 pairing families with the singlet as gravity).
 Different ontologies, same shape, **no credit taken** — the registered coincidence-watch
 requires a mechanism connecting them, and none exists. Noted, unclaimed, on the books.
+
+## ENTRY 111 — "SO c IS 10/11?" — THE AUDIT: the inference does not carry, but the question earns a docket (and the ε test cannot currently decide it)
+
+The author's inference from entry 110b's "ten payers, one self-payer": that the
+ε-census's c = (N−1)/N should recount to 10/11. **Audited three ways:**
+
+**1. THE DISCIPLINE CHECK (applied to my own consistency, first).** One entry earlier
+I enforced that the c-census and the gravitational-payer census are DIFFERENT OBJECTS
+— different ontologies, same shape, no credit taken. **I cannot now transfer a count
+between them because it moved in a direction we like.** The rule binds symmetrically or
+it binds nothing.
+
+**2. THE PHYSICS.** The c-census counts who the medium's COUPLING BUDGET is shared
+among — the lepton species it gives mass to. The collective (Leggett / relative-
+amplitude) modes carry no Yukawa coupling: they are excitations OF the medium, not
+recipients of its coupling. **On the current understanding they are not participants in
+the c-census, and c does not become 10/11 by this route.** The inference does not carry.
+
+**3. THE COMPUTABLE CONSEQUENCE (booked either way).** c = 10/11 raises ε by +1.0%
+(ε = c·f̄·α_c). But **the ramp-origined f̄ band (entries 95/96, ~0.61–0.635) SWAMPS the
+difference**: the fit is met at f̄ = 0.6253 with c = 9/10, and at f̄ = 0.6190 with
+c = 10/11 — both inside the band. **ε cannot discriminate 9/10 from 10/11 today.** The
+α_c chain remains the c-roster's referee (the standing watch, data-lean 12/13, now
+joined by 10/11 as a third candidate).
+
+**DOCKETED (the legitimate residue):** the census derivation deserves a re-audit under
+the collective sector's existence — *does any medium mode take a share of the coupling
+budget?* — with one hard constraint: **c is FROZEN in the live evidence run and cannot
+be changed mid-flight.** Re-tuning a frozen parameter while its own test is running is
+forbidden by the freeze law, and no result from this audit may touch the running
+configuration. Post-run item, registered now so it cannot be quietly dropped or
+quietly used.
