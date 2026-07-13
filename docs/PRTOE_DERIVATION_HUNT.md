@@ -2159,3 +2159,18 @@ BOSS-era Lyα tension noted, later relaxed — no claim). KILL CLAUSE: a clean f
 cross-calibration at the 10⁻³ level kills the candle room outright. WIN CLAUSE: a
 hidden %-class forest systematic = the second in-data fingerprint. The forest session
 joins the response-function session on the room's docket.
+
+### Sweep 66 ramp correction (strike 16 — "full ε in voids" was a binary)
+
+THE GATE FUNCTION ε(C): screening is a smooth curve in local clumping, not a
+screened/unscreened binary — full in deep voids, PARTIAL in filaments/forest gas,
+saturated-zero in clouds/disks/Earth. Every candle-room observable reads THE SAME CURVE
+at its own density: (i) the SN mass "step" sharpens into a predicted smooth TREND in
+host density (the literature's step-at-10¹⁰M☉ is a step-by-convention — ramp-vs-step is
+now a discriminant inside existing SN data); (ii) the forest expectation restates
+honestly: ε × gate(Δ~1), plausibly 0.1–1%, and the kill clause runs against the curve's
+own prediction there; (iii) THE COLLAPSE TO ONE OBJECT: P-022's dark-ages fade profile
+IS the gate curve in redshift — infer it once from the 21cm edge and the mass-step
+trend shape, the forest offset, and the void probes are predicted with ZERO freedom.
+One curve, four instruments: the room is now an overdetermined system. Strike 16
+logged.
