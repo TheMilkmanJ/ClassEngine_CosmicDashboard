@@ -4947,3 +4947,44 @@ spread — a step on a quantity the physics determines (the Leggett gap sets it)
 number is withdrawn.** What survives is the *direction* (down, always) and the
 *inversion* (what the fit demands of the locking). The error is the same one the author
 has caught four times today, and it is filed as such.
+
+## ENTRY 130 — **THE LEGGETT GAP COMPUTED: THE CHANNELS ARE LOCKED SOLID** — ε survives by seven orders, and my own 12/13 coherence argument is WITHDRAWN one hour after making it
+
+**THE COMPUTATION.** The Leggett modes are pseudo-Goldstones of the broken relative
+U(1)s; their mass comes from the interchannel (Josephson) coupling. The model's six
+channels are lepton-sector pairings, and **they talk through the electroweak interaction**
+— so J/Δ ~ α_W ≈ 1/30, giving
+
+  **m_L ≈ 2·Δ·√(α_W) ≈ 2.6 × 10³ GeV**
+
+against a winding freeze-out at **T ≲ T_c = 193 keV = 1.9 × 10⁻⁴ GeV.**
+
+> **THE LEGGETT MODES ARE SEVEN ORDERS OF MAGNITUDE HEAVIER THAN THE FREEZE-OUT
+> TEMPERATURE. The channels are locked solid: phase spread ≈ 10⁻⁴ rad, coherence penalty
+> ≈ 5 parts per billion.**
+
+**CONSEQUENCES — the good, then the cost:**
+
+✅ **ε SURVIVES.** Entry 129's new load-bearing demand ("ε requires a heavy Leggett
+sector or the decomposition dies") is **SATISFIED, by seven orders of margin.** The
+three-factor structure holds. The basement rebuild did not break the model's central
+number.
+
+❌ **AND ENTRY 129's 12/13 ARGUMENT IS WITHDRAWN.** I claimed the multi-component
+coherence penalty pushes c upward toward 12/13. **It does — by five parts per billion.**
+That moves nothing. **The coherence argument for 12/13 is dead, killed by the very
+computation that was meant to support it, one hour after I made it.** Filed as such; the
+internal review's earlier warning about over-reading the roster evidence is vindicated a
+second time.
+
+❌ **KOIDE STAYS UNCONNECTED.** The multi-component correction can only *lower* f̄, and
+it lowers it by 10⁻⁹. f̄ ≈ 0.623 is unchanged; **2/3 = 0.6667 is not reachable from this
+direction.** The corpus's firewall on nearby rationals holds.
+
+✅ **THE GRAVITY-SECTOR ARGUMENT FOR 12/13 IS UNTOUCHED** — it rests on the
+lepton-paired vacuum's inability to source gravity, and nothing here bears on it. **The
+roster trial remains open, with one live argument (gravity) instead of two.**
+
+*The day's discipline, working exactly as designed: a claim was made, the computation
+that would confirm it was run, and it killed the claim instead. The model is smaller and
+truer than it was an hour ago.*
