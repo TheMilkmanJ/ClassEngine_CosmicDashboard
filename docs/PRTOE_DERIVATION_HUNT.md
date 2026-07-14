@@ -5853,3 +5853,29 @@ stated against interest: an unmodeled f̄ drift widens σ_c and makes the ×3.2 
 HARDER, not easier — the honest σ_c is ≥ 0.037 until the drift term is bounded.** The bound
 is a named small computation (the winding average's late-time stability — the roll-up solver
 re-read at late epochs); queued.
+
+## ENTRY 152 — ITEM 2 WALKED TO ITS CLIFF: **the coded coupling is on the DIRECT branch, the direct branch dies at BBN at ramped grade, and the protection that would save it is NOT YET DERIVED.** The RG/portal docket is upgraded to GATE-0'S LIFELINE
+
+*Gate reply: fully ramped — Γ/H and δm_e/m_e computed across the full window (T = 70–1500 keV)
+and the full VEV band (v = 81–121 keV); no point values.*
+
+**(a) The branch, receipt-grade:** the coded form is m_e(φ) = m_e0(1 + κφ²) (spine §4,
+background.h) — **the DIRECT branch.** The phase does not drop out; the coupling reads the
+field magnitude.
+
+**(b) The ramped rates:** with κ = ε/v² (broken-phase matching), Γ(e⁺e⁻ → φφ)/H = 10¹³–10¹⁷
+across the entire window and VEV band — **the dyad thermalizes; no ramp fixes it.** Then
+⟨φ²⟩ = T²/12 gives δm_e/m_e = ε(T/v)²/12 ≈ **0.10–0.23 inside the weak-rate window** (which
+tolerates ~0.01): catastrophe-class, orders beyond the deuterium wall.
+
+**(c) The protection is an assertion, not a derivation.** The corpus's AZK-safety derives
+*neutrino*-coupling protection (derivative Majoron); the **electron portal is the standing UV
+assumption (Card 7, PENDING).** No derivation currently forces the protected form for m_e.
+
+**THE VERDICT, without anesthesia:** the model *as coded* sits on the branch that dies at BBN.
+Survival requires the protected UV form (m_e tied to the condensate with symmetric-phase
+decoupling), which is named and unpaid. **The RG-resummation/portal docket is upgraded from
+owed-bookkeeping to GATE-0'S LIFELINE — the sharpest open kill-risk on the books.** One honest
+mitigation: the pipeline never ran the thermal tail (ε is switched off above T_c by hand), so
+the fits and every landed result are unaffected — the catastrophe lives in the UV question,
+not the phenomenology. The fork stays open with its teeth in, and it is now priced.
