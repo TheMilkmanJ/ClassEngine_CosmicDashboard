@@ -5914,3 +5914,29 @@ and only because the dyad is the medium's order parameter (M3-class; a fundament
 resurrects entry 152's kill intact — which makes entry 152 a standing *fence*: any evidence
 of the dyad's fundamentality is now a model-killer). The RG/portal docket keeps one owed job:
 the composite form factor's explicit shape (the pair-breaking scale).
+
+## ENTRY 154 — ITEM 3: THE ξ RECONCILIATION — **def563 stands; entry 150's language was wrong; the finiteness demand survives RESTATED and re-targets the anisotropic heat kernel**
+
+**The collision:** entry 150 derived "ξ = 1/6, conformal, forced" using the standard covariant
+form ξRφ². def563's tensor algebra **ran and proved no single covariant ξ exists** for the
+medium's mode — the coupling provably splits (−1 / −2/3 exact, Z = −3/8 ghost-kinetic).
+**A derived computation beats a covariant-language shorthand: def563 is the record that
+stands.** Entry 150's derivation was ill-posed in exactly the way the −4.450 bet was — it
+assigned a single ξ to a mode that has none.
+
+**What survives — restated without the ill-posed language:** Pauli's finiteness demand does
+not care about ξ; it demands **the medium mode's TOTAL k₁ weight vanish.** For a covariant
+scalar that condition *reads* ξ = 1/6; for the real split-coupled mode it is a condition on
+the anisotropic combination: **run the anisotropic heat kernel with the derived splits
+(−1, −2/3, Z = −3/8) and check k₁(mode) = 0.** If it vanishes, entry 150's conclusion
+survives in split form (the mode sits at the anisotropic conformal point). If it does not,
+**the medium's own mode breaks the Pauli balance — a new sharp kill-risk.**
+
+**The re-targeting (the structural find):** the anisotropic-heat-kernel computation was
+pre-registered as the retired closure's "last stand" (deliver str = +12π — dead with the
+zombie). **It now referees the KEEPER instead: deliver k₁(mode) = 0 or break finiteness.**
+Same computation, new target, live stakes. Entry 150 downgrades: derived → **pre-registered
+condition** (the falsifiable rider survives unchanged: the balance must hold). No arithmetic
+asserted in this entry — the walk is structural; the heat-kernel run is the receipt, queued
+as the item-5 (RG docket) companion. *Pre-commit rule honored: nothing here claims an
+executed number.*
