@@ -354,3 +354,16 @@ it.* Time's direction is not imposed on the white hole; the white hole's instabi
 direction — the timer and the deposit start together, and everything that has ever aged is
 downstream of the one thing that couldn't. [GRAMMAR — the timer section's closing form; the
 falsifiable content remains routed through the thermal program.]
+
+**Provenance (filed with the same discipline as every number):** the ingredients of this
+reading have literature homes and are cited as such — Eardley (1974), literally titled
+"Death of White Holes in the Early Universe" (the instability/timer: white holes cannot
+persist and could only be primordial); Retter & Heller (2012) (the Big Bang as a white-hole
+explosion — the "Small Bang"); Popławski (the universe born inside a black hole = a white
+hole from within); Rovelli–Haggard and Bianchi et al. (the black-to-white-hole bounce).
+**What the literature did NOT have and this model supplies: the counterparty and the
+mechanism** — the T = 0 condensate the deposit pours INTO (the two-reservoir split), the
+pour's identity as the thermal principal, the instability read as the arrow's origin inside
+a medium whose thermodynamics is determined by its painted sectors, and falsifiable routing
+(the thermal program) instead of a narrative. The old idea had the object; this model gives
+it the transaction.
