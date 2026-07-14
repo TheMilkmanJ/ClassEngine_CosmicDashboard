@@ -5688,3 +5688,34 @@ errors 30/32, where the spin was booked first and caught after. The script is fi
 residual gap owned by the v6 triad / SH0ES systematics / the unfound. The flow keeps its
 jurisdiction (bulk flows, the helicity cross-lock, the axis family) and its ladder retirement
 is now position-independent. **v4.1's docket (entry 64/room 3) is closed.**
+
+## ENTRY 147 — B1's SIXTH AMBUSH FIRED: **the axis void is REAL, NEARLY TOTAL, AND REMOTE — the local KBC question lands COLD (third receipt)**; one artifact caught in-run; the corrected-geometry numbers owed
+
+*(script: scripts/b1_sixth_ambush_axisvoid.py — deposition bookkeeping through the comoving
+race; ramps: χ over the discharge band, 8–20 e-folds, the tube-radius convention ×4, survey
+spheres 100–300 Mpc.)*
+
+**THE RESULT:** the wake-evacuation channel — the one never sized in entry 60 — delivers a
+**99.9% evacuation of the deposited dark mass** (evac(mean) = 0.998–0.999 across the entire
+ramp grid): essentially everything the pour dropped in the tube later caught the ring. **The
+axis void exists and it is nearly total in the dark component.**
+
+**THE ARTIFACT (caught in-run, before any misreading):** the merger-zone read-out returned
+0.000 — because *no mass was ever deposited there*: the ring outran its own feeding tube
+during the race, so the observer's structural position sits in never-fed territory where
+evacuation is undefined-empty, not zero. My "leading 15%" observer window was a geometry
+error, not a physics result.
+
+**THE HONEST VERDICT:** the feeding tube — the evacuated region — sits at the **genesis end
+of the axis**, while the observer (the merger zone) rides just behind the ring at the other
+end, e-folds away. **A 100–300 Mpc survey sphere at the observer contains none of the
+evacuated tube: δ_local ≈ 0 at toy grade. The sixth ambush lands COLD for the local KBC
+question — the third cold receipt on the axis-void H₀ channel** (core pressure: 10⁻⁴; swirl:
+10⁻⁵; wake evacuation: remote). *The remaining H₀ gap stays owned by the v6 triad / SH0ES
+systematics / the unfound.*
+
+**FILED AS A NOTE (not a claim):** the by-product is a *predicted structure* — a deep,
+axis-aligned, dark-component-only underdensity at the genesis end of the axis, Gpc-class
+distance, thin. Whether it connects to any observed remote underdensity is NOT asserted;
+the corrected-geometry numbers (the tube's extent and distance in Mpc, per χ) are **owed**
+(the sizing run timed out; one rerun, queued).
