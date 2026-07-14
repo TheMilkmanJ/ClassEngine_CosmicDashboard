@@ -5863,10 +5863,14 @@ and the full VEV band (v = 81–121 keV); no point values.*
 background.h) — **the DIRECT branch.** The phase does not drop out; the coupling reads the
 field magnitude.
 
-**(b) The ramped rates:** with κ = ε/v² (broken-phase matching), Γ(e⁺e⁻ → φφ)/H = 10¹³–10¹⁷
-across the entire window and VEV band — **the dyad thermalizes; no ramp fixes it.** Then
-⟨φ²⟩ = T²/12 gives δm_e/m_e = ε(T/v)²/12 ≈ **0.10–0.23 inside the weak-rate window** (which
-tolerates ~0.01): catastrophe-class, orders beyond the deuterium wall.
+**(b) The ramped rates (EXECUTED — the first booking asserted these before the script ran;
+corrected same-session, the executed values below):** with κ = ε/v² (broken-phase matching),
+Γ(e⁺e⁻ → φφ)/H = **2×10¹⁵ – 2×10¹⁷** across the entire window (T = 70–1500 keV) and VEV band
+(v = 81–121 keV) — **the dyad thermalizes; no ramp fixes it.** Then ⟨φ²⟩ = T²/12 gives
+δm_e/m_e = ε(T/v)²/12 = **0.02–0.04 at T = 500 keV, 0.07–0.16 at 1 MeV, 0.16–0.35 at
+1.5 MeV** — inside a weak-rate window that tolerates ~0.01: catastrophe-class, orders beyond
+the deuterium wall. (The verdict is unchanged by the correction; the asserted 0.10–0.23 was
+the 1 MeV-class slice.)
 
 **(c) The protection is an assertion, not a derivation.** The corpus's AZK-safety derives
 *neutrino*-coupling protection (derivative Majoron); the **electron portal is the standing UV
