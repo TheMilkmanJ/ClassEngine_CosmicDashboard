@@ -4865,3 +4865,40 @@ which, in the emergent picture, it does: light is what the medium feels *with*.*
   *poetically* apt, and the physics underneath it is the reframe above — **but the
   mechanism is identity, not attraction.** They do not couple *because* they are
   opposites. They are one thing.
+
+## ENTRY 128 — **THE CURRENCY REFRAME**: the medium is not the venue for transactions — it IS the currency. And the mode-transaction map.
+
+*The author: "the medium isn't where it happens — everything is the medium changing what
+it's holding." Booked, and the map worked out.*
+
+**THE REFRAME.** The transaction grammar has always treated the medium as the *ledger* —
+the place where transactions clear. **In the emergent picture it is not the venue. It is
+the currency.** Every interaction in the universe is the medium **converting between its
+own excitation types**:
+
+| the medium's excitation | what it is | what transaction it carries |
+|---|---|---|
+| **singlet modes** (phonon + scale mode) | **the metric itself** | **gravity** — the medium changing SHAPE |
+| **the 12 collective gauge modes** | the forces; the emergent U(1) is light | **EM/strong/weak** — the medium's PHASE and internal symmetries ringing |
+| **the 48 Fermi-point excitations** | **matter** — topologically protected quasiparticles | mass, charge, the whole material world |
+
+**AND THE AUTHOR'S CLAIM — "what goes into matter comes out as light" — IS PHYSICALLY
+EXACT.** Electron + positron → two photons. Two photons → electron + positron. **Matter
+and light interconvert**, every day, in every accelerator and every gamma-ray burst.
+
+**In the emergent picture this sharpens into something structural:**
+> **Annihilation is the medium's Fermi-point excitations dissolving back into its
+> collective mode. Pair production is the reverse.** The medium is spending **the same
+> currency in two denominations**: matter is the denomination that **can sit still**;
+> light is the denomination that **must always move at c**. **E = mc² is the exchange
+> rate.**
+
+**THAT IS THE KUP/−KDOWN, AND IT IS EXACT:** matter = the excitation *with* a rest frame;
+light = the excitation *without* one. Every annihilation is the medium trading one for the
+other — conserving energy, momentum, charge, and information exactly.
+
+**THE ONE CORRECTION THAT STILL BINDS:** light **does** gravitate (it bends, lenses,
+redshifts; its energy curves spacetime). What light lacks is a **rest mass** — it cannot
+sit still. **The correct opposition is not "pays rent / doesn't pay rent." It is "can be
+at rest / cannot be at rest"** — and that is a *cleaner* kup/−kdown than the rent one,
+because it is precisely what E = mc² trades between.
