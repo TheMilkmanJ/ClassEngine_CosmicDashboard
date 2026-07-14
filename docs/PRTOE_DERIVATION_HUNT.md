@@ -6487,3 +6487,20 @@ signature inherits P-040's bare-bet status — a *consequence pairing*, not a ne
 **Still heavy, still owed (not computable tonight):** the anisotropic heat kernel (p = 5/8),
 the pair susceptibility (the 60 MeV bar), the RG resummation, the stiffness ceiling, the
 settling law itself. Task 42 updated.
+
+## ENTRY 173 — THE THIRD INSTRUMENT (the operator's catch): **three doors ⟹ three instruments on the SAME α_c — and the background door's reading was already on the books, sitting 2.3% low**
+
+*The operator, on the second-sound pairing: "There's 3 instruments. 3 doors." Correct — I
+paired two and left the third door's instrument unseated:*
+
+| door | the α_c instrument | status |
+|---|---|---|
+| perturbations | the dispersion chain (the mode sector's direct fit) | RUNNING (R−1 descending) |
+| thermodynamics | the isocurvature phase speed (c₂ = √α·c iff α_c = 3α; entry 172) | named, awaiting data |
+| **background** | **the ε-assembly's indirect band** — ε = c·f̄·α_c with the fitted ε and the ensemble f̄ constrains α_c through the background fit: **[0.0205, 0.0214], already registered in P-2026-040 itself** | ON THE BOOKS — sitting **2.3% below 3α** |
+
+**The triangulation, stated:** one bet, three doors, three instruments that cannot cheat for
+each other — and the background door has already voted, slightly low (the registration's own
+honest flag). The bet's verdict structure upgrades from "the chain decides" to **"three
+readings must converge on one α_c"** — the three-door guideline applied to a single coupling,
+with one reading in hand, one grinding, one awaiting its sky. Seated in the trio file.
