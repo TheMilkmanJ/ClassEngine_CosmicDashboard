@@ -5429,3 +5429,42 @@ reach was bookkeeping, not physics.** No downstream *number* changed; what chang
 the tilt's *form* and the amplitude's *fit values*, which the rebuild does not touch. **The
 map now matches the territory again — and the audit is what stood between us and resuming
 data on a corpus that quietly overgraded itself.**
+
+## ENTRY 140 — THE PAULI FAMILY: the author's ZPE hunch — **historically dead-on, mechanically half, and the half that fails FORCES the medium to be self-sustained**
+
+*The author, on Pauli's condition: "The Pauli one I have a hunch about. Zero point energy?"*
+
+**HISTORICALLY DEAD-ON.** Pauli built the supertrace machinery *for* zero-point energy (his
+1951 worry: if the electron field's ZPE gravitated, the universe would curl up smaller than
+the Earth–Moon distance). The condition family (Visser gr-qc/0204062): **str[1] = 0** kills
+the vacuum energy's quartic divergence; **str[m²] = 0** the quadratic; str[m⁴]'s log is the
+induced Λ; **str[k₁] = 0** — the one the roster satisfies — kills the divergence of 1/G.
+*The gravity condition is the youngest sibling of the ZPE conditions.*
+
+**THE TEST (both elder siblings, against SM + 3ν_R):**
+
+- **str[1] = N_B − N_F = 28 − 96 = −68. FAILS** (needs 0).
+- **str[m²] (Veltman-class, dominant states) ≈ −8×10⁴ GeV². FAILS** (needs 0; the measured
+  Higgs at 125 GeV is nowhere near the ~314 GeV the balance would demand).
+
+**So the roster passes the gravity condition and fails both ZPE conditions** — if the model
+needed the vacuum energy to cancel species-against-species, it would be dead here.
+
+**IT DOESN'T — AND THE FAILURE IS THE FINDING.** In a *self-sustained* condensate (Volovik
+ch. 3 — the basement's own framework), the equilibrium vacuum's pressure is **identically
+zero by the Gibbs–Duhem relation** — an equilibrium identity of the whole medium, not a
+cancellation between species. A droplet in vacuum carries enormous ZPE; its surface does not
+accelerate outward.
+
+**THE DIVISION OF LABOUR (independently re-deriving entry 118's Λ = level, G = curvature):**
+
+| the zero | the payer |
+|---|---|
+| 1/G finite | **the roster** (str[k₁] = 0 — species-by-species; HOLDS) |
+| Λ ≈ 0 | **the medium's thermodynamics** (Gibbs–Duhem — the whole, not the parts) |
+
+**Two zeros, two payers.** And since the roster demonstrably *cannot* pay the vacuum-energy
+bill (−68; −8×10⁴ GeV²), **the medium is FORCED to be of the self-sustained class** — nothing
+else in the model can pay it. The small observed Λ is then the small *deviation from
+equilibrium* — the drawdown — which is the standing dCDF story arriving from an independent
+direction.
