@@ -6312,3 +6312,26 @@ acceleration-shaped — consonant with late-time acceleration at grammar grade, 
 quantitative driver staying the booked floor. **Grammar grade; the identification "the
 floor's deviation = the residual fountain excitation" is a nameable candidate for the thermal
 program — not banked; the program's Λ-side computation would grade it.**
+
+### Entry 165 addendum — the third door to Λ (the operator's question): **it exists, it is the FAMOUS one, and the model already holds both of its pieces**
+
+**The perturbations-door reading of Λ is the textbook zero-point mode sum** — add up the
+quasiparticle vacuum energies. Read WITHOUT the medium, that door yields the 10¹²⁰ disaster
+(the cosmological constant problem). **The model's reading:** the mode sum is enormous AND
+cancelled — not species-by-species (entry 140: str[1] = −68, the roster cannot pay) but by
+the medium's equilibrium identity (Gibbs–Duhem); **the residual = the modes still
+out-of-equilibrium = the same deviation the other two doors name.** So the standard
+cosmological constant problem gets a diagnosis: *it is the price of opening the perturbations
+door of a medium while denying the medium* — reading the fluctuations without the equilibrium
+that cancels them.
+
+**The model's sharper perturbations-door artifact is already registered:** the neutrino tie
+ρ_Λ^{1/4} = m_ν,lightest = 2.25 meV (spine §6 — the lightest quasiparticle's mass setting the
+floor's quarter-power; shared-scale, post-hoc flag standing, value un-derived).
+
+**THREE DOORS, ONE Λ — the guideline's demand now fully populated:** background (the
+Gibbs–Duhem deviation, entry 140), thermal (the residual fountain excitation, entry 165),
+perturbations (the un-cancelled mode residual + the m_ν tie). The consistency demand the
+thermal program inherits: the three residuals must be ONE number. Noted without banking:
+Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature (0.235 meV) — the known cosmic
+near-coincidence, menu-watched, not read.
