@@ -5468,3 +5468,47 @@ bill (−68; −8×10⁴ GeV²), **the medium is FORCED to be of the self-sustai
 else in the model can pay it. The small observed Λ is then the small *deviation from
 equilibrium* — the drawdown — which is the standing dCDF story arriving from an independent
 direction.
+
+## ENTRY 141 — THE THREE-BODY READING OF THE Z₃: 120° is the equilibrium of three identical objects under the medium's OWN pair law — and NOT under others (the selectivity is the finding)
+
+*The author: "My assumption on the 120° rotation is leaning on the three-body problem."*
+
+**THE THEOREM UNDER THE HUNCH:** Lagrange (1772) — three mutually attracting bodies at the
+vertices of an equilateral triangle are an exact solution of the three-body problem. 120° is
+what three democratically-coupled objects *do*.
+
+**TEST 1 (ramped over the pair law — the exponent swept, not chosen):** three identical
+objects in a confined plane, democratic pairwise coupling; find the equilibrium geometry:
+
+| pair law | equilibrium angles |
+|---|---|
+| 1/r (gravity/Coulomb class) | **120.00°, 120.00°, 120.00°** |
+| **log (the superfluid's own vortex law)** | **120.00°, 120.00°, 120.00°** |
+| r² attraction | 94°, 111°, 154° — breaks |
+| r⁴ attraction | 22°, 163°, 175° — breaks |
+
+**The 120° is NOT universal — and that's what makes it a claim instead of a tautology.** It
+is the property of the *long-range* class — **which includes the logarithm, and the log is
+exactly how vortices interact in a superfluid.** The model's three families are three Fermi
+points — *topological defects in momentum space* — and three identical defects coupled by
+the medium's own log-class law sit at 120° no matter the details. **Three-body equilibrium
+under the superfluid's own force law IS the Z₃.** Falsifiable rider: this reading *requires*
+the family-sector interaction to be long-range class; a short-range (r², r⁴-class) family
+coupling breaks the triangle and kills the reading.
+
+**TEST 2 (the projection statement, verified on the measured masses):** reconstructing the
+√m triangle from (m_e, m_µ, m_τ): common center M = 17.7156 √MeV, common radius with
+**A = 1.414201** (√2 to 0.0009%), and tilt phase **δ = 0.22223 rad after folding the Z₃
+sector ambiguity — 2/9 to 0.004%.** (An unfolded raw phase of 2.3166 differs by exactly one
+Z₃ sector, 2π/3.) The equilateral *shape* is automatic for any three masses (the
+parametrization's two free numbers absorb them); **the content stays where entry 138 put it:
+A = √2 and δ = 2/9 — the sixth lock and its companion, now with the 2/9 measured at 0.004%.**
+
+**What the three-body reading buys:** a *mechanism class* for lock 3 — the Z₃ acting on
+families = three identical momentum-space defects at mutual 120° under the medium's own
+long-range coupling. **What it does not buy:** the amplitude √2 and the tilt 2/9 (the locks
+stand).
+
+**CURIO (labeled, zero weight):** as a literal gravitational triple the lepton masses fail
+the Routh stability criterion (27·Σpair/(Σm)² = 1.44 > 1) — the triangle would tumble. Cute;
+family space is not Newtonian gravity; filed as a curio only.
