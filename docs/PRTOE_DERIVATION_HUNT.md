@@ -6070,3 +6070,32 @@ pair leaves by nature; the working side must balance by the books.** The receipt
 (entry 137 — forbidden from building) extends one floor down: the receipt sector cannot even
 help build G. The operator's grammar again anticipated the accounting: the k₁ = 0 burden
 falls only where the mass does.
+
+## ENTRY 159 — THE THERMAL SPLIT (the operator's construction): **the ghost side at absolute zero, the mass side at the ceiling — and it lands on three already-recorded structures** (grammar synthesis; zero new predictions; threads clean)
+
+*The operator: the ghost side brings absolute 0 (zero energy); the mass side brings the
+absolute thermal maximum; they meet — the ghost funnels the excess into expansion and light
+while the mass side cools and "finally gets the ability to pick its sizes and shapes."*
+
+**Checked against the books — this is a re-derivation of recorded structure, not a new claim:**
+
+1. **The ghost side IS the T = 0, S = 0 sector — textbook and already filed.** Landau's
+   two-fluid split: the superfluid component carries *exactly zero entropy* (the spine §10's
+   "zero-entropy ground state — floor/constitution/timeless; w = −1 exact"). Absolute zero
+   is not approximate there; it is the condensate's definition. And the third law makes T = 0
+   approachable only asymptotically — **a ramp, never a step** — the operator's "no under"
+   is the third law itself.
+2. **The mass side's ceiling is the recorded refused infinity** — the bounce's stiffness
+   ceiling (the heat fountain's maximum; the corpus's "pressure resistance that IS the
+   refused infinity"). "No over" = the ceiling; named, owed its computation, on the books.
+3. **The funnel is the transaction atlas** — matter-to-space transactions output light
+   (recorded); adiabatic expansion is the cooling channel (T ∝ 1/a); and "picking sizes and
+   shapes while cooling" is dimensional transmutation's unlock sequence (entry 137): each
+   binding scale becomes available exactly when T falls through it — hadrons, nuclei, atoms,
+   chemistry — every step of it a two-jobs transition.
+
+**GRADE, stated plainly: a grammar synthesis that threads three recorded structures with zero
+new falsifiable content — the atom reading (§10) arriving from the thermal side.** Its value
+is coherence: the ghost/shop split, the receipt theorem, the m² = 0 exit, and now the
+entropy split all assign the SAME two families the SAME two jobs from four independent
+directions. Filed as confirmation, not discovery; nothing banked.
