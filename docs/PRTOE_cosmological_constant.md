@@ -87,6 +87,40 @@ The two sides of condensed matter's most famous crossover perform the two famous
 in one vacuum: the weak side's exponential gap digs the electroweak hierarchy; the
 strong side's occupancy sets the cosmological constant.
 
+## 4b. The three doors to Λ (2026-07-14 — the thermal-door arc; hunt entries 140/165)
+
+One quantity, three independent readings, one demanded number — the medium's own
+consistency structure applied to its most famous problem:
+
+- **The background door** (hunt entry 140): a self-sustained condensate's equilibrium
+  vacuum has **identically zero pressure by the Gibbs–Duhem relation** — the enormous
+  vacuum energies do not gravitate at equilibrium. The observed Λ is the medium's small
+  **deviation from equilibrium** — the drawdown. (And the roster demonstrably cannot pay
+  this bill species-by-species: str[1] = 28 − 96 = −68 and the Veltman-class sum both
+  FAIL — the whole medium pays what the parts cannot, which *forces* the self-sustained
+  class.)
+- **The thermal door** (hunt entry 165): the condensate is **still settling from the one
+  genesis injection** — thermal counterflow (the fountain effect, the corpus's own
+  genesis name) persists while any deviation from the T = 0 ground state remains, dying
+  only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
+  medium is small — today's gradients are CMB-uniform at the 10⁻⁵ class — giving Λ's
+  smallness qualitatively for free.
+- **The perturbations door** (entry 165 addendum): the textbook zero-point mode sum —
+  **the famous door, and the diagnosis of the famous disaster**: the 10¹²⁰ catastrophe is
+  what that door yields when opened *while denying the medium* — fluctuations read
+  without the equilibrium that cancels them. In the medium, the bulk of the mode sum is
+  cancelled by the equilibrium identity; **the residual = the modes still
+  out-of-equilibrium** — the same deviation the other two doors name. The registered
+  neutrino tie (ρ_Λ^{1/4} = m_ν,lightest = 2.25 meV; the lightest quasiparticle setting
+  the floor's quarter-power; post-hoc flag standing) is this door's sharper artifact.
+
+**The demand this section adds (inherited by the thermal program):** the three residuals —
+the Gibbs–Duhem deviation, the residual fountain excitation, the un-cancelled mode sum —
+**must be one number.** A confirmed three-way mismatch beyond stated widths is a place to
+dig (the three-door guideline; a diagnostic, not an executioner). Menu-watched, not read:
+Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
+near-coincidence, unclaimed.
+
 ## 5. Falsification conditions
 
 (i) the running α_c measurement lands > 2σ from 3α (the triangle loses a leg);
@@ -99,4 +133,4 @@ computation failing to sustain k ≈ 1.36 unravels the hierarchy leg.
 [Planck 2018] (the measured ρ_Λ); Volovik, *The Universe in a Helium Droplet*
 (vacuum-as-condensate precedent); [Sakharov 1967] (the induced-action ancestry).
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md); derivation chain: the internal hunt
-log, entries 6–7 and 38.
+log, entries 6–7, 38, and the thermal-door arc (140, 165 + addendum).

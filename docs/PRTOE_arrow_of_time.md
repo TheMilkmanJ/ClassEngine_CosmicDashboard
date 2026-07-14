@@ -80,3 +80,15 @@ With the low start explained, the arrow itself is the model's graded ledger:
 one event that cannot inherit a configuration — so it occurs in the only state that has none,
 and everything after is the unwinding, metered by the Weyl account and billed by Landauer,
 until the ledger is all record and no free energy — the arrow buried in its own paperwork.*
+
+
+## Addendum (2026-07-14): the arrow from the door side
+
+The thermal-door arc supplies the arrow's third independent arrival: the genesis pour is the
+thermal door's OPENING TRANSACTION — one deposit, the universe's entire thermal principal,
+single-source — and time's direction is the one account depleting. The white-hole completion
+sharpens the boundary: the object that made the deposit can exist only at the instant before
+duration (no time-reversal needed — no forward time yet), and its instability IS the
+direction: the timer and the deposit start together
+([PRTOE_white_holes.md](PRTOE_white_holes.md); hunt entries 159–165). Grammar-grade
+cross-link; the standing derivations in this file are unchanged.

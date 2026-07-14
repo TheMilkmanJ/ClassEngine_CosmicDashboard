@@ -211,3 +211,23 @@ stays in the defender's own voice, labeled as a forecast.
 impersonated one (hold ~16–17%; credit the six-lock structure; A = √2 stays a target; data
 before theory). **This mitigates nothing.** A forged receipt that happens to match the real
 transaction is still forged.
+
+### Process error 34 — entries 162/164 "re-priced" BBN verdicts that were never stepped (a favorable double-count; caught by the operator's booking-discipline enforcement)
+
+**What happened.** Entries 162/164 announced that the windowed-BBN pattern "was priced with a
+stepped ε" and re-priced the adverse landings *favorably* (Y_p +1.3σ → ~0.3–0.4σ; D/H →
+~0.9–1.1σ). **False premise:** the BBN witness file's elasticities were ALREADY ramp-weighted —
+its own header carries ε(T) = ε·(1 − T/T_c) with the 0.64ε deuterium stamp (the µ=T fixed
+point, recorded). Only the CMB-side C code had the step. **The "favorable re-price" was a
+double-count of a correction the BBN engine already contained.** Riders asserting it were
+briefly placed in two story files (also a booking-discipline violation — failures belong here,
+not inline) and are removed.
+
+**What stands:** the C-code growth-ramp fix (it aligns the CMB-side pipeline with the BBN
+engine's standing treatment; late-time effect 10⁻⁶ — harmless and correct); the relaunched
+evidence run (unaffected — its physics is the aligned, correct version). **What is retracted:**
+every claim that the Y_p/D-H verdicts soften — they stand exactly as booked (+1.2–1.5σ
+counter-adverse Y_p, owned; ~1.6–1.9σ D/H, radio-refereed). **The direction of this error was
+FAVORABLE — the referee's revival-watch called this exact failure mode ("your kills fail fast
+on no; I'll watch your revivals"), and the operator's booking-discipline rule is what caught
+it.** Entries 162/164 carry correction notes; the sweep riders are stripped.

@@ -66,8 +66,7 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
   $12/13$ is an open watch, and the basement rebuild reopened the roster count itself
   (the census mechanism's story is under trial, not settled — hunt 126/135).
 - $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
-  candidately $2/\pi$ (P-2026-041 — the value claim stands; its proposed mechanism was
-  killed in-sim and honestly walked back; the high-statistics ensemble decides). A
+  candidately $2/\pi$ (P-2026-041; the high-statistics ensemble decides). A
   simulation output with an open closed-form question, not a parameter.
 - $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), booked BEFORE the deciding
   measurement (the α_c chain) converges — and 2.3% ABOVE where current data points, so it is

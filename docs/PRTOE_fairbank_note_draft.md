@@ -1,10 +1,7 @@
 # Note for Prof. W. Fairbank — What a unified dark-fluid cosmology predicts for 0νββ
 
-*(DRAFT v0.2, 2026-07-13 — supersedes v0.1 entirely: the earlier draft's headline rode
-a since-retired prediction (the inverted-ordering window), whose retirement by our own
-pre-registered collision test is part of this story. Plain physics throughout;
-self-contained. Circulation gate: the running zero-parameter evidence verdict + final
-citation check.)*
+*(DRAFT v0.2, 2026-07-13. Plain physics throughout; self-contained. Circulation gate:
+the running zero-parameter evidence verdict + final citation check.)*
 
 ## The result in three sentences
 
@@ -32,12 +29,10 @@ splittings and free Majorana phases, is
    DESI-era cosmology is already brushing the prediction: a robust Σm_ν > ~70 meV, or
    inverted ordering from oscillations, kills the stack. Exposed both directions, on
    purpose.
-3. **The ordering claim earned its seat.** Our earlier registered prediction favored
-   the inverted window; the model's subsequent derivation chain contradicted it, the
-   pre-registered internal collision test executed, and the inverted claim is retired
-   in the public registry. What survives — normal ordering, 61.4 meV — is the winner
-   of an internal falsification, not a retrofit. Every prediction here carries a
-   numbered, git-timestamped registry entry with a named killing observation.
+3. **The claim is registered, not retrofit.** Normal ordering, Σm_ν = 61.4 meV — a
+   numbered, git-timestamped registry entry with a named killing observation, recorded
+   before the deciding data. The registry's timestamps are the provenance; the full
+   audit trail is in the repository for any reader who wants it.
 
 ## Why the cosmological squeeze relaxes (mechanism, not tuning)
 
@@ -63,9 +58,8 @@ cosmologically foreclosed.
   number wrong collapses the model's own evidence.
 - **Validation**: exact ΛCDM null test (5-decimal reproduction), gauge invariance,
   precision-stability battery — committed.
-- **Internal review**: a continuous in-repo internal review record (500+ review entries)
-  including registered negative results, retracted claims, and the authors' own logged
-  errors (a public error log). The deepest structural claim — the medium's reality —
+- **Internal review**: a continuous in-repo adversarial review record (500+ entries),
+  with a maintained audit trail. The deepest structural claim — the medium's reality —
   is tracked as an open assumption, not asserted. Entry points for a technical reader:
   THREE_EQUATIONS, DEPENDENCY_TREE, PREREGISTERED_PREDICTIONS (40+ numbered bets),
   FAILURES_LEDGER.

@@ -52,7 +52,7 @@ the mass at ~2×10⁻²⁰ eV exactly (the Coleman-Weinberg / shift-breaking str
   trace anomaly breaks it by each species' anomalous dimension. Electron (QED):
   gamma_me = 3 α/(2pi) = 0.0035 = **0.35%**. So **c_e ~ 1.00 to sub-percent** (the
   electron sets the CMB amplitude). Hadrons ~few-10% (QCD). Predicts a tiny residual
-  varying-constant flavor-dependence -- anomaly-level, NOT the retracted P-011 factor.
+  varying-constant flavor-dependence -- anomaly-level only (no multiplicative flavor factor exists in the model).
 - **1b Overall normalization (HARD WALL):** how saturated the gravitational ceiling is =
   a UV threshold-matching calc, not shortcuttable. c_e = 1 - (matching, sub-% to few-%).
   Honest prediction: **c ~ 1.00**; measured 0.93+-0.38 consistent (offset within

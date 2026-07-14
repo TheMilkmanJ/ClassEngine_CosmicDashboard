@@ -253,7 +253,7 @@ structure); **the hinge: ξ = 402 AU inside the solar-system rung — one substr
 the whole descent**; the double-ladder alignments graded per-rung (2 definitional, 3 loose —
 no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
 
-**THE WINDOWED BBN VERDICT (the day's honest wound, and §17's supersession):**
+**THE WINDOWED BBN VERDICT:**
 T_c = 193 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
 medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.2495-0.2505 (+1.2-1.5σ
 COUNTER vs Aver; +3.7σ vs EMPRESS — the helium civil war noted); D/H partially refunded

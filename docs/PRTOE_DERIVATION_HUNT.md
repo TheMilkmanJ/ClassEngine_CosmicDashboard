@@ -6162,7 +6162,7 @@ the next era — the anisotropic heat kernel (p = 5/8 target), the pair suscepti
 60 MeV bar), the RG resummation (the T_c band + the fork), the second-sound/isocurvature lane,
 the stiffness ceiling. The spicy side, opened deliberately instead of stumbled into.
 
-## ENTRY 162 — THE CODE-DOOR MAP (the operator's synthesis) + **the thermal program's first concrete finding: the coded ε turn-on is a step where the order parameter says RAMP**
+## ENTRY 162 — ~~the thermal program's first concrete finding~~ **CORRECTED BY PROCESS ERROR 34**: the CMB-side C code had the step (fix valid, retained); **the BBN engine was ALREADY ramped — the re-price claims below are VOID** (the witness file's own ε(T) = ε(1−T/T_c) header; the operator's booking-discipline enforcement caught it)
 
 **The operator's synthesis, verified against the manifest:** the C code paints two doors —
 the background (w_dcdf, dcdf_rho_rad, the floor/thaw) and the perturbations (the second-order
@@ -6255,7 +6255,7 @@ opening balance of the only thermal account there is.** Every thermal-program qu
 integrates forward from one deposit. Grammar grade; confirmation of recorded structure; the
 single-source boundary condition is the usable content.
 
-## ENTRY 164 — DELIVERABLE #0 RUN (estimate grade, executed): **the growth ramp re-prices the BBN window FAVORABLY and the mean-field form is self-justified by the painted doors; the C-code fix is specified**
+## ENTRY 164 — ~~the growth ramp re-prices the BBN window favorably~~ **RETRACTED (process error 34): the BBN engine already carried the ramp — this entry's re-price was a favorable DOUBLE-COUNT.** The C-code fix and the mean-field validity certificate STAND (they align the CMB side with the BBN engine's standing treatment); the verdicts stand as originally booked
 
 **The exposure-weighted ε through the abundance windows** (mean-field ramp ε(T) = ε₀(1−T/T_c),
 T_c = 193 keV; EXECUTED values — a 0.42 typo in the first booking corrected same-session,
@@ -6280,3 +6280,144 @@ window's hard edge (`varying_z_high`) becomes the order-parameter growth ramp �
 condensate turning on as the pour's deposit cools through T_c, instead of a switch pretending
 the birth was instant. Implementation + PRyM/chain re-runs = the heavy half, queued into the
 thermal program; the spec and the estimate are on the books first, per the pre-commit rule.
+
+## ENTRY 165 — THE FOUNTAIN EFFECT CLOSES ITS OWN LOOP (the operator's clarified mechanism): **"the condensate attracts to heat" is textbook two-fluid physics — and the still-settling version restates the booked Λ story from the thermal door**
+
+*The operator's clarification: not new heat pouring — the field is STILL EXCITED from the one
+injection; the superfluid stays attracted to heat until the source reaches absolute zero; the
+spreading heat touches ever more condensate (the growing sphere), sustaining the draw.*
+
+**1. The mechanism is real and already carries the corpus's own name.** In two-fluid
+hydrodynamics the superfluid component flows TOWARD heat while the normal component carries
+entropy away — thermal counterflow, **the FOUNTAIN EFFECT** (the literal reason heated
+superfluid helium fountains). The corpus named genesis "the heat fountain" from the start;
+the operator has now supplied the fountain's *defining physics* without having been told it
+existed. One correction filed: the driver is the temperature DIFFERENCE (∇T / the deviation
+from the condensate's own zero), and the endpoint — uniformity with the T = 0 ground state —
+is approached asymptotically (the third-law ramp): "until absolute 0" is right, as a limit.
+
+**2. The still-settling version IS entry 140's Λ, arriving through the thermal door.** Entry
+140 (Gibbs–Duhem): the observed Λ = the medium's small DEVIATION FROM EQUILIBRIUM — the
+drawdown. The operator's "still bubbling, still attracted, not yet settled" is that same
+statement in fountain grammar: late-time expansion's driver = the residual excitation of the
+condensate from the one injection, vanishing only as T → 0. **Two doors, one Λ — the
+consonance is the content.** And the smallness comes free: today's residual gradients are
+CMB-uniform (10⁻⁵-class), so the residual drive is tiny — a small Λ from a nearly-settled
+medium, qualitatively the right size ordering.
+
+**3. The fences PASS in this version:** no new heat injection (FIRAS null respected); no
+gravitating-pressure conflict (the driver is the medium's own relaxation, not radiation
+pushing); and the surface-area growth ("the bigger sphere touches more") is
+acceleration-shaped — consonant with late-time acceleration at grammar grade, with the
+quantitative driver staying the booked floor. **Grammar grade; the identification "the
+floor's deviation = the residual fountain excitation" is a nameable candidate for the thermal
+program — not banked; the program's Λ-side computation would grade it.**
+
+### Entry 165 addendum — the third door to Λ (the operator's question): **it exists, it is the FAMOUS one, and the model already holds both of its pieces**
+
+**The perturbations-door reading of Λ is the textbook zero-point mode sum** — add up the
+quasiparticle vacuum energies. Read WITHOUT the medium, that door yields the 10¹²⁰ disaster
+(the cosmological constant problem). **The model's reading:** the mode sum is enormous AND
+cancelled — not species-by-species (entry 140: str[1] = −68, the roster cannot pay) but by
+the medium's equilibrium identity (Gibbs–Duhem); **the residual = the modes still
+out-of-equilibrium = the same deviation the other two doors name.** So the standard
+cosmological constant problem gets a diagnosis: *it is the price of opening the perturbations
+door of a medium while denying the medium* — reading the fluctuations without the equilibrium
+that cancels them.
+
+**The model's sharper perturbations-door artifact is already registered:** the neutrino tie
+ρ_Λ^{1/4} = m_ν,lightest = 2.25 meV (spine §6 — the lightest quasiparticle's mass setting the
+floor's quarter-power; shared-scale, post-hoc flag standing, value un-derived).
+
+**THREE DOORS, ONE Λ — the guideline's demand now fully populated:** background (the
+Gibbs–Duhem deviation, entry 140), thermal (the residual fountain excitation, entry 165),
+perturbations (the un-cancelled mode residual + the m_ν tie). The consistency demand the
+thermal program inherits: the three residuals must be ONE number. Noted without banking:
+Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature (0.235 meV) — the known cosmic
+near-coincidence, menu-watched, not read.
+
+## ENTRY 166 — THE MISSING BIRTH RAMP AT THE CLASS LEVEL (the operator's H₀ question): **the 73 door is NOT closed — the candidate is the pour's settle-in as growing dark radiation, and it is the v6 triad's own front arriving with a mechanism**
+
+*The operator: "have we double-checked we can't hit H₀ = 73? If the first formation was a
+white hole, there's an ENTIRE ramp missing from the H₀ readings — the ramp started later
+than it should have. The same lesson, applied at the CLASS C-code level."*
+
+**The residual is real:** the coded mechanism delivers 69.9; SH0ES wants 73.0 — the +3.1 gap
+is booked as owned by "the v6 triad / systematics / the unfound."
+
+**The candidate, made concrete (executed estimate):** if the dCDF's radiation-like youth is
+coded as ALWAYS-ON where the white-hole birth says it RAMPED IN (the pour's settling — the
+medium's early excitation decaying into the radiation-like component), the missing piece is
+**extra early radiation that GROWS toward recombination**. Closing +3.1 km/s needs
+**ΔN_eff(recombination) ≈ 0.5–0.8** (at the standard 4–6 km/s per unit). With the growing
+shape the corpus already carries (the v5 file's ΔN_eff ∝ a_x/a_eq structure), **the BBN
+value is 10⁻⁶-class — the Y_p fence passes by orders** (this is what killed every flat-N_eff
+rescue; the ramp shape is what makes this one legal at BBN).
+
+**THE WALL, stated before anyone celebrates:** Planck's high-ℓ damping tail caps
+**free-streaming** ΔN_eff at ≲ 0.34 — below the needed 0.5–0.8. The out, and it is
+class-specific: a **fluid/self-interacting** component carries no free-streaming phase shift
+and evades much of that cap — **and the medium's own excitations are exactly the fluid
+class.** So the candidate lives or dies on its class, which the model does not get to choose:
+the medium's excitations are what they are.
+
+**FILED AS THE THERMAL PROGRAM'S H₀ ITEM (pre-registered shape, not coded, not banked):**
+the birth ramp at the CLASS level = a fluid dark-radiation component ρ_x with the settle-in
+growth shape, amplitude a *derived* target (the pour's settling rate — the same single-source
+account), required to land ΔN_eff(rec) ≈ 0.5–0.8 AND pass the Planck fluid-class fit. Kill
+conditions inherited: the damping-tail fit itself; any BBN leakage; the three-door Λ
+consistency (the same residual excitation cannot be spent twice — the Λ identification and
+the H₀ ramp draw on one account, and the books must show both withdrawals). *Estimate grade;
+upside direction — revival-watch rules apply; the referee gates it.*
+
+## ENTRY 167 — THE BISCUIT'S FIRST BITE (executed, thermo-grade): **H₀ = 73.0 with the acoustic scale PRESERVED at ΔN_fluid ≈ 0.26 — under the free-streaming cap even before the fluid-class relief**
+
+*(The operator's launch order on entry 166. CLASS's built-in interacting-dark-radiation
+(idr, fluid nature) used as the birth-ramp component's stand-in — no new C code for the
+first shot.)*
+
+**Executed:** in the model's own pipeline (ε window active), θ_s is preserved at
+**H₀ = 73.0 with ΔN_idr ≈ 0.26 (fluid)** — verified by direct scan (the pipeline's lever
+runs ~12 km/s per unit N, stronger than the 4–6 lore). **0.26 sits BELOW the ~0.34
+free-streaming Planck cap before the fluid class's phase-shift relief is even invoked.**
+
+**GRADES, kept apart from the number:** this is the θ_s constraint only — the first peak's
+angle. The full likelihood (damping tail, peak heights, BAO, ω_m shifts) is the real judge
+and is NOT run; the flat-idr stand-in also ignores the growing shape (BBN legality needs it;
+our CMB stack carries no BBN likelihood, so the stand-in is legal for THIS test). The
+double-spend fence (one residual account funding Λ and this) stands unresolved. **Filed as:
+the door is open at thermo grade with margin; the full fit is the thermal program's shot;
+nothing banked.** Upside direction — revival rules; the referee gates.
+
+## ENTRY 168 — THE STALE-BAND FLAG (the operator's timing point): **the registered thaw band (w₀, wₐ) is a PRE-POUR derivation — if the birth-ramp radiation is adopted, the whole late-time clock re-prices and the band must be re-derived BEFORE any DESI grading**
+
+*The operator: "it's not about whether the ramp directly touches late time — the ramp gives it
+the correct timing to START. The band you're quoting is pre-thermodynamics."*
+
+**The mechanism, executed:** the birth-ramp radiation (entry 167's ΔN_fluid ≈ 0.26) raises
+ω_r ×1.035 → **z_eq shifts −3.4%** (−6.4% at ΔN = 0.5) — and every equality-anchored timing
+downstream moves with it: the growth history, the turnaround arithmetic, the thaw's a³
+normalization, hence the projected apparent (w₀, wₐ). **The registered thaw band
+(−0.92…−0.86, −0.2…−0.5) was derived on the pre-pour clock. The operator's point stands.**
+
+**THE LEGAL STRUCTURE, so no grading gets contaminated:** the running conv_desi/routeD chains
+sample the REGISTERED model (no birth-ramp component) — their DESI verdict grades that
+branch, and stays legal for it. **IF the birth-ramp component is adopted (the thermal
+program's full-fit shot), the thaw band must be RE-DERIVED under the birth clock and
+pre-registered BEFORE comparison to DESI** — never tuned after reading the contour. Filed as
+the thermal program's DESI-side item, paired with its H₀ item (one component, both ends of
+the clock, one derivation). *The pour rewrote the first chapter; this entry books the fact
+that the last chapter's page numbers shifted with it.*
+
+## ENTRY 169 — THE POUR RUN, REGISTERED BEFORE LAUNCH: the birth-ramp evidence run (full stack, SH0ES-anchored, ΔN_fluid = 0.26 LOCKED)
+
+**The operator's order, exact:** lock in the birth ramp and run the SH0ES-anchored evidence
+configuration WITH it — every dataset, the pour in the physics. **Registered before the
+verdict, per the house law:** config = cmp_prtoe_pour_shoes.yaml (the frozen SH0ES stack +
+N_idr = 0.26, fluid — the θ_s-preserving value from entry 167's executed scan; the amplitude
+is the biscuit's number, NOT yet derived from the pour's settling rate — that derivation
+remains the thermal program's, and this run is the phenomenological ranging shot). Output:
+cmp_prtoe_pour_ev. **What it grades:** whether the birth-ramp model earns its evidence
+against the full SH0ES-anchored stack — the ΔlnZ that lands is the POUR BRANCH's, distinct
+from the registered pre-pour branch (whose DESI-side chains continue untouched and grade
+their own physics). Two branches, two verdicts, no contamination.
