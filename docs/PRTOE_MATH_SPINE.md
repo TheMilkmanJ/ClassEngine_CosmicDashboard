@@ -76,7 +76,7 @@ The electron Coleman–Weinberg backreaction on the charge-free field (m_e(φ) =
 
 > V_CW = −(1/16π²)·m_e(φ)⁴·[ln(m_e(φ)²/μ²) − 3/2] → tachyonic curvature → radiative SSB
 > **VEV: v = m_e0·[ε(L−1)/4π²]^{1/4} ≈ 100 keV** (81/102/121 keV for L−1 = 2/5/10; ±25%, robust)
-> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (leading-log unstable
+> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted 193 keV sits inside every version; leading-log unstable
 > near the flat direction; RG resummation = the working docket).
 
 The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded internal review).
