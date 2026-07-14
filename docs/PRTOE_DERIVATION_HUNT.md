@@ -6761,3 +6761,29 @@ A detection of chirality in a resolved binary kills the model; a detection of ch
 the primordial background, with resolved events clean, is the settling story's fingerprint.
 The θ·R·R̃ coefficient (still owed) sets the SGWB amplitude — the reopened row keeps its
 decisive unknown, now aimed at a channel instead of a shrug.
+
+## ENTRY 183 — THE DIMMER (the operator's reading of the freeze, seated + executed): **the role-reversal was already in the joint table, and the shutdown has a computed width — z ≈ 32 down to z ≈ 4, a decade-wide dimmer centered on 12**
+
+*One direction-flip corrected in the seating: the pour era is HIGH z (genesis side), the
+freeze at z ≈ 12, today z = 0 — the operator's narrative direction was right, the z-labels
+inverted; noted, not laundered.*
+
+**The role-reversal he describes — "the pour ran one way, then the fluid became the
+outflow" — is the joint table's own rows:** pre-freeze, the DRAIN runs deviation → dust
+(the settling depositing its ash); post-freeze, the SHED runs dust → dark radiation (the
+late outflow, g = 0.12, the atlas's matter-to-space channel). **The table held the reversal
+before the story named it.** (The outflow is dark radiation, not visible light — the atlas's
+channel, honest label.)
+
+**THE DIMMER, EXECUTED — his "no instant shift" is the freeze's own arithmetic:** Γ/H ∝
+(1+z)^{5/2} through the matter era, so the switch passes from biting (Γ/H = 10) to
+effectively off (Γ/H = 0.1) across **z ≈ 32 → z ≈ 4 — a decade-wide dimmer centered on
+12, never a step** (the depth law satisfied by the mechanism itself). The dimmer's tail
+(z ≈ 4–12) is where any residual settling would leave a small w-deviation — placed in an
+era where dark energy is subdominant: **quiet by placement, and a named target if future
+data ever reaches w(z) at the percent level in that range.**
+
+**Honest edge:** the 12 itself remains the inverted number (from T_f = 2.25 meV) — the
+operator's "it got cool enough" is the freeze condition read aloud, not a derivation of 12;
+the attractor/√N session still owns that. *The dimmer switched off once and was never
+touched again — and the model can now say how long the fade took.*
