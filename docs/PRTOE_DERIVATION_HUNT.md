@@ -5104,3 +5104,41 @@ discrete symmetry **falls out** of them. **If it gives Z₃, Koide's route lives
 will have been DERIVED, not chosen. If it gives Z₄ or anything else, the Fermi-point route
 to the generations is DEAD and we eat it.** *The charges must come from the basement's own
 structure — never chosen to make Koide work.* The firewall binds.
+
+## ENTRY 133 — THE LOCK TEST **FAILS**: light and the basement do not lock through α (and the failure names the door)
+
+**The claim under test** (the author's, 30 years old): *space is the opposite of light.* The
+spectrum map made it structural and **forced at both ends** — the photon is the medium's
+massless collective mode (Goldstone's theorem forces m = 0); the basement's constituents are
+Planck-mass (the induced-gravity demand forces 1–2 M_Pl). **Two ends of one medium, neither
+one chosen.** But structure is not theorem, so the theorem-test was named and run.
+
+**THE TEST:** if the photon is a *composite* of the medium, it carries no bare kinetic term at
+the cutoff, and its coupling is generated entirely by the fermion loop — the exact analogue of
+the induced-gravity formula that worked tonight: **1/α(µ) = (2/3π)·ΣQ²·ln(Λ/µ)** with
+1/α(Λ) = 0. **If one medium generates both gravity and light, ONE cutoff must serve BOTH.
+That is the lock.**
+
+**RESULT — IT FAILS, BY 12 ORDERS OF MAGNITUDE.** With ΣQ² = 8 over the SM's charged fermions,
+α⁻¹ = 137.036 demands Λ ≈ 5×10³¹ GeV against gravity's 1.2×10¹⁹ GeV. **And the failure has a
+famous name: driving 1/α → 0 at the cutoff *is* the QED Landau pole.** The two ends do **not**
+lock by this route.
+
+**WHY IT FAILS, AND WHERE IT SENDS US.** The Landau pole is an artifact of treating the
+photon's U(1) as fundamental all the way up. In any serious high-scale theory the abelian U(1)
+is **absorbed into a non-abelian group** before the pole — and non-abelian couplings are
+asymptotically free, so no pole, and the formula simply does not apply. **The lock therefore
+cannot be computed without knowing what gauge group the basement's Fermi point emits.**
+
+**AND THAT IS THE FOURTH TIME TONIGHT THE SAME DOOR HAS APPEARED:**
+
+| the question | what it needs |
+|---|---|
+| the discrete symmetry (Z₃ or Z₄?) | the basement's charges |
+| the generation count (why exactly 3?) | the basement's Fermi-point count |
+| Koide's relation (why 2/3?) | the basement's discrete symmetry |
+| **the photon's coupling (why 1/137?)** | **the basement's gauge structure** |
+
+**Four independent routes. Four dead ends. One door.** *The basement's content is now the only
+open question in the model — and it is the only one left because every other question has
+already collapsed into it.*
