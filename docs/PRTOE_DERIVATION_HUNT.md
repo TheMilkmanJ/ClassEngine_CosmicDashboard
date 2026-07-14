@@ -6436,3 +6436,29 @@ thermal = the settling scale (the thermal program's to compute). **The consisten
 sharpens from an adjective to three numbers that must converge — and two of the three are
 already within 24% of each other.** The Λ file corrected; the door taxonomy fixed at the
 frame level.
+
+## ENTRY 171 — THE QUANTUM TRIO AT THE THREE DOORS (the operator's catch): **superposition, entanglement, tunneling ARE the three doors' faces at the micro scale — the mapping was already recorded in pieces, never seated**
+
+*The operator: "You know what else falls out of those same doors, and we never looked?
+Superposition, Entanglement, Tunneling."*
+
+**The corpus already held the trio on the pair** (the three-in-one, entry 79-class:
+superposition = the pair's u+v coherent existence; entanglement = the (k↑, −k↓) twin
+correlation; tunneling = the phase slip). **What was never done is seat them at the doors —
+and they seat 1:1:1, without forcing:**
+
+| door | cosmological face | quantum face |
+|---|---|---|
+| background (the mean field) | expansion, the floor | **SUPERPOSITION** — the condensate's coherent amplitude IS a macroscopically superposed state (ODLRO) |
+| perturbations (the modes) | structure, the spectra | **ENTANGLEMENT** — the twin correlations, the two-point functions; a Cooper pair is an entangled state by construction |
+| thermodynamics (the rates) | the thermal history | **TUNNELING** — the phase slip, an activated rate (the anneal's own Γ-vs-H arithmetic was thermal from the start) |
+
+**The consonance, stated at its honest grade:** the three doors are not cosmology-specific —
+they are the readout channels of a condensate at ANY scale, and the same medium shows the
+same three faces on both floors: micro (the pair's three behaviors) and macro (the universe's
+three sectors). One object, three windows, two magnifications. **Grammar grade; zero new
+predictions; the fence holds by construction** (this is the SAME three doors on the same
+medium at two scales — a structural identity, not a numeric coincidence, so the menu-density
+rules have nothing to bite). The usable content: the quantum-mechanics files' three
+phenomena now carry their door addresses, and any future thermal-program result on the
+tunneling/rate side speaks to BOTH floors at once.
