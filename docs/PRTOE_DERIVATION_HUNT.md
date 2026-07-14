@@ -6593,3 +6593,24 @@ honest next target; (ii) **the thermal door freezes on different physics entirel
 76 ≈ Σm_ν proximity was the menu (the watch already holds it as post-hoc). **Adverse first
 pass, filed as it landed; the neutrino-sector convergence stays on the coincidence watch,
 now with one closed channel and one named open one.**
+
+### Entry 176 ramp completion (the operator's standing catch, eighth firing): **the coherent channel, RAMPED instead of deferred — and the requirement lands at p = 0.507, 1.3% from the shot-noise exponent, with v_L inside the registered corner**
+
+**Step 1 (found, moot):** the rate denominator was a point (m vs T spans ~2.5 orders — cannot
+touch 22; stated). **Step 2 (found, decisive):** the coherent successor was *named* and not
+*walked*. Walked: the coherence cell (ξ = 402 AU) holds **N_coh = 7.3×10⁴⁹ neutrinos**;
+ramping the enhancement N^p over p ∈ [0, 1] (incoherent → fully coherent), the required
+enhancement lands at **p = 0.507 — 1.3% from exactly ½.** And p = ½ is not a menu slot: it is
+**the shot-noise scaling** — a condensate coupling to the bath's *density fluctuation*
+δn ~ √N, the fluctuation–dissipation channel (the perturbations door supplying the thermal
+door's coefficient — the doors again, this time in the arithmetic).
+
+**The forward chain, stated with both its assumptions visible:** IF the settling friction is
+the √N fluctuation coupling AND v_L = 3.4 MeV (inside the registered corner [0.1, 1000] MeV,
+beside benchmark A's 5 MeV — a resident, not an import), THEN Γ₀ = 76 meV and the thermal
+door's freeze-out lands **Λ^{1/4} = 2.25 meV.** Two assumptions, both motivated, neither
+derived; two inversions deep in provenance (76 from 2.25; v_L from 76) — **flagged as such.
+CANDIDATE MECHANISM, not banked:** what promotes it is deriving the √N coupling from the
+condensate–bath interaction (a real, hard, named computation) and v_L from the seesaw grid;
+what kills it is either landing elsewhere. Entry 176's adverse verdict on the TREE channel
+stands unchanged — the coherent channel is a different animal, and it is alive.
