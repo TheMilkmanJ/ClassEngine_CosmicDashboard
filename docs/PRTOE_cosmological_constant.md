@@ -107,7 +107,16 @@ consistency structure applied to its most famous problem:
   self-consistency O(1)s; the turnaround-timing corner). **This is the only door with a
   NUMBER on the table — and it was sitting in the background sector unconnected to this
   frame until the operator asked which door the VALUE question was missing.**
-- **The thermal door — the residual's dynamics** (hunt entry 165): the condensate is **still settling from the one
+- **The thermal door — the residual's dynamics** (hunt entries 165/175–183): the candidate
+  chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
+  would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
+  neutrino bath (the medium's only tree-level coupling; the friction turns on where
+  free-streaming turns off), and the freeze — Γ = H at T_f — lands at z ≈ 12 with a
+  decade-wide fade (z ≈ 32 → 4): **w = −1 exact through the observable range, untuned; the
+  settling's ash banks as dark matter (the drain, the fluid's own dust face); the frozen
+  residual is Λ.** Candidate grade throughout: the attractor/√N session is the doubly
+  load-bearing promotion computation (the coupling exponent AND the drain magnitude from one
+  calculation). The original statement stands beneath it: the condensate is **still settling from the one
   genesis injection** — thermal counterflow (the fountain effect, the corpus's own
   genesis name) persists while any deviation from the T = 0 ground state remains, dying
   only asymptotically (the third law's ramp). The residual excitation of a nearly-settled

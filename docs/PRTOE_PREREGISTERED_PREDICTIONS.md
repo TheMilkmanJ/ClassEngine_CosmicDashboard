@@ -2169,3 +2169,24 @@ dispersion chain (independent, running) and the isocurvature second-sound speed 
 OWED — no data yet). **The bet's status is 040-A's, unchanged: a bare numerical bet, graded
 by the chain; the second-sound signature is a future second instrument, not a present one.
 No convergence exists to claim until at least two independent readings exist.**
+
+## P-2026-047: The GW Parity Split — clean resolved events, chirality confined to the primordial background (registered 2026-07-14; hunt entries 181–183)
+
+**The claim:** the model's parity-odd GW channel was active only in the pre-freeze era
+(z ≳ 12; the settling's shutdown is a decade-wide fade, z ≈ 32 → 4). Therefore:
+(i) **every resolved gravitational-wave event has standard, chirality-free polarization** —
+LIGO/Virgo/KAGRA binaries, LISA massive binaries, PTA-resolved sources, all epochs z ≲ 10;
+(ii) any parity violation lives **only in the primordial stochastic background** (paths
+crossing z > 12), with amplitude set by the θR R̃ coefficient (open computation;
+break-threshold coeff·θ̇ ~ 10¹⁰ H₀ on resolved paths — unreachable post-freeze).
+
+**Kills:** (i) a confirmed chirality/amplitude-birefringence detection in ANY resolved GW
+event; (ii) the θR R̃ coefficient computation landing large enough to violate the resolved
+bound even at post-freeze θ̇ (the model then predicts its own dead switch leaking — fatal).
+**Honest flags:** the freeze epoch (z ≈ 12) is currently the inverted number of the thermal
+chain (the attractor session owns its derivation); the coefficient is the open decisive
+unknown; the primordial-background side is a CHANNEL claim, not an amplitude claim, until
+that computation lands.
+
+---
+*External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*

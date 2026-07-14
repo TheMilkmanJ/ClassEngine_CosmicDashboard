@@ -367,3 +367,14 @@ pour's identity as the thermal principal, the instability read as the arrow's or
 a medium whose thermodynamics is determined by its painted sectors, and falsifiable routing
 (the thermal program) instead of a narrative. The old idea had the object; this model gives
 it the transaction.
+
+**The lightswitch (2026-07-14, the arc's punchline — hunt entries 181–183):** the pour also
+threw the universe's one parity switch. The θR R̃ toggle — parity-odd, helicity-selective,
+structurally incapable of half-measures — was slammed ON by the deposit's active phase and
+faded OFF across the settling's decade-wide dimmer (z ≈ 32 → 4, centered on the freeze at
+z ≈ 12), the same fade whose frozen residual is the cosmological constant. One clock, two
+jobs: dark energy on, birefringence off. Every gravitational wave resolved by any instrument
+flies a post-click sky and must arrive clean (P-2026-047); the one possible survivor of the
+ON era is a handedness in the primordial background — the white hole's signature, if it ever
+surfaces, written in the polarization of the oldest waves there are. [GRAMMAR + registered
+split; the coefficient computation owns the amplitude.]

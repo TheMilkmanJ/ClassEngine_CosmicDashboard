@@ -51,6 +51,29 @@ strain-scale sits below PTA sensitivity — the GW sector neither rescues nor th
 dyad. The model's GW ledger: one computed silence, one signed chirality, one deep prong, zero
 current tensions.
 
+## 4. The lightswitch — the parity channel's biography and the SPLIT prediction (2026-07-14; hunt entries 181–183)
+
+The parity-odd coupling θR R̃ is a TOGGLE by construction (parity-odd terms flip, they do not
+dial) and its action on a passing wave is helicity-selective — one circular polarization
+amplified, the other damped. The model's history throws that switch exactly once: the genesis
+pour turns it ON (the active-θ̇ era); the settling FADES it off across a decade-wide dimmer,
+z ≈ 32 → 4, centered on the freeze at z ≈ 12 — **the same event whose frozen residual is the
+cosmological constant: one clock, two jobs — dark energy on, birefringence off.** The
+residual θ̇ today (the swirl, 10⁻² H₀) leaves every band 12+ orders below instrument reach.
+
+**THE SPLIT PREDICTION (registered; the channel's falsifiable cash):**
+
+- **every RESOLVED gravitational-wave event arrives with clean polarization** — all
+  resolvable sources (LIGO z ≲ 2, LISA z ≲ 10, PTA z ≲ 1) lie entirely on post-freeze
+  paths; **a confirmed chirality in any resolved binary kills the model**;
+- **parity violation, if it exists anywhere, is confined to the PRIMORDIAL stochastic
+  background** — the one channel whose paths cross the ON era; chirality there, with
+  resolved events clean, is the settling story's fingerprint. Its amplitude is set by the
+  θR R̃ coefficient — the open computation, with the break-threshold priced
+  (coeff·θ̇ ~ 10¹⁰ H₀).
+
 *The medium hums too quietly for the pulsars to hear, wears its one preferred handedness
 wherever parity is for sale, and keeps its strangest room — the inside of a black hole —
-below the depth where the ringing has yet reached. A specific silence is still a signature.*
+below the depth where the ringing has yet reached. A specific silence is still a signature —
+and this one comes with a biography: the universe flicked the parity switch once, at birth,
+and the dimming of that click is the dark energy that now carries every wave home clean.*
