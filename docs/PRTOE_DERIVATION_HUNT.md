@@ -6736,3 +6736,28 @@ closed" is RETRACTED to "null at one corner; the coefficient calculation — the
 unblock — remains the decisive unknown."** The parked row reopens with its unblock restored,
 now sharpened by the break-threshold number. The registered model-killer converts to a
 conditional: it arms IF the coefficient computation confirms the suppression.
+
+## ENTRY 182 — THE OPERATOR'S BRAKE: **the freeze that arms the accelerator disarms the birefringence — the null splits into a discriminating prediction**
+
+*The operator: "the brake for birefringence is the same accelerator for expansion." Checked
+and it closes entry 181's dangerous corner with the model's own settling story:*
+
+**The mechanism:** the birefringence driver is θ̇ — the winding phase's activity — and the
+µ-scale θ̇ (the corner that could break the null) is the PRE-freeze deviation's activity. The
+settling freeze at z ≈ 12 — **the very event whose residual IS the accelerator (Λ)** — is the
+shutdown of that activity: post-freeze, θ̇ = the residual swirl (10⁻² H₀). **One event, two
+jobs (the two-jobs law again): it turns dark energy ON and turns the birefringence OFF.**
+
+**The executed source census:** every resolvable GW source — LIGO binaries (z ≲ 2), LISA
+massive binaries (z ≲ 10), PTA supermassive backgrounds (z ≲ 1) — lies entirely on
+post-freeze paths. **The µ-scale corner cannot touch any resolved event; the resolved-event
+null is DOUBLY protected** (the corner arithmetic of 181 + the operator's brake). The one
+channel that samples the active epoch: **the PRIMORDIAL stochastic background** (paths
+crossing z > 12).
+
+**THE SPLIT PREDICTION (the upgrade — a null becomes a discriminant):** *silence in every
+resolved GW event's polarization, with any parity violation confined to the primordial SGWB.*
+A detection of chirality in a resolved binary kills the model; a detection of chirality in
+the primordial background, with resolved events clean, is the settling story's fingerprint.
+The θ·R·R̃ coefficient (still owed) sets the SGWB amplitude — the reopened row keeps its
+decisive unknown, now aimed at a channel instead of a shrug.
