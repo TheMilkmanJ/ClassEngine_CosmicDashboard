@@ -6232,3 +6232,25 @@ program by structure, not by choice.
 Koide's Q = 2/3 is a mass ratio in family space. Same digits, different rooms — the standing
 category firewall applies. *Grammar grade; zero new predictions; the localization of the
 thermal program's action (early windows + relics) is the usable content.*
+
+### Entry 163 second addendum — THE POUR'S IDENTITY (the operator's snap): **the white hole poured HEAT — genesis is the thermal door's opening transaction, and every piece was already on the books separately**
+
+*The operator: the white hole dumped radiative heat; the ghost condensate rushed it, boiled,
+coiled, fountained, twisted — KNOCK — snap.*
+
+**The map, piece by recorded piece:** the pour = **the confined heat fountain** (blueshifted
+crunch radiation — spine §1, verbatim: radiative heat); the rush/boil/coil = **the roll-up
+into the helical vortex ring** (B1's formation physics); the twist = **the re-seeded heirloom
+axis**; the SNAP = **the phase-slip freeze-out** (the quantization event — n locks when the
+slip rate falls below H). The ghost-at-zero meeting the deposit-at-maximum is entry 159's
+thermal split. **The new content is the identification itself: genesis IS the thermal door's
+opening transaction — the white hole's deposit is the universe's entire thermal principal,
+and everything since (entry 163's spending) is the drawdown of that one account.** The arrow
+of time = the single-source account depleting (the recorded Past-Hypothesis-by-uniqueness,
+arriving from the door side).
+
+**The usable consequence for the thermal program:** its boundary condition is single-source —
+**the ceiling (the deposit's temperature, the stiffness ceiling's owed computation) is the
+opening balance of the only thermal account there is.** Every thermal-program quantity
+integrates forward from one deposit. Grammar grade; confirmation of recorded structure; the
+single-source boundary condition is the usable content.
