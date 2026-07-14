@@ -6182,3 +6182,30 @@ growth ramp** — direction and size owed, NOT asserted. Filed as the thermal pr
 code-facing deliverable #0: replace the hand edge with the derived order-parameter ramp,
 re-run the BBN window, and let the pattern re-grade itself. *The model asked for its heat; the
 first thing the heat says is that our own edge was a step wearing a exemption it may not own.*
+
+## ENTRY 163 — THE COMPLETION BET (the operator's): **the two painted doors determine the third — thermodynamics is not new freedom, it is the spectrum's consequence.** Adopted as the thermal program's METHOD
+
+*The operator: "the 2/3 that we HAVE painted paints the 3rd one for us perfectly — in order for
+those 2 doors to get their full answer, they NEED #3 in there."*
+
+**The precedent is exact and canonical: Landau's helium.** He derived the superfluid's entire
+thermodynamics — C_V, entropy, the normal fraction — FROM the excitation spectrum (the
+phonon–roton curve): the partition function is built from the modes. **If the background
+(mean field, EOS) and the perturbations (dispersions, quasiparticle spectrum) are painted,
+the thermodynamics FOLLOWS. The third door is not blank canvas — it is the determined door.**
+
+**The receipts already in hand — tonight unknowingly operated this way:** T_c came from
+m_e0 + ε (painted inputs); the Ginzburg number from λ_eff from κ = ε/v² (painted); the growth
+ramp from the order parameter (painted); B2's winding-gas C_V from the compact-axis modes
+(painted). **Not one thermal quantity computed this era required a new knob.**
+
+**ADOPTED AS THE THERMAL PROGRAM'S METHOD (guideline grade, per the operator's standing
+correction — a rule of procedure, not a law of nature):** every thermal quantity must be
+assembled from the two painted doors' objects — the coded dispersions, the coded EOS, the
+derived couplings. **A thermal quantity that cannot be built without a new knob is not a
+parameter to add — it is a FINDING (missing physics flagged), and the flag files before any
+knob does.** The falsifiable edge the bet carries: if the determined door, computed honestly
+from the painted two, contradicts the thermal data (the BBN window, the isocurvature bounds),
+there is nowhere to hide — no thermal dial exists to absorb it. The operator's bet makes the
+thermal program the most exposed computation the model has ever run — which is exactly its
+value.
