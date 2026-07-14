@@ -6209,3 +6209,26 @@ from the painted two, contradicts the thermal data (the BBN window, the isocurva
 there is nowhere to hide — no thermal dial exists to absorb it. The operator's bet makes the
 thermal program the most exposed computation the model has ever run — which is exactly its
 value.
+
+### Entry 163 addendum — THE SPENT DOOR (the operator's completion): **heat isn't the missing door — it's the FIRST-USED one, and its spending funded the other two**
+
+*The operator: "heat was ALREADY used. It is NO LONGER needed... 3 was probably the very first
+thing that got used and mixed with everything else as it cooled off" — and: "it's cooling OFF,
+not turning ON."*
+
+**The reading, and its true core:** the three doors take turns dominating cosmic history —
+the radiation era (thermal door sovereign), the matter era (perturbations building sizes),
+the Λ era (background/expansion sovereign). **Heat is the first currency spent, and its
+spending IS the other two doors' funding**: the cooling transfers the thermal content into
+structure (binding unlocks as T falls — entry 137's sequence) and into expansion (the
+redshifted bath). Today's universe is heat-depleted — **which is WHY the two-door C code fits
+late-time data**: the thermal door's dynamics are largely finished; what remains of it is
+(a) the EARLY windows — BBN, T_c, the recombination-era edges — exactly where every thermal
+debt on the board lives, and (b) the RELICS — the isocurvature/second-sound channel as
+fossilized heat (the pour's sound). The thermal program is therefore an EARLY-UNIVERSE
+program by structure, not by choice.
+
+**One fence, stated before anyone trips on it:** "2 of 3 doors get used" is a door-count;
+Koide's Q = 2/3 is a mass ratio in family space. Same digits, different rooms — the standing
+category firewall applies. *Grammar grade; zero new predictions; the localization of the
+thermal program's action (early windows + relics) is the usable content.*
