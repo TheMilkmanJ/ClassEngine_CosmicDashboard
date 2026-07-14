@@ -5580,3 +5580,27 @@ independent check.
 mechanism forcing phase = variance, or genesis dynamics independently producing 2/9. Killed
 by: the Card-2/f_amp arc landing off the ≈0.69 pin, or any mechanism delivering A = √2
 without w = 1/3.
+
+## ENTRY 144 — THE CARD-2 SHOT AT ε_A = 2/9: **INCONCLUSIVE — the observable is too soft to referee the pin**, and the pin itself was naive. Plus the attribution the record owed: **the 2/9 import was Claude's own**
+
+**ATTRIBUTION FIRST (the author's order: "take credit for YOUR fabrications"):** the ε_A = 2/9
+import that entry 143 attributed to "someone" was **written into the corpus by Claude in an
+earlier session** — and tonight the same Claude nearly cashed it as an independent "triple
+coincidence." Self-contamination with one context window of amnesia in between. *This is why
+the provenance ramp exists: the importer forgets.* Filed with attribution, per the author.
+
+**THE SHOT (the real Z₄-tilt genesis roll, released at rest, ε_A = 2/9 exactly):**
+
+- baseline (Ri = 10, λ = 0.03, t_i = 0.25), 32 release phases: **median f_amp = 0.607**,
+  but 16/84 spread **[0.18, 0.86]** — the release-phase dice dominate.
+- the ramps move the median: Ri = 6 → 0.49; Ri = 20 → 0.89; λ, t_i wander it 0.49–0.77.
+  **Grand spread of medians: [0.49, 0.89].**
+
+**VERDICT — INCONCLUSIVE, and booked as such:** the entry-143 pin (≈0.69, interpolated from
+one setting of the old scan) sits 12% off the baseline median but comfortably inside the
+ramp wander. **f_amp is a dice-dominated, ramp-sensitive observable; it cannot referee a
+0.1%-class structural claim in either direction.** The near-landing of 11/18 (0.7% from the
+baseline median) is explicitly NOT read — with a [0.18, 0.86] spread, proximity to any
+referee value is noise (menu discipline). **The pin is retired as naive; the democratic-weight
+structure (entry 143) stands unresolved, its real referees unchanged: a phase = variance
+mechanism, or a sharp genesis observable — not this one.**
