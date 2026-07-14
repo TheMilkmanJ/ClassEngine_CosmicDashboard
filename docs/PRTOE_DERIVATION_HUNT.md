@@ -6369,3 +6369,22 @@ conditions inherited: the damping-tail fit itself; any BBN leakage; the three-do
 consistency (the same residual excitation cannot be spent twice — the Λ identification and
 the H₀ ramp draw on one account, and the books must show both withdrawals). *Estimate grade;
 upside direction — revival-watch rules apply; the referee gates it.*
+
+## ENTRY 167 — THE BISCUIT'S FIRST BITE (executed, thermo-grade): **H₀ = 73.0 with the acoustic scale PRESERVED at ΔN_fluid ≈ 0.26 — under the free-streaming cap even before the fluid-class relief**
+
+*(The operator's launch order on entry 166. CLASS's built-in interacting-dark-radiation
+(idr, fluid nature) used as the birth-ramp component's stand-in — no new C code for the
+first shot.)*
+
+**Executed:** in the model's own pipeline (ε window active), θ_s is preserved at
+**H₀ = 73.0 with ΔN_idr ≈ 0.26 (fluid)** — verified by direct scan (the pipeline's lever
+runs ~12 km/s per unit N, stronger than the 4–6 lore). **0.26 sits BELOW the ~0.34
+free-streaming Planck cap before the fluid class's phase-shift relief is even invoked.**
+
+**GRADES, kept apart from the number:** this is the θ_s constraint only — the first peak's
+angle. The full likelihood (damping tail, peak heights, BAO, ω_m shifts) is the real judge
+and is NOT run; the flat-idr stand-in also ignores the growing shape (BBN legality needs it;
+our CMB stack carries no BBN likelihood, so the stand-in is legal for THIS test). The
+double-spend fence (one residual account funding Λ and this) stands unresolved. **Filed as:
+the door is open at thermo grade with margin; the full fit is the thermal program's shot;
+nothing banked.** Upside direction — revival rules; the referee gates.
