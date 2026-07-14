@@ -14,7 +14,7 @@ If the dark matter is a condensate of quanta with mass m, every galaxy is litera
 **gravitational atom**: a self-bound quantum system with a ground state (the central soliton —
 "the 1s orbital"), an excited spectrum (the granule/halo structure), and a binding scale set by
 the gravitational coupling. This is standard fuzzy-DM structure — the model's additions are
-(i) the mass is RECORDED, not tuned per-galaxy (m = 2.24×10⁻²⁰ eV, the H=m onset value now being
+(i) the mass is RECORDED, not tuned per-galaxy (m = 2.24×10⁻²⁰ eV — carrying the roster-trial conditionality of its pin, hunt entry 145 — the H=m onset value now being
 MEASURED by the α_c chain), and (ii) the grammar is the same one that derived the cosmic floor
 (the Bohr×BEC skeleton of internal review).
 

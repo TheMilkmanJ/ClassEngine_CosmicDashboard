@@ -5604,3 +5604,40 @@ baseline median) is explicitly NOT read — with a [0.18, 0.86] spread, proximit
 referee value is noise (menu discipline). **The pin is retired as naive; the democratic-weight
 structure (entry 143) stands unresolved, its real referees unchanged: a phase = variance
 mechanism, or a sharp genesis observable — not this one.**
+
+## ENTRY 145 — THE PROVENANCE SWEEP (the author: "You haven't fabricated anything else, have you?" → "Run the sweep"): **no new fabrications found; one MAJOR stale receipt; two labeling debts**
+
+**Scope:** the math spine (the registry of pinned constants) walked row by row; each constant
+chased to its receipt (measured / derived / fitted / assumed); suspects cross-grepped to their
+origin sites and the code.
+
+**THE VERDICT ON FABRICATIONS: none found beyond the known ε_A = 2/9 import** (entry 144).
+The spine's tag discipline ([DERIVED/INPUT/STORY/PENDING]) is real and mostly honest: ρ_inf is
+labeled INPUT; the shed's g = 0.12 labeled fitted; the λ-ceiling derived; the α_c^N mass-cascade
+already quarantined; genesis labeled STORY. **The catches are stale receipts and unmarked
+conditionality — a different disease than invention, but the same symptom: a number wearing
+more confidence than its receipt buys.**
+
+**FLAG 1 (MAJOR — fixed): the dCDF mass's receipt cites the EXCLUDED c = 1.** The spine pinned
+m = 2.24×10⁻²⁰ eV "from ε and c=1" while itself recording, ten lines later, that c = 1 was
+excluded and c = 9/10 is under trial vs 12/13. The pin scales as c⁴: **9/10 → m = 1.47×10⁻²⁰
+(0.66×); 12/13 → 1.63×10⁻²⁰.** The children re-price with it: **ξ (the 402 AU hinge → ~610 AU
+at 9/10, a 52% move), T(H=m)/z_on (−19%), the SMBH-atom anchors.** Not a physics error — an
+unmarked conditionality in the registry, now marked at the spine and at the two "recorded"
+citation sites (galactic atoms; black holes). **The roster trial's stakes just grew: it now
+also owns the mass pin and the hinge.**
+
+**FLAG 2 (labeling — fixed): ξ = 402 AU rides TWO open numbers** (m's trial conditionality and
+α_c = 3α's bet status) while the scale ladder presents it flat. Rider added at the healing-length
+formula.
+
+**FLAG 3 (incomplete receipt — flagged in place): the 553 km/s fence.** √(c²·f_lep·ε₀) gives
+779 km/s for pure-H f_lep and 729 with the Y_p = 0.25 mix; landing on 553 requires an
+additional composition/virial factor ≈ 0.5 that is not stated where the number lives. The
+arithmetic is plausibly fine; **the convention is owed a written receipt.**
+
+**CLEAN ROWS (receipts verified as labeled):** the ε stack (conditional labels correct after
+entry 139); T(H=m) = 9.41 keV (identity, code-matched 1.002×); the VEV/T_c band (derived, with
+the log-instability and the 193 keV re-audit already flagged); Σm_ν (registered); Ψ₀
+(arithmetic); λ ≤ 2×10⁻⁹¹ (derived); Γ/H = √3 (discharged one-pager); f_lock (simulation);
+δ, A (measured, entry 142); the retired numbers (n = 19, 12π) staying retired.

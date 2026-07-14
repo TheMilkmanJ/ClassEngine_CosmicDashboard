@@ -48,7 +48,7 @@ readings — A (thermal, global) or B (environmental, tracking local clumping). 
 the gate is a smooth, steep curve in local density, fenced four independent ways (the
 forest's observed flatness, the SN host-density range, P-2026-022's fade profile, and
 the composition-cliff invariant of entry 84 — the swing's fixed potential step
-ΔΦ = c²f_lep·ε₀ = (553 km/s)² exceeds real halo potentials, so the gate must swing at
+ΔΦ = c²f_lep·ε₀ = (553 km/s)² (the f_lep composition convention behind 553 is owed a stated receipt — pure-H gives 779; audit, hunt 145) exceeds real halo potentials, so the gate must swing at
 void/supercluster boundaries, not around individual galaxies) — one curve, four fences,
 three skies. A-versus-B is registered (the 21-cm edge shape decides) and
 controls both the dark-ages signal and the supernova channel. The laboratory, Oklo, and

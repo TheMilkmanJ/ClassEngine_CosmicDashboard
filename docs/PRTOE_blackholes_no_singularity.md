@@ -23,7 +23,7 @@ Sakharov-induced action; the Jacobson thermodynamic kit — the assembled QG fra
 a "legitimate emergent/analog-gravity model"). An emergent metric is only defined where the
 collective description holds — for gradients longer than the **healing length**
 
-    ξ = ħ/(m c_s),   with m = 2.24×10⁻²⁰ eV (recorded) and c_s = √α_c = 0.146 (derived)
+    ξ = ħ/(m c_s),   with m = 2.24×10⁻²⁰ eV (recorded; roster-trial-conditional, hunt 145) and c_s = √α_c = 0.146 (α_c = 3α is a registered bet — ξ rides two open numbers)
 
     **ξ = 6.0×10¹³ m = 402 AU = 0.0064 ly.**
 

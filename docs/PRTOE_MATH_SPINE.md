@@ -18,7 +18,10 @@ mechanism, not a derivation · [PENDING] computation named, not run.
 One dark superfluid, two components (the two-field split):
 
 * **Field 1** — the dcdf fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
-[DERIVED from ε and c=1: c(m) = (m/2.24×10⁻²⁰ eV)^{1/4}].
+[DERIVED from ε via c(m) = (m/2.24×10⁻²⁰ eV)^{1/4} **at c = 1 — a value the census EXCLUDED;
+the pin is therefore CONDITIONAL on the open 9/10-vs-12/13 roster trial** (c = 9/10 → m =
+1.47×10⁻²⁰ eV; 12/13 → 1.63×10⁻²⁰), **and its children re-price with it**: ξ (402 → ~610 AU at
+9/10), T(H=m)/z_on (~−19%), the SMBH-atom anchors. Provenance audit, hunt entry 145].
 * **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
 δm_e. (The Majoron/lepton-sector identity: tree coupling σNN → neutrinos; the charged-lepton
 portal is a UV assumption [PENDING #30].)
