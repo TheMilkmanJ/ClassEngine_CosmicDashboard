@@ -6121,11 +6121,20 @@ mandatory.** The corpus has been collecting exactly these joints without naming 
 the A_s reconciliation ("the thermal amplitude and the census bookkeeping are one object,
 joined at the pour scale"); the response-function session (one function, two limits, one
 locked ratio — the Kubo shape); the ε concordance network (fit / stack / joint); the onset
-clock's identity (background ↔ code). **Named now as the law-class observation: THE
-THREE-DOOR LAW — every quantity of the medium must be computable through all three doors and
+clock's identity (background ↔ code). **Named now — AMENDED SAME NIGHT by the operator's ruling: NOT a law. Too many laws have bitten;
+this is a GUIDELINE (his words: a suggestion we can follow) — THE THREE-DOOR GUIDELINE — every quantity of the medium must be computable through all three doors and
 agree, because the doors are one room. In ΛCDM cross-door agreement is bookkeeping; here it
-is a THEOREM of the identity, and every cross-door joint is a standing kill condition:** one
-confirmed three-door mismatch on any quantity — a thermal reading that contradicts its
-perturbative twin beyond the joints' stated widths — kills the medium picture itself, not
-the sector. The identity network's "strains would expose illegal tuning" clause was this law
-working incognito. *Grammar-law grade; zero new numbers; the kill class is the content.*
+is a THEOREM of the identity, and the joints are DIAGNOSTIC, not executioners** — the
+operator's amendment: the kill-switch phrasing is RETRACTED (the seventh premature-kill reflex
+this era, caught by him again); a cross-door strain is a place to LOOK, not a trigger. *The
+guideline's real use, per the operator: run it as a SURVEY — and the survey's first read is
+loud:* **the mean-field door and the quasiparticle door are fleshed; the THERMAL door is the
+under-built one — and every heavy debt on the board lives there** (the anisotropic heat
+kernel; the pair susceptibility above T_c; the RG resummation; the constituent-gap condition
+≳ 60 MeV — a thermal spectral statement; the Ginzburg window; the stiffness ceiling). The
+model has been pointing at its own heat side. One candidate the survey surfaces immediately:
+a superfluid's hallmark thermal mode is SECOND SOUND (temperature/entropy waves, the
+two-fluid signature) — cosmologically that channel is the ISOCURVATURE sector, and the corpus
+already holds P-031 (the pour's sound at ℓ ~ 170): **the identification "the medium's second
+sound = the isocurvature channel" is named as the thermal door's first new lane** — candidate
+grade, unbanked, computable. *Guideline grade; zero new numbers banked.*
