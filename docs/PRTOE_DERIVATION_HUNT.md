@@ -6099,3 +6099,33 @@ new falsifiable content — the atom reading (§10) arriving from the thermal si
 is coherence: the ghost/shop split, the receipt theorem, the m² = 0 exit, and now the
 entropy split all assign the SAME two families the SAME two jobs from four independent
 directions. Filed as confirmation, not discovery; nothing banked.
+
+## ENTRY 160 — THE THREE DOORS (the operator's observation): **the trio itself is standard; the FORCED AGREEMENT of the three is the medium's signature — and the corpus has been collecting the receipts without naming the law**
+
+*The operator: every formula has arrived three ways — thermodynamically, perturbatively,
+through the background — and the model only ever applies itself through those same three
+doors. "These 3 doors are screaming at us."*
+
+**THE DEFLATION FIRST (the firewall the observation needs):** every cosmology has these three
+sectors — background evolution, perturbation theory, thermal history. ΛCDM has all three. The
+trio's existence is the structure of the subject, not of this model. **And the doors' 3 is
+NOT the family 3** — linking them would repeat the Z₄-phase/Z₃-family category error; flagged
+and fenced.
+
+**THE FIND (what IS the model's):** in ΛCDM the three doors are *stitched* — three separate
+ingredients that need not deeply agree. **In a medium theory they are three readings of ONE
+object**: the background is the condensate's mean field; the perturbations are its
+quasiparticles; the thermodynamics is its statistical mechanics. For a real medium their
+agreement is not a choice — it is the **fluctuation–dissipation structure, automatic and
+mandatory.** The corpus has been collecting exactly these joints without naming the law:
+the A_s reconciliation ("the thermal amplitude and the census bookkeeping are one object,
+joined at the pour scale"); the response-function session (one function, two limits, one
+locked ratio — the Kubo shape); the ε concordance network (fit / stack / joint); the onset
+clock's identity (background ↔ code). **Named now as the law-class observation: THE
+THREE-DOOR LAW — every quantity of the medium must be computable through all three doors and
+agree, because the doors are one room. In ΛCDM cross-door agreement is bookkeeping; here it
+is a THEOREM of the identity, and every cross-door joint is a standing kill condition:** one
+confirmed three-door mismatch on any quantity — a thermal reading that contradicts its
+perturbative twin beyond the joints' stated widths — kills the medium picture itself, not
+the sector. The identity network's "strains would expose illegal tuning" clause was this law
+working incognito. *Grammar-law grade; zero new numbers; the kill class is the content.*
