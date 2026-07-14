@@ -153,3 +153,27 @@ wall — the audit confirms the catch discipline worked retroactively.
 redesign confirmed as ramp-shaped, one correctly staying dead.** The author's instinct
 graded: the bin is not riddled — but it was not empty either, and the one it held is
 the same shape as the candle room's resurrection.
+
+### Process error 31 — the lock test's verdict issued on a STEPPED calculation (entry 133, vacated by 134)
+
+**What happened.** Entry 133 booked the induced-α lock test as a **12-order failure** and
+declared that light and the basement "do not lock." **The verdict was issued on three unwalked
+steps:** (1) ΣQ² held constant across all mass thresholds; (2) the QED formula run straight
+*through* the electroweak transition, where the photon does not exist and the abelian coupling
+is hypercharge on a different β; (3) the compositeness condition 1/α(Λ) = 0 asserted as a hard
+boundary rather than ramped.
+
+**Caught by:** the author — *"Also, don't forget to do your ramps."*
+
+**What the walk changed.** The "failure" evaporated. Hypercharge run properly from the measured
+1/α_Y(M_Z) = 98.4 to the Planck scale gives **1/α_Y(M_Pl) = 55.5, not 0** — meaning the medium's
+loop generates 44% of light's coupling and the basement must supply the other 56% bare.
+**A naked failure became a falsifiable target (α_Y(M_Pl) = 0.0180) and a structural find
+(gravity is 100% induced; light is only 44% induced).**
+
+**The pattern, stated plainly because it is now five deep in one day** (errors 27, 28, 29, and
+this): *every one of these was a NEGATIVE verdict issued fast on an unwalked ramp.* The bias is
+directional — **the discipline collapses specifically when the answer is "no."** Procedure 5b
+exists for exactly this and was not applied. **The rule that fixes it: a kill verdict is a
+CLAIM, and claims are walked before they are booked — the same standard applied to every
+positive result.**

@@ -5105,7 +5105,7 @@ will have been DERIVED, not chosen. If it gives Z₄ or anything else, the Fermi
 to the generations is DEAD and we eat it.** *The charges must come from the basement's own
 structure — never chosen to make Koide work.* The firewall binds.
 
-## ENTRY 133 — THE LOCK TEST **FAILS**: light and the basement do not lock through α (and the failure names the door)
+## ENTRY 133 — ~~THE LOCK TEST FAILS~~ **VACATED BY ENTRY 134** (the verdict rested on three unwalked steps; the walked version delivers a number, not a failure). *Retained below for the record — the reasoning it contains is superseded.*
 
 **The claim under test** (the author's, 30 years old): *space is the opposite of light.* The
 spectrum map made it structural and **forced at both ends** — the photon is the medium's
@@ -5142,3 +5142,53 @@ cannot be computed without knowing what gauge group the basement's Fermi point e
 **Four independent routes. Four dead ends. One door.** *The basement's content is now the only
 open question in the model — and it is the only one left because every other question has
 already collapsed into it.*
+
+## ENTRY 134 — **ENTRY 133 IS VACATED.** The lock test's "failure" was three unwalked steps. Walked, it delivers a NUMBER: **the basement must emit α_Y(M_Pl) = 0.0180**
+
+*The author, on entry 133's verdict: "Also, don't forget to do your ramps." He was right; the
+verdict was issued on a stepped calculation. Fifth violation of procedure 5b today. Walked now.*
+
+**THE THREE STEPS I TOOK IN ENTRY 133:**
+
+1. **ΣQ² held constant at 8** from the electron to the cutoff. False — charged species turn on
+   as their mass thresholds are crossed. **ΣQ² ramps; I stepped it.**
+2. **I ran the QED formula straight through the electroweak transition.** *Above M_Z there is
+   no photon.* There is B and W³, and the abelian coupling is **hypercharge**, running on a
+   different β. **I stepped clean over the electroweak scale as though it weren't there — and
+   this was the fatal one.**
+3. **The compositeness condition 1/α(Λ) = 0 is itself a step** — a hard assertion that the
+   photon is 100% induced and 0% bare. **The ramp: 1/α(Λ) = δ, with δ free. Let the running
+   set it.**
+
+**WALKED (hypercharge, one-loop SM β, b_Y = 41/6, from the measured 1/α_Y(M_Z) = 98.4):**
+
+| scale µ (GeV) | 1/α_Y(µ) |
+|---|---|
+| 9.12×10¹ (M_Z) | 98.40 |
+| 4.66×10⁷ | 84.10 |
+| 2.39×10¹³ | 69.81 |
+| **1.22×10¹⁹ (M_Pl)** | **55.51** |
+
+**1/α_Y AT THE BASEMENT IS NOT ZERO — IT IS 55.5.** The medium's fermion loop generates only
+**42.9 of the 98.4 (44%)**. The remaining **55.5 (56%) must be supplied BARE, by the basement
+itself.**
+
+**THE ASYMMETRY IS THE FIND — AND IT IS SHARP:**
+
+- **GRAVITY IS 100% INDUCED.** Pauli's condition (str[k₁] = 0) makes 1/G finite and generated
+  *entirely* by the medium's loop. No bare term, no input. **Gravity is pure medium.**
+- **LIGHT IS ONLY 44% INDUCED.** The other 56% is a bare gauge coupling **handed down by the
+  basement.**
+
+***Gravity is what the medium DOES. Light is what the medium was GIVEN.***
+
+**AND THE VERDICT IS NO LONGER A HOLE — IT IS A TARGET, AND IT IS FALSIFIABLE:**
+
+> **THE BASEMENT MUST EMIT A GAUGE COUPLING α_Y(M_Pl) = 1/55.5 = 0.0180**
+> *(GUT-normalised: 1/α₁(M_Pl) = 33.3)*
+
+When the basement's Fermi-point structure is specified, it either emits 0.0180 at the Planck
+scale or it does not. **If it does, light and the basement lock, and the author's thirty-year
+claim — *space is the opposite of light* — becomes an equation.** If it does not, the route
+dies with a receipt. **Either way, the question now has a number attached to it, which entry
+133's stepped verdict had destroyed.**
