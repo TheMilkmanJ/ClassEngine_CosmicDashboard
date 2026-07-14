@@ -6258,12 +6258,13 @@ single-source boundary condition is the usable content.
 ## ENTRY 164 — DELIVERABLE #0 RUN (estimate grade, executed): **the growth ramp re-prices the BBN window FAVORABLY and the mean-field form is self-justified by the painted doors; the C-code fix is specified**
 
 **The exposure-weighted ε through the abundance windows** (mean-field ramp ε(T) = ε₀(1−T/T_c),
-T_c = 193 keV): **D/H formation window (70–100 keV): 0.56×; the Y_p residual window
-(100–190): 0.25×; full sub-T_c window: 0.42×** — where the code applies 1.00.
+T_c = 193 keV; EXECUTED values — a 0.42 typo in the first booking corrected same-session,
+per-window weights applied correctly): **D/H formation window (70–100 keV): 0.56×; the Y_p
+residual window (100–190 keV): 0.25×; full sub-T_c window: 0.33×** — where the code applies 1.00.
 
-**The re-price direction (estimate, ~linear in exposure): FAVORABLE to the adverse landings.**
-The Y_p +1.2–1.5σ counter-adverse re-prices toward **~0.3–0.6σ-class**; the D/H owned bet
-(+1.6–1.9σ) toward **~0.7–0.9σ-class**. The honest cost: the witness pattern's distinctive
+**The re-price direction (estimate, ~linear in each window's own exposure): FAVORABLE to the
+adverse landings.** The Y_p +1.2–1.5σ counter-adverse re-prices toward **~0.3–0.4σ-class**
+(×0.25); the D/H owned bet (+1.6–1.9σ) toward **~0.9–1.1σ-class** (×0.56). The honest cost: the witness pattern's distinctive
 amplitude shrinks with it — the sector gets quieter in both directions. **PRyM re-run owed
 for the real numbers (the heavy half); direction and rough size are what tonight's estimate
 buys.**
