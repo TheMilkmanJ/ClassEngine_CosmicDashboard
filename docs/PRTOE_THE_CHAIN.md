@@ -44,7 +44,7 @@ ordering's first half.
 → **Tether 2→3 [RECORDED, production-grade]:** the handoff observable IS the windowed BBN
 pattern — freeze-out abundances locked pre-condensation.
 
-**3. CONDENSATION, T_c = 193 keV (z ≈ 8.2×10⁸):** the medium condenses mid-BBN (between
+**3. CONDENSATION, T_c = 193 keV (z ≈ 8.2×10⁸):** the medium condenses mid-BBN — and the birth is a RAMP, not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field, Gi ≪ 1 certified; coded into the pipeline 2026-07-14, hunt entries 162/164) — (between
 n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV); pairing forms
 (doubling season); ε ramps ON; the winding current becomes physical.
 → **Tether 3→4 [RECORDED]:** hands off ε(on), the superfluid, the winding k₀ = 2πn/L, and

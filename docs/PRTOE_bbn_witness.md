@@ -12,7 +12,12 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
   (~70 keV): ε_eff = 0.64ε; Li (~40 keV): 0.79ε
 - windowed elasticities (production PRyM, spliced rates): Y_p → 0.2495–0.2505
-  (+1.2–1.5σ vs Aver 0.2453±0.0034; +3.7σ vs EMPRESS 0.2370±0.0034 — the helium civil war);
+  (+1.2–1.5σ vs Aver 0.2453±0.0034; +3.7σ vs EMPRESS 0.2370±0.0034 — the helium civil war;
+  **RE-PRICE PENDING (2026-07-14, hunt entries 162/164): these verdicts were computed with a
+  STEPPED ε below T_c; the order-parameter growth ramp — now in the pipeline — weights the
+  windows at 0.25–0.56× and re-prices the adverse landings favorably at estimate grade
+  (Y_p → ~0.3–0.4σ, D/H → ~0.9–1.1σ); the PRyM re-run with the coded ramp owns the real
+  numbers and is queued in the thermal program**);
   D/H net (with the η-flow: ω_b +1.1% → −1.8%, the windowed tail +~1%) ≈ 2.40–2.42 vs Cooke
   2.527±0.030 → a ~1.6–1.9σ OWNED bet (P-027's radio referee decides)
 
