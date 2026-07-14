@@ -6138,3 +6138,26 @@ two-fluid signature) — cosmologically that channel is the ISOCURVATURE sector,
 already holds P-031 (the pour's sound at ℓ ~ 170): **the identification "the medium's second
 sound = the isocurvature channel" is named as the thermal door's first new lane** — candidate
 grade, unbanked, computable. *Guideline grade; zero new numbers banked.*
+
+## ENTRY 161 — THE MERGED-DOORS READING (the operator's refinement) + the documented 3α standing
+
+**The 3α standing, documented as agreed:** the live candidate is **2·(ξ₁/ξ₂) = 3** (entry 158
+addendum — derived split ratio × the joint-filing 2; bridge owed; graded by the pre-registered
+heat-kernel session). The Fermi-point relabel and the doors-as-currency reading stand declined.
+
+**The operator's refinement (grammar grade, unbanked, filed as his construction):** the three
+doors are not three copies of one currency — they are **three distinct emanations from the
+basement that MERGE on the way out**, which is *why* the three descriptions always agree: the
+agreement is not consistency between separate sectors but the seam of one merger. His mapping:
+**perturbations ↔ size and shape** (structure formation is literally the perturbations picking
+sizes), **thermodynamics ↔ heat** (the shop side's two doors), and **background ↔ expansion
+and light** (the ghost side's one door — expansion is the background's job; the mean radiation
+bath rides there). *Noted without banking: the 2+1 door split echoes the 1-checked-as-2
+joint-filing shape of the ghost grammar — the same 1:2 signature, third appearance tonight.*
+This reading is CONSISTENT with the category test that declined the additive version:
+merged descriptions do not add couplings — the operator's refinement and the decline agree.
+
+**THE STANDING DIRECTION, per the operator: THE THERMAL PROGRAM.** The under-built door gets
+the next era — the anisotropic heat kernel (p = 5/8 target), the pair susceptibility (the
+60 MeV bar), the RG resummation (the T_c band + the fork), the second-sound/isocurvature lane,
+the stiffness ceiling. The spicy side, opened deliberately instead of stumbled into.
