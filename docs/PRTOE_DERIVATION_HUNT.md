@@ -6543,3 +6543,34 @@ active today). **Coincidence-watched as a SHAPE, not banked as a number** — th
 standing category fence. If the basement ever seats them as one, Q = 2/3 becomes "the mass
 spectrum reading its own sector anatomy" — registered as the conjecture's sharpest possible
 form, and left there.
+
+## ENTRY 175 — THE THREE-DOOR Λ SESSION (the operator's order: retry the background, derive the perturbations, start the thermal — all executed):
+
+**DOOR 1, THE BACKGROUND RETRY — the miss was partly my un-walked ramps:** the original 1.71
+was a POINT (a_turn = 1, coefficient = 3/4 exactly). Ramped over the corner's own range
+(a_turn ∈ [1.0, 1.4]) and the coefficient's O(1) band (×[0.5, 2]): **the band is
+[1.22, 2.23] meV — the observed 2.25 sits 1% above the band TOP.** The status upgrades from
+"24% low" to **"reachable at the favorable corner within stated O(1)s"** — the KP solve now
+decides whether the corner is earned (×1.0 needed there) or the center holds (×2.8 needed).
+Not landed; no longer stranded.
+
+**DOOR 3, THE THERMAL START — the settling law has a STRUCTURE and it points somewhere:**
+two-fluid mutual friction with the phonon-gas normal fraction gives Γ = Γ₀(T/T_c)⁴ against
+H → **freeze-out: the residual freezes at T_f with Λ^{1/4} ~ T_f.** Naive anchor (Γ₀ = T_c):
+T_f = 0.056 meV — 40× low, filed plainly. **INVERTED (post-hoc by construction, flagged as
+such): landing 2.25 meV requires Γ₀ = 76 meV — 1.23× the registered Σm_ν = 61.4 meV.** And
+the mechanism-shape exists: the σNN tree coupling makes **the neutrino bath the medium's only
+tree-level friction partner** — the settling's last handshake is with neutrinos, so a
+neutrino-sector anchor for Γ₀ is what the model's own structure predicts qualitatively.
+**The door's next step, named: derive Γ₀ from σNN** (the condensate's mutual friction on the
+ν bath, from the registered coupling) — if it lands 60–80 meV from first principles, the
+thermal door acquires a DERIVED reading and the triangulation gets its second number.
+
+**DOOR 2, THE PERTURBATIONS DERIVATION — attempted, not closed, sharpened:** the tie's only
+mechanism-shaped route remains the shared L-breaking spurion (one scale µ setting both
+m_ν,lightest and ρ_inf^{1/4}); nothing tonight forces the O(1) to be exactly 1, so the tie
+keeps its post-hoc flag. **But the session's pattern is now on the watch: TWO doors
+independently point at the NEUTRINO SECTOR as Λ's home** (the tie at 2.25 = m_lightest; the
+friction anchor at 76 ≈ Σm_ν) — both matches post-hoc individually, both upgradeable by ONE
+derivation (Γ₀ from σNN), which would simultaneously be the spurion route's first physical
+receipt. One computation now serves two doors. Queued at the thermal program's head.
