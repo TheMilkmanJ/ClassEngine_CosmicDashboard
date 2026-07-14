@@ -2160,3 +2160,12 @@ entry exists so the run's outcome can never be retrofitted.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
+
+**AMENDMENT 040-C (2026-07-14 — CORRECTING 040-B's overstatement; the external review's
+catch):** 040-B presented the ε-assembly's indirect band as an independent "third reading."
+**It is not independent** — the band derives from the same data already underlying this bet;
+re-labeling it a door-vote re-counts one measurement. The honest instrument count: the
+dispersion chain (independent, running) and the isocurvature second-sound speed (independent,
+OWED — no data yet). **The bet's status is 040-A's, unchanged: a bare numerical bet, graded
+by the chain; the second-sound signature is a future second instrument, not a present one.
+No convergence exists to claim until at least two independent readings exist.**

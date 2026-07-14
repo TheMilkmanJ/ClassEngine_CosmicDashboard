@@ -6488,7 +6488,7 @@ signature inherits P-040's bare-bet status — a *consequence pairing*, not a ne
 the pair susceptibility (the 60 MeV bar), the RG resummation, the stiffness ceiling, the
 settling law itself. Task 42 updated.
 
-## ENTRY 173 — THE THIRD INSTRUMENT (the operator's catch): **three doors ⟹ three instruments on the SAME α_c — and the background door's reading was already on the books, sitting 2.3% low**
+## ENTRY 173 — ~~the third instrument~~ **CORRECTED (turn 600): the indirect band is the SAME DATA as the bet, not an independent reading — the 'three-reading convergence' was manufactured; the honest count is TWO independent instruments (the chain, running; the second sound, owed). Registry amendment 040-C files the correction**
 
 *The operator, on the second-sound pairing: "There's 3 instruments. 3 doors." Correct — I
 paired two and left the third door's instrument unseated:*
@@ -6535,8 +6535,7 @@ the basement's unpaid bill.*
 
 Koide's Q = 2/3 was already compressed as **Q = 1 − w with w = 1/3, "the democratic weight of
 one seat among three"** (entry 143, the lock-6 candidate structure). "Two on, one off" IS that
-algebra read aloud: the complement of one seat = two of three. **The flash is therefore a
-THIRD independent arrival at w = 1/3** (the family fit; the consistency quadratic; now the
+algebra read aloud: the complement of one seat = two of three. **The flash is a RE-FRAMING of entry 143's registered algebra — elegant, NOT an independent arrival (turn 600's grading, accepted)** (the family fit; the consistency quadratic; now the
 door anatomy) — and the two-of-three SHAPE now shows in three places: Koide's Q, the sector
 anatomy (every sector = 2 doors on, 1 silent), and the spent-door reading (2 of 3 doors
 active today). **Coincidence-watched as a SHAPE, not banked as a number** — the identification
