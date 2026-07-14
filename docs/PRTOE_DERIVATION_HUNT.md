@@ -6016,3 +6016,26 @@ anisotropic trace decides; the ramp converts "unverified" into a quantified reac
 
 *Both first-pass verdicts survive the ramps unchanged in direction — adverse-leaning — and
 both conditions are now numbers instead of adjectives.*
+
+## ENTRY 158 — THE OPERATOR'S CATCH ON PART B: **the "conspiracy" was the model's own standing convention forgotten.** With the ghost filed jointly (×2), exact cancellation lands at p = 5/8 — inside range, clean, and now the PRE-REGISTERED TARGET
+
+*The operator: "We've already went over this, twice now. The ghost side provides only 1 piece
+that gets checked as 2." He is right on the record: the joint-filing convention (entry 99 —
+the twin counted once, filed as two; entry 80 — the twin-doubled roster) is standing law in
+these books, and entry 157's Part B priced the ghost at its naive SINGLE weight — my error.*
+
+**THE RE-RUN (executed, exact fractions):** with the ghost-kinetic term at the joint-filing
+weight, its supply is 2×(3/8) = **3/4 — inside the required range [0.50, 1.17].** The exact
+cancellation condition 7/6 − (2/3)p − 3/4 = 0 solves at **p = 5/8, exactly** — inside [0, 1],
+where the naive-weight version needed p = 1.75 (impossible).
+
+**THE HONEST GRADES, kept separate from the arithmetic:** the ×2 is not new freedom — it is
+the convention the corpus already ruled for the twin sector; using it here is consistency,
+not rescue. But **p = 5/8 is a clean value that currently makes the balance work** — the
+Koide-firewall pattern — so it is **flagged for the menu watch and NOT banked. It converts
+into the pre-registered target: the full anisotropic heat kernel (entry 108's structures)
+must DELIVER the partner projection p = 5/8, or Pauli's balance breaks on the medium's own
+mode.** Part B's lean upgrades from "adverse, needs a non-generic conspiracy" to **"open,
+with an exact, clean, reachable target — pre-registered before the computation runs."** The
+heavy computation now has a number to hit or miss; either way it cannot be argued with
+afterward.
