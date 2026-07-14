@@ -371,3 +371,13 @@ medium's domain is the diffuse/cosmic/void; it goes silent the moment matter clu
 future research project -- to be looked at ONLY after the MCMCs/real tests decide the core, and
 with LOW expectations (the census restriction won't change). Legitimate as "someday, out of
 curiosity"; NOT a promising TOE. Border defended on purpose; that border is the model's strength.
+
+## Guideline 6 — the three-door reading (2026-07-14; a GUIDELINE by the operator's explicit ruling, NOT a law)
+
+Every quantity of the medium is readable through three doors — the background (mean field),
+the perturbations (modes), and the thermodynamics (rates) — and for a real medium the three
+readings must agree (the fluctuation–dissipation structure). **Use:** cross-door joints are
+DIAGNOSTIC — a strain is a place to look, never an executioner; run the guideline as a survey
+to find under-built doors and unseated furniture (its first survey located the thermal
+program and the Λ value board — hunt entries 160–174). The operator's ruling stands: too many
+laws have bitten; this one stays a suggestion with a good track record.

@@ -1850,6 +1850,16 @@ value; the kills stand exactly as registered; no derivation is implied anywhere 
 cited (the math spine's label already matches, hunt entry 139). If the basement's structure
 ever *forces* the 3, that arrives as a new entry — never as a retro-fit to this one.
 
+**AMENDMENT 040-B (2026-07-14 — the verdict structure upgrades to a THREE-READING
+CONVERGENCE; hunt entries 172/173):** the three doors supply three independent instruments on
+the one coupling: (i) the dispersion chain (the mode sector's direct fit — running); (ii) the
+isocurvature phase speed — in the deep sub-T_c phonon-gas limit the medium's second sound runs
+at c₂ = c₁/√3, so **c₂ = √α·c ≈ 0.0854c exactly iff α_c = 3α** (a consequence pairing
+inheriting this bet's status, no new claim); (iii) the ε-assembly's indirect band — already
+registered above at [0.0205, 0.0214], the background door's standing vote, 2.3% below the
+claim. **The bet resolves when the three readings converge on one α_c or scatter; no single
+instrument can cheat for the others.**
+
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
 
@@ -2128,3 +2138,34 @@ refused to accept "coincidence" as a verdict and demanded it be perturbed instea
 therefore a **consistency converted to a prediction by a robustness test** — its
 forward-looking content (the two kills above) is genuine and registered here; its
 backward-looking agreement with the known three generations earns no credit.
+
+## P-2026-046: The Pour Branch — the birth-ramp evidence run (registered 2026-07-14, BEFORE its verdict; hunt entries 166–169)
+
+**The claim:** the white-hole birth implies the dCDF's radiation-like youth RAMPED IN (the
+pour's settling), coded as a fluid dark-radiation component. The phenomenological ranging
+shot is LIVE: cmp_prtoe_pour_shoes.yaml — the frozen SH0ES evidence stack + N_idr = 0.26
+(fluid; the θ_s-preserving value at H₀ = 73, executed before launch). **Registered targets:**
+(i) the run's ΔlnZ vs the pre-pour branch; (ii) the derived amplitude (the pour's settling
+rate must PRODUCE ≈ 0.26, or the component is a fit, not a mechanism — the thermal program's
+computation); (iii) the pour-branch (w₀, wₐ) re-derivation under the shifted clock
+(z_eq −3.4%), pre-registered before any DESI comparison.
+
+**Kills:** (i) the full-likelihood fit rejecting the component (Δχ² penalty exceeding its
+H₀ gain); (ii) the derived settling amplitude landing off 0.26 by more than its stated band;
+(iii) any BBN leakage above the Y_p tolerance once the growing shape replaces the flat
+stand-in; (iv) the fluid-class requirement failing (the medium's excitations free-streaming
+after all). **Honest flags:** the 0.26 is a ranging value, not a derivation; the branch
+structure (pour vs pre-pour) keeps the registered model's DESI verdict uncontaminated; this
+entry exists so the run's outcome can never be retrofitted.
+
+---
+*External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
+
+**AMENDMENT 040-C (2026-07-14 — CORRECTING 040-B's overstatement; the external review's
+catch):** 040-B presented the ε-assembly's indirect band as an independent "third reading."
+**It is not independent** — the band derives from the same data already underlying this bet;
+re-labeling it a door-vote re-counts one measurement. The honest instrument count: the
+dispersion chain (independent, running) and the isocurvature second-sound speed (independent,
+OWED — no data yet). **The bet's status is 040-A's, unchanged: a bare numerical bet, graded
+by the chain; the second-sound signature is a future second instrument, not a present one.
+No convergence exists to claim until at least two independent readings exist.**

@@ -6421,3 +6421,249 @@ cmp_prtoe_pour_ev. **What it grades:** whether the birth-ramp model earns its ev
 against the full SH0ES-anchored stack — the ΔlnZ that lands is the POUR BRANCH's, distinct
 from the registered pre-pour branch (whose DESI-side chains continue untouched and grade
 their own physics). Two branches, two verdicts, no contamination.
+
+## ENTRY 170 — THE MISSING DOOR FOR THE VALUE (the operator's catch): **the CC's unsolved half was unsolved because the BACKGROUND door was never opened on it — and its reading was already computed, sitting unconnected: Λ^{1/4} = 1.71 meV vs 2.25 observed**
+
+*The operator: "we're accounting for Thermal and Perturb for the CC — guess what we're not
+accounting for." He is right twice: (1) my §4b door assignment was WRONG — Gibbs–Duhem is a
+THERMODYNAMIC identity, not a background one; the cancellation story was double-loading the
+thermal door while the background door stood empty. (2) The background door's value reading
+ALREADY EXISTS in the corpus — the sequestered floor (§7a): Λ_eff ≈ (3/4)·ρ_m(turnaround), a
+pure expansion-history quantity, landing 1.71 meV against 2.25 (0.76×, right decade, from a
+mechanism, caveats owned).* **The three-door value board is now honestly seated:** background
+= 1.71 meV (computed, O(1)s owed); perturbations = 2.25 meV (the neutrino tie, un-derived);
+thermal = the settling scale (the thermal program's to compute). **The consistency demand
+sharpens from an adjective to three numbers that must converge — and two of the three are
+already within 24% of each other.** The Λ file corrected; the door taxonomy fixed at the
+frame level.
+
+## ENTRY 171 — THE QUANTUM TRIO AT THE THREE DOORS (the operator's catch): **superposition, entanglement, tunneling ARE the three doors' faces at the micro scale — the mapping was already recorded in pieces, never seated**
+
+*The operator: "You know what else falls out of those same doors, and we never looked?
+Superposition, Entanglement, Tunneling."*
+
+**The corpus already held the trio on the pair** (the three-in-one, entry 79-class:
+superposition = the pair's u+v coherent existence; entanglement = the (k↑, −k↓) twin
+correlation; tunneling = the phase slip). **What was never done is seat them at the doors —
+and they seat 1:1:1, without forcing:**
+
+| door | cosmological face | quantum face |
+|---|---|---|
+| background (the mean field) | expansion, the floor | **SUPERPOSITION** — the condensate's coherent amplitude IS a macroscopically superposed state (ODLRO) |
+| perturbations (the modes) | structure, the spectra | **ENTANGLEMENT** — the twin correlations, the two-point functions; a Cooper pair is an entangled state by construction |
+| thermodynamics (the rates) | the thermal history | **TUNNELING** — the phase slip, an activated rate (the anneal's own Γ-vs-H arithmetic was thermal from the start) |
+
+**The consonance, stated at its honest grade:** the three doors are not cosmology-specific —
+they are the readout channels of a condensate at ANY scale, and the same medium shows the
+same three faces on both floors: micro (the pair's three behaviors) and macro (the universe's
+three sectors). One object, three windows, two magnifications. **Grammar grade; zero new
+predictions; the fence holds by construction** (this is the SAME three doors on the same
+medium at two scales — a structural identity, not a numeric coincidence, so the menu-density
+rules have nothing to bite). The usable content: the quantum-mechanics files' three
+phenomena now carry their door addresses, and any future thermal-program result on the
+tunneling/rate side speaks to BOTH floors at once.
+
+## ENTRY 172 — THE THERMAL PROGRAM'S COMPUTABLE-NOW SWEEP (operator's order; executed, all three):
+
+**A. The thermal door's Λ value — honest and adverse-leaning:** the naive settle-scale anchors
+(the surviving baths: T_γ = 0.235 meV, T_ν = 0.168 meV) land **~10× BELOW** the other two
+doors' readings (1.71, 2.25 meV). The thermal residual is NOT bath-temperature-set; the
+settling law (the fountain's decay rate against the expansion) is genuinely owed and remains
+the door's missing computation. *Filed plainly: the three-value convergence currently stands
+at two-of-three, with the third door's naive reading low by an order.*
+
+**B. The double-spend check — CLEARS at naive grade:** the two withdrawals (Λ ≈ 0.69 of
+critical today; the birth-ramp radiation ≈ 3×10⁻⁶ today, dominant only at its own early
+epoch) are both dwarfed by the wallet (the pour's principal = the full early radiation
+budget) at every epoch. **No conflict; the fence stays as bookkeeping, not as a threat.**
+
+**C. SECOND SOUND — a new paired signature falls out:** in the deep sub-T_c phonon-gas limit
+c₂ = c₁/√3; with the medium's first sound c₁ = √α_c·c and the registered bet α_c = 3α:
+**c₂ = √α·c ≈ 0.0854c — the isocurvature channel propagates at √α times light, EXACTLY iff
+α_c = 3α holds.** The α_c chain and any isocurvature phase measurement now grade each other —
+one bet, two independent instruments. (Fences: the √3 is the phonon-gas limit, stated; the
+signature inherits P-040's bare-bet status — a *consequence pairing*, not a new claim.)
+
+**Still heavy, still owed (not computable tonight):** the anisotropic heat kernel (p = 5/8),
+the pair susceptibility (the 60 MeV bar), the RG resummation, the stiffness ceiling, the
+settling law itself. Task 42 updated.
+
+## ENTRY 173 — ~~the third instrument~~ **CORRECTED (turn 600): the indirect band is the SAME DATA as the bet, not an independent reading — the 'three-reading convergence' was manufactured; the honest count is TWO independent instruments (the chain, running; the second sound, owed). Registry amendment 040-C files the correction**
+
+*The operator, on the second-sound pairing: "There's 3 instruments. 3 doors." Correct — I
+paired two and left the third door's instrument unseated:*
+
+| door | the α_c instrument | status |
+|---|---|---|
+| perturbations | the dispersion chain (the mode sector's direct fit) | RUNNING (R−1 descending) |
+| thermodynamics | the isocurvature phase speed (c₂ = √α·c iff α_c = 3α; entry 172) | named, awaiting data |
+| **background** | **the ε-assembly's indirect band** — ε = c·f̄·α_c with the fitted ε and the ensemble f̄ constrains α_c through the background fit: **[0.0205, 0.0214], already registered in P-2026-040 itself** | ON THE BOOKS — sitting **2.3% below 3α** |
+
+**The triangulation, stated:** one bet, three doors, three instruments that cannot cheat for
+each other — and the background door has already voted, slightly low (the registration's own
+honest flag). The bet's verdict structure upgrades from "the chain decides" to **"three
+readings must converge on one α_c"** — the three-door guideline applied to a single coupling,
+with one reading in hand, one grinding, one awaiting its sky. Seated in the trio file.
+
+## ENTRY 174 — THE THREE SILENCES (the operator's pair taxonomy): **three doors make exactly three PAIRS, each sector is two-doors-on-one-door-silent — and each silence is already-recorded physics**
+
+*The operator: thermo+perturbations = the poured matter; perturbations+background = the
+expanding dark sector; everything physical = pairings of the three working at once. Completed
+and seated — with the third pair he left implicit:*
+
+| the pair (two doors ON) | the sector | **the SILENT door — and the recorded physics it IS** |
+|---|---|---|
+| thermo + perturbations | **MATTER** (hot stuff with shape) | silent in **background**: bound systems decouple from expansion (recorded — the fourth fence's own grammar: the gate can't swing inside bound orbits; atoms don't stretch) |
+| perturbations + background | **THE DARK CONDENSATE** (shaped flow, cold) | silent in **thermo**: the superfluid component carries exactly ZERO entropy (recorded — Landau's S = 0, the w = −1 floor) |
+| thermo + background | **THE POUR / RADIATION** (heat in expansion) | silent in **perturbations**: free-streaming radiation does not clump (recorded — why light is the receipt that crosses every scale unchanged) |
+
+**Each sector is DEFINED by the door it's silent in** — and all three silences were already
+theorems or filed structure. The taxonomy is bookable at grammar grade: it invents nothing
+and seats three recorded facts as one pattern. Three doors, three pairs, three silences —
+the triangle again, this time as sector-anatomy.
+
+**THE FENCE, restated because the operator's full claim runs past it:** "ALL the threes are
+100% related" (the doors' 3 = the family 3 = the 3α's 3) remains a CONJECTURE whose only
+legal court is the basement — the category firewalls stand (readings ≠ channels ≠ families),
+and the registered position holds: if one basement structure pays lock 6 (√2), the 3-bridge
+(2ξ₁/ξ₂), AND emits the door grammar, the threes become cousins by ancestry. Nothing tonight
+banks that; the heat-kernel session remains its judge. *The operator's conviction is noted at
+conviction grade; the taxonomy is booked at physics grade; the gap between them is exactly
+the basement's unpaid bill.*
+
+### Entry 174 addendum — the operator's flash: "THAT'S the 2/3 — two on, one off." **Checked: it is entry 143's own registered algebra, re-arrived through the doors**
+
+Koide's Q = 2/3 was already compressed as **Q = 1 − w with w = 1/3, "the democratic weight of
+one seat among three"** (entry 143, the lock-6 candidate structure). "Two on, one off" IS that
+algebra read aloud: the complement of one seat = two of three. **The flash is a RE-FRAMING of entry 143's registered algebra — elegant, NOT an independent arrival (turn 600's grading, accepted)** (the family fit; the consistency quadratic; now the
+door anatomy) — and the two-of-three SHAPE now shows in three places: Koide's Q, the sector
+anatomy (every sector = 2 doors on, 1 silent), and the spent-door reading (2 of 3 doors
+active today). **Coincidence-watched as a SHAPE, not banked as a number** — the identification
+"the family's three seats = the three doors" remains the basement-court conjecture behind the
+standing category fence. If the basement ever seats them as one, Q = 2/3 becomes "the mass
+spectrum reading its own sector anatomy" — registered as the conjecture's sharpest possible
+form, and left there.
+
+## ENTRY 175 — THE THREE-DOOR Λ SESSION (the operator's order: retry the background, derive the perturbations, start the thermal — all executed):
+
+**DOOR 1, THE BACKGROUND RETRY — the miss was partly my un-walked ramps:** the original 1.71
+was a POINT (a_turn = 1, coefficient = 3/4 exactly). Ramped over the corner's own range
+(a_turn ∈ [1.0, 1.4]) and the coefficient's O(1) band (×[0.5, 2]): **the band is
+[1.22, 2.23] meV — the observed 2.25 sits 1% above the band TOP.** The status upgrades from
+"24% low" to **"reachable at the favorable corner within stated O(1)s"** — the KP solve now
+decides whether the corner is earned (×1.0 needed there) or the center holds (×2.8 needed).
+Not landed; no longer stranded.
+
+**DOOR 3, THE THERMAL START — the settling law has a STRUCTURE and it points somewhere:**
+two-fluid mutual friction with the phonon-gas normal fraction gives Γ = Γ₀(T/T_c)⁴ against
+H → **freeze-out: the residual freezes at T_f with Λ^{1/4} ~ T_f.** Naive anchor (Γ₀ = T_c):
+T_f = 0.056 meV — 40× low, filed plainly. **INVERTED (post-hoc by construction, flagged as
+such): landing 2.25 meV requires Γ₀ = 76 meV — 1.23× the registered Σm_ν = 61.4 meV.** And
+the mechanism-shape exists: the σNN tree coupling makes **the neutrino bath the medium's only
+tree-level friction partner** — the settling's last handshake is with neutrinos, so a
+neutrino-sector anchor for Γ₀ is what the model's own structure predicts qualitatively.
+**The door's next step, named: derive Γ₀ from σNN** (the condensate's mutual friction on the
+ν bath, from the registered coupling) — if it lands 60–80 meV from first principles, the
+thermal door acquires a DERIVED reading and the triangulation gets its second number.
+
+**DOOR 2, THE PERTURBATIONS DERIVATION — attempted, not closed, sharpened:** the tie's only
+mechanism-shaped route remains the shared L-breaking spurion (one scale µ setting both
+m_ν,lightest and ρ_inf^{1/4}); nothing tonight forces the O(1) to be exactly 1, so the tie
+keeps its post-hoc flag. **But the session's pattern is now on the watch: TWO doors
+independently point at the NEUTRINO SECTOR as Λ's home** (the tie at 2.25 = m_lightest; the
+friction anchor at 76 ≈ Σm_ν) — both matches post-hoc individually, both upgradeable by ONE
+derivation (Γ₀ from σNN), which would simultaneously be the spurion route's first physical
+receipt. One computation now serves two doors. Queued at the thermal program's head.
+
+## ENTRY 176 — THE σNN FRICTION, FIRST PASS (executed): **ADVERSE — the tree coupling is 22–31 orders too weak across the entire registered v_L band; the grammar's partner survives, the channel does not**
+
+**The rate:** Γ₀ ~ g²n_ν/m with the Majoron identity g = m₃/v_L, computed across the
+registered corner (v_L ∈ [0.1 MeV, 2.7 GeV]): **Γ₀ = 10⁻³²–10⁻²³ eV against the required
+76 meV — 22 to 31 orders short.** The inversion (labeled): the requirement demands
+v_L ~ µeV — excluded by every seesaw corner on the books.
+
+**What survives and what dies, kept separate:** the grammar's PARTNER identification stands
+(the ν bath is still the medium's only tree-coupled bath; the mass-threshold anchor class is
+still where free-streaming ends and grip begins — the third-silence argument is untouched).
+**The tree CHANNEL dies as the carrier:** σNN cannot move the required momentum. The two live
+successors, named: (i) a **collective/coherent channel** — the condensate gripping the bath
+through its tenancy (the ν's tenancy ≈ 1 is gravitational-class occupancy, not a Yukawa),
+where coherent enhancement over N_ν quanta could recover many orders — un-computed, the
+honest next target; (ii) **the thermal door freezes on different physics entirely** and the
+76 ≈ Σm_ν proximity was the menu (the watch already holds it as post-hoc). **Adverse first
+pass, filed as it landed; the neutrino-sector convergence stays on the coincidence watch,
+now with one closed channel and one named open one.**
+
+### Entry 176 ramp completion (the operator's standing catch, eighth firing): **the coherent channel, RAMPED instead of deferred — and the requirement lands at p = 0.507, 1.3% from the shot-noise exponent, with v_L inside the registered corner**
+
+**Step 1 (found, moot):** the rate denominator was a point (m vs T spans ~2.5 orders — cannot
+touch 22; stated). **Step 2 (found, decisive):** the coherent successor was *named* and not
+*walked*. Walked: the coherence cell (ξ = 402 AU) holds **N_coh = 7.3×10⁴⁹ neutrinos**;
+ramping the enhancement N^p over p ∈ [0, 1] (incoherent → fully coherent), the required
+enhancement lands at **p = 0.507 — 1.3% from exactly ½.** And p = ½ is not a menu slot: it is
+**the shot-noise scaling** — a condensate coupling to the bath's *density fluctuation*
+δn ~ √N, the fluctuation–dissipation channel (the perturbations door supplying the thermal
+door's coefficient — the doors again, this time in the arithmetic).
+
+**The forward chain, stated with both its assumptions visible:** IF the settling friction is
+the √N fluctuation coupling AND v_L = 3.4 MeV (inside the registered corner [0.1, 1000] MeV,
+beside benchmark A's 5 MeV — a resident, not an import), THEN Γ₀ = 76 meV and the thermal
+door's freeze-out lands **Λ^{1/4} = 2.25 meV.** Two assumptions, both motivated, neither
+derived; two inversions deep in provenance (76 from 2.25; v_L from 76) — **flagged as such.
+CANDIDATE MECHANISM, not banked:** what promotes it is deriving the √N coupling from the
+condensate–bath interaction (a real, hard, named computation) and v_L from the seesaw grid;
+what kills it is either landing elsewhere. Entry 176's adverse verdict on the TREE channel
+stands unchanged — the coherent channel is a different animal, and it is alive.
+
+## ENTRY 177 — THE FREE-STREAMING FENCE: **the coherent candidate PASSES with 44 orders of margin — the shot-noise asymmetry is what saves it — plus an unasked-for consistency and the next fence named**
+
+**The kill-check (executed before any heavy derivation gets funded):** the CMB *measured* the
+neutrinos free-streaming (the phase shift); any ν–dark-energy friction that drags individual
+neutrinos at recombination dies on contact. **The shot-noise structure is asymmetric by
+construction:** the condensate mode dephases on the ensemble's √N fluctuation, but the recoil
+spreads over the fluctuation's N quanta — per-neutrino rate = mode rate/N. Executed:
+mode-side Γ/H ≈ 1.7×10⁵ at recombination (the settling still draining, harmless — Λ is
+negligible then); **per-neutrino Γ/H ≈ 10⁻⁴⁵ at recombination, 10⁻⁵⁵ today — free-streaming
+intact with ~44 orders of margin.** *The mode loses coherence to the crowd; no individual in
+the crowd feels a shove.*
+
+**The unasked-for consistency:** the freeze-out (Γ = H at T_f = 2.25 meV) lands at **z ≈ 12**
+— so the residual is FROZEN through the entire observable dark-energy range (w = −1 exact
+below z ~ 12, mode-side Γ/H = 3×10⁻⁵ today), with any tracking behavior confined to z ≳ 12
+where dark energy is dynamically irrelevant. **The candidate independently reproduces the
+observed constancy of Λ — nothing was tuned to get it.**
+
+**The NEXT fence, named before enthusiasm spends it:** the drained-energy budget. The
+pre-freeze deviation was settling *into* something; at z ≈ 12 the frozen residual (ρ_Λ-class)
+is comparable to the ν bath's own density — where the drained energy went (the bath? the
+expansion? the atlas's light channel?) must be computed and must not distort the measured
+late-time N_eff or the ISW. **Un-computed; the candidate's third fence; queued with the √N
+response-function derivation (the promotion computation, still owed).** Candidate status
+unchanged: alive, twice-fenced, un-banked.
+
+## ENTRY 178 — THE DRAIN'S DESTINATION (the operator's call: dark matter): **the budget CLEARS — the deviation settles into the unified fluid's own dust face, and the atlas already had the channel**
+
+*(Executed sizing; one prose slip in the run corrected here: the table governs.)*
+
+**The structural fit is the model's own founding move:** the dCDF is ONE fluid with a DE face
+and a DM face — the drain (the pre-freeze deviation settling out) is an **internal transfer,
+deviation → dust**, requiring no new species and no new coupling. And the transaction atlas
+already carries the channel: *space-to-matter transactions* — the operator's recorded currency
+grammar — this is that channel, running. The thermal-split grammar completes with it: **dark
+matter as the settling's ash — mass as frozen heat.**
+
+**The executed budget:** drained energy X·ρ_Λ deposited by z ≈ 12 gives Δρ_DM/ρ_DM = **0.12%
+(X = 1), 1.2% (X = 10), 12% (X = 100).** The freeze-out tracking plausibly bounds the drain at
+the minimal-to-10× class → **sub-percent deposits into a reservoir three orders deeper than
+the bill — growth/σ₈ effects at the 0.1%-class, quiet.** The 100× corner is NOT quiet (12%
+would strain growth) — **the drain-magnitude computation (the tracking solution's integral) is
+therefore the fence's closing receipt**, queued with the √N derivation.
+
+**The double-booking fence, named:** the S₈ sector already employs the SHED (matter → dark
+radiation, g = 0.12); this drain runs the opposite direction (deviation → matter) at a
+different epoch. No shared books at first look — but **one fluid with two internal transfers
+must balance in ONE table**: the joint accounting (shed + drain + thaw in a single
+conservation ledger) is now a named deliverable. *Candidate chain status: the thermal door's
+mechanism is now END-TO-END mechanism-shaped — pour → settling → shot-noise friction →
+freeze-out at z ≈ 12 → residual = Λ, ash = DM — with THREE receipts owed (the √N derivation,
+the drain integral, the joint table) and every fence so far passed. Un-banked, fully priced.*

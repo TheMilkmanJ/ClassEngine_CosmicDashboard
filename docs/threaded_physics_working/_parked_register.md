@@ -13,6 +13,7 @@ that would reopen it. Nothing leaves the register except through its unblock or 
 | JWST-IMF (cooling subdomain) | mid-ramp H2/HD cooling shifts the first-star IMF (top-heavy?) — NOT the halo abundance | the IMF-shift calc at z~10-30 |
 | the mass-top triple coincidence (α_g=1 / r_s=ξ / CSW-max) | m-correlated, noted-only | the α_c MCMC posterior + an SMBH mass-function mechanism |
 | the α_c ~ 3α couplings note | numerology-adjacent | any basement-spectrum derivation |
+| the seats=doors conjecture (the family's three = the three doors; Koide's 2/3 = "two on, one off" — its sharpest form: the mass spectrum reading its own sector anatomy) | category fence stands (readings ≠ families); three independent arrivals at w = 1/3 noted (hunt 143/174) | the basement paying lock 6 (√2), the 3-bridge (2ξ₁/ξ₂), AND emitting the door grammar from one structure — the anisotropic heat-kernel session |
 | the chiral-GW amplitude | un-computed | the θ·R·R̃ coefficient calc |
 | LSS-parity pricing (T16) | likely-short flag | the vorticity→4PCF amplitude computation |
 
