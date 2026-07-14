@@ -6614,3 +6614,29 @@ CANDIDATE MECHANISM, not banked:** what promotes it is deriving the √N couplin
 condensate–bath interaction (a real, hard, named computation) and v_L from the seesaw grid;
 what kills it is either landing elsewhere. Entry 176's adverse verdict on the TREE channel
 stands unchanged — the coherent channel is a different animal, and it is alive.
+
+## ENTRY 177 — THE FREE-STREAMING FENCE: **the coherent candidate PASSES with 44 orders of margin — the shot-noise asymmetry is what saves it — plus an unasked-for consistency and the next fence named**
+
+**The kill-check (executed before any heavy derivation gets funded):** the CMB *measured* the
+neutrinos free-streaming (the phase shift); any ν–dark-energy friction that drags individual
+neutrinos at recombination dies on contact. **The shot-noise structure is asymmetric by
+construction:** the condensate mode dephases on the ensemble's √N fluctuation, but the recoil
+spreads over the fluctuation's N quanta — per-neutrino rate = mode rate/N. Executed:
+mode-side Γ/H ≈ 1.7×10⁵ at recombination (the settling still draining, harmless — Λ is
+negligible then); **per-neutrino Γ/H ≈ 10⁻⁴⁵ at recombination, 10⁻⁵⁵ today — free-streaming
+intact with ~44 orders of margin.** *The mode loses coherence to the crowd; no individual in
+the crowd feels a shove.*
+
+**The unasked-for consistency:** the freeze-out (Γ = H at T_f = 2.25 meV) lands at **z ≈ 12**
+— so the residual is FROZEN through the entire observable dark-energy range (w = −1 exact
+below z ~ 12, mode-side Γ/H = 3×10⁻⁵ today), with any tracking behavior confined to z ≳ 12
+where dark energy is dynamically irrelevant. **The candidate independently reproduces the
+observed constancy of Λ — nothing was tuned to get it.**
+
+**The NEXT fence, named before enthusiasm spends it:** the drained-energy budget. The
+pre-freeze deviation was settling *into* something; at z ≈ 12 the frozen residual (ρ_Λ-class)
+is comparable to the ν bath's own density — where the drained energy went (the bath? the
+expansion? the atlas's light channel?) must be computed and must not distort the measured
+late-time N_eff or the ISW. **Un-computed; the candidate's third fence; queued with the √N
+response-function derivation (the promotion computation, still owed).** Candidate status
+unchanged: alive, twice-fenced, un-banked.
