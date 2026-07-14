@@ -90,33 +90,32 @@ def bias_profile(parcels, z_r, a_end, v_drift=200.0, nbins=40, smooth=2, H0=70.0
     return cent, bias_pct, mbin, L_Mpc
 
 if __name__ == "__main__":
-    pass
-print("="*78)
-print("B1 v4.1 — bias(observer position): THE PROFILE IS THE RAMP")
-print("="*78)
-rows = []
-for chi in [4.0, 4.75, 5.3]:
-    for ef in [8, 14, 20]:
-        parcels, z_r, a_end = run_field(chi, ef)
-        for vd in [100.0, 200.0, 300.0]:
-            for sm in [2, 4, 8]:
-                out = bias_profile(parcels, z_r, a_end, vd, smooth=sm)
-                if out is None: continue
-                cent, bias, mbin, L = out
-                # the merger zone = the leading 15% of the tail (nearest the ring)
-                nz = len(cent); mz = slice(int(0.85*nz), nz)
-                mean_abs = np.mean(np.abs(bias))
-                merger = np.max(np.abs(bias[mz]))
-                rows.append((chi, ef, vd, sm, mean_abs, merger, merger/max(mean_abs,1e-12)))
-rows = np.array(rows)
-print(f"\n  {'chi':>5s} {'efold':>5s} {'drift':>6s} {'sm':>3s} {'mean|bias|%':>11s} {'merger|bias|%':>13s} {'multiplier':>10s}")
-for r in rows[::9]:
-    print(f"  {r[0]:5.2f} {r[1]:5.0f} {r[2]:6.0f} {r[3]:3.0f} {r[4]:11.3f} {r[5]:13.3f} {r[6]:10.1f}")
-mult = rows[:,6]; mrg = rows[:,5]
-print(f"\n  ACROSS THE FULL RAMP GRID ({len(rows)} runs):")
-print(f"    the mean-tail bias   : median {np.median(rows[:,4]):.3f}%  [{np.percentile(rows[:,4],16):.3f}, {np.percentile(rows[:,4],84):.3f}]")
-print(f"    the MERGER-ZONE bias : median {np.median(mrg):.3f}%  [{np.percentile(mrg,16):.3f}, {np.percentile(mrg,84):.3f}]")
-print(f"    the multiplier       : median {np.median(mult):.1f}×  [{np.percentile(mult,16):.1f}, {np.percentile(mult,84):.1f}]")
-H0_shift = 73.0*np.percentile(mrg,[16,50,84])/100.0
-print(f"    H₀ at the merger zone: 73.0 → {73.0-H0_shift[2]:.2f}–{73.0-H0_shift[0]:.2f} (median 73.0 → {73.0-H0_shift[1]:.2f})")
-print("="*78)
+    print("="*78)
+    print("B1 v4.1 — bias(observer position): THE PROFILE IS THE RAMP")
+    print("="*78)
+    rows = []
+    for chi in [4.0, 4.75, 5.3]:
+        for ef in [8, 14, 20]:
+            parcels, z_r, a_end = run_field(chi, ef)
+            for vd in [100.0, 200.0, 300.0]:
+                for sm in [2, 4, 8]:
+                    out = bias_profile(parcels, z_r, a_end, vd, smooth=sm)
+                    if out is None: continue
+                    cent, bias, mbin, L = out
+                    # the merger zone = the leading 15% of the tail (nearest the ring)
+                    nz = len(cent); mz = slice(int(0.85*nz), nz)
+                    mean_abs = np.mean(np.abs(bias))
+                    merger = np.max(np.abs(bias[mz]))
+                    rows.append((chi, ef, vd, sm, mean_abs, merger, merger/max(mean_abs,1e-12)))
+    rows = np.array(rows)
+    print(f"\n  {'chi':>5s} {'efold':>5s} {'drift':>6s} {'sm':>3s} {'mean|bias|%':>11s} {'merger|bias|%':>13s} {'multiplier':>10s}")
+    for r in rows[::9]:
+        print(f"  {r[0]:5.2f} {r[1]:5.0f} {r[2]:6.0f} {r[3]:3.0f} {r[4]:11.3f} {r[5]:13.3f} {r[6]:10.1f}")
+    mult = rows[:,6]; mrg = rows[:,5]
+    print(f"\n  ACROSS THE FULL RAMP GRID ({len(rows)} runs):")
+    print(f"    the mean-tail bias   : median {np.median(rows[:,4]):.3f}%  [{np.percentile(rows[:,4],16):.3f}, {np.percentile(rows[:,4],84):.3f}]")
+    print(f"    the MERGER-ZONE bias : median {np.median(mrg):.3f}%  [{np.percentile(mrg,16):.3f}, {np.percentile(mrg,84):.3f}]")
+    print(f"    the multiplier       : median {np.median(mult):.1f}×  [{np.percentile(mult,16):.1f}, {np.percentile(mult,84):.1f}]")
+    H0_shift = 73.0*np.percentile(mrg,[16,50,84])/100.0
+    print(f"    H₀ at the merger zone: 73.0 → {73.0-H0_shift[2]:.2f}–{73.0-H0_shift[0]:.2f} (median 73.0 → {73.0-H0_shift[1]:.2f})")
+    print("="*78)
