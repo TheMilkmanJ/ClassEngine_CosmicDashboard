@@ -5833,3 +5833,23 @@ at equation level — honestly, in the deflationary direction.
 chain (pinning the stack's third factor narrows the c-inference through ε = c·f̄·α_c) and a
 higher-statistics f̄ ensemble. Until one delivers, the trial is OPEN and every c = 9/10
 citation keeps its under-trial label (the spine already carries it, entry 139).
+
+### Entry 151 amendments (the referee's turn-578 demands, both answered)
+
+**1. The adverse lean, stated in the ledger (his demand, correct):** "binds neither" was true
+and not the whole truth. The data **leans 9/10** — the central value sits a factor ~7 closer
+to 9/10 (0.08σ) than to 12/13 (0.54σ), and 9/10 is the roster the gravity-sector argument
+excludes. **The trial is UNDER-RESOLVED AND CURRENTLY LEANING AGAINST the census-consistent
+roster:** if σ_c sharpens toward the pre-registered 0.0115 with the central value holding
+near 0.903, the data will progressively disfavor 12/13. The ledger carries the direction.
+
+**2. The epoch-ramp question ("is it moot for c?") — answered by walking, not by agreement:
+PARTLY moot.** The c *value* is a structural count with no epoch-drift — that half is moot.
+But the c *inference* is c = ε/(f̄·α_c), and it **inherits f̄'s epoch-dependence**: f̄ is a
+winding time-average, ε is fit at recombination-era epochs, and any drift of f̄ between its
+formation window and ε's epoch shifts the inferred c one-for-one. The ensemble's ±0.026 band
+covers the sampled formation histories, not a secular post-formation drift. **Consequence,
+stated against interest: an unmodeled f̄ drift widens σ_c and makes the ×3.2 discrimination
+HARDER, not easier — the honest σ_c is ≥ 0.037 until the drift term is bounded.** The bound
+is a named small computation (the winding average's late-time stability — the roll-up solver
+re-read at late epochs); queued.
