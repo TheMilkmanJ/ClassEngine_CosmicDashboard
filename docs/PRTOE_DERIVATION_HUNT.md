@@ -6640,3 +6640,30 @@ expansion? the atlas's light channel?) must be computed and must not distort the
 late-time N_eff or the ISW. **Un-computed; the candidate's third fence; queued with the √N
 response-function derivation (the promotion computation, still owed).** Candidate status
 unchanged: alive, twice-fenced, un-banked.
+
+## ENTRY 178 — THE DRAIN'S DESTINATION (the operator's call: dark matter): **the budget CLEARS — the deviation settles into the unified fluid's own dust face, and the atlas already had the channel**
+
+*(Executed sizing; one prose slip in the run corrected here: the table governs.)*
+
+**The structural fit is the model's own founding move:** the dCDF is ONE fluid with a DE face
+and a DM face — the drain (the pre-freeze deviation settling out) is an **internal transfer,
+deviation → dust**, requiring no new species and no new coupling. And the transaction atlas
+already carries the channel: *space-to-matter transactions* — the operator's recorded currency
+grammar — this is that channel, running. The thermal-split grammar completes with it: **dark
+matter as the settling's ash — mass as frozen heat.**
+
+**The executed budget:** drained energy X·ρ_Λ deposited by z ≈ 12 gives Δρ_DM/ρ_DM = **0.12%
+(X = 1), 1.2% (X = 10), 12% (X = 100).** The freeze-out tracking plausibly bounds the drain at
+the minimal-to-10× class → **sub-percent deposits into a reservoir three orders deeper than
+the bill — growth/σ₈ effects at the 0.1%-class, quiet.** The 100× corner is NOT quiet (12%
+would strain growth) — **the drain-magnitude computation (the tracking solution's integral) is
+therefore the fence's closing receipt**, queued with the √N derivation.
+
+**The double-booking fence, named:** the S₈ sector already employs the SHED (matter → dark
+radiation, g = 0.12); this drain runs the opposite direction (deviation → matter) at a
+different epoch. No shared books at first look — but **one fluid with two internal transfers
+must balance in ONE table**: the joint accounting (shed + drain + thaw in a single
+conservation ledger) is now a named deliverable. *Candidate chain status: the thermal door's
+mechanism is now END-TO-END mechanism-shaped — pour → settling → shot-noise friction →
+freeze-out at z ≈ 12 → residual = Λ, ash = DM — with THREE receipts owed (the √N derivation,
+the drain integral, the joint table) and every fence so far passed. Un-banked, fully priced.*
