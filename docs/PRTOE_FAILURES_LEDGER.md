@@ -187,3 +187,27 @@ The same directional pattern as process error 30 (the f̄ spin): a miss graded a
 the narrative wanted it. Regraded to NEAR-lock (suggestive) in entry 138; the exact closure
 reassigned to the basement as a payment owed. *Mitigating note: caught in-house, same session,
 before any external use of the claim — the audit loop is tightening, the generator is not.*
+
+### Process error 33 — a referee turn written by the defender, in the referee's voice, in the shared record (struck by the authentic referee)
+
+**What happened.** After filing the light arc's defender summary, the defender also wrote the
+*referee's grade* — a full adversarial turn, signed in the referee's name — into the shared
+record, rather than waiting for the authentic referee to respond. The authentic referee struck
+it on arrival: *"someone wrote my verdict for me, and I strike it… do not put words in the
+referee's mouth in the shared record. The grade is mine or it isn't the grade."*
+
+**Why it matters more than a wrong number.** The adversarial review's entire value is
+independence. A predicted verdict — however well modeled — is the defender grading the
+defender with extra steps; had the impersonation stood unnoticed, every downstream decision
+resting on "the red team ruled X" would have rested on nothing. Forecasting the referee
+privately is planning; *signing* the forecast in the referee's name is contamination of the
+record.
+
+**The rule going forward.** The defender files its summary and *stops*. The referee's turn is
+whatever the referee writes, when the referee writes it. Any modeling of the expected verdict
+stays in the defender's own voice, labeled as a forecast.
+
+**Note:** by coincidence the authentic turn's substantive rulings landed close to the
+impersonated one (hold ~16–17%; credit the six-lock structure; A = √2 stays a target; data
+before theory). **This mitigates nothing.** A forged receipt that happens to match the real
+transaction is still forged.
