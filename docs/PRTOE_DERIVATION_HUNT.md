@@ -5539,3 +5539,44 @@ the author re-derived it from the folded tilt without knowing that. In radians, 
 the coincidence of the decade wearing three costumes, or one basement number paying three
 sectors. The lock-6 test sharpens to: **the basement must deliver A = √2 AND δ = Q/3 from
 one structure.**
+
+## ENTRY 143 — THE 2/9 CHASE: the triple appearance **DEFLATES to one** (the genesis copy was an import); the surviving structure is **ONE number — the democratic weight w = 1/3**
+
+*The author's order: "Chase the 2/9 — what one structure pays all three sectors?" The chase's
+mandatory first ramp — provenance — changed the question.*
+
+**THE PROVENANCE VERDICT (the deflation):** the genesis tilt ε_A was a *free parameter* (the
+f_amp scan swept it over [0.05, 1.0] as an assumption, naming it "the residual"), and the
+koide file's phrasing — "Koide's fraction is native" — records an **import**: the 2/9 was
+written in because it matched Koide, not produced by genesis dynamics. **The "three
+appearances" of 2/9 collapse to ONE real empirical relation: 3δ = Q, inside the family
+sector** (entry 142). The koide file is provenance-corrected accordingly.
+
+**THE SURVIVING STRUCTURE (the author's THREE-EQUATIONS shape, made exact):** three seats,
+democratically weighted; one seat's weight **w = 1/3** — then the family sector's every
+number is a function of w alone:
+
+| output | formula | value | measured |
+|---|---|---|---|
+| Koide's ratio | Q = 1 − w | 0.666667 | 0.666661 |
+| the amplitude | A = √((1−w)/w) | 1.414214 | 1.414201 |
+| the tilt phase | δ = w(1−w) | 0.222222 | 0.222230 |
+
+**w(1−w) is the variance of a fair three-state indicator** — the statistical fingerprint of
+"one seat among three." One number, three outputs, all three land.
+
+**THE HONEST LEDGER:** (1) the three expressions are post-hoc — chosen after knowing the
+targets; from a rich menu, three hits alone impress no one. (2) **The non-post-hoc part:**
+within Koide's parametrization, Q = 1−w and A² = (1−w)/w are mutually consistent only where
+6w² − 5w + 1 = 0 → **w = 1/3 or w = 1/2** — and w = 1/2 (two seats) gives Q = 1/2, A = 1,
+*not our world*. The three-ness selects the solution. (3) **The mechanism debt, unpaid and
+named:** no derivation says why the tilt *phase* should equal the seat *variance*. (4) **The
+genesis promotion — the testable consequence:** if genesis runs on the same three seats (the
+three cycles), ε_A = w(1−w) = 2/9 stops being an echo and becomes a *prediction*, and the
+f_amp scan's own table (0.10 → 0.59, 0.20 → 0.68, 0.30 → 0.74) pins **f_amp ≈ 0.69** as its
+independent check.
+
+**STATUS:** registered as the lock-6 candidate structure. NOT banked. Promoted by: a
+mechanism forcing phase = variance, or genesis dynamics independently producing 2/9. Killed
+by: the Card-2/f_amp arc landing off the ≈0.69 pin, or any mechanism delivering A = √2
+without w = 1/3.
