@@ -5954,3 +5954,17 @@ is a bare numerical bet, zon-graded, kills unchanged, no derivation implied at a
 site; a forced 3, if the basement ever delivers one, arrives as a new entry.** The candidate
 relabel is named in the amendment so its future promotion (or death) is checkable against
 tonight's refusal. Structural walk; no numbers asserted; pre-commit rule honored.
+
+## ENTRY 156 — THE RE-REVIEW'S SECTION-2 CATCH: **the spine's amplitude label "[DERIVED]" was an overgrade — relabeled ASSEMBLED.** Post-tonight, the stack's three factors grade contested / simulated / bare-bet
+
+The walk-through's second section (the amplitude stack, ε = c·f̄·α_c = 27α/5π) graded against
+the accumulated ledger: **c = 9/10 is CONTESTED** (under the roster trial, adverse-leaning —
+entries 151/578); **f̄'s closed form 2/π is DEAD** (menu-density ruling; the simulation value
+0.635 ± 0.026 survives as a computed average); **α_c = 3α is a BARE BET** (amendment 040-A,
+tonight). **Zero of the three factors currently grades "derived" — so the compressed form
+27α/5π, which uses the dead 2/π, must not be sold as a derivation.** The spine's
+"[DERIVED, #11]" label is relabeled **[ASSEMBLED]** with the per-factor grades pointed to.
+What is untouched: the concordance value 1.2403 ± 0.0079% (fit-grade, the standing
+reference), the production fit, and every window/identity that consumes ε as a *measured*
+number. The re-review caught its first overgrade in the model's front-page equation —
+which is exactly what the operator ordered it for. Structural; no numbers asserted.

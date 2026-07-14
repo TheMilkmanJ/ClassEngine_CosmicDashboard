@@ -30,7 +30,7 @@ c = 1. Provenance walk, hunt entries 145/148].
 δm_e. (The Majoron/lepton-sector identity: tree coupling σNN → neutrinos; the charged-lepton
 portal is a UV assumption [PENDING #30].)
 
-The amplitude (the model's one distinctive number) [DERIVED, #11]:
+The amplitude (the model's one distinctive number) [ASSEMBLED — relabeled 2026-07-14, the re-review's section-2 catch (hunt entry 156): the stack's three factors grade contested / simulated / bare-bet, so "derived" overstated the assembly]:
 
 > **ε = c·f̄·α_c = 27α/5π = 1.2543%** (the current derived stack; concordance joint
 > 1.2403 ± 0.0079%), with c = 9/10 (census; under the open 9/10-vs-12/13 roster trial — the basement
