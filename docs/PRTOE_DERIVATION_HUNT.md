@@ -5968,3 +5968,31 @@ What is untouched: the concordance value 1.2403 ± 0.0079% (fit-grade, the stand
 reference), the production fit, and every window/identity that consumes ε as a *measured*
 number. The re-review caught its first overgrade in the model's front-page equation —
 which is exactly what the operator ordered it for. Structural; no numbers asserted.
+
+## ENTRY 157 — THE RG DOCKET'S FIRST PASS (both Tier-1 receipts): **BOTH COME BACK ADVERSE-LEANING — the estimate grade cannot close either; the conditions sharpen and the full computations stay owed**
+
+*Arithmetic executed before booking (the pre-commit rule).*
+
+**PART A — the composite form factor (gate-0's receipt): power-law suppression is NOT
+enough.** The point-scalar Γ/H (2×10¹⁵–2×10¹⁷) suppressed by the compositeness form factor
+(v/T)⁴ still leaves **Γ/H = 2×10¹²–5×10¹³** across the window; the symmetric-phase thermal
+mass (~0.23T–T class) suppresses ⟨φ²⟩ by only 0.4–0.8. **Gate-0's survival therefore cannot
+rest on form-factor or thermal-mass suppression — it requires the sharper condition: the
+symmetric-phase pair channel must have NO spectral weight below ~T** (the composite's
+constituent gap above the plasma temperature — a basement-scale property, not derivable in
+the low-energy EFT). Entry 153's clearance stays DERIVED-CONDITIONAL with the condition now
+precisely stated and adverse-leaning at estimate grade: the BCS analogy itself puts pair
+fluctuation weight at ω ~ T-class, which suppresses by factors of a few, not the needed
+10–30.
+
+**PART B — the anisotropic k₁(mode): the naive read BREAKS the balance.** With the derived
+split ξ_R = −1, the R-piece of the mode's k₁ weight alone is (1/6 − (−1)) = **7/6 ≠ 0.**
+Finiteness survives only if the split partner (−2/3 on the second structure) plus the
+ghost-kinetic Z = −3/8 conspire to cancel the 7/6 in the full anisotropic trace — **the
+cancellation is unverified and the naive lean is adverse.** The full anisotropic heat-kernel
+computation (entry 108's structures) is the receipt; until it lands, Pauli's keeper carries a
+flagged exposure to the medium's own mode.
+
+**THE DOCKET'S HONEST STATE:** two receipts owed, both adverse-leaning at first pass, both
+genuinely heavy. Neither is spun; neither is dead. The model's two sharpest open questions
+now have their first-pass numbers on the record — and both point the hard way.
