@@ -5898,8 +5898,9 @@ importing a fundamentality the model's own identity rejects. The kill is CONDITI
 import.**
 
 **STEP 2 — the honest residue.** What *does* exist above T_c: preformed-pair fluctuations,
-confined to the Ginzburg window ΔT/T_c ~ Gi ~ λ_eff = 3κ²m_e⁴/4π² ≈ **1×10⁻³–1×10⁻²** across
-the VEV band.
+confined to the Ginzburg window ΔT/T_c ~ Gi ~ λ_eff = 3κ²m_e⁴/4π² ≈ **3.7×10⁻³–1.85×10⁻²** across
+the VEV band (EXECUTED values — the first booking asserted 10⁻³–10⁻²; the reach verdict is
+unchanged, the ×30-inflated corner already covered the executed ceiling).
 
 **STEP 3 — the reach test, ramped:** across the full T_c band [140, 450] keV with the
 Ginzburg band inflated ×30, the fluctuation tail reaches ≤ 200 keV at central values and
