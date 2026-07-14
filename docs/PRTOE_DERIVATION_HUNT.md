@@ -6530,3 +6530,17 @@ and the registered position holds: if one basement structure pays lock 6 (√2),
 banks that; the heat-kernel session remains its judge. *The operator's conviction is noted at
 conviction grade; the taxonomy is booked at physics grade; the gap between them is exactly
 the basement's unpaid bill.*
+
+### Entry 174 addendum — the operator's flash: "THAT'S the 2/3 — two on, one off." **Checked: it is entry 143's own registered algebra, re-arrived through the doors**
+
+Koide's Q = 2/3 was already compressed as **Q = 1 − w with w = 1/3, "the democratic weight of
+one seat among three"** (entry 143, the lock-6 candidate structure). "Two on, one off" IS that
+algebra read aloud: the complement of one seat = two of three. **The flash is therefore a
+THIRD independent arrival at w = 1/3** (the family fit; the consistency quadratic; now the
+door anatomy) — and the two-of-three SHAPE now shows in three places: Koide's Q, the sector
+anatomy (every sector = 2 doors on, 1 silent), and the spent-door reading (2 of 3 doors
+active today). **Coincidence-watched as a SHAPE, not banked as a number** — the identification
+"the family's three seats = the three doors" remains the basement-court conjecture behind the
+standing category fence. If the basement ever seats them as one, Q = 2/3 becomes "the mass
+spectrum reading its own sector anatomy" — registered as the conjecture's sharpest possible
+form, and left there.
