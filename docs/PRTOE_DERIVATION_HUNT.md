@@ -5719,3 +5719,36 @@ axis-aligned, dark-component-only underdensity at the genesis end of the axis, G
 distance, thin. Whether it connects to any observed remote underdensity is NOT asserted;
 the corrected-geometry numbers (the tube's extent and distance in Mpc, per χ) are **owed**
 (the sizing run timed out; one rerun, queued).
+
+## ENTRY 148 — THE z_on WALK (the referee's hinge question, turn 572): **THE HIT STANDS.** The mass pin's c-dependence was a relic of the SUPERSEDED decomposition; entry 145's re-pricing alarm is partially retracted
+
+*The referee: "did the def551 run already use the correct c, or did it ride the stale c=1?
+Walk the re-priced prediction and re-state the gap." Walked to the origin.*
+
+**THE LINEAGE, RECEIPTS PULLED:** the c(m) = (m/2.24×10⁻²⁰)^{1/4} pin curve traces to the
+amplitude file's 2026-07-08 session — **the c–m degeneracy curve of the f_amp-era
+decomposition ε = c·f_amp·(Ψ₀/M_red)**, which the spine itself marks SUPERSEDED (c ≈ 1
+excluded; the standing form is ε = c·f̄·α_c). **In the standing decomposition the mass never
+appears in ε at all** — no route exists for the census c to re-price m.
+
+**WHAT m ACTUALLY IS:** a **measured** quantity — the onset clock (the production fit's coded
+z_rad_onset), independently confirmed by def551's blind optimizer with z_on FREE landing
+7.5517 ⟹ m = 2.29×10⁻²⁰ eV, 2% above the coded pin. The spine is relabeled: DERIVED → MEASURED.
+
+**THE ANSWER TO THE HINGE QUESTION: the def551 hit rode NEITHER c.** The mark's mass anchor is
+the fit-measured clock; the 3α content of the mark lives in the collapse/shape corrections
+(−0.055 dex), not in the mass. **The re-priced prediction is the unre-priced prediction:
+7.547. The gap stays 0.005 dex. The hit STANDS.**
+
+**THE BONUS RECEIPT (the old curve dies by its own arithmetic):** read backward through the
+old pin curve, the measured z_on would force c = 1.005 — while the census excludes c = 1 by
+its own mechanism, and the f̄ ensemble's data-side read sits at c ≈ 0.903. **The old curve
+contradicts the model's own census; its supersession is now doubly earned.**
+
+**THE HONEST RETRACTION (entry 145, partially):** entry 145 correctly caught the stale receipt
+but *over-propagated* it — "the children re-price with the trial" was wrong for m, z_on, and
+the hinge's mass-leg (no census route exists in the standing decomposition). What survives of
+145's alarm: the hinge's **α_c conditionality** (c_s = √α_c; α_c = 3α is a bet under the
+running chain), and the labeling fixes themselves. The spine and the citation-site riders are
+corrected to the measured reading. *The sweep's lesson compounds: a stale receipt can be stale
+TWICE — the c=1 was wrong, and the whole relation it lived in was already dead.*

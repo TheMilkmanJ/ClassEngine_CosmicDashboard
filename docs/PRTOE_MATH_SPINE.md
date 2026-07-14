@@ -18,10 +18,14 @@ mechanism, not a derivation · [PENDING] computation named, not run.
 One dark superfluid, two components (the two-field split):
 
 * **Field 1** — the dcdf fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
-[DERIVED from ε via c(m) = (m/2.24×10⁻²⁰ eV)^{1/4} **at c = 1 — a value the census EXCLUDED;
-the pin is therefore CONDITIONAL on the open 9/10-vs-12/13 roster trial** (c = 9/10 → m =
-1.47×10⁻²⁰ eV; 12/13 → 1.63×10⁻²⁰), **and its children re-price with it**: ξ (402 → ~610 AU at
-9/10), T(H=m)/z_on (~−19%), the SMBH-atom anchors. Provenance audit, hunt entry 145].
+[**MEASURED** — the onset clock: the production fit's coded z_rad_onset, independently confirmed
+by the blind free-z_on optimizer landing 7.5517 (→ m = 2.29×10⁻²⁰, 2% above the coded pin).
+The former "derived from ε via c(m) = (m/m₀)^{1/4} at c = 1" was a relic of the SUPERSEDED
+f_amp decomposition — in the standing decomposition ε = c·f̄·α_c the mass never touches the
+census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through this
+route** (the hinge keeps only its α_c conditionality via c_s = √α_c). And read backward, the
+old curve is dead by its own arithmetic: it would force c = 1.005 while the census excludes
+c = 1. Provenance walk, hunt entries 145/148].
 * **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
 δm_e. (The Majoron/lepton-sector identity: tree coupling σNN → neutrinos; the charged-lepton
 portal is a UV assumption [PENDING #30].)
