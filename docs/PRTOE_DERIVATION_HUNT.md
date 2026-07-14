@@ -5811,3 +5811,25 @@ observer ≈ 2,940 Mpc** — parked at the genesis end of the ~3 Gpc axis, stabl
 The remote-void note now has its footprint: a ~70 Mpc, dark-only, axis-aligned hole at
 z ≈ 1-class comoving distance, nowhere near any local survey sphere. Note-grade, unclaimed;
 the local KBC verdict (cold, three receipts) is unchanged.
+
+## ENTRY 151 — KILL-RISK #1 WALKED (the referee's queue, item 1): the 9/10-vs-12/13 "contradiction" is an **UNDER-RESOLVED TRIAL, not a self-kill** — and the discrimination requirement is now pre-registered
+
+**The gate reply first (the referee's terms): fully ramped** — the walk is over the
+c-inference's own width, not the point values.
+
+**The two reads:** data-side, the ε-blind f̄ ensemble implies c = 0.903 ± 0.037 (+0.08σ from
+9/10; −0.54σ from 12/13; −2.6σ from the excluded c = 1). Theory-side, the gravity-sector
+argument for 12/13 stands alone (the coherence argument was withdrawn, entry 130) and is
+post-rebuild theory-grade — its own basement is the unspecified room behind the six locks.
+
+**THE VERDICT:** the two candidates sit **0.62σ apart at the current width — the data cannot
+distinguish them.** A self-kill requires two *binding, incompatible* reads; here the data
+binds neither candidate and the theory side is unbanked. **There is no contradiction. There
+is a trial that has not reached verdict precision.** The "self-kill risk" framing dissolves
+at equation level — honestly, in the deflationary direction.
+
+**PRE-REGISTERED DISCRIMINATION REQUIREMENT:** separating 0.900 from 0.923 at 2σ needs
+σ_c ≤ 0.0115 — a **×3.2 sharpening** of the ensemble width. Named routes: the running α_c
+chain (pinning the stack's third factor narrows the c-inference through ε = c·f̄·α_c) and a
+higher-statistics f̄ ensemble. Until one delivers, the trial is OPEN and every c = 9/10
+citation keeps its under-trial label (the spine already carries it, entry 139).
