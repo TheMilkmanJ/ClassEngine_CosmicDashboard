@@ -6408,3 +6408,16 @@ pre-registered BEFORE comparison to DESI** — never tuned after reading the con
 the thermal program's DESI-side item, paired with its H₀ item (one component, both ends of
 the clock, one derivation). *The pour rewrote the first chapter; this entry books the fact
 that the last chapter's page numbers shifted with it.*
+
+## ENTRY 169 — THE POUR RUN, REGISTERED BEFORE LAUNCH: the birth-ramp evidence run (full stack, SH0ES-anchored, ΔN_fluid = 0.26 LOCKED)
+
+**The operator's order, exact:** lock in the birth ramp and run the SH0ES-anchored evidence
+configuration WITH it — every dataset, the pour in the physics. **Registered before the
+verdict, per the house law:** config = cmp_prtoe_pour_shoes.yaml (the frozen SH0ES stack +
+N_idr = 0.26, fluid — the θ_s-preserving value from entry 167's executed scan; the amplitude
+is the biscuit's number, NOT yet derived from the pour's settling rate — that derivation
+remains the thermal program's, and this run is the phenomenological ranging shot). Output:
+cmp_prtoe_pour_ev. **What it grades:** whether the birth-ramp model earns its evidence
+against the full SH0ES-anchored stack — the ΔlnZ that lands is the POUR BRANCH's, distinct
+from the registered pre-pour branch (whose DESI-side chains continue untouched and grade
+their own physics). Two branches, two verdicts, no contamination.
