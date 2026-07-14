@@ -5940,3 +5940,17 @@ condition** (the falsifiable rider survives unchanged: the balance must hold). N
 asserted in this entry — the walk is structural; the heat-kernel run is the receipt, queued
 as the item-5 (RG docket) companion. *Pre-commit rule honored: nothing here claims an
 executed number.*
+
+## ENTRY 155 — ITEM 4: THE 3α ORPHAN — **no new mechanism produced; P-2026-040 formally downgraded by amendment to a bare numerical bet** (the honest branch taken)
+
+The referee's fork: produce a NEW mechanism or formally downgrade. **Walked and the downgrade
+taken:** the only candidate replacement — 3 = the basement's three Fermi points — is a
+*relabel of the dead mechanism in the new basement's clothes*: nothing forces the medium's
+stiffness coupling to equal (defect count) × (the EM coupling), and the only derived
+medium–EM connection on the books (the induced-α fraction, entry 134/138) does not produce
+it. Banking the relabel would be the clean-value pattern the registry exists to prevent.
+**Amendment 040-A appended per the registry's own law (new entries, never edits): P-2026-040
+is a bare numerical bet, zon-graded, kills unchanged, no derivation implied at any citation
+site; a forced 3, if the basement ever delivers one, arrives as a new entry.** The candidate
+relabel is named in the amendment so its future promotion (or death) is checkable against
+tonight's refusal. Structural walk; no numbers asserted; pre-commit rule honored.

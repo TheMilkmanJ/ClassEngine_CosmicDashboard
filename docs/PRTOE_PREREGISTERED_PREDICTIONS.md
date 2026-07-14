@@ -1839,6 +1839,17 @@ roster chain then needs re-forcing).
 identification has NO derivation yet (basement-owed) — this registration is the pattern
 staking its life on the instrument, which is exactly what the registry is for.
 
+**AMENDMENT 040-A (2026-07-14 — the formal downgrade; the referee's queue item 4):** the one
+mechanism ever floated for the 3 — "three lepton flavours fund the factor" — **died with the
+lepton-paired vacuum** (the basement rebuild; hunt entries 120/132b). No replacement mechanism
+is banked: the candidate relabel (3 = the basement's three Fermi points, lock 2) is **named
+and explicitly NOT banked** — it is unforced, and re-dressing a dead mechanism in the new
+basement's clothes is the clean-value pattern this registry exists to prevent. **P-2026-040
+is therefore formally a BARE NUMERICAL BET, zon-graded**: the running α_c chain grades the
+value; the kills stand exactly as registered; no derivation is implied anywhere the number is
+cited (the math spine's label already matches, hunt entry 139). If the basement's structure
+ever *forces* the 3, that arrives as a new entry — never as a retro-fit to this one.
+
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
 
