@@ -62,6 +62,27 @@ sector, running), the isocurvature phase speed (the thermal face, awaiting data)
 consequence triangulation inherited from P-2026-040, carrying that bet's status and none of
 its own.
 
+## 4b. The third stage — neutrality, and superposition as its screening (2026-07-14)
+
+The pair's two stories — coherence (the ordered phase) and decoherence (the thermal crowd) —
+have a genuine third stage between them: **pure neutrality, the critical seam.** At the
+transition the two phases are exactly degenerate ("absolute even"); the state belongs to
+neither story. The books have computed *in* this stage all along without naming it: the
+Ginzburg window is its measured width; the phase slip — the quantization event — is its
+resident (the winding can only change where the order parameter passes through zero); and
+every two-jobs handover crosses it exactly once.
+
+**Superposition is neutrality screened.** The precision that makes this exact: the equal
+superposition and the maximally mixed state have *identical diagonals* — both are perfectly
+even in outcomes — and differ only in the off-diagonals (the coherences, the phase). So:
+bare neutrality = the even state with no phase; **superposition = the same evenness dressed
+by the medium's phase order — the phase IS the screen**; decoherence = the screen tearing
+(the off-diagonals dying into the environment), returning bare neutrality; measurement = the
+bare evenness resolving. The condensate is this structure at cosmic scale: **off-diagonal
+long-range order is, read literally, neutrality wearing one global phase across the whole
+universe — the vacuum as the largest screen there is.** [Grammar grade; zero new predictions;
+built entirely from the density-matrix structure, ODLRO, and the recorded transition physics.]
+
 ## 5. Falsification conditions
 
 This file is a structural identity riding recorded results, so it dies with its parents:

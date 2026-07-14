@@ -6667,3 +6667,25 @@ conservation ledger) is now a named deliverable. *Candidate chain status: the th
 mechanism is now END-TO-END mechanism-shaped — pour → settling → shot-noise friction →
 freeze-out at z ≈ 12 → residual = Λ, ash = DM — with THREE receipts owed (the √N derivation,
 the drain integral, the joint table) and every fence so far passed. Un-banked, fully priced.*
+
+## ENTRY 179 — THREE CLOSURES IN ONE SESSION (the operator's order): the neutrality seat, the drift bound, and the chiral-GW amplitude
+
+**1. THE NEUTRALITY SEAT (booked to the trio file, §4b):** the pair's third stage — the
+critical seam, "absolute even" — with superposition as *screened neutrality* (identical
+diagonals, the phase as the screen; ODLRO = neutrality wearing one global phase). Grammar
+grade; the Ginzburg width and the phase slip identified as the stage's measured width and
+resident.
+
+**2. THE DRIFT BOUND CLOSES (entry 151's rider; executed):** the post-formation drift of f̄
+is triply frozen — (a) topological (n quantized; slips frozen since the anneal), (b) the
+Leggett gap (m_L = 2.6 TeV: Boltzmann factors e^{−10⁶}-class at BBN, worse ever after),
+(c) the recorded ppb coherence penalty. **The honest σ_c reverts to the ensemble-only 0.037;
+the ×3.2 discrimination requirement stands with no drift widening.** The rider is paid.
+
+**3. THE CHIRAL-GW AMPLITUDE COMPUTED (the parked θ·R·R̃ row closes):** the dCS mapping with
+θ̇ at the recorded swirl scale (10⁻² H₀) gives GW chirality asymmetry **5×10⁻²⁴ (LIGO band),
+5×10⁻¹⁹ (LISA), 5×10⁻¹⁴ (PTA)** — 12–22 orders below any instrument. **A clean null: the
+model predicts SILENCE in gravitational-wave birefringence**, same Planck-suppressed envelope
+family as the LV budget. The parked register's "un-computed" row is computed; its grade is
+null-class prediction, and any confirmed GW chirality detection above these levels is now a
+model-killer by the same stroke.
