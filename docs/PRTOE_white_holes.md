@@ -204,7 +204,7 @@ at maximal genome-signed chirality, the recorded bounce r ("far below current bo
 puts it ≥100× under the LiteBIRD/S4-class future floor. (B) Faraday rotation off the
 P-028 helical field (5×10⁻¹⁸ G): 4.5×10⁻¹⁰ degrees at 100 GHz — 9 orders below the 0.34°
 EB hint. (C) Magnetic stress EB/TB ∝ B⁴: 10⁻³⁴ relative. VERDICT: **the white hole signs
-light in invisible ink.** The at-birth channel is real (process error 9's ramp) and FAINT — so
+light in invisible ink.** The at-birth channel is real (ramped) and FAINT — so
 the model's sharp prediction, zero new mechanisms: the EB sky is NULL beyond calibration
 systematics; the 0.34° hint is unownable by ANY sector of this model and must resolve as
 a systematic (it is degenerate with polarimeter calibration angles). The loud copy of the

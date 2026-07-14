@@ -46,7 +46,7 @@ studied distinction).
 
 If the quartet reading holds, the P-040 corollary's apparent 0.39-dex tension INVERTS:
 the α_c chain is currently **confirming** $\alpha_c = 3\alpha$ (7.89 vs 7.94), and the
-"gap" was a class-6 process error one level deeper — the clock misread the composite as a
+"gap" dissolves one level deeper — the clock misread the composite as a
 constituent. The triangle (occupancy + 3α + $x_0$), the freeze cascade, and P-2026-042's
 anchor all inherit the verdict.
 
@@ -87,7 +87,7 @@ for P-040 itself: if his descent materializes and lands at 7.55, the trajectory 
 3α confirm in the same breath.
 
 ## 4b. STATUS (current truth): the lineup marks are SUPERSEDED
-Process error 7 (two components, two clocks — the zero-mode's H = m AND the winding mode's
+The two-clock correction (two components — the zero-mode's H = m AND the winding mode's
 k/a = m coexist, sharing one m; their ratio measures n) RETIRES the §1 table as grading
 marks; the ramps-first re-derivation is owed before any center is graded. The QUESTION
 stands (whose mass does the oscillating unit carry). Live watch: the dispersion chain's

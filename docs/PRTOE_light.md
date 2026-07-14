@@ -4,7 +4,7 @@
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 *Status: filed 2026-07-13, consolidating the light-sector results of the induced-coupling
-sessions (derivation-hunt entries 127, 128, 133-vacated, 134, 136, 137). Grade: mixed and
+sessions (derivation-hunt entries 127, 128, 134, 136, 137). Grade: mixed and
 labeled per section — two theorem-grade structural results, one computed fraction, one
 pre-registered target. Rides M3 (the medium's reality) and the induced-gravity result
 (the Pauli finiteness condition, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5).
@@ -113,14 +113,6 @@ invariant.)
 
 > **Gravity is what the medium does. Light is what the medium was given.**
 
-A caution earned the hard way: the naive version of this computation — QED's ΣQ² run
-straight through the electroweak scale with a compositeness boundary 1/α(Λ) = 0 — returns
-a spurious 12-order failure (it is the QED Landau pole in disguise). That verdict was
-booked and vacated the same night (entries 133/134; failures ledger, process error 31):
-above M_Z there is no photon, the abelian coupling is hypercharge on its own β, and the
-compositeness condition is itself an unwalked step. The walked version converts the
-failure into the 44/56 split above.
-
 ## 5. The two handouts: what the running finds at the basement
 
 If the basement supplies light's bare coupling, it supplies the other forces' too. Running
@@ -208,5 +200,5 @@ near-miss); [Wilczek 1999] (mass from dimensional transmutation; "mass without m
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the Pauli finiteness condition
 ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5), the transaction grammar
 ([PRTOE_TRANSACTION_ATLAS.md](PRTOE_TRANSACTION_ATLAS.md)), the derivation-hunt entries
-127, 128, 134, 136, 137, and process error 31
+127, 128, 134, 136, 137
 ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).
