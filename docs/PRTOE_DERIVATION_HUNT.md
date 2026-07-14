@@ -6717,3 +6717,22 @@ against friction (ρ_dev* ~ f(H/Γ)) — and the freeze at Γ = H is the attract
 **This sharpens the √N derivation's target: derive the attractor, and the drain integral X
 falls out of the same computation.** The two owed rows are ONE calculation. Filed as the
 structure; no number asserted.
+
+## ENTRY 181 — THE CHIRAL-GW RAMP AUDIT (the operator's tenth catch: "I'm betting you didn't ramp this" — correct): **THREE steps found; the parked row REOPENS; the null survives only as a one-corner statement**
+
+**The steps:** (1) θ̇ was a POINT — the swirl (10⁻² H₀) — while the model carries other θ̇
+scales un-banded (the GC's permanent µ, magnitude unresolved; local enhancement along paths
+crossing the vortex network; epoch dependence for early-universe SGWB sources). (2) The
+propagation form was a PICK — the dCS family's distance-accumulating birefringence
+(~f·D·θ̇) runs **~9 orders hotter at LIGO (9×10⁻¹⁵) and FLIPS the band ordering** relative
+to my first-pass form. (3) The θ·R·R̃ COEFFICIENT — the parked item's actual unknown — was
+silently normalized to O(1) and never appeared in the formula.
+
+**The ramped verdict, honest both ways:** the null HOLDS at the swirl corner under every
+propagation form (9×10⁻¹⁵ is still 13 orders below LIGO's reach) — **but the null-break
+threshold is coeff·θ̇ ~ 10¹⁰ H₀, and a µ-scale θ̇ with an unsuppressed coefficient can reach
+it.** The band stays open until the coefficient lands. **Entry 179's "clean null / row
+closed" is RETRACTED to "null at one corner; the coefficient calculation — the row's original
+unblock — remains the decisive unknown."** The parked row reopens with its unblock restored,
+now sharpened by the break-threshold number. The registered model-killer converts to a
+conditional: it arms IF the coefficient computation confirms the suppression.
