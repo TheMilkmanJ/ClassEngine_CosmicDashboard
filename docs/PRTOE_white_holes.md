@@ -341,3 +341,16 @@ PROGRAM: the ceiling (the deposit's opening balance), the growth-ramp BBN re-pri
 fossil-sound/isocurvature lane, the single-source boundary condition. The story earns its
 grade upgrade if and when the program's computations land it — not before, however right it
 feels, and it feels right.
+
+**The egg that opened the clock (the operator's completion of the timer, 2026-07-14):** the
+standard objection — "a white hole needs a reversal of time" — presumes time is already
+running. At the boundary instant there is nothing to reverse. In the maximally extended
+solutions the white-hole region only ever sits in the causal PAST of every observer — GR
+itself files the object as a past-boundary resident, never a bulk one — **which is why every
+search for white holes IN time returns empty while the solution stays valid: its only legal
+address is the first instant.** The operator's inversion completes the reading: *the forward
+motion of time makes sense if the one object that cannot survive it is the egg that opened
+it.* Time's direction is not imposed on the white hole; the white hole's instability IS the
+direction — the timer and the deposit start together, and everything that has ever aged is
+downstream of the one thing that couldn't. [GRAMMAR — the timer section's closing form; the
+falsifiable content remains routed through the thermal program.]
