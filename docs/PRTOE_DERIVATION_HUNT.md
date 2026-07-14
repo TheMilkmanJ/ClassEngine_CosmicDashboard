@@ -6574,3 +6574,22 @@ independently point at the NEUTRINO SECTOR as Λ's home** (the tie at 2.25 = m_l
 friction anchor at 76 ≈ Σm_ν) — both matches post-hoc individually, both upgradeable by ONE
 derivation (Γ₀ from σNN), which would simultaneously be the spurion route's first physical
 receipt. One computation now serves two doors. Queued at the thermal program's head.
+
+## ENTRY 176 — THE σNN FRICTION, FIRST PASS (executed): **ADVERSE — the tree coupling is 22–31 orders too weak across the entire registered v_L band; the grammar's partner survives, the channel does not**
+
+**The rate:** Γ₀ ~ g²n_ν/m with the Majoron identity g = m₃/v_L, computed across the
+registered corner (v_L ∈ [0.1 MeV, 2.7 GeV]): **Γ₀ = 10⁻³²–10⁻²³ eV against the required
+76 meV — 22 to 31 orders short.** The inversion (labeled): the requirement demands
+v_L ~ µeV — excluded by every seesaw corner on the books.
+
+**What survives and what dies, kept separate:** the grammar's PARTNER identification stands
+(the ν bath is still the medium's only tree-coupled bath; the mass-threshold anchor class is
+still where free-streaming ends and grip begins — the third-silence argument is untouched).
+**The tree CHANNEL dies as the carrier:** σNN cannot move the required momentum. The two live
+successors, named: (i) a **collective/coherent channel** — the condensate gripping the bath
+through its tenancy (the ν's tenancy ≈ 1 is gravitational-class occupancy, not a Yukawa),
+where coherent enhancement over N_ν quanta could recover many orders — un-computed, the
+honest next target; (ii) **the thermal door freezes on different physics entirely** and the
+76 ≈ Σm_ν proximity was the menu (the watch already holds it as post-hoc). **Adverse first
+pass, filed as it landed; the neutrino-sector convergence stays on the coincidence watch,
+now with one closed channel and one named open one.**
