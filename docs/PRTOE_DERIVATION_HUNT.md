@@ -6039,3 +6039,19 @@ mode.** Part B's lean upgrades from "adverse, needs a non-generic conspiracy" to
 with an exact, clean, reachable target — pre-registered before the computation runs."** The
 heavy computation now has a number to hit or miss; either way it cannot be argued with
 afterward.
+
+### Entry 158 addendum — the operator's second check: **the 3 is assemblable from the derived splits — 2·(ξ₁/ξ₂) = 2·(3/2) = 3, exactly** (named candidate; menu-watched; the bridge is the missing mechanism)
+
+*The operator: "Check those aren't also the 3 that needs to come out of the basement for 3α."*
+**The sweep (executed, exact):** among all pair-combinations of the Part-B set, exactly one
+structural assembly hits 3: **2·(ξ₁/ξ₂)** — the derived split ratio (−1)/(−2/3) = 3/2 times
+the SAME joint-filing ×2 that fixed the cancellation. Menu density stated honestly: integers
+1–4 are all reachable from simple pairs of this set, so a lone 3 is weak evidence — BUT this
+candidate differs from the refused relabel of amendment 040-A in kind: **its ingredients are
+DERIVED (def563's tensor algebra ran the splits) and the ×2 is standing law, not freedom.**
+What is missing is the bridge: no mechanism says α_c/α should equal twice the mode's split
+ratio. **FILED AS A NAMED CANDIDATE on the coincidence watch, not banked** — and folded into
+the pre-registered heat-kernel session's grading: if that computation delivers p = 5/8 AND
+exhibits a structural bridge from the split couplings to the condensate coupling, the 3α bet
+acquires its mechanism from one structure paying two debts — the jackpot shape, arriving (if
+it arrives) through a computation registered before it ran.
