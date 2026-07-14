@@ -6335,3 +6335,37 @@ perturbations (the un-cancelled mode residual + the m_ν tie). The consistency d
 thermal program inherits: the three residuals must be ONE number. Noted without banking:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature (0.235 meV) — the known cosmic
 near-coincidence, menu-watched, not read.
+
+## ENTRY 166 — THE MISSING BIRTH RAMP AT THE CLASS LEVEL (the operator's H₀ question): **the 73 door is NOT closed — the candidate is the pour's settle-in as growing dark radiation, and it is the v6 triad's own front arriving with a mechanism**
+
+*The operator: "have we double-checked we can't hit H₀ = 73? If the first formation was a
+white hole, there's an ENTIRE ramp missing from the H₀ readings — the ramp started later
+than it should have. The same lesson, applied at the CLASS C-code level."*
+
+**The residual is real:** the coded mechanism delivers 69.9; SH0ES wants 73.0 — the +3.1 gap
+is booked as owned by "the v6 triad / systematics / the unfound."
+
+**The candidate, made concrete (executed estimate):** if the dCDF's radiation-like youth is
+coded as ALWAYS-ON where the white-hole birth says it RAMPED IN (the pour's settling — the
+medium's early excitation decaying into the radiation-like component), the missing piece is
+**extra early radiation that GROWS toward recombination**. Closing +3.1 km/s needs
+**ΔN_eff(recombination) ≈ 0.5–0.8** (at the standard 4–6 km/s per unit). With the growing
+shape the corpus already carries (the v5 file's ΔN_eff ∝ a_x/a_eq structure), **the BBN
+value is 10⁻⁶-class — the Y_p fence passes by orders** (this is what killed every flat-N_eff
+rescue; the ramp shape is what makes this one legal at BBN).
+
+**THE WALL, stated before anyone celebrates:** Planck's high-ℓ damping tail caps
+**free-streaming** ΔN_eff at ≲ 0.34 — below the needed 0.5–0.8. The out, and it is
+class-specific: a **fluid/self-interacting** component carries no free-streaming phase shift
+and evades much of that cap — **and the medium's own excitations are exactly the fluid
+class.** So the candidate lives or dies on its class, which the model does not get to choose:
+the medium's excitations are what they are.
+
+**FILED AS THE THERMAL PROGRAM'S H₀ ITEM (pre-registered shape, not coded, not banked):**
+the birth ramp at the CLASS level = a fluid dark-radiation component ρ_x with the settle-in
+growth shape, amplitude a *derived* target (the pour's settling rate — the same single-source
+account), required to land ΔN_eff(rec) ≈ 0.5–0.8 AND pass the Planck fluid-class fit. Kill
+conditions inherited: the damping-tail fit itself; any BBN leakage; the three-door Λ
+consistency (the same residual excitation cannot be spent twice — the Λ identification and
+the H₀ ramp draw on one account, and the books must show both withdrawals). *Estimate grade;
+upside direction — revival-watch rules apply; the referee gates it.*
