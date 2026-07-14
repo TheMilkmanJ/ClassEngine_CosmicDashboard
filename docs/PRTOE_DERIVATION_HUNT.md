@@ -6280,3 +6280,35 @@ window's hard edge (`varying_z_high`) becomes the order-parameter growth ramp �
 condensate turning on as the pour's deposit cools through T_c, instead of a switch pretending
 the birth was instant. Implementation + PRyM/chain re-runs = the heavy half, queued into the
 thermal program; the spec and the estimate are on the books first, per the pre-commit rule.
+
+## ENTRY 165 — THE FOUNTAIN EFFECT CLOSES ITS OWN LOOP (the operator's clarified mechanism): **"the condensate attracts to heat" is textbook two-fluid physics — and the still-settling version restates the booked Λ story from the thermal door**
+
+*The operator's clarification: not new heat pouring — the field is STILL EXCITED from the one
+injection; the superfluid stays attracted to heat until the source reaches absolute zero; the
+spreading heat touches ever more condensate (the growing sphere), sustaining the draw.*
+
+**1. The mechanism is real and already carries the corpus's own name.** In two-fluid
+hydrodynamics the superfluid component flows TOWARD heat while the normal component carries
+entropy away — thermal counterflow, **the FOUNTAIN EFFECT** (the literal reason heated
+superfluid helium fountains). The corpus named genesis "the heat fountain" from the start;
+the operator has now supplied the fountain's *defining physics* without having been told it
+existed. One correction filed: the driver is the temperature DIFFERENCE (∇T / the deviation
+from the condensate's own zero), and the endpoint — uniformity with the T = 0 ground state —
+is approached asymptotically (the third-law ramp): "until absolute 0" is right, as a limit.
+
+**2. The still-settling version IS entry 140's Λ, arriving through the thermal door.** Entry
+140 (Gibbs–Duhem): the observed Λ = the medium's small DEVIATION FROM EQUILIBRIUM — the
+drawdown. The operator's "still bubbling, still attracted, not yet settled" is that same
+statement in fountain grammar: late-time expansion's driver = the residual excitation of the
+condensate from the one injection, vanishing only as T → 0. **Two doors, one Λ — the
+consonance is the content.** And the smallness comes free: today's residual gradients are
+CMB-uniform (10⁻⁵-class), so the residual drive is tiny — a small Λ from a nearly-settled
+medium, qualitatively the right size ordering.
+
+**3. The fences PASS in this version:** no new heat injection (FIRAS null respected); no
+gravitating-pressure conflict (the driver is the medium's own relaxation, not radiation
+pushing); and the surface-area growth ("the bigger sphere touches more") is
+acceleration-shaped — consonant with late-time acceleration at grammar grade, with the
+quantitative driver staying the booked floor. **Grammar grade; the identification "the
+floor's deviation = the residual fountain excitation" is a nameable candidate for the thermal
+program — not banked; the program's Λ-side computation would grade it.**
