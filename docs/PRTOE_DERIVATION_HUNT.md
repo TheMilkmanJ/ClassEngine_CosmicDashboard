@@ -6462,3 +6462,28 @@ medium at two scales — a structural identity, not a numeric coincidence, so th
 rules have nothing to bite). The usable content: the quantum-mechanics files' three
 phenomena now carry their door addresses, and any future thermal-program result on the
 tunneling/rate side speaks to BOTH floors at once.
+
+## ENTRY 172 — THE THERMAL PROGRAM'S COMPUTABLE-NOW SWEEP (operator's order; executed, all three):
+
+**A. The thermal door's Λ value — honest and adverse-leaning:** the naive settle-scale anchors
+(the surviving baths: T_γ = 0.235 meV, T_ν = 0.168 meV) land **~10× BELOW** the other two
+doors' readings (1.71, 2.25 meV). The thermal residual is NOT bath-temperature-set; the
+settling law (the fountain's decay rate against the expansion) is genuinely owed and remains
+the door's missing computation. *Filed plainly: the three-value convergence currently stands
+at two-of-three, with the third door's naive reading low by an order.*
+
+**B. The double-spend check — CLEARS at naive grade:** the two withdrawals (Λ ≈ 0.69 of
+critical today; the birth-ramp radiation ≈ 3×10⁻⁶ today, dominant only at its own early
+epoch) are both dwarfed by the wallet (the pour's principal = the full early radiation
+budget) at every epoch. **No conflict; the fence stays as bookkeeping, not as a threat.**
+
+**C. SECOND SOUND — a new paired signature falls out:** in the deep sub-T_c phonon-gas limit
+c₂ = c₁/√3; with the medium's first sound c₁ = √α_c·c and the registered bet α_c = 3α:
+**c₂ = √α·c ≈ 0.0854c — the isocurvature channel propagates at √α times light, EXACTLY iff
+α_c = 3α holds.** The α_c chain and any isocurvature phase measurement now grade each other —
+one bet, two independent instruments. (Fences: the √3 is the phonon-gas limit, stated; the
+signature inherits P-040's bare-bet status — a *consequence pairing*, not a new claim.)
+
+**Still heavy, still owed (not computable tonight):** the anisotropic heat kernel (p = 5/8),
+the pair susceptibility (the 60 MeV bar), the RG resummation, the stiffness ceiling, the
+settling law itself. Task 42 updated.
