@@ -907,8 +907,14 @@ int background_varconst_of_z(
       double w = pba->varconst_transition_width;
       double f_low = 0.5*(1. + tanh(log((1.+z)/(1.+pba->varconst_transition_redshift))/w));
       double f_high = 1.;
-      if (pba->varconst_z_high > 0.)
-        f_high = 0.5*(1. - tanh(log((1.+z)/(1.+pba->varconst_z_high))/w));
+      if (pba->varconst_z_high > 0.) {
+        /* PRTOE growth ramp (2026-07-14, hunt entry 164): below the condensation the
+           order parameter GROWS, v^2 propto (1 - T/T_c) with T propto (1+z) -- the
+           condensate is born as the pour's deposit cools, not switched on (mean-field
+           beta = 1/2; validity certified by Gi << 1 from the model's own couplings). */
+        f_high = 1. - (1.+z)/(1.+pba->varconst_z_high);
+        if (f_high < 0.) f_high = 0.;
+      }
       double f = f_low*f_high;
       *alpha = 1. + (pba->varconst_alpha - 1.)*f;
       *me = 1. + (pba->varconst_me - 1.)*f;
@@ -922,8 +928,15 @@ int background_varconst_of_z(
         *me = 1.;
       }
       else {
-        *alpha = pba->varconst_alpha;
-        *me = pba->varconst_me;
+        /* PRTOE growth ramp (2026-07-14, hunt entry 164): same order-parameter birth
+           in the step branch -- full strength only well below T_c. */
+        double f_growth = 1.;
+        if (pba->varconst_z_high > 0.) {
+          f_growth = 1. - (1.+z)/(1.+pba->varconst_z_high);
+          if (f_growth < 0.) f_growth = 0.;
+        }
+        *alpha = 1. + (pba->varconst_alpha - 1.)*f_growth;
+        *me = 1. + (pba->varconst_me - 1.)*f_growth;
       }
     }
     else{
