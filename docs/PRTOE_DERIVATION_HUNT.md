@@ -5641,3 +5641,20 @@ entry 139); T(H=m) = 9.41 keV (identity, code-matched 1.002×); the VEV/T_c band
 the log-instability and the 193 keV re-audit already flagged); Σm_ν (registered); Ψ₀
 (arithmetic); λ ≤ 2×10⁻⁹¹ (derived); Γ/H = √3 (discharged one-pager); f_lock (simulation);
 δ, A (measured, entry 142); the retired numbers (n = 19, 12π) staying retired.
+
+## ENTRY 145b — FLAG 3 CLOSED: the 553 km/s fence's receipt, written
+
+**The reconstruction:** 553 km/s = √(c² · f_lep · ε₀) with **f_lep = m_e/2m_u = 2.743×10⁻⁴**
+(the Y_e = ½ convention — one electron per two nucleons, the Z/A ≈ ½ composition of helium
+and everything heavier) and ε₀ = 1.24%. Arithmetic: √(8.988×10¹⁰ × 2.743×10⁻⁴ × 0.0124) =
+**552.9 km/s. Exact.** The "×1.98 for gas" of entry 84 is the same formula at the
+hydrogen-rich end (Y_e → 1 doubles ΔΦ). A 549 km/s variant elsewhere in the corpus is the
+ε₀-rounding (1.232% vs 1.24%) — same object.
+
+**Why the convention is the RIGHT one for a fence:** Y_e = ½ is the composition *minimum* —
+every realistic mix (stars at Y_e ≈ 0.85, primordial gas ≈ 0.88, pure H = 1) carries more
+electrons per unit mass and therefore a LARGER potential step. **553 is the conservative
+floor; the exclusion argument (ΔΦ ≫ real halo potentials ~(200 km/s)²) holds a fortiori for
+everything real.** One label loosened: entry 84 called Y_e = ½ "stars" — real stars sit at
+Y_e ≈ 0.85 (720 km/s); the fence's logic never depended on the label, only on the floor.
+Receipt written at the citation site (THE_AMPLITUDE). **Flag 3 closed.**
