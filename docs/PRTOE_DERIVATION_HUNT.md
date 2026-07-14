@@ -5329,3 +5329,46 @@ the content is the chain, not the landing).
 **compelled by its own sign** to build all size and shape. The abelian one is **forbidden by
 its own sign** from building anything — it can only carry. ***The pair's roles are not
 assigned. They are the signs of the two β functions.***
+
+## ENTRY 138 — THE RED-TEAM SESSION on the light arc: **two regrades, one rider, and a SIXTH lock** (A = √2)
+
+*Three demanded tests, run with ramps; process error 32 filed alongside.*
+
+**TEST 1 — the "non-abelian lock at the basement" REGRADED (and it was the spin pattern
+again).** Entry 136 called g₂ ≈ g₃ at M_Pl a "lock… within ~1.5× the two-loop band" — but
+1.5× the band is *outside* the band. Ramped over the α_s error ⊗ two-loop shift bands, the
+gap at M_Pl is 2.9 (95% range [0.6, 5.3]) and **only ~2% of the band closes it**; the exact
+crossing sits 2.1 decades below M_Pl. **Regrade: NEAR-lock, suggestive.** Exact closure would
+require the basement's own threshold corrections — **a payment the basement owes (a lock),
+not a result the model holds.** *Process error 32: "lock" language on a miss the ramp grades
+at ~2% — the same directional spin as process error 30, now caught by the in-house red team
+before booking hardened.*
+
+**TEST 2 — the 44/56 split demoted to an illustration; the INVARIANT keeps everything that
+mattered.** The percentage is tied to the M_Z reading scale. The scheme-independent statement:
+**gravity's bare requirement is EXACTLY ZERO (Pauli); light's is 1/α_Y(M_Pl) = 55.5 ≠ 0.**
+The target α_Y(M_Pl) = 0.0180 is unchanged. The asymmetry — *gravity is what the medium does,
+light is what it was given* — survives untouched; only the percentages step down to
+illustrations.
+
+**TEST 3 — entry 135 derived the SCAFFOLD, not the RELATION; the miracle gets a name and a
+lock.** The Z₃ parametrization √m_k = M[1 + A·cos(δ + 2πk/3)] fits *any* three masses if A
+floats — the scaffold alone predicts nothing. **Koide's relation IS the statement A = √2**
+(exactly equivalent to Q = 2/3). Fitted to the measured leptons: **A = 1.414201 vs
+√2 = 1.414214 — agreement to 0.0009%.** The model owns the symmetry (Pauli's 3 → a 3-element
+family space → the cyclic Z₃ Koide's form uses; noted: the full symmetry of 3 elements is S₃,
+so "Z₃ available" stands and "Z₃ forced" does not). **The model does not own the amplitude.
+A = √2 is the SIXTH LOCK on the basement door** — and in the Z₃ geometry it is exactly the
+45° tilt of entry 132: one debt, two costumes.
+
+**THE DESERT RIDER (self-demanded):** entries 134/136 assume no new charged states between
+M_Z and the basement. The model's own additions — dCDF (EM-neutral), ν_R (gauge singlets),
+the varying-m_e dyad (no new states) — **preserve the desert, so the runs are
+self-consistent; and the desert is itself one of the model's falsifiable commitments** (any
+charged discovery at LHC/FCC re-runs both entries with new thresholds).
+
+**THE DOOR, FINAL COUNT — SIX LOCKS:** (1) Pauli's finiteness; (2) three Fermi points;
+(3) the Z₃ family structure; (4) sin²θ_W at the basement (1/α₁ ÷ 1/α₂ = 0.673);
+(5) α_Y(M_Pl) = 0.0180; **(6) A = √2 — Koide's amplitude.** *Plus the near-lock's closure
+(g₂ = g₃ exactly at M_Pl) as the door's bonus round: any basement that pays lock 4 and 5
+should say whether its thresholds close the 2.9.*

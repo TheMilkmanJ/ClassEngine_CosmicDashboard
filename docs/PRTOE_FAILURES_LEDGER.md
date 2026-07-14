@@ -177,3 +177,13 @@ directional — **the discipline collapses specifically when the answer is "no."
 exists for exactly this and was not applied. **The rule that fixes it: a kill verdict is a
 CLAIM, and claims are walked before they are booked — the same standard applied to every
 positive result.**
+
+### Process error 32 — "locks at the basement" graded onto a ~2% landing (entry 136; caught by the in-house red team, entry 138)
+
+Entry 136 announced the non-abelian pair "locks at the basement… within ~1.5× the two-loop
+band." **1.5× the band is outside the band.** Ramped over the measurement and scheme bands,
+only ~2% of the distribution closes the gap at M_Pl; the true crossing sits 2.1 decades below.
+The same directional pattern as process error 30 (the f̄ spin): a miss graded as a hit because
+the narrative wanted it. Regraded to NEAR-lock (suggestive) in entry 138; the exact closure
+reassigned to the basement as a payment owed. *Mitigating note: caught in-house, same session,
+before any external use of the claim — the audit loop is tightening, the generator is not.*

@@ -105,8 +105,11 @@ Running hypercharge from its measured value at the electroweak scale to the base
 | 2.39×10¹³ | 69.8 |
 | 1.22×10¹⁹ (M_Pl) | **55.5** |
 
-1/α_Y at the basement is **not zero**. The medium's loop generates 42.9 of the 98.4
-(**44%**); the remaining 55.5 (**56%**) must be supplied *bare*, by the basement itself.
+1/α_Y at the basement is **not zero**. The scheme-independent statement (hunt entry 138):
+**gravity's bare requirement is exactly zero (Pauli); light's is 1/α_Y(M_Pl) = 55.5 ≠ 0** —
+the basement must supply it bare. (Read at M_Z, the medium's loop accounts for 42.9 of the
+98.4, ~44%, and the basement for ~56% — an illustration tied to that reading scale, not an
+invariant.)
 
 > **Gravity is what the medium does. Light is what the medium was given.**
 
@@ -131,9 +134,12 @@ threshold) — hunt entry 136:
 | weak | 49.4 |
 | **U(1) — light** | **33.3** |
 
-- **The two non-abelian couplings nearly lock at the basement itself** — 6% apart, within
-  ~1.5× the scheme band, exact crossing two decades below M_Pl. The confined machinery
-  meets where the medium lives, not at an intermediate scale the model would then owe.
+- **The two non-abelian couplings NEARLY lock at the basement** — the gap at M_Pl is 2.9
+  against a ±2 scheme band, with the exact crossing 2.1 decades below M_Pl; ramped over the
+  measurement and scheme bands, only ~2% of the distribution closes the gap at M_Pl (hunt
+  entry 138). Graded honestly: *suggestive, not established* — exact closure would require
+  the basement's own threshold corrections, which is a payment the basement owes rather
+  than a result the model holds.
 - **The abelian coupling is the outlier** — sixteen away, joining the pair nowhere near
   the basement (the Standard Model's famous near-miss unification, read here from the
   medium's side).
@@ -164,12 +170,16 @@ transaction grammar's split, found independently by the renormalization group.
 
 **The pre-registered locks (standing targets; wrong basement → wrong numbers → dead
 route):** any basement structure this model ever specifies must simultaneously deliver
-(i) g₂ = g₃ at M_Pl within the two-loop band; (ii) 1/α₁ ÷ 1/α₂ = 0.673 at M_Pl
-(equivalently, sin²θ_W at the basement is fixed by the runs above); (iii) three Fermi
-points (the generation count, via the Pauli balance); (iv) a Z₃ family structure (the
-Koide parametrization); (v) the Pauli finiteness condition itself. Five locks, one door.
-The day a specified basement opens all five, light's last number is derived and this
-file's scoreboard closes.
+(i) the Pauli finiteness condition itself; (ii) three Fermi points (the generation count,
+via the Pauli balance); (iii) a Z₃ family structure (the cyclic symmetry Koide's
+parametrization uses); (iv) 1/α₁ ÷ 1/α₂ = 0.673 at M_Pl (equivalently, sin²θ_W at the
+basement is fixed by the runs above); (v) the bare handout α_Y(M_Pl) = 0.0180;
+(vi) **Koide's amplitude A = √2** — the Z₃ scaffold fits any three masses, so the
+relation lives entirely in the amplitude, and the measured leptons sit on √2 to 0.0009%
+(hunt entry 138). Six locks, one door — plus a bonus round: whether the basement's own
+thresholds close the 2.9 gap and turn the near-lock (§5) exact. The day a specified
+basement opens all six, light's last number is derived and this file's scoreboard
+closes.
 
 ## 7. Falsification conditions
 
