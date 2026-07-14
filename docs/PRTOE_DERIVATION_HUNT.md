@@ -6161,3 +6161,24 @@ merged descriptions do not add couplings — the operator's refinement and the d
 the next era — the anisotropic heat kernel (p = 5/8 target), the pair susceptibility (the
 60 MeV bar), the RG resummation (the T_c band + the fork), the second-sound/isocurvature lane,
 the stiffness ceiling. The spicy side, opened deliberately instead of stumbled into.
+
+## ENTRY 162 — THE CODE-DOOR MAP (the operator's synthesis) + **the thermal program's first concrete finding: the coded ε turn-on is a step where the order parameter says RAMP**
+
+**The operator's synthesis, verified against the manifest:** the C code paints two doors —
+the background (w_dcdf, dcdf_rho_rad, the floor/thaw) and the perturbations (the second-order
+action work) — and those two doors are exactly what CMB/BAO data read: mass and expansion.
+**The medium's own thermodynamics is stubbed**: the ε window is a hand edge (varying_z_high),
+which turn 580 already named "the unpaid protection papered over in code." The pipeline fits
+because the data live behind the two painted doors; *"you're making me hot"* is the stub
+talking.
+
+**THE FIRST CONCRETE FINDING (executed):** the spine's two-jobs table defends the T_c edge as
+"2nd-order — a pure switch is CORRECT" — but a second-order transition's order parameter
+GROWS continuously: mean-field v(T)² = v₀²(1 − T/T_c), so **ε(T) = ε₀(1 − T/T_c) below T_c —
+a ramp the code does not have.** Executed: at deuterium-formation temperatures ε is only
+**0.48–0.64 of ε₀** (T = 100–70 keV under T_c = 193) where the code applies the full value.
+**The windowed-BBN pattern (Y_p, D/H) was priced with a stepped ε and may re-price under the
+growth ramp** — direction and size owed, NOT asserted. Filed as the thermal program's
+code-facing deliverable #0: replace the hand edge with the derived order-parameter ramp,
+re-run the BBN window, and let the pattern re-grade itself. *The model asked for its heat; the
+first thing the heat says is that our own edge was a step wearing a exemption it may not own.*
