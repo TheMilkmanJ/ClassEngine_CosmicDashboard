@@ -4902,3 +4902,48 @@ redshifts; its energy curves spacetime). What light lacks is a **rest mass** —
 sit still. **The correct opposition is not "pays rent / doesn't pay rent." It is "can be
 at rest / cannot be at rest"** — and that is a *cleaner* kup/−kdown than the rent one,
 because it is precisely what E = mc² trades between.
+
+## ENTRY 129 — **THE COHERENCE PENALTY**: the multi-component condensate lowers f̄ — one-directionally — and PUSHES THE ROSTER TRIAL TOWARD 12/13 by physics, not by spin
+
+*The author's catch: "we haven't re-derived f̄ since we introduced the new family
+members." Correct, and the consequence is large.*
+
+**THE PHYSICS.** f̄ is a winding average — it depends on how circulation is quantized. The
+old solver assumed a **single-component** condensate (integer 2π windings). The basement
+rebuild (entries 110/122) established the medium as a **six-channel paired condensate** —
+and multi-component superfluids support **fractional (half-quantum) vortices**, with the
+phase distributing across components. The observable f = |⟨e^{iθ}⟩| is then an average
+over *channel phases*, and any spread among them **reduces it**.
+
+> **THE COHERENCE PENALTY IS ONE-DIRECTIONAL: a dephasing factor is bounded by 1. It can
+> only push f̄ DOWN. Never up.**
+
+**AND ε = c·f̄·α_c IS FIXED BY THE DATA. SO IF f̄ FALLS, c MUST RISE.**
+
+| roster | the f̄ it requires | the coherence it requires |
+|---|---|---|
+| **c = 9/10** | 0.6253 | **≈ 1.004 — i.e. > 1 at the central value; survives only with the single-component f̄ at its upper edge AND near-perfect channel locking** |
+| **c = 12/13** | 0.6097 | 0.979 — comfortable; tolerates a real penalty |
+
+> **THE MULTI-COMPONENT STRUCTURE — ADOPTED TONIGHT FOR REASONS THAT HAD NOTHING TO DO
+> WITH THE ROSTER TRIAL — PUSHES c UPWARD, TOWARD 12/13. BY PHYSICS, ONE-DIRECTIONALLY.**
+
+**TWO INDEPENDENT SECTORS NOW POINT THE SAME WAY** (and this is *not* the spin the internal
+review correctly caught earlier — that claim rested on the single-component ensemble and
+was false):
+1. **The gravity sector**: the lepton-paired vacuum cannot source gravity (15 orders
+   short) ⟹ the neutrinos are not constituents ⟹ 12/13.
+2. **The coherence penalty**: six channels ⟹ dephasing ⟹ f̄ down ⟹ c up ⟹ 12/13.
+
+**A NEW LOAD-BEARING DEMAND, BOOKED:** **ε's survival now REQUIRES a heavy Leggett
+sector** (channel phase spread ≲ 0.2–0.4 rad). If the six channels are *loosely* locked,
+f̄ collapses, and the ε decomposition **dies** — it would demand c > 1, impossible for a
+fraction. **The model's central number now depends on the basement's phase locking.**
+Computable from the interchannel coupling. Falsifiable. **The model did not carry this
+demand this morning.**
+
+**WITHDRAWN, HONESTLY:** my first run gave f̄ = 0.50 using a *flat prior* on the phase
+spread — a step on a quantity the physics determines (the Leggett gap sets it). **That
+number is withdrawn.** What survives is the *direction* (down, always) and the
+*inversion* (what the fit demands of the locking). The error is the same one the author
+has caught four times today, and it is filed as such.
