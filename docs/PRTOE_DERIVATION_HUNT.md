@@ -6055,3 +6055,18 @@ the pre-registered heat-kernel session's grading: if that computation delivers p
 exhibits a structural bridge from the split couplings to the condensate coupling, the 3α bet
 acquires its mechanism from one structure paying two debts — the jackpot shape, arriving (if
 it arrives) through a computation registered before it ran.
+
+### Entry 158 second addendum — the operator's third check: **the ghost side (light + expansion) is NOT the k₁ = 0 — it is the m² = 0: two different zeros guard the same balance, one per family**
+
+*The operator: "check that the ghost side's expansion and light isn't the k₁ = 0, since light
+and expansion are massless." Checked against the formula (executed):* in
+1/G = −(1/2π)·str[k₁·m²·ln(m²/µ²)], **massless species contribute exactly zero regardless of
+their k₁ weight** — the m²ln m² factor kills their term, and the limit is smooth (a ramp
+exit, not a step). So the receipt sector (light, the expansion mode, every Goldstone) is
+exempt from gravity's construction **by masslessness — automatically, theorem-grade** — while
+the medium's MASSIVE mode is the only resident that must be exempted **by structure**
+(k₁ = 0, the p = 5/8 target). **Two exits from the supertrace, one per family: the massless
+pair leaves by nature; the working side must balance by the books.** The receipt theorem
+(entry 137 — forbidden from building) extends one floor down: the receipt sector cannot even
+help build G. The operator's grammar again anticipated the accounting: the k₁ = 0 burden
+falls only where the mass does.
