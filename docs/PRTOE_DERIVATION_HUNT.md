@@ -5752,3 +5752,27 @@ the hinge's mass-leg (no census route exists in the standing decomposition). Wha
 running chain), and the labeling fixes themselves. The spine and the citation-site riders are
 corrected to the measured reading. *The sweep's lesson compounds: a stale receipt can be stale
 TWICE — the c=1 was wrong, and the whole relation it lived in was already dead.*
+
+## ENTRY 149 — THE RAMP-ORIGIN REMAINDER (task closed): the T_c re-audit CLOSES, the precursor question opens a NAMED FORK WITH TEETH, and ⟨ε⟩(z) is safe
+
+**PIECE 1 — the T_c re-audit (flagged-not-taken since the BBN-witness day; now taken):**
+T_c = m_e0·√(3(L−1)/2π²) swept over L−1 ∈ [2, 10] with the leading-log scheme carried as a
+×[0.5, 2] band gives an honest envelope **[~140, ~900] keV. The adopted 193 keV is
+CONSISTENT-BUT-CHOSEN** — it sits at the low edge (L−1 ≈ 2, scheme ×0.7), selected by the
+windowed-BBN pattern. The selection is data-side and now labeled; the Y_p verdict's sign is
+unchanged anywhere in the band above ~100 keV. **Re-audit closed: no buried step.**
+
+**PIECE 2 — the T_c PRECURSORS: a fork with teeth, honestly filed.** Above T_c a light scalar
+carries thermal fluctuations ⟨φ²⟩ = T²/12; with δm_e/m_e = ε·⟨φ²⟩/v² and v ≈ 100 keV, the
+naive tail at T = 1 MeV is **⟨φ²⟩/v² ≈ 83 — an 83ε shift inside the weak-rate window, a BBN
+catastrophe — IF the coupling κ is fundamental.** If κ is CW-*emergent* (the tachyonic
+curvature that creates the coupling IS the transition), the tail is absent and the gate-0
+clearance is firm. **Not closable at estimate grade. FILED AS A NAMED FORK — and its referee
+already exists: the RG-resummation docket (owed for the T_c log) decides κ's symmetric-phase
+behavior. One docket now referees two questions, and one of its branches threatens gate-0.**
+
+**PIECE 3 — ⟨ε⟩(z) from structure formation (reading B):** lognormal density PDF ⊗ the steep
+gate, ramped over C_ref ∈ [2, 5], s ∈ [3, 6], σ₀ ∈ [1.5, 2.5]: the cosmic-mean ε stays
+> 0.99·ε₀ for z ≥ 5 (C_ref = 5) and erodes only ~1–10% by z ≲ 1 even at the aggressive
+C_ref = 2. **The mean-field history the fingerprint lattice rides is safe; reading B puts the
+action in the SCATTER (the fences' home), not the mean.** Estimate-grade, ramped.
