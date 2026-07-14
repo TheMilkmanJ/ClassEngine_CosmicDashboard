@@ -5295,3 +5295,37 @@ ever specifies must deliver **g₂ = g₃ at M_Pl (within two-loop)** and **1/α
 at M_Pl** (equivalently: sin²θ_W at the basement is now fixed by tonight's runs). **Wrong
 basement → wrong numbers → dead route.** The door now has two locks, and both have
 combinations written on record.
+
+## ENTRY 137 — **THE WORKING NUMBER**: the author's "only one of them puts in the work" is the sign structure of the two β functions — a theorem, not a reading
+
+*The author, on entry 136's two handouts: "2 numbers, only 1 of them is actually putting in
+the work… the other brings expansion and light, measured as a receipt. The other brings size
+and shape."*
+
+**THE MECHANISM — dimensional transmutation, the deepest known origin of mass:** a non-abelian
+coupling *grows* on descent; where it turns strong, it **confines**, and that scale — Λ —
+is manufactured out of a pure number: Λ = M_Pl·exp(−2π/(b·α₃(M_Pl))). **A size, made from a
+number.** Walked down from the basement's handout 1/α₃(M_Pl) = 52.4 with the flavour
+thresholds ramped (b₃ = 7 → 23/3 → 25/3 → 9), confinement lands at Λ ≈ 10² MeV and
+m_p ~ 4Λ ≈ 938 MeV — right, *as it must be* (the run is anchored at the measured couplings;
+the content is the chain, not the landing).
+
+**WHAT THE CHAIN ESTABLISHES:**
+
+1. **"One of them puts in the work" — the non-abelian number builds EVERY size.** The proton's
+   mass is 99% QCD binding energy (not Higgs); its radius is 1/Λ; nuclear sizes, atomic
+   densities, the scale of every solid object all descend from Λ. **And Λ is nothing but the
+   basement's 52.4, exponentiated. Size and shape are the working number's output — literally.**
+2. **The exponential stakes:** a ±10% change in the handout rescales all matter by ~×100 in
+   both directions. *The entire material hierarchy — why matter sits 19 orders below Planck —
+   is the logarithm the working number pays out.*
+3. **"The other one cannot work" — a THEOREM:** an abelian coupling *shrinks* on descent (its
+   β carries the opposite sign). It never turns strong, never confines, **never manufactures a
+   scale.** The U(1) is structurally incapable of building a size: its boson stays massless,
+   its force stays infinite-range, its sector stays **scaleless — which is exactly what a
+   receipt is: the record that crosses every scale unchanged.**
+
+**THE SPLIT, FINAL FORM:** the basement hands down two numbers. The non-abelian one is
+**compelled by its own sign** to build all size and shape. The abelian one is **forbidden by
+its own sign** from building anything — it can only carry. ***The pair's roles are not
+assigned. They are the signs of the two β functions.***
