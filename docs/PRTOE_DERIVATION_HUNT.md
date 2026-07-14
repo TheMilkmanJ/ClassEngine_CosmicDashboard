@@ -5996,3 +5996,23 @@ flagged exposure to the medium's own mode.
 **THE DOCKET'S HONEST STATE:** two receipts owed, both adverse-leaning at first pass, both
 genuinely heavy. Neither is spun; neither is dead. The model's two sharpest open questions
 now have their first-pass numbers on the record — and both point the hard way.
+
+### Entry 157 ramp completion (the operator: "Don't forget to ramp" — two steps found and walked; executed)
+
+**STEP 1 FOUND (Part A): the form-factor power n = 4 was a menu pick.** Ramped over n
+continuously: closure of gate-0 requires **n ≥ 14–27** across the window and VEV band — no
+physical multipole reaches it; **the power-law family is excluded as a class, by the ramp,
+not by one member.** The exponential branch then quantifies the survival condition exactly:
+**the constituent gap must satisfy M ≳ 20 MeV (window bottom) to M ≳ 60 MeV (window top)** —
+the spectral-gap condition now carries a number: the dyad's constituents must be gapped at
+**≳ 60 MeV**, six hundred times the condensate's own VEV. Statable, falsifiable, and steep.
+
+**STEP 2 FOUND (Part B): the 7/6 was quoted as a point.** Ramped over the split partner's
+trace projection p ∈ [0, 1]: the residual runs 1.167 → 0.500 — **the partner alone can never
+cancel the R-piece** (max reach 2/3 < 7/6). The ghost-kinetic term must supply the remaining
+0.50–1.17 against its naive |Z| = 0.375: **cancellation requires the ghost's k₁ weight at
+×1.33–×3.1 its naive size — reachable within O(1) freedom, NOT generic.** The full
+anisotropic trace decides; the ramp converts "unverified" into a quantified reach condition.
+
+*Both first-pass verdicts survive the ramps unchanged in direction — adverse-leaning — and
+both conditions are now numbers instead of adjectives.*
