@@ -6388,3 +6388,23 @@ our CMB stack carries no BBN likelihood, so the stand-in is legal for THIS test)
 double-spend fence (one residual account funding Λ and this) stands unresolved. **Filed as:
 the door is open at thermo grade with margin; the full fit is the thermal program's shot;
 nothing banked.** Upside direction — revival rules; the referee gates.
+
+## ENTRY 168 — THE STALE-BAND FLAG (the operator's timing point): **the registered thaw band (w₀, wₐ) is a PRE-POUR derivation — if the birth-ramp radiation is adopted, the whole late-time clock re-prices and the band must be re-derived BEFORE any DESI grading**
+
+*The operator: "it's not about whether the ramp directly touches late time — the ramp gives it
+the correct timing to START. The band you're quoting is pre-thermodynamics."*
+
+**The mechanism, executed:** the birth-ramp radiation (entry 167's ΔN_fluid ≈ 0.26) raises
+ω_r ×1.035 → **z_eq shifts −3.4%** (−6.4% at ΔN = 0.5) — and every equality-anchored timing
+downstream moves with it: the growth history, the turnaround arithmetic, the thaw's a³
+normalization, hence the projected apparent (w₀, wₐ). **The registered thaw band
+(−0.92…−0.86, −0.2…−0.5) was derived on the pre-pour clock. The operator's point stands.**
+
+**THE LEGAL STRUCTURE, so no grading gets contaminated:** the running conv_desi/routeD chains
+sample the REGISTERED model (no birth-ramp component) — their DESI verdict grades that
+branch, and stays legal for it. **IF the birth-ramp component is adopted (the thermal
+program's full-fit shot), the thaw band must be RE-DERIVED under the birth clock and
+pre-registered BEFORE comparison to DESI** — never tuned after reading the contour. Filed as
+the thermal program's DESI-side item, paired with its H₀ item (one component, both ends of
+the clock, one derivation). *The pour rewrote the first chapter; this entry books the fact
+that the last chapter's page numbers shifted with it.*
