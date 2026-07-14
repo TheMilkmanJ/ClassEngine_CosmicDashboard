@@ -5802,3 +5802,12 @@ fifth-force nulls, killable by any detection requiring ξ ≠ 1/6.
 the F(φ)-form's magnitude conventions are absorbed in A(φ)'s normalization — the sharp claim
 is the curvature coupling. *The founding coupling, unfixed since genesis, is pinned by the
 newest law in the book — and the pin is the number that makes its own weight vanish.*
+
+### Entry 147 addendum — the owed geometry, delivered
+
+The evacuated feeding tube, sized across the discharge band (χ ∈ [4.0, 5.3], 14 e-folds):
+**extent ≈ 67–69 Mpc comoving, evacuation 100.0% in the dark component, distance from the
+observer ≈ 2,940 Mpc** — parked at the genesis end of the ~3 Gpc axis, stable across χ.
+The remote-void note now has its footprint: a ~70 Mpc, dark-only, axis-aligned hole at
+z ≈ 1-class comoving distance, nowhere near any local survey sphere. Note-grade, unclaimed;
+the local KBC verdict (cold, three receipts) is unchanged.
