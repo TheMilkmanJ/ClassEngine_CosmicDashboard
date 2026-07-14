@@ -5038,3 +5038,39 @@ a 45-year-old numerical mystery into a structural consequence.**
 *Method note, adopted: the author's correction stands — "no known mechanism" is not "no
 mechanism." A model coming up short is DATA ABOUT WHERE TO LOOK, not a verdict. The
 filter stays on; the following resumes.*
+
+## ENTRY 132 — **THE Z₃/Z₄ COLLISION**: Koide demands a three-fold symmetry; the model's registered lock is FOUR-fold. A real, sharp, structural contradiction — worth more than a match.
+
+**THE CHASE (entry 131's debt, run):** does the basement's topology place its Fermi points
+at 120°?
+
+**FINDING 1 — Koide's 2/3 is a 45° STATEMENT.** Writing the three √masses as a vector,
+Koide's relation is *exactly* the statement that this vector sits at **45° from the
+democratic direction (1,1,1)**. Measured: **44.9997°.** So **two angles do two jobs**:
+- **120°** = the Z₃ **form** (three points around a circle — the parametrization);
+- **45°** = the **value** (the tilt that makes the ratio 2/3).
+
+**FINDING 2 — THE AUTHOR'S 3/2 IS EMPTY.** 3/2 = 1/(2/3). Inverting a ratio is not a
+second relation. Arithmetically true, physically vacuous. **Noted and closed.**
+
+**FINDING 3 — THE COLLISION (and it is the real result):**
+> **The model's registered discrete symmetry is Z₄** — *"Z4 forced (parity +
+> renormalizability)"*, from the CP/genesis row. **The basement is FOUR-fold locked.
+> Koide demands THREE-fold. THEY DO NOT MATCH.**
+
+A Z₄-locked order parameter does not naturally produce a three-fold Fermi-point
+arrangement. **Exactly one of these must be true:**
+1. **the Z₄ lock is wrong** (it rests on parity + renormalizability — a re-audit is owed);
+2. **Koide's Z₃ lives in a different space** than the basement's Z₄ (internal flavor space
+   vs the condensate's phase space — they need not be the same circle);
+3. **the generations do not come from the basement's discrete symmetry at all**, and the
+   Fermi-point route to Koide is dead.
+
+**THIS IS A SHARP, FALSIFIABLE, STRUCTURAL QUESTION — and it is worth MORE than a match
+would have been.** A match would have been a coincidence to firewall. A **collision** is a
+place the model can be shown wrong, and it names exactly where to dig.
+
+**DOCKETED:** (a) re-audit the Z₄ lock's derivation; (b) determine whether the flavor Z₃
+and the condensate Z₄ inhabit the same space; (c) if they do and the collision survives,
+**the Fermi-point route to the generations is falsified** — and that is a real kill the
+model would have to eat.
