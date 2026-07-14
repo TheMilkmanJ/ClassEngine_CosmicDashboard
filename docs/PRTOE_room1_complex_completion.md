@@ -77,7 +77,7 @@ arbitrary number into a named class of problem with known machinery
 (Sakharov-type conditions, now in the dark sector). C1b's table gains
 its deepest row: the medium's substance IS its debt.
 
-**RESTATEMENT (2026-07-07, forced by internal review turn 42 — the
+**RESTATEMENT (2026-07-07, forced by internal review, — the
 charge-vs-energy identity):** "the medium's density is its charge" was
 the PURE-ROTOR limit talking. The precise ledger: Ω_DM is measured
 GRAVITATIONALLY and therefore counts the TOTAL quanta, ρ = m·n_tot
@@ -177,7 +177,7 @@ checkable, and falsifiable: any residual tilt today feeds P-2026-002's
 executioner. Grade: candidate mechanism, precedented, un-adopted;
 the deposit slip now has a NAME and a PRICE instead of a blank.
 
-## The bill (standing, from turn 25)
+## The bill (standing, from the internal review)
 
 Adoption requires: V(|Ψ|²) specified; three fresh certificates
 (α_T, foliation, α_B) re-earned for the amplitude sector; the gap
@@ -236,7 +236,7 @@ healer. The vev package survives only as: (i) tuned (1×10⁻³⁶), or
 of the rooms: Room 1's greatest simplification (the exact minimal
 match) is precisely what kills Room 3's hope.
 
-**E2.6 — R1.6's testability, calibrated (turn 36, closed):** the PTA
+**E2.6 — R1.6's testability, calibrated (the internal review, closed):** the PTA
 numbers are f=1 CEILINGS; the real signal is f_amp × ceiling with
 f_amp underived (the Kibble–Zurek condensation computation, O2's true
 form; the mode cannot decay, so f_amp is set once and persists).
@@ -309,7 +309,7 @@ in our V) yields the ABUNDANCE (deposit slip, R1.2/R1.8) and ε
 pending mountains are one mountain, and it is the program's next
 great climb.
 
-**E3.5 — The isocurvature contingency (turn 39, answered):** two
+**E3.5 — The isocurvature contingency (the internal review, answered):** two
 channels, opposite verdicts. (a) THE ε-CHANNEL: exact degeneracy.
 Rotation and libration evolve identically at linear order (same a⁻³,
 same mass ⇒ same Jeans/growth), so a RELATIVE fluctuation δε sources
@@ -327,7 +327,7 @@ abundance and ε must also clear the Planck isocurvature cap. The
 contingency lands as a third output of the unified climb, not a
 present-day cap on the dial.
 
-## THE ONE MOUNTAIN — final framing (turn 40, adopted; outcomes
+## THE ONE MOUNTAIN — final framing (the adopted in internal review; outcomes
 ## pre-registered BEFORE the climb)
 
 The genesis computation (AD dynamics + inflationary initial conditions
@@ -483,10 +483,10 @@ neither pins nor bounds ε — it ROLLS it, the roll is tilt-independent,
 and the model's registered silence bet (P-2026-005) is priced at ~14%
 survival by the model's own birth dynamics.
 
-## EXPEDITION 6 (2026-07-07, ~2am): THE GATES — turn 42's two demands
+## EXPEDITION 6 (2026-07-07, ~2am): THE GATES — the internal review's two demands
 ## run to ground, one inversion closed, one NEW constraint found
 
-internal review turn 42 reserved the 6:1 on two gates: (1) P(f_amp) must be
+internal review, reserved the 6:1 on two gates: (1) P(f_amp) must be
 CONDITIONED on the abundance and isocurvature gates, with the R1.2
 charge-vs-energy identity resolved (his scenario: if Ω_DM = charge,
 the abundance selects rotors and the collision INVERTS); (2) the chaos
@@ -515,7 +515,7 @@ dynamics, not stiffness noise. The E4 precedent (a transition faking a
 result) pointed at the SEGMENTATION, and the seamless integration is
 exactly what removed it. Outcome (iv) survives its numerics.
 
-**THE MEASURE (turn 42's quiet worker):** uniform θ₀ is a PRIOR, not
+**THE MEASURE (the internal review's quiet worker):** uniform θ₀ is a PRIOR, not
 derived — inflationary diffusion cannot uniformize the angle
 (δθ_rms ~ √N·H_inf/(2πΨ₀) ≲ 5×10⁻⁵ over 60 e-folds — the
 pre-inflationary misalignment ignorance prior, standard but named).
@@ -532,7 +532,7 @@ Steep-zone density isocurvature at H_inf = 4×10¹² would be ~50× the
 Planck cap: **high tilt + high H_inf corners of the genesis space are
 now VETOED — clearing the gate at r_t ~ 0.9 steep zones needs
 H_inf ≲ 10¹⁰⁻¹¹ GeV** (smooth zones and low tilt keep the base-camp
-ceiling). The over-constrained mountain is doing what turn 40
+ceiling). The over-constrained mountain is doing what the internal review
 promised: the gates prune genesis space. The 86% is UNMOVED by the
 pruning — it is tilt-universal and H_inf-independent below the
 ceiling. And the SINGLE-DRAW picture is confirmed: patch-to-patch
@@ -563,7 +563,7 @@ outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 only); t₀-prescription variation; denser angles; h-scan at the other
 tilts (r_t = 0.6 only tonight).
 
-**PROTOCOL ADOPTED (turn 44 → 45, ~2:30am):** the internal review
+**PROTOCOL ADOPTED (the internal review → 45, ~2:30am):** the internal review
 pre-registered the h-scan acceptance criteria (grid to h = 10⁴, n = 50
 angles, dual-integrator per angle, |P(h)−P(h/3)| < binomial with
 last-two agreement, threshold pinned, extrapolation spread in the
@@ -573,12 +573,12 @@ night (hscan_protocol.py, overnight). Threshold pinned:
 uncertainty ⇒ band [0.1, 0.4], exceedance reported at
 0.1/0.2/0.3/0.4. Definitional flag on record: reviewer's physical
 h ~ gap/H ~ 10³⁻⁴ vs our h = λΨ₀²/m² ~ 10⁸ — morning report states
-both readings. Verdict standing after turn 44: **outcome (iv)
+both readings. Verdict standing after the internal review: **outcome (iv)
 CONFIRMED SOUND** (physical chaos, no inversion, measure-robust,
 genesis-pruned); "roughly 6:1" becomes quotable iff the protocol
 passes; failure is pre-registered too.
 
-**BAR AMENDED (turn 46):** the reviewer CONCEDED the definitional
+**BAR AMENDED (the internal review):** the reviewer CONCEDED the definitional
 flag with its reason — gap/H governs basin-entry adiabaticity, but
 basin entry produces nothing; the chaos lives in the genesis orbit
 whose depth is λΨ₀²/m² — so the physical h is ~10⁸ (a RANGE over the
@@ -612,7 +612,7 @@ FDM with independently-speckling components. Checks: ρ is constant in
 time (the 2m oscillations cancel in T₀₀ — verified analytically);
 the pressure does NOT cancel — it beats.
 
-**SELF-CAUGHT AMPLITUDE CORRECTION (supersedes turn 45 §4's threshold
+**SELF-CAUGHT AMPLITUDE CORRECTION (supersedes the internal review §4's threshold
 map):** the KR pressure-oscillation fraction is the CROSS term,
 amplitude 2√(n₊n₋)/n = √(f_amp(2−f_amp)) — NOT f_amp as E4 and the
 turn-45 pinning assumed. Limits check: pure librator (real field,
@@ -790,7 +790,7 @@ limit — mutually checking. (Also note: 14/14 at h = 3000 has ~3%
 probability under the ergodic p = 0.78 — the interim floor remains
 suspicious, exactly as the reviewer graded it.)
 
-**E8a — THE GAP DISSECTED (same night, ~4:45am; turn 52's demanded
+**E8a — THE GAP DISSECTED (same night, ~4:45am; the internal review's demanded
 diagnosis, run at n = 110/tilt):** three layers found.
 (1) THE FREEZE-OUT FAMILY (analytic): mixing continues into the
 mixed quartic+harmonic era (the tilt is a quartic-family term; it

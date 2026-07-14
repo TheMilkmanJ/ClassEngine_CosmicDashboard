@@ -24,7 +24,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| c = 9/10 | the census argument (blindness + roster) | [D] | the α_c MCMC/data settle 12/13; the roster trial fails |
+| c = 9/10 (THE ROSTER TRIAL, open) | the census argument: 9 charged flavors + the vacuum's seat | [D] — **the trial: 9/10 (neutrinos = INTERIOR tenants, the medium's own tenth channel) vs 12/13 (neutrinos = EXTERNAL recipients); BOTH survive their ramp walks. 9/12 and 9/13 ramp-proof DEAD. ε CANNOT referee (the c–f̄ degeneracy)** | the independent f̄ ensemble or the α_c chain settling 12/13 |
 | f̄ = 2/π | the winding sim + the claim | [C] (joint 0.626–0.637, claim at 1.3σ) | the ensemble lands off 2/π |
 | α_c = 3α | the registered bet | [R] | the α_c MCMC lands elsewhere |
 | ε = c·f̄·α_c (the stack, 1.2543%) | ALL THREE above | [D-C-R compound] | any factor's death |
@@ -52,8 +52,8 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — fenced 3 ways | the 21cm edge reads SHARP (A) |
-| the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED (entries 69/76, grade-stable)**: the H₀-lever branch DEAD; survives as the mass-step's candidate explanation | the forest kill; the quasar audit; the host-density-trend discriminant failing |
+| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — NINE grips + the existence referee (entry 101: + WHIM-temperature; the razor dissolved by geometry — the gate energy heats the WHIM; S₈ delivery = the entropy-floor mapping, owed) | the 21cm edge reads SHARP (A); any grip off the one curve; WHIM temps reading gravity-only at XRISM/Athena precision |
+| the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED (entries 69/76)**: the H₀-lever branch DEAD; the mass-step candidacy FORKED (entries 85/85b): subdominant at central values, full-step corner alive at C_ref ≈ 2 — the DESI forest adjudicates | the forest kill (now double-duty: it also closes the corner); the quasar audit; the cluster-SN internal step appearing |
 | the H₀ ceiling | the candle + the leakage + τ | **SUPERSEDED by ς = −1: the bracket collapsed to 70.9–71.3; the ladder-audit posture (P-001/TRGB) replaces the reach claim** | — |
 | the forest offset (ε × gate at Δ~1) | the gate curve | [C] — live at DR16's edge; DESI executes | a clean DESI forest cross-calibration |
 
@@ -63,7 +63,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G: the CLOSED FORMULA 1/G = [2(1−6ξ)−18]·K² (entry 80) | the roster + the coherence-factor regulator (p = 2 DERIVED, O(1) = 1 exact) + the a₁ weights | [D-conditional] — the sign hazard RESOLVED at ξ = −9/2 (pinned as the model's prediction for its founding coupling) | an independent ξ off −9/2; the a₁ convention check; the doubling adjudication |
+| induced-G (the closure) | — | **RETIRED (the zombie ruling, hunt entry 124 on the external review): "the medium computes G's value" died in three schemes in one day and is retired, full stop. THE KEEPER SPLIT: Pauli's finiteness condition str[k₁] = 0 (satisfied exactly by SM + 3ν_R; P-2026-045) and the 1/α_Y(M_Pl) = 55.5 bare-handout asymmetry (hunt 134/138) are KEPT — they are conditions and targets, not value computations** | P-2026-045's kills (a light sterile; a 4th generation); the six basement locks (hunt 138) |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 

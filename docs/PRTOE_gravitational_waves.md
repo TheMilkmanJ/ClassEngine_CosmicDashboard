@@ -36,7 +36,7 @@ genome's sign** — the SAME topological draw as the baryon asymmetry and the ma
 metric ripples. (Amplitude un-computed — flagged; the SIGN correlation is the falsifiable
 content whenever any two members are measured.)
 
-## 3. Ringdowns, echoes, and the interior (internal record 411's flag, kept at its size)
+## 3. Ringdowns, echoes, and the interior (internal review flag, kept at its size)
 
 BH exteriors are standard to current precision (the null stance); the finite core replaces the
 singularity at depths current ringdown data cannot resolve. IF pursued: core-boundary

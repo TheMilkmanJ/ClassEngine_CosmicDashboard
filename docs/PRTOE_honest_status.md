@@ -30,7 +30,7 @@ Ranked, honestly:
    when computed; Weinberg's no-go for self-tuning is unaddressed. Trusted least. (Q4/#22.)
 2. **The m_e shift's robustness** — unproven it isn't absorbing a systematic. (Q2/#20.)
 3. **c is not derived** — natural ~1, but the conformal-origin fixed-point is a hypothesis, not a
-   calculation (#17). Empirically pinned to [1.0,1.9] by #16, consistent with natural.
+   calculation (docketed). Empirically pinned to [1.0,1.9] by #16, consistent with natural.
 
 ## The near-term falsifier calendar (task Q6 / #24)
 
@@ -55,7 +55,7 @@ worth holding. **Update this number as each crux lands.**
 ## PRE-COMMITTED evidence verdict (locked 2026-07-08, BEFORE #19 returns)
 
 internal review rule: lock what counts as a win BEFORE the number comes back, or we rationalize whatever
-we get. For the running PRTOE-vs-ΛCDM full-data comparison (#19), verdict thresholds committed NOW:
+we get. For the running PRTOE-vs-ΛCDM full-data comparison (docketed), verdict thresholds committed NOW:
   - PRTOE WINS:   Δ lnZ ≥ +2.5 in PRTOE's favor (moderate+) AND Δ BIC ≤ -2
                   (BIC/AIC already penalize PRTOE's ~2 extra physical params: varying_me, m_ncdm).
   - ΛCDM WINS:    Δ lnZ ≤ -2.5  OR  Δ BIC ≥ +2.
@@ -91,13 +91,13 @@ Audited the CLASS C source against the model's claims. GOOD: dcdf has a real per
      m_e is CLASS's generic varying_fundamental_constants (hardcoded step at z=50), disconnected from
      the dcdf field. In the config varying_me and dcdf_rho_inf are independent free params. So the DYAD
      (m_e + dark sector = ONE superfluid) is NOT enforced -- the fit tests "dcdf + free m_e step", not
-     "one linked superfluid". Consequences: (a) the #11 amplitude derivation (eps = c*f_amp*Psi0/M_red)
+     "one linked superfluid". Consequences: (a) the amplitude derivation (eps = c*f_amp*Psi0/M_red)
      is NEVER tested by the fit -- m_e is just a free number; (b) part of the "competitive with ΛCDM"
      result comes from the extra freedom of 2 independent knobs, not the constrained dyad.
   2. Screening is a hardcoded REDSHIFT step (z=50), NOT the density-dependent Theta-saturation the
-     model claims → the void m_e-step (#10) physics is not in the code (why it was demoted).
+     model claims → the void m_e-step (docketed) physics is not in the code (why it was demoted).
   3. The w=1/3 radiation-like phase is ABSENT (dcdf starts as dust w~0); the claimed 1/3→0→-1 is
-     really 0→-1 in code. The conformal-origin c=1 argument (#17) rests on this unimplemented phase.
+     really 0→-1 in code. The conformal-origin c=1 argument (docketed) rests on this unimplemented phase.
   (Unverified: whether cs2_dcdf enforces c_s²=0 at the floor -- function body in an unlocated header.)
 HONEST IMPLICATION: the fit is of a MORE FLEXIBLE model than the theory. To test the actual dyad,
 ENFORCE the link (derive m_e from dcdf params per #11, fix the transition from screening physics,
@@ -105,7 +105,7 @@ re-fit with m_e no longer free) -- the constrained dyad may fit worse. Any paper
 fit uses an effective parametrization with independent m_e; the linked superfluid is the theoretical
 claim, not directly tested. This reframes the odds: the fit's competitiveness is partly unenforced freedom.
 
-## EVIDENCE VERDICT — LANDED 2026-07-09 (#19 resolved; the pre-committed gate met, marginally)
+## EVIDENCE VERDICT — LANDED 2026-07-09 (docketed; resolved; the pre-committed gate met, marginally)
 
 The constrained-dyad vs ΛCDM full-data comparison (matched optimizers, same 10
 likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
@@ -132,14 +132,14 @@ table, landed exactly at the line. NOT decisive, NOT robust, NOT prediction-conf
 SHOES-conditionality + PolyChord-pending). The ONE lever that moves it hard: PolyChord confirming
 the +2.6 on the paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready). The two things that
 still sink it: SHOES-as-systematic (Stage 0), or PolyChord pulling +2.6 back under +2.5. Full
-internal review grading in the internal review record (private; turn-tags cited for provenance) (defender "THE NUMBER" turn).
+internal review grading in the the private internal review record (defender "THE NUMBER" turn).
 
-### SHARPENED by internal review turn 102 (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
+### SHARPENED by internal review, (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
 Two corrections to the verdict above, both taken: (1) BRAKE 2 is worse than "conditional" — it is
 SHOES-DEPENDENT: net Δ χ² -9.52 minus SHOES ~-13.7 = +4.2, i.e. WITHOUT SHOES the dyad is
 ~4 WORSE than ΛCDM (the edge INVERTS to a loss). The m_e signature alone (ACT -3.8) does NOT beat
 the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SHOES H₀ tension — NOT on
-CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family does it, turn 85),
+CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family does it, the internal review),
 so the win adds ZERO evidence for the ontology (superfluid/census/dyad). (2) Standing revised
 DOWN: ~10% → ~12% (not 13-16%), because the win is robust only if BOTH PolyChord confirms +2.6
 AND SHOES is physical (two live-uncertain gates). Final label: "suggestive / SHOES-DEPENDENT /

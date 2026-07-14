@@ -48,7 +48,7 @@ $$3 F H^2 = \rho_{\text{tot}} + \frac{1}{2} \omega \dot{\phi}^2 + V - 3 H \dot{F
 $$-2 F \dot{H} - 3 F H^2 = p_{\text{tot}} + \frac{1}{2} \omega \dot{\phi}^2 - V + \ddot{F} + 2 H \dot{F} - \frac{1}{2} \omega \dot{\phi}^2 \frac{F_{\phi}}{F}$$ 
 
 **Klein-Gordon Equation:**
-$$\ddot{\phi} + 3 H \dot{\phi} + \frac{V_{\phi}}{\omega} = \frac{F_{\phi}}{2 \omega F} \left( R - 3 \frac{\dot{F}^2}{F} + 3 \frac{\ddot{F}}{F} \right) + \frac{1}{\omega} \frac{d}{dt} \left( \frac{F_{\phi}}{F} \right) \dot{\phi}$$ 
+$$\ddot{\phi} + 3 H \dot{\phi} + \frac{V_{\phi}}{\omega} = \frac{F_{\phi}}{2 \omega F} \left(R - 3 \frac{\dot{F}^2}{F} + 3 \frac{\ddot{F}}{F} \right) + \frac{1}{\omega} \frac{d}{dt} \left(\frac{F_{\phi}}{F} \right) \dot{\phi}$$ 
 
 where $R = 6(\dot{H} + 2 H^2)$ is the background Ricci scalar.
 
@@ -62,7 +62,7 @@ The functional forms of $A(\phi)$ and $S(\phi)$ arise from **first-principles EF
 
 The tanh form is justified by considering a **Coleman-Weinberg potential** or **second-order phase transition**:
 
-$$A(\phi) = \langle \mathcal{O} \rangle_{\phi} \approx \frac{1}{2} \left[ 1 + \tanh \left( \frac{\phi - \phi_c}{\Delta \phi} \right) \right]$$
+$$A(\phi) = \langle \mathcal{O} \rangle_{\phi} \approx \frac{1}{2} \left[ 1 + \tanh \left(\frac{\phi - \phi_c}{\Delta \phi} \right) \right]$$
 
 Here:
 - $\phi_c$ is the **critical field value** at which the phase transition occurs
@@ -110,7 +110,7 @@ where $F_0 = F(\phi_0)$, $F_{\phi} = \partial F / \partial \phi |_{\phi_0}$, $F_
 
 ### 2.2 Linearized Ricci Scalar
 
-$$\delta R = -6 a^{-2} \left[ \Psi'' + 4 \mathcal{H} \Psi' + \left( \frac{a''}{a} + 2 \mathcal{H}^2 \right) \Phi + \frac{k^2}{3} (\Psi - \Phi) \right]$$ 
+$$\delta R = -6 a^{-2} \left[ \Psi'' + 4 \mathcal{H} \Psi' + \left(\frac{a''}{a} + 2 \mathcal{H}^2 \right) \Phi + \frac{k^2}{3} (\Psi - \Phi) \right]$$ 
 
 where $\mathcal{H} = a' / a$ is the conformal Hubble parameter, and primes denote derivatives with respect to conformal time $\tau$.
 
@@ -121,14 +121,14 @@ where $\mathcal{H} = a' / a$ is the conformal Hubble parameter, and primes denot
 $$\\n\begin{aligned}
 \delta F &= F_{\phi} \delta\phi \\
 \delta F' &= F_{\phi\phi} \phi_0' \delta\phi + F_{\phi} \delta\phi' \\
-\delta F'' &= F_{\phi\phi\phi} (\phi_0')^2 \delta\phi + F_{\phi\phi} \left( \phi_0'' \delta\phi + 2 \phi_0' \delta\phi' \right) + F_{\phi} \delta\phi''
+\delta F'' &= F_{\phi\phi\phi} (\phi_0')^2 \delta\phi + F_{\phi\phi} \left(\phi_0'' \delta\phi + 2 \phi_0' \delta\phi' \right) + F_{\phi} \delta\phi''
 \end{aligned}
 $$
 
 **00 Einstein Equation (Hamiltonian Constraint):**
 
 $$\\n\begin{aligned}
-&k^2 \Phi + 3 \mathcal{H} (\Phi' + \mathcal{H} \Psi) = -\frac{a^2}{2 F} \left( \delta\rho_m + \delta\rho_\phi + 3 \mathcal{H} \delta F' - k^2 \delta F \right) \\
+&k^2 \Phi + 3 \mathcal{H} (\Phi' + \mathcal{H} \Psi) = -\frac{a^2}{2 F} \left(\delta\rho_m + \delta\rho_\phi + 3 \mathcal{H} \delta F' - k^2 \delta F \right) \\
 &+ \frac{3 \mathcal{H} F_{\phi} \phi_0'}{2 F} (\Psi - \Phi)
 \end{aligned}
 $$
@@ -140,7 +140,7 @@ $$k^2 (\Phi' + \mathcal{H} \Psi) = \frac{a^2}{2 F} \left[ (\rho_{\text{tot}} + p
 **ij Trace Einstein Equation:**
 
 $$\\n\begin{aligned}
-&\Phi'' + \mathcal{H} (\Psi' + 2 \Phi') + (2 \mathcal{H}' + \mathcal{H}^2) \Psi = \frac{a^2}{2 F} \left( \delta p_m + \delta p_\phi \right. \\
+&\Phi'' + \mathcal{H} (\Psi' + 2 \Phi') + (2 \mathcal{H}' + \mathcal{H}^2) \Psi = \frac{a^2}{2 F} \left(\delta p_m + \delta p_\phi \right. \\
 &\left. - \delta F'' - 2 \mathcal{H} \delta F' + \frac{k^2}{3} \delta F \right) + \frac{F_{\phi} \phi_0'}{2 F} (\Psi' + 3 \Phi')
 \end{aligned}
 $$
@@ -160,7 +160,7 @@ $$
 $$\\n\begin{aligned}
 &\delta\phi'' + 2 \mathcal{H} \left(1 + \frac{F_{\phi} \phi_0'}{2 F}\right) \delta\phi' + \left[ k^2 + a^2 V_{\phi\phi} \right. \\
 &\left. - \frac{F_{\phi}}{F} (\phi_0'' + 2 \mathcal{H} \phi_0') + \frac{F_{\phi\phi}}{F} \phi_0'^2 \right] \delta\phi = - \phi_0' (\Psi' + 3 \Phi') \\
-&+ \frac{F_{\phi}}{2 F} \left( \phi_0'^2 (\Psi - 3 \Phi) - a^2 \delta R \right) + \frac{F_{\phi\phi} \phi_0'}{F} (\delta\phi' - \phi_0' \Phi) \\
+&+ \frac{F_{\phi}}{2 F} \left(\phi_0'^2 (\Psi - 3 \Phi) - a^2 \delta R \right) + \frac{F_{\phi\phi} \phi_0'}{F} (\delta\phi' - \phi_0' \Phi) \\
 &+ \frac{F_{\phi\phi\phi} \phi_0'^2}{2 F} \delta\phi
 \end{aligned}
 $$
@@ -214,8 +214,8 @@ $$\mathcal{G} = 1 + \frac{F_{\phi\phi} \phi_0'^2}{F} - \frac{F_{\phi}^2}{2 F}$$
 
 **Mass Term (Tachyonic stability):**
 $$\\n\begin{aligned}
-\mathcal{M} &= a^2 V_{\phi\phi} + \frac{F_{\phi}}{F} \left( \frac{R_0}{2} - 3 \mathcal{H}^2 - \frac{\phi_0''}{a^2} \right) \\
-&- \frac{F_{\phi\phi}}{F} \left( \frac{\phi_0'^2}{a^2} \right) + \frac{F_{\phi\phi\phi} \phi_0'^2 \phi_0''}{F}
+\mathcal{M} &= a^2 V_{\phi\phi} + \frac{F_{\phi}}{F} \left(\frac{R_0}{2} - 3 \mathcal{H}^2 - \frac{\phi_0''}{a^2} \right) \\
+&- \frac{F_{\phi\phi}}{F} \left(\frac{\phi_0'^2}{a^2} \right) + \frac{F_{\phi\phi\phi} \phi_0'^2 \phi_0''}{F}
 \end{aligned}
 $$
 

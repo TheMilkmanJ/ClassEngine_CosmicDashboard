@@ -59,10 +59,13 @@ re-measurements are the community's own referee on exactly this point.
 
 The model additionally *contributes* a candidate systematic from its own physics: under
 its environmental screening reading, supernovae in dense versus sparse hosts carry a
-small standardization offset whose direction and magnitude class match the observed
-(and incompletely explained) **SN host mass step** — making the model's screening curve
-a discriminable rival to dust-based explanations of that known systematic (a
-host-*density* trend versus a color-dependent step).
+small standardization offset with the observed **SN host mass step's** direction —
+graded (2026-07-13, the web-scale-gate consistency passes): *subdominant at central
+values* (~0.02 mag of the observed 0.05–0.08 mag step, environment-tagged), with the
+full-step reading surviving only in one corner of the gate's allowed window — a corner
+that simultaneously fixes the Lyman-α forest offset, so DESI's forest cross-calibration
+decides between "the mass step is the model's" and "the step is astrophysical." Either
+outcome is informative; neither is free.
 
 **Data ethics, on the record**: no dataset is dropped for disagreeing. The evidence
 comparisons run in three documented tiers — Cepheid-anchored, anchor-free, and

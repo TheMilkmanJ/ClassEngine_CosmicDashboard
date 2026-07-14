@@ -1,7 +1,7 @@
 # PRTOE BIBLIOGRAPHY — every external source the model stands on (2026-07-11)
 
-*The credit ledger (task #17). Keys are used across the docs as [AuthorYear]. Internal
-provenance (t###/def### turn-tags) traces to the internal review record (private; turn-tags cited for provenance); THIS file traces everything
+*The credit ledger (the working docket). Keys are used across the docs as [AuthorYear]. Internal
+provenance (t###/def### turn-tags) traces to the the private internal review record; THIS file traces everything
 we borrowed from the field. If a claim in any doc leans on a result not listed here,
 that is a bug — file it.*
 
@@ -34,7 +34,7 @@ that is a bug — file it.*
 
 - **[CLASS2011]** D. Blas, J. Lesgourgues, T. Tram, "The Cosmic Linear Anisotropy Solving System (CLASS) II," JCAP 07 (2011) 034, arXiv:1104.2933. — The Boltzmann code the model is implemented in.
 - **[cobaya2021]** J. Torrado, A. Lewis, "Cobaya: code for Bayesian analysis," JCAP 05 (2021) 057, arXiv:2005.05290. — The sampler driving every chain in chains/.
-- **[PolyChord2015]** W. J. Handley, M. P. Hobson, A. N. Lasenby, "PolyChord: next-generation nested sampling," MNRAS 453, 4384 (2015), arXiv:1506.00171. — The committed evidence gate (task #9).
+- **[PolyChord2015]** W. J. Handley, M. P. Hobson, A. N. Lasenby, "PolyChord: next-generation nested sampling," MNRAS 453, 4384 (2015), arXiv:1506.00171. — The committed evidence gate (the working docket).
 - **[HyRec2011]** Y. Ali-Haïmoud, C. M. Hirata, "HyRec: a fast and highly accurate primordial hydrogen and helium recombination code," PRD 83, 043513 (2011), arXiv:1011.3758. — Recombination micro-physics (m_e-sensitive).
 - **[PRyMordial2023]** A.-K. Burns, T. M. P. Tait, M. Valli, "PRyMordial: the first three minutes, within and beyond the Standard Model," arXiv:2307.07061. — The BBN engine behind the windowed run (tools/PRyMordial).
 - **[PRIMAT2018]** C. Pitrou, A. Coc, J.-P. Uzan, E. Vangioni, "Precision big bang nucleosynthesis with improved helium-4 predictions," Phys. Rept. 754, 1 (2018), arXiv:1801.08023. — The BBN rate compilation standard.
@@ -60,8 +60,10 @@ that is a bug — file it.*
 - **[Kapitza1938]** P. Kapitza, Nature 141, 74 (1938). / **[AllenMisener1938]** J. F. Allen, A. D. Misener, Nature 141, 75 (1938). — Superfluidity's discovery.
 - **[ColemanGlashow1999]** S. Coleman, S. L. Glashow, "High-energy tests of Lorentz invariance," PRD 59, 116008 (1999), arXiv:hep-ph/9812418. — Vacuum-Cherenkov / UHECR bounds; the inertia file's dispersion exam.
 - **[Turyshev2012]** S. G. Turyshev et al., "Support for the thermal origin of the Pioneer anomaly," PRL 108, 241101 (2012), arXiv:1204.2507. — The vacuum-drag null's case study.
+- **[Synge1950]** J. L. Synge, Proc. R. Irish Acad. A 53, 83 (1950). / **[Kruskal1960]** M. D. Kruskal, Phys. Rev. 119, 1743 (1960). / **[Szekeres1960]** G. Szekeres, Publ. Math. Debrecen 7, 285 (1960). — The maximal Schwarzschild extension; the white-hole region's actual discoverers (post-Einstein — the white-holes file's historical note).
+- **[HaggardRovelli2015]** H. M. Haggard, C. Rovelli, "Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling," PRD 92, 104020 (2015), arXiv:1407.0989. — The literature's white-hole revival; cited for pedigree, refused for local objects (the arrow ban).
 - **[Unruh1981]** W. G. Unruh, "Experimental black-hole evaporation?," PRL 46, 1351 (1981). — Acoustic horizons; the analog frame.
-- **[BLV2005]** C. Barceló, S. Liberati, M. Visser, "Analogue gravity," Living Rev. Rel. 8, 12 (2005), arXiv:gr-qc/0505065. — The emergent-metric toolbox and its known limits (the t366 "linearized-plus" flag).
+- **[BLV2005]** C. Barceló, S. Liberati, M. Visser, "Analogue gravity," Living Rev. Rel. 8, 12 (2005), arXiv:gr-qc/0505065. — The emergent-metric toolbox and its known limits (the internal review "linearized-plus" flag).
 - **[Volovik2003]** G. E. Volovik, *The Universe in a Helium Droplet*, Oxford (2003). — The deepest prior art for medium-cosmology; the model's closest intellectual neighbor.
 - **[vonKlitzing1980]** K. von Klitzing, G. Dorda, M. Pepper, PRL 45, 494 (1980). — Topological quantization on a bench (the lab-cousin row).
 
@@ -85,7 +87,7 @@ that is a bug — file it.*
 - **[Jacobson1995]** T. Jacobson, "Thermodynamics of spacetime: the Einstein equation of state," PRL 75, 1260 (1995), arXiv:gr-qc/9504004. — The route from the area law to Einstein's equations.
 - **[Bekenstein1973]** J. D. Bekenstein, PRD 7, 2333 (1973). / **[Hawking1975]** S. W. Hawking, Commun. Math. Phys. 43, 199 (1975). — S = A/4 and its temperature.
 - **[FFZ1997]** V. P. Frolov, D. V. Fursaev, A. I. Zelnikov, "Statistical origin of black hole entropy in induced gravity," Nucl. Phys. B 486, 339 (1997), arXiv:hep-th/9607104. — The species-cancellation the keystone leans on.
-- **[WeinbergWitten1980]** S. Weinberg, E. Witten, "Limits on massless particles," Phys. Lett. B 96, 59 (1980). — The no-go the preferred frame evades (t408).
+- **[WeinbergWitten1980]** S. Weinberg, E. Witten, "Limits on massless particles," Phys. Lett. B 96, 59 (1980). — The no-go the preferred frame evades.
 - **[Penrose1965]** R. Penrose, "Gravitational collapse and space-time singularities," PRL 14, 57 (1965). — The theorem the CSW-floor core discharges by violating its energy condition honestly.
 
 ## 6. Particle theory (the census arc and the portal)
@@ -107,7 +109,7 @@ that is a bug — file it.*
 - **[Vainshtein1972]** A. I. Vainshtein, "To the problem of nonvanishing gravitation mass," Phys. Lett. B 39, 393 (1972). — The screening margin in the EP gate.
 - **[HNS2009]** L. Hui, A. Nicolis, C. Stubbs, "Equivalence principle implications of modified gravity models," PRD 80, 104002 (2009), arXiv:0905.2966. — The EP test the gate clears with five orders.
 - **[Herrmann2009]** S. Herrmann et al., "Rotating optical cavity experiment testing Lorentz invariance at the 10⁻¹⁷ level," PRD 80, 105011 (2009), arXiv:1002.1284. — Modern Michelson-Morley; the M3 bill's size.
-- **[Mattingly2005]** D. Mattingly, "Modern tests of Lorentz invariance," Living Rev. Rel. 8, 5 (2005). / **[Liberati2013]** S. Liberati, "Tests of Lorentz invariance: a 2013 update," Class. Quant. Grav. 30, 133001 (2013), arXiv:1304.5795. — The LV pricing pass's ledger (internal record 373).
+- **[Mattingly2005]** D. Mattingly, "Modern tests of Lorentz invariance," Living Rev. Rel. 8, 5 (2005). / **[Liberati2013]** S. Liberati, "Tests of Lorentz invariance: a 2013 update," Class. Quant. Grav. 30, 133001 (2013), arXiv:1304.5795. — The LV pricing pass's ledger.
 - **[Bailey1977]** J. Bailey et al., "Measurements of relativistic time dilatation for positive and negative muons in a circular orbit," Nature 268, 301 (1977). — Time dilation with no atoms to heat.
 - **[Ashby2003]** N. Ashby, "Relativity in the Global Positioning System," Living Rev. Rel. 6, 1 (2003). — The 38 μs/day that keeps maps working.
 - **[DamourDyson1996]** T. Damour, F. Dyson, "The Oklo bound on the time variation of the fine-structure constant revisited," Nucl. Phys. B 480, 37 (1996), arXiv:hep-ph/9606486. — The Oklo fence (great chain, Appendix B).
@@ -124,8 +126,8 @@ that is a bug — file it.*
 - **[BerezhianiKhoury2015]** L. Berezhiani, J. Khoury, "Theory of dark matter superfluidity," PRD 92, 103510 (2015), arXiv:1507.01019. — The nearest superfluid-DM cousin; differs by scope (galactic vs cosmological) and by the dyad.
 - **[HBG2000]** W. Hu, R. Barkana, A. Gruzinov, "Cold and fuzzy dark matter," PRL 85, 1158 (2000), arXiv:astro-ph/0003365. / **[Hui2017]** L. Hui, J. P. Ostriker, S. Tremaine, E. Witten, "Ultralight scalars as cosmological dark matter," PRD 95, 043541 (2017), arXiv:1610.08297. — The ultralight-field toolbox (ξ-scale physics).
 - **[Kamenshchik2001]** A. Kamenshchik, U. Moschella, V. Pasquier, "An alternative to quintessence," Phys. Lett. B 511, 265 (2001), arXiv:gr-qc/0103004. — The unified-dark-fluid (Chaplygin) precedent dCDF improves on.
-- **[Hu1998]** W. Hu, "Structure formation with generalized dark matter," ApJ 506, 485 (1998), arXiv:astro-ph/9801234. — The GDM formalism the perturbation-sector debt (task #8) will be phrased in.
-- **[Milgrom1983]** M. Milgrom, ApJ 270, 365 (1983). / **[MLS2016]** S. McGaugh, F. Lelli, J. Schombert, "The radial acceleration relation in rotationally supported galaxies," PRL 117, 201101 (2016), arXiv:1609.05917. — The RAR the galactic-atoms thread engages; MOND's kill/reopen history (t428).
+- **[Hu1998]** W. Hu, "Structure formation with generalized dark matter," ApJ 506, 485 (1998), arXiv:astro-ph/9801234. — The GDM formalism the perturbation-sector debt (the working docket) will be phrased in.
+- **[Milgrom1983]** M. Milgrom, ApJ 270, 365 (1983). / **[MLS2016]** S. McGaugh, F. Lelli, J. Schombert, "The radial acceleration relation in rotationally supported galaxies," PRL 117, 201101 (2016), arXiv:1609.05917. — The RAR the galactic-atoms thread engages; MOND's kill/reopen history.
 - **[Banik2024]** I. Banik et al., "Strong constraints on MOND from wide binaries," MNRAS 527, 4573 (2024), arXiv:2311.03436. / **[Chae2023]** K.-H. Chae, ApJ 952, 128 (2023), arXiv:2305.04613. — The live wide-binary dispute (P-036 sides with Newton).
 
 ## 10. Historical foundations (the legacy action's ancestry — retired era)

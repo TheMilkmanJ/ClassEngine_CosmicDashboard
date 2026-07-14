@@ -82,7 +82,7 @@ for free.
 
 ## 6. Status
 
-Open wall, one candidate, one gate (#11 via two-field sims), one fork
+Open wall, one candidate, one gate (docketed; via two-field sims), one fork
 (21-cm), one free near-term check (the posterior). Grade of everything
 above: derivation-debt formalization — no new claims registered.
 
@@ -263,7 +263,7 @@ single clean transition in future CMB/21-cm precision, well beyond
 current sensitivity.
 
 STATUS: hypothesis-grade synthesis, NOT registered (Pinning Rule
-unchanged — #11's sims still gate everything). Net effect: strengthens
+unchanged — the docketed sims still gate everything). Net effect: strengthens
 candidate #1 (the fold) by explaining its onset epoch rather than
 diluting it with a rival; retires Compton gate from "competing
 mechanism" to "necessary cosmological precondition."
@@ -290,7 +290,7 @@ edit size or writer-count.
 Current data cannot distinguish: the additive picture's signature (a
 compound m_e(z), small step at z~131 plus drift to z~15-25) sits far
 below CMB/21-cm sensitivity today. Both nested and additive stay
-hypothesis-grade behind the same gate (#11). NET: division-of-labor
+hypothesis-grade behind the same gate (docketed). NET: division-of-labor
 does not open a new test — it adds one sub-question to the existing
 one (does Compton decoupling carry ANY direct m_e coupling, beyond
 staging). The fold/Theta derivation remains the load-bearing next step
@@ -346,7 +346,7 @@ correct.
 
 STATUS: candidate #3 is a genuine addition to the roster, hypothesis-
 grade, no derived value yet, gated by the same Pinning Rule as #1 and
-#2. Open task, distinct from #11's sims: find (or rule out) a
+#2. Open task, distinct from the docketed sims: find (or rule out) a
 derived, background-only scale for the medium's own state that lands
 in the surviving window.
 
@@ -395,7 +395,7 @@ funnel, not two mechanisms needing reconciliation.
 
 **STANDING PICTURE, all candidates after tonight's full pass:**
 - Candidate #1 (the fold, R1/Theta): LOCAL, medium-native, structural
-  favorite going in. Gate: two-field sims (#11).
+  favorite going in. Gate: two-field sims (docketed).
 - Candidate #2 (Compton gate, direct): RETIRED as a rival mechanism in
   favor of staging (§11) or shared-clock correlation (§13) — no longer
   scored as an independent foreign-sensing trigger.
@@ -417,10 +417,10 @@ derived threshold (B's value) both exist. Pinning Rule unchanged.
 
 STATUS AT SESSION CLOSE: two live mechanism classes (local/fold,
 global/shared-clock), one shared falsification instrument, two open
-derivations (#11's sims; B's non-arbitrary redshift), zero new
+derivations (the docketed sims; B's non-arbitrary redshift), zero new
 overclaims. Fairbank chain healthy (13,779 steps / 1,456 accepted,
 ~5h13m in, watchdog green) — its converged varying_me value remains
-the free, near-term check on candidate #1's specific target (1.0101).
+the free, near-term check on candidate the docketed specific target (1.0101).
 
 ## 16. "Size of expansion, or expansion + heat?" (author, 2026-07-07 evening — sharpens candidate #1)
 
@@ -550,10 +550,10 @@ LOCALLY, consumed by its own collapse. Candidate #1 (the fold) is
 unchanged as the leading mechanism CLASS; this entry gives it (a) a
 physical reason for its direction and (b) a new, richer, checkable
 signature (ψ/χ layering) for the SAME two-field sims already
-queued (#11) to test for, alongside the granule-power calibration.
+queued (docketed) to test for, alongside the granule-power calibration.
 
 STATUS: hypothesis-grade refinement, not registered, same Pinning
-Rule. Adds one concrete item to the #11 sim spec: check for m_e-
+Rule. Adds one concrete item to the sim spec: check for m_e-
 relevant structural differences between the ψ and χ components
 WITHIN a single simulated halo, not just aggregate halo-vs-void
 comparisons.
@@ -613,7 +613,7 @@ REVERSE of §19's guess. NOT resolved tonight: whether the coupling
 tracks INSTANTANEOUS local coherence (favoring this entry's direction)
 or CUMULATIVE violent-relaxation history that a later coherent core
 doesn't erase (favoring §19's direction). Genuinely open, flagged for
-the same two-field sims (#11) to settle — this is now the SHARPEST,
+the same two-field sims (docketed) to settle — this is now the SHARPEST,
 most concrete open question the sim campaign needs to answer, since
 it flips the sign of a real prediction depending on which physics
 wins.
@@ -718,7 +718,7 @@ an m_e mechanism, since its ledger entry is already closed elsewhere.
 
 **CONSEQUENCE FOR THE SEARCH:** the only remaining candidate route for
 a LEGAL m_e mechanism is one that stays entirely on the GRAVITY side —
-H(z) itself (candidate #3's shared clock, legitimate since it is
+H(z) itself (candidate the docketed shared clock, legitimate since it is
 sourced by the Friedmann equation, not by the dark medium's own
 internal structure) or a foliation/curvature quantity like (δ K)²
 (already admitted via three certificates in Room 1). NOT a coupling to
@@ -786,7 +786,7 @@ sourcing) and does NOT automatically inherit that clearance; it needs
 its own scrutiny before being trusted.
 
 STATUS: candidate legal path, hypothesis-grade, routed to internal review
-(the internal review record (private; turn-tags cited for provenance)) as the follow-up to turn 61's flagged crack. Not yet
+(the the private internal review record) as the follow-up to the internal review's flagged crack. Not yet
 adjudicated. If it survives review, this becomes the leading candidate
 for HOW varying_me could be legally mechanized without violating the
 coupling census; if it fails, the search continues.
@@ -821,7 +821,7 @@ relatives) -- all legal because all universal. This is the real
 family tonight's work opened; it is bounded by the same theorem
 (gravity only) that closed everything else, not an escape from it.
 
-**NEW REQUIRED CHECK, surfaced by this exchange, added to turn 62's
+**NEW REQUIRED CHECK, surfaced by this exchange, added to the internal review's
 open list:** the Weyl-Higgs coupling (section 23) itself needs an
 EXPLICIT EP TEST. If it shifts m_e specifically without shifting other
 particle masses (e.g. the proton) the same way, materials with
@@ -853,7 +853,7 @@ matter have clumped yet (both smooth, δ~1×10⁻⁵) -- the only truly
 "unstructured" epoch in cosmic history, and the only one where bare
 m_e can survive. The moment ANYTHING condenses (stars, planets, dark
 halos -- doesn't matter which), Weyl switches on. This is a BETTER,
-more general statement of candidate #1/#23's trigger than the dark-
+more general statement of candidate #1/the docketed trigger than the dark-
 matter-specific framing used earlier, and the author's "it's
 relative, depends what you need" language is the more correct
 description.
@@ -976,7 +976,7 @@ STATUS: candidate #1 = candidate #23 (MERGED), now resting on a
 two-constraint convergence pillar (MICROSCOPE + quasar both force
 sharpness). This is the strongest structural result the m_e mechanism
 has. Remaining: the amplitude (open), the author-level EP-safety
-proof (owed), and the census scope adjudication (internal review, turn 61/62,
+proof (owed), and the census scope adjudication (the internal review/62,
 still pending -- and now MORE likely narrow-reading-compatible since
 the coupling is to a topological/geometric bit, not a dark-medium
 internal quantity).
@@ -1005,7 +1005,7 @@ constraint independent of the exact coefficient:
     which would give eps ~ 1e-(many tens), not 1×10⁻².
 So the size alone is quiet evidence FOR an EM-sector origin and AGAINST
 a purely gravitational one -- exactly where the merged candidate
-(#1=#23) puts the coupling. This CONSTRAINS the roof's material without
+(two theses merged) puts the coupling. This CONSTRAINS the roof's material without
 BUILDING the roof.
 
 **STATE OF THE HOUSE (author's framing, honest accounting):**
@@ -1148,7 +1148,7 @@ needs (a) the precise cutoff/scheme (18 MeV is not an obviously
 motivated scale) AND (b) the exact fraction of the EM self-energy the
 environment modulates. The roof's FRAME is up (material identified,
 size bounded); the final coefficient is not nailed. The keystone task
-(section 28 / task #10) is now sharper: derive the cutoff and the
+(section 28 / the working docket) is now sharper: derive the cutoff and the
 modulation fraction of the electron's curvature-dependent EM self-
 energy.
 
@@ -1187,12 +1187,12 @@ conflict:**
     forbids.
   - The channel the census ALLOWS (pure geometry) is ~60 orders too
     weak.
-This is the SAME crack flagged turn 61, now QUANTITATIVE and
+This is the SAME crack flagged the internal review, now QUANTITATIVE and
 UNAVOIDABLE. "Go local" proved geometry alone CANNOT produce the
 amplitude → the direct author, and the question of its legality,
 is LOAD-BEARING, not optional. The dyad's central mechanism (a genuine
 ~1% local m_e shift) is viable ONLY IF (a) the direct author is legal
-under the census's NARROW reading (internal review question, turn 61/62), OR
+under the census's NARROW reading (internal review question, the internal review/62), OR
 (b) varying_me is NOT a genuine local mass shift but something else
 (an effective/degenerate parameter, an averaging artifact, etc. --
 would demand its own investigation).
@@ -1205,7 +1205,7 @@ ceiling is reached, if at all, ONLY by a direct tree-level author
 whose legality is the open census question. The roof's frame (section
 31) still stands as a BOUND; the mechanism that reaches it is now
 pinned to the one author under adjudication. Routed to internal review as
-the quantitative sharpening of turn 61.
+the quantitative sharpening of the internal review.
 
 STATUS: honest hard finding, not a win. The single most important open
 question in the model is now sharp: is a direct Theta-Higgs / dilaton-
@@ -1293,7 +1293,7 @@ sole missing property is [L]. And [L] REFINES into two parts:
   - MICROSCOPE-safety: ALREADY HANDLED. The sharp/binary screening (section
     27) suppresses the shift to <8.7×10⁻¹¹ at Earth (section 26), screening
     composition-dependence where we live. Solved earlier tonight.
-  - census-scope legality: THE ONE OPEN QUESTION (turns 61/62/63, internal review).
+  - census-scope legality: THE ONE OPEN QUESTION (the internal review/62/63).
 So the direct coupling's ENTIRE remaining blocker is the single census-scope
 question: is a MODULI/DILATON-type coupling (m_e(φ)=m_e(1+β φ/M_Pl),
 exactly how string moduli couple to fermion masses -- a DIFFERENT author
@@ -1310,8 +1310,8 @@ and it is the single question already under adjudication. The amplitude roof
 is therefore NOT an open-ended search -- it is gated on one decidable yes/no.
 
 STATUS: the amplitude work reduces cleanly to the census-scope adjudication
-(task #5). Task #10 (derive the coefficient) is DOWNSTREAM of and BLOCKED BY
-task #5: if narrow-legal, compute β; if broad-forbidden, the dyad's m_e
+(the working docket). Task #10 (derive the coefficient) is DOWNSTREAM of and BLOCKED BY
+the working docket: if narrow-legal, compute β; if broad-forbidden, the dyad's m_e
 shift has no legal mechanism at its size and the model confronts that
 directly. The pieces are all identified and placed; one permit builds the
 roof.
@@ -1319,7 +1319,7 @@ roof.
 ## 36. HONEST COUNT of the sharpness enforcements -- resisting an overcount
 ## (author: "sharpness enforced a 3rd time? 2's a pattern, what's 3?", 2026-07-07)
 
-Tempting reading: MICROSCOPE (sec 27) + quasar (sec 27) + EP-escape (turn 65)
+Tempting reading: MICROSCOPE (sec 27) + quasar (sec 27) + EP-escape (the internal review)
 = three enforcements of the sharp/binary form. CORRECTED to avoid inflating
 convergence (the exact seduction the Pinning Rule guards against):
 
@@ -1328,7 +1328,7 @@ The sharpness does THREE JOBS:
       (MICROSCOPE depth bound, sec 26/27);
   (2) passes quasar binarity -- no smooth variation across absorbers (sec 12/27);
   (3) delivers the EP fifth-force escape -- saturated → flat top → grad(φ)~0
-      (turn 65).
+      (the internal review).
 BUT jobs (1) and (3) BOTH trace to MICROSCOPE (one experiment: (1) is the
 shift bound, (3) is the fifth-force bound -- two aspects of the same torsion-
 balance/free-fall physics). So the genuinely INDEPENDENT constraints forcing
@@ -1347,7 +1347,7 @@ CANDIDATE genuine THIRD (uncomputed, not claimed):
     value; a partial shift would constrain the transition -- distinct from
     both quasar and free-fall;
   - atomic-clock comparisons; Eot-Wash/Casimir short-range tests (the latter
-    REOPENED by invoking screening, turn 65 -- could break as easily as
+    REOPENED by invoking screening, the internal review -- could break as easily as
     confirm).
 Any of these, if computed AND if it also demanded the sharp form, is a real
 third. Until run, it is a candidate, not a pillar. Booked so the record does
@@ -1383,7 +1383,7 @@ the transition) → cannot independently force the sharpness.
 **EOT-WASH / CASIMIR -- PASSES, CONDITIONALLY.** Lab masses (~kg) cannot
 de-virialize a Theta set by galactic-scale structure (~1×10¹² Msun) → Theta
 flat in lab → no fifth force → passes. But this IS the rigid-pinning
-assumption (turn 65) owing a computation: passes IF pinning rigid, must be
+assumption (the internal review) owing a computation: passes IF pinning rigid, must be
 shown not asserted.
 
 **NET, HONEST:**
@@ -1580,7 +1580,7 @@ chooses the side. The energy comes from the system reorganizing, not the
 trigger (supersaturated-solution/seed-crystal logic). Gravity's 1×10⁻⁶⁹ weakness
 is IRRELEVANT to flipping a switch.
 
-DISSOLVES THE CENSUS FIGHT (turns 61-67): the standoff was "the amplitude needs
+DISSOLVES THE CENSUS FIGHT (the internal review): the standoff was "the amplitude needs
 a STRONG dark-EM coupling, maybe forbidden." In the split, the strong part
 (amplitude) is EM-INTERNAL (matter↔matter, unquestionably legal); the dark-
 sector's only role is the WEAK geometric trigger (QED-in-curved-space nudging a
@@ -1605,8 +1605,8 @@ direction to date. STATUS: resolution direction, not proof; the bistability
 QFT calculation is the make-or-break, now sharply named.
 
 ## 43. internal review WON THE BISTABILITY EXCHANGE: QED is subcritical, so the
-## reframe RELOCATES the census fight, not dissolves it (Gemini turn 69 /
-## defender turn 70, 2026-07-07 ~4pm) -- CONCEDED
+## reframe RELOCATES the census fight, not dissolves it (Gemini the internal review /
+## defender the internal review, 2026-07-07 ~4pm) -- CONCEDED
 
 Gemini's turn-69 attack on the sec-42 bistability reframe is correct and
 conceded:
@@ -1640,12 +1640,12 @@ supercritical push CANNOT be dark-mediated → it MUST be SM-internal → Gemini
 architecture does not rescue the dissolution; it collapses the fork to one
 prong: EITHER the electron is bistable on SM-INTERNAL grounds (a real, hard,
 defend-or-die claim), OR the census must grant space a limited EM-trigger
-account (narrow reading, turns 61-67, back to reproducing the census
+account (narrow reading, the internal review, back to reproducing the census
 derivation).
 
 NET STATE: census fight NOT dissolved, back as THE hinge; 60-orders permanently
 dead; question sharpened to electron-bistability-origin; empirical fit
-(varying_me=1.0124) untouched. MAKE-OR-BREAK (Gemini turn 69, unchanged):
+(varying_me=1.0124) untouched. MAKE-OR-BREAK (Gemini the internal review, unchanged):
 exhibit a concrete bistable-electron mechanism whose supercritical binding is
 NOT a strong dark-EM coupling. We do NOT have one. Absent that, the narrow
 census reading is the only surviving path.
@@ -1662,7 +1662,7 @@ mechanism -- the MODULUS/dilaton as the line:
   medium -→ MODULUS (gravitational sector) -→ m_e
 
   - medium ↔ modulus: the modulus is Planck-suppressed, gravitational-sector
-    (same UV completion as gravity, Gemini turn 64) → the medium transacts
+    (same UV completion as gravity, Gemini the internal review) → the medium transacts
     with ITS OWN bank (gravity), never crosses to EM. Legal.
   - modulus ↔ m_e: standard moduli-fermion coupling m_e(φ)=m_e(1+β
     φ/M_Pl). THE LINE does the cross-regulator delivery.
@@ -1671,11 +1671,11 @@ bank-provided line to the EM regulator. Exactly "it can't all come down to the
 consumer."
 
 CRUCIAL: THIS IS THE PATH THAT SURVIVED. The bistability idea Gemini killed
-(sec 43, turn 69: subcritical QED) needed the ELECTRON to be bistable -- a
+(sec 43, the internal review: subcritical QED) needed the ELECTRON to be bistable -- a
 different, now-dead gadget. The moduli-line does NOT need electron bistability;
 it needs a scalar φ whose VALUE is environment-set (bare in voids, screened
 in structure), m_e tracking it. That is the moduli+screening path Gemini
-already graded "real and honestly costed" (turn 66). The author's reframe
+already graded "real and honestly costed" (the internal review). The author's reframe
 re-centers on the SURVIVOR, away from the corpse.
 
 REMAINING GATES (unchanged, honest):
@@ -1704,7 +1704,7 @@ Author, two moves at once:
   (A) SCREENING IS NOT A NEW GATE. The chameleon screening the moduli-line
       needs (fifth-force suppression today) IS the SAME thing as the m_e
       environment-dependence we already built: bare in voids, lab-value in
-      structure (the sharp form + saturated-Theta, turn 65). "Why the solar
+      structure (the sharp form + saturated-Theta, the internal review). "Why the solar
       system doesn't show deep-space numbers" and "why the modulus is
       screened" are ONE sentence. The medium does not need a chameleon bolted
       on -- the medium IS a chameleon, and its screening is the mechanism we
@@ -1729,15 +1729,15 @@ Each was solved, shown-free, or shown-not-to-help. What remains, ALONE:
   suppressed, gravitational-sector -- CENSUS-LEGAL (narrow) OR FORBIDDEN
   (broad)?
 That single question is now the entire open hinge of the m_e mechanism. It is
-the same question at internal review (turns 61-67), and the same one the author's
+the same question at internal review (the internal review), and the same one the author's
 "it's all space / rules-amendment / contingent-clearinghouse / mandatory-vs-
 optional" arguments have been building the (a)-side case for. The census-
 derivation reproduction is THE task; everything else around the m_e mechanism
 is cleared. Empirical fit (varying_me=1.0124) untouched throughout.
 
-## 46. internal review TURN 71: I OVER-CONCEDED -- PATH A SURVIVES (defender turn 72)
+## 46. internal review TURN 71: I OVER-CONCEDED -- PATH A SURVIVES (defender the internal review)
 
-Gemini turn 71 accepted the bistability concession (sec 43) but CORRECTED my
+Gemini the internal review accepted the bistability concession (sec 43) but CORRECTED my
 over-reading: I booked "no mechanism" when only PATH B (bistability) died. PATH
 A (the turn-66 direct dilaton + saturated-Theta screening) STANDS -- it never
 needed a bistable electron, so subcritical-QED does not touch it. Corrected.
@@ -1756,7 +1756,7 @@ three-number screening calc is a live task" are BOTH TRUE at different levels
 (Gemini). Same machine, unverified output. Status: "not a new gate, but an
 unverified number."
 
-THE TWO LIVE MAKE-OR-BREAK TASKS (path A, from turn 66):
+THE TWO LIVE MAKE-OR-BREAK TASKS (path A, from the internal review):
   (1) CENSUS-DERIVATION REPRODUCTION (legality): forbid / permit-as-negligible
       / never-priced the dim-5 moduli fluctuation channel? → narrow or broad.
   (2) THREE-NUMBER SCREENING CALC (EP-viability): (i) does quasar-binarity
@@ -1768,7 +1768,7 @@ over-collapsed). It is at PATH A, ALIVE, pending two tasks. Empirical fit
 (varying_me=1.0124) untouched.
 
 ## 47. (2)(i) CIRCULARITY CHECK: FAIL -- quasar forces SATURATION but not the
-## EXPONENT; sec-27 "two-constraint pillar" demoted (defender turn 74, graded
+## EXPONENT; sec-27 "two-constraint pillar" demoted (defender the internal review, graded
 ## against Gemini's pre-registered turn-73 bar)
 
 Ran the n>2.43 circularity check with EP/MICROSCOPE inputs stripped. Quasar-only
@@ -1801,9 +1801,9 @@ reproduction still the hinge.
 
 ## 48. EP GATES COLLAPSE TO ONE: atom interferometry is independent ONLY IF the
 ## screening is body-sourced -- ours is ENVIRONMENTAL, so it reduces to the
-## rigid-pinning calc (Gemini turn 75 / defender turn 76)
+## rigid-pinning calc (Gemini the internal review / defender the internal review)
 
-Gemini turn 75 sharpened: fitting n to MICROSCOPE collapses (2)(ii) ["≥2 orders
+Gemini the internal review sharpened: fitting n to MICROSCOPE collapses (2)(ii) ["≥2 orders
 at Earth"] into the same fit (MICROSCOPE is at Earth), leaving (2)(iii) ATOM
 INTERFEROMETRY as the one un-fitted EP gate -- and it's typically tighter (probes
 unscreened single atoms). Accepted in structure.
@@ -1829,7 +1829,7 @@ interferometry is the tighter gate and the MICROSCOPE-fitted n may die. Two live
 gates remain: rigid-pinning (EP-viability) + census reproduction (legality).
 
 ## 49. RIGID-PINNING COMPUTED: atom interferometry is a TRIVIAL PASS (Tier-2 EP,
-## defender turn 77)
+## defender the internal review)
 
 Computed the reduced EP make-or-break (sec 48). With sec-27 curvature scales
 (C_ref~1×10⁻⁶² first-structure threshold; C_earth~1.7×10⁻⁴⁴ solar tidal):
@@ -2130,7 +2130,7 @@ shift is present for the fit); the difference is physical motivation, not a
 refit. The gate is now derived-from-collapse, not chosen.
 
 **Ties to existing machinery.** The trigger and the granule ε-meter are the SAME
-field (multi-stream interference). The Tier-3 two-field SP sims (task #8) that
+field (multi-stream interference). The Tier-3 two-field SP sims (the working docket) that
 would quote the granule power S ALSO map where Θ saturates — one simulation
 campaign tests the trigger AND the ε-meter. This fuses the m_e-trigger program
 with the granule program.
@@ -2181,7 +2181,7 @@ sector — the same shell-crossing that funds dark energy flips the electron mas
 via one shared kinetic-fluctuation field. A genuine economy in the unification
 story; a conjecture to be tested (does the funded-floor δK author and the
 granule/Θ multi-stream field reduce to the same object in the two-field SP
-sims of task #8?). Registered as the corrected (structure-formation, not
+sims of the working docket?). Registered as the corrected (structure-formation, not
 genesis) reading of "dark matter meets dark energy." Pinning Rule intact —
 nothing here is a registered prediction.
 
@@ -2347,7 +2347,7 @@ tells it how to BIND (→ flavor). Physically exact: gravity sources from T_μν
 the job matching its nature — gravity can't help but set scale, EM can't help
 but set structure. Reinforces §62's census selection from the forces' character.
 
-**The subtlety (internal review, and it sharpens rather than breaks):** the flavor
+**The subtlety (and it sharpens rather than breaks):** the flavor
 weight is NOT literally "fraction of mass that is EM self-energy." Check the
 extreme: the electron's mass is mostly Higgs-Yukawa, its EM piece only ~α — yet
 the electron is the HEAVY shifter (weight ≈ 1) and the proton the light one
@@ -2466,7 +2466,7 @@ retraction): "amplitude mode = m_e channel" is sensible but not yet an author.
 What lifts it above hope: it's TESTABLE. f_amp also sets granule power
 S=(1+f_rot²)/2=(1+(1−f_amp)²)/2, so the task-8 sims that read f_amp off
 dwarf-heating independently check whether β≈f_amp≈0.6. Granule-f_amp → β=0.6
-closes the amplitude; otherwise the lead dies. Fifth thread onto task #8.
+closes the amplitude; otherwise the lead dies. Fifth thread onto the working docket.
 
 ## 67. The complete m_e transaction (author's synthesis) — gravity → β → EM, matter to space to matter
 
@@ -2533,7 +2533,7 @@ reasoning:**
 **State:** β's IDENTITY known (geometric mode-fraction, ≈f_amp, 60% of gravity's
 grip); its VALUE has a falsifiable target (0.6, checkable when sims read f_amp);
 but it CANNOT be computed cold without (1) the author + (2) the sim. Deriving β
-= build the author + run the sim (task #8), not more reasoning. Comparison
+= build the author + run the sim (the working docket), not more reasoning. Comparison
 credited to the author (closed the coupling-ratio route).
 
 ## 69. Why β is small: it carries INFORMATION, not energy (author) — census-forced, and FIRAS-safe
@@ -2679,7 +2679,7 @@ Then:
   CHARGE/number, NOT mass). Masses feel only the dilaton → only f_amp reaches
   m_e. Forced by the two-Goldstone structure.
 ⇒ β = f_amp DERIVED: amplitude mode = scale dilaton (universal mass coupling) +
-rotation = U(1) Goldstone (charge only). Builds on task #7 (derived the
+rotation = U(1) Goldstone (charge only). Builds on the working docket (derived the
 Weyl/conformal coupling FORM); this pins its COEFFICIENT.
 
 **HONEST CAVEATS — the route, a calc to execute, not done:**
@@ -2699,7 +2699,7 @@ invariance) + mode selection (two Goldstones) together. A concrete field-theory
 calculation traceable to a symmetry the model already has; the genuine last piece
 of the amplitude derivation. Credited to the author.
 
-## 74. THE CALCULATION RUN (author: "let's do it") — make-or-break PASSED; the last coefficient reduces to the census-scope question (task #5)
+## 74. THE CALCULATION RUN (author: "let's do it") — make-or-break PASSED; the last coefficient reduces to the census-scope question (the working docket)
 
 **Ran the effective-action reasoning for the coupling scale.** Result: a win, an
 honest loss, and a clean reduction.
@@ -2730,7 +2730,7 @@ to the census-scope adjudication = **TASK #5** (Gemini's ball):
 - WEAK census (c free O(1)): c≈1 natural + data-consistent, not forced.
 
 **STATE:** the 1.24% now hangs on the SAME census-scope question as everything
-else in the program. Close task #5 in the strong direction → the electron-mass
+else in the program. Close the working docket in the strong direction → the electron-mass
 amplitude is derived end to end (f_amp × Ψ₀/M_red). The make-or-break is behind
 us; the last freedom is the census strength itself. Credited to the author's
 "let's do it."
@@ -2760,7 +2760,7 @@ c = 1 exactly (c = 0.5 is also affordable — the bank can under-hire). Data sit
 at c ≈ 0.94 = essentially the MAXIMUM affordable; WHY it saturates the ceiling
 (rather than coupling weaker) is the residual open piece.
 
-**Net:** #5's coefficient went from "totally free, UV-set" → "capped at
+**Net:** the docketed coefficient went from "totally free, UV-set" → "capped at
 gravitational strength by naturalness, data hugging the cap." The free parameter
 now has a physical ceiling; closing the last bit = why it saturates. Credited to
 the author — the correct forcing framework (technical naturalness) supplied.
@@ -2873,7 +2873,7 @@ enforcing its own survival (the ceiling), ALSO enforce exactly gravity's rate
 (the exact value)?* The authority is named (the ledger/census); half its ruling
 is proven with a self-preservation motive; the other half is one calculation
 from proven. Credited to the author — the metaphor loop closed onto the
-model's central hinge (#5).
+model's central hinge (docketed).
 
 ## 80. "Maybe it's the superfluid's viscosity" (author) — right root (the superfluid), wrong branch (symmetries, not viscosity)
 
@@ -2975,7 +2975,7 @@ contested.
 tilt."** Correct, and bigger than it looks — it breaks §77.
 
 **BREAKS §77:** §77 called c permanently degenerate with the amplitude (no
-observable isolates it). WRONG. The granule sim (task #8) measures f_amp
+observable isolates it). WRONG. The granule sim (the working docket) measures f_amp
 INDEPENDENTLY (dwarf heating, no c dependence). Then **c = ε/(f_amp,granule ×
 Ψ₀/M_red)** — c ISOLATED. The granule sim IS the independent handle §77 denied.
 
@@ -3055,7 +3055,7 @@ Can't have both from one simple coupling: universal fixes c but murders D/H
 ~0.075% (D/H), c fixed. Tight, possibly over-constrained. Candidate resolution:
 a TWO-PIECE coupling (small universal part pins c + lepton-enhanced EM part for
 flavor) — elegant if it works, may not be satisfiable. Exactly what the
-effective-action calc (#14) must determine. The c=1 question and the deuterium
+effective-action calc (docketed) must determine. The c=1 question and the deuterium
 scar are now THE SAME coupling-structure problem. Knot booked; the real finding.
 
 ## 86. "The neighbor rule was violated early on" (author) — the epoch-structure key that could untie the §85 knot
@@ -3140,7 +3140,7 @@ all — THAT era pins c. Post-confinement hadrons form, gain binding, become ≠
 leptons — w splits. A = the birth of w; B = the body it leaves. c fixed in the
 universal era, w born at confinement, multiplying forever after.
 
-**THE ONE SHARED CRUX (task #14):** everything now rides on w being BOTH:
+**THE ONE SHARED CRUX (the working docket):** everything now rides on w being BOTH:
 (i) census-LEGAL — matter's OWN EM structure responding to a gravitational
     trigger, NOT the medium modulating α (varying-α, forbidden/quasar-killed);
 (ii) correctly SIGNED — leptons MORE, hadrons LESS (EM self-energy gives this; a
@@ -3417,7 +3417,7 @@ numerically.
 Net: §96 has now passed its one runnable observational test — real positive,
 honestly modest.
 
-## 98. #14's c IS the closed account (author's correction) — one medium-matter coupling in two phases, not a free dial
+## 98. the docketed c IS the closed account (author's correction) — one medium-matter coupling in two phases, not a free dial
 
 **Author: "we just solved this -- the coupling we're missing for c is the CLOSED
 ACCOUNT (§96)."** Correct; I wrongly treated #14 as an independent free Wilson
@@ -3431,7 +3431,7 @@ coefficient. Corrected.
   (c ~ O(1)). Naturalness closes the strong direct piece; the gentle conformal
   piece remains.
 
-⇒ **#14's c and the deuterium κ_v are the SAME coupling before/after the account
+⇒ **the docketed c and the deuterium κ_v are the SAME coupling before/after the account
 closed** — NOT two independent unknowns, NOT a free late-time dial. The "missing
 non-minimal term" for c=1 is the residual of the early account, not a mystery.
 

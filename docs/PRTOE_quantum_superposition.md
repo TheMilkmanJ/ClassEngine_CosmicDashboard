@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*INTERPRETATION LAYER (spine §12; the t342 wall). Null-prediction stance throughout: exact
+*INTERPRETATION LAYER (spine §12; the internal review wall). Null-prediction stance throughout: exact
 reproduction of QM is the falsifiable claim; the addition is ontology. This document also holds
 the graded boundary of the whole quantum wing: what is textbook (links 1–2), what is the
 model's one legal move (link 3), and where the last randomness lives (one integer).*
@@ -27,7 +27,7 @@ decomposition. *(The Born rule's VALUE is reproduced, not re-derived — flagged
 
 Measurement is not a primitive. It is **neighbor-monitoring**: the environment continuously
 reads every system through its interactions, and only configurations robust under that
-monitoring survive — **pointer states** (einselection / quantum Darwinism; t342-graded: "this
+monitoring survive — **pointer states** (einselection / quantum Darwinism; internal review-graded: "this
 IS textbook decoherence — the model reinvented quantum Darwinism in its own words"). In a
 condensate whose interactions are local-in-position, the survivors are position-like — which
 is what we observe. The "collapse" of textbooks is the thermodynamic side: the record written
@@ -37,18 +37,18 @@ a billed transaction, and the bill is why it has a direction.**
 ## 3. The outcome question — the one legal move, and its price (graded)
 
 Decoherence gives the basis and the statistics; WHICH outcome occurs is the residual question.
-The model's lane, graded across internal record 345/internal record 347 (t342/t344):
+The model's lane, graded across internal review:
 - outcomes are consistent with selection by the medium's **global phase** (the nonlocal beable
   — the same ODLRO object as the entanglement document), through the triple co-link (local
   structure, own structure, the handoff budget);
 - the price is **explicit nonlocality** (Bell honored, not dodged — "the strongest
-  process-credit of the turn," t342);
+  process-credit of the turn," internal review);
 - and the claim is INTERPRETATION: no deviation from QM statistics is predicted; **Tsirelson
   exact** stands as the permanent kill-line.
 
 ## 4. Where the last randomness lives (the graded boundary of determinism)
 
-The radio night sharpened the author's 25% to a point (t340-graded): after the vacuum start
+The radio night sharpened the author's 25% to a point (internal review-graded): after the vacuum start
 (unique — no initial draw), the uniform measure (symmetry-forced), and the determined averages,
 the model's irreducible randomness collapsed to **one quantum integer and its sign** — the
 Kibble winding draw. Whether even that is co-link-selected is the model's deepest open

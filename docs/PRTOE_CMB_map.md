@@ -92,7 +92,7 @@ something *physically violates parity* between last scattering and now:
 **Your insight, made exact.** TB and EB are **not independent signals** — they are the
 already-measured even spectra, *rotated by β*:
 
-    C_ell^{EB}  ≈  ½ sin(4β) · ( C_ell^{EE} − C_ell^{BB} )      ≈  ½ sin(4β) · C_ell^{EE}
+    C_ell^{EB}  ≈  ½ sin(4β) · (C_ell^{EE} − C_ell^{BB} )      ≈  ½ sin(4β) · C_ell^{EE}
     C_ell^{TB}  ≈  sin(2β)  · C_ell^{TE}
 
 So the parity-even modes we already fit (EE, TE) **are the lever arm**: for any given β,

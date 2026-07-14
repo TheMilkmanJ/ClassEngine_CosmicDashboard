@@ -4,17 +4,17 @@
 
 
 *Author-directed: the full bracket, from BEFORE particles down through every graded thread.
-Roots at the top; every branch cites its ledger object. Booked internal record 467.*
+Roots at the top; every branch cites its ledger object. Booked internal review.*
 
 ```
-                              THE ZERO-POINT VACUUM  (the choice-free start, t343)
+                              THE ZERO-POINT VACUUM  (the choice-free start)
                                         │
                               THE FIRST ROLL (at rest; Kibble; the tilt)
                                         │
                     ┌───────────────────┴────────────────────┐
                 THE GENOME                              THE MEDIUM
         (n: winding/helicity/charge —              (the charged rotating superfluid;
-         topological, crunch-proof, t338)           one phase, ODLRO; [θ,N]=i)
+         topological, crunch-proof)           one phase, ODLRO; [θ,N]=i)
                     │                                        │
    ┌────────┬───────┼────────┬──────────┐     ┌──────────────┼──────────────────┐
    │        │       │        │          │     │              │                  │
@@ -22,9 +22,9 @@ Roots at the top; every branch cites its ledger object. Booked internal record 4
  (AD-     HELICITY  GW    P-029      P-024 +  │        L1 (gravity-only) → L (27.6 Gpc)
  direct;  P-028   (T10)   ℓ≈6.4n     low-ℓ    │        L1a (parity) ────┐   ξ_K (256 Mpc)
  charge=  signed  signed  reads n    family   │        the account      │   ξ (402 AU hinge)
- abundance; by n   by n   off sky    (T5)     │        (dE=−pdV, t348)  │   1/M₂ (20 nm)
+ abundance; by n   by n   off sky    (T5)     │        (dE=−pdV)  │   1/M₂ (20 nm)
  the frozen-era                               │        the screens      │   l_Pl (forced,
- transfer crux, t452)                         │        (C² gate;        │    def427)
+ transfer crux)                         │        (C² gate;        │   )
                                               │         Vainshtein)     │
                     ┌─────────────────────────┼─────────────┐           │
                     │                         │             │           │
@@ -38,17 +38,17 @@ Roots at the top; every branch cites its ledger object. Booked internal record 4
     ½α_c²M₂/     (solitons; (T4, the  (T_c    (5 bands, the   (Q exact  │           │
     (16π²α_c^1.5)^¼ sub-pc;  chains) owned  inside  ratio-  tenth  under ε; │           │
     20%, 0 dials  T1)          │    residual) the    lock;  channel) drift= │           │
-    (def337)       │           │      │     window; P-022/  │     kill)    │           │
+    ()       │           │      │     window; P-022/  │     kill)    │           │
         │          │           │      │     witness  027/029)│      │      │           │
     WHY-NOW     SMBH ATOMS  DESI DR3  │     stand,   │       │      │      │           │
-    √3 = the    (α_g=1 at   (w=−1     │     def465)  │       │      │      │           │
+    √3 = the    (α_g=1 at   (w=−1     │    )  │       │      │      │           │
     Friedmann   6e9 M☉; the  sovereign│              │       │      │      │           │
     factor      strong-      bet)     │              │       │      │      │           │
-    (t438)      coupling               │              │       │      │      │           │
+    ()      coupling               │              │       │      │      │           │
         │        boundary)             │              │       │      │      │           │
-    THE λ-CEILING (≤2e-91, def457) → P-031 (%-level isocurvature at ℓ~170) │           │
+    THE λ-CEILING (≤2e-91) → P-031 (%-level isocurvature at ℓ~170) │           │
                                                                            │           │
-              THE EMERGENT-GRAVITY FRAME (acoustic + Sakharov + Jacobson, t366) ◄──────┘
+              THE EMERGENT-GRAVITY FRAME (acoustic + Sakharov + Jacobson) ◄──────┘
                     │
         ┌───────────┼───────────────┬─────────────────┬────────────────┐
         │           │               │                 │                │
@@ -61,7 +61,7 @@ Roots at the top; every branch cites its ledger object. Booked internal record 4
         └───────────────┬───────────────────────────────┘
                         │
               THE KEYSTONE DEBT: no-bare-G + the Frolov-Fursaev
-              applicability = THE LORENTZ PROGRAM (the one Achilles' heel, t422)
+              applicability = THE LORENTZ PROGRAM (the one Achilles' heel)
 
 INHERITED VERDICTS (the lawful deaths — every leaf cites its parent's law):
   strong-CP ◄─ L1a (one clause with birefringence)     g-2 ◄─ the portal scale

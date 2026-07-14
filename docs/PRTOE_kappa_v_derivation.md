@@ -1,4 +1,4 @@
-# The κ_v Derivation (task #17, working document)
+# The κ_v Derivation (the working docket, working document)
 
 > **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 
@@ -21,7 +21,7 @@ ANN-2026-005's healer is phenomenological: δv/v = κ_v·(ρ_d/ρ_r) with
 the coupling from an action. Constraints accumulated:
 - (ANN-2026-004) the amendment must be CONSTANT through BBN
   (z ~ 10⁹ → 10⁸), dead by recombination, dead in all laboratories;
-- (turn 17) derived-vs-fitted: the author's key structure must be
+- (the internal review) derived-vs-fitted: the author's key structure must be
   computed, not tuned;
 - (opening pass) density-portals demand an eV suppression scale
   (IR-strong) AND fail constancy anyway.
@@ -70,7 +70,7 @@ unvirialized-gas channel with a sign and a magnitude — the two
 programs (the healer and R1) now share one observational target:
 **m_e-sensitive spectroscopy in demonstrably unvirialized gas.**
 
-## 3a. THE THREE SEAMS (internal review turn 27) — closed, with one retraction
+## 3a. THE THREE SEAMS (internal review,) — closed, with one retraction
 
 **Seam 1 — the single definition, and the values by substitution.**
 The portal's w is the EXCITATION-SECTOR equation of state, one
@@ -138,7 +138,7 @@ condition and the verdict is sharp both ways:**
 - Audit 3: MOOT (void branch retracted). Audit 4: permanent residue
   (the honest triple's amplitude-input clause).
 
-**Final status of task #17: the author is written, local,
+**Final status of the working docket: the author is written, local,
 tree-natural, shape-forced, seam-closed, and radiatively viable
 conditional on completion softness. Nothing further is derivable
 this side of the §2 wall.**

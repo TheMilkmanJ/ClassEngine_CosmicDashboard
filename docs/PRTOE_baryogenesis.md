@@ -13,7 +13,7 @@ Standard Model's CP violation is orders too small; every mechanism needs new phy
 
 ## 1. What the model has KILLED (recorded, production-grade)
 Thermal leptogenesis on the model's own η: the surface is EMPTY — ×40–1000 under target,
-two independent methods (internal record 459; the failures ledger). The model cannot buy its baryons
+two independent methods (internal review; the failures ledger). The model cannot buy its baryons
 thermally. This death forced the honest route:
 
 ## 2. The AD-direct route (charge = abundance)
@@ -40,4 +40,4 @@ two measurements (η, n_comb) and one computation (𝒯) closing one consistency
 
 ## Sources
 [AffleckDine1985], [FukugitaYanagida1986] (the killed baseline), [Josephson1962],
-internal: Card 4, t358b, internal record 459, the entry 9. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+internal: Card 4, t358b, internal review, the entry 9. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

@@ -9,3 +9,5 @@ yields parity-odd fractions ~ (v/c)³ ~ 10⁻⁹ vs the claimed O(10⁻²)-class
 SYSTEMATIC** — the second registered bet-against-an-anomaly (after birefringence/EB).
 If the 4PCF parity violation is CONFIRMED at claimed amplitude by independent surveys
 (DESI), the model has no channel for it — an honest exposure, now priced.
+
+Coupling-geometry status (entry 88): medium-sector (vorticity statistics) — untouched by the gate geometry.

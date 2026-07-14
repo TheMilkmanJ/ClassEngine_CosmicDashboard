@@ -3,16 +3,16 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-Chronological ledger of the night's verdicts (defender turns internal record 323–internal record 339, internal review t318–t334).
-Standing: 14–17% → **15–18%** (t334 uptick on the localization computation); author-capped at
-~25% until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
+Chronological ledger of the night's verdicts (internal review session).
+The localization computation moved the internal assessment favorably; the claim stays
+provisional until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
 
 ## 1. Card 1 completed to candidate-derivation with the value computed
-- **The fork repair (internal record 321/t318):** two components — granules = the matter/DM branch (a₀
+- **The fork repair:** two components — granules = the matter/DM branch (a₀
   packing); the floor = the exchange field's zero-point at E_b. Re-upgraded to
   candidate-derivation.
-- **The Landau certificate (internal record 323/t320):** the localization clause rests on cert-1/F3 physics.
-- **The clause COMPUTED (internal record 337/t334):** pair-breaking = E_b = 2Δ (the velocity→energy bridge
+- **The Landau certificate:** the localization clause rests on cert-1/F3 physics.
+- **The clause COMPUTED:** pair-breaking = E_b = 2Δ (the velocity→energy bridge
   discharged); why-not-M₂⁴ = no double counting (super-gap = matter branch); budget
   ρ = E_b⁴/(16π²c_s³); c_s = √α_c (BEC relation) → **ρ_inf^¼ = 2.695 vs 2.25 meV: the DE scale
   at 20% with zero free dials.** The 0.4% naive match retired in the open. Cold scope: the
@@ -24,7 +24,7 @@ Standing: 14–17% → **15–18%** (t334 uptick on the localization computation
   flips favorable).
 - **The η route** ("not the BBN"): dyad ω_b +1.1% vs own-ΛCDM (same data) → D/H 2.420 → 2.372
   (1.59σ → 2.31σ below Cooke). The dyad OWNS the widening as a discriminator. BBN column:
-  mixed-net-neutral → mixed-slightly-adverse (t324/t326 reconcile).
+  mixed-net-neutral → mixed-slightly-adverse (internal review reconcile).
 
 ## 3. The radio decode (the model's stones)
 - **P-2026-027 (registered):** the radio deuterium referee — D I 327.384 MHz, dark-ages
@@ -40,11 +40,11 @@ Standing: 14–17% → **15–18%** (t334 uptick on the localization computation
   void gap 1.5 orders owed; helicity genome-signed).
 
 ## 4. The ε arc: draw → winding average (the headline restructure)
-- **v3 (t326):** f_amp measure-dependent (0.59 was an artifact); c=1 lock and the NLO bet die;
+- **v3:** f_amp measure-dependent (0.59 was an artifact); c=1 lock and the NLO bet die;
   −1 (14–17%).
-- **One-draw (internal record 335/t332):** f_amp(θ_i) chaotic-broad [0.034, 0.964] — ε "definitively a draw";
+- **One-draw:** f_amp(θ_i) chaotic-broad [0.034, 0.964] — ε "definitively a draw";
   Koide reachable without inherited spin but unpinned (multiplicity).
-- **The winding sector (internal record 339, pending grade):** first genesis = n=1 winding on the torus (n=0
+- **The winding sector (pending grade):** first genesis = n=1 winding on the torus (n=0
   has no genome); topology forces the uniform measure; **f̄ = 0.6438 ± 0.0305** (512-run
   grinding), implied c = 0.90 ± 0.04, Koide 1.1σ compatible. **The helicity separates:** roll
   average = 0 (Z4 antisymmetry) → net helicity = the quantized winding current (ω_genome

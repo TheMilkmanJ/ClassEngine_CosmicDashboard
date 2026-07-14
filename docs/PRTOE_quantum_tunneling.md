@@ -42,12 +42,12 @@ instantiations in the trigger doc.)
 
 ## 3. Where this touches graded structure (beyond interpretation)
 
-1. **The localization clause** (internal record 337/t334-graded): the vacuum-budget cap used the fact that
+1. **The localization clause** (internal review-graded): the vacuum-budget cap used the fact that
    super-gap modes are not coherent modes of the collective field. The evanescent/sub-threshold
    physics of §1 is the SAME spectral statement read in position space — the tunneling picture
    and the CC-value derivation share one piece of mathematics (the medium's response below its
    own thresholds).
-2. **The crunch's mouth / plasma trace** (internal record 331-recorded): sub-threshold electromagnetic modes
+2. **The crunch's mouth / plasma trace** (internal review-recorded): sub-threshold electromagnetic modes
    (below ω_p) are evanescent in plasma — the model has already used "the medium decides what
    propagates" as graded physics. Tunneling is that principle at the single-excitation scale.
 
@@ -58,7 +58,7 @@ results, macroscopic quantum tunneling in SQUIDs. Any confirmed deviation from s
 tunneling (rate or statistics) kills the model along with QM's other exact reproductions.
 No new signature is claimed. *(One research-grade question flagged, not registered: whether the
 medium's preferred frame could imprint on tunneling TIME measurements at extreme precision —
-parked with the LV pricing ledger, internal record 373.)*
+parked with the LV pricing ledger, internal review.)*
 
 *The wall is real, and closed — to the particle picture. The medium was never asked to stop,
 and the particle was always the medium's ripple. We certify volts with this fact and call it

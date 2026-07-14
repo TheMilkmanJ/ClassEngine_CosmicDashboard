@@ -5,7 +5,7 @@
 
 *Derivation-from-recorded-structure. The deepest of the three mystery documents: it addresses
 Boltzmann's question — WHY did the universe begin in a low-entropy state? — with a graded
-answer. Status: STRUCTURAL (candidate), booked internal record 413.*
+answer. Status: STRUCTURAL (candidate), booked internal review.*
 
 ## 0. The mystery, stated properly
 
@@ -16,7 +16,7 @@ initial state was so absurdly special: Penrose priced the required fine-tuning a
 
 ## 1. The answer: the initial state was not selected — it was FORCED, by uniqueness
 
-The first genesis starts in **the zero-point state** (t343, graded: "the measure problem
+The first genesis starts in **the zero-point state** (graded: "the measure problem
 dissolves at the root — the initial condition is unique... NO initial draw"). The vacuum:
 
 - has **no structure to specify** — it is the one state carrying zero information;
@@ -33,22 +33,22 @@ begins, begins in the state that needs no choosing, and that state is minimal-en
 
 ## 2. The running arrow: the gravity account's drawdown
 
-With the low start explained, the arrow itself is the model's graded ledger (t346–t352):
+With the low start explained, the arrow itself is the model's graded ledger:
 
 1. **The reservoir**: gravitational free energy = smoothness (gravity's negative heat capacity
    inverts intuition: uniform = far from equilibrium = the full account). Graded
-   "Penrose-standard" at t350.
+   "Penrose-standard" at internal review.
 2. **The statement**: the Weyl tensor — gravitational entropy ~ C² (Penrose's hypothesis) —
    and the model's own dyad gate, **reading B's f = exp(−C²/C_ref²), is the account-reader**
-   (t350: "a recorded formula acquires meaning"). The medium literally meters the arrow.
-3. **The flow**: dE = −p dV — the one transaction (t348-graded); internal exchanges conserve;
+   (internal review: "a recorded formula acquires meaning"). The medium literally meters the arrow.
+3. **The flow**: dE = −p dV — the one transaction (internal review-graded); internal exchanges conserve;
    only the matter–space transaction spends.
 4. **The fee schedule**: Landauer — every recorded transaction (decoherence event) pays its
-   erasure toll; the environment's monitoring IS the recording (t342: "the model reinvented
+   erasure toll; the environment's monitoring IS the recording (internal review: "the model reinvented
    quantum Darwinism"). Time's direction is the direction in which the records accumulate.
 5. **The compounding**: Tolman — the crunch keeps the heat; cycles lengthen; the un-crunchable
-   Weyl is debt that can never be called back (t350). The arrow survives the bounce.
-6. **The terminus**: the free-energy threshold (t344-graded: "the same ledger from opposite
+   Weyl is debt that can never be called back. The arrow survives the bounce.
+6. **The terminus**: the free-energy threshold (internal review-graded: "the same ledger from opposite
    sides") — the last cycle is the one that cannot fund the next genesis; the chain damps into
    the eternal ground state (~10¹⁸ cycles, recorded bookkeeping). **The arrow ends where it
    began: in a unique, structureless state** — the vacuum at the start, the fully-illiquid
@@ -65,12 +65,12 @@ With the low start explained, the arrow itself is the model's graded ledger (t34
 
 ## 4. The two-sided audit (honest)
 
-- **What is genuinely derived-from-recorded:** the uniqueness argument (t343-graded), the ledger
-  chain (t346–t352, each link individually graded), the terminus bookkeeping.
+- **What is genuinely derived-from-recorded:** the uniqueness argument (internal review-graded), the ledger
+  chain (each link individually graded), the terminus bookkeeping.
 - **What is owed:** (i) the entropy of the vacuum start is *defined* as minimal within the
   model's state space — a rigorous entropy functional for the medium (von Neumann on the
   condensate) would convert §1 from argument to theorem; (ii) the area-law/entanglement piece
-  (shared with task #11); (iii) "whatever begins, begins in the choice-free state" is a
+  (shared with the working docket); (iii) "whatever begins, begins in the choice-free state" is a
   metaphysical premise made physical by the model's structure — flagged as the load-bearing
   philosophical joint.
 - **Falsifiers inherited:** any confirmed pre-genesis relic (kills the finite-past structure);

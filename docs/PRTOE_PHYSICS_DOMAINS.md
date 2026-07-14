@@ -252,7 +252,7 @@ review, with laboratory receipts for its falsifiable furniture.**
 The origin story and the isolation theorem. **Affleck-Dine spiral genesis**
 is the candidate origin: charge = abundance (explains rolls-never-
 oscillates — charged rotates, neutral librates); inflation displaces, the
-Z4 tilt torques (Z4 is *forced* by parity + renormalizability, with r_t
+Z4 tilt torques (the tilt's *forced* status is reopened — its parity/renormalizability derivation rested on the excluded basement's charge assignments, hunt entries 132b/139; the term stands as the registered working assumption, with r_t
 of order 1 natural), release spirals, the fee is reheating entropy, and
 the medium is born condensed — no critical temperature ever crossed (why
 basin entry left no relic). The dark-antimatter reframe falls out free:
@@ -808,7 +808,7 @@ analog).** The Feynman relation S(k) = k²/2mω(k) with Bogoliubov ω(k)
 is measured (PRL 88, 120407) — the form-factor softness that
 radiatively protects κ_v has a lab-verified shape. *Hook: the κ_v
 program's protection argument leans on this shape holding for the
-medium; the #11 nonlinear derivation must reproduce it.*
+medium; the nonlinear derivation must reproduce it.*
 
 **65. Amplitude ("dark Higgs") modes in lattice superfluids — RECEIPT
 (R1.6's lab twin).** The medium's amplitude mode — the object whose gap
@@ -838,8 +838,8 @@ H_inf < 2–4×10¹² GeV (abundance/isocurvature), plus this program's own
 kills the AD genesis as drawn.*
 
 **69. CP violation & baryogenesis — RECEIPT (structural requirement).**
-The AD spiral requires a tilt slant; Z4 is FORCED by parity +
-renormalizability (Room 4), and the dark asymmetry f_rot ≈ 0.4
+The AD spiral requires a tilt slant; the Z4 tilt is the registered working assumption (its
+"forced" derivation is reopened by the basement rebuild — hunt entries 132b/139), and the dark asymmetry f_rot ≈ 0.4
 coexists with the baryons' ≈1 because the penalty schedule differs.
 *Hook: Room 4's dim-6 remnant pricing must keep charge decay frozen —
 now verified at the audited band (τ_Q ≥ 1.6×10⁹ Gyr).*
@@ -961,7 +961,7 @@ against, not a claim).*
 | 66 | Quantum turbulence | PENDING-CALIBRATION | lab tangle statistics → granule Θ meter |
 | 67 | ³He contrast class | LAB-ESTABLISHED | gapped family mapped; P-2026-005 binds us to the gapless side |
 | 68 | Isocurvature | PASSING | H_inf pin consistent with r bounds; θ-veto step-converged in h-scan |
-| 69 | CP / Z4 genesis | DERIVED | Z4 forced (parity+renorm.); τ_Q ≥ 1.6×10⁹ Gyr verified this morning |
+| 69 | CP / Z4 genesis | CONDITIONAL | Z4 tilt assumed (the "forced" derivation reopened by the basement rebuild — hunt 132b/139); τ_Q ≥ 1.6×10⁹ Gyr verified |
 | 70 | Reheating / abundance pin | ARITHMETIC | Ψ₀ = 0.7–1.5×10¹⁷ GeV; moves only if Ω_DM or entropy history moves |
 | 71 | FIRAS distortions | PASSING-NULL | μ/y at standard levels, as Law 2 requires |
 | 72 | CMB dipole | PASSING | 370 km/s speedometer; frame statistics boring, as required |

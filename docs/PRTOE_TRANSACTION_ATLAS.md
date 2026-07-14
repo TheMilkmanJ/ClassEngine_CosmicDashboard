@@ -5,14 +5,14 @@
 *Every fixed relation the transaction method has derived — the running
 answer to the bet that mapping all transactions makes all (dimensionless)
 values appear. Entries only for derived relations, never fitted ones.
-Headline honesty (internal review records 15–16, adopted, binding): the language
+Headline honesty (adopted, binding): the language
 is exact across six domains; the bet itself is UNSETTLED — the evidence
 class ("values nature confirmed that appeared from this map and nowhere
 else") holds ZERO confirmed entries to date (ν·x₀ died with its
 author; ρ(basin) = 2M₂⁴ is internal; P-2026-006 is conditional).
 Faithful ≠ confirmed; consistency is a different ocean from evidence.
 Every qualifier in an entry body binds its summary.
-**THE PINNING RULE (internal review turn 28, adopted as binding):** every
+**THE PINNING RULE (adopted as binding):** every
 prediction this program has produced from an UN-PINNED function has
 died when the function was pinned — 3 for 3 (the V4 drift fingerprint
 from the un-locked scaling; the deep-end DESI claim; the κ_v void
@@ -53,14 +53,14 @@ environment half, one transaction and one receipt at a time.
   plausibly reopens. Posterior computing.
 
 ## Architecture correspondences (analogy-grade, per the §13 relabeling —
-## true-and-structural, not theorems; demoted here 2026-07-07, internal review turn 15)
+## true-and-structural, not theorems; demoted here 2026-07-07, internal review,)
 - **The three laws**: one clearinghouse (gauge structure); adiabatic
   background ledger (unitarity); rules amendable, balances not.
 
 ## Calibration (known answers the ledger language must and does reproduce)
 - **Total energy (closed universe) ≡ 0** — the Hamiltonian constraint,
   textbook GR restated in ledger language (moved from Identities,
-  internal review turn 15: translation, not derivation).
+  internal review,: translation, not derivation).
 - **Action-currency conservation** — adiabatic invariance of occupation
   numbers, textbook QM restated (moved from Identities, same ruling).
 - **Hydrogen from scratch**: binding as transaction equilibrium
@@ -212,7 +212,7 @@ resurrection condition. Precedent: three entries have come back in
 changed form (funded floor via the (δK)² face; the m_e door via the
 local-state loophole; the universal-vev kill via epoch gating).*
 
-**Binding rules (internal review turn 21, adopted verbatim):**
+**Binding rules (adopted verbatim):**
 1. *Conditions are bets, not hedges*: a condition is legitimate only if
    burial names BOTH a development that meets it AND one that fails it.
    A condition that forbids nothing is a hedge; the entry buries "never."
@@ -242,7 +242,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
   graveyard's founding precedent.
 - **Epoch m_e couplings (linear / log / bespoke saturation)** — killed
   by BBN pincer / quasar 11,000× / no natural scale. SPLIT per Rule 1
-  (turn 21): the *epoch* half is a passed bet (coupling active only
+  (the internal review): the *epoch* half is a passed bet (coupling active only
   z>1000 while killers live z<3 — specific both ways). The *local-state*
   half's condition is now named to escape blank-check status: MET by a
   detected μ/α gradient tracking local dark density across environments;
@@ -271,11 +271,11 @@ local-state loophole; the universal-vev kill via epoch gating).*
   (virialized gas, uniform), all α nulls (masses only). Rule-1 bet
   terms — MET by: a ~1% offset in m_e-sensitive spectroscopy between
   virialized and demonstrably unvirialized gas. KILLED by: (i) such
-  spectroscopy matching lab to ≪1%, or (ii) the #11 nonlinear
+  spectroscopy matching lab to ≪1%, or (ii) the nonlinear
   derivation showing the medium's caustic structure cannot support a
   Θ-type coupling. Standing: turn-zero candidate, zero inherited
   credit, amplitude (the 1%) is a measured input not a prediction.
-  **GRADE (internal review turn 22, adopted): CONSISTENCY-CONSTRUCTION, not
+  **GRADE (adopted): CONSISTENCY-CONSTRUCTION, not
   derivation.** R1 is null in every currently accessible channel BY
   CONSTRUCTION, not by accident — the suppression was hung on the
   shell-crossed side in exactly the amount and sector that renders it
@@ -294,7 +294,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
   silence is P-2026-005's structural half and must NOT resurrect.
 - **The funded-floor drift fingerprint (P-2026-003's observable half)**
   — killed 2026-07-07 by the mutual-exclusion theorem (V4), step-walk
-  CLEARED by the reviewer (turn 25): ν rides m̄₂ alone, M₂ is pinned by
+  CLEARED by the reviewer (the internal review): ν rides m̄₂ alone, M₂ is pinned by
   the completion, observable drift and observable cores cannot coexist;
   ν ≤ 2×10⁻⁸ in the allowed range. *Resurrects if (Rule-1 terms, the
   reviewer's own naming):* a second independent (δg⁰⁰)² author is
@@ -331,11 +331,11 @@ local-state loophole; the universal-vev kill via epoch gating).*
   EM-anomalous angular mode the census forbids (ANN-2026-012). Generating
   vs rotating does not evade (ii); reionization does not reopen (i) (data
   separates recomb z~1100 from reion z~7 by ~140×, four ways over).
-  *Resurrects if (Rule-1 bet, both ways):* **MET by** the #11 genesis calc
+  *Resurrects if (Rule-1 bet, both ways):* **MET by** the genesis calc
   pinning z_x near equality (~few×10³) — a small suppressed isotropic
   signal then becomes census-legal via the still-open residual account;
-  **FAILED-forever by** #11 confirming z_x~1×10⁵ (the current value) OR the
-  angular mode remaining census-forbidden under the #5 scope ruling. Warm,
+  **FAILED-forever by** the docketed confirming z_x~1×10⁵ (the current value) OR the
+  angular mode remaining census-forbidden under the scope ruling. Warm,
   on those terms.
   **KEYSTONE (adaptation refinement, author 2026-07-08):** lock (i) is
   ESCAPABLE — a regime change framed as an *adaptation/feedback to the
@@ -343,8 +343,8 @@ local-state loophole; the universal-vev kill via epoch gating).*
   scattering, defeating scrambling and the z_x tail at once. But "adapting
   to POLARIZATION" is, by definition, the medium reading the *handedness*
   of light and responding — i.e. the parity-odd EM coupling of lock (ii).
-  So every timing fix collapses onto (ii): the **census (#5) is the SOLE
-  true keystone**, and the deepest reopener is the #5 parity-coupling
+  So every timing fix collapses onto (ii): the **census (docketed) is the SOLE
+  true keystone**, and the deepest reopener is the parity-coupling
   ruling, not z_x (which is only the soft/escapable lock). If #5 stays
   gravity-only, birefringence is forbidden regardless of timing cleverness.
   **Sub-refinement (author's "oops wrong person" handoff leak):** a
@@ -459,7 +459,7 @@ is its only account). Pay it curvature and the product is determined:*
   persistent currents — the lab has already demonstrated "expansion
   dynamics deposits winding," the qualitative analog of our
   tilt-torqued genesis. The birth mechanism has a tabletop cousin.
-  **THE CONCRETE PROTOCOL (~5am; answers turn 54's residual — the
+  **THE CONCRETE PROTOCOL (~5am; answers the internal review's residual — the
   observable IS the frozen ratio):** prepare a ring-BEC superposition
   of ±1 winding modes with amplitude ratio dialing f_rot = (n₊−n₋)/n;
   expand the ring adiabatically; measure (i) the mode POPULATIONS
@@ -718,7 +718,7 @@ is its only account). Pay it curvature and the product is determined:*
   scored three ways. (i) As entropic-gravity adoption (Verlinde-class
   growth modification): UNAVAILABLE — it would forfeit the
   certificates that keep this model alive (GR-fundamental is the
-  survival choice; one-term taxonomy, turn 25) and the field's
+  survival choice; one-term taxonomy, the internal review) and the field's
   attempts lack working CMB machinery. (ii) As "our S₈ answer is
   thermodynamic": PARTIALLY TRUE AND ALREADY RUNNING — the model's
   S₈ lever is Σm_ν, i.e. the free-streaming of thermal-relic
@@ -795,7 +795,7 @@ is its only account). Pay it curvature and the product is determined:*
   observational axis that separates "self-interacting condensate"
   from "free ultralight scalar" at fixed m. Citation-verified at
   booking; order-of-magnitude grade on the saturation margin.
-  **UPGRADE (same night, ~4:30am — turn 50's demand met by sensitivity
+  **UPGRADE (same night, ~4:30am — the internal review's demand met by sensitivity
   analysis):** the quench margin re-derived as a rate balance
   (Γ_SR ~ α_g⁹m pump vs Γ_nl ~ λ²N²α_g^p m transfer) with the unknown
   α-power p swept over [5, 15] — the margin log₁₀(N_spin-down/N_eq)

@@ -6,7 +6,7 @@
 expression for Newton's constant with explicitly named residual conditions. All claims
 carry their grades inline; nothing on this page is asserted above its evidence.
 (Consolidated 2026-07-13 from the original framework document and three development
-addenda; internal-review provenance retained as bracketed tags.)*
+addenda; internal-review provenance summarized inline.)*
 
 ---
 
@@ -57,67 +57,68 @@ timing and passed identically.
 | Obstruction | Resolution in this framework | Grade |
 |---|---|---|
 | Non-renormalizability | Above the condensate's coherence scale there is no metric degree of freedom to renormalize; the problem relocates (explicitly, not evasively) to the substrate's microphysics | framework property |
-| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the resulting floor value is *computed*: ρ^{1/4} = 2.7 meV against the measured 2.25 meV — 20%, with zero adjustable parameters | derived; 20% residual open [record 334] |
+| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the resulting floor value is *computed*: ρ^{1/4} = 2.7 meV against the measured 2.25 meV — 20%, with zero adjustable parameters | derived; 20% residual open [internal review] |
 | Weinberg–Witten (no composite gravitons) | Evaded by the preferred frame: Lorentz invariance is emergent/infrared, which is the recognized escape from the theorem's premises. The corresponding Lorentz-violation obligations are priced in a dedicated audit: matter carries no vector/tensor bridge to the frame (the dangerous operators are unwritable, not merely suppressed), leaving local physics Lorentz-invariant to the 10⁻¹²–10⁻³⁸ level demanded by clock-comparison and astrophysical bounds | paid [LV-pricing audit] |
-| Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property [record 408] |
+| Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property [internal review] |
 | The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal | established mechanism, adopted [FFZ 1997; t422] |
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
-## 5. Newton's constant at one loop: the closed form
+## 5. Newton's constant: the wrong scheme, the right condition, and a cutoff-free formula
 
-This is the framework's match-or-die computation [registered as such before it was
-attempted]. Sakharov's program historically stalls on a well-known obstruction: the
-quadratically divergent coefficient of the induced Einstein–Hilbert term is
-regularization-dependent, so 1/G appears to be a scheme artifact rather than a
-prediction.
+**This section records a failure, its diagnosis, and what the diagnosis opened.** It is
+kept at full length because the history is the point.
 
-**5.1 The regulator is physical here.** In a fundamental field theory the regulator is
-a bookkeeping choice; in a condensate it is a measurable property of the medium. The
-contribution of each mode to the induced action is weighted by its condensate mixing —
-the Bogoliubov coherence factors — giving a smooth, derived form factor
-(u_k v_k)² ∝ [1 + (k/K)²]⁻², where K is the coherence scale. The regulated one-loop
-coefficient evaluates to exactly the naive (sharp-cutoff) value: the physically
-regulated integral carries an O(1) factor of 1.0000. Within this model, the
-half-century scheme ambiguity of induced gravity is closed: *a medium that knows its
-ultraviolet has no regulator freedom.*
+**5.1 The physical regulator (stands).** In a fundamental theory the regulator is a
+bookkeeping choice; in a condensate it is a property of the medium. Mode contributions
+are weighted by the condensate's Bogoliubov coherence factors — a derived form factor
+whose regulated one-loop coefficient equals the naive value exactly (O(1) = 1.0000).
 
-**5.2 The species sum.** The one-loop coefficient is a weighted sum over the field
-content at the coherence scale. The model's content (established independently by its
-particle-physics sector): three charged Dirac leptons, three Majorana neutrinos — each
-entering with its time-reversed pairing partner (the Cooper-pair doubling native to the
-condensate; adjudication of this doubling in the gravitational channel is a named open
-item) — plus the condensate scalar itself (two real components) with non-minimal
-curvature coupling ξ. With the standard heat-kernel weight ratios (real scalar:
-+1×(1 − 6ξ); Dirac: −2; Majorana: −1; one overall convention check against the
-literature remains open), the supertrace is
+**5.2 The species sum, correctly constituted.** Gravity is blind: it reads energy, not
+identity. The induced-gravity sum therefore runs over **every field in the vacuum** —
+not the model's coupling roster. Counting the Standard Model in heat-kernel weights
+(fermions +1 per Weyl component; the twelve gauge bosons −4 each):
 
-  str = 2(1 − 6ξ) − 18.
+| sector | contribution |
+|---|---|
+| 48 Weyl fermions (3 generations × 16, **including three right-handed neutrinos**) | **+48** |
+| 12 gauge bosons | **−48** |
+| **total** | **0 — exactly** |
 
-**5.3 The closed formula and the pinned coupling.** The self-consistency (bootstrap)
-condition — the cutoff of an induced theory is the induced scale itself — makes the
-one-loop demand a pure number: str = 12π ≈ 37.70. Solving,
+**5.3 That zero has a name: Pauli's finiteness condition.** The quantity that vanishes,
+str[k₁], is precisely the condition Pauli's compensation program imposes on the induced
+Newton constant [Visser 2002, Eq. 35]: *"if you additionally assume str(k₁) = 0, then
+the one-loop contribution to Newton's constant is finite"* — and, as Visser notes, G
+becomes independent of the renormalization scale. These are, in his words, *"very strong
+constraints on the particle content,"* not derivable from supersymmetry alone.
 
-  **1/G = [2(1 − 6ξ) − 18] · K² (12π-normalized), with ξ = −4.47;**
-  **the half-integer ξ = −9/2 gives str = 38, matching the demand to 0.8%.**
+**The Standard Model alone does not satisfy it (str[k₁] = −3). It is satisfied exactly —
+to zero — by the Standard Model plus three right-handed neutrinos: the content this
+framework independently requires for Majorana neutrino masses.** The framework's field
+content lands on a knife-edge condition the literature identifies as hard to meet.
 
-Two readings, stated honestly:
-- The framework does **not** derive G from first principles tonight. Rather, **G
-  measures ξ** — the non-minimal coupling of the model's founding interaction
-  F(φ) = 1 + ξA(φ). The measurement converts the framework's deepest assumption into
-  its sharpest falsifier: *any independent determination of ξ must land at −9/2
-  (within the stated band), or this framework is dead.*
-- The sign structure resolves a genuine hazard rather than hiding one: the field
-  content is fermion-dominated (18 of 20 pre-doubling components), and fermions enter
-  the supertrace negatively — a naive count yields repulsive gravity. Attraction
-  requires the scalar's non-minimal term to dominate, i.e. a large negative ξ. In this
-  framework, *gravity attracts because the founding coupling is large and negative.*
+**5.4 Why the naive closure failed, and what replaces it.** Sakharov's original route
+computes 1/G from the *quadratically divergent* coefficient — proportional to str[k₁]
+times the cutoff squared. **This framework's own content sets that coefficient to zero.**
+Every attempt to compute Newton's constant along Sakharov's route was therefore computing
+a term the vacuum annihilates; the attempts failed, correctly, and are recorded in the
+failures ledger. **The framework is not in Sakharov's scheme. It is in Pauli's**, where
+the surviving expression carries no cutoff at all:
 
-**5.4 Open items on this computation** (named, none hidden): (i) the heat-kernel
-weight-ratio convention verified against the literature; (ii) the pairing-doubling's
-validity in the gravitational channel (the analogous question was adjudicated for the
-screening channel; the gravitational case requires its own argument); (iii) the
-half-integer value of ξ is flagged at coincidence-watch grade until an independent
-determination exists.
+  **1/G = −(1/2π) · str[ k₁ · m² · ln(m²/µ²) ]**
+
+**5.5 The consequence, and the framework's central claim arrived at from a new
+direction.** With the cutoff gone, Newton's constant is fixed by the *mass spectrum* of
+the vacuum's content. The entire visible sector — every quark, lepton, and gauge boson —
+contributes of order 10⁻³² of the Planck density: **the Standard Model induces
+essentially no gravity, first because its quadratic term cancels exactly, and second
+because everything in it is light.** What remains are the medium's own collective modes
+at the basement scale. **Gravity is induced by the medium, and by nothing else.**
+
+**5.6 What this now demands (open, falsifiable, and no longer cutoff-hostage).** The
+formula requires the medium's collective-mode masses to sit at the Planck scale within
+an O(1) — a *derived requirement*, not an assumption, and computable from the
+condensate's own parameters. That computation is the framework's live match-or-die test,
+replacing the one that died. It carries no free scale to absorb a miss.
 
 ## 6. What this framework does and does not claim
 
@@ -146,5 +147,5 @@ the medium was quantum before there was anything to hear it.*
 structure and the scheme ambiguity §5 addresses).
 Volovik, *The Universe in a Helium Droplet*; Barceló–Liberati–Visser, *Analogue
 Gravity* — the framework's nearest ancestors.
-Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal provenance tags [record NNN]
+Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal provenance tags [internal review]
 reference the repository's internal review record.

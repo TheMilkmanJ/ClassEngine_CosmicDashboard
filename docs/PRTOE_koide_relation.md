@@ -26,10 +26,13 @@ the relation's robustness is EXPLAINED here and accidental everywhere else.
 
 ## 2. The live half: WHY IT HOLDS (the lane, honest status)
 
-The genesis tilt is ε_A = 2/9 — Koide's fraction is native to the model's Z4 structure — and
+The genesis tilt ε_A is a free parameter whose registered value 2/9 was an ECHO of Koide's
+fraction (an import, not an independent appearance — provenance audited, hunt entry 143;
+under the democratic-weight conjecture w(1−w) = 2/9 it would be promoted from echo to
+prediction, and the f_amp scan's own table then pins f_amp ≈ 0.69 as its independent check) — and
 the Card-2 arc (the 512-run, the winding average, the ramp) has circled f_amp = 11/18-class
-values without landing them (t377: Koide-f̄ disfavored 3.3σ as f̄'s own value; the
-Koide-with-spending triple remains one of three live endings at 0.9σ, internal record 407). The honest
+values without landing them (internal review: Koide-f̄ disfavored 3.3σ as f̄'s own value; the
+Koide-with-spending triple remains one of three live endings at 0.9σ). The honest
 statement: **the model keeps producing Koide's rationals in its own arithmetic without yet
 deriving the mass relation** — a lane, not a result. The generation structure (three families
 on the Z4 torus?) is the un-built floor beneath it.

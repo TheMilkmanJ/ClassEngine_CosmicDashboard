@@ -58,7 +58,7 @@ the H₀ story is carried by recombination timing alone, at +1 effective
 parameter, with plik *better than the ΛCDM anchor's own* (586.5 vs
 586.9) and both tensions eased (H₀ 69.7 = the TRGB ladder value;
 S₈ ≈ 0.823). **Two riders belong in this headline, not in footnotes**
-(internal review turn 9): (i) the joint advantage is quoted as a band —
+(internal review,): (i) the joint advantage is quoted as a band —
 its ΛCDM+BBN baseline was mid-refit when measured; (ii) the champion
 carries a **−2.0σ deuterium scar** (D/H = 2.468×10⁻⁵, χ² 3.85): the
 model holds ω_b for the CMB and underfeeds deuterium — a residual it
@@ -122,7 +122,7 @@ produce. §4.2 spells out what this means for interpretation.
 
 ## 2. Action and microphysics
 
-$$ S = \int d^4x\,\sqrt{-g}\left[\frac{M_{\rm pl}^2}{2}R + P(X)\right] + S_m[g_{\mu\nu},\psi] , \qquad X \equiv -\tfrac12 g^{\mu\nu}\partial_\mu\phi\,\partial_\nu\phi $$
+$$ S = \int d^4x\,\sqrt{-g}\left[\frac{M_{\rm pl}^2}{2}R + P(X)\right] + S_m[g_{\mu\nu},\psi], \qquad X \equiv -\tfrac12 g^{\mu\nu}\partial_\mu\phi\,\partial_\nu\phi $$
 
 A single shift-symmetric (purely kinetic) k-essence scalar. The standard
 stress tensor (Garriga–Mukhanov 1999) gives on the FLRW background
@@ -144,14 +144,14 @@ cannot stay fixed while the density sweeps a continuum. This holds for any
 $P(X)$, not just a particular expansion. The best possible microphysics is
 therefore asymptotic: expand $P(X)$ about an extremum $X_0$ ($P_X(X_0)=0$),
 
-$$ P(X) \simeq P_0 + \tfrac12 P_2\,(X-X_0)^2 , \qquad u \equiv X - X_0 . $$
+$$ P(X) \simeq P_0 + \tfrac12 P_2\,(X-X_0)^2, \qquad u \equiv X - X_0 . $$
 
 The conserved current $a^3 P_2 u \sqrt{2(X_0+u)} = \text{const}$ gives, order
 by order, $u = u_{(1)} + u_{(2)}$ with $u_{(1)} \propto a^{-3}$ and
 $u_{(2)} = -u_{(1)}^2/2X_0 \propto a^{-6}$; substituting into
 $\rho + P_0 = 2X_0P_2u + \tfrac32 P_2u^2$ leaves
 
-$$ \rho(a) = \rho_\infty + K a^{-3} + \tfrac12 P_2\,u_{(1)}^2 \propto a^{-6}\ \text{(stiff, w=+1-like tail)} , $$
+$$ \rho(a) = \rho_\infty + K a^{-3} + \tfrac12 P_2\,u_{(1)}^2 \propto a^{-6}\ \text{(stiff, w=+1-like tail)}, $$
 
 with $\rho_\infty = -P_0$ and $c_s^2 = P_X/(P_X+2XP_{XX}) = u/(3u+2X_0) \to 0$.
 This is the Scherrer purely-kinetic unified-dark-matter construction
@@ -519,7 +519,7 @@ the sky, its fit advantage reverting to the CMB sector (plik credit),
 where it never depended on any ladder. If SH0ES falls, we lose a χ²
 subsidy and gain a resolution; if SH0ES stands, P-2026-001 executes
 us. Symmetric exposure, on the record.
-**Standing language (internal review turn 30, adopted): the scenario
+**Standing language (adopted): the scenario
 CONCENTRATES the case — the dyad is a CMB-sector varying-m_e result
 with a ladder-independent H₀; the SN sector is calibration-artifact
 (retired), small scales null, everything else downstream. And the
@@ -528,7 +528,7 @@ resolution: the dyad does not dissolve the Hubble tension, it PICKS
 THE TRGB SIDE and is concordant iff that wager is right (under
 SH0ES at 73.04 ± 1.04 it is 2.3–3.2σ low — a different tension, not
 none; the earlier "~4σ" was the reviewer's inflation, self-corrected
-turn 31). GRADE (turn 31): **LOOSE-BUT-ANTECEDENT** — the 0.17σ is a
+the internal review). GRADE (the internal review): **LOOSE-BUT-ANTECEDENT** — the 0.17σ is a
 point landing inside a wide anchor (CCHP's ±1.54 sets the whole
 test's resolution; any model in ~[67,73] sits within ~1.7σ), so the
 smallness of 0.17 earns nothing; what earns is PROVENANCE — 69.70
@@ -793,7 +793,7 @@ plausible fold-in.**
    DESI-scale. Consequence: **the hierarchy acquires a second wall** —
    BBN caps x₀ ≤ e⁻³⁵ from above; a confirmed DESI thawing signal
    (w₀ > −1, the current whisper) excludes the deep end and bounds
-   x₀ ≳ e⁻⁴⁰ from below. See P-2026-003. **Three riders (internal review turn 12, adopted):** (i) the
+   x₀ ≳ e⁻⁴⁰ from below. See P-2026-003. **Three riders (adopted):** (i) the
    deposit is drawn from structure's own gravitational energy (Bianchi)
    — an observable funded floor implies an observable *withdrawal*
    (suppressed late growth / ISW / lensing at the sub-percent-to-percent
@@ -934,7 +934,7 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
    the rules-class control scan. Four executions and one demotion at
    the speed of algebra: the screening theory works.
    **α CONTROL SCAN RUN (2026-07-07 night) — THE DEGENERACY BREAK
-   (framing per internal review turn 29). Sign convention, pinned: positive
+   (framing per internal review,). Sign convention, pinned: positive
    = χ² PENALTY = worse fit.** θ*-locked pricing, full joint stack,
    H₀ relocked per point; α = 1.0 baseline reproduces the dyad's own
    numbers (plik 586.5). Exact component totals (full reconciliation
@@ -948,7 +948,7 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
    nearest-degenerate recombination knobs (binding ~ m_e α², Thomson
    ~ α²/m_e²) are resolved by the damping tail onto OPPOSITE sides —
    α actively forbidden (~20σ at 1%), m_e actively preferred.**
-   Reach, bounded (turn 29 holds, adopted): this retires the
+   Reach, bounded (the internal review holds, adopted): this retires the
    freedom-artifact charge for the NEAREST sibling only — of the
    knob family, N_eff was already executed by the joint refit
    (ξ → 0.01, the dyad's origin), α is now broken, a bare z_rec
@@ -1177,7 +1177,7 @@ staying in all three premises at once — no map can, ours included.
 Tunneling *rates* are in scope now (§9.4); the entanglement question is
 open pending which toll the model's quantum extension elects to pay.
 
-### Correspondences & conjectures (relabeled per internal review turn 10:
+### Correspondences & conjectures (relabeled per internal review,:
 "confirmed" is reserved for certificate-grade results — all-orders
 proofs, bounded leakages, stamped caveats. What follows is true-and-
 structural but analogy-grade, except where a cross-check is noted.)

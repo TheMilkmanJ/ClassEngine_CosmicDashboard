@@ -23,7 +23,7 @@ Three recorded/graded objects bear directly on the largest angles:
    compact topology DISCRETIZES the largest modes — the "missing" ℓ=2 power is the cavity's
    infrared mode cutoff (no modes longer than the box). The atom reading (§10, recorded): the
    low-ℓ sky is the cavity's LINE SPECTRUM — the cycle odometer.
-2. **The winding axis** (t338–t343-graded): the n ≠ 0 winding singles out ONE DIRECTION on the
+2. **The winding axis** (internal review-graded): the n ≠ 0 winding singles out ONE DIRECTION on the
    sky — the natural seed for alignment/asymmetry families. Standard cosmology has no axis;
    this model cannot avoid having exactly one.
 3. **The axis is SHARED and already registered twice**: P-2026-024 (the ε-dipole) and
@@ -47,7 +47,7 @@ predictions-in-waiting.
   low quadrupole quantitatively — the cavity computation (owed) decides; if L is comfortably
   super-horizon, thread (1) weakens to aesthetic.
 - Planck's isotropy analyses constrain dipolar power modulation at large scales — the same
-  BipoSH class flagged at t400 for the comb; the family must survive it jointly.
+  BipoSH class flagged at internal review for the comb; the family must survive it jointly.
 - A measured axis-of-evil direction INCONSISTENT with a future comb/ε-dipole axis kills the
   family linkage cleanly.
 

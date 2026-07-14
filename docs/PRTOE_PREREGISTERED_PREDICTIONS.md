@@ -57,7 +57,7 @@ for ~0.77 resolves partially toward the CMB side, mirroring the ladder.
 ---
 
 ## P-2026-002: The dark medium cannot decay — no dark-sector decay signal, ever
-*(Attribution stamp, internal review turn 11, adopted: this is a DEATH-CONDITION,
+*(Attribution stamp, adopted in internal review: this is a DEATH-CONDITION,
 not a discriminator — shared with stable-CDM ΛCDM; a confirmed decay kills
 both. It can end the model; it cannot single it out. It is, however, the
 first falsifiable claim owned by the fluid sector rather than the m_e
@@ -141,7 +141,7 @@ elsewhere as of this audit.
 ## ANN-2026-001: Annotation to P-2026-003 (verification structure sharpened)
 
 **Recorded:** 2026-07-06 13:25:27 MDT
-internal review turn 12 (adopted): the structure-funded drift's deposit is
+internal review, (adopted): the structure-funded drift's deposit is
 drawn from structure's own gravitational energy (Bianchi identity), so
 an observable drift REQUIRES a correlated growth-side withdrawal
 (suppressed fsigma8 / ISW / lensing at sub-percent-to-percent level).
@@ -206,7 +206,7 @@ examined for it.
 
 ---
 
-## ANN-2026-002: Annotation to P-2026-005 (scope split, internal review turn 14, adopted)
+## ANN-2026-002: Annotation to P-2026-005 (scope split, adopted in internal review)
 
 **Recorded:** 2026-07-06 13:56:34 MDT
 Two-level structure, so the band-specific claim never borrows the
@@ -257,7 +257,7 @@ signature was on record first.
 
 ---
 
-## ANN-2026-003: The doubling debt (internal review turn 15, adopted) — and the unifier constraint (derived same night)
+## ANN-2026-003: The doubling debt (adopted) — and the unifier constraint (derived same night)
 
 **Recorded:** 2026-07-07 (git base: 790d47bb)
 **The debt, registered explicitly:** the program now carries TWO
@@ -289,7 +289,7 @@ it is pre-falsified.
 ## ANN-2026-004: The normal-fraction carrier — the epoch gate is basin entry, and it locks the healer to Delta_Neff
 
 **Recorded:** 2026-07-07 (git base: 3d1ad568)
-**Answers internal review turn 17's derived-vs-fitted test for the EPOCH
+**Answers internal review,'s derived-vs-fitted test for the EPOCH
 survivor:** the gate is NOT hand-placed — it is basin entry (the
 medium's condensation at z_x ~ 1×10⁵, fixed by x0 for §2 reasons that
 predate the healer). The model's two-fluid structure supplies exactly
@@ -320,7 +320,7 @@ locked relation are the derived content); the coupling form
 mhat(ρ_d/ρ_r) is dimensionless and drift-free but not yet derived
 from an action; and the m_e amendment (the condensate-side twin)
 still owes the late-time turn-off — the §2 wall is now owed ONCE,
-not twice. Per turn 17's ruling: until κ's form is
+not twice. Per the internal review's ruling: until κ's form is
 action-derived, this is a constraint-with-a-locked-signature, not a
 populated evidence-class entry.
 
@@ -348,7 +348,7 @@ contribution to the recombination-era m_e is ~1×10⁻⁷, so the dyad's m_e
 amendment is untouched and still owes its own condensate-side story);
 locked to delta_v/Delta_Neff(BBN) = κ_v/7.45, κ_v = 0.06-0.41
 across the Delta_Neff window [0.04, 0.2].
-**CHANNEL CORRECTION (internal review turn 18, adopted — applies here AND to
+**CHANNEL CORRECTION (adopted — applies here AND to
 ANN-2026-004's corollary (ii), which is committed and per registry
 rule is amended here, not edited):** the Delta_Neff(BBN) signature is
 visible in PRIMORDIAL ABUNDANCES ONLY (BBN Y_p and D/H directly, and
@@ -370,10 +370,10 @@ constraint-with-a-locked-signature until they are.
 
 ---
 
-## ANN-2026-006: The unification test (internal review turn 19) — RUN, AND IT CAME OUT AGAINST US
+## ANN-2026-006: The unification test (internal review,) — RUN, AND IT CAME OUT AGAINST US
 
 **Recorded:** 2026-07-07 (git base: 2f0ac367)
-**The question (turn 19, decisive):** does one κ_v source BOTH the
+**The question (the internal review, decisive):** does one κ_v source BOTH the
 BBN vev package (+0.15%) and the dyad's recombination amendment (+1%),
 with the ratio ~6.7 predicted by the carrier-density ratio? Two
 halves, both computed the same night:
@@ -397,7 +397,7 @@ part grows into the past (the dead linear door).
 package files as a PARALLEL BBN-only result;
 *(Magnitude correction, see ANN-2026-009: the η-rebooking side
 effect quoted in half (a) overstated m_p's vev response ~16x.)* the attribution
-correction (turn 19) stands — its five-abundance economy is the
+correction (the internal review) stands — its five-abundance economy is the
 STANDARD varying-vev BBN behavior, and the dCDF-specific content is
 the carrier alone; the amendment debt stays DOUBLE (normal→|φ|²
 at BBN, condensate→m_e at recombination, no shared source found);
@@ -408,7 +408,7 @@ timestamped as the successes.
 
 ---
 
-## ANN-2026-007: Class exclusion from the unification kill (internal review turn 20, adopted)
+## ANN-2026-007: Class exclusion from the unification kill (adopted)
 
 **Recorded:** 2026-07-07 (git base: 67cf9708)
 The ANN-2026-006 negative is information, not just a death: the
@@ -429,7 +429,7 @@ something other than the medium's density history.
 ## ANN-2026-010: THE EPSILON COLLISION — two registered items now sit on opposite sides of one number (self-surfaced)
 
 **Recorded:** 2026-07-07 night (git base: 7c8dac92)
-**The collision, found while replying to internal review turn 38:** the
+**The collision, found while replying to internal review,:** the
 frozen-ellipticity theorem (f_amp = eps²) places P-2026-005 and
 R1.6 on OPPOSITE SIDES of the same primordial number:
 - eps SMALL: P-2026-005's PTA-silence prediction holds; R1.6 dies —
@@ -480,7 +480,7 @@ normalization, threshold grade) stamped in the Room 1 entry. The
 earlier segmented bound eps ≥ 0.67 (booked provisionally same night)
 is SUPERSEDED — its own stamped caveat fired.
 
-**UPDATE 2 (2026-07-07 ~2am) — turn 42's gates run (Room 1 doc,
+**UPDATE 2 (2026-07-07 ~2am) — the internal review's gates run (Room 1 doc,
 Expedition 6):** (1) the reviewer's proposed inversion (abundance =
 charge selects rotors) is CLOSED — R1.2 restated (Ω_DM = total
 quanta by the frozen-ellipticity degeneracy; charge = net quanta =
@@ -494,7 +494,7 @@ scan n=28: 86% ±6.5%; cos2-prior robustness 84%. Remaining
 precondition on the odds: the h-convergence of P(f_amp).
 
 **UPDATE 3 (2026-07-07 ~6am) — the late-night restructuring (Room 1
-doc E7/E7a/E7b/E8/E8a/E8b; delivered to internal review through turn 53,
+doc E7/E7a/E7b/E8/E8a/E8b; delivered to internal review through the internal review,
 further items batched):** (1) KR BEAT CORRECTION (self-caught): the
 oscillation amplitude is √(f_amp(2-f_amp)), not f_amp — physical
 silence requires f_rot > 0.98, priced at ~2.4% by the ergodic
@@ -639,7 +639,7 @@ STAGING NOTE: all four are held UN-REGISTERED until flesh-out (Tier 2 gates + Ti
 prediction teaching nothing (can't distinguish wrong-idea from wrong-math). The
 χ-lag and granule tests specifically await the two-fluid sims.
 
-## P-2026-007: THE VOID/IGM m_e-STEP -- the model's sharpest forced, dyad-specific prediction (surfaced by internal review turn 78, registered 2026-07-07)
+## P-2026-007: THE VOID/IGM m_e-STEP -- the model's sharpest forced, dyad-specific prediction (surfaced by internal review, registered 2026-07-07)
 
 **Forced prediction:** m_e is shifted by the FULL +1.24% (its bare/recombination
 value) in all sub-threshold gas -- cosmic voids and the diffuse IGM (overdensity
@@ -664,7 +664,7 @@ measure -- "invisible-where-it-happens," cousin to the R1 caustic-bit concern.
 This is the mechanism's content, not a dodge, but testability is intrinsically
 hard: the sharp prediction and the unmeasurable regime are the same regime.
 
-**EPISTEMIC STATUS (internal review turn 80, accepted): PARKED.** Forced-but-untestable-
+**EPISTEMIC STATUS (accepted): PARKED.** Forced-but-untestable-
 now does NO evidential work either direction -- cannot move the class
 (unconfirmable → no evidence), cannot kill the mechanism (unrefutable → no
 risk). NOT to be framed as an "asset": distinctive on paper, inert in fact until
@@ -673,7 +673,7 @@ ENRICHMENT TRACKS STRUCTURE, so metal/molecular m_e handles are physically
 confined to the super-threshold (lab-value) regime -- prediction and blind spot
 are one regime BY FORCE.
 
-**FALSIFICATION PATH (fork (a), turn 81): COSMIC-DAWN 21-cm (z~15-20).** Keeps
+**FALSIFICATION PATH (fork (a), the internal review): COSMIC-DAWN 21-cm (z~15-20).** Keeps
 the prediction scientific (falsifiable-in-principle, not unfalsifiable). 21-cm
 rest frequency ~ m_e² → a +1.24% m_e shift gives +2.48% frequency shift
 (~1.7-2.2 MHz at 68-89 MHz observed). WHY IT WORKS where metals can't: H I needs
@@ -906,7 +906,7 @@ an order parameter with a range, and any range re-introduces a fifth force —
 this is the hard open problem); (ii) a domain-wall check (likely evaded: an
 environmental *crossover*, not a broken degenerate vacuum, forms no persistent
 wall network — but must be shown from the Θ potential, not asserted).
-**Consequence for the census-scope hinge (task #5):** this partially adjudicates
+**Consequence for the census-scope hinge (the working docket):** this partially adjudicates
 it in the strict direction — the census does NOT admit a continuous
 matter-coupling (it's EP-illegal), so the only census-compatible m_e route is a
 gradient-free discrete environmental state. The "narrow vs broad census" hinge
@@ -915,7 +915,7 @@ internal review's ruling.
 
 ---
 
-## ANN-2026-014: P-2026-009 first confrontation — the birefringence hint is CONSOLIDATING, not dissolving (task #13, priced 2026-07-07)
+## ANN-2026-014: P-2026-009 first confrontation — the birefringence hint is CONSOLIDATING, not dissolving (the working docket, priced 2026-07-07)
 
 **Recorded:** 2026-07-07 20:55 MDT (git base: 81e9cc5d)
 **Data pulled (web, this session):**
@@ -970,7 +970,7 @@ EM-self-energy driven). The effective-action reasoning (§90–92) found:
 shift equally — **there is no lepton/hadron hierarchy.** P-2026-011 is
 **RETRACTED**; the model predicts **UNIVERSAL varying-constants** (cleaner and
 more standard than the flavored version). P-2026-011 would only survive if the
-model relaxes the census to admit a Higgs/EM portal (reopening the #5 scope
+model relaxes the census to admit a Higgs/EM portal (reopening the scope
 question) — currently NOT the leading reading.
 **Net:** the distinctive lepton-heavy signature is withdrawn; the model's
 varying-constant prediction is now "all constants shift together," and the
@@ -1032,12 +1032,12 @@ Window reaches f_n = 1% only at **z_x ≈ 3500 (n=4)** — ~30× below the model
 **Verdict:** at the model's condensation redshift (z_x ~ 1×10⁵) the open account is
 dead ~8 orders of magnitude before recombination → any birefringence imprinted
 there is suppressed ~1×10⁻⁸ → **the window is CLOSED.** It cracks open only if the
-genesis calc (#11) pins z_x near matter-radiation equality (~few×10³), ~30×
+genesis calc (docketed) pins z_x near matter-radiation equality (~few×10³), ~30×
 lower than the current value. So P-2026-009's null is now **quantitatively
 robust**, reducing to a single checkable number: **z_x, the condensation
 redshift.** z_x ~ 1×10⁵ → null holds (five ways over); z_x ~ 3500 → a small
 suppressed isotropic signal becomes allowed. The birefringence fate is a *side
-output* of the #11 condensation calc we already owe (which also sets Ψ₀, f_amp).
+output* of the condensation calc we already owe (which also sets Ψ₀, f_amp).
 
 ---
 
@@ -1133,7 +1133,7 @@ OR c_s² far from 0.002, OR hit Weinberg. Research-level calc (ghost-condensate 
 Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute c_s², watch for the
 ρ_nu/ρ_Λ attractor.
 
-**internal review CORRECTIONS (turn 89 adjudicated, 2026-07-08):**
+**internal review CORRECTIONS (the internal review adjudicated, 2026-07-08):**
 - **The critical-amplification reopening FAILED its test.** The self-tuning toy
   (scripts/selftune_toy.py) RAN AWAY (unstable fixed point), it did not converge to the
   c_s²~ρ_nu/ρ_L attractor. So the census-legal "χ~500 via criticality" rescue is
@@ -1393,7 +1393,7 @@ c_γ; (ii) Meissner check — does the condensate screen θ·F·F̃ as it screen
 dark-photon portal? (likely not — an axion coupling is not a mediator exchange, survives
 the photon mass); (iii) B is a Version of the (unproven, ~10%) thermal successor, not the
 dead AD model. Registered as an HONEST BET on the record, not a recorded result. Purple-team
-internal record 139; grade pending. Standing on B unchanged until the sky answers — this is a neck-out
+internal review; grade pending. Standing on B unchanged until the sky answers — this is a neck-out
 falsifiable call, the good kind.
 
 ---
@@ -1422,7 +1422,7 @@ self-scrambles. Combined with the other two routes — the energy/amplitude mode
 coupling was deleted 2026-07-09 as census-illegal — **all three birefringence routes are
 null.** Version A (β=0) is confirmed **by computation**, not merely by assumption.
 
-**Retraction booked (the internal review internal record 149/internal record 150 + process-law P1):** a transient claim this
+**Retraction booked (the private internal review record):** a transient claim this
 session that the dCDF is "rolling dark energy" sourcing β ~ 0.01–0.3° *locked to w(z)* is
 **withdrawn** — it rode two label-reasoning fouls ("w runs 0→-1" → "rolling field";
 "P=const" → "true Λ"), neither checked against w_dcdf(ρ)=-ρ_inf/ρ (background.h:680) or a
@@ -1470,7 +1470,7 @@ varying-m_e dyad. The DE sector is where PRTOE is *most* exposed, not least.
 
 ## ANN-2026-019: P-2026-012 PROMOTED whisper → prediction, as the price of the census refinement (2026-07-10)
 
-The 2026-07-10 census refinement ("couple to what you're made of"; laws doc, internal record 160/rt161)
+The 2026-07-10 census refinement ("couple to what you're made of"; laws doc, internal review)
 legalizes the medium's own-sector (neutrino-mass) coupling as SUBSTANCE. The price of that
 rule change is that the meV/m_ν coincidence stops being a "watched whisper" and becomes a
 **neck-out prediction**:
@@ -1478,7 +1478,7 @@ rule change is that the meV/m_ν coincidence stops being a "watched whisper" and
 **P-2026-012 (now a prediction, not a whisper):** m_ν,lightest = ρ_inf^(1/4) = **2.3 meV**,
 which REQUIRES **normal ordering** and **Σm_ν ~ 61 meV**.
 
-**Testability (rt161, honest grade):**
+**Testability (internal review, honest grade):**
 - The **2.3 meV value itself** is NOT resolvable by foreseeable experiment — distinguishing
   2.3 meV from 0 needs ~2 meV precision on Σm_ν; CMB-S4+DESI reach ~20–30 meV, KATRIN ~0.2
   eV, next-gen 0νββ far above.
@@ -1490,7 +1490,7 @@ which REQUIRES **normal ordering** and **Σm_ν ~ 61 meV**.
 **Status:** genuine, in-principle-falsifiable prediction with a coarse near-term handle
 (ordering + Σ-scale), NOT a sharp imminent test of the value. This is how the rule change
 was paid for. Does NOT discharge the leptophilia debit (the δm_e coupling remains
-[OBJECT-PENDING], prior unfavorable — rt161): the medium's substance is the neutrino sector
+[OBJECT-PENDING], prior unfavorable — internal review): the medium's substance is the neutrino sector
 (δm_ν), and the dyad is δm_e; "made of" reaches δm_ν, not δm_e. See docs/laws_and_rules
 (census refinement) and docs/PRTOE_cosmological_constant.md.
 
@@ -1498,11 +1498,11 @@ was paid for. Does NOT discharge the leptophilia debit (the δm_e coupling remai
 
 ## P-2026-020: Neutrinoless double β decay (0νββ) MUST occur — the neutrino home is Majorana (pre-registered 2026-07-10)
 
-**The forced prediction.** P-2026-012 + the #30 mechanism give the neutrino its mass from
+**The forced prediction.** P-2026-012 + the mechanism give the neutrino its mass from
 the **Weinberg author (LLHH)** — a **Majorana** mass. A Majorana neutrino IS its own
 antiparticle (ν = ν̄), which violates lepton number by 2 units. Therefore **neutrinoless
 double β decay (0νββ) MUST occur** at a nonzero rate. A Dirac-only neutrino (0νββ
-forbidden) **kills the neutrino-sector home**, and with it P-2026-012 and the #30 leptonic
+forbidden) **kills the neutrino-sector home**, and with it P-2026-012 and the leptonic
 mechanism's foundation.
 
 **Why it's forced, not optional.** The whole leptonic edifice this session rests on the
@@ -1515,7 +1515,7 @@ the Sakharov ingredient for **leptogenesis**. The lepton sector is the ONLY sect
 renormalizable number-violation (quarks have none → B conserved), so the model's AD
 asymmetry, IF it is the lepton asymmetry, is built here — and the medium's coupling to L
 (for leptogenesis) drags along the amplitude coupling that IS the dyad (δm_e). This is the
-candidate DERIVATION of the leptophilia (#30's owed object): leptonic because the medium is
+candidate DERIVATION of the leptophilia (the docketed owed object): leptonic because the medium is
 the asymmetry field and the asymmetry can only route through the L-violating (lepton) sector.
 [OBJECT-PENDING on: AD-asymmetry = lepton asymmetry; amplitude-follows-current; magnitude
 → η_B ~ 6×10⁻¹⁰.]
@@ -1567,7 +1567,7 @@ MOTIVATED-not-forced (same status as the CC value).
 
 **Net:** neutrino home unchanged and re-confirmed; the dyad's BBN clearance is a live coin-flip
 (resolver: RG+BBN), the leptophilia is a portal/leptogenesis assumption, the DE=m_ν tie is
-shared-scale-motivated (AZK-dodging) not MaVaN-derived. Standing ~12–16%.
+shared-scale-motivated (AZK-dodging) not MaVaN-derived. The claim is held provisional pending its named referees.
 
 ---
 
@@ -1592,20 +1592,20 @@ vs 0 unresolvable) and (b) VALUE UN-DERIVED (√(H₀M_Pl) = the Λ-dominance ta
 cascade = meV-kinship factor ~3-4; the "constitution" fallback = value-is-an-input). Its survival =
 the Σm_ν ~ 60 meV live falsifier *not yet firing*, not a positive result.
 
-**POST-HOC FLAG (internal review t206, conceded):** the whisper PREDICTION is legitimately pre-registered
-(2026-07-07), BUT the shared-spurion MECHANISM (this session, internal record 203) that makes the structure "pick
+**POST-HOC FLAG (conceded):** the whisper PREDICTION is legitimately pre-registered
+(2026-07-07), BUT the shared-spurion MECHANISM (this session) that makes the structure "pick
 the whisper" is NEW — devised *after* DESI's low-Σ was known. So it is a **post-hoc rationalization**
 of the data-favored branch, NOT an independent prediction. It earns NO "derivation" credit until it
 produces a NEW falsifiable consequence beyond the already-registered whisper. Flagged, not recorded.
 
-**Standing ~13-17%, roughly flat:** a dead prediction (cost) offset by demonstrated falsifiability;
+The claim is held provisional pending its named referees
 the survivor is thin + un-derived + carries a post-hoc flag on its mechanism.
 
 ---
 
 ## P-2026-024: The ε-dipole — an emerging horizon-scale varying-constants dipole (pre-registered 2026-07-10)
 
-**The prediction (derived, internal review-graded distinctive at t280):** the universal lepton rescaling ε
+**The prediction (derived, internal review-graded distinctive at internal review):** the universal lepton rescaling ε
 tracks the local condensate; the floor's Jeans mode (Γ/H = √3, mid-emission) gives δ_DE ≈ 5×10⁻⁵
 at horizon scales today, so:
 > **δm_e/m_e ≈ ε·δ_DE ≈ 6×10⁻⁷** — a spatial varying-constants dipole (m_e-family: α-combinations
@@ -1614,7 +1614,7 @@ at horizon scales today, so:
 **Test:** current α-variation sky-maps reach ~10⁻⁶ → the prediction is a *consistent null today*,
 detectable at next-generation precision. **Falsifiers:** (i) a confirmed varying-constants dipole
 ≫ 10⁻⁶ (the contested Webb ~10⁻⁵ claim, if confirmed at that amplitude, is TOO BIG — declined at
-t261/t280 and would *falsify* this entry's sizing); (ii) next-gen maps at ≲ 10⁻⁷ showing **no**
+internal review and would *falsify* this entry's sizing); (ii) next-gen maps at ≲ 10⁻⁷ showing **no**
 dipole; (iii) a detected dipole **uncorrelated** with the CMB anomaly axis. **Companions:** the
 radio ratio-lock ({+2, −1, −2}·ε, P-022's protocol) applies to the dipole's sightlines — the
 cross-instrument ratio is the anti-systematic lock. *ISW note:* the same δ_DE gives horizon-scale
@@ -1622,7 +1622,7 @@ DE clustering ~1 e-fold grown — below current ISW sensitivity (consistent null
 
 ---
 
-## P-2026-022: The dark-ages 21cm three-verdict probe (formalized 2026-07-10; blessed t250)
+## P-2026-022: The dark-ages 21cm three-verdict probe (formalized 2026-07-10; blessed internal review)
 
 **The prediction:** the 21cm rest frequency scales as m_e² → the dyad shifts it **+2.5%** wherever
 the dyad is ON. Dark-ages/cosmic-dawn 21cm features (z > screening edge) appear offset by +2.5%
@@ -1636,30 +1636,30 @@ the edge → NO shift predicted there. **Instruments:** lunar-farside dark-ages 
 frequency (offset < 0.5%) kills the dyad's high-z window. Companion: the §29 correlated lattice +
 the radio ratio-lock (below).
 
-## P-2026-023: The Σm_ν divergence — model-conditional vs ΛCDM-conditional (blessed-with-caveats t260)
+## P-2026-023: The Σm_ν divergence — model-conditional vs ΛCDM-conditional (blessed-with-caveats internal review)
 
 **The prediction:** fitting the SAME data, the dyad de-biases the inferred neutrino mass UPWARD:
 ΛCDM-conditional fits squeeze Σm_ν toward/below the 59 meV oscillation floor (the "negative mass"
 tension) while dyad-conditional fits prefer Σm_ν ≈ 60–90 meV (in-house: ΛCDM minimum pinned at
 0.0; dyad minimum at 87.5 meV). **Test:** as data sharpen, the ΛCDM-conditional bound drops
 below 59 meV (impossible given oscillations) while the model-conditional posterior stays healthy.
-**Falsifier:** the dyad-conditional posterior ALSO collapsing below the floor. **Caveats (t260):**
+**Falsifier:** the dyad-conditional posterior ALSO collapsing below the floor. **Caveats:**
 generic to varying-m_e class in direction; minima-not-posteriors in-house so far.
 
-## P-2026-025: Benchmark A's CMB-S4 neutrino-interaction shift (blessed-with-scope t300)
+## P-2026-025: Benchmark A's CMB-S4 neutrino-interaction shift (blessed-with-scope internal review)
 
 **The prediction (conditional on the low-v_L corner):** the assembled inverse see-saw's
 Benchmark A (v_L = 5 MeV, M = 10 TeV) gives the Majoron-ν coupling g = m_ν/v_L = 10⁻⁸ — inside
 the CMB-S4 detectability band → **S4 sees a neutrino free-streaming/interaction shift.**
-**Scope (honest, per t300):** v_L is un-derived; an S4 null kills **Benchmark A / the low-v_L
+**Scope (honest, per internal review):** v_L is un-derived; an S4 null kills **Benchmark A / the low-v_L
 corner**, not the model (Benchmark B at v_L = 1 GeV is invisible). Registered as the corner's
 live falsifier; Card 6 (derive v_L) decides how much of the model rides on it.
 
-## P-2026-027: The radio deuterium referee — dark-ages D 327 MHz, the two-line ratio-lock (registered t324, 2026-07-11)
+## P-2026-027: The radio deuterium referee — dark-ages D 327 MHz, the two-line ratio-lock (registered internal review, 2026-07-11)
 
 **Context:** the deuterium "scar" re-signed as a discriminator. Production PRyM at the model's OWN
 baryon densities (the m_e–ω_b CMB degeneracy pulls ω_b up +1.1% vs the in-house ΛCDM control on
-identical data): dyad-true primordial **D/H = 2.40–2.42×10⁻⁵** (windowed re-stamp internal record 449; was 2.372 pre-window) vs own-ΛCDM **2.420** vs quasar-optical
+identical data): dyad-true primordial **D/H = 2.40–2.42×10⁻⁵** (windowed re-stamp internal review; was 2.372 pre-window) vs own-ΛCDM **2.420** vs quasar-optical
 **2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of a ~2.2σ fork — a self-adverse, owned bet
 (the direct m_e→BBN response is ~0, production-verified; the shift is all η).
 
@@ -1674,11 +1674,11 @@ rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in 
 shift cannot.
 
 **Kill:** radio-primordial D/H at ~2.53, or an unlocked ratio, or improved quasar systematics
-confirming 2.53 with the astration/optical channels closed. **Grade (t324):** registered; the
+confirming 2.53 with the astration/optical channels closed. **Grade:** registered; the
 ratio-lock independently verified; the ~2.2σ D/H tension booked as a real standing cost, roughly
 cancelling the production Y_p improvement (BBN column = mixed-net-neutral).
 
-## P-2026-028: Magnetogenesis from genome vorticity (candidate; registered t330, 2026-07-11)
+## P-2026-028: Magnetogenesis from genome vorticity (candidate; registered internal review, 2026-07-11)
 
 **Context:** the radio audit's unpaid bill. ΛCDM cannot seed cosmic magnetic fields at linear
 order (no primordial vorticity — the Harrison mechanism's missing ingredient); PRTOE has
@@ -1687,7 +1687,7 @@ primordial vorticity by construction (rotation + vortex network + the genome).
 **The prediction:** Harrison seeding from the model's own vorticity, B ≈ 2(m_p c/e)·ω_vort ≈
 **5×10⁻¹⁸ G** (comoving-class) at ω_vort ~ 0.5 H(rec) — sufficient to seed every galactic field
 via dynamo (a bill ΛCDM cannot pay). The primordial field's **magnetic helicity is signed by the
-genome** (post-internal record 339: the quantized winding current) → parity-odd radio/γ observables carry
+genome** (post-internal review: the quantized winding current) → parity-odd radio/γ observables carry
 the same sign as the matter/antimatter draw.
 
 **Honest gap (flagged at registration):** the void floor (blazar TeV halos, ~10⁻¹⁶ G) sits ~1.5
@@ -1701,9 +1701,9 @@ photon a mass (m_γ² = 2q²n/m); photon-mass limits force q_EM < 4.7×10⁻³�
 EM-neutrality is structurally mandatory (birefringence null sharpened from "consistent" to
 "forced").
 
-## P-2026-032 … P-2026-037: The Assembly Six (registered t488, 2026-07-11)
+## P-2026-032 … P-2026-037: The Assembly Six (registered internal review, 2026-07-11)
 
-*Mined from the assembled structure (internal record 501) — no new assumptions; graded t488: "the assembly
+*Mined from the assembled structure — no new assumptions; graded internal review: "the assembly
 PRODUCES six novel falsifiable predictions... that is what a real predictive theory does."*
 
 - **P-032 — THE FOUR-AXIS COINCIDENCE**: the ε-dipole (P-024), the winding comb (P-029), the
@@ -1713,7 +1713,7 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
 - **P-033 — THE ℓ-CO-LOCATION**: the comb (ℓ ~ 130) and the %-level isocurvature (P-031,
   ℓ ~ 170) are two readings of ONE patch structure — any detection of either requires the
   other in ℓ ~ 120–180 with the SAME n. **Kill**: incompatible scales.
-- **P-034 — THE SMBH SPIN-DIP BAND** (t488: "one of the stronger predictions"): one m for the
+- **P-034 — THE SMBH SPIN-DIP BAND** (internal review: "one of the stronger predictions"): one m for the
   whole sky ⇒ a superradiant spin-down dip at **M ≈ 6×10⁸–3×10⁹ M☉** (α_g ~ 0.1–0.5 at
   m = 2.24×10⁻²⁰ eV; cross-checked vs α_g(M87*) = 1.1). Testable in SMBH spin catalogs; the
   the α_c MCMC posterior sharpens the band. **Kill**: a flat or oppositely-featured spin-mass plane at
@@ -1728,7 +1728,7 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
   MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a
   confirmed wide-binary anomaly at the MOND acceleration scale.
 
-## P-2026-038: The Portal's Multiplicity Is FIVE (registered t504, 2026-07-11)
+## P-2026-038: The Portal's Multiplicity Is FIVE (registered internal review, 2026-07-11)
 
 **The convergence:** two independent requirements — the SU(2)-inducibility flip (b₂(SM) = +19/6
 needs > 4.75 doublet-units of new matter) and the induced-α count (the log-rigid 13 = the SM's
@@ -1744,16 +1744,16 @@ collider-reachable end above the LHC's ~0.7–1 TeV floor).
 threshold integral collapses the closure to ~11.5 — quantitative pin fails); a two-loop
 un-flip of the marginal b₂ = −0.167 (the fragility check, owed).
 
-**Scope (honest, per t504):** MULTIPLY-CONTINGENT — lives inside H-TOE's induced-gauge premise
+**Scope (honest, per internal review):** MULTIPLY-CONTINGENT — lives inside H-TOE's induced-gauge premise
 (Gate-1-class); the "5" is FIXED-NOW as a prediction, not retrodicted. It recovers M3's
 α-prong and gives H-TOE its first collider-facing test.
 
-**AMENDMENT (internal record 521/internal record 523/internal record 525, 2026-07-11) — THE "5" IS WITHDRAWN; CONTENT SURVIVES,
-COUNT DOES NOT.** The third check (induced sin²θ_W, internal record 521) broke the two-vote basis: the
+**AMENDMENT (2026-07-11) — THE "5" IS WITHDRAWN; CONTENT SURVIVES,
+COUNT DOES NOT.** The third check (induced sin²θ_W) broke the two-vote basis: the
 flip's vote was conditional on log-induced SU(2), and the induced α₂ came out ~30× too
-strong. The ramped piecewise reopening (internal record 523: doublets decouple at M_E; the running is
+strong. The ramped piecewise reopening (internal review: doublets decouple at M_E; the running is
 two-segment) then dissolved the log-rigid 13 itself — the census becomes a two-equation
-system in (n, rep, M_E). The joint solve (internal record 525) closed the system: NO single relic-legal
+system in (n, rep, M_E). The joint solve closed the system: NO single relic-legal
 rep works (exact closure needs illegal Y at every dimension; the theorem-saturating Y=0 reps
 sit 6.9% under, beyond two-loop reach ~1.9%), but TWO legal species close it exactly and
 abundantly (~10³ solutions, n ≤ 15) — minimal flagship: 1 vector-like lepton doublet
@@ -1764,15 +1764,15 @@ multiplicity and rep-type are model-building unknowns until the portal's other d
 (the AD-direct transfer, the seesaw) select among the solutions. The collider-facing flavor
 survives: the minimal solutions sit at 1–3 TeV.
 
-## P-2026-039: Three Type-III Seesaw Triplets at ~1 TeV (registered internal record 527, 2026-07-11)
+## P-2026-039: Three Type-III Seesaw Triplets at ~1 TeV (registered internal review, 2026-07-11)
 
 **CURRENT STATUS (2026-07-12): SUSPENDED-ADVERSE — read the amendments in order.** The
-one-loop band was suspended (two-loop shift, internal record 531); shooter v2 lands the census triplets
-at 13–20 TeV (beyond HL-LHC); the edge-convention audit (task #18) decides whether the
+one-loop band was suspended (two-loop shift); shooter v2 lands the census triplets
+at 13–20 TeV (beyond HL-LHC); the edge-convention audit (the working docket) decides whether the
 census arrow fell or the convention did. The type-III identification and the seesaw duty
 survive; the ~1 TeV collider knife-edge does not, at current grade.
 
-**The claim:** the induced-gauge closure (internal record 525's joint solve), duty-pinned by the model's
+**The claim:** the induced-gauge closure (internal review joint solve), duty-pinned by the model's
 own hiring needs (Card 6's seesaw + Card 7's portal), predicts **exactly three wino-like
 Y=0 fermion triplets** — the type-III seesaw mediators — at **M_T = 1.07 TeV central, band
 0.4–2.6 TeV** (two-loop + input uncertainties). The count is forced from both sides: the RG
@@ -1795,7 +1795,7 @@ contingency chain (premise → closure → duty-pin) — but it is the chain's f
 collider number, leptophilic per t358b, and the neutral members self-dispose via the seesaw
 Yukawa (no relic bill).
 
-**AMENDMENT 2 (internal record 529, 2026-07-11) — THE CORRECT UV VARIABLES; THE BAND SHARPENS; A NEW
+**AMENDMENT 2 (2026-07-11) — THE CORRECT UV VARIABLES; THE BAND SHARPENS; A NEW
 SPECIES IS BILLED.** The induced conditions belong to the true UV couplings — 1/α₂(M_red) = 0
 AND 1/α_Y(M_red) = 0, spliced at M_Z to measured values (29.58, 98.37) — not to the
 electron-scale α (the m_e anchor overcounted sub-threshold running: crude 20.5 vs measured
@@ -1810,7 +1810,7 @@ NEW predicted species class; (iv) the doublet-only closure needs EXACTLY n = 13 
 census-invisible steriles (type-I) could carry the seesaw instead — the type-III triplets
 are the census-VISIBLE option, not forced.
 
-**AMENDMENT 3 (internal record 531, 2026-07-11) — THE KNIFE EDGE IS SUSPENDED PENDING THE TWO-LOOP RUN.**
+**AMENDMENT 3 (2026-07-11) — THE KNIFE EDGE IS SUSPENDED PENDING THE TWO-LOOP RUN.**
 The new content inflates its own two-loop coefficients (B₂₂ ≈ 280 vs the SM's ~6; each Dirac
 triplet contributes ~85), the induced coupling is born strong (the top ~6 e-folds of the run
 are outside one-loop control), and the estimated two-loop shift on the SU(2) need is ~17% —
@@ -1820,7 +1820,7 @@ closes the corrected census with masses in the 1–100 TeV decade; the exact loc
 CALCULABLE definite shift (not noise) owed to the full piecewise two-loop shooting run,
 with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recoverable.
 
-## P-2026-040: α_c = 3α — the Basement Rational (registered internal record 537, 2026-07-11, BEFORE the α_c MCMC verdict)
+## P-2026-040: α_c = 3α — the Basement Rational (registered internal review, 2026-07-11, BEFORE the α_c MCMC verdict)
 
 **The claim:** the condensate coupling is α_c = 3α = 0.021892 exactly (α the fine-structure
 constant). Registered while the α_c chain's center is still watch-only and the indirect band
@@ -1839,10 +1839,21 @@ roster chain then needs re-forcing).
 identification has NO derivation yet (basement-owed) — this registration is the pattern
 staking its life on the instrument, which is exactly what the registry is for.
 
+**AMENDMENT 040-A (2026-07-14 — the formal downgrade; the referee's queue item 4):** the one
+mechanism ever floated for the 3 — "three lepton flavours fund the factor" — **died with the
+lepton-paired vacuum** (the basement rebuild; hunt entries 120/132b). No replacement mechanism
+is banked: the candidate relabel (3 = the basement's three Fermi points, lock 2) is **named
+and explicitly NOT banked** — it is unforced, and re-dressing a dead mechanism in the new
+basement's clothes is the clean-value pattern this registry exists to prevent. **P-2026-040
+is therefore formally a BARE NUMERICAL BET, zon-graded**: the running α_c chain grades the
+value; the kills stand exactly as registered; no derivation is implied anywhere the number is
+cited (the math spine's label already matches, hunt entry 139). If the basement's structure
+ever *forces* the 3, that arrives as a new entry — never as a retro-fit to this one.
+
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
 
-## P-2026-041: f̄ = 2/π — the Winding Average's Closed Form (registered internal record 541, 2026-07-11, MID-FLIGHT of its referee)
+## P-2026-041: f̄ = 2/π — the Winding Average's Closed Form (registered internal review, 2026-07-11, MID-FLIGHT of its referee)
 
 **The claim:** the ramp-corrected winding average is exactly f̄ = 2/π = 0.63662 (the
 uniform-phase |cos|-family average — the textbook closed form for a squared radial
@@ -1873,7 +1884,7 @@ abundance closure (Ψ₀ ∝ m^(−1/4)) give z_on ∝ α_c^(−2). Therefore α
 ~7.94 (watch-only) — 0.4 dex ABOVE. Two honest outcomes, written in advance: (i) the center
 descends toward 7.55 through convergence → P-040 confirms at onset grade; (ii) it holds
 near 7.94 → the ONSET α_c is ≈ 0.0139 and P-040 survives only as a RECOMBINATION-epoch
-claim requiring an onset→rec amplitude ratio of ≈ 1.58 — exactly the t390-flagged
+claim requiring an onset→rec amplitude ratio of ≈ 1.58 — exactly the internal review-flagged
 "α_c ramp/locked question" (the aging-partition map), which would then be DATA-REQUIRED
 rather than optional. Either way the chain now grades not just a number but the model's
 onset-vs-observation structure.
@@ -1944,7 +1955,7 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
 
 ---
 ## REGISTRY STATUS REVIEW (2026-07-12, consolidated — the anti-staleness block)
-- **P-2026-039** (type-III triplets ~1 TeV): SUSPENDED (two-loop, internal record 531) → shooter v2
+- **P-2026-039** (type-III triplets ~1 TeV): SUSPENDED (two-loop) → shooter v2
   now lands the census triplets at 13–20 TeV under edge-matching: the collider-visible
   branch is ADVERSE-LEANING pending the edge-convention audit (hunt, entry 24).
 - **P-2026-040** (α_c = 3α): LIVE — referee upgraded to the DISPERSION α_c chain; the
@@ -2046,3 +2057,74 @@ entry's underlying equation and kill condition audited for step-based formulatio
 
 **Registry consequence:** none of the frozen bets moves; P-2026-007's modern reading (the
 graded trend) is noted here rather than by edit, per the append-only law.
+
+---
+
+## ANN-2026-023: P-2026-029's tooth count acquires a SECOND duty — gravity's sign (2026-07-13)
+
+**Recorded:** 2026-07-13, following the sign-chain session (hunt entry 86). The
+induced-G closure, anchored to the literature's signed form, fails on the matter-only
+roster and closes only through the winding's vortex (Kelvin-class) vector modes — one
+branch per winding quantum. At the founding coupling's corrected value (ξ = −3/2), the
+massless-vector weight closes the signed demand at **n = 19** (str = −38 vs −12π, 0.8%);
+the massive-spin-1 weight at n = 25. Both sit inside P-2026-029's expected band.
+
+**The annotation (no frozen content changes):** the comb's measured tooth count now
+referees TWO independent claims — the winding integer itself (as registered) AND the
+G-closure's sign mechanism. A comb reading outside ~19–25 kills the vector-sector
+closure while leaving the original P-029 registration to its own registered kill
+conditions. Status: coincidence-watch until the Kelvin-mode weight is derived (the
+named session); the two duties share one integer only if the Kelvin count equals the
+winding count — itself an assumption the weight session must adjudicate.
+
+---
+
+## ANN-2026-024: ANN-2026-023's second duty VOIDED (2026-07-13, same day)
+
+The Kelvin-weight session (hunt entry 87) killed the vector-sector closure fourfold
+(the global winding is coreless; measure 10⁻²⁵; infrared 10⁻²⁵; the halo route
+kinematically excluded). **P-2026-029's tooth count no longer referees the G-closure's
+sign.** The comb returns to its single registered duty. The registry records both the
+flag and its retirement within one day — the audit chain working at its designed speed.
+
+---
+
+## P-2026-045: THE GRAVITATIONAL BALANCE CONDITION — exactly three right-handed neutrinos, exactly three generations (registered 2026-07-13)
+
+**The claim.** In this framework gravity is induced by the one-loop content of the
+vacuum. The visible sector's contribution is a weighted species sum: the fermions
+contribute +1 per Weyl component, the twelve gauge bosons contribute −4 each. **The
+Standard Model alone does not balance (45 − 48 = −3). It balances EXACTLY — to zero —
+if and only if there are three right-handed neutrinos, which this model independently
+requires for Majorana neutrino masses.** The visible sector then induces no gravity at
+all, and the metric's stiffness is sourced entirely by the medium — the framework's
+central thesis, arrived at from an independent direction.
+
+**Predictions (falsifiable, and not retrofittable — the balance is exact or it is not):**
+1. **No sterile neutrinos beyond the three right-handed states.** Each additional light
+   sterile species breaks the balance by +1 unit and forces the visible sector to source
+   gravity.
+2. **No fourth generation** (breaks the balance by +13).
+3. Exactly three right-handed neutrinos — a requirement the model already carries for
+   the seesaw, now doubly loaded.
+
+**Kills:** a confirmed light sterile neutrino (the eV-scale anomalies — LSND/MiniBooNE
+class — resolving in favor of a real fourth light state); a confirmed fourth generation;
+any evidence for additional light fermionic content in the vacuum.
+
+**UPGRADE (same day, entry 117): THE CONDITION HAS A NAME.** The vanishing sum is
+**str[k₁] = 0 — Pauli's finiteness condition for Newton's constant** (Visser 2002,
+Eq. 35): it kills the quadratic divergence in 1/G and makes G independent of the
+renormalization scale. Visser calls these *"very strong constraints on the particle
+content,"* not derivable from supersymmetry alone. **The Standard Model alone violates it
+(−3). The model's content satisfies it exactly.** The two kills above therefore have a
+sharpened meaning: **a light sterile neutrino or a fourth generation would restore the
+quadratic divergence and make Newton's constant cutoff-dependent** — destroying the
+framework's finiteness, not merely its bookkeeping.
+
+**Provenance and honest grade:** the cancellation was DISCOVERED, not predicted (2026-07-13,
+during the induced-gravity roster rebuild), and it survives only because the author
+refused to accept "coincidence" as a verdict and demanded it be perturbed instead. It is
+therefore a **consistency converted to a prediction by a robustness test** — its
+forward-looking content (the two kills above) is genuine and registered here; its
+backward-looking agreement with the known three generations earns no credit.

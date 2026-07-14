@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*INTERPRETATION LAYER (spine §12; t342/t347-graded wall: "coherence-bank at most, no
+*INTERPRETATION LAYER (spine §12; internal review-graded wall: "coherence-bank at most, no
 physics-bank"). The model's claim is the author's null-prediction stance: it REPRODUCES
 quantum entanglement EXACTLY — that reproduction is the falsifiable content — and supplies an
 ontology for what entanglement IS. No deviation from QM is predicted; any observed deviation
@@ -21,10 +21,10 @@ contains for independent, graded reasons.**
 
 A condensate possesses off-diagonal long-range order — **one phase, everywhere**. This is not
 metaphor; it is the defining property of the medium (founding identity), the same object that:
-- forces the winding quantization (t338-granted),
-- supplies the uniform genesis measure (t340-granted),
+- forces the winding quantization (internal review-granted),
+- supplies the uniform genesis measure (internal review-granted),
 - and was graded as "the rare interpretation whose ontology ALREADY CONTAINS the global object
-  the interpretation requires" (t342, on internal record 345's Bell handling).
+  the interpretation requires" (on internal review Bell handling).
 
 Entangled systems are subsystems whose joint state is serviced by the medium's one phase: the
 correlation does not travel *between* them — it is *held beneath* them.
@@ -32,10 +32,10 @@ correlation does not travel *between* them — it is *held beneath* them.
 ## 2. The Bell gate, paid in the open (the graded lane)
 
 - Loophole-free Bell tests kill any account where outcomes are fixed by LOCAL structure. Named
-  without mercy in internal record 345; graded t342: "the strongest process-credit of the turn."
-- The model's lane (re-classified honestly at internal record 347/t344): **nonlocal-beable class** — the
+  without mercy in internal review; graded internal review: "the strongest process-credit of the turn."
+- The model's lane (re-classified honestly at internal review): **nonlocal-beable class** — the
   global phase as the carrier (Bohm-family), paying Bell's price as *explicit nonlocality*
-  rather than measurement-dependence. t344: "correct and honestly owned... the condensate's
+  rather than measurement-dependence. internal review: "correct and honestly owned... the condensate's
   ODLRO makes the nonlocal-beable natural."
 - No signaling: the phase is not a usable channel (the no-communication theorem is reproduced,
   not evaded — the correlations are in outcomes, never in marginals).
@@ -44,7 +44,7 @@ correlation does not travel *between* them — it is *held beneath* them.
 
 Two particles entangled in spin are two excitations whose preparation wrote ONE constraint into
 the medium's phase. Measurement (a neighbor-monitored decoherence event — einselection,
-t342-granted as "textbook decoherence, correctly self-identified") reads the constraint at one
+internal review-granted as "textbook decoherence, correctly self-identified") reads the constraint at one
 end; the global phase — which was never two things — satisfies it at both. "Spooky action" is
 the residue of insisting the substrate is two places rather than one object.
 
@@ -58,7 +58,7 @@ the residue of insisting the substrate is two places rather than one object.
    IS the prediction.
 2. **No preferred-frame leakage into correlations**: the medium has a rest frame (the W-W
    evasion's price); entanglement correlations must remain frame-independent to current
-   precision — the LV pricing ledger (task from internal record 373) covers this jointly.
+   precision — the LV pricing ledger (task from internal review) covers this jointly.
 
 ## 5. Honest scope
 

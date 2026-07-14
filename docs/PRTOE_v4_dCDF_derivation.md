@@ -165,7 +165,7 @@ $$ w(s) = -\exp\big[-(s+\beta s^2)\big], \qquad \beta > 0 \tag{9} $$
 $$ c_s^2(s) = 2\beta s\, e^{-(s+\beta s^2)} \tag{10} $$
 
 **Always $\ge0$ by construction** (no gradient instability, any β>0). Peak
-value, located near $s^\*\approx1$ for small β (from $2\beta s^2+s-1=0$):
+value, located near $s^*\approx1$ for small β (from $2\beta s^2+s-1=0$):
 
 $$ c_s^2(\text{peak}) \approx 0.74\,\beta \tag{11} $$
 

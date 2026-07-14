@@ -20,7 +20,7 @@ reductions (DE↔m_ν), OR find a genuine value-derivation (hard; may not exist)
 **J2 — Gate-0 dyad BBN clearance. [RED — empirical make-or-break]**
 The +1.2% m_e shift (the load-bearing bolt) requires the dyad quiet at BBN. T_c is a COIN-FLIP
 straddling the deuterium bottleneck (~70 keV), log-ambiguous 40–450 keV. **Shore:** the RG-improved
-V_eff(φ,T) + BBN D/H network resolver (task #40). BUILDABLE — this is the highest-leverage joint.
+V_eff(φ,T) + BBN D/H network resolver (the working docket). BUILDABLE — this is the highest-leverage joint.
 
 **J3 — DESI w=−1 (P-2026-018). [RED — external falsifier]**
 If DESI DR2+ shows evolving DE, clean kill. Jointly squeezed with Σm_ν (can't relax one with the
@@ -38,14 +38,14 @@ amplitude-follows-current derivation, OR an explicit lepton-specific portal (a H
 break leptophilia).
 
 **J6 — The shared-spurion tie. [ORANGE — post-hoc flagged]**
-Needs a NEW falsifiable consequence beyond the whisper to earn credit (task #41).
+Needs a NEW falsifiable consequence beyond the whisper to earn credit (the working docket).
 
 **J7 — DM abundance magnitude (η_B ~ 6×10⁻¹⁰). [ORANGE]**
 Post-fragmentation the Q-ball charge IS the DM; the magnitude is [OBJECT-PENDING]. **Shore:** the
 leptogenesis magnitude calc (ties to J5/P-020).
 
 **TOP-3 make-or-break: J1 (DE value), J2 (gate-0 clearance), J3 (DESI w=−1).**
-**Most buildable / highest-leverage: J2 (#40) and J4 (independent m_e detection).** J1 may be
+**Most buildable / highest-leverage: J2 (docketed) and J4 (independent m_e detection).** J1 may be
 constitutional; J3 is a data verdict.
 
 ---
@@ -54,12 +54,12 @@ constitutional; J3 is a data verdict.
 
 ### B0. GATE (do not skip)
 Integration is GATED on **both**: (a) confidence on the new model **>85%**, and (b) gate-0
-resolver (#40) landing **clear**. Current confidence **~13–17%** → **NO INTEGRATION THIS TURN.**
+resolver (docketed) landing **clear**. Confidence assessed as insufficient → **NO INTEGRATION THIS PASS.**
 This section is a map so the eventual fix drops in without syntax/missing-piece thrash. **No
 active-code changes are made.**
 
 ### B1. Current surface (recon)
-- `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (#17 conformal onset), `dcdf_conv_g/at/n`
+- `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (docketed; conformal onset), `dcdf_conv_g/at/n`
   (DM→DE/dark-rad conversion); inline `dcdf_s_of_rho`, `dcdf_rho_rad`, `dcdf_conv_rate`.
 - varying-m_e: via CLASS `varying_fundamental_constants` (instantaneous step at
   `varying_transition_redshift`, currently z=50 — a HARD STEP, not the order-parameter ramp).
@@ -67,7 +67,7 @@ active-code changes are made.**
 ### B2. What the new model changes (when unlocked)
 1. **Dyad as a thermal order parameter, not a z=50 step.** Replace the hard step with a smooth ramp
    φ(T)/v = √(max(0, 1 − T/T_c)), so δm_e/m_e = ε·(φ/v)² turns on continuously below T_c.
-   New param: `dcdf_dyad_Tc` (condensation temperature, ~keV, the #40 output). `Tc<=0` disables →
+   New param: `dcdf_dyad_Tc` (condensation temperature, ~keV, the output). `Tc<=0` disables →
    recovers the current step (backward-compatible, like the `z_rad_onset<=0` guard).
 2. **Two-field bookkeeping.** Field 1 = existing dcdf (charge/DM+DE). Field 2 = dyad (charge-free).
    Only field 2 sources δm_e; field 1 stays as-is. Minimal: one new ramp function, one new param.
@@ -103,17 +103,17 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 
 ## JOINTS UPDATE 2 (2026-07-11, the radio night)
 
-- **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS (internal record 337/t334):** ρ_inf^¼ =
+- **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS:** ρ_inf^¼ =
   ½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV. Bohr binding × Landau-capped collective
   zero-point (pair-breaking = E_b = 2Δ) × BEC phonon speed (c_s = √α_c). The 0.4% "match"
   retired as prefactor-naive; scope held cold: the MODEL's floor value, not the CC problem writ
   large. J1 is no longer RED — it is a candidate-derivation with a 20% honest O(1).
 - **J2 (gate-0) — PRODUCTION-ABSOLUTE:** clean PRyM: ∂ln(D/H)/∂ln m_e ≈ 0. The D/H pharmacy
   died with it; Y_p is the true medicine (+0.65σ); the dyad owns a D/H-widening discriminator
-  (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per internal record 449; was 2.372/2.31σ pre-window) with the radio D-line (P-027) as referee.
+  (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per internal review; was 2.372/2.31σ pre-window) with the radio D-line (P-027) as referee.
 - **J4 gains the sharpest instrument:** the two-line ratio-lock (ν_H/ν_D = 4.338649 preserved,
   both lines +2.50% at z>50).
-- **NEW STANDING RISK:** the D/H fork (windowed bet: 2.40–2.42 vs the quasar 2.527, ~1.9σ) AND the Y_p reversal (+1.3σ counter, internal record 449 — the medicine was an artifact).
+- **NEW STANDING RISK:** the D/H fork (windowed bet: 2.40–2.42 vs the quasar 2.527, ~1.9σ) AND the Y_p reversal (+1.3σ counter, internal review — the medicine was an artifact).
 - **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved draw→winding-average
   (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
 - **C-code gate RESET (author):** >85% deleted; PolyChord is the gate (the claim is held

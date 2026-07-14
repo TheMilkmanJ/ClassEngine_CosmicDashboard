@@ -7,7 +7,7 @@
 claim that this map, once built, IS the local-to-atomic map. Verified structurally: the descent
 crosses exactly ONE boundary (the medium's coherence hinge at ξ = 402 AU), below which every
 rung repeats one relationship. Companion to the transaction map. Status: STRUCTURAL
-(organizing + one computed column + one hinge fact). Booked internal record 461.*
+(organizing + one computed column + one hinge fact). Booked internal review.*
 
 ## 0. The one column that spans everything
 
@@ -17,7 +17,7 @@ the cosmic coupling for the universe):
 
 | rung | size | α_eff | E_b/(mc²) = ½α² | coherence status |
 |---|---|---|---|---|
-| **UNIVERSE** (derived, internal record 337) | 27.6 Gpc | 0.0214 | 2.3×10⁻⁴ | many-cell |
+| **UNIVERSE** (derived) | 27.6 Gpc | 0.0214 | 2.3×10⁻⁴ | many-cell |
 | galaxy cluster | ~3 Mpc | 3.3×10⁻³ | 5.6×10⁻⁶ | many-cell |
 | galaxy (MW) | ~30 kpc | 7.3×10⁻⁴ | 2.7×10⁻⁷ | many-cell |
 | **SOLAR SYSTEM** | 40–10⁵ AU | 1.0×10⁻⁴ | 5×10⁻⁹ | **THE HINGE (ξ = 402 AU inside it)** |
@@ -57,11 +57,12 @@ atomic structure" is one sentence and not six.
 1. **Any new rung-candidate physics** (a proposed structure at any scale) gets placed by two
    numbers: its ½α_eff² and its position vs ξ — the thread/kill verdicts follow the rung's
    regime (this systematizes the threading protocol's scale checks).
-2. **The hinge is a PREDICTION ZONE**: structures near 402 AU (Oort-inner, wide binaries,
-   detached TNOs) are where one-cell physics meets mosaic physics — if the medium's substrate
-   has ANY dynamical edge effects, they live there (un-priced; flagged as the ladder's one
-   speculative prong — wide-binary anomaly claims exist in the MOND literature and would be
-   the confront-data if ever pursued).
+2. **The hinge is a PREDICTION ZONE — now PRICED (entry 83)**: structures near 402 AU
+   (Oort-inner, wide binaries, detached TNOs) are where one-cell physics meets mosaic
+   physics. The edge effect exists and ramps smoothly across the hinge, but the census
+   (no fifth force, P-2026-014) caps it at gravitational polarization ≈ 10⁻¹⁸ relative —
+   **the model predicts NO observable wide-binary anomaly**, and a confirmed Gaia-class
+   one is a named kill. The hinge keeps its place; its teeth were an illusion.
 3. **The couplings column invites one question** the model may someday answer: why α_c (0.021)
    ~ 3α (0.0073) — the cosmic and atomic couplings within a factor 3 while gravity's rungs
    float free. Noted, not built upon.
