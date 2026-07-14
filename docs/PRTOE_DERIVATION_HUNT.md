@@ -5372,3 +5372,60 @@ charged discovery at LHC/FCC re-runs both entries with new thresholds).
 (5) α_Y(M_Pl) = 0.0180; **(6) A = √2 — Koide's amplitude.** *Plus the near-lock's closure
 (g₂ = g₃ exactly at M_Pl) as the door's bonus round: any basement that pays lock 4 and 5
 should say whether its thresholds close the 2.9.*
+
+## ENTRY 139 — THE RIPPLE AUDIT: did the basement rebuild propagate, or was it localized? **Answer: it propagated to FOUR places, all now fixed; five suspected ripples CLEARED**
+
+*The author's order before any data resumes: "go through our entire model and make sure these
+new changes don't have any effects down the line, or if they were just a localized part of the
+equation that needed tending to." The whole corpus swept — every claim touching what the
+rebuild changed.*
+
+**THE ONE-Z₄ CORRECTION FIRST (my own framing fixed mid-audit):** the genesis field IS the
+condensate's order parameter, so the genesis tilt's ε_A·r⁴·cos4θ term **is** the phase-Z₄
+whose "forced by parity + renormalizability" derivation died with the old basement (132b).
+Not two Z₄'s — one, and its invalidation reaches every "FORCED" label. (The Z₃ that never
+collides with it is the FAMILY-space one — entry 135; unchanged.)
+
+**RIPPLES FOUND AND FIXED (4):**
+
+1. **The Z₄ "FORCED" labels** — PRTOE_PHYSICS_DOMAINS (three spots, incl. row 69's grade
+   DERIVED → CONDITIONAL) and PRTOE_DOMAIN_COVERAGE row 11. The tilt **survives as the
+   registered working assumption** (room1 was already honest: "the tilt has NO derivation —
+   its origin, its size r_t, and its Z4-ness"); only the *forcedness* dies. Everything riding
+   the tilt's form (f_amp, ε_A = 2/9, the quartet clock, the bench tests) is **conditional,
+   not dead** — the corpus was internally split on this and is now resolved to room1's honest
+   version. *The tilt's Z₄-ness is a payment the basement owes (the condensate-phase discrete
+   symmetry — the same hole 132b opened).*
+2. **The dependency tree's induced-G row was STALE** — it still cited entries 109/109b
+   (UNDECIDED/DEMOTED) as the last word; the zombie retirement (entry 124, on the external
+   review) had superseded it. Updated: RETIRED, with the keeper split (Pauli's condition +
+   P-2026-045 + the 55.5 asymmetry kept).
+3. **The math spine's amplitude line under-labeled the trial** — c = 9/10 now carries the
+   open 9/10-vs-12/13 roster trial and the mechanism-orphan note; α_c = 3α carries its
+   retired-mechanism label. THREE_EQUATIONS sharpened one line the same way.
+4. **The hierarchy file's named condition has FAILED and now says so** — it was "conditional
+   on the paired lepton-sector vacuum," and that vacuum was excluded (120/132b). The
+   gap-equation architecture is retained as a template awaiting transfer to the Fermi-point
+   basement; every result in the file inherits that conditionality.
+
+**SUSPECTED RIPPLES CLEARED (5):**
+
+- **ΔN_eff vs P-2026-045:** the screening triad's extra radiation is the dCDF's own early
+  phase — **bosonic dark radiation, not a sterile fermion.** The Pauli balance counts
+  fermionic content; no conflict.
+- **The seesaw's ν_R vs P-2026-045:** the forbidden steriles are *light* ones; the seesaw's
+  are heavy. Consistent by construction.
+- **THREE_EQUATIONS / THE_AMPLITUDE / the tree's f̄ row:** already honestly labeled
+  (conditional, open watch, claim-at-1.3σ) — no fix needed beyond the sharpening above.
+- **classical_gravity / blackholes / family_tree Sakharov citations:** they cite the
+  induced-action *ancestry* and the frame's structure with the keystone debt named — not the
+  retired value-computation. Stand as written.
+- **PRTOE_light.md / the six locks:** born after the rebuild; consistent by construction.
+
+**THE VERDICT ON THE AUTHOR'S QUESTION:** the rebuild was **NOT fully localized — but its
+reach was bookkeeping, not physics.** No downstream *number* changed; what changed was the
+**grade** of four claims (forced → assumed; derived → conditional; stale → retired; condition
+→ failed-condition). The model's observational sector (ε, the gates, S₈, the chains) rides
+the tilt's *form* and the amplitude's *fit values*, which the rebuild does not touch. **The
+map now matches the territory again — and the audit is what stood between us and resuming
+data on a corpus that quietly overgraded itself.**

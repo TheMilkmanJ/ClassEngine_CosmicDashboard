@@ -3,8 +3,12 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). Conditional on: the no-bare
-> clause, the roster hypothesis (paired lepton-sector vacuum, entry 9), P-2026-042's
+> **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). **One named condition has
+> since FAILED: the paired lepton-sector vacuum (entry 9) was excluded by the basement
+> rebuild (2026-07-13, hunt entries 120/132b) — the gap-equation architecture below is
+> retained as a template awaiting transfer to the Fermi-point basement, and every result
+> in this file inherits that conditionality.** Also conditional on: the no-bare
+> clause, P-2026-042's
 > anchor identification, and the gap equation's k (owed, the working docket). Referees: the α_c MCMC (the
 > triangle), the two-loop redesign, HL-LHC (the portal search).
 

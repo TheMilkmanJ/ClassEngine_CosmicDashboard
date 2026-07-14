@@ -26,8 +26,9 @@ portal is a UV assumption [PENDING #30].)
 The amplitude (the model's one distinctive number) [DERIVED, #11]:
 
 > **ε = c·f̄·α_c = 27α/5π = 1.2543%** (the current derived stack; concordance joint
-> 1.2403 ± 0.0079%), with c = 9/10 (census), f̄ the winding average (claim 2/π), α_c = 3α
-> (registered). *(An earlier decomposition on this line — ε = c·f_amp·(Ψ₀/M_red) with
+> 1.2403 ± 0.0079%), with c = 9/10 (census; under the open 9/10-vs-12/13 roster trial — the basement
+> rebuild orphaned the census mechanism's roster story, hunt 126/135), f̄ the winding
+> average (claim 2/π), α_c = 3α (a registered bet; its "3 flavours" mechanism is retired). *(An earlier decomposition on this line — ε = c·f_amp·(Ψ₀/M_red) with
 > c ≈ 1 — is superseded: c = 1 was excluded by the census mechanism; see the failures
 > ledger and THREE_EQUATIONS Eq. 3 for the standing form.)*
 

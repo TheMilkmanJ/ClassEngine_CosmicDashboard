@@ -63,7 +63,8 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
   coupling budget splits democratically over the census of participants — 9 charged fermion
   species plus the zero-point's own seat → $c = (N-1)/N = 9/10$. Conditionally derived
   from three independently-recorded theses; the data-lean toward the neighboring
-  $12/13$ is an open watch.
+  $12/13$ is an open watch, and the basement rebuild reopened the roster count itself
+  (the census mechanism's story is under trial, not settled — hunt 126/135).
 - $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
   candidately $2/\pi$ (P-2026-041 — the value claim stands; its proposed mechanism was
   killed in-sim and honestly walked back; the high-statistics ensemble decides). A
