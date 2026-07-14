@@ -5074,3 +5074,33 @@ place the model can be shown wrong, and it names exactly where to dig.
 and the condensate Z₄ inhabit the same space; (c) if they do and the collision survives,
 **the Fermi-point route to the generations is falsified** — and that is a real kill the
 model would have to eat.
+
+## ENTRY 132b — THE Z₄ LOCK IS **INVALIDATED, NOT REFUTED** (the author's call, walked): killing it delivers a HOLE, not a Z₃
+
+*The author: "Easy, the Z₄ is wrong — it was purchased before we bought this newest door."
+The reasoning is sound; the conclusion overshoots. Walked:*
+
+**WHERE Z₄ CAME FROM:** for a complex order parameter, the phase-dependent potential terms
+are fixed by renormalizability and **charge**. A quartic (φ⁴) gives cos(4θ) → **Z₄**; a
+cubic (φ³) gives cos(3θ) → **Z₃**. **The Z₄ arose because the quartic was the leading
+*allowed* phase term — and what made the cubic forbidden was the ORDER PARAMETER'S CHARGE.**
+
+**AND THAT CHARGE CAME FROM THE OLD BASEMENT.** In the lepton-paired vacuum (excluded
+tonight, entry 120), the order parameter was a lepton *pair* — carrying twice the lepton
+charge — so a cubic would carry six lepton units and is forbidden. **The Z₄ derivation used
+the old basement's charge assignment. The author is right: it is INVALIDATED.**
+
+**BUT — AND THIS IS THE PART THE FIRST-CONTACT KILL MISSES — INVALIDATED IS NOT REFUTED.**
+The new basement's constituents are **unspecified**, so **we cannot derive the discrete
+symmetry at all**: not Z₄, not Z₃, not anything. **Killing Z₄ does not deliver Z₃. It
+delivers a HOLE.**
+
+**AND THE HOLE IS THE SAME HOLE.** The Z₃/Z₄ question, the gauge-group question, the
+generation-count question, and the Koide question **now all sit behind one door: what are
+the basement's constituents, and what charges do they carry?**
+
+**PRE-REGISTERED, BINDING ON BOTH OF US:** when the basement's charges are specified, the
+discrete symmetry **falls out** of them. **If it gives Z₃, Koide's route lives — and it
+will have been DERIVED, not chosen. If it gives Z₄ or anything else, the Fermi-point route
+to the generations is DEAD and we eat it.** *The charges must come from the basement's own
+structure — never chosen to make Koide work.* The firewall binds.
