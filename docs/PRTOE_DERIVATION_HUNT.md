@@ -5776,3 +5776,29 @@ gate, ramped over C_ref ∈ [2, 5], s ∈ [3, 6], σ₀ ∈ [1.5, 2.5]: the cosm
 > 0.99·ε₀ for z ≥ 5 (C_ref = 5) and erodes only ~1–10% by z ≲ 1 even at the aggressive
 C_ref = 2. **The mean-field history the fingerprint lattice rides is safe; reading B puts the
 action in the SCATTER (the fences' home), not the mean.** Estimate-grade, ramped.
+
+## ENTRY 150 — **THE FOUNDING COUPLING DERIVED: ξ = 1/6 (conformal), forced by Pauli's finiteness** (task 38 closed; the −9/2 died with the zombie; the reader's question answered at depth)
+
+**The old determination is dead:** entry 80's ξ = −9/2 was read off the 12π G-closure — retired
+as a zombie (entry 124). With it, ξ lost its only handle. **The keeper supplies a new one, and
+it has zero freedom:**
+
+A scalar enters Pauli's supertrace str[k₁] with weight ∝ (1 − 6ξ). The keeper condition —
+str[k₁] = 0 exactly, for SM + 3ν_R (P-2026-045) — is what makes 1/G finite. **The medium's own
+scalars exist; if any carries ξ ≠ 1/6 it contributes to the supertrace and the balance breaks —
+1/G goes cutoff-dependent, the framework's finiteness dies by its own kill clause. The unique
+survivor: (1 − 6ξ) = 0 ⟺ ξ = 1/6, conformal coupling, exactly.**
+
+**Checks:** (i) retro-explains the zombie — the dead closure demanded ξ ≈ −9/2, a large scalar
+supertrace contribution, which is *precisely what finiteness forbids*: the closure was asking
+the scalar to do the one thing the keeper outlaws. (ii) The outside reader's ξ = 5/3 − π is
+answered at depth: nothing fixes that value, and something now fixes this one. (iii) Conformal
+coupling is the natural structure of the medium's massless-sector scalars (the same conformal
+protection its radiation-era youth uses). (iv) **Falsifiable rider:** a conformally coupled
+medium scalar sources no long-range scalar-tensor deviation — consistent with the standing
+fifth-force nulls, killable by any detection requiring ξ ≠ 1/6.
+
+**Grade: derivation-grade WITHIN the Pauli-keeper frame** (dies trivially if P-2026-045 dies);
+the F(φ)-form's magnitude conventions are absorbed in A(φ)'s normalization — the sharp claim
+is the curvature coupling. *The founding coupling, unfixed since genesis, is pinned by the
+newest law in the book — and the pin is the number that makes its own weight vanish.*
