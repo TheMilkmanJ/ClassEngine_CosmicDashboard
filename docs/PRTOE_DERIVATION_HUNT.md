@@ -5259,3 +5259,39 @@ sense" — was tracking the real structure while my collision was tracking a cat
 **The Z₄'s derivation remains invalidated on its own merits (entry 132b: it rested on the
 excluded lepton-pair charges). But its death was never what made room for the Z₃.
 THE Z₃ WAS ALWAYS FREE.**
+
+## ENTRY 136 — THE HANDOUT TEST: at the basement, the non-abelian pair **locks to one number**; the abelian U(1) — light — is the outlier **again**
+
+**The question (the author's "now what," made quantitative):** entry 134 showed light needs a
+56% bare handout from the basement. But the weak and strong forces are *also* given, not done —
+so run all three measured couplings up to the basement and ask: **does the medium hand down ONE
+number, or THREE?**
+
+**Ramps declared before the run:** inputs banded (PDG errors); the running continuous in ln µ;
+scheme depth carried as a band (two-loop shifts ~±2 at the far end); ν_R checked as gauge
+singlets — they touch none of the three β functions, so no threshold hides in the climb.
+
+**THE RESULT (one-loop SM, from measured M_Z values):**
+
+| scale µ | 1/α₁ (GUT-norm) | 1/α₂ | 1/α₃ |
+|---|---|---|---|
+| M_Z | 59.0 | 29.6 | 8.4 |
+| 10¹⁰ GeV | 47.0 | 38.9 | 29.2 |
+| **M_Pl** | **33.3** | **49.4** | **52.4** |
+
+1. **The two NON-ABELIAN couplings nearly lock AT THE BASEMENT ITSELF:** 49.4 vs 52.4 — 6%
+   apart, within ~1.5× the two-loop scheme band; their exact crossing sits ~2 decades below
+   M_Pl. **The weak and the strong meet where the medium lives — not at some intermediate
+   scale the model would then owe an explanation for.**
+2. **The abelian U(1) is the odd one out — AGAIN:** 33.3, sixteen away from the pair, joining
+   them nowhere near the basement. The same U(1) that needed the 56% bare handout (entry 134),
+   the only unconfined long-range force besides gravity, **the receipt.**
+3. **So the handout is TWO numbers, not one and not three: one for the confined non-abelian
+   machinery, one separate number for light.** *The split the running finds is exactly the
+   author's split — the machinery vs the receipt.*
+
+**PRE-REGISTERED SHARPENING (standing targets, banked):** any basement structure this model
+ever specifies must deliver **g₂ = g₃ at M_Pl (within two-loop)** and **1/α₁ ÷ 1/α₂ = 0.674
+at M_Pl** (equivalently: sin²θ_W at the basement is now fixed by tonight's runs). **Wrong
+basement → wrong numbers → dead route.** The door now has two locks, and both have
+combinations written on record.
