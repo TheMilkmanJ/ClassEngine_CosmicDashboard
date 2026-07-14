@@ -5658,3 +5658,33 @@ floor; the exclusion argument (ΔΦ ≫ real halo potentials ~(200 km/s)²) hold
 everything real.** One label loosened: entry 84 called Y_e = ½ "stars" — real stars sit at
 Y_e ≈ 0.85 (720 km/s); the fence's logic never depended on the label, only on the floor.
 Receipt written at the citation site (THE_AMPLITUDE). **Flag 3 closed.**
+
+## ENTRY 146 — B1 v4.1, THE OBSERVER-POSITION PROFILE: **the merger-zone multiplier is 1.1× — the profile is FLAT, the H₀ lever stays retracted, and the floor firms DOWN**
+
+*(script: scripts/genesis_solver_v4p1_observer.py — the named decider from entry 64's ramp
+correction, finally run: bias(observer position) along the whole axis, mass-weighted field
+reconstruction, every knob a band: χ over the discharge band, drift 100–300 km/s, 8–20
+e-folds, smoothing bandwidth ×4.)*
+
+**THE ARTIFACT CAUGHT PRE-BOOKING (the discipline finally firing in the right order):** the
+first run reported a merger-zone multiplier of 3.5× [1.0, 7.2] — but the tell was visible in
+the grid (the multiplier GREW with smoothing bandwidth), and the check ran BEFORE the
+booking: zero-padded convolution depresses the profile at its edges and manufactures steep
+gradients exactly where the merger zone sits. **With reflect-padded (edge-safe) smoothing the
+inflation vanishes: a factor 4.2 of the multiplier was pure artifact.** Contrast with process
+errors 30/32, where the spin was booked first and caught after. The script is fixed.
+
+**THE HONEST VERDICT (edge-safe, all ramps):**
+
+- mean-tail bias: **0.052%**; merger-zone bias: **0.056%** — **multiplier = 1.1×**, stable
+  across χ ∈ [4.0, 5.3] and every smoothing bandwidth.
+- **The profile is FLAT. The observer's structural position buys nothing.** Entry 64's worry
+  ("the merger zone can run an order above the mean") is answered: it doesn't — the
+  reconstructed velocity field's gradient is uniform at this fidelity.
+- **The leakage floor FIRMS DOWNWARD:** ~0.05–0.1% (below even the 0.1–0.3% estimate of the
+  entry-64 correction). H₀: 73.0 → ~72.95 — a shave, not a lever.
+
+**CONSEQUENCE FOR THE H₀ BOARD:** unchanged and firmer — 69.9 global (under arbitration), the
+residual gap owned by the v6 triad / SH0ES systematics / the unfound. The flow keeps its
+jurisdiction (bulk flows, the helicity cross-lock, the axis family) and its ladder retirement
+is now position-independent. **v4.1's docket (entry 64/room 3) is closed.**
