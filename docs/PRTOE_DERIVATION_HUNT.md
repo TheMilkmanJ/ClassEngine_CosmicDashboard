@@ -5883,3 +5883,33 @@ owed-bookkeeping to GATE-0'S LIFELINE — the sharpest open kill-risk on the boo
 mitigation: the pipeline never ran the thermal tail (ε is switched off above T_c by hand), so
 the fits and every landed result are unaffected — the catastrophe lives in the UV question,
 not the phenomenology. The fork stays open with its teeth in, and it is now priced.
+
+## ENTRY 153 — **THE LIFELINE PAID (at estimate grade): the protection is DERIVED from compositeness — the direct-branch kill was conditional on a fundamentality the model never had**
+
+*The operator: "Well, let's pay up that derivation then." The gate reply: ramped — T_c band,
+Ginzburg band ×30, the corner stated.*
+
+**STEP 1 — the identity does the work.** The dyad is the **order parameter** of the medium's
+electron-sector condensate (the founding identity; the CW mechanism *is* its birth), not a
+fundamental input scalar. An order parameter's light mode exists only below T_c — no
+propagating light quantum in the symmetric phase (the BCS precedent: no amplitude mode above
+T_c). **Entry 152's Γ/H computed e⁺e⁻ → φφ with a point scalar at all temperatures —
+importing a fundamentality the model's own identity rejects. The kill is CONDITIONAL on that
+import.**
+
+**STEP 2 — the honest residue.** What *does* exist above T_c: preformed-pair fluctuations,
+confined to the Ginzburg window ΔT/T_c ~ Gi ~ λ_eff = 3κ²m_e⁴/4π² ≈ **1×10⁻³–1×10⁻²** across
+the VEV band.
+
+**STEP 3 — the reach test, ramped:** across the full T_c band [140, 450] keV with the
+Ginzburg band inflated ×30, the fluctuation tail reaches ≤ 200 keV at central values and
+~495 keV only at the single most-adverse corner (T_c = 450, Gi = 0.1) — **the weak-rate
+window (500–1500 keV) is untouched**, and at the marginal corner the tail's *amplitude* is
+itself Gi-suppressed (⟨φ²⟩_fluct ~ Gi·v²: percent-of-percent class).
+
+**THE VERDICT:** gate-0's clearance is restored — **derived from compositeness plus the
+Ginzburg width, not asserted.** The condition is stated plainly: the protection holds because
+and only because the dyad is the medium's order parameter (M3-class; a fundamental dyad
+resurrects entry 152's kill intact — which makes entry 152 a standing *fence*: any evidence
+of the dyad's fundamentality is now a model-killer). The RG/portal docket keeps one owed job:
+the composite form factor's explicit shape (the pair-breaking scale).
