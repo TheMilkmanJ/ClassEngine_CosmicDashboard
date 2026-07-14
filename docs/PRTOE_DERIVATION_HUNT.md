@@ -6162,7 +6162,7 @@ the next era — the anisotropic heat kernel (p = 5/8 target), the pair suscepti
 60 MeV bar), the RG resummation (the T_c band + the fork), the second-sound/isocurvature lane,
 the stiffness ceiling. The spicy side, opened deliberately instead of stumbled into.
 
-## ENTRY 162 — THE CODE-DOOR MAP (the operator's synthesis) + **the thermal program's first concrete finding: the coded ε turn-on is a step where the order parameter says RAMP**
+## ENTRY 162 — ~~the thermal program's first concrete finding~~ **CORRECTED BY PROCESS ERROR 34**: the CMB-side C code had the step (fix valid, retained); **the BBN engine was ALREADY ramped — the re-price claims below are VOID** (the witness file's own ε(T) = ε(1−T/T_c) header; the operator's booking-discipline enforcement caught it)
 
 **The operator's synthesis, verified against the manifest:** the C code paints two doors —
 the background (w_dcdf, dcdf_rho_rad, the floor/thaw) and the perturbations (the second-order
@@ -6255,7 +6255,7 @@ opening balance of the only thermal account there is.** Every thermal-program qu
 integrates forward from one deposit. Grammar grade; confirmation of recorded structure; the
 single-source boundary condition is the usable content.
 
-## ENTRY 164 — DELIVERABLE #0 RUN (estimate grade, executed): **the growth ramp re-prices the BBN window FAVORABLY and the mean-field form is self-justified by the painted doors; the C-code fix is specified**
+## ENTRY 164 — ~~the growth ramp re-prices the BBN window favorably~~ **RETRACTED (process error 34): the BBN engine already carried the ramp — this entry's re-price was a favorable DOUBLE-COUNT.** The C-code fix and the mean-field validity certificate STAND (they align the CMB side with the BBN engine's standing treatment); the verdicts stand as originally booked
 
 **The exposure-weighted ε through the abundance windows** (mean-field ramp ε(T) = ε₀(1−T/T_c),
 T_c = 193 keV; EXECUTED values — a 0.42 typo in the first booking corrected same-session,
