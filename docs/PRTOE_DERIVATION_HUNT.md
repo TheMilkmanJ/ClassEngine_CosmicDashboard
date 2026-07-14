@@ -6421,3 +6421,18 @@ cmp_prtoe_pour_ev. **What it grades:** whether the birth-ramp model earns its ev
 against the full SH0ES-anchored stack — the ΔlnZ that lands is the POUR BRANCH's, distinct
 from the registered pre-pour branch (whose DESI-side chains continue untouched and grade
 their own physics). Two branches, two verdicts, no contamination.
+
+## ENTRY 170 — THE MISSING DOOR FOR THE VALUE (the operator's catch): **the CC's unsolved half was unsolved because the BACKGROUND door was never opened on it — and its reading was already computed, sitting unconnected: Λ^{1/4} = 1.71 meV vs 2.25 observed**
+
+*The operator: "we're accounting for Thermal and Perturb for the CC — guess what we're not
+accounting for." He is right twice: (1) my §4b door assignment was WRONG — Gibbs–Duhem is a
+THERMODYNAMIC identity, not a background one; the cancellation story was double-loading the
+thermal door while the background door stood empty. (2) The background door's value reading
+ALREADY EXISTS in the corpus — the sequestered floor (§7a): Λ_eff ≈ (3/4)·ρ_m(turnaround), a
+pure expansion-history quantity, landing 1.71 meV against 2.25 (0.76×, right decade, from a
+mechanism, caveats owned).* **The three-door value board is now honestly seated:** background
+= 1.71 meV (computed, O(1)s owed); perturbations = 2.25 meV (the neutrino tie, un-derived);
+thermal = the settling scale (the thermal program's to compute). **The consistency demand
+sharpens from an adjective to three numbers that must converge — and two of the three are
+already within 24% of each other.** The Λ file corrected; the door taxonomy fixed at the
+frame level.

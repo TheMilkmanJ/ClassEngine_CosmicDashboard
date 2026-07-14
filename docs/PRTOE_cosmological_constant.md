@@ -92,14 +92,22 @@ strong side's occupancy sets the cosmological constant.
 One quantity, three independent readings, one demanded number — the medium's own
 consistency structure applied to its most famous problem:
 
-- **The background door** (hunt entry 140): a self-sustained condensate's equilibrium
-  vacuum has **identically zero pressure by the Gibbs–Duhem relation** — the enormous
-  vacuum energies do not gravitate at equilibrium. The observed Λ is the medium's small
-  **deviation from equilibrium** — the drawdown. (And the roster demonstrably cannot pay
-  this bill species-by-species: str[1] = 28 − 96 = −68 and the Veltman-class sum both
-  FAIL — the whole medium pays what the parts cannot, which *forces* the self-sustained
-  class.)
-- **The thermal door** (hunt entry 165): the condensate is **still settling from the one
+- **The thermodynamic door — the cancellation** (hunt entry 140): a self-sustained
+  condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
+  relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
+  roster demonstrably cannot pay this bill species-by-species: str[1] = −68 and the
+  Veltman-class sum both FAIL — the whole medium pays what the parts cannot). The
+  observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
+  fountain (below). *Both cancellation-and-residual statements are THERMAL readings —
+  the door correction of hunt entry 170.*
+- **The background door — THE VALUE** (the corpus's own §7a, finally seated at its door):
+  on the model's finite 4-volume, **Λ_eff ≈ ¼⟨T^µ_µ⟩ ≈ (3/4)·ρ_m(turnaround)** — a pure
+  expansion-history quantity — computes **Λ^{1/4} = 1.71 meV against the observed 2.25
+  (0.76×, the right decade FROM A MECHANISM)**, with its owned caveats (the KP
+  self-consistency O(1)s; the turnaround-timing corner). **This is the only door with a
+  NUMBER on the table — and it was sitting in the background sector unconnected to this
+  frame until the operator asked which door the VALUE question was missing.**
+- **The thermal door — the residual's dynamics** (hunt entry 165): the condensate is **still settling from the one
   genesis injection** — thermal counterflow (the fountain effect, the corpus's own
   genesis name) persists while any deviation from the T = 0 ground state remains, dying
   only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
