@@ -5512,3 +5512,30 @@ stand).
 **CURIO (labeled, zero weight):** as a literal gravitational triple the lepton masses fail
 the Routh stability criterion (27·Σpair/(Σm)² = 1.44 > 1) — the triangle would tumble. Cute;
 family space is not Newtonian gravity; filed as a curio only.
+
+## ENTRY 142 — THE PHASE–AMPLITUDE LINKAGE (the author's spot): **3δ = Q at 0.9σ from EXACT** — lock 6's two numbers may be ONE number
+
+*The author, on entry 141's folded tilt: "0.22223… ×3… equals? And what number does that
+look like? I'll give you a hint, it starts with a K."*
+
+**THE SPOT:** 3 × 0.22223 = 0.66669 — **Koide's ratio.** The family triangle's tilt phase,
+tripled, is the Koide Q itself. Tested with the lepton-mass errors ramped through
+(the τ mass dominates):
+
+- measured δ = 0.2222296 ± 0.0000082 rad; measured Q/3 = 0.2222202
+- **δ − Q/3 = 9.5×10⁻⁶ ± 1.1×10⁻⁵ — the linkage 3δ = Q holds at 0.0043%, 0.9σ from exact.**
+- menu density of the δ window: **exactly ONE clean rational fits (2/9). The window is as
+  clean as lock 6's own.**
+
+**WHAT IT WOULD MEAN:** Koide's parametrization carries two free numbers — the amplitude
+(A = √2, lock 6) and the phase (δ = 2/9). **If 3δ = Q is structural, they are one number**
+(δ = Q/3), and any mechanism must deliver *both with one hand*. That is the jackpot shape —
+one story, several locks — **and it is also exactly the shape numerology takes**, so:
+
+**STATUS — REGISTERED as a linkage target on lock 6, NOT banked.** Provenance honestly
+stated: this companion coincidence is known to the Koide literature (unexplained there too);
+the author re-derived it from the folded tilt without knowing that. In radians, so unit-free.
+**The 2/9 now appears three ways: the genesis tilt ε_A, the family tilt δ, and Q/3** — either
+the coincidence of the decade wearing three costumes, or one basement number paying three
+sectors. The lock-6 test sharpens to: **the basement must deliver A = √2 AND δ = Q/3 from
+one structure.**
