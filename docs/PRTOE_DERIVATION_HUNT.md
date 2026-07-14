@@ -6689,3 +6689,31 @@ model predicts SILENCE in gravitational-wave birefringence**, same Planck-suppre
 family as the LV budget. The parked register's "un-computed" row is computed; its grade is
 null-class prediction, and any confirmed GW chirality detection above these levels is now a
 model-killer by the same stroke.
+
+## ENTRY 180 — THE JOINT CONSERVATION TABLE (the referee's third promotion item, built at structure grade) + the drain integral's honest status
+
+**THE ONE-FLUID LEDGER — every internal transfer of the dCDF, one table:**
+
+| transfer | direction | epoch | magnitude | its job | its referee |
+|---|---|---|---|---|---|
+| the POUR | deposit → everything | genesis | the thermal principal (the ceiling, owed) | the opening balance | the stiffness-ceiling calc |
+| the radiation fade | conformal youth → dust | z ≈ 4×10⁷ | continuity-fixed (no knob) | the DM onset | coded; the identity matched |
+| the DRAIN | deviation → dust | z ≳ 12 | X·ρ_Λ, X ∈ [1, ~10] plausible | the settling's ash → DM | **the drain integral (owed)** |
+| the freeze | deviation → frozen residual | z ≈ 12 | ρ_Λ = (2.25 meV)⁴ | dark energy | the √N derivation (owed) |
+| the SHED | dust → dark radiation | late (g = 0.12) | fitted | the S₈ job | the production fit (in hand) |
+| the THAW | floor → kinetic | z ≲ 1 (if Route-D corner) | thaw parameter | the turn | the routeD chain (running) |
+
+**The sum rule the table enforces:** every row is the SAME fluid's internal bookkeeping —
+the deposits and withdrawals must satisfy one continuity equation; no row may be re-funded
+by another's budget (the double-booking fence, now mechanical). Two rows owed, one running,
+three in hand.
+
+**THE DRAIN INTEGRAL — attempted; the attempt found the settling law's true structure
+instead of a number:** a freely-decaying deviation with Γ/H ~ 10⁵ at recombination would be
+dead by e^{−10⁵} long before z = 12 — **so the deviation must be continuously SOURCED, and
+the source is the expansion itself**: the medium can never finish equilibrating while H ≠ 0.
+The settling law is therefore an ATTRACTOR — ρ_dev* set by the balance of expansion-driving
+against friction (ρ_dev* ~ f(H/Γ)) — and the freeze at Γ = H is the attractor releasing.
+**This sharpens the √N derivation's target: derive the attractor, and the drain integral X
+falls out of the same computation.** The two owed rows are ONE calculation. Filed as the
+structure; no number asserted.
