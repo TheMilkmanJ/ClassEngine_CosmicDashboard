@@ -231,3 +231,25 @@ counter-adverse Y_p, owned; ~1.6–1.9σ D/H, radio-refereed). **The direction o
 FAVORABLE — the referee's revival-watch called this exact failure mode ("your kills fail fast
 on no; I'll watch your revivals"), and the operator's booking-discipline rule is what caught
 it.** Entries 162/164 carry correction notes; the sweep riders are stripped.
+
+### The birth-ramp radiation / pour evidence run (registered as P-2026-046, RETRACTED and removed 2026-07-14)
+
+**What it claimed:** that the white-hole pour's settling left extra dark radiation at
+recombination (coded as N_idr = 0.26, fluid) which would push H₀ toward 73 — launched as a
+SH0ES-anchored PolyChord evidence run.
+
+**Why it died:** the 0.26 was a hand-picked, θ_s-only-validated value, never derived. When the
+birth-ramp radiation was actually DERIVED from the model, it gives ΔN_eff(recombination) ~
+10⁻³, not 0.26 — the dCDF's radiation-like phase ends at z_on ~ 3.6×10⁷ (the H=m onset) and is
+dust by recombination, thirty thousand-fold of expansion earlier. The hand-picked 0.26 was
+~250× the model's own registered value, and it poisoned the CMB by ~6000 χ² (isolation test at
+a fixed point: Planck TTTEEE 2270 → 5698 with the component on; ΛCDM floor on the identical
+stack = 3029, measured). The evidence run was killed.
+
+**The verdict:** the H0=73-via-birth-ramp mechanism is falsified by the model's own physics.
+The model's honest H₀ stays 69.9 (the ε/varying-mₑ mechanism); the gap to SH0ES's 73 is open
+and owned, not closed. **What survives (untouched):** the white-hole genesis story, the
+settling, Λ = the frozen residual, DM = the ash — none depend on recombination-era radiation;
+the birth-ramp radiation was a separate bolted-on H₀ booster. The pour STORY stands; only this
+radiation-for-H0 evidence-run claim is dead. Root cause: a knob substituted for a prediction,
+run in an evidence chain before being derived — the sharpest form of the fudge-in-a-fit error.

@@ -2139,37 +2139,6 @@ therefore a **consistency converted to a prediction by a robustness test** — i
 forward-looking content (the two kills above) is genuine and registered here; its
 backward-looking agreement with the known three generations earns no credit.
 
-## P-2026-046: ~~The Pour Branch — the birth-ramp evidence run~~ **RETRACTED 2026-07-14 (hunt entry 187): the birth-ramp radiation, when DERIVED from the model, gives ΔN_eff(rec) ~ 10⁻³, not 0.26 — the dCDF's radiation phase ends at z_on ~ 3.6×10⁷ and is dust by recombination. The hand-picked 0.26 was ~250× the model's own number and poisoned the CMB by ~6000 χ². The H0=73-via-birth-ramp mechanism is falsified by the model's own physics; the model's honest H0 stays 69.9. The pour STORY (genesis/Λ/DM) is unaffected; only this radiation-for-H0 evidence-run claim dies.**
-
-**The claim:** the white-hole birth implies the dCDF's radiation-like youth RAMPED IN (the
-pour's settling), coded as a fluid dark-radiation component. The phenomenological ranging
-shot is LIVE: cmp_prtoe_pour_shoes.yaml — the frozen SH0ES evidence stack + N_idr = 0.26
-(fluid; the θ_s-preserving value at H₀ = 73, executed before launch). **Registered targets:**
-(i) the run's ΔlnZ vs the pre-pour branch; (ii) the derived amplitude (the pour's settling
-rate must PRODUCE ≈ 0.26, or the component is a fit, not a mechanism — the thermal program's
-computation); (iii) the pour-branch (w₀, wₐ) re-derivation under the shifted clock
-(z_eq −3.4%), pre-registered before any DESI comparison.
-
-**Kills:** (i) the full-likelihood fit rejecting the component (Δχ² penalty exceeding its
-H₀ gain); (ii) the derived settling amplitude landing off 0.26 by more than its stated band;
-(iii) any BBN leakage above the Y_p tolerance once the growing shape replaces the flat
-stand-in; (iv) the fluid-class requirement failing (the medium's excitations free-streaming
-after all). **Honest flags:** the 0.26 is a ranging value, not a derivation; the branch
-structure (pour vs pre-pour) keeps the registered model's DESI verdict uncontaminated; this
-entry exists so the run's outcome can never be retrofitted.
-
----
-*External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
-
-**AMENDMENT 040-C (2026-07-14 — CORRECTING 040-B's overstatement; the external review's
-catch):** 040-B presented the ε-assembly's indirect band as an independent "third reading."
-**It is not independent** — the band derives from the same data already underlying this bet;
-re-labeling it a door-vote re-counts one measurement. The honest instrument count: the
-dispersion chain (independent, running) and the isocurvature second-sound speed (independent,
-OWED — no data yet). **The bet's status is 040-A's, unchanged: a bare numerical bet, graded
-by the chain; the second-sound signature is a future second instrument, not a present one.
-No convergence exists to claim until at least two independent readings exist.**
-
 ## P-2026-047: The GW Parity Split — clean resolved events, chirality confined to the primordial background (registered 2026-07-14; hunt entries 181–183)
 
 **The claim:** the model's parity-odd GW channel was active only in the pre-freeze era
