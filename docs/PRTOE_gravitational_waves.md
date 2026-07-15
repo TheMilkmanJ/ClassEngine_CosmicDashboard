@@ -51,7 +51,7 @@ strain-scale sits below PTA sensitivity — the GW sector neither rescues nor th
 dyad. The model's GW ledger: one computed silence, one signed chirality, one deep prong, zero
 current tensions.
 
-## 4. The lightswitch — the parity channel's biography and the SPLIT prediction (2026-07-14; hunt entries 181–183)
+## 5. The lightswitch — the parity channel's biography and the SPLIT prediction (2026-07-14; hunt entries 181–183)
 
 The parity-odd coupling θR R̃ is a TOGGLE by construction (parity-odd terms flip, they do not
 dial) and its action on a passing wave is helicity-selective — one circular polarization
@@ -71,6 +71,16 @@ residual θ̇ today (the swirl, 10⁻² H₀) leaves every band 12+ orders below
   resolved events clean, is the settling story's fingerprint. Its amplitude is set by the
   θR R̃ coefficient — the open computation, with the break-threshold priced
   (coeff·θ̇ ~ 10¹⁰ H₀).
+
+## Where the dead ends live
+
+The failed attempts in this sector — the lost bet that cosmic *photon* birefringence should be
+non-zero, and the timing-wall phrasing — are recorded in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Birefringence."** They are worth
+the reader's time: proving the photon channel is closed (the medium is EM-neutral → zero
+optical rotation) is exactly what forces the parity signal into gravity (θ·R·R̃ → GW
+chirality). The dead ends are how the model learned that the dark sector signs the metric,
+not the light.
 
 *The medium hums too quietly for the pulsars to hear, wears its one preferred handedness
 wherever parity is for sale, and keeps its strangest room — the inside of a black hole —

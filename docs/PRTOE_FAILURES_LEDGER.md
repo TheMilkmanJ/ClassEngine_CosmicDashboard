@@ -270,3 +270,32 @@ UNIVERSAL varying-constants (cleaner and more standard than the flavored version
 would only survive if the model relaxed the census to admit a Higgs/EM portal — not the
 leading reading. The deuterium heal (a universal small shift at BBN) rides the same single
 coupling as the electron-mass shift.
+
+## Birefringence — the dead ends, and why they map the dark sector's touch on gravity
+
+*The failed attempts in the birefringence/parity sector are not clutter — each one narrowed
+what the dark medium is allowed to do to light versus to gravity, and together they are what
+forced the model's distinctive prediction. Referenced from
+[PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md).*
+
+**1. The lost bet: cosmic photon birefringence should be non-zero.** The bet was that the
+recorded photon-birefringence *zero* was step-thinking — that a real medium should rotate the
+CMB's polarization plane and we'd see isotropic cosmic birefringence. **The bet LOST.** The
+zero is real and it is derived: the medium is EM-neutral, so its parity-odd coupling to the
+*photon* has coefficient exactly zero — no rotation, matching the observed null.
+**Why it matters:** proving the photon channel is *closed* is precisely what forces the
+parity signal into GRAVITY instead. A medium that cannot sign light's polarization but CAN
+carry a topological θ·R·R̃ coupling to the metric is the whole reason the model predicts GW
+chirality and not optical birefringence. The dead end drew the map: parity lives in the
+gravitational sector, not the electromagnetic one.
+
+**2. The timing-wall step-phrasing.** "Polarization didn't exist yet at the pour" was phrased
+as a hard wall (a step). Ramped, it becomes the opposite of a problem: the pour writes light's
+*birth certificate* — the parity-odd initial conditions (P-028) that seed EB/TB correlations
+with no EM coupling at all. The correction turned a phrasing error into the recognition that
+the white hole's fingerprint is written into light's initial state, en route null unchanged.
+
+**The synthesis:** the birefringence search is a case study in how the dark sector meets
+gravity — it cannot touch light's parity (coefficient zero, EM-neutral), it CAN touch the
+metric's parity (θ·R·R̃), and that split is exactly what the model's GW-chirality prediction
+rests on. The failures are load-bearing for the understanding.
