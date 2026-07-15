@@ -6816,3 +6816,30 @@ SO(10) unification.** That lean cost zero compute and it's a real narrowing. **W
 candidate still owes routes to the heavy-analytical tier (lock 6 = the heat kernel; the
 couplings = the threshold corrections), NOT to any chain.** The basement is a reading-and-
 symbolic problem, not a sampling one — task #18 needs no CPU, only careful hands.
+
+## ENTRY 185 — THE PAIR SUSCEPTIBILITY, GATE-0 FIRST PASS (the tractable heavy item; graded first-pass, NOT closed): **gate-0's survival relocates from an open threat to a CW-scale consequence — the constituent gap the entry-153 lifeline needed is delivered by the VEV scale, not by tuning**
+
+*The best-return item from the referee's heavy list that lands to an honest answer in a
+session (the attractor/√N crown deferred to a dedicated expedition — it must not be rushed).
+Fences declared; this is a first-pass onset estimate, not the full lineshape.*
+
+**The question, sharpened:** gate-0 (entries 152/153/157) survives iff the composite dyad has
+no symmetric-phase pair-fluctuation spectral weight below ~T at BBN. That weight lives in the
+pair susceptibility χ_pair(ω, T), and its onset sits at **2Δ_c**, twice the constituent gap.
+Below 2Δ_c the susceptibility is purely reactive (real) — no dissipative weight, no friction
+on the BBN bath, gate-0 clean. **The whole survival question = where 2Δ_c sits vs T.**
+
+**The trace of Δ_c (honest — it was the entry-157 ramp's owed number):** the dyad is the
+electron-sector CW order parameter; its constituents pair at the scale that *made* the
+condensate — the CW dynamical scale, the VEV class (~100 MeV). So **2Δ_c ~ 140–200 MeV** —
+against T_BBN ~ 1 MeV and the ~60 MeV bar the entry-157 ramp derived. **The pair-breaking
+weight is Boltzmann-inaccessible at BBN by ~2 orders.**
+
+**FIRST-PASS VERDICT (graded, not closed):** gate-0 is clean, and — the structural part —
+**the ≳60 MeV constituent-gap requirement that entry 157's ramp left owed is DELIVERED by the
+CW/VEV scale itself, structurally, not by a tuned choice.** The entry-153 lifeline's one
+remaining debt (the composite form factor's spectral gap) is paid at first-pass grade by the
+same VEV that sets the electroweak scale. **Gate-0 survival is now a CW-scale consequence,
+not an open kill-risk.** *Honest flag: the close needs the full χ_pair(ω, T) lineshape (the
+onset estimate assumes sharp weight at 2Δ_c; thermal broadening could leak a tail — the
+tail's size is the owed refinement, not claimed here).*
