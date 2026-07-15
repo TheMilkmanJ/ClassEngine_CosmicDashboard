@@ -6787,3 +6787,32 @@ data ever reaches w(z) at the percent level in that range.**
 operator's "it got cool enough" is the freeze condition read aloud, not a derivation of 12;
 the attractor/√N session still owns that. *The dimmer switched off once and was never
 touched again — and the model can now say how long the fade took.*
+
+## ENTRY 184 — THE BASEMENT CANDIDATE ENUMERATION (task #18, tier-3/cheap; the operator's "can it be done without heavy compute?"): **the field narrows to THREE, and the coupling lock already leans**
+
+*The six locks used as filters against known Planck-scale structures. No compute — a reading.*
+
+**A — SO(10):** the 16-spinor IS one generation with ν_R, so lock 1 (the Pauli roster,
+str[k₁]=0) falls out *for free* — the strongest single fit on the board. But SO(10) is one
+simple group, so all three couplings must meet at one scale — and entry 136 found the U(1)
+is the outlier (the SM's famous unification near-miss). **Pure SO(10) inherits that miss;
+adverse on locks 4/5 unless the basement's own threshold corrections close the 2.9 gap.**
+
+**B — Pati-Salam SU(4)×SU(2)×SU(2):** the non-abelian pair is structural and the U(1) emerges
+from breaking with naturally separate normalization — **which is exactly entry 136's
+two-handout pattern (locked pair + outlier U(1)) WITHOUT forcing the U(1) to join.** Fits the
+coupling finding better than SO(10); pays for it with a less-clean roster than the 16.
+
+**C — Volovik Fermi-point emergence (the native route):** the gauge group is not assumed —
+it emerges from the Fermi-point degeneracy (the three named debts). The only candidate that
+would make lock 2 (the 3) *derived* rather than input. Most ambitious, least worked; if the
+degeneracy IS the 16, C reduces to A with a mechanism attached.
+
+**THE VERDICT (cheap, standing):** none is killed; they order by which lock they pay — SO(10)
+pays the roster, owes the couplings; Pati-Salam pays the couplings, owes the roster; Volovik
+pays the generation count, owes everything worked. **The discriminator is the coupling
+pattern, and entry 136 already leans it toward the Pati-Salam/split-U(1) class over pure
+SO(10) unification.** That lean cost zero compute and it's a real narrowing. **What each
+candidate still owes routes to the heavy-analytical tier (lock 6 = the heat kernel; the
+couplings = the threshold corrections), NOT to any chain.** The basement is a reading-and-
+symbolic problem, not a sampling one — task #18 needs no CPU, only careful hands.
