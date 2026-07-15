@@ -253,3 +253,20 @@ settling, Λ = the frozen residual, DM = the ash — none depend on recombinatio
 the birth-ramp radiation was a separate bolted-on H₀ booster. The pour STORY stands; only this
 radiation-for-H0 evidence-run claim is dead. Root cause: a knob substituted for a prediction,
 run in an evidence chain before being derived — the sharpest form of the fudge-in-a-fit error.
+
+### P-2026-011 (the lepton/hadron varying-constant hierarchy) — RETRACTED 2026-07-08
+
+**What it claimed:** a flavor-structured varying-constant shift — leptons shifting ~13× more
+than hadrons, driven by EM self-energy.
+
+**Why it died:** a flavor-structured shift requires the dark medium to reach the Higgs/EM
+sector *non-gravitationally* — a portal the coupling census forbids. The census-legal
+coupling is a UNIVERSAL conformal (metric) rescaling: it shifts the electron mass, quark
+mass, and Higgs VEV by the same fraction, through the metric, with no portal. Under that
+reading all masses shift equally — there is no lepton/hadron hierarchy.
+
+**The verdict:** the distinctive lepton-heavy signature is withdrawn; the model predicts
+UNIVERSAL varying-constants (cleaner and more standard than the flavored version). P-011
+would only survive if the model relaxed the census to admit a Higgs/EM portal — not the
+leading reading. The deuterium heal (a universal small shift at BBN) rides the same single
+coupling as the electron-mass shift.
