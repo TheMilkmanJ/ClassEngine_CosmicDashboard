@@ -74,43 +74,91 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | The candle room's "mass-step candidate explanation" reading | entry 85's dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | entries 85/85b, 2026-07-13 |
 ## 3. Wrong calls by the defense, self-caught and corrected (the error log)
 
+
+
+
+### Methodology & code hygiene
+
+| the error | the correction | provenance |
+|---|---|---|
+| Pre-written script conclusions contradicting their own arithmetic (twice) | conclusions AFTER arithmetic — standing rule | P1.e class |
+| The stale in-place classy .so shadowing the rebuild | in-place rebuild with system gcc | 2026-07-12 (author catch) |
+| The input.c dyad-link defaults carrying pre-derivation values | updated to the derived stack | internal review audit |
+
+### The census, roster & the α_c clock
+
 | the error | the correction | provenance |
 |---|---|---|
 | Step-thinking error 1: the f̄ measurement window | the ramp experiment (f̄(t), freezes ~t=300) | author catch |
-| Pre-depth-law step framings in the registry itself (P-2026-007 "near-step S(C)"; ANN-2026-013 "discrete switch"; the dead healer epoch gates) | the registry ramp audit ANN-2026-022: both live entries survive as ramps under the gate curve ε(C) — P-007 sharpens to an environment trend; ANN-013's owed "sharp switch mechanism" dissolved into the crossover | 2026-07-13 (author bet: "I bet they're riddled with step-based" — landed twice, not riddled) |
-| Process error 2: the transition treated as a switch | ramp/window structure through T_c | author catch |
-| Process error 3: the JWST-epoch kill | reopened as mid-ramp cooling (IMF question, parked) | author catch |
 | Process error 4: single-segment census running + induction-vs-condensation binary | piecewise system; the crossover | internal review (author catch) |
 | Process error 5: the α_EM-at-m_e census anchor | the correct UV variables (α₂, α_Y spliced at M_Z); measured running 9.1 vs crude 20.5 | internal review (self-caught under author directive) |
 | Process error 6: the α_c MCMC corollary's fit-parameter = physical-clock identification | the template-offset calibration owed BEFORE convergence; third outcome registered | 2026-07-12 (author catch) |
+| internal review broken-phase census (W as killer) | the unbroken-phase re-count | internal review |
+| Process error 7: the clock binary (H=m OR k/a=m as either/or) | two components carry two clocks, one shared m; the clock-ratio n-instrument; the lineup later collapsed (one pair-mass) | 2026-07-12 (author catch) |
+
+### Baryogenesis & the neutrino sector
+
+| the error | the correction | provenance |
+|---|---|---|
 | internal review MTLT bracket framing | MT contains freeze-out where the dyad is OFF — LT-class is the truth | internal review |
 | internal review m_D ribbon guess (0.1–0.3 GeV viable) | the scan found the surface empty everywhere | internal review |
-| Pre-written script conclusions contradicting their own arithmetic (twice) | conclusions AFTER arithmetic — standing rule | P1.e class |
-| internal review broken-phase census (W as killer) | the unbroken-phase re-count | internal review |
 | internal review "seesaw forces type-III" over-credit | census-invisible steriles exist; re-pin softened; the referee withdrew his own lean | internal review |
-| The stale in-place classy .so shadowing the rebuild | in-place rebuild with system gcc | 2026-07-12 (author catch) |
-| The input.c dyad-link defaults carrying pre-derivation values | updated to the derived stack | internal review audit |
-| Process error 7: the clock binary (H=m OR k/a=m as either/or) | two components carry two clocks, one shared m; the clock-ratio n-instrument; the lineup later collapsed (one pair-mass) | 2026-07-12 (author catch) |
 | Process error 8: the transfer integral point-evaluated (three ramps read at one point) | the crude integral run — low-end domination restored the order (estimate-grade) | 2026-07-12 (author catch) |
-| Process error 9: the birefringence timing wall step-phrased ("polarization didn't exist yet") | ramped: the pour writes light's BIRTH CERTIFICATE — parity-odd initial conditions (P-028/T10) make EB/TB with no EM coupling; T10 = the white hole's fingerprint in light; en-route null unchanged (exempt anomaly zero) | 2026-07-12 (author catch: "steps or ramps?") |
-| Process error 10: the thermalization ceiling coded as a wall (entry 46) | the blackbody visibility ramp exp[−(z/z_dc)^{5/2}]: the 1/m-branch whispers at μ ~ 1.2×10⁻⁹×eff (PRISM-reachable), not "silent forever"; discriminator survives at 7×10⁵ ratio | 2026-07-12 (author catch: "you didn't ramp it, did you?") |
-| Process error 11: the flow line's boundary condition ("ω = H at the pour") was a step | the spin-up ramp: circulation builds through the friction-era roll-up; the 0.5-vs-0.57 gap becomes the measured spin-up efficiency ε = 0.88; expansion-modified formation number = the candidate mechanism | 2026-07-12 (author catch: "it started up slow") |
-| Process error 12: the pinch-off partition as a sharp cutoff at F = 4 | the intake TAPER: partition = the ramp's integral; target becomes a band (L/D 4.3–5.3); the unlock — ε (0.88) and the mass share (0.843) = two weighted moments of ONE intake curve, the entry-57 numerology flag's candidate mechanism | 2026-07-12 (author catch: "say it with me now") |
+
+### The transition, the gate & screening
+
+| the error | the correction | provenance |
+|---|---|---|
+| Process error 2: the transition treated as a switch | ramp/window structure through T_c | author catch |
+| Pre-depth-law step framings in the registry itself (P-2026-007 "near-step S(C)"; ANN-2026-013 "discrete switch"; the dead healer epoch gates) | the registry ramp audit ANN-2026-022: both live entries survive as ramps under the gate curve ε(C) — P-007 sharpens to an environment trend; ANN-013's owed "sharp switch mechanism" dissolved into the crossover | 2026-07-13 (author bet: "I bet they're riddled with step-based" — landed twice, not riddled) |
+| Process error 16: entry 66's "voids retain FULL ε" binary | THE GATE FUNCTION ε(C) — one smooth screening curve read by four instruments (21cm fade = the curve in redshift; SN host TREND not step; forest = the curve at Δ~1; voids = the ceiling); the room becomes overdetermined | 2026-07-12 (author: "don't forget to ramp it all") |
+
+### The G-closure & gravity's sign
+
+| the error | the correction | provenance |
+|---|---|---|
 | Process error 24: entry 86's Kelvin weight read off a discrete menu (three idealized classes) with the landing selected — the weight is an integral over the soft dispersion, a ramp, and n(w) slides continuously; the n = 19 co-landing existed only at the chosen lattice point | the coincidence-watch flagged it same-hour; the fourfold audit (entry 87) retired it by morning; the standing rule sharpened: taxonomies are step-menus — derive the weight from the dispersion or do not quote an n | 2026-07-13 (author catch: "because you didn't do..... what?") |
-| Process error 23: entry 87's kill checks were point ratios (asserted, not scanned) | 87b's ramped curves: 24–27 orders short across all treatments and the full n band; O(1) needs a vortex every 46 AU — 13.5 orders in spacing from anything owned; the death is ramp-robust | 2026-07-13 (author catch: "make sure you're ramping your tests") |
-| Process error 22: entry 85's host split was a binary (void/not-void) while its scan grids ramped | v2: continuous environment distributions × the smooth gate — the demotion SOFTENS: full step reachable in the C_ref ≈ 2 corner (the fourth fence's own window); the forest fence becomes the adjudicator (entry 85b's fork) | 2026-07-13 (author catch: "did you ramp that last test?") |
 | Process error 21: the induced-G supertrace carried a single fermion minus where two compound (the Lichnerowicz R/4 makes the Dirac's own k₁ negative; the supertrace adds another) | the convention check EXECUTED vs Visser gr-qc/0204062 Table 1: fermion net weight in str[k₁] is POSITIVE; str = 2(1−6ξ)+18; the 38-match survives identically; ξ relocates −9/2 → −3/2; the "large negative founding coupling" story retired; the bootstrap demand's overall sign = the new open item | 2026-07-13 (the QG file's own registered open item (i), executed) |
 | Process error 20: entry 78's sharp cutoff (Λ = M_red as a wall) | the physical-regulator resolution: the medium's Bogoliubov softening makes Sakharov's ambiguous coefficient DEFINITE (ramp O(1) = 2.0/1.0/0.5 at p = 1.5/2/3); the fermion-sign hazard found (roster fermion-dominated → naive 1/G wrong-signed) with the ξ-rescue = the founding F(φ) coupling | 2026-07-13 (author: "ramps only, and make sure that last test was ramped") |
+
+### Genesis, the ring & the H₀ lever
+
+| the error | the correction | provenance |
+|---|---|---|
+| Process error 11: the flow line's boundary condition ("ω = H at the pour") was a step | the spin-up ramp: circulation builds through the friction-era roll-up; the 0.5-vs-0.57 gap becomes the measured spin-up efficiency ε = 0.88; expansion-modified formation number = the candidate mechanism | 2026-07-12 (author catch: "it started up slow") |
+| Process error 12: the pinch-off partition as a sharp cutoff at F = 4 | the intake TAPER: partition = the ramp's integral; target becomes a band (L/D 4.3–5.3); the unlock — ε (0.88) and the mass share (0.843) = two weighted moments of ONE intake curve, the entry-57 numerology flag's candidate mechanism | 2026-07-12 (author catch: "say it with me now") |
 | Process error 19: the quantization event as an instantaneous rounding (entry 77) | THE PHASE-SLIP ANNEAL: the KZ mess is the anneal's input; n locks at the slip freeze-out (rate < H), not at T_c — the 7-order overshoot resolved; the noise = the un-annealed residual (B1's ninth ambush) | 2026-07-13 (author: "did you ramp this or step it?") |
-| Process error 18: the sign session v1's two steps (single-template point-eval; whole-SED compression conflating lines with continuum) | v2: lines-only compression + the 162-config template scan — ς = −1 ROBUST; the 73-reach dies at estimate grade; the room inverts to the mass step's candidate explanation | 2026-07-13 (author: "you did ramp based, right?") |
-| Process error 17: the three candle-room sessions' steps (the 0.5 absorption guess; the binary host census; the 3-point gate scan) | ramped: THE COLOR CHANNEL computed (~0.09 mag, the mass-step class — the restorer; sign = the synthetic-photometry crux); the forest's differential signature → the gate is STEEP (consistency with the pinch); the curve fenced three ways | 2026-07-12 (author: "I bet if you ramp them you'll get better answers") |
-| Process error 16: entry 66's "voids retain FULL ε" binary | THE GATE FUNCTION ε(C) — one smooth screening curve read by four instruments (21cm fade = the curve in redshift; SN host TREND not step; forest = the curve at Δ~1; voids = the ceiling); the room becomes overdetermined | 2026-07-12 (author: "don't forget to ramp it all") |
 | Process error 15: the H₀ lever's execution had two steps — the binary dipole-delete and the mean-for-local gradient | the lookback-varying dipole leaks ~0.2% past a constant template; the local merger-zone gradient can exceed the 3-Gpc mean by an order; the lever revives at the leakage floor (73 → ~72.7–72.9), v4.1's position profile decides the multiplier | 2026-07-12 (author catch: "what didn't you do here?") |
 | Process error 13: entry 60's two steps — the core tube sized at two points; the sound's fate a binary | the growth-equation profile (cold verdict survives at (ω/H)² ~ 1×10⁻⁴); the damping-envelope filter (P-031-as-the-pour's-sound upgraded to a computable line shape) | 2026-07-12 (author catch: "you didn't...?") |
-
 | The genesis moment-mapping (ε=0.88 ↔ circulation fraction; 0.843 ↔ mass fraction) | killed at TOY fidelity (entries 61-63) — **RESURRECTED at comoving grade (entry 64): the named condition met — share 0.839 vs 0.843 at χ=5.3, ε 0.92 vs 0.88; the kill stands as a correct toy-grade ruling, overturned in its named appeal court** | entries 61-64 |
 | The flow's H₀ ladder lever (entry 53's partial ~1.4%) | RETRACTED at comoving-field fidelity (entry 64): the swirl is divergence-free (monopole bias exactly 0), the drift dipole-marginalized, the compressive tail ~0.03% — the coherent fraction measures ~0.02, not ~1 | entry 64 |
 
+### Supernovae — the candle room
+
+| the error | the correction | provenance |
+|---|---|---|
+| Process error 22: entry 85's host split was a binary (void/not-void) while its scan grids ramped | v2: continuous environment distributions × the smooth gate — the demotion SOFTENS: full step reachable in the C_ref ≈ 2 corner (the fourth fence's own window); the forest fence becomes the adjudicator (entry 85b's fork) | 2026-07-13 (author catch: "did you ramp that last test?") |
+| Process error 18: the sign session v1's two steps (single-template point-eval; whole-SED compression conflating lines with continuum) | v2: lines-only compression + the 162-config template scan — ς = −1 ROBUST; the 73-reach dies at estimate grade; the room inverts to the mass step's candidate explanation | 2026-07-13 (author: "you did ramp based, right?") |
+| Process error 17: the three candle-room sessions' steps (the 0.5 absorption guess; the binary host census; the 3-point gate scan) | ramped: THE COLOR CHANNEL computed (~0.09 mag, the mass-step class — the restorer; sign = the synthetic-photometry crux); the forest's differential signature → the gate is STEEP (consistency with the pinch); the curve fenced three ways | 2026-07-12 (author: "I bet if you ramp them you'll get better answers") |
+
+### Wide binaries & the vortex network
+
+| the error | the correction | provenance |
+|---|---|---|
+| Process error 23: entry 87's kill checks were point ratios (asserted, not scanned) | 87b's ramped curves: 24–27 orders short across all treatments and the full n band; O(1) needs a vortex every 46 AU — 13.5 orders in spacing from anything owned; the death is ramp-robust | 2026-07-13 (author catch: "make sure you're ramping your tests") |
+
+### CMB & light-sector signatures
+
+| the error | the correction | provenance |
+|---|---|---|
+| Process error 9: the birefringence timing wall step-phrased ("polarization didn't exist yet") | ramped: the pour writes light's BIRTH CERTIFICATE — parity-odd initial conditions (P-028/T10) make EB/TB with no EM coupling; T10 = the white hole's fingerprint in light; en-route null unchanged (exempt anomaly zero) | 2026-07-12 (author catch: "steps or ramps?") |
+| Process error 10: the thermalization ceiling coded as a wall (entry 46) | the blackbody visibility ramp exp[−(z/z_dc)^{5/2}]: the 1/m-branch whispers at μ ~ 1.2×10⁻⁹×eff (PRISM-reachable), not "silent forever"; discriminator survives at 7×10⁵ ratio | 2026-07-12 (author catch: "you didn't ramp it, did you?") |
+
+### Structure formation (JWST / IMF)
+
+| the error | the correction | provenance |
+|---|---|---|
+| Process error 3: the JWST-epoch kill | reopened as mid-ramp cooling (IMF question, parked) | author catch |
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 
 - The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned bet (radio-arbitrated).
