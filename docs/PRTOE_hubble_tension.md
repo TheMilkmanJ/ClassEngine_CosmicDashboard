@@ -96,3 +96,13 @@ assigned to named referees.*
 [Hart–Chluba 2020], [Sekiguchi–Takahashi 2021] (the varying-m_e degeneracy);
 [Di Valentino 2021] (the competitor landscape); [DESI 2024] (the named falsifier).
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## Where the dead ends live
+
+The abandoned H₀ routes for this sector — chiefly the H0=73-via-birth-ramp attempt (extra
+recombination-era dark radiation, which the model's own physics falsifies: the dCDF's
+radiation phase ends at z_on ~ 3.6×10⁷ and is dust by recombination, giving ΔN_eff ~ 10⁻³,
+not the 0.26 that was hand-picked) — are recorded in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). They matter: they are why the model's
+honest H₀ is 69.9 and the gap to SH0ES's 73 is owned and open, not closed by a knob.
+
