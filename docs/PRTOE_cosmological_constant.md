@@ -145,6 +145,16 @@ near-coincidence, unclaimed.
 (iv) Σm_ν measured robustly above ~70 meV, or inverted ordering; (v) the pairing-gap
 computation failing to sustain k ≈ 1.36 unravels the hierarchy leg.
 
+## Where the dead ends live
+
+Two dead ends set this file's honest grade. The "residual IS the dressing" identity (entry 6)
+downgraded to *suggestive* once run at 3α (0.846 vs 0.835), and the triangle's "0.1% match"
+(entry 7) turned out to *select* the free dial x₀ rather than pin it. Both are logged in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) (the mathematical self-audit and the
+superseded-claims index) — which is why §2 states the closure as occupancy *without* leaning
+on the identity.
+
+
 ## References
 
 [Planck 2018] (the measured ρ_Λ); Volovik, *The Universe in a Helium Droplet*

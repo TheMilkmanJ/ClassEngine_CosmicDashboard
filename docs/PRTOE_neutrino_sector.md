@@ -88,3 +88,11 @@ a smooth 8.6-decade bridge. The romance survives only if η's leptogenesis is
 *non*-resonant (then v_L ≥ GeV and the Majoron is S4-dark). CMB-S4's Majoron search
 selects the corner: a detection at g ~ 10⁻⁸–10⁻⁹ kills the shared vertex; a null
 leans toward it.
+
+## Where the dead ends live
+
+The self-caught over-credit ("seesaw forces type-III") and the m_D-ribbon guess (0.1–0.3 GeV
+read as viable before the scan found the surface empty) are logged in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Baryogenesis & the neutrino
+sector."** Both were corrected toward the honest reading this file carries: census-invisible
+steriles exist, so the seesaw type is unforced.

@@ -38,6 +38,14 @@ The transmission integral computed → η/n matched → the comb's n read off th
 two measurements (η, n_comb) and one computation (𝒯) closing one consistency triangle
 (the legs are NOT mutually independent; the triangle is one constraint). Kill: any leg failing.
 
+## Where the dead ends live
+
+The killed baseline — thermal leptogenesis for the model's η — is recorded in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Baryogenesis."** Its surface is
+empty (×40–1000 under, two independent methods); that emptiness is precisely why the model
+routes η through the junction transfer this file computes rather than through a thermal bath.
+
+
 ## Sources
 [AffleckDine1985], [FukugitaYanagida1986] (the killed baseline), [Josephson1962],
 internal: Card 4, t358b, internal review, the entry 9. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

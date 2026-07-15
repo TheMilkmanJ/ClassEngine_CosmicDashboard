@@ -90,6 +90,16 @@ refused — on its own dilution arithmetic — to claim more than a corner of th
 mass step, and may still be sitting in the forest's lines and the void walls all along:
 one number, no exits, referees everywhere.
 
+## Where the dead ends live
+
+The one retraction this file inherits — the lepton/hadron varying-constant hierarchy
+(P-2026-011, leptons shifting ~13× more than hadrons) — is in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Retracted predictions."** It
+died because a flavor-structured shift needs a Higgs/EM portal the census forbids; the
+census-legal coupling is a UNIVERSAL conformal rescaling, which is the cleaner "one number,
+no exits" statement the file now carries.
+
+
 ## Sources
 
 [Hart–Chluba 2020], [Sekiguchi–Takahashi 2021] (the varying-m_e mechanism);

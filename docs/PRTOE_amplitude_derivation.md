@@ -446,3 +446,11 @@ Mining the birefringence graveyard for what it says about the model OTHER than b
 4. P-2026-013 (closed universe) was itself a birefringence-tangent spinoff -- the hunt's largest yield.
 ⇒ candidate new prediction to register: "no long-range dark/fifth force (condensate Higgses all
 mediators short-range)". [[birefringence-null-proven]]
+
+## Where the dead ends live
+
+The retracted lepton/hadron varying-constant hierarchy (P-2026-011) is in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Retracted predictions"** — it
+needed a Higgs/EM portal the census forbids, and the census-legal reading is the universal
+conformal rescaling this file derives. The full birefringence dead-end map (why the parity
+signal is forced out of light and into gravity) lives under **"Birefringence."**
