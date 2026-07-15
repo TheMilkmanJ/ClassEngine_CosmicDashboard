@@ -106,7 +106,7 @@ consistency structure applied to its most famous problem:
   (0.76×, the right decade FROM A MECHANISM)**, with its owned caveats (the KP
   self-consistency O(1)s; the turnaround-timing corner). **This is the only door with a
   NUMBER on the table — and it was sitting in the background sector unconnected to this
-  frame until the operator asked which door the VALUE question was missing.**
+  frame until the question was asked which door the VALUE reading belonged to.**
 - **The thermal door — the residual's dynamics** (hunt entries 165/175–183): the candidate
   chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
   would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the

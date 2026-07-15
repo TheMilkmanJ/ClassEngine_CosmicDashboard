@@ -311,7 +311,7 @@ causal future of the pour; the gather-resemblance is the gather-dominated CHAPTE
 pour's interior settling itself out. [GRAMMAR — renames of recorded + record physics.]
 
 
-## The pour's identity + the timer (2026-07-14 — the operator's completion; the thermal-door arc)
+## The pour's identity + the timer (2026-07-14)
 
 **WHAT THE WHITE HOLE POURED: HEAT.** The pour is the confined heat fountain — radiative heat,
 the universe's entire thermal principal, deposited once (the single-source account; hunt
@@ -323,7 +323,7 @@ photon, and clock-tick — is the aftermath of that one pour cooling. This is wh
 was hot, why the CMB persists (the deposit's redshifted remainder), and why the late universe
 reads through two doors: the third was spent first, funding the other two.
 
-**THE TIMER (the operator's reading, and it inverts the usual objection):** a white hole does
+**THE TIMER (and it inverts the usual objection):** a white hole does
 not need time reversal — **it needs NO FORWARD TIME.** It is the one solution that can exist
 only at the instant before duration: the moment the timer starts, the white hole cannot
 survive (the known violent instability, read as the mechanism rather than the objection),
@@ -333,7 +333,7 @@ the boundary instant, cashed exactly once, with no exterior counterparty. The in
 not the argument against the white hole; it is the reason genesis happened instead of a
 white hole persisting.
 
-**GRADE, stated against the conviction:** the operator holds this with his whole heart; the
+**GRADE, stated plainly:** this reading is held with conviction; the
 books hold it at GRAMMAR + EXPLORATORY — a causal-structure reading whose every physical
 piece is separately recorded (the fountain, the roll-up, the snap, the settlement cascade,
 the two-reservoir split) and whose falsifiable content routes entirely through the THERMAL
@@ -342,7 +342,7 @@ fossil-sound/isocurvature lane, the single-source boundary condition. The story 
 grade upgrade if and when the program's computations land it — not before, however right it
 feels, and it feels right.
 
-**The egg that opened the clock (the operator's completion of the timer, 2026-07-14):** the
+**The egg that opened the clock (2026-07-14):** the
 standard objection — "a white hole needs a reversal of time" — presumes time is already
 running. At the boundary instant there is nothing to reverse. In the maximally extended
 solutions the white-hole region only ever sits in the causal PAST of every observer — GR
