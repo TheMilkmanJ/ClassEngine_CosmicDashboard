@@ -18,19 +18,37 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 
 ## 2. Killed rescues and dead lanes (the model's own claims that failed)
 
+
+
+### BBN & the gate-0 heal
+
 | what died | the killshot | provenance |
 |---|---|---|
 | The gate-0 deuterium heal (m_e = 1 at BBN) — four rescue variants | EXCLUDED-catastrophe at 12σ (BBN #29); DATA-REQUIRED status, not a knob | gate-0 doc §7 — do not re-run |
 | The "healer" mechanism (dyad-era) | dead; the identity survived without it | dyad-era state |
+| The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | internal review |
+
+### Baryogenesis (the η channel)
+
+| what died | the killshot | provenance |
+|---|---|---|
 | Thermal leptogenesis for the model's η | the surface is EMPTY — ×40–1000 under, two independent methods | internal review (corrected internal review wrong guess) |
+
+### The census & roster count
+
+| what died | the killshot | provenance |
+|---|---|---|
 | Census lane (i) — asymmetric reps for induced SU(2) | DEAD BY THEOREM: ΣQ² = T(R) + d(R)Y² ≥ T(R) — permanently closed | internal review |
 | Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal review |
 | The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal review |
 | P-039's collider knife-edge ([1.00–1.19] TeV) | SUSPENDED: the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run | internal review |
-| The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | internal review |
 | c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal review |
-| The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
-| The candle room's "mass-step candidate explanation" reading | entry 85's dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | entries 85/85b, 2026-07-13 |
+| c = 9/12 and c = 9/13 (the "neutrino side doesn't pay" rosters) | RAMP-PROOF KILLS (entry 112): each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | entry 112, 2026-07-13 |
+
+### The G-closure — computing Newton's constant
+
+| what died | the killshot | provenance |
+|---|---|---|
 | **THE G-CLOSURE ITSELF — every claim to compute Newton's constant from the model's roster** | **TERMINATED PERMANENTLY (entry 114, by the author's signed death warrant).** The rebuild from the blindness law (gravity reads energy, not identity ⟹ the roster is EVERY field in the vacuum) shows the induced-G sum necessarily contains the **Higgs' non-minimal coupling ξ_H** — an unmeasured Standard-Model parameter that a dark-sector cosmology has no business deriving. **The closure is not wrong; it is UNDECIDABLE BY THIS MODEL.** It was never winnable. Also caught in the rebuild: the "medium's 9 fermions" were SM fields already inside the 48 — the twin-doubling error in a new costume. The 0.8% MATCH is separately dead (it rested on two bookkeeping errors — the twin double-count, entry 99, and a nonexistent ξ, entry 108 — both caught by our own audits). **The CLOSURE itself is UNDECIDED, not dead**: entry 109's termination-B was VACATED by entry 109b (process error 27) — the death rested on two unwalked steps (the exact K = M_red bootstrap; an FRW-degenerate basis). Honest status: the closure is DEMOTED — with K/M_red free it determines the coherence scale rather than testing the roster. Falsifiability lost; the claim to compute G withdrawn. | entries 78–109b, 2026-07-13 |
 | The G-closure's clean-value landings (−9/2, −3/2, −9/4; the thrice-landed "0.8% match") | RETIRED at ramped grade (entry 99): quarter-integer proximity was 40–75% likely by chance across the convention corners — menu density, not structure; the surviving content is the ξ-equation (G measures ξ, two doors) | entry 99, 2026-07-13 |
 | Process error 30: I SPUN the f̄ ensemble — claimed it "independently agrees" with 12/13 when c = 0.903 sits −0.08σ from 9/10 and +0.53σ from 12/13 (the data marginally favors the roster the gravity sector EXCLUDED) | caught by the internal review (turn 570); corrected in full; the latent tension between the two sectors is now booked openly instead of papered over | 2026-07-13 |
@@ -41,9 +59,19 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | Process error 26: entry 99's deflation ramped ξ-space but stepped at ξ's ORIGIN — the founding coupling was graded as an orphan number; no derivation from the model's own founding sector was ever attempted | the ξ-derivation session docketed with pre-registration of the predicted door BEFORE the one-bit court; a derived collision would be menu-immune evidence; the deflation itself stands | 2026-07-13 (author catch: "even though you accounted for the ramp... you didn't account for the ramp") |
 | Process error 25: a stale pre-polish version of the QG file silently resurrected (flip at the reference-purge commit) and went unnoticed — the hygiene pass cleaned the corpse; the author's "weird jargon in quantum gravity" sighting was this resurrection | restored from the last good commit + later passes re-applied + entry-99 updates; all other jewels audited intact (titles verified); rule sharpened: full-file overwrites verify the TITLE LINE against the intended version before write | 2026-07-13 (found during entry 99's booking failures) |
 | Entry 86's vector escape (n Kelvin branches closing gravity's sign; the n = 19 co-landing) | DEAD FOURFOLD within one day (entry 87): the global winding is coreless (no Kelvin sector); measure 10⁻²⁵; infrared 10⁻²⁵; the halo route kinematically fenced — the coincidence-watch protocol caught its own flag at designed speed | entries 86–87, 2026-07-13 |
-| c = 9/12 and c = 9/13 (the "neutrino side doesn't pay" rosters) | RAMP-PROOF KILLS (entry 112): each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | entry 112, 2026-07-13 |
+
+### Galactic dynamics (wide binaries, MOND)
+
+| what died | the killshot | provenance |
+|---|---|---|
+| The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
 | The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | internal review |
 
+### Supernovae — the candle room
+
+| what died | the killshot | provenance |
+|---|---|---|
+| The candle room's "mass-step candidate explanation" reading | entry 85's dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | entries 85/85b, 2026-07-13 |
 ## 3. Wrong calls by the defense, self-caught and corrected (the error log)
 
 | the error | the correction | provenance |
