@@ -23,6 +23,54 @@ suppressed (lab) value in every virialized absorber ever measured
 environmental dependence (drift wall; quasar differentials kill the
 smooth version at 10⁴×).
 
+---
+
+## WHAT WORKS — the derived results (read this first)
+
+The electron-mass shift ε ≈ 1.24% is the model's one added number. Two things about it are
+**derived, not fit**, and each is forced by real data:
+
+**1. The switch must be sharp — a near-binary threshold — and TWO independent experiments force it.**
+- *Equal-Principle side (MICROSCOPE):* the m_e shift must drop by **~8 decades** between a
+  dwarf-halo core (where it acts) and Earth (where MICROSCOPE tests it to 10⁻¹⁵). But the
+  Weyl curvature between the smoothest relevant epoch (recombination, δ ~ 10⁻⁵) and a dwarf
+  core changes by only **~1.35 decades (~22×)**. An 8-decade suppression cannot ride a
+  1.35-decade window with a gentle function: exp(−(C/C_ref)ⁿ) needs **n > 2.43** — essentially
+  a step. Once sharp enough to switch off at the dwarf core, Earth (17 decades higher
+  curvature) is off automatically; no separate tuning.
+- *Spectroscopy side (quasars):* a smooth density-dependence would produce quasar-vs-absorber
+  line differentials ~10⁴× the observed bound — so the switch is forced binary here too.
+- **Two unrelated experiments demanding the same near-binary threshold is convergent evidence,
+  not tuning.** The clean underlying variable is topological: has multi-streaming / first
+  shell-crossing happened here, yes or no — an environmental event, not a tuned curvature number.
+
+**2. The amplitude's ceiling is derived.** The electron mass is ~99% Higgs-Yukawa and ~1%
+electromagnetic self-energy. If the environment amends the EM-binding rule, only the EM part
+can respond, so the maximum shift is the EM-self-energy fraction of m_e — O(α)·log ≈ **1–2%**
+for every reasonable cutoff (muon through nucleon scale). **The observed 1.24% sits at that
+ceiling** — the smallness and the percent-scale are bounded from physics, not chosen.
+
+**3. The coupling is census-legal.** The shift is carried by geometry (Weyl curvature / the
+topological shell-crossing event), not by a new dark→electron force vertex — so it needs no
+portal the model forbids.
+
+**What is still open (and it is genuinely open):** the *exact* amplitude value (only its
+ceiling is derived), an author-level proof that the induced shift is EP-safe (shifts m_e
+without shifting other Standard-Model masses identically), and the coupling-census scope
+adjudication. These are worked below.
+
+---
+
+## THE FULL EXPLORATION — what was tried, what held, and how each dead end maps the dark sector
+
+*The sections below are the working record of the search: every candidate mechanism, the ones
+that survived (summarized above) and the ones that failed. The failures are kept on purpose —
+each one narrows what the dark sector's touch on ordinary matter is allowed to be. The single
+sharpest lesson from the dead ends: a direct dark-field→electron Lagrangian coupling was tried
+and **fails the coupling census** (gravity is the medium's only account), which is exactly why
+the surviving mechanism must be geometric/topological. The dark sector reaches ordinary matter
+only through the metric — the dead ends are how that was proven.*
+
 ## 2. The surviving candidate: R1 — structure throws the switch OFF
 
 Inversion: the BARE value is 1.01; nothing switched it on. Shell-
