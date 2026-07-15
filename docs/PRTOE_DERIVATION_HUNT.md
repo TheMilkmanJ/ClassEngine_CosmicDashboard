@@ -6869,3 +6869,30 @@ seventh item on the basement roster's tab: the dyad's constituents gapped ≳60 
 survives on the 153 defense; its full closure waits on the basement, exactly like the six
 locks. *Favorable-artifact class; caught by the operator; the pattern holds — the discipline
 collapses toward "clean" when I want the item off the board.*
+
+## ENTRY 187 — THE BIRTH-RAMP RADIATION, DERIVED (the operator's order after the pour run was caught contaminated): **the model derives ΔN_eff(rec) ~ 10⁻³, NOT 0.26 — the H0=73-via-birth-ramp route (166/167/169) is FALSIFIED by the model's own number; the hand-picked 0.26 was ~250× too large and poisoned the CMB by ~6000 χ²**
+
+*The pour evidence run (P-2026-046) was caught adding ~6300 χ² to the CMB via a misconfigured
+N_idr=0.26 (isolation test: TTTEEE 2270→5698, ACT 1260→3587 at fixed point). The operator
+killed it and ordered the birth-ramp radiation DERIVED instead of picked. Derived:*
+
+**The physics:** the dCDF's radiation-like phase (w=1/3, conformal youth) ENDS at the H=m
+transition, z_on ~ 3.6×10⁷ (the onset clock, entry 148). After that it is DUST. By
+recombination (z ~ 1100) it has been dust for ~3×10⁴ in scale factor. **There is no dCDF
+radiation at the CMB epoch.** The model's registered dark-radiation form (v5 §11:
+ΔN_eff = 7.45·a_x/a_eq) gives, at recombination, **ΔN_eff ~ 7×10⁻⁴ — negligible.**
+
+**THE VERDICT (adverse, honest, decisive):**
+- The hand-picked 0.26 was **~250× the model's own derived value**, and it OVERRODE a number
+  the model already had — the sharpest form of substituting a knob for a prediction. That
+  250× excess is exactly the ~6000 χ² CMB poisoning the isolation test found.
+- **The H0=73-via-birth-ramp route is FALSIFIED by the model's own physics.** Entry 166 needed
+  ΔN_eff ~ 0.5–0.8 at recombination; the model derives ~10⁻³. The pour's radiation dilutes
+  away 30,000× before the CMB. **Entries 166/167/169 and P-2026-046 are RETRACTED.**
+- **The model's honest H0 remains 69.9** (the ε/varying-mₑ mechanism, untouched). The tension
+  to SH0ES's 73 is NOT closed by this model; the gap is owned, open, honest.
+
+**WHAT SURVIVES (unaffected — the birth-ramp radiation was a separate bolted-on H0 booster):**
+the white-hole genesis, the settling/freeze, Λ = the frozen residual, DM = the ash, the
+lightswitch, the Λ three-door program. None depend on recombination-era radiation. The pour
+STORY stands; the pour RADIATION-FOR-H0 sub-claim is dead.

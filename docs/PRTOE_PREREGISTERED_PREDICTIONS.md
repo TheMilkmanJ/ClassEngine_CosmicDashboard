@@ -2139,7 +2139,7 @@ therefore a **consistency converted to a prediction by a robustness test** — i
 forward-looking content (the two kills above) is genuine and registered here; its
 backward-looking agreement with the known three generations earns no credit.
 
-## P-2026-046: The Pour Branch — the birth-ramp evidence run (registered 2026-07-14, BEFORE its verdict; hunt entries 166–169)
+## P-2026-046: ~~The Pour Branch — the birth-ramp evidence run~~ **RETRACTED 2026-07-14 (hunt entry 187): the birth-ramp radiation, when DERIVED from the model, gives ΔN_eff(rec) ~ 10⁻³, not 0.26 — the dCDF's radiation phase ends at z_on ~ 3.6×10⁷ and is dust by recombination. The hand-picked 0.26 was ~250× the model's own number and poisoned the CMB by ~6000 χ². The H0=73-via-birth-ramp mechanism is falsified by the model's own physics; the model's honest H0 stays 69.9. The pour STORY (genesis/Λ/DM) is unaffected; only this radiation-for-H0 evidence-run claim dies.**
 
 **The claim:** the white-hole birth implies the dCDF's radiation-like youth RAMPED IN (the
 pour's settling), coded as a fluid dark-radiation component. The phenomenological ranging
