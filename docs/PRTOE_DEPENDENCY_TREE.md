@@ -63,7 +63,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G (the closure) | — | **RETIRED (the zombie ruling, hunt entry 124 on the external review): "the medium computes G's value" died in three schemes in one day and is retired, full stop. THE KEEPER SPLIT: Pauli's finiteness condition str[k₁] = 0 (satisfied exactly by SM + 3ν_R; P-2026-045) and the 1/α_Y(M_Pl) = 55.5 bare-handout asymmetry (hunt 134/138) are KEPT — they are conditions and targets, not value computations** | P-2026-045's kills (a light sterile; a 4th generation); the six basement locks (hunt 138) |
+| induced-G (value computation) | — | **not claimed.** The model does not compute the numerical value of Newton's constant. What it holds instead: Pauli's finiteness condition str[k₁] = 0 (satisfied exactly by SM + 3ν_R) and the bare-handout asymmetry 1/α_Y(M_Pl) = 55.5 — conditions and targets, not value computations. | P-2026-045's kills (a light sterile; a 4th generation); the six basement locks |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 
