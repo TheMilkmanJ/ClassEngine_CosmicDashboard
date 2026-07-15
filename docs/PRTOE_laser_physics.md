@@ -1,6 +1,6 @@
 # Laser Physics — The Medium's Grammar at 10¹⁵ Hz (2026-07-12)
 
-> **STATUS: KINSHIP FILE (the audit's [R + cousin-note], expanded on author's order).**
+> **STATUS: KINSHIP FILE (the audit's [R + cousin-note], expanded on.**
 > The model claims NO new laser physics — lasers ride QM+EM exactly. What this file
 > documents is the reverse flow: what lasers PROVE about the grammar the model runs on.
 

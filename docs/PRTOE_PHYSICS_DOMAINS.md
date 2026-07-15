@@ -903,7 +903,7 @@ direction.
 
 ---
 
-## The validation ledger (added same day, author's order: "show validation for each domain")
+## The validation ledger (added same day
 
 *Current standing of every attachment, dated 2026-07-07. Statuses:
 **PASSING** (data exists, model passes now) · **STANDING-NULL** (bet

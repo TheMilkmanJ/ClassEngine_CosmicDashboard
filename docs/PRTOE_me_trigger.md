@@ -154,7 +154,7 @@ Candidate #1 remains structurally favored (medium-native variable);
 candidate #2 holds the natural-scale advantage. Both pass the §7
 requirements table; the plasma and radiation-era candidates do not.
 
-## 9. The Compton gate's first tests (2026-07-07 afternoon, author's order: "try Compton first")
+## 9. The Compton gate's first tests (2026-07-07 afternoon
 
 **(a) The scale, derived not fit:** the Compton-heating/H crossing in
 the dyad background (x_e,res = 2.5×10⁻⁴, H₀ = 70.2, dyad best-fit) lands
@@ -558,7 +558,7 @@ relevant structural differences between the ψ and χ components
 WITHIN a single simulated halo, not just aggregate halo-vs-void
 comparisons.
 
-## 20. A FIELD-THEORETIC ANSATZ FOR THE m_e COUPLING (2026-07-07 night, author's order:
+## 20. A FIELD-THEORETIC ANSATZ FOR THE m_e COUPLING (2026-07-07 night
 ## "derive the bare 1.0124 from an actual field coupling")
 
 **THE PROPOSAL:** couple the electron mass to the medium's own COHERENCE
@@ -2091,7 +2091,7 @@ consistency-construction; a census-legal trigger candidate, not a derivation.
 Registered as the corrected (gravitational) reading of the author's residual
 idea; Branch A logged as the grave it must avoid.
 
-## 58. Option B developed (author's order) — the trigger IS multi-stream onset; Θ = the granule field
+## 58. Option B developed — the trigger IS multi-stream onset; Θ = the granule field
 
 **Chosen branch (from §57): gravitational residual.** Matter's clustering
 imprints the superfluid's FLOW STATE. Developed concretely:
@@ -2794,7 +2794,7 @@ calculation, not an analogy. Net: c over-determined and trapped near 1
 (naturalness above, data-consistency below), but not yet first-principles
 derived. Both walls credited to the author; §75-close error corrected.
 
-## 77. The staff survey (author's order) — c = 0.93 ± 0.38, consistent with gravity=1 but DEGENERATE with the amplitude
+## 77. The staff survey — c = 0.93 ± 0.38, consistent with gravity=1 but DEGENERATE with the amplitude
 
 **Author: "survey the staff, get their feedback, we'll see why c has to be
 gravity=1."** Surveyed each parameter's independent value+error:

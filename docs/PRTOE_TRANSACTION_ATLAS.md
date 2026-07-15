@@ -831,7 +831,7 @@ is its only account). Pay it curvature and the product is determined:*
   redshifts to sub-horizon-band frequencies today. Nothing observable;
   the dice roll left no gravitational echo. One-line null.
 
-## BURN SET 3 (2026-07-07 ~6am, author's order: unexplored domains)
+## BURN SET 3 (2026-07-07 ~6am
 
 - **THE DARK-ANTIMATTER REFRAME (coherence-grade; falls out of E7's
   two-fluid for free):** the antiparticle sector n₋ never annihilates
@@ -891,7 +891,7 @@ is its only account). Pay it curvature and the product is determined:*
   cannot feel the medium; no anomalous perihelion channel exists.
   Clean, closed.
 
-## THE BIGGEST MYSTERY (2026-07-07 ~7am, author's order: the
+## THE BIGGEST MYSTERY (2026-07-07 ~7am
 ## cosmological constant problem, attacked head-on)
 
 The consensus worst problem in physics — vacuum energy over-predicts

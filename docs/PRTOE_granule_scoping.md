@@ -1,4 +1,4 @@
-# The Granule-Meter Scoping Study & The Mass Pin (2026-07-07, author's order)
+# The Granule-Meter Scoping Study & The Mass Pin (2026-07-07
 
 > **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 
