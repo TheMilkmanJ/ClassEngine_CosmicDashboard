@@ -903,7 +903,7 @@ direction.
 
 ---
 
-## The validation ledger (added same day
+## The validation ledger (added 2026-07-13)
 
 *Current standing of every attachment, dated 2026-07-07. Statuses:
 **PASSING** (data exists, model passes now) · **STANDING-NULL** (bet
