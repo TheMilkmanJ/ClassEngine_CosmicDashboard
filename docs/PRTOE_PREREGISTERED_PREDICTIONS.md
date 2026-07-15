@@ -1944,11 +1944,10 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
 - **P-2026-039** (type-III triplets ~1 TeV): SUSPENDED (two-loop) → shooter v2
   now lands the census triplets at 13–20 TeV under edge-matching: the collider-visible
   branch is ADVERSE-LEANING pending the edge-convention audit (hunt, entry 24).
-- **P-2026-040** (α_c = 3α): LIVE — referee upgraded to the DISPERSION α_c chain; the
-  z_on corollary's lineup is RETIRED pending the two-clock re-derivation (process error 7);
-  the triangle (M₂, x₀, ρ_Λ) rides this chain.
-- **P-2026-041** (f̄ = 2/π): MECHANISM WALKED BACK (entry 18: the rectified estimator
-  ≠ 2/π in-sim; the flux shortcut failed) — the VALUE claim stands, un-mechanized,
+- **P-2026-040** (α_c = 3α): LIVE — graded by the dispersion α_c chain; the z_on corollary's
+  lineup awaits the two-clock re-derivation; the triangle (M₂, x₀, ρ_Λ) rides this chain.
+- **P-2026-041** (f̄ = 2/π): the VALUE claim stands, un-mechanized (the proposed closed-form
+  mechanism is not established; the high-statistics ensemble decides),
   awaiting the 256×3 ensemble's squared-estimator precision. The speed-weighted retrial
   runs.
 - **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND; arrow C (the census
