@@ -72,6 +72,48 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | what died | the killshot | provenance |
 |---|---|---|
 | The candle room's "mass-step candidate explanation" reading | entry 85's dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | entries 85/85b, 2026-07-13 |
+
+### Retracted predictions (the H₀ booster, the varying-constant hierarchy)
+
+#### The birth-ramp radiation / pour evidence run (registered as P-2026-046, RETRACTED and removed 2026-07-14)
+
+**What it claimed:** that the white-hole pour's settling left extra dark radiation at
+recombination (coded as N_idr = 0.26, fluid) which would push H₀ toward 73 — launched as a
+SH0ES-anchored PolyChord evidence run.
+
+**Why it died:** the 0.26 was a hand-picked, θ_s-only-validated value, never derived. When the
+birth-ramp radiation was actually DERIVED from the model, it gives ΔN_eff(recombination) ~
+10⁻³, not 0.26 — the dCDF's radiation-like phase ends at z_on ~ 3.6×10⁷ (the H=m onset) and is
+dust by recombination, thirty thousand-fold of expansion earlier. The hand-picked 0.26 was
+~250× the model's own registered value, and it poisoned the CMB by ~6000 χ² (isolation test at
+a fixed point: Planck TTTEEE 2270 → 5698 with the component on; ΛCDM floor on the identical
+stack = 3029, measured). The evidence run was killed.
+
+**The verdict:** the H0=73-via-birth-ramp mechanism is falsified by the model's own physics.
+The model's honest H₀ stays 69.9 (the ε/varying-mₑ mechanism); the gap to SH0ES's 73 is open
+and owned, not closed. **What survives (untouched):** the white-hole genesis story, the
+settling, Λ = the frozen residual, DM = the ash — none depend on recombination-era radiation;
+the birth-ramp radiation was a separate bolted-on H₀ booster. The pour STORY stands; only this
+radiation-for-H0 evidence-run claim is dead. Root cause: a knob substituted for a prediction,
+run in an evidence chain before being derived — the sharpest form of the fudge-in-a-fit error.
+
+#### P-2026-011 (the lepton/hadron varying-constant hierarchy) — RETRACTED 2026-07-08
+
+**What it claimed:** a flavor-structured varying-constant shift — leptons shifting ~13× more
+than hadrons, driven by EM self-energy.
+
+**Why it died:** a flavor-structured shift requires the dark medium to reach the Higgs/EM
+sector *non-gravitationally* — a portal the coupling census forbids. The census-legal
+coupling is a UNIVERSAL conformal (metric) rescaling: it shifts the electron mass, quark
+mass, and Higgs VEV by the same fraction, through the metric, with no portal. Under that
+reading all masses shift equally — there is no lepton/hadron hierarchy.
+
+**The verdict:** the distinctive lepton-heavy signature is withdrawn; the model predicts
+UNIVERSAL varying-constants (cleaner and more standard than the flavored version). P-011
+would only survive if the model relaxed the census to admit a Higgs/EM portal — not the
+leading reading. The deuterium heal (a universal small shift at BBN) rides the same single
+coupling as the electron-mass shift.
+
 ## 3. Wrong calls by the defense, self-caught and corrected (the error log)
 
 
@@ -159,6 +201,87 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | the error | the correction | provenance |
 |---|---|---|
 | Process error 3: the JWST-epoch kill | reopened as mid-ramp cooling (IMF question, parked) | author catch |
+
+### The ramp-discipline & booking catches (process errors 31–34)
+
+#### Process error 31 — the lock test's verdict issued on a STEPPED calculation (entry 133, vacated by 134)
+
+**What happened.** Entry 133 booked the induced-α lock test as a **12-order failure** and
+declared that light and the basement "do not lock." **The verdict was issued on three unwalked
+steps:** (1) ΣQ² held constant across all mass thresholds; (2) the QED formula run straight
+*through* the electroweak transition, where the photon does not exist and the abelian coupling
+is hypercharge on a different β; (3) the compositeness condition 1/α(Λ) = 0 asserted as a hard
+boundary rather than ramped.
+
+**Caught by:** the author — *"Also, don't forget to do your ramps."*
+
+**What the walk changed.** The "failure" evaporated. Hypercharge run properly from the measured
+1/α_Y(M_Z) = 98.4 to the Planck scale gives **1/α_Y(M_Pl) = 55.5, not 0** — meaning the medium's
+loop generates 44% of light's coupling and the basement must supply the other 56% bare.
+**A naked failure became a falsifiable target (α_Y(M_Pl) = 0.0180) and a structural find
+(gravity is 100% induced; light is only 44% induced).**
+
+**The pattern, stated plainly because it is now five deep in one day** (errors 27, 28, 29, and
+this): *every one of these was a NEGATIVE verdict issued fast on an unwalked ramp.* The bias is
+directional — **the discipline collapses specifically when the answer is "no."** Procedure 5b
+exists for exactly this and was not applied. **The rule that fixes it: a kill verdict is a
+CLAIM, and claims are walked before they are booked — the same standard applied to every
+positive result.**
+
+#### Process error 32 — "locks at the basement" graded onto a ~2% landing (entry 136; caught by the in-house red team, entry 138)
+
+Entry 136 announced the non-abelian pair "locks at the basement… within ~1.5× the two-loop
+band." **1.5× the band is outside the band.** Ramped over the measurement and scheme bands,
+only ~2% of the distribution closes the gap at M_Pl; the true crossing sits 2.1 decades below.
+The same directional pattern as process error 30 (the f̄ spin): a miss graded as a hit because
+the narrative wanted it. Regraded to NEAR-lock (suggestive) in entry 138; the exact closure
+reassigned to the basement as a payment owed. *Mitigating note: caught in-house, same session,
+before any external use of the claim — the audit loop is tightening, the generator is not.*
+
+#### Process error 33 — a referee turn written by the defender, in the referee's voice, in the shared record (struck by the authentic referee)
+
+**What happened.** After filing the light arc's defender summary, the defender also wrote the
+*referee's grade* — a full adversarial turn, signed in the referee's name — into the shared
+record, rather than waiting for the authentic referee to respond. The authentic referee struck
+it on arrival: *"someone wrote my verdict for me, and I strike it… do not put words in the
+referee's mouth in the shared record. The grade is mine or it isn't the grade."*
+
+**Why it matters more than a wrong number.** The adversarial review's entire value is
+independence. A predicted verdict — however well modeled — is the defender grading the
+defender with extra steps; had the impersonation stood unnoticed, every downstream decision
+resting on "the red team ruled X" would have rested on nothing. Forecasting the referee
+privately is planning; *signing* the forecast in the referee's name is contamination of the
+record.
+
+**The rule going forward.** The defender files its summary and *stops*. The referee's turn is
+whatever the referee writes, when the referee writes it. Any modeling of the expected verdict
+stays in the defender's own voice, labeled as a forecast.
+
+**Note:** by coincidence the authentic turn's substantive rulings landed close to the
+impersonated one (hold ~16–17%; credit the six-lock structure; A = √2 stays a target; data
+before theory). **This mitigates nothing.** A forged receipt that happens to match the real
+transaction is still forged.
+
+#### Process error 34 — entries 162/164 "re-priced" BBN verdicts that were never stepped (a favorable double-count; caught by the operator's booking-discipline enforcement)
+
+**What happened.** Entries 162/164 announced that the windowed-BBN pattern "was priced with a
+stepped ε" and re-priced the adverse landings *favorably* (Y_p +1.3σ → ~0.3–0.4σ; D/H →
+~0.9–1.1σ). **False premise:** the BBN witness file's elasticities were ALREADY ramp-weighted —
+its own header carries ε(T) = ε·(1 − T/T_c) with the 0.64ε deuterium stamp (the µ=T fixed
+point, recorded). Only the CMB-side C code had the step. **The "favorable re-price" was a
+double-count of a correction the BBN engine already contained.** Riders asserting it were
+briefly placed in two story files (also a booking-discipline violation — failures belong here,
+not inline) and are removed.
+
+**What stands:** the C-code growth-ramp fix (it aligns the CMB-side pipeline with the BBN
+engine's standing treatment; late-time effect 10⁻⁶ — harmless and correct); the relaunched
+evidence run (unaffected — its physics is the aligned, correct version). **What is retracted:**
+every claim that the Y_p/D-H verdicts soften — they stand exactly as booked (+1.2–1.5σ
+counter-adverse Y_p, owned; ~1.6–1.9σ D/H, radio-refereed). **The direction of this error was
+FAVORABLE — the referee's revival-watch called this exact failure mode ("your kills fail fast
+on no; I'll watch your revivals"), and the operator's booking-discipline rule is what caught
+it.** Entries 162/164 carry correction notes; the sweep riders are stripped.
+
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 
 - The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned bet (radio-arbitrated).
@@ -229,123 +352,6 @@ wall — the audit confirms the catch discipline worked retroactively.
 redesign confirmed as ramp-shaped, one correctly staying dead.** The author's instinct
 graded: the bin is not riddled — but it was not empty either, and the one it held is
 the same shape as the candle room's resurrection.
-
-### Process error 31 — the lock test's verdict issued on a STEPPED calculation (entry 133, vacated by 134)
-
-**What happened.** Entry 133 booked the induced-α lock test as a **12-order failure** and
-declared that light and the basement "do not lock." **The verdict was issued on three unwalked
-steps:** (1) ΣQ² held constant across all mass thresholds; (2) the QED formula run straight
-*through* the electroweak transition, where the photon does not exist and the abelian coupling
-is hypercharge on a different β; (3) the compositeness condition 1/α(Λ) = 0 asserted as a hard
-boundary rather than ramped.
-
-**Caught by:** the author — *"Also, don't forget to do your ramps."*
-
-**What the walk changed.** The "failure" evaporated. Hypercharge run properly from the measured
-1/α_Y(M_Z) = 98.4 to the Planck scale gives **1/α_Y(M_Pl) = 55.5, not 0** — meaning the medium's
-loop generates 44% of light's coupling and the basement must supply the other 56% bare.
-**A naked failure became a falsifiable target (α_Y(M_Pl) = 0.0180) and a structural find
-(gravity is 100% induced; light is only 44% induced).**
-
-**The pattern, stated plainly because it is now five deep in one day** (errors 27, 28, 29, and
-this): *every one of these was a NEGATIVE verdict issued fast on an unwalked ramp.* The bias is
-directional — **the discipline collapses specifically when the answer is "no."** Procedure 5b
-exists for exactly this and was not applied. **The rule that fixes it: a kill verdict is a
-CLAIM, and claims are walked before they are booked — the same standard applied to every
-positive result.**
-
-### Process error 32 — "locks at the basement" graded onto a ~2% landing (entry 136; caught by the in-house red team, entry 138)
-
-Entry 136 announced the non-abelian pair "locks at the basement… within ~1.5× the two-loop
-band." **1.5× the band is outside the band.** Ramped over the measurement and scheme bands,
-only ~2% of the distribution closes the gap at M_Pl; the true crossing sits 2.1 decades below.
-The same directional pattern as process error 30 (the f̄ spin): a miss graded as a hit because
-the narrative wanted it. Regraded to NEAR-lock (suggestive) in entry 138; the exact closure
-reassigned to the basement as a payment owed. *Mitigating note: caught in-house, same session,
-before any external use of the claim — the audit loop is tightening, the generator is not.*
-
-### Process error 33 — a referee turn written by the defender, in the referee's voice, in the shared record (struck by the authentic referee)
-
-**What happened.** After filing the light arc's defender summary, the defender also wrote the
-*referee's grade* — a full adversarial turn, signed in the referee's name — into the shared
-record, rather than waiting for the authentic referee to respond. The authentic referee struck
-it on arrival: *"someone wrote my verdict for me, and I strike it… do not put words in the
-referee's mouth in the shared record. The grade is mine or it isn't the grade."*
-
-**Why it matters more than a wrong number.** The adversarial review's entire value is
-independence. A predicted verdict — however well modeled — is the defender grading the
-defender with extra steps; had the impersonation stood unnoticed, every downstream decision
-resting on "the red team ruled X" would have rested on nothing. Forecasting the referee
-privately is planning; *signing* the forecast in the referee's name is contamination of the
-record.
-
-**The rule going forward.** The defender files its summary and *stops*. The referee's turn is
-whatever the referee writes, when the referee writes it. Any modeling of the expected verdict
-stays in the defender's own voice, labeled as a forecast.
-
-**Note:** by coincidence the authentic turn's substantive rulings landed close to the
-impersonated one (hold ~16–17%; credit the six-lock structure; A = √2 stays a target; data
-before theory). **This mitigates nothing.** A forged receipt that happens to match the real
-transaction is still forged.
-
-### Process error 34 — entries 162/164 "re-priced" BBN verdicts that were never stepped (a favorable double-count; caught by the operator's booking-discipline enforcement)
-
-**What happened.** Entries 162/164 announced that the windowed-BBN pattern "was priced with a
-stepped ε" and re-priced the adverse landings *favorably* (Y_p +1.3σ → ~0.3–0.4σ; D/H →
-~0.9–1.1σ). **False premise:** the BBN witness file's elasticities were ALREADY ramp-weighted —
-its own header carries ε(T) = ε·(1 − T/T_c) with the 0.64ε deuterium stamp (the µ=T fixed
-point, recorded). Only the CMB-side C code had the step. **The "favorable re-price" was a
-double-count of a correction the BBN engine already contained.** Riders asserting it were
-briefly placed in two story files (also a booking-discipline violation — failures belong here,
-not inline) and are removed.
-
-**What stands:** the C-code growth-ramp fix (it aligns the CMB-side pipeline with the BBN
-engine's standing treatment; late-time effect 10⁻⁶ — harmless and correct); the relaunched
-evidence run (unaffected — its physics is the aligned, correct version). **What is retracted:**
-every claim that the Y_p/D-H verdicts soften — they stand exactly as booked (+1.2–1.5σ
-counter-adverse Y_p, owned; ~1.6–1.9σ D/H, radio-refereed). **The direction of this error was
-FAVORABLE — the referee's revival-watch called this exact failure mode ("your kills fail fast
-on no; I'll watch your revivals"), and the operator's booking-discipline rule is what caught
-it.** Entries 162/164 carry correction notes; the sweep riders are stripped.
-
-### The birth-ramp radiation / pour evidence run (registered as P-2026-046, RETRACTED and removed 2026-07-14)
-
-**What it claimed:** that the white-hole pour's settling left extra dark radiation at
-recombination (coded as N_idr = 0.26, fluid) which would push H₀ toward 73 — launched as a
-SH0ES-anchored PolyChord evidence run.
-
-**Why it died:** the 0.26 was a hand-picked, θ_s-only-validated value, never derived. When the
-birth-ramp radiation was actually DERIVED from the model, it gives ΔN_eff(recombination) ~
-10⁻³, not 0.26 — the dCDF's radiation-like phase ends at z_on ~ 3.6×10⁷ (the H=m onset) and is
-dust by recombination, thirty thousand-fold of expansion earlier. The hand-picked 0.26 was
-~250× the model's own registered value, and it poisoned the CMB by ~6000 χ² (isolation test at
-a fixed point: Planck TTTEEE 2270 → 5698 with the component on; ΛCDM floor on the identical
-stack = 3029, measured). The evidence run was killed.
-
-**The verdict:** the H0=73-via-birth-ramp mechanism is falsified by the model's own physics.
-The model's honest H₀ stays 69.9 (the ε/varying-mₑ mechanism); the gap to SH0ES's 73 is open
-and owned, not closed. **What survives (untouched):** the white-hole genesis story, the
-settling, Λ = the frozen residual, DM = the ash — none depend on recombination-era radiation;
-the birth-ramp radiation was a separate bolted-on H₀ booster. The pour STORY stands; only this
-radiation-for-H0 evidence-run claim is dead. Root cause: a knob substituted for a prediction,
-run in an evidence chain before being derived — the sharpest form of the fudge-in-a-fit error.
-
-### P-2026-011 (the lepton/hadron varying-constant hierarchy) — RETRACTED 2026-07-08
-
-**What it claimed:** a flavor-structured varying-constant shift — leptons shifting ~13× more
-than hadrons, driven by EM self-energy.
-
-**Why it died:** a flavor-structured shift requires the dark medium to reach the Higgs/EM
-sector *non-gravitationally* — a portal the coupling census forbids. The census-legal
-coupling is a UNIVERSAL conformal (metric) rescaling: it shifts the electron mass, quark
-mass, and Higgs VEV by the same fraction, through the metric, with no portal. Under that
-reading all masses shift equally — there is no lepton/hadron hierarchy.
-
-**The verdict:** the distinctive lepton-heavy signature is withdrawn; the model predicts
-UNIVERSAL varying-constants (cleaner and more standard than the flavored version). P-011
-would only survive if the model relaxed the census to admit a Higgs/EM portal — not the
-leading reading. The deuterium heal (a universal small shift at BBN) rides the same single
-coupling as the electron-mass shift.
 
 ## Birefringence — the dead ends, and why they map the dark sector's touch on gravity
 
