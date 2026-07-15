@@ -6817,7 +6817,7 @@ candidate still owes routes to the heavy-analytical tier (lock 6 = the heat kern
 couplings = the threshold corrections), NOT to any chain.** The basement is a reading-and-
 symbolic problem, not a sampling one — task #18 needs no CPU, only careful hands.
 
-## ENTRY 185 — THE PAIR SUSCEPTIBILITY, GATE-0 FIRST PASS (the tractable heavy item; graded first-pass, NOT closed): **gate-0's survival relocates from an open threat to a CW-scale consequence — the constituent gap the entry-153 lifeline needed is delivered by the VEV scale, not by tuning**
+## ENTRY 185 — ~~THE PAIR SUSCEPTIBILITY gate-0 first pass~~ **RETRACTED BY ENTRY 186 (two errors: a keV/MeV unit slip + conflating the order-parameter scale with the constituent gap). The favorable verdict below is VOID; the corrected verdict is adverse-relocating.**
 
 *The best-return item from the referee's heavy list that lands to an honest answer in a
 session (the attractor/√N crown deferred to a dedicated expedition — it must not be rushed).
@@ -6843,3 +6843,29 @@ same VEV that sets the electroweak scale. **Gate-0 survival is now a CW-scale co
 not an open kill-risk.** *Honest flag: the close needs the full χ_pair(ω, T) lineshape (the
 onset estimate assumes sharp weight at 2Δ_c; thermal broadening could leak a tail — the
 tail's size is the owed refinement, not claimed here).*
+
+## ENTRY 186 — ENTRY 185 RETRACTED (the operator's "what'd we forget?"): **two errors, favorable direction — the dyad scale does NOT deliver the gate-0 constituent gap; it's a BASEMENT bill, and gate-0's closure relocates there**
+
+**Error 1 — units:** entry 185 wrote the dyad VEV as ~100 MeV. It is **~100 keV** (spine §4:
+v = 81–121 keV; T_c ~ 193 keV) — a factor of 1000, inherited by every downstream number.
+
+**Error 2 — conceptual (the deeper one):** entry 185 set the *constituent gap* = the
+*VEV/order-parameter scale*. **These are different objects** — the VEV is the order
+parameter's magnitude; the constituent gap is what the dyad is *made of*. Equating them
+*begged the entire gate-0 question*, which is precisely "what are the dyad's constituents."
+
+**The corrected arithmetic:** with v ~ 100 keV, 2Δ_c ~ 200 keV sits **below** T_BBN's hot end
+(~850 keV) — Boltzmann factor e^{−2v/T} ≈ 0.79, **not suppressed, the pair weight is
+thermally accessible.** The entry-157 bar (≳60 MeV) is **~600× the dyad VEV** — the dyad's
+own scale misses it by nearly three orders.
+
+**CORRECTED VERDICT:** gate-0 is **not closed at the dyad scale.** The ≳60 MeV constituent-gap
+requirement is a **basement statement** — the dyad's constituents must be basement-heavy —
+and the dyad's own ~100 keV scale does not deliver it. **What still stands: entry 153's
+compositeness + Ginzburg defense** (which never depended on the gap — it rests on the absence
+of a propagating amplitude mode above T_c, BCS-class). **What changes: the gap refinement
+that entry 157 flagged and entry 185 falsely closed is now a REGISTERED BASEMENT BILL — the
+seventh item on the basement roster's tab: the dyad's constituents gapped ≳60 MeV.** Gate-0
+survives on the 153 defense; its full closure waits on the basement, exactly like the six
+locks. *Favorable-artifact class; caught by the operator; the pattern holds — the discipline
+collapses toward "clean" when I want the item off the board.*
