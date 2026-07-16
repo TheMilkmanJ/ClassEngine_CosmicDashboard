@@ -284,7 +284,7 @@ the fixed point drifts and c runs slightly ABOVE 1 — consistent with the resul
 
 The gate-0 radiation-phase escape needs the dyad condensate DISORDERED at BBN (T~MeV) and
 CONDENSED at recomb (T~eV) — i.e. condensation temperature **T_c in (0.26 eV, 1 MeV)**, anywhere
-in the keV decade. internal review killed this by asserting T_c ~ VEV ~ soft mass ~ TeV → condensed
+in the keV decade. An earlier objection killed this by asserting T_c ~ VEV ~ soft mass ~ TeV → condensed
 at BBN → loud. That assumed the naive ghost-condensate scale M ~ VEV.
 
 **The #17 conformal origin says otherwise.** The w=1/3 "radiation youth" is a scale-invariant
@@ -298,4 +298,4 @@ dyad·m_e 6.3, α·m_e 3.7 keV) sits in-window — the escape is robust to the c
 **STATUS: DEFUSES, does not clear.** The geometric-mean is the standard conformal-window heuristic,
 not a proof that condensation picks that rung rather than the VEV (loud) or the IR floor (too cold).
 So gate-0 moves from "dead on the TeV soft mass" → "escape physical-but-unproven, pending #17
-deciding the condensate rung." Booked to internal review. NOT recorded (Pinning Rule).
+deciding the condensate rung." NOT recorded (Pinning Rule).

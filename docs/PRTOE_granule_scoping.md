@@ -121,7 +121,7 @@ change since ψ and χ share m and couple only through gravity):
  target: whether stream heating adds an independent S readout.
 
 Deliverable per run: S_measured, τ_condense(ψ,χ), core-halo offset.
-Kill condition (binding, from the internal review): if sims show granule
+Kill condition (binding): if sims show granule
 observables CANNOT separate S = 0.58 from 1 at population scale, ε is
 unobservable, full stop, and the dice edifice is physics without a
 readout.

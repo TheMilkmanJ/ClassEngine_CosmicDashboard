@@ -7,7 +7,7 @@
 claim that this map, once built, IS the local-to-atomic map. Verified structurally: the descent
 crosses exactly ONE boundary (the medium's coherence hinge at ξ = 402 AU), below which every
 rung repeats one relationship. Companion to the transaction map. Status: STRUCTURAL
-(organizing + one computed column + one hinge fact). Booked internal review.*
+(organizing + one computed column + one hinge fact).*
 
 ## 0. The one column that spans everything
 

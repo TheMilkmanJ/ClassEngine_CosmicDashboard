@@ -378,7 +378,7 @@ $$\mathcal{L}_{\text{PRTOE}} = \mathcal{L}_{\text{DHOST}}^{(2)} + \mathcal{L}_{m
 
 ### Contact
 - **Author:** Justin Ryan Pulford
-- **Review Status:** Addressing internal review Review Findings (2026-06-28)
+- **Review Status:** internal validation (2026-06-28)
 - **Branch:** `coderabbit-review-2`
 
 ### References

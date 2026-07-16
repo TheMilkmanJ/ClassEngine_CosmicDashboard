@@ -19,7 +19,7 @@ and eternal-inflation's multiverse.
  the singularity) — causal contact is inherited from the previous cycle. No superluminal
  trick needed; the sky is one temperature because it has always been one system.
 - **Flatness/geometry**: the compact flat torus is the model's standing geometry (the omk
- run: curvature offered, declined — internal review); geometry is inherited through the bounce,
+ run: curvature offered, declined); geometry is inherited through the bounce,
  not driven flat.
 - **Relics**: no GUT phase transition is invoked → no monopole problem to dilute. The one
  topological object (the winding) is not a relic problem — it is the GENOME, and its

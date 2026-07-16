@@ -4,7 +4,7 @@
 
 
 *Author-directed: the full bracket, from BEFORE particles down through every graded thread.
-Roots at the top; every branch cites its ledger object. Booked internal review.*
+Roots at the top; every branch cites its ledger object.*
 
 ```
  THE ZERO-POINT VACUUM (the choice-free start)

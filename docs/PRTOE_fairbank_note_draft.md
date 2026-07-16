@@ -58,8 +58,8 @@ cosmologically foreclosed.
  number wrong collapses the model's own evidence.
 - **Validation**: exact ΛCDM null test (5-decimal reproduction), gauge invariance,
  precision-stability battery — committed.
-- **Internal review**: a continuous in-repo adversarial review record (500+ entries),
- with a maintained audit trail. The deepest structural claim — the medium's reality —
+- **Internal validation**: a continuous in-repo adversarial review with a maintained
+ audit trail. The deepest structural claim — the medium's reality —
  is tracked as an open assumption, not asserted. Entry points for a technical reader:
  THREE_EQUATIONS, DEPENDENCY_TREE, PREREGISTERED_PREDICTIONS (40+ numbered bets),
  FAILURES_LEDGER.

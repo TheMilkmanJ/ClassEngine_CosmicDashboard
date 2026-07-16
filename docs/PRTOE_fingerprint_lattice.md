@@ -19,7 +19,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c c
 |---|---|---|
 | CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund | the signed ~1.9σ bet; radio-arbitrated |
-| BBN: Y_p | windowed (ε OFF at freeze-out): +1.1% → +1.3σ COUNTER | the reversed row (internal review; was briefly ‘the medicine’) |
+| BBN: Y_p | windowed (ε OFF at freeze-out): +1.1% → +1.3σ COUNTER | the reversed row (was briefly ‘the medicine’) |
 | BBN: quark-bleed | δm_q = ε full → ~1σ D/H nudge | credited side-prediction |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
 | the radio bands | +2 : +1 : −1 : −1 : −2, ratio-locked | threads 12; P-022/P-027/P-029 |
@@ -30,7 +30,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c c
 ## 1. What makes this an improvement rather than a list
 
 Standard cosmology's anomalies are ORPHANS — each tension gets its own bespoke model, each
-null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H₀ engages Y_p through its window (the windowed verdict: a +1.3σ counter-lean, honestly owned — the early "lowers Y_p" reading was reversed by internal review), must de-bias Σm_ν upward (it does, in-house), must widen D/H
+null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H₀ engages Y_p through its window (the windowed verdict: a +1.3σ counter-lean, honestly owned — the early "lowers Y_p" reading was reversed), must de-bias Σm_ν upward (it does, in-house), must widen D/H
 (it did — owned as a bet, not hidden), must chord the radio bands at fixed ratios, must point
 one axis, and must never touch Koide or a haloscope. **Any single row failing at its assigned
 weight kills the lever for every row.** No other framework on the market submits to a

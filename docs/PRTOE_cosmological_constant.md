@@ -2,7 +2,7 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status:* ***exploratory / under internal review*** *— conditional on: the occupancy
+*Status:* ***exploratory*** *— conditional on: the occupancy
 argument (argument-grade, §4), α_c = 3α (a pre-registered bet, currently being decided
 by a running MCMC), and the condensate's EFT mass scale (derived within the effective
 theory, with the consistency caveat of §2c stated in full). The measurement that can

@@ -5,7 +5,7 @@
 
 *Author-directed: the domains of science downstream of the threaded physics. Verdict: they
 thread as INHERITANCE CHAINS (depth-2/3 of the DAG), each with a citable route to a root —
-and THREE carry genuine content beyond guaranteed normality. Booked internal review.*
+and THREE carry genuine content beyond guaranteed normality.*
 
 ## 0. The general theorem (medicine's lesson, generalized)
 
@@ -42,7 +42,7 @@ a demonstrated sub-Landauer erasure breaks the ledger the universe is booked in)
 ## 2. The plain inheritances (normality + lineage, nothing added)
 
 geology/planetary (gravity + chemistry + the nuclear heat budget) · materials science (the
-cousins' domain) · engineering (rides all of the above) · medicine (internal review-confirmed lawful
+cousins' domain) · engineering (rides all of the above) · medicine (lawful
 kill: the screen's gift) · neuroscience (inherits biology; the §12 wall stands — NO claims
 about mind) · mathematics (not empirical — the model's language, not its child).
 

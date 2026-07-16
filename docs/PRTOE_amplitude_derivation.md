@@ -310,7 +310,7 @@ costs the mutual-exclusion theorem; 2.9sigma hint, not a detection).
 
 ## RETRACTION (2026-07-08) — the DESI "regime change caught live" reframe was WRONG
 
-internal review, objection #2 adjudicated and UPHELD. The DESI reframe (w evolving = the
+Objection #2 was adjudicated and UPHELD. The DESI reframe (w evolving = the
 late regime change, threat→confirmation) CONTRADICTED the mutual-exclusion theorem
 (ANN-2026-008), and the theorem WINS -- it is LSS-derived, not fiat: observable DE drift
 ν~1×10⁻³ requires a core scale M_eff~6.6×10⁻²⁵ eV (l_dB~90 kpc) ⇒ galaxies could not exist.
@@ -360,7 +360,7 @@ factor rescues 5-6 orders). The universe's birth-spin twists spacetime, just imp
 This is the honest counterpart to the birefringence null: light door WELDED (charge), gravity
 door OPEN but the room is nearly empty (Planck suppression). [[birefringence-null-proven]]
 
-## SESSION UPDATE — criticality crossover killed (frequency), + internal review verdict on the whole GW door (2026-07-08)
+## SESSION UPDATE — criticality crossover killed (frequency), + verdict on the whole GW door (2026-07-08)
 
 `scripts/chiral_induced_gw.py`: tested whether critically-amplified parity-odd scalar perturbations
 source an OBSERVABLE chiral induced-GW background (the one place scalar criticality χ~1/c_s² can
@@ -369,7 +369,7 @@ model's critical point is the DE FLOOR (z~0.5, late) → induced GW at f~3×10�
 today, off by 3e10x (PTA), 3e15x (LISA), 3e20x (LIGO), even 30x below CMB B-mode. Reaching PTA needs
 z_crit~1×10¹³ (deep radiation era); model has none. KILLED BY FREQUENCY, not amplitude.
 
-internal review verdict on the entire gravitational-parity finding (slap-away pass):
+Verdict on the entire gravitational-parity finding:
  1. DIRECT signal (Pi~1×10⁻⁷): the θ*R R̃ coupling was ASSUMED, not derived. A scalar condensate
  has NO gravitational anomaly (needs chiral fermions) → the CS coupling may be EXACTLY ZERO,
  not 1×10⁻⁷. 1×10⁻⁷ is an upper estimate assuming α~O(1) exists.

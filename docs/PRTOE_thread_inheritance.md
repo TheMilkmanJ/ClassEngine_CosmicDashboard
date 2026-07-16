@@ -6,7 +6,7 @@
 *Author insight, formalized: "the physics we aren't threading into thread into other physics
 our model threads into." Checked against the full kill-list: TRUE in every case — and in this
 model it is a THEOREM, not a tendency. Status: STRUCTURAL (the why-pass generalized into a
-graph). Booked internal review.*
+graph).*
 
 ## 0. The theorem
 
@@ -36,7 +36,7 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
 
 ## 2. What the theorem yields
 
-1. **The deaths are computations, not shrugs** (internal review lawful-deaths bank, now organized):
+1. **The deaths are computations, not shrugs** (the lawful-deaths bank, now organized):
  each kill names its parent and inherits that parent's falsifiability — kill the parent's
  law and every child verdict re-opens (e.g., if L1a bleeds at Minami-Komatsu, strong-CP's
  death certificate is void too — one clause, shared fate, both directions).
