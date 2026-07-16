@@ -409,6 +409,6 @@ fuse them:
  parity-odd order (the "A" of He-3-A); cooling reforms it.
 
 **Honest boundary.** The asymmetry-sourcing (chirality → matter) is a **CANDIDATE mechanism being
-chased**, not banked. The DE amplitude does **not** forward-close (hunt entry 189). "Father/mother"
+chased**, not banked. The DE amplitude does **not** forward-close. "Father/mother"
 is flavor: the pour is an *event*, the dyad is a *field*, the baryons are *ordinary matter*, and no
 two of them are the same object.

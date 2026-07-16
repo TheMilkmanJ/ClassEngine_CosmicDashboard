@@ -1,6 +1,6 @@
 # BUILD SPEC — The 2-loop RG-improved V_eff for T_c (the DE-value closer)
 
-> *Commissioned 2026-07-16 (hunt entries 210–214), then EXECUTED (hunt 215).*
+> *Commissioned 2026-07-16, then EXECUTED (hunt 215).*
 
 > **RESULT (hunt 215 — DEFINITE NEGATIVE):** the 2-loop RG-improved V_eff does **NOT pin T_c** — and
 > the answer is robust to the one uncomputed piece (the non-log 2-loop constant c₀). Two facts settle it:

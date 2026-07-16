@@ -51,11 +51,11 @@ three windows through which any condensate is seen.
 ## 4. The one piece of live freight
 
 The trio's thermodynamic door is the thermal program's jurisdiction, so any result on the
-medium's rate side speaks to both floors at once. The standing example (hunt entry 172):
+medium's rate side speaks to both floors at once. The standing example:
 in the deep sub-T_c phonon-gas limit, the medium's **second sound** runs at c₂ = c₁/√3 —
 and with the first sound at √α_c·c and the registered bet α_c = 3α, this lands at
 **c₂ = √α·c ≈ 0.0854c**: the isocurvature (entropy-wave) channel would propagate at √α
-times light *exactly if the bet holds*. Three doors give the bet its full bench (hunt entry 173): the dispersion chain (the mode
+times light *exactly if the bet holds*. Three doors give the bet its full bench: the dispersion chain (the mode
 sector, running), the isocurvature phase speed (the thermal face, awaiting data), and the
 ε-assembly's indirect band (the background fit — already registered at [0.0205, 0.0214],
 2.3% below 3α). **Three instruments, one coupling, none able to cheat for the others** — a
