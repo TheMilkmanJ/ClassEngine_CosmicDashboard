@@ -59,17 +59,20 @@ which infalling matter *enters* the quantum regime.
 
 ## 3. Pillar two: the collapse has a floor — quantum pressure and the quartic
 
-A self-interacting condensate resists compression: gravity is balanced by quantum pressure and
-the quartic repulsion (Colpi–Shapiro–Wasserman class). The maximum mass supportable at finite
-density:
+A condensate resists compression through two effects: quantum pressure (the uncertainty
+principle) and, where the self-coupling is repulsive, the quartic. Quantum pressure *alone* caps
+the equilibrium mass at the Kaup value M_Pl²/m ≈ 4×10⁹ M☉ — **below** the largest known black
+holes (~3×10¹⁰ M☉), so the biggest black holes need the **repulsive amplitude quartic** to lift
+the ceiling (Colpi–Shapiro–Wasserman class):
 
  M_max ≈ 0.062 √λ · M_Pl³/m² = 2.0×10⁵⁶ √λ M☉.
 
-The physical λ is un-pinned (owed), but the margin is so vast that **any λ ≳ 10⁻⁹⁰ supports
-every known black-hole mass** as a finite-density equilibrium. In the Thomas–Fermi regime the
-core radius is mass-independent and the central density scales as ρ_c ∝ M — **finite for all
-astrophysical M**. There is no mass in the observed universe that this medium must crush to a
-point.
+Reaching 3×10¹⁰ M☉ needs only a repulsive λ ≳ 2.3×10⁻⁹² — a threshold so small that any repulsive
+radial self-coupling of the condensate clears it with vast margin. (This is the repulsive
+*amplitude* quartic, distinct from the tiny *attractive* axion/phase coupling that sets the
+isocurvature — §on λ.) In the Thomas–Fermi regime the core radius is mass-independent and the
+central density scales as ρ_c ∝ M — **finite for all astrophysical M**. There is no mass in the
+observed universe that this medium must crush to a point.
 
 ## 4. Pillar three: the Landau ceiling — where the horizon comes from and where the energy goes
 

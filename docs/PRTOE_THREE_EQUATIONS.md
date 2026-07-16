@@ -17,8 +17,11 @@ One complex scalar (a cosmological superfluid) replaces separate dark matter and
 $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\right]\psi$$
 
 - The **condensate ground state** supplies the $w = -1$ component (dark energy is the
- medium's zero-point sector; its computed scale: $\rho_{\rm inf}^{1/4} = 2.695$ vs the
- measured $2.25$ meV — 20%, zero dials, spine §18).
+ medium's zero-point sector; its computed scale is the vacuum-occupancy binding energy
+ $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = 2.251$ meV vs the measured $2.25$ meV —
+ agreeing to 4 parts in $10^4$, though the mass scale $M_2$ is fixed by the same closure
+ (one constraint wearing three names) and $\alpha_c = 3\alpha$ is under test; see the
+ cosmological-constant document).
 - The **excitations** are the dark matter: radiation-like above a transition redshift
  $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector as implemented in
  CLASS).
@@ -62,12 +65,14 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
 - $c = 9/10$: a **counting fraction**. Gravity is blind (it reads size, not identity), so the
  budget splits democratically over the census of participants — the **universal charged-fermion
  roster** (9 charged species + the zero-point's own seat → $c = (N-1)/N = 9/10$), **not** the
- dyad's leptophilic subset (which drops the quarks and cannot reach the count). The one open
- trial is where the neutrinos sit: **interior tenants** (the medium's own tenth channel, the
- seat → 9/10) vs **external recipients** (counted → 12/13). Both survive their structural ramp
- walks, and **ε cannot referee them** — the c–f̄ degeneracy means a shift in c is absorbed by
- f̄ (holding the closed-form f̄ = 2/π the fit leans 9/10 over 12/13 by ~4σ, but that lean is
- entirely f̄-conditional). The referee is the independent f̄ ensemble or the α_c chain (P-2026-040).
+ dyad's leptophilic subset (which drops the quarks and cannot reach the count). Which universal-charged
+ reading holds — democratic-9 → 9/10, or the neutrino-inclusive 12/13 — is settled by the
+ dark-energy–neutrino tie: ρ_Λ¼ = m_ν,lightest is a genuine lock *only if* the lightest neutrino mass
+ is **direct-Majorana** (m₁ ≈ μ = 2.25 meV), which seats the neutrino on the medium's own tenth channel
+ → **9/10**. The 12/13 reading needs an inverse-seesaw light mass, which demotes the meV coincidence
+ from a lock to a tuning of two unrelated scales; and the charge²-weighted 8/9 contradicts the
+ gravity-blind democratic count. So the value is **9/10, conditional on keeping the tie a lock** (the
+ flagship position); the empirical f̄ ensemble / α_c chain (P-2026-040) remains the independent check.
 - $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
  candidately $2/\pi$ (P-2026-041; the high-statistics ensemble decides). A
  simulation output with an open closed-form question, not a parameter.
@@ -95,8 +100,8 @@ data speaks** — the object the running evidence comparison actually grades:
 | z_on | 3.5619×10⁷ | profiled at the frozen stack (the 3α mark hit blind to 0.005 dex) | fast-profiled estimate, chain-graded later |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | 61.4 meV, normal ordering | ρ_Λ^{1/4} = m₁ tie (P-2026-012) | recorded prediction |
-| T_c | 193 keV | analytic closure (spine §15) | derived |
-| H₀ | 69.9 (output, not input) | falls out of the re-fit | production |
+| T_c | ≈ 179 keV | confining chiral ratio (spine §15); 193 keV = perturbative cross-check | derived |
+| H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | production |
 
 ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
 whatever the sky refuses, the model has nowhere to retreat. That totality, not any

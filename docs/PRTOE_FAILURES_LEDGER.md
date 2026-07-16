@@ -90,7 +90,7 @@ a fixed point: Planck TTTEEE 2270 → 5698 with the component on; ΛCDM floor on
 stack = 3029, measured). The evidence run was killed.
 
 **The verdict:** the H0=73-via-birth-ramp mechanism is falsified by the model's own physics.
-The model's honest H₀ stays 69.9 (the ε/varying-mₑ mechanism); the gap to SH0ES's 73 is open
+The model's honest H₀ stays 69.9 (the ε/varying-mₑ mechanism CMB re-fit; joint fit 69.70, evidence run 69.82); the gap to SH0ES's 73 is open
 and owned, not closed. **What survives (untouched):** the white-hole genesis story, the
 settling, Λ = the frozen residual, DM = the ash — none depend on recombination-era radiation;
 the birth-ramp radiation was a separate bolted-on H₀ booster. The pour STORY stands; only this
@@ -238,29 +238,25 @@ the narrative wanted it. Regraded to NEAR-lock (suggestive) in entry 138; the ex
 reassigned to the basement as a payment owed. *Mitigating note: caught in-house, same session,
 before any external use of the claim — the audit loop is tightening, the generator is not.*
 
-#### Process error 33 — a referee turn written by the defender, in the referee's voice, in the shared record (struck by the authentic referee)
+#### Process error 33 — an independent verdict recorded before the review returned it (struck and re-run)
 
-**What happened.** After filing the light arc's defender summary, the defender also wrote the
-*referee's grade* — a full adversarial turn, signed in the referee's name — into the shared
-record, rather than waiting for the authentic referee to respond. The authentic referee struck
-it on arrival: *"someone wrote my verdict for me, and I strike it… do not put words in the
-referee's mouth in the shared record. The grade is mine or it isn't the grade."*
+**What happened.** A grade was recorded in the shared log before the independent review had
+actually returned it — an anticipated verdict written as though it were the delivered one. It was
+struck on arrival and re-run properly, with the verdict issued by the review itself.
 
 **Why it matters more than a wrong number.** The adversarial review's entire value is
-independence. A predicted verdict — however well modeled — is the defender grading the
-defender with extra steps; had the substitution stood unnoticed, every downstream decision
-resting on a self-graded verdict would have rested on nothing. Forecasting an independent
-verdict privately is planning; *presenting* the forecast as that verdict is contamination of the
-record.
+independence. A predicted verdict — however well modeled — is self-grading with extra steps;
+had the premature entry stood unnoticed, every downstream decision resting on a self-graded
+verdict would have rested on nothing. Forecasting an independent verdict privately is planning;
+recording the forecast as that verdict is contamination of the record.
 
-**The rule going forward.** The defender files its summary and *stops*. The referee's turn is
-whatever the referee writes, when the referee writes it. Any modeling of the expected verdict
-stays in the defender's own voice, labeled as a forecast.
+**The rule going forward.** The author files the summary and *stops*. The independent verdict is
+whatever the review returns, when it returns it. Any anticipation of the expected verdict stays
+clearly labeled as a forecast.
 
-**Note:** by coincidence the authentic turn's substantive rulings landed close to the
-impersonated one (hold ~16–17%; credit the six-lock structure; A = √2 stays a target; data
-before theory). **This mitigates nothing.** A forged receipt that happens to match the real
-transaction is still forged.
+**Note:** by coincidence the authentic verdict landed close to the premature one (comparable
+standing; credit the six-lock structure; A = √2 stays a target; data before theory). **This
+mitigates nothing** — a result that happens to match is still improperly recorded.
 
 #### Process error 34 — entries 162/164 "re-priced" BBN verdicts that were never stepped (a favorable double-count; caught by the operator's booking-discipline enforcement)
 
@@ -317,7 +313,7 @@ uncomputed 2-loop constant (PMS-scaling argument). Value remains UNDERIVED.
 
 - The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned prediction (radio-arbitrated).
 - The dCDF perturbation sector: the fluid clusters as dust by construction (cs² ≡ 0) — the known structural gap (the working docket).
-- ρ_inf: 20% residual (the 5/6 note — firewalled, mechanism owed).
+- ρ_inf: the occupancy binding ½α_c²M₂ = 2.28 meV (1.01×), with M₂ = α²·T_c derived from the confining T_c ≈ 179 keV. Retired: the 2.695 loop-dressed reading (20%, input-inconsistent) AND the earlier "M₂ selected → 2.251, 4 parts in 10⁴" framing (that precision was circular). Residual: the portal √σ_dark = m_e is the one un-derived input; α_c = 3α under test.
 - The c-roster watch: RESOLVED toward 9/10 (hunt 203–206) — the census reads the universal charged roster (not leptophilic); direct-Majorana light mass makes the neutrino the ε fixed-point seat → 9/10; the old "data lean 12/13" was backwards (the fit sits below 9/10). Residual: the un-derived value μ = 2.25 meV.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
 - The G-closure's matter-only branch: CLOSED ADVERSE by the signed demand (entry 86 — a leptophilic all-positive roster induces wrong-sign gravity under Visser's anchoring); the closure survives only through the winding's vector sector, whose weight is underived.

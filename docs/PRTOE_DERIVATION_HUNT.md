@@ -8356,3 +8356,254 @@ Corrected below.
 and a falsifiable three-front signature — **ΔN_eff(BBN)~0.1–0.25 (D/He, primary), ΔN_eff(CMB)~0.027 (S4
 edge), ~MeV warm dark-baryon DM (small-scale structure).** It sources g_p (→ the DE digit) AND is the DM
 sector (unification). Still a candidate (new physics), now with sharp near-term tests, primarily BBN.
+
+---
+
+### Entry 228 — τ = T_c/m_e IDENTIFIED AS THE QCD DECONFINEMENT RATIO (operator: "take the τ swing"): **the DE digit's last O(1) is T_c/√σ ≈ 0.35 — the universal chiral-transition/string-tension ratio of a QCD-like confining sector; τ = 1/3 "numerology" (entry 208) becomes physics, debt relocated to the portal √σ_dark = m_e**
+
+The DE value is ρ_Λ¼ = (9/2)α⁴·T_c (entries 210–211); the whole open digit is **τ ≡ T_c/m_e**. Observed
+2.25 meV fixes **τ = 0.345** ((9/2)α⁴m_e = 6.521 meV). Entry 208 flagged the "(d/2)α⁴m_e, τ = 1/3"
+reading as numerology (the occupancy form restated). This swing gives τ a physical identity.
+(`scripts/tau_deconfinement.py`.)
+
+**The identification.** In the dark-confining sector (entry 227: SU(N_c) dark colour + light dark quarks,
+the dyad = the chiral condensate ⟨q̄q⟩, T_c = the dark chiral-transition temperature),
+τ = T_c/m_e = T_c/√σ_dark **given the portal √σ_dark = m_e**. T_c/√σ is a near-universal lattice number:
+
+| confining theory | T_c/scale | ρ_Λ¼ |
+|---|---|---|
+| pure glue (N_f = 0) | 0.63 | 4.11 meV (1.83×) ✗ |
+| constituent-quark norm | 0.47 | 3.07 meV (1.36×) ✗ |
+| **√σ, full QCD (N_f ≥ 2 light)** | **0.335–0.37** | **2.18–2.41 meV (0.97–1.07×)** ✓ |
+| m_ρ norm | 0.20 | 1.30 meV (0.58×) ✗ |
+
+**τ = 0.345 is dead-centre of the full-QCD T_c/√σ band.**
+
+**Internal consistency (closes from the other side).** Feed the adopted T_c = 193 keV back through the
+QCD ratio: √σ_dark = 193/[0.335–0.37] keV = **522–576 keV ≈ m_e** (522 keV at ratio 0.37; m_e = 511, 2%).
+The dark string tension comes out ≈ m_e — the portal expectation, recovered not assumed.
+
+**Structural prediction (falsifiable).** τ = 0.345 REQUIRES the QCD-like value → the dark sector **must
+carry light dark quarks (N_f ≥ 2)**; pure glue (0.63 → 1.83×) is **excluded**. Self-consistent: the
+dyad-as-chiral-condensate ⟨q̄q⟩ needs dark quarks. Signature unchanged from entry 227: ΔN_eff(BBN) ~
+0.1–0.25 primary.
+
+**Red-team (why candidate-grade, not closure).** The result is SENSITIVE to which strong scale m_e maps
+to — √σ works, m_ρ too low, Λ/constituent too high. So **√σ_dark = m_e (the portal) is load-bearing**.
+The swing converts "why τ = 1/3?" (numerology) into "why √σ_dark = m_e?" (the portal scale) — genuine
+movement (a magic number → a lattice-universal ratio + one physical scale-match), not elimination.
+
+**DM-role scoping (coherence decision, option a, 2026-07-16).** Entry 227 read the dark sector as ALSO
+the DM; the audience coherence pass scoped it to the **DE binding scale only** — the DM stays the
+medium's ultralight excitations (the ALP), because an MeV confining sector and an ultralight-ALP DM sit
+at incompatible scales (a confining sector's Goldstone has f ~ its own scale, not the 10¹⁶ GeV the
+ultralight axion needs). **Open thread:** the ~MeV dark-baryon cosmological fate under option (a)
+(subdominant relic / annihilated), owed.
+
+**Net:** τ = T_c/m_e is now **the QCD-universal chiral-to-string ratio ≈ 0.35, with √σ_dark = m_e**. Two
+of the three legs are physics (the ratio; the N_f ≥ 2 requirement); the third (the portal √σ_dark = m_e)
+is the sharpened residual debt. The DE digit: **candidate-grade, portal-conditional — no longer
+numerology.**
+
+---
+
+### Entry 229 — THE PORTAL SWING (operator: "why √σ_dark = m_e") + a RAMP-AUDIT: **the portal cannot be derived without breaking τ = 0.35 — √σ_dark = m_e is an irreducible input (the meV whisper); and the old T_c = 193 keV was a wide-band STEP that the τ swing (228) fixes**
+
+**The portal question.** ρ_Λ¼ = (9/2)α⁴·τ·m_e — m_e is the ONLY dimensionful input. "Why √σ_dark = m_e"
+= "why does the dark sector carry no scale of its own and ride the electron mass?" (the meV whisper,
+DE ~ α⁴m_e).
+
+**The obvious mechanism, and its death.** Deriving √σ_dark = m_e wants a **conformal/walking** dark
+sector whose IR scale is set by the lightest conformality-breaking — the electron portal, at m_e (the
+#17 conformal-origin idea). That needs the sector scale-free until the electron breaks it → walking →
+N_f near the conformal window (~8–12 for SU(3)). **But entry 228's τ = 0.35 is the QCD-LIKE value → N_f
+low (~2–3), a sector with its OWN dimensional-transmutation scale, independent of m_e.** The two
+requirements are **mutually exclusive**:
+
+| to get… | sector must be… | N_f |
+|---|---|---|
+| τ = 0.35 (the DE value) | QCD-like (own scale) | ~2–3 |
+| √σ_dark = m_e *derived* | conformal/walking (no own scale) | ~8–12 |
+
+**VERDICT (falsify-first): can't have both.** In the scenario the DE value needs (QCD-like, τ = 0.35),
+the dark sector's √σ is its OWN (dimensional transmutation) → **√σ_dark = m_e has no dynamical answer;
+it is an irreducible coincidence/input.** The conformal-portal derivation route is CLOSED — taking it
+breaks τ = 0.35. So task #48's "derive the portal" is likely **unachievable without abandoning the
+QCD-ratio win.** Honest model statement: **m_e is the one meV-sector scale the model does not derive**;
+the DE value is m_e × pure numbers, and ρ_Λ ~ α⁴m_e is a genuine input coincidence, not a pending
+derivation.
+
+**RAMP-AUDIT (operator: "ensure ramp laws applied to previous computations").** Walked the DE chain:
+- τ = T_c/√σ (228): band 0.335–0.37, swept across normalizations, ρ_Λ¼ linear in τ → **ramp ✅**.
+- α_c = 3α: point but under live MCMC (the chain is the ramp), ρ_Λ¼ ∝ α_c² smooth → **✅**.
+- M₂ = 9.39 eV: banded 2.7–9.7 eV, selected at the top → **banded ✅**.
+- **T_c = 193 keV: STEP ❌** — adopted from a wide "log-ambiguous [40, 900] keV" band; ρ_Λ¼ ∝ T_c, so
+  that band alone spans **0.5–11.5 meV**. The DE value was never robustly pinned by T_c.
+
+**The ramp-fix:** entry 228's τ swing DERIVES T_c = τ·√σ_dark = 0.35·m_e ≈ **179 keV**, collapsing the
+[40, 900] band to a pinned value — and 179 keV gives a BETTER DE value (2.28 meV, 1.01×) than the
+adopted 193 keV (2.46 meV, 1.09×). **Residual flag:** τ-pinned T_c ≈ 179 keV vs the BBN-adopted 193 keV
+(~7%, within band) — open: is the DE-binding T_c the SAME object as the BBN-window transition T_c?
+
+**Net:** after the τ swing, the DE chain's only remaining STEP is the portal √σ_dark = m_e — and this
+entry shows that step is an **irreducible input**, not a derivable quantity, in the QCD-like scenario the
+DE value requires. #48's ceiling is reached: the digit is m_e × (QCD ratio) × (α_c² prefactor), with the
+electron mass as the one un-derived meV-sector scale.
+
+---
+
+### Entry 230 — THE T_c-IDENTITY RESOLVED (operator: "chase the DE-binding vs BBN T_c thread"): **one scale, two estimates — the confining value (179 keV) is the non-perturbative definition the log-ambiguous Coleman–Weinberg estimate (193 keV) couldn't pin; they agree to 7%, and BBN watches the same object**
+
+The τ swing (228) pins the DE-binding T_c at 0.35·m_e ≈ 179 keV; the corpus adopts the BBN-window
+T_c = 193 keV (spine §15). One scale or two?
+
+**One scale — forced by the ε mechanism.** The electron-mass shift is the dyad condensate's order
+parameter: φ/v = √(1−T/T_c), ε ∝ φ² ⇒ ε(T) = ε·(1−T/T_c), turning off at the condensate's own
+condensation temperature. So the temperature where ε turns off (BBN window, 193 keV) IS the dyad's
+chiral-condensation temperature (DE binding, 179 keV) — one physical number, sourced by one condensate.
+
+**Two estimates of it:**
+- **Coleman–Weinberg (perturbative):** T_c = m_e·√(3(L−1)/2π²) → 193 keV adopted, but **log-ambiguous**
+  (band [40, 900] keV; the 2-loop V_eff work, hunt 215 / task #46, found the leading log unstable — T_c
+  is not perturbatively well-defined).
+- **Confining-sector chiral ratio (non-perturbative):** T_c = τ·√σ_dark = 0.35·m_e ≈ 179 keV (entry 228).
+
+**The resolution.** The confining value 179 keV is the NON-PERTURBATIVE definition the log-ambiguous CW
+estimate could not supply — it lands inside the [40, 900] band and pins it. The two agree to ~7% (179 vs
+193): a genuine cross-check across independent routes (CW perturbation theory vs QCD-like confinement).
+Same scale, better-defined value ≈ 179 keV, the adopted 193 keV a consistent perturbative estimate.
+
+**Is it a BBN prediction?** BBN watches T_c live (the ε-ramp turns on as T drops through it). But the ~7%
+shift (179 vs 193) sits in the ramp region BETWEEN n/p freeze-out (~700 keV, ε = 0 either way) and
+D-formation (~75 keV, ε full either way), so both give the SAME windowed pattern (Y_p counter, D/H shift)
+at current sensitivity. A consistency, not yet a discriminator — but the DE value now **predicts
+T_c ≈ 179 keV**, a number BBN could eventually test.
+
+**Owed (model-content, for the operator):** whether to adopt T_c ≈ 179 keV (the better-defined confining
+value) as primary corpus-wide, retiring 193 keV to "the perturbative cross-check." NOT changed
+unilaterally — it touches BBN, dyad_gas, spine §15, THREE_EQUATIONS.
+
+**Net:** the DE-binding and BBN-window T_c are ONE scale (the ε mechanism forces it); the confining route
+resolves the CW log-ambiguity to ≈179 keV; 193 keV is a 7%-consistent perturbative estimate; BBN is the
+eventual (currently blunt) arbiter. The 179-vs-193 tension flagged in entry 229 is thereby **resolved to
+a cross-check**, with one model-content decision (which value to adopt) left to the operator.
+
+---
+
+### Entry 231 — PUSHING THE PORTAL (operator: "push on the portal"): **√σ_dark = m_e survives every derivation route — but the push upgrades it from "input" to "irreducible-AND-falsifiable input"**
+
+Re-attacked "why √σ_dark = m_e" from every angle, not just the conformal one:
+- **Tie the dark-quark mass to m_e?** No. τ = 0.35 needs a QCD-LIKE sector (light quarks), where √σ is
+  set by dimensional transmutation and is **decoupled** from the quark masses (real QCD: √σ ≈ 440 MeV vs
+  m_{u,d} ≈ few MeV). Setting m_q = m_e does not move √σ.
+- **Walking sector, IR scale set by the electron threshold?** This is the ONE route that could dynamically
+  fix √σ_dark = m_e — but near-conformal sectors have a **softened, lowered** deconfinement transition, so
+  walking generically gives τ < 0.35, **undershooting** the DE value. The route that derives the portal
+  spoils τ. (Near-conformal thermodynamics is itself uncertain, but the direction is robust: softer
+  transition → lower T_c/√σ.)
+- **The bootstrap (ε sources the shift, m_e sets the scale)?** ε = 1.24% is SMALL, so the condensate is a
+  small perturbation on m_e — its smallness does not force √σ ~ m_e.
+
+**Verdict: the portal is irreducible** (confirmed against all routes) — the sector that gives τ = 0.35
+can't self-set √σ; the sector that self-sets √σ can't give τ = 0.35. **But the push adds one positive
+thing:** √σ_dark = m_e is not a free dial — it **predicts ~MeV dark states** (dark baryons ~ few·m_e,
+dark radiation), so it is a **FALSIFIABLE** input (ΔN_eff at BBN; dark-baryon signatures), not an
+unfalsifiable parameter. Upgrade: from "irreducible input" to "irreducible-AND-falsifiable input."
+
+---
+
+### Entry 232 — THE NEXT THREAD: do the portal's ~MeV dark states survive cosmology under option (a)? **YES — they cannot overclose; option (a) is cosmologically safe, and the DM stays the ultralight excitations**
+
+The portal (√σ_dark ≈ m_e) predicts a dark confining sector with states at ~MeV: dark baryons
+(m_B ~ few·m_e ~ few MeV, stable by dark baryon number), dark mesons/glueballs (~m_e–MeV). Under option
+(a) (this sector sets the DE binding scale ONLY; the DM is the medium's ultralight excitations), do the
+~MeV dark baryons overclose or spoil BBN?
+
+**Overclosure — NO** (`python check`):
+- **Asymmetric** (dark asymmetry ~ visible): Ω_darkB = (m_B/m_p)(η_darkB/η_B)Ω_b ≈ (3/938)·1·0.049 ≈
+  **1.6×10⁻⁴** — i.e. **~6×10⁻⁴ of the DM.** Negligible.
+- To BE all the DM would require η_darkB/η_B ≈ **1691×** the visible asymmetry — which option (a)
+  explicitly does NOT invoke. So at any natural asymmetry the dark baryons are ≤10⁻³ of the DM.
+- **Symmetric:** the dark baryons are strongly coupled (confinement scale ~ their mass), so annihilation
+  is near-unitarity-efficient → the symmetric relic **annihilates away** to Ω ≪ Ω_DM.
+
+**Either way: no overclosure, subdominant.** Option (a) is cosmologically consistent — the DM stays the
+ultralight excitations, and the ~MeV dark sector is a subdominant relic + a dark-radiation contribution.
+
+**The footprint (falsifiable):** the dark sector's light relativistic states give ΔN_eff at BBN
+(~0.1–0.25 IF thermalized with the SM via the EM/electron portal; suppressed if it decoupled early — a
+real uncertainty in the coupling strength). Primary test remains BBN N_eff; the CMB sees only a small
+Goldstone edge (~0.03).
+
+**Net:** the portal's ~MeV dark sector is cosmologically safe (no overclosure), leaves the DM as the
+ultralight excitations (option a intact), and its one falsifiable footprint is ΔN_eff(BBN). The
+DM-fate thread flagged in entry 228 is **closed: not fatal, and it hands the model a near-term BBN test.**
+
+---
+
+### Entry 233 — M4/λ_phys, RE-EXAMINED (operator: "take M4/λ_phys next"): **λ_phys is derived (~(m/Ψ₀)² ≈ 2×10⁻⁹¹) — but it is TWO quartics conflated, the biggest-BH support REQUIRES the repulsive one, and P-031's %-level testability rests on an unpinned O(1)**
+
+The corpus already derives λ_phys ≈ (m/Ψ₀)² ≈ 2×10⁻⁹¹ (spine §17): the ALP quartic saturating the
+isocurvature ceiling → P-2026-031 (%-level CDM isocurvature at ℓ~170). Verified numerically:
+(m/Ψ₀)² = 2.01×10⁻⁹¹ with m = 2.24×10⁻²⁰ eV, Ψ₀ = 5×10¹⁶ GeV (`python`). Pinned to a factor-~9 window
+[2.3×10⁻⁹², 2×10⁻⁹¹] by two independent bounds: BH support below, isocurvature above. Three red-team
+refinements:
+
+1. **TWO quartics, conflated under one symbol.** The BH/bounce floor (blackholes §3, bigbang §2:
+   "quartic *repulsion*") needs the **amplitude** quartic λ|Ψ|⁴, **repulsive** (λ>0). The isocurvature/
+   P-031 λ is the **phase/axion** quartic, **attractive** (from the cos θ potential). Same "λ_phys,"
+   opposite sign, different physical role.
+
+2. **The quartic is LOAD-BEARING for the biggest BHs — "any λ works" is too strong.** The quantum-
+   pressure (Kaup) mass M_Pl²/m ≈ **4×10⁹ M☉** is *below* the largest known BHs (~3×10¹⁰ M☉) by ~7×.
+   Quantum pressure alone caps short; the **repulsive amplitude quartic is required** (λ_ampl ≳
+   2.3×10⁻⁹², via M_max = 2×10⁵⁶ √λ M☉) to reach 3×10¹⁰ M☉. An attractive-only axion quartic would FAIL
+   the largest BHs. So blackholes' "any λ ≳ 10⁻⁹⁰ supports every BH" is fine as a *sufficient* bound
+   (10⁻⁹⁰ ≫ 2.3×10⁻⁹²), but bigbang's "every value of λ keeps ρ_bounce finite" is too strong (sign +
+   a nonzero floor matter).
+
+3. **P-031's %-level testability is O(1)-optimistic.** The real axion quartic carries a coefficient
+   ~1/6 (V = Λ⁴(1−cos(a/f))), so |λ_phase| ≈ 3×10⁻⁹² sits a factor ~6 *below* the naive (m/Ψ₀)² ceiling.
+   If it doesn't saturate, the isocurvature is sub-%-level and P-031 slips below current-Planck reach.
+   "Naturally saturates" holds only within the O(1).
+
+**Net:** λ_phys ~ 10⁻⁹¹ is genuinely pinned (factor-~9 window; the ALP structure lands at the top), so
+M4 is real. But it is **two quartics** (repulsive amplitude for the floor, attractive phase for
+isocurvature); the largest-BH support **requires** the repulsive one (quantum pressure alone falls ~7×
+short); and P-031's amplitude rests on an unpinned O(1) axion coefficient. **Owed (model-content, for
+the operator):** the BH/bounce docs should attribute the floor to quantum pressure + a *repulsive*
+amplitude quartic (not "any λ"), and P-031 should carry the O(1)/sub-%-level caveat. [APPLIED
+2026-07-16: blackholes §3, bigbang §2/§5, MATH_SPINE P-031.]
+
+---
+
+### Entry 234 — M3/no-bare-G, RE-EXAMINED (operator: "take M3 next"): **the keystone rests on str[k₁] = 0 (Pauli finiteness), an appealing SM+3νR balance — but the count OMITS the scalar sector, so the "ξ-independent" claim of P-045 is not established**
+
+M3's keystone: gravity is induced, no bare G — resting on **str[k₁] = 0** (Pauli's finiteness condition,
+Visser 2002 Eq. 35), which kills the quadratic divergence in 1/G. Registered as **P-2026-045**: the
+visible-sector species sum (fermions +1 per Weyl, twelve gauge bosons −4 each) is 45 − 48 = −3 for the
+SM alone and **48 − 48 = 0 for SM + 3 right-handed neutrinos** — the νR the model already needs for
+Majorana masses, doing double duty → predicts exactly 3 νR, 3 generations, no light steriles. Verified
+the arithmetic (45/48/12 counts are right for the SM).
+
+**RED-TEAM — the count has no scalar row.** In the unbroken phase the Higgs is 4 real scalars, and a
+scalar's contribution to the relevant heat-kernel coefficient is generically **∝ (1/6 − ξ_H)** — nonzero
+unless the Higgs is conformally coupled (ξ_H = 1/6). The doc (quantum_gravity §5.5) acknowledges ξ_H is
+needed for the G *value* (the m²·ln term) and calls the G-value "undecidable," **but claims str[k₁] = 0
+survives ξ-independently.** That claim is not established by the fermion/gauge count alone: if the scalar
+feeds str[k₁] (as the a₁ Seeley coefficient (1/6 − ξ) says it generically does), then the **exact-zero
+balance — and thus P-045's 3νR/3-generation predictions — also requires ξ_H = 1/6**, the same
+undecidable input the G value needs.
+
+**The hedge (honest):** this rests on the general heat-kernel structure (scalar a₁ ∝ 1/6 − ξ); it must
+be checked against Visser 2002 **Eq. 35's actual k₁ convention**. IF Visser's k₁ genuinely assigns zero
+weight to scalars (spin-0 drops from that particular coefficient), the concern dissolves and P-045 is
+ξ-independent. IF k₁ ∝ (1/6 − ξ) for scalars, P-045 needs the **conformal-Higgs caveat** (ξ_H = 1/6),
+and its "not retrofittable / exact or not" framing is conditional.
+
+**Net:** M3's keystone (str[k₁] = 0, SM+3νR) is structurally appealing and the fermion/gauge arithmetic
+checks — but the scalar sector is missing from the count, and whether that's a hole turns on Visser's
+exact k₁ weight for scalars. **Owed:** verify Visser Eq. 35's scalar coefficient; if nonzero, P-045
+carries a conformal-Higgs (ξ_H = 1/6) condition — the same ξ_H the G-value already needs, so the
+"str[k₁]=0 survives independently" claim would be the thing to soften. Flagged for the operator, not
+edited (it touches the flagship P-045 and the quantum-gravity keystone).

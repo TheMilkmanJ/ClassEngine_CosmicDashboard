@@ -33,9 +33,10 @@ The floor is not a constant that matter happens to dilute past — the late era 
 
 - ΛCDM: the coincidence is unaddressable in principle (Λ is an input).
 - Quintessence trackers: address it with a designed potential (a dial doing the work).
-- This model: the timing follows from √3 (derived), A_s (measured), and ρ_inf (derived at
- 20%) — **no dial whose job is the coincidence**. The residual honesty: the floor VALUE's 20%
- and the thaw's branching O(1) (the working docket: thaw = √3·B, B ∈ [0,1]) propagate into the timing's
+- This model: the timing follows from √3 (derived), A_s (measured), and ρ_inf (the occupancy
+ binding ½α_c²M₂ = 2.28 meV) — **no dial whose job is the coincidence**. The residual honesty: the
+ floor VALUE rests on M₂ being selected by the same closure (one constraint, three names) and on
+ α_c = 3α, and the thaw's branching O(1) (the working docket: thaw = √3·B, B ∈ [0,1]) propagate into the timing's
  precision; and the cyclic frame re-poses the question at the chain level (why THIS cycle? —
  answered by the bookkeeping's early-cycle lean, recorded).
 

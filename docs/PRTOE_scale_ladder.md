@@ -24,7 +24,7 @@ the cosmic coupling for the universe):
 | planet orbit | 1 AU | 1.0×10⁻⁴ | 5×10⁻⁹ | one-cell |
 | **ATOM** (hydrogen) | 0.05 nm | 1/137 | 2.7×10⁻⁵ | one-cell |
 
-Check: the universe rung's column value (E_b/M₂ = 2.25 meV/9.87 eV = 2.28×10⁻⁴) equals its
+Check: the universe rung's column value (E_b/M₂ = 2.28 meV/9.53 eV = 2.39×10⁻⁴) equals its
 ½α_c² (2.29×10⁻⁴) — the derived rung sits ON its own skeleton. The ladder's surprise ordering:
 **the universe is the most tightly bound structure in existence per unit mass** (2.3×10⁻⁴),
 ahead of the atom (2.7×10⁻⁵); gravity's rungs are the loose ones.
