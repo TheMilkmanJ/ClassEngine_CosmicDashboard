@@ -8572,5 +8572,38 @@ M4 is real. But it is **two quartics** (repulsive amplitude for the floor, attra
 isocurvature); the largest-BH support **requires** the repulsive one (quantum pressure alone falls ~7×
 short); and P-031's amplitude rests on an unpinned O(1) axion coefficient. **Owed (model-content, for
 the operator):** the BH/bounce docs should attribute the floor to quantum pressure + a *repulsive*
-amplitude quartic (not "any λ"), and P-031 should carry the O(1)/sub-%-level caveat. Flagged, not
-edited unilaterally.
+amplitude quartic (not "any λ"), and P-031 should carry the O(1)/sub-%-level caveat. [APPLIED
+2026-07-16: blackholes §3, bigbang §2/§5, MATH_SPINE P-031.]
+
+---
+
+### Entry 234 — M3/no-bare-G, RE-EXAMINED (operator: "take M3 next"): **the keystone rests on str[k₁] = 0 (Pauli finiteness), an appealing SM+3νR balance — but the count OMITS the scalar sector, so the "ξ-independent" claim of P-045 is not established**
+
+M3's keystone: gravity is induced, no bare G — resting on **str[k₁] = 0** (Pauli's finiteness condition,
+Visser 2002 Eq. 35), which kills the quadratic divergence in 1/G. Registered as **P-2026-045**: the
+visible-sector species sum (fermions +1 per Weyl, twelve gauge bosons −4 each) is 45 − 48 = −3 for the
+SM alone and **48 − 48 = 0 for SM + 3 right-handed neutrinos** — the νR the model already needs for
+Majorana masses, doing double duty → predicts exactly 3 νR, 3 generations, no light steriles. Verified
+the arithmetic (45/48/12 counts are right for the SM).
+
+**RED-TEAM — the count has no scalar row.** In the unbroken phase the Higgs is 4 real scalars, and a
+scalar's contribution to the relevant heat-kernel coefficient is generically **∝ (1/6 − ξ_H)** — nonzero
+unless the Higgs is conformally coupled (ξ_H = 1/6). The doc (quantum_gravity §5.5) acknowledges ξ_H is
+needed for the G *value* (the m²·ln term) and calls the G-value "undecidable," **but claims str[k₁] = 0
+survives ξ-independently.** That claim is not established by the fermion/gauge count alone: if the scalar
+feeds str[k₁] (as the a₁ Seeley coefficient (1/6 − ξ) says it generically does), then the **exact-zero
+balance — and thus P-045's 3νR/3-generation predictions — also requires ξ_H = 1/6**, the same
+undecidable input the G value needs.
+
+**The hedge (honest):** this rests on the general heat-kernel structure (scalar a₁ ∝ 1/6 − ξ); it must
+be checked against Visser 2002 **Eq. 35's actual k₁ convention**. IF Visser's k₁ genuinely assigns zero
+weight to scalars (spin-0 drops from that particular coefficient), the concern dissolves and P-045 is
+ξ-independent. IF k₁ ∝ (1/6 − ξ) for scalars, P-045 needs the **conformal-Higgs caveat** (ξ_H = 1/6),
+and its "not retrofittable / exact or not" framing is conditional.
+
+**Net:** M3's keystone (str[k₁] = 0, SM+3νR) is structurally appealing and the fermion/gauge arithmetic
+checks — but the scalar sector is missing from the count, and whether that's a hole turns on Visser's
+exact k₁ weight for scalars. **Owed:** verify Visser Eq. 35's scalar coefficient; if nonzero, P-045
+carries a conformal-Higgs (ξ_H = 1/6) condition — the same ξ_H the G-value already needs, so the
+"str[k₁]=0 survives independently" claim would be the thing to soften. Flagged for the operator, not
+edited (it touches the flagship P-045 and the quantum-gravity keystone).
