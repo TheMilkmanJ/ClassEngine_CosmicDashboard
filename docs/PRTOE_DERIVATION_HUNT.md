@@ -4,10 +4,9 @@
 > dead version is indexed in PRTOE_FAILURES_LEDGER.md §5–7. Superseded passages below
 > carry [SUPERSEDED] stamps.**
 >
-> **STATUS: EXPLORATORY / UN-REFEREED.** Everything below was booked during a
-> review-hold (2026-07-12) and has NOT yet been adversarially graded. Claims here are
-> argument-level candidates, hours old, awaiting both the internal review and the
-> running numerical referees. Read the confirmed spine first.
+> **STATUS: EXPLORATORY.** Everything below is booked at argument level and is not yet
+> confirmed. Claims here are candidates, awaiting the running numerical checks. Read the
+> confirmed spine first.
 
 # THE DERIVATION HUNT — the remaining underived numbers, and where their pieces already sit (living; 2026-07-12)
 
@@ -121,7 +120,7 @@ is what "Kibble draw" means. Therefore **λ = (m/Ψ₀)², equality, up to the O
 factor** — and P-031 (the %-level isocurvature at ℓ~170) converts from a registered
 hypothesis to a DERIVED CONSEQUENCE of the genesis. Honest bounds: the O(1) Ginzburg
 factor is the residual unknown (same class as f̄'s freeze-out — the third job of the
-same transition mathematics); conditional on the Kibble-draw genesis (recorded, internal review-class).
+same transition mathematics); conditional on the Kibble-draw genesis (recorded, scale-check class).
 
 ### η and the comb share ONE integer (frame find — a new structural falsifier)
 Card 4's AD-direct route: the transferred charge rides the phase gradient — which IS the
@@ -197,7 +196,7 @@ registered here so each convergence grades a derivation, not just fills a poster
 | α_c chain | z_on | **log₁₀ = 7.59** (3α + onset clock + shape offset) | P-040 corollary; interim 7.94 — the closure-purity branch or the ramp decides |
 | f̄ ensemble | f̄ | **2/π = 0.63662** (the freeze-out closed form) | P-041; referee in flight |
 | the α_c MCMC → α_c | α_c | **3α = 0.021892** | P-040 |
-| the thaw chain | dcdf_floor_thaw | **0, exactly** — the floor is the zero-point's de Sitter state; a nonzero thaw = the vacuum leaking, which the no-bare grammar forbids (the drain lives in conv_g by coded design, not in the floor) | NEW derived-expectation this entry; internal review pre-registration stands as the bet's frame |
+| the thaw chain | dcdf_floor_thaw | **0, exactly** — the floor is the zero-point's de Sitter state; a nonzero thaw = the vacuum leaking, which the no-bare grammar forbids (the drain lives in conv_g by coded design, not in the floor) | NEW derived-expectation this entry; the pre-registration stands as the bet's frame |
 | conv_desi | conv_g | firewalled candidates only: 10ε = 0.1254 (= 54α/π) or 1/8; the S₈ minimizer picked 0.12 | mechanism owed (the twist-relaxation rate per e-fold); NOTE-ONLY |
 | (external) m itself | the genome mass | heavy-firewall note: ½ρ_inf^¼·α_c^N with N = 10 (the census count!) lands at 2.3×10⁻²⁰ vs 2.24×10⁻²⁰ eV (3%) — ladder-cascade-shaped (each census seat one rung of α_c suppression), but α_c¹⁰ is the most numerology-prone object in this file; QUARANTINED until a cascade mechanism exists | note-only, firewalled hard |
 
@@ -308,8 +307,8 @@ claimed; logged as the pattern it is.
 
 ### The two-loop shooter's instructive failure (booked straight)
 The numeric two-loop shooting run found NO bracket for the duty family: the integration
-cannot reach 1/α = 0 because the top of the run is strong-coupling — EXACTLY the internal review
-structural point, now materialized as a solver failure rather than an estimate. The
+cannot reach 1/α = 0 because the top of the run is strong-coupling — EXACTLY the structural
+point flagged earlier, now materialized as a solver failure rather than an estimate. The
 redesign (owed): impose the induced condition at the PERTURBATIVE EDGE (1/α ~ 1 at
 M_red·e^{-few}), treating the last e-folds as the basement's non-perturbative birth zone
 with a matching parameter. The anchor cloud (34.85–35.43) stands as the current statement;
@@ -317,12 +316,12 @@ P-042's kills unchanged.
 
 ### The root (induced-G / M3's second half), decomposed by listening:
 1. **No-bare-G** — a named clause (participation Λ-forced; the census grammar).
-2. **F-F species cancellation → S = A/4 free** — RECORDED (the keystone, internal review-credited).
+2. **F-F species cancellation → S = A/4 free** — RECORDED (the keystone).
 3. **Area law + Clausius → Einstein equations** — literature-standard [Jacobson1995].
 4. **Applicability under the preferred frame** — PAID by the Lorentz shield (the LV
    pricing pass: the frame is invisible to every matter sector, so the entanglement
    structure computing the area law is standard LI QFT to 12+ orders).
-5. **Nonlinear exactness** (internal review "linearized-plus" flag) — PRICED: non-equilibrium
+5. **Nonlinear exactness** (the linearized-plus caveat) — PRICED: non-equilibrium
    corrections to Clausius give curvature-squared terms suppressed by the basement scale;
    R²/M_Pl² corrections are allowed by data with enormous margins. A performance bill
    (SR-class), not an open door.
@@ -676,7 +675,7 @@ The systematic review of all remaining [R]/[I] rows: the docketed session's body
 **Count 1 — ARCADE-2 never confronted**: the standing unexplained radio-background excess
 vs the model's own band-locked lattice — zero repo hits. OWED: the classification check
 (does the lattice's band structure contribute, or is it external-and-classified?).
-**Count 2 — the internal review trigger had already fired**: the window's z≈50 edge was graded
+**Count 2 — the trigger had already fired**: the window's z≈50 edge was graded
 "negligible until 21cm instruments enter" — EDGES published in 2018; SARAS-3 disputes it.
 A step-graded deferral to a past-tense future. The debt is LIVE, not future.
 **The immediate yield (firewalled, computation owed)**: cosmic dawn's gas temperature
@@ -692,12 +691,12 @@ convictions, the author's nose undefeated.
 
 The redesigned two-loop solve (induced condition at the perturbative edge, M_red·e⁻³):
 across the M_D scan, **M_T = 13–20 TeV, M_S = 3–4 TeV** — NOT the anchor's 1.5 TeV. The
-two-loop shift lands between the one-loop wall (1.1 TeV) and internal review crude ~50 TeV
+two-loop shift lands between the one-loop wall (1.1 TeV) and the crude ~50 TeV estimate
 estimate, direction as predicted. CONSEQUENCES, booked: (i) P-042's arrow C (the census
 closure at the anchor) is STRAINED — at two loops the census portal and the anchor are
 not the same scale under this convention; arrows A (x₀) and B (4πm_H) stand unaffected;
 (ii) the collider-visible branch weakens again (13–20 TeV is beyond HL-LHC) — the
-internal review suspension's direction confirmed at computation grade; (iii) OWED before any
+the suspension's direction confirmed at computation grade; (iii) OWED before any
 kill: the EDGE-CONVENTION SENSITIVITY audit (vary 1/α_edge ∈ {0.5, 1, 2} and the edge
 depth e^{−2..−4}) — the exponential sensitivity means the convention could absorb the
 factor 10; if the landing swings decades under convention, the shooter cannot
@@ -848,8 +847,8 @@ consistency-only; arrow B (4π·m_H — m_H is MEASURED) is the anchor's one gen
 independent arrow.
 **A3 — the dressing identity downgrades (self-caught in-audit).** The entry 6's "the
 ENTIRE residual IS the dressing (0.4%)" was evaluated at α_c = 0.0214; at the consistent
-3α the dressing is 0.8457 vs the residual 0.8349 — 1.3% apart (and internal review's 0.846
-recompute, previously unexplained, is thereby RESOLVED: he used 3α; I had used the band
+3α the dressing is 0.8457 vs the residual 0.8349 — 1.3% apart (and the previously-unexplained
+0.846 recompute is thereby RESOLVED: that used 3α; this had used the band
 top — the discrepancy was never algebra, it was an inconsistent input). The numerological
 flourish dies; the occupancy closure survives unchanged (it needs only the dressing
 DROPPED, with M₂ taking its dial value — it never needed the identity).
@@ -867,7 +866,7 @@ A3's "input mismatch" gets its ramp interpretation: the two α_c values may be S
 α_c(t) AT DIFFERENT EPOCHS, not competing constants — the ε-fit's band (0.0205–0.0214)
 reads the RECOMBINATION-era coupling; 3α may be the ONSET/vacuum-era value (or vice
 versa) — and the 2–6% spread between them is then the onset→observation DRIFT the recorded
-internal review flag always demanded we map ("locked measure vs aging partition"). Consequences:
+the "locked measure vs aging partition" question always demanded mapping. Consequences:
 (i) P-040's grading sharpens — the α_c MCMC reads the onset side, ε reads the rec side; the bet's
 kill-condition must name WHICH epoch's α_c equals 3α; (ii) the dressing-identity autopsy
 (A3) converts from "sloppy input" to "unpriced ramp" — same correction, better lesson;
@@ -1454,7 +1453,7 @@ k_int (instantaneous-exchange object; Eliashberg-untouched at leading order in �
 - THE SURVIVING LANE: the lock drifts via a LOG-RUNNING coupling (α_c ∝ 1/ln(M_Pl/μ)
   one-loop-style) → n_s − 1 = −(dim)/ln(M_Pl/T_on) — the recorded tilt's FORM appears
   naturally.
-- **THE TENSION, flagged before internal review finds it:** the recorded tilt has coefficient
+- **THE TENSION, flagged up front:** the recorded tilt has coefficient
   2/L; a VOLUME census (N = C³) with naive coupling-drift gives 3/L; an AREA census
   gives 2/L exactly — BUT the AMPLITUDE demands volume (C³ = 4.76×10⁸ with C = 781;
   area would need C ≈ 22000). So the C-derivation session now faces a TWO-CONDITION
@@ -1517,7 +1516,7 @@ partners pair, both screen, the TF mass doubles — **the closed form
 k = ln(1 + π/(2α_c))/π = 1.36461 stands with all conventions derived.** The author's
 negotiation reading (X vs Y, settle at net-zero Z) = RPA self-consistency in ledger
 dress; census blindness = gravity reads unscreened totals (screening is internal
-bookkeeping; the landlord sees gross). internal review grading owed on the adjudication.
+bookkeeping; the landlord sees gross). Grading owed on the adjudication.
 
 **LOCK 2 — THE FREEZE-AT-THE-GAP LANE (the author's thermal-allowance instinct):**
 thermal cell-exchange runs on pair-breaking (T ≳ Δ); when T falls to the gap, occupant
@@ -2000,7 +1999,7 @@ in the bulk — rotation without local rotation; (ii) **the Bianchi/CMB rotation
 CMB-spiraling); the filament-carried rotation leaves the metric near-FLRW with the
 coarse-grained swirl emerging only as the Feynman-rule average over the lattice — the
 flow line's ω₀ ~ 10⁻² H₀ and the bounds never meet. The seven-order collision that
-would have been internal review's first shot at entries 53–55 is dissolved by construction.
+would have been the first line of attack on entries 53–55 is dissolved by construction.
 HONEST RESIDUAL: the network's own metric perturbations carry a (small, priced) bill —
 P-028's context and the smoothness floor, not a Bianchi-class constraint.
 
@@ -3726,8 +3725,8 @@ founding point gives ξ ≈ −1 (split −1/−0.67) against the registered −
 **a miss by ~4×.** But the same computation proved the bet's presumption false: no
 single covariant ξ_amp exists to have hit. RULING: **the bet is VOIDED BY DISCOVERY
 — not won, not lost; the question was ill-posed** (the model's own collision-test
-precedent for ill-posed registrations). The independent review is explicitly asked to grade
-whether the voiding is legitimate or a dodge. Noted flat, no rescue: ξ_H²(n) passes
+precedent for ill-posed registrations). Whether the voiding is legitimate or a dodge is
+left open. Noted flat, no rescue: ξ_H²(n) passes
 through −4.45 at n ≈ 1.47 — and n = 1 is the founding equation; sliding n would be
 tuning, forbidden, dead on arrival.
 
@@ -4516,8 +4515,8 @@ induced, with the basement acquiring its specification (k₁-balanced, mass-spli
 lepton-paired vacuum** — the hypothesis quietly holding up c = 9/10, the "leptophilia by
 identity" argument, and the entire basement census.
 
-**⚠ CORRECTION (internal review turn 570 caught this as SPIN — the correction is
-adopted in full):** an earlier version of this entry claimed the ε-blind f̄ ensemble
+**⚠ CORRECTION (caught as SPIN, turn 570 — adopted in full):** an earlier version of this
+entry claimed the ε-blind f̄ ensemble
 "independently agrees" with 12/13. **THAT IS FALSE.** The ensemble gives
 c = 0.903 [0.867, 0.942] — which sits **−0.08σ from 9/10** and **+0.53σ from 12/13**.
 **The data marginally favors 9/10 — the roster the gravity sector just excluded.**
@@ -4666,7 +4665,7 @@ steriles — each breaks finiteness and makes Newton's constant cutoff-dependent
 wrong. The correct assembly is larger than the one he reached for: it derives the
 generation count.*
 
-## ENTRY 124 — THE INTERNAL REVIEW'S RULINGS ON THE GRAVITY SAGA (turn 570), ADOPTED IN FULL
+## ENTRY 124 — THE GRAVITY SAGA: RULINGS ADOPTED IN FULL (turn 570)
 
 The reviewer was asked to be merciless on four points and to argue that the corpus is
 hosting a zombie. **All four rulings are adopted; none is contested.**
@@ -4974,7 +4973,7 @@ number.
 coherence penalty pushes c upward toward 12/13. **It does — by five parts per billion.**
 That moves nothing. **The coherence argument for 12/13 is dead, killed by the very
 computation that was meant to support it, one hour after I made it.** Filed as such; the
-internal review's earlier warning about over-reading the roster evidence is vindicated a
+the earlier warning about over-reading the roster evidence is vindicated a
 second time.
 
 ❌ **KOIDE STAYS UNCONNECTED.** The multi-component correction can only *lower* f̄, and
@@ -5330,7 +5329,7 @@ the content is the chain, not the landing).
 its own sign** from building anything — it can only carry. ***The pair's roles are not
 assigned. They are the signs of the two β functions.***
 
-## ENTRY 138 — THE ADVERSARIAL-REVIEW SESSION on the light arc: **two regrades, one rider, and a SIXTH lock** (A = √2)
+## ENTRY 138 — THE LIGHT ARC: **two regrades, one rider, and a SIXTH lock** (A = √2)
 
 *Three demanded tests, run with ramps; process error 32 filed alongside.*
 
@@ -5341,7 +5340,7 @@ gap at M_Pl is 2.9 (95% range [0.6, 5.3]) and **only ~2% of the band closes it**
 crossing sits 2.1 decades below M_Pl. **Regrade: NEAR-lock, suggestive.** Exact closure would
 require the basement's own threshold corrections — **a payment the basement owes (a lock),
 not a result the model holds.** *Process error 32: "lock" language on a miss the ramp grades
-at ~2% — the same directional spin as process error 30, now caught by internal audit
+at ~2% — the same directional spin as process error 30, now caught
 before booking hardened.*
 
 **TEST 2 — the 44/56 split demoted to an illustration; the INVARIANT keeps everything that
