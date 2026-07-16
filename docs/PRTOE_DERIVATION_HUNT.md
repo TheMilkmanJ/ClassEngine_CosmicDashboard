@@ -8242,3 +8242,31 @@ sequence and captures a real invariant (the conserved total dark budget), but ne
 The operator's expanding-universe challenge was load-bearing: doing it right is exactly what breaks the
 clean derivation. Method: ramped every measure (e-folds/proper-time/energy), separated the z artifact from
 the physical 1+z, credited the 0.4% z-relation as a flagged curiosity, did not bank it.
+
+---
+
+### Entry 224 — THE DARK-CONFINING SECTOR FLESHED + THE TWO WALLS UNIFIED (operator: "flesh out #48; the f-wall is the DE-value wall; find a hammer"): **task #48 gets an explicit Lagrangian + a falsifiable cold-dark-sector ΔN_eff prediction; and the operator's insight lands — the SCALE wall and the COINCIDENCE wall are ONE object, the settling response function; the hammer is a sub-ohmic (self-tuning) response**
+
+**Task #48 — dark-confining sector, explicit.** L = −¼G² + Ψ̄_d(iD̸−m_d)Ψ_d + (λ/M*)(Ψ̄_dΨ_d)(ēe) + ½(∂a)².
+SU(N_d) dark color (confining, asymptotically free → g_p~O(1) at Λ_dark by transmutation); dark leptons
+Ψ_d with the chiral condensate ⟨Ψ̄_dΨ_d⟩ at Λ_dark~m_d; **m_d~m_e forced by the dyad portal** (the same
+operator as varying-m_e, tying the dark-lepton mass to the electron — so Λ_dark~m_e WITHOUT the electron
+being composite); **light a = the dCDF Goldstone** (the chiral condensate's Goldstone IS the model's photon).
+**Falsifiable prediction:** dark d.o.f. at ~m_e are relativistic at BBN → the sector must be COLD,
+**T_dark/T_γ < ~0.3–0.4** for ΔN_eff < 0.3 (CMB-S4 σ(N_eff)~0.03 tests it directly). + ~m_e dark-hadron DM.
+
+**The two walls are ONE (operator's insight, confirmed).** ρ_Λ¼ = 2.256 meV = ρ_m(z_DE=0.30)¼ exactly, so
+"why 2.25 meV" ≡ "why ρ_DE~ρ_m now" — one wall, two faces (scale ↔ timing).
+
+**The hammer.** Treat ρ_DE as the model's own thawing RESIDUAL (§4b/§7b, m_J~(1–3)H₀), not a fundamental
+constant. If the dCDF settling is a genuine SELF-TUNING ATTRACTOR (m_J(t)~H(t) at all times), then
+ρ_DE~ρ_crit(t) ALWAYS → the coincidence DISSOLVES (no special epoch; DE tracks Hubble because its dynamics
+are Hubble-paced), and the scale dissolves too (no fundamental value — just the current residual of a
+nearly-settled medium). **Both faces reduce to the SETTLING RESPONSE FUNCTION** (ohmic vs sub-ohmic,
+hunt 189): sub-ohmic (s~0.26, self-organized-critical) → self-tuning → BOTH walls gone; ohmic (s=1, what
+189 computed) → neither. So the operator's "same wall" is literally true — **one wall, and it is the
+response function.** The DE-value scale problem AND the coincidence problem are the SAME object: the
+dCDF's settling response exponent. This unifies the model's two hardest open problems into one sharp,
+physical question — is the settling response sub-ohmic (self-tuning)? — replacing two vague "walls" with
+one computable exponent. The next real move on DE is the response function itself (hunt 189's s), now
+known to carry BOTH the value and the coincidence.
