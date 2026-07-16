@@ -6896,3 +6896,66 @@ radiation at the CMB epoch.** The model's registered dark-radiation form (v5 §1
 the white-hole genesis, the settling/freeze, Λ = the frozen residual, DM = the ash, the
 lightswitch, the Λ three-door program. None depend on recombination-era radiation. The pour
 STORY stands; the pour RADIATION-FOR-H0 sub-claim is dead.
+
+## ENTRY 188 — THE THREE-DOOR Λ MAP + KOIDE AS THE NEUTRAL SEAT (a math-coherence audit that compressed five "3s" into one neutral fixed point; SHARPENED, not closed)
+
+*Trigger: a math/physics coherence audit found the cosmological-constant value stated
+inconsistently across five files — E_b = 2.251 meV ("4-in-10⁴") in the CC file vs
+½α_c²M₂/(16π²α_c^{3/2})¼ = 2.695 meV ("20%") in STATE_OF_MODEL/weakest_joints/THREE_EQ vs
+Λ¼ = 1.71 meV (KP) — plus two broken spine cross-refs (§15/§18 do not exist). The operator's
+call: "compute them until we find where WE went wrong — I bet it's another ramp problem." It was.*
+
+**1. The three "rival formulas" are three DOORS on one residual (not three formulas).**
+- **Perturbations door (modes):** the phonon zero-point sum ∫d³k/(2π)³·½c_s k with the Landau
+  cap k_max = E_b/c_s gives EXACTLY ρ¼ = E_b/(16π²α_c^{3/2})¼ = **2.66 meV**. The 16π² that
+  audit A3 deleted as a "double-count" is the ∫d³k/(2π)³ phase-space measure — **real physics,
+  wrongly deleted.** (Corpus correction gated below.)
+- **Thermodynamic door (occupancy):** one quantum per cell, ρ¼ = E_b = **2.25 meV** — but M₂
+  is *tuned* to 9.39 eV to land it.
+- **Background door (mean field):** KP 4-volume trace, **1.71 meV**, KP O(1)s unpinned.
+  "The three doors agree on 2.25" is currently **three inversions of the observed number**, not
+  three forward derivations.
+
+**2. The genesis ramp — freeze rung DERIVED, amplitude rung INVERTED.**
+- FREEZE (forward, clean): Γ=H at T_f = 2.25 meV ⟹ z ≈ 12.4 — this is just T_ν = m_ν (the
+  lightest neutrino, = ρ_inf¼, the last to leave free-streaming). The "decade fade z≈32→4" is
+  the Fermi-Dirac momentum spread going non-relativistic — a RAMP, not a step, genesis-anchored.
+  Nothing tuned. (Confirms entry 177's z≈12 as the ν NR transition.)
+- AMPLITUDE (inverted, owed): entry 176 states it — Λ=2.25 → *invert* → Γ₀=76 meV → *invert*
+  → v_L=3.4 MeV. Naive forward Γ₀ ~ g²T·N_coh misses by **32 orders** → the shot-noise/√N
+  response function is doing ~30 orders of essential, uncomputed work. Amplitude is NOT a desk
+  calc; it is the owed √N derivation.
+
+**3. kup meets −kdown, and the neutrino is the neutral binder.** The doors are two ends
+(background low, thermal high) + a neutral middle (perturbations). The perturbations door
+supplies the thermal door's coefficient by fluctuation–dissipation (entry 176) — and the FDT
+partner is the neutrino bath. So the **neutrino** (literally "little neutral one") is the neutral
+courier that binds fluctuation to dissipation; its mass = 2.25 meV = ρ_inf¼ is the meeting scale;
+its NR transition is the freeze. The −kdown road (√N response function), the neutral binder, and
+the DE-amplitude closer are the SAME computation.
+
+**4. Koide = the neutral seat, computed non-circularly.** Q = 2/3 ⟺ the √m vector sits at 45°
+to (1,1,1) ⟺ **|background component| = |perturbation component|** (both = 30.684, ratio
+1.0000). A = √2 ⟺ perturbation RMS = background mean. And Koide is the **midpoint of the
+accessible range in every natural variable** (Q∈[1/3,1] mid 2/3; A²∈[0,4] mid 2) — the
+democratic (Q=1/3, pure mean) ↔ hierarchy (Q=1, pure fluctuation) self-symmetric point. A
+functional symmetric under the democratic↔hierarchy swap (Q→4/3−Q) is fixed at exactly 2/3 —
+no √2 fed in. **This is the SAME neutral-fixed-point structure the DE doors need.** (The earlier
+δ=2/9 tilt is reclassified: a back-derivation from model pieces, same inversion class as
+M₂/Γ₀ — not fabrication-from-nothing, but not forward either.)
+
+**HONEST GRADE — SHARPENED, NOT CLOSED.** The night compressed five loose "3s" (the Λ doors,
+Koide, the Fermi points, the fluid count, the quantum trio) into ONE structure: the neutral
+fixed point / the balance / the self-dual center. But: (a) the self-dual observation is
+near-tautological — a symmetric function is always fixed at its center — so **100% of the
+physics is in whether the model actually POSSESSES the democratic↔hierarchy (kup↔−kdown)
+symmetry and its action on the masses**, which is NOT shown; (b) the DE amplitude is inverted
+in all three doors, forward-owed. Elegance is not evidence. Two owed FORWARD computes decide
+the whole family: **(i) the √N neutrino response function** (does the neutral binder
+forward-derive Λ, or was 2.25 inverted?), **(ii) exhibiting the kup↔−kdown symmetry in the mass
+sector** (does the self-dual point have physics behind it, or is it decoration?).
+
+**CORPUS CORRECTIONS GATED ON (i):** the CC file's "4-in-10⁴" headline, the THREE_EQ "20%"
+and broken §15/§18 refs, and the failures-ledger line calling the 16π² "prefactor-naive" are
+all to be reconciled to the three-door reading — but only AFTER the response function rules on
+whether the doors converge forward. Held, not yet rewritten.
