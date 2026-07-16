@@ -17,8 +17,7 @@
 > [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) (the open work, EXPLORATORY).
 > Kept as the honest historical baseline it is.
 
-*Honest status assessment, requested by the author ("how close to understanding
-are we? what questions need answers?"). No inflation; evidence class stated first.*
+*Honest status assessment. No inflation; evidence class stated first.*
 
 ## Headline
 We understand WHAT the model is and THAT it fits the data. We do NOT yet

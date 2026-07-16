@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The author's bet: "GR, SR, and Newton's laws all thread perfectly." Graded: Newton YES
+*The claim: "GR, SR, and Newton's laws all thread perfectly." Graded: Newton YES
 (with origins for his mysteries), SR YES-as-filed (PRTOE_special_relativity.md), GR
 CONDITIONALLY (the keystone's address).*
 

@@ -43,7 +43,7 @@ translates every recurring house term, and gives the reading order.*
 | the pour / the snap / the fountain | the bounce: the hot re-start of a cycle (structurally the one realized white-hole-like event) |
 | the melt | reheating above T_c at the crunch: superfluidity ends, friction returns, the winding's protection lapses |
 | ramps vs steps | the house discipline: physical transitions are modeled as smooth (finite-width) functions, never discontinuities, unless protected by quantization/topology |
-| the error log | the log of the authors' own caught errors (public, in the failures ledger) |
+| the error log | the log of caught errors (public, in the failures ledger) |
 | the killer / the kill | the named observation that falsifies a specific claim |
 | estimated / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
 | ς (final σ) | the one currently-undetermined sign in the H₀-ceiling formula (supernova color-channel direction) |
@@ -54,11 +54,11 @@ translates every recurring house term, and gives the reading order.*
 2. **THE_AMPLITUDE** — the one number and its seven windows.
 3. **DEPENDENCY_TREE** — what is conditional on what (the honesty map).
 4. **PREREGISTERED_PREDICTIONS** — the bets, with killers.
-5. **FAILURES_LEDGER** — everything that died, and the authors' own error log.
+5. **FAILURES_LEDGER** — everything that died, and the error log.
 6. The per-topic shelf (cosmological constant, hierarchy, neutrino sector, ...) as
  interest dictates; **MATH_SPINE** for the full derivation chain.
 
-## 4. What to be skeptical of (the authors' own list)
+## 4. What to be skeptical of
 
 - The A_s closed form is a *candidate* (its counting mechanism is half-derived; frozen
  into the current run by explicit decision, with the risk documented).

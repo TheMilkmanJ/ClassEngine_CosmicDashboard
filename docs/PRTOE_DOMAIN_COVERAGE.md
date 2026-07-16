@@ -67,5 +67,4 @@ verdict is booked with a pointer — no domain gets claimed by vibes.
 Domains not yet on this map are not covered; add them only with a
 booking.
 
-*Created 2026-07-07 ~8am at the author's request, end of the
-genesis-night marathon. Maintained alongside the atlas.*
+*Created 2026-07-07. Maintained alongside the atlas.*

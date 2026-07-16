@@ -8,7 +8,7 @@
 
 
 *The core structure, stripped to its hinges. Not a sum -- a SEQUENCE, each step
-feeding the next. Written after the author assembled the ingredients (R=0,
+feeding the next. Written after assembling the ingredients (R=0,
 f_rot, Psi_0) and asked how they fit.*
 
 ## Step 0 -- the blank ledger
