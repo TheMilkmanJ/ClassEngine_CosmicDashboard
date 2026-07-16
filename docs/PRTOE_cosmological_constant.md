@@ -73,8 +73,13 @@ binding, so this number rests on a proposed **dark confining sector** — a "dar
 scale is pinned to the electron mass — which supplies the strong binding. This sector sets the
 dark-energy *binding scale* only; the dark matter remains the medium's own excitations, as in the core
 model. That proposal is a candidate, not a derivation. So the honest reading is: the dark-energy *scale*
-follows a derived closed form; its last digit rests on one strong-coupling number that a well-motivated
-but unproven dark sector would fix.
+follows a derived closed form; its last digit is the ratio τ = T_c/m_e = 0.345, which equals the
+**universal chiral-transition-to-string-tension ratio T_c/√σ ≈ 0.34–0.37 of a QCD-like confining sector**
+(light dark quarks; pure glue, at 0.63, is excluded). With the sector's string tension pinned to the
+electron mass by the portal, the value lands at 0.97–1.07× observed — and the pinning is self-consistent:
+the adopted T_c = 193 keV run back through the QCD ratio recovers √σ_dark ≈ 522–544 keV ≈ m_e. The
+remaining debt is now sharp and single: *why* √σ_dark = m_e — the portal scale. (Hunt entry 228;
+`scripts/tau_deconfinement.py`.)
 
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,

@@ -8356,3 +8356,51 @@ Corrected below.
 and a falsifiable three-front signature — **ΔN_eff(BBN)~0.1–0.25 (D/He, primary), ΔN_eff(CMB)~0.027 (S4
 edge), ~MeV warm dark-baryon DM (small-scale structure).** It sources g_p (→ the DE digit) AND is the DM
 sector (unification). Still a candidate (new physics), now with sharp near-term tests, primarily BBN.
+
+---
+
+### Entry 228 — τ = T_c/m_e IDENTIFIED AS THE QCD DECONFINEMENT RATIO (operator: "take the τ swing"): **the DE digit's last O(1) is T_c/√σ ≈ 0.35 — the universal chiral-transition/string-tension ratio of a QCD-like confining sector; τ = 1/3 "numerology" (entry 208) becomes physics, debt relocated to the portal √σ_dark = m_e**
+
+The DE value is ρ_Λ¼ = (9/2)α⁴·T_c (entries 210–211); the whole open digit is **τ ≡ T_c/m_e**. Observed
+2.25 meV fixes **τ = 0.345** ((9/2)α⁴m_e = 6.521 meV). Entry 208 flagged the "(d/2)α⁴m_e, τ = 1/3"
+reading as numerology (the occupancy form restated). This swing gives τ a physical identity.
+(`scripts/tau_deconfinement.py`.)
+
+**The identification.** In the dark-confining sector (entry 227: SU(N_c) dark colour + light dark quarks,
+the dyad = the chiral condensate ⟨q̄q⟩, T_c = the dark chiral-transition temperature),
+τ = T_c/m_e = T_c/√σ_dark **given the portal √σ_dark = m_e**. T_c/√σ is a near-universal lattice number:
+
+| confining theory | T_c/scale | ρ_Λ¼ |
+|---|---|---|
+| pure glue (N_f = 0) | 0.63 | 4.11 meV (1.83×) ✗ |
+| constituent-quark norm | 0.47 | 3.07 meV (1.36×) ✗ |
+| **√σ, full QCD (N_f ≥ 2 light)** | **0.335–0.37** | **2.18–2.41 meV (0.97–1.07×)** ✓ |
+| m_ρ norm | 0.20 | 1.30 meV (0.58×) ✗ |
+
+**τ = 0.345 is dead-centre of the full-QCD T_c/√σ band.**
+
+**Internal consistency (closes from the other side).** Feed the adopted T_c = 193 keV back through the
+QCD ratio: √σ_dark = 193/[0.335–0.37] keV = **522–576 keV ≈ m_e** (522 keV at ratio 0.37; m_e = 511, 2%).
+The dark string tension comes out ≈ m_e — the portal expectation, recovered not assumed.
+
+**Structural prediction (falsifiable).** τ = 0.345 REQUIRES the QCD-like value → the dark sector **must
+carry light dark quarks (N_f ≥ 2)**; pure glue (0.63 → 1.83×) is **excluded**. Self-consistent: the
+dyad-as-chiral-condensate ⟨q̄q⟩ needs dark quarks. Signature unchanged from entry 227: ΔN_eff(BBN) ~
+0.1–0.25 primary.
+
+**Red-team (why candidate-grade, not closure).** The result is SENSITIVE to which strong scale m_e maps
+to — √σ works, m_ρ too low, Λ/constituent too high. So **√σ_dark = m_e (the portal) is load-bearing**.
+The swing converts "why τ = 1/3?" (numerology) into "why √σ_dark = m_e?" (the portal scale) — genuine
+movement (a magic number → a lattice-universal ratio + one physical scale-match), not elimination.
+
+**DM-role scoping (coherence decision, option a, 2026-07-16).** Entry 227 read the dark sector as ALSO
+the DM; the audience coherence pass scoped it to the **DE binding scale only** — the DM stays the
+medium's ultralight excitations (the ALP), because an MeV confining sector and an ultralight-ALP DM sit
+at incompatible scales (a confining sector's Goldstone has f ~ its own scale, not the 10¹⁶ GeV the
+ultralight axion needs). **Open thread:** the ~MeV dark-baryon cosmological fate under option (a)
+(subdominant relic / annihilated), owed.
+
+**Net:** τ = T_c/m_e is now **the QCD-universal chiral-to-string ratio ≈ 0.35, with √σ_dark = m_e**. Two
+of the three legs are physics (the ratio; the N_f ≥ 2 requirement); the third (the portal √σ_dark = m_e)
+is the sharpened residual debt. The DE digit: **candidate-grade, portal-conditional — no longer
+numerology.**
