@@ -87,7 +87,7 @@ direction) away from a complete derivation.** The scariest failure mode (Ψ₀
 blowup) is eliminated. Remaining honest caveats: c=1 not forced (only natural);
 distributional (median, our universe typical); the dice's own h-convergence
 caveats; and the whole chain still assumes the discrete-switch m_e mechanism
-(ANN-2026-013), whose payload author is un-built.
+(ANN-2026-013), whose payload operator is un-built.
 
 ---
 
@@ -105,12 +105,12 @@ universe DILUTES (ρ∝a⁻³) as it expands, it does not invade fresh R=0.
 unbounded homogeneity (FLRW). Whether the medium is globally infinite OR a finite
 BUBBLE of R=1 in an R=0 void is undetermined — the CMB fit assumes the former but
 never earns it. In the bubble reading, expansion IS into R=0 nothingness (the
-author's picture is then literally correct).
+bubble picture is then literally correct).
 
-**Multiverse extension (author, correctly PARKED as philosophy):** if R=1
+**Multiverse extension (parked as philosophy):** if R=1
 nucleates in R=0, generic bubble/eternal-inflation logic gives OTHER R=1 regions.
-Untestable in principle — causally sealed by super-horizon R=0 inflation. The
-author flagged this un-chaseable; adopted.
+Untestable in principle — causally sealed by super-horizon R=0 inflation, hence
+un-chaseable; adopted.
 
 **The neighbor rule + its single crack (honest):** no signal from a neighbor
 reaches us EXCEPT a possible early BUBBLE COLLISION (a circular CMB temperature
@@ -128,7 +128,7 @@ of it.
 *The consolidation above froze at §74. This block carries it to §92.*
 
 **Factor 3 (c) — much more resolved.** c is now BOXED near 1, not free:
-- **Ceiling (c ≲ 1):** DERIVED from technical naturalness (§75, author's "too
+- **Ceiling (c ≲ 1):** DERIVED from technical naturalness (§75, the "too
  expensive"). A stronger-than-gravitational coupling radiatively destroys the
  medium's own ultralight mass — so c can't exceed gravitational strength. The
  ledger caps c to survive.
@@ -136,12 +136,12 @@ of it.
  far without breaking the fit (§76–77). Measured value: **c = 0.93 ± 0.38**,
  consistent with 1, sharpening as Fairbank converges.
 - **The remaining bet (§81 vs §82):** is c a *free dial* (§81) or *forced = 1*
- (§82, author — "no half-gravity")? DATA can referee it: the granule sim's
+ (§82, "no half-gravity")? DATA can referee it: the granule sim's
  independent f_amp isolates c (§83, breaks the §77 degeneracy) and reads our
  universe's dice roll (f_amp ≈ 0.56). But *measuring* c=1 ≠ *deriving* it (§84):
  only the effective-action calc (docketed) proves "no dial."
 
-**Why the coupling is universal & flavor-blind (§89, author):** gravity couples
+**Why the coupling is universal & flavor-blind (§89):** gravity couples
 to mass-energy only — it *cannot* tell electron from quark ("same shit, different
 flavor" = the equivalence principle). So c is universal by constitution, and any
 flavor must be matter's own — the medium has no organ to make it.
@@ -323,7 +323,7 @@ FALSIFY it. The observable that IS present is the DENSITY HANDOVER (Ω_DE overta
 accelerated expansion, H(z)/Ω(z)),
 NOT w_DE evolution.
 **Also downgraded:** the "smooth w(z) crossover to -1" prediction assumed observable
-DE-component w-evolution; the theorem forbids it IF the settling shares the m̄₂² author with
+DE-component w-evolution; the theorem forbids it IF the settling shares the m̄₂² operator with
 the drift (likely). DOWNGRADED to uncertain pending: is the field's SETTLING onto the floor a
 separate process from the floor's DRIFT? Owed.
 

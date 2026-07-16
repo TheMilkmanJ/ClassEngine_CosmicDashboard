@@ -68,22 +68,22 @@ The onset-clock identity (include/background.h, the coded T = 9.41 keV derivatio
 Quartets require attractive pair-pair coupling; the model's recorded real sound speed
 (c_s = √α_c) forces λ > 0 — repulsive — so quartets do not bind. The Z4 term locks
 phases, not composites (the §2 sketch conflated the two — failures ledger). The
-author's pair call is now DERIVED, not just registered. The chain confirms the mark.
+pair call is now DERIVED, not just registered. The chain confirms the mark.
 
-**The author's plain-language completion (registered post-derivation):** "It's running
+**The plain-language completion (registered post-derivation):** "It's running
 forward and mirroring backwards. It doesn't need 2 more to do that." — the NECESSITY half
 of the argument: the pairing's job is time-reversal completion (one member with the
 arrow, one mirrored against it — the ghost's grammar), and that job is FULL at two. The
-stability proof says quartets cannot bind; the author's line says they would have
+stability proof says quartets cannot bind; the registered reading says they would have
 nothing to do. Impossibility and pointlessness, one verdict.
 
 **Bets graded (2026-07-12):** the TWINS bet — WON (derived, entry 33). The exact-number
-bet — LOST honestly (author's in-head 7.72 vs the collapsed mark 7.547; the 7.70/7.72
-zone was the defender's constructional double-count, so the author's number-bet was
+bet — LOST honestly (the registered 7.72 vs the collapsed mark 7.547; the 7.70/7.72
+zone was a constructional double-count, so the number-bet was
 placed against a mislabeled board — noted, still graded as lost per the house rules).
 THE LIVE STAKES NOW: the chain (drifting 7.66→7.77) must DESCEND to ~7.55 for α_c = 3α
-to confirm — which makes the author's crest-and-descend trajectory call LOAD-BEARING
-for P-040 itself: if his descent materializes and lands at 7.55, the trajectory call and
+to confirm — which makes the crest-and-descend trajectory call LOAD-BEARING
+for P-040 itself: if the descent materializes and lands at 7.55, the trajectory call and
 3α confirm in the same breath.
 
 ## 4b. STATUS (current truth): the lineup marks are SUPERSEDED
@@ -93,14 +93,14 @@ marks; the ramps-first re-derivation is owed before any center is graded. The QU
 stands (whose mass does the oscillating unit carry). Live watch: the dispersion chain's
 raw center is CLIMBING through the pair zone (7.66 → 7.77 across early segments,
 unconverged; log10_zon's own split-R−1 = 1.38 — no verdict until the drift dies).
-THE AUTHOR'S TRAJECTORY CALL (registered mid-drift, 2026-07-12): the center will
+THE REGISTERED TRAJECTORY CALL (mid-drift, 2026-07-12): the center will
 OVERSHOOT and then whittle back DOWN toward the pair zone, turnover near the ~500-sample
 marker — the same crest-and-descend the old-template chain showed (7.94 → 7.82,
 descending when retired). Graded at samples ≈ 500 and ≈ 800.
 
-## 5. The author's call (registered 2026-07-12, BEFORE the dispersion chain's convergence)
+## 5. The registered call (2026-07-12, BEFORE the dispersion chain's convergence)
 
-**The author calls PAIR (7.70).** Reasoning, registered verbatim in structure: the
+**The registered call is PAIR (7.70).** Reasoning, registered in structure: the
 model's two-fluid identity — the superfluid's two-fluid hydrodynamics, the complex
 field's two real degrees of freedom, and the gap equation's independent first-pass hint
 (N = 2 channels, k = 1.36) — makes "2" the resident's natural count. The call is

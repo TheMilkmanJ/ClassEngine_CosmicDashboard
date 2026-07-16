@@ -53,10 +53,10 @@ structure exists:
  L_int = -eps * S(x) * m_e^lab * (psi_e-bar psi_e)
 
 This is a direct, dimension-5, Planck-suppressed moduli/dilaton-class
-author with S(x) the environmental modulator. Legality under the coupling
+operator with S(x) the environmental modulator. Legality under the coupling
 census: OPEN (narrow reading → legal; broad → forbidden). Form: FORCED
 (geometry is 60 orders too weak, sec 32, so a direct
-author is unavoidable). [trigger-doc sec 23, 32, 34]
+operator is unavoidable). [trigger-doc sec 23, 32, 34]
 
 ---
 
@@ -215,14 +215,14 @@ dead via the D/H quark→pion→deuteron channel (dln(D/H)/dln m_q ~ 15 vs dln m
 a 30x ratio). Why the coupling picks the electron:
 
 NO-GO (it is not a symmetry): L-bar H e and Q-bar H d both need a gauge-SINGLET scalar;
-a singlet couples to every Yukawa author with INDEPENDENT coefficients → no gauge
+a singlet couples to every Yukawa operator with INDEPENDENT coefficients → no gauge
 symmetry forces leptonic. Froggatt-Nielsen also fails -- the light quarks (u,d) carry
 FN charges comparable to the electron's, so a generic flavon shifts m_q and re-triggers
 BBN. Leptophilia is neither a gauge nor a generic-flavor consequence.
 
 MECHANISM (uses P-2026-012: DE floor scale = lightest m_ν, so the medium lives in the
 lepton-mass sector). Neutrino mass rides the lepton DOUBLET L (Weinberg (LH)(LH)/Λ);
-quarks have no such author, so the medium has no reason to couple to Q. Minimal
+quarks have no such operator, so the medium has no reason to couple to Q. Minimal
 coupling = a field-dependent kinetic renormalization of L:
 
  Z_L(Psi) = 1 + Psi/f_L [dim-5: (Psi/f_L) * L-bar iD-slash L]
@@ -244,7 +244,7 @@ Consequences:
 
 LOCKED PREDICTION (of the kinetic-Z_L coupling specifically):
  dm_nu/m_ν = 2 * dm_e/m_e = 2.48% at recombination.
- The factor 2 is author counting (two L's vs one), no free knob. It DISCRIMINATES
+ The factor 2 is operator counting (two L's vs one), no free knob. It DISCRIMINATES
  mechanisms: a direct Yukawa (Psi/f) L-bar H e shifts m_e with NO neutrino link
  (ratio 0). CMB consequence of dm_nu ~ 1.5 meV on Σm_ν (~0.06x sensitivity) --
  safe, currently unfalsifiable, a consistency consequence not yet a handle.
@@ -275,14 +275,14 @@ MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09):
  kinetic → dm_nu = 2 dm_e is the LOCKED prediction, not one of two options. [CLOSED]
 
 CAVEAT (2026-07-10) -- the deeper gap this section does NOT close. "The
-medium is made of the neutrino sector" strictly implies a coupling to the WEINBERG author
+medium is made of the neutrino sector" strictly implies a coupling to the WEINBERG operator
 (→ dm_nu only). Reaching dm_e requires coupling to L's KINETIC term (Z_L), which is an
 ADDITIONAL step beyond "makes neutrino mass" -- and THAT step is the leptophilia postulate
 itself (dm_e is the charged-lepton Higgs-Yukawa L-bar H e = quark-structured, a no-go).
 So the census refinement "couple to what you're made of" (laws doc, 2026-07-10) RENAMES the
 leptophilia gap "substance" but does not close it: it legalizes a dm_nu coupling; the dyad
 is dm_e. The un-derived core is precisely "why couple to L's kinetic term (reaching dm_e)
-rather than only the Weinberg author (reaching only dm_nu)." The mechanism here is a
+rather than only the Weinberg operator (reaching only dm_nu)." The mechanism here is a
 coherent, motivated SKETCH; the explicit dm_e coupling from a neutrino-sector medium stays
 [OBJECT-PENDING], prior unfavorable. The assessment did not move.
 
