@@ -21,11 +21,12 @@ past, but its first moment is a *state*, not a point of infinite density.
  A contracting universe approaching ξ-scale curvature radii exits the metric description
  *before* any singularity theorem's conclusion can be located — the arena dissolves
  (the same no-double-counting move as the black-hole case).
-2. **The quartic floor.** The condensate's self-repulsion resists compression: the crunch
- stiffens into a maximum density of order ρ_bounce ~ m⁴/λ-class (the same Colpi–Shapiro–
- Wasserman physics that supports every black hole at finite density, §3 of the BH document).
- Contraction halts and reverses at finite ρ. *(λ_phys owed — same flag as the BH doc; every
- value of λ keeps ρ_bounce finite.)*
+2. **The floor.** The condensate resists compression through quantum pressure and a *repulsive*
+ self-coupling: the crunch stiffens into a maximum density of order ρ_bounce ~ m⁴/λ-class (the
+ same Colpi–Shapiro–Wasserman physics that supports every black hole at finite density, §3 of the
+ BH document). Contraction halts and reverses at finite ρ. *(Quantum pressure guarantees a floor
+ on its own; the repulsive amplitude quartic sets ρ_bounce's number — distinct from the attractive
+ axion/phase coupling. λ_phys ≈ (m/Ψ₀)²-class, per the BH doc.)*
 3. **The Landau ceiling eats the light first.** As density rises, the plasma frequency sweeps
  up through the radiation bands (the "crunch's mouth"): each band's photons
  are massed, made trace-visible, and thermalized. The crunch is a *dissipative thermal
@@ -75,7 +76,7 @@ rearranged itself.
 
 ## 5. Honest owed items
 
-- λ_phys (sets ρ_bounce's number, not its finiteness).
+- λ_phys — the repulsive amplitude quartic; sets ρ_bounce's number (quantum pressure sets its finiteness).
 - The bounce dynamics in detail (the reversal's field profile — the cosmological analogue of
  the BH core; un-simulated).
 - The first-cycle Kibble numbers use the ambient-era estimates (order-of-magnitude scale checks).

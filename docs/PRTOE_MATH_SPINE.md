@@ -245,9 +245,11 @@ abundance) with the frozen-era transfer (sphalerons at 130 GeV vs the field froz
 
 **The λ-ceiling (a small recovery):** the winding-patch isocurvature (14.1% rms
 if the onset is quartic) would be CMB-dead ×5-7 → the model REQUIRES λ ≤ (m/Ψ₀)² ≈ 2×10⁻⁹¹ —
-a derived self-constraint; the axion-like reading (λ ~ m²/f²) NATURALLY SATURATES it →
-**P-2026-031 (candidate): %-level CDM isocurvature at ℓ ~ 170, at current Planck sensitivity**
-(+ a 45-90 km/s bulk-flow shadow). MOND/RAR finally dead (m_amp → m; ≤59 AU ≪ kpc). The third
+a derived self-constraint; the axion-like reading (λ ~ m²/f²) lands at the ceiling within an O(1)
+factor → **P-2026-031 (candidate): CDM isocurvature at ℓ ~ 170.** *(Amplitude caveat: the axion
+quartic carries a coefficient ~1/6, so |λ| sits a factor ~6 below the naive (m/Ψ₀)² ceiling — the
+isocurvature is then likely sub-%-level and below current Planck sensitivity, not at it; the exact
+amplitude awaits the O(1) coefficient and the λ-sign. Hunt 233.)* (+ a 45-90 km/s bulk-flow shadow). MOND/RAR finally dead (m_amp → m; ≤59 AU ≪ kpc). The third
 mass-top coincidence (CSW M_max ~ 10¹¹ M☉ at the ceiling; with α_g = 1 at 6×10⁹ and r_s = ξ
 at 2×10¹⁰) — noted, m-correlated, not recorded.
 
