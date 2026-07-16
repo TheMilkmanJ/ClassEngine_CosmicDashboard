@@ -6959,3 +6959,13 @@ sector** (does the self-dual point have physics behind it, or is it decoration?)
 and broken §15/§18 refs, and the failures-ledger line calling the 16π² "prefactor-naive" are
 all to be reconciled to the three-door reading — but only AFTER the response function rules on
 whether the doors converge forward. Held, not yet rewritten.
+
+**LAUNCH RESULT (the √N response function, first forward pass — appended same session).** Forward
+Γ₀ from the microphysics (g=1.2×10⁻⁸, N_coh=7.3×10⁴⁹, T_ν=2.25 meV), no inversion: naive coherent
+g²T·N misses the needed 76 meV by **+32 dex**; the shot-noise √N structure removes **24 of the 32**
+(→ +8 dex) — a FORWARD confirmation of entry 176's p≈0.5. The residual +8 dex requires suppression
+2.7×10⁻⁸; one derivative power (ω/T)¹=1.8×10⁻²⁹ over-shoots by 21 dex — so the closing factor is a
+**fractional power of (ω/T): the Kubo lineshape S(ω/T)** for the ultra-low-frequency mode (ω~H~10⁻³²
+eV) radiating into the meV neutrino bath. **The response function is now WELL-POSED, not mysterious:**
+derive S(ω/T), feed v_L from the seesaw grid INDEPENDENTLY (not the inverted 3.4 MeV), get Γ₀ forward,
+check whether Λ falls out at 2.25 untold. That lineshape derivation is the next session's object.
