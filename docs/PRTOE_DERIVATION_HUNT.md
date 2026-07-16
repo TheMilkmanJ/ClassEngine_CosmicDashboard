@@ -7298,3 +7298,30 @@ are the standing owed derivations. Precision lives in DERIVING THE INPUTS, not i
 pinned numbers converge under a fine ramp; the rough ones stay put regardless, because a ramp cannot
 manufacture precision the inputs don't carry. "Ramp everything" is the right diagnostic: it sorts the
 finished numbers from the ones still resting on a bet.
+
+## ENTRY 197 — α_c = 3α: THE 3 IS NOW FORCED (L=3 Weyl), THE ×α IS NOT — and the ×α FIGHTS EM-neutrality [the honest branch, per 040-A; NO derivation banked]
+
+*Operator's ask: derive α_c = 3α from the basement. Walked it against the registry's own refusal
+(entry 155 / Amendment 040-A) rather than dressing a clean value. Result: the bet does NOT derive,
+and the attempt sharpened WHY.*
+
+**α_c = 3α splits into (the 3) × (the ×α), opposite status now:**
+- **THE 3 — FORCED this session.** When 040-A refused "3 = Fermi points," the 3 was *asserted*.
+  The L=3 Weyl topology (entries 192/193) makes it *topologically forced* — 3 generations = 3 Weyl
+  pairs, Nielsen-Ninomiya. This triggers 040-A's own clause ("if the basement forces the 3, it
+  arrives as a new entry"): **the 3 is now forced, booked here, NOT retro-fit to 040.**
+- **THE ×α — un-derived AND structurally puzzling.** 040-A's refusal stands and this session
+  deepens it: nothing forces the dark *stiffness* coupling to equal 3× the *EM* coupling, and the
+  model is **EM-neutral / leptophilic — no direct EM portal** (that is why light is transparent). So
+  tying α_c to the EM fine-structure constant α needs a dark–EM connection the census FORBIDS. The
+  ×α isn't just missing; it fights the model's own structure.
+
+**HONEST VERDICT (no basement costume, per the registry's law):** α_c = 3α is **NOT derived**. Half
+of it (the 3) is now forced; the other half (the ×α) is un-derived and in tension with EM-neutrality.
+This raises the possibility the registry has guarded against from the start: **"3α" may be a
+CLEAN-VALUE COINCIDENCE** — the dark coupling ~0.02, with 3α=0.0219 a tidy value near it — not a
+physical EM tie. **The α_c MCMC decides the value; whether it lands EXACTLY on 3α or merely NEAR it
+is the test.** If near-not-exact, "3α" was numerology. P-2026-040 stays a bare bet (040-A holds); the
+only change is the 3 graduated from asserted to forced. The precision of ε (entry 196) therefore does
+NOT come from deriving α_c=3α — that derivation is likely a mirage; it comes from the MCMC pinning the
+value, which may or may not be 3α.
