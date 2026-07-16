@@ -24,7 +24,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| c = 9/10 (THE ROSTER TRIAL, open) | the census argument: 9 charged flavors + the vacuum's seat | [D] — **the trial: 9/10 (neutrinos = INTERIOR tenants, the medium's own tenth channel) vs 12/13 (neutrinos = EXTERNAL recipients); BOTH survive their ramp walks. 9/12 and 9/13 ramp-proof DEAD. ε CANNOT referee (the c–f̄ degeneracy)** | the independent f̄ ensemble or the α_c chain settling 12/13 |
+| c = 9/10 (THE ROSTER TRIAL — reconciled toward 9/10) | the census argument: 9 charged flavors + the vacuum's seat | [D] — **9/10 (neutrinos = INTERIOR tenants, the medium's tenth channel) vs 12/13 (EXTERNAL recipients); 9/12, 9/13 ramp-proof DEAD. ε cannot referee (c–f̄ degeneracy), so the settle is structural: the fork ≡ the neutrino-mass mechanism. Direct-Majorana (m₁ = g·⟨radial VEV⟩ ≈ μ, the flagship shared-scale reading) → the neutrino is the ε fixed-point seat → 9/10, tie EXACT. Inverse-seesaw as the light-mass origin (m_ν = m_D²μ/M²) → Higgs m_D comoves under ε → 12/13, tie degrades to a tuning. RECONCILED (hunt 204–206): the direct light mass and Card 6's heavy-N leptogenesis COEXIST (the seesaw's light-mass contribution is ~10⁻⁹ meV, negligible), and consistency with the tie-as-LOCK selects DIRECT → 9/10. Also hardened: a single spurion μ forces ρ_inf ∝ m_ν⁴** | the seesaw being the light-mass origin after all (→ 12/13, tie→tuning); the un-built spurion-identification bridge; the f̄ ensemble or α_c chain as independent checks |
 | f̄ = 2/π | the winding sim + the claim | [C] (joint 0.626–0.637, claim at 1.3σ) | the ensemble lands off 2/π |
 | α_c = 3α | the registered bet | [R] | the α_c MCMC lands elsewhere |
 | ε = c·f̄·α_c (the stack, 1.2543%) | ALL THREE above | [D-C-R compound] | any factor's death |
@@ -63,7 +63,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
-| induced-G (the closure) | — | **RETIRED (the zombie ruling, hunt entry 124 on the external review): "the medium computes G's value" died in three schemes in one day and is retired, full stop. THE KEEPER SPLIT: Pauli's finiteness condition str[k₁] = 0 (satisfied exactly by SM + 3ν_R; P-2026-045) and the 1/α_Y(M_Pl) = 55.5 bare-handout asymmetry (hunt 134/138) are KEPT — they are conditions and targets, not value computations** | P-2026-045's kills (a light sterile; a 4th generation); the six basement locks (hunt 138) |
+| induced-G (value computation) | — | **not claimed.** The model does not compute the numerical value of Newton's constant. What it holds instead: Pauli's finiteness condition str[k₁] = 0 (satisfied exactly by SM + 3ν_R) and the bare-handout asymmetry 1/α_Y(M_Pl) = 55.5 — conditions and targets, not value computations. | P-2026-045's kills (a light sterile; a 4th generation); the six basement locks |
 
 ## Tier 6 — the axis family (children of the winding; registered)
 

@@ -189,6 +189,17 @@ cannot help but have — the ripple that rides its own definition of speed, forb
 one sign from ever building anything, which is precisely why it can be trusted to carry
 the news.*
 
+## Where the dead ends live
+
+The near-lock this file grades honestly in §5 — the two non-abelian couplings closing to
+within 2.9 of a ±2 scheme band, with only ~2% of the distribution closing the gap at M_Pl —
+was once graded as a hit ("locks at the basement"). The correction to *suggestive, not
+established*, and the lock-test's earlier stepped verdict, are in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The census & roster count"**
+(and the ramp-discipline catches). The exact closure is a payment the basement owes, not a
+result this file holds.
+
+
 ## Sources
 
 [Goldstone 1961] (gapless modes of broken symmetries); [Particle Data Group 2024]

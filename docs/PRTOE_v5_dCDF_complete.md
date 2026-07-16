@@ -2,7 +2,7 @@
 
 > **HISTORICAL RESULTS RECORD (banner added 2026-07-13):** the July-6 refit tables below are the frozen record of that fit — numbers herein (H₀ = 69.70, the χ² tables) are that era's; the current production state and its live zero-parameter test: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) / [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
 
-> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

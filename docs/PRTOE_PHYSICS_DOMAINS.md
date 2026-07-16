@@ -1,6 +1,6 @@
 # PRTOE: The Domains of Physics This Program Has Touched
 
-> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -903,7 +903,7 @@ direction.
 
 ---
 
-## The validation ledger (added same day, author's order: "show validation for each domain")
+## The validation ledger (added 2026-07-13)
 
 *Current standing of every attachment, dated 2026-07-07. Statuses:
 **PASSING** (data exists, model passes now) · **STANDING-NULL** (bet

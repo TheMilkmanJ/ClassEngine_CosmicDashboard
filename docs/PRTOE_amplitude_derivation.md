@@ -1,6 +1,6 @@
 # The 1.24% Amplitude — Consolidated Derivation (the showcase room, 2026-07-07)
 
-> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -146,11 +146,11 @@ to mass-energy only — it *cannot* tell electron from quark ("same shit, differ
 flavor" = the equivalence principle). So c is universal by constitution, and any
 flavor must be matter's own — the medium has no organ to make it.
 
-**Flavor / deuterium arc (§85–92) — resolved, with retractions:**
-- The lepton/hadron flavor (P-2026-011) needs a NON-gravitational touch on the
-  Higgs/EM sector — a portal the census forbids (§90). **P-011 RETRACTED**
-  (ANN-2026-015); the model predicts UNIVERSAL varying-constants.
-- **No Higgs portal is actually needed (§92, author's correction to my §90):**
+**Flavor / deuterium arc (§85–92):**
+- The varying-constant shift is UNIVERSAL across leptons and hadrons. A flavor-dependent
+  shift would require a non-gravitational touch on the Higgs/EM sector, which the census
+  forbids (§90) — so the model predicts universal varying-constants.
+- **No Higgs portal is needed (§92):**
   the SAME universal conformal coupling rescales the metric, and the Higgs vev is
   a mass scale in it — so one gravitational nudge shifts electron + quark + vev
   together. The Higgs moves because the FLOOR moved, not a direct touch.
@@ -315,13 +315,12 @@ late regime change, threat→confirmation) CONTRADICTED the mutual-exclusion the
 (ANN-2026-008), and the theorem WINS -- it is LSS-derived, not fiat: observable DE drift
 ν~1×10⁻³ requires a core scale M_eff~6.6×10⁻²⁵ eV (l_dB~90 kpc) ⇒ galaxies could not exist.
 Galaxies exist ⇒ ν≤1×10⁻⁸ ⇒ NO observable DE thawing.
-**The error (mine):** conflated two w's. The dCDF "w:0→-1" is the TOTAL/effective medium
+**Two distinct w's, kept separate.** The dCDF "w:0→-1" is the TOTAL/effective medium
 w, running because the floor's DENSITY overtakes the condensate (a density handover). The
 DE COMPONENT itself (sign-locked funded floor) is w=-1 ALWAYS (ν≤1×10⁻⁸). DESI measures the
-DE-component w = -1, flat. So the model predicts NO thawing; a confirmed DESI thawing is a
-THREAT that falsifies (its ORIGINAL status), NOT a live confirmation. RETRACTED.
-**Survives (corrected):** we ARE witnessing the late regime change -- but the observable is
-the DENSITY HANDOVER (Ω_DE overtaking Ω_DM, the accelerated expansion, H(z)/Ω(z)),
+DE-component w = -1, flat. So the model predicts NO thawing; a confirmed DESI thawing would
+FALSIFY it. The observable that IS present is the DENSITY HANDOVER (Ω_DE overtaking Ω_DM, the
+accelerated expansion, H(z)/Ω(z)),
 NOT w_DE evolution.
 **Also downgraded:** the "smooth w(z) crossover to -1" prediction assumed observable
 DE-component w-evolution; the theorem forbids it IF the settling shares the m̄₂² author with
@@ -447,3 +446,11 @@ Mining the birefringence graveyard for what it says about the model OTHER than b
 4. P-2026-013 (closed universe) was itself a birefringence-tangent spinoff -- the hunt's largest yield.
 ⇒ candidate new prediction to register: "no long-range dark/fifth force (condensate Higgses all
 mediators short-range)". [[birefringence-null-proven]]
+
+## Where the dead ends live
+
+The retracted lepton/hadron varying-constant hierarchy (P-2026-011) is in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Retracted predictions"** — it
+needed a Higgs/EM portal the census forbids, and the census-legal reading is the universal
+conformal rescaling this file derives. The full birefringence dead-end map (why the parity
+signal is forced out of light and into gravity) lives under **"Birefringence."**

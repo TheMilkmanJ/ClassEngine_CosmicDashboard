@@ -20,7 +20,9 @@ the house convention; failures live in the failures ledger, not here. (Revised
 
 The fit-versus-stack spread (1.4σ) is the identity network's most-loaded joint; the
 running α_c chain owns the verdict. The decomposition's three factors, each separately
-refereed: c = 9/10 (the census counting argument; derived-conditional), f̄ (the winding
+refereed: c = 9/10 (the census over the universal charged-fermion roster, not the dyad's
+leptophilic subset; the open trial is interior-seat 9/10 vs external-count 12/13 for the neutrinos,
+which ε cannot referee — the c–f̄ degeneracy — so the f̄ ensemble / α_c chain settles it), f̄ (the winding
 average; fit-implied 0.6253, simulation 0.635, closed-form claim 2/π = 0.6366 — a live
 triple), and α_c = 3α (a pre-registered bet, P-2026-040, decided by the running chain).
 
@@ -89,6 +91,16 @@ refused — on its own computed sign — to explain away the rest of the Hubble 
 refused — on its own dilution arithmetic — to claim more than a corner of the supernova
 mass step, and may still be sitting in the forest's lines and the void walls all along:
 one number, no exits, referees everywhere.
+
+## Where the dead ends live
+
+The one retraction this file inherits — the lepton/hadron varying-constant hierarchy
+(P-2026-011, leptons shifting ~13× more than hadrons) — is in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Retracted predictions."** It
+died because a flavor-structured shift needs a Higgs/EM portal the census forbids; the
+census-legal coupling is a UNIVERSAL conformal rescaling, which is the cleaner "one number,
+no exits" statement the file now carries.
+
 
 ## Sources
 

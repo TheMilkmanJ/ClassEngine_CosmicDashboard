@@ -14,7 +14,7 @@ that would reopen it. Nothing leaves the register except through its unblock or 
 | the mass-top triple coincidence (α_g=1 / r_s=ξ / CSW-max) | m-correlated, noted-only | the α_c MCMC posterior + an SMBH mass-function mechanism |
 | the α_c ~ 3α couplings note | numerology-adjacent | any basement-spectrum derivation |
 | the seats=doors conjecture (the family's three = the three doors; Koide's 2/3 = "two on, one off" — its sharpest form: the mass spectrum reading its own sector anatomy) | category fence stands (readings ≠ families); three independent arrivals at w = 1/3 noted (hunt 143/174) | the basement paying lock 6 (√2), the 3-bridge (2ξ₁/ξ₂), AND emitting the door grammar from one structure — the anisotropic heat-kernel session |
-| the chiral-GW amplitude | un-computed | the θ·R·R̃ coefficient calc |
+| the chiral-GW amplitude | REOPENED (hunt 181 — the operator's ramp catch): the 179 closure computed ONE corner (swirl θ̇, one propagation form, coefficient silently O(1)); the ramped family spans ~9 orders and flips the band ordering (the accumulating form gives 9×10⁻¹⁵ at LIGO); the null holds at the swirl corner under every form, but a µ-scale θ̇ with unsuppressed coefficient can break it | the θ·R·R̃ COEFFICIENT calc (the original unblock — still the decisive unknown) + the θ̇ band (the GC µ's magnitude) |
 | LSS-parity pricing (T16) | likely-short flag | the vorticity→4PCF amplitude computation |
 
 **Appendix-B self-audit under the no-forcing law (this pass):** all eleven rows classify

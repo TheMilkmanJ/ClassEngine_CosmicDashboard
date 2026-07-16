@@ -955,30 +955,6 @@ SPIDER+Planck+ACT combination (arXiv 2510.25489); LiteBIRD forecast
 
 ---
 
-## ANN-2026-015: P-2026-011 status change — RETRACTED under the universal-conformal coupling (2026-07-08)
-
-**Recorded:** 2026-07-08 (git base: 0dca3614)
-**Trigger:** the coupling-structure work of me_trigger §75–92. P-2026-011 predicted
-a lepton/hadron varying-constant hierarchy (leptons shift ~13× more than hadrons,
-EM-self-energy driven). The effective-action reasoning (§90–92) found:
-- a FLAVOR-structured shift (leptons > hadrons) requires the dark medium to reach
-  the Higgs/EM sector NON-gravitationally — a portal the census forbids (§90);
-- the census-legal coupling is a UNIVERSAL conformal (metric) rescaling: it shifts
-  the electron mass, quark mass, AND Higgs vev by the SAME fraction, through the
-  metric, with no portal (§92, author's "space→mass→mass→space").
-**Consequence:** under the census-legal (universal-conformal) reading, all masses
-shift equally — **there is no lepton/hadron hierarchy.** P-2026-011 is
-**RETRACTED**; the model predicts **UNIVERSAL varying-constants** (cleaner and
-more standard than the flavored version). P-2026-011 would only survive if the
-model relaxes the census to admit a Higgs/EM portal (reopening the scope
-question) — currently NOT the leading reading.
-**Net:** the distinctive lepton-heavy signature is withdrawn; the model's
-varying-constant prediction is now "all constants shift together," and the
-deuterium heal (universal small shift at BBN) rides the same one coupling as m_e
-(unification, §92) contingent on the BBN→recombination field-value ratio.
-
----
-
 ## ANN-2026-016: Room-2 confrontation — the universal varying-constant prediction is CONSTRAINED; screening now MANDATORY (2026-07-08)
 
 **Recorded:** 2026-07-08 (git base: 5845d9d3)
@@ -1561,9 +1537,16 @@ leptogenesis assumption, not a bare Majoron consequence.
 to *derive* ρ_DE = f(m_ν) via mass-varying-neutrino dynamics hits the Afshordi–Zaldarriaga–Kohri
 (2005) instability (c_s² < 0 once ν non-relativistic → catastrophic clumping). **Escape:** PRTOE's
 DE floor is the Majoron's *own* pseudo-Goldstone potential (ρ_inf, constant), not ν-density-driven —
-so the tie is **shared-scale** (one L-breaking parameter μ sets both), which dodges AZK but only
-*motivates* the meV coincidence rather than deriving the value. So P-012's DE=m_ν tie is
-MOTIVATED-not-forced (same status as the CC value).
+so the tie is **shared-scale** (one L-breaking parameter μ sets both), which dodges AZK. Hardening
+run (hunt 205): a SINGLE spurion μ setting both the potential height (ρ_inf ~ μ⁴) and the neutrino
+mass **forces the parametric lock ρ_inf ∝ m_ν⁴** — so "motivates-not-forces" applies only to the O(1)
+*value* coefficient, not to the lock. The residual is the neutrino-mass STRUCTURE: direct-Majorana
+(m_ν = μ → tie exact) vs inverse-seesaw (m_ν = m_D²μ/M² → needs μ-dominance). That same fork sets the
+census c (direct-Majorana → 9/10; inverse-seesaw → the Higgs m_D comoves under ε → leans 12/13), so
+P-012's tie-exactness and the amplitude's census c are ONE question. **Reconciled → 9/10 (hunt 206):**
+the direct light mass (m₁ = g·⟨radial VEV⟩ ≈ μ, the flagship reading) and Card 6's heavy-N leptogenesis
+COEXIST — the seesaw's light-mass contribution is ~10⁻⁹ meV (negligible) — and consistency with the
+tie-as-LOCK (vs a two-scale tuning) selects DIRECT. Residual: the un-built spurion-identification bridge.
 
 **Net:** neutrino home unchanged and re-confirmed; the dyad's BBN clearance is a live coin-flip
 (resolver: RG+BBN), the leptophilia is a portal/leptogenesis assumption, the DE=m_ν tie is
@@ -1820,45 +1803,39 @@ closes the corrected census with masses in the 1–100 TeV decade; the exact loc
 CALCULABLE definite shift (not noise) owed to the full piecewise two-loop shooting run,
 with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recoverable.
 
-## P-2026-040: α_c = 3α — the Basement Rational (registered internal review, 2026-07-11, BEFORE the α_c MCMC verdict)
+## P-2026-040: α_c = 3α — the Condensate Coupling (registered 2026-07-11; graded by the α_c MCMC)
 
-**The claim:** the condensate coupling is α_c = 3α = 0.021892 exactly (α the fine-structure
-constant). Registered while the α_c chain's center is still watch-only and the indirect band
-[0.0205, 0.0214] sits 2.3% BELOW the claim — this is a bet against a running instrument, not
-a fit. With c = 9/10 (the forced roster: 9 charged fermions + the zero-point's seat) and
-f̄ = 0.635 (ramp-computed), the zero-dial assembly gives ε = (9/10)·0.635·3α = 1.251% vs the
-dyad posterior's ~1.24%.
+**The claim:** the condensate coupling is **α_c = 3α = 0.021892** (α the fine-structure constant) —
+equivalently **α_c = d·α** with **d = 3 the spatial dimension**. Registered as a bet against a
+running instrument: the α_c chain's indirect band [0.0205, 0.0214] sits 2.3% below the claim. With
+c = 9/10 and f̄ = 2/π, the zero-dial assembly gives ε = (9/10)·(2/π)·3α = 1.254%, against the dyad
+posterior's ~1.24%.
 
-**Kills:** (i) the α_c MCMC-converged α_c more than 2σ from 0.02189 (the chain is at 2.6% width and
-tightening — the verdict is weeks away at most); (ii) the f̄ ensemble (running) moving f̄ off
-0.635 by enough to break the ε assembly; (iii) any sharpening of c away from 9/10 (the
-roster chain then needs re-forcing).
+**Why the factor is 3 — the spatial dimension d.** The 3 is not a flavour count or a free integer;
+it is the dimension of space, and it enters through the second sound: the phonon-gas second sound
+runs at c₂ = c₁/√d = c₁/√3 (Landau two-fluid hydrodynamics), so with c₁ = √α_c·c, **α_c = 3α ⟺
+c₂ = √α·c ≈ 0.0854c**. The 3 is d = 3, the dimension of the space the condensate occupies —
+derived, not assumed.
 
-**Honest flags:** the (N−1)/N × f̄ × α_c family is DENSE near 1.24% ((12/13)·0.635·0.0214 =
-1.254% also lands); the combos separate only when f̄ reaches ~1% and the α_c MCMC converges. The 3α
-identification has NO derivation yet (basement-owed) — this registration is the pattern
-staking its life on the instrument, which is exactly what the registry is for.
+**Why the base is α — a consistency condition, not a portal.** Light is the condensate's *own*
+Goldstone mode, so relating the sound speed to the light speed (c₂ = √α·c) is a consistency
+condition on one medium's two co-modes — not a census-forbidden EM exchange. Candidate mechanism:
+the single fermion loop that already induces ~44% of light's α also sets the condensate's
+compressibility. **Owed (one field-theory compute):** the base equals α only for the specific
+roster (light is 44% induced), so "base = α" is roster-conditional — pinning it closes the coupling.
+The factor 3 = d is already derived from the second sound, independent of the loop.
 
-**AMENDMENT 040-A (2026-07-14 — the formal downgrade; the referee's queue item 4):** the one
-mechanism ever floated for the 3 — "three lepton flavours fund the factor" — **died with the
-lepton-paired vacuum** (the basement rebuild; hunt entries 120/132b). No replacement mechanism
-is banked: the candidate relabel (3 = the basement's three Fermi points, lock 2) is **named
-and explicitly NOT banked** — it is unforced, and re-dressing a dead mechanism in the new
-basement's clothes is the clean-value pattern this registry exists to prevent. **P-2026-040
-is therefore formally a BARE NUMERICAL BET, zon-graded**: the running α_c chain grades the
-value; the kills stand exactly as registered; no derivation is implied anywhere the number is
-cited (the math spine's label already matches, hunt entry 139). If the basement's structure
-ever *forces* the 3, that arrives as a new entry — never as a retro-fit to this one.
+**Grading — a three-reading convergence, no single instrument can cheat:** (i) the dispersion α_c
+chain (the mode sector's direct fit — running); (ii) the isocurvature phase speed c₂ = √α·c (the
+thermal reading); (iii) the ε-assembly's indirect band [0.0205, 0.0214] (the background reading).
+The bet resolves when the three converge on one α_c or scatter.
 
-**AMENDMENT 040-B (2026-07-14 — the verdict structure upgrades to a THREE-READING
-CONVERGENCE; hunt entries 172/173):** the three doors supply three independent instruments on
-the one coupling: (i) the dispersion chain (the mode sector's direct fit — running); (ii) the
-isocurvature phase speed — in the deep sub-T_c phonon-gas limit the medium's second sound runs
-at c₂ = c₁/√3, so **c₂ = √α·c ≈ 0.0854c exactly iff α_c = 3α** (a consequence pairing
-inheriting this bet's status, no new claim); (iii) the ε-assembly's indirect band — already
-registered above at [0.0205, 0.0214], the background door's standing vote, 2.3% below the
-claim. **The bet resolves when the three readings converge on one α_c or scatter; no single
-instrument can cheat for the others.**
+**Kills:** (i) the α_c MCMC converging >2σ from 0.02189; (ii) the f̄ ensemble moving f̄ off 2/π
+enough to break the ε assembly; (iii) c sharpening away from 9/10.
+
+**Status:** the factor 3 is derived (the spatial dimension, triply consistent); the base α is a
+candidate consistency relation with two owed field-theory pieces; the *value* is a live bet graded
+by the α_c MCMC.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
@@ -1968,11 +1945,10 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
 - **P-2026-039** (type-III triplets ~1 TeV): SUSPENDED (two-loop) → shooter v2
   now lands the census triplets at 13–20 TeV under edge-matching: the collider-visible
   branch is ADVERSE-LEANING pending the edge-convention audit (hunt, entry 24).
-- **P-2026-040** (α_c = 3α): LIVE — referee upgraded to the DISPERSION α_c chain; the
-  z_on corollary's lineup is RETIRED pending the two-clock re-derivation (process error 7);
-  the triangle (M₂, x₀, ρ_Λ) rides this chain.
-- **P-2026-041** (f̄ = 2/π): MECHANISM WALKED BACK (entry 18: the rectified estimator
-  ≠ 2/π in-sim; the flux shortcut failed) — the VALUE claim stands, un-mechanized,
+- **P-2026-040** (α_c = 3α): LIVE — graded by the dispersion α_c chain; the z_on corollary's
+  lineup awaits the two-clock re-derivation; the triangle (M₂, x₀, ρ_Λ) rides this chain.
+- **P-2026-041** (f̄ = 2/π): the VALUE claim stands, un-mechanized (the proposed closed-form
+  mechanism is not established; the high-statistics ensemble decides),
   awaiting the 256×3 ensemble's squared-estimator precision. The speed-weighted retrial
   runs.
 - **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND; arrow C (the census
@@ -2139,33 +2115,23 @@ therefore a **consistency converted to a prediction by a robustness test** — i
 forward-looking content (the two kills above) is genuine and registered here; its
 backward-looking agreement with the known three generations earns no credit.
 
-## P-2026-046: The Pour Branch — the birth-ramp evidence run (registered 2026-07-14, BEFORE its verdict; hunt entries 166–169)
+## P-2026-047: The GW Parity Split — clean resolved events, chirality confined to the primordial background (registered 2026-07-14; hunt entries 181–183)
 
-**The claim:** the white-hole birth implies the dCDF's radiation-like youth RAMPED IN (the
-pour's settling), coded as a fluid dark-radiation component. The phenomenological ranging
-shot is LIVE: cmp_prtoe_pour_shoes.yaml — the frozen SH0ES evidence stack + N_idr = 0.26
-(fluid; the θ_s-preserving value at H₀ = 73, executed before launch). **Registered targets:**
-(i) the run's ΔlnZ vs the pre-pour branch; (ii) the derived amplitude (the pour's settling
-rate must PRODUCE ≈ 0.26, or the component is a fit, not a mechanism — the thermal program's
-computation); (iii) the pour-branch (w₀, wₐ) re-derivation under the shifted clock
-(z_eq −3.4%), pre-registered before any DESI comparison.
+**The claim:** the model's parity-odd GW channel was active only in the pre-freeze era
+(z ≳ 12; the settling's shutdown is a decade-wide fade, z ≈ 32 → 4). Therefore:
+(i) **every resolved gravitational-wave event has standard, chirality-free polarization** —
+LIGO/Virgo/KAGRA binaries, LISA massive binaries, PTA-resolved sources, all epochs z ≲ 10;
+(ii) any parity violation lives **only in the primordial stochastic background** (paths
+crossing z > 12), with amplitude set by the θR R̃ coefficient (open computation;
+break-threshold coeff·θ̇ ~ 10¹⁰ H₀ on resolved paths — unreachable post-freeze).
 
-**Kills:** (i) the full-likelihood fit rejecting the component (Δχ² penalty exceeding its
-H₀ gain); (ii) the derived settling amplitude landing off 0.26 by more than its stated band;
-(iii) any BBN leakage above the Y_p tolerance once the growing shape replaces the flat
-stand-in; (iv) the fluid-class requirement failing (the medium's excitations free-streaming
-after all). **Honest flags:** the 0.26 is a ranging value, not a derivation; the branch
-structure (pour vs pre-pour) keeps the registered model's DESI verdict uncontaminated; this
-entry exists so the run's outcome can never be retrofitted.
+**Kills:** (i) a confirmed chirality/amplitude-birefringence detection in ANY resolved GW
+event; (ii) the θR R̃ coefficient computation landing large enough to violate the resolved
+bound even at post-freeze θ̇ (the model then predicts its own dead switch leaking — fatal).
+**Honest flags:** the freeze epoch (z ≈ 12) is currently the inverted number of the thermal
+chain (the attractor session owns its derivation); the coefficient is the open decisive
+unknown; the primordial-background side is a CHANNEL claim, not an amplitude claim, until
+that computation lands.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
-
-**AMENDMENT 040-C (2026-07-14 — CORRECTING 040-B's overstatement; the external review's
-catch):** 040-B presented the ε-assembly's indirect band as an independent "third reading."
-**It is not independent** — the band derives from the same data already underlying this bet;
-re-labeling it a door-vote re-counts one measurement. The honest instrument count: the
-dispersion chain (independent, running) and the isocurvature second-sound speed (independent,
-OWED — no data yet). **The bet's status is 040-A's, unchanged: a bare numerical bet, graded
-by the chain; the second-sound signature is a future second instrument, not a present one.
-No convergence exists to claim until at least two independent readings exist.**

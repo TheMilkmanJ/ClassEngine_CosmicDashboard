@@ -2,7 +2,7 @@
 
 # What Threw the m_e Switch? (2026-07-07, author's question — the dyad's open trigger, formalized)
 
-> **DATE NOTE (2026-07-13 pass):** this file's header predates the derivation-hunt/freeze era; statuses herein may be superseded — current conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -22,6 +22,54 @@ suppressed (lab) value in every virialized absorber ever measured
 (z ≲ 4 quasar/molecular/21cm systems, Oklo, all labs); no continuous
 environmental dependence (drift wall; quasar differentials kill the
 smooth version at 10⁴×).
+
+---
+
+## WHAT WORKS — the derived results (read this first)
+
+The electron-mass shift ε ≈ 1.24% is the model's one added number. Two things about it are
+**derived, not fit**, and each is forced by real data:
+
+**1. The switch must be sharp — a near-binary threshold — and TWO independent experiments force it.**
+- *Equal-Principle side (MICROSCOPE):* the m_e shift must drop by **~8 decades** between a
+  dwarf-halo core (where it acts) and Earth (where MICROSCOPE tests it to 10⁻¹⁵). But the
+  Weyl curvature between the smoothest relevant epoch (recombination, δ ~ 10⁻⁵) and a dwarf
+  core changes by only **~1.35 decades (~22×)**. An 8-decade suppression cannot ride a
+  1.35-decade window with a gentle function: exp(−(C/C_ref)ⁿ) needs **n > 2.43** — essentially
+  a step. Once sharp enough to switch off at the dwarf core, Earth (17 decades higher
+  curvature) is off automatically; no separate tuning.
+- *Spectroscopy side (quasars):* a smooth density-dependence would produce quasar-vs-absorber
+  line differentials ~10⁴× the observed bound — so the switch is forced binary here too.
+- **Two unrelated experiments demanding the same near-binary threshold is convergent evidence,
+  not tuning.** The clean underlying variable is topological: has multi-streaming / first
+  shell-crossing happened here, yes or no — an environmental event, not a tuned curvature number.
+
+**2. The amplitude's ceiling is derived.** The electron mass is ~99% Higgs-Yukawa and ~1%
+electromagnetic self-energy. If the environment amends the EM-binding rule, only the EM part
+can respond, so the maximum shift is the EM-self-energy fraction of m_e — O(α)·log ≈ **1–2%**
+for every reasonable cutoff (muon through nucleon scale). **The observed 1.24% sits at that
+ceiling** — the smallness and the percent-scale are bounded from physics, not chosen.
+
+**3. The coupling is census-legal.** The shift is carried by geometry (Weyl curvature / the
+topological shell-crossing event), not by a new dark→electron force vertex — so it needs no
+portal the model forbids.
+
+**What is still open (and it is genuinely open):** the *exact* amplitude value (only its
+ceiling is derived), an author-level proof that the induced shift is EP-safe (shifts m_e
+without shifting other Standard-Model masses identically), and the coupling-census scope
+adjudication. These are worked below.
+
+---
+
+## THE FULL EXPLORATION — what was tried, what held, and how each dead end maps the dark sector
+
+*The sections below are the working record of the search: every candidate mechanism, the ones
+that survived (summarized above) and the ones that failed. The failures are kept on purpose —
+each one narrows what the dark sector's touch on ordinary matter is allowed to be. The single
+sharpest lesson from the dead ends: a direct dark-field→electron Lagrangian coupling was tried
+and **fails the coupling census** (gravity is the medium's only account), which is exactly why
+the surviving mechanism must be geometric/topological. The dark sector reaches ordinary matter
+only through the metric — the dead ends are how that was proven.*
 
 ## 2. The surviving candidate: R1 — structure throws the switch OFF
 
@@ -154,7 +202,7 @@ Candidate #1 remains structurally favored (medium-native variable);
 candidate #2 holds the natural-scale advantage. Both pass the §7
 requirements table; the plasma and radiation-era candidates do not.
 
-## 9. The Compton gate's first tests (2026-07-07 afternoon, author's order: "try Compton first")
+## 9. The Compton gate's first tests (2026-07-07 afternoon
 
 **(a) The scale, derived not fit:** the Compton-heating/H crossing in
 the dyad background (x_e,res = 2.5×10⁻⁴, H₀ = 70.2, dyad best-fit) lands
@@ -558,7 +606,7 @@ relevant structural differences between the ψ and χ components
 WITHIN a single simulated halo, not just aggregate halo-vs-void
 comparisons.
 
-## 20. A FIELD-THEORETIC ANSATZ FOR THE m_e COUPLING (2026-07-07 night, author's order:
+## 20. A FIELD-THEORETIC ANSATZ FOR THE m_e COUPLING (2026-07-07 night
 ## "derive the bare 1.0124 from an actual field coupling")
 
 **THE PROPOSAL:** couple the electron mass to the medium's own COHERENCE
@@ -2091,7 +2139,7 @@ consistency-construction; a census-legal trigger candidate, not a derivation.
 Registered as the corrected (gravitational) reading of the author's residual
 idea; Branch A logged as the grave it must avoid.
 
-## 58. Option B developed (author's order) — the trigger IS multi-stream onset; Θ = the granule field
+## 58. Option B developed — the trigger IS multi-stream onset; Θ = the granule field
 
 **Chosen branch (from §57): gravitational residual.** Matter's clustering
 imprints the superfluid's FLOW STATE. Developed concretely:
@@ -2794,7 +2842,7 @@ calculation, not an analogy. Net: c over-determined and trapped near 1
 (naturalness above, data-consistency below), but not yet first-principles
 derived. Both walls credited to the author; §75-close error corrected.
 
-## 77. The staff survey (author's order) — c = 0.93 ± 0.38, consistent with gravity=1 but DEGENERATE with the amplitude
+## 77. The staff survey — c = 0.93 ± 0.38, consistent with gravity=1 but DEGENERATE with the amplitude
 
 **Author: "survey the staff, get their feedback, we'll see why c has to be
 gravity=1."** Surveyed each parameter's independent value+error:

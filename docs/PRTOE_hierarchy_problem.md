@@ -87,3 +87,11 @@ and the census's rising gauge couplings then return λ to **+0.146 at 10¹⁶ Ge
 endpoint is stable, unlike the SM's. The anchor does not merely coexist with the vacuum's
 health; the census structure CURES the Standard Model's metastability. (One-loop;
 two-loop inherited by the shooter redesign.)
+
+## Where the dead ends live
+
+The collider knife-edge P-2026-039 — once read as a sharp [1.00–1.19] TeV prediction — is
+SUSPENDED: the two-loop term is a shift, not a smear, and the masses open to a "1–100 TeV
+decade" pending the full two-loop run. That suspension, and the rigid-13 census count it rode
+with, live in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The census &
+roster count."**

@@ -345,3 +345,11 @@ direction (quiet-at-BBN by structure), NOT a rescue of the AD condensate (still 
 Also booked: an over-built "timing-conflict" wall was MINE, not model-implied, and
 was conceded — the m_e shift and the recomb decoupling are ONE gradual process. C-code build
 is GATED on a confident WIN verdict (user instruction); current read = no win → not built.
+
+## Where the dead ends live
+
+The four gate-0 deuterium-heal variants (m_e = 1 at BBN) are EXCLUDED at 12σ — a
+data-required status, not a knob, and they carry a standing do-not-re-run order. The full
+kill is in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"BBN & the gate-0
+heal."** The MSW dark-admixture explored above is the successor direction (quiet-at-BBN by
+structure), not a rescue of the dead condensate heal.

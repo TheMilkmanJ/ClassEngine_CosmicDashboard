@@ -60,11 +60,14 @@ posterior-era rounding; **1.2543%** = the derived stack above. The gap between f
 derivation is ~1.8% — inside the posterior width — and the running measurements decide.)
 
 - $c = 9/10$: a **counting fraction**. Gravity is blind (it reads size, not identity), so the
-  coupling budget splits democratically over the census of participants — 9 charged fermion
-  species plus the zero-point's own seat → $c = (N-1)/N = 9/10$. Conditionally derived
-  from three independently-recorded theses; the data-lean toward the neighboring
-  $12/13$ is an open watch, and the basement rebuild reopened the roster count itself
-  (the census mechanism's story is under trial, not settled — hunt 126/135).
+  budget splits democratically over the census of participants — the **universal charged-fermion
+  roster** (9 charged species + the zero-point's own seat → $c = (N-1)/N = 9/10$), **not** the
+  dyad's leptophilic subset (which drops the quarks and cannot reach the count). The one open
+  trial is where the neutrinos sit: **interior tenants** (the medium's own tenth channel, the
+  seat → 9/10) vs **external recipients** (counted → 12/13). Both survive their structural ramp
+  walks, and **ε cannot referee them** — the c–f̄ degeneracy means a shift in c is absorbed by
+  f̄ (holding the closed-form f̄ = 2/π the fit leans 9/10 over 12/13 by ~4σ, but that lean is
+  entirely f̄-conditional). The referee is the independent f̄ ensemble or the α_c chain (P-2026-040).
 - $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
   candidately $2/\pi$ (P-2026-041; the high-statistics ensemble decides). A
   simulation output with an open closed-form question, not a parameter.

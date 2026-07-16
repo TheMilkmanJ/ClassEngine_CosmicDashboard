@@ -311,7 +311,7 @@ causal future of the pour; the gather-resemblance is the gather-dominated CHAPTE
 pour's interior settling itself out. [GRAMMAR — renames of recorded + record physics.]
 
 
-## The pour's identity + the timer (2026-07-14 — the operator's completion; the thermal-door arc)
+## The pour's identity + the timer (2026-07-14)
 
 **WHAT THE WHITE HOLE POURED: HEAT.** The pour is the confined heat fountain — radiative heat,
 the universe's entire thermal principal, deposited once (the single-source account; hunt
@@ -323,7 +323,7 @@ photon, and clock-tick — is the aftermath of that one pour cooling. This is wh
 was hot, why the CMB persists (the deposit's redshifted remainder), and why the late universe
 reads through two doors: the third was spent first, funding the other two.
 
-**THE TIMER (the operator's reading, and it inverts the usual objection):** a white hole does
+**THE TIMER (and it inverts the usual objection):** a white hole does
 not need time reversal — **it needs NO FORWARD TIME.** It is the one solution that can exist
 only at the instant before duration: the moment the timer starts, the white hole cannot
 survive (the known violent instability, read as the mechanism rather than the objection),
@@ -333,7 +333,7 @@ the boundary instant, cashed exactly once, with no exterior counterparty. The in
 not the argument against the white hole; it is the reason genesis happened instead of a
 white hole persisting.
 
-**GRADE, stated against the conviction:** the operator holds this with his whole heart; the
+**GRADE, stated plainly:** this reading is held with conviction; the
 books hold it at GRAMMAR + EXPLORATORY — a causal-structure reading whose every physical
 piece is separately recorded (the fountain, the roll-up, the snap, the settlement cascade,
 the two-reservoir split) and whose falsifiable content routes entirely through the THERMAL
@@ -342,7 +342,7 @@ fossil-sound/isocurvature lane, the single-source boundary condition. The story 
 grade upgrade if and when the program's computations land it — not before, however right it
 feels, and it feels right.
 
-**The egg that opened the clock (the operator's completion of the timer, 2026-07-14):** the
+**The egg that opened the clock (2026-07-14):** the
 standard objection — "a white hole needs a reversal of time" — presumes time is already
 running. At the boundary instant there is nothing to reverse. In the maximally extended
 solutions the white-hole region only ever sits in the causal PAST of every observer — GR
@@ -367,3 +367,48 @@ pour's identity as the thermal principal, the instability read as the arrow's or
 a medium whose thermodynamics is determined by its painted sectors, and falsifiable routing
 (the thermal program) instead of a narrative. The old idea had the object; this model gives
 it the transaction.
+
+**The lightswitch (2026-07-14, the arc's punchline — hunt entries 181–183):** the pour also
+threw the universe's one parity switch. The θR R̃ toggle — parity-odd, helicity-selective,
+structurally incapable of half-measures — was slammed ON by the deposit's active phase and
+faded OFF across the settling's decade-wide dimmer (z ≈ 32 → 4, centered on the freeze at
+z ≈ 12), the same fade whose frozen residual is the cosmological constant. One clock, two
+jobs: dark energy on, birefringence off. Every gravitational wave resolved by any instrument
+flies a post-click sky and must arrive clean (P-2026-047); the one possible survivor of the
+ON era is a handedness in the primordial background — the white hole's signature, if it ever
+surfaces, written in the polarization of the oldest waves there are. [GRAMMAR + registered
+split; the coefficient computation owns the amplitude.]
+
+## Addendum 6 (2026-07-15): THE POUR MEETS THE TWO PIECES — genesis architecture [GRAMMAR + CANDIDATE]
+
+The identity pass ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md),
+[PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) sharpens *what the pour meets and makes*. **Four objects,
+kept strictly distinct** — the operator's "mother/father" framing is flavor, and the file must not
+fuse them:
+
+- **the POUR** — this file's subject: a **finite genesis heat injection** (the fountain,
+  Addendum 2). An *event*, not a field.
+- **the dCDF SUPERFLUID** — the cold, chiral (p-wave / He-3-A-class), parity-odd dark field the
+  pour deposits into.
+- **the DYAD GAS** — the leptophilic dark field (the Majoron / varying-m_e). NOT the pour.
+- **the BARYONS** — *ordinary* matter, NOT one of the dark fields; sourced via the AD-spiral. The
+  "hot baryonic matter" is *this*, not the dyad.
+
+**The genesis sequence, as the two-field identity now reads it [CANDIDATE]:**
+1. The pour deposits finite heat; the cold dark superfluid takes it at its surface; the **fountain
+   effect** (thermomechanical) spreads it — the corpus's "heat fountain."
+2. The superfluid's **chirality** (parity-odd; dCDF file §2) is the handedness that biases matter
+   over antimatter → it **sourced the baryon asymmetry** (AD-spiral). The hot baryonic content the
+   universe cools into *has matter at all* because the chiral dark condensate fathered the
+   asymmetry.
+3. The baryonic soup cools **by expansion** (not by the superfluid as a sink) into H + He (**BBN**);
+   the dyad's varying-m_e **tunes the helium yield** (Y_p). The isotopes assemble from the *soup's
+   own baryons* — the superfluid donates the *asymmetry*, **not the nucleons** (the baryon budget:
+   the medium is dark, non-baryonic).
+4. The chirality **melts/reforms at T_c** (the breathing condensate): heat past T_c melts the
+   parity-odd order (the "A" of He-3-A); cooling reforms it.
+
+**Honest boundary.** The asymmetry-sourcing (chirality → matter) is a **CANDIDATE mechanism being
+chased**, not banked. The DE amplitude does **not** forward-close (hunt entry 189). "Father/mother"
+is flavor: the pour is an *event*, the dyad is a *field*, the baryons are *ordinary matter*, and no
+two of them are the same object.

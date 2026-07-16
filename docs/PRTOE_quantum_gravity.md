@@ -136,6 +136,18 @@ is a permanent exam, never to be exceeded); new tunneling or superposition pheno
 *The metric is not a stage the universe stands on; it is the sound of the medium — and
 the medium was quantum before there was anything to hear it.*
 
+## Where the dead ends live
+
+The G-closure — every attempt to *compute* Newton's constant from the model's roster — is
+retired, and the road there is worth the reader's time: three schemes in one day
+(Sakharov → Pauli → Volovik) computed G in none of them, and the closure is finally
+UNDECIDABLE by this model — it needs the Higgs' non-minimal coupling ξ_H, a Standard-Model
+input a dark-sector cosmology has no business deriving. What *survives* is the keeper this
+file rests on: Pauli finiteness (str[k₁] = 0) and its forward kills. The full obituary,
+including the premature-verdict process errors it generated, is in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The G-closure."**
+
+
 ## References
 
 [Sakharov 1967] A. Sakharov, Dokl. Akad. Nauk SSSR 177, 70 — induced gravity.

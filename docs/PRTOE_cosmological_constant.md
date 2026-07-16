@@ -51,6 +51,32 @@ that measures α_c grades the triangle. (An earlier draft claimed an additional
 loop-dressing factor matched the residual; that claim was input-inconsistent and is
 retired in the public failures ledger.)
 
+**The seam identification of M₂ (hunt 210–211 — scaling derived, digit rides T_c).** The dyad–dCDF
+meeting (the seam) NAMES M₂'s base scale: **M₂ = α²·T_c**, the dyad condensation temperature
+(T_c ≈ 193 keV) times an α². And the **α² is DERIVED** (hunt 211): the two dark fields share exactly
+one coupling channel — the electron — and both vertices are electromagnetic (dCDF↔e via its
+photon-Goldstone ~α; dyad↔e via the EM self-energy m_e-shift ~α), so their handshake is α×α = α².
+Ramp-confirmed: sweeping M₂ = α^n·T_c, only **n=2** lands (n=1 is 137× high, n=3 is 137× low). Then
+**ρ_Λ¼ = ½α_c²M₂ = (9/2)α⁴T_c**, with **α⁴ = α_c² (dCDF binding) × α² (EM handshake)** — every power
+named. M₂ = α²T_c = 10.3 eV matches the freely-selected 9.39 eV to 9%. At central T_c → 2.46 meV
+(1.09×); exact 2.25 meV at T_c = 176 keV, inside the band. **Grade:** the α⁴ *scaling* is derived
+(power-counting) AND ramped (only n=2); the *digit* rides **T_c**. And T_c does NOT pin at leading-log
+(hunt 212): T_c = m_e0√(3(L−1)/2π²) is coupling-independent (κ cancels), but the leading-log L−1 carries
+an RG-scheme spread of a **factor ~10** in the value (0.21×–2.04× across μ ∈ {T_c, πT_c, 2πT_c} × MS-bar
+{0, 3/2}) — a first-pass μ=T_c/MS-bar landing of 0.96× proved a non-robust scheme artifact under the ramp.
+A partial 2-loop pass (hunt 213) fixed the thermal side EXACTLY and found the model's high-T
+Δm²=(κm_e²/3)T² is **out of regime** (T_c < m_e): the exact fermion loop (Boltzmann-suppressed electrons)
+pushes T_c UP ×1.4, so at the natural scale μ=v the DE estimate **over-predicts ~2×** (T_c≈369 keV). The
+remaining residual — the zero-T leading-log — needs the genuine 2-loop β-functions (not in the corpus).
+**The T_c closer was BUILT** ([PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md); hunt 215) —
+result a **definite negative**: the 2-loop RG-improvement does NOT pin T_c. There is no SSB at μ=m_e, and
+the scale-stationary PMS sits at μ ~ e⁻¹⁰⁰ m_e (unphysical) for any 2-loop coefficient, because the O(α)
+curvature is too weak. So **T_c is perturbatively ILL-DEFINED** — the electron-CW condensation is a
+large-log/marginal effect, and this seam DE route has no perturbative T_c to evaluate. A non-perturbative
+(gap-equation) treatment is required even to define T_c.
+Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
+scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
+
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,
 and its gravitating energy is its *binding* energy — an occupancy count. The mode sum
@@ -100,14 +126,27 @@ consistency structure applied to its most famous problem:
   observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
   fountain (below). *Both cancellation-and-residual statements are THERMAL readings —
   the door correction of hunt entry 170.*
-- **The background door — THE VALUE** (the corpus's own §7a, finally seated at its door):
-  on the model's finite 4-volume, **Λ_eff ≈ ¼⟨T^µ_µ⟩ ≈ (3/4)·ρ_m(turnaround)** — a pure
-  expansion-history quantity — computes **Λ^{1/4} = 1.71 meV against the observed 2.25
-  (0.76×, the right decade FROM A MECHANISM)**, with its owned caveats (the KP
-  self-consistency O(1)s; the turnaround-timing corner). **This is the only door with a
-  NUMBER on the table — and it was sitting in the background sector unconnected to this
-  frame until the operator asked which door the VALUE question was missing.**
-- **The thermal door — the residual's dynamics** (hunt entry 165): the condensate is **still settling from the one
+- **The background door — FALSIFIED as a value mechanism** (the KP self-consistency solve, done
+  properly — hunt 209): on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent
+  closed-universe solve gives coefficient **0.40, not the toy ¾**, so Λ¹ᐟ⁴ = 1.48 meV (0.66×). But the
+  fatal, coefficient-INDEPENDENT problem is the RATIO: the a³ 4-volume weight always favors max-a (where
+  ρ_m is minimum), so **Ω_Λ/Ω_m ≤ 0.40 across the entire expansion** (ramp-confirmed: monotonic to a max
+  of 0.398; coefficient sweep tops out ~O(1) with no closed solution above C≈0.5) — a factor **5.5 below
+  the observed 2.2**. And for the model's OWN eternal-expansion fate (flat torus → infinite 4-volume),
+  ⟨ρ_m⟩ → 0 ⟹ **Λ → 0** (ramp-confirmed). **KP cannot seat dark energy where it is observed.** The
+  earlier "0.76× from a mechanism" matched the value's *decade* by tuning turnaround~now while hiding the
+  ratio failure. *Scope:* this falsifies KP as the mechanism for the residual Λ VALUE; KP-sequestering as
+  the vacuum-CANCELLATION (the thermodynamic door below) is a separate, untouched claim.
+- **The thermal door — the residual's dynamics** (hunt entries 165/175–183): the candidate
+  chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
+  would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
+  neutrino bath (the medium's only tree-level coupling; the friction turns on where
+  free-streaming turns off), and the freeze — Γ = H at T_f — lands at z ≈ 12 with a
+  decade-wide fade (z ≈ 32 → 4): **w = −1 exact through the observable range, untuned; the
+  settling's ash banks as dark matter (the drain, the fluid's own dust face); the frozen
+  residual is Λ.** Candidate grade throughout: the attractor/√N session is the doubly
+  load-bearing promotion computation (the coupling exponent AND the drain magnitude from one
+  calculation). The original statement stands beneath it: the condensate is **still settling from the one
   genesis injection** — thermal counterflow (the fountain effect, the corpus's own
   genesis name) persists while any deviation from the T = 0 ground state remains, dying
   only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
@@ -135,6 +174,16 @@ near-coincidence, unclaimed.
 (ii) DESI DR3 establishes w ≠ −1; (iii) the thaw chain's posterior excludes zero;
 (iv) Σm_ν measured robustly above ~70 meV, or inverted ordering; (v) the pairing-gap
 computation failing to sustain k ≈ 1.36 unravels the hierarchy leg.
+
+## Where the dead ends live
+
+Two dead ends set this file's honest grade. The "residual IS the dressing" identity (entry 6)
+downgraded to *suggestive* once run at 3α (0.846 vs 0.835), and the triangle's "0.1% match"
+(entry 7) turned out to *select* the free dial x₀ rather than pin it. Both are logged in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) (the mathematical self-audit and the
+superseded-claims index) — which is why §2 states the closure as occupancy *without* leaning
+on the identity.
+
 
 ## References
 

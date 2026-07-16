@@ -32,6 +32,10 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 MATH_SPINE (§0–22) · laws_and_rules/ (L1, L1a) · TRANSACTION_ATLAS · transaction_map ·
 thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001→P-031)
 
+## The two dark fields (the pieces; identity files, 2026-07-15)
+- [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — chiral/parity-odd (He-3-A class), abundance+asymmetry carrier, light is its Goldstone (identity consolidation; grades inline)
+- [THE DYAD — the gas piece](PRTOE_dyad_gas.md) — leptophilic (Majoron/L-breaking), couples the electron, varying-m_e binds hydrogen (the H₀ mechanism)
+
 ## Physics domains [C]/[O]
 hubble_tension · bbn_witness · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·
 fingerprint_lattice · plasma_physics · chaos_dynamics · cosmic_magnetism · igmf_helicity ·
