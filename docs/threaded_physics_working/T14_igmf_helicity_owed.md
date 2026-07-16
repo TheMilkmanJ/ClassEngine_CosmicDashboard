@@ -10,8 +10,8 @@ The chain of signs, each link graded:
 
 | link | carries the sign from → to | status |
 |---|---|---|
-| 1. THE COIN | the ± residual of the phase-slip anneal (the only surviving dice after entry 77 — the swirl direction around the headless axis is NOT topologically carried; rotation resets at the crunch) → sign(Γ_ring) | [D-frame] — the coin's home identified by the quantization event |
-| 2. THE RING | sign(Γ_ring) → sign(n) (the quantization event: n = Γm/2π preserves sign) | [D] — entry 77 |
+| 1. THE COIN | the ± residual of the phase-slip anneal (the only surviving dice — the swirl direction around the headless axis is NOT topologically carried; rotation resets at the crunch) → sign(Γ_ring) | [D-frame] — the coin's home identified by the quantization event |
+| 2. THE RING | sign(Γ_ring) → sign(n) (the quantization event: n = Γm/2π preserves sign) | [D] |
 | 3. THE CURRENT | sign(n) → the winding current's direction (the P-028 engine) | [RECORDED] |
 | 4. THE SEEDING | the current's direction → helicity_B handedness (left vs right) | [RECORDED mechanism, SIGN CONVENTION unfixed] |
 | 5. THE RECTIFICATION | sign(n) → matter-vs-antimatter (which handedness = matter wins) | **[OWED — Card 4's rectification mechanism: THE one missing link]** |

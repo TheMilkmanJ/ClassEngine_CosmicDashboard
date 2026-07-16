@@ -4,7 +4,7 @@
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 *Status: filed 2026-07-13, consolidating the light-sector results of the induced-coupling
-sessions (derivation-hunt entries 127, 128, 134, 136, 137). Grade: mixed and
+sessions. Grade: mixed and
 labeled per section — two theorem-grade structural results, one computed fraction, one
 pre-registered target. Rides M3 (the medium's reality) and the induced-gravity result
 (the Pauli finiteness condition, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5).
@@ -118,7 +118,7 @@ invariant.)
 If the basement supplies light's bare coupling, it supplies the other forces' too. Running
 all three measured couplings to the Planck scale (one-loop SM from the M_Z values,
 two-loop carried as a ±2 scheme band; ν_R checked as gauge singlets — no hidden
-threshold) — hunt entry 136:
+threshold):
 
 | at the basement (M_Pl) | 1/α (GUT-normalised for α₁) |
 |---|---|
@@ -128,8 +128,7 @@ threshold) — hunt entry 136:
 
 - **The two non-abelian couplings NEARLY lock at the basement** — the gap at M_Pl is 2.9
  against a ±2 scheme band, with the exact crossing 2.1 decades below M_Pl; ramped over the
- measurement and scheme bands, only ~2% of the distribution closes the gap at M_Pl (hunt
- entry 138). Graded honestly: *suggestive, not established* — exact closure would require
+ measurement and scheme bands, only ~2% of the distribution closes the gap at M_Pl. Graded honestly: *suggestive, not established* — exact closure would require
  the basement's own threshold corrections, which is a payment the basement owes rather
  than a result the model holds.
 - **The abelian coupling is the outlier** — sixteen away, joining the pair nowhere near

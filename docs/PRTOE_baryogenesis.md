@@ -48,4 +48,4 @@ routes η through the junction transfer this file computes rather than through a
 
 ## Sources
 [AffleckDine1985], [FukugitaYanagida1986] (the killed baseline), [Josephson1962],
-internal: Card 4, t358b, the entry 9. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+internal: Card 4. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

@@ -90,5 +90,5 @@ single-source — and time's direction is the one account depleting. The white-h
 sharpens the boundary: the object that made the deposit can exist only at the instant before
 duration (no time-reversal needed — no forward time yet), and its instability IS the
 direction: the timer and the deposit start together
-([PRTOE_white_holes.md](PRTOE_white_holes.md); hunt entries 159–165). Grammar-grade
+([PRTOE_white_holes.md](PRTOE_white_holes.md)). Grammar-grade
 cross-link; the standing derivations in this file are unchanged.

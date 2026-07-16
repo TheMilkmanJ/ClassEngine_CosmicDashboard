@@ -250,7 +250,7 @@ review, with laboratory receipts for its falsifiable furniture.**
 The origin story and the isolation theorem. **Affleck-Dine spiral genesis**
 is the candidate origin: charge = abundance (explains rolls-never-
 oscillates — charged rotates, neutral librates); inflation displaces, the
-Z4 tilt torques (the tilt's *forced* status is reopened — its parity/renormalizability derivation rested on the excluded basement's charge assignments, hunt entries 132b/139; the term stands as the registered working assumption, with r_t
+Z4 tilt torques (the tilt's *forced* status is reopened — its parity/renormalizability derivation rested on the excluded basement's charge assignments; the term stands as the registered working assumption, with r_t
 of order 1 natural), release spirals, the fee is reheating entropy, and
 the medium is born condensed — no critical temperature ever crossed (why
 basin entry left no relic). The dark-antimatter reframe falls out free:
@@ -837,7 +837,7 @@ kills the AD genesis as drawn.*
 
 **69. CP violation & baryogenesis — RECEIPT (structural requirement).**
 The AD spiral requires a tilt slant; the Z4 tilt is the registered working assumption (its
-"forced" derivation is reopened by the basement rebuild — hunt entries 132b/139), and the dark asymmetry f_rot ≈ 0.4
+"forced" derivation is reopened by the basement rebuild), and the dark asymmetry f_rot ≈ 0.4
 coexists with the baryons' ≈1 because the penalty schedule differs.
 *Hook: Room 4's dim-6 remnant pricing must keep charge decay frozen —
 now verified at the audited band (τ_Q ≥ 1.6×10⁹ Gyr).*

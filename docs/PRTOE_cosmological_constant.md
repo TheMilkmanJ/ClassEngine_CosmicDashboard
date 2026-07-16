@@ -131,7 +131,7 @@ consistency structure applied to its most famous problem:
  earlier "0.76× from a mechanism" matched the value's *decade* by tuning turnaround~now while hiding the
  ratio failure. *Scope:* this falsifies KP as the mechanism for the residual Λ VALUE; KP-sequestering as
  the vacuum-CANCELLATION (the thermodynamic door below) is a separate, untouched claim.
-- **The thermal door — the residual's dynamics** (hunt entries 165/175–183): the candidate
+- **The thermal door — the residual's dynamics**: the candidate
  chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
  would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
  neutrino bath (the medium's only tree-level coupling; the friction turns on where
@@ -146,7 +146,7 @@ consistency structure applied to its most famous problem:
  only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
  medium is small — today's gradients are CMB-uniform at the 10⁻⁵ class — giving Λ's
  smallness qualitatively for free.
-- **The perturbations door** (entry 165 addendum): the textbook zero-point mode sum —
+- **The perturbations door**: the textbook zero-point mode sum —
  **the famous door, and the diagnosis of the famous disaster**: the 10¹²⁰ catastrophe is
  what that door yields when opened *while denying the medium* — fluctuations read
  without the equilibrium that cancels them. In the medium, the bulk of the mode sum is
@@ -183,4 +183,4 @@ on the identity.
 [Planck 2018] (the measured ρ_Λ); Volovik, *The Universe in a Helium Droplet*
 (vacuum-as-condensate precedent); [Sakharov 1967] (the induced-action ancestry).
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md); derivation chain: the internal hunt
-log, entries 6–7, 38, and the thermal-door arc (140, 165 + addendum).
+log; the thermal-door arc.

@@ -111,6 +111,6 @@ scaling ρ_Λ¼ = (9/2)α⁴T_c.
 
 ## See also
 
-Hunt entries 208–214 ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)); the CC value routes
+See [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); the CC value routes
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §2c); the T_c mechanism
 ([PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md)).

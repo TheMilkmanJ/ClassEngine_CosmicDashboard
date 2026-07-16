@@ -25,7 +25,7 @@ f_amp decomposition — in the standing decomposition ε = c·f̄·α_c the mass
 census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through this
 route** (the hinge keeps only its α_c conditionality via c_s = √α_c). And read backward, the
 old curve is dead by its own arithmetic: it would force c = 1.005 while the census excludes
-c = 1. Provenance walk, hunt entries 145/148].
+c = 1. Provenance walk].
 * **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
 δm_e. (The Majoron/lepton-sector identity: tree coupling σNN → neutrinos; the charged-lepton
 portal is a UV assumption [PENDING #30].)

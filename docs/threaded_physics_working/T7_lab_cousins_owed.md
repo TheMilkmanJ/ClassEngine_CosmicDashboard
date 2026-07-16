@@ -5,5 +5,5 @@
 
 Coupling-geometry status: screened-room (bench experiments) — verdicts hold by geometry.
 
-NEW candidate (entry 97's protocol run): lab-BEC quantum-turbulence / Kelvin-cascade statistics as the genesis dice's bench analog — the roll-up's draw statistics (ε_spin, f_amp) may have a measurable laboratory counterpart in dilute-BEC turbulence experiments. Candidate grade; needs the statistics mapping before it earns a row.
+NEW candidate (protocol run): lab-BEC quantum-turbulence / Kelvin-cascade statistics as the genesis dice's bench analog — the roll-up's draw statistics (ε_spin, f_amp) may have a measurable laboratory counterpart in dilute-BEC turbulence experiments. Candidate grade; needs the statistics mapping before it earns a row.
 

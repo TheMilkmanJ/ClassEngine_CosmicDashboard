@@ -27,7 +27,7 @@ the relation's robustness is EXPLAINED here and accidental everywhere else.
 ## 2. The live half: WHY IT HOLDS (the lane, honest status)
 
 The genesis tilt ε_A is a free parameter whose registered value 2/9 was an ECHO of Koide's
-fraction (an import, not an independent appearance — provenance audited, hunt entry 143;
+fraction (an import, not an independent appearance — provenance audited;
 under the democratic-weight conjecture w(1−w) = 2/9 it would be promoted from echo to
 prediction, and the f_amp scan's own table then pins f_amp ≈ 0.69 as its independent check) — and
 the Card-2 arc (the 512-run, the winding average, the ramp) has circled f_amp = 11/18-class

@@ -40,7 +40,7 @@ separate parameters.*
 | **21-cm lines** | z ≈ 30–150 | rest frequencies shifted +2.5% (the (1+ε)² identity), with the exact ratio-lock ν_H/ν_D; the screening edge's *shape* reads the gate | registered (P-2026-022/027) |
 | **the ε-dipole** | today, horizon scale | δm_e/m_e ≈ 6×10⁻⁷, axis-correlated | registered (P-2026-024); consistent null today |
 | **Σm_ν de-bias** | parameter fits | model-conditional neutrino masses stay physical (61.4 meV vs DESI's ≲ 72 meV squeeze) | recorded; referee near |
-| **the supernova channel** | z < 0.15, unscreened hosts | **verdict signed (entry 69/76): the sign is opposite to the Hubble tension** — SN standardization *cannot* supply the remaining H₀ gap (162/162 template configurations, robust). The channel survives inverted: a screening-dependent standardization offset matching the observed **host mass step's** class — a discriminable rival to dust explanations (host-*density* trend vs color-dependent step) — **entries 85/85b: subdominant at central values (~0.02 mag, environment-tagged), but the full step survives as a corner claim at C_ref ≈ 2 — the gate's own fence window; the DESI forest cross-calibration adjudicates the fork; the cluster-SN null stays the clean test** | computed; the H₀-lever branch closed, the candidacy forked on the forest |
+| **the supernova channel** | z < 0.15, unscreened hosts | **verdict signed: the sign is opposite to the Hubble tension** — SN standardization *cannot* supply the remaining H₀ gap (162/162 template configurations, robust). The channel survives inverted: a screening-dependent standardization offset matching the observed **host mass step's** class — a discriminable rival to dust explanations (host-*density* trend vs color-dependent step) — **subdominant at central values (~0.02 mag, environment-tagged), but the full step survives as a corner claim at C_ref ≈ 2 — the gate's own fence window; the DESI forest cross-calibration adjudicates the fork; the cluster-SN null stays the clean test** | computed; the H₀-lever branch closed, the candidacy forked on the forest |
 | **the Lyman-α forest** | z ≈ 2–3, near-mean density | absorption offset ε × gate(Δ ≈ 1); the differential null forces the steep gate; DESI's forest cross-calibration is the executioner | live test, named |
 
 ## 3. The gate (what turns ε off)
@@ -50,13 +50,13 @@ T_c ≈ 179 keV, per the BBN window), fading over z ≈ 30–60 by one of two re
 readings — A (thermal, global) or B (environmental, tracking local clumping). Under B
 the gate is a smooth, steep curve in local density, fenced four independent ways (the
 forest's observed flatness, the SN host-density range, P-2026-022's fade profile, and
-the composition-cliff invariant of entry 84 — the swing's fixed potential step
-ΔΦ = c²f_lep·ε₀ = (553 km/s)² — receipt: f_lep = m_e/2m_u = 2.74×10⁻⁴ (the Y_e = ½ convention: one electron per two nucleons, the helium-and-heavier floor; every realistic composition carries MORE electrons per unit mass — pure H gives 779 km/s — so 553 is the CONSERVATIVE minimum and the fence only strengthens from it; ε₀ = 1.24%; hunt entries 84/145b) — exceeds real halo potentials, so the gate must swing at
+the composition-cliff invariant — the swing's fixed potential step
+ΔΦ = c²f_lep·ε₀ = (553 km/s)² — receipt: f_lep = m_e/2m_u = 2.74×10⁻⁴ (the Y_e = ½ convention: one electron per two nucleons, the helium-and-heavier floor; every realistic composition carries MORE electrons per unit mass — pure H gives 779 km/s — so 553 is the CONSERVATIVE minimum and the fence only strengthens from it; ε₀ = 1.24%) — exceeds real halo potentials, so the gate must swing at
 void/supercluster boundaries, not around individual galaxies) — one curve, four fences,
 three skies. A-versus-B is registered (the 21-cm edge shape decides) and
 controls both the dark-ages signal and the supernova channel. The laboratory, Oklo, and
 molecular-absorber nulls survive under B structurally, not by tuning: every such
-instrument lives in a screened environment (the absorber audit, entry 66 — molecules
+instrument lives in a screened environment (the absorber audit — molecules
 only form where ε is off).
 
 ## 4. The referees and the killers
@@ -106,5 +106,5 @@ no exits" statement the file now carries.
 
 [Hart–Chluba 2020], [Sekiguchi–Takahashi 2021] (the varying-m_e mechanism);
 [Planck 2018], [Riess 2022] (the two skies); [Ubachs μ-class] (the screened-room
-nulls); internal: the fingerprint lattice, THREE_EQUATIONS, entries 59/66–69/76.
+nulls); internal: the fingerprint lattice, THREE_EQUATIONS.
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

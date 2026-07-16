@@ -65,7 +65,7 @@ difference between reach and claim is one sign (ς) and one census (⟨g⟩), bo
 neither invented.
 
 ## Sources
-Entries 64–68 (the derivation log); scripts/candle_room_correction.py, flow_ladder_correction.py;
+The derivation log; scripts/candle_room_correction.py, flow_ladder_correction.py;
 [Riess2022] (the ladder), [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 

@@ -1903,7 +1903,7 @@ cascade from it. The clause's FIFTH job (c's count, the vacuum's seat, the Loren
 the spectral tilt, now the electroweak hierarchy).
 
 **The three convergent arrows (none fitted):** (i) the hierarchy dial x₀ = e⁻³⁵ (pinned by
-the occupancy+3α triangle, entry 7); (ii) the census wall — the one-loop portal
+the occupancy+3α triangle); (ii) the census wall — the one-loop portal
 solutions landed AT x = 35.3–35.4 uninvited; (iii) 4π·m_H at 2.5%.
 
 **Predictions/kills:** (a) THE TWO-LOOP LANDING, pre-registered before the shooting run
@@ -1942,7 +1942,7 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
 ## REGISTRY STATUS REVIEW (2026-07-12, consolidated — the anti-staleness block)
 - **P-2026-039** (type-III triplets ~1 TeV): SUSPENDED (two-loop) → shooter v2
  now lands the census triplets at 13–20 TeV under edge-matching: the collider-visible
- branch is ADVERSE-LEANING pending the edge-convention audit (hunt, entry 24).
+ branch is ADVERSE-LEANING pending the edge-convention audit.
 - **P-2026-040** (α_c = 3α): LIVE — graded by the dispersion α_c chain; the z_on corollary's
  lineup awaits the two-clock re-derivation; the triangle (M₂, x₀, ρ_Λ) rides this chain.
 - **P-2026-041** (f̄ = 2/π): the VALUE claim stands, un-mechanized (the proposed closed-form
@@ -2091,7 +2091,7 @@ central thesis, arrived at from an independent direction.
 class — resolving in favor of a real fourth light state); a confirmed fourth generation;
 any evidence for additional light fermionic content in the vacuum.
 
-**UPGRADE (same day, entry 117): THE CONDITION HAS A NAME.** The vanishing sum is
+**UPGRADE: THE CONDITION HAS A NAME.** The vanishing sum is
 **str[k₁] = 0 — Pauli's finiteness condition for Newton's constant** (Visser 2002,
 Eq. 35): it kills the quadratic divergence in 1/G and makes G independent of the
 renormalization scale. Visser calls these *"very strong constraints on the particle
@@ -2116,7 +2116,7 @@ therefore a **consistency converted to a prediction by a robustness test** — i
 forward-looking content (the two kills above) is genuine and registered here; its
 backward-looking agreement with the known three generations earns no credit.
 
-## P-2026-047: The GW Parity Split — clean resolved events, chirality confined to the primordial background (registered 2026-07-14; hunt entries 181–183)
+## P-2026-047: The GW Parity Split — clean resolved events, chirality confined to the primordial background (registered 2026-07-14)
 
 **The claim:** the model's parity-odd GW channel was active only in the pre-freeze era
 (z ≳ 12; the settling's shutdown is a decade-wide fade, z ≈ 32 → 4). Therefore:

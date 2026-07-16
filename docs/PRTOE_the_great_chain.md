@@ -25,7 +25,7 @@ for its temperature (T_c ≈ 179 keV). *Then I learned my two densities.*
 issued exactly against gravity's debt. Every future event will be a transfer between my
 columns (dE = −pdV). *Then I opened the books, balance: zero.*
 
-**GEN 4 — MATTER JOINS.** RESOLVED (the tenancy ramp, derivation log entry 91): "made of"
+**GEN 4 — MATTER JOINS.** RESOLVED (the tenancy ramp): "made of"
 is measured, not chosen — the neutrino is my full tenant (its mass is my own line), the
 charged leptons rent 1.24% of theirs from me, the baryons ride at parts-per-billion, and
 the photon owes me nothing by law (L1a). Tenancy spans nine orders across the particle
@@ -93,7 +93,7 @@ Every arrow above is a citation, not a metaphor: the vacuum start, the winding,
 the zero-sum, the account, the witness, the dyad at recombination
 (the H₀ core), the screens, the uniformity, the license (the arrow doc),
 the blindness (L1a, proven), the cousins (the volt). Where a link is hypothesis, it is tagged
-in place (GEN 4's constituent door — H-TOE's gates; the mass-sourcing fork resolved, entry 91). The chain adds nothing to the standing; it is the
+in place (GEN 4's constituent door — H-TOE's gates; the mass-sourcing fork resolved). The chain adds nothing to the standing; it is the
 inheritance DAG read aloud, once, as a life.
 
 ---

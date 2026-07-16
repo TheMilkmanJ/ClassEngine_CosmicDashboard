@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: filed 2026-07-14 (hunt entries 79-class and 171). Grade: structural identity —
+*Status: filed 2026-07-14. Grade: structural identity —
 grammar-level, zero new predictions of its own; its content is the SEATING of three
 already-recorded results, plus one paired signature it inherits from the thermal program.
 Rides M3 (the medium's reality). Companion files:
@@ -99,5 +99,5 @@ behind it.*
 [Landau 1941] (two-fluid hydrodynamics; second sound); [Bardeen–Cooper–Schrieffer 1957]
 (the pair as a constructed entangled superposition); [Yang 1962] (ODLRO); [Anderson 1966]
 (phase slips); [Volovik 2003] (the condensate-vacuum program). Full entries:
-[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the three-in-one (hunt entry 79-class), the
+[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the three-in-one, the
 three-door guideline, the seating, the second-sound pairing.

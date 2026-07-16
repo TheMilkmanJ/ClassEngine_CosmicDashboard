@@ -60,8 +60,7 @@ to numerology and strikes it from the lineup).
 
 ## Sources
 The onset-clock identity (include/background.h, the coded T = 9.41 keV derivation);
-[Volovik2003] (composite-vacuum precedent); internal: entries 6, 12, 13
-(PRTOE_DERIVATION_HUNT.md), P-2026-040's corollary chain. Full list:
+[Volovik2003] (composite-vacuum precedent); internal: PRTOE_DERIVATION_HUNT.md, P-2026-040's corollary chain. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## 4a. RESOLVED BY STABILITY: THE UNIT IS THE PAIR
@@ -77,7 +76,7 @@ arrow, one mirrored against it — the ghost's grammar), and that job is FULL at
 stability proof says quartets cannot bind; the registered reading says they would have
 nothing to do. Impossibility and pointlessness, one verdict.
 
-**Bets graded (2026-07-12):** the TWINS bet — WON (derived, entry 33). The exact-number
+**Bets graded (2026-07-12):** the TWINS bet — WON (derived). The exact-number
 bet — LOST honestly (the registered 7.72 vs the collapsed mark 7.547; the 7.70/7.72
 zone was a constructional double-count, so the number-bet was
 placed against a mislabeled board — noted, still graded as lost per the house rules).

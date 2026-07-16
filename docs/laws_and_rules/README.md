@@ -375,5 +375,5 @@ the perturbations (modes), and the thermodynamics (rates) — and for a real med
 readings must agree (the fluctuation–dissipation structure). **Use:** cross-door joints are
 DIAGNOSTIC — a strain is a place to look, never an executioner; run the guideline as a survey
 to find under-built doors and unseated furniture (its first survey located the thermal
-program and the Λ value board — hunt entries 160–174). The operator's ruling stands: too many
+program and the Λ value board). The ruling stands: too many
 laws have bitten; this one stays a suggestion with a good track record.

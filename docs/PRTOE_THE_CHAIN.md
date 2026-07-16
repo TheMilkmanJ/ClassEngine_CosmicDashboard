@@ -44,7 +44,7 @@ ordering's first half.
 → **Tether 2→3 [RECORDED, production-grade]:** the handoff observable IS the windowed BBN
 pattern — freeze-out abundances locked pre-condensation.
 
-**3. CONDENSATION, T_c ≈ 179 keV (z ≈ 7.6×10⁸):** the medium condenses mid-BBN — and the birth is a RAMP, not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field, Gi ≪ 1 certified; coded into the pipeline 2026-07-14, hunt entries 162/164) — (between
+**3. CONDENSATION, T_c ≈ 179 keV (z ≈ 7.6×10⁸):** the medium condenses mid-BBN — and the birth is a RAMP, not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field, Gi ≪ 1 certified; coded into the pipeline 2026-07-14) — (between
 n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV); pairing forms
 (doubling season); ε ramps ON; the winding current becomes physical.
 → **Tether 3→4 [RECORDED]:** hands off ε(on), the superfluid, the winding k₀ = 2πn/L, and
@@ -69,7 +69,7 @@ quantizes through the condensation ramp; n locks at the phase-slip freeze-out �
 mechanical, noise-dressed; the KZ dice demoted to the residual + the ± genome coin);
 the census lock = the pour's thermal snapshot (the entry-75 reconciliation).]**
 
-**5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits entry 44's grade]:** the payroll snapshot
+**5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits the upstream rung's grade]:** the payroll snapshot
 — the pivot scale stands 781 cells across; A_s = 1/N frozen. The μ-era referee (entry
 46, ramp-corrected): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;
 1/m-branch whispers at μ ~ 10⁻⁹ (PRISM-class reach). *Room checked and COLD en route:
