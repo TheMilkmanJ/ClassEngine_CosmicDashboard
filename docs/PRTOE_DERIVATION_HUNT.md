@@ -8327,3 +8327,32 @@ conservation intuition correctly located a sub-ohmic self-tuning sector; it's th
 "hammer" works on the DM wall, not the DE wall. Net: the settling route to the DE VALUE is CLOSED (ohmic);
 sub-ohmic is filed to the DM sector where it belongs; the DE value stands on the seam route + the strong
 sector (task #48), with the coincidence problem intact (no self-tuning on the w=−1 floor).
+
+---
+
+### Entry 227 — TASK #48 FLESHED: THE DARK-CONFINING LAGRANGIAN + ΔN_eff, COMPLETE (operator: "flesh it out"): **explicit Lagrangian; cold dark sector NATURAL (T_dark/T_γ=0.33 by early decoupling); ΔN_eff(BBN)≈0.1–0.25 (primary test, D/He); ΔN_eff(CMB)≈0.027 (S4 edge); ~MeV warm dark-baryon DM. HONEST CORRECTION: the earlier "sharp CMB-S4 test" was too strong**
+
+**Lagrangian.** L = −¼G^a_{μν}G^{aμν} + Ψ̄_d(iD̸−m_d)Ψ_d + (λ/M*)(Ψ̄_dΨ_d)(ēe) + L_SM. SU(N_d) dark color
+(confining, Λ_dark~m_d~m_e via the dyad portal → sources g_p by transmutation). Confined spectrum: dark
+pions π_d (N_f²−1, mass ~m_e from the explicit m_d~m_e breaking), dark baryons B_d (~N_d·m_e, the DM), the
+U(1) phase Goldstone (massless).
+
+**Cold dark sector — NATURAL (not tuned).** Decoupling above the EW scale → T_dark/T_γ = (g_now/g_dec)^{1/3}
+= (3.91/106.75)^{1/3} = **0.33** by entropy dilution; T_dark/T_ν = 0.47.
+
+**ΔN_eff, computed with the dark masses (the key subtlety):**
+- **BBN (T~MeV):** dark pions ~m_e still relativistic → **ΔN_eff ≈ 0.10 (N_f=2) to 0.25 (N_f=3).**
+  BBN-constrained (< ~0.4), consistent. **PRIMARY test = primordial D/He.**
+- **CMB (T~0.26 eV):** dark pions NON-relativistic → only the massless U(1) Goldstone survives →
+  **ΔN_eff ≈ 0.027**, at the CMB-S4 σ(0.03) EDGE (not a clean detection).
+- **DM = dark baryons ~N_d·m_e ≈ 1.5–2.5 MeV** — warm-ish; small-scale-structure test.
+
+**HONEST CORRECTION (audience law):** hunt 222/224 and cosmological_constant §2c said "cold dark sector,
+sharply CMB-S4-testable." Too strong — the massive dark states (most of the ΔN_eff) FADE by the CMB, so
+CMB-S4 sees only the marginal Goldstone (~0.027). The PRIMARY test is BBN (ΔN_eff~0.1–0.25), not CMB-S4.
+Corrected below.
+
+**Net:** task #48's dark-confining proposal now has an explicit Lagrangian, a natural cold-sector origin,
+and a falsifiable three-front signature — **ΔN_eff(BBN)~0.1–0.25 (D/He, primary), ΔN_eff(CMB)~0.027 (S4
+edge), ~MeV warm dark-baryon DM (small-scale structure).** It sources g_p (→ the DE digit) AND is the DM
+sector (unification). Still a candidate (new physics), now with sharp near-term tests, primarily BBN.

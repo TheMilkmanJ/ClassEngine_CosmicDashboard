@@ -105,8 +105,9 @@ digit rests on the one thing the model doesn't yet contain: the strong force tha
 **Proposed (hunt 222):** a dark, confining (dark-color) sector SOURCES g_p by dimensional transmutation
 (strong at Λ_dark, automatic) and PRESERVES (d/2)α⁴m_e via a dark lepton degenerate with the electron
 (Λ_dark ~ m_e, electron stays elementary — composite-electron is excluded 7 orders). τ_dark ~ 0.34 sits
-in the QCD-like band. It predicts a COLD dark sector (ΔN_eff < 0.3 → T_dark/T_γ < 0.5, CMB-S4-testable)
-and ~m_e dark-hadron DM — plausibly UNIFYING the DE-value binding with the dark matter. A coherent,
+in the QCD-like band. It predicts a naturally COLD dark sector (T_dark/T_γ=0.33 by early decoupling) with ΔN_eff≈0.1–0.25
+at BBN (the PRIMARY test, D/He; not CMB-S4 — the massive dark states fade by recombination, leaving only
+ΔN_eff≈0.027 at the S4 edge, hunt 227) and ~MeV warm dark-baryon DM — plausibly UNIFYING the DE-value binding with the dark matter. A coherent,
 falsifiable HYPOTHESIS (candidate), not a derivation; residuals = τ_dark and the m_dark~m_e mechanism.
 Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
 scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
