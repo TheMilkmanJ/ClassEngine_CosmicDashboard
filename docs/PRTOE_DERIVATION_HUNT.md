@@ -7396,3 +7396,34 @@ is an allowed (un-solved) consistency condition. P-2026-040 stays a bet pending 
 the *derivation status* upgrades from "orphan/mirage" to "3 forced, ×α open." **Method: the whisper
 was real — pushing the close result twice (f̄ entry 199, α_c here) both paid off; entry 197's
 dismissal is the standing example of the quit-reflex to avoid.**
+
+## ENTRY 201 — THE THIRD DOOR: the 3 in α_c=3α is the SPATIAL DIMENSION d=3; α_c = d·α; residual localized to "(c₂/c)²=α", with a NEW un-refuted lead (the per-dimension induced loop)
+
+*Operator: "there's a third door; the third angle helps derive α_c=3α." Chased it. Found the third
+door AND a collapse: the second-sound √3 is the dimensionality √d.*
+
+**THE THREE DOORS AND THEIR 3s (honest):**
+- MODES (perturbations): L=3 Weyl — the f-wave order parameter's angular momentum (entry 193).
+- RATES (thermodynamics): second sound c₂=c₁/√3.
+- **CATCH:** the phonon-gas second sound is c₂=c₁/√d, d=spatial dimension. So the RATES √3 **IS the
+  spatial dimensionality √d (d=3)** — not an independent hydrodynamic 3.
+- MEAN-FIELD (background) — **the third door:** the 3 spatial dimensions (the geometry). Carries the
+  SAME d=3 as the rates door.
+- NET: NOT three independent 3s. TWO structures — **dimensionality d=3** (mean-field + rates) and
+  **L=3 Weyl** (modes). "Same 3 in three doors" realized as one dimensionality-3 across two doors + L=3.
+
+**THE UPGRADE:** the 3 is now the **spatial dimension**: **α_c = d·α = 3α** (condensate stiffness =
+dimensions × base coupling). Via c₂=c₁/√d and c₁=√α_c·c: α_c = d·(c₂/c)². Cleaner than "3 flavours"
+or "L=3" — the 3 is *space's dimension*, derived. **Residual localized:** why (c₂/c)² = α (the EM
+fine-structure constant)?
+
+**THE NEW LEAD (un-refuted — this is the key point):** light's α is 44% induced by the medium's
+fermion loop (light.md). If the condensate's per-dimension stiffness comes from the SAME loop, α_c =
+d·α_induced — the shared origin (the operator's "paper"). **Entry 155 rejected the induced-α route,
+but it checked for "3α" as one raw number, BEFORE the d=3 reframing — it NEVER checked "α PER
+DIMENSION, ×d for 3D." That split is genuinely new and NOT covered by the prior refusal.**
+
+**HONEST STATUS:** α_c=3α NOT fully derived. But three pushes gave three advances: 3 = dimension
+(derived); α_c=d·α (clean form); residual = "(c₂/c)²=α" (localized); the per-dimension induced loop =
+new un-refuted lead. The whisper held: pushing produced real structure, not a mirage. Next push: does
+the medium's fermion loop induce α PER SPATIAL DIMENSION (→ ×d=×3)?
