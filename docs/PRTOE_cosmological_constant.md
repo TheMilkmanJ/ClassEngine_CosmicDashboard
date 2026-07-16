@@ -61,14 +61,20 @@ with *d* = 3 the spatial dimension, α the fine-structure constant, and m_e the 
 scaling is derived — the condensate's own binding (α_c²) times the electromagnetic handshake (α²) — and
 the electron mass enters because the condensation is tied to it.
 
+*(Consistency note on T_c.* M₂ = 9.39 eV corresponds, via M₂ = α²·T_c, to a dyad condensation scale
+T_c ≈ 176 keV — the low end of the adopted [40, 900] keV band. The nominal T_c = 193 keV used
+elsewhere in the corpus would give M₂ = 10.3 eV and ρ_Λ¼ = 2.46 meV (a 9% shift, comfortably inside
+the band). The DE digit therefore leans on the lower end of the T_c range.*)
+
 **What is derived, and what is not.** The *scaling* above is derived and lands within a few percent. The
 remaining input is a single order-one number: the ratio of the condensation temperature to m_e, set by
 how strongly the medium's constituents bind. The medium's known couplings are too weak to supply that
 binding, so this number rests on a proposed **dark confining sector** — a "dark colour" force whose
-scale is pinned to the electron mass — which supplies the strong binding and, in the same stroke, is the
-dark-matter sector (see §5 for its falsifiable signature). That proposal is a candidate, not a
-derivation. So the honest reading is: the dark-energy *scale* follows a derived closed form; its last
-digit rests on one strong-coupling number that a well-motivated but unproven dark sector would fix.
+scale is pinned to the electron mass — which supplies the strong binding. This sector sets the
+dark-energy *binding scale* only; the dark matter remains the medium's own excitations, as in the core
+model. That proposal is a candidate, not a derivation. So the honest reading is: the dark-energy *scale*
+follows a derived closed form; its last digit rests on one strong-coupling number that a well-motivated
+but unproven dark sector would fix.
 
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,

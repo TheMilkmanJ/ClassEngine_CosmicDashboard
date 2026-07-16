@@ -37,7 +37,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 | k = ln(1+π/2α_c)/π = 1.36461 | the interaction integral + the regime-consistency adjudication (both screening channels evaluated in their own regimes) | [D-conditional] | the roster trial breaks the twin-screening |
 | **A_s = (α_c/4πk)³** | k + the shot-noise mechanism (half-derived: the count C unmechanized) | **[C] — FROZEN into the current run by author decision; the corpus's highest-risk standing claim** | the lock-count derivation fails; the run itself can kill it |
 | n_s = 1 − 2/ln(M_Pl/T_on) | the census drift + THE EXEMPTION CLAUSE (the 2 = open dimensions) + z_on | [D-E] | the α_c MCMC moves T_on off the landing |
-| ρ_Λ = E_b⁴ (the pinch) | occupancy-one + BEC-side ownership | [D] (20% residual on ρ_inf, firewalled) | the crossover corollary fails |
+| ρ_Λ = E_b⁴ (the pinch) | occupancy-one + BEC-side ownership | [D] (½α_c²M₂ = 2.251 meV, 4×10⁻⁴; but M₂ selected by the same closure — one constraint, three names — and α_c-conditional) | the crossover corollary fails |
 
 ## Tier 4 — the genesis (children of the ring frame; comoving-toy grade)
 

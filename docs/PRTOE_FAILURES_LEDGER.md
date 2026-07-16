@@ -313,7 +313,7 @@ uncomputed 2-loop constant (PMS-scaling argument). Value remains UNDERIVED.
 
 - The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned prediction (radio-arbitrated).
 - The dCDF perturbation sector: the fluid clusters as dust by construction (cs² ≡ 0) — the known structural gap (the working docket).
-- ρ_inf: 20% residual (the 5/6 note — firewalled, mechanism owed).
+- ρ_inf: the occupancy binding ½α_c²M₂ = 2.251 meV (4×10⁻⁴); the earlier 2.695 loop-dressed reading (20% residual) was retired as input-inconsistent. Residual: M₂ is selected by the same closure (one constraint, three names) and α_c = 3α is under test — the mechanism for M₂ is owed.
 - The c-roster watch: RESOLVED toward 9/10 (hunt 203–206) — the census reads the universal charged roster (not leptophilic); direct-Majorana light mass makes the neutrino the ε fixed-point seat → 9/10; the old "data lean 12/13" was backwards (the fit sits below 9/10). Residual: the un-derived value μ = 2.25 meV.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
 - The G-closure's matter-only branch: CLOSED ADVERSE by the signed demand (entry 86 — a leptophilic all-positive roster induces wrong-sign gravity under Visser's anchoring); the closure survives only through the winding's vector sector, whose weight is underived.

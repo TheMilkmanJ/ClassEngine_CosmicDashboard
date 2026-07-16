@@ -17,8 +17,11 @@ One complex scalar (a cosmological superfluid) replaces separate dark matter and
 $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\right]\psi$$
 
 - The **condensate ground state** supplies the $w = -1$ component (dark energy is the
- medium's zero-point sector; its computed scale: $\rho_{\rm inf}^{1/4} = 2.695$ vs the
- measured $2.25$ meV — 20%, zero dials, spine §18).
+ medium's zero-point sector; its computed scale is the vacuum-occupancy binding energy
+ $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = 2.251$ meV vs the measured $2.25$ meV —
+ agreeing to 4 parts in $10^4$, though the mass scale $M_2$ is fixed by the same closure
+ (one constraint wearing three names) and $\alpha_c = 3\alpha$ is under test; see the
+ cosmological-constant document).
 - The **excitations** are the dark matter: radiation-like above a transition redshift
  $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector as implemented in
  CLASS).
