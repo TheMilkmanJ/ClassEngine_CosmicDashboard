@@ -7035,3 +7035,37 @@ FIXED k (sweep ω, fit slope): Im χ_nn ∝ ω^(+1.000) — genuinely ohmic, tex
 forward ladder (Parts 1/2/4) was arithmetically correct throughout. **Net: entry 189's result and
 every downstream conclusion (21-dex forward miss, gap → the attractor's sub-ohmic index) STAND —
 the ohmic input is now proven, not assumed.** Script Part 3 corrected in place.
+
+## ENTRY 190 — CHIRALITY IS THE BARYOGENESIS ENGINE (the Sakharov mapping + the He-3-A anomaly + the Weyl-coefficient tie) [CANDIDATE — mechanism mapped, magnitude owed]
+
+*Pulling the chirality thread (entry 188's He-3-A identification of the dCDF). The parity-odd
+condensate doesn't just carry GW handedness — it supplies the whole baryogenesis engine.*
+
+**The three Sakharov conditions, all from one object (the chiral dCDF):**
+- **C/CP violation** ← the chirality itself: a parity-odd (He-3-A-class) condensate breaks P and CP
+  by construction. The handedness IS the CP violation.
+- **charge-number violation** ← the winding / phase-slips: the winding number changes only through
+  slips; each slip changes the topological charge.
+- **departure from equilibrium** ← the pour / settling: genesis is the out-of-equilibrium injection.
+
+**The engine — the He-3-A chiral anomaly (real, Volovik).** He-3-A physically realizes the
+Adler–Bell–Jackiw anomaly: a moving texture pumps fermionic charge "from the vacuum" via
+**spectral flow through the Weyl points** ("momentum from nowhere," Volovik, *The Universe in a
+Helium Droplet*). That anomaly is the SAME equation baryogenesis uses — ΔN_fermion ∝ Δ(winding/
+texture). So the dCDF carries not just Sakharov's *conditions* but the *engine* that converts
+chirality × winding-change → net charge. "The superfluid fathered the universe" becomes a named
+mechanism: **anomaly-mediated charge generation through the chiral condensate's Weyl points.**
+
+**The Weyl-coefficient tie (the load-bearing number).** The anomaly strength ∝ Σq² over the Weyl
+points. He-3-A carries **2** (charge ±1); the basement needs **3 Fermi points** (generations). So
+the open 2-vs-3 Weyl question (entry 188 §2) sets THREE things at once: **the generation count, the
+GW-chirality amplitude, AND the baryogenesis coefficient.** One structure, three jobs — the single
+most load-bearing number in the medium.
+
+**HONEST BOUNDARY.** This is a mechanism MAPPING, not a computed η. The observed baryon-to-photon
+ratio (η ≈ 6×10⁻¹⁰) is NOT derived — it needs the CP phase and the winding magnitude, neither
+pinned. The AD-spiral is booked as a DOOR; the 5:1 dark:baryon ratio is an honest INPUT. Magnitude
+OWED. The **dark→visible transfer** is the model's own flagged crux (sphalerons at 130 GeV vs the
+field frozen till 9.4 keV — the timing problem). The chirality sources the DARK asymmetry cleanly;
+handing it to the visible baryons is the hard step. Grade: CANDIDATE, unbanked; funnels into the
+3-Weyl-point question.
