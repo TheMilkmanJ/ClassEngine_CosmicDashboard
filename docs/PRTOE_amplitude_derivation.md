@@ -123,7 +123,7 @@ of it.
 
 ---
 
-## SESSION UPDATE — §75–92 (2026-07-08): the coupling structure, and where it stands
+## The coupling structure, and where it stands
 
 *The consolidation above froze at §74. This block carries it to §92.*
 
@@ -171,7 +171,7 @@ flavor must be matter's own — the medium has no organ to make it.
 
 ---
 
-## SESSION UPDATE — #11 analytic backbone (2026-07-08): the amplitude PINS the mass
+## The analytic backbone: the amplitude PINS the mass
 
 `scripts/amplitude_11_analytic.py` (fast/analytic, completes in-sandbox; the stiff
 genesis ODE for f_amp still needs WSL). Result:
@@ -187,7 +187,7 @@ genesis ODE for f_amp still needs WSL). Result:
 - **OWED (factor-level, not order-level):** f_amp from the genesis orbit (WSL ODE), c from
  the loop, O(1) misalignment factors (~2x). These move the pinned m by factors.
 
-## SESSION UPDATE — #11 f_amp orbit (2026-07-08): mechanism confirmed, ~0.6 natural
+## The f_amp orbit: mechanism confirmed, ~0.6 natural
 
 `scripts/genesis_famp_orbit.py` (Cartesian, NON-stiff, runs in-sandbox -- the WSL
 caveat did NOT bind). Complex AD field in V=m²|Psi|²+lam|Psi|⁴ with Hubble
@@ -207,7 +207,7 @@ orbit.
 (the effective-action loop). The three are mutually consistent at 1.24% for
 m~2×10⁻²⁰ eV, c~1, f_amp~0.6.
 
-## SESSION UPDATE — #2 (real Z4 A-term) + #14 (c verdict), 2026-07-08
+## The real Z4 A-term, and the c verdict
 
 **#2 -- f_amp from the MODEL's real A-term (`scripts/genesis_famp_Z4.py`).** Z4 tilt
 V_A = eps_A lam (Psi⁴ + h.c.) = 2 eps_A lam R⁴ cos(4theta); field released AT REST
@@ -231,7 +231,7 @@ Z4 dice (~0.6), c a bounded soft-dial degenerate with m. The 1.24% is now a **de
 relation between two ultralight-sector numbers (c, m)**, not a free fit -- a constraint
 surface with two astrophysical ways to close it.
 
-## SESSION UPDATE — c-m degeneracy BROKEN by fuzzy-DM data (2026-07-08)
+## The c-m degeneracy, broken by fuzzy-DM data
 
 c-m curve (f_amp=0.6): **c(m) = (m / 2.24×10⁻²⁰ eV)^(1/4)**; naturalness c<~1 ⇒ m <~ 2.24×10⁻²⁰ eV.
 Fuzzy-DM lower bounds: Lyman-α (Rogers&Peiris 2021) m>2×10⁻²⁰ eV (95%); UFD (Dalal&Kravtsov
@@ -245,7 +245,7 @@ Fuzzy-DM lower bounds: Lyman-α (Rogers&Peiris 2021) m>2×10⁻²⁰ eV (95%); U
 - **#6 is now a SHARP test:** as c tightens from +-0.38, it either nails c~1 (confirms corner)
  or drifts low (m below Lyman-a floor → tension).
 
-## SESSION UPDATE — origins audit: c derives from the CENSUS (honest downgrade, 2026-07-08)
+## Origins audit: c derives from the census (honest downgrade)
 
 Traced the "convergences on c~1" to their roots; two corrections + one deepening:
 - **OVERCOUNT corrected:** "measured c=0.93" is NOT independent -- it is the amplitude eps
@@ -327,7 +327,7 @@ DE-component w-evolution; the theorem forbids it IF the settling shares the m̄�
 the drift (likely). DOWNGRADED to uncertain pending: is the field's SETTLING onto the floor a
 separate process from the floor's DRIFT? Owed.
 
-## SESSION UPDATE — #8 granule sim built: the S=(1+f_rot²)/2 law does NOT reproduce (2026-07-08)
+## The granule sim: the S=(1+f_rot²)/2 law does NOT reproduce
 
 `scripts/granule_sim.py` (first build, transparent). Tested whether the claimed granule-power
 law S=(1+f_rot²)/2 (which would let a halo's granule contrast read out f_amp independently of
@@ -341,7 +341,7 @@ serve as an independent f_amp cross-check until the correct two-component speckl
 derived. Honest negative (same discipline as the self-tuning toy). f_amp~0.6 currently rests on
 the Z4-dice orbit calc ALONE; the granule cross-check is not yet real.
 
-## SESSION UPDATE — the gravitational parity door: computed, Planck-suppressed (2026-07-08)
+## The gravitational parity door: computed, Planck-suppressed
 
 The birefringence-of-LIGHT door is welded shut (EM-neutral → anomaly coeff = 0, and charge
 conservation forbids any residual). The genesis twist's parity preference (θ-dot ≠ 0 from
@@ -360,7 +360,7 @@ factor rescues 5-6 orders). The universe's birth-spin twists spacetime, just imp
 This is the honest counterpart to the birefringence null: light door WELDED (charge), gravity
 door OPEN but the room is nearly empty (Planck suppression). [[birefringence-null-proven]]
 
-## SESSION UPDATE — criticality crossover killed (frequency), + verdict on the whole GW door (2026-07-08)
+## Criticality crossover killed (frequency), and the verdict on the whole GW door
 
 `scripts/chiral_induced_gw.py`: tested whether critically-amplified parity-odd scalar perturbations
 source an OBSERVABLE chiral induced-GW background (the one place scalar criticality χ~1/c_s² can
@@ -381,7 +381,7 @@ Verdict on the entire gravitational-parity finding:
  frequency-banished + misapplied-amplification (induced). The birefringence-null's gravitational
  counterpart is ALSO observationally null, for robust structural reasons. [[birefringence-null-proven]]
 
-## SESSION UPDATE — #11 swing: the +1.24% m_e amplitude CONVERTED from fit to prediction (2026-07-08)
+## The +1.24% m_e amplitude, converted from fit to prediction
 
 `scripts/amplitude_11_assembly.py`: assembled eps = c * f_amp * (Psi0/M_red) with propagated
 uncertainties. Psi0 (abundance-pinned) and f_amp (Z4 genesis dice) are BOTH fixed by physics
@@ -394,7 +394,7 @@ and force the ~1% SCALE; the central value lands on the data. The ONLY residual 
 single O(1) coupling c, natural at ~1. #11 status: 1 free param → 0, plus one natural O(1) the
 data pins to ~1. Order-of-magnitude + central value DERIVED; sharp value pending c (= #14/#16/#17).
 
-## SESSION UPDATE — #16 swing: c-m degeneracy mapped, UFD tension survived (2026-07-08)
+## The c-m degeneracy mapped, UFD tension survived
 
 `scripts/c_m_degeneracy.py`: the amplitude fixes a COMBINATION of c and the field mass m, not
 either alone. Abundance pins Psi0 ∝ m^(-1/4), so at fixed observed eps:
@@ -411,7 +411,7 @@ with natural, not yet sharp. #16 delivers c empirically to a factor ~2, bounded 
 NEW THREAT REGISTERED: if future data pushes m > ~1×10⁻¹⁸ eV, c strains past ~2.6 toward unnatural
 -- a naturalness ceiling on the field mass. That is the live falsifier for the amplitude program.
 
-## SESSION UPDATE — birefringence graveyard dig: the portal downgraded to a clean kill (2026-07-08)
+## Birefringence: the portal downgraded to a clean kill
 
 Final resurrection pass over all ~15 birefringence-source attempts. Result: NOTHING resurrects.
 Three death classes are un-revivable: (1) killed by conservation law/definition (residual/decaying
@@ -429,7 +429,7 @@ The superfluidity itself murders the only photon-coupling route. ⇒ the last "m
 P-2026-009 birefringence null is now hardened: every grave is a clean kill, and the one that had a
 pulse (portal) flatlined on re-exam. [[birefringence-null-proven]]
 
-## SESSION UPDATE — non-birefringence gold from the graveyard dig (2026-07-08)
+## Non-birefringence results from the same analysis
 
 Mining the birefringence graveyard for what it says about the model OTHER than birefringence:
 1. CENSUS IS STRUCTURALLY FORCED (biggest): the portal autopsy generalizes → because the medium
