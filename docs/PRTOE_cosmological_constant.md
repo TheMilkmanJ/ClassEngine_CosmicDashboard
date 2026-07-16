@@ -106,21 +106,19 @@ The two sides of condensed matter's most famous crossover perform the two famous
 in one vacuum: the weak side's exponential gap digs the electroweak hierarchy; the
 strong side's occupancy sets the cosmological constant.
 
-## 4b. The three doors to Λ (2026-07-14 — the thermal-door arc; hunt entries 140/165)
+## 4b. Three readings of the same residual
 
 One quantity, three independent readings, one demanded number — the medium's own
 consistency structure applied to its most famous problem:
 
-- **The thermodynamic door — the cancellation** (hunt entry 140): a self-sustained
+- **The thermodynamic reading — the cancellation:** a self-sustained
   condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
   relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
   roster demonstrably cannot pay this bill species-by-species: str[1] = −68 and the
   Veltman-class sum both FAIL — the whole medium pays what the parts cannot). The
   observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
-  fountain (below). *Both cancellation-and-residual statements are THERMAL readings —
-  the door correction of hunt entry 170.*
-- **The background door — FALSIFIED as a value mechanism** (the KP self-consistency solve, done
-  properly — hunt 209): on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent
+  fountain (below).
+- **The background reading — does not fix the value:** on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent
   closed-universe solve gives coefficient **0.40, not the toy ¾**, so Λ¹ᐟ⁴ = 1.48 meV (0.66×). But the
   fatal, coefficient-INDEPENDENT problem is the RATIO: the a³ 4-volume weight always favors max-a (where
   ρ_m is minimum), so **Ω_Λ/Ω_m ≤ 0.40 across the entire expansion** (ramp-confirmed: monotonic to a max

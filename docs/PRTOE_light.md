@@ -37,23 +37,23 @@ collective mode of the condensate. Three consequences follow immediately, and no
 them is optional:
 
 - **Masslessness is forced, not assumed.** A collective phase mode of a broken symmetry
-  is a Goldstone mode; its gaplessness is a theorem [Goldstone 1961]. The photon's
-  m = 0 — the single most precisely tested null in physics (m_γ < 10⁻¹⁸ eV) — stops
-  being an axiom and becomes a certificate.
+ is a Goldstone mode; its gaplessness is a theorem [Goldstone 1961]. The photon's
+ m = 0 — the single most precisely tested null in physics (m_γ < 10⁻¹⁸ eV) — stops
+ being an axiom and becomes a certificate.
 - **c is not obeyed; it is defined.** The mode propagates at the medium's own signal
-  speed. Light travels at c the way sound travels at the speed of sound — asking why is
-  asking why a thing equals itself. Massless dispersion E = pc leaves the mode no right
-  to slow down: mass is what *buys* a particle the ability to move at less than the
-  limit, and this mode never bought it. (The kinematic half lives in
-  [PRTOE_special_relativity.md](PRTOE_special_relativity.md); the dynamic half — why
-  everything *below* c coasts free — in [PRTOE_inertia.md](PRTOE_inertia.md).)
+ speed. Light travels at c the way sound travels at the speed of sound — asking why is
+ asking why a thing equals itself. Massless dispersion E = pc leaves the mode no right
+ to slow down: mass is what *buys* a particle the ability to move at less than the
+ limit, and this mode never bought it. (The kinematic half lives in
+ [PRTOE_special_relativity.md](PRTOE_special_relativity.md); the dynamic half — why
+ everything *below* c coasts free — in [PRTOE_inertia.md](PRTOE_inertia.md).)
 - **Light and the basement are the two ends of one spectrum.** The medium's excitations
-  span the entire range of possible masses: the massless collective mode at the bottom,
-  the Planck-mass constituents at the top (the induced-gravity demand forces the
-  basement's constituents to 1–2 M_Pl), and every quark, lepton, and atom filling the
-  gap between the medium's own two ends. Both ends are *forced* — the zero end by
-  Goldstone's theorem, the Planck end by gravity's measured strength. Light is the
-  lightest thing the medium does; the basement is the heaviest thing the medium is.
+ span the entire range of possible masses: the massless collective mode at the bottom,
+ the Planck-mass constituents at the top (the induced-gravity demand forces the
+ basement's constituents to 1–2 M_Pl), and every quark, lepton, and atom filling the
+ gap between the medium's own two ends. Both ends are *forced* — the zero end by
+ Goldstone's theorem, the Planck end by gravity's measured strength. Light is the
+ lightest thing the medium does; the basement is the heaviest thing the medium is.
 
 ## 3. The receipt theorem: why light records and cannot build
 
@@ -61,21 +61,21 @@ The transaction grammar ([PRTOE_TRANSACTION_ATLAS.md](PRTOE_TRANSACTION_ATLAS.md
 light the role of the *receipt*: the record a matter-to-matter transaction emits, carrying
 the transaction's information outward without participating in what was built. Filed
 originally as grammar, this role turns out to be a **theorem — the sign structure of the
-beta functions** (hunt entry 137):
+beta functions** :
 
 - **A non-abelian coupling grows on descent.** Where it turns strong it confines, and the
-  confinement scale is *manufactured out of a pure number* by dimensional transmutation:
-  Λ = M_Pl·exp(−2π/(b·α₃(M_Pl))). Walked down from the basement's handout
-  1/α₃(M_Pl) = 52.4 through the flavour thresholds (b₃ = 7 → 23/3 → 25/3 → 9), the
-  coupling turns strong at Λ ≈ 150 MeV — the proton. The proton's mass is 99% QCD
-  binding energy; its radius is 1/Λ; nuclear sizes, atomic densities, and the scale of
-  every solid object descend from Λ. **The non-abelian number builds every size in the
-  universe, and it is compelled to by its own sign.** The stakes are exponential: a ±10%
-  shift in the handout rescales all matter by ~×100.
+ confinement scale is *manufactured out of a pure number* by dimensional transmutation:
+ Λ = M_Pl·exp(−2π/(b·α₃(M_Pl))). Walked down from the basement's handout
+ 1/α₃(M_Pl) = 52.4 through the flavour thresholds (b₃ = 7 → 23/3 → 25/3 → 9), the
+ coupling turns strong at Λ ≈ 150 MeV — the proton. The proton's mass is 99% QCD
+ binding energy; its radius is 1/Λ; nuclear sizes, atomic densities, and the scale of
+ every solid object descend from Λ. **The non-abelian number builds every size in the
+ universe, and it is compelled to by its own sign.** The stakes are exponential: a ±10%
+ shift in the handout rescales all matter by ~×100.
 - **An abelian coupling shrinks on descent.** It never turns strong, never confines, and
-  is *structurally incapable of manufacturing a scale* — at any strength, ever. Its boson
-  stays massless, its force stays infinite-range, its sector stays scaleless. **The U(1)
-  is forbidden by its own sign from building anything. It can only carry.**
+ is *structurally incapable of manufacturing a scale* — at any strength, ever. Its boson
+ stays massless, its force stays infinite-range, its sector stays scaleless. **The U(1)
+ is forbidden by its own sign from building anything. It can only carry.**
 
 Scaleless is exactly what a receipt must be: the record that crosses every scale
 unchanged. A photon emitted by the first galaxies arrives thirteen billion years later
@@ -92,7 +92,7 @@ number (abelian) must record. No further postulate enters.
 Gravity, after the Pauli finiteness condition (str[k₁] = 0;
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5), is **100% induced**: 1/G is
 finite and generated entirely by the medium's fermion loop, with no bare term. The same
-question put to light (hunt entry 134) — how much of 1/α does the medium's loop generate? —
+question put to light — how much of 1/α does the medium's loop generate? —
 has a different answer, and the difference is structural.
 
 Running hypercharge from its measured value at the electroweak scale to the basement
@@ -105,7 +105,7 @@ Running hypercharge from its measured value at the electroweak scale to the base
 | 2.39×10¹³ | 69.8 |
 | 1.22×10¹⁹ (M_Pl) | **55.5** |
 
-1/α_Y at the basement is **not zero**. The scheme-independent statement (hunt entry 138):
+1/α_Y at the basement is **not zero**. The scheme-independent statement :
 **gravity's bare requirement is exactly zero (Pauli); light's is 1/α_Y(M_Pl) = 55.5 ≠ 0** —
 the basement must supply it bare. (Read at M_Z, the medium's loop accounts for 42.9 of the
 98.4, ~44%, and the basement for ~56% — an illustration tied to that reading scale, not an
@@ -127,14 +127,14 @@ threshold) — hunt entry 136:
 | **U(1) — light** | **33.3** |
 
 - **The two non-abelian couplings NEARLY lock at the basement** — the gap at M_Pl is 2.9
-  against a ±2 scheme band, with the exact crossing 2.1 decades below M_Pl; ramped over the
-  measurement and scheme bands, only ~2% of the distribution closes the gap at M_Pl (hunt
-  entry 138). Graded honestly: *suggestive, not established* — exact closure would require
-  the basement's own threshold corrections, which is a payment the basement owes rather
-  than a result the model holds.
+ against a ±2 scheme band, with the exact crossing 2.1 decades below M_Pl; ramped over the
+ measurement and scheme bands, only ~2% of the distribution closes the gap at M_Pl (hunt
+ entry 138). Graded honestly: *suggestive, not established* — exact closure would require
+ the basement's own threshold corrections, which is a payment the basement owes rather
+ than a result the model holds.
 - **The abelian coupling is the outlier** — sixteen away, joining the pair nowhere near
-  the basement (the Standard Model's famous near-miss unification, read here from the
-  medium's side).
+ the basement (the Standard Model's famous near-miss unification, read here from the
+ medium's side).
 
 **The basement's handout is two numbers, not one and not three: one shared by the
 confined machinery, one separate for the receipt.** The split the running finds is the
@@ -146,19 +146,19 @@ transaction grammar's split, found independently by the renormalization group.
 
 - light's existence and masslessness — Goldstone mode of the medium (theorem);
 - light's speed — the medium's own signal speed; massless dispersion forbids any other
-  (theorem);
+ (theorem);
 - light's role as the receipt — forbidden from scale-building by the sign of its β
-  (theorem);
+ (theorem);
 - the machinery/receipt division of labour — the signs of the two β functions (theorem);
 - 44% of light's strength — the medium's fermion loop (computed);
 - the two-handout structure at the basement — the non-abelian lock + the abelian outlier
-  (computed from measured couplings).
+ (computed from measured couplings).
 
 **Not derived — one number:**
 
 - the remaining 56% of light's strength. The basement must emit a bare coupling
-  **α_Y(M_Pl) = 0.0180** (GUT-normalised 1/α₁ = 33.3), and the basement's constituents
-  are not yet specified.
+ **α_Y(M_Pl) = 0.0180** (GUT-normalised 1/α₁ = 33.3), and the basement's constituents
+ are not yet specified.
 
 **The pre-registered locks (standing targets; wrong basement → wrong numbers → dead
 route):** any basement structure this model ever specifies must simultaneously deliver
@@ -168,7 +168,7 @@ parametrization uses); (iv) 1/α₁ ÷ 1/α₂ = 0.673 at M_Pl (equivalently, si
 basement is fixed by the runs above); (v) the bare handout α_Y(M_Pl) = 0.0180;
 (vi) **Koide's amplitude A = √2** — the Z₃ scaffold fits any three masses, so the
 relation lives entirely in the amplitude, and the measured leptons sit on √2 to 0.0009%
-(hunt entry 138). Six locks, one door — plus a bonus round: whether the basement's own
+. Six locks, one door — plus a bonus round: whether the basement's own
 thresholds close the 2.9 gap and turn the near-lock (§5) exact. The day a specified
 basement opens all six, light's last number is derived and this file's scoreboard
 closes.

@@ -37,12 +37,11 @@ model's two neutrino numbers.
 
 ## 2. The mechanism's honest debts
 
-The spurion identification — **FORMALIZED** (hunt 207): μ = the soft lepton-number-breaking dim-1
-spurion, setting ρ_inf = κ_V μ⁴ (κ_V ≈ 1.09) and m_ν = κ_m μ (κ_m = 1), so the tie is exact to 2.2%.
-The "ε dimensionless vs μ dimensionful" tension was a category error — ε is the scale/conformal spurion,
-μ the lepton-number one; different broken symmetries, no algebraic bridge (five forms tested). Only the
-VALUE μ = 2.25 meV stays un-derived. Remaining debts: the Majoron's post-hoc flag (un-lifted until a new
-falsifiable consequence exists); the ρ_inf closure's dependence on the α_c chain's verdict.
+The spurion identification: the scale μ that ties the dark-energy floor to the lightest neutrino mass is
+a dimension-1 lepton-number-breaking parameter, distinct from the (dimensionless) varying-m_e amplitude —
+the two are different quantities, not related by a bridge. What stays un-derived is the *value*
+μ = 2.25 meV (the dark-energy-value problem). Remaining debts: the Majoron mechanism carries a post-hoc
+flag until it earns a new falsifiable consequence, and the ρ_inf closure depends on the running α_c chain.
 
 ## 3. For the double-β community, specifically
 

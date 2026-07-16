@@ -26,10 +26,10 @@ channel," the carrier's own.
 
 Fitting the SAME data, the dyad de-biases the inferred neutrino mass UPWARD:
 - in-house minima: ΛCDM pins m_ncdm = 0.000 eV (the collapse toward the impossible), the dyad
-  prefers **0.0875 eV** (healthy, above the floor, in the lab-allowed band);
+ prefers **0.0875 eV** (healthy, above the floor, in the lab-allowed band);
 - the omk run: the dyad's preference SURVIVES curvature being freed (m_ncdm = 0.071);
 - the mechanism: the m_e shift re-partitions the CMB constraints that ΛCDM spends on
-  suppressing Σm_ν.
+ suppressing Σm_ν.
 **Test**: as data sharpen, ΛCDM-conditional bounds cross below 59 meV (contradiction) while
 dyad-conditional posteriors stay healthy. **Falsifier**: the dyad posterior collapsing too.
 This is a live, near-term discriminator — arguably the model's quietest real-time advantage.
@@ -45,13 +45,13 @@ baryon abundance. The neutrino sector is where the model's laboratory future liv
 ## 4. Honest scope
 
 - The de-biasing DIRECTION is generic to varying-m_e cosmologies (internal review caveat, kept); the
-  model's specific numbers (0.07–0.09 eV) are its own.
+ model's specific numbers (0.07–0.09 eV) are its own.
 - v_L: duty-forced into a corner-conditional band (Card 6 executed, hunt entry 81) —
-  MeV-class and S4-armed if the η route is resonant; ≥ GeV and S4-dark if the seesaw
-  vertex is the junction's. The two corners exclude each other across an 8.6-decade
-  bridge; CMB-S4's Majoron search is the corner-selector. A point value still awaits λ′.
+ MeV-class and S4-armed if the η route is resonant; ≥ GeV and S4-dark if the seesaw
+ vertex is the junction's. The two corners exclude each other across an 8.6-decade
+ bridge; CMB-S4's Majoron search is the corner-selector. A point value still awaits λ′.
 - KATRIN-class direct limits and the oscillation floor bracket the allowed window the model
-  must keep hitting as both tighten.
+ must keep hitting as both tighten.
 
 *Standard cosmology is slowly arguing itself into a neutrino lighter than nothing. This model
 needs the neutrino heavy enough to notice — because the medium that runs the sky pays that
