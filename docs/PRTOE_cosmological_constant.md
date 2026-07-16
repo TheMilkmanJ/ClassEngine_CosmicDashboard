@@ -96,7 +96,12 @@ value converges to the conjectured closed form **ρ_Λ¼ = (d/2)α⁴m_e** (0.96
 T_c the chiral p-wave angular factor **factors out**, so the pairing channel (s/p/f) is irrelevant to τ —
 τ is set purely by the MAGNITUDE of the microscopic pairing coupling g_p, a strong-coupling O(1) the
 corpus does not specify. So the digit's last input is g_p (a model-building input), not the pairing
-structure. The DE value stands at (d/2)α⁴m_e (0.966×) — the honest floor of the marathon.
+structure. The DE value stands at (d/2)α⁴m_e (0.966×) — the honest floor of the marathon. **Deeper (hunt 221):**
+the digit's last input g_p (the strong pairing coupling → τ) is sourced by NO existing interaction — α,
+α_c=3α, the Majoron (g~10⁻⁸), and the ε-fitted κ all give g ≪ g_c=2 by 2–15 orders. The model has no
+strong sector. So τ is either a FREE parameter (fundamental scalar) or requires a NEW strong pairing
+sector to be written down (composite) — a piece of theory to be BUILT, not a computation. The DE value's
+digit rests on the one thing the model doesn't yet contain: the strong force that binds the medium.
 Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
 scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
 

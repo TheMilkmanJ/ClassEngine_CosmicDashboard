@@ -322,6 +322,13 @@ uncomputed 2-loop constant (PMS-scaling argument). Value remains UNDERIVED.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
 - The G-closure's matter-only branch: CLOSED ADVERSE by the signed demand (entry 86 — a leptophilic all-positive roster induces wrong-sign gravity under Visser's anchoring); the closure survives only through the winding's vector sector, whose weight is underived.
 - The medium claim (M3) itself: an open assumption, priced by everything above staying on the books.
+- **The medium's strong condensation is UNSOURCED (hunt 221):** the dyad/medium condensation that the
+  DE-value digit rests on needs a strong pairing coupling g_p > g_c=2, but EVERY interaction the model
+  contains is weak (α, α_c=3α, Majoron g~10⁻⁸, ε-fit κ; all g ≪ 2 by 2–15 orders). So the medium's strong
+  binding is assumed, not sourced by any specified interaction — a genuine foundational gap. Either the
+  dyad condensation scale (τ=T_c/m_e, hence the DE digit) is a FREE parameter, or a new strong pairing
+  sector must be written down. The DE value's closed form (d/2)α⁴m_e (0.966×) holds structurally; its
+  digit rests on this missing strong force.
 
 *Rule going forward: every new kill, reversal, or self-caught error gets its row HERE, and
 the main-read docs carry only their current-truth status plus a pointer. The garden stays

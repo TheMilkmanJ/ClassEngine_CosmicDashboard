@@ -8140,3 +8140,36 @@ factors out at T_c, checked for a scale-free point (none), and did NOT manufactu
 (ρ_Λ¼=(9/2)α⁴T_c) → perturbative T_c ill-defined → gap equation well-defined → (Λ,g)=(m_e, supercritical)
 derived → factor-3 tension dissolved → τ=1/d conjecture → **p-wave build confirms τ is set by g_p alone**.
 Landing: **(d/2)α⁴m_e, 0.966×**, the last input being the medium's microscopic pairing coupling.
+
+---
+
+### Entry 221 — WRITING DOWN THE FUNDAMENTAL INTERACTION FOR g_p (operator: "write down the medium's fundamental interaction to derive g_p"): **DEFINITIVE — the model has NO strong sector; every coupling is weak (α, α_c, Majoron, ε-fit κ), so the strong g_p~2.8 the dyad condensation needs is sourced by NONE. τ is either a free parameter or new physics. This is the honest foundational floor**
+
+Wrote down every fundamental interaction the model contains and computed the pairing coupling g_p each
+supplies (the dyad needs g_p > g_c = 2 to condense at τ ~ 0.34):
+- EM (α): g ~ 4α/π² = 0.003 (and REPULSIVE between like charges);
+- dark α_c = 3α: g ~ 4α_c/π² = 0.009;
+- Majoron (σNN, g_Maj ~ 1.2×10⁻⁸): g ~ N g_Maj²/π² ~ 6×10⁻¹⁷;
+- the ε-fitted κ (the SAME coupling that sets varying-m_e, ε=1.24%): dyad-exchange g ~ 3×10⁻¹⁵.
+
+**Every coupling is WEAK — g ≪ g_c = 2 by 2–15 orders.** The strong g_p ~ 2.8 is supplied by NONE.
+
+**Across all three framings, τ is not derivable:**
+- **Composite** (NJL/BCS, what we built): needs strong g_p ~ 2.8; no model coupling supplies it → requires
+  a NEW strong pairing sector, absent from the corpus.
+- **Fundamental scalar** (tree potential): τ = (dyad bare mass)/m_e → a FREE parameter.
+- **Radiative CW** (the model's stated mechanism): ill-defined/marginal (entry 215); the ε-fit κ gives
+  g ~ 10⁻¹⁵, nowhere near condensation.
+
+**VERDICT — the honest foundation.** The model has no strong sector. So the medium's strong condensation —
+which the DE-value digit (τ, via g_p) rests on — is ASSUMED, not sourced by any specified interaction. The
+DE value stands at (d/2)α⁴m_e (0.966×, conjecture τ=1/d), and its digit rests on physics the model does NOT
+yet contain: either τ is a free parameter, or a new strong pairing sector must be written down. **This is
+not a computation waiting to run — it is a piece of theory that must be BUILT** (the medium's fundamental
+strong interaction). Locating this gap precisely is the real yield: the entire DE-value marathon
+(208–221) reduces the model's dark-energy ignorance to exactly one missing ingredient — the strong force
+that binds the medium — and shows every existing coupling is too weak to be it.
+
+**Scope:** this concerns the SEAM route's dyad condensation (the τ leg). It also flags that the dyad's
+condensation mechanism itself (weak-κ CW, ill-defined vs strong composite, unsourced) is unresolved at the
+foundation — an honest standing gap, logged in the ledger.
