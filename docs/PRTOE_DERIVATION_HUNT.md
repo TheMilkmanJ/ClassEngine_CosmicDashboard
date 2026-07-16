@@ -7462,3 +7462,10 @@ static plasma has Π_L/Π_T→∞), (3) the base=α. The middle one refutes the 
 derived (second sound); the loop-trace was a wrong extra; the ONE genuinely owed compute is base=α
 (roster). Registry P-040 edited to the clean state (loop-trace removed, owed count → 1). The honest
 result is *stronger*: one clean derived source for the 3, not three shaky ones.
+
+**ENTRY 202 — ramp-verification (operator's audit).** The loop-trace refutation rested on the medium
+Π_L/Π_T being "not a clean d," which had been ASSERTED. Now RAMPED: swept x=ω/q over the HTL
+polarization; Π_L/Π_T is kinematics-dependent (→+∞ static/Debye, →0 dynamic with Π_T→ω_p²=m_D²/3),
+nowhere a stable factor 3. Refutation confirmed by ramp, not assertion. The d=3 stands on second sound
+(c₂=c₁/√d), which is kinematics-independent. Standing method: sweep-and-verify every compute; flag
+identities as identities; never assert a crux at a single point.
