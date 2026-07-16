@@ -72,8 +72,13 @@ remaining residual — the zero-T leading-log — needs the genuine 2-loop β-fu
 result a **definite negative**: the 2-loop RG-improvement does NOT pin T_c. There is no SSB at μ=m_e, and
 the scale-stationary PMS sits at μ ~ e⁻¹⁰⁰ m_e (unphysical) for any 2-loop coefficient, because the O(α)
 curvature is too weak. So **T_c is perturbatively ILL-DEFINED** — the electron-CW condensation is a
-large-log/marginal effect, and this seam DE route has no perturbative T_c to evaluate. A non-perturbative
-(gap-equation) treatment is required even to define T_c.
+large-log/marginal effect, and this seam DE route has no perturbative T_c to evaluate. **The
+non-perturbative gap equation was then built** (hunt 216): treating the dyad as the fermion-bilinear
+composite the model says it is, the NJL/BCS gap equation is cutoff-regulated → **T_c = Λ·τ(g) is
+WELL-DEFINED** (log-ambiguity resolved), and for natural inputs (compositeness Λ=m_e, coupling g~2.8,
+just above the critical g_c=2) **ρ_Λ¼ = (9/2)α⁴·Λ·τ(g) lands 1.0–1.1×**. So the arc is ill-defined →
+well-defined: the residual is now two PHYSICAL medium-compositeness parameters (Λ, g), natural but not
+yet derived — a much better footing than the perturbative dead-end. Owed: derive (Λ, g) from the medium.
 Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
 scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
 

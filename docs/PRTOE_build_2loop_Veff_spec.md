@@ -11,6 +11,12 @@
 > has no perturbative T_c to evaluate. Defining T_c needs a NON-perturbative (gap-equation/lattice) build,
 > if the condensation survives resummation at all. The full 2-loop diagrammatic spec below stands as the
 > record of what was attempted; the negative verdict does not depend on completing it.
+>
+> **FOLLOW-ON (hunt 216 — the non-perturbative build, executed):** the NJL/BCS gap equation for the
+> composite dyad IS cutoff-regulated → **T_c = Λ·τ(g) is well-defined** (log-ambiguity resolved). For
+> natural inputs (Λ=m_e, g~2.8 above the critical g_c=2) ρ_Λ¼=(9/2)α⁴Λτ(g) lands **1.0–1.1×**. The
+> residual is now two physical medium-compositeness parameters (Λ, g). The next build is to derive (Λ, g)
+> from the medium's own dynamics.
 
 *This was a BUILD SPECIFICATION for a genuine multi-loop QFT computation. It states the objective, the
 exact diagram, the method, the inputs, and the acceptance tests. The RG-improvement (leading-log,

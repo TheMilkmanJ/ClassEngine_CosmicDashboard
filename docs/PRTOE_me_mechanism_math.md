@@ -323,7 +323,10 @@ the O(α) source-running gives an unphysical PMS at μ~e⁻⁵⁷). The 2-loop R
 and returns a DEFINITE NEGATIVE: no SSB at μ=m_e, and the scale-stationary PMS is at μ~e⁻¹⁰⁰ m_e for any
 2-loop coefficient (the O(α) curvature is too weak). So T_c is **perturbatively ILL-DEFINED** — this CW
 condensation is a large-log/marginal effect (sharpening the "marginal" flag), and the dyad VEV inherits
-the same marginality. Defining T_c needs a non-perturbative gap-equation treatment.
+the same marginality. The non-perturbative gap equation was then built (hunt 216): treating the dyad as a
+fermion-bilinear composite, the NJL/BCS gap equation is cutoff-regulated → **T_c = Λ·τ(g) is WELL-DEFINED**
+(no log ambiguity), landing electron-scale for Λ=m_e, g~2.8. The residual is the two medium-compositeness
+parameters (Λ, g), natural but not yet derived.
 
 **Leptophilia (allowed ≠ generated).** Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
 EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia. CAVEAT
