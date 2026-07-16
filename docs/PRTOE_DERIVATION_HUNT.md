@@ -7270,3 +7270,31 @@ DESI measures the approach (w₀,wₐ). (2) **BKL** at the bounce. Current data 
 + the KP falsifier still favor the ETERNAL branch; the cyclic branch is now a COMPLETE candidate
 mechanism-set riding on the thaw-crosses-zero sign — a real, DESI-testable alternative to heat
 death, not established.
+
+## ENTRY 196 — THE FULL-CHAIN PRECISION AUDIT: pinned vs rough (why the 1.24% does NOT get a 4-digit agreement, and what would)
+
+*Operator's ask: compute the whole formula start-to-now, ramp everything, see if the rough-range
+3s sharpen (e.g. the 1.24% to 4-digit agreement). Ran it. RG running genuinely ramped (integrated
+1-loop M_Z→M_Pl → 1/α_Y = 55.51). Verdict: NO 4-digit sharpening for ε — and the compute shows why.*
+
+**TWO CLASSES OF NUMBER (the diagnostic the ramp exposed):**
+- **PINNED (~4-digit, closed forms of MEASURED inputs — these are done):** the coupling runnings
+  (1/α_Y(M_Pl)=55.51, RG-integrated); A_s=(α_c/4πk)³=2.08×10⁻⁹ with k=1.365; n_s=1−2/ln(M_Pl/T_on)=
+  0.9640; sin²θ_W ratio 0.673. These sharpen under a proper ramp and agree with data to 3–4 digits.
+- **ROUGH (do NOT sharpen — INPUT-limited, not computation-limited):** ε = c·f̄·α_c (a BET ×3α, a
+  CANDIDATE 2/π, a CONDITIONAL count 9/10); the DE scale (three doors/three inversions, entry 188);
+  f̄ (2/π vs sim 0.635). More digits of arithmetic change NOTHING — the roughness is in the *inputs*.
+
+**ε specifically:** derived 27α/5π = **1.25432%** (to full precision), fit ~1.232–1.24%, gap **+1.8%**
+(real, inside posterior). Input spread across the candidates: ε ∈ [1.25, 1.30]% as (c, f̄) range over
+{9/10,12/13}×{2/π,0.635,0.644}. **The 4-digit hope is NOT realized** — and it *cannot* be by computing,
+because ε rests on a bet, a candidate, and a count.
+
+**WHAT WOULD sharpen ε (the honest path):** derive the three inputs — α_c=3α from the basement (not
+bet), f̄=2/π from the genesis winding (not candidate), c=9/10 from the census (not conditional). Those
+are the standing owed derivations. Precision lives in DERIVING THE INPUTS, not in the arithmetic.
+
+**Method note (the operator's ramp law, vindicated):** ramping is exactly what exposed the split — the
+pinned numbers converge under a fine ramp; the rough ones stay put regardless, because a ramp cannot
+manufacture precision the inputs don't carry. "Ramp everything" is the right diagnostic: it sorts the
+finished numbers from the ones still resting on a bet.
