@@ -44,7 +44,7 @@ scatter is at least this):
 **Verdict: the granule meter is a POPULATION statistic.** It is out of
 reach for any single system today, and genuinely reachable with a
 Rubin-era UFD census (30+ systems with kinematics) IF per-object
-modeling holds at ~50%. The make-or-break (turn-58 binding) therefore
+modeling holds at ~50%. The make-or-break (the binding question) therefore
 splits: (a) the two-field sims must confirm S = (1+f_rot²)/2 at the
 ~10% level (spec in §5), and (b) the observational program needs N ≳ 30
 dwarfs — a date with Rubin, not a wall.

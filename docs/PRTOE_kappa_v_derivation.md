@@ -5,7 +5,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-**Status (2026-07-07, post-turn-28): the honest triple, binding —
+**Status (2026-07-07): the honest triple, binding —
 SHAPE-FORCED (class universality) / AMPLITUDE-INPUT (k_eff is chosen,
 not derived) / WINDOW-CONSISTENT (0.06 lands inside ANN-2026-005's
 window as a consistency, not a prediction). "Derived" may not

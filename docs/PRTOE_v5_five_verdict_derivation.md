@@ -368,9 +368,9 @@ plateau universality between halo environments at the 10⁻⁵ level
 (a large-scale SP simulation question, beyond this document's tools).
 
 *Lyman-α transfers unconditionally as backdrop. All five stamped;
-the review reads cold, per-verdict, per the turn-22 conditions.*
+the review reads cold, per-verdict, per the standing conditions.*
 
-## 4. V4 STEP-WALK (for the turn-24 reserve — every O(1) skeleton exposed)
+## 4. V4 STEP-WALK (the reserve — every O(1) skeleton exposed)
 
 The reviewer reserved V4 pending a step-walk of the m̄₂–M_eff lock and
 the α coefficient. Here is the walk, with the conventions and the one

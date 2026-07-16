@@ -8,7 +8,7 @@
 
 
 **Grade throughout: STRUCTURAL/correspondence — Room 1 is an extension
-program; turn-25's fresh-certificates bill applies at adoption; nothing
+program; the fresh-certificates bill applies at adoption; nothing
 here enters the production model yet. Six results, one null, one
 tripwire passed, mapped in the first pass.**
 
@@ -24,7 +24,7 @@ basin ↔ the EOS near the condensation point; the quasiparticle mass
 M_eff ↔ the field mass scale of Ψ. Everything we have certified lives
 in the phase EFT and is INHERITED UNCHANGED below the amplitude gap.
 
-### R1.1a — The certificate dictionary (turn-33 demand; three lines,
+### R1.1a — The certificate dictionary (three lines,
 ### each a consequence of the phase action, none an assertion)
 
 **Line 1 — α_T = 0 (cert 3).** The proof was: the (δK)² operator is
@@ -614,7 +614,7 @@ the pressure does NOT cancel — it beats.
 **SELF-CAUGHT AMPLITUDE CORRECTION (supersedes the internal review §4's threshold
 map):** the KR pressure-oscillation fraction is the CROSS term,
 amplitude 2√(n₊n₋)/n = √(f_amp(2−f_amp)) — NOT f_amp as E4 and the
-turn-45 pinning assumed. Limits check: pure librator (real field,
+pinning assumed. Limits check: pure librator (real field,
 p = q = ½) → 1 ✓; pure rotor → 0 ✓. Consequences: (i) at the median
 draw (f_amp ~ 0.6) the beat is 0.80–0.92 — the signal is ~50%
 STRONGER than priced; (ii) the detectability threshold in f_amp drops
@@ -1016,8 +1016,7 @@ QUANTIFIED. The ε-meter — now a one-instrument program
 (granules), sims owed. The audit closed the family it was
 ordered to close and the file is smaller and harder for it.
 
-**A3a — THE LOAD-BEARING IDENTITY, DERIVED CHECKABLY (turn-58 demand,
-met same morning):** the theorem restoration rests on h_eff = lam*ρ/m⁴
+**A3a — THE LOAD-BEARING IDENTITY, DERIVED CHECKABLY:** the theorem restoration rests on h_eff = lam*ρ/m⁴
 and the identity h_eff(mean, today) = (1+z_x)⁻³. Three lines, each
 independently checkable:
  (1) In the basin (mass-term dominated), ρ = m² Psi², so
@@ -1032,7 +1031,7 @@ independently checkable:
  = the direct formula's value. The two routes agree to arithmetic
  precision; the identity holds.
 
-**A6a — THE EXCLUSION RANGE, CITE-VERIFIED (turn-58's "do that next"):**
+**A6a — THE EXCLUSION RANGE, CITE-VERIFIED:**
 Davoudiasl & Denton, PRL 123, 021102 (2019), arXiv:1904.09242, pulled
 this morning: M87* (6.5×10⁹ Msun; spin 0.9±0.1, or ≥0.5 by the
 conservative reading) disfavors spin-zero bosons in (2.9, 4.6)x10⁻²¹ eV

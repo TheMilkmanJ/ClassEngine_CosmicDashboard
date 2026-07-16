@@ -937,7 +937,7 @@ against, not a claim).*
 | 44 | Dark acoustic oscillations | STANDING-NULL | no DAO in P(k), as census requires |
 | 45 | Dark disk | STANDING-NULL | Gaia kinematics show none, as Law 2 requires |
 | 46 | Dwarf heating | PASSING-AT-BAND | DK transfer factor computed; band [1,3]e-21 pinned by this row |
-| 47 | Stellar streams | PENDING-SIMS | make-or-break for ε ever being measurable (turn-58 binding) |
+| 47 | Stellar streams | PENDING-SIMS | make-or-break for ε ever being measurable (the binding question) |
 | 48 | Core–halo lag (Room 5) | PENDING-SIMS | ×11 χ-lag quantified (Levkov b≈0.9 pulled); candidate 4th axis |
 | 49 | Dynamical friction | INHERITED-PASSING | FDM verdicts transfer at stated precision, within band |
 | 50 | Schrödinger–Poisson | DERIVED | corrections 1/X₀-suppressed ≤1×10⁻²²; inheritance license |

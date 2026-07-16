@@ -438,7 +438,7 @@ is its only account). Pay it curvature and the product is determined:*
  entire PTA collision pricing rides on. FALSIFIABLE FOR THOUSANDS OF
  DOLLARS, not billions — logged for the day someone with a ring trap
  asks for a project.
- **FAITHFULNESS MAPPING (turn-50 caveat closed, ~4:30am):** what the
+ **FAITHFULNESS MAPPING (caveat closed):** what the
  ring-BEC actually probes. FAITHFUL: (i) both are U(1) condensates —
  lab winding number (persistent current) ↔ our charge/rotation, lab
  breathing/phonon mode ↔ our libration; (ii) slow ring expansion was
@@ -531,7 +531,7 @@ is its only account). Pay it curvature and the product is determined:*
  on). Cross-reference: both silences point INTO the rooms (strong
  CP → the angular mode; turbulence intermittency → the granule
  tangle's quantum-turbulence statistics, where labs can count
- vortices). Tripwires pre-staged before entry: turn-25's
+ vortices). Tripwires pre-staged before entry: the
  fresh-certificates rule; P-2026-005's no-oscillation registration
  binds any angular mode. Rooms real; entry at full price.
 - **The X₀ erasure (running):** four consecutive observables with X₀
@@ -797,7 +797,7 @@ is its only account). Pay it curvature and the product is determined:*
  (10¹¹ M_sun); the independent detuning criterion gives +9 to +13.
  The conclusion is INSENSITIVE to the rate-algebra details across
  any plausible reading — quotable as "≥ 2.5-decade margin, typically
- 5–10." **THE PARTITION (reviewer's turn-52 insight, adopted):** the
+ 5–10." **THE PARTITION (adopted):** the
  distinctiveness axes partition the mass band — PTA beat at the
  LIGHT edge (Ψ_KR ∝ 1/m²), superradiance quench at the HEAVY edge,
  granule suppression everywhere between; which test applies is an
@@ -1092,7 +1092,7 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  opens an EM account -- which is precisely why the m_e amplitude cannot
  be the dark sector paying through EM (no EM account) and MUST be EM
  handling matter internally with space only triggering via gravity
- (the turn-68 split, now FORCED not assumed). RECONCILES LAW 1:
+ (the split, now FORCED not assumed). RECONCILES LAW 1:
  "gravity is the only clearinghouse" is correct -- it describes SPACE's
  banking (one account: gravity); it was only misread as "the universe's
  only bank." Matter has several sub-banks. Both true, no conflict.
