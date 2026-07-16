@@ -7127,3 +7127,13 @@ NOT "model closed." Knob A's leftover = a friction calc (which bath wins the set
 B's = a topological construction (does Z₃ p-wave give 3 pairs). These are the actual last two
 computations. Grade: CANDIDATE throughout; the favorable lean is real but each rides one un-closed
 step, and the DE amplitude still does not forward-close until Knob A's friction question is settled.
+
+**ENTRY 192 ADDENDUM (Knob B, one step built — node topology).** Unambiguous result: the number of
+charge-1 Weyl PAIRS a chiral gap carries **equals its angular momentum L** (a charge-L node splits
+into L charge-1 nodes under a symmetry-preserving perturbation; verified by the gap-phase winding).
+So **p-wave (L=1, He-3-A) → 1 pair → ONE generation** — it CANNOT make three. **Three generations
+REQUIRE L=3 (an f-wave, charge-3 node Z₃-split into 3 pairs) OR a 3-band (3 Z₃-copies of the p-wave).**
+This **bites the clean identity**: "the medium is literally He-3-A" (pure p-wave) is *insufficient*
+for the generation count — the roster demands f-wave or 3-band, with Z₃ as the splitter/tripler.
+Corrected in [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §2. OWED: build the f-wave-or-3-band
+order parameter and compute its split-node charges (does it deliver exactly 3 pairs, Z₃-arranged?).

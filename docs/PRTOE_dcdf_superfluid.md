@@ -31,9 +31,15 @@ condensate whose pairing is p-wave and chiral.
 
 - **Parity-odd → the θ·R·R̃ coupling → GW chirality** — the metric carries the handedness light
   is forbidden to show (light is EM-neutral, optical birefringence = 0).
-- **Weyl points:** He-3-A carries **2**; the basement needs **3 Fermi points** (the generation
-  count). **OPEN:** does the dark order parameter admit 3 Weyl points rather than 2? This is the
-  basement-roster question, and the chirality thread is where it comes to a yes/no.
+- **Weyl points — and a caveat that bites this identity:** He-3-A (a *p-wave*, L=1) carries
+  exactly **2** Weyl points = **1 pair = one generation**. Node topology is unambiguous here: the
+  number of charge-1 Weyl pairs a chiral gap carries **equals its angular momentum L**. So the
+  basement's **3 Fermi points (3 generations) require L = 3** — an **f-wave** chiral order
+  parameter (whose charge-3 node Z₃-splits into 3 pairs) **or** three Z₃-related copies of the
+  p-wave (a 3-band structure). **A pure p-wave "= He-3-A" is insufficient for 3 generations.** The
+  Z₃ family symmetry (a basement lock) is the natural splitter/tripler either way. **OPEN (the
+  owed build):** write the f-wave-or-3-band order parameter and compute its split-node charges.
+  See hunt entries 191/192 (the two knobs).
 
 ## 3. Its charge: abundance + asymmetry [CANDIDATE]
 
