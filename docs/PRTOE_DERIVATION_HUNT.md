@@ -3726,7 +3726,7 @@ founding point gives ξ ≈ −1 (split −1/−0.67) against the registered −
 **a miss by ~4×.** But the same computation proved the bet's presumption false: no
 single covariant ξ_amp exists to have hit. RULING: **the bet is VOIDED BY DISCOVERY
 — not won, not lost; the question was ill-posed** (the model's own collision-test
-precedent for ill-posed registrations). The red team is explicitly asked to grade
+precedent for ill-posed registrations). The independent review is explicitly asked to grade
 whether the voiding is legitimate or a dodge. Noted flat, no rescue: ξ_H²(n) passes
 through −4.45 at n ≈ 1.47 — and n = 1 is the founding equation; sliding n would be
 tuning, forbidden, dead on arrival.
@@ -5330,7 +5330,7 @@ the content is the chain, not the landing).
 its own sign** from building anything — it can only carry. ***The pair's roles are not
 assigned. They are the signs of the two β functions.***
 
-## ENTRY 138 — THE RED-TEAM SESSION on the light arc: **two regrades, one rider, and a SIXTH lock** (A = √2)
+## ENTRY 138 — THE ADVERSARIAL-REVIEW SESSION on the light arc: **two regrades, one rider, and a SIXTH lock** (A = √2)
 
 *Three demanded tests, run with ramps; process error 32 filed alongside.*
 
@@ -5341,7 +5341,7 @@ gap at M_Pl is 2.9 (95% range [0.6, 5.3]) and **only ~2% of the band closes it**
 crossing sits 2.1 decades below M_Pl. **Regrade: NEAR-lock, suggestive.** Exact closure would
 require the basement's own threshold corrections — **a payment the basement owes (a lock),
 not a result the model holds.** *Process error 32: "lock" language on a miss the ramp grades
-at ~2% — the same directional spin as process error 30, now caught by the in-house red team
+at ~2% — the same directional spin as process error 30, now caught by internal audit
 before booking hardened.*
 
 **TEST 2 — the 44/56 split demoted to an illustration; the INVARIANT keeps everything that
@@ -8388,7 +8388,7 @@ carry light dark quarks (N_f ≥ 2)**; pure glue (0.63 → 1.83×) is **excluded
 dyad-as-chiral-condensate ⟨q̄q⟩ needs dark quarks. Signature unchanged from entry 227: ΔN_eff(BBN) ~
 0.1–0.25 primary.
 
-**Red-team (why candidate-grade, not closure).** The result is SENSITIVE to which strong scale m_e maps
+**Honest limits (why candidate-grade, not closure).** The result is SENSITIVE to which strong scale m_e maps
 to — √σ works, m_ρ too low, Λ/constituent too high. So **√σ_dark = m_e (the portal) is load-bearing**.
 The swing converts "why τ = 1/3?" (numerology) into "why √σ_dark = m_e?" (the portal scale) — genuine
 movement (a magic number → a lattice-universal ratio + one physical scale-match), not elimination.
@@ -8546,8 +8546,8 @@ DM-fate thread flagged in entry 228 is **closed: not fatal, and it hands the mod
 The corpus already derives λ_phys ≈ (m/Ψ₀)² ≈ 2×10⁻⁹¹ (spine §17): the ALP quartic saturating the
 isocurvature ceiling → P-2026-031 (%-level CDM isocurvature at ℓ~170). Verified numerically:
 (m/Ψ₀)² = 2.01×10⁻⁹¹ with m = 2.24×10⁻²⁰ eV, Ψ₀ = 5×10¹⁶ GeV (`python`). Pinned to a factor-~9 window
-[2.3×10⁻⁹², 2×10⁻⁹¹] by two independent bounds: BH support below, isocurvature above. Three red-team
-refinements:
+[2.3×10⁻⁹², 2×10⁻⁹¹] by two independent bounds: BH support below, isocurvature above. Three
+refinements on closer inspection:
 
 1. **TWO quartics, conflated under one symbol.** The BH/bounce floor (blackholes §3, bigbang §2:
    "quartic *repulsion*") needs the **amplitude** quartic λ|Ψ|⁴, **repulsive** (λ>0). The isocurvature/
@@ -8586,7 +8586,7 @@ SM alone and **48 − 48 = 0 for SM + 3 right-handed neutrinos** — the νR the
 Majorana masses, doing double duty → predicts exactly 3 νR, 3 generations, no light steriles. Verified
 the arithmetic (45/48/12 counts are right for the SM).
 
-**RED-TEAM — the count has no scalar row.** In the unbroken phase the Higgs is 4 real scalars, and a
+**The gap — the count has no scalar row.** In the unbroken phase the Higgs is 4 real scalars, and a
 scalar's contribution to the relevant heat-kernel coefficient is generically **∝ (1/6 − ξ_H)** — nonzero
 unless the Higgs is conformally coupled (ξ_H = 1/6). The doc (quantum_gravity §5.5) acknowledges ξ_H is
 needed for the G *value* (the m²·ln term) and calls the G-value "undecidable," **but claims str[k₁] = 0
@@ -8625,7 +8625,7 @@ scale. That would unify the frame/UV cluster — #18 (who lives downstairs), #48
 and the α_c = 3α "3" — into a single object, and it makes the M3 str[k₁] balance a statement about
 *this* roster.
 
-**What it buys — and what it doesn't (red-team).** It recasts the portal √σ_dark = m_e from "a
+**What it buys — and what it doesn't.** It recasts the portal √σ_dark = m_e from "a
 coincidence" to **"the medium sits at its own lightest constituent's scale"** — the electron, as the
 lightest lepton-partner, sets the confinement/pairing scale. That is a genuine *softening* of the
 portal's arbitrariness. But it is **not a derivation**: it hits the same hunt-229 wall — either the
