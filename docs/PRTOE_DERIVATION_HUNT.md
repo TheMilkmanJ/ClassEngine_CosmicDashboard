@@ -6969,3 +6969,58 @@ g²T·N misses the needed 76 meV by **+32 dex**; the shot-noise √N structure r
 eV) radiating into the meV neutrino bath. **The response function is now WELL-POSED, not mysterious:**
 derive S(ω/T), feed v_L from the seesaw grid INDEPENDENTLY (not the inverted 3.4 MeV), get Γ₀ forward,
 check whether Λ falls out at 2.25 untold. That lineshape derivation is the next session's object.
+
+## ENTRY 189 — THE KUBO LINESHAPE S(ω/T), DERIVED (entry 188's owed forward compute): **the honest lineshape is OHMIC (s = 1), it MISSES 76 meV by 21 dex — the amplitude does NOT close forward; the 8-dex residual is displaced onto ONE owed number, the settling attractor's spectral index, which must be SUB-ohmic (s ≈ 0.26) — a place no local coupling can reach**
+
+*The −kdown road walked FORWARD, no inversion: nothing back-solved from 2.25 meV. The freeze
+epoch (z ≈ 12) and ω = H(z≈12) are forward — they are just T_ν = m_ν going non-relativistic.
+Script: `scripts/kubo_lineshape.py`.*
+
+**THE FORWARD LADDER, RE-VERIFIED (all inputs registered, none inverted):**
+- naive coherent Γ₀ = g²·T_ν·N_coh = 2.4×10³¹ eV → **+32.5 dex** over the 76 meV target (entry: +32);
+- √N shot-noise Γ₀ = g²·T_ν·√N_coh = 2.8×10⁶ eV → **+7.6 dex** (entry: +8) — confirms entry 176's p≈½;
+- **N_coh is FORWARD:** n_ν(336 cm⁻³, today) × ξ³(402 AU) = 7.31×10⁴⁹ (registered 7.3×10⁴⁹, ratio 1.00);
+- **ω/T is FORWARD:** H(z=12) = H₀√(Ω_m(1+z)³) = 3.9×10⁻³² eV, ω/T = 1.7×10⁻²⁹ (entry: 1.8×10⁻²⁹);
+- residual suppression needed: S = 2.75×10⁻⁸ ⟹ **if S = (ω/T)^s, the required power is s = 0.263.**
+
+**THE LINESHAPE, DERIVED (not assumed) — collisionless Lindhard/Landau response of the ν bath.**
+The mode couples to the bath density fluctuation δn (the √N channel, entry 176); friction is its
+FDT partner, Γ(ω) ~ Im χ_{nn}(ω,k). For a free-streaming (entry 177) bath this is the collisionless
+Landau form. Computed numerically (Fermi–Dirac at T=m_ν, the NR transition):
+- **SOUND mode (ω = c_s k, c_s = √α_c = 0.148c):** the damping γ/ω is **scale-free — numerically FLAT
+  across five decades in ω (log-log slope +0.000)** ⟹ γ ∝ ω¹ ⟹ **the lineshape is OHMIC, s = 1.000.**
+- **near-HOMOGENEOUS mode (ω/k > c):** Im χ_{nn} = **0 identically** — no neutrino is faster than c to
+  sit on the resonance, so a truly homogeneous settling mode has **no collisionless friction at all.**
+
+**THE VERDICT — a clean FORWARD MISS (honest, per the hard rule that an honest miss beats a forced hit):**
+feeding the derived ohmic lineshape forward, Γ₀ = g²T√N·(ω/T)¹ = **4.8×10⁻²³ eV = 21.2 dex BELOW the
+76 meV** the freeze needs. The freeze T_f would land 21 dex too cold; **Λ¼ ≠ 2.25 meV. The amplitude
+does NOT forward-close from the neutrino microphysics.** The "76 meV" of entries 175/176 remains
+inverted (entry 188 said so) — and now the honest forward physics is shown to actively MISS it, not
+merely fail to reach it.
+
+**THE SHARP LOCALIZATION (why this is a result, not a shrug): the target power s ≈ 0.26 is SUB-ohmic,
+and sub-ohmic is unreachable by ANY local coupling.** A density coupling gives ohmic (s=1, derived
+above); a *derivative* (Goldstone/Majoron) coupling adds powers of ω → **super-ohmic (s ≥ 1)** —
+suppressing even harder, the WRONG way. Every local vertex lives at s ≥ 1. **s < 1 requires a
+scale-invariant (1/f-type) bath spectrum — a non-local structure no coupling constant supplies.** The
+only object in the model with that structure is entry 180's **expansion-sourced settling attractor**
+(the deviation continuously re-sourced by H across every decade from genesis — a scale-free spectrum
+by construction). So the entire 8-dex residual is displaced onto ONE owed number: **the attractor's
+spectral index, which must equal s ≈ 0.26–0.28.** This ties the √N response function to entry 180's
+attractor exactly as entry 180 predicted ("the two owed rows are ONE calculation") — but it also
+DEMOTES the amplitude: the DE value now rests on TWO stacked owed computes (derive the attractor index,
+AND that it lands 0.26), which is weaker than "one owed lineshape." **Net: SOBERING. The three doors do
+NOT converge forward this session; the amplitude gap is real, and now pinned to a specific falsifiable
+target (attractor index 0.26–0.28) that the model does not yet compute.**
+
+**HONEST EDGES.** (a) s ≈ 0.26 is not a clean fraction (¼ = 0.25 lands +0.4 dex, i.e. 2.3× high — close
+but not exact; ½ misses by −7 dex), so even the sub-ohmic route has no tidy target — mild evidence
+against a clean closure. (b) The homogeneous-mode result (friction = 0) means the whole mechanism needs
+the settling mode to carry finite k (a sound mode, not a zero-mode); that k is un-pinned. (c) The second
+owed compute of entry 188 — exhibiting the k_up↔−k_down mass symmetry behind Koide's neutral seat — was
+**NOT attempted this session** (lower priority; still owed). **CORPUS CORRECTIONS remain GATED** (entry
+188's closing note): this forward MISS does not license rewriting the CC file / ledger / THREE_EQ — if
+anything it strengthens the case that the "4-in-10⁴" Λ headline is inverted, but the gate was "until the
+response function RULES," and it has now ruled *against* forward convergence, which is a reason to hold
+the inverted-flag, not to re-derive. The DE amplitude stays un-banked, now with its gap located.
