@@ -6,12 +6,12 @@
 ## The equations
 - in-medium photon mass: ω² = ω_p² + k²c², ω_p = √(4πn_e e²/m_e); m_γ = ħω_p
 - the trace fraction of light: T^μ_μ/ρ = (ω_p/ω)² — radio near ω_p is the ONE part of the EM
- bath the trace-bus can see (the FIFTH threshold; internal review-recorded)
+ bath the trace-bus can see (the FIFTH threshold)
 - the dispersion row: Δt ∝ ∫n_e dl/(m_e ν²) — the lattice's −1ε weight
 - the crunch's mouth: ν_p sweeps up with density (ν_p ~ 900 MHz at n_e ~ 10¹⁰ cm⁻³) — each
  radio band massed, then thermalized (the before-genesis null's mechanism, graded)
-- EM-trace ownership: electrons 99.95% (1/m weighting) — the leptophilia RHYME (internal review:
- suggestive-only, honestly tagged)
+- EM-trace ownership: electrons 99.95% (1/m weighting) — the leptophilia RHYME
+ (suggestive-only, honestly tagged)
 
 ## How PRTOE connects
 Plasma is where the medium and light exchange their only glances: dispersion (measurable, the

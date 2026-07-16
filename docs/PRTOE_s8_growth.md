@@ -33,7 +33,7 @@ history — exactly the shape of the observed tension.
 - The chains NOW: conv_g is a sampled parameter in the thaw chain/conv_desi (pre-registered at
  g ≈ 0.10 ± 0.05); their posteriors are the mechanism's live test. Interim the thaw chain
  explores conv_g ~ 0.2 — UNCONVERGED, watch-don't-grade.
-- MEANING-INVERSION NOTE (internal review-class, kept): a conv_g pulled LARGE would ease S₈ at the price
+- MEANING-INVERSION NOTE (kept): a conv_g pulled LARGE would ease S₈ at the price
  of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
 
 ## 3. The improvement, honestly bounded

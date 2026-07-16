@@ -34,5 +34,5 @@ auditable); (iii) future lensing converging UP to the CMB value (dissolves the t
 and the mechanism's purpose — a null, not a kill).
 
 ## Sources
-KiDS/DES (via [Planck2018]-era compilations), internal: thread 4 (T4), internal review mirage
+KiDS/DES (via [Planck2018]-era compilations), internal: thread 4 (T4), the mirage
 check, the conv machinery in background.h, the machines' table. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

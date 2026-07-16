@@ -20,7 +20,7 @@ observable class this model marks.
 
 P-2026-028: the primordial field's magnetic helicity is SIGNED BY THE GENOME —
 sign(helicity_B) = sign(n) — the same topological draw that set matter over antimatter
-(graded convergence; internal review: "a three-way parity-lock on one integer"). No other
+(a three-way parity-lock on one integer). No other
 magnetogenesis framework predicts a helicity sign CORRELATED with the baryon asymmetry: for
 everyone else, helicity (if any) is an independent accident.
 

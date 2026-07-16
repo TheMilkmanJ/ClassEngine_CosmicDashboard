@@ -18,7 +18,7 @@ mass": an internal contradiction brewing between the sky and the lab.
 
 In this model the neutrino is unique among fermions: its mass is NOT Higgs-Yukawa'd — it is
 **medium-sourced** (the inverse-seesaw/Majoron assembly; μ = the L-breaking spurion tied to the
-condensate; the recorded meV-floor kinship ρ_inf^¼ ~ 2.25 meV vs m_ν-scale). The internal review grouping
+condensate; the recorded meV-floor kinship ρ_inf^¼ ~ 2.25 meV vs m_ν-scale). The grouping
 made it structural: nine Higgs channels + ONE medium-owned line — the neutrino is "the tenth
 channel," the carrier's own.
 
@@ -36,15 +36,15 @@ This is a live, near-term discriminator — arguably the model's quietest real-t
 
 ## 3. The forward structure (the seesaw corner, quantified)
 
-Benchmark A (v_L = 5 MeV, M = 10 TeV): near-resonant (μ/Γ = 0.46, benchmark-local per the
-internal review self-catch), Majoron coupling g = 1.2×10⁻⁸ — INSIDE the CMB-S4 band (P-2026-025).
+Benchmark A (v_L = 5 MeV, M = 10 TeV): near-resonant (μ/Γ = 0.46, benchmark-local),
+Majoron coupling g = 1.2×10⁻⁸ — INSIDE the CMB-S4 band (P-2026-025).
 The corner map: S4 tests v_L < 20 MeV ≈ one-third of the natural space. The η route
 (Card 4) rides this same sector: K = Γ_N/H = 9×10⁷ computed; one Boltzmann solve from the
 baryon abundance. The neutrino sector is where the model's laboratory future lives.
 
 ## 4. Honest scope
 
-- The de-biasing DIRECTION is generic to varying-m_e cosmologies (internal review caveat, kept); the
+- The de-biasing DIRECTION is generic to varying-m_e cosmologies (a caveat, kept); the
  model's specific numbers (0.07–0.09 eV) are its own.
 - v_L: duty-forced into a corner-conditional band (Card 6 executed, hunt entry 81) —
  MeV-class and S4-armed if the η route is resonant; ≥ GeV and S4-dark if the seesaw

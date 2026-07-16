@@ -33,7 +33,7 @@ black holes stop being weak-coupling atoms and become strong-coupling quantum ob
 horizons exceed the medium's coherence length.** M87* — the one we photographed — sits exactly
 at the boundary (α_g = 1.09, r_s/ξ = 0.32).
 
-*Noted-not-recorded (internal review discipline inherited): the empirical SMBH cutoff (~10¹⁰·⁵ M☉) has
+*Noted, not recorded: the empirical SMBH cutoff (~10¹⁰·⁵ M☉) has
 astrophysical explanations (Eddington-limited growth); the model's threshold is a
 characteristic-scale COINCIDENCE candidate, flagged for the day the mass function's top is
 measured precisely.*
@@ -45,7 +45,7 @@ formed clouds; the margins cleared. The atom grammar upgrades it from a passed n
 STRUCTURE: (i) which BHs can host levels at all (α_g windows per mass — the superradiance
 condition is mass-selective with ONE m for the whole sky); (ii) the strong-coupling regime
 (α_g > 1) where the perturbative cloud picture fails and the BH's near-zone is a nonlinear
-condensate problem (the same regime as the internal review core — one physics, inside and out);
+condensate problem (the same regime as the black-hole core — one physics, inside and out);
 (iii) the shared-m cross-link: any future superradiance detection anywhere on the mass ladder
 must fit the SAME m the α_c chain is currently measuring — a one-parameter sky.
 

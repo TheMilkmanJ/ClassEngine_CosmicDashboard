@@ -31,7 +31,7 @@ fraction (an import, not an independent appearance — provenance audited, hunt 
 under the democratic-weight conjecture w(1−w) = 2/9 it would be promoted from echo to
 prediction, and the f_amp scan's own table then pins f_amp ≈ 0.69 as its independent check) — and
 the Card-2 arc (the 512-run, the winding average, the ramp) has circled f_amp = 11/18-class
-values without landing them (internal review: Koide-f̄ disfavored 3.3σ as f̄'s own value; the
+values without landing them (Koide-f̄ disfavored 3.3σ as f̄'s own value; the
 Koide-with-spending triple remains one of three live endings at 0.9σ). The honest
 statement: **the model keeps producing Koide's rationals in its own arithmetic without yet
 deriving the mass relation** — a lane, not a result. The generation structure (three families

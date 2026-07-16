@@ -3,8 +3,8 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*internal review explicit ask ("the asserted √3 — owed a cleaner derivation"), discharged as a
-presentation of the recorded object (the KP-sequester solve, #46; internal review value-independent
+*A cleaner derivation of the asserted √3, presented as the recorded object (the KP-sequester
+solve, #46; value-independent
 form). Three lines, one honest flag. Status: the derivation as recorded, with its single
 O(1) assumption named rather than hidden.*
 
@@ -37,7 +37,7 @@ one-scale-ness.
 ## The one honest flag (named, not hidden)
 
 Line 1's coefficient is taken to be exactly 1 — the PAR-NORMALIZED gravitational rate. That is
-the SAME par-coupling question as the c-story (internal review→internal review arc): a rate coefficient of, e.g.,
+the SAME par-coupling question as the c-story: a rate coefficient of, e.g.,
 0.9² would give Γ/H = √3 × 0.9. So the √3 is sharp GIVEN par, O(1)-fuzzy without it — and the
 why-now timing (t_turn = ln(1/√A_s)/(√3·H) ≈ 6.6/H) tolerates O(1) drift in Γ without losing
 its dial-free character (the logarithm dominates). The flag propagates to T8's file: the

@@ -39,8 +39,8 @@ are borrowed from the most-tested systems in physics.
 
 Specific bench questions the model would pay to have answered: (i) f_amp-analog measurements —
 release a ring BEC with a Z4-patterned tilt and measure the radial/angular energy partition
-and its TIME-DRIFT (the ramp of internal review, on a bench); (ii) winding statistics in toroidal
-quenches vs the Kibble √N law (internal review n-distribution); (iii) phase-slip statistics under the
+and its TIME-DRIFT (the model's ramp, on a bench); (ii) winding statistics in toroidal
+quenches vs the Kibble √N law (the n-distribution); (iii) phase-slip statistics under the
 co-link question (the interpretation layer's one lab-adjacent corner). None registered;
 all possible with existing apparatus classes.
 

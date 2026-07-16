@@ -16,7 +16,7 @@ If the dark matter is a condensate of quanta with mass m, every galaxy is litera
 the gravitational coupling. This is standard fuzzy-DM structure — the model's additions are
 (i) the mass is RECORDED, not tuned per-galaxy (m = 2.24×10⁻²⁰ eV — carrying the roster-trial conditionality of its pin, hunt entry 145 — the H=m onset value now being
 MEASURED by the α_c chain), and (ii) the grammar is the same one that derived the cosmic floor
-(the Bohr×BEC skeleton of internal review).
+(the Bohr×BEC skeleton).
 
 ## 1. The ground state, computed
 

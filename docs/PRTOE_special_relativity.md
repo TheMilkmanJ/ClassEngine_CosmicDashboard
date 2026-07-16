@@ -31,10 +31,10 @@ IS the cosmological fluid.)
 Emergent symmetries have residuals; the data are merciless:
 - matter-sector LV (clock-comparison, Michelson-Morley-class): bounds at 10⁻¹⁷–10⁻²⁰;
 - photon-sector: dispersion/GRB timing (the photon rides cleanly in-model — EM-neutral medium —
- so photon-LV is naturally tiny: a structural pass, flagged at internal review class);
+ so photon-LV is naturally tiny: a structural pass);
 - gravity-sector: GW speed = c to 10⁻¹⁵ (GW170817) — the emergent metric must serve GWs and
  light identically: automatic if both ride one metric, a CHECK not a freebie.
-**The LV pricing pass (internal review ledger) is this file's one debt — shared with M3.** The
+**The LV pricing pass is this file's one debt — shared with M3.** The
 model's residuals live where the medium's microstructure leaks: suppressed by (E/Λ_micro)ⁿ
 with Λ_micro now FORCED to Planck — which is exactly why the bounds are survivable:
 Planck-suppressed LV at 10⁻¹⁷-class energy ratios is generically below current reach. (The

@@ -11,7 +11,7 @@
  galaxy carry a line-ratio offset up to ~10⁻² fading as the ramp completes — m_e(z) measured
  directly in data being taken now
 - the cooling subdomain (parked-live): mid-ramp H₂/HD cooling shifts → the first-star
- IMF (internal review: likely percent-class — the honest label)
+ IMF (likely percent-class — the honest label)
 
 ## How PRTOE connects
 Chemistry off-Earth is chemistry plus the RAMP: below z~4 the sky must be (and is) ppm-standard
