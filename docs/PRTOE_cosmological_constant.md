@@ -52,38 +52,25 @@ loop-dressing factor matched the residual; that claim was input-inconsistent and
 retired in the public failures ledger.)
 
 **A closed form for the scale.** The dyad and the condensate communicate only through the shared
-electron, and both couplings are electromagnetic, which fixes the condensate's mass scale as M₂ = α²·(the
-dyad condensation scale). The dark-energy scale then becomes a closed form in fundamental constants:
+electron, and both couplings are electromagnetic, which fixes the condensate's mass scale as
+M₂ = α²·T_c (T_c the dyad's condensation temperature). The dark-energy scale is then a closed form
+whose only dimensionful input is the electron mass:
 
-$$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2\,M_2 = \tfrac{d}{2}\,\alpha^4\,m_e \approx 2.17\ \text{meV}\quad(0.97\times\ \text{observed}),$$
+$$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2\,M_2 = \tfrac{9}{2}\,\alpha^4\,\tau\,m_e, \qquad \tau \equiv T_c/m_e .$$
 
-with *d* = 3 the spatial dimension, α the fine-structure constant, and m_e the electron mass. The α⁴
-scaling is derived — the condensate's own binding (α_c²) times the electromagnetic handshake (α²) — and
-the electron mass enters because the condensation is tied to it.
+The α⁴ scaling is derived — the condensate's own binding (α_c²) times the electromagnetic handshake (α²).
+The one order-one number left is **τ = T_c/m_e**, which the observed value fixes at 0.345.
 
-*(Consistency note on T_c.* M₂ = 9.39 eV corresponds, via M₂ = α²·T_c, to a dyad condensation scale
-T_c ≈ 176 keV — the low end of the adopted [40, 900] keV band. The nominal T_c = 193 keV used
-elsewhere in the corpus would give M₂ = 10.3 eV and ρ_Λ¼ = 2.46 meV (a 9% shift, comfortably inside
-the band). The DE digit therefore leans on the lower end of the T_c range.*)
-
-**What is derived, and what is not.** The *scaling* above is derived and lands within a few percent. The
-remaining input is a single order-one number: the ratio of the condensation temperature to m_e, set by
-how strongly the medium's constituents bind. The medium's known couplings are too weak to supply that
-binding, so this number rests on a proposed **dark confining sector** — a "dark colour" force whose
-scale is pinned to the electron mass — which supplies the strong binding. This sector sets the
-dark-energy *binding scale* only; the dark matter remains the medium's own excitations, as in the core
-model. That proposal is a candidate, not a derivation. So the honest reading is: the dark-energy *scale*
-follows a derived closed form; its last digit is the ratio τ = T_c/m_e = 0.345, which equals the
-**universal chiral-transition-to-string-tension ratio T_c/√σ ≈ 0.34–0.37 of a QCD-like confining sector**
-(light dark quarks; pure glue, at 0.63, is excluded). With the sector's string tension pinned to the
-electron mass by the portal, the value lands at 0.97–1.07× observed — and the pinning is self-consistent:
-the adopted T_c = 193 keV run back through the QCD ratio recovers √σ_dark ≈ 522–544 keV ≈ m_e. The
-remaining question — *why* √σ_dark = m_e — is now settled as far as it can be: it **cannot be derived
-without abandoning the QCD-ratio value of τ** (a conformal/walking sector that would dynamically fix
-√σ_dark = m_e has the wrong τ, and the QCD-like sector that gives τ ≈ 0.35 carries its own scale). So the
-portal stands as an **irreducible input** — the electron mass is the one meV-sector scale the model does
-not derive, and ρ_Λ ~ α⁴m_e is a genuine coincidence rather than a pending derivation. (Hunt entries
-228–229; `scripts/tau_deconfinement.py`.)
+**What is derived, and what is not.** τ is not a free dial. In the proposed **dark confining sector** — a
+"dark colour" force whose condensation *is* the dyad, with its scale pinned to the electron mass — τ is
+the chiral-transition-to-string-tension ratio of a QCD-like theory, a near-universal value ≈ 0.34–0.37
+that places ρ_Λ¼ at 0.97–1.07× the observed 2.25 meV. (This sector sets the dark-energy *binding scale*
+only; the dark matter remains the medium's own excitations. The derivation, and why a QCD-like sector is
+required, are in hunt entries 228–229.) What the model does **not** derive is the pinning — *why* the
+dark scale equals the electron mass. That one input is irreducible: it is the meV coincidence
+ρ_Λ ~ α⁴m_e, and it cannot be derived without spoiling the value of τ. So the honest reading: the
+dark-energy *scale* follows a derived closed form in α with a single dimensionful input, the electron
+mass; the value lands within a few percent; and the one un-derived step is stated plainly, not hidden.
 
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,
