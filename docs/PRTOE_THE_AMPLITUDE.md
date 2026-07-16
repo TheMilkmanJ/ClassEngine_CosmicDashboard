@@ -46,7 +46,7 @@ separate parameters.*
 ## 3. The gate (what turns ε off)
 
 ε(C) = ε₀·g(C/C_ref): fully on in the early universe (above the condensation at
-T_c ≈ 193 keV, per the BBN window), fading over z ≈ 30–60 by one of two registered
+T_c ≈ 179 keV, per the BBN window), fading over z ≈ 30–60 by one of two registered
 readings — A (thermal, global) or B (environmental, tracking local clumping). Under B
 the gate is a smooth, steep curve in local density, fenced four independent ways (the
 forest's observed flatness, the SN host-density range, P-2026-022's fade profile, and

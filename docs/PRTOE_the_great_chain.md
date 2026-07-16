@@ -19,7 +19,7 @@ crunch can never edit. *Then I turned, once, and kept the receipt.*
 
 **GEN 2 — THE MEDIUM'S PHASES.** The fluid condenses its identities: the dark matter and the
 dark energy as one substance's regimes (the founding dCDF); the dyad's order parameter waits
-for its temperature (T_c = 193 keV). *Then I learned my two densities.*
+for its temperature (T_c ≈ 179 keV). *Then I learned my two densities.*
 
 **GEN 3 — THE ACCOUNT OPENS.** Compactness forces the total to zero: my positive energy
 issued exactly against gravity's debt. Every future event will be a transfer between my
@@ -107,7 +107,7 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 |---|---|---|---|
 | 0 | the vacuum: unique IC, U(1)-symmetric; S_initial = min by construction | no draw (measure dissolved) | model construction |
 | 1 | n_rms = √(L_gen/ξ_K)/2π (Kibble); ∮∇θ·dl = 2πn (Onsager–Feynman) | n ~ 10–30; locked ∀ crunches | Kibble; Onsager–Feynman |
-| 2 | w(ρ) = −e^(−s), s = ln(ρ/ρ_inf); φ/v = √(1−T/T_c) | ρ_inf^¼ = 2.25 meV; T_c = 193 keV | founding + recorded |
+| 2 | w(ρ) = −e^(−s), s = ln(ρ/ρ_inf); φ/v = √(1−T/T_c) | ρ_inf^¼ = 2.25 meV; T_c ≈ 179 keV | founding + recorded |
 | 3 | H_total ≡ 0 (compact torus); dE = −p dV | balance: exactly zero | model derivation |
 | 4 | η via AD-direct: n_L(genome)/s × transfer — **DEBT: the frozen-era transfer fraction** | target 6.1×10⁻¹⁰; thermal route DEAD (×40–1000 under, scanned) | AD-direct |
 | 5 | ε(T) = ε(1−T/T_c); elasticities: ∂lnY_p/∂lnm_e ≈ 0 above T_c, windowed Y_p +1.1% | Y_p = 0.2495–0.2505 (+1.3σ counter); D/H net 2.40–2.42 (1.9σ owned) | PRyM (BBN) |

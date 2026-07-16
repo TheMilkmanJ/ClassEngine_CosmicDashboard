@@ -19,7 +19,7 @@ The laser threshold is a textbook nonequilibrium second-order phase transition: 
 threshold, incoherent spontaneous emission (the "disordered phase"); above, a macroscopic
 coherent amplitude with spontaneous phase choice — described by the SAME Ginzburg–Landau
 order-parameter mathematics [GinzburgLandau1950; Haken's synergetics] as the medium's
-condensation at T_c = 193 keV. The universality is not analogy; it is the critical-
+condensation at T_c ≈ 179 keV. The universality is not analogy; it is the critical-
 phenomena content-node (the audit's 13th voice) measurable in a lab: threshold behavior,
 critical slowing, phase-ordering kinetics — the transition's mathematics, benchmarked.
 

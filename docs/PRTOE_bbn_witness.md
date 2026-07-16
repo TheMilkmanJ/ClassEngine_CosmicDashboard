@@ -3,12 +3,12 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The only laboratory in nature that watched the dyad's phase transition live: T_c = 193 keV
+*The only laboratory in nature that watched the dyad's phase transition live: T_c ≈ 179 keV
 sits INSIDE the BBN window. The three abundances are three frames of the condensation.*
 
 ## The equations
 
-- the ramp: ε(T) = ε·(1 − T/T_c), T_c = 193 keV (the μ=T fixed point, recorded)
+- the ramp: ε(T) = ε·(1 − T/T_c), T_c ≈ 179 keV (the confining chiral value; 193 keV is the perturbative μ=T fixed-point cross-check)
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
  (~70 keV): ε_eff = 0.64ε; Li (~40 keV): 0.79ε
 - windowed elasticities (production PRyM, spliced rates): Y_p → 0.2495–0.2505

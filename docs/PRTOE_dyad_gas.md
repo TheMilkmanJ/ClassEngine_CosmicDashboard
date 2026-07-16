@@ -15,8 +15,8 @@ of TWO dark fields — its partner is the dCDF superfluid
 
 Field 2 of the dark sector: a **charge-free field that couples to the electron**. It condenses via
 the electron's Coleman–Weinberg backreaction (radiative SSB): VEV **v ≈ 100 keV**, condensation
-temperature **T_c ≈ 193 keV** (log-ambiguous band [40, 900] keV; 193 is the adopted μ = T
-fixed point).
+temperature **T_c ≈ 179 keV** (the non-perturbative confining chiral value; the perturbative μ = T
+fixed point gives 193 keV, log-ambiguous over [40, 900] keV, as the cross-check).
 
 *(A note on "gas": this is the operator's phase-framing for the dyad's **complementary role** to
 the dCDF superfluid — the hot/thermal/lepton-binding side against the cold/chiral/abundance side.

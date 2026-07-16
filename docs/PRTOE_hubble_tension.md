@@ -24,7 +24,7 @@ electron mass sets recombination's atomic physics; a heavier early electron give
 earlier decoupling, a smaller sound horizon, and a CMB fit that lands at *higher* H₀
 without disturbing the acoustic structure (the established varying-m_e degeneracy
 [Hart–Chluba 2020; Sekiguchi–Takahashi 2021], here supplied with a physical origin —
-the condensate's order parameter, condensing at T_c ≈ 193 keV, inactive during the
+the condensate's order parameter, condensing at T_c ≈ 179 keV, inactive during the
 early stages of nucleosynthesis at production grade).
 
 ## 3. Where it lands — stated honestly

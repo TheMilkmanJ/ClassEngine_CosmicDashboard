@@ -79,7 +79,7 @@ The electron Coleman–Weinberg backreaction on the charge-free field (m_e(φ) =
 
 > V_CW = −(1/16π²)·m_e(φ)⁴·[ln(m_e(φ)²/μ²) − 3/2] → tachyonic curvature → radiative SSB
 > **VEV: v = m_e0·[ε(L−1)/4π²]^{1/4} ≈ 100 keV** (81/102/121 keV for L−1 = 2/5/10; ±25%, robust)
-> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted 193 keV sits inside every version; leading-log unstable
+> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted value is now T_c ≈ 179 keV (the non-perturbative confining chiral ratio, hunt 228/230), with this perturbative 193 keV a log-ambiguous cross-check inside every version; leading-log unstable
 > near the flat direction; RG resummation = the working docket).
 
 The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded).
@@ -259,7 +259,7 @@ the whole descent**; the double-ladder alignments graded per-rung (2 definitiona
 no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
 
 **THE WINDOWED BBN VERDICT:**
-T_c = 193 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
+T_c ≈ 179 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
 medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.2495-0.2505 (+1.2-1.5σ
 COUNTER vs Aver; +3.7σ vs EMPRESS — the helium civil war noted); D/H partially refunded
 (net ≈ 2.40-2.42, a ~1.6-1.9σ owned bet). **The BBN synthesis: the sector is THE
