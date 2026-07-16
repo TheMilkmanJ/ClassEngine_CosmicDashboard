@@ -85,11 +85,11 @@ hierarchy. The smallness is inherited twice, tuned zero times.
 ## 3. Consequences already in force
 
 - ρ_Λ^{1/4} equals the lightest neutrino mass (the model's dark-energy–neutrino tie)
-  ⟹ **Σm_ν = 61.4 meV, normal ordering, Majorana mechanism required** — the full
-  statement with its caveats lives in the neutrino-sector document.
+ ⟹ **Σm_ν = 61.4 meV, normal ordering, Majorana mechanism required** — the full
+ statement with its caveats lives in the neutrino-sector document.
 - w = −1 exactly (a ground state, not a rolling field) — DESI's target.
 - The dark-energy floor cannot "thaw" into dynamics (a pre-registered zero, currently
-  under test by a dedicated chain).
+ under test by a dedicated chain).
 
 ## 4. Why exactly one quantum per cell (the occupancy argument; argument-grade)
 
@@ -112,45 +112,45 @@ One quantity, three independent readings, one demanded number — the medium's o
 consistency structure applied to its most famous problem:
 
 - **The thermodynamic reading — the cancellation:** a self-sustained
-  condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
-  relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
-  roster demonstrably cannot pay this bill species-by-species: str[1] = −68 and the
-  Veltman-class sum both FAIL — the whole medium pays what the parts cannot). The
-  observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
-  fountain (below).
+ condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
+ relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
+ roster demonstrably cannot pay this bill species-by-species: str[1] = −68 and the
+ Veltman-class sum both FAIL — the whole medium pays what the parts cannot). The
+ observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
+ fountain (below).
 - **The background reading — does not fix the value:** on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent
-  closed-universe solve gives coefficient **0.40, not the toy ¾**, so Λ¹ᐟ⁴ = 1.48 meV (0.66×). But the
-  fatal, coefficient-INDEPENDENT problem is the RATIO: the a³ 4-volume weight always favors max-a (where
-  ρ_m is minimum), so **Ω_Λ/Ω_m ≤ 0.40 across the entire expansion** (ramp-confirmed: monotonic to a max
-  of 0.398; coefficient sweep tops out ~O(1) with no closed solution above C≈0.5) — a factor **5.5 below
-  the observed 2.2**. And for the model's OWN eternal-expansion fate (flat torus → infinite 4-volume),
-  ⟨ρ_m⟩ → 0 ⟹ **Λ → 0** (ramp-confirmed). **KP cannot seat dark energy where it is observed.** The
-  earlier "0.76× from a mechanism" matched the value's *decade* by tuning turnaround~now while hiding the
-  ratio failure. *Scope:* this falsifies KP as the mechanism for the residual Λ VALUE; KP-sequestering as
-  the vacuum-CANCELLATION (the thermodynamic door below) is a separate, untouched claim.
+ closed-universe solve gives coefficient **0.40, not the toy ¾**, so Λ¹ᐟ⁴ = 1.48 meV (0.66×). But the
+ fatal, coefficient-INDEPENDENT problem is the RATIO: the a³ 4-volume weight always favors max-a (where
+ ρ_m is minimum), so **Ω_Λ/Ω_m ≤ 0.40 across the entire expansion** (ramp-confirmed: monotonic to a max
+ of 0.398; coefficient sweep tops out ~O(1) with no closed solution above C≈0.5) — a factor **5.5 below
+ the observed 2.2**. And for the model's OWN eternal-expansion fate (flat torus → infinite 4-volume),
+ ⟨ρ_m⟩ → 0 ⟹ **Λ → 0** (ramp-confirmed). **KP cannot seat dark energy where it is observed.** The
+ earlier "0.76× from a mechanism" matched the value's *decade* by tuning turnaround~now while hiding the
+ ratio failure. *Scope:* this falsifies KP as the mechanism for the residual Λ VALUE; KP-sequestering as
+ the vacuum-CANCELLATION (the thermodynamic door below) is a separate, untouched claim.
 - **The thermal door — the residual's dynamics** (hunt entries 165/175–183): the candidate
-  chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
-  would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
-  neutrino bath (the medium's only tree-level coupling; the friction turns on where
-  free-streaming turns off), and the freeze — Γ = H at T_f — lands at z ≈ 12 with a
-  decade-wide fade (z ≈ 32 → 4): **w = −1 exact through the observable range, untuned; the
-  settling's ash banks as dark matter (the drain, the fluid's own dust face); the frozen
-  residual is Λ.** Candidate grade throughout: the attractor/√N session is the doubly
-  load-bearing promotion computation (the coupling exponent AND the drain magnitude from one
-  calculation). The original statement stands beneath it: the condensate is **still settling from the one
-  genesis injection** — thermal counterflow (the fountain effect, the corpus's own
-  genesis name) persists while any deviation from the T = 0 ground state remains, dying
-  only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
-  medium is small — today's gradients are CMB-uniform at the 10⁻⁵ class — giving Λ's
-  smallness qualitatively for free.
+ chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
+ would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
+ neutrino bath (the medium's only tree-level coupling; the friction turns on where
+ free-streaming turns off), and the freeze — Γ = H at T_f — lands at z ≈ 12 with a
+ decade-wide fade (z ≈ 32 → 4): **w = −1 exact through the observable range, untuned; the
+ settling's ash banks as dark matter (the drain, the fluid's own dust face); the frozen
+ residual is Λ.** Candidate grade throughout: the attractor/√N session is the doubly
+ load-bearing promotion computation (the coupling exponent AND the drain magnitude from one
+ calculation). The original statement stands beneath it: the condensate is **still settling from the one
+ genesis injection** — thermal counterflow (the fountain effect, the corpus's own
+ genesis name) persists while any deviation from the T = 0 ground state remains, dying
+ only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
+ medium is small — today's gradients are CMB-uniform at the 10⁻⁵ class — giving Λ's
+ smallness qualitatively for free.
 - **The perturbations door** (entry 165 addendum): the textbook zero-point mode sum —
-  **the famous door, and the diagnosis of the famous disaster**: the 10¹²⁰ catastrophe is
-  what that door yields when opened *while denying the medium* — fluctuations read
-  without the equilibrium that cancels them. In the medium, the bulk of the mode sum is
-  cancelled by the equilibrium identity; **the residual = the modes still
-  out-of-equilibrium** — the same deviation the other two doors name. The registered
-  neutrino tie (ρ_Λ^{1/4} = m_ν,lightest = 2.25 meV; the lightest quasiparticle setting
-  the floor's quarter-power; post-hoc flag standing) is this door's sharper artifact.
+ **the famous door, and the diagnosis of the famous disaster**: the 10¹²⁰ catastrophe is
+ what that door yields when opened *while denying the medium* — fluctuations read
+ without the equilibrium that cancels them. In the medium, the bulk of the mode sum is
+ cancelled by the equilibrium identity; **the residual = the modes still
+ out-of-equilibrium** — the same deviation the other two doors name. The registered
+ neutrino tie (ρ_Λ^{1/4} = m_ν,lightest = 2.25 meV; the lightest quasiparticle setting
+ the floor's quarter-power; post-hoc flag standing) is this door's sharper artifact.
 
 **The demand this section adds (inherited by the thermal program):** the three residuals —
 the Gibbs–Duhem deviation, the residual fountain excitation, the un-cancelled mode sum —

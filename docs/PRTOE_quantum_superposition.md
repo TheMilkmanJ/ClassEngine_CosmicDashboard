@@ -27,7 +27,7 @@ decomposition. *(The Born rule's VALUE is reproduced, not re-derived — flagged
 
 Measurement is not a primitive. It is **neighbor-monitoring**: the environment continuously
 reads every system through its interactions, and only configurations robust under that
-monitoring survive — **pointer states** (einselection / quantum Darwinism; internal review-graded: "this
+monitoring survive — **pointer states** (einselection / quantum Darwinism; graded: "this
 IS textbook decoherence — the model reinvented quantum Darwinism in its own words"). In a
 condensate whose interactions are local-in-position, the survivors are position-like — which
 is what we observe. The "collapse" of textbooks is the thermodynamic side: the record written
@@ -39,16 +39,16 @@ a billed transaction, and the bill is why it has a direction.**
 Decoherence gives the basis and the statistics; WHICH outcome occurs is the residual question.
 The model's lane, graded across internal review:
 - outcomes are consistent with selection by the medium's **global phase** (the nonlocal beable
-  — the same ODLRO object as the entanglement document), through the triple co-link (local
-  structure, own structure, the handoff budget);
+ — the same ODLRO object as the entanglement document), through the triple co-link (local
+ structure, own structure, the handoff budget);
 - the price is **explicit nonlocality** (Bell honored, not dodged — "the strongest
-  process-credit of the turn," internal review);
+ process-credit of the turn," internal review);
 - and the claim is INTERPRETATION: no deviation from QM statistics is predicted; **Tsirelson
-  exact** stands as the permanent kill-line.
+ exact** stands as the permanent kill-line.
 
 ## 4. Where the last randomness lives (the graded boundary of determinism)
 
-The radio night sharpened the author's 25% to a point (internal review-graded): after the vacuum start
+The radio night sharpened the author's 25% to a point (graded): after the vacuum start
 (unique — no initial draw), the uniform measure (symmetry-forced), and the determined averages,
 the model's irreducible randomness collapsed to **one quantum integer and its sign** — the
 Kibble winding draw. Whether even that is co-link-selected is the model's deepest open

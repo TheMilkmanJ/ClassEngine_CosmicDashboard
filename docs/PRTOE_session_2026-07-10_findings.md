@@ -17,9 +17,9 @@ Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechan
 ρ_inf ← (IR residual of B1/Jacobson sequestration) ← m_ν,lightest⁴ (P-2026-012) ←
 seesaw(y, f=M_R) ← f = f(Ω_DM, m_medium, δm_e) ← Ω_DM (Affleck-Dine abundance) + y (Yukawa).
 - The seesaw scale f ≈ 2.3×10¹¹ GeV comes out IDENTICAL to the medium's own decay constant
-  (calc a). The neutrino's scale IS the medium's scale. Real internal consistency.
+ (calc a). The neutrino's scale IS the medium's scale. Real internal consistency.
 - Bottoms out at two GENESIS-level inputs: Ω_DM and one Dirac Yukawa. A well-posed REDUCTION
-  of the worst problem in physics down to two inputs — NOT a first-principles derivation.
+ of the worst problem in physics down to two inputs — NOT a first-principles derivation.
 
 **ρ_inf = the total energy of the universe (the CC seesaw):** ρ_inf = 0.76·ρ_crit; ρ_inf^(1/4)
 ≈ √(H₀·M_pl) ≈ few meV. The floor IS ~the entire energy density, folded once against gravity.
@@ -27,22 +27,22 @@ True today; a why-now coincidence unless the floor TRACKS the total (self-tuning
 
 **The floor is DYNAMIC — proven two independent ways, both from the model:**
 1. STRUCTURE: the floor is a ghost condensate (φ̇ ≠ 0; #22 / floor_ghost_condensate.py, k⁴/(δK)²
-   stabilizes the c_s²=0 flat direction — "the floor holds"). A ghost condensate never sits still.
+ stabilizes the c_s²=0 flat direction — "the floor holds"). A ghost condensate never sits still.
 2. SELF-CONSISTENCY: ρ_inf = m_ν,lightest⁴ (P-2026-012) + varying-m_ν (δm_ν=2δm_e, now coded)
-   ⇒ ρ_inf stepped ~10% at z=50. A FIXED floor ⟺ FIXED m_ν, contradicting the model's own
-   varying-m_ν. **The model forbids its own floor from being fixed.**
+ ⇒ ρ_inf stepped ~10% at z=50. A FIXED floor ⟺ FIXED m_ν, contradicting the model's own
+ varying-m_ν. **The model forbids its own floor from being fixed.**
 A dynamic floor changes by ~10⁻⁸ over a human lifetime → indistinguishable from constant to any
 40–120-yr observer. "The cosmological constant" may be a timescale illusion.
 
 **The Weinberg-vs-ghost-condensate confrontation (run 2026-07-10) — HONEST VERDICT:**
 - (+) The ghost condensate gives w=−1 (ρ=−P(X₀), p=P(X₀) at P'(X₀)=0) from a ROLLING field.
-  Weinberg's no-go assumes a STATIC vacuum; φ̇≠0 violates that premise BY CONSTRUCTION. So the
-  **static-premise no-go does NOT bind the floor. "Is it dynamic / does it dodge static Weinberg" = YES.**
+ Weinberg's no-go assumes a STATIC vacuum; φ̇≠0 violates that premise BY CONSTRUCTION. So the
+ **static-premise no-go does NOT bind the floor. "Is it dynamic / does it dodge static Weinberg" = YES.**
 - (−) BUT ρ_DE = −P(X₀) is a fixed LAGRANGIAN input. The condensate REALIZES a small value
-  dynamically; it does NOT DERIVE its smallness, and does NOT track the total energy without an
-  added tracker that RE-confronts the no-go. **"Is ρ_inf derived" = NO.**
+ dynamically; it does NOT DERIVE its smallness, and does NOT track the total energy without an
+ added tracker that RE-confronts the no-go. **"Is ρ_inf derived" = NO.**
 - NET: the dynamic-floor REFRAME is vindicated; the VALUE derivation is NOT completed. The CC value
-  remains an input — now a dynamically-realized, ghost-condensate input, not a static bare constant.
+ remains an input — now a dynamically-realized, ghost-condensate input, not a static bare constant.
 
 **Predictions this thread flips (if the dynamic floor is adopted — a MODEL CHANGE abandoning
 Standing Bet #3):** DESI evolving-w liability (P-2026-018) → could become a PREDICTION (w₀~−0.9,
@@ -55,7 +55,7 @@ rolling); cosmic birefringence (P-2026-010) reopens (rolling floor field). NOT a
 **Cleared / closed:**
 - BIREFRINGENCE: null by computation (θ̇=m washout, Λ-form energy mode, deleted EM coupling). Out.
 - EP / MICROSCOPE: CLEARED (composition-dependent Vainshtein-screened Δa/a ~1×10⁻²⁰, 3–5 orders under
-  bound; internal review conceded its adverse prior). The scariest kill-shot gone.
+ bound; internal review conceded its adverse prior). The scariest kill-shot gone.
 
 **#30 why-leptonic — chased to honest TERMINUS:** the δm_e dyad-leptophilia is the model's ONE
 un-derived coupling, precisely located as the unprotected, lepton-number-NEUTRAL radial mass
@@ -68,11 +68,11 @@ P-2026-020 (0νββ MUST occur, Majorana), quasar varying-m_e shape.
 
 **Code changes (all validated, .so rebuilt):**
 - Radiation-shed conversion (dcdf_conv_g): DM matter-part → free-streaming dark radiation. Fit:
-  g=0.12 preferred, S₈ 0.828→0.821 (S₈-helpful DIRECTION, confirms semi-analytic sign; modest).
+ g=0.12 preferred, S₈ 0.828→0.821 (S₈-helpful DIRECTION, confirms semi-analytic sign; modest).
 - Early radiation phase (dcdf_z_rad_onset=4×10⁷): the medium's radiation youth, now in baseline
-  configs. Observationally null (medium subdominant early), BBN-safe. Story-vs-code gap closed.
+ configs. Observationally null (medium subdominant early), BBN-safe. Story-vs-code gap closed.
 - Varying-m_ν (background.c): ncdm mass × me² above the varconst transition (δm_ν=2δm_e). Backward-
-  compatible, observationally null (ν relativistic at recomb). Removes code-vs-mechanism inconsistency.
+ compatible, observationally null (ν relativistic at recomb). Removes code-vs-mechanism inconsistency.
 
 **H₀ self-consistency (this session's insight):** the fits treat dcdf_rho_inf and m_ncdm as
 independent; the model LINKS them (P-2026-012). Two fits launched to test H₀ under the model's own
@@ -101,36 +101,36 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 
 ## WON (recorded)
 - **Dyad onset DERIVED.** Electron Coleman-Weinberg backreaction on the charge-free field → VEV
-  v~100 keV from m_e0 + the dyad amplitude alone (robust +-25%, 1/4-power). First genuine gate-0
-  derivation; the onset is no longer a free input. (internal review recorded the reduction)
+ v~100 keV from m_e0 + the dyad amplitude alone (robust +-25%, 1/4-power). First genuine gate-0
+ derivation; the onset is no longer a free input. (internal review recorded the reduction)
 - **Leptophilia reframe "allowed ≠ generated."** Lepton-sector Psi → |Psi|² q-bar q only ~2-loop
-  ~1×10⁻⁹ → quarks effectively untouched. (internal review credited)
+ ~1×10⁻⁹ → quarks effectively untouched. (credited)
 - **Bulk residual ≠ 0.** Corrected internal review's internal review over-round: the bulk between Q-balls holds the
-  electron-CW VEV, not zero. (author's catch; internal review booked against itself)
+ electron-CW VEV, not zero. (author's catch; internal review booked against itself)
 
 ## MARGINAL (coin-flip, unbanked)
 - **Dyad BBN clearance.** T_c log-ambiguous ~40-450 keV, central ~70-160 keV, STRADDLES the deuterium
-  bottleneck (~70 keV). Both "445=dead" (mine) and "40=clear" (internal review's) withdrawn. Resolver:
-  RG-improved V_eff(φ,T) + BBN D/H network. Structural: onset AND D/H are both electron-scale →
-  "derived" and "marginal" are one fact.
+ bottleneck (~70 keV). Both "445=dead" (mine) and "40=clear" (internal review's) withdrawn. Resolver:
+ RG-improved V_eff(φ,T) + BBN D/H network. Structural: onset AND D/H are both electron-scale →
+ "derived" and "marginal" are one fact.
 
 ## NARROWED (softened)
 - **Dyad leptophilia** → the Majoron forces the NEUTRINO coupling (σ N N), NOT the charged-lepton
-  dyad → the dyad's leptophilia is a lepton-specific-portal / P-020 leptogenesis assumption, not a
-  bare-Majoron consequence.
+ dyad → the dyad's leptophilia is a lepton-specific-portal / P-020 leptogenesis assumption, not a
+ bare-Majoron consequence.
 - **DE = m_ν tie** → MOTIVATES, not forces (value un-derived; CC-value status).
 
 ## WALLS (hit + status)
 - **The one-field knot:** {quiet BBN + abundance + dyad} mutually exclusive on one field → forced
-  the two-field split (charge field 1 + dyad field 2).
+ the two-field split (charge field 1 + dyad field 2).
 - **AZK instability (MaVaN):** DODGED. m_ν set by the frozen radial L-breaking VEV (not the rolling
-  DE mode) + Majoron derivative ν-coupling (rolling doesn't vary m_ν) → NOT a mass-varying-neutrino
-  DE → AZK n/a. COST: the dodge = the non-dynamical shared-scale structure = motivates-not-forces
-  (same coin). (author's bet, confirmed internal review)
+ DE mode) + Majoron derivative ν-coupling (rolling doesn't vary m_ν) → NOT a mass-varying-neutrino
+ DE → AZK n/a. COST: the dodge = the non-dynamical shared-scale structure = motivates-not-forces
+ (same coin). (author's bet, confirmed internal review)
 
 ## LIVE FALSIFIERS
 - **Σm_ν ~ 61 meV / normal ordering** (P-012/P-020) -- DESI/CMB now; NOT distinctive; jointly
-  squeezed with **w=-1** (P-018) by the SAME DESI data (can't relax one with the other).
+ squeezed with **w=-1** (P-018) by the SAME DESI data (can't relax one with the other).
 - **0nubb** (P-020).
 
 ## OWED (IOUs)
@@ -153,13 +153,13 @@ against itself), internal review's symmetric un-banks. The discipline is why the
 The evening after the gate-0 ledger: the stepping-stone syllabus (the internal review). Headlines,
 with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **Gate-0 CLEARS** (double sign-correction: the leptonic ceiling + the weak-rate window), then
-  RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).
+ RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).
 - **The fingerprint lattice** (H₀/D-H/ν/Y_p/21cm = one ε, five channels) — hypothesis under test.
 - **The atom grammar**: ground state = the condensate (Landau zero-entropy = timelessness);
-  Γ/H = √3 (sharp, single-scale-derived); Tolman absorbed as the arrow (first cycle, finite past);
-  the torus = the cavity; the low-ℓ sky = a **cycle-odometer**.
+ Γ/H = √3 (sharp, single-scale-derived); Tolman absorbed as the arrow (first cycle, finite past);
+ the torus = the cavity; the low-ℓ sky = a **cycle-odometer**.
 - **The seven-card deck** (the author-caught undercount): ε corrected to *conditional*
-  (factor-4 c window + the empirical abundance); all seven cards routed, benchmarked, or in trial.
+ (factor-4 c window + the empirical abundance); all seven cards routed, benchmarked, or in trial.
 - **New registrations:** P-022 (21cm three-verdict), P-023 (Σm_ν divergence), P-024 (the ε-dipole),
-  P-025 (Benchmark-A S4). **Falsified:** P-004. **Standing ≈ 14–17%**, DESI DR3 the sovereign test
-  (the model's own grammar now COMMITS to w = −1 today, turn ~6.6 Hubble times out).
+ P-025 (Benchmark-A S4). **Falsified:** P-004. **Standing ≈ 14–17%**, DESI DR3 the sovereign test
+ (the model's own grammar now COMMITS to w = −1 today, turn ~6.6 Hubble times out).

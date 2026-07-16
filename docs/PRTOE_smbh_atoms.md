@@ -4,7 +4,7 @@
 
 
 *Thread 2 of the atom-grammar survey. Status: STRUCTURAL (candidate) with computed numbers;
-booked internal review. The improvement: the superradiance physics recorded at P-2026-005 acquires a
+candidate. The improvement: the superradiance physics recorded at P-2026-005 acquires a
 LEVEL STRUCTURE and a characteristic mass scale — and two independent routes land on the same
 number.*
 
@@ -17,12 +17,12 @@ model the medium is not hypothetical — it is the dark matter itself, with a RE
 
 ## 1. The numbers (m = 2.24×10⁻²⁰ eV)
 
-    stellar (10 M☉):        α_g = 1.7×10⁻⁹   (atom in the extreme-weak limit)
-    Sgr A* (4.3×10⁶):       α_g = 7×10⁻⁴
-    M87* (6.5×10⁹):         α_g = 1.09       ← AT the strong-coupling boundary
-    TON 618 (6.6×10¹⁰):     α_g = 11         (deep strong coupling)
+ stellar (10 M☉): α_g = 1.7×10⁻⁹ (atom in the extreme-weak limit)
+ Sgr A* (4.3×10⁶): α_g = 7×10⁻⁴
+ M87* (6.5×10⁹): α_g = 1.09 ← AT the strong-coupling boundary
+ TON 618 (6.6×10¹⁰): α_g = 11 (deep strong coupling)
 
-    **α_g = 1 at M ≈ 6×10⁹ M☉.**
+ **α_g = 1 at M ≈ 6×10⁹ M☉.**
 
 ## 2. The two-route coincidence (the sharp point)
 

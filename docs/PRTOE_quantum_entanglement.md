@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*INTERPRETATION LAYER (spine §12; internal review-graded wall: "coherence-bank at most, no
+*INTERPRETATION LAYER (spine §12; graded wall: "coherence-bank at most, no
 physics-bank"). The model's claim is the author's null-prediction stance: it REPRODUCES
 quantum entanglement EXACTLY — that reproduction is the falsifiable content — and supplies an
 ontology for what entanglement IS. No deviation from QM is predicted; any observed deviation
@@ -24,7 +24,7 @@ metaphor; it is the defining property of the medium (founding identity), the sam
 - forces the winding quantization (internal review-granted),
 - supplies the uniform genesis measure (internal review-granted),
 - and was graded as "the rare interpretation whose ontology ALREADY CONTAINS the global object
-  the interpretation requires" (on internal review Bell handling).
+ the interpretation requires" (on internal review Bell handling).
 
 Entangled systems are subsystems whose joint state is serviced by the medium's one phase: the
 correlation does not travel *between* them — it is *held beneath* them.
@@ -32,13 +32,13 @@ correlation does not travel *between* them — it is *held beneath* them.
 ## 2. The Bell gate, paid in the open (the graded lane)
 
 - Loophole-free Bell tests kill any account where outcomes are fixed by LOCAL structure. Named
-  without mercy in internal review; graded internal review: "the strongest process-credit of the turn."
+ without mercy in internal review; graded internal review: "the strongest process-credit of the turn."
 - The model's lane (re-classified honestly at internal review): **nonlocal-beable class** — the
-  global phase as the carrier (Bohm-family), paying Bell's price as *explicit nonlocality*
-  rather than measurement-dependence. internal review: "correct and honestly owned... the condensate's
-  ODLRO makes the nonlocal-beable natural."
+ global phase as the carrier (Bohm-family), paying Bell's price as *explicit nonlocality*
+ rather than measurement-dependence. internal review: "correct and honestly owned... the condensate's
+ ODLRO makes the nonlocal-beable natural."
 - No signaling: the phase is not a usable channel (the no-communication theorem is reproduced,
-  not evaded — the correlations are in outcomes, never in marginals).
+ not evaded — the correlations are in outcomes, never in marginals).
 
 ## 3. What entanglement IS, in this ontology
 
@@ -51,14 +51,14 @@ the residue of insisting the substrate is two places rather than one object.
 ## 4. The falsifiable content (the null, plus one exactness bet)
 
 1. **Reproduction-exactness**: the model must match QM's correlations EXACTLY —
-   **Tsirelson's bound, 2√2, to all precision** (recorded kill-only bet). Below = local (dead);
-   above = super-quantum (dead). Every improved Bell-type experiment is a standing test the
-   model must pass forever and can never win points from. That asymmetry is the honest price
-   of a null-prediction ontology — and per the author's epistemology, "reproduces exactly"
-   IS the prediction.
+ **Tsirelson's bound, 2√2, to all precision** (recorded kill-only bet). Below = local (dead);
+ above = super-quantum (dead). Every improved Bell-type experiment is a standing test the
+ model must pass forever and can never win points from. That asymmetry is the honest price
+ of a null-prediction ontology — and per the author's epistemology, "reproduces exactly"
+ IS the prediction.
 2. **No preferred-frame leakage into correlations**: the medium has a rest frame (the W-W
-   evasion's price); entanglement correlations must remain frame-independent to current
-   precision — the LV pricing ledger (task from internal review) covers this jointly.
+ evasion's price); entanglement correlations must remain frame-independent to current
+ precision — the LV pricing ledger (task from internal review) covers this jointly.
 
 ## 5. Honest scope
 

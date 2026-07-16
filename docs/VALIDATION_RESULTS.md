@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-**Date**: 2026-06-29  
+**Date**: 2026-06-29 
 **Status**: In Progress
 
 ## Summary
@@ -20,8 +20,8 @@
 
 **Goal**: Confirm that PRTOE reduces to ΛCDM when ξ → 0 and ζ → 0.
 
-**Current Result**:  
-- Test infrastructure ready  
+**Current Result**: 
+- Test infrastructure ready 
 - Awaiting real CLASS background output with very small ξ
 
 ## Task 2.3 – Stability Sweep
@@ -77,24 +77,24 @@
 ## How to Use This Package
 
 1. **Run validation tests**:
-   ```bash
-   python scripts/run_prtoe_validation.py
-   ```
+ ```bash
+ python scripts/run_prtoe_validation.py
+ ```
 
 2. **Run stability mapping (quick mode)**:
-   ```bash
-   python scripts/stability_mapper.py --quick
-   ```
+ ```bash
+ python scripts/stability_mapper.py --quick
+ ```
 
 3. **Run stability mapping (full mode)**:
-   ```bash
-   python scripts/stability_mapper.py
-   ```
+ ```bash
+ python scripts/stability_mapper.py
+ ```
 
 4. **Check results**:
-   - Validation results printed to console
-   - Stability maps saved as PNG files
-   - Safe region report saved to `docs/safe_region.md`
+ - Validation results printed to console
+ - Stability maps saved as PNG files
+ - Safe region report saved to `docs/safe_region.md`
 
 ## Next Actions
 

@@ -17,15 +17,15 @@ One complex scalar (a cosmological superfluid) replaces separate dark matter and
 $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\right]\psi$$
 
 - The **condensate ground state** supplies the $w = -1$ component (dark energy is the
-  medium's zero-point sector; its computed scale: $\rho_{\rm inf}^{1/4} = 2.695$ vs the
-  measured $2.25$ meV — 20%, zero dials, spine §18).
+ medium's zero-point sector; its computed scale: $\rho_{\rm inf}^{1/4} = 2.695$ vs the
+ measured $2.25$ meV — 20%, zero dials, spine §18).
 - The **excitations** are the dark matter: radiation-like above a transition redshift
-  $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector as implemented in
-  CLASS).
+ $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector as implemented in
+ CLASS).
 - The **phase winds** on a compact axis: $\theta(x) = 2\pi n\,x/L$, $n \in \mathbb{Z}$
-  (Kibble-generated, topologically protected). This integer is the source of the model's
-  anisotropy family: the $\ell \sim 130$ comb (P-029), the $\varepsilon$-dipole (P-024), the
-  isocurvature line (P-031) — all on one shared axis.
+ (Kibble-generated, topologically protected). This integer is the source of the model's
+ anisotropy family: the $\ell \sim 130$ comb (P-029), the $\varepsilon$-dipole (P-024), the
+ isocurvature line (P-031) — all on one shared axis.
 
 ## Equation 2 — The single coupling to known physics
 
@@ -35,18 +35,18 @@ condensation temperature:
 $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 193\ \text{keV}$$
 
 - $f$ is a **ramp**: $\approx 1$ in the early universe, $\to 0$ after the transition
-  (nothing in this model is a step; the ramp's shape is computed, not chosen).
+ (nothing in this model is a step; the ramp's shape is computed, not chosen).
 - $\varepsilon \approx 1.24\%$. That is the **entire modification to known physics**: a
-  heavier electron at recombination → earlier decoupling → smaller sound horizon → the CMB
-  re-fits at $H_0 \approx 69.9$ instead of $68.2$ (the Hubble-tension mechanism, thread 11).
+ heavier electron at recombination → earlier decoupling → smaller sound horizon → the CMB
+ re-fits at $H_0 \approx 69.9$ instead of $68.2$ (the Hubble-tension mechanism, thread 11).
 - Implemented in CLASS, run against full Planck likelihoods; the Bayesian evidence currently
-  favors it over ΛCDM at $\Delta\ln Z \approx +2.6$ (Laplace approximation; marginal and
-  SH0ES-conditional; the definitive nested-sampling comparison is running).
+ favors it over ΛCDM at $\Delta\ln Z \approx +2.6$ (Laplace approximation; marginal and
+ SH0ES-conditional; the definitive nested-sampling comparison is running).
 - The same $\varepsilon$ — ONE amplitude passed through window-specific activation (OFF at
-  BBN freeze-out, ON below $T_c$; the ε-epoch table in the fingerprint file governs) — is
-  then owed everywhere at its epoch weights: BBN's windowed pattern,
-  the radio-band ratios, the de-biased $\Sigma m_\nu$, the Koide invariance, the underground
-  nulls — the fingerprint lattice (thread 13). One lever, many windows, no exits.
+ BBN freeze-out, ON below $T_c$; the ε-epoch table in the fingerprint file governs) — is
+ then owed everywhere at its epoch weights: BBN's windowed pattern,
+ the radio-band ratios, the de-biased $\Sigma m_\nu$, the Koide invariance, the underground
+ nulls — the fingerprint lattice (thread 13). One lever, many windows, no exits.
 
 ## Equation 3 — The decomposition (what makes it a theory rather than a fit)
 
@@ -60,20 +60,20 @@ posterior-era rounding; **1.2543%** = the derived stack above. The gap between f
 derivation is ~1.8% — inside the posterior width — and the running measurements decide.)
 
 - $c = 9/10$: a **counting fraction**. Gravity is blind (it reads size, not identity), so the
-  budget splits democratically over the census of participants — the **universal charged-fermion
-  roster** (9 charged species + the zero-point's own seat → $c = (N-1)/N = 9/10$), **not** the
-  dyad's leptophilic subset (which drops the quarks and cannot reach the count). The one open
-  trial is where the neutrinos sit: **interior tenants** (the medium's own tenth channel, the
-  seat → 9/10) vs **external recipients** (counted → 12/13). Both survive their structural ramp
-  walks, and **ε cannot referee them** — the c–f̄ degeneracy means a shift in c is absorbed by
-  f̄ (holding the closed-form f̄ = 2/π the fit leans 9/10 over 12/13 by ~4σ, but that lean is
-  entirely f̄-conditional). The referee is the independent f̄ ensemble or the α_c chain (P-2026-040).
+ budget splits democratically over the census of participants — the **universal charged-fermion
+ roster** (9 charged species + the zero-point's own seat → $c = (N-1)/N = 9/10$), **not** the
+ dyad's leptophilic subset (which drops the quarks and cannot reach the count). The one open
+ trial is where the neutrinos sit: **interior tenants** (the medium's own tenth channel, the
+ seat → 9/10) vs **external recipients** (counted → 12/13). Both survive their structural ramp
+ walks, and **ε cannot referee them** — the c–f̄ degeneracy means a shift in c is absorbed by
+ f̄ (holding the closed-form f̄ = 2/π the fit leans 9/10 over 12/13 by ~4σ, but that lean is
+ entirely f̄-conditional). The referee is the independent f̄ ensemble or the α_c chain (P-2026-040).
 - $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
-  candidately $2/\pi$ (P-2026-041; the high-statistics ensemble decides). A
-  simulation output with an open closed-form question, not a parameter.
+ candidately $2/\pi$ (P-2026-041; the high-statistics ensemble decides). A
+ simulation output with an open closed-form question, not a parameter.
 - $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), booked BEFORE the deciding
-  measurement (the α_c chain) converges — and 2.3% ABOVE where current data points, so it is
-  falsifiable within weeks, not retrofit ever.
+ measurement (the α_c chain) converges — and 2.3% ABOVE where current data points, so it is
+ falsifiable within weeks, not retrofit ever.
 
 IF the decomposition's referees sign (its factors are currently: one conditional derivation,
 one open closed-form, one running bet), the model becomes a **zero-extra-parameter rival to

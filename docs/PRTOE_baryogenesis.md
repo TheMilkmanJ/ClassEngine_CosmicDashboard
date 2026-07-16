@@ -26,12 +26,12 @@ template): $I_L \propto \mu \sin\Delta\theta$.
 $$\eta = n \times \mathcal{T}$$
 — the winding integer times ONE transmission number. Consequences already in force:
 - **The shared-integer cross-kill**: the CMB comb's tooth count (P-029) and the baryon
-  density read the SAME n. Once the comb measures n, η/n is pure mechanism — if the
-  computed transmission then misses, the route dies with no retreat.
+ density read the SAME n. Once the comb measures n, η/n is pure mechanism — if the
+ computed transmission then misses, the route dies with no retreat.
 - **The frozen-era crux** (honest, standing): sphalerons die at T ~ 130 GeV; the
-  condensate amplitude is frozen until T ~ 9.4 keV. The junction must conduct while
-  frozen (phase-gradient transfer without rolling) — the crux the transmission integral
-  must resolve or the route fails.
+ condensate amplitude is frozen until T ~ 9.4 keV. The junction must conduct while
+ frozen (phase-gradient transfer without rolling) — the crux the transmission integral
+ must resolve or the route fails.
 
 ## 4. What confirmation looks like
 The transmission integral computed → η/n matched → the comb's n read off the CMB —

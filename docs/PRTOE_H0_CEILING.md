@@ -43,19 +43,19 @@ the formula is falsifiable in one computation.
 ## 4. Why PolyChord/CLASS cannot carry these parameters today (the honest gap)
 
 - **CLASS is an isotropic, global Boltzmann code**: it evolves one homogeneous
-  background and linear perturbations. The candle term is a PER-OBJECT, ENVIRONMENTAL
-  correction (each supernova reads the gate curve at its host's clumping) — it lives in
-  the SN standardization layer (the likelihood's data side), not in any background
-  equation. No Boltzmann code hosts it; this is a category fact, not a missing feature.
+ background and linear perturbations. The candle term is a PER-OBJECT, ENVIRONMENTAL
+ correction (each supernova reads the gate curve at its host's clumping) — it lives in
+ the SN standardization layer (the likelihood's data side), not in any background
+ equation. No Boltzmann code hosts it; this is a category fact, not a missing feature.
 - **ς does not exist yet**: injecting a guessed sign is a coin flip wearing an equation.
-  The module ships ARMED-OFF (scripts/candle_room_correction.py) and flips the day the
-  sign session signs.
+ The module ships ARMED-OFF (scripts/candle_room_correction.py) and flips the day the
+ sign session signs.
 - **The leakage and τ terms** are comparison-layer and reionization-history effects
-  respectively — the first lives outside the likelihoods entirely, the second is an
-  unrun computation (B-queue).
+ respectively — the first lives outside the likelihoods entirely, the second is an
+ unrun computation (B-queue).
 - **Nothing is lost**: the evidence run's chains can be IMPORTANCE-REWEIGHTED with the
-  candle-corrected SN likelihood retroactively — tonight's run collects the data once;
-  the ceiling cashes against it whenever ς arrives.
+ candle-corrected SN likelihood retroactively — tonight's run collects the data once;
+ the ceiling cashes against it whenever ς arrives.
 
 ## 5. The one-sentence version
 

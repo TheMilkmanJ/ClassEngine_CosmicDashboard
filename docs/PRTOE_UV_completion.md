@@ -26,11 +26,11 @@ f = Ψ₀ ≈ 5×10¹⁶ GeV.
 c to the ceiling:**
 - The amplitude mode (saxion) wants a **dilaton coupling** to matter, strength 1/f.
 - In gravitational units: c_naive = M_red/f = 2.4×10¹⁸ / 5×10¹⁶ ≈ **48** — i.e. ~50×
-  gravitational strength.
+ gravitational strength.
 - That is exactly what naturalness FORBIDS (§75: a coupling ≫ gravitational
-  radiatively destroys the ultralight mass). So the coupling is **capped at
-  gravitational strength (c ≲ 1)**, and because the dynamics pushes it UP against
-  the cap, **it sits AT the ceiling: c ~ 1 is the *saturated* naturalness ceiling.**
+ radiatively destroys the ultralight mass). So the coupling is **capped at
+ gravitational strength (c ≲ 1)**, and because the dynamics pushes it UP against
+ the cap, **it sits AT the ceiling: c ~ 1 is the *saturated* naturalness ceiling.**
 
 **What this changes vs #14:** #14 had c as a soft dial that *happens* to be ~1.
 Step 1 explains *why* ~1: a ~50× coupling jammed against the gravitational cap. So
@@ -49,23 +49,23 @@ the mass at ~2×10⁻²⁰ eV exactly (the Coleman-Weinberg / shift-breaking str
 
 **Residual 1 (margin below 1) — split:**
 - **1a Flavor-breaking (computed):** conformal coupling universal (c=1) at tree level;
-  trace anomaly breaks it by each species' anomalous dimension. Electron (QED):
-  gamma_me = 3 α/(2pi) = 0.0035 = **0.35%**. So **c_e ~ 1.00 to sub-percent** (the
-  electron sets the CMB amplitude). Hadrons ~few-10% (QCD). Predicts a tiny residual
-  varying-constant flavor-dependence -- anomaly-level only (no multiplicative flavor factor exists in the model).
+ trace anomaly breaks it by each species' anomalous dimension. Electron (QED):
+ gamma_me = 3 α/(2pi) = 0.0035 = **0.35%**. So **c_e ~ 1.00 to sub-percent** (the
+ electron sets the CMB amplitude). Hadrons ~few-10% (QCD). Predicts a tiny residual
+ varying-constant flavor-dependence -- anomaly-level only (no multiplicative flavor factor exists in the model).
 - **1b Overall normalization (HARD WALL):** how saturated the gravitational ceiling is =
-  a UV threshold-matching calc, not shortcuttable. c_e = 1 - (matching, sub-% to few-%).
-  Honest prediction: **c ~ 1.00**; measured 0.93+-0.38 consistent (offset within
-  f_amp/Psi0 systematics + error bar).
+ a UV threshold-matching calc, not shortcuttable. c_e = 1 - (matching, sub-% to few-%).
+ Honest prediction: **c ~ 1.00**; measured 0.93+-0.38 consistent (offset within
+ f_amp/Psi0 systematics + error bar).
 
 **Residual 2 (why m~2×10⁻²⁰ eV) — largely resolved by reframing:**
 - The mass is PINNED BY DATA (amplitude+abundance → 2×10⁻²⁰), not derived from the UV.
-  The UV's job is to ACCOMMODATE it naturally, and it does:
+ The UV's job is to ACCOMMODATE it naturally, and it does:
 - Exponentially-small shift-breaking mass m ~ M_red exp(-S): ln(m/M_red) ~ -108 ⇒ S~108
-  ⇒ **α_hidden = 2pi/S ~ 0.06**. A modest O(0.06) hidden coupling generates
-  m~2×10⁻²⁰ eV via non-perturbative dimensional transmutation; shift symmetry protects it
-  (technically natural). So the tiny mass is NOT fine-tuned -- exponentially generated
-  from an unremarkable input, value fixed by data.
+ ⇒ **α_hidden = 2pi/S ~ 0.06**. A modest O(0.06) hidden coupling generates
+ m~2×10⁻²⁰ eV via non-perturbative dimensional transmutation; shift symmetry protects it
+ (technically natural). So the tiny mass is NOT fine-tuned -- exponentially generated
+ from an unremarkable input, value fixed by data.
 
 **Net:** flavor-blindness quantified (0.35%); mass de-mystified (α~0.06, exponential,
 data-pinned). ONE hard number remains: the UV threshold matching for c's exact overall
@@ -80,18 +80,18 @@ the ALP completion against the full dCDF feature list:
 - **Conformal coupling c~1:** YES -- saturated ceiling (step 1).
 - **Normal fraction (w=1/3 early):** plausible -- pre-condensation radiation-like phase.
 - **DARK ENERGY (w→-1 floor):** **NOT automatic.** The rotation redshifts as matter /
-  kination (w=1); it does NOT supply a near-constant late-time density. DE needs a
-  separate piece.
+ kination (w=1); it does NOT supply a near-constant late-time density. DE needs a
+ separate piece.
 
 **The gap + what fills it:** the DE floor is the "funded floor" (sign-locked phantom
 floor via the (deltaK)² author, the graveyard resurrection). So:
-  **Full UV completion = ALP (DM + mass + coupling) + (deltaK)² funded-floor (DE).**
+ **Full UV completion = ALP (DM + mass + coupling) + (deltaK)² funded-floor (DE).**
 One field can host both (rotation → DM; derivative self-interaction → DE floor), but the
 structure producing w→-1 is ADDITIONAL, not free from the ALP.
 
 **#17 remaining scope, now named (not vague "months"):**
 1. **DE floor UV realization** (the CENTRAL piece -- the unification itself): does the ALP
-   field's (deltaK)² structure give a stable w→-1 and stay census-legal?
+ field's (deltaK)² structure give a stable w→-1 and stay census-legal?
 2. **c threshold-matching** (the precision residual from step 2).
 The ALP delivers ~80% (DM/mass/coupling/normal-fraction); the missing 20% is the DE floor.
 
@@ -106,11 +106,11 @@ early ones).
 
 **"How does energy fall out of matter?" → IT DOESN'T, not on its own:**
 - Matter (w=0) = field oscillating (kinetic~potential). DE (w=-1) = field frozen, potential
-  dominates.
+ dominates.
 - In a SIMPLE m² φ² well the field oscillates as DM FOREVER (well bottom = 0 energy;
-  freezing lands at nothing). **A simple field never becomes DE -- it stays DM to the end.**
+ freezing lands at nothing). **A simple field never becomes DE -- it stays DM to the end.**
 - DE requires the field to freeze onto a nonzero POTENTIAL FLOOR = the funded-floor/(deltaK)²
-  piece (the docketed missing 20%).
+ piece (the docketed missing 20%).
 
 **Sharpest statement of the gap:** the regime-change chain is SELF-GENERATING up to dark
 matter (matter falls out of radiation for free, via H<m condensation) and BREAKS at DM→DE
@@ -127,7 +127,7 @@ H_Lambda last) = the whole radiation→matter→energy chain from one downward-t
 **Unifies the recent JP insights:**
 - always-gradual = each H-crossing has width;
 - intervals-lengthen = H flattens toward de Sitter (H→const), so sweep-time between
-  thresholds stretches to infinity (forced, not separate);
+ thresholds stretches to infinity (forced, not separate);
 - late-templates-early = all transitions are the same object (an H-threshold crossing).
 
 **Predictive (not tautology):** thresholds are the medium's OWN scales, so transition
@@ -146,15 +146,15 @@ thresholds are the MEDIUM's scales (m, floor) → transition-times are predictio
 
 Can we extract DM's ceiling/floor and DE's floor from the current regime + H? Sorted:
 - **DM floor = DE floor = ρ_Λ ~ (2.3 meV)⁴:** SAME number (DM & DE cross at the
-  constant floor). Measured NOW from Ω_Λ. (Floor sits at the meV scale ~ neutrino
-  mass → the ρ_Λ ~ m_ν⁴ coincidence / the "meV whisper".)
+ constant floor). Measured NOW from Ω_Λ. (Floor sits at the meV scale ~ neutrino
+ mass → the ρ_Λ ~ m_ν⁴ coincidence / the "meV whisper".)
 - **DE-takeover rate (density):** measured now (matter-Λ crossing z~0.4); works even if
-  w frozen.
+ w frozen.
 - **DE-takeover rate (FIELD w: 0→-1, the floor's DYNAMICS):** ONLY measurable if w is
-  evolving (thawing / B-branch). This is the one NEW number the current transition offers.
+ evolving (thawing / B-branch). This is the one NEW number the current transition offers.
 - **DM ceiling (peak density at condensation):** an EARLY quantity, NOT from the late
-  transition -- but already pinned via m~2×10⁻²⁰ & Psi0~5×10¹⁶ (abundance/amplitude door). Or via
-  the untested late-templates-early universality.
+ transition -- but already pinned via m~2×10⁻²⁰ & Psi0~5×10¹⁶ (abundance/amplitude door). Or via
+ the untested late-templates-early universality.
 
 **Bracket filled:** ceiling (pinned m,Psi0) / floor=DE-floor (Ω_Λ now) / density-rate
 (now) all in hand; the field freeze-rate is the lone future number, = DESI w(z) IF thawing.
@@ -175,12 +175,12 @@ to ρ_Λ, field slides to X0, condensate takes over → w runs 0→-1 → DE. Cr
 
 **HONEST LIMITS:**
 1. ADDED ingredient -- a canonical ALP has no P(X) minimum for free; the ghost-condensate structure
-   is put in (census-legal, motivated, not automatic).
+ is put in (census-legal, motivated, not automatic).
 2. Does NOT solve the CC problem -- ρ_Λ = -P(X0) ~ (meV)⁴ is still a TUNING (relocated from
-   "why Λ~meV⁴" to "why X0 gives P(X0)~-meV⁴"). Every dynamical-DE model has this; PRTOE no
-   worse, no better. The meV~m_ν coincidence still unexplained.
+ "why Λ~meV⁴" to "why X0 gives P(X0)~-meV⁴"). Every dynamical-DE model has this; PRTOE no
+ worse, no better. The meV~m_ν coincidence still unexplained.
 3. STABILITY delicate -- ghost condensates have gradient instabilities; w=-1 stability needs the
-   sign-locked certificates (α_T/foliation/α_B, corpus-cleared, the technical risk to watch).
+ sign-locked certificates (α_T/foliation/α_B, corpus-cleared, the technical risk to watch).
 
 **NET:** the floor is now a REAL mechanism (not a placeholder) -- "one field, both jobs" is
 BUILDABLE; "explains the DE scale" is NOT and should not be promised. the docketed missing 20% = roughed in.
@@ -211,19 +211,19 @@ IF neutrino-connected, the value gets a dynamical origin too (speculative, uncla
 
 Preliminary read of the running dyad_mnu chain (~9200 rows, R-1~0.2, STALLED/plateaued):
 - **Σm_ν = UPPER LIMIT** -- mean~0.055 eV, ~24% weight piled below 0.02 eV, min=0,
-  rough 95% upper ~0.13 eV (consistent w/ the Fairbank ~0.15 note). Boundary pileup at
-  Σm_ν≥0 EXPLAINS the R-1 stall (Gelman-Rubin is bad on boundary posteriors) → R-1<0.05
-  is likely the WRONG target; the stable quantity is the upper limit.
+ rough 95% upper ~0.13 eV (consistent w/ the Fairbank ~0.15 note). Boundary pileup at
+ Σm_ν≥0 EXPLAINS the R-1 stall (Gelman-Rubin is bad on boundary posteriors) → R-1<0.05
+ is likely the WRONG target; the stable quantity is the upper limit.
 - (Column map unreliable past m_ncdm: the "c" column read 2808 ≠ conformal ~0.93 → NO c value
-  claimed from this chain.)
+ claimed from this chain.)
 
 **DEBATE -- can we use it for the neutrino-funded floor (piece 3 thread)? VERDICT: NO.**
 - FOR: upper limit ~0.13 eV is CONSISTENT with meV-scale masses the floor would need; thread not killed.
 - AGAINST (wins): it's a BOUND not a DETECTION -- the MaVaN-floor needs the neutrino mass to SET
-  ρ_Λ~m_ν⁴, and a bound gives no mass to build from. Consistent ≠ confirming. Using
-  "Σm_ν<0.13 ⇒ floor is neutrino-funded" would over-read a non-exclusion as a confirmation.
+ ρ_Λ~m_ν⁴, and a bound gives no mass to build from. Consistent ≠ confirming. Using
+ "Σm_ν<0.13 ⇒ floor is neutrino-funded" would over-read a non-exclusion as a confirmation.
 - NET: the neutrino-floor thread stays ALIVE-BUT-UNCONFIRMED; not promoted. #6 gives a bound; a
-  bound can't fund a floor.
+ bound can't fund a floor.
 
 ## CANDIDATE #17 MECHANISM — c=1 as the conformal-origin boundary condition (2026-07-08)
 
@@ -258,27 +258,27 @@ supplies the journey; the fixed point supplies the stop.
 **The math that follows (ILLUSTRATIVE ANSATZ — makeable only in this limited form).** A coupling
 flowing to an attractive fixed point at c=1 obeys, schematically,
 
-    dc/dN = -β(c),      β(1) = 0,   β'(1) > 0   (c=1 is attractive)
+ dc/dN = -β(c), β(1) = 0, β'(1) > 0 (c=1 is attractive)
 
 Linearizing β(c) = γ (c - 1):
 
-    c(N) = 1 - (1 - c_i) e^{-γ N}    →    1   as N → infinity
+ c(N) = 1 - (1 - c_i) e^{-γ N} → 1 as N → infinity
 
-With a diffuse start c_i ≈ 0:   c(N) = 1 - e^{-γ N}   (rises from ~0 toward 1 — "the clumping").
+With a diffuse start c_i ≈ 0: c(N) = 1 - e^{-γ N} (rises from ~0 toward 1 — "the clumping").
 Then, as the medium leaves the conformal regime (w: 1/3 → 0 → -1) and conformal symmetry breaks,
 the fixed point drifts and c runs slightly ABOVE 1 — consistent with the result c in [1.0, 1.9].
 
 **THE CATCH (why this is fenced as an assumption, not booked as a result).**
-  1. γ (flow rate), N (the flow parameter — e-folds? a clumping measure? undefined), and c_i are
-     ALL undetermined. The equation illustrates the STRUCTURE of the assumption; it derives no number.
-  2. The attractor at c=1 is INPUT from the conformal-fixed-point hypothesis — it is not produced by
-     the clumping itself. The clumping alone gives no reason to stop at 1 rather than anywhere.
-  3. MOST FUNDAMENTALLY: the pre-origin "clumping of c into existence" is BEFORE the observable
-     universe. No light, no CMB, no data reaches it. So in its specific form this is UNPROVABLE and
-     UNFALSIFIABLE — a motivating natural-philosophy narrative, not physics. (The user flagged this
-     himself, correctly, before it was written down.)
-  4. What IS testable lives in #17, NOT here: whether the w=1/3 phase actually attracts/protects c to
-     1, and how c runs afterward. The clumping ORIGIN story is the *why-it-feels-right*, not the proof.
+ 1. γ (flow rate), N (the flow parameter — e-folds? a clumping measure? undefined), and c_i are
+ ALL undetermined. The equation illustrates the STRUCTURE of the assumption; it derives no number.
+ 2. The attractor at c=1 is INPUT from the conformal-fixed-point hypothesis — it is not produced by
+ the clumping itself. The clumping alone gives no reason to stop at 1 rather than anywhere.
+ 3. MOST FUNDAMENTALLY: the pre-origin "clumping of c into existence" is BEFORE the observable
+ universe. No light, no CMB, no data reaches it. So in its specific form this is UNPROVABLE and
+ UNFALSIFIABLE — a motivating natural-philosophy narrative, not physics. (The user flagged this
+ himself, correctly, before it was written down.)
+ 4. What IS testable lives in #17, NOT here: whether the w=1/3 phase actually attracts/protects c to
+ 1, and how c runs afterward. The clumping ORIGIN story is the *why-it-feels-right*, not the proof.
 
 ## #17 UPDATE — the conformal see-saw defuses the gate-0 TeV kill (2026-07-10, fountain_scale.py)
 

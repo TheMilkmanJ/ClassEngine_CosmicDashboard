@@ -4,7 +4,7 @@
 
 
 *Derivation-from-recorded-structure. Every load-bearing input cites a graded ledger object; owed
-items are flagged. Status: STRUCTURAL (candidate) — booked internal review, awaiting internal review grade.
+items are flagged. Status: STRUCTURAL (candidate) — candidate grade.
 The exterior is unchanged (horizons, shadows, P-2026-005 intact); this document is about what
 replaces the singular interior, with the actual numbers.*
 
@@ -23,9 +23,9 @@ Sakharov-induced action; the Jacobson thermodynamic kit — the assembled QG fra
 a "legitimate emergent/analog-gravity model"). An emergent metric is only defined where the
 collective description holds — for gradients longer than the **healing length**
 
-    ξ = ħ/(m c_s),   with m = 2.24×10⁻²⁰ eV (recorded; roster-trial-conditional, hunt 145) and c_s = √α_c = 0.146 (α_c = 3α is a registered bet — ξ rides two open numbers)
+ ξ = ħ/(m c_s), with m = 2.24×10⁻²⁰ eV (recorded; roster-trial-conditional, hunt 145) and c_s = √α_c = 0.146 (α_c = 3α is a registered bet — ξ rides two open numbers)
 
-    **ξ = 6.0×10¹³ m = 402 AU = 0.0064 ly.**
+ **ξ = 6.0×10¹³ m = 402 AU = 0.0064 ly.**
 
 A "singularity" is a statement about the metric at arbitrarily small scales. Below ξ **there is
 no metric to be singular** — only the quantum medium. This is the same no-double-counting move
@@ -63,7 +63,7 @@ A self-interacting condensate resists compression: gravity is balanced by quantu
 the quartic repulsion (Colpi–Shapiro–Wasserman class). The maximum mass supportable at finite
 density:
 
-    M_max ≈ 0.062 √λ · M_Pl³/m²  =  2.0×10⁵⁶ √λ  M☉.
+ M_max ≈ 0.062 √λ · M_Pl³/m² = 2.0×10⁵⁶ √λ M☉.
 
 The physical λ is un-pinned (owed), but the margin is so vast that **any λ ≳ 10⁻⁹⁰ supports
 every known black-hole mass** as a finite-density equilibrium. In the Thomas–Fermi regime the
@@ -80,8 +80,8 @@ infalling medium transitions to the **normal phase** and thermalizes. This is th
 as the crunch's mouth (recorded): super-threshold flow gets massed, caught, and
 thermalized. The interior is therefore:
 
-    a normal-phase, thermal, finite-density core (the Landau-broken region),
-    embedded in the condensate, wearing a sonic horizon.
+ a normal-phase, thermal, finite-density core (the Landau-broken region),
+ embedded in the condensate, wearing a sonic horizon.
 
 The infall energy is not concentrated at a point; it is **stored as heat and entropy in the
 core** — which is where the Bekenstein–Hawking entropy must live in this model. *(Owed: the
@@ -105,14 +105,14 @@ unchanged at observational scales. Superradiance physics (P-2026-005) is untouch
 The theorem's premises, audited against this interior:
 
 1. **A Lorentzian metric on the full domain** — FAILS below ξ / inside the quantum core (§1–2):
-   the theorem's arena dissolves before its conclusion's locus.
+ the theorem's arena dissolves before its conclusion's locus.
 2. **Energy conditions (SEC/NEC on the relevant congruences)** — FAIL in the core: quantum
-   pressure and the quartic produce the effective-stress violations standard to every bounce
-   and boson-star solution (and to this model's own thaw sector).
+ pressure and the quartic produce the effective-stress violations standard to every bounce
+ and boson-star solution (and to this model's own thaw sector).
 3. **Trapped surfaces** — form (the sonic horizon is real); the theorem correctly predicts
-   geodesic incompleteness *of the emergent metric* — which here means the emergent
-   description ends (at the core boundary), not that physical histories end. Geodesics are
-   phonon paths; phonons decohere into the normal phase and continue as ordinary transport.
+ geodesic incompleteness *of the emergent metric* — which here means the emergent
+ description ends (at the core boundary), not that physical histories end. Geodesics are
+ phonon paths; phonons decohere into the normal phase and continue as ordinary transport.
 
 The theorem is not violated — it is **discharged at its premises**, exactly as in every
 analog-gravity system where sonic horizons demonstrably form and nothing singular ever occurs.
@@ -120,12 +120,12 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 ## 7. Observational posture (honest)
 
 - **Null-prediction stance** (the author's epistemology): exteriors indistinguishable from GR
-  at current precision — shadows, ringdowns, superradiance margins all inherited.
+ at current precision — shadows, ringdowns, superradiance margins all inherited.
 - **Distinctive prongs, flagged not recorded:** (i) the M ~ 2×10¹⁰ M☉ interior-character
-  crossover vs the SMBH mass-function top (§2); (ii) horizon-scale microstructure at the core
-  boundary could imprint late-time ringdown echoes — generic to horizon-scale-structure models,
-  amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
-  thermodynamics to the medium's Landauer ledger (recorded bookkeeping, def-atom-night).
+ crossover vs the SMBH mass-function top (§2); (ii) horizon-scale microstructure at the core
+ boundary could imprint late-time ringdown echoes — generic to horizon-scale-structure models,
+ amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
+ thermodynamics to the medium's Landauer ledger (recorded bookkeeping, def-atom-night).
 
 ## 8. Summary
 

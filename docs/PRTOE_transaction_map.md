@@ -7,25 +7,25 @@
 SCREENED in local regimes, but no screen in this model is an absolute zero — so the medium is
 threaded into every scale, and the map of the threading = the QUANTUM section (which
 transactions exist) × the SCREENING section (how much survives each rung). Status: STRUCTURAL
-(candidate), booked internal review; companion to the recorded TRANSACTION_ATLAS.*
+(candidate); companion to the recorded TRANSACTION_ATLAS.*
 
 ## 0. The two axes
 
 **The quantum axis (what CAN couple)** — the medium's three channels, each graded:
 1. **The gravitational channel** (the account, dE = −pdV, the numeraire): couples to
-   everything, always — NEVER screened (screening gravity would violate the model's own L1).
+ everything, always — NEVER screened (screening gravity would violate the model's own L1).
 2. **The trace/dyad channel** (ε on fundamental masses): selective (internal review mass-sourcing),
-   and SCREENABLE — this is the only channel with dials nature turns down.
+ and SCREENABLE — this is the only channel with dials nature turns down.
 3. **The quantum-substrate channel** ([θ,N] = i, the f-sum, ODLRO): not a force but an
-   IDENTITY — everything sits inside the medium's coherence (the ambient healing length is
-   402 AU: every atom, lab, and planet is DEEP inside one coherent patch).
+ IDENTITY — everything sits inside the medium's coherence (the ambient healing length is
+ 402 AU: every atom, lab, and planet is DEEP inside one coherent patch).
 
 **The screening axis (how much gets through)** — two recorded screens, both finite:
 - **Reading B's C²-gate**: f = exp(−C²/C_ref²) — the Weyl-metered screen (internal review: the
-  account-reader; internal review: LOAD-BEARING — it is what zeroes today's ε against clock bounds).
-  Gaussian: ferociously suppressing, never identically zero.
+ account-reader; internal review: LOAD-BEARING — it is what zeroes today's ε against clock bounds).
+ Gaussian: ferociously suppressing, never identically zero.
 - **Vainshtein**: the derivative screen in dense environments — the recorded EP clearance
-  (5-order margin). Power-law: finite residual by construction.
+ (5-order margin). Power-law: finite residual by construction.
 
 ## 1. The ladder (rung by rung, with the surviving transactions)
 

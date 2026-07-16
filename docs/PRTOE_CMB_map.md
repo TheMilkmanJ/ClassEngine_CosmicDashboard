@@ -64,19 +64,19 @@ see §6.)*
 perturbations cannot make B-modes at linear order.** So BB has exactly two cosmological
 sources:
 - **(a) Primordial tensors** — inflationary **gravitational waves** stretching space at
-  last scattering imprint a curl pattern. Amplitude set by the tensor-to-scalar ratio *r*.
-  **Not yet detected** (r < ~0.03).
+ last scattering imprint a curl pattern. Amplitude set by the tensor-to-scalar ratio *r*.
+ **Not yet detected** (r < ~0.03).
 - **(b) Gravitational lensing** — large-scale structure deflects CMB photons and shears the
-  E-mode pattern, leaking some E into B. **Detected.**
+ E-mode pattern, leaking some E into B. **Detected.**
 
 **PRTOE.**
 - *Lensing BB:* follows automatically from the model's matter power spectrum (dCDF
-  clustering → lensing potential). **VERDICT: INHERITED / FIT.**
+ clustering → lensing potential). **VERDICT: INHERITED / FIT.**
 - *Primordial BB:* depends on the inflation scale, which the model leaves **FREE**, exactly
-  like ΛCDM. **But** here tonight's result plugs in: if primordial tensors exist, the
-  **genesis twist** would make them slightly *chiral* (parity-asymmetric L vs R gravitons)
-  via Chern–Simons gravity — computed to **Π ~ 10⁻⁷**, i.e. essentially **non-chiral**.
-  So PRTOE predicts primordial BB (if any) is parity-symmetric to observable precision.
+ like ΛCDM. **But** here tonight's result plugs in: if primordial tensors exist, the
+ **genesis twist** would make them slightly *chiral* (parity-asymmetric L vs R gravitons)
+ via Chern–Simons gravity — computed to **Π ~ 10⁻⁷**, i.e. essentially **non-chiral**.
+ So PRTOE predicts primordial BB (if any) is parity-symmetric to observable precision.
 
 ## 5 & 6. TB and EB — the parity-odd pair
 
@@ -84,16 +84,16 @@ sources:
 **In a mirror-symmetric universe these are exactly zero.** They become nonzero only if
 something *physically violates parity* between last scattering and now:
 - **Cosmic birefringence** — a uniform rotation of the polarization plane by angle **β**
-  (from a parity-odd coupling to light, e.g. an axion's θ·F·F̃). This *rotates E into B*.
+ (from a parity-odd coupling to light, e.g. an axion's θ·F·F̃). This *rotates E into B*.
 - **Chiral gravitational waves** — a parity-odd tensor background.
 - **Systematics** — a miscalibrated polarization angle mimics β exactly (the field's main
-  worry).
+ worry).
 
 **Your insight, made exact.** TB and EB are **not independent signals** — they are the
 already-measured even spectra, *rotated by β*:
 
-    C_ell^{EB}  ≈  ½ sin(4β) · (C_ell^{EE} − C_ell^{BB} )      ≈  ½ sin(4β) · C_ell^{EE}
-    C_ell^{TB}  ≈  sin(2β)  · C_ell^{TE}
+ C_ell^{EB} ≈ ½ sin(4β) · (C_ell^{EE} − C_ell^{BB} ) ≈ ½ sin(4β) · C_ell^{EE}
+ C_ell^{TB} ≈ sin(2β) · C_ell^{TE}
 
 So the parity-even modes we already fit (EE, TE) **are the lever arm**: for any given β,
 they *tell you exactly how big TB/EB must be*. Measure EE and TE (done — the model fits

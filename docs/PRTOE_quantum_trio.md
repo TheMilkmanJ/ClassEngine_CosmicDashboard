@@ -39,14 +39,14 @@ three windows through which any condensate is seen.
 ## 3. What this explains, at its honest grade
 
 - **Why the trio always travels together.** No theory ever finds superposition without
-  entanglement without tunneling; textbooks treat this as three axioms sharing a formalism.
-  Here it is one object's three readouts — you cannot have a condensate that shows one
-  window and not the others, any more than a liquid can have a mean density but no sound.
+ entanglement without tunneling; textbooks treat this as three axioms sharing a formalism.
+ Here it is one object's three readouts — you cannot have a condensate that shows one
+ window and not the others, any more than a liquid can have a mean density but no sound.
 - **Why the trio scales.** The same three faces appear in a helium cell, a superconductor,
-  and (on this model's identity) the vacuum itself — because the doors belong to the
-  *condensate grammar*, not to any particular condensate.
+ and (on this model's identity) the vacuum itself — because the doors belong to the
+ *condensate grammar*, not to any particular condensate.
 - **Why measurement-scale physics is classical** (recorded elsewhere, cited here): posting
-  to 10²³ seats cannot be recalled — decoherence is the ledger grammar, not a fourth door.
+ to 10²³ seats cannot be recalled — decoherence is the ledger grammar, not a fourth door.
 
 ## 4. The one piece of live freight
 

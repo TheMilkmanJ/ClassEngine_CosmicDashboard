@@ -28,27 +28,27 @@ FLAT — zero confirmed predictions. A competitive fit is not a confirmed theory
 
 ## Three layers of understanding, at different stages
 1. **IDENTITY (what it is): CLOSED.** Charged rotating superfluid (Son isomorphism,
-   Room 1); dark matter + dark energy unified as regimes of one medium. Named UV
-   story (Affleck-Dine genesis). This is the hard-won win.
+ Room 1); dark matter + dark energy unified as regimes of one medium. Named UV
+ story (Affleck-Dine genesis). This is the hard-won win.
 2. **FIT (that it works): DONE, competitive.** H₀=69.7, S₈ eased, χ² tie-to-
-   slight-edge vs ΛCDM at +1 param across Planck+ACT+SPT+BAO+SN. Both tensions
-   eased directionally at ~zero χ² cost.
+ slight-edge vs ΛCDM at +1 param across Planck+ACT+SPT+BAO+SN. Both tensions
+ eased directionally at ~zero χ² cost.
 3. **MECHANISM + EVIDENCE (why / whether it wins): OPEN.** m_e mechanism = fit
-   with candidate derivation (Path A) pending two gates. Evidence (beats ΛCDM?)
-   pending Fairbank/PolyChord.
+ with candidate derivation (Path A) pending two gates. Evidence (beats ΛCDM?)
+ pending Fairbank/PolyChord.
 
 ## Open questions, tiered by what can move "flat"
 - **TIER 1 — the movers:** Fairbank Σ-m_ν posterior (R-1=0.98, converging,
-  days away → Savage-Dickey Bayes factor + P-2026-004); PolyChord (full evidence
-  verdict, tie or win).
+ days away → Savage-Dickey Bayes factor + P-2026-004); PolyChord (full evidence
+ verdict, tie or win).
 - **TIER 2 — the m_e mechanism (Path A), two gates:** census-derivation
-  reproduction (legality: narrow/broad); rigid-pinning computation (EP-viability:
-  atom interferometry, the one un-fitted gate).
+ reproduction (legality: narrow/broad); rigid-pinning computation (EP-viability:
+ atom interferometry, the one un-fitted gate).
 - **TIER 3 — sims owed:** two-field granule runs (ε-meter, mass pin, Room 5
-  χ-lag).
+ χ-lag).
 - **TIER 4 — deep debts (likely not fully solvable in the minimal model):** exact
-  1.24% amplitude (bounded by EM self-energy fraction, not derived); cc VALUE
-  (2.25 meV, recursion wall).
+ 1.24% amplitude (bounded by EM self-energy fraction, not derived); cc VALUE
+ (2.25 meV, recursion wall).
 
 ## Falsification frontier (turns "fits" → "confirmed or dead")
 P-2026-001 (TRGB, H₀ in [69,71], no hedge); P-2026-004 (Σ-m_ν in [0.11,0.17],

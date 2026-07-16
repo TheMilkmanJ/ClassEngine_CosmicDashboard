@@ -18,7 +18,7 @@ Cosmic-string networks radiate GWs; a universe threaded by dark vortex lines had
 checked (a potential self-kill). The dark vortex tension is set by the CONDENSATE's density,
 not a GUT vev:
 
-    μ ~ πħ²ρ/m² · ln(R/ξ)  →  **Gμ ~ 3×10⁻²¹**  (local-density maximum; cosmic mean lower)
+ μ ~ πħ²ρ/m² · ln(R/ξ) → **Gμ ~ 3×10⁻²¹** (local-density maximum; cosmic mean lower)
 
 vs the CMB bound Gμ < 10⁻⁷ and PTA network sensitivities ~10⁻¹⁰: **safe by ten-plus orders —
 and therefore a PREDICTION: no vortex-network contribution to the NANOGrav-class background.**
@@ -64,13 +64,13 @@ residual θ̇ today (the swirl, 10⁻² H₀) leaves every band 12+ orders below
 **THE SPLIT PREDICTION (registered; the channel's falsifiable cash):**
 
 - **every RESOLVED gravitational-wave event arrives with clean polarization** — all
-  resolvable sources (LIGO z ≲ 2, LISA z ≲ 10, PTA z ≲ 1) lie entirely on post-freeze
-  paths; **a confirmed chirality in any resolved binary kills the model**;
+ resolvable sources (LIGO z ≲ 2, LISA z ≲ 10, PTA z ≲ 1) lie entirely on post-freeze
+ paths; **a confirmed chirality in any resolved binary kills the model**;
 - **parity violation, if it exists anywhere, is confined to the PRIMORDIAL stochastic
-  background** — the one channel whose paths cross the ON era; chirality there, with
-  resolved events clean, is the settling story's fingerprint. Its amplitude is set by the
-  θR R̃ coefficient — the open computation, with the break-threshold priced
-  (coeff·θ̇ ~ 10¹⁰ H₀).
+ background** — the one channel whose paths cross the ON era; chirality there, with
+ resolved events clean, is the settling story's fingerprint. Its amplitude is set by the
+ θR R̃ coefficient — the open computation, with the break-threshold priced
+ (coeff·θ̇ ~ 10¹⁰ H₀).
 
 ## Where the dead ends live
 

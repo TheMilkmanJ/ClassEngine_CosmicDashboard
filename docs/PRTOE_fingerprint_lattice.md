@@ -20,7 +20,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c c
 | CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund | the signed ~1.9σ bet; radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out): +1.1% → +1.3σ COUNTER | the reversed row (internal review; was briefly ‘the medicine’) |
-| BBN: quark-bleed | δm_q = ε full → ~1σ D/H nudge | internal review credited side-prediction |
+| BBN: quark-bleed | δm_q = ε full → ~1σ D/H nudge | credited side-prediction |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
 | the radio bands | +2 : +1 : −1 : −1 : −2, ratio-locked | threads 12; P-022/P-027/P-029 |
 | space/direction | the ε-dipole ~6×10⁻⁷ on the winding axis | P-024; the shared-axis family |
@@ -39,9 +39,9 @@ correlation test of this width.
 ## 2. The lattice's masters (where its fate is decided)
 
 - **The α_c chain** (α_c → the fraction → whether ε is fully derived or carries one measured
-  O(1)); **DESI DR3** (the w = −1 commitment underneath every row); **PolyChord** (the evidence
-  cap); the **radio referee** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
-  jointly).
+ O(1)); **DESI DR3** (the w = −1 commitment underneath every row); **PolyChord** (the evidence
+ cap); the **radio referee** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
+ jointly).
 
 ## 3. Honest ledger
 

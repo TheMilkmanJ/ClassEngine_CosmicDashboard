@@ -16,14 +16,14 @@ Two incoherent fields (ψ, χ) with number fractions p² = (1+f_rot)/2,
 q² = (1−f_rot)/2 each produce speckle; total granule POWER relative to a
 single field of the same total density:
 
-    S = p⁴ + q⁴ = (1 + f_rot²)/2,    f_rot = 1 − f_amp
+ S = p⁴ + q⁴ = (1 + f_rot²)/2, f_rot = 1 − f_amp
 
 - Free FDM (single field): S = 1.
 - Full librator (f_rot = 0): S = 0.5 — the meter's floor.
 - **Dice median (f_amp ≈ 0.55–0.67): S ≈ 0.55–0.60.**
 - The meter's whole dynamic range is a factor of 2, and the dice
-  concentrate near the suppressed end: the target signal is a
-  **~40% granule-power deficit** relative to free FDM at the same m.
+ concentrate near the suppressed end: the target signal is a
+ **~40% granule-power deficit** relative to free FDM at the same m.
 
 Everything granule-driven scales with S: heating rates ∝ S, relaxation
 times ∝ 1/S (×1.7 at the median), stream-perturbation power ∝ S.
@@ -73,14 +73,14 @@ audited band, consistently.
 
 Literature pulled at booking:
 - **Hayashi, Ferreira & Chan 2021 (ApJL 912, L3): 18 UFDs — most
-  prefer m > 10⁻²¹ eV.** Reinforces the audited band's bottom from
-  data, independently of this morning's audit.
+ prefer m > 10⁻²¹ eV.** Reinforces the audited band's bottom from
+ data, independently of this morning's audit.
 - **Safarzadeh & Spergel 2020 (ApJ 893, 21): MW satellite kinematics
-  demand m < 10⁻²¹ and declare free FDM INTERNALLY INCOMPATIBLE**
-  (no single m fits Fornax-class and UFD-class systems together).
+ demand m < 10⁻²¹ and declare free FDM INTERNALLY INCOMPATIBLE**
+ (no single m fits Fornax-class and UFD-class systems together).
 - Calabrese & Spergel 2016 (MNRAS 460, 4397): Draco II + Tri II
-  prefer 3.7–5.6×10⁻²² (below band; two-object fit, superseded in
-  spirit by the 18-UFD sample).
+ prefer 3.7–5.6×10⁻²² (below band; two-object fit, superseded in
+ spirit by the 18-UFD sample).
 
 **The dyad's angle — booked as HYPOTHESIS, sims-owed:** the free-FDM
 "incompatibility" assumes one field, one universal core-halo relation.
@@ -113,12 +113,12 @@ Minimum viable campaign, runnable on existing public codes
 change since ψ and χ share m and couple only through gravity):
 
 1. **S-calibration runs:** matched halos, f_rot ∈ {0, 0.4, 0.8, 1},
-   single-field control; measure granule power spectrum and star-particle
-   heating; target: confirm S = (1+f_rot²)/2 to ~10%.
+ single-field control; measure granule power spectrum and star-particle
+ heating; target: confirm S = (1+f_rot²)/2 to ~10%.
 2. **Lag runs:** same grid, track soliton formation epoch per field;
-   target: the core-halo scatter pattern of §4's hypothesis.
+ target: the core-halo scatter pattern of §4's hypothesis.
 3. **Stream runs (stretch):** GD-1-like stream on the f_rot grid;
-   target: whether stream heating adds an independent S readout.
+ target: whether stream heating adds an independent S readout.
 
 Deliverable per run: S_measured, τ_condense(ψ,χ), core-halo offset.
 Kill condition (binding, from the internal review): if sims show granule
@@ -156,10 +156,10 @@ dice-median f_rot~0.4 (f_amp~0.6) gives S~0.58 → granule heating suppressed ~4
 vs free FDM. This is the number dwarf-heating / stellar-stream data would test.
 
 STILL OWED (the bigger Tier-3 piece, needs a real SP integrator, not statistics):
-  - full Schrodinger-Poisson DYNAMICS (self-gravity, soliton formation);
-  - the ψ/χ CONDENSATION LAG (Levkov rate, Room 5 χ-lag) -- needs time
-    evolution to produce the redshift-dependent core-halo scatter pattern;
-  - mapping S → actual dwarf-heating rate and comparison to real SPARC/stream data.
+ - full Schrodinger-Poisson DYNAMICS (self-gravity, soliton formation);
+ - the ψ/χ CONDENSATION LAG (Levkov rate, Room 5 χ-lag) -- needs time
+ evolution to produce the redshift-dependent core-halo scatter pattern;
+ - mapping S → actual dwarf-heating rate and comparison to real SPARC/stream data.
 Status: statistical core DONE (S-formula confirmed); dynamical sim + data
 confrontation NOT started (infrastructure).
 
@@ -173,13 +173,13 @@ dynamical times; needs careful ICs far from condensation, a bigger grid, and lon
 runs with convergence testing). Reported as a failed minimal attempt, not dressed up.
 
 What IS solid: the χ-lag SCALING is analytic (Levkov condensation τ ~ 1/ρ²):
-  tau_chi/tau_psi = (p²/q²)²
-  f_rot=0.4 → 5.4x ; f_rot=0.54 → 11.2x (matches Room-5 booked ~11x) ; f_rot=0.67 → 26x.
+ tau_chi/tau_psi = (p²/q²)²
+ f_rot=0.4 → 5.4x ; f_rot=0.54 → 11.2x (matches Room-5 booked ~11x) ; f_rot=0.67 → 26x.
 
 TIER-3 HONEST STATE:
-  - S = (1+f_rot²)/2 (granule power): CONFIRMED numerically (<1%).
-  - χ-lag = (p²/q²)²: CONFIRMED analytically (Levkov scaling); NOT demonstrated
-    dynamically (minimal SP sim failed to condense -- real campaign owed).
-  - core-halo SCATTER PATTERN (the observable prediction) + dwarf/stream DATA
-    confrontation: NOT done, needs a real SP sim campaign (PyUltraLight/UltraDark-
-    class, careful ICs, convergence) = genuine infrastructure beyond a chat session.
+ - S = (1+f_rot²)/2 (granule power): CONFIRMED numerically (<1%).
+ - χ-lag = (p²/q²)²: CONFIRMED analytically (Levkov scaling); NOT demonstrated
+ dynamically (minimal SP sim failed to condense -- real campaign owed).
+ - core-halo SCATTER PATTERN (the observable prediction) + dwarf/stream DATA
+ confrontation: NOT done, needs a real SP sim campaign (PyUltraLight/UltraDark-
+ class, careful ICs, convergence) = genuine infrastructure beyond a chat session.

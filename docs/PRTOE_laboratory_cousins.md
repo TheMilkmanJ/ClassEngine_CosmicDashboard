@@ -21,7 +21,7 @@ and falsified in dilute-gas BECs and superconducting circuits.**
 |---|---|---|
 | Josephson junctions (SI volt) | condensate phase tunneling — the medium's sub-threshold transport | recorded precision receipt |
 | Eckel et al. expanding ring BEC | the genesis release (an expanding-universe analog with a rolling condensate) | recorded as "the lab class for c" |
-| vortex lattices / Onsager-Feynman quantization | the winding, the rotation gene, Kerr's vortex bundle | cert-grade; internal review-graded |
+| vortex lattices / Onsager-Feynman quantization | the winding, the rotation gene, Kerr's vortex bundle | cert-grade; graded |
 | Landau critical velocity experiments | cert-1/F3 — the certificate that capped the vacuum budget and broke the BH interior | founding certificate |
 | analog sonic horizons (Steinhauer-class) | phonon Hawking radiation — the BH exterior thermodynamics | standard analog-gravity |
 | Kibble-Zurek quenches in BECs | the first-genesis domain formation and winding generation | textbook mechanism, measured in labs |

@@ -8,20 +8,20 @@ translates every recurring house term, and gives the reading order.*
 ## 1. The model in five plain sentences
 
 1. One complex scalar field — a cosmological superfluid — replaces separate dark matter
-   and dark energy: its ground state supplies the w = −1 component; its excitations act
-   radiation-like early and CDM-like late (one fluid, two eras).
+ and dark energy: its ground state supplies the w = −1 component; its excitations act
+ radiation-like early and CDM-like late (one fluid, two eras).
 2. The field's phase winds an integer number of times around one compact spatial
-   direction; that single integer and its axis source all of the model's predicted sky
-   anisotropies.
+ direction; that single integer and its axis source all of the model's predicted sky
+ anisotropies.
 3. The condensate couples to leptons through exactly one number: a fractional shift of
-   the electron mass, ε ≈ 1.24%, active in the early universe and switched off at late
-   times by a screening transition.
+ the electron mass, ε ≈ 1.24%, active in the early universe and switched off at late
+ times by a screening transition.
 4. That one shift, applied wherever atomic physics looks — recombination, BBN's later
-   stages, 21cm rest frequencies, potentially supernova spectra in unscreened
-   environments — is the source of every claimed signature; the same number must work
-   everywhere or the model fails.
+ stages, 21cm rest frequencies, potentially supernova spectra in unscreened
+ environments — is the source of every claimed signature; the same number must work
+ everywhere or the model fails.
 5. The model is pre-registered: its predictions carry numbered entries with named
-   killing observations, filed before the deciding data.
+ killing observations, filed before the deciding data.
 
 ## 2. The glossary — house term → physics term
 
@@ -56,15 +56,15 @@ translates every recurring house term, and gives the reading order.*
 4. **PREREGISTERED_PREDICTIONS** — the bets, with killers.
 5. **FAILURES_LEDGER** — everything that died, and the authors' own error log.
 6. The per-topic shelf (cosmological constant, hierarchy, neutrino sector, ...) as
-   interest dictates; **MATH_SPINE** for the full derivation chain.
+ interest dictates; **MATH_SPINE** for the full derivation chain.
 
 ## 4. What to be skeptical of (the authors' own list)
 
 - The A_s closed form is a *candidate* (its counting mechanism is half-derived; frozen
-  into the current run by explicit decision, with the risk documented).
+ into the current run by explicit decision, with the risk documented).
 - Several numerical landings are estimate-grade with O(1) honesty bands — statuses are
-  stamped where they apply.
+ stamped where they apply.
 - The candle-room/H₀-ceiling story is conditional on one screening reading (B) and one
-  uncomputed sign (ς).
+ uncomputed sign (ς).
 - The deepest claim (the medium's reality) remains an open assumption — the corpus
-  names it as such and tracks its exposure honestly.
+ names it as such and tracks its exposure honestly.

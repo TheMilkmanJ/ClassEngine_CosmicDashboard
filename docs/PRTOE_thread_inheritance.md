@@ -37,16 +37,16 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
 ## 2. What the theorem yields
 
 1. **The deaths are computations, not shrugs** (internal review lawful-deaths bank, now organized):
-   each kill names its parent and inherits that parent's falsifiability — kill the parent's
-   law and every child verdict re-opens (e.g., if L1a bleeds at Minami-Komatsu, strong-CP's
-   death certificate is void too — one clause, shared fate, both directions).
+ each kill names its parent and inherits that parent's falsifiability — kill the parent's
+ law and every child verdict re-opens (e.g., if L1a bleeds at Minami-Komatsu, strong-CP's
+ death certificate is void too — one clause, shared fate, both directions).
 2. **The threading survey's true output is the ROOT SET**: ~sixteen direct threads cover, by
-   inheritance, every physics the protocol has examined. The model is small at the roots and
-   total at the leaves.
+ inheritance, every physics the protocol has examined. The model is small at the roots and
+ total at the leaves.
 3. **The falsifiable meta-claim**: there should exist NO demonstrable orphan — a physical
-   phenomenon with NO path to a threaded node would break L1's universality. (Candidate
-   orphans examined and placed: none found; pure-gauge/topological sectors route through the
-   account via their energy.)
+ phenomenon with NO path to a threaded node would break L1's universality. (Candidate
+ orphans examined and placed: none found; pure-gauge/topological sectors route through the
+ account via their energy.)
 
 ## 3. Owed
 

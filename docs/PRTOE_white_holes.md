@@ -387,26 +387,26 @@ kept strictly distinct** — the operator's "mother/father" framing is flavor, a
 fuse them:
 
 - **the POUR** — this file's subject: a **finite genesis heat injection** (the fountain,
-  Addendum 2). An *event*, not a field.
+ Addendum 2). An *event*, not a field.
 - **the dCDF SUPERFLUID** — the cold, chiral (p-wave / He-3-A-class), parity-odd dark field the
-  pour deposits into.
+ pour deposits into.
 - **the DYAD GAS** — the leptophilic dark field (the Majoron / varying-m_e). NOT the pour.
 - **the BARYONS** — *ordinary* matter, NOT one of the dark fields; sourced via the AD-spiral. The
-  "hot baryonic matter" is *this*, not the dyad.
+ "hot baryonic matter" is *this*, not the dyad.
 
 **The genesis sequence, as the two-field identity now reads it [CANDIDATE]:**
 1. The pour deposits finite heat; the cold dark superfluid takes it at its surface; the **fountain
-   effect** (thermomechanical) spreads it — the corpus's "heat fountain."
+ effect** (thermomechanical) spreads it — the corpus's "heat fountain."
 2. The superfluid's **chirality** (parity-odd; dCDF file §2) is the handedness that biases matter
-   over antimatter → it **sourced the baryon asymmetry** (AD-spiral). The hot baryonic content the
-   universe cools into *has matter at all* because the chiral dark condensate fathered the
-   asymmetry.
+ over antimatter → it **sourced the baryon asymmetry** (AD-spiral). The hot baryonic content the
+ universe cools into *has matter at all* because the chiral dark condensate fathered the
+ asymmetry.
 3. The baryonic soup cools **by expansion** (not by the superfluid as a sink) into H + He (**BBN**);
-   the dyad's varying-m_e **tunes the helium yield** (Y_p). The isotopes assemble from the *soup's
-   own baryons* — the superfluid donates the *asymmetry*, **not the nucleons** (the baryon budget:
-   the medium is dark, non-baryonic).
+ the dyad's varying-m_e **tunes the helium yield** (Y_p). The isotopes assemble from the *soup's
+ own baryons* — the superfluid donates the *asymmetry*, **not the nucleons** (the baryon budget:
+ the medium is dark, non-baryonic).
 4. The chirality **melts/reforms at T_c** (the breathing condensate): heat past T_c melts the
-   parity-odd order (the "A" of He-3-A); cooling reforms it.
+ parity-odd order (the "A" of He-3-A); cooling reforms it.
 
 **Honest boundary.** The asymmetry-sourcing (chirality → matter) is a **CANDIDATE mechanism being
 chased**, not banked. The DE amplitude does **not** forward-close (hunt entry 189). "Father/mother"

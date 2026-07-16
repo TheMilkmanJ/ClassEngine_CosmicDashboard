@@ -543,11 +543,11 @@ resurrection terms or the word "never."*
 
 1. **Laboratory zero** — every precision lab, kill-only, no dial.
 2. **Indirect-detection zero** — one confirmed dark-sector particle signal
-   kills the model outright.
+ kills the model outright.
 3. **Λ exactly** — against DESI DR2's 3.1σ evolving-DE preference, live now.
 4. **P-2026-001** — TRGB resolution, H₀ ∈ [69, 71]; 72+ falsifies, no hedge.
 5. **P-2026-004 vs the meV whisper** — the running posterior judges both;
-   the model cannot win twice.
+ the model cannot win twice.
 
 *If every bet survives, the program has earned its next room. If one
 dies, the file shows exactly where, and why, and what was paid to know.*

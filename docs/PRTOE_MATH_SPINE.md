@@ -35,12 +35,12 @@ running instrument:
 
 > **ε = c·f̄·α_c = 27α/5π = 1.2543%** (concordance joint 1.2403 ± 0.0079%), with
 > - **c = 9/10** — a counting fraction (N−1)/N over the universal charged-fermion roster: 9 charged
->   species plus the vacuum's own seat. The neutrinos sit on the seat rather than in the count, because
->   their mass is medium-sourced rather than electroweak; the running α_c chain is the independent check;
+> species plus the vacuum's own seat. The neutrinos sit on the seat rather than in the count, because
+> their mass is medium-sourced rather than electroweak; the running α_c chain is the independent check;
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
->   winding's many-turn equidistribution (the coupling form the one remaining piece);
+> winding's many-turn equidistribution (the coupling form the one remaining piece);
 > - **α_c = 3α = d·α** — the condensate coupling, the 3 being the spatial dimension d (second sound,
->   geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
+> geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
 
 ## 1\. Genesis (the cycle's start) [STORY]
 
@@ -67,7 +67,7 @@ the dust part continues, amplitude fixed by continuity (no free knob).
 
 ## 3\. The background fluid (radiation → dust → de Sitter) [DERIVED form; ρ_inf INPUT]
 
-> **w(ρ) = −e^{−s}, s = ln(ρ/ρ_inf) clamped ≥ 0  ⟹  P = −ρ_inf exactly.**
+> **w(ρ) = −e^{−s}, s = ln(ρ/ρ_inf) clamped ≥ 0 ⟹ P = −ρ_inf exactly.**
 
 So the background is ΛCDM-form: ρ = ρ_inf + C·a⁻³, algebraically (verified to 10⁻¹⁶).
 w = −1 is EXACT for the constant floor — not a step artifact, not rampable. Code: `w_dcdf` /
@@ -216,7 +216,7 @@ fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ/H = √3
 derived); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
 board. Biography: first excitation (Tolman arrow, finite past) → lengthening cascades → possible
 ionization (binding energy un-computed). J1 = the ground-state eigenvalue: constitutional, at home.
-**Status: the grammar is coherence (internal review-graded throughout, internal reviewclass);
+**Status: the grammar is coherence (graded throughout, internal reviewclass);
 the empirical content lives in the children and the symptom chart. The method was the subject.**
 
 

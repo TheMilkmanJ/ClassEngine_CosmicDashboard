@@ -13,16 +13,16 @@ medium OWES most of science only constancy, and says so. Living document. Booked
 
 ## PHYSICS (roots — the sixteen threads; [O]/[R] at the top)
 - mechanics [R] → classical [I] · continuum/fluids [I] · chaos/dynamical-systems [O] (the
-  release-angle dice, the One Mountain — genuinely ours)
+ release-angle dice, the One Mountain — genuinely ours)
 - E&M [R, untouched-by-law] → optics [I] · plasma [C: the trace/ω_p mouth; dispersion −1ε row]
-  · radio astronomy [C: the whole lattice — P-022/027/029]
+ · radio astronomy [C: the whole lattice — P-022/027/029]
 - thermodynamics [O] → stat-mech [O] · non-equilibrium [C: the arrow, the drawdown] ·
-  info-thermo [O: Landauer citizenship]
+ info-thermo [O: Landauer citizenship]
 - QM [R-exact, §12 wall] → atomic [S] · molecular [S] · condensed-matter [C: the cousins —
-  Josephson/Eckel/Landau are the model's own certificates] · quantum-info [R]
+ Josephson/Eckel/Landau are the model's own certificates] · quantum-info [R]
 - relativity [O-as-origin] → SR [O] · GR [C-conditional: the keystone] · cosmology [O: the roots]
 - particle [C/[P]]: EW [S] · QCD/θ̄ [never-touch — the scope survivor] · neutrino [C: the tenth
-  channel, P-023] · flavor/generations [P: the cycles lane]
+ channel, P-023] · flavor/generations [P: the cycles lane]
 - nuclear [I, inherited] → astro-nuclear/BBN [C: the witness] · fission-decay [S: the clocks]
 
 ## CHEMISTRY [S — uniformity is our prediction] 
@@ -40,7 +40,7 @@ medium OWES most of science only constancy, and says so. Living document. Booked
 
 ## EARTH & SPACE [I mostly; the instruments are [S]]
 - geology [I] → geochronology [S: radiometric = the screened decay law, Oklo-fenced] ·
-  seismology [I] · tectonics [I]
+ seismology [I] · tectonics [I]
 - meteorology/climate [I: GEN 8 flux on GEN 9 surface] · oceanography [I]
 - planetary science [I] · astronomy [C: IS the roots] · astrophysics [C: stars=GEN 8, the ladder]
 

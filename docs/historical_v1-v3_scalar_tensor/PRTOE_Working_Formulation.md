@@ -423,7 +423,7 @@ A(phi) = 0.5\[1 + tanh((phi - phi\_c)/Δ\_phi)]
 
 ✅ **CRITICAL BUG FIX (2026-06-29):** Fixed input parameter initialization order in `source/input.c` - PRTOE defaults were being set AFTER input reading, causing defaults to overwrite user-specified values. This was preventing the null limit from working correctly. All PRTOE defaults now set before any `class_read_double()` calls.
 
-The internal review review correctly identified that perturbation equations were previously schematic. This has now been **resolved** through six rounds of systematic derivation resulting in a closed 3-variable dynamical system.
+The internal review correctly identified that perturbation equations were previously schematic. This has now been **resolved** through six rounds of systematic derivation resulting in a closed 3-variable dynamical system.
 
 ### 5.2 Complete Perturbation Equations
 
@@ -1286,7 +1286,7 @@ To avoid non-linear regime:
 
 ### 10.1 Overview
 
-This section documents **major theoretical progress** achieved on 2026-06-29: the completion of explicit, code-ready perturbation equations for PRTOE at \~90% rigor. Previously schematic placeholder equations (identified in the internal review review) have been replaced with fully derived expressions.
+This section documents **major theoretical progress** achieved on 2026-06-29: the completion of explicit, code-ready perturbation equations for PRTOE at \~90% rigor. Previously schematic placeholder equations (identified in the internal review) have been replaced with fully derived expressions.
 
 **Key Achievement:** We now have a **closed 3-variable dynamical system** (δφ, Φ, η) with explicit source terms, consistent coupling, and proven null-limit recovery.
 

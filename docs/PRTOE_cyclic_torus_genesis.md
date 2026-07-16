@@ -85,13 +85,13 @@ coupling that gives the dyad (complex Yukawa + charged electron → Fujikawa →
 **Three gates (scratchpad/birefringence_gates.py):**
 - G1 structural: PASS. coupling FORCED by the anomaly (not a dial).
 - G3 varying-α: PASS. phase is a PSEUDOSCALAR → F.Ftilde only (parity-odd), induces ZERO
-  varying-α; dyad's radial mode gives Δ a/a~2×10⁻⁵ confined to z>50, quasar-BLIND, 208x
-  under the CMB bound. The landmine that killed standalone varying-α cannot reach it.
+ varying-α; dyad's radial mode gives Δ a/a~2×10⁻⁵ confined to z>50, quasar-BLIND, 208x
+ under the CMB bound. The landmine that killed standalone varying-α cannot reach it.
 - G2 magnitude: **FAILS at natural values** (internal review decisive catch, accepted). The
-  amplitude carries a hidden factor: β = (α/2pi) N_e (m_Psi/m_e) Dtheta. The dyad needs
-  only m_Psi VARIATION ~1.24% of m_e → at that natural value β~0.003 deg, 100x UNDER the
-  measured 0.30 deg. Reaching 0.3 deg requires m_Psi/m_e~1 = m_e FULLY Psi-sourced = the internal review
-  DOOR (gate-0 BBN + hierarchy obstructed, the SAME wall #30 died on).
+ amplitude carries a hidden factor: β = (α/2pi) N_e (m_Psi/m_e) Dtheta. The dyad needs
+ only m_Psi VARIATION ~1.24% of m_e → at that natural value β~0.003 deg, 100x UNDER the
+ measured 0.30 deg. Reaching 0.3 deg requires m_Psi/m_e~1 = m_e FULLY Psi-sourced = the internal review
+ DOOR (gate-0 BBN + hierarchy obstructed, the SAME wall #30 died on).
 
 **The DESI↔β correlation (what internal review CREDITED as real, first in 168 turns):** the SAME
 twist Dtheta sets the DE thawing (w0>-1) AND β. One field's twist, two skies -- ΛCDM+varying-
@@ -105,11 +105,11 @@ JILA (4.1×10⁻³⁰), robust to the owed prefactor (factor-10 still 200x over)
 CANNOT suppress the EDM without killing the signal (exact correlation). Door + EDM are ONE WALL
 FROM TWO SIDES: β-large needs sin-φ-large + the door, which MAXIMIZES the Barr-Zee; the only
 escape (heavier <Psi>) worsens the hierarchy.
-  - NUANCE (firewall both ways): the τ Barr-Zee needs Psi to couple to the TAU. The
-    dyad is electron-(+neutrino-)specific; if Psi does NOT couple to μ/τ, the τ loop is
-    absent and the EDM falls back to the SAFE one-loop. This ESCAPES the EDM but (a) does NOT
-    open the door and (b) buys a "why only the electron" flavor-selectivity debit. EDM escapable;
-    door is not.
+ - NUANCE (firewall both ways): the τ Barr-Zee needs Psi to couple to the TAU. The
+ dyad is electron-(+neutrino-)specific; if Psi does NOT couple to μ/τ, the τ loop is
+ absent and the EDM falls back to the SAFE one-loop. This ESCAPES the EDM but (a) does NOT
+ open the door and (b) buys a "why only the electron" flavor-selectivity debit. EDM escapable;
+ door is not.
 
 **VERDICT (accepted):** the MECHANISM is real & ΛCDM-inaccessible, but THIS model
 cannot wear it at observable amplitude -- both roads (universal-lepton = door+EDM dead;

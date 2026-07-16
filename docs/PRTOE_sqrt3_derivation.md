@@ -15,18 +15,18 @@ coupling to itself gravitationally. A sector whose only scale is M_GC, coupling 
 gravitational strength (through M_red — the only clearinghouse, L1), has the unique
 dimensionally-forced rate:
 
-    Γ = M_GC² / M_red
+ Γ = M_GC² / M_red
 
 **Line 2 — single-scale-ness.** The fluid is ONE-parameter (ρ_inf is its only scale — the same
 one-scale identity that sharpened the f-sum and priced the vacuum): the ghost-condensate scale
 IS the floor's quantum,
 
-    M_GC⁴ = ρ_inf   (exactly — no second scale exists to displace it)
+ M_GC⁴ = ρ_inf (exactly — no second scale exists to displace it)
 
 **Line 3 — Friedmann at the floor.** At Λ-domination the Friedmann equation reads
 3H_Λ²M_red² = ρ_inf. Substitute:
 
-    Γ² = M_GC⁴/M_red² = ρ_inf/M_red² = 3H_Λ²   ⟹   **Γ/H_Λ = √3.**
+ Γ² = M_GC⁴/M_red² = ρ_inf/M_red² = 3H_Λ² ⟹ **Γ/H_Λ = √3.**
 
 The √3 is the Friedmann factor itself: the instability rate is the geometric combination
 M_GC²/M_red, and the same ρ_inf appears in both the rate's numerator and the Hubble rate's
