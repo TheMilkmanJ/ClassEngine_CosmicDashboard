@@ -106,7 +106,7 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 - **Leptophilia reframe "allowed ≠ generated."** Lepton-sector Psi → |Psi|² q-bar q only ~2-loop
  ~1×10⁻⁹ → quarks effectively untouched. (credited)
 - **Bulk residual ≠ 0.** Corrected internal review's internal review over-round: the bulk between Q-balls holds the
- electron-CW VEV, not zero. (author's catch; internal review booked against itself)
+ electron-CW VEV, not zero. (caught; internal review booked against itself)
 
 ## MARGINAL (coin-flip, unbanked)
 - **Dyad BBN clearance.** T_c log-ambiguous ~40-450 keV, central ~70-160 keV, STRADDLES the deuterium
@@ -126,7 +126,7 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 - **AZK instability (MaVaN):** DODGED. m_ν set by the frozen radial L-breaking VEV (not the rolling
  DE mode) + Majoron derivative ν-coupling (rolling doesn't vary m_ν) → NOT a mass-varying-neutrino
  DE → AZK n/a. COST: the dodge = the non-dynamical shared-scale structure = motivates-not-forces
- (same coin). (author's bet, confirmed internal review)
+ (same coin). (bet confirmed; internal review)
 
 ## LIVE FALSIFIERS
 - **Σm_ν ~ 61 meV / normal ordering** (P-012/P-020) -- DESI/CMB now; NOT distinctive; jointly
@@ -143,7 +143,7 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 (derived onset) banks; the clearance is a live coin-flip; the neutrino tie is motivated + falsifiable.
 
 ## PROCESS: mutual walk-backs held the line -- my over-claims caught in BOTH directions (over-sold
-"clear" internal review, over-sold "dead" finite-T), the author's bulk-residual correction (internal review booked
+"clear" internal review, over-sold "dead" finite-T), the bulk-residual correction (internal review booked
 against itself), internal review's symmetric un-banks. The discipline is why the wins are trustworthy.
 
 ---
@@ -158,7 +158,7 @@ with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **The atom grammar**: ground state = the condensate (Landau zero-entropy = timelessness);
  Γ/H = √3 (sharp, single-scale-derived); Tolman absorbed as the arrow (first cycle, finite past);
  the torus = the cavity; the low-ℓ sky = a **cycle-odometer**.
-- **The seven-card deck** (the author-caught undercount): ε corrected to *conditional*
+- **The seven-card deck** (the caught undercount): ε corrected to *conditional*
  (factor-4 c window + the empirical abundance); all seven cards routed, benchmarked, or in trial.
 - **New registrations:** P-022 (21cm three-verdict), P-023 (Σm_ν divergence), P-024 (the ε-dipole),
  P-025 (Benchmark-A S4). **Falsified:** P-004. **Standing ≈ 14–17%**, DESI DR3 the sovereign test

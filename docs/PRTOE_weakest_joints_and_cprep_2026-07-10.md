@@ -116,5 +116,5 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 - **NEW STANDING RISK:** the D/H fork (windowed bet: 2.40–2.42 vs the quasar 2.527, ~1.9σ) AND the Y_p reversal (+1.3σ counter, internal review — the medicine was an artifact).
 - **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved draw→winding-average
  (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
-- **C-code gate RESET (author):** >85% deleted; PolyChord is the gate (the claim is held
+- **C-code gate RESET:** >85% deleted; PolyChord is the gate (the claim is held
  provisional until it runs).

@@ -58,4 +58,4 @@ provisional until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
 ## 6. Process
 - Session closeout mid-night: all background processes survived; monitors re-armed; task board
  rebuilt (10 live lanes).
-- **C-code gate RESET by author:** >85% deleted; new gate = PolyChord favorable + gate-0 bank.
+- **C-code gate RESET:** >85% deleted; new gate = PolyChord favorable + gate-0 bank.

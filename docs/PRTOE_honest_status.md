@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **PRIVATE — for the author, not the audience.** The candid self-assessment and the odds. Unlinked
+> **PRIVATE — internal candid self-assessment, not the audience-facing record.** The candid self-assessment and the odds. Unlinked
 > from the reader-facing shelf on purpose.
 
 ## CURRENT (2026-07-16)

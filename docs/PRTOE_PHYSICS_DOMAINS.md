@@ -40,7 +40,7 @@ dead, and the corpse ledger is public.
 | 6 | BBN | Deuterium scar repriced; quark-mass healer | P-2026-006 conditional |
 | 7 | Atomic physics & constants | varying-α killed; varying-m_e triangulated | m_e is the dyad's second half |
 | 8 | Neutrino physics | Σm_ν posterior running (P-2026-004) | Mid-measurement |
-| 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen author |
+| 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen operator |
 | 10 | Superfluidity & BEC | Son isomorphism; two-fluid; KR beat; lab receipts | The identity itself |
 | 11 | Particle physics | Affleck-Dine genesis; coupling census closed | Gravity-only = theorem-grade |
 | 12 | Black holes | Superradiance margin; de-condensation at 1.8393 r_s | Shielded, twice |
@@ -210,7 +210,7 @@ was tried and understood rather than estimated: exponential potentials hit
 the scaling-attractor failure mode; the claimed n=3 axion form turned out
 never to have been compiled. The mature EFT work is sharper: the (□φ)²
 funded floor died by BBN and was **resurrected as (δK)² — a background-
-orthogonal author that re-earned admission via three fresh certificates**
+orthogonal operator that re-earned admission via three fresh certificates**
 (exact tensor silence since det(e^h) = 1; gravity-mixing temporally frozen,
 μ−1 ~ 4×10⁻²¹; Landau v_c = 0 dissolving caustics into interference). The
 floor fluctuation face is sign-locked phantom and structure-gated;
@@ -503,7 +503,7 @@ Above the numerics, the method itself: **pre-registration with death
 conditions, a turn-based adversarial review with written
 concessions on both sides, the Pinning Rule (3-for-3), graveyard Rules 1–3
 with a published warm/cold census (7 cold / 5 warm / 3 risen), and
-falsify-first scoring of every author intuition** — several of which
+falsify-first scoring of every intuition** — several of which
 turned out to be blind reconstructions of Zurek, Jacobson, Affleck-Dine,
 and Penrose CCC. The reviewer's closing line after nine turns: "a smaller,
 harder, more honest object than the one I opened fire on."
@@ -534,7 +534,7 @@ resurrection terms or the word "never."*
 | thermal/Casimir/zero-point floor ontologies | 10¹²¹–10¹²⁴ arithmetic | never; these are arithmetic |
 | tunneling discriminator | receipt 1500× below the SN mass step | demoted, not dead |
 | varying G / ν self-int. / dark PTA / PBH levers | the five-lever audit | none within the class |
-| Earth-spin coincidence (author, self-killed) | lunar tides, 3.8 cm/yr receipt | never; the reflex is installed |
+| Earth-spin coincidence (self-killed) | lunar tides, 3.8 cm/yr receipt | never; the reflex is installed |
 
 ---
 

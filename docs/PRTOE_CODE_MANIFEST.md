@@ -17,15 +17,15 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 | The dyad (varying m_e, the ramp through T_c) | [C] | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | [C] | IN |
 | **THE ZERO-PARAMETER EVIDENCE RUN** (ε, A_s, n_s, z_on all STATED) | [Y] cmp_prtoe_fixed.yaml | **LIVE (launched 2026-07-12 23:14; PID 442916)** |
-| The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by author order (relaunch fresh later); the ΛCDM twin awaits its slot |
+| The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by decision (relaunch fresh later); the ΛCDM twin awaits its slot |
 | The freeze-sentinel launch guards | [CMP] both wrappers | IN — verified quoted+unquoted |
 
 ## 2. ARMED — enters on its named trigger (the amended conditions)
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED by author order; running in the live zero-parameter test** | [Y] |
-| z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate by author decision; the α_c MCMC grades it later** | [Y] |
+| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED; running in the live zero-parameter test** | [Y] |
+| z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c MCMC grades it later** | [Y] |
 | n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on | **IN — running in the live test** | [Y] |
 | ρ_inf stated | the occupancy value | the α_c MCMC + the triangle confirmed | [Y] |
 | m_ncdm stated | 61.4 meV | the spurion (docketed) lifted + P-023 resolved | [Y] |
@@ -58,7 +58,7 @@ is sampling — the inclusion law is satisfied for the C code as of tonight; the
 are all [Y]-layer freezes on named triggers. Any future session that produces a
 pipeline-expressible result MUST add its row here in the same commit.
 
-## 6. THE BUILD QUEUE — everything still needing code, genesis → now (author order)
+## 6. THE BUILD QUEUE — everything still needing code, genesis → now
 
 *CLASS is complete for its jurisdiction (isotropic background + linear physics — every
 beneficial item compiled and running). The remainder are standalone solvers/analysis

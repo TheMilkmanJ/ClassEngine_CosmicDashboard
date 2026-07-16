@@ -1,8 +1,8 @@
 # THE READER'S GUIDE — plain physics, no house dialect (2026-07-13)
 
 *Written for the newcomer and the external reviewer. The repository's working documents
-use an internal grammar (banking and ledger metaphors) that has been productive for the
-authors but is NOT required to evaluate the physics. This page states the model plainly,
+use an internal grammar (banking and ledger metaphors) that has been productive in the
+model's development but is NOT required to evaluate the physics. This page states the model plainly,
 translates every recurring house term, and gives the reading order.*
 
 ## 1. The model in five plain sentences
