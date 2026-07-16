@@ -22,9 +22,9 @@ $$H_0^{\rm ladder} = H_0^{\rm global}\times\Big[1 + \varsigma\,\beta\,\delta c\,
 |---|---|---|
 | H₀^global | **69.9** | the model's CMB prediction (production fit; the zero-parameter run re-derives it) |
 | ς | {−1, 0, +1}, **armed 0** | UNCOMPUTED — the sign session (the room's crux) |
-| β·δc | 0.093 mag | the color channel (entry 68): Rydberg compression ε through SALT standardization |
+| β·δc | 0.093 mag | the color channel: Rydberg compression ε through SALT standardization |
 | ⟨g⟩_flow | 0.3–1.0 | the flow-SNe mean gate value (the host census, unsized; calibrator side ≈ 0 — screened) |
-| Λ_leak | +0.1–0.3% | the lookback-varying dipole leakage past SH0ES's constant template (entry 64); axis-geometry multiplier open (v4.1) |
+| Λ_leak | +0.1–0.3% | the lookback-varying dipole leakage past SH0ES's constant template; axis-geometry multiplier open (v4.1) |
 | 𝒯_τ | 0–0.4% | the τ room (the unpaid 7→8 tether), either sign |
 
 ## 3. The computed bracket

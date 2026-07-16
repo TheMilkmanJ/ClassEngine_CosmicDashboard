@@ -4,4 +4,4 @@
 3. The spin-mass (Regge) data confrontation: current BH spin measurements vs the predicted windows at the recorded m.
 4. Propagate the α_c MCMC posterior to every α_g.
 
-Coupling-geometry status (entry 88): screened-room (halo interiors) — verdicts hold by geometry.
+Coupling-geometry status: screened-room (halo interiors) — verdicts hold by geometry.

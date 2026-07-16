@@ -63,7 +63,7 @@ events — the topology draw (n, at condensation) and the census lock (the A_s =
 snapshot, when the cells freeze at the pivot scale) as SEPARATE ADJACENT LINKS. The
 geometric session confirms or kills this; nothing downstream assumes it.
 
-**[TETHER 4→5 REWRITTEN, 2026-07-13 (entry 77):** the two-draws hypothesis resolved —
+**[TETHER 4→5 REWRITTEN, 2026-07-13:** the two-draws hypothesis resolved —
 the "topology draw" = THE QUANTIZATION EVENT (the classical fountain ring's circulation
 quantizes through the condensation ramp; n locks at the phase-slip freeze-out — 
 mechanical, noise-dressed; the KZ dice demoted to the residual + the ± genome coin);
@@ -137,6 +137,6 @@ TETHERS. A claim that cannot say which epoch it lives in and what it inherits/de
 is not yet a claim in this model.*
 
 ## Sources
-Internal: the white-holes shelf, the derivation hunt (entries 43–46), the windowed BBN
+Internal: the white-holes shelf, the derivation hunt, the windowed BBN
 run, the two-clock frame, the fingerprint lattice, the cycle/torus genesis file.
 External record per link: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

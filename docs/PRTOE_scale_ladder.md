@@ -57,7 +57,7 @@ atomic structure" is one sentence and not six.
 1. **Any new rung-candidate physics** (a proposed structure at any scale) gets placed by two
  numbers: its ½α_eff² and its position vs ξ — the thread/kill verdicts follow the rung's
  regime (this systematizes the threading protocol's scale checks).
-2. **The hinge is a PREDICTION ZONE — now PRICED (entry 83)**: structures near 402 AU
+2. **The hinge is a PREDICTION ZONE — now PRICED**: structures near 402 AU
  (Oort-inner, wide binaries, detached TNOs) are where one-cell physics meets mosaic
  physics. The edge effect exists and ramps smoothly across the hinge, but the census
  (no fifth force, P-2026-014) caps it at gravitational polarization ≈ 10⁻¹⁸ relative —

@@ -4,4 +4,4 @@
 3. BipoSH/isotropy policing of the axis family (jointly with P-024/P-029 — internal review estimator-class check).
 4. The axis-of-evil direction vs the family's shared axis (a measurable consistency).
 
-Coupling-geometry status (entry 88): screened-room (solar system) — verdicts hold by geometry.
+Coupling-geometry status: screened-room (solar system) — verdicts hold by geometry.

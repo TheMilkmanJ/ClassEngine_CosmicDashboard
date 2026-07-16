@@ -4,7 +4,7 @@
 
 
 > **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). **One named condition has
-> since FAILED: the paired lepton-sector vacuum (entry 9) was excluded by the basement
+> since FAILED: the paired lepton-sector vacuum was excluded by the basement
 > rebuild (2026-07-13, hunt entries 120/132b) — the gap-equation architecture below is
 > retained as a template awaiting transfer to the Fermi-point basement, and every result
 > in this file inherits that conditionality.** Also conditional on: the no-bare

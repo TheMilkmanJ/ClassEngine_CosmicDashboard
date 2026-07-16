@@ -23,4 +23,4 @@ checked against the fact that matter won). When Card 4 lands, T14 item 1 closes 
 Tashiro–Vachaspati-class hint (left-handed, ~2σ, disputed — literature refresh owed)
 becomes readable. Until then: the map is STRUCTURE-COMPLETE, one link from live.
 
-Coupling-geometry status (entry 88): medium-sector (web-scale magnetogenesis) — untouched by the gate geometry.
+Coupling-geometry status: medium-sector (web-scale magnetogenesis) — untouched by the gate geometry.

@@ -3,7 +3,7 @@
 2. The bench↔cosmos parameter mapping TABLE (which dimensionless ratios carry over; internal review "bench ≠ cosmos" caveat made precise).
 3. Literature pass: has any existing ring-BEC dataset already measured (a) implicitly?
 
-Coupling-geometry status (entry 88): screened-room (bench experiments) — verdicts hold by geometry.
+Coupling-geometry status: screened-room (bench experiments) — verdicts hold by geometry.
 
 NEW candidate (entry 97's protocol run): lab-BEC quantum-turbulence / Kelvin-cascade statistics as the genesis dice's bench analog — the roll-up's draw statistics (ε_spin, f_amp) may have a measurable laboratory counterpart in dilute-BEC turbulence experiments. Candidate grade; needs the statistics mapping before it earns a row.
 

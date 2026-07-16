@@ -57,8 +57,7 @@ dead, and the corpse ledger is public.
 | 23 | Fluid dynamics & turbulence | Kolmogorov translates; intermittency silent | Honest silence |
 | 24 | Methods: Bayesian & numerical | Joint refits; pre-registration; adversarial self-review protocol | The method IS a result |
 
-*Part II (below) extends the census to **74 domains**
-(entries 25–74) — every Part II entry is an ATTACHMENT: the model
+*Part II (below) extends the census to **74 domains** — every Part II entry is an ATTACHMENT: the model
 predicts, forbids, votes, inherits a bound, or stakes a kill condition
 in that domain, and each entry names the result that would hurt it. No
 falsification hook, no entry.*

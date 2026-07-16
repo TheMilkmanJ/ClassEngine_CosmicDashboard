@@ -4,7 +4,7 @@
 
 
 > **STATUS: EXPLORATORY / UN-REFEREED — a firewalled candidate with a pre-registered
-> three-way lineup.** Found during a hygiene ritual (entry 13). The referee is the
+> three-way lineup.** Found during a hygiene ritual. The referee is the
 > α_c chain, already running; the verdict is weeks away at most. Conditional on: the
 > roster hypothesis (the composite vacuum), the Z4-locking mechanism (owed), P-2026-040.
 
@@ -64,7 +64,7 @@ The onset-clock identity (include/background.h, the coded T = 9.41 keV derivatio
 (PRTOE_DERIVATION_HUNT.md), P-2026-040's corollary chain. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
-## 4a. RESOLVED BY STABILITY (entry 33): THE UNIT IS THE PAIR
+## 4a. RESOLVED BY STABILITY: THE UNIT IS THE PAIR
 Quartets require attractive pair-pair coupling; the model's recorded real sound speed
 (c_s = √α_c) forces λ > 0 — repulsive — so quartets do not bind. The Z4 term locks
 phases, not composites (the §2 sketch conflated the two — failures ledger). The

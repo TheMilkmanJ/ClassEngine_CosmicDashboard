@@ -16,7 +16,7 @@ the house convention; failures live in the failures ledger, not here. (Revised
 |---|---|---|
 | the production fit (CMB likelihood chains) | **1.232%** | measured (this pipeline) |
 | the derived stack ε = c·f̄·α_c = 27α/5π | **1.2543%** | conditional (three factors, three referees) |
-| **the concordance joint (entry 59)** | **1.2403 ± 0.0079%** | the standing reference value |
+| **the concordance joint** | **1.2403 ± 0.0079%** | the standing reference value |
 
 The fit-versus-stack spread (1.4σ) is the identity network's most-loaded joint; the
 running α_c chain owns the verdict. The decomposition's three factors, each separately
@@ -80,8 +80,7 @@ Hagedorn-analog transition = T_c), and the reconciliation — the thermal amplit
 the census bookkeeping are one object, joined at the pour scale
 T ≈ 8×10¹⁶ GeV. **The chain now hangs on one underived number — the bounce's
 stiffness-ceiling scale (~1.6×10¹⁶ GeV) — queued as a named computation.** The
-count's lock criterion is mechanical: phase-slip freeze-out, Kibble–Zurek class
-(entry 77).
+count's lock criterion is mechanical: phase-slip freeze-out, Kibble–Zurek class.
 
 ## 6. The one-sentence biography
 

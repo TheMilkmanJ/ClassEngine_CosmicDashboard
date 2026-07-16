@@ -4,4 +4,4 @@
 3. The n-sign linkage's Card-4 contingency (the sign prediction fires only when the baryon-sign chain lands).
 4. Track PTA astro-only consistency (the vortex-null stands; SMBH-binary interpretation must keep working).
 
-Coupling-geometry status (entry 88): medium-sector (the θ·R·R̃ channel) — untouched by the gate geometry.
+Coupling-geometry status: medium-sector (the θ·R·R̃ channel) — untouched by the gate geometry.

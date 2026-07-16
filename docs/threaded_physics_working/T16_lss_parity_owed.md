@@ -10,4 +10,4 @@ SYSTEMATIC** — the second registered bet-against-an-anomaly (after birefringen
 If the 4PCF parity violation is CONFIRMED at claimed amplitude by independent surveys
 (DESI), the model has no channel for it — an honest exposure, now priced.
 
-Coupling-geometry status (entry 88): medium-sector (vorticity statistics) — untouched by the gate geometry.
+Coupling-geometry status: medium-sector (vorticity statistics) — untouched by the gate geometry.

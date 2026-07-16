@@ -8,4 +8,4 @@ gravitational ceiling ~ 10⁻¹⁵⁴ cm³/s — ~128 orders below thermal-relic
 excess: predicted astrophysical, with the kill exposure standing (one confirmed DM
 annihilation signal kills the conserved-charge structure).
 
-Coupling-geometry status (entry 88): screened-room (halo centers) — the null stands by geometry.
+Coupling-geometry status: screened-room (halo centers) — the null stands by geometry.

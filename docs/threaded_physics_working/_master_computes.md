@@ -13,7 +13,7 @@ it is (like the threads) a small-rooted tree. Booked internal review.*
 | M5 | **THE CHAINS** (the thaw chain/conv_desi convergence) | PAUSED pre-convergence (thaw mid-burn-in; conv_desi at the gate) — queued behind the evidence runs | conv_g (T3+T4 jointly), the thaw posterior, the internal review pre-registrations — ~4 |
 | M6 | **THE ε(EPOCH) PROPAGATION** | done to current depth (windowed re-stamp + the template-offset derivation) | the lattice rows, P-027(a), lithium's row, spine §17 — ~4 |
 | M7 | **THE CAVITY/AXIS COMPUTATION** (C_ℓ on the winding torus) | un-run | T5's spectrum + matched circles + the BipoSH policing of the whole axis family (P-024/P-029/T12) — ~4 |
-| M8 | **ω_genome/θ_i + v_L** | f̄ = 2/π an un-mechanized value claim (ensemble decides); **v_L EXECUTED (entry 81): duty-forced into two mutually exclusive corners (resonance → MeV/S4-armed; junction double-duty → ≥GeV/S4-dark); CMB-S4 = the corner-selector; point value awaits λ′** | Koide's 2/3, f̄ refinements; T3's corner scope, P-025 — ~4 |
+| M8 | **ω_genome/θ_i + v_L** | f̄ = 2/π an un-mechanized value claim (ensemble decides); **v_L EXECUTED: duty-forced into two mutually exclusive corners (resonance → MeV/S4-armed; junction double-duty → ≥GeV/S4-dark); CMB-S4 = the corner-selector; point value awaits λ′** | Koide's 2/3, f̄ refinements; T3's corner scope, P-025 — ~4 |
 
 Residual standalone: bench designs (T7), TRGB/PolyChord (external clocks), instrument forecasts.
 

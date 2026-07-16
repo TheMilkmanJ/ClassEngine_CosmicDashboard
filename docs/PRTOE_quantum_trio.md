@@ -100,5 +100,4 @@ behind it.*
 (the pair as a constructed entangled superposition); [Yang 1962] (ODLRO); [Anderson 1966]
 (phase slips); [Volovik 2003] (the condensate-vacuum program). Full entries:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the three-in-one (hunt entry 79-class), the
-three-door guideline (entries 160–161), the seating (entry 171), the second-sound pairing
-(entry 172).
+three-door guideline, the seating, the second-sound pairing.
