@@ -303,6 +303,16 @@ too low, and the seam DE estimate ρ_Λ¼=(9/2)α⁴T_c over-predicts ~2× at th
 first quoted at 193 keV). The zero-T leading-log μ residual still needs the 2-loop β-functions (not in
 corpus). Corrected in me_mechanism_math and cosmological_constant §2c. Value remains UNDERIVED.
 
+#### T_c is PERTURBATIVELY ILL-DEFINED — the 2-loop V_eff build, executed (hunt 215)
+The 2-loop RG-improved V_eff (build spec PRTOE_build_2loop_Veff_spec.md) was RUN. Verdict: no SSB at the
+natural scale μ=m_e (breaking needs μ<310 keV, a large log); the scale-stationary PMS sits at μ~e⁻¹⁰⁰ m_e
+(unphysical) for ANY O(1) 2-loop coefficient, because the O(α) curvature is too weak to stabilize a
+physical scale. So T_c has no perturbative definition — the dyad's electron-CW condensation is a
+large-log/marginal effect (sharpening the model's own "marginal" flag). The seam DE route
+ρ_Λ¼=(9/2)α⁴T_c has no perturbative T_c to evaluate; the dyad VEV (varying-m_e foundation) inherits the
+marginality. A non-perturbative gap-equation treatment is needed even to define T_c. Robust to the
+uncomputed 2-loop constant (PMS-scaling argument). Value remains UNDERIVED.
+
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 
 - The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned bet (radio-arbitrated).

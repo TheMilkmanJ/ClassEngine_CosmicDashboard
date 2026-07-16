@@ -7960,3 +7960,38 @@ physical curvature to pin μ. Its coefficient is a real 2-loop effective-potenti
 the build task. Net: both requested computes reduce to genuine research problems (the response exponent
 s; the 2-loop V_eff coefficient); the DE value stays underived. Method: computed to the rigorous edge,
 named the exact diagram needed, refused to invent the 2-loop coefficient or a favorable residual.
+
+---
+
+### Entry 215 — THE 2-LOOP V_eff, BUILT (operator: "build it, not a handoff"): **DEFINITE NEGATIVE — T_c is NOT perturbatively well-defined; no physical PMS exists for ANY 2-loop coefficient; the dyad's electron-CW condensation is a large-log/marginal effect, so the seam DE route rests on an ill-defined T_c**
+
+Built the RG-improved 2-loop V_eff via the RG-FIXED leading logs (the 2-loop log² coefficient is fixed by
+the 1-loop γ_m; only the non-log constant c₀ is genuinely 2-loop-new). The decisive question — does a
+stable, scale-independent T_c exist? — is answerable WITHOUT c₀:
+
+**(1) No SSB at the natural scale.** The 1-loop induced dyad mass² ∝ −(L−3/2), L = ln(m_e0²/μ²), is
+tachyonic only for **L > 3/2** (μ < ~310 keV). At μ = m_e (L=0): **no symmetry breaking**. The dyad
+condensation exists only in the LARGE-LOG regime (μ < 310 keV), where the perturbative expansion is
+unreliable.
+
+**(2) No physical PMS.** T_c ∝ √(bracket); the scale-stationary point (dT_c/dlnμ = 0) including the
+2-loop log² term sits at **L_PMS = −π/(2αc₂)**. For any O(1) c₂: L_PMS ~ 1/α ~ 200–700 → **μ_PMS ~
+e⁻¹⁰⁰ m_e ~ 10⁻⁴⁷ eV** — absurdly unphysical. The QED coupling is too small (α ~ 1/137): the 2-loop
+curvature is O(α), so stationarity needs a log ~ 1/α, i.e. a scale far below anything physical.
+**Independent of the uncomputed 2-loop constant c₀ — so no fabrication was needed.**
+
+**VERDICT (built, definite, adverse):** T_c is **NOT a perturbatively well-defined quantity**. The
+dyad's electron-Coleman–Weinberg condensation is a large-log/marginal effect — the model's own "derived
+and marginal are one fact" flag, now sharpened to "no perturbative PMS exists at any physical scale."
+Consequences:
+- The seam DE route ρ_Λ¼ = (9/2)α⁴T_c **has no well-defined T_c to evaluate** perturbatively. The DE
+  value cannot be closed this way.
+- More broadly, the dyad VEV (~100 keV, the varying-m_e foundation) inherits the same marginality — its
+  existence/scale is log-sensitive, not RG-stabilized.
+- Defining T_c requires a NON-perturbative treatment (a self-consistent gap equation, or lattice-class),
+  and only if the condensation survives resummation at all.
+
+Method: built the RG-improved potential from the 1-loop β's (hunt 214); got a verdict robust to the one
+uncomputed coefficient via the PMS-scaling argument; did NOT invent c₀. Task #46 executed — result is a
+definite negative, not a handoff. The DE value stays underived, and the T_c leg is now shown to be
+perturbatively ILL-DEFINED (a stronger statement than "ambiguous").

@@ -68,8 +68,12 @@ A partial 2-loop pass (hunt 213) fixed the thermal side EXACTLY and found the mo
 Δm²=(κm_e²/3)T² is **out of regime** (T_c < m_e): the exact fermion loop (Boltzmann-suppressed electrons)
 pushes T_c UP ×1.4, so at the natural scale μ=v the DE estimate **over-predicts ~2×** (T_c≈369 keV). The
 remaining residual — the zero-T leading-log — needs the genuine 2-loop β-functions (not in the corpus).
-**The T_c closer is now COMMISSIONED** as a build spec ([PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md)):
-the 2-loop photon-dressed electron loop, 1-loop β-functions and exact-J_F inputs already in hand (hunt 214).
+**The T_c closer was BUILT** ([PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md); hunt 215) —
+result a **definite negative**: the 2-loop RG-improvement does NOT pin T_c. There is no SSB at μ=m_e, and
+the scale-stationary PMS sits at μ ~ e⁻¹⁰⁰ m_e (unphysical) for any 2-loop coefficient, because the O(α)
+curvature is too weak. So **T_c is perturbatively ILL-DEFINED** — the electron-CW condensation is a
+large-log/marginal effect, and this seam DE route has no perturbative T_c to evaluate. A non-perturbative
+(gap-equation) treatment is required even to define T_c.
 Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
 scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
 

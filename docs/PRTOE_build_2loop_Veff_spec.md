@@ -1,9 +1,20 @@
 # BUILD SPEC — The 2-loop RG-improved V_eff for T_c (the DE-value closer)
 
-> *Commissioned 2026-07-16 (hunt entries 210–214). This is a BUILD SPECIFICATION for a genuine
-> multi-loop QFT computation — NOT a session compute. It states the objective, the exact diagram,
-> the method, the inputs already in hand, and the acceptance tests, so the calculation can be
-> executed and graded without re-deriving the context.*
+> *Commissioned 2026-07-16 (hunt entries 210–214), then EXECUTED (hunt 215).*
+
+> **RESULT (hunt 215 — DEFINITE NEGATIVE):** the 2-loop RG-improved V_eff does **NOT pin T_c** — and
+> the answer is robust to the one uncomputed piece (the non-log 2-loop constant c₀). Two facts settle it:
+> (1) at the natural scale μ = m_e there is **no symmetry breaking** (SSB needs μ < ~310 keV, a large log);
+> (2) the scale-stationary PMS sits at L ~ 1/α ~ 200 → μ ~ e⁻¹⁰⁰ m_e, unphysical for **any** O(1) 2-loop
+> coefficient (the O(α) curvature is too weak). So **T_c is not a perturbatively well-defined quantity**;
+> the dyad's electron-CW condensation is a large-log/marginal effect, and the seam route ρ_Λ¼ = (9/2)α⁴T_c
+> has no perturbative T_c to evaluate. Defining T_c needs a NON-perturbative (gap-equation/lattice) build,
+> if the condensation survives resummation at all. The full 2-loop diagrammatic spec below stands as the
+> record of what was attempted; the negative verdict does not depend on completing it.
+
+*This was a BUILD SPECIFICATION for a genuine multi-loop QFT computation. It states the objective, the
+exact diagram, the method, the inputs, and the acceptance tests. The RG-improvement (leading-log,
+sufficient for the verdict above) was executed; the full diagrammatic 2-loop constant was not needed.*
 
 ---
 

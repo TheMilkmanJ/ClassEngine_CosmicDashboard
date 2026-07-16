@@ -319,8 +319,11 @@ used out of regime. The EXACT finite-T fermion loop (Boltzmann-suppressed electr
 symmetry) pushes T_c UP ×1.4 (264→369 keV at μ=v), so the adopted central (~193 keV) is too low. The
 zero-T leading-log μ needs the 2-loop V_eff: the 1-loop β-functions are now worked out (hunt 214 —
 γ_{m_e}=3α/2π, β_{m_φ²}=(κ/π²)m_e0⁴, β_κ≈(3α/2π)κ) and CONFIRM the 1-loop can't pin T_c (κ cancels;
-the O(α) source-running gives an unphysical PMS at μ~e⁻⁵⁷). The closer is the 2-loop photon-dressed
-electron loop (a log² term) — a genuine multi-loop build, not yet computed.
+the O(α) source-running gives an unphysical PMS at μ~e⁻⁵⁷). The 2-loop RG-improvement was then BUILT (hunt 215)
+and returns a DEFINITE NEGATIVE: no SSB at μ=m_e, and the scale-stationary PMS is at μ~e⁻¹⁰⁰ m_e for any
+2-loop coefficient (the O(α) curvature is too weak). So T_c is **perturbatively ILL-DEFINED** — this CW
+condensation is a large-log/marginal effect (sharpening the "marginal" flag), and the dyad VEV inherits
+the same marginality. Defining T_c needs a non-perturbative gap-equation treatment.
 
 **Leptophilia (allowed ≠ generated).** Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
 EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia. CAVEAT
