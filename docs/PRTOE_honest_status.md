@@ -3,15 +3,32 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STALENESS NOTE (updated 2026-07-13):** dated 2026-07-08 — predates the threading program, the
-> derivation hunt (68 entries), the freezes (ε/A_s/n_s/z_on stated), and the running
-> zero-parameter evidence test; see DEPENDENCY_TREE for current conditionality — plus the
-> derivation hunt, and the evidence run. Current state: [PRTOE_INDEX.md](PRTOE_INDEX.md);
-> current standing and live bets: [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md)
-> (banner). Kept as the honest historical baseline.
+> **PRIVATE — for the author, not the audience.** The candid self-assessment and the odds. Unlinked
+> from the reader-facing shelf on purpose.
 
-Dated 2026-07-08. This is the model's self-assessment, kept honest on purpose. Updated as
-cruxes resolve. Companion to the pre-registered predictions and the birefringence null.
+## CURRENT (2026-07-16)
+
+Major moves since the 2026-07-08 baseline (below):
+
+- **c is now derived (c = 9/10).** The census factor is no longer a hypothesis: the neutrino sits on the
+  vacuum's seat because its mass is medium-sourced, not electroweak. (Was least-trusted joint #3 — retire it.)
+- **The dark-energy VALUE now has a derived-scaling closed form:** ρ_Λ¼ = (d/2)α⁴m_e ≈ 2.17 meV (0.97×),
+  in three fundamental constants (d = 3, α, m_e). But its last digit rests on one strong-coupling number
+  that needs a *proposed* dark-confining sector — unproven new physics (task #48).
+- **DE-floor self-tuning (least-trusted joint #1) is now sharply understood — and it does NOT self-tune.**
+  The settling response is **ohmic** in the dark-energy channel, so the floor's value is not fixed by the
+  settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
+  channel, not DE. Honest: still no working self-tuning mechanism for the value.
+- **Evidence:** the +2.635 Laplace win landed (below, unchanged); the MCMC chains are still running
+  (χ² ≈ 2799–2803), and PolyChord has not been run.
+
+**Odds the CORE picture is right: ~12–16%, roughly held.** The DE closed form is real theoretical
+progress, but it rests on unproven new physics and does not solve the coincidence problem, and there is
+no new positive *evidence* (no PolyChord verdict). So the number hasn't moved much. Deciders unchanged:
+PolyChord (marginal → robust, or sinks it) and SHOES-vs-TRGB (physical → holds, systematic → inverts).
+
+---
+### Baseline (2026-07-08) — kept for the record; superseded where the section above says so.
 
 ## The single kill-shot (task Q3 / #21)
 
