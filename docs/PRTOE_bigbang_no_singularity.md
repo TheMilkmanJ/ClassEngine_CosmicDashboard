@@ -4,8 +4,8 @@
 
 
 *Derivation-from-recorded-structure; companion to PRTOE_blackholes_no_singularity.md (the same
-three pillars, applied to the cosmological case). Status: STRUCTURAL (candidate), booked
-internal review. Owed items flagged inline.*
+three pillars, applied to the cosmological case). Status: STRUCTURAL (candidate).
+Owed items flagged inline.*
 
 ## 0. The claim
 
@@ -20,14 +20,14 @@ past, but its first moment is a *state*, not a point of infinite density.
  frame); it exists only for gradients longer than the healing length ξ = ħ/(m c_s).
  A contracting universe approaching ξ-scale curvature radii exits the metric description
  *before* any singularity theorem's conclusion can be located — the arena dissolves
- (the same no-double-counting as internal review).
+ (the same no-double-counting move as the black-hole case).
 2. **The quartic floor.** The condensate's self-repulsion resists compression: the crunch
  stiffens into a maximum density of order ρ_bounce ~ m⁴/λ-class (the same Colpi–Shapiro–
  Wasserman physics that supports every black hole at finite density, §3 of the BH document).
  Contraction halts and reverses at finite ρ. *(λ_phys owed — same flag as the BH doc; every
  value of λ keeps ρ_bounce finite.)*
 3. **The Landau ceiling eats the light first.** As density rises, the plasma frequency sweeps
- up through the radiation bands ("the crunch's mouth," internal review, recorded): each band's photons
+ up through the radiation bands (the "crunch's mouth"): each band's photons
  are massed, made trace-visible, and thermalized. The crunch is a *dissipative thermal
  process* — Tolman's kept entropy — not a geometric implosion. What survives it is exactly
  the genome: the topological winding, which the crunch **cannot** unwind without tearing the
@@ -78,7 +78,7 @@ rearranged itself.
 - λ_phys (sets ρ_bounce's number, not its finiteness).
 - The bounce dynamics in detail (the reversal's field profile — the cosmological analogue of
  the BH core; un-simulated).
-- The first-cycle Kibble numbers use the ambient-era estimates (internal review scale-check class).
+- The first-cycle Kibble numbers use the ambient-era estimates (order-of-magnitude scale checks).
 - This document *asserts no new observables*: its falsifiers are the recorded ones (a confirmed
  pre-genesis relic kills it; DESI DR3 and the cycle-structure predictions carry the live risk).
 

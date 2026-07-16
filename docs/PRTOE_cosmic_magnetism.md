@@ -4,7 +4,7 @@
 
 
 *Derivation-from-recorded-structure; the standalone document for P-2026-028. Status: STRUCTURAL
-(candidate) with one honestly-open gap (the void floor). Booked internal review. The claim of uniqueness
+(candidate) with one honestly-open gap (the void floor). The claim of uniqueness
 is stated precisely in §5 — the mechanism class is standard; the SOURCE and the SIGN are not.*
 
 ---
@@ -30,12 +30,12 @@ The known escape attempts and their pathologies:
 ## 1. This model is a rotation machine — the vorticity is structural, not optional
 
 The founding identity is a charged **rotating** superfluid, and rotation in a superfluid is not
-a free profile — it is **quantized circulation** (Onsager–Feynman; internal review-granted: "a rotating
-superfluid CANNOT have n = 0"). The recorded sources of spin, each graded:
+a free profile — it is **quantized circulation** (Onsager–Feynman: a rotating
+superfluid cannot have n = 0). The recorded sources of spin:
 
-1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis, internal review;
+1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis;
  topologically locked through every crunch).
-2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc (internal review scale) thread
+2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc thread
  the medium with quantized vortex lines.
 3. **The genesis helicity** — the AD roll's self-generated rotation (the first-roll theorem).
 
@@ -50,8 +50,8 @@ differently (photon drag couples to them unequally), separating charge into a cu
  B_seed ≈ 2 (m_p c / e) · ω_vort ≈ **5×10⁻¹⁸ G** at ω_vort ~ 0.5 H(rec) (graded)
 
 That is precisely a viable **galactic** seed: compressed and dynamo-amplified over ~30 e-folds
-to the observed μG. **The model pays the galactic magnetism bill where ΛCDM cannot** — graded
-at internal review ("a genuine new explanatory front... credit"), registered as P-2026-028.
+to the observed μG. **The model pays the galactic magnetism bill where ΛCDM cannot** —
+a genuine new explanatory front, registered as P-2026-028.
 
 **Consistency, forced:** the seeding runs through the *plasma's* response to the medium's
 rotation — never through dark-charge currents, because the condensate's EM-neutrality is
@@ -61,9 +61,9 @@ allowed to make fields directly; it is allowed to stir.
 ## 3. The void floor — the honest open gap
 
 The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
-vortex-network rms boost, ×3400) was caught by internal review: it concentrates B on the
+vortex-network rms boost, ×3400) fails on inspection: it concentrates B on the
 **filaments/lines**, while the void floor constrains the **inter-line** field — which stays
-**~1.5 orders short** on the smooth estimate. [Historical framing — see the RESOLVED verdict below: the internal rescues died; the blazar debate is the referee.] Live
+**~1.5 orders short** on the smooth estimate. [See the RESOLVED verdict below: the internal rescues died; the blazar debate is the referee.] Live
 candidates, none yet computed: (i) return-flux topology (field lines must close — the void
 threading is not zero, its floor is computable); (ii) post-recombination vorticity persistence;
 (iii) the blazar bound's own caveats (plasma-instability alternative would relax the floor).
@@ -85,8 +85,8 @@ inherits **magnetic helicity with a DETERMINED SIGN**: the vorticity that seeds 
 genome's own rotation, so
 
  sign(helicity_B) = sign(n) = the SAME topological draw that set matter-over-antimatter
- (the one quantum integer of internal review; the three-way convergence
- graded at internal review).
+ (the model's one quantum integer; the three-way convergence
+ of matter asymmetry, helicity, and winding on a single draw).
 
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in

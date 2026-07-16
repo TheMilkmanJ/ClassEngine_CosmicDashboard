@@ -19,11 +19,11 @@ Landau criterion breaks). The claim rests on three graded pillars and closes wit
 ## 1. Pillar one: the metric is emergent — and it ends before r = 0
 
 The metric here is the medium's collective structure (the acoustic/Son isomorphism;
-Sakharov-induced action; the Jacobson thermodynamic kit — the assembled QG frame, graded internal review:
-a "legitimate emergent/analog-gravity model"). An emergent metric is only defined where the
+Sakharov-induced action; the Jacobson thermodynamic kit — the assembled emergent/analog-gravity
+frame). An emergent metric is only defined where the
 collective description holds — for gradients longer than the **healing length**
 
- ξ = ħ/(m c_s), with m = 2.24×10⁻²⁰ eV (recorded; roster-trial-conditional, hunt 145) and c_s = √α_c = 0.146 (α_c = 3α is a registered bet — ξ rides two open numbers)
+ ξ = ħ/(m c_s), with m = 2.24×10⁻²⁰ eV (roster-trial-conditional) and c_s = √α_c = 0.146 (α_c = 3α is a pre-registered value — ξ rides two open numbers)
 
  **ξ = 6.0×10¹³ m = 402 AU = 0.0064 ly.**
 
@@ -93,7 +93,7 @@ analog-gravity physics (Unruh) — the exterior thermodynamics is inherited, not
 
 ## 5. Rotation: Kerr as a vortex bundle
 
-A superfluid cannot rotate rigidly (Onsager–Feynman, internal review-granted): a spinning black hole's
+A superfluid cannot rotate rigidly (Onsager–Feynman): a spinning black hole's
 angular momentum is carried by **quantized circulation** — a bundle of N_v = J/ħ vortex lines
 threading the core (N_v ~ 10⁷⁷ (M/M☉)² a* — astronomically many, classical in aggregate).
 Vortex cores are normal-phase threads: rotation *adds more thermalized thread*, never a ring

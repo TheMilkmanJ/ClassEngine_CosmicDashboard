@@ -36,7 +36,7 @@ genome's sign** — the SAME topological draw as the baryon asymmetry and the ma
 metric ripples. (Amplitude un-computed — flagged; the SIGN correlation is the falsifiable
 content whenever any two members are measured.)
 
-## 3. Ringdowns, echoes, and the interior (internal review flag, kept at its size)
+## 3. Ringdowns, echoes, and the interior
 
 BH exteriors are standard to current precision (the null stance); the finite core replaces the
 singularity at depths current ringdown data cannot resolve. IF pursued: core-boundary
@@ -74,8 +74,8 @@ residual θ̇ today (the swirl, 10⁻² H₀) leaves every band 12+ orders below
 
 ## Where the dead ends live
 
-The failed attempts in this sector — the lost bet that cosmic *photon* birefringence should be
-non-zero, and the timing-wall phrasing — are recorded in
+The failed attempts in this sector — the abandoned expectation that cosmic *photon* birefringence
+should be non-zero, and the timing-wall phrasing — are recorded in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Birefringence."** They are worth
 the reader's time: proving the photon channel is closed (the medium is EM-neutral → zero
 optical rotation) is exactly what forces the parity signal into gravity (θ·R·R̃ → GW

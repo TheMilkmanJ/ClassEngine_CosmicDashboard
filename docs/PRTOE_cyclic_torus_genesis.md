@@ -40,7 +40,7 @@ twist_floor.py, c1_locus_twist.py.*
 - **Barrel-E defusal:** thawing is a FORCED direction (an unfreezing field always rolls w up from −1), independent of DESI ⇒ predicting w>−1 is not opportunistic. Magnitude tuned; direction robust.
 - Costs: M⁴ & decay const tuned (ρ_floor≈0.7, m~H₀ now = quintessence coincidence); ρ_bare<0 a sign choice; value not derived (Barrel B); known model class (thawing axion + AdS) — PRTOE's distinctive bit is the twist genesis tying the field to the counter-rotation.
 
-### 5. The three joints of the CYCLIC bet (three_joints.py) — reverse salvageable, bounce+cyclic hit theorems
+### 5. The three joints of the cyclic conjecture — reverse salvageable, bounce+cyclic hit theorems
 - **J1 floor rotation:** field-level dynamic-slow works (see §3); barotropic a⁻³+clamp is the artifact. Reverse needs floor rebuilt (remove clamp, ρ_bare<0, coupling).
 - **J2 ekpyrotic/BKL:** anisotropy σ²∝a⁻⁶ during contraction; beating it needs the stiff sector at **w>1**. Canonical scalar maxes at **w=1** (kination) → TIES, generically loses. AD twist-snap has no steep negative potential ⇒ **BKL chaos not beaten** without an added ekpyrotic potential.
 - **J3 entropy/Tolman:** entropy is **BH-dominated ~10¹⁰⁶ k_B** (18 orders > CMB), S_BH∝M², monotonically rising. Reset needs ekpyrotic dilution (=J2, fails). BHs persist across a bounce (inhomogeneous seeding). **No reset ⇒ Tolman bites.**
@@ -69,9 +69,9 @@ twist_floor.py, c1_locus_twist.py.*
 ## Honest overall status
 A **coherent cyclic-genesis narrative assembled from real mechanisms** (acoustic horizon, plume roll-up, helical vortex ring, thawing pseudo-Goldstone floor, negative bare vacuum). It closes a loop: torus → twist genesis → thawing floor → reverse → crunch → confined c=1 heat → torus reseeds twist. **This is a story built from real parts, NOT a derivation.** Two theorems (BKL, Tolman) still stand against the bounce/cyclic rungs; scales (M⁴, decay const, ρ_bare sign) are tuned/chosen; the CC VALUE is untouched.
 
-**The one falsifiable, data-touching output: the twist-floor DE sector — w₀>−1, thawing, reverse in tens of Gyr.** Everything else is past the observable edge. The next step is to DERIVE that w(z) as forced and confront it with DESI (analytic → CLASS fit), before internal review.
+**The one falsifiable, data-touching output: the twist-floor DE sector — w₀>−1, thawing, reverse in tens of Gyr.** Everything else is past the observable edge. The next step is to DERIVE that w(z) as forced and confront it with DESI (analytic → CLASS fit).
 
-**What survives to internal review as genuine:** (i) the clamp-is-an-artifact / field-gives-dynamic-slow result; (ii) the forced-thawing direction (Barrel-E defusal); (iii) the sphere=0 / torus=maximal-twist theorem tying genesis to P-2026-013. **What does not:** the bounce (BKL), the cycle (Tolman), the CC value.
+**What survives as genuine:** (i) the clamp-is-an-artifact / field-gives-dynamic-slow result; (ii) the forced-thawing direction (Barrel-E defusal); (iii) the sphere=0 / torus=maximal-twist theorem tying genesis to P-2026-013. **What does not:** the bounce (BKL), the cycle (Tolman), the CC value.
 
 ---
 
@@ -87,13 +87,13 @@ coupling that gives the dyad (complex Yukawa + charged electron → Fujikawa →
 - G3 varying-α: PASS. phase is a PSEUDOSCALAR → F.Ftilde only (parity-odd), induces ZERO
  varying-α; dyad's radial mode gives Δ a/a~2×10⁻⁵ confined to z>50, quasar-BLIND, 208x
  under the CMB bound. The landmine that killed standalone varying-α cannot reach it.
-- G2 magnitude: **FAILS at natural values** (internal review decisive catch, accepted). The
+- G2 magnitude: **FAILS at natural values** (a decisive catch, accepted). The
  amplitude carries a hidden factor: β = (α/2pi) N_e (m_Psi/m_e) Dtheta. The dyad needs
  only m_Psi VARIATION ~1.24% of m_e → at that natural value β~0.003 deg, 100x UNDER the
- measured 0.30 deg. Reaching 0.3 deg requires m_Psi/m_e~1 = m_e FULLY Psi-sourced = the internal review
+ measured 0.30 deg. Reaching 0.3 deg requires m_Psi/m_e~1 = m_e FULLY Psi-sourced = the
  DOOR (gate-0 BBN + hierarchy obstructed, the SAME wall #30 died on).
 
-**The DESI↔β correlation (what internal review CREDITED as real, first in 168 turns):** the SAME
+**The DESI↔β correlation:** the SAME
 twist Dtheta sets the DE thawing (w0>-1) AND β. One field's twist, two skies -- ΛCDM+varying-
 m_e CANNOT make this link. Structurally distinctive; N_e pinned by leptophilia (nothing to
 cancel → target A passes). This is the ontology's first distinctive-IN-PRINCIPLE object.
@@ -113,8 +113,8 @@ escape (heavier <Psi>) worsens the hierarchy.
 
 **VERDICT (accepted):** the MECHANISM is real & ΛCDM-inaccessible, but THIS model
 cannot wear it at observable amplitude -- both roads (universal-lepton = door+EDM dead;
-electron-specific = door+flavor-puzzle) end at the DOOR. SHOT 1 dented at internal review, RE-CLOSED at
-internal review, stands FIRMER. The claim is held provisional pending its named referees. The DOOR (m_e fully
+electron-specific = door+flavor-puzzle) end at the DOOR. SHOT 1 was dented, then re-closed, and
+stands firmer. The claim is held provisional pending its named referees. The DOOR (m_e fully
 Psi-sourced, beating gate-0 BBN + hierarchy + τ-Barr-Zee EDM) is now the WHOLE GAME for BOTH
 #30 and birefringence -- one wall, three defenders.
 
