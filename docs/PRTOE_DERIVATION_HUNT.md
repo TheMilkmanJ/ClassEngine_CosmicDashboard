@@ -7427,3 +7427,25 @@ DIMENSION, ×d for 3D." That split is genuinely new and NOT covered by the prior
 (derived); α_c=d·α (clean form); residual = "(c₂/c)²=α" (localized); the per-dimension induced loop =
 new un-refuted lead. The whisper held: pushing produced real structure, not a mirage. Next push: does
 the medium's fermion loop induce α PER SPATIAL DIMENSION (→ ×d=×3)?
+
+## ENTRY 202 — THE INDUCED-LOOP: the factor 3 = the TRANSVERSE-PROJECTOR TRACE = spatial dimension d [candidate mechanism for α_c=3α; two field-theory pieces owed]
+
+*Set up the induced computation (operator's ask), flagging DERIVED vs ASSUMED per step.*
+
+- **STEP 1–2 [DERIVED, standard FT]:** the induced vacuum polarization is transverse (Ward):
+  Π^{μν} = (q²g^{μν} − q^μq^ν)Π = q²·P^{μν}·Π. The transverse projector's TRACE is
+  g_{μν}P^{μν} = (D_spacetime) − 1 = 4 − 1 = **3 = d (spatial dimensions).** Forced, not constructed.
+- **STEP 3 [the mapping — ASSUMED, flagged]:** light (transverse Goldstone) reads the scalar Π → ~α;
+  the condensate stiffness (compression resists in ALL d directions) reads the TRACE → ~d·Π ~ d·α.
+  If so, **α_c = d·α = 3α**, the 3 being the transverse-projector trace = spatial dimension.
+- **STEP 4 [owed, honest]:** (a) the mode-mapping — that stiffness reads the trace (not trace/d or a
+  2-polarization count) needs the actual condensate EFT; (b) the base = α is roster-conditional
+  (light is only 44% induced; the induced value = α only for the specific roster). Both are
+  field-theory computations, NOT reframings.
+
+**NET:** the factor of 3 now has a **real, non-constructed home** — trace(transverse projector) = d.
+The d=3 is **triply consistent**: second sound (√d), background geometry (3D space), loop trace (d).
+α_c = d·α has a candidate MECHANISM. Owed: the mode-mapping + base=α. The α_c thread went from
+"bare bet / probable coincidence" (entry 197, WRONG) to "3 forced as d, ×α a consistency condition
+with a candidate loop-trace mechanism" (entries 200/201/202) — five pushes, five advances, no
+fabrication. Not closed; localized to two field-theory computes.
