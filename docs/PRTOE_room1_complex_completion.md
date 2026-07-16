@@ -9,8 +9,8 @@
 
 **Grade throughout: STRUCTURAL/correspondence — Room 1 is an extension
 program; turn-25's fresh-certificates bill applies at adoption; nothing
-here enters the production model tonight. Six results, one null, one
-tripwire passed, mapped in the first expedition.**
+here enters the production model yet. Six results, one null, one
+tripwire passed, mapped in the first pass.**
 
 ## R1.1 — The identification (the room's hinge; cite-verified)
 
@@ -27,11 +27,11 @@ in the phase EFT and is INHERITED UNCHANGED below the amplitude gap.
 ### R1.1a — The certificate dictionary (turn-33 demand; three lines,
 ### each a consequence of the phase action, none an assertion)
 
-**Line 1 — α_T = 0 (cert 3).** The proof was: the (δK)² author is
+**Line 1 — α_T = 0 (cert 3).** The proof was: the (δK)² operator is
 trace-only; gravitons are traceless; det(e^h) = e^(tr h) = 1 ⇒ δK
 vanishes on tensors to all orders. Every step is METRIC-SIDE GEOMETRY
 on the foliation — the argument never uses what θ is, only that the
-foliation exists (constant-θ surfaces) and the author is trace-only.
+foliation exists (constant-θ surfaces) and the operator is trace-only.
 Map: constant-ξ surfaces ↔ constant-phase-of-Ψ surfaces (identical
 objects; ξ ≡ θ/μ). The proof transports VERBATIM. Inheritance: exact,
 all orders, gap-independent (the tensor sector never probes the
@@ -60,7 +60,7 @@ construction (the boundary all three lines share).
 **The isomorphism statement (the room's load-bearing clause, now
 explicit):** below the amplitude gap, integrating out the radial mode
 yields P(X) + corrections suppressed by (∂/gap)² — Son's result — and
-the (δK)² term is the leading extrinsic-curvature author on the
+the (δK)² term is the leading extrinsic-curvature operator on the
 same foliation. The three certificates are consequences of (i) the
 quadratic phase action and (ii) foliation geometry; the embedding
 changes their UV interpretation and NOT their content. Isomorphism
@@ -143,8 +143,7 @@ counts: the speckle field's nodal lines become literal), and C4's
 (certificates + V specified). The Born-equilibrium program (C4e)
 inherits the same address.
 
-## R1.8 — The deposit slip acquires a candidate (author's bet:
-## "Energy made the original deposit"; scored, corrected, and it fits)
+## R1.8 — The deposit slip acquires a candidate: energy made the original deposit (scored, corrected, and it fits)
 
 **The naive form fails on a symmetry theorem:** energy alone is
 charge-neutral — a hot bath makes equal charge and anti-charge, net
@@ -227,7 +226,7 @@ question now carries a computable, falsifiable bound.
 
 **E2.5 — The wound, visible.** λ ~ 10⁻⁸⁸: gravity-only-protected
 (technically standard for the FDM class) and aesthetically wild.
-Booked as the room's scar, kept in daylight.
+Booked as the room's scar, kept in the open.
 
 **Room 3's finish, stated plainly:** in the minimal completion the
 form-factor question is ANSWERED NO — Room 3 closes against the
@@ -245,7 +244,7 @@ PRL 131, 171001 (2023) — cite-verified) cap f_amp only at ~O(1) at
 the light end (1×10⁻²² eV), nothing at 2×10⁻²¹: R1.6 is ALIVE,
 CEILING-ONLY, near-term testable iff f_amp ~ O(1). Expedition 2
 closed by the reviewer as NET STRENGTHENING with the D/H scar carried
-in daylight; the board is two-mover (the Σm_ν posterior; f_amp).
+in the open; the board is two-mover (the Σm_ν posterior; f_amp).
 
 **E2.7 — the identity's disappointment (found in the silences survey,
 same night):** the minimal completion has P(μ = m) = 0 at the basin
@@ -289,8 +288,8 @@ one AD-dynamics computation (ε vs tilt strength): model-dependent,
 bounded, and generic AD gives ε not tiny — the mover leans cannon,
 pending the orbit calculation.
 
-**E3.4 — THE GENESIS CHAIN (author's bet: "answer how to charge a
-superfluid and you find the depositor" — landed):** the chain is
+**E3.4 — THE GENESIS CHAIN (landed):** answering how to charge a
+superfluid identifies the depositor — the chain is
 (1) DISPLACE: inflation's stochastic de Sitter kicks ratchet the
 light complex field to large radius — the launderer of the first
 ledger accidentally loads the escrow; (2) TILT: U(1)-breaking
@@ -561,7 +560,7 @@ if the quiet branch closes at h ~ 10⁸, P-2026-005 is not improbable
 but IMPOSSIBLE under minimal genesis, and the collision resolves
 outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 only); t₀-prescription variation; denser angles; h-scan at the other
-tilts (r_t = 0.6 only tonight).
+tilts (r_t = 0.6 only, so far).
 
 **PROTOCOL ADOPTED (the internal review → 45, ~2:30am):** the internal review
 pre-registered the h-scan acceptance criteria (grid to h = 10⁴, n = 50
@@ -627,7 +626,7 @@ KR-normalization × m-posterior arithmetic is DEFERRED to the morning
 verification (the booked E4 number and this correction must be
 re-derived jointly against the model's actual m before the threshold
 is re-pinned; flagged so the correction cannot silently inflate the
-odds). Structure booked tonight; normalization owed at daylight.
+odds). Structure booked; normalization owed.
 
 **THE SECOND ε-METER (prediction-shaped, sim-owed):** two independent
 speckle fields with fractions p, q reduce the granule density-contrast
@@ -652,7 +651,7 @@ own kinetic timescale (Levkov, Panin, Tkachev, PRL 121, 151301
 — halos where single-field FDM predicts a marginal core give ψ-ONLY
 cores (lighter by ~p at fixed halo mass) over a still-uncondensed χ
 fluid. The core–halo relation normalization READS p. Sims-owed;
-Levkov prefactor to be pulled at daylight.
+Levkov prefactor to be pulled next.
 (ii) THE PULSE, HONESTLY GRADED: co-spatial two-component solitons DO
 breathe at 2m with contrast 2√(pq) — the beat formula's third
 appearance — but the heating channel this would drive is CONTESTED-
@@ -667,8 +666,8 @@ working as designed.
 heating exclusions at fixed m RELAX by up to 2× in heating time for
 the mixed medium; the dice draw is a dial inside every FDM heating
 bound.
-(iv) **THE BAND AUDIT (flagged, owed, not resolved tonight):** the
-booked m-band [10⁻²², 2×10⁻²¹] predates tonight's two-fluid
+(iv) **THE BAND AUDIT (flagged, owed, not yet resolved):** the
+booked m-band [10⁻²², 2×10⁻²¹] predates the two-fluid
 structure, and free-FDM literature bounds (Lyman-α, dwarf-heating
 claims reaching far above our band top for FDM-as-all-DM) transfer
 to the dyad only through model-specific factors (p²+q² in heating;
@@ -749,13 +748,12 @@ heavy branch → superradiance-now + granules; light branch →
 granules (+ PTA only if the audit resurrects the light edge).
 Consistency note: E7's two-fluid reduction AGREES with V2's booked
 "FDM-by-another-route" (same SP reduction, now two-component with
-the p²+q² dial) — no contradiction between tonight and the verdicts.
+the p²+q² dial) — no contradiction between this structure and the verdicts.
 
-## EXPEDITION 8 (2026-07-07, ~4am): THE ERGODIC BACKBONE — the
-## author's question turns the chaos into order
+## EXPEDITION 8: THE ERGODIC BACKBONE — turning the chaos into order
 
-**The author asked:** "does the frozen-ellipticity theorem offer
-insight that might turn that chaos into order?" Formalized: the
+**The question:** does the frozen-ellipticity theorem offer
+insight that might turn that chaos into order? Formalized: the
 theorem names the INVARIANTS the chaos delivers (the two mode-actions
 n±, frozen at the tilt's death); if the quartic-era dynamics is
 ERGODIC on the energy shell while the Z4 tilt still breaks
@@ -765,7 +763,7 @@ object: no integration of the chaos at all, E-independent by the
 quartic's self-similarity (⇒ h-independent), tilt-independent (the
 tilt only needs to mix). The two observed mysteries of the dice —
 h-stability and tilt-universality — would both be EXPLAINED, not
-just observed. (The author has blindly reconstructed the ergodic
+just observed. (This independently reconstructs the ergodic
 hypothesis and the microcanonical ensemble.)
 
 **THE TEST (same hour):** microcanonical P(f_rot) on the H = p²/2+r⁴
@@ -847,17 +845,16 @@ OBSERVED but its h-scaling was wrong. Convergence remains clean
 (max integrator split 0.0092, zero angles above 0.01). The last two
 rows decide; no theorizing past the data at 6am.
 
-## THE NEW UNMAPPED ROOMS (2026-07-07 ~7:30am, author's question:
-## what rooms did tonight's discoveries build?)
+## THE NEW UNMAPPED ROOMS — what rooms these discoveries build
 
-Tonight closed the genesis corridor and in doing so framed THREE new
+This work closed the genesis corridor and in doing so framed THREE new
 rooms the identity did not have yesterday:
 
 **ROOM 4 — THE TILT ROOM (the most load-bearing unmapped structure
-in the file):** everything tonight — the dice, the chaos, the
+in the file):** everything here — the dice, the chaos, the
 collision odds, the charge itself — rides on the Z4 tilt, and the
 tilt has NO derivation: its origin, its size r_t, and its Z4-ness
-were inputs. FIRST WALL, MAPPED TONIGHT: **Z4 is not a choice — it
+were inputs. FIRST WALL MAPPED: **Z4 is not a choice — it
 is what renormalizability leaves.** At dimension 4, the only
 U(1)-breaking operators are Ψ⁴ + h.c. (preserves Z4) and Ψ³Ψ* + h.c.
 (breaks to Z2); if the UV respects field parity Ψ → −Ψ, the Ψ³Ψ*
@@ -909,7 +906,7 @@ relative velocity field in mergers. This room is where the granule
 ε-meter's sims will live.
 
 **ROOM 6 — THE CONSTITUTION ROOM (the floor's status):** framed
-tonight (deposit vs rule); the whisper's trial is its first
+here (deposit vs rule); the whisper's trial is its first
 scheduled measurement (the converging posterior judges). Unmapped
 beyond the trial: the (δK)² sector's relation to the floor, and the
 de Sitter-boundary face of the integration-constant reading
