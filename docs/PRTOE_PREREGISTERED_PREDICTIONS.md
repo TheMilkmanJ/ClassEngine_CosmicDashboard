@@ -2106,6 +2106,14 @@ sharpened meaning: **a light sterile neutrino or a fourth generation would resto
 quadratic divergence and make Newton's constant cutoff-dependent** — destroying the
 framework's finiteness, not merely its bookkeeping.
 
+**Caveat (pending — the scalar sector):** the species count above (fermions +1 per Weyl, gauge
+bosons −4 each) carries no scalar row, yet in the unbroken phase the Higgs is four real scalars whose
+contribution to this heat-kernel coefficient is generically ∝ (1/6 − ξ_H). So the exact-zero balance —
+and the two kills — are ξ-independent *only if* Visser's k₁ assigns zero weight to scalars; if instead
+it goes as (1/6 − ξ_H), the balance also requires ξ_H = 1/6 (conformal Higgs), the same Standard-Model
+input the G value needs. Verifying Visser 2002 Eq. 35's scalar coefficient is owed before ξ-independence
+is claimed. (Hunt 234.)
+
 **Provenance and honest grade:** the cancellation was DISCOVERED, not predicted (2026-07-13,
 during the induced-gravity roster rebuild), and it survives only because the author
 refused to accept "coincidence" as a verdict and demanded it be perturbed instead. It is

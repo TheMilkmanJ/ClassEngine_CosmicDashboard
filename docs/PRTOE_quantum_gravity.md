@@ -96,6 +96,11 @@ to zero — by the Standard Model plus three right-handed neutrinos: the content
 framework independently requires for Majorana neutrino masses.** The framework's field
 content lands on a knife-edge condition the literature identifies as hard to meet.
 
+*(Pending — the scalar sector: this count runs over fermions and gauge bosons only; the Higgs scalars
+enter the same coefficient generically as ∝ (1/6 − ξ_H), so the exact zero is ξ-independent only if
+Visser's k₁ assigns scalars zero weight — otherwise it also requires ξ_H = 1/6, the same input the G
+value needs. Verifying Visser 2002 Eq. 35's scalar coefficient is owed. Hunt 234.)*
+
 **5.4 Why the naive closure failed, and what replaces it.** Sakharov's original route
 computes 1/G from the *quadratically divergent* coefficient — proportional to str[k₁]
 times the cutoff squared. **This framework's own content sets that coefficient to zero.**
