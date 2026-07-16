@@ -8298,3 +8298,32 @@ ABUNDANCE drains via the density mode (sub-ohmic) — which would put sub-ohmic 
 not the DE one. So sub-ohmic is NOT established for the DE floor; the response is marginal (superfluid on the
 z=3/2 boundary), and the tip is the conservation law — but whether it governs the DE channel is unresolved.
 The crack narrows to: which mode carries the DE-floor's energy dissipation.
+
+---
+
+### Entry 226 — THE dCDF→NEUTRINO ENERGY CHANNEL, COMPUTED (operator: "phonon vs density"): **DE floor (w=−1) = vacuum/phonon sector → OHMIC; conserved density (w=0) = DM drain → sub-ohmic. The sub-ohmic channel is DARK MATTER, not dark energy. The DE settling response is ohmic — the 21-dex miss STANDS, the self-tuning hammer does NOT apply to the floor**
+
+The crux (hunt 225): which dCDF mode carries the DE floor's energy dissipation — phonon (ohmic, miss) or
+conserved density (sub-ohmic, closes)? Resolved by the w-sector split.
+
+**The two sectors are physically distinct, separated by equation of state:**
+- **DE floor, w=−1** = the condensate VACUUM ENERGY (order-parameter/phonon sector). Excitations = gapless
+  Goldstone phonons, superfluid z=3/2 → **s=1 OHMIC** — exactly hunt 189's result. 189 had the RIGHT channel.
+- **DM drain, w=0** = the conserved NUMBER DENSITY (comoving N=n·a³=const → n~a⁻³ → w=0). Homogeneous mode
+  diffusive (Γ~Dk²→0, z=2) → **s=0.5 SUB-OHMIC.**
+
+**Decisive:** the sub-ohmic channel is the DARK-MATTER abundance sector (w=0), NOT the DE floor (w=−1).
+The DE floor's energy settles through the PHONONS = OHMIC. So:
+- The DE value's settling response is **OHMIC → the 21-dex miss (hunt 189) STANDS.** Sub-ohmic does not
+  rescue the DE value — it was misassigned to the wrong (DM) sector.
+- The self-tuning hammer (needs sub-ohmic, hunt 224) does NOT operate on the DE floor (ohmic) → the
+  coincidence is NOT dissolved by self-tuning. The two walls are one object (the response), but that
+  object is OHMIC for DE, so the walls STAND.
+- The DE value's working derivation remains the SEAM route (d/2)α⁴m_e (0.966×), NOT the settling residual.
+
+**Credit + reassignment (operator's conservation idea):** the conserved-density sub-ohmic channel IS real
+and self-tuning — but it governs the DM-abundance drain (w=0, clustering/drain), not the DE floor. The
+conservation intuition correctly located a sub-ohmic self-tuning sector; it's the dark-matter one. So the
+"hammer" works on the DM wall, not the DE wall. Net: the settling route to the DE VALUE is CLOSED (ohmic);
+sub-ohmic is filed to the DM sector where it belongs; the DE value stands on the seam route + the strong
+sector (task #48), with the coincidence problem intact (no self-tuning on the w=−1 floor).
