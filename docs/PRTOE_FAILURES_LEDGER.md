@@ -10,7 +10,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 
 | what died | why | provenance |
 |---|---|---|
-| The scalar-tensor era (v1–v3): F(φ)R with manual screening, 9 dials | under-determined functional choices; screening family closed by internal review | the legacy spec (retired-stamped); pre-dyad |
+| The scalar-tensor era (v1–v3): F(φ)R with manual screening, 9 dials | under-determined functional choices; screening family closed by internal audit | the legacy spec (retired-stamped); pre-dyad |
 | The screening H₀ mechanisms v1–v5 | each failed production-grade fits or internal consistency | memory: screening no-go |
 | The v6 "environmental coupling" sandbox (c_γ, c_EM knobs) | CENSUS-ILLEGAL: coupled the medium to specific species, violating L1 identity-blindness — deleted, not just disabled | background.h removal note, 2026-07-09 |
 | The β barotropic shape parameter | MCMC drove β → 0; every β > 10⁻⁶ destroyed σ8 (0.827 → 0.185 at 10⁻⁴) | removed 2026-07-05 (v5) |
@@ -26,23 +26,23 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 |---|---|---|
 | The gate-0 deuterium heal (m_e = 1 at BBN) — four rescue variants | EXCLUDED-catastrophe at 12σ (BBN #29); DATA-REQUIRED status, not a knob | gate-0 doc §7 — do not re-run |
 | The "healer" mechanism (dyad-era) | dead; the identity survived without it | dyad-era state |
-| The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | internal review |
+| The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | internal audit |
 
 ### Baryogenesis (the η channel)
 
 | what died | the killshot | provenance |
 |---|---|---|
-| Thermal leptogenesis for the model's η | the surface is EMPTY — ×40–1000 under, two independent methods | internal review (corrected internal review wrong guess) |
+| Thermal leptogenesis for the model's η | the surface is EMPTY — ×40–1000 under, two independent methods | internal audit (corrected an earlier wrong guess) |
 
 ### The census & roster count
 
 | what died | the killshot | provenance |
 |---|---|---|
-| Census lane (i) — asymmetric reps for induced SU(2) | DEAD BY THEOREM: ΣQ² = T(R) + d(R)Y² ≥ T(R) — permanently closed | internal review |
-| Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal review |
-| The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal review |
-| P-039's collider knife-edge ([1.00–1.19] TeV) | SUSPENDED: the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run | internal review |
-| c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal review |
+| Census lane (i) — asymmetric reps for induced SU(2) | DEAD BY THEOREM: ΣQ² = T(R) + d(R)Y² ≥ T(R) — permanently closed | internal audit |
+| Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal audit |
+| The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal audit |
+| P-039's collider knife-edge ([1.00–1.19] TeV) | SUSPENDED: the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run | internal audit |
+| c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal audit |
 | c = 9/12 and c = 9/13 (the "neutrino side doesn't pay" rosters) | RAMP-PROOF KILLS (entry 112): each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | entry 112, 2026-07-13 |
 
 ### The G-closure — computing Newton's constant
@@ -51,8 +51,8 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 |---|---|---|
 | **THE G-CLOSURE ITSELF — every claim to compute Newton's constant from the model's roster** | **TERMINATED PERMANENTLY (entry 114, by the author's signed death warrant).** The rebuild from the blindness law (gravity reads energy, not identity ⟹ the roster is EVERY field in the vacuum) shows the induced-G sum necessarily contains the **Higgs' non-minimal coupling ξ_H** — an unmeasured Standard-Model parameter that a dark-sector cosmology has no business deriving. **The closure is not wrong; it is UNDECIDABLE BY THIS MODEL.** It was never winnable. Also caught in the rebuild: the "medium's 9 fermions" were SM fields already inside the 48 — the twin-doubling error in a new costume. The 0.8% MATCH is separately dead (it rested on two bookkeeping errors — the twin double-count, entry 99, and a nonexistent ξ, entry 108 — both caught by our own audits). **The CLOSURE itself is UNDECIDED, not dead**: entry 109's termination-B was VACATED by entry 109b (process error 27) — the death rested on two unwalked steps (the exact K = M_red bootstrap; an FRW-degenerate basis). Honest status: the closure is DEMOTED — with K/M_red free it determines the coherence scale rather than testing the roster. Falsifiability lost; the claim to compute G withdrawn. | entries 78–109b, 2026-07-13 |
 | The G-closure's clean-value landings (−9/2, −3/2, −9/4; the thrice-landed "0.8% match") | RETIRED at ramped grade (entry 99): quarter-integer proximity was 40–75% likely by chance across the convention corners — menu density, not structure; the surviving content is the ξ-equation (G measures ξ, two doors) | entry 99, 2026-07-13 |
-| Process error 30: I SPUN the f̄ ensemble — claimed it "independently agrees" with 12/13 when c = 0.903 sits −0.08σ from 9/10 and +0.53σ from 12/13 (the data marginally favors the roster the gravity sector EXCLUDED) | caught by the internal review (turn 570); corrected in full; the latent tension between the two sectors is now booked openly instead of papered over | 2026-07-13 |
-| **THE G-COMPUTATION ("the medium computes Newton's constant") — RETIRED AS A ZOMBIE** | the internal review's ruling, adopted: three schemes in one day (Sakharov → Pauli → Volovik) and it computes G in NONE of them. A claim kept alive by successive reframings is not a result. **RETIRED.** The KEEPER that survives separately: Pauli finiteness (str[k₁] = 0) + its forward kills (P-2026-045) | turn 570, 2026-07-13 |
+| Process error 30: I SPUN the f̄ ensemble — claimed it "independently agrees" with 12/13 when c = 0.903 sits −0.08σ from 9/10 and +0.53σ from 12/13 (the data marginally favors the roster the gravity sector EXCLUDED) | caught by internal audit; corrected in full; the latent tension between the two sectors is now booked openly instead of papered over | 2026-07-13 |
+| **THE G-COMPUTATION ("the medium computes Newton's constant") — RETIRED AS A ZOMBIE** | the ruling, adopted: three schemes in one day (Sakharov → Pauli → Volovik) and it computes G in NONE of them. A claim kept alive by successive reframings is not a result. **RETIRED.** The KEEPER that survives separately: Pauli finiteness (str[k₁] = 0) + its forward kills (P-2026-045) | turn 570, 2026-07-13 |
 | Process error 29: entry 114's TERMINATION was issued on two unwalked steps — (a) "ξ_H is outside our jurisdiction" (FALSE: in emergent gravity, non-minimal couplings are OUTPUTS — our own entry 108 derived ξ_amp that way), and (b) the SM's "exact" 48−48 cancellation rests on the literature-DISPUTED vector contact term, which I had flagged and then dismissed because the old roster had no vectors — the new one has twelve | entry 114b vacates it. **THREE premature verdicts on one question in one day (death, reprieve, termination), all on unwalked steps.** The zombie risk is named; the final test is pre-registered and finite | 2026-07-13 (author catch: "because you didn'''t do what?" — the third time) |
 | Process error 28: entry 109b's REPRIEVE was itself issued on an unwalked step — K/M_red invoked as "a free O(1)" without asking what the model already says about it | entry 109c walks it: the basement ruling pins K to Planck-class, the regulator closes the cutoff convention; the honest bracket is [1.50, 37.70] and the roster's 10 lands INSIDE it — not a match, not a failure, not a prediction. **The true summit named: derive K from the medium's own microphysics.** Obituary AND reprieve both premature | 2026-07-13 (author catch: "I bet you money you didn't check the ramps before K/M_red") |
 | Process error 27: entry 109 declared TERMINATION-B (the G-closure dead) without walking the ramps BEHIND the verdict — the bootstrap's exact K = M_red step and the FRW-degenerate basis | entry 109b vacates it: the "3.8× shortfall" is an O(1) in the cutoff; the "fatal epoch dependence" is a symptom of the basis. A termination-B verdict is itself a result and is subject to the ramp laws — the snag protocol applies to obituaries too | 2026-07-13 (author catch: "did you check the ramps before it?" — caught before the public correction went out) |
@@ -65,7 +65,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | what died | the killshot | provenance |
 |---|---|---|
 | The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
-| The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | internal review |
+| The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | internal audit |
 
 ### Supernovae — the candle room
 
@@ -125,26 +125,26 @@ coupling as the electron-mass shift.
 |---|---|---|
 | Pre-written script conclusions contradicting their own arithmetic (twice) | conclusions AFTER arithmetic — standing rule | P1.e class |
 | The stale in-place classy .so shadowing the rebuild | in-place rebuild with system gcc | 2026-07-12 (author catch) |
-| The input.c dyad-link defaults carrying pre-derivation values | updated to the derived stack | internal review audit |
+| The input.c dyad-link defaults carrying pre-derivation values | updated to the derived stack | internal audit |
 
 ### The census, roster & the α_c clock
 
 | the error | the correction | provenance |
 |---|---|---|
 | Step-thinking error 1: the f̄ measurement window | the ramp experiment (f̄(t), freezes ~t=300) | author catch |
-| Process error 4: single-segment census running + induction-vs-condensation binary | piecewise system; the crossover | internal review (author catch) |
-| Process error 5: the α_EM-at-m_e census anchor | the correct UV variables (α₂, α_Y spliced at M_Z); measured running 9.1 vs crude 20.5 | internal review (self-caught under author directive) |
+| Process error 4: single-segment census running + induction-vs-condensation binary | piecewise system; the crossover | internal audit (author catch) |
+| Process error 5: the α_EM-at-m_e census anchor | the correct UV variables (α₂, α_Y spliced at M_Z); measured running 9.1 vs crude 20.5 | internal audit (self-caught under author directive) |
 | Process error 6: the α_c MCMC corollary's fit-parameter = physical-clock identification | the template-offset calibration owed BEFORE convergence; third outcome registered | 2026-07-12 (author catch) |
-| internal review broken-phase census (W as killer) | the unbroken-phase re-count | internal review |
+| The broken-phase census (W as killer) | the unbroken-phase re-count | internal audit |
 | Process error 7: the clock binary (H=m OR k/a=m as either/or) | two components carry two clocks, one shared m; the clock-ratio n-instrument; the lineup later collapsed (one pair-mass) | 2026-07-12 (author catch) |
 
 ### Baryogenesis & the neutrino sector
 
 | the error | the correction | provenance |
 |---|---|---|
-| internal review MTLT bracket framing | MT contains freeze-out where the dyad is OFF — LT-class is the truth | internal review |
-| internal review m_D ribbon guess (0.1–0.3 GeV viable) | the scan found the surface empty everywhere | internal review |
-| internal review "seesaw forces type-III" over-credit | census-invisible steriles exist; re-pin softened; the referee withdrew his own lean | internal review |
+| The MTLT bracket framing | MT contains freeze-out where the dyad is OFF — LT-class is the truth | internal audit |
+| The m_D ribbon guess (0.1–0.3 GeV viable) | the scan found the surface empty everywhere | internal audit |
+| The "seesaw forces type-III" over-credit | census-invisible steriles exist; re-pin softened; the lean was withdrawn | internal audit |
 | Process error 8: the transfer integral point-evaluated (three ramps read at one point) | the crude integral run — low-end domination restored the order (estimate-grade) | 2026-07-12 (author catch) |
 
 ### The transition, the gate & screening
@@ -228,7 +228,7 @@ exists for exactly this and was not applied. **The rule that fixes it: a kill ve
 CLAIM, and claims are walked before they are booked — the same standard applied to every
 positive result.**
 
-#### Process error 32 — "locks at the basement" graded onto a ~2% landing (entry 136; caught by the in-house red team, entry 138)
+#### Process error 32 — "locks at the basement" graded onto a ~2% landing (entry 136; caught by internal audit, entry 138)
 
 Entry 136 announced the non-abelian pair "locks at the basement… within ~1.5× the two-loop
 band." **1.5× the band is outside the band.** Ramped over the measurement and scheme bands,
@@ -248,9 +248,9 @@ referee's mouth in the shared record. The grade is mine or it isn't the grade."*
 
 **Why it matters more than a wrong number.** The adversarial review's entire value is
 independence. A predicted verdict — however well modeled — is the defender grading the
-defender with extra steps; had the impersonation stood unnoticed, every downstream decision
-resting on "the red team ruled X" would have rested on nothing. Forecasting the referee
-privately is planning; *signing* the forecast in the referee's name is contamination of the
+defender with extra steps; had the substitution stood unnoticed, every downstream decision
+resting on a self-graded verdict would have rested on nothing. Forecasting an independent
+verdict privately is planning; *presenting* the forecast as that verdict is contamination of the
 record.
 
 **The rule going forward.** The defender files its summary and *stops*. The referee's turn is
@@ -315,7 +315,7 @@ uncomputed 2-loop constant (PMS-scaling argument). Value remains UNDERIVED.
 
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 
-- The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned bet (radio-arbitrated).
+- The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned prediction (radio-arbitrated).
 - The dCDF perturbation sector: the fluid clusters as dust by construction (cs² ≡ 0) — the known structural gap (the working docket).
 - ρ_inf: 20% residual (the 5/6 note — firewalled, mechanism owed).
 - The c-roster watch: RESOLVED toward 9/10 (hunt 203–206) — the census reads the universal charged roster (not leptophilic); direct-Majorana light mass makes the neutrino the ε fixed-point seat → 9/10; the old "data lean 12/13" was backwards (the fit sits below 9/10). Residual: the un-derived value μ = 2.25 meV.
@@ -339,14 +339,14 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | what died | the killshot | provenance |
 |---|---|---|
 | LITERAL He-3 as the medium | four shots: baryonic (Ω_b×5 short), EM-visible (vs L1a), no pairing at cosmic density/temperature (mK physics), post-BBN existence | entry 10; the STRUCTURAL He-3-A reading survives separately |
-| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | the birth zone is strong-coupling — perturbative RGEs cannot reach the induced point; redesign owed (perturbative-edge matching) | entry 8; internal review structural point materialized |
+| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | the birth zone is strong-coupling — perturbative RGEs cannot reach the induced point; redesign owed (perturbative-edge matching) | entry 8; a structural point materialized |
 | P-028's void-column internal rescue (return-flux topology) | flux conservation: the return flux through voids = the flux-average = the smooth estimate — the ×3400 line-concentration cannot raise the inter-line floor; the 1.5-order gap does NOT close internally | the working docket closure, 2026-07-12 |
 
 ## 6. The mathematical self-audit (2026-07-12, author-ordered — entry 31)
 
 | finding | correction | status |
 |---|---|---|
-| The "residual = dressing" identity (entry 6) used α_c = 0.0214 while the stack uses 3α | at 3α: 0.846 vs 0.835 — the identity downgrades to suggestive; internal review's 0.846 recompute resolved (input mismatch, not algebra) | self-caught, corrected |
+| The "residual = dressing" identity (entry 6) used α_c = 0.0214 while the stack uses 3α | at 3α: 0.846 vs 0.835 — the identity downgrades to suggestive; the 0.846 recompute resolved (input mismatch, not algebra) | self-caught, corrected |
 | The triangle's "0.1% match" (entry 7) | x₀ is a free dial whose band covers the target — the triangle selects, not confirms; arrow A = consistency-only | overstated, corrected |
 | The two-census marriage (c's recipient-split vs the scalar delivery) | the gravity-routing step of the c-derivation is un-audited — the ε-decomposition's weakest joint | FLAGGED, owed |
 | n_s under the clock ambiguity | 0.9638–0.9640 both ways | PASS |
@@ -398,9 +398,9 @@ what the dark medium is allowed to do to light versus to gravity, and together t
 forced the model's distinctive prediction. Referenced from
 [PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md).*
 
-**1. The lost bet: cosmic photon birefringence should be non-zero.** The bet was that the
+**1. The abandoned expectation: cosmic photon birefringence should be non-zero.** The expectation was that the
 recorded photon-birefringence *zero* was step-thinking — that a real medium should rotate the
-CMB's polarization plane and we'd see isotropic cosmic birefringence. **The bet LOST.** The
+CMB's polarization plane and we'd see isotropic cosmic birefringence. **It did not hold.** The
 zero is real and it is derived: the medium is EM-neutral, so its parity-odd coupling to the
 *photon* has coefficient exactly zero — no rotation, matching the observed null.
 **Why it matters:** proving the photon channel is *closed* is precisely what forces the
