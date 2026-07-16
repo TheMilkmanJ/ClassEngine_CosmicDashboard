@@ -21,8 +21,9 @@ the house convention; failures live in the failures ledger, not here. (Revised
 The fit-versus-stack spread (1.4σ) is the identity network's most-loaded joint; the
 running α_c chain owns the verdict. The decomposition's three factors, each separately
 refereed: c = 9/10 (the census over the universal charged-fermion roster, not the dyad's
-leptophilic subset; the open trial is interior-seat 9/10 vs external-count 12/13 for the neutrinos,
-which ε cannot referee — the c–f̄ degeneracy — so the f̄ ensemble / α_c chain settles it), f̄ (the winding
+leptophilic subset; selected over 12/13 by the dark-energy–neutrino tie — the meV coincidence is a lock
+only if the lightest neutrino mass is direct-Majorana, seating it on the medium's tenth channel → 9/10,
+conditional on the tie being a lock; the f̄ ensemble / α_c chain is the independent check), f̄ (the winding
 average; fit-implied 0.6253, simulation 0.635, closed-form claim 2/π = 0.6366 — a live
 triple), and α_c = 3α (a pre-registered bet, P-2026-040, decided by the running chain).
 

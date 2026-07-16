@@ -41,7 +41,7 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 193\
  (nothing in this model is a step; the ramp's shape is computed, not chosen).
 - $\varepsilon \approx 1.24\%$. That is the **entire modification to known physics**: a
  heavier electron at recombination → earlier decoupling → smaller sound horizon → the CMB
- re-fits at $H_0 \approx 69.9$ instead of $68.2$ (the Hubble-tension mechanism, thread 11).
+ re-fits at $H_0 \approx 69.8$ instead of $68.2$ (the Hubble-tension mechanism, thread 11).
 - Implemented in CLASS, run against full Planck likelihoods; the Bayesian evidence currently
  favors it over ΛCDM at $\Delta\ln Z \approx +2.6$ (Laplace approximation; marginal and
  SH0ES-conditional; the definitive nested-sampling comparison is running).
@@ -65,12 +65,14 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
 - $c = 9/10$: a **counting fraction**. Gravity is blind (it reads size, not identity), so the
  budget splits democratically over the census of participants — the **universal charged-fermion
  roster** (9 charged species + the zero-point's own seat → $c = (N-1)/N = 9/10$), **not** the
- dyad's leptophilic subset (which drops the quarks and cannot reach the count). The one open
- trial is where the neutrinos sit: **interior tenants** (the medium's own tenth channel, the
- seat → 9/10) vs **external recipients** (counted → 12/13). Both survive their structural ramp
- walks, and **ε cannot referee them** — the c–f̄ degeneracy means a shift in c is absorbed by
- f̄ (holding the closed-form f̄ = 2/π the fit leans 9/10 over 12/13 by ~4σ, but that lean is
- entirely f̄-conditional). The referee is the independent f̄ ensemble or the α_c chain (P-2026-040).
+ dyad's leptophilic subset (which drops the quarks and cannot reach the count). Which universal-charged
+ reading holds — democratic-9 → 9/10, or the neutrino-inclusive 12/13 — is settled by the
+ dark-energy–neutrino tie: ρ_Λ¼ = m_ν,lightest is a genuine lock *only if* the lightest neutrino mass
+ is **direct-Majorana** (m₁ ≈ μ = 2.25 meV), which seats the neutrino on the medium's own tenth channel
+ → **9/10**. The 12/13 reading needs an inverse-seesaw light mass, which demotes the meV coincidence
+ from a lock to a tuning of two unrelated scales; and the charge²-weighted 8/9 contradicts the
+ gravity-blind democratic count. So the value is **9/10, conditional on keeping the tie a lock** (the
+ flagship position); the empirical f̄ ensemble / α_c chain (P-2026-040) remains the independent check.
 - $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
  candidately $2/\pi$ (P-2026-041; the high-statistics ensemble decides). A
  simulation output with an open closed-form question, not a parameter.
@@ -99,7 +101,7 @@ data speaks** — the object the running evidence comparison actually grades:
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | 61.4 meV, normal ordering | ρ_Λ^{1/4} = m₁ tie (P-2026-012) | recorded prediction |
 | T_c | 193 keV | analytic closure (spine §15) | derived |
-| H₀ | 69.9 (output, not input) | falls out of the re-fit | production |
+| H₀ | 69.8 (output, not input; 69.70 best-fit, 69.82 evidence run) | falls out of the re-fit | production |
 
 ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
 whatever the sky refuses, the model has nowhere to retreat. That totality, not any

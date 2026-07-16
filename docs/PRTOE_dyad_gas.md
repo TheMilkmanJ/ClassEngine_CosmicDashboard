@@ -36,7 +36,7 @@ symmetry it carries is lepton number.** (Full: [PRTOE_neutrino_home.md](PRTOE_ne
 
 Inside its window it shifts the electron mass by **ε ≈ 1.24%** (= c·f̄·α_c = 27α/5π). A heavier
 electron → **deeper atomic binding** → hydrogen recombines **earlier/hotter** → smaller sound
-horizon → **H₀ ≈ 69.9** instead of 68.2 (the Hubble-tension mechanism, thread 11). *"The gas makes
+horizon → **H₀ ≈ 69.8** instead of 68.2 (the Hubble-tension mechanism, thread 11). *"The gas makes
 hydrogen too bound"* = exactly this. Evidence: ΔlnZ ≈ +2.6 (marginal, SHOES-conditional); the
 PolyChord evidence run is the confirmer. (Full: [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md),
 [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).)

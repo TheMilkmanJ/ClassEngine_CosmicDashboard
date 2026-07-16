@@ -33,7 +33,7 @@ early stages of nucleosynthesis at production grade).
  **69.9**, with the Bayesian evidence favoring the model at ΔlnZ ≈ +2.6 (Laplace
  approximation; past the pre-registered win threshold; graded internally as marginal
  and calibration-conditional pending the full nested-sampling verdict now running).
-- **The residual is owned**: 69.9 is not 73.0. The model closes roughly half the
+- **The residual is owned**: 69.8 is not 73.0. The model closes roughly half the
  gap and *refuses* the rest — offered spatial curvature as an escape, the fit declined
  it. The claim is not "SH0ES is fully explained"; it is "the sky prefers a universe
  with this mechanism in it, and the remaining gap is real information about the
@@ -104,5 +104,5 @@ recombination-era dark radiation, which the model's own physics falsifies: the d
 radiation phase ends at z_on ~ 3.6×10⁷ and is dust by recombination, giving ΔN_eff ~ 10⁻³,
 not the 0.26 that was hand-picked) — are recorded in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). They matter: they are why the model's
-honest H₀ is 69.9 and the gap to SH0ES's 73 is owned and open, not closed by a knob.
+honest H₀ is 69.8 and the gap to SH0ES's 73 is owned and open, not closed by a knob.
 
