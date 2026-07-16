@@ -8173,3 +8173,42 @@ that binds the medium — and shows every existing coupling is too weak to be it
 **Scope:** this concerns the SEAM route's dyad condensation (the τ leg). It also flags that the dyad's
 condensation mechanism itself (weak-κ CW, ill-defined vs strong composite, unsourced) is unresolved at the
 foundation — an honest standing gap, logged in the ledger.
+
+---
+
+### Entry 222 — PROPOSING THE MEDIUM'S STRONG INTERACTION (operator: "LEZDUIT"): **a dark confining (dark-color) sector SOURCES g_p by transmutation, PRESERVES the clean (d/2)α⁴m_e form via a dark lepton degenerate with the electron, and predicts a cold dark sector + ~m_e dark-hadron DM — new physics, coherent, FALSIFIABLE**
+
+The hunt-221 gap: no existing coupling sources the strong g_p~2.8. LEZDUIT — proposed and tested the most
+motivated new interaction.
+
+**THE PROPOSAL:** the medium is a dark, asymptotically-free CONFINING sector (dark-color), pairing dark
+leptons at a confinement scale Λ_dark.
+
+**TEST 1 — sources g_p? YES.** A confining force has g(μ) → O(1) at Λ_dark by construction (dimensional
+transmutation, like QCD α_s(Λ)~1). So strong g_p ~ g_c (condensation onsetting just above critical) is
+NATURAL, not tuned. Fills the gap.
+
+**TEST 2 — keeps the m_e scale? YES, without electron compositeness.** A composite ELECTRON at Λ~m_e is
+excluded by ~7 orders (electron pointlike to ~1e-18 m; compositeness > ~10 TeV). RESOLUTION: the
+constituent is a DARK lepton degenerate with the electron (m_dark ~ m_e via the model's lepton-dark link,
+the dyad portal), NOT the electron. Λ_dark ~ m_dark ~ m_e is forced by degeneracy; the electron stays
+elementary. So ρ_Λ¼ = (9/2)α⁴·Λ_dark·τ = **(d/2)α⁴m_e is PRESERVED.**
+
+**TEST 3 — τ_dark ~ 0.34 natural? YES.** QCD-like ratios T_c/Λ ~ 0.1–0.5 (chiral ~0.15, deconfinement
+~0.3–0.7). τ_needed = 0.345 sits inside the band, right where 1/d=1/3 lives. Natural, not pinned.
+
+**THE PAYOFF — unification.** The dark-confining sector produces **dark hadrons at ~m_e scale = a DARK
+MATTER candidate.** So the strong sector invented to source the DE-value's g_p is plausibly the DARK
+MATTER itself — the same dark-confining medium carries both DM and the DE-value binding. Not an add-on; a
+unification.
+
+**FALSIFIABLE (the price of new physics):** dark d.o.f. at ~m_e are relativistic at BBN → the sector MUST
+be colder than the photon bath (T_dark/T_γ < ~0.5) to satisfy ΔN_eff < 0.3 — a sharp condition CMB-S4
+tests directly. Plus ~500 keV dark-hadron DM.
+
+**GRADE — coherent, falsifiable HYPOTHESIS (candidate), NOT a derivation.** It converts hunt-221's
+"unsourced strong coupling" into a concrete dark-sector proposal that sources g_p, preserves (d/2)α⁴m_e,
+and makes real predictions. Residuals: τ_dark (a strong-coupling ratio, ~natural range) and the m_dark~m_e
+degeneracy mechanism. This is the frontier: the DE value's foundation is now a NAMED, testable piece of
+new physics (a dark-confining lepton sector), not an unexplained gap. The full marathon (208–222): from
+"worst prediction in physics" to (d/2)α⁴m_e (0.966×) resting on a falsifiable dark-confining-medium proposal.
