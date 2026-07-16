@@ -90,7 +90,7 @@ a fixed point: Planck TTTEEE 2270 → 5698 with the component on; ΛCDM floor on
 stack = 3029, measured). The evidence run was killed.
 
 **The verdict:** the H0=73-via-birth-ramp mechanism is falsified by the model's own physics.
-The model's honest H₀ stays 69.8 (the ε/varying-mₑ mechanism); the gap to SH0ES's 73 is open
+The model's honest H₀ stays 69.9 (the ε/varying-mₑ mechanism CMB re-fit; joint fit 69.70, evidence run 69.82); the gap to SH0ES's 73 is open
 and owned, not closed. **What survives (untouched):** the white-hole genesis story, the
 settling, Λ = the frozen residual, DM = the ash — none depend on recombination-era radiation;
 the birth-ramp radiation was a separate bolted-on H₀ booster. The pour STORY stands; only this

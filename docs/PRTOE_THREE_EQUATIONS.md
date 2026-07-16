@@ -41,7 +41,7 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 193\
  (nothing in this model is a step; the ramp's shape is computed, not chosen).
 - $\varepsilon \approx 1.24\%$. That is the **entire modification to known physics**: a
  heavier electron at recombination → earlier decoupling → smaller sound horizon → the CMB
- re-fits at $H_0 \approx 69.8$ instead of $68.2$ (the Hubble-tension mechanism, thread 11).
+ re-fits at $H_0 \approx 69.9$ instead of $68.2$ (the Hubble-tension mechanism, thread 11).
 - Implemented in CLASS, run against full Planck likelihoods; the Bayesian evidence currently
  favors it over ΛCDM at $\Delta\ln Z \approx +2.6$ (Laplace approximation; marginal and
  SH0ES-conditional; the definitive nested-sampling comparison is running).
@@ -101,7 +101,7 @@ data speaks** — the object the running evidence comparison actually grades:
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | 61.4 meV, normal ordering | ρ_Λ^{1/4} = m₁ tie (P-2026-012) | recorded prediction |
 | T_c | 193 keV | analytic closure (spine §15) | derived |
-| H₀ | 69.8 (output, not input; 69.70 best-fit, 69.82 evidence run) | falls out of the re-fit | production |
+| H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | production |
 
 ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
 whatever the sky refuses, the model has nowhere to retreat. That totality, not any
