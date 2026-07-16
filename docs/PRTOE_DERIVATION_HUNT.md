@@ -7177,3 +7177,43 @@ couples to the critical density → **Model B → s=0.26 → the DE amplitude cl
 - Discipline held: the 0.00 monopole botch was caught and corrected; both un-pinned inputs are
   flagged, not fabricated. Neither knob was forced to its favorable answer. CORPUS CORRECTIONS STILL
   GATED (entry 188) — the CC file / ledger / THREE_EQ stay untouched until the two owed inputs pin.
+
+## ENTRY 194 — THE SUPERSOLID BOUNCE + THE SUPERCRITICAL "DOOR" (candidate mechanism for the model's un-derived bounce; the three-phase cycle) [CANDIDATE]
+
+*The operator's insight: the compressed core at the crunch crystallizes into a SUPERSOLID, and its
+stiffness "summons the pour." This fills the model's softest joint — the bounce is currently
+story-grade ("BKL, Tolman unresolved at the bounce rungs"). One medium, breathing through three
+states of matter.*
+
+**THE SUPERSOLID BOUNCE [CANDIDATE, physically real].** A supersolid is stiff (crystalline
+rigidity → hard equation of state → resists compression). At maximum compression (the crunch), if
+the medium **crystallizes into a supersolid**, its incompressibility **halts the collapse and drives
+the rebound** — the white-hole pour. The crystal's stiffness is the *spring*. Motivated: dense matter
+does crystallize (white-dwarf Coulomb crystals, neutron-star nuclear pasta). This is a candidate
+**bounce mechanism** where the model previously had none.
+
+**THE THREE-PHASE CYCLE (one medium, three states — a candidate "same-3"):**
+superfluid (cold, dilute — now) → **supersolid (max compression — the crunch, the spring)** →
+supergas (hot, dilute — the pour, early universe) → superfluid. The supersolid is the **pivot** of
+the whole cycle. Unlike coincidental 3s, this is *the one medium in its three phases*.
+
+**THE SUPERCRITICAL "DOOR" (the operator's super-plasma idea, corrected to real physics).** Above
+the critical point a medium is **supercritical** — solid/liquid/gas are *undifferentiated*, one
+melted soup. The operator's "super plasma / melted soup that yields the 3" is this **supercritical
+state**, and the "single door with 3 pathways pouring out that all lead to the same answer" is the
+**critical point itself** (the neutral seam, Knob A): *above* it, one undifferentiated phase (the 3
+are the same); *below* it, the phases branch into 3. So the "door" = the critical point; the "super
+plasma" = the supercritical parent. **FILTER: "plasma" is a mislabel for the DARK medium** — the
+corpus booked the dark hot phase as a *gapless acoustic gas, NOT a plasma* (no ionization; nothing
+to ionize in the dark sector). The honest term is *supercritical*; the baryonic plasma is a separate
+real thing riding on top.
+
+**GRADE / OWED / OBSTACLE:**
+- OWED: the supersolid **equation of state** — does the medium crystallize at the crunch density
+  (the coupling parameter Γ_crystal), and is its stiffness enough to bounce (w > 1 / hard EOS)? Needs
+  the dark coupling + crunch density, both un-pinned. FLAGGED, not invented.
+- OBSTACLE: **BKL.** A finite supersolid core plausibly avoids the singularity (like the gravastar),
+  but avoiding the singularity ≠ taming the chaotic mixmaster approach. This is the exact rung the
+  model flagged unresolved.
+- The three-phase "same-3" and the supercritical-door are CANDIDATE framings, physically grounded,
+  unbanked.
