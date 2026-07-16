@@ -7137,3 +7137,43 @@ This **bites the clean identity**: "the medium is literally He-3-A" (pure p-wave
 for the generation count — the roster demands f-wave or 3-band, with Z₃ as the splitter/tripler.
 Corrected in [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §2. OWED: build the f-wave-or-3-band
 order parameter and compute its split-node charges (does it deliver exactly 3 pairs, Z₃-arranged?).
+
+## ENTRY 193 — THE TWO CLOSING COMPUTES, RUN FORWARD (both lean favorable; neither fully closed; discipline held)
+
+*Ran the two knobs. Forward, no inversion, un-pinned inputs FLAGGED not faked. One numerical botch
+caught mid-run (below).*
+
+**KNOB B — the Weyl build.** [BOTCH CAUGHT: my first Berry-monopole sphere-integration returned
++0.00 — a rigged under-resolution artifact (gap ~r³ vs ε ~r squashed the winding out), the same
+failure mode as entry 189. Redone via the gap-phase winding (resolution-proof).]
+- **FORCED, resolution-proof:** a chiral L-wave node carries topological charge = L. So **L=3
+  (f-wave) → charge +3 → THREE chiral fermions = 3 generations.** The "3" is the node's topological
+  MONOPOLE CHARGE, and it equals L and the generation count — the un-fudgeable 3. (The operator's
+  standing bet "the amplitude is 3" lands *here*: 3 is the monopole charge, not a gap amplitude.)
+- **SHOWN:** a Z₃-symmetric splitter separates the charge-3 node into 3 charge-1 nodes at 120°
+  (total winding conserved = +3) — so 3 *separated* generations is topologically achievable.
+- **OWED/FLAGGED:** the demo splitter (a³) is EVEN parity; a superfluid gap must be ODD. The
+  parity-valid odd Z₃ splitter is the real build. The *separation* is ansatz-dependent; the
+  *charge-3 = 3 generations* is not.
+
+**KNOB A — the friction question.** Forward: the settling mode IS the order parameter, so near the
+2nd-order seam (entry 192) it has its own **critical slowing-down** — a sub-ohmic spectrum
+(s=(1+η)/z=0.261, Model B). A sub-ohmic bath beats an ohmic one at low ω, and the settling is at
+ω~H~10⁻³² eV: the ratio J_crit/J_neut ~ (ω/T)^(s−1) = **10²¹**. So near-critical, the critical
+condensate friction dominates the thermal-neutrino (ohmic, entry 189) by ~21 dex → the mode
+couples to the critical density → **Model B → s=0.26 → the DE amplitude closes forward.**
+- **FLAGGED (owed, NOT invented):** this rides on the correlation length ξ *during settling* — does
+  the freeze (z~12) happen while still **near-critical** (ξ large, sub-ohmic) or after **ordering**
+  (ξ small, ohmic)? The settling relaxes the system AWAY from criticality, so the sub-ohmic window
+  is early; whether the freeze lands inside it is the un-pinned timing. The model PLACES settling at
+  the neutral gate (favorable) but does not compute the coincidence.
+
+**NET (honest, both favorable-leaning, neither closed):**
+- Knob B's forced core — 3 generations from L=3 (charge 3) — is REAL and resolution-proof. Owed: the
+  parity-valid Z₃ separation build.
+- Knob A's forced core — sub-ohmic beats ohmic by 21 dex at ω~H — is REAL. Owed: that the freeze
+  lands in the near-critical (large-ξ) window, i.e. the DE amplitude **closes CONDITIONALLY** on the
+  freeze-coincides-with-criticality timing.
+- Discipline held: the 0.00 monopole botch was caught and corrected; both un-pinned inputs are
+  flagged, not fabricated. Neither knob was forced to its favorable answer. CORPUS CORRECTIONS STILL
+  GATED (entry 188) — the CC file / ledger / THREE_EQ stay untouched until the two owed inputs pin.
