@@ -7234,3 +7234,39 @@ supersolid → degeneracy.** The three-phase cycle's "supersolid" phase is downg
 (needs Γ>~175 independent of the crunch AND positional-order-forms-while-superfluid-melts — two
 un-given conditions). BKL remains the standing obstacle. Filter caught it, and it made the mechanism
 *better* — degeneracy is derivable and standard where crystallization was contradicted.
+
+## ENTRY 195 — THE REVERSAL ENGINE: curvature OUT, floor-thaws-negative (AdS crunch) IN [CANDIDATE] — the front half of the cycle, the thing that avoids heat death
+
+*Chasing the geometry question (what turns a universe around). Computed forward.*
+
+**CURVATURE reversal — RULED OUT.** A closed universe (Ω_k<0) recollapses, but (a) the model
+registered a FLAT 3-torus (P-2026-013 — zero curvature, does not recollapse via curvature), and
+(b) the data is flat (Planck+BAO: Ω_k = 0.0007±0.0019). So the curvature engine contradicts BOTH
+the model's own geometry AND the sky. OUT.
+
+**FLOOR-THAWS-NEGATIVE (AdS crunch) — the flat-compatible engine.** Only two things reverse a FLAT
+universe: phantom (w<-1, the model FORBIDS) or a dark-energy floor that thaws through zero to
+NEGATIVE (ρ_Λ<0, an AdS phase — NOT phantom; ρ_Λ<0 ≠ w<-1). Integrated the flat Friedmann equation
+forward: a constant floor → eternal expansion (a→∞, never turns); a floor thawing through zero to
+negative → **turnaround + recollapse** (e.g. crosses 0 at a~28 → recollapse at t~18/H₀). Confirmed
+numerically. This is the SAME thaw the model + DESI already test, extended past zero. Flat-compatible,
+non-phantom, model-consistent.
+
+**WHY THIS MATTERS (the anti-infinite piece):** it's the front half of the cycle — the thing that
+prevents heat death. And the intuition that eternal de Sitter is wrong is NOT just preference: the
+string swampland conjectures suggest de Sitter is not a stable endpoint and DE should thaw (roll),
+the CC problem makes a truly constant Λ unnatural, and Boltzmann-brain pathologies plague eternal
+de Sitter. So "the floor should thaw, not be eternal" is a well-founded theoretical lean, and the
+floor crossing to negative closes the cycle.
+
+**THE FULL CYCLE, now mechanism-complete as a CANDIDATE:**
+reversal (floor thaws negative, AdS crunch) → crunch (medium goes degenerate) → **bounce
+(degeneracy pressure = the spring, entry 194)** → pour → new cycle. Both halves now have named,
+computed mechanisms.
+
+**OWED / HONEST GRADE:** two open inputs decide it. (1) **Does the model's thaw actually CROSS zero**
+(→ negative → recollapse) or asymptote to it (→ eternal)? A sign question on the thaw potential;
+DESI measures the approach (w₀,wₐ). (2) **BKL** at the bounce. Current data (ρ_Λ>0, mild evolution)
++ the KP falsifier still favor the ETERNAL branch; the cyclic branch is now a COMPLETE candidate
+mechanism-set riding on the thaw-crosses-zero sign — a real, DESI-testable alternative to heat
+death, not established.
