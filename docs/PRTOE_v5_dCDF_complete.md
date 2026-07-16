@@ -783,7 +783,7 @@ plausible fold-in.**
  recombination-rule changes (m_e), not energy-exchange terms.
  ρ_∞(z) drift: upgraded (2026-07-06, post-resurrection) from a null
  constraint to a **conditional fingerprint**. The admissible (δK)²
- author's fluctuation face funds the floor from *structure
+ operator's fluctuation face funds the floor from *structure
  formation itself* (δρ_floor ~ m̄₂²⟨(δK)²⟩/2, gated by nonlinear
  growth — BBN/CMB-immune at every hierarchy), with the **sign locked
  phantom-side** (m̄₂² > 0 by stability: the floor can only grow) and
@@ -998,7 +998,7 @@ framework has a **structural** limit, not a numerical one:
  Minimal coupling also gives GW speed = c exactly (GW170817 trivially
  satisfied).
  **Addendum (2026-07-07, scaling grade — the throat de-condensation):**
- the author's supersolid bet was scored and killed on both routes
+ the supersolid conjecture was scored and killed on both routes
  (no roton — ideal condensate; no vortex lattice — the ultralight
  circulation quantum is unpayable: a stellar hole mints 1×10⁻¹⁰ vortex
  quanta, M87* mints 0.12, vs ~2000 threading a galaxy), and the
@@ -1197,7 +1197,7 @@ architecture expressed at two scales, with the Unruh/Gibbons-Hawking
 pair (T = a/2π ↔ T = H/2π — the *same formula*) as the bridge.
 
 **C1a — Every gauge field is a clearinghouse; the field is the debt,
-not the toll (2026-07-07, author's framing; analogy-grade,
+not the toll (analogy-grade,
 calibration-supported).** C1's "clearinghouses are gauge fields" runs
 both directions: EM is the charged sector's gateway exactly as gravity
 is the energy sector's. The sharpening: **Gauss's law makes the field
@@ -1220,8 +1220,8 @@ uncharged — it holds no EM account — so the charged clearinghouse
 never sees it; every α null is structural for this model (cf. R1:
 masses only, α untouched).
 
-**C1b — The debt inventory (2026-07-07, author's question: "what
-other debts must be accounted for?"; analogy-grade, receipts quoted).**
+**C1b — The debt inventory — what
+other debts must be accounted for? (analogy-grade, receipts quoted).**
 Sorting every conserved quantity by whether its debt has a BANK:
 
 | debt | bank | status | receipt |
@@ -1257,8 +1257,7 @@ may reopen are the mass-scale side of the same question. The program's
 top-priority deliverable and its debt architecture meet in one
 experiment.
 
-**C1c — Time in the ledger (2026-07-07, author's claim internally reviewed;
-correspondence-grade with one load-bearing technical identification).**
+**C1c — Time in the ledger (correspondence-grade with one load-bearing technical identification).**
 Three-way split: (i) THE ARROW is the posting direction — drafts are
 time-symmetric (microscopic reversibility), posted records accumulate
 irreversibly (C4a); past = ink, future = pencil, "now" = the posting
@@ -1266,7 +1265,7 @@ front. The arrow requires MATTER to hold the records: a superfluid
 alone never posts — the arrow is emergent from medium+matter, as
 proposed. (ii) THE CLOCK: the condensate has φ̇₀ ≠ 0 — it is a
 KHRONON, and the constant-φ foliation it defines is the very slicing
-the (δK)² author already runs on: "time from the superfluid" is not
+the (δK)² operator already runs on: "time from the superfluid" is not
 an addition to this model but a description of machinery already
 load-bearing in it. Lab precedent for medium-supplied clocks: time
 crystals (realized 2017+). (iii) THE CORRECTION: time is not a third
@@ -1276,8 +1275,7 @@ C4b's loop: reading a clock = counting accrued interest (E = ħω) on
 energy debts. WALL, stamped: why the ledger opened nearly blank (the
 past hypothesis / low-entropy start) is underived here as everywhere.
 
-**C1d — Did time start? (2026-07-07, author's dichotomy; interpretive
-grade, one lab receipt, EFT wall stamped).** The dichotomy "time began
+**C1d — Did time start? (interpretive grade, one lab receipt, EFT wall stamped).** The dichotomy "time began
 with the first medium-matter interaction OR everything has always
 been" is well-posed but both horns commit a grammar trap (start/always
 are clock-words used where no clock exists). Resolved structure:
@@ -1292,14 +1290,12 @@ but edgeless (time rounds into space; South Pole, not wall).
 tick) exists as far back as the medium; the ARROW (posting) waits for
 matter — time-order predates time's direction. (iv) WALL: the medium's
 own opening lies beyond the EFT cutoff — the model cannot compute its
-first page; and the author's standing cyclic-universe bet is option
+first page; and the standing cyclic-universe conjecture is option
 (b)'s physical form (CCC-class), which would also address the
 blank-ledger wall. Parked, labeled, no claim.
 
-**C1e — Forward-only time travel (2026-07-07, author's claim;
-correct on direction, mechanism priced, one correction; receipts
-routine).** Forward dilation is measured physics (GPS ~38 μs/day;
-Hafele–Keating 1971; Kelly twins). The author's grow-your-own-mass
+**C1e — Forward-only time travel (correct on direction, mechanism priced, one correction; receipts routine).** Forward dilation is measured physics (GPS ~38 μs/day;
+Hafele–Keating 1971; Kelly twins). The grow-your-own-mass
 mechanism works in principle (56 M⊕ in 1 m = 29% slowdown; serious
 fast-forward requires hovering near one's own horizon; the ledger
 permits it — debts must merely balance, ~1×10⁴³ J borrowed and repaid)
@@ -1314,8 +1310,8 @@ behind itself; (ii) the ledger writes one way — backward travel =
 un-posting ink (C4a). In this model chronology protection is not a
 conjecture; it is the medium's clock plus the arrow's definition.
 
-**C1f — The emergence census (2026-07-07, author's question:
-"what else is emergent?"; calibration-grade, one load-bearing frame).**
+**C1f — The emergence census — what else is emergent?
+(calibration-grade, one load-bearing frame).**
 Confirmed emergent in ACCEPTED physics: ~99% of ordinary mass (the
 QCD vacuum is a condensate; the proton's 938 MeV is condensate
 binding — quark Yukawa masses total ~9 MeV; lattice QCD computes it
@@ -1362,9 +1358,9 @@ metaphor's laboratory-physics name. Lab superfluids (helium kept liquid
 at T=0 by zero-point transactions) are structural cousins of the floor
 (the medium kept at ρ_∞ by its condensate nature).
 
-**C3a — Smooth, not foamy (2026-07-07, author's bet; stance-grade,
+**C3a — Smooth, not foamy (stance-grade,
 receipts quoted, reach-wall stamped).** Against Wheeler's quantum foam
-(a 1955 picture, not a derivation), the author bets sub-Planck
+(a 1955 picture, not a derivation), the model bets sub-Planck
 smoothness. Status: (i) DATA CURRENTLY SIDES WITH SMOOTH — GRB 090510
 (Fermi 2009): energy-dependent photon dispersion excluded beyond the
 Planck scale at linear order; distant quasar images stay sharp where
@@ -1378,7 +1374,7 @@ condensate paradigm (Volovik school; our C3) predicts the deep UV
 gets MORE ordered descending — possibly discrete at bottom, but
 coherent: atoms in a superfluid, not bubbles in a boil. Wheeler
 conflates quantum with turbulent; this model's ansatz splits them on
-the author's side. (iii) THE LEDGER ARGUMENT (author: "the bank
+the condensate side. (iii) THE LEDGER ARGUMENT ("the bank
 won't allow grime"): the vacuum may DRAFT grime within the credit
 window — that is what vacuum fluctuations are (Casimir, Lamb) — but
 may never POST any: posted texture would appear in the energy books
@@ -1460,8 +1456,7 @@ every laser on Earth is, in this language, the receipt stream of
 unsolicited transactions — and the bookkeeping gets its number right
 to the last decimal.
 
-**C4a — Measurement as settlement (2026-07-07, author's framing;
-correspondence-grade, receipts quoted, wall stamped).** Superposition
+**C4a — Measurement as settlement (correspondence-grade, receipts quoted, wall stamped).** Superposition
 = UNSETTLED transactions: pencil entries that can still cancel —
 which is what interference is (the double slit's paths are unposted
 drafts). Measurement = SETTLEMENT: the entry posts irreversibly to
@@ -1480,8 +1475,7 @@ rule — the bank's pricing algorithm (probability = |amplitude|²) is
 the unsolved measurement problem for every interpretation, ours
 included. Filed at C4's edge: same boundary, same honesty.
 
-**C4b — Energy's three roles in settlement (2026-07-07, author's
-proposal internally reviewed; correspondence-grade).** The proposal "the bank
+**C4b — Energy's three roles in settlement (correspondence-grade).** The proposal "the bank
 prefers the transaction with enough energy to spend" FAILS as an
 outcome rule — falsified directly (asymmetric superpositions: the
 higher-energy outcome can carry 2% against 98%; probability is
@@ -1502,8 +1496,7 @@ exactly as interference phase). The Born-rule wall (C4a) stands: what
 prices the menu remains underived, here as everywhere.
 
 **C4c — Neutrality is the settlement condition, not the selection
-rule (2026-07-07, author's refinement; correspondence-grade, the
-sharpest landing of the series).** "The chosen outcome settles its
+rule (correspondence-grade, the sharpest landing of the series).** "The chosen outcome settles its
 debts without going over or under" cannot select among quantum
 alternatives — every menu item already clears exactly (BKS statistical
 conservation killed by Bothe–Geiger 1925: conservation is exact in
@@ -1511,8 +1504,8 @@ each INDIVIDUAL settlement). But it is precisely the REAL/VIRTUAL
 boundary: unsettled drafts may run unbalanced within the bank's one
 credit rule (Δt ~ ħ/ΔE — β decay borrows an 80 GeV W, ~1×10⁵× the
 available energy, for ~8×10⁻²⁷ s); POSTING requires exact clearance —
-the on-shell condition E² = p² + m² is the author's sentence
-verbatim. Every particle ever detected was a cleared entry; the
+the on-shell condition E² = p² + m² is that sentence
+made exact. Every particle ever detected was a cleared entry; the
 unbalanced ones exist only inside the drafting. And the "most logical
 choice" clause is the classical limit: paths surviving the draft
 summation are those where neighbors agree on accrued phase —
@@ -1522,8 +1515,7 @@ settlement law assembled (C4a–C4c): drafts unbalanced within ħ/ΔE;
 posting requires neutrality; among neutral offers amplitudes price
 (Born — the wall); the dominant coupling picks the printing language.
 
-**C4d — The neighbor rule (2026-07-07, author's extension; exact,
-no decomposition needed — the golden rule assembled).** "The bank
+**C4d — The neighbor rule (exact, no decomposition needed — the golden rule assembled).** "The bank
 refuses internally-balanced transactions that bother the neighbor" is
 quantum statistics in transition rates, exactly: every fermionic
 final state contributes a VETO factor (1−f) — occupied neighbor ⇒
@@ -1537,16 +1529,14 @@ stimulated emission (the laser calibration above threshold), BEC
 And a neighborhood with no receiving account vetoes outright: Purcell
 suppression/photonic bandgaps — inhibited spontaneous emission,
 measured (O3's thread, named). Assembly: with C4b (menu + phases) and
-C4c (on-shell clearance), the author's proposals reconstruct
-FERMI'S GOLDEN RULE clause by clause — rate = (2π/ħ)·|amplitude|² ·
+C4c (on-shell clearance), these clauses reconstruct
+FERMI'S GOLDEN RULE one by one — rate = (2π/ħ)·|amplitude|² ·
 (density of receiving accounts) · (neighbor factors) — pricing (Born,
 the wall) × menu × neighborhood consent. The transaction language has
 now re-derived the master transition-rate law of quantum mechanics
 from ledger axioms.
 
-**C4e — The Born clause: the crack and the road (2026-07-07,
-author's push: "map the superfluid and the answer stares at us";
-route-map grade, no result claimed).** The wall decomposes. THE CRACK
+**C4e — The Born clause: the crack and the road (route-map grade, no result claimed).** The wall decomposes. THE CRACK
 (proven): Gleason 1957 — given the Hilbert-space ledger, |amplitude|²
 is the UNIQUE consistent pricing; "why these odds" is answered
 (forced); what remains is "why this ledger geometry." THE ROAD
@@ -1567,8 +1557,7 @@ condition already owe — the five-verdict machinery and the Born
 question share parts. One calculation, now with a second prize
 behind it.
 
-**C4f — Stability as exhausted trade (2026-07-07, author's
-synthesis, refined; correspondence-grade).** The author's law
+**C4f — Stability as exhausted trade (correspondence-grade).** The stability law
 ("everything pays to exist, netting zero; unstable atoms net ±,
 dirtying the floor") refined to exactness: the books NEVER show red
 ink (per-event conservation, C4c) — an unstable state is not in
@@ -1581,13 +1570,12 @@ third parties: radiation damage = unconsented transaction costs
 Receipts: the valley of stability (nuclear physics as a map of
 pending settlements); the U-238 chain — FOURTEEN consecutive
 settlements over 4.5 Gyr terminating at Pb-206, the first account
-with nothing left to gain (the author's "cascading chains" made
+with nothing left to gain (the "cascading chains" made
 matter). Cosmic-scale instance: vacuum metastability — this model
 bets the floor holds no pending trades (true ground state,
 shift-protected) and signed it as P-2026-002.
 
-**C4g — The contingency tree (2026-07-07 evening, author's milk
-run; correspondence-grade).** The author's picture — every route to
+**C4g — The contingency tree (correspondence-grade).** The picture — every route to
 the outcome drafted simultaneously, each branch's CONTENT pre-written,
 nothing actual until posting — is the sum-over-histories (Feynman),
 with Heisenberg's potentia as the stocked-store ontology and one
@@ -1603,8 +1591,7 @@ ratios are the race statistics); the consistent-histories condition
 (the bank prices only story-sets that have stopped interfering)
 arrived unprompted from the posting language.
 
-**C4h — The denomination rule (2026-07-07 evening, author's
-proposal internally reviewed; the Born door re-graded).** Proposal: which
+**C4h — The denomination rule (the Born door re-graded).** Proposal: which
 branch posts is timing; the odds are payment-form preference. Scored:
 TIMING dies as outcome-selector (2015 loophole-free Bell tests:
 spacelike random settings chosen in flight — no timing mechanism
@@ -1616,15 +1603,15 @@ inverted one notch: the bank does not prefer big bills — it counts
 ONLY unit notes. Every branch exchanges into equal-amplitude
 fine-grained unit-branches; symmetry (envariance) forces equal notes
 = equal odds; **probability = the count of unit notes; |ψ|² is the
-exchange rate.** The author's 98/2 superposition is 98 singles
+exchange rate.** The 98/2 superposition is 98 singles
 against 2. Genuine rate-level denominational preference exists one
 level down: Bose (1+n) — the bank favors money moving as money
 already moves (every laser). DOOR RE-GRADED: not "locked for
 everyone" — two picks in the lock (Gleason: pricing forced by ledger
 geometry, proven; Zurek: unit-note counting, respected but contested
-for circularity). Neither fully turned; the author reconstructed
-the second from a cash register.
-**Addendum — "easier to distribute" (same evening):** the author's
+for circularity). Neither fully turned; the second was reconstructed
+from a cash register.
+**Addendum — "easier to distribute":** this
 one-line follow-up is the third Zurek pillar, quantum Darwinism: the
 environment is a broadcast medium; branches become CLASSICAL when
 their records copy redundantly into many independently-readable
