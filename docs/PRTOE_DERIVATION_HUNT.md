@@ -7069,3 +7069,28 @@ OWED. The **dark→visible transfer** is the model's own flagged crux (sphaleron
 field frozen till 9.4 keV — the timing problem). The chirality sources the DARK asymmetry cleanly;
 handing it to the visible baryons is the hard step. Grade: CANDIDATE, unbanked; funnels into the
 3-Weyl-point question.
+
+## ENTRY 191 — THE TWO KNOBS THAT CLOSE THE MODEL (the honest "what's left," as a finite list)
+
+*After the identity pass, the open questions collapse to TWO un-set knobs. Between them they
+determine the dark-energy value, the smoothness of space, baryogenesis, the generation count, AND
+the eternal-vs-cyclic fate. Everything downstream waits on these two.*
+
+**KNOB A — CRITICAL or FIRST-ORDER at the dyad–dCDF seam.**
+The genesis transition (how the gas met the superfluid) is a RAMP either way (the depth law forbids
+a step — "instant all over" is illegal), but *which* ramp:
+- **first-order** → nucleates bubbles → BOILS → ohmic → DE amplitude misses, needs razor-fine SOC.
+- **critical/continuous** → scale-invariant spread → sub-ohmic (s≈0.26) → smooth space, DE closes.
+Determines: the DE value (0.26 vs boiling), whether space is smooth, whether the medium boils or
+stays coherent, and — via the settling attractor → the thaw — the eternal-expansion-vs-collapse-
+cycle fate (the DESI fork). Genesis "instant vs ratios" = this knob.
+
+**KNOB B — 2 or 3 WEYL POINTS in the dark p-wave order parameter.**
+He-3-A carries 2 Weyl points; the basement needs 3 Fermi points (generations). The Weyl content
+sets: the generation count, the GW-chirality amplitude, AND the baryogenesis anomaly coefficient
+(∝ Σq²) — one number, three jobs (entry 190).
+
+**Between them:** Knob A closes the DARK-ENERGY / fate side; Knob B closes the PARTICLE / matter
+side. DESI measures the *consequence* of Knob A (the thaw, w₀/wₐ); the theory must derive the
+*cause* (critical or first-order). Both are genuinely un-set. This is the finite list of what
+remains — not a feeling, two knobs.
