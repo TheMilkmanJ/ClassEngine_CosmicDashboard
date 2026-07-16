@@ -7217,3 +7217,20 @@ real thing riding on top.
   model flagged unresolved.
 - The three-phase "same-3" and the supercritical-door are CANDIDATE framings, physically grounded,
   unbanked.
+
+**ENTRY 194 CORRECTION (computed the bounce — the crystallization spring FAILED, degeneracy is the fix).**
+Running the mechanism forward bit it twice: (1) crystallization is NOT enhanced at the crunch —
+Γ_crystal ~ n^(1/3)/T ~ const for a radiation-dominated (hot) crunch (density growth exactly
+cancels temperature growth); heat keeps it melted. (2) Worse, "crunch crystallizes" **contradicts
+the model's own two-jobs law** (§7d: "T climbs through T_c → the condensate MELTS"). Melt (order
+down) and crystallize (order up) can't both hold. **So the supersolid/crystallization spring is OUT.**
+BUT the operator's core insight — *a stiff phase halts the collapse* — SURVIVES with the right spring:
+**DEGENERACY PRESSURE.** E_F/T ~ n^(2/3)/T ~ a^-1 → **GROWS** toward the crunch (unlike Γ), so the
+compressed medium becomes **degenerate**; Fermi pressure (P~n^(5/3)) is stiff, halts the collapse,
+drives the rebound — and works *whether or not the condensate is melted*, so **no contradiction with
+§7d**. This is standard physics (white-dwarf electron degeneracy, neutron-star neutron degeneracy),
+and it IS the finite gravastar-class core already identified. **Bounce mechanism KEPT; spring swapped
+supersolid → degeneracy.** The three-phase cycle's "supersolid" phase is downgraded to a *candidate*
+(needs Γ>~175 independent of the crunch AND positional-order-forms-while-superfluid-melts — two
+un-given conditions). BKL remains the standing obstacle. Filter caught it, and it made the mechanism
+*better* — degeneracy is derivable and standard where crystallization was contradicted.
