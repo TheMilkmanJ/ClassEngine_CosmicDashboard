@@ -7367,3 +7367,32 @@ form, from the census/coupling structure). The sweep condition is CLOSED (equidi
 derivation. A close-but-not-exact result was a WHISPER to keep going, not a signal to quit. Recorded
 as a standing correction to the reflex: PUSH the close results; the profile-drift was an artifact, not
 a wall.
+
+## ENTRY 200 — α_c = 3α UPGRADED (corrects entry 197's dismissal): the 3 is DOUBLY forced, the ×α reframed from "forbidden portal" to "consistency condition on one medium's two modes"
+
+*Entry 197 called α_c=3α a probable clean-value coincidence whose ×α "fights EM-neutrality." Pushed
+per the operator's whisper law (second-sound angle + the "paper"/shared-origin insight). Both the
+dismissal and the EM-neutrality objection were premature. Corrected here.*
+
+**THE 3 — DOUBLY FORCED (two independent derived origins):**
+- L=3 Weyl topological charge = 3 chiral fermions (entry 193), AND
+- (√3)² from second sound: two-fluid hydrodynamics gives c₂ = c₁/√3 (phonon-gas limit, Landau,
+  textbook). With c₁ = √α_c·c, this gives c₂ = √(α_c/3)·c, so **α_c = 3α ⟺ c₂ = √α·c = 0.0854c**.
+  The 3 is the (√3)² of second sound — derived hydrodynamics, not a flavour count.
+
+**THE ×α — REFRAMED (entry 197's "forbidden portal" objection was MIS-AIMED):** light is the
+condensate's OWN Goldstone mode (light.md). Light (c) and second sound (c₂) are BOTH modes of the ONE
+condensate — not two sectors needing an EM portal. So c₂ = √α·c is a **consistency condition on the
+medium's two co-modes**, not a census-forbidden charge exchange. The operator's "paper" framing: the
+receipt (light) and transcript (sound) are written on the same sheet (the condensate); the coupling
+is where they must match. **The EM-neutrality wall of entry 197 DISSOLVES** — no charge is exchanged.
+
+**STILL OWED (the honest residual):** why the consistency fixes c₂ = √α·c *specifically* — why the EM
+α co-determines the two mode speeds (Bogoliubov: c_s²=gn/m → gn/mc²=3α; the "3α" un-derived). Not
+closed. But it is now an OPEN, ALLOWED consistency relation, NOT an impossible portal.
+
+**NET (correcting 197):** α_c=3α is NO LONGER "probable coincidence." The 3 is doubly forced; the ×α
+is an allowed (un-solved) consistency condition. P-2026-040 stays a bet pending the MCMC value, but
+the *derivation status* upgrades from "orphan/mirage" to "3 forced, ×α open." **Method: the whisper
+was real — pushing the close result twice (f̄ entry 199, α_c here) both paid off; entry 197's
+dismissal is the standing example of the quit-reflex to avoid.**
