@@ -67,7 +67,7 @@ The one order-one number left is **τ = T_c/m_e**, which the observed value fixe
 the chiral-transition-to-string-tension ratio of a QCD-like theory, a near-universal value ≈ 0.34–0.37
 that places ρ_Λ¼ at 0.97–1.07× the observed 2.25 meV. (This sector sets the dark-energy *binding scale*
 only; the dark matter remains the medium's own excitations. The derivation, and why a QCD-like sector is
-required, are in hunt entries 228–229.) What the model does **not** derive is the pinning — *why* the
+required, are in the open-derivations document.) What the model does **not** derive is the pinning — *why* the
 dark scale equals the electron mass. That one input is irreducible: it is the meV coincidence
 ρ_Λ ~ α⁴m_e, and it cannot be derived without spoiling the value of τ. So the honest reading: the
 dark-energy *scale* follows a derived closed form in α with a single dimensionful input, the electron

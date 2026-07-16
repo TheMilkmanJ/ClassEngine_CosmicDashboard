@@ -79,7 +79,7 @@ The electron Coleman–Weinberg backreaction on the charge-free field (m_e(φ) =
 
 > V_CW = −(1/16π²)·m_e(φ)⁴·[ln(m_e(φ)²/μ²) − 3/2] → tachyonic curvature → radiative SSB
 > **VEV: v = m_e0·[ε(L−1)/4π²]^{1/4} ≈ 100 keV** (81/102/121 keV for L−1 = 2/5/10; ±25%, robust)
-> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted value is now T_c ≈ 179 keV (the non-perturbative confining chiral ratio, hunt 228/230), with this perturbative 193 keV a log-ambiguous cross-check inside every version; leading-log unstable
+> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted value is now T_c ≈ 179 keV (the non-perturbative confining chiral ratio), with this perturbative 193 keV a log-ambiguous cross-check inside every version; leading-log unstable
 > near the flat direction; RG resummation = the working docket).
 
 The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded).
@@ -249,7 +249,7 @@ a derived self-constraint; the axion-like reading (λ ~ m²/f²) lands at the ce
 factor → **P-2026-031 (candidate): CDM isocurvature at ℓ ~ 170.** *(Amplitude caveat: the axion
 quartic carries a coefficient ~1/6, so |λ| sits a factor ~6 below the naive (m/Ψ₀)² ceiling — the
 isocurvature is then likely sub-%-level and below current Planck sensitivity, not at it; the exact
-amplitude awaits the O(1) coefficient and the λ-sign. Hunt 233.)* (+ a 45-90 km/s bulk-flow shadow). MOND/RAR finally dead (m_amp → m; ≤59 AU ≪ kpc). The third
+amplitude awaits the O(1) coefficient and the λ-sign.)* (+ a 45-90 km/s bulk-flow shadow). MOND/RAR finally dead (m_amp → m; ≤59 AU ≪ kpc). The third
 mass-top coincidence (CSW M_max ~ 10¹¹ M☉ at the ceiling; with α_g = 1 at 6×10⁹ and r_s = ξ
 at 2×10¹⁰) — noted, m-correlated, not recorded.
 
