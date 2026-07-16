@@ -92,7 +92,11 @@ structural d=3.) **Deriving τ (hunt 219):** unitarity gives τ~0.167 (2× low);
 cancels the 1/d, tying τ to the structural d=3. But τ=1/d is ~5% low and NOT gap-derived (the coupling
 g*(τ=1/d)/g_c isn't fixed across d), so it is a CONJECTURE, not a derivation. **Arc landing:** the DE
 value converges to the conjectured closed form **ρ_Λ¼ = (d/2)α⁴m_e** (0.966×), everything fundamental
-(d=3, α, m_e), with τ=1/d the single unproven assumption; the digit needs the medium's actual p-wave gap.
+(d=3, α, m_e), with τ=1/d the single unproven assumption. The p-wave gap was then built (hunt 220): at
+T_c the chiral p-wave angular factor **factors out**, so the pairing channel (s/p/f) is irrelevant to τ —
+τ is set purely by the MAGNITUDE of the microscopic pairing coupling g_p, a strong-coupling O(1) the
+corpus does not specify. So the digit's last input is g_p (a model-building input), not the pairing
+structure. The DE value stands at (d/2)α⁴m_e (0.966×) — the honest floor of the marathon.
 Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
 scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
 

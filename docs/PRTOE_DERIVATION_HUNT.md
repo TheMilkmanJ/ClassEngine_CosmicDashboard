@@ -8109,3 +8109,34 @@ solution (its real coupling), which is microphysics not in hand. Method: tried u
 τ=1/d (0.966×, conjecture); ramped the d-dependence to show τ=1/d isn't a gap identity; registered the
 whisper without claiming derivation. Honest floor of the DE-value marathon: **(d/2)α⁴m_e, 0.966×, τ=1/d
 the last conjecture.**
+
+---
+
+### Entry 220 — THE p-WAVE GAP, BUILT (operator: "build the medium's p-wave gap to pin τ"): **DEFINITIVE — the pairing CHANNEL factors out at T_c, so no pairing-structure refinement pins τ; it is set purely by the microscopic coupling magnitude g_p, which is not in the corpus. The DE-value floor stands: (d/2)α⁴m_e (0.966×), τ=1/d conjecture**
+
+Built the chiral p-wave A-phase gap equation to try to pin τ = T_c/m_e ~ 0.34.
+
+**The definitive structural fact.** At T_c (Δ→0) the p-wave angular form factor **factors out**:
+1 = g·⟨(3/2)sin²θ⟩·(radial), and ⟨(3/2)sin²θ⟩ = 1 (A-phase normalization). So the p-wave T_c equation
+is IDENTICAL to s-wave — **τ(g) is the same coupling-dependent function** (verified: τ=0.33 at g=2.77,
+same as the NJL build). The pairing SYMMETRY (s/p/f-wave, chiral, nodal) is IRRELEVANT to τ at the
+critical point.
+
+**What p-wave does change (a refinement, not a pin):** the T=0 gap ratio — A-phase (nodal) T_c/Δ₀ ~ 0.50
+vs s-wave BCS 0.567 — which touches the dyad-VEV consistency (hunt 218: v = Δ₀ = T_c/ratio) but NOT
+τ = T_c/m_e. And there is no scale-free p-wave fixed point near 0.34 (p-wave interactions aren't
+scale-invariant; no analogue of s-wave unitarity's 0.167).
+
+**VERDICT — the honest floor is reached.** τ cannot be pinned by ANY pairing-structure refinement (it
+factors out at T_c). It is set purely by the MAGNITUDE of the microscopic pairing coupling g_p — a
+strong-coupling O(1) that the pairing symmetry does not fix, and that the corpus does not specify. So the
+DE value = (9/2)α⁴m_e·τ bottoms out at the conjecture τ=1/d → **(d/2)α⁴m_e = 2.17 meV (0.966×)**, pinned
+to ~5%. Closing the digit needs the medium's microscopic coupling g_p — a model-building INPUT, not
+derivable from the existing structure. Building the p-wave gap CONFIRMED τ's irreducibility and located it
+precisely: it's g_p, not the pairing channel. Method: built the p-wave equation, proved the channel
+factors out at T_c, checked for a scale-free point (none), and did NOT manufacture a pin.
+
+**The DE-value marathon (entries 208–220) — closed to its honest floor:** KP dead → seam scaling derived
+(ρ_Λ¼=(9/2)α⁴T_c) → perturbative T_c ill-defined → gap equation well-defined → (Λ,g)=(m_e, supercritical)
+derived → factor-3 tension dissolved → τ=1/d conjecture → **p-wave build confirms τ is set by g_p alone**.
+Landing: **(d/2)α⁴m_e, 0.966×**, the last input being the medium's microscopic pairing coupling.
