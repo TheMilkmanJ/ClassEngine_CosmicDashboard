@@ -41,7 +41,7 @@ The medium's coherence length falls BETWEEN the planetary system (~40 AU) and th
  quantum-coherent cell — the medium is a featureless, coherent, gate-screened background.
  ONE relationship, repeated at every rung.
 
-## 2. The author's bet, graded
+## 2. The registered prediction, graded
 
 *"The universe→planets map gives the local→atomic map"* — TRUE, with the mechanism now
 explicit: the inter-rung physics above the hinge (binding grammar + channel shares + screens)

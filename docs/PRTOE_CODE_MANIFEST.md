@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The author's inclusion law: everything proven beneficial enters the pipeline; nothing
+*The inclusion law: everything proven beneficial enters the pipeline; nothing
 killed ever does. This file is the single source of truth for implementation status.
 Homes: [C] = CLASS source (background.c/input.c), [Y] = cobaya yaml configs, [CMP] = the
 comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
@@ -20,7 +20,7 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 | The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by author order (relaunch fresh later); the ΛCDM twin awaits its slot |
 | The freeze-sentinel launch guards | [CMP] both wrappers | IN — verified quoted+unquoted |
 
-## 2. ARMED — enters on its named trigger (the author's amended conditions)
+## 2. ARMED — enters on its named trigger (the amended conditions)
 
 | item | value | trigger | lands in |
 |---|---|---|---|

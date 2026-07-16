@@ -154,10 +154,10 @@ charge survives in solitons/Q-balls [requires gravity-mediated K<0: fragmentatio
 banks the charge at T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis
 across the bounce (rotation resets, topology doesn't) → re-expansion cools through T_c → the
 condensate RE-FORMS → §1. **The condensate breathes; T_c is both the recombination-era turn-on
-and the crunch-era melting point — one number, both jobs** (the author's two-jobs law, §2).
+and the crunch-era melting point — one number, both jobs** (the two-jobs law, §2).
 [STORY at the bounce rungs: BKL, Tolman unresolved.]
 
-## 8\. The two-jobs pattern (author's law, 2026-07-10) — and where the code reflects it
+## 8\. The two-jobs pattern — and where the code reflects it
 
 Every transition is ONE clock with TWO jobs — the ending regime reaches its floor, the starting
 regime crosses its threshold:

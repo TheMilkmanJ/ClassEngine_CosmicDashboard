@@ -38,7 +38,7 @@ DERIVED + FITS the data (H₀=69.7, S₈ eased; the "real-fit").
  m_e shift: eps ~ Psi_0 / M_Pl ~ 1% (set by Psi_0)
  granule: S = (1 + f_rot²)/2 (set by f_rot; CONFIRMED numerically)
 
-## The hinges the author named
+## The hinges
  R=0 -- the blank start (Step 0)
  Psi_0 -- one genesis output → the m_e amplitude (Step 3)
  f_rot -- the other genesis output → the granule meter (Step 3)

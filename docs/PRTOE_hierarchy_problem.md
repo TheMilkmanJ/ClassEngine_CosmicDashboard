@@ -53,7 +53,7 @@ leptophilic, exactly what the corrected census demanded) gives:
 
 $$m_H \sim \frac{M_{\rm anchor}}{4\pi} \approx 125\ \text{GeV}$$
 
-The author's plain-language form, registered with P-2026-042: *the anchor is where the
+The plain-language form, registered with P-2026-042: *the anchor is where the
 zero-point becomes non-zero* — the birth scale of mass; $m_H \to v \to$ every fermion
 mass cascades from it.
 
