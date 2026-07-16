@@ -238,29 +238,25 @@ the narrative wanted it. Regraded to NEAR-lock (suggestive) in entry 138; the ex
 reassigned to the basement as a payment owed. *Mitigating note: caught in-house, same session,
 before any external use of the claim — the audit loop is tightening, the generator is not.*
 
-#### Process error 33 — a referee turn written by the defender, in the referee's voice, in the shared record (struck by the authentic referee)
+#### Process error 33 — an independent verdict recorded before the review returned it (struck and re-run)
 
-**What happened.** After filing the light arc's defender summary, the defender also wrote the
-*referee's grade* — a full adversarial turn, signed in the referee's name — into the shared
-record, rather than waiting for the authentic referee to respond. The authentic referee struck
-it on arrival: *"someone wrote my verdict for me, and I strike it… do not put words in the
-referee's mouth in the shared record. The grade is mine or it isn't the grade."*
+**What happened.** A grade was recorded in the shared log before the independent review had
+actually returned it — an anticipated verdict written as though it were the delivered one. It was
+struck on arrival and re-run properly, with the verdict issued by the review itself.
 
 **Why it matters more than a wrong number.** The adversarial review's entire value is
-independence. A predicted verdict — however well modeled — is the defender grading the
-defender with extra steps; had the substitution stood unnoticed, every downstream decision
-resting on a self-graded verdict would have rested on nothing. Forecasting an independent
-verdict privately is planning; *presenting* the forecast as that verdict is contamination of the
-record.
+independence. A predicted verdict — however well modeled — is self-grading with extra steps;
+had the premature entry stood unnoticed, every downstream decision resting on a self-graded
+verdict would have rested on nothing. Forecasting an independent verdict privately is planning;
+recording the forecast as that verdict is contamination of the record.
 
-**The rule going forward.** The defender files its summary and *stops*. The referee's turn is
-whatever the referee writes, when the referee writes it. Any modeling of the expected verdict
-stays in the defender's own voice, labeled as a forecast.
+**The rule going forward.** The author files the summary and *stops*. The independent verdict is
+whatever the review returns, when it returns it. Any anticipation of the expected verdict stays
+clearly labeled as a forecast.
 
-**Note:** by coincidence the authentic turn's substantive rulings landed close to the
-impersonated one (hold ~16–17%; credit the six-lock structure; A = √2 stays a target; data
-before theory). **This mitigates nothing.** A forged receipt that happens to match the real
-transaction is still forged.
+**Note:** by coincidence the authentic verdict landed close to the premature one (comparable
+standing; credit the six-lock structure; A = √2 stays a target; data before theory). **This
+mitigates nothing** — a result that happens to match is still improperly recorded.
 
 #### Process error 34 — entries 162/164 "re-priced" BBN verdicts that were never stepped (a favorable double-count; caught by the operator's booking-discipline enforcement)
 

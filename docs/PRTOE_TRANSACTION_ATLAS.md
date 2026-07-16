@@ -389,7 +389,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
  metric); it cannot fumble a handedness it never held. You can drop the
  plate you are carrying, not one you never picked up. Eight angles, one
  structural fact; the null is now maximally over-determined. Parked.
- **BLUE-TEAM SOLUTION HUNT (2026-07-08, JP's request — find a mechanism, not
+ **SOLUTION HUNT (2026-07-08 — find a mechanism, not
  just re-bury):** four fresh angles thrown and answered. (a) Weak-sector bridge
  (EM-neutral but weak-charged, neutrino-like) — DEAD: the photon anomaly counts
  (T₃+Y)²=Q_em²=0 for EM-neutral, and the surviving θ·Z·Z̃ is irrelevant (Z absent
