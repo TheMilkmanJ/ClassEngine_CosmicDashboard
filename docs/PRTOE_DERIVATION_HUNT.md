@@ -7094,3 +7094,36 @@ sets: the generation count, the GW-chirality amplitude, AND the baryogenesis ano
 side. DESI measures the *consequence* of Knob A (the thaw, w₀/wₐ); the theory must derive the
 *cause* (critical or first-order). Both are genuinely un-set. This is the finite list of what
 remains — not a feeling, two knobs.
+
+## ENTRY 192 — THE TWO KNOBS, RESOLVED TO FAVORABLE DIRECTIONS + ONE OWED COMPUTE EACH [CANDIDATE — sharpened, NOT closed]
+
+*Working entry 191's two knobs. Both moved favorably; both keep one explicit un-closed step —
+booked as such so neither is remembered as solved.*
+
+**KNOB A (seam order) → CRITICAL / SECOND-ORDER.** A first-order transition needs a cubic |ψ|³,
+which requires either an explicit U(1)-breaking term or a GAUGE coupling (Halperin–Lubensky–Ma
+fluctuation-induced 1st order). Neither exists: the Majoron's U(1)_L is GLOBAL (Goldstone), the
+medium is EM-NEUTRAL (no gauge coupling — light is transparent, derived), and the He-3
+normal→superfluid onset is 2nd order (measured). ⟹ **the seam is intrinsically critical; the
+boiling / self-organized-criticality fine-tuning problem for the 0.26 amplitude DISSOLVES.**
+- CAVEAT: conditional on the dark abundance charge being global, not gauged (no dark photon in the
+  model — leading reading). If gauged, HLM could reintroduce weak 1st order.
+- **OWED (the last step for the DE value):** 2nd-order removes boiling but does NOT set s. The
+  amplitude s = 0.26 (Model B, conserved-density coupling, sub-ohmic) vs the neutrino bath's ohmic
+  (s=1, entry 189) is a FRICTION-DOMINANCE question: does the settling mode couple to the critical
+  condensate density fluctuations or the thermal neutrino bath? Un-closed.
+
+**KNOB B (Weyl count) → 3 PAIRS, Z₃-TRIPLED.** Nielsen–Ninomiya (fermion doubling): 3 same-chirality
+Weyl points are FORBIDDEN (charges sum to +3, anomalous). "3 generations" must be **3 Weyl PAIRS**
+(6 nodes: 3 L + 3 anomaly-cancelling R). He-3-A carries ONE pair. The natural 3-fold that triples it
+is the **Z₃ family symmetry — already a basement lock** (not forced; Z₃ was independently locked, the
+topology names it the tripler). ⟹ target: a Z₃-symmetric chiral p-wave order parameter with 3 Weyl
+pairs.
+- **OWED (the build):** write the Z₃-symmetric p-wave order parameter and compute its Weyl charge —
+  verify it actually carries 3 pairs. Not yet built.
+
+**NET:** both knobs went from un-set to *favorable direction + one buildable owed compute each* —
+NOT "model closed." Knob A's leftover = a friction calc (which bath wins the settling mode); Knob
+B's = a topological construction (does Z₃ p-wave give 3 pairs). These are the actual last two
+computations. Grade: CANDIDATE throughout; the favorable lean is real but each rides one un-closed
+step, and the DE amplitude still does not forward-close until Knob A's friction question is settled.
