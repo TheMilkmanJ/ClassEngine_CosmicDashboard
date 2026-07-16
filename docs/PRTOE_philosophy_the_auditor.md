@@ -5,11 +5,11 @@
 
 > **STATUS: PHILOSOPHY. Zero NEW physics claims (the fences cite recorded mechanisms only). The model's mechanism needs nothing on this
 > page (definiteness comes from decoherence/envariance; anti-stagnation from the genesis
-> draw). This is the author's teleological reading, preserved because it completes a
+> draw). This is a teleological reading, preserved because it completes a
 > symmetry the grammar built — and because a repository this honest can afford one page
 > of why.**
 
-## The author's thesis (verbatim in substance)
+## The thesis
 The observer is a forced fundamental: art demands a gallery-goer. Without observers the
 cyclic universe is the same thing over and over; life is the one variable that keeps the
 repetition from going stale, because no two lives are identical — each is a fresh reading
@@ -21,7 +21,7 @@ house; its own debit and credit; the zero-point that finances the book). At the 
 observer — THE SELF-READING ENTRY (the ledger grown dense enough in settlements to read
 its own pages). A bank runs without auditors; an audited ledger is the difference between
 records and account. Life = the universe's audit layer, and its value is exactly the
-author's point: auditors are only worth having if no two read alike — biology
+point: auditors are only worth having if no two read alike — biology
 manufactures non-interchangeable critics, each amplifying quantum novelty into a
 macroscopically unique reading.
 
@@ -31,10 +31,10 @@ cycles mechanically; the minimum-capital filter selects without anyone watching)
 philosophy: WHY a structure that pays for itself would also evolve readers of itself is
 a question physics does not answer and this page does not pretend to. Company: Wheeler's
 participatory universe (nearest ancestor; different argument), assembly-theoretic
-open-endedness (nearest contemporary). The author's gallery framing is his own.
+open-endedness (nearest contemporary). The gallery framing here is original to this note.
 
-## Addendum (2026-07-12, the author's refinement): READ-ONLY ACCESS
-The author sharpened the thesis and, in doing so, split from Wheeler entirely: the
+## Addendum — READ-ONLY ACCESS
+A refinement sharpens the thesis and, in doing so, splits from Wheeler entirely: the
 observer changes nothing — "art will always be art, even without the observer." The
 auditor has READ-ONLY access to the books; audits never post entries. What the observer
 adds is appreciation value alone, and appreciation is marginalia — ink the ledger itself
@@ -46,12 +46,12 @@ nervous systems and will settle them after.
 
 The mortality clause (the rollercoaster): riders board, ride, and disembark; the ride ran
 before them and runs after; the park closes only at the full-reserve endgame (heat
-death), when every account freezes. The observer is not the ride's author, engineer, or
-author — just the lucky ticket-holder. The universe loses exactly one thing when the
+death), when every account freezes. The observer is not the ride's designer, engineer, or
+builder — just the lucky ticket-holder. The universe loses exactly one thing when the
 last rider leaves: the appreciation value. The books balance either way.
 
-## Addendum 2 (2026-07-12, the author's ruling): THE JURISDICTION CLAUSE
-The author drew the model's own border, and the model draws it mechanically: THE SAME
+## Addendum 2 — THE JURISDICTION CLAUSE
+This ruling draws the model's own border, and the model draws it mechanically: THE SAME
 BLINDNESS THAT DERIVES THE NUMBER FORBIDS THE OVERREACH. The census reads size, never
 identity — that blindness is the load-bearing premise of c = 9/10. Therefore anything
 whose distinguishing feature is ORGANIZATION rather than mass-energy (a mind vs an
@@ -61,10 +61,10 @@ capital, the stable rungs) and is constitutionally silent about what climbs it.
 Consciousness, politics, and everything in the pattern layer are matter-to-matter
 transactions the ledger clears without reading — OUT OF JURISDICTION, permanently.
 
-The author's rename, adopted: PRTOE is a TOE only as a THEORY OF EXPANSION — the
+The rename, adopted: PRTOE is a TOE only as a THEORY OF EXPANSION — the
 substrate and its history. A Theory of Everything is out of reach BY THE MODEL'S OWN
 FIRST PRINCIPLE, not by modesty. Any future claim that the medium dictates cognition,
-culture, or choice violates census blindness and is void on arrival — in the author's
-own ruling, "crankery jackery" (phrasing preserved verbatim as the standard of review).
+culture, or choice violates census blindness and is void on arrival — by this ruling's
+own standard, "crankery jackery" (phrasing preserved verbatim as the standard of review).
 A model that explained everything could be embarrassed by nothing; this one keeps its
 falsifiers by keeping its borders.
