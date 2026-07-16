@@ -472,10 +472,9 @@ DISTRIBUTIONAL — a fourth summit outcome the pre-registered menu
 pre-registration lesson. The dice (14-angle scan, h=300,
 r_t in {0.3, 0.6, 0.9}): f_amp median 0.55-0.67 and
 **P(f_amp > 0.2) = 86% at ALL THREE tilt strengths** — the chaos
-erases the tilt dial. Hardened reading of the collision: ~6:1 odds
-the R1.6 PTA channel fires and P-2026-005's band-silence is violated;
-~14% survival for the registered silence bet, priced by the model's
-own genesis. Caveats (binomial ±9%, single-h dice, order-unity
+erases the tilt dial. So the model forecasts the R1.6 PTA channel fires
+(P-2026-005's band-silence violated) with ~86% probability; the silence
+survives with ~14% probability, priced by the model's own genesis. Caveats (binomial ±9%, single-h dice, order-unity
 normalization, threshold grade) stamped in the Room 1 entry. The
 earlier segmented bound eps ≥ 0.67 (booked provisionally same night)
 is SUPERSEDED — its own stamped caveat fired.

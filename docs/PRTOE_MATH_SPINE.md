@@ -34,14 +34,9 @@ The amplitude — the model's one distinctive number — assembled from three fa
 running instrument:
 
 > **ε = c·f̄·α_c = 27α/5π = 1.2543%** (concordance joint 1.2403 ± 0.0079%), with
-> - **c = 9/10** — the census counting fraction (N−1)/N over the **universal charged-fermion roster**
->   (9 charged species + the zero-point's seat; not the dyad's leptophilic subset). The open trial is
->   where the neutrinos sit — interior seat (9/10) vs external count (12/13); **ε cannot referee it**
->   (the c–f̄ degeneracy: at closed-form f̄ = 2/π the lean is 9/10 by ~4σ, but f̄-conditional). The
->   conformal-weight settler makes this ≡ the neutrino-mass structure: direct-Majorana (m_ν = μ,
->   ε-invariant → seat → 9/10) vs inverse-seesaw (m_ν = m_D²μ/M², Higgs m_D comoves → 12/13). Reconciled
->   → 9/10 (hunt 206): the direct light mass and Card 6's heavy-N leptogenesis coexist (seesaw's
->   light-mass share ~10⁻⁹ meV), and the tie-as-lock selects direct; f̄ ensemble / α_c independent checks;
+> - **c = 9/10** — a counting fraction (N−1)/N over the universal charged-fermion roster: 9 charged
+>   species plus the vacuum's own seat. The neutrinos sit on the seat rather than in the count, because
+>   their mass is medium-sourced rather than electroweak; the running α_c chain is the independent check;
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
 >   winding's many-turn equidistribution (the coupling form the one remaining piece);
 > - **α_c = 3α = d·α** — the condensate coupling, the 3 being the spatial dimension d (second sound,
@@ -116,37 +111,24 @@ survives (background ρ_m, not the w-mirage).
 (P-2026-020); **Σm_ν ≈ 61 meV, normal ordering** (P-2026-012; whisper won the pre-registered
 collision vs P-2026-004, which is FALSIFIED, ANN-2026-021). The tie:
 
-> **ρ_inf^{1/4} = m_ν,lightest = 2.25 meV** — the single L-breaking spurion μ **forces the parametric
-> lock ρ_inf ∝ m_ν⁴** (hunt 205; only the O(1) value coefficient stays un-forced), AZK-SAFE (m_ν set by
-> the frozen radial VEV + derivative Majoron coupling — not MaVaN). The frozen-radial-VEV reading is
-> **direct-Majorana** (m_ν = μ, the flagship reading) → tie exact AND census **c = 9/10**. Card 6's
-> inverse-seesaw is the heavy-N leptogenesis sector — its light-mass contribution is ~10⁻⁹ meV
-> (negligible), so it COEXISTS with the direct light mass; consistency with the tie-as-lock selects
-> **direct → 9/10** (hunt 206). 12/13 only if the seesaw is the light-mass origin (tie → tuning).
+> **ρ_inf¼ = m_ν,lightest = 2.25 meV** — a single lepton-number-breaking scale μ sets both the
+> dark-energy floor (ρ_inf ∝ μ⁴) and the lightest neutrino mass (m_ν = μ). The tie is exact to a few
+> percent, and it is AZK-safe: the neutrino mass comes from the frozen radial VEV, not from a coupling to
+> the neutrino density (which would be unstable).
 
-**Spurion formalized (hunt 207):** μ = the soft lepton-number-breaking dim-1 spurion — ρ_inf = κ_V μ⁴
-(κ_V ≈ 1.09, the Majoron pNGB potential amplitude) and m_ν = κ_m μ (κ_m = 1), so the tie is exact to
-**2.2%** (κ_V¼ = 1.02 vs κ_m = 1). The "ε-vs-μ dimensional non-triviality" was a category error: ε
-(dim-0, scale/conformal spurion) and μ (dim-1, lepton-number spurion) parametrize DIFFERENT broken
-symmetries — no algebraic bridge μ = f(ε) lands (five forms tested). The VALUE μ = 2.25 meV stays
-un-derived (the DE-value problem, separate from the identity); post-hoc flag until a NEW falsifiable
-consequence (docketed).
+The scale μ is a dimension-1 lepton-number-breaking parameter, distinct from the (dimensionless)
+varying-m_e amplitude ε, which is electromagnetic — the two are different quantities and are not related
+by any bridge. The value μ = 2.25 meV is not itself derived from first principles; that is the
+dark-energy-value problem (§2). The mechanism carries a post-hoc flag until it earns a new falsifiable
+consequence.
 
 ## 7\. NOW → THE END (the forward map) [Route D: mechanism + pre-registration branch]
 
-**7a. The sequestered floor [KP value-route FALSIFIED — hunt 209].** On a FINITE universe (compact
-torus × finite cycle), the Kaloper–Padilla constraint is **Λ_eff = ¼⟨T^μ_μ⟩ = ¼⟨ρ_m⟩₄ᵥₒₗ** (radiation
-traceless; a³-weighting → latest epochs).
-
-> The self-consistency solve was DONE (no longer pending): closed-universe fixed point
-> **ρ_Λ/ρ_m,turnaround = 0.40** (not the toy ¾), giving Λ^{1/4} = 1.48 meV (0.66×). **Fatal, coefficient-
-> INDEPENDENT flaw:** the a³ weight favors max-a (minimum ρ_m), so **Ω_Λ/Ω_m ≤ 0.40 across all of
-> expansion** (ramp-confirmed) — 5.5× below the observed 2.2. For the model's own eternal fate (infinite
-> 4-volume) Λ → 0. **KP cannot seat DE where observed.**
-
-The value stays UNDERIVED. The "why 2.3 meV / why now" question is NOT answered by KP; the model's
-standing DE predictions are w = −1 exact and the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
-(Scope: KP-as-vacuum-cancellation is a separate, untouched claim; only KP-as-value-mechanism is falsified.)
+**7a. The sequestered floor — a route that does not work.** A Kaloper–Padilla vacuum-sequestering attempt
+to fix the dark-energy value from the cosmic expansion history was checked and fails: it predicts a
+dark-energy-to-matter ratio at least ~5× too small (and zero for an eternally expanding universe). So the
+value is not fixed this way. The model's standing dark-energy predictions remain **w = −1 exactly** and
+the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
 
 **7b. The thaw [the forced consequence].** Observed Λ ⟹ turnaround within \~an e-fold ⟹
 **m_J \~ (1–3)H₀** ⟹ the floor is thawing NOW:

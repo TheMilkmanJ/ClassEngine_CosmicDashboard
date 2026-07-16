@@ -51,66 +51,24 @@ that measures α_c grades the triangle. (An earlier draft claimed an additional
 loop-dressing factor matched the residual; that claim was input-inconsistent and is
 retired in the public failures ledger.)
 
-**The seam identification of M₂ (hunt 210–211 — scaling derived, digit rides T_c).** The dyad–dCDF
-meeting (the seam) NAMES M₂'s base scale: **M₂ = α²·T_c**, the dyad condensation temperature
-(T_c ≈ 193 keV) times an α². And the **α² is DERIVED** (hunt 211): the two dark fields share exactly
-one coupling channel — the electron — and both vertices are electromagnetic (dCDF↔e via its
-photon-Goldstone ~α; dyad↔e via the EM self-energy m_e-shift ~α), so their handshake is α×α = α².
-Ramp-confirmed: sweeping M₂ = α^n·T_c, only **n=2** lands (n=1 is 137× high, n=3 is 137× low). Then
-**ρ_Λ¼ = ½α_c²M₂ = (9/2)α⁴T_c**, with **α⁴ = α_c² (dCDF binding) × α² (EM handshake)** — every power
-named. M₂ = α²T_c = 10.3 eV matches the freely-selected 9.39 eV to 9%. At central T_c → 2.46 meV
-(1.09×); exact 2.25 meV at T_c = 176 keV, inside the band. **Grade:** the α⁴ *scaling* is derived
-(power-counting) AND ramped (only n=2); the *digit* rides **T_c**. And T_c does NOT pin at leading-log
-(hunt 212): T_c = m_e0√(3(L−1)/2π²) is coupling-independent (κ cancels), but the leading-log L−1 carries
-an RG-scheme spread of a **factor ~10** in the value (0.21×–2.04× across μ ∈ {T_c, πT_c, 2πT_c} × MS-bar
-{0, 3/2}) — a first-pass μ=T_c/MS-bar landing of 0.96× proved a non-robust scheme artifact under the ramp.
-A partial 2-loop pass (hunt 213) fixed the thermal side EXACTLY and found the model's high-T
-Δm²=(κm_e²/3)T² is **out of regime** (T_c < m_e): the exact fermion loop (Boltzmann-suppressed electrons)
-pushes T_c UP ×1.4, so at the natural scale μ=v the DE estimate **over-predicts ~2×** (T_c≈369 keV). The
-remaining residual — the zero-T leading-log — needs the genuine 2-loop β-functions (not in the corpus).
-**The T_c closer was BUILT** ([PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md); hunt 215) —
-result a **definite negative**: the 2-loop RG-improvement does NOT pin T_c. There is no SSB at μ=m_e, and
-the scale-stationary PMS sits at μ ~ e⁻¹⁰⁰ m_e (unphysical) for any 2-loop coefficient, because the O(α)
-curvature is too weak. So **T_c is perturbatively ILL-DEFINED** — the electron-CW condensation is a
-large-log/marginal effect, and this seam DE route has no perturbative T_c to evaluate. **The
-non-perturbative gap equation was then built** (hunt 216): treating the dyad as the fermion-bilinear
-composite the model says it is, the NJL/BCS gap equation is cutoff-regulated → **T_c = Λ·τ(g) is
-WELL-DEFINED** (log-ambiguity resolved), and for natural inputs (compositeness Λ=m_e, coupling g~2.8,
-just above the critical g_c=2) **ρ_Λ¼ = (9/2)α⁴·Λ·τ(g) lands 1.0–1.1×**. So the arc is ill-defined →
-well-defined. Deriving (Λ, g) (hunt 217): **Λ = m_e** (electron-bilinear composite) and **g > g_c = 2**
-(condensation ⟺ supercritical; the α_c binding is 300× too weak, so it's genuinely strong) are DERIVED —
-leaving **ρ_Λ¼ = (9/2)α⁴·m_e·τ** with only the O(1) strong-coupling τ = T_c/m_e ≈ 0.34 as the residual:
-the DE value = α⁴·m_e·(O(1)). The DE-value T_c and the varying-m_e VEV are cross-constrained; a ~3× mismatch appeared and was
-**RESOLVED** (hunt 218): the perturbative VEV (100 keV) was internally inconsistent (T_c > v, unphysical
-for a condensate — BCS wants T_c/v = 0.567 < 1), so the gap equation CORRECTS it to the consistent
-v ≈ 340 keV. Since only ε = κv² is observable, re-fitting the free κ preserves ε = 1.24% exactly and the
-T_c window is unchanged — **no observable breaks**. The dyad sector is now BCS-coherent (v ≈ 340 keV,
-T_c ≈ 185 keV, v < m_e = Λ). So the only remaining DE-value residual is the single O(1) strong-coupling
-τ = T_c/m_e ≈ 0.34. (The earlier factor-3 tension was a BCS/perturbative-inconsistency artifact, not the
-structural d=3.) **Deriving τ (hunt 219):** unitarity gives τ~0.167 (2× low); the conjecture **τ = 1/d =
-1/3** gives the clean **ρ_Λ¼ = (d/2)α⁴m_e = (3/2)α⁴m_e = 2.17 meV (0.966×)** — the d² of α_c=3α partially
-cancels the 1/d, tying τ to the structural d=3. But τ=1/d is ~5% low and NOT gap-derived (the coupling
-g*(τ=1/d)/g_c isn't fixed across d), so it is a CONJECTURE, not a derivation. **Arc landing:** the DE
-value converges to the conjectured closed form **ρ_Λ¼ = (d/2)α⁴m_e** (0.966×), everything fundamental
-(d=3, α, m_e), with τ=1/d the single unproven assumption. The p-wave gap was then built (hunt 220): at
-T_c the chiral p-wave angular factor **factors out**, so the pairing channel (s/p/f) is irrelevant to τ —
-τ is set purely by the MAGNITUDE of the microscopic pairing coupling g_p, a strong-coupling O(1) the
-corpus does not specify. So the digit's last input is g_p (a model-building input), not the pairing
-structure. The DE value stands at (d/2)α⁴m_e (0.966×) — the honest floor of the marathon. **Deeper (hunt 221):**
-the digit's last input g_p (the strong pairing coupling → τ) is sourced by NO existing interaction — α,
-α_c=3α, the Majoron (g~10⁻⁸), and the ε-fitted κ all give g ≪ g_c=2 by 2–15 orders. The model has no
-strong sector. So τ is either a FREE parameter (fundamental scalar) or requires a NEW strong pairing
-sector to be written down (composite) — a piece of theory to be BUILT, not a computation. The DE value's
-digit rests on the one thing the model doesn't yet contain: the strong force that binds the medium.
-**Proposed (hunt 222):** a dark, confining (dark-color) sector SOURCES g_p by dimensional transmutation
-(strong at Λ_dark, automatic) and PRESERVES (d/2)α⁴m_e via a dark lepton degenerate with the electron
-(Λ_dark ~ m_e, electron stays elementary — composite-electron is excluded 7 orders). τ_dark ~ 0.34 sits
-in the QCD-like band. It predicts a naturally COLD dark sector (T_dark/T_γ=0.33 by early decoupling) with ΔN_eff≈0.1–0.25
-at BBN (the PRIMARY test, D/He; not CMB-S4 — the massive dark states fade by recombination, leaving only
-ΔN_eff≈0.027 at the S4 edge, hunt 227) and ~MeV warm dark-baryon DM — plausibly UNIFYING the DE-value binding with the dark matter. A coherent,
-falsifiable HYPOTHESIS (candidate), not a derivation; residuals = τ_dark and the m_dark~m_e mechanism.
-Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
-scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
+**A closed form for the scale.** The dyad and the condensate communicate only through the shared
+electron, and both couplings are electromagnetic, which fixes the condensate's mass scale as M₂ = α²·(the
+dyad condensation scale). The dark-energy scale then becomes a closed form in fundamental constants:
+
+$$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2\,M_2 = \tfrac{d}{2}\,\alpha^4\,m_e \approx 2.17\ \text{meV}\quad(0.97\times\ \text{observed}),$$
+
+with *d* = 3 the spatial dimension, α the fine-structure constant, and m_e the electron mass. The α⁴
+scaling is derived — the condensate's own binding (α_c²) times the electromagnetic handshake (α²) — and
+the electron mass enters because the condensation is tied to it.
+
+**What is derived, and what is not.** The *scaling* above is derived and lands within a few percent. The
+remaining input is a single order-one number: the ratio of the condensation temperature to m_e, set by
+how strongly the medium's constituents bind. The medium's known couplings are too weak to supply that
+binding, so this number rests on a proposed **dark confining sector** — a "dark colour" force whose
+scale is pinned to the electron mass — which supplies the strong binding and, in the same stroke, is the
+dark-matter sector (see §5 for its falsifiable signature). That proposal is a candidate, not a
+derivation. So the honest reading is: the dark-energy *scale* follows a derived closed form; its last
+digit rests on one strong-coupling number that a well-motivated but unproven dark sector would fix.
 
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,

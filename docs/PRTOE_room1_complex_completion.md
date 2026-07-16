@@ -449,8 +449,8 @@ minimal genesis, the universe's birth was a dice roll over θ₀, and:
   band-silence is violated at the drawn f_amp (median draw ~0.6, i.e.
   a medium that is MORE librator than rotor, ε_median ≈ 0.78);
 - P(f_amp ≤ 0.2) ≈ 14% — the quiet branch; P-2026-005 survives.
-The model now states its bet in odds: **roughly 6:1 that we live in a
-ringing universe and the pulsar arrays eventually hear the medium.**
+The model forecasts **P(f_amp > 0.2) ≈ 86%** — a ringing universe whose
+medium the pulsar timing arrays would eventually detect.
 A PTA detection consistent with the KR template is an 86%-branch draw;
 a definitive band-silence at the required sensitivity kills the 86%
 branch and leaves the model alive only on a 14% draw — legal but
