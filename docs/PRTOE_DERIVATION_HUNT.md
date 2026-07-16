@@ -8404,3 +8404,48 @@ ultralight axion needs). **Open thread:** the ~MeV dark-baryon cosmological fate
 of the three legs are physics (the ratio; the N_f ≥ 2 requirement); the third (the portal √σ_dark = m_e)
 is the sharpened residual debt. The DE digit: **candidate-grade, portal-conditional — no longer
 numerology.**
+
+---
+
+### Entry 229 — THE PORTAL SWING (operator: "why √σ_dark = m_e") + a RAMP-AUDIT: **the portal cannot be derived without breaking τ = 0.35 — √σ_dark = m_e is an irreducible input (the meV whisper); and the old T_c = 193 keV was a wide-band STEP that the τ swing (228) fixes**
+
+**The portal question.** ρ_Λ¼ = (9/2)α⁴·τ·m_e — m_e is the ONLY dimensionful input. "Why √σ_dark = m_e"
+= "why does the dark sector carry no scale of its own and ride the electron mass?" (the meV whisper,
+DE ~ α⁴m_e).
+
+**The obvious mechanism, and its death.** Deriving √σ_dark = m_e wants a **conformal/walking** dark
+sector whose IR scale is set by the lightest conformality-breaking — the electron portal, at m_e (the
+#17 conformal-origin idea). That needs the sector scale-free until the electron breaks it → walking →
+N_f near the conformal window (~8–12 for SU(3)). **But entry 228's τ = 0.35 is the QCD-LIKE value → N_f
+low (~2–3), a sector with its OWN dimensional-transmutation scale, independent of m_e.** The two
+requirements are **mutually exclusive**:
+
+| to get… | sector must be… | N_f |
+|---|---|---|
+| τ = 0.35 (the DE value) | QCD-like (own scale) | ~2–3 |
+| √σ_dark = m_e *derived* | conformal/walking (no own scale) | ~8–12 |
+
+**VERDICT (falsify-first): can't have both.** In the scenario the DE value needs (QCD-like, τ = 0.35),
+the dark sector's √σ is its OWN (dimensional transmutation) → **√σ_dark = m_e has no dynamical answer;
+it is an irreducible coincidence/input.** The conformal-portal derivation route is CLOSED — taking it
+breaks τ = 0.35. So task #48's "derive the portal" is likely **unachievable without abandoning the
+QCD-ratio win.** Honest model statement: **m_e is the one meV-sector scale the model does not derive**;
+the DE value is m_e × pure numbers, and ρ_Λ ~ α⁴m_e is a genuine input coincidence, not a pending
+derivation.
+
+**RAMP-AUDIT (operator: "ensure ramp laws applied to previous computations").** Walked the DE chain:
+- τ = T_c/√σ (228): band 0.335–0.37, swept across normalizations, ρ_Λ¼ linear in τ → **ramp ✅**.
+- α_c = 3α: point but under live MCMC (the chain is the ramp), ρ_Λ¼ ∝ α_c² smooth → **✅**.
+- M₂ = 9.39 eV: banded 2.7–9.7 eV, selected at the top → **banded ✅**.
+- **T_c = 193 keV: STEP ❌** — adopted from a wide "log-ambiguous [40, 900] keV" band; ρ_Λ¼ ∝ T_c, so
+  that band alone spans **0.5–11.5 meV**. The DE value was never robustly pinned by T_c.
+
+**The ramp-fix:** entry 228's τ swing DERIVES T_c = τ·√σ_dark = 0.35·m_e ≈ **179 keV**, collapsing the
+[40, 900] band to a pinned value — and 179 keV gives a BETTER DE value (2.28 meV, 1.01×) than the
+adopted 193 keV (2.46 meV, 1.09×). **Residual flag:** τ-pinned T_c ≈ 179 keV vs the BBN-adopted 193 keV
+(~7%, within band) — open: is the DE-binding T_c the SAME object as the BBN-window transition T_c?
+
+**Net:** after the τ swing, the DE chain's only remaining STEP is the portal √σ_dark = m_e — and this
+entry shows that step is an **irreducible input**, not a derivable quantity, in the QCD-like scenario the
+DE value requires. #48's ceiling is reached: the digit is m_e × (QCD ratio) × (α_c² prefactor), with the
+electron mass as the one un-derived meV-sector scale.

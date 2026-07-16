@@ -78,8 +78,12 @@ follows a derived closed form; its last digit is the ratio τ = T_c/m_e = 0.345,
 (light dark quarks; pure glue, at 0.63, is excluded). With the sector's string tension pinned to the
 electron mass by the portal, the value lands at 0.97–1.07× observed — and the pinning is self-consistent:
 the adopted T_c = 193 keV run back through the QCD ratio recovers √σ_dark ≈ 522–544 keV ≈ m_e. The
-remaining debt is now sharp and single: *why* √σ_dark = m_e — the portal scale. (Hunt entry 228;
-`scripts/tau_deconfinement.py`.)
+remaining question — *why* √σ_dark = m_e — is now settled as far as it can be: it **cannot be derived
+without abandoning the QCD-ratio value of τ** (a conformal/walking sector that would dynamically fix
+√σ_dark = m_e has the wrong τ, and the QCD-like sector that gives τ ≈ 0.35 carries its own scale). So the
+portal stands as an **irreducible input** — the electron mass is the one meV-sector scale the model does
+not derive, and ρ_Λ ~ α⁴m_e is a genuine coincidence rather than a pending derivation. (Hunt entries
+228–229; `scripts/tau_deconfinement.py`.)
 
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,
