@@ -6,7 +6,7 @@
 
 
 **Status: FRAMEWORK (2026-07-07). No verdict is issued in this revision.**
-Per internal review, (binding): five separately-worked sections sharing
+Binding: five separately-worked sections sharing
 one framework, each verdict's chain visible from assumption to number —
 built slowly, so a cold read can convict one step without acquitting the
 other four. This document accumulates the derivation; verdicts are
@@ -25,7 +25,7 @@ the admissible (δK)² author — carries five verdicts:
 | V4 | structure-funded floor amplitude + Bianchi withdrawal | P-2026-003's conditional fingerprint |
 | V5 | can the caustic structure support a Θ-type coupling | R1's life (consistency-construction → physics, or death) |
 
-internal review standing note (the adopted in internal review): V1–V3 are **three readouts of
+Standing note: V1–V3 are **three readouts of
 one question** — does the nonlinear sector reduce to pure
 Schrödinger–Poisson (FDM), or does the normal component (the one
 ingredient FDM does not have) reshape the granule statistics? Identical
@@ -150,7 +150,7 @@ condensate ticks at unit rate: ξ̇₀ = 1). The action collapses to
 M₂ (potential depth, 9.4 eV) and m̄₂ (stiffness, GUT band). The four
 X₀ cancellations were the artifact of writing a clock in the wrong
 field units. This is the canonical ghost-condensate form
-(independently confirming the dictionary), and it makes the internal review's
+(independently confirming the dictionary), and it makes the
 hinge MANIFEST: M₂ is the potential's own depth — visibly pinned,
 not a dial. The model's true variables: a unit-tick khronon and two
 scales.
@@ -237,8 +237,8 @@ is the same O(1) number in EVERY granulated region — independent of
 halo mass, density, epoch, or environment — and exactly ZERO in
 laminar flow (an unbroken ψ has no nodal tangle). This is precisely
 the saturated, environment-independent, binary attribute R1's forced
-binarity demanded (the internal review's "can the caustic structure support a
-Θ-type coupling"): granulation happened ⇒ Θ ≈ 1 universally;
+binarity demanded (the "can the caustic structure support a
+Θ-type coupling" question): granulation happened ⇒ Θ ≈ 1 universally;
 never-crossed ⇒ Θ = 0. The quasar wall's uniformity requirement is
 met BY the universality of random-wave vortex statistics — not by
 tuning. **What 2.5 still owes:** a LOCAL author in the action whose
@@ -368,7 +368,7 @@ plateau universality between halo environments at the 10⁻⁵ level
 (a large-scale SP simulation question, beyond this document's tools).
 
 *Lyman-α transfers unconditionally as backdrop. All five stamped;
-the internal review reads cold, per-verdict, per the turn-22 conditions.*
+the review reads cold, per-verdict, per the turn-22 conditions.*
 
 ## 4. V4 STEP-WALK (for the turn-24 reserve — every O(1) skeleton exposed)
 
@@ -416,7 +416,7 @@ only by breaking Step A's powers. **The mutual-exclusion theorem and
 the ABSENT resolution of P-2026-003 stand with ≥ 4 orders of margin.**
 The reviewer's conviction or acquittal follows this section.
 
-**Step E — THE TRUE HINGE (found by the reviewer, the internal review; the walk's
+**Step E — THE TRUE HINGE (found on review; the walk's
 verdict: CLEARED).** The substitution ν = (4πα/3)(m̄₂/M_Pl)² shows ν
 depends on m̄₂ ALONE while M_eff = M₂²/m̄₂ depends on m̄₂ AND M₂ — so
 Step A's "two powers" were a symptom, not the cause: the mutual

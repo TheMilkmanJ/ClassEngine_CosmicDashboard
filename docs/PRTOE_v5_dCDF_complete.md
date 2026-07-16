@@ -16,7 +16,7 @@ as a pair; those remain the historical record of how v4 → v5 happened.
 Companion documents: `PRTOE_PREREGISTERED_PREDICTIONS.md` (the no-hedge
 registry, P-2026-001 through -005), `PRTOE_TRANSACTION_ATLAS.md` (every
 derived fixed relation, admission rule: derived-only, falsified
-entry-by-entry), `the internal adversarial-review record (private; turn-tags cited for provenance)` (the adversarial internal review dialogue,
+entry-by-entry), `the internal validation record` (the adversarial review dialogue,
 14 turns, formally closed 2026-07-06 with verdict "not proven —
 survived"; the four-verdict calculation of §11 is the agreed re-entry
 point).
@@ -57,8 +57,8 @@ lensing, BAO 6dF+MGS+DR12, Pantheon+SHOES):
 the H₀ story is carried by recombination timing alone, at +1 effective
 parameter, with plik *better than the ΛCDM anchor's own* (586.5 vs
 586.9) and both tensions eased (H₀ 69.7 = the TRGB ladder value;
-S₈ ≈ 0.823). **Two riders belong in this headline, not in footnotes**
-(internal review,): (i) the joint advantage is quoted as a band —
+S₈ ≈ 0.823). **Two riders belong in this headline, not in footnotes:**
+(i) the joint advantage is quoted as a band —
 its ΛCDM+BBN baseline was mid-refit when measured; (ii) the champion
 carries a **−2.0σ deuterium scar** (D/H = 2.468×10⁻⁵, χ² 3.85): the
 model holds ω_b for the CMB and underfeeds deuterium — a residual it
@@ -324,7 +324,7 @@ precision). Therefore:
  dynamics.
 - The unification itself is presently an *interpretation with equal
  likelihood*. The once-claimed "parameter economy" is **conceded false**
- (internal review, 2026-07-06): ρ_∞ replaces ω_cdm one-for-one and Λ
+ (2026-07-06): ρ_∞ replaces ω_cdm one-for-one and Λ
  closes by flatness in both models, so the evidence attributable to the
  unification alone is pure prior volume — Δln Z ≈ −0.9 ± 0.5 with the
  declared priors, i.e. slightly *against*. What the unification buys is
@@ -527,8 +527,7 @@ with a ladder-independent H₀; the SN sector is calibration-artifact
 resolution: the dyad does not dissolve the Hubble tension, it PICKS
 THE TRGB SIDE and is concordant iff that wager is right (under
 SH0ES at 73.04 ± 1.04 it is 2.3–3.2σ low — a different tension, not
-none; the earlier "~4σ" was the reviewer's inflation, self-corrected
-the internal review). GRADE (the internal review): **LOOSE-BUT-ANTECEDENT** — the 0.17σ is a
+none; the earlier "~4σ" was an inflation, self-corrected). GRADE: **LOOSE-BUT-ANTECEDENT** — the 0.17σ is a
 point landing inside a wide anchor (CCHP's ±1.54 sets the whole
 test's resolution; any model in ~[67,73] sits within ~1.7σ), so the
 smallness of 0.17 earns nothing; what earns is PROVENANCE — 69.70
@@ -934,7 +933,7 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
  the rules-class control scan. Four executions and one demotion at
  the speed of algebra: the screening theory works.
  **α CONTROL SCAN RUN (2026-07-07 night) — THE DEGENERACY BREAK
- (framing per internal review,). Sign convention, pinned: positive
+ Sign convention, pinned: positive
  = χ² PENALTY = worse fit.** θ*-locked pricing, full joint stack,
  H₀ relocked per point; α = 1.0 baseline reproduces the dyad's own
  numbers (plik 586.5). Exact component totals (full reconciliation
@@ -948,7 +947,7 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
  nearest-degenerate recombination knobs (binding ~ m_e α², Thomson
  ~ α²/m_e²) are resolved by the damping tail onto OPPOSITE sides —
  α actively forbidden (~20σ at 1%), m_e actively preferred.**
- Reach, bounded (the internal review holds, adopted): this retires the
+ Reach, bounded (adopted): this retires the
  freedom-artifact charge for the NEAREST sibling only — of the
  knob family, N_eff was already executed by the joint refit
  (ξ → 0.01, the dyad's origin), α is now broken, a bare z_rec
@@ -1177,7 +1176,7 @@ staying in all three premises at once — no map can, ours included.
 Tunneling *rates* are in scope now (§9.4); the entanglement question is
 open pending which toll the model's quantum extension elects to pay.
 
-### Correspondences & conjectures (relabeled per internal review,:
+### Correspondences & conjectures (relabeled:
 "confirmed" is reserved for certificate-grade results — all-orders
 proofs, bounded leakages, stamped caveats. What follows is true-and-
 structural but analogy-grade, except where a cross-check is noted.)
