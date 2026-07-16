@@ -7325,3 +7325,24 @@ is the test.** If near-not-exact, "3α" was numerology. P-2026-040 stays a bare 
 only change is the 3 graduated from asserted to forced. The precision of ε (entry 196) therefore does
 NOT come from deriving α_c=3α — that derivation is likely a mirage; it comes from the MCMC pinning the
 value, which may or may not be 3α.
+
+## ENTRY 198 — f̄ = 2/π IDENTIFIED AS THE MEAN-ABSOLUTE-SINUSOID, conditional on two named sub-derivations [partial — form forced, conditions owed]
+
+*Task #44. f̄ (the winding average in ε=c·f̄·α_c). Computed the winding time-average forward; ramped
+the sweep profile and coupling form to test whether 2/π is forced.*
+
+- **f̄ = 2/π is EXACT** for a **uniform phase sweep** with a **|cos| projection**: ⟨|cos θ|⟩ =
+  ⟨|sin θ|⟩ = 2/π = 0.6366. A real geometric average (mean-absolute-sinusoid), not a fit. The sim
+  (0.635±0.026) sits on it.
+- **RAMPED — it is NOT universal:** the sweep profile matters (θ∝t² → f̄=0.73, drifts), and the
+  coupling form matters (cos² → ½, |cos| → 2/π). So 2/π requires SPECIFICALLY (uniform sweep) ×
+  (|cos| projection).
+- **STATUS — upgrade, not closure:** f̄=2/π graduates from bare candidate to *identified form
+  with two named conditions*. **Owed sub-derivations:** (1) the roll-up sweeps the winding phase
+  UNIFORMLY (from the spin-up dynamics — the friction-era roll-up); (2) the coupling reads the
+  |projection| (a |cos|, not cos² — from the census/coupling form). Pin those two and f̄=2/π is
+  forced. The sim agreeing is CONSISTENCY, not proof.
+
+**Precision-lever note (entry 196):** this is real movement on ε's precision — f̄ is now a structured
+conditional derivation, not a floating candidate. Two more sub-derivations (uniform sweep, |cos|
+coupling) close it. Progress on task #44; task #45 (c) and the α_c MCMC remain the other levers.
