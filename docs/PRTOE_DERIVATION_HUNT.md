@@ -8212,3 +8212,33 @@ and makes real predictions. Residuals: τ_dark (a strong-coupling ratio, ~natura
 degeneracy mechanism. This is the frontier: the DE value's foundation is now a NAMED, testable piece of
 new physics (a dark-confining lepton sector), not an unexplained gap. The full marathon (208–222): from
 "worst prediction in physics" to (d/2)α⁴m_e (0.966×) resting on a falsifiable dark-confining-medium proposal.
+
+---
+
+### Entry 223 — THE EPOCH-CONSERVATION IDEA, RAMPED (operator: "account for the expanding universe; go after f"): **the equal-regime pattern FAILS in the physical (1+z) measure; a striking z-only coincidence (z_eq≈√(z_onset·z_DE), 0.4%) is flagged unphysical; f (DE/DM) is the coincidence problem, not a constant**
+
+Operator's conservation idea (dark radiation → dark energy → dark matter) + "each regime equal, more spread
+out." Ramped rigorously (operator flagged the expanding-universe treatment as the crux — correct).
+
+**Epoch durations, PHYSICAL measure (e-folds, using 1+z since a=1/(1+z)):** radiation (dCDF onset z=4e7 →
+eq z=3424) = **9.37** e-folds; matter (eq → DE z=0.296) = **7.88**. NOT equal (16% gap). Forcing equal
+e-folds predicts DE domination in the FUTURE (a=3.4×) with ρ_DE¼=0.74 meV (**0.33×**) — FAILS. Same in
+proper time (5×10⁴ yr vs 10 Gyr) and energy decades (4.06 vs 2.57). The equal-regime pattern does NOT
+hold in any physical measure, and does NOT derive the DE value.
+
+**The z-only coincidence (flagged, unphysical):** in bare z (NOT 1+z), z_onset/z_eq = 11686 ≈ z_eq/z_DE =
+11581 (1%), i.e. z_eq ≈ √(z_onset·z_DE) to **0.4%**, and z_DE=z_eq²/z_onset gives ρ_DE¼=2.25 meV (1.00×).
+Striking, but it lives in z; at the DE transition z≠1+z, so its success is the low-z expanding-universe
+artifact. Recorded as a curiosity, NOT a derivation (physical 1+z measure lacks it).
+
+**f (the DE/DM partition) — the coincidence problem.** ρ_DE constant (w=−1), ρ_DM ~ a⁻³ → the ratio
+EVOLVES: f = ρ_DE/(ρ_DE+ρ_DM) ~ 10⁻³ at freeze (z=12), 0.72 now, → 1 future. So f(today)=0.72 is "why now,"
+not a derivable constant. Conservation fixes the conserved TOTAL, not the current split. "Derive f" =
+"solve the coincidence problem" (KP failed, hunt 209). No new closure.
+
+**Net (honest, with credit):** the conservation idea correctly RECONSTRUCTS the model's thermal-door
+sequence and captures a real invariant (the conserved total dark budget), but neither the epoch pattern
+(→ scale problem, broken by the expansion treatment) nor f (→ coincidence problem) derives the DE value.
+The operator's expanding-universe challenge was load-bearing: doing it right is exactly what breaks the
+clean derivation. Method: ramped every measure (e-folds/proper-time/energy), separated the z artifact from
+the physical 1+z, credited the 0.4% z-relation as a flagged curiosity, did not bank it.
