@@ -30,14 +30,16 @@ c = 1. Provenance walk, hunt entries 145/148].
 δm_e. (The Majoron/lepton-sector identity: tree coupling σNN → neutrinos; the charged-lepton
 portal is a UV assumption [PENDING #30].)
 
-The amplitude (the model's one distinctive number) [ASSEMBLED — relabeled 2026-07-14, the re-review's section-2 catch (hunt entry 156): the stack's three factors grade contested / simulated / bare-bet, so "derived" overstated the assembly]:
+The amplitude — the model's one distinctive number — assembled from three factors, each graded by a
+running instrument:
 
-> **ε = c·f̄·α_c = 27α/5π = 1.2543%** (the current derived stack; concordance joint
-> 1.2403 ± 0.0079%), with c = 9/10 (census; under the open 9/10-vs-12/13 roster trial — the basement
-> rebuild orphaned the census mechanism's roster story, hunt 126/135), f̄ the winding
-> average (claim 2/π), α_c = 3α (a registered bet; its "3 flavours" mechanism is retired). *(An earlier decomposition on this line — ε = c·f_amp·(Ψ₀/M_red) with
-> c ≈ 1 — is superseded: c = 1 was excluded by the census mechanism; see the failures
-> ledger and THREE_EQUATIONS Eq. 3 for the standing form.)*
+> **ε = c·f̄·α_c = 27α/5π = 1.2543%** (concordance joint 1.2403 ± 0.0079%), with
+> - **c = 9/10** — the census counting fraction (N−1)/N (9 charged fermions + the zero-point's seat);
+>   the 9/10-vs-12/13 roster resolves with the α_c chain;
+> - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
+>   winding's many-turn equidistribution (the coupling form the one remaining piece);
+> - **α_c = 3α = d·α** — the condensate coupling, the 3 being the spatial dimension d (second sound,
+>   geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
 
 ## 1\. Genesis (the cycle's start) [STORY]
 

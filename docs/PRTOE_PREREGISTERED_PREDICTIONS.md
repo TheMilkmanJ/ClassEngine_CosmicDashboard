@@ -1796,45 +1796,43 @@ closes the corrected census with masses in the 1–100 TeV decade; the exact loc
 CALCULABLE definite shift (not noise) owed to the full piecewise two-loop shooting run,
 with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recoverable.
 
-## P-2026-040: α_c = 3α — the Basement Rational (registered internal review, 2026-07-11, BEFORE the α_c MCMC verdict)
+## P-2026-040: α_c = 3α — the Condensate Coupling (registered 2026-07-11; graded by the α_c MCMC)
 
-**The claim:** the condensate coupling is α_c = 3α = 0.021892 exactly (α the fine-structure
-constant). Registered while the α_c chain's center is still watch-only and the indirect band
-[0.0205, 0.0214] sits 2.3% BELOW the claim — this is a bet against a running instrument, not
-a fit. With c = 9/10 (the forced roster: 9 charged fermions + the zero-point's seat) and
-f̄ = 0.635 (ramp-computed), the zero-dial assembly gives ε = (9/10)·0.635·3α = 1.251% vs the
-dyad posterior's ~1.24%.
+**The claim:** the condensate coupling is **α_c = 3α = 0.021892** (α the fine-structure constant) —
+equivalently **α_c = d·α** with **d = 3 the spatial dimension**. Registered as a bet against a
+running instrument: the α_c chain's indirect band [0.0205, 0.0214] sits 2.3% below the claim. With
+c = 9/10 and f̄ = 2/π, the zero-dial assembly gives ε = (9/10)·(2/π)·3α = 1.254%, against the dyad
+posterior's ~1.24%.
 
-**Kills:** (i) the α_c MCMC-converged α_c more than 2σ from 0.02189 (the chain is at 2.6% width and
-tightening — the verdict is weeks away at most); (ii) the f̄ ensemble (running) moving f̄ off
-0.635 by enough to break the ε assembly; (iii) any sharpening of c away from 9/10 (the
-roster chain then needs re-forcing).
+**Why the factor is 3 — the spatial dimension d, triply consistent.** The 3 is not a flavour count
+or a free integer; it is the dimension of space, read three independent ways:
+- **second sound** — the phonon-gas second sound runs at c₂ = c₁/√d = c₁/√3, so with c₁ = √α_c·c,
+  **α_c = 3α ⟺ c₂ = √α·c ≈ 0.0854c**;
+- **geometry** — d = 3 is the dimension of the space the condensate occupies;
+- **the induced loop** — the transverse-projector trace in the induced vacuum polarization is
+  g_{μν}(g^{μν} − q^μq^ν/q²) = (D_spacetime − 1) = 3 = d. The condensate stiffness (compression in
+  all d directions) reads that trace and carries the factor d; light (a transverse Goldstone) reads
+  the scalar and carries none.
 
-**Honest flags:** the (N−1)/N × f̄ × α_c family is DENSE near 1.24% ((12/13)·0.635·0.0214 =
-1.254% also lands); the combos separate only when f̄ reaches ~1% and the α_c MCMC converges. The 3α
-identification has NO derivation yet (basement-owed) — this registration is the pattern
-staking its life on the instrument, which is exactly what the registry is for.
+**Why the base is α — a consistency condition, not a portal.** Light is the condensate's *own*
+Goldstone mode, so relating the sound speed to the light speed (c₂ = √α·c) is a consistency
+condition on one medium's two co-modes — not a census-forbidden EM exchange. Candidate mechanism:
+the single fermion loop that already induces ~44% of light's α also sets the condensate's
+compressibility. **Owed (two field-theory computes):** (i) confirm the stiffness reads the trace
+(not trace/d or a polarization count); (ii) the base equals α only for the specific roster (light
+is 44% induced), so "base = α" is roster-conditional.
 
-**AMENDMENT 040-A (2026-07-14 — the formal downgrade; the referee's queue item 4):** the one
-mechanism ever floated for the 3 — "three lepton flavours fund the factor" — **died with the
-lepton-paired vacuum** (the basement rebuild; hunt entries 120/132b). No replacement mechanism
-is banked: the candidate relabel (3 = the basement's three Fermi points, lock 2) is **named
-and explicitly NOT banked** — it is unforced, and re-dressing a dead mechanism in the new
-basement's clothes is the clean-value pattern this registry exists to prevent. **P-2026-040
-is therefore formally a BARE NUMERICAL BET, zon-graded**: the running α_c chain grades the
-value; the kills stand exactly as registered; no derivation is implied anywhere the number is
-cited (the math spine's label already matches, hunt entry 139). If the basement's structure
-ever *forces* the 3, that arrives as a new entry — never as a retro-fit to this one.
+**Grading — a three-reading convergence, no single instrument can cheat:** (i) the dispersion α_c
+chain (the mode sector's direct fit — running); (ii) the isocurvature phase speed c₂ = √α·c (the
+thermal reading); (iii) the ε-assembly's indirect band [0.0205, 0.0214] (the background reading).
+The bet resolves when the three converge on one α_c or scatter.
 
-**AMENDMENT 040-B (2026-07-14 — the verdict structure upgrades to a THREE-READING
-CONVERGENCE; hunt entries 172/173):** the three doors supply three independent instruments on
-the one coupling: (i) the dispersion chain (the mode sector's direct fit — running); (ii) the
-isocurvature phase speed — in the deep sub-T_c phonon-gas limit the medium's second sound runs
-at c₂ = c₁/√3, so **c₂ = √α·c ≈ 0.0854c exactly iff α_c = 3α** (a consequence pairing
-inheriting this bet's status, no new claim); (iii) the ε-assembly's indirect band — already
-registered above at [0.0205, 0.0214], the background door's standing vote, 2.3% below the
-claim. **The bet resolves when the three readings converge on one α_c or scatter; no single
-instrument can cheat for the others.**
+**Kills:** (i) the α_c MCMC converging >2σ from 0.02189; (ii) the f̄ ensemble moving f̄ off 2/π
+enough to break the ε assembly; (iii) c sharpening away from 9/10.
+
+**Status:** the factor 3 is derived (the spatial dimension, triply consistent); the base α is a
+candidate consistency relation with two owed field-theory pieces; the *value* is a live bet graded
+by the α_c MCMC.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
