@@ -36,8 +36,8 @@ Roots at the top; every branch cites its ledger object.*
  THE FLOOR GALACTIC S8/ H0 BBN RADIO Σm_ν KOIDE│ │
  ρ_inf = ATOMS conv (69.9; WITNESS LATTICE (P-023; INVARIANCE│ │
  ½α_c²M₂  (solitons; (T4, the (T_c (5 bands, the (Q exact │ │
- = 2.251 meV     sub-pc; chains) owned inside ratio- tenth under ε; │ │
- M₂ selected  T1) │ residual) the lock; channel) drift= │ │
+ = 2.28 meV      sub-pc; chains) owned inside ratio- tenth under ε; │ │
+ M₂ from T_c  T1) │ residual) the lock; channel) drift= │ │
  () │ │ │ window; P-022/ │ kill) │ │
  │ │ │ │ witness 027/029)│ │ │ │
  WHY-NOW SMBH ATOMS DESI DR3 │ stand, │ │ │ │ │

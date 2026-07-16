@@ -29,27 +29,28 @@ exponentially small because it sits at the bottom of a pairing hierarchy.
 two-body form E_b = ½α²M, applied to the condensate's coupling α_c and its EFT mass
 scale M₂):
 
-$$E_b = \tfrac{1}{2}\,\alpha_c^2\,M_2, \qquad \alpha_c = 3\alpha = 0.021892,\quad M_2 = 9.39\ \text{eV}$$
+$$E_b = \tfrac{1}{2}\,\alpha_c^2\,M_2, \qquad \alpha_c = 3\alpha = 0.021892,\quad M_2 = \alpha^2 T_c = 9.53\ \text{eV}$$
 
-$$E_b = 2.251\ \text{meV}$$
+$$E_b = 2.28\ \text{meV}$$
 
 **(b) The occupancy statement.** The vacuum's gravitating density is one binding
 quantum per coherence cell of volume 1/E_b³:
 
-$$\rho_\Lambda = E_b^4 \quad\Longrightarrow\quad \rho_\Lambda^{1/4} = 2.251\ \text{meV}$$
+$$\rho_\Lambda = E_b^4 \quad\Longrightarrow\quad \rho_\Lambda^{1/4} = 2.28\ \text{meV}$$
 
-**Measured: ρ_Λ^{1/4} = 2.25 meV. Agreement: 4 parts in 10⁴, zero adjustable
+**Measured: ρ_Λ^{1/4} = 2.25 meV. Agreement: 1.5% (1.01×), zero adjustable
 parameters in the final step.**
 
-**(c) The provenance of M₂, stated honestly.** M₂ derives from the condensate's
-effective-theory dictionary (a ghost-condensate-class EFT whose coefficients were fixed
-early in the program): M₂⁴ = X₀²P₂. One dictionary parameter (a hierarchy exponent with
-a natural band e⁻³⁰–e⁻³⁵, i.e. M₂ between 2.7 and 9.7 eV) is *selected* by this
-closure rather than independently fixed — so the triangle {ρ_Λ, M₂, α_c = 3α} is one
-constraint wearing three names, not three independent confirmations. The running MCMC
-that measures α_c grades the triangle. (An earlier draft claimed an additional
-loop-dressing factor matched the residual; that claim was input-inconsistent and is
-retired in the public failures ledger.)
+**(c) The provenance of M₂.** M₂ is fixed two ways that now agree: the condensate's
+effective-theory dictionary (a ghost-condensate-class EFT, M₂⁴ = X₀²P₂) puts it in a
+natural band 2.7–9.7 eV, and the electromagnetic handshake gives M₂ = α²·T_c = 9.53 eV
+once T_c is pinned at ≈179 keV by the dark sector's confining dynamics (below). So M₂ is
+*derived* from T_c, not selected to hit the answer: the chain runs one way —
+m_e → T_c → M₂ → ρ_Λ = 2.28 meV — a genuine 1.5% prediction against the observed 2.25.
+The free inputs are the portal (√σ_dark = m_e, below) and α_c = 3α (under MCMC test).
+(An earlier draft quoted M₂ as a *selected* value with "4 parts in 10⁴" agreement — that
+precision was circular — and added a loop-dressing factor that was input-inconsistent;
+both are retired in the public failures ledger.)
 
 **A closed form for the scale.** The dyad and the condensate communicate only through the shared
 electron, and both couplings are electromagnetic, which fixes the condensate's mass scale as

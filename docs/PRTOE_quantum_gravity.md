@@ -57,7 +57,7 @@ timing and passed identically.
 | Obstruction | Resolution in this framework | Grade |
 |---|---|---|
 | Non-renormalizability | Above the condensate's coherence scale there is no metric degree of freedom to renormalize; the problem relocates (explicitly, not evasively) to the substrate's microphysics | framework property |
-| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *computed* as the occupancy-binding energy ρ_Λ^{1/4} = ½α_c²M₂ = 2.251 meV against the measured 2.25 meV — 4 parts in 10⁴, with the mass scale M₂ fixed by the same closure (one constraint wearing three names) and α_c = 3α under test | derived; the M₂-selection caveat open |
+| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *computed* as the occupancy-binding energy ρ_Λ^{1/4} = ½α_c²M₂ = 2.28 meV against the measured 2.25 meV — a 1.5% (1.01×) prediction, with M₂ = α²·T_c derived from the confining T_c ≈ 179 keV and α_c = 3α under test | derived; the portal √σ_dark = m_e is the one input |
 | Weinberg–Witten (no composite gravitons) | Evaded by the preferred frame: Lorentz invariance is emergent/infrared, which is the recognized escape from the theorem's premises. The corresponding Lorentz-violation obligations are priced in a dedicated audit: matter carries no vector/tensor bridge to the frame (the dangerous operators are unwritable, not merely suppressed), leaving local physics Lorentz-invariant to the 10⁻¹²–10⁻³⁸ level demanded by clock-comparison and astrophysical bounds | paid [LV-pricing audit] |
 | Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property |
 | The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal | established mechanism, adopted [FFZ 1997; t422] |
@@ -123,8 +123,8 @@ replacing the one that died. It carries no free scale to absorb a miss.
 ## 6. What this framework does and does not claim
 
 **Owns**: a quantum substrate; an emergent metric with functioning horizons; a computed
-vacuum-energy scale matching observation to 4 parts in 10⁴ (with M₂ fixed by the same
-closure and α_c = 3α under test);
+vacuum-energy scale matching observation to 1.5% (with M₂ = α²·T_c derived from the
+confining T_c ≈ 179 keV and α_c = 3α under test);
 singularity-free interiors; a closed one-loop expression for Newton's constant; and a
 single-measurement falsification condition (§5.3).
 
