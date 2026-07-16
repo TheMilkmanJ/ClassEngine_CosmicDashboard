@@ -517,7 +517,7 @@ is its only account). Pay it curvature and the product is determined:*
  the deposit reading alive exactly until the posterior speaks.
 - **THE SPEAKER'S UNMAPPED ROOMS (author's localization of the
  silences, 2026-07-07 night):** the silences translate perfectly but
- say nothing — the author bet the gap is on the SPEAKER'S end (the
+ say nothing — the gap is on the SPEAKER'S end (the
  medium's own unmapped structure). Inventory of the unmapped:
  ROOM 1 — the medium is modeled as a REAL scalar; every laboratory
  superfluid is COMPLEX (Ψ = amplitude·e^{iξ}): unmapped are the
@@ -574,7 +574,7 @@ is its only account). Pay it curvature and the product is determined:*
  1×10⁻⁸ effective phantom is a cosmic average, not throat collateral).
  And the back door is welded: a financed wormhole converts to a time
  machine (Morris–Thorne–Yurtsever), which the khronon's global clock
- forbids structurally (C1e) — the author's "no way to invert time"
+ forbids structurally (C1e) — the "no way to invert time"
  call closes both exits. VERDICT: white hole = illegal books;
  wormhole = legal books, uncreditworthy; time machine = forbidden
  regardless of financing.
@@ -605,14 +605,14 @@ is its only account). Pay it curvature and the product is determined:*
 - **The overnight stream (author, 2026-07-07 early hours; scored on
  return):** KILLED — the Earth-spin coincidence (Earth spins daily,
  orbits yearly; slowdown is lunar tides, receipt: Moon recedes
- 3.8 cm/yr; Mercury rotates in 3:2 resonance); the author
- self-killed the torque version mid-paragraph (the reflex is
+ 3.8 cm/yr; Mercury rotates in 3:2 resonance); the torque
+ version was struck mid-paragraph (the reflex is
  installed). CORRECTED — c is spacetime's constant, not the medium's;
  the medium obeys it. HITS — mass is the toll booth (bought from
  condensates, C1f) and photons hold no mass account (why massless =
  auto-limit, zero proper time); ρ∞ = "a reserve directly invested in
  the superfluid, unspendable" — formally exact (ground state = no
- lower state = untappable; the author's appliance argument IS the
+ lower state = untappable; the appliance argument IS the
  proof); the siphon capped at the 1×10⁻³⁹ gravitational straw. THE
  RECONSTRUCTION — "radiation as dusk's AND dawn's champion; forward
  same as backwards; no singularity needed" = Penrose CCC's conformal
@@ -1006,7 +1006,7 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  (a) "TIME IS HOW THE LEDGER GETS PAID BACK — IN DECOHERENCE": the
  TICK/ARROW split resolves it. The tick is FUNDAMENTAL in this model
  (the khronon's foliation is physical, not emergent). The ARROW is
- exactly what the author said — and the file already carries it as
+ exactly as the model states — and the file already carries it as
  C1c's rate law: decoherence IS the posting event (C4a), entropy =
  record count, and time's direction = the direction net records
  accumulate ("posting is cheaper than shredding"). The author

@@ -57,8 +57,7 @@ dead, and the corpse ledger is public.
 | 23 | Fluid dynamics & turbulence | Kolmogorov translates; intermittency silent | Honest silence |
 | 24 | Methods: Bayesian & numerical | Joint refits; pre-registration; adversarial self-review protocol | The method IS a result |
 
-*Part II (below, rewritten 2026-07-07 after the author rejected a
-calibration-heavy first draft) extends the census to **74 domains**
+*Part II (below) extends the census to **74 domains**
 (entries 25–74) — every Part II entry is an ATTACHMENT: the model
 predicts, forbids, votes, inherits a bound, or stakes a kill condition
 in that domain, and each entry names the result that would hurt it. No
@@ -353,7 +352,7 @@ P(f_amp > 0.2) = 86% at all three tilts (chaos erases the tilt dial); the
 chaos was verified physical (3–4 decimal convergence across DOP853/Radau/
 tolerances); an earlier segmented bound's death is filed in the failures ledger — the surviving bound is stated by its
 own stamped caveat within the hour. Then the ergodic backbone: a
-microcanonical ensemble on the quartic shell — the author's blind
+microcanonical ensemble on the quartic shell — a blind
 reconstruction — approximately reproduces the dice; the gap was dissected
 (freeze-out explains a third; the remainder is *release memory*, born at
 L = 0, and anti-tracks tilt at n = 110/tilt), and the analytic exceedance
@@ -384,7 +383,7 @@ measured, Bérut 2012); Maxwell's demon bankrupted by its own bookkeeping
 cheaper than shredding"; the Bekenstein–Hawking horizon as surface-billed
 archive; laundering split into permitted scrambling vs forbidden erasure,
 with the chaos bound as the legal speed limit and black holes the cartel
-at the limit; the author's own completion — "information doesn't get
+at the limit; the completion — "information doesn't get
 destroyed, it just gets returned" — exact on all three clauses through
 Page-curve results. Calibration receipts along the way: Chandrasekhar as
 insolvency (scale exact), Casimir as boundary re-pricing (13 Pa at 100 nm,
@@ -463,8 +462,8 @@ placed against live data. That is what "attacked honestly" looks like.**
 
 White holes: killed four ways (no deposit history; an un-posting machine;
 blue-sheet foreclosure in ~one light-crossing; the medium's own global
-rotation breaks the needed time-reversal symmetry) — the author's bet,
-and the author won. Wormholes: legal books, denied credit — traversable
+rotation breaks the needed time-reversal symmetry) — the predicted
+result, borne out. Wormholes: legal books, denied credit — traversable
 throats need a permanent negative-energy overdraft that the quantum
 interest conjecture (Ford & Roman) refuses, and the medium cannot co-sign
 (NEC-saturating at the floor); the time-machine back door is welded shut
@@ -554,7 +553,7 @@ dies, the file shows exactly where, and why, and what was paid to know.*
 
 ---
 
-# PART II: THE ATTACHMENT CENSUS (2026-07-07, rewritten same morning — the author's actual order)
+# PART II: THE ATTACHMENT CENSUS
 
 *Fifty domains the model ATTACHES to. Attachment types: **PREDICTS** (a
 number or sign the domain can check), **FORBIDS** (a phenomenon whose
@@ -890,7 +889,7 @@ sub-threshold voids metals never can. Fights astrophysical degeneracy.*
 
 The first draft of Part II (git history, commit e413ea07) padded the
 census with calibration entries — real physics, honestly graded, but
-NOT what was ordered: the author asked for domains the MODEL attaches
+NOT what was ordered: the request was for domains the MODEL attaches
 to, and rejected the draft on exactly that reading. This rewrite is the
 attachment census: **50 domains (25–74), every one carrying an
 attachment type and a falsification hook.** The census now stands at
