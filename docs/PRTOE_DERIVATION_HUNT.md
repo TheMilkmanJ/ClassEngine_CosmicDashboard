@@ -8538,3 +8538,39 @@ Goldstone edge (~0.03).
 **Net:** the portal's ~MeV dark sector is cosmologically safe (no overclosure), leaves the DM as the
 ultralight excitations (option a intact), and its one falsifiable footprint is ΔN_eff(BBN). The
 DM-fate thread flagged in entry 228 is **closed: not fatal, and it hands the model a near-term BBN test.**
+
+---
+
+### Entry 233 — M4/λ_phys, RE-EXAMINED (operator: "take M4/λ_phys next"): **λ_phys is derived (~(m/Ψ₀)² ≈ 2×10⁻⁹¹) — but it is TWO quartics conflated, the biggest-BH support REQUIRES the repulsive one, and P-031's %-level testability rests on an unpinned O(1)**
+
+The corpus already derives λ_phys ≈ (m/Ψ₀)² ≈ 2×10⁻⁹¹ (spine §17): the ALP quartic saturating the
+isocurvature ceiling → P-2026-031 (%-level CDM isocurvature at ℓ~170). Verified numerically:
+(m/Ψ₀)² = 2.01×10⁻⁹¹ with m = 2.24×10⁻²⁰ eV, Ψ₀ = 5×10¹⁶ GeV (`python`). Pinned to a factor-~9 window
+[2.3×10⁻⁹², 2×10⁻⁹¹] by two independent bounds: BH support below, isocurvature above. Three red-team
+refinements:
+
+1. **TWO quartics, conflated under one symbol.** The BH/bounce floor (blackholes §3, bigbang §2:
+   "quartic *repulsion*") needs the **amplitude** quartic λ|Ψ|⁴, **repulsive** (λ>0). The isocurvature/
+   P-031 λ is the **phase/axion** quartic, **attractive** (from the cos θ potential). Same "λ_phys,"
+   opposite sign, different physical role.
+
+2. **The quartic is LOAD-BEARING for the biggest BHs — "any λ works" is too strong.** The quantum-
+   pressure (Kaup) mass M_Pl²/m ≈ **4×10⁹ M☉** is *below* the largest known BHs (~3×10¹⁰ M☉) by ~7×.
+   Quantum pressure alone caps short; the **repulsive amplitude quartic is required** (λ_ampl ≳
+   2.3×10⁻⁹², via M_max = 2×10⁵⁶ √λ M☉) to reach 3×10¹⁰ M☉. An attractive-only axion quartic would FAIL
+   the largest BHs. So blackholes' "any λ ≳ 10⁻⁹⁰ supports every BH" is fine as a *sufficient* bound
+   (10⁻⁹⁰ ≫ 2.3×10⁻⁹²), but bigbang's "every value of λ keeps ρ_bounce finite" is too strong (sign +
+   a nonzero floor matter).
+
+3. **P-031's %-level testability is O(1)-optimistic.** The real axion quartic carries a coefficient
+   ~1/6 (V = Λ⁴(1−cos(a/f))), so |λ_phase| ≈ 3×10⁻⁹² sits a factor ~6 *below* the naive (m/Ψ₀)² ceiling.
+   If it doesn't saturate, the isocurvature is sub-%-level and P-031 slips below current-Planck reach.
+   "Naturally saturates" holds only within the O(1).
+
+**Net:** λ_phys ~ 10⁻⁹¹ is genuinely pinned (factor-~9 window; the ALP structure lands at the top), so
+M4 is real. But it is **two quartics** (repulsive amplitude for the floor, attractive phase for
+isocurvature); the largest-BH support **requires** the repulsive one (quantum pressure alone falls ~7×
+short); and P-031's amplitude rests on an unpinned O(1) axion coefficient. **Owed (model-content, for
+the operator):** the BH/bounce docs should attribute the floor to quantum pressure + a *repulsive*
+amplitude quartic (not "any λ"), and P-031 should carry the O(1)/sub-%-level caveat. Flagged, not
+edited unilaterally.
