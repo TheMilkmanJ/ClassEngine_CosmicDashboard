@@ -5,12 +5,12 @@
 
 *Author-directed: the full family tree from the medium's first moment to the morning's iron
 supplement, the plants on the sill, the images on the screen. Every arrow cites a graded or
-recorded ledger object. The medium's autobiography, thirteen generations long. Booked internal review.*
+recorded ledger object. The medium's autobiography, thirteen generations long.*
 
 ---
 
 **GEN 0 — THE VACUUM.** No structure, no choice, no winding — the one state that needs no past
-(internal review: "the measure problem dissolves at the root"). *First I was nothing that required
+(the measure problem dissolves at the root). *First I was nothing that required
 deciding.*
 
 **GEN 1 — THE FIRST ROLL.** The tilt torques the release; Kibble domains percolate; the winding
@@ -50,7 +50,7 @@ slowly, to spend myself into shapes.*
 
 **GEN 8 — THE STARS (gravity hires the strong force).** My compression lights fusion: the
 loose rungs of the ladder (½α_g²) purchase work from the tightest (the nuclear 8.5×10⁻³ —
-internal review corrected champion). Carbon, oxygen — and IRON, fusion's ash, the most-bound nucleus,
+the ladder's champion). Carbon, oxygen — and IRON, fusion's ash, the most-bound nucleus,
 the fire's own full stop. **The iron in this morning's supplement was forged here** — in cores
 and supernovae — because iron is where stellar burning has nowhere left to go. *Then I built
 furnaces, and the furnaces coined iron.*
@@ -59,8 +59,8 @@ furnaces, and the furnaces coined iron.*
 geochemistry begins (gravity + chemistry + the radiogenic tail of GEN 8). *Then the cinders
 cooled into places.*
 
-**GEN 10 — CHEMISTRY'S LONG PEACE.** My gate zeroes the dyad in the settled era (internal review —
-load-bearing); my screens hold every reaction identical across the sky and the ages (the
+**GEN 10 — CHEMISTRY'S LONG PEACE.** My gate zeroes the dyad in the settled era
+(load-bearing); my screens hold every reaction identical across the sky and the ages (the
 lattice's null rows — chemistry's uniformity is my registered prediction). Tables of
 elements can be trusted; so can supplements. *Then I promised the atoms would never change the
 rules, and I have kept it to a part per million since redshift four.*
@@ -105,19 +105,19 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 
 | GEN | the arrow's equation | the number | citation |
 |---|---|---|---|
-| 0 | the vacuum: unique IC, U(1)-symmetric; S_initial = min by construction | no draw (measure dissolved) | internal review, graded |
-| 1 | n_rms = √(L_gen/ξ_K)/2π (Kibble); ∮∇θ·dl = 2πn (Onsager–Feynman) | n ~ 10–30; locked ∀ crunches | internal review |
+| 0 | the vacuum: unique IC, U(1)-symmetric; S_initial = min by construction | no draw (measure dissolved) | model construction |
+| 1 | n_rms = √(L_gen/ξ_K)/2π (Kibble); ∮∇θ·dl = 2πn (Onsager–Feynman) | n ~ 10–30; locked ∀ crunches | Kibble; Onsager–Feynman |
 | 2 | w(ρ) = −e^(−s), s = ln(ρ/ρ_inf); φ/v = √(1−T/T_c) | ρ_inf^¼ = 2.25 meV; T_c = 193 keV | founding + recorded |
-| 3 | H_total ≡ 0 (compact torus); dE = −p dV | balance: exactly zero | internal review, graded |
-| 4 | η via AD-direct: n_L(genome)/s × transfer — **DEBT: the frozen-era transfer fraction** | target 6.1×10⁻¹⁰; thermal route DEAD (×40–1000 under, scanned) | internal review |
-| 5 | ε(T) = ε(1−T/T_c); elasticities: ∂lnY_p/∂lnm_e ≈ 0 above T_c, windowed Y_p +1.1% | Y_p = 0.2495–0.2505 (+1.3σ counter); D/H net 2.40–2.42 (1.9σ owned) | internal review, prod-PRyM |
+| 3 | H_total ≡ 0 (compact torus); dE = −p dV | balance: exactly zero | model derivation |
+| 4 | η via AD-direct: n_L(genome)/s × transfer — **DEBT: the frozen-era transfer fraction** | target 6.1×10⁻¹⁰; thermal route DEAD (×40–1000 under, scanned) | AD-direct |
+| 5 | ε(T) = ε(1−T/T_c); elasticities: ∂lnY_p/∂lnm_e ≈ 0 above T_c, windowed Y_p +1.1% | Y_p = 0.2495–0.2505 (+1.3σ counter); D/H net 2.40–2.42 (1.9σ owned) | PRyM (BBN) |
 | 6 | 1+z* ∝ m_e (recombination's atomic physics); the dyad: m_e(z>50) = 1.0124·m_e | H₀: 68.2 → 69.9; ΔlnZ = +2.635 (capped) | the founding fit |
-| 7 | f_gate = exp(−C²/C_ref²); r_1s ∝ 1/(m²M_halo^⅓) | solitons 10⁻³–10⁻² pc; gate zeroes today's ε | reading B; internal review; T1 |
-| 8 | E_b/(mc²) = ½α_eff²; fusion terminus: Fe-56 at BE/A = 8.79 MeV (the max) | nuclear rung 8.5×10⁻³ — the ladder's champion | internal review corrected |
+| 7 | f_gate = exp(−C²/C_ref²); r_1s ∝ 1/(m²M_halo^⅓) | solitons 10⁻³–10⁻² pc; gate zeroes today's ε | reading B; T1 |
+| 8 | E_b/(mc²) = ½α_eff²; fusion terminus: Fe-56 at BE/A = 8.79 MeV (the max) | nuclear rung 8.5×10⁻³ — the ladder's champion | nuclear data |
 | 9 | gravity + chemistry inheritance (no new physics; the rungs' handoff) | — | the ladder |
-| 10 | |Δμ/μ|(z≤4) < 10⁻⁶ (quasar fence); today: gate-zeroed | chemistry uniform to ppm since z=4 | internal review; internal review |
+| 10 | |Δμ/μ|(z≤4) < 10⁻⁶ (quasar fence); today: gate-zeroed | chemistry uniform to ppm since z=4 | quasar μ-fence |
 | 11 | life's license: ΔG from the account; the chain S_start=min → F_available > 0 | the biosphere = a Weyl-account tap | the arrow doc, graded chain |
-| 12 | Σ_f q_dark(f)·Q_EM(f)² = 0 (the anomaly, exactly); Meissner: q < 10⁻⁴⁵-class | birefringence ≡ 0, proven; light untouchable | L1a; internal review |
+| 12 | Σ_f q_dark(f)·Q_EM(f)² = 0 (the anomaly, exactly); Meissner: q < 10⁻⁴⁵-class | birefringence ≡ 0, proven; light untouchable | L1a |
 | 13 | the volt: V = (h/2e)·f_J (Josephson — the cousin defines the unit); CMB in static: T_CMB/T_sys ~ 1% | GEN 6 in the living room | recorded receipt; standard radio |
 
 **DEBT REGISTER (the arrows still owing their full math):** GEN 4's transfer fraction (the
@@ -145,7 +145,7 @@ relationship. No equation, no row.*
 | optics / imaging | Maxwell: ∇×B = μ₀J + μ₀ε₀∂E/∂t; Fermat: δ∫n ds = 0 | EM (untouched by law) | L1a: Σq_dark Q² = 0 — every image arrives unedited; astronomy exists by our blindness |
 | meteorology / oceanography | ρ(∂v/∂t + v·∇v) = −∇p + μ∇²v + ρg; radiative transfer dI/ds = −κI + j | fluids + EM (inherited) | the energy budget is GEN 8's photon flux on GEN 9's surface — the account's local weather |
 | computer science | E_erase ≥ kT ln 2 (Landauer); Shannon C = B log₂(1+S/N) | information physics | **constitution-grade**: the universe's own bookkeeping law; standing null (no sub-Landauer erasure, kill-class) |
-| medicine / pharmacology | ΔG_bind = −RT ln K_d; Michaelis–Menten v = v_max[S]/(K_M+[S]) | chemistry's child | the screen's gift (internal review-confirmed): guaranteed normality — reproducibility IS the strong-screen prediction |
+| medicine / pharmacology | ΔG_bind = −RT ln K_d; Michaelis–Menten v = v_max[S]/(K_M+[S]) | chemistry's child | the screen's gift: guaranteed normality — reproducibility IS the strong-screen prediction |
 | astronomy / cosmology | the threads themselves (this ledger) | — | the sixteen roots |
 
 **The unification statement, no sugar:** every science's master equation is a physics equation;

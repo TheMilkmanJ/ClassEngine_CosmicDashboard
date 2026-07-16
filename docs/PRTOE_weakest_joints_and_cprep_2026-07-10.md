@@ -60,27 +60,27 @@ active-code changes are made.**
 
 ### B1. Current surface (recon)
 - `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (docketed; conformal onset), `dcdf_conv_g/at/n`
-  (DM→DE/dark-rad conversion); inline `dcdf_s_of_rho`, `dcdf_rho_rad`, `dcdf_conv_rate`.
+ (DM→DE/dark-rad conversion); inline `dcdf_s_of_rho`, `dcdf_rho_rad`, `dcdf_conv_rate`.
 - varying-m_e: via CLASS `varying_fundamental_constants` (instantaneous step at
-  `varying_transition_redshift`, currently z=50 — a HARD STEP, not the order-parameter ramp).
+ `varying_transition_redshift`, currently z=50 — a HARD STEP, not the order-parameter ramp).
 
 ### B2. What the new model changes (when unlocked)
 1. **Dyad as a thermal order parameter, not a z=50 step.** Replace the hard step with a smooth ramp
-   φ(T)/v = √(max(0, 1 − T/T_c)), so δm_e/m_e = ε·(φ/v)² turns on continuously below T_c.
-   New param: `dcdf_dyad_Tc` (condensation temperature, ~keV, the output). `Tc<=0` disables →
-   recovers the current step (backward-compatible, like the `z_rad_onset<=0` guard).
+ φ(T)/v = √(max(0, 1 − T/T_c)), so δm_e/m_e = ε·(φ/v)² turns on continuously below T_c.
+ New param: `dcdf_dyad_Tc` (condensation temperature, ~keV, the output). `Tc<=0` disables →
+ recovers the current step (backward-compatible, like the `z_rad_onset<=0` guard).
 2. **Two-field bookkeeping.** Field 1 = existing dcdf (charge/DM+DE). Field 2 = dyad (charge-free).
-   Only field 2 sources δm_e; field 1 stays as-is. Minimal: one new ramp function, one new param.
+ Only field 2 sources δm_e; field 1 stays as-is. Minimal: one new ramp function, one new param.
 3. **Amplitude:** ε = 1.24% stays the derived dyad amplitude (`c·f_amp·Ψ₀/M_red`); NOT a new knob.
 
 ### B3. Where each change lands (map)
 - `include/background.h`: add `double dcdf_dyad_Tc;` to the struct; add inline
-  `dcdf_dyad_ramp(pba, a)` next to `dcdf_rho_rad` (same guard pattern).
+ `dcdf_dyad_ramp(pba, a)` next to `dcdf_rho_rad` (same guard pattern).
 - `source/input.c`: read `dcdf_dyad_Tc` (default 0 = disabled); validate ≥0.
 - `source/background.c`: wire `dcdf_dyad_ramp` into the varying-constant m_e call so
-  m_e(a) = m_e_lab·(1 + ε·ramp²) replaces the instantaneous step when `dcdf_dyad_Tc>0`.
+ m_e(a) = m_e_lab·(1 + ε·ramp²) replaces the instantaneous step when `dcdf_dyad_Tc>0`.
 - `source/perturbations.c`: no new structure — the m_e change propagates through the existing
-  recombination/Thomson path (varying-constants already hooked there). Verify only.
+ recombination/Thomson path (varying-constants already hooked there). Verify only.
 
 ### B4. Order of operations (when unlocked)
 #40 clears → set ε, T_c from the resolver → add the param + ramp (B3) behind the `Tc<=0` guard →
@@ -92,29 +92,29 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 ## JOINTS UPDATE (same day, post-atom-night)
 
 - **J2 (gate-0) — RESOLVED**: cleared via the double sign-correction, re-signed as a HEAL
-  (T_c = 193 keV, +0.06σ D/H, zero Y_p tax). The wall was a pharmacy.
+ (T_c = 193 keV, +0.06σ D/H, zero Y_p tax). The wall was a pharmacy.
 - **J1 (the DE value) — RECLASSIFIED**: not constitutional-forever; **the cosmic Rydberg** (Card 1,
-  whisper: ½α_c²M₂ = 1.98 vs 2.25 meV; graduation teeth set).
+ whisper: ½α_c²M₂ = 1.98 vs 2.25 meV; graduation teeth set).
 - **J3 (DESI) — HARDENED BY THE MODEL ITSELF**: the grammar derives w = −1 today (mass-defect
-  O(δ²)); DR3 is now a pure kill-or-confirm on a derived commitment.
+ O(δ²)); DR3 is now a pure kill-or-confirm on a derived commitment.
 - **J4 (m_e real) — new instruments**: P-022 (21cm), P-024 (the ε-dipole), the radio ratio-lock.
 - **J5–J7 — became the card deck** (spine §14): the portal embodied (vector-like candidate),
-  the abundance routed (genome→CP→η), v_L benchmarked.
+ the abundance routed (genome→CP→η), v_L benchmarked.
 
 ## JOINTS UPDATE 2 (2026-07-11, the radio night)
 
 - **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS:** ρ_inf^¼ =
-  ½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV. Bohr binding × Landau-capped collective
-  zero-point (pair-breaking = E_b = 2Δ) × BEC phonon speed (c_s = √α_c). The 0.4% "match"
-  retired as prefactor-naive; scope held cold: the MODEL's floor value, not the CC problem writ
-  large. J1 is no longer RED — it is a candidate-derivation with a 20% honest O(1).
+ ½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV. Bohr binding × Landau-capped collective
+ zero-point (pair-breaking = E_b = 2Δ) × BEC phonon speed (c_s = √α_c). The 0.4% "match"
+ retired as prefactor-naive; scope held cold: the MODEL's floor value, not the CC problem writ
+ large. J1 is no longer RED — it is a candidate-derivation with a 20% honest O(1).
 - **J2 (gate-0) — PRODUCTION-ABSOLUTE:** clean PRyM: ∂ln(D/H)/∂ln m_e ≈ 0. The D/H pharmacy
-  died with it; Y_p is the true medicine (+0.65σ); the dyad owns a D/H-widening discriminator
-  (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per internal review; was 2.372/2.31σ pre-window) with the radio D-line (P-027) as referee.
+ died with it; Y_p is the true medicine (+0.65σ); the dyad owns a D/H-widening discriminator
+ (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per internal review; was 2.372/2.31σ pre-window) with the radio D-line (P-027) as referee.
 - **J4 gains the sharpest instrument:** the two-line ratio-lock (ν_H/ν_D = 4.338649 preserved,
-  both lines +2.50% at z>50).
+ both lines +2.50% at z>50).
 - **NEW STANDING RISK:** the D/H fork (windowed bet: 2.40–2.42 vs the quasar 2.527, ~1.9σ) AND the Y_p reversal (+1.3σ counter, internal review — the medicine was an artifact).
 - **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved draw→winding-average
-  (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
+ (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
 - **C-code gate RESET (author):** >85% deleted; PolyChord is the gate (the claim is held
-  provisional until it runs).
+ provisional until it runs).

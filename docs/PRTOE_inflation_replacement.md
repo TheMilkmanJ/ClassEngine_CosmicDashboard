@@ -16,25 +16,25 @@ and eternal-inflation's multiverse.
 
 ## 1. The model's answers, one per problem
 - **Horizon**: the universe is CYCLIC with a bounce (the CSW pressure floor discharges
-  the singularity) — causal contact is inherited from the previous cycle. No superluminal
-  trick needed; the sky is one temperature because it has always been one system.
+ the singularity) — causal contact is inherited from the previous cycle. No superluminal
+ trick needed; the sky is one temperature because it has always been one system.
 - **Flatness/geometry**: the compact flat torus is the model's standing geometry (the omk
-  run: curvature offered, declined — internal review); geometry is inherited through the bounce,
-  not driven flat.
+ run: curvature offered, declined); geometry is inherited through the bounce,
+ not driven flat.
 - **Relics**: no GUT phase transition is invoked → no monopole problem to dilute. The one
-  topological object (the winding) is not a relic problem — it is the GENOME, and its
-  observational signature is the axis family (a prediction, not a pollution).
+ topological object (the winding) is not a relic problem — it is the GENOME, and its
+ observational signature is the axis family (a prediction, not a pollution).
 - **The seeds**: the zero-point start (§19) — fluctuations are the condensate's quantum
-  noise, stretched through the conformal (w = 1/3) phase.
+ noise, stretched through the conformal (w = 1/3) phase.
 - **The tilt** (the quantitative jewel, EXPLORATORY): the amplitude rides the induced
-  coupling, which runs logarithmically by the no-bare clause; the spectrum squares it:
-  $$n_s - 1 = -\frac{2}{\ln(M_{\rm Pl}/T_{\rm on})} = -0.036 \;\;\text{vs measured}\; -0.0351 \pm 0.0042$$
-  Zero new objects — the tilt of the primordial sky is the census's running,
-  photographed. (Inflation FITS n_s with potential parameters; this DERIVES it from two
-  recorded scales.)
+ coupling, which runs logarithmically by the no-bare clause; the spectrum squares it:
+ $$n_s - 1 = -\frac{2}{\ln(M_{\rm Pl}/T_{\rm on})} = -0.036 \;\;\text{vs measured}\; -0.0351 \pm 0.0042$$
+ Zero new objects — the tilt of the primordial sky is the census's running,
+ photographed. (Inflation FITS n_s with potential parameters; this DERIVES it from two
+ recorded scales.)
 - **The isocurvature signature**: inflation must suppress isocurvature; this model
-  PREDICTS a specific %-level line at ℓ ~ 170 (P-031, now a consequence of the λ
-  saturation) — a discriminant, not an embarrassment.
+ PREDICTS a specific %-level line at ℓ ~ 170 (P-031, now a consequence of the λ
+ saturation) — a discriminant, not an embarrassment.
 
 ## 2. What the model does NOT need
 No inflaton, no slow-roll tuning, no reheating theory, no measure problem, no eternal

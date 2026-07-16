@@ -20,11 +20,11 @@ ANN-2026-005's healer is phenomenological: δv/v = κ_v·(ρ_d/ρ_r) with
 κ_v ∈ [0.06, 0.41]. The first evidence-class entry requires deriving
 the coupling from an action. Constraints accumulated:
 - (ANN-2026-004) the amendment must be CONSTANT through BBN
-  (z ~ 10⁹ → 10⁸), dead by recombination, dead in all laboratories;
-- (the internal review) derived-vs-fitted: the author's key structure must be
-  computed, not tuned;
+ (z ~ 10⁹ → 10⁸), dead by recombination, dead in all laboratories;
+- Derived-vs-fitted: the model's key structure must be
+ computed, not tuned;
 - (opening pass) density-portals demand an eV suppression scale
-  (IR-strong) AND fail constancy anyway.
+ (IR-strong) AND fail constancy anyway.
 
 ## 2. The drift wall (found and named this session)
 
@@ -37,7 +37,7 @@ of the medium.** The medium has exactly one: its equation of state.
 
 ## 3. The w-portal
 
-  **L = −μ²(1 + k·w[(∂ξ)²])|Φ|²,   w(y) = y/(4+3y)**
+ **L = −μ²(1 + k·w[(∂ξ)²])|Φ|², w(y) = y/(4+3y)**
 
 — the medium's local equation of state multiplicatively modulating
 the Higgs mass parameter. Local; analytic in (∂ξ)² (w is a smooth
@@ -70,13 +70,13 @@ unvirialized-gas channel with a sign and a magnitude — the two
 programs (the healer and R1) now share one observational target:
 **m_e-sensitive spectroscopy in demonstrably unvirialized gas.**
 
-## 3a. THE THREE SEAMS (internal review,) — closed, with one retraction
+## 3a. THE THREE SEAMS — closed, with one retraction
 
 **Seam 1 — the single definition, and the values by substitution.**
 The portal's w is the EXCITATION-SECTOR equation of state, one
 analytic function of the single local invariant X̃ = (∂ξ)²:
 
-  **g(X̃) ≡ (P+ρ∞)/(ρ−ρ∞) = (X̃−1)/(4+3(X̃−1))**
+ **g(X̃) ≡ (P+ρ∞)/(ρ−ρ∞) = (X̃−1)/(4+3(X̃−1))**
 
 (ρ∞ = −P₀ are constants of the action, so g is local). Substitution,
 one definition, three values: pre-basin y ≡ X̃−1 = 2.8×10⁷ at BBN ⇒
@@ -122,21 +122,21 @@ healer working, not the Drift Wall's failure returning.
 **Audits 1 (radiative stability) and 2 (BBN thermal) collapse to ONE
 condition and the verdict is sharp both ways:**
 - NAIVE point coupling (loop momenta to m_h): the Higgs loop feeds
-  k·μ²·⟨|Φ|²⟩ ~ 7×10³⁹ eV⁴ into the medium's Lagrangian — 10³⁶ × M₂⁴:
-  the basin is obliterated without a ~10⁻³⁶ tadpole tuning. **FAILS.**
+ k·μ²·⟨|Φ|²⟩ ~ 7×10³⁹ eV⁴ into the medium's Lagrangian — 10³⁶ × M₂⁴:
+ the basin is obliterated without a ~10⁻³⁶ tadpole tuning. **FAILS.**
 - FORM-FACTOR-PROTECTED coupling (vertex soft above the condensate
-  scale M₂ — the portal reads the COLLECTIVE density, and probes
-  above the healing scale see no collective mode): the loop is
-  m_h-suppressed, fractional medium correction = k/32π² = **2.8×10⁻⁵.
-  PASSES.** The same softness simultaneously kills BBN-era
-  medium–plasma thermalization (audit 2). One condition, two audits.
+ scale M₂ — the portal reads the COLLECTIVE density, and probes
+ above the healing scale see no collective mode): the loop is
+ m_h-suppressed, fractional medium correction = k/32π² = **2.8×10⁻⁵.
+ PASSES.** The same softness simultaneously kills BBN-era
+ medium–plasma thermalization (audit 2). One condition, two audits.
 - Softness is NATURAL for condensate portals (standard collective-
-  mode physics) but UNDERIVED here: it is a property of the §2
-  completion. **The w-portal's radiative bill is therefore payable
-  if and only if the completion delivers the form factor — the same
-  single window every open item in this program queues at.**
+ mode physics) but UNDERIVED here: it is a property of the §2
+ completion. **The w-portal's radiative bill is therefore payable
+ if and only if the completion delivers the form factor — the same
+ single window every open item in this program queues at.**
 - Audit 3: MOOT (void branch retracted). Audit 4: permanent residue
-  (the honest triple's amplitude-input clause).
+ (the honest triple's amplitude-input clause).
 
 **Final status of the working docket: the author is written, local,
 tree-natural, shape-forced, seam-closed, and radiatively viable
@@ -146,16 +146,16 @@ this side of the §2 wall.**
 ## 4-old. Audits owed (superseded by the above)
 
 1. **Radiative stability**: does the portal loop-induce μ²-shifts or
-   medium-potential corrections that destabilize k ~ 10⁻²?
+ medium-potential corrections that destabilize k ~ 10⁻²?
 2. **Thermal consistency at BBN**: the vertex's y-dependent pieces
-   vs the MeV plasma — form-factor/collective-mode analysis (the
-   condensate's healing-scale cutoff is the expected regulator).
+ vs the MeV plasma — form-factor/collective-mode analysis (the
+ condensate's healing-scale cutoff is the expected regulator).
 3. **The late-time negative branch**: audit m_e-sensitive
-   diffuse-gas data at z ≲ 2 (Lyα forest thermal history, late-time
-   CMB) for a −0.3% kill.
+ diffuse-gas data at z ≲ 2 (Lyα forest thermal history, late-time
+ CMB) for a −0.3% kill.
 4. k's VALUE (9×10⁻³) remains an input — the derivation fixes the
-   author's form and profile; naturalness of the number is the
-   final step (or the honest residue).
+ author's form and profile; naturalness of the number is the
+ final step (or the honest residue).
 
 *Chain of custody: drift wall found → density portals killed →
 invariant-attribute search → w unique → author written → profile

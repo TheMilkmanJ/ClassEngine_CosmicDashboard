@@ -7,25 +7,25 @@
 SCREENED in local regimes, but no screen in this model is an absolute zero — so the medium is
 threaded into every scale, and the map of the threading = the QUANTUM section (which
 transactions exist) × the SCREENING section (how much survives each rung). Status: STRUCTURAL
-(candidate), booked internal review; companion to the recorded TRANSACTION_ATLAS.*
+(candidate); companion to the recorded TRANSACTION_ATLAS.*
 
 ## 0. The two axes
 
 **The quantum axis (what CAN couple)** — the medium's three channels, each graded:
 1. **The gravitational channel** (the account, dE = −pdV, the numeraire): couples to
-   everything, always — NEVER screened (screening gravity would violate the model's own L1).
-2. **The trace/dyad channel** (ε on fundamental masses): selective (internal review mass-sourcing),
-   and SCREENABLE — this is the only channel with dials nature turns down.
+ everything, always — NEVER screened (screening gravity would violate the model's own L1).
+2. **The trace/dyad channel** (ε on fundamental masses): selective (mass-sourcing),
+ and SCREENABLE — this is the only channel with dials nature turns down.
 3. **The quantum-substrate channel** ([θ,N] = i, the f-sum, ODLRO): not a force but an
-   IDENTITY — everything sits inside the medium's coherence (the ambient healing length is
-   402 AU: every atom, lab, and planet is DEEP inside one coherent patch).
+ IDENTITY — everything sits inside the medium's coherence (the ambient healing length is
+ 402 AU: every atom, lab, and planet is DEEP inside one coherent patch).
 
 **The screening axis (how much gets through)** — two recorded screens, both finite:
-- **Reading B's C²-gate**: f = exp(−C²/C_ref²) — the Weyl-metered screen (internal review: the
-  account-reader; internal review: LOAD-BEARING — it is what zeroes today's ε against clock bounds).
-  Gaussian: ferociously suppressing, never identically zero.
+- **Reading B's C²-gate**: f = exp(−C²/C_ref²) — the Weyl-metered screen (the
+ account-reader; LOAD-BEARING — it is what zeroes today's ε against clock bounds).
+ Gaussian: ferociously suppressing, never identically zero.
 - **Vainshtein**: the derivative screen in dense environments — the recorded EP clearance
-  (5-order margin). Power-law: finite residual by construction.
+ (5-order margin). Power-law: finite residual by construction.
 
 ## 1. The ladder (rung by rung, with the surviving transactions)
 
@@ -37,7 +37,7 @@ transactions exist) × the SCREENING section (how much survives each rung). Stat
 | solar system | full (ephemerides standard) | Vainshtein-screened: residual ≤ 10⁻⁵ of bounds (the recorded margin — a PREDICTION BAND, not a zero) | 402-AU patch: the system sits inside one coherence cell |
 | Earth labs | full | **the ramp's tail: <10⁻⁶ by z~4 (quasar fence), ~0 today (the gate) — clocks safe BY the screen, not by absence** | Josephson/f-sum: the substrate's recorded lab receipts |
 | atoms / quantum | full (weight) | the ε-HISTORY written into every mass (the lattice's fossil record) | **the medium IS the arena: the interpretation layer (§12), the neighbor rule, the one phase** |
-| the basement | — | — | the Planck layer (internal review: forced by induced-G) |
+| the basement | — | — | the Planck layer (forced by induced-G) |
 
 ## 2. The author's law, stated as physics
 
@@ -62,7 +62,7 @@ weakness is the ADDITION's, not gravity's. The residual addition is the predicti
 
 The rung-by-rung residual NUMBERS beyond the recorded ones (the solar-system band's precise
 value; the galactic tail's formal size; today's clock-drift rate from the gate's tail —
-the LV/clock pricing pass, internal review standing item). The map's structure is recorded; its last
+the LV/clock pricing pass, a standing item). The map's structure is recorded; its last
 decimal places are the same debts already on the board.
 
 *Screens dim; they do not extinguish. The medium runs one account nothing can leave, one

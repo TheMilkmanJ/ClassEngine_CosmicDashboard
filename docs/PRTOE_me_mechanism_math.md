@@ -6,8 +6,8 @@
 
 
 *Assembled 2026-07-07. This is the EQUATIONS-ONLY companion to
-`PRTOE_me_trigger.md` (which holds the reasoning, the dead ends, and the
-internal review dialogue). Every result here is cross-referenced to its trigger-doc
+`PRTOE_me_trigger.md` (which holds the reasoning and the dead ends).
+Every result here is cross-referenced to its trigger-doc
 section. Status tags: [DERIVED] solid, [BOUNDED] size/ceiling fixed but not
 exact, [OPEN] owed, [FORCED] required by multiple independent constraints.*
 
@@ -27,14 +27,14 @@ all present-day (virialized) measurements see `m_e^lab`.
 
 The medium is a complex superfluid order parameter (Room 1):
 
-    Psi(x) = |Psi(x)| * exp(i * ξ(x))
+ Psi(x) = |Psi(x)| * exp(i * ξ(x))
 
 The coherence/smoothness indicator is built from the phase field. Define the
 multi-stream (shell-crossing) bit via vorticity of the phase-gradient
 velocity `v = grad(xi)`:
 
-    Theta(x) = 1  if the medium is single-stream (smooth, curl-free, coherent)
-    Theta(x) = 0  if multi-streamed / vortex-tangled (structured, decohered)
+ Theta(x) = 1 if the medium is single-stream (smooth, curl-free, coherent)
+ Theta(x) = 0 if multi-streamed / vortex-tangled (structured, decohered)
 
 Key identity (exact): curl(grad(ξ)) = 0 for any smooth single-valued phase,
 so Theta can only flip at genuine phase defects (vortices) -- structure.
@@ -44,18 +44,18 @@ Smooth observable proxy: the Weyl curvature invariant C², which is
 IDENTICALLY ZERO in conformally-flat FRW and nonzero only where tidal
 structure exists:
 
-    S(x) = f(C²(x) / C_ref² ),   f = a near-step (saturating) function
+ S(x) = f(C²(x) / C_ref² ), f = a near-step (saturating) function
 
 ---
 
 ## 2. The coupling [OPEN legality / FORCED form]
 
-    L_int = -eps * S(x) * m_e^lab * (psi_e-bar psi_e)
+ L_int = -eps * S(x) * m_e^lab * (psi_e-bar psi_e)
 
 This is a direct, dimension-5, Planck-suppressed moduli/dilaton-class
 author with S(x) the environmental modulator. Legality under the coupling
-census: OPEN (narrow reading → legal; broad → forbidden; internal review turns
-61-65). Form: FORCED (geometry is 60 orders too weak, sec 32, so a direct
+census: OPEN (narrow reading → legal; broad → forbidden). Form: FORCED
+(geometry is 60 orders too weak, sec 32, so a direct
 author is unavoidable). [trigger-doc sec 23, 32, 34]
 
 ---
@@ -65,9 +65,9 @@ author is unavoidable). [trigger-doc sec 23, 32, 34]
 Requirement A (MICROSCOPE, sec 26): the residual shift inside structure must
 satisfy the Eotvos bound. Differential Ti/Pt sensitivity:
 
-    d ln M_atom / d ln m_e  =  Z - E_bind/m_e,   E_bind = 15.73 * Z^(7/3) eV
-    (Ti: 2.517×10⁻⁴ ;  Pt: 2.171×10⁻⁴ ;  differential: 3.46×10⁻⁵)
-    ⇒ residual |δ m_e/m_e| at Earth  <  8.7×10⁻¹¹
+ d ln M_atom / d ln m_e = Z - E_bind/m_e, E_bind = 15.73 * Z^(7/3) eV
+ (Ti: 2.517×10⁻⁴ ; Pt: 2.171×10⁻⁴ ; differential: 3.46×10⁻⁵)
+ ⇒ residual |δ m_e/m_e| at Earth < 8.7×10⁻¹¹
 
 Requirement B (quasar, sec 7/12): a smooth density-dependence gives absorber
 differentials 1×10⁴ over bound → binarity FORCED.
@@ -76,7 +76,7 @@ Consequence: a gentle exponential fails -- the curvature gap between
 recombination and dwarf cores is only ~22x (1.35 decades) but the required
 suppression is 8.2 decades. Minimum power:
 
-    S(x) = exp[ -(C²/C_ref²)^n ],   n > 2.43   [FORCED, sec 27]
+ S(x) = exp[ -(C²/C_ref²)^n ], n > 2.43 [FORCED, sec 27]
 
 i.e. a near-threshold/step. Both independent constraints force the same
 sharpness → two-constraint pillar. Once suppressed at the dwarf core,
@@ -92,8 +92,8 @@ C_ref is NOT a free scale: the transition is set by a topological event
 Ceiling (sec 31): only the ELECTROMAGNETIC part of m_e can respond to an
 EM-binding environment. Split:
 
-    m_e = m_bare(Higgs-Yukawa, ~99%) + delta_m_EM(self-energy, ~1%)
-    delta_m_EM/m_e = (3 α / 4pi) * ln(Λ²/m_e²)  ~  1-2%  (O(α))
+ m_e = m_bare(Higgs-Yukawa, ~99%) + delta_m_EM(self-energy, ~1%)
+ delta_m_EM/m_e = (3 α / 4pi) * ln(Λ²/m_e²) ~ 1-2% (O(α))
 
 So eps ≤ (EM self-energy fraction) ~ 1-2%. The observed 1.24% sits AT the
 ceiling. Size DERIVED; exact value needs Λ (cutoff, ~18 MeV -- not yet
@@ -107,13 +107,13 @@ those bounds -- the surviving EM-binding knob, selected by data. [sec 7, 29]
 ## 5. Which curvature piece, and why [DERIVED, 3 independent reasons]
 
 The trigger couples to WEYL (tidal/radiative), not RICCI (local/binding):
-  R1. Ricci fails directionally -- large at BOTH high-z background AND in
-      halos, cannot distinguish smooth-dense from clumped. [sec 25]
-  R2. Weyl = 0 identically in smooth FRW (conformal flatness) -- exactly the
-      "bare in smooth space" requirement. [sec 23]
-  R3. The switch fires on a DECOHERENCE event; decoherence is driven by a
-      force's RADIATIVE/far piece; Weyl IS gravity's radiative piece; Ricci
-      (binding piece) cannot trigger a decoherence event. [sec 30]
+ R1. Ricci fails directionally -- large at BOTH high-z background AND in
+ halos, cannot distinguish smooth-dense from clumped. [sec 25]
+ R2. Weyl = 0 identically in smooth FRW (conformal flatness) -- exactly the
+ "bare in smooth space" requirement. [sec 23]
+ R3. The switch fires on a DECOHERENCE event; decoherence is driven by a
+ force's RADIATIVE/far piece; Weyl IS gravity's radiative piece; Ricci
+ (binding piece) cannot trigger a decoherence event. [sec 30]
 
 Near/far force split (general): every long-range force = near piece (binds)
 + far/radiative piece (carries info away = decoheres). EM: Coulomb binds,
@@ -127,10 +127,10 @@ A viable channel must be simultaneously STRONG [S] (O(α), not curvature-
 suppressed), LEGAL [L] (census + MICROSCOPE), VARYING [V] (smooth vs
 structured). Scored:
 
-    curvature       : L,V   not S  (60 orders weak, R/m_e²~1×10⁻⁶⁹)
-    direct coupling : S,V   not L  (census scope, OPEN)
-    khronon/frame   : S,L   not V  (spatially uniform)
-    intrinsic dm_EM : S,L   not V  (present everywhere equally)
+ curvature : L,V not S (60 orders weak, R/m_e²~1×10⁻⁶⁹)
+ direct coupling : S,V not L (census scope, OPEN)
+ khronon/frame : S,L not V (spatially uniform)
+ intrinsic dm_EM : S,L not V (present everywhere equally)
 
 Only the direct coupling has S+V; its sole missing property is L, and
 MICROSCOPE-safety within L is already delivered by the sec-27 sharp
@@ -141,14 +141,14 @@ screening. ⇒ the whole roof reduces to the census-scope question. [sec 34]
 ## 7. The EP escape (fifth-force gate) [RESOLUTION DIRECTION, computation OPEN]
 
 Smooth dilaton: needs β~0.012, MICROSCOPE allows β<~1×10⁻⁴ → 2 orders
-over → DEAD. [internal review,]
+over → DEAD.
 
 Escape: the field is the SHARP/SATURATED Theta (sec 27 sharpness), not a
 smooth dilaton. Inside the virialized MW halo Theta is at its ceiling →
 grad(Theta) ~ 0 (flat top) → grad(φ) exponentially suppressed → no
 fifth force. Chameleon-class screening; screening agent = Theta saturation
 (forced, not tuned). Freezing agent = VIRIALIZATION (medium's own dynamics,
-static in a virialized halo). [defender the internal review]
+static in a virialized halo).
 
 Screening-test corroboration (sec 37, computed): atomic clocks are a GENUINE
 third independent leg -- they kill the continuous version via temporal physics
@@ -159,13 +159,13 @@ consistency-check (saturated → lab value, confirmed ~1×10⁻⁵). Continuous 
 now killed by TWO independent experiments (quasar spatial + clocks temporal).
 
 OWED COMPUTATION (make-or-break):
-  (i)   eps = 1.24% at recombination (Theta~0, smooth), AND
-  (ii)  saturated-Theta screening: grad(φ) < MICROSCOPE at Earth AND
-        clears the reopened chameleon/Casimir/EP bounds, AND
-  (iii) virialization delivers freezing (Theta static by medium EOM), AND
-  (iv)  quasar delta_mu/μ ~ 0 (all virialized absorbers Theta-saturated).
+ (i) eps = 1.24% at recombination (Theta~0, smooth), AND
+ (ii) saturated-Theta screening: grad(φ) < MICROSCOPE at Earth AND
+ clears the reopened chameleon/Casimir/EP bounds, AND
+ (iii) virialization delivers freezing (Theta static by medium EOM), AND
+ (iv) quasar delta_mu/μ ~ 0 (all virialized absorbers Theta-saturated).
 Screening machinery is cousin to the abandoned v1-v3 sector → must earn
-its place fresh (graveyard Rule 3), inherits nothing. [the internal review]
+its place fresh (graveyard Rule 3), inherits nothing.
 
 ---
 
@@ -174,10 +174,10 @@ its place fresh (graveyard Rule 3), inherits nothing. [the internal review]
 Under a single m_e amendment, ALL EM-binding observables shift in LOCKED
 correlation (sec 29):
 
-    binding energies (Rydberg ~ m_e):        +1.24%
-    atomic sizes (Bohr radius ~ 1/m_e):      -1.24%
-    transition frequencies:                  +1.24%
-    21-cm hyperfine (~m_e²/m_p):            ~+2.5%
+ binding energies (Rydberg ~ m_e): +1.24%
+ atomic sizes (Bohr radius ~ 1/m_e): -1.24%
+ transition frequencies: +1.24%
+ 21-cm hyperfine (~m_e²/m_p): ~+2.5%
 
 Discriminator: the dark-ages/cosmic-dawn 21-cm sky (unvirialized IGM,
 Theta~1, BARE value) vs the standard (virialized) sky. A specific
@@ -189,20 +189,20 @@ shift. [sec 8, 29] REACH/SKA-low class instruments.
 ## 9. What is DERIVED vs OPEN (honest ledger)
 
 DERIVED / FORCED:
-  - the environmental variable (Theta, vorticity-based, exact identity) [1]
-  - the coupling FORM is forced (geometry 60 orders too weak) [2]
-  - the transition is FORCED sharp by 2 independent constraints [3]
-  - Weyl not Ricci, 3 independent reasons [5]
-  - the amplitude SIZE/CEILING (EM self-energy fraction, ~1-2%) [4]
-  - the roof reduces to ONE question (census scope) [6]
-  - the locked-correlation observable signature [8]
+ - the environmental variable (Theta, vorticity-based, exact identity) [1]
+ - the coupling FORM is forced (geometry 60 orders too weak) [2]
+ - the transition is FORCED sharp by 2 independent constraints [3]
+ - Weyl not Ricci, 3 independent reasons [5]
+ - the amplitude SIZE/CEILING (EM self-energy fraction, ~1-2%) [4]
+ - the roof reduces to ONE question (census scope) [6]
+ - the locked-correlation observable signature [8]
 
 OPEN:
-  - census-scope legality (a/b) -- reproduce the census derivation [2,6]
-  - exact amplitude coefficient (cutoff + modulation fraction) [4]
-  - the EP-screening computation (grad φ < MICROSCOPE; chameleon bounds) [7]
-  - virialization-delivers-freezing, from the medium's EOM [7]
-  - the two-field sims (docketed): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
+ - census-scope legality (a/b) -- reproduce the census derivation [2,6]
+ - exact amplitude coefficient (cutoff + modulation fraction) [4]
+ - the EP-screening computation (grad φ < MICROSCOPE; chameleon bounds) [7]
+ - virialization-delivers-freezing, from the medium's EOM [7]
+ - the two-field sims (docketed): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
 
 The empirical fit (m_e = 1.0124, fits the CMB) is UNTOUCHED by all of the
 above -- this document concerns the MECHANISM's legality/derivation, not
@@ -225,66 +225,66 @@ lepton-mass sector). Neutrino mass rides the lepton DOUBLET L (Weinberg (LH)(LH)
 quarks have no such author, so the medium has no reason to couple to Q. Minimal
 coupling = a field-dependent kinetic renormalization of L:
 
-    Z_L(Psi) = 1 + Psi/f_L        [dim-5:  (Psi/f_L) * L-bar iD-slash L]
+ Z_L(Psi) = 1 + Psi/f_L [dim-5: (Psi/f_L) * L-bar iD-slash L]
 
 Canonical normalization of L rescales every lepton coupling by Z_L^(-1/2):
 
-    charged lepton (one L):  m_e  ∝ Z_L^(-1/2)  ⇒  dm_e/m_e = -1/2 (dPsi/f_L)
-    neutrino     (two L's):  m_ν ∝ Z_L^(-1)    ⇒  dm_nu/m_ν = -(dPsi/f_L)
+ charged lepton (one L): m_e ∝ Z_L^(-1/2) ⇒ dm_e/m_e = -1/2 (dPsi/f_L)
+ neutrino (two L's): m_ν ∝ Z_L^(-1) ⇒ dm_nu/m_ν = -(dPsi/f_L)
 
 Consequences:
-  - BBN-safe by DISCONNECTION (not a dodge): Psi couples to L only; the quark/pion/
-    deuteron channel is simply not connected.
-  - WHY THE ELECTRON: Z_L shifts all charged leptons equally (e,μ,τ); only electrons
-    survive at recombination (μ,τ decayed) → the electron is the charged lepton
-    PRESENT, not a chosen flavor. No flavon needed.
-  - L1-CLEAN: the medium's SUBSTANCE (lepton-mass sector), not its gravitational
-    INTERFACE (identity-blind clearing). Interface-vs-substance (laws doc) → no census
-    violation. The "L1 wants universal" tension of the prior session is DISSOLVED.
+ - BBN-safe by DISCONNECTION (not a dodge): Psi couples to L only; the quark/pion/
+ deuteron channel is simply not connected.
+ - WHY THE ELECTRON: Z_L shifts all charged leptons equally (e,μ,τ); only electrons
+ survive at recombination (μ,τ decayed) → the electron is the charged lepton
+ PRESENT, not a chosen flavor. No flavon needed.
+ - L1-CLEAN: the medium's SUBSTANCE (lepton-mass sector), not its gravitational
+ INTERFACE (identity-blind clearing). Interface-vs-substance (laws doc) → no census
+ violation. The "L1 wants universal" tension of the prior session is DISSOLVED.
 
 LOCKED PREDICTION (of the kinetic-Z_L coupling specifically):
-    dm_nu/m_ν = 2 * dm_e/m_e = 2.48% at recombination.
-  The factor 2 is author counting (two L's vs one), no free knob. It DISCRIMINATES
-  mechanisms: a direct Yukawa (Psi/f) L-bar H e shifts m_e with NO neutrino link
-  (ratio 0). CMB consequence of dm_nu ~ 1.5 meV on Σm_ν (~0.06x sensitivity) --
-  safe, currently unfalsifiable, a consistency consequence not yet a handle.
+ dm_nu/m_ν = 2 * dm_e/m_e = 2.48% at recombination.
+ The factor 2 is author counting (two L's vs one), no free knob. It DISCRIMINATES
+ mechanisms: a direct Yukawa (Psi/f) L-bar H e shifts m_e with NO neutrino link
+ (ratio 0). CMB consequence of dm_nu ~ 1.5 meV on Σm_ν (~0.06x sensitivity) --
+ safe, currently unfalsifiable, a consistency consequence not yet a handle.
 
 MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09):
-  (a) f_L is DERIVED, not free. From ρ_dm(rec)=Om*ρ_c*(1+z)³ and ρ~m² Psi²:
-      Psi_rec = √(ρ)/m = 5.8×10¹⁸ eV (~6×10⁻¹⁰ Mpl); f_L = Psi_rec/(2*dm_e) = 2.3×10²⁰ eV
-      = 2.3×10¹¹ GeV. An INTERMEDIATE / seesaw-adjacent scale, fixed by (abundance, mass,
-      amplitude) -- it adds NO new free parameter. [CLOSED]
-  (b) The coupling PROFILE is forced to be CONDENSATION-TRIGGERED, not smooth in Psi.
-      A smooth linear Z_L=1+Psi/f_L gives dm_e ∝ Psi ∝ a⁻³/2, hence dm_e(z=2) ~ 1.8×10⁻⁶
-      -- AT the quasar bound (|dm_e/m_e|<~1×10⁻⁶ at z~1-3). The model AVOIDS this with the
-      z=50 STEP (dm_e=0 below z=50; the condensate/transition reading, see [28]). So the
-      explicit coupling must switch AT condensation (a step in Z_L), which both matches
-      the code and dodges quasars. This ties [10] to the [28] reconciliation. [RESOLVED
-      to "condensation-step", not smooth.]
-  (c) The loop, worked (2026-07-09). Minimal potential V(Psi)=ρ_inf + 1/2 m² Psi²
-      (DM oscillation early, DE floor late). It CLOSES TO CONSISTENCY: the DM→DE
-      transition lands at z~0.7 (1/2 m² Psi² = ρ_inf), the right epoch (observed
-      ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4)=2.3 meV =
-      m_ν,light [P-2026-012]. BUT it bottoms out at the CC PROBLEM: why ρ_inf=(m_ν)⁴
-      is P-2026-012's POSIT, not derived. So the docketed last residual is the cosmological-
-      constant question -- no longer a PRTOE-specific gap, the universal one. [REDUCED to CC]
-  (d) kinetic-Z_L vs direct-Yukawa: RESOLVED (2026-07-09). The medium lives in the lepton
-      sector via NEUTRINO mass, which rides L (Weinberg, two L's) → the natural coupling
-      is TO L = the kinetic Z_L. A Yukawa (Psi/f)L-bar H e touches the charged-lepton
-      Yukawa only, no route to m_ν = unmotivated. So the neutrino-sector home SELECTS
-      kinetic → dm_nu = 2 dm_e is the LOCKED prediction, not one of two options. [CLOSED]
+ (a) f_L is DERIVED, not free. From ρ_dm(rec)=Om*ρ_c*(1+z)³ and ρ~m² Psi²:
+ Psi_rec = √(ρ)/m = 5.8×10¹⁸ eV (~6×10⁻¹⁰ Mpl); f_L = Psi_rec/(2*dm_e) = 2.3×10²⁰ eV
+ = 2.3×10¹¹ GeV. An INTERMEDIATE / seesaw-adjacent scale, fixed by (abundance, mass,
+ amplitude) -- it adds NO new free parameter. [CLOSED]
+ (b) The coupling PROFILE is forced to be CONDENSATION-TRIGGERED, not smooth in Psi.
+ A smooth linear Z_L=1+Psi/f_L gives dm_e ∝ Psi ∝ a⁻³/2, hence dm_e(z=2) ~ 1.8×10⁻⁶
+ -- AT the quasar bound (|dm_e/m_e|<~1×10⁻⁶ at z~1-3). The model AVOIDS this with the
+ z=50 STEP (dm_e=0 below z=50; the condensate/transition reading, see [28]). So the
+ explicit coupling must switch AT condensation (a step in Z_L), which both matches
+ the code and dodges quasars. This ties [10] to the [28] reconciliation. [RESOLVED
+ to "condensation-step", not smooth.]
+ (c) The loop, worked (2026-07-09). Minimal potential V(Psi)=ρ_inf + 1/2 m² Psi²
+ (DM oscillation early, DE floor late). It CLOSES TO CONSISTENCY: the DM→DE
+ transition lands at z~0.7 (1/2 m² Psi² = ρ_inf), the right epoch (observed
+ ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4)=2.3 meV =
+ m_ν,light [P-2026-012]. BUT it bottoms out at the CC PROBLEM: why ρ_inf=(m_ν)⁴
+ is P-2026-012's POSIT, not derived. So the docketed last residual is the cosmological-
+ constant question -- no longer a PRTOE-specific gap, the universal one. [REDUCED to CC]
+ (d) kinetic-Z_L vs direct-Yukawa: RESOLVED (2026-07-09). The medium lives in the lepton
+ sector via NEUTRINO mass, which rides L (Weinberg, two L's) → the natural coupling
+ is TO L = the kinetic Z_L. A Yukawa (Psi/f)L-bar H e touches the charged-lepton
+ Yukawa only, no route to m_ν = unmotivated. So the neutrino-sector home SELECTS
+ kinetic → dm_nu = 2 dm_e is the LOCKED prediction, not one of two options. [CLOSED]
 
-internal review CAVEAT (internal review, 2026-07-10) -- the deeper gap this section does NOT close. "The
+CAVEAT (2026-07-10) -- the deeper gap this section does NOT close. "The
 medium is made of the neutrino sector" strictly implies a coupling to the WEINBERG author
 (→ dm_nu only). Reaching dm_e requires coupling to L's KINETIC term (Z_L), which is an
 ADDITIONAL step beyond "makes neutrino mass" -- and THAT step is the leptophilia postulate
-itself (dm_e is the charged-lepton Higgs-Yukawa L-bar H e = quark-structured, internal review no-go).
+itself (dm_e is the charged-lepton Higgs-Yukawa L-bar H e = quark-structured, a no-go).
 So the census refinement "couple to what you're made of" (laws doc, 2026-07-10) RENAMES the
 leptophilia gap "substance" but does not close it: it legalizes a dm_nu coupling; the dyad
 is dm_e. The un-derived core is precisely "why couple to L's kinetic term (reaching dm_e)
 rather than only the Weinberg author (reaching only dm_nu)." The mechanism here is a
 coherent, motivated SKETCH; the explicit dm_e coupling from a neutrino-sector medium stays
-[OBJECT-PENDING], prior unfavorable. The assessment did not move (internal review).
+[OBJECT-PENDING], prior unfavorable. The assessment did not move.
 
 LEDGER UPDATE to Section 9: the EP-screening computation [7] is now RESOLVED (2026-07-09):
 the composition-dependent Vainshtein-screened Delta_a/a = 8×10⁻²¹..8e-19, 3-5 orders below
@@ -314,16 +314,13 @@ restoring); symmetry restored above T_c where it cancels the tachyonic curvature
 here (μ~T_c → L−1→0 iterates unstably), so T_c is log-ambiguous ~40–450 keV, central ~70–160 keV —
 **STRADDLING the deuterium bottleneck (~70 keV).** Structural: onset AND D/H are both electron-scale
 → "derived" and "marginal" are one fact. Resolver: RG-improved V_eff + BBN network (the working docket).
-**Regime caveat (hunt 213):** Δm_φ²=+(κm_e0²/3)T² is the HIGH-T (T≫m_e) form, but T_c < m_e — so it is
-used out of regime. The EXACT finite-T fermion loop (Boltzmann-suppressed electrons, fewer to restore the
-symmetry) pushes T_c UP ×1.4 (264→369 keV at μ=v), so the adopted central (~193 keV) is too low. The
-zero-T leading-log μ needs the 2-loop V_eff: the 1-loop β-functions are now worked out (hunt 214 —
-γ_{m_e}=3α/2π, β_{m_φ²}=(κ/π²)m_e0⁴, β_κ≈(3α/2π)κ) and CONFIRM the 1-loop can't pin T_c (κ cancels;
-the O(α) source-running gives an unphysical PMS at μ~e⁻⁵⁷). The 2-loop RG-improvement was then BUILT (hunt 215)
-and returns a DEFINITE NEGATIVE: no SSB at μ=m_e, and the scale-stationary PMS is at μ~e⁻¹⁰⁰ m_e for any
-2-loop coefficient (the O(α) curvature is too weak). So T_c is **perturbatively ILL-DEFINED** — this CW
-condensation is a large-log/marginal effect (sharpening the "marginal" flag), and the dyad VEV inherits
-the same marginality. Defining T_c needs a non-perturbative gap-equation treatment.
+**Caveat — T_c is marginal.** The condensation temperature is electron-scale but genuinely marginal:
+the perturbative (Coleman–Weinberg) treatment is scale-ambiguous, and a careful analysis shows T_c is not
+perturbatively well-defined — the condensation is a strong-coupling effect. Treated non-perturbatively
+(as a gap equation for a composite dyad), T_c *is* well-defined and lands at the electron scale, but its
+precise value then rests on the medium's strong binding, which the model does not yet supply from first
+principles. This is the same marginality that limits the dark-energy value (see the cosmological-constant
+document).
 
 **Leptophilia (allowed ≠ generated).** Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
 EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia. CAVEAT

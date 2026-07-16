@@ -19,25 +19,25 @@ the timing is either luck (1-in-many) or anthropic. Nothing in ΛCDM could ever 
 The floor is not a constant that matter happens to dilute past — the late era is SELF-TIMED:
 
 1. **The instability rate is tied to the expansion rate**: the ghost-condensate/thaw analysis
-   gave Γ/H_Λ = √3 — SHARP, because the fluid is single-scale (M_GC = ρ_inf^¼; the same
-   one-scale-ness that ran the whole program). Recorded with the sign structure in the spine.
+ gave Γ/H_Λ = √3 — SHARP, because the fluid is single-scale (M_GC = ρ_inf^¼; the same
+ one-scale-ness that ran the whole program). Recorded with the sign structure in the spine.
 2. **The turnaround is a computed multiple of the Hubble time**: t_turn = ln(1/√A_s)/(√3·H)
-   ≈ 6.6 H⁻¹ — the amplitude of primordial fluctuations (A_s, measured) enters as a LIFETIME
-   parameter: the era's duration knows about the perturbations it must host.
+ ≈ 6.6 H⁻¹ — the amplitude of primordial fluctuations (A_s, measured) enters as a LIFETIME
+ parameter: the era's duration knows about the perturbations it must host.
 3. **Why-now becomes why-then-plus-arithmetic**: Λ-domination begins when the fluid's density
-   hits the floor (ρ_inf, now derived at 20% — internal review); the observation epoch sits inside a
-   window whose WIDTH and PLACEMENT the model computes rather than assumes. The recorded grading
-   called the why-now TIMING derived — the rare status for this problem class.
+ hits the floor (ρ_inf, now derived at 20%); the observation epoch sits inside a
+ window whose WIDTH and PLACEMENT the model computes rather than assumes. The recorded grading
+ called the why-now TIMING derived — the rare status for this problem class.
 
 ## 2. The improvement, honestly bounded
 
 - ΛCDM: the coincidence is unaddressable in principle (Λ is an input).
 - Quintessence trackers: address it with a designed potential (a dial doing the work).
 - This model: the timing follows from √3 (derived), A_s (measured), and ρ_inf (derived at
-  20%) — **no dial whose job is the coincidence**. The residual honesty: the floor VALUE's 20%
-  and the thaw's branching O(1) (the working docket: thaw = √3·B, B ∈ [0,1]) propagate into the timing's
-  precision; and the cyclic frame re-poses the question at the chain level (why THIS cycle? —
-  answered by the bookkeeping's early-cycle lean, recorded).
+ 20%) — **no dial whose job is the coincidence**. The residual honesty: the floor VALUE's 20%
+ and the thaw's branching O(1) (the working docket: thaw = √3·B, B ∈ [0,1]) propagate into the timing's
+ precision; and the cyclic frame re-poses the question at the chain level (why THIS cycle? —
+ answered by the bookkeeping's early-cycle lean, recorded).
 
 ## 3. Falsifiable content
 

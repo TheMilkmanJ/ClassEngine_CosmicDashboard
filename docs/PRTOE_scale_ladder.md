@@ -7,7 +7,7 @@
 claim that this map, once built, IS the local-to-atomic map. Verified structurally: the descent
 crosses exactly ONE boundary (the medium's coherence hinge at ξ = 402 AU), below which every
 rung repeats one relationship. Companion to the transaction map. Status: STRUCTURAL
-(organizing + one computed column + one hinge fact). Booked internal review.*
+(organizing + one computed column + one hinge fact).*
 
 ## 0. The one column that spans everything
 
@@ -35,11 +35,11 @@ The medium's coherence length falls BETWEEN the planetary system (~40 AU) and th
 (~10⁴⁻⁵ AU). The descent from cosmos to atom therefore crosses exactly ONE substrate boundary:
 
 - **Above ξ (galaxies and up):** structures span MANY coherence cells — the mosaic regime
-  (patches, granules, the winding's sweep; the medium has spatial structure the bound system
-  averages over).
+ (patches, granules, the winding's sweep; the medium has spatial structure the bound system
+ averages over).
 - **Below ξ (planets, rocks, chemistry, atoms):** every structure is bound INSIDE ONE
-  quantum-coherent cell — the medium is a featureless, coherent, gate-screened background.
-  ONE relationship, repeated at every rung.
+ quantum-coherent cell — the medium is a featureless, coherent, gate-screened background.
+ ONE relationship, repeated at every rung.
 
 ## 2. The author's bet, graded
 
@@ -55,17 +55,17 @@ atomic structure" is one sentence and not six.
 ## 3. What the ladder is FOR (the working uses)
 
 1. **Any new rung-candidate physics** (a proposed structure at any scale) gets placed by two
-   numbers: its ½α_eff² and its position vs ξ — the thread/kill verdicts follow the rung's
-   regime (this systematizes the threading protocol's scale checks).
+ numbers: its ½α_eff² and its position vs ξ — the thread/kill verdicts follow the rung's
+ regime (this systematizes the threading protocol's scale checks).
 2. **The hinge is a PREDICTION ZONE — now PRICED (entry 83)**: structures near 402 AU
-   (Oort-inner, wide binaries, detached TNOs) are where one-cell physics meets mosaic
-   physics. The edge effect exists and ramps smoothly across the hinge, but the census
-   (no fifth force, P-2026-014) caps it at gravitational polarization ≈ 10⁻¹⁸ relative —
-   **the model predicts NO observable wide-binary anomaly**, and a confirmed Gaia-class
-   one is a named kill. The hinge keeps its place; its teeth were an illusion.
+ (Oort-inner, wide binaries, detached TNOs) are where one-cell physics meets mosaic
+ physics. The edge effect exists and ramps smoothly across the hinge, but the census
+ (no fifth force, P-2026-014) caps it at gravitational polarization ≈ 10⁻¹⁸ relative —
+ **the model predicts NO observable wide-binary anomaly**, and a confirmed Gaia-class
+ one is a named kill. The hinge keeps its place; its teeth were an illusion.
 3. **The couplings column invites one question** the model may someday answer: why α_c (0.021)
-   ~ 3α (0.0073) — the cosmic and atomic couplings within a factor 3 while gravity's rungs
-   float free. Noted, not built upon.
+ ~ 3α (0.0073) — the cosmic and atomic couplings within a factor 3 while gravity's rungs
+ float free. Noted, not built upon.
 
 *From the whole sky to a hydrogen atom is six rungs and one boundary. Above the line the
 universe is a mosaic; below it, one quiet cell — and every rung, top to bottom, pays the same

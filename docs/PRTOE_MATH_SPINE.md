@@ -6,7 +6,7 @@
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
 what is DERIVED vs INPUT vs STORY, and where it lives in the code. Cross-references:
 PRTOE_me_mechanism_math.md (dyad detail), PRTOE_cyclic_torus_genesis.md (genesis narrative),
-PRTOE_UV_completion.md (docketed), PRTOE_cosmological_constant.md (J1), the the private internal review record the internal review.*
+PRTOE_UV_completion.md (docketed), PRTOE_cosmological_constant.md (J1).*
 
 **Status tags:** [DERIVED] falls out of prior pieces · [INPUT] boundary datum · [STORY] coherent
 mechanism, not a derivation · [PENDING] computation named, not run.
@@ -34,18 +34,13 @@ The amplitude — the model's one distinctive number — assembled from three fa
 running instrument:
 
 > **ε = c·f̄·α_c = 27α/5π = 1.2543%** (concordance joint 1.2403 ± 0.0079%), with
-> - **c = 9/10** — the census counting fraction (N−1)/N over the **universal charged-fermion roster**
->   (9 charged species + the zero-point's seat; not the dyad's leptophilic subset). The open trial is
->   where the neutrinos sit — interior seat (9/10) vs external count (12/13); **ε cannot referee it**
->   (the c–f̄ degeneracy: at closed-form f̄ = 2/π the lean is 9/10 by ~4σ, but f̄-conditional). The
->   conformal-weight settler makes this ≡ the neutrino-mass structure: direct-Majorana (m_ν = μ,
->   ε-invariant → seat → 9/10) vs inverse-seesaw (m_ν = m_D²μ/M², Higgs m_D comoves → 12/13). Reconciled
->   → 9/10 (hunt 206): the direct light mass and Card 6's heavy-N leptogenesis coexist (seesaw's
->   light-mass share ~10⁻⁹ meV), and the tie-as-lock selects direct; f̄ ensemble / α_c independent checks;
+> - **c = 9/10** — a counting fraction (N−1)/N over the universal charged-fermion roster: 9 charged
+> species plus the vacuum's own seat. The neutrinos sit on the seat rather than in the count, because
+> their mass is medium-sourced rather than electroweak; the running α_c chain is the independent check;
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
->   winding's many-turn equidistribution (the coupling form the one remaining piece);
+> winding's many-turn equidistribution (the coupling form the one remaining piece);
 > - **α_c = 3α = d·α** — the condensate coupling, the 3 being the spatial dimension d (second sound,
->   geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
+> geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
 
 ## 1\. Genesis (the cycle's start) [STORY]
 
@@ -62,7 +57,7 @@ phase); below, it oscillates as dust. The switch epoch:
 > **T(H=m) = √(m·M_red / 0.61) = 9.41 keV** (g*=3.36) ↔ **coded z_rad_onset = 4×10⁷ → T = 9.39 keV.**
 
 Match 1.002×. The onset is field 1's H=m clock — textbook ULDM — NOT a condensation temperature
-(internal review "internal inconsistency" dissolved, internal review, booked both columns). Code: `dcdf_z_rad_onset`
+(the apparent internal inconsistency dissolved, booked both columns). Code: `dcdf_z_rad_onset`
 (background.h, with the derived-identity comment).
 
 **Two jobs, one clock** (author, 2026-07-10): the ending regime reaches its floor (conformal
@@ -72,7 +67,7 @@ the dust part continues, amplitude fixed by continuity (no free knob).
 
 ## 3\. The background fluid (radiation → dust → de Sitter) [DERIVED form; ρ_inf INPUT]
 
-> **w(ρ) = −e^{−s}, s = ln(ρ/ρ_inf) clamped ≥ 0  ⟹  P = −ρ_inf exactly.**
+> **w(ρ) = −e^{−s}, s = ln(ρ/ρ_inf) clamped ≥ 0 ⟹ P = −ρ_inf exactly.**
 
 So the background is ΛCDM-form: ρ = ρ_inf + C·a⁻³, algebraically (verified to 10⁻¹⁶).
 w = −1 is EXACT for the constant floor — not a step artifact, not rampable. Code: `w_dcdf` /
@@ -87,9 +82,9 @@ The electron Coleman–Weinberg backreaction on the charge-free field (m_e(φ) =
 > **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted 193 keV sits inside every version; leading-log unstable
 > near the flat direction; RG resummation = the working docket).
 
-The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded internal review).
+The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded).
 
-**BBN clearance [CLEARS, internal review — the double regime-citation correction]:** the deuterium constraint's
+**BBN clearance [CLEARS — the double regime-citation correction]:** the deuterium constraint's
 severity decomposes by process: weak rates n↔p (T \~ 500–1500 keV, \~75% of the m_e lever),
 n-decay phase space (\~10%), e± heating (\~10%), the bottleneck itself (\~5%, B_d nuclear,
 m_e-insensitive). The dyad (T_c ≤ 445 keV) NEVER touches the weak-rate window; AND the dyad is
@@ -116,37 +111,24 @@ survives (background ρ_m, not the w-mirage).
 (P-2026-020); **Σm_ν ≈ 61 meV, normal ordering** (P-2026-012; whisper won the pre-registered
 collision vs P-2026-004, which is FALSIFIED, ANN-2026-021). The tie:
 
-> **ρ_inf^{1/4} = m_ν,lightest = 2.25 meV** — the single L-breaking spurion μ **forces the parametric
-> lock ρ_inf ∝ m_ν⁴** (hunt 205; only the O(1) value coefficient stays un-forced), AZK-SAFE (m_ν set by
-> the frozen radial VEV + derivative Majoron coupling — not MaVaN). The frozen-radial-VEV reading is
-> **direct-Majorana** (m_ν = μ, the flagship reading) → tie exact AND census **c = 9/10**. Card 6's
-> inverse-seesaw is the heavy-N leptogenesis sector — its light-mass contribution is ~10⁻⁹ meV
-> (negligible), so it COEXISTS with the direct light mass; consistency with the tie-as-lock selects
-> **direct → 9/10** (hunt 206). 12/13 only if the seesaw is the light-mass origin (tie → tuning).
+> **ρ_inf¼ = m_ν,lightest = 2.25 meV** — a single lepton-number-breaking scale μ sets both the
+> dark-energy floor (ρ_inf ∝ μ⁴) and the lightest neutrino mass (m_ν = μ). The tie is exact to a few
+> percent, and it is AZK-safe: the neutrino mass comes from the frozen radial VEV, not from a coupling to
+> the neutrino density (which would be unstable).
 
-**Spurion formalized (hunt 207):** μ = the soft lepton-number-breaking dim-1 spurion — ρ_inf = κ_V μ⁴
-(κ_V ≈ 1.09, the Majoron pNGB potential amplitude) and m_ν = κ_m μ (κ_m = 1), so the tie is exact to
-**2.2%** (κ_V¼ = 1.02 vs κ_m = 1). The "ε-vs-μ dimensional non-triviality" was a category error: ε
-(dim-0, scale/conformal spurion) and μ (dim-1, lepton-number spurion) parametrize DIFFERENT broken
-symmetries — no algebraic bridge μ = f(ε) lands (five forms tested). The VALUE μ = 2.25 meV stays
-un-derived (the DE-value problem, separate from the identity); post-hoc flag until a NEW falsifiable
-consequence (docketed).
+The scale μ is a dimension-1 lepton-number-breaking parameter, distinct from the (dimensionless)
+varying-m_e amplitude ε, which is electromagnetic — the two are different quantities and are not related
+by any bridge. The value μ = 2.25 meV is not itself derived from first principles; that is the
+dark-energy-value problem (§2). The mechanism carries a post-hoc flag until it earns a new falsifiable
+consequence.
 
 ## 7\. NOW → THE END (the forward map) [Route D: mechanism + pre-registration branch]
 
-**7a. The sequestered floor [KP value-route FALSIFIED — hunt 209].** On a FINITE universe (compact
-torus × finite cycle), the Kaloper–Padilla constraint is **Λ_eff = ¼⟨T^μ_μ⟩ = ¼⟨ρ_m⟩₄ᵥₒₗ** (radiation
-traceless; a³-weighting → latest epochs).
-
-> The self-consistency solve was DONE (no longer pending): closed-universe fixed point
-> **ρ_Λ/ρ_m,turnaround = 0.40** (not the toy ¾), giving Λ^{1/4} = 1.48 meV (0.66×). **Fatal, coefficient-
-> INDEPENDENT flaw:** the a³ weight favors max-a (minimum ρ_m), so **Ω_Λ/Ω_m ≤ 0.40 across all of
-> expansion** (ramp-confirmed) — 5.5× below the observed 2.2. For the model's own eternal fate (infinite
-> 4-volume) Λ → 0. **KP cannot seat DE where observed.**
-
-The value stays UNDERIVED. The "why 2.3 meV / why now" question is NOT answered by KP; the model's
-standing DE predictions are w = −1 exact and the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
-(Scope: KP-as-vacuum-cancellation is a separate, untouched claim; only KP-as-value-mechanism is falsified.)
+**7a. The sequestered floor — a route that does not work.** A Kaloper–Padilla vacuum-sequestering attempt
+to fix the dark-energy value from the cosmic expansion history was checked and fails: it predicts a
+dark-energy-to-matter ratio at least ~5× too small (and zero for an eternally expanding universe). So the
+value is not fixed this way. The model's standing dark-energy predictions remain **w = −1 exactly** and
+the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
 
 **7b. The thaw [the forced consequence].** Observed Λ ⟹ turnaround within \~an e-fold ⟹
 **m_J \~ (1–3)H₀** ⟹ the floor is thawing NOW:
@@ -157,18 +139,18 @@ standing DE predictions are w = −1 exact and the neutrino tie (ρ_Λ¼ = m_ν,
 Code: `dcdf_floor_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ_floor(a) =
 ρ_inf·exp[thaw·(1−a³)]; E(a) = ρ_floor − ρ_inf added background-only (pattern of dcdf_rho_rad).
 
-**7c. The branch [to be pre-registered, guards owed internal review]:**
+**7c. The branch [to be pre-registered, guards owed]:**
 
 > **P-2026-018 (w = −1 exact) XOR Route-D (thaw-now, w₀ ∈ [−0.92,−0.86], wₐ < 0, no phantom).**
 > DESI DR3 adjudicates: thaw-side → Route-D (J1+why-now+DESI in one stroke, P-018 dies);
 > rigid → P-018 (distinctive win; Route-D dies, J1 reverts to constitution);
 > TRUE phantom in the DATA → both die. Guards: distance-space phrasing, KP solve, timestamp
-> (the internal review: internal review J1-derivation precedes internal review DESI-convergence), A2+A3 net (answered internal review).
+> (J1-derivation precedes DESI-convergence), A2+A3 net (answered).
 
 **7d. The end (and the next start).** The thaw completes → expansion reverses → contraction
 blueshifts radiation (a⁻⁴ grows) → the heat fountain reignites → T climbs back through **T_c**
 (the SAME derived T_c of §4) → **the dyad condensate MELTS** (m_e → standard for the crunch) →
-charge survives in solitons/Q-balls [requires gravity-mediated K<0, internal review: fragmentation
+charge survives in solitons/Q-balls [requires gravity-mediated K<0: fragmentation
 banks the charge at T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis
 across the bounce (rotation resets, topology doesn't) → re-expansion cools through T_c → the
 condensate RE-FORMS → §1. **The condensate breathes; T_c is both the recombination-era turn-on
@@ -210,7 +192,7 @@ branch), Σm_ν ≈ 60 meV, 0νββ, void/IGM m_e-step (P-007, J4). **Owed:** KP
 The full-cycle KP solve (full_cycle_kp.py) computed the fixed point over the whole
 cycle (expansion + thawed contraction + Tolman boost): **it robustly wants a_turn = 0.70 (a PAST
 turnaround, z=+0.43)** — excluded by observed acceleration; a future turn is 3× (a_turn=1.0) to
-10× (1.5) short, Tolman boost null, and the internal review "full-cycle-fixes-the-sign" claim was WRONG
+10× (1.5) short, Tolman boost null, and the "full-cycle-fixes-the-sign" claim was WRONG
 (near-mirror contraction cancels). **So §7a–7c are DOWNGRADED:** the clean Route-D prediction is
 dead; what survives is the IMMINENT-TURN CORNER (z_turn \~ −0.1..−0.3, needing \~3× from four
 favorably-aligned rigorous-KP O(1)s [prior-adverse, tail] AND a strong thaw pulled by the data).
@@ -234,7 +216,7 @@ fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ/H = √3
 derived); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
 board. Biography: first excitation (Tolman arrow, finite past) → lengthening cascades → possible
 ionization (binding energy un-computed). J1 = the ground-state eigenvalue: constitutional, at home.
-**Status: the grammar is coherence (internal review-graded throughout, internal reviewclass);
+**Status: the grammar is coherence (graded throughout);
 the empirical content lives in the children and the symptom chart. The method was the subject.**
 
 
@@ -242,7 +224,7 @@ the empirical content lives in the children and the symptom chart. The method wa
 
 **The threading survey:** sixteen direct threads filed and graded (galactic/SMBH
 atoms, the neutrino home, S₈, low-ℓ, Koide's invariance, the lab cousins, the coincidence
-problem [why-now = √3·A_s·the floor — the √3 one-pager discharged internal review: the Friedmann factor,
+problem [why-now = √3·A_s·the floor — the √3 one-pager discharged: the Friedmann factor,
 value-independent, sharing ONE par-question with c], the purchased silences [direct+indirect],
 GW [the vortex null Gμ ~ 3×10⁻²¹; the chirality family's third member], the Hubble standalone,
 the radio lattice, the fingerprint capstone, IGMF helicity, LSS parity). **The protocol** (now
@@ -252,7 +234,7 @@ standing law + memory): ramp-check every compute; improves-bar, no forcing; the 
 of a threaded root; deaths are lawful (each names its law — strong-CP and birefringence share
 L1a, one clause, shared fate both ways).
 
-**The master computes (the 40 debts factor to 8, in 4 clusters — internal review):** par/size (the α_c MCMC +
+**The master computes (the 40 debts factor to 8, in 4 clusters):** par/size (the α_c MCMC +
 the lanes), topology (the AD route + the cavity), frame/UV (the Lorentz program + λ), data
 (the chains + the epoch stamps). Sprint results: the toy cavity puts ℓ=2,3 BELOW the first
 torus mode (T5's matched-circles risk resolved favorable); the thermal-leptogenesis surface is

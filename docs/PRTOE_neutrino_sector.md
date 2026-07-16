@@ -11,18 +11,18 @@
 ## 0. The claims, stacked
 
 1. **Neutrinos are Majorana** → the 0νββ PROCESS must exist (P-2026-020). Non-optional as
-   mechanism; the OBSERVABLE rate carries the §3 cancellation-floor caveat (m_ββ can sit
-   near 0.04 meV at unlucky phases — Dirac-nature evidence kills, but a null at any given
-   sensitivity does not).
+ mechanism; the OBSERVABLE rate carries the §3 cancellation-floor caveat (m_ββ can sit
+ near 0.04 meV at unlucky phases — Dirac-nature evidence kills, but a null at any given
+ sensitivity does not).
 2. **The lightest mass is dark energy's quarter-power**: $m_1 = \rho_\Lambda^{1/4} = 2.25$ meV
-   (the Majoron/L-breaking shared scale — PRTOE_MATH_SPINE.md §6; "Majoron" = the Goldstone boson of spontaneously broken lepton number, whose scale the model ties to the dark-energy density) — the smallest known mass and the largest
-   known structure share one number.
+ (the Majoron/L-breaking shared scale — PRTOE_MATH_SPINE.md §6; "Majoron" = the Goldstone boson of spontaneously broken lepton number, whose scale the model ties to the dark-energy density) — the smallest known mass and the largest
+ known structure share one number.
 3. **The sum**: with measured splittings, $\Sigma m_\nu = 61.4$ meV, **normal ordering**
-   (P-2026-012). Full disclosure: an earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this one's own pre-registered collision test and is retired in the registry — the ordering claim survived its internal challenger.
+ (P-2026-012). Full disclosure: an earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this one's own pre-registered collision test and is retired in the registry — the ordering claim survived its internal challenger.
 4. **The closure** (EXPLORATORY): the occupancy-corrected ρ_inf derivation reproduces this
-   Σ by an independent route (the ρ_Λ ↔ M₂ ↔ 3α triangle) — one mechanism, three
-   quantities co-determined; refereed by the running α_c chain (an in-house CMB
-   parameter MCMC).
+ Σ by an independent route (the ρ_Λ ↔ M₂ ↔ 3α triangle) — one mechanism, three
+ quantities co-determined; refereed by the running α_c chain (an in-house CMB
+ parameter MCMC).
 
 ## 1. Why this block is the model's sharpest neck
 
@@ -37,12 +37,11 @@ model's two neutrino numbers.
 
 ## 2. The mechanism's honest debts
 
-The spurion identification — **FORMALIZED** (hunt 207): μ = the soft lepton-number-breaking dim-1
-spurion, setting ρ_inf = κ_V μ⁴ (κ_V ≈ 1.09) and m_ν = κ_m μ (κ_m = 1), so the tie is exact to 2.2%.
-The "ε dimensionless vs μ dimensionful" tension was a category error — ε is the scale/conformal spurion,
-μ the lepton-number one; different broken symmetries, no algebraic bridge (five forms tested). Only the
-VALUE μ = 2.25 meV stays un-derived. Remaining debts: the Majoron's post-hoc flag (un-lifted until a new
-falsifiable consequence exists); the ρ_inf closure's dependence on the α_c chain's verdict.
+The spurion identification: the scale μ that ties the dark-energy floor to the lightest neutrino mass is
+a dimension-1 lepton-number-breaking parameter, distinct from the (dimensionless) varying-m_e amplitude —
+the two are different quantities, not related by a bridge. What stays un-derived is the *value*
+μ = 2.25 meV (the dark-energy-value problem). Remaining debts: the Majoron mechanism carries a post-hoc
+flag until it earns a new falsifiable consequence, and the ρ_inf closure depends on the running α_c chain.
 
 ## 3. For the double-β community, specifically
 

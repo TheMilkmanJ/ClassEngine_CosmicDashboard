@@ -1,9 +1,9 @@
 # THE PRTOE DOCUMENT INDEX
 
 *STATUS LABELS used across this shelf: PRODUCTION (fit-grade, chain-backed) · RECORDED
-(internal review-graded, in the ledger) · EXPLORATORY (review-hold work, un-refereed) ·
+(graded, in the ledger) · EXPLORATORY (review-hold work, un-refereed) ·
 ESTIMATED (author-sanctioned estimate grade) · SCHEDULED (referee named and funded) ·
-interpretation-grade (ontology only, zero modified numbers).* — domains, files, relations (living; internal review)
+interpretation-grade (ontology only, zero modified numbers).* — domains, files, relations (living)
 
 *The master map: every covered domain/subdomain → its standalone → its relation class
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
@@ -22,7 +22,7 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 - [THE QUARTET CLOCK](PRTOE_quartet_clock.md) — whose mass does the onset read? The 7.59/7.74/7.89 lineup vs the α_c MCMC (EXPLORATORY)
 - [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ^¼ = ½α_c²M₂ at 0.4‰ (EXPLORATORY)
 - [THE HIERARCHY PROBLEM](PRTOE_hierarchy_problem.md) — the EW scale as a pairing gap: M_red·e^{−1/kα_c} (EXPLORATORY)
-- [LV PRICING](PRTOE_LV_pricing.md) — internal review executed: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
+- [LV PRICING](PRTOE_LV_pricing.md) — the Lorentz-violation pricing pass: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
 - [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) — the remaining underived numbers and where their pieces already sit (living)
 - [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every death, reversal, and self-caught error in one place (the graveyard; the main read stays gold)
 - [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the credit ledger)

@@ -28,27 +28,27 @@ FLAT — zero confirmed predictions. A competitive fit is not a confirmed theory
 
 ## Three layers of understanding, at different stages
 1. **IDENTITY (what it is): CLOSED.** Charged rotating superfluid (Son isomorphism,
-   Room 1); dark matter + dark energy unified as regimes of one medium. Named UV
-   story (Affleck-Dine genesis). This is the hard-won win.
+ Room 1); dark matter + dark energy unified as regimes of one medium. Named UV
+ story (Affleck-Dine genesis). This is the hard-won win.
 2. **FIT (that it works): DONE, competitive.** H₀=69.7, S₈ eased, χ² tie-to-
-   slight-edge vs ΛCDM at +1 param across Planck+ACT+SPT+BAO+SN. Both tensions
-   eased directionally at ~zero χ² cost.
+ slight-edge vs ΛCDM at +1 param across Planck+ACT+SPT+BAO+SN. Both tensions
+ eased directionally at ~zero χ² cost.
 3. **MECHANISM + EVIDENCE (why / whether it wins): OPEN.** m_e mechanism = fit
-   with candidate derivation (Path A) pending two gates. Evidence (beats ΛCDM?)
-   pending Fairbank/PolyChord.
+ with candidate derivation (Path A) pending two gates. Evidence (beats ΛCDM?)
+ pending Fairbank/PolyChord.
 
 ## Open questions, tiered by what can move "flat"
 - **TIER 1 — the movers:** Fairbank Σ-m_ν posterior (R-1=0.98, converging,
-  days away → Savage-Dickey Bayes factor + P-2026-004); PolyChord (full evidence
-  verdict, tie or win).
+ days away → Savage-Dickey Bayes factor + P-2026-004); PolyChord (full evidence
+ verdict, tie or win).
 - **TIER 2 — the m_e mechanism (Path A), two gates:** census-derivation
-  reproduction (legality: narrow/broad); rigid-pinning computation (EP-viability:
-  atom interferometry, the one un-fitted gate).
+ reproduction (legality: narrow/broad); rigid-pinning computation (EP-viability:
+ atom interferometry, the one un-fitted gate).
 - **TIER 3 — sims owed:** two-field granule runs (ε-meter, mass pin, Room 5
-  χ-lag).
+ χ-lag).
 - **TIER 4 — deep debts (likely not fully solvable in the minimal model):** exact
-  1.24% amplitude (bounded by EM self-energy fraction, not derived); cc VALUE
-  (2.25 meV, recursion wall).
+ 1.24% amplitude (bounded by EM self-energy fraction, not derived); cc VALUE
+ (2.25 meV, recursion wall).
 
 ## Falsification frontier (turns "fits" → "confirmed or dead")
 P-2026-001 (TRGB, H₀ in [69,71], no hedge); P-2026-004 (Σ-m_ν in [0.11,0.17],
@@ -75,7 +75,7 @@ else is mapping the model so those tests mean something.
 
 ## UPDATE 2026-07-10 (the atom night)
 
-**Standing ≈ 14–17%** (adversarial ledger, the internal review). **One pre-registered prediction
+**Standing: a zero-parameter rival under live test.** **One pre-registered prediction
 FALSIFIED and booked** (P-2026-004 — the model demonstrated real falsifiability by dying a little).
 Gate-0 (the BBN wall) **cleared and re-signed as a mild heal**; the dyad onset, the H=m onset,
 the √3 timing, the C_ref gate, and the turnaround epoch are **derived**; ε is **conditional**
@@ -96,7 +96,7 @@ grade): f̄ = 0.644 ± 0.03, implied c = 0.90 ± 0.04, Koide 1.1σ-compatible, n
 quantized n=1 winding current.
 
 **Gate-0 is production-absolute** (clean PRyM: D/H response ≈ 0); Y_p flips favorable (−0.2σ);
-the dyad OWNS a D/H bet (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ per internal review) with the radio D-line as referee — and the Y_p row REVERSED to a +1.3σ counter (the medicine was an artifact of applying ε above T_c)
+the dyad OWNS a D/H prediction (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ) with the radio D-line as referee — and the Y_p row REVERSED to a +1.3σ counter (the medicine was an artifact of applying ε above T_c)
 (P-027: the two-line ratio-lock, ν_H/ν_D = 4.338649). New fronts: EM-neutrality FORCED
 (Meissner, 25–45 orders); magnetogenesis P-028 (galactic paid, void 1.5-order gap, helicity
 genome-signed). omk returned: curvature-for-H₀ declined by the data — the flat torus stands, the

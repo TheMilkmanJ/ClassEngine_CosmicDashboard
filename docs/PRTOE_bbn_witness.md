@@ -10,11 +10,11 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
 
 - the ramp: ε(T) = ε·(1 − T/T_c), T_c = 193 keV (the μ=T fixed point, recorded)
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
-  (~70 keV): ε_eff = 0.64ε; Li (~40 keV): 0.79ε
+ (~70 keV): ε_eff = 0.64ε; Li (~40 keV): 0.79ε
 - windowed elasticities (production PRyM, spliced rates): Y_p → 0.2495–0.2505
-  (+1.2–1.5σ vs Aver 0.2453±0.0034; +3.7σ vs EMPRESS 0.2370±0.0034 — the helium civil war);
-  D/H net (with the η-flow: ω_b +1.1% → −1.8%, the windowed tail +~1%) ≈ 2.40–2.42 vs Cooke
-  2.527±0.030 → a ~1.6–1.9σ OWNED bet (P-027's radio referee decides)
+ (+1.2–1.5σ vs Aver 0.2453±0.0034; +3.7σ vs EMPRESS 0.2370±0.0034 — the helium civil war);
+ D/H net (with the η-flow: ω_b +1.1% → −1.8%, the windowed tail +~1%) ≈ 2.40–2.42 vs Cooke
+ 2.527±0.030 → a ~1.6–1.9σ OWNED bet (P-027's radio referee decides)
 
 ## How PRTOE connects
 

@@ -30,16 +30,16 @@ post-BBN existence). What survives is the *structural* He-3-A reading: a dark, p
 condensate whose pairing is p-wave and chiral.
 
 - **Parity-odd → the θ·R·R̃ coupling → GW chirality** — the metric carries the handedness light
-  is forbidden to show (light is EM-neutral, optical birefringence = 0).
+ is forbidden to show (light is EM-neutral, optical birefringence = 0).
 - **Weyl points — and a caveat that bites this identity:** He-3-A (a *p-wave*, L=1) carries
-  exactly **2** Weyl points = **1 pair = one generation**. Node topology is unambiguous here: the
-  number of charge-1 Weyl pairs a chiral gap carries **equals its angular momentum L**. So the
-  basement's **3 Fermi points (3 generations) require L = 3** — an **f-wave** chiral order
-  parameter (whose charge-3 node Z₃-splits into 3 pairs) **or** three Z₃-related copies of the
-  p-wave (a 3-band structure). **A pure p-wave "= He-3-A" is insufficient for 3 generations.** The
-  Z₃ family symmetry (a basement lock) is the natural splitter/tripler either way. **OPEN (the
-  owed build):** write the f-wave-or-3-band order parameter and compute its split-node charges.
-  See hunt entries 191/192 (the two knobs).
+ exactly **2** Weyl points = **1 pair = one generation**. Node topology is unambiguous here: the
+ number of charge-1 Weyl pairs a chiral gap carries **equals its angular momentum L**. So the
+ basement's **3 Fermi points (3 generations) require L = 3** — an **f-wave** chiral order
+ parameter (whose charge-3 node Z₃-splits into 3 pairs) **or** three Z₃-related copies of the
+ p-wave (a 3-band structure). **A pure p-wave "= He-3-A" is insufficient for 3 generations.** The
+ Z₃ family symmetry (a basement lock) is the natural splitter/tripler either way. **OPEN (the
+ owed build):** write the f-wave-or-3-band order parameter and compute its split-node charges.
+ See the derivation log (the two knobs).
 
 ## 3. Its charge: abundance + asymmetry [CANDIDATE]
 
@@ -58,10 +58,10 @@ forced into the metric instead. Full account: [PRTOE_light.md](PRTOE_light.md).
 ## 5. What it does NOT close (honest boundaries)
 
 - The dark-energy **value** does **not** forward-close from the neutrino microphysics: the
-  fluctuation-dissipation response is **ohmic (s = 1)**, a **21-dex miss** (hunt entry 189). The
-  sub-ohmic/critical closure (s ≈ 0.26) is **CONDITIONAL** on the settling attractor being
-  self-organized-critical (otherwise the transition boils, first-order); the boiling-free
-  superfluid-λ reading gives s ≈ 0.69 (misses). See hunt entries 188/189.
+ fluctuation-dissipation response is **ohmic (s = 1)**, a **21-dex miss** . The
+ sub-ohmic/critical closure (s ≈ 0.26) is **CONDITIONAL** on the settling attractor being
+ self-organized-critical (otherwise the transition boils, first-order); the boiling-free
+ superfluid-λ reading gives s ≈ 0.69 (misses). See the derivation log .
 - **w = −1 is exact and derived**; the residual's *magnitude* is the owed piece.
 
 ## Where the dead ends live
@@ -75,4 +75,4 @@ Literal He-3-as-medium (four shots) and the DE-amplitude inversion are in
 Derivations: [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md),
 [PRTOE_v5_dCDF_complete.md](PRTOE_v5_dCDF_complete.md). The Goldstone: [PRTOE_light.md](PRTOE_light.md).
 Genesis: [PRTOE_white_holes.md](PRTOE_white_holes.md). The three-door map + the response function:
-hunt entries 188/189 ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)).
+the derivation log ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)).

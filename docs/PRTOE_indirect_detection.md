@@ -18,13 +18,13 @@ has died conventionally (3.5 keV: eROSITA).
 ## 1. The forced null (each clause recorded)
 
 1. **The dark charge is CONSERVED** — charge = abundance (the founding AD structure); the
-   recorded dark-antimatter reframe (the never-annihilating ~30% counter-charge) exists
-   PRECISELY because the medium cannot annihilate its charge away. No annihilation channel
-   exists AT ALL — not suppressed: absent by conservation law.
-2. **Decay to the SM runs through the portal at ~3.5×10¹⁷ GeV** (internal review geometric mean) —
-   lifetimes beyond cosmological by dozens of orders. No decay signals.
+ recorded dark-antimatter reframe (the never-annihilating ~30% counter-charge) exists
+ PRECISELY because the medium cannot annihilate its charge away. No annihilation channel
+ exists AT ALL — not suppressed: absent by conservation law.
+2. **Decay to the SM runs through the portal at ~3.5×10¹⁷ GeV** (geometric mean) —
+ lifetimes beyond cosmological by dozens of orders. No decay signals.
 3. **The quanta are 2×10⁻²⁰ eV condensate modes** — there is no particle pair to annihilate
-   into photons at ANY energy a telescope observes.
+ into photons at ANY energy a telescope observes.
 
 **Verdict: the GC GeV excess is pulsars (or other astrophysics), the 511 keV line is
 astrophysical positron production, the AMS fraction is pulsars/propagation — the model does
@@ -40,7 +40,7 @@ it simply survives every year the sky stays mundane, while tuned-WIMP interpreta
 ## 3. Owed (mirrors threaded_physics_working/T15)
 
 1. The cross-section CEILING computation (state "how null" numerically — the portal-mediated
-   effective σv, expected ~dozens of orders below any instrument).
+ effective σv, expected ~dozens of orders below any instrument).
 2. The GC-excess pulsar-interpretation tracking (the model roots for the pulsars).
 3. The 511 keV bookkeeping note (positrons from astrophysics — no medium channel).
 

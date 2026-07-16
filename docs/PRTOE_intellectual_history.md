@@ -176,9 +176,9 @@ and the session memory files.*
 
 ## Addendum (2026-07-06 afternoon): the nine-turn review
 
-The model's hardest day was an independent second review
-(the internal review record; private, turn-tags cited for provenance), conducted as a turn-based written exchange with
-pre-registered bets and written concessions on both sides. Six attacks
+The model's hardest day was an independent second review,
+conducted as a structured written exchange with
+pre-registered predictions and documented concessions on both sides. Six attacks
 opened it; nine turns closed it. In between: the unfalsifiability
 pincer was broken on paper at the attacker's own chosen line, the
 funded-floor mechanism was derived and then executed by the defender's

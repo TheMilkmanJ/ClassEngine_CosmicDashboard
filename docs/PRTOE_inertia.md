@@ -52,17 +52,17 @@ The historical case against a medium is two distinct objections, and they are pa
 two different accounts — this file refuses to blur them:
 
 - **The drag objection (dynamics)** — "a medium saps momentum": paid *here*, by the
-  Landau criterion. Sub-critical passage transfers zero momentum to the condensate;
-  there is no secular deceleration, no frictional heating, no orbital decay from the
-  vacuum. The census strengthens this beyond the laboratory analog: matter couples to
-  the medium **gravitationally only** (P-2026-008's forced null — no fifth force, no
-  recoil channel, no photon conversion), so even *above*-threshold processes have no
-  non-gravitational channel to bill through.
+ Landau criterion. Sub-critical passage transfers zero momentum to the condensate;
+ there is no secular deceleration, no frictional heating, no orbital decay from the
+ vacuum. The census strengthens this beyond the laboratory analog: matter couples to
+ the medium **gravitationally only** (P-2026-008's forced null — no fifth force, no
+ recoil channel, no photon conversion), so even *above*-threshold processes have no
+ non-gravitational channel to bill through.
 - **The anisotropy objection (kinematics)** — "motion through a medium shows up in
-  clocks and interferometers" (Michelson–Morley and descendants): paid in the
-  special-relativity file, by emergent Lorentz symmetry with Planck-suppressed
-  residuals (the Lorentz-violation pricing audit; matter carries no vector/tensor
-  bridge to the frame). That account is not this file's to spend — only to cite.
+ clocks and interferometers" (Michelson–Morley and descendants): paid in the
+ special-relativity file, by emergent Lorentz symmetry with Planck-suppressed
+ residuals (the Lorentz-violation pricing audit; matter carries no vector/tensor
+ bridge to the frame). That account is not this file's to spend — only to cite.
 
 ## 4. The speed limit gets a mechanism
 
@@ -70,18 +70,18 @@ In fundamental relativity, c is a wall by decree. Here it is a **threshold with
 physics on both sides**:
 
 - **Below the cone**: dissipation-free passage, at any speed, forever. The medium is
-  invisible to a coasting body not because it is absent but because a condensate has
-  no state to sell it.
+ invisible to a coasting body not because it is absent but because a condensate has
+ no state to sell it.
 - **At the cone**: the Landau criterion saturates. A super-critical object would shed
-  quasiparticles into the vacuum — Cherenkov radiation with the vacuum itself as the
-  dielectric. "Breaking yourself" is literal: the medium starts billing, and the bill
-  is paid in the traveler's own kinetic energy and structure.
+ quasiparticles into the vacuum — Cherenkov radiation with the vacuum itself as the
+ dielectric. "Breaking yourself" is literal: the medium starts billing, and the bill
+ is paid in the traveler's own kinetic energy and structure.
 - **The enforcement is a ramp, not a wall** (the depth law, applied): the threshold is
-  approached asymptotically because the energy cost of acceleration diverges smoothly
-  as v → c (the relativistic kinetic-energy ramp, inherited exactly from the emergent
-  metric), and above-threshold dissipation would itself switch on continuously
-  (Cherenkov-class power grows smoothly from zero at threshold — excitation phase
-  space, not a step). No step anywhere; the limit is priced, not decreed.
+ approached asymptotically because the energy cost of acceleration diverges smoothly
+ as v → c (the relativistic kinetic-energy ramp, inherited exactly from the emergent
+ metric), and above-threshold dissipation would itself switch on continuously
+ (Cherenkov-class power grows smoothly from zero at threshold — excitation phase
+ space, not a step). No step anywhere; the limit is priced, not decreed.
 
 **The passed exam this already implies**: if the vacuum's dispersion bent *downward*
 at high momentum (a roton-class minimum, as in ⁴He), the critical velocity would sit
@@ -98,14 +98,14 @@ coincidence.
 What the medium tells a traveler, in three lines:
 
 1. **Below the cone, passage is free.** No fuel is spent maintaining any sub-critical
-   velocity; the medium neither pushes back nor remembers you passed. (This is why
-   Voyager coasts.)
+ velocity; the medium neither pushes back nor remembers you passed. (This is why
+ Voyager coasts.)
 2. **The cone is the last free speed.** Beyond it the vacuum becomes a dielectric you
-   radiate into — the medium's own excitation spectrum is the enforcement.
+ radiate into — the medium's own excitation spectrum is the enforcement.
 3. **The shortcuts are already priced and closed**: throat, warp bubble, and closed
-   timelike curve all require the vacuum to run a negative balance, and the
-   no-overdraft law plus the empty exotic-matter shelf (17 orders of magnitude short)
-   forbid it — see [PRTOE_wormholes.md](PRTOE_wormholes.md).
+ timelike curve all require the vacuum to run a negative balance, and the
+ no-overdraft law plus the empty exotic-matter shelf (17 orders of magnitude short)
+ forbid it — see [PRTOE_wormholes.md](PRTOE_wormholes.md).
 
 No engineering claim is made in either direction. The model's addition to propulsion
 physics is an *explanation*, not a technology: it says why the universe's default

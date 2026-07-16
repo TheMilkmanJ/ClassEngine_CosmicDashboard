@@ -5,7 +5,7 @@
 
 *Derivation-from-recorded-structure. The deepest of the three mystery documents: it addresses
 Boltzmann's question — WHY did the universe begin in a low-entropy state? — with a graded
-answer. Status: STRUCTURAL (candidate), booked internal review.*
+answer. Status: STRUCTURAL (candidate).*
 
 ## 0. The mystery, stated properly
 
@@ -36,23 +36,23 @@ begins, begins in the state that needs no choosing, and that state is minimal-en
 With the low start explained, the arrow itself is the model's graded ledger:
 
 1. **The reservoir**: gravitational free energy = smoothness (gravity's negative heat capacity
-   inverts intuition: uniform = far from equilibrium = the full account). Graded
-   "Penrose-standard" at internal review.
+ inverts intuition: uniform = far from equilibrium = the full account). This is
+ the Penrose-standard reading.
 2. **The statement**: the Weyl tensor — gravitational entropy ~ C² (Penrose's hypothesis) —
-   and the model's own dyad gate, **reading B's f = exp(−C²/C_ref²), is the account-reader**
-   (internal review: "a recorded formula acquires meaning"). The medium literally meters the arrow.
-3. **The flow**: dE = −p dV — the one transaction (internal review-graded); internal exchanges conserve;
-   only the matter–space transaction spends.
+ and the model's own dyad gate, **reading B's f = exp(−C²/C_ref²), is the account-reader**
+ (a recorded formula acquires meaning). The medium literally meters the arrow.
+3. **The flow**: dE = −p dV — the one transaction; internal exchanges conserve;
+ only the matter–space transaction spends.
 4. **The fee schedule**: Landauer — every recorded transaction (decoherence event) pays its
-   erasure toll; the environment's monitoring IS the recording (internal review: "the model reinvented
-   quantum Darwinism"). Time's direction is the direction in which the records accumulate.
+ erasure toll; the environment's monitoring IS the recording (standard quantum Darwinism).
+ Time's direction is the direction in which the records accumulate.
 5. **The compounding**: Tolman — the crunch keeps the heat; cycles lengthen; the un-crunchable
-   Weyl is debt that can never be called back. The arrow survives the bounce.
-6. **The terminus**: the free-energy threshold (internal review-graded: "the same ledger from opposite
-   sides") — the last cycle is the one that cannot fund the next genesis; the chain damps into
-   the eternal ground state (~10¹⁸ cycles, recorded bookkeeping). **The arrow ends where it
-   began: in a unique, structureless state** — the vacuum at the start, the fully-illiquid
-   zero-sum ledger at the end.
+ Weyl is debt that can never be called back. The arrow survives the bounce.
+6. **The terminus**: the free-energy threshold (graded: "the same ledger from opposite
+ sides") — the last cycle is the one that cannot fund the next genesis; the chain damps into
+ the eternal ground state (~10¹⁸ cycles, recorded bookkeeping). **The arrow ends where it
+ began: in a unique, structureless state** — the vacuum at the start, the fully-illiquid
+ zero-sum ledger at the end.
 
 ## 3. Why this is different from the standard non-answers
 
@@ -65,16 +65,16 @@ With the low start explained, the arrow itself is the model's graded ledger:
 
 ## 4. The two-sided audit (honest)
 
-- **What is genuinely derived-from-recorded:** the uniqueness argument (internal review-graded), the ledger
-  chain (each link individually graded), the terminus bookkeeping.
+- **What is genuinely derived-from-recorded:** the uniqueness argument (graded), the ledger
+ chain (each link individually graded), the terminus bookkeeping.
 - **What is owed:** (i) the entropy of the vacuum start is *defined* as minimal within the
-  model's state space — a rigorous entropy functional for the medium (von Neumann on the
-  condensate) would convert §1 from argument to theorem; (ii) the area-law/entanglement piece
-  (shared with the working docket); (iii) "whatever begins, begins in the choice-free state" is a
-  metaphysical premise made physical by the model's structure — flagged as the load-bearing
-  philosophical joint.
+ model's state space — a rigorous entropy functional for the medium (von Neumann on the
+ condensate) would convert §1 from argument to theorem; (ii) the area-law/entanglement piece
+ (shared with the working docket); (iii) "whatever begins, begins in the choice-free state" is a
+ metaphysical premise made physical by the model's structure — flagged as the load-bearing
+ philosophical joint.
 - **Falsifiers inherited:** any confirmed pre-genesis relic (kills the finite-past structure);
-  cycle-structure observables (the low-ℓ odometer class, recorded).
+ cycle-structure observables (the low-ℓ odometer class, recorded).
 
 *Boltzmann asked why the universe's clock was wound. The model's answer: a beginning is the
 one event that cannot inherit a configuration — so it occurs in the only state that has none,

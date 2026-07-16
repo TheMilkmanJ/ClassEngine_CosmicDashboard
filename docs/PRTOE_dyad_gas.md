@@ -53,7 +53,7 @@ Whatever charge the superfluid carries, the gas carries the other:
 | its excitation | light (Goldstone) | the Majoron |
 
 They meet at the **critical seam** (the neutral gate) — the sub-ohmic/smooth region of hunt
-entries 188/189. The complementarity is a candidate framing; the field assignments above are
+the derivation log. The complementarity is a candidate framing; the field assignments above are
 established (dCDF = chiral abundance-carrier; dyad = leptophilic electron-coupler).
 
 ## Where the dead ends live

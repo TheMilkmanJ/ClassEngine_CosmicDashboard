@@ -20,17 +20,17 @@ scales are statistically isotropic and Gaussian by assumption.
 
 Three recorded/graded objects bear directly on the largest angles:
 1. **The torus** (P-013, flat, compact — the omk run re-confirmed the model keeps it): a
-   compact topology DISCRETIZES the largest modes — the "missing" ℓ=2 power is the cavity's
-   infrared mode cutoff (no modes longer than the box). The atom reading (§10, recorded): the
-   low-ℓ sky is the cavity's LINE SPECTRUM — the cycle odometer.
-2. **The winding axis** (internal review-graded): the n ≠ 0 winding singles out ONE DIRECTION on the
-   sky — the natural seed for alignment/asymmetry families. Standard cosmology has no axis;
-   this model cannot avoid having exactly one.
+ compact topology DISCRETIZES the largest modes — the "missing" ℓ=2 power is the cavity's
+ infrared mode cutoff (no modes longer than the box). The atom reading (§10, recorded): the
+ low-ℓ sky is the cavity's LINE SPECTRUM — the cycle odometer.
+2. **The winding axis** (graded): the n ≠ 0 winding singles out ONE DIRECTION on the
+ sky — the natural seed for alignment/asymmetry families. Standard cosmology has no axis;
+ this model cannot avoid having exactly one.
 3. **The axis is SHARED and already registered twice**: P-2026-024 (the ε-dipole) and
-   P-2026-029 (the ℓ≈126 winding comb) both point along it. The anomalies join a THREE-member
-   family with two falsifiable siblings: **the axis-of-evil direction should coincide with the
-   comb axis and the ε-dipole axis.** One direction, four phenomena — or the family dies
-   together.
+ P-2026-029 (the ℓ≈126 winding comb) both point along it. The anomalies join a THREE-member
+ family with two falsifiable siblings: **the axis-of-evil direction should coincide with the
+ comb axis and the ε-dipole axis.** One direction, four phenomena — or the family dies
+ together.
 
 ## 2. The improvement, stated precisely
 
@@ -44,12 +44,12 @@ predictions-in-waiting.
 ## 3. The honest risks
 
 - The torus size (L ≥ 27.6 Gpc, Card 5) may be TOO LARGE for the mode cutoff to explain the
-  low quadrupole quantitatively — the cavity computation (owed) decides; if L is comfortably
-  super-horizon, thread (1) weakens to aesthetic.
+ low quadrupole quantitatively — the cavity computation (owed) decides; if L is comfortably
+ super-horizon, thread (1) weakens to aesthetic.
 - Planck's isotropy analyses constrain dipolar power modulation at large scales — the same
-  BipoSH class flagged at internal review for the comb; the family must survive it jointly.
+ BipoSH class flagged for the comb; the family must survive it jointly.
 - A measured axis-of-evil direction INCONSISTENT with a future comb/ε-dipole axis kills the
-  family linkage cleanly.
+ family linkage cleanly.
 
 *Standard cosmology looks at the largest scales, sees structure, and files it under luck. This
 model looks at the same sky and sees what an atom always shows when you finally view it whole:

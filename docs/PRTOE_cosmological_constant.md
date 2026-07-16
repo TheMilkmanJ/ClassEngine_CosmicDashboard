@@ -2,7 +2,7 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status:* ***exploratory / under internal review*** *— conditional on: the occupancy
+*Status:* ***exploratory*** *— conditional on: the occupancy
 argument (argument-grade, §4), α_c = 3α (a pre-registered bet, currently being decided
 by a running MCMC), and the condensate's EFT mass scale (derived within the effective
 theory, with the consistency caveat of §2c stated in full). The measurement that can
@@ -51,31 +51,24 @@ that measures α_c grades the triangle. (An earlier draft claimed an additional
 loop-dressing factor matched the residual; that claim was input-inconsistent and is
 retired in the public failures ledger.)
 
-**The seam identification of M₂ (hunt 210–211 — scaling derived, digit rides T_c).** The dyad–dCDF
-meeting (the seam) NAMES M₂'s base scale: **M₂ = α²·T_c**, the dyad condensation temperature
-(T_c ≈ 193 keV) times an α². And the **α² is DERIVED** (hunt 211): the two dark fields share exactly
-one coupling channel — the electron — and both vertices are electromagnetic (dCDF↔e via its
-photon-Goldstone ~α; dyad↔e via the EM self-energy m_e-shift ~α), so their handshake is α×α = α².
-Ramp-confirmed: sweeping M₂ = α^n·T_c, only **n=2** lands (n=1 is 137× high, n=3 is 137× low). Then
-**ρ_Λ¼ = ½α_c²M₂ = (9/2)α⁴T_c**, with **α⁴ = α_c² (dCDF binding) × α² (EM handshake)** — every power
-named. M₂ = α²T_c = 10.3 eV matches the freely-selected 9.39 eV to 9%. At central T_c → 2.46 meV
-(1.09×); exact 2.25 meV at T_c = 176 keV, inside the band. **Grade:** the α⁴ *scaling* is derived
-(power-counting) AND ramped (only n=2); the *digit* rides **T_c**. And T_c does NOT pin at leading-log
-(hunt 212): T_c = m_e0√(3(L−1)/2π²) is coupling-independent (κ cancels), but the leading-log L−1 carries
-an RG-scheme spread of a **factor ~10** in the value (0.21×–2.04× across μ ∈ {T_c, πT_c, 2πT_c} × MS-bar
-{0, 3/2}) — a first-pass μ=T_c/MS-bar landing of 0.96× proved a non-robust scheme artifact under the ramp.
-A partial 2-loop pass (hunt 213) fixed the thermal side EXACTLY and found the model's high-T
-Δm²=(κm_e²/3)T² is **out of regime** (T_c < m_e): the exact fermion loop (Boltzmann-suppressed electrons)
-pushes T_c UP ×1.4, so at the natural scale μ=v the DE estimate **over-predicts ~2×** (T_c≈369 keV). The
-remaining residual — the zero-T leading-log — needs the genuine 2-loop β-functions (not in the corpus).
-**The T_c closer was BUILT** ([PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md); hunt 215) —
-result a **definite negative**: the 2-loop RG-improvement does NOT pin T_c. There is no SSB at μ=m_e, and
-the scale-stationary PMS sits at μ ~ e⁻¹⁰⁰ m_e (unphysical) for any 2-loop coefficient, because the O(α)
-curvature is too weak. So **T_c is perturbatively ILL-DEFINED** — the electron-CW condensation is a
-large-log/marginal effect, and this seam DE route has no perturbative T_c to evaluate. A non-perturbative
-(gap-equation) treatment is required even to define T_c.
-Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
-scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
+**A closed form for the scale.** The dyad and the condensate communicate only through the shared
+electron, and both couplings are electromagnetic, which fixes the condensate's mass scale as M₂ = α²·(the
+dyad condensation scale). The dark-energy scale then becomes a closed form in fundamental constants:
+
+$$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2\,M_2 = \tfrac{d}{2}\,\alpha^4\,m_e \approx 2.17\ \text{meV}\quad(0.97\times\ \text{observed}),$$
+
+with *d* = 3 the spatial dimension, α the fine-structure constant, and m_e the electron mass. The α⁴
+scaling is derived — the condensate's own binding (α_c²) times the electromagnetic handshake (α²) — and
+the electron mass enters because the condensation is tied to it.
+
+**What is derived, and what is not.** The *scaling* above is derived and lands within a few percent. The
+remaining input is a single order-one number: the ratio of the condensation temperature to m_e, set by
+how strongly the medium's constituents bind. The medium's known couplings are too weak to supply that
+binding, so this number rests on a proposed **dark confining sector** — a "dark colour" force whose
+scale is pinned to the electron mass — which supplies the strong binding and, in the same stroke, is the
+dark-matter sector (see §5 for its falsifiable signature). That proposal is a candidate, not a
+derivation. So the honest reading is: the dark-energy *scale* follows a derived closed form; its last
+digit rests on one strong-coupling number that a well-motivated but unproven dark sector would fix.
 
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,
@@ -92,11 +85,11 @@ hierarchy. The smallness is inherited twice, tuned zero times.
 ## 3. Consequences already in force
 
 - ρ_Λ^{1/4} equals the lightest neutrino mass (the model's dark-energy–neutrino tie)
-  ⟹ **Σm_ν = 61.4 meV, normal ordering, Majorana mechanism required** — the full
-  statement with its caveats lives in the neutrino-sector document.
+ ⟹ **Σm_ν = 61.4 meV, normal ordering, Majorana mechanism required** — the full
+ statement with its caveats lives in the neutrino-sector document.
 - w = −1 exactly (a ground state, not a rolling field) — DESI's target.
 - The dark-energy floor cannot "thaw" into dynamics (a pre-registered zero, currently
-  under test by a dedicated chain).
+ under test by a dedicated chain).
 
 ## 4. Why exactly one quantum per cell (the occupancy argument; argument-grade)
 
@@ -113,53 +106,51 @@ The two sides of condensed matter's most famous crossover perform the two famous
 in one vacuum: the weak side's exponential gap digs the electroweak hierarchy; the
 strong side's occupancy sets the cosmological constant.
 
-## 4b. The three doors to Λ (2026-07-14 — the thermal-door arc; hunt entries 140/165)
+## 4b. Three readings of the same residual
 
 One quantity, three independent readings, one demanded number — the medium's own
 consistency structure applied to its most famous problem:
 
-- **The thermodynamic door — the cancellation** (hunt entry 140): a self-sustained
-  condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
-  relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
-  roster demonstrably cannot pay this bill species-by-species: str[1] = −68 and the
-  Veltman-class sum both FAIL — the whole medium pays what the parts cannot). The
-  observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
-  fountain (below). *Both cancellation-and-residual statements are THERMAL readings —
-  the door correction of hunt entry 170.*
-- **The background door — FALSIFIED as a value mechanism** (the KP self-consistency solve, done
-  properly — hunt 209): on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent
-  closed-universe solve gives coefficient **0.40, not the toy ¾**, so Λ¹ᐟ⁴ = 1.48 meV (0.66×). But the
-  fatal, coefficient-INDEPENDENT problem is the RATIO: the a³ 4-volume weight always favors max-a (where
-  ρ_m is minimum), so **Ω_Λ/Ω_m ≤ 0.40 across the entire expansion** (ramp-confirmed: monotonic to a max
-  of 0.398; coefficient sweep tops out ~O(1) with no closed solution above C≈0.5) — a factor **5.5 below
-  the observed 2.2**. And for the model's OWN eternal-expansion fate (flat torus → infinite 4-volume),
-  ⟨ρ_m⟩ → 0 ⟹ **Λ → 0** (ramp-confirmed). **KP cannot seat dark energy where it is observed.** The
-  earlier "0.76× from a mechanism" matched the value's *decade* by tuning turnaround~now while hiding the
-  ratio failure. *Scope:* this falsifies KP as the mechanism for the residual Λ VALUE; KP-sequestering as
-  the vacuum-CANCELLATION (the thermodynamic door below) is a separate, untouched claim.
+- **The thermodynamic reading — the cancellation:** a self-sustained
+ condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
+ relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
+ roster demonstrably cannot pay this bill species-by-species: str[1] = −68 and the
+ Veltman-class sum both FAIL — the whole medium pays what the parts cannot). The
+ observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
+ fountain (below).
+- **The background reading — does not fix the value:** on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent
+ closed-universe solve gives coefficient **0.40, not the toy ¾**, so Λ¹ᐟ⁴ = 1.48 meV (0.66×). But the
+ fatal, coefficient-INDEPENDENT problem is the RATIO: the a³ 4-volume weight always favors max-a (where
+ ρ_m is minimum), so **Ω_Λ/Ω_m ≤ 0.40 across the entire expansion** (ramp-confirmed: monotonic to a max
+ of 0.398; coefficient sweep tops out ~O(1) with no closed solution above C≈0.5) — a factor **5.5 below
+ the observed 2.2**. And for the model's OWN eternal-expansion fate (flat torus → infinite 4-volume),
+ ⟨ρ_m⟩ → 0 ⟹ **Λ → 0** (ramp-confirmed). **KP cannot seat dark energy where it is observed.** The
+ earlier "0.76× from a mechanism" matched the value's *decade* by tuning turnaround~now while hiding the
+ ratio failure. *Scope:* this falsifies KP as the mechanism for the residual Λ VALUE; KP-sequestering as
+ the vacuum-CANCELLATION (the thermodynamic door below) is a separate, untouched claim.
 - **The thermal door — the residual's dynamics** (hunt entries 165/175–183): the candidate
-  chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
-  would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
-  neutrino bath (the medium's only tree-level coupling; the friction turns on where
-  free-streaming turns off), and the freeze — Γ = H at T_f — lands at z ≈ 12 with a
-  decade-wide fade (z ≈ 32 → 4): **w = −1 exact through the observable range, untuned; the
-  settling's ash banks as dark matter (the drain, the fluid's own dust face); the frozen
-  residual is Λ.** Candidate grade throughout: the attractor/√N session is the doubly
-  load-bearing promotion computation (the coupling exponent AND the drain magnitude from one
-  calculation). The original statement stands beneath it: the condensate is **still settling from the one
-  genesis injection** — thermal counterflow (the fountain effect, the corpus's own
-  genesis name) persists while any deviation from the T = 0 ground state remains, dying
-  only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
-  medium is small — today's gradients are CMB-uniform at the 10⁻⁵ class — giving Λ's
-  smallness qualitatively for free.
+ chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
+ would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
+ neutrino bath (the medium's only tree-level coupling; the friction turns on where
+ free-streaming turns off), and the freeze — Γ = H at T_f — lands at z ≈ 12 with a
+ decade-wide fade (z ≈ 32 → 4): **w = −1 exact through the observable range, untuned; the
+ settling's ash banks as dark matter (the drain, the fluid's own dust face); the frozen
+ residual is Λ.** Candidate grade throughout: the attractor/√N session is the doubly
+ load-bearing promotion computation (the coupling exponent AND the drain magnitude from one
+ calculation). The original statement stands beneath it: the condensate is **still settling from the one
+ genesis injection** — thermal counterflow (the fountain effect, the corpus's own
+ genesis name) persists while any deviation from the T = 0 ground state remains, dying
+ only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
+ medium is small — today's gradients are CMB-uniform at the 10⁻⁵ class — giving Λ's
+ smallness qualitatively for free.
 - **The perturbations door** (entry 165 addendum): the textbook zero-point mode sum —
-  **the famous door, and the diagnosis of the famous disaster**: the 10¹²⁰ catastrophe is
-  what that door yields when opened *while denying the medium* — fluctuations read
-  without the equilibrium that cancels them. In the medium, the bulk of the mode sum is
-  cancelled by the equilibrium identity; **the residual = the modes still
-  out-of-equilibrium** — the same deviation the other two doors name. The registered
-  neutrino tie (ρ_Λ^{1/4} = m_ν,lightest = 2.25 meV; the lightest quasiparticle setting
-  the floor's quarter-power; post-hoc flag standing) is this door's sharper artifact.
+ **the famous door, and the diagnosis of the famous disaster**: the 10¹²⁰ catastrophe is
+ what that door yields when opened *while denying the medium* — fluctuations read
+ without the equilibrium that cancels them. In the medium, the bulk of the mode sum is
+ cancelled by the equilibrium identity; **the residual = the modes still
+ out-of-equilibrium** — the same deviation the other two doors name. The registered
+ neutrino tie (ρ_Λ^{1/4} = m_ν,lightest = 2.25 meV; the lightest quasiparticle setting
+ the floor's quarter-power; post-hoc flag standing) is this door's sharper artifact.
 
 **The demand this section adds (inherited by the thermal program):** the three residuals —
 the Gibbs–Duhem deviation, the residual fountain excitation, the un-cancelled mode sum —

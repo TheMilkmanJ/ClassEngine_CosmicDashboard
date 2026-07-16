@@ -9,20 +9,20 @@ manufactured claim. Legend — [O]=natively ours, [R]=ridden-exact (imitate), [S
 (our proof-of-constancy), [I]=plain inheritance (parent's relation, nothing added),
 [C]=carries genuine content (a prediction/derivation — enumerated), [P]=parked (a snag, in the
 register). Most leaves are [I]: that is the honest result, not a failure — a theory of the
-medium OWES most of science only constancy, and says so. Living document. Booked internal review.*
+medium OWES most of science only constancy, and says so. Living document.*
 
 ## PHYSICS (roots — the sixteen threads; [O]/[R] at the top)
 - mechanics [R] → classical [I] · continuum/fluids [I] · chaos/dynamical-systems [O] (the
-  release-angle dice, the One Mountain — genuinely ours)
+ release-angle dice, the One Mountain — genuinely ours)
 - E&M [R, untouched-by-law] → optics [I] · plasma [C: the trace/ω_p mouth; dispersion −1ε row]
-  · radio astronomy [C: the whole lattice — P-022/027/029]
+ · radio astronomy [C: the whole lattice — P-022/027/029]
 - thermodynamics [O] → stat-mech [O] · non-equilibrium [C: the arrow, the drawdown] ·
-  info-thermo [O: Landauer citizenship]
+ info-thermo [O: Landauer citizenship]
 - QM [R-exact, §12 wall] → atomic [S] · molecular [S] · condensed-matter [C: the cousins —
-  Josephson/Eckel/Landau are the model's own certificates] · quantum-info [R]
+ Josephson/Eckel/Landau are the model's own certificates] · quantum-info [R]
 - relativity [O-as-origin] → SR [O] · GR [C-conditional: the keystone] · cosmology [O: the roots]
 - particle [C/[P]]: EW [S] · QCD/θ̄ [never-touch — the scope survivor] · neutrino [C: the tenth
-  channel, P-023] · flavor/generations [P: the cycles lane]
+ channel, P-023] · flavor/generations [P: the cycles lane]
 - nuclear [I, inherited] → astro-nuclear/BBN [C: the witness] · fission-decay [S: the clocks]
 
 ## CHEMISTRY [S — uniformity is our prediction] 
@@ -32,7 +32,7 @@ medium OWES most of science only constancy, and says so. Living document. Booked
 - nuclear chem [S: decay constants — Oklo fence]
 
 ## BIOLOGY [license-traced; possibility not process]
-- biochem/bioenergetics [I→C-borderline: the account tap is the ARROW doc talking, not new biochem — tag shaved per internal review] → molecular bio [I] · genetics [I]
+- biochem/bioenergetics [I→C-borderline: the account tap is the ARROW doc talking, not new biochem — tag shaved] → molecular bio [I] · genetics [I]
 - botany [C-shadow: photosynthesis = the delicate withdrawal] · zoology [I] · microbio [I]
 - ecology [I: energy-flow = the local budget] · evolution [I: selection on inherited chemistry]
 - neuroscience [I; §12 WALL — NO mind claims, hard boundary]
@@ -40,14 +40,14 @@ medium OWES most of science only constancy, and says so. Living document. Booked
 
 ## EARTH & SPACE [I mostly; the instruments are [S]]
 - geology [I] → geochronology [S: radiometric = the screened decay law, Oklo-fenced] ·
-  seismology [I] · tectonics [I]
+ seismology [I] · tectonics [I]
 - meteorology/climate [I: GEN 8 flux on GEN 9 surface] · oceanography [I]
 - planetary science [I] · astronomy [C: IS the roots] · astrophysics [C: stars=GEN 8, the ladder]
 
 ## FORMAL & APPLIED [language / rides-all]
 - mathematics [not a child — the LANGUAGE, out of scope; listed, never claimed]
 - computer science [O: Landauer/Shannon constitution-grade] · engineering [I: rides all]
-- materials science [I→C-borderline: the cousins CITE materials; the model adds no materials physics — tag shaved per internal review] · medicine [S: the screen's gift, internal review]
+- materials science [I→C-borderline: the cousins CITE materials; the model adds no materials physics — tag shaved] · medicine [S: the screen's gift]
 - statistics/data science [R: the method, not a physics claim]
 
 ## THE COUNT (this pass): 
@@ -69,7 +69,7 @@ already-ours subdomain surfaced by the audit itself.*
 | subdomain | tag | the connection (or its honest absence) |
 |---|---|---|
 | **LASER PHYSICS** (the author's example) | [R + cousin-note] | stimulated emission = QM+EM, ridden-exact. The kinship: a laser IS a photon coherent state — laboratory macroscopic coherence, the optical sibling of the cousins' bench (one phase, many quanta — the medium's own grammar at 10¹⁵ Hz). No improvement claimed; the kinship is real and unforced |
-| **CRITICAL PHENOMENA / PHASE TRANSITIONS** | **[C — ours, previously untagged!]** | the audit's find: Kibble-Zurek IS this subdomain and the model RUNS on it (the first-genesis domain formation, internal review; the T_c condensation, the gate). The universality-class formalism (critical exponents, scaling) is the mathematics of our own transition. Upgraded from unlisted to content-node — the 13th voice |
+| **CRITICAL PHENOMENA / PHASE TRANSITIONS** | **[C — ours, previously untagged!]** | the audit's find: Kibble-Zurek IS this subdomain and the model RUNS on it (the first-genesis domain formation; the T_c condensation, the gate). The universality-class formalism (critical exponents, scaling) is the mathematics of our own transition. Upgraded from unlisted to content-node — the 13th voice |
 | **TOPOLOGICAL MATTER** (quantum Hall, topological insulators) | [R + kinship] | the quantized Hall conductance σ = νe²/h is topological protection — THE SAME MATHEMATICS as the winding's crunch-immunity. A new lab-cousin row: nature already builds n∈ℤ-protected observables on benches. Kinship, not improvement |
 | quantum optics | [R] | rides QM exactly; hosts the Tsirelson-class tests (our permanent exam hall) |
 | metrology | [C-adjacent, existing] | already ours via Josephson/SI (the cousins) — now explicitly tagged as the subdomain |

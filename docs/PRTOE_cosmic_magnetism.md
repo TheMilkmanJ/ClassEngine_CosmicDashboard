@@ -4,7 +4,7 @@
 
 
 *Derivation-from-recorded-structure; the standalone document for P-2026-028. Status: STRUCTURAL
-(candidate) with one honestly-open gap (the void floor). Booked internal review. The claim of uniqueness
+(candidate) with one honestly-open gap (the void floor). The claim of uniqueness
 is stated precisely in §5 — the mechanism class is standard; the SOURCE and the SIGN are not.*
 
 ---
@@ -30,13 +30,13 @@ The known escape attempts and their pathologies:
 ## 1. This model is a rotation machine — the vorticity is structural, not optional
 
 The founding identity is a charged **rotating** superfluid, and rotation in a superfluid is not
-a free profile — it is **quantized circulation** (Onsager–Feynman; internal review-granted: "a rotating
-superfluid CANNOT have n = 0"). The recorded sources of spin, each graded:
+a free profile — it is **quantized circulation** (Onsager–Feynman: a rotating
+superfluid cannot have n = 0). The recorded sources of spin:
 
-1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis, internal review;
-   topologically locked through every crunch).
-2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc (internal review scale) thread
-   the medium with quantized vortex lines.
+1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis;
+ topologically locked through every crunch).
+2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc thread
+ the medium with quantized vortex lines.
 3. **The genesis helicity** — the AD roll's self-generated rotation (the first-roll theorem).
 
 So the one ingredient Harrison lacked in ΛCDM — primordial vorticity — is here **by identity**:
@@ -47,23 +47,23 @@ removing it would contradict the model's own name.
 Harrison's battery: in the pre-recombination plasma, vorticity spins electrons and ions
 differently (photon drag couples to them unequally), separating charge into a current:
 
-    B_seed ≈ 2 (m_p c / e) · ω_vort  ≈  **5×10⁻¹⁸ G**  at ω_vort ~ 0.5 H(rec)   (internal review-graded)
+ B_seed ≈ 2 (m_p c / e) · ω_vort ≈ **5×10⁻¹⁸ G** at ω_vort ~ 0.5 H(rec) (graded)
 
 That is precisely a viable **galactic** seed: compressed and dynamo-amplified over ~30 e-folds
-to the observed μG. **The model pays the galactic magnetism bill where ΛCDM cannot** — graded
-at internal review ("a genuine new explanatory front... credit"), registered as P-2026-028.
+to the observed μG. **The model pays the galactic magnetism bill where ΛCDM cannot** —
+a genuine new explanatory front, registered as P-2026-028.
 
 **Consistency, forced:** the seeding runs through the *plasma's* response to the medium's
 rotation — never through dark-charge currents, because the condensate's EM-neutrality is
-FORCED to 25–45 orders by the Meissner/photon-mass bound (internal review-graded). The model is not
+FORCED to 25–45 orders by the Meissner/photon-mass bound (graded). The model is not
 allowed to make fields directly; it is allowed to stir.
 
 ## 3. The void floor — the honest open gap
 
 The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
-vortex-network rms boost, ×3400) was caught by internal review: it concentrates B on the
+vortex-network rms boost, ×3400) fails on inspection: it concentrates B on the
 **filaments/lines**, while the void floor constrains the **inter-line** field — which stays
-**~1.5 orders short** on the smooth estimate. [Historical framing — see the RESOLVED verdict below: the internal rescues died; the blazar debate is the referee.] Live
+**~1.5 orders short** on the smooth estimate. [See the RESOLVED verdict below: the internal rescues died; the blazar debate is the referee.] Live
 candidates, none yet computed: (i) return-flux topology (field lines must close — the void
 threading is not zero, its floor is computable); (ii) post-recombination vorticity persistence;
 (iii) the blazar bound's own caveats (plasma-instability alternative would relax the floor).
@@ -84,29 +84,29 @@ Every other mechanism predicts a magnitude and (at best) a spectrum. This model'
 inherits **magnetic helicity with a DETERMINED SIGN**: the vorticity that seeds B is the
 genome's own rotation, so
 
-    sign(helicity_B)  =  sign(n)  =  the SAME topological draw that set matter-over-antimatter
-                                     (the one quantum integer of internal review; the three-way convergence
-                                     graded at internal review).
+ sign(helicity_B) = sign(n) = the SAME topological draw that set matter-over-antimatter
+ (the model's one quantum integer; the three-way convergence
+ of matter asymmetry, helicity, and winding on a single draw).
 
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in
-  γ-ray halo parity asymmetries) must correlate with a single axis — the winding axis —
-  which is ALSO P-024's ε-dipole axis and P-029's comb axis. **Three predictions, one axis.**
+ γ-ray halo parity asymmetries) must correlate with a single axis — the winding axis —
+ which is ALSO P-024's ε-dipole axis and P-029's comb axis. **Three predictions, one axis.**
 - A measured magnetic helicity of the WRONG sign relative to the baryon asymmetry's
-  genome-sign kills the linkage outright (a clean falsifier no dial can dodge).
+ genome-sign kills the linkage outright (a clean falsifier no dial can dodge).
 - The coherence scale is not microscopic: the Kibble network sets ~100-Mpc-class comoving
-  structure in the seed — distinctive against phase-transition mechanisms (which cannot reach
-  such scales causally) and testable in principle in Faraday-rotation-measure correlation
-  functions.
+ structure in the seed — distinctive against phase-transition mechanisms (which cannot reach
+ such scales causally) and testable in principle in Faraday-rotation-measure correlation
+ functions.
 
 ## 5. What is and is not unique here (the precise boast)
 
 - **Not unique:** the Harrison mechanism (standard, 1970); the seed magnitude class (~10⁻¹⁸ G).
 - **Unique to this model:** (i) a *structural* primordial vorticity source — rotation as
-  founding identity, quantized, crunch-proof — where every competitor must add a field or an
-  epoch by hand; (ii) the **signed-helicity linkage** to the baryon asymmetry through one
-  topological integer — no other framework ties the sky's magnetic parity to the existence of
-  matter; (iii) the shared-axis triple (ε-dipole, the ℓ≈126 comb, the helicity parity).
+ founding identity, quantized, crunch-proof — where every competitor must add a field or an
+ epoch by hand; (ii) the **signed-helicity linkage** to the baryon asymmetry through one
+ topological integer — no other framework ties the sky's magnetic parity to the existence of
+ matter; (iii) the shared-axis triple (ε-dipole, the ℓ≈126 comb, the helicity parity).
 
 ## 6. Ledger summary
 

@@ -29,15 +29,15 @@ first genesis, with its sign already spoken for.
 ## 2. The honest flags (both directions)
 
 1. **LIKELY SHORT (the magnitude flag):** the vorticity-to-density coupling is
-   velocity-suppressed ((v/c)-class factors); whether the induced 4PCF parity amplitude
-   reaches the claimed signal is UN-PRICED and plausibly orders short. THE PRICING IS THE
-   THREAD'S LIFE-OR-DEATH computation — filed, owed, not presumed.
+ velocity-suppressed ((v/c)-class factors); whether the induced 4PCF parity amplitude
+ reaches the claimed signal is UN-PRICED and plausibly orders short. THE PRICING IS THE
+ THREAD'S LIFE-OR-DEATH computation — filed, owed, not presumed.
 2. **THE SIGNAL ITSELF IS DISPUTED:** the systematics debate is unresolved; the thread's
-   fate is doubly conditional (our amplitude AND their signal).
+ fate is doubly conditional (our amplitude AND their signal).
 3. **The axis dichotomy (the free consistency check, either way):** if the signal is real AND
-   ours, its parity structure should correlate with the family axis (P-024/P-029/low-ℓ); if
-   real and NOT ours, no correlation is expected — the same salvage structure as the
-   dipole-excess autopsy (A5).
+ ours, its parity structure should correlate with the family axis (P-024/P-029/low-ℓ); if
+ real and NOT ours, no correlation is expected — the same salvage structure as the
+ dipole-excess autopsy (A5).
 
 ## 3. Why this thread matters even at likely-short
 

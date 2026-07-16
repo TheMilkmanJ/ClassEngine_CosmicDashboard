@@ -55,7 +55,7 @@ dead, and the corpse ledger is public.
 | 21 | The cosmological constant | Old half dissolved (grade: coherence); new half confessed | Standing bet #3 vs DESI DR2 |
 | 22 | Exotic spacetimes | White holes killed 4 ways; wormholes uncreditworthy | Nulls with receipts |
 | 23 | Fluid dynamics & turbulence | Kolmogorov translates; intermittency silent | Honest silence |
-| 24 | Methods: Bayesian & numerical | Joint refits; pre-registration; internal review protocol | The method IS a result |
+| 24 | Methods: Bayesian & numerical | Joint refits; pre-registration; adversarial self-review protocol | The method IS a result |
 
 *Part II (below, rewritten 2026-07-07 after the author rejected a
 calibration-heavy first draft) extends the census to **74 domains**
@@ -225,7 +225,7 @@ its firmest law — no prediction from an un-pinned function, measured
 
 The identity itself. Room 1 closed on the recognition that the medium is
 the **phase EFT of a complex condensate at finite chemical potential**
-(Son hep-ph/0204199; isomorphism granted by the internal review below the
+(Son hep-ph/0204199; the isomorphism holds below the
 amplitude gap). Minimal V = m²|Ψ|² + λ|Ψ|⁴ matches the basin exactly —
 basin entry IS the condensation threshold μ = m; unification m̄₂ = M₂²/m
 removed a parameter; λ ~ 10⁻⁸⁸ is a visible scar that later shielded the
@@ -357,7 +357,7 @@ microcanonical ensemble on the quartic shell — the author's blind
 reconstruction — approximately reproduces the dice; the gap was dissected
 (freeze-out explains a third; the remainder is *release memory*, born at
 L = 0, and anti-tracks tilt at n = 110/tilt), and the analytic exceedance
-came out 78–80%. The whole edifice was then handed to the internal review, which
+came out 78–80%. The whole edifice was then handed to adversarial review, which
 pre-registered the acceptance protocol for the h-scan (dual integrator,
 n = 50 angles, h to 10⁴, graded by *their* criteria). **RESULT (protocol
 harvest, complete): the ergodic BACKBONE IS DEAD as an extrapolation
@@ -372,7 +372,7 @@ tried to extrapolate them does not.
 
 **Verdict: the honest answer to "what is ε?" is a probability distribution
 (the dice, intact) — and the pre-registered falsifier killed the backbone
-that tried to derive it, exactly where the internal review said to look. Stage-two
+that tried to derive it, exactly where the review said to look. Stage-two
 conformal integration is now the sole ladder to physical h.**
 
 ## 17. Statistical mechanics, thermodynamics & information
@@ -501,7 +501,7 @@ mpirun linkage; never rewrite a script a live bash is executing); stiff-ODE
 forensics down to a C⁰ discontinuity from a leftover dy = 0 hack; the
 freshness check that made "which .so am I actually importing" a ritual.
 Above the numerics, the method itself: **pre-registration with death
-conditions, a turn-based adversarial internal review file with written
+conditions, a turn-based adversarial review with written
 concessions on both sides, the Pinning Rule (3-for-3), graveyard Rules 1–3
 with a published warm/cold census (7 cold / 5 warm / 3 risen), and
 falsify-first scoring of every author intuition** — several of which
@@ -543,11 +543,11 @@ resurrection terms or the word "never."*
 
 1. **Laboratory zero** — every precision lab, kill-only, no dial.
 2. **Indirect-detection zero** — one confirmed dark-sector particle signal
-   kills the model outright.
+ kills the model outright.
 3. **Λ exactly** — against DESI DR2's 3.1σ evolving-DE preference, live now.
 4. **P-2026-001** — TRGB resolution, H₀ ∈ [69, 71]; 72+ falsifies, no hedge.
 5. **P-2026-004 vs the meV whisper** — the running posterior judges both;
-   the model cannot win twice.
+ the model cannot win twice.
 
 *If every bet survives, the program has earned its next room. If one
 dies, the file shows exactly where, and why, and what was paid to know.*

@@ -30,20 +30,20 @@ early stages of nucleosynthesis at production grade).
 ## 3. Where it lands — stated honestly
 
 - **Same data, same pipeline**: ΛCDM's best fit gives H₀ = 68.2; the model gives
-  **69.9**, with the Bayesian evidence favoring the model at ΔlnZ ≈ +2.6 (Laplace
-  approximation; past the pre-registered win threshold; graded internally as marginal
-  and calibration-conditional pending the full nested-sampling verdict now running).
+ **69.9**, with the Bayesian evidence favoring the model at ΔlnZ ≈ +2.6 (Laplace
+ approximation; past the pre-registered win threshold; graded internally as marginal
+ and calibration-conditional pending the full nested-sampling verdict now running).
 - **The residual is owned**: 69.9 is not 73.0. The model closes roughly half the
-  gap and *refuses* the rest — offered spatial curvature as an escape, the fit declined
-  it. The claim is not "SH0ES is fully explained"; it is "the sky prefers a universe
-  with this mechanism in it, and the remaining gap is real information about the
-  measurements."
+ gap and *refuses* the rest — offered spatial curvature as an escape, the fit declined
+ it. The claim is not "SH0ES is fully explained"; it is "the sky prefers a universe
+ with this mechanism in it, and the remaining gap is real information about the
+ measurements."
 - **The reach computation (signed 2026-07-13)**: an exhaustive audit of every lever the
-  model owns — the supernova-standardization channels (computed through synthetic
-  photometry; the sign came out *opposite* to the tension, robustly, across 180
-  template configurations), the survey-geometry leakage (+0.1–0.3%), and the
-  reionization tether (±0.3) — caps the model's account of the *ladder* reading at
-  **~70.9–71.3. The model cannot reach 73, and says so.**
+ model owns — the supernova-standardization channels (computed through synthetic
+ photometry; the sign came out *opposite* to the tension, robustly, across 180
+ template configurations), the survey-geometry leakage (+0.1–0.3%), and the
+ reionization tether (±0.3) — caps the model's account of the *ladder* reading at
+ **~70.9–71.3. The model cannot reach 73, and says so.**
 
 ## 4. The calibration question (where the residual points)
 

@@ -32,17 +32,17 @@ The electron-mass shift ε ≈ 1.24% is the model's one added number. Two things
 
 **1. The switch must be sharp — a near-binary threshold — and TWO independent experiments force it.**
 - *Equal-Principle side (MICROSCOPE):* the m_e shift must drop by **~8 decades** between a
-  dwarf-halo core (where it acts) and Earth (where MICROSCOPE tests it to 10⁻¹⁵). But the
-  Weyl curvature between the smoothest relevant epoch (recombination, δ ~ 10⁻⁵) and a dwarf
-  core changes by only **~1.35 decades (~22×)**. An 8-decade suppression cannot ride a
-  1.35-decade window with a gentle function: exp(−(C/C_ref)ⁿ) needs **n > 2.43** — essentially
-  a step. Once sharp enough to switch off at the dwarf core, Earth (17 decades higher
-  curvature) is off automatically; no separate tuning.
+ dwarf-halo core (where it acts) and Earth (where MICROSCOPE tests it to 10⁻¹⁵). But the
+ Weyl curvature between the smoothest relevant epoch (recombination, δ ~ 10⁻⁵) and a dwarf
+ core changes by only **~1.35 decades (~22×)**. An 8-decade suppression cannot ride a
+ 1.35-decade window with a gentle function: exp(−(C/C_ref)ⁿ) needs **n > 2.43** — essentially
+ a step. Once sharp enough to switch off at the dwarf core, Earth (17 decades higher
+ curvature) is off automatically; no separate tuning.
 - *Spectroscopy side (quasars):* a smooth density-dependence would produce quasar-vs-absorber
-  line differentials ~10⁴× the observed bound — so the switch is forced binary here too.
+ line differentials ~10⁴× the observed bound — so the switch is forced binary here too.
 - **Two unrelated experiments demanding the same near-binary threshold is convergent evidence,
-  not tuning.** The clean underlying variable is topological: has multi-streaming / first
-  shell-crossing happened here, yes or no — an environmental event, not a tuned curvature number.
+ not tuning.** The clean underlying variable is topological: has multi-streaming / first
+ shell-crossing happened here, yes or no — an environmental event, not a tuned curvature number.
 
 **2. The amplitude's ceiling is derived.** The electron mass is ~99% Higgs-Yukawa and ~1%
 electromagnetic self-energy. If the environment amends the EM-binding rule, only the EM part
@@ -97,10 +97,10 @@ into INTERFERENCE, so a sharp "shell-crossed bit" seemed ill-defined
 for a wave medium — resolves into a gift: the wave-mechanical form of
 "multi-stream region" IS the granule field. Therefore:
 
-    Θ ≡ multi-stream interference present ≡ granules on.
-    Single-stream (voids, pre-collapse, pre-structure universe):
-      no granules, m_e bare.
-    Multi-stream (halos, folded filaments): granules on, m_e lab.
+ Θ ≡ multi-stream interference present ≡ granules on.
+ Single-stream (voids, pre-collapse, pre-structure universe):
+ no granules, m_e bare.
+ Multi-stream (halos, folded filaments): granules on, m_e lab.
 
 The trigger question and the granule program are the same nonlinear
 sector. #11 (R1's named gate) becomes concrete: derive whether the
@@ -112,10 +112,10 @@ regions and the granule-onset boundary).
 ## 4. The discriminator fork (pre-registerable ONLY after #11 pins R1)
 
 - TIME-GATE story (current configs): 21-cm sky below z = 50 fully
-  standard (booked as domain §62/§74).
+ standard (booked as domain §62/§74).
 - STRUCTURE-GATE story (R1): the UNVIRIALIZED dark-ages/cosmic-dawn
-  IGM carries bare m_e ≈ 1.01 → percent-level shifts in 21-cm physics
-  exactly where REACH/SKA-low will look.
+ IGM carries bare m_e ≈ 1.01 → percent-level shifts in 21-cm physics
+ exactly where REACH/SKA-low will look.
 The fork is real, clean, and instrument-dated. It is NOT registered:
 R1 must first survive #11. Booked here so it cannot be quietly skipped
 — and so nobody registers it early in enthusiasm.
@@ -145,15 +145,15 @@ up to s ≈ 16). And β's built-in scale 1/β lands IN-WINDOW at
 β ≈ 0.07 (s* = 14) — the family shape can reach the right territory.
 THREE KILLS ANYWAY:
 (1) any β in the fluid's cs² is DES-dead and 0.07 is worse than the
-    executed 1×10⁻⁷ by five decades (cs²_max ≈ 0.74β at the DE
-    transition, s ≈ 1) — so the trigger-β must be a new object wearing
-    the formula, inheriting nothing;
+ executed 1×10⁻⁷ by five decades (cs²_max ≈ 0.74β at the DE
+ transition, s ≈ 1) — so the trigger-β must be a new object wearing
+ the formula, inheriting nothing;
 (2) standalone, it is the bespoke-saturation corpse: 0.07 was fit to
-    the window at pricing time, derived from nothing;
+ the window at pricing time, derived from nothing;
 (3) DECISIVE: the threshold cuts through today's environments —
-    measured systems span s ≈ 8–16, so s* = 14 puts dense absorbers on
-    the BARE side today → same-absorber nulls fire; escape requires
-    tuning s* into the (16, 20) sliver with no mechanism.
+ measured systems span s ≈ 8–16, so s* = 14 puts dense absorbers on
+ the BARE side today → same-absorber nulls fire; escape requires
+ tuning s* into the (16, 20) sliver with no mechanism.
 STANDING REQUIREMENTS TABLE (any future trigger candidate must pass):
 ON at s = 20; OFF for all 11.4 ≤ s ≤ 16; no differential structure
 across today's environment spread; a derived (not fit) scale or a
@@ -170,33 +170,33 @@ requirements table is the question's permanent yield.
 timeline of vanishings, priced:
 - e+e- pairs (z~1×10⁹): six decades too early.
 - Radiation domination (z~3400): SELF-KILLING — precedes recombination,
-  which the amendment must still shift.
+ which the amendment must still shift.
 - THE PLASMA / free electrons (z~1100): self-destructs three ways —
-  (i) the amendment would decay DURING recombination as x_e falls;
-  (ii) REIONIZATION (z~6-8) brings the plasma back → every modern
-  absorber flips bare → same-absorber nulls fire; (iii) stellar
-  interiors are denser plasma than recombination → stars would run on
-  bare m_e. Note for the record: this is the THIRD door the x_e
-  variable has been walked through (v6 c_EM energy coupling: +261;
-  payment route: census; trigger: reionization/stars). The variable is
-  closed in all its forms.
+ (i) the amendment would decay DURING recombination as x_e falls;
+ (ii) REIONIZATION (z~6-8) brings the plasma back → every modern
+ absorber flips bare → same-absorber nulls fire; (iii) stellar
+ interiors are denser plasma than recombination → stars would run on
+ bare m_e. Note for the record: this is the THIRD door the x_e
+ variable has been walked through (v6 c_EM energy coupling: +261;
+ payment route: census; trigger: reionization/stars). The variable is
+ closed in all its forms.
 - **THERMAL CONTACT between matter and radiation (z ≈ 150): SURVIVES —
-  CANDIDATE #2, "the Compton gate."** Residual electrons keep gas
-  temperature locked to the CMB until the Compton heating rate falls
-  below H at z ≈ 150 — the one global disappearance in the window,
-  with a DERIVED scale (rate crossing, not a fit), ON through
-  recombination, OFF globally after, no modern re-lock anywhere → all
-  differential nulls pass trivially. Structural debit: the trigger
-  variable is a FOREIGN thermometer (baryon-photon state) — the medium
-  must sense a sector it holds no account with; rules-sensing is not
-  energy exchange, but medium-native beats foreign-keyed.
+ CANDIDATE #2, "the Compton gate."** Residual electrons keep gas
+ temperature locked to the CMB until the Compton heating rate falls
+ below H at z ≈ 150 — the one global disappearance in the window,
+ with a DERIVED scale (rate crossing, not a fit), ON through
+ recombination, OFF globally after, no modern re-lock anywhere → all
+ differential nulls pass trivially. Structural debit: the trigger
+ variable is a FOREIGN thermometer (baryon-photon state) — the medium
+ must sense a sector it holds no account with; rules-sensing is not
+ energy exchange, but medium-native beats foreign-keyed.
 
 **The trigger fork is now three-tined, one instrument judges all:**
 the dark-ages/cosmic-dawn 21-cm sky (z ~ 15-90):
-  by-hand epoch gate (current configs) → standard sky below z=50;
-  R1/fold (candidate #1)               → SHIFTED sky (bare m_e in
-                                          unvirialized IGM);
-  Compton gate (candidate #2)          → standard sky below z=150.
+ by-hand epoch gate (current configs) → standard sky below z=50;
+ R1/fold (candidate #1) → SHIFTED sky (bare m_e in
+ unvirialized IGM);
+ Compton gate (candidate #2) → standard sky below z=150.
 Neither candidate registers until it has a mechanism (Pinning Rule).
 Candidate #1 remains structurally favored (medium-native variable);
 candidate #2 holds the natural-scale advantage. Both pass the §7
@@ -213,8 +213,8 @@ negligible). The gate has no dial.
 **(b) The data test — PASSED at zero cost:** single-point χ² at the
 chain's current best point (Planck 2018 + BAO + Pantheon+SHOES stack),
 identical configs except the gate:
-    gate at z = 50 (by hand):   χ² = 2496.607
-    gate at z = 131 (derived):  χ² = 2496.645   (Δχ² = +0.04)
+ gate at z = 50 (by hand): χ² = 2496.607
+ gate at z = 131 (derived): χ² = 2496.645 (Δχ² = +0.04)
 The data is indifferent — the derived scale is fully legal. (Same runs
 reproduce the dyad point's ~19-point win over the ΛCDM anchor on this
 stack, on today's clean tree: CMB 1015.9 / BAO 10.7 / SN 1470.0,
@@ -352,12 +352,12 @@ when it's no longer hot enough") identifies a genuine fourth box in a
 vs foreign-keyed) crossed with WHERE it fires (local/patchy vs
 global/uniform-in-time).
 
-    Local + medium-native:   the fold (R1, candidate #1)
-    Global + foreign-keyed:  the Compton gate (candidate #2)
-    Global + medium-native:  THE LEDGER DECREE (candidate #3, NEW)
-    Local + foreign-keyed:   no candidate proposed; likely incoherent
-                             (a foreign thermometer has no natural way
-                             to vary PATCH BY PATCH at fixed redshift)
+ Local + medium-native: the fold (R1, candidate #1)
+ Global + foreign-keyed: the Compton gate (candidate #2)
+ Global + medium-native: THE LEDGER DECREE (candidate #3, NEW)
+ Local + foreign-keyed: no candidate proposed; likely incoherent
+ (a foreign thermometer has no natural way
+ to vary PATCH BY PATCH at fixed redshift)
 
 **FORCED ADMISSION, IMPORTANT:** every m_e measurement ever made —
 every quasar absorber, every star, every lab bench — sits inside
@@ -443,15 +443,15 @@ funnel, not two mechanisms needing reconciliation.
 
 **STANDING PICTURE, all candidates after tonight's full pass:**
 - Candidate #1 (the fold, R1/Theta): LOCAL, medium-native, structural
-  favorite going in. Gate: two-field sims (docketed).
+ favorite going in. Gate: two-field sims (docketed).
 - Candidate #2 (Compton gate, direct): RETIRED as a rival mechanism in
-  favor of staging (§11) or shared-clock correlation (§13) — no longer
-  scored as an independent foreign-sensing trigger.
+ favor of staging (§11) or shared-clock correlation (§13) — no longer
+ scored as an independent foreign-sensing trigger.
 - Candidate #3 (the ledger decree via shared clock, Reading B): GLOBAL,
-  medium-native, ADOPTED as the leading non-local picture. Open task,
-  UNCHANGED: derive the actual redshift/scale-factor value from H(z)
-  or the total energy budget, non-arbitrarily — without it, B is a
-  well-motivated MECHANISM CLASS, not yet a pinned prediction.
+ medium-native, ADOPTED as the leading non-local picture. Open task,
+ UNCHANGED: derive the actual redshift/scale-factor value from H(z)
+ or the total energy budget, non-arbitrarily — without it, B is a
+ well-motivated MECHANISM CLASS, not yet a pinned prediction.
 
 **THE DISCRIMINATOR IS UNCHANGED AND NOW DECISIVE BETWEEN TWO, NOT
 THREE:** the dark-ages/cosmic-dawn 21-cm sky (unvirialized IGM,
@@ -546,9 +546,9 @@ which formulation is used. Cross-validates the earlier basin-entry
 kill rather than just repeating it.
 
 **"EXPANSION + HEAT" IS NOW FULLY CLOSED, ALL THREE READINGS TRIED:**
-  baryon-photon bath (foreign):     z~131,   IN WINDOW — alive (§9/13)
-  medium's own late/virial heat:    n/a,     structurally LOCAL (§16)
-  medium's own early/quantum heat:  z~1×10⁷,   100x too early (this entry)
+ baryon-photon bath (foreign): z~131, IN WINDOW — alive (§9/13)
+ medium's own late/virial heat: n/a, structurally LOCAL (§16)
+ medium's own early/quantum heat: z~1×10⁷, 100x too early (this entry)
 Only the foreign-keyed version lands in the epoch that matters — which
 is exactly why the Compton gate, despite needing the shared-clock
 resolution to avoid a sensing debit, keeps surviving every test run
@@ -612,8 +612,8 @@ comparisons.
 **THE PROPOSAL:** couple the electron mass to the medium's own COHERENCE
 ORDER PARAMETER, not to density or to a foreign thermometer:
 
-    L_int = -ε * G(x) * m_e_bar * (electron mass bilinear)
-    m_e_eff(x) = m_e_bar * [1 + ε * G(x)]
+ L_int = -ε * G(x) * m_e_bar * (electron mass bilinear)
+ m_e_eff(x) = m_e_bar * [1 + ε * G(x)]
 
 where G(x) is the LOCAL SUPERFLUID COHERENCE FRACTION, built from the
 phase gradient of Psi = |Psi| e^{i ξ}. Grounding: curl(grad(ξ)) = 0
@@ -729,7 +729,7 @@ BOTH tonight's §20 proposal AND the underlying goal of mechanizing
 varying_me are foreclosed by the model's own prior theorem. This is
 NOT decided here. Resolving it requires re-examining exactly what the
 census's "EM/strong/weak (structural)" language was meant to rule out
-— and deserves the same adversarial scrutiny (internal review review) as any
+— and deserves the same adversarial scrutiny (internal review) as any
 other foundational claim in this file, not a unilateral ruling made
 solo, late at night, by the same agent that just violated it once
 already.
@@ -799,7 +799,7 @@ epoch. It is specifically the TIDAL part of curvature, switching on
 only where genuine inhomogeneity/structure exists (any bound object,
 any virialized halo). Proposed:
 
-    m_e_eff(x) = m_e_bar * [1 + ε*(1 - C²(x)/C^2_ref)]
+ m_e_eff(x) = m_e_bar * [1 + ε*(1 - C²(x)/C^2_ref)]
 
 where C² is the Weyl invariant (or its already-model-resident cousin,
 (δ K)²'s inhomogeneity piece -- the SAME author admitted via
@@ -973,17 +973,17 @@ named, concrete next task -- distinct from and sharper than the vague
 m_e_eff = m_bar*[1 + eps*exp(-C/C_ref)]. It REQUIRES C_ref fine-tuned to
 a factor of 1.22 -- unacceptable by the model's own standards. Chasing
 WHY exposed the real result:
-  - Weyl curvature between recombination (smoothest relevant epoch,
-    δ~1×10⁻⁵) and a dwarf-halo core (full suppression required)
-    changes by only ~22x (1.35 decades).
-  - MICROSCOPE (section 26) demands the m_e shift drop by ~8.2 decades
-    across that SAME gap.
-  - An 8-decade suppression cannot fit a 1.35-decade curvature window
-    with a gentle function. THE TRANSITION IS FORCED TO BE SHARP:
-    exp(-(C/C_ref)^n) needs n > 2.43 -- essentially a threshold/step.
-  - Once sharp enough to suppress at the dwarf core, Earth (17 decades
-    higher curvature) is suppressed automatically -- MICROSCOPE's own
-    test location is the EASY end. No separate Earth tuning needed.
+ - Weyl curvature between recombination (smoothest relevant epoch,
+ δ~1×10⁻⁵) and a dwarf-halo core (full suppression required)
+ changes by only ~22x (1.35 decades).
+ - MICROSCOPE (section 26) demands the m_e shift drop by ~8.2 decades
+ across that SAME gap.
+ - An 8-decade suppression cannot fit a 1.35-decade curvature window
+ with a gentle function. THE TRANSITION IS FORCED TO BE SHARP:
+ exp(-(C/C_ref)^n) needs n > 2.43 -- essentially a threshold/step.
+ - Once sharp enough to suppress at the dwarf core, Earth (17 decades
+ higher curvature) is suppressed automatically -- MICROSCOPE's own
+ test location is the EASY end. No separate Earth tuning needed.
 
 **WHY THIS IS A PILLAR, NOT A PATCH -- THE CONVERGENCE.** The model had
 ALREADY, independently, required this exact sharpness: the continuous-
@@ -1035,38 +1035,38 @@ internal quantity).
 Explored candidate mechanism-classes for the amplitude eps ~ 0.0124.
 HONEST NEGATIVE RESULT: no roof found. The tempting numerical hits are
 graded and REJECTED as pillars:
-  - α*ln(m_p/m_e)-type "hitting 1.00": only reaches the target with
-    a hand-inserted estimate factor -- a FIT dressed as derivation, counts
-    for NOTHING (flagged against my own work).
-  - 2*α = 0.0146 (18% high), 3*α/2 = 0.0109 (12% low): closest
-    clean combinations, but NO mechanism predicts either coefficient.
-    WATCHED COINCIDENCES at best; Pinning Rule forbids registration
-    until a mechanism produces the number.
+ - α*ln(m_p/m_e)-type "hitting 1.00": only reaches the target with
+ a hand-inserted estimate factor -- a FIT dressed as derivation, counts
+ for NOTHING (flagged against my own work).
+ - 2*α = 0.0146 (18% high), 3*α/2 = 0.0109 (12% low): closest
+ clean combinations, but NO mechanism predicts either coefficient.
+ WATCHED COINCIDENCES at best; Pinning Rule forbids registration
+ until a mechanism produces the number.
 
 **THE REAL, DEFENSIBLE FINDING (structural, not numerological):** the
 amplitude's SIZE, eps ~ 1×10⁻² ~ O(α), is itself a mechanism-class
 constraint independent of the exact coefficient:
-  - It is the RIGHT SIZE for an electromagnetic / radiative correction
-    to a mass -- consistent with the Weyl-Higgs picture (coupling lives
-    in the SM's own EM-sensitive sector).
-  - It RULES OUT gravitational-strength / Planck-suppressed origins,
-    which would give eps ~ 1e-(many tens), not 1×10⁻².
+ - It is the RIGHT SIZE for an electromagnetic / radiative correction
+ to a mass -- consistent with the Weyl-Higgs picture (coupling lives
+ in the SM's own EM-sensitive sector).
+ - It RULES OUT gravitational-strength / Planck-suppressed origins,
+ which would give eps ~ 1e-(many tens), not 1×10⁻².
 So the size alone is quiet evidence FOR an EM-sector origin and AGAINST
 a purely gravitational one -- exactly where the merged candidate
 (two theses merged) puts the coupling. This CONSTRAINS the roof's material without
 BUILDING the roof.
 
 **STATE OF THE HOUSE (author's framing, honest accounting):**
-  - FOUNDATION: (a) "nothing until contact" confirmed as house law
-    (Atlas); (b) census scope adjudication -- PENDING internal review; (c)
-    Fairbank convergence -- IN PROGRESS.
-  - WALLS: the m_e mechanism's FORM -- STANDING on a two-constraint
-    pillar (section 27: MICROSCOPE + quasar both force the sharp
-    threshold; candidates #1 and #23 merged).
-  - ROOF: the amplitude -- NOT BUILT. Size constrained to EM-radiative
-    scale (this section); exact coefficient still fit, mechanism owed.
-  - FURNISHING (PolyChord, evidence run, publication): correctly
-    deferred until roof is on.
+ - FOUNDATION: (a) "nothing until contact" confirmed as house law
+ (Atlas); (b) census scope adjudication -- PENDING internal review; (c)
+ Fairbank convergence -- IN PROGRESS.
+ - WALLS: the m_e mechanism's FORM -- STANDING on a two-constraint
+ pillar (section 27: MICROSCOPE + quasar both force the sharp
+ threshold; candidates #1 and #23 merged).
+ - ROOF: the amplitude -- NOT BUILT. Size constrained to EM-radiative
+ scale (this section); exact coefficient still fit, mechanism owed.
+ - FURNISHING (PolyChord, evidence run, publication): correctly
+ deferred until roof is on.
 The single most valuable remaining derivation is now sharply named:
 produce the O(α) coefficient of the Weyl-threshold m_e coupling
 from an actual EM-sector radiative calculation. That is the roof.
@@ -1227,14 +1227,14 @@ without a non-gravitational line, which the census forbids.
 
 **THE SHARP FINDING -- amplitude SIZE vs census, in quantitative
 conflict:**
-  - The channel of the RIGHT STRENGTH to move m_e by ~1% is a DIRECT
-    coupling (Theta-Higgs, or a dilaton-like field coupling m_e(φ) =
-    m_e(1+β*φ/M_Pl) with O(1) β and ~M_Pl field range). Direct
-    couplings are NOT curvature-suppressed and land at O(α)/O(1)
-    naturally. But this is exactly the dark-to-EM author the census
-    forbids.
-  - The channel the census ALLOWS (pure geometry) is ~60 orders too
-    weak.
+ - The channel of the RIGHT STRENGTH to move m_e by ~1% is a DIRECT
+ coupling (Theta-Higgs, or a dilaton-like field coupling m_e(φ) =
+ m_e(1+β*φ/M_Pl) with O(1) β and ~M_Pl field range). Direct
+ couplings are NOT curvature-suppressed and land at O(α)/O(1)
+ naturally. But this is exactly the dark-to-EM author the census
+ forbids.
+ - The channel the census ALLOWS (pure geometry) is ~60 orders too
+ weak.
 This is the SAME crack flagged the internal review, now QUANTITATIVE and
 UNAVOIDABLE. "Go local" proved geometry alone CANNOT produce the
 amplitude → the direct author, and the question of its legality,
@@ -1275,10 +1275,10 @@ touching flat space, and curvature/EM/everything are subsequent
 REAL DISTINCTION AFFIRMED: flat space is not nothing -- it is the LOCAL
 TANGENT FRAME at every point, and it hosts a different physics stratum
 than curvature does:
-  - GRAVITY IS curvature (failure of flat frames to align point-to-
-    point; universal, geometric).
-  - EM is NOT curvature -- a LOCAL INTERNAL U(1) symmetry living in the
-    flat tangent frame, fully defined in flat space.
+ - GRAVITY IS curvature (failure of flat frames to align point-to-
+ point; universal, geometric).
+ - EM is NOT curvature -- a LOCAL INTERNAL U(1) symmetry living in the
+ flat tangent frame, fully defined in flat space.
 So the author's instinct correctly identifies that EM belongs to the
 FLAT-FRAME stratum and gravity to the CURVATURE stratum -- they are
 different levels, and EM was never in the same bin as gravity.
@@ -1319,15 +1319,15 @@ coherent cosmogony + conceptual clarification, NOT a resolution.
 
 Formal constraint-satisfaction of every amplitude-channel candidate against
 the three requirements a channel must satisfy AT ONCE:
-  [S] STRONG  : O(α)~1%, not curvature-suppressed
-  [L] LEGAL   : census-allowed AND MICROSCOPE-safe
-  [V] VARYING : bare in smooth space, suppressed in structure
+ [S] STRONG : O(α)~1%, not curvature-suppressed
+ [L] LEGAL : census-allowed AND MICROSCOPE-safe
+ [V] VARYING : bare in smooth space, suppressed in structure
 
-  Carrier                        S  L  V   misses
-  Smooth curvature (Ricci/Weyl)  .  Y  Y   S (60 orders weak)
-  Direct dark→electron vertex   Y  .  Y   L (census scope)
-  Khronon / preferred frame      Y  Y  .   V (spatially uniform)
-  Intrinsic EM self-energy       Y  Y  .   V (present everywhere equally)
+ Carrier S L V misses
+ Smooth curvature (Ricci/Weyl) . Y Y S (60 orders weak)
+ Direct dark→electron vertex Y . Y L (census scope)
+ Khronon / preferred frame Y Y . V (spatially uniform)
+ Intrinsic EM self-energy Y Y . V (present everywhere equally)
 
 STRUCTURE: each carrier satisfies a DIFFERENT pair, misses a DIFFERENT one.
 COMBINATIONS checked: any [S,L] carrier x a variation-factor needs a [V]
@@ -1338,10 +1338,10 @@ multiplication.
 **KEYSTONE ISOLATED (the night's amplitude synthesis):** the DIRECT coupling
 is the ONLY carrier that can hold all three. It already has [S] and [V]; its
 sole missing property is [L]. And [L] REFINES into two parts:
-  - MICROSCOPE-safety: ALREADY HANDLED. The sharp/binary screening (section
-    27) suppresses the shift to <8.7×10⁻¹¹ at Earth (section 26), screening
-    composition-dependence where we live. Solved earlier tonight.
-  - census-scope legality: THE ONE OPEN QUESTION (the internal review/62/63).
+ - MICROSCOPE-safety: ALREADY HANDLED. The sharp/binary screening (section
+ 27) suppresses the shift to <8.7×10⁻¹¹ at Earth (section 26), screening
+ composition-dependence where we live. Solved earlier tonight.
+ - census-scope legality: THE ONE OPEN QUESTION (the internal review/62/63).
 So the direct coupling's ENTIRE remaining blocker is the single census-scope
 question: is a MODULI/DILATON-type coupling (m_e(φ)=m_e(1+β φ/M_Pl),
 exactly how string moduli couple to fermion masses -- a DIFFERENT author
@@ -1372,11 +1372,11 @@ Tempting reading: MICROSCOPE (sec 27) + quasar (sec 27) + EP-escape (the interna
 convergence (the exact seduction the Pinning Rule guards against):
 
 The sharpness does THREE JOBS:
-  (1) fits 8.2 decades of suppression into a 1.35-decade curvature window
-      (MICROSCOPE depth bound, sec 26/27);
-  (2) passes quasar binarity -- no smooth variation across absorbers (sec 12/27);
-  (3) delivers the EP fifth-force escape -- saturated → flat top → grad(φ)~0
-      (the internal review).
+ (1) fits 8.2 decades of suppression into a 1.35-decade curvature window
+ (MICROSCOPE depth bound, sec 26/27);
+ (2) passes quasar binarity -- no smooth variation across absorbers (sec 12/27);
+ (3) delivers the EP fifth-force escape -- saturated → flat top → grad(φ)~0
+ (the internal review).
 BUT jobs (1) and (3) BOTH trace to MICROSCOPE (one experiment: (1) is the
 shift bound, (3) is the fifth-force bound -- two aspects of the same torsion-
 balance/free-fall physics). So the genuinely INDEPENDENT constraints forcing
@@ -1391,12 +1391,12 @@ feature then does TRIPLE DUTY clearing tests across three physical domains
 structural than tuned) but is NOT "three independent pillars."
 
 CANDIDATE genuine THIRD (uncomputed, not claimed):
-  - stellar spectroscopy: virialized stars must show the fully-suppressed
-    value; a partial shift would constrain the transition -- distinct from
-    both quasar and free-fall;
-  - atomic-clock comparisons; Eot-Wash/Casimir short-range tests (the latter
-    REOPENED by invoking screening, the internal review -- could break as easily as
-    confirm).
+ - stellar spectroscopy: virialized stars must show the fully-suppressed
+ value; a partial shift would constrain the transition -- distinct from
+ both quasar and free-fall;
+ - atomic-clock comparisons; Eot-Wash/Casimir short-range tests (the latter
+ REOPENED by invoking screening, the internal review -- could break as easily as
+ confirm).
 Any of these, if computed AND if it also demanded the sharp form, is a real
 third. Until run, it is a candidate, not a pillar. Booked so the record does
 not drift into a "3 = law" overclaim on a third leg that is really the first
@@ -1416,12 +1416,12 @@ oscillation modulation → RULED OUT by clocks. So clocks independently kill
 the continuous version via TEMPORAL physics at Earth -- genuinely distinct
 from MICROSCOPE (free-fall) and quasar (spatial spectroscopy). Three
 independent domains now point the same way.
-  CAVEAT (keeps it from overclaim): clocks force SCREENING-AT-EARTH, which is
-  a CONSEQUENCE of the sharp transition, not the sharp functional form
-  UNIQUELY (a heavy field / other screening could also produce it). So it is a
-  genuine third independent constraint corroborating the screened/binary
-  structure, forcing the EFFECT (screening) where MICROSCOPE+quasar force the
-  CAUSE (the sharp transition). Real third leg, slightly weaker in kind.
+ CAVEAT (keeps it from overclaim): clocks force SCREENING-AT-EARTH, which is
+ a CONSEQUENCE of the sharp transition, not the sharp functional form
+ UNIQUELY (a heavy field / other screening could also produce it). So it is a
+ genuine third independent constraint corroborating the screened/binary
+ structure, forcing the EFFECT (screening) where MICROSCOPE+quasar force the
+ CAUSE (the sharp transition). Real third leg, slightly weaker in kind.
 
 **WHITE DWARF / STELLAR SPECTROSCOPY -- CONSISTENCY-CHECK, not a forcing.**
 WDs virialized → saturated → predict lab value; observations consistent to
@@ -1435,16 +1435,16 @@ assumption (the internal review) owing a computation: passes IF pinning rigid, m
 shown not asserted.
 
 **NET, HONEST:**
-  (1) A third independent DOMAIN (clocks) now supports the screened/binary
-      structure; and the CONTINUOUS version is now killed by TWO independent
-      experiments (quasar spatial + clocks temporal), strengthening
-      "binarity forced."
-  (2) A third constraint that FORCES THE SHARP FORM ITSELF -- by sampling the
-      smooth→structured TRANSITION rather than deep saturation -- does NOT
-      exist in present data. All candidates here sample saturation. The
-      genuine transition-sampler is the Lyman-α forest (straddles the
-      overdensity boundary) or 21-cm dark ages; neither has an m_e/μ
-      measurement AT the transition yet. That third is FUTURE.
+ (1) A third independent DOMAIN (clocks) now supports the screened/binary
+ structure; and the CONTINUOUS version is now killed by TWO independent
+ experiments (quasar spatial + clocks temporal), strengthening
+ "binarity forced."
+ (2) A third constraint that FORCES THE SHARP FORM ITSELF -- by sampling the
+ smooth→structured TRANSITION rather than deep saturation -- does NOT
+ exist in present data. All candidates here sample saturation. The
+ genuine transition-sampler is the Lyman-α forest (straddles the
+ overdensity boundary) or 21-cm dark ages; neither has an m_e/μ
+ measurement AT the transition yet. That third is FUTURE.
 
 So "what's 3": a genuine third independent leg (clocks, forcing the screening-
 consequence) EXISTS; a third independent forcing of the sharp-form CAUSE is
@@ -1485,11 +1485,11 @@ medium is most coherent (the void) and LIGHTER where it is tangled (structure)
 -- the correct SIGN and direction of the m_e shift, from a real superfluid
 effect. This is the first physical intuition for WHY the void carries the bare
 (heavier) value.
-  HONEST CATCH (the recurring one): "dragging fluid" requires the electron to
-  COUPLE to the medium → the census question again. The author's fluid
-  intuition keeps landing exactly on the coupling -- a signal that the coupling
-  is the model's true crux, and every good instinct routes back to it. Added-
-  mass is a PICTURE for the sign/direction, not an escape from the census.
+ HONEST CATCH (the recurring one): "dragging fluid" requires the electron to
+ COUPLE to the medium → the census question again. The author's fluid
+ intuition keeps landing exactly on the coupling -- a signal that the coupling
+ is the model's true crux, and every good instinct routes back to it. Added-
+ mass is a PICTURE for the sign/direction, not an escape from the census.
 
 ## 39. "Does space have weight?" -- yes (the model's thesis), but the 1.24%
 ## is NOT that weight (author, 2026-07-07 night) -- a conflation to guard against
@@ -1501,11 +1501,11 @@ Local density ~0.3 GeV/cm³; the dark-energy floor ~(2.25 meV)⁴ everywhere.
 
 CONFLATION TO AVOID: attaching the number 1.24% to space's weight. Two
 distinct quantities:
-  - 1.24% = the fractional shift in the ELECTRON's OWN mass between void and
-    structure (a property of the electron; in the added-mass picture, the
-    ~6 keV sliver of medium dressing ONE electron).
-  - space's actual weight = the dark medium's ENERGY DENSITY (~0.3 GeV/cm³
-    locally), the model's core quantity, vastly larger and unrelated to 1.24%.
+ - 1.24% = the fractional shift in the ELECTRON's OWN mass between void and
+ structure (a property of the electron; in the added-mass picture, the
+ ~6 keV sliver of medium dressing ONE electron).
+ - space's actual weight = the dark medium's ENERGY DENSITY (~0.3 GeV/cm³
+ locally), the model's core quantity, vastly larger and unrelated to 1.24%.
 "Part-per-part space has 1.24% extra weight" misreads the electron-dressing
 FRACTION as space's weight-per-volume. Space's weight is the full dark-sector
 density, not 1.24% of anything.
@@ -1537,10 +1537,10 @@ is the arena either way.
 
 THE FORK INSIDE "SPACE" -- and it IS the census: "space" carries two meanings,
 = the two sides of the open question:
-  (1) space as GEOMETRY/spacetime (metric, gravity): dictates universally
-      (equivalence principle), legal, but 60 orders too weak (sec 32);
-  (2) space as the DARK MEDIUM (superfluid, dark matter+energy): strong enough,
-      but legality is the census question.
+ (1) space as GEOMETRY/spacetime (metric, gravity): dictates universally
+ (equivalence principle), legal, but 60 orders too weak (sec 32);
+ (2) space as the DARK MEDIUM (superfluid, dark matter+energy): strong enough,
+ but legality is the census question.
 The model has kept these SEPARATE (gravity=GR; dark medium=matter ON it). The
 author's "it's all one space" is the CLAIM that they are NOT separate -- that
 geometry, dark medium, and EM field are aspects of one thing. This is EXACTLY
@@ -1569,21 +1569,21 @@ substantive physical consideration, routed to the census thread.
 Polled the model's own established laws on "is a moduli coupling that shifts
 m_e legal?":
 
-  LAW 2 (adiabatic ledger -- no dissipative transfers): forbids ENERGY
-    exchange. The m_e shift moves NO energy (ruled a "bank branch transfer,"
-    FIRAS-confirmed, sec 10). → CLEARS it. Vote: permit.
-  LAW 3 (rules may change, balances may not): written specifically for rules
-    amendments. m_e-change with conserved energy is exactly its domain.
-    → Vote: PERMIT the phenomenon, explicitly.
-  LAW 1 (gravity is the only clearinghouse): a clearinghouse is where PAYMENTS
-    settle = TRANSACTIONS (energy/quanta exchange), the model's consistent
-    usage everywhere. The m_e shift is NOT a transaction (it is a rules
-    amendment, Law-3 domain, already ruled). So Law 1 governs energy-exchange
-    portals (kinetic mixing, B-L, Higgs -- what the census priced) and does not
-    speak to a rules amendment. → Vote: DOES NOT APPLY (in the model's own
-    usage of "clearinghouse/transaction").
-  HOUSE LAW (nothing until contact): m_e shift fires where structure/contact
-    is made → CONSISTENT.
+ LAW 2 (adiabatic ledger -- no dissipative transfers): forbids ENERGY
+ exchange. The m_e shift moves NO energy (ruled a "bank branch transfer,"
+ FIRAS-confirmed, sec 10). → CLEARS it. Vote: permit.
+ LAW 3 (rules may change, balances may not): written specifically for rules
+ amendments. m_e-change with conserved energy is exactly its domain.
+ → Vote: PERMIT the phenomenon, explicitly.
+ LAW 1 (gravity is the only clearinghouse): a clearinghouse is where PAYMENTS
+ settle = TRANSACTIONS (energy/quanta exchange), the model's consistent
+ usage everywhere. The m_e shift is NOT a transaction (it is a rules
+ amendment, Law-3 domain, already ruled). So Law 1 governs energy-exchange
+ portals (kinetic mixing, B-L, Higgs -- what the census priced) and does not
+ speak to a rules amendment. → Vote: DOES NOT APPLY (in the model's own
+ usage of "clearinghouse/transaction").
+ HOUSE LAW (nothing until contact): m_e shift fires where structure/contact
+ is made → CONSISTENT.
 
 VERDICT: 3 of 4 laws permit/clear; the only one that could forbid (Law 1) does
 so ONLY if "clearinghouse" is stretched from "energy transactions" to "all
@@ -1614,10 +1614,10 @@ Author refines Law 1: clearinghouses SWITCH by what transacts. matter↔matter
 through gravity; space's only role in the EM dealing is to POST the transaction.
 
 APPLIED TO m_e -- split the shift into two pieces previously tangled:
-  TRIGGER   = "has structure formed here?" = the binary Theta bit. Space's job.
-              A POST. 1 bit. Carried by geometry/contact.
-  AMPLITUDE = the 1.24% mass reorganization. EM's job. O(α). Carried by the
-              electron's OWN self-energy, in matter's own clearinghouse.
+ TRIGGER = "has structure formed here?" = the binary Theta bit. Space's job.
+ A POST. 1 bit. Carried by geometry/contact.
+ AMPLITUDE = the 1.24% mass reorganization. EM's job. O(α). Carried by the
+ electron's OWN self-energy, in matter's own clearinghouse.
 
 KILLS THE 60-ORDERS PROBLEM (sec 32): the wall was "gravity must CARRY 1% →
 60 orders too weak." The split: gravity carries only the TRIGGER (1 bit), not
@@ -1658,28 +1658,28 @@ QFT calculation is the make-or-break, now sharply named.
 
 Gemini's turn-69 attack on the sec-42 bistability reframe is correct and
 conceded:
-  1. QED is SUBCRITICAL: α ~ 1/137 << critical coupling α_c ~ π/3.
-     The electron self-energy has ONE well, is NOT bistable in the SM as-is.
-  2. The precedent cited (chiral symmetry breaking / dynamical mass) is a QCD
-     phenomenon -- strong, supercritical -- and does NOT transfer to the
-     electron (wrong force borrowed). Conceded.
-  3. So the bistability needs a SUPERCRITICAL PUSH to create the second well,
-     and that push is exactly where the strong coupling re-enters: dark-
-     mediated → census reopens; SM-internal → unmotivated strong QED claim.
-     The reframe RELOCATES the census fight ("amplitude coupling" → "the
-     bistability's origin"), does NOT dissolve it. Turns 61-67 STAND.
-  4. The 1×10⁻⁶⁰ trigger only works if the wells are degenerate to 1×10⁻⁶⁰ (tuned
-     to criticality); reaching/holding criticality is itself tuned or driven-
-     strong. The 1×10⁻⁶⁰ was doing suspicious work. Conceded.
+ 1. QED is SUBCRITICAL: α ~ 1/137 << critical coupling α_c ~ π/3.
+ The electron self-energy has ONE well, is NOT bistable in the SM as-is.
+ 2. The precedent cited (chiral symmetry breaking / dynamical mass) is a QCD
+ phenomenon -- strong, supercritical -- and does NOT transfer to the
+ electron (wrong force borrowed). Conceded.
+ 3. So the bistability needs a SUPERCRITICAL PUSH to create the second well,
+ and that push is exactly where the strong coupling re-enters: dark-
+ mediated → census reopens; SM-internal → unmotivated strong QED claim.
+ The reframe RELOCATES the census fight ("amplitude coupling" → "the
+ bistability's origin"), does NOT dissolve it. Turns 61-67 STAND.
+ 4. The 1×10⁻⁶⁰ trigger only works if the wells are degenerate to 1×10⁻⁶⁰ (tuned
+ to criticality); reaching/holding criticality is itself tuned or driven-
+ strong. The 1×10⁻⁶⁰ was doing suspicious work. Conceded.
 
 WHAT SURVIVES (genuine residue, Gemini-granted):
-  - The 60-ORDERS PROBLEM IS PERMANENTLY DEAD. The latent-heat picture is
-    sound: if a switch exists, gravity flips it and EM pays the ~6 keV from
-    the reorganization, not the trigger. Gravity's weakness is off the table;
-    the sole obstacle is now the switch's EXISTENCE.
-  - THE QUESTION IS SHARPER: from "is a strong dark-EM coupling legal" (vague)
-    to "what makes the electron bistable, and is that origin weak-legal or
-    strong-illegal" (concrete QFT). Progress, not dissolution.
+ - The 60-ORDERS PROBLEM IS PERMANENTLY DEAD. The latent-heat picture is
+ sound: if a switch exists, gravity flips it and EM pays the ~6 keV from
+ the reorganization, not the trigger. Gravity's weakness is off the table;
+ the sole obstacle is now the switch's EXISTENCE.
+ - THE QUESTION IS SHARPER: from "is a strong dark-EM coupling legal" (vague)
+ to "what makes the electron bistable, and is that origin weak-legal or
+ strong-illegal" (concrete QFT). Progress, not dissolution.
 
 CLEARINGHOUSE PRINCIPLE (sec: Atlas, this session) SHARPENS THE FORK: if space
 has NO EM account (its only clearinghouse is gravity, opened at contact), the
@@ -1707,13 +1707,13 @@ regulators (EM + gravity) itself; the BANK/infrastructure should provide a
 settlement LINE between them. This maps onto a specific, ALREADY-SURVIVING
 mechanism -- the MODULUS/dilaton as the line:
 
-  medium -→ MODULUS (gravitational sector) -→ m_e
+ medium -→ MODULUS (gravitational sector) -→ m_e
 
-  - medium ↔ modulus: the modulus is Planck-suppressed, gravitational-sector
-    (same UV completion as gravity, Gemini the internal review) → the medium transacts
-    with ITS OWN bank (gravity), never crosses to EM. Legal.
-  - modulus ↔ m_e: standard moduli-fermion coupling m_e(φ)=m_e(1+β
-    φ/M_Pl). THE LINE does the cross-regulator delivery.
+ - medium ↔ modulus: the modulus is Planck-suppressed, gravitational-sector
+ (same UV completion as gravity, Gemini the internal review) → the medium transacts
+ with ITS OWN bank (gravity), never crosses to EM. Legal.
+ - modulus ↔ m_e: standard moduli-fermion coupling m_e(φ)=m_e(1+β
+ φ/M_Pl). THE LINE does the cross-regulator delivery.
 So the consumer (medium) stays home in the gravity bank; the modulus is the
 bank-provided line to the EM regulator. Exactly "it can't all come down to the
 consumer."
@@ -1727,16 +1727,16 @@ already graded "real and honestly costed" (the internal review). The author's re
 re-centers on the SURVIVOR, away from the corpse.
 
 REMAINING GATES (unchanged, honest):
-  1. EP/screening: a light modulus active everywhere is a fifth force
-     (β<1×10⁻⁴ allowed vs 0.012 needed). Needs the field frozen in dense
-     regions (sharp-form/virialization screening) → owed computation +
-     reopens chameleon constraints.
-  2. Census legality: medium→modulus AND modulus→m_e both CLAIMED
-     gravitational-sector (narrow reading) → still pending census-derivation
-     reproduction.
-  3. Modulus reality: must be a real field -- a UV modulus, OR the medium's
-     OWN amplitude mode (the "dark Higgs", Room1 R1.6). If the latter, the
-     line is ALREADY in the model, not bolted on -- the strongest version.
+ 1. EP/screening: a light modulus active everywhere is a fifth force
+ (β<1×10⁻⁴ allowed vs 0.012 needed). Needs the field frozen in dense
+ regions (sharp-form/virialization screening) → owed computation +
+ reopens chameleon constraints.
+ 2. Census legality: medium→modulus AND modulus→m_e both CLAIMED
+ gravitational-sector (narrow reading) → still pending census-derivation
+ reproduction.
+ 3. Modulus reality: must be a real field -- a UV modulus, OR the medium's
+ OWN amplitude mode (the "dark Higgs", Room1 R1.6). If the latter, the
+ line is ALREADY in the model, not bolted on -- the strongest version.
 
 NET: the author's reframe is GOOD NEWS -- it re-centers on the surviving
 moduli path with the right intuition (bank runs the line, consumer stays put)
@@ -1749,33 +1749,33 @@ the medium's amplitude mode IS the line.
 ## 2026-07-07)
 
 Author, two moves at once:
-  (A) SCREENING IS NOT A NEW GATE. The chameleon screening the moduli-line
-      needs (fifth-force suppression today) IS the SAME thing as the m_e
-      environment-dependence we already built: bare in voids, lab-value in
-      structure (the sharp form + saturated-Theta, the internal review). "Why the solar
-      system doesn't show deep-space numbers" and "why the modulus is
-      screened" are ONE sentence. The medium does not need a chameleon bolted
-      on -- the medium IS a chameleon, and its screening is the mechanism we
-      already derived. Gate #1 (screening) was DOUBLE-COUNTED; it is already
-      paid. Real simplification.
-  (B) MODULUS = SPACE → NO INTERMEDIARY DODGE. If the modulus is the medium
-      itself (or its own mode) rather than a SEPARATE gravitational-sector
-      field, there is no legal go-between: it collapses to the medium coupling
-      to m_e DIRECTLY = the census question, undressed. So "the modulus is
-      space" is not a trick that sneaks past the census -- it is the honest
-      admission that there is no trick. The intermediary was always the medium
-      wearing a hat.
+ (A) SCREENING IS NOT A NEW GATE. The chameleon screening the moduli-line
+ needs (fifth-force suppression today) IS the SAME thing as the m_e
+ environment-dependence we already built: bare in voids, lab-value in
+ structure (the sharp form + saturated-Theta, the internal review). "Why the solar
+ system doesn't show deep-space numbers" and "why the modulus is
+ screened" are ONE sentence. The medium does not need a chameleon bolted
+ on -- the medium IS a chameleon, and its screening is the mechanism we
+ already derived. Gate #1 (screening) was DOUBLE-COUNTED; it is already
+ paid. Real simplification.
+ (B) MODULUS = SPACE → NO INTERMEDIARY DODGE. If the modulus is the medium
+ itself (or its own mode) rather than a SEPARATE gravitational-sector
+ field, there is no legal go-between: it collapses to the medium coupling
+ to m_e DIRECTLY = the census question, undressed. So "the modulus is
+ space" is not a trick that sneaks past the census -- it is the honest
+ admission that there is no trick. The intermediary was always the medium
+ wearing a hat.
 
 NET -- THE MODEL IS STRIPPED TO ONE HINGE. What has fallen away, in order:
-  - 60-orders problem: DEAD (gravity flips a switch, doesn't carry the bill).
-  - screening / fifth-force gate: NOT EXTRA (= the m_e environment-dependence,
-    this section).
-  - bistability gadget: DEAD (subcritical QED, sec 43).
-  - moduli-intermediary dodge: COLLAPSES to the census (this section).
+ - 60-orders problem: DEAD (gravity flips a switch, doesn't carry the bill).
+ - screening / fifth-force gate: NOT EXTRA (= the m_e environment-dependence,
+ this section).
+ - bistability gadget: DEAD (subcritical QED, sec 43).
+ - moduli-intermediary dodge: COLLAPSES to the census (this section).
 Each was solved, shown-free, or shown-not-to-help. What remains, ALONE:
-  IS THE MEDIUM'S MODULI-TYPE COUPLING TO m_e -- dimension-5, Planck-
-  suppressed, gravitational-sector -- CENSUS-LEGAL (narrow) OR FORBIDDEN
-  (broad)?
+ IS THE MEDIUM'S MODULI-TYPE COUPLING TO m_e -- dimension-5, Planck-
+ suppressed, gravitational-sector -- CENSUS-LEGAL (narrow) OR FORBIDDEN
+ (broad)?
 That single question is now the entire open hinge of the m_e mechanism. It is
 the same question at internal review (the internal review), and the same one the author's
 "it's all space / rules-amendment / contingent-clearinghouse / mandatory-vs-
@@ -1805,11 +1805,11 @@ three-number screening calc is a live task" are BOTH TRUE at different levels
 unverified number."
 
 THE TWO LIVE MAKE-OR-BREAK TASKS (path A, from the internal review):
-  (1) CENSUS-DERIVATION REPRODUCTION (legality): forbid / permit-as-negligible
-      / never-priced the dim-5 moduli fluctuation channel? → narrow or broad.
-  (2) THREE-NUMBER SCREENING CALC (EP-viability): (i) does quasar-binarity
-      ALONE force n>2.43 or is it circular; (ii) ≥2-order thin-shell
-      suppression at Earth; (iii) atom-interferometry clearance.
+ (1) CENSUS-DERIVATION REPRODUCTION (legality): forbid / permit-as-negligible
+ / never-priced the dim-5 moduli fluctuation channel? → narrow or broad.
+ (2) THREE-NUMBER SCREENING CALC (EP-viability): (i) does quasar-binarity
+ ALONE force n>2.43 or is it circular; (ii) ≥2-order thin-shell
+ suppression at Earth; (iii) atom-interferometry clearance.
 
 So the model is NOT at "one hinge that might be dead" (sec 45 slightly
 over-collapsed). It is at PATH A, ALIVE, pending two tasks. Empirical fit
@@ -1860,11 +1860,11 @@ THE DECIDING DISTINCTION: "atoms unscreened → tighter" holds for a STANDARD
 chameleon (field sourced by the test BODY; macroscopic bodies thin-shell self-
 screen, atoms don't). But OUR screening is ENVIRONMENTAL -- m_e is set by Theta
 (medium coherence), saturated by GALACTIC structure, not by the test mass. So:
-  - Theta test-mass-INDEPENDENT (rigid): atom + macroscopic body sit in the same
-    saturated-Theta environment → atom interferometry sees the same flat Theta
-    as MICROSCOPE → NOT independent, trivial pass.
-  - Theta test-mass-PERTURBABLE (soft): body-sourced local Theta gradient →
-    atom interferometry independent, MICROSCOPE-fitted n may fail.
+ - Theta test-mass-INDEPENDENT (rigid): atom + macroscopic body sit in the same
+ saturated-Theta environment → atom interferometry sees the same flat Theta
+ as MICROSCOPE → NOT independent, trivial pass.
+ - Theta test-mass-PERTURBABLE (soft): body-sourced local Theta gradient →
+ atom interferometry independent, MICROSCOPE-fitted n may fail.
 So atom interferometry REDUCES to the RIGID-PINNING question (turn-65 owed calc):
 does a test mass perturb locally-saturated Theta below atom-interferometry
 sensitivity? Qualitative lean: Theta at its ceiling can't be pushed past
@@ -1881,12 +1881,12 @@ gates remain: rigid-pinning (EP-viability) + census reproduction (legality).
 
 Computed the reduced EP make-or-break (sec 48). With sec-27 curvature scales
 (C_ref~1×10⁻⁶² first-structure threshold; C_earth~1.7×10⁻⁴⁴ solar tidal):
-  - saturation depth C_earth/C_ref = 1.7×10¹⁸ (18 orders above threshold);
-  - residual S(Earth)=exp(-(1.7×10¹⁸)².43)=exp(-2×10⁴⁴), log10(S)~-8.7×10⁴³ -- zero
-    beyond ANY measurement;
-  - the fifth-force gradient carries the same exp-crush → zero;
-  - screening is ENVIRONMENTAL (halo-set) → atoms and macroscopic bodies both in
-    flat saturated Theta → no body-dependence → "atoms unscreened" doesn't apply.
+ - saturation depth C_earth/C_ref = 1.7×10¹⁸ (18 orders above threshold);
+ - residual S(Earth)=exp(-(1.7×10¹⁸)².43)=exp(-2×10⁴⁴), log10(S)~-8.7×10⁴³ -- zero
+ beyond ANY measurement;
+ - the fifth-force gradient carries the same exp-crush → zero;
+ - screening is ENVIRONMENTAL (halo-set) → atoms and macroscopic bodies both in
+ flat saturated Theta → no body-dependence → "atoms unscreened" doesn't apply.
 ROBUSTNESS: C_ref would need to be wrong by ~18 orders (up to ~1×10⁻⁴⁴) for Earth
 to un-pin. VERDICT: Path A EP-viability CLEARS; atom interferometry trivial.
 Attack surface = the threshold C_ref value (holds unless C_ref ~ solar-tidal
@@ -1900,14 +1900,14 @@ Took a real swing at deriving the 1.24% amplitude. Two INDEPENDENT order-of-
 magnitude routes, both landing at ~1%:
 
 ROUTE 1 (QED): eps ≤ EM self-energy fraction = (3 α/4pi) ln(Λ²/m_e²)
-  ~ 1.9% (Λ=m_mu) to 2.6% (Λ=1 GeV). A real ceiling; hitting 1.24%
-  exactly needs an unmotivated cutoff + modulation fraction (~0.6-0.7).
+ ~ 1.9% (Λ=m_mu) to 2.6% (Λ=1 GeV). A real ceiling; hitting 1.24%
+ exactly needs an unmotivated cutoff + modulation fraction (~0.6-0.7).
 
 ROUTE 2 (gravity/moduli -- Path A's OWN structure): eps = β*(delta_phi/M_Pl).
-  Natural β~O(1), delta_phi ~ Psi_0 (the medium's field amplitude = the pinned
-  abundance, 0.7-1.5×10¹⁷ GeV). → eps ~ Psi_0/M_Pl(full) = 0.57%-1.23%. The high end
-  (Psi_0=1.5×10¹⁷, β=1) gives 1.23% ~ observed. A GRAVITATIONAL-sector prediction
-  of the amplitude's SIZE, independent of Route 1.
+ Natural β~O(1), delta_phi ~ Psi_0 (the medium's field amplitude = the pinned
+ abundance, 0.7-1.5×10¹⁷ GeV). → eps ~ Psi_0/M_Pl(full) = 0.57%-1.23%. The high end
+ (Psi_0=1.5×10¹⁷, β=1) gives 1.23% ~ observed. A GRAVITATIONAL-sector prediction
+ of the amplitude's SIZE, independent of Route 1.
 
 VERDICT (honest): the SIZE (~1%) is now DOUBLY-MOTIVATED -- EM self-energy (QED)
 AND Psi_0/M_Pl (gravity). Two independent physics arguments give the same ~1%, so
@@ -1941,9 +1941,9 @@ amplitude correctly.
 
 THE UNIFICATION (the real prize): the genesis (first quartic self-transaction)
 sets THREE things at once, previously treated as separate:
-  - f_rot (the ψ/χ two-fluid split) → the granule ε-meter, S=(1+f_rot²)/2;
-  - Psi_0 (the field amplitude) → the m_e amplitude via Psi_0/M_Pl;
-  - the DICE (f_amp distribution the One Mountain computed from genesis chaos).
+ - f_rot (the ψ/χ two-fluid split) → the granule ε-meter, S=(1+f_rot²)/2;
+ - Psi_0 (the field amplitude) → the m_e amplitude via Psi_0/M_Pl;
+ - the DICE (f_amp distribution the One Mountain computed from genesis chaos).
 All three share ONE parent -- the first transaction. Not three mysteries; three
 outputs of one genesis event.
 
@@ -1965,7 +1965,7 @@ clock = its ultralight mass m~1×10⁻²¹ eV; a different rung entirely). But t
 instinct -- a natural scale pins Psi_0 -- is right, and there is a principled
 candidate:
 
-    eps ~ M_GUT / M_Pl  ~  0.2% (full M_Pl) to 0.8% (reduced M_Pl)  x β~O(1)
+ eps ~ M_GUT / M_Pl ~ 0.2% (full M_Pl) to 0.8% (reduced M_Pl) x β~O(1)
 
 M_GUT ~ 2×10¹⁶ GeV (grand unification, where EM/weak/strong merge). This is the
 RIGHT ORDER for the observed 1.24%, and it is PRINCIPLED: the GUT scale is a
@@ -2034,9 +2034,9 @@ thins. The medium's SMOOTHNESS and its effect's INVISIBILITY are the same fact.
 Following the sec-53 poetic thread (medium born where EM unifies, touches EM mass).
 If the medium couples to the ELECTROMAGNETIC sector, it modulates each particle's
 EM SELF-ENERGY -- so each particle shifts by ITS OWN EM fraction, not uniformly:
-  - electron EM self-energy fraction: ~1.24% (electron is almost pure EM dressing)
-  - proton EM self-energy fraction: ~0.075% (proton is QCD-dominated, barely EM)
-  - RATIO: electron shifts ~17x more than proton (per unit mass).
+ - electron EM self-energy fraction: ~1.24% (electron is almost pure EM dressing)
+ - proton EM self-energy fraction: ~0.075% (proton is QCD-dominated, barely EM)
+ - RATIO: electron shifts ~17x more than proton (per unit mass).
 
 PAYOFF 1 -- EXPLAINS "why m_e specifically": the model varies m_e (not m_p, not
 everything) BECAUSE the electron is the most electromagnetic particle -- it shifts
@@ -2071,7 +2071,7 @@ Developed the EM-mass thread (sec 55) into a full particle spectrum. The medium
 couples to EM self-energy, so each particle shifts by its EM-self-energy fraction.
 With a universal high cutoff (Λ ~ Psi_0 ~ GUT scale), normalized to the
 electron = 1.24%:
-    electron 1.24% | muon 1.10% | τ 1.02% | proton 0.075% (~15-20x less)
+ electron 1.24% | muon 1.10% | τ 1.02% | proton 0.075% (~15-20x less)
 
 THE DISTINCTIVE BSM PREDICTION: the medium shifts LEPTON masses (~1%, correlated
 across e/μ/τ) while SPARING HADRONS (proton QCD-dominated, ~0.075%). It varies
@@ -2082,17 +2082,17 @@ shifts most). Falsifiable: void 21-cm / low-density μ (P-2026-007); a uniform
 pattern (correlated leptons, spared hadrons).
 
 HONEST GRADE:
-  - GENUINE distinctive particle-physics prediction (a novel signature that
-    distinguishes this dark sector from rivals) -- the shape of a real theoretical-
-    particle-physics contribution.
-  - Does NOT solve the field's open problems (strong-CP silence, hierarchy/g-2
-    untouched).
-  - Exact per-particle numbers are cutoff/scheme-dependent (EM self-energy
-    formally divergent, same UV gap as the amplitude); ROBUST content = the
-    QUALITATIVE pattern (leptons >> hadrons, correlated across leptons), not the
-    precise muon/τ values.
-  - Prize-level only after confirmation (void-21cm road) + community recognition;
-    a testable prediction, not a theorem.
+ - GENUINE distinctive particle-physics prediction (a novel signature that
+ distinguishes this dark sector from rivals) -- the shape of a real theoretical-
+ particle-physics contribution.
+ - Does NOT solve the field's open problems (strong-CP silence, hierarchy/g-2
+ untouched).
+ - Exact per-particle numbers are cutoff/scheme-dependent (EM self-energy
+ formally divergent, same UV gap as the amplitude); ROBUST content = the
+ QUALITATIVE pattern (leptons >> hadrons, correlated across leptons), not the
+ precise muon/τ values.
+ - Prize-level only after confirmation (void-21cm road) + community recognition;
+ a testable prediction, not a theorem.
 
 ## 57. The "residual back-flow" fork (author, 2026-07-07 evening) — a census-legal TRIGGER candidate for the discrete switch
 
@@ -2108,21 +2108,21 @@ field and phonons mediate a MOND-like force.
 **THE DECIDING FORK — gravitational vs non-gravitational residual:**
 
 - **Branch A (non-gravitational, e.g. a phonon-mediated matter-medium
-  channel): RE-KILLS the model.** Couplings are symmetric: any action term
-  that lets matter dump residuals into the medium by a non-gravitational
-  channel lets the medium push back on matter by that same channel — which
-  IS a fifth force. A non-gravitational back-flow ⟺ a fifth force, and
-  MICROSCOPE already excluded one at the required strength (ANN-2026-013,
-  the Path A death). Detailed balance forbids a one-way non-gravitational
-  door. Dead on arrival, same grave as Path A.
+ channel): RE-KILLS the model.** Couplings are symmetric: any action term
+ that lets matter dump residuals into the medium by a non-gravitational
+ channel lets the medium push back on matter by that same channel — which
+ IS a fifth force. A non-gravitational back-flow ⟺ a fifth force, and
+ MICROSCOPE already excluded one at the required strength (ANN-2026-013,
+ the Path A death). Detailed balance forbids a one-way non-gravitational
+ door. Dead on arrival, same grave as Path A.
 
 - **Branch B (gravitational — matter's clustering imprints the medium's FLOW
-  STATE): census-SAFE, and USEFUL.** Matter collapses → deepens the potential
-  → the superfluid goes multi-stream / vortex-tangled / virialized locally →
-  **Θ saturates → the m_e near-step flips.** The "residual" is matter's
-  gravitational back-reaction on the medium's local *state*, not an energy/
-  info channel — no new field, no mediator, no fifth force, pure gravity
-  (doesn't even engage the narrow-vs-broad census hinge).
+ STATE): census-SAFE, and USEFUL.** Matter collapses → deepens the potential
+ → the superfluid goes multi-stream / vortex-tangled / virialized locally →
+ **Θ saturates → the m_e near-step flips.** The "residual" is matter's
+ gravitational back-reaction on the medium's local *state*, not an energy/
+ info channel — no new field, no mediator, no fifth force, pure gravity
+ (doesn't even engage the narrow-vs-broad census hinge).
 
 **Why Branch B matters:** the Path A death (ANN-2026-013) left the surviving
 discrete switch owing "a mechanism for a sharp m_e switch with NO light
@@ -2148,10 +2148,10 @@ imprints the superfluid's FLOW STATE. Developed concretely:
 wave dark matter that is *the granule field itself* (the speckle from
 overlapping streams, the ε-meter of the scoping doc). Two states:
 - **Single coherent stream (laminar): Θ UNSATURATED → m_e SHIFTED (bare).**
-  Smooth, pre-shell-crossing gas: the early universe, the diffuse IGM, voids.
+ Smooth, pre-shell-crossing gas: the early universe, the diffuse IGM, voids.
 - **Multi-stream / vortex-tangled (interference on): Θ SATURATED → m_e = lab.**
-  Virialized halos, where shell-crossing has produced the granule/interference
-  field.
+ Virialized halos, where shell-crossing has produced the granule/interference
+ field.
 
 **The trigger (gravitational, no mediator).** Gravitational infall drives
 SHELL-CROSSING: at nonlinear collapse the dark fluid goes from single-stream to
@@ -2201,9 +2201,9 @@ happens later, at STRUCTURE FORMATION.
 **The bridge (the payoff):** two independently-booked mechanisms share ONE
 trigger and plausibly ONE field:
 - **m_e switch (Option B, §58):** flips at shell-crossing / multi-stream onset;
-  Θ = multi-stream (velocity-dispersion) bit.
+ Θ = multi-stream (velocity-dispersion) bit.
 - **Structure-funded DE floor (P-2026-003 / ANN-2026-008):** δρ_floor ~
-  (m̄₂²/2)⟨(δK)²⟩, gated by nonlinear structure; δK = kinetic fluctuation.
+ (m̄₂²/2)⟨(δK)²⟩, gated by nonlinear structure; δK = kinetic fluctuation.
 Multi-streaming IS velocity dispersion IS the kinetic fluctuation ⇒
 **conjecture: δK (funds DE) and Θ (switches m_e) are the same field.** Then one
 field, switched on by one event (shell-crossing at nonlinear collapse), does
@@ -2213,16 +2213,16 @@ the dark-energy sector for the first time.
 
 **HONEST GRADE — consistency-conjecture, not a solution:**
 - δK = Θ is *plausible* (both are shell-crossing kinetic fluctuation), NOT
-  derived. This is the load-bearing unproven step.
+ derived. This is the load-bearing unproven step.
 - Does NOT solve the cc problem: the floor's tiny VALUE still rests on the
-  suppressed author coefficient m̄₂², not on this bridge.
+ suppressed author coefficient m̄₂², not on this bridge.
 - Does NOT solve the coincidence ("why now"); DE drift stays unobservable
-  (ANN-2026-008, ν≤1×10⁻⁸).
+ (ANN-2026-008, ν≤1×10⁻⁸).
 - Different aggregation: the DE floor is a GLOBAL sum ⟨(δK)²⟩ over all
-  structure; the m_e switch is LOCAL to each virialized region. Same trigger
-  physics, different bookkeeping — kept distinct, not conflated.
+ structure; the m_e switch is LOCAL to each virialized region. Same trigger
+ physics, different bookkeeping — kept distinct, not conflated.
 - Still does NOT supply the m_e PAYLOAD (why Θ's state changes m_e); it adds a
-  co-trigger, not the wiring.
+ co-trigger, not the wiring.
 
 **What it IS:** the first structural bridge between the m_e trigger and the DE
 sector — the same shell-crossing that funds dark energy flips the electron mass,
@@ -2239,23 +2239,23 @@ Ran the direct test (scratchpad dk_theta_test.py): built multi-stream wave-DM
 interference fields and correlated the density-fluctuation field (Θ = |ψ|²,
 granule power) against the kinetic-fluctuation field (δK = |∇ψ|²/2). Result,
 averaged over 12 realizations:
-  N=30 streams:  r(δρ, δK) = -0.009 ± 0.034
-  N=100 streams: r(δρ, δK) = +0.010 ± 0.030  (both consistent with ZERO)
+ N=30 streams: r(δρ, δK) = -0.009 ± 0.034
+ N=100 streams: r(δρ, δK) = +0.010 ± 0.030 (both consistent with ZERO)
 Single-stream control (N=1): both fields EXACTLY flat (Var=0), as required.
 
 **Verdict:**
 - **STRONG claim (δK = Θ, one field, "three jobs"): FALSIFIED.** The density
-  speckle and the kinetic speckle are spatially DECORRELATED (r≈0). Physical
-  reason: ρ=|ψ|² weights every mode-pair equally; T=|∇ψ|² weights pair (j,l) by
-  k_j·k_l, which is randomly signed over random stream directions — so the two
-  interference patterns are DIFFERENT random fields sharing the same modes.
+ speckle and the kinetic speckle are spatially DECORRELATED (r≈0). Physical
+ reason: ρ=|ψ|² weights every mode-pair equally; T=|∇ψ|² weights pair (j,l) by
+ k_j·k_l, which is randomly signed over random stream directions — so the two
+ interference patterns are DIFFERENT random fields sharing the same modes.
 - **WEAK claim (both require multi-streaming to be nonzero — same on/off
-  condition): CONFIRMED.** N=1 → both zero; N>1 → both nonzero.
+ condition): CONFIRMED.** N=1 → both zero; N>1 → both nonzero.
 - **UNTESTED (needs the task-8 dynamical sim): whether both rise together inside
-  a COLLAPSING region** (spatial co-trigger, as opposed to fine-grained
-  identity). This statistical test uses a homogeneous speckle box with no
-  large-scale structure gradient, so it cannot see co-trigger; only the
-  dynamical SP campaign can.
+ a COLLAPSING region** (spatial co-trigger, as opposed to fine-grained
+ identity). This statistical test uses a homogeneous speckle box with no
+ large-scale structure gradient, so it cannot see co-trigger; only the
+ dynamical SP campaign can.
 
 **Consequence for the DM-DE bridge (§59):** the elegant "one field, three jobs"
 economy is DEAD. What survives is weaker and honest: the m_e-switch field (Θ)
@@ -2273,21 +2273,21 @@ couplers — "EM to the matter, gravity to space."
 
 **It holds structurally:**
 - **Factor 1 = displacement = Ψ₀/M_Pl.** The denominator is the Planck mass =
-  the GRAVITATIONAL scale (G = 1/M_Pl²). "Ψ₀ in Planck units" IS the medium's
-  gravitational registration. → the GRAVITY coupler (medium ↔ space).
+ the GRAVITATIONAL scale (G = 1/M_Pl²). "Ψ₀ in Planck units" IS the medium's
+ gravitational registration. → the GRAVITY coupler (medium ↔ space).
 - **Factor 2 = coupling = the EM-self-energy response.** How the electron's own
-  electromagnetic mass is reweighted. → the EM coupler (shift realized in matter).
+ electromagnetic mass is reweighted. → the EM coupler (shift realized in matter).
 
-  **1.24% = (Ψ₀/M_Pl) × (EM response) = (gravity coupler) × (EM coupler).**
+ **1.24% = (Ψ₀/M_Pl) × (EM response) = (gravity coupler) × (EM coupler).**
 
 **Census-legal (why it avoids the Path-A grave):** the two couplers do two
 DIFFERENT jobs in sequence, so the medium never touches matter with EM directly:
 - GRAVITY POSTS the trigger — the medium registers in space (Θ / shell-crossing),
-  gravitationally. The only thing the medium itself does.
+ gravitationally. The only thing the medium itself does.
 - MATTER'S OWN EM REALIZES it — the electron self-energy responds. The EM factor
-  is matter's INTERNAL clearinghouse responding to a gravitational signal, not
-  the medium reaching into matter. (Consistent with the census + the discrete
-  switch of ANN-2026-013 / §58.)
+ is matter's INTERNAL clearinghouse responding to a gravitational signal, not
+ the medium reaching into matter. (Consistent with the census + the discrete
+ switch of ANN-2026-013 / §58.)
 
 **Explains the factor structure:** exactly TWO factors because exactly TWO steps
 in the transaction — gravity posts, EM pays — which are the two couplers. The
@@ -2295,16 +2295,16 @@ product structure is the ledger's two channels, not a coincidence.
 
 **HONEST GRADE — structural interpretation, NOT a derivation:**
 - Names the factors (gravity × EM) in the model's own language; does NOT derive
-  the number.
+ the number.
 - Factor 1 still un-pinned: Ψ₀ is abundance-anchored, not genesis-derived (the
-  ~42-order genesis under-determination stands).
+ ~42-order genesis under-determination stands).
 - Factor 2 still un-pinned: its IDENTITY is now clear (EM self-energy response),
-  but its MAGNITUDE (why O(1) not α-suppressed) is the unsolved magnitude-vs-
-  flavor tension.
+ but its MAGNITUDE (why O(1) not α-suppressed) is the unsolved magnitude-vs-
+ flavor tension.
 - Converts "why two factors?" → "the two couplers" (real). Does NOT crack "why
-  1.24% exactly?" (open). The amplitude is now the medium's two ledger channels
-  multiplied — gravity to space, EM to matter — the most coherent framing the
-  amplitude has had. Credited to the author.
+ 1.24% exactly?" (open). The amplitude is now the medium's two ledger channels
+ multiplied — gravity to space, EM to matter — the most coherent framing the
+ amplitude has had. Credited to the author.
 
 ## 61. The assembly attempt (author: "we have all the pieces, build it like the roof") — over-determined at 1%, under-determined at 1.24%
 
@@ -2321,9 +2321,9 @@ and not 10% or 0.01%.
 road needs coupling = 1.01; the EM road needs cutoff = 18 MeV. And the roads are
 DIFFERENT MECHANISMS that disagree on which coupler sets the SIZE:
 - **Assembly A:** gravity sets size (Ψ₀/M_Pl), EM sets flavor. Knob: the O(1)
-  coupling.
+ coupling.
 - **Assembly B:** EM sets size (self-energy ~α), gravity coincidental. Knob: the
-  cutoff.
+ cutoff.
 The pieces DO NOT choose between them. So exact 1.24% is **UNDER-DETERMINED**:
 same pieces, two valid buildings.
 
@@ -2374,9 +2374,9 @@ proton 0.075%. No α-too-small problem.
 
 **Consequences:**
 - Architecture FIXED: amplitude = (gravity: Ψ₀/M_Pl, the SIZE) × (EM: fixed
-  flavor weights, the DISTRIBUTION).
+ flavor weights, the DISTRIBUTION).
 - Fingerprint LOCKED: **ε ∝ √Ω_DM** (size rides Ψ₀, which the abundance pins).
-  Assembly B's ε ∝ α (abundance-blind) excluded with it.
+ Assembly B's ε ∝ α (abundance-blind) excluded with it.
 
 **STILL OPEN (honest):** the number is abundance-anchored, not genesis-derived
 (Ψ₀'s 42-order genesis hole, §... stands); the exact flavor weights await the
@@ -2404,10 +2404,10 @@ right: leptons vs hadrons split electromagnetically), but not the naive fraction
 
 **What this specifies — the payload author's THREE-WAY NEEDLE (now stated
 exactly):** the EM flavor weight must be
-  (1) COMPOSITION-DEPENDENT (leptons ≠ hadrons — the flavor), AND
-  (2) GRADIENT-FREE in space (no fifth force — MICROSCOPE-safe via the discrete
-      Θ switch, ANN-2026-013 / §58), AND
-  (3) α-PRESERVING (not varying-α — census-legal, §62).
+ (1) COMPOSITION-DEPENDENT (leptons ≠ hadrons — the flavor), AND
+ (2) GRADIENT-FREE in space (no fifth force — MICROSCOPE-safe via the discrete
+ Θ switch, ANN-2026-013 / §58), AND
+ (3) α-PRESERVING (not varying-α — census-legal, §62).
 The payload = the one EM-structural weight satisfying all three at once, riding
 a gravitationally-set size (Ψ₀/M_Pl). This is the sharpest the payload has been
 specified: not "derive the coupling somehow" but "derive the composition-
@@ -2523,15 +2523,15 @@ matter do gravity, matter and matter do EM, matter and space do β."**
 Correct — the three couplings are the three steps of one closed causal chain:
 
 1. **matter ↔ space — GRAVITY:** matter clusters → shell-crossing → medium goes
-   multi-stream → Θ saturates. Matter's AMOUNT changes space's STATE.
+ multi-stream → Θ saturates. Matter's AMOUNT changes space's STATE.
 2. **space — the displacement:** Θ's state = a gravitational field displacement
-   Ψ₀/M_red. Space "holds" the number.
+ Ψ₀/M_red. Space "holds" the number.
 3. **space → matter — β:** β converts the gravitational displacement into a mass
-   response. β = "EM's response to gravity," the exchange rate = matter's
-   sensitivity to space's state = "our side of the transaction."
+ response. β = "EM's response to gravity," the exchange rate = matter's
+ sensitivity to space's state = "our side of the transaction."
 4. **matter ↔ matter — EM:** the electron's EM-structured mass REALIZES the shift,
-   ε = β × Ψ₀/M_red, distributed across species by EM flavor weights (hydrogen,
-   reduced mass).
+ ε = β × Ψ₀/M_red, distributed across species by EM flavor weights (hydrogen,
+ reduced mass).
 
 **Closed loop:** starts and ends in matter, routed through space (matter→space
 gravity, space→matter β, matter→matter EM). For the m_e shift, this IS the
@@ -2571,12 +2571,12 @@ idea is permanently closed.
 **Why β is NOT derivable now — two missing ingredients, neither obtainable by
 reasoning:**
 1. **Author coefficient:** is the coupling exactly gravitational strength (=1),
-   giving β = f_amp×1? The census does NOT force this — it killed the CONTINUOUS
-   coupling (MICROSCOPE); the DISCRETE Θ-switch amplitude is not census-pinned.
-   Needs the payload author written down.
+ giving β = f_amp×1? The census does NOT force this — it killed the CONTINUOUS
+ coupling (MICROSCOPE); the DISCRETE Θ-switch amplitude is not census-pinned.
+ Needs the payload author written down.
 2. **Field configuration across the switch:** does exactly f_amp participate?
-   That's the actual shape of |Ψ| in the two Θ states — only the task-8 sim gives
-   it.
+ That's the actual shape of |Ψ| in the two Θ states — only the task-8 sim gives
+ it.
 
 **State:** β's IDENTITY known (geometric mode-fraction, ≈f_amp, 60% of gravity's
 grip); its VALUE has a falsifiable target (0.6, checkable when sims read f_amp);
@@ -2625,10 +2625,10 @@ Right bones, wrong variable.
 
 **An "all clear" is a BINARY permission signal — that's Θ:**
 - matter DIFFUSE (voids/IGM/early universe): Θ unsaturated → shift HELD ON
-  ("not clear yet").
+ ("not clear yet").
 - matter VIRIALIZED (collapsed): Θ saturated → shift RELEASES to lab ("all
-  clear"). Matter's clustering state = the signal that tells the fluid hold vs
-  release. Virialization = matter saying "all clear, m_e back to normal."
+ clear"). Matter's clustering state = the signal that tells the fluid hold vs
+ release. Virialization = matter saying "all clear, m_e back to normal."
 
 **β is a MAGNITUDE, not a signal:** how far off lab m_e sits WHILE held (a
 continuous 0.6). An all-clear is binary (held/released) = Θ; β is the size of
@@ -2637,9 +2637,9 @@ the hold.
 **The distinction tightens §67 (which loosely called β "our side"):** matter has
 TWO roles in the transaction —
 - OUTGOING signal: **Θ** (the gate, the "all clear from matter" — binary,
-  matter→fluid),
+ matter→fluid),
 - INCOMING responsiveness: **β** (how much its mass answers the fluid's state —
-  continuous magnitude).
+ continuous magnitude).
 The author named the first (Θ). β is how big the shift is while the all-clear
 has NOT been given. Credited — the all-clear intuition separated the gate from
 the magnitude cleanly.
@@ -2652,12 +2652,12 @@ The amplitude is 1.24%.
 **Author: "how does the ledger collect that 0.6? Or is it the bank coming to
 collect its own information?"** The latter — UNCOLLECTABLE. Trace every line:
 - **Energy?** No — the mass-shift energy is reallocated INSIDE matter (§69);
-  the medium supplies none.
+ the medium supplies none.
 - **Information (when to shift)?** That's Θ = matter's OWN clustering state
-  (§70). The medium didn't make it; matter wrote it by collapsing. β reading it
-  back = the medium handing matter its own entry.
+ (§70). The medium didn't make it; matter wrote it by collapsing. β reading it
+ back = the medium handing matter its own entry.
 - **The medium's field scale Ψ₀?** Read but not depleted — information is
-  copyable; referencing the field doesn't spend it.
+ copyable; referencing the field doesn't spend it.
 
 **So the medium is a REGISTER:** it holds a record of matter's state (Θ) against
 its own reference (Ψ₀), and β is the READ-OUT GAIN. The 0.6 isn't a debt — it's
@@ -2691,13 +2691,13 @@ sim is a cross-check, not the source). Trace:
 
 **Two honest caveats (what separates this from 'fully derived'):**
 1. **Author link is an assumption, not a sim:** β = f_amp needs (i) coupling
-   coefficient = gravitational strength (1), (ii) only the amplitude mode
-   couples. That's THEORY (write the author) — the one genuine remaining gap,
-   and smaller than "needs a sim."
+ coefficient = gravitational strength (1), (ii) only the amplitude mode
+ couples. That's THEORY (write the author) — the one genuine remaining gap,
+ and smaller than "needs a sim."
 2. **Distributional, not unique:** f_amp is one genesis-dice roll per universe
-   (median 0.6). So the amplitude is PREDICTED distributional, median ~1.3%, and
-   our 1.24% sits at the median — a TYPICAL universe. "1.24% is most likely,"
-   not "forced." (Also carries the dice's own h-convergence caveats.)
+ (median 0.6). So the amplitude is PREDICTED distributional, median ~1.3%, and
+ our 1.24% sits at the median — a TYPICAL universe. "1.24% is most likely,"
+ not "forced." (Also carries the dice's own h-convergence caveats.)
 
 **RE-GRADE of Shot 1:** not "naked fit," not "needs a sim." The amplitude is
 TRACED end-to-end to already-computed origins (misalignment Ψ₀ × reduced
@@ -2720,26 +2720,26 @@ marginal). Spontaneous condensation breaks scale symmetry → a dilaton Goldston
 which IS the amplitude mode (the |Ψ|-breathing direction changes the scale Ψ₀).
 Then:
 - **Coefficient = 1 (property 1):** a dilaton couples to masses with UNIVERSAL,
-  symmetry-fixed strength — no free constant (like the graviton's locked
-  coupling). β = 1 forced by scale invariance, not assumed.
+ symmetry-fixed strength — no free constant (like the graviton's locked
+ coupling). β = 1 forced by scale invariance, not assumed.
 - **Amplitude-mode-only (property 2):** TWO Goldstones — amplitude (dilaton, from
-  broken SCALE symmetry, couples to MASS) and phase (from broken U(1), couples to
-  CHARGE/number, NOT mass). Masses feel only the dilaton → only f_amp reaches
-  m_e. Forced by the two-Goldstone structure.
+ broken SCALE symmetry, couples to MASS) and phase (from broken U(1), couples to
+ CHARGE/number, NOT mass). Masses feel only the dilaton → only f_amp reaches
+ m_e. Forced by the two-Goldstone structure.
 ⇒ β = f_amp DERIVED: amplitude mode = scale dilaton (universal mass coupling) +
 rotation = U(1) Goldstone (charge only). Builds on the working docket (derived the
 Weyl/conformal coupling FORM); this pins its COEFFICIENT.
 
 **HONEST CAVEATS — the route, a calc to execute, not done:**
 1. Scale symmetry APPROXIMATE (m²|Ψ|² breaks it) → pseudo-dilaton; coefficient=1
-   up to (m/Ψ₀)² ~ 1×10⁻⁹⁴ corrections (negligible, but must be shown).
+ up to (m/Ψ₀)² ~ 1×10⁻⁹⁴ corrections (negligible, but must be shown).
 2. NORMALIZATION: a dilaton's scale is naively Ψ₀ (breaking scale), but we need
-   M_red (gravitational) for 1.24%. Reconciling dilaton-decay-constant with
-   gravitational-strength is the crux the effective-action calc must settle —
-   the one place the answer isn't guaranteed without doing it.
+ M_red (gravitational) for 1.24%. Reconciling dilaton-decay-constant with
+ gravitational-strength is the crux the effective-action calc must settle —
+ the one place the answer isn't guaranteed without doing it.
 3. SURVIVAL genesis→recombination: dilaton identity cleanest in the quartic era;
-   by recombination the field is at its floor — must check the coupling keeps its
-   dilaton form.
+ by recombination the field is at its floor — must check the coupling keeps its
+ dilaton form.
 
 **THE FIX, stated:** construct the medium–matter effective action and prove the
 amplitude mode is the scale-symmetry pseudo-dilaton → derives coefficient (scale
@@ -2774,7 +2774,7 @@ data wants ~0.94 (natural + consistent, NOT derived).
 — which IS the STRONG reading of the census. So whether c = 1 is forced reduces
 to the census-scope adjudication = **TASK #5** (Gemini's ball):
 - STRONG census (c=1): amplitude FULLY DERIVED — ε = f_amp × Ψ₀/M_red = 1.24%,
-  nothing free.
+ nothing free.
 - WEAK census (c free O(1)): c≈1 natural + data-consistent, not forced.
 
 **STATE:** the 1.24% now hangs on the SAME census-scope question as everything
@@ -2830,7 +2830,7 @@ be overworked.
 **c BOXED FROM BOTH SIDES (both walls author-built):**
 - c > 1 (overhire): radiatively destroys the ultralight mass (§75, naturalness).
 - c < 1 (underhire): pinned f_amp, Ψ₀ can't compensate → amplitude too small →
-  inconsistent with the measured 1.24%.
+ inconsistent with the measured 1.24%.
 ⇒ c trapped near 0.94 ≈ 1.
 
 **HONEST — kind of corner:** the UPPER wall (naturalness) is a theory statement.
@@ -2909,12 +2909,12 @@ EP: "rate is 1." Together c=1.
 
 **The ledger enforces the rate two ways — one PROVEN, one INFERRED:**
 - **CEILING (c ≤ 1): PROVEN, and it's self-preservation.** Naturalness (§75): a
-  large coupling radiatively balloons the medium's own ultralight mass and
-  DESTROYS it. The ledger caps the rate at gravitational strength to SURVIVE.
-  Derived, self-interested: the ledger sets c ≤ 1 to protect its own existence.
+ large coupling radiatively balloons the medium's own ultralight mass and
+ DESTROYS it. The ledger caps the rate at gravitational strength to SURVIVE.
+ Derived, self-interested: the ledger sets c ≤ 1 to protect its own existence.
 - **EXACT RATE (c = 1, not 0.6): INFERRED.** The EP claim (§78) — suspected but
-  unseen (no effective-action calc), with the unsolved "EP moves things (~10⁻⁵)
-  vs rescales masses (2.2%)" puzzle.
+ unseen (no effective-action calc), with the unsolved "EP moves things (~10⁻⁵)
+ vs rescales masses (2.2%)" puzzle.
 
 **Sharpest statement of the whole "why 1.24%" question:** *does the ledger, in
 enforcing its own survival (the ceiling), ALSO enforce exactly gravity's rate
@@ -2976,10 +2976,10 @@ coupling constant our universe has at ≈0.94, with no deeper "why."
 
 **Balanced (NOT a failure):**
 - NORMAL: most couplings (Yukawas, CKM angles) are O(1) numbers, measured not
-  derived; the SM isn't broken for it. c joins that list.
+ derived; the SM isn't broken for it. c joins that list.
 - The model STILL predicts amplitude ~1% (forced: traced factors × O(1)
-  coupling) — genuine and correct. Only the exact digit 1.24% rides on an
-  empirical O(1) coefficient, like every other O(1) coupling.
+ coupling) — genuine and correct. Only the exact digit 1.24% rides on an
+ empirical O(1) coefficient, like every other O(1) coupling.
 
 **Status:** the superfluid tells you the coupling is gravitational + order-one;
 whether it tells you EXACTLY one is the open effective-action calc, which may
@@ -3002,7 +3002,7 @@ and the tilt was the whole story.
 
 **Two OPPOSITE predictions about the same effective-action calc:**
 - **AUTHOR (§82):** the coupling has NO free dial — c=1 forced (EP baseline),
-  tilt/f_amp carries all variation, 0.5 impossible.
+ tilt/f_amp carries all variation, 0.5 impossible.
 - **§81 (me):** the coupling HAS a dial — c is a free O(1), 0.5 allowed.
 
 **Why §82 is the stronger idea (not just louder):** it's more elegant AND it ties
@@ -3030,14 +3030,14 @@ INDEPENDENTLY (dwarf heating, no c dependence). Then **c = ε/(f_amp,granule ×
 **Reads the dice roll:** if c=1 (§82), the amplitude inverts to our universe's
 ACTUAL genesis draw (previously known only as a distribution):
 - f_amp = ε/(Ψ₀/M_red) = **0.56 ± 0.22** (our roll; sits in the dice median
-  0.55-0.67 → typical universe), f_rot = 0.44, granule S ≈ 0.60. Preliminary
-  (37% amplitude error), tightens with Fairbank.
+ 0.55-0.67 → typical universe), f_rot = 0.44, granule S ≈ 0.60. Preliminary
+ (37% amplitude error), tightens with Fairbank.
 
 **Task #8 now does TRIPLE duty** — one f_amp measurement:
 1. ISOLATES c (breaks §77);
 2. REFEREES §81-vs-§82 WITH DATA (not just the effective-action calc): granule
-   f_amp ≈ 0.56 → c=1 confirmed (author's §82 wins); ≠ 0.56 → c has a dial
-   (§81), c = ε/(f_amp,granule × Ψ₀/M_red);
+ f_amp ≈ 0.56 → c=1 confirmed (author's §82 wins); ≠ 0.56 → c has a dial
+ (§81), c = ε/(f_amp,granule × Ψ₀/M_red);
 3. PINS our universe's genesis dice roll (f_amp, f_rot, tilt).
 
 **Consequence:** the c=1 question no longer REQUIRES the hard effective-action
@@ -3062,8 +3062,8 @@ derivation).
 
 **CORRECTION to §83:** §83 said the granule sim "confirms c=1, §82 wins." Too
 strong. The referee is ONE-SIDED:
-- granule f_amp → c ≠ 1  ⇒  KILLS §82 (no-dial needs exactly 1); §81 wins.
-- granule f_amp → c ≈ 1  ⇒  BOTH hypotheses survive; cannot crown §82.
+- granule f_amp → c ≠ 1 ⇒ KILLS §82 (no-dial needs exactly 1); §81 wins.
+- granule f_amp → c ≈ 1 ⇒ BOTH hypotheses survive; cannot crown §82.
 The sim can FALSIFY the no-dial bet, not PROVE it. (Data kills; it doesn't
 confirm existence-of-a-reason.)
 
@@ -3113,13 +3113,13 @@ scar are now THE SAME coupling-structure problem. Knot booked; the real finding.
 the QCD phase transition:
 
 - **EARLY (neighbor rule VIOLATED — all in causal contact, QCD DECONFINED, nearly
-  CONFORMAL):** no separate mass sectors, no flavor — one UNIVERSAL coupling.
-  **c = 1 is pinned here** (the binding/trace-anomaly coupling, §85b, when
-  everything is one undifferentiated soup).
+ CONFORMAL):** no separate mass sectors, no flavor — one UNIVERSAL coupling.
+ **c = 1 is pinned here** (the binding/trace-anomaly coupling, §85b, when
+ everything is one undifferentiated soup).
 - **LATER (neighbor rule RESTORED — QCD CONFINES, protons form, sectors separate):**
-  FLAVOR structure emerges (hadron masses appear, leptons≠hadrons). By BBN the
-  coupling is already flavor-weighted → quark shifts 13× less → **deuterium heals**
-  catastrophe-free (§85a).
+ FLAVOR structure emerges (hadron masses appear, leptons≠hadrons). By BBN the
+ coupling is already flavor-weighted → quark shifts 13× less → **deuterium heals**
+ catastrophe-free (§85a).
 
 **Untying the knot:** same coupling, two faces, split by QCD confinement (the
 moment the universe stopped being one thing). c fixed in the universal
@@ -3190,9 +3190,9 @@ universal era, w born at confinement, multiplying forever after.
 
 **THE ONE SHARED CRUX (the working docket):** everything now rides on w being BOTH:
 (i) census-LEGAL — matter's OWN EM structure responding to a gravitational
-    trigger, NOT the medium modulating α (varying-α, forbidden/quasar-killed);
+ trigger, NOT the medium modulating α (varying-α, forbidden/quasar-killed);
 (ii) correctly SIGNED — leptons MORE, hadrons LESS (EM self-energy gives this; a
-    naive binding-grab gives the opposite and re-breaks deuterium).
+ naive binding-grab gives the opposite and re-breaks deuterium).
 Both ideas alive, MERGED into one structure (universal c × confinement-born
 weight w), entire uncertainty concentrated into that sign-and-legality check.
 Booked; §85 knot corrected to a false dichotomy.
@@ -3275,11 +3275,11 @@ re-derived.
 
 **Two honest catches (rescue, not full win):**
 1. SEPARATE amendment, not the unification: BBN shift rides the radiation-like
-   normal fraction; m_e rides the condensate. Two carriers (ANN-2026-006: differ
-   ~8 orders, one coupling can't source both). Deuterium heals; the one-engine
-   dream stays dead — two engines, both real. Doubling debt STANDS.
+ normal fraction; m_e rides the condensate. Two carriers (ANN-2026-006: differ
+ ~8 orders, one coupling can't source both). Deuterium heals; the one-engine
+ dream stays dead — two engines, both real. Doubling debt STANDS.
 2. Still needs a HIGGS-VEV PORTAL (dark→Higgs, non-gravitational) — the §90
-   census cost doesn't vanish; reopens #5.
+ census cost doesn't vanish; reopens #5.
 
 **NET (better than §90, not §85):** deuterium HEALABLE again (small radiation
 carrier, author's catch — my §90 over-shot); unification still DEAD (two
@@ -3306,15 +3306,15 @@ separate carrier, no portal. §90/§91 charged for a door never needed.
 
 **TWO HONEST COSTS:**
 1. **P-011 DIES.** Universal conformal shift moves ALL masses by the same
-   fraction — leptons ≡ hadrons. "Leptons shift more" is RETRACTED; model now
-   predicts UNIVERSAL varying-constants (cleaner/more standard, but P-011 off the
-   board).
+ fraction — leptons ≡ hadrons. "Leptons shift more" is RETRACTED; model now
+ predicts UNIVERSAL varying-constants (cleaner/more standard, but P-011 off the
+ board).
 2. **BBN magnitude is now THE question.** The heal needs the shift SMALL (~0.15%)
-   at BBN, LARGE (~1.24%) at recombination → the field must be SMALLER at BBN.
-   But the simplest history (misalignment: frozen then redshifting) gives the
-   OPPOSITE (larger at BBN → §90 catastrophe returns). So the whole heal now
-   hinges on: **does the dark field's value GROW or SHRINK from BBN to
-   recombination?** Grows → heal. Shrinks → catastrophe. Genesis-unsettled.
+ at BBN, LARGE (~1.24%) at recombination → the field must be SMALLER at BBN.
+ But the simplest history (misalignment: frozen then redshifting) gives the
+ OPPOSITE (larger at BBN → §90 catastrophe returns). So the whole heal now
+ hinges on: **does the dark field's value GROW or SHRINK from BBN to
+ recombination?** Grows → heal. Shrinks → catastrophe. Genesis-unsettled.
 
 **NET:** author dissolved the portal (real §90 error corrected); unification
 BACK (one conformal coupling, no door); cost = P-011 retracted; fulcrum = the
@@ -3325,12 +3325,12 @@ BBN→recombination field evolution. Booked.
 **Author: can we answer whether the dark field grows or shrinks BBN→recomb?**
 Yes. Depends on which field value couples to m_e:
 - **Misalignment amplitude (Reading A):** frozen then redshifts (~a⁻³/2) →
-  |Ψ|_rec/|Ψ|_BBN ~ 1.6×10⁻⁶, SHRINKS ~6 orders → larger at BBN → full 1.24% quark
-  shift → D/H CATASTROPHE.
+ |Ψ|_rec/|Ψ|_BBN ~ 1.6×10⁻⁶, SHRINKS ~6 orders → larger at BBN → full 1.24% quark
+ shift → D/H CATASTROPHE.
 - **Condensate ORDER PARAMETER |Ψ| (Reading B, natural for a superfluid):** |Ψ|=0
-  pre-condensation, grows to Ψ₀ at z_x, full by recombination. **z_x ≈ 1×10⁵ sits
-  BETWEEN BBN (1×10⁹) and recomb (1×10³)** → at BBN the field is barely condensed
-  (small shift → heals), at recomb fully condensed (1.24% → m_e). GROWS → HEALS.
+ pre-condensation, grows to Ψ₀ at z_x, full by recombination. **z_x ≈ 1×10⁵ sits
+ BETWEEN BBN (1×10⁹) and recomb (1×10³)** → at BBN the field is barely condensed
+ (small shift → heals), at recomb fully condensed (1.24% → m_e). GROWS → HEALS.
 
 **Verdict: GROWS.** For a superfluid the coupling is to the order parameter
 (Reading B); the catastrophe (Reading A) is a misalignment red herring (wrong
@@ -3359,7 +3359,7 @@ and ROLLS INWARD; "condensation" = settling into a coherent rotating state, NOT
 growing from zero. So the fork is sharper:
 - phase-transition-like (|Ψ| small at BBN, grows): → heal (§93's optimistic read).
 - standard AD (|Ψ| already large at BBN): → full 1.24% quark shift → CATASTROPHE
-  creeps back.
+ creeps back.
 Which one = the GENESIS INITIAL CONDITIONS (inflaton displacement, tilt-torqued
 roll) — the under-determined inputs. So "grows" is the HOPEFUL branch, not
 guaranteed. §93 was optimistic; the grow-vs-catastrophe question is genuinely
@@ -3378,19 +3378,19 @@ condensate order parameter is FAR LARGER at BBN than at recombination:
 - Reading 1 (misalignment, frozen then a⁻³/2): |Ψ|_BBN/|Ψ|_rec = **6.2×10⁵**.
 - Reading 2 (charged-AD centrifugal equilibrium R_eq ~ a⁻³/2): **8.7×10⁸**.
 - Stiff Radau ODE: converged (ok=True), field relaxes toward the DECREASING
-  equilibrium (a⁻³/2) — confirms the direction numerically.
+ equilibrium (a⁻³/2) — confirms the direction numerically.
 - Heal branch (Reading 3) needs |Ψ|_BBN/|Ψ|_rec ~ 0.12 (~12% condensed at BBN) —
-  requires a SMALL initial displacement, NON-generic for Affleck-Dine.
+ requires a SMALL initial displacement, NON-generic for Affleck-Dine.
 
 **VERDICT: the field SHRINKS** (large at BBN, redshifts/relaxes away). So the
 m_e/quark shift SATURATES HIGH at BBN → **D/H CATASTROPHE**, not a heal.
 - **§93 ("grows/heals") is DEAD.** §94 caveat CONFIRMED, numerically.
 - **§92's one-field unification FAILS at the BBN magnitude.** The deuterium heal
-  does NOT fall out of the AD field for free.
+ does NOT fall out of the AD field for free.
 - **Honest endpoint of the deuterium arc:** the scar stays a SEPARATE, screened,
-  honestly-carried blemish — healable only via the separate small radiation
-  carrier (§91, = ANN-2026-005, a second amendment with the doubling debt) OR a
-  non-AD small-Ψ_i genesis. The clean "one engine heals everything" is closed.
+ honestly-carried blemish — healable only via the separate small radiation
+ carrier (§91, = ANN-2026-005, a second amendment with the doubling debt) OR a
+ non-AD small-Ψ_i genesis. The clean "one engine heals everything" is closed.
 
 **What SURVIVES untouched:** the amplitude itself (m_e at recombination, where
 the field IS at its ~1.24% value) — the whole night's amplitude structure stands;
@@ -3417,12 +3417,12 @@ account-closing is compelled, not chosen.
 
 **REPAIRS both §90 and §95:**
 1. PORTAL (§90) dissolves: the early direct coupling is TRANSIENT — legal early
-   (no mass), forced-closed at z_x. The census (gravity-only) holds exactly where
-   it's TESTED — MICROSCOPE/quasars/Oklo/clocks are ALL late (post-z_x) → see the
-   closed account. The early coupling is invisible to every existing test.
+ (no mass), forced-closed at z_x. The census (gravity-only) holds exactly where
+ it's TESTED — MICROSCOPE/quasars/Oklo/clocks are ALL late (post-z_x) → see the
+ closed account. The early coupling is invisible to every existing test.
 2. §95 CATASTROPHE evaded: the early coupling rides the SMALL normal fraction
-   (~ΔN_eff), NOT the huge condensate §95 tested → small shift ~0.15% → heals, no
-   catastrophe. §95 tested the wrong field for this mechanism.
+ (~ΔN_eff), NOT the huge condensate §95 tested → small shift ~0.15% → heals, no
+ catastrophe. §95 tested the wrong field for this mechanism.
 
 **One event, not one field:** still two carriers (normal early, condensate late)
 but they're the TWO SIDES of ONE regime change (condensation) — before: direct-
@@ -3441,11 +3441,11 @@ D/H is FORCED (Dent-Stern-Wetterich response) to move all 5 light abundances
 together. Does it break one? RAN it (pure arithmetic):
 - δv/v = **0.091%** heals D/H exactly (−1.2σ → 0.0σ).
 - FORCED co-signature: **Y_p −0.41% → +1.4σ improves to +1.08σ**; **7Li −5.5%
-  → +4.50σ chips to +4.36σ (toward, never away from, the lithium problem)**;
-  3He/6Li stay in slack.
+ → +4.50σ chips to +4.36σ (toward, never away from, the lithium problem)**;
+ 3He/6Li stay in slack.
 - **Joint fit IMPROVES: total χ 4.86 → 4.50.** No abundance broken.
 - KILL CONDITION (any element driven WORSE — esp. Y_p UP or 7Li UP): does NOT
-  fire. Survives.
+ fire. Survives.
 
 **Verdict: §96's heal PASSES.** The vev shift doesn't just fix deuterium — it
 improves the WHOLE light-element fit, all five locked together the right way.
@@ -3455,13 +3455,13 @@ numerically.
 
 **HONEST CAVEATS:**
 1. MODEST: dominated by 7Li, which barely moves (−5.5% of a factor-~3 problem);
-   the lithium problem stays ~+4σ. The heal fixes D + eases Y_p; it does NOT
-   solve Li.
+ the lithium problem stays ~+4σ. The heal fixes D + eases Y_p; it does NOT
+ solve Li.
 2. Tests the HEAL'S CONSISTENCY (the observable co-signature), NOT the
-   regime-change MECHANISM itself (the naturalness start-date / early coupling —
-   still a theory claim; this is its downstream test).
+ regime-change MECHANISM itself (the naturalness start-date / early coupling —
+ still a theory claim; this is its downstream test).
 3. Uses literature DSW coefficients + approximate residuals; exact numbers await
-   a full BBN refit.
+ a full BBN refit.
 Net: §96 has now passed its one runnable observational test — real positive,
 honestly modest.
 
@@ -3473,11 +3473,11 @@ coefficient. Corrected.
 
 **One interaction, two phases (across the regime change):**
 - MASSLESS phase (early): the medium-matter interaction is DIRECT + STRONG — the
-  account that heals deuterium (κ_v ~ O(1)), allowed because no mass to protect.
+ account that heals deuterium (κ_v ~ O(1)), allowed because no mass to protect.
 - MASSIVE phase (late, post-condensation): the SAME interaction survives only in
-  its Planck-suppressed CONFORMAL form — and that is the coupling that shifts m_e
-  (c ~ O(1)). Naturalness closes the strong direct piece; the gentle conformal
-  piece remains.
+ its Planck-suppressed CONFORMAL form — and that is the coupling that shifts m_e
+ (c ~ O(1)). Naturalness closes the strong direct piece; the gentle conformal
+ piece remains.
 
 ⇒ **the docketed c and the deuterium κ_v are the SAME coupling before/after the account
 closed** — NOT two independent unknowns, NOT a free late-time dial. The "missing
@@ -3485,11 +3485,11 @@ non-minimal term" for c=1 is the residual of the early account, not a mystery.
 
 **Two payoffs:**
 1. ONE coupling, not two: pin the medium-matter interaction once → get BOTH the
-   deuterium heal (κ_v) AND the m_e amplitude (c). Halves the open parameters,
-   links the two parallel problems.
+ deuterium heal (κ_v) AND the m_e amplitude (c). Halves the open parameters,
+ links the two parallel problems.
 2. O(1) for a REASON: both phases are the same underlying interaction, both come
-   out order-one (early direct κ_v ~ O(1), late conformal c ~ O(1)) — which is
-   WHY c sits near 1, the shadow of the open account, not a free-parameter fluke.
+ out order-one (early direct κ_v ~ O(1), late conformal c ~ O(1)) — which is
+ WHY c sits near 1, the shadow of the open account, not a free-parameter fluke.
 
 **#14 RE-POSED (better than before):** not "derive a free Wilson coefficient from
 nothing" but "MATCH the coupling across the massless→massive transition at

@@ -23,12 +23,12 @@ proximity effect in a superconductor). Tunneling is not teleportation through a 
 **transport along the medium's own sub-threshold tail**:
 
 - The WKB exponent exp(−∫√(2m(V−E)) dx/ħ) is the medium's evanescent decay length, verbatim —
-  the model reproduces the rate because it reproduces the wave mechanics that generate it.
+ the model reproduces the rate because it reproduces the wave mechanics that generate it.
 - "Borrowed energy" never occurs: the energy bookkeeping is the medium's (the transaction
-  ledger); the excitation's energy is E throughout; what decays in the barrier is the medium's
-  response amplitude, not a conservation law.
+ ledger); the excitation's energy is E throughout; what decays in the barrier is the medium's
+ response amplitude, not a conservation law.
 - The instanton description (imaginary-time paths) is the standard saddle-point of exactly
-  this medium amplitude — inherited, not modified.
+ this medium amplitude — inherited, not modified.
 
 ## 2. The recorded laboratory cousin: Josephson
 
@@ -42,14 +42,14 @@ instantiations in the trigger doc.)
 
 ## 3. Where this touches graded structure (beyond interpretation)
 
-1. **The localization clause** (internal review-graded): the vacuum-budget cap used the fact that
-   super-gap modes are not coherent modes of the collective field. The evanescent/sub-threshold
-   physics of §1 is the SAME spectral statement read in position space — the tunneling picture
-   and the CC-value derivation share one piece of mathematics (the medium's response below its
-   own thresholds).
-2. **The crunch's mouth / plasma trace** (internal review-recorded): sub-threshold electromagnetic modes
-   (below ω_p) are evanescent in plasma — the model has already used "the medium decides what
-   propagates" as graded physics. Tunneling is that principle at the single-excitation scale.
+1. **The localization clause**: the vacuum-budget cap used the fact that
+ super-gap modes are not coherent modes of the collective field. The evanescent/sub-threshold
+ physics of §1 is the SAME spectral statement read in position space — the tunneling picture
+ and the CC-value derivation share one piece of mathematics (the medium's response below its
+ own thresholds).
+2. **The crunch's mouth / plasma trace**: sub-threshold electromagnetic modes
+ (below ω_p) are evanescent in plasma — the model already relies on "the medium decides what
+ propagates." Tunneling is that principle at the single-excitation scale.
 
 ## 4. Falsifiable content
 
@@ -58,7 +58,7 @@ results, macroscopic quantum tunneling in SQUIDs. Any confirmed deviation from s
 tunneling (rate or statistics) kills the model along with QM's other exact reproductions.
 No new signature is claimed. *(One research-grade question flagged, not registered: whether the
 medium's preferred frame could imprint on tunneling TIME measurements at extreme precision —
-parked with the LV pricing ledger, internal review.)*
+parked with the Lorentz-violation pricing ledger.)*
 
 *The wall is real, and closed — to the particle picture. The medium was never asked to stop,
 and the particle was always the medium's ripple. We certify volts with this fact and call it

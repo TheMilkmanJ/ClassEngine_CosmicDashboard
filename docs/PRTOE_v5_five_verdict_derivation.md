@@ -6,7 +6,7 @@
 
 
 **Status: FRAMEWORK (2026-07-07). No verdict is issued in this revision.**
-Per internal review, (binding): five separately-worked sections sharing
+Binding: five separately-worked sections sharing
 one framework, each verdict's chain visible from assumption to number —
 built slowly, so a cold read can convict one step without acquitting the
 other four. This document accumulates the derivation; verdicts are
@@ -25,7 +25,7 @@ the admissible (δK)² author — carries five verdicts:
 | V4 | structure-funded floor amplitude + Bianchi withdrawal | P-2026-003's conditional fingerprint |
 | V5 | can the caustic structure support a Θ-type coupling | R1's life (consistency-construction → physics, or death) |
 
-internal review standing note (the adopted in internal review): V1–V3 are **three readouts of
+Standing note: V1–V3 are **three readouts of
 one question** — does the nonlinear sector reduce to pure
 Schrödinger–Poisson (FDM), or does the normal component (the one
 ingredient FDM does not have) reshape the granule statistics? Identical
@@ -39,35 +39,35 @@ These are the derived results this calculation stands on, with their
 provenance; none is re-litigated here:
 
 - **F1 (cert 3, exact):** the (δK)² author is trace-only; gravitons
-  are traceless; det(e^h)=1 ⇒ δK vanishes on tensors to all orders.
-  c_T = 1 identically. The author cannot see gravitational waves.
+ are traceless; det(e^h)=1 ⇒ δK vanishes on tensors to all orders.
+ c_T = 1 identically. The author cannot see gravitational waves.
 - **F2 (cert 2, scaling grade):** the induced particle mass is
-  **epoch-independent** — the H² in the kinetic normalization cancels
-  against the author's. (Load-bearing for V1: without this, the
-  soliton scale would drift with redshift and no Schive comparison
-  would be possible.) Linear-scale leakage suppressed by powers of
-  k/k_J: braiding 10⁻³ at k=0.2/Mpc, dispersion 10⁻⁶. GC dictionary:
-  M₂ = 9.4 eV (X₀ cancels); braiding scales split — 0.87 kpc
-  spatially, frozen temporally (accumulated μ−1 ≈ 4×10⁻²¹).
+ **epoch-independent** — the H² in the kinetic normalization cancels
+ against the author's. (Load-bearing for V1: without this, the
+ soliton scale would drift with redshift and no Schive comparison
+ would be possible.) Linear-scale leakage suppressed by powers of
+ k/k_J: braiding 10⁻³ at k=0.2/Mpc, dispersion 10⁻⁶. GC dictionary:
+ M₂ = 9.4 eV (X₀ cancels); braiding scales split — 0.87 kpc
+ spatially, frozen temporally (accumulated μ−1 ≈ 4×10⁻²¹).
 - **F3 (cert 1, Landau):** the ideal condensate's critical velocity is
-  zero; every infall flow is supercritical and sheds excitations;
-  caustics never form — they dissolve into de Broglie interference
-  (~kpc at dwarf velocities: the granules SP simulations show).
-  Stamped caveat: interference nodes are quantized vortex lines
-  (shift-charge, O1) where the foliation degenerates — measure-zero
-  EFT boundary, handled by the covariant completion.
+ zero; every infall flow is supercritical and sheds excitations;
+ caustics never form — they dissolve into de Broglie interference
+ (~kpc at dwarf velocities: the granules SP simulations show).
+ Stamped caveat: interference nodes are quantized vortex lines
+ (shift-charge, O1) where the foliation degenerates — measure-zero
+ EFT boundary, handled by the covariant completion.
 - **F4 (boundary stamp):** the two-fluid correspondence is kinematic
-  and compositional, NOT thermodynamic — the medium is collisionless
-  and never thermalizes; no second sound, no counterflow degree of
-  freedom. Any "heating" must be gravity-mediated.
+ and compositional, NOT thermodynamic — the medium is collisionless
+ and never thermalizes; no second sound, no counterflow degree of
+ freedom. Any "heating" must be gravity-mediated.
 - **F5 (EFT domain):** cutoff at the condensate scale — wavelengths
-  below ~20 nm are outside the theory's definition. All five verdicts
-  live at astrophysical scales, comfortably inside.
+ below ~20 nm are outside the theory's definition. All five verdicts
+ live at astrophysical scales, comfortably inside.
 - **F6 (the price already posted):** the same excitation-shedding that
-  dissolves caustics heats; ultra-faint-dwarf survival (Eridanus II's
-  cold star cluster) bounds it — pure-FDM analyses give m ≳ 3×10⁻¹⁹ eV
-  (contested relaxation modeling), which would shrink cores below a
-  parsec. The fork is live and is exactly what V2/V3 must decide.
+ dissolves caustics heats; ultra-faint-dwarf survival (Eridanus II's
+ cold star cluster) bounds it — pure-FDM analyses give m ≳ 3×10⁻¹⁹ eV
+ (contested relaxation modeling), which would shrink cores below a
+ parsec. The fork is live and is exactly what V2/V3 must decide.
 
 ## 2. Shared framework (to be derived in full — the one set of equations
 ## all five verdicts read from)
@@ -77,15 +77,15 @@ S = ∫√−g [M_pl²R/2 + P(X) + (m̄₂²/2)(δK)²] + S_m
 about the condensate background, yielding:
 
 1. a Schrödinger–Poisson sector for the coherent field ψ (condensate)
-   with effective mass M (epoch-independent per F2) and NO quartic
-   self-coupling at leading order (ideal condensate; c_s² = 0);
+ with effective mass M (epoch-independent per F2) and NO quartic
+ self-coupling at leading order (ideal condensate; c_s² = 0);
 2. a kinetic sector for the incoherent excitations (the "normal"
-   component): the a⁻⁶ pre-basin remnant PLUS the in-situ population
-   shed by supercritical flow (F3) — its phase-space distribution
-   f(x, k, t) sourced by a Landau-shedding emissivity to be derived;
+ component): the a⁻⁶ pre-basin remnant PLUS the in-situ population
+ shed by supercritical flow (F3) — its phase-space distribution
+ f(x, k, t) sourced by a Landau-shedding emissivity to be derived;
 3. the coupling between them: gravity only (F4), plus the kinematic
-   composition constraint (both are pieces of one field — no
-   independent counterflow).
+ composition constraint (both are pieces of one field — no
+ independent counterflow).
 
 Derivation steps owed (in order; each gets its own subsection when done):
 - 2.1 DONE below.
@@ -96,7 +96,7 @@ Derivation steps owed (in order; each gets its own subsection when done):
 condensate (X₀ = ½φ̇₀², P_X(X₀) = 0). Then
 δX = φ̇₀π̇ + ½π̇² − (∇π)²/2a², and to quadratic order
 
-  L₂ ⊃ ½P₂(δX)² → P₂X₀ π̇².
+ L₂ ⊃ ½P₂(δX)² → P₂X₀ π̇².
 
 The would-be gradient term P_X·(−(∇π)²/2a²) **vanishes identically at
 the extremum** — this is c_s² = 0 seen in fluctuation variables, and
@@ -108,14 +108,14 @@ the completion's.
 **Step 2 — the author's gradient energy.** For the perturbed
 constant-φ foliation, δK = −∇²π/(a²φ̇₀) at leading order, so
 
-  (m̄₂²/2)(δK)² = (m̄₂²/4X₀) (∇²π)²/a⁴.
+ (m̄₂²/2)(δK)² = (m̄₂²/4X₀) (∇²π)²/a⁴.
 
 **Step 3 — canonical normalization and dispersion.** With
 π_c = √(2P₂X₀) π:
 
-  L₂ = ½π̇_c² − [m̄₂²/(8P₂X₀²)] (∇²π_c)²/a⁴
-  ⟹ ω = [m̄₂/(2√P₂ X₀)] k² ≡ k²/(2M_eff),
-  **M_eff = √P₂ X₀ / m̄₂.**
+ L₂ = ½π̇_c² − [m̄₂²/(8P₂X₀²)] (∇²π_c)²/a⁴
+ ⟹ ω = [m̄₂/(2√P₂ X₀)] k² ≡ k²/(2M_eff),
+ **M_eff = √P₂ X₀ / m̄₂.**
 
 Manifestly **epoch-independent** (P₂, X₀, m̄₂ are constants of the
 action) — F2's covariant H²-cancellation appears automatically in
@@ -124,33 +124,33 @@ these variables; the two derivations agree.
 **Step 4 — the basin-entry identity collapses it.** The atlas identity
 ρ(basin entry) = 2P₂X₀² = 2M₂⁴ gives M₂⁴ = P₂X₀², hence
 
-  **M_eff = M₂²/m̄₂**   (X₀ cancels — the FOURTH time this model's
-  algebra has protected an observable from its one tuned parameter).
+ **M_eff = M₂²/m̄₂** (X₀ cancels — the FOURTH time this model's
+ algebra has protected an observable from its one tuned parameter).
 
 **Step 5 — numbers and consistency checks** (script:
 `derivation_battery.py` lineage, run 2026-07-07):
 - With M₂ = 9.4 eV: M_eff = 88.4 eV²/m̄₂. The astrophysically
-  interesting window maps to **m̄₂ ∈ 10¹¹–10¹⁵ GeV** — the
-  intermediate/GUT band (M_eff = 2×10⁻²¹ eV ↔ m̄₂ = 4.4×10¹³ GeV).
-  The completion author's coefficient sits at a natural UV scale;
-  it did not have to.
+ interesting window maps to **m̄₂ ∈ 10¹¹–10¹⁵ GeV** — the
+ intermediate/GUT band (M_eff = 2×10⁻²¹ eV ↔ m̄₂ = 4.4×10¹³ GeV).
+ The completion author's coefficient sits at a natural UV scale;
+ it did not have to.
 - λ_dB(M_eff = 2×10⁻²¹ eV, v = 10 km/s) = 0.60 kpc — matches cert 1's
-  "~kpc granules at dwarf speeds" independently.
+ "~kpc granules at dwarf speeds" independently.
 - Quantum-pressure Jeans scale at today's mean density: 299/Mpc at
-  2×10⁻²¹ eV (67/Mpc even at 10⁻²² eV) — the S₈-mute claim
-  (k_J ≥ 5.5/Mpc) holds with two orders of margin.
+ 2×10⁻²¹ eV (67/Mpc even at 10⁻²² eV) — the S₈-mute claim
+ (k_J ≥ 5.5/Mpc) holds with two orders of margin.
 
 **Addendum (2026-07-07 evening) — the X₀-free form: the whisper
 answered.** Define the field in clock units, ξ = φ/√(2X₀) (the
 condensate ticks at unit rate: ξ̇₀ = 1). The action collapses to
 
-  **P = ½M₂⁴((∂ξ)² − 1)² + (m̄₂²/2)(δK)²**
+ **P = ½M₂⁴((∂ξ)² − 1)² + (m̄₂²/2)(δK)²**
 
 — X₀ is eliminated, not hidden: the theory has exactly TWO scales,
 M₂ (potential depth, 9.4 eV) and m̄₂ (stiffness, GUT band). The four
 X₀ cancellations were the artifact of writing a clock in the wrong
 field units. This is the canonical ghost-condensate form
-(independently confirming the dictionary), and it makes the internal review's
+(independently confirming the dictionary), and it makes the
 hinge MANIFEST: M₂ is the potential's own depth — visibly pinned,
 not a dial. The model's true variables: a unit-tick khronon and two
 scales.
@@ -179,7 +179,7 @@ the k⁴ quantum pressure at the de Broglie scale l_dB = 2πħ/(M_eff v);
 the coherent stream self-interferes and converts over the transit
 time of that region:
 
-  **t_shed ~ ħ/(M_eff v²)** ;  emissivity ε ~ ρv²/t_shed = ρ M_eff v⁴/ħ.
+ **t_shed ~ ħ/(M_eff v²)** ; emissivity ε ~ ρv²/t_shed = ρ M_eff v⁴/ħ.
 
 Heavier ripple-particles granulate faster (ε ∝ M_eff).
 
@@ -187,16 +187,16 @@ Heavier ripple-particles granulate faster (ε ∝ M_eff).
 The rate law splits halos into two regimes, and the split IS the
 known phenomenology:
 - **Granular regime (R ≫ l_dB):** t_shed ≪ t_dyn (MW at 2×10⁻²¹ eV:
-  t_shed ~ 10⁴ yr vs t_dyn 250 Myr; even dwarfs at that mass: 9 vs
-  100 Myr) — virialized halos complete granulation within a fraction
-  of a dynamical time. SP simulations observe this; here it is a
-  derived rate.
+ t_shed ~ 10⁴ yr vs t_dyn 250 Myr; even dwarfs at that mass: 9 vs
+ 100 Myr) — virialized halos complete granulation within a fraction
+ of a dynamical time. SP simulations observe this; here it is a
+ derived rate.
 - **Coherence-patch regime (R ≲ l_dB):** at 10⁻²² eV a dwarf (R ~ 3
-  kpc) sits INSIDE one de Broglie patch (l_dB ~ 12 kpc) — granulation
-  cannot complete and the object is a single coherent lump: the
-  soliton core. The same rate law yields the granule field, the
-  soliton regime, AND the boundary between them (R ~ l_dB), with no
-  additional input.
+ kpc) sits INSIDE one de Broglie patch (l_dB ~ 12 kpc) — granulation
+ cannot complete and the object is a single coherent lump: the
+ soliton core. The same rate law yields the granule field, the
+ soliton regime, AND the boundary between them (R ~ l_dB), with no
+ additional input.
 
 **Step 4 — structural pre-load for V1–V3 (flagged here, stamped only
 in their own sections).** In halos today: c_s²(halo) ≲ 10⁻²² (the §2
@@ -231,14 +231,14 @@ filaments with UNIVERSAL statistics (Berry & Dennis, Proc. R. Soc. A
 line length per volume L_v = O(1)/l_dB². Therefore the
 dimensionless object
 
-  **Θ ≡ L_v · l_dB²**
+ **Θ ≡ L_v · l_dB²**
 
 is the same O(1) number in EVERY granulated region — independent of
 halo mass, density, epoch, or environment — and exactly ZERO in
 laminar flow (an unbroken ψ has no nodal tangle). This is precisely
 the saturated, environment-independent, binary attribute R1's forced
-binarity demanded (the internal review's "can the caustic structure support a
-Θ-type coupling"): granulation happened ⇒ Θ ≈ 1 universally;
+binarity demanded (the "can the caustic structure support a
+Θ-type coupling" question): granulation happened ⇒ Θ ≈ 1 universally;
 never-crossed ⇒ Θ = 0. The quasar wall's uniformity requirement is
 met BY the universality of random-wave vortex statistics — not by
 tuning. **What 2.5 still owes:** a LOCAL author in the action whose
@@ -246,7 +246,7 @@ expectation value is Θ (candidates: phase-gradient variance
 normalized at the de Broglie scale; vortex-core density from
 |∇ψ|²/ρ). The statistical object exists; the coupling construction
 — and hence R1's life — remains open until 2.5 is worked.
-- 2.4 DONE below.  - 2.5 DONE below.
+- 2.4 DONE below. - 2.5 DONE below.
 
 ### 2.4 The funded floor, locked to the core scale (2026-07-07)
 
@@ -260,7 +260,7 @@ plus virialized interiors ((σ_v/R)² ~ 10²H₀² over volume fraction
 **Step 2 — the lock.** The SAME m̄₂² sets both the floor funding and
 (via 2.1) M_eff = M₂²/m̄₂. Substituting:
 
-  **ν ≡ δρ_floor/ρ_c = (4πα/3)·(M₂²/(M_eff·M_Pl))²**
+ **ν ≡ δρ_floor/ρ_c = (4πα/3)·(M₂²/(M_eff·M_Pl))²**
 
 — a zero-free-parameter relation between the drift amplitude and the
 core scale. Numbers (α = 2): M_eff = 2.9×10⁻¹⁹ eV → ν = 5×10⁻¹⁵;
@@ -287,7 +287,7 @@ by our own locked relation.
 **Step 1 — construction.** Madelung variables (ρ, S). Define the
 local, dimensionless, bounded scalar
 
-  **Θ_loc = Q/(Q+K)**, Q = |∇√ρ|², K = ρ|∇S|² (common 1/L² units)
+ **Θ_loc = Q/(Q+K)**, Q = |∇√ρ|², K = ρ|∇S|² (common 1/L² units)
 
 — the pointwise fraction of gradient energy carried by amplitude
 structure vs flow. Laminar flow: Q/K ~ (l_dB/R)² → Θ_loc ≈ 0.
@@ -368,7 +368,7 @@ plateau universality between halo environments at the 10⁻⁵ level
 (a large-scale SP simulation question, beyond this document's tools).
 
 *Lyman-α transfers unconditionally as backdrop. All five stamped;
-the internal review reads cold, per-verdict, per the turn-22 conditions.*
+the review reads cold, per-verdict, per the turn-22 conditions.*
 
 ## 4. V4 STEP-WALK (for the turn-24 reserve — every O(1) skeleton exposed)
 
@@ -416,7 +416,7 @@ only by breaking Step A's powers. **The mutual-exclusion theorem and
 the ABSENT resolution of P-2026-003 stand with ≥ 4 orders of margin.**
 The reviewer's conviction or acquittal follows this section.
 
-**Step E — THE TRUE HINGE (found by the reviewer, the internal review; the walk's
+**Step E — THE TRUE HINGE (found on review; the walk's
 verdict: CLEARED).** The substitution ν = (4πα/3)(m̄₂/M_Pl)² shows ν
 depends on m̄₂ ALONE while M_eff = M₂²/m̄₂ depends on m̄₂ AND M₂ — so
 Step A's "two powers" were a symptom, not the cause: the mutual

@@ -7995,3 +7995,364 @@ Method: built the RG-improved potential from the 1-loop β's (hunt 214); got a v
 uncomputed coefficient via the PMS-scaling argument; did NOT invent c₀. Task #46 executed — result is a
 definite negative, not a handoff. The DE value stays underived, and the T_c leg is now shown to be
 perturbatively ILL-DEFINED (a stronger statement than "ambiguous").
+
+---
+
+### Entry 216 — THE NON-PERTURBATIVE GAP EQUATION FOR T_c (operator: "build it"): **the NJL/BCS gap equation RESOLVES the perturbative ill-definedness — T_c = Λ·τ(g) is well-defined, and for natural inputs (Λ=m_e, g~2.8) the DE value lands 1.0–1.1×; residual now 2 physical medium params, not a scheme choice**
+
+Entry 215 showed the perturbative electron-CW T_c is ill-defined (a UV/scheme ambiguity). The
+non-perturbative route treats the dyad as the composite the model says it is (a fermion-bilinear
+condensate) via an NJL/BCS gap equation — cutoff-regulated, so NO MS-bar log, so a WELL-DEFINED T_c.
+
+**The gap equation.** Critical temperature (M→0, 2nd order): 1 = g·I(τ), with g = NGΛ²/π² the
+dimensionless coupling, Λ the compositeness cutoff, τ = T_c/Λ, I(τ) = ∫₀¹ x tanh(x/2τ) dx.
+- **Critical coupling g_c = 2** (I(0)=½); above it T_c/Λ = τ(g) rises monotonically. RAMP over g
+  (2.1→8): τ = 0.12 → 1.30 — finite, unique, no ambiguity. **The log-ambiguity is GONE.**
+
+**The DE value, recast.** ρ_Λ¼ = (9/2)α⁴·**Λ·τ(g)**. RAMPED:
+- Λ = m_e (electron-pair composite), τ tuned to T_c: g = 2.82 → T_c=176 keV → DE = 1.00×; g = 2.97 →
+  T_c=193 keV → DE = 1.09×.
+- Ramp Λ at fixed g=3: Λ=100/300/511/900 keV → DE = 0.22/0.65/1.11/1.96× — **Λ=m_e is where it lands.**
+
+**Grade — genuine progress, not a closure.** SOLID: the gap equation gives a well-defined T_c (resolves
+entry 215's ill-definedness — the arc goes ill-defined → well-defined). For NATURAL inputs (Λ=m_e — the
+dyad is the electron-mass-shifter, so electron-scale compositeness is natural; g~2.8 — moderately above
+the critical g_c=2), the DE value lands **1.0–1.1×**. SOFT: (Λ, g) are natural but NOT derived, and
+"composite dyad" (vs fundamental scalar) is a model choice. So: "well-defined GIVEN the medium's
+compositeness (Λ, g)," with those two physical parameters the new residual — a much better place than the
+perturbative dead-end (ill-defined, 2× over). Method: built the gap equation, ramped g and Λ, credited
+the landing without claiming Λ=m_e/g~2.8 are forced. The new owed piece: derive (Λ, g) from the medium.
+
+---
+
+### Entry 217 — DERIVING (Λ, g) FROM THE MEDIUM (operator: "derive them"): **Λ=m_e DERIVED, g>g_c=2 DERIVED (condensation⟺supercritical; α_c 300× too weak); residual compressed to ONE O(1) strong-coupling τ=T_c/m_e~0.34 — BUT a factor-3 tension surfaces between the DE-value T_c and the varying-m_e VEV**
+
+Pushed the gap equation's two residual params (Λ, g) back onto the medium.
+
+**Λ = m_e — DERIVED.** The dyad is the field that shifts m_e (varying-m_e); a charge-free electron
+bilinear (ψ̄ψ) has its compositeness cutoff at the electron mass. Λ = 511 keV. Natural/forced.
+
+**g > g_c = 2 — DERIVED.** The dyad condenses ⟹ supercritical coupling (automatic for a condensate).
+The α_c-strength contact binding gives g = 4α_c/π² = 0.009 — **300× below critical** — so the binding is
+NOT the weak medium coupling; it is genuinely STRONG/non-perturbative. g > 2 is forced by the fact of
+condensation.
+
+**The residual: ONE O(1) number.** ρ_Λ¼ = (9/2)α⁴·m_e·**τ**, τ = T_c/m_e. DE lands 1.0–1.1× for
+τ ≈ 0.34–0.38 (g ≈ 2.8–3.0, ~1.4× critical). So everything but τ (a strong-coupling O(1), not perturbatively
+derivable) is now fixed — the DE value = α⁴·m_e·(O(1)).
+
+**HONEST TENSION (newly surfaced).** BCS-class: T_c ~ 0.57·Δ(0), so T_c ~ 185 keV ⟹ NJL T=0 gap
+Δ(0) ~ 325 keV. But the dyad VEV the varying-m_e (ε = 1.24%, the H₀ mechanism) needs is ~100 keV —
+a **factor-3 mismatch**, and vs the actual m_e-shift εm_e = 6.3 keV it is ~50×. Reading: since the
+perturbative VEV (100 keV) is itself ill-defined (entry 215), this MAY be a revision, not a contradiction
+— but if the gap really wants a 3× larger condensate, it OVER-produces the electron-mass shift and breaks
+the H₀ fit. **So the DE value and the varying-m_e mechanism are now CROSS-CONSTRAINED, and sit in ~3×
+tension in the simple electron-NJL picture.** A real new problem to resolve, not a closure.
+
+**Net.** (Λ, g) → (m_e derived, supercritical derived) + one O(1) τ~0.34 (not derived) + a factor-3
+DE-vs-varying-m_e tension. The DE value is now α⁴·m_e·(O(1)) — the cleanest structural statement of the
+arc — but the O(1) and the cross-sector tension are the honest open pieces (task #47 carries them).
+Method: ramped the g-source (α_c fails by 300×) and the BCS gap-VEV consistency (surfaced the tension);
+credited only what's forced (Λ=m_e, g>g_c); did NOT claim τ derived.
+
+---
+
+### Entry 218 — THE FACTOR-3 TENSION RESOLVED WITHIN THE FRAMEWORK (operator: "tackle it in our own framework"): **it DISSOLVES — the perturbative VEV was internally inconsistent (T_c>v, unphysical); the gap equation corrects it to the BCS-consistent v~340 keV; ε=1.24% preserved by re-fitting the free κ; no observable breaks. The '3' is a BCS artifact, NOT the structural d=3**
+
+Entry 217 flagged a factor-3 tension: the DE-value T_c implied Δ(0)~325 keV vs the varying-m_e VEV ~100 keV.
+Tackled it in-framework — it dissolves.
+
+**The perturbative estimate was already broken.** Perturbative CW: v=100 keV, T_c=193 keV → T_c/v=1.93,
+i.e. **T_c > v** — UNPHYSICAL for a condensate (BCS: T_c/Δ(0)=0.567 < 1). So the 100 keV VEV was
+inconsistent with its own T_c (and ill-defined anyway, entry 215).
+
+**The gap equation gives the consistent VEV.** v_gap = T_c/0.567 = 340 keV → T_c/v_gap = 0.567 (correct
+BCS). Only **ε = κv² is observable** (the H₀ mechanism). Revising v (100→340 keV) and re-fitting the FREE
+coupling κ (down 11.6×) preserves **ε = 1.24% exactly**; the T_c window (~185–193 keV) is unchanged. **No
+observable breaks.** So the "tension" was the gap equation CORRECTING a pre-existing perturbative
+inconsistency upward — the DE value and the varying-m_e/H₀ mechanism are CONSISTENT, both at v~340 keV
+(< m_e = Λ, and > T_c — a healthy condensate hierarchy).
+
+**The '3' is a coincidence — honest check.** The factor = (perturbative T_c/v = 1.93) ÷ (BCS ratio 0.567)
+= 3.4 — an artifact of how far off the perturbative estimate was, NOT the structural d=3. The model's real
+3 (d=3 via second sound, α_c=3α) is derived and separate. Label-firewall: this 3 is a BCS bookkeeping
+number, not physics.
+
+**Net.** The factor-3 tension DISSOLVES (perturbative VEV was inconsistent; gap equation fixes it; ε
+preserved). This further FAVORS the gap-equation route — it's internally consistent (T_c<v) where the
+perturbative CW was not (T_c>v). The DE value stands at ρ_Λ¼=(9/2)α⁴·m_e·τ (τ~0.34), and the dyad sector
+is now BCS-coherent (v~340 keV, T_c~185 keV, ε=1.24% via re-fit κ). Task #47's tension leg is CLOSED;
+the remaining residual is the single O(1) strong-coupling τ. Method: checked internal consistency (the
+T_c>v red flag), verified ε-preservation, and did NOT force the 3 onto the structural d=3.
+
+---
+
+### Entry 219 — DERIVING τ FROM THE STRONG-COUPLING GAP (operator: "derive the O(1) τ"): **τ ~ 0.345 is a genuine strong-coupling number; the cleanest reading is the CONJECTURE τ=1/d=1/3 → DE=(d/2)α⁴m_e (0.966×, ties to the structural 3), but it's ~5% low and NOT gap-derived (the coupling isn't fixed). τ is the irreducible residual — the DE value converges to a conjectured closed form (3/2)α⁴m_e**
+
+The DE value's last residual: τ = T_c/m_e (exact match needs τ = 0.345, T_c = 176 keV). Tried to derive it.
+
+**Unitarity** (the scale-free BEC-BCS crossover, the principled strong-coupling point): 3D unitary Fermi
+gas has T_c/E_F = 0.167 (universal, QMC). With E_F ~ m_e → τ ~ 0.167 → DE = 0.48× — **2× low.** Not it.
+
+**The conjecture τ = 1/d = 1/3** (the structural spatial dimension): gives DE = (9/2)α⁴m_e·(1/3) =
+**(d/2)α⁴m_e = (3/2)α⁴m_e = 2.17 meV (0.966×)** — the d² from α_c=3α partially cancels the 1/d, leaving
+the clean (d/2)α⁴m_e, and it ties τ to the model's REAL 3. BUT (ramp over d): τ=1/d is NOT an automatic
+gap identity — g*(τ=1/d)/g_c = 2.30 / 1.39 / 1.14 for d = 2/3/4 (not fixed), so hitting τ=1/d needs a
+d-specific coupling the gap doesn't derive. And it is ~5% low (τ_exact 0.345 vs 1/3 = 0.333). So
+**τ=1/d is a CONJECTURE / whisper — connects to the structural 3, cleans the formula — NOT a derivation.**
+
+**VERDICT.** τ is the irreducible residual: an O(1) strong-coupling number ~0.34, pinning the DE value to
+~5%. The whole arc converges to a **conjectured closed form ρ_Λ¼ = (d/2)α⁴m_e = (3/2)α⁴m_e** (everything
+fundamental: d=3, α, m_e), landing **0.966×**, with the ONE unproven assumption being τ=1/d (the
+strong-coupling ratio = inverse dimension). Closing it to the digit needs the medium's ACTUAL p-wave gap
+solution (its real coupling), which is microphysics not in hand. Method: tried unitarity (2× off) and
+τ=1/d (0.966×, conjecture); ramped the d-dependence to show τ=1/d isn't a gap identity; registered the
+whisper without claiming derivation. Honest floor of the DE-value marathon: **(d/2)α⁴m_e, 0.966×, τ=1/d
+the last conjecture.**
+
+---
+
+### Entry 220 — THE p-WAVE GAP, BUILT (operator: "build the medium's p-wave gap to pin τ"): **DEFINITIVE — the pairing CHANNEL factors out at T_c, so no pairing-structure refinement pins τ; it is set purely by the microscopic coupling magnitude g_p, which is not in the corpus. The DE-value floor stands: (d/2)α⁴m_e (0.966×), τ=1/d conjecture**
+
+Built the chiral p-wave A-phase gap equation to try to pin τ = T_c/m_e ~ 0.34.
+
+**The definitive structural fact.** At T_c (Δ→0) the p-wave angular form factor **factors out**:
+1 = g·⟨(3/2)sin²θ⟩·(radial), and ⟨(3/2)sin²θ⟩ = 1 (A-phase normalization). So the p-wave T_c equation
+is IDENTICAL to s-wave — **τ(g) is the same coupling-dependent function** (verified: τ=0.33 at g=2.77,
+same as the NJL build). The pairing SYMMETRY (s/p/f-wave, chiral, nodal) is IRRELEVANT to τ at the
+critical point.
+
+**What p-wave does change (a refinement, not a pin):** the T=0 gap ratio — A-phase (nodal) T_c/Δ₀ ~ 0.50
+vs s-wave BCS 0.567 — which touches the dyad-VEV consistency (hunt 218: v = Δ₀ = T_c/ratio) but NOT
+τ = T_c/m_e. And there is no scale-free p-wave fixed point near 0.34 (p-wave interactions aren't
+scale-invariant; no analogue of s-wave unitarity's 0.167).
+
+**VERDICT — the honest floor is reached.** τ cannot be pinned by ANY pairing-structure refinement (it
+factors out at T_c). It is set purely by the MAGNITUDE of the microscopic pairing coupling g_p — a
+strong-coupling O(1) that the pairing symmetry does not fix, and that the corpus does not specify. So the
+DE value = (9/2)α⁴m_e·τ bottoms out at the conjecture τ=1/d → **(d/2)α⁴m_e = 2.17 meV (0.966×)**, pinned
+to ~5%. Closing the digit needs the medium's microscopic coupling g_p — a model-building INPUT, not
+derivable from the existing structure. Building the p-wave gap CONFIRMED τ's irreducibility and located it
+precisely: it's g_p, not the pairing channel. Method: built the p-wave equation, proved the channel
+factors out at T_c, checked for a scale-free point (none), and did NOT manufacture a pin.
+
+**The DE-value marathon (entries 208–220) — closed to its honest floor:** KP dead → seam scaling derived
+(ρ_Λ¼=(9/2)α⁴T_c) → perturbative T_c ill-defined → gap equation well-defined → (Λ,g)=(m_e, supercritical)
+derived → factor-3 tension dissolved → τ=1/d conjecture → **p-wave build confirms τ is set by g_p alone**.
+Landing: **(d/2)α⁴m_e, 0.966×**, the last input being the medium's microscopic pairing coupling.
+
+---
+
+### Entry 221 — WRITING DOWN THE FUNDAMENTAL INTERACTION FOR g_p (operator: "write down the medium's fundamental interaction to derive g_p"): **DEFINITIVE — the model has NO strong sector; every coupling is weak (α, α_c, Majoron, ε-fit κ), so the strong g_p~2.8 the dyad condensation needs is sourced by NONE. τ is either a free parameter or new physics. This is the honest foundational floor**
+
+Wrote down every fundamental interaction the model contains and computed the pairing coupling g_p each
+supplies (the dyad needs g_p > g_c = 2 to condense at τ ~ 0.34):
+- EM (α): g ~ 4α/π² = 0.003 (and REPULSIVE between like charges);
+- dark α_c = 3α: g ~ 4α_c/π² = 0.009;
+- Majoron (σNN, g_Maj ~ 1.2×10⁻⁸): g ~ N g_Maj²/π² ~ 6×10⁻¹⁷;
+- the ε-fitted κ (the SAME coupling that sets varying-m_e, ε=1.24%): dyad-exchange g ~ 3×10⁻¹⁵.
+
+**Every coupling is WEAK — g ≪ g_c = 2 by 2–15 orders.** The strong g_p ~ 2.8 is supplied by NONE.
+
+**Across all three framings, τ is not derivable:**
+- **Composite** (NJL/BCS, what we built): needs strong g_p ~ 2.8; no model coupling supplies it → requires
+  a NEW strong pairing sector, absent from the corpus.
+- **Fundamental scalar** (tree potential): τ = (dyad bare mass)/m_e → a FREE parameter.
+- **Radiative CW** (the model's stated mechanism): ill-defined/marginal (entry 215); the ε-fit κ gives
+  g ~ 10⁻¹⁵, nowhere near condensation.
+
+**VERDICT — the honest foundation.** The model has no strong sector. So the medium's strong condensation —
+which the DE-value digit (τ, via g_p) rests on — is ASSUMED, not sourced by any specified interaction. The
+DE value stands at (d/2)α⁴m_e (0.966×, conjecture τ=1/d), and its digit rests on physics the model does NOT
+yet contain: either τ is a free parameter, or a new strong pairing sector must be written down. **This is
+not a computation waiting to run — it is a piece of theory that must be BUILT** (the medium's fundamental
+strong interaction). Locating this gap precisely is the real yield: the entire DE-value marathon
+(208–221) reduces the model's dark-energy ignorance to exactly one missing ingredient — the strong force
+that binds the medium — and shows every existing coupling is too weak to be it.
+
+**Scope:** this concerns the SEAM route's dyad condensation (the τ leg). It also flags that the dyad's
+condensation mechanism itself (weak-κ CW, ill-defined vs strong composite, unsourced) is unresolved at the
+foundation — an honest standing gap, logged in the ledger.
+
+---
+
+### Entry 222 — PROPOSING THE MEDIUM'S STRONG INTERACTION (operator: "LEZDUIT"): **a dark confining (dark-color) sector SOURCES g_p by transmutation, PRESERVES the clean (d/2)α⁴m_e form via a dark lepton degenerate with the electron, and predicts a cold dark sector + ~m_e dark-hadron DM — new physics, coherent, FALSIFIABLE**
+
+The hunt-221 gap: no existing coupling sources the strong g_p~2.8. LEZDUIT — proposed and tested the most
+motivated new interaction.
+
+**THE PROPOSAL:** the medium is a dark, asymptotically-free CONFINING sector (dark-color), pairing dark
+leptons at a confinement scale Λ_dark.
+
+**TEST 1 — sources g_p? YES.** A confining force has g(μ) → O(1) at Λ_dark by construction (dimensional
+transmutation, like QCD α_s(Λ)~1). So strong g_p ~ g_c (condensation onsetting just above critical) is
+NATURAL, not tuned. Fills the gap.
+
+**TEST 2 — keeps the m_e scale? YES, without electron compositeness.** A composite ELECTRON at Λ~m_e is
+excluded by ~7 orders (electron pointlike to ~1e-18 m; compositeness > ~10 TeV). RESOLUTION: the
+constituent is a DARK lepton degenerate with the electron (m_dark ~ m_e via the model's lepton-dark link,
+the dyad portal), NOT the electron. Λ_dark ~ m_dark ~ m_e is forced by degeneracy; the electron stays
+elementary. So ρ_Λ¼ = (9/2)α⁴·Λ_dark·τ = **(d/2)α⁴m_e is PRESERVED.**
+
+**TEST 3 — τ_dark ~ 0.34 natural? YES.** QCD-like ratios T_c/Λ ~ 0.1–0.5 (chiral ~0.15, deconfinement
+~0.3–0.7). τ_needed = 0.345 sits inside the band, right where 1/d=1/3 lives. Natural, not pinned.
+
+**THE PAYOFF — unification.** The dark-confining sector produces **dark hadrons at ~m_e scale = a DARK
+MATTER candidate.** So the strong sector invented to source the DE-value's g_p is plausibly the DARK
+MATTER itself — the same dark-confining medium carries both DM and the DE-value binding. Not an add-on; a
+unification.
+
+**FALSIFIABLE (the price of new physics):** dark d.o.f. at ~m_e are relativistic at BBN → the sector MUST
+be colder than the photon bath (T_dark/T_γ < ~0.5) to satisfy ΔN_eff < 0.3 — a sharp condition CMB-S4
+tests directly. Plus ~500 keV dark-hadron DM.
+
+**GRADE — coherent, falsifiable HYPOTHESIS (candidate), NOT a derivation.** It converts hunt-221's
+"unsourced strong coupling" into a concrete dark-sector proposal that sources g_p, preserves (d/2)α⁴m_e,
+and makes real predictions. Residuals: τ_dark (a strong-coupling ratio, ~natural range) and the m_dark~m_e
+degeneracy mechanism. This is the frontier: the DE value's foundation is now a NAMED, testable piece of
+new physics (a dark-confining lepton sector), not an unexplained gap. The full marathon (208–222): from
+"worst prediction in physics" to (d/2)α⁴m_e (0.966×) resting on a falsifiable dark-confining-medium proposal.
+
+---
+
+### Entry 223 — THE EPOCH-CONSERVATION IDEA, RAMPED (operator: "account for the expanding universe; go after f"): **the equal-regime pattern FAILS in the physical (1+z) measure; a striking z-only coincidence (z_eq≈√(z_onset·z_DE), 0.4%) is flagged unphysical; f (DE/DM) is the coincidence problem, not a constant**
+
+Operator's conservation idea (dark radiation → dark energy → dark matter) + "each regime equal, more spread
+out." Ramped rigorously (operator flagged the expanding-universe treatment as the crux — correct).
+
+**Epoch durations, PHYSICAL measure (e-folds, using 1+z since a=1/(1+z)):** radiation (dCDF onset z=4e7 →
+eq z=3424) = **9.37** e-folds; matter (eq → DE z=0.296) = **7.88**. NOT equal (16% gap). Forcing equal
+e-folds predicts DE domination in the FUTURE (a=3.4×) with ρ_DE¼=0.74 meV (**0.33×**) — FAILS. Same in
+proper time (5×10⁴ yr vs 10 Gyr) and energy decades (4.06 vs 2.57). The equal-regime pattern does NOT
+hold in any physical measure, and does NOT derive the DE value.
+
+**The z-only coincidence (flagged, unphysical):** in bare z (NOT 1+z), z_onset/z_eq = 11686 ≈ z_eq/z_DE =
+11581 (1%), i.e. z_eq ≈ √(z_onset·z_DE) to **0.4%**, and z_DE=z_eq²/z_onset gives ρ_DE¼=2.25 meV (1.00×).
+Striking, but it lives in z; at the DE transition z≠1+z, so its success is the low-z expanding-universe
+artifact. Recorded as a curiosity, NOT a derivation (physical 1+z measure lacks it).
+
+**f (the DE/DM partition) — the coincidence problem.** ρ_DE constant (w=−1), ρ_DM ~ a⁻³ → the ratio
+EVOLVES: f = ρ_DE/(ρ_DE+ρ_DM) ~ 10⁻³ at freeze (z=12), 0.72 now, → 1 future. So f(today)=0.72 is "why now,"
+not a derivable constant. Conservation fixes the conserved TOTAL, not the current split. "Derive f" =
+"solve the coincidence problem" (KP failed, hunt 209). No new closure.
+
+**Net (honest, with credit):** the conservation idea correctly RECONSTRUCTS the model's thermal-door
+sequence and captures a real invariant (the conserved total dark budget), but neither the epoch pattern
+(→ scale problem, broken by the expansion treatment) nor f (→ coincidence problem) derives the DE value.
+The operator's expanding-universe challenge was load-bearing: doing it right is exactly what breaks the
+clean derivation. Method: ramped every measure (e-folds/proper-time/energy), separated the z artifact from
+the physical 1+z, credited the 0.4% z-relation as a flagged curiosity, did not bank it.
+
+---
+
+### Entry 224 — THE DARK-CONFINING SECTOR FLESHED + THE TWO WALLS UNIFIED (operator: "flesh out #48; the f-wall is the DE-value wall; find a hammer"): **task #48 gets an explicit Lagrangian + a falsifiable cold-dark-sector ΔN_eff prediction; and the operator's insight lands — the SCALE wall and the COINCIDENCE wall are ONE object, the settling response function; the hammer is a sub-ohmic (self-tuning) response**
+
+**Task #48 — dark-confining sector, explicit.** L = −¼G² + Ψ̄_d(iD̸−m_d)Ψ_d + (λ/M*)(Ψ̄_dΨ_d)(ēe) + ½(∂a)².
+SU(N_d) dark color (confining, asymptotically free → g_p~O(1) at Λ_dark by transmutation); dark leptons
+Ψ_d with the chiral condensate ⟨Ψ̄_dΨ_d⟩ at Λ_dark~m_d; **m_d~m_e forced by the dyad portal** (the same
+operator as varying-m_e, tying the dark-lepton mass to the electron — so Λ_dark~m_e WITHOUT the electron
+being composite); **light a = the dCDF Goldstone** (the chiral condensate's Goldstone IS the model's photon).
+**Falsifiable prediction:** dark d.o.f. at ~m_e are relativistic at BBN → the sector must be COLD,
+**T_dark/T_γ < ~0.3–0.4** for ΔN_eff < 0.3 (CMB-S4 σ(N_eff)~0.03 tests it directly). + ~m_e dark-hadron DM.
+
+**The two walls are ONE (operator's insight, confirmed).** ρ_Λ¼ = 2.256 meV = ρ_m(z_DE=0.30)¼ exactly, so
+"why 2.25 meV" ≡ "why ρ_DE~ρ_m now" — one wall, two faces (scale ↔ timing).
+
+**The hammer.** Treat ρ_DE as the model's own thawing RESIDUAL (§4b/§7b, m_J~(1–3)H₀), not a fundamental
+constant. If the dCDF settling is a genuine SELF-TUNING ATTRACTOR (m_J(t)~H(t) at all times), then
+ρ_DE~ρ_crit(t) ALWAYS → the coincidence DISSOLVES (no special epoch; DE tracks Hubble because its dynamics
+are Hubble-paced), and the scale dissolves too (no fundamental value — just the current residual of a
+nearly-settled medium). **Both faces reduce to the SETTLING RESPONSE FUNCTION** (ohmic vs sub-ohmic,
+hunt 189): sub-ohmic (s~0.26, self-organized-critical) → self-tuning → BOTH walls gone; ohmic (s=1, what
+189 computed) → neither. So the operator's "same wall" is literally true — **one wall, and it is the
+response function.** The DE-value scale problem AND the coincidence problem are the SAME object: the
+dCDF's settling response exponent. This unifies the model's two hardest open problems into one sharp,
+physical question — is the settling response sub-ohmic (self-tuning)? — replacing two vague "walls" with
+one computable exponent. The next real move on DE is the response function itself (hunt 189's s), now
+known to carry BOTH the value and the coincidence.
+
+---
+
+### Entry 225 — CRACKING THE RESPONSE EXPONENT (operator: "is it sub-ohmic? didn't we determine sub-ohmic?"): **CORRECTION — we determined OHMIC (s=1, the 21-dex miss), NOT sub-ohmic; sub-ohmic was always the conditional wish. NEW: the superfluid phonon sits EXACTLY at the ohmic boundary z=d/2=3/2, and a CONSERVED density (z=2) tips it sub-ohmic — the operator's conservation law is the named tipping mechanism**
+
+**Record correction (important).** hunt 189 COMPUTED the fluctuation-dissipation response = **OHMIC (s=1)**,
+a 21-dex forward MISS. Sub-ohmic (s≈0.26) was the CONDITIONAL value that WOULD close it — never determined.
+So we determined the ohmic MISS; we did NOT determine sub-ohmic. (dcdf_superfluid §5 has this right; the
+recollection of "sub-ohmic determined" is wrong.)
+
+**Cracking it — s = d/z − 1 (d=3, linear coupling):** the ohmic/sub-ohmic boundary is **z = d/2 = 3/2**.
+- z=3/2 SUPERFLUID phonon (Model E/F) → s=1 (OHMIC, marginal — sits ON the boundary). ← why 189 got ohmic.
+- z=2 DIFFUSIVE conserved density (Model B-like) → s=0.5 (sub-ohmic).
+- z=2.38 → s=0.26 (the closing value — but not a clean universality class, so even 0.26 is uncertain).
+
+**The tipping mechanism = the conservation law (operator's own idea).** The phonon is marginally ohmic; ANY
+slowing past z=3/2 tips sub-ohmic. A CONSERVED density relaxes diffusively (z=2>3/2) → sub-ohmic. So the
+conserved dark abundance charge is exactly what would tip ohmic→sub-ohmic (→ self-tuning → both DE walls
+dissolve, hunt 224).
+
+**Honest verdict — NOT cracked to sub-ohmic; marginal + a named tip.** The DE-floor energy settling, as
+computed (phonon channel), is OHMIC (z=3/2, miss). The conserved-density channel (z=2) is sub-ohmic. The
+open crux: which channel governs the DE-floor's ENERGY settling — the phonon (ohmic, miss) or the conserved
+density (sub-ohmic, closes)? Natural reading: ENERGY settles via phonons (ohmic) while the conserved
+ABUNDANCE drains via the density mode (sub-ohmic) — which would put sub-ohmic in the DARK-MATTER channel,
+not the DE one. So sub-ohmic is NOT established for the DE floor; the response is marginal (superfluid on the
+z=3/2 boundary), and the tip is the conservation law — but whether it governs the DE channel is unresolved.
+The crack narrows to: which mode carries the DE-floor's energy dissipation.
+
+---
+
+### Entry 226 — THE dCDF→NEUTRINO ENERGY CHANNEL, COMPUTED (operator: "phonon vs density"): **DE floor (w=−1) = vacuum/phonon sector → OHMIC; conserved density (w=0) = DM drain → sub-ohmic. The sub-ohmic channel is DARK MATTER, not dark energy. The DE settling response is ohmic — the 21-dex miss STANDS, the self-tuning hammer does NOT apply to the floor**
+
+The crux (hunt 225): which dCDF mode carries the DE floor's energy dissipation — phonon (ohmic, miss) or
+conserved density (sub-ohmic, closes)? Resolved by the w-sector split.
+
+**The two sectors are physically distinct, separated by equation of state:**
+- **DE floor, w=−1** = the condensate VACUUM ENERGY (order-parameter/phonon sector). Excitations = gapless
+  Goldstone phonons, superfluid z=3/2 → **s=1 OHMIC** — exactly hunt 189's result. 189 had the RIGHT channel.
+- **DM drain, w=0** = the conserved NUMBER DENSITY (comoving N=n·a³=const → n~a⁻³ → w=0). Homogeneous mode
+  diffusive (Γ~Dk²→0, z=2) → **s=0.5 SUB-OHMIC.**
+
+**Decisive:** the sub-ohmic channel is the DARK-MATTER abundance sector (w=0), NOT the DE floor (w=−1).
+The DE floor's energy settles through the PHONONS = OHMIC. So:
+- The DE value's settling response is **OHMIC → the 21-dex miss (hunt 189) STANDS.** Sub-ohmic does not
+  rescue the DE value — it was misassigned to the wrong (DM) sector.
+- The self-tuning hammer (needs sub-ohmic, hunt 224) does NOT operate on the DE floor (ohmic) → the
+  coincidence is NOT dissolved by self-tuning. The two walls are one object (the response), but that
+  object is OHMIC for DE, so the walls STAND.
+- The DE value's working derivation remains the SEAM route (d/2)α⁴m_e (0.966×), NOT the settling residual.
+
+**Credit + reassignment (operator's conservation idea):** the conserved-density sub-ohmic channel IS real
+and self-tuning — but it governs the DM-abundance drain (w=0, clustering/drain), not the DE floor. The
+conservation intuition correctly located a sub-ohmic self-tuning sector; it's the dark-matter one. So the
+"hammer" works on the DM wall, not the DE wall. Net: the settling route to the DE VALUE is CLOSED (ohmic);
+sub-ohmic is filed to the DM sector where it belongs; the DE value stands on the seam route + the strong
+sector (task #48), with the coincidence problem intact (no self-tuning on the w=−1 floor).
+
+---
+
+### Entry 227 — TASK #48 FLESHED: THE DARK-CONFINING LAGRANGIAN + ΔN_eff, COMPLETE (operator: "flesh it out"): **explicit Lagrangian; cold dark sector NATURAL (T_dark/T_γ=0.33 by early decoupling); ΔN_eff(BBN)≈0.1–0.25 (primary test, D/He); ΔN_eff(CMB)≈0.027 (S4 edge); ~MeV warm dark-baryon DM. HONEST CORRECTION: the earlier "sharp CMB-S4 test" was too strong**
+
+**Lagrangian.** L = −¼G^a_{μν}G^{aμν} + Ψ̄_d(iD̸−m_d)Ψ_d + (λ/M*)(Ψ̄_dΨ_d)(ēe) + L_SM. SU(N_d) dark color
+(confining, Λ_dark~m_d~m_e via the dyad portal → sources g_p by transmutation). Confined spectrum: dark
+pions π_d (N_f²−1, mass ~m_e from the explicit m_d~m_e breaking), dark baryons B_d (~N_d·m_e, the DM), the
+U(1) phase Goldstone (massless).
+
+**Cold dark sector — NATURAL (not tuned).** Decoupling above the EW scale → T_dark/T_γ = (g_now/g_dec)^{1/3}
+= (3.91/106.75)^{1/3} = **0.33** by entropy dilution; T_dark/T_ν = 0.47.
+
+**ΔN_eff, computed with the dark masses (the key subtlety):**
+- **BBN (T~MeV):** dark pions ~m_e still relativistic → **ΔN_eff ≈ 0.10 (N_f=2) to 0.25 (N_f=3).**
+  BBN-constrained (< ~0.4), consistent. **PRIMARY test = primordial D/He.**
+- **CMB (T~0.26 eV):** dark pions NON-relativistic → only the massless U(1) Goldstone survives →
+  **ΔN_eff ≈ 0.027**, at the CMB-S4 σ(0.03) EDGE (not a clean detection).
+- **DM = dark baryons ~N_d·m_e ≈ 1.5–2.5 MeV** — warm-ish; small-scale-structure test.
+
+**HONEST CORRECTION (audience law):** hunt 222/224 and cosmological_constant §2c said "cold dark sector,
+sharply CMB-S4-testable." Too strong — the massive dark states (most of the ΔN_eff) FADE by the CMB, so
+CMB-S4 sees only the marginal Goldstone (~0.027). The PRIMARY test is BBN (ΔN_eff~0.1–0.25), not CMB-S4.
+Corrected below.
+
+**Net:** task #48's dark-confining proposal now has an explicit Lagrangian, a natural cold-sector origin,
+and a falsifiable three-front signature — **ΔN_eff(BBN)~0.1–0.25 (D/He, primary), ΔN_eff(CMB)~0.027 (S4
+edge), ~MeV warm dark-baryon DM (small-scale structure).** It sources g_p (→ the DE digit) AND is the DM
+sector (unification). Still a candidate (new physics), now with sharp near-term tests, primarily BBN.

@@ -1,4 +1,4 @@
-> **STATUS: RETIRED (2026-07).** This is the legacy scalar-tensor formulation (the pre-dyad era). The screening-mechanism family it belongs to was closed by internal review (v1–v5); the production model is the dyad + dCDF in CLASS (see PRTOE_THREE_EQUATIONS.md). Kept for the record. Ancestry: [BransDicke1961], [Horndeski1974], [LangloisNoui2016], [ColemanWeinberg1973] — see BIBLIOGRAPHY.md.
+> **STATUS: RETIRED (2026-07).** This is the legacy scalar-tensor formulation (the pre-dyad era). The screening-mechanism family it belongs to was closed during internal validation (v1–v5); the production model is the dyad + dCDF in CLASS (see PRTOE_THREE_EQUATIONS.md). Kept for the record. Ancestry: [BransDicke1961], [Horndeski1974], [LangloisNoui2016], [ColemanWeinberg1973] — see BIBLIOGRAPHY.md.
 
 # PRTOE Second-Order Action Specification
 
@@ -200,8 +200,8 @@ $$\text{Drag Coefficient} = \frac{F_{\phi}}{2 F} \cdot \frac{k^2}{1 + w_m}$$
 
 Expanding the action to quadratic order in perturbations $\{ \Psi, \Phi, \delta\phi \}$ yields:
 
-$$S^{(2)} = \int d\tau d^3x \, a^3 \Biggl\{\n    \frac{1}{2}\mathcal{K}(\delta\phi')^2 - \frac{1}{2}\mathcal{G} (\partial_i \delta\phi)^2 - \frac{1}{2}\mathcal{M} (\delta\phi)^2 \
-    + \mathcal{B}_1 \Psi' \delta\phi + \mathcal{B}_2 \Phi' \delta\phi + \mathcal{C}_1 \Psi \delta\phi + \mathcal{C}_2 \Phi \delta\phi + \mathcal{D} \Psi \Phi \
+$$S^{(2)} = \int d\tau d^3x \, a^3 \Biggl\{\n \frac{1}{2}\mathcal{K}(\delta\phi')^2 - \frac{1}{2}\mathcal{G} (\partial_i \delta\phi)^2 - \frac{1}{2}\mathcal{M} (\delta\phi)^2 \
+ + \mathcal{B}_1 \Psi' \delta\phi + \mathcal{B}_2 \Phi' \delta\phi + \mathcal{C}_1 \Psi \delta\phi + \mathcal{C}_2 \Phi \delta\phi + \mathcal{D} \Psi \Phi \
 \Biggr\}$$ 
 
 ### 3.2 Explicit Coefficients
@@ -303,19 +303,19 @@ In CLASS, the Einstein system is solved using:
 **Implementation of δF Terms:**
 
 1. **In `perturbations_einstein()` (lines 6619-6648):**
-   - Compute $F, F_{\phi}, F_{\phi\phi}, F_{\phi\phi\phi}$ from background
-   - Compute $\delta F, \delta F', \delta F''$ from $\delta\phi, \delta\phi'$
-   - Add δF terms to Einstein 00, 0i, and ij Trace equations
+ - Compute $F, F_{\phi}, F_{\phi\phi}, F_{\phi\phi\phi}$ from background
+ - Compute $\delta F, \delta F', \delta F''$ from $\delta\phi, \delta\phi'$
+ - Add δF terms to Einstein 00, 0i, and ij Trace equations
 
 2. **In `perturbations_total_stress_energy()` (lines 7392-7424):**
-   - Compute δF terms for anisotropic stress
-   - Add to `rho_plus_p_shear`: $\delta\Pi = (a^2 / F) (\delta F'' + 2 \mathcal{H} \delta F' - (k^2 / 3) \delta F)$
-   - This sources the slip equation through the total anisotropic stress
+ - Compute δF terms for anisotropic stress
+ - Add to `rho_plus_p_shear`: $\delta\Pi = (a^2 / F) (\delta F'' + 2 \mathcal{H} \delta F' - (k^2 / 3) \delta F)$
+ - This sources the slip equation through the total anisotropic stress
 
 3. **In `perturbations_derivs()` (lines 9638-9705):**
-   - Implement full perturbed Klein-Gordon equation
-   - Compute $\delta R$ from metric perturbations
-   - Include all source terms from spec
+ - Implement full perturbed Klein-Gordon equation
+ - Compute $\delta R$ from metric perturbations
+ - Include all source terms from spec
 
 ### 5.3 Initial Conditions
 
@@ -506,24 +506,24 @@ The screening function $S(\phi) = \frac{\phi^2}{1 + \zeta \phi^2}$ provides a **
 ### 9.4 What PRTOE Adds to the Landscape
 
 1. **Phenomenological Flexibility:**
-   - Activation function allows **cosmological phase transitions**
-   - Screening function enables **environment-dependent coupling**
-   - Both features **not present** in standard Horndeski/DHOST
+ - Activation function allows **cosmological phase transitions**
+ - Screening function enables **environment-dependent coupling**
+ - Both features **not present** in standard Horndeski/DHOST
 
 2. **Numerical Robustness:**
-   - All stability conditions **monitored during runs**
-   - **No ghost instabilities** by construction
-   - **Gradient stability** guaranteed for physical parameters
+ - All stability conditions **monitored during runs**
+ - **No ghost instabilities** by construction
+ - **Gradient stability** guaranteed for physical parameters
 
 3. **Observational Viability:**
-   - $c_T^2 = 1$ **automatically satisfied**
-   - **GW170817 constraints** built-in
-   - **ΛCDM recovery** in null limit
+ - $c_T^2 = 1$ **automatically satisfied**
+ - **GW170817 constraints** built-in
+ - **ΛCDM recovery** in null limit
 
 4. **Theoretical Consistency:**
-   - **Derived from action** (not phenomenological ansatz)
-   - **Bianchi identities** satisfied by construction
-   - **All perturbation equations** explicitly derived
+ - **Derived from action** (not phenomenological ansatz)
+ - **Bianchi identities** satisfied by construction
+ - **All perturbation equations** explicitly derived
 
 ### 9.5 Recommendations for Publication
 

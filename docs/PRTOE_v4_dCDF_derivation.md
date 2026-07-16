@@ -25,24 +25,24 @@ Three real bugs found and fixed during first build (not just typos —
 genuine physics/units errors caught by actually running the code, exactly
 the kind of thing hand-derivation can't catch):
 1. **Budget double-fill**: forcing Ω_Λ's shooting flag to "already set" only
-   blocked *that* auto-fill branch; Ω_fld's `else if` then filled the
-   residual instead. Fix: wrap the whole λ/fld/scf auto-fill chain in
-   `if (pba->use_dcdf==_FALSE_)`, not just the λ branch.
+ blocked *that* auto-fill branch; Ω_fld's `else if` then filled the
+ residual instead. Fix: wrap the whole λ/fld/scf auto-fill chain in
+ `if (pba->use_dcdf==_FALSE_)`, not just the λ branch.
 2. **Units mismatch**: `dcdf_rho_inf` is documented "in H0² units" but was
-   never actually multiplied by H0² before being compared against
-   `rho_dcdf` (which *is* in absolute units via the `Ω_ini·H0²·a⁻³` initial
-   condition). Since H0²~5×10⁻⁸ is tiny, the floor ended up enormous
-   relative to everything else and the fluid froze at the wrong value
-   immediately, swamping the whole universe (age came out as 0.024 Gyr,
-   should be ~14). Fixed by scaling `dcdf_rho_inf *= H0²` at read time, and
-   correspondingly un-scaling it in the shooting xguess formula (which
-   works in dimensionless Ω units).
+ never actually multiplied by H0² before being compared against
+ `rho_dcdf` (which *is* in absolute units via the `Ω_ini·H0²·a⁻³` initial
+ condition). Since H0²~5×10⁻⁸ is tiny, the floor ended up enormous
+ relative to everything else and the fluid froze at the wrong value
+ immediately, swamping the whole universe (age came out as 0.024 Gyr,
+ should be ~14). Fixed by scaling `dcdf_rho_inf *= H0²` at read time, and
+ correspondingly un-scaling it in the shooting xguess formula (which
+ works in dimensionless Ω units).
 3. **Synchronous gauge needs nonzero CDM**: forcing `Omega0_cdm` to a literal
-   0 breaks CLASS's synchronous-gauge assumption (comoving slicing is
-   *defined* relative to the CDM rest frame) — fatal error in
-   `perturbations_init`. Fixed by using CLASS's own existing
-   `ppr->Omega0_cdm_min_synchronous` floor (1×10⁻¹⁰, physically negligible)
-   instead of an exact zero.
+ 0 breaks CLASS's synchronous-gauge assumption (comoving slicing is
+ *defined* relative to the CDM rest frame) — fatal error in
+ `perturbations_init`. Fixed by using CLASS's own existing
+ `ppr->Omega0_cdm_min_synchronous` floor (1×10⁻¹⁰, physically negligible)
+ instead of an exact zero.
 
 Also confirmed numerically: for β→0 the continuity equation with
 `w=-e⁻ˢ` integrates in closed form to `ρ(a) = ρ_∞ + K·a⁻³`, giving
@@ -204,34 +204,34 @@ functions plugged into the existing fluid equations.
 ## 5. Stability / degrees of freedom
 
 - **Gravity:** unmodified GR. No galileon ghost/gradient conditions, no
-  Vainshtein screening, no G_eff/PPN bookkeeping — the entire "protective
-  machinery" category from v1–v3 does not apply here.
+ Vainshtein screening, no G_eff/PPN bookkeeping — the entire "protective
+ machinery" category from v1–v3 does not apply here.
 - **DOF:** single scalar, 2 phase-space DOF (φ, φ̇), nothing exotic.
 - **No-ghost:** $P_X + 2X P_{XX} > 0$ (equivalently, $\partial \rho / \partial X > 0$ for the k-essence branch used here).
 - **No-gradient:** $c_s^2\ge0$ — satisfied identically by construction for
-  eq. (10), any $\beta>0$. This is a structural improvement over v3, where
-  the galileon no-ghost/no-gradient conditions had to be checked numerically
-  at every background point and had a narrow compatibility window.
+ eq. (10), any $\beta>0$. This is a structural improvement over v3, where
+ the galileon no-ghost/no-gradient conditions had to be checked numerically
+ at every background point and had a narrow compatibility window.
 
 ## 6. Falsifiability tests — now well-posed, not yet run
 
 1. **r_s / H₀.** The transition (eq. 9–10) is not automatically near
-   recombination — GCG-type transitions naturally sit at $z\sim0$ (to match
-   today's $\Omega_{DE}$). To get *any* r_s effect, $\rho_\infty$ (equivalently
-   the transition redshift $z_t$) must be deliberately placed near
-   matter-radiation equality. This is a design choice requiring
-   $\Omega_m(z_{eq})$ to stay consistent with BBN/CMB once placed there — not
-   automatic, needs to be checked once implemented.
+ recombination — GCG-type transitions naturally sit at $z\sim0$ (to match
+ today's $\Omega_{DE}$). To get *any* r_s effect, $\rho_\infty$ (equivalently
+ the transition redshift $z_t$) must be deliberately placed near
+ matter-radiation equality. This is a design choice requiring
+ $\Omega_m(z_{eq})$ to stay consistent with BBN/CMB once placed there — not
+ automatic, needs to be checked once implemented.
 2. **σ8.** Controlled by $c_s^2(\bar\rho_d(a))$ evaluated during matter
-   domination — needs to be small enough there to avoid Sandvik-type power
-   suppression, while nonzero enough at today's mean density to differ from
-   ΛCDM. β is the knob; §3.2's peak-$c_s^2\approx0.74\beta$ estimate is the
-   starting point, to be confirmed against an actual computed $P(k)$.
+ domination — needs to be small enough there to avoid Sandvik-type power
+ suppression, while nonzero enough at today's mean density to differ from
+ ΛCDM. β is the knob; §3.2's peak-$c_s^2\approx0.74\beta$ estimate is the
+ starting point, to be confirmed against an actual computed $P(k)$.
 3. **Halo profile.** Same $c_s^2(\rho)$ evaluated at galactic/halo densities
-   (≫ cosmological mean). A residual nonzero $c_s^2$ there predicts a
-   **cored** profile rather than an NFW cusp — potentially a feature (core-cusp
-   problem) rather than a bug, *if* the residual sound speed lands at kpc
-   scale rather than Mpc scale. Not yet checked.
+ (≫ cosmological mean). A residual nonzero $c_s^2$ there predicts a
+ **cored** profile rather than an NFW cusp — potentially a feature (core-cusp
+ problem) rather than a bug, *if* the residual sound speed lands at kpc
+ scale rather than Mpc scale. Not yet checked.
 
 ## 7. Parameter dictionary (for the code)
 
@@ -246,19 +246,19 @@ functions plugged into the existing fluid equations.
 ## 8. Open theory debts ([DERIVE] tags, honest as of implementation start)
 
 - **[DERIVE]** §3.2's family was constructed to satisfy the local
-  no-gradient condition and match the two asymptotic limits; it was *not*
-  derived top-down from a specific $P(X)$ via the reconstruction procedure
-  referenced in §1. The general k-essence "designer" reconstruction
-  (inverting $a^3P_X\sqrt{2X}=\text{const}$ against a target $\rho(a)$) is
-  known to exist for any smooth target — it has not been carried out
-  explicitly for eq. (9). Doing so is not required to run the background +
-  perturbation code (§4 only needs $w(\rho)$, $c_s^2(\rho)$), but is required
-  before claiming a complete UV picture.
+ no-gradient condition and match the two asymptotic limits; it was *not*
+ derived top-down from a specific $P(X)$ via the reconstruction procedure
+ referenced in §1. The general k-essence "designer" reconstruction
+ (inverting $a^3P_X\sqrt{2X}=\text{const}$ against a target $\rho(a)$) is
+ known to exist for any smooth target — it has not been carried out
+ explicitly for eq. (9). Doing so is not required to run the background +
+ perturbation code (§4 only needs $w(\rho)$, $c_s^2(\rho)$), but is required
+ before claiming a complete UV picture.
 - **[DERIVE]** The peak-$c_s^2\approx0.74\beta$ estimate (§3.2) is a
-  proxy for the real observable (suppressed matter power spectrum). Needs a
-  computed $P(k)$ comparison, not just the peak value.
+ proxy for the real observable (suppressed matter power spectrum). Needs a
+ computed $P(k)$ comparison, not just the peak value.
 - **[DERIVE]** Transition redshift placement (test 1 above) has not been
-  checked against BBN $N_{eff}$/matter-radiation-equality bounds.
+ checked against BBN $N_{eff}$/matter-radiation-equality bounds.
 
 ## 9. v4.1 — Split the Lagrangian, not the fluid
 
@@ -409,20 +409,20 @@ that route.
 ### 9.7 Verdict
 
 - **H₀ / r_s:** unchanged from v4.0 — still no relief, same mechanism-inverted
-  result Gemini found, since $\rho_{\rm kin}\to$ dust at high-$z$ regardless of
-  the ansatz (§9.2).
+ result Gemini found, since $\rho_{\rm kin}\to$ dust at high-$z$ regardless of
+ the ansatz (§9.2).
 - **σ8:** genuinely freed from the GCG no-go coupling (§9.3) — $w_1,\Delta$ are
-  two independent knobs with no fixed-point tax, and the single-exponential
-  tail (§9.6) is gentler than v4.0's double-exponential. Structurally *better*
-  machinery, though it still can't do more than v4.0 could (suppress growth by
-  some amount at the cost of a cliff — the freedom is in how the cliff is
-  shaped, not in avoiding the cliff).
+ two independent knobs with no fixed-point tax, and the single-exponential
+ tail (§9.6) is gentler than v4.0's double-exponential. Structurally *better*
+ machinery, though it still can't do more than v4.0 could (suppress growth by
+ some amount at the cost of a cliff — the freedom is in how the cliff is
+ shaped, not in avoiding the cliff).
 - **Halo profile:** still closed, now for a sharper, more general reason than
-  v4.0's "6 orders of magnitude, specific to the double-exponential" — *any*
-  monotonic single-crossover $w(\rho)$ has this property, independent of the
-  particular shape. This generalizes past v4.1 too: it applies to every dCDF
-  variant built as "dust at high $\rho$, something else at low $\rho$" via one
-  smooth crossover.
+ v4.0's "6 orders of magnitude, specific to the double-exponential" — *any*
+ monotonic single-crossover $w(\rho)$ has this property, independent of the
+ particular shape. This generalizes past v4.1 too: it applies to every dCDF
+ variant built as "dust at high $\rho$, something else at low $\rho$" via one
+ smooth crossover.
 
 ### 9.8 Parameter dictionary addendum
 

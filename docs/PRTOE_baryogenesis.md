@@ -13,7 +13,7 @@ Standard Model's CP violation is orders too small; every mechanism needs new phy
 
 ## 1. What the model has KILLED (recorded, production-grade)
 Thermal leptogenesis on the model's own η: the surface is EMPTY — ×40–1000 under target,
-two independent methods (internal review; the failures ledger). The model cannot buy its baryons
+two independent methods (see the failures ledger). The model cannot buy its baryons
 thermally. This death forced the honest route:
 
 ## 2. The AD-direct route (charge = abundance)
@@ -26,12 +26,12 @@ template): $I_L \propto \mu \sin\Delta\theta$.
 $$\eta = n \times \mathcal{T}$$
 — the winding integer times ONE transmission number. Consequences already in force:
 - **The shared-integer cross-kill**: the CMB comb's tooth count (P-029) and the baryon
-  density read the SAME n. Once the comb measures n, η/n is pure mechanism — if the
-  computed transmission then misses, the route dies with no retreat.
+ density read the SAME n. Once the comb measures n, η/n is pure mechanism — if the
+ computed transmission then misses, the route dies with no retreat.
 - **The frozen-era crux** (honest, standing): sphalerons die at T ~ 130 GeV; the
-  condensate amplitude is frozen until T ~ 9.4 keV. The junction must conduct while
-  frozen (phase-gradient transfer without rolling) — the crux the transmission integral
-  must resolve or the route fails.
+ condensate amplitude is frozen until T ~ 9.4 keV. The junction must conduct while
+ frozen (phase-gradient transfer without rolling) — the crux the transmission integral
+ must resolve or the route fails.
 
 ## 4. What confirmation looks like
 The transmission integral computed → η/n matched → the comb's n read off the CMB —
@@ -48,4 +48,4 @@ routes η through the junction transfer this file computes rather than through a
 
 ## Sources
 [AffleckDine1985], [FukugitaYanagida1986] (the killed baseline), [Josephson1962],
-internal: Card 4, t358b, internal review, the entry 9. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+internal: Card 4, t358b, the entry 9. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

@@ -338,16 +338,16 @@ abundance must equal the OBSERVED Ω_DM (fixed, non-negotiable),
 parameters (H_inf, displacement, tilt). A determined system. The
 three possible summits, pre-registered so none can be quietly
 skipped:
-  (i) ε PINNED — a definite value forced by two independent boundary
-      conditions: the model's first genuinely forecast number; the
-      collision (P-2026-005 vs R1.6) decided by derivation.
-  (ii) ε BOUNDED to a range — the collision's SIDE forecast even
-      without a sharp value.
-  (iii) NO consistent genesis parameters exist — the MINIMAL genesis
-      is over-constrained to inconsistency: a real wound, reported
-      with the same ink as a triumph if that is where the integral
-      lands. (Reviewer's flag, adopted: outcomes (i)/(ii) may not be
-      reported if the truth is (iii).)
+ (i) ε PINNED — a definite value forced by two independent boundary
+ conditions: the model's first genuinely forecast number; the
+ collision (P-2026-005 vs R1.6) decided by derivation.
+ (ii) ε BOUNDED to a range — the collision's SIDE forecast even
+ without a sharp value.
+ (iii) NO consistent genesis parameters exist — the MINIMAL genesis
+ is over-constrained to inconsistency: a real wound, reported
+ with the same ink as a triumph if that is where the integral
+ lands. (Reviewer's flag, adopted: outcomes (i)/(ii) may not be
+ reported if the truth is (iii).)
 The climb is simultaneously a measurement and a pass/fail. Status:
 queued as the program's next major work, fresh-session scale.
 
@@ -417,8 +417,8 @@ DRAWS from a computable distribution. The pre-registered summit menu
 (i) pinned / (ii) bounded / (iii) inconsistent was INCOMPLETE — the
 mountain's actual summit is a fourth outcome nobody registered:
 
-  **(iv) ε DISTRIBUTIONAL — the minimal genesis yields P(ε), and the
-  collision (ANN-2026-010) is not decided but PRICED.**
+ **(iv) ε DISTRIBUTIONAL — the minimal genesis yields P(ε), and the
+ collision (ANN-2026-010) is not decided but PRICED.**
 
 Booked as a pre-registration lesson with the same ink: the menu we
 swore to was wrong, not because a summit was skipped but because the
@@ -430,11 +430,11 @@ fundamental domain [0.05, π/4−0.05] (Z₄ tilt symmetry), h = 300, three
 tilt strengths. Per-universe output: f_rot from the a³-weighted
 late-time charge fraction; f_amp = 1 − f_rot; ε = √f_amp.
 
-  r_t = 0.3: f_rot median 0.39, range [0.02, 0.93] | f_amp median 0.61
-  r_t = 0.6: f_rot median 0.45, range [0.07, 0.93] | f_amp median 0.55
-  r_t = 0.9: f_rot median 0.33, range [0.08, 0.98] | f_amp median 0.67
+ r_t = 0.3: f_rot median 0.39, range [0.02, 0.93] | f_amp median 0.61
+ r_t = 0.6: f_rot median 0.45, range [0.07, 0.93] | f_amp median 0.55
+ r_t = 0.9: f_rot median 0.33, range [0.08, 0.98] | f_amp median 0.67
 
-  **P(f_amp > 0.2) = 86% — AT ALL THREE TILT STRENGTHS.**
+ **P(f_amp > 0.2) = 86% — AT ALL THREE TILT STRENGTHS.**
 
 **The tilt-universality is the summit's cleanest fact:** the chaos
 ERASES the tilt dial. r_t was the one genesis parameter the abundance
@@ -446,11 +446,11 @@ constrained input.
 **THE PRICED COLLISION (ANN-2026-010, hardened form):** under the
 minimal genesis, the universe's birth was a dice roll over θ₀, and:
 - P(f_amp > 0.2) ≈ 86% — R1.6's KR-type PTA channel FIRES; P-2026-005's
-  band-silence is violated at the drawn f_amp (median draw ~0.6, i.e.
-  a medium that is MORE librator than rotor, ε_median ≈ 0.78);
+ band-silence is violated at the drawn f_amp (median draw ~0.6, i.e.
+ a medium that is MORE librator than rotor, ε_median ≈ 0.78);
 - P(f_amp ≤ 0.2) ≈ 14% — the quiet branch; P-2026-005 survives.
-The model now states its bet in odds: **roughly 6:1 that we live in a
-ringing universe and the pulsar arrays eventually hear the medium.**
+The model forecasts **P(f_amp > 0.2) ≈ 86%** — a ringing universe whose
+medium the pulsar timing arrays would eventually detect.
 A PTA detection consistent with the KR template is an 86%-branch draw;
 a definitive band-silence at the required sensitivity kills the 86%
 branch and leaves the model alive only on a 14% draw — legal but
@@ -461,22 +461,22 @@ established, the breathing fraction was always the unmeasured half.
 
 **Caveats, stamped with the numbers:**
 (i) 14 angles per tilt: 86% = 12/14, binomial ±~9% — the odds are
-    "roughly 6:1," not "86.000%"; a denser scan sharpens cheaply.
+ "roughly 6:1," not "86.000%"; a denser scan sharpens cheaply.
 (ii) Single hierarchy for the dice (h = 300). Individual trajectories
-    differ across h (chaos guarantees it); the claim that the
-    DISTRIBUTION is h-stable is checked only coarsely (h = 100/1000
-    spot runs show the same qualitative spread) — a full P(f_amp | h)
-    convergence scan is owed before the odds graduate from
-    order-of-magnitude to quoted-with-error-bars.
+ differ across h (chaos guarantees it); the claim that the
+ DISTRIBUTION is h-stable is checked only coarsely (h = 100/1000
+ spot runs show the same qualitative spread) — a full P(f_amp | h)
+ convergence scan is owed before the odds graduate from
+ order-of-magnitude to quoted-with-error-bars.
 (iii) f_rot normalization remains order-unity grade (E4 caveat (i)
-    survives); the frozen-release time t₀ is a modeling choice —
-    varying it is part of the owed hardening.
+ survives); the frozen-release time t₀ is a modeling choice —
+ varying it is part of the owed hardening.
 (iv) Non-minimal escapes (pre-rotation during inflation, extra tilt
-    dimensions) unchanged from E4: extensions with bills.
+ dimensions) unchanged from E4: extensions with bills.
 (v) The threshold 0.2 in P(f_amp > 0.2) is the approximate near-future
-    PTA reach for the light end (Ψ ∝ f_amp; f_amp = 0.45 gave
-    Ψ ~ 4.5×10⁻¹⁶ in E4's arithmetic) — the threshold inherits that
-    estimate's order-unity grade.
+ PTA reach for the light end (Ψ ∝ f_amp; f_amp = 0.45 gave
+ Ψ ~ 4.5×10⁻¹⁶ in E4's arithmetic) — the threshold inherits that
+ estimate's order-unity grade.
 
 **What the mountain returned, in one sentence:** the minimal genesis
 neither pins nor bounds ε — it ROLLS it, the roll is tilt-independent,
@@ -543,10 +543,10 @@ E3.5a) and percent-level at most.
 **THE H-SCAN (same night, ~2:15am) — the invariant-measure
 precondition MET at the runnable level:** P(f_amp) across 1.5 decades
 of hierarchy (r_t = 0.6, 14 angles each):
-    h = 100:  median 0.56, range [0.14, 0.90], P(f_amp>0.2) = 86%
-    h = 300:  median 0.55, range [0.07, 0.93], P(f_amp>0.2) = 86%
-    h = 1000: median 0.68, range [0.08, 0.86], P(f_amp>0.2) = 86%
-    h = 3000: median 0.63, range [0.32, 0.86], P(f_amp>0.2) = 100%
+ h = 100: median 0.56, range [0.14, 0.90], P(f_amp>0.2) = 86%
+ h = 300: median 0.55, range [0.07, 0.93], P(f_amp>0.2) = 86%
+ h = 1000: median 0.68, range [0.08, 0.86], P(f_amp>0.2) = 86%
+ h = 3000: median 0.63, range [0.32, 0.86], P(f_amp>0.2) = 100%
 The exceedance is h-STABLE at ≥ 86%; medians 0.55–0.68. And the trend
 at the top is the striking part: at h = 3000 the FLOOR rises to 0.32 —
 no draw below f_amp = 0.32, all 14 universes ring. Since the physical
@@ -694,29 +694,29 @@ beat = 1 is at current reach for m = 10⁻²²; Ψ ∝ 1/m²; near-future
 arrays taken at reach ×10 (THE one soft input; ×5/×30 bracket below).
 
 **The detection table (beat_needed = 0.1·(m/10⁻²²)²; ergodic measure):**
-    m = 1.0×10⁻²²: P_detect = 99.4%     m = 2.5×10⁻²²: 75.7%
-    m = 1.5×10⁻²²: 97.0%                m = 3.0×10⁻²²: 41.0%
-    m = 2.0×10⁻²²: 90.5%                m ≥ 3.2×10⁻²²: 0%
+ m = 1.0×10⁻²²: P_detect = 99.4% m = 2.5×10⁻²²: 75.7%
+ m = 1.5×10⁻²²: 97.0% m = 3.0×10⁻²²: 41.0%
+ m = 2.0×10⁻²²: 90.5% m ≥ 3.2×10⁻²²: 0%
 **Marginal over a log-flat prior on the booked band [10⁻²², 2×10⁻²¹]
 (no fitted m-posterior exists — the configs carry no mass parameter;
 the band is a viability window, flagged):**
-    P(near-future PTA detection | model) ≈ 33% (21% at reach ×5,
-    51% at reach ×30).
+ P(near-future PTA detection | model) ≈ 33% (21% at reach ×5,
+ 51% at reach ×30).
 
 **THE RESTRUCTURED COLLISION:** three distinct statements that the
 old single number conflated —
 (1) P(the medium PHYSICALLY rings in-band, beat > 0.2) = 97.6%
-    (ergodic) — P-2026-005's survival is priced at **2.4%**, down
-    from 14%: the beat correction makes physical silence require
-    f_rot > 0.98, and the ergodic measure nearly forbids it.
+ (ergodic) — P-2026-005's survival is priced at **2.4%**, down
+ from 14%: the beat correction makes physical silence require
+ f_rot > 0.98, and the ergodic measure nearly forbids it.
 (2) P(near-future instruments HEAR it) ≈ 33% — an m-question, not an
-    ε-question. An observed PTA silence therefore mostly means "m is
-    too heavy to hear" (~63 points of the ~67% silence probability),
-    NOT "the medium is silent" (~2-4 points). Silence-as-observed
-    barely tests P-2026-005.
+ ε-question. An observed PTA silence therefore mostly means "m is
+ too heavy to hear" (~63 points of the ~67% silence probability),
+ NOT "the medium is silent" (~2-4 points). Silence-as-observed
+ barely tests P-2026-005.
 (3) The clean referee at any m is the GRANULE channel (E7): the
-    p² + q² suppression reads the dice across the whole band —
-    sim-owed before its threshold is quotable.
+ p² + q² suppression reads the dice across the whole band —
+ sim-owed before its threshold is quotable.
 **Net, stated once:** the universe almost certainly rings; whether
 we hear it this decade is a coin-flip weighted by an unfitted mass;
 the m-band edges themselves are queued for morning verification.
@@ -771,10 +771,10 @@ hypothesis and the microcanonical ensemble.)
 **THE TEST (same hour):** microcanonical P(f_rot) on the H = p²/2+r⁴
 shell, pushed through the adiabatic transition (J_r, L conserved;
 f_rot = L/(L + 2J_r) in the quadratic era):
-    prediction: median f_rot = 0.53, P(f_amp>0.2) = 77.7%,
-                full range [0,1], P(f_amp>0.02) = 97.6%
-    the dice:   median 0.33-0.45 (dense 0.43), P(f_amp>0.2) = 86±6.5%,
-                range [0.02,0.98], P(f_amp>0.02) = 41/42 = 97.6%
+ prediction: median f_rot = 0.53, P(f_amp>0.2) = 77.7%,
+ full range [0,1], P(f_amp>0.02) = 97.6%
+ the dice: median 0.33-0.45 (dense 0.43), P(f_amp>0.2) = 86±6.5%,
+ range [0.02,0.98], P(f_amp>0.02) = 41/42 = 97.6%
 **Verdict: APPROXIMATE MATCH at first shot** — shape, range, and the
 0.02-exceedance dead on; the exceedance within ~1.3σ; the dice run
 slightly MORE librating than pure ergodicity (median 0.43 vs 0.53).
@@ -806,8 +806,8 @@ rest — a pure librator). Finite mixing retains memory of that corner,
 biasing toward libration — and the memory should fade FASTER at
 stronger tilt (faster stirring). MEASURED (h = 300, n = 110 per
 tilt, ±3.2–3.7%):
-    gap vs ergodic at r_t = 0.3: +9.6%   (P = 87.3%)
-    gap vs ergodic at r_t = 0.9: +3.2%   (P = 80.9%)
+ gap vs ergodic at r_t = 0.3: +9.6% (P = 87.3%)
+ gap vs ergodic at r_t = 0.9: +3.2% (P = 80.9%)
 The gap ANTI-TRACKS the tilt — the third branch of the reviewer's
 fork, cleaner than either registered option: not flat (mixing rate is
 visible), not tilt-biased freeze-out (which predicted the opposite
@@ -828,10 +828,10 @@ is now doubly suspect (3% odds under ergodic).
 
 **E8b (~6am) — THE MONOTONIC-SHRINK TRIAL, ROWS AS THEY LAND (the
 falsifier under strain, reported with the ink promised):**
-    gap vs ergodic (thr 0.1/0.2/0.3/0.4), n = 50, dual-integrator:
-    h=100:  +3.4 / +6.2 / +10.6 / +16.9
-    h=300:  −2.6 / +4.2 /  +8.6 / +14.9   (SHRANK — pass)
-    h=1000: −0.6 / +6.2 / +14.6 / +18.9   (GREW — violation)
+ gap vs ergodic (thr 0.1/0.2/0.3/0.4), n = 50, dual-integrator:
+ h=100: +3.4 / +6.2 / +10.6 / +16.9
+ h=300: −2.6 / +4.2 / +8.6 / +14.9 (SHRANK — pass)
+ h=1000: −0.6 / +6.2 / +14.6 / +18.9 (GREW — violation)
 Row 3 REVERSES the shrink at the upper thresholds (median f_amp
 0.546 → 0.548 → 0.637, moving AWAY from ergodic 0.472); each cell is
 only ~1σ at n = 50, but the pre-registered trend is violated as
@@ -991,14 +991,14 @@ Tkachev, arXiv:2305.01005: t_gr = 2b² w0³/(3 π³ G² ρ²
 ln p0L) — same object, distribution conventions). Absolute
 normalization carries ~x10 convention slop (flagged; scalings
 robust). The table at the audited band:
-    typical dwarf (0.03 Msun/pc³, 15 km/s): ψ condenses in
-      ~0.2-3 Gyr across [1,3]x10⁻²¹ — dwarf cores FORM;
-    χ (x11 lag, median draw): ~2-30+ Gyr — typical dwarfs' χ
-      is UNCONDENSED TODAY. Room 5's "mid-phase-transition
-      universe" now has numbers: the redshift-dependent
-      core-halo relation is live exactly at the audited band.
-    MW-class and clusters: never condense (≥ 10⁵ Gyr) —
-      standard FDM lore, inherited cleanly.
+ typical dwarf (0.03 Msun/pc³, 15 km/s): ψ condenses in
+ ~0.2-3 Gyr across [1,3]x10⁻²¹ — dwarf cores FORM;
+ χ (x11 lag, median draw): ~2-30+ Gyr — typical dwarfs' χ
+ is UNCONDENSED TODAY. Room 5's "mid-phase-transition
+ universe" now has numbers: the redshift-dependent
+ core-halo relation is live exactly at the audited band.
+ MW-class and clusters: never condense (≥ 10⁵ Gyr) —
+ standard FDM lore, inherited cleanly.
 
 **A6 — THE "SUPERRADIANCE 3×10⁻¹⁹" LABEL, CORRECTED:** 3x10⁻¹⁹ eV
 is the DALAL-KRAVTSOV dwarf-heating bound on M_eff (free FDM),
@@ -1023,17 +1023,17 @@ ordered to close and the file is smaller and harder for it.
 met same morning):** the theorem restoration rests on h_eff = lam*ρ/m⁴
 and the identity h_eff(mean, today) = (1+z_x)⁻³. Three lines, each
 independently checkable:
-  (1) In the basin (mass-term dominated), ρ = m² Psi², so
-      h_eff := lam*Psi²/m² = lam*ρ/m⁴.
-  (2) Basin entry is DEFINED by quartic = mass term: lam*Psi_x² = m²,
-      hence ρ_x = m⁴/lam and h_eff(entry) = lam*ρ_x/m⁴ = 1
-      identically — no parameter enters.
-  (3) Post-entry the medium redshifts as matter, ρ(a) = ρ_x(a_x/a)³,
-      so h_eff(mean, today) = (1+z_x)⁻³. QED.
-  Independent numerical check: m = 1×10⁻²¹ eV gives ρ_x = m⁴/lam =
-  1×10⁴ eV⁴; z_x = (ρ_x/ρ_dm,0)^(1/3) = 1.01×10⁵; (1+z_x)⁻³ = 9.7×10⁻¹⁶
-  = the direct formula's value. The two routes agree to arithmetic
-  precision; the identity holds.
+ (1) In the basin (mass-term dominated), ρ = m² Psi², so
+ h_eff := lam*Psi²/m² = lam*ρ/m⁴.
+ (2) Basin entry is DEFINED by quartic = mass term: lam*Psi_x² = m²,
+ hence ρ_x = m⁴/lam and h_eff(entry) = lam*ρ_x/m⁴ = 1
+ identically — no parameter enters.
+ (3) Post-entry the medium redshifts as matter, ρ(a) = ρ_x(a_x/a)³,
+ so h_eff(mean, today) = (1+z_x)⁻³. QED.
+ Independent numerical check: m = 1×10⁻²¹ eV gives ρ_x = m⁴/lam =
+ 1×10⁴ eV⁴; z_x = (ρ_x/ρ_dm,0)^(1/3) = 1.01×10⁵; (1+z_x)⁻³ = 9.7×10⁻¹⁶
+ = the direct formula's value. The two routes agree to arithmetic
+ precision; the identity holds.
 
 **A6a — THE EXCLUSION RANGE, CITE-VERIFIED (turn-58's "do that next"):**
 Davoudiasl & Denton, PRL 123, 021102 (2019), arXiv:1904.09242, pulled

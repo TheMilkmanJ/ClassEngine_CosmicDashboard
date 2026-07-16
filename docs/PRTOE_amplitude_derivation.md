@@ -17,7 +17,7 @@ eases the H₀ tension. Fit to the CMB; the model's one novel empirical handle.
 
 ## The factorization (from the transaction structure)
 
-    ε  =  c  ×  f_amp  ×  (Ψ₀ / M_red)
+ ε = c × f_amp × (Ψ₀ / M_red)
 
 Three factors, each a distinct physical object:
 
@@ -33,50 +33,50 @@ Product: c × f_amp × Ψ₀/M_red ≈ 1 × 0.6 × 2.2% ≈ **1.3%**, bracketing
 ## Factor 1 — Ψ₀/M_red ≈ 2.2% (TRACED)
 
 - **Ψ₀ ≈ 5×10¹⁶ GeV** from the misalignment abundance: the field is frozen until
-  H drops to m, then redshifts as matter; ρ_DM,0 = ½m²Ψ₀²(1+z_osc)⁻³ pins Ψ₀.
-  **Robust: Ψ₀ ∝ m^(−1/4)** — a factor-3 mass uncertainty moves it 24%.
+ H drops to m, then redshifts as matter; ρ_DM,0 = ½m²Ψ₀²(1+z_osc)⁻³ pins Ψ₀.
+ **Robust: Ψ₀ ∝ m^(−1/4)** — a factor-3 mass uncertainty moves it 24%.
 - **M_red** (reduced Planck mass) is the physical scale for a gravity-only
-  coupling (coefficient of R/2 in the action). Census-forced convention.
+ coupling (coefficient of R/2 in the action). Census-forced convention.
 
 ## Factor 2 — f_amp ≈ 0.6 (COMPUTED, from the genesis dice)
 
 - Only the **amplitude mode** (radial |Ψ| oscillation) couples to m_e, because
-  m_e rides on |Ψ|. The **phase mode** is the U(1) Goldstone — it couples to
-  charge/number, NOT mass. So the fraction of the field in the amplitude mode,
-  f_amp, is what reaches the electron.
+ m_e rides on |Ψ|. The **phase mode** is the U(1) Goldstone — it couples to
+ charge/number, NOT mass. So the fraction of the field in the amplitude mode,
+ f_amp, is what reaches the electron.
 - f_amp ≈ 0.55–0.67 was **already computed** by the genesis orbit integration
-  (the "One Mountain" dice), NOT sim-pending. The granule sim (the working docket) is an
-  independent cross-check (granule power S = (1+(1−f_amp)²)/2), not the source.
+ (the "One Mountain" dice), NOT sim-pending. The granule sim (the working docket) is an
+ independent cross-check (granule power S = (1+(1−f_amp)²)/2), not the source.
 - **Distributional:** f_amp is one genesis-dice roll per universe (median ~0.6);
-  our 1.24% ⇒ we drew the median ⇒ a typical universe.
+ our 1.24% ⇒ we drew the median ⇒ a typical universe.
 
 ## Factor 3 — c ≈ 1 (NATURAL, GATED on the census — the working docket)
 
 - **Make-or-break PASSED.** The dangerous alternative was the Ψ₀ normalization
-  (δm_e/m_e = δΨ/Ψ₀ → O(1) blowup), which requires m_e ∝ Ψ (dark-sourced Yukawa).
-  But **m_e is Higgs-sourced**, and the census forbids the Yukawa — excluded
-  twice. The coupling is gravitational (conformal), scale M_red, no blowup.
+ (δm_e/m_e = δΨ/Ψ₀ → O(1) blowup), which requires m_e ∝ Ψ (dark-sourced Yukawa).
+ But **m_e is Higgs-sourced**, and the census forbids the Yukawa — excluded
+ twice. The coupling is gravitational (conformal), scale M_red, no blowup.
 - **c is a free O(1) conformal coefficient.** Scale invariance does NOT force
-  c = 1 (the amplitude mode is a massive pseudo-dilaton coupling to Higgs-sourced
-  masses, not a Goldstone to scale-sector masses). Data wants c ≈ 0.94.
+ c = 1 (the amplitude mode is a massive pseudo-dilaton coupling to Higgs-sourced
+ masses, not a Goldstone to scale-sector masses). Data wants c ≈ 0.94.
 - **c = 1 ⟺ the STRONG census** ("medium couples to matter at exactly
-  gravitational strength, no free constant"). So c reduces to the **census-scope
-  adjudication (the working docket)**:
-  - STRONG census → **ε = f_amp × Ψ₀/M_red is FULLY DERIVED = 1.24%.**
-  - WEAK census → c ≈ 1 is natural + data-consistent, not forced.
+ gravitational strength, no free constant"). So c reduces to the **census-scope
+ adjudication (the working docket)**:
+ - STRONG census → **ε = f_amp × Ψ₀/M_red is FULLY DERIVED = 1.24%.**
+ - WEAK census → c ≈ 1 is natural + data-consistent, not forced.
 
 ## The transaction (why the factors are what they are)
 
 The m_e shift is a closed loop of couplings, matter → space → matter:
 1. **matter → space (gravity):** clustering/shell-crossing saturates Θ.
 2. **Θ (the all-clear gate):** binary — diffuse "hold" / virialized "release".
-   Matter's own state, written into the fluid.
+ Matter's own state, written into the fluid.
 3. **space → matter (β = the read gain):** β = f_amp reads Θ back onto m_e.
-   INFORMATION not energy (census-forced small, §69) → UNCOLLECTABLE (the bank
-   collecting its own information, §71). Matter reallocates its own energy
-   (FIRAS-safe reallocation branch).
+ INFORMATION not energy (census-forced small, §69) → UNCOLLECTABLE (the bank
+ collecting its own information, §71). Matter reallocates its own energy
+ (FIRAS-safe reallocation branch).
 4. **matter → matter (EM):** the electron's EM-structured mass realizes the
-   shift, distributed by hydrogen/reduced-mass flavor (electron dominates).
+ shift, distributed by hydrogen/reduced-mass flavor (electron dominates).
 
 ## Status
 
@@ -129,17 +129,17 @@ of it.
 
 **Factor 3 (c) — much more resolved.** c is now BOXED near 1, not free:
 - **Ceiling (c ≲ 1):** DERIVED from technical naturalness (§75, author's "too
-  expensive"). A stronger-than-gravitational coupling radiatively destroys the
-  medium's own ultralight mass — so c can't exceed gravitational strength. The
-  ledger caps c to survive.
+ expensive"). A stronger-than-gravitational coupling radiatively destroys the
+ medium's own ultralight mass — so c can't exceed gravitational strength. The
+ ledger caps c to survive.
 - **Floor:** the amplitude is over-determined (pinned f_amp, Ψ₀) so c can't drop
-  far without breaking the fit (§76–77). Measured value: **c = 0.93 ± 0.38**,
-  consistent with 1, sharpening as Fairbank converges.
+ far without breaking the fit (§76–77). Measured value: **c = 0.93 ± 0.38**,
+ consistent with 1, sharpening as Fairbank converges.
 - **The remaining bet (§81 vs §82):** is c a *free dial* (§81) or *forced = 1*
-  (§82, author — "no half-gravity")? DATA can referee it: the granule sim's
-  independent f_amp isolates c (§83, breaks the §77 degeneracy) and reads our
-  universe's dice roll (f_amp ≈ 0.56). But *measuring* c=1 ≠ *deriving* it (§84):
-  only the effective-action calc (docketed) proves "no dial."
+ (§82, author — "no half-gravity")? DATA can referee it: the granule sim's
+ independent f_amp isolates c (§83, breaks the §77 degeneracy) and reads our
+ universe's dice roll (f_amp ≈ 0.56). But *measuring* c=1 ≠ *deriving* it (§84):
+ only the effective-action calc (docketed) proves "no dial."
 
 **Why the coupling is universal & flavor-blind (§89, author):** gravity couples
 to mass-energy only — it *cannot* tell electron from quark ("same shit, different
@@ -148,18 +148,18 @@ flavor must be matter's own — the medium has no organ to make it.
 
 **Flavor / deuterium arc (§85–92):**
 - The varying-constant shift is UNIVERSAL across leptons and hadrons. A flavor-dependent
-  shift would require a non-gravitational touch on the Higgs/EM sector, which the census
-  forbids (§90) — so the model predicts universal varying-constants.
+ shift would require a non-gravitational touch on the Higgs/EM sector, which the census
+ forbids (§90) — so the model predicts universal varying-constants.
 - **No Higgs portal is needed (§92):**
-  the SAME universal conformal coupling rescales the metric, and the Higgs vev is
-  a mass scale in it — so one gravitational nudge shifts electron + quark + vev
-  together. The Higgs moves because the FLOOR moved, not a direct touch.
+ the SAME universal conformal coupling rescales the metric, and the Higgs vev is
+ a mass scale in it — so one gravitational nudge shifts electron + quark + vev
+ together. The Higgs moves because the FLOOR moved, not a direct touch.
 - **Unification RESURRECTED:** one conformal coupling does m_e (recombination) AND
-  the quark/vev shift (BBN) — one engine, no separate carrier, no portal.
+ the quark/vev shift (BBN) — one engine, no separate carrier, no portal.
 - **The deuterium heal now hinges on ONE calculable question:** does the dark
-  field's value GROW or SHRINK from BBN to recombination? Grows → small BBN shift
-  (~0.15%) heals D/H, no catastrophe. Shrinks (misalignment's naive answer) →
-  full 1.24% quark shift → the +11% D/H catastrophe. Genesis-set, computable.
+ field's value GROW or SHRINK from BBN to recombination? Grows → small BBN shift
+ (~0.15%) heals D/H, no catastrophe. Shrinks (misalignment's naive answer) →
+ full 1.24% quark shift → the +11% D/H catastrophe. Genesis-set, computable.
 
 **Current standing of the whole amplitude program:**
 - Architecture: complete (gravity universal-conformal, flavor-blind).
@@ -167,7 +167,7 @@ flavor must be matter's own — the medium has no organ to make it.
 - Flavor: universal (P-011 retracted); no portal owed.
 - Deuterium: unified with m_e (one coupling), rides the BBN→recomb field ratio.
 - Three live walls: #14 (c=1 loop calc), #8 (granule sim → dice roll + c),
-  #6 (Fairbank convergence). All calculation/simulation, no fog.
+ #6 (Fairbank convergence). All calculation/simulation, no fog.
 
 ---
 
@@ -176,16 +176,16 @@ flavor must be matter's own — the medium has no organ to make it.
 `scripts/amplitude_11_analytic.py` (fast/analytic, completes in-sandbox; the stiff
 genesis ODE for f_amp still needs WSL). Result:
 - **Psi0 ~ 5×10¹⁶ GeV is DERIVED from the DM abundance** (leading-order misalignment,
-  ρ_dm0 = 1/2 m² Psi0² a_osc³, a_osc from H=m). Confirms the traced value.
+ ρ_dm0 = 1/2 m² Psi0² a_osc³, a_osc from H=m). Confirms the traced value.
 - eps = c*f_amp*(Psi0/M_red) lands in the **right decade (1-5%) from abundance alone**.
 - Demanding **eps = 1.24%** (c=1, f_amp=0.6) **PINS the mass: m ~ 2×10⁻²⁰ eV** (Psi0/M_red
-  = 2.07%, matching the traced pair). The amplitude program is internally self-consistent
-  and corresponds to m ~ 2×10⁻²⁰ eV, NOT the 1×10⁻²¹ fuzzy-DM fiducial we had loosely quoted.
+ = 2.07%, matching the traced pair). The amplitude program is internally self-consistent
+ and corresponds to m ~ 2×10⁻²⁰ eV, NOT the 1×10⁻²¹ fuzzy-DM fiducial we had loosely quoted.
 - **This converts the fit into a prediction / advances #9 (mass pin):** abundance fixes
-  Psi0; eps=1.24% then pins m to the ~1×10⁻²⁰ decade. Falsifiable, and consistent with the
-  Lyman-α fuzzy-DM floor (~2×10⁻²¹ eV, so allowed).
+ Psi0; eps=1.24% then pins m to the ~1×10⁻²⁰ decade. Falsifiable, and consistent with the
+ Lyman-α fuzzy-DM floor (~2×10⁻²¹ eV, so allowed).
 - **OWED (factor-level, not order-level):** f_amp from the genesis orbit (WSL ODE), c from
-  the loop, O(1) misalignment factors (~2x). These move the pinned m by factors.
+ the loop, O(1) misalignment factors (~2x). These move the pinned m by factors.
 
 ## SESSION UPDATE — #11 f_amp orbit (2026-07-08): mechanism confirmed, ~0.6 natural
 
@@ -194,13 +194,13 @@ caveat did NOT bind). Complex AD field in V=m²|Psi|²+lam|Psi|⁴ with Hubble
 friction; f_amp = time-averaged RADIAL (breathing) energy fraction of the late-time
 orbit.
 - **Mechanism CONFIRMED:** f_amp set by orbit eccentricity, spans 0.47-0.99 as the
-  release kick varies (near-radial → f_amp~1, near-circular → f_amp~0.5).
+ release kick varies (near-radial → f_amp~1, near-circular → f_amp~0.5).
 - **Central value ~0.6 is NATURAL:** median over a flat kick prior = 0.62, matching
-  the doc's assumed f_amp~0.6. Not cherry-picked -- it's where the mechanism sits.
-  (f_amp=0.6 exactly ↔ kick~1.3.)
+ the doc's assumed f_amp~0.6. Not cherry-picked -- it's where the mechanism sits.
+ (f_amp=0.6 exactly ↔ kick~1.3.)
 - **CAVEAT:** generic AD orbit (quartic + parametrized kick), NOT the model's
-  specific A-term, so the DISTRIBUTION is illustrative/prior-dependent; the mechanism
-  and ~0.5-0.6 central value are robust.
+ specific A-term, so the DISTRIBUTION is illustrative/prior-dependent; the mechanism
+ and ~0.5-0.6 central value are robust.
 
 **#11 amplitude standing:** eps = c * f_amp * (Psi0/M_red). Psi0 DERIVED (abundance,
 → m~2×10⁻²⁰ eV), f_amp mechanism-confirmed (~0.6), both in-sandbox. Only **c** remains
@@ -213,7 +213,7 @@ m~2×10⁻²⁰ eV, c~1, f_amp~0.6.
 V_A = eps_A lam (Psi⁴ + h.c.) = 2 eps_A lam R⁴ cos(4theta); field released AT REST
 at phase θ_i (uniform prior after inflation); rotation is GENERATED by the torque,
 not assumed. Median f_amp over the uniform phase prior:
-  eps_A=0.10 → 0.59 ;  0.20 → 0.68 ;  0.30 → 0.74 ;  0.50 → 0.70  (range ~[0.05,1.0])
+ eps_A=0.10 → 0.59 ; 0.20 → 0.68 ; 0.30 → 0.74 ; 0.50 → 0.70 (range ~[0.05,1.0])
 ⇒ **f_amp ~ 0.6 is where the model's own dice sit** (hit dead-on at small tilt), NOT an
 assumption. Residual = the tilt strength eps_A (slides the median 0.6→0.7).
 
@@ -237,29 +237,29 @@ c-m curve (f_amp=0.6): **c(m) = (m / 2.24×10⁻²⁰ eV)^(1/4)**; naturalness c
 Fuzzy-DM lower bounds: Lyman-α (Rogers&Peiris 2021) m>2×10⁻²⁰ eV (95%); UFD (Dalal&Kravtsov
 2022) m>3×10⁻¹⁹ eV (99%, stronger but more model-dependent).
 - **NEAR-COINCIDENCE:** the model's natural ceiling (2.24×10⁻²⁰) sits right at the Lyman-α
-  floor (2×10⁻²⁰) → model cornered to m~2×10⁻²⁰ eV, **PREDICTS c~0.97-1.0**. Measured c=0.93+-0.38
-  confirms. FIVE independent lines (amplitude, abundance, naturalness, Lyman-a, measured c)
-  converge on (m~2×10⁻²⁰ eV, c~1). Degeneracy broken; c pinned ~1, no longer a free dial.
+ floor (2×10⁻²⁰) → model cornered to m~2×10⁻²⁰ eV, **PREDICTS c~0.97-1.0**. Measured c=0.93+-0.38
+ confirms. FIVE independent lines (amplitude, abundance, naturalness, Lyman-a, measured c)
+ converge on (m~2×10⁻²⁰ eV, c~1). Degeneracy broken; c pinned ~1, no longer a free dial.
 - **THREAT (3rd):** the UFD bound (m>3×10⁻¹⁹) would force c~1.9 -- mildly unnatural AND ~2.5sigma
-  against the measured c. If UFD holds (debated), real tension. 
+ against the measured c. If UFD holds (debated), real tension. 
 - **#6 is now a SHARP test:** as c tightens from +-0.38, it either nails c~1 (confirms corner)
-  or drifts low (m below Lyman-a floor → tension).
+ or drifts low (m below Lyman-a floor → tension).
 
 ## SESSION UPDATE — origins audit: c derives from the CENSUS (honest downgrade, 2026-07-08)
 
 Traced the "convergences on c~1" to their roots; two corrections + one deepening:
 - **OVERCOUNT corrected:** "measured c=0.93" is NOT independent -- it is the amplitude eps
-  rearranged (c = eps/(f_amp*Psi0/M_red)). Same input, not a separate confirmation.
+ rearranged (c = eps/(f_amp*Psi0/M_red)). Same input, not a separate confirmation.
 - **Naturalness ceiling and UV/ALP share ONE root:** "can't exceed gravitational strength"
-  (ceiling) and "gravity generates it at gravitational strength" (floor) are the same
-  statement -- **c~1 because the coupling IS gravity (strength 1 in M_red units) = the census.**
+ (ceiling) and "gravity generates it at gravitational strength" (floor) are the same
+ statement -- **c~1 because the coupling IS gravity (strength 1 in M_red units) = the census.**
 - **Genuine convergence = TWO independent things, agreeing:** (1) THEORY/census predicts c~1
-  (= the strong census restated quantitatively); (2) DATA: Lyman-α m>2×10⁻²⁰ → via the c-m
-  curve → c>0.97. The census's predicted c~1 and the mass data's implied c~0.97 AGREE, non-
-  circularly.
+ (= the strong census restated quantitatively); (2) DATA: Lyman-α m>2×10⁻²⁰ → via the c-m
+ curve → c>0.97. The census's predicted c~1 and the mass data's implied c~0.97 AGREE, non-
+ circularly.
 - **Upshot:** c does not derive from 5 places; it derives from the census. "c=1" IS "the coupling
-  is exactly gravitational." The amplitude program is therefore "census predicts c~1; does the
-  independent mass agree?" -- YES (Lyman-a), with the UFD bound as the one dissenting dataset.
+ is exactly gravitational." The amplitude program is therefore "census predicts c~1; does the
+ independent mass agree?" -- YES (Lyman-a), with the UFD bound as the one dissenting dataset.
 
 ## SESSION UPDATE — the LATE regime change reframes DESI (JP insight, 2026-07-08)
 
@@ -270,12 +270,12 @@ measurement is therefore the DIRECT THERMOMETER of this regime change.
 
 **FORK (JP's insight vs the model's theorem):**
 - **(A) current bet:** the late transition FROZE at w=-1 -- mutual-exclusion theorem
-  (ANN-2026-008) caps drift at ≤2×10⁻⁸, unobservable. DESI thawing (w0~-0.84, 2.9sigma)
-  = THREAT / systematic.
+ (ANN-2026-008) caps drift at ≤2×10⁻⁸, unobservable. DESI thawing (w0~-0.84, 2.9sigma)
+ = THREAT / systematic.
 - **(B) JP:** the regime change is still VISIBLY in progress (w evolving toward -1). Then
-  DESI's thawing is NOT a threat -- it's the late regime change SEEN LIVE, a CONFIRMATION.
+ DESI's thawing is NOT a threat -- it's the late regime change SEEN LIVE, a CONFIRMATION.
 - JP's intuition and DESI's data point the SAME way (witnessable evolving w), i.e. AGAINST
-  the model's own theorem.
+ the model's own theorem.
 
 **COST (honest):** (B) doesn't bend the theorem, it ABANDONS it -- the drift cap (2×10⁻⁸) vs
 DESI (~0.1) is 7 orders apart. So it's a major revision, not a tweak. (A) keeps theorem +
@@ -290,17 +290,17 @@ frozen" truly FORCED, or assumed? If relaxable, the acceleration we observe = th
 
 Three claims, calibrated:
 - **Always gradual:** consistent with JP's §100 process-not-switch; defensible for the
-  medium's superfluid CROSSOVERS (condensation, potential-domination). ("Always" isn't a
-  law of ALL physics -- first-order transitions are sharp -- but holds for THIS model.)
+ medium's superfluid CROSSOVERS (condensation, potential-domination). ("Always" isn't a
+ law of ALL physics -- first-order transitions are sharp -- but holds for THIS model.)
 - **Intervals lengthen approaching stability: CORRECT.** Clock: BB→condensation ~1×10³ yr;
-  condensation→DE onset ~7.7 Gyr; DE onset→full de Sitter = asymptotically infinite. The
-  medium relaxes to a stable ATTRACTOR (de Sitter, w=-1); approach to a fixed point slows
-  (the physics behind "critical slowing down"). Final regime change is slowest.
+ condensation→DE onset ~7.7 Gyr; DE onset→full de Sitter = asymptotically infinite. The
+ medium relaxes to a stable ATTRACTOR (de Sitter, w=-1); approach to a fixed point slows
+ (the physics behind "critical slowing down"). Final regime change is slowest.
 - **Late templates early (THE BET):** the late transition is OBSERVABLE (DESI w(z)), the
-  early ones aren't. IF regime changes share a UNIVERSAL form (universality-class precedent),
-  measuring the late shape gives the early (condensation) shape → feeds #11, deuterium,
-  birefringence-width at once. CATCH: early/late driven by different physics (μ=m vs
-  potential>kinetic), so universality is a HYPOTHESIS, not a theorem.
+ early ones aren't. IF regime changes share a UNIVERSAL form (universality-class precedent),
+ measuring the late shape gives the early (condensation) shape → feeds #11, deuterium,
+ birefringence-width at once. CATCH: early/late driven by different physics (μ=m vs
+ potential>kinetic), so universality is a HYPOTHESIS, not a theorem.
 
 **LOAD-BEARING:** the whole structure rests on DESI thawing being REAL (the (B) branch that
 costs the mutual-exclusion theorem; 2.9sigma hint, not a detection).
@@ -310,7 +310,7 @@ costs the mutual-exclusion theorem; 2.9sigma hint, not a detection).
 
 ## RETRACTION (2026-07-08) — the DESI "regime change caught live" reframe was WRONG
 
-internal review, objection #2 adjudicated and UPHELD. The DESI reframe (w evolving = the
+Objection #2 was adjudicated and UPHELD. The DESI reframe (w evolving = the
 late regime change, threat→confirmation) CONTRADICTED the mutual-exclusion theorem
 (ANN-2026-008), and the theorem WINS -- it is LSS-derived, not fiat: observable DE drift
 ν~1×10⁻³ requires a core scale M_eff~6.6×10⁻²⁵ eV (l_dB~90 kpc) ⇒ galaxies could not exist.
@@ -332,9 +332,9 @@ separate process from the floor's DRIFT? Owed.
 `scripts/granule_sim.py` (first build, transparent). Tested whether the claimed granule-power
 law S=(1+f_rot²)/2 (which would let a halo's granule contrast read out f_amp independently of
 the Z4 dice) falls out of plausible two-component speckle models. RESULT: NONE reproduce it.
-  - two independent complex speckles → S~1.0 FLAT (no f_amp dependence);
-  - speckle + coherent smooth → S runs 1.0→0.0 (OPPOSITE trend to the doc's 0.5→1.0);
-  - real-amplitude + complex-rotation → erratic, no match.
+ - two independent complex speckles → S~1.0 FLAT (no f_amp dependence);
+ - speckle + coherent smooth → S runs 1.0→0.0 (OPPOSITE trend to the doc's 0.5→1.0);
+ - real-amplitude + complex-rotation → erratic, no match.
 ⇒ the S=(1+f_rot²)/2 formula is NOT reproduced by naive speckle; its underlying physical
 model is UNPINNED. #8 is blocked deeper than "infrastructure/code" -- the granule channel cannot
 serve as an independent f_amp cross-check until the correct two-component speckle statistics are
@@ -348,7 +348,7 @@ conservation forbids any residual). The genesis twist's parity preference (θ-do
 the Affleck-Dine spiral) is REAL but lives in the GRAVITATIONAL sector, not the EM one. Its
 charge-free home is a CHIRAL gravitational-wave background via Chern-Simons gravity
 (L ⊃ α*θ*R R̃). `scripts/chiral_gw_genesis.py` computes the net GW circular polarization:
-    Pi ~ α * θ_dot * H_gen / M_Pl²   (net chirality)
+ Pi ~ α * θ_dot * H_gen / M_Pl² (net chirality)
 RESULT: Planck-suppressed. At the model's natural genesis scale (Psi0~5×10¹⁶ GeV, H_inf≤1×10¹³ GeV),
 Pi ~ 1×10⁻⁷ to 1×10⁻⁸ -- about 5-6 orders below any conceivable detection (CMB TB/EB reach ~1×10⁻²),
 even though the GW background itself can be detectable (r~1×10⁻³). Boosting α by 1×10³ → Pi~1×10⁻⁵,
@@ -360,7 +360,7 @@ factor rescues 5-6 orders). The universe's birth-spin twists spacetime, just imp
 This is the honest counterpart to the birefringence null: light door WELDED (charge), gravity
 door OPEN but the room is nearly empty (Planck suppression). [[birefringence-null-proven]]
 
-## SESSION UPDATE — criticality crossover killed (frequency), + internal review verdict on the whole GW door (2026-07-08)
+## SESSION UPDATE — criticality crossover killed (frequency), + verdict on the whole GW door (2026-07-08)
 
 `scripts/chiral_induced_gw.py`: tested whether critically-amplified parity-odd scalar perturbations
 source an OBSERVABLE chiral induced-GW background (the one place scalar criticality χ~1/c_s² can
@@ -369,26 +369,26 @@ model's critical point is the DE FLOOR (z~0.5, late) → induced GW at f~3×10�
 today, off by 3e10x (PTA), 3e15x (LISA), 3e20x (LIGO), even 30x below CMB B-mode. Reaching PTA needs
 z_crit~1×10¹³ (deep radiation era); model has none. KILLED BY FREQUENCY, not amplitude.
 
-internal review verdict on the entire gravitational-parity finding (slap-away pass):
-  1. DIRECT signal (Pi~1×10⁻⁷): the θ*R R̃ coupling was ASSUMED, not derived. A scalar condensate
-     has NO gravitational anomaly (needs chiral fermions) → the CS coupling may be EXACTLY ZERO,
-     not 1×10⁻⁷. 1×10⁻⁷ is an upper estimate assuming α~O(1) exists.
-  2. INDUCED channel: (a) χ~500 is late-time GROWTH of specific modes, MISAPPLIED as amplification
-     of the primordial P_zeta that sources induced GWs; (b) the chiral FRACTION Pi_frac was never
-     derived (needs a parity-odd scalar bispectrum, unshown); (c) frequency fatal (above).
-  NET: no observable gravitational parity signature survives. The door is REAL and charge-free but
-  leads nowhere observable -- Planck-suppressed (direct, if the coupling even exists) or
-  frequency-banished + misapplied-amplification (induced). The birefringence-null's gravitational
-  counterpart is ALSO observationally null, for robust structural reasons. [[birefringence-null-proven]]
+Verdict on the entire gravitational-parity finding:
+ 1. DIRECT signal (Pi~1×10⁻⁷): the θ*R R̃ coupling was ASSUMED, not derived. A scalar condensate
+ has NO gravitational anomaly (needs chiral fermions) → the CS coupling may be EXACTLY ZERO,
+ not 1×10⁻⁷. 1×10⁻⁷ is an upper estimate assuming α~O(1) exists.
+ 2. INDUCED channel: (a) χ~500 is late-time GROWTH of specific modes, MISAPPLIED as amplification
+ of the primordial P_zeta that sources induced GWs; (b) the chiral FRACTION Pi_frac was never
+ derived (needs a parity-odd scalar bispectrum, unshown); (c) frequency fatal (above).
+ NET: no observable gravitational parity signature survives. The door is REAL and charge-free but
+ leads nowhere observable -- Planck-suppressed (direct, if the coupling even exists) or
+ frequency-banished + misapplied-amplification (induced). The birefringence-null's gravitational
+ counterpart is ALSO observationally null, for robust structural reasons. [[birefringence-null-proven]]
 
 ## SESSION UPDATE — #11 swing: the +1.24% m_e amplitude CONVERTED from fit to prediction (2026-07-08)
 
 `scripts/amplitude_11_assembly.py`: assembled eps = c * f_amp * (Psi0/M_red) with propagated
 uncertainties. Psi0 (abundance-pinned) and f_amp (Z4 genesis dice) are BOTH fixed by physics
 INDEPENDENT of the m_e measurement, so this is a genuine test, not a refit.
-  Psi0/M_red = 2.05% [1.23-3.29] ;  f_amp = 0.60 [0.50-0.70] ;  c = 1.0 [0.5-2.0] (soft dial)
-  PREDICTED eps (central, c=1) = 1.232%  vs  OBSERVED 1.20 ± 0.45%  →  +0.07σ.
-  c needed to nail 1.20% exactly = 0.97 (i.e. natural c~1 lands it).
+ Psi0/M_red = 2.05% [1.23-3.29] ; f_amp = 0.60 [0.50-0.70] ; c = 1.0 [0.5-2.0] (soft dial)
+ PREDICTED eps (central, c=1) = 1.232% vs OBSERVED 1.20 ± 0.45% → +0.07σ.
+ c needed to nail 1.20% exactly = 0.97 (i.e. natural c~1 lands it).
 VERDICT: eps is NO LONGER a free fit parameter. Two of three factors are independently fixed
 and force the ~1% SCALE; the central value lands on the data. The ONLY residual freedom is the
 single O(1) coupling c, natural at ~1. #11 status: 1 free param → 0, plus one natural O(1) the
@@ -398,12 +398,12 @@ data pins to ~1. Order-of-magnitude + central value DERIVED; sharp value pending
 
 `scripts/c_m_degeneracy.py`: the amplitude fixes a COMBINATION of c and the field mass m, not
 either alone. Abundance pins Psi0 ∝ m^(-1/4), so at fixed observed eps:
-    c(m) = 0.974 * (m / 2×10⁻²⁰ eV)^(1/4)    (higher m needs higher c)
+ c(m) = 0.974 * (m / 2×10⁻²⁰ eV)^(1/4) (higher m needs higher c)
 An INDEPENDENT fuzzy-DM mass therefore pins c. Trial of the mass landmarks:
-    m = 2×10⁻²⁰ (model pin / Lyman-a)  → c = 0.97  (comfortable)
-    m = 3×10⁻¹⁹ (UFD Dalal-Kravtsov)   → c = 1.92  (edge of O(1))  <- the tension
-    m = 1×10⁻¹⁸ (CDM-like)             → c = 2.59  (strained)
-    c reaches 2 at m=3.6×10⁻¹⁹, 3 at 1.8×10⁻¹⁸, 4 at 5.7×10⁻¹⁸.
+ m = 2×10⁻²⁰ (model pin / Lyman-a) → c = 0.97 (comfortable)
+ m = 3×10⁻¹⁹ (UFD Dalal-Kravtsov) → c = 1.92 (edge of O(1)) <- the tension
+ m = 1×10⁻¹⁸ (CDM-like) → c = 2.59 (strained)
+ c reaches 2 at m=3.6×10⁻¹⁹, 3 at 1.8×10⁻¹⁸, 4 at 5.7×10⁻¹⁸.
 VERDICT: the UFD tension is SURVIVABLE, NOT a kill. The model ABSORBS m~3×10⁻¹⁹ by setting
 c~1.92 -- still O(1)/natural. Cost: spends c's naturalness margin (0.97→1.9). And c is pinned
 only as tightly as m is measured: m in [2×10⁻²⁰, 3×10⁻¹⁹] ⇒ c in [1.0, 1.9], a RANGE consistent
@@ -433,16 +433,16 @@ pulse (portal) flatlined on re-exam. [[birefringence-null-proven]]
 
 Mining the birefringence graveyard for what it says about the model OTHER than birefringence:
 1. CENSUS IS STRUCTURALLY FORCED (biggest): the portal autopsy generalizes → because the medium
-   is a CONDENSATE, ANY gauge force it carries is Higgsed short-range (Meissner). Gravity is the
-   ONLY long-range force that can't be Higgsed. So "gravity-only" is not a neutrality coincidence;
-   it is a structural consequence of superfluidity. NEW TESTABLE PREDICTION: PRTOE forbids any
-   long-range dark/fifth force from the medium (fifth-force & equivalence-principle tests can probe).
+ is a CONDENSATE, ANY gauge force it carries is Higgsed short-range (Meissner). Gravity is the
+ ONLY long-range force that can't be Higgsed. So "gravity-only" is not a neutrality coincidence;
+ it is a structural consequence of superfluidity. NEW TESTABLE PREDICTION: PRTOE forbids any
+ long-range dark/fifth force from the medium (fifth-force & equivalence-principle tests can probe).
 2. BIREFRINGENCE DATA IS A DISCRIMINATOR (overlooked): axion-DE predicts nonzero β; PRTOE predicts
-   exactly zero from the dark sector. So the β hint adjudicates PRTOE vs axion-DE either way it
-   resolves -- we had been reading it only as our own null.
+ exactly zero from the dark sector. So the β hint adjudicates PRTOE vs axion-DE either way it
+ resolves -- we had been reading it only as our own null.
 3. PARITY MAP COMPLETE: everything parity-even (gravity, Thomson, E-modes, census) EXCEPT the genesis
-   twist, which imprints ONLY on gravity (GW chirality Pi~1×10⁻⁷). ⇒ any parity-odd signal can only be
-   the GW chirality; in light, flat zero.
+ twist, which imprints ONLY on gravity (GW chirality Pi~1×10⁻⁷). ⇒ any parity-odd signal can only be
+ the GW chirality; in light, flat zero.
 4. P-2026-013 (closed universe) was itself a birefringence-tangent spinoff -- the hunt's largest yield.
 ⇒ candidate new prediction to register: "no long-range dark/fifth force (condensate Higgses all
 mediators short-range)". [[birefringence-null-proven]]

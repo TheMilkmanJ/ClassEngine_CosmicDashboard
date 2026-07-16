@@ -5,7 +5,7 @@
 
 *Short companion to PRTOE_blackholes_no_singularity.md. Honest scope: the paradox DISSOLVES at
 the structural level in this model; the quantitative capstone (the Page curve / area law) is
-OWED and shared with the working docket. Status: STRUCTURAL (candidate), booked internal review.*
+OWED and shared with the working docket. Status: STRUCTURAL (candidate).*
 
 ## 0. The paradox, and why it needs a singularity to bite
 
@@ -22,21 +22,21 @@ every known black hole the whole interior sits within one healing length: **a si
 system**. Consequences, each from a graded object:
 
 1. **Nothing is destroyed** — the infallen state is *thermalized*, not terminated: unitary
-   many-body evolution in the core (decoherence relocates information into correlations; it
-   never deletes it — the Landauer ledger recorded at the atom night PRICES record-keeping, it
-   does not permit erasure without a fee paid *somewhere kept*).
+ many-body evolution in the core (decoherence relocates information into correlations; it
+ never deletes it — the Landauer ledger recorded at the atom night PRICES record-keeping, it
+ does not permit erasure without a fee paid *somewhere kept*).
 2. **The books are kept by construction** — "the universe is not blind to its own
-   transactions" (internal review-graded: the environment's record IS decoherence). A model whose
-   thermodynamics is a transaction ledger has no mechanism for un-recording.
+ transactions" (graded: the environment's record IS decoherence). A model whose
+ thermodynamics is a transaction ledger has no mechanism for un-recording.
 3. **The radiation channel is standard** — phonon Hawking emission from sonic horizons
-   (Unruh-class, inherited). Radiation drawn from a *finite, unitary, thermal core* is
-   ordinary open-system physics: early radiation thermal, late radiation purifying — the
-   burnt-diary scenario, not the shredder.
+ (Unruh-class, inherited). Radiation drawn from a *finite, unitary, thermal core* is
+ ordinary open-system physics: early radiation thermal, late radiation purifying — the
+ burnt-diary scenario, not the shredder.
 4. **The slow-return guarantee**: the core's information re-enters the exterior on
-   evaporation/purification timescales — and in the cyclic frame, anything still held at the
-   crunch is thermalized into the Tolman ledger while the **topological content joins the
-   genome** (the only strictly-conserved-through-crunch data). Nothing exits the
-   universe's books; some of it just changes column.
+ evaporation/purification timescales — and in the cyclic frame, anything still held at the
+ crunch is thermalized into the Tolman ledger while the **topological content joins the
+ genome** (the only strictly-conserved-through-crunch data). Nothing exits the
+ universe's books; some of it just changes column.
 
 ## 2. What the paradox becomes
 

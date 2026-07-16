@@ -133,40 +133,40 @@ $$F(\phi) = 1 + \xi \cdot A(\phi) \cdot S(\phi)$$
 **Perturbation Equations:**
 
 1. **delta_phi evolution** (lines 9686-9704):
-   ```c
-   δφ'' + 2ℋ(1 + F_φ φ₀'/(2F)) δφ'
-   + [k² + a² V_φφ - F_φ/F (φ₀'' + 2ℋ φ₀') + F_φφ/F φ₀'²] δφ
-   = -φ₀' (Ψ' + 3Φ') + F_φ/(2F) [φ₀'² (Ψ - 3Φ) - a² δR] + ...
-   ```
+ ```c
+ δφ'' + 2ℋ(1 + F_φ φ₀'/(2F)) δφ'
+ + [k² + a² V_φφ - F_φ/F (φ₀'' + 2ℋ φ₀') + F_φφ/F φ₀'²] δφ
+ = -φ₀' (Ψ' + 3Φ') + F_φ/(2F) [φ₀'² (Ψ - 3Φ) - a² δR] + ...
+ ```
 
 2. **delta_R expression** (lines 9669-9672):
-   ```c
-   δR = -6a⁻²[Ψ'' + 4ℋΨ' + (a''/a + 2ℋ²)Φ + (k²/3)(Ψ-Φ)]
-   ```
+ ```c
+ δR = -6a⁻²[Ψ'' + 4ℋΨ' + (a''/a + 2ℋ²)Φ + (k²/3)(Ψ-Φ)]
+ ```
 
 3. **δF and derivatives** (lines 6630-6646, 7409-7414):
-   ```c
-   δF = F_φ δφ
-   δF' = F_φφ φ₀' δφ + F_φ δφ'
-   δF'' = F_φφφ φ₀'² δφ + F_φφ (φ₀'' δφ + 2φ₀' δφ') + F_φ δφ''
-   ```
+ ```c
+ δF = F_φ δφ
+ δF' = F_φφ φ₀' δφ + F_φ δφ'
+ δF'' = F_φφφ φ₀'² δφ + F_φφ (φ₀'' δφ + 2φ₀' δφ') + F_φ δφ''
+ ```
 
 4. **Einstein equations with δF terms:**
-   - **00 (Hamiltonian):** Lines 6681, 6712
-   - **0i (Momentum):** Line 6685
-   - **ij Trace:** Line 6744
-   - **ij Traceless (Slip):** Lines 7423, 6744
+ - **00 (Hamiltonian):** Lines 6681, 6712
+ - **0i (Momentum):** Line 6685
+ - **ij Trace:** Line 6744
+ - **ij Traceless (Slip):** Lines 7423, 6744
 
 5. **Anisotropic stress sourcing** (line 7423):
-   ```c
-   rho_plus_p_shear += (a² / F) * (δF'' + 2ℋ δF' - (k²/3) δF)
-   ```
-   *This sources the slip equation via total anisotropic stress (CLASS-native approach)*
+ ```c
+ rho_plus_p_shear += (a² / F) * (δF'' + 2ℋ δF' - (k²/3) δF)
+ ```
+ *This sources the slip equation via total anisotropic stress (CLASS-native approach)*
 
 6. **Fluid drag force** (lines 9456-9457, 9276-9278):
-   ```c
-   θ_m' = -ℋ θ_m + k² δp_m/(ρ_m + p_m) + (F_φ/(2F)) k² δφ + ...
-   ```
+ ```c
+ θ_m' = -ℋ θ_m + k² δp_m/(ρ_m + p_m) + (F_φ/(2F)) k² δφ + ...
+ ```
 
 ### Stability Coefficients
 
@@ -207,16 +207,16 @@ $$
 from prtoe_dhost_checks_v2 import prtoe_dhost_consistency_check_v2
 
 result = prtoe_dhost_consistency_check_v2(
-    background={'phi': [...], 'F': [...], 'F_phi': [...], ...},
-    xi=0.05,
-    zeta=2.0,
-    verbose=True
+ background={'phi': [...], 'F': [...], 'F_phi': [...], ...},
+ xi=0.05,
+ zeta=2.0,
+ verbose=True
 )
 
 if result.healthy:
-    print("✓ PRTOE parameters are DHOST-consistent")
+ print("✓ PRTOE parameters are DHOST-consistent")
 else:
-    print(f"✗ Issues: {result.warnings}")
+ print(f"✗ Issues: {result.warnings}")
 ```
 
 ### Test Suite
@@ -242,8 +242,8 @@ python scripts/test_prtoe_dhost_validation.py
 
 All perturbation equations are **derived from first principles** by varying the second-order action:
 
-$$S^{(2)} = \int d\tau d^3x \, a^3 \Biggl\{\n    \frac{1}{2}\mathcal{K}(\delta\phi')^2 - \frac{1}{2}\mathcal{G} k^2 (\delta\phi)^2 - \frac{1}{2}\mathcal{M} (\delta\phi)^2 \
-    + \text{cross terms with } \Psi, \Phi \
+$$S^{(2)} = \int d\tau d^3x \, a^3 \Biggl\{\n \frac{1}{2}\mathcal{K}(\delta\phi')^2 - \frac{1}{2}\mathcal{G} k^2 (\delta\phi)^2 - \frac{1}{2}\mathcal{M} (\delta\phi)^2 \
+ + \text{cross terms with } \Psi, \Phi \
 \Biggr\}$$ 
 
 **Verification:**
@@ -334,37 +334,37 @@ $$\mathcal{L}_{\text{PRTOE}} = \mathcal{L}_{\text{DHOST}}^{(2)} + \mathcal{L}_{m
 
 ### Immediate (Ready Now)
 1. **Run validation tests:**
-   ```bash
-   python scripts/test_prtoe_dhost_validation.py
-   ```
+ ```bash
+ python scripts/test_prtoe_dhost_validation.py
+ ```
 
 2. **Integrate with CosmicDashboard:**
-   - Import `prtoe_dhost_checks_v2` in dashboard backend
-   - Run on PRTOE parameter scans
-   - Monitor stability quantities
+ - Import `prtoe_dhost_checks_v2` in dashboard backend
+ - Run on PRTOE parameter scans
+ - Monitor stability quantities
 
 3. **Test null-limit recovery:**
-   - Run CLASS with ξ→0, ζ→0, V₀→0
-   - Verify ΛCDM recovery
-   - Check C_ℓ convergence
+ - Run CLASS with ξ→0, ζ→0, V₀→0
+ - Verify ΛCDM recovery
+ - Check C_ℓ convergence
 
 ### Short-term
 4. **Numerical validation:**
-   - Run full PRTOE parameter space
-   - Monitor stability warnings
-   - Identify stable parameter regions
+ - Run full PRTOE parameter space
+ - Monitor stability warnings
+ - Identify stable parameter regions
 
 5. **Literature comparison (Task 6):**
-   - Compare to Horndeski theories
-   - Compare to f(R) theories
-   - Compare to other scalar-tensor models
-   - Highlight unique features of PRTOE
+ - Compare to Horndeski theories
+ - Compare to f(R) theories
+ - Compare to other scalar-tensor models
+ - Highlight unique features of PRTOE
 
 ### Long-term
 6. **Publication:**
-   - Use `docs/PRTOE_Second_Order_Action_Specification.md` as appendix
-   - Include validation results from DHOST checks
-   - Document null-limit recovery
+ - Use `docs/PRTOE_Second_Order_Action_Specification.md` as appendix
+ - Include validation results from DHOST checks
+ - Document null-limit recovery
 
 ---
 
@@ -378,7 +378,7 @@ $$\mathcal{L}_{\text{PRTOE}} = \mathcal{L}_{\text{DHOST}}^{(2)} + \mathcal{L}_{m
 
 ### Contact
 - **Author:** Justin Ryan Pulford
-- **Review Status:** Addressing internal review Review Findings (2026-06-28)
+- **Review Status:** internal validation (2026-06-28)
 - **Branch:** `coderabbit-review-2`
 
 ### References
