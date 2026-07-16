@@ -8270,3 +8270,31 @@ dCDF's settling response exponent. This unifies the model's two hardest open pro
 physical question — is the settling response sub-ohmic (self-tuning)? — replacing two vague "walls" with
 one computable exponent. The next real move on DE is the response function itself (hunt 189's s), now
 known to carry BOTH the value and the coincidence.
+
+---
+
+### Entry 225 — CRACKING THE RESPONSE EXPONENT (operator: "is it sub-ohmic? didn't we determine sub-ohmic?"): **CORRECTION — we determined OHMIC (s=1, the 21-dex miss), NOT sub-ohmic; sub-ohmic was always the conditional wish. NEW: the superfluid phonon sits EXACTLY at the ohmic boundary z=d/2=3/2, and a CONSERVED density (z=2) tips it sub-ohmic — the operator's conservation law is the named tipping mechanism**
+
+**Record correction (important).** hunt 189 COMPUTED the fluctuation-dissipation response = **OHMIC (s=1)**,
+a 21-dex forward MISS. Sub-ohmic (s≈0.26) was the CONDITIONAL value that WOULD close it — never determined.
+So we determined the ohmic MISS; we did NOT determine sub-ohmic. (dcdf_superfluid §5 has this right; the
+recollection of "sub-ohmic determined" is wrong.)
+
+**Cracking it — s = d/z − 1 (d=3, linear coupling):** the ohmic/sub-ohmic boundary is **z = d/2 = 3/2**.
+- z=3/2 SUPERFLUID phonon (Model E/F) → s=1 (OHMIC, marginal — sits ON the boundary). ← why 189 got ohmic.
+- z=2 DIFFUSIVE conserved density (Model B-like) → s=0.5 (sub-ohmic).
+- z=2.38 → s=0.26 (the closing value — but not a clean universality class, so even 0.26 is uncertain).
+
+**The tipping mechanism = the conservation law (operator's own idea).** The phonon is marginally ohmic; ANY
+slowing past z=3/2 tips sub-ohmic. A CONSERVED density relaxes diffusively (z=2>3/2) → sub-ohmic. So the
+conserved dark abundance charge is exactly what would tip ohmic→sub-ohmic (→ self-tuning → both DE walls
+dissolve, hunt 224).
+
+**Honest verdict — NOT cracked to sub-ohmic; marginal + a named tip.** The DE-floor energy settling, as
+computed (phonon channel), is OHMIC (z=3/2, miss). The conserved-density channel (z=2) is sub-ohmic. The
+open crux: which channel governs the DE-floor's ENERGY settling — the phonon (ohmic, miss) or the conserved
+density (sub-ohmic, closes)? Natural reading: ENERGY settles via phonons (ohmic) while the conserved
+ABUNDANCE drains via the density mode (sub-ohmic) — which would put sub-ohmic in the DARK-MATTER channel,
+not the DE one. So sub-ohmic is NOT established for the DE floor; the response is marginal (superfluid on the
+z=3/2 boundary), and the tip is the conservation law — but whether it governs the DE channel is unresolved.
+The crack narrows to: which mode carries the DE-floor's energy dissipation.
