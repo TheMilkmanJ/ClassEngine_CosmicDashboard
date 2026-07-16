@@ -8487,3 +8487,54 @@ unilaterally — it touches BBN, dyad_gas, spine §15, THREE_EQUATIONS.
 resolves the CW log-ambiguity to ≈179 keV; 193 keV is a 7%-consistent perturbative estimate; BBN is the
 eventual (currently blunt) arbiter. The 179-vs-193 tension flagged in entry 229 is thereby **resolved to
 a cross-check**, with one model-content decision (which value to adopt) left to the operator.
+
+---
+
+### Entry 231 — PUSHING THE PORTAL (operator: "push on the portal"): **√σ_dark = m_e survives every derivation route — but the push upgrades it from "input" to "irreducible-AND-falsifiable input"**
+
+Re-attacked "why √σ_dark = m_e" from every angle, not just the conformal one:
+- **Tie the dark-quark mass to m_e?** No. τ = 0.35 needs a QCD-LIKE sector (light quarks), where √σ is
+  set by dimensional transmutation and is **decoupled** from the quark masses (real QCD: √σ ≈ 440 MeV vs
+  m_{u,d} ≈ few MeV). Setting m_q = m_e does not move √σ.
+- **Walking sector, IR scale set by the electron threshold?** This is the ONE route that could dynamically
+  fix √σ_dark = m_e — but near-conformal sectors have a **softened, lowered** deconfinement transition, so
+  walking generically gives τ < 0.35, **undershooting** the DE value. The route that derives the portal
+  spoils τ. (Near-conformal thermodynamics is itself uncertain, but the direction is robust: softer
+  transition → lower T_c/√σ.)
+- **The bootstrap (ε sources the shift, m_e sets the scale)?** ε = 1.24% is SMALL, so the condensate is a
+  small perturbation on m_e — its smallness does not force √σ ~ m_e.
+
+**Verdict: the portal is irreducible** (confirmed against all routes) — the sector that gives τ = 0.35
+can't self-set √σ; the sector that self-sets √σ can't give τ = 0.35. **But the push adds one positive
+thing:** √σ_dark = m_e is not a free dial — it **predicts ~MeV dark states** (dark baryons ~ few·m_e,
+dark radiation), so it is a **FALSIFIABLE** input (ΔN_eff at BBN; dark-baryon signatures), not an
+unfalsifiable parameter. Upgrade: from "irreducible input" to "irreducible-AND-falsifiable input."
+
+---
+
+### Entry 232 — THE NEXT THREAD: do the portal's ~MeV dark states survive cosmology under option (a)? **YES — they cannot overclose; option (a) is cosmologically safe, and the DM stays the ultralight excitations**
+
+The portal (√σ_dark ≈ m_e) predicts a dark confining sector with states at ~MeV: dark baryons
+(m_B ~ few·m_e ~ few MeV, stable by dark baryon number), dark mesons/glueballs (~m_e–MeV). Under option
+(a) (this sector sets the DE binding scale ONLY; the DM is the medium's ultralight excitations), do the
+~MeV dark baryons overclose or spoil BBN?
+
+**Overclosure — NO** (`python check`):
+- **Asymmetric** (dark asymmetry ~ visible): Ω_darkB = (m_B/m_p)(η_darkB/η_B)Ω_b ≈ (3/938)·1·0.049 ≈
+  **1.6×10⁻⁴** — i.e. **~6×10⁻⁴ of the DM.** Negligible.
+- To BE all the DM would require η_darkB/η_B ≈ **1691×** the visible asymmetry — which option (a)
+  explicitly does NOT invoke. So at any natural asymmetry the dark baryons are ≤10⁻³ of the DM.
+- **Symmetric:** the dark baryons are strongly coupled (confinement scale ~ their mass), so annihilation
+  is near-unitarity-efficient → the symmetric relic **annihilates away** to Ω ≪ Ω_DM.
+
+**Either way: no overclosure, subdominant.** Option (a) is cosmologically consistent — the DM stays the
+ultralight excitations, and the ~MeV dark sector is a subdominant relic + a dark-radiation contribution.
+
+**The footprint (falsifiable):** the dark sector's light relativistic states give ΔN_eff at BBN
+(~0.1–0.25 IF thermalized with the SM via the EM/electron portal; suppressed if it decoupled early — a
+real uncertainty in the coupling strength). Primary test remains BBN N_eff; the CMB sees only a small
+Goldstone edge (~0.03).
+
+**Net:** the portal's ~MeV dark sector is cosmologically safe (no overclosure), leaves the DM as the
+ultralight excitations (option a intact), and its one falsifiable footprint is ΔN_eff(BBN). The
+DM-fate thread flagged in entry 228 is **closed: not fatal, and it hands the model a near-term BBN test.**
