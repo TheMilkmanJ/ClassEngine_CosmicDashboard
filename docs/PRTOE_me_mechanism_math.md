@@ -314,6 +314,13 @@ restoring); symmetry restored above T_c where it cancels the tachyonic curvature
 here (μ~T_c → L−1→0 iterates unstably), so T_c is log-ambiguous ~40–450 keV, central ~70–160 keV —
 **STRADDLING the deuterium bottleneck (~70 keV).** Structural: onset AND D/H are both electron-scale
 → "derived" and "marginal" are one fact. Resolver: RG-improved V_eff + BBN network (the working docket).
+**Regime caveat (hunt 213):** Δm_φ²=+(κm_e0²/3)T² is the HIGH-T (T≫m_e) form, but T_c < m_e — so it is
+used out of regime. The EXACT finite-T fermion loop (Boltzmann-suppressed electrons, fewer to restore the
+symmetry) pushes T_c UP ×1.4 (264→369 keV at μ=v), so the adopted central (~193 keV) is too low. The
+zero-T leading-log μ needs the 2-loop V_eff: the 1-loop β-functions are now worked out (hunt 214 —
+γ_{m_e}=3α/2π, β_{m_φ²}=(κ/π²)m_e0⁴, β_κ≈(3α/2π)κ) and CONFIRM the 1-loop can't pin T_c (κ cancels;
+the O(α) source-running gives an unphysical PMS at μ~e⁻⁵⁷). The closer is the 2-loop photon-dressed
+electron loop (a log² term) — a genuine multi-loop build, not yet computed.
 
 **Leptophilia (allowed ≠ generated).** Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
 EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia. CAVEAT

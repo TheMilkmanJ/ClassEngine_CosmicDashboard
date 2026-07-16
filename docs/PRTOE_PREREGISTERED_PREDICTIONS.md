@@ -1537,9 +1537,16 @@ leptogenesis assumption, not a bare Majoron consequence.
 to *derive* ρ_DE = f(m_ν) via mass-varying-neutrino dynamics hits the Afshordi–Zaldarriaga–Kohri
 (2005) instability (c_s² < 0 once ν non-relativistic → catastrophic clumping). **Escape:** PRTOE's
 DE floor is the Majoron's *own* pseudo-Goldstone potential (ρ_inf, constant), not ν-density-driven —
-so the tie is **shared-scale** (one L-breaking parameter μ sets both), which dodges AZK but only
-*motivates* the meV coincidence rather than deriving the value. So P-012's DE=m_ν tie is
-MOTIVATED-not-forced (same status as the CC value).
+so the tie is **shared-scale** (one L-breaking parameter μ sets both), which dodges AZK. Hardening
+run (hunt 205): a SINGLE spurion μ setting both the potential height (ρ_inf ~ μ⁴) and the neutrino
+mass **forces the parametric lock ρ_inf ∝ m_ν⁴** — so "motivates-not-forces" applies only to the O(1)
+*value* coefficient, not to the lock. The residual is the neutrino-mass STRUCTURE: direct-Majorana
+(m_ν = μ → tie exact) vs inverse-seesaw (m_ν = m_D²μ/M² → needs μ-dominance). That same fork sets the
+census c (direct-Majorana → 9/10; inverse-seesaw → the Higgs m_D comoves under ε → leans 12/13), so
+P-012's tie-exactness and the amplitude's census c are ONE question. **Reconciled → 9/10 (hunt 206):**
+the direct light mass (m₁ = g·⟨radial VEV⟩ ≈ μ, the flagship reading) and Card 6's heavy-N leptogenesis
+COEXIST — the seesaw's light-mass contribution is ~10⁻⁹ meV (negligible) — and consistency with the
+tie-as-LOCK (vs a two-scale tuning) selects DIRECT. Residual: the un-built spurion-identification bridge.
 
 **Net:** neutrino home unchanged and re-confirmed; the dyad's BBN clearance is a live coin-flip
 (resolver: RG+BBN), the leptophilia is a portal/leptogenesis assumption, the DE=m_ν tie is

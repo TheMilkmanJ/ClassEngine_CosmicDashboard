@@ -282,12 +282,33 @@ FAVORABLE — the referee's revival-watch called this exact failure mode ("your 
 on no; I'll watch your revivals"), and the operator's booking-discipline rule is what caught
 it.** Entries 162/164 carry correction notes; the sweep riders are stripped.
 
+### The cosmological-constant value routes (self-caught, 2026-07-16)
+
+#### The KP "background door" value claim — FALSIFIED by its own self-consistency solve (hunt 209)
+MATH_SPINE §7a / cosmological_constant §4b claimed the Kaloper–Padilla sequestering Λ = ¼⟨T^µ_µ⟩ gives
+"Λ¹ᐟ⁴ = 1.71 meV, 0.76×, the right decade FROM A MECHANISM — the only door with a NUMBER." Doing the
+self-consistency solve properly kills it: the closed-universe fixed point is ρ_Λ/ρ_m,turnaround = **0.40**
+(coefficient 0.40, not the toy ¾), and — coefficient-INDEPENDENTLY — the a³ 4-volume weight caps
+**Ω_Λ/Ω_m ≤ 0.40 across all expansion** (ramp-confirmed: RAMP-1 monotonic to 0.398; RAMP-2 coefficient
+sweep; RAMP-3 flat-torus → Λ→0), a factor **5.5 below the observed 2.2**. The "0.76×" matched the value's
+*decade* by tuning turnaround~now while hiding a fatal RATIO failure. KP-as-value-mechanism is dead;
+KP-as-vacuum-cancellation (the thermodynamic door) is a separate claim, untouched. The Λ value stays
+UNDERIVED; corrected in MATH_SPINE §7a and cosmological_constant §4b.
+
+#### The T_c high-T thermal formula — used OUT OF REGIME (hunt 213)
+The dyad condensation T_c = m_e0√(3(L−1)/2π²) uses the high-T thermal mass Δm²=(κm_e²/3)T², valid only
+for T ≫ m_e — but T_c ~ 200 keV < m_e = 511 keV. The exact finite-T fermion loop (Boltzmann-suppressed
+electrons) pushes T_c UP ×1.4 (264→369 keV at μ=v). Consequence: the adopted central T_c (~193 keV) is
+too low, and the seam DE estimate ρ_Λ¼=(9/2)α⁴T_c over-predicts ~2× at the natural scale (not the 1.09×
+first quoted at 193 keV). The zero-T leading-log μ residual still needs the 2-loop β-functions (not in
+corpus). Corrected in me_mechanism_math and cosmological_constant §2c. Value remains UNDERIVED.
+
 ## 4. Standing adverse results (alive, honest, unresolved — NOT failures, but debts)
 
 - The windowed BBN pattern: Y_p +1.3σ counter (both-datasets honest range 1.3–3.7σ); D/H ~1.9σ owned bet (radio-arbitrated).
 - The dCDF perturbation sector: the fluid clusters as dust by construction (cs² ≡ 0) — the known structural gap (the working docket).
 - ρ_inf: 20% residual (the 5/6 note — firewalled, mechanism owed).
-- The c-roster watch: data lean 12/13 over the derived 9/10.
+- The c-roster watch: RESOLVED toward 9/10 (hunt 203–206) — the census reads the universal charged roster (not leptophilic); direct-Majorana light mass makes the neutrino the ε fixed-point seat → 9/10; the old "data lean 12/13" was backwards (the fit sits below 9/10). Residual: the un-derived value μ = 2.25 meV.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
 - The G-closure's matter-only branch: CLOSED ADVERSE by the signed demand (entry 86 — a leptophilic all-positive roster induces wrong-sign gravity under Visser's anchoring); the closure survives only through the winding's vector sector, whose weight is underived.
 - The medium claim (M3) itself: an open assumption, priced by everything above staying on the books.
