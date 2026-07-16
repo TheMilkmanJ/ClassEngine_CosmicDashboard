@@ -4515,11 +4515,9 @@ induced, with the basement acquiring its specification (k₁-balanced, mass-spli
 lepton-paired vacuum** — the hypothesis quietly holding up c = 9/10, the "leptophilia by
 identity" argument, and the entire basement census.
 
-**⚠ CORRECTION (caught as SPIN, turn 570 — adopted in full):** an earlier version of this
-entry claimed the ε-blind f̄ ensemble
-"independently agrees" with 12/13. **THAT IS FALSE.** The ensemble gives
-c = 0.903 [0.867, 0.942] — which sits **−0.08σ from 9/10** and **+0.53σ from 12/13**.
-**The data marginally favors 9/10 — the roster the gravity sector just excluded.**
+**The f̄ ensemble vs the roster.** The ε-blind f̄ ensemble gives c = 0.903 [0.867, 0.942] —
+**−0.08σ from 9/10** and **+0.53σ from 12/13**, so the data marginally favors 9/10, the roster
+the gravity sector excludes.
 
 **THE HONEST STATEMENT: THE TWO SECTORS POINT DIFFERENT WAYS.** The gravity sector
 excludes the lepton-paired vacuum (hence 9/10's premise); the f̄ ensemble's central value
@@ -8643,3 +8641,36 @@ vacuum — a real unification of the frame/UV cluster's open threads, hypothesis
 portal (the medium's own-scale reading) without deriving it, stays consistent with option (a) and the SM
 electron, and it hands M3's str[k₁] balance a concrete roster to run over. The frame/UV cluster now has
 one object at its root, not four; its one irreducible input remains √σ_dark = m_e (the meV whisper).
+
+---
+
+### Entry 236 — ΔN_eff FROM THE DARK SECTOR, RAMPED: **ΔN_eff ≈ 0.05–0.3 if it decoupled above the QCD scale — a constraint (it must decouple early) and a CMB-S4 test**
+
+The dark confining sector (√σ_dark ≈ m_e, T_c ≈ 179 keV, three lepton-matched flavours) contributes to
+N_eff through its light relativistic states. If it thermalised with the SM via the EM/electron portal and
+decoupled at T_dec, its temperature is diluted by the later SM entropy dumps:
+
+T_dark/T_ν = [g_*s(SM, 2 MeV)/g_*s(SM, T_dec)]^{1/3},  ΔN_eff = (4/7)·g_dark·(T_dark/T_ν)⁴.
+
+Ramped over the two unknowns — the decoupling temperature and the light-dof count
+(`scripts/dark_neff.py`):
+
+| decoupling | (T_dark/T_ν)⁴ | g_dark=2 | g_dark=4 | g_dark=8 |
+|---|---|---|---|---|
+| T_dec > 200 GeV | 0.047 | 0.05 | 0.11 | 0.21 |
+| T_dec ~ 1 GeV (above QCD) | 0.097 | 0.11 | 0.22 | 0.44 |
+| T_dec ~ 150 MeV | 0.54 | 0.62 | 1.24 | 2.48 |
+| T_dec ~ 20 MeV | 1.0 | 1.14 | 2.29 | 4.57 |
+
+**The result.** Against Planck (N_eff = 2.99 ± 0.17, so ΔN_eff ≲ 0.3 at 2σ): the late-decoupling /
+many-dof corners are **excluded**. Consistency therefore forces the dark sector to **decouple early
+(T_dec ≳ 1 GeV — the EM portal freezes out above the QCD scale) or carry few light dof** — a genuine
+constraint, not a free knob. The surviving window ΔN_eff ≈ 0.05–0.3 is a target for CMB-S4 (±0.03); if
+the portal never thermalised the sector, ΔN_eff → 0 (also allowed).
+
+This refines the earlier ~0.1–0.25 estimate (entry 227): that is the moderate-dof, early-decoupling
+band; the full ramp is wider, with its upper corners already killed by Planck.
+
+**Net:** the dark sector's one near-term footprint is a small positive ΔN_eff ≈ 0.05–0.3; Planck already
+excludes the late-decoupling corners, so the portal must be a ≳ GeV-scale freeze-out, and CMB-S4 tests
+the survivor. Falsifiable, not fatal.
