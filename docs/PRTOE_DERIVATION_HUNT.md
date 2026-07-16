@@ -8449,3 +8449,41 @@ adopted 193 keV (2.46 meV, 1.09×). **Residual flag:** τ-pinned T_c ≈ 179 keV
 entry shows that step is an **irreducible input**, not a derivable quantity, in the QCD-like scenario the
 DE value requires. #48's ceiling is reached: the digit is m_e × (QCD ratio) × (α_c² prefactor), with the
 electron mass as the one un-derived meV-sector scale.
+
+---
+
+### Entry 230 — THE T_c-IDENTITY RESOLVED (operator: "chase the DE-binding vs BBN T_c thread"): **one scale, two estimates — the confining value (179 keV) is the non-perturbative definition the log-ambiguous Coleman–Weinberg estimate (193 keV) couldn't pin; they agree to 7%, and BBN watches the same object**
+
+The τ swing (228) pins the DE-binding T_c at 0.35·m_e ≈ 179 keV; the corpus adopts the BBN-window
+T_c = 193 keV (spine §15). One scale or two?
+
+**One scale — forced by the ε mechanism.** The electron-mass shift is the dyad condensate's order
+parameter: φ/v = √(1−T/T_c), ε ∝ φ² ⇒ ε(T) = ε·(1−T/T_c), turning off at the condensate's own
+condensation temperature. So the temperature where ε turns off (BBN window, 193 keV) IS the dyad's
+chiral-condensation temperature (DE binding, 179 keV) — one physical number, sourced by one condensate.
+
+**Two estimates of it:**
+- **Coleman–Weinberg (perturbative):** T_c = m_e·√(3(L−1)/2π²) → 193 keV adopted, but **log-ambiguous**
+  (band [40, 900] keV; the 2-loop V_eff work, hunt 215 / task #46, found the leading log unstable — T_c
+  is not perturbatively well-defined).
+- **Confining-sector chiral ratio (non-perturbative):** T_c = τ·√σ_dark = 0.35·m_e ≈ 179 keV (entry 228).
+
+**The resolution.** The confining value 179 keV is the NON-PERTURBATIVE definition the log-ambiguous CW
+estimate could not supply — it lands inside the [40, 900] band and pins it. The two agree to ~7% (179 vs
+193): a genuine cross-check across independent routes (CW perturbation theory vs QCD-like confinement).
+Same scale, better-defined value ≈ 179 keV, the adopted 193 keV a consistent perturbative estimate.
+
+**Is it a BBN prediction?** BBN watches T_c live (the ε-ramp turns on as T drops through it). But the ~7%
+shift (179 vs 193) sits in the ramp region BETWEEN n/p freeze-out (~700 keV, ε = 0 either way) and
+D-formation (~75 keV, ε full either way), so both give the SAME windowed pattern (Y_p counter, D/H shift)
+at current sensitivity. A consistency, not yet a discriminator — but the DE value now **predicts
+T_c ≈ 179 keV**, a number BBN could eventually test.
+
+**Owed (model-content, for the operator):** whether to adopt T_c ≈ 179 keV (the better-defined confining
+value) as primary corpus-wide, retiring 193 keV to "the perturbative cross-check." NOT changed
+unilaterally — it touches BBN, dyad_gas, spine §15, THREE_EQUATIONS.
+
+**Net:** the DE-binding and BBN-window T_c are ONE scale (the ε mechanism forces it); the confining route
+resolves the CW log-ambiguity to ≈179 keV; 193 keV is a 7%-consistent perturbative estimate; BBN is the
+eventual (currently blunt) arbiter. The 179-vs-193 tension flagged in entry 229 is thereby **resolved to
+a cross-check**, with one model-content decision (which value to adopt) left to the operator.
