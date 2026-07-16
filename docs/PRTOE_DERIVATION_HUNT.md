@@ -8054,3 +8054,33 @@ DE-vs-varying-m_e tension. The DE value is now α⁴·m_e·(O(1)) — the cleane
 arc — but the O(1) and the cross-sector tension are the honest open pieces (task #47 carries them).
 Method: ramped the g-source (α_c fails by 300×) and the BCS gap-VEV consistency (surfaced the tension);
 credited only what's forced (Λ=m_e, g>g_c); did NOT claim τ derived.
+
+---
+
+### Entry 218 — THE FACTOR-3 TENSION RESOLVED WITHIN THE FRAMEWORK (operator: "tackle it in our own framework"): **it DISSOLVES — the perturbative VEV was internally inconsistent (T_c>v, unphysical); the gap equation corrects it to the BCS-consistent v~340 keV; ε=1.24% preserved by re-fitting the free κ; no observable breaks. The '3' is a BCS artifact, NOT the structural d=3**
+
+Entry 217 flagged a factor-3 tension: the DE-value T_c implied Δ(0)~325 keV vs the varying-m_e VEV ~100 keV.
+Tackled it in-framework — it dissolves.
+
+**The perturbative estimate was already broken.** Perturbative CW: v=100 keV, T_c=193 keV → T_c/v=1.93,
+i.e. **T_c > v** — UNPHYSICAL for a condensate (BCS: T_c/Δ(0)=0.567 < 1). So the 100 keV VEV was
+inconsistent with its own T_c (and ill-defined anyway, entry 215).
+
+**The gap equation gives the consistent VEV.** v_gap = T_c/0.567 = 340 keV → T_c/v_gap = 0.567 (correct
+BCS). Only **ε = κv² is observable** (the H₀ mechanism). Revising v (100→340 keV) and re-fitting the FREE
+coupling κ (down 11.6×) preserves **ε = 1.24% exactly**; the T_c window (~185–193 keV) is unchanged. **No
+observable breaks.** So the "tension" was the gap equation CORRECTING a pre-existing perturbative
+inconsistency upward — the DE value and the varying-m_e/H₀ mechanism are CONSISTENT, both at v~340 keV
+(< m_e = Λ, and > T_c — a healthy condensate hierarchy).
+
+**The '3' is a coincidence — honest check.** The factor = (perturbative T_c/v = 1.93) ÷ (BCS ratio 0.567)
+= 3.4 — an artifact of how far off the perturbative estimate was, NOT the structural d=3. The model's real
+3 (d=3 via second sound, α_c=3α) is derived and separate. Label-firewall: this 3 is a BCS bookkeeping
+number, not physics.
+
+**Net.** The factor-3 tension DISSOLVES (perturbative VEV was inconsistent; gap equation fixes it; ε
+preserved). This further FAVORS the gap-equation route — it's internally consistent (T_c<v) where the
+perturbative CW was not (T_c>v). The DE value stands at ρ_Λ¼=(9/2)α⁴·m_e·τ (τ~0.34), and the dyad sector
+is now BCS-coherent (v~340 keV, T_c~185 keV, ε=1.24% via re-fit κ). Task #47's tension leg is CLOSED;
+the remaining residual is the single O(1) strong-coupling τ. Method: checked internal consistency (the
+T_c>v red flag), verified ε-preservation, and did NOT force the 3 onto the structural d=3.

@@ -80,10 +80,13 @@ just above the critical g_c=2) **ρ_Λ¼ = (9/2)α⁴·Λ·τ(g) lands 1.0–1.1
 well-defined. Deriving (Λ, g) (hunt 217): **Λ = m_e** (electron-bilinear composite) and **g > g_c = 2**
 (condensation ⟺ supercritical; the α_c binding is 300× too weak, so it's genuinely strong) are DERIVED —
 leaving **ρ_Λ¼ = (9/2)α⁴·m_e·τ** with only the O(1) strong-coupling τ = T_c/m_e ≈ 0.34 as the residual:
-the DE value = α⁴·m_e·(O(1)). **NEW tension (honest):** the T_c that lands the DE value implies a
-condensate ~3× the dyad VEV the varying-m_e (ε=1.24%, the H₀ mechanism) needs — so the DE value and the
-varying-m_e mechanism are now CROSS-CONSTRAINED and sit in ~3× tension in the simple NJL picture. An open
-problem (task #47), possibly a revision of the ill-defined perturbative VEV rather than a contradiction.
+the DE value = α⁴·m_e·(O(1)). The DE-value T_c and the varying-m_e VEV are cross-constrained; a ~3× mismatch appeared and was
+**RESOLVED** (hunt 218): the perturbative VEV (100 keV) was internally inconsistent (T_c > v, unphysical
+for a condensate — BCS wants T_c/v = 0.567 < 1), so the gap equation CORRECTS it to the consistent
+v ≈ 340 keV. Since only ε = κv² is observable, re-fitting the free κ preserves ε = 1.24% exactly and the
+T_c window is unchanged — **no observable breaks**. The dyad sector is now BCS-coherent (v ≈ 340 keV,
+T_c ≈ 185 keV, v < m_e = Λ). So the only remaining DE-value residual is the single O(1) strong-coupling
+τ = T_c/m_e ≈ 0.34. (The "3" was a BCS/perturbative-inconsistency artifact, not the structural d=3.)
 Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
 scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
 
