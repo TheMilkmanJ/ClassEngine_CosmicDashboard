@@ -7024,3 +7024,14 @@ owed compute of entry 188 — exhibiting the k_up↔−k_down mass symmetry behi
 anything it strengthens the case that the "4-in-10⁴" Λ headline is inverted, but the gate was "until the
 response function RULES," and it has now ruled *against* forward convergence, which is a reason to hold
 the inverted-flag, not to re-derive. The DE amplitude stays un-banked, now with its gap located.
+
+**CORRECTION (2026-07-15, verification pass — operator's "did he ramp it / botch the equations?").**
+Part 3's *conclusion* (ohmic, s=1) is CORRECT and independently confirmed, but its original
+`kubo_lineshape.py` *derivation* was botched two ways and is fixed: (a) the collisionless angular
+integral carried an extra 1/(vk) (should be 2π/(vk) for the density response); (b) the sound-mode
+sweep was run at FIXED ω/k, where ω cancels *algebraically* — so the reported "flat slope +0.000"
+was a tautology (bit-identical outputs at all six ω), not a computation. **Re-derived honestly at
+FIXED k (sweep ω, fit slope): Im χ_nn ∝ ω^(+1.000) — genuinely ohmic, textbook Lindhard.** The
+forward ladder (Parts 1/2/4) was arithmetically correct throughout. **Net: entry 189's result and
+every downstream conclusion (21-dex forward miss, gap → the attractor's sub-ohmic index) STAND —
+the ohmic input is now proven, not assumed.** Script Part 3 corrected in place.

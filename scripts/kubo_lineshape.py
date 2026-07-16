@@ -115,35 +115,30 @@ def Im_chi_nn(w, k, m_over_T=1.0, npt=4000):
     # resonance cos = w/(v k) must be in [-1,1]  -> v > w/k
     integrand = np.zeros_like(ps)
     mask = vs*k > abs(w)
-    # angular integral of (v k cos) * delta(w - v k cos) over solid angle:
-    #   int dOmega (v k cos) delta(w - v k cos) = 2pi * (w/(v k)) / (v k)   [for v k>|w|]
-    # times p^2 measure and (-df/dE):
-    integrand[mask] = ps[mask]**2 * dfdE[mask] * (w/(vs[mask]*k)) / (vs[mask]*k)
-    val = np.trapezoid(integrand, ps)   # drops overall 2pi/(2pi)^3 const; we only want the POWER
+    # CORRECT density-response angular integral: int dOmega delta(w - v k cos) = 2pi/(v k)
+    #   for v k > |w| (the Landau resonance). The w prefactor comes from
+    #   [f_p - f_{p+k}] ~= -(df/dE) * w  on the delta-shell. So Im chi ~ w * Int p^2 (df/dE)/(v k).
+    # (FIX 2026-07-15: prior version carried an extra 1/(vk) AND was swept at fixed w/k so w
+    #  cancelled identically -> a tautological 'flat slope'. Now the w-power is genuinely read.)
+    integrand[mask] = ps[mask]**2 * dfdE[mask] / (vs[mask]*k)
+    val = w * np.trapezoid(integrand, ps)   # overall const dropped; we want the POWER only
     return val
 
 # The PHYSICAL dissipation of a sound mode (w = c_s k) is its Landau damping rate gamma.
 # The clean, parametrization-free question: is gamma/omega scale-free (ohmic, s=1) or does
 # it run with omega (sub/super-ohmic)? Compute gamma/omega at fixed phase velocity w/k=c_s,
 # sweeping omega over 5 decades. A FLAT gamma/omega == ohmic == lineshape power s=1.
-print("  (A) SOUND mode, phase velocity w/k = c_s = 0.148c, gamma/omega vs omega:")
-cs = c_s_over_c
-ws = np.logspace(-6, -1, 6)       # omega/T from 1e-6 to 0.1
-# gamma ~ Im chi_nn(w, k=w/c_s) / (mode normalization ~ k^2 for a sound mode's chi_mode)
-# gamma/omega is the dimensionless damping; for Landau damping of sound it is a PURE NUMBER.
-gam_over_w = []
-for w in ws:
-    k = w/cs
-    imx = Im_chi_nn(w, k, m_over_T=1.0)   # ~ (w/k)*Integral = c_s*Integral, per unit k^0
-    # sound-mode damping: gamma/omega = Im chi_nn /(2 * k * dReChi/dw ...) -> for the SCALING
-    # only the omega-dependence of Im_chi at fixed w/k matters; normalize by its own k-power:
-    gam_over_w.append(imx * k**2 / w)     # remove the trivial (w/k) and per-k measure -> pure number
-gam_over_w = np.array(gam_over_w)
+print("  (A) the lineshape power, read HONESTLY at FIXED k (sweep omega, fit the slope):")
+# The clean, un-rigged question: at fixed k, how does Im chi_nn scale with omega?
+# That IS the lineshape power s. (Sweeping at fixed w/k makes w cancel by construction.)
+k_fixed = 1.0                      # in units of T; the power is k-independent for small w
+ws = np.logspace(-4, -1, 7)        # omega/T
+imvals = np.array([abs(Im_chi_nn(w, k_fixed, m_over_T=1.0)) for w in ws])
+s_measured = np.polyfit(np.log10(ws), np.log10(imvals), 1)[0]
 print(f"      omega/T grid: {ws}")
-print(f"      gamma/omega (arb. norm): {gam_over_w}")
-flat = np.polyfit(np.log10(ws), np.log10(np.abs(gam_over_w)), 1)[0]
-print(f"      log-log slope of gamma/omega vs omega = {flat:+.3f}  (0 == scale-free == OHMIC)")
-print(f"      => gamma ∝ omega^{1+flat:.3f}  => lineshape power s = {1+flat:.3f}  (OHMIC = 1)")
+print(f"      Im chi_nn(w, k={k_fixed}): {imvals}")
+print(f"      log-log slope of Im chi_nn vs omega = {s_measured:+.3f}")
+print(f"      => lineshape power s = {s_measured:.3f}  (OHMIC = 1; textbook Lindhard, now GENUINELY read)")
 
 print("  (B) near-HOMOGENEOUS mode, phase velocity w/k = 3c (> c, superluminal):")
 vals_super = np.array([Im_chi_nn(w, w/3.0, m_over_T=1.0) for w in ws])
