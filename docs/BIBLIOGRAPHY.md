@@ -1,7 +1,7 @@
 # PRTOE BIBLIOGRAPHY — every external source the model stands on (2026-07-11)
 
 *The credit ledger (the working docket). Keys are used across the docs as [AuthorYear]. Internal
-provenance (t###/def### turn-tags) traces to the the private internal review record; THIS file traces everything
+provenance (t###/def### turn-tags) traces to the internal working record; THIS file traces everything
 we borrowed from the field. If a claim in any doc leans on a result not listed here,
 that is a bug — file it.*
 
@@ -63,7 +63,7 @@ that is a bug — file it.*
 - **[Synge1950]** J. L. Synge, Proc. R. Irish Acad. A 53, 83 (1950). / **[Kruskal1960]** M. D. Kruskal, Phys. Rev. 119, 1743 (1960). / **[Szekeres1960]** G. Szekeres, Publ. Math. Debrecen 7, 285 (1960). — The maximal Schwarzschild extension; the white-hole region's actual discoverers (post-Einstein — the white-holes file's historical note).
 - **[HaggardRovelli2015]** H. M. Haggard, C. Rovelli, "Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling," PRD 92, 104020 (2015), arXiv:1407.0989. — The literature's white-hole revival; cited for pedigree, refused for local objects (the arrow ban).
 - **[Unruh1981]** W. G. Unruh, "Experimental black-hole evaporation?," PRL 46, 1351 (1981). — Acoustic horizons; the analog frame.
-- **[BLV2005]** C. Barceló, S. Liberati, M. Visser, "Analogue gravity," Living Rev. Rel. 8, 12 (2005), arXiv:gr-qc/0505065. — The emergent-metric toolbox and its known limits (the internal review "linearized-plus" flag).
+- **[BLV2005]** C. Barceló, S. Liberati, M. Visser, "Analogue gravity," Living Rev. Rel. 8, 12 (2005), arXiv:gr-qc/0505065. — The emergent-metric toolbox and its known limits (the linearized-plus caveat).
 - **[Volovik2003]** G. E. Volovik, *The Universe in a Helium Droplet*, Oxford (2003). — The deepest prior art for medium-cosmology; the model's closest intellectual neighbor.
 - **[vonKlitzing1980]** K. von Klitzing, G. Dorda, M. Pepper, PRL 45, 494 (1980). — Topological quantization on a bench (the lab-cousin row).
 

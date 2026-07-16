@@ -6,7 +6,7 @@
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
 what is DERIVED vs INPUT vs STORY, and where it lives in the code. Cross-references:
 PRTOE_me_mechanism_math.md (dyad detail), PRTOE_cyclic_torus_genesis.md (genesis narrative),
-PRTOE_UV_completion.md (docketed), PRTOE_cosmological_constant.md (J1), the the private internal review record the internal review.*
+PRTOE_UV_completion.md (docketed), PRTOE_cosmological_constant.md (J1).*
 
 **Status tags:** [DERIVED] falls out of prior pieces · [INPUT] boundary datum · [STORY] coherent
 mechanism, not a derivation · [PENDING] computation named, not run.
@@ -57,7 +57,7 @@ phase); below, it oscillates as dust. The switch epoch:
 > **T(H=m) = √(m·M_red / 0.61) = 9.41 keV** (g*=3.36) ↔ **coded z_rad_onset = 4×10⁷ → T = 9.39 keV.**
 
 Match 1.002×. The onset is field 1's H=m clock — textbook ULDM — NOT a condensation temperature
-(internal review "internal inconsistency" dissolved, internal review, booked both columns). Code: `dcdf_z_rad_onset`
+(the apparent internal inconsistency dissolved, booked both columns). Code: `dcdf_z_rad_onset`
 (background.h, with the derived-identity comment).
 
 **Two jobs, one clock** (author, 2026-07-10): the ending regime reaches its floor (conformal
@@ -82,9 +82,9 @@ The electron Coleman–Weinberg backreaction on the charge-free field (m_e(φ) =
 > **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted 193 keV sits inside every version; leading-log unstable
 > near the flat direction; RG resummation = the working docket).
 
-The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded internal review).
+The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded).
 
-**BBN clearance [CLEARS, internal review — the double regime-citation correction]:** the deuterium constraint's
+**BBN clearance [CLEARS — the double regime-citation correction]:** the deuterium constraint's
 severity decomposes by process: weak rates n↔p (T \~ 500–1500 keV, \~75% of the m_e lever),
 n-decay phase space (\~10%), e± heating (\~10%), the bottleneck itself (\~5%, B_d nuclear,
 m_e-insensitive). The dyad (T_c ≤ 445 keV) NEVER touches the weak-rate window; AND the dyad is
@@ -139,18 +139,18 @@ the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
 Code: `dcdf_floor_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ_floor(a) =
 ρ_inf·exp[thaw·(1−a³)]; E(a) = ρ_floor − ρ_inf added background-only (pattern of dcdf_rho_rad).
 
-**7c. The branch [to be pre-registered, guards owed internal review]:**
+**7c. The branch [to be pre-registered, guards owed]:**
 
 > **P-2026-018 (w = −1 exact) XOR Route-D (thaw-now, w₀ ∈ [−0.92,−0.86], wₐ < 0, no phantom).**
 > DESI DR3 adjudicates: thaw-side → Route-D (J1+why-now+DESI in one stroke, P-018 dies);
 > rigid → P-018 (distinctive win; Route-D dies, J1 reverts to constitution);
 > TRUE phantom in the DATA → both die. Guards: distance-space phrasing, KP solve, timestamp
-> (the internal review: internal review J1-derivation precedes internal review DESI-convergence), A2+A3 net (answered internal review).
+> (J1-derivation precedes DESI-convergence), A2+A3 net (answered).
 
 **7d. The end (and the next start).** The thaw completes → expansion reverses → contraction
 blueshifts radiation (a⁻⁴ grows) → the heat fountain reignites → T climbs back through **T_c**
 (the SAME derived T_c of §4) → **the dyad condensate MELTS** (m_e → standard for the crunch) →
-charge survives in solitons/Q-balls [requires gravity-mediated K<0, internal review: fragmentation
+charge survives in solitons/Q-balls [requires gravity-mediated K<0: fragmentation
 banks the charge at T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis
 across the bounce (rotation resets, topology doesn't) → re-expansion cools through T_c → the
 condensate RE-FORMS → §1. **The condensate breathes; T_c is both the recombination-era turn-on
@@ -192,7 +192,7 @@ branch), Σm_ν ≈ 60 meV, 0νββ, void/IGM m_e-step (P-007, J4). **Owed:** KP
 The full-cycle KP solve (full_cycle_kp.py) computed the fixed point over the whole
 cycle (expansion + thawed contraction + Tolman boost): **it robustly wants a_turn = 0.70 (a PAST
 turnaround, z=+0.43)** — excluded by observed acceleration; a future turn is 3× (a_turn=1.0) to
-10× (1.5) short, Tolman boost null, and the internal review "full-cycle-fixes-the-sign" claim was WRONG
+10× (1.5) short, Tolman boost null, and the "full-cycle-fixes-the-sign" claim was WRONG
 (near-mirror contraction cancels). **So §7a–7c are DOWNGRADED:** the clean Route-D prediction is
 dead; what survives is the IMMINENT-TURN CORNER (z_turn \~ −0.1..−0.3, needing \~3× from four
 favorably-aligned rigorous-KP O(1)s [prior-adverse, tail] AND a strong thaw pulled by the data).
@@ -216,7 +216,7 @@ fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ/H = √3
 derived); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
 board. Biography: first excitation (Tolman arrow, finite past) → lengthening cascades → possible
 ionization (binding energy un-computed). J1 = the ground-state eigenvalue: constitutional, at home.
-**Status: the grammar is coherence (graded throughout, internal reviewclass);
+**Status: the grammar is coherence (graded throughout);
 the empirical content lives in the children and the symptom chart. The method was the subject.**
 
 
@@ -224,7 +224,7 @@ the empirical content lives in the children and the symptom chart. The method wa
 
 **The threading survey:** sixteen direct threads filed and graded (galactic/SMBH
 atoms, the neutrino home, S₈, low-ℓ, Koide's invariance, the lab cousins, the coincidence
-problem [why-now = √3·A_s·the floor — the √3 one-pager discharged internal review: the Friedmann factor,
+problem [why-now = √3·A_s·the floor — the √3 one-pager discharged: the Friedmann factor,
 value-independent, sharing ONE par-question with c], the purchased silences [direct+indirect],
 GW [the vortex null Gμ ~ 3×10⁻²¹; the chirality family's third member], the Hubble standalone,
 the radio lattice, the fingerprint capstone, IGMF helicity, LSS parity). **The protocol** (now
@@ -234,7 +234,7 @@ standing law + memory): ramp-check every compute; improves-bar, no forcing; the 
 of a threaded root; deaths are lawful (each names its law — strong-CP and birefringence share
 L1a, one clause, shared fate both ways).
 
-**The master computes (the 40 debts factor to 8, in 4 clusters — internal review):** par/size (the α_c MCMC +
+**The master computes (the 40 debts factor to 8, in 4 clusters):** par/size (the α_c MCMC +
 the lanes), topology (the AD route + the cavity), frame/UV (the Lorentz program + λ), data
 (the chains + the epoch stamps). Sprint results: the toy cavity puts ℓ=2,3 BELOW the first
 torus mode (T5's matched-circles risk resolved favorable); the thermal-leptogenesis surface is

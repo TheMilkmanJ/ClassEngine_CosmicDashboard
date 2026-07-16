@@ -80,7 +80,7 @@ classical |Ψ(t)|² of the displaced field. So
  δm/m|_BBN ~ (10⁵–10⁸) × δm/m|_recomb = (10⁵–10⁸) × 1.2% → absurd.
 
 The mass shift would be astronomically large at BBN. **This alone is the D/H
-catastrophe (the internal review/91), and it does not depend on temperature.** Rotation does
+catastrophe, and it does not depend on temperature.** Rotation does
 NOT save it: a uniformly rotating field has ⟨Ψ⟩ → 0 (phase averages out) but
 ⟨|Ψ|²⟩ = |Ψ|² is UNCHANGED (the magnitude-squared is phase-blind). U(1) forces
 the coupling onto the magnitude, and the magnitude is huge.
@@ -147,12 +147,12 @@ coupling with an emergent coherence coupling — a specific, unproven, non-gener
 construction. Gate 0 does **not** pass on theory.
 
 ### Consequence
-- The **m_e=1@BBN config choice is an ASSUMPTION**, not a derivation. internal review
- graded it exactly right; this derivation confirms it and adds *which
+- The **m_e=1@BBN config choice is an ASSUMPTION**, not a derivation; this derivation
+ confirms it and adds *which
  way it leans*: against.
 - The honest, consistent, action-faithful config is closer to the **catastrophe**
  reading (m_e shifted at BBN, per the local F(φ)R), which reinstates the
- deuterium scar (the internal review/91) OR requires a *separate* D/H healer (the doubling
+ deuterium scar OR requires a *separate* D/H healer (the doubling
  debt). The provisional +6 χ² should be treated as **likely spurious**, not
  merely unbanked.
 - The two paths to actually *earn* the heal, now sharply defined:
@@ -235,7 +235,7 @@ is what the sky *requires* — even though the model does not yet derive the mec
 - **CATASTROPHE EXCLUDED at ~12σ. HEAL (m_e=1@BBN) consistent.**
 - **The sky requires m_e ≈ 1 at BBN**, independent of the CMB fit and of every PRTOE
  knob. ⇒ the m_e=1@BBN value used in the CMB configs is **DATA-REQUIRED, not a free
- knob.** This supersedes the internal review "fit-motivated / circular knob" concern.
+ knob.** This supersedes the "fit-motivated / circular knob" concern.
 
 ### 7.2 The DEAD-END LOG — four heal-mechanism rescues, all killed. DO NOT re-try:
 1. **ρ_s (superfluid-density coupling):** a cold coherent large field has ρ_s ∝ |Ψ|²
@@ -244,7 +244,7 @@ is what the sky *requires* — even though the model does not yet derive the mec
 2. **Rotation as the coupling:** the current J·J ∝ (R²θ̇)² is ~10⁵¹× too small to source
  1.2% (θ̇ ~ fuzzy-DM mass ~10⁻²² eV). Rotation is the CLOCK (release/twist marks the
  snap) and the ABUNDANCE/sign carrier — NOT the mass coupling. DEAD as source.
-3. **Trace-driven conformal F(φ) build (the working docket, purple-team the internal review):** the
+3. **Trace-driven conformal F(φ) build (the working docket):** the
  F(φ) sector is DORMANT in the dyad (no scf in config, no F/φ in background, no
  parameter reads); the coded activation is a hardcoded a=1×10⁻⁴, not H=m; and the coded
  ξ_eff is QUADRATIC (0.04% at φ=0.02, 30× short of 1.2%). DEAD as coded.
@@ -275,8 +275,8 @@ the data (docketed; done), or design a different field (future project).
 - The snap (condensation at H=m, z~4×10⁷, between BBN and recomb) is the MODEL-FIXED
  timing — that part is clean; it is the AMPLITUDE/FORM that is open.
 
-### 7.5 Standing (corrected by internal review, — the internal review ~15-20% was over-optimistic)
-**~10-12% now, and BIMODAL.** #29 flipped only ONE of the win's three conditions (the
+### 7.5 Standing
+**The standing is bimodal.** #29 flipped only ONE of the win's three conditions (the
 BBN VALUE m_e=1@BBN is data-required, not a free knob — that debit is dead). TWO remain:
 the differential mechanism must derive, and the recomb win is still SHOES-dependent.
 Crucially, #29 did NOT gift the heal — it made gate-0-FAIL **FATAL**: the ~12σ exclusion
@@ -284,15 +284,15 @@ runs through the QUARK-shared channel, and the model's coupling IS universal (th
 feature that bought census-legality, t84). So **universality = census-legality = 12σ BBN
 severity — the feature is the executioner.** Hence:
 - differential mechanism DERIVES (single coupling, 0@BBN + 1.24%@recomb, form+timing from
- first principles, NOT selected-to-heal) → real contender, 15-20%+ EARNED;
-- only a UNIVERSAL shift derivable (m_e ≠ 1 at BBN) → **12σ DEAD (~0).**
-Correction of a internal review over-claim: "#29 proves the mechanism exists in nature" is WRONG —
+ first principles, NOT selected-to-heal) → a real contender;
+- only a UNIVERSAL shift derivable (m_e ≠ 1 at BBN) → **12σ DEAD.**
+Correction of an over-claim: "#29 proves the mechanism exists in nature" is WRONG —
 nature's m_e=1@BBN is CONSTANT m_e (standard physics), a CONSTRAINT the model must meet,
 not proof a varying-heal mechanism exists. §7.4 is survive-or-die, not tidy-up.
 
-### 7.6 TERMINUS (internal review,) — STRUCTURAL NO-GO, ~1-2%, model dead
+### 7.6 TERMINUS — STRUCTURAL NO-GO, this branch dead
 The §7.4 survive-or-die derivation was RUN healing-blind and FAILED as a
-**structural no-go (~99%, modulo composite/higher-derivative exotica)**, not a search failure:
+**structural no-go (modulo composite/higher-derivative exotica)**, not a search failure:
 - **Symmetry protects the WRONG mode.** U(1) shift symmetry → PHASE is a Goldstone →
  derivative coupling → vanishes for the static frozen field (would heal) BUT is the
  rotation/current ~θ̇, m-suppressed (m~2×10⁻²⁰ eV) → 10⁵¹× too small. The AMPLITUDE ρ is NOT a

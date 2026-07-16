@@ -53,14 +53,14 @@ environment half, one transaction and one receipt at a time.
  plausibly reopens. Posterior computing.
 
 ## Architecture correspondences (analogy-grade, per the §13 relabeling —
-## true-and-structural, not theorems; demoted here 2026-07-07, internal review,)
+## true-and-structural, not theorems; demoted here 2026-07-07)
 - **The three laws**: one clearinghouse (gauge structure); adiabatic
  background ledger (unitarity); rules amendable, balances not.
 
 ## Calibration (known answers the ledger language must and does reproduce)
 - **Total energy (closed universe) ≡ 0** — the Hamiltonian constraint,
- textbook GR restated in ledger language (moved from Identities,
- internal review,: translation, not derivation).
+ textbook GR restated in ledger language (moved from Identities:
+ translation, not derivation).
 - **Action-currency conservation** — adiabatic invariance of occupation
  numbers, textbook QM restated (moved from Identities, same ruling).
 - **Hydrogen from scratch**: binding as transaction equilibrium
@@ -146,7 +146,7 @@ environment half, one transaction and one receipt at a time.
  choice); ALGORITHMS are choreographed interference (C4g: arrange
  phase accrual so wrong-answer branches cancel — Shor/Grover as
  interest-rate bookkeeping); MEASUREMENT is the single final posting
- (algorithm design = Born-odds engineering); ERROR CORRECTION is the
+ (algorithm design = Born-rule engineering); ERROR CORRECTION is the
  crown — syndrome measurements are engineered check-in-free
  transactions (C4h/QND class): they post records about the ERRORS
  while leaving the data's draft unposted. Receipt: Google Willow
@@ -201,8 +201,8 @@ environment half, one transaction and one receipt at a time.
  expansion pair-creation supplies r (deficit 6×10⁻⁹ at r=5). What
  remains is the condition itself: quantization of the substrate's
  phase sector is asserted, not derived; Gaussian audits see no
- violation (positive Wigner). FILED AS THE MAP'S EDGE (internal review turn
- 16, adopted): quantizing the phase sector hands off to non-ledger
+ violation (positive Wigner). FILED AS THE MAP'S EDGE:
+ quantizing the phase sector hands off to non-ledger
  structure — C4 locates where classical bookkeeping ends; it is a
  boundary honestly drawn, not a conquest past the wall.
 
@@ -242,7 +242,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
  graveyard's founding precedent.
 - **Epoch m_e couplings (linear / log / bespoke saturation)** — killed
  by BBN pincer / quasar 11,000× / no natural scale. SPLIT per Rule 1
- (the internal review): the *epoch* half is a passed bet (coupling active only
+ the *epoch* half is a passed test (coupling active only
  z>1000 while killers live z<3 — specific both ways). The *local-state*
  half's condition is now named to escape blank-check status: MET by a
  detected μ/α gradient tracking local dark density across environments;
@@ -294,7 +294,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
  silence is P-2026-005's structural half and must NOT resurrect.
 - **The funded-floor drift fingerprint (P-2026-003's observable half)**
  — killed 2026-07-07 by the mutual-exclusion theorem (V4), step-walk
- CLEARED by the reviewer (the internal review): ν rides m̄₂ alone, M₂ is pinned by
+ CLEARED on review: ν rides m̄₂ alone, M₂ is pinned by
  the completion, observable drift and observable cores cannot coexist;
  ν ≤ 2×10⁻⁸ in the allowed range. *Resurrects if (Rule-1 terms, the
  reviewer's own naming):* a second independent (δg⁰⁰)² author is
@@ -459,8 +459,7 @@ is its only account). Pay it curvature and the product is determined:*
  persistent currents — the lab has already demonstrated "expansion
  dynamics deposits winding," the qualitative analog of our
  tilt-torqued genesis. The birth mechanism has a tabletop cousin.
- **THE CONCRETE PROTOCOL (~5am; answers the internal review's residual — the
- observable IS the frozen ratio):** prepare a ring-BEC superposition
+ **THE CONCRETE PROTOCOL (the observable IS the frozen ratio):** prepare a ring-BEC superposition
  of ±1 winding modes with amplitude ratio dialing f_rot = (n₊−n₋)/n;
  expand the ring adiabatically; measure (i) the mode POPULATIONS
  directly by time-of-flight (±ℓ separate in momentum space — the
@@ -718,7 +717,7 @@ is its only account). Pay it curvature and the product is determined:*
  scored three ways. (i) As entropic-gravity adoption (Verlinde-class
  growth modification): UNAVAILABLE — it would forfeit the
  certificates that keep this model alive (GR-fundamental is the
- survival choice; one-term taxonomy, the internal review) and the field's
+ survival choice; one-term taxonomy) and the field's
  attempts lack working CMB machinery. (ii) As "our S₈ answer is
  thermodynamic": PARTIALLY TRUE AND ALREADY RUNNING — the model's
  S₈ lever is Σm_ν, i.e. the free-streaming of thermal-relic
@@ -795,7 +794,7 @@ is its only account). Pay it curvature and the product is determined:*
  observational axis that separates "self-interacting condensate"
  from "free ultralight scalar" at fixed m. Citation-verified at
  booking; order-of-magnitude grade on the saturation margin.
- **UPGRADE (same night, ~4:30am — the internal review's demand met by sensitivity
+ **UPGRADE (the margin met by sensitivity
  analysis):** the quench margin re-derived as a rate balance
  (Γ_SR ~ α_g⁹m pump vs Γ_nl ~ λ²N²α_g^p m transfer) with the unknown
  α-power p swept over [5, 15] — the margin log₁₀(N_spin-down/N_eq)

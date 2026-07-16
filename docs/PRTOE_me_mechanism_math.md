@@ -6,8 +6,8 @@
 
 
 *Assembled 2026-07-07. This is the EQUATIONS-ONLY companion to
-`PRTOE_me_trigger.md` (which holds the reasoning, the dead ends, and the
-internal review dialogue). Every result here is cross-referenced to its trigger-doc
+`PRTOE_me_trigger.md` (which holds the reasoning and the dead ends).
+Every result here is cross-referenced to its trigger-doc
 section. Status tags: [DERIVED] solid, [BOUNDED] size/ceiling fixed but not
 exact, [OPEN] owed, [FORCED] required by multiple independent constraints.*
 
@@ -54,8 +54,8 @@ structure exists:
 
 This is a direct, dimension-5, Planck-suppressed moduli/dilaton-class
 author with S(x) the environmental modulator. Legality under the coupling
-census: OPEN (narrow reading → legal; broad → forbidden; internal review turns
-61-65). Form: FORCED (geometry is 60 orders too weak, sec 32, so a direct
+census: OPEN (narrow reading → legal; broad → forbidden). Form: FORCED
+(geometry is 60 orders too weak, sec 32, so a direct
 author is unavoidable). [trigger-doc sec 23, 32, 34]
 
 ---
@@ -141,14 +141,14 @@ screening. ⇒ the whole roof reduces to the census-scope question. [sec 34]
 ## 7. The EP escape (fifth-force gate) [RESOLUTION DIRECTION, computation OPEN]
 
 Smooth dilaton: needs β~0.012, MICROSCOPE allows β<~1×10⁻⁴ → 2 orders
-over → DEAD. [internal review,]
+over → DEAD.
 
 Escape: the field is the SHARP/SATURATED Theta (sec 27 sharpness), not a
 smooth dilaton. Inside the virialized MW halo Theta is at its ceiling →
 grad(Theta) ~ 0 (flat top) → grad(φ) exponentially suppressed → no
 fifth force. Chameleon-class screening; screening agent = Theta saturation
 (forced, not tuned). Freezing agent = VIRIALIZATION (medium's own dynamics,
-static in a virialized halo). [defender the internal review]
+static in a virialized halo).
 
 Screening-test corroboration (sec 37, computed): atomic clocks are a GENUINE
 third independent leg -- they kill the continuous version via temporal physics
@@ -165,7 +165,7 @@ OWED COMPUTATION (make-or-break):
  (iii) virialization delivers freezing (Theta static by medium EOM), AND
  (iv) quasar delta_mu/μ ~ 0 (all virialized absorbers Theta-saturated).
 Screening machinery is cousin to the abandoned v1-v3 sector → must earn
-its place fresh (graveyard Rule 3), inherits nothing. [the internal review]
+its place fresh (graveyard Rule 3), inherits nothing.
 
 ---
 
@@ -274,17 +274,17 @@ MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09):
  Yukawa only, no route to m_ν = unmotivated. So the neutrino-sector home SELECTS
  kinetic → dm_nu = 2 dm_e is the LOCKED prediction, not one of two options. [CLOSED]
 
-internal review CAVEAT (internal review, 2026-07-10) -- the deeper gap this section does NOT close. "The
+CAVEAT (2026-07-10) -- the deeper gap this section does NOT close. "The
 medium is made of the neutrino sector" strictly implies a coupling to the WEINBERG author
 (→ dm_nu only). Reaching dm_e requires coupling to L's KINETIC term (Z_L), which is an
 ADDITIONAL step beyond "makes neutrino mass" -- and THAT step is the leptophilia postulate
-itself (dm_e is the charged-lepton Higgs-Yukawa L-bar H e = quark-structured, internal review no-go).
+itself (dm_e is the charged-lepton Higgs-Yukawa L-bar H e = quark-structured, a no-go).
 So the census refinement "couple to what you're made of" (laws doc, 2026-07-10) RENAMES the
 leptophilia gap "substance" but does not close it: it legalizes a dm_nu coupling; the dyad
 is dm_e. The un-derived core is precisely "why couple to L's kinetic term (reaching dm_e)
 rather than only the Weinberg author (reaching only dm_nu)." The mechanism here is a
 coherent, motivated SKETCH; the explicit dm_e coupling from a neutrino-sector medium stays
-[OBJECT-PENDING], prior unfavorable. The assessment did not move (internal review).
+[OBJECT-PENDING], prior unfavorable. The assessment did not move.
 
 LEDGER UPDATE to Section 9: the EP-screening computation [7] is now RESOLVED (2026-07-09):
 the composition-dependent Vainshtein-screened Delta_a/a = 8×10⁻²¹..8e-19, 3-5 orders below
