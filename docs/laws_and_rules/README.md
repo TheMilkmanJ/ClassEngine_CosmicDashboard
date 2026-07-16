@@ -9,10 +9,10 @@ changed a law?" has a real answer going forward.*
 
 **Honesty key:**
 - `[CORPUS]` = quoted or paraphrased from an existing doc, with file:line.
-- `[AUTHOR-PHRASING — verify]` = the author's plain-language memory, matched to the
-  corpus by JP; confirm it matches original intent.
+- `[AUTHOR-PHRASING — verify]` = the originator's plain-language memory, matched to the
+  corpus; confirm it matches original intent.
 - `[RECONSTRUCTED — confirm]` = the best reconstructed trace of history from scattered notes;
-  the author is the authority, not this archaeology.
+  the originator's intent is the authority, not this archaeology.
 
 ---
 
@@ -35,14 +35,14 @@ model's inventions, so not the model's to amend. **Zero amendments, ever.**
 ## Tier 1 — THE LAWS (the founding ledger axioms)
 
 Numbered here as **L#**; the corpus's "C1" gloss reads them as gauge-structure +
-unitarity (`v5_dCDF:1178`). Author's plain-language forms shown in quotes.
+unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
 
 - **L1 — Clearing law.** *"All transactions get cleared through gravity."*
   `[AUTHOR-PHRASING — verify]` Corpus: the cosmic ledger is **identity-blind — it
   reads only w** (the equivalence principle); clearinghouses are gauge fields, and
   gravity is the energy sector's clearinghouse. `[CORPUS: v5_dCDF:1179]` **This is
   "the census."**
-  - **Interface vs substance (JP, 2026-07-08).** L1 is a statement about the
+  - **Interface vs substance.** L1 is a statement about the
     medium's **interface** with matter (purely gravitational) — NOT its
     **substance** (a scalar condensate: mass ~2×10⁻²⁰ eV, abundance Ψ₀, charge,
     clustering into halos). We know the medium *only through* its gravity; it *is
@@ -94,7 +94,7 @@ unitarity (`v5_dCDF:1178`). Author's plain-language forms shown in quotes.
     θ mode — and a parity-odd *gravitational* coupling θ·R·R̃ → GWs; what it cannot do
     is reach the *photon*. So "parity-even" describes its reach to EM, not its
     internal content.)
-    - **Can't split the roles / "parity-even mass + parity-odd EM" (JP, overnight).**
+    - **Can't split the roles / "parity-even mass + parity-odd EM".**
       Two deeper closures. (i) *Single-particle anomaly:* θ·F·F̃ is a triangle,
       coefficient Σ_f q_dark(f)·Q_EM(f)² *per particle* — an actor with EM-but-no-dark
       gives 0·Q_EM², one with dark-but-no-EM gives q_dark·0; **no cross-term between
@@ -152,9 +152,9 @@ judgment in it, flagged per row.*
 | 2 | §96 (2026-07-08) | **L1 / census** | BROADEN: clearing is gravity-only *after condensation*; a direct account is allowed while the medium is massless | the regime change | broaden (you called this the "broaden the other better") |
 | 3 | 2026-07-07 night | **L4** added | ADD an axiom: internal ledger keeps totals, not line-items | gravitational self-energy strain | clear amendment |
 | 4 | 2026-07-10 | **L1 / census** | REFINE: "gravity-only" → "couple to what you're made of" (grav clearing + own-substance-sector); consolidates dyad-legality + L1a birefringence-null into one line | census-vs-dyad internal inconsistency (the dyad was always non-gravitational) | refine (internal review: PRINCIPLED to forbid, breaks no verdict; does NOT derive δm_e — leptophilia renamed, not closed) |
-| 5 | 2026-07-13 | **THE DEPTH LAW — TOTAL** | STRENGTHEN: the ramp presumption becomes total. Steps are ILLEGAL as inputs, assumptions, computational entries, and methods — everywhere, at every depth. A step is legal ONLY as the *output* of an exemption-clause theorem (quantized / topological / protected-zero), and every exempt step must still exhibit its ramp of approach (the integer locks through an anneal; the exact zero is approached by a thaw). Author's form: "the model is a genuine ramp from start to finish — no epoch instantly transfers to the next; they blend. From here on out, we only trust the ramp." | five author catches in one night (process errors 22–24 + the ramp-origin corollary's receipts); the mid-ramp-entry hazard formalized | strengthen (the birefringence-bet constitution survives inside it: integers may still step, but must earn it with a theorem AND show the approach) |
-| 5a | 2026-07-13 | **THE SNAG PROTOCOL** (the depth law's operating procedure) | PROCEDURE: every snag — any result that says "nope, not happening" — is presumed to be a missing ramp-before. On snag: add the ramp before it. If the verdict improves but does not resolve: add the next ramp before. Recurse until termination at (A) the right answer (into-budget), or (B) the CONFIDENTLY wrong answer — every origin walked, the failure lawful and certified (the model genuinely fails there, and the failure is bookable). No snag may be accepted at first contact; no snag may be walked forever — the two terminations are the only exits. Proof-of-concept on record: the 89-series (four ramps to termination-A) and the matter-only sign chain (walked to exhaustion, termination-B, both doors stated). | six author catches in one night, each finding the step one level above the stop | procedure under amendment 5 |
-| 5b | 2026-07-13 | **THE TRIAGE LAW** (how to read any result) | PROCEDURE, author's form: *"Every wrong answer is a ramp check. Every poor fit is a ramp check. Every perfect fit is a validation RAMP."* Wrong answers and poor fits are never verdicts at first contact — they trigger 5a (walk the ramp before). **And a perfect fit is not a trophy and not a single confirming step: it gets its OWN ramp walked**, because a fit can be perfect FOR an unwalked reason (an artifact at the origin, a degenerate basis, a hidden O(1) doing the work). Validation is a ramp, never a step — the amendment-5 discipline binds the model's successes exactly as hard as its failures. Corollary, learned at full price: **a verdict is itself a result and inherits the triage** — obituaries (process error 27) and reprieves (process error 28) both. | the G-closure day: a death certificate AND its reprieve, both issued on unwalked steps, hours apart, on the same question | procedure under amendment 5 |
+| 5 | 2026-07-13 | **THE DEPTH LAW — TOTAL** | STRENGTHEN: the ramp presumption becomes total. Steps are ILLEGAL as inputs, assumptions, computational entries, and methods — everywhere, at every depth. A step is legal ONLY as the *output* of an exemption-clause theorem (quantized / topological / protected-zero), and every exempt step must still exhibit its ramp of approach (the integer locks through an anneal; the exact zero is approached by a thaw). Plain-language form: "the model is a genuine ramp from start to finish — no epoch instantly transfers to the next; they blend. From here on out, we only trust the ramp." | five review catches in one night (process errors 22–24 + the ramp-origin corollary's receipts); the mid-ramp-entry hazard formalized | strengthen (the birefringence-bet constitution survives inside it: integers may still step, but must earn it with a theorem AND show the approach) |
+| 5a | 2026-07-13 | **THE SNAG PROTOCOL** (the depth law's operating procedure) | PROCEDURE: every snag — any result that says "nope, not happening" — is presumed to be a missing ramp-before. On snag: add the ramp before it. If the verdict improves but does not resolve: add the next ramp before. Recurse until termination at (A) the right answer (into-budget), or (B) the CONFIDENTLY wrong answer — every origin walked, the failure lawful and certified (the model genuinely fails there, and the failure is bookable). No snag may be accepted at first contact; no snag may be walked forever — the two terminations are the only exits. Proof-of-concept on record: the 89-series (four ramps to termination-A) and the matter-only sign chain (walked to exhaustion, termination-B, both doors stated). | six review catches in one night, each finding the step one level above the stop | procedure under amendment 5 |
+| 5b | 2026-07-13 | **THE TRIAGE LAW** (how to read any result) | PROCEDURE, plain-language form: *"Every wrong answer is a ramp check. Every poor fit is a ramp check. Every perfect fit is a validation RAMP."* Wrong answers and poor fits are never verdicts at first contact — they trigger 5a (walk the ramp before). **And a perfect fit is not a trophy and not a single confirming step: it gets its OWN ramp walked**, because a fit can be perfect FOR an unwalked reason (an artifact at the origin, a degenerate basis, a hidden O(1) doing the work). Validation is a ramp, never a step — the amendment-5 discipline binds the model's successes exactly as hard as its failures. Corollary, learned at full price: **a verdict is itself a result and inherits the triage** — obituaries (process error 27) and reprieves (process error 28) both. | the G-closure day: a death certificate AND its reprieve, both issued on unwalked steps, hours apart, on the same question | procedure under amendment 5 |
 
 **Count, honest:** by the corpus's own bookkeeping the **balances (Tier 0) have
 never been touched.** At the **law** level there is **one clean addition (L4)**, **one
@@ -168,7 +168,7 @@ judgment calls on whether they "count" — both are L1 clarifications, not new l
 
 ## Worked example — why cosmic birefringence can't clear (L1 in action)
 
-*The clearest demonstration of L1, from JP's "clear it through gravity or EM?"
+*The clearest demonstration of L1 — the "clear it through gravity or EM?"
 question (2026-07-08). Cross-refs the graveyard entry "model-SOURCED cosmic
 birefringence" (8 angles) in `PRTOE_TRANSACTION_ATLAS.md`.*
 
@@ -194,7 +194,7 @@ the polarization form through its gravity account, but gravity is handedness-bli
 IS when the EM handedness-window opens — but it opens for EM *customers*, the
 charged matter doing Thomson scattering; the medium isn't one.)
 
-### The exchange-rate refinement (JP: "transfer it EM → gravity")
+### The exchange-rate refinement — "transfer it EM → gravity"
 
 There IS a wire between the banks — EM has stress-energy and stress-energy
 gravitates (light bends space). But what crosses is only the **parity-even
@@ -209,7 +209,7 @@ mass is parity-even, sits in T_μν, so the medium wires it into its gravity acc
 (→ the m_e win). Same wire, same bank — mass wires through, handedness doesn't; the
 only difference is the parity of the currency.
 
-### β (the read gain) — is it the bridge? (JP: "Beta?")
+### β (the read gain) — is it the bridge?
 
 β is the **matter→space return leg** ("space+matter do gravity, matter+matter do
 EM, matter+space do β"), the read gain that CLOSES the m_e transaction
@@ -224,7 +224,7 @@ parity-even). So β doesn't rescue birefringence; it's more evidence of the same
 rule — every legal leg the medium has (gravity, β) is parity-even, and handedness
 lives in the one sector (EM) the medium has no account at.
 
-### The theorem (JP: "pseudo-parity-odd?") — the deepest closure
+### The theorem (the pseudo-parity-odd question) — the deepest closure
 
 Can the effect be FAKED from parity-even parts? No — by symmetry, not by model
 limitation. **A parity-odd observable in a parity-even state is exactly ZERO:** β
@@ -242,7 +242,7 @@ the model, and it VINDICATES the model: if the observed β is that systematic,
 P-2026-009's null is confirmed. The model roots for a pseudo-birefringence (in the
 detector); it cannot build one (in its physics).
 
-### The "2 odds = even" refinement (JP) — parity was a FAKE wall; the EM account is the real one
+### The "2 odds = even" refinement — parity was a FAKE wall; the EM account is the real one
 
 Sharp correction, adopted: odd × odd = even, so two parity-odd factors CAN combine
 into a census-legal parity-even term — and that IS the birefringence coupling:
@@ -263,7 +263,7 @@ because handedness that rotates *light* is denominated in the EM sector — the 
 bank where the medium has no account. The irreducible wall is the account, not the
 parity.
 
-**Can't route around it — the wire/chain test (JP: "wire transfer between 2 odds?").**
+**Can't route around it — the wire/chain test (wire transfer between 2 odds?).**
 A "wire" between two fields IS the coupling term (θ·F·F̃) — the wire and the
 forbidden coupling are the same object. A wire needs a terminal at BOTH ends: the
 medium owns the θ terminal and the gravity terminal (so it can wire θ↔R·R̃ → GWs),
@@ -274,8 +274,7 @@ middleman, and any charged middleman is new, caged physics (and would itself be 
 source, not the medium). The only real middleman the medium has — ordinary matter —
 it reaches gravitationally (parity-even), so no handedness crosses that hop. **Every
 wire to the photon needs a terminal on the EM line; the medium has terminals on
-every line but that one.** And a regime change can't grow that terminal (JP:
-"regime change during 2 odds?"): condensation switches on a condensate's coupling
+every line but that one.** And a regime change can't grow that terminal (regime change during 2 odds?): condensation switches on a condensate's coupling
 to the gauge field it is CHARGED under (superconductor: EM-charged Cooper pairs
 condense → photon mass), but the medium's condensate is dark-U(1)-charged and
 EM-neutral, so condensing activates its dark/gravity coupling, never an EM one. A
@@ -283,8 +282,7 @@ transition moves the medium's MASS (relaxing the ban on its parity-even matter
 coupling — the f_n leak), not its CHARGE; the missing terminal is a charge fact, so
 the 2-odds wall is invariant across the regime change.
 
-**Thermal is not a way out either (JP: "what if the early pairs paid through THERMAL,
-not EM?").** Two reasons: (1) thermal equilibrium isn't a separate force — it is
+**Thermal is not a way out either (what if the early pairs paid through THERMAL, not EM?).** Two reasons: (1) thermal equilibrium isn't a separate force — it is
 *maintained by* EM (the plasma thermalizes via Thomson scattering), so "paying
 thermal" is paying EM one floor down; (2) more fundamentally, **thermal is
 parity-EVEN** — equilibrium has no preferred handedness (detailed balance, max
@@ -298,8 +296,7 @@ handedness lives only on the EM line.** (NB the early medium→matter channel th
 deuterium heal, not a handedness channel. That channel is a real live front, #11 /
 D-repair — but a parity-even one.)
 
-**Magnetism isn't a separate lens either (JP: "look at magnetics, not just
-electro").** Three points: (1) counter-intuitively a magnetic field **B is
+**Magnetism isn't a separate lens either (what about magnetics, not just electro?).** Three points: (1) counter-intuitively a magnetic field **B is
 parity-EVEN** (an axial/pseudovector — it does NOT flip under parity); the
 parity-ODD EM invariant is **E·B** (= −¼F·F̃), needing both fields — that pairing IS
 the birefringence coupling, not a new object. (2) Magnetism *does* rotate light, via
@@ -313,7 +310,7 @@ medium's own rotation is magnet-like (axial vorticity) but lives in the dark sec
 reaching photons still needs the EM account or a cosmic-rotation gravitational
 Faraday bounded ~0 by isotropy.
 
-**"Why not just use E·B?" — the rigorous bottom line (JP).** E·B (= −¼F·F̃) IS the
+**"Why not just use E·B?" — the rigorous bottom line.** E·B (= −¼F·F̃) IS the
 parity-odd currency we need, and it exists (the plasma is full of it). To *use* it
 means either coupling to it (the term θ·E·B) or sourcing it — both require touching
 E and B, i.e. EM charge. Neutral things *can* touch EM if built from charged parts
@@ -325,8 +322,7 @@ Every fermion the medium's U(1) acts on has EM charge = 0, so the coefficient is
 enlarge. E·B is the destination; the missing piece is the medium's ticket into the
 EM sector (EM charge), a fixed structural fact no coupling/regime/channel confers.
 
-**Why a regime change can't unstick the zero (JP: "give 0 and F·F̃ their own place
-to couple, during a regime change").** True in general that a phase transition can
+**Why a regime change can't unstick the zero (giving 0 and F·F̃ their own place to couple during a regime change).** True in general that a phase transition can
 generate new couplings — but the birefringence coupling is an ANOMALY, and anomalies
 obey **'t Hooft anomaly matching**: the coefficient is a fixed, conserved number that
 must be IDENTICAL in every phase (before/during/after any regime change), like a
@@ -351,7 +347,7 @@ counts, because the anomaly is matched across all of them."**
 
 ---
 
-## SCOPE (JP, 2026-07-08) — what this model IS and IS NOT
+## SCOPE — what this model IS and IS NOT
 
 **PRTOE is a "Theory of EXPANSION" (a TOE, not THE TOE)** -- a falsifiable theory of the
 **diffuse cosmic dark sector**: dark matter + dark energy (the dCDF fluid), the expansion, and

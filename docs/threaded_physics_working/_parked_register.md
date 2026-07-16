@@ -1,4 +1,4 @@
-# The Parked Register — snagged, analyzed, set aside (per the author's law)
+# The Parked Register — snagged, analyzed, set aside (per the parking law)
 
 *Not dead, not alive, not forced. Each entry: the snag, the analysis, and the NAMED UNBLOCK
 that would reopen it. Nothing leaves the register except through its unblock or a kill.*
@@ -23,7 +23,7 @@ SHARPENING booked: the Oklo fence is passed TRIVIALLY on its α-side (the model 
 α — EM-neutrality) and GATE-passed on the m_e-side (β-decay phase space; the settled era) —
 the row's honesty upgraded from "passed" to "passed-for-two-reasons, one trivial."
 
-## THE CROSS-COMPARISON PASS (author-directed): each parked item vs all domains
+## THE CROSS-COMPARISON PASS: each parked item vs all domains
 
 | item | the cross-domain find | effect |
 |---|---|---|

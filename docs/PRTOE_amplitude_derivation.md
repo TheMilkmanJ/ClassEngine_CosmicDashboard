@@ -261,20 +261,20 @@ Traced the "convergences on c~1" to their roots; two corrections + one deepening
  is exactly gravitational." The amplitude program is therefore "census predicts c~1; does the
  independent mass agree?" -- YES (Lyman-a), with the UFD bound as the one dissenting dataset.
 
-## SESSION UPDATE — the LATE regime change reframes DESI (JP insight, 2026-07-08)
+## The late regime change reframes DESI
 
 The dCDF w runs 1/3→0→-1 = TWO regime changes: early (radiation→DM condensation,
 z~1×10⁵) and LATE (DM→DE floor, w:0→-1, z~0.7 → now). **We live inside the late one**
 (the onset of accelerated expansion IS the medium's 2nd phase transition). DESI's w
 measurement is therefore the DIRECT THERMOMETER of this regime change.
 
-**FORK (JP's insight vs the model's theorem):**
+**FORK (the intuition vs the model's theorem):**
 - **(A) current bet:** the late transition FROZE at w=-1 -- mutual-exclusion theorem
  (ANN-2026-008) caps drift at ≤2×10⁻⁸, unobservable. DESI thawing (w0~-0.84, 2.9sigma)
  = THREAT / systematic.
-- **(B) JP:** the regime change is still VISIBLY in progress (w evolving toward -1). Then
+- **(B):** the regime change is still VISIBLY in progress (w evolving toward -1). Then
  DESI's thawing is NOT a threat -- it's the late regime change SEEN LIVE, a CONFIRMATION.
-- JP's intuition and DESI's data point the SAME way (witnessable evolving w), i.e. AGAINST
+- The intuition and DESI's data point the SAME way (witnessable evolving w), i.e. AGAINST
  the model's own theorem.
 
 **COST (honest):** (B) doesn't bend the theorem, it ABANDONS it -- the drift cap (2×10⁻⁸) vs
@@ -286,10 +286,10 @@ theorem. Highest-leverage DESI question is now: is the mutual-exclusion theorem'
 frozen" truly FORCED, or assumed? If relaxable, the acceleration we observe = the medium's
 2nd phase transition witnessed.
 
-## SESSION UPDATE — regime changes are GRADUAL; late one templates the early (JP, 2026-07-08)
+## Regime changes are GRADUAL; the late one templates the early
 
 Three claims, calibrated:
-- **Always gradual:** consistent with JP's §100 process-not-switch; defensible for the
+- **Always gradual:** consistent with the process-not-switch reading; defensible for the
  medium's superfluid CROSSOVERS (condensation, potential-domination). ("Always" isn't a
  law of ALL physics -- first-order transitions are sharp -- but holds for THIS model.)
 - **Intervals lengthen approaching stability: CORRECT.** Clock: BB→condensation ~1×10³ yr;

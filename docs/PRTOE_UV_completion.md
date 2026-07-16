@@ -95,7 +95,7 @@ structure producing w→-1 is ADDITIONAL, not free from the ALP.
 2. **c threshold-matching** (the precision residual from step 2).
 The ALP delivers ~80% (DM/mass/coupling/normal-fraction); the missing 20% is the DE floor.
 
-## Step 4 (2026-07-08) — the causal chain is self-generating to DM, BREAKS at DM→DE (JP)
+## Step 4 — the causal chain is self-generating to DM, BREAKS at DM→DE
 
 Common factor of every regime change: **expansion driving a THRESHOLD CROSSING** (one
 quantity falls until it hits a fixed threshold): condensation at H=m; recombination at
@@ -114,17 +114,17 @@ early ones).
 
 **Sharpest statement of the gap:** the regime-change chain is SELF-GENERATING up to dark
 matter (matter falls out of radiation for free, via H<m condensation) and BREAKS at DM→DE
-(needs the floor as an extra ingredient). JP has now circled this same gap from THREE angles
+(needs the floor as an extra ingredient). The same gap has now been circled from THREE angles
 (DM+DE audit, pressure-sign flip, causal chain). The universe keeps pointing at the floor.
 
-## Step 5 (2026-07-08) — H is the clock: regime changes tie to the medium's scales (JP)
+## Step 5 — H is the clock: regime changes tie to the medium's scales
 
 Every regime change fires when the expansion rate H falls through a characteristic
 scale OF THE MEDIUM: condensation at H~m (m~2×10⁻²⁰ eV); DE onset at H~H_Lambda (floor
 ~meV⁴). H monotonic ⇒ the medium passes each threshold ONCE, in FIXED ORDER (m first,
 H_Lambda last) = the whole radiation→matter→energy chain from one downward-ticking quantity.
 
-**Unifies the recent JP insights:**
+**Unifies the recent insights:**
 - always-gradual = each H-crossing has width;
 - intervals-lengthen = H flattens toward de Sitter (H→const), so sweep-time between
  thresholds stretches to infinity (forced, not separate);
@@ -137,12 +137,12 @@ pins m~2×10⁻²⁰ eV.
 **Vindicates "uses its own gravity" (late-time):** early, H is set by radiation (medium
 rides the shared background); LATE, the medium (as DE) DOMINATES ρ, so H→H_Lambda is set
 by the medium's OWN floor → the final regime change is SELF-DRIVEN (the floor sets the
-expansion rate that freezes it into DE). JP was early, not wrong.
+expansion rate that freezes it into DE). The intuition was early, not wrong.
 
 **Caveat:** "everything ties to H" is partly just cosmology; the CONTENT is that the
 thresholds are the MEDIUM's scales (m, floor) → transition-times are predictions.
 
-## Step 6 (2026-07-08) — bracketing the dark sector: ceiling & floors (JP)
+## Step 6 — bracketing the dark sector: ceiling & floors
 
 Can we extract DM's ceiling/floor and DE's floor from the current regime + H? Sorted:
 - **DM floor = DE floor = ρ_Λ ~ (2.3 meV)⁴:** SAME number (DM & DE cross at the
@@ -203,7 +203,7 @@ PRODUCES the predicted w(z), doesn't just allow it.
 **Piece 1 (c exact):** still the threshold-matching loop, un-shortcut. Stands: flavor-break 0.35%,
 overall ~1 +- (matching, sub-% to few-%). Owed honestly.
 **Piece 3 (CC value):** the model already dissolves the CC's CONSTANT-NESS -- the floor is a
-dynamical kinetic condensate, NOT an inert Λ (aligns with JP's no-true-constants view). Only
+dynamical kinetic condensate, NOT an inert Λ (aligns with the no-true-constants view). Only
 the VALUE (why X0 → P~-(meV)⁴) is tuned, off the promises list. Hint: meV ~ m_ν coincidence →
 IF neutrino-connected, the value gets a dynamical origin too (speculative, unclaimed).
 

@@ -27,7 +27,7 @@ Residual standalone: bench designs (T7), TRGB/PolyChord (external clocks), instr
   quartic's origin and the frame question — one microphysics, two masters.
 - M5 ↔ M6: the chains' posteriors re-stamp the same lattice the windowed run re-stamped.
 
-**The author's bet, graded by the ledger: ~40 debts → 8 masters → arguably 4 CLUSTERS
+**The estimate, graded by the ledger: ~40 debts → 8 masters → arguably 4 CLUSTERS
 (the par/size cluster M1+M8, the topology cluster M2+M7, the frame/UV cluster M3+M4, the
 data cluster M5+M6). The debt sheet has the same shape as the model: few roots, everything
 else inheritance.**
