@@ -1804,23 +1804,19 @@ running instrument: the α_c chain's indirect band [0.0205, 0.0214] sits 2.3% be
 c = 9/10 and f̄ = 2/π, the zero-dial assembly gives ε = (9/10)·(2/π)·3α = 1.254%, against the dyad
 posterior's ~1.24%.
 
-**Why the factor is 3 — the spatial dimension d, triply consistent.** The 3 is not a flavour count
-or a free integer; it is the dimension of space, read three independent ways:
-- **second sound** — the phonon-gas second sound runs at c₂ = c₁/√d = c₁/√3, so with c₁ = √α_c·c,
-  **α_c = 3α ⟺ c₂ = √α·c ≈ 0.0854c**;
-- **geometry** — d = 3 is the dimension of the space the condensate occupies;
-- **the induced loop** — the transverse-projector trace in the induced vacuum polarization is
-  g_{μν}(g^{μν} − q^μq^ν/q²) = (D_spacetime − 1) = 3 = d. The condensate stiffness (compression in
-  all d directions) reads that trace and carries the factor d; light (a transverse Goldstone) reads
-  the scalar and carries none.
+**Why the factor is 3 — the spatial dimension d.** The 3 is not a flavour count or a free integer;
+it is the dimension of space, and it enters through the second sound: the phonon-gas second sound
+runs at c₂ = c₁/√d = c₁/√3 (Landau two-fluid hydrodynamics), so with c₁ = √α_c·c, **α_c = 3α ⟺
+c₂ = √α·c ≈ 0.0854c**. The 3 is d = 3, the dimension of the space the condensate occupies —
+derived, not assumed.
 
 **Why the base is α — a consistency condition, not a portal.** Light is the condensate's *own*
 Goldstone mode, so relating the sound speed to the light speed (c₂ = √α·c) is a consistency
 condition on one medium's two co-modes — not a census-forbidden EM exchange. Candidate mechanism:
 the single fermion loop that already induces ~44% of light's α also sets the condensate's
-compressibility. **Owed (two field-theory computes):** (i) confirm the stiffness reads the trace
-(not trace/d or a polarization count); (ii) the base equals α only for the specific roster (light
-is 44% induced), so "base = α" is roster-conditional.
+compressibility. **Owed (one field-theory compute):** the base equals α only for the specific
+roster (light is 44% induced), so "base = α" is roster-conditional — pinning it closes the coupling.
+The factor 3 = d is already derived from the second sound, independent of the loop.
 
 **Grading — a three-reading convergence, no single instrument can cheat:** (i) the dispersion α_c
 chain (the mode sector's direct fit — running); (ii) the isocurvature phase speed c₂ = √α·c (the

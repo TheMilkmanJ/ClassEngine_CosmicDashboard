@@ -7449,3 +7449,16 @@ The d=3 is **triply consistent**: second sound (√d), background geometry (3D s
 "bare bet / probable coincidence" (entry 197, WRONG) to "3 forced as d, ×α a consistency condition
 with a candidate loop-trace mechanism" (entries 200/201/202) — five pushes, five advances, no
 fabrication. Not closed; localized to two field-theory computes.
+
+**ENTRY 202 CORRECTION — the loop-trace mechanism is REFUTED (the confirmation failed, honestly).**
+Asked to confirm "the stiffness reads the vacuum-polarization trace (factor d)." It does NOT. The
+stiffness is the DENSITY response Π⁰⁰ (one component), not the trace Π^μ_μ. In the Lorentz-invariant
+loop Π⁰⁰ = Π_T = |q|²Π (ratio 1) — NO factor d. "Trace = d" is a true fact but the stiffness doesn't
+read the trace. **Entry 202's loop mechanism for the 3 is dropped.** The factor **d = 3 stands from
+SECOND SOUND alone** (c₂ = c₁/√d, Landau two-fluid) — clean, derived, loop-independent. The operator's
+"there's always a third" was correct and it caught the error: the genuine three computes are (1) which
+response each mode reads, (2) the MEDIUM's Π_L vs Π_T (medium-dependent, does NOT give a clean d — a
+static plasma has Π_L/Π_T→∞), (3) the base=α. The middle one refutes the loop route. Net: the d is
+derived (second sound); the loop-trace was a wrong extra; the ONE genuinely owed compute is base=α
+(roster). Registry P-040 edited to the clean state (loop-trace removed, owed count → 1). The honest
+result is *stronger*: one clean derived source for the 3, not three shaky ones.
