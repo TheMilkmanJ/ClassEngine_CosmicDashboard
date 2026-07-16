@@ -8022,3 +8022,35 @@ the critical g_c=2), the DE value lands **1.0–1.1×**. SOFT: (Λ, g) are natur
 compositeness (Λ, g)," with those two physical parameters the new residual — a much better place than the
 perturbative dead-end (ill-defined, 2× over). Method: built the gap equation, ramped g and Λ, credited
 the landing without claiming Λ=m_e/g~2.8 are forced. The new owed piece: derive (Λ, g) from the medium.
+
+---
+
+### Entry 217 — DERIVING (Λ, g) FROM THE MEDIUM (operator: "derive them"): **Λ=m_e DERIVED, g>g_c=2 DERIVED (condensation⟺supercritical; α_c 300× too weak); residual compressed to ONE O(1) strong-coupling τ=T_c/m_e~0.34 — BUT a factor-3 tension surfaces between the DE-value T_c and the varying-m_e VEV**
+
+Pushed the gap equation's two residual params (Λ, g) back onto the medium.
+
+**Λ = m_e — DERIVED.** The dyad is the field that shifts m_e (varying-m_e); a charge-free electron
+bilinear (ψ̄ψ) has its compositeness cutoff at the electron mass. Λ = 511 keV. Natural/forced.
+
+**g > g_c = 2 — DERIVED.** The dyad condenses ⟹ supercritical coupling (automatic for a condensate).
+The α_c-strength contact binding gives g = 4α_c/π² = 0.009 — **300× below critical** — so the binding is
+NOT the weak medium coupling; it is genuinely STRONG/non-perturbative. g > 2 is forced by the fact of
+condensation.
+
+**The residual: ONE O(1) number.** ρ_Λ¼ = (9/2)α⁴·m_e·**τ**, τ = T_c/m_e. DE lands 1.0–1.1× for
+τ ≈ 0.34–0.38 (g ≈ 2.8–3.0, ~1.4× critical). So everything but τ (a strong-coupling O(1), not perturbatively
+derivable) is now fixed — the DE value = α⁴·m_e·(O(1)).
+
+**HONEST TENSION (newly surfaced).** BCS-class: T_c ~ 0.57·Δ(0), so T_c ~ 185 keV ⟹ NJL T=0 gap
+Δ(0) ~ 325 keV. But the dyad VEV the varying-m_e (ε = 1.24%, the H₀ mechanism) needs is ~100 keV —
+a **factor-3 mismatch**, and vs the actual m_e-shift εm_e = 6.3 keV it is ~50×. Reading: since the
+perturbative VEV (100 keV) is itself ill-defined (entry 215), this MAY be a revision, not a contradiction
+— but if the gap really wants a 3× larger condensate, it OVER-produces the electron-mass shift and breaks
+the H₀ fit. **So the DE value and the varying-m_e mechanism are now CROSS-CONSTRAINED, and sit in ~3×
+tension in the simple electron-NJL picture.** A real new problem to resolve, not a closure.
+
+**Net.** (Λ, g) → (m_e derived, supercritical derived) + one O(1) τ~0.34 (not derived) + a factor-3
+DE-vs-varying-m_e tension. The DE value is now α⁴·m_e·(O(1)) — the cleanest structural statement of the
+arc — but the O(1) and the cross-sector tension are the honest open pieces (task #47 carries them).
+Method: ramped the g-source (α_c fails by 300×) and the BCS gap-VEV consistency (surfaced the tension);
+credited only what's forced (Λ=m_e, g>g_c); did NOT claim τ derived.

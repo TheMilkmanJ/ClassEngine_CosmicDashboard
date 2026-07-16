@@ -77,8 +77,13 @@ non-perturbative gap equation was then built** (hunt 216): treating the dyad as 
 composite the model says it is, the NJL/BCS gap equation is cutoff-regulated → **T_c = Λ·τ(g) is
 WELL-DEFINED** (log-ambiguity resolved), and for natural inputs (compositeness Λ=m_e, coupling g~2.8,
 just above the critical g_c=2) **ρ_Λ¼ = (9/2)α⁴·Λ·τ(g) lands 1.0–1.1×**. So the arc is ill-defined →
-well-defined: the residual is now two PHYSICAL medium-compositeness parameters (Λ, g), natural but not
-yet derived — a much better footing than the perturbative dead-end. Owed: derive (Λ, g) from the medium.
+well-defined. Deriving (Λ, g) (hunt 217): **Λ = m_e** (electron-bilinear composite) and **g > g_c = 2**
+(condensation ⟺ supercritical; the α_c binding is 300× too weak, so it's genuinely strong) are DERIVED —
+leaving **ρ_Λ¼ = (9/2)α⁴·m_e·τ** with only the O(1) strong-coupling τ = T_c/m_e ≈ 0.34 as the residual:
+the DE value = α⁴·m_e·(O(1)). **NEW tension (honest):** the T_c that lands the DE value implies a
+condensate ~3× the dyad VEV the varying-m_e (ε=1.24%, the H₀ mechanism) needs — so the DE value and the
+varying-m_e mechanism are now CROSS-CONSTRAINED and sit in ~3× tension in the simple NJL picture. An open
+problem (task #47), possibly a revision of the ill-defined perturbative VEV rather than a contradiction.
 Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
 scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
 
