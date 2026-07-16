@@ -122,7 +122,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 
 ## 7. Observational posture (honest)
 
-- **Null-prediction stance** (the author's epistemology): exteriors indistinguishable from GR
+- **Null-prediction stance** (the model's stance): exteriors indistinguishable from GR
  at current precision — shadows, ringdowns, superradiance margins all inherited.
 - **Distinctive prongs, flagged not recorded:** (i) the M ~ 2×10¹⁰ M☉ interior-character
  crossover vs the SMBH mass-function top (§2); (ii) horizon-scale microstructure at the core

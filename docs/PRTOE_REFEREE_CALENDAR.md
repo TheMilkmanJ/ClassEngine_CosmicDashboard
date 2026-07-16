@@ -9,7 +9,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 ## Sitting NOW (in-house machines)
 | referee | grades | decision rule | ETA |
 |---|---|---|---|
-| **THE REFEREE** (dyad_ev PolyChord) | P-2026-044 (ΔlnZ bets: author ≥+5, defender +3±1) | ≥+5 author wins; +2–4 defender; <+2.5 = the bottom-out clause; autopsy protocol runs regardless | days |
+| **THE REFEREE** (dyad_ev PolyChord) | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless | days |
 | the ΛCDM twin (cmp_lcdm_ev) | the ΔlnZ denominator | same stack, same nlive — no comparison without it | after the referee |
 | **zon_disp** (paused at 457, resumes post-referee) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, FIVE freezes | converged (R−1 < 0.05) center INSIDE 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; ABOVE ~7.8 = the named branches must pay | days after resume |
 | the thaw chain (fresh, resumes) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself | days after resume |

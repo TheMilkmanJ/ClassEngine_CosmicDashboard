@@ -122,7 +122,7 @@ mechanism's unconditionality (M3), an assumption named as such.
 The deciders: the α_c MCMC (grades $3\alpha$ and the $c$-roster), the $\bar{f}$ ensemble, DESI DR3,
 and PolyChord — **THE ZERO-PARAMETER EVIDENCE RUN is IN PROGRESS as of 2026-07-13** — ε, A_s, n_s,
 and z_on all STATED (derived/profiled, statuses in the DEPENDENCY_TREE), no Occam
-shelter, full exposure; the sampled-ε referee deferred by author order. This file
+shelter, full exposure; the sampled-ε referee deferred by design. This file
 inherits the verdicts.*
 
 ## Sources

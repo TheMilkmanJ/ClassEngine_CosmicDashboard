@@ -60,7 +60,7 @@ Match 1.002×. The onset is field 1's H=m clock — textbook ULDM — NOT a cond
 (the apparent internal inconsistency dissolved, booked both columns). Code: `dcdf_z_rad_onset`
 (background.h, with the derived-identity comment).
 
-**Two jobs, one clock** (author, 2026-07-10): the ending regime reaches its floor (conformal
+**Two jobs, one clock:** the ending regime reaches its floor (conformal
 protection ends) while the starting regime crosses its threshold (dust/DM behavior begins). In
 code this is literally one function: `dcdf_rho_rad`'s f(a) = x²/(1+x²) fades the radiation while
 the dust part continues, amplitude fixed by continuity (no free knob).

@@ -2,7 +2,7 @@
 
 *STATUS LABELS used across this shelf: PRODUCTION (fit-grade, chain-backed) · RECORDED
 (graded, in the ledger) · EXPLORATORY (review-hold work, un-refereed) ·
-ESTIMATED (author-sanctioned estimate grade) · SCHEDULED (referee named and funded) ·
+ESTIMATED (estimate grade) · SCHEDULED (referee named and funded) ·
 interpretation-grade (ontology only, zero modified numbers).* — domains, files, relations (living)
 
 *The master map: every covered domain/subdomain → its standalone → its relation class

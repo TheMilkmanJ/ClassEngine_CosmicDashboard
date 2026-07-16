@@ -26,7 +26,7 @@ timescale; the clearinghouse extends no eternal credit. The medium's bulk sector
 supply the overdraft at all: λ > 0 (from real c_s = √α_c), positive-pressure excitations
 only.
 
-**THE NO-OVERDRAFT LAW (the author's form, adopted):** a throat doesn't just need
+**THE NO-OVERDRAFT LAW:** a throat doesn't just need
 credit — it needs the zero-point itself to owe money. The vacuum is the FLOOR ACCOUNT
 (occupancy pinned at exactly one per cell — the pinch); drawing below it is an overdraft,
 and the solvency law names who holds overdraft privileges: **no one.** The whole ban in

@@ -39,7 +39,7 @@ transactions exist) × the SCREENING section (how much survives each rung). Stat
 | atoms / quantum | full (weight) | the ε-HISTORY written into every mass (the lattice's fossil record) | **the medium IS the arena: the interpretation layer (§12), the neighbor rule, the one phase** |
 | the basement | — | — | the Planck layer (forced by induced-G) |
 
-## 2. The author's law, stated as physics
+## 2. The law, stated as physics
 
 **No screen in this model reaches zero**: the C²-gate is Gaussian (tails), Vainshtein is
 power-law (residuals), and the gravitational and substrate channels are unscreenable in

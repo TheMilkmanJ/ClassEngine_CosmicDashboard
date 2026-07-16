@@ -84,7 +84,7 @@ the ALP completion against the full dCDF feature list:
  separate piece.
 
 **The gap + what fills it:** the DE floor is the "funded floor" (sign-locked phantom
-floor via the (deltaK)² author, the graveyard resurrection). So:
+floor via the (δK)² operator, the graveyard resurrection). So:
  **Full UV completion = ALP (DM + mass + coupling) + (deltaK)² funded-floor (DE).**
 One field can host both (rotation → DM; derivative self-interaction → DE floor), but the
 structure producing w→-1 is ADDITIONAL, not free from the ALP.
@@ -192,8 +192,8 @@ Fluctuations δ φ around the condensate minimum: sound speed **c_s² ~ P'(X0) =
 unstable). The (deltaK)² term RESCUES it: supplies a higher-derivative dispersion
 **ω² ~ +k⁴/M²** (in place of the missing c_s² k²). Fluctuations oscillate (stable),
 NOT grow -- IF the sign is right. So **the "sign-lock" IS the stability condition**: the SAME
-author that funds the floor (P min at X0≠0) stabilizes it (k⁴ dispersion, sign-locked). One
-author, both jobs -- a consistency, not a patch.
+operator that funds the floor (P min at X0≠0) stabilizes it (k⁴ dispersion, sign-locked). One
+operator, both jobs -- a consistency, not a patch.
 **w(z) transition:** field slides to X0 → w runs 0→-1 as a SMOOTH MONOTONIC crossover, width
 set by P''(X0) -- exactly the "gradual crossover, no step/wiggle" DESI prediction. The mechanism
 PRODUCES the predicted w(z), doesn't just allow it.

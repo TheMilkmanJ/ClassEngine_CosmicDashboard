@@ -100,7 +100,7 @@ inheritance DAG read aloud, once, as a life.
 
 # APPENDIX A — THE MATH PER ARROW (living section; appended as results land)
 
-*The author's standard: every arrow shows its equation, its number, and its citation — or it
+*The standard: every arrow shows its equation, its number, and its citation — or it
 wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 
 | GEN | the arrow's equation | the number | citation |
@@ -130,7 +130,7 @@ us); GEN 11's quantitative F_available budget (computable from the account — q
 
 # APPENDIX B — THE SCIENCES AS PHYSICS (living; the master equation per science)
 
-*The author's directive: thread the sciences until science and physics are the same thing.
+*The directive: thread the sciences until science and physics are the same thing.
 The method: a science enters ONLY by its master equation, its physics parent, and the medium's
 relationship. No equation, no row.*
 

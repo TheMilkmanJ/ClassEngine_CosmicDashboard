@@ -21,7 +21,7 @@ the constitution — the dangerous operators are not suppressed, they are UNWRIT
 
 ## 1. The table (sector → the model's coefficient → the bound → margin)
 
-| sector / author | model's value | bound | margin |
+| sector / operator | model's value | bound | margin |
 |---|---|---|---|
 | photon, all dims (tree) | **0 — EM-neutrality** (recorded, birefringence-null) | — | exact |
 | photon dim-5 (loop, via graviton) | ≲ 10⁻³⁰ (double-suppressed) | ξ ≲ 10⁻¹ (Fermi GRB) | ~29 orders |
