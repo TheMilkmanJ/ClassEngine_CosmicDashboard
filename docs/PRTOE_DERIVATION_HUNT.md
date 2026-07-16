@@ -8606,4 +8606,41 @@ checks — but the scalar sector is missing from the count, and whether that's a
 exact k₁ weight for scalars. **Owed:** verify Visser Eq. 35's scalar coefficient; if nonzero, P-045
 carries a conformal-Higgs (ξ_H = 1/6) condition — the same ξ_H the G-value already needs, so the
 "str[k₁]=0 survives independently" claim would be the thing to soften. Flagged for the operator, not
-edited (it touches the flagship P-045 and the quantum-gravity keystone).
+edited (it touches the flagship P-045 and the quantum-gravity keystone). [P-045 caveat APPLIED 2026-07-16.]
+
+---
+
+### Entry 235 — THE BASEMENT ROSTER (#18) meets the DARK SECTOR (#48): **the frame/UV cluster's two open structural threads are plausibly ONE sector — a 3-flavour, lepton-partnered, confining/paired vacuum at the electron scale**
+
+The basement-roster hypothesis (entry 9, hypothesis-grade): the medium = the **paired lepton-sector
+vacuum** — leptophilic by identity, α_c = 3α from the three lepton flavours, neutrinos interior
+(c = 9/10) as constituents' partners, the Majoron tie as its Goldstone, a charged rotating superfluid.
+This session's DE-sector work independently built a **dark confining sector** (#48): 3-flavour-class,
+scale √σ_dark ≈ m_e, the dyad as its chiral condensate.
+
+**The connection.** These two share a *scale* (m_e) and a *flavour count* (3 — the α_c = 3α "3" =
+three lepton flavours = the dark sector's N_f), which strongly suggests they are **one sector**: a
+3-flavour dark-colour sector whose flavours are lepton-partnered, confining/pairing at the electron
+scale. That would unify the frame/UV cluster — #18 (who lives downstairs), #48 (the DE-binding sector),
+and the α_c = 3α "3" — into a single object, and it makes the M3 str[k₁] balance a statement about
+*this* roster.
+
+**What it buys — and what it doesn't (red-team).** It recasts the portal √σ_dark = m_e from "a
+coincidence" to **"the medium sits at its own lightest constituent's scale"** — the electron, as the
+lightest lepton-partner, sets the confinement/pairing scale. That is a genuine *softening* of the
+portal's arbitrariness. But it is **not a derivation**: it hits the same hunt-229 wall — either the
+leptons are current-mass-like and √σ is decoupled from m_e (portal still unexplained), or the electron
+is a composite bound state of the sector (√σ ~ m_e forced, but the SM electron is fundamental). The
+unification does not escape that fork; it only names the natural scale.
+
+**Consistency with option (a).** #48's dark quarks are *dark* partners (not the SM leptons themselves),
+so the DM stays the ultralight excitations (option a) and the SM leptons remain fundamental — the
+"lepton-partnered" reading means the dark flavours mirror the lepton flavours, not that leptons are the
+confined constituents. This keeps the composite-electron horn of the fork closed and the current-mass
+horn open (portal irreducible, as established).
+
+**Net:** #18 and #48 are plausibly the same 3-flavour, lepton-partnered, electron-scale confining/paired
+vacuum — a real unification of the frame/UV cluster's open threads, hypothesis-grade. It softens the
+portal (the medium's own-scale reading) without deriving it, stays consistent with option (a) and the SM
+electron, and it hands M3's str[k₁] balance a concrete roster to run over. The frame/UV cluster now has
+one object at its root, not four; its one irreducible input remains √σ_dark = m_e (the meV whisper).
