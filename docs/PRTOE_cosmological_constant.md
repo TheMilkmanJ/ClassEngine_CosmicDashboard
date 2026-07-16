@@ -86,7 +86,13 @@ for a condensate — BCS wants T_c/v = 0.567 < 1), so the gap equation CORRECTS 
 v ≈ 340 keV. Since only ε = κv² is observable, re-fitting the free κ preserves ε = 1.24% exactly and the
 T_c window is unchanged — **no observable breaks**. The dyad sector is now BCS-coherent (v ≈ 340 keV,
 T_c ≈ 185 keV, v < m_e = Λ). So the only remaining DE-value residual is the single O(1) strong-coupling
-τ = T_c/m_e ≈ 0.34. (The "3" was a BCS/perturbative-inconsistency artifact, not the structural d=3.)
+τ = T_c/m_e ≈ 0.34. (The earlier factor-3 tension was a BCS/perturbative-inconsistency artifact, not the
+structural d=3.) **Deriving τ (hunt 219):** unitarity gives τ~0.167 (2× low); the conjecture **τ = 1/d =
+1/3** gives the clean **ρ_Λ¼ = (d/2)α⁴m_e = (3/2)α⁴m_e = 2.17 meV (0.966×)** — the d² of α_c=3α partially
+cancels the 1/d, tying τ to the structural d=3. But τ=1/d is ~5% low and NOT gap-derived (the coupling
+g*(τ=1/d)/g_c isn't fixed across d), so it is a CONJECTURE, not a derivation. **Arc landing:** the DE
+value converges to the conjectured closed form **ρ_Λ¼ = (d/2)α⁴m_e** (0.966×), everything fundamental
+(d=3, α, m_e), with τ=1/d the single unproven assumption; the digit needs the medium's actual p-wave gap.
 Not the α⁴m_e coincidence — m_e misses at 2.9×; T_c is fixed by the seam physics, not the fit. Net: the
 scaling is derived, the digit stays open pending the 2-loop T_c — a motivated estimate, not a derivation.
 

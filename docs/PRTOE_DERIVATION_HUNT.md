@@ -8084,3 +8084,28 @@ perturbative CW was not (T_c>v). The DE value stands at ρ_Λ¼=(9/2)α⁴·m_e�
 is now BCS-coherent (v~340 keV, T_c~185 keV, ε=1.24% via re-fit κ). Task #47's tension leg is CLOSED;
 the remaining residual is the single O(1) strong-coupling τ. Method: checked internal consistency (the
 T_c>v red flag), verified ε-preservation, and did NOT force the 3 onto the structural d=3.
+
+---
+
+### Entry 219 — DERIVING τ FROM THE STRONG-COUPLING GAP (operator: "derive the O(1) τ"): **τ ~ 0.345 is a genuine strong-coupling number; the cleanest reading is the CONJECTURE τ=1/d=1/3 → DE=(d/2)α⁴m_e (0.966×, ties to the structural 3), but it's ~5% low and NOT gap-derived (the coupling isn't fixed). τ is the irreducible residual — the DE value converges to a conjectured closed form (3/2)α⁴m_e**
+
+The DE value's last residual: τ = T_c/m_e (exact match needs τ = 0.345, T_c = 176 keV). Tried to derive it.
+
+**Unitarity** (the scale-free BEC-BCS crossover, the principled strong-coupling point): 3D unitary Fermi
+gas has T_c/E_F = 0.167 (universal, QMC). With E_F ~ m_e → τ ~ 0.167 → DE = 0.48× — **2× low.** Not it.
+
+**The conjecture τ = 1/d = 1/3** (the structural spatial dimension): gives DE = (9/2)α⁴m_e·(1/3) =
+**(d/2)α⁴m_e = (3/2)α⁴m_e = 2.17 meV (0.966×)** — the d² from α_c=3α partially cancels the 1/d, leaving
+the clean (d/2)α⁴m_e, and it ties τ to the model's REAL 3. BUT (ramp over d): τ=1/d is NOT an automatic
+gap identity — g*(τ=1/d)/g_c = 2.30 / 1.39 / 1.14 for d = 2/3/4 (not fixed), so hitting τ=1/d needs a
+d-specific coupling the gap doesn't derive. And it is ~5% low (τ_exact 0.345 vs 1/3 = 0.333). So
+**τ=1/d is a CONJECTURE / whisper — connects to the structural 3, cleans the formula — NOT a derivation.**
+
+**VERDICT.** τ is the irreducible residual: an O(1) strong-coupling number ~0.34, pinning the DE value to
+~5%. The whole arc converges to a **conjectured closed form ρ_Λ¼ = (d/2)α⁴m_e = (3/2)α⁴m_e** (everything
+fundamental: d=3, α, m_e), landing **0.966×**, with the ONE unproven assumption being τ=1/d (the
+strong-coupling ratio = inverse dimension). Closing it to the digit needs the medium's ACTUAL p-wave gap
+solution (its real coupling), which is microphysics not in hand. Method: tried unitarity (2× off) and
+τ=1/d (0.966×, conjecture); ramped the d-dependence to show τ=1/d isn't a gap identity; registered the
+whisper without claiming derivation. Honest floor of the DE-value marathon: **(d/2)α⁴m_e, 0.966×, τ=1/d
+the last conjecture.**
