@@ -41,7 +41,9 @@ hubble_tension · bbn_witness · neutrino_home · s8_growth · lowell_anomalies 
 fingerprint_lattice · plasma_physics · chaos_dynamics · cosmic_magnetism · igmf_helicity ·
 gravitational_waves · lss_parity · galactic_atoms · smbh_atoms · koide_relation ·
 coincidence_problem · direct_detection · indirect_detection · laboratory_cousins ·
-sqrt3_derivation · classical_gravity · special_relativity · inertia · light · quantum_trio · quantum_gravity
+sqrt3_derivation · classical_gravity · special_relativity · inertia · light · quantum_trio · quantum_gravity ·
+[baryogenesis](PRTOE_baryogenesis.md) · [small_scale_structure](PRTOE_small_scale_structure.md) ·
+[strong_cp](PRTOE_strong_cp.md) *(the big-claim-mining trio — filed 2026-07-12, listed 2026-07-16)*
 
 ## The mystery wing
 **no_singularities** (the synthesis) · blackholes_no_singularity · bigbang_no_singularity ·
@@ -57,3 +59,57 @@ Appendix B (eleven master equations)
 ## The working folder
 threaded_physics_working/: T1–T16 owed-files · _cross_cutting · _master_computes (8→4 clusters)
 · _parked_register (+ the cross-comparison pass, the resurrection review)
+
+## The self-audit (live — previously unlinked, surfaced 2026-07-16)
+
+*These are current and load-bearing; none was reachable from this index before today. The first
+one is the file that states this model's own worst findings against itself — read it before
+grading anything here.*
+
+- [THE HONEST STATUS](PRTOE_honest_status.md) — **the self-audit: the theory-vs-code gaps in the
+  model's own words** (m_e and dcdf are independent in the code; screening is a hardcoded z-step,
+  not the density saturation claimed; the w=1/3 phase is absent). States plainly that the fit is
+  of a *more flexible model than the theory*, and that any paper must say so. **The single most
+  important file for anyone judging the evidence.**
+- [THE PHYSICS DOMAINS](PRTOE_PHYSICS_DOMAINS.md) — the 74-domain census with verdicts and receipts
+- [THE CODE MANIFEST](PRTOE_CODE_MANIFEST.md) — what is in the pipeline, what is armed, what is
+  banned (the theory↔code boundary; read alongside the honest status above)
+- [THE H₀ CEILING](PRTOE_H0_CEILING.md) — how high the model can reach, and why the pipeline can't
+- [THE DOMAIN COVERAGE MAP](PRTOE_DOMAIN_COVERAGE.md) · [THE AUDITOR (philosophy note)](PRTOE_philosophy_the_auditor.md)
+- [UV COMPLETION](PRTOE_UV_completion.md) · [THE AMPLITUDE](PRTOE_THE_AMPLITUDE.md) ·
+  [THE CHAIN](PRTOE_THE_CHAIN.md) · [THE CMB MAP](PRTOE_CMB_map.md) ·
+  [CYCLIC TORUS GENESIS](PRTOE_cyclic_torus_genesis.md) ·
+  [IMPLEMENTATION SUMMARY](PRTOE_IMPLEMENTATION_SUMMARY.md) ·
+  [2-loop V_eff spec](PRTOE_build_2loop_Veff_spec.md) ·
+  [weakest joints + c-prep](PRTOE_weakest_joints_and_cprep_2026-07-10.md) ·
+  [Fairbank note draft](PRTOE_fairbank_note_draft.md)
+
+## The archive — provenance only, DO NOT cite as current
+
+*Superseded work, kept for the record. The reading rule: **a file here may state a retired claim
+as if live.** Where a headline result was retired, the file carries a named retirement banner;
+where it only carries the generic "some statuses may be superseded" hedge, trust
+[MATH_SPINE](PRTOE_MATH_SPINE.md) and [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) over it.*
+
+- [amplitude_derivation](PRTOE_amplitude_derivation.md) — **retired decomposition**
+  (ε = c × f_amp × Ψ₀/M_red, f_amp ≈ 0.6). Standing: ε = c·f̄·α_c = 27α/5π. *An external reviewer
+  cited this file's f_amp as live on 2026-07-16 — which is why the archive section now exists.*
+- [Second_Order_Action_Specification](PRTOE_Second_Order_Action_Specification.md) — RETIRED, the
+  legacy scalar-tensor (pre-dyad) formulation
+- [STATE_OF_MODEL](PRTOE_STATE_OF_MODEL.md) — historical checkpoint, predates the derivation hunt
+- the v4/v5 era: [v5_dCDF_complete](PRTOE_v5_dCDF_complete.md) ·
+  [v5_five_verdict_derivation](PRTOE_v5_five_verdict_derivation.md) ·
+  [v5_SIDM_scoping](PRTOE_v5_SIDM_scoping.md) · [v4_dCDF_derivation](PRTOE_v4_dCDF_derivation.md) ·
+  [v4_dCDF_results](PRTOE_v4_dCDF_results.md) (superseded by the dyad era)
+- lab-logs (dead ends included, by design):
+  [room1_complex_completion](PRTOE_room1_complex_completion.md) ·
+  [gate0_qft_derivation](PRTOE_gate0_qft_derivation.md)
+- the m_e-mechanism lineage: [me_trigger](PRTOE_me_trigger.md) ·
+  [me_mechanism_math](PRTOE_me_mechanism_math.md) · [kappa_v_derivation](PRTOE_kappa_v_derivation.md)
+- session/provenance: [SKELETON](PRTOE_SKELETON.md) (skeleton/outline era) ·
+  [intellectual_history](PRTOE_intellectual_history.md) ·
+  [kill_and_patch_2026-07-07](PRTOE_kill_and_patch_2026-07-07.md) ·
+  [session_2026-07-10_findings](PRTOE_session_2026-07-10_findings.md) ·
+  [session_2026-07-11_findings](PRTOE_session_2026-07-11_findings.md) ·
+  [granule_scoping](PRTOE_granule_scoping.md) · [math_story](PRTOE_math_story.md) ·
+  [references](PRTOE_references.md) (superseded by [BIBLIOGRAPHY](BIBLIOGRAPHY.md))
