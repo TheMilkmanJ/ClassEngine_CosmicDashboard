@@ -141,6 +141,40 @@ dCDF and the pour on the family ring re-crosses that line and must answer it. **
 recorded genesis is not three objects:** [PRTOE_cyclic_torus_genesis.md](../PRTOE_cyclic_torus_genesis.md)
 has *one* confined buoyant plume rolling up at its own edge (Kelvin–Helmholtz), not three converging.
 
+## The three-source reading, and two coincidence-watches (2026-07-17)
+
+**The proposed assignment (JP):** **k_up = the white hole** (which brought the baryonic matter),
+**−k_down = the dCDF**, **±k_neutral = the dyad**. Its structural value is that it makes the missing
+object **external**: every mechanism tried this pass hunted *inside* the ring, and the log potential
+is internal by construction — it derives shape (120°) and size (R = 1/√κ) and **can never reach a
+centre**. If M is deposited from outside, the family Lagrangian is not incomplete; **it is the wrong
+object to interrogate**. That reframes the debt from *"finish the potential"* to *"what deposits the
+centre"* — a different and more answerable question. **Not adopted; see the objection below.**
+
+**COINCIDENCE-WATCH 1 — the background's scale.** M = mean(√m_lepton) = 0.560215 GeV^½, so
+**M² = 313.84 MeV**, against **m_N/3 = 312.97 MeV** — **+0.28%**. The *lepton* Koide background
+weighs a third of a nucleon, which is what "k_up is the white hole and it brought the baryons"
+would require. **Not a claim:** no mechanism derives M² = m_N/3; m_N/3 is exact but naming it "the
+constituent scale" is a model statement (that scale is quoted 300–360 MeV by scheme); and the
+direction is unexplained — the pour brought **baryons**, Koide is **leptons**, and the bridge
+between them is V ~ M², the same one owed from the start.
+
+**COINCIDENCE-WATCH 2 — the phase's value.** ⟨a³⟩ = 0.555681 against **5/9 = 0.555556** —
+**0.023%** — implying cos 3θ = 0.7859, θ = 12.73°. Same shelf, same reason: no mechanism, and one
+rational among those reachable at that precision.
+
+**Both watches landed the same day, from the same structure, with no mechanism between them.** That
+is either a signal or it is the pattern this file's own ledger was built to catch (process error 24:
+*"derive the weight from the dispersion or do not quote an n"*; process error 30: the
+ensemble-spinning catch). **They are recorded to be killed or earned, and are used for nothing.**
+
+**The objection that must be answered before the assignment is adopted:** T6's 2026-07-14 rebuild
+ruled **family space is Z₃, *not* the condensate phase** — the Z4-torus floor was retired for seating
+the family in the fields' space. Placing the pour, the dCDF and the dyad *on the family ring*
+re-crosses that line. The assignment may survive it — the three could **source** the ring's
+parameters without **living** on it — but that distinction has to be *made*, not assumed. Until it
+is, this is a picture, not a floor.
+
 **Item 1 stays OPEN. What is owed is now named precisely:** not "a mechanism" and not "the
 Lagrangian" — **the background M**. Until the theory contains an object that sets the ring's centre,
 A = R/M has no derivable value, no Ginzburg *number* is computable (same missing object), and the
