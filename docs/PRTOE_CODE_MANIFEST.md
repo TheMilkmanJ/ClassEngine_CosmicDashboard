@@ -16,7 +16,8 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 | THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | [C] background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
 | The dyad (varying m_e, the ramp through T_c) | [C] | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | [C] | IN |
-| **THE ZERO-PARAMETER EVIDENCE RUN** (ε, A_s, n_s, z_on all STATED) | [Y] pc_prtoe.yaml (PolyChord) | **LIVE — the nested-sampling evidence run** |
+| **THE POLYCHORD EVIDENCE RUN — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all SAMPLED) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | [Y] pc_prtoe.yaml (PolyChord) | **LIVE** |
+| **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | [Y] cmp_prtoe_fixed.yaml | staged — the headline evidence test; not the run currently executing |
 | The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by decision (relaunch fresh later); the ΛCDM twin awaits its slot |
 | The freeze-sentinel launch guards | [CMP] both wrappers | IN — verified quoted+unquoted |
 
