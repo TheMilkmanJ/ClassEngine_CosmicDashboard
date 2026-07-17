@@ -47,8 +47,7 @@ correlation test of this width.
 
 Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.09σ, the reversed row) and D/H (the ~1.9σ fork).
 Rows pending: the radio chord, the axis family, the comb. The lattice is winning on breadth,
-not yet on any single decisive row — exactly the profile the review has priced at 15–18%
-(capped 25% pending PolyChord). *One lever, many windows, no exits: the lattice is either the
+not yet on any single decisive row. *One lever, many windows, no exits: the lattice is either the
 most over-constrained correct idea in cosmology or the most efficiently falsifiable wrong one.
 Both are compliments to its construction; only the sky knows which.*
 

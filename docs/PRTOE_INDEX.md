@@ -60,17 +60,11 @@ Appendix B (eleven master equations)
 threaded_physics_working/: T1–T16 owed-files · _cross_cutting · _master_computes (8→4 clusters)
 · _parked_register (+ the cross-comparison pass, the resurrection review)
 
-## The self-audit (live — previously unlinked, surfaced 2026-07-16)
+## Live, previously unlinked (surfaced 2026-07-16)
 
-*These are current and load-bearing; none was reachable from this index before today. The first
-one is the file that states this model's own worst findings against itself — read it before
-grading anything here.*
+*These are current and load-bearing; none was reachable from this index before. (The internal
+candid self-assessment is deliberately not on this shelf and is not listed here.)*
 
-- [THE HONEST STATUS](PRTOE_honest_status.md) — **the self-audit: the theory-vs-code gaps in the
-  model's own words** (m_e and dcdf are independent in the code; screening is a hardcoded z-step,
-  not the density saturation claimed; the w=1/3 phase is absent). States plainly that the fit is
-  of a *more flexible model than the theory*, and that any paper must say so. **The single most
-  important file for anyone judging the evidence.**
 - [THE PHYSICS DOMAINS](PRTOE_PHYSICS_DOMAINS.md) — the 74-domain census with verdicts and receipts
 - [dCDF v5 — THE COMPLETE MODEL](PRTOE_v5_dCDF_complete.md) — **mechanics current, fit numbers
   historical.** The barotropic dark fluid that replaces both CDM and Λ (p_d ≡ −ρ_∞, the
@@ -78,7 +72,7 @@ grading anything here.*
   the χ² tables) are that era's frozen record and carry their own banner. *Filed here, not in the
   archive: the "v5" in the name is a version label, not a retirement.*
 - [THE CODE MANIFEST](PRTOE_CODE_MANIFEST.md) — what is in the pipeline, what is armed, what is
-  banned (the theory↔code boundary; read alongside the honest status above)
+  banned (the theory↔code boundary)
 - [THE H₀ CEILING](PRTOE_H0_CEILING.md) — how high the model can reach, and why the pipeline can't
 - [THE DOMAIN COVERAGE MAP](PRTOE_DOMAIN_COVERAGE.md) · [THE AUDITOR (philosophy note)](PRTOE_philosophy_the_auditor.md)
 - [UV COMPLETION](PRTOE_UV_completion.md) · [THE AMPLITUDE](PRTOE_THE_AMPLITUDE.md) ·
@@ -113,7 +107,5 @@ where it only carries the generic "some statuses may be superseded" hedge, trust
 - session/provenance: [SKELETON](PRTOE_SKELETON.md) (skeleton/outline era) ·
   [intellectual_history](PRTOE_intellectual_history.md) ·
   [kill_and_patch_2026-07-07](PRTOE_kill_and_patch_2026-07-07.md) ·
-  [session_2026-07-10_findings](PRTOE_session_2026-07-10_findings.md) ·
-  [session_2026-07-11_findings](PRTOE_session_2026-07-11_findings.md) ·
   [granule_scoping](PRTOE_granule_scoping.md) · [math_story](PRTOE_math_story.md) ·
   [references](PRTOE_references.md) (superseded by [BIBLIOGRAPHY](BIBLIOGRAPHY.md))
