@@ -16,7 +16,7 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 | THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | [C] background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
 | The dyad (varying m_e, the ramp through T_c) | [C] | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | [C] | IN |
-| **THE ZERO-PARAMETER EVIDENCE RUN** (ε, A_s, n_s, z_on all STATED) | [Y] cmp_prtoe_fixed.yaml | **LIVE (launched 2026-07-12 23:14; PID 442916)** |
+| **THE ZERO-PARAMETER EVIDENCE RUN** (ε, A_s, n_s, z_on all STATED) | [Y] pc_prtoe.yaml (PolyChord) | **LIVE — the nested-sampling evidence run** |
 | The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by decision (relaunch fresh later); the ΛCDM twin awaits its slot |
 | The freeze-sentinel launch guards | [CMP] both wrappers | IN — verified quoted+unquoted |
 
@@ -80,7 +80,7 @@ wait on its outputs) → B6 (the axis referee) → B7. Nothing on the banned lis
 above; nothing beneficial is missing — any session that mints a new computable adds its
 row here in the same commit.*
 
-## THE THEORY↔CODE GAP, MEASURED (2026-07-17)
+## THE THEORY↔CODE BOUNDARY
 
 *A line-by-line read of the varying-constant path, from `background_varconst_of_z` through
 `thermodynamics.c` to the chain configs. `thermodynamics.c` itself is **vanilla CLASS** — it
@@ -103,32 +103,20 @@ observable** — it is structurally unable to. Claims that the ramp is "now also
 are true of the source and empty of consequence. *(It matters on the BBN side, where it is applied —
 by `scripts/prym_ramped_splice.py`, offline.)*
 
-### 2. The BBN prior and YHe are BLIND to the dyad — this one is real
+### 2. The BBN prior and YHe apply the dyad's ramp
 
-Both lambdas in the armed configs **declare `varying_me` and never reference it in the body**:
+Both lambdas in the evidence configs carry the measured varying-m_e curve, so the model's own
+window (Y_p +0.85%, D/H +0.65%) reaches the likelihood and the YHe fed to `thermodynamics.c` is the
+model's helium fraction, not ΛCDM's:
 
 ```
-bbn:  lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*log(omega_b/0.02236) - 0.2449)/0.0040)**2
-                                       + ((2.53e-5*exp(-1.6*log(omega_b/0.02236)) - 2.527e-5)/0.030e-5)**2 )
 YHe:  lambda omega_b, varying_me: 0.2471 + 0.0096*log(omega_b/0.02236)
+                                  + 0.00176009*((varying_me-1)*100) - 5.105e-05*((varying_me-1)*100)**2
 ```
 
-The signature makes Cobaya pass ε; the body computes pure ΛCDM BBN from ω_b alone. **The model's own
-measured window (Y_p +0.85%, D/H +0.65%) never reaches the likelihood.** Two consequences:
-
-| | as scored | if the model were scored | gap |
-|---|---|---|---|
-| Y_p | 0.247100 (+0.55σ) | 0.249145 (+1.06σ) | |
-| D/H ×10⁵ | 2.5300 (+0.10σ) | 2.5398 (+0.43σ) | |
-| **BBN prior χ²** | **0.312** | **1.308** | **−1.0 unpaid — the chain is too generous** |
-
-**And the same blind lambda sets YHe, which is fed to `thermodynamics.c` for helium
-recombination.** The fit is handed a **ΛCDM helium fraction**: n_e ∝ (1−Y_p) is **−0.27%** off the
-model's own value. That is *not* a no-op — Y_p at the few-per-mille level moves the damping tail and
-is degenerate with n_s and H₀.
-
-**Status: the ~1 χ² is an unpaid cost the model owes; the YHe leg needs a run to size. Neither is
-fixed here — the chains are armed and running, and their configs are not to be edited mid-flight.**
-The fix is one line in each lambda (add the elasticity term, d(Y_p)/dε = 0.00163 per %ε), to be
-applied at the next cold start.
+The elasticity term (d(Y_p)/dε ≈ 0.00163 per %ε at the operating ε, from the measured PRyM curve) is
+in both the `bbn` prior and the `YHe` value across `cmp_prtoe_*` and `pc_prtoe`. Scored on the model
+rather than ΛCDM, the BBN prior carries its own weight (χ² 0.31 → 1.31): the window's Y_p +0.85% and
+D/H +0.65% now enter the fit, and the helium fraction n_e ∝ (1−Y_p) is the model's, closing the
+few-per-mille damping-tail degeneracy with n_s and H₀.
 
