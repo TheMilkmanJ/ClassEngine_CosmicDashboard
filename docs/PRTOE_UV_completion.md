@@ -3,16 +3,35 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Home for the model's biggest structural "owed": committing to what Ψ IS
-fundamentally, so the conformal coupling c (the one irreducible free parameter of
-the effective theory) becomes a computation. Months-scale project; this file logs
-the steps. Started 2026-07-08.*
+> **READING RULE — this is a WORKING DOCKET, not a reader-facing result file.** Its headline
+> target (deriving **c**) is **CLOSED**, by a route this docket never took. The step-log below is
+> that era's record and uses that era's working equation, **ε = c·f_amp·(Ψ₀/M_red)** — a
+> **retired** decomposition. Nothing below is current unless [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)
+> also says it.
 
-## The target
-c is the coefficient in ε = c·f_amp·(Ψ₀/M_red) = 1.24%. It is the coupling of the
-amplitude mode to matter masses, in gravitational (M_red) units. c=1 ⟺ exactly
-gravitational strength ⟺ the strong census. Effective theory takes c as input;
-deriving it needs the UV completion.
+*Home for the Ψ-identity question: committing to what Ψ IS fundamentally. Steps 1–9 are the
+2026-07-08 climb.*
+
+## The target — CLOSED for c, OPEN for ξ
+
+**c is derived; it is not a free parameter and it never needed the UV completion.** The standing
+coupling is
+
+> **ε = c·f̄·α_c = 27α/5π = 1.2543%**, with **c = 9/10** — a counting fraction (N−1)/N over the
+> universal charged-fermion roster: 9 charged species plus the vacuum's own seat
+> ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)).
+
+c is **census arithmetic**, not a threshold-matching computation. This docket's premise — that c is
+"the one irreducible free parameter of the effective theory," reachable only through a months-scale
+UV climb — **is superseded.** Its own candidate mechanism predicted **c = 1**; the derived value is
+**9/10**. That candidate is dead and is filed in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+
+**What stays live here: ξ.** ξ_H = 1/6 is an **input, not a derivation** — the finiteness condition
+str[k₁] = 0 holds *iff* ξ_H = 1/6, so P-2026-045's generation count is conditional on it
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2–5.3). That is the docket's remaining
+target, and the Ψ-identity steps below (the ALP completion, the regime clock, the floor mechanism)
+are where its pieces sit.
 
 ## Step 1 (2026-07-08) — the UV completion, and why c saturates the ceiling
 
@@ -225,9 +244,14 @@ Preliminary read of the running dyad_mnu chain (~9200 rows, R-1~0.2, STALLED/pla
 - NET: the neutrino-floor thread stays ALIVE-BUT-UNCONFIRMED; not promoted. #6 gives a bound; a
  bound can't fund a floor.
 
-## CANDIDATE #17 MECHANISM — c=1 as the conformal-origin boundary condition (2026-07-08)
+## CANDIDATE #17 MECHANISM — c=1 as the conformal-origin boundary condition — **DEAD**
 
-Directional hypothesis for deriving c (the un-derived O(1) in eps = c*f_amp*Psi0/M_red).
+> **SUPERSEDED.** This mechanism's payoff was "c=1 becomes PREDICTED". **c = 9/10 is derived from
+> the census** by an unrelated route, and 1 ≠ 9/10. Retained as provenance only; filed in
+> [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). Do not cite.
+
+Directional hypothesis for deriving c (then an open O(1); the era's equation was
+eps = c*f_amp*Psi0/M_red, since retired).
 CHAIN: (1) a true r=0 singularity is unphysical; the minimal physical origin is SCALE-FREE
 = conformally symmetric. (2) PRTOE's FIRST regime is w=1/3 (phonon-gas/radiation-like), whose
 stress tensor is traceless (T^mu_mu=0) ⇒ APPROXIMATELY CONFORMALLY INVARIANT. The model begins
@@ -244,7 +268,7 @@ phase carries the FULL protecting conformal symmetry (not just a traceless T at 
 the naturalness ceiling). The conformal symmetry is only APPROXIMATE (broken by m, Psi0), so c
 is protected NEAR the origin and runs away from it -- by how much is uncomputed.
 
-## ASSUMPTION (explicitly fenced — NOT a derivation): gravity self-clumping to the c=1 attractor
+## ASSUMPTION (explicitly fenced — NOT a derivation; **DEAD with #17**): gravity self-clumping to the c=1 attractor
 
 **The assumption, stated plainly.** Gravity is the one force that sources itself — its own
 energy gravitates, which is *why* Einstein's equations are nonlinear. We can therefore *assume*

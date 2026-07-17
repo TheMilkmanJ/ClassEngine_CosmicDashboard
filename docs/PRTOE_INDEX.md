@@ -75,7 +75,10 @@ candid self-assessment is deliberately not on this shelf and is not listed here.
   banned (the theory↔code boundary)
 - [THE H₀ CEILING](PRTOE_H0_CEILING.md) — how high the model can reach, and why the pipeline can't
 - [THE DOMAIN COVERAGE MAP](PRTOE_DOMAIN_COVERAGE.md) · [THE AUDITOR (philosophy note)](PRTOE_philosophy_the_auditor.md)
-- [UV COMPLETION](PRTOE_UV_completion.md) · [THE AMPLITUDE](PRTOE_THE_AMPLITUDE.md) ·
+- [UV COMPLETION](PRTOE_UV_completion.md) — **a working docket, not a result file.** Its headline
+  target (deriving c) is **closed by the census, c = 9/10**, and its own c = 1 candidate is dead; the
+  step-log carries the retired ε = c·f_amp·Ψ₀/M_red throughout. **Live content: ξ only.**
+- [THE AMPLITUDE](PRTOE_THE_AMPLITUDE.md) ·
   [THE CHAIN](PRTOE_THE_CHAIN.md) · [THE CMB MAP](PRTOE_CMB_map.md) ·
   [CYCLIC TORUS GENESIS](PRTOE_cyclic_torus_genesis.md) ·
   [IMPLEMENTATION SUMMARY](PRTOE_IMPLEMENTATION_SUMMARY.md) ·

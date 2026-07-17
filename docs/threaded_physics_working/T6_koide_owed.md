@@ -231,6 +231,57 @@ coupling is not what produces it), and the ring's 120° is likewise just what "t
 means. **Both 120°s are the same trivial arithmetic, and their agreement carries no information.**
 The claim that must do the work is the *merge condition*, not the angle.
 
+### THE MERGE CONDITION — the blank's SHAPE earned from outside the ring (JP, 2026-07-17)
+
+**The claim (JP):** *the dCDF, the dyad and the white hole must be at 120° to each other for the
+merge to succeed — otherwise the three-body problem throws them apart and nothing can gravitate
+together.* This is **not a metaphor**, and it is not the 360/3 arithmetic graded above. It is two
+classical theorems, and it is the first thing in this thread that constrains M and R **together**.
+
+**The 120° is Lagrange's equilateral solution (1772).** Three gravitating bodies at the vertices of
+an equilateral triangle is an **exact closed-form solution** of the three-body problem — one of only
+two known families (the other collinear), and the reason the Trojan asteroids exist. JP
+reconstructed it from "what angle must three things be at to merge."
+
+**The stability is Gascheau's theorem (1843; Routh 1875).** The equilateral configuration is
+linearly stable **iff**
+
+> **27(m₁m₂ + m₂m₃ + m₃m₁) < (m₁ + m₂ + m₃)²**
+
+*Verified here against cases with known answers:* equal masses → 81 vs 9, **UNSTABLE** (correct);
+Sun–Jupiter–Trojan → 0.0258 vs 1.0019, **STABLE** (correct); Sun–Earth–Trojan → **STABLE**
+(correct). The criterion reproduces what the solar system does.
+
+**WHY THIS IS THE BLANK'S SHAPE.** The three masses enter **one condition together** — stability
+**couples the deposits**. Every candidate that died this pass (SOC attractor, wide seam, positivity
+wall) tried to relate M and R from *inside* the ring, where the log potential derives shape and size
+and never reaches a centre. **The merge condition relates them from outside**, by requiring the
+configuration to survive at all. That is the structural move the thread has been missing.
+
+**And it forces a hierarchy, unprompted.** Stability requires **one body to carry ≈ 96% of the
+total** (three comparable objects at 120° tear apart). The dominant body is the one JP had already,
+independently, assigned to **M, the centre**: the white hole / the pour / k_up. The assignment
+preceded the criterion that demands it.
+
+**THE √2 — ON WATCH, NOT EARNED.** Solving the marginal boundary with one dominant and two equal
+minors (x₁ = x₂ = y, x₃ = 1−2y) gives 81y² − 54y + 1 = 0, whose **discriminant is exactly 2592 =
+(36√2)²**, critical minor **y_c = 1/3 − 2√2/9 = (√2−1)²/9 = 0.0190637**, dominant
+**x₃ = 1/3 + 4√2/9 = 0.9618727** (against the restricted problem's Routh value μ₁ = 0.0385 — the
+right neighbourhood). **A √2 appears — in the DISCRIMINANT, which any quadratic can produce, NOT in
+the ratio.** Every ratio the boundary actually offers was checked: minor/dominant = 0.0198,
+dominant/minor = 50.456, √(dom/min) = 7.103. **None is 1.414214.** This is the same shape as the
+matches killed this pass and gets no pass for being pretty. **Watch, not result.**
+
+**Kill conditions.** (i) The model's three objects fail Gascheau ⟹ the merge picture is dead as
+stated. (ii) The dominant-body fraction cannot be reconciled with the pour carrying the baryons ⟹
+the assignment is dead. (iii) The √2 watch dies unless the *ratio* — not a discriminant — is
+exhibited.
+
+**The blank, re-posed with the word JP added:**
+
+> *"When the pour, the dCDF and the dyad settle into the only **stable** 120° merge, the ratio of the
+> swing to the centre is fixed at √2 because ______________."*
+
 **Item 1 stays OPEN. What is owed is now named precisely:** not "a mechanism" and not "the
 Lagrangian" — **the background M**. Until the theory contains an object that sets the ring's centre,
 A = R/M has no derivable value, no Ginzburg *number* is computable (same missing object), and the

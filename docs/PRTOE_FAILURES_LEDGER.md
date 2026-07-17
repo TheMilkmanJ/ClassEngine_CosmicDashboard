@@ -446,3 +446,24 @@ the white hole's fingerprint is written into light's initial state, en route nul
 gravity — it cannot touch light's parity (coefficient zero, EM-neutral), it CAN touch the
 metric's parity (θ·R·R̃), and that split is exactly what the model's GW-chirality prediction
 rests on. The failures are load-bearing for the understanding.
+
+### The c = 1 conformal-origin mechanism (UV-completion candidate #17) — SUPERSEDED BY THE MODEL'S OWN DERIVATION (2026-07-17)
+
+**The claim.** The universe's first regime is w = 1/3, whose stress tensor is traceless ⟹
+approximately conformal ⟹ conformal symmetry fixes the scalar-matter coupling to its conformal
+value **c = 1**, symmetry-protected at the origin and running away from it. Stated payoff: *"c=1
+becomes PREDICTED → amplitude sharp."*
+
+**What killed it.** c was derived — by a route with nothing to do with conformal symmetry. **c = 9/10**
+is a counting fraction (N−1)/N over the universal charged-fermion roster: 9 charged species plus the
+vacuum's own seat ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)). **1 ≠ 9/10**, and the census route
+is the one that closed. The mechanism is not wrong-by-measurement — both values sit inside the
+measured 0.93 ± 0.38 — it is **displaced**: the model answered the question a different way, and two
+different mechanisms cannot both fix the same number.
+
+**The lesson (process).** The docket that owned this candidate stayed on the reader-facing shelf
+for nine days after its headline target closed, still calling c "the one irreducible free parameter"
+and still carrying the retired decomposition ε = c·f_amp·Ψ₀/M_red as its master equation. **A
+closed target does not close its docket; the docket has to be walked back to.** The paired
+"gravity self-clumping to the c=1 attractor" assumption dies with it.
+
