@@ -22,7 +22,7 @@ whose pre-condensation youth is dark radiation, and ~30% of which (median
 genesis draw) is never-annihilating dark antimatter. Gravity is exactly GR;
 the medium's only coupling is geometry (a theorem-grade counting argument, not an
 assumption). (2) One amendment to the rules at recombination — a ~1%
-varying electron mass — buys **H₀ = 69.9** (current production; 69.70 was the July-6 refit) at zero χ² cost against the full
+varying electron mass — buys **H₀ = 69.9** (CMB re-fit output; 69.70 the joint best-fit) at zero χ² cost against the full
 Planck+ACT+SPT+BAO+SN stack. Everything else this program ever tried is
 dead, and the record of dead approaches is public.
 
@@ -70,8 +70,7 @@ The program's floor. The dCDF fluid replaces CDM and Λ with one barotropic
 medium; after the v5 amputation its equation of state is w = −ρ∞/ρ
 **exactly** — a fluid whose background *and linear perturbations* are
 provably identical to ΛCDM, carrying one reinterpretation (dark matter and
-dark energy as dense/dilute regimes of one substance) and, at the time,
-one extra parameter. The continuity equation has an exact de Sitter fixed
+dark energy as dense/dilute regimes of one substance) and one extra parameter. The continuity equation has an exact de Sitter fixed
 point at ρ = ρ∞, approached from above and never crossed. Gravity was
 never modified: the v1–v3 F(φ)R era taught that lesson by four independent
 kills, and "gravity is exactly GR, minimally coupled" became a survival
@@ -136,7 +135,7 @@ twice, correctly, both times.**
 
 ## 5. Supernova cosmology & the distance ladder
 
-Pantheon+SHOES anchors every joint fit. The dyad's H₀ = 69.9 (current production; 69.70 ± ~0.8 at the July-6 refit) sits
+Pantheon+SHOES anchors every joint fit. The dyad's H₀ = 69.9 (CMB re-fit output; 69.70 ± ~0.8 the joint best-fit) sits
 between the ladders, and the program converted that discomfort into its
 flagship falsifiable: **P-2026-001 — the local distance ladder resolves to
 the TRGB side; H₀ ∈ [69, 71]; a confirmed 72+ falsifies the H₀ program, no
@@ -157,8 +156,7 @@ B−L portal at GUT-scale suppression (the uniform neutron potential grows
 a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar: on the standing ramped
 prediction (D/H = 2.387×10⁻⁵) the deuterium tension is **−2.9σ** against Cooke with the full
 stated budget (obs ±0.030 ⊕ PRIMAT nuclear theory ±0.037); the 3.5% inter-code spread, unfolded,
-would soften it to −1.4…−2.2σ (ΛCDM itself carries 1.85σ under PRIMAT). *(The −2.0σ → −1.2σ
-repricing was the v5-era central value 2.468, superseded by the ramp.)* The healer is registered, conditional, and co-signed:
+would soften it to −1.4…−2.2σ (ΛCDM itself carries 1.85σ under PRIMAT). The healer is registered, conditional, and co-signed:
 **P-2026-006 — a quark-mass amendment δm̂/m̂ = +0.14–0.21% at BBN heals
 D/H with a mandatory Y_p −0.5% and ⁷Li −7..13% co-signature** (DSW PRD 76,
 063513 coefficients, pulled from source).
@@ -230,8 +228,8 @@ amplitude gap). Minimal V = m²|Ψ|² + λ|Ψ|⁴ matches the basin exactly —
 basin entry IS the condensation threshold μ = m; unification m̄₂ = M₂²/m
 removed a parameter; λ ~ 10⁻⁸⁸ is a visible scar that later shielded the
 model from black-hole spin archaeology. The two-fluid reduction (particle
-+ antiparticle Schrödinger fluids) produced the KR beat — and a
-self-caught correction: the beat is √(f_amp(2−f_amp)), *not* f_amp. The
++ antiparticle Schrödinger fluids) produced the KR beat: the beat is
+√(f_amp(2−f_amp)), *not* f_amp. The
 pre-basin w = 1/3 was double-derived (dynamics AND phonon thermodynamics).
 Lab receipts were cite-verified for the load-bearing furniture: Bogoliubov
 S(k) measured (Steinhauer et al., PRL 88, 120407), the amplitude/"dark
@@ -335,7 +333,7 @@ The genesis chain is pinned at both ends: Ψ₀ ~ 0.7–1.5×10¹⁷ GeV
 (abundance), H_inf < ~2–4×10¹² GeV (isocurvature) — and a new
 θ-channel isocurvature veto (fine dlnρ/dθ ~ 350/rad at r_t = 0.9) cuts
 the high-tilt + high-H_inf corners. The quartic era is not negligible at
-release (h = λΨ₀²/m² ~ 10⁸ — self-caught after an earlier misread), and
+release (h = λΨ₀²/m² ~ 10⁸), and
 its physics is exactly the regime the Eckel ring-BEC probes. Inflation
 also holds the atlas's deepest confessed debt: the past hypothesis —
 "what scrambled the first record, and what did it cost."
@@ -887,14 +885,10 @@ sub-threshold voids metals never can. Fights astrophysical degeneracy.*
 
 ---
 
-## Part II census note (rewritten with its predecessor's headstone)
+## Part II census note
 
-The first draft of Part II (git history, commit e413ea07) padded the
-census with calibration entries — real physics, honestly graded, but
-NOT what was ordered: the request was for domains the MODEL attaches
-to, and rejected the draft on exactly that reading. This rewrite is the
-attachment census: **50 domains (25–74), every one carrying an
-attachment type and a falsification hook.** The census now stands at
+Part II is the attachment census: **50 domains (25–74), every one carrying an
+attachment type and a falsification hook.** The census stands at
 74 domains, all load-bearing. Tally by type: 9 PREDICTS, 8 FORBIDS,
 4 VOTES, 6 INHERITS, 13 RECEIPTS, 3 INSTRUMENTS, 3 KILLED-BY, and 4
 mixed — which means **more than half the census can still hurt us**,

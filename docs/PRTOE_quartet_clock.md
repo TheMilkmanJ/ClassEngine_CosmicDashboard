@@ -76,7 +76,7 @@ arrow, one mirrored against it — the ghost's grammar), and that job is FULL at
 stability proof says quartets cannot bind; the registered reading says they would have
 nothing to do. Impossibility and pointlessness, one verdict.
 
-**Bets graded (2026-07-12):** the TWINS bet — WON (derived). The exact-number
+**Bets graded:** the TWINS bet — WON (derived). The exact-number
 bet — LOST honestly (the registered 7.72 vs the collapsed mark 7.547; the 7.70/7.72
 zone was a constructional double-count, so the number-bet was
 placed against a mislabeled board — noted, still graded as lost per the house rules).
@@ -92,12 +92,12 @@ marks; the ramps-first re-derivation is owed before any center is graded. The QU
 stands (whose mass does the oscillating unit carry). Live watch: the dispersion chain's
 raw center is CLIMBING through the pair zone (7.66 → 7.77 across early segments,
 unconverged; log10_zon's own split-R−1 = 1.38 — no verdict until the drift dies).
-THE REGISTERED TRAJECTORY CALL (mid-drift, 2026-07-12): the center will
+THE REGISTERED TRAJECTORY CALL (mid-drift): the center will
 OVERSHOOT and then whittle back DOWN toward the pair zone, turnover near the ~500-sample
 marker — the same crest-and-descend the old-template chain showed (7.94 → 7.82,
 descending when retired). Graded at samples ≈ 500 and ≈ 800.
 
-## 5. The registered call (2026-07-12, BEFORE the dispersion chain's convergence)
+## 5. The registered call (BEFORE the dispersion chain's convergence)
 
 **The registered call is PAIR (7.70).** Reasoning, registered in structure: the
 model's two-fluid identity — the superfluid's two-fluid hydrodynamics, the complex
