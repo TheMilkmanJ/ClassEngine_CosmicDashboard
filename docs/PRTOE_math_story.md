@@ -80,7 +80,9 @@ universe), screened to lab value inside virialized structure (Θ saturates).
  [screening MANDATORY (Room 2); void step P-007 = falsification path]
 
 ## ACT 7 — Today: the observables & the sector's two other outputs
- H₀ ≈ 70.1 ± 0.7, S₈ ≈ 0.82, Σm_ν 95% < ~0.15–0.17 eV (inverted hierarchy OPEN)
+ H₀ ≈ 70.1 ± 0.7, S₈ ≈ 0.82, Σm_ν ≈ 61.4 meV (normal ordering; the meV
+ whisper — the inverted-hierarchy branch P-2026-004 was FALSIFIED,
+ ANN-2026-021; posterior tests the whisper now)
  the dark fluid's equation of state runs:
  **w: 1/3 (normal, early) → 0 (condensate = dark matter) → −1 (floor = dark energy)**
  master relations:

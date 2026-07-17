@@ -39,7 +39,7 @@ dead, and the record of dead approaches is public.
 | 5 | SNe & distance ladder | P-2026-001: TRGB, no hedge | Standing bet |
 | 6 | BBN | Deuterium scar repriced; quark-mass healer | P-2026-006 conditional |
 | 7 | Atomic physics & constants | varying-α killed; varying-m_e triangulated | m_e is the dyad's second half |
-| 8 | Neutrino physics | Σm_ν posterior running (P-2026-004) | Mid-measurement |
+| 8 | Neutrino physics | P-2026-004 FALSIFIED (ANN-2026-021); meV whisper (Σm_ν ≈ 61.4 meV, normal ordering) stands, posterior tests it | Mid-measurement |
 | 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen operator |
 | 10 | Superfluidity & BEC | Son isomorphism; two-fluid; KR beat; lab receipts | The identity itself |
 | 11 | Particle physics | Affleck-Dine genesis; coupling census closed | Gravity-only = theorem-grade |
@@ -188,18 +188,22 @@ wreckage).
 
 Neutrinos entered as a lever (ξ_Neff, dark radiation at recombination) and
 exited as a liberated measurement. ACT+BBN executed ξ (0.122 → 0.012 ±
-0.002); removing it collapsed the neutrino-mass penalty 4.4× and reopened the
-inverted hierarchy as a live target. The Σm_ν posterior
-(`chains/dyad_mnu_mcmc`) is one of the two things that can move the
-evidence class off zero: it scores **P-2026-004 (the dyad's Σm_ν 95% limit
-lands in [0.11, 0.17] eV — registered before the posterior computed)** and
-simultaneously judges the meV whisper (ρ∞^{1/4} = 2.25 meV ≈ the lightest
-neutrino mass scale) — the two *cannot both win*, and that trial was
-pre-registered while R−1 was still 5.6. Neutrino free-streaming is also
-the model's honest S₈ mechanism: cosmic thermodynamics, mid-measurement.
+0.002); removing it collapsed the neutrino-mass penalty 4.4× and briefly
+reopened the inverted hierarchy as a live target. The pre-registered
+collision between **P-2026-004** (the dyad's Σm_ν 95% limit lands in
+[0.11, 0.17] eV — the high-Σ, inverted-hierarchy-leaning branch) and the
+meV whisper (ρ∞^{1/4} = 2.25 meV ≈ the lightest neutrino mass scale) is
+**RESOLVED**: DESI's low-Σ preference falsified P-2026-004
+(ANN-2026-021), and the whisper stands — **Σm_ν ≈ 61.4 meV, normal
+ordering** (P-2026-012). The Σm_ν posterior (`chains/dyad_mnu_mcmc`) is
+still one of the two things that can move the evidence class off zero,
+but it now TESTS the surviving whisper prediction, not an open two-way
+race; the whisper is a prediction awaiting that verdict, not yet
+confirmed. Neutrino free-streaming is also the model's honest S₈
+mechanism: cosmic thermodynamics, mid-measurement.
 
-**Verdict: the sampler is running as this document is written; the model
-wins a prediction or keeps a clue, not both.**
+**Verdict: the race is over (whisper won by resolution, not by data yet)
+— the sampler now runs as the whisper's judge.**
 
 ## 9. Scalar-field theory & the EFT of dark energy
 
@@ -546,8 +550,9 @@ resurrection terms or the word "never."*
  kills the model outright.
 3. **Λ exactly** — against DESI DR2's 3.1σ evolving-DE preference, live now.
 4. **P-2026-001** — TRGB resolution, H₀ ∈ [69, 71]; 72+ falsifies, no hedge.
-5. **P-2026-004 vs the meV whisper** — the running posterior judges both;
- the model cannot win twice.
+5. **The meV whisper (Σm_ν ≈ 61.4 meV, normal ordering)** — P-2026-004
+ (the high-Σ, inverted-hierarchy-leaning branch) was FALSIFIED
+ (ANN-2026-021); the running posterior now tests the surviving whisper.
 
 *If every bet survives, the program has earned its next room. If one
 dies, the file shows exactly where, and why, and what was paid to know.*
@@ -650,12 +655,14 @@ walks on).** Δm² splittings floor Σm_ν ≥ 0.06 eV (normal) / 0.10 eV
 (inverted); the Fairbank posterior measures against exactly this floor.
 *Hook: none — this is the ruler, and we don't get to bend it.*
 
-**38. Neutrino-mass laboratories (KATRIN, JUNO) — PREDICTS (collision
-scheduled).** P-2026-004 says our 95% limit lands in [0.11, 0.17] eV —
-overlapping the inverted-hierarchy window the dyad's cost collapse
-reopened. KATRIN's direct bound and JUNO's hierarchy determination test
-the same number from the lab side. *Hook: a lab-determined hierarchy or
-mass incompatible with the posterior window scores P-2026-004 dead.*
+**38. Neutrino-mass laboratories (KATRIN, JUNO) — PREDICTS (whisper
+under test).** P-2026-004's high-Σ, inverted-hierarchy-leaning window
+([0.11, 0.17] eV) was FALSIFIED (ANN-2026-021, DESI's low-Σ preference);
+the surviving prediction is the meV whisper — Σm_ν ≈ 61.4 meV, normal
+ordering (P-2026-012). KATRIN's direct bound and JUNO's hierarchy
+determination now test that number from the lab side. *Hook: a
+lab-determined inverted hierarchy or a Σ incompatible with 61.4 meV
+scores the whisper dead.*
 
 **39. Neutrino self-interactions — KILLED-BY.** The five-lever audit
 executed ν self-interaction levers within the model class (measured
@@ -927,7 +934,7 @@ against, not a claim).*
 | 35 | Binding coefficients (DSW) | VERIFIED-AT-SOURCE | PRD 76, 063513 pulled; ∂lnB_D/∂ln m̂ = −4 |
 | 36 | Cosmic ν background | PASSING (fired once) | N_eff = 3.044 arithmetic executed ξ_Neff; damping tail consistent |
 | 37 | ν oscillations | RULER | Δm² floors; not ours to bend |
-| 38 | KATRIN / JUNO | PENDING-POSTERIOR | P-2026-004 scoring — the chain running right now IS this row |
+| 38 | KATRIN / JUNO | PENDING-POSTERIOR | P-2026-004 FALSIFIED (ANN-2026-021); meV whisper (Σm_ν≈61.4 meV, NO) stands — the chain running right now tests it |
 | 39 | ν self-interactions | EXECUTED | five-lever audit corpse |
 | 40 | Distance ladder | STANDING | P-2026-001 registered (commit 8a5840a5); ladder unresolved |
 | 41 | DESI DE evolution | **TRAILING** | DR2 prefers evolving DE at 3.1σ — the ONE attachment currently moving against us; bet is it recedes |

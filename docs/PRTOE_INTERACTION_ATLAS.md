@@ -49,8 +49,10 @@ environment half, one interaction and one signature at a time.
  healed exactly, helium improved, lithium chipped correctly.
  (Approximate coefficients; literature confirmation pending.)
 - **Σm_ν liberation**: removing ξ (one execution) → neutrino-mass penalty
- collapses 4.4× → the inverted hierarchy (a lab experiment's target)
- plausibly reopens. Posterior computing.
+ collapses 4.4× → briefly reopened the inverted hierarchy (P-2026-004) as
+ a live target, since FALSIFIED (ANN-2026-021); the surviving prediction
+ is the meV whisper (Σm_ν ≈ 61.4 meV, normal ordering). Posterior now
+ tests the whisper.
 
 ## Architecture correspondences (analogy-grade, per the §13 relabeling —
 ## true-and-structural, not theorems; demoted here 2026-07-07)
@@ -507,13 +509,20 @@ is its only coupling). Give it curvature and the product is determined:*
  "meV-kinship" via m₂ = 8.7 meV survives, factor ~4). Whisper-exact
  (m_lightest = 2.25 meV) ⇒ Σ = 0.062 eV ⇒ P-2026-004 MISSES its
  window. The converging Fairbank posterior judges both at once; the
- model wins a prediction or keeps a clue, not both. ALSO BOOKED —
+ model wins a prediction or keeps a clue, not both.
+ **RESOLVED (ANN-2026-021):** DESI's low-Σ preference decided the
+ collision — P-2026-004 (the high-Σ, inverted-hierarchy branch) is
+ **FALSIFIED**; the meV whisper stands as **Σm_ν ≈ 61.4 meV, normal
+ ordering** (P-2026-012). The posterior's job is no longer to pick a
+ winner; it now TESTS the surviving whisper prediction, which remains
+ unconfirmed pending that data. ALSO BOOKED —
  the CONSTITUTION-vs-BALANCE reframe of half-two: ρ∞ may be a RULE
  constant (a baseline of the vacuum — part of the balance's
  constitution, with ħ and c) rather than a DEPOSIT; interactions
  cannot derive the rules they run on, so if constitutional, "why
- 2.25 meV" moves permanently to the walls. The whisper trial keeps
- the deposit reading alive exactly until the posterior speaks.
+ 2.25 meV" moves permanently to the walls. The whisper trial kept
+ the deposit reading alive until the posterior spoke; it now backs
+ the surviving prediction.
 - **THE SPEAKER'S UNMAPPED ROOMS (localizing the
  silences):** the silences translate perfectly but
  say nothing — the gap is on the SPEAKER'S end (the
