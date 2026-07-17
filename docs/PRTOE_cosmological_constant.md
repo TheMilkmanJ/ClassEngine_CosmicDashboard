@@ -264,6 +264,28 @@ many-body gap, and this is a two-body bound state. **The perturbations door sits
 (ρ¼ = 2.701 meV) with its O(1) owed** — and the owed object is named: the partial Gibbs–Duhem
 cancellation f, not a cutoff artifact.
 
+**A physical reading of the cancellation f (argument-grade).** The "partial cancellation" that
+takes the un-cancelled sum (2.70) down to the observed residual (2.25) has a standard superfluid
+identity: it is the **renormalization of the reference zero-point.** The two doors are two
+*different* objects. **Door B (2.70) = the raw phonon zero-point sum** ½Σℏω_k over the Goldstone
+modes (ω = c_s k up to the E_b cutoff, c_s = √α_c) — a UV-divergent *reference vacuum*, present with
+or without the condensate and absorbed into the bare Λ. **Door A (2.28) = the condensation energy**
+½α_c²M₂ — the order-parameter-dependent depth of the Mexican hat, the physical energy difference
+between the condensed and un-condensed vacuum (the superfluid analogue of the BCS condensation
+energy ½N(0)Δ²). The physical dark energy is the **condensation energy** — the vacuum shift the
+condensate actually causes — so the flagship correctly reads Door A (2.28, +1.5%), and 2.70 is the
+reference it sits on, not a competing prediction. **Crucially this does not lean on
+16π²α_c^{3/2} ≈ ½** — the coincidence that sank the equipartition reading — it is
+condensation-vs-reference, pure superfluid logic. *(Two caveats stay live: (i) it fixes **which
+door**, not the **value** — Door A's magnitude still rides on τ = T_c/m_e = observation-inverted, so
+the flagship's τ-sourcing gap is untouched; (ii) the quantum correction is **O(1), not small** — the
+zero-point/mean-field ratio 1/(16π²c_s³) = 1.955 because c_s = √α_c = 0.148 is small — so an
+irreducible ~O(1) strong-coupling piece remains, the same un-built number, pinned only
+non-perturbatively by the SU(2) lattice. A first route that tried to make the Goldstone shift
+symmetry zero the zero-point outright **fails** — shift symmetry makes the vacuum energy
+θ-independent, i.e. constant, not zero; see
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
+
 **The partial wave is data-selected, and it is s-wave.** A Coulombic two-body spectrum is
 E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so the channel picks the level:
 

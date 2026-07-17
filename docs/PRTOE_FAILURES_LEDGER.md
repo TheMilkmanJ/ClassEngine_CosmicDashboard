@@ -130,6 +130,27 @@ imposed on a quantum ground state. Full debate transcript:
 threaded_physics_working/Thermal_Half_Discussions.md. Provenance: 2026-07-17, caught by the
 "too perfect" skepticism check before it was championed.
 
+### The Goldstone-cancellation first route (shift symmetry zeroes the zero-point) — FAILED
+
+**What it tried:** to resolve the +20% thermal-vs-perturbation door gap in ρ_Λ¼ by having the
+dCDF's Goldstone (phonon) shift symmetry θ → θ + c cancel the raw phonon zero-point sum (2.70 meV,
+"Door B") down to the mean-field binding (2.28 meV, "Door A").
+
+**Why it died:** the shift symmetry forbids a *potential* for θ, so it makes the vacuum energy
+**θ-independent — a constant — not zero.** The zero-point sum ½Σℏω_k is still present and still
+UV-divergent; shift symmetry protects couplings (the birefringence null, the w = −1 stability), not
+the vacuum-energy magnitude. "The Goldstone protection removes 2.70" is a category error.
+
+**What replaced it (the survivor, argument-grade, in PRTOE_cosmological_constant.md §4b):** the
+correct reading is condensation-energy-vs-reference-vacuum. Door B (2.70) is the UV-divergent
+*reference* zero-point (renormalized away); Door A (2.28) is the physical *condensation energy*
+½α_c²M₂ (the superfluid analogue of the BCS condensation energy ½N(0)Δ²). The physical dark energy
+is the condensation energy, so the flagship correctly reads Door A — and this argument does **not**
+lean on 16π²α_c^{3/2} ≈ ½ (the coincidence that sank the equipartition ½). It fixes *which door* is
+physical; it does **not** source the *value* (still τ = observation-inverted) or remove the residual
+O(1) strong-coupling correction (zero-point/mean-field = 1.955, O(1) because c_s = √α_c is small).
+Provenance: 2026-07-17.
+
 ### Retracted predictions (the H₀ booster, the varying-constant hierarchy)
 
 #### The birth-ramp radiation / pour evidence run (registered as P-2026-046, RETRACTED and removed 2026-07-14)

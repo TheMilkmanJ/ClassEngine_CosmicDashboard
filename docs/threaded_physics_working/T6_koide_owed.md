@@ -127,8 +127,9 @@ left empty. *(Proposed structure, JP: the dyad and the dCDF as the two faces, th
 the third/neutral. **Not adopted** — see the standing objection below.)*
 
 **Measured, for the record:** ⟨a³⟩ = **0.555681** from the physical lepton masses, which sits
-**0.023%** from 5/9, implying cos 3θ = 0.7859, θ = 12.73°. **This is COINCIDENCE-WATCH, not a
-claim** — 5/9 is one rational among those reachable at this precision, there is **no mechanism** for
+**0.023%** from 5/9, implying cos 3θ = 0.7859, θ = 12.73°. **[KILLED 2026-07-17 — 5/9 excluded at
+4.5σ once the τ-mass error bar is attached; see "coincidence-watch 2" below.]** **This is
+COINCIDENCE-WATCH, not a claim** — 5/9 is one rational among those reachable at this precision, there is **no mechanism** for
 it, and the file's own discipline forbids quoting a rational without one (ledger, process error 24:
 *"taxonomies are step-menus — derive the weight from the dispersion or do not quote an n"*; process
 error 30: the ensemble-spinning catch). It is written here so it can be **killed or earned later**,
@@ -159,14 +160,20 @@ constituent scale" is a model statement (that scale is quoted 300–360 MeV by s
 direction is unexplained — the pour brought **baryons**, Koide is **leptons**, and the bridge
 between them is V ~ M², the same one owed from the start.
 
-**COINCIDENCE-WATCH 2 — the phase's value.** ⟨a³⟩ = 0.555681 against **5/9 = 0.555556** —
-**0.023%** — implying cos 3θ = 0.7859, θ = 12.73°. Same shelf, same reason: no mechanism, and one
-rational among those reachable at that precision.
+**COINCIDENCE-WATCH 2 — the phase's value — KILLED (excluded at 4.5σ, 2026-07-17).**
+⟨a³⟩ = **0.555681 ± 0.000028** (propagated from the τ-mass error) against **5/9 = 0.555556**: the
+0.023% gap is **4.5σ** at this precision, so 5/9 is **excluded, not close**. A rational sweep over all
+p/q with q ≤ 20 finds **none within ±2σ** of ⟨a³⟩. Do not quote 5/9. The "0.023%" read as near only
+until the error bar was attached — precision kills it, which is process-error-24 discipline working
+as intended. (This is a clean kill of an over-pretty rational, not a loss: the phase θ = 12.73° is
+whatever the masses say, with no rational home at current precision.)
 
-**Both watches landed the same day, from the same structure, with no mechanism between them.** That
-is either a signal or it is the pattern this file's own ledger was built to catch (process error 24:
-*"derive the weight from the dispersion or do not quote an n"*; process error 30: the
-ensemble-spinning catch). **They are recorded to be killed or earned, and are used for nothing.**
+**With watch 2 dead, only watch 1 (M² = m_N/3) survives — and only as a soft, unadjudicable one:**
+M² = 313.84 ± 0.017 MeV is sharply pinned and sits +0.28% (≈51σ) from the *sharp* nucleon m_N/3 =
+312.97; it "matches" only if the constituent scale is allowed to float across its 300–360 MeV scheme
+band, which the entry already concedes. Neither killed nor earned — weaker than it first looked,
+recorded for nothing. **The "both watches, same day" pattern that looked like a signal was, for one
+of the two, exactly the pattern this file's ledger was built to catch (process errors 24 and 30).**
 
 **The objection that must be answered before the assignment is adopted:** T6's 2026-07-14 rebuild
 ruled **family space is Z₃, *not* the condensate phase** — the Z4-torus floor was retired for seating
