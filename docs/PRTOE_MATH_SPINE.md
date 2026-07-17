@@ -85,7 +85,7 @@ running instrument:
 > the dark-energy scale is a **cross of BOTH dark fields**, not one field's product. Substituting
 > α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical to 4×10⁻¹⁹):
 >
-> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c = 2.2842 meV** *(observed 2.25; +1.5%)*
+> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c = 2.2842 meV** *(observed 2.25; the +1.5% is the τ rounding, not a sourced prediction — see the flagship-grade block at the top of this file)*
 >
 > | factor | owner | why |
 > |---|---|---|

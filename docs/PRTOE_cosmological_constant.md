@@ -92,7 +92,7 @@ quantum per coherence cell of volume 1/E_b³:
 
 $$\rho_\Lambda = E_b^4 \quad\Longrightarrow\quad \rho_\Lambda^{1/4} = 2.28\ \text{meV}$$
 
-**Measured: ρ_Λ^{1/4} = 2.25 meV. Agreement: 1.5% (1.01×), zero adjustable
+**Measured: ρ_Λ^{1/4} = 2.25 meV. Agreement: 1.5% (1.01×) — but see the flagship-grade block above: that 1.5% is the τ = 0.345→0.35 rounding, not a sourced prediction; zero adjustable
 parameters in the final step.**
 
 **(c) The provenance of M₂.** M₂ is fixed two ways that now agree: the condensate's
@@ -100,7 +100,7 @@ effective-theory dictionary (a ghost-condensate-class EFT, M₂⁴ = X₀²P₂)
 natural band 2.7–9.7 eV, and the electromagnetic handshake gives M₂ = α²·T_c = 9.53 eV
 once T_c is pinned at ≈179 keV by the dark sector's confining dynamics (below). So M₂ is
 *derived* from T_c, not selected to hit the answer: the chain runs one way —
-m_e → T_c → M₂ → ρ_Λ = 2.28 meV — a genuine 1.5% prediction against the observed 2.25.
+m_e → T_c → M₂ → ρ_Λ = 2.28 meV. **The 1.5% is not a sourced prediction** (T_c is the observation inverted-and-rounded — see the flagship-grade block); the *structure* of this one-way chain is what would make it one, once T_c/√σ is computed for SU(2).
 The free inputs are the portal (√σ_dark = m_e, below) and α_c = 3α (under MCMC test).
 (An earlier draft quoted M₂ as a *selected* value with "4 parts in 10⁴" agreement — that
 precision was circular — and added a loop-dressing factor that was input-inconsistent;
@@ -294,7 +294,7 @@ family (matter / magnetism / metric) is one integer, carried by
 channel. The generation count is forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹
 N_gen = 3 uniquely (**P-2026-045**). Neither rides the medium's partial wave.
 
-**Grade: the DE value stands as a 1.5% prediction (flagship / tie); the perturbations door's O(1)
+**Grade: the DE value's *structure* stands (ρ_Λ¼ = (9/2)α⁴τ·m_e); its "1.5%" is the τ rounding, not a sourced prediction (flagship-grade block), and becomes one only with a lattice T_c/√σ for SU(2); the perturbations door's O(1)
 is un-built and its owed object is named.** Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.

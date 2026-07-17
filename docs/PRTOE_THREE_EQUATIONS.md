@@ -54,7 +54,7 @@ $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\
 - The **condensate ground state** supplies the $w = -1$ component (dark energy is the
  medium's zero-point sector; its computed scale is the vacuum-occupancy binding energy
  $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = 2.284$ meV vs the measured $2.25$ meV —
- agreeing to **1.5%** ($1.01\times$), with $M_2 = \alpha^2 T_c$ **derived one-way** from the dyad's
+ agreeing to **1.5%** ($1.01\times$) — *the 1.5% is the τ = 0.345→0.35 rounding, not a sourced prediction (flagship-grade block above); the derived-one-way $M_2 = \alpha^2 T_c$ is the real structure* — from the dyad's
  condensation temperature ($m_e \to T_c \to M_2 \to \rho_\Lambda$) and $\alpha_c = 3\alpha$ under
  test; see the cosmological-constant document).
 - The **excitations** are the dark matter: radiation-like above a transition redshift
