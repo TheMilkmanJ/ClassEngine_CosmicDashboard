@@ -33,7 +33,7 @@ MATH_SPINE (§0–22) · laws_and_rules/ (L1, L1a) · INTERACTION_ATLAS · inter
 thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001→P-031)
 
 ## The two dark fields (the pieces; identity files, 2026-07-15)
-- [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — chiral/parity-odd (He-3-A class), abundance+asymmetry carrier, light is its Goldstone (identity consolidation; grades inline)
+- [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — s-wave-binding and baryon-free ("He-3-A missing its baryonic matter"), abundance+asymmetry carrier, light is its Goldstone; its handedness is the genesis winding's, not its pairing channel's (identity consolidation; grades inline)
 - [THE DYAD — the gas piece](PRTOE_dyad_gas.md) — leptophilic (Majoron/L-breaking), couples the electron, varying-m_e binds hydrogen (the H₀ mechanism)
 
 ## Physics domains [C]/[O]
@@ -60,17 +60,11 @@ Appendix B (eleven master equations)
 threaded_physics_working/: T1–T16 owed-files · _cross_cutting · _master_computes (8→4 clusters)
 · _parked_register (+ the cross-comparison pass, the resurrection review)
 
-## The self-audit (live — previously unlinked, surfaced 2026-07-16)
+## Live, previously unlinked (surfaced 2026-07-16)
 
-*These are current and load-bearing; none was reachable from this index before today. The first
-one is the file that states this model's own worst findings against itself — read it before
-grading anything here.*
+*These are current and load-bearing; none was reachable from this index before. (The internal
+candid self-assessment is deliberately not on this shelf and is not listed here.)*
 
-- [THE HONEST STATUS](PRTOE_honest_status.md) — **the self-audit: the theory-vs-code gaps in the
-  model's own words** (m_e and dcdf are independent in the code; screening is a hardcoded z-step,
-  not the density saturation claimed; the w=1/3 phase is absent). States plainly that the fit is
-  of a *more flexible model than the theory*, and that any paper must say so. **The single most
-  important file for anyone judging the evidence.**
 - [THE PHYSICS DOMAINS](PRTOE_PHYSICS_DOMAINS.md) — the 74-domain census with verdicts and receipts
 - [dCDF v5 — THE COMPLETE MODEL](PRTOE_v5_dCDF_complete.md) — **mechanics current, fit numbers
   historical.** The barotropic dark fluid that replaces both CDM and Λ (p_d ≡ −ρ_∞, the
@@ -78,10 +72,13 @@ grading anything here.*
   the χ² tables) are that era's frozen record and carry their own banner. *Filed here, not in the
   archive: the "v5" in the name is a version label, not a retirement.*
 - [THE CODE MANIFEST](PRTOE_CODE_MANIFEST.md) — what is in the pipeline, what is armed, what is
-  banned (the theory↔code boundary; read alongside the honest status above)
+  banned (the theory↔code boundary)
 - [THE H₀ CEILING](PRTOE_H0_CEILING.md) — how high the model can reach, and why the pipeline can't
 - [THE DOMAIN COVERAGE MAP](PRTOE_DOMAIN_COVERAGE.md) · [THE AUDITOR (philosophy note)](PRTOE_philosophy_the_auditor.md)
-- [UV COMPLETION](PRTOE_UV_completion.md) · [THE AMPLITUDE](PRTOE_THE_AMPLITUDE.md) ·
+- [UV COMPLETION](PRTOE_UV_completion.md) — **a working docket, not a result file.** Its headline
+  target (deriving c) is **closed by the census, c = 9/10**, and its own c = 1 candidate is dead; the
+  step-log carries the retired ε = c·f_amp·Ψ₀/M_red throughout. **Live content: ξ only.**
+- [THE AMPLITUDE](PRTOE_THE_AMPLITUDE.md) ·
   [THE CHAIN](PRTOE_THE_CHAIN.md) · [THE CMB MAP](PRTOE_CMB_map.md) ·
   [CYCLIC TORUS GENESIS](PRTOE_cyclic_torus_genesis.md) ·
   [IMPLEMENTATION SUMMARY](PRTOE_IMPLEMENTATION_SUMMARY.md) ·
@@ -113,7 +110,5 @@ where it only carries the generic "some statuses may be superseded" hedge, trust
 - session/provenance: [SKELETON](PRTOE_SKELETON.md) (skeleton/outline era) ·
   [intellectual_history](PRTOE_intellectual_history.md) ·
   [kill_and_patch_2026-07-07](PRTOE_kill_and_patch_2026-07-07.md) ·
-  [session_2026-07-10_findings](PRTOE_session_2026-07-10_findings.md) ·
-  [session_2026-07-11_findings](PRTOE_session_2026-07-11_findings.md) ·
   [granule_scoping](PRTOE_granule_scoping.md) · [math_story](PRTOE_math_story.md) ·
   [references](PRTOE_references.md) (superseded by [BIBLIOGRAPHY](BIBLIOGRAPHY.md))

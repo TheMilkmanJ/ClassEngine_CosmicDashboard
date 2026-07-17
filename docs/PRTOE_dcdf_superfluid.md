@@ -21,81 +21,49 @@ any laboratory scale). Ground state **w = −1 exactly** (the de Sitter floor, P
 excitations are radiation-like above the H = m onset (z ≈ 4×10⁷) and dust-like below — **one
 fluid, two eras**.
 
-## 2. Its structure: a chiral, parity-odd (p-wave) condensate [CANDIDATE — the He-3-A analogy]
+## 2. Its structure: an s-wave-binding, baryon-free condensate [CANDIDATE]
 
-> **⚠ REVISED 2026-07-16 — this section's *chirality attribution* is retired; the chirality
-> itself is untouched. Read this before using §2.**
->
-> **What forced the revision.** The dark-energy value independently **selects ℓ = 0** for the
-> medium's binding channel: E_b is a Coulombic two-body level (E_n = ½α_c²M₂/n², partial wave ℓ
-> requiring n ≥ ℓ+1), and only the s-wave ground state lands the flagship — 1s = 2.284 meV
-> (**+1.5%** vs the observed 2.25), against the p-wave 2p at 0.571 meV (**−74.6%**) and the f-wave
-> 4f this section wants for L = 3 at 0.143 meV (**−93.7%**).
-> ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4c.)
->
-> **The mechanism (2026-07-16) — the medium is He-3-A *missing its baryonic matter*.** He-3
-> pairs p-wave *because* its baryonic hard core suppresses ℓ = 0 — chiral superfluidity is not
-> intrinsically p-wave; **helium is just made of baryons**. Strip the baryonic matter and the hard
-> core goes with it, leaving s-wave unsuppressed. That is precisely the ℓ = 0 the data selects, and
-> it explains *why*. It also removes what was forcing pairing up to high L: **nothing here drives
-> L = 3**, and Z₃ is a family symmetry, not a spatial angular momentum.
->
-> **Why the chirality survives anyway — it was never sourced here.** Every claim that *spends* the
-> medium's chirality sources it from the **genesis winding integer n** (the helical roll-up of the
-> pour — the model's one realized white hole,
-> [PRTOE_white_holes.md](PRTOE_white_holes.md), [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §1),
-> **not** from the pairing channel: the magnetic helicity is *"SIGNED BY THE GENOME —
-> sign(helicity_B) = sign(n)"* ([PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md), P-2026-028); the
-> LSS-parity chirality is *"the winding n (a signed integer), the genesis helicity, the vortex
-> network"* ([PRTOE_lss_parity.md](PRTOE_lss_parity.md)); baryogenesis is *"the winding integer
-> times ONE transmission number"* ([PRTOE_baryogenesis.md](PRTOE_baryogenesis.md)); the GW channel
-> carries *"a genome signature"* ([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)).
-> **The three-membered chirality family — matter / magnetism / metric — is one integer n**, a
-> genesis/topological property, independent of the pairing channel.
->
-> **The generation count survives too — it was never sourced here either.** The count is forced by
-> **Pauli finiteness**, not by node topology: str[k₁] = 0 requires the Weyl-component sum to cancel
-> the twelve gauge bosons' −48, and each generation (with its ν_R) carries +16, so
-> **str[k₁] = 16·N_gen − 48 = 0 ⟹ N_gen = 3**, uniquely (N = 1 → −32, N = 2 → −16, N = 4 → +16).
-> That is pure heat-kernel species counting — **no pairing channel, no angular momentum, no
-> nodes** — and it is already registered as **P-2026-045** (three right-handed neutrinos, three
-> generations, no light steriles). See [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2–5.3
-> and [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §5, which states it plainly: *"the number
-> of generations is three, forced by the finiteness condition."* It carries its own named
-> conditionality (ξ_H = 1/6, the conformal Higgs) — but nothing the ℓ = 0 selection can reach.
->
-> **So this section's entire Weyl/L apparatus is retired as redundant.** It offered a *second*
-> source for two things that already have stronger, independent homes: the chirality (the winding
-> integer n) and the generation count (str[k₁] = 0). Neither downstream claim ever drew on it, the
-> f-wave order-parameter build it demanded was never done, and the ℓ = 0 selection excludes it.
-> **Nothing is lost by retiring it, and one contradiction is removed.** The bullets below are kept
-> for provenance; read them as a retired attribution, not as live structure.
+**The binding channel is s-wave, and the data selects it.** E_b is a Coulombic two-body level
+(E_n = ½α_c²M₂/n², partial wave ℓ requiring n ≥ ℓ+1), so the channel picks the level: the s-wave
+ground state gives **2.284 meV (+1.5%** vs the observed 2.25), against **−74.6%** for p-wave and
+**−93.7%** for f-wave ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4c). The
+flagship's agreement *requires* ℓ = 0.
 
-Structurally a **p-wave (L=1), parity-odd** superfluid — the **He-3-A class** (Volovik's
-chiral-vacuum analog). It is **NOT literal helium**: literal He-3-as-medium is **[KILLED]** (four
-independent shots — baryon budget 5× short, EM-visible, no pairing at cosmic density/temperature,
-post-BBN existence). What survives is the *structural* He-3-A reading: a dark, paired-fermion
-condensate whose pairing is p-wave and chiral.
+**The mechanism: the medium is He-3-A missing its baryonic matter.** He-3 pairs p-wave *because*
+its baryonic hard core suppresses ℓ = 0 — chiral superfluidity is not intrinsically p-wave; helium
+is made of baryons. A medium with no baryonic core leaves the s-wave channel unsuppressed, which is
+the channel the data selects. The finiteness balance independently selects a dark **SU(2)** sector,
+whose pseudo-real fundamental makes its baryons **bosonic diquarks** — no fermionic hard core
+exists, the lightest baryon is the **scalar** diquark, and two-color QCD is the canonical
+diquark-BEC realization of the BCS–BEC crossover the occupancy argument requires
+([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md), P-2026-048; candidate
+grade, one uncomputed lattice number decides it).
 
-- **Parity-odd → the θ·R·R̃ coupling → GW chirality** — the metric carries the handedness light
- is forbidden to show (light is EM-neutral, optical birefringence = 0).
-- **Weyl points — and a caveat that bites this identity:** He-3-A (a *p-wave*, L=1) carries
- exactly **2** Weyl points = **1 pair = one generation**. Node topology is unambiguous here: the
- number of charge-1 Weyl pairs a chiral gap carries **equals its angular momentum L**. So the
- basement's **3 Fermi points (3 generations) require L = 3** — an **f-wave** chiral order
- parameter (whose charge-3 node Z₃-splits into 3 pairs) **or** three Z₃-related copies of the
- p-wave (a 3-band structure). **A pure p-wave "= He-3-A" is insufficient for 3 generations.** The
- Z₃ family symmetry (a basement lock) is the natural splitter/tripler either way. **OPEN (the
- owed build):** write the f-wave-or-3-band order parameter and compute its split-node charges.
- See the derivation log (the two knobs).
+**What this identity does NOT source.** Two claims once rested here and rest elsewhere:
+- **The chirality** — parity-odd signatures (GW handedness, IGMF helicity, LSS parity, the AD
+  matter bias) are signed by the **genesis winding integer n**, not by a pairing channel. The
+  three-membered family (matter / magnetism / metric) is one integer:
+  [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md) (P-2026-028, sign(helicity_B) = sign(n)),
+  [PRTOE_lss_parity.md](PRTOE_lss_parity.md), [PRTOE_baryogenesis.md](PRTOE_baryogenesis.md),
+  [PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md).
+- **The generation count** — forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹
+  **N_gen = 3** uniquely, pure heat-kernel species counting with no nodes and no angular momentum
+  ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2–5.3; P-2026-045, conditional on
+  ξ_H = 1/6).
+
+*(The retired "He-3-A class / p-wave L" reading of this section — which sourced both of the above
+from node topology — is in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). Literal
+He-3-as-medium is **[KILLED]** there on four independent shots.)*
 
 ## 3. Its charge: abundance + asymmetry [CANDIDATE]
 
 Carries the dark **abundance/asymmetry** charge (the AD-spiral, "charge = abundance"). The
-chirality of §2 is the handedness that biases matter over antimatter — so the dCDF plausibly
-**sourced the matter asymmetry** (why the hot baryonic pour contains matter at all). *"The
-superfluid fathered the visible universe"* = this claim, candidate grade, and the live thread:
-derive the chirality → matter-asymmetry link (the AD-spiral through the parity-odd condensate).
+**genesis winding's** handedness (the integer n, §2) is what biases matter over antimatter — so the
+dCDF plausibly **sourced the matter asymmetry** (why the hot baryonic pour contains matter at all).
+*"The superfluid fathered the visible universe"* = this claim, candidate grade, and the live thread:
+derive the sign(n) → matter-vs-antimatter link — the **AD-direct rectification**, the one owed
+junction of the chirality family's sign map
+([threaded_physics_working/T14_igmf_helicity_owed.md](threaded_physics_working/T14_igmf_helicity_owed.md)).
 
 ## 4. Its light [ESTABLISHED]
 

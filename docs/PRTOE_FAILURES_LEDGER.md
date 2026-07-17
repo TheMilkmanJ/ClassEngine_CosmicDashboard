@@ -33,6 +33,9 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | **The D/H row's "~1.6–1.9σ OWNED bet"** | **UNDERSTATED BY ~2×.** The quoted σ is the pull of the **raw** windowed D/H (2.477 ⟹ −1.67σ); the quoted **value** (net 2.40–2.42) is the η-flowed one. Running the η-flow against the ramped baseline gives D/H = **2.4305 ⟹ −3.22σ**, and the joint BBN verdict falls from p = 0.093 to **p = 0.0030**. One row's sigma had been attached to another row's number | η-flow run, 2026-07-16 |
 | **P-2026-027's registered D/H = 2.40–2.42×10⁻⁵** (the radio-referee prediction's central value) | **RETIRED — computed on a STEP splice.** The interval implied a window effect of +1.2–2.0% on the pre-window 2.372, which sits between the LT step (+0.93%) and the MTLT step (+2.97%): it was read off the step bracket. The model's own derived ramp gives a **measured** window effect of **+0.65%** ⟹ **D/H = 2.387**, *below* the registered interval. Amendment 5 makes the step an illegal computational entry, and the bracket was independently shown not to bracket. **The prediction is amended in place and this predecessor booked here — a pre-registration resting on a superseded equation is not evidence of anything** | ramped splice, 2026-07-16 |
 | **P-2026-027(a)'s referee prediction "D/H ≈ 2.37"** | **RETIRED — it was the entry's own PRE-WINDOW number** (2.372), i.e. the value the model obtains *before* applying its own mechanism. The entry predicted the radio referee would measure a number the model does not predict. Corrected to the windowed, ramped **2.387** | 2026-07-16 |
+| **The "Z4 torus" floor for the generation structure** (three families living on the condensate's phase space) | **RETIRED 2026-07-14, and the retirement is why later attempts kept failing.** Family space is **Z₃, not the condensate phase** — the family ring is not the fields' space. Any structure seating the dyad, the dCDF or the pour *on the family ring* re-crosses this line and must answer it. *(Recorded here because the main Koide file went on asking "three families on the Z4 torus?" as an open question for three days after the ruling — a live doc stale against its own working file.)* | 2026-07-14; the stale question corrected 2026-07-17 |
+| **The wide-seam / 2D-Potts mechanism for Koide's A = √2** | **RETIRED BY THE MEASURED Q, within hours of being proposed.** The argument: the family field's log coupling ⟹ d = 2; discrete Z₃ in 2D ⟹ 3-state Potts (β = 1/9, not mean-field) ⟹ Gi ~ O(1) ⟹ the neutral zone is *broad*, so no attractor is needed to hold the system on it. **It backfires.** Q = 0.6666605 ± 6.8×10⁻⁶ pins var/mean² = 1 to one part in 10⁵. A *broad* region explains why no fine-**tuning** is needed and fails to explain the fine-**landing** — large fluctuations make an exact moment identity *less* expected, not more. The argument removed the need for a mechanism and the mechanism together. **Also: its step 2 was a category error** — "the two faces are equal" (mean vs variance: two *moments*) was asserted to be the same statement as "the two phases are degenerate" (ordered vs disordered: two *phases*). Different "twos", matched on phrasing. *(The regime fact survives and is kept in T6: the family field is not in the dyad's mean-field class. It is NOT registered as a prediction — the family transition sits at genesis, so its exponents govern nothing tunable.)* | 2026-07-17 |
+| **The SOC-attractor mechanism for Koide's A = √2** ("one hinge carries both the DE closure and the family amplitude") | **RETIRED — its motivating premise is false.** The candidate rested on *"a critical seam is measure-zero, so an attractor must hold the system on it."* The family field's regime says otherwise: its 120° ring is the three-defect equilibrium under a **log** coupling ⟹ effectively **2D**; a discrete Z₃ order parameter in d = 2 is the **3-state Potts** class (β = 1/9, α = 1/3, ν = 5/6 — *not* mean-field) ⟹ **Gi ~ O(1)** ⟹ the neutral zone, whose width *is* the Ginzburg window, is **broad**. A system in a wide critical region needs no attractor to sit in it. **Koide does not need the SOC attractor; the DE closure still does; the two were never linked.** Proposed and retired within a day, on the regime question it should have asked first | 2026-07-17 |
 | **P-2026-036's registered Y_p = 0.2495–0.2505** ("the helium war resolves high") | **RETIRED — the LT *step* value.** The ramped ε(T) gives **0.24900**, *below* the registered interval, and the kill threshold weakens from **+4σ to +3.5σ** (EMPRESS-ward). The prediction's DIRECTION survives — 0.24900 still sits above both Aver (+1.09σ) and EMPRESS (+3.53σ) — but its quoted value and its kill were both step-derived | ramped splice, 2026-07-16 |
 | **P-2026-022's reading A** ("the thermal/global gate: a sharp global step") | **RETIRED — an illegal step.** A global thermal gate switching off is a dynamical discontinuity: not quantized, not topological, not a protected zero ⟹ **no exemption clause** under amendment 5. The model now **commits to reading B** (the σ8-tracking fade over z ≈ 30–60), which *sharpens* the entry: a confirmed sharp global step now counts AGAINST the model instead of selecting one of its readings | 2026-07-16 |
 | The BBN engine's ramp keyed to T_c = 193 keV | the stamps (0.64ε, 0.79ε) are 1 − T/**193** — the *perturbative Coleman–Weinberg cross-check* — while the model derives T_c = **179 keV** (τ·m_e). Engine and stamps re-keyed to the derived value (0.61ε, 0.78ε); 193 demoted to an explicit cross-check | witness restatement, 2026-07-16 |
@@ -141,7 +144,8 @@ coupling as the electron-mass shift.
 | what went wrong | the correction | provenance |
 |---|---|---|
 | **Process error 35: FIVE claims-from-a-label in one day** — (a) "don't concede the code-theory crux", defended from `varying_me: 1.012543` in fixed_ev **without opening `honest_status.md`**, which concedes it as the *BIGGEST* gap in the model's own words; (b) the **He-3-A nodal-gap door**, applying chiral p-wave geometry to E_b, which CC §2(a) derives as an **s-wave two-body hydrogenic** binding — a category error; (c) **blanket-archiving `v5_dCDF_complete`** as superseded without reading it (its own banner fences only the *fit numbers*; the mechanics are the standing model); (d) declaring the box **1-core** from `nproc` when `nproc` reports the **OMP_NUM_THREADS budget** — the box has **12 cores**, load ~5, never oversubscribed, and the user's own `make -j12` memory said so; (e) reading the derived stack's **+1.77σ from the concordance joint** against the corpus's **fit-vs-stack 1.4σ** as a contradiction — different pairs, no contradiction | every one caught by the Label Firewall (P1.c: cite the object WITH its regime, never claim from a label). The tell is consistent: **each error cited a number without checking what it measures.** (d) is the most instructive — a whole 3-way-starvation triage, and a user decision taken on it, built on a thread budget mistaken for hardware | 2026-07-16 |
-| **Process error 36: the D/H row's significance called TWICE, wrongly both times** — first flagged the "±0.030 ⟹ 1.6–1.9σ" gap as an unstated **BBN theory error** (a guess, offered where a 65-second measurement was available); then, after measuring, "corrected" it to *the quoted σ is the raw value's* and filed the theory-error reading as a wrong guess. **That correction was itself an over-claim.** All three readings fit the corpus's own numbers: raw 2.477 vs σ=0.030 → 1.67σ; net 2.41 vs σ=0.067 → 1.75σ; net 2.41 vs σ=0.053 → 2.21σ (which is what P-2026-027 quotes). **The theory-error reading is not excluded — it fits equally.** | **the actual defect, third time asked: the D/H error budget is UNSTATED, so the row's significance is irreproducible** — three readings fit, and two live docs (the witness at σ≈0.067, P-027 at σ≈0.053) imply *different widths from each other*. Which is intended is not determinable from the corpus. **Twice I picked one and called it the answer; the honest finding was that the corpus does not say.** Booked as OWED on P-027, not as a resolved defect | 2026-07-16 |
+| **Process error 36: the D/H row's significance called TWICE, wrongly both times** — first flagged the "±0.030 ⟹ 1.6–1.9σ" gap as an unstated **BBN theory error** (a guess, offered where a 65-second measurement was available); then, after measuring, "corrected" it to *the quoted σ is the raw value's* and filed the theory-error reading as a wrong guess. **That correction was itself an over-claim.** All three readings fit the corpus's own numbers: raw 2.477 vs σ=0.030 → 1.67σ; net 2.41 vs σ=0.067 → 1.75σ; net 2.41 vs σ=0.053 → 2.21σ (which is what P-2026-027 quotes). **The theory-error reading is not excluded — it fits equally.** | **the actual defect, third time asked: the D/H error budget is UNSTATED, so the row's significance is irreproducible** — three readings fit, and two live docs (the witness at σ≈0.067, P-027 at σ≈0.053) imply *different widths from each other*. Which is intended is not determinable from the corpus. **Twice I picked one and called it the answer; I then called it OWED — and that third finding was ALSO wrong: the budget is stated and cite-verified (PRIMAT ±0.037), see process error 40. The three widths were different foldings of the same two stated components.** Booked as OWED on P-027, not as a resolved defect | 2026-07-16 |
+| **Process error 39: a killer written from the wrong field's number** — the SOC-attractor candidate for Koide's A = √2 was filed with its own killer attached: *"background.c certifies Gi ≪ 1 (mean-field) for the condensate's transition — the opposite regime from a critical seam, so the candidate dies on it."* **Void.** That Gi belongs to the **dyad's** condensation at T_c; the SOC attractor belongs to the **dCDF's** settling; the family field is a **third** object with no Ginzburg number at all. Three fields, three transitions — the killer compared two that never meet | the corpus contains **exactly one** computed Ginzburg number and it is for none of the fields in question. **Same category error as the He-3-A door**: a number attached to one object applied to another because both are called "the condensate." Corrected in T6; the real decisive test — *compute the family field's Ginzburg number* — is named there and does not exist yet. **Caught while answering "which field's Ginzburg number applies", i.e. only because the question was asked directly** | 2026-07-17 |
 | **Process error 38: the η-flow's absolute D/H quoted on the wrong ω_b anchor** — reported "ramped + η-flow ⟹ D/H = 2.4305, −3.22σ, p = 0.0030" as if it superseded the registered 2.40–2.42. It does not: my PRyM baseline sits at PRyM's **default** ω_b = 0.02230 (D/H = 2.4545), while the registered chain is anchored to the model's **own** ω_b (own-ΛCDM D/H = 2.420) — the two anchors differ by 1.4%, and **the model's ω_b is not available** (the chains that would give it are unconverged) | **the RELATIVE effects are anchor-independent and stand** (η-flow −1.61% vs the recorded −1.8%; window +0.65%) — and applying the *relative* ramped window to the registered *absolute* pre-window value is what legitimately re-derives P-027 to 2.387. The absolute χ²/p figures computed at PRyM's default ω_b were withdrawn. **The ratio was measured; the absolute was borrowed** | 2026-07-16 |
 | **Process error 37: a snag accepted before its ramp-before was walked** — the ΔN_eff kill was priced with the **14 confined Goldstones** at n/p freeze-out, where T/T_c = 3.9 and the sector is **deconfined** (27 dof: quarks + gluons). A phase error, not merely a step | caught by applying snag protocol 5a to my own verdict. The kill **hardened** on the walk (ΔN_eff 0.375 → 0.723; Y_p → ~3.6σ), so the conclusion survived — but it was right for the wrong number until the ramp-before was walked | 2026-07-16 |
 
@@ -442,3 +446,179 @@ the white hole's fingerprint is written into light's initial state, en route nul
 gravity — it cannot touch light's parity (coefficient zero, EM-neutral), it CAN touch the
 metric's parity (θ·R·R̃), and that split is exactly what the model's GW-chirality prediction
 rests on. The failures are load-bearing for the understanding.
+
+### The c = 1 conformal-origin mechanism (UV-completion candidate #17) — SUPERSEDED BY THE MODEL'S OWN DERIVATION (2026-07-17)
+
+**The claim.** The universe's first regime is w = 1/3, whose stress tensor is traceless ⟹
+approximately conformal ⟹ conformal symmetry fixes the scalar-matter coupling to its conformal
+value **c = 1**, symmetry-protected at the origin and running away from it. Stated payoff: *"c=1
+becomes PREDICTED → amplitude sharp."*
+
+**What killed it.** c was derived — by a route with nothing to do with conformal symmetry. **c = 9/10**
+is a counting fraction (N−1)/N over the universal charged-fermion roster: 9 charged species plus the
+vacuum's own seat ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)). **1 ≠ 9/10**, and the census route
+is the one that closed. The mechanism is not wrong-by-measurement — both values sit inside the
+measured 0.93 ± 0.38 — it is **displaced**: the model answered the question a different way, and two
+different mechanisms cannot both fix the same number.
+
+**The lesson (process).** The docket that owned this candidate stayed on the reader-facing shelf
+for nine days after its headline target closed, still calling c "the one irreducible free parameter"
+and still carrying the retired decomposition ε = c·f_amp·Ψ₀/M_red as its master equation. **A
+closed target does not close its docket; the docket has to be walked back to.** The paired
+"gravity self-clumping to the c=1 attractor" assumption dies with it.
+
+### The Lagrange/Gascheau merge criterion (the three-body import) — KILLED THE DAY IT WAS RAISED (2026-07-17)
+
+**The import (mine, not JP's).** JP proposed that the dCDF, the dyad and the white hole must sit at
+120° for the merge to succeed, else the three-body problem throws them apart. I matched this to
+**Lagrange's equilateral solution (1772)** and **Gascheau's stability theorem (1843)**,
+27(m₁m₂+m₂m₃+m₃m₁) < (m₁+m₂+m₃)², verified the criterion against three cases with known answers,
+and credited it with supplying **a relation among the three deposits from outside the ring** — the
+shape the Koide blank needs.
+
+**What killed it: the category question — what mass does each object contribute?** Gascheau's *m*
+is the **active gravitational** mass, ρ(1+3w) (Komar), not the energy density. Three independent
+breaks, any one fatal:
+
+1. **Positive-mass theorem, mixed-sign system.** Two of the three members carry **negative** active
+   mass by independent routes: the dCDF (w = −1 ⟹ 1+3w = −2) and the dyad (binding energy ⟹ ρ < 0).
+   Mixed-sign Newtonian gravity produces **Bondi runaway**, not orbits; the linearisation has no
+   ground under it.
+2. **Not bodies.** Lagrange needs three localised masses at distinct positions with an orbit.
+   Overlapping fields have no separation.
+3. **Stability is the condition NOT to merge.** A Gascheau-stable configuration *persists*. The
+   picture requires the three to converge. **Satisfying the criterion would falsify the picture it
+   was imported to support.**
+
+**The √2 dies with it.** The marginal boundary's discriminant is exactly 2592 = (36√2)², giving
+y_c = (√2−1)²/9 — but it was already quarantined (the √2 sits in the discriminant, not in any ratio
+the boundary offers: 0.0198, 50.456, 7.103, none equal to 1.414214), and it is now the discriminant
+of an inapplicable criterion.
+
+**What survives, and it is JP's:** (i) the **shape** — that a merge requires the three to balance,
+and that balance is what relates the deposits; still the only proposal reaching M and R from outside
+the ring. (ii) the **sign structure**, earned: JP's face labels reproduce the signs of ρ(1+3w)
+unprompted — white hole = k_up → positive; dCDF = −k_down → negative; dyad = ±k_neutral → ρ < 0.
+The assignment preceded the equation-of-state check.
+
+**The lesson (process).** I imported a **stability** theorem to explain a **merge** and did not
+notice for a full pass that the two are opposites — while explicitly warning, in the same write-up,
+against grabbing the nearest number. The enthusiasm was the tell: the match was to the *picture*
+(three things, 120°, falls apart otherwise), never to the *physics* (what gravitates, and whether it
+persists or converges). **A theorem that matches the story is not a theorem that applies.**
+
+### The Komar/virial "second route" to A² = 2 — CHASED AND NOT LOAD-BEARING (2026-07-17)
+
+**The watch.** Working the merge signs surfaced that the **Komar (active gravitational mass)
+factor** 1+3w and the **virial linkage** (1+w)/(1−w) *both* equal **2** at w = 1/3, and that they
+are different functions crossing at only two points. It looked like a second, independent route to
+Koide's A² = 2. **Chased to a verdict rather than left as a watch** — a documented failure is a
+fence; an undocumented one gets re-walked.
+
+**Result 1 — the coincidence is exactly the statement d = 3 (this part is real).** In D = d+1
+spacetime dimensions the acceleration equation is ä/a = −(8πG/d(d−1))[(d−2)ρ + d·p], so the active
+mass source is ρ[(d−2) + d·w] and the normalised Komar factor is **F(w) = 1 + d·w/(d−2)** — the
+familiar 1+3w *only* at d = 3. The virial linkage **G(w) = K/V = (1+w)/(1−w)** is
+dimension-independent (it is the scalar EoS definition). Solving F = G in general d:
+
+| | value |
+|---|---|
+| non-trivial crossing | **w_cross = (4−d)/d** |
+| radiation (p = ρ/d) | **w_rad = 1/d** |
+| they coincide iff | **4 − d = 1 ⟹ d = 3, uniquely** |
+
+*Swept:* d = 4 → 3/2 vs 5/3; d = 5 → 4/3 vs 3/2; d = 6 → 5/4 vs 7/5; d = 2 → divergent (the
+(d−2) factor kills the Newtonian limit). **Only d = 3 agrees.** This is consistent with the model's
+standing ruling that **the 3 in α_c = 3α is the spatial dimension** — recorded as a byproduct.
+
+**Result 2 — it is NOT load-bearing, and this is why it is filed here.** A² = 2 follows from
+G(1/3) = 2 **by itself**; the Komar factor is not a second route to it. **F and G are both functions
+of w alone, evaluated at the same w** — "two factors equal 2" is **w = 1/3 said twice**. It supplies
+no independent constraint and pays nothing toward the **owed identification** (that the √m
+spectrum's fluctuation *is* the family field's kinetic energy, K ∼ R², V ∼ M²), which is the actual
+debt. **A d = 3 identity, not a derivation.**
+
+**The fence.** Do not re-raise the Komar factor as support for A² = 2. Two functions of w agreeing
+at one w is not corroboration — it is one fact counted twice. The Koide debt is unchanged.
+
+### The BBN witness's D/H chain — THE η-FLOW WAS SPENT TWICE, AND THE SHELF INHERITED A WITHDRAWN σ (2026-07-17)
+
+**What was wrong.** [PRTOE_bbn_witness.md](PRTOE_bbn_witness.md) presented **one** D/H chain built
+out of **two different PRyM runs on two different baryon densities**, bridged by an η-flow that
+cannot perform the bridge:
+
+| | the file's claim | what its own numbers give |
+|---|---|---|
+| stated chain | ramped 2.470340 −(η-flow, "−1.6%")→ **2.387** | 2.470340 × (1.011)^−1.6 = **2.4275** |
+| the gap | — | **−1.67%: the chain does not close** |
+
+**The real provenance.** 2.387 never came from that table. It is the registry's (P-2026-027)
+chain, on the **model's own ω_b**: in-house ΛCDM control **2.420** → *(ω_b +1.1%)* → pre-window
+**2.372** → *(ramped window, +0.645%)* → **2.387** — which closes to 0.25%. **The η-flow is what
+makes 2.420 → 2.372.** The witness file spent it a *second* time, against an unrelated run whose
+baseline is PRyM's default (2.454498), not the model's. The two runs agree exactly where they
+should — the window's effect is **+0.645%** in both — and the file mistook that agreement for
+licence to mix their absolutes.
+
+**The inherited damage: a σ the corpus had already withdrawn.** The table's D/H pull, **−1.89σ**, is
+2.470340 vs Cooke — i.e. an *absolute* D/H on PRyM's **default** ω_b, exactly the claim retired as
+**process error 38** (D/H ∝ ω_b^−1.6 is the most ω_b-sensitive abundance in the network; only its
+relative effects survived). That number then propagated to the reader-facing shelf as **"the ~1.9σ
+owned bet"** — in the referee calendar, the fingerprint lattice (twice), and the bibliography — while
+the registry, correctly, said the width was owed and no σ could be quoted. **Two live docs stated
+different bets for the same row.**
+
+**And the joint statistic fell with it.** The file's headline **"joint χ² = 4.75 on 2 dof ⟹ p =
+0.093 — not comfortable, not rejected"** reproduces exactly as 1.09² + 1.89² = 4.75: its D/H leg
+*is* the withdrawn-baseline σ. **A joint χ² cannot be quoted from a σ the corpus says it cannot
+quote.** Removed.
+
+**What survives, and it is most of it.** The window's *relative* effects (Y_p +0.852%, D/H +0.645%,
+Li7 +0.263%), the elasticities, the unmoved N_eff, the standing prediction **2.387**, and the
+lithium null. **Y_p's +1.09σ also survives and is genuinely baseline-robust** — Y_p ∝ ω_b^0.04, so
+the model's own ω_b moves it only to +1.12σ. The BBN column stays **net adverse**.
+
+**The lesson (process).** The two runs' *relative* agreement (+0.645% in both) is what made the mix
+invisible: the physics that was shared was correct, so the seam looked like continuity. **Two runs
+agreeing on a ratio is not permission to chain their absolutes.** The withdrawal (process error 38)
+was booked correctly and *still* leaked — because it was booked against the number, not against
+every doc that had already quoted it. **A withdrawal has to be chased across the shelf, not filed
+where it happened.**
+
+### Process error 40: "the D/H error budget is not stated anywhere in the corpus" — FALSE, AND IT WAS THE THIRD WRONG CALL ON THE SAME ROW (2026-07-17)
+
+**The claim I made, three times** (in [PRTOE_bbn_witness.md](PRTOE_bbn_witness.md), in P-2026-027's
+amendment, and in **process error 36 itself** — the entry whose whole subject was that I had called
+this row wrong twice): *"The D/H error budget is not stated anywhere in the corpus, and the
+significance is not reproducible without it. Until the budget is stated, this row carries a central
+value and no σ."*
+
+**It was stated.** [PRTOE_v5_dCDF_complete.md](PRTOE_v5_dCDF_complete.md) §headline, since
+2026-07-07: *"with the post-LUNA nuclear-theory error (**PRIMAT ±0.037, cite-verified**) the scar is
+−1.2σ"*, sourced to arXiv:2011.11320 vs 2011.11537. **It reproduces exactly**: the v5-era D/H 2.468
+against Cooke gives −1.97σ on the observational error alone (the quoted "−2.0") and **−1.24σ** on
+±0.030 ⊕ ±0.037 (the quoted "−1.2"). Three live docs were *already using* it.
+
+**Consequences, all of them mine:**
+- The row's σ was quotable the whole time. The standing ramped 2.387 sits at **−2.9σ**, not at the
+  "−4.7σ upper bound, not a claim" the shelf carried.
+- The three "different widths" process error 36 puzzled over (σ ≈ 0.030 / 0.053 / 0.067) are not
+  arbitrary — they bracket ±0.0476 (nuclear) and ±0.0642 (nuclear + half the code spread). **They
+  were different foldings of the same two stated components.** I read a resolvable bookkeeping
+  question as an unstated input.
+- **The joint statistic should never have been withdrawn as unquotable** — only as *wrongly
+  computed*. Recomputed on the real budget it is **worse** than the number it replaced: χ² = 9.83,
+  **p = 0.007 — rejected at 5%** — softening to p = 0.05–0.20 only if the inter-code spread is
+  folded in.
+
+**How it happened.** I searched the two files that *discuss* the budget (the witness, the registry),
+found the debt asserted in both, and concluded the corpus was silent — **without searching for the
+number itself.** The budget lived in a file I had blanket-dismissed once before and been corrected
+on (v5_dCDF_complete: "mechanics current, fit numbers historical" — and a **cite-verified external
+error bar is neither mechanics nor a fit number; it is a literature value, and it never went stale**).
+
+**The lesson (process).** *An "owed" is a claim, and it needs a search before it is booked, exactly
+like a result does.* Three times I booked "the corpus does not say" from reading the two documents
+that say it is owed. **A debt asserted in two places is not evidence of absence anywhere else** —
+and the value-level audit that found this took four minutes after nine days of the debt standing.
+

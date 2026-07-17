@@ -154,9 +154,11 @@ universal-vev amendment (D/H +7.7σ, τ_n −4.9%), capped the completion's
 entire tuning freedom to one number (x₀ ≲ e⁻³⁵), executed the funded
 floor's early face (ν·x_BBN ~ 500–6000 for all allowed x₀), and priced the
 B−L portal at GUT-scale suppression (the uniform neutron potential grows
-a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar: deuterium
-at −2.0σ, repriced to −1.2σ with PRIMAT theory error (ΛCDM itself carries
-1.85σ). The healer is registered, conditional, and co-signed:
+a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar: on the standing ramped
+prediction (D/H = 2.387×10⁵) the deuterium tension is **−2.9σ** against Cooke with the full
+stated budget (obs ±0.030 ⊕ PRIMAT nuclear theory ±0.037); the 3.5% inter-code spread, unfolded,
+would soften it to −1.4…−2.2σ (ΛCDM itself carries 1.85σ under PRIMAT). *(The −2.0σ → −1.2σ
+repricing was the v5-era central value 2.468, superseded by the ramp.)* The healer is registered, conditional, and co-signed:
 **P-2026-006 — a quark-mass amendment δm̂/m̂ = +0.14–0.21% at BBN heals
 D/H with a mandatory Y_p −0.5% and ⁷Li −7..13% co-signature** (DSW PRD 76,
 063513 coefficients, pulled from source).
@@ -607,8 +609,9 @@ gravity residuals attributable to the dark sector.*
 
 ## The nuclear accounting (BBN and its outputs)
 
-**31. Deuterium cosmology (PRIMAT) — PREDICTS.** The scar: −1.2σ carried
-honestly (ΛCDM itself: 1.85σ). The healer is registered:
+**31. Deuterium cosmology (PRIMAT) — PREDICTS.** The scar: **−2.9σ** carried
+honestly on the standing ramped 2.387 (full budget: obs ±0.030 ⊕ theory ±0.037; the unfolded
+inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The healer is registered:
 δm̂/m̂ = +0.14–0.21% at BBN (P-2026-006, conditional). *Hook: the healer
 demands its co-signatures or it dies; a scar resolving to >3σ against us
 wounds the dyad's BBN books.*
@@ -921,7 +924,7 @@ against, not a claim).*
 | 28 | Quasar spectroscopy | EXECUTED (α) / PENDING-DATA (R1) | α killed 45–100×; m_e in unvirialized gas unmeasured — R1's judge |
 | 29 | Oklo reactor | PASSING | 2-Gyr constants stability inside virialized matter, as R1 requires |
 | 30 | Matter-wave interferometry | STANDING-NULL | δg/g ~ 1×10⁻⁹, no dark dephasing |
-| 31 | Deuterium (PRIMAT) | PARTIAL | scar −1.2σ carried openly; healer P-2026-006 awaiting §2-wall derivation |
+| 31 | Deuterium (PRIMAT) | PARTIAL | scar −2.9σ (standing ramp, full budget) carried openly; healer P-2026-006 awaiting §2-wall derivation |
 | 32 | Lithium | PENDING-DATA | co-signature −7..13% untestable until healer tested |
 | 33 | Helium-4 (Y_p) | PASSING | in-config YHe(ω_b, m_e) consistent with 0.2449±0.0040 |
 | 34 | Neutron lifetime | EXPOSURE-OPEN | beam-bottle 4σ unresolved upstream of our BBN prior |

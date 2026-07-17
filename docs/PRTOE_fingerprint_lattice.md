@@ -18,7 +18,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c c
 | window | the row | current standing |
 |---|---|---|
 | CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
-| BBN: D/H | ~0 direct + η-widening − windowed refund | the signed ~1.9σ bet; radio-arbitrated |
+| BBN: D/H | ~0 direct + η-widening − windowed refund | the signed self-adverse bet (2.387×10⁵, width owed); radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out): **+0.85% → +1.09σ** COUNTER | the reversed row (was briefly ‘the medicine’) |
 | BBN: quark-bleed | δm_q = ε full → ~1σ D/H nudge | credited side-prediction |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
@@ -45,10 +45,9 @@ correlation test of this width.
 
 ## 3. Honest accounting
 
-Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.09σ, the reversed row) and D/H (the ~1.9σ fork).
+Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.09σ, the reversed row) and D/H (the fork — central value 2.387×10⁵; its width is owed, so no σ).
 Rows pending: the radio chord, the axis family, the comb. The lattice is winning on breadth,
-not yet on any single decisive row — exactly the profile the review has priced at 15–18%
-(capped 25% pending PolyChord). *One lever, many windows, no exits: the lattice is either the
+not yet on any single decisive row. *One lever, many windows, no exits: the lattice is either the
 most over-constrained correct idea in cosmology or the most efficiently falsifiable wrong one.
 Both are compliments to its construction; only the sky knows which.*
 

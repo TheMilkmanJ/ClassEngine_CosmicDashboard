@@ -15,7 +15,7 @@ that is a bug — file it.*
 - **[DESI2024]** DESI Collaboration, "DESI 2024 VI: cosmological constraints from BAO," arXiv:2404.03002. — The BAO/w(z) frontier; DR3 is the model's named top falsifier.
 - **[eBOSS2021]** S. Alam et al. (eBOSS), "Completed SDSS-IV eBOSS: cosmological implications," PRD 103, 083533 (2021), arXiv:2007.08991. — Pre-DESI BAO in the chain stacks.
 - **[Pantheon+2022]** D. Brout et al., "The Pantheon+ analysis: cosmological constraints," ApJ 938, 110 (2022), arXiv:2202.04077. — The SNe leg.
-- **[Cooke2018]** R. J. Cooke, M. Pettini, C. C. Steidel, "One percent determination of the primordial deuterium abundance," ApJ 855, 102 (2018), arXiv:1710.11129. — D/H = (2.527 ± 0.030)×10⁻⁵; the signed ~1.9σ bet's referee.
+- **[Cooke2018]** R. J. Cooke, M. Pettini, C. C. Steidel, "One percent determination of the primordial deuterium abundance," ApJ 855, 102 (2018), arXiv:1710.11129. — D/H = (2.527 ± 0.030)×10⁻⁵ — the observational pole of the D/H fork; the model predicts 2.387×10⁵ (width owed).
 - **[Aver2021]** E. Aver et al., "Improved helium abundance determination with EMP galaxies," JCAP 03 (2021) 027, arXiv:2010.04180. — Y_p = 0.2453 ± 0.0034; one side of the helium war.
 - **[EMPRESS2022]** A. Matsumoto et al. (EMPRESS VIII), "EMPRESS. VIII. A new determination of primordial He abundance," ApJ 941, 167 (2022), arXiv:2203.09617. — The low-Y_p side; the war's other pole.
 - **[FIRAS1996]** D. J. Fixsen et al., "The CMB spectrum from the full COBE FIRAS data set," ApJ 473, 576 (1996). — The perfect blackbody; the plasma's witness.
