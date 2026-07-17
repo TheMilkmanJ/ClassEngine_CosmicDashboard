@@ -598,7 +598,7 @@ granules regardless); the 14%-branch predicts silence AND full
 granule contrast. A joint sky reading of the same single dice roll.
 Simulation-grade follow-up owed before any number is quotable.
 
-**E7b () — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
+**E7b — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
 meter's concrete observables, with one overclaim caught pre-booking):**
 (i) CONDENSATION LAG: each fluid condenses into its soliton on its
 own kinetic timescale (Levkov, Panin, Tkachev, PRL 121, 151301
@@ -781,7 +781,7 @@ the m-gate re-pin. Pre-registered for the harvest: the per-h gap
 vector should SHRINK monotonically with h; the h = 3000 interim floor
 is now doubly suspect (3% odds under ergodic).
 
-**E8b () — THE MONOTONIC-SHRINK TRIAL, ROWS AS THEY LAND (the
+**E8b — THE MONOTONIC-SHRINK TRIAL, ROWS AS THEY LAND (the
 falsifier under strain, reported with the ink promised):**
  gap vs ergodic (thr 0.1/0.2/0.3/0.4), n = 50, dual-integrator:
  h=100: +3.4 / +6.2 / +10.6 / +16.9
