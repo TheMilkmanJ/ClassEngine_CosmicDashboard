@@ -53,12 +53,23 @@ fluid, two eras**.
 > **The three-membered chirality family — matter / magnetism / metric — is one integer n**, a
 > genesis/topological property, independent of the pairing channel.
 >
-> **So: the s-wave pairing and the chirality wing are compatible.** What is retired is *this
-> section's redundant second sourcing* of chirality from p-wave L — a source nothing downstream
-> ever drew on, and which the ℓ = 0 selection now excludes. **What genuinely loses its home is the
-> Weyl-point → 3-generation count** (the only claim that uniquely needed L = 3): with L = 0 there
-> are no Weyl pairs to split, so the generation count must come from Z₃ as a family symmetry
-> directly, or from elsewhere. **That is the owed build — re-pointed, not cancelled.**
+> **The generation count survives too — it was never sourced here either.** The count is forced by
+> **Pauli finiteness**, not by node topology: str[k₁] = 0 requires the Weyl-component sum to cancel
+> the twelve gauge bosons' −48, and each generation (with its ν_R) carries +16, so
+> **str[k₁] = 16·N_gen − 48 = 0 ⟹ N_gen = 3**, uniquely (N = 1 → −32, N = 2 → −16, N = 4 → +16).
+> That is pure heat-kernel species counting — **no pairing channel, no angular momentum, no
+> nodes** — and it is already registered as **P-2026-045** (three right-handed neutrinos, three
+> generations, no light steriles). See [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2–5.3
+> and [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §5, which states it plainly: *"the number
+> of generations is three, forced by the finiteness condition."* It carries its own named
+> conditionality (ξ_H = 1/6, the conformal Higgs) — but nothing the ℓ = 0 selection can reach.
+>
+> **So this section's entire Weyl/L apparatus is retired as redundant.** It offered a *second*
+> source for two things that already have stronger, independent homes: the chirality (the winding
+> integer n) and the generation count (str[k₁] = 0). Neither downstream claim ever drew on it, the
+> f-wave order-parameter build it demanded was never done, and the ℓ = 0 selection excludes it.
+> **Nothing is lost by retiring it, and one contradiction is removed.** The bullets below are kept
+> for provenance; read them as a retired attribution, not as live structure.
 
 Structurally a **p-wave (L=1), parity-odd** superfluid — the **He-3-A class** (Volovik's
 chiral-vacuum analog). It is **NOT literal helium**: literal He-3-as-medium is **[KILLED]** (four

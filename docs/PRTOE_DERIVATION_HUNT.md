@@ -118,8 +118,22 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 
 ## 6. The basement roster
 
+> **⚠ The "3" in α_c = 3α is double-sourced — flagged 2026-07-16, not yet adjudicated.** This
+> section and §3 read it as the dark sector's **three flavours** (*"its three flavours supply the
+> '3' in α_c = 3α"*). §1 and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 read it as the **spatial
+> dimension d = 3** (*"α_c = 3α = d·α"*, the transverse-projector trace of the induced loop).
+> **These cannot both be its source.** The consequence is live, not cosmetic: if the 3 is d, then
+> "three flavours" draws **no support** from α_c and is an independent assumption of this roster;
+> the flavour count would need its own derivation. Note this is the *third* instance of one
+> attribution pattern found this pass — the other two (chirality sourced from both the winding n
+> *and* p-wave L; the generation count sourced from both str[k₁] = 0 *and* Weyl nodes) both
+> resolved by retiring the redundant second source, and in both cases the *weaker* claimant was the
+> condensate's node topology. **Adjudicate before this roster is used as a derivation.** The
+> running α_c chain refereess the *value*, not the attribution.
+
 The medium's microscopic content is the **paired lepton-sector vacuum** — leptophilic by identity, with
-three flavours (α_c = 3α), neutrinos interior (c = 9/10), and a lepton-number-breaking Goldstone (the
+three flavours (α_c = 3α — but see the flag above), neutrinos interior (c = 9/10), and a
+lepton-number-breaking Goldstone (the
 Majoron tie). This is plausibly the same object as the §3 dark confining sector: one 3-flavour,
 lepton-partnered, electron-scale confining vacuum. It supplies the roster the §5 str[k₁] balance runs
 over. **Status: hypothesis** — coherent and unifying, but the electron-scale portal (§2) is its one

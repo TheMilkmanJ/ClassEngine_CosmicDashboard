@@ -342,10 +342,24 @@ wing are compatible, and what the ℓ = 0 selection actually kills is
 [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §2's *redundant second sourcing* of chirality
 from the pairing channel — a source nothing downstream ever used.
 
-**What does lose its home:** the **Weyl-point → 3-generation count**, the one claim that uniquely
-needed L = 3 (the Weyl-pair count equals L, so ℓ = 0 leaves no nodes to Z₃-split). The generation
-count must come from Z₃ as a family symmetry directly, or from elsewhere — **the owed build is
-re-pointed, not cancelled** (§2's banner carries it).
+**And the generation count survives on the same reading.** The Weyl-pair count equals L, so ℓ = 0
+leaves no nodes to Z₃-split — but the count was never sourced there either. It is forced by
+**Pauli finiteness**: str[k₁] = 0 requires the Weyl-component sum to cancel the twelve gauge
+bosons' −48, each generation with its ν_R carries +16, so **str[k₁] = 16·N_gen − 48 = 0 ⟹
+N_gen = 3**, uniquely (N = 1 → −32, N = 2 → −16, N = 4 → +16) — pure heat-kernel species counting,
+registered as **P-2026-045**, and stated plainly in
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §5: *"the number of generations is three,
+forced by the finiteness condition."* No pairing channel, no angular momentum, no nodes; the ℓ = 0
+selection cannot reach it. (Its own conditionality — ξ_H = 1/6, the conformal Higgs — is named
+there and unaffected.)
+
+**So the ℓ = 0 selection costs the model nothing and removes a contradiction.** What it retires is
+[PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §2's **entire Weyl/L apparatus** — which was
+offering a *second, weaker* source for two results that already have stronger independent homes:
+the chirality (the winding integer n) and the generation count (str[k₁] = 0). Neither downstream
+claim ever drew on it; the f-wave order-parameter build it demanded was never done; and it was the
+only thing in the corpus contradicting the DE value's channel. **Two redundant attributions
+removed, zero load-bearing claims lost.**
 
 **Status: RESOLVED for the DE value and the chirality wing; one re-pointed debt.** The DE value
 stands at 1.5% with its partial wave now *data-selected* and its s-wave channel *mechanically
