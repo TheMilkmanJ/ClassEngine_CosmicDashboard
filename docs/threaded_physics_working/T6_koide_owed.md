@@ -196,6 +196,14 @@ numbers**. M is free, θ is free, and **all of Koide is the single fact that A l
 | the **dCDF** | **R** — the swing away from it | −k_down |
 | the **dyad** | **θ** — the rotation | ±k_neutral |
 
+> *(A reader's aside, filed here and nowhere else: since the model already has a "white hole" (the
+> pour) and a "black hole" (the crunch, its cyclic mirror), one is tempted to call this ±k_neutral
+> dyad corner the **"grey hole."** It is neither grey nor a hole — but "black hole" and "white hole"
+> are both equally terrible names for things that are neither black, white, nor holes, so the
+> nickname is exactly as wrong as its siblings and no more. **It is a joke, not a claim:** the dyad
+> is a Koide-triangle corner, NOT a third member of the black↔white cyclic axis. The model's actual
+> scheme — white hole / dCDF / dyad, and the separate crunch↔pour bounce — stands unchanged.)*
+
 **This clears T6's 2026-07-14 ruling, and the distinction is the whole point.** The ruling says
 family space is **Z₃, a label — not the condensate phase**; the Z4-torus floor died for seating the
 fields *in* the family's space. **On the knobs reading nothing sits on the ring:** the generations
