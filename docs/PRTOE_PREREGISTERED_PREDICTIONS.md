@@ -1609,8 +1609,12 @@ DE clustering ~1 e-fold grown — below current ISW sensitivity (consistent null
 the dyad is ON. Dark-ages/cosmic-dawn 21cm features (z > screening edge) appear offset by +2.5%
 in rest frequency; the offset turns OFF across the screening edge. Three verdicts in one probe:
 (i) **any** dark-ages rest-frequency offset = the dyad exists (no astrophysics moves a rest
-frequency); (ii) **the edge's SHAPE discriminates reading A vs B** — A (thermal/global gate):
-a sharp global step; B (C²/clumping gate): a patchy, σ8-tracking fade over z ≈ 30–60;
+frequency); (ii) **the edge's SHAPE is predicted, not offered as a fork:** a patchy, σ8-tracking **fade over
+z ≈ 30–60** (the C²/clumping gate). A sharp global step is **not** an alternative reading — a
+dynamical discontinuity carries no exemption under the depth law — so **a confirmed sharp global
+edge counts against this entry** rather than selecting one of its readings. *(The retired
+thermal/global-step reading, and why it was registered, are in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); amended 2026-07-16.)*;
 (iii) **the edge's location measures C_ref.** Consistency check: EDGES-class z ≈ 17 sits below
 the edge → NO shift predicted there. **Instruments:** lunar-farside dark-ages radio
 (LuSEE-Night/FARSIDE class). **Falsifier:** a clean dark-ages detection at the standard rest
@@ -1638,16 +1642,31 @@ live falsifier; the v_L derivation decides how much of the model rides on it.
 
 ## P-2026-027: The radio deuterium referee — dark-ages D 327 MHz, the two-line ratio-lock (registered 2026-07-11)
 
+*Amended 2026-07-16: the central value and the referee prediction were re-derived on the model's own
+ramped ε(T) (`scripts/prym_ramped_splice.py`); the superseded step-splice values are retired in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).*
+
 **Context:** the deuterium "scar" re-signed as a discriminator. Production PRyM at the model's OWN
 baryon densities (the m_e–ω_b CMB degeneracy pulls ω_b up +1.1% vs the in-house ΛCDM control on
-identical data): dyad-true primordial **D/H = 2.40–2.42×10⁻⁵** (windowed re-stamp; was 2.372 pre-window) vs own-ΛCDM **2.420** vs quasar-optical
-**2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of a ~2.2σ fork — a self-adverse, owned bet
-(the direct m_e→BBN response is ~0, production-verified; the shift is all η).
+identical data): dyad-true primordial **D/H = 2.387×10⁻⁵** (**the RAMPED window**, 2026-07-16; was
+2.372 pre-window; the superseded step-bracket value was 2.40–2.42) vs own-ΛCDM **2.420** vs
+quasar-optical **2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of the fork — a
+self-adverse, owned bet (the direct m_e→BBN response is ~0, production-verified; the shift is all η).
+
+**The fork's width is OWED, not asserted.** Against the observational error alone (±0.030) the
+ramped 2.387 sits **−4.7σ** from Cooke — an upper bound on the tension, not a claim. The D/H error
+budget (observational versus the BBN theory error, chiefly the d(p,γ)³He rate) **is not stated
+anywhere in the corpus**, and the significance is not reproducible without it: three different
+widths each reproduce a quoted figure somewhere in these files. **Until the budget is stated, this
+row carries a central value and no σ.**
 
 **The prediction (three-part):**
 (a) **The referee:** dark-ages D I 327.384 MHz vs H I 1420.406 MHz absorption (against the CMB —
 the only backlight older than the first pulsar/quasar/BH) yields radio-primordial
-**D/H ≈ 2.37×10⁻⁵** — no astration, no quasar optics, no BBN network in the measurement.
+**D/H ≈ 2.387×10⁻⁵** — no astration, no quasar optics, no BBN network in the measurement.
+*(Corrected 2026-07-16: this read "≈ 2.37" — the entry's own **pre-window** number, i.e. the value
+the model obtains before applying its own mechanism. The referee prediction must be the model's
+actual D/H, which is the windowed one.)*
 (b) **The twinned edge:** BOTH dark-age hyperfine lines from z > 50 are shifted **+2.50%** in
 rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in the D-line.
 (c) **The ratio-lock:** ν_H/ν_D = **4.338649 at every z, exactly preserved** (both lines ∝ m_e²)
@@ -1655,9 +1674,13 @@ rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in 
 shift cannot.
 
 **Kill:** radio-primordial D/H at ~2.53, or an unlocked ratio, or improved quasar systematics
-confirming 2.53 with the astration/optical channels closed. **Grade:** registered; the
-ratio-lock independently verified; the ~2.2σ D/H tension booked as a real standing cost, roughly
-cancelling the production Y_p improvement (BBN column = mixed-net-neutral).
+confirming 2.53 with the astration/optical channels closed. **Grade:** registered (amended
+2026-07-16: central value re-derived on the ramp, 2.40–2.42 → **2.387**; the referee prediction
+corrected from the pre-window 2.37 to 2.387; the fork's width demoted to OWED pending a stated error
+budget); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
+and is now LARGER, not smaller** — the ramp moves the model further from Cooke, not closer. It no
+longer "roughly cancels" the Y_p lean: the Y_p counter-lean is itself smaller on the ramp (+1.09σ,
+not +1.3σ), so **the BBN column is net ADVERSE, not mixed-net-neutral.**
 
 ## P-2026-028: Magnetogenesis from genome vorticity (candidate; registered 2026-07-11)
 
@@ -1702,9 +1725,11 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
 - **P-035 — THE SMOOTHNESS FLOOR**: no dark substructure below ~10⁻³ pc, ever (the healing-
  length floor). **Kill**: any confirmed sub-milliparsec non-baryonic compact object.
 - **P-036 — THE HELIUM WAR RESOLVES HIGH** (adverse-leaning, registered against comfort):
- Y_p determinations must drift UP toward ~0.25 (the windowed prediction 0.2495–0.2505 sits
- above BOTH Aver and EMPRESS). **Kill**: resolution EMPRESS-ward (hardens our counter toward
- +4σ).
+ Y_p determinations must drift UP toward ~0.25 — the ramped prediction **0.24900** sits above both
+ Aver (+1.09σ) and EMPRESS (+3.53σ). **Kill**: resolution EMPRESS-ward (hardens the counter toward
+ **+3.5σ**). *(Amended 2026-07-16: the value and kill were re-derived on the model's own ramped
+ ε(T); the superseded step-splice interval is retired in
+ [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
 - **P-037 — WIDE BINARIES ARE NEWTONIAN** (the live-controversy null): the claimed Gaia
  MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a
  confirmed wide-binary anomaly at the MOND acceleration scale.

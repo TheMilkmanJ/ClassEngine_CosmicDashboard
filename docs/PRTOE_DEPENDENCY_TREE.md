@@ -17,7 +17,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|
 | ε ≈ 1.24% exists (the dyad fits CMB better at 69.9) | M3 + Planck/ACT/SPT fits | [P] |
 | the dcdf sector (one fluid, two eras; the dispersion shape) | M3 + the fits + the derived crossover form | [P] |
-| the windowed BBN pattern (ε OFF at freeze-out) | ε + T_c ordering | [P] (Y_p +1.3σ adverse, owned) |
+| the windowed BBN pattern (ε OFF at freeze-out) | ε + T_c ordering | [P] (Y_p +1.09σ adverse, owned — ramped) |
 | inertia = the zero-drag certificate (Landau v_c = c; Newton's first law mechanized) | M3 + the census null P-2026-008 + [X: Landau 1941] + the LV Planck envelope | [GRAMMAR] — dies on vacuum drag, sub-c vacuum-Cherenkov, or LV above the envelope |
 
 ## Tier 2 — the decomposition (each factor separately refereed)

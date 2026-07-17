@@ -92,7 +92,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   the pure-glue 0.69–0.71 and break §2's value. **The ramp audit made it worse:** n/p freeze-out is at
   T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 — the dark sector is DECONFINED at freeze-out** and the
   Goldstones do not exist yet; the correct count there is dark quarks + gluons = **27**, giving
-  **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's already **+1.3σ adverse Y_p scar → ≈ +3.6σ**. **Consequence: the dark sector must have
+  **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's **+1.09σ adverse Y_p scar (ramped) → ≈ +3.4σ**. **Consequence: the dark sector must have
   NEVER THERMALISED with the SM** (then ΔN_eff → 0 and the roster survives, at the price of a hard upper
   bound on the portal coupling). Registered as the fifth kill of **P-2026-048**. CMB-S4 (±0.03) tests it
   either way. (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
