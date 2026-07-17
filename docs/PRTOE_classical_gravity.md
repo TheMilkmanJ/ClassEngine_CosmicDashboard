@@ -38,12 +38,12 @@ Sakharov stiffness. GIVEN the area law, Jacobson delivers Einstein's equations �
 law is the keystone debt (no-bare-G + the Frolov–Fursaev condition), and the flag stands:
 analog frames generically deliver linearized-plus, and the FULL nonlinear Einstein dynamics
 (graviton self-interaction to all orders) rests on the same address. **Thread: CONDITIONAL —
-perfect IF the keystone pays; the M3/basement compute is the toll.**
+perfect IF the keystone holds; the M3/basement compute is the cost.**
 
 ## The bet's summary
 
 Newton threads perfectly and profitably (his postulates become theorems). SR threads perfectly
-at the price of an eternal performance. GR threads through one unpaid toll booth that five
+at the price of an eternal performance. GR threads through one unmet requirement that five
 other documents are also parked at. The classical tower doesn't just survive the model — the
 model explains why the tower never wobbled: **everyone in it was always swimming in the same
 medium, reading the same account, blind to everything but size.**

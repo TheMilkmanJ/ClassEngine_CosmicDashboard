@@ -118,7 +118,7 @@ consistency structure applied to its most famous problem:
  condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
  relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
  roster demonstrably cannot pay this bill species-by-species: str[1] = −68 and the
- Veltman-class sum both FAIL — the whole medium pays what the parts cannot). The
+ Veltman-class sum both FAIL — the whole medium does what the parts cannot). The
  observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
  fountain (below).
 - **The background reading — does not fix the value:** on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent

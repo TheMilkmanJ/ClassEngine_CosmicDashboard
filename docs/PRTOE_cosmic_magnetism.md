@@ -50,7 +50,7 @@ differently (photon drag couples to them unequally), separating charge into a cu
  B_seed ≈ 2 (m_p c / e) · ω_vort ≈ **5×10⁻¹⁸ G** at ω_vort ~ 0.5 H(rec) (graded)
 
 That is precisely a viable **galactic** seed: compressed and dynamo-amplified over ~30 e-folds
-to the observed μG. **The model pays the galactic magnetism bill where ΛCDM cannot** —
+to the observed μG. **The model accounts for the galactic magnetism where ΛCDM cannot** —
 a genuine new explanatory front, registered as P-2026-028.
 
 **Consistency, forced:** the seeding runs through the *plasma's* response to the medium's

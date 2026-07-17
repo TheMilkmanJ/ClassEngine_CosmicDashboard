@@ -7,7 +7,7 @@
 Lorentz symmetry → EMERGENT, IR symmetry of the medium — and it never had its own file while
 carrying the whole Achilles' heel (M3). Filed now, at its graded sizes. Status: STRUCTURAL,
 riding the internal-review rulings. Companion: [PRTOE_inertia.md](PRTOE_inertia.md) — the
-dynamical half (zero drag below the cone; this file pays the kinematic objection, that one
+dynamical half (zero drag below the cone; this file answers the kinematic objection, that one
 pays the drag objection).*
 
 ## 0. What SR is, in this model

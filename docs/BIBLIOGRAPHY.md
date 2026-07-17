@@ -69,7 +69,7 @@ that is a bug — file it.*
 
 - **[ArkaniHamed2004]** N. Arkani-Hamed, H.-C. Cheng, M. Luty, S. Mukohyama, "Ghost condensation and a consistent infrared modification of gravity," JHEP 05 (2004) 074, arXiv:hep-th/0312099. — The ghost-condensate frame the arrow-giver adopts (θ-dot background = the permanent μ); its bounded NEC-flexibility is the exotic-spacetime shelf's priced sector.
 
-- **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the settlement-terms computation runs on.
+- **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the measurement-sector computation runs on.
 
 - **[Combescot1990]** R. Combescot, "Critical temperature of superconductors: Exact solution from Eliashberg equations on the weak-coupling side," Phys. Rev. B 42, 7810 (1990). / **[Marsiglio2018]** F. Marsiglio et al., "Eliashberg theory in the weak-coupling limit," arXiv:1807.04907; real-axis companion arXiv:1912.09460. — The exact weak-coupling prefactor T_c = 1.13 e^{-3/2} ω_c e^{-1/λ} the referee sessions run on.
 
@@ -101,7 +101,7 @@ that is a bug — file it.*
 - **[Koide1983]** Y. Koide, "A fermion-boson composite model of quarks and leptons," Phys. Lett. B 120, 161 (1983); PRD 28, 252 (1983). — The charged-lepton relation the dyad must not break (thread 6).
 - **[Tsirelson1980]** B. S. Tsirelson, "Quantum generalizations of Bell's inequality," Lett. Math. Phys. 4, 93 (1980). — The bound the quantum wing treats as a standing exam.
 
-- **[Zurek2003]** W. H. Zurek, "Environment-assisted invariance, entanglement, and probabilities in quantum physics," PRL 90, 120404 (2003), arXiv:quant-ph/0211037 (and PRA 71, 052105). — The envariance derivation of the Born rule; the swap partners are the twins (the settlement law, clause ii — adopted).
+- **[Zurek2003]** W. H. Zurek, "Environment-assisted invariance, entanglement, and probabilities in quantum physics," PRL 90, 120404 (2003), arXiv:quant-ph/0211037 (and PRA 71, 052105). — The envariance derivation of the Born rule; the swap partners are the twins (the selection law, clause ii — adopted).
 
 ## 7. Precision tests (the constraints the medium must satisfy)
 
