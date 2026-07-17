@@ -72,6 +72,11 @@ grading anything here.*
   of a *more flexible model than the theory*, and that any paper must say so. **The single most
   important file for anyone judging the evidence.**
 - [THE PHYSICS DOMAINS](PRTOE_PHYSICS_DOMAINS.md) — the 74-domain census with verdicts and receipts
+- [dCDF v5 — THE COMPLETE MODEL](PRTOE_v5_dCDF_complete.md) — **mechanics current, fit numbers
+  historical.** The barotropic dark fluid that replaces both CDM and Λ (p_d ≡ −ρ_∞, the
+  w = −ρ_∞/ρ background) is the standing model; the July-6 refit tables inside it (H₀ = 69.70,
+  the χ² tables) are that era's frozen record and carry their own banner. *Filed here, not in the
+  archive: the "v5" in the name is a version label, not a retirement.*
 - [THE CODE MANIFEST](PRTOE_CODE_MANIFEST.md) — what is in the pipeline, what is armed, what is
   banned (the theory↔code boundary; read alongside the honest status above)
 - [THE H₀ CEILING](PRTOE_H0_CEILING.md) — how high the model can reach, and why the pipeline can't
@@ -97,8 +102,7 @@ where it only carries the generic "some statuses may be superseded" hedge, trust
 - [Second_Order_Action_Specification](PRTOE_Second_Order_Action_Specification.md) — RETIRED, the
   legacy scalar-tensor (pre-dyad) formulation
 - [STATE_OF_MODEL](PRTOE_STATE_OF_MODEL.md) — historical checkpoint, predates the derivation hunt
-- the v4/v5 era: [v5_dCDF_complete](PRTOE_v5_dCDF_complete.md) ·
-  [v5_five_verdict_derivation](PRTOE_v5_five_verdict_derivation.md) ·
+- the v4/v5 era: [v5_five_verdict_derivation](PRTOE_v5_five_verdict_derivation.md) ·
   [v5_SIDM_scoping](PRTOE_v5_SIDM_scoping.md) · [v4_dCDF_derivation](PRTOE_v4_dCDF_derivation.md) ·
   [v4_dCDF_results](PRTOE_v4_dCDF_results.md) (superseded by the dyad era)
 - lab-logs (dead ends included, by design):
