@@ -1,12 +1,22 @@
 # Note for Prof. W. Fairbank — What a unified dark-fluid cosmology predicts for 0νββ
 
-*(DRAFT v0.2, 2026-07-13. Plain physics throughout; self-contained. Circulation gate:
-the running zero-parameter evidence verdict + final citation check.)*
+*(DRAFT v0.3, 2026-07-17. Plain physics throughout; self-contained.)*
+
+> **CIRCULATION GATE — three items, all open. This note does not go out until they close.**
+> 1. **The running zero-parameter evidence verdict.**
+> 2. **Final citation check.**
+> 3. **The quoted fit record must be re-earned.** The H₀ ≈ 69.9 record was obtained with a
+>    likelihood that fed CLASS a **ΛCDM helium fraction** rather than the model's own: the
+>    `YHe` lambda declares the electron-mass shift and never applies it, leaving n_e ∝ (1−Y_p)
+>    **0.27% off** at recombination — in precisely the place this model's H₀ mechanism operates.
+>    The BBN prior is blind the same way and undercharges the model by ~1 χ². **The number in
+>    this letter is not defensible to a referee until the fit is re-run with the model's own Y_p.**
+>    ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md), the theory↔code gap.)
 
 ## The result in three sentences
 
 In a unified dark-sector cosmology — one superfluid scalar replacing dark matter and
-dark energy, plus a single ~1.24% early-universe shift of the electron mass — the
+dark energy, plus a single **derived** 1.2543% early-universe shift of the electron mass (ε = 27α/5π) — the
 neutrino sector is an output, not an input: the model's dark-energy scale ties to the
 lightest neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**, and because
 the mass mechanism violates lepton number, **neutrinos must be Majorana: the 0νββ
@@ -50,8 +60,21 @@ cosmologically foreclosed.
 ## The honest status card
 
 - **Fit record**: matches or modestly outperforms ΛCDM on Planck 2018 + ACT DR6 +
- SPT-3G + BAO + Pantheon+SH0ES + BBN at H₀ ≈ 69.9 (sound-horizon-driven; holds with
- the SH0ES calibration included and pulling the other way).
+ SPT-3G + BAO + Pantheon+SH0ES at H₀ ≈ 69.9 (sound-horizon-driven; holds with
+ the SH0ES calibration included and pulling the other way). **BBN is deliberately not in
+ that list — it is the model's worst column, and it is stated separately below.**
+- **The BBN cost, stated plainly.** The electron-mass shift is on during nucleosynthesis, and
+ the sector is rigid — every input derived or measured, so the model cannot coach its witness.
+ It comes out **net adverse**: Y_p sits **+1.09σ** above Aver (**+3.53σ** vs EMPRESS — the
+ helium civil war is unresolved and not ours to settle), and D/H is predicted at
+ **2.387×10⁻⁵** against Cooke's 2.527 ± 0.030 — **−2.9σ** on the full budget (observational
+ ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037). **The joint is decided by a nuclear-code
+ systematic we do not control:** PRIMAT gives D/H = 2.439 where PArthENoPE gives 2.51–2.54, a
+ 3.5% spread that is 2.3× the quoted nuclear error. Fold none of it and the joint is
+ **χ² = 9.83, p = 0.007 — rejected at 5%**; fold half and p = 0.05; fold all of it and
+ p = 0.20. **We quote the range, not the flattering end.** The dyad sits on the LOW side of the
+ deuterium fork — a self-adverse bet, registered before the referee (P-2026-027, a dark-ages
+ radio measurement of primordial D/H at 327 MHz, free of astration and quasar optics).
 - **The current test**: a zero-parameter evidence run is in progress — the model's
  amplitude, tilt, coupling, and transition epoch all STATED in advance (derived or
  profiled; statuses public), against ΛCDM at full freedom. Full exposure: any stated
@@ -84,8 +107,11 @@ cosmologically foreclosed.
 ## The ask
 
 (a) Your read on whether the meV-window prediction is presented in the form most useful
-to the 0νββ community — especially the two-sided kill structure; (b) a critical eye on
-the BBN sector (the model's D/H residual and its radio-band referee are documented);
+to the 0νββ community — especially the two-sided kill structure; (b) **a critical eye on the
+BBN sector, which is where we are weakest** — specifically whether the PRIMAT/PArthENoPE
+deuterium spread should be carried as a theory error (which is the difference between this
+model being rejected at 5% on BBN and being comfortable there), and whether the dark-ages
+radio referee is a real path;
 (c) any interest in the model-vs-ΛCDM comparison rerun with the nEXO/LEGEND/CUPID
 sensitivity bands overlaid on the m_ββ window.
 
