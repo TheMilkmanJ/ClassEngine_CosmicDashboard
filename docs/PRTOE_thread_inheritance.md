@@ -25,7 +25,7 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
 | medicine | atomic physics / the substrate + the screens | the gate's zero — guaranteed normality |
 | strong-CP | parity (L1a — the birefringence clause) | parity-even reach to gauge sectors |
 | muon g-2 | the portal (Cards 3+7) | the geometric-mean scale's silence |
-| MOND/RAR (reopened) | galactic DM (T1) + the quartic | pending m_amp — the parent's un-pinned λ |
+| MOND/RAR | galactic DM (T1) + the quartic | pending m_amp — the parent's un-pinned λ |
 | JWST excess | growth/Lyα (T1's constraints) | Lyα forbids the cure |
 | ISW excess | the account | the priced coupling (fixed size) |
 | lithium | BBN (the windowed lattice) | the epoch-stamps (percent-class ceiling) |

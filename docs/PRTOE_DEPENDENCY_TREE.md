@@ -44,7 +44,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 | claim | parents | status | dies if |
 |---|---|---|---|
 | the Widnall n-band (n = 2.26–2.51 × R/a → 11–25) | the ring + formation number [X: Widnall-Tsai, Gharib] | [E] — landed in every solver version | the α_c MCMC/comb read n outside ~5–40 |
-| the moment-mapping (ε_spin = 0.88; share = 0.843) | the intake curve + THE COMOVING catch-up | [C] — killed at toy grade, resurrected at comoving grade | the full inverse problem misses |
+| the moment-mapping (ε_spin = 0.88; share = 0.843) | the intake curve + THE COMOVING catch-up | [C] — holds at comoving grade (share 0.839 vs 0.843 at χ = 5.3) | the full inverse problem misses |
 | the flow line (ω₀ = 0.67–0.77; 170–190 km/s at 250 Mpc) | ω = H at the pour + kinematics + the spin-up ramp | [E] — reproduces the recorded P-028 input | bulk-flow data walks away; misalignment with the axis |
 | the cycle story (melt/reset/Tolman) | the chain + the zero–infinity asymmetry | [GRAMMAR] — bounce equations owed (B1/B7) | — (not yet falsifiable; honest) |
 
