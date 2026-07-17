@@ -25,6 +25,50 @@ will be wrong too.** Every finding below carries a VERDICT from independent re-d
 | E | 4 — working files (21) | queued | pending |
 | F | 5 — code + configs | queued (varconst path done) | pending |
 
+## ⚠ THE HEADLINE — found overnight, tier 5 (the C source). READ THIS FIRST.
+
+### `dcdf_dyad_link` does not do what it is named, and it has been OFF for eight days
+
+**honest_status calls this the model's BIGGEST gap** (line 107): *"m_e and dcdf are INDEPENDENT in
+the code… the DYAD is NOT enforced — the fit tests 'dcdf + free m_e step', not 'one linked
+superfluid'."* Commit fbb81ec2 added `dcdf_dyad_link` and described it as *"enforcing R1 (the dyad)
+**structurally**"*.
+
+**It is set in NO CONFIG.** My first read was "the fix exists and was never armed." **That read is
+wrong, and the truth is worse:**
+
+```c
+double dyad_c = 0.9, dyad_f_amp = 0.63661977, dyad_Psi0 = 5.33073e16, dyad_Mred = 2.435e18;
+dyad_eps = dyad_c * dyad_f_amp * dyad_Psi0 / dyad_Mred;   /* ALL CONSTANTS */
+pba->varconst_me = 1.0 + dyad_eps;
+```
+
+**It reads no dCDF field parameter.** Not `dcdf_rho_inf`, not anything. It sets `varying_me` from
+hardcoded numbers and never touches the fluid's fitted state.
+
+| | varying_me |
+|---|---|
+| `dcdf_dyad_link` ON | **1.012543** |
+| what the configs already write by hand | **1.012543** |
+| difference | **2.6×10⁻⁷** |
+
+**⟹ ARMING IT WOULD CHANGE NOTHING. IT CANNOT CLOSE THE GAP.** m_e and the dCDF field remain
+independent whether it is on or off. **The thing named as the fix does not fix it** — and because it
+was off, nobody found out for eight days. **Gap #1 is REAL, OPEN, and unaddressed.**
+
+### And the retired decomposition is live in the C source
+
+`ε = c · f_amp · Ψ₀/M_red` is the **retired** form (standing: ε = c·f̄·α_c = 27α/5π). Inside it:
+- `dyad_f_amp = 0.63661977` — that is **f̄ = 2/π** wearing the dead name (identical to 8 digits)
+- `Ψ₀/M_red = 0.02189211` vs **α_c = 3α = 0.02189206** — **Ψ₀ is BACK-SOLVED** so the ratio *is* α_c
+  (Ψ₀ = α_c·M_red = 5.33072×10¹⁶ against the code's 5.33073×10¹⁶, +0.0003%)
+
+**Ψ₀ is presented as a physical input (a GeV-scale field amplitude) and is α_c in a costume.**
+The number it produces is right; the parametrisation is retired and the input is not an input.
+
+**Not fixed here — this is a design question, not a typo.** Closing gap #1 means making m_e a
+*function of the dCDF's fitted state*, which is a modelling decision for the operator, not an edit.
+
 ## MACHINE-FOUND, PENDING AGENT CROSS-CHECK
 
 *Found by the extended `scripts/value_audit.py` while red team was still running. **All six sit in
