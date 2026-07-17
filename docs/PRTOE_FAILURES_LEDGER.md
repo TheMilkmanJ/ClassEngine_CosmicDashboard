@@ -130,6 +130,21 @@ imposed on a quantum ground state. Full debate transcript:
 threaded_physics_working/Thermal_Half_Discussions.md. Provenance: 2026-07-17, caught by the
 "too perfect" skepticism check before it was championed.
 
+### Koide ⟨a³⟩ = 5/9 (the phase coincidence-watch) — KILLED, excluded at 4.5σ
+
+**What it was:** the third Koide moment ⟨a³⟩ = 0.555681 sits 0.023% from the rational **5/9 =
+0.555556**, which *looked* like a candidate closed form for the phase (cos 3θ = 0.7859, θ = 12.73°).
+Recorded as a coincidence-watch, never a claim.
+
+**Time of death — 2026-07-17.** Once the τ-mass error is propagated, ⟨a³⟩ = 0.555681 ± **0.000028**,
+so the 0.023% gap to 5/9 is **4.5σ** — excluded, not close. A rational sweep over all p/q with q ≤ 20
+finds **none within ±2σ**. The phase has no rational home at current precision. Cause of death:
+precision (the "0.023%" read as near only until the error bar was attached) — process-error-24
+discipline working as designed. A clean kill of an over-pretty rational. *(The companion watch,
+M² = m_N/3, is not killed but stays a soft, unadjudicable one: M² = 313.84 ± 0.017 MeV is +0.28% —
+≈51σ — from the sharp nucleon m_N/3, matching only if the constituent scale floats over its
+300–360 MeV scheme band.)*
+
 ### The Goldstone-cancellation first route (shift symmetry zeroes the zero-point) — FAILED
 
 **What it tried:** to resolve the +20% thermal-vs-perturbation door gap in ρ_Λ¼ by having the
