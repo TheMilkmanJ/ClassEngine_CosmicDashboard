@@ -168,7 +168,14 @@ consistency structure applied to its most famous problem:
 **The demand this section adds (inherited by the thermal program):** the three residuals —
 the Gibbs–Duhem deviation, the residual fountain excitation, the un-cancelled mode sum —
 **must be one number.** A confirmed three-way mismatch beyond stated widths is a place to
-dig (the three-door guideline; a diagnostic, not an executioner). Menu-watched, not read:
+dig (the three-door guideline; a diagnostic, not an executioner). **The O(1) coefficient,
+scoped (2026-07-16, `scripts/kubo_freeze.py`):** the *full* phonon thermal excitation at the
+freeze T = m_ν over-predicts by 3.2× (ρ¼ = (π²/30 c_s³)¼ m_ν = 7.1 meV), confirming Λ is the
+*suppressed residual*, not the full sum. The suppression is the phonon phase-space-with-
+cancellation 16π²α_c^{3/2} — the **same object** the perturbations door pins — which lands
+ρ¼ = 2.70 meV. So the thermal-door scale (2.25 meV, forward) and the perturbations-door
+coefficient (2.70) are **one number to ~20%**; the residual 20% (effective mode count g_*,
+the exact Landau cap) is the owed O(1) refinement. Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 

@@ -37,6 +37,18 @@ statement: **the model keeps producing Koide's rationals in its own arithmetic w
 deriving the mass relation** — a lane, not a result. The generation structure (three families
 on the Z4 torus?) is the un-built floor beneath it.
 
+**The self-dual identity, made explicit (2026-07-16).** Writing √m_i = M(1 + a_i) with M the
+mean of the √m and Σa_i = 0, the Koide ratio is exactly Q = 1/3 + ⟨a²⟩/3, so **Q = 2/3 ⟺
+⟨a²⟩ = 1 ⟺ the RMS of the √m deviations equals their mean** — verified on the pole masses to
+10⁻⁵ (Q = 0.6666605, ⟨a²⟩ = 1.0000). In the two-fluid reading this is the balance point where
+the fluctuation (variance, the −k_down face) equals the background (mean, the k_up face); the
+recorded amplitude **A = √2 is exactly this balance**. This turns entry 188's "neutral seat"
+into a one-line algebraic condition. It does **not** close the lane: the owed physics is
+unchanged — showing the lepton masses draw *equally* from the condensate background and its
+fluctuation, i.e. that the mass sector possesses the democratic↔hierarchy (Q → 4/3 − Q)
+symmetry whose fixed point is 2/3. Until that symmetry is exhibited on the masses, the
+self-dual point is a sharp restatement, not a derivation.
+
 ## 3. Falsifiable content
 
 The protection mechanism predicts: any environment-dependence of lepton masses is
