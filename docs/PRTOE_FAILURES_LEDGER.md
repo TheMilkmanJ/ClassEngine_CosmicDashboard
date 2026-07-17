@@ -14,6 +14,22 @@ read gold." This is that file. The main read (INDEX → THREE_EQUATIONS → MATH
 what the model IS; this ledger holds everything it TRIED AND KILLED, with the why and the
 turn-tag. A model that cannot show its graveyard cannot be trusted with its garden.*
 
+## 0. Time-of-death register (the dating pass, 2026-07-17)
+
+*~26 entries below carry only "internal audit" / "caught in review" provenance with no absolute
+date. A git-mining pass (`git log -S` first-appearance + the kill-commit itself; line-blame is
+unreliable — the 2026-07-16 reformat re-touched most rows) resolved them. The finding: **the missing
+dates were a formatting gap, not a provenance gap** — the great majority died in the 2026-07-12/13
+derivation-hunt sprint and were booked at the ledger's creation (2026-07-12, the hygiene split).
+Undated entries below read against this register.*
+
+| class | entries | time of death | basis |
+|---|---|---|---|
+| **FIRM — the 07-12 sprint** | step-thinking error 1 (f̄ window) · process errors 2, 3, 4, 5 · broken-phase census · MTLT bracket framing · m_D ribbon guess · seesaw-type-III over-claim · input.c dyad-link defaults · §6 self-audit deaths (residual=dressing; triangle 0.1%) · all eight §7 superseded-index rows except the √N-lineshape | **2026-07-12** | first-add at ledger creation (commits ea94aac9 / cd71c47b / e5cefb78) |
+| **FIRM — specific kill-commits** | the flow's H₀ ladder lever (~1.4%) → c3704e49 · the quartet-clock (Z4-locked) → 5f6d44e6 (both 2026-07-12) · the ξ-scale wide-binary force → 34fedbe9 (**2026-07-13**, the route-B census cap — not its 07-12 parking) · the dkappa hack (**2026-07-05**, the v5 cleanup) | as listed | the kill-commit itself |
+| **INFERRED (era-bounded, booked 07-12)** | thermal leptogenesis (~07-11/12) · census lanes (i), (3a), the rigid 13 + P-038, c=1-census (the census sprint, ≤07-12) · gate-0 deuterium heal (~07-10, the Route-D era) · Y_p medicine first row (≤07-12) · pre-written-script conclusions (07-12→15) · §7 √N-lineshape / Γ₀ = 76 meV (07-16) | ≤ 2026-07-12 unless noted | era bound + booking commit |
+| **UNRECOVERABLE (era window only — no day manufactured)** | the scalar-tensor era v1–v3 (**before 07-07**, pre-dyad) · screening H₀ v1–v5 (**before 07-05**, pre-v6-triad) · the dyad-era "healer" (**~07-07**) | window only | predates this corpus; bounded by era markers |
+
 ## 1. Retired eras (whole formulations killed)
 
 | what died | why | provenance |
