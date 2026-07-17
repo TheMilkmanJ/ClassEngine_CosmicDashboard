@@ -2414,7 +2414,7 @@ pure glue 0.63):
 |---|---|
 | the derived **τ = 0.3503** sits at | **m_π/√σ ≈ 0.308** (fraction 0.97 from chiral toward physical) *(recomputed 2026-07-17 on the row's own anchors — chiral 0.300 at m_π/√σ = 0, physical 0.352 at 0.318; the row previously read 0.274, computed at the retired τ = 0.345)* |
 | Columbia N_f = 3 first-order corner ends at | m_π/√σ ≈ **0.06–0.16** |
-| margin | **above it by 1.7–4.6×** |
+| margin | **above it by 1.9–5.1×** (recomputed on the corrected m_π/√σ = 0.308 against the Columbia corner 0.06–0.16) |
 
 **The transition is a CROSSOVER, not first-order — τ and the depth law are compatible, and the
 coded order-parameter birth ramp is correct after all.** The value τ (0.345 as used in this row; **0.3503** derived) *is* the
