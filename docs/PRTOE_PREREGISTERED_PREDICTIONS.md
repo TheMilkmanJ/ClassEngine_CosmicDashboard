@@ -2275,7 +2275,7 @@ the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must se
 **N_c = 2 is the only colour group admitting an integer flavour count, and it gives exactly
 three** (quarks +12, gluons −12). **The value is τ = T_c/m_e = 179/511 = 0.3503, derived** —
 T_c from the confining chiral condition, √σ_dark = m_e from the portal. Feeding it forward,
-ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2842 meV against the observed 2.25: the flagship's +1.5% prediction.**
+ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2842 meV against the observed 2.25**. *(The "+1.5%" is not itself a sourced prediction — T_c = 179 keV is the observed ρ_Λ inverted-and-rounded, not independently derived; see the flagship-grade block in [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md). What is real is the **structure** ρ_Λ¼ = (9/2)α⁴τ·m_e, which becomes a prediction once T_c/√σ is computed for SU(2) — the number this very entry bets on.)*
 *(The entry formerly registered **0.345**, which is that prediction* ***read backwards*** *:
 0.345 = 2.25/((9/2)α⁴m_e) = the observed dark-energy density inverted. Quoting it as the bet made
 the lattice test unfalsifiable — a return of 0.3503, i.e. the model being exactly right, would have
