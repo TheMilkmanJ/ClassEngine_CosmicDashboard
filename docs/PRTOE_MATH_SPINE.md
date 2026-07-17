@@ -1,5 +1,40 @@
 # PRTOE — THE MATH SPINE (genesis → now → end)
 
+> **⚠ THE FLAGSHIP'S GRADE — READ BEFORE THE "+1.5%" (re-graded 2026-07-17, twice, each time
+> downward).** The corpus states ρ_Λ¼ = 2.284 meV against the observed 2.25 as a **+1.5%
+> prediction**. **It is not one.** The chain's last free number is τ = T_c/m_e, and T_c has **no
+> independent source**:
+>
+> | route offered | what it actually is |
+> |---|---|
+> | "T_c = τ·m_e" | **circular** — τ ≡ T_c/m_e |
+> | the perturbative CW route | **log-ambiguous ~[40, 900] keV**, and gives **193**, not 179 |
+> | the lattice band T_c/√σ ≈ 0.34–0.37 | an **SU(3)** value; this model's dark sector is **SU(2)** (P-2026-048). Pure-glue anchors disagree ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71). **No SU(2), N_f = 3 number exists.** |
+>
+> **And the number's real origin is a rounding.** `scripts/tau_deconfinement.py` (hunt 228) has
+> exactly one computed line: **`tau_needed = 2.25/ceiling = 0.34506`** — *the observed dark-energy
+> density inverted*. It never computes 0.35 and never computes 179. **0.345 rounded to two
+> decimals is 0.35; 0.35 × m_e = 178.85 keV → adopted as "179 keV".** The three +1.5%s in this
+> corpus are **one number**:
+>
+> > 179/176.32 = **+1.52%**  ·  0.35029/0.34506 = **+1.52%**  ·  ρ_Λ¼(179)/2.25 = **+1.52%**
+>
+> **The flagship's headline agreement with the observed dark-energy density is the gap introduced
+> by rounding the observed dark-energy density to two decimal places.**
+>
+> **What is actually real here, stated without varnish:** (i) the *structure* ρ_Λ¼ = (9/2)α⁴·τ·m_e
+> — that the dark-energy scale is α⁴ times a temperature tied to the electron — is a genuine
+> relation, and it is what makes the sector predictive **once τ is sourced**; (ii) the back-solved
+> τ = 0.345 **lands inside the QCD-like lattice band**, which it did not have to — a real but
+> **weak** consistency check (the band is 8.5% wide, and it is the wrong gauge group). **What would
+> make this a prediction: a lattice T_c/√σ for SU(2) with N_f = 3** — precisely the number
+> P-2026-048 bets on, and precisely the number nobody has computed.
+>
+> *(Found by red team, 2026-07-17, after this file's own §6 had flagged the risk — "τ's 0.34–0.37
+> band is an SU(3) value … **the flagship's 1.5% rides on it**" — without the flagship's claim ever
+> being re-graded. A stated caveat next to an unstated consequence.)*
+
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
