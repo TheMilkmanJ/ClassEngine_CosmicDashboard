@@ -198,17 +198,39 @@ calls "a Cooper pair, entangled by construction" ([PRTOE_quantum_trio.md](PRTOE_
 **The three doors are one number to 1.5%** — the model's own flagship precision — down from the
 ~20% spread the un-paired sum showed. And the "genuinely un-built cancellation fraction" is the
 **integer 2**: f = 0.4817 against the pair factor 0.5000 (4% in f, 0.9% in ρ¼). The earlier
-reading rejected the phase-space 0.51 and never tested 0.50. **What this does not close, stated
-plainly:** (i) the halving needs its own derivation *against* the textbook full-sphere convention
-(½Σ_k ω_k over all k treats each k as an independent quasiparticle) — the claim is that the
-*collective* zero-point counts pairs, not modes, and that argument is owed, not made here;
-(ii) the hard cap k_max = E_b/c_s remains a step at the Bogoliubov bend, and softening it pushes
-the door back **up** (~×1.19 in ρ¼: exp(−x²) doubles the shape integral) — so the pair count and
-the cap shape are **not** independent, and the exact O(1) needs both together, with the pairing
-amplitude v_k (which dies past k ~ 1/ξ) as the physical edge. So the wall moves from *a continuum
-unknown* (f, un-built) to *a sharp integer plus a named interplay* — real progress, not a closure.
-The DE *value* stands as a 1.5% prediction (flagship / tie), now with the perturbations door
-agreeing to 0.9% rather than missing by 20%. Menu-watched, not read:
+reading rejected the phase-space 0.51 and never tested 0.50.
+
+**The consistency audit — the tension this must survive, and its one escape (2026-07-16).** A
+factor introduced to fix one number must hold everywhere it applies. Running it out:
+- **The thermal door is safe.** Thermally excited phonons at +k and −k *are* independent (one can
+  exist without the other), so the full-sphere count is right there — and helium's measured phonon
+  C_V = (2π²/15)T³/c³ confirms it. The pair claim touches the **ground-state zero-point**, not the
+  thermal quasiparticle census; the ν-tie is untouched.
+- **The ground-state zero-point is the tension.** Textbook *bosonic* Bogoliubov gives
+  E₀ = ½Σ_{all k}(ω_B − ε_k − gn): the ½ *is* the zero-point half, and the sum already runs over the
+  full sphere. That object is the LHY term, (8/15π²)m⁴c_s⁵ — **measured** in ultracold Bose gases
+  [Navon 2011; Papp 2008; Bose–Bose droplets] at the **un-halved** coefficient. So as a *general*
+  rule for condensate zero-points, the halving is **excluded by laboratory data**.
+- **The escape, and it is the model's own identity.** The LHY is a *bosonic, unpaired* BEC result.
+  This medium is **He-3-A class** — a **BCS-paired fermionic** superfluid ([PRTOE_INDEX.md](PRTOE_INDEX.md);
+  [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)) — and the corpus reads its excitations in
+  Cooper-pair grammar throughout. A paired condensate's ground state is built from pair operators;
+  an atomic BEC's is not. The bosonic LHY may simply be the wrong comparison object.
+- **But the escape has a price**, and it is named here rather than hidden: the corpus also insists
+  the doors "belong to the *condensate grammar*, not to any particular condensate"
+  ([PRTOE_quantum_trio.md](PRTOE_quantum_trio.md) §3) — the same faces in a helium cell as in the
+  vacuum. That universality claim **cuts against** a counting rule that holds for the medium but
+  not for a lab BEC. Either the rule is pairing-specific (and the universality claim needs the
+  qualifier "paired condensates"), or the halving is wrong and the 0.9% hit is coincidence.
+
+**Grade: a striking candidate with a sharp, named obstruction — not a resolution.** What it buys
+is real: the wall moves from *a continuum unknown* (f, un-built) to *an integer with a decidable
+justification* (does the He-3-A-class paired zero-point count pairs where the bosonic BEC's does
+not?). What it does not buy: closure. **Also still open:** the hard cap k_max = E_b/c_s remains a
+step at the Bogoliubov bend, and softening it pushes the door back **up** (~×1.19 in ρ¼) — so the
+pair count and the cap shape are **not** independent; the exact O(1) needs both together, with the
+pairing amplitude v_k (which dies past k ~ 1/ξ) as the physical edge. The DE *value* is unchanged
+either way — it stands as a 1.5% prediction (flagship / tie). Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 
