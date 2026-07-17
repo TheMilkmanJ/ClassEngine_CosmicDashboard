@@ -175,7 +175,14 @@ freeze T = m_ν over-predicts by 3.2× (ρ¼ = (π²/30 c_s³)¼ m_ν = 7.1 meV)
 cancellation 16π²α_c^{3/2} — the **same object** the perturbations door pins — which lands
 ρ¼ = 2.70 meV. So the thermal-door scale (2.25 meV, forward) and the perturbations-door
 coefficient (2.70) are **one number to ~20%**; the residual 20% (effective mode count g_*,
-the exact Landau cap) is the owed O(1) refinement. Menu-watched, not read:
+the exact Landau cap) is the owed O(1) refinement. **Located precisely (2026-07-16):** the
+flagship E_b = ½α_c²M₂ = 2.284 meV (1.3% high) and the tie m_ν = 2.250 meV agree to 1% and
+both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full phonon sum
+(+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
+fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
+equilibrium identity does not simply "remove the measure"; f is a partial Gibbs–Duhem
+cancellation on the mode sum, the genuinely un-built calculation. The DE *value* stands as a
+1.5% prediction (flagship / tie); the O(1) *mechanism* is bracketed but owed. Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 

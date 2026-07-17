@@ -63,6 +63,19 @@ relations. They are the bridge from the lepton-√m *spectrum* to the pre-basin 
 not dynamics. That bridge is the un-built generation-structure floor (lock 6, behind the
 basement door). Status: **sharpened (Koide = w = 1/3 modulo one linkage), not closed.**
 
+**Linkage, head-on (2026-07-16).** The linkage acquires a clean *energetic* reading: for a
+scalar family field with EoS w = (K−V)/(K+V), the kinetic/potential ratio is K/V = (1+w)/(1−w),
+so **if the fluctuation carries the field's kinetic energy (K ~ R²) and the background its
+potential (V ~ M²), then A² = R²/M² = (1+w)/(1−w)** — and the relativistic virial at the derived
+w = 1/3 (K = 2V) gives A² = 2, **A = √2**. Two independent checks favour this: (i) w = 1/3 selects
+Koide *regardless* of the exact linkage form (both (1−w)/w and (1+w)/(1−w) carry w = 1/3 as a
+consistency root — the physical selection is robust), and (ii) the energetic form (1+w)/(1−w)
+makes w = 1/3 the *unique* physical root (the algebraic (1−w)/w form carried a spurious w = 1/2).
+**The irreducible owed floor is unchanged:** justifying K ~ R², V ~ M² — that the √m spectrum's
+fluctuation *is* the family field's kinetic energy and its background *is* the potential — is a
+property of the family-field potential (the generation-structure Lagrangian), which is not yet
+built. Pushed one notch; still gated there.
+
 ## 3. Falsifiable content
 
 The protection mechanism predicts: any environment-dependence of lepton masses is
