@@ -280,11 +280,79 @@ three can stand. The fork, stated so it can be decided rather than blurred:
   *dyad* binding energy while the modes summed are the *dCDF's* phonons, and **the door is
   mixing two fields' scales** — which is its own defect, and is not what §4b says it is doing.
 
-**Status: OPEN — and it is now a structural question, not an O(1) refinement.** This is the
-honest cost of the consistency check: the DE *value* (flagship / tie, 1.5%) is untouched as an
-arithmetic claim, but *which field binds at E_b, in which partial wave*, is unresolved, and the
-perturbations door cannot be graded until it is. Recorded rather than smoothed: today's pass tried
-two O(1) fixes (pair count, nodal gap), retired both, and found the real problem underneath them.
+**RESOLVED, same day — the partial wave is DATA-SELECTED, and it is s-wave.** The fork is
+decidable by arithmetic the model already carries. A Coulombic two-body spectrum is
+E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so *the channel picks the level*:
+
+| channel | lowest allowed level | E_b | vs observed 2.25 |
+|---|---|---|---|
+| **s-wave (ℓ = 0)** | 1s | **2.284 meV** | **+1.5%** ✓ |
+| p-wave (ℓ = 1) — the "He-3-A class" reading | 2p | 0.571 meV | **−74.6%** |
+| f-wave (ℓ = 3) — the L = 3 the 3-generation count demands | 4f | 0.143 meV | **−93.7%** |
+
+**The flagship's 1.5% agreement *requires* ℓ = 0.** The hydrogenic form is therefore not an
+oversight and not a choice — it is **selected by the data**, the same way f̄'s coupling form was
+(§1, [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)). This also confirms the retraction
+above from an independent direction: the door's cap is a **two-body Coulomb ground state**, not a
+BCS gap, so ⟨sin⁴θ⟩ never applied to it. And §4's owned assumption already placed this argument on
+the **strong-coupling (BEC) side**, where the bound state *is* the object and its binding energy
+*is* the hydrogenic ½α²M — so E_b is internally consistent with its own stated regime.
+
+**Where the cost actually lands: the chirality wing, not the DE value.** The tension is real and
+it is now sharp. The CC needs a **strongly-bound s-wave molecule** (BEC side, ℓ = 0). The dCDF's
+structure file claims a **p-wave, parity-odd chiral condensate** ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)
+§2) and *spends* that chirality on IGMF helicity, LSS parity, GW handedness, and the AD
+matter-asymmetry bias. **An s-wave bound state preempts p-wave pairing in the same channel** — for
+one species the s-wave singlet, if strongly attractive enough to form a BEC-side molecule, wins
+over the p-wave triplet. They cannot both be the ground state of the same channel. Two further
+facts sharpen this rather than soften it: (i) the dCDF file **already flags** that a pure p-wave
+(L = 1) "= He-3-A" is **insufficient for 3 generations**, which require L = 3 (f-wave) — so the
+He-3-A label was a known-defective candidate before this pass touched it; (ii) both p- and f-wave
+are exactly the channels the table above excludes at −75% and −94%.
+
+**How sharp the incompatibility is:** the chirality is not an add-on to the pairing — it *is* the
+pairing channel. Per the dCDF file, the number of charge-1 Weyl pairs a chiral gap carries **equals
+its angular momentum L**, which is why 3 generations demand L = 3. So ℓ = 0 ⟹ L = 0 ⟹ **zero Weyl
+pairs, zero generations**, and a parity-*even* singlet with no θ·R·R̃ and no GW handedness. The
+s-wave the DE value demands would take the entire chirality wing with it.
+
+**The mechanism that explains the s-wave selection — and prices it (JP, 2026-07-16).** The reading
+"*the medium is He-3-A missing its baryonic matter*" supplies the physics behind the table above.
+**In He-3, p-wave pairing is caused by the baryonic hard core**: the atoms are composite (2p+1n+2e),
+cannot overlap, and the core suppresses ℓ = 0 — pairing is *forced* up to L = 1. It is not that
+chiral superfluidity is intrinsically p-wave; it is that helium is made of baryons. **Strip the
+baryonic matter and the hard core goes with it, leaving the s-wave channel unsuppressed** — and an
+unsuppressed attractive s-wave channel binds in s-wave. That is exactly the ℓ = 0 the data selects
+at +1.5%, and it explains *why* the hydrogenic form was the right one all along.
+
+**And the chirality survives it — because the chirality was never sourced from the pairing
+(JP, 2026-07-16).** The medium's handedness comes from **the genesis pour** — the helical roll-up
+of the model's one realized white hole ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §1;
+[PRTOE_white_holes.md](PRTOE_white_holes.md)) — carried by the **winding integer n**, not by the
+pairing channel's L. This is checkable against every claim that spends it, and every one traces to
+n: magnetic helicity is *"SIGNED BY THE GENOME — sign(helicity_B) = sign(n)"*
+([PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md), P-2026-028); LSS parity is *"the winding n (a
+signed integer), the genesis helicity, the vortex network"*
+([PRTOE_lss_parity.md](PRTOE_lss_parity.md)); baryogenesis is *"the winding integer times ONE
+transmission number"* ([PRTOE_baryogenesis.md](PRTOE_baryogenesis.md)); the GW channel carries *"a
+genome signature"* ([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)). **The
+three-membered chirality family — matter / magnetism / metric — is one integer n**, a
+genesis/topological property. **None of it draws on p-wave L.** So s-wave pairing and the chirality
+wing are compatible, and what the ℓ = 0 selection actually kills is
+[PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §2's *redundant second sourcing* of chirality
+from the pairing channel — a source nothing downstream ever used.
+
+**What does lose its home:** the **Weyl-point → 3-generation count**, the one claim that uniquely
+needed L = 3 (the Weyl-pair count equals L, so ℓ = 0 leaves no nodes to Z₃-split). The generation
+count must come from Z₃ as a family symmetry directly, or from elsewhere — **the owed build is
+re-pointed, not cancelled** (§2's banner carries it).
+
+**Status: RESOLVED for the DE value and the chirality wing; one re-pointed debt.** The DE value
+stands at 1.5% with its partial wave now *data-selected* and its s-wave channel *mechanically
+motivated* (no baryonic core → no ℓ = 0 suppression). The perturbations door returns to +20.0%
+with its O(1) still un-built — but it is now un-built for a *stated* reason (the cap is a two-body
+Coulomb ground state, and no gap-anisotropy or pair-counting trick applies to it). Today's pass
+tried two O(1) fixes, retired both, and found that the DE value was never the fragile part.
 
 **Grade: the door is at +20.0% and the O(1) is un-built** — same as this morning, minus two dead
 candidates and plus one named structural fork. The DE *value* is unchanged throughout — it stands
