@@ -113,7 +113,9 @@ ARCHIVE = ("_MORNING_REPORT","_AUDIT_LEDGER","_REDTEAM_BRIEF",
 # A retirement notice MUST be allowed to name the value it retires, or the graveyard becomes
 # unwritable. And "c" is overloaded: the census coefficient vs the SPEED OF LIGHT.
 RETIREMENT_CTX = re.compile(r"retir|supersed|dead|excludes|former|was booked|archive|Standing:|"
-                            r"relic|predecessor|no longer|does not exist|withdraw|amended", re.I)
+                            r"relic|predecessor|no longer|does not exist|withdraw|amended|"
+                            r"historical|era.s frozen|frozen record|that era|refit tables|"
+                            r"do not cite|provenance only", re.I)
 # A file that STATES the evidence number's conditionality is compliant, not defective.
 CONDITIONALITY_CTX = re.compile(r"asterisk|LCDM helium|ΛCDM helium|YHe|conditional|defect|not a standing|"
                                 r"re-?run|CODE_MANIFEST|SHOES-conditional|SH0ES-conditional|Laplace-marginal|"
