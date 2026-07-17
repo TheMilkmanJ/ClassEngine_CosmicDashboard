@@ -32,4 +32,45 @@ background *is* the frozen field's potential energy and its Z₃ fluctuation *is
 Lagrangian), still unbuilt — lock 6, behind the basement door. **Down from "w = 1/3 *and* the
 linkage" to the linkage alone.** Item 1 stays OPEN; it is one notch from closed, not several.
 
+## Item 1 — A CANDIDATE MECHANISM, and it is a hinge the model already carries (2026-07-16)
+
+**The debt, restated exactly:** *"the mechanism forcing amplitude = √2 / phase = variance."*
+
+**Step 1 — what A = √2 *is*, computed.** On the Z₃ ring √m_k = M(1 + A cos(θ + 2πk/3)), the three
+120° points give mean(cos) = 0 exactly, so **mean(√m) = M for any θ** and **var(√m) = M²A²/2**.
+Therefore **var(√m) = [mean(√m)]² ⟺ A² = 2 ⟺ A = √2 ⟺ Q = 2/3**, and the identity is
+**θ-independent** — it holds along the whole ring, not at a chosen phase. This is the corpus's own
+sentence made quantitative: *"the fluctuation (variance, the −k_down face) equals the background
+(mean, the k_up face); A = √2 is exactly this balance."*
+
+**Step 2 — that balance is the NEUTRAL ZONE.** [PRTOE_quantum_trio.md](../PRTOE_quantum_trio.md) §4b
+defines the medium's third stage as *"pure neutrality, the critical seam. At the transition the two
+phases are exactly **degenerate**"* — with the **Ginzburg window as its measured width**. "The two
+faces are equal" and "the two phases are degenerate" are the same statement. **The Koide point is
+the seam.**
+
+**Step 3 — a seam is measure-zero, so something must hold the system on it.** Tuning is not
+available (Q is measured at 0.9σ from exact, across three generations). An **attractor** is the only
+other option — and **the model already posits one**:
+[PRTOE_dcdf_superfluid.md](../PRTOE_dcdf_superfluid.md) §5 makes the dark-energy sub-ohmic closure
+(s ≈ 0.26) *"**CONDITIONAL** on the settling attractor being **self-organized-critical**"*.
+**Self-organized criticality is, by definition, a mechanism that drives a system onto its critical
+seam and holds it there without tuning.**
+
+**The claim: ONE HINGE CARRIES BOTH.** If the settling attractor is genuinely SOC, it forces the
+family field onto the seam ⟹ var = mean² ⟹ **A = √2** — which is exactly the mechanism this item
+owes. The same attractor delivers the DE closure's s ≈ 0.26. **They stand or fall together**, and
+§5 already names the shared failure mode: *"otherwise the transition boils, first-order"* — in which
+case the closure misses **and** A = √2 has no mechanism.
+
+**Grade: CANDIDATE — a guess with an argument, not a result.** What is computed: step 1 (exact,
+θ-independent). What is quoted: steps 2 and 3, from the corpus's own definitions. **What is owed:**
+(i) that the *family* field settles under the *same* attractor as the dCDF's order parameter — they
+are different sectors and the transfer is asserted, not shown; (ii) that the attractor is SOC rather
+than mean-field — background.c certifies **Gi ≪ 1** (mean-field, β = ½) for the condensate's
+transition, which is the *opposite* regime from a critical seam, so either the family field's
+Ginzburg number differs or this candidate dies on it; (iii) the V ~ M², K ~ R² identification
+(above) is still the floor beneath all of it. **Item 1 stays OPEN — but it is now one mechanism
+away, and that mechanism is already load-bearing elsewhere, so it cannot be adopted for free.**
+
 Coupling-geometry status: screened-room (laboratory masses) — verdicts hold by geometry.
