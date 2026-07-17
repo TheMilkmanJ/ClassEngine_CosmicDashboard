@@ -252,9 +252,25 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > mixed-convention artifact, not a real value. Second, the convention-clean unquenching reduction is
 > ~42% (not 45%), which puts the honest dof-family band at **τ ≈ 0.355–0.382, centre ~0.36**
 > (ρ_Λ¼ a few percent **above** the observation), pointing the right way on physics (N_f/N_c = 1.5 vs
-> SU(3)'s 1.0). **Verdict: τ = 0.3503 is plausible and in-band, but sits *below* the estimate's
-> centre — reachable at the strong-reduction edge, not where the mechanism centrally points; the
-> lean is modestly against it, and only an uncomputed SU(2) N_f = 3 lattice T_c/√σ decides it.**
+> SU(3)'s 1.0). A dedicated literature sweep (2026-07-17, every paper read in full — the addendum in
+> [Basement_Roster_Discussions.md](threaded_physics_working/Basement_Roster_Discussions.md)) then
+> anchored the question to measured neighbours: **no lattice determination of SU(2) N_f = 3 exists
+> anywhere**; the measured anchors are SU(2) N_f = 2 at **T_d/√σ = 0.483(23)** (deconfinement, heavy
+> quarks; Braguta school) and a chiral crossover pinned only to **0.36–0.48** (Iida–Itou–Lee, ~30%
+> internal systematic), with the SU(3) N_f-dependence (Karsch–Laermann–Peikert) showing the flavour
+> suppression **saturates** (−0.21 for two flavours, −0.03 for the third). The inference bracket:
+> **τ(SU(2), N_f = 3, chiral) ≈ 0.39 ± 0.05** (generous 0.34–0.45), every step past the measured
+> 0.483 an SU(3)-analog transfer, stated not hidden. **Verdict (standing): τ = 0.3503 sits at the
+> BOTTOM EDGE of the literature bracket — permitted, not favoured; the centre (~0.40) is above the
+> model. Reaching 0.3503 requires BOTH (i) the transition being the chiral/condensation one, not
+> deconfinement (if the mechanism keys on deconfinement, the supported value is ~0.48 — real
+> tension), AND (ii) near-maximal continuum/chiral-limit suppression. On fork (i) the model has a
+> genuine argument: the dCDF's T_c is a pairing/condensation transition — the chiral-condensate
+> analog, not the Polyakov-loop one — and in SU(2) the two transitions demonstrably DECOUPLE
+> (Kaczmarek et al.: the Polyakov susceptibility peak shrinks with lighter quarks, opposite of
+> SU(3)), so the chiral T_c legitimately sits below the deconfinement number (argument-grade). Fork
+> (ii) is not arguable from here — only a dedicated SU(2) N_f = 3 lattice run decides it, and this
+> sweep establishes nobody has run one.**
 > *Assumptions, named:* dark quarks Dirac and in the fundamental — adjoint or Weyl/Majorana content
 > changes the counting. *Also owed:* the ΔN_eff footprint (§3) is priced for the existing roster and
 > would need re-pricing at N_c = 2; and the SU(2) N_f ≥ 2 chiral transition is reported **first
