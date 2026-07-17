@@ -105,6 +105,42 @@ is nearly at the wall.** From the measured lepton masses, the deviations √m_k/
 A = √2 places a face exactly at zero **only if θ = 135°**, and the measured θ is **132.75°**. The
 electron sits *near* the wall, not on it — suggestive, not a derivation.
 
+## The PHASE is an unclaimed slot — and it is where a third element would show (2026-07-17)
+
+**Q cannot see the phase.** On the Z₃ ring the moments split cleanly:
+
+| moment | value | carries |
+|---|---|---|
+| ⟨a⟩ | **0** | nothing — forced by the ring |
+| ⟨a²⟩ | **A²/2** — *θ-independent* | the **amplitude** ⟹ Q = 1/3 + ⟨a²⟩/3 |
+| ⟨a³⟩ | **(A³/4)·cos 3θ** — *θ-dependent* | the **phase** |
+
+**So Q = 2/3 pins A = √2 and leaves θ entirely free.** This is T6's own debt read back at it:
+*"the mechanism forcing amplitude = √2 / **phase** = variance"* — **the phase half has never been
+given a value.** Nothing in the corpus assigns θ, and Q structurally cannot.
+
+**Why that slot matters.** [PRTOE_koide_relation.md](../PRTOE_koide_relation.md) calls the
+k_up/−k_down faces *"the **two-fluid** reading"* — k_up the background (mean), −k_down the
+fluctuation (variance). **Two fluids, two moments.** A **third** element in the family sector would
+therefore have to appear in the **third moment** — the one Q never uses, and the one the corpus has
+left empty. *(Proposed structure, JP: the dyad and the dCDF as the two faces, the genesis pour as
+the third/neutral. **Not adopted** — see the standing objection below.)*
+
+**Measured, for the record:** ⟨a³⟩ = **0.555681** from the physical lepton masses, which sits
+**0.023%** from 5/9, implying cos 3θ = 0.7859, θ = 12.73°. **This is COINCIDENCE-WATCH, not a
+claim** — 5/9 is one rational among those reachable at this precision, there is **no mechanism** for
+it, and the file's own discipline forbids quoting a rational without one (ledger, process error 24:
+*"taxonomies are step-menus — derive the weight from the dispersion or do not quote an n"*; process
+error 30: the ensemble-spinning catch). It is written here so it can be **killed or earned later**,
+not used.
+
+**The standing objection to the three-element reading, stated so it is not lost:** T6's own rebuild
+(2026-07-14) ruled that **family space is Z₃, *not* the condensate phase** — the "Z4 torus" floor was
+retired precisely for putting the family in the fields' space. A structure that seats the dyad, the
+dCDF and the pour on the family ring re-crosses that line and must answer it. **Separately, the
+recorded genesis is not three objects:** [PRTOE_cyclic_torus_genesis.md](../PRTOE_cyclic_torus_genesis.md)
+has *one* confined buoyant plume rolling up at its own edge (Kelvin–Helmholtz), not three converging.
+
 **Item 1 stays OPEN. What is owed is now named precisely:** not "a mechanism" and not "the
 Lagrangian" — **the background M**. Until the theory contains an object that sets the ring's centre,
 A = R/M has no derivable value, no Ginzburg *number* is computable (same missing object), and the
