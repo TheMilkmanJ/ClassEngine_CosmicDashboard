@@ -249,11 +249,20 @@ observational slack. A model variant that heals D while RAISING Y_p
 or 7Li is excluded within this framework; a future measurement
 forcing D/H and Y_p residuals to move the SAME direction kills the
 single-lever healer outright.
-**Open half (why conditional):** the medium-native coupling
-construction (why mhat responds to the substrate) is unwritten — the
-same early-shape wall as the m_e door (§2). This entry freezes the
-numbers so that, if the coupling is ever constructed, the abundance
-signature was on record first.
+**Open half — CLOSED NEGATIVELY AGAINST THE DYAD (2026-07-17).** The medium-native coupling
+construction was booked as "unwritten". It is now **excluded for this model's medium**: the dyad
+**is** the Majoron, the Goldstone of U(1)_L breaking, so it couples to the **current of its broken
+charge** — and **quarks carry L = 0**, making the tree-level quark coupling **zero by the symmetry
+that defines the field**, not merely small ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2,
+[ESTABLISHED]). The only route to hadrons is dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶,
+which is **~20,000× short** of the required δm̂/m̂ = 0.14–0.21%. **The dyad cannot be this healer's
+lever, and the model does not get to heal the deuterium scar.** D/H carries **−2.9σ** honestly.
+*(The entry stays registered: the abundance signature — Y_p −0.5…−0.6%, ⁷Li −7…−13% — remains on
+record for any FUTURE non-Majoron amendment. It is now a prediction about a lever this model does
+not have, which is why it stays CONDITIONAL rather than being retired.)*
+**The upside, and it is real:** the same symmetry that denies the healer **denies the
+catastrophe.** "δm_q = ε full" would have driven D/H to **+12…+18σ** — lepton number forbids it.
+The threat was never available either.
 
 ---
 
@@ -1115,8 +1124,12 @@ Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute 
  coincidence** -- testable (Σm_ν), but with NO working causal mechanism (census blocks
  the direct coupling, the amplification rescue failed the toy, Weinberg looms, and it's
  m_ν-agnostic anyway). Keep P-012 as a falsifiable coincidence; drop all causal claims.
-- **"c~1 derived" → "c~1 NATURAL"** (naturalness ceiling + census; the ~50x-saturated story
- leans on a shaky naive-dilaton estimate; exact c owed via threshold matching).
+- **c is DERIVED, and not by threshold matching.** **c = 9/10** — a counting fraction (N−1)/N over
+ the universal charged-fermion roster: 9 charged species plus the vacuum's own seat
+ ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)). *(This entry formerly demoted "c~1 derived" to "c~1
+ NATURAL" and booked the exact value as owed via UV threshold matching. That debt does not exist:
+ the census closed it, and the UV route's own c = 1 candidate is dead —
+ [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
 - **Floor mechanism:** ghost-condensate stability is a REAL risk (the toy showed the runaway),
  not a footnote.
 - **Meta:** the DE/neutrino superstructure is speculation-heavy; the honest state is

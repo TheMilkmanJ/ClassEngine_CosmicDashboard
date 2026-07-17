@@ -622,3 +622,69 @@ like a result does.* Three times I booked "the corpus does not say" from reading
 that say it is owed. **A debt asserted in two places is not evidence of absence anywhere else** —
 and the value-level audit that found this took four minutes after nine days of the debt standing.
 
+### The "quark-bleed → ~1σ D/H nudge" side-prediction — SELF-CONTRADICTORY, RE-GRADED TO AN OPEN FORK (2026-07-17)
+
+**The row, as it stood** ([PRTOE_fingerprint_lattice.md](PRTOE_fingerprint_lattice.md)): *"BBN:
+quark-bleed | δm_q = ε full → ~1σ D/H nudge | **credited side-prediction**"*.
+
+**Both halves cannot be true.** Run "δm_q = ε full" through the model's own lever —
+**d ln B_D/d ln m̂ = −4** (Dent–Stern–Wetterich PRD 76 063513, pulled from source, cited in
+P-2026-006):
+
+| | value |
+|---|---|
+| the dyad's derived electron shift | ε = **1.2543%** |
+| δB_D/B_D at ε full | **−5.02%** |
+| D/H response (d ln(D/H)/d ln B_D ≈ −2.9…−4.3, inverted from P-006's own healer window) | **+14% … +21%** |
+| in σ against Cooke (±0.030) | **+12σ … +18σ** |
+
+**That is not a "~1σ nudge" — it is a catastrophe, off by an order of magnitude.** And P-2026-006
+states the coupling is **unwritten** ("the medium-native coupling construction — why m̂ responds to
+the substrate — is unwritten"), so nothing was ever entitled to be *credited*.
+
+**What the healer actually requires:** δm̂/m̂ = **+0.14% to +0.21%** at BBN. **ε = 1.2543% is 6–9×
+too large.**
+
+**The fork this opens, and it has no comfortable middle.** JP's structural claim — *the white hole
+poured the quarks; the dyad is what let them bind* — requires the dyad to couple to the quark sector
+**at all**. The model already owns the suppressing mechanism: **the dyad is leptophilic**
+(Majoron/L-breaking; it couples the electron), so a quark coupling is suppressed *by construction*.
+The suppression is now a **number the model must produce**:
+
+> **δm̂/m̂ ÷ ε ∈ [0.112, 0.167] — about 1/6 to 1/9 — or D/H fails.**
+> - lands in the window ⟹ **the model's worst column heals from its own structure**;
+> - derives to ~1 (no suppression) ⟹ **D/H blows out at 12–18σ and the quark-bleed kills the model**;
+> - derives to ~0 (exactly leptophilic, no quark coupling) ⟹ the healer is unavailable, D/H stays at
+>   −2.9σ, **and JP's "the dyad let them bind" reading loses its mechanism.**
+
+**RESOLVED SAME DAY — branch 3, by symmetry (2026-07-17).** The suppression was derived rather than
+estimated: **the dyad IS the Majoron**, the Goldstone of U(1)_L breaking
+([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2, [ESTABLISHED]). **A Goldstone couples to the current of
+its broken charge**, and **quarks carry L = 0** — so the tree coupling is **zero by the symmetry that
+defines the field**, not merely suppressed. The loop floor (dyad → lepton loop → 2γ → quark,
+O(α²) = 5.4×10⁻⁶) is **~20,000× short** of the healer's 0.14–0.21%.
+
+| branch | outcome |
+|---|---|
+| ratio ≈ 1 (no suppression) | **DEAD — forbidden by L.** The +12…+18σ D/H catastrophe was never available. |
+| ratio ∈ [0.112, 0.167] (heal) | **UNREACHABLE.** No mechanism in this medium can deliver it. |
+| **ratio ≈ 0 (exactly leptophilic)** | **THIS ONE.** The healer is unavailable; **D/H carries −2.9σ** and the model does not get to fix it. |
+
+**The model is safe and unhealed by the same fact.** The symmetry that forbids the blowout also
+forbids the cure. **What is dead is the "credited side-prediction" grade**, which credited a coupling
+the model's own [ESTABLISHED] identity forbids.
+
+**JP's structural reading survives untouched, and it never needed the quark coupling.** "The thing
+that allowed them to bind came from the dyad" is *correct* — the dyad binds the **electrons to the
+pour's nuclei**, which is atomic binding, the H₀ mechanism, and precisely what a lepton-number
+Goldstone is *allowed* to do: the white hole poured the quarks, the dCDF supplies the field (light,
+its Goldstone), and **the dyad is what let those nuclei hold their electrons** ("the gas makes
+hydrogen too bound"). Quark confinement is QCD's job and never was the dyad's.
+
+**How it surfaced.** Tracing an unreproducible D/H elasticity: the ramped splice's only hook is
+`nTOp_mod.RecomputeWeakRates` — **it patches the weak rates and nothing else, so it has no B_D
+channel at all.** Y_p is a weak-freeze-out quantity and is therefore fully covered (measured
+d(Y_p)/dε = 0.001628 vs the corpus's 0.00163 — a match). **D/H is a bottleneck quantity and the
+bottleneck is a binding energy**, so every D/H number in this corpus is weak-rate-only and is
+missing a channel the model claims. JP called the asymmetry before the measurement did.
+

@@ -42,7 +42,7 @@ theory:
       lensing: 'yes'
 params:
   YHe:
-    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236)'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
+    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
     derived: false
   omega_b:
     prior: {min: 0.0200, max: 0.0250}
@@ -133,7 +133,7 @@ params:
     latex: S_8
 
 prior:
-  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) - 2.527e-5)/0.030e-5)**2 )"
+  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2 - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) + (0.01816831*((varying_me-1)*100) + (-0.00242341)*((varying_me-1)*100)**2)*1e-5 - 2.527e-5)/0.030e-5)**2 )"
 
 sampler:
   mcmc:

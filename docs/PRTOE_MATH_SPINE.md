@@ -42,8 +42,28 @@ running instrument:
 > mass-positivity kills the signed average (⟨cos⟩=0), leading-order (Yukawa, linear) picks
 > mean-absolute over the quadratic/RMS readings, and the fit (0.625) + sim (0.635) confirm 2/π,
 > rejecting RMS (0.707) at +13% — residual only "leading-order dominates";
-> - **α_c = 3α = d·α** — the condensate coupling, the 3 being the spatial dimension d (second sound,
+> - **α_c = 3α = d·α** — **the dCDF's** condensate coupling (α is its Goldstone's — light *is* that
+> Goldstone), the 3 being the spatial dimension d (second sound,
 > geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
+
+> **Whose coupling is whose — the flagship's two fields, stated (2026-07-17).** ½α_c²M₂ hides that
+> the dark-energy scale is a **cross of BOTH dark fields**, not one field's product. Substituting
+> α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical to 4×10⁻¹⁹):
+>
+> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c = 2.2842 meV** *(observed 2.25; +1.5%)*
+>
+> | factor | owner | why |
+> |---|---|---|
+> | **α⁴** = α_c² × α² | **the dCDF** | α_c² is its **binding**; α² is the **EM handshake** — and α is the dCDF's own coupling because **light is its massless Goldstone** ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §4) |
+> | **T_c** | **the dyad** | its condensation temperature, 179 keV (derived) |
+> | **d²/2 = 9/2** | **geometry** | d = the spatial dimension (the same 3 as in α_c = 3α) |
+>
+> **Neither field produces the number alone**: the dark-energy scale is the dCDF's coupling raised
+> to the fourth **weighing the dyad's condensation temperature**. *(The decomposition is
+> [PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md)'s, hunt 210–211; it is restated
+> here because every reader-facing statement of the flagship wrote ½α_c²M₂ without saying which of
+> the two condensates α_c belongs to — and the model has two.)*
+
 
 ## 1\. Genesis (the cycle's start) [STORY]
 
