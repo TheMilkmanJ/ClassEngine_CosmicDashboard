@@ -101,6 +101,35 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 |---|---|---|
 | The candle room's "mass-step candidate explanation" reading | the dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | 2026-07-13 |
 
+### The dark-energy O(1) coefficient — the thermal ½ (equipartition rescue)
+
+**What it claimed:** that the un-built O(1) cancellation fraction in ρ_Λ¼ = f¼ × 2.70 meV is
+**f = ½ exactly**, from a zero-point equipartition split (kinetic = potential, so the potential
+"w = −1 half" survives at f = ½). It gave ρ_Λ¼ = (½)¼ × 2.70 = 2.27 meV, +0.9% vs the observed
+2.25 — tighter than the flagship's +1.5%.
+
+**Why it died (two independent kills, adversarial-debate adjudicated):**
+1. **The number is not independent.** 16π²α_c^{3/2} = 0.5115 ≈ ½, so ½-of-2.70 = 0.994 × E_b —
+   the flagship binding energy E_b re-packaged. E_b is itself the *observed* ρ_Λ inverted-and-rounded,
+   so the "+0.9%" is circular, not fresh evidence.
+2. **The mechanism is physically wrong.** A harmonic condensate mode has honest EoS
+   ⟨w⟩ = (n−2)/(n+2) = **0** at n = 2 (the textbook reason an oscillating scalar is cold dark
+   matter), **not w = −1**. The (+1, −1) equipartition split reads classical pure-state pressure
+   extremes off a stationary quantum ground state; the "redshift only the kinetic half" rescue
+   violates the uncertainty principle. The only honestly w = −1 object is the static potential floor
+   V₀ at coefficient **1** → 2.70 meV (+20%), value un-sourced — no home for a ½.
+
+**What survives (repair, not chuck):** the exact ¼ + ¼ virial split is real content, and both halves
+together correctly give w = 0 = **cold dark matter** — the dCDF's own excitation sector re-confirmed.
+So the analysis correctly identifies the condensate *mode* as dark matter; it fails only to source the
+dark-*energy* coefficient. A consistency check with the two-era dCDF, not a new result.
+
+**The verdict:** f = ½ is withdrawn. The O(1) coefficient remains the genuinely un-built calculation.
+Root cause: a coincidence (16π²α_c^{3/2} ≈ ½) dressed as a derivation, plus a classical pressure split
+imposed on a quantum ground state. Full debate transcript:
+threaded_physics_working/Thermal_Half_Discussions.md. Provenance: 2026-07-17, caught by the
+"too perfect" skepticism check before it was championed.
+
 ### Retracted predictions (the H₀ booster, the varying-constant hierarchy)
 
 #### The birth-ramp radiation / pour evidence run (registered as P-2026-046, RETRACTED and removed 2026-07-14)
