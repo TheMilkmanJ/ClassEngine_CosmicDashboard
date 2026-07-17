@@ -1,77 +1,85 @@
-# CANDIDATE DIRECTION — the late-time single lever: one unfinished thaw for BOTH H₀=73 and DESI's w(z)
+# THE H₀ CONVERGENCE MAP — where H₀=73 can and cannot come from (JP thread, 2026-07-17)
 
-*Opened 2026-07-17 (JP). Grade: **CANDIDATE / EXPLORATORY, unfired.** This entry is licensed to
-kill the model's own proud predictions — see the governing principle at the bottom. Nothing here is
-banked; it is a direction to chase and, if it fails, to bury in the FAILURES LEDGER with the why.*
+*Grade: **EXPLORATORY / mostly CLOSED by forecast**, one live linchpin (ς). Opened as "the late-time
+single lever"; the chase converged the whole H₀ question onto two levers and one sign. Licensed to
+kill the model's own predictions — none were killed; w=−1 SURVIVED every test. Governing principle
+at the top of [PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md).*
 
-## The two walls this is aimed at (both corpus-confirmed)
+## The starting walls (both corpus-confirmed)
 
-1. **PRTOE cannot reach H₀ = 73.** Its own file says so: *"The model cannot reach 73, and says so"*
-   ([PRTOE_hubble_tension.md](../PRTOE_hubble_tension.md):46); the ceiling is ~71 (ς=−1 → ~70.6).
-   The mechanism is **early-time** — *"earlier decoupling, a smaller sound horizon."* Early-time
-   sound-horizon solutions are known to top out near ~70 (the "H₀ Olympics" result): the same CMB
-   that reveals the tension caps how far r_s can shrink.
-2. **The dCDF's w = −1 is rigid**, so DESI's w ≠ −1 hint is currently a **kill** (P-2026-005),
-   not a feature. Two separate walls.
+1. The early-time m_e mechanism **cannot reach 73** — the model says so ([PRTOE_hubble_tension.md]
+   (../PRTOE_hubble_tension.md):46); ceiling ~71.
+2. The dCDF's **w = −1 is rigid**, so DESI's w≠−1 hint is currently a kill (P-2026-005).
 
-**JP's insight:** if SH0ES = 73 is genuinely right (the Cepheid calibration is the most-scrutinised
-measurement in cosmology), then an early-time lever is **structurally insufficient** — and the fix
-is a **late-time** one. And late-time is exactly where DESI lives. **So one late-time thing might
-answer both.**
+JP's hypothesis: one *late-time* thing does both H₀=73 AND DESI's w(z), keeping w=−1 asymptotic.
 
-## The mechanism (the honest, corpus-native version)
+## LEVER 1 — late-time dark energy: SIGN-LOCKED (dead for "both"). Verified 3 ways.
 
-The dCDF's w = −1 is an **asymptotic floor** ("never crossed"). The *approach* to it — the
-**thaw/settling** — is a low-z dynamical process. If the dCDF is **still settling toward w = −1 near
-z ~ 0 (an UNFINISHED thaw)**, then a single fact produces both effects:
+The dCDF is a **unified barotropic fluid**, w(ρ) = −ρ_∞/ρ, which solves *algebraically* to
+**ρ(a) = ρ_∞ + C·a⁻³ = EXACTLY Λ + CDM.** So the smooth fluid is ΛCDM at the background by algebra
+(this is *why* "ΛCDM-degenerate by construction"). The only way to deviate is a **genuine phase
+transition** (latent heat in a localized z-window) — JP's "phase transition, not all-at-once,"
+which is the correct and only crack.
 
-- **w(z) at low z ≠ −1** (evolving) → **DESI's w₀–wₐ hint, as a feature not a kill**;
-- **the modified low-z expansion** → **raises the ladder H₀**.
+But a forecast across THREE parametrizations (CPL; energy-injection; a late DE-floor phase
+transition) found a **hard sign lock**, robust because it is distance geometry, not a model choice:
 
-One lever — the unfinished thaw — for both walls. The machinery already exists: the
-`dcdf_floor_thaw` parameter, the `routeD` / `conv_desi` thaw chains, and T4's recorded
-*"DESI-policed w(z) meaning-inversion"* note (the kill→feature flip, already half-written).
+| to get… | you need… | but… |
+|---|---|---|
+| **H₀ = 73** | more low-z DE, **w < −1** (phantom) | DESI measures **w > −1** |
+| **DESI's w > −1** | less low-z DE | that pushes **H₀ DOWN** to ~56–61 |
 
-## What it COSTS (stated up front, because it is real)
+**w = −1 asymptotic SURVIVES** (both plateaus of any transition are w=−1 — JP's proudest prediction
+is safe). But **H₀=73 and DESI-w>−1 are mutually exclusive at the background** for any DE lever.
 
-- **It reverses the DE stance.** "w = −1 exactly" stops being a proud rigid prediction and becomes
-  a specific dynamical *trajectory* (w settling to −1). **P-2026-005 (w = −1) is on the table to
-  die** if this direction wins. That is allowed (see below).
-- **"One knob does both" is a GAMBLE, not a gimme.** Late-time DE that raises H₀ tends to fight the
-  BAO+SN distances (tightly measured geometry), and DESI's own w₀–wₐ fit usually pulls H₀ *lower*.
-  The same thaw trajectory must thread: bend w(z) to match DESI **and** bend expansion the right way
-  for the ladder **and** not break BAO. A real needle.
+## LEVER 2 — the local–global gate: RIGHT mechanism, capped by ς. This is the real path.
 
-## The test (computable, machinery exists)
+Not a void — a **measurement effect** ([PRTOE_H0_CEILING.md](../PRTOE_H0_CEILING.md) §2):
+H₀^ladder = H₀^global·[1 + **ς**·β·δc·⟨g⟩_flow·(…) + Λ_leak + 𝒯_τ]. The ε (electron-mass) shift
+changes SN **standardization**; calibrators are screened (ε≈0), flow SNe are not, so SH0ES
+mis-reads the offset as a higher H₀. **It touches nothing in the expansion** — w stays −1, CMB sees
+global r_s, DESI sees global w(z). *This is the only thing that satisfies all three at once* —
+because it isn't a dark-energy effect.
 
-Fit the **unfinished-thaw dCDF** (thaw not complete by z~0) against **DESI w(z) + BAO + SN + SH0ES**
-and ask, simultaneously:
-1. does it reproduce DESI's w₀–wₐ preference (~2–4σ from w=−1)?
-2. does it raise the ladder H₀ toward 73?
-3. does it keep BAO/SN?
+| ς | ladder H₀ |
+|---|---|
+| +1 | 70.9 → **73.4** (reaches 73) |
+| −1 | ~**70.6–71.3** (dies short) |
 
-`routeD` / `conv_desi` were built for exactly this (both currently down — conv_desi died at startup
-per T4; routeD was killed 2026-07-17 — so they need a clean relaunch, symmetric-BBN like the
-evidence pair). **Gated behind the running pc_prtoe evidence run for cores.**
+**But ς is SIGNED −1, twice:** the lines-only 162-config session (H0_CEILING:72–75, "robust") and
+the SN-channel verdict ([PRTOE_THE_AMPLITUDE.md](../PRTOE_THE_AMPLITUDE.md):43, "the sign is
+opposite"). So the gate **caps at ~71**, and the model **owns 73 as residual tension** — its own
+words: *"the model does NOT currently explain the full SH0ES reading."*
 
-## Kill conditions for THIS candidate (so it can be buried honestly)
+## THE CONVERGENCE (the honest verdict)
 
-- The thaw trajectory that fits DESI pulls H₀ the **wrong way** (down, or no higher than the
-  early-time ~71 ceiling) → the "single lever" claim is dead; the two walls are two problems.
-- Matching DESI's w(z) **breaks BAO/SN** beyond tolerance → the late lever is excluded.
-- The thaw needed is so recent/sharp it violates the depth law (a step, not a ramp) → illegal.
-- A robust DESI result **consistent with w = −1** → there is no second wall to knock down, and the
-  rigid-floor prediction (P-005) simply stands.
+- **w = −1: kept.** Survived every forecast.
+- **H₀ via late DE: sign-locked** against DESI. Dead for "both."
+- **H₀ via the gate: the right mechanism, but ς = −1 caps it at ~71.**
+- **Net: the model reaches ~70–71, keeps w=−1, and owns the gap to 73 as tension.** If TRGB's ~70
+  is the right anchor rather than SH0ES's 73, the model is already there. The 73 question rides
+  entirely on which ladder you trust — **and on the sign ς**, which the model has signed against
+  itself (−1) twice.
 
-## THE GOVERNING PRINCIPLE (JP, 2026-07-17) — why we are allowed to chase this
+## THE LINCHPIN (the one live computation)
 
-> **The model's proud predictions are NOT mandated by the model. Nothing is set in stone until the
-> model is ~99–100% complete and there is nothing left to do but run the PolyChord evidences.** A
-> prediction that a better mechanism would kill is not a wall to defend — it is a candidate to test.
-> This is what the FAILURES LEDGER is for: chasing a direction that may cost us w=−1 is not
-> recklessness, it is the method. We bury what dies, with the why, and keep what survives the full
-> build.
+**ς.** The gate does all three iff ς=+1; the model signed ς=−1 at *estimate grade*, lines-only.
+The named appeal — **real-SN-template + real-filter synthetic photometry** — is the one computation
+that could revisit it (scripts/sigma_final_sign_v3.py; module armed-off). NOT a C-code change; an
+offline SN-standardization calc. **This is the whole H₀=73 question, reduced to one sign.**
 
-*Related: [T4_s8_growth_owed.md](T4_s8_growth_owed.md) (the thaw/DESI machinery),
-[PRTOE_H0_CEILING.md](../PRTOE_H0_CEILING.md) (the ~71 early ceiling this would break past),
-P-2026-005 (the w=−1 prediction on the table).*
+## The light ↔ thaw sub-thread (JP, resolved 2026-07-17)
+
+*"Does light nudge the thaw? It couples to itself."* — Correct, and it IS the thaw. Light is the
+dCDF's Goldstone, so its energy is intrinsically part of ρ (no external EM coupling needed — the
+birefringence null still holds; the coupling is self-coupling). The dCDF's **radiation-like youth**
+(w=1/3) *is* its Goldstone/light energy dominating ρ; the **thaw toward w=−1 IS that light energy
+diluting away.** Real and structural — but **early-dominated**: Ω_γ ~ 5×10⁻⁵ today, so the late-time
+(H₀-epoch) nudge is negligible. It strengthens the "radiation youth" half of the picture (it set the
+starting point); it does not reopen the late H₀ lever.
+
+## What would move any of this
+
+- **ς → +1** (the SN synthetic-photometry appeal) → the gate reaches 73, all three satisfied, w=−1 kept. **The single highest-value H₀ computation left.**
+- A **modified-gravity / induced-G** local effect beyond the standardization gate (untested here).
+- TRGB confirming ~70 over SH0ES → the tension evaporates and the model stands as-is.
