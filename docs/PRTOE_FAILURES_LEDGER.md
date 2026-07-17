@@ -688,3 +688,37 @@ d(Y_p)/dε = 0.001628 vs the corpus's 0.00163 — a match). **D/H is a bottlenec
 bottleneck is a binding energy**, so every D/H number in this corpus is weak-rate-only and is
 missing a channel the model claims. JP called the asymmetry before the measurement did.
 
+### P-2026-048's registered value τ = 0.345 — THE PREDECESSOR: a bet placed on the observation read backwards (2026-07-17)
+
+**What was registered (2026-07-16).** *"its finite-temperature ratio of chiral/deconfinement
+temperature to string tension is **T_c/√σ = 0.345 ± 0.02**"*, with the kill *"a lattice
+determination … landing outside 0.345 ± 0.02"*.
+
+**What 0.345 actually is.** ρ_Λ¼(observed) ÷ (9/2)α⁴m_e = 2.25/6.5207 = **0.34506** — **the observed
+dark-energy density inverted.** The entry *said so in its own text* (*"0.345 is not fitted here: it
+is τ = T_c/m_e, fixed by the observed dark-energy density … the flagship's 1.5% prediction **read
+backwards**"*), and graded itself *"not an independent one"*. **The dishonesty was not concealment —
+it was the bet.**
+
+**Why it had to be amended.** The model **derives** T_c = 179 keV, and the portal gives
+√σ_dark = m_e, so **T_c/√σ = 179/511 = 0.3503** — *that* is the model's prediction, and it produces
+the flagship ρ_Λ¼ = 2.2842 meV (+1.5% vs observed). Registering 0.345 made the lattice test
+**unfalsifiable in the direction that matters**:
+
+| lattice returns | under the old bet | what it actually means |
+|---|---|---|
+| **0.3503** | "inside 0.345 ± 0.02" — a pass | **the model is exactly right** |
+| **0.345** | "dead centre" — a hit | **the model missed its own derivation by 1.5%** |
+
+A bet that scores the model's success and the model's failure identically is not a bet.
+
+**The amendment:** T_c/√σ = **0.3503 ± 0.02** (window [0.330, 0.370]), derived; and a lattice return
+at 0.345 is stated **not** to confirm the entry. The dependence is now honest rather than circular:
+the lattice test and the dark-energy agreement share T_c and the portal, so they stand or fall
+together and a hit earns **one** credit, not two.
+
+**How it was caught.** Two independent red-team agents flagged τ = 0.345 in the same wave, from
+different files (DERIVATION_HUNT called it *"derived"*; the fit-number batch traced it to the
+back-solve). Neither was told to look for it. **The corpus had the honest sentence and the
+dishonest bet in the same entry, 14 lines apart, for a day.**
+

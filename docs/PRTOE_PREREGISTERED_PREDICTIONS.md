@@ -2242,11 +2242,24 @@ chain (the attractor session owns its derivation); the coefficient is the open d
 unknown; the primordial-background side is a CHANNEL claim, not an amplitude claim, until
 that computation lands.
 
-## P-2026-048: THE DARK COLOUR GROUP IS SU(2) — and T_c/√σ ≈ 0.345 for SU(2) with three light flavours (registered 2026-07-16)
+## P-2026-048: THE DARK COLOUR GROUP IS SU(2) — and T_c/√σ = 0.3503 for SU(2) with three light flavours (registered 2026-07-16; **value AMENDED 2026-07-17**)
+
+> **AMENDED — the registered value was the observation read backwards; it is now the model's own
+> derivation.** As registered, this entry bet **T_c/√σ = 0.345 ± 0.02**, and it *said so in its own
+> text*: "0.345 is not fitted here: it is τ = T_c/m_e, **fixed by the observed dark-energy density**
+> … the flagship's 1.5% prediction **read backwards**." That was a deliberate design choice — to
+> convert the dark-energy agreement into a lattice obligation — **but it made the bet
+> unfalsifiable in the one direction that matters**: the model *derives* T_c = 179 keV, and with the
+> portal √σ_dark = m_e that gives **T_c/√σ = 179/511 = 0.3503**. A lattice returning 0.3503 — the
+> model's actual prediction — would have been scored as merely "inside 0.345 ± 0.02", and a lattice
+> returning 0.345 (the observation) would have been scored as a *hit* when it is the model missing
+> its own derivation by 1.5%. **The bet now rides the derivation.** The predecessor (0.345 ± 0.02)
+> is booked in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
 **The claim.** The dark confining sector is **SU(2) with exactly three light Dirac flavours in
 the fundamental** — and its finite-temperature ratio of chiral/deconfinement temperature to
-string tension is **T_c/√σ = 0.345 ± 0.02**.
+string tension is **T_c/√σ = 0.3503 ± 0.02** — **derived**, not inherited: T_c = 179 keV (the
+confining chiral value) over √σ_dark = m_e (the portal, the model's one irreducible input).
 
 **Why the model has no choice.** Induced gravity's finiteness sum runs over *"every field in the
 vacuum"* ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2), so the dark sector must
@@ -2260,13 +2273,18 @@ the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must se
 | N_f | **3 — integer** | 5.33 | 7.5 | 9.6 | 11.67 |
 
 **N_c = 2 is the only colour group admitting an integer flavour count, and it gives exactly
-three** (quarks +12, gluons −12). The value 0.345 is not fitted here: it is **τ = T_c/m_e**, fixed
-by the observed dark-energy density through ρ_Λ¼ = (9/2)α⁴·τ·m_e — the flagship's 1.5% prediction
-read backwards. **The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in
-T_c/√σ is a 10% error in the dark-energy scale.
+three** (quarks +12, gluons −12). **The value is τ = T_c/m_e = 179/511 = 0.3503, derived** —
+T_c from the confining chiral condition, √σ_dark = m_e from the portal. Feeding it forward,
+ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2842 meV against the observed 2.25: the flagship's +1.5% prediction.**
+*(The entry formerly registered **0.345**, which is that prediction* ***read backwards*** *:
+0.345 = 2.25/((9/2)α⁴m_e) = the observed dark-energy density inverted. Quoting it as the bet made
+the lattice test unfalsifiable — a return of 0.3503, i.e. the model being exactly right, would have
+scored the same as a return of 0.345, i.e. the model being 1.5% wrong. Corrected 2026-07-17.)*
+**The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in T_c/√σ is a 10% error in
+the dark-energy scale.
 
 **Kills (any one is fatal to the dark-sector roster as it now stands):**
-1. **A lattice determination of T_c/√σ for SU(2), N_f = 3 landing outside 0.345 ± 0.02.** The
+1. **A lattice determination of T_c/√σ for SU(2), N_f = 3 landing outside 0.3503 ± 0.02** (i.e. outside **[0.330, 0.370]**). **A return at 0.345 does not confirm this entry** — it is the *observed* value, and the model landing there rather than on its derived 0.3503 would mean the flagship's +1.5% is real and unexplained. The
    sector is simulable — SU(2) with light fundamental fermions is standard composite-Higgs /
    technicolor lattice territory. This is the model's first prediction addressed to a *computation*
    rather than a telescope.
@@ -2290,9 +2308,13 @@ exactly why ℓ = 0 is unsuppressed, the mechanism §4c invokes.
 
 **Honest flags.** (a) **Provenance:** N_c = 2 was *derived* from the finiteness balance, but the
 three structural matches were **discovered afterward**, not predicted — they earn no forward credit
-and are recorded as consilience, not evidence. (b) **The value's status:** 0.345 is inherited from
-the observed ρ_Λ, so this entry converts the dark-energy agreement into a *lattice* obligation; it
-is a genuine forward prediction about an uncomputed number, but it is not an independent one.
+and are recorded as consilience, not evidence. (b) **The value's status (rewritten 2026-07-17):**
+the registered value is now **0.3503, derived** (T_c = 179 keV ÷ √σ_dark = m_e) — a genuine forward
+prediction about an uncomputed number. It is **not independent of the flagship**: the same T_c and
+the same portal produce ρ_Λ¼ = 2.2842 meV, so the lattice test and the dark-energy agreement stand
+or fall together, and a lattice hit earns **one** credit, not two. *(As registered, this slot held
+0.345 — the observed ρ_Λ inverted — which made the obligation circular rather than merely
+dependent.)*
 (c) **Unlocated, not confirmed:** no published T_c/√σ for SU(2) with N_f = 3 was found — the
 two-color literature is dominated by N_f = 2 at finite *density*. Pure-glue anchors are firm
 (SU(3): 0.63; SU(2): 0.69–0.71). Naively transporting SU(3)'s glue→N_f=3 reduction (0.548) onto
@@ -2350,7 +2372,7 @@ transition boils, first-order**)"*. Different sector, same grammar: the model al
 first-order as the way this goes wrong.
 
 **THE SQUEEZE, RUN (2026-07-16) — the window is NOT empty, and it pins m_q.** The concern was that
-m_q is asked to be **light** by τ = 0.345 and **heavy** by both the crossover requirement and
+m_q is asked to be **light** by τ (**0.3503** derived; the rows below were computed at the old 0.345 — a **+1.5%** shift in τ, immaterial to this squeeze's order of magnitude) and **heavy** by both the crossover requirement and
 ΔN_eff. Resolved on the first pair, and the framing that raised it was wrong: *"N_f = 3 light quarks
 → first order"* is the **chiral-limit** statement, and this sector is not in the chiral limit —
 "light dark quarks" means light *relative to Λ*, not massless. Placing τ against the QCD anchors it
@@ -2359,12 +2381,12 @@ pure glue 0.63):
 
 | quantity | value |
 |---|---|
-| τ = 0.345 sits at | **m_π/√σ ≈ 0.274** (fraction 0.86 from chiral toward physical) |
+| τ = 0.345 sits at *(the row's input; derived τ = 0.3503 shifts it +1.5%)* | **m_π/√σ ≈ 0.274** (fraction 0.86 from chiral toward physical) |
 | Columbia N_f = 3 first-order corner ends at | m_π/√σ ≈ **0.06–0.16** |
 | margin | **above it by 1.7–4.6×** |
 
 **The transition is a CROSSOVER, not first-order — τ and the depth law are compatible, and the
-coded order-parameter birth ramp is correct after all.** The value τ = 0.345 *is* the
+coded order-parameter birth ramp is correct after all.** The value τ (0.345 as used in this row; **0.3503** derived) *is* the
 physical-analog point, and physical QCD is a crossover; the first-order corner is a chiral-limit
 feature this sector does not sit in. **What the squeeze buys instead of a kill: it pins a number the
 model never had** — **m_π,dark ≈ 140 keV** and, via GMOR, **m_q,dark ≈ 38 keV**.
