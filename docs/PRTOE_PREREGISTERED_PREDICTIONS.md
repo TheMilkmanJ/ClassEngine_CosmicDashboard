@@ -2101,6 +2101,19 @@ sharpened meaning: **a light sterile neutrino or a fourth generation would resto
 quadratic divergence and make Newton's constant cutoff-dependent** — destroying the
 framework's finiteness, not merely its bookkeeping.
 
+**Scope correction (2026-07-16 — the balance is wider than this entry displayed it).** The count
+above is the **visible** sector's, and it does cancel exactly. But the finiteness sum runs over
+*"every field in the vacuum — not the model's coupling roster"*
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2), so **the dark sector belongs in it and
+was missing.** The full condition is **visible(0) + scalar(0 iff ξ_H = 1/6) + dark(0) = 0**, each
+cancelling separately. Requiring the dark sector to cancel on its own is what fixes its roster —
+str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 forces **dark SU(2) with three flavours** as the unique
+integer solution (**P-2026-048**). **This strengthens rather than weakens the present entry:** the
+knife-edge is met three times over, not once. Its two kills are unaffected — a light sterile or a
+fourth generation breaks the *visible* row regardless of what the dark sector does — but the entry
+should not be read as claiming the whole balance from the visible rows alone. P-048 carries the
+dark rows' own conditionality (candidate grade; one uncomputed lattice number; five kills).
+
 **Caveat (pending — the scalar sector):** the species count above (fermions +1 per Weyl, gauge
 bosons −4 each) carries no scalar row, yet in the unbroken phase the Higgs is four real scalars whose
 contribution to this heat-kernel coefficient is generically ∝ (1/6 − ξ_H). So the exact-zero balance —

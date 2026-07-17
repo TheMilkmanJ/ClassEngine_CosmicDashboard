@@ -75,14 +75,32 @@ whose regulated one-loop coefficient equals the naive value exactly (O(1) = 1.00
 
 **5.2 The species sum, correctly constituted.** Gravity is blind: it reads energy, not
 identity. The induced-gravity sum therefore runs over **every field in the vacuum** —
-not the model's coupling roster. Counting the Standard Model in heat-kernel weights
-(fermions +1 per Weyl component; the twelve gauge bosons −4 each):
+not the model's coupling roster. Heat-kernel weights: fermions +1 per Weyl component;
+gauge bosons −4 each; real scalars (1/6 − ξ).
 
-| sector | contribution |
-|---|---|
-| 48 Weyl fermions (3 generations × 16, **including three right-handed neutrinos**) | **+48** |
-| 12 gauge bosons | **−48** |
-| **total** | **0 — exactly** |
+**The sum must therefore be taken over all three sectors, and each cancels separately:**
+
+| sector | content | contribution |
+|---|---|---|
+| **visible** — fermions | 48 Weyl (3 generations × 16, **including three right-handed neutrinos**) | **+48** |
+| **visible** — gauge | 12 gauge bosons | **−48** |
+| | *visible subtotal* | ***0 — exactly*** |
+| **scalar** | 4 real Higgs scalars, 4(1/6 − ξ_H) | **0 iff ξ_H = 1/6** *(conditional — §5.3)* |
+| **dark** — fermions | dark quarks: N_f × N_c × 2 Weyl = 3 × 2 × 2 | **+12** *(candidate — P-2026-048)* |
+| **dark** — gauge | dark gluons: (N_c² − 1) = 3 bosons × (−4) | **−12** *(candidate — P-2026-048)* |
+| | *dark subtotal* | ***0 — exactly*** |
+| | **TOTAL** | **0** |
+
+**The visible subtotal is the balance §5.3 is named for, but it is not by itself the
+finiteness condition** — "every field in the vacuum" includes the dark sector, and an
+earlier form of this table counted only the visible rows. Requiring the dark sector to
+cancel *on its own* is what fixes its roster: str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0
+gives N_f = 2(N_c² − 1)/N_c, and **N_c = 2 is the only colour group admitting an integer
+flavour count — giving exactly three** (5.33 at N_c = 3, 7.5 at N_c = 4, …). That is
+registered as **P-2026-048** with its own kills and its one uncomputed lattice number;
+it is a *candidate*, so the dark rows are marked as such and the visible balance below
+stands independently of them. See
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6.
 
 **5.3 That zero has a name: Pauli's finiteness condition.** The quantity that vanishes,
 str[k₁], is precisely the condition Pauli's compensation program imposes on the induced
