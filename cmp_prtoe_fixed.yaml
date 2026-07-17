@@ -156,5 +156,5 @@ sampler:
     nlive: 400              # matched to the ΛCDM twin (pc_lcdm) for a valid ΔlnZ
     num_repeats: 3d
     precision_criterion: 0.01
-    do_clustering: true
+    do_clustering: false     # unimodal posterior; avoids the clusters-dir crash, evidence unchanged
     measure_speeds: true
