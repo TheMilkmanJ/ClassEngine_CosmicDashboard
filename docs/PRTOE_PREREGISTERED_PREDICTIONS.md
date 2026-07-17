@@ -2191,10 +2191,40 @@ two-color literature is dominated by N_f = 2 at finite *density*. Pure-glue anch
 SU(2) gives τ ≈ 0.38–0.39 (**+10 to +13% — a fail**); the required reduction is 51% against
 SU(3)'s 45%, and SU(2) with N_f = 3 carries N_f/N_c = 1.5 against SU(3)'s 1.0, so a stronger
 reduction is expected on physics. **The estimate is adverse-to-neutral and the prediction is
-registered anyway, at its stated width, before the number is known.** (d) The ΔN_eff footprint
-([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §3) is priced for the old roster and owes
-re-pricing at N_c = 2; the SU(2) N_f ≥ 2 chiral transition is reported first-order, which owes a
-check against the settling attractor.
+registered anyway, at its stated width, before the number is known.**
+
+**(d) ΔN_eff RE-PRICED AT N_c = 2 — adverse, and it adds a fifth kill (`scripts/dark_neff_su2.py`,
+2026-07-16).** The old footprint (ΔN_eff ≈ 0.05–0.3) came from a *generic scan* over g_dark = 2, 4,
+8, because the roster was unknown. It is known now, and the count is not in that range. **SU(2)'s
+pseudo-reality enlarges the chiral symmetry to SU(6) → Sp(6), giving 2N_f² − N_f − 1 = 14
+Goldstones — not the N_f² − 1 = 8 an SU(3) sector would give.** The same structural fact that
+supplies this entry's consilience inflates the light multiplet by **1.75×**:
+
+| decoupling | (T_d/T_ν)⁴ | ΔN_eff, g = 8 (SU(3)) | ΔN_eff, g = 14 (SU(2)) |
+|---|---|---|---|
+| T_dec > 200 GeV (all SM active) | 0.047 | 0.214 | **0.375** |
+| T_dec ~ 1 GeV (above QCD) | 0.097 | 0.444 | **0.778** |
+
+**Even at the earliest possible decoupling ΔN_eff = 0.375, against Planck's ΔN_eff ≲ 0.3 (2σ).**
+The largest g_dark Planck admits at *any* T_dec is 11.2; SU(2) needs 14. **And the sector cannot buy
+safety by making the Goldstones heavy:** a pseudo-Goldstone is lighter than its own confinement
+scale by construction (here √σ_dark = m_e = 511 keV), and **τ is spending exactly the lightness
+ΔN_eff needs it not to spend** — heavy dark quarks drive T_c/√σ back toward the pure-glue 0.69–0.71
+and break this entry's own central claim. Since n/p freeze-out is at T ≈ 700 keV > 511 keV >
+m_π,dark, **the dark pions are relativistic exactly when BBN counts radiation.** At ΔY_p/ΔN_eff ≈
+0.013 that is ΔY_p ≈ 0.0049 ≈ **+1.2σ**, and the sign is wrong: more relativistic dof → faster
+expansion → earlier freeze-out → more neutrons → **higher** Y_p, on top of the model's **already
++1.3σ adverse Y_p scar → ≈ +2.5σ.**
+
+**5. Therefore a fifth kill: the dark sector must have NEVER THERMALISED with the Standard Model.**
+If it thermalised, this entry's own roster drives the model's weakest row to ~2.5σ adverse. Non-
+thermalised, ΔN_eff → 0 and the roster survives — but the portal coupling now carries a hard upper
+bound it did not have before, and **CMB-S4 (±0.03) tests it either way**. This constraint did not
+exist before the colour group was fixed; the old scan could not see it because it never contained
+the number 14.
+
+**(e)** The SU(2) N_f ≥ 2 chiral transition is reported first-order, which owes a check against the
+settling attractor ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5).
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*

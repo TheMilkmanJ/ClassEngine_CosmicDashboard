@@ -80,10 +80,21 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
 - **Cosmology (safe):** the ~MeV dark baryons cannot overclose. To be the dark matter they would need a
   dark asymmetry ~1700× the visible one; at any natural asymmetry they are ≤10⁻³ of it, and symmetric
   relics annihilate away (strong coupling).
-- **Footprint (falsifiable):** the light dark states give **ΔN_eff ≈ 0.05–0.3** if the sector thermalised.
-  Planck (N_eff = 2.99 ± 0.17) already excludes the late-decoupling / many-dof corners, so the portal must
-  freeze out above the QCD scale (T_dec ≳ 1 GeV). CMB-S4 (±0.03) tests the survivor.
-  (`scripts/tau_deconfinement.py`, `scripts/dark_neff.py`.)
+- **Footprint (falsifiable) — RE-PRICED at N_c = 2 (2026-07-16), and the answer changed sign.** The old
+  figure (**ΔN_eff ≈ 0.05–0.3**) came from a *generic scan* over g_dark = 2, 4, 8, taken because the colour
+  group was unknown. With the group fixed to SU(2) (§6), the count is determined — and **pseudo-reality
+  enlarges the chiral symmetry to SU(6) → Sp(6), giving 2N_f² − N_f − 1 = 14 Goldstones**, not the
+  N_f² − 1 = 8 an SU(3) sector gives. That is **1.75× the old scan's ceiling**, and it puts
+  **ΔN_eff = 0.375 even at the earliest possible decoupling** — above Planck's ΔN_eff ≲ 0.3 (2σ), at *any*
+  T_dec (the largest g_dark Planck admits is 11.2). **The sector cannot escape by making the Goldstones
+  heavy:** a pseudo-Goldstone is lighter than its confinement scale (√σ_dark = m_e = 511 keV) by
+  construction, and **τ is spending exactly that lightness** — heavy dark quarks push T_c/√σ back toward
+  the pure-glue 0.69–0.71 and break §2's value. So at n/p freeze-out (T ≈ 700 keV > 511 keV > m_π,dark) the
+  dark pions are **relativistic exactly when BBN counts radiation**: ΔY_p ≈ 0.013 × 0.375 ≈ +1.2σ, *added
+  to* the model's already **+1.3σ adverse Y_p scar → ≈ +2.5σ**. **Consequence: the dark sector must have
+  NEVER THERMALISED with the SM** (then ΔN_eff → 0 and the roster survives, at the price of a hard upper
+  bound on the portal coupling). Registered as the fifth kill of **P-2026-048**. CMB-S4 (±0.03) tests it
+  either way. (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
 
 ---
 
