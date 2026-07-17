@@ -40,7 +40,7 @@ Every sector clears, margins 12–38 orders, and the two exact zeros (photon tre
 CONSTITUTIONAL, not tuned. M3's bookkeeping half CLOSES: the frame is priced and paid.
 What remains of M3 is exactly one item — the induced-G forward calculation (the F-F sum
 run forward to Einstein dynamics) — the root's last piece, no longer hiding behind a
-ledger of unpriced operators.
+list of unpriced operators.
 
 *The medium hides from every experiment for the same reason it pays every species alike:
 it cannot see who it is talking to, and they cannot see it — except by weight.*

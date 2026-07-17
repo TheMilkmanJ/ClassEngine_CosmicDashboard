@@ -4,7 +4,7 @@
 
 
 *Comprehensive record of the day's work. Honest grading throughout. The deepest new thread
-is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full ledger.
+is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full record.
 Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechanism_math.md §10
 (the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the the private internal review record
 (internal review + internal review).*
@@ -150,7 +150,7 @@ against itself), internal review's symmetric un-banks. The discipline is why the
 
 # The atom-scale derivations (2026-07-10 — closing update)
 
-The evening after the gate-0 ledger: the stepping-stone syllabus (the internal review). Headlines,
+The evening after the gate-0 work: the stepping-stone syllabus (the internal review). Headlines,
 with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **Gate-0 CLEARS** (double sign-correction: the leptonic ceiling + the weak-rate window), then
  RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).

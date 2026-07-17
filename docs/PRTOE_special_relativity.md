@@ -61,4 +61,4 @@ that swims in it. The model must sing it back note-perfect to twenty decimal pla
 explain, someday soon, why the accompaniment never bleeds through.*
 
 ## Sources
-[Herrmann2009] (modern Michelson-Morley), [Mattingly2005]/[Liberati2013] (the LV ledger), [GW170817] (one metric), [Bailey1977] (muon dilation), [Ashby2003] (GPS), [BLV2005]/[Volovik2003] (emergent-Lorentz precedent), [WeinbergWitten1980] (the no-go evaded). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+[Herrmann2009] (modern Michelson-Morley), [Mattingly2005]/[Liberati2013] (the LV literature), [GW170817] (one metric), [Bailey1977] (muon dilation), [Ashby2003] (GPS), [BLV2005]/[Volovik2003] (emergent-Lorentz precedent), [WeinbergWitten1980] (the no-go evaded). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

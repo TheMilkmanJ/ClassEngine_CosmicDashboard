@@ -1,4 +1,4 @@
-# PRTOE Verified References (the pre-Fairbank citation ledger)
+# PRTOE Verified References (the pre-Fairbank citation list)
 
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

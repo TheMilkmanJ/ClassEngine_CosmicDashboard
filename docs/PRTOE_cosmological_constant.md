@@ -76,7 +76,7 @@ mass; the value lands within a few percent; and the one un-derived step is state
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,
 and its gravitating energy is its *binding* energy — an occupancy count. The mode sum
-is the wrong ledger: it double-counts fluctuations that the no-bare-terms principle
+is the wrong accounting: it double-counts fluctuations that the no-bare-terms principle
 (the framework's founding axiom) assigns to the substrate, not to the emergent
 stress-energy.
 

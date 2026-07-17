@@ -56,7 +56,7 @@ the residue of insisting the substrate is two places rather than one object.
  IS the prediction.
 2. **No preferred-frame leakage into correlations**: the medium has a rest frame (the W-W
  evasion's price); entanglement correlations must remain frame-independent to current
- precision — the Lorentz-violation pricing ledger covers this jointly.
+ precision — the Lorentz-violation literature covers this jointly.
 
 ## 5. Honest scope
 

@@ -186,7 +186,7 @@ shift. [sec 8, 29] REACH/SKA-low class instruments.
 
 ---
 
-## 9. What is DERIVED vs OPEN (honest ledger)
+## 9. What is DERIVED vs OPEN (honest accounting)
 
 DERIVED / FORCED:
  - the environmental variable (Theta, vorticity-based, exact identity) [1]
@@ -239,7 +239,7 @@ Consequences:
  survive at recombination (μ,τ decayed) → the electron is the charged lepton
  PRESENT, not a chosen flavor. No flavon needed.
  - L1-CLEAN: the medium's SUBSTANCE (lepton-mass sector), not its gravitational
- INTERFACE (identity-blind clearing). Interface-vs-substance (laws doc) → no census
+ INTERFACE (identity-blind coupling). Interface-vs-substance (laws doc) → no census
  violation. The "L1 wants universal" tension of the prior session is DISSOLVED.
 
 LOCKED PREDICTION (of the kinetic-Z_L coupling specifically):

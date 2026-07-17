@@ -12,7 +12,7 @@ O(1) assumption named rather than hidden.*
 
 **Line 1 — the rate.** The floor's Jeans/thaw instability is the ghost-condensate sector
 coupling to itself gravitationally. A sector whose only scale is M_GC, coupling at
-gravitational strength (through M_red — the only clearinghouse, L1), has the unique
+gravitational strength (through M_red — the only coupling channel, L1), has the unique
 dimensionally-forced rate:
 
  Γ = M_GC² / M_red
@@ -49,5 +49,5 @@ the par question resolves (the α_c/the α_c MCMC arc), which would sharpen BOTH
 "Asserted single-scale-ness" → the one-scale identity is the fluid's defining property (the
 barotropic one-parameter form, recorded from the founding); "asserted √3" → the Friedmann
 factor, exact given par. The derivation's entire content: **a one-scale sector coupling at par
-through the only clearinghouse thaws at the Friedmann rate.** The universe's linewidth is √3
+through the only coupling channel thaws at the Friedmann rate.** The universe's linewidth is √3
 because the universe's budget and the mode's rate are the same number read twice.

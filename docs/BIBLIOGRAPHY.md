@@ -1,6 +1,6 @@
 # PRTOE BIBLIOGRAPHY — every external source the model stands on (2026-07-11)
 
-*The credit ledger (the working docket). Keys are used across the docs as [AuthorYear]. Internal
+*The source list (the working docket). Keys are used across the docs as [AuthorYear]. Internal
 provenance (t###/def### turn-tags) traces to the internal working record; THIS file traces everything
 we borrowed from the field. If a claim in any doc leans on a result not listed here,
 that is a bug — file it.*
@@ -21,7 +21,7 @@ that is a bug — file it.*
 - **[FIRAS1996]** D. J. Fixsen et al., "The CMB spectrum from the full COBE FIRAS data set," ApJ 473, 576 (1996). — The perfect blackbody; the plasma's witness.
 - **[GW170817]** B. P. Abbott et al. (LIGO/Virgo), PRL 119, 161101 (2017); and B. P. Abbott et al., ApJL 848, L13 (2017). — GW speed = c to 10⁻¹⁵; the one-metric constraint.
 - **[NANOGrav2023]** G. Agazie et al. (NANOGrav), "The NANOGrav 15 yr data set: evidence for a gravitational-wave background," ApJL 951, L8 (2023), arXiv:2306.16213. — The PTA band; the vortex-string Gμ null lives here.
-- **[SNO2002]** Q. R. Ahmad et al. (SNO), PRL 89, 011301 (2002). / **[SuperK1998]** Y. Fukuda et al., PRL 81, 1562 (1998). — Neutrino flavor transformation; the fusion-neutrino ledger.
+- **[SNO2002]** Q. R. Ahmad et al. (SNO), PRL 89, 011301 (2002). / **[SuperK1998]** Y. Fukuda et al., PRL 81, 1562 (1998). — Neutrino flavor transformation; the fusion-neutrino record.
 
 - **[KamLANDZen2024]** KamLAND-Zen Collaboration (S. Abe et al.), "Search for Majorana neutrinos with the complete KamLAND-Zen dataset," arXiv:2406.11438. — The strongest current 0νββ limit (m_ββ ≲ 28–122 meV); also the refuter (with GERDA) of the historical Heidelberg–Moscow claim.
 - **[GERDA2020]** GERDA Collaboration (M. Agostini et al.), "Final results of GERDA on the search for 0νββ decay," PRL 125, 252502 (2020), arXiv:2009.06079.
@@ -105,11 +105,11 @@ that is a bug — file it.*
 
 ## 7. Precision tests (the constraints the medium must satisfy)
 
-- **[Will2014]** C. M. Will, "The confrontation between general relativity and experiment," Living Rev. Rel. 17, 4 (2014), arXiv:1403.7377. — The PPN ledger.
+- **[Will2014]** C. M. Will, "The confrontation between general relativity and experiment," Living Rev. Rel. 17, 4 (2014), arXiv:1403.7377. — The PPN tests.
 - **[Vainshtein1972]** A. I. Vainshtein, "To the problem of nonvanishing gravitation mass," Phys. Lett. B 39, 393 (1972). — The screening margin in the EP gate.
 - **[HNS2009]** L. Hui, A. Nicolis, C. Stubbs, "Equivalence principle implications of modified gravity models," PRD 80, 104002 (2009), arXiv:0905.2966. — The EP test the gate clears with five orders.
 - **[Herrmann2009]** S. Herrmann et al., "Rotating optical cavity experiment testing Lorentz invariance at the 10⁻¹⁷ level," PRD 80, 105011 (2009), arXiv:1002.1284. — Modern Michelson-Morley; the M3 bill's size.
-- **[Mattingly2005]** D. Mattingly, "Modern tests of Lorentz invariance," Living Rev. Rel. 8, 5 (2005). / **[Liberati2013]** S. Liberati, "Tests of Lorentz invariance: a 2013 update," Class. Quant. Grav. 30, 133001 (2013), arXiv:1304.5795. — The LV pricing pass's ledger.
+- **[Mattingly2005]** D. Mattingly, "Modern tests of Lorentz invariance," Living Rev. Rel. 8, 5 (2005). / **[Liberati2013]** S. Liberati, "Tests of Lorentz invariance: a 2013 update," Class. Quant. Grav. 30, 133001 (2013), arXiv:1304.5795. — The LV pricing pass's sources.
 - **[Bailey1977]** J. Bailey et al., "Measurements of relativistic time dilatation for positive and negative muons in a circular orbit," Nature 268, 301 (1977). — Time dilation with no atoms to heat.
 - **[Ashby2003]** N. Ashby, "Relativity in the Global Positioning System," Living Rev. Rel. 6, 1 (2003). — The 38 μs/day that keeps maps working.
 - **[DamourDyson1996]** T. Damour, F. Dyson, "The Oklo bound on the time variation of the fine-structure constant revisited," Nucl. Phys. B 480, 37 (1996), arXiv:hep-ph/9606486. — The Oklo fence (great chain, Appendix B).
@@ -141,7 +141,7 @@ that is a bug — file it.*
 - **[MorrisThorne1988]** M. Morris, K. Thorne, "Wormholes in spacetime and their use for interstellar travel," Am. J. Phys. 56, 395 (1988). — The traversable-wormhole exotic-matter requirement (NEC violation) the solvency reading re-derives.
 - **[FordRoman1995]** L. H. Ford, T. A. Roman, "Averaged energy conditions and quantum inequalities," Phys. Rev. D 51, 4277 (1995), arXiv:gr-qc/9410043. — The quantum bounds squeezing sustained negative energy; the record's version of "no eternal overdraft."
 - **[Eardley1974]** D. M. Eardley, "Death of white holes in the early universe," PRL 33, 442 (1974). — The classical white-hole instability; the record's statistical/instability kill the arrow argument upgrades structurally.
-- **[Hawking1992]** S. W. Hawking, "Chronology protection conjecture," Phys. Rev. D 46, 603 (1992). — The record's CTC ban; the ledger form is "no entry can be its own funding source."
+- **[Hawking1992]** S. W. Hawking, "Chronology protection conjecture," Phys. Rev. D 46, 603 (1992). — The record's CTC ban; the principle is "no state can be its own source."
 - **[Alcubierre1994]** M. Alcubierre, "The warp drive: hyper-fast travel within general relativity," Class. Quantum Grav. 11, L73 (1994), arXiv:gr-qc/0009013. — The warp bubble paying the same NEC bill.
 - **[RovelliHaggard2014]** H. Haggard, C. Rovelli, "Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling," Phys. Rev. D 92, 104020 (2015), arXiv:1407.0989. / **[RovelliVidotto2018]** C. Rovelli, F. Vidotto, "Small black/white hole stability and dark matter," Universe 4, 127 (2018), arXiv:1805.03872. — The black-to-white transition program the model's mirror mechanism independently reproduces; its confirmed LOCAL remnant signature is this shelf's named killer.
 

@@ -24,15 +24,15 @@ proximity effect in a superconductor). Tunneling is not teleportation through a 
 
 - The WKB exponent exp(−∫√(2m(V−E)) dx/ħ) is the medium's evanescent decay length, verbatim —
  the model reproduces the rate because it reproduces the wave mechanics that generate it.
-- "Borrowed energy" never occurs: the energy bookkeeping is the medium's (the transaction
- ledger); the excitation's energy is E throughout; what decays in the barrier is the medium's
+- "Borrowed energy" never occurs: the energy accounting is the medium's (the interaction
+ record); the excitation's energy is E throughout; what decays in the barrier is the medium's
  response amplitude, not a conservation law.
 - The instanton description (imaginary-time paths) is the standard saddle-point of exactly
  this medium amplitude — inherited, not modified.
 
 ## 2. The recorded laboratory cousin: Josephson
 
-The model's own precision receipt (recorded, atom-night ledger): the **Josephson junction** — a
+The model's own precision signature (recorded): the **Josephson junction** — a
 macroscopic condensate phase tunneling coherently through a barrier, so exactly understood that
 it DEFINES the SI volt. In this model that is not an analogy but the same object at laboratory
 scale: **a condensate's phase does not respect classical walls, and we calibrate voltmeters by
@@ -58,7 +58,7 @@ results, macroscopic quantum tunneling in SQUIDs. Any confirmed deviation from s
 tunneling (rate or statistics) kills the model along with QM's other exact reproductions.
 No new signature is claimed. *(One research-grade question flagged, not registered: whether the
 medium's preferred frame could imprint on tunneling TIME measurements at extreme precision —
-parked with the Lorentz-violation pricing ledger.)*
+parked with the Lorentz-violation literature.)*
 
 *The wall is real, and closed — to the particle picture. The medium was never asked to stop,
 and the particle was always the medium's ripple. We certify volts with this fact and call it

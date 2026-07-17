@@ -43,7 +43,7 @@ correlation test of this width.
  cap); the **radio referee** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
  jointly).
 
-## 3. Honest ledger
+## 3. Honest accounting
 
 Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.3σ, the reversed row) and D/H (the ~1.9σ fork).
 Rows pending: the radio chord, the axis family, the comb. The lattice is winning on breadth,

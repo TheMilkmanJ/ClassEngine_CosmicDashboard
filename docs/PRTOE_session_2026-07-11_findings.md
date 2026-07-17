@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-Chronological ledger of the night's verdicts (internal review session).
+Chronological record of the night's verdicts (internal review session).
 The localization computation moved the internal assessment favorably; the claim stays
 provisional until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
 

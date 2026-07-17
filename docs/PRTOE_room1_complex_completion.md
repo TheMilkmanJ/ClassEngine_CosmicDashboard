@@ -79,7 +79,7 @@ its deepest row: the medium's substance IS its debt.
 
 **RESTATEMENT (2026-07-07, forced by internal review, — the
 charge-vs-energy identity):** "the medium's density is its charge" was
-the PURE-ROTOR limit talking. The precise ledger: Ω_DM is measured
+the PURE-ROTOR limit talking. The precise accounting: Ω_DM is measured
 GRAVITATIONALLY and therefore counts the TOTAL quanta, ρ = m·n_tot
 (rotation and libration gravitate identically — the frozen-ellipticity
 degeneracy, E3.3/E3.5a). The conserved U(1) charge is the NET quanta,
@@ -291,14 +291,14 @@ pending the orbit calculation.
 **E3.4 — THE GENESIS CHAIN (landed):** answering how to charge a
 superfluid identifies the depositor — the chain is
 (1) DISPLACE: inflation's stochastic de Sitter kicks ratchet the
-light complex field to large radius — the launderer of the first
-ledger accidentally loads the escrow; (2) TILT: U(1)-breaking
+light complex field to large radius — the scrambler of the first
+record accidentally loads the reserve; (2) TILT: U(1)-breaking
 operators torque at large |Ψ|; (3) RELEASE: post-inflation spiral
-converts stored energy to rotation = the charge. **The launderer and
+converts stored energy to rotation = the charge. **The scrambler and
 the depositor are the same agent, writing with quantum noise as the
 pen** — the medium's bank balance and the universe's structure share
-one parent (amplified vacuum fluctuations). The fee: reheating's
-entropy (~10⁸⁸⁻⁹⁰) — the first ledger was laundered at the price of
+one parent (amplified vacuum fluctuations). The cost: reheating's
+entropy (~10⁸⁸⁻⁹⁰) — the first record was scrambled at the price of
 all subsequent disorder. RECURSION WALL, kept visible: inflation
 itself needs a low-entropy patch (the past hypothesis moves up one
 floor; who audits the auditor). UNIFICATION OF THE MOUNTAINS: the
@@ -367,7 +367,7 @@ field was standing when inflation let go.
 
 **The structural discovery this forces:** θ₀ is not a parameter — it is
 a RANDOM VARIABLE, one draw per universe, set by the stochastic
-inflationary displacement (E3.4: the launderer is the depositor, and the
+inflationary displacement (E3.4: the scrambler is the depositor, and the
 deposit direction is dice). Chaos + random initial angle ⇒ ε is not a
 number the minimal genesis PINS or BOUNDS. It is a number the genesis
 DRAWS from a computable distribution. The pre-registered summit menu

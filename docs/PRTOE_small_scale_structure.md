@@ -16,7 +16,7 @@ pointlike.
 A condensate cannot cluster below its coherence scale. The model's galactic-core scale is
 DERIVED from the same EFT parameter that prices dark energy:
 $$r_c \sim M_{\rm Pl}/M_2^2 \approx 0.87\ \text{kpc}$$
-— the ghost-condensate braiding scale (the ledger's early certificates), which COINCIDES
+— the ghost-condensate braiding scale (the model's early certificates), which COINCIDES
 with the soliton core scale because both are set by the same condensate parameters: **the
 model's one exotic operator writes "kpc" in two independent places** (the recorded
 "coincidence on the receipt"). Dwarf cores at ~kpc are not a patch; they are the

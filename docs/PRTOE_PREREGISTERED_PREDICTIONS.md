@@ -1297,7 +1297,7 @@ provisionally, until it passes ALL SIX:
  2. CHARGE AUDIT: did it secretly hand the medium a net/effective EM charge? If yes → ERROR (charge
  conservation + census). Charge cannot be created, decayed, frozen, or relocated; a path needing it
  is broken by definition.
- 3. CENSUS CHECK: is gravity-only (L1) violated? A birefringence coupling IS an EM transaction. Re-derive
+ 3. CENSUS CHECK: is gravity-only (L1) violated? A birefringence coupling IS an EM interaction. Re-derive
  the census; if the path breaks it, the path is what breaks.
  4. TOPOLOGY CHECK: does it violate P-2026-013 net-0 (a compact universe forces total gauged charge = 0)?
  5. SIGNATURE CHECK: ACHROMATIC (fundamental) or CHROMATIC ~λ² (Faraday/foreground)? Chromatic →

@@ -6,7 +6,7 @@
 *Author-directed: the connection chain universe → galaxies → solar systems → planets, and the
 claim that this map, once built, IS the local-to-atomic map. Verified structurally: the descent
 crosses exactly ONE boundary (the medium's coherence hinge at ξ = 402 AU), below which every
-rung repeats one relationship. Companion to the transaction map. Status: STRUCTURAL
+rung repeats one relationship. Companion to the interaction map. Status: STRUCTURAL
 (organizing + one computed column + one hinge fact).*
 
 ## 0. The one column that spans everything
@@ -69,4 +69,4 @@ atomic structure" is one sentence and not six.
 
 *From the whole sky to a hydrogen atom is six rungs and one boundary. Above the line the
 universe is a mosaic; below it, one quiet cell — and every rung, top to bottom, pays the same
-binding formula to the same ledger. The map was always one map.*
+binding formula to the same framework. The map was always one map.*

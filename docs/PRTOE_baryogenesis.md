@@ -5,7 +5,7 @@
 
 > **STATUS: FRAME COMPLETE, ONE INTEGRAL OWED** (the docket's one true calculation).
 > Un-refereed portions from the review-hold are marked. The recorded deaths and the derived
-> form are production-grade ledger items.
+> form are production-grade recorded items.
 
 ## 0. The problem
 The universe holds ~6×10⁻¹⁰ baryons per photon and essentially no antimatter. The

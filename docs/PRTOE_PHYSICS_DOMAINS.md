@@ -403,7 +403,7 @@ then filed honestly as the map's edge (quantizing the phase sector is
 asserted, not derived; the boundary is drawn, not conquered). Metrology
 became a calibration wing: flux quantization h/2e to 2×10⁻¹⁰, the
 Josephson constant to 3×10⁻¹¹ — the SI volt is legally *defined* through
-the phase sector's clearing rule; the laser linewidth reproduced
+the phase sector's quantization rule; the laser linewidth reproduced
 Schawlow–Townes at ratio 1.000. And the census posture makes every
 precision lab a standing kill-only bet at zero — taken continuously,
 against ever-improving instruments, with no dial.
