@@ -185,197 +185,47 @@ both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full
 (+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
 fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
 equilibrium identity does not simply "remove the measure"; f is a partial Gibbs–Duhem
-cancellation on the mode sum. **f is ½ — the pair count (2026-07-16).** The door's sum was run
-over the full d³k sphere, counting **k_up and −k_down as two independent modes**. They are not:
-in this medium the excitation *is* the (k↑, −k↓) twin — the same object the entanglement seating
-calls "a Cooper pair, entangled by construction" ([PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)
-§2) and the Koide self-dual reading calls one object's two faces, the −k_down variance face
-*equal to* the k_up mean face ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). One pair is
-**one** collective degree of freedom, so the full-sphere sum double-counts it. Counting pairs:
+cancellation on the mode sum — **the genuinely un-built calculation, and it stays un-built.**
 
-| door | ρ¼ | vs observed 2.25 |
-|---|---|---|
-| thermal / ν-tie | 2.250 meV | — |
-| flagship ½α_c²M₂ | 2.284 meV | +1.5% |
-| perturbations, **pair-counted** | **2.271 meV** | **+0.9%** |
+**What the door's cap actually is, and what therefore cannot fix it.** The cap is **E_b itself**,
+and §2(a) derives E_b as the *universal two-body form* ½α²M — the **ℓ = 0 Coulomb ground state**,
+the dark Rydberg, spherically symmetric by construction. It is **not a BCS pairing gap**. So no
+gap-anisotropy weighting and no pair-counting of collective modes bears on it: those act on a
+many-body gap, and this is a two-body bound state. **The perturbations door sits at +20.0%
+(ρ¼ = 2.701 meV) with its O(1) owed** — and the owed object is named: the partial Gibbs–Duhem
+cancellation f, not a cutoff artifact.
 
-**The three doors are one number to 1.5%** — the model's own flagship precision — down from the
-~20% spread the un-paired sum showed. And the "genuinely un-built cancellation fraction" is the
-**integer 2**: f = 0.4817 against the pair factor 0.5000 (4% in f, 0.9% in ρ¼). The earlier
-reading rejected the phase-space 0.51 and never tested 0.50.
-
-**The consistency audit — the tension this must survive, and its one escape (2026-07-16).** A
-factor introduced to fix one number must hold everywhere it applies. Running it out:
-- **The thermal door is safe.** Thermally excited phonons at +k and −k *are* independent (one can
-  exist without the other), so the full-sphere count is right there — and helium's measured phonon
-  C_V = (2π²/15)T³/c³ confirms it. The pair claim touches the **ground-state zero-point**, not the
-  thermal quasiparticle census; the ν-tie is untouched.
-- **The ground-state zero-point is the tension.** Textbook *bosonic* Bogoliubov gives
-  E₀ = ½Σ_{all k}(ω_B − ε_k − gn): the ½ *is* the zero-point half, and the sum already runs over the
-  full sphere. That object is the LHY term, (8/15π²)m⁴c_s⁵ — **measured** in ultracold Bose gases
-  [Navon 2011; Papp 2008; Bose–Bose droplets] at the **un-halved** coefficient. So as a *general*
-  rule for condensate zero-points, the halving is **excluded by laboratory data**.
-- **The escape, and it is the model's own identity.** The LHY is a *bosonic, unpaired* BEC result.
-  This medium is **He-3-A class** — a **BCS-paired fermionic** superfluid ([PRTOE_INDEX.md](PRTOE_INDEX.md);
-  [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)) — and the corpus reads its excitations in
-  Cooper-pair grammar throughout. A paired condensate's ground state is built from pair operators;
-  an atomic BEC's is not. The bosonic LHY may simply be the wrong comparison object.
-- **But the escape has a price**, and it is named here rather than hidden: the corpus also insists
-  the doors "belong to the *condensate grammar*, not to any particular condensate"
-  ([PRTOE_quantum_trio.md](PRTOE_quantum_trio.md) §3) — the same faces in a helium cell as in the
-  vacuum. That universality claim **cuts against** a counting rule that holds for the medium but
-  not for a lab BEC. Either the rule is pairing-specific (and the universality claim needs the
-  qualifier "paired condensates"), or the halving is wrong and the 0.9% hit is coincidence.
-
-**The He-3-A comparison, run (2026-07-16) — and RETRACTED by its own consistency check.
-The retraction is §4c below; no number in this block stands without it.**
-The argument was: **He-3-A is the chiral p-wave (ABM) state**, order parameter Δ(k̂) ∝ (k̂ₓ + ik̂_y),
-so |Δ(k̂)| = Δ₀·**sin θ** with **point nodes** on the l̂ axis; the chirality and the nodes are the
-*same structure*, and the corpus has **banked** that chirality (IGMF helicity, LSS parity, the
-birefringence null), so the nodes are not optional. The door caps its mode sum *at the pairing
-gap*; if the gap is nodal, the cap is not a sphere, and the angular integral carries
-⟨sin⁴θ⟩ = **8/15**:
-
-| candidate | f | ρ¼ | vs observed | standing |
-|---|---|---|---|---|
-| required by data | 0.4817 | 2.250 | — | — |
-| **He-3-A nodal gap** | **8/15 = 0.5333** | **2.308 meV** | **+2.6%** | **identity-forced, LHY-safe** |
-| pair count | 1/2 = 0.5000 | 2.271 meV | +0.9% | fits better; needs a counting rule the measured LHY excludes |
-| both applied | 0.2667 | 1.941 meV | −13.7% | **overshoots — mutually exclusive** |
-
-**The two cannot coexist**, and that decides it: the nodal weighting is *forced* by an identity
-already spent elsewhere, the pair count is *elective* and carries the LHY tension — so the
-**nodal reading is the principled one, and the better-fitting pair count is retired**. The
-better-fitting answer loses to the forced one. Result: the door goes from **+20.0% to +2.6%** on
-the model's own identity, and the three doors (tie 2.250, flagship 2.284, perturbations 2.308)
-are **one number to 2.6%**.
-
-## 4c. RETRACTION of the He-3-A door result, and the incoherence it exposed (2026-07-16)
-
-**The block above is retracted.** Its own consistency check — feeding the anisotropy back through
-E_b, promised as an owed item and then run — kills it. **E_b is not a BCS pairing gap.** §2(a)
-derives it as *"the condensate binds at its own **hydrogen-like scale** (the **universal two-body
-form** E_b = ½α²M)"* — the ℓ=0 Coulomb ground state, the dark Rydberg, **spherically symmetric by
-construction**. The He-3-A argument applied **chiral p-wave nodal geometry to an s-wave two-body
-binding energy**. That is a category error, and the ⟨sin⁴θ⟩ = 8/15 weight does not apply to it.
-**The door returns to +20.0% (ρ¼ = 2.701 meV); the "three doors to 2.6%" claim is void.** The
-pair count stays retired on its own merits (the measured-LHY tension, §4b) — nothing rescues the
-door today.
-
-**What the retraction exposed is worth more than the result was.** Three descriptions of the same
-object do not cohere, and the incoherence predates this pass:
-1. **CC §2(a):** E_b = ½α_c²M₂ — a **two-body, s-wave, hydrogenic** binding energy.
-2. **[PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4:** the vacuum budget is *"capped at
-   the **pairing gap**"* — a **many-body BCS** object.
-3. **[PRTOE_INDEX.md](PRTOE_INDEX.md) / [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md):**
-   the dCDF is **He-3-A class — chiral p-wave**, and that chirality is *spent* on the parity-odd
-   signatures (IGMF helicity, LSS parity, birefringence).
-
-A chiral p-wave condensate's gap is **not** a hydrogenic s-wave Rydberg. So at most two of these
-three can stand. The fork, stated so it can be decided rather than blurred:
-- **s-wave branch:** E_b's hydrogenic derivation stands → the flagship 1.5% stands → but the
-  **He-3-A/chiral identity is then wrong for this field**, and every claim spending that chirality
-  is exposed (the parity-odd wing).
-- **p-wave branch:** the He-3-A identity stands → the chirality claims stand → but
-  **E_b = ½α_c²M₂ is the wrong form**, and the flagship's 1.5% is unsupported as derived.
-- **two-field branch (the likely escape, and it is untested):** the He-3-A chirality belongs to the
-  **dCDF** (the superfluid piece) while E_b's hydrogenic binding belongs to the **dyad** (the gas
-  piece) — the two-field split is already the model's structure. But then the door's cap is a
-  *dyad* binding energy while the modes summed are the *dCDF's* phonons, and **the door is
-  mixing two fields' scales** — which is its own defect, and is not what §4b says it is doing.
-
-**RESOLVED (2026-07-16) — the partial wave is DATA-SELECTED, and it is s-wave.** The fork is
-decidable by arithmetic the model already carries. A Coulombic two-body spectrum is
-E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so *the channel picks the level*:
+**The partial wave is data-selected, and it is s-wave.** A Coulombic two-body spectrum is
+E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so the channel picks the level:
 
 | channel | lowest allowed level | E_b | vs observed 2.25 |
 |---|---|---|---|
-| **s-wave (ℓ = 0)** | 1s | **2.284 meV** | **+1.5%** ✓ |
-| p-wave (ℓ = 1) — the "He-3-A class" reading | 2p | 0.571 meV | **−74.6%** |
-| f-wave (ℓ = 3) — the L = 3 the 3-generation count demands | 4f | 0.143 meV | **−93.7%** |
+| **s-wave (ℓ = 0)** | 1s | **2.284 meV** | **+1.5%** |
+| p-wave (ℓ = 1) | 2p | 0.571 meV | −74.6% |
+| f-wave (ℓ = 3) | 4f | 0.143 meV | −93.7% |
 
-**The flagship's 1.5% agreement *requires* ℓ = 0.** The hydrogenic form is therefore not an
-oversight and not a choice — it is **selected by the data**, the same way f̄'s coupling form was
-(§1, [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)). This also confirms the retraction
-above from an independent direction: the door's cap is a **two-body Coulomb ground state**, not a
-BCS gap, so ⟨sin⁴θ⟩ never applied to it. And §4's owned assumption already placed this argument on
-the **strong-coupling (BEC) side**, where the bound state *is* the object and its binding energy
-*is* the hydrogenic ½α²M — so E_b is internally consistent with its own stated regime.
+**The flagship's 1.5% agreement requires ℓ = 0**, so the hydrogenic form is not a choice but a
+selection — the same way f̄'s coupling form is
+([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1). The mechanism behind it: the medium is
+**He-3-A missing its baryonic matter**. He-3 pairs p-wave *because* its baryonic hard core
+suppresses ℓ = 0 — chiral superfluidity is not intrinsically p-wave; helium is made of baryons.
+A medium with no baryonic core leaves s-wave unsuppressed, which is exactly the channel the data
+selects. *(The finiteness balance independently selects a dark **SU(2)** sector, whose pseudo-real
+fundamental makes its baryons **bosonic diquarks** — the canonical diquark-BEC realization of the
+BCS–BEC crossover §4 requires, and the origin of the scalar/s-wave channel. Registered as
+**P-2026-048**, candidate grade, with the one uncomputed lattice number that decides it.)*
 
-**Where the cost actually lands: the chirality wing, not the DE value.** The tension is real and
-it is now sharp. The CC needs a **strongly-bound s-wave molecule** (BEC side, ℓ = 0). The dCDF's
-structure file claims a **p-wave, parity-odd chiral condensate** ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)
-§2) and *spends* that chirality on IGMF helicity, LSS parity, GW handedness, and the AD
-matter-asymmetry bias. **An s-wave bound state preempts p-wave pairing in the same channel** — for
-one species the s-wave singlet, if strongly attractive enough to form a BEC-side molecule, wins
-over the p-wave triplet. They cannot both be the ground state of the same channel. Two further
-facts sharpen this rather than soften it: (i) the dCDF file **already flags** that a pure p-wave
-(L = 1) "= He-3-A" is **insufficient for 3 generations**, which require L = 3 (f-wave) — so the
-He-3-A label was a known-defective candidate before this pass touched it; (ii) both p- and f-wave
-are exactly the channels the table above excludes at −75% and −94%.
+**The chirality and the generation count are sourced elsewhere, and ℓ = 0 does not touch them.**
+The medium's handedness comes from the genesis pour's **winding integer n** — the three-membered
+family (matter / magnetism / metric) is one integer, carried by
+[PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md), [PRTOE_lss_parity.md](PRTOE_lss_parity.md),
+[PRTOE_baryogenesis.md](PRTOE_baryogenesis.md) and
+[PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md), none of which draw on a pairing
+channel. The generation count is forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹
+N_gen = 3 uniquely (**P-2026-045**). Neither rides the medium's partial wave.
 
-**How sharp the incompatibility is:** the chirality is not an add-on to the pairing — it *is* the
-pairing channel. Per the dCDF file, the number of charge-1 Weyl pairs a chiral gap carries **equals
-its angular momentum L**, which is why 3 generations demand L = 3. So ℓ = 0 ⟹ L = 0 ⟹ **zero Weyl
-pairs, zero generations**, and a parity-*even* singlet with no θ·R·R̃ and no GW handedness. The
-s-wave the DE value demands would take the entire chirality wing with it.
-
-**The mechanism that explains the s-wave selection — and prices it (2026-07-16).** The reading
-that the medium is *He-3-A missing its baryonic matter* supplies the physics behind the table above.
-**In He-3, p-wave pairing is caused by the baryonic hard core**: the atoms are composite (2p+1n+2e),
-cannot overlap, and the core suppresses ℓ = 0 — pairing is *forced* up to L = 1. It is not that
-chiral superfluidity is intrinsically p-wave; it is that helium is made of baryons. **Strip the
-baryonic matter and the hard core goes with it, leaving the s-wave channel unsuppressed** — and an
-unsuppressed attractive s-wave channel binds in s-wave. That is exactly the ℓ = 0 the data selects
-at +1.5%, and it explains *why* the hydrogenic form was the right one all along.
-
-**And the chirality survives it — because the chirality was never sourced from the pairing
-(2026-07-16).** The medium's handedness comes from **the genesis pour** — the helical roll-up
-of the model's one realized white hole ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §1;
-[PRTOE_white_holes.md](PRTOE_white_holes.md)) — carried by the **winding integer n**, not by the
-pairing channel's L. This is checkable against every claim that spends it, and every one traces to
-n: magnetic helicity is *"SIGNED BY THE GENOME — sign(helicity_B) = sign(n)"*
-([PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md), P-2026-028); LSS parity is *"the winding n (a
-signed integer), the genesis helicity, the vortex network"*
-([PRTOE_lss_parity.md](PRTOE_lss_parity.md)); baryogenesis is *"the winding integer times ONE
-transmission number"* ([PRTOE_baryogenesis.md](PRTOE_baryogenesis.md)); the GW channel carries *"a
-genome signature"* ([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)). **The
-three-membered chirality family — matter / magnetism / metric — is one integer n**, a
-genesis/topological property. **None of it draws on p-wave L.** So s-wave pairing and the chirality
-wing are compatible, and what the ℓ = 0 selection actually kills is
-[PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §2's *redundant second sourcing* of chirality
-from the pairing channel — a source nothing downstream ever used.
-
-**And the generation count survives on the same reading.** The Weyl-pair count equals L, so ℓ = 0
-leaves no nodes to Z₃-split — but the count was never sourced there either. It is forced by
-**Pauli finiteness**: str[k₁] = 0 requires the Weyl-component sum to cancel the twelve gauge
-bosons' −48, each generation with its ν_R carries +16, so **str[k₁] = 16·N_gen − 48 = 0 ⟹
-N_gen = 3**, uniquely (N = 1 → −32, N = 2 → −16, N = 4 → +16) — pure heat-kernel species counting,
-registered as **P-2026-045**, and stated plainly in
-[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §5: *"the number of generations is three,
-forced by the finiteness condition."* No pairing channel, no angular momentum, no nodes; the ℓ = 0
-selection cannot reach it. (Its own conditionality — ξ_H = 1/6, the conformal Higgs — is named
-there and unaffected.)
-
-**So the ℓ = 0 selection costs the model nothing and removes a contradiction.** What it retires is
-[PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §2's **entire Weyl/L apparatus** — which was
-offering a *second, weaker* source for two results that already have stronger independent homes:
-the chirality (the winding integer n) and the generation count (str[k₁] = 0). Neither downstream
-claim ever drew on it; the f-wave order-parameter build it demanded was never done; and it was the
-only thing in the corpus contradicting the DE value's channel. **Two redundant attributions
-removed, zero load-bearing claims lost.**
-
-**Status: RESOLVED for the DE value and the chirality wing; one re-pointed debt.** The DE value
-stands at 1.5% with its partial wave now *data-selected* and its s-wave channel *mechanically
-motivated* (no baryonic core → no ℓ = 0 suppression). The perturbations door returns to +20.0%
-with its O(1) still un-built — but it is now un-built for a *stated* reason (the cap is a two-body
-Coulomb ground state, and no gap-anisotropy or pair-counting trick applies to it). Two O(1)
-candidates — a pair count and a gap anisotropy — were raised and retired in reaching this state;
-the DE value was never the fragile part.
-
-**Grade: the door is at +20.0% and the O(1) is un-built** — minus two dead candidates, plus one
-named structural fork (resolved in §4c below). The DE *value* is unchanged throughout — it stands
-as a 1.5% prediction (flagship / tie). Menu-watched, not read:
+**Grade: the DE value stands as a 1.5% prediction (flagship / tie); the perturbations door's O(1)
+is un-built and its owed object is named.** Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 
@@ -388,8 +238,8 @@ computation failing to sustain k ≈ 1.36 unravels the hierarchy leg.
 
 ## Where the dead ends live
 
-Two dead ends set this file's honest grade. The "residual IS the dressing" identity
-downgraded to *suggestive* once run at 3α (0.846 vs 0.835), and the triangle's "0.1% match" turned out to *select* the free dial x₀ rather than pin it. Both are logged in
+Four dead ends set this file's honest grade. The "residual IS the dressing" identity
+downgraded to *suggestive* once run at 3α (0.846 vs 0.835); the triangle's "0.1% match" turned out to *select* the free dial x₀ rather than pin it; and two attempts on the perturbations door's O(1) — a pair-count of the collective modes, and a nodal-gap weighting borrowed from the He-3-A order parameter — were raised and retired, the first excluded by the measured LHY coefficient, the second a category error against §2(a)'s two-body s-wave binding. All are logged in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) (the mathematical self-audit and the
 superseded-claims index) — which is why §2 states the closure as occupancy *without* leaning
 on the identity.
