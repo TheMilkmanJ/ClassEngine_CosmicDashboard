@@ -34,8 +34,11 @@ the Card-2 arc (the 512-run, the winding average, the ramp) has circled f_amp = 
 values without landing them (Koide-f̄ disfavored 3.3σ as f̄'s own value; the
 Koide-with-spending triple remains one of three live endings at 0.9σ). The honest
 statement: **the model keeps producing Koide's rationals in its own arithmetic without yet
-deriving the mass relation** — a lane, not a result. The generation structure (three families
-on the Z4 torus?) is the un-built floor beneath it.
+deriving the mass relation** — a lane, not a result. The generation structure is the un-built floor
+beneath it: **family space is Z₃, not the condensate phase** (the Z4-torus reading is retired —
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)), and the floor's missing object is now named —
+the **background M**. The log coupling derives the ring's geometry (120°, computed) and its scale
+(R = 1/√κ), but A = R/M is a ratio to a centre no term in that energy locates.
 
 **The self-dual identity, made explicit (2026-07-16).** Writing √m_i = M(1 + a_i) with M the
 mean of the √m and Σa_i = 0, the Koide ratio is exactly Q = 1/3 + ⟨a²⟩/3, so **Q = 2/3 ⟺
