@@ -38,7 +38,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | The Y_p "medicine" (BBN helped by the dyad) — *the counter-lean's size, restated* | the +1.3σ was the LT **step** value (Y_p +1.14%); the true **ramped** shift is +0.85% ⟹ **+1.09σ**. The reversal stands; its magnitude was quoted from a superseded splice | ramped splice, 2026-07-16 |
 | **The LT/MTLT bracket's claim to BRACKET the ramped truth** | **FALSIFIED by computing the ramp.** The truth lies **below** the LT edge (Y_p: 0.24900 < 0.24970 < 0.25857; D/H: 2.4703 < 2.4773 < 2.5275). `run_windowed.py` calls LT the "ramp low edge / UNDER-counts" — it is neither: LT applies the FULL shift across the whole LT zone where the true weight runs 0.44→1, so it **over**-applies. Every conclusion of the form "the truth is somewhere in [LT, MTLT]" rested on a false enclosure | `scripts/prym_ramped_splice.py`, 2026-07-16 |
 | **The MTLT "3.5σ rejection"** (χ² = 15.24, p = 0.0005) | **A STEP ARTIFACT — it never existed.** MTLT applies the full shift across 0.179–1 MeV where the true ramp is *exactly zero* (the dyad is OFF above T_c). Computing the ramp — which amendment 5 already demanded — deletes it. The depth law paid for itself in one run | ramped splice, 2026-07-16 |
-| **The D/H row's "~1.6–1.9σ OWNED bet"** | **UNDERSTATED BY ~2×.** The quoted σ is the pull of the **raw** windowed D/H (2.477 ⟹ −1.67σ); the quoted **value** (net 2.40–2.42) is the η-flowed one. Running the η-flow against the ramped baseline gives D/H = **2.4305 ⟹ −3.22σ**, and the joint BBN verdict falls from p = 0.093 to **p = 0.0030**. One row's sigma had been attached to another row's number | η-flow run, 2026-07-16 |
+| **The D/H row's "~1.6–1.9σ OWNED bet"** | **UNDERSTATED BY ~2×.** The quoted σ is the pull of the **raw** windowed D/H (2.477 ⟹ −1.67σ); the quoted **value** (net 2.40–2.42) is the η-flowed one. Running the η-flow against the ramped baseline gives D/H = **2.4305 ⟹ −3.22σ**, and the joint BBN verdict falls from p = 0.093 to **p = 0.0030**. One row's sigma had been attached to another row's number. **[SUPERSEDED by process-error 38 (below): the *absolute* −3.22σ / p = 0.0030 is WITHDRAWN — it was computed at PRyM's default ω_b = 0.02230, not the model's own ω_b. Only the RELATIVE ~2× understatement stands. The honest, reader-facing D/H record is −1.4σ to −3.3σ, code + ω_b-conditional (the PRyM+splice point is −1.89σ, p = 0.093 survives); the model's ω_b awaits the chains.]** | η-flow run, 2026-07-16 |
 | **P-2026-027's registered D/H = 2.40–2.42×10⁻⁵** (the radio-referee prediction's central value) | **RETIRED — computed on a STEP splice.** The interval implied a window effect of +1.2–2.0% on the pre-window 2.372, which sits between the LT step (+0.93%) and the MTLT step (+2.97%): it was read off the step bracket. The model's own derived ramp gives a **measured** window effect of **+0.65%** ⟹ **D/H = 2.387**, *below* the registered interval. Amendment 5 makes the step an illegal computational entry, and the bracket was independently shown not to bracket. **The prediction is amended in place and this predecessor booked here — a pre-registration resting on a superseded equation is not evidence of anything** | ramped splice, 2026-07-16 |
 | **P-2026-027(a)'s referee prediction "D/H ≈ 2.37"** | **RETIRED — it was the entry's own PRE-WINDOW number** (2.372), i.e. the value the model obtains *before* applying its own mechanism. The entry predicted the radio referee would measure a number the model does not predict. Corrected to the windowed, ramped **2.387** | 2026-07-16 |
 | **The "Z4 torus" floor for the generation structure** (three families living on the condensate's phase space) | **RETIRED 2026-07-14, and the retirement is why later attempts kept failing.** Family space is **Z₃, not the condensate phase** — the family ring is not the fields' space. Any structure seating the dyad, the dCDF or the pour *on the family ring* re-crosses this line and must answer it. *(Recorded here because the main Koide file went on asking "three families on the Z4 torus?" as an open question for three days after the ruling — a live doc stale against its own working file.)* | 2026-07-14; the stale question corrected 2026-07-17 |
@@ -69,7 +69,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | Census lane (i) — asymmetric reps for induced SU(2) | DEAD BY THEOREM: ΣQ² = T(R) + d(R)Y² ≥ T(R) — permanently closed | internal audit |
 | Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal audit |
 | The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal audit |
-| P-039's collider knife-edge ([1.00–1.19] TeV) | SUSPENDED: the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run | internal audit |
+| P-039's collider knife-edge ([1.00–1.19] TeV) | **NOT A DEATH — SUSPENDED (live, pending a run):** the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run — recorded here for provenance, decided by that run, not buried | internal audit |
 | c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal audit |
 | c = 9/12 and c = 9/13 (the "neutrino side doesn't count" rosters) | RAMP-PROOF KILLS: each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | 2026-07-13 |
 
@@ -77,10 +77,10 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 
 | what died | the killshot | provenance |
 |---|---|---|
-| **THE G-CLOSURE ITSELF — every claim to compute Newton's constant from the model's roster** | **TERMINATED PERMANENTLY.** The rebuild from the blindness law (gravity reads energy, not identity ⟹ the roster is EVERY field in the vacuum) shows the induced-G sum necessarily contains the **Higgs' non-minimal coupling ξ_H** — an unmeasured Standard-Model parameter that a dark-sector cosmology has no business deriving. **The closure is not wrong; it is UNDECIDABLE BY THIS MODEL.** It was never winnable. Also caught in the rebuild: the "medium's 9 fermions" were SM fields already inside the 48 — the twin-doubling error in a new costume. The 0.8% MATCH is separately dead (it rested on two bookkeeping errors — the twin double-count and a nonexistent ξ — both caught by our own audits). **The CLOSURE itself is UNDECIDED, not dead**: the termination-B verdict was vacated (process error 27) — the death rested on two unwalked steps (the exact K = M_red bootstrap; an FRW-degenerate basis). Honest status: the closure is DEMOTED — with K/M_red free it determines the coherence scale rather than testing the roster. Falsifiability lost; the claim to compute G withdrawn. | 2026-07-13 |
+| **THE G-CLOSURE ITSELF — every claim to compute Newton's constant from the model's roster** | **WITHDRAWN — the *claim to compute G* is dead; the closure *mechanism* is DEMOTED, not cleanly terminated (one verdict, reconciled 2026-07-17).** The rebuild from the blindness law (gravity reads energy, not identity ⟹ the roster is EVERY field in the vacuum) shows the induced-G sum necessarily contains the **Higgs' non-minimal coupling ξ_H** — an unmeasured Standard-Model parameter that a dark-sector cosmology has no business deriving. **The closure is not wrong; it is UNDECIDABLE BY THIS MODEL.** It was never winnable. Also caught in the rebuild: the "medium's 9 fermions" were SM fields already inside the 48 — the twin-doubling error in a new costume. The 0.8% MATCH is separately dead (it rested on two bookkeeping errors — the twin double-count and a nonexistent ξ — both caught by our own audits). **The CLOSURE itself is UNDECIDED, not dead**: the termination-B verdict was vacated (process error 27) — the death rested on two unwalked steps (the exact K = M_red bootstrap; an FRW-degenerate basis). Honest status: the closure is DEMOTED — with K/M_red free it determines the coherence scale rather than testing the roster. Falsifiability lost; the claim to compute G withdrawn. | 2026-07-13 |
 | The G-closure's clean-value landings (−9/2, −3/2, −9/4; the thrice-landed "0.8% match") | RETIRED at ramped grade: quarter-integer proximity was 40–75% likely by chance across the convention corners — menu density, not structure; the surviving content is the ξ-equation (G measures ξ, two doors) | 2026-07-13 |
 | Process error 30: I SPUN the f̄ ensemble — claimed it "independently agrees" with 12/13 when c = 0.903 sits −0.08σ from 9/10 and +0.53σ from 12/13 (the data marginally favors the roster the gravity sector EXCLUDED) | caught by internal audit; corrected in full; the latent tension between the two sectors is now booked openly instead of papered over | 2026-07-13 |
-| **THE G-COMPUTATION ("the medium computes Newton's constant") — RETIRED AS A ZOMBIE** | the ruling, adopted: three schemes in one day (Sakharov → Pauli → Volovik) and it computes G in NONE of them. A claim kept alive by successive reframings is not a result. **RETIRED.** The KEEPER that survives separately: Pauli finiteness (str[k₁] = 0) + its forward kills (P-2026-045) | 2026-07-13 |
+| **THE G-COMPUTATION ("the medium computes Newton's constant") — RETIRED AS A ZOMBIE** | the ruling, adopted: three schemes in one day (Sakharov → Pauli → Volovik) and it computes G in NONE of them. A claim kept alive by successive reframings is not a result. **RETIRED.** *(Same object as the G-closure row above — this is not a second death: the claim to compute G is withdrawn/retired, the closure mechanism demoted. One adjudicated verdict.)* The KEEPER that survives separately: Pauli finiteness (str[k₁] = 0) + its forward kills (P-2026-045) | 2026-07-13 |
 | Process error 29: the G-closure TERMINATION was issued on two unwalked steps — (a) "ξ_H is outside our jurisdiction" (FALSE: in emergent gravity, non-minimal couplings are OUTPUTS — our own earlier work derived ξ_amp that way), and (b) the SM's "exact" 48−48 cancellation rests on the literature-DISPUTED vector contact term, which I had flagged and then dismissed because the old roster had no vectors — the new one has twelve | a later walk vacates it. **THREE premature verdicts on one question in one day (death, reprieve, termination), all on unwalked steps.** The zombie risk is named; the final test is pre-registered and finite | 2026-07-13 |
 | Process error 28: the REPRIEVE was itself issued on an unwalked step — K/M_red invoked as "a free O(1)" without asking what the model already says about it | a later walk resolves it: the basement ruling pins K to Planck-class, the regulator closes the cutoff convention; the honest bracket is [1.50, 37.70] and the roster's 10 lands INSIDE it — not a match, not a failure, not a prediction. **The true summit named: derive K from the medium's own microphysics.** Obituary AND reprieve both premature | 2026-07-13 |
 | Process error 27: TERMINATION-B (the G-closure dead) was declared without walking the ramps BEHIND the verdict — the bootstrap's exact K = M_red step and the FRW-degenerate basis | a later walk vacates it: the "3.8× shortfall" is an O(1) in the cutoff; the "fatal epoch dependence" is a symptom of the basis. A termination-B verdict is itself a result and is subject to the ramp laws — the snag protocol applies to obituaries too | 2026-07-13 |
@@ -93,13 +93,13 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | what died | the killshot | provenance |
 |---|---|---|
 | The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
-| The MOND kill (first version) | itself killed-then-reopened by the step-vs-ramp rule — the kill was a step artifact; MOND/RAR engagement lives in the galactic-atoms thread | internal audit |
+| The MOND kill (first version) | **NOT DEAD — REOPENED:** itself killed-then-reopened by the step-vs-ramp rule — the kill was a step artifact; MOND/RAR engagement **lives** in the galactic-atoms thread (this row records the retracted *kill*, not a dead claim) | internal audit |
 
 ### Supernovae — the candle room
 
 | what died | the killshot | provenance |
 |---|---|---|
-| The candle room's "mass-step candidate explanation" reading | the dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)** | 2026-07-13 |
+| The candle room's "mass-step candidate explanation" reading | **NOT DEAD — LIVE CORNER CLAIM (DESI-fork-decided):** the dilution arithmetic demoted it; **REVISED by the ramped re-run (85b, process error 22): median stays subdominant (~0.02 mag) but the full step is reachable at C_ref ≈ 2 — a corner claim whose adjudicator is the DESI forest cross-calibration (the fork)**, not a burial | 2026-07-13 |
 
 ### The dark-energy O(1) coefficient — the thermal ½ (equipartition rescue)
 
@@ -129,6 +129,42 @@ Root cause: a coincidence (16π²α_c^{3/2} ≈ ½) dressed as a derivation, plu
 imposed on a quantum ground state. Full debate transcript:
 threaded_physics_working/Thermal_Half_Discussions.md. Provenance: 2026-07-17, caught by the
 "too perfect" skepticism check before it was championed.
+
+### Koide ⟨a³⟩ = 5/9 (the phase coincidence-watch) — KILLED, excluded at 4.5σ
+
+**What it was:** the third Koide moment ⟨a³⟩ = 0.555681 sits 0.023% from the rational **5/9 =
+0.555556**, which *looked* like a candidate closed form for the phase (cos 3θ = 0.7859, θ = 12.73°).
+Recorded as a coincidence-watch, never a claim.
+
+**Time of death — 2026-07-17.** Once the τ-mass error is propagated, ⟨a³⟩ = 0.555681 ± **0.000028**,
+so the 0.023% gap to 5/9 is **4.5σ** — excluded, not close. A rational sweep over all p/q with q ≤ 20
+finds **none within ±2σ**. The phase has no rational home at current precision. Cause of death:
+precision (the "0.023%" read as near only until the error bar was attached) — process-error-24
+discipline working as designed. A clean kill of an over-pretty rational. *(The companion watch,
+M² = m_N/3, is not killed but stays a soft, unadjudicable one: M² = 313.84 ± 0.017 MeV is +0.28% —
+≈51σ — from the sharp nucleon m_N/3, matching only if the constituent scale floats over its
+300–360 MeV scheme band.)*
+
+### The Goldstone-cancellation first route (shift symmetry zeroes the zero-point) — FAILED
+
+**What it tried:** to resolve the +20% thermal-vs-perturbation door gap in ρ_Λ¼ by having the
+dCDF's Goldstone (phonon) shift symmetry θ → θ + c cancel the raw phonon zero-point sum (2.70 meV,
+"Door B") down to the mean-field binding (2.28 meV, "Door A").
+
+**Why it died:** the shift symmetry forbids a *potential* for θ, so it makes the vacuum energy
+**θ-independent — a constant — not zero.** The zero-point sum ½Σℏω_k is still present and still
+UV-divergent; shift symmetry protects couplings (the birefringence null, the w = −1 stability), not
+the vacuum-energy magnitude. "The Goldstone protection removes 2.70" is a category error.
+
+**What replaced it (the survivor, argument-grade, in PRTOE_cosmological_constant.md §4b):** the
+correct reading is condensation-energy-vs-reference-vacuum. Door B (2.70) is the UV-divergent
+*reference* zero-point (renormalized away); Door A (2.28) is the physical *condensation energy*
+½α_c²M₂ (the superfluid analogue of the BCS condensation energy ½N(0)Δ²). The physical dark energy
+is the condensation energy, so the flagship correctly reads Door A — and this argument does **not**
+lean on 16π²α_c^{3/2} ≈ ½ (the coincidence that sank the equipartition ½). It fixes *which door* is
+physical; it does **not** source the *value* (still τ = observation-inverted) or remove the residual
+O(1) strong-coupling correction (zero-point/mean-field = 1.955, O(1) because c_s = √α_c is small).
+Provenance: 2026-07-17.
 
 ### Retracted predictions (the H₀ booster, the varying-constant hierarchy)
 
@@ -239,7 +275,7 @@ coupling as the electron-mass shift.
 | Process error 19: the quantization event as an instantaneous rounding | THE PHASE-SLIP ANNEAL: the KZ mess is the anneal's input; n locks at the slip freeze-out (rate < H), not at T_c — the 7-order overshoot resolved; the noise = the un-annealed residual (B1's ninth ambush) | 2026-07-13 |
 | Process error 15: the H₀ lever's execution had two steps — the binary dipole-delete and the mean-for-local gradient | the lookback-varying dipole leaks ~0.2% past a constant template; the local merger-zone gradient can exceed the 3-Gpc mean by an order; the lever revives at the leakage floor (73 → ~72.7–72.9), v4.1's position profile decides the multiplier | 2026-07-12 |
 | Process error 13: the two steps — the core tube sized at two points; the sound's fate a binary | the growth-equation profile (cold verdict survives at (ω/H)² ~ 1×10⁻⁴); the damping-envelope filter (P-031-as-the-pour's-sound upgraded to a computable line shape) | 2026-07-12 |
-| The genesis moment-mapping (ε=0.88 ↔ circulation fraction; 0.843 ↔ mass fraction) | killed at TOY fidelity — **RESURRECTED at comoving grade: the named condition met — share 0.839 vs 0.843 at χ=5.3, ε 0.92 vs 0.88; the kill stands as a correct toy-grade ruling, overturned in its named appeal court** | internal review |
+| The genesis moment-mapping (ε=0.88 ↔ circulation fraction; 0.843 ↔ mass fraction) | **NOT DEAD — RESURRECTED (comoving grade):** killed at TOY fidelity — **the named condition met — share 0.839 vs 0.843 at χ=5.3, ε 0.92 vs 0.88; the kill stands as a correct toy-grade ruling, overturned in its named appeal court** (the claim is alive at comoving grade; this row records the overturned toy-grade kill) | internal review |
 | The flow's H₀ ladder lever (the partial ~1.4%) | RETRACTED at comoving-field fidelity: the swirl is divergence-free (monopole bias exactly 0), the drift dipole-marginalized, the compressive tail ~0.03% — the coherent fraction measures ~0.02, not ~1 | internal review |
 
 ### Supernovae — the candle room
@@ -402,7 +438,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | what died | the killshot | provenance |
 |---|---|---|
 | LITERAL He-3 as the medium | four shots: baryonic (Ω_b×5 short), EM-visible (vs L1a), no pairing at cosmic density/temperature (mK physics), post-BBN existence | the STRUCTURAL He-3-A reading survives separately |
-| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | the birth zone is strong-coupling — perturbative RGEs cannot reach the induced point; redesign owed (perturbative-edge matching) | a structural point materialized |
+| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | **v1 is dead (clean); the *approach* is not** — the birth zone is strong-coupling, so perturbative RGEs cannot reach the induced point. The successor (perturbative-edge matching) is **docketed (§8), not this run** — this row buries v1 only, not the redesign | a structural point materialized |
 | P-028's void-column internal rescue (return-flux topology) | flux conservation: the return flux through voids = the flux-average = the smooth estimate — the ×3400 line-concentration cannot raise the inter-line floor; the 1.5-order gap does NOT close internally | the working docket closure, 2026-07-12 |
 
 ## 6. The mathematical self-audit
@@ -737,22 +773,29 @@ is τ = T_c/m_e, fixed by the observed dark-energy density … the flagship's 1.
 backwards**"*), and graded itself *"not an independent one"*. **The dishonesty was not concealment —
 it was the bet.**
 
-**Why it had to be amended.** The model **derives** T_c = 179 keV, and the portal gives
-√σ_dark = m_e, so **T_c/√σ = 179/511 = 0.3503** — *that* is the model's prediction, and it produces
-the flagship ρ_Λ¼ = 2.2842 meV (+1.5% vs observed). Registering 0.345 made the lattice test
-**unfalsifiable in the direction that matters**:
+**Why it had to be amended — and the deeper problem the amendment does NOT fix.** The portal gives
+√σ_dark = m_e, so the model's value is **T_c/√σ = 179/511 = 0.3503** (from T_c = 179 keV), producing
+ρ_Λ¼ = 2.2842 meV (+1.5%). **But T_c = 179 keV is itself not independently sourced:** it is the
+observation-inverted 176.32 keV rounded up (179/176.32 = +1.52% = 0.35029/0.34506 — see the
+flagship-grade block at the top of
+[PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)). So **0.3503 is not a derivation
+independent of the observation** — it carries the same back-solve one step up the chain (ρ_Λ → T_c),
+and the "+1.5%" is the **T_c rounding**, not a sourced prediction. The old table mis-scored exactly
+this, calling 0.3503 "the model is exactly right"; the honest reading:
 
-| lattice returns | under the old bet | what it actually means |
-|---|---|---|
-| **0.3503** | "inside 0.345 ± 0.02" — a pass | **the model is exactly right** |
-| **0.345** | "dead centre" — a hit | **the model missed its own derivation by 1.5%** |
+| lattice returns | the honest reading |
+|---|---|
+| **0.3503** | the value the model *needs* — = 176.32 keV rounded to 179, not a confirmed derivation |
+| **0.345** | the observation inverted directly; the +1.5% between the two **is** the rounding |
 
-A bet that scores the model's success and the model's failure identically is not a bet.
-
-**The amendment:** T_c/√σ = **0.3503 ± 0.02** (window [0.330, 0.370]), derived; and a lattice return
-at 0.345 is stated **not** to confirm the entry. The dependence is now honest rather than circular:
-the lattice test and the dark-energy agreement share T_c and the portal, so they stand or fall
-together and a hit earns **one** credit, not two.
+**The amendment that stands:** the *only* thing that turns τ into a real prediction is an
+**independent** SU(2), N_f = 3 lattice T_c/√σ. Register it as **0.3503 ± 0.02** (window
+[0.330, 0.370]); an in-window return would source T_c for the first time (an analog/bag-model
+estimate puts the chiral-transition ratio ~0.35 — plausible, not a computation; see the basement
+roster). Until then the dark-energy agreement and the τ value **share the same un-sourced T_c**, so
+they stand or fall together and a hit earns **one** credit, not two. **This is now consistent with
+the flagship-grade block: the +1.5% is the τ/T_c rounding, not a sourced prediction** — the corpus no
+longer grades the same number as both "derived, exactly right" and "rounding artifact."
 
 **How it was caught.** Two independent red-team agents flagged τ = 0.345 in the same wave, from
 different files (DERIVATION_HUNT called it *"derived"*; the fit-number batch traced it to the
