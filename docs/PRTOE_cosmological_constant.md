@@ -117,7 +117,7 @@ The α⁴ scaling is derived — the condensate's own binding (α_c²) times the
 The one order-one number left is **τ = T_c/m_e**. **The corpus's 0.345 is what the observed value
 fixes it at — and that is the problem, not the answer (re-graded 2026-07-17):** 2.25/((9/2)α⁴m_e) =
 **0.34506**, the observation inverted. If the observation fixes τ, the chain runs *backward* and
-ρ_Λ¼ = 2.25 by construction — a 0.0% match, not the +1.5% prediction §68 claims from the same file.
+ρ_Λ¼ = 2.25 by construction — a 0.0% match, not the +1.5% prediction §2 claims from the same file.
 **The model's τ is 0.3503** (T_c = 179 keV ÷ m_e; P-2026-048 amended). See
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §2 for why T_c = 179 keV is itself not
 independently sourced.

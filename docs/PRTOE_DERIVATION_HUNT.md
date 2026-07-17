@@ -49,9 +49,9 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   value and this model's dark sector is **SU(2)** (P-2026-048), the pure-glue anchors disagree by
   ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71), and no published SU(2) N_f = 3 number exists. The model's
   τ = 0.3503 sits inside the band, **and so does the observation's 0.345** — the band is 8.5% wide
-  and cannot tell them apart.
-  of a QCD-like confining sector (pure glue, at 0.63, is excluded). The dark sector must carry light dark
-  quarks (N_f ≥ 2).
+  and cannot tell them apart. The band is that **of a QCD-like confining sector** (pure glue, at 0.63,
+  is excluded), which requires the dark sector to carry **light dark quarks (N_f ≥ 2)** — consistent
+  with P-2026-048's N_f = 3.
 - **T_c ≈ 179 keV — NOT INDEPENDENTLY SOURCED (re-graded 2026-07-17). This is the flagship's
   weakest joint and it was not stated where the flagship is claimed.** The three routes on offer:
   **(i) "τ·m_e" is CIRCULAR** — τ ≡ T_c/m_e, so this defines T_c by itself (line 42 derives τ *from*

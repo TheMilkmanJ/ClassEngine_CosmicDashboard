@@ -19,6 +19,7 @@ its quantity, is a leak.
 import re, glob, os, sys, math
 
 # ============================== THE STANDING INPUTS ==============================
+_SUP = str.maketrans('⁰¹²³⁴⁵⁶⁷⁸⁹⁻', '0123456789-')  # superscript -> ASCII, for float()
 alpha   = 1/137.035999206      # CODATA fine structure
 m_e     = 510998.95            # eV
 d_space = 3                    # THE SPATIAL DIMENSION (JP's ruling: the 3 in alpha_c = 3*alpha)
@@ -135,23 +136,17 @@ ARCHIVE = ("_MORNING_REPORT","_AUDIT_LEDGER","_REDTEAM_BRIEF",
 
 # A retirement notice MUST be allowed to name the value it retires, or the graveyard becomes
 # unwritable. And "c" is overloaded: the census coefficient vs the SPEED OF LIGHT.
+# TRUE retirement words -- these legitimately exempt ANY rule (a graveyard names what it buries).
 RETIREMENT_CTX = re.compile(r"retir|supersed|dead|excludes|former|was booked|archive|Standing:|"
                             r"relic|predecessor|no longer|does not exist|withdraw|amended|"
                             r"historical|era.s frozen|frozen record|that era|refit tables|"
-                            r"do not cite|provenance only|"
-                            # A RUN RECORD is not a stale claim: "raw chi2 ... best point ever
-                            # recorded" is a log of what a specific chain returned, and a
-                            # registered prediction's own range is its bet. Red team read the
-                            # registry in full and did NOT flag these -- my machine did, and my
-                            # machine was wrong. Same species as the Gascheau import: a confident
-                            # fix on a pattern match.
-                            r"raw χ²|raw chi2|best point|ever recorded|joint optimum|"
-                            # 69.70 is ALSO the TRGB/joint best-fit -- a different anchor from the
-                            # 69.9 CMB re-fit, and THREE_EQUATIONS sanctions both side by side.
-                            # Red team read the file and did NOT flag ATLAS:46; my machine did,
-                            # and my machine was wrong. Twice now on this same rule.
-                            r"TRGB|joint best-fit|joint reading|ladder value|"
-                            r"km/s/Mpc\*\*? \(|recorded on", re.I)
+                            r"do not cite|provenance only", re.I)
+# H0-ONLY context: a run record / TRGB anchor is not a stale H0 claim. THIS MUST NOT EXEMPT OTHER
+# RULES -- folding it into RETIREMENT_CTX let a TRGB table-row exempt a real D/H exponent defect two
+# lines away (found by the pass-4 planted test, 2026-07-17). Applied only to the H_0 rule.
+H0_RUNRECORD_CTX = re.compile(r"raw χ²|raw chi2|best point|ever recorded|joint optimum|"
+                              r"TRGB|joint best-fit|joint reading|ladder value|"
+                              r"km/s/Mpc\*\*? \(|recorded on", re.I)
 # A file that STATES the evidence number's conditionality is compliant, not defective.
 CONDITIONALITY_CTX = re.compile(r"asterisk|LCDM helium|ΛCDM helium|YHe|conditional|defect|not a standing|"
                                 r"re-?run|CODE_MANIFEST|SHOES-conditional|SH0ES-conditional|Laplace-marginal|"
@@ -220,12 +215,13 @@ def audit(include_archive=False):
                 for m in re.finditer(c["rx"], line, re.I):
                     g=[x for x in m.groups() if x]
                     if not g: continue
-                    try: v=float(g[0])
+                    try: v=float(g[0].translate(_SUP))
                     except: continue
                     if any(abs(v-o)<5e-4 for o in c["ok"]): continue
                     if RETIREMENT_CTX.search(window): continue        # naming what it buries: legal
                     if c["q"]=="DlnZ quoted bare" and CONDITIONALITY_CTX.search(window): continue
                     if c["q"]=="c (census)" and LIGHTSPEED_CTX.search(window): continue  # different c
+                    if c["q"]=="H_0 standing" and H0_RUNRECORD_CTX.search(window): continue  # run record / TRGB anchor -- H0 only
                     if c["q"]=="tau = T_c/m_e" and re.search(
                         r"invert|observ|read backwards|rounding|0\.35\b|→ ?0\.35|→0\.35|"
                         r"flagship-grade|not a sourced|not the model|deletes the|"
