@@ -1,7 +1,7 @@
 # THE PRTOE DOCUMENT INDEX
 
 *STATUS LABELS used across this shelf: PRODUCTION (fit-grade, chain-backed) · RECORDED
-(graded, in the ledger) · EXPLORATORY (review-hold work, un-refereed) ·
+(graded, recorded) · EXPLORATORY (review-hold work, un-refereed) ·
 ESTIMATED (estimate grade) · SCHEDULED (referee named and funded) ·
 interpretation-grade (ontology only, zero modified numbers).* — domains, files, relations (living)
 
@@ -25,7 +25,7 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 - [LV PRICING](PRTOE_LV_pricing.md) — the Lorentz-violation pricing pass: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
 - [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) — the remaining underived numbers and where their pieces already sit (living)
 - [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every death, reversal, and self-caught error in one place (the graveyard; the main read stays gold)
-- [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the credit ledger)
+- [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the source list)
 - [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — the elevator formulation: substrate, coupling, decomposition (the compressed front door)
 
 ## The spine and constitution

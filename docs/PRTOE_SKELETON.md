@@ -11,23 +11,23 @@
 feeding the next. Written after assembling the ingredients (R=0,
 f_rot, Psi_0) and asked how they fit.*
 
-## Step 0 -- the blank ledger
+## Step 0 -- the empty initial state
  R = 0
 Empty spacetime is flat; nothing happens (the equation-of-nothing / "nothing
 until contact"). DERIVED (bedrock GR).
 
-## Step 1 -- the first transaction: the medium is born (genesis)
+## Step 1 -- the first interaction: the medium is born (genesis)
 The medium is a complex field Psi = |Psi| e^{i ξ} in the potential
  V(Psi) = m² |Psi|² + λ |Psi|⁴
 The quartic term λ|Psi|⁴ is the medium meeting ITSELF (the only thing to
-transact with at t~0). This genesis (Affleck-Dine, the quartic era) runs ONCE
+interact with at t~0). This genesis (Affleck-Dine, the quartic era) runs ONCE
 and produces TWO numbers:
  Psi_0 = the field strength / abundance (the "weird symbol")
  f_rot = the rotor fraction = the ψ/χ two-fluid split (the charge)
 STATUS: the mechanism is DERIVED (Room 1); the exact Psi_0 and the f_rot
-distribution come from solving the quartic-era dynamics (the dice, One Mountain).
+distribution come from solving the quartic-era dynamics (the dice).
 
-## Step 2 -- the account opens: R stops being 0
+## Step 2 -- the coupling switches on: R stops being 0
 Now Psi exists and has energy, so it curves spacetime:
  G_{μ ν} = 8 π G T_{μ ν}[Psi]
 This is the medium "investing into the universe" -- dark matter's gravity and

@@ -19,9 +19,9 @@ falsifiable commitment) · MOVER (active evidence channel).
 | # | Domain | Verdict | One-line result | Booked in |
 |---|--------|---------|-----------------|-----------|
 | 1 | Cosmology (CMB/BAO/SN background) | MOVER | The dyad: H₀ 69.7, S₈ eased, +1 parameter, plik better than ΛCDM's own; evidence class flat pending the two movers | flagship (v5_dCDF_complete) |
-| 2 | BBN / nuclear astrophysics | STRAIN→repriced | Deuterium scar −2.0σ → −1.2σ under post-LUNA theory error; pre-basin ΔN_eff healer (CMB-invisible) closes §11; helium pays | flagship §11 + addendum |
+| 2 | BBN / nuclear astrophysics | STRAIN→reassessed | Deuterium scar −2.0σ → −1.2σ under post-LUNA theory error; pre-basin ΔN_eff healer (CMB-invisible) closes §11; helium pays | flagship §11 + addendum |
 | 3 | Dark energy | BET | The floor is exactly Λ — no evolution, no phantom crossing; model votes AGAINST DESI DR2's 3.1σ preference (standing bet #3) | atlas: THE BIGGEST MYSTERY |
-| 4 | Vacuum energy / cc problem | DOOR (coherence) | Old half: zero-point = unsettled drafts, never post (＋Jacobson, ＋Jaffe); new half: confessed, opening-balance class | atlas: THE BIGGEST MYSTERY |
+| 4 | Vacuum energy / cc problem | DOOR (coherence) | Old half: zero-point = virtual fluctuations, never realized (＋Jacobson, ＋Jaffe); new half: confessed, opening-balance class | atlas: THE BIGGEST MYSTERY |
 | 5 | Structure formation / galactic dynamics | MOVER (sim-owed, SOLE ε-meter) | Granule power p²+q² is now the ONLY observable that reads ε (make-or-break for ε ever being measurable); Room 5's χ-lag (uncondensed today in dwarfs) = candidate 4th axis: redshift-dependent core–halo, dyad-specific | Room 1 E7/E7b/Room 5; five-verdict V1–V3 |
 | 6 | Quantum foundations / measurement | CALIBRATION (ceiling) | Settlement law C4a–h; CHSH lands on Tsirelson 2√2 exactly (4×10⁻¹⁶); Zurek trilogy reconstructed | flagship C4; atlas |
 | 7 | Thermodynamics / stat mech | IDENTITY-adjacent | Landauer/demon calibrated; Jacobson heals the gravity strain; ergodic/microcanonical backbone runs the genesis dice | atlas; Room 1 E8 |
@@ -37,8 +37,8 @@ falsifiable commitment) · MOVER (active evidence channel).
 | 17 | Superfluids / BECs (condensed matter) | IDENTITY | The medium IS a charged rotating superfluid (Son EFT, isomorphism granted); amplitude mode measured (Endres); softness measured (Steinhauer) | Room 1 doc; atlas receipts |
 | 18 | Analog gravity | CALIBRATION + DOOR | Steinhauer Hawking (asterisked); Eckel expanding ring = the tabletop frozen-ellipticity instrument; fringe contrast = the KR beat formula | atlas whispers |
 | 19 | Superconductivity / metrology | CALIBRATION | SI volt = AC Josephson = the phase-clearing law as legal standard; superconductor vs medium: gauged vs global U(1) — cousins, not twins | atlas: burn set 3 |
-| 20 | Quantum computing / information | CALIBRATION | Willow/error correction; Landauer; laundering = the MSS bound | atlas calibration cluster |
-| 21 | Lasers / quantum optics | CALIBRATION | Stimulated emission as settlement racing; the whole sector is C4's home turf | atlas calibration cluster |
+| 20 | Quantum computing / information | CALIBRATION | Willow/error correction; Landauer; information scrambling = the MSS bound | atlas calibration cluster |
+| 21 | Lasers / quantum optics | CALIBRATION | Stimulated emission as competing transition rates; the whole sector is C4's home turf | atlas calibration cluster |
 | 22 | Nuclear decay / time dilation | CALIBRATION | Tunneling receipts priced; Kossert zero-modulation = lab-zero leg; Hafele–Keating = time-emergence receipt with numbers | atlas; references |
 | 23 | Plasma physics | NULL | "Superplasma" scored: pre-basin phase is a gapless acoustic gas, not a plasma (no Debye, no gap) | atlas nulls |
 | 24 | Turbulence / fluid dynamics | SILENCE (kinship) | Intermittency stays silent; the medium natively inhabits quantum turbulence (vortex tangles — Room 5's territory) | atlas silences |

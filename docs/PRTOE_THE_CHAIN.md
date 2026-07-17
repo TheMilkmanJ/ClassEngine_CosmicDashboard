@@ -35,7 +35,7 @@ ring — the torus re-formed, spin re-seeded from the carried axis; the Kibble d
 n; the parity stamps are signed (the genome's helicity, η's seed); gravity works
 repulsive (condensate-led — same law, opposite work).
 → **Tether 1→2 [RECORDED]:** hands off n, the fireball, the condensate background, the
-parity stamps. The transition is SIGN FLIP #1: radiation takes the books and gravity's
+parity stamps. The transition is SIGN FLIP #1: radiation takes over the energy budget and gravity's
 work turns attractive (the acceleration equation reading ρ+3p — booked).
 
 **2. THE FIREBALL** (radiation domination): standard hot plasma; n/p freeze-out at
@@ -106,10 +106,10 @@ grades the handoff.
 books (the twice-crossed threshold): today's acceleration is the pour's mechanism at its
 second epoch. One component, two repulsive eras — where ΛCDM needs two stories.
 → **Tether 10→11 [MISSING]:** THE TURN — how the DE era closes into contraction is the
-cycle map's uncomputed business (shares the bounce room). Second-largest named debt.
+cycle map's uncomputed business (shares the bounce sector). Second-largest named debt.
 
-**11. THE TURN → THE NEXT CRUNCH:** the books drift toward the unspendable floor; the
-cycle closes; topology and entropy carry (Tolman: each cycle's books open larger).
+**11. THE TURN → THE NEXT CRUNCH:** the energy budget drifts toward the frozen floor; the
+cycle closes; topology and entropy carry (Tolman: each cycle opens with more entropy).
 → **Tether 11→0′ [RECORDED grammar]:** = tether 0→1 of the next cycle. The chain is
 linear WITHIN a cycle and concatenated ACROSS cycles — linked list, not loop; the
 next cycle's genesis reads this cycle's closing books and nothing else.
@@ -120,8 +120,8 @@ next cycle's genesis reads this cycle's closing books and nothing else.
 
 **Solid spine:** tethers 1→2→3→4 and 6→7 and 9→10 are recorded — the mid-chain is the
 model's strength (which is why the fit works: the data lives mid-chain).
-**The four named debts (the unification bill):** (i) the bounce equations (0→1, and
-10→11's turn — one room, both ends of the cycle); (ii) the two-draws question (4→5 —
+**The four named debts (what unification still owes):** (i) the bounce equations (0→1, and
+10→11's turn — one sector, both ends of the cycle); (ii) the two-draws question (4→5 —
 the draw-epoch conflict's proposed resolution, geometric session decides); (iii) the τ
 link (7→8 — a bounded computation, never run); (iv) the cold-spot orphan — the anomaly
 family's unclaimed sibling, no chain address assigned (candidate: a link-1 vortex/void
