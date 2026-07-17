@@ -12,6 +12,7 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 **START HERE (added 2026-07-13, the external-critique pass):**
 - [THE READER'S GUIDE](PRTOE_READERS_GUIDE.md) — the model in five plain sentences; the full house-grammar glossary; the skeptic's list
 - [THE DEPENDENCY TREE](PRTOE_DEPENDENCY_TREE.md) — every claim's parents and killers in six tiers; the weakest-parent reading rule
+- [THE READER'S RISK SUMMARY](PRTOE_READERS_RISK.md) — one honest page for an outsider: strongest claims, weakest links, current evidence class, and the pre-registered kill conditions
 
 - [THE REFEREE CALENDAR](PRTOE_REFEREE_CALENDAR.md) — every judge, date, and pre-written decision rule on one page
 - [THE NEUTRINO SECTOR](PRTOE_neutrino_sector.md) — dark energy weighs the neutrino: Majorana, Σ=61 meV, normal ordering, 0νββ required (SCHEDULED)
