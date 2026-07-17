@@ -30,7 +30,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c c
 ## 1. What makes this an improvement rather than a list
 
 Standard cosmology's anomalies are ORPHANS — each tension gets its own bespoke model, each
-null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H₀ engages Y_p through its window (the windowed verdict: a +1.3σ counter-lean, honestly owned — the early "lowers Y_p" reading was reversed), must de-bias Σm_ν upward (it does, in-house), must widen D/H
+null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H₀ engages Y_p through its window (the windowed verdict: a +1.09σ counter-lean, honestly owned — the early "lowers Y_p" reading was reversed), must de-bias Σm_ν upward (it does, in-house), must widen D/H
 (it did — owned as a bet, not hidden), must chord the radio bands at fixed ratios, must point
 one axis, and must never touch Koide or a haloscope. **Any single row failing at its assigned
 weight kills the lever for every row.** No other framework on the market submits to a
@@ -45,7 +45,7 @@ correlation test of this width.
 
 ## 3. Honest accounting
 
-Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.3σ, the reversed row) and D/H (the ~1.9σ fork).
+Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.09σ, the reversed row) and D/H (the ~1.9σ fork).
 Rows pending: the radio chord, the axis family, the comb. The lattice is winning on breadth,
 not yet on any single decisive row — exactly the profile the review has priced at 15–18%
 (capped 25% pending PolyChord). *One lever, many windows, no exits: the lattice is either the

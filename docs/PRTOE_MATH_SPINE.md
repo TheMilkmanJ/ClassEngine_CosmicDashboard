@@ -265,9 +265,9 @@ no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
 
 **THE WINDOWED BBN VERDICT:**
 T_c ≈ 179 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
-medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.2495-0.2505 (+1.2-1.5σ
+medicine was an artifact of applying ε above T_c** — windowed (the model's own ramped ε(T)), Y_p ≈ 0.24900 (+1.09σ
 COUNTER vs Aver; +3.7σ vs EMPRESS — the helium civil war noted); D/H partially refunded
-(net ≈ 2.40-2.42, a ~1.6-1.9σ owned bet). **The BBN synthesis: the sector is THE
+(ramped ≈ 2.387; the fork's width is owed — the D/H error budget is unstated, so the row carries a central value and no σ). **The BBN synthesis: the sector is THE
 TRANSITION'S WITNESS** — the only laboratory that watched the condensation live; the pattern
 is RIGID (no dials); referees: the radio referee, the helium resolution, the T_c re-audit
 (flagged-not-taken), the α_c MCMC posterior. The adverse landings are logged in public;
