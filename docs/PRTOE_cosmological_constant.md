@@ -238,28 +238,23 @@ both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full
 (+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
 fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
 equilibrium identity does not simply "remove the measure"; f is a partial Gibbs–Duhem
-cancellation on the mode sum. **Candidate reading — equipartition (the residual as the potential half).**
-The Gibbs–Duhem equilibrium condition p = 0 is, for a scalar (p = K − V), exactly **K = V**, i.e.
-w = 0 — and the freeze sits there: the lightest neutrino decouples at z ≈ 12, deep in the dCDF's
-dust era (w ≈ 0 across z ≈ 1–10⁵, so this is generic, not tuned). At K = V the mode energy is 2V;
-the dark-energy floor (w = −1, pure potential) freezes as the **V-half** while the kinetic half
-dilutes as the excitation. So f = V/(K+V) = (1 − w)/2 = **½**, giving
-ρ_Λ¼ = (½)¼ × 2.70 = **2.27 meV** (+0.9% vs the observed 2.25 — tighter than the flagship's +1.5%),
-and it is the same equipartition rule that fixes Koide's A = √2 at w = 1/3, read here at w = 0.
-**Owed (candidate grade):** the rigorous identification of the Gibbs–Duhem cancellation with the
-equipartition V-fraction, and the residual — the observed f = 0.482 wants w ≈ +0.036, a slight
-kinetic excess above the pure-dust point. **Why 2.70 and why exactly ½ (the vacuum sum, not the thermal one).**
-The dark energy is a **vacuum** (zero-point) energy, so its baseline is the **zero-point** sum —
-which is precisely what 2.70 is (the E_b-cutoff zero-point / "un-cancelled full phonon sum"), *not*
-the thermal occupation 7.1. The zero-point energy of **any** harmonic mode splits **exactly K = V**
-(¼ħω each — the quantum virial theorem ⟨T⟩ = ⟨V⟩ for V ∝ x²), **independent of the mode's thermal
-w**: so a "w = 1/3 → K = 2V" concern is about the *thermal* sum (7.1), never about this zero-point
-one. Equilibrium (Gibbs–Duhem p = 0) cancels the **kinetic** zero-point half; the surviving
-**potential** half is pure-V ⟹ w = −1 = the dark-energy floor, at f = ½ exactly:
-ρ_Λ¼ = (½)¼ × 2.70 = **2.27 meV (+0.9%)** — tighter than the flagship's +1.5%, and the same
-equipartition rule that fixes Koide's A = √2 at w = 1/3, read here on the vacuum modes.
-**Owed (candidate grade):** exhibiting that the equilibrium cancellation keeps the potential
-(w = −1) half; and the residual — observed f = 0.482 ⟹ a few-percent kinetic excess (w ≈ +0.036).
+cancellation on the mode sum — **the genuinely un-built calculation, and it stays un-built.**
+*(An equipartition reading — f = ½ from a zero-point K = V split, giving 2.27 meV — was tried and
+**failed** on two independent grounds. (i) The number is not independent: 16π²α_c^{3/2} = 0.5115 ≈ ½,
+so ½-of-2.70 = 0.994 × E_b — the flagship binding energy re-packaged, and E_b is itself the observed
+ρ_Λ inverted-and-rounded, so the "+0.9%" is not fresh evidence. (ii) The mechanism is invalid: a
+harmonic condensate mode is honestly **w = 0** (⟨w⟩ = (n−2)/(n+2) = 0 at n = 2 — the textbook reason
+an oscillating scalar is cold dark matter), not w = −1; the (+1, −1) split reads classical pure-state
+extremes off a stationary quantum ground state, and the "redshift only the kinetic half" rescue
+violates the uncertainty principle. The only honestly w = −1 object is the static potential floor V₀
+at coefficient **1** → 2.70 meV (+20%), value un-sourced — no home for a ½. **What DOES survive
+(the other half):** the ¼ + ¼ split is exact, and both halves together give w = 0 = **cold dark
+matter** — which is just the dCDF's own excitation sector (dust-like below z_on) re-confirmed by the
+virial theorem. So the analysis correctly identifies the condensate mode as *dark matter*; it only
+fails to give the *dark-energy* value. A consistency check with the two-era dCDF, not a new result —
+and a reminder that in a unified DM+DE fluid the "residual" and the "excitation" are the same
+object's two faces. Autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); full debate in
+[Thermal_Half_Discussions.md](threaded_physics_working/Thermal_Half_Discussions.md).)*
 
 **What the door's cap actually is, and what therefore cannot fix it.** The cap is **E_b itself**,
 and §2(a) derives E_b as the *universal two-body form* ½α²M — the **ℓ = 0 Coulomb ground state**,
