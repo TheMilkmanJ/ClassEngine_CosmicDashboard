@@ -3,6 +3,19 @@
 2. The masters' calendar: the α_c MCMC (running), DESI DR3, PolyChord, the radio referee, BipoSH — dates and decision rules in one place.
 3. The row-correlation formalization: the joint likelihood of the lattice (a single χ² across rows) as the model's headline statistic.
 
+> **⚠ THREE VALUES IN THIS WORKING LOG WERE SUPERSEDED BY THE 2026-07-17 AUDIT — corrections live
+> in the reader-facing files; this log is kept as the dated record of how they were found.**
+> 1. **The BBN-window ramp factor `[0.8–1.0]`** (the ε(EPOCH) table below, and line ~12): **wrong
+>    band.** The model's own ramped stamps are **0 / 0.61 / 0.78** (1 − T/T_c at the derived
+>    T_c = 179 keV) — the band contains neither. Fixed in `PRTOE_fingerprint_lattice.md`.
+> 2. **`d(D/H)/dε = 0.00782`** (item 3, below): **UNREPRODUCIBLE from the engine** — a fresh 4-point
+>    PRyM scan gives a linear 0.0119 and the row 2.470340 does not reproduce. Filed
+>    `PRTOE_FAILURES_LEDGER.md`; the splice has no B_D channel (D/H is a bottleneck quantity).
+>    Y_p's 0.00163 *is* correct (measured 0.001628).
+> 3. **`+3.7σ vs EMPRESS` / D/H `~1.6–1.9σ`** (below): the +3.7σ is the **step-era** pull (ramped
+>    gives **+3.53σ**); the ~1.6–1.9σ D/H is the **withdrawn PRyM-default-ω_b** baseline (process
+>    error 38). Standing D/H is **−2.9σ** on the full budget.
+
 ## PAID item 1 (2026-07-12): THE ε(EPOCH) TABLE — every lattice row now wears its WHEN
 (the audit's law: no number without its epoch):
 | epoch | ε | provenance |
