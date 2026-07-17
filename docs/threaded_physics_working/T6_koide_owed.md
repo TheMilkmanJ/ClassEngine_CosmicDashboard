@@ -32,55 +32,45 @@ background *is* the frozen field's potential energy and its Z₃ fluctuation *is
 Lagrangian), still unbuilt — lock 6, behind the basement door. **Down from "w = 1/3 *and* the
 linkage" to the linkage alone.** Item 1 stays OPEN; it is one notch from closed, not several.
 
-## Item 1 — what A = √2 is, and what regime the family field is in (2026-07-17)
+## Item 1 — what A = √2 is [COMPUTED], and what still explains it [NOTHING] (2026-07-17)
 
-**The debt, restated exactly:** *"the mechanism forcing amplitude = √2 / phase = variance."*
+**The debt, unchanged:** *"the mechanism forcing amplitude = √2 / phase = variance."*
 
-**A = √2 IS the variance-equals-mean point [COMPUTED, exact].** On the Z₃ ring
+**What A = √2 IS — computed, exact, θ-independent.** On the Z₃ ring
 √m_k = M(1 + A cos(θ + 2πk/3)), the three 120° points give mean(cos) = 0 exactly, so
-**mean(√m) = M for any θ** and **var(√m) = M²A²/2**. Therefore
-**var(√m) = [mean(√m)]² ⟺ A² = 2 ⟺ A = √2 ⟺ Q = 2/3**, and the identity is **θ-independent** — it
-holds along the whole ring, not at a chosen phase. This makes the file's own sentence quantitative:
-*"the fluctuation (variance, the −k_down face) equals the background (mean, the k_up face)."*
-[PRTOE_quantum_trio.md](../PRTOE_quantum_trio.md) §4b names that same configuration the **neutral
-zone** — *"the critical seam… the two phases are exactly degenerate"* — with the **Ginzburg window
-as its width**.
+**mean(√m) = M for any θ** and **var(√m) = M²A²/2**. Hence
 
-**The family field's REGIME [ARGUED from structure; the number is not computable].** A Ginzburg
-*number* needs the quartic, the gradient term and T_c — i.e. the generation-structure Lagrangian,
-which is **not built** (the floor below). But the regime follows from what is known:
-1. the 120° ring is *"the three-defect equilibrium under the medium's own **log** coupling"* (above);
-2. a logarithmic pair interaction is the **2D** Laplacian's Green function, and the ring is itself
-   planar — (M, θ), a modulus and a phase;
-3. a **discrete** Z₃ order parameter in d = 2 is the **3-state Potts** universality class
-   (Mermin–Wagner bars *continuous* symmetry breaking in 2D; Z₃ is discrete, and 2D q = 3 Potts has
-   a genuine continuous transition).
+**var(√m) = [mean(√m)]²  ⟺  A² = 2  ⟺  A = √2  ⟺  Q = 2/3**
 
-| | β | α | ν | regime |
-|---|---|---|---|---|
-| mean-field — the **dyad's** condensation (`source/background.c`) | 1/2 | 0 | 1/2 | Gi ≪ 1 |
-| **2D 3-state Potts — the family field** | **1/9** | 1/3 | 5/6 | **fluctuation-dominated, Gi ~ O(1)** |
+and it holds along the *whole* ring, not at a chosen phase. This is the file's own sentence made
+quantitative: *"the fluctuation (variance) equals the background (mean)."* **The relation is an
+exact identity between two moments of one distribution — that much is settled.**
 
-**Two consequences.**
-- **The dyad's Gi ≪ 1 was never transplantable here** — different field, different universality
-  class, β = 1/9 against 1/2. Confirmed from a second direction (see the ledger, process error 39).
-- **The seam is WIDE, not measure-zero.** d < 4 makes fluctuations dominate near t = 0; d = 2 drives
-  Gi to O(1); and the neutral zone's width *is* the Ginzburg window. **A 2D-Potts family field sits
-  in a broad critical region, not on a knife-edge — so no attractor is needed to hold it there, and
-  no tuning is implied by Q sitting 0.9σ from exact.**
+**The scale of what is owed.** Q is measured at **0.6666605 ± 6.8×10⁻⁶** — var/mean² = 1 to **one
+part in 10⁵**. Any proposed mechanism must explain a landing that precise, not merely permit it.
 
-**A retired candidate.** A previous pass proposed that the self-organized-critical settling
-attractor of [PRTOE_dcdf_superfluid.md](../PRTOE_dcdf_superfluid.md) §5 forces A = √2, making one
-hinge carry both Koide and the dark-energy closure. **Retired:** its motivating premise — that a
-seam is measure-zero and therefore needs an attractor — is false at Gi ~ O(1). Koide does not need
-the SOC attractor; the DE closure still does; **they were never linked.** The retirement is in
-[PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md).
+**Two mechanisms were proposed and both are retired (2026-07-16/17; see
+[PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md)):**
+- **the SOC settling attractor** — rested on "a seam is measure-zero, so an attractor must hold the
+  system there"; retired when the family field's regime showed the premise false;
+- **the wide-seam / 2D-Potts reading** — retired by the measured Q itself: a *broad* critical region
+  explains why no fine-*tuning* is needed and simultaneously fails to explain the fine-*landing*.
+  **Large fluctuations make an exact moment identity less expected, not more.** The argument
+  removed the need for a mechanism and the mechanism together.
 
-**Item 1 stays OPEN, and what is owed is now sharper than "a mechanism":**
-(i) **the family field's Lagrangian** — without it there is no Gi *number*, only this regime
-argument, and the 2D reading rests on the log coupling being literal rather than metaphorical;
-(ii) **the V ~ M², K ~ R² identification** (below) — the floor beneath all of it;
-(iii) if the 2D-Potts reading holds, the model gains a **falsifier it did not have**: the family
-sector would carry 3-state-Potts exponents (β = 1/9, α = 1/3, ν = 5/6), not mean-field ones.
+**One structural fact survives both retirements, and it is not nothing.** The family field's regime
+is **not** the dyad's. The 120° ring is *"the three-defect equilibrium under the medium's own log
+coupling"*; a log pair interaction is the 2D Laplacian's Green function; a **discrete** Z₃ order
+parameter in d = 2 is the **3-state Potts** class (β = 1/9, α = 1/3, ν = 5/6) — **not** mean-field.
+`source/background.c`'s **Gi ≪ 1, β = ½** belongs to the **dyad's** condensation at T_c and was never
+transplantable here. *(Not registered as a prediction: the family field's transition sits at
+genesis, so its exponents govern nothing anyone can tune through. What survives to today is the
+frozen configuration — the masses. The regime constrains future model-building; it forecasts no
+measurement.)*
+
+**Item 1 stays OPEN, and honestly it has not moved:** A = √2 is an exact identity with **no
+mechanism**. The floor is unchanged — the **family-field Lagrangian** (which is also why no Ginzburg
+*number* is computable, only the regime argument above), and beneath it the **V ~ M², K ~ R²**
+identification. **Two candidate mechanisms were spent this pass; the debt is where it started.**
 
 Coupling-geometry status: screened-room (laboratory masses) — verdicts hold by geometry.
