@@ -79,11 +79,33 @@ CHECKS = [
       ok=[0.6366,0.63662,0.636620,0.635,0.625],   # 0.635 sim / 0.625 fit are legal CHECKS on f-bar
       bad={0.6 :"the RETIRED f_amp decomposition value (eps = c*f_amp*Psi0/M_red)",
            0.69:"the RETIRED f_amp scan 'independent check'"}),
+
+ # ---- added 2026-07-17 (overnight audit): the conditionality checks ----
+ # The evidence number is DIRTY until the fits are re-run: the chains that made it fed CLASS a
+ # LCDM helium fraction (the YHe lambda declared varying_me and never applied it). Any live file
+ # quoting it BARE -- without the conditionality -- is a species-2 defect.
+ dict(q="DlnZ quoted bare", rx=r"(?:Δ\s*ln\s*Z|DlnZ|ΔlnZ)\s*(?:=|≈|~)\s*\+?(2\.6[0-9]*)",
+      ok=[],   # nothing is OK bare -- the CONTEXT check below decides
+      bad={2.6:"the evidence number is conditional on the YHe defect (chains scored with a LCDM helium fraction); it must carry the asterisk until the fits are re-run",
+           2.635:"the evidence number is conditional on the YHe defect; must carry the asterisk until re-run"}),
+ dict(q="H_0 standing", rx=r"H[_₀0]\s*(?:=|≈)\s*([0-9]{2}\.[0-9])",
+      ok=[69.9, 68.2],   # 69.9 = the standing claim; 68.2 = the LCDM foil, legal
+      bad={69.7:"the v5-era refit value -- the standing claim is 69.9",
+           69.82:"a single dyad run's value -- the standing claim is 69.9"}),
+ dict(q="rho_Lambda^1/4", rx=r"(?:ρ_Λ|rho_L|ρ_∞)[^.\n]{0,30}?([0-9]\.[0-9]{2,3})\s*meV",
+      ok=[2.284, 2.2842, 2.25, 2.251],   # 2.284 derived / 2.25 observed / 2.251 the CC's own
+      bad={1.98:"a retired door value (M_2-tuned)", 2.695:"a retired door value (Landau-capped)",
+           1.71:"a retired door value (KP-unpinned)"}),
+ dict(q="Sigma m_nu", rx=r"(?:Σm_ν|Sigma m_nu|Σ)\s*(?:=|≈)\s*([0-9]{2}\.?[0-9]*)\s*meV",
+      ok=[61.4, 61], bad={}),
  dict(q="T_c keying", rx=r"T_?c\s*(?:=|≈)\s*([0-9]{2,3})\s*(?:keV)",
       ok=[179],
       bad={193:"the perturbative mu=T CROSS-CHECK -- legal only AS a cross-check, never as the keying value"}),
 ]
-ARCHIVE = ("FAILURES","honest_status","v5_dCDF","v4_dCDF","session_2026","math_story","granule",
+# the audit's OWN meta-files name retired values by design -- excluding them is not a blind spot,
+# it is the same rule as the graveyard's.
+ARCHIVE = ("_MORNING_REPORT","_AUDIT_LEDGER","_REDTEAM_BRIEF",
+           "FAILURES","honest_status","v5_dCDF","v4_dCDF","session_2026","math_story","granule",
            "room1","gate0_qft","kill_and_patch","STATE_OF_MODEL","intellectual_history","SKELETON",
            "amplitude_derivation","Second_Order","references","me_trigger","me_mechanism",
            "kappa_v_derivation","v5_five_verdict","v5_SIDM","weakest_joints","UV_completion")
@@ -92,6 +114,10 @@ ARCHIVE = ("FAILURES","honest_status","v5_dCDF","v4_dCDF","session_2026","math_s
 # unwritable. And "c" is overloaded: the census coefficient vs the SPEED OF LIGHT.
 RETIREMENT_CTX = re.compile(r"retir|supersed|dead|excludes|former|was booked|archive|Standing:|"
                             r"relic|predecessor|no longer|does not exist|withdraw|amended", re.I)
+# A file that STATES the evidence number's conditionality is compliant, not defective.
+CONDITIONALITY_CTX = re.compile(r"asterisk|LCDM helium|ΛCDM helium|YHe|conditional|defect|not a standing|"
+                                r"re-?run|CODE_MANIFEST|SHOES-conditional|SH0ES-conditional|Laplace-marginal|"
+                                r"marginal|gated|pending", re.I)
 LIGHTSPEED_CTX = re.compile(r"acoustic|horizon|dispersion|c_s|speed of light|perturbations hit|"
                             r"dumb hole|k\*=M|trapped inside", re.I)
 
@@ -127,6 +153,7 @@ def audit(include_archive=False):
                     except: continue
                     if any(abs(v-o)<5e-4 for o in c["ok"]): continue
                     if RETIREMENT_CTX.search(window): continue        # naming what it buries: legal
+                    if c["q"]=="DlnZ quoted bare" and CONDITIONALITY_CTX.search(window): continue
                     if c["q"]=="c (census)" and LIGHTSPEED_CTX.search(window): continue  # different c
                     for badv,why in c["bad"].items():
                         if abs(v-badv) < 5e-4:
