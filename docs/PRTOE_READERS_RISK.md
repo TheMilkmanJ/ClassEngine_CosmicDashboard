@@ -35,9 +35,13 @@ everywhere atomic physics appears.
 - **(a) The dark-energy flagship "+1.5%" is not a sourced prediction.** ρ_Λ¼ = (9/2)α⁴τ·m_e is a real
   structural relation, but τ = T_c/m_e has no independent source: the corpus's τ = 0.345 is the
   *observed* dark-energy density inverted and rounded, not computed. It becomes a genuine prediction
-  only with an uncomputed lattice number — T_c/√σ for an SU(2), N_f = 3 dark sector (an adversarial
-  analysis puts the honest estimate a few percent *above* the observation, so 0.3503 is plausible but
-  below the estimate's centre).
+  only with an uncomputed lattice number — T_c/√σ for an SU(2), N_f = 3 dark sector. **No lattice
+  determination of that theory exists** (literature sweep, 2026-07-17); the best inference bracket
+  from measured neighbours (SU(2) N_f = 2: 0.483(23) deconfinement, 0.36–0.48 chiral; SU(3)
+  N_f-dependence) is **≈ 0.39 ± 0.05, centred above the model's 0.3503** — the model's value sits at
+  the bottom edge, needing both the chiral (not deconfinement) transition and near-maximal
+  suppression. One SU(2)-specific fact helps: the chiral and deconfining transitions decouple in
+  SU(2), so the chiral T_c can legitimately sit below the Polyakov number.
 - **(b) BBN is net adverse.** D/H sits at −2.9σ from Cooke (code-systematic-dependent, −1.4σ to
   −3.3σ); Y_p at +1.09σ — and there is no dyad healer (the Majoron couples to lepton number, quarks
   carry none). The joint verdict hinges on an unresolved ~3.5% inter-nuclear-code disagreement, not
