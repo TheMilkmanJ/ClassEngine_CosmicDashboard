@@ -175,6 +175,62 @@ re-crosses that line. The assignment may survive it — the three could **source
 parameters without **living** on it — but that distinction has to be *made*, not assumed. Until it
 is, this is a picture, not a floor.
 
+## THE KNOBS READING — the three-source structure stated so it clears the Z₃ ruling (2026-07-17)
+
+**The ring has exactly three knobs, and the parametrisation by itself has no content:**
+
+| knob | what it is | value from the physical masses |
+|---|---|---|
+| **M** | the **centre** — where the ring sits | 0.560215 GeV^½ (M² = 313.8 MeV) |
+| **A = R/M** | the **radius** — how wide it swings | **1.414201** ⟸ *this is Koide's entire content* |
+| **θ** | the **phase** — how it is rotated | 12.733° ⟸ *never assigned by anything* |
+
+√m_k = M(1 + A cos(θ + 2πk/3)) maps three parameters onto three masses — it **fits any three
+numbers**. M is free, θ is free, and **all of Koide is the single fact that A lands on √2.**
+
+**The three-source assignment, read as KNOBS rather than CORNERS (JP):**
+
+| object | turns | face |
+|---|---|---|
+| the **white hole** | **M** — the background it deposited | k_up |
+| the **dCDF** | **R** — the swing away from it | −k_down |
+| the **dyad** | **θ** — the rotation | ±k_neutral |
+
+**This clears T6's 2026-07-14 ruling, and the distinction is the whole point.** The ruling says
+family space is **Z₃, a label — not the condensate phase**; the Z4-torus floor died for seating the
+fields *in* the family's space. **On the knobs reading nothing sits on the ring:** the generations
+remain the generations, the three objects remain fields, and each merely **sets one number the ring
+is drawn with**. A label being "just a label" does not forbid something from fixing the parameters
+its ring is drawn with. **Sourcing is not inhabiting.**
+
+**And it lands the dyad on θ — the empty slot.** Q = 1/3 + ⟨a²⟩/3 uses only ⟨a²⟩ and is
+**structurally blind to θ**; the third moment ⟨a³⟩ = (A³/4)cos 3θ is where θ lives, and nothing in
+the corpus has ever assigned it. The third element arrives exactly where the corpus has a hole.
+
+### THE BLANK — the entire remaining debt, in one sentence
+
+> **A = R/M is a RATIO.** If the white hole deposits M and the dCDF deposits R **independently**,
+> then √2 is an accident of two unrelated numbers and means nothing. For A = √2 to be **forced**,
+> the two deposits must come out **related** — and the missing sentence is:
+>
+> **"When the pour's deposit and the dCDF's swing settle against each other, their ratio is fixed at
+> √2 because ______________."**
+>
+> Nothing else in this thread is owed. Not the Lagrangian, not a mechanism, not the Ginzburg number —
+> **that blank.** Every candidate that died this pass (the SOC attractor, the wide seam, the
+> positivity wall) was an attempt to fill it from *inside* the ring, where the answer cannot be: the
+> log potential derives shape and size and **never reaches a centre**.
+
+**On the 120°, stated carefully so it is not mistaken for evidence.** JP's reading: *"120° is the
+angle at which the dCDF, dyad and white hole have to be for a successful merge — each point of the
+triangle, flowing inward."* The dynamical half is real and is the right shape for the blank: **a
+merge that requires symmetry is a reason the knobs get set together rather than independently.**
+But the **120° itself is not a link**: it is 360/3. Three like objects under *any* repulsion settle
+at 120° by symmetry alone (verified here by free minimisation of the log potential, but the log
+coupling is not what produces it), and the ring's 120° is likewise just what "three, equally spaced"
+means. **Both 120°s are the same trivial arithmetic, and their agreement carries no information.**
+The claim that must do the work is the *merge condition*, not the angle.
+
 **Item 1 stays OPEN. What is owed is now named precisely:** not "a mechanism" and not "the
 Lagrangian" — **the background M**. Until the theory contains an object that sets the ring's centre,
 A = R/M has no derivable value, no Ginzburg *number* is computable (same missing object), and the
