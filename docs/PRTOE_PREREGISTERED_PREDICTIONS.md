@@ -2101,6 +2101,19 @@ sharpened meaning: **a light sterile neutrino or a fourth generation would resto
 quadratic divergence and make Newton's constant cutoff-dependent** — destroying the
 framework's finiteness, not merely its bookkeeping.
 
+**Scope correction (2026-07-16 — the balance is wider than this entry displayed it).** The count
+above is the **visible** sector's, and it does cancel exactly. But the finiteness sum runs over
+*"every field in the vacuum — not the model's coupling roster"*
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2), so **the dark sector belongs in it and
+was missing.** The full condition is **visible(0) + scalar(0 iff ξ_H = 1/6) + dark(0) = 0**, each
+cancelling separately. Requiring the dark sector to cancel on its own is what fixes its roster —
+str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 forces **dark SU(2) with three flavours** as the unique
+integer solution (**P-2026-048**). **This strengthens rather than weakens the present entry:** the
+knife-edge is met three times over, not once. Its two kills are unaffected — a light sterile or a
+fourth generation breaks the *visible* row regardless of what the dark sector does — but the entry
+should not be read as claiming the whole balance from the visible rows alone. P-048 carries the
+dark rows' own conditionality (candidate grade; one uncomputed lattice number; five kills).
+
 **Caveat (pending — the scalar sector):** the species count above (fermions +1 per Weyl, gauge
 bosons −4 each) carries no scalar row, yet in the unbroken phase the Higgs is four real scalars whose
 contribution to this heat-kernel coefficient is generically ∝ (1/6 − ξ_H). So the exact-zero balance —
@@ -2133,6 +2146,139 @@ bound even at post-freeze θ̇ (the model then predicts its own dead switch leak
 chain (the attractor session owns its derivation); the coefficient is the open decisive
 unknown; the primordial-background side is a CHANNEL claim, not an amplitude claim, until
 that computation lands.
+
+## P-2026-048: THE DARK COLOUR GROUP IS SU(2) — and T_c/√σ ≈ 0.345 for SU(2) with three light flavours (registered 2026-07-16)
+
+**The claim.** The dark confining sector is **SU(2) with exactly three light Dirac flavours in
+the fundamental** — and its finite-temperature ratio of chiral/deconfinement temperature to
+string tension is **T_c/√σ = 0.345 ± 0.02**.
+
+**Why the model has no choice.** Induced gravity's finiteness sum runs over *"every field in the
+vacuum"* ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2), so the dark sector must
+satisfy it too. The Standard Model plus three ν_R already cancels (48 − 48 = 0, P-2026-045), and
+the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must self-cancel**:
+
+  **str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 ⟹ N_f = 2(N_c² − 1)/N_c**
+
+| N_c | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|
+| N_f | **3 — integer** | 5.33 | 7.5 | 9.6 | 11.67 |
+
+**N_c = 2 is the only colour group admitting an integer flavour count, and it gives exactly
+three** (quarks +12, gluons −12). The value 0.345 is not fitted here: it is **τ = T_c/m_e**, fixed
+by the observed dark-energy density through ρ_Λ¼ = (9/2)α⁴·τ·m_e — the flagship's 1.5% prediction
+read backwards. **The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in
+T_c/√σ is a 10% error in the dark-energy scale.
+
+**Kills (any one is fatal to the dark-sector roster as it now stands):**
+1. **A lattice determination of T_c/√σ for SU(2), N_f = 3 landing outside 0.345 ± 0.02.** The
+   sector is simulable — SU(2) with light fundamental fermions is standard composite-Higgs /
+   technicolor lattice territory. This is the model's first prediction addressed to a *computation*
+   rather than a telescope.
+2. **A dark colour group other than SU(2)** established by any route (no other N_c admits an
+   integer flavour count under the finiteness balance).
+3. **A dark flavour count other than three.**
+4. **Dark quarks in the adjoint, or Weyl/Majorana rather than Dirac** — the counting assumes Dirac
+   fundamentals, and other content changes N_f = 2(N_c² − 1)/N_c.
+
+**What makes this more than a counting coincidence — three independent structural matches.**
+SU(2)'s fundamental representation is pseudo-real, so colour singlets need an **even** number of
+quarks and **its baryons are bosons — diquarks** [KSTVZ2000; Hands2006]. That single fact supplies
+three things the model required *before* this counting existed:
+(i) the **BEC side** of the BCS–BEC crossover, which the occupancy argument
+([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4) holds *only* on and is
+"verified to fail" off — two-color QCD being the canonical diquark-BEC realization of that very
+crossover; (ii) **ℓ = 0**, since the lightest SU(2) baryon is the *scalar* diquark, and the DE
+value independently selects s-wave (+1.5%) over p-wave (−74.6%) and f-wave (−93.7%) (§4c);
+(iii) **the absence of a fermionic hard core** — two-color QCD has no hard-core baryons, which is
+exactly why ℓ = 0 is unsuppressed, the mechanism §4c invokes.
+
+**Honest flags.** (a) **Provenance:** N_c = 2 was *derived* from the finiteness balance, but the
+three structural matches were **discovered afterward**, not predicted — they earn no forward credit
+and are recorded as consilience, not evidence. (b) **The value's status:** 0.345 is inherited from
+the observed ρ_Λ, so this entry converts the dark-energy agreement into a *lattice* obligation; it
+is a genuine forward prediction about an uncomputed number, but it is not an independent one.
+(c) **Unlocated, not confirmed:** no published T_c/√σ for SU(2) with N_f = 3 was found — the
+two-color literature is dominated by N_f = 2 at finite *density*. Pure-glue anchors are firm
+(SU(3): 0.63; SU(2): 0.69–0.71). Naively transporting SU(3)'s glue→N_f=3 reduction (0.548) onto
+SU(2) gives τ ≈ 0.38–0.39 (**+10 to +13% — a fail**); the required reduction is 51% against
+SU(3)'s 45%, and SU(2) with N_f = 3 carries N_f/N_c = 1.5 against SU(3)'s 1.0, so a stronger
+reduction is expected on physics. **The estimate is adverse-to-neutral and the prediction is
+registered anyway, at its stated width, before the number is known.**
+
+**(d) ΔN_eff RE-PRICED AT N_c = 2 — adverse, and it adds a fifth kill (`scripts/dark_neff_su2.py`,
+2026-07-16).** The old footprint (ΔN_eff ≈ 0.05–0.3) came from a *generic scan* over g_dark = 2, 4,
+8, because the roster was unknown. It is known now, and the count is not in that range. **SU(2)'s
+pseudo-reality enlarges the chiral symmetry to SU(6) → Sp(6), giving 2N_f² − N_f − 1 = 14
+Goldstones — not the N_f² − 1 = 8 an SU(3) sector would give.** The same structural fact that
+supplies this entry's consilience inflates the light multiplet by **1.75×**:
+
+| decoupling | (T_d/T_ν)⁴ | ΔN_eff, g = 8 (SU(3)) | ΔN_eff, g = 14 (SU(2)) |
+|---|---|---|---|
+| T_dec > 200 GeV (all SM active) | 0.047 | 0.214 | **0.375** |
+| T_dec ~ 1 GeV (above QCD) | 0.097 | 0.444 | **0.778** |
+
+**Even at the earliest possible decoupling ΔN_eff = 0.375 against Planck's ≲ 0.3 (2σ)**, and the
+largest g_dark Planck admits at *any* T_dec is 11.2 — below the 14 SU(2) requires.
+
+**The ramp audit made it worse (snag protocol 5a).** An earlier pricing used g = 14 — the
+*confined* Goldstone count — at BBN. That is a **phase error**: n/p freeze-out is at T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 —
+the dark sector is DECONFINED at freeze-out and the Goldstones do not exist yet.** The correct
+count there is dark quarks + gluons = **27** (6 gluon + 21 quark dof), giving **ΔN_eff = 0.723**.
+**And the Boltzmann ramp supplies no relief, because τ is spending exactly the lightness that would
+have supplied it** — heavy dark quarks drive T_c/√σ back toward the pure-glue 0.69–0.71 and break
+this entry's own central claim, while a 100 keV quark at 700 keV is suppressed by only
+ρ/ρ₀ = 0.997. At ΔY_p/ΔN_eff ≈ 0.013 that is ΔY_p ≈ 0.0094 ≈ **+2.3σ**, sign wrong (more dof →
+faster expansion → earlier freeze-out → more neutrons → **higher** Y_p), on top of the model's
+already **+1.3σ adverse Y_p scar → ≈ +3.6σ.**
+
+**5. Therefore a fifth kill: the dark sector must have NEVER THERMALISED with the Standard Model.**
+Thermalised, this entry's own roster drives the model's weakest row to ~3.6σ adverse. Non-
+thermalised, ΔN_eff → 0 and the roster survives — but the portal coupling now carries a hard upper
+bound it did not have before, and **CMB-S4 (±0.03) tests it either way**. This constraint did not
+exist before the colour group was fixed; the old scan could not see it, in either phase.
+
+**(e) The first-order transition, checked — and it is not this entry's problem, it is the dark
+sector's (2026-07-16).** SU(2) with N_f ≥ 2 is reported first-order, but so is **N_f = 3 degenerate
+light quarks at any N_c** (the Columbia-plot corner; SU(3) included). **P-048 did not create this —
+naming the group made it visible.** It collides with three things at once:
+(i) **the model's own code** — the BBN engine's standing treatment is ε *"GROWING below T_c (the
+order-parameter birth **ramp**)"* ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md)); a first-order
+transition **jumps** the order parameter, it does not grow it;
+(ii) **the depth law (amendment 5, TOTAL)** — steps are illegal as inputs, assumptions,
+computational entries *and methods*, legal only as an exemption-clause output (quantized /
+topological / protected-zero) **with its ramp of approach shown**. A dynamical discontinuity has no
+exemption;
+(iii) **the model's own named failure mode** — [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)
+§5: *"conditional on the settling attractor being self-organized-critical (**otherwise the
+transition boils, first-order**)"*. Different sector, same grammar: the model already treats
+first-order as the way this goes wrong.
+
+**THE SQUEEZE, RUN (2026-07-16) — the window is NOT empty, and it pins m_q.** The concern was that
+m_q is asked to be **light** by τ = 0.345 and **heavy** by both the crossover requirement and
+ΔN_eff. Resolved on the first pair, and the framing that raised it was wrong: *"N_f = 3 light quarks
+→ first order"* is the **chiral-limit** statement, and this sector is not in the chiral limit —
+"light dark quarks" means light *relative to Λ*, not massless. Placing τ against the QCD anchors it
+is quoted from (chiral limit T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at m_π/√σ = 0.318;
+pure glue 0.63):
+
+| quantity | value |
+|---|---|
+| τ = 0.345 sits at | **m_π/√σ ≈ 0.274** (fraction 0.86 from chiral toward physical) |
+| Columbia N_f = 3 first-order corner ends at | m_π/√σ ≈ **0.06–0.16** |
+| margin | **above it by 1.7–4.6×** |
+
+**The transition is a CROSSOVER, not first-order — τ and the depth law are compatible, and the
+coded order-parameter birth ramp is correct after all.** The value τ = 0.345 *is* the
+physical-analog point, and physical QCD is a crossover; the first-order corner is a chiral-limit
+feature this sector does not sit in. **What the squeeze buys instead of a kill: it pins a number the
+model never had** — **m_π,dark ≈ 140 keV** and, via GMOR, **m_q,dark ≈ 38 keV**.
+
+**ΔN_eff is not rescued by it, and the fifth kill stands unchanged.** At n/p freeze-out the sector
+is deconfined, so the relevant states are the *quarks*, and m_q/T = 38/700 = 0.055 — unsuppressed.
+Non-thermalisation, not mass, is what carries that constraint. **Net: two of the three are
+compatible at m_π,dark ≈ 140 keV; the third is already a registered kill.** The uncomputed lattice
+number (kill 1) remains the entry's decisive test.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*

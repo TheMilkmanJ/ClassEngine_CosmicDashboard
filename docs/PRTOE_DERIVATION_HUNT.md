@@ -64,17 +64,60 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
 ## 3. The dark sector
 
 The confining sector that binds the dark energy is a **3-flavour, lepton-partnered confining vacuum at the
-electron scale** (√σ_dark ≈ m_e). Its chiral condensate is the dyad (the electron-mass shifter); its three
-flavours supply the "3" in α_c = 3α. It sets the dark-energy binding scale only — the dark matter remains
-the medium's own ultralight excitations.
+electron scale** (√σ_dark ≈ m_e). Its chiral condensate is the dyad (the electron-mass shifter). It sets
+the dark-energy binding scale only — the dark matter remains the medium's own ultralight excitations.
+
+> **The flavour count's receipt was withdrawn and replaced (2026-07-16).** This section previously
+> read *"its three flavours supply the '3' in α_c = 3α"* — **retired**: that 3 is the spatial
+> dimension d (§1, MATH_SPINE §0), so it never supported the flavour count. τ requires only
+> N_f ≥ 2 (§2), so the count stood unsupported. The candidate replacement is **Pauli finiteness
+> applied to this sector**, which forces **dark SU(2) with N_f = 3** as the unique integer solution
+> of str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 — see the flag in §6, **including its live risk**
+> (τ's 0.34–0.37 band is an SU(3) value, and τ scales ρ_Λ¼ linearly). **Until that is settled the
+> flavour count is a candidate, not a derivation**, and the colour group N_c — never named anywhere
+> in this corpus — is an open slot this argument would fill.
 
 - **Cosmology (safe):** the ~MeV dark baryons cannot overclose. To be the dark matter they would need a
   dark asymmetry ~1700× the visible one; at any natural asymmetry they are ≤10⁻³ of it, and symmetric
   relics annihilate away (strong coupling).
-- **Footprint (falsifiable):** the light dark states give **ΔN_eff ≈ 0.05–0.3** if the sector thermalised.
-  Planck (N_eff = 2.99 ± 0.17) already excludes the late-decoupling / many-dof corners, so the portal must
-  freeze out above the QCD scale (T_dec ≳ 1 GeV). CMB-S4 (±0.03) tests the survivor.
-  (`scripts/tau_deconfinement.py`, `scripts/dark_neff.py`.)
+- **Footprint (falsifiable) — RE-PRICED at N_c = 2 (2026-07-16), and the answer changed sign.** The old
+  figure (**ΔN_eff ≈ 0.05–0.3**) came from a *generic scan* over g_dark = 2, 4, 8, taken because the colour
+  group was unknown. With the group fixed to SU(2) (§6), the count is determined — and **pseudo-reality
+  enlarges the chiral symmetry to SU(6) → Sp(6), giving 2N_f² − N_f − 1 = 14 Goldstones**, not the
+  N_f² − 1 = 8 an SU(3) sector gives. That is **1.75× the old scan's ceiling**, and it puts
+  **ΔN_eff = 0.375 even at the earliest possible decoupling** — above Planck's ΔN_eff ≲ 0.3 (2σ), at *any*
+  T_dec (the largest g_dark Planck admits is 11.2). **The sector cannot escape by making the Goldstones
+  heavy:** a pseudo-Goldstone is lighter than its confinement scale (√σ_dark = m_e = 511 keV) by
+  construction, and **τ is spending exactly that lightness** — heavy dark quarks push T_c/√σ back toward
+  the pure-glue 0.69–0.71 and break §2's value. **The ramp audit made it worse:** n/p freeze-out is at
+  T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 — the dark sector is DECONFINED at freeze-out** and the
+  Goldstones do not exist yet; the correct count there is dark quarks + gluons = **27**, giving
+  **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's already **+1.3σ adverse Y_p scar → ≈ +3.6σ**. **Consequence: the dark sector must have
+  NEVER THERMALISED with the SM** (then ΔN_eff → 0 and the roster survives, at the price of a hard upper
+  bound on the portal coupling). Registered as the fifth kill of **P-2026-048**. CMB-S4 (±0.03) tests it
+  either way. (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
+- **THE m_q SQUEEZE — three constraints, one variable, and τ pulls against the other two (2026-07-16).**
+  The dark quark mass is asked to be **light** by τ = 0.345 (§2 — heavy quarks drive T_c/√σ back toward the
+  pure-glue 0.69–0.71), and **heavy** by two independent others: (i) **ΔN_eff/Y_p**, which needs Boltzmann
+  suppression and gets none while τ keeps the quarks light; and (ii) **the depth law + the coded BBN ramp**,
+  because **N_f = 3 degenerate light quarks give a FIRST-ORDER transition at any N_c** (the Columbia-plot
+  corner — SU(3) included, so this predates and is independent of §6's SU(2)), whereas the BBN engine's
+  standing treatment is ε *"GROWING below T_c — the order-parameter birth **ramp**"*
+  ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md)), and a first-order transition **jumps** the order
+  parameter rather than growing it. Amendment 5 (the depth law, TOTAL) makes that step illegal outright: a
+  dynamical discontinuity is not quantized, not topological, not a protected zero, so it has **no exemption
+  clause**. [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 already names this failure mode —
+  *"otherwise the transition boils, first-order"* — for a different sector, in the same grammar.
+  **RUN (2026-07-16) — the window is NOT empty, and it pins m_q.** The framing that raised the alarm was
+  wrong: *"N_f = 3 light quarks → first order"* is the **chiral-limit** statement, and this sector is not in
+  the chiral limit ("light" means light *relative to Λ*, not massless). Against the QCD anchors τ is quoted
+  from (chiral T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at 0.318), **τ = 0.345 sits at
+  m_π/√σ ≈ 0.274**, while the Columbia first-order corner ends at **0.06–0.16** — the sector is **above it
+  by 1.7–4.6×**. **The transition is a CROSSOVER**, so τ and the depth law are compatible and the coded
+  order-parameter birth ramp is correct. What the squeeze buys instead of a kill is a number the model never
+  had: **m_π,dark ≈ 140 keV**, and via GMOR **m_q,dark ≈ 38 keV**. ΔN_eff is *not* rescued by it — at
+  freeze-out the sector is deconfined and m_q/T = 0.055 is unsuppressed — so P-048's non-thermalisation kill
+  carries that constraint, not the mass. **Two of three compatible; the third is a registered kill.**
 
 ---
 
@@ -118,8 +161,77 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 
 ## 6. The basement roster
 
+> **ADJUDICATED 2026-07-16: the "3" in α_c = 3α is the SPATIAL DIMENSION d, not the flavour
+> count.** §1 and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 hold (*"α_c = 3α = d·α"*, the
+> transverse-projector trace of the induced loop). **§3's claim that "its three flavours supply the
+> '3' in α_c = 3α" is therefore retired** — a false receipt. This was the third instance of one
+> attribution pattern (chirality double-sourced from the winding n *and* p-wave L; the generation
+> count from str[k₁] = 0 *and* Weyl nodes; the "3" from d *and* flavours) — and in every case the
+> redundant claimant lost.
+>
+> **What that leaves, and the candidate that replaces it.** With the α_c receipt withdrawn, nothing
+> held the dark flavour count at 3: τ requires only N_f ≥ 2 (§2), and the corpus never names the
+> dark colour group N_c at all. But [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2 states
+> the finiteness sum runs over **"every field in the vacuum — not the model's coupling roster"** —
+> and **the §5 table counts only the Standard Model's 48 Weyl fermions and 12 gauge bosons. The dark
+> sector is missing from the model's own sum.** That is a defect regardless of what follows.
+> Supplying it, and requiring the dark sector to self-cancel (the SM part already does, and the
+> Higgs contributes zero at ξ_H = 1/6):
+>
+> **str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 ⟹ N_f = 2(N_c² − 1)/N_c**
+>
+> | N_c | 2 | 3 | 4 | 5 | 6 |
+> |---|---|---|---|---|---|
+> | N_f | **3 — integer** | 5.33 | 7.5 | 9.6 | 11.67 |
+>
+> **N_c = 2 is the unique colour group admitting an integer flavour count, and it gives N_f = 3
+> exactly** (quarks +12, gluons −12). The same condition that forces three generations would force
+> **dark SU(2) with three flavours** — a real receipt where the α_c one was false.
+>
+> **The consilience (2026-07-16) — SU(2) independently delivers three things the model already
+> required, for reasons that have nothing to do with this counting.** Two-color QCD's fundamental
+> representation is **pseudo-real**, so a colour singlet needs an **even** number of quarks:
+> **its baryons are bosons — diquarks** [Kogut–Stephanov–Toublan; Hands et al.].
+> 1. **The BEC side, which §4 demands.** The occupancy argument's owned assumption is that it holds
+>    *"on the strong-coupling (BEC) side of the BCS–BEC crossover… verified to fail on the weak side."*
+>    Two-color QCD is the **canonical diquark-BEC system** and the textbook realization of the
+>    **BEC–BCS crossover**. §4 already wrote the punchline — *"the two sides of condensed matter's
+>    most famous crossover perform the two famous jobs in one vacuum"* — without naming the group
+>    that provides the crossover.
+> 2. **ℓ = 0, which the DE value selects.** The lightest SU(2) baryon is the **scalar diquark** —
+>    s-wave. That is the channel [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)
+>    §4c's table selects at +1.5% and excludes at −74.6% (p-wave) and −93.7% (f-wave).
+> 3. **"He-3-A missing its baryonic matter" — as group theory, not analogy.** He-3 pairs p-wave
+>    because its baryonic hard core suppresses ℓ = 0. In two-color QCD there **are no fermionic
+>    hard-core baryons**: the baryons are bosonic diquarks. The core that forces helium up to L = 1
+>    does not exist, so s-wave is unsuppressed — which is precisely the mechanism §4c invokes and
+>    precisely what the ℓ = 0 selection needs.
+>
+> **REGISTERED as P-2026-048 (2026-07-16)** — the dark colour group is SU(2), N_f = 3, and
+> **T_c/√σ = 0.345 ± 0.02** for SU(2) with three light flavours; see
+> [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md). The model's first
+> prediction addressed to a *lattice computation* rather than a telescope.
+>
+> **CANDIDATE, not banked — one number decides it, and it is not yet computed.** *The τ collision:*
+> τ ≈ 0.345 comes from the band T_c/√σ ≈ 0.34–0.37 of a **QCD-like (SU(3))** sector, with SU(3) pure
+> glue at 0.63 excluded — and τ scales ρ_Λ¼ **linearly**, so the flagship's 1.5% rides on it.
+> Lattice anchors are firm for pure glue (**SU(3): 0.63; SU(2): 0.69–0.71**, ~11% higher), but
+> **no published T_c/√σ for SU(2) with N_f = 3 light flavours was located** — the two-color
+> literature is dominated by N_f = 2 at finite *density*. Scaling SU(3)'s glue→N_f=3 reduction
+> (0.548) onto SU(2) naively gives **τ ≈ 0.38–0.39 → ρ_Λ¼ ≈ 2.46–2.54 meV (+10 to +13%)**, which
+> would break the flagship. But the required reduction is only modestly larger — **51% for SU(2)
+> versus SU(3)'s 45%** — and it points the right way on physics: SU(2) with N_f = 3 carries
+> **N_f/N_c = 1.5 against SU(3)'s 1.0**, so quarks are half again as influential per colour and a
+> *stronger* reduction is expected. **Plausible, unsettled, and decidable by one lattice number.**
+> *Assumptions, named:* dark quarks Dirac and in the fundamental — adjoint or Weyl/Majorana content
+> changes the counting. *Also owed:* the ΔN_eff footprint (§3) is priced for the existing roster and
+> would need re-pricing at N_c = 2; and the SU(2) N_f ≥ 2 chiral transition is reported **first
+> order**, which should be checked against the settling-attractor requirement in
+> [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 (different transition, but worth the check).
+
 The medium's microscopic content is the **paired lepton-sector vacuum** — leptophilic by identity, with
-three flavours (α_c = 3α), neutrinos interior (c = 9/10), and a lepton-number-breaking Goldstone (the
+three flavours (see the flag above — the α_c receipt is retired; the finiteness candidate is live), neutrinos interior (c = 9/10), and a
+lepton-number-breaking Goldstone (the
 Majoron tie). This is plausibly the same object as the §3 dark confining sector: one 3-flavour,
 lepton-partnered, electron-scale confining vacuum. It supplies the roster the §5 str[k₁] balance runs
 over. **Status: hypothesis** — coherent and unifying, but the electron-scale portal (§2) is its one

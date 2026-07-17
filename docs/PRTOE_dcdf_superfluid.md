@@ -23,6 +23,54 @@ fluid, two eras**.
 
 ## 2. Its structure: a chiral, parity-odd (p-wave) condensate [CANDIDATE — the He-3-A analogy]
 
+> **⚠ REVISED 2026-07-16 — this section's *chirality attribution* is retired; the chirality
+> itself is untouched. Read this before using §2.**
+>
+> **What forced the revision.** The dark-energy value independently **selects ℓ = 0** for the
+> medium's binding channel: E_b is a Coulombic two-body level (E_n = ½α_c²M₂/n², partial wave ℓ
+> requiring n ≥ ℓ+1), and only the s-wave ground state lands the flagship — 1s = 2.284 meV
+> (**+1.5%** vs the observed 2.25), against the p-wave 2p at 0.571 meV (**−74.6%**) and the f-wave
+> 4f this section wants for L = 3 at 0.143 meV (**−93.7%**).
+> ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4c.)
+>
+> **The mechanism (2026-07-16) — the medium is He-3-A *missing its baryonic matter*.** He-3
+> pairs p-wave *because* its baryonic hard core suppresses ℓ = 0 — chiral superfluidity is not
+> intrinsically p-wave; **helium is just made of baryons**. Strip the baryonic matter and the hard
+> core goes with it, leaving s-wave unsuppressed. That is precisely the ℓ = 0 the data selects, and
+> it explains *why*. It also removes what was forcing pairing up to high L: **nothing here drives
+> L = 3**, and Z₃ is a family symmetry, not a spatial angular momentum.
+>
+> **Why the chirality survives anyway — it was never sourced here.** Every claim that *spends* the
+> medium's chirality sources it from the **genesis winding integer n** (the helical roll-up of the
+> pour — the model's one realized white hole,
+> [PRTOE_white_holes.md](PRTOE_white_holes.md), [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §1),
+> **not** from the pairing channel: the magnetic helicity is *"SIGNED BY THE GENOME —
+> sign(helicity_B) = sign(n)"* ([PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md), P-2026-028); the
+> LSS-parity chirality is *"the winding n (a signed integer), the genesis helicity, the vortex
+> network"* ([PRTOE_lss_parity.md](PRTOE_lss_parity.md)); baryogenesis is *"the winding integer
+> times ONE transmission number"* ([PRTOE_baryogenesis.md](PRTOE_baryogenesis.md)); the GW channel
+> carries *"a genome signature"* ([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)).
+> **The three-membered chirality family — matter / magnetism / metric — is one integer n**, a
+> genesis/topological property, independent of the pairing channel.
+>
+> **The generation count survives too — it was never sourced here either.** The count is forced by
+> **Pauli finiteness**, not by node topology: str[k₁] = 0 requires the Weyl-component sum to cancel
+> the twelve gauge bosons' −48, and each generation (with its ν_R) carries +16, so
+> **str[k₁] = 16·N_gen − 48 = 0 ⟹ N_gen = 3**, uniquely (N = 1 → −32, N = 2 → −16, N = 4 → +16).
+> That is pure heat-kernel species counting — **no pairing channel, no angular momentum, no
+> nodes** — and it is already registered as **P-2026-045** (three right-handed neutrinos, three
+> generations, no light steriles). See [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2–5.3
+> and [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §5, which states it plainly: *"the number
+> of generations is three, forced by the finiteness condition."* It carries its own named
+> conditionality (ξ_H = 1/6, the conformal Higgs) — but nothing the ℓ = 0 selection can reach.
+>
+> **So this section's entire Weyl/L apparatus is retired as redundant.** It offered a *second*
+> source for two things that already have stronger, independent homes: the chirality (the winding
+> integer n) and the generation count (str[k₁] = 0). Neither downstream claim ever drew on it, the
+> f-wave order-parameter build it demanded was never done, and the ℓ = 0 selection excludes it.
+> **Nothing is lost by retiring it, and one contradiction is removed.** The bullets below are kept
+> for provenance; read them as a retired attribution, not as live structure.
+
 Structurally a **p-wave (L=1), parity-odd** superfluid — the **He-3-A class** (Volovik's
 chiral-vacuum analog). It is **NOT literal helium**: literal He-3-as-medium is **[KILLED]** (four
 independent shots — baryon budget 5× short, EM-visible, no pairing at cosmic density/temperature,
