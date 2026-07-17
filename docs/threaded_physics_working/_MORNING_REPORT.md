@@ -14,16 +14,37 @@ will be wrong too.** Every finding below carries a VERDICT from independent re-d
 - **REJECTED** — red team was wrong; NOT fixed; reason recorded.
 - **PARTIAL** — the defect is real, the proposed correction was not.
 
-## STATUS
+## ⚠⚠ THE #1 FINDING OF THE WHOLE AUDIT — the flagship's "+1.5%" is a rounding artifact
 
-| batch | tier | files | state |
-|---|---|---|---|
-| A | 0 — leaves the repo | README (70-406), PREREGISTERED_PREDICTIONS (2325 ln), REFEREE_CALENDAR | **DONE — 12 findings, 6 verified+fixed, 3 escalated to you, 3 minor** |
-| B | 1 — the spine | MATH_SPINE, THREE_EQUATIONS, DEPENDENCY_TREE, READERS_GUIDE, INDEX, the_great_chain, INTERACTION_ATLAS | RUNNING |
-| C | 2 — computational | bbn_witness, cosmological_constant, neutrino_sector, fingerprint_lattice, CODE_MANIFEST, THE_AMPLITUDE, THE_CHAIN | **DONE — 8 findings, 6 verified+fixed, 2 escalated** |
-| D | 3 — domains (~40) | queued | pending |
-| E | 4 — working files (21) | queued | pending |
-| F | 5 — code + configs | queued (varconst path done) | pending |
+**`scripts/tau_deconfinement.py` has one computed line: `tau_needed = 2.25/((9/2)α⁴m_e) = 0.34506`
+— the observed dark-energy density inverted.** It never computes 0.35 and never computes 179.
+Then: 0.34506 → rounds to 0.35 → ×m_e = 178.85 keV → adopted as **"T_c = 179 keV, the
+non-perturbative confining chiral value."** The three "+1.5%"s in the corpus are **one number**:
+179/176.32 = 0.35029/0.34506 = ρ_Λ¼(179)/2.25 = **+1.52%**. **The model's headline agreement with
+the observed dark-energy density is the gap from rounding that density to two decimals.** T_c has
+**no independent source** (τ·m_e is circular; the perturbative route is log-ambiguous 40–900 keV
+and gives 193; the lattice band is SU(3) while the sector is SU(2)). **What survives:** the
+*structure* ρ_Λ¼ = (9/2)α⁴τ·m_e is real and becomes predictive once a lattice T_c/√σ for SU(2),
+N_f = 3 is computed — exactly what P-2026-048 bets on. Grade block now on the top of
+cosmological_constant / MATH_SPINE / THREE_EQUATIONS. **Found by red team pass 3; I had
+under-graded it as ±4.2%.**
+
+## STATUS — all named batches reported; 4 red-team passes run
+
+| pass | scope | outcome |
+|---|---|---|
+| Tier 0 (A) | README, PREREGISTERED, REFEREE_CALENDAR | 12 findings — exponent-sign D/H, +13→+16, +1.3σ, odds, duplicate P-010 |
+| Tier 1 (B) | the spine (7 files) | audited the AUDITOR: found it whitelisted 2.251 and couldn't read LaTeX |
+| Tier 2 (C) | computational (7 files) | 8 findings — c=0.92 dressed as measurement, η-flow, ramp band |
+| Tier 3A/3B | fit-numbers + identity (15 files) | **τ = 0.345 = observation inverted, found by BOTH agents independently** |
+| Pass 3 (re-run) | fixed files + auditor | **flagship = rounding**; I had claimed 10 fixes I didn't make (proc err 41) |
+| Pass 4 | fix-verify + coherence + FRESH domain (baryogenesis/igmf/lss/gw/sss) | **RUNNING** |
+
+**Auditor (`scripts/value_audit.py`) was wrong FIVE times** — whitelisted 2.251; LaTeX-blind; two
+patches cancelled (delatex ate the ρ_Λ anchor); exponent-blind (the fix was dead code); ARCHIVE
+list caught a live file. All repaired and **tested on planted defects**. Its hard limit, named by
+red team: **it validates values, never coherence** — two lines contradicting each other are
+invisible by construction. Only red team (and a manual coherence sweep) catches those.
 
 ## ⚠ THE HEADLINE — found overnight, tier 5 (the C source). READ THIS FIRST.
 
