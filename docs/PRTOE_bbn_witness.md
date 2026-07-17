@@ -11,28 +11,40 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
 - the ramp: ε(T) = ε·(1 − T/T_c), T_c ≈ 179 keV (the confining chiral value; 193 keV is the perturbative μ=T fixed-point cross-check)
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
  (~70 keV): ε_eff = 0.61ε; Li (~40 keV): 0.78ε
-- the abundances (`scripts/prym_ramped_splice.py`, the model's own ramped ε(T) at T_c = 179 keV,
- ε = 1.24%):
+- the abundances. **Two runs, two baselines — they are not interchangeable, and D/H must never be
+ read across them** (D/H ∝ ω_b^−1.6 is the most ω_b-sensitive abundance in the network).
+
+ **(i) The window's EFFECT, measured on PRyM's default ω_b** (`scripts/prym_ramped_splice.py`, the
+ model's own ramped ε(T) at T_c = 179 keV, ε = 1.24%). This run is what licenses the *relative*
+ numbers; **its absolute D/H is not the model's prediction**, because its baseline is not the
+ model's ω_b:
 
  | | Y_p (BBN) | D/H ×10⁵ | Li7/H ×10¹⁰ |
  |---|---|---|---|
  | baseline (ε = 0) | 0.246891 | 2.454498 | 5.438668 |
- | **the dyad's window** | **0.248995** | **2.470340** | **5.452964** |
+ | the dyad's window | 0.248995 | 2.470340 | 5.452964 |
+ | **the window's effect** | **+0.852%** | **+0.645%** | **+0.263%** |
 
- **Pulls, zero fitted parameters:** Y_p **+1.09σ** vs Aver 0.2453 ± 0.0034 (**+3.5σ** vs EMPRESS
- 0.2370 ± 0.0034 — the helium civil war, unresolved); D/H **−1.89σ** vs Cooke 2.527 ± 0.030 before
- the η-flow. **Joint χ² = 4.75 on 2 dof ⟹ p = 0.093** — *not comfortable, not rejected.*
+ **(ii) The model's PREDICTION, on the model's own ω_b** (production PRyM; the m_e–ω_b CMB
+ degeneracy pulls ω_b up +1.1% against the in-house ΛCDM control on identical data). The η-flow is
+ spent *here*, once:
+
+ > in-house ΛCDM control **2.420** → *(ω_b +1.1%)* → pre-window **2.372** → *(the ramped window,
+ > +0.645%)* → **D/H = 2.387×10⁵** — the standing prediction.
+
+ against quasar-optical **2.527 ± 0.030** (Cooke) and own-ΛCDM **2.420**. The dyad sits on the LOW
+ side of the fork — a self-adverse, owned bet; **P-2026-027's radio referee decides it.**
+
+- **Y_p stands at +1.09σ** vs Aver 0.2453 ± 0.0034 (**+3.5σ** vs EMPRESS 0.2370 ± 0.0034 — the
+ helium civil war, unresolved), zero fitted parameters. This row **is** baseline-robust: Y_p ∝
+ ω_b^0.04, so the model's own ω_b moves it only to +1.12σ.
+- **D/H carries a central value and NO σ.** Against the observational error alone (±0.030) the
+ standing 2.387 sits **−4.7σ** from Cooke — an upper bound on the tension, not a claim. The D/H
+ error budget (observational versus the BBN theory error, chiefly the d(p,γ)³He rate) **is not
+ stated anywhere in the corpus**, and the significance is not reproducible without it. **No joint
+ Y_p–D/H statistic can be quoted while one leg has no width.**
 - the elasticities: d(Y_p)/dε = 0.00163 per %ε; d(D/H×10⁵)/dε = 0.00782 per %ε. N_eff is unmoved
  (3.04439) — ε shifts weak rates, not relativistic dof.
-- **the η-flow:** the CMB's re-inferred ω_b (+1.1%; D/H ∝ ω_b^−1.6) drives D/H down a further
- **−1.6%**, giving the model's standing prediction **D/H = 2.387×10⁵** against quasar-optical
- **2.527 ± 0.030** (Cooke) and own-ΛCDM **2.420**. The dyad sits on the LOW side of the fork — a
- self-adverse, owned bet; **P-2026-027's radio referee decides it.**
-- **the fork's width is OWED.** Against the observational error alone (±0.030) the model sits
- **−4.7σ** from Cooke — an upper bound, not a claim. The D/H error budget (observational versus the
- BBN theory error, chiefly the d(p,γ)³He rate) **is not stated anywhere in the corpus**, and the
- significance is not reproducible without it. **Until the budget is stated, this row carries a
- central value and no σ.**
 
 ## How PRTOE connects
 

@@ -541,3 +541,47 @@ debt. **A d = 3 identity, not a derivation.**
 **The fence.** Do not re-raise the Komar factor as support for A² = 2. Two functions of w agreeing
 at one w is not corroboration — it is one fact counted twice. The Koide debt is unchanged.
 
+### The BBN witness's D/H chain — THE η-FLOW WAS SPENT TWICE, AND THE SHELF INHERITED A WITHDRAWN σ (2026-07-17)
+
+**What was wrong.** [PRTOE_bbn_witness.md](PRTOE_bbn_witness.md) presented **one** D/H chain built
+out of **two different PRyM runs on two different baryon densities**, bridged by an η-flow that
+cannot perform the bridge:
+
+| | the file's claim | what its own numbers give |
+|---|---|---|
+| stated chain | ramped 2.470340 −(η-flow, "−1.6%")→ **2.387** | 2.470340 × (1.011)^−1.6 = **2.4275** |
+| the gap | — | **−1.67%: the chain does not close** |
+
+**The real provenance.** 2.387 never came from that table. It is the registry's (P-2026-027)
+chain, on the **model's own ω_b**: in-house ΛCDM control **2.420** → *(ω_b +1.1%)* → pre-window
+**2.372** → *(ramped window, +0.645%)* → **2.387** — which closes to 0.25%. **The η-flow is what
+makes 2.420 → 2.372.** The witness file spent it a *second* time, against an unrelated run whose
+baseline is PRyM's default (2.454498), not the model's. The two runs agree exactly where they
+should — the window's effect is **+0.645%** in both — and the file mistook that agreement for
+licence to mix their absolutes.
+
+**The inherited damage: a σ the corpus had already withdrawn.** The table's D/H pull, **−1.89σ**, is
+2.470340 vs Cooke — i.e. an *absolute* D/H on PRyM's **default** ω_b, exactly the claim retired as
+**process error 38** (D/H ∝ ω_b^−1.6 is the most ω_b-sensitive abundance in the network; only its
+relative effects survived). That number then propagated to the reader-facing shelf as **"the ~1.9σ
+owned bet"** — in the referee calendar, the fingerprint lattice (twice), and the bibliography — while
+the registry, correctly, said the width was owed and no σ could be quoted. **Two live docs stated
+different bets for the same row.**
+
+**And the joint statistic fell with it.** The file's headline **"joint χ² = 4.75 on 2 dof ⟹ p =
+0.093 — not comfortable, not rejected"** reproduces exactly as 1.09² + 1.89² = 4.75: its D/H leg
+*is* the withdrawn-baseline σ. **A joint χ² cannot be quoted from a σ the corpus says it cannot
+quote.** Removed.
+
+**What survives, and it is most of it.** The window's *relative* effects (Y_p +0.852%, D/H +0.645%,
+Li7 +0.263%), the elasticities, the unmoved N_eff, the standing prediction **2.387**, and the
+lithium null. **Y_p's +1.09σ also survives and is genuinely baseline-robust** — Y_p ∝ ω_b^0.04, so
+the model's own ω_b moves it only to +1.12σ. The BBN column stays **net adverse**.
+
+**The lesson (process).** The two runs' *relative* agreement (+0.645% in both) is what made the mix
+invisible: the physics that was shared was correct, so the seam looked like continuity. **Two runs
+agreeing on a ratio is not permission to chain their absolutes.** The withdrawal (process error 38)
+was booked correctly and *still* leaked — because it was booked against the number, not against
+every doc that had already quoted it. **A withdrawal has to be chased across the shelf, not filed
+where it happened.**
+
