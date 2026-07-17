@@ -129,7 +129,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > *and* p-wave L; the generation count sourced from both str[k₁] = 0 *and* Weyl nodes) both
 > resolved by retiring the redundant second source, and in both cases the *weaker* claimant was the
 > condensate's node topology. **Adjudicate before this roster is used as a derivation.** The
-> running α_c chain refereess the *value*, not the attribution.
+> running α_c chain referees the *value*, not the attribution.
 
 The medium's microscopic content is the **paired lepton-sector vacuum** — leptophilic by identity, with
 three flavours (α_c = 3α — but see the flag above), neutrinos interior (c = 9/10), and a
