@@ -64,9 +64,18 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
 ## 3. The dark sector
 
 The confining sector that binds the dark energy is a **3-flavour, lepton-partnered confining vacuum at the
-electron scale** (√σ_dark ≈ m_e). Its chiral condensate is the dyad (the electron-mass shifter); its three
-flavours supply the "3" in α_c = 3α. It sets the dark-energy binding scale only — the dark matter remains
-the medium's own ultralight excitations.
+electron scale** (√σ_dark ≈ m_e). Its chiral condensate is the dyad (the electron-mass shifter). It sets
+the dark-energy binding scale only — the dark matter remains the medium's own ultralight excitations.
+
+> **The flavour count's receipt was withdrawn and replaced (2026-07-16).** This section previously
+> read *"its three flavours supply the '3' in α_c = 3α"* — **retired**: that 3 is the spatial
+> dimension d (§1, MATH_SPINE §0), so it never supported the flavour count. τ requires only
+> N_f ≥ 2 (§2), so the count stood unsupported. The candidate replacement is **Pauli finiteness
+> applied to this sector**, which forces **dark SU(2) with N_f = 3** as the unique integer solution
+> of str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 — see the flag in §6, **including its live risk**
+> (τ's 0.34–0.37 band is an SU(3) value, and τ scales ρ_Λ¼ linearly). **Until that is settled the
+> flavour count is a candidate, not a derivation**, and the colour group N_c — never named anywhere
+> in this corpus — is an open slot this argument would fill.
 
 - **Cosmology (safe):** the ~MeV dark baryons cannot overclose. To be the dark matter they would need a
   dark asymmetry ~1700× the visible one; at any natural asymmetry they are ≤10⁻³ of it, and symmetric
@@ -118,21 +127,45 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 
 ## 6. The basement roster
 
-> **⚠ The "3" in α_c = 3α is double-sourced — flagged 2026-07-16, not yet adjudicated.** This
-> section and §3 read it as the dark sector's **three flavours** (*"its three flavours supply the
-> '3' in α_c = 3α"*). §1 and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 read it as the **spatial
-> dimension d = 3** (*"α_c = 3α = d·α"*, the transverse-projector trace of the induced loop).
-> **These cannot both be its source.** The consequence is live, not cosmetic: if the 3 is d, then
-> "three flavours" draws **no support** from α_c and is an independent assumption of this roster;
-> the flavour count would need its own derivation. Note this is the *third* instance of one
-> attribution pattern found this pass — the other two (chirality sourced from both the winding n
-> *and* p-wave L; the generation count sourced from both str[k₁] = 0 *and* Weyl nodes) both
-> resolved by retiring the redundant second source, and in both cases the *weaker* claimant was the
-> condensate's node topology. **Adjudicate before this roster is used as a derivation.** The
-> running α_c chain referees the *value*, not the attribution.
+> **ADJUDICATED 2026-07-16: the "3" in α_c = 3α is the SPATIAL DIMENSION d, not the flavour
+> count.** §1 and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 hold (*"α_c = 3α = d·α"*, the
+> transverse-projector trace of the induced loop). **§3's claim that "its three flavours supply the
+> '3' in α_c = 3α" is therefore retired** — a false receipt. This was the third instance of one
+> attribution pattern (chirality double-sourced from the winding n *and* p-wave L; the generation
+> count from str[k₁] = 0 *and* Weyl nodes; the "3" from d *and* flavours) — and in every case the
+> redundant claimant lost.
+>
+> **What that leaves, and the candidate that replaces it.** With the α_c receipt withdrawn, nothing
+> held the dark flavour count at 3: τ requires only N_f ≥ 2 (§2), and the corpus never names the
+> dark colour group N_c at all. But [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2 states
+> the finiteness sum runs over **"every field in the vacuum — not the model's coupling roster"** —
+> and **the §5 table counts only the Standard Model's 48 Weyl fermions and 12 gauge bosons. The dark
+> sector is missing from the model's own sum.** That is a defect regardless of what follows.
+> Supplying it, and requiring the dark sector to self-cancel (the SM part already does, and the
+> Higgs contributes zero at ξ_H = 1/6):
+>
+> **str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 ⟹ N_f = 2(N_c² − 1)/N_c**
+>
+> | N_c | 2 | 3 | 4 | 5 | 6 |
+> |---|---|---|---|---|---|
+> | N_f | **3 — integer** | 5.33 | 7.5 | 9.6 | 11.67 |
+>
+> **N_c = 2 is the unique colour group admitting an integer flavour count, and it gives N_f = 3
+> exactly** (quarks +12, gluons −12). The same condition that forces three generations would force
+> **dark SU(2) with three flavours** — a real receipt where the α_c one was false.
+>
+> **CANDIDATE, not banked — and it carries a sharp risk that makes it decidable.** (i) *The τ
+> collision:* τ ≈ 0.345 is quoted from the band T_c/√σ ≈ 0.34–0.37 of a **QCD-like (SU(3))** sector,
+> with SU(3) pure glue at 0.63 excluded. For **SU(2)** the lattice ratio differs — and τ scales the
+> dark-energy value **linearly** (ρ_Λ¼ = (9/2)α⁴·τ·m_e), so the flagship's 1.5% is riding on a τ
+> borrowed from the wrong gauge group if N_c = 2. **Compute T_c/√σ for SU(2) with N_f = 3: if it is
+> not ≈ 0.345, then either the finiteness-forced N_c = 2 or the DE value gives way.** (ii)
+> *Assumptions, named:* dark quarks Dirac and in the fundamental — adjoint or Weyl/Majorana content
+> changes the counting. (iii) The dark sector's ΔN_eff footprint (§3) is computed for the existing
+> roster and would need re-pricing at N_c = 2.
 
 The medium's microscopic content is the **paired lepton-sector vacuum** — leptophilic by identity, with
-three flavours (α_c = 3α — but see the flag above), neutrinos interior (c = 9/10), and a
+three flavours (see the flag above — the α_c receipt is retired; the finiteness candidate is live), neutrinos interior (c = 9/10), and a
 lepton-number-breaking Goldstone (the
 Majoron tie). This is plausibly the same object as the §3 dark confining sector: one 3-flavour,
 lepton-partnered, electron-scale confining vacuum. It supplies the roster the §5 str[k₁] balance runs
