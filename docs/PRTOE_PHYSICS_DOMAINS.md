@@ -156,13 +156,15 @@ B−L portal at GUT-scale suppression (the uniform neutron potential grows
 a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar: on the standing ramped
 prediction (D/H = 2.387×10⁻⁵) the deuterium tension is **−2.9σ** against Cooke with the full
 stated budget (obs ±0.030 ⊕ PRIMAT nuclear theory ±0.037); the 3.5% inter-code spread, unfolded,
-would soften it to −1.4…−2.2σ (ΛCDM itself carries 1.85σ under PRIMAT). The healer is registered, conditional, and co-signed:
-**P-2026-006 — a quark-mass amendment δm̂/m̂ = +0.14–0.21% at BBN heals
-D/H with a mandatory Y_p −0.5% and ⁷Li −7..13% co-signature** (DSW PRD 76,
-063513 coefficients, pulled from source).
+would soften it to −1.4…−2.2σ (ΛCDM itself carries 1.85σ under PRIMAT). **The dyad cannot be the
+healer:** as the Majoron (Goldstone of U(1)_L breaking) it couples only to the current of its broken
+charge, and quarks carry L = 0, so the tree-level quark coupling is **zero by symmetry** — D/H
+stands at −2.9σ with no rescue. P-2026-006's abundance signature — a δm̂/m̂ = +0.14–0.21% amendment
+healing D/H with a mandatory Y_p −0.5% and ⁷Li −7..13% co-signature (DSW PRD 76, 063513) — is
+retained only as a prediction about a lever this model does not have: a hypothetical future
+non-Majoron amendment, not the dyad.
 
-**Verdict: the scar is carried honestly; its healer is a bet with named
-kill terms, not a patch.**
+**Verdict: the scar is carried honestly, at −2.9σ, with no healer available to the dyad.**
 
 ## 7. Recombination, atomic physics & varying fundamental constants
 
@@ -609,10 +611,10 @@ gravity residuals attributable to the dark sector.*
 
 **31. Deuterium cosmology (PRIMAT) — PREDICTS.** The scar: **−2.9σ** carried
 honestly on the standing ramped 2.387 (full budget: obs ±0.030 ⊕ theory ±0.037; the unfolded
-inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The healer is registered:
-δm̂/m̂ = +0.14–0.21% at BBN (P-2026-006, conditional). *Hook: the healer
-demands its co-signatures or it dies; a scar resolving to >3σ against us
-wounds the dyad's BBN books.*
+inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The dyad cannot heal it (the
+Majoron couples to L; quarks carry L = 0, tree coupling zero) — D/H stands at −2.9σ with no rescue.
+P-2026-006's co-signed amendment (δm̂/m̂ = +0.14–0.21% at BBN) is retained only for a hypothetical
+future non-Majoron lever. *Hook: a scar resolving to >3σ against us wounds the dyad's BBN books.*
 
 **32. The lithium problem — PREDICTS (mandatory co-signature).** If
 P-2026-006's quark-mass amendment is real, ⁷Li must move −7..13% — the

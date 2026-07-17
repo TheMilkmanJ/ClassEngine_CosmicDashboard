@@ -2,6 +2,11 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
+> **PRE-DYAD ERA — SUPERSEDED.** These validation tests target the early **scalar-tensor F(φ)R /
+> DHOST** formulation (the ξ, ζ, φ_c, Δφ sweep), which is not the current model. The standing PRTOE
+> is the two-field **dyad + dCDF** construction; its numbers live in
+> [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) and the running evidence chains. The scalar-tensor
+> screening program's kills are in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). Kept for the record.
 
 **Date**: 2026-06-29 
 **Status**: In Progress
