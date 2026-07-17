@@ -5,8 +5,7 @@
 *The single number this model adds to known physics: a universal fractional shift of
 lepton masses, ε ≈ +1.24%, switched by one screening gate. Every claim the model makes
 about the observable universe routes through this page. Statuses are stated inline per
-the house convention; failures live in the failures ledger, not here. (Revised
-2026-07-13: the sign-session verdict incorporated; supersedes the 07-12 draft.)*
+the house convention; failures live in the failures ledger, not here.*
 
 ---
 
@@ -36,7 +35,7 @@ separate parameters.*
 | window | epoch | what ε does there | grade |
 |---|---|---|---|
 | **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H₀ = 69.9** (the Hubble-tension mechanism) | production fit; the zero-free-parameter evidence run is live (ε, A_s, n_s, z_on all stated in advance) |
-| **windowed BBN** | T ≈ 0.7 MeV–70 keV | OFF at n/p freeze-out, GROWING below T_c (the order-parameter birth ramp — the BBN engine's standing treatment, now also in the CMB-side code) → the abundance pattern (Y_p stands +1.09σ adverse, owned — the ramped value; the D/H fork is radio-refereed) | production (PRyM pipeline) |
+| **windowed BBN** | T ≈ 0.7 MeV–70 keV | OFF at n/p freeze-out, GROWING below T_c (the order-parameter birth ramp — the BBN engine's standing treatment) → the abundance pattern (Y_p stands +1.09σ adverse, owned — the ramped value; the D/H fork is radio-refereed) | production (PRyM pipeline) |
 | **21-cm lines** | z ≈ 30–150 | rest frequencies shifted +2.5% (the (1+ε)² identity), with the exact ratio-lock ν_H/ν_D; the screening edge's *shape* reads the gate | registered (P-2026-022/027) |
 | **the ε-dipole** | today, horizon scale | δm_e/m_e ≈ 6×10⁻⁷, axis-correlated | registered (P-2026-024); consistent null today |
 | **Σm_ν de-bias** | parameter fits | model-conditional neutrino masses stay physical (61.4 meV vs DESI's ≲ 72 meV squeeze) | recorded; referee near |

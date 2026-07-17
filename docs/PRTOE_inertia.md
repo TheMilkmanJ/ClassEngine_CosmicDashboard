@@ -3,8 +3,8 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 *Status: the model's native re-derivation of a standard superfluid result [Landau 1941],
-applied to its founding identity — filed 2026-07-13 after the recognition that the claim
-had been load-bearing since genesis without ever being stated as a claim. Grade:
+applied to its founding identity — the claim has been load-bearing since genesis without
+ever being stated as a claim. Grade:
 structural, riding M3 (the medium's reality) + the census null (P-2026-008) + the
 Lorentz-violation pricing audit. Companion files:
 [PRTOE_special_relativity.md](PRTOE_special_relativity.md) (the kinematic half) and

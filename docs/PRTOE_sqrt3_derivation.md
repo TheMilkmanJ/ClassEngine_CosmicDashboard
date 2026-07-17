@@ -44,10 +44,10 @@ its dial-free character (the logarithm dominates). The flag propagates to T8's f
 coincidence chain is dial-free with an O(1)-sharp, not exact-sharp, linewidth — unless/until
 the par question resolves (the α_c/the α_c MCMC arc), which would sharpen BOTH c and Γ with one stone.
 
-## What this replaces
+## The result
 
-"Asserted single-scale-ness" → the one-scale identity is the fluid's defining property (the
-barotropic one-parameter form, recorded from the founding); "asserted √3" → the Friedmann
-factor, exact given par. The derivation's entire content: **a one-scale sector coupling at par
-through the only coupling channel thaws at the Friedmann rate.** The universe's linewidth is √3
-because the universe's budget and the mode's rate are the same number read twice.
+The one-scale identity is the fluid's defining property (the barotropic one-parameter form),
+and √3 is the Friedmann factor, exact given par. The derivation's entire content: **a one-scale
+sector coupling at par through the only coupling channel thaws at the Friedmann rate.** The
+universe's linewidth is √3 because the universe's budget and the mode's rate are the same number
+read twice.

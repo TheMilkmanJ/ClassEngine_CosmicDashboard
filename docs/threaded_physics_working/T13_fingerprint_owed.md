@@ -16,7 +16,7 @@
 >    gives **+3.53σ**); the ~1.6–1.9σ D/H is the **withdrawn PRyM-default-ω_b** baseline (process
 >    error 38). Standing D/H is **−2.9σ** on the full budget.
 
-## PAID item 1 (2026-07-12): THE ε(EPOCH) TABLE — every lattice row now wears its WHEN
+## PAID item 1: THE ε(EPOCH) TABLE — every lattice row now wears its WHEN
 (the audit's law: no number without its epoch):
 | epoch | ε | provenance |
 |---|---|---|
@@ -26,14 +26,12 @@
 | above z_high (~T_c epoch) | 0 (disordered) | the dyad window's high edge |
 Rows must cite THIS table, not "the" ε. Item 2 (the masters' calendar) still open.
 
-## PAID item 2 (2026-07-12): the masters' calendar — docs/PRTOE_REFEREE_CALENDAR.md.
-~~T13 is COMPLETE (both items paid: the ε-epoch table + the calendar).~~
+## PAID item 2: the masters' calendar — docs/PRTOE_REFEREE_CALENDAR.md.
 
-> **⚠ THAT CLOSURE WAS FALSE — CORRECTED 2026-07-16.** This file lists **three** items; the
-> "COMPLETE" line accounts for **two**. **Item 3 — the row-correlation formalization — is unpaid,
-> unbuilt, and was omitted from the closing count.** A corpus-wide search finds **no joint-likelihood
-> / single-χ²-across-rows construction anywhere**. **T13 is NOT complete**, and what is missing is
-> not a detail: item 3 is *"the model's headline statistic"* by this file's own words.
+> **Item 3 — the row-correlation formalization — is unpaid, unbuilt.** This file lists **three**
+> items; the ε-epoch table and the calendar cover two of them. A corpus-wide search finds **no
+> joint-likelihood / single-χ²-across-rows construction anywhere**. **T13 is NOT complete**, and what
+> is missing is not a detail: item 3 is *"the model's headline statistic"* by this file's own words.
 >
 > **Why it matters more than its position in the list suggests.** The lattice's whole claim is that
 > one parameter ε must serve every row *at its assigned weight* — H₀, the radio chords, the neutrino
@@ -81,10 +79,8 @@ w = 0. Each row predicts w_i·ε with w_i **known**. The lattice cannot re-weigh
 3. **The elasticities — RESOLVED (measured 2026-07-16; see below).** They were the single blocking
    item; they are no longer missing.
 
-**Also fixed in passing:** an earlier framing of this pass compared the derived stack to the
-*concordance joint* (+1.77σ) and read it against the corpus's *fit-versus-stack* "1.4σ" as if they
-disagreed. They are different comparisons and do not contradict. Recorded so the joint statistic is
-not built on the wrong pair.
+**Note:** the derived stack compared to the *concordance joint* (+1.77σ) and the corpus's
+*fit-versus-stack* "1.4σ" are different comparisons and do not contradict each other.
 
 ## Item 3 — THE BLOCKING INPUT IS MEASURED (2026-07-16). Runner: `scripts/prym_elasticity_runner.py`
 

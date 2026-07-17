@@ -1750,6 +1750,37 @@ where the tooth amplitude is predicted to sit. **Grade:** candidate; the amplitu
 (M7, the cavity/axis computation, is **un-run**), so this entry currently states a *location*, not
 a detectable amplitude — it cannot be cashed as a detection claim until M7 lands.
 
+**The acoustic reading (added 2026-07-17).** The comb's teeth are not just a topological imprint —
+they are **standing acoustic modes of the winding-twisted medium.** The genesis twist *rang* the
+compact direction like a bell; the "harmonic teeth" (tooth count = n) are the **overtones** of that
+ringing, the n-th harmonic of a fundamental set by the winding. This is why the pattern is a *comb*
+(evenly spaced harmonics) and not a single feature: a rung cavity produces a fundamental plus
+overtones, exactly the structure §1 of [PRTOE_cmb_anomalies.md](PRTOE_cmb_anomalies.md) records.
+It ties the comb to the dCDF's own sound sector (second sound, c_s = √α_c) — the same medium whose
+Goldstone is light now also carries a standing pressure mode whose overtones are the teeth.
+
+**The amplitude — BOUNDED observationally (2026-07-17), forward-derivation still owed.** The comb
+modulates C_ℓ by a fractional amount A at its teeth. A coherent (matched-template) comb across the
+band where teeth survive Silk damping (ℓ ≈ 100–600, f_sky ≈ 0.7, N ≈ 2.5×10⁵ modes) has detection
+significance S/N ≈ A·√(N/2) ≈ A·351. Inverting against the two observational facts:
+
+| observational fact | implied A = δC_ℓ/C_ℓ at the teeth |
+|---|---|
+| the registered **~2–3σ hint** (if the comb is real, it sits here) | **≈ 0.7–1.0%** |
+| Planck's **non-detection at 5σ** (this caps it) | **≲ 1.4%** |
+
+So **A ≈ 1% (window [0.7%, 1.4%])** — a real amplitude, bounded on both sides, ~4.6×10⁻⁷ in δT/T,
+a percent-level overtone riding the primary acoustic peaks. *(Caveat: this is for a matched filter
+with the template known; letting tooth width/spacing/phase float — the actual tier-1 test — relaxes
+the bound modestly upward, so read A ≈ 1% as the tight-template value.)*
+
+**What this changes and doesn't.** The grade moves from *"location only"* to *"location + a ~1%
+amplitude bound."* What remains **owed (= M7, un-run)** is the *forward* derivation — **why** A ≈ 1%,
+i.e. the **winding power fraction f_wind** that sets A = f_wind, from the C_ℓ-on-the-winding-torus
+computation. The observational bound is a fence the forward number must land inside; if M7 forward-
+derives f_wind ≪ 0.7% or ≫ 1.4%, the comb picture breaks against Planck. That is now a sharp,
+two-sided target rather than an open direction.
+
 ## P-2026-030: The astrochemical inheritance — the medium's window leaves molecular-line ratios standard (registered 2026-07-11; **entry reconstructed 2026-07-17**)
 
 > **RECONSTRUCTED, NOT BACK-DATED** — same status as P-2026-029 above. Cited in
@@ -2275,7 +2306,7 @@ the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must se
 **N_c = 2 is the only colour group admitting an integer flavour count, and it gives exactly
 three** (quarks +12, gluons −12). **The value is τ = T_c/m_e = 179/511 = 0.3503, derived** —
 T_c from the confining chiral condition, √σ_dark = m_e from the portal. Feeding it forward,
-ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2842 meV against the observed 2.25: the flagship's +1.5% prediction.**
+ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2842 meV against the observed 2.25**. *(The "+1.5%" is not itself a sourced prediction — T_c = 179 keV is the observed ρ_Λ inverted-and-rounded, not independently derived; see the flagship-grade block in [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md). What is real is the **structure** ρ_Λ¼ = (9/2)α⁴τ·m_e, which becomes a prediction once T_c/√σ is computed for SU(2) — the number this very entry bets on.)*
 *(The entry formerly registered **0.345**, which is that prediction* ***read backwards*** *:
 0.345 = 2.25/((9/2)α⁴m_e) = the observed dark-energy density inverted. Quoting it as the bet made
 the lattice test unfalsifiable — a return of 0.3503, i.e. the model being exactly right, would have

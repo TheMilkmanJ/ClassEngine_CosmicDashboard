@@ -2,6 +2,13 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
+> **PRE-DYAD ERA — SUPERSEDED.** This summary describes the early **scalar-tensor F(φ)R / DHOST**
+> formulation (the ξ, ζ, φ_c, Δφ parameters), which is not the current model. The standing PRTOE is
+> the two-field **dyad + dCDF** construction — varying electron mass plus a unified barotropic dark
+> fluid (w = −ρ_∞/ρ). Current sources: [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md),
+> [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md), [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md). The
+> scalar-tensor screening program's kills are in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+> Kept for the record; not the current implementation.
 
 ## Document Information
 

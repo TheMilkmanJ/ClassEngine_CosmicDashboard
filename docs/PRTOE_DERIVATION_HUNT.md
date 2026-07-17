@@ -19,9 +19,9 @@ $$\varepsilon = c \cdot \bar f \cdot \alpha_c .$$
 | factor | value | status |
 |---|---|---|
 | **c** | 9/10 | **derived** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel). The 8/9 charge²-weighted reading is excluded by the gravity-blind democratic rule. See [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
-| **f̄** | 2/π ≈ 0.6366 | **candidate (coupling form now data-selected, 2026-07-16)** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved — see below. The ε-blind ensemble gives c = 0.903 [0.867, 0.942], −0.08σ from 9/10. |
+| **f̄** | 2/π ≈ 0.6366 | **candidate (coupling form data-selected)** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved — see below. The ε-blind ensemble gives c = 0.903 [0.867, 0.942], −0.08σ from 9/10. |
 
-**The coupling form, resolved (2026-07-16).** Once equidistribution is granted, the winding projection is cos θ with θ uniform on [0, 2π), and *which average* sets f̄ is the coupling's order. Four candidates, and the model's own data adjudicates: signed-linear ⟨cos⟩ = **0** (a signed projection averages to nothing — excluded outright by the observed ε > 0, so the coupling must be sign-insensitive); rectified-linear ⟨\|cos\|⟩ = **2/π = 0.6366**; RMS √⟨cos²⟩ = **0.7071**; variance ⟨cos²⟩ = **0.5**. A first-order Yukawa mass shift δm = g·A_eff is **linear** in the winding-projected condensate amplitude, and mass-positivity **rectifies** the sign — giving the mean-absolute, 2/π. The quadratic readings are the subleading (energy-density) coupling. And the corpus's two independent measurements — fit-implied f̄ = 0.6253, winding-sim = 0.635 — **both land on 2/π** (+1.8%, +0.3%) and **reject RMS at +13%** and variance further still. So the coupling form is not a free choice: mass-positivity kills the signed average, leading-order dominance picks linear over quadratic, and the data confirms the selection over the RMS alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
+**The coupling form, resolved.** Once equidistribution is granted, the winding projection is cos θ with θ uniform on [0, 2π), and *which average* sets f̄ is the coupling's order. Four candidates, and the model's own data adjudicates: signed-linear ⟨cos⟩ = **0** (a signed projection averages to nothing — excluded outright by the observed ε > 0, so the coupling must be sign-insensitive); rectified-linear ⟨\|cos\|⟩ = **2/π = 0.6366**; RMS √⟨cos²⟩ = **0.7071**; variance ⟨cos²⟩ = **0.5**. A first-order Yukawa mass shift δm = g·A_eff is **linear** in the winding-projected condensate amplitude, and mass-positivity **rectifies** the sign — giving the mean-absolute, 2/π. The quadratic readings are the subleading (energy-density) coupling. And the corpus's two independent measurements — fit-implied f̄ = 0.6253, winding-sim = 0.635 — **both land on 2/π** (+1.8%, +0.3%) and **reject RMS at +13%** and variance further still. So the coupling form is not a free choice: mass-positivity kills the signed average, leading-order dominance picks linear over quadratic, and the data confirms the selection over the RMS alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
 | **α_c** | 3α | **candidate (under test)** — a pre-registered value; the "3" is the transverse-projector trace of the induced loop (spatial dimension d = 3), with two field-theory pieces owed. The running α_c chain is the referee. |
 
 The three ε values in the corpus differ deliberately: 1.232% (production fit), ~1.24% (posterior), 1.2543%
@@ -35,12 +35,14 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
 
 $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,m_e,\qquad \tau \equiv T_c/m_e .$$
 
-- **Chain (self-consistent):** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼ = 2.28 meV, a **genuine 1.5%
-  prediction** against the observed 2.25 meV. The α⁴ scaling is derived; M₂ is derived from T_c (not
-  selected). See [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
-- **τ = T_c/m_e = 0.3503 — derived; and 0.345 is the OBSERVATION, not a second derivation
-  (re-graded 2026-07-17).** The derived T_c = 179 keV gives τ = 179/511 = **0.3503** ⟹ ρ_Λ¼ =
-  (9/2)α⁴τ·m_e = **2.2842 meV, the flagship's +1.5% prediction**. The number **0.345** is
+- **Chain:** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼ = 2.28 meV vs the observed 2.25. The α⁴
+  scaling and M₂ = α²·T_c are real STRUCTURE, but **the "1.5%" is NOT a sourced prediction** —
+  T_c = 179 keV is the observed ρ_Λ inverted-and-rounded (0.34506 → 0.35), not independently
+  derived (see the NOT-INDEPENDENTLY-SOURCED bullet below and §6). It becomes a prediction only
+  with a lattice T_c/√σ for SU(2). See [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
+- **τ = T_c/m_e = 0.3503 — derived; and 0.345 is the OBSERVATION, not a second derivation.**
+  The derived T_c = 179 keV gives τ = 179/511 = **0.3503** ⟹ ρ_Λ¼ =
+  (9/2)α⁴τ·m_e = **2.2842 meV** *(the +1.5% is the rounding, not a sourced prediction — see below)*. The number **0.345** is
   ρ_Λ¼(observed)/((9/2)α⁴m_e) = 2.25/6.5207 = **0.34506** — *the observed dark-energy density read
   backwards*, which the registry states plainly (P-2026-048: *"fixed by the observed dark-energy
   density … the flagship's 1.5% prediction read backwards"*). **Quoting 0.345 as "derived" implies
@@ -49,10 +51,10 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   value and this model's dark sector is **SU(2)** (P-2026-048), the pure-glue anchors disagree by
   ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71), and no published SU(2) N_f = 3 number exists. The model's
   τ = 0.3503 sits inside the band, **and so does the observation's 0.345** — the band is 8.5% wide
-  and cannot tell them apart.
-  of a QCD-like confining sector (pure glue, at 0.63, is excluded). The dark sector must carry light dark
-  quarks (N_f ≥ 2).
-- **T_c ≈ 179 keV — NOT INDEPENDENTLY SOURCED (re-graded 2026-07-17). This is the flagship's
+  and cannot tell them apart. The band is that **of a QCD-like confining sector** (pure glue, at 0.63,
+  is excluded), which requires the dark sector to carry **light dark quarks (N_f ≥ 2)** — consistent
+  with P-2026-048's N_f = 3.
+- **T_c ≈ 179 keV — NOT INDEPENDENTLY SOURCED. This is the flagship's
   weakest joint and it was not stated where the flagship is claimed.** The three routes on offer:
   **(i) "τ·m_e" is CIRCULAR** — τ ≡ T_c/m_e, so this defines T_c by itself (line 42 derives τ *from*
   T_c; this line derives T_c *from* τ). **(ii) the perturbative route** T_c = m_e0·√(3(L−1)/2π²) is
@@ -73,7 +75,7 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   mass. This cannot be derived without abandoning τ ≈ 0.35 (a conformal sector that would fix √σ_dark = m_e
   gives the wrong τ; the QCD-like sector that gives τ carries its own scale). It is an **irreducible input**
   — the "meV whisper," ρ_Λ ~ α⁴m_e — but a **falsifiable** one (it predicts ~MeV dark states).
-- **Head-on pass (2026-07-16): confirmed irreducible, and the total-input count named.** A direct
+- **Head-on pass: confirmed irreducible, and the total-input count named.** A direct
   re-attack finds no derivation — the τ-vs-scale obstruction above is a genuine fork, not a gap to be
   filled. What the pass *does* fix is the honest scope: √σ_dark = m_e is the one dimensionful input **of
   this (dark-energy / confining) sector**, and it is *not* the theory's sole dimensionful anchor. The
@@ -92,7 +94,7 @@ The confining sector that binds the dark energy is a **3-flavour, lepton-partner
 electron scale** (√σ_dark ≈ m_e). Its chiral condensate is the dyad (the electron-mass shifter). It sets
 the dark-energy binding scale only — the dark matter remains the medium's own ultralight excitations.
 
-> **The flavour count's receipt was withdrawn and replaced (2026-07-16).** This section previously
+> **The flavour count's receipt was withdrawn and replaced.** This section previously
 > read *"its three flavours supply the '3' in α_c = 3α"* — **retired**: that 3 is the spatial
 > dimension d (§1, MATH_SPINE §0), so it never supported the flavour count. τ requires only
 > N_f ≥ 2 (§2), so the count stood unsupported. The candidate replacement is **Pauli finiteness
@@ -105,7 +107,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
 - **Cosmology (safe):** the ~MeV dark baryons cannot overclose. To be the dark matter they would need a
   dark asymmetry ~1700× the visible one; at any natural asymmetry they are ≤10⁻³ of it, and symmetric
   relics annihilate away (strong coupling).
-- **Footprint (falsifiable) — RE-PRICED at N_c = 2 (2026-07-16), and the answer changed sign.** The old
+- **Footprint (falsifiable) — RE-PRICED at N_c = 2, and the answer changed sign.** The old
   figure (**ΔN_eff ≈ 0.05–0.3**) came from a *generic scan* over g_dark = 2, 4, 8, taken because the colour
   group was unknown. With the group fixed to SU(2) (§6), the count is determined — and **pseudo-reality
   enlarges the chiral symmetry to SU(6) → Sp(6), giving 2N_f² − N_f − 1 = 14 Goldstones**, not the
@@ -121,7 +123,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   NEVER THERMALISED with the SM** (then ΔN_eff → 0 and the roster survives, at the price of a hard upper
   bound on the portal coupling). Registered as the fifth kill of **P-2026-048**. CMB-S4 (±0.03) tests it
   either way. (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
-- **THE m_q SQUEEZE — three constraints, one variable, and τ pulls against the other two (2026-07-16).**
+- **THE m_q SQUEEZE — three constraints, one variable, and τ pulls against the other two.**
   The dark quark mass is asked to be **light** by τ (**0.3503** derived; the rows here were computed at 0.345 — a +1.5% shift, immaterial to this squeeze) (§2 — heavy quarks drive T_c/√σ back toward the
   pure-glue 0.69–0.71), and **heavy** by two independent others: (i) **ΔN_eff/Y_p**, which needs Boltzmann
   suppression and gets none while τ keeps the quarks light; and (ii) **the depth law + the coded BBN ramp**,
@@ -133,7 +135,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   dynamical discontinuity is not quantized, not topological, not a protected zero, so it has **no exemption
   clause**. [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 already names this failure mode —
   *"otherwise the transition boils, first-order"* — for a different sector, in the same grammar.
-  **RUN (2026-07-16) — the window is NOT empty, and it pins m_q.** The framing that raised the alarm was
+  **RUN — the window is NOT empty, and it pins m_q.** The framing that raised the alarm was
   wrong: *"N_f = 3 light quarks → first order"* is the **chiral-limit** statement, and this sector is not in
   the chiral limit ("light" means light *relative to Λ*, not massless). Against the QCD anchors τ is quoted
   from (chiral T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at 0.318), **τ (0.345 as this row's input; derived 0.3503) sits at
@@ -158,8 +160,8 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   freeze). See [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
-  **Graded (2026-07-16): μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
-  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.284 meV**, against the observed 2.25 — a **+1.5%** prediction), with κ_V, κ_m
+  **Graded: μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
+  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.284 meV** *(structure real; the +1.5% is the τ rounding)*, against the observed 2.25 — a **+1.5%** prediction), with κ_V, κ_m
   the O(1) ties; it is downstream of the *one* irreducible input, the portal √σ_dark = m_e (§6), not a
   separate knob.
 - **v_L (the seesaw scale)** — two mutually exclusive corners (resonant → MeV, S4-armed; junction
@@ -186,7 +188,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 
 ## 6. The basement roster
 
-> **ADJUDICATED 2026-07-16: the "3" in α_c = 3α is the SPATIAL DIMENSION d, not the flavour
+> **ADJUDICATED: the "3" in α_c = 3α is the SPATIAL DIMENSION d, not the flavour
 > count.** §1 and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 hold (*"α_c = 3α = d·α"*, the
 > transverse-projector trace of the induced loop). **§3's claim that "its three flavours supply the
 > '3' in α_c = 3α" is therefore retired** — a false receipt. This was the third instance of one
@@ -213,7 +215,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > exactly** (quarks +12, gluons −12). The same condition that forces three generations would force
 > **dark SU(2) with three flavours** — a real receipt where the α_c one was false.
 >
-> **The consilience (2026-07-16) — SU(2) independently delivers three things the model already
+> **The consilience — SU(2) independently delivers three things the model already
 > required, for reasons that have nothing to do with this counting.** Two-color QCD's fundamental
 > representation is **pseudo-real**, so a colour singlet needs an **even** number of quarks:
 > **its baryons are bosons — diquarks** [Kogut–Stephanov–Toublan; Hands et al.].
@@ -232,8 +234,8 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 >    does not exist, so s-wave is unsuppressed — which is precisely the mechanism §4c invokes and
 >    precisely what the ℓ = 0 selection needs.
 >
-> **REGISTERED as P-2026-048 (2026-07-16)** — the dark colour group is SU(2), N_f = 3, and
-> **T_c/√σ = 0.3503 ± 0.02** for SU(2) with three light flavours *(P-048 amended 2026-07-17: the registered value was 0.345, the observed ρ_Λ inverted)*; see
+> **REGISTERED as P-2026-048** — the dark colour group is SU(2), N_f = 3, and
+> **T_c/√σ = 0.3503 ± 0.02** for SU(2) with three light flavours *(the registered value 0.345 is the observed ρ_Λ inverted — see §2)*; see
 > [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md). The model's first
 > prediction addressed to a *lattice computation* rather than a telescope.
 >
@@ -277,7 +279,7 @@ irreducible input.
 - **η (the baryon asymmetry) — estimate:** η = n × junction transmission; the transfer integral lands at
   the right order (~6×10⁻¹⁰) from recorded inputs. The thermal-leptogenesis route is dead (×40–1000 under).
 - **A_s = (α_c/4πk)³ — candidate:** the shot-noise closed form. Its pieces are more mechanized than the
-  "highest-risk" label suggests (audit 2026-07-16): **k = ln(1+π/2α_c)/π is a genuine screened-interaction
+  "highest-risk" label suggests: **k = ln(1+π/2α_c)/π is a genuine screened-interaction
   integral** k = (1/π)∫₀¹ dq/(q + 2α_c/π) — the effective gap-equation coupling, audited into the Eliashberg
   window [1.35, 1.37], *not* a landing fit; the **4π is the standard 1-loop factor**, and the **cube is the
   three spatial dimensions**. So A_s = 1/N with N = (4πk/α_c)³ assembles from a derived coupling, a loop
@@ -295,17 +297,17 @@ irreducible input.
 ## 8. What remains owed
 
 1. **The portal √σ_dark = m_e** — the one irreducible input of the dark-energy / basement sector (§2, §6).
-2. *(resolved) The induced-G scalar coefficient* — verified (2026-07-16): Visser Eq. 35 assigns each
+2. *(resolved) The induced-G scalar coefficient* — verified: Visser Eq. 35 assigns each
    real scalar the weight (1/6 − ξ), not zero, so P-045's str[k₁] = 0 is **not** ξ-independent — it
    requires ξ_H = 1/6 (conformal Higgs). Natural (the conformal value) and self-consistent with the
    G-value's own need, but an input: induced-G finiteness is conditional on conformal Higgs coupling
    (§5). The "hole" reduces to one named assumption.
 3. **f̄ and α_c referees** — the winding ensemble and the α_c chain, both running (§1).
-4. *(sharpened) A_s's count* — audited (2026-07-16): k = ln(1+π/2α_c)/π is a *derived* screened-interaction
+4. *(sharpened) A_s's count* — audited: k = ln(1+π/2α_c)/π is a *derived* screened-interaction
    integral (the gap-equation coupling), not the unmechanized part; the 4π is the 1-loop factor and the cube
    is 3D. The genuine residual is the O(1) normalization of the shot-noise count N = (4πk/α_c)³ (the "count
    C"), lands A_s to −0.35%, refereed by the live run + the Eliashberg k-audit (§7).
-5. *(closed as owed) The spurion μ = 2.25 meV* — graded (2026-07-16) as **not** an independent input:
+5. *(closed as owed) The spurion μ = 2.25 meV* — graded as **not** an independent input:
    it is the electron-anchored meV whisper (ρ_Λ¼ = m_ν = 9/2 α⁴ τ m_e), downstream of item 1. One fewer
    free number than the list once carried.
 

@@ -30,7 +30,7 @@
 > make this a prediction: a lattice T_c/√σ for SU(2) with N_f = 3** — precisely the number
 > P-2026-048 bets on, and precisely the number nobody has computed.
 >
-> *(Found by red team, 2026-07-17, after this file's own §6 had flagged the risk — "τ's 0.34–0.37
+> *(Found by red team, 2026-07-17, after [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 had flagged the risk — "τ's 0.34–0.37
 > band is an SU(3) value … **the flagship's 1.5% rides on it**" — without the flagship's claim ever
 > being re-graded. A stated caveat next to an unstated consequence.)*
 
@@ -136,7 +136,7 @@ data speaks** — the object the running evidence comparison actually grades:
 | z_on | 3.5619×10⁷ | profiled at the frozen stack (the 3α mark hit blind to 0.005 dex) | fast-profiled estimate, chain-graded later |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | 61.4 meV, normal ordering | ρ_Λ^{1/4} = m₁ tie (P-2026-012) | recorded prediction |
-| T_c | ≈ 179 keV | confining chiral ratio ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); τ = T_c/m_e = **0.3503** — *0.345 is the observed ρ_Λ inverted, not a derivation*); 193 keV = perturbative cross-check | derived |
+| T_c | ≈ 179 keV *(not independently sourced — the observed ρ_Λ inverted-and-rounded; flagship-grade block)* | confining chiral ratio ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); τ = T_c/m_e = **0.3503** — *0.345 is the observed ρ_Λ inverted, not a derivation*); 193 keV = perturbative cross-check | flagship-grade — structure real, T_c not sourced |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | production |
 
 ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —

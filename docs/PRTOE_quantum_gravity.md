@@ -4,9 +4,7 @@
 
 *Status: an emergent-gravity framework at* ***derived-conditional*** *grade — a closed
 expression for Newton's constant with explicitly named residual conditions. All claims
-carry their grades inline; nothing on this page is asserted above its evidence.
-(Consolidated 2026-07-13 from the original framework document and three development
-addenda; internal-review provenance summarized inline.)*
+carry their grades inline; nothing on this page is asserted above its evidence.*
 
 ---
 
@@ -57,7 +55,7 @@ timing and passed identically.
 | Obstruction | Resolution in this framework | Grade |
 |---|---|---|
 | Non-renormalizability | Above the condensate's coherence scale there is no metric degree of freedom to renormalize; the problem relocates (explicitly, not evasively) to the substrate's microphysics | framework property |
-| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *computed* as the occupancy-binding energy ρ_Λ^{1/4} = ½α_c²M₂ = 2.28 meV against the measured 2.25 meV — a 1.5% (1.01×) prediction, with M₂ = α²·T_c derived from the confining T_c ≈ 179 keV and α_c = 3α under test | derived; the portal √σ_dark = m_e is the one input |
+| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *computed* as the occupancy-binding energy ρ_Λ^{1/4} = ½α_c²M₂ = 2.28 meV against the measured 2.25 meV. *(The **structure** is real; the **"1.5%" is not a sourced prediction** — T_c ≈ 179 keV is the observed ρ_Λ inverted-and-rounded, not independently derived. It becomes a prediction once T_c/√σ is computed for SU(2); see the flagship-grade block in [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).)* M₂ = α²·T_c and α_c = 3α under test | derived; the portal √σ_dark = m_e is the one input |
 | Weinberg–Witten (no composite gravitons) | Evaded by the preferred frame: Lorentz invariance is emergent/infrared, which is the recognized escape from the theorem's premises. The corresponding Lorentz-violation obligations are priced in a dedicated audit: matter carries no vector/tensor bridge to the frame (the dangerous operators are unwritable, not merely suppressed), leaving local physics Lorentz-invariant to the 10⁻¹²–10⁻³⁸ level demanded by clock-comparison and astrophysical bounds | paid [LV-pricing audit] |
 | Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property |
 | The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal | established mechanism, adopted [FFZ 1997; t422] |
@@ -114,7 +112,7 @@ to zero — by the Standard Model plus three right-handed neutrinos: the content
 framework independently requires for Majorana neutrino masses.** The framework's field
 content lands on a knife-edge condition the literature identifies as hard to meet.
 
-*(The scalar sector, resolved 2026-07-16.* The count above runs over fermions and gauge bosons,
+*(The scalar sector.* The count above runs over fermions and gauge bosons,
 whose supertrace is zero for SM + 3ν_R. The Higgs is a complex SU(2) doublet — four real
 scalars — and Visser's k₁ assigns each real scalar the standard heat-kernel R-coefficient
 **(1/6 − ξ_H)**, *not* zero (Seeley–DeWitt a₁; Birrell–Davies §6, Parker–Toms; the coefficient
@@ -156,7 +154,7 @@ replacing the one that died. It carries no free scale to absorb a miss.
 ## 6. What this framework does and does not claim
 
 **Owns**: a quantum substrate; an emergent metric with functioning horizons; a computed
-vacuum-energy scale matching observation to 1.5% (with M₂ = α²·T_c derived from the
+vacuum-energy scale whose **structure** is real but whose **1.5% is the τ rounding, not a sourced prediction** ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) flagship-grade block) (with M₂ = α²·T_c derived from the
 confining T_c ≈ 179 keV and α_c = 3α under test);
 singularity-free interiors; a closed one-loop expression for Newton's constant; and a
 single-measurement falsification condition (§5.3).

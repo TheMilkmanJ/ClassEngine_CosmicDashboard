@@ -44,7 +44,7 @@ ordering's first half.
 → **Tether 2→3 [RECORDED, production-grade]:** the handoff observable IS the windowed BBN
 pattern — freeze-out abundances locked pre-condensation.
 
-**3. CONDENSATION, T_c ≈ 179 keV (z ≈ 7.6×10⁸):** the medium condenses mid-BBN — and the birth is a RAMP, not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field, Gi ≪ 1 certified; coded into the pipeline 2026-07-14) — (between
+**3. CONDENSATION, T_c ≈ 179 keV (z ≈ 7.6×10⁸):** the medium condenses mid-BBN — and the birth is a RAMP, not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field, Gi ≪ 1 certified; coded into the pipeline) — (between
 n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV); pairing forms
 (doubling season); ε ramps ON; the winding current becomes physical.
 → **Tether 3→4 [RECORDED]:** hands off ε(on), the superfluid, the winding k₀ = 2πn/L, and
@@ -55,19 +55,12 @@ dispersion; the ratio measures n).
 **4. THE DISPERSION CROSSOVER, z_on ~ 3×10⁷ (the fit's z_on, log 7.4–7.7):** the winding
 mode crosses k/a = m — the dcdf's radiation-like era hands over to CDM-like; the C code
 carries this transition's exact ramp (√(1+x²)−1 — the dispersion upgrade).
-→ **Tether 4→5 [CAND — the chain's proposed conflict resolution]:** THE TWO-DRAWS
-HYPOTHESIS, firewalled: the audit exposed a 2.2–2.8-order conflict — the WINDING draw
-belongs to link 3 (Kibble at condensation, z ~ 8×10⁸) but the CENSUS geometry (entry
-45's amendment) wants z ~ 1.2–5.6×10⁶. The chain permits the resolution: TWO distinct
-events — the topology draw (n, at condensation) and the census lock (the A_s = 1/N
-snapshot, when the cells freeze at the pivot scale) as SEPARATE ADJACENT LINKS. The
-geometric session confirms or kills this; nothing downstream assumes it.
-
-**[TETHER 4→5 REWRITTEN, 2026-07-13:** the two-draws hypothesis resolved —
-the "topology draw" = THE QUANTIZATION EVENT (the classical fountain ring's circulation
-quantizes through the condensation ramp; n locks at the phase-slip freeze-out — 
-mechanical, noise-dressed; the KZ dice demoted to the residual + the ± genome coin);
-the census lock = the pour's thermal snapshot (the entry-75 reconciliation).]**
+→ **Tether 4→5 [CAND]:** THE TWO DRAWS — two distinct adjacent events, not one draw. The
+**quantization event**: the classical fountain ring's circulation quantizes through the
+condensation ramp, n locking at the phase-slip freeze-out (mechanical, noise-dressed; the KZ dice
+demoted to the residual and the ± genome coin). The **census lock**: the pour's thermal snapshot
+(the A_s = 1/N cell freeze at the pivot scale). Topology draw (n, at condensation) and census lock
+are separate adjacent links; nothing downstream assumes otherwise.
 
 **5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits the upstream rung's grade]:** the payroll snapshot
 — the pivot scale stands 781 cells across; A_s = 1/N frozen. The μ-era referee (entry
@@ -92,7 +85,7 @@ whether dcdf clustering shifts reionization timing/τ has NEVER been computed. N
 debt: the τ link.
 
 **8. COSMIC DAWN / REIONIZATION, z ~ 6–30:** EDGES-sign fingerprint (P-043, the ×1 not
-×2); the JWST mid-ramp cooling question (parked, process-error-3 legacy); τ currently ridden
+×2); the JWST mid-ramp cooling question (parked); τ currently ridden
 from astrophysics.
 → **Tether 8→9 [RECORDED-standard]:** standard astrophysics plus the model's nulls.
 

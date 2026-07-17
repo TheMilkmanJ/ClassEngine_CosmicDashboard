@@ -4,9 +4,7 @@
 
 *Status: the model's* ***core empirical claim*** *— the one domain built in contact with
 the data rather than extended to it. The improvement is measured and evidence-priced; a
-zero-free-parameter Bayesian comparison against ΛCDM is running as of this revision.
-(Consolidated 2026-07-13; the superseded reach-estimate replaced by the signed verdict
-and the calibration-war analysis.)*
+zero-free-parameter Bayesian comparison against ΛCDM is running as of this revision.*
 
 ---
 
@@ -38,7 +36,7 @@ early stages of nucleosynthesis at production grade).
  it. The claim is not "SH0ES is fully explained"; it is "the sky prefers a universe
  with this mechanism in it, and the remaining gap is real information about the
  measurements."
-- **The reach computation (signed 2026-07-13)**: an exhaustive audit of every lever the
+- **The reach computation**: an exhaustive audit of every lever the
  model owns — the supernova-standardization channels (computed through synthetic
  photometry; the sign came out *opposite* to the tension, robustly, across 180
  template configurations), the survey-geometry leakage (+0.1–0.3%), and the
@@ -60,7 +58,7 @@ re-measurements are the community's own referee on exactly this point.
 The model additionally *contributes* a candidate systematic from its own physics: under
 its environmental screening reading, supernovae in dense versus sparse hosts carry a
 small standardization offset with the observed **SN host mass step's** direction —
-graded (2026-07-13, the web-scale-gate consistency passes): *subdominant at central
+graded (the web-scale-gate consistency passes): *subdominant at central
 values* (~0.02 mag of the observed 0.05–0.08 mag step, environment-tagged), with the
 full-step reading surviving only in one corner of the gate's allowed window — a corner
 that simultaneously fixes the Lyman-α forest offset, so DESI's forest cross-calibration

@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: structural synthesis (candidate), filed 2026-07-16. Zero new predictions of its own —
+*Status: structural synthesis (candidate). Zero new predictions of its own —
 it seats the model's already-recorded singularity results under one mechanism, the companion
 piece to [PRTOE_quantum_trio.md](PRTOE_quantum_trio.md). Rides M3 (the medium's reality) and
 the emergent-gravity frame. Component files:

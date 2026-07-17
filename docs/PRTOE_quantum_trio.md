@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: filed 2026-07-14. Grade: structural identity —
+*Status: structural identity —
 grammar-level, zero new predictions of its own; its content is the SEATING of three
 already-recorded results, plus one paired signature it inherits from the thermal program.
 Rides M3 (the medium's reality). Companion files:
@@ -48,7 +48,7 @@ three windows through which any condensate is seen.
 - **Why measurement-scale physics is classical** (recorded elsewhere, cited here): posting
  to 10²³ seats cannot be recalled — decoherence is the existing mechanism, not a fourth door.
 
-**Derivation backing (audit, 2026-07-16).** Each seating rests on a real result, not an
+**Derivation backing (audit).** Each seating rests on a real result, not an
 analogy: *entanglement* on the C4 CHSH computation (the pair states give B(r) = 2√(1+tanh²2r),
 saturating Tsirelson's 2√2 — the prediction is exact QM, the Tsirelson null, conditional on
 substrate quantization); *tunneling* on the identity WKB exponent = the medium's evanescent
@@ -74,7 +74,7 @@ sector, running), the isocurvature phase speed (the thermal face, awaiting data)
 consequence triangulation inherited from P-2026-040, carrying that bet's status and none of
 its own.
 
-## 4b. The third stage — neutrality, and superposition as its screening (2026-07-14)
+## 4b. The third stage — neutrality, and superposition as its screening
 
 The pair's two stories — coherence (the ordered phase) and decoherence (the thermal crowd) —
 have a genuine third stage between them: **pure neutrality, the critical seam.** At the

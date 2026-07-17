@@ -39,7 +39,7 @@ sensitivity; n reading differently in two members.
 [PlanckIso2019], [HajianSouradeep2003], [CSS1998], internal: P-024/P-029/P-031, the
 Assembly Six, the BipoSH pass, threads 12–16. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
-## 3. How to check — the tiered protocol (2026-07-12) + the Tier-0 reading
+## 3. How to check — the tiered protocol + the Tier-0 reading
 
 **Ramp discipline governs every template** (the standing discipline): comb teeth are
 finite-width smeared bumps (coherence), never δ spikes; the comb's envelope rises and

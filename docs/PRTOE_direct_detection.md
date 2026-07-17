@@ -48,7 +48,7 @@ particle to recoil, and no scale within reach — you can only weigh it, time it
 it on the radio.*
 
 
-## The number (paid 2026-07-12)
+## The number
 The trace-channel recoil cross-section, computed: **σ ≈ 8×10⁻¹⁵⁰ cm² — ~100 orders below
 the neutrino fog.** The underground silence is not a bet; it is arithmetic. Standing for
 every future exposure: continued nulls cost the model nothing and earn it nothing.

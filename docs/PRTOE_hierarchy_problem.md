@@ -5,7 +5,7 @@
 
 > **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). **One named condition has
 > since FAILED: the paired lepton-sector vacuum was excluded by the basement
-> rebuild (2026-07-13) — the gap-equation architecture below is
+> rebuild — the gap-equation architecture below is
 > retained as a template awaiting transfer to the Fermi-point basement, and every result
 > in this file inherits that conditionality.** Also conditional on: the no-bare
 > clause, P-2026-042's
@@ -28,7 +28,7 @@ one-loop echo.**
 
 ## 2. The math
 
-**(a) The anchor — current truth (post-audit, post-shooter-v2).** The arrows, graded:
+**(a) The anchor — current truth.** The arrows, graded:
 the hierarchy dial $x_0$ is CONSISTENCY-ONLY (a free dial of the GC dictionary that this
 closure selects — failures ledger §6); the census closure / duty-family landing is
 STRAINED (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
@@ -42,7 +42,7 @@ $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm an
 $$\frac{1}{g} = 34.85\text{–}35.43 \;\Longrightarrow\; g = (1.29\text{–}1.31)\,\alpha_c$$
 
 — stable to ±1% while the arrows scatter by ±0.3. Hence
-$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with $k \approx 1.3$ (ENTRY-43 UPDATE 2026-07-12: gap-equation k = 1.36 computed prescription-robust within the roster-forced screening class; sound-cone-bandwidth target 1.353 ± 0.04 — a 0.5% landing, estimate-grade, all ingredients recorded), **the gap
+$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with $k \approx 1.3$ (gap-equation k = 1.36 computed prescription-robust within the roster-forced screening class; sound-cone-bandwidth target 1.353 ± 0.04 — a 0.5% landing, estimate-grade, all ingredients recorded), **the gap
 equation's single owed number** (nearby rationals firewalled; the k is the equation's to
 derive). The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
 that runs the dyad and prices the vacuum (the one-coupling portfolio).

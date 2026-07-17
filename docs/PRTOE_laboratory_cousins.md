@@ -37,7 +37,7 @@ are borrowed from the most-tested systems in physics.
 
 ## 3. The forward program (flagged, un-priced)
 
-Specific bench questions the model would pay to have answered: (i) f_amp-analog measurements —
+Specific bench questions the model would pay to have answered: (i) **f̄-analog** measurements *(f̄ = 2/π = ⟨|cos|⟩, the standing object; "f_amp" was the retired decomposition's name)* —
 release a ring BEC with a Z4-patterned tilt and measure the radial/angular energy partition
 and its TIME-DRIFT (the model's ramp, on a bench); (ii) winding statistics in toroidal
 quenches vs the Kibble √N law (the n-distribution); (iii) phase-slip statistics under the

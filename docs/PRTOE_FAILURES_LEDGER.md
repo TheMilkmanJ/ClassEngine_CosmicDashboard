@@ -1,5 +1,13 @@
 # THE FAILURES LEDGER — every death, reversal, and retirement in one place (2026-07-12)
 
+
+> **GOVERNING PRINCIPLE (JP, 2026-07-17) — why this file exists.** The model's proud predictions are
+> **not mandated by the model.** Nothing is set in stone until the model is ~99–100% complete with
+> nothing left but the PolyChord evidences. A prediction a better mechanism would kill is not a wall
+> to defend — it is a candidate to test. Chasing a direction that may cost us even a flagship (e.g.
+> w = −1) is not recklessness; it is the method. **We bury what dies, with the why, and keep what
+> survives the full build.** This ledger is the record of that discipline, not a list of regrets.
+
 *The hygiene law: "Documenting failures is great, but things need to be
 separated. There should be a file specifically that labels failures, and keeps the main
 read gold." This is that file. The main read (INDEX → THREE_EQUATIONS → MATH_SPINE) states
@@ -758,4 +766,32 @@ verified by re-reading the file, not by trusting the script's exit.**
 *(All ten are now genuinely applied and grep-verified; the auditor's anchors are translated rather
 than deleted, the exponent rule is added, and the composed pair demonstrably catches a re-introduced
 2.251. Corpus-wide: **CLEAN**.)*
+
+### THE FLAGSHIP'S +1.5% IS A ROUNDING ARTIFACT — the DE-value "prediction" re-graded (2026-07-17)
+
+**The headline result the corpus led with — ρ_Λ¼ = 2.284 meV vs observed 2.25, "a +1.5% prediction"
+— is not a prediction. It is the rounding of 0.345 to 0.35.** `scripts/tau_deconfinement.py` computes
+one line: **tau_needed = 2.25/((9/2)α⁴m_e) = 0.34506** (the observed dark-energy density inverted).
+0.34506 → rounds to 0.35 → ×m_e = 178.85 keV → adopted as **T_c = 179 keV**. The three "+1.5%"s in
+the corpus are one number: **179/176.32 = 0.35029/0.34506 = ρ_Λ¼(179)/2.25 = +1.52%.** T_c = 179 keV
+has **no independent source** — "τ·m_e" is circular (τ ≡ T_c/m_e), the perturbative route is
+log-ambiguous 40–900 keV and gives 193, and the lattice band 0.34–0.37 is an **SU(3)** value while
+the dark sector is **SU(2)** (with √σ = m_e it gives ρ_Λ¼ ∈ [2.217, 2.413] meV, a ±4.2% window
+containing both 2.25 and 2.284 — the band cannot tell them apart).
+
+**What survives:** the *structure* ρ_Λ¼ = (9/2)α⁴τ·m_e — the DE scale as α⁴ times a temperature tied
+to the electron — is a real relation and **becomes a genuine prediction once a lattice T_c/√σ for
+SU(2), N_f = 3 is computed** (exactly what P-2026-048 bets on, still uncomputed).
+
+**How it was found and confirmed:** flagged in DERIVATION_HUNT §6 ("τ's 0.34–0.37 band is an SU(3)
+value … the flagship's 1.5% rides on it") but never propagated to the files that *claim* the
+flagship; surfaced by red team pass 3, verified by both fleet agents' independent recomputation
+(the three +1.5%s collapse to one number, confirmed to machine precision), and **independently
+reproduced by an external reviewer (Gemini) reading the pushed repo** — "a fit, not a prediction;
+SU(3) band for an SU(2) sector." Grade block now on cosmological_constant / MATH_SPINE /
+THREE_EQUATIONS and propagated to DERIVATION_HUNT §2, INDEX, DEPENDENCY_TREE, quantum_gravity,
+dcdf_superfluid, P-2026-048.
+
+**The lesson:** a stated caveat (§6) next to an unstated consequence (the flagship claim everywhere
+else) is a corpus-wide coherence failure the value-checker cannot see. It took red team.
 

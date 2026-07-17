@@ -70,7 +70,7 @@ environment recorded it, and that record — as always in this model — decided
 enough to count.*
 
 
-## Addendum (2026-07-12) — the decoherence interpretation [interpretation-grade]
+## Addendum — the decoherence interpretation [interpretation-grade]
 The reading: a superposition is a process initiated but not yet
 completed (both twin-amplitudes pending); measurement is the completion; decoherence is
 what completes it; and the completion DIRECTION is the condensate's own clock (the arrow).
@@ -78,7 +78,7 @@ Explicitly labeled an interpretation: the model rides standard QM exactly and it
 abstention on the measurement problem stands — this adds ontology, zero modified numbers.
 
 
-## Addendum 2 (2026-07-12) — the selection law [interpretation-grade]
+## Addendum 2 — the selection law [interpretation-grade]
 How the superposition is chosen: (i) the terms — least energy cost subject
 to the conservation constraints (the variational principle; exact for the vacuum: the gap equation);
 (ii) the probabilities — amplitude-squared by twin-swap symmetry (Zurek envariance

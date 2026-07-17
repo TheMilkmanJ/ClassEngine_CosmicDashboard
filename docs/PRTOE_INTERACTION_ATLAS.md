@@ -484,7 +484,7 @@ is its only coupling). Give it curvature and the product is determined:*
  class as the medium). The room's falsifiable furniture exists in
  at least one laboratory universe.
 - **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
- on sub-eV scales without being asked — M₂ = **9.53 eV** (= α²·T_c, derived; *the 9.4 was the retired selected-M₂ back-solve*),
+ on sub-eV scales without being asked — M₂ = **9.53 eV** (= α²·T_c, derived),
  the ~20 nm cutoff, the κ_v opening pass demanding an eV-scale
  portal, and, computed here: **ρ_∞^(1/4) = 2.25 meV — the mass
  scale of the lightest neutrino** (normal hierarchy: ~1–10 meV).

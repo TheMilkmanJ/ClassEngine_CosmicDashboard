@@ -36,8 +36,7 @@ theory:
       lensing: 'yes'
 params:
   YHe:
-    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236) +
-      0.17*(varying_me-1.0)'
+    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2'  # measured PRyM curve 2026-07-17
     derived: false
   omega_b:
     prior:
@@ -191,9 +190,7 @@ params:
     derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
     latex: S_8
 prior:
-  bbn: 'lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__(''numpy'').log(omega_b/0.02236)
-    + 0.17*(varying_me-1.0) - 0.2449)/0.0040)**2 + ((2.53e-5*__import__(''numpy'').exp(-1.6*__import__(''numpy'').log(omega_b/0.02236)
-    + 0.4*(varying_me-1.0)) - 2.527e-5)/0.030e-5)**2 )'
+  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2 - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) + (0.01816831*((varying_me-1)*100) + (-0.00242341)*((varying_me-1)*100)**2)*1e-5 - 2.527e-5)/0.030e-5)**2 )"
 sampler:
   polychord:
     nlive: 400

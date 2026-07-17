@@ -28,7 +28,7 @@ twist_floor.py, c1_locus_twist.py.*
 - Turnaround a_turn=(Ω_m/|ρ_bare|)^{1/3}; requires **ρ_bare > −0.30** or we'd be collapsing now. Reverse in **~tens of Gyr**.
 - Effective w today DESI-compatible (w≈−0.86 for τ~3 Hubble). Costs: ρ_bare & τ free (2 params); "why cancel now" = CC coincidence relocated (Barrel B).
 
-### 3. The floor's rotation — the barotropic CLAMP is an ARTIFACT (user's correct challenge)
+### 3. The floor's rotation — the barotropic CLAMP is an ARTIFACT
 - Coded floor w(ρ)=−exp(−s), s clamped ≥0 ⇒ **ρ≥ρ_inf enforced, reverse clamped OUT**; deviation ∝ a⁻³ (w=0, fast).
 - BUT that is the ON-ATTRACTOR FLUID limit. The full ghost-condensate **field** (ghost_field.py), mildly displaced, gives a **dynamic slow** w: w_today ≈ −0.94 (barely) to −0.67 (mild), accelerating, → −1 in future. **"Dynamic-slow beats fixed-fast" vindicated; the clamp hides the field's slow-roll d.o.f.**
 - Below the floor is **phantom runaway** (w<−1), which is *why* the clamp exists. The single field **freezes** (w→−1) — wrong DESI direction — and settles to +ρ_inf (no reverse alone). A reverse needs the attractor sign negative or a 2nd field.
@@ -52,12 +52,12 @@ twist_floor.py, c1_locus_twist.py.*
 
 ### 7. Twist seeding — a SPHERE can't, a TORUS must (c1_locus_twist.py)
 - Helicity H=∫v·(∇×v): **spherical radial collapse → H=0 exactly** (curl-free; no net twist — the missing-axis problem, proven).
-- **Torus-supported Beltrami flow → H/E=+1** (validated numerically after a curl-index fix). Poloidal+toroidal circulation = the **two counter-rotations**; the torus **symmetry axis** = the missing axis.
+- **Torus-supported Beltrami flow → H/E=+1** (validated numerically). Poloidal+toroidal circulation = the **two counter-rotations**; the torus **symmetry axis** = the missing axis.
 
 ### 8. The torus convergence — two independent threads meet (P-2026-013)
 - The torus was ALREADY the registered shape: **P-2026-013**, flat 3-torus, motivated independently (finitism, no-center, H₀-safe; CMB quadrupole suppression for L~2–2.5 D).
 - Genesis, worked from the other end, **demands** a torus for the twist axis. Independent convergence.
-- **The GR name for this instant (2026-07-12) [GRAMMAR + EXPLORATORY]:** the heat-fountain genesis reads as the one realized white-hole-like handover — the time-reverse solution GR always carried, cashed exactly once with no exterior counterparty. Causal-structure reading, not a derivation; the identification, grades, and fences: [PRTOE_white_holes.md](PRTOE_white_holes.md).
+- **The GR name for this instant [GRAMMAR + EXPLORATORY]:** the heat-fountain genesis reads as the one realized white-hole-like handover — the time-reverse solution GR always carried, cashed exactly once with no exterior counterparty. Causal-structure reading, not a derivation; the identification, grades, and fences: [PRTOE_white_holes.md](PRTOE_white_holes.md).
 - **Cross-bounce bookkeeping:** rotation is dynamical (resets to 0 at crunch); **topology is not** — the torus survives and carries the axis across the bounce for the heat fountain to re-seed spin. Topology holds what dynamics loses.
 
 ### 9. Bubble-ring mechanism + the LOCAL≠GLOBAL torus caveat
@@ -75,7 +75,7 @@ A **coherent cyclic-genesis narrative assembled from real mechanisms** (acoustic
 
 ---
 
-## THE BIREFRINGENCE DOOR ARC (2026-07-10) — the model's first distinctive-in-principle object, computed down
+## THE BIREFRINGENCE DOOR ARC — the model's first distinctive-in-principle object, computed down
 
 **Claim:** one complex field Psi=|Psi|e^{i θ}, three field-handles: |Psi|→mass (dyad),
 θ→birefringence (θ F.Ftilde via the electron chiral anomaly), θ-dot→AD charge.
@@ -120,6 +120,6 @@ Psi-sourced, beating gate-0 BBN + hierarchy + τ-Barr-Zee EDM) is now the WHOLE 
 
 **Also:** neutrino "clock" (quasar-blindness traces to the neutrino MASS SCALE:
 heavier states go non-rel at z~16-94, above the quasar window; z=50 ~ 27meV, in-band, value not
-derived; corrected a factor-3.15² error mid-computation); Job-3 null (the threshold has 2 jobs
+derived); Job-3 null (the threshold has 2 jobs
 not 3 -- the AD charge is genesis-set, 29 orders above the meV floor; "everything has 3 jobs"
 FAILS its own test; the FIELD has 3 handles, objects inherit only what they couple to).

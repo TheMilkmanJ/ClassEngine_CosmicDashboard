@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: identity consolidation, 2026-07-15. Grades inline: **[ESTABLISHED]** · **[CANDIDATE]** ·
+*Status: identity file. Grades inline: **[ESTABLISHED]** · **[CANDIDATE]** ·
 **[KILLED]**. Quantitative derivation lives in [PRTOE_me_trigger.md](PRTOE_me_trigger.md) /
 [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md); this file is the WHAT-IT-IS. It is one
 of TWO dark fields — its partner is the dCDF superfluid
@@ -15,7 +15,7 @@ of TWO dark fields — its partner is the dCDF superfluid
 
 Field 2 of the dark sector: a **charge-free field that couples to the electron**. It condenses via
 the electron's Coleman–Weinberg backreaction (radiative SSB): VEV **v ≈ 100 keV**, condensation
-temperature **T_c ≈ 179 keV** (the non-perturbative confining chiral value; the perturbative μ = T
+temperature **T_c ≈ 179 keV** (the observed ρ_Λ inverted-and-rounded, not independently sourced; the perturbative μ = T
 fixed point gives 193 keV, log-ambiguous over [40, 900] keV, as the cross-check).
 
 *(A note on "gas": this is the operator's phase-framing for the dyad's **complementary role** to

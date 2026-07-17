@@ -3,8 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: identity consolidation, 2026-07-15 — the dCDF's scattered identity pulled into one
-place. Grades are inline: **[ESTABLISHED]** derived/coded and load-bearing · **[CANDIDATE]**
+*Status: identity file. Grades are inline: **[ESTABLISHED]** derived/coded and load-bearing · **[CANDIDATE]**
 coherent synthesis, unbanked · **[KILLED]** tried and dead. The quantitative derivations live in
 [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md) /
 [PRTOE_v5_dCDF_complete.md](PRTOE_v5_dCDF_complete.md); this file is the WHAT-IT-IS, not the
@@ -25,7 +24,7 @@ fluid, two eras**.
 
 **The binding channel is s-wave, and the data selects it.** E_b is a Coulombic two-body level
 (E_n = ½α_c²M₂/n², partial wave ℓ requiring n ≥ ℓ+1), so the channel picks the level: the s-wave
-ground state gives **2.284 meV (+1.5%** vs the observed 2.25), against **−74.6%** for p-wave and
+ground state gives **2.284 meV** *(the +1.5% is used here only RELATIVELY, to select ℓ = 0 against p/f-wave; its absolute standing is the τ-rounding grade, [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md))* vs the observed 2.25, against **−74.6%** for p-wave and
 **−93.7%** for f-wave ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4c). The
 flagship's agreement *requires* ℓ = 0.
 

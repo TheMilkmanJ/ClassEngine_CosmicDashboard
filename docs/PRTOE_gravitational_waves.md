@@ -51,7 +51,7 @@ strain-scale sits below PTA sensitivity — the GW sector neither rescues nor th
 dyad. The model's GW record: one computed silence, one signed chirality, one deep prong, zero
 current tensions.
 
-## 5. The lightswitch — the parity channel's biography and the SPLIT prediction (2026-07-14)
+## 5. The lightswitch — the parity channel's biography and the SPLIT prediction
 
 The parity-odd coupling θR R̃ is a TOGGLE by construction (parity-odd terms flip, they do not
 dial) and its action on a passing wave is helicity-selective — one circular polarization

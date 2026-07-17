@@ -30,7 +30,7 @@
 > make this a prediction: a lattice T_c/√σ for SU(2) with N_f = 3** — precisely the number
 > P-2026-048 bets on, and precisely the number nobody has computed.
 >
-> *(Found by red team, 2026-07-17, after this file's own §6 had flagged the risk — "τ's 0.34–0.37
+> *(Found by red team, 2026-07-17, after [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 had flagged the risk — "τ's 0.34–0.37
 > band is an SU(3) value … **the flagship's 1.5% rides on it**" — without the flagship's claim ever
 > being re-graded. A stated caveat next to an unstated consequence.)*
 
@@ -90,7 +90,7 @@ running instrument:
 > | factor | owner | why |
 > |---|---|---|
 > | **α⁴** = α_c² × α² | **the dCDF** | α_c² is its **binding**; α² is the **EM handshake** — and α is the dCDF's own coupling because **light is its massless Goldstone** ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §4) |
-> | **T_c** | **the dyad** | its condensation temperature, 179 keV (derived) |
+> | **T_c** | **the dyad** | its condensation temperature, 179 keV *(the ratio τ = T_c/m_e is what's derived-and-rounded; 179 keV itself is not independently sourced — flagship-grade block)* |
 > | **d²/2 = 9/2** | **geometry** | d = the spatial dimension (the same 3 as in α_c = 3α) |
 >
 > **Neither field produces the number alone**: the dark-energy scale is the dCDF's coupling raised
@@ -207,7 +207,7 @@ Code: `dcdf_floor_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ_flo
 
 **7d. The end (and the next start).** The thaw completes → expansion reverses → contraction
 blueshifts radiation (a⁻⁴ grows) → the heat fountain reignites → T climbs back through **T_c**
-(the SAME derived T_c of §4) → **the dyad condensate MELTS** (m_e → standard for the crunch) →
+(the SAME T_c of §4) → **the dyad condensate MELTS** (m_e → standard for the crunch) →
 charge survives in solitons/Q-balls [requires gravity-mediated K<0: fragmentation
 banks the charge at T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis
 across the bounce (rotation resets, topology doesn't) → re-expansion cools through T_c → the

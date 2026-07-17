@@ -3,7 +3,7 @@
 2. PRICE THE Q-DRIFT FALSIFIER: current μ/e and τ/e mass-ratio precisions → what Q-drift bound exists today; where could it improve (muonic atoms, τ factories)?
 3. The internal review shave folded in: claim = "the dyad is the rare new physics that provably cannot move Q," not "survival explained."
 
-## PAID item 2 (2026-07-12, light-compute): Q = 0.6666605 ± 6.8×10⁻⁶ today
+## PAID item 2 (light-compute): Q = 0.6666605 ± 6.8×10⁻⁶ today
 (τ-dominated; 0.9σ from exactly 2/3). THE FENCE: any non-multiplicative dyad distortion
 must sit below ~7×10⁻⁶ — the dyad's multiplicative universality passes by construction;
 improvement path: τ-mass (Belle II class). Item 1 (the 2/3 derivation) stays open.
@@ -195,6 +195,14 @@ numbers**. M is free, θ is free, and **all of Koide is the single fact that A l
 | the **white hole** | **M** — the background it deposited | k_up |
 | the **dCDF** | **R** — the swing away from it | −k_down |
 | the **dyad** | **θ** — the rotation | ±k_neutral |
+
+> *(A reader's aside, filed here and nowhere else: since the model already has a "white hole" (the
+> pour) and a "black hole" (the crunch, its cyclic mirror), one is tempted to call this ±k_neutral
+> dyad corner the **"grey hole."** It is neither grey nor a hole — but "black hole" and "white hole"
+> are both equally terrible names for things that are neither black, white, nor holes, so the
+> nickname is exactly as wrong as its siblings and no more. **It is a joke, not a claim:** the dyad
+> is a Koide-triangle corner, NOT a third member of the black↔white cyclic axis. The model's actual
+> scheme — white hole / dCDF / dyad, and the separate crunch↔pour bounce — stands unchanged.)*
 
 **This clears T6's 2026-07-14 ruling, and the distinction is the whole point.** The ruling says
 family space is **Z₃, a label — not the condensate phase**; the Z4-torus floor died for seating the

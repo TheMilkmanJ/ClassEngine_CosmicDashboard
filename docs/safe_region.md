@@ -2,6 +2,9 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
+> **PRE-DYAD ERA — SUPERSEDED.** This stability sweep is over the **scalar-tensor F(φ)R** parameters
+> (ξ, ζ, φ_c, Δφ), which are not the current model. The standing PRTOE is the two-field **dyad +
+> dCDF** construction; see [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). Kept for the record.
 
 **Date**: 2026-06-29 
 **Status**: Preliminary Analysis
