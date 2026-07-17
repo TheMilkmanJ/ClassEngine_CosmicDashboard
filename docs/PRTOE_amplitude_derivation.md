@@ -1,4 +1,23 @@
-# The 1.24% Amplitude — Consolidated Derivation (the showcase room, 2026-07-07)
+# The 1.24% Amplitude — Consolidated Derivation (historical, 2026-07-07)
+
+> # ⚠ SUPERSEDED DECOMPOSITION — DO NOT CITE THIS FILE'S FACTORS AS CURRENT
+>
+> **This file records the retired `ε = c × f_amp × (Ψ₀/M_red)` factorization.** The standing
+> decomposition is **`ε = c·f̄·α_c = 27α/5π = 1.2543%`** — see
+> [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 and
+> [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1.
+>
+> Specifically retired here: **f_amp ≈ 0.6 ("COMPUTED, from the genesis dice")** and
+> **c ≈ 0.94** and **Ψ₀/M_red ≈ 2.2%**. In the standing decomposition the factors are
+> **c = 9/10** (the census over the universal charged-fermion roster), **f̄ = 2/π** (the winding
+> mean-absolute-sinusoid), and **α_c = 3α** (under MCMC test). MATH_SPINE §0 records why: the
+> old `c(m) = (m/m₀)^{1/4}` route was a relic of *this* decomposition, and read backward it is
+> dead by its own arithmetic — it forces c = 1.005 while the census excludes c = 1.
+>
+> **Why the banner exists (2026-07-16):** an external reviewer read this file and reported
+> `f_amp ≈ 0.6` as the model's live claim, because nothing here said otherwise. The generic
+> "some statuses may be superseded" hedge below was not enough — a retired *headline
+> decomposition* needs a named retirement, not a disclaimer. Kept for provenance only.
 
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
