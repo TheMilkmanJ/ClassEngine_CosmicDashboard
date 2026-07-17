@@ -467,3 +467,43 @@ and still carrying the retired decomposition ε = c·f_amp·Ψ₀/M_red as its m
 closed target does not close its docket; the docket has to be walked back to.** The paired
 "gravity self-clumping to the c=1 attractor" assumption dies with it.
 
+### The Lagrange/Gascheau merge criterion (the three-body import) — KILLED THE DAY IT WAS RAISED (2026-07-17)
+
+**The import (mine, not JP's).** JP proposed that the dCDF, the dyad and the white hole must sit at
+120° for the merge to succeed, else the three-body problem throws them apart. I matched this to
+**Lagrange's equilateral solution (1772)** and **Gascheau's stability theorem (1843)**,
+27(m₁m₂+m₂m₃+m₃m₁) < (m₁+m₂+m₃)², verified the criterion against three cases with known answers,
+and credited it with supplying **a relation among the three deposits from outside the ring** — the
+shape the Koide blank needs.
+
+**What killed it: the category question — what mass does each object contribute?** Gascheau's *m*
+is the **active gravitational** mass, ρ(1+3w) (Komar), not the energy density. Three independent
+breaks, any one fatal:
+
+1. **Positive-mass theorem, mixed-sign system.** Two of the three members carry **negative** active
+   mass by independent routes: the dCDF (w = −1 ⟹ 1+3w = −2) and the dyad (binding energy ⟹ ρ < 0).
+   Mixed-sign Newtonian gravity produces **Bondi runaway**, not orbits; the linearisation has no
+   ground under it.
+2. **Not bodies.** Lagrange needs three localised masses at distinct positions with an orbit.
+   Overlapping fields have no separation.
+3. **Stability is the condition NOT to merge.** A Gascheau-stable configuration *persists*. The
+   picture requires the three to converge. **Satisfying the criterion would falsify the picture it
+   was imported to support.**
+
+**The √2 dies with it.** The marginal boundary's discriminant is exactly 2592 = (36√2)², giving
+y_c = (√2−1)²/9 — but it was already quarantined (the √2 sits in the discriminant, not in any ratio
+the boundary offers: 0.0198, 50.456, 7.103, none equal to 1.414214), and it is now the discriminant
+of an inapplicable criterion.
+
+**What survives, and it is JP's:** (i) the **shape** — that a merge requires the three to balance,
+and that balance is what relates the deposits; still the only proposal reaching M and R from outside
+the ring. (ii) the **sign structure**, earned: JP's face labels reproduce the signs of ρ(1+3w)
+unprompted — white hole = k_up → positive; dCDF = −k_down → negative; dyad = ±k_neutral → ρ < 0.
+The assignment preceded the equation-of-state check.
+
+**The lesson (process).** I imported a **stability** theorem to explain a **merge** and did not
+notice for a full pass that the two are opposites — while explicitly warning, in the same write-up,
+against grabbing the nearest number. The enthusiasm was the tell: the match was to the *picture*
+(three things, 120°, falls apart otherwise), never to the *physics* (what gravitates, and whether it
+persists or converges). **A theorem that matches the story is not a theorem that applies.**
+

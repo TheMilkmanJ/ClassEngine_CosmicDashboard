@@ -231,7 +231,45 @@ coupling is not what produces it), and the ring's 120° is likewise just what "t
 means. **Both 120°s are the same trivial arithmetic, and their agreement carries no information.**
 The claim that must do the work is the *merge condition*, not the angle.
 
-### THE MERGE CONDITION — the blank's SHAPE earned from outside the ring (JP, 2026-07-17)
+### THE MERGE CONDITION — JP's shape STANDS; the Gascheau import is RETRACTED (2026-07-17)
+
+> **RETRACTION, same day, by the category question JP ordered.** The Lagrange/Gascheau reading
+> below was **mine**, and it does not apply. **Three independent breaks**, any one fatal:
+>
+> 1. **It is a positive-mass theorem.** Running JP's assignment through the *active
+>    gravitational* mass ρ(1+3w) — the Komar mass, which is what Newtonian *m* becomes in GR —
+>    gives **two negative members** by two independent routes: the **dCDF** (w = −1 ⟹ 1+3w = −2:
+>    positive energy, negative active mass) and the **dyad** (binding energy ⟹ ρ itself < 0).
+>    Mixed signs do not merely change the number: Newtonian mixed-sign gravity gives **Bondi
+>    runaway** (negative chases positive, positive flees negative), so the linearisation Gascheau
+>    performs has no ground under it.
+> 2. **These are not bodies.** Lagrange requires three *localised* masses at three distinct
+>    positions with a separation and an orbit. Overlapping fields have no r.
+> 3. **Stability is the condition NOT to merge.** Gascheau-stable means the configuration
+>    *persists* — orbits forever. JP's picture requires the three to *come together*. **The
+>    criterion being satisfied would falsify the merge picture, not support it.** The import was
+>    backwards on its own terms.
+>
+> **The √2 quarantined below is therefore doubly dead** — a discriminant of an inapplicable
+> criterion. **Kill condition (i) as written is void**, not open.
+>
+> **WHAT SURVIVES, and it is JP's, not the import's:**
+> - **The shape of the blank.** The three must *balance* for the merge to succeed, and that
+>   balance is what relates the deposits rather than leaving them independent. Unsourced, but
+>   the right shape — and still the only proposal that reaches M and R from *outside* the ring.
+> - **The sign structure, earned.** JP's face labels reproduce the signs of ρ(1+3w) *unprompted*:
+>   **white hole = k_up → active mass POSITIVE**; **dCDF = −k_down → active mass NEGATIVE**;
+>   **dyad = ±k_neutral → ρ < 0**. The assignment was made from intuition before the equation of
+>   state was consulted. This is a real structural result and it is independent of the dead import.
+>
+> **The one door left, at WATCH grade only:** a merge may be the **marginal** configuration —
+> neither persisting nor dispersing — and marginality is an *equality*, the right shape for
+> forcing a ratio. But "marginally stable" and "merges" are different statements, and the leap is
+> not taken here.
+
+*(The original import is retained below as provenance. It is NOT live.)*
+
+### [RETRACTED — see above] The blank's SHAPE from Lagrange/Gascheau (JP, 2026-07-17)
 
 **The claim (JP):** *the dCDF, the dyad and the white hole must be at 120° to each other for the
 merge to succeed — otherwise the three-body problem throws them apart and nothing can gravitate
