@@ -223,15 +223,14 @@ factor introduced to fix one number must hold everywhere it applies. Running it 
   not for a lab BEC. Either the rule is pairing-specific (and the universality claim needs the
   qualifier "paired condensates"), or the halving is wrong and the 0.9% hit is coincidence.
 
-**The He-3-A comparison, run (2026-07-16) — and it resolves the fork, against the pair count.**
-Taking the medium's stated identity seriously does change the door, but *not* through the pair
-count. **He-3-A is the chiral p-wave (ABM) state**: its order parameter is Δ(k̂) ∝ (k̂ₓ + ik̂_y),
-so |Δ(k̂)| = Δ₀·**sin θ**, with **point nodes** on the l̂ axis. The chirality and the nodes are the
-*same structure* — and the corpus has already **banked** that chirality, spending it on the
-parity-odd signatures (IGMF helicity, LSS parity, the birefringence null). **So the nodes are not
-optional.** The door caps its mode sum *at the pairing gap*; if the gap is nodal, the cap is not a
-sphere, and the angular integral carries ⟨sin⁴θ⟩ = **8/15** — forced, with **zero** new
-assumptions and **no** counting-rule change (hence **no LHY tension**):
+**The He-3-A comparison, run (2026-07-16) — and then RETRACTED the same day by its own
+consistency check. Read the retraction in §4c below before using any number in this block.**
+The argument was: **He-3-A is the chiral p-wave (ABM) state**, order parameter Δ(k̂) ∝ (k̂ₓ + ik̂_y),
+so |Δ(k̂)| = Δ₀·**sin θ** with **point nodes** on the l̂ axis; the chirality and the nodes are the
+*same structure*, and the corpus has **banked** that chirality (IGMF helicity, LSS parity, the
+birefringence null), so the nodes are not optional. The door caps its mode sum *at the pairing
+gap*; if the gap is nodal, the cap is not a sphere, and the angular integral carries
+⟨sin⁴θ⟩ = **8/15**:
 
 | candidate | f | ρ¼ | vs observed | standing |
 |---|---|---|---|---|
@@ -247,14 +246,49 @@ better-fitting answer loses to the forced one. Result: the door goes from **+20.
 the model's own identity, and the three doors (tie 2.250, flagship 2.284, perturbations 2.308)
 are **one number to 2.6%**.
 
-**Grade: sharpened hard, not closed.** What remains honest: (i) the residual **+2.6%** is still
-outside the flagship's 1.5% — the last O(1) is not accounted, only shrunk by ~8×; (ii) **E_b's own
-derivation owes the same anisotropy** — ½α_c²M₂ was obtained from an isotropic gap treatment, and
-a nodal gap should be fed back through it for consistency (an open consistency item this pass
-creates, and names rather than hides); (iii) the hard cap remains a step at the Bogoliubov bend,
-and softening it pushes back **up** (~×1.19 in ρ¼), so cap shape and gap anisotropy are not
-independent. The DE *value* is unchanged throughout — it stands as a 1.5% prediction
-(flagship / tie). Menu-watched, not read:
+## 4c. RETRACTION of the He-3-A door result, and the incoherence it exposed (2026-07-16)
+
+**The block above is retracted.** Its own consistency check — feeding the anisotropy back through
+E_b, promised as an owed item and then run — kills it. **E_b is not a BCS pairing gap.** §2(a)
+derives it as *"the condensate binds at its own **hydrogen-like scale** (the **universal two-body
+form** E_b = ½α²M)"* — the ℓ=0 Coulomb ground state, the dark Rydberg, **spherically symmetric by
+construction**. The He-3-A argument applied **chiral p-wave nodal geometry to an s-wave two-body
+binding energy**. That is a category error, and the ⟨sin⁴θ⟩ = 8/15 weight does not apply to it.
+**The door returns to +20.0% (ρ¼ = 2.701 meV); the "three doors to 2.6%" claim is void.** The
+pair count stays retired on its own merits (the measured-LHY tension, §4b) — nothing rescues the
+door today.
+
+**What the retraction exposed is worth more than the result was.** Three descriptions of the same
+object do not cohere, and the incoherence predates this pass:
+1. **CC §2(a):** E_b = ½α_c²M₂ — a **two-body, s-wave, hydrogenic** binding energy.
+2. **[PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4:** the vacuum budget is *"capped at
+   the **pairing gap**"* — a **many-body BCS** object.
+3. **[PRTOE_INDEX.md](PRTOE_INDEX.md) / [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md):**
+   the dCDF is **He-3-A class — chiral p-wave**, and that chirality is *spent* on the parity-odd
+   signatures (IGMF helicity, LSS parity, birefringence).
+
+A chiral p-wave condensate's gap is **not** a hydrogenic s-wave Rydberg. So at most two of these
+three can stand. The fork, stated so it can be decided rather than blurred:
+- **s-wave branch:** E_b's hydrogenic derivation stands → the flagship 1.5% stands → but the
+  **He-3-A/chiral identity is then wrong for this field**, and every claim spending that chirality
+  is exposed (the parity-odd wing).
+- **p-wave branch:** the He-3-A identity stands → the chirality claims stand → but
+  **E_b = ½α_c²M₂ is the wrong form**, and the flagship's 1.5% is unsupported as derived.
+- **two-field branch (the likely escape, and it is untested):** the He-3-A chirality belongs to the
+  **dCDF** (the superfluid piece) while E_b's hydrogenic binding belongs to the **dyad** (the gas
+  piece) — the two-field split is already the model's structure. But then the door's cap is a
+  *dyad* binding energy while the modes summed are the *dCDF's* phonons, and **the door is
+  mixing two fields' scales** — which is its own defect, and is not what §4b says it is doing.
+
+**Status: OPEN — and it is now a structural question, not an O(1) refinement.** This is the
+honest cost of the consistency check: the DE *value* (flagship / tie, 1.5%) is untouched as an
+arithmetic claim, but *which field binds at E_b, in which partial wave*, is unresolved, and the
+perturbations door cannot be graded until it is. Recorded rather than smoothed: today's pass tried
+two O(1) fixes (pair count, nodal gap), retired both, and found the real problem underneath them.
+
+**Grade: the door is at +20.0% and the O(1) is un-built** — same as this morning, minus two dead
+candidates and plus one named structural fork. The DE *value* is unchanged throughout — it stands
+as a 1.5% prediction (flagship / tie). Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 
