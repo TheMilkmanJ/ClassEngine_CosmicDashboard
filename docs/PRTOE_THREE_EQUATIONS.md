@@ -74,8 +74,9 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
  gravity-blind democratic count. So the value is **9/10, conditional on keeping the tie a lock** (the
  flagship position); the empirical f̄ ensemble / α_c chain (P-2026-040) remains the independent check.
 - $\bar{f} = 2/\pi = 0.63662$: **derived** — the winding's time-average $\langle|\cos|\rangle$, forced by many-turn equidistribution, with the coupling form data-selected (2026-07-16). *(The winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of $\bar{f}$.)* It is
- candidately $2/\pi$ (P-2026-041; the high-statistics ensemble decides). A
- simulation output with an open closed-form question, not a parameter.
+ the winding's mean-absolute-sinusoid, with the coupling form data-selected (P-2026-041; the
+ high-statistics ensemble is the **check**, not the source). **Derived — not a parameter, and not
+ a simulation output.**
 - $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), booked BEFORE the deciding
  measurement (the α_c chain) converges — and 2.3% ABOVE where current data points, so it is
  falsifiable within weeks, not retrofit ever.

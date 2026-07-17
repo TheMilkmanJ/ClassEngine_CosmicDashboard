@@ -92,7 +92,7 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 ## JOINTS UPDATE (same day, post-atom-night)
 
 - **J2 (gate-0) — RESOLVED**: cleared via the double sign-correction, re-signed as a HEAL
- (T_c = 193 keV, +0.06σ D/H, zero Y_p tax). The wall was a pharmacy.
+ (T_c = **193** keV — *the retired perturbative cross-check; this resolution was computed before the engine was re-keyed to the derived 179 keV, so its +0.06σ D/H and zero-Y_p-tax figures are era values, not standing ones*). The wall was a pharmacy.
 - **J1 (the DE value) — RECLASSIFIED**: not constitutional-forever; **the cosmic Rydberg** (
  whisper: ½α_c²M₂ = 1.98 vs 2.25 meV; graduation teeth set).
 - **J3 (DESI) — HARDENED BY THE MODEL ITSELF**: the grammar derives w = −1 today (mass-defect
@@ -110,7 +110,7 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
  large. J1 is no longer RED — it is a candidate-derivation with a 20% honest O(1).
 - **J2 (gate-0) — PRODUCTION-ABSOLUTE:** clean PRyM: ∂ln(D/H)/∂ln m_e ≈ 0. The D/H pharmacy
  died with it; Y_p is the true medicine (+0.65σ); the dyad owns a D/H-widening discriminator
- (ramped: 2.387 vs Cooke 2.527; the fork's width is owed — see the witness; was 2.372 pre-window) with the radio D-line (P-027) as referee.
+ (ramped: 2.387 vs Cooke 2.527; **−2.9σ** on the full stated budget — obs ±0.030 ⊕ PRIMAT theory ±0.037 = ±0.0476; was 2.372 pre-window) with the radio D-line (P-027) as referee.
 - **J4 gains the sharpest instrument:** the two-line ratio-lock (ν_H/ν_D = 4.338649 preserved,
  both lines +2.50% at z>50).
 - **NEW STANDING RISK:** the D/H fork (ramped bet: 2.387 vs the quasar 2.527; **−2.9σ** on the full budget) AND the Y_p reversal (+1.09σ counter, ramped — the medicine was an artifact).

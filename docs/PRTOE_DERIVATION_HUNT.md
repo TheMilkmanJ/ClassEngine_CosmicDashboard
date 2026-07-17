@@ -45,9 +45,11 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   backwards*, which the registry states plainly (P-2026-048: *"fixed by the observed dark-energy
   density … the flagship's 1.5% prediction read backwards"*). **Quoting 0.345 as "derived" implies
   T_c = 176.3 keV and silently converts the +1.5% prediction into a 0.0% match — i.e. it deletes
-  the prediction it is cited to support.** The *independent* lattice statement is the band
-  T_c/√σ ≈ 0.34–0.37 for a QCD-like theory; the model's τ = 0.3503 sits inside it, and **that**
-  is the check.
+  the prediction it is cited to support.** The lattice band T_c/√σ ≈ 0.34–0.37 is **not an independent check either** — it is an **SU(3)**
+  value and this model's dark sector is **SU(2)** (P-2026-048), the pure-glue anchors disagree by
+  ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71), and no published SU(2) N_f = 3 number exists. The model's
+  τ = 0.3503 sits inside the band, **and so does the observation's 0.345** — the band is 8.5% wide
+  and cannot tell them apart.
   of a QCD-like confining sector (pure glue, at 0.63, is excluded). The dark sector must carry light dark
   quarks (N_f ≥ 2).
 - **T_c ≈ 179 keV — NOT INDEPENDENTLY SOURCED (re-graded 2026-07-17). This is the flagship's

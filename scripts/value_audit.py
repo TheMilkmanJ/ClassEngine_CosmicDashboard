@@ -49,11 +49,15 @@ CHECKS = [
       ok=[0.248995,0.24900,0.2490],
       bad={0.2495:"the LT-STEP interval (P-036 predecessor, retired on the ramp)",
            0.2505:"the LT-STEP interval (P-036 predecessor, retired on the ramp)"}),
- # EXPONENT CHECK (added 2026-07-17): the rule below captures the MANTISSA only, so
- # "D/H = 2.387x10^5" matched ok=[2.387] and PASSED -- the sign-drop that hit six files was
- # invisible by construction. D/H is ~1e-5; any other exponent is a defect.
- dict(q="D/H exponent", rx=r"D/H[^.\n]{0,40}?[0-9]\.[0-9]{3,6}\s*[x×]\s*10([⁻\-]?)[⁵5]",
-      ok=[], bad={}, exponent_sign_check=True),
+ # EXPONENT CHECK -- REWRITTEN 2026-07-17 (the first version was DEAD CODE: its capture group
+ # grabbed a SIGN STRING, so "2.387x10^5" yielded no groups and the rule could not fire, while
+ # "2.387x10^-5" threw on float('⁻') and was swallowed by the except. ok=[]/bad={} meant nothing
+ # to match even if reached, and exponent_sign_check was never read. The two real sign-drops were
+ # fixed BY HAND; the rule meant to prevent recurrence was inert. THE AUDITOR'S FIFTH ERROR.
+ # This version captures the EXPONENT DIGIT and flags any D/H power that is not 10^-5.
+ dict(q="D/H exponent", rx=r"D/H[^.\n]{0,44}?[0-9]\.[0-9]{3,6}\s*[x×]\s*10(?!⁻)(?!\^?-)([⁰¹²³⁴⁵⁶⁷⁸⁹0-9])",
+      ok=[], bad={5.0:"D/H = 2.387x10^+5 -- THE EXPONENT SIGN IS DROPPED. D/H is ~1e-5; as written this states 238,700.",
+                  4.0:"D/H exponent is not -5", 6.0:"D/H exponent is not -5"}),
  dict(q="D/H value", rx=r"D/H[^.\n]{0,40}?([0-9]\.[0-9]{3,6})",
       ok=[2.387],
       bad={2.470340:"PRyM-DEFAULT-omega_b absolute -- WITHDRAWN (process error 38); RELATIVE effects only",
@@ -107,6 +111,13 @@ CHECKS = [
            2.251:"the RETIRED circular precision (M_2 back-solved from the answer; 'that precision was circular' -- FAILURES_LEDGER). Standing: 2.284 meV, +1.5%"}),
  dict(q="Sigma m_nu", rx=r"(?:Σm_ν|Sigma m_nu|Σ)\s*(?:=|≈)\s*([0-9]{2}\.?[0-9]*)\s*meV",
       ok=[61.4, 61], bad={}),
+ # tau RULE (added 2026-07-17): tau = T_c/m_e = 0.3503 DERIVED. 0.345 is the OBSERVED rho_L
+ # inverted (2.25/((9/2)alpha^4 m_e) = 0.34506) -- and quoting it as the model's tau converts the
+ # flagship's claim into a 0.0% match. No rule existed; three passes missed CC:86 because of it.
+ dict(q="tau = T_c/m_e", rx=r"(?:τ|tau)\s*(?:=|≈)\s*(0\.3[0-9]{2,4})",
+      ok=[0.3503, 0.35029],
+      bad={0.345:"the OBSERVED rho_Lambda inverted (2.25/6.5207 = 0.34506), not the model's tau. Derived tau = 179/511 = 0.3503. Quoting 0.345 as the model's value deletes the flagship's claim.",
+           0.34506:"the observed rho_Lambda inverted -- not a derivation"}),
  dict(q="T_c keying", rx=r"T_?c\s*(?:=|≈)\s*([0-9]{2,3})\s*(?:keV)",
       ok=[179],
       bad={193:"the perturbative mu=T CROSS-CHECK -- legal only AS a cross-check, never as the keying value"}),
@@ -117,7 +128,10 @@ ARCHIVE = ("_MORNING_REPORT","_AUDIT_LEDGER","_REDTEAM_BRIEF",
            "FAILURES","honest_status","v5_dCDF","v4_dCDF","session_2026","math_story","granule",
            "room1","gate0_qft","kill_and_patch","STATE_OF_MODEL","intellectual_history","SKELETON",
            "amplitude_derivation","Second_Order","references","me_trigger","me_mechanism",
-           "kappa_v_derivation","v5_five_verdict","v5_SIDM","weakest_joints","UV_completion")
+           "kappa_v_derivation","v5_five_verdict","v5_SIDM","UV_completion")
+# NOTE 2026-07-17: "weakest_joints" was REMOVED from this list. It is a LIVE doc (it carries a
+# NEW STANDING RISK section) and was being scanned as a graveyard -- which is why its "width owed"
+# survived a fix that landed in the two files beside it.
 
 # A retirement notice MUST be allowed to name the value it retires, or the graveyard becomes
 # unwritable. And "c" is overloaded: the census coefficient vs the SPEED OF LIGHT.
@@ -165,7 +179,11 @@ def delatex(line):
                        (r"\varepsilon", "ε"), (r"\epsilon", "ε"), (r"\alpha_c", "α_c"),
                        (r"\alpha", "α"), (r"\bar{f}", "f̄"), (r"\Sigma", "Σ"),
                        (r"\sigma", "σ"), (r"\tau", "τ"), (r"\rho", "ρ"), (r"\mu", "μ"),
-                       (r"\nu", "ν"), (r"\Delta", "Δ"), (r"\chi", "χ"), (r"\pi", "π")):
+                       (r"\nu", "ν"), (r"\Delta", "Δ"), (r"\chi", "χ"), (r"\pi", "π"),
+                       # \ln was absent, so the catch-all ate it and "Δ \ln Z" became "Δ   Z" --
+                       # the DlnZ rule went blind. The SAME species the ledger said was fixed.
+                       (r"\ln", "ln"), (r"\log", "log"), (r"\sqrt", "sqrt"), (r"\beta", "β"),
+                       (r"\gamma", "γ"), (r"\lambda", "λ"), (r"\theta", "θ"), (r"\xi", "ξ")):
         t = t.replace(macro, sym)
     t = re.sub(r"\\[a-zA-Z]+", " ", t)                               # any remaining \macro
     t = re.sub(r"\\(?=[\s,;:!])|\\\s", " ", t)                        # LaTeX escaped space: 193\ keV -> 193 keV

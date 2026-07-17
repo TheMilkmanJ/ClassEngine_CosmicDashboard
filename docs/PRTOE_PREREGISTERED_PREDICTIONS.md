@@ -2381,7 +2381,7 @@ pure glue 0.63):
 
 | quantity | value |
 |---|---|
-| τ = 0.345 sits at *(the row's input; derived τ = 0.3503 shifts it +1.5%)* | **m_π/√σ ≈ 0.274** (fraction 0.86 from chiral toward physical) |
+| the derived **τ = 0.3503** sits at | **m_π/√σ ≈ 0.308** (fraction 0.97 from chiral toward physical) *(recomputed 2026-07-17 on the row's own anchors — chiral 0.300 at m_π/√σ = 0, physical 0.352 at 0.318; the row previously read 0.274, computed at the retired τ = 0.345)* |
 | Columbia N_f = 3 first-order corner ends at | m_π/√σ ≈ **0.06–0.16** |
 | margin | **above it by 1.7–4.6×** |
 
