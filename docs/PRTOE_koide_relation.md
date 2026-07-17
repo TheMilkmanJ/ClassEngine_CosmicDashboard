@@ -49,6 +49,20 @@ fluctuation, i.e. that the mass sector possesses the democratic↔hierarchy (Q �
 symmetry whose fixed point is 2/3. Until that symmetry is exhibited on the masses, the
 self-dual point is a sharp restatement, not a derivation.
 
+**The compression to w = 1/3 (2026-07-16, head-on pass).** In the Z₃-family frame the three
+√m sit exactly on the 120° ring, √m_k = M(1 + A cos(θ + 2πk/3)), with the amplitude fit
+**A = R/M = 1.41420 = √2 to five digits** (reconstruction exact). The Z₃ geometry gives
+Q = 1/3 + A²/6 identically, so the whole Koide packet — Q = 2/3, A = √2, and the tilt
+δ = 2/9 (= w(1−w), with 3δ = Q) — **collapses to the single value w = 1/3** through two linkage
+relations, Q = 1 − w and A² = (1−w)/w; imposing both with the Z₃ geometry forces
+6w² − 5w + 1 = 0 ⟹ w ∈ {1/3, 1/2}, and the **derived** pre-basin radiation EoS w = 1/3 selects
+the Koide point (w = 1/2 rejected). This is real progress: Koide is now "one derived number
+(w = 1/3) away," not a bare coincidence. **What it does not do:** derive the two linkage
+relations. They are the bridge from the lepton-√m *spectrum* to the pre-basin fluid EoS —
+"why does the family amplitude equal √((1−w)/w) of the background?" — currently exact *echoes*,
+not dynamics. That bridge is the un-built generation-structure floor (lock 6, behind the
+basement door). Status: **sharpened (Koide = w = 1/3 modulo one linkage), not closed.**
+
 ## 3. Falsifiable content
 
 The protection mechanism predicts: any environment-dependence of lepton masses is

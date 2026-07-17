@@ -78,7 +78,10 @@ the medium's own ultralight excitations.
   freeze). See [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
-  The value of μ is **input** (undERIVED), equal to the electron-mass-anchored meV scale of §2.
+  **Graded (2026-07-16): μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
+  electron-mass-anchored meV whisper of §2 (the flagship chain 9/2 α⁴ τ m_e = 2.25 meV), with κ_V, κ_m
+  the O(1) ties; it is downstream of the *one* irreducible input, the portal √σ_dark = m_e (§6), not a
+  separate knob.
 - **v_L (the seesaw scale)** — two mutually exclusive corners (resonant → MeV, S4-armed; junction
   double-duty → ≥ GeV, S4-dark); the point value awaits the coupling λ′, and CMB-S4 is the corner-selector.
 
@@ -141,7 +144,9 @@ irreducible input.
    (§5).
 3. **f̄ and α_c referees** — the winding ensemble and the α_c chain, both running (§1).
 4. **A_s's count k** — the one unmechanized factor in the amplitude (§7).
-5. **The spurion value μ = 2.25 meV** — set by the electron-mass scale, not independently derived (§4).
+5. *(closed as owed) The spurion μ = 2.25 meV* — graded (2026-07-16) as **not** an independent input:
+   it is the electron-anchored meV whisper (ρ_Λ¼ = m_ν = 9/2 α⁴ τ m_e), downstream of item 1. One fewer
+   free number than the list once carried.
 
 *Killed approaches and retracted claims are recorded in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), not here.*
