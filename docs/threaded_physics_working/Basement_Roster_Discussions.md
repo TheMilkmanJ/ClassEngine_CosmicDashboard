@@ -600,3 +600,52 @@ This supersedes the split-open item in my first verdict. The one crux I had left
 - *Notably, this convergence was reached by the two sides trading concessions in the same direction:* the Defender conceded the centering cost that its own cleaner algebra exposed, and the Challenger conceded the mechanism and dropped its original (convention-based) reason for the high-τ tail — arriving at the same place from opposite starts.
 
 **Final:** the honest verdict is a **qualified yes on plausibility, a firm no on precision, and — after the clean algebra — a mild lean against 0.3503 being where the mechanism centrally points** (the central estimate sits ~+3–7% high in ρ_Λ¼). This is a strengthening of the "not privileged" finding, not a reversal of the "plausible" one. Nothing here is a physics ruling on τ; it is an assessment that both columns argued honestly, corrected themselves against their own interest, and converged. The single fact that would settle it is untouched: a lattice computation of SU(2) N_f=3 T_c/√σ that nobody has performed.
+
+---
+
+## ADDENDUM (2026-07-17): the literature hunt — what the lattice actually says
+
+*A dedicated sweep for T_c/√σ in SU(2) with light fundamental fermions (all papers read in full).
+This supersedes the debate's dof-family band as the best available anchor.*
+
+**Headline: NO direct lattice determination of T_c/√σ for SU(2), N_f = 3 exists.** The roster's
+open number cannot be closed by citation — only bracketed by inference.
+
+**The hard numbers:**
+- **SU(2) N_f=2, rooted staggered** (Braguta school, arXiv:1808.06466; review 2511.19789): measured
+  √σ₀ = 476(5) MeV on-ensemble, deconfinement crossover T_d(0) = 230(10) MeV ⟹
+  **T_d/√σ = 0.483(23)** at m_π = 740 MeV (heavy quarks). The only SU(2)+fermion number with σ in
+  the same units.
+- **SU(2) N_f=2, Wilson** (Iida–Itou–Lee, arXiv:2008.06322 vs 2405.20566): the chiral crossover is
+  pinned only to **T_c/√σ ≈ 0.36–0.48** — their own two determinations disagree ~30% (admitted
+  systematic).
+- **SU(3) N_f-dependence** (Karsch–Laermann–Peikert, hep-lat/0012023, Table 3): 0.635 (quenched) →
+  0.425(15) (N_f=2 chiral) → ~0.41(2) (N_f=3 chiral); quark-mass slope 0.039(4)·(m_PS/√σ). The
+  N_f suppression **saturates** (−0.21 for the first two flavours, −0.03 for the third). The famous
+  "0.63 → 0.35" QCD drop conflates scale conventions (√σ/m_ρ ±10–15%) and continuum-limit drift
+  (~0.41 at N_τ=4 → ~0.36 continuum).
+- **Conformal window clears:** SU(2) fundamental N_f=4 is QCD-like; the disputed edge is N_f≈6
+  (arXiv:1111.4104, 1511.01968). N_f=3 confines and breaks chiral symmetry — the model's use of the
+  theory is legitimate on that axis.
+
+**The synthesis bracket:** τ(SU(2), N_f=3, chiral limit) ≈ **0.39 ± 0.05** (generous 0.34–0.45).
+Chain: measured 0.483 → chiral-limit mass slope (−0.06) → N_f=2→3 (−0.03) → convention/continuum
+drift (0 to −0.05). Every step past the measured 0.483 is an SU(3)-analog transfer — stated, not
+hidden.
+
+**The adjudication, honest both ways:**
+1. The model's **0.3503 sits at the BOTTOM EDGE** of the bracket; the central value ~0.40 is
+   **above** the model. The registered window [0.330, 0.370] overlaps the bracket only in
+   [0.34, 0.37] — compatible, not favoured.
+2. The model **needs both** the chiral (not deconfinement) transition **and** near-maximal
+   continuum/chiral suppression. If the condensation mechanism keys on deconfinement, the supported
+   value is ~0.48 — **real tension**.
+3. One genuine SU(2)-specific point in the model's favour: **the chiral and deconfining transitions
+   DECOUPLE in SU(2)** (Kaczmarek et al., hep-lat/9809059 — the Polyakov susceptibility peak shrinks
+   with lighter quarks, opposite of SU(3)), so the chiral T_c can legitimately sit below the
+   Polyakov number. The dCDF's T_c is a condensation (chiral-like) transition, which is the right
+   side of that fork — but the fork itself is un-adjudicated in the target theory.
+
+**Net grade:** τ = 0.3503 is *permitted-at-the-edge* by the literature, not supported at centre;
+the earlier debate band 0.355–0.382 occupies the lower half of the honest bracket. The decider
+remains a dedicated lattice run of SU(2) N_f=3 — which, this hunt establishes, nobody has done.
