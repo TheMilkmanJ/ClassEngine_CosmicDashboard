@@ -657,9 +657,29 @@ The suppression is now a **number the model must produce**:
 > - derives to ~0 (exactly leptophilic, no quark coupling) ⟹ the healer is unavailable, D/H stays at
 >   −2.9σ, **and JP's "the dyad let them bind" reading loses its mechanism.**
 
-**Status: OPEN FORK.** Not a credited prediction, not a failure — a computation the model owes, whose
-three outcomes are heal / die / lose-the-picture. Filed here because the *credited* grade was wrong,
-not because the physics is dead.
+**RESOLVED SAME DAY — branch 3, by symmetry (2026-07-17).** The suppression was derived rather than
+estimated: **the dyad IS the Majoron**, the Goldstone of U(1)_L breaking
+([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2, [ESTABLISHED]). **A Goldstone couples to the current of
+its broken charge**, and **quarks carry L = 0** — so the tree coupling is **zero by the symmetry that
+defines the field**, not merely suppressed. The loop floor (dyad → lepton loop → 2γ → quark,
+O(α²) = 5.4×10⁻⁶) is **~20,000× short** of the healer's 0.14–0.21%.
+
+| branch | outcome |
+|---|---|
+| ratio ≈ 1 (no suppression) | **DEAD — forbidden by L.** The +12…+18σ D/H catastrophe was never available. |
+| ratio ∈ [0.112, 0.167] (heal) | **UNREACHABLE.** No mechanism in this medium can deliver it. |
+| **ratio ≈ 0 (exactly leptophilic)** | **THIS ONE.** The healer is unavailable; **D/H carries −2.9σ** and the model does not get to fix it. |
+
+**The model is safe and unhealed by the same fact.** The symmetry that forbids the blowout also
+forbids the cure. **What is dead is the "credited side-prediction" grade**, which credited a coupling
+the model's own [ESTABLISHED] identity forbids.
+
+**JP's structural reading survives untouched, and it never needed the quark coupling.** "The thing
+that allowed them to bind came from the dyad" is *correct* — the dyad binds the **electrons to the
+pour's nuclei**, which is atomic binding, the H₀ mechanism, and precisely what a lepton-number
+Goldstone is *allowed* to do: the white hole poured the quarks, the dCDF supplies the field (light,
+its Goldstone), and **the dyad is what let those nuclei hold their electrons** ("the gas makes
+hydrogen too bound"). Quark confinement is QCD's job and never was the dyad's.
 
 **How it surfaced.** Tracing an unreproducible D/H elasticity: the ramped splice's only hook is
 `nTOp_mod.RecomputeWeakRates` — **it patches the weak rates and nothing else, so it has no B_D
