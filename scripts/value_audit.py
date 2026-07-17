@@ -226,6 +226,13 @@ def audit(include_archive=False):
                     if RETIREMENT_CTX.search(window): continue        # naming what it buries: legal
                     if c["q"]=="DlnZ quoted bare" and CONDITIONALITY_CTX.search(window): continue
                     if c["q"]=="c (census)" and LIGHTSPEED_CTX.search(window): continue  # different c
+                    if c["q"]=="tau = T_c/m_e" and re.search(
+                        r"invert|observ|read backwards|rounding|0\.35\b|→ ?0\.35|→0\.35|"
+                        r"flagship-grade|not a sourced|not the model|deletes the|"
+                        r"observed value fixes|the problem, not the answer|"
+                        r"back-solved|lands inside|consistency check|did not have to|"
+                        r"weak.{0,15}consistency", window, re.I):
+                        continue   # a line EXPLAINING 0.345 = the observation inverted is not a claim
                     for badv,why in c["bad"].items():
                         if abs(v-badv) < 5e-4:
                             key=(b,ln,c["q"],v)
