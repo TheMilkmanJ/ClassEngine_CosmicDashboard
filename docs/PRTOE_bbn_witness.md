@@ -34,7 +34,23 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  [threaded_physics_working/T13_fingerprint_owed.md](threaded_physics_working/T13_fingerprint_owed.md).
 - **the ramped elasticities** (the joint statistic's input): d(Y_p)/dε = **0.00163** per %ε;
  d(D/H×10⁵)/dε = **0.00782** per %ε. N_eff is unmoved (3.04439) — ε shifts weak rates, not dof.
-- **OWED — the η-flow, now stated separately rather than folded into a quoted total.** The
+- **THE η-FLOW — RUN against the ramped baseline (2026-07-16), and it is ADVERSE.** Applying the
+ CMB's re-inferred ω_b (+1.1%; D/H ∝ ω_b^−1.6, the exponent the pipeline's own BBN prior uses)
+ **on top of** the ramped splice:
+
+ | | Y_p | D/H ×10⁵ | joint χ² (2 dof) | p |
+ |---|---|---|---|---|
+ | ramped, no η-flow | 0.248995 (+1.09σ) | 2.4703 (−1.89σ) | 4.75 | 0.093 |
+ | **ramped + η-flow** | 0.249092 (+1.12σ) | **2.4305 (−3.22σ)** | **11.59** | **0.0030** |
+
+ The η-flow moves D/H by **−1.61%** (the entry recorded −1.8% — close) and lands **2.4305**, which
+ *is* the previously recorded "net ≈ 2.40–2.42" ballpark. **But its true pull is −3.22σ, not the
+ recorded "~1.6–1.9σ OWNED bet"** — that σ is the **raw** windowed value's (2.477 ⟹ −1.67σ), while
+ the quoted **number** was the η-flowed one. **One row's significance had been attached to another
+ row's value, understating the tension by ~2×.** **The honest witness verdict at the derived ε with
+ zero fitted parameters: D/H −3.2σ, joint p = 0.0030.** P-2026-027's radio referee decides D/H; this
+ is the model's standing prediction going in, and it is a hard one.
+- *(superseded framing, kept for provenance)* The
  previous entry read *"D/H net (with the η-flow: ω_b +1.1% → −1.8%, the windowed tail +~1%)
  ≈ 2.40–2.42 … → a ~1.6–1.9σ OWNED bet"*. Two problems, both now fixed by separation: (i) the
  quoted **1.6–1.9σ is the pull of the RAW windowed D/H (2.477 ⟹ −1.67σ)**, not of the net

@@ -1638,16 +1638,42 @@ live falsifier; the v_L derivation decides how much of the model rides on it.
 
 ## P-2026-027: The radio deuterium referee — dark-ages D 327 MHz, the two-line ratio-lock (registered 2026-07-11)
 
+> **⚠ AMENDED 2026-07-16 — the registered D/H was computed with a STEP splice and is superseded.
+> The old value is retired to [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) §2.**
+> The registered interval **2.40–2.42** implied a window effect of **+1.2% to +2.0%** on the
+> pre-window 2.372 — which sits between the **LT step (+0.93%)** and **MTLT step (+2.97%)**, i.e. it
+> was read off the step bracket. The model's own derived ramp ε(T) = ε(1 − T/T_c) gives a **measured
+> window effect of +0.65%** (`scripts/prym_ramped_splice.py`), so **D/H(dyad-true) = 2.372 × 1.00645
+> = 2.387**, which lies **below** the registered interval. Amendment 5 makes the step splice an
+> illegal computational entry; the bracket was additionally shown not to bracket (the ramped truth
+> lies below the LT edge). **A prediction resting on a superseded equation is not a prediction — it
+> is updated here and its predecessor is booked as a failure, per the registry's own governance.**
+
 **Context:** the deuterium "scar" re-signed as a discriminator. Production PRyM at the model's OWN
 baryon densities (the m_e–ω_b CMB degeneracy pulls ω_b up +1.1% vs the in-house ΛCDM control on
-identical data): dyad-true primordial **D/H = 2.40–2.42×10⁻⁵** (windowed re-stamp; was 2.372 pre-window) vs own-ΛCDM **2.420** vs quasar-optical
-**2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of a ~2.2σ fork — a self-adverse, owned bet
-(the direct m_e→BBN response is ~0, production-verified; the shift is all η).
+identical data): dyad-true primordial **D/H = 2.387×10⁻⁵** (**the RAMPED window**, 2026-07-16; was
+2.372 pre-window; the superseded step-bracket value was 2.40–2.42) vs own-ΛCDM **2.420** vs
+quasar-optical **2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of the fork — a
+self-adverse, owned bet (the direct m_e→BBN response is ~0, production-verified; the shift is all η).
+
+> **The fork's WIDTH is not reproducible from the numbers quoted, and is therefore stated as owed
+> rather than asserted.** The retired "~2.2σ" requires σ ≈ 0.053 against 2.41; the BBN witness's
+> "~1.6–1.9σ" requires σ ≈ 0.067; the quoted observational error is **±0.030**, which against the
+> ramped 2.387 gives **−4.7σ**. At least three readings fit the corpus's own numbers, and two live
+> documents imply different widths. **The D/H error budget (observational vs BBN theory error, the
+> d(p,γ)³He rate) is nowhere stated. Until it is, this row's significance cannot be quoted** — only
+> its central value. **OWED: state the error budget.** *(The value −4.7σ above uses the
+> observational error alone and is therefore an upper bound on the tension, not a claim.)*
 
 **The prediction (three-part):**
 (a) **The referee:** dark-ages D I 327.384 MHz vs H I 1420.406 MHz absorption (against the CMB —
 the only backlight older than the first pulsar/quasar/BH) yields radio-primordial
-**D/H ≈ 2.37×10⁻⁵** — no astration, no quasar optics, no BBN network in the measurement.
+**D/H ≈ 2.387×10⁻⁵** — no astration, no quasar optics, no BBN network in the measurement.
+*(**Corrected 2026-07-16.** This read "≈ 2.37", which is the entry's own **pre-window** number
+(2.372) — the value the model obtains **before** applying its own mechanism. The prediction must be
+the model's actual D/H, i.e. the windowed one. On the ramp the two reconcile at 2.387; on the
+superseded step bracket they did not, and the entry was predicting the referee would measure a
+number the model does not predict.)*
 (b) **The twinned edge:** BOTH dark-age hyperfine lines from z > 50 are shifted **+2.50%** in
 rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in the D-line.
 (c) **The ratio-lock:** ν_H/ν_D = **4.338649 at every z, exactly preserved** (both lines ∝ m_e²)
@@ -1655,9 +1681,13 @@ rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in 
 shift cannot.
 
 **Kill:** radio-primordial D/H at ~2.53, or an unlocked ratio, or improved quasar systematics
-confirming 2.53 with the astration/optical channels closed. **Grade:** registered; the
-ratio-lock independently verified; the ~2.2σ D/H tension booked as a real standing cost, roughly
-cancelling the production Y_p improvement (BBN column = mixed-net-neutral).
+confirming 2.53 with the astration/optical channels closed. **Grade:** registered (amended
+2026-07-16: central value re-derived on the ramp, 2.40–2.42 → **2.387**; the referee prediction
+corrected from the pre-window 2.37 to 2.387; the fork's width demoted to OWED pending a stated error
+budget); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
+and is now LARGER, not smaller** — the ramp moves the model further from Cooke, not closer. It no
+longer "roughly cancels" the Y_p lean: the Y_p counter-lean is itself smaller on the ramp (+1.09σ,
+not +1.3σ), so **the BBN column is net ADVERSE, not mixed-net-neutral.**
 
 ## P-2026-028: Magnetogenesis from genome vorticity (candidate; registered 2026-07-11)
 
