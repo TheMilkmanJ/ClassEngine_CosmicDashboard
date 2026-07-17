@@ -18,7 +18,12 @@ import sys, os
 # enough that the rate's departure from linearity in the m_e shift is negligible (the
 # scan's own Y_p increments are linear to <2% across 0 -> 1.86%).
 #
-#   usage: prym_ramped_splice.py <shift> [T_c_MeV]
+# THE ETA-FLOW: the CMB fit with varying m_e re-infers omega_b. The witness records that
+# shift as +1.1%, driving D/H by -1.8% (D/H ~ omega_b^-1.6, the exponent the pipeline's own
+# BBN prior uses). Pass <omega_b_scale> to apply it; the RATIO of the two runs is the
+# eta-flow factor, independent of PRyM's absolute omega_b default.
+#
+#   usage: prym_ramped_splice.py <shift> [T_c_MeV] [omega_b_scale]
 #          T_c DEFAULTS to 0.179 MeV -- the DERIVED confining chiral value (tau*m_e), which is
 #          what the model actually derives. 0.193 is the perturbative Coleman-Weinberg
 #          cross-check (log-ambiguous) and must be passed explicitly if wanted; it is a
@@ -30,9 +35,13 @@ sys.path.insert(0, _PRYM)
 
 shift  = float(sys.argv[1])          # 1 + eps
 Tc_MeV = float(sys.argv[2]) if len(sys.argv) > 2 else 0.179   # DERIVED confining chiral T_c
+wb_scale = float(sys.argv[3]) if len(sys.argv) > 3 else 1.0    # eta-flow: omega_b scaling
 
 import PRyM.PRyM_init as pri
 pri.me = 0.51099895                  # STANDARD at import (thermo + HT rates standard)
+if wb_scale != 1.0:                  # the eta-flow, applied before anything derives from it
+    pri.Omegabh2 = pri.Omegabh2*wb_scale
+    pri.eta0b    = pri.Omegabh2_to_eta0b*pri.Omegabh2
 for f in ['compute_nTOp_flag','compute_pTOn_flag']:
     if hasattr(pri, f): setattr(pri, f, True)
 if hasattr(pri,'verbose_flag'): pri.verbose_flag = False
@@ -66,5 +75,5 @@ def ramped(Tvec):
 nTOp_mod.RecomputeWeakRates = ramped
 import PRyM.PRyM_main as prm
 r = prm.PRyMclass().PRyMresults()
-print("RAMPED %.6f %.4f %.4f %.6f %.6f %.6f %.6f %.6f %.6f" %
-      (shift, (shift-1.0)*100, Tc_MeV, r[0], r[3], r[4], r[5], r[6], r[7]), flush=True)
+print("RAMPED %.6f %.4f %.4f wb=%.4f %.6f %.6f %.6f %.6f %.6f %.6f" %
+      (shift, (shift-1.0)*100, Tc_MeV, wb_scale, r[0], r[3], r[4], r[5], r[6], r[7]), flush=True)

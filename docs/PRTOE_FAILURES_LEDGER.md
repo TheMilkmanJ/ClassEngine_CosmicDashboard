@@ -27,6 +27,11 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | The gate-0 deuterium heal (m_e = 1 at BBN) — four rescue variants | EXCLUDED-catastrophe at 12σ (BBN #29); DATA-REQUIRED status, not a knob | gate-0 doc §7 — do not re-run |
 | The "healer" mechanism (dyad-era) | dead; the identity survived without it | dyad-era state |
 | The Y_p "medicine" (BBN helped by the dyad) | REVERSED by the windowed run: ε is OFF at n/p freeze-out — Y_p is now a +1.3σ COUNTER-lean, honestly owned | internal audit |
+| The Y_p "medicine" (BBN helped by the dyad) — *the counter-lean's size, restated* | the +1.3σ was the LT **step** value (Y_p +1.14%); the true **ramped** shift is +0.85% ⟹ **+1.09σ**. The reversal stands; its magnitude was quoted from a superseded splice | ramped splice, 2026-07-16 |
+| **The LT/MTLT bracket's claim to BRACKET the ramped truth** | **FALSIFIED by computing the ramp.** The truth lies **below** the LT edge (Y_p: 0.24900 < 0.24970 < 0.25857; D/H: 2.4703 < 2.4773 < 2.5275). `run_windowed.py` calls LT the "ramp low edge / UNDER-counts" — it is neither: LT applies the FULL shift across the whole LT zone where the true weight runs 0.44→1, so it **over**-applies. Every conclusion of the form "the truth is somewhere in [LT, MTLT]" rested on a false enclosure | `scripts/prym_ramped_splice.py`, 2026-07-16 |
+| **The MTLT "3.5σ rejection"** (χ² = 15.24, p = 0.0005) | **A STEP ARTIFACT — it never existed.** MTLT applies the full shift across 0.179–1 MeV where the true ramp is *exactly zero* (the dyad is OFF above T_c). Computing the ramp — which amendment 5 already demanded — deletes it. The depth law paid for itself in one run | ramped splice, 2026-07-16 |
+| **The D/H row's "~1.6–1.9σ OWNED bet"** | **UNDERSTATED BY ~2×.** The quoted σ is the pull of the **raw** windowed D/H (2.477 ⟹ −1.67σ); the quoted **value** (net 2.40–2.42) is the η-flowed one. Running the η-flow against the ramped baseline gives D/H = **2.4305 ⟹ −3.22σ**, and the joint BBN verdict falls from p = 0.093 to **p = 0.0030**. One row's sigma had been attached to another row's number | η-flow run, 2026-07-16 |
+| The BBN engine's ramp keyed to T_c = 193 keV | the stamps (0.64ε, 0.79ε) are 1 − T/**193** — the *perturbative Coleman–Weinberg cross-check* — while the model derives T_c = **179 keV** (τ·m_e). Engine and stamps re-keyed to the derived value (0.61ε, 0.78ε); 193 demoted to an explicit cross-check | witness restatement, 2026-07-16 |
 
 ### Baryogenesis (the η channel)
 
@@ -35,6 +40,14 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | Thermal leptogenesis for the model's η | the surface is EMPTY — ×40–1000 under, two independent methods | internal audit (corrected an earlier wrong guess) |
 
 ### The census & roster count
+
+| what died | the killshot | provenance |
+|---|---|---|
+| **"Its three flavours supply the '3' in α_c = 3α"** | **A FALSE RECEIPT.** That 3 is the **spatial dimension d** (§1, MATH_SPINE §0: α_c = d·α, the transverse-projector trace). It never supported the flavour count, which stood unsupported once withdrawn (τ requires only N_f ≥ 2). Replaced by a candidate with a real receipt: Pauli finiteness forces dark SU(2), N_f = 3 (P-2026-048) | adjudicated 2026-07-16 |
+| **The dCDF's chirality sourced from p-wave L** (dcdf_superfluid §2) | **REDUNDANT AND EXCLUDED.** Every claim that *spends* the chirality sources it from the **genesis winding integer n** — magnetic helicity ("SIGNED BY THE GENOME"), LSS parity, baryogenesis, the GW genome signature. **Nothing downstream ever drew on p-wave L**, and the DE value's ℓ = 0 selection excludes it. Retired at no cost | 2026-07-16 |
+| **The Weyl-point → 3-generation count** (needing L = 3, f-wave) | **REDUNDANT.** The count is forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹ N_gen = 3 uniquely (P-2026-045). Pure heat-kernel species counting — no nodes, no pairing channel, no angular momentum. The f-wave order-parameter build it demanded was never done and is not needed | 2026-07-16 |
+
+*(Pattern worth naming: all three above are the same failure — **a second, weaker source offered for something already better-sourced elsewhere**, and in every case the weaker claimant was the condensate's node topology.)*
 
 | what died | the killshot | provenance |
 |---|---|---|
@@ -120,6 +133,14 @@ coupling as the electron-mass shift.
 
 
 ### Methodology & code hygiene
+
+| what went wrong | the correction | provenance |
+|---|---|---|
+| **Process error 35: FIVE claims-from-a-label in one day** — (a) "don't concede the code-theory crux", defended from `varying_me: 1.012543` in fixed_ev **without opening `honest_status.md`**, which concedes it as the *BIGGEST* gap in the model's own words; (b) the **He-3-A nodal-gap door**, applying chiral p-wave geometry to E_b, which CC §2(a) derives as an **s-wave two-body hydrogenic** binding — a category error; (c) **blanket-archiving `v5_dCDF_complete`** as superseded without reading it (its own banner fences only the *fit numbers*; the mechanics are the standing model); (d) declaring the box **1-core** from `nproc` when `nproc` reports the **OMP_NUM_THREADS budget** — the box has **12 cores**, load ~5, never oversubscribed, and the user's own `make -j12` memory said so; (e) reading the derived stack's **+1.77σ from the concordance joint** against the corpus's **fit-vs-stack 1.4σ** as a contradiction — different pairs, no contradiction | every one caught by the Label Firewall (P1.c: cite the object WITH its regime, never claim from a label). The tell is consistent: **each error cited a number without checking what it measures.** (d) is the most instructive — a whole 3-way-starvation triage, and a user decision taken on it, built on a thread budget mistaken for hardware | 2026-07-16 |
+| **Process error 36: the D/H inconsistency diagnosed by GUESS, then corrected by measurement** — flagged that the row's "±0.030 ⟹ 1.6–1.9σ" needed σ ≈ 0.067 and attributed the gap to an unstated **BBN theory error**. Wrong. Running PRyM showed the raw windowed D/H is **2.477**, and (2.477−2.527)/0.030 = **−1.67σ** — the quoted σ was simply the **raw** value's, while the quoted *number* was the **η-flowed** one | the real defect was two different D/H values in one sentence, not a missing error term. **A plausible mechanism was offered where a measurement was available** — and the measurement was one 65-second run away | 2026-07-16 |
+| **Process error 37: a snag accepted before its ramp-before was walked** — the ΔN_eff kill was priced with the **14 confined Goldstones** at n/p freeze-out, where T/T_c = 3.9 and the sector is **deconfined** (27 dof: quarks + gluons). A phase error, not merely a step | caught by applying snag protocol 5a to my own verdict. The kill **hardened** on the walk (ΔN_eff 0.375 → 0.723; Y_p → ~3.6σ), so the conclusion survived — but it was right for the wrong number until the ramp-before was walked | 2026-07-16 |
+
+*(Standing lesson from 35–37, recorded because it recurred five times in one session: **the number that agrees with you is rarely the number that is testing you.** `nproc`, a `fixed_ev` label, a file's title, a quoted σ — each was read as evidence when it was a pointer to evidence.)*
 
 | the error | the correction | provenance |
 |---|---|---|
