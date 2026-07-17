@@ -18,10 +18,10 @@ $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\
 
 - The **condensate ground state** supplies the $w = -1$ component (dark energy is the
  medium's zero-point sector; its computed scale is the vacuum-occupancy binding energy
- $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = 2.251$ meV vs the measured $2.25$ meV —
- agreeing to 4 parts in $10^4$, though the mass scale $M_2$ is fixed by the same closure
- (one constraint wearing three names) and $\alpha_c = 3\alpha$ is under test; see the
- cosmological-constant document).
+ $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = 2.284$ meV vs the measured $2.25$ meV —
+ agreeing to **1.5%** ($1.01\times$), with $M_2 = \alpha^2 T_c$ **derived one-way** from the dyad's
+ condensation temperature ($m_e \to T_c \to M_2 \to \rho_\Lambda$) and $\alpha_c = 3\alpha$ under
+ test; see the cosmological-constant document).
 - The **excitations** are the dark matter: radiation-like above a transition redshift
  $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector as implemented in
  CLASS).
@@ -55,7 +55,7 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 179\
 
 $\varepsilon$ is not tuned; it decomposes:
 
-$$\varepsilon = c \cdot \bar{f} \cdot \alpha_c = \tfrac{9}{10} \times 0.635 \times 3\alpha \approx 1.25\%$$
+$$\varepsilon = c \cdot \bar{f} \cdot \alpha_c = \tfrac{9}{10} \times \tfrac{2}{\pi} \times 3\alpha = \tfrac{27\alpha}{5\pi} = 1.2543\%$$
 
 against the sky's fitted $\sim 1.24\%$ — zero dials end to end. (Three ε values appear in
 this repo and differ deliberately: **1.232%** = the production-chain fit; **~1.24%** = the
@@ -73,7 +73,7 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
  from a lock to a tuning of two unrelated scales; and the charge²-weighted 8/9 contradicts the
  gravity-blind democratic count. So the value is **9/10, conditional on keeping the tie a lock** (the
  flagship position); the empirical f̄ ensemble / α_c chain (P-2026-040) remains the independent check.
-- $\bar{f} = 0.635 \pm 0.026$: a **computed time-average** of the winding dynamics — and
+- $\bar{f} = 2/\pi = 0.63662$: **derived** — the winding's time-average $\langle|\cos|\rangle$, forced by many-turn equidistribution, with the coupling form data-selected (2026-07-16). *(The winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of $\bar{f}$.)* It is
  candidately $2/\pi$ (P-2026-041; the high-statistics ensemble decides). A
  simulation output with an open closed-form question, not a parameter.
 - $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), booked BEFORE the deciding
@@ -100,7 +100,7 @@ data speaks** — the object the running evidence comparison actually grades:
 | z_on | 3.5619×10⁷ | profiled at the frozen stack (the 3α mark hit blind to 0.005 dex) | fast-profiled estimate, chain-graded later |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | 61.4 meV, normal ordering | ρ_Λ^{1/4} = m₁ tie (P-2026-012) | recorded prediction |
-| T_c | ≈ 179 keV | confining chiral ratio ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md), τ = T_c/m_e ≈ 0.345); 193 keV = perturbative cross-check | derived |
+| T_c | ≈ 179 keV | confining chiral ratio ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); τ = T_c/m_e = **0.3503** — *0.345 is the observed ρ_Λ inverted, not a derivation*); 193 keV = perturbative cross-check | derived |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | production |
 
 ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
@@ -112,8 +112,8 @@ single row, is the claim under adjudication in the nested-sampling run now execu
 ## The closing note (why the repo exists)
 
 What does not compress is the derivation chain *inside* the symbols — why $9/10$
-(the census mechanism), why $0.635$ (the winding history from first genesis), why
-$193$ keV (the analytic closure, spine §15), why $3\alpha$ (basement-owed, bet-registered).
+(the census mechanism), why $2/\pi$ (the winding history from first genesis), why
+$179$ keV (the confining chiral ratio $\tau \cdot m_e$ — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is the perturbative cross-check, **never the keying value**), why $3\alpha$ (basement-owed, bet-registered).
 Those numbers are outputs of the field's history from its initial conditions, not axioms.
 The equations are three lines; the receipts are the repository.
 

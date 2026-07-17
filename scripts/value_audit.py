@@ -49,6 +49,11 @@ CHECKS = [
       ok=[0.248995,0.24900,0.2490],
       bad={0.2495:"the LT-STEP interval (P-036 predecessor, retired on the ramp)",
            0.2505:"the LT-STEP interval (P-036 predecessor, retired on the ramp)"}),
+ # EXPONENT CHECK (added 2026-07-17): the rule below captures the MANTISSA only, so
+ # "D/H = 2.387x10^5" matched ok=[2.387] and PASSED -- the sign-drop that hit six files was
+ # invisible by construction. D/H is ~1e-5; any other exponent is a defect.
+ dict(q="D/H exponent", rx=r"D/H[^.\n]{0,40}?[0-9]\.[0-9]{3,6}\s*[x×]\s*10([⁻\-]?)[⁵5]",
+      ok=[], bad={}, exponent_sign_check=True),
  dict(q="D/H value", rx=r"D/H[^.\n]{0,40}?([0-9]\.[0-9]{3,6})",
       ok=[2.387],
       bad={2.470340:"PRyM-DEFAULT-omega_b absolute -- WITHDRAWN (process error 38); RELATIVE effects only",
@@ -127,6 +132,11 @@ RETIREMENT_CTX = re.compile(r"retir|supersed|dead|excludes|former|was booked|arc
                             # machine was wrong. Same species as the Gascheau import: a confident
                             # fix on a pattern match.
                             r"raw χ²|raw chi2|best point|ever recorded|joint optimum|"
+                            # 69.70 is ALSO the TRGB/joint best-fit -- a different anchor from the
+                            # 69.9 CMB re-fit, and THREE_EQUATIONS sanctions both side by side.
+                            # Red team read the file and did NOT flag ATLAS:46; my machine did,
+                            # and my machine was wrong. Twice now on this same rule.
+                            r"TRGB|joint best-fit|joint reading|ladder value|"
                             r"km/s/Mpc\*\*? \(|recorded on", re.I)
 # A file that STATES the evidence number's conditionality is compliant, not defective.
 CONDITIONALITY_CTX = re.compile(r"asterisk|LCDM helium|ΛCDM helium|YHe|conditional|defect|not a standing|"
@@ -147,6 +157,16 @@ def delatex(line):
     t = re.sub(r"\\t?frac\{([^{}]*)\}\{([^{}]*)\}", r"\1/\2", t)   # \frac{a}{b} -> a/b
     t = re.sub(r"\\text\{([^{}]*)\}", r"\1", t)                     # \text{keV} -> keV
     t = t.replace(r"\approx", "≈").replace(r"\simeq", "≈").replace(r"\times", "x")
+    # THE COMPOSITION BUG (found 2026-07-17 by red team, re-run): deleting every \macro also
+    # deleted the SYMBOLS the rules anchor on -- \rho_\Lambda became " _ ", so the de-whitelisted
+    # 2.251 rule could never fire on the very lines delatex was added to expose. The two patches
+    # cancelled to nothing. TRANSLATE the anchors before dropping the rest.
+    for macro, sym in ((r"\rho_\Lambda", "ρ_Λ"), (r"\rho_\infty", "ρ_∞"), (r"\Lambda", "Λ"),
+                       (r"\varepsilon", "ε"), (r"\epsilon", "ε"), (r"\alpha_c", "α_c"),
+                       (r"\alpha", "α"), (r"\bar{f}", "f̄"), (r"\Sigma", "Σ"),
+                       (r"\sigma", "σ"), (r"\tau", "τ"), (r"\rho", "ρ"), (r"\mu", "μ"),
+                       (r"\nu", "ν"), (r"\Delta", "Δ"), (r"\chi", "χ"), (r"\pi", "π")):
+        t = t.replace(macro, sym)
     t = re.sub(r"\\[a-zA-Z]+", " ", t)                               # any remaining \macro
     t = re.sub(r"\\(?=[\s,;:!])|\\\s", " ", t)                        # LaTeX escaped space: 193\ keV -> 193 keV
     t = t.replace("\\", " ")                                        # any stragglers

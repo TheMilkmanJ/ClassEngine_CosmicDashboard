@@ -21,7 +21,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 | **DESI-era Σm_ν** | the neutrino block's 61.4 meV | robust bound < ~60 meV kills; a measured Σ ≈ 61 crowns; the P-023 internal tension arbitrates itself |
 | DESI DR3 w(z) | w = −1 exactly (the peg) | robust thawing/w ≠ −1 kills the floor |
 | TRGB ladder (P-2026-001) | the no-hedge ladder bet | as registered |
-| the radio referee | the D/H fork (D/H = 2.387×10⁻⁵; a self-adverse owned bet, width owed) | as registered |
+| the radio referee | the D/H fork (D/H = 2.387×10⁻⁵; a self-adverse owned bet, **−2.9σ** on the full stated budget) | as registered |
 | THE ZERO-PARAMETER EVIDENCE RUN (live, 2026-07-13) | ε+A_s+n_s+z_on all stated vs ΛCDM free | ΔlnZ verdict; any stated number wrong collapses the model's evidence |
 | the ς sign session (synthetic photometry; queued) | the candle room / the H₀ ceiling | ς = −1 kills the candle lever; +1 opens the 73.4 reach |
 | DESI forest-BAO (near-term data) | the gate curve at mean density | a clean forest at the curve's prediction kills the candle room |
