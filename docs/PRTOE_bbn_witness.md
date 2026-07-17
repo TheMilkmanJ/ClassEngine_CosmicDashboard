@@ -30,7 +30,7 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  spent *here*, once:
 
  > in-house ΛCDM control **2.420** → *(ω_b +1.1%)* → pre-window **2.372** → *(the ramped window,
- > +0.645%)* → **D/H = 2.387×10⁵** — the standing prediction.
+ > +0.645%)* → **D/H = 2.387×10⁻⁵** — the standing prediction.
 
  against quasar-optical **2.527 ± 0.030** (Cooke) and own-ΛCDM **2.420**. The dyad sits on the LOW
  side of the fork — a self-adverse, owned bet; **P-2026-027's radio referee decides it.**

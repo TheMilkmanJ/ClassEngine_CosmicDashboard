@@ -12,13 +12,15 @@ BBN, neutrinos, radio, and precision-mass physics, with zero per-row freedom.*
 ## 0. The principle
 
 A model with one lever and many windows cannot cheat: every window must show the SAME lever at
-its OWN known weight. The dyad's ε = 1.24% (now assembled as c·f̄·α_c with c = 0.92 ± 0.05,
-f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c chain) appears in:
+its OWN known weight. The dyad's **ε = c·f̄·α_c = 27α/5π = 1.2543%** — **all three factors DERIVED**: c = 9/10 (the
+census counting fraction over the charged-fermion roster), f̄ = 2/π (the winding time-average), α_c
+= 3α (the 3 is the spatial dimension). The α_c chain now **referees** this value rather than
+producing it: a posterior inconsistent with 3α is a falsification, not a measurement. ε appears in:
 
 | window | the row | current standing |
 |---|---|---|
 | CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
-| BBN: D/H | ~0 direct + η-widening − windowed refund | the signed self-adverse bet (2.387×10⁵, width owed); radio-arbitrated |
+| BBN: D/H | ~0 direct + η-widening − windowed refund | the signed self-adverse bet (2.387×10⁻⁵, **−2.9σ** on the full budget); radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out): **+0.85% → +1.09σ** COUNTER | the reversed row (was briefly ‘the medicine’) |
 | BBN: quark-bleed | **SYMMETRY-FORBIDDEN — the row is retired, not amended (2026-07-17).** The dyad **is** the Majoron: the Goldstone of U(1)_L breaking, so it couples to the **current of its broken charge**. **Quarks carry L = 0 ⟹ the tree coupling is ZERO**, not small — the model's own [ESTABLISHED] identity forbids it. The old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4; the loop floor (dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. | **no bleed, no blowout, and no healer: D/H carries −2.9σ** |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
@@ -45,7 +47,7 @@ correlation test of this width.
 
 ## 3. Honest accounting
 
-Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.09σ, the reversed row) and D/H (the fork — central value 2.387×10⁵; its width is owed, so no σ).
+Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.09σ, the reversed row) and D/H (the fork — **−2.9σ** on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA theory ±0.037 = ±0.0476; the 3.5% inter-code spread is named and unfolded).
 Rows pending: the radio chord, the axis family, the comb. The lattice is winning on breadth,
 not yet on any single decisive row. *One lever, many windows, no exits: the lattice is either the
 most over-constrained correct idea in cosmology or the most efficiently falsifiable wrong one.
@@ -57,5 +59,5 @@ Both are compliments to its construction; only the sky knows which.*
 |---|---|---|
 | today (z < 50) | 0 exactly | the window's low edge |
 | recombination | 1.232% (fit) / 1.254% (derived) | production chain / the derived stack |
-| BBN window (LT) | ε_rec × [0.8–1.0] (ramp factor) | the windowed splice |
+| BBN window | ε_rec × **[0, 0.61, 0.78]** — the model's own ramped stamps: **0** at n/p freeze-out (above T_c), **0.61ε** at the D bottleneck, **0.78ε** at Li (1 − T/T_c at the derived T_c = 179 keV) | the ramped splice |
 | above z_high | 0 (disordered) | the window's high edge |

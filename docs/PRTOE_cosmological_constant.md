@@ -84,7 +84,7 @@ The one order-one number left is **τ = T_c/m_e**, which the observed value fixe
 **What is derived, and what is not.** τ is not a free dial. In the proposed **dark confining sector** — a
 "dark colour" force whose condensation *is* the dyad, with its scale pinned to the electron mass — τ is
 the chiral-transition-to-string-tension ratio of a QCD-like theory, a near-universal value ≈ 0.34–0.37
-that places ρ_Λ¼ at 0.97–1.07× the observed 2.25 meV. (This sector sets the dark-energy *binding scale*
+that places ρ_Λ¼ at **0.99–1.07×** the observed 2.25 meV. (This sector sets the dark-energy *binding scale*
 only; the dark matter remains the medium's own excitations. The derivation, and why a QCD-like sector is
 required, are in the open-derivations document.) What the model does **not** derive is the pinning — *why* the
 dark scale equals the electron mass. That one input is irreducible: it is the meV coincidence
@@ -199,7 +199,7 @@ cancellation 16π²α_c^{3/2} — the **same object** the perturbations door pin
 ρ¼ = 2.70 meV. So the thermal-door scale (2.25 meV, forward) and the perturbations-door
 coefficient (2.70) are **one number to ~20%**; the residual 20% (effective mode count g_*,
 the exact Landau cap) is the owed O(1) refinement. **Located precisely (2026-07-16):** the
-flagship E_b = ½α_c²M₂ = 2.284 meV (1.3% high) and the tie m_ν = 2.250 meV agree to 1% and
+flagship E_b = ½α_c²M₂ = 2.284 meV (**1.5% high**) and the tie m_ν = 2.250 meV agree to **1.5%** and
 both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full phonon sum
 (+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
 fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the

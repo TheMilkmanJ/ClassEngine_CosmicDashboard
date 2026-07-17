@@ -1378,7 +1378,7 @@ confirms Version B (dark sector GUT-unified with the SM, size predicted from α/
 (does θ evolve by ~f along the photon path at the right epoch?) and the specific GUT
 c_γ; (ii) Meissner check — does the condensate screen θ·F·F̃ as it screens the
 dark-photon portal? (likely not — an axion coupling is not a mediator exchange, survives
-the photon mass); (iii) B is a Version of the (unproven, ~10%) thermal successor, not the
+the photon mass); (iii) B is a Version of the (unproven) thermal successor, not the
 dead AD model. Registered as an honest forecast on the record, not a recorded result. Adversarially
 reviewed; grade pending. Standing on B unchanged until the sky answers — this is a neck-out
 falsifiable call, the good kind.
@@ -1692,8 +1692,8 @@ shift cannot.
 **Kill:** radio-primordial D/H at ~2.53, or an unlocked ratio, or improved quasar systematics
 confirming 2.53 with the astration/optical channels closed. **Grade:** registered (amended
 2026-07-16: central value re-derived on the ramp, 2.40–2.42 → **2.387**; the referee prediction
-corrected from the pre-window 2.37 to 2.387; the fork's width demoted to OWED pending a stated error
-budget); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
+corrected from the pre-window 2.37 to 2.387; **the fork's width is STATED above** — obs ±0.030 ⊕ PRIMAT
+post-LUNA theory ±0.037 = ±0.0476, putting the standing 2.387 at −2.9σ); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
 and is now LARGER, not smaller** — the ramp moves the model further from Cooke, not closer. It no
 longer "roughly cancels" the Y_p lean: the Y_p counter-lean is itself smaller on the ramp (+1.09σ,
 not +1.3σ), so **the BBN column is net ADVERSE, not mixed-net-neutral.**
@@ -2124,7 +2124,7 @@ central thesis, arrived at from an independent direction.
 1. **No sterile neutrinos beyond the three right-handed states.** Each additional light
  sterile species breaks the balance by +1 unit and forces the visible sector to source
  gravity.
-2. **No fourth generation** (breaks the balance by +13).
+2. **No fourth generation** (breaks the balance by **+16**: str[k₁] = 16·N_gen − 48, so N_gen = 4 gives 16·4 − 48 = +16 — a generation is 15 Weyl + its ν_R = 16 species).
 3. Exactly three right-handed neutrinos — a requirement the model already carries for
  the seesaw, now doubly loaded.
 
@@ -2271,7 +2271,7 @@ have supplied it** — heavy dark quarks drive T_c/√σ back toward the pure-gl
 this entry's own central claim, while a 100 keV quark at 700 keV is suppressed by only
 ρ/ρ₀ = 0.997. At ΔY_p/ΔN_eff ≈ 0.013 that is ΔY_p ≈ 0.0094 ≈ **+2.3σ**, sign wrong (more dof →
 faster expansion → earlier freeze-out → more neutrons → **higher** Y_p), on top of the model's
-already **+1.3σ adverse Y_p scar → ≈ +3.6σ.**
+already **+1.09σ adverse Y_p scar (ramped) → ≈ +3.4σ.**
 
 **5. Therefore a fifth kill: the dark sector must have NEVER THERMALISED with the Standard Model.**
 Thermalised, this entry's own roster drives the model's weakest row to ~3.6σ adverse. Non-
