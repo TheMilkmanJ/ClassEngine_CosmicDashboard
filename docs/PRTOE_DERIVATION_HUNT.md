@@ -244,12 +244,17 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > glue at 0.63 excluded — and τ scales ρ_Λ¼ **linearly**, so the flagship's 1.5% rides on it.
 > Lattice anchors are firm for pure glue (**SU(3): 0.63; SU(2): 0.69–0.71**, ~11% higher), but
 > **no published T_c/√σ for SU(2) with N_f = 3 light flavours was located** — the two-color
-> literature is dominated by N_f = 2 at finite *density*. Scaling SU(3)'s glue→N_f=3 reduction
-> (0.548) onto SU(2) naively gives **τ ≈ 0.38–0.39 → ρ_Λ¼ ≈ 2.46–2.54 meV (+10 to +13%)**, which
-> would break the flagship. But the required reduction is only modestly larger — **51% for SU(2)
-> versus SU(3)'s 45%** — and it points the right way on physics: SU(2) with N_f = 3 carries
-> **N_f/N_c = 1.5 against SU(3)'s 1.0**, so quarks are half again as influential per colour and a
-> *stronger* reduction is expected. **Plausible, unsettled, and decidable by one lattice number.**
+> literature is dominated by N_f = 2 at finite *density*. An independent adversarial analysis
+> (defend-vs-challenge with a neutral referee — [Basement_Roster_Discussions.md](threaded_physics_working/Basement_Roster_Discussions.md))
+> sharpened this on two points, both sides self-correcting against their own interest. First, the
+> SU(3) √σ **cancels** in the transport: the glue→N_f=3 reduction is a pure temperature ratio
+> r₃ = 1 − T_c^phys/T_c^glue, so √σ divides out — the earlier naive **0.38–0.39** was partly a
+> mixed-convention artifact, not a real value. Second, the convention-clean unquenching reduction is
+> ~42% (not 45%), which puts the honest dof-family band at **τ ≈ 0.355–0.382, centre ~0.36**
+> (ρ_Λ¼ a few percent **above** the observation), pointing the right way on physics (N_f/N_c = 1.5 vs
+> SU(3)'s 1.0). **Verdict: τ = 0.3503 is plausible and in-band, but sits *below* the estimate's
+> centre — reachable at the strong-reduction edge, not where the mechanism centrally points; the
+> lean is modestly against it, and only an uncomputed SU(2) N_f = 3 lattice T_c/√σ decides it.**
 > *Assumptions, named:* dark quarks Dirac and in the fundamental — adjoint or Weyl/Majorana content
 > changes the counting. *Also owed:* the ΔN_eff footprint (§3) is priced for the existing roster and
 > would need re-pricing at N_c = 2; and the SU(2) N_f ≥ 2 chiral transition is reported **first

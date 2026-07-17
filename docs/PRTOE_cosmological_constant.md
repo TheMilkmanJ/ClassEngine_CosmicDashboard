@@ -248,13 +248,18 @@ dilutes as the excitation. So f = V/(K+V) = (1 − w)/2 = **½**, giving
 and it is the same equipartition rule that fixes Koide's A = √2 at w = 1/3, read here at w = 0.
 **Owed (candidate grade):** the rigorous identification of the Gibbs–Duhem cancellation with the
 equipartition V-fraction, and the residual — the observed f = 0.482 wants w ≈ +0.036, a slight
-kinetic excess above the pure-dust point. **Stress-test caveat (P(X)):** the ½ requires the freezing
-modes at **w = 0** (matter-like, as the dCDF is below z_on), but the 2.70 baseline is a **phonon
-(w = 1/3)** sum — and consistent equipartition at w = 1/3 gives V/(K+V) = 1/3, i.e. (1/3)¼ × 2.70 =
-2.05 meV (−9%), not ½. The +0.9% pairs w = 0's split with a w = 1/3 baseline; reconciling *which*
-modes freeze and *on which sum* they equipartition is the load-bearing gap. **Numerically
-suggestive, mechanism not yet clean** — the "p = 0 ⟺ K = V" step is a canonical-scalar shortcut, not
-established for the dCDF's barotropic P(X) form (where p = −ρ_∞, never zero).
+kinetic excess above the pure-dust point. **Why 2.70 and why exactly ½ (the vacuum sum, not the thermal one).**
+The dark energy is a **vacuum** (zero-point) energy, so its baseline is the **zero-point** sum —
+which is precisely what 2.70 is (the E_b-cutoff zero-point / "un-cancelled full phonon sum"), *not*
+the thermal occupation 7.1. The zero-point energy of **any** harmonic mode splits **exactly K = V**
+(¼ħω each — the quantum virial theorem ⟨T⟩ = ⟨V⟩ for V ∝ x²), **independent of the mode's thermal
+w**: so a "w = 1/3 → K = 2V" concern is about the *thermal* sum (7.1), never about this zero-point
+one. Equilibrium (Gibbs–Duhem p = 0) cancels the **kinetic** zero-point half; the surviving
+**potential** half is pure-V ⟹ w = −1 = the dark-energy floor, at f = ½ exactly:
+ρ_Λ¼ = (½)¼ × 2.70 = **2.27 meV (+0.9%)** — tighter than the flagship's +1.5%, and the same
+equipartition rule that fixes Koide's A = √2 at w = 1/3, read here on the vacuum modes.
+**Owed (candidate grade):** exhibiting that the equilibrium cancellation keeps the potential
+(w = −1) half; and the residual — observed f = 0.482 ⟹ a few-percent kinetic excess (w ≈ +0.036).
 
 **What the door's cap actually is, and what therefore cannot fix it.** The cap is **E_b itself**,
 and §2(a) derives E_b as the *universal two-body form* ½α²M — the **ℓ = 0 Coulomb ground state**,
