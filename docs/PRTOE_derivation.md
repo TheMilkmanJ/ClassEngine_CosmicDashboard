@@ -37,7 +37,7 @@ $$ F(\phi) = 1 + \xi_{\rm eff}(\phi)\, A(\phi), \qquad
 - **[DERIVE]** `L_Q` (the DHOST interaction sector: α², β², δ operators with 1/(1+φ²)
  screening) is stated in `prtoe_dhost_framework.tex` but its perturbation-level
  contributions are only partially implemented (the β k² term in §4). Either derive
- each author's contribution or declare the truncation explicitly.
+ each operator's contribution or declare the truncation explicitly.
 
 ## 2. Background equations
 
@@ -167,7 +167,7 @@ $$ \delta\phi'' + \Big(2\mathcal{H} + \tfrac{F_\phi}{F}\phi'\Big)\delta\phi'
  analogue with an unexplained factor 5 — both flagged as needing derivation from the
  perturbed □φ = ... equation. **The factor `5.0 * eta_sync` in particular has no
  visible derivation.**
-- **[DERIVE]** β_{k²} = −β_s φ R k²_phys/M_ew²: from which L_Q author? Sign and
+- **[DERIVE]** β_{k²} = −β_s φ R k²_phys/M_ew²: from which L_Q operator? Sign and
  screening 1/(1+φ²) need a source.
 
 Einstein-sector coupling (`perturbations_einstein`): all metric constraints are

@@ -256,7 +256,7 @@ $$S^{(2)} = \int d\tau d^3x \, a^3 \Biggl\{\n \frac{1}{2}\mathcal{K}(\delta\phi'
 
 **Activation A(φ):**
 - Derived from **Coleman-Weinberg potential** or **second-order phase transition**
-- Represents expectation value of author in presence of φ
+- Represents expectation value of an operator in presence of φ
 - Standard EFT result for symmetry breaking
 
 **Screening S(φ):**

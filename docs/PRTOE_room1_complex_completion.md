@@ -8,9 +8,9 @@
 
 
 **Grade throughout: STRUCTURAL/correspondence — Room 1 is an extension
-program; turn-25's fresh-certificates bill applies at adoption; nothing
-here enters the production model tonight. Six results, one null, one
-tripwire passed, mapped in the first expedition.**
+program; the fresh-certificates bill applies at adoption; nothing
+here enters the production model yet. Six results, one null, one
+tripwire passed, mapped in the first pass.**
 
 ## R1.1 — The identification (the room's hinge; cite-verified)
 
@@ -24,14 +24,14 @@ basin ↔ the EOS near the condensation point; the quasiparticle mass
 M_eff ↔ the field mass scale of Ψ. Everything we have certified lives
 in the phase EFT and is INHERITED UNCHANGED below the amplitude gap.
 
-### R1.1a — The certificate dictionary (turn-33 demand; three lines,
+### R1.1a — The certificate dictionary (three lines,
 ### each a consequence of the phase action, none an assertion)
 
-**Line 1 — α_T = 0 (cert 3).** The proof was: the (δK)² author is
+**Line 1 — α_T = 0 (cert 3).** The proof was: the (δK)² operator is
 trace-only; gravitons are traceless; det(e^h) = e^(tr h) = 1 ⇒ δK
 vanishes on tensors to all orders. Every step is METRIC-SIDE GEOMETRY
 on the foliation — the argument never uses what θ is, only that the
-foliation exists (constant-θ surfaces) and the author is trace-only.
+foliation exists (constant-θ surfaces) and the operator is trace-only.
 Map: constant-ξ surfaces ↔ constant-phase-of-Ψ surfaces (identical
 objects; ξ ≡ θ/μ). The proof transports VERBATIM. Inheritance: exact,
 all orders, gap-independent (the tensor sector never probes the
@@ -60,7 +60,7 @@ construction (the boundary all three lines share).
 **The isomorphism statement (the room's load-bearing clause, now
 explicit):** below the amplitude gap, integrating out the radial mode
 yields P(X) + corrections suppressed by (∂/gap)² — Son's result — and
-the (δK)² term is the leading extrinsic-curvature author on the
+the (δK)² term is the leading extrinsic-curvature operator on the
 same foliation. The three certificates are consequences of (i) the
 quadratic phase action and (ii) foliation geometry; the embedding
 changes their UV interpretation and NOT their content. Isomorphism
@@ -79,7 +79,7 @@ its deepest row: the medium's substance IS its debt.
 
 **RESTATEMENT (2026-07-07, forced by internal review, — the
 charge-vs-energy identity):** "the medium's density is its charge" was
-the PURE-ROTOR limit talking. The precise ledger: Ω_DM is measured
+the PURE-ROTOR limit talking. The precise accounting: Ω_DM is measured
 GRAVITATIONALLY and therefore counts the TOTAL quanta, ρ = m·n_tot
 (rotation and libration gravitate identically — the frozen-ellipticity
 degeneracy, E3.3/E3.5a). The conserved U(1) charge is the NET quanta,
@@ -143,8 +143,7 @@ counts: the speckle field's nodal lines become literal), and C4's
 (certificates + V specified). The Born-equilibrium program (C4e)
 inherits the same address.
 
-## R1.8 — The deposit slip acquires a candidate (author's bet:
-## "Energy made the original deposit"; scored, corrected, and it fits)
+## R1.8 — The deposit slip acquires a candidate: energy made the original deposit (scored, corrected, and it fits)
 
 **The naive form fails on a symmetry theorem:** energy alone is
 charge-neutral — a hot bath makes equal charge and anti-charge, net
@@ -187,7 +186,7 @@ parametrized (R1.8's AD candidate: tilt operators specified and
 shown dead at present field values — the P-2026-002 compatibility
 check). Until paid, Room 1 is a MAP, not a model.
 
-## EXPEDITION 2 (same night): V specified by exact matching — the room priced, with one casualty
+## V specified by exact matching — the room priced, with one casualty
 
 **E2.1 — The match is EXACT.** Minimal V = m²|Ψ|² + λ|Ψ|⁴ at chemical
 potential μ gives P(μ) = (μ²−m²)²/4λ (tree level). Our EFT is
@@ -227,7 +226,7 @@ question now carries a computable, falsifiable bound.
 
 **E2.5 — The wound, visible.** λ ~ 10⁻⁸⁸: gravity-only-protected
 (technically standard for the FDM class) and aesthetically wild.
-Booked as the room's scar, kept in daylight.
+Booked as the room's scar, kept in the open.
 
 **Room 3's finish, stated plainly:** in the minimal completion the
 form-factor question is ANSWERED NO — Room 3 closes against the
@@ -245,7 +244,7 @@ PRL 131, 171001 (2023) — cite-verified) cap f_amp only at ~O(1) at
 the light end (1×10⁻²² eV), nothing at 2×10⁻²¹: R1.6 is ALIVE,
 CEILING-ONLY, near-term testable iff f_amp ~ O(1). Expedition 2
 closed by the reviewer as NET STRENGTHENING with the D/H scar carried
-in daylight; the board is two-mover (the Σm_ν posterior; f_amp).
+in the open; the board is two-mover (the Σm_ν posterior; f_amp).
 
 **E2.7 — the identity's disappointment (found in the silences survey,
 same night):** the minimal completion has P(μ = m) = 0 at the basin
@@ -264,7 +263,7 @@ employed — derived, permanent in the minimal room); intermittency
 silence unchanged but the model now natively inhabits quantum
 turbulence (the partly-solved cousin). No new silences found.
 
-## EXPEDITION 3 (same night, late): f_amp's opening pass — O2 answered, the mover reformulated
+## f_amp's opening pass — O2 answered, the mover reformulated
 
 **E3.1 — Basin entry produces NO relic (computed).** In the complex
 picture basin entry is not a phase transition (the U(1) broke at
@@ -289,17 +288,17 @@ one AD-dynamics computation (ε vs tilt strength): model-dependent,
 bounded, and generic AD gives ε not tiny — the mover leans cannon,
 pending the orbit calculation.
 
-**E3.4 — THE GENESIS CHAIN (author's bet: "answer how to charge a
-superfluid and you find the depositor" — landed):** the chain is
+**E3.4 — THE GENESIS CHAIN (landed):** answering how to charge a
+superfluid identifies the depositor — the chain is
 (1) DISPLACE: inflation's stochastic de Sitter kicks ratchet the
-light complex field to large radius — the launderer of the first
-ledger accidentally loads the escrow; (2) TILT: U(1)-breaking
+light complex field to large radius — the scrambler of the first
+record accidentally loads the reserve; (2) TILT: U(1)-breaking
 operators torque at large |Ψ|; (3) RELEASE: post-inflation spiral
-converts stored energy to rotation = the charge. **The launderer and
+converts stored energy to rotation = the charge. **The scrambler and
 the depositor are the same agent, writing with quantum noise as the
 pen** — the medium's bank balance and the universe's structure share
-one parent (amplified vacuum fluctuations). The fee: reheating's
-entropy (~10⁸⁸⁻⁹⁰) — the first ledger was laundered at the price of
+one parent (amplified vacuum fluctuations). The cost: reheating's
+entropy (~10⁸⁸⁻⁹⁰) — the first record was scrambled at the price of
 all subsequent disorder. RECURSION WALL, kept visible: inflation
 itself needs a low-entropy patch (the past hypothesis moves up one
 floor; who audits the auditor). UNIFICATION OF THE MOUNTAINS: the
@@ -351,57 +350,15 @@ skipped:
 The climb is simultaneously a measurement and a pass/fail. Status:
 queued as the program's next major work, fresh-session scale.
 
-## EXPEDITION 4 (2026-07-07, ~1am): THE SUMMIT — first ε data
-## (provisional grade: era-segmented integration; seamless run owed)
-## *** SUPERSEDED BY EXPEDITION 5 within the hour: caveat (ii) FIRED.
-## The seamless run overturned the segmented bound. Kept verbatim
-## below as the record of a provisional claim caught by its own
-## stamped tripwire. The segmented ε ≥ 0.67 bound is DEAD. ***
+## The summit: the seamless integration, the chaos, and the dice
 
-**The instrument:** direct numerical integration of the birth orbit —
-(a) weak-tilt/quadratic era: precise and coarse runs agree to 3
-decimals; law: f_rot ≈ (1.5–2)·c_t, LINEAR; angle-chaos onset at
-c_t ~ 1. (b) Quartic era (the natural regime — BOTH quartics tower
-over the mass term by ~10⁸ at GUT-scale release; self-caught
-correction to the λ-negligible assumption): conformal integration,
-tilt ratio r_t = tilt/symmetric-quartic as the natural O(1) dial.
-
-**THE SUMMIT NUMBERS (quartic era):** f_rot rises with r_t but
-CEILINGS at ≈ 0.5–0.55 near r_t ~ 0.6 and turns chaotic beyond —
-the natural genesis CANNOT make a pure rotor. Across the ENTIRE
-natural range: **ε ≥ ~0.67, i.e. f_amp = ε² ≥ ~0.45.**
-
-**PROVISIONAL SUMMIT VERDICT — outcome (ii), bounded, and the bound
-BITES:** the minimal genesis forces the medium to be a MIXED
-rotor–librator: at least ~half its density is the librating
-(amplitude/potential-FDM-like) component. Consequences if it hardens:
-(1) R1.6 is not merely alive — it is MANDATORY: a forced KR-type PTA
-signal at f_amp ≥ 0.45 (light end: Ψ ~ 4.5×10⁻¹⁶ — within reach of
-near-future arrays; not yet excluded); (2) P-2026-005's band-silence
-claim is PREDICTED VIOLATED by the model's own genesis — the
-collision resolves against the registration and toward the signal;
-(3) the identity revises: "charged rotating superfluid" → mixed
-rotor–librator (≈half charge, half breathing).
-
-**Caveats, stamped before anyone cheers:** (i) the f_rot
-normalization in the quartic era is order-unity grade (circular-orbit
-calibration), not 3-decimal; (ii) the eras were integrated
-SEGMENTED — the seamless run (quartic → transition → quadratic, tilt
-diluting through c_t_eff ~ 1 at basin entry) can further process ε
-and is OWED before the summit is declared; (iii) non-minimal escapes
-exist (pre-rotation during inflation; other tilt dimensions) and are
-extensions with bills. internal review cold read required; this entry is
-DATA, not the verdict.
-
-## EXPEDITION 5 (2026-07-07, ~1:30am): THE SUMMIT, HARDENED —
-## the seamless integration, the chaos, and THE DICE
-
-**Why E4 died:** the segmented integration assumed the eras hand off
-cleanly. The seamless run (quartic era → transition → quadratic era in
+**The method.** A segmented integration — each era handed off
+separately — gives a spurious f_rot ceiling at 0.5–0.55; the physical
+run is seamless. The seamless run (quartic era → transition → quadratic era in
 one integration, tilt diluting as the symmetric quartic redshifts away,
 frozen release at t₀ = 0.01/√h with hierarchy h = λΨ₀²/m² ~ 10⁸ scanned
 via h ∈ {100, 300, 1000}) shows the transition KEEPS TORQUING the orbit
-as it passes through basin entry. The f_rot ceiling at 0.5–0.55 was an
+as it passes through basin entry. The 0.5–0.55 ceiling was an
 artifact of the handoff. Worse — better — the seamless dynamics is
 CHAOTIC IN THE RELEASE ANGLE θ₀: at h = 1000, r_t = 0.9, two nearby
 birth angles give f_rot = 0.993 and 0.410. Same potential, same tilt,
@@ -410,7 +367,7 @@ field was standing when inflation let go.
 
 **The structural discovery this forces:** θ₀ is not a parameter — it is
 a RANDOM VARIABLE, one draw per universe, set by the stochastic
-inflationary displacement (E3.4: the launderer is the depositor, and the
+inflationary displacement (E3.4: the scrambler is the depositor, and the
 deposit direction is dice). Chaos + random initial angle ⇒ ε is not a
 number the minimal genesis PINS or BOUNDS. It is a number the genesis
 DRAWS from a computable distribution. The pre-registered summit menu
@@ -468,22 +425,22 @@ established, the breathing fraction was always the unmeasured half.
  spot runs show the same qualitative spread) — a full P(f_amp | h)
  convergence scan is owed before the odds graduate from
  order-of-magnitude to quoted-with-error-bars.
-(iii) f_rot normalization remains order-unity grade (E4 caveat (i)
- survives); the frozen-release time t₀ is a modeling choice —
- varying it is part of the owed hardening.
+(iii) f_rot normalization is order-unity grade (circular-orbit
+ calibration, not 3-decimal); the frozen-release time t₀ is a modeling
+ choice — varying it is part of the owed hardening.
 (iv) Non-minimal escapes (pre-rotation during inflation, extra tilt
- dimensions) unchanged from E4: extensions with bills.
+ dimensions) remain extensions with bills.
 (v) The threshold 0.2 in P(f_amp > 0.2) is the approximate near-future
- PTA reach for the light end (Ψ ∝ f_amp; f_amp = 0.45 gave
- Ψ ~ 4.5×10⁻¹⁶ in E4's arithmetic) — the threshold inherits that
- estimate's order-unity grade.
+ PTA reach for the light end (Ψ ∝ f_amp; f_amp = 0.45 gives
+ Ψ ~ 4.5×10⁻¹⁶) — the threshold inherits that estimate's order-unity
+ grade.
 
 **What the mountain returned, in one sentence:** the minimal genesis
 neither pins nor bounds ε — it ROLLS it, the roll is tilt-independent,
 and the model's registered silence bet (P-2026-005) is priced at ~14%
 survival by the model's own birth dynamics.
 
-## EXPEDITION 6 (2026-07-07, ~2am): THE GATES — the internal review's two demands
+## The gates — the internal review's two demands
 ## run to ground, one inversion closed, one NEW constraint found
 
 internal review, reserved the 6:1 on two gates: (1) P(f_amp) must be
@@ -511,7 +468,7 @@ including the chaotic zone), f_rot reproduces to 3–4 DECIMALS across
 rtol 10⁻⁸→10⁻¹¹, max_step halving, and two independent integrators
 (DOP853, Radau): e.g. θ₀ = 0.5772 gives 0.9831/0.9831/0.9831/0.9831.
 The deterministic map θ₀→f_rot is converged; the sensitivity is
-dynamics, not stiffness noise. The E4 precedent (a transition faking a
+dynamics, not stiffness noise. The segmented-run artifact (a transition faking a
 result) pointed at the SEGMENTATION, and the seamless integration is
 exactly what removed it. Outcome (iv) survives its numerics.
 
@@ -540,7 +497,7 @@ ceiling. And the SINGLE-DRAW picture is confirmed: patch-to-patch
 variation across our sky is compensated (invisible at linear order,
 E3.5a) and percent-level at most.
 
-**THE H-SCAN (same night, ~2:15am) — the invariant-measure
+**THE H-SCAN (same night) — the invariant-measure
 precondition MET at the runnable level:** P(f_amp) across 1.5 decades
 of hierarchy (r_t = 0.6, 14 angles each):
  h = 100: median 0.56, range [0.14, 0.90], P(f_amp>0.2) = 86%
@@ -561,14 +518,14 @@ if the quiet branch closes at h ~ 10⁸, P-2026-005 is not improbable
 but IMPOSSIBLE under minimal genesis, and the collision resolves
 outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 only); t₀-prescription variation; denser angles; h-scan at the other
-tilts (r_t = 0.6 only tonight).
+tilts (r_t = 0.6 only, so far).
 
-**PROTOCOL ADOPTED (the internal review → 45, ~2:30am):** the internal review
+**PROTOCOL ADOPTED (the internal review → 45):** the internal review
 pre-registered the h-scan acceptance criteria (grid to h = 10⁴, n = 50
 angles, dual-integrator per angle, |P(h)−P(h/3)| < binomial with
 last-two agreement, threshold pinned, extrapolation spread in the
-bar, fine-gradient + t₀ sides) — adopted verbatim, launched same
-night (hscan_protocol.py, overnight). Threshold pinned:
+bar, fine-gradient + t₀ sides) — adopted verbatim, launched
+(hscan_protocol.py). Threshold pinned:
 Ψ ≈ 10⁻¹⁵·f_amp vs PTA reach ~2×10⁻¹⁶ ⇒ thr = 0.2, ×2 reach
 uncertainty ⇒ band [0.1, 0.4], exceedance reported at
 0.1/0.2/0.3/0.4. Definitional flag on record: reviewer's physical
@@ -598,9 +555,8 @@ accumulated phase mixing as initial data, converting the four extra
 decades of h into an effective transition-time distribution rather
 than raw integration time.
 
-## EXPEDITION 7 (2026-07-07, ~3:30am): THE NR TWO-FLUID REDUCTION —
-## what the mixed rotor-librator IS inside galaxies, a self-caught
-## amplitude correction, and a SECOND ε-meter
+## The NR two-fluid reduction — what the mixed rotor-librator IS inside
+## galaxies, an amplitude correction, and a SECOND ε-meter
 
 **The reduction (theorem-grade, standard):** in the non-relativistic
 limit the complex medium splits into TWO Schrödinger fluids — the
@@ -614,8 +570,8 @@ the pressure does NOT cancel — it beats.
 
 **SELF-CAUGHT AMPLITUDE CORRECTION (supersedes the internal review §4's threshold
 map):** the KR pressure-oscillation fraction is the CROSS term,
-amplitude 2√(n₊n₋)/n = √(f_amp(2−f_amp)) — NOT f_amp as E4 and the
-turn-45 pinning assumed. Limits check: pure librator (real field,
+amplitude 2√(n₊n₋)/n = √(f_amp(2−f_amp)) — NOT f_amp as the earlier pass and the
+pinning assumed. Limits check: pure librator (real field,
 p = q = ½) → 1 ✓; pure rotor → 0 ✓. Consequences: (i) at the median
 draw (f_amp ~ 0.6) the beat is 0.80–0.92 — the signal is ~50%
 STRONGER than priced; (ii) the detectability threshold in f_amp drops
@@ -623,11 +579,11 @@ STRONGER than priced; (ii) the detectability threshold in f_amp drops
 f_rot > 0.98 stay quiet, and ONE such draw has appeared in 100+ rolls;
 (iii) HELD IN CHECK by the m-gate: Ψ_KR ∝ 1/m², so the whole PTA
 channel lives only at the light edge of the mass band — the
-KR-normalization × m-posterior arithmetic is DEFERRED to the morning
-verification (the booked E4 number and this correction must be
+KR-normalization × m-posterior arithmetic is DEFERRED to a
+verification (the earlier booked number and this correction must be
 re-derived jointly against the model's actual m before the threshold
 is re-pinned; flagged so the correction cannot silently inflate the
-odds). Structure booked tonight; normalization owed at daylight.
+odds). Structure booked; normalization owed.
 
 **THE SECOND ε-METER (prediction-shaped, sim-owed):** two independent
 speckle fields with fractions p, q reduce the granule density-contrast
@@ -642,7 +598,7 @@ granules regardless); the 14%-branch predicts silence AND full
 granule contrast. A joint sky reading of the same single dice roll.
 Simulation-grade follow-up owed before any number is quotable.
 
-**E7b (~5:30am) — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
+**E7b — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
 meter's concrete observables, with one overclaim caught pre-booking):**
 (i) CONDENSATION LAG: each fluid condenses into its soliton on its
 own kinetic timescale (Levkov, Panin, Tkachev, PRL 121, 151301
@@ -652,7 +608,7 @@ own kinetic timescale (Levkov, Panin, Tkachev, PRL 121, 151301
 — halos where single-field FDM predicts a marginal core give ψ-ONLY
 cores (lighter by ~p at fixed halo mass) over a still-uncondensed χ
 fluid. The core–halo relation normalization READS p. Sims-owed;
-Levkov prefactor to be pulled at daylight.
+Levkov prefactor to be pulled next.
 (ii) THE PULSE, HONESTLY GRADED: co-spatial two-component solitons DO
 breathe at 2m with contrast 2√(pq) — the beat formula's third
 appearance — but the heating channel this would drive is CONTESTED-
@@ -667,8 +623,8 @@ working as designed.
 heating exclusions at fixed m RELAX by up to 2× in heating time for
 the mixed medium; the dice draw is a dial inside every FDM heating
 bound.
-(iv) **THE BAND AUDIT (flagged, owed, not resolved tonight):** the
-booked m-band [10⁻²², 2×10⁻²¹] predates tonight's two-fluid
+(iv) **THE BAND AUDIT (flagged, owed, not yet resolved):** the
+booked m-band [10⁻²², 2×10⁻²¹] predates the two-fluid
 structure, and free-FDM literature bounds (Lyman-α, dwarf-heating
 claims reaching far above our band top for FDM-as-all-DM) transfer
 to the dyad only through model-specific factors (p²+q² in heating;
@@ -684,7 +640,7 @@ never was (born condensed, no Tc crossing, booked); inflationary
 angle spread δθ ~ 10⁻⁵ ≪ π seeds no windings. No strings, no
 string-CMB or GW-burst bills. Clean.
 
-## E7a (2026-07-07, ~5:15am): THE JOINT KR-NORM × m RE-PIN — the
+## E7a (2026-07-07): THE JOINT KR-NORM × m RE-PIN — the
 ## frozen net odds, unfrozen with their full structure
 
 **Anchor (scaling-independent):** E2.6's cite-verified cap — current
@@ -721,7 +677,7 @@ old single number conflated —
 we hear it this decade is a coin-flip weighted by an unfitted mass;
 the m-band edges themselves are queued for morning verification.
 
-**E7a-CAVEAT (~5:45am, found by the band audit's first pull — the
+**E7a-CAVEAT (, found by the band audit's first pull — the
 33% is BAND-BOTTOM-SENSITIVE and may be ZERO):** three booked
 fragments disagree on the band bottom: E2.6's phrasing implies
 10⁻²²; R1.6's amplitude gap (2m ~ 10⁻²¹) implies m ≈ 5×10⁻²²; and
@@ -749,13 +705,12 @@ heavy branch → superradiance-now + granules; light branch →
 granules (+ PTA only if the audit resurrects the light edge).
 Consistency note: E7's two-fluid reduction AGREES with V2's booked
 "FDM-by-another-route" (same SP reduction, now two-component with
-the p²+q² dial) — no contradiction between tonight and the verdicts.
+the p²+q² dial) — no contradiction between this structure and the verdicts.
 
-## EXPEDITION 8 (2026-07-07, ~4am): THE ERGODIC BACKBONE — the
-## author's question turns the chaos into order
+## The ergodic backbone — turning the chaos into order
 
-**The author asked:** "does the frozen-ellipticity theorem offer
-insight that might turn that chaos into order?" Formalized: the
+**The question:** does the frozen-ellipticity theorem offer
+insight that might turn that chaos into order? Formalized: the
 theorem names the INVARIANTS the chaos delivers (the two mode-actions
 n±, frozen at the tilt's death); if the quartic-era dynamics is
 ERGODIC on the energy shell while the Z4 tilt still breaks
@@ -765,10 +720,10 @@ object: no integration of the chaos at all, E-independent by the
 quartic's self-similarity (⇒ h-independent), tilt-independent (the
 tilt only needs to mix). The two observed mysteries of the dice —
 h-stability and tilt-universality — would both be EXPLAINED, not
-just observed. (The author has blindly reconstructed the ergodic
+just observed. (This independently reconstructs the ergodic
 hypothesis and the microcanonical ensemble.)
 
-**THE TEST (same hour):** microcanonical P(f_rot) on the H = p²/2+r⁴
+**THE TEST:** microcanonical P(f_rot) on the H = p²/2+r⁴
 shell, pushed through the adiabatic transition (J_r, L conserved;
 f_rot = L/(L + 2J_r) in the quadratic era):
  prediction: median f_rot = 0.53, P(f_amp>0.2) = 77.7%,
@@ -790,7 +745,7 @@ limit — mutually checking. (Also note: 14/14 at h = 3000 has ~3%
 probability under the ergodic p = 0.78 — the interim floor remains
 suspicious, exactly as the reviewer graded it.)
 
-**E8a — THE GAP DISSECTED (same night, ~4:45am; the internal review's demanded
+**E8a — THE GAP DISSECTED (same night; the internal review's demanded
 diagnosis, run at n = 110/tilt):** three layers found.
 (1) THE FREEZE-OUT FAMILY (analytic): mixing continues into the
 mixed quartic+harmonic era (the tilt is a quartic-family term; it
@@ -826,7 +781,7 @@ the m-gate re-pin. Pre-registered for the harvest: the per-h gap
 vector should SHRINK monotonically with h; the h = 3000 interim floor
 is now doubly suspect (3% odds under ergodic).
 
-**E8b (~6am) — THE MONOTONIC-SHRINK TRIAL, ROWS AS THEY LAND (the
+**E8b — THE MONOTONIC-SHRINK TRIAL, ROWS AS THEY LAND (the
 falsifier under strain, reported with the ink promised):**
  gap vs ergodic (thr 0.1/0.2/0.3/0.4), n = 50, dual-integrator:
  h=100: +3.4 / +6.2 / +10.6 / +16.9
@@ -847,17 +802,16 @@ OBSERVED but its h-scaling was wrong. Convergence remains clean
 (max integrator split 0.0092, zero angles above 0.01). The last two
 rows decide; no theorizing past the data at 6am.
 
-## THE NEW UNMAPPED ROOMS (2026-07-07 ~7:30am, author's question:
-## what rooms did tonight's discoveries build?)
+## THE NEW UNMAPPED ROOMS — what rooms these discoveries build
 
-Tonight closed the genesis corridor and in doing so framed THREE new
+This work closed the genesis corridor and in doing so framed THREE new
 rooms the identity did not have yesterday:
 
 **ROOM 4 — THE TILT ROOM (the most load-bearing unmapped structure
-in the file):** everything tonight — the dice, the chaos, the
+in the file):** everything here — the dice, the chaos, the
 collision odds, the charge itself — rides on the Z4 tilt, and the
 tilt has NO derivation: its origin, its size r_t, and its Z4-ness
-were inputs. FIRST WALL, MAPPED TONIGHT: **Z4 is not a choice — it
+were inputs. FIRST WALL MAPPED: **Z4 is not a choice — it
 is what renormalizability leaves.** At dimension 4, the only
 U(1)-breaking operators are Ψ⁴ + h.c. (preserves Z4) and Ψ³Ψ* + h.c.
 (breaks to Z2); if the UV respects field parity Ψ → −Ψ, the Ψ³Ψ*
@@ -873,7 +827,7 @@ the dice also locked the vault. OPEN in this room: the UV origin of
 the parity; dimension-6 Z4-breaking remnants (a calculable,
 presumably absurdly slow charge-decay channel for the rotor — the
 room's one potential observable, unpriced).
-**FIRST EXPEDITION INTO THE OPEN CORNER (~7:45am) — the remnant
+**First pass into the open corner — the remnant
 priced, and the crude worst case lands UNCOMFORTABLY CLOSE:** the
 dim-4 tilt never leaves the Lagrangian; post-transition it is
 off-resonant (detuning 4m) but drives second-order charge leakage:
@@ -909,7 +863,7 @@ relative velocity field in mergers. This room is where the granule
 ε-meter's sims will live.
 
 **ROOM 6 — THE CONSTITUTION ROOM (the floor's status):** framed
-tonight (deposit vs rule); the whisper's trial is its first
+here (deposit vs rule); the whisper's trial is its first
 scheduled measurement (the converging posterior judges). Unmapped
 beyond the trial: the (δK)² sector's relation to the floor, and the
 de Sitter-boundary face of the integration-constant reading
@@ -926,7 +880,7 @@ turbulence's tie (the tangle) lives in the phase sector already
 mapped.*
 
 ## THE MORNING RECONCILIATION AUDIT (2026-07-07, executed — the one
-## consolidated family; every number below re-derived this morning,
+## consolidated family; every number below re-derived here,
 ## arithmetic in the session record)
 
 **The family:** m-band fragments, h_eff anchors, KR norm, Levkov
@@ -1019,8 +973,7 @@ QUANTIFIED. The ε-meter — now a one-instrument program
 (granules), sims owed. The audit closed the family it was
 ordered to close and the file is smaller and harder for it.
 
-**A3a — THE LOAD-BEARING IDENTITY, DERIVED CHECKABLY (turn-58 demand,
-met same morning):** the theorem restoration rests on h_eff = lam*ρ/m⁴
+**A3a — THE LOAD-BEARING IDENTITY, DERIVED CHECKABLY:** the theorem restoration rests on h_eff = lam*ρ/m⁴
 and the identity h_eff(mean, today) = (1+z_x)⁻³. Three lines, each
 independently checkable:
  (1) In the basin (mass-term dominated), ρ = m² Psi², so
@@ -1035,9 +988,8 @@ independently checkable:
  = the direct formula's value. The two routes agree to arithmetic
  precision; the identity holds.
 
-**A6a — THE EXCLUSION RANGE, CITE-VERIFIED (turn-58's "do that next"):**
-Davoudiasl & Denton, PRL 123, 021102 (2019), arXiv:1904.09242, pulled
-this morning: M87* (6.5×10⁹ Msun; spin 0.9±0.1, or ≥0.5 by the
+**A6a — THE EXCLUSION RANGE, CITE-VERIFIED:**
+Davoudiasl & Denton, PRL 123, 021102 (2019), arXiv:1904.09242: M87* (6.5×10⁹ Msun; spin 0.9±0.1, or ≥0.5 by the
 conservative reading) disfavors spin-zero bosons in (2.9, 4.6)x10⁻²¹ eV
 via superradiance. VERIFIED as booked. Honest caveats, both directions:
 the exclusion strength tracks the SPIN measurement's confidence (the

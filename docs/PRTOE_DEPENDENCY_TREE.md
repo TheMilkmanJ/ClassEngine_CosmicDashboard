@@ -35,7 +35,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | the anchor (hierarchy: M ≈ M_red·e^(−1/kα_c)) | α_c + the gap equation | [E] (Eliashberg-corrected landing 2.9%) | the k-audit walks the landing out |
 | k = ln(1+π/2α_c)/π = 1.36461 | the interaction integral + the regime-consistency adjudication (both screening channels evaluated in their own regimes) | [D-conditional] | the roster trial breaks the twin-screening |
-| **A_s = (α_c/4πk)³** | k + the shot-noise mechanism (half-derived: the count C unmechanized) | **[C] — FROZEN into the current run by author decision; the corpus's highest-risk standing claim** | the lock-count derivation fails; the run itself can kill it |
+| **A_s = (α_c/4πk)³** | k + the shot-noise mechanism (half-derived: the count C unmechanized) | **[C] — FROZEN into the current run by design; the corpus's highest-risk standing claim** | the lock-count derivation fails; the run itself can kill it |
 | n_s = 1 − 2/ln(M_Pl/T_on) | the census drift + THE EXEMPTION CLAUSE (the 2 = open dimensions) + z_on | [D-E] | the α_c MCMC moves T_on off the landing |
 | ρ_Λ = E_b⁴ (the pinch) | occupancy-one + BEC-side ownership | [D] (½α_c²M₂ = 2.28 meV, 1.01×; M₂ = α²·T_c derived from the confining T_c ≈ 179 keV; α_c-conditional; the portal √σ_dark = m_e is the one input) | the crossover corollary fails |
 
@@ -44,7 +44,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 | claim | parents | status | dies if |
 |---|---|---|---|
 | the Widnall n-band (n = 2.26–2.51 × R/a → 11–25) | the ring + formation number [X: Widnall-Tsai, Gharib] | [E] — landed in every solver version | the α_c MCMC/comb read n outside ~5–40 |
-| the moment-mapping (ε_spin = 0.88; share = 0.843) | the intake curve + THE COMOVING catch-up | [C] — killed at toy grade, resurrected at comoving grade (entries 61–64) | the full inverse problem misses |
+| the moment-mapping (ε_spin = 0.88; share = 0.843) | the intake curve + THE COMOVING catch-up | [C] — killed at toy grade, resurrected at comoving grade | the full inverse problem misses |
 | the flow line (ω₀ = 0.67–0.77; 170–190 km/s at 250 Mpc) | ω = H at the pour + kinematics + the spin-up ramp | [E] — reproduces the recorded P-028 input | bulk-flow data walks away; misalignment with the axis |
 | the cycle story (melt/reset/Tolman) | the chain + the zero–infinity asymmetry | [GRAMMAR] — bounce equations owed (B1/B7) | — (not yet falsifiable; honest) |
 
@@ -52,8 +52,8 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — NINE grips + the existence referee (entry 101: + WHIM-temperature; the razor dissolved by geometry — the gate energy heats the WHIM; S₈ delivery = the entropy-floor mapping, owed) | the 21cm edge reads SHARP (A); any grip off the one curve; WHIM temps reading gravity-only at XRISM/Athena precision |
-| the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED (entries 69/76)**: the H₀-lever branch DEAD; the mass-step candidacy FORKED (entries 85/85b): subdominant at central values, full-step corner alive at C_ref ≈ 2 — the DESI forest adjudicates | the forest kill (now double-duty: it also closes the corner); the quasar audit; the cluster-SN internal step appearing |
+| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — NINE grips + the existence referee (+ WHIM-temperature; the razor dissolved by geometry — the gate energy heats the WHIM; S₈ delivery = the entropy-floor mapping, owed) | the 21cm edge reads SHARP (A); any grip off the one curve; WHIM temps reading gravity-only at XRISM/Athena precision |
+| the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED**: the H₀-lever branch DEAD; the mass-step candidacy FORKED: subdominant at central values, full-step corner alive at C_ref ≈ 2 — the DESI forest adjudicates | the forest kill (now double-duty: it also closes the corner); the quasar audit; the cluster-SN internal step appearing |
 | the H₀ ceiling | the candle + the leakage + τ | **SUPERSEDED by ς = −1: the bracket collapsed to 70.9–71.3; the ladder-audit posture (P-001/TRGB) replaces the reach claim** | — |
 | the forest offset (ε × gate at Δ~1) | the gate curve | [C] — live at DR16's edge; DESI executes | a clean DESI forest cross-calibration |
 
@@ -74,6 +74,6 @@ joint pass is the family referee; any two settled members misaligned kills the f
 ## The reading rule
 
 A claim's effective confidence = its weakest parent. The corpus's strongest chains are
-Tier 1 (production-grade, running the evidence fight tonight); its boldest is the frozen
+Tier 1 (production-grade, running the evidence fight); its boldest is the frozen
 A_s (Tier 3, candidate-grade, deliberately exposed). The full failure record:
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).

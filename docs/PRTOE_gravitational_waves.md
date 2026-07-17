@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 10. Status: STRUCTURAL — one NEW computed null (tonight), one recorded parity-odd
+*Thread 10. Status: STRUCTURAL — one NEW computed null, one recorded parity-odd
 channel with a genome signature, one flagged interior prong. The improvement: the model makes
 its GW sector's silences and signatures SPECIFIC where standard cosmology leaves them generic.*
 
@@ -12,7 +12,7 @@ its GW sector's silences and signatures SPECIFIC where standard cosmology leaves
 Does the dark vortex network radiate (a PTA background)? Do the medium's defects distort
 propagation? And does the model mark the GW sky with anything no one else predicts?
 
-## 1. The vortex network is PTA-SILENT (computed tonight — a passed self-check turned prediction)
+## 1. The vortex network is PTA-SILENT (computed here — a passed self-check turned prediction)
 
 Cosmic-string networks radiate GWs; a universe threaded by dark vortex lines had to be
 checked (a potential self-kill). The dark vortex tension is set by the CONDENSATE's density,
@@ -29,7 +29,7 @@ demonstrated cosmic-string-network component with Gμ ≳ 10⁻¹¹ would be for
 
 The constitutional text (L1a, recorded): the medium cannot reach the PHOTON with parity-odd
 couplings (the birefringence zero) — but it CAN carry a parity-odd GRAVITATIONAL coupling,
-θ·R·R̃ → gravitational waves. Consequence, joined to tonight's structures: **a circularly-
+θ·R·R̃ → gravitational waves. Consequence, joined to these structures: **a circularly-
 polarized (chiral) component of any primordial GW background, with handedness set by the
 genome's sign** — the SAME topological draw as the baryon asymmetry and the magnetic helicity
 (P-028). The chirality family now has three members on one integer: matter, magnetism,
@@ -48,10 +48,10 @@ consistent with silence — which costs the model nothing (the core sits deep).
 
 ANN-2026-010 (the ε-collision with PTA reach) remains the bookkept boundary: the medium's
 strain-scale sits below PTA sensitivity — the GW sector neither rescues nor threatens the
-dyad. The model's GW ledger: one computed silence, one signed chirality, one deep prong, zero
+dyad. The model's GW record: one computed silence, one signed chirality, one deep prong, zero
 current tensions.
 
-## 5. The lightswitch — the parity channel's biography and the SPLIT prediction (2026-07-14; hunt entries 181–183)
+## 5. The lightswitch — the parity channel's biography and the SPLIT prediction (2026-07-14)
 
 The parity-odd coupling θR R̃ is a TOGGLE by construction (parity-odd terms flip, they do not
 dial) and its action on a passing wave is helicity-selective — one circular polarization

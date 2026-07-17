@@ -1,9 +1,9 @@
 # THE READER'S GUIDE — plain physics, no house dialect (2026-07-13)
 
 *Written for the newcomer and the external reviewer. The repository's working documents
-use an internal grammar (banking and ledger metaphors) that has been productive for the
-authors but is NOT required to evaluate the physics. This page states the model plainly,
-translates every recurring house term, and gives the reading order.*
+use a compact internal vocabulary for the model's recurring objects; it is NOT required to
+evaluate the physics. This page states the model plainly, translates every recurring house
+term, and gives the reading order.*
 
 ## 1. The model in five plain sentences
 
@@ -33,7 +33,6 @@ translates every recurring house term, and gives the reading order.*
 | the winding / n / the draw | the quantized phase winding number, set stochastically (Kibble mechanism) at the condensation transition |
 | the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
 | the gate / screening / the gate curve ε(C) | the environmental switch-off of ε: a smooth function of local clumping (dense regions: ε → 0; voids retain it) |
-| the ledger / books / settlement | conservation laws and decoherence: "books balance" = quantities conserve; "settlement" = decoherence selecting definite outcomes |
 | recorded | established within the model at production grade (coded, fit, or derived) and recorded |
 | the census / census blindness | the counting argument behind c = 9/10: gravity couples to energy content, not particle identity |
 | the pinch / occupancy one | the ground state holds exactly one quantum per coherence cell (sets the vacuum energy scale) |
@@ -43,7 +42,7 @@ translates every recurring house term, and gives the reading order.*
 | the pour / the snap / the fountain | the bounce: the hot re-start of a cycle (structurally the one realized white-hole-like event) |
 | the melt | reheating above T_c at the crunch: superfluidity ends, friction returns, the winding's protection lapses |
 | ramps vs steps | the house discipline: physical transitions are modeled as smooth (finite-width) functions, never discontinuities, unless protected by quantization/topology |
-| the error log | the log of the authors' own caught errors (public, in the failures ledger) |
+| the error log | the log of caught errors (public, in the failures ledger) |
 | the killer / the kill | the named observation that falsifies a specific claim |
 | estimated / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
 | ς (final σ) | the one currently-undetermined sign in the H₀-ceiling formula (supernova color-channel direction) |
@@ -54,11 +53,11 @@ translates every recurring house term, and gives the reading order.*
 2. **THE_AMPLITUDE** — the one number and its seven windows.
 3. **DEPENDENCY_TREE** — what is conditional on what (the honesty map).
 4. **PREREGISTERED_PREDICTIONS** — the bets, with killers.
-5. **FAILURES_LEDGER** — everything that died, and the authors' own error log.
+5. **FAILURES_LEDGER** — everything that died, and the error log.
 6. The per-topic shelf (cosmological constant, hierarchy, neutrino sector, ...) as
  interest dictates; **MATH_SPINE** for the full derivation chain.
 
-## 4. What to be skeptical of (the authors' own list)
+## 4. What to be skeptical of
 
 - The A_s closed form is a *candidate* (its counting mechanism is half-derived; frozen
  into the current run by explicit decision, with the risk documented).

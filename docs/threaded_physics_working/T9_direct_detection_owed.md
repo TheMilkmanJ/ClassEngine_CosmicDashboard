@@ -6,4 +6,4 @@
 ## PAID (2026-07-12, light-compute): σ ~ 8×10⁻¹⁵⁰ cm² — ~100 ORDERS below the neutrino
 fog. "Below any conceivable reach" is now a number. The nulls are forever, quantified.
 
-Coupling-geometry status (entry 88): screened-room (underground) — the null stands by geometry.
+Coupling-geometry status: screened-room (underground) — the null stands by geometry.

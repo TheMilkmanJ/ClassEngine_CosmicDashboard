@@ -1,4 +1,4 @@
-# Kill Attempt & Patch Attempt (author's order, 2026-07-07 evening)
+# Kill Attempt & Patch Attempt
 
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -102,15 +102,14 @@ the kill attempt materially narrowed it: the continuous coupling is gone, and
 the model's survival now rests on (a) a discrete switch it must still derive,
 and (b) DESI regressing to w=−1. Both are falsifiable. Nothing was dressed up.
 
-## Amplitude update (author's "combination of reasons", 2026-07-07 later) — Shot 1 upgraded from "homeless fit" to "abundance-anchored to a factor of one"
+## Amplitude update — Shot 1 upgraded from "homeless fit" to "abundance-anchored to a factor of one"
 
 **The correction to Patch attempt 2:** that patch used M_GUT (2×10¹⁶ GeV) for the
 displacement and got 0.1% (factor 12 short). WRONG SCALE. The medium's field Ψ₀
 is pinned INDEPENDENTLY by the DM abundance (base-camp pin) at 0.7-1.5×10¹⁷ GeV —
 higher than M_GUT.
 
-**The amplitude is a PRODUCT of two factors** (author's "combination",
-correct): δm_e/m_e = (coupling) × (displacement), displacement = Ψ₀/M_Pl,
+**The amplitude is a PRODUCT of two factors**: δm_e/m_e = (coupling) × (displacement), displacement = Ψ₀/M_Pl,
 coupling = EM-self-energy structure (also sets leptons-not-hadrons, P-2026-011).
 
 **The number:**
@@ -138,4 +137,4 @@ to / lenses on the two factors.
 a naked fit — it is (abundance-pinned Ψ₀)/(Planck) × (O(1) coupling), and the
 abundance and the CMB agree on it to a factor of one. Full closure still needs
 the convention fixed (the actual coupling normalization) and the O(1) coupling
-derived. Credited to the author's "combination of reasons" instinct.
+derived. The two-factor reading is what resolves it.

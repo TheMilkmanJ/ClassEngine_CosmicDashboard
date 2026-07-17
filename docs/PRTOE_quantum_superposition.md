@@ -31,8 +31,8 @@ monitoring survive — **pointer states** (einselection / quantum Darwinism; thi
 decoherence, recast in the medium's language). In a
 condensate whose interactions are local-in-position, the survivors are position-like — which
 is what we observe. The "collapse" of textbooks is the thermodynamic side: the record written
-into the environment pays Landauer's fee (the recorded transaction ledger) — **a measurement is
-a billed transaction, and the bill is why it has a direction.**
+into the environment pays Landauer's cost (the recorded decoherence events) — **a measurement is
+an irreversible recording, and that irreversibility is why it has a direction.**
 
 ## 3. The outcome question — the one legal move, and its price
 
@@ -62,25 +62,25 @@ The null: exact QM — interference visibilities, decoherence rates (medium-loca
 position-basis), macroscopic superposition experiments (interferometry with ever-larger
 masses) must keep matching standard theory. A confirmed intrinsic collapse (GRW/Penrose-class
 deviation) would falsify the model's linearity inheritance as surely as it would falsify QM's.
-No new signature claimed; one research-grade flag parked with the LV ledger (any
+No new signature claimed; one research-grade flag parked with the LV log (any
 preferred-frame imprint on interference at extreme precision).
 
 *The particle was never in two places. The medium was in one configuration with two names, the
-neighbors kept the books, and the books — as always in this model — decided what was real
-enough to bill.*
+environment recorded it, and that record — as always in this model — decided what was real
+enough to count.*
 
 
-## Addendum (2026-07-12) — the settlement interpretation [interpretation-grade]
-The ledger grammar's reading: a superposition is a transaction initiated but not yet
-CLEARED (both twin-postings pending); measurement is settlement; decoherence is the
-clearinghouse; and the settlement DIRECTION is the condensate's own clock (the arrow).
+## Addendum (2026-07-12) — the decoherence interpretation [interpretation-grade]
+The reading: a superposition is a process initiated but not yet
+completed (both twin-amplitudes pending); measurement is the completion; decoherence is
+what completes it; and the completion DIRECTION is the condensate's own clock (the arrow).
 Explicitly labeled an interpretation: the model rides standard QM exactly and its
 abstention on the measurement problem stands — this adds ontology, zero modified numbers.
 
 
-## Addendum 2 (2026-07-12) — the settlement law [interpretation-grade]
-How the superposition is chosen: (i) the terms — least carrying cost subject
-to balanced books (the variational principle; exact for the vacuum: the gap equation);
+## Addendum 2 (2026-07-12) — the selection law [interpretation-grade]
+How the superposition is chosen: (i) the terms — least energy cost subject
+to the conservation constraints (the variational principle; exact for the vacuum: the gap equation);
 (ii) the probabilities — amplitude-squared by twin-swap symmetry (Zurek envariance
 [Zurek2003], with the swap partners being the twins). The abstention narrows to collapse
 DYNAMICS only — still constitutionally silent.

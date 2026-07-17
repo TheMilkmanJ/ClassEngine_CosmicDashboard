@@ -4,8 +4,8 @@
 
 
 > **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). **One named condition has
-> since FAILED: the paired lepton-sector vacuum (entry 9) was excluded by the basement
-> rebuild (2026-07-13, hunt entries 120/132b) — the gap-equation architecture below is
+> since FAILED: the paired lepton-sector vacuum was excluded by the basement
+> rebuild (2026-07-13) — the gap-equation architecture below is
 > retained as a template awaiting transfer to the Fermi-point basement, and every result
 > in this file inherits that conditionality.** Also conditional on: the no-bare
 > clause, P-2026-042's
@@ -53,7 +53,7 @@ leptophilic, exactly what the corrected census demanded) gives:
 
 $$m_H \sim \frac{M_{\rm anchor}}{4\pi} \approx 125\ \text{GeV}$$
 
-The author's plain-language form, registered with P-2026-042: *the anchor is where the
+The plain-language form, registered with P-2026-042: *the anchor is where the
 zero-point becomes non-zero* — the birth scale of mass; $m_H \to v \to$ every fermion
 mass cascades from it.
 
@@ -76,10 +76,10 @@ coupling); (iii) the redesigned two-loop run landing the portal far from ~1.5 Te
 
 ## Sources
 [BCS1957] (the gap form), [MachacekVaughn1983] (the loop structure), [Volovik2003],
-the internal chain: entries 7–11 (PRTOE_DERIVATION_HUNT.md), P-2026-042. Full list:
+the internal chain (PRTOE_DERIVATION_HUNT.md), P-2026-042. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
-## 5. Addendum (the stability audit, entry 17)
+## 5. Addendum (the stability audit)
 
 The reading's owed consistency check — do the portal's Yukawas destabilize the Higgs
 vacuum? — computed at one loop: the dip is SHALLOWER than the SM's own (−0.017 vs −0.022),

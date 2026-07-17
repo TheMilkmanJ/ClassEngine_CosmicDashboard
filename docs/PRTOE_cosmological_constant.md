@@ -67,7 +67,7 @@ The one order-one number left is **τ = T_c/m_e**, which the observed value fixe
 the chiral-transition-to-string-tension ratio of a QCD-like theory, a near-universal value ≈ 0.34–0.37
 that places ρ_Λ¼ at 0.97–1.07× the observed 2.25 meV. (This sector sets the dark-energy *binding scale*
 only; the dark matter remains the medium's own excitations. The derivation, and why a QCD-like sector is
-required, are in hunt entries 228–229.) What the model does **not** derive is the pinning — *why* the
+required, are in the open-derivations document.) What the model does **not** derive is the pinning — *why* the
 dark scale equals the electron mass. That one input is irreducible: it is the meV coincidence
 ρ_Λ ~ α⁴m_e, and it cannot be derived without spoiling the value of τ. So the honest reading: the
 dark-energy *scale* follows a derived closed form in α with a single dimensionful input, the electron
@@ -76,7 +76,7 @@ mass; the value lands within a few percent; and the one un-derived step is state
 **(d) Why the 10¹²⁰ never appears.** The Λ⁴ catastrophe is the *loop-pricing* of the
 vacuum — a mode sum. In this framework the condensate's ground state *is* the vacuum,
 and its gravitating energy is its *binding* energy — an occupancy count. The mode sum
-is the wrong ledger: it double-counts fluctuations that the no-bare-terms principle
+is the wrong accounting: it double-counts fluctuations that the no-bare-terms principle
 (the framework's founding axiom) assigns to the substrate, not to the emergent
 stress-energy.
 
@@ -118,7 +118,7 @@ consistency structure applied to its most famous problem:
  condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
  relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
  roster demonstrably cannot pay this bill species-by-species: str[1] = −68 and the
- Veltman-class sum both FAIL — the whole medium pays what the parts cannot). The
+ Veltman-class sum both FAIL — the whole medium does what the parts cannot). The
  observed Λ = the deviation from equilibrium, whose dynamic face is the still-settling
  fountain (below).
 - **The background reading — does not fix the value:** on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent
@@ -131,22 +131,32 @@ consistency structure applied to its most famous problem:
  earlier "0.76× from a mechanism" matched the value's *decade* by tuning turnaround~now while hiding the
  ratio failure. *Scope:* this falsifies KP as the mechanism for the residual Λ VALUE; KP-sequestering as
  the vacuum-CANCELLATION (the thermodynamic door below) is a separate, untouched claim.
-- **The thermal door — the residual's dynamics** (hunt entries 165/175–183): the candidate
+- **The thermal door — the residual's dynamics**: the candidate
  chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
  would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
  neutrino bath (the medium's only tree-level coupling; the friction turns on where
- free-streaming turns off), and the freeze — Γ = H at T_f — lands at z ≈ 12 with a
- decade-wide fade (z ≈ 32 → 4): **w = −1 exact through the observable range, untuned; the
- settling's ash banks as dark matter (the drain, the fluid's own dust face); the frozen
- residual is Λ.** Candidate grade throughout: the attractor/√N session is the doubly
- load-bearing promotion computation (the coupling exponent AND the drain magnitude from one
- calculation). The original statement stands beneath it: the condensate is **still settling from the one
+ free-streaming turns off), and the freeze is a **decoupling, not a rate-crossing**: the
+ condensate stays thermally locked to the *relativistic* neutrino bath (the friction rate
+ runs Γ/H ≈ 5×10¹⁰ ≫ 1 — the tracking condition, computed forward), and the settling
+ freezes when that bath goes non-relativistic and quits at T = m_ν. Because the **lightest**
+ neutrino is the *last* relativistic friction partner (heavier species go NR earlier, at
+ z ≈ 300, 50; the lightest at z ≈ 12), it sets the final freeze — **forward-explaining the
+ registered tie ρ_Λ¼ = m_ν,lightest = 2.25 meV**: the last bath to quit sets the frozen
+ excitation scale. **w = −1 exact through the observable range, untuned; the settling's ash
+ banks as dark matter (the drain, the fluid's own dust face); the frozen residual is Λ.**
+ Candidate grade: the amplitude *scale* is now FORWARD via the neutrino-decoupling
+ freeze-out (`scripts/kubo_freeze.py`); the earlier √N *lineshape-suppression* route (the
+ "Γ₀ = 76 meV" target) is retired as an inversion artifact — the collisionless neutrino
+ response is Ohmic in **both** the density and the scalar (Majoron) channel, so no
+ sub-Ohmic lineshape exists to supply it. The one **owed** piece is the O(1) coefficient of
+ the frozen equilibrium excitation (exactly m_ν, or c·m_ν?), which needs the condensate's
+ specific heat / equation of state at freeze. The original statement stands beneath it: the condensate is **still settling from the one
  genesis injection** — thermal counterflow (the fountain effect, the corpus's own
  genesis name) persists while any deviation from the T = 0 ground state remains, dying
  only asymptotically (the third law's ramp). The residual excitation of a nearly-settled
  medium is small — today's gradients are CMB-uniform at the 10⁻⁵ class — giving Λ's
  smallness qualitatively for free.
-- **The perturbations door** (entry 165 addendum): the textbook zero-point mode sum —
+- **The perturbations door**: the textbook zero-point mode sum —
  **the famous door, and the diagnosis of the famous disaster**: the 10¹²⁰ catastrophe is
  what that door yields when opened *while denying the medium* — fluctuations read
  without the equilibrium that cancels them. In the medium, the bulk of the mode sum is
@@ -158,7 +168,93 @@ consistency structure applied to its most famous problem:
 **The demand this section adds (inherited by the thermal program):** the three residuals —
 the Gibbs–Duhem deviation, the residual fountain excitation, the un-cancelled mode sum —
 **must be one number.** A confirmed three-way mismatch beyond stated widths is a place to
-dig (the three-door guideline; a diagnostic, not an executioner). Menu-watched, not read:
+dig (the three-door guideline; a diagnostic, not an executioner). **The O(1) coefficient,
+scoped (2026-07-16, `scripts/kubo_freeze.py`):** the *full* phonon thermal excitation at the
+freeze T = m_ν over-predicts by 3.2× (ρ¼ = (π²/30 c_s³)¼ m_ν = 7.1 meV), confirming Λ is the
+*suppressed residual*, not the full sum. The suppression is the phonon phase-space-with-
+cancellation 16π²α_c^{3/2} — the **same object** the perturbations door pins — which lands
+ρ¼ = 2.70 meV. So the thermal-door scale (2.25 meV, forward) and the perturbations-door
+coefficient (2.70) are **one number to ~20%**; the residual 20% (effective mode count g_*,
+the exact Landau cap) is the owed O(1) refinement. **Located precisely (2026-07-16):** the
+flagship E_b = ½α_c²M₂ = 2.284 meV (1.3% high) and the tie m_ν = 2.250 meV agree to 1% and
+both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full phonon sum
+(+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
+fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
+equilibrium identity does not simply "remove the measure"; f is a partial Gibbs–Duhem
+cancellation on the mode sum. **f is ½ — the pair count (2026-07-16).** The door's sum was run
+over the full d³k sphere, counting **k_up and −k_down as two independent modes**. They are not:
+in this medium the excitation *is* the (k↑, −k↓) twin — the same object the entanglement seating
+calls "a Cooper pair, entangled by construction" ([PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)
+§2) and the Koide self-dual reading calls one object's two faces, the −k_down variance face
+*equal to* the k_up mean face ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). One pair is
+**one** collective degree of freedom, so the full-sphere sum double-counts it. Counting pairs:
+
+| door | ρ¼ | vs observed 2.25 |
+|---|---|---|
+| thermal / ν-tie | 2.250 meV | — |
+| flagship ½α_c²M₂ | 2.284 meV | +1.5% |
+| perturbations, **pair-counted** | **2.271 meV** | **+0.9%** |
+
+**The three doors are one number to 1.5%** — the model's own flagship precision — down from the
+~20% spread the un-paired sum showed. And the "genuinely un-built cancellation fraction" is the
+**integer 2**: f = 0.4817 against the pair factor 0.5000 (4% in f, 0.9% in ρ¼). The earlier
+reading rejected the phase-space 0.51 and never tested 0.50.
+
+**The consistency audit — the tension this must survive, and its one escape (2026-07-16).** A
+factor introduced to fix one number must hold everywhere it applies. Running it out:
+- **The thermal door is safe.** Thermally excited phonons at +k and −k *are* independent (one can
+  exist without the other), so the full-sphere count is right there — and helium's measured phonon
+  C_V = (2π²/15)T³/c³ confirms it. The pair claim touches the **ground-state zero-point**, not the
+  thermal quasiparticle census; the ν-tie is untouched.
+- **The ground-state zero-point is the tension.** Textbook *bosonic* Bogoliubov gives
+  E₀ = ½Σ_{all k}(ω_B − ε_k − gn): the ½ *is* the zero-point half, and the sum already runs over the
+  full sphere. That object is the LHY term, (8/15π²)m⁴c_s⁵ — **measured** in ultracold Bose gases
+  [Navon 2011; Papp 2008; Bose–Bose droplets] at the **un-halved** coefficient. So as a *general*
+  rule for condensate zero-points, the halving is **excluded by laboratory data**.
+- **The escape, and it is the model's own identity.** The LHY is a *bosonic, unpaired* BEC result.
+  This medium is **He-3-A class** — a **BCS-paired fermionic** superfluid ([PRTOE_INDEX.md](PRTOE_INDEX.md);
+  [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)) — and the corpus reads its excitations in
+  Cooper-pair grammar throughout. A paired condensate's ground state is built from pair operators;
+  an atomic BEC's is not. The bosonic LHY may simply be the wrong comparison object.
+- **But the escape has a price**, and it is named here rather than hidden: the corpus also insists
+  the doors "belong to the *condensate grammar*, not to any particular condensate"
+  ([PRTOE_quantum_trio.md](PRTOE_quantum_trio.md) §3) — the same faces in a helium cell as in the
+  vacuum. That universality claim **cuts against** a counting rule that holds for the medium but
+  not for a lab BEC. Either the rule is pairing-specific (and the universality claim needs the
+  qualifier "paired condensates"), or the halving is wrong and the 0.9% hit is coincidence.
+
+**The He-3-A comparison, run (2026-07-16) — and it resolves the fork, against the pair count.**
+Taking the medium's stated identity seriously does change the door, but *not* through the pair
+count. **He-3-A is the chiral p-wave (ABM) state**: its order parameter is Δ(k̂) ∝ (k̂ₓ + ik̂_y),
+so |Δ(k̂)| = Δ₀·**sin θ**, with **point nodes** on the l̂ axis. The chirality and the nodes are the
+*same structure* — and the corpus has already **banked** that chirality, spending it on the
+parity-odd signatures (IGMF helicity, LSS parity, the birefringence null). **So the nodes are not
+optional.** The door caps its mode sum *at the pairing gap*; if the gap is nodal, the cap is not a
+sphere, and the angular integral carries ⟨sin⁴θ⟩ = **8/15** — forced, with **zero** new
+assumptions and **no** counting-rule change (hence **no LHY tension**):
+
+| candidate | f | ρ¼ | vs observed | standing |
+|---|---|---|---|---|
+| required by data | 0.4817 | 2.250 | — | — |
+| **He-3-A nodal gap** | **8/15 = 0.5333** | **2.308 meV** | **+2.6%** | **identity-forced, LHY-safe** |
+| pair count | 1/2 = 0.5000 | 2.271 meV | +0.9% | fits better; needs a counting rule the measured LHY excludes |
+| both applied | 0.2667 | 1.941 meV | −13.7% | **overshoots — mutually exclusive** |
+
+**The two cannot coexist**, and that decides it: the nodal weighting is *forced* by an identity
+already spent elsewhere, the pair count is *elective* and carries the LHY tension — so the
+**nodal reading is the principled one, and the better-fitting pair count is retired**. The
+better-fitting answer loses to the forced one. Result: the door goes from **+20.0% to +2.6%** on
+the model's own identity, and the three doors (tie 2.250, flagship 2.284, perturbations 2.308)
+are **one number to 2.6%**.
+
+**Grade: sharpened hard, not closed.** What remains honest: (i) the residual **+2.6%** is still
+outside the flagship's 1.5% — the last O(1) is not accounted, only shrunk by ~8×; (ii) **E_b's own
+derivation owes the same anisotropy** — ½α_c²M₂ was obtained from an isotropic gap treatment, and
+a nodal gap should be fed back through it for consistency (an open consistency item this pass
+creates, and names rather than hides); (iii) the hard cap remains a step at the Bogoliubov bend,
+and softening it pushes back **up** (~×1.19 in ρ¼), so cap shape and gap anisotropy are not
+independent. The DE *value* is unchanged throughout — it stands as a 1.5% prediction
+(flagship / tie). Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 
@@ -171,9 +267,8 @@ computation failing to sustain k ≈ 1.36 unravels the hierarchy leg.
 
 ## Where the dead ends live
 
-Two dead ends set this file's honest grade. The "residual IS the dressing" identity (entry 6)
-downgraded to *suggestive* once run at 3α (0.846 vs 0.835), and the triangle's "0.1% match"
-(entry 7) turned out to *select* the free dial x₀ rather than pin it. Both are logged in
+Two dead ends set this file's honest grade. The "residual IS the dressing" identity
+downgraded to *suggestive* once run at 3α (0.846 vs 0.835), and the triangle's "0.1% match" turned out to *select* the free dial x₀ rather than pin it. Both are logged in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) (the mathematical self-audit and the
 superseded-claims index) — which is why §2 states the closure as occupancy *without* leaning
 on the identity.
@@ -184,4 +279,4 @@ on the identity.
 [Planck 2018] (the measured ρ_Λ); Volovik, *The Universe in a Helium Droplet*
 (vacuum-as-condensate precedent); [Sakharov 1967] (the induced-action ancestry).
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md); derivation chain: the internal hunt
-log, entries 6–7, 38, and the thermal-door arc (140, 165 + addendum).
+log; the thermal-door arc.

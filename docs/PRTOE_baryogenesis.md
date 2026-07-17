@@ -5,7 +5,7 @@
 
 > **STATUS: FRAME COMPLETE, ONE INTEGRAL OWED** (the docket's one true calculation).
 > Un-refereed portions from the review-hold are marked. The recorded deaths and the derived
-> form are production-grade ledger items.
+> form are production-grade recorded items.
 
 ## 0. The problem
 The universe holds ~6×10⁻¹⁰ baryons per photon and essentially no antimatter. The
@@ -48,4 +48,4 @@ routes η through the junction transfer this file computes rather than through a
 
 ## Sources
 [AffleckDine1985], [FukugitaYanagida1986] (the killed baseline), [Josephson1962],
-internal: Card 4, t358b, the entry 9. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+internal: the AD-direct route. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

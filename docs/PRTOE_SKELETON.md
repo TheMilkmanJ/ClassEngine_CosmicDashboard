@@ -8,26 +8,26 @@
 
 
 *The core structure, stripped to its hinges. Not a sum -- a SEQUENCE, each step
-feeding the next. Written after the author assembled the ingredients (R=0,
+feeding the next. Written after assembling the ingredients (R=0,
 f_rot, Psi_0) and asked how they fit.*
 
-## Step 0 -- the blank ledger
+## Step 0 -- the empty initial state
  R = 0
 Empty spacetime is flat; nothing happens (the equation-of-nothing / "nothing
 until contact"). DERIVED (bedrock GR).
 
-## Step 1 -- the first transaction: the medium is born (genesis)
+## Step 1 -- the first interaction: the medium is born (genesis)
 The medium is a complex field Psi = |Psi| e^{i ξ} in the potential
  V(Psi) = m² |Psi|² + λ |Psi|⁴
 The quartic term λ|Psi|⁴ is the medium meeting ITSELF (the only thing to
-transact with at t~0). This genesis (Affleck-Dine, the quartic era) runs ONCE
+interact with at t~0). This genesis (Affleck-Dine, the quartic era) runs ONCE
 and produces TWO numbers:
  Psi_0 = the field strength / abundance (the "weird symbol")
  f_rot = the rotor fraction = the ψ/χ two-fluid split (the charge)
 STATUS: the mechanism is DERIVED (Room 1); the exact Psi_0 and the f_rot
-distribution come from solving the quartic-era dynamics (the dice, One Mountain).
+distribution come from solving the quartic-era dynamics (the dice).
 
-## Step 2 -- the account opens: R stops being 0
+## Step 2 -- the coupling switches on: R stops being 0
 Now Psi exists and has energy, so it curves spacetime:
  G_{μ ν} = 8 π G T_{μ ν}[Psi]
 This is the medium "investing into the universe" -- dark matter's gravity and
@@ -38,7 +38,7 @@ DERIVED + FITS the data (H₀=69.7, S₈ eased; the "real-fit").
  m_e shift: eps ~ Psi_0 / M_Pl ~ 1% (set by Psi_0)
  granule: S = (1 + f_rot²)/2 (set by f_rot; CONFIRMED numerically)
 
-## The hinges the author named
+## The hinges
  R=0 -- the blank start (Step 0)
  Psi_0 -- one genesis output → the m_e amplitude (Step 3)
  f_rot -- the other genesis output → the granule meter (Step 3)

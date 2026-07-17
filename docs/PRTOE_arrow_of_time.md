@@ -31,28 +31,28 @@ Hypothesis stops being a hypothesis; it is the *uniqueness theorem of beginnings
 begins, begins in the state that needs no choosing, and that state is minimal-entropy.
 **The universe started low because starting anywhere else would have required a past.**
 
-## 2. The running arrow: the gravity account's drawdown
+## 2. The running arrow: the gravitational free-energy drawdown
 
-With the low start explained, the arrow itself is the model's graded ledger:
+With the low start explained, the arrow itself is the model's graded free-energy budget:
 
 1. **The reservoir**: gravitational free energy = smoothness (gravity's negative heat capacity
- inverts intuition: uniform = far from equilibrium = the full account). This is
+ inverts intuition: uniform = far from equilibrium = the full reservoir). This is
  the Penrose-standard reading.
 2. **The statement**: the Weyl tensor — gravitational entropy ~ C² (Penrose's hypothesis) —
- and the model's own dyad gate, **reading B's f = exp(−C²/C_ref²), is the account-reader**
+ and the model's own dyad gate, **reading B's f = exp(−C²/C_ref²), is the free-energy gauge**
  (a recorded formula acquires meaning). The medium literally meters the arrow.
-3. **The flow**: dE = −p dV — the one transaction; internal exchanges conserve;
- only the matter–space transaction spends.
-4. **The fee schedule**: Landauer — every recorded transaction (decoherence event) pays its
- erasure toll; the environment's monitoring IS the recording (standard quantum Darwinism).
+3. **The flow**: dE = −p dV — the one exchange; internal exchanges conserve;
+ only the matter–space exchange spends free energy.
+4. **The cost**: Landauer — every recorded event (decoherence event) pays its
+ erasure cost; the environment's monitoring IS the recording (standard quantum Darwinism).
  Time's direction is the direction in which the records accumulate.
 5. **The compounding**: Tolman — the crunch keeps the heat; cycles lengthen; the un-crunchable
- Weyl is debt that can never be called back. The arrow survives the bounce.
-6. **The terminus**: the free-energy threshold (graded: "the same ledger from opposite
+ Weyl is entropy that can never be undone. The arrow survives the bounce.
+6. **The terminus**: the free-energy threshold (graded: "the same budget from opposite
  sides") — the last cycle is the one that cannot fund the next genesis; the chain damps into
- the eternal ground state (~10¹⁸ cycles, recorded bookkeeping). **The arrow ends where it
- began: in a unique, structureless state** — the vacuum at the start, the fully-illiquid
- zero-sum ledger at the end.
+ the eternal ground state (~10¹⁸ cycles, recorded count). **The arrow ends where it
+ began: in a unique, structureless state** — the vacuum at the start, the fully-depleted,
+ zero-free-energy state at the end.
 
 ## 3. Why this is different from the standard non-answers
 
@@ -60,13 +60,13 @@ With the low start explained, the arrow itself is the model's graded ledger:
 |---|---|---|
 | "low entropy by chance" (Boltzmann fluctuation) | Boltzmann brains; 10^(10¹²³) | no chance involved: uniqueness (§1) |
 | "inflation smooths it" | inflation needs its own low-entropy start (Penrose's objection) | the start needs no predecessor state at all |
-| "the arrow is anthropic" | explains selection, not existence | the arrow is the account drawdown — dynamical, metered by C² |
-| "just posit the Past Hypothesis" | a law-shaped IOU | replaced by a theorem-shaped statement: first ⟹ vacuum ⟹ minimal entropy |
+| "the arrow is anthropic" | explains selection, not existence | the arrow is the free-energy drawdown — dynamical, metered by C² |
+| "just posit the Past Hypothesis" | an unexplained postulate | replaced by a theorem-shaped statement: first ⟹ vacuum ⟹ minimal entropy |
 
 ## 4. The two-sided audit (honest)
 
-- **What is genuinely derived-from-recorded:** the uniqueness argument (graded), the ledger
- chain (each link individually graded), the terminus bookkeeping.
+- **What is genuinely derived-from-recorded:** the uniqueness argument (graded), the free-energy
+ chain (each link individually graded), the terminus accounting.
 - **What is owed:** (i) the entropy of the vacuum start is *defined* as minimal within the
  model's state space — a rigorous entropy functional for the medium (von Neumann on the
  condensate) would convert §1 from argument to theorem; (ii) the area-law/entanglement piece
@@ -78,17 +78,17 @@ With the low start explained, the arrow itself is the model's graded ledger:
 
 *Boltzmann asked why the universe's clock was wound. The model's answer: a beginning is the
 one event that cannot inherit a configuration — so it occurs in the only state that has none,
-and everything after is the unwinding, metered by the Weyl account and billed by Landauer,
-until the ledger is all record and no free energy — the arrow buried in its own paperwork.*
+and everything after is the unwinding, metered by the Weyl term and paid by Landauer,
+until the reservoir is all record and no free energy — the arrow buried in its own record.*
 
 
 ## Addendum (2026-07-14): the arrow from the door side
 
 The thermal-door arc supplies the arrow's third independent arrival: the genesis pour is the
-thermal door's OPENING TRANSACTION — one deposit, the universe's entire thermal principal,
-single-source — and time's direction is the one account depleting. The white-hole completion
-sharpens the boundary: the object that made the deposit can exist only at the instant before
+thermal door's opening event — one injection, the universe's entire thermal reserve,
+single-source — and time's direction is the one reserve depleting. The white-hole completion
+sharpens the boundary: the object that made the injection can exist only at the instant before
 duration (no time-reversal needed — no forward time yet), and its instability IS the
-direction: the timer and the deposit start together
-([PRTOE_white_holes.md](PRTOE_white_holes.md); hunt entries 159–165). Grammar-grade
+direction: the timer and the injection start together
+([PRTOE_white_holes.md](PRTOE_white_holes.md)). Grammar-grade
 cross-link; the standing derivations in this file are unchanged.

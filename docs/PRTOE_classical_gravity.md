@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The author's bet: "GR, SR, and Newton's laws all thread perfectly." Graded: Newton YES
+*The claim: "GR, SR, and Newton's laws all thread perfectly." Graded: Newton YES
 (with origins for his mysteries), SR YES-as-filed (PRTOE_special_relativity.md), GR
 CONDITIONALLY (the keystone's address).*
 
@@ -14,7 +14,7 @@ in any analog frame). What the model ADDS — the parts Newton could only postul
 
 | Newtonian mystery | the model's origin | provenance |
 |---|---|---|
-| WHY is G universal (one constant for all matter)? | the numeraire/blindness structure: gravity reads only size; a size-only vertex cannot carry species-dependence | universality |
+| WHY is G universal (one constant for all matter)? | the reference-scale/blindness structure: gravity reads only size; a size-only vertex cannot carry species-dependence | universality |
 | WHY does the EP hold exactly (composition-independence)? | the same blindness + the screens' composition-blindness; tested and cleared (Vainshtein margin) | recorded EP gate |
 | WHY inertia (N1/N2)? | excitations ride ONE metric; quasiparticle dynamics in the IR — inertial mass IS the mode's energy content (the account's entry) | the frame + the ladder |
 | N3 / momentum conservation | the medium's homogeneity (one substrate, translational symmetry) | structural |
@@ -38,16 +38,16 @@ Sakharov stiffness. GIVEN the area law, Jacobson delivers Einstein's equations �
 law is the keystone debt (no-bare-G + the Frolov–Fursaev condition), and the flag stands:
 analog frames generically deliver linearized-plus, and the FULL nonlinear Einstein dynamics
 (graviton self-interaction to all orders) rests on the same address. **Thread: CONDITIONAL —
-perfect IF the keystone pays; the M3/basement compute is the toll.**
+perfect IF the keystone holds; the M3/basement compute is the cost.**
 
 ## The bet's summary
 
 Newton threads perfectly and profitably (his postulates become theorems). SR threads perfectly
-at the price of an eternal performance. GR threads through one unpaid toll booth that five
+at the price of an eternal performance. GR threads through one unmet requirement that five
 other documents are also parked at. The classical tower doesn't just survive the model — the
 model explains why the tower never wobbled: **everyone in it was always swimming in the same
 medium, reading the same account, blind to everything but size.**
 
 ## Sources
 
-[Will2014] (the PPN ledger), [Vainshtein1972] + [HNS2009] (the EP gate's margin), [Jacobson1995] (the GR route), [Banik2024]/[Chae2023] (the wide-binary dispute P-036 bets on). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+[Will2014] (the PPN tests), [Vainshtein1972] + [HNS2009] (the EP gate's margin), [Jacobson1995] (the GR route), [Banik2024]/[Chae2023] (the wide-binary dispute P-036 bets on). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

@@ -3,11 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-Chronological ledger of the night's verdicts (internal review session).
+Chronological record of the night's verdicts (internal review session).
 The localization computation moved the internal assessment favorably; the claim stays
 provisional until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
 
-## 1. Card 1 completed to candidate-derivation with the value computed
+## 1. The cosmic Rydberg (DE value) completed to candidate-derivation with the value computed
 - **The fork repair:** two components — granules = the matter/DM branch (a₀
  packing); the floor = the exchange field's zero-point at E_b. Re-upgraded to
  candidate-derivation.
@@ -58,4 +58,4 @@ provisional until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
 ## 6. Process
 - Session closeout mid-night: all background processes survived; monitors re-armed; task board
  rebuilt (10 live lanes).
-- **C-code gate RESET by author:** >85% deleted; new gate = PolyChord favorable + gate-0 bank.
+- **C-code gate RESET:** >85% deleted; new gate = PolyChord favorable + gate-0 bank.

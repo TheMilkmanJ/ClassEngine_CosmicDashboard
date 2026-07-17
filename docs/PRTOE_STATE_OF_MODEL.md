@@ -17,8 +17,7 @@
 > [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) (the open work, EXPLORATORY).
 > Kept as the honest historical baseline it is.
 
-*Honest status assessment, requested by the author ("how close to understanding
-are we? what questions need answers?"). No inflation; evidence class stated first.*
+*Honest status assessment. No inflation; evidence class stated first.*
 
 ## Headline
 We understand WHAT the model is and THAT it fits the data. We do NOT yet
@@ -56,7 +55,7 @@ scoring now); P-2026-005 (cores without oscillation, spins without clouds);
 standing kill-only bets (no dark-sector particle signal — direct/indirect/
 haloscope; Λ exactly vs DESI DR2).
 
-## What tonight's m_e arc actually settled (for the record)
+## What the m_e arc actually settled (for the record)
 60-orders problem DEAD (trigger/amplitude split); bistability DEAD (subcritical
 QED); screening = the environment-dependence we already have (not a new gate);
 sharpness FITTED to MICROSCOPE not predicted (circularity check FAIL, honestly
@@ -79,7 +78,7 @@ else is mapping the model so those tests mean something.
 FALSIFIED and booked** (P-2026-004 — the model demonstrated real falsifiability by dying a little).
 Gate-0 (the BBN wall) **cleared and re-signed as a mild heal**; the dyad onset, the H=m onset,
 the √3 timing, the C_ref gate, and the turnaround epoch are **derived**; ε is **conditional**
-(the seven-card deck, spine §14). The distinctive prediction surface is now: the radio ratio-lock,
+(the open-derivation set, spine §14). The distinctive prediction surface is now: the radio ratio-lock,
 P-022/023/024/025, the (D/H, Y_p) pattern, and above all **w = −1 today as the model's own derived
 commitment — DESI DR3 is the sovereign kill-or-confirm.** The headline remains honest: a competitive,
 unusually falsifiable framework — not a confirmed theory.

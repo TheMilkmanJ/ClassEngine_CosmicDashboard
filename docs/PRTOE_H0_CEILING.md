@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The author's demand: compute the maximum ladder-H₀ the model can account for, show the
+*The task: compute the maximum ladder-H₀ the model can account for, show the
 formula, and explain the pipeline gap honestly. Statuses per the house law.*
 
 ## 1. The adopted symbol: ς (final σ) — THE LAST SIGN
@@ -22,9 +22,9 @@ $$H_0^{\rm ladder} = H_0^{\rm global}\times\Big[1 + \varsigma\,\beta\,\delta c\,
 |---|---|---|
 | H₀^global | **69.9** | the model's CMB prediction (production fit; the zero-parameter run re-derives it) |
 | ς | {−1, 0, +1}, **armed 0** | UNCOMPUTED — the sign session (the room's crux) |
-| β·δc | 0.093 mag | the color channel (entry 68): Rydberg compression ε through SALT standardization |
+| β·δc | 0.093 mag | the color channel: Rydberg compression ε through SALT standardization |
 | ⟨g⟩_flow | 0.3–1.0 | the flow-SNe mean gate value (the host census, unsized; calibrator side ≈ 0 — screened) |
-| Λ_leak | +0.1–0.3% | the lookback-varying dipole leakage past SH0ES's constant template (entry 64); axis-geometry multiplier open (v4.1) |
+| Λ_leak | +0.1–0.3% | the lookback-varying dipole leakage past SH0ES's constant template; axis-geometry multiplier open (v4.1) |
 | 𝒯_τ | 0–0.4% | the τ room (the unpaid 7→8 tether), either sign |
 
 ## 3. The computed bracket
@@ -54,7 +54,7 @@ the formula is falsifiable in one computation.
  respectively — the first lives outside the likelihoods entirely, the second is an
  unrun computation (B-queue).
 - **Nothing is lost**: the evidence run's chains can be IMPORTANCE-REWEIGHTED with the
- candle-corrected SN likelihood retroactively — tonight's run collects the data once;
+ candle-corrected SN likelihood retroactively — this run collects the data once;
  the ceiling cashes against it whenever ς arrives.
 
 ## 5. The one-sentence version
@@ -65,7 +65,7 @@ difference between reach and claim is one sign (ς) and one census (⟨g⟩), bo
 neither invented.
 
 ## Sources
-Entries 64–68 (the derivation log); scripts/candle_room_correction.py, flow_ladder_correction.py;
+The derivation log; scripts/candle_room_correction.py, flow_ladder_correction.py;
 [Riess2022] (the ladder), [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 

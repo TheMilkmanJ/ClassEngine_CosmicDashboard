@@ -4,7 +4,7 @@
 
 
 *Comprehensive record of the day's work. Honest grading throughout. The deepest new thread
-is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full ledger.
+is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full record.
 Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechanism_math.md §10
 (the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the the private internal review record
 (internal review + internal review).*
@@ -74,7 +74,7 @@ P-2026-020 (0νββ MUST occur, Majorana), quasar varying-m_e shape.
 - Varying-m_ν (background.c): ncdm mass × me² above the varconst transition (δm_ν=2δm_e). Backward-
  compatible, observationally null (ν relativistic at recomb). Removes code-vs-mechanism inconsistency.
 
-**H₀ self-consistency (this session's insight):** the fits treat dcdf_rho_inf and m_ncdm as
+**H₀ self-consistency:** the fits treat dcdf_rho_inf and m_ncdm as
 independent; the model LINKS them (P-2026-012). Two fits launched to test H₀ under the model's own
 structure: cmp_prtoe_omk (Ω_k free, #18) and cmp_prtoe_nulink (m_ncdm derived from ρ_inf). Both
 running at time of writing.
@@ -90,7 +90,7 @@ Distinctive PRTOE ~6–10%, single-gated on DESI DR3. The CC is reframed (dynami
 the model, dodging static Weinberg) but NOT derived (value = Lagrangian input). The dyad-leptophilia
 is the one un-derived coupling, precisely mapped. Birefringence closed, EP cleared, leptonic fit
 competitive (χ²≈2802.8). Nothing was hand-waved; every over-reach (several of them ours) was caught and
-booked. The model is smaller, sharper, and more exposed than it was this morning — the honest kind
+booked. The model is smaller, sharper, and more exposed than before — the honest kind
 of progress.
 
 ---
@@ -106,7 +106,7 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 - **Leptophilia reframe "allowed ≠ generated."** Lepton-sector Psi → |Psi|² q-bar q only ~2-loop
  ~1×10⁻⁹ → quarks effectively untouched. (credited)
 - **Bulk residual ≠ 0.** Corrected internal review's internal review over-round: the bulk between Q-balls holds the
- electron-CW VEV, not zero. (author's catch; internal review booked against itself)
+ electron-CW VEV, not zero. (caught; internal review booked against itself)
 
 ## MARGINAL (coin-flip, unbanked)
 - **Dyad BBN clearance.** T_c log-ambiguous ~40-450 keV, central ~70-160 keV, STRADDLES the deuterium
@@ -126,7 +126,7 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 - **AZK instability (MaVaN):** DODGED. m_ν set by the frozen radial L-breaking VEV (not the rolling
  DE mode) + Majoron derivative ν-coupling (rolling doesn't vary m_ν) → NOT a mass-varying-neutrino
  DE → AZK n/a. COST: the dodge = the non-dynamical shared-scale structure = motivates-not-forces
- (same coin). (author's bet, confirmed internal review)
+ (same coin). (bet confirmed; internal review)
 
 ## LIVE FALSIFIERS
 - **Σm_ν ~ 61 meV / normal ordering** (P-012/P-020) -- DESI/CMB now; NOT distinctive; jointly
@@ -143,14 +143,14 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 (derived onset) banks; the clearance is a live coin-flip; the neutrino tie is motivated + falsifiable.
 
 ## PROCESS: mutual walk-backs held the line -- my over-claims caught in BOTH directions (over-sold
-"clear" internal review, over-sold "dead" finite-T), the author's bulk-residual correction (internal review booked
+"clear" internal review, over-sold "dead" finite-T), the bulk-residual correction (internal review booked
 against itself), internal review's symmetric un-banks. The discipline is why the wins are trustworthy.
 
 ---
 
-# THE ATOM NIGHT + THE SEVEN CARDS (2026-07-10, late — closing update)
+# The atom-scale derivations (2026-07-10 — closing update)
 
-The evening after the gate-0 ledger: the stepping-stone syllabus (the internal review). Headlines,
+The evening after the gate-0 work: the stepping-stone syllabus (the internal review). Headlines,
 with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **Gate-0 CLEARS** (double sign-correction: the leptonic ceiling + the weak-rate window), then
  RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).
@@ -158,8 +158,8 @@ with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **The atom grammar**: ground state = the condensate (Landau zero-entropy = timelessness);
  Γ/H = √3 (sharp, single-scale-derived); Tolman absorbed as the arrow (first cycle, finite past);
  the torus = the cavity; the low-ℓ sky = a **cycle-odometer**.
-- **The seven-card deck** (the author-caught undercount): ε corrected to *conditional*
- (factor-4 c window + the empirical abundance); all seven cards routed, benchmarked, or in trial.
+- **The open-derivation set** (the caught undercount): ε corrected to *conditional*
+ (factor-4 c window + the empirical abundance); all seven derivations routed, benchmarked, or in trial.
 - **New registrations:** P-022 (21cm three-verdict), P-023 (Σm_ν divergence), P-024 (the ε-dipole),
  P-025 (Benchmark-A S4). **Falsified:** P-004. **Standing ≈ 14–17%**, DESI DR3 the sovereign test
  (the model's own grammar now COMMITS to w = −1 today, turn ~6.6 Hubble times out).

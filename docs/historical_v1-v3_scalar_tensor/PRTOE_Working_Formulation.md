@@ -1462,7 +1462,7 @@ When all PRTOE parameters → 0 (ξ → 0, ζ → 0, V0 → 0, m → 0, λ → 0
 * P(k) → P_ΛCDM(k)
 * σ₈ → σ₈,ΛCDM
 
-**Numerical validation script:** See `test_prtoe_null_limit.py` (provided in the author’s derivation archive, outside the repository)
+**Numerical validation script:** See `test_prtoe_null_limit.py` (provided in the derivation archive, outside the repository)
 
 ### 10.6 Stability Analysis
 

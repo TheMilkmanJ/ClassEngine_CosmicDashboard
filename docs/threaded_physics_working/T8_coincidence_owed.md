@@ -4,4 +4,4 @@
 3. Propagate the 20% floor into the timing's error band (how sharp is "why now" quantitatively?).
 4. The cycle-level re-pose (why THIS cycle) — tighten the early-cycle bookkeeping's lean.
 
-Coupling-geometry status (entry 88): background-level (no gate exposure).
+Coupling-geometry status: background-level (no gate exposure).

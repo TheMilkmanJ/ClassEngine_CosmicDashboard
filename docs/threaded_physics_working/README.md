@@ -1,6 +1,6 @@
 # Threaded Physics: Working
 
-*The due-diligence ledger for the threading survey. One file per thread: what
+*The due-diligence record for the threading survey. One file per thread: what
 is OWED before the thread's claims harden — pulled from internal review's grades (internal review+) and each
 document's own flags. Work these down; move a thread's file to DONE-status notes when its debts
 clear. Cross-cutting debts live in _cross_cutting.md.*

@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The author's law, stated the night he and the audit converged on it independently:
+*The law:
 "Every epoch tethers to both itself and the epoch coming after it and the epoch before
 it. It's all one very well designed phase transition to phase transition. Linear
 unification, not looped: not everything should be connected directly, but the epochs
@@ -35,7 +35,7 @@ ring — the torus re-formed, spin re-seeded from the carried axis; the Kibble d
 n; the parity stamps are signed (the genome's helicity, η's seed); gravity works
 repulsive (condensate-led — same law, opposite work).
 → **Tether 1→2 [RECORDED]:** hands off n, the fireball, the condensate background, the
-parity stamps. The transition is SIGN FLIP #1: radiation takes the books and gravity's
+parity stamps. The transition is SIGN FLIP #1: radiation takes over the energy budget and gravity's
 work turns attractive (the acceleration equation reading ρ+3p — booked).
 
 **2. THE FIREBALL** (radiation domination): standard hot plasma; n/p freeze-out at
@@ -44,7 +44,7 @@ ordering's first half.
 → **Tether 2→3 [RECORDED, production-grade]:** the handoff observable IS the windowed BBN
 pattern — freeze-out abundances locked pre-condensation.
 
-**3. CONDENSATION, T_c ≈ 179 keV (z ≈ 7.6×10⁸):** the medium condenses mid-BBN — and the birth is a RAMP, not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field, Gi ≪ 1 certified; coded into the pipeline 2026-07-14, hunt entries 162/164) — (between
+**3. CONDENSATION, T_c ≈ 179 keV (z ≈ 7.6×10⁸):** the medium condenses mid-BBN — and the birth is a RAMP, not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field, Gi ≪ 1 certified; coded into the pipeline 2026-07-14) — (between
 n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV); pairing forms
 (doubling season); ε ramps ON; the winding current becomes physical.
 → **Tether 3→4 [RECORDED]:** hands off ε(on), the superfluid, the winding k₀ = 2πn/L, and
@@ -63,13 +63,13 @@ events — the topology draw (n, at condensation) and the census lock (the A_s =
 snapshot, when the cells freeze at the pivot scale) as SEPARATE ADJACENT LINKS. The
 geometric session confirms or kills this; nothing downstream assumes it.
 
-**[TETHER 4→5 REWRITTEN, 2026-07-13 (entry 77):** the two-draws hypothesis resolved —
+**[TETHER 4→5 REWRITTEN, 2026-07-13:** the two-draws hypothesis resolved —
 the "topology draw" = THE QUANTIZATION EVENT (the classical fountain ring's circulation
 quantizes through the condensation ramp; n locks at the phase-slip freeze-out — 
 mechanical, noise-dressed; the KZ dice demoted to the residual + the ± genome coin);
 the census lock = the pour's thermal snapshot (the entry-75 reconciliation).]**
 
-**5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits entry 44's grade]:** the payroll snapshot
+**5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits the upstream rung's grade]:** the payroll snapshot
 — the pivot scale stands 781 cells across; A_s = 1/N frozen. The μ-era referee (entry
 46, ramp-corrected): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;
 1/m-branch whispers at μ ~ 10⁻⁹ (PRISM-class reach). *Room checked and COLD en route:
@@ -106,10 +106,10 @@ grades the handoff.
 books (the twice-crossed threshold): today's acceleration is the pour's mechanism at its
 second epoch. One component, two repulsive eras — where ΛCDM needs two stories.
 → **Tether 10→11 [MISSING]:** THE TURN — how the DE era closes into contraction is the
-cycle map's uncomputed business (shares the bounce room). Second-largest named debt.
+cycle map's uncomputed business (shares the bounce sector). Second-largest named debt.
 
-**11. THE TURN → THE NEXT CRUNCH:** the books drift toward the unspendable floor; the
-cycle closes; topology and entropy carry (Tolman: each cycle's books open larger).
+**11. THE TURN → THE NEXT CRUNCH:** the energy budget drifts toward the frozen floor; the
+cycle closes; topology and entropy carry (Tolman: each cycle opens with more entropy).
 → **Tether 11→0′ [RECORDED grammar]:** = tether 0→1 of the next cycle. The chain is
 linear WITHIN a cycle and concatenated ACROSS cycles — linked list, not loop; the
 next cycle's genesis reads this cycle's closing books and nothing else.
@@ -120,8 +120,8 @@ next cycle's genesis reads this cycle's closing books and nothing else.
 
 **Solid spine:** tethers 1→2→3→4 and 6→7 and 9→10 are recorded — the mid-chain is the
 model's strength (which is why the fit works: the data lives mid-chain).
-**The four named debts (the unification bill):** (i) the bounce equations (0→1, and
-10→11's turn — one room, both ends of the cycle); (ii) the two-draws question (4→5 —
+**The four named debts (what unification still owes):** (i) the bounce equations (0→1, and
+10→11's turn — one sector, both ends of the cycle); (ii) the two-draws question (4→5 —
 the draw-epoch conflict's proposed resolution, geometric session decides); (iii) the τ
 link (7→8 — a bounded computation, never run); (iv) the cold-spot orphan — the anomaly
 family's unclaimed sibling, no chain address assigned (candidate: a link-1 vortex/void
@@ -137,6 +137,6 @@ TETHERS. A claim that cannot say which epoch it lives in and what it inherits/de
 is not yet a claim in this model.*
 
 ## Sources
-Internal: the white-holes shelf, the derivation hunt (entries 43–46), the windowed BBN
+Internal: the white-holes shelf, the derivation hunt, the windowed BBN
 run, the two-clock frame, the fingerprint lattice, the cycle/torus genesis file.
 External record per link: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

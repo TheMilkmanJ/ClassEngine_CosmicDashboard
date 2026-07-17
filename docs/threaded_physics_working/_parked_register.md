@@ -1,11 +1,11 @@
-# The Parked Register — snagged, analyzed, set aside (per the author's law)
+# The Parked Register — snagged, analyzed, set aside (per the parking law)
 
 *Not dead, not alive, not forced. Each entry: the snag, the analysis, and the NAMED UNBLOCK
 that would reopen it. Nothing leaves the register except through its unblock or a kill.*
 
 | item | the snag | the named unblock |
 |---|---|---|
-| H-TOE (the maximal reading — the CONSTITUENT question only; the mass-sourcing fork resolved as the tenancy ramp, entry 91) | Gates un-paid; internal review adverse census forecast (proper N ~ 8-11 vs the rigid 13) | Gate 2's careful signed count; the basement compute |
+| H-TOE (the maximal reading — the CONSTITUENT question only; the mass-sourcing fork resolved as the tenancy ramp) | Gates un-paid; internal review adverse census forecast (proper N ~ 8-11 vs the rigid 13) | Gate 2's careful signed count; the basement compute |
 | the hinge-zone prong (wide binaries at ξ) | no mechanism (the ξ-scale force died with m_amp) | any derived substrate edge-dynamics at ξ |
 | the double-ladder alignments (web/mesoscale) | loose coincidences, no mechanism | a derivation linking ξ_K or 1/M₂ to the matter transition |
 | the generations lane (3 cycles = 3 families) | a 3=3 match without a mechanism | the flavor-from-winding construction |
@@ -23,7 +23,7 @@ SHARPENING booked: the Oklo fence is passed TRIVIALLY on its α-side (the model 
 α — EM-neutrality) and GATE-passed on the m_e-side (β-decay phase space; the settled era) —
 the row's honesty upgraded from "passed" to "passed-for-two-reasons, one trivial."
 
-## THE CROSS-COMPARISON PASS (author-directed): each parked item vs all domains
+## THE CROSS-COMPARISON PASS: each parked item vs all domains
 
 | item | the cross-domain find | effect |
 |---|---|---|

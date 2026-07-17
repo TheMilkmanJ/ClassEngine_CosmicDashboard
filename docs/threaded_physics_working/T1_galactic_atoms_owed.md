@@ -3,4 +3,4 @@
 2. Propagate the α_c MCMC-chain m posterior to r_1s (all numbers m-parametric).
 3. The upgrade path from postdiction: name ONE positive detection channel (dwarf-core kinematics at the heavy-m soliton scale? pulsar timing in nuclei?) or accept postdiction status permanently.
 
-Coupling-geometry status (entry 88): medium-sector (dCDF halo physics; not the ε channel) — verdicts hold under the fourth fence.
+Coupling-geometry status: medium-sector (dCDF halo physics; not the ε channel) — verdicts hold under the fourth fence.

@@ -1,4 +1,4 @@
-# PRTOE Verified References (the pre-Fairbank citation ledger)
+# PRTOE Verified References (the pre-Fairbank citation list)
 
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -7,7 +7,7 @@
 
 **Rule (2026-07-07):** every load-bearing receipt is verified against
 its source before external presentation; new receipts verify at
-booking time. Verified this session (identifiers checked via search;
+booking time. Verified (identifiers checked via search;
 V = verified, exactly as used in our documents):
 
 ## Load-bearing for verdicts/predictions
@@ -66,7 +66,7 @@ V = verified, exactly as used in our documents):
 - [V] **Davoudiasl & Denton**, PRL 123, 021102 (2019),
  arXiv:1904.09242 — M87* spin excludes ultralight scalars in
  [2.9, 4.6]×10⁻²¹ eV via superradiance (the superradiance null's
- exclusion band; verified 2026-07-07 ~3am at booking).
+ exclusion band; verified 2026-07-07 at booking).
 - [V] **Baryakhtar, Galanis, Lasenby, Simon**, PRD 103, 095019 (2021),
  arXiv:2011.11646 — quartic self-interactions saturate superradiant
  growth at quasi-equilibrium (level mixing + emission to infinity);
@@ -79,7 +79,7 @@ V = verified, exactly as used in our documents):
 
 - [V] **Levkov, Panin, Tkachev**, PRL 121, 151301 (2018),
  arXiv:1804.05857 — kinetic gravitational condensation time for Bose
- stars (E7b condensation-lag scaling). Verified 2026-07-07 ~5:30am.
+ stars (E7b condensation-lag scaling). Verified 2026-07-07.
 - [V] **Chiang, Schive, Chiueh**, PRD 103, 103019 (2021),
  arXiv:2104.13359 — soliton-oscillation heating of Eri II negligible
  in self-consistent sims, CONTRADICTING Marsh & Niemeyer PRL 123,
@@ -90,7 +90,7 @@ V = verified, exactly as used in our documents):
  arXiv:2011.11320 — "A new tension in the cosmological model from
  primordial deuterium?": PRIMAT post-LUNA D/H = 2.439±0.037, ΛCDM
  itself at ~1.8sigma. The scar-repricing's theory-error anchor.
- Verified 2026-07-07 ~6:45am at booking.
+ Verified 2026-07-07 at booking.
 - [V] **Pisanti et al.**, JCAP 04 (2021) 020, arXiv:2011.11537 —
  "Primordial Deuterium after LUNA": PArthENoPE concordance; the
  inter-code spread that dwarfs the model's marginal D/H cost.
@@ -99,13 +99,13 @@ V = verified, exactly as used in our documents):
 - [V] **Jaffe**, PRD 72, 021301(R) (2005), hep-th/0503158 — Casimir
  forces computable without zero-point energy (relativistic van der
  Waals; vanish as α → 0). The cc-attack's Casimir deflation.
- Verified 2026-07-07 ~7am at booking.
+ Verified 2026-07-07 at booking.
 - [V] **DESI DR2**: arXiv:2503.14743 (extended DE analysis) + DESI DR2
  results II, PRD 112, 083515 (2025) — DR2+Planck 3.1sigma CPL
  preference for evolving dark energy with phantom crossing. The
  object of STANDING BET #3 (Λ-exactly). Verified at booking.
 
-## Tail closed (2026-07-07 ~6:15am — the working docket, the pre-Fairbank gate)
+## Tail closed (2026-07-07 — the working docket, the pre-Fairbank gate)
 - [V] **Hafele & Keating**, Science 177, 166 & 168 (1972) — flown
  cesium clocks: east −59±10 ns (pred −40±23), west +273±7 ns
  (pred +275±21). The time-emergence calibration receipt.

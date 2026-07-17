@@ -98,7 +98,7 @@ runs showed σ8(z) *decaying* at late times and negative fσ8 — the classic
 unified-dark-matter death. The rescue was not new physics but a
 bookkeeping insight: galaxies trace the fluid's *clustering part*
 (1+w)ρ, not its full density — the de Sitter floor is not matter
-(dcdf_deltam_mode=1). BAO χ² went from 593 to 8.2 overnight. **Lesson: some
+(dcdf_deltam_mode=1). BAO χ² went from 593 to 8.2 in one run. **Lesson: some
 deaths are definitional, not dynamical.**
 
 ## v5: The amputation (2026-07-05)

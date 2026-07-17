@@ -1,8 +1,8 @@
 # THE PRTOE DOCUMENT INDEX
 
 *STATUS LABELS used across this shelf: PRODUCTION (fit-grade, chain-backed) · RECORDED
-(graded, in the ledger) · EXPLORATORY (review-hold work, un-refereed) ·
-ESTIMATED (author-sanctioned estimate grade) · SCHEDULED (referee named and funded) ·
+(graded, recorded) · EXPLORATORY (review-hold work, un-refereed) ·
+ESTIMATED (estimate grade) · SCHEDULED (referee named and funded) ·
 interpretation-grade (ontology only, zero modified numbers).* — domains, files, relations (living)
 
 *The master map: every covered domain/subdomain → its standalone → its relation class
@@ -25,11 +25,11 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 - [LV PRICING](PRTOE_LV_pricing.md) — the Lorentz-violation pricing pass: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
 - [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) — the remaining underived numbers and where their pieces already sit (living)
 - [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every death, reversal, and self-caught error in one place (the graveyard; the main read stays gold)
-- [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the credit ledger)
+- [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the source list)
 - [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — the elevator formulation: substrate, coupling, decomposition (the compressed front door)
 
 ## The spine and constitution
-MATH_SPINE (§0–22) · laws_and_rules/ (L1, L1a) · TRANSACTION_ATLAS · transaction_map ·
+MATH_SPINE (§0–22) · laws_and_rules/ (L1, L1a) · INTERACTION_ATLAS · interaction_map ·
 thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001→P-031)
 
 ## The two dark fields (the pieces; identity files, 2026-07-15)
@@ -44,8 +44,8 @@ coincidence_problem · direct_detection · indirect_detection · laboratory_cous
 sqrt3_derivation · classical_gravity · special_relativity · inertia · light · quantum_trio · quantum_gravity
 
 ## The mystery wing
-blackholes_no_singularity · bigbang_no_singularity · arrow_of_time · information_paradox ·
-cosmological_constant
+**no_singularities** (the synthesis) · blackholes_no_singularity · bigbang_no_singularity ·
+arrow_of_time · information_paradox · wormholes · white_holes · cosmological_constant
 
 ## The quantum wing [R, §12-walled]
 quantum_entanglement · quantum_tunneling · quantum_superposition

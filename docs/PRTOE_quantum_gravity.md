@@ -96,6 +96,21 @@ to zero — by the Standard Model plus three right-handed neutrinos: the content
 framework independently requires for Majorana neutrino masses.** The framework's field
 content lands on a knife-edge condition the literature identifies as hard to meet.
 
+*(The scalar sector, resolved 2026-07-16.* The count above runs over fermions and gauge bosons,
+whose supertrace is zero for SM + 3ν_R. The Higgs is a complex SU(2) doublet — four real
+scalars — and Visser's k₁ assigns each real scalar the standard heat-kernel R-coefficient
+**(1/6 − ξ_H)**, *not* zero (Seeley–DeWitt a₁; Birrell–Davies §6, Parker–Toms; the coefficient
+Visser 2002 Eq. 35 is built on). So the Higgs adds 4(1/6 − ξ_H), and the full str[k₁] = 0
+**iff ξ_H = 1/6** — the conformal coupling. This is not ξ-independent: the finiteness condition
+*requires a conformally coupled Higgs*. Two mitigations and one honest cost. (i) 1/6 is not an
+arbitrary point — it is the special conformal value, at which the Higgs curvature coupling is
+Weyl-invariant. (ii) It is the *same* value the G-value computation independently needs, so the
+framework is self-consistent, not over-determined. (iii) The cost: ξ_H = 1/6 is an input, not
+measured and not derived here, so the induced-G finiteness is **conditional on conformal Higgs
+coupling** — the scalar-sector "hole" is real but reduces to a single named assumption, not an
+open continuum. This confirms, and sharpens, the closure's demotion recorded in the failures
+ledger.)*
+
 **5.4 Why the naive closure failed, and what replaces it.** Sakharov's original route
 computes 1/G from the *quadratically divergent* coefficient — proportional to str[k₁]
 times the cutoff squared. **This framework's own content sets that coefficient to zero.**

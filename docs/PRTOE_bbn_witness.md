@@ -39,5 +39,5 @@ Verdict: the row is SAFE (no new damage) and the model claims nothing — an abs
 filed with the same prominence as the conquests (the strong-CP precedent). M6's lithium
 debt: paid.
 
-Entry 104: the lithium abstention THREE-SEALED (the windowed stamp's origin ramped by construction; the precursor question cannot reach the Li epoch; the ×3.4 discrepancy hands off lawfully to stellar depletion — the lineage program's cleanest exhibit).
+The lithium abstention is THREE-SEALED (the windowed stamp's origin ramped by construction; the precursor question cannot reach the Li epoch; the ×3.4 discrepancy hands off lawfully to stellar depletion — the lineage program's cleanest exhibit).
 

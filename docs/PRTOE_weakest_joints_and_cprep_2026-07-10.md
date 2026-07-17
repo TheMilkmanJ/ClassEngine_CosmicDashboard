@@ -93,12 +93,12 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 
 - **J2 (gate-0) — RESOLVED**: cleared via the double sign-correction, re-signed as a HEAL
  (T_c = 193 keV, +0.06σ D/H, zero Y_p tax). The wall was a pharmacy.
-- **J1 (the DE value) — RECLASSIFIED**: not constitutional-forever; **the cosmic Rydberg** (Card 1,
+- **J1 (the DE value) — RECLASSIFIED**: not constitutional-forever; **the cosmic Rydberg** (
  whisper: ½α_c²M₂ = 1.98 vs 2.25 meV; graduation teeth set).
 - **J3 (DESI) — HARDENED BY THE MODEL ITSELF**: the grammar derives w = −1 today (mass-defect
  O(δ²)); DR3 is now a pure kill-or-confirm on a derived commitment.
 - **J4 (m_e real) — new instruments**: P-022 (21cm), P-024 (the ε-dipole), the radio ratio-lock.
-- **J5–J7 — became the card deck** (spine §14): the portal embodied (vector-like candidate),
+- **J5–J7 — became the open-derivation set** (spine §14): the portal embodied (vector-like candidate),
  the abundance routed (genome→CP→η), v_L benchmarked.
 
 ## JOINTS UPDATE 2 (2026-07-11, the radio night)
@@ -116,5 +116,5 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 - **NEW STANDING RISK:** the D/H fork (windowed bet: 2.40–2.42 vs the quasar 2.527, ~1.9σ) AND the Y_p reversal (+1.3σ counter, internal review — the medicine was an artifact).
 - **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved draw→winding-average
  (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
-- **C-code gate RESET (author):** >85% deleted; PolyChord is the gate (the claim is held
+- **C-code gate RESET:** >85% deleted; PolyChord is the gate (the claim is held
  provisional until it runs).

@@ -4,7 +4,7 @@
 
 
 > **STATUS: MIXED.** The structural pieces (the bounce, the conformal phase, the cyclic
-> geometry) are recorded; the tilt derivation is EXPLORATORY (review-hold, entries 3–6).
+> geometry) are recorded; the tilt derivation is EXPLORATORY (review-hold).
 > This file assembles what was never assembled: the model answers every problem inflation
 > was invented for, without an inflaton.
 
@@ -50,4 +50,4 @@ count failing catastrophically when computed.
 
 ## Sources
 [Planck2018] (n_s, r bounds), [PlanckIso2019], internal: §19–22, the bounce file
-(PRTOE_bigbang_no_singularity.md), entries 3–6, P-031. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+(PRTOE_bigbang_no_singularity.md), P-031. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).

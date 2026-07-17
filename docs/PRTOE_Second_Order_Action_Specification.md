@@ -69,7 +69,7 @@ Here:
 - $\Delta \phi$ is the **width** of the transition region (related to bubble wall thickness in early universe)
 - This is a standard EFT result for **spontaneous symmetry breaking**
 
-In this framing, $A(\phi)$ represents the **expectation value of an author** $\mathcal{O}$ in the presence of the scalar field $\phi$, interpolating between two vacuum states.
+In this framing, $A(\phi)$ represents the **expectation value of an operator** $\mathcal{O}$ in the presence of the scalar field $\phi$, interpolating between two vacuum states.
 
 #### 1.3.2 Screening $S(\phi)$ as Infrared Regulator
 

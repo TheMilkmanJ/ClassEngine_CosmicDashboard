@@ -3,11 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: filed 2026-07-14 (hunt entries 79-class and 171). Grade: structural identity —
+*Status: filed 2026-07-14. Grade: structural identity —
 grammar-level, zero new predictions of its own; its content is the SEATING of three
 already-recorded results, plus one paired signature it inherits from the thermal program.
 Rides M3 (the medium's reality). Companion files:
-[PRTOE_light.md](PRTOE_light.md), [PRTOE_TRANSACTION_ATLAS.md](PRTOE_TRANSACTION_ATLAS.md),
+[PRTOE_light.md](PRTOE_light.md), [PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md),
 [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b (the three-door frame).*
 
 ---
@@ -46,16 +46,28 @@ three windows through which any condensate is seen.
  and (on this model's identity) the vacuum itself — because the doors belong to the
  *condensate grammar*, not to any particular condensate.
 - **Why measurement-scale physics is classical** (recorded elsewhere, cited here): posting
- to 10²³ seats cannot be recalled — decoherence is the ledger grammar, not a fourth door.
+ to 10²³ seats cannot be recalled — decoherence is the existing mechanism, not a fourth door.
+
+**Derivation backing (audit, 2026-07-16).** Each seating rests on a real result, not an
+analogy: *entanglement* on the C4 CHSH computation (the pair states give B(r) = 2√(1+tanh²2r),
+saturating Tsirelson's 2√2 — the prediction is exact QM, the Tsirelson null, conditional on
+substrate quantization); *tunneling* on the identity WKB exponent = the medium's evanescent
+decay length verbatim, with the Josephson junction as the recorded precision receipt; and
+*superposition* on ODLRO structure — with the honest gap flagged plainly, that the Born-rule
+*value* is reproduced, not re-derived (the measurement problem, shared with every
+interpretation). So the trio's common prediction is **exact QM** (the Tsirelson/tunneling
+nulls), and its one *cosmological* testable is the second sound below — an inherited P-040
+consequence, not an independent new number. The Born-rule value is the single un-derived
+residue; the rest is derived structure.
 
 ## 4. The one piece of live freight
 
 The trio's thermodynamic door is the thermal program's jurisdiction, so any result on the
-medium's rate side speaks to both floors at once. The standing example (hunt entry 172):
+medium's rate side speaks to both floors at once. The standing example:
 in the deep sub-T_c phonon-gas limit, the medium's **second sound** runs at c₂ = c₁/√3 —
 and with the first sound at √α_c·c and the registered bet α_c = 3α, this lands at
 **c₂ = √α·c ≈ 0.0854c**: the isocurvature (entropy-wave) channel would propagate at √α
-times light *exactly if the bet holds*. Three doors give the bet its full bench (hunt entry 173): the dispersion chain (the mode
+times light *exactly if the bet holds*. Three doors give the bet its full bench: the dispersion chain (the mode
 sector, running), the isocurvature phase speed (the thermal face, awaiting data), and the
 ε-assembly's indirect band (the background fit — already registered at [0.0205, 0.0214],
 2.3% below 3α). **Three instruments, one coupling, none able to cheat for the others** — a
@@ -99,6 +111,5 @@ behind it.*
 [Landau 1941] (two-fluid hydrodynamics; second sound); [Bardeen–Cooper–Schrieffer 1957]
 (the pair as a constructed entangled superposition); [Yang 1962] (ODLRO); [Anderson 1966]
 (phase slips); [Volovik 2003] (the condensate-vacuum program). Full entries:
-[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the three-in-one (hunt entry 79-class), the
-three-door guideline (entries 160–161), the seating (entry 171), the second-sound pairing
-(entry 172).
+[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the three-in-one, the
+three-door guideline, the seating, the second-sound pairing.

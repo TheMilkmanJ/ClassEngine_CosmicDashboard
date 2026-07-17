@@ -25,7 +25,7 @@ f_amp decomposition — in the standing decomposition ε = c·f̄·α_c the mass
 census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through this
 route** (the hinge keeps only its α_c conditionality via c_s = √α_c). And read backward, the
 old curve is dead by its own arithmetic: it would force c = 1.005 while the census excludes
-c = 1. Provenance walk, hunt entries 145/148].
+c = 1. Provenance walk].
 * **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
 δm_e. (The Majoron/lepton-sector identity: tree coupling σNN → neutrinos; the charged-lepton
 portal is a UV assumption [PENDING #30].)
@@ -38,7 +38,10 @@ running instrument:
 > species plus the vacuum's own seat. The neutrinos sit on the seat rather than in the count, because
 > their mass is medium-sourced rather than electroweak; the running α_c chain is the independent check;
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
-> winding's many-turn equidistribution (the coupling form the one remaining piece);
+> winding's many-turn equidistribution; the coupling form is now data-selected (2026-07-16):
+> mass-positivity kills the signed average (⟨cos⟩=0), leading-order (Yukawa, linear) picks
+> mean-absolute over the quadratic/RMS readings, and the fit (0.625) + sim (0.635) confirm 2/π,
+> rejecting RMS (0.707) at +13% — residual only "leading-order dominates";
 > - **α_c = 3α = d·α** — the condensate coupling, the 3 being the spatial dimension d (second sound,
 > geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
 
@@ -60,7 +63,7 @@ Match 1.002×. The onset is field 1's H=m clock — textbook ULDM — NOT a cond
 (the apparent internal inconsistency dissolved, booked both columns). Code: `dcdf_z_rad_onset`
 (background.h, with the derived-identity comment).
 
-**Two jobs, one clock** (author, 2026-07-10): the ending regime reaches its floor (conformal
+**Two jobs, one clock:** the ending regime reaches its floor (conformal
 protection ends) while the starting regime crosses its threshold (dust/DM behavior begins). In
 code this is literally one function: `dcdf_rho_rad`'s f(a) = x²/(1+x²) fades the radiation while
 the dust part continues, amplitude fixed by continuity (no free knob).
@@ -79,7 +82,7 @@ The electron Coleman–Weinberg backreaction on the charge-free field (m_e(φ) =
 
 > V_CW = −(1/16π²)·m_e(φ)⁴·[ln(m_e(φ)²/μ²) − 3/2] → tachyonic curvature → radiative SSB
 > **VEV: v = m_e0·[ε(L−1)/4π²]^{1/4} ≈ 100 keV** (81/102/121 keV for L−1 = 2/5/10; ±25%, robust)
-> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted value is now T_c ≈ 179 keV (the non-perturbative confining chiral ratio, hunt 228/230), with this perturbative 193 keV a log-ambiguous cross-check inside every version; leading-log unstable
+> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted value is now T_c ≈ 179 keV (the non-perturbative confining chiral ratio), with this perturbative 193 keV a log-ambiguous cross-check inside every version; leading-log unstable
 > near the flat direction; RG resummation = the working docket).
 
 The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded).
@@ -154,10 +157,10 @@ charge survives in solitons/Q-balls [requires gravity-mediated K<0: fragmentatio
 banks the charge at T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis
 across the bounce (rotation resets, topology doesn't) → re-expansion cools through T_c → the
 condensate RE-FORMS → §1. **The condensate breathes; T_c is both the recombination-era turn-on
-and the crunch-era melting point — one number, both jobs** (the author's two-jobs law, §2).
+and the crunch-era melting point — one number, both jobs** (the two-jobs law, §2).
 [STORY at the bounce rungs: BKL, Tolman unresolved.]
 
-## 8\. The two-jobs pattern (author's law, 2026-07-10) — and where the code reflects it
+## 8\. The two-jobs pattern — and where the code reflects it
 
 Every transition is ONE clock with TWO jobs — the ending regime reaches its floor, the starting
 regime crosses its threshold:
@@ -238,7 +241,7 @@ L1a, one clause, shared fate both ways).
 the lanes), topology (the AD route + the cavity), frame/UV (the Lorentz program + λ), data
 (the chains + the epoch stamps). Sprint results: the toy cavity puts ℓ=2,3 BELOW the first
 torus mode (T5's matched-circles risk resolved favorable); the thermal-leptogenesis surface is
-EMPTY (×40-1000 under everywhere) → **Card 4 reverts to the native AD-direct route (charge =
+EMPTY (×40-1000 under everywhere) → **the baryon asymmetry reverts to the native AD-direct route (charge =
 abundance) with the frozen-era transfer (sphalerons at 130 GeV vs the field frozen till
 9.4 keV) as the hard timing crux**; the λ candidate chain failed its own bounce self-check
 (informative).
@@ -249,7 +252,7 @@ a derived self-constraint; the axion-like reading (λ ~ m²/f²) lands at the ce
 factor → **P-2026-031 (candidate): CDM isocurvature at ℓ ~ 170.** *(Amplitude caveat: the axion
 quartic carries a coefficient ~1/6, so |λ| sits a factor ~6 below the naive (m/Ψ₀)² ceiling — the
 isocurvature is then likely sub-%-level and below current Planck sensitivity, not at it; the exact
-amplitude awaits the O(1) coefficient and the λ-sign. Hunt 233.)* (+ a 45-90 km/s bulk-flow shadow). MOND/RAR finally dead (m_amp → m; ≤59 AU ≪ kpc). The third
+amplitude awaits the O(1) coefficient and the λ-sign.)* (+ a 45-90 km/s bulk-flow shadow). MOND/RAR finally dead (m_amp → m; ≤59 AU ≪ kpc). The third
 mass-top coincidence (CSW M_max ~ 10¹¹ M☉ at the ceiling; with α_g = 1 at 6×10⁹ and r_s = ξ
 at 2×10¹⁰) — noted, m-correlated, not recorded.
 

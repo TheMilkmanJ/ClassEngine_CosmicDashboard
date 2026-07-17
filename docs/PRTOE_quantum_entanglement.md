@@ -52,11 +52,11 @@ the residue of insisting the substrate is two places rather than one object.
  **Tsirelson's bound, 2√2, to all precision**. Below = local (dead);
  above = super-quantum (dead). Every improved Bell-type experiment is a standing test the
  model must pass forever and can never win points from. That asymmetry is the honest price
- of a null-prediction ontology — and per the author's epistemology, "reproduces exactly"
+ of a null-prediction ontology — and in this model's stance, "reproduces exactly"
  IS the prediction.
 2. **No preferred-frame leakage into correlations**: the medium has a rest frame (the W-W
  evasion's price); entanglement correlations must remain frame-independent to current
- precision — the Lorentz-violation pricing ledger covers this jointly.
+ precision — the Lorentz-violation literature covers this jointly.
 
 ## 5. Honest scope
 

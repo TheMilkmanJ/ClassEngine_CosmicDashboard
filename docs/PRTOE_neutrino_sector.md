@@ -72,7 +72,7 @@ squeezing. This sector may be graded within one to two years by exactly that num
 
 [SNO 2002]/[Super-K 1998] (oscillations), [Planck 2018] (Σm_ν context); internal:
 PRTOE_MATH_SPINE.md §6, [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md),
-P-2026-012/020/023, entries 6–7. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+P-2026-012/020/023. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## 4. Addendum — the vertex's double duty [estimate-grade]
 
@@ -83,7 +83,7 @@ mass and the baryon asymmetry share one vertex** — two measured numbers, one c
 and this sector co-derives η. The overshoot wall (the portal must carry no L-channel)
 rides with it.
 
-**ADJUDICATED (the Card 6 duty scan, hunt entry 81):** adding the resonance duty
+**ADJUDICATED (the seesaw duty scan):** adding the resonance duty
 (μ ≈ Γ_N, the η route's own requirement) blows the factor 4–20 to ~100× in y — the
 double-duty vertex and resonant leptogenesis exclude each other at TeV-scale M across
 a smooth 8.6-decade bridge. The romance survives only if η's leptogenesis is

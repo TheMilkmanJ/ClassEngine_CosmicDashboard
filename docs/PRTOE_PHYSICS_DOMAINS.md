@@ -10,7 +10,7 @@ actually did there, what was computed or derived (never merely asserted),
 and the honest verdict. Numbers are sourced from the working documents —
 nothing here is quoted that does not have a receipt in
 `PRTOE_v5_dCDF_complete.md`, `PRTOE_room1_complex_completion.md`,
-`PRTOE_TRANSACTION_ATLAS.md`, `PRTOE_PREREGISTERED_PREDICTIONS.md`, or
+`PRTOE_INTERACTION_ATLAS.md`, `PRTOE_PREREGISTERED_PREDICTIONS.md`, or
 `PRTOE_intellectual_history.md`. Deaths are listed with the same pride as
 survivals; the graveyard is the proof that the survivals mean something.*
 
@@ -20,11 +20,11 @@ phase EFT of a complex condensate at finite chemical potential — whose
 dense regime is dark matter, whose ground-state pressure is dark energy,
 whose pre-condensation youth is dark radiation, and ~30% of which (median
 genesis draw) is never-annihilating dark antimatter. Gravity is exactly GR;
-the medium's only account is geometry (a theorem-grade census, not an
+the medium's only coupling is geometry (a theorem-grade counting argument, not an
 assumption). (2) One amendment to the rules at recombination — a ~1%
 varying electron mass — buys H₀ = 69.7 at zero χ² cost against the full
 Planck+ACT+SPT+BAO+SN stack. Everything else this program ever tried is
-dead, and the corpse ledger is public.
+dead, and the record of dead approaches is public.
 
 ---
 
@@ -33,14 +33,14 @@ dead, and the corpse ledger is public.
 | # | Domain | Deepest artifact | Status |
 |---|--------|------------------|--------|
 | 1 | Background cosmology | w = −ρ∞/ρ exact fluid; de Sitter fixed point | Alive; ΛCDM-degenerate by proof |
-| 2 | CMB physics | Clean-χ² reckoning; gauge-IC bug hunt; m_e lever | Alive; the −8.5 unique credit |
+| 2 | CMB physics | Clean-χ² reckoning; gauge-IC bug hunt; m_e lever | Alive; the −8.5 unique improvement |
 | 3 | Large-scale structure | β resurrection trial vs DES | β executed; S₈ = 0.823 |
 | 4 | BAO & RSD | Clustering-part insight (BAO 593 → 8.2) | Alive |
 | 5 | SNe & distance ladder | P-2026-001: TRGB, no hedge | Standing bet |
 | 6 | BBN | Deuterium scar repriced; quark-mass healer | P-2026-006 conditional |
 | 7 | Atomic physics & constants | varying-α killed; varying-m_e triangulated | m_e is the dyad's second half |
 | 8 | Neutrino physics | Σm_ν posterior running (P-2026-004) | Mid-measurement |
-| 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen author |
+| 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen operator |
 | 10 | Superfluidity & BEC | Son isomorphism; two-fluid; KR beat; lab receipts | The identity itself |
 | 11 | Particle physics | Affleck-Dine genesis; coupling census closed | Gravity-only = theorem-grade |
 | 12 | Black holes | Superradiance margin; de-condensation at 1.8393 r_s | Shielded, twice |
@@ -53,13 +53,11 @@ dead, and the corpse ledger is public.
 | 19 | Quantum computing | Willow error-correction reading | Restatement; language holds |
 | 20 | Medical physics | MRI/PET/Tc-99m/proton therapy cluster | Restatement; tenth domain |
 | 21 | The cosmological constant | Old half dissolved (grade: coherence); new half confessed | Standing bet #3 vs DESI DR2 |
-| 22 | Exotic spacetimes | White holes killed 4 ways; wormholes uncreditworthy | Nulls with receipts |
+| 22 | Exotic spacetimes | White holes killed 4 ways; wormholes non-viable | Nulls with receipts |
 | 23 | Fluid dynamics & turbulence | Kolmogorov translates; intermittency silent | Honest silence |
 | 24 | Methods: Bayesian & numerical | Joint refits; pre-registration; adversarial self-review protocol | The method IS a result |
 
-*Part II (below, rewritten 2026-07-07 after the author rejected a
-calibration-heavy first draft) extends the census to **74 domains**
-(entries 25–74) — every Part II entry is an ATTACHMENT: the model
+*Part II (below) extends the census to **74 domains** — every Part II entry is an ATTACHMENT: the model
 predicts, forbids, votes, inherits a bound, or stakes a kill condition
 in that domain, and each entry names the result that would hurt it. No
 falsification hook, no entry.*
@@ -98,14 +96,14 @@ newtonian-gauge TT deviation at ℓ = 10–12 was chased through per-ℓ
 controls and per-contribution ratios to a wrong φ_ini — the initial
 conditions counted only baryons in ρ_m under use_dcdf. Fix: gauge test
 2.49×10⁻³ → 2.84×10⁻⁵, the ΛCDM floor. (iii) **The H₀ anatomy**: the
-acoustic-scale ridge, the damping-tail tax that killed every radiation
-lever, and the one lever that evades the tax — recombination timing via
+acoustic-scale ridge, the damping-tail penalty that killed every radiation
+lever, and the one lever that evades the penalty — recombination timing via
 m_e. The joint-stack optimum landed at H₀ = 69.05, ξ = 0.142, *exactly*
 where the ridge analysis predicted; the dyad refit reached plik = 586.5,
 better than ΛCDM's own anchor.
 
 **Verdict: the CMB executed ξ_Neff, taxed every energy-injection scheme,
-and granted exactly one credit — m_e's −8.5, triangulated analytically and
+and granted exactly one improvement — m_e's −8.5, triangulated analytically and
 unique in the knob family (α +433, Y_p pinned, Ω_k forbidden, running
 flat).**
 
@@ -127,7 +125,7 @@ dataset (+30 at β = 10⁻⁷). The model's live S₈ claim: 0.823 vs ΛCDM's
 ## 4. Baryon acoustic oscillations & redshift-space distortions
 
 BAO was the instrument that caught the definitional death: BAO χ² went
-from 593 to 8.2 overnight once the clustering-part bookkeeping was fixed
+from 593 to 8.2 once the clustering-part bookkeeping was fixed
 (dcdf_deltam_mode=1). fσ8 exposed the same gap from the growth side — the
 background growth factor was blind to the fluid (f ≈ 0.21 vs BOSS's 0.50)
 until ρ_m accounting included the medium in its matter-like epochs. The
@@ -143,7 +141,7 @@ between the ladders, and the program converted that discomfort into its
 flagship falsifiable: **P-2026-001 — the local distance ladder resolves to
 the TRGB side; H₀ ∈ [69, 71]; a confirmed 72+ falsifies the H₀ program, no
 hedge** (pre-registered, commit 8a5840a5). The SHOES→TRGB scenario is
-booked honestly: the dyad is conditional concordance — its SN credit rides
+booked honestly: the dyad is conditional concordance — its SN improvement rides
 SHOES calibration and it says so.
 
 **Verdict: a standing bet with a death condition, which is the only kind
@@ -151,7 +149,7 @@ this program registers.**
 
 ## 6. Big Bang nucleosynthesis & nuclear astrophysics
 
-BBN is the program's tax office and its subtlest domain. It killed the
+BBN is the program's strictest examiner and its subtlest domain. It killed the
 universal-vev amendment (D/H +7.7σ, τ_n −4.9%), capped the completion's
 entire tuning freedom to one number (x₀ ≲ e⁻³⁵), executed the funded
 floor's early face (ν·x_BBN ~ 500–6000 for all allowed x₀), and priced the
@@ -172,10 +170,10 @@ Two constants were put on trial. **Varying α died** — the quadratic-
 coupling attractor scan landed 45–100× over the z ≈ 4 quasar bound at
 every β across four decades, and the CMB priced a 5% α shift at +433 χ².
 **Varying m_e lived**: a ~1% electron-mass shift at recombination moves
-the acoustic scale without the damping-tail tax, and its −8.5 clean credit
+the acoustic scale without the damping-tail penalty, and its −8.5 clean improvement
 was triangulated analytically (quadratic surfaces plus a falsified-then-
-confirmed midpoint prediction: 2812.1 predicted, 2812.15 measured). The
-ledger language then re-derived hydrogen from scratch as calibration —
+confirmed midpoint prediction: 2812.1 predicted, 2812.15 measured). This
+framing then re-derived hydrogen from scratch as calibration —
 Bohr radius to 2.6×10⁻⁶, E_1s to 1.2×10⁻⁹ — and noted that the dyad's
 amendment reprices atomic binding by the exact arithmetic CLASS
 integrates. The Saha equation served twice: as the v6 ionization proxy and
@@ -188,7 +186,7 @@ wreckage).
 
 Neutrinos entered as a lever (ξ_Neff, dark radiation at recombination) and
 exited as a liberated measurement. ACT+BBN executed ξ (0.122 → 0.012 ±
-0.002); removing it collapsed the neutrino-mass tax 4.4× and reopened the
+0.002); removing it collapsed the neutrino-mass penalty 4.4× and reopened the
 inverted hierarchy as a live target. The Σm_ν posterior
 (`chains/dyad_mnu_mcmc`) is one of the two things that can move the
 evidence class off zero: it scores **P-2026-004 (the dyad's Σm_ν 95% limit
@@ -211,7 +209,7 @@ was tried and understood rather than estimated: exponential potentials hit
 the scaling-attractor failure mode; the claimed n=3 axion form turned out
 never to have been compiled. The mature EFT work is sharper: the (□φ)²
 funded floor died by BBN and was **resurrected as (δK)² — a background-
-orthogonal author that re-earned admission via three fresh certificates**
+orthogonal operator that re-earned admission via three fresh certificates**
 (exact tensor silence since det(e^h) = 1; gravity-mixing temporally frozen,
 μ−1 ~ 4×10⁻²¹; Landau v_c = 0 dissolving caustics into interference). The
 floor fluctuation face is sign-locked phantom and structure-gated;
@@ -252,14 +250,14 @@ review, with laboratory receipts for its falsifiable furniture.**
 The origin story and the isolation theorem. **Affleck-Dine spiral genesis**
 is the candidate origin: charge = abundance (explains rolls-never-
 oscillates — charged rotates, neutral librates); inflation displaces, the
-Z4 tilt torques (the tilt's *forced* status is reopened — its parity/renormalizability derivation rested on the excluded basement's charge assignments, hunt entries 132b/139; the term stands as the registered working assumption, with r_t
+Z4 tilt torques (the tilt's *forced* status is reopened — its parity/renormalizability derivation rested on the excluded basement's charge assignments; the term stands as the registered working assumption, with r_t
 of order 1 natural), release spirals, the fee is reheating entropy, and
 the medium is born condensed — no critical temperature ever crossed (why
 basin entry left no relic). The dark-antimatter reframe falls out free:
 the n₋ component never annihilates (nothing to annihilate into), so ~30%
 of dark matter is antimatter — and the asymmetry contrast with baryons is
 explained (annihilation is the penalty only where a channel exists). The
-**coupling census closed** at ~12:30am on 2026-07-07: EM/strong/weak
+**coupling census closed** at on 2026-07-07: EM/strong/weak
 structural, Higgs portal radiatively dead, density portals killed by the
 drift wall, B−L current portal capped at M* ≳ 10¹⁴ GeV by BBN neutron
 energetics. Gravity-only is now a theorem-grade census result, and it
@@ -284,7 +282,7 @@ doubly-future. (ii) **De-condensation**: extreme infall makes the medium
 exit the basin at r = 1.8393 r_s exactly (sonic point at the ISCO) — a
 solved stationary flow. (iii) **Information**: the horizon as the densest
 archive (1.5×10⁷⁷ bits per solar mass, area-billed), no-hair as premium
-laundering that ultimately fails (Page curve), scrambling at the chaos
+information hiding that ultimately fails (Page curve), scrambling at the chaos
 bound λ_L ≤ 2πk_BT/ħ — restatements with receipts, plus the white-hole
 kill: formation forbidden, entropy run backwards, blue-sheet foreclosure,
 and the medium's own θ̇ = +μ breaking the time-reversal symmetry the paper
@@ -320,7 +318,7 @@ calibration for what halo data can and cannot discriminate. The condensate
 inherits fuzzy-DM's successes and constraints where structure is linear
 (verdicts V1–V3 FDM-inherited); the Lyα squeeze was survived explicitly
 (M = 2×10⁻²² eV passes k = 0.2/Mpc by six decades). The medium's own
-signatures: granule speckle (payment→product law; the p²+q² spectrum is an
+signatures: granule speckle (the coupling→product law; the p²+q² spectrum is an
 m-independent second ε-meter), a Vinen-class vortex tangle making
 granulated halos literal quantum turbulence, and **P-2026-005: cores
 WITHOUT oscillation, spins WITHOUT clouds** — the kinetic medium's
@@ -338,7 +336,7 @@ the high-tilt + high-H_inf corners. The quartic era is not negligible at
 release (h = λΨ₀²/m² ~ 10⁸ — self-caught after an earlier misread), and
 its physics is exactly the regime the Eckel ring-BEC probes. Inflation
 also holds the atlas's deepest confessed debt: the past hypothesis —
-"who laundered the first ledger, and what did it cost."
+"what scrambled the first record, and what did it cost."
 
 **Verdict: genesis space is pruned, priced, and carries its ignorance on
 the label.**
@@ -353,7 +351,7 @@ P(f_amp > 0.2) = 86% at all three tilts (chaos erases the tilt dial); the
 chaos was verified physical (3–4 decimal convergence across DOP853/Radau/
 tolerances); an earlier segmented bound's death is filed in the failures ledger — the surviving bound is stated by its
 own stamped caveat within the hour. Then the ergodic backbone: a
-microcanonical ensemble on the quartic shell — the author's blind
+microcanonical ensemble on the quartic shell — a blind
 reconstruction — approximately reproduces the dice; the gap was dissected
 (freeze-out explains a third; the remainder is *release memory*, born at
 L = 0, and anti-tracks tilt at n = 110/tilt), and the analytic exceedance
@@ -377,14 +375,14 @@ conformal integration is now the sole ladder to physical h.**
 
 ## 17. Statistical mechanics, thermodynamics & information
 
-The ledger language's deepest run, all restatements with receipts:
+This framing's deepest run, all restatements with receipts:
 Landauer's fee as a relocation charge (kT·ln2 = 17.9 meV at room T;
 measured, Bérut 2012); Maxwell's demon bankrupted by its own bookkeeping
-(Bennett); entropy as record count and the second law as "posting is
+(Bennett); entropy as record count and the second law as "recording is
 cheaper than shredding"; the Bekenstein–Hawking horizon as surface-billed
-archive; laundering split into permitted scrambling vs forbidden erasure,
+archive; information hiding split into permitted scrambling vs forbidden erasure,
 with the chaos bound as the legal speed limit and black holes the cartel
-at the limit; the author's own completion — "information doesn't get
+at the limit; the completion — "information doesn't get
 destroyed, it just gets returned" — exact on all three clauses through
 Page-curve results. Calibration receipts along the way: Chandrasekhar as
 insolvency (scale exact), Casimir as boundary re-pricing (13 Pa at 100 nm,
@@ -405,7 +403,7 @@ then filed honestly as the map's edge (quantizing the phase sector is
 asserted, not derived; the boundary is drawn, not conquered). Metrology
 became a calibration wing: flux quantization h/2e to 2×10⁻¹⁰, the
 Josephson constant to 3×10⁻¹¹ — the SI volt is legally *defined* through
-the phase sector's clearing rule; the laser linewidth reproduced
+the phase sector's quantization rule; the laser linewidth reproduced
 Schawlow–Townes at ratio 1.000. And the census posture makes every
 precision lab a standing kill-only bet at zero — taken continuously,
 against ever-improving instruments, with no dial.
@@ -415,10 +413,10 @@ growing by instrument-generation; that is by design.**
 
 ## 19. Quantum computing
 
-The settlement law read as engineering: qubits as deliberately unposted
-drafts, gates as reversible draft-edits (Bennett's reuse-don't-shred as
+The selection law read as engineering: qubits as deliberately unresolved
+amplitudes, gates as reversible amplitude-edits (Bennett's reuse-don't-shred as
 mandatory architecture), algorithms as choreographed interference,
-measurement as the single final posting, and error correction as the crown
+measurement as the single final recording, and error correction as the crown
 — syndrome measurements post records about the *errors* while the data's
 draft stays unposted. Receipt: Google Willow (Nature, Dec 2024,
 cite-verified), logical errors suppressed 2.14± 0.02× per code-distance
@@ -429,12 +427,12 @@ every stray photon is an auditor.
 
 ## 20. Medical & applied atomic physics
 
-The medicine cluster: MRI as a decoherence camera (T1/T2 as settlement
+The medicine cluster: MRI as a decoherence camera (T1/T2 as relaxation
 times; the Larmor rate derived from constants = 42.577 MHz/T, the exact
 clinical value); PET as double-entry imaging (the 511.00 keV line is m_e c²
 remeasured daily in every hospital — the same constant the dyad amends at
-recombination); Tc-99m as an engineered draft parked unsettled for 6.01 h;
-proton therapy as choosing the settlement depth (Bethe's 1/v² → the Bragg
+recombination); Tc-99m as an engineered metastable state parked for 6.01 h;
+proton therapy as choosing the deposition depth (Bethe's 1/v² → the Bragg
 peak). The retina reads single receipts.
 
 **Verdict: tenth domain; the same bookkeeping that prices the CMB prices a
@@ -445,12 +443,12 @@ hospital.**
 Attacked head-on, split in two, and half-confessed. **The old half** (why
 doesn't zero-point energy gravitate?) is dissolved at coherence grade:
 under the thermodynamic-gravity spine (Jacobson 1995), Λ enters as an
-integration constant, and zero-point fluctuations are perpetual unsettled
-drafts — the 120-order catastrophe is a category error, summing drafts as
-settlements; the Casimir objection is deflated by Jaffe (PRD 72,
+integration constant, and zero-point fluctuations are perpetual unresolved
+fluctuations — the 120-order catastrophe is a category error, summing virtual states as
+realized ones; the Casimir objection is deflated by Jaffe (PRD 72,
 021301(R)). **The new half** (why 2.25 meV?) is honestly unsolved and
 provably not the minimal room's to solve (P(basin) = 0; ρ∞ is either a
-deposit or part of the ledger's constitution — the whisper trial, judged
+deposit or part of the vacuum's constitution — the whisper trial, judged
 by the running posterior, keeps the deposit reading alive exactly until
 the posterior speaks). **Standing bet #3**: the effective dark energy is
 exactly Λ — the model votes *against* DESI DR2's 3.1σ evolving-DE
@@ -461,10 +459,10 @@ placed against live data. That is what "attacked honestly" looks like.**
 
 ## 22. Exotic spacetimes
 
-White holes: killed four ways (no deposit history; an un-posting machine;
+White holes: killed four ways (no formation history; an un-recording machine;
 blue-sheet foreclosure in ~one light-crossing; the medium's own global
-rotation breaks the needed time-reversal symmetry) — the author's bet,
-and the author won. Wormholes: legal books, denied credit — traversable
+rotation breaks the needed time-reversal symmetry) — the predicted
+result, borne out. Wormholes: allowed in principle, denied viability — traversable
 throats need a permanent negative-energy overdraft that the quantum
 interest conjecture (Ford & Roman) refuses, and the medium cannot co-sign
 (NEC-saturating at the floor); the time-machine back door is welded shut
@@ -480,7 +478,7 @@ it permits, which is what a constitution is for.**
 
 The Kolmogorov cascade translates exactly (wholesale in, fixed flux
 through, retail out; the 5/3 spectrum); intermittency does not — the
-anomalous exponents are underived in the ledger exactly as they are
+anomalous exponents are underived in this framing exactly as they are
 underived from Navier–Stokes, and the file logs this as its second
 *silence* rather than papering over it. The live tie: granulated halos are
 a Vinen-class quantum-turbulent vortex tangle, so laboratory
@@ -504,7 +502,7 @@ Above the numerics, the method itself: **pre-registration with death
 conditions, a turn-based adversarial review with written
 concessions on both sides, the Pinning Rule (3-for-3), graveyard Rules 1–3
 with a published warm/cold census (7 cold / 5 warm / 3 risen), and
-falsify-first scoring of every author intuition** — several of which
+falsify-first scoring of every intuition** — several of which
 turned out to be blind reconstructions of Zurek, Jacobson, Affleck-Dine,
 and Penrose CCC. The reviewer's closing line after nine turns: "a smaller,
 harder, more honest object than the one I opened fire on."
@@ -535,7 +533,7 @@ resurrection terms or the word "never."*
 | thermal/Casimir/zero-point floor ontologies | 10¹²¹–10¹²⁴ arithmetic | never; these are arithmetic |
 | tunneling discriminator | receipt 1500× below the SN mass step | demoted, not dead |
 | varying G / ν self-int. / dark PTA / PBH levers | the five-lever audit | none within the class |
-| Earth-spin coincidence (author, self-killed) | lunar tides, 3.8 cm/yr receipt | never; the reflex is installed |
+| Earth-spin coincidence (self-killed) | lunar tides, 3.8 cm/yr receipt | never; the reflex is installed |
 
 ---
 
@@ -554,7 +552,7 @@ dies, the file shows exactly where, and why, and what was paid to know.*
 
 ---
 
-# PART II: THE ATTACHMENT CENSUS (2026-07-07, rewritten same morning — the author's actual order)
+# PART II: THE ATTACHMENT CENSUS
 
 *Fifty domains the model ATTACHES to. Attachment types: **PREDICTS** (a
 number or sign the domain can check), **FORBIDS** (a phenomenon whose
@@ -566,7 +564,7 @@ whose improving nulls the model must survive forever), **KILLED-BY** (a
 domain that already executed part of the model — attachment proven by the
 corpse). Every entry ends with the hook: what result in that domain hurts
 us. Sources: the Atlas, the predictions registry, the Room 1 expedition
-log, the five-verdict derivation, this morning's reconciliation audit.*
+log, the five-verdict derivation, the reconciliation audit.*
 
 ## The exam rooms (solar system and laboratory)
 
@@ -602,12 +600,12 @@ exactly R1's suppressed-side prediction. *Hook: an Oklo-class anomaly
 inside virialized matter contradicts the binary structure.*
 
 **30. Matter-wave interferometry / atom gravimetry — INSTRUMENT.** The
-clearinghouse must bill quantum drafts and settled accounts identically
+dynamics must treat coherent and decohered states identically
 (COW-class phases); atom gravimeters at δg/g ~ 10⁻⁹ would read any
 medium-sourced anomalous local gravity. *Hook: anomalous dephasing or
 gravity residuals attributable to the dark sector.*
 
-## The nuclear ledger (BBN and its customers)
+## The nuclear accounting (BBN and its outputs)
 
 **31. Deuterium cosmology (PRIMAT) — PREDICTS.** The scar: −1.2σ carried
 honestly (ΛCDM itself: 1.85σ). The healer is registered:
@@ -624,7 +622,7 @@ healed with lithium untouched kills the healer.*
 family (it's why α and the vev amendment died) and prices every healer
 (+1.9 for the pre-basin ΔN_eff route). Our YHe is computed from
 ω_b and m_e in-config, not fit. *Hook: a Y_p measurement shifting
->1σ re-prices every BBN transaction in the file.*
+>1σ re-evaluates every BBN process in the file.*
 
 **34. The neutron lifetime — INHERITS (exposure in our own books).**
 τ_n sets n/p freeze-out inside our BBN prior; the beam-bottle 4σ split
@@ -651,7 +649,7 @@ walks on).** Δm² splittings floor Σm_ν ≥ 0.06 eV (normal) / 0.10 eV
 
 **38. Neutrino-mass laboratories (KATRIN, JUNO) — PREDICTS (collision
 scheduled).** P-2026-004 says our 95% limit lands in [0.11, 0.17] eV —
-overlapping the inverted-hierarchy window the dyad's tax collapse
+overlapping the inverted-hierarchy window the dyad's cost collapse
 reopened. KATRIN's direct bound and JUNO's hierarchy determination test
 the same number from the lab side. *Hook: a lab-determined hierarchy or
 mass incompatible with the posterior window scores P-2026-004 dead.*
@@ -677,7 +675,7 @@ crossing kills the bare-constant floor and E2.7's split.*
 S₈ = 0.823 at the KiDS consensus at zero χ² cost is the model's live
 S₈ claim; DES is also β's executioner (+30 at 10⁻⁷ — attachment proven
 by corpse). *Hook: S₈ resolving high (ΛCDM-side) removes a tension
-credit; shear demanding nonzero β would resurrect a corpse we buried.*
+relief; shear demanding nonzero β would resurrect a corpse we buried.*
 
 **43. The Lyman-α forest — INHERITS (survived once, still armed).** The
 squeeze passed by 6 decades at k = 0.2/Mpc at M = 2×10⁻²² — and the
@@ -698,7 +696,7 @@ disk in Gaia kinematics kills the census.*
 **46. Dwarf-galaxy dynamical heating (Segue, Eri II) — INHERITS
 (controls the band).** The DK bound transfers through the two-fluid
 factor p²+q² (≤2× relaxation, computed) and pinned the band to
-[1,3]×10⁻²¹ this morning. *Hook: sharpened heating bounds walking into
+[1,3]×10⁻²¹. *Hook: sharpened heating bounds walking into
 the audited band from below squeeze the model toward the DK-holds
 branch.*
 
@@ -726,7 +724,7 @@ is why inherited verdicts are legitimate. *Hook: a demonstrated failure
 of the SP reduction breaks every inheritance in this section.*
 
 **51. Rotation curves (21-cm astronomy) — RECEIPT (house ancestry).**
-Flat curves are the medium's gravitational account being audited — the
+Flat curves are the medium's gravitational field being probed — the
 discovery instrument of the thing modeled; the SPARC/SIDM detour
 calibrated what halo data discriminates. *Hook: none new — this is the
 oldest receipt.*
@@ -740,7 +738,7 @@ band top: free FDM dies there, the dyad survives by λ-quench (margin
 combined with a pinned light-end mass could invert it against us.*
 
 **53. Pulsar timing arrays — KILLED-BY (headstone in place).** The beat
-channel died this morning by mass — after a month of derivation, dice,
+channel died by mass — after a month of derivation, dice,
 and protocol. The attachment is proven by the corpse and its
 pre-registered burial. *Hook: closed honestly; PTA silence is now
 REQUIRED — a confirmed nanohertz signal matching the KR template at our
@@ -778,7 +776,7 @@ atomic or instrumental. *Hook: a confirmed dark-decay line kills the
 model, no repair.*
 
 **60. Direct detection (LZ, XENONnT) — FORBIDS, forever.** No
-EM/weak/strong account: every nuclear-recoil experiment stays null to
+EM/weak/strong coupling: every nuclear-recoil experiment stays null to
 arbitrary depth. *Hook: one confirmed dark-sector recoil ends the
 program.*
 
@@ -839,7 +837,7 @@ kills the AD genesis as drawn.*
 
 **69. CP violation & baryogenesis — RECEIPT (structural requirement).**
 The AD spiral requires a tilt slant; the Z4 tilt is the registered working assumption (its
-"forced" derivation is reopened by the basement rebuild — hunt entries 132b/139), and the dark asymmetry f_rot ≈ 0.4
+"forced" derivation is reopened by the basement rebuild), and the dark asymmetry f_rot ≈ 0.4
 coexists with the baryons' ≈1 because the penalty schedule differs.
 *Hook: Room 4's dim-6 remnant pricing must keep charge decay frozen —
 now verified at the audited band (τ_Q ≥ 1.6×10⁹ Gyr).*
@@ -851,7 +849,7 @@ arithmetic — a revised Ω_DM or entropy history moves it and every
 downstream number.*
 
 **71. CMB spectral distortions (FIRAS, PIXIE-class) — FORBIDS (Law 2's
-receipt).** The background ledger is adiabatic: no dissipative
+receipt).** The background evolution is adiabatic: no dissipative
 dark-to-photon transfers, so μ/y distortions stay at standard-model
 levels. *Hook: a confirmed non-standard distortion attributable to
 dark-sector energy exchange breaks Law 2, and Law 2 is load-bearing.*
@@ -873,7 +871,7 @@ falsification path, P-2026-007).** TWO candidate m_e gates make OPPOSITE
 predictions here, and cosmic-dawn 21-cm is the discriminator: (i) the
 by-hand EPOCH gate (config varying_transition_redshift=50) says constants
 are standard below z=50 → a standard sky; (ii) the physical STRUCTURE
-gate (the fold/saturation, established this session) says m_e is shifted
+gate (the fold/saturation, established here) says m_e is shifted
 +1.24% in ALL sub-threshold gas — and cosmic dawn (z~15–20) is mostly
 diffuse, unenriched, HI-rich sub-threshold IGM, so it should carry the
 shift → a +2.48% shift in the 21-cm rest frequency (~m_e²/m_p), ~1.7–2.2
@@ -890,7 +888,7 @@ sub-threshold voids metals never can. Fights astrophysical degeneracy.*
 
 The first draft of Part II (git history, commit e413ea07) padded the
 census with calibration entries — real physics, honestly graded, but
-NOT what was ordered: the author asked for domains the MODEL attaches
+NOT what was ordered: the request was for domains the MODEL attaches
 to, and rejected the draft on exactly that reading. This rewrite is the
 attachment census: **50 domains (25–74), every one carrying an
 attachment type and a falsification hook.** The census now stands at
@@ -903,7 +901,7 @@ direction.
 
 ---
 
-## The validation ledger (added 2026-07-13)
+## The validation record (added 2026-07-13)
 
 *Current standing of every attachment, dated 2026-07-07. Statuses:
 **PASSING** (data exists, model passes now) · **STANDING-NULL** (bet
@@ -939,13 +937,13 @@ against, not a claim).*
 | 44 | Dark acoustic oscillations | STANDING-NULL | no DAO in P(k), as census requires |
 | 45 | Dark disk | STANDING-NULL | Gaia kinematics show none, as Law 2 requires |
 | 46 | Dwarf heating | PASSING-AT-BAND | DK transfer factor computed; band [1,3]e-21 pinned by this row |
-| 47 | Stellar streams | PENDING-SIMS | make-or-break for ε ever being measurable (turn-58 binding) |
+| 47 | Stellar streams | PENDING-SIMS | make-or-break for ε ever being measurable (the binding question) |
 | 48 | Core–halo lag (Room 5) | PENDING-SIMS | ×11 χ-lag quantified (Levkov b≈0.9 pulled); candidate 4th axis |
 | 49 | Dynamical friction | INHERITED-PASSING | FDM verdicts transfer at stated precision, within band |
 | 50 | Schrödinger–Poisson | DERIVED | corrections 1/X₀-suppressed ≤1×10⁻²²; inheritance license |
 | 51 | Rotation curves | PASSING | the founding receipt; nothing new owed |
 | 52 | SMBH superradiance | LIVE (edge-contingent) | (2.9–4.6)e-21 cite-verified today; live-if-heavy; graduation = pin m |
-| 53 | Pulsar timing | EXECUTED | channel dead by mass this morning; silence now REQUIRED |
+| 53 | Pulsar timing | EXECUTED | channel dead by mass; silence now REQUIRED |
 | 54 | Stochastic GW / strings | PASSING-NULL | no echo (fraction² computed); no strings (born condensed); none observed |
 | 55 | BH accretion sonic point | DERIVED-AWAITING-DATA | r = 1.8393 r_s exact; no instrument yet |
 | 56 | GW ringdown | PASSING | all ringdowns GR-consistent to date, as census requires |

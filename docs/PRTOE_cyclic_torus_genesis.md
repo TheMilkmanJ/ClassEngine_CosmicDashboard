@@ -118,7 +118,7 @@ stands firmer. The claim is held provisional pending its named referees. The DOO
 Psi-sourced, beating gate-0 BBN + hierarchy + τ-Barr-Zee EDM) is now the WHOLE GAME for BOTH
 #30 and birefringence -- one wall, three defenders.
 
-**Also this session:** neutrino "clock" (quasar-blindness traces to the neutrino MASS SCALE:
+**Also:** neutrino "clock" (quasar-blindness traces to the neutrino MASS SCALE:
 heavier states go non-rel at z~16-94, above the quasar window; z=50 ~ 27meV, in-band, value not
 derived; corrected a factor-3.15² error mid-computation); Job-3 null (the threshold has 2 jobs
 not 3 -- the AD charge is genesis-set, 29 orders above the meV floor; "everything has 3 jobs"

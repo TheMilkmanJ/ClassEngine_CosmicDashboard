@@ -1,6 +1,6 @@
 # PRTOE BIBLIOGRAPHY — every external source the model stands on (2026-07-11)
 
-*The credit ledger (the working docket). Keys are used across the docs as [AuthorYear]. Internal
+*The source list (the working docket). Keys are used across the docs as [AuthorYear]. Internal
 provenance (t###/def### turn-tags) traces to the internal working record; THIS file traces everything
 we borrowed from the field. If a claim in any doc leans on a result not listed here,
 that is a bug — file it.*
@@ -21,7 +21,7 @@ that is a bug — file it.*
 - **[FIRAS1996]** D. J. Fixsen et al., "The CMB spectrum from the full COBE FIRAS data set," ApJ 473, 576 (1996). — The perfect blackbody; the plasma's witness.
 - **[GW170817]** B. P. Abbott et al. (LIGO/Virgo), PRL 119, 161101 (2017); and B. P. Abbott et al., ApJL 848, L13 (2017). — GW speed = c to 10⁻¹⁵; the one-metric constraint.
 - **[NANOGrav2023]** G. Agazie et al. (NANOGrav), "The NANOGrav 15 yr data set: evidence for a gravitational-wave background," ApJL 951, L8 (2023), arXiv:2306.16213. — The PTA band; the vortex-string Gμ null lives here.
-- **[SNO2002]** Q. R. Ahmad et al. (SNO), PRL 89, 011301 (2002). / **[SuperK1998]** Y. Fukuda et al., PRL 81, 1562 (1998). — Neutrino flavor transformation; the fusion-neutrino ledger.
+- **[SNO2002]** Q. R. Ahmad et al. (SNO), PRL 89, 011301 (2002). / **[SuperK1998]** Y. Fukuda et al., PRL 81, 1562 (1998). — Neutrino flavor transformation; the fusion-neutrino record.
 
 - **[KamLANDZen2024]** KamLAND-Zen Collaboration (S. Abe et al.), "Search for Majorana neutrinos with the complete KamLAND-Zen dataset," arXiv:2406.11438. — The strongest current 0νββ limit (m_ββ ≲ 28–122 meV); also the refuter (with GERDA) of the historical Heidelberg–Moscow claim.
 - **[GERDA2020]** GERDA Collaboration (M. Agostini et al.), "Final results of GERDA on the search for 0νββ decay," PRL 125, 252502 (2020), arXiv:2009.06079.
@@ -69,17 +69,17 @@ that is a bug — file it.*
 
 - **[ArkaniHamed2004]** N. Arkani-Hamed, H.-C. Cheng, M. Luty, S. Mukohyama, "Ghost condensation and a consistent infrared modification of gravity," JHEP 05 (2004) 074, arXiv:hep-th/0312099. — The ghost-condensate frame the arrow-giver adopts (θ-dot background = the permanent μ); its bounded NEC-flexibility is the exotic-spacetime shelf's priced sector.
 
-- **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the settlement-terms computation runs on (entry 43).
+- **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the measurement-sector computation runs on.
 
-- **[Combescot1990]** R. Combescot, "Critical temperature of superconductors: Exact solution from Eliashberg equations on the weak-coupling side," Phys. Rev. B 42, 7810 (1990). / **[Marsiglio2018]** F. Marsiglio et al., "Eliashberg theory in the weak-coupling limit," arXiv:1807.04907; real-axis companion arXiv:1912.09460. — The exact weak-coupling prefactor T_c = 1.13 e^{-3/2} ω_c e^{-1/λ} the referee sessions run on (entry 49).
+- **[Combescot1990]** R. Combescot, "Critical temperature of superconductors: Exact solution from Eliashberg equations on the weak-coupling side," Phys. Rev. B 42, 7810 (1990). / **[Marsiglio2018]** F. Marsiglio et al., "Eliashberg theory in the weak-coupling limit," arXiv:1807.04907; real-axis companion arXiv:1912.09460. — The exact weak-coupling prefactor T_c = 1.13 e^{-3/2} ω_c e^{-1/λ} the referee sessions run on.
 
-- **[NBV2006]** A. Nayeri, R. Brandenberger, C. Vafa, "Producing a scale-invariant spectrum of perturbations in a Hagedorn phase of string cosmology," PRL 97, 021302 (2006), arXiv:hep-th/0511140. / **[BrandenbergerVafa1989]** R. Brandenberger, C. Vafa, "Superstrings in the early universe," Nucl. Phys. B 316, 391 (1989). / **[SGCreview2011]** R. Brandenberger, "String gas cosmology: progress and problems," Class. Quantum Grav. 28, 204005 (2011), arXiv:1105.3247. — The thermal/maximal-temperature/area-specific-heat cousin of lock 2's lane (entry 52): the author's "maximal thermal allowance" = the Hagedorn concept; their winding-mode C_V ∝ R² = the exemption-clause drift, thermodynamic road.
+- **[NBV2006]** A. Nayeri, R. Brandenberger, C. Vafa, "Producing a scale-invariant spectrum of perturbations in a Hagedorn phase of string cosmology," PRL 97, 021302 (2006), arXiv:hep-th/0511140. / **[BrandenbergerVafa1989]** R. Brandenberger, C. Vafa, "Superstrings in the early universe," Nucl. Phys. B 316, 391 (1989). / **[SGCreview2011]** R. Brandenberger, "String gas cosmology: progress and problems," Class. Quantum Grav. 28, 204005 (2011), arXiv:1105.3247. — The thermal/maximal-temperature/area-specific-heat cousin of lock 2's lane: the model's "maximal thermal allowance" = the Hagedorn concept; its winding-mode C_V ∝ R² = the exemption-clause drift, thermodynamic road.
 
-- **[KSS2005]** P. Kovtun, D. T. Son, A. O. Starinets, "Viscosity in strongly interacting quantum field theories from black hole physics," PRL 94, 111601 (2005), arXiv:hep-th/0405231. — The lower viscosity fence (η/s ≥ hbar/4pi); the zero-infinity asymmetry's other end (entry 54 add. 3).
+- **[KSS2005]** P. Kovtun, D. T. Son, A. O. Starinets, "Viscosity in strongly interacting quantum field theories from black hole physics," PRL 94, 111601 (2005), arXiv:hep-th/0405231. — The lower viscosity fence (η/s ≥ hbar/4pi); the zero-infinity asymmetry's other end.
 
-- **[WidnallTsai1977]** S. E. Widnall, C.-Y. Tsai, "The instability of the thin vortex ring of constant vorticity," Phil. Trans. R. Soc. A 287, 273 (1977). / **[Gharib1998]** M. Gharib, E. Rambod, K. Shariff, "A universal time scale for vortex ring formation," J. Fluid Mech. 360, 121 (1998). — The Widnall azimuthal selection (ka = 2.26-2.51 → the n-predictor) and the universal formation number (F ~ 4 → the partition/window targets), entries 56-58.
+- **[WidnallTsai1977]** S. E. Widnall, C.-Y. Tsai, "The instability of the thin vortex ring of constant vorticity," Phil. Trans. R. Soc. A 287, 273 (1977). / **[Gharib1998]** M. Gharib, E. Rambod, K. Shariff, "A universal time scale for vortex ring formation," J. Fluid Mech. 360, 121 (1998). — The Widnall azimuthal selection (ka = 2.26-2.51 → the n-predictor) and the universal formation number (F ~ 4 → the partition/window targets).
 
-- **[Ubachs-μ-class]** M. Daprà et al., MNRAS 454, 489 (2015) & MNRAS 465, 4057 (2017) (H₂/HD, Δμ/μ ~ 10⁻⁶⁻⁷); J. Albornoz Vásquez et al., A&A 562, A88 (2014) (Q J0643−5041); N. Kanekar-class NH₃/CH₃OH toward PKS 1830−211 (Δμ/μ ~ 10⁻⁷ at z=0.89). — The μ-variation bounds; entry 66's structural audit: all constraining absorbers are dense molecular gas = screened rooms under reading B.
+- **[Ubachs-μ-class]** M. Daprà et al., MNRAS 454, 489 (2015) & MNRAS 465, 4057 (2017) (H₂/HD, Δμ/μ ~ 10⁻⁶⁻⁷); J. Albornoz Vásquez et al., A&A 562, A88 (2014) (Q J0643−5041); N. Kanekar-class NH₃/CH₃OH toward PKS 1830−211 (Δμ/μ ~ 10⁻⁷ at z=0.89). — The μ-variation bounds; the structural audit: all constraining absorbers are dense molecular gas = screened rooms under reading B.
 
 ## 5. Emergent gravity, entropy, and the keystone
 
@@ -101,15 +101,15 @@ that is a bug — file it.*
 - **[Koide1983]** Y. Koide, "A fermion-boson composite model of quarks and leptons," Phys. Lett. B 120, 161 (1983); PRD 28, 252 (1983). — The charged-lepton relation the dyad must not break (thread 6).
 - **[Tsirelson1980]** B. S. Tsirelson, "Quantum generalizations of Bell's inequality," Lett. Math. Phys. 4, 93 (1980). — The bound the quantum wing treats as a standing exam.
 
-- **[Zurek2003]** W. H. Zurek, "Environment-assisted invariance, entanglement, and probabilities in quantum physics," PRL 90, 120404 (2003), arXiv:quant-ph/0211037 (and PRA 71, 052105). — The envariance derivation of the Born rule; the swap partners are the twins (the settlement law, clause ii — adopted).
+- **[Zurek2003]** W. H. Zurek, "Environment-assisted invariance, entanglement, and probabilities in quantum physics," PRL 90, 120404 (2003), arXiv:quant-ph/0211037 (and PRA 71, 052105). — The envariance derivation of the Born rule; the swap partners are the twins (the selection law, clause ii — adopted).
 
-## 7. Precision tests (the bills the medium must pay)
+## 7. Precision tests (the constraints the medium must satisfy)
 
-- **[Will2014]** C. M. Will, "The confrontation between general relativity and experiment," Living Rev. Rel. 17, 4 (2014), arXiv:1403.7377. — The PPN ledger.
+- **[Will2014]** C. M. Will, "The confrontation between general relativity and experiment," Living Rev. Rel. 17, 4 (2014), arXiv:1403.7377. — The PPN tests.
 - **[Vainshtein1972]** A. I. Vainshtein, "To the problem of nonvanishing gravitation mass," Phys. Lett. B 39, 393 (1972). — The screening margin in the EP gate.
 - **[HNS2009]** L. Hui, A. Nicolis, C. Stubbs, "Equivalence principle implications of modified gravity models," PRD 80, 104002 (2009), arXiv:0905.2966. — The EP test the gate clears with five orders.
 - **[Herrmann2009]** S. Herrmann et al., "Rotating optical cavity experiment testing Lorentz invariance at the 10⁻¹⁷ level," PRD 80, 105011 (2009), arXiv:1002.1284. — Modern Michelson-Morley; the M3 bill's size.
-- **[Mattingly2005]** D. Mattingly, "Modern tests of Lorentz invariance," Living Rev. Rel. 8, 5 (2005). / **[Liberati2013]** S. Liberati, "Tests of Lorentz invariance: a 2013 update," Class. Quant. Grav. 30, 133001 (2013), arXiv:1304.5795. — The LV pricing pass's ledger.
+- **[Mattingly2005]** D. Mattingly, "Modern tests of Lorentz invariance," Living Rev. Rel. 8, 5 (2005). / **[Liberati2013]** S. Liberati, "Tests of Lorentz invariance: a 2013 update," Class. Quant. Grav. 30, 133001 (2013), arXiv:1304.5795. — The LV pricing pass's sources.
 - **[Bailey1977]** J. Bailey et al., "Measurements of relativistic time dilatation for positive and negative muons in a circular orbit," Nature 268, 301 (1977). — Time dilation with no atoms to heat.
 - **[Ashby2003]** N. Ashby, "Relativity in the Global Positioning System," Living Rev. Rel. 6, 1 (2003). — The 38 μs/day that keeps maps working.
 - **[DamourDyson1996]** T. Damour, F. Dyson, "The Oklo bound on the time variation of the fine-structure constant revisited," Nucl. Phys. B 480, 37 (1996), arXiv:hep-ph/9606486. — The Oklo fence (great chain, Appendix B).
@@ -141,13 +141,13 @@ that is a bug — file it.*
 - **[MorrisThorne1988]** M. Morris, K. Thorne, "Wormholes in spacetime and their use for interstellar travel," Am. J. Phys. 56, 395 (1988). — The traversable-wormhole exotic-matter requirement (NEC violation) the solvency reading re-derives.
 - **[FordRoman1995]** L. H. Ford, T. A. Roman, "Averaged energy conditions and quantum inequalities," Phys. Rev. D 51, 4277 (1995), arXiv:gr-qc/9410043. — The quantum bounds squeezing sustained negative energy; the record's version of "no eternal overdraft."
 - **[Eardley1974]** D. M. Eardley, "Death of white holes in the early universe," PRL 33, 442 (1974). — The classical white-hole instability; the record's statistical/instability kill the arrow argument upgrades structurally.
-- **[Hawking1992]** S. W. Hawking, "Chronology protection conjecture," Phys. Rev. D 46, 603 (1992). — The record's CTC ban; the ledger form is "no entry can be its own funding source."
+- **[Hawking1992]** S. W. Hawking, "Chronology protection conjecture," Phys. Rev. D 46, 603 (1992). — The record's CTC ban; the principle is "no state can be its own source."
 - **[Alcubierre1994]** M. Alcubierre, "The warp drive: hyper-fast travel within general relativity," Class. Quantum Grav. 11, L73 (1994), arXiv:gr-qc/0009013. — The warp bubble paying the same NEC bill.
-- **[RovelliHaggard2014]** H. Haggard, C. Rovelli, "Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling," Phys. Rev. D 92, 104020 (2015), arXiv:1407.0989. / **[RovelliVidotto2018]** C. Rovelli, F. Vidotto, "Small black/white hole stability and dark matter," Universe 4, 127 (2018), arXiv:1805.03872. — The black-to-white transition program the author's mirror instinct independently reproduced; its confirmed LOCAL remnant signature is this shelf's named killer.
+- **[RovelliHaggard2014]** H. Haggard, C. Rovelli, "Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling," Phys. Rev. D 92, 104020 (2015), arXiv:1407.0989. / **[RovelliVidotto2018]** C. Rovelli, F. Vidotto, "Small black/white hole stability and dark matter," Universe 4, 127 (2018), arXiv:1805.03872. — The black-to-white transition program the model's mirror mechanism independently reproduces; its confirmed LOCAL remnant signature is this shelf's named killer.
 
 ---
 
 *Coverage note: keys appear in the docs as [AuthorYear]. The five internal-provenance
 stragglers found by the audit (SKELETON, the legacy action spec, intellectual_history,
 lss_parity, v4_dCDF_results) are stamped in this pass. Anything cited in a doc but missing
-here is a filed bug — the ledger's rule: no borrowed result without a line in this file.*
+here is a filed bug — the rule: no borrowed result without a line in this file.*

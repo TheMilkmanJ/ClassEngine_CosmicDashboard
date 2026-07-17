@@ -73,7 +73,7 @@ sources:
 - *Lensing BB:* follows automatically from the model's matter power spectrum (dCDF
  clustering → lensing potential). **VERDICT: INHERITED / FIT.**
 - *Primordial BB:* depends on the inflation scale, which the model leaves **FREE**, exactly
- like ΛCDM. **But** here tonight's result plugs in: if primordial tensors exist, the
+ like ΛCDM. **But** this result plugs in: if primordial tensors exist, the
  **genesis twist** would make them slightly *chiral* (parity-asymmetric L vs R gravitons)
  via Chern–Simons gravity — computed to **Π ~ 10⁻⁷**, i.e. essentially **non-chiral**.
  So PRTOE predicts primordial BB (if any) is parity-symmetric to observable precision.

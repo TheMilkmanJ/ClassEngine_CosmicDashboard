@@ -26,18 +26,18 @@ guaranteed by nature's indifference but by a working screen with a court date.
 
 **BIOLOGY — its thermodynamic license traces to the vacuum start.** Life is a far-from-
 equilibrium process that needs a free-energy gradient. The model's chain, every link graded:
-the unique zero-point start (minimal entropy, no draw) → the gravity account (smoothness =
+the unique zero-point start (minimal entropy, no draw) → the gravitational free-energy reserve (smoothness =
 the reservoir) → stellar compression → the nuclear rung's release → solar photons → the
-biosphere. **Life is a tap on the Weyl account** — the same drawdown that magnetizes galaxies
+biosphere. **Life is a tap on the Weyl free energy** — the same drawdown that magnetizes galaxies
 and times the dark energy. "Why is there usable energy for living things" is, in this model,
 answered by the same uniqueness theorem that answered Boltzmann. (No biology is explained;
 biology's POSSIBILITY is traced.)
 
 **INFORMATION SCIENCE — Landauer is a citizen of the constitution.** The model does not merely
-respect Landauer's principle; its cosmology RUNS ON IT (the transaction fees, the Tolman
+respect Landauer's principle; its cosmology RUNS ON IT (the Landauer costs, the Tolman
 compounding, measurement-as-billed-event). Computation's physical cost is constitution-grade
 here — with the standing null that no violation of Landauer will ever be observed (kill-class:
-a demonstrated sub-Landauer erasure breaks the ledger the universe is booked in).
+a demonstrated sub-Landauer erasure breaks the accounting the universe runs on).
 
 ## 2. The plain inheritances (normality + lineage, nothing added)
 
@@ -50,6 +50,6 @@ about mind) · mathematics (not empirical — the model's language, not its chil
 
 The sciences are the DAG's canopy: chemistry leafs from the atom's branch, biology from
 chemistry's, and every leaf photosynthesizes on light that gravity squeezed out of the
-account. The model adds no new science and subtracts none — it supplies what the canopy never
+free-energy reserve. The model adds no new science and subtracts none — it supplies what the canopy never
 had: a continuous, falsifiable chain of custody from every laboratory bench back to the
 first roll of the vacuum.

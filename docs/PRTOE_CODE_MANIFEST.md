@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The author's inclusion law: everything proven beneficial enters the pipeline; nothing
+*The inclusion law: everything proven beneficial enters the pipeline; nothing
 killed ever does. This file is the single source of truth for implementation status.
 Homes: [C] = CLASS source (background.c/input.c), [Y] = cobaya yaml configs, [CMP] = the
 comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
@@ -17,21 +17,21 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 | The dyad (varying m_e, the ramp through T_c) | [C] | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | [C] | IN |
 | **THE ZERO-PARAMETER EVIDENCE RUN** (ε, A_s, n_s, z_on all STATED) | [Y] cmp_prtoe_fixed.yaml | **LIVE (launched 2026-07-12 23:14; PID 442916)** |
-| The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by author order (relaunch fresh later); the ΛCDM twin awaits its slot |
+| The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by decision (relaunch fresh later); the ΛCDM twin awaits its slot |
 | The freeze-sentinel launch guards | [CMP] both wrappers | IN — verified quoted+unquoted |
 
-## 2. ARMED — enters on its named trigger (the author's amended conditions)
+## 2. ARMED — enters on its named trigger (the amended conditions)
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED by author order; running in the live zero-parameter test** | [Y] |
-| z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate by author decision; the α_c MCMC grades it later** | [Y] |
+| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED; running in the live zero-parameter test** | [Y] |
+| z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c MCMC grades it later** | [Y] |
 | n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on | **IN — running in the live test** | [Y] |
 | ρ_inf stated | the occupancy value | the α_c MCMC + the triangle confirmed | [Y] |
 | m_ncdm stated | 61.4 meV | the spurion (docketed) lifted + P-023 resolved | [Y] |
 | The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | [CMP] flow_ladder_correction.py (built) |
 
-## 3. NO PIPELINE EXPRESSION — beneficial, lives in the books (not code by nature)
+## 3. NO PIPELINE EXPRESSION — beneficial, lives in the theory (not code by nature)
 
 The chain law; the melt; the counterparty rule; the zero–infinity asymmetry; the genesis
 chart (Γ/impulse/E/friction); the Widnall n-predictor (n = 2.26–2.51 × R/a — the α_c MCMC/comb
@@ -49,16 +49,16 @@ lever (×17–83 short); the S₈-flow lever (energy null + wrong-signed); the b
 speed-accumulator (rotation resets; no exterior frame); entrainment as a distinct thread
 (absorbed); the literal plasma-ring matter distribution (isotropy); the ring-through-a-
 white-hole feeder (counterparty rule; unneeded). *Rule: a killed item re-enters only by
-a new derivation that overturns its killshot, logged in the ledger first.*
+a new derivation that overturns its killshot, logged in the failures ledger first.*
 
 ## 5. The standing verification
 
 Every [C]-expressible beneficial item is ALREADY COMPILED into the live .so the referee
-is sampling — the inclusion law is satisfied for the C code as of tonight; the deltas
+is sampling — the inclusion law is satisfied for the C code as of now; the deltas
 are all [Y]-layer freezes on named triggers. Any future session that produces a
 pipeline-expressible result MUST add its row here in the same commit.
 
-## 6. THE BUILD QUEUE — everything still needing code, genesis → now (author order)
+## 6. THE BUILD QUEUE — everything still needing code, genesis → now
 
 *CLASS is complete for its jurisdiction (isotropic background + linear physics — every
 beneficial item compiled and running). The remainder are standalone solvers/analysis

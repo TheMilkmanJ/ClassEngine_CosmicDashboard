@@ -31,7 +31,7 @@ The U(1)-invariant scalars built from Ψ, in increasing dimension:
 
  |Ψ|² = Ψ*Ψ, |Ψ|⁴, ∂_μΨ*∂^μΨ, J_μ = Im(Ψ*∂_μΨ) [needs contraction] ...
 
-The leading local author is therefore
+The leading local operator is therefore
 
  L_couple = − m₀ (1 + g |Ψ|²/M² ) ψ̄ψ (1)
 
@@ -40,13 +40,13 @@ see the *magnitude* |Ψ|², never the phase-carrying ⟨Ψ⟩ itself (that carri
 charge and is forbidden). This is the whole game — see §3.
 
 *(The linear "ε = c·f_amp·Ψ₀/M_red" amplitude formula is the value of √(g|Ψ|²)/M at
-recombination; the author is quadratic in the field, as required.)*
+recombination; the operator is quadratic in the field, as required.)*
 
 ---
 
 ## 2. The decomposition — coherent piece vs fluctuation piece
 
-The expectation of the local author |Ψ(x)|² in any state splits exactly:
+The expectation of the local operator |Ψ(x)|² in any state splits exactly:
 
  ⟨|Ψ|²⟩ = |⟨Ψ⟩|² + ⟨|δΨ|²⟩ (2)
  └ coherent ┘ └ fluctuations ┘
@@ -106,7 +106,7 @@ magnitude, not temperature.
 
 For δm/m to be ~0 at BBN, the coupling must see **|⟨Ψ⟩|² (coherent only)** and be
 BLIND to both the incoherent fluctuations AND the phase-scrambled magnitude of the
-rolling pre-condensate field. That is NOT a local author: a local |Ψ(x)|²
+rolling pre-condensate field. That is NOT a local operator: a local |Ψ(x)|²
 necessarily returns ⟨|Ψ|²⟩ (the total, eq. 2). The heal needs the mass shift to be
 an **emergent coherence effect**:
 
@@ -197,8 +197,8 @@ vanishing early field. The SAME field cannot be both. So in the single-field,
 standard-conformal-coupling model, the heal is INCONSISTENT with the model's own
 genesis — the consistent reading is the CATASTROPHE (m_e shifted at BBN).
 
-**The one surviving heal route (a real model change, and it matches the author's
-"the coupling IS the coherence" instinct):** let the mass couple NOT to the
+**The one surviving heal route (a real model change, matching the
+"the coupling IS the coherence" reading):** let the mass couple NOT to the
 amplitude |Ψ|² (large throughout) but to the SUPERFLUID PHASE COHERENCE / order
 ρ_s (phase stiffness, ∝ coherent |∇θ|-structure), which is **0 before z_x** (the
 rolling pre-condensate field is phase-INcoherent — large |Ψ|, no long-range order)
@@ -214,7 +214,7 @@ order are the same onset). This is elegant and census-legal, BUT:
 
 **Verdict deepened: the heal is DEAD on the single-field standard conformal
 coupling (genesis forces the field large at BBN). It survives ONLY via (a) an
-exotic superfluid-phase-coherence coupling ρ_s [the author's "coupling = the
+exotic superfluid-phase-coherence coupling ρ_s [the "coupling = the
 coherence" picture], or (b) a two-field split — both model changes, neither in the
 current action, neither yet derived. The consistent current-model reading is the
 CATASTROPHE. Standing shaded further toward gate-0-FAIL.**
@@ -308,7 +308,7 @@ The §7.4 survive-or-die derivation was RUN healing-blind and FAILED as a
  displacement that DOOMS the heal is what PROVIDES the abundance. **Coherence buys abundance
  XOR heal-attempt, never both.**
 
-The claim is held provisional pending its named referees.** Residual = (a) the no-go's exotic-author caveat, and
+The claim is held provisional pending its named referees.** Residual = (a) the no-go's exotic-operator caveat, and
 (b) fit ≠ ontology (varying-m_e@recomb still FITS the CMB as phenomenology — SHOT 1 — but the
 model that would explain it is dead). The model died PREDICTING its own 12σ BBN (cleanest
 falsification). **Successor** = a THERMAL condensate (⟨Ψ⟩=0 above T_c by thermodynamics, no

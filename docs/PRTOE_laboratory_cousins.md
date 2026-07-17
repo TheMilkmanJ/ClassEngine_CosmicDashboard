@@ -15,7 +15,7 @@ superfluid condensates. Therefore — uniquely among cosmologies — there exist
 research program that is not metaphor: **the model's founding dynamics can be run, watched,
 and falsified in dilute-gas BECs and superconducting circuits.**
 
-## 1. The cousins already on the books (each recorded)
+## 1. The cousins already on record (each recorded)
 
 | lab system | the model object it instantiates | status |
 |---|---|---|

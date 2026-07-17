@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Derivation-from-recorded-structure. Every load-bearing input cites a graded ledger object; owed
+*Derivation-from-recorded-structure. Every load-bearing input cites a graded recorded object; owed
 items are flagged. Status: STRUCTURAL (candidate) — candidate grade.
 The exterior is unchanged (horizons, shadows, P-2026-005 intact); this document is about what
 replaces the singular interior, with the actual numbers.*
@@ -122,13 +122,13 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 
 ## 7. Observational posture (honest)
 
-- **Null-prediction stance** (the author's epistemology): exteriors indistinguishable from GR
+- **Null-prediction stance** (the model's stance): exteriors indistinguishable from GR
  at current precision — shadows, ringdowns, superradiance margins all inherited.
 - **Distinctive prongs, flagged not recorded:** (i) the M ~ 2×10¹⁰ M☉ interior-character
  crossover vs the SMBH mass-function top (§2); (ii) horizon-scale microstructure at the core
  boundary could imprint late-time ringdown echoes — generic to horizon-scale-structure models,
  amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
- thermodynamics to the medium's Landauer ledger (recorded bookkeeping, def-atom-night).
+ thermodynamics to the medium's Landauer accounting (recorded, def-atom-night).
 
 ## 8. Summary
 
@@ -139,11 +139,11 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 | Collapse unbounded | CSW equilibrium at any known mass (λ ≳ 10⁻⁹⁰) | computed, λ owed (§3) |
 | Ring singularity (Kerr) | quantized vortex bundle, normal-phase threads | structural (§5) |
 | Penrose theorem | discharged at premises (no metric below ξ; SEC violated; phonon geodesics end, histories don't) | argued (§6) |
-| BH entropy | thermal core + Landauer ledger; area law OWED | located, not derived |
+| BH entropy | thermal core + Landauer accounting; area law OWED | located, not derived |
 
 *The medium does not permit infinities: the same Landau threshold that caps the vacuum budget
 and feeds the crunch dissolves the singularity. What falls in is not crushed to a point — it is
-caught, thermalized, and kept on the books, at four hundred astronomical units of coherence.*
+caught, thermalized, and conserved, at four hundred astronomical units of coherence.*
 
 ## Sources
 

@@ -50,7 +50,7 @@ differently (photon drag couples to them unequally), separating charge into a cu
  B_seed ≈ 2 (m_p c / e) · ω_vort ≈ **5×10⁻¹⁸ G** at ω_vort ~ 0.5 H(rec) (graded)
 
 That is precisely a viable **galactic** seed: compressed and dynamo-amplified over ~30 e-folds
-to the observed μG. **The model pays the galactic magnetism bill where ΛCDM cannot** —
+to the observed μG. **The model accounts for the galactic magnetism where ΛCDM cannot** —
 a genuine new explanatory front, registered as P-2026-028.
 
 **Consistency, forced:** the seeding runs through the *plasma's* response to the medium's
@@ -76,7 +76,7 @@ robustness. The live external debate (plasma instabilities — beam-plasma energ
 relax the ≥10⁻¹⁶ G floor entirely) is the referee: **if the blazar floor survives that
 debate, P-028's void column FAILS while the galactic column stands** — the registered risk,
 now sharpened to a single external question. Adverse-honest closure; filed in the failures
-ledger (the internal rescue's death) and here (the standing exposure).
+record (the internal rescue's death) and here (the standing exposure).
 
 ## 4. The signature no one else can write down: THE SIGN
 

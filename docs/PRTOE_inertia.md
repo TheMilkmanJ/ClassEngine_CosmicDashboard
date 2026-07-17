@@ -90,7 +90,7 @@ Ultra-high-energy cosmic rays crossing ~Gpc distances without such losses
 [Coleman–Glashow 1999-class bounds] therefore test the dispersion's linearity — and
 the model's microstructure scale is *forced* to Planck (the basement's ruling), putting
 its predicted deviations at (E/M_Pl)ⁿ: below current reach, same envelope as the
-Lorentz-violation budget. One suppression pays both bills — a consistency, not a
+Lorentz-violation budget. One suppression meets both requirements — a consistency, not a
 coincidence.
 
 ## 5. The propulsion corollary (graded honestly; jurisdiction respected)

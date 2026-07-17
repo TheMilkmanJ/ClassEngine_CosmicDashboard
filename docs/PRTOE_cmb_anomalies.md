@@ -41,7 +41,7 @@ Assembly Six, the BipoSH pass, threads 12–16. Full list: [BIBLIOGRAPHY.md](BIB
 
 ## 3. How to check — the tiered protocol (2026-07-12) + the Tier-0 reading
 
-**Ramp discipline governs every template** (the author's standing law): comb teeth are
+**Ramp discipline governs every template** (the standing discipline): comb teeth are
 finite-width smeared bumps (coherence), never δ spikes; the comb's envelope rises and
 falls across the band (projection is quasi-periodic); the isocurvature "line" is a band
 (ℓ ~ 120–180); the ε-dipole's amplitude GROWS at √3·H, so sightlines at different z carry

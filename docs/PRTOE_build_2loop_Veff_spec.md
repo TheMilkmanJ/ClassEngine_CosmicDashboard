@@ -1,6 +1,6 @@
 # BUILD SPEC — The 2-loop RG-improved V_eff for T_c (the DE-value closer)
 
-> *Commissioned 2026-07-16 (hunt entries 210–214), then EXECUTED (hunt 215).*
+> *Commissioned 2026-07-16, then EXECUTED (hunt 215).*
 
 > **RESULT (hunt 215 — DEFINITE NEGATIVE):** the 2-loop RG-improved V_eff does **NOT pin T_c** — and
 > the answer is robust to the one uncomputed piece (the non-log 2-loop constant c₀). Two facts settle it:
@@ -111,6 +111,6 @@ scaling ρ_Λ¼ = (9/2)α⁴T_c.
 
 ## See also
 
-Hunt entries 208–214 ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)); the CC value routes
+See [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); the CC value routes
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §2c); the T_c mechanism
 ([PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md)).
