@@ -48,6 +48,18 @@ three windows through which any condensate is seen.
 - **Why measurement-scale physics is classical** (recorded elsewhere, cited here): posting
  to 10²³ seats cannot be recalled — decoherence is the existing mechanism, not a fourth door.
 
+**Derivation backing (audit, 2026-07-16).** Each seating rests on a real result, not an
+analogy: *entanglement* on the C4 CHSH computation (the pair states give B(r) = 2√(1+tanh²2r),
+saturating Tsirelson's 2√2 — the prediction is exact QM, the Tsirelson null, conditional on
+substrate quantization); *tunneling* on the identity WKB exponent = the medium's evanescent
+decay length verbatim, with the Josephson junction as the recorded precision receipt; and
+*superposition* on ODLRO structure — with the honest gap flagged plainly, that the Born-rule
+*value* is reproduced, not re-derived (the measurement problem, shared with every
+interpretation). So the trio's common prediction is **exact QM** (the Tsirelson/tunneling
+nulls), and its one *cosmological* testable is the second sound below — an inherited P-040
+consequence, not an independent new number. The Born-rule value is the single un-derived
+residue; the rest is derived structure.
+
 ## 4. The one piece of live freight
 
 The trio's thermodynamic door is the thermal program's jurisdiction, so any result on the
