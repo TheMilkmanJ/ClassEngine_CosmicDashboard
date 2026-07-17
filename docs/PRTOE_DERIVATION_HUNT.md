@@ -154,15 +154,41 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > exactly** (quarks +12, gluons −12). The same condition that forces three generations would force
 > **dark SU(2) with three flavours** — a real receipt where the α_c one was false.
 >
-> **CANDIDATE, not banked — and it carries a sharp risk that makes it decidable.** (i) *The τ
-> collision:* τ ≈ 0.345 is quoted from the band T_c/√σ ≈ 0.34–0.37 of a **QCD-like (SU(3))** sector,
-> with SU(3) pure glue at 0.63 excluded. For **SU(2)** the lattice ratio differs — and τ scales the
-> dark-energy value **linearly** (ρ_Λ¼ = (9/2)α⁴·τ·m_e), so the flagship's 1.5% is riding on a τ
-> borrowed from the wrong gauge group if N_c = 2. **Compute T_c/√σ for SU(2) with N_f = 3: if it is
-> not ≈ 0.345, then either the finiteness-forced N_c = 2 or the DE value gives way.** (ii)
+> **The consilience (2026-07-16) — SU(2) independently delivers three things the model already
+> required, for reasons that have nothing to do with this counting.** Two-color QCD's fundamental
+> representation is **pseudo-real**, so a colour singlet needs an **even** number of quarks:
+> **its baryons are bosons — diquarks** [Kogut–Stephanov–Toublan; Hands et al.].
+> 1. **The BEC side, which §4 demands.** The occupancy argument's owned assumption is that it holds
+>    *"on the strong-coupling (BEC) side of the BCS–BEC crossover… verified to fail on the weak side."*
+>    Two-color QCD is the **canonical diquark-BEC system** and the textbook realization of the
+>    **BEC–BCS crossover**. §4 already wrote the punchline — *"the two sides of condensed matter's
+>    most famous crossover perform the two famous jobs in one vacuum"* — without naming the group
+>    that provides the crossover.
+> 2. **ℓ = 0, which the DE value selects.** The lightest SU(2) baryon is the **scalar diquark** —
+>    s-wave. That is the channel [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)
+>    §4c's table selects at +1.5% and excludes at −74.6% (p-wave) and −93.7% (f-wave).
+> 3. **"He-3-A missing its baryonic matter" — as group theory, not analogy.** He-3 pairs p-wave
+>    because its baryonic hard core suppresses ℓ = 0. In two-color QCD there **are no fermionic
+>    hard-core baryons**: the baryons are bosonic diquarks. The core that forces helium up to L = 1
+>    does not exist, so s-wave is unsuppressed — which is precisely the mechanism §4c invokes and
+>    precisely what the ℓ = 0 selection needs.
+>
+> **CANDIDATE, not banked — one number decides it, and it is not yet computed.** *The τ collision:*
+> τ ≈ 0.345 comes from the band T_c/√σ ≈ 0.34–0.37 of a **QCD-like (SU(3))** sector, with SU(3) pure
+> glue at 0.63 excluded — and τ scales ρ_Λ¼ **linearly**, so the flagship's 1.5% rides on it.
+> Lattice anchors are firm for pure glue (**SU(3): 0.63; SU(2): 0.69–0.71**, ~11% higher), but
+> **no published T_c/√σ for SU(2) with N_f = 3 light flavours was located** — the two-color
+> literature is dominated by N_f = 2 at finite *density*. Scaling SU(3)'s glue→N_f=3 reduction
+> (0.548) onto SU(2) naively gives **τ ≈ 0.38–0.39 → ρ_Λ¼ ≈ 2.46–2.54 meV (+10 to +13%)**, which
+> would break the flagship. But the required reduction is only modestly larger — **51% for SU(2)
+> versus SU(3)'s 45%** — and it points the right way on physics: SU(2) with N_f = 3 carries
+> **N_f/N_c = 1.5 against SU(3)'s 1.0**, so quarks are half again as influential per colour and a
+> *stronger* reduction is expected. **Plausible, unsettled, and decidable by one lattice number.**
 > *Assumptions, named:* dark quarks Dirac and in the fundamental — adjoint or Weyl/Majorana content
-> changes the counting. (iii) The dark sector's ΔN_eff footprint (§3) is computed for the existing
-> roster and would need re-pricing at N_c = 2.
+> changes the counting. *Also owed:* the ΔN_eff footprint (§3) is priced for the existing roster and
+> would need re-pricing at N_c = 2; and the SU(2) N_f ≥ 2 chiral transition is reported **first
+> order**, which should be checked against the settling-attractor requirement in
+> [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 (different transition, but worth the check).
 
 The medium's microscopic content is the **paired lepton-sector vacuum** — leptophilic by identity, with
 three flavours (see the flag above — the α_c receipt is retired; the finiteness candidate is live), neutrinos interior (c = 9/10), and a
