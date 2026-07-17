@@ -68,9 +68,47 @@ genesis, so its exponents govern nothing anyone can tune through. What survives 
 frozen configuration — the masses. The regime constrains future model-building; it forecasts no
 measurement.)*
 
-**Item 1 stays OPEN, and honestly it has not moved:** A = √2 is an exact identity with **no
-mechanism**. The floor is unchanged — the **family-field Lagrangian** (which is also why no Ginzburg
-*number* is computable, only the regime argument above), and beneath it the **V ~ M², K ~ R²**
-identification. **Two candidate mechanisms were spent this pass; the debt is where it started.**
+## Item 1 — THE POTENTIAL, BUILT (2026-07-17). What it gives, and the one thing it cannot
+
+**Built and minimised numerically:** E = −Σ_{i<j} q_i q_j log|r_i − r_j| + Σ_k ½κ|r_k|², free
+minimisation from 40 random starts.
+
+**[DERIVED] The log coupling gives the ring.** The minimum has equal radii and angular separations
+**120.000° / 120.000° / 120.000°**, with **R = 1/√κ** matching the analytic solution exactly. T6's
+standing claim — *"the 120° = the three-defect equilibrium under the medium's own log coupling"* —
+is **confirmed by computation**, no longer asserted.
+
+**[NEGATIVE — the decisive one] A = √2 does NOT fall out, and not for want of solving it harder.**
+The potential fixes the ring's **geometry** (120°) and its **scale** (R = 1/√κ). But **A = R/M is a
+ratio to a background M that the energy never mentions.** M is the ring's centre on the √m axis;
+log repulsion plus confinement is entirely *internal* to the ring — shape and size — and contains no
+term that locates its centre. Vary κ: R moves, A does not follow. **The debt is sharper than "the
+Lagrangian is unbuilt": the Lagrangian is missing its BACKGROUND, and A = √2 is a statement
+relating the ring to something outside it.** This is why the V ~ M², K ~ R² linkage has stayed
+asserted, and why two candidate mechanisms died this pass — *all of them were explaining a ratio
+whose denominator the theory does not contain.*
+
+**[NEGATIVE] The +1 / 0 / −1 charge reading does not generate the ring.** With q = (+1, 0, −1) the
+energy reduces to +log r₁₃: only the +/− pair interacts, **opposite charges attract**, and the
+triplet collapses. The three-state structure cannot be the charge assignment.
+
+**[OBSERVED — real, and unexplained] The three-state structure is in the data, and the −k_down face
+is nearly at the wall.** From the measured lepton masses, the deviations √m_k/M − 1 are:
+
+| | deviation | face |
+|---|---|---|
+| τ | **+1.379** | +k_up |
+| μ | **−0.420** | the middle |
+| e | **−0.960** | −k_down — at **4% of M**, i.e. **96% of the way to the positivity wall** √m = 0 |
+
+*(and 2⟨dev²⟩ = 1.999963 ⟹ A = 1.414201, √2 to 0.0009%.)* **The wall is not the mechanism either:**
+A = √2 places a face exactly at zero **only if θ = 135°**, and the measured θ is **132.75°**. The
+electron sits *near* the wall, not on it — suggestive, not a derivation.
+
+**Item 1 stays OPEN. What is owed is now named precisely:** not "a mechanism" and not "the
+Lagrangian" — **the background M**. Until the theory contains an object that sets the ring's centre,
+A = R/M has no derivable value, no Ginzburg *number* is computable (same missing object), and the
+V ~ M², K ~ R² identification cannot be checked. **The 120° geometry is derived; the amplitude is
+not, and now we know why.**
 
 Coupling-geometry status: screened-room (laboratory masses) — verdicts hold by geometry.
