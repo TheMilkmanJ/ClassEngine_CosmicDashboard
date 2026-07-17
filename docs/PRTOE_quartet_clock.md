@@ -44,10 +44,15 @@ studied distinction).
 
 ## 3. The stakes
 
-If the quartet reading holds, the P-040 corollary's apparent 0.39-dex tension INVERTS:
-the α_c chain is currently **confirming** $\alpha_c = 3\alpha$ (7.89 vs 7.94), and the
-"gap" dissolves one level deeper — the clock misread the composite as a
-constituent. The triangle (occupancy + 3α + $x_0$), the freeze cascade, and P-2026-042's
+If the quartet reading holds, the P-040 corollary's apparent tension INVERTS: the chain
+center the constituent clock calls adverse becomes the quartet clock's confirmation zone
+(the $3\alpha$ prediction moves $7.59 \to 7.89$). **The chain state, read honestly:** the
+live dispersion chain (zon\_disp) currently sits at $\approx 7.7$ with $R{-}1 \approx 23$ —
+far from the $R{-}1 < 0.05$ bar, so **nothing confirms anything yet**; an earlier read of
+7.94 came from the superseded zon chain. On today's face value the nearest rung is the
+**pair** (7.74), which by §4 would kill the QUARTET, not the model — the converged center
+alone decides among the three rungs. The "gap" dissolves one level deeper only if the
+composite reading survives that referee. The triangle (occupancy + 3α + $x_0$), the freeze cascade, and P-2026-042's
 anchor all inherit the verdict.
 
 ## 4. Kills
