@@ -59,8 +59,7 @@ sector outright); (ii) the normal-ordering floor's shape is fixed in advance; (i
 ton-scale experiment DOES see a signal well above ~5.3 meV, this model is also killed —
 the band cuts both ways. A bounded two-sided target with stated kills.
 
-**Verified against the existing record (2026-07-12):** 0νββ has never been observed —
-the one historical claim (Heidelberg–Moscow, ~200–600 meV) was refuted by KamLAND-Zen
+**0νββ has never been observed** — the one historical claim (Heidelberg–Moscow, ~200–600 meV) was refuted by KamLAND-Zen
 and GERDA; current limits (m_ββ ≲ 28–180 meV, NME-dependent) sit 5–30× above this band,
 so no existing measurement executes either side of the kill clause. **The nearest
 referee is cosmology, not the ton-scale program:** DESI-era CMB+BAO limits already reach
