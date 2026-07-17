@@ -74,9 +74,27 @@ offline SN-standardization calc. **This is the whole H₀=73 question, reduced t
 dCDF's Goldstone, so its energy is intrinsically part of ρ (no external EM coupling needed — the
 birefringence null still holds; the coupling is self-coupling). The dCDF's **radiation-like youth**
 (w=1/3) *is* its Goldstone/light energy dominating ρ; the **thaw toward w=−1 IS that light energy
-diluting away.** Real and structural — but **early-dominated**: Ω_γ ~ 5×10⁻⁵ today, so the late-time
-(H₀-epoch) nudge is negligible. It strengthens the "radiation youth" half of the picture (it set the
-starting point); it does not reopen the late H₀ lever.
+diluting away.** Real and structural — but **early-dominated** in the *global* budget:
+Ω_γ ~ 5×10⁻⁵ today, so the sky-averaged late nudge is negligible.
+
+**JP's refinement — the droplet on ice (2026-07-17).** The right image is not a global melt but a
+**water droplet rolling over ice**: light thaws the condensate **locally, along its own track**, and
+leaves the rest frozen. This defeats the "too dilute globally" objection — a small energy melts a
+*channel* even when it can't melt the *sheet*. It is the correct picture of a Goldstone wake in its
+own superfluid, and it has three honest consequences:
+- **It heals behind the droplet** (the excitation redshifts back to the w=−1 floor once the light
+  passes), so the **global/volume-averaged w stays −1** — DESI and the CMB see the frozen sheet.
+  **This mechanism protects w=−1 by construction; it is a feature, not a threat.**
+- **It cannot run away.** w=−1 is the *true ground state* (lowest energy), so leaving it *costs*
+  energy — there is no stored latent heat, no metastable front that self-propagates. The thaw stays
+  a driven, healing track: *"it does not enforce the entire thing to melt."* That is the ceiling and
+  the safety in one — no runaway, and no path to 73 on its own.
+- **Where it could live:** a light-traffic-dependent local thaw is a **local-vs-global** effect (more
+  thawing near luminous structure / along lines of sight). It routes into the local-global gate
+  (Lever 2) as a channel *separate* from the ε-standardization term — with its **own, unsigned**
+  sign. Magnitude still rides the small local Ω_γ and it heals, so it does not reach 73; but it is a
+  distinct, testable prediction (a light-environment dependence in local H₀) and is filed here as a
+  candidate sub-lane, not a result.
 
 ## What would move any of this
 

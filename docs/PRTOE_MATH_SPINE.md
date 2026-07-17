@@ -207,7 +207,7 @@ Code: `dcdf_floor_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ_flo
 
 **7d. The end (and the next start).** The thaw completes → expansion reverses → contraction
 blueshifts radiation (a⁻⁴ grows) → the heat fountain reignites → T climbs back through **T_c**
-(the SAME derived T_c of §4) → **the dyad condensate MELTS** (m_e → standard for the crunch) →
+(the SAME T_c of §4) → **the dyad condensate MELTS** (m_e → standard for the crunch) →
 charge survives in solitons/Q-balls [requires gravity-mediated K<0: fragmentation
 banks the charge at T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis
 across the bounce (rotation resets, topology doesn't) → re-expansion cools through T_c → the

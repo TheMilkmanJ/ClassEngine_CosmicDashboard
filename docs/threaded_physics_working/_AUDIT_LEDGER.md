@@ -35,7 +35,7 @@ right statement filed where no reader reaches. Two of today's biggest finds were
 | tier | what it is | files | status |
 |---|---|---|---|
 | **0** | **leaves the repo; a person reads it and acts** | fairbank_note_draft ✔, README ✔ (first 70 lines; 329 remain), PREREGISTERED_PREDICTIONS, REFEREE_CALENDAR | **IN PROGRESS** |
-| **1** | **the spine — everything inherits** | MATH_SPINE, THREE_EQUATIONS, DEPENDENCY_TREE, READERS_GUIDE, INDEX | pending |
+| **1** | **the spine — everything inherits** | MATH_SPINE, THREE_EQUATIONS, DEPENDENCY_TREE, READERS_GUIDE, INDEX | **IN PROGRESS** — THREE_EQUATIONS + MATH_SPINE audited (all arithmetic recomputed clean; 2 species-4 grade contradictions fixed 2026-07-17); DEPENDENCY_TREE, READERS_GUIDE, INDEX pending |
 | **2** | **computational — numbers that get consumed** | bbn_witness, cosmological_constant, neutrino_sector, fingerprint_lattice, CODE_MANIFEST, THE_AMPLITUDE, THE_CHAIN | pending |
 | **3** | **domain files** (~40) | hubble_tension, s8_tension, light, quantum_gravity, … | pending |
 | **4** | **working files** (21) | T1–T16, _master_computes, _cross_cutting | pending |
@@ -58,6 +58,8 @@ right statement filed where no reader reaches. Two of today's biggest finds were
 | fairbank_note_draft | 4 | BBN claimed in a favourable fit record | FIXED + gated |
 | 13 configs | 2 | YHe/bbn blind to varying_me | FIXED (measured curve) |
 | MATH_SPINE, cosmological_constant | 6 | α_c's owner stated only in a build spec | FIXED |
+| THREE_EQUATIONS | 4 | stated-stack T_c row: grade cell "derived" vs value cell "not independently sourced" — reader-facing contradiction | FIXED (2026-07-17) |
+| MATH_SPINE | 4 | §7d narrative "the SAME **derived** T_c of §4" — "derived" contradicts the file's own flagship-grade block | FIXED (2026-07-17) |
 | **README** | **3** | **ODDS ("~16%") on the repo's front door** — the standing law is that odds are never audience-facing | FIXED |
 | **README** | **1** | **sold "a varying-mₑ STEP in cosmic voids" as one of 4 headline bets** — P-022 retired that reading 2026-07-16; the registry now says a sharp global step **counts against** the model | FIXED |
 | **README** | **2** | ΔlnZ ≈ +2.6 quoted bare — it came from chains scored with a ΛCDM helium fraction | FIXED (asterisked pending re-run) |
