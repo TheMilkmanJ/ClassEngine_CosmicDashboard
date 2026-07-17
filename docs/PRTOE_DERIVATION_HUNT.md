@@ -173,6 +173,11 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 >    does not exist, so s-wave is unsuppressed — which is precisely the mechanism §4c invokes and
 >    precisely what the ℓ = 0 selection needs.
 >
+> **REGISTERED as P-2026-048 (2026-07-16)** — the dark colour group is SU(2), N_f = 3, and
+> **T_c/√σ = 0.345 ± 0.02** for SU(2) with three light flavours; see
+> [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md). The model's first
+> prediction addressed to a *lattice computation* rather than a telescope.
+>
 > **CANDIDATE, not banked — one number decides it, and it is not yet computed.** *The τ collision:*
 > τ ≈ 0.345 comes from the band T_c/√σ ≈ 0.34–0.37 of a **QCD-like (SU(3))** sector, with SU(3) pure
 > glue at 0.63 excluded — and τ scales ρ_Λ¼ **linearly**, so the flagship's 1.5% rides on it.

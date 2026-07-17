@@ -2134,5 +2134,67 @@ chain (the attractor session owns its derivation); the coefficient is the open d
 unknown; the primordial-background side is a CHANNEL claim, not an amplitude claim, until
 that computation lands.
 
+## P-2026-048: THE DARK COLOUR GROUP IS SU(2) — and T_c/√σ ≈ 0.345 for SU(2) with three light flavours (registered 2026-07-16)
+
+**The claim.** The dark confining sector is **SU(2) with exactly three light Dirac flavours in
+the fundamental** — and its finite-temperature ratio of chiral/deconfinement temperature to
+string tension is **T_c/√σ = 0.345 ± 0.02**.
+
+**Why the model has no choice.** Induced gravity's finiteness sum runs over *"every field in the
+vacuum"* ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2), so the dark sector must
+satisfy it too. The Standard Model plus three ν_R already cancels (48 − 48 = 0, P-2026-045), and
+the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must self-cancel**:
+
+  **str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 ⟹ N_f = 2(N_c² − 1)/N_c**
+
+| N_c | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|
+| N_f | **3 — integer** | 5.33 | 7.5 | 9.6 | 11.67 |
+
+**N_c = 2 is the only colour group admitting an integer flavour count, and it gives exactly
+three** (quarks +12, gluons −12). The value 0.345 is not fitted here: it is **τ = T_c/m_e**, fixed
+by the observed dark-energy density through ρ_Λ¼ = (9/2)α⁴·τ·m_e — the flagship's 1.5% prediction
+read backwards. **The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in
+T_c/√σ is a 10% error in the dark-energy scale.
+
+**Kills (any one is fatal to the dark-sector roster as it now stands):**
+1. **A lattice determination of T_c/√σ for SU(2), N_f = 3 landing outside 0.345 ± 0.02.** The
+   sector is simulable — SU(2) with light fundamental fermions is standard composite-Higgs /
+   technicolor lattice territory. This is the model's first prediction addressed to a *computation*
+   rather than a telescope.
+2. **A dark colour group other than SU(2)** established by any route (no other N_c admits an
+   integer flavour count under the finiteness balance).
+3. **A dark flavour count other than three.**
+4. **Dark quarks in the adjoint, or Weyl/Majorana rather than Dirac** — the counting assumes Dirac
+   fundamentals, and other content changes N_f = 2(N_c² − 1)/N_c.
+
+**What makes this more than a counting coincidence — three independent structural matches.**
+SU(2)'s fundamental representation is pseudo-real, so colour singlets need an **even** number of
+quarks and **its baryons are bosons — diquarks** [KSTVZ2000; Hands2006]. That single fact supplies
+three things the model required *before* this counting existed:
+(i) the **BEC side** of the BCS–BEC crossover, which the occupancy argument
+([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4) holds *only* on and is
+"verified to fail" off — two-color QCD being the canonical diquark-BEC realization of that very
+crossover; (ii) **ℓ = 0**, since the lightest SU(2) baryon is the *scalar* diquark, and the DE
+value independently selects s-wave (+1.5%) over p-wave (−74.6%) and f-wave (−93.7%) (§4c);
+(iii) **the absence of a fermionic hard core** — two-color QCD has no hard-core baryons, which is
+exactly why ℓ = 0 is unsuppressed, the mechanism §4c invokes.
+
+**Honest flags.** (a) **Provenance:** N_c = 2 was *derived* from the finiteness balance, but the
+three structural matches were **discovered afterward**, not predicted — they earn no forward credit
+and are recorded as consilience, not evidence. (b) **The value's status:** 0.345 is inherited from
+the observed ρ_Λ, so this entry converts the dark-energy agreement into a *lattice* obligation; it
+is a genuine forward prediction about an uncomputed number, but it is not an independent one.
+(c) **Unlocated, not confirmed:** no published T_c/√σ for SU(2) with N_f = 3 was found — the
+two-color literature is dominated by N_f = 2 at finite *density*. Pure-glue anchors are firm
+(SU(3): 0.63; SU(2): 0.69–0.71). Naively transporting SU(3)'s glue→N_f=3 reduction (0.548) onto
+SU(2) gives τ ≈ 0.38–0.39 (**+10 to +13% — a fail**); the required reduction is 51% against
+SU(3)'s 45%, and SU(2) with N_f = 3 carries N_f/N_c = 1.5 against SU(3)'s 1.0, so a stronger
+reduction is expected on physics. **The estimate is adverse-to-neutral and the prediction is
+registered anyway, at its stated width, before the number is known.** (d) The ΔN_eff footprint
+([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §3) is priced for the old roster and owes
+re-pricing at N_c = 2; the SU(2) N_f ≥ 2 chiral transition is reported first-order, which owes a
+check against the settling attractor.
+
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*

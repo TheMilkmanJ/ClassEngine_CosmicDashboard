@@ -105,6 +105,10 @@ from both sides, occupancy is exactly one, and ρ_Λ = E_b⁴ is the unique solu
 **Owned assumption**: this argument holds on the strong-coupling (BEC) side of the
 BCS–BEC crossover, where the coherence length equals the bound-state size — verified to
 *fail* on the weak-coupling side, which is precisely where the model does *not* use it.
+*(The group that supplies that crossover is now named: the finiteness balance selects a dark
+**SU(2)** sector, whose pseudo-real fundamental makes its baryons **bosonic diquarks** — the
+canonical diquark-BEC realization of this very crossover, and the origin of the s-wave channel
+§4c selects. Registered as **P-2026-048**, with the one uncomputed number that decides it.)*
 The two sides of condensed matter's most famous crossover perform the two famous jobs
 in one vacuum: the weak side's exponential gap digs the electroweak hierarchy; the
 strong side's occupancy sets the cosmological constant.
