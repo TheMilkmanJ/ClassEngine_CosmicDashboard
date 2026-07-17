@@ -2254,13 +2254,31 @@ exemption;
 transition boils, first-order**)"*. Different sector, same grammar: the model already treats
 first-order as the way this goes wrong.
 
-**THE SQUEEZE — three constraints, one variable, and τ pulls against the other two.** The dark
-quark mass m_q is asked to be **light** by τ = 0.345 (the DE value; heavy quarks → pure-glue
-0.69–0.71), and **heavy** by both the depth law + coded BBN ramp (a crossover requires masses above
-the Columbia first-order region) and ΔN_eff/Y_p (Boltzmann suppression). **There may be no m_q that
-satisfies all three.** Finding the window — or proving it empty — is the sharpest open item this
-entry creates, and it is *not* SU(2)-specific: it is the model's N_f = 3 light-quark dark sector,
-invisible while the roster was a free scan.
+**THE SQUEEZE, RUN (2026-07-16) — the window is NOT empty, and it pins m_q.** The concern was that
+m_q is asked to be **light** by τ = 0.345 and **heavy** by both the crossover requirement and
+ΔN_eff. Resolved on the first pair, and the framing that raised it was wrong: *"N_f = 3 light quarks
+→ first order"* is the **chiral-limit** statement, and this sector is not in the chiral limit —
+"light dark quarks" means light *relative to Λ*, not massless. Placing τ against the QCD anchors it
+is quoted from (chiral limit T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at m_π/√σ = 0.318;
+pure glue 0.63):
+
+| quantity | value |
+|---|---|
+| τ = 0.345 sits at | **m_π/√σ ≈ 0.274** (fraction 0.86 from chiral toward physical) |
+| Columbia N_f = 3 first-order corner ends at | m_π/√σ ≈ **0.06–0.16** |
+| margin | **above it by 1.7–4.6×** |
+
+**The transition is a CROSSOVER, not first-order — τ and the depth law are compatible, and the
+coded order-parameter birth ramp is correct after all.** The value τ = 0.345 *is* the
+physical-analog point, and physical QCD is a crossover; the first-order corner is a chiral-limit
+feature this sector does not sit in. **What the squeeze buys instead of a kill: it pins a number the
+model never had** — **m_π,dark ≈ 140 keV** and, via GMOR, **m_q,dark ≈ 38 keV**.
+
+**ΔN_eff is not rescued by it, and the fifth kill stands unchanged.** At n/p freeze-out the sector
+is deconfined, so the relevant states are the *quarks*, and m_q/T = 38/700 = 0.055 — unsuppressed.
+Non-thermalisation, not mass, is what carries that constraint. **Net: two of the three are
+compatible at m_π,dark ≈ 140 keV; the third is already a registered kill.** The uncomputed lattice
+number (kill 1) remains the entry's decisive test.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*

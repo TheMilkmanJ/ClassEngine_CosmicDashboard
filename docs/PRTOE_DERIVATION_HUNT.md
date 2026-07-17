@@ -108,8 +108,16 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   dynamical discontinuity is not quantized, not topological, not a protected zero, so it has **no exemption
   clause**. [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 already names this failure mode —
   *"otherwise the transition boils, first-order"* — for a different sector, in the same grammar.
-  **There may be no m_q satisfying all three. Finding the window, or proving it empty, is the sharpest open
-  item in this section**, and it was invisible while the roster was a free scan.
+  **RUN (2026-07-16) — the window is NOT empty, and it pins m_q.** The framing that raised the alarm was
+  wrong: *"N_f = 3 light quarks → first order"* is the **chiral-limit** statement, and this sector is not in
+  the chiral limit ("light" means light *relative to Λ*, not massless). Against the QCD anchors τ is quoted
+  from (chiral T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at 0.318), **τ = 0.345 sits at
+  m_π/√σ ≈ 0.274**, while the Columbia first-order corner ends at **0.06–0.16** — the sector is **above it
+  by 1.7–4.6×**. **The transition is a CROSSOVER**, so τ and the depth law are compatible and the coded
+  order-parameter birth ramp is correct. What the squeeze buys instead of a kill is a number the model never
+  had: **m_π,dark ≈ 140 keV**, and via GMOR **m_q,dark ≈ 38 keV**. ΔN_eff is *not* rescued by it — at
+  freeze-out the sector is deconfined and m_q/T = 0.055 is unsuppressed — so P-048's non-thermalisation kill
+  carries that constraint, not the mass. **Two of three compatible; the third is a registered kill.**
 
 ---
 
