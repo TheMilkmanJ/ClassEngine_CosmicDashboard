@@ -238,7 +238,7 @@ L1a, one clause, shared fate both ways).
 the lanes), topology (the AD route + the cavity), frame/UV (the Lorentz program + λ), data
 (the chains + the epoch stamps). Sprint results: the toy cavity puts ℓ=2,3 BELOW the first
 torus mode (T5's matched-circles risk resolved favorable); the thermal-leptogenesis surface is
-EMPTY (×40-1000 under everywhere) → **Card 4 reverts to the native AD-direct route (charge =
+EMPTY (×40-1000 under everywhere) → **the baryon asymmetry reverts to the native AD-direct route (charge =
 abundance) with the frozen-era transfer (sphalerons at 130 GeV vs the field frozen till
 9.4 keV) as the hard timing crux**; the λ candidate chain failed its own bounce self-check
 (informative).

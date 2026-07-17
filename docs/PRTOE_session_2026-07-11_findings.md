@@ -7,7 +7,7 @@ Chronological ledger of the night's verdicts (internal review session).
 The localization computation moved the internal assessment favorably; the claim stays
 provisional until PolyChord confirms/denies the Laplace ΔlnZ = +2.635.
 
-## 1. Card 1 completed to candidate-derivation with the value computed
+## 1. The cosmic Rydberg (DE value) completed to candidate-derivation with the value computed
 - **The fork repair:** two components — granules = the matter/DM branch (a₀
  packing); the floor = the exchange field's zero-point at E_b. Re-upgraded to
  candidate-derivation.

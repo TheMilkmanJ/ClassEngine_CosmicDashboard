@@ -148,7 +148,7 @@ against itself), internal review's symmetric un-banks. The discipline is why the
 
 ---
 
-# THE ATOM NIGHT + THE SEVEN CARDS (2026-07-10, late — closing update)
+# The atom-scale derivations (2026-07-10 — closing update)
 
 The evening after the gate-0 ledger: the stepping-stone syllabus (the internal review). Headlines,
 with details in `PRTOE_MATH_SPINE.md` §10–§16:
@@ -158,8 +158,8 @@ with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **The atom grammar**: ground state = the condensate (Landau zero-entropy = timelessness);
  Γ/H = √3 (sharp, single-scale-derived); Tolman absorbed as the arrow (first cycle, finite past);
  the torus = the cavity; the low-ℓ sky = a **cycle-odometer**.
-- **The seven-card deck** (the caught undercount): ε corrected to *conditional*
- (factor-4 c window + the empirical abundance); all seven cards routed, benchmarked, or in trial.
+- **The open-derivation set** (the caught undercount): ε corrected to *conditional*
+ (factor-4 c window + the empirical abundance); all seven derivations routed, benchmarked, or in trial.
 - **New registrations:** P-022 (21cm three-verdict), P-023 (Σm_ν divergence), P-024 (the ε-dipole),
  P-025 (Benchmark-A S4). **Falsified:** P-004. **Standing ≈ 14–17%**, DESI DR3 the sovereign test
  (the model's own grammar now COMMITS to w = −1 today, turn ~6.6 Hubble times out).

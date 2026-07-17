@@ -31,7 +31,7 @@ charged leptons rent 1.24% of theirs from me, the baryons ride at parts-per-bill
 the photon owes me nothing by law (L1a). Tenancy spans nine orders across the particle
 table — a ramp, as everything here is. (The constituent question — whether quarks are
 BUILT from my basement — stays parked with its gates and its adverse forecast; that door
-keeps its named unblock.) The asymmetry: my own charge, transferred (Card 4's AD-direct
+keeps its named unblock.) The asymmetry: my own charge, transferred (the AD-direct
 route; the frozen-era crux owed). *Then the riders came AND the tenants woke — and the
 courts, reading my own books, found every resident's rent already posted.*
 
@@ -121,7 +121,7 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 | 13 | the volt: V = (h/2e)·f_J (Josephson — the cousin defines the unit); CMB in static: T_CMB/T_sys ~ 1% | GEN 6 in the living room | recorded receipt; standard radio |
 
 **DEBT REGISTER (the arrows still owing their full math):** GEN 4's transfer fraction (the
-frozen-era μ-term calc — Card 4's terminal); GEN 4's constituent door (H-TOE Gates 1–3, adverse forecast
+frozen-era μ-term calc — the AD-direct route's terminal); GEN 4's constituent door (H-TOE Gates 1–3, adverse forecast
 on Gate 2 recorded); GEN 8's stellar yields (standard astrophysics — inherited, not owed by
 us); GEN 11's quantitative F_available budget (computable from the account — queued).
 *A row with a debt is a row with a debt — it is never a row with a story.*

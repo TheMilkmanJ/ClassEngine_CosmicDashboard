@@ -43,7 +43,7 @@ predictions-in-waiting.
 
 ## 3. The honest risks
 
-- The torus size (L ≥ 27.6 Gpc, Card 5) may be TOO LARGE for the mode cutoff to explain the
+- The torus size (L ≥ 27.6 Gpc) may be TOO LARGE for the mode cutoff to explain the
  low quadrupole quantitatively — the cavity computation (owed) decides; if L is comfortably
  super-horizon, thread (1) weakens to aesthetic.
 - Planck's isotropy analyses constrain dipolar power modulation at large scales — the same

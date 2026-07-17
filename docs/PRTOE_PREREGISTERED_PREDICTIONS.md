@@ -1542,7 +1542,7 @@ mass **forces the parametric lock ρ_inf ∝ m_ν⁴** — so "motivates-not-for
 (m_ν = μ → tie exact) vs inverse-seesaw (m_ν = m_D²μ/M² → needs μ-dominance). That same fork sets the
 census c (direct-Majorana → 9/10; inverse-seesaw → the Higgs m_D comoves under ε → leans 12/13), so
 P-012's tie-exactness and the amplitude's census c are ONE question. **Reconciled → 9/10 (hunt 206):**
-the direct light mass (m₁ = g·⟨radial VEV⟩ ≈ μ, the flagship reading) and Card 6's heavy-N leptogenesis
+the direct light mass (m₁ = g·⟨radial VEV⟩ ≈ μ, the flagship reading) and the heavy-N leptogenesis
 COEXIST — the seesaw's light-mass contribution is ~10⁻⁹ meV (negligible) — and consistency with the
 tie-as-LOCK (vs a two-scale tuning) selects DIRECT. Residual: the un-built spurion-identification bridge.
 
@@ -1634,7 +1634,7 @@ Benchmark A (v_L = 5 MeV, M = 10 TeV) gives the Majoron-ν coupling g = m_ν/v_L
 the CMB-S4 detectability band → **S4 sees a neutrino free-streaming/interaction shift.**
 **Scope (honest):** v_L is un-derived; an S4 null kills **Benchmark A / the low-v_L
 corner**, not the model (Benchmark B at v_L = 1 GeV is invisible). Registered as the corner's
-live falsifier; Card 6 (derive v_L) decides how much of the model rides on it.
+live falsifier; the v_L derivation decides how much of the model rides on it.
 
 ## P-2026-027: The radio deuterium referee — dark-ages D 327 MHz, the two-line ratio-lock (registered 2026-07-11)
 
@@ -1754,7 +1754,7 @@ census arrow fell or the convention did. The type-III identification and the see
 survive; the ~1 TeV collider knife-edge does not, at current grade.
 
 **The claim:** the induced-gauge closure (the joint solve), duty-pinned by the model's
-own hiring needs (Card 6's seesaw + Card 7's portal), predicts **exactly three wino-like
+own hiring needs (the seesaw + the portal), predicts **exactly three wino-like
 Y=0 fermion triplets** — the type-III seesaw mediators — at **M_T = 1.07 TeV central, band
 0.4–2.6 TeV** (two-loop + input uncertainties). The count is forced from both sides: the RG
 system REFUSES n_T = 2 (solves to 22 keV, absurd), the seesaw refuses n_T < 2; the minimal

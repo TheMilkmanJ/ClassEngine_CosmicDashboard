@@ -39,14 +39,14 @@ This is a live, near-term discriminator — arguably the model's quietest real-t
 Benchmark A (v_L = 5 MeV, M = 10 TeV): near-resonant (μ/Γ = 0.46, benchmark-local),
 Majoron coupling g = 1.2×10⁻⁸ — INSIDE the CMB-S4 band (P-2026-025).
 The corner map: S4 tests v_L < 20 MeV ≈ one-third of the natural space. The η route
-(Card 4) rides this same sector: K = Γ_N/H = 9×10⁷ computed; one Boltzmann solve from the
+(the baryogenesis route) rides this same sector: K = Γ_N/H = 9×10⁷ computed; one Boltzmann solve from the
 baryon abundance. The neutrino sector is where the model's laboratory future lives.
 
 ## 4. Honest scope
 
 - The de-biasing DIRECTION is generic to varying-m_e cosmologies (a caveat, kept); the
  model's specific numbers (0.07–0.09 eV) are its own.
-- v_L: duty-forced into a corner-conditional band (Card 6 executed) —
+- v_L: duty-forced into a corner-conditional band (the seesaw scan executed) —
  MeV-class and S4-armed if the η route is resonant; ≥ GeV and S4-dark if the seesaw
  vertex is the junction's. The two corners exclude each other across an 8.6-decade
  bridge; CMB-S4's Majoron search is the corner-selector. A point value still awaits λ′.

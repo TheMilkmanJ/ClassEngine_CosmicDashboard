@@ -4,7 +4,7 @@
 
 
 *Thread 14's standalone. Status: STRUCTURAL (candidate) riding P-2026-028's helicity sign; the
-decisive dependency is the SIGN MAP (Card 4's rectification), owed. The improvement: the
+decisive dependency is the SIGN MAP (the AD-direct rectification), owed. The improvement: the
 model's three-membered chirality family (matter / magnetism / metric — one integer n) may
 already have ONE MEASURED MEMBER sitting in published data.*
 
@@ -29,10 +29,10 @@ everyone else, helicity (if any) is an independent accident.
 If the IGMF helicity measurement firms, the family converts to ONE-MEASURED / TWO-PREDICTED:
 the measured handedness FIXES sign(n), which then PREDICTS (i) the chiral-GW background's
 handedness (thread T10) and (ii) the baryon-sign consistency. **THE OWED KEY: the SIGN MAP** —
-which magnetic handedness corresponds to matter-wins runs through Card 4's rectification
+which magnetic handedness corresponds to matter-wins runs through the AD-direct rectification
 mechanism (the domain-sign gate). Until that map is derived, the datum cannot be
 read — the family has a measured member but no dictionary. The map is therefore promoted: it
-is no longer only Card 4's internal debt; it is the key to the sky's first chirality datum.
+is no longer only the baryogenesis internal debt; it is the key to the sky's first chirality datum.
 
 ## 3. Falsifiable content
 
@@ -43,7 +43,7 @@ ABOVE our smooth-Harrison floor and would need the network structure to be real)
 
 ## 4. Owed (mirrors threaded_physics_working/T14)
 
-1. THE SIGN MAP (load-bearing, Card 4).
+1. THE SIGN MAP (load-bearing, the AD-direct rectification).
 2. The literature refresh + systematics status of the helicity claims.
 3. The magnitude confrontation with P-028's computed columns.
 
