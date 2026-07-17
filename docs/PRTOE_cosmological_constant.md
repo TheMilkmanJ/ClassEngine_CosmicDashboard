@@ -238,7 +238,28 @@ both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full
 (+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
 fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
 equilibrium identity does not simply "remove the measure"; f is a partial Gibbs–Duhem
-cancellation on the mode sum — **the genuinely un-built calculation, and it stays un-built.**
+cancellation on the mode sum. **Candidate reading — equipartition (the residual as the potential half).**
+The Gibbs–Duhem equilibrium condition p = 0 is, for a scalar (p = K − V), exactly **K = V**, i.e.
+w = 0 — and the freeze sits there: the lightest neutrino decouples at z ≈ 12, deep in the dCDF's
+dust era (w ≈ 0 across z ≈ 1–10⁵, so this is generic, not tuned). At K = V the mode energy is 2V;
+the dark-energy floor (w = −1, pure potential) freezes as the **V-half** while the kinetic half
+dilutes as the excitation. So f = V/(K+V) = (1 − w)/2 = **½**, giving
+ρ_Λ¼ = (½)¼ × 2.70 = **2.27 meV** (+0.9% vs the observed 2.25 — tighter than the flagship's +1.5%),
+and it is the same equipartition rule that fixes Koide's A = √2 at w = 1/3, read here at w = 0.
+**Owed (candidate grade):** the rigorous identification of the Gibbs–Duhem cancellation with the
+equipartition V-fraction, and the residual — the observed f = 0.482 wants w ≈ +0.036, a slight
+kinetic excess above the pure-dust point. **Why 2.70 and why exactly ½ (the vacuum sum, not the thermal one).**
+The dark energy is a **vacuum** (zero-point) energy, so its baseline is the **zero-point** sum —
+which is precisely what 2.70 is (the E_b-cutoff zero-point / "un-cancelled full phonon sum"), *not*
+the thermal occupation 7.1. The zero-point energy of **any** harmonic mode splits **exactly K = V**
+(¼ħω each — the quantum virial theorem ⟨T⟩ = ⟨V⟩ for V ∝ x²), **independent of the mode's thermal
+w**: so a "w = 1/3 → K = 2V" concern is about the *thermal* sum (7.1), never about this zero-point
+one. Equilibrium (Gibbs–Duhem p = 0) cancels the **kinetic** zero-point half; the surviving
+**potential** half is pure-V ⟹ w = −1 = the dark-energy floor, at f = ½ exactly:
+ρ_Λ¼ = (½)¼ × 2.70 = **2.27 meV (+0.9%)** — tighter than the flagship's +1.5%, and the same
+equipartition rule that fixes Koide's A = √2 at w = 1/3, read here on the vacuum modes.
+**Owed (candidate grade):** exhibiting that the equilibrium cancellation keeps the potential
+(w = −1) half; and the residual — observed f = 0.482 ⟹ a few-percent kinetic excess (w ≈ +0.036).
 
 **What the door's cap actually is, and what therefore cannot fix it.** The cap is **E_b itself**,
 and §2(a) derives E_b as the *universal two-body form* ½α²M — the **ℓ = 0 Coulomb ground state**,
