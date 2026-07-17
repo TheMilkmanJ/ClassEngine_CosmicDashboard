@@ -140,8 +140,11 @@ irreducible input.
 ## 8. What remains owed
 
 1. **The portal √σ_dark = m_e** — the one irreducible input of the dark-energy / basement sector (§2, §6).
-2. **The induced-G scalar coefficient** — verify Visser Eq. 35; decides whether P-045 is ξ-independent
-   (§5).
+2. *(resolved) The induced-G scalar coefficient* — verified (2026-07-16): Visser Eq. 35 assigns each
+   real scalar the weight (1/6 − ξ), not zero, so P-045's str[k₁] = 0 is **not** ξ-independent — it
+   requires ξ_H = 1/6 (conformal Higgs). Natural (the conformal value) and self-consistent with the
+   G-value's own need, but an input: induced-G finiteness is conditional on conformal Higgs coupling
+   (§5). The "hole" reduces to one named assumption.
 3. **f̄ and α_c referees** — the winding ensemble and the α_c chain, both running (§1).
 4. **A_s's count k** — the one unmechanized factor in the amplitude (§7).
 5. *(closed as owed) The spurion μ = 2.25 meV* — graded (2026-07-16) as **not** an independent input:
