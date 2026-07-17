@@ -127,8 +127,14 @@ irreducible input.
   and the magnetic helicity.
 - **η (the baryon asymmetry) — estimate:** η = n × junction transmission; the transfer integral lands at
   the right order (~6×10⁻¹⁰) from recorded inputs. The thermal-leptogenesis route is dead (×40–1000 under).
-- **A_s = (α_c/4πk)³ — candidate:** the shot-noise closed form; the count k is unmechanized. The corpus's
-  boldest standing claim, deliberately exposed.
+- **A_s = (α_c/4πk)³ — candidate:** the shot-noise closed form. Its pieces are more mechanized than the
+  "highest-risk" label suggests (audit 2026-07-16): **k = ln(1+π/2α_c)/π is a genuine screened-interaction
+  integral** k = (1/π)∫₀¹ dq/(q + 2α_c/π) — the effective gap-equation coupling, audited into the Eliashberg
+  window [1.35, 1.37], *not* a landing fit; the **4π is the standard 1-loop factor**, and the **cube is the
+  three spatial dimensions**. So A_s = 1/N with N = (4πk/α_c)³ assembles from a derived coupling, a loop
+  factor, and 3D. The genuine residual is the exact O(1) **normalization of the shot-noise count** (the
+  "count C" — whether the assembly is exactly (4πk/α_c)³), which lands A_s to −0.35%. Deliberately exposed;
+  referees are the live zero-parameter run and the Eliashberg k-audit.
 - **n_s = 1 − 2/ln(M_Pl/T_on) — derived-estimate:** the census drift; the "2" is the open spatial
   dimensions.
 - **z_on ≈ 3.56×10⁷ — fast-profiled estimate,** chain-graded later.
@@ -146,7 +152,10 @@ irreducible input.
    G-value's own need, but an input: induced-G finiteness is conditional on conformal Higgs coupling
    (§5). The "hole" reduces to one named assumption.
 3. **f̄ and α_c referees** — the winding ensemble and the α_c chain, both running (§1).
-4. **A_s's count k** — the one unmechanized factor in the amplitude (§7).
+4. *(sharpened) A_s's count* — audited (2026-07-16): k = ln(1+π/2α_c)/π is a *derived* screened-interaction
+   integral (the gap-equation coupling), not the unmechanized part; the 4π is the 1-loop factor and the cube
+   is 3D. The genuine residual is the O(1) normalization of the shot-noise count N = (4πk/α_c)³ (the "count
+   C"), lands A_s to −0.35%, refereed by the live run + the Eliashberg k-audit (§7).
 5. *(closed as owed) The spurion μ = 2.25 meV* — graded (2026-07-16) as **not** an independent input:
    it is the electron-anchored meV whisper (ρ_Λ¼ = m_ν = 9/2 α⁴ τ m_e), downstream of item 1. One fewer
    free number than the list once carried.
