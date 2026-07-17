@@ -1,5 +1,16 @@
 # T4 S₈ growth — OWED
-1. The converged conv_g posteriors (the thaw chain/conv_desi running; pre-registered g ≈ 0.10 ± 0.05 — grade against it when R−1 lands).
+
+> **⚠ ITEM 1'S REFEREE IS NOT RUNNING — IT DIED AT STARTUP (found 2026-07-16).** `conv_desi` is
+> **absent from the process list**; its progress file is **85 bytes / 1 line (header only), last
+> written Jul 12**; its launchlog ends at *"[mcmc] Getting initial point… (this may take a few
+> seconds)"*. **It never produced a single sample and has been dead four days.** Item 1 has been
+> waiting on nothing. The failure is at *initialisation*, not mid-run — so it is a config/init
+> problem to diagnose, not a crash to resume. **Nothing was relaunched** (the box's running jobs are
+> under a standing do-not-touch); this is recorded so the wait is not mistaken for progress.
+
+1. The converged conv_g posteriors (pre-registered g ≈ 0.10 ± 0.05 — grade against it when R−1 lands).
+   **BLOCKED: the chain is dead, see the flag above — this is not a "waiting on compute" item, it is
+   a "the compute never started" item.**
 2. A MATCHED LENSING-LIKELIHOOD fit (DES/KiDS proper, not the S₈ point) before any tension-easing claim banks.
 3. The conversion's perturbation-sector flag (docketed; deferred for the running chains).
 4. The DESI-policed w(z) consistency (the meaning-inversion: large conv_g spends against w=−1).

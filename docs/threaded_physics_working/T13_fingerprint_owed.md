@@ -14,6 +14,20 @@
 Rows must cite THIS table, not "the" ε. Item 2 (the masters' calendar) still open.
 
 ## PAID item 2 (2026-07-12): the masters' calendar — docs/PRTOE_REFEREE_CALENDAR.md.
-T13 is COMPLETE (both items paid: the ε-epoch table + the calendar).
+~~T13 is COMPLETE (both items paid: the ε-epoch table + the calendar).~~
+
+> **⚠ THAT CLOSURE WAS FALSE — CORRECTED 2026-07-16.** This file lists **three** items; the
+> "COMPLETE" line accounts for **two**. **Item 3 — the row-correlation formalization — is unpaid,
+> unbuilt, and was omitted from the closing count.** A corpus-wide search finds **no joint-likelihood
+> / single-χ²-across-rows construction anywhere**. **T13 is NOT complete**, and what is missing is
+> not a detail: item 3 is *"the model's headline statistic"* by this file's own words.
+>
+> **Why it matters more than its position in the list suggests.** The lattice's whole claim is that
+> one parameter ε must serve every row *at its assigned weight* — H₀, the radio chords, the neutrino
+> de-biasing, BBN. That claim is only testable as a **joint** statistic: row-by-row agreement is
+> compatible with the lattice being wrong in a way no single row detects, and a single row's failure
+> means something different depending on the correlations with the others. Until the joint likelihood
+> exists, the lattice is a *set of separate agreements presented as one object*. **Item 3 is the item
+> that would make the fingerprint lattice a test rather than a display.**
 
 Coupling-geometry status: the registered-referee set IS the unscreened class (a consistency finding).
