@@ -38,11 +38,30 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
 - **Y_p stands at +1.09σ** vs Aver 0.2453 ± 0.0034 (**+3.5σ** vs EMPRESS 0.2370 ± 0.0034 — the
  helium civil war, unresolved), zero fitted parameters. This row **is** baseline-robust: Y_p ∝
  ω_b^0.04, so the model's own ω_b moves it only to +1.12σ.
-- **D/H carries a central value and NO σ.** Against the observational error alone (±0.030) the
- standing 2.387 sits **−4.7σ** from Cooke — an upper bound on the tension, not a claim. The D/H
- error budget (observational versus the BBN theory error, chiefly the d(p,γ)³He rate) **is not
- stated anywhere in the corpus**, and the significance is not reproducible without it. **No joint
- Y_p–D/H statistic can be quoted while one leg has no width.**
+- **The fork's width, stated.** Cooke's observational error **±0.030** combines with the
+post-LUNA **nuclear-theory error ±0.037** (PRIMAT, cite-verified — arXiv:2011.11320) to
+**±0.0476**, putting the standing 2.387 at **−2.9σ** from Cooke. *(Against the observational error
+alone it is −4.7σ — an upper bound, not the tension.)* **What is genuinely open is not the budget
+but the code systematic:** the same source reports PRIMAT D/H = 2.439 against PArthENoPE 2.51–2.54
+— a **3.5% inter-code spread, 2.3× the nuclear error** — which is *not* folded in above. Folding it
+gives **−2.2σ** (half) to **−1.4σ** (full), and the model runs **PRyM**, a third code, so which
+central value the theory error should be taken around is undecided. ΛCDM itself carries 1.85σ under
+PRIMAT. **The row is quotable at −2.9σ with the code systematic named and unfolded.**
+- **The joint verdict HINGES on the code systematic — this is the sector's real open question.**
+ Combining the two rows (2 dof, quadrature; **correlations between Y_p and D/H are ignored**, as in
+ every joint this corpus has quoted):
+
+ | D/H width used | joint χ² | p | reading |
+ |---|---|---|---|
+ | nuclear only (±0.0476) | 9.83 | **0.007** | **rejected at 5%** |
+ | + half the inter-code spread | 5.94 | 0.051 | marginal |
+ | + the full inter-code spread | 3.20 | 0.201 | comfortable |
+
+ **The model's BBN standing is decided by whether the 3.5% PRIMAT–PArthENoPE disagreement is an
+ error or a choice — a question about the nuclear codes, not about the dyad.** The model runs a
+ third code (PRyM). **This is booked adverse-leaning and unresolved**; it is not a result the model
+ can settle by itself, and the honest range is quoted rather than the flattering end.
+
 - the elasticities: d(Y_p)/dε = 0.00163 per %ε; d(D/H×10⁵)/dε = 0.00782 per %ε. N_eff is unmoved
  (3.04439) — ε shifts weak rates, not relativistic dof.
 

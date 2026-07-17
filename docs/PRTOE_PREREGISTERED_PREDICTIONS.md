@@ -1653,12 +1653,15 @@ identical data): dyad-true primordial **D/H = 2.387×10⁻⁵** (**the RAMPED wi
 quasar-optical **2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of the fork — a
 self-adverse, owned bet (the direct m_e→BBN response is ~0, production-verified; the shift is all η).
 
-**The fork's width is OWED, not asserted.** Against the observational error alone (±0.030) the
-ramped 2.387 sits **−4.7σ** from Cooke — an upper bound on the tension, not a claim. The D/H error
-budget (observational versus the BBN theory error, chiefly the d(p,γ)³He rate) **is not stated
-anywhere in the corpus**, and the significance is not reproducible without it: three different
-widths each reproduce a quoted figure somewhere in these files. **Until the budget is stated, this
-row carries a central value and no σ.**
+**The fork's width, stated.** Cooke's observational error **±0.030** combines with the
+post-LUNA **nuclear-theory error ±0.037** (PRIMAT, cite-verified — arXiv:2011.11320) to
+**±0.0476**, putting the standing 2.387 at **−2.9σ** from Cooke. *(Against the observational error
+alone it is −4.7σ — an upper bound, not the tension.)* **What is genuinely open is not the budget
+but the code systematic:** the same source reports PRIMAT D/H = 2.439 against PArthENoPE 2.51–2.54
+— a **3.5% inter-code spread, 2.3× the nuclear error** — which is *not* folded in above. Folding it
+gives **−2.2σ** (half) to **−1.4σ** (full), and the model runs **PRyM**, a third code, so which
+central value the theory error should be taken around is undecided. ΛCDM itself carries 1.85σ under
+PRIMAT. **The row is quotable at −2.9σ with the code systematic named and unfolded.**
 
 **The prediction (three-part):**
 (a) **The referee:** dark-ages D I 327.384 MHz vs H I 1420.406 MHz absorption (against the CMB —

@@ -19,7 +19,7 @@ falsifiable commitment) · MOVER (active evidence channel).
 | # | Domain | Verdict | One-line result | Booked in |
 |---|--------|---------|-----------------|-----------|
 | 1 | Cosmology (CMB/BAO/SN background) | MOVER | The dyad: H₀ 69.7, S₈ eased, +1 parameter, plik better than ΛCDM's own; evidence class flat pending the two movers | flagship (v5_dCDF_complete) |
-| 2 | BBN / nuclear astrophysics | STRAIN→reassessed | Deuterium scar −2.0σ → −1.2σ under post-LUNA theory error; pre-basin ΔN_eff healer (CMB-invisible) closes §11; helium pays | flagship §11 + addendum |
+| 2 | BBN / nuclear astrophysics | STRAIN→reassessed | Deuterium scar −2.9σ (standing ramp 2.387, full budget: obs ±0.030 ⊕ post-LUNA theory ±0.037); pre-basin ΔN_eff healer (CMB-invisible) closes §11; helium pays | flagship §11 + addendum |
 | 3 | Dark energy | BET | The floor is exactly Λ — no evolution, no phantom crossing; model votes AGAINST DESI DR2's 3.1σ preference (standing bet #3) | atlas: THE BIGGEST MYSTERY |
 | 4 | Vacuum energy / cc problem | DOOR (coherence) | Old half: zero-point = virtual fluctuations, never realized (＋Jacobson, ＋Jaffe); new half: confessed, opening-balance class | atlas: THE BIGGEST MYSTERY |
 | 5 | Structure formation / galactic dynamics | MOVER (sim-owed, SOLE ε-meter) | Granule power p²+q² is now the ONLY observable that reads ε (make-or-break for ε ever being measurable); Room 5's χ-lag (uncondensed today in dwarfs) = candidate 4th axis: redshift-dependent core–halo, dyad-specific | Room 1 E7/E7b/Room 5; five-verdict V1–V3 |
