@@ -29,7 +29,7 @@ falsifiable commitment) · MOVER (active evidence channel).
 | 9 | BH superradiance / spin archaeology | DOOR (live-if-heavy) | Free scalars die where the λ-scar quench survives (≥2.5-decade margin); post-audit band top [1,3]×10⁻²¹ meets the M87* exclusion bottom — the model's one LIVE-NOW test; graduation = pin the mass | atlas + Room 1 A6a |
 | 10 | Gravitational waves / PTA | DEAD (honest headstone) | Channel killed BY MASS at the audited band (4th Pinning firing, pre-called by E7a-caveat): the medium rings (97.6%) but PTA can't hear it — silence kept instrumentally, not by ε | Room 1 audit + ANN-2026-011 |
 | 11 | Inflation / genesis | DOOR | AD genesis: chaos in release angle, ε is a dice roll; Z4 tilt assumed (forcedness reopened — basement rebuild, hunt 132b/139); scrambler = depositor; recursion wall kept visible | Room 1 E3–E8, Room 4 |
-| 12 | Neutrino physics | MOVER (healthy post-surgery) | Posterior relaunched with seeded covmat (quasi-static chain caught and fixed; acceptance 0.92→0.21); P-2026-004 vs the meV whisper: one judge, two defendants, cannot both win | predictions doc; atlas whisper trial |
+| 12 | Neutrino physics | MOVER (healthy post-surgery) | Posterior relaunched with seeded covmat (quasi-static chain caught and fixed; acceptance 0.92→0.21); collision resolved (ANN-2026-021): P-2026-004 FALSIFIED, meV whisper (Σm_ν≈61.4 meV, NO) stands — posterior now tests it | predictions doc; atlas whisper trial |
 | 13 | Particle physics / constants | NULL (census) | Coupling census CLOSED gravity-only (theorem grade); knob family dead (α +433, Y_p pinned, Ω_k forbidden); m_e the unique credit | flagship; five-verdict doc |
 | 14 | Antimatter physics | DOOR | 30% of DM (a quarter of all matter) is never-annihilating dark antimatter; the antimatter question splits between sectors | atlas: burn set 3 |
 | 15 | Indirect detection / astroparticle | BET | NO dark-sector signal ever — model votes astrophysics on GC excess, positrons, 3.5 keV (standing bet #2, kill-only) | atlas: burn set 3 |
@@ -58,8 +58,8 @@ falsifiable commitment) · MOVER (active evidence channel).
 (labs, telescopes, Λ) · 1 LIVE-NOW test (superradiance at the band
 top — pin the mass) · 2 sim-gated axes (granule ε-meter, sole; Room
 5 χ-lag) · 1 dead arm with an honest headstone (PTA, killed by mass,
-pre-called) · 1 healthy converging judge (Σm_ν → P-2026-004 XOR the
-whisper) · 8+ clean nulls with numbers · 2 structural silences · 1
+pre-called) · 1 healthy converging judge (Σm_ν → P-2026-004 falsified,
+now testing the surviving meV whisper) · 8+ clean nulls with numbers · 2 structural silences · 1
 honest strain (deuterium, repriced) · 1 identity.
 
 **The rule this file serves:** a domain is "covered" only when its

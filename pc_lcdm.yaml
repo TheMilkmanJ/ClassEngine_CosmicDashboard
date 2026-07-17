@@ -149,7 +149,16 @@ params:
       scale: 0.005
     proposal: 0.005
     latex: E_\mathrm{cal}
-  m_ncdm: 0.06
+  m_ncdm:              # marginalized to match the PRTOE twin (cmp_prtoe_fixed) for a valid ΔlnZ
+    prior:
+      min: 0.0
+      max: 0.6
+    ref:
+      dist: norm
+      loc: 0.0654
+      scale: 0.02
+    proposal: 0.02
+    latex: \Sigma m_\nu
   sigma8:
     latex: \sigma_8
   Omega_m:

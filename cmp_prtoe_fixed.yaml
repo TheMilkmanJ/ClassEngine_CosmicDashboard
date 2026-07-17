@@ -153,7 +153,8 @@ prior:
 
 sampler:
   polychord:
-    nlive: 200          # ~17*ndim(12): evidence-grade but j4-tractable
-    num_repeats: 24     # 2*ndim
-    precision_criterion: 0.001
+    nlive: 400              # matched to the ΛCDM twin (pc_lcdm) for a valid ΔlnZ
+    num_repeats: 3d
+    precision_criterion: 0.01
+    do_clustering: true
     measure_speeds: true
