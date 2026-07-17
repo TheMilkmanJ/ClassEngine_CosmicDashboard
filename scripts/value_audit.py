@@ -116,7 +116,9 @@ def audit(include_archive=False):
     for f in files:
         b=os.path.basename(f)
         if not include_archive and any(a in b for a in ARCHIVE): continue
-        for ln,line in enumerate(open(f,encoding="utf-8",errors="replace"),1):
+        L=open(f,encoding="utf-8",errors="replace").readlines()
+        for ln,line in enumerate(L,1):
+            window = "".join(L[max(0,ln-2):ln+1])   # prose wraps; context can sit a line away
             for c in CHECKS:
                 for m in re.finditer(c["rx"], line, re.I):
                     g=[x for x in m.groups() if x]
@@ -124,8 +126,8 @@ def audit(include_archive=False):
                     try: v=float(g[0])
                     except: continue
                     if any(abs(v-o)<5e-4 for o in c["ok"]): continue
-                    if RETIREMENT_CTX.search(line): continue          # naming what it buries: legal
-                    if c["q"]=="c (census)" and LIGHTSPEED_CTX.search(line): continue   # different c
+                    if RETIREMENT_CTX.search(window): continue        # naming what it buries: legal
+                    if c["q"]=="c (census)" and LIGHTSPEED_CTX.search(window): continue  # different c
                     for badv,why in c["bad"].items():
                         if abs(v-badv) < 5e-4:
                             key=(b,ln,c["q"],v)
