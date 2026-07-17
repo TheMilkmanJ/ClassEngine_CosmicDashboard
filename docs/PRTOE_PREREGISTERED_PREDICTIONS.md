@@ -1115,8 +1115,12 @@ Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute 
  coincidence** -- testable (Σm_ν), but with NO working causal mechanism (census blocks
  the direct coupling, the amplification rescue failed the toy, Weinberg looms, and it's
  m_ν-agnostic anyway). Keep P-012 as a falsifiable coincidence; drop all causal claims.
-- **"c~1 derived" → "c~1 NATURAL"** (naturalness ceiling + census; the ~50x-saturated story
- leans on a shaky naive-dilaton estimate; exact c owed via threshold matching).
+- **c is DERIVED, and not by threshold matching.** **c = 9/10** — a counting fraction (N−1)/N over
+ the universal charged-fermion roster: 9 charged species plus the vacuum's own seat
+ ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)). *(This entry formerly demoted "c~1 derived" to "c~1
+ NATURAL" and booked the exact value as owed via UV threshold matching. That debt does not exist:
+ the census closed it, and the UV route's own c = 1 candidate is dead —
+ [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
 - **Floor mechanism:** ghost-condensate stability is a REAL risk (the toy showed the runaway),
  not a footnote.
 - **Meta:** the DE/neutrino superstructure is speculation-heavy; the honest state is
