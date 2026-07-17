@@ -824,7 +824,7 @@ is its only account). Pay it curvature and the product is determined:*
  redshifts to sub-horizon-band frequencies today. Nothing observable;
  the dice roll left no gravitational echo. One-line null.
 
-## BURN SET 3 (2026-07-07)
+## Killed candidates (set 3)
 
 - **THE DARK-ANTIMATTER REFRAME (coherence-grade; falls out of E7's
  two-fluid for free):** the antiparticle sector n₋ never annihilates
