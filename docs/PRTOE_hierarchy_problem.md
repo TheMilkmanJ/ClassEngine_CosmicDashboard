@@ -42,9 +42,19 @@ $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm an
 $$\frac{1}{g} = 34.85\text{–}35.43 \;\Longrightarrow\; g = (1.29\text{–}1.31)\,\alpha_c$$
 
 — stable to ±1% while the arrows scatter by ±0.3. Hence
-$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with $k \approx 1.3$ (gap-equation k = 1.36 computed prescription-robust within the roster-forced screening class; sound-cone-bandwidth target 1.353 ± 0.04 — a 0.5% landing, estimate-grade, all ingredients recorded), **the gap
-equation's single owed number** (nearby rationals firewalled; the k is the equation's to
-derive). The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
+$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with the measured anchor requiring
+**k = 1.306** (band 1.289–1.311 from the arrow scatter), **the gap equation's single owed
+number** (nearby rationals firewalled; the k is the equation's to derive). **The current
+state of that computation, read straight:** the gap-equation lands k = 1.36
+(prescription-robust within the roster-forced screening class) and agrees with the
+sound-cone-bandwidth estimate 1.353 ± 0.04 to 0.5% — but that is a **theory-vs-theory**
+agreement, and both numbers sit **~4% above the anchor-required 1.306**, outside the arrow
+band (the estimate's window [1.313, 1.393] does not overlap [1.289, 1.311]). Because k is
+in the exponent, a 4% excess is a **factor ≈ 4 on the anchor** (k = 1.36 ⟹ 6.3 TeV against
+the measured 1.57). So kill (i) below is **engaged, not cleared**: the two internal
+determinations are consistent with each other and currently high of the measured anchor —
+estimate-grade, all ingredients recorded, decided by the gap-equation refinement and the
+arrow audit. The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
 that runs the dyad and prices the vacuum (the one-coupling portfolio).
 
 **(c) The Higgs mass with no bare term.** Under the no-bare clause $m_H^2$ must be
