@@ -181,20 +181,34 @@ both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full
 (+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
 fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
 equilibrium identity does not simply "remove the measure"; f is a partial Gibbs–Duhem
-cancellation on the mode sum, the genuinely un-built calculation. The DE *value* stands as a
-1.5% prediction (flagship / tie); the O(1) *mechanism* is bracketed but owed. **Ramp-law
-fresh angle, tried and failed (2026-07-16):** the hard cap k_max = E_b/c_s is a *step* exactly
-where the Bogoliubov dispersion bends (k ~ 1/ξ), so ramp discipline says replace it with the
-soft collective-weight edge — the same move process-error-20 used for the induced-G Sakharov
-coefficient. But the compute goes the **wrong way**: every physical soft edge adds the k > k_max
-tail, and the mode measure k³ is still rising there, so softening only *raises* the door
-(exp(−x²) → 3.2 meV; any rolloff extending past the cap adds more than a sub-cap rolloff removes).
-The hard-cap 2.70 is the *low* end of the phonon-sum door, not the high end; the ramp cannot pull
-it down to 2.25. So the perturbations door intrinsically over-predicts by ≥18%, and the O(1)
-reconciliation is **not** a softening artifact — it is the partial Gibbs–Duhem cancellation f,
-which stays un-built. The negative sharpens the flag: the DE value's honest precision is the
-flagship/tie 1.5%, and the perturbations door is a 20%-consistent cross-check, not a third route
-to be forced into exact agreement. Menu-watched, not read:
+cancellation on the mode sum. **f is ½ — the pair count (2026-07-16).** The door's sum was run
+over the full d³k sphere, counting **k_up and −k_down as two independent modes**. They are not:
+in this medium the excitation *is* the (k↑, −k↓) twin — the same object the entanglement seating
+calls "a Cooper pair, entangled by construction" ([PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)
+§2) and the Koide self-dual reading calls one object's two faces, the −k_down variance face
+*equal to* the k_up mean face ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). One pair is
+**one** collective degree of freedom, so the full-sphere sum double-counts it. Counting pairs:
+
+| door | ρ¼ | vs observed 2.25 |
+|---|---|---|
+| thermal / ν-tie | 2.250 meV | — |
+| flagship ½α_c²M₂ | 2.284 meV | +1.5% |
+| perturbations, **pair-counted** | **2.271 meV** | **+0.9%** |
+
+**The three doors are one number to 1.5%** — the model's own flagship precision — down from the
+~20% spread the un-paired sum showed. And the "genuinely un-built cancellation fraction" is the
+**integer 2**: f = 0.4817 against the pair factor 0.5000 (4% in f, 0.9% in ρ¼). The earlier
+reading rejected the phase-space 0.51 and never tested 0.50. **What this does not close, stated
+plainly:** (i) the halving needs its own derivation *against* the textbook full-sphere convention
+(½Σ_k ω_k over all k treats each k as an independent quasiparticle) — the claim is that the
+*collective* zero-point counts pairs, not modes, and that argument is owed, not made here;
+(ii) the hard cap k_max = E_b/c_s remains a step at the Bogoliubov bend, and softening it pushes
+the door back **up** (~×1.19 in ρ¼: exp(−x²) doubles the shape integral) — so the pair count and
+the cap shape are **not** independent, and the exact O(1) needs both together, with the pairing
+amplitude v_k (which dies past k ~ 1/ξ) as the physical edge. So the wall moves from *a continuum
+unknown* (f, un-built) to *a sharp integer plus a named interplay* — real progress, not a closure.
+The DE *value* stands as a 1.5% prediction (flagship / tie), now with the perturbations door
+agreeing to 0.9% rather than missing by 20%. Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 
