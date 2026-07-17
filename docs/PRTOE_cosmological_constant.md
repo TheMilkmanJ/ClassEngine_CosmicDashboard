@@ -223,14 +223,38 @@ factor introduced to fix one number must hold everywhere it applies. Running it 
   not for a lab BEC. Either the rule is pairing-specific (and the universality claim needs the
   qualifier "paired condensates"), or the halving is wrong and the 0.9% hit is coincidence.
 
-**Grade: a striking candidate with a sharp, named obstruction — not a resolution.** What it buys
-is real: the wall moves from *a continuum unknown* (f, un-built) to *an integer with a decidable
-justification* (does the He-3-A-class paired zero-point count pairs where the bosonic BEC's does
-not?). What it does not buy: closure. **Also still open:** the hard cap k_max = E_b/c_s remains a
-step at the Bogoliubov bend, and softening it pushes the door back **up** (~×1.19 in ρ¼) — so the
-pair count and the cap shape are **not** independent; the exact O(1) needs both together, with the
-pairing amplitude v_k (which dies past k ~ 1/ξ) as the physical edge. The DE *value* is unchanged
-either way — it stands as a 1.5% prediction (flagship / tie). Menu-watched, not read:
+**The He-3-A comparison, run (2026-07-16) — and it resolves the fork, against the pair count.**
+Taking the medium's stated identity seriously does change the door, but *not* through the pair
+count. **He-3-A is the chiral p-wave (ABM) state**: its order parameter is Δ(k̂) ∝ (k̂ₓ + ik̂_y),
+so |Δ(k̂)| = Δ₀·**sin θ**, with **point nodes** on the l̂ axis. The chirality and the nodes are the
+*same structure* — and the corpus has already **banked** that chirality, spending it on the
+parity-odd signatures (IGMF helicity, LSS parity, the birefringence null). **So the nodes are not
+optional.** The door caps its mode sum *at the pairing gap*; if the gap is nodal, the cap is not a
+sphere, and the angular integral carries ⟨sin⁴θ⟩ = **8/15** — forced, with **zero** new
+assumptions and **no** counting-rule change (hence **no LHY tension**):
+
+| candidate | f | ρ¼ | vs observed | standing |
+|---|---|---|---|---|
+| required by data | 0.4817 | 2.250 | — | — |
+| **He-3-A nodal gap** | **8/15 = 0.5333** | **2.308 meV** | **+2.6%** | **identity-forced, LHY-safe** |
+| pair count | 1/2 = 0.5000 | 2.271 meV | +0.9% | fits better; needs a counting rule the measured LHY excludes |
+| both applied | 0.2667 | 1.941 meV | −13.7% | **overshoots — mutually exclusive** |
+
+**The two cannot coexist**, and that decides it: the nodal weighting is *forced* by an identity
+already spent elsewhere, the pair count is *elective* and carries the LHY tension — so the
+**nodal reading is the principled one, and the better-fitting pair count is retired**. The
+better-fitting answer loses to the forced one. Result: the door goes from **+20.0% to +2.6%** on
+the model's own identity, and the three doors (tie 2.250, flagship 2.284, perturbations 2.308)
+are **one number to 2.6%**.
+
+**Grade: sharpened hard, not closed.** What remains honest: (i) the residual **+2.6%** is still
+outside the flagship's 1.5% — the last O(1) is not accounted, only shrunk by ~8×; (ii) **E_b's own
+derivation owes the same anisotropy** — ½α_c²M₂ was obtained from an isotropic gap treatment, and
+a nodal gap should be fed back through it for consistency (an open consistency item this pass
+creates, and names rather than hides); (iii) the hard cap remains a step at the Bogoliubov bend,
+and softening it pushes back **up** (~×1.19 in ρ¼), so cap shape and gap anisotropy are not
+independent. The DE *value* is unchanged throughout — it stands as a 1.5% prediction
+(flagship / tie). Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 
