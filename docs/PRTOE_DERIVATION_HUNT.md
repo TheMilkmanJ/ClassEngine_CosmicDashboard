@@ -35,12 +35,14 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
 
 $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,m_e,\qquad \tau \equiv T_c/m_e .$$
 
-- **Chain (self-consistent):** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼ = 2.28 meV, a **genuine 1.5%
-  prediction** against the observed 2.25 meV. The α⁴ scaling is derived; M₂ is derived from T_c (not
-  selected). See [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
+- **Chain:** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼ = 2.28 meV vs the observed 2.25. The α⁴
+  scaling and M₂ = α²·T_c are real STRUCTURE, but **the "1.5%" is NOT a sourced prediction** —
+  T_c = 179 keV is the observed ρ_Λ inverted-and-rounded (0.34506 → 0.35), not independently
+  derived (see the NOT-INDEPENDENTLY-SOURCED bullet below and §6). It becomes a prediction only
+  with a lattice T_c/√σ for SU(2). See [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
 - **τ = T_c/m_e = 0.3503 — derived; and 0.345 is the OBSERVATION, not a second derivation
   (re-graded 2026-07-17).** The derived T_c = 179 keV gives τ = 179/511 = **0.3503** ⟹ ρ_Λ¼ =
-  (9/2)α⁴τ·m_e = **2.2842 meV, the flagship's +1.5% prediction**. The number **0.345** is
+  (9/2)α⁴τ·m_e = **2.2842 meV** *(the +1.5% is the rounding, not a sourced prediction — see below)*. The number **0.345** is
   ρ_Λ¼(observed)/((9/2)α⁴m_e) = 2.25/6.5207 = **0.34506** — *the observed dark-energy density read
   backwards*, which the registry states plainly (P-2026-048: *"fixed by the observed dark-energy
   density … the flagship's 1.5% prediction read backwards"*). **Quoting 0.345 as "derived" implies
@@ -159,7 +161,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
   **Graded (2026-07-16): μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
-  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.284 meV**, against the observed 2.25 — a **+1.5%** prediction), with κ_V, κ_m
+  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.284 meV** *(structure real; the +1.5% is the τ rounding)*, against the observed 2.25 — a **+1.5%** prediction), with κ_V, κ_m
   the O(1) ties; it is downstream of the *one* irreducible input, the portal √σ_dark = m_e (§6), not a
   separate knob.
 - **v_L (the seesaw scale)** — two mutually exclusive corners (resonant → MeV, S4-armed; junction

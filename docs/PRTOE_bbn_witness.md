@@ -62,7 +62,7 @@ PRIMAT. **The row is quotable at −2.9σ with the code systematic named and unf
  third code (PRyM). **This is booked adverse-leaning and unresolved**; it is not a result the model
  can settle by itself, and the honest range is quoted rather than the flattering end.
 
-- the elasticities: d(Y_p)/dε = 0.00163 per %ε; d(D/H×10⁵)/dε = 0.00782 per %ε. N_eff is unmoved
+- the elasticities: d(Y_p)/dε = 0.00163 per %ε (linear, verified: ×ε reproduces the window to ~3%); **d(D/H×10⁵)/dε — the 0.00782 figure is UNREPRODUCIBLE and does NOT linearize** (a 4-point PRyM scan gives ~0.0119; the ramped window itself implies ~0.0126, +62%). D/H is a bottleneck quantity, so its ε-response is nonlinear and the uniform-ε derivative under-predicts the ramped window; use the measured window (+0.645%), not this derivative ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). N_eff is unmoved
  (3.04439) — ε shifts weak rates, not relativistic dof.
 
 ## How PRTOE connects

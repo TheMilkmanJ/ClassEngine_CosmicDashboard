@@ -22,7 +22,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
  gave Γ/H_Λ = √3 — SHARP, because the fluid is single-scale (M_GC = ρ_inf^¼; the same
  one-scale-ness that ran the whole program). Recorded with the sign structure in the spine.
 2. **The turnaround is a computed multiple of the Hubble time**: t_turn = ln(1/√A_s)/(√3·H)
- ≈ 6.6 H⁻¹ — the amplitude of primordial fluctuations (A_s, measured) enters as a LIFETIME
+ ≈ **5.8 H⁻¹** *(recomputed 2026-07-17 at the measured A_s = 2.1×10⁻⁹: the stated formula gives 5.77, not 6.6 — which would need A_s ≈ 1.2×10⁻¹⁰; if an O(1) prefactor is intended it is unstated and owed)* — the amplitude of primordial fluctuations (A_s, measured) enters as a LIFETIME
  parameter: the era's duration knows about the perturbations it must host.
 3. **Why-now becomes why-then-plus-arithmetic**: Λ-domination begins when the fluid's density
  hits the floor (ρ_inf, now derived at 20%); the observation epoch sits inside a
