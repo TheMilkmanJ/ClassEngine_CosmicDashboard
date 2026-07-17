@@ -18,16 +18,18 @@ import sys, os
 # enough that the rate's departure from linearity in the m_e shift is negligible (the
 # scan's own Y_p increments are linear to <2% across 0 -> 1.86%).
 #
-#   usage: prym_ramped_splice.py <shift> <T_c_MeV>
-#          e.g. prym_ramped_splice.py 1.0124 0.179     (the DERIVED confining chiral T_c)
-#               prym_ramped_splice.py 1.0124 0.193     (the perturbative CW cross-check)
+#   usage: prym_ramped_splice.py <shift> [T_c_MeV]
+#          T_c DEFAULTS to 0.179 MeV -- the DERIVED confining chiral value (tau*m_e), which is
+#          what the model actually derives. 0.193 is the perturbative Coleman-Weinberg
+#          cross-check (log-ambiguous) and must be passed explicitly if wanted; it is a
+#          cross-check, not the model's number, and the engine should not default to it.
 # Output: RAMPED <shift> <eps%> <T_c_MeV> <Neff> <YPCMB> <YPBBN> <DoHx1e5> <He3oHx1e5> <Li7oHx1e10>
 _PRYM = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tools", "PRyMordial")
 os.chdir(_PRYM)
 sys.path.insert(0, _PRYM)
 
 shift  = float(sys.argv[1])          # 1 + eps
-Tc_MeV = float(sys.argv[2])          # ramp turn-on temperature, MeV
+Tc_MeV = float(sys.argv[2]) if len(sys.argv) > 2 else 0.179   # DERIVED confining chiral T_c
 
 import PRyM.PRyM_init as pri
 pri.me = 0.51099895                  # STANDARD at import (thermo + HT rates standard)
