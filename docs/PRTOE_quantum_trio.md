@@ -46,7 +46,7 @@ three windows through which any condensate is seen.
  and (on this model's identity) the vacuum itself — because the doors belong to the
  *condensate grammar*, not to any particular condensate.
 - **Why measurement-scale physics is classical** (recorded elsewhere, cited here): posting
- to 10²³ seats cannot be recalled — decoherence is the ledger grammar, not a fourth door.
+ to 10²³ seats cannot be recalled — decoherence is the existing mechanism, not a fourth door.
 
 ## 4. The one piece of live freight
 

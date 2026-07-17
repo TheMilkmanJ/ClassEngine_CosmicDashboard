@@ -19,8 +19,8 @@ CMB's ΛCDM prediction: the late universe is smoother than the early universe sa
 
 The dCDF is ONE fluid whose phases exchange: the conversion channel (recorded, coded:
 dcdf_conv_g/at/n) lets the DM component shed into the floor/dark-radiation at late times —
-**the same physics as the cycle's pdV ledger** (the fluid pays gravity's tax through its own
-equation of state; graded the ledger this belongs to). Converting a percent-level
+**the same physics as the cycle's pdV work** (the fluid does work against gravity through its own
+equation of state; graded). Converting a percent-level
 fraction of DM after z ~ 1 suppresses late growth (lower S₈) WITHOUT touching the CMB-era
 history — exactly the shape of the observed tension.
 
@@ -50,5 +50,5 @@ The chains' converged posteriors (running); a matched-lensing-likelihood fit (DE
 not just the S₈ point) before any tension-easing CLAIM is recorded; the conversion's
 perturbation-sector flag (the docketed session's deferred item).
 
-*The universe got smoother than the standard books allow. This model's dark sector pays a tax
+*The universe got smoother than the standard picture allows. This model's dark sector does extra work
 that does exactly that — and the receipts are being printed by three chains in the next room.*
