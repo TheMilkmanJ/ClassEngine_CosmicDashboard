@@ -350,7 +350,7 @@ skipped:
 The climb is simultaneously a measurement and a pass/fail. Status:
 queued as the program's next major work, fresh-session scale.
 
-## EXPEDITION 4 (2026-07-07, ~1am): THE SUMMIT — first ε data
+## EXPEDITION 4 (2026-07-07): THE SUMMIT — first ε data
 ## (provisional grade: era-segmented integration; seamless run owed)
 ## *** SUPERSEDED BY EXPEDITION 5 within the hour: caveat (ii) FIRED.
 ## The seamless run overturned the segmented bound. Kept verbatim
@@ -392,7 +392,7 @@ exist (pre-rotation during inflation; other tilt dimensions) and are
 extensions with bills. internal review cold read required; this entry is
 DATA, not the verdict.
 
-## EXPEDITION 5 (2026-07-07, ~1:30am): THE SUMMIT, HARDENED —
+## EXPEDITION 5 (2026-07-07): THE SUMMIT, HARDENED —
 ## the seamless integration, the chaos, and THE DICE
 
 **Why E4 died:** the segmented integration assumed the eras hand off
@@ -482,7 +482,7 @@ neither pins nor bounds ε — it ROLLS it, the roll is tilt-independent,
 and the model's registered silence bet (P-2026-005) is priced at ~14%
 survival by the model's own birth dynamics.
 
-## EXPEDITION 6 (2026-07-07, ~2am): THE GATES — the internal review's two demands
+## EXPEDITION 6 (2026-07-07): THE GATES — the internal review's two demands
 ## run to ground, one inversion closed, one NEW constraint found
 
 internal review, reserved the 6:1 on two gates: (1) P(f_amp) must be
@@ -539,7 +539,7 @@ ceiling. And the SINGLE-DRAW picture is confirmed: patch-to-patch
 variation across our sky is compensated (invisible at linear order,
 E3.5a) and percent-level at most.
 
-**THE H-SCAN (same night, ~2:15am) — the invariant-measure
+**THE H-SCAN (same night) — the invariant-measure
 precondition MET at the runnable level:** P(f_amp) across 1.5 decades
 of hierarchy (r_t = 0.6, 14 angles each):
  h = 100: median 0.56, range [0.14, 0.90], P(f_amp>0.2) = 86%
@@ -562,12 +562,12 @@ outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 only); t₀-prescription variation; denser angles; h-scan at the other
 tilts (r_t = 0.6 only, so far).
 
-**PROTOCOL ADOPTED (the internal review → 45, ~2:30am):** the internal review
+**PROTOCOL ADOPTED (the internal review → 45):** the internal review
 pre-registered the h-scan acceptance criteria (grid to h = 10⁴, n = 50
 angles, dual-integrator per angle, |P(h)−P(h/3)| < binomial with
 last-two agreement, threshold pinned, extrapolation spread in the
-bar, fine-gradient + t₀ sides) — adopted verbatim, launched same
-night (hscan_protocol.py, overnight). Threshold pinned:
+bar, fine-gradient + t₀ sides) — adopted verbatim, launched
+(hscan_protocol.py). Threshold pinned:
 Ψ ≈ 10⁻¹⁵·f_amp vs PTA reach ~2×10⁻¹⁶ ⇒ thr = 0.2, ×2 reach
 uncertainty ⇒ band [0.1, 0.4], exceedance reported at
 0.1/0.2/0.3/0.4. Definitional flag on record: reviewer's physical
@@ -597,7 +597,7 @@ accumulated phase mixing as initial data, converting the four extra
 decades of h into an effective transition-time distribution rather
 than raw integration time.
 
-## EXPEDITION 7 (2026-07-07, ~3:30am): THE NR TWO-FLUID REDUCTION —
+## EXPEDITION 7 (2026-07-07): THE NR TWO-FLUID REDUCTION —
 ## what the mixed rotor-librator IS inside galaxies, a self-caught
 ## amplitude correction, and a SECOND ε-meter
 
@@ -641,7 +641,7 @@ granules regardless); the 14%-branch predicts silence AND full
 granule contrast. A joint sky reading of the same single dice roll.
 Simulation-grade follow-up owed before any number is quotable.
 
-**E7b (~5:30am) — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
+**E7b () — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
 meter's concrete observables, with one overclaim caught pre-booking):**
 (i) CONDENSATION LAG: each fluid condenses into its soliton on its
 own kinetic timescale (Levkov, Panin, Tkachev, PRL 121, 151301
@@ -683,7 +683,7 @@ never was (born condensed, no Tc crossing, booked); inflationary
 angle spread δθ ~ 10⁻⁵ ≪ π seeds no windings. No strings, no
 string-CMB or GW-burst bills. Clean.
 
-## E7a (2026-07-07, ~5:15am): THE JOINT KR-NORM × m RE-PIN — the
+## E7a (2026-07-07): THE JOINT KR-NORM × m RE-PIN — the
 ## frozen net odds, unfrozen with their full structure
 
 **Anchor (scaling-independent):** E2.6's cite-verified cap — current
@@ -720,7 +720,7 @@ old single number conflated —
 we hear it this decade is a coin-flip weighted by an unfitted mass;
 the m-band edges themselves are queued for morning verification.
 
-**E7a-CAVEAT (~5:45am, found by the band audit's first pull — the
+**E7a-CAVEAT (, found by the band audit's first pull — the
 33% is BAND-BOTTOM-SENSITIVE and may be ZERO):** three booked
 fragments disagree on the band bottom: E2.6's phrasing implies
 10⁻²²; R1.6's amplitude gap (2m ~ 10⁻²¹) implies m ≈ 5×10⁻²²; and
@@ -766,7 +766,7 @@ h-stability and tilt-universality — would both be EXPLAINED, not
 just observed. (This independently reconstructs the ergodic
 hypothesis and the microcanonical ensemble.)
 
-**THE TEST (same hour):** microcanonical P(f_rot) on the H = p²/2+r⁴
+**THE TEST:** microcanonical P(f_rot) on the H = p²/2+r⁴
 shell, pushed through the adiabatic transition (J_r, L conserved;
 f_rot = L/(L + 2J_r) in the quadratic era):
  prediction: median f_rot = 0.53, P(f_amp>0.2) = 77.7%,
@@ -788,7 +788,7 @@ limit — mutually checking. (Also note: 14/14 at h = 3000 has ~3%
 probability under the ergodic p = 0.78 — the interim floor remains
 suspicious, exactly as the reviewer graded it.)
 
-**E8a — THE GAP DISSECTED (same night, ~4:45am; the internal review's demanded
+**E8a — THE GAP DISSECTED (same night; the internal review's demanded
 diagnosis, run at n = 110/tilt):** three layers found.
 (1) THE FREEZE-OUT FAMILY (analytic): mixing continues into the
 mixed quartic+harmonic era (the tilt is a quartic-family term; it
@@ -824,7 +824,7 @@ the m-gate re-pin. Pre-registered for the harvest: the per-h gap
 vector should SHRINK monotonically with h; the h = 3000 interim floor
 is now doubly suspect (3% odds under ergodic).
 
-**E8b (~6am) — THE MONOTONIC-SHRINK TRIAL, ROWS AS THEY LAND (the
+**E8b () — THE MONOTONIC-SHRINK TRIAL, ROWS AS THEY LAND (the
 falsifier under strain, reported with the ink promised):**
  gap vs ergodic (thr 0.1/0.2/0.3/0.4), n = 50, dual-integrator:
  h=100: +3.4 / +6.2 / +10.6 / +16.9
@@ -870,7 +870,7 @@ the dice also locked the vault. OPEN in this room: the UV origin of
 the parity; dimension-6 Z4-breaking remnants (a calculable,
 presumably absurdly slow charge-decay channel for the rotor — the
 room's one potential observable, unpriced).
-**FIRST EXPEDITION INTO THE OPEN CORNER (~7:45am) — the remnant
+**FIRST EXPEDITION INTO THE OPEN CORNER — the remnant
 priced, and the crude worst case lands UNCOMFORTABLY CLOSE:** the
 dim-4 tilt never leaves the Lagrangian; post-transition it is
 off-resonant (detuning 4m) but drives second-order charge leakage:
@@ -923,7 +923,7 @@ turbulence's tie (the tangle) lives in the phase sector already
 mapped.*
 
 ## THE MORNING RECONCILIATION AUDIT (2026-07-07, executed — the one
-## consolidated family; every number below re-derived this morning,
+## consolidated family; every number below re-derived here,
 ## arithmetic in the session record)
 
 **The family:** m-band fragments, h_eff anchors, KR norm, Levkov
@@ -1032,8 +1032,7 @@ independently checkable:
  precision; the identity holds.
 
 **A6a — THE EXCLUSION RANGE, CITE-VERIFIED:**
-Davoudiasl & Denton, PRL 123, 021102 (2019), arXiv:1904.09242, pulled
-this morning: M87* (6.5×10⁹ Msun; spin 0.9±0.1, or ≥0.5 by the
+Davoudiasl & Denton, PRL 123, 021102 (2019), arXiv:1904.09242: M87* (6.5×10⁹ Msun; spin 0.9±0.1, or ≥0.5 by the
 conservative reading) disfavors spin-zero bosons in (2.9, 4.6)x10⁻²¹ eV
 via superradiance. VERIFIED as booked. Honest caveats, both directions:
 the exclusion strength tracks the SPIN measurement's confidence (the

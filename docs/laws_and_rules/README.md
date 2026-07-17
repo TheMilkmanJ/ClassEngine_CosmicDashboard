@@ -82,7 +82,7 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
     through gravity only" *means* "carries no charge at any other clearinghouse" —
     i.e. the medium is **EM-neutral** (and color-neutral, etc.). Gravity couples to
     energy-momentum, which is **parity-even and handedness-blind**; so the medium's
-    entire reach to matter/radiation is parity-even. Consequence, proven this session
+    entire reach to matter/radiation is parity-even. Consequence, proven here
     (2026-07-08): the medium **cannot produce cosmic birefringence** — the θ·F·F̃
     anomaly coefficient is exactly zero (Σ q_dark·Q_EM² = 0), and 't Hooft anomaly
     matching keeps it zero across every regime change. **Placement note (honest):**

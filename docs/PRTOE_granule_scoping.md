@@ -8,7 +8,7 @@
 *Two jobs from the morning board: scope whether the granule channel — the
 SOLE surviving ε-meter after the reconciliation audit — can ever actually
 be read; and pin m inside the audited band [1,3]×10⁻²¹ eV. Every number
-re-derived at booking; literature cite-pulled this morning.*
+re-derived at booking; literature cite-pulled during the citation pass.*
 
 ## 1. The instrument: what the granule meter measures
 
@@ -74,7 +74,7 @@ audited band, consistently.
 Literature pulled at booking:
 - **Hayashi, Ferreira & Chan 2021 (ApJL 912, L3): 18 UFDs — most
  prefer m > 10⁻²¹ eV.** Reinforces the audited band's bottom from
- data, independently of this morning's audit.
+ data, independently of the citation audit.
 - **Safarzadeh & Spergel 2020 (ApJ 893, 21): MW satellite kinematics
  demand m < 10⁻²¹ and declare free FDM INTERNALLY INCOMPATIBLE**
  (no single m fits Fornax-class and UFD-class systems together).
@@ -126,7 +126,7 @@ observables CANNOT separate S = 0.58 from 1 at population scale, ε is
 unobservable, full stop, and the dice edifice is physics without a
 readout.
 
-## 6. Fairbank/evidence note (same morning, for the record)
+## 6. Fairbank/evidence note (for the record)
 
 ΛCDM is NESTED in the dyad at varying_me = 1 (the fluid background is
 ΛCDM-identical by proof; ξ executed). Therefore the running Fairbank

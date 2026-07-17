@@ -54,7 +54,7 @@ a new derivation that overturns its killshot, logged in the ledger first.*
 ## 5. The standing verification
 
 Every [C]-expressible beneficial item is ALREADY COMPILED into the live .so the referee
-is sampling — the inclusion law is satisfied for the C code as of tonight; the deltas
+is sampling — the inclusion law is satisfied for the C code as of now; the deltas
 are all [Y]-layer freezes on named triggers. Any future session that produces a
 pipeline-expressible result MUST add its row here in the same commit.
 

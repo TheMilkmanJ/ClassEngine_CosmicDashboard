@@ -63,7 +63,7 @@ its ΛCDM+BBN baseline was mid-refit when measured; (ii) the champion
 carries a **−2.0σ deuterium scar** (D/H = 2.468×10⁻⁵, χ² 3.85): the
 model holds ω_b for the CMB and underfeeds deuterium — a residual it
 cannot relieve without paying the CMB back.
-**[SCAR REPRICED, 2026-07-07 ~6:45am — two-barrel attack; see §11
+**[SCAR REPRICED, 2026-07-07 — two-barrel attack; see §11
 addendum]:** (i) the −2.0σ used obs-only errors; with the post-LUNA
 nuclear-theory error (PRIMAT ±0.037, cite-verified) the scar is
 **−1.2σ**, and the inter-code controversy (PRIMAT 2.439 vs

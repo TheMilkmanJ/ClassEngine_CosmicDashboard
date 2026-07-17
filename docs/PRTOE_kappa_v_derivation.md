@@ -26,7 +26,7 @@ the coupling from an action. Constraints accumulated:
 - (opening pass) density-portals demand an eV suppression scale
  (IR-strong) AND fail constancy anyway.
 
-## 2. The drift wall (found and named this session)
+## 2. The drift wall
 
 Any local portal to the medium's DENSITY drifts: δv ∝ ρ_d ∝ a⁻⁴
 (×10⁴ over BBN — Y_p destroyed at freeze-out); δv ∝ y ∝ a⁻²

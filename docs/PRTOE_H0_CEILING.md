@@ -54,7 +54,7 @@ the formula is falsifiable in one computation.
  respectively — the first lives outside the likelihoods entirely, the second is an
  unrun computation (B-queue).
 - **Nothing is lost**: the evidence run's chains can be IMPORTANCE-REWEIGHTED with the
- candle-corrected SN likelihood retroactively — tonight's run collects the data once;
+ candle-corrected SN likelihood retroactively — this run collects the data once;
  the ceiling cashes against it whenever ς arrives.
 
 ## 5. The one-sentence version

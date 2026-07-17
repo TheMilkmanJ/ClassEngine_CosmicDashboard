@@ -55,7 +55,7 @@ scoring now); P-2026-005 (cores without oscillation, spins without clouds);
 standing kill-only bets (no dark-sector particle signal — direct/indirect/
 haloscope; Λ exactly vs DESI DR2).
 
-## What tonight's m_e arc actually settled (for the record)
+## What the m_e arc actually settled (for the record)
 60-orders problem DEAD (trigger/amplitude split); bistability DEAD (subcritical
 QED); screening = the environment-dependence we already have (not a new gate);
 sharpness FITTED to MICROSCOPE not predicted (circularity check FAIL, honestly

@@ -74,7 +74,7 @@ P-2026-020 (0νββ MUST occur, Majorana), quasar varying-m_e shape.
 - Varying-m_ν (background.c): ncdm mass × me² above the varconst transition (δm_ν=2δm_e). Backward-
  compatible, observationally null (ν relativistic at recomb). Removes code-vs-mechanism inconsistency.
 
-**H₀ self-consistency (this session's insight):** the fits treat dcdf_rho_inf and m_ncdm as
+**H₀ self-consistency:** the fits treat dcdf_rho_inf and m_ncdm as
 independent; the model LINKS them (P-2026-012). Two fits launched to test H₀ under the model's own
 structure: cmp_prtoe_omk (Ω_k free, #18) and cmp_prtoe_nulink (m_ncdm derived from ρ_inf). Both
 running at time of writing.
@@ -90,7 +90,7 @@ Distinctive PRTOE ~6–10%, single-gated on DESI DR3. The CC is reframed (dynami
 the model, dodging static Weinberg) but NOT derived (value = Lagrangian input). The dyad-leptophilia
 is the one un-derived coupling, precisely mapped. Birefringence closed, EP cleared, leptonic fit
 competitive (χ²≈2802.8). Nothing was hand-waved; every over-reach (several of them ours) was caught and
-booked. The model is smaller, sharper, and more exposed than it was this morning — the honest kind
+booked. The model is smaller, sharper, and more exposed than before — the honest kind
 of progress.
 
 ---

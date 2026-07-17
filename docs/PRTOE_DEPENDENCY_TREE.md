@@ -74,6 +74,6 @@ joint pass is the family referee; any two settled members misaligned kills the f
 ## The reading rule
 
 A claim's effective confidence = its weakest parent. The corpus's strongest chains are
-Tier 1 (production-grade, running the evidence fight tonight); its boldest is the frozen
+Tier 1 (production-grade, running the evidence fight); its boldest is the frozen
 A_s (Tier 3, candidate-grade, deliberately exposed). The full failure record:
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).

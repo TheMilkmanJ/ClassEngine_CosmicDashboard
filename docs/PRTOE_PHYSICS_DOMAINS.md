@@ -125,7 +125,7 @@ dataset (+30 at β = 10⁻⁷). The model's live S₈ claim: 0.823 vs ΛCDM's
 ## 4. Baryon acoustic oscillations & redshift-space distortions
 
 BAO was the instrument that caught the definitional death: BAO χ² went
-from 593 to 8.2 overnight once the clustering-part bookkeeping was fixed
+from 593 to 8.2 once the clustering-part bookkeeping was fixed
 (dcdf_deltam_mode=1). fσ8 exposed the same gap from the growth side — the
 background growth factor was blind to the fluid (f ≈ 0.21 vs BOSS's 0.50)
 until ρ_m accounting included the medium in its matter-like epochs. The
@@ -257,7 +257,7 @@ basin entry left no relic). The dark-antimatter reframe falls out free:
 the n₋ component never annihilates (nothing to annihilate into), so ~30%
 of dark matter is antimatter — and the asymmetry contrast with baryons is
 explained (annihilation is the penalty only where a channel exists). The
-**coupling census closed** at ~12:30am on 2026-07-07: EM/strong/weak
+**coupling census closed** at on 2026-07-07: EM/strong/weak
 structural, Higgs portal radiatively dead, density portals killed by the
 drift wall, B−L current portal capped at M* ≳ 10¹⁴ GeV by BBN neutron
 energetics. Gravity-only is now a theorem-grade census result, and it
@@ -564,7 +564,7 @@ whose improving nulls the model must survive forever), **KILLED-BY** (a
 domain that already executed part of the model — attachment proven by the
 corpse). Every entry ends with the hook: what result in that domain hurts
 us. Sources: the Atlas, the predictions registry, the Room 1 expedition
-log, the five-verdict derivation, this morning's reconciliation audit.*
+log, the five-verdict derivation, the reconciliation audit.*
 
 ## The exam rooms (solar system and laboratory)
 
@@ -696,7 +696,7 @@ disk in Gaia kinematics kills the census.*
 **46. Dwarf-galaxy dynamical heating (Segue, Eri II) — INHERITS
 (controls the band).** The DK bound transfers through the two-fluid
 factor p²+q² (≤2× relaxation, computed) and pinned the band to
-[1,3]×10⁻²¹ this morning. *Hook: sharpened heating bounds walking into
+[1,3]×10⁻²¹. *Hook: sharpened heating bounds walking into
 the audited band from below squeeze the model toward the DK-holds
 branch.*
 
@@ -738,7 +738,7 @@ band top: free FDM dies there, the dyad survives by λ-quench (margin
 combined with a pinned light-end mass could invert it against us.*
 
 **53. Pulsar timing arrays — KILLED-BY (headstone in place).** The beat
-channel died this morning by mass — after a month of derivation, dice,
+channel died by mass — after a month of derivation, dice,
 and protocol. The attachment is proven by the corpse and its
 pre-registered burial. *Hook: closed honestly; PTA silence is now
 REQUIRED — a confirmed nanohertz signal matching the KR template at our
@@ -871,7 +871,7 @@ falsification path, P-2026-007).** TWO candidate m_e gates make OPPOSITE
 predictions here, and cosmic-dawn 21-cm is the discriminator: (i) the
 by-hand EPOCH gate (config varying_transition_redshift=50) says constants
 are standard below z=50 → a standard sky; (ii) the physical STRUCTURE
-gate (the fold/saturation, established this session) says m_e is shifted
+gate (the fold/saturation, established here) says m_e is shifted
 +1.24% in ALL sub-threshold gas — and cosmic dawn (z~15–20) is mostly
 diffuse, unenriched, HI-rich sub-threshold IGM, so it should carry the
 shift → a +2.48% shift in the 21-cm rest frequency (~m_e²/m_p), ~1.7–2.2
@@ -943,7 +943,7 @@ against, not a claim).*
 | 50 | Schrödinger–Poisson | DERIVED | corrections 1/X₀-suppressed ≤1×10⁻²²; inheritance license |
 | 51 | Rotation curves | PASSING | the founding receipt; nothing new owed |
 | 52 | SMBH superradiance | LIVE (edge-contingent) | (2.9–4.6)e-21 cite-verified today; live-if-heavy; graduation = pin m |
-| 53 | Pulsar timing | EXECUTED | channel dead by mass this morning; silence now REQUIRED |
+| 53 | Pulsar timing | EXECUTED | channel dead by mass; silence now REQUIRED |
 | 54 | Stochastic GW / strings | PASSING-NULL | no echo (fraction² computed); no strings (born condensed); none observed |
 | 55 | BH accretion sonic point | DERIVED-AWAITING-DATA | r = 1.8393 r_s exact; no instrument yet |
 | 56 | GW ringdown | PASSING | all ringdowns GR-consistent to date, as census requires |

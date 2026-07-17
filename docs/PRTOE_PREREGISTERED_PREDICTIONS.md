@@ -160,10 +160,10 @@ corner current data leans away from — uniquely ours if seen.
 ## P-2026-004: The dyad's Σ-m_ν 95% limit (self-test, registered before the posterior computes)
 
 **Registered:** 2026-07-06 13:41:00 MDT (git base: 4793ee7a)
-**Context:** the overnight run (dyad + free Σ-m_ν, joint+BBN stack,
+**Context:** the exploratory run (dyad + free Σ-m_ν, joint+BBN stack,
 600x4 MCMC, PID 2033267) will produce the model's neutrino-mass
 posterior — the Fairbank deliverable. The frozen-slice scan at the dyad
-optimum (recorded this evening) shows the punishment collapsed vs the
+optimum (recorded here) shows the punishment collapsed vs the
 ξ-alive era: +2.8 at 0.12 eV (was +12.2), +29.0 at 0.20 eV, with plik
 and lensing IMPROVING at 0.12 and ACT the sole net tax.
 **The prediction:** the dyad's 95% upper limit on Σ-m_ν lands in
@@ -232,7 +232,7 @@ soft fingerprint, not two of equal grade.
 **Status: CONDITIONAL fingerprint** — active only if a binding-sector
 amendment is adopted; the dyad currently carries the scar honestly.
 **Derivation (literature-grade, Dent-Stern-Wetterich PRD 76, 063513,
-Tables 2+4, pulled from source this session):** the dyad's -2.0σ
+Tables 2+4, pulled from source):** the dyad's -2.0σ
 D/H residual is healed exactly by δ B_D/B_D in [-1.57%, -0.85%]
 (coefficient-treatment bracket). The clean sourcing lever is the mean
 light quark mass: d ln B_D / d ln mhat = -4 while tau_n and Q_N carry
@@ -402,7 +402,7 @@ the carrier alone; the amendment debt stays DOUBLE (normal→|φ|²
 at BBN, condensate→m_e at recombination, no shared source found);
 and the first-evidence-entry candidate reverts to: derive κ_v
 (BBN half) — the recombination half has NO candidate mechanism
-tonight. Registered as a negative result so the failure is as
+yet. Registered as a negative result so the failure is as
 timestamped as the successes.
 
 ---
@@ -462,7 +462,7 @@ tilt strength and release radius. The single most decisive number in
 the program, now with symmetric stakes and both priors logged as
 worthless.
 
-**UPDATE (2026-07-07 ~1:30am) — THE COLLISION IS PRICED, NOT DECIDED
+**UPDATE (2026-07-07) — THE COLLISION IS PRICED, NOT DECIDED
 (Room 1 doc, Expedition 5):** the seamless birth-orbit integration is
 CHAOTIC in the release angle θ_0, which is a random variable (one
 stochastic inflationary draw per universe). eps is therefore
@@ -478,7 +478,7 @@ normalization, threshold grade) stamped in the Room 1 entry. The
 earlier segmented bound eps ≥ 0.67 (booked provisionally same night)
 is SUPERSEDED — its own stamped caveat fired.
 
-**UPDATE 2 (2026-07-07 ~2am) — the gates run (Room 1 doc,
+**UPDATE 2 (2026-07-07) — the gates run (Room 1 doc,
 Expedition 6):** (1) the reviewer's proposed inversion (abundance =
 charge selects rotors) is CLOSED — R1.2 restated (Ω_DM = total
 quanta by the frozen-ellipticity degeneracy; charge = net quanta =
@@ -491,7 +491,7 @@ H_inf <~ 1×10¹⁰-11 GeV); the 86% is unmoved (tilt-universal). (4) Dense
 scan n=28: 86% ±6.5%; cos2-prior robustness 84%. Remaining
 precondition on the odds: the h-convergence of P(f_amp).
 
-**UPDATE 3 (2026-07-07 ~6am) — the late-night restructuring (Room 1
+**UPDATE 3 (2026-07-07) — the late-night restructuring (Room 1
 doc E7/E7a/E7b/E8/E8a/E8b; reviewed, with
 further items batched):** (1) KR BEAT CORRECTION (self-caught): the
 oscillation amplitude is √(f_amp(2-f_amp)), not f_amp — physical
@@ -916,7 +916,7 @@ internal ruling.
 ## ANN-2026-014: P-2026-009 first confrontation — the birefringence hint is CONSOLIDATING, not dissolving (the working docket, priced 2026-07-07)
 
 **Recorded:** 2026-07-07 20:55 MDT (git base: 81e9cc5d)
-**Data pulled (web, this session):**
+**Data pulled (web):**
 - **ACT DR6 (released 2026-05-08): β = 0.215° ± 0.074°, 2.9σ** — an INDEPENDENT
  instrument (ground-based, different systematics from Planck's satellite).
 - Planck PR4 analyses: β ≈ 0.3°, ~2.7σ.
@@ -1119,7 +1119,7 @@ Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute 
  leans on a shaky naive-dilaton estimate; exact c owed via threshold matching).
 - **Floor mechanism:** ghost-condensate stability is a REAL risk (the toy showed the runaway),
  not a footnote.
-- **Meta:** this session's DE/neutrino superstructure is speculation-heavy; the honest state is
+- **Meta:** the DE/neutrino superstructure is speculation-heavy; the honest state is
  scoped-and-owed, not built. Priority now = TESTS (Σm_ν, DESI w=-1, fuzzy-DM mass), not
  more structure.
 
@@ -1376,7 +1376,7 @@ falsifiable call, the good kind.
 
 **What was owed (P-2026-010, item i):** "the real θ-rolling history — does θ evolve by
 ~f along the photon path at the right epoch?" Version B was registered *without* this
-computed. This session it was computed.
+computed. Here it was computed.
 
 **The computation (P1-compliant — object produced, not characterized):** the birefringence
 phase is θ, and θ̇ is fixed by the rotating-condensate-as-CDM relation + charge
@@ -1479,7 +1479,7 @@ double β decay (0νββ) MUST occur** at a nonzero rate. A Dirac-only neutrino 
 forbidden) **kills the neutrino-sector home**, and with it P-2026-012 and the leptonic
 mechanism's foundation.
 
-**Why it's forced, not optional.** The whole leptonic edifice this session rests on the
+**Why it's forced, not optional.** The whole leptonic edifice rests on the
 medium living in the neutrino-mass sector via LLHH. LLHH is intrinsically L-violating /
 Majorana. So 0νββ is not an add-on — it is the same physics as the DE-floor = m_ν tie.
 If neutrinos are proven Dirac, the medium's neutrino home is false.
@@ -1511,7 +1511,7 @@ consequence + a leg of the three-falsifier neutrino-home test, not a standalone 
 
 ## ANN-2026-020: The neutrino-home gate-0 session — three deltas to P-2026-012/020 (2026-07-10)
 
-Tonight's gate-0 / leptophilia / MaVaN work re-derived much of the already-registered neutrino
+The gate-0 / leptophilia / MaVaN work re-derived much of the already-registered neutrino
 home (P-012 m_ν,lightest=2.3 meV=DE floor; P-020 Majorana/0νββ). It adds **no new prediction** —
 Σm_ν ~ 61 meV / normal ordering is already P-012/P-020. It adds **three honest deltas**:
 
@@ -1574,7 +1574,7 @@ cascade = meV-kinship factor ~3-4; the "constitution" fallback = value-is-an-inp
 the Σm_ν ~ 60 meV live falsifier *not yet firing*, not a positive result.
 
 **POST-HOC FLAG (conceded):** the whisper PREDICTION is legitimately pre-registered
-(2026-07-07), BUT the shared-spurion MECHANISM (this session) that makes the structure "pick
+(2026-07-07), BUT the shared-spurion MECHANISM that makes the structure "pick
 the whisper" is NEW — devised *after* DESI's low-Σ was known. So it is a **post-hoc rationalization**
 of the data-favored branch, NOT an independent prediction. It earns NO "derivation" credit until it
 produces a NEW falsifiable consequence beyond the already-registered whisper. Flagged, not recorded.
@@ -1844,7 +1844,7 @@ by the α_c MCMC.
 uniform-phase |cos|-family average — the textbook closed form for a squared radial
 projection averaged over quasi-periodic orbits with uniform initial phase). Current value:
 0.635 ± 0.026 (0.06σ). **Registered while the deciding computation is running**: the
-256-angle × 3-R_i refinement ensemble (launched this session) delivers sub-percent
+256-angle × 3-R_i refinement ensemble (launched here) delivers sub-percent
 statistical precision on f̄ — the bet is placed before its own referee lands.
 
 **The corollary, if P-040 and P-041 both live:** ε = (9/10)(2/π)(3α) = **27α/5π = 1.2543%**

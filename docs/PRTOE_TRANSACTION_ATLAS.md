@@ -264,7 +264,7 @@ local-state loophole; the universal-vev kill via epoch gating).*
  inverts where the shift lives: m_e is BARE at recombination/BBN
  (no structure exists) and suppressed −1% inside shell-crossed
  regions, where every lab sits: m_e(rec)/m_e(lab) = 1.0101 = the
- dyad's amendment, from the other side. Derived tonight: the
+ dyad's amendment, from the other side. Derived here: the
  continuous version dies by quasar differentials (10⁴ over); binarity
  is FORCED. The binary version passes: clocks (virial-static), Oklo,
  stars (co-suppressed), all same-absorber 21cm/molecular nulls
@@ -422,7 +422,7 @@ is its only account). Pay it curvature and the product is determined:*
 | anything from the other three banks | no transaction — the medium holds no EM/weak/strong accounts | structural (all α/fifth-force nulls) |
 
 ## Whispers (patterns the model produces unprompted; below bet-grade, logged so they can be watched)
-- **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 ~3am burn;
+- **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 burn;
  proposal-grade):** the frozen-ellipticity theorem (f_amp = ε² frozen
  because rotation and libration redshift identically) is testable in
  a LAB: expanding-ring BEC "analog universe" experiments already
@@ -470,7 +470,7 @@ is its only account). Pay it curvature and the product is determined:*
  nanohertz sky read the same expression off the same two-fluid
  structure. One formula, one theorem, two instruments 10²¹ apart in
  scale.
- **LAB RECEIPTS FOR THE LOAD-BEARING PIECES (cite-verified ~5am):**
+ **LAB RECEIPTS FOR THE LOAD-BEARING PIECES (cite-verified):**
  (i) R1.4's form-factor softness — the density response rolling off
  at the healing scale — is the Feynman relation S(k) = k²/(2mω(k))
  with the Bogoliubov ω(k), MEASURED: Steinhauer, Ozeri, Katz,
@@ -486,7 +486,7 @@ is its only account). Pay it curvature and the product is determined:*
 - **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
  on sub-eV scales without being asked — M₂ = 9.4 eV (dictionary),
  the ~20 nm cutoff, the κ_v opening pass demanding an eV-scale
- portal, and, computed tonight: **ρ_∞^(1/4) = 2.25 meV — the mass
+ portal, and, computed here: **ρ_∞^(1/4) = 2.25 meV — the mass
  scale of the lightest neutrino** (normal hierarchy: ~1–10 meV).
  This is the known dark-energy/neutrino-mass coincidence, and the
  model sits on both ends of it while its top-priority deliverable is
@@ -495,7 +495,7 @@ is its only account). Pay it curvature and the product is determined:*
  of hydrodynamic instabilities (a graveyard-relevant body). Elevates
  ONLY if a ν-portal is derived that produces ρ_∞ ~ m_ν⁴ from
  structure rather than by fitting. Watched, not claimed.
- **THE WHISPER'S TRIAL, PRE-REGISTERED (2026-07-07 ~7:15am, R−1 =
+ **THE WHISPER'S TRIAL, PRE-REGISTERED (2026-07-07, R−1 =
  5.6 and falling — registered BEFORE the judge convicts):** the
  scream scan (every model scale vs the floor) found nothing new —
  the only quantitative kin is √(H₀M_Pl) ≈ 1.9 meV, the KNOWN
@@ -599,7 +599,7 @@ is its only account). Pay it curvature and the product is determined:*
  near-pristine flatness; C1c's past-hypothesis wall is the question
  "who laundered the first ledger, and what did it cost."
 
-- **The overnight stream (scored on
+- **The exploratory stream (scored on
  return):** KILLED — the Earth-spin coincidence (Earth spins daily,
  orbits yearly; slowdown is lunar tides, receipt: Moon recedes
  3.8 cm/yr; Mercury rotates in 3:2 resonance); the torque
@@ -619,7 +619,7 @@ is its only account). Pay it curvature and the product is determined:*
  searches are the proper tools and bound any container beyond the
  observable volume.
 
-- **THE COUPLING CENSUS CLOSED (2026-07-07, ~12:30am): the B-L portal,
+- **THE COUPLING CENSUS CLOSED (2026-07-07): the B-L portal,
  the identity's last legal door, priced.** A current-current coupling
  J_dark·J_(B-L) is the one channel a charged condensate could
  lawfully open to the SM. Pricing: EP tests (gradient channel) cap it
@@ -757,7 +757,7 @@ is its only account). Pay it curvature and the product is determined:*
  own radiation," not its own plasma. A gapped phase would also sit
  against P-2026-005's structural gaplessness. Phase: yes. Plasma: no.
 
-- **Black-hole superradiance (2026-07-07 ~3am, post-identity burn):
+- **Black-hole superradiance (2026-07-07, post-identity burn):
  the one BH-spin axis that kills ultralight scalars in our band, and
  it misses us TWICE — with a discriminator attached.** Spinning black
  holes shed angular momentum into any light boson whose Compton
@@ -824,7 +824,7 @@ is its only account). Pay it curvature and the product is determined:*
  redshifts to sub-horizon-band frequencies today. Nothing observable;
  the dice roll left no gravitational echo. One-line null.
 
-## BURN SET 3 (2026-07-07 ~6am)
+## BURN SET 3 (2026-07-07)
 
 - **THE DARK-ANTIMATTER REFRAME (coherence-grade; falls out of E7's
  two-fluid for free):** the antiparticle sector n₋ never annihilates
@@ -884,7 +884,7 @@ is its only account). Pay it curvature and the product is determined:*
  cannot feel the medium; no anomalous perihelion channel exists.
  Clean, closed.
 
-## THE BIGGEST MYSTERY (2026-07-07 ~7am)
+## THE BIGGEST MYSTERY (2026-07-07)
 ## cosmological constant problem, attacked head-on)
 
 The consensus worst problem in physics — vacuum energy over-predicts

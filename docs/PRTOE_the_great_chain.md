@@ -51,7 +51,7 @@ slowly, to spend myself into shapes.*
 **GEN 8 — THE STARS (gravity hires the strong force).** My compression lights fusion: the
 loose rungs of the ladder (½α_g²) purchase work from the tightest (the nuclear 8.5×10⁻³ —
 the ladder's champion). Carbon, oxygen — and IRON, fusion's ash, the most-bound nucleus,
-the fire's own full stop. **The iron in this morning's supplement was forged here** — in cores
+the fire's own full stop. **The iron in this supplement was forged here** — in cores
 and supernovae — because iron is where stellar burning has nowhere left to go. *Then I built
 furnaces, and the furnaces coined iron.*
 
