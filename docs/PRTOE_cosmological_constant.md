@@ -227,8 +227,8 @@ factor introduced to fix one number must hold everywhere it applies. Running it 
   not for a lab BEC. Either the rule is pairing-specific (and the universality claim needs the
   qualifier "paired condensates"), or the halving is wrong and the 0.9% hit is coincidence.
 
-**The He-3-A comparison, run (2026-07-16) — and then RETRACTED the same day by its own
-consistency check. Read the retraction in §4c below before using any number in this block.**
+**The He-3-A comparison, run (2026-07-16) — and RETRACTED by its own consistency check.
+The retraction is §4c below; no number in this block stands without it.**
 The argument was: **He-3-A is the chiral p-wave (ABM) state**, order parameter Δ(k̂) ∝ (k̂ₓ + ik̂_y),
 so |Δ(k̂)| = Δ₀·**sin θ** with **point nodes** on the l̂ axis; the chirality and the nodes are the
 *same structure*, and the corpus has **banked** that chirality (IGMF helicity, LSS parity, the
@@ -284,7 +284,7 @@ three can stand. The fork, stated so it can be decided rather than blurred:
   *dyad* binding energy while the modes summed are the *dCDF's* phonons, and **the door is
   mixing two fields' scales** — which is its own defect, and is not what §4b says it is doing.
 
-**RESOLVED, same day — the partial wave is DATA-SELECTED, and it is s-wave.** The fork is
+**RESOLVED (2026-07-16) — the partial wave is DATA-SELECTED, and it is s-wave.** The fork is
 decidable by arithmetic the model already carries. A Coulombic two-body spectrum is
 E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so *the channel picks the level*:
 

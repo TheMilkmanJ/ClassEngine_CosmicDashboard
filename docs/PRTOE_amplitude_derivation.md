@@ -420,7 +420,7 @@ either alone. Abundance pins Psi0 ∝ m^(-1/4), so at fixed observed eps:
  c(m) = 0.974 * (m / 2×10⁻²⁰ eV)^(1/4) (higher m needs higher c)
 An INDEPENDENT fuzzy-DM mass therefore pins c. Trial of the mass landmarks:
  m = 2×10⁻²⁰ (model pin / Lyman-a) → c = 0.97 (comfortable)
- m = 3×10⁻¹⁹ (UFD Dalal-Kravtsov) → c = 1.92 (edge of O(1)) <- the tension
+ m = 3×10⁻¹⁹ (UFD Dalal-Kravtsov) → c = 1.92 (edge of O(1)) ← the tension
  m = 1×10⁻¹⁸ (CDM-like) → c = 2.59 (strained)
  c reaches 2 at m=3.6×10⁻¹⁹, 3 at 1.8×10⁻¹⁸, 4 at 5.7×10⁻¹⁸.
 VERDICT: the UFD tension is SURVIVABLE, NOT a kill. The model ABSORBS m~3×10⁻¹⁹ by setting
