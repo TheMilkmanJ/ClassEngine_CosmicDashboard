@@ -20,7 +20,7 @@ f̄ = 0.635 ± 0.026 ramp-corrected, α_c under active measurement by the α_c c
 | CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund | the signed self-adverse bet (2.387×10⁵, width owed); radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out): **+0.85% → +1.09σ** COUNTER | the reversed row (was briefly ‘the medicine’) |
-| BBN: quark-bleed | δm_q = ε full → ~1σ D/H nudge | credited side-prediction |
+| BBN: quark-bleed | **OPEN FORK, not a credited side-prediction (re-graded 2026-07-17).** δm_q = ε *full* is **not** a ~1σ nudge: through the model's own lever d ln B_D/d ln m̂ = −4 it gives δB_D/B_D = −5.02% and moves D/H by **+14…+21% = +12…+18σ**. The row's old two halves contradicted each other by an order of magnitude. P-2026-006 requires δm̂/m̂ = **0.14–0.21%** to heal the scar — **ε is 6–9× too big.** | **the dyad's lepton→quark suppression must derive to ~1/6–1/9, or D/H blows out** |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
 | the radio bands | +2 : +1 : −1 : −1 : −2, ratio-locked | threads 12; P-022/P-027/P-029 |
 | space/direction | the ε-dipole ~6×10⁻⁷ on the winding axis | P-024; the shared-axis family |
