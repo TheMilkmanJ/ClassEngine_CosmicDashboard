@@ -44,8 +44,8 @@ coincidence_problem · direct_detection · indirect_detection · laboratory_cous
 sqrt3_derivation · classical_gravity · special_relativity · inertia · light · quantum_trio · quantum_gravity
 
 ## The mystery wing
-blackholes_no_singularity · bigbang_no_singularity · arrow_of_time · information_paradox ·
-cosmological_constant
+**no_singularities** (the synthesis) · blackholes_no_singularity · bigbang_no_singularity ·
+arrow_of_time · information_paradox · wormholes · white_holes · cosmological_constant
 
 ## The quantum wing [R, §12-walled]
 quantum_entanglement · quantum_tunneling · quantum_superposition
