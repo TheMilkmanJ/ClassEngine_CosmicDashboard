@@ -1,4 +1,4 @@
-# Light — The Medium's Receipt
+# Light — The Medium's Record
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
@@ -10,7 +10,7 @@ pre-registered target. Rides M3 (the medium's reality) and the induced-gravity r
 (the Pauli finiteness condition, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5).
 Companion files: [PRTOE_inertia.md](PRTOE_inertia.md) (why sub-critical motion is free),
 [PRTOE_special_relativity.md](PRTOE_special_relativity.md) (the one-metric kinematics),
-[PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md) (the currency grammar this file
+[PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md) (the interaction grammar this file
 extends).*
 
 ---
@@ -55,11 +55,11 @@ them is optional:
  Goldstone's theorem, the Planck end by gravity's measured strength. Light is the
  lightest thing the medium does; the basement is the heaviest thing the medium is.
 
-## 3. The receipt theorem: why light records and cannot build
+## 3. The record theorem: why light records and cannot build
 
-The transaction grammar ([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)) assigns
-light the role of the *receipt*: the record a matter-to-matter transaction emits, carrying
-the transaction's information outward without participating in what was built. Filed
+The interaction grammar ([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)) assigns
+light the role of the *record*: the signal a matter-to-matter interaction emits, carrying
+the interaction's information outward without participating in what was built. Filed
 originally as grammar, this role turns out to be a **theorem — the sign structure of the
 beta functions** :
 
@@ -77,15 +77,15 @@ beta functions** :
  stays massless, its force stays infinite-range, its sector stays scaleless. **The U(1)
  is forbidden by its own sign from building anything. It can only carry.**
 
-Scaleless is exactly what a receipt must be: the record that crosses every scale
+Scaleless is exactly what a record must be: the signal that crosses every scale
 unchanged. A photon emitted by the first galaxies arrives thirteen billion years later
 still massless, still readable — which is why every expansion measurement ever made is
-read off photons. The receipt survives because it *cannot* be spent: the one thing in the
+read off photons. The record survives because it *cannot* act: the one thing in the
 universe physically incapable of doing anything except carrying.
 
 **The division of labour between the forces is therefore not assigned — it is the signs
-of the two beta functions.** The working number (non-abelian) must build; the receipt
-number (abelian) must record. No further postulate enters.
+of the two beta functions.** The working number (non-abelian) must build; the record-carrier
+(abelian) must record. No further postulate enters.
 
 ## 4. How much of light the medium makes — and how much it is given
 
@@ -129,15 +129,15 @@ threshold):
 - **The two non-abelian couplings NEARLY lock at the basement** — the gap at M_Pl is 2.9
  against a ±2 scheme band, with the exact crossing 2.1 decades below M_Pl; ramped over the
  measurement and scheme bands, only ~2% of the distribution closes the gap at M_Pl. Graded honestly: *suggestive, not established* — exact closure would require
- the basement's own threshold corrections, which is a payment the basement owes rather
+ the basement's own threshold corrections, which is a cost the basement owes rather
  than a result the model holds.
 - **The abelian coupling is the outlier** — sixteen away, joining the pair nowhere near
  the basement (the Standard Model's famous near-miss unification, read here from the
  medium's side).
 
 **The basement's handout is two numbers, not one and not three: one shared by the
-confined machinery, one separate for the receipt.** The split the running finds is the
-transaction grammar's split, found independently by the renormalization group.
+confined machinery, one separate for the record.** The split the running finds is the
+interaction grammar's split, found independently by the renormalization group.
 
 ## 6. What is derived, and what remains (the honest scoreboard)
 
@@ -146,9 +146,9 @@ transaction grammar's split, found independently by the renormalization group.
 - light's existence and masslessness — Goldstone mode of the medium (theorem);
 - light's speed — the medium's own signal speed; massless dispersion forbids any other
  (theorem);
-- light's role as the receipt — forbidden from scale-building by the sign of its β
+- light's role as the record — forbidden from scale-building by the sign of its β
  (theorem);
-- the machinery/receipt division of labour — the signs of the two β functions (theorem);
+- the machinery/record division of labour — the signs of the two β functions (theorem);
 - 44% of light's strength — the medium's fermion loop (computed);
 - the two-handout structure at the basement — the non-abelian lock + the abelian outlier
  (computed from measured couplings).
@@ -175,7 +175,7 @@ closes.
 ## 7. Falsification conditions
 
 (i) **Any confirmed photon mass** (current bound m_γ < 10⁻¹⁸ eV): kills the Goldstone
-identification and the receipt theorem's premise. (ii) **Any confirmed vacuum dispersion
+identification and the record theorem's premise. (ii) **Any confirmed vacuum dispersion
 of light** beyond the Planck-suppressed envelope (energy-dependent photon arrival from
 GRBs is the standing null): kills the collective-mode identification. (iii) **A specified
 basement that fails any of the five locks** in §6 kills the induced-light route (the
@@ -195,7 +195,7 @@ within 2.9 of a ±2 scheme band, with only ~2% of the distribution closing the g
 was once graded as a hit ("locks at the basement"). The correction to *suggestive, not
 established*, and the lock-test's earlier stepped verdict, are in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The census & roster count"**
-(and the ramp-discipline catches). The exact closure is a payment the basement owes, not a
+(and the ramp-discipline catches). The exact closure is a cost the basement owes, not a
 result this file holds.
 
 
@@ -208,7 +208,7 @@ Fermi points); [Georgi–Quinn–Weinberg 1974] (coupling running to high scales
 near-miss); [Wilczek 1999] (mass from dimensional transmutation; "mass without mass");
 [Coleman–Glashow 1999] (photon dispersion bounds). Full entries:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the Pauli finiteness condition
-([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5), the transaction grammar
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5), the interaction grammar
 ([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)), the derivation-hunt entries
 127, 128, 134, 136, 137
 ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).
