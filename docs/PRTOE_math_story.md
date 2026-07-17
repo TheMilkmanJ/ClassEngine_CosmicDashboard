@@ -14,8 +14,8 @@ map, not the territory. Status key: [DERIVED] [FIT] [TRACED] [CONDITIONAL]
 
 ---
 
-## ACT 0 — R = 0 (the blank ledger)
-No medium, no curvature, no account. The ground state the whole thing lifts out
+## ACT 0 — R = 0 (the empty initial state)
+No medium, no curvature, no coupling. The ground state the whole thing lifts out
 of. Its direction is *temporal* ("before"), not spatial ("outside").
  **R = 0** [DERIVED — bedrock]
 
@@ -27,16 +27,16 @@ acquiring rotation (charge). Runs ONCE.
  [DERIVED mechanism (Room 1 identity = charged rotating superfluid);
  exact Ψ₀, f_amp OPEN — the genesis calc]
 
-## ACT 2 — The regime change: the one early account (§96)
+## ACT 2 — The regime change: the one early coupling (§96)
 Before condensation the medium is the NORMAL FRACTION — w = 1/3, radiation-like,
 **effectively massless**. With no ultralight mass to protect, naturalness does
-NOT forbid a direct matter coupling → space has ONE direct account with matter,
-and it is *cheap*. (This account will be force-closed in Act 4.)
+NOT forbid a direct matter coupling → space has ONE direct coupling to matter,
+and it is *cheap*. (This coupling will be force-closed in Act 4.)
  **naturalness ban is dormant while m_eff ≈ 0** → direct coupling ALLOWED
  [CONDITIONAL — new §96; "massless pre-z_x" plausible (w=1/3), magnitude κ_v OPEN]
 
-## ACT 3 — BBN (z ~ 10⁹): the early account heals deuterium
-Through the still-open account the medium nudges the Higgs vev on the small normal
+## ACT 3 — BBN (z ~ 10⁹): the early coupling heals deuterium
+Through the still-open coupling the medium nudges the Higgs vev on the small normal
 fraction. The Dent–Stern–Wetterich response then moves ALL light abundances
 together:
  **δv/v ≈ 0.09–0.15%** → d ln X = R_X · δv/v
@@ -47,7 +47,7 @@ together:
 ## ACT 4 — Condensation / basin entry (z_x ~ 10⁵): the census switches on
 The chemical potential reaches the mass (μ = m); the condensate forms and the
 medium ACQUIRES its ultralight mass. Now naturalness bites: a direct coupling
-would radiatively destroy that mass — so **the early account is force-closed**,
+would radiatively destroy that mass — so **the early coupling is force-closed**,
 and from here the medium couples to matter by GRAVITY ONLY (the census). The
 order parameter |Ψ| forms; thereafter it dilutes as dark matter.
  **μ = m ⇒ census ON (gravity-only); |Ψ| ~ a⁻³ᐟ² (afterwards)**
@@ -79,12 +79,12 @@ universe), screened to lab value inside virialized structure (Θ saturates).
  only clean surviving test = cosmic-dawn 21-cm (P-2026-007).
  [screening MANDATORY (Room 2); void step P-007 = falsification path]
 
-## ACT 7 — Today: the observables & the ledger's two other outputs
+## ACT 7 — Today: the observables & the sector's two other outputs
  H₀ ≈ 70.1 ± 0.7, S₈ ≈ 0.82, Σm_ν 95% < ~0.15–0.17 eV (inverted hierarchy OPEN)
  the dark fluid's equation of state runs:
  **w: 1/3 (normal, early) → 0 (condensate = dark matter) → −1 (floor = dark energy)**
  master relations:
- **G_μν = 8πG T_μν** (gravity — the only late-time account) [DERIVED]
+ **G_μν = 8πG T_μν** (gravity — the only late-time coupling) [DERIVED]
  **ε = c f_amp Ψ₀/M_red** (the m_e amplitude) [TRACED]
  **S = (1 + f_rot²)/2** (granule ε-meter) [DERIVED; sim-gated #8]
 
@@ -92,14 +92,14 @@ universe), screened to lab value inside virialized structure (Θ saturates).
 
 ## The whole arc in one breath
 R=0 → genesis makes a charged superfluid (Ψ₀, f_rot) → while it is massless it
-keeps ONE cheap direct account with matter, which heals deuterium at BBN → it
-condenses, acquires mass, and naturalness FORCE-CLOSES that account (the census
+keeps ONE cheap direct coupling to matter, which heals deuterium at BBN → it
+condenses, acquires mass, and naturalness FORCE-CLOSES that coupling (the census
 switches to gravity-only forever) → the gravity-only condensate universally
 shifts m_e by 1.24% at recombination, easing H₀ → the shift is screened inside
 structure → today: H₀≈70, dark matter + dark energy from one fluid, a universal
 varying-constant drift at the edge of detection.
 
-## The honest ledger of what's DERIVED vs OWED
+## The honest accounting of what's DERIVED vs OWED
  DERIVED : R=0; genesis mechanism; basin-entry/census-switch; field SHRINKS (docketed);
  G=8πGT; S formula; naturalness ceiling on c.
  TRACED : the 1.24% amplitude (= c·f_amp·Ψ₀/M_red), c≈0.93±0.38 measured.
