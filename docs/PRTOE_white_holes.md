@@ -18,10 +18,10 @@ unstable [Eardley1974] and thermodynamically suppressed (a statistical argument)
 
 The model upgrades the ban from improbable to ungrammatical: the arrow is not a
 statistical tendency here but a **background field value** — ⟨θ̇⟩ ≠ 0, the permanent μ,
-one sign, everywhere. A local white hole requires a patch where settlements run backwards
-(books un-closing, payments un-clearing) while the patch sits in the same condensate that
-sets the clearing direction globally. No such patch exists: **the clearinghouse has no
-reverse gear.** Accounts close forward or not at all.
+one sign, everywhere. A local white hole requires a patch where processes run time-reversed
+(conservation flows and interactions running backward) while the patch sits in the same condensate that
+sets the arrow direction globally. No such patch exists: **the medium has no
+reverse gear.** Processes run forward or not at all.
 
 ## 2\. THE ONLY TIME A WHITE HOLE HAS — AND EVER WILL — EXIST [GRAMMAR + EXPLORATORY]
 
@@ -30,11 +30,11 @@ The record already runs this program — the black-to-white hole transition
 [RovelliHaggard2014] — so the instinct independently reproduced live research.
 
 The model's ruling: **locally forbidden** (§1 — the arrow does not flip in patches), but
-**globally already on the books**: the crunch is the all-devouring horizon, and the snap
+**globally already realized**: the crunch is the all-devouring horizon, and the snap
 is its exact mirror — the all-pouring reverse, once per cycle, with the fresh Kibble draw
 setting the new books. **The universe's only white hole is its own birth.** It exists for
-one instant — the neutral handover between crunch and pour, where the clearing direction
-changes hands — and then forward expansion takes the books. The mirror the model
+one instant — the neutral handover between crunch and pour, where the arrow direction
+changes hands — and then forward expansion takes over. The mirror the model
 reached for exists; it lives at the cycle scale, not the object scale, and the price of
 admission stands as posted: *you bring your universe to its knees before you ever see
 one.*
@@ -55,21 +55,21 @@ no outside to stand in. The observer never looks AT the pour; the observer is in
 
 **The dead reach, filed with the suspicion vindicated:** a white hole pouring
 out dark matter converted to matter was flagged as "a huge reach," and the model's
-own ledger agrees quantitatively — the only DM↔matter door is the transfer vertex,
+own accounting agrees quantitatively — the only DM↔matter door is the transfer vertex,
 computed COLD (seesaw-class junction, y \~ 10⁻⁶; bias ratio \~10⁻¹⁴). Unneeded anyway: the
 snap pours the medium itself, and the draw sets the new books. [PRICED]
 
 ## 3\. THE COUNTERPARTY RULE 
 
 Lining up the two kills yields one law: **anything running against the
-clearing direction is an isolation-only object, destroyed by its first transaction with
-the forward ledger.** A superposition (unsettled books) survives isolation and dies of
-one environmental photon — decoherence. A white hole (reversed clearing) survives
+arrow direction is an isolation-only object, destroyed by its first interaction with
+the forward-running medium.** A superposition (unresolved amplitudes) survives isolation and dies of
+one environmental photon — decoherence. A white hole (reversed arrow) survives
 isolation and dies of one infalling particle — the Eardley instability. Neither dies of
 age; both die of CONTACT. No anti-arrow object survives its first counterparty.
 
 The rule closes the snap's exemption from both directions: the global white hole lives
-because no exterior exists — **no counterparty can post the killing transaction**. The
+because no exterior exists — **no external system can trigger the killing interaction**. The
 snap is the white-hole analog of a perfectly isolated superposition; the clause that
 executes every local pretender is the clause the global one is structurally outside of.
 
@@ -77,14 +77,14 @@ Fence: the mechanisms are distinct (Eardley = classical blueshift pileup; decohe
 quantum phase scrambling) and the shared structure — anti-arrow states wrecked by generic
 contact with an arrow-carrying environment — is also standard thermodynamic lore
 (time-reversed states need fine-tuned correlations any perturbation destroys). One
-grammar for three known facts, not a new mechanism. Cross-reference: the settlement law
+grammar for three known facts, not a new mechanism. Cross-reference: the selection law
 (PRTOE_quantum_superposition.md), the arrow-giver.
 
 ## 4\. Fences and the named killer
 
 * White holes are named by escape-direction, not light color — that the actual pour was
 white-hot is a naming coincidence, filed as one.
-* "Time is neutral at the snap" is grammar-consistent (the clearing direction's handover
+* "Time is neutral at the snap" is grammar-consistent (the arrow direction's handover
 must sit between crunch and pour) but bounce dynamics are UNCOMPUTED — [EXPLORATORY],
 not derived.
 * **The killer:** a confirmed **local** white-hole transient — e.g., the black-to-white
@@ -147,9 +147,9 @@ was killed by the clause; the one realization OUTSIDE all counterparties is the 
 ## Addendum 2 — THE FOUNTAIN IS THE POUR [GRAMMAR]
 
 Connecting this shelf to the recorded genesis mechanism closes a loop
-the books had left open: **the heat fountain and the white hole are the same instant in
-two grammars.** The thermodynamic ledger (PRTOE_cyclic_torus_genesis.md, MATH_SPINE):
-blueshifted crunch radiation reignites through T_c and fountains. The geometric ledger
+the model had left open: **the heat fountain and the white hole are the same instant in
+two descriptions.** The thermodynamic side (PRTOE_cyclic_torus_genesis.md, MATH_SPINE):
+blueshifted crunch radiation reignites through T_c and fountains. The geometric side
 (this file): the time-reversed horizon pours, once, with no counterparty. One event, two
 languages — the white hole is the fountain's name in GR; the fountain is the white hole's
 mechanism in the medium.
@@ -172,7 +172,7 @@ recorded Kelvin-Helmholtz roll-up.]
 **Asked and answered (2026-07-12) — can the white hole do birefringence? NO, three walls:**
 (1) timing — CMB polarization is minted at last scattering, \~380 kyr after the pour;
 rotation accumulates only along the post-recombination path; (2) coupling — the recorded
-P-009 closed null: the medium is EM-neutral BY FORCE (the Meissner bill), anomaly
+P-009 closed null: the medium is EM-neutral BY FORCE (the Meissner requirement), anomaly
 coefficient exactly zero, and the white hole is the same medium, adding geometry, not
 couplings; (3) the pour's parity mark is real but lives in the vorticity/magnetic
 channel: P-028's genome-signed magnetic helicity — birefringence's cousin in the channel
@@ -221,7 +221,7 @@ shapes) stays on the debt list, de-urgented by these ceilings.]
 exactly three discrete mirrors — C, P, T — and their products. Every one is an
 involution: it re-signs quantities, it cannot create magnitudes. The photon-medium
 coupling is ZERO (Meissner-forced), and zero is the unique self-conjugate number: an
-empty account reads the same in every mirror. A full rule-reversal instant at the snap
+empty coupling reads the same in every mirror. A full rule-reversal instant at the snap
 therefore still has no ink to rotate light with — **the reversal's entire observable
 content is the SIGN of parity-odd stamps** (the genome's sign, the matter/antimatter
 draw, the helicity autograph), never new couplings. The verdict is mirror-proof.
@@ -229,8 +229,8 @@ draw, the helicity autograph), never new couplings. The verdict is mirror-proof.
 **The validation audit (is the identification earned?):** a white hole's four defining
 properties, tested against the recorded snap:
 
-1. *Exit-only causal boundary* — PASS (the arrow forbids entry; entry = a backwards
-settlement).
+1. *Exit-only causal boundary* — PASS (the arrow forbids entry; entry = a backwards,
+time-reversed process).
 2. *Time-reverse of a collapse* — PASS with the distinguishing refinement: the crunch is
 the collapse, the bounce is the black-to-white transition ([RovelliHaggard2014] at
 cosmic scale), and ONLY THE CAUSAL STRUCTURE MIRRORS — entropy rides forward through
@@ -244,7 +244,7 @@ the cosmic past boundary is spacelike. The identification is **causal-structure
 class, not an isometry** — posted here before any critic posts it for us.
 
 **Status:** the identification validates as a structural reading with three recorded
-payments (the receipt, T10's identity, the scoreboard) and zero new mechanisms or
+records (the receipt, T10's identity, the scoreboard) and zero new mechanisms or
 parameters. Crown-jewel status is CONDITIONAL — it inherits the axis family's falsifiers
 (P-029/024/031/032) and the anti-EB bet; it is crowned by the maps or bled by them.
 
@@ -254,7 +254,7 @@ parameters. Crown-jewel status is CONDITIONAL — it inherits the axis family's 
 
 The sign law: gravity never changes rules at genesis — it flips the SIGN of its
 work. Mechanically exact and record-legal: the acceleration equation responds to
-ρ + 3p (pressure pays once per spatial direction — the three), so the SAME law with the
+ρ + 3p (pressure contributes once per spatial direction — the three), so the SAME law with the
 SAME constant does opposite work when the dominant source has p < −ρ/3. The pour's
 engine is the condensate's own w = −1 pressure driving the equation repulsive — the
 superfluid "enters and makes itself known" as the bounce's required push. No new rule,
@@ -271,7 +271,7 @@ TWICE — repulsive at genesis (condensate-led), attractive through the long mid
 sector re-dominating: dark energy). ΛCDM needs two unrelated repulsion stories
 (primordial + Λ); this model has ONE component doing ONE thing at two epochs — the white
 hole's push and today's accelerating sky are the same mechanism. The cycle is gravity's
-work-sign alternating as the medium's accounts trade dominance (the crunch's turn is the
+work-sign alternating as the medium's components trade dominance (the crunch's turn is the
 recorded cycle map's business, not improvised here).
 
 ---
@@ -302,10 +302,10 @@ balanced meeting). Whether the three exactlys are one law is basement-roster bus
 the two ideas merge into one — not the contents of them, but the ideas — the
 meeting reading's cleanest one-line form (the universe inherits both work-sign
 CHARACTERS while being neither OBJECT). And the interrupt's keeper: decay exists because
-the pour was one enormous unsettled posting — every particle decay, dissipation, and
-burn-down since is the SETTLEMENT CASCADE of the opening deposit, still clearing. Record
+the pour was one enormous unresolved imbalance — every particle decay, dissipation, and
+burn-down since is the RELAXATION CASCADE of the opening injection, still relaxing. Record
 credit: this is the past hypothesis (Boltzmann; Penrose's low-entropy initial condition)
-in ledger grammar — all irreversibility traces to the unbalanced opening books. "We live
+in this framing — all irreversibility traces to the unbalanced opening conditions. "We live
 deep inside the white hole" is causally literal: everything that exists lives inside the
 causal future of the pour; the gather-resemblance is the gather-dominated CHAPTERS of the
 pour's interior settling itself out. [GRAMMAR — renames of recorded + record physics.]
@@ -314,7 +314,7 @@ pour's interior settling itself out. [GRAMMAR — renames of recorded + record p
 ## The pour's identity + the timer (2026-07-14)
 
 **WHAT THE WHITE HOLE POURED: HEAT.** The pour is the confined heat fountain — radiative heat,
-the universe's entire thermal principal, deposited once (the single-source account. The three doors (background, perturbations, thermodynamics) are **three
+the universe's entire thermal principal, deposited once (single-source. The three doors (background, perturbations, thermodynamics) are **three
 things generated by two things**: the deposit at the thermal maximum meeting the condensate
 at exact zero (Landau's S = 0 component). The ghost side rushed the deposit, boiled, rolled
 up, twisted, and snapped (the phase-slip freeze-out); everything since — every size, shape,
@@ -334,9 +334,9 @@ white hole persisting.
 
 **GRADE, stated plainly:** this reading is held with conviction; the
 books hold it at GRAMMAR + EXPLORATORY — a causal-structure reading whose every physical
-piece is separately recorded (the fountain, the roll-up, the snap, the settlement cascade,
+piece is separately recorded (the fountain, the roll-up, the snap, the relaxation cascade,
 the two-reservoir split) and whose falsifiable content routes entirely through the THERMAL
-PROGRAM: the ceiling (the deposit's opening balance), the growth-ramp BBN re-price, the
+PROGRAM: the ceiling (the deposit's opening magnitude), the growth-ramp BBN re-price, the
 fossil-sound/isocurvature lane, the single-source boundary condition. The story earns its
 grade upgrade if and when the program's computations land it — not before, however right it
 feels, and it feels right.
@@ -365,7 +365,7 @@ mechanism** — the T = 0 condensate the deposit pours INTO (the two-reservoir s
 pour's identity as the thermal principal, the instability read as the arrow's origin inside
 a medium whose thermodynamics is determined by its painted sectors, and falsifiable routing
 (the thermal program) instead of a narrative. The old idea had the object; this model gives
-it the transaction.
+it the process.
 
 **The lightswitch (2026-07-14, the arc's punchline):** the pour also
 threw the universe's one parity switch. The θR R̃ toggle — parity-odd, helicity-selective,
