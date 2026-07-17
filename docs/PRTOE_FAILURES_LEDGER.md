@@ -773,22 +773,29 @@ is τ = T_c/m_e, fixed by the observed dark-energy density … the flagship's 1.
 backwards**"*), and graded itself *"not an independent one"*. **The dishonesty was not concealment —
 it was the bet.**
 
-**Why it had to be amended.** The model **derives** T_c = 179 keV, and the portal gives
-√σ_dark = m_e, so **T_c/√σ = 179/511 = 0.3503** — *that* is the model's prediction, and it produces
-the flagship ρ_Λ¼ = 2.2842 meV (+1.5% vs observed). Registering 0.345 made the lattice test
-**unfalsifiable in the direction that matters**:
+**Why it had to be amended — and the deeper problem the amendment does NOT fix.** The portal gives
+√σ_dark = m_e, so the model's value is **T_c/√σ = 179/511 = 0.3503** (from T_c = 179 keV), producing
+ρ_Λ¼ = 2.2842 meV (+1.5%). **But T_c = 179 keV is itself not independently sourced:** it is the
+observation-inverted 176.32 keV rounded up (179/176.32 = +1.52% = 0.35029/0.34506 — see the
+flagship-grade block at the top of
+[PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)). So **0.3503 is not a derivation
+independent of the observation** — it carries the same back-solve one step up the chain (ρ_Λ → T_c),
+and the "+1.5%" is the **T_c rounding**, not a sourced prediction. The old table mis-scored exactly
+this, calling 0.3503 "the model is exactly right"; the honest reading:
 
-| lattice returns | under the old bet | what it actually means |
-|---|---|---|
-| **0.3503** | "inside 0.345 ± 0.02" — a pass | **the model is exactly right** |
-| **0.345** | "dead centre" — a hit | **the model missed its own derivation by 1.5%** |
+| lattice returns | the honest reading |
+|---|---|
+| **0.3503** | the value the model *needs* — = 176.32 keV rounded to 179, not a confirmed derivation |
+| **0.345** | the observation inverted directly; the +1.5% between the two **is** the rounding |
 
-A bet that scores the model's success and the model's failure identically is not a bet.
-
-**The amendment:** T_c/√σ = **0.3503 ± 0.02** (window [0.330, 0.370]), derived; and a lattice return
-at 0.345 is stated **not** to confirm the entry. The dependence is now honest rather than circular:
-the lattice test and the dark-energy agreement share T_c and the portal, so they stand or fall
-together and a hit earns **one** credit, not two.
+**The amendment that stands:** the *only* thing that turns τ into a real prediction is an
+**independent** SU(2), N_f = 3 lattice T_c/√σ. Register it as **0.3503 ± 0.02** (window
+[0.330, 0.370]); an in-window return would source T_c for the first time (an analog/bag-model
+estimate puts the chiral-transition ratio ~0.35 — plausible, not a computation; see the basement
+roster). Until then the dark-energy agreement and the τ value **share the same un-sourced T_c**, so
+they stand or fall together and a hit earns **one** credit, not two. **This is now consistent with
+the flagship-grade block: the +1.5% is the τ/T_c rounding, not a sourced prediction** — the corpus no
+longer grades the same number as both "derived, exactly right" and "rounding artifact."
 
 **How it was caught.** Two independent red-team agents flagged τ = 0.345 in the same wave, from
 different files (DERIVATION_HUNT called it *"derived"*; the fit-number batch traced it to the

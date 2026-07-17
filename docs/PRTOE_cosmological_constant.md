@@ -286,6 +286,22 @@ symmetry zero the zero-point outright **fails** — shift symmetry makes the vac
 θ-independent, i.e. constant, not zero; see
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
 
+**What the O(1) actually is, and why the +1.5% is exposed to it.** The residual O(1) is not a
+mystery fraction — it is the **soft-phonon quantum correction** to the condensation energy, and it is
+O(1) for a specific reason. A normal 1-loop correction carries 1/16π² = 0.6% (negligible); but the
+small sound speed c_s = √α_c = 0.148 makes the soft phonon zero-point pile up as 1/c_s³ ≈ 309, which
+**overwhelms the loop factor** — their product is the same **1.955** that appears as the door gap. So
+the correction to the mean-field is genuinely O(1), *not* percent-level. Two consequences, both
+honest. **(a) The +1.5% is a mean-field (leading-order) agreement**, and the phonon correction is
+**positive**, so it pushes ρ_Λ¼ *up, away* from 2.25 (a 30%-of-mean-field finite correction → +8.4%;
+the full correction → the +20% perturbation door). The flagship is **exposed** to this O(1), not
+protected by it. **(b)** This is exactly the honest **0.99–1.07× band** noted above — that band *is*
+this soft-phonon correction. *Skeptic both ways:* the 1.955 is the **raw, unrenormalized** sum, so
+the physical finite remainder can be smaller — but the soft-phonon enhancement means the **default is
+O(1)** and the burden is on showing it small; nothing in the model does that yet. Pinning it needs
+the dCDF quartic coupling (the compositeness Λ, g) and a relativistic renormalized
+ground-state-energy calculation — un-built, but now **named** rather than mysterious.
+
 **The partial wave is data-selected, and it is s-wave.** A Coulombic two-body spectrum is
 E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so the channel picks the level:
 
