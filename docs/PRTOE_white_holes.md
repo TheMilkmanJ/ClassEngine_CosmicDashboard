@@ -132,7 +132,7 @@ native here is the MECHANISM that makes it the only realization: the arrow as a 
 value (not a statistic), the counterparty rule, the no-exterior Eardley evasion, once per
 cycle. [GRAMMAR — one reading of known solutions; no new solution claimed.]
 
-**The scoreboard and the record's near-miss (2026-07-12):** the observational census —
+**The scoreboard and the record's near-miss:** the observational census —
 black holes in essentially every massive galaxy, confirmed white holes ZERO — is exactly
 the asymmetry the arrow ban + single-genesis reading requires from a time-symmetric
 theory that permits both. The record's own near-miss confirms the grammar: white holes
@@ -169,7 +169,7 @@ the data is the fingerprint of how the fountain poured. [GRAMMAR — unification
 recorded descriptions; no new mechanism; the torus's dynamical origin stays owned by the
 recorded Kelvin-Helmholtz roll-up.]
 
-**Asked and answered (2026-07-12) — can the white hole do birefringence? NO, three walls:**
+**Asked and answered — can the white hole do birefringence? NO, three walls:**
 (1) timing — CMB polarization is minted at last scattering, \~380 kyr after the pour;
 rotation accumulates only along the post-recombination path; (2) coupling — the recorded
 P-009 closed null: the medium is EM-neutral BY FORCE (the Meissner requirement), anomaly
@@ -198,7 +198,7 @@ mechanic's observable content (the at-birth parity stamp) is the real and alread
 channel. The amplitude computation is the owed step (T10) — no signal size is claimed
 until it runs.
 
-**T10-light PAID (2026-07-12, estimate-grade — the fingerprint's amplitude):** three
+**T10-light PAID (estimate-grade — the fingerprint's amplitude):** three
 channels priced against literature benchmarks. (A) Chiral-GW TB/EB ∝ r × chirality: even
 at maximal genome-signed chirality, the recorded bounce r ("far below current bounds")
 puts it ≥100× under the LiteBIRD/S4-class future floor. (B) Faraday rotation off the
@@ -262,7 +262,7 @@ no G sign change, no reversal clause: the flip lives in the source, and everythi
 clears through gravity at genesis (census blindness holds). Here k_up/−k_down
 is the sign of the acceleration.
 
-**Timing fix (booked):** the handover to attractive work is the pour-to-radiation
+**Timing (booked):** the handover to attractive work is the pour-to-radiation
 transfer, well BEFORE BBN — nucleosynthesis sits deep inside the attractive era.
 
 **The twice-crossed threshold (the model's native unification):** the sign flip has run
@@ -311,7 +311,7 @@ causal future of the pour; the gather-resemblance is the gather-dominated CHAPTE
 pour's interior settling itself out. [GRAMMAR — renames of recorded + record physics.]
 
 
-## The pour's identity + the timer (2026-07-14)
+## The pour's identity + the timer
 
 **WHAT THE WHITE HOLE POURED: HEAT.** The pour is the confined heat fountain — radiative heat,
 the universe's entire thermal principal, deposited once (single-source. The three doors (background, perturbations, thermodynamics) are **three
@@ -341,7 +341,7 @@ fossil-sound/isocurvature lane, the single-source boundary condition. The story 
 grade upgrade if and when the program's computations land it — not before, however right it
 feels, and it feels right.
 
-**The egg that opened the clock (2026-07-14):** the
+**The egg that opened the clock:** the
 standard objection — "a white hole needs a reversal of time" — presumes time is already
 running. At the boundary instant there is nothing to reverse. In the maximally extended
 solutions the white-hole region only ever sits in the causal PAST of every observer — GR
@@ -367,7 +367,7 @@ a medium whose thermodynamics is determined by its painted sectors, and falsifia
 (the thermal program) instead of a narrative. The old idea had the object; this model gives
 it the process.
 
-**The lightswitch (2026-07-14, the arc's punchline):** the pour also
+**The lightswitch (the arc's punchline):** the pour also
 threw the universe's one parity switch. The θR R̃ toggle — parity-odd, helicity-selective,
 structurally incapable of half-measures — was slammed ON by the deposit's active phase and
 faded OFF across the settling's decade-wide dimmer (z ≈ 32 → 4, centered on the freeze at
@@ -378,7 +378,7 @@ ON era is a handedness in the primordial background — the white hole's signatu
 surfaces, written in the polarization of the oldest waves there are. [GRAMMAR + registered
 split; the coefficient computation owns the amplitude.]
 
-## Addendum 6 (2026-07-15): THE POUR MEETS THE TWO PIECES — genesis architecture [GRAMMAR + CANDIDATE]
+## Addendum 6: THE POUR MEETS THE TWO PIECES — genesis architecture [GRAMMAR + CANDIDATE]
 
 The identity pass ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md),
 [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) sharpens *what the pour meets and makes*. **Four objects,

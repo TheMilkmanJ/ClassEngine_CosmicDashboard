@@ -82,7 +82,7 @@ and everything after is the unwinding, metered by the Weyl term and paid by Land
 until the reservoir is all record and no free energy — the arrow buried in its own record.*
 
 
-## Addendum (2026-07-14): the arrow from the door side
+## Addendum: the arrow from the door side
 
 The thermal-door arc supplies the arrow's third independent arrival: the genesis pour is the
 thermal door's opening event — one injection, the universe's entire thermal reserve,

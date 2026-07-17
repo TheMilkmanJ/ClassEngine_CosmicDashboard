@@ -60,7 +60,7 @@ its best character witnesses to be optical — and they are.
 [vonKlitzing1980] (the bench-quantization sibling), internal: the completeness audit
 , the critical-phenomena node, T7's cousins. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
-## 6\. What the model asks OF lasers — three proposed experiments (2026-07-12 addendum)
+## 6\. What the model asks OF lasers — three proposed experiments
 
 The model cannot modify laser physics (constitutionally — §5). But it can hand laser
 physics QUESTIONS no one has had a reason to ask, because the model's open cosmological

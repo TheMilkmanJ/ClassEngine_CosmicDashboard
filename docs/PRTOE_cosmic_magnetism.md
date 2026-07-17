@@ -60,23 +60,18 @@ allowed to make fields directly; it is allowed to stir.
 
 ## 3. The void floor — the honest open gap
 
-The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
-vortex-network rms boost, ×3400) fails on inspection: it concentrates B on the
-**filaments/lines**, while the void floor constrains the **inter-line** field — which stays
-**~1.5 orders short** on the smooth estimate. [See the RESOLVED verdict below: the internal rescues died; the blazar debate is the referee.] Live
-candidates, none yet computed: (i) return-flux topology (field lines must close — the void
-threading is not zero, its floor is computable); (ii) post-recombination vorticity persistence;
-(iii) the blazar bound's own caveats (plasma-instability alternative would relax the floor).
-**RESOLVED (the working docket-07-12): the inter-line threading COMPUTES SHORT.** Candidate (i)
-falls to flux conservation — the return flux through the void cell equals the flux-average,
-i.e. the smooth estimate; concentration on lines cannot raise the inter-line floor. Candidate
-(ii) (vorticity persistence) sources the same average and cannot beat the same theorem.
-THEREFORE the void column now rides SOLELY on candidate (iii): the blazar bound's own
+The blazar bound constrains the field BETWEEN structures. The vortex-network rms boost
+(×3400) concentrates B on the **filaments/lines**, while the void floor constrains the
+**inter-line** field — which stays **~1.5 orders short** on the smooth estimate. Two
+candidate rescues fail on inspection: (i) return-flux topology falls to flux
+conservation — the return flux through the void cell equals the flux-average, i.e. the
+smooth estimate; concentrating B on lines cannot raise the inter-line floor. (ii)
+post-recombination vorticity persistence sources the same average and cannot beat the same
+theorem. THEREFORE the void column rides SOLELY on (iii): the blazar bound's own
 robustness. The live external debate (plasma instabilities — beam-plasma energy loss may
 relax the ≥10⁻¹⁶ G floor entirely) is the referee: **if the blazar floor survives that
 debate, P-028's void column FAILS while the galactic column stands** — the registered risk,
-now sharpened to a single external question. Adverse-honest closure; filed in the failures
-record (the internal rescue's death) and here (the standing exposure).
+sharpened to a single external question.
 
 ## 4. The signature no one else can write down: THE SIGN
 
