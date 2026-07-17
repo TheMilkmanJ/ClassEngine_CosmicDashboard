@@ -38,7 +38,10 @@ running instrument:
 > species plus the vacuum's own seat. The neutrinos sit on the seat rather than in the count, because
 > their mass is medium-sourced rather than electroweak; the running α_c chain is the independent check;
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
-> winding's many-turn equidistribution (the coupling form the one remaining piece);
+> winding's many-turn equidistribution; the coupling form is now data-selected (2026-07-16):
+> mass-positivity kills the signed average (⟨cos⟩=0), leading-order (Yukawa, linear) picks
+> mean-absolute over the quadratic/RMS readings, and the fit (0.625) + sim (0.635) confirm 2/π,
+> rejecting RMS (0.707) at +13% — residual only "leading-order dominates";
 > - **α_c = 3α = d·α** — the condensate coupling, the 3 being the spatial dimension d (second sound,
 > geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
 
