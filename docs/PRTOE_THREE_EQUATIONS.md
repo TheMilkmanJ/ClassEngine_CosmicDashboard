@@ -35,7 +35,7 @@ $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\
 The condensate shifts fermion masses by one universal fraction, switched on above its
 condensation temperature:
 
-$$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 193\ \text{keV}$$
+$$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 179\ \text{keV}$$
 
 - $f$ is a **ramp**: $\approx 1$ in the early universe, $\to 0$ after the transition
  (nothing in this model is a step; the ramp's shape is computed, not chosen).
@@ -95,12 +95,12 @@ data speaks** — the object the running evidence comparison actually grades:
 | quantity | stated value | provenance | grade |
 |---|---|---|---|
 | ε | 1.2403 ± 0.0079% | the concordance joint of fit and stack | conditional (three referees) |
-| A_s | 2.088×10⁻⁹ = (α_c/4πk)³ | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
+| A_s | **2.088×10⁻⁹ frozen**; the closed form (α_c/4πk)³ = **2.081×10⁻⁹** — it lands **−0.35%** | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
 | n_s | 0.9641 = 1 − 2/ln(M_Pl/T_on) | the census drift; the 2 = open dimensions (exemption-clause integer) | derived-estimate |
 | z_on | 3.5619×10⁷ | profiled at the frozen stack (the 3α mark hit blind to 0.005 dex) | fast-profiled estimate, chain-graded later |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | 61.4 meV, normal ordering | ρ_Λ^{1/4} = m₁ tie (P-2026-012) | recorded prediction |
-| T_c | ≈ 179 keV | confining chiral ratio (spine §15); 193 keV = perturbative cross-check | derived |
+| T_c | ≈ 179 keV | confining chiral ratio ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md), τ = T_c/m_e ≈ 0.345); 193 keV = perturbative cross-check | derived |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | production |
 
 ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —

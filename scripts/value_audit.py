@@ -93,9 +93,13 @@ CHECKS = [
       bad={69.7:"the v5-era refit value -- the standing claim is 69.9",
            69.82:"a single dyad run's value -- the standing claim is 69.9"}),
  dict(q="rho_Lambda^1/4", rx=r"(?:ρ_Λ|rho_L|ρ_∞)[^.\n]{0,30}?([0-9]\.[0-9]{2,3})\s*meV",
-      ok=[2.284, 2.2842, 2.25, 2.251],   # 2.284 derived / 2.25 observed / 2.251 the CC's own
+      ok=[2.284, 2.2842, 2.25],   # 2.284 derived / 2.25 observed
       bad={1.98:"a retired door value (M_2-tuned)", 2.695:"a retired door value (Landau-capped)",
-           1.71:"a retired door value (KP-unpinned)"}),
+           1.71:"a retired door value (KP-unpinned)",
+           # I had 2.251 WHITELISTED. FAILURES_LEDGER:346 retires it by name: the "M_2 selected ->
+           # 2.251, 4 parts in 10^4" framing -- "that precision was circular". The auditor could
+           # not see it BY CONSTRUCTION. Found by red team auditing the auditor, 2026-07-17.
+           2.251:"the RETIRED circular precision (M_2 back-solved from the answer; 'that precision was circular' -- FAILURES_LEDGER). Standing: 2.284 meV, +1.5%"}),
  dict(q="Sigma m_nu", rx=r"(?:Σm_ν|Sigma m_nu|Σ)\s*(?:=|≈)\s*([0-9]{2}\.?[0-9]*)\s*meV",
       ok=[61.4, 61], bad={}),
  dict(q="T_c keying", rx=r"T_?c\s*(?:=|≈)\s*([0-9]{2,3})\s*(?:keV)",
@@ -131,6 +135,24 @@ CONDITIONALITY_CTX = re.compile(r"asterisk|LCDM helium|ΛCDM helium|YHe|conditio
 LIGHTSPEED_CTX = re.compile(r"acoustic|horizon|dispersion|c_s|speed of light|perturbations hit|"
                             r"dumb hole|k\*=M|trapped inside", re.I)
 
+def delatex(line):
+    """Strip LaTeX so the value rules can see the numbers inside math.
+
+    THE BLIND SPOT, found 2026-07-17 by red team auditing this auditor: the T_c rule was CORRECT
+    and still missed `T_c \\approx 193\\ \\text{keV}` in THREE_EQUATIONS eq.2 -- the
+    physicist-facing front door -- because \\approx and \\text{} evade a plain-text regex.
+    EVERY LATEX-BEARING LINE IN THE CORPUS WAS UNAUDITED. A rule that cannot read the file is
+    not a rule."""
+    t = line
+    t = re.sub(r"\\t?frac\{([^{}]*)\}\{([^{}]*)\}", r"\1/\2", t)   # \frac{a}{b} -> a/b
+    t = re.sub(r"\\text\{([^{}]*)\}", r"\1", t)                     # \text{keV} -> keV
+    t = t.replace(r"\approx", "≈").replace(r"\simeq", "≈").replace(r"\times", "x")
+    t = re.sub(r"\\[a-zA-Z]+", " ", t)                               # any remaining \macro
+    t = re.sub(r"\\(?=[\s,;:!])|\\\s", " ", t)                        # LaTeX escaped space: 193\ keV -> 193 keV
+    t = t.replace("\\", " ")                                        # any stragglers
+    t = t.replace("$", "").replace("{", " ").replace("}", " ").replace("^", "")
+    return t
+
 def audit(include_archive=False):
     ch = chain()
     print("="*82); print("THE DERIVATION CHAIN -- recomputed from the standing inputs"); print("="*82)
@@ -155,6 +177,7 @@ def audit(include_archive=False):
         L=open(f,encoding="utf-8",errors="replace").readlines()
         for ln,line in enumerate(L,1):
             window = "".join(L[max(0,ln-2):ln+1])   # prose wraps; context can sit a line away
+            line = delatex(line)                    # math is not exempt from the value rules
             for c in CHECKS:
                 for m in re.finditer(c["rx"], line, re.I):
                     g=[x for x in m.groups() if x]

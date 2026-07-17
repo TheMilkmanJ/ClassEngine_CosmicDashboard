@@ -111,9 +111,9 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 | 3 | H_total ≡ 0 (compact torus); dE = −p dV | balance: exactly zero | model derivation |
 | 4 | η via AD-direct: n_L(genome)/s × transfer — **DEBT: the frozen-era transfer fraction** | target 6.1×10⁻¹⁰; thermal route DEAD (×40–1000 under, scanned) | AD-direct |
 | 5 | ε(T) = ε(1−T/T_c); elasticities: ∂lnY_p/∂lnm_e ≈ 0 above T_c, windowed Y_p +0.85% | Y_p = 0.24900 (+1.09σ counter); D/H 2.387 with the η-flow (the fork's width is owed) | PRyM (BBN), ramped splice |
-| 6 | 1+z* ∝ m_e (recombination's atomic physics); the dyad: m_e(z>50) = 1.0124·m_e | H₀: 68.2 → 69.9; ΔlnZ = +2.635 (capped) | the founding fit |
+| 6 | 1+z* ∝ m_e (recombination's atomic physics); the dyad: m_e(z>50) = 1.0124·m_e | H₀: 68.2 → 69.9; ΔlnZ = +2.635 (capped) **\*conditional** — the chains scoring it fed CLASS a ΛCDM helium fraction; configs fixed 2026-07-17, **fits not yet re-run** ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) | the founding fit |
 | 7 | f_gate = exp(−C²/C_ref²); r_1s ∝ 1/(m²M_halo^⅓) | solitons 10⁻³–10⁻² pc; gate zeroes today's ε | reading B; T1 |
-| 8 | E_b/(mc²) = ½α_eff²; fusion terminus: Fe-56 at BE/A = 8.79 MeV (the max) | nuclear rung 8.5×10⁻³ — the ladder's champion | nuclear data |
+| 8 | E_b/(mc²) = ½α_eff²; fusion terminus: Fe-56 at BE/A = 8.790 MeV (**Ni-62 at 8.794 is the BE/A maximum**; the Fe peak is set by Si-burning photodisintegration statistics, not by the BE/A max) | nuclear rung 8.5×10⁻³ — the ladder's champion | nuclear data |
 | 9 | gravity + chemistry inheritance (no new physics; the rungs' handoff) | — | the ladder |
 | 10 | |Δμ/μ|(z≤4) < 10⁻⁶ (quasar fence); today: gate-zeroed | chemistry uniform to ppm since z=4 | quasar μ-fence |
 | 11 | life's license: ΔG from the reserve; the chain S_start=min → F_available > 0 | the biosphere = a Weyl-free-energy tap | the arrow doc, graded chain |

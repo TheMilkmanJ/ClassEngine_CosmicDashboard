@@ -38,7 +38,16 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
 - **Chain (self-consistent):** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼ = 2.28 meV, a **genuine 1.5%
   prediction** against the observed 2.25 meV. The α⁴ scaling is derived; M₂ is derived from T_c (not
   selected). See [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
-- **τ = T_c/m_e ≈ 0.345 — derived:** it is the chiral-transition-to-string-tension ratio T_c/√σ ≈ 0.34–0.37
+- **τ = T_c/m_e = 0.3503 — derived; and 0.345 is the OBSERVATION, not a second derivation
+  (re-graded 2026-07-17).** The derived T_c = 179 keV gives τ = 179/511 = **0.3503** ⟹ ρ_Λ¼ =
+  (9/2)α⁴τ·m_e = **2.2842 meV, the flagship's +1.5% prediction**. The number **0.345** is
+  ρ_Λ¼(observed)/((9/2)α⁴m_e) = 2.25/6.5207 = **0.34506** — *the observed dark-energy density read
+  backwards*, which the registry states plainly (P-2026-048: *"fixed by the observed dark-energy
+  density … the flagship's 1.5% prediction read backwards"*). **Quoting 0.345 as "derived" implies
+  T_c = 176.3 keV and silently converts the +1.5% prediction into a 0.0% match — i.e. it deletes
+  the prediction it is cited to support.** The *independent* lattice statement is the band
+  T_c/√σ ≈ 0.34–0.37 for a QCD-like theory; the model's τ = 0.3503 sits inside it, and **that**
+  is the check.
   of a QCD-like confining sector (pure glue, at 0.63, is excluded). The dark sector must carry light dark
   quarks (N_f ≥ 2).
 - **T_c ≈ 179 keV — derived:** the non-perturbative confining chiral value (τ·m_e). The perturbative
@@ -134,7 +143,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
   **Graded (2026-07-16): μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
-  electron-mass-anchored meV whisper of §2 (the flagship chain 9/2 α⁴ τ m_e = 2.25 meV), with κ_V, κ_m
+  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.284 meV**, against the observed 2.25 — a **+1.5%** prediction), with κ_V, κ_m
   the O(1) ties; it is downstream of the *one* irreducible input, the portal √σ_dark = m_e (§6), not a
   separate knob.
 - **v_L (the seesaw scale)** — two mutually exclusive corners (resonant → MeV, S4-armed; junction

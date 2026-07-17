@@ -1356,7 +1356,15 @@ detection results is quietly consistent with PRTOE and increasingly awkward for 
 particle-DM signal). SUPPORTED by continued direct-detection nulls at improving sensitivity.
 **Status:** CONSISTENT (all direct-detection null to date). A clean, standing PRTOE-vs-WIMP referee.
 
-## P-2026-010: Cosmic birefringence — the census fork (registered 2026-07-09, Version B)
+## P-2026-049: Cosmic birefringence — the census fork (registered 2026-07-09, Version B)
+
+> **ID CORRECTED 2026-07-17 — this entry was registered as `P-2026-010`, an ID already held since
+> 2026-07-07 19:37 MDT by the gravitational-wave standard-sirens bet (above).** Two unrelated
+> pre-registrations shared one number, so every downstream citation of "P-2026-010" was ambiguous
+> and one of the two bets was uncitable. **The earlier registration keeps the ID** (the timestamp is
+> the authority — that is this registry's founding rule); the later one moves to the next free slot.
+> **Nothing about the bet, its content, its date, or its kill conditions changes** — only the label.
+> Its registration timestamp remains **2026-07-09**.
 
 **Context:** the original strict census (P-2026-009) predicted birefringence NULL as a
 kill-switch (dark sector EM-neutral). This registers the OPPOSITE, unification-motivated
@@ -1385,9 +1393,9 @@ falsifiable call, the good kind.
 
 ---
 
-## ANN-2026-018: P-2026-010 item (i) RESOLVED — birefringence phase-route COMPUTED NULL; Version A confirmed by computation (2026-07-09, P1's first enforcement)
+## ANN-2026-018: P-2026-049 item (i) RESOLVED — birefringence phase-route COMPUTED NULL; Version A confirmed by computation (2026-07-09, P1's first enforcement)
 
-**What was owed (P-2026-010, item i):** "the real θ-rolling history — does θ evolve by
+**What was owed (P-2026-049, item i):** "the real θ-rolling history — does θ evolve by
 ~f along the photon path at the right epoch?" Version B was registered *without* this
 computed. Here it was computed.
 
@@ -1413,7 +1421,7 @@ null.** Version A (β=0) is confirmed **by computation**, not merely by assumpti
 session that the dCDF is "rolling dark energy" sourcing β ~ 0.01–0.3° *locked to w(z)* is
 **withdrawn** — it rode two label-reasoning fouls ("w runs 0→-1" → "rolling field";
 "P=const" → "true Λ"), neither checked against w_dcdf(ρ)=-ρ_inf/ρ (background.h:680) or a
-computed θ̇(a). **Version B (P-2026-010) is demoted:** the as-built dCDF *cannot* source it
+computed θ̇(a). **Version B (P-2026-049) is demoted:** the as-built dCDF *cannot* source it
 (it would need a DE-scale-mass slow roller it does not have, plus the deleted coupling).
 Version B survives only as a property of a hypothetical *different* field, not this model.
 
@@ -1720,6 +1728,52 @@ computed and falling short, or measured magnetic helicity with the WRONG sign vs
 photon a mass (m_γ² = 2q²n/m); photon-mass limits force q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — the fluid's
 EM-neutrality is structurally mandatory (birefringence null sharpened from "consistent" to
 "forced").
+
+## P-2026-029: The winding comb — a periodic tooth pattern in the CMB at ℓ ≈ 126 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
+
+> **RECONSTRUCTED, NOT BACK-DATED.** This bet was **cited across the corpus as registered** — as a
+> member of P-032's four-axis kill (:1729), as the owner of a tooth count with a second duty
+> (ANN-2026-023), in [PRTOE_lowell_anomalies.md](PRTOE_lowell_anomalies.md), and in
+> [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) — **but its registration entry never existed.** Found
+> by red team 2026-07-17. **The content below is assembled from those surviving citations, and
+> nothing here is new.** Its git-timestamp authority is those citations, not this entry: **the
+> honest grade is "cited from 2026-07-11, formally registered 2026-07-17"** — and a reader is
+> entitled to weigh it as the later date. Recorded this way because the alternative — writing it as
+> if it had been registered on the 11th — is exactly the retrofit this registry exists to forbid.
+
+**The prediction:** the genesis winding's integer **n** imprints a **periodic comb** in the CMB
+angular spectrum with a tooth spacing set by n, the first tooth near **ℓ ≈ 126**. The same integer
+sets the η-era phase pattern (P-2026-002's family) and the cavity modulation — **one topological
+number, three observables** (the M2↔M7 tie, [_master_computes.md](threaded_physics_working/_master_computes.md)).
+**Kill:** a full-sky spectrum with no comb structure at the predicted spacing, at the sensitivity
+where the tooth amplitude is predicted to sit. **Grade:** candidate; the amplitude is un-computed
+(M7, the cavity/axis computation, is **un-run**), so this entry currently states a *location*, not
+a detectable amplitude — it cannot be cashed as a detection claim until M7 lands.
+
+## P-2026-030: The astrochemical inheritance — the medium's window leaves molecular-line ratios standard (registered 2026-07-11; **entry reconstructed 2026-07-17**)
+
+> **RECONSTRUCTED, NOT BACK-DATED** — same status as P-2026-029 above. Cited in
+> [PRTOE_astrochemistry.md](PRTOE_astrochemistry.md) and the INDEX's "astrochemistry (+P-030)"; no
+> registration entry existed.
+
+**The prediction:** astrochemistry inherits the model's screening — inside dense structure the
+medium screens to standard values, so **molecular-line ratios and reaction networks are standard**;
+the model claims **no** astrochemical anomaly. **Kill:** a robust, screening-regime molecular
+anomaly attributable to varying constants would falsify the screening clause (L1a's blindness).
+**Grade:** an **abstention**, filed with the same prominence as the conquests (the strong-CP
+precedent). Its scale is one of the debts M1 (the α_c posterior) was booked to clear.
+
+## P-2026-031: Percent-level isocurvature at ℓ ≈ 170 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
+
+> **RECONSTRUCTED, NOT BACK-DATED** — same status. Cited as one of P-033's two halves (:1734);
+> no registration entry existed.
+
+**The prediction:** the genesis draw leaves a **percent-level isocurvature** contribution peaking
+near **ℓ ≈ 170**. **Kill:** a CMB isocurvature bound tightening below the predicted level at that
+scale. **Grade:** candidate — and **λ_phys (M4) records it as a CONSEQUENCE**, not an independent
+bet: "the Kibble draw at T_c is born at the crossover → λ = ceiling; **P-031 becomes a
+consequence**" ([_master_computes.md](threaded_physics_working/_master_computes.md)). It therefore
+inherits M4's conditionality and must not be counted as a separate confirmation.
 
 ## P-2026-032 … P-2026-037: The Assembly Six (registered 2026-07-11)
 

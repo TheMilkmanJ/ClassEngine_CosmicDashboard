@@ -46,7 +46,7 @@ A dynamic floor changes by ~10⁻⁸ over a human lifetime → indistinguishable
 
 **Predictions this thread flips (if the dynamic floor is adopted — a MODEL CHANGE abandoning
 Standing Bet #3):** DESI evolving-w liability (P-2026-018) → could become a PREDICTION (w₀~−0.9,
-rolling); cosmic birefringence (P-2026-010) reopens (rolling floor field). NOT adopted; flagged.
+rolling); cosmic birefringence (P-2026-049; registered as P-2026-010, ID corrected 2026-07-17) reopens (rolling floor field). NOT adopted; flagged.
 
 ---
 

@@ -20,7 +20,7 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 - [THE S₈ TENSION](PRTOE_s8_tension.md) — the second fight, fought with the right sign (PRODUCTION)
 - [LASER PHYSICS](PRTOE_laser_physics.md) — the medium's grammar at 10¹⁵ Hz: threshold = condensation, the bench rehearsal of T_c
 - [THE QUARTET CLOCK](PRTOE_quartet_clock.md) — whose mass does the onset read? The 7.59/7.74/7.89 lineup vs the α_c MCMC (EXPLORATORY)
-- [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ^¼ = ½α_c²M₂ at 0.4‰ (EXPLORATORY)
+- [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ^¼ = ½α_c²M₂ = (9/2)α⁴T_c = 2.284 meV, **1.5% (1.01×)** vs the observed 2.25 (EXPLORATORY)
 - [THE HIERARCHY PROBLEM](PRTOE_hierarchy_problem.md) — the EW scale as a pairing gap: M_red·e^{−1/kα_c} (EXPLORATORY)
 - [LV PRICING](PRTOE_LV_pricing.md) — the Lorentz-violation pricing pass: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
 - [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) — the remaining underived numbers and where their pieces already sit (living)

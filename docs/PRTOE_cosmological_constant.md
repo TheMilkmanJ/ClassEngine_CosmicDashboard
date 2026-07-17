@@ -194,11 +194,21 @@ the Gibbs–Duhem deviation, the residual fountain excitation, the un-cancelled 
 dig (the three-door guideline; a diagnostic, not an executioner). **The O(1) coefficient,
 scoped (2026-07-16, `scripts/kubo_freeze.py`):** the *full* phonon thermal excitation at the
 freeze T = m_ν over-predicts by 3.2× (ρ¼ = (π²/30 c_s³)¼ m_ν = 7.1 meV), confirming Λ is the
-*suppressed residual*, not the full sum. The suppression is the phonon phase-space-with-
-cancellation 16π²α_c^{3/2} — the **same object** the perturbations door pins — which lands
-ρ¼ = 2.70 meV. So the thermal-door scale (2.25 meV, forward) and the perturbations-door
-coefficient (2.70) are **one number to ~20%**; the residual 20% (effective mode count g_*,
-the exact Landau cap) is the owed O(1) refinement. **Located precisely (2026-07-16):** the
+*suppressed residual*, not the full sum. **The 7.1 does not descend to 2.70 — there is no such step, and the correction below
+replaces a claim that never closed (2026-07-17).** The two are *independent* readings, not a chain:
+16π²α_c^{3/2} = **0.5115**, and 7.1 × 0.5115 = 3.63 while 7.1 × 0.5115¼ = 6.00 — **neither is 2.70**.
+Where 2.70 actually comes from is the perturbations door's own formula, ρ = E_b⁴/(16π²c_s³) with
+c_s = √α_c:
+
+> **ρ¼ = E_b/(16π²α_c^{3/2})¼ = 2.2842/0.84585 = 2.701 meV**
+
+**And the factor is not a suppression.** In that formula it is a **divisor < 1**, so it *raises*
+the flagship binding by **+18.2%** — an **enhancement**. The full phonon sum's role is unchanged and
+still holds: it over-predicts by **3.2×**, which is what licenses reading Λ as a residual rather
+than the full sum. But the residual's *size* is not obtained by applying the phase-space factor to
+7.1. So the thermal-door scale (2.25 meV, forward) and the perturbations-door coefficient (2.701)
+are **one number to ~20%** — the honest statement — and the owed O(1) (effective mode count g_*,
+the exact Landau cap) is the gap between **E_b and E_b/(16π²α_c^{3/2})¼**, not between 7.1 and 2.70. **Located precisely (2026-07-16):** the
 flagship E_b = ½α_c²M₂ = 2.284 meV (**1.5% high**) and the tie m_ν = 2.250 meV agree to **1.5%** and
 both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full phonon sum
 (+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
