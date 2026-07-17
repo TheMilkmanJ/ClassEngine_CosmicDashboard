@@ -32,59 +32,55 @@ background *is* the frozen field's potential energy and its Z₃ fluctuation *is
 Lagrangian), still unbuilt — lock 6, behind the basement door. **Down from "w = 1/3 *and* the
 linkage" to the linkage alone.** Item 1 stays OPEN; it is one notch from closed, not several.
 
-## Item 1 — A CANDIDATE MECHANISM, and it is a hinge the model already carries (2026-07-16)
+## Item 1 — what A = √2 is, and what regime the family field is in (2026-07-17)
 
 **The debt, restated exactly:** *"the mechanism forcing amplitude = √2 / phase = variance."*
 
-**Step 1 — what A = √2 *is*, computed.** On the Z₃ ring √m_k = M(1 + A cos(θ + 2πk/3)), the three
-120° points give mean(cos) = 0 exactly, so **mean(√m) = M for any θ** and **var(√m) = M²A²/2**.
-Therefore **var(√m) = [mean(√m)]² ⟺ A² = 2 ⟺ A = √2 ⟺ Q = 2/3**, and the identity is
-**θ-independent** — it holds along the whole ring, not at a chosen phase. This is the corpus's own
-sentence made quantitative: *"the fluctuation (variance, the −k_down face) equals the background
-(mean, the k_up face); A = √2 is exactly this balance."*
+**A = √2 IS the variance-equals-mean point [COMPUTED, exact].** On the Z₃ ring
+√m_k = M(1 + A cos(θ + 2πk/3)), the three 120° points give mean(cos) = 0 exactly, so
+**mean(√m) = M for any θ** and **var(√m) = M²A²/2**. Therefore
+**var(√m) = [mean(√m)]² ⟺ A² = 2 ⟺ A = √2 ⟺ Q = 2/3**, and the identity is **θ-independent** — it
+holds along the whole ring, not at a chosen phase. This makes the file's own sentence quantitative:
+*"the fluctuation (variance, the −k_down face) equals the background (mean, the k_up face)."*
+[PRTOE_quantum_trio.md](../PRTOE_quantum_trio.md) §4b names that same configuration the **neutral
+zone** — *"the critical seam… the two phases are exactly degenerate"* — with the **Ginzburg window
+as its width**.
 
-**Step 2 — that balance is the NEUTRAL ZONE.** [PRTOE_quantum_trio.md](../PRTOE_quantum_trio.md) §4b
-defines the medium's third stage as *"pure neutrality, the critical seam. At the transition the two
-phases are exactly **degenerate**"* — with the **Ginzburg window as its measured width**. "The two
-faces are equal" and "the two phases are degenerate" are the same statement. **The Koide point is
-the seam.**
+**The family field's REGIME [ARGUED from structure; the number is not computable].** A Ginzburg
+*number* needs the quartic, the gradient term and T_c — i.e. the generation-structure Lagrangian,
+which is **not built** (the floor below). But the regime follows from what is known:
+1. the 120° ring is *"the three-defect equilibrium under the medium's own **log** coupling"* (above);
+2. a logarithmic pair interaction is the **2D** Laplacian's Green function, and the ring is itself
+   planar — (M, θ), a modulus and a phase;
+3. a **discrete** Z₃ order parameter in d = 2 is the **3-state Potts** universality class
+   (Mermin–Wagner bars *continuous* symmetry breaking in 2D; Z₃ is discrete, and 2D q = 3 Potts has
+   a genuine continuous transition).
 
-**Step 3 — a seam is measure-zero, so something must hold the system on it.** Tuning is not
-available (Q is measured at 0.9σ from exact, across three generations). An **attractor** is the only
-other option — and **the model already posits one**:
-[PRTOE_dcdf_superfluid.md](../PRTOE_dcdf_superfluid.md) §5 makes the dark-energy sub-ohmic closure
-(s ≈ 0.26) *"**CONDITIONAL** on the settling attractor being **self-organized-critical**"*.
-**Self-organized criticality is, by definition, a mechanism that drives a system onto its critical
-seam and holds it there without tuning.**
+| | β | α | ν | regime |
+|---|---|---|---|---|
+| mean-field — the **dyad's** condensation (`source/background.c`) | 1/2 | 0 | 1/2 | Gi ≪ 1 |
+| **2D 3-state Potts — the family field** | **1/9** | 1/3 | 5/6 | **fluctuation-dominated, Gi ~ O(1)** |
 
-**The claim: ONE HINGE CARRIES BOTH.** If the settling attractor is genuinely SOC, it forces the
-family field onto the seam ⟹ var = mean² ⟹ **A = √2** — which is exactly the mechanism this item
-owes. The same attractor delivers the DE closure's s ≈ 0.26. **They stand or fall together**, and
-§5 already names the shared failure mode: *"otherwise the transition boils, first-order"* — in which
-case the closure misses **and** A = √2 has no mechanism.
+**Two consequences.**
+- **The dyad's Gi ≪ 1 was never transplantable here** — different field, different universality
+  class, β = 1/9 against 1/2. Confirmed from a second direction (see the ledger, process error 39).
+- **The seam is WIDE, not measure-zero.** d < 4 makes fluctuations dominate near t = 0; d = 2 drives
+  Gi to O(1); and the neutral zone's width *is* the Ginzburg window. **A 2D-Potts family field sits
+  in a broad critical region, not on a knife-edge — so no attractor is needed to hold it there, and
+  no tuning is implied by Q sitting 0.9σ from exact.**
 
-**Which Ginzburg number applies — checked, and the answer is: none of them yet.** The corpus
-contains **exactly one** computed Ginzburg number, and it belongs to a **third** transition:
+**A retired candidate.** A previous pass proposed that the self-organized-critical settling
+attractor of [PRTOE_dcdf_superfluid.md](../PRTOE_dcdf_superfluid.md) §5 forces A = √2, making one
+hinge carry both Koide and the dark-energy closure. **Retired:** its motivating premise — that a
+seam is measure-zero and therefore needs an attractor — is false at Gi ~ O(1). Koide does not need
+the SOC attractor; the DE closure still does; **they were never linked.** The retirement is in
+[PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md).
 
-| claim | whose transition | regime |
-|---|---|---|
-| **Gi ≪ 1, mean-field β = ½** (`source/background.c`) | the **dyad's** condensation at T_c (M₂ = α²·T_c, "T_c the dyad's condensation temperature") | mean-field |
-| **the SOC settling attractor** (§5 above) | the **dCDF's** settling — the fluctuation-dissipation response (s ≈ 0.26 against ohmic s = 1) | critical |
-| **the family field** (this item) | a scalar family field, the Z₃ three-defect equilibrium "under the medium's own log coupling" | **unstated** |
-
-**These are three different fields and three different transitions.** The dyad's mean-field Gi
-therefore says **nothing** about whether the dCDF's settling attractor is SOC, and nothing about the
-family field's regime. **No Ginzburg number has ever been computed for either of the two that
-matter here.**
-
-**Grade: CANDIDATE — a guess with an argument, not a result.** Computed: step 1 (exact,
-θ-independent). Quoted: steps 2 and 3, from the corpus's own definitions. **Owed:**
-(i) **compute the family field's Ginzburg number** — this is the decisive test and it does not
-exist; Gi ~ 1 admits the seam, Gi ≪ 1 kills the candidate outright;
-(ii) that the *family* field settles under the *same* attractor as the dCDF's order parameter —
-different sectors, transfer asserted not shown;
-(iii) the V ~ M², K ~ R² identification (above), still the floor beneath all of it.
-**Item 1 stays OPEN — one mechanism away, and that mechanism is load-bearing elsewhere, so it
-cannot be adopted for free.**
+**Item 1 stays OPEN, and what is owed is now sharper than "a mechanism":**
+(i) **the family field's Lagrangian** — without it there is no Gi *number*, only this regime
+argument, and the 2D reading rests on the log coupling being literal rather than metaphorical;
+(ii) **the V ~ M², K ~ R² identification** (below) — the floor beneath all of it;
+(iii) if the 2D-Potts reading holds, the model gains a **falsifier it did not have**: the family
+sector would carry 3-state-Potts exponents (β = 1/9, α = 1/3, ν = 5/6), not mean-field ones.
 
 Coupling-geometry status: screened-room (laboratory masses) — verdicts hold by geometry.
