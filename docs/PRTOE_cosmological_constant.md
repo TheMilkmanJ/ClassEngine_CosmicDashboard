@@ -135,12 +135,22 @@ consistency structure applied to its most famous problem:
  chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
  would die by e^{−10⁵}; the settling law is an attractor), the friction partner is the
  neutrino bath (the medium's only tree-level coupling; the friction turns on where
- free-streaming turns off), and the freeze — Γ = H at T_f — lands at z ≈ 12 with a
- decade-wide fade (z ≈ 32 → 4): **w = −1 exact through the observable range, untuned; the
- settling's ash banks as dark matter (the drain, the fluid's own dust face); the frozen
- residual is Λ.** Candidate grade throughout: the attractor/√N session is the doubly
- load-bearing promotion computation (the coupling exponent AND the drain magnitude from one
- calculation). The original statement stands beneath it: the condensate is **still settling from the one
+ free-streaming turns off), and the freeze is a **decoupling, not a rate-crossing**: the
+ condensate stays thermally locked to the *relativistic* neutrino bath (the friction rate
+ runs Γ/H ≈ 5×10¹⁰ ≫ 1 — the tracking condition, computed forward), and the settling
+ freezes when that bath goes non-relativistic and quits at T = m_ν. Because the **lightest**
+ neutrino is the *last* relativistic friction partner (heavier species go NR earlier, at
+ z ≈ 300, 50; the lightest at z ≈ 12), it sets the final freeze — **forward-explaining the
+ registered tie ρ_Λ¼ = m_ν,lightest = 2.25 meV**: the last bath to quit sets the frozen
+ excitation scale. **w = −1 exact through the observable range, untuned; the settling's ash
+ banks as dark matter (the drain, the fluid's own dust face); the frozen residual is Λ.**
+ Candidate grade: the amplitude *scale* is now FORWARD via the neutrino-decoupling
+ freeze-out (`scripts/kubo_freeze.py`); the earlier √N *lineshape-suppression* route (the
+ "Γ₀ = 76 meV" target) is retired as an inversion artifact — the collisionless neutrino
+ response is Ohmic in **both** the density and the scalar (Majoron) channel, so no
+ sub-Ohmic lineshape exists to supply it. The one **owed** piece is the O(1) coefficient of
+ the frozen equilibrium excitation (exactly m_ν, or c·m_ν?), which needs the condensate's
+ specific heat / equation of state at freeze. The original statement stands beneath it: the condensate is **still settling from the one
  genesis injection** — thermal counterflow (the fountain effect, the corpus's own
  genesis name) persists while any deviation from the T = 0 ground state remains, dying
  only asymptotically (the third law's ramp). The residual excitation of a nearly-settled

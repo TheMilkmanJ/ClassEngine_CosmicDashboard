@@ -69,8 +69,13 @@ the medium's own ultralight excitations.
 ## 4. The neutrino sector
 
 - **Σm_ν ≈ 61.4 meV, normal ordering — recorded prediction**, from the tie ρ_Λ¼ = m_ν,lightest (the DE
-  floor equals the lightest neutrino mass). Requires the Majorana mechanism. See
-  [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
+  floor equals the lightest neutrino mass). Requires the Majorana mechanism. The tie now has a
+  **forward mechanism** (`scripts/kubo_freeze.py`): the dark condensate thermally settles into the
+  cosmic neutrino bath (its only tree-level partner) with Γ/H ≈ 5×10¹⁰ ≫ 1 — it tracks the bath — and
+  the settling freezes when the bath goes non-relativistic and decouples. The **lightest** neutrino is
+  the last relativistic friction partner (heavier species go NR earlier), so it sets the final freeze:
+  ρ_Λ¼ = m_ν,lightest, forward at the scale (O(1) coefficient owed — the condensate's specific heat at
+  freeze). See [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
   The value of μ is **input** (undERIVED), equal to the electron-mass-anchored meV scale of §2.
