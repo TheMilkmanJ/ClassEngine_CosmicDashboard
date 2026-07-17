@@ -33,7 +33,7 @@ fluid, two eras**.
 > 4f this section wants for L = 3 at 0.143 meV (**−93.7%**).
 > ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4c.)
 >
-> **The mechanism (JP, 2026-07-16): the medium is "He-3-A missing its baryonic matter."** He-3
+> **The mechanism (2026-07-16) — the medium is He-3-A *missing its baryonic matter*.** He-3
 > pairs p-wave *because* its baryonic hard core suppresses ℓ = 0 — chiral superfluidity is not
 > intrinsically p-wave; **helium is just made of baryons**. Strip the baryonic matter and the hard
 > core goes with it, leaving s-wave unsuppressed. That is precisely the ℓ = 0 the data selects, and

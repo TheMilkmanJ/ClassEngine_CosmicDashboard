@@ -14,10 +14,10 @@
 > old `c(m) = (m/m₀)^{1/4}` route was a relic of *this* decomposition, and read backward it is
 > dead by its own arithmetic — it forces c = 1.005 while the census excludes c = 1.
 >
-> **Why the banner exists (2026-07-16):** an external reviewer read this file and reported
-> `f_amp ≈ 0.6` as the model's live claim, because nothing here said otherwise. The generic
-> "some statuses may be superseded" hedge below was not enough — a retired *headline
-> decomposition* needs a named retirement, not a disclaimer. Kept for provenance only.
+> **Why the banner exists (2026-07-16):** this file's `f_amp ≈ 0.6` was cited as a live claim in
+> external review, because nothing here said otherwise. The generic "some statuses may be
+> superseded" hedge below is not sufficient — a retired *headline decomposition* requires a named
+> retirement, not a disclaimer. Kept for provenance only.
 
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

@@ -316,8 +316,8 @@ its angular momentum L**, which is why 3 generations demand L = 3. So ℓ = 0 �
 pairs, zero generations**, and a parity-*even* singlet with no θ·R·R̃ and no GW handedness. The
 s-wave the DE value demands would take the entire chirality wing with it.
 
-**The mechanism that explains the s-wave selection — and prices it (JP, 2026-07-16).** The reading
-"*the medium is He-3-A missing its baryonic matter*" supplies the physics behind the table above.
+**The mechanism that explains the s-wave selection — and prices it (2026-07-16).** The reading
+that the medium is *He-3-A missing its baryonic matter* supplies the physics behind the table above.
 **In He-3, p-wave pairing is caused by the baryonic hard core**: the atoms are composite (2p+1n+2e),
 cannot overlap, and the core suppresses ℓ = 0 — pairing is *forced* up to L = 1. It is not that
 chiral superfluidity is intrinsically p-wave; it is that helium is made of baryons. **Strip the
@@ -326,7 +326,7 @@ unsuppressed attractive s-wave channel binds in s-wave. That is exactly the ℓ 
 at +1.5%, and it explains *why* the hydrogenic form was the right one all along.
 
 **And the chirality survives it — because the chirality was never sourced from the pairing
-(JP, 2026-07-16).** The medium's handedness comes from **the genesis pour** — the helical roll-up
+(2026-07-16).** The medium's handedness comes from **the genesis pour** — the helical roll-up
 of the model's one realized white hole ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §1;
 [PRTOE_white_holes.md](PRTOE_white_holes.md)) — carried by the **winding integer n**, not by the
 pairing channel's L. This is checkable against every claim that spends it, and every one traces to
@@ -351,11 +351,12 @@ re-pointed, not cancelled** (§2's banner carries it).
 stands at 1.5% with its partial wave now *data-selected* and its s-wave channel *mechanically
 motivated* (no baryonic core → no ℓ = 0 suppression). The perturbations door returns to +20.0%
 with its O(1) still un-built — but it is now un-built for a *stated* reason (the cap is a two-body
-Coulomb ground state, and no gap-anisotropy or pair-counting trick applies to it). Today's pass
-tried two O(1) fixes, retired both, and found that the DE value was never the fragile part.
+Coulomb ground state, and no gap-anisotropy or pair-counting trick applies to it). Two O(1)
+candidates — a pair count and a gap anisotropy — were raised and retired in reaching this state;
+the DE value was never the fragile part.
 
-**Grade: the door is at +20.0% and the O(1) is un-built** — same as this morning, minus two dead
-candidates and plus one named structural fork. The DE *value* is unchanged throughout — it stands
+**Grade: the door is at +20.0% and the O(1) is un-built** — minus two dead candidates, plus one
+named structural fork (resolved in §4c below). The DE *value* is unchanged throughout — it stands
 as a 1.5% prediction (flagship / tie). Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
