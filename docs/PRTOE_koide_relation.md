@@ -76,6 +76,21 @@ fluctuation *is* the family field's kinetic energy and its background *is* the p
 property of the family-field potential (the generation-structure Lagrangian), which is not yet
 built. Pushed one notch; still gated there.
 
+**Ramp-law fresh angle — the freeze-out reading (2026-07-16).** The Z₃ "three defects" is a
+*discrete step-menu*, and ramp discipline says read it as a value the continuous family field
+*freezes into*, not a hand-placed geometry. That reframe does real bookkeeping work: it collapses
+the two apparently-separate inputs — the EoS w = 1/3 *and* the linkage A² = K/V — into **one**.
+A field that is a *pre-basin excitation* sits **in** a medium whose EoS is the derived w = 1/3, so
+its kinetic/potential split is fixed *by the medium it lives in*: K/V = (1+w)/(1−w) = 2 is not a
+second assumption bolted onto w = 1/3 — it *is* w = 1/3, read energetically. So A = √2 is the value
+the family amplitude **freezes to when the family structure sets in the radiation-era condensate**,
+the exact structural parallel to the dark-energy scale freezing at the ν-decoupling transition
+(Λ¼ = m_ν,lightest; [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b). Both are
+"a scale inherits the epoch's equation of state at the moment its bath decouples." The residual is
+now a *single* owed identification — that the √m background is the frozen field's potential energy
+and the Z₃ fluctuation its kinetic energy (V ~ M², K ~ R²) — down from "w = 1/3 *and* the linkage."
+Sharpened again; the last identification is still owed (the generation-structure Lagrangian).
+
 ## 3. Falsifiable content
 
 The protection mechanism predicts: any environment-dependence of lepton masses is

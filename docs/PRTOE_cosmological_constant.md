@@ -182,7 +182,19 @@ both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full
 fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
 equilibrium identity does not simply "remove the measure"; f is a partial Gibbs–Duhem
 cancellation on the mode sum, the genuinely un-built calculation. The DE *value* stands as a
-1.5% prediction (flagship / tie); the O(1) *mechanism* is bracketed but owed. Menu-watched, not read:
+1.5% prediction (flagship / tie); the O(1) *mechanism* is bracketed but owed. **Ramp-law
+fresh angle, tried and failed (2026-07-16):** the hard cap k_max = E_b/c_s is a *step* exactly
+where the Bogoliubov dispersion bends (k ~ 1/ξ), so ramp discipline says replace it with the
+soft collective-weight edge — the same move process-error-20 used for the induced-G Sakharov
+coefficient. But the compute goes the **wrong way**: every physical soft edge adds the k > k_max
+tail, and the mode measure k³ is still rising there, so softening only *raises* the door
+(exp(−x²) → 3.2 meV; any rolloff extending past the cap adds more than a sub-cap rolloff removes).
+The hard-cap 2.70 is the *low* end of the phonon-sum door, not the high end; the ramp cannot pull
+it down to 2.25. So the perturbations door intrinsically over-predicts by ≥18%, and the O(1)
+reconciliation is **not** a softening artifact — it is the partial Gibbs–Duhem cancellation f,
+which stays un-built. The negative sharpens the flag: the DE value's honest precision is the
+flagship/tie 1.5%, and the perturbations door is a 20%-consistent cross-check, not a third route
+to be forced into exact agreement. Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 
