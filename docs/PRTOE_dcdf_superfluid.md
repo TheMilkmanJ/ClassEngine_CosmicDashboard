@@ -3,8 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: identity consolidation, 2026-07-15 — the dCDF's scattered identity pulled into one
-place. Grades are inline: **[ESTABLISHED]** derived/coded and load-bearing · **[CANDIDATE]**
+*Status: identity file. Grades are inline: **[ESTABLISHED]** derived/coded and load-bearing · **[CANDIDATE]**
 coherent synthesis, unbanked · **[KILLED]** tried and dead. The quantitative derivations live in
 [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md) /
 [PRTOE_v5_dCDF_complete.md](PRTOE_v5_dCDF_complete.md); this file is the WHAT-IT-IS, not the

@@ -4,9 +4,7 @@
 
 *Status: an emergent-gravity framework at* ***derived-conditional*** *grade — a closed
 expression for Newton's constant with explicitly named residual conditions. All claims
-carry their grades inline; nothing on this page is asserted above its evidence.
-(Consolidated 2026-07-13 from the original framework document and three development
-addenda; internal-review provenance summarized inline.)*
+carry their grades inline; nothing on this page is asserted above its evidence.*
 
 ---
 
@@ -114,7 +112,7 @@ to zero — by the Standard Model plus three right-handed neutrinos: the content
 framework independently requires for Majorana neutrino masses.** The framework's field
 content lands on a knife-edge condition the literature identifies as hard to meet.
 
-*(The scalar sector, resolved 2026-07-16.* The count above runs over fermions and gauge bosons,
+*(The scalar sector.* The count above runs over fermions and gauge bosons,
 whose supertrace is zero for SM + 3ν_R. The Higgs is a complex SU(2) doublet — four real
 scalars — and Visser's k₁ assigns each real scalar the standard heat-kernel R-coefficient
 **(1/6 − ξ_H)**, *not* zero (Seeley–DeWitt a₁; Birrell–Davies §6, Parker–Toms; the coefficient

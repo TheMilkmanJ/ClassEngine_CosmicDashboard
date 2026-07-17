@@ -78,7 +78,7 @@ rescaling — and this model, for unrelated reasons, is only ALLOWED to rescale 
 coincidence, at minimum, has finally met a structure shaped like itself.*
 
 
-## The fence, measured (paid 2026-07-12)
+## The fence, measured
 Q = 0.6666605 ± 6.8×10⁻⁶ today (τ-dominated; 0.9σ from exactly 2/3). The dyad's
 multiplicative universality preserves Q by construction; any non-multiplicative
 distortion must sit under ~7×10⁻⁶ — the numerical fence, improvable by Belle-II-class

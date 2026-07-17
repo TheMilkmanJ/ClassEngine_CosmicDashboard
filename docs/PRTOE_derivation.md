@@ -58,7 +58,7 @@ $$ \ddot\phi + 3H\dot\phi + V_\phi
  3F H² = κ₀ρ − 3HḞ (+K-terms); confirm the implemented H matches this and not the
  minimally-coupled form.
 
-### 2.1 Activation gates are redundant (measured 2026-07-03)
+### 2.1 Activation gates are redundant
 
 The covariant gate trans = ½(1+tanh[(ln(ρ_φ/ρ_r) − ln 0.01)/0.1]) multiplies the field
 evolution. Ablation (`prtoe_ablate_gates = yes`, forces trans → 1 from a = 10⁻²⁰):
@@ -74,7 +74,7 @@ quintessence. **Recommendation: remove the gate machinery from the physics path
 entirely** (kept currently for A/B testing via the flag). This also applies to
 `coupling_strength` mode scaling.
 
-## 3. Local gravity / screening (derived 2026-07-03)
+## 3. Local gravity / screening
 
 In a static Newtonian environment of density ρ, the scalar EOM linearizes to
 
@@ -93,7 +93,7 @@ Measured with ξ = 5×10⁻⁶ (test_active_prtoe_simple): |γ−1| = 2.26×10�
 Cassini (2.3×10⁻⁵) by ~10× and sits **one order of magnitude below current bounds**:
 a falsifiable near-term prediction of the model at this coupling.
 
-- **Thin-shell factor: computed 2026-07-03 — NO-GO for the current action.**
+- **Thin-shell factor: NO-GO for the current action.**
  A thin shell needs m_eff(ρ_body)·R_body ≫ 1. With V = V0e^{−λφ} + ½m²φ² (m ~ H₀)
  the field's Compton wavelength is cosmological at ALL densities:
  m_eff·R_sun ≈ 5×10⁻¹⁹ independent of ξ (tested ξ = 5×10⁻⁶ … 1). No shell forms;
@@ -110,7 +110,7 @@ a falsifiable near-term prediction of the model at this coupling.
  screening cannot open a Cassini-allowed, cosmologically detectable window
  for this model class.**
  - The known escape is KINETIC (true Vainshtein) screening — **implemented
- 2026-07-03 as PRTOE v2** (`g3_prtoe`, default 0 = exact v1):
+ as PRTOE v2** (`g3_prtoe`, default 0 = exact v1):
  L₃ = −(g3/Λ³) X □φ, Λ³ = M_Pl H0². Background EOM (minisuperspace):
  [1 + (6g3/Λ³)Hφ̇] φ̈ = RHS − (3g3/Λ³)(Ḣ+3H²)φ̇²; Friedmann picks up
  ρ₃ = (2g3/Λ³)Hφ̇³ (linear in H, joins Ḟ in the quadratic solve);
@@ -120,7 +120,7 @@ a falsifiable near-term prediction of the model at this coupling.
  was excluded ×450 in v1) while low-ℓ TT deviates from ΛCDM by 2.5×10⁻³.**
  The v1 scan values (ξ = 0.1 → 4.4%, ξ = 1 → 14% TT) are now in the allowed
  region: PRTOE v2 has an open discovery window ξ ∈ [~10⁻², ~1].
- **δφ galileon terms + stability conditions: DERIVED & IMPLEMENTED 2026-07-03.**
+ **δφ galileon terms + stability conditions: DERIVED & IMPLEMENTED.**
  From the quadratic action of L₃ on FLRW (DPSV structure, metric perturbations
  in L₃ neglected — valid to O(α_B)):
  N_gal = 1 + 6(g₃/Λ³)Hφ̇ (kinetic normalization; **N > 0 = no-ghost**, enforced)
@@ -129,7 +129,7 @@ a falsifiable near-term prediction of the model at this coupling.
  (`prtoe_perturbations_derivs`). Friction receives only O(α_B²)-different
  treatment between schemes — irrelevant at α_B ≤ 10⁻³.
 
- **v3 compatibility window (derived 2026-07-03): g₃ ∈ [~10⁻¹⁷, ~10⁻¹⁰].**
+ **v3 compatibility window: g₃ ∈ [~10⁻¹⁷, ~10⁻¹⁰].**
  Two competing requirements on g₃ with Λ³ = H₀²:
  (i) Vainshtein/Cassini: ε = (AU/r_V)^{3/2} ∝ g₃^{-1/2}; needs g₃ ≳ 1.6×10⁻¹⁷
  for ξ ~ 10⁻².
@@ -152,9 +152,7 @@ a falsifiable near-term prediction of the model at this coupling.
 
 ## 4. Linear perturbations (scalar sector)
 
-Field perturbation, conformal time (`perturbations.c:prtoe_perturbations_derivs`,
-corrected 2026-07-03 — previously the stiffness bracket was in physical form,
-inconsistent by a²):
+Field perturbation, conformal time (`perturbations.c:prtoe_perturbations_derivs`):
 
 $$ \delta\phi'' + \Big(2\mathcal{H} + \tfrac{F_\phi}{F}\phi'\Big)\delta\phi'
  + \Big(k^2 + a^2\big[m_{\rm eff}^2 + \beta_{k^2} + \tfrac{F_{\phi\phi}}{F}\dot\phi^2

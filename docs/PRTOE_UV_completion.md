@@ -23,7 +23,7 @@ coupling is
 
 c is **census arithmetic**, not a threshold-matching computation. This docket's premise — that c is
 "the one irreducible free parameter of the effective theory," reachable only through a months-scale
-UV climb — **is superseded.** Its own candidate mechanism predicted **c = 1**; the derived value is
+UV climb — **does not hold.** Its own candidate mechanism predicted **c = 1**; the derived value is
 **9/10**. That candidate is dead and is filed in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
@@ -246,7 +246,7 @@ Preliminary read of the running dyad_mnu chain (~9200 rows, R-1~0.2, STALLED/pla
 
 ## CANDIDATE #17 MECHANISM — c=1 as the conformal-origin boundary condition — **DEAD**
 
-> **SUPERSEDED.** This mechanism's payoff was "c=1 becomes PREDICTED". **c = 9/10 is derived from
+> This mechanism's payoff was "c=1 becomes PREDICTED". **c = 9/10 is derived from
 > the census** by an unrelated route, and 1 ≠ 9/10. Retained as provenance only; filed in
 > [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). Do not cite.
 
