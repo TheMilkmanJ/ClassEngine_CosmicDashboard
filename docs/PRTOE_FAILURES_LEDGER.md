@@ -507,3 +507,37 @@ against grabbing the nearest number. The enthusiasm was the tell: the match was 
 (three things, 120°, falls apart otherwise), never to the *physics* (what gravitates, and whether it
 persists or converges). **A theorem that matches the story is not a theorem that applies.**
 
+### The Komar/virial "second route" to A² = 2 — CHASED AND NOT LOAD-BEARING (2026-07-17)
+
+**The watch.** Working the merge signs surfaced that the **Komar (active gravitational mass)
+factor** 1+3w and the **virial linkage** (1+w)/(1−w) *both* equal **2** at w = 1/3, and that they
+are different functions crossing at only two points. It looked like a second, independent route to
+Koide's A² = 2. **Chased to a verdict rather than left as a watch** — a documented failure is a
+fence; an undocumented one gets re-walked.
+
+**Result 1 — the coincidence is exactly the statement d = 3 (this part is real).** In D = d+1
+spacetime dimensions the acceleration equation is ä/a = −(8πG/d(d−1))[(d−2)ρ + d·p], so the active
+mass source is ρ[(d−2) + d·w] and the normalised Komar factor is **F(w) = 1 + d·w/(d−2)** — the
+familiar 1+3w *only* at d = 3. The virial linkage **G(w) = K/V = (1+w)/(1−w)** is
+dimension-independent (it is the scalar EoS definition). Solving F = G in general d:
+
+| | value |
+|---|---|
+| non-trivial crossing | **w_cross = (4−d)/d** |
+| radiation (p = ρ/d) | **w_rad = 1/d** |
+| they coincide iff | **4 − d = 1 ⟹ d = 3, uniquely** |
+
+*Swept:* d = 4 → 3/2 vs 5/3; d = 5 → 4/3 vs 3/2; d = 6 → 5/4 vs 7/5; d = 2 → divergent (the
+(d−2) factor kills the Newtonian limit). **Only d = 3 agrees.** This is consistent with the model's
+standing ruling that **the 3 in α_c = 3α is the spatial dimension** — recorded as a byproduct.
+
+**Result 2 — it is NOT load-bearing, and this is why it is filed here.** A² = 2 follows from
+G(1/3) = 2 **by itself**; the Komar factor is not a second route to it. **F and G are both functions
+of w alone, evaluated at the same w** — "two factors equal 2" is **w = 1/3 said twice**. It supplies
+no independent constraint and pays nothing toward the **owed identification** (that the √m
+spectrum's fluctuation *is* the family field's kinetic energy, K ∼ R², V ∼ M²), which is the actual
+debt. **A d = 3 identity, not a derivation.**
+
+**The fence.** Do not re-raise the Komar factor as support for A² = 2. Two functions of w agreeing
+at one w is not corroboration — it is one fact counted twice. The Koide debt is unchanged.
+

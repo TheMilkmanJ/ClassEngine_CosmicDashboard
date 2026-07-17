@@ -267,6 +267,14 @@ The claim that must do the work is the *merge condition*, not the angle.
 > forcing a ratio. But "marginally stable" and "merges" are different statements, and the leap is
 > not taken here.
 
+> **The Komar/virial watch raised with the retraction is CHASED and CLOSED — not load-bearing.**
+> F(w) = 1 + d·w/(d−2) (Komar) and G(w) = (1+w)/(1−w) (virial) cross at w = (4−d)/d, radiation sits
+> at w = 1/d, and they coincide **iff d = 3** — a real byproduct, consistent with the model's ruling
+> that the 3 in α_c = 3α is the spatial dimension. **But both are functions of w alone**, so "both
+> equal 2 at w = 1/3" is w = 1/3 counted twice: no independent constraint, and **nothing paid toward
+> the owed identification** (K ∼ R², V ∼ M²). Filed:
+> [PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md). **Do not re-raise it as support for A² = 2.**
+
 *(The original import is retained below as provenance. It is NOT live.)*
 
 ### [RETRACTED — see above] The blank's SHAPE from Lagrange/Gascheau (JP, 2026-07-17)
