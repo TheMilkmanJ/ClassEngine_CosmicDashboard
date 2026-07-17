@@ -2205,26 +2205,49 @@ supplies this entry's consilience inflates the light multiplet by **1.75×**:
 | T_dec > 200 GeV (all SM active) | 0.047 | 0.214 | **0.375** |
 | T_dec ~ 1 GeV (above QCD) | 0.097 | 0.444 | **0.778** |
 
-**Even at the earliest possible decoupling ΔN_eff = 0.375, against Planck's ΔN_eff ≲ 0.3 (2σ).**
-The largest g_dark Planck admits at *any* T_dec is 11.2; SU(2) needs 14. **And the sector cannot buy
-safety by making the Goldstones heavy:** a pseudo-Goldstone is lighter than its own confinement
-scale by construction (here √σ_dark = m_e = 511 keV), and **τ is spending exactly the lightness
-ΔN_eff needs it not to spend** — heavy dark quarks drive T_c/√σ back toward the pure-glue 0.69–0.71
-and break this entry's own central claim. Since n/p freeze-out is at T ≈ 700 keV > 511 keV >
-m_π,dark, **the dark pions are relativistic exactly when BBN counts radiation.** At ΔY_p/ΔN_eff ≈
-0.013 that is ΔY_p ≈ 0.0049 ≈ **+1.2σ**, and the sign is wrong: more relativistic dof → faster
-expansion → earlier freeze-out → more neutrons → **higher** Y_p, on top of the model's **already
-+1.3σ adverse Y_p scar → ≈ +2.5σ.**
+**Even at the earliest possible decoupling ΔN_eff = 0.375 against Planck's ≲ 0.3 (2σ)**, and the
+largest g_dark Planck admits at *any* T_dec is 11.2 — below the 14 SU(2) requires.
+
+**The ramp audit made it worse (snag protocol 5a, same day).** A first pricing put g = 14 at BBN.
+That was a **phase error**: n/p freeze-out is at T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 —
+the dark sector is DECONFINED at freeze-out and the Goldstones do not exist yet.** The correct
+count there is dark quarks + gluons = **27** (6 gluon + 21 quark dof), giving **ΔN_eff = 0.723**.
+**And the Boltzmann ramp supplies no relief, because τ is spending exactly the lightness that would
+have supplied it** — heavy dark quarks drive T_c/√σ back toward the pure-glue 0.69–0.71 and break
+this entry's own central claim, while a 100 keV quark at 700 keV is suppressed by only
+ρ/ρ₀ = 0.997. At ΔY_p/ΔN_eff ≈ 0.013 that is ΔY_p ≈ 0.0094 ≈ **+2.3σ**, sign wrong (more dof →
+faster expansion → earlier freeze-out → more neutrons → **higher** Y_p), on top of the model's
+already **+1.3σ adverse Y_p scar → ≈ +3.6σ.**
 
 **5. Therefore a fifth kill: the dark sector must have NEVER THERMALISED with the Standard Model.**
-If it thermalised, this entry's own roster drives the model's weakest row to ~2.5σ adverse. Non-
+Thermalised, this entry's own roster drives the model's weakest row to ~3.6σ adverse. Non-
 thermalised, ΔN_eff → 0 and the roster survives — but the portal coupling now carries a hard upper
 bound it did not have before, and **CMB-S4 (±0.03) tests it either way**. This constraint did not
-exist before the colour group was fixed; the old scan could not see it because it never contained
-the number 14.
+exist before the colour group was fixed; the old scan could not see it, in either phase.
 
-**(e)** The SU(2) N_f ≥ 2 chiral transition is reported first-order, which owes a check against the
-settling attractor ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5).
+**(e) The first-order transition, checked — and it is not this entry's problem, it is the dark
+sector's (2026-07-16).** SU(2) with N_f ≥ 2 is reported first-order, but so is **N_f = 3 degenerate
+light quarks at any N_c** (the Columbia-plot corner; SU(3) included). **P-048 did not create this —
+naming the group made it visible.** It collides with three things at once:
+(i) **the model's own code** — the BBN engine's standing treatment is ε *"GROWING below T_c (the
+order-parameter birth **ramp**)"* ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md)); a first-order
+transition **jumps** the order parameter, it does not grow it;
+(ii) **the depth law (amendment 5, TOTAL)** — steps are illegal as inputs, assumptions,
+computational entries *and methods*, legal only as an exemption-clause output (quantized /
+topological / protected-zero) **with its ramp of approach shown**. A dynamical discontinuity has no
+exemption;
+(iii) **the model's own named failure mode** — [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)
+§5: *"conditional on the settling attractor being self-organized-critical (**otherwise the
+transition boils, first-order**)"*. Different sector, same grammar: the model already treats
+first-order as the way this goes wrong.
+
+**THE SQUEEZE — three constraints, one variable, and τ pulls against the other two.** The dark
+quark mass m_q is asked to be **light** by τ = 0.345 (the DE value; heavy quarks → pure-glue
+0.69–0.71), and **heavy** by both the depth law + coded BBN ramp (a crossover requires masses above
+the Columbia first-order region) and ΔN_eff/Y_p (Boltzmann suppression). **There may be no m_q that
+satisfies all three.** Finding the window — or proving it empty — is the sharpest open item this
+entry creates, and it is *not* SU(2)-specific: it is the model's N_f = 3 light-quark dark sector,
+invisible while the roster was a free scan.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*

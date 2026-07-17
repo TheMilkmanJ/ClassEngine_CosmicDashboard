@@ -89,12 +89,27 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   T_dec (the largest g_dark Planck admits is 11.2). **The sector cannot escape by making the Goldstones
   heavy:** a pseudo-Goldstone is lighter than its confinement scale (√σ_dark = m_e = 511 keV) by
   construction, and **τ is spending exactly that lightness** — heavy dark quarks push T_c/√σ back toward
-  the pure-glue 0.69–0.71 and break §2's value. So at n/p freeze-out (T ≈ 700 keV > 511 keV > m_π,dark) the
-  dark pions are **relativistic exactly when BBN counts radiation**: ΔY_p ≈ 0.013 × 0.375 ≈ +1.2σ, *added
-  to* the model's already **+1.3σ adverse Y_p scar → ≈ +2.5σ**. **Consequence: the dark sector must have
+  the pure-glue 0.69–0.71 and break §2's value. **The ramp audit made it worse:** n/p freeze-out is at
+  T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 — the dark sector is DECONFINED at freeze-out** and the
+  Goldstones do not exist yet; the correct count there is dark quarks + gluons = **27**, giving
+  **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's already **+1.3σ adverse Y_p scar → ≈ +3.6σ**. **Consequence: the dark sector must have
   NEVER THERMALISED with the SM** (then ΔN_eff → 0 and the roster survives, at the price of a hard upper
   bound on the portal coupling). Registered as the fifth kill of **P-2026-048**. CMB-S4 (±0.03) tests it
   either way. (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
+- **THE m_q SQUEEZE — three constraints, one variable, and τ pulls against the other two (2026-07-16).**
+  The dark quark mass is asked to be **light** by τ = 0.345 (§2 — heavy quarks drive T_c/√σ back toward the
+  pure-glue 0.69–0.71), and **heavy** by two independent others: (i) **ΔN_eff/Y_p**, which needs Boltzmann
+  suppression and gets none while τ keeps the quarks light; and (ii) **the depth law + the coded BBN ramp**,
+  because **N_f = 3 degenerate light quarks give a FIRST-ORDER transition at any N_c** (the Columbia-plot
+  corner — SU(3) included, so this predates and is independent of §6's SU(2)), whereas the BBN engine's
+  standing treatment is ε *"GROWING below T_c — the order-parameter birth **ramp**"*
+  ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md)), and a first-order transition **jumps** the order
+  parameter rather than growing it. Amendment 5 (the depth law, TOTAL) makes that step illegal outright: a
+  dynamical discontinuity is not quantized, not topological, not a protected zero, so it has **no exemption
+  clause**. [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 already names this failure mode —
+  *"otherwise the transition boils, first-order"* — for a different sector, in the same grammar.
+  **There may be no m_q satisfying all three. Finding the window, or proving it empty, is the sharpest open
+  item in this section**, and it was invisible while the roster was a free scan.
 
 ---
 
