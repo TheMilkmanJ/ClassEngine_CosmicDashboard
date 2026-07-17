@@ -111,8 +111,15 @@ Audited the CLASS C source against the model's claims. GOOD: dcdf has a real per
      "one linked superfluid". Consequences: (a) the amplitude derivation (eps = c*f_amp*Psi0/M_red)
      is NEVER tested by the fit -- m_e is just a free number; (b) part of the "competitive with ΛCDM"
      result comes from the extra freedom of 2 independent knobs, not the constrained dyad.
-  2. Screening is a hardcoded REDSHIFT step (z=50), NOT the density-dependent Theta-saturation the
-     model claims → the void m_e-step (docketed) physics is not in the code (why it was demoted).
+  2. [STALE as written -- corrected 2026-07-16] Screening was a hardcoded REDSHIFT step (z=50). The
+     code was RAMPED on 2026-07-12 (background.c: "the depth law: edges are fades, not steps") --
+     the low edge is now a tanh fade in ln(1+z) at varconst_transition_width, and 2026-07-14 added
+     the high edge's growth ramp (v^2 propto 1 - T/T_c). What REMAINS true: the transition is keyed
+     to REDSHIFT, not to the density-dependent Theta-saturation the model claims, so the void
+     m_e-step physics is still not in the code. The step is gone; the wrong variable is not.
+     CAVEAT: the ramp is only active when the config sets varying_transition_width -- and
+     cmp_prtoe_dyad_ev.input.yaml does NOT, so it runs the legacy step path while its evidence
+     companion cmp_prtoe_fixed_ev.input.yaml runs the ramp.
   3. The w=1/3 radiation-like phase is ABSENT (dcdf starts as dust w~0); the claimed 1/3→0→-1 is
      really 0→-1 in code. The conformal-origin c=1 argument (docketed) rests on this unimplemented phase.
   (Unverified: whether cs2_dcdf enforces c_s²=0 at the floor -- function body in an unlocated header.)
