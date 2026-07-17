@@ -79,3 +79,56 @@ tools, ordered by the chain:*
 wait on its outputs) → B6 (the axis referee) → B7. Nothing on the banned list appears
 above; nothing beneficial is missing — any session that mints a new computable adds its
 row here in the same commit.*
+
+## THE THEORY↔CODE GAP, MEASURED (2026-07-17)
+
+*A line-by-line read of the varying-constant path, from `background_varconst_of_z` through
+`thermodynamics.c` to the chain configs. `thermodynamics.c` itself is **vanilla CLASS** — it
+consumes the varconst rescalings (σ_T ∝ α²/m_e², rate ∝ α²/m_e³, recombination RHS ∝ α³m_e³) and
+contains no PRTOE physics. Everything the model contributes is upstream.*
+
+### 1. The T_c growth ramp is coded, unarmed, and a no-op either way
+
+`background.c` implements the model's ramp exactly: **f_high = 1 − (1+z)/(1+z_high)**, which is
+ε(T) = ε(1 − T/T_c) since T ∝ (1+z). **Verified against the model's own published stamps:** with
+z_high = z(T_c = 179 keV) = 7.62×10⁸, the formula returns **0.6089 at the D bottleneck** and
+**0.7765 at Li** — reproducing the documented **0.61ε / 0.78ε** exactly.
+
+**But `varying_z_high` is set in no config anywhere**, and the C default is 0, which makes the
+`if (varconst_z_high > 0.)` branch never fire: **f_high = 1 at every redshift.**
+
+**Arming it would change nothing.** CLASS's varconst acts through **recombination (z ≈ 1100)**, where
+the model's own ramp is saturated to **f_high = 0.999999**. **The growth ramp cannot affect any CMB
+observable** — it is structurally unable to. Claims that the ramp is "now also in the CMB-side code"
+are true of the source and empty of consequence. *(It matters on the BBN side, where it is applied —
+by `scripts/prym_ramped_splice.py`, offline.)*
+
+### 2. The BBN prior and YHe are BLIND to the dyad — this one is real
+
+Both lambdas in the armed configs **declare `varying_me` and never reference it in the body**:
+
+```
+bbn:  lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*log(omega_b/0.02236) - 0.2449)/0.0040)**2
+                                       + ((2.53e-5*exp(-1.6*log(omega_b/0.02236)) - 2.527e-5)/0.030e-5)**2 )
+YHe:  lambda omega_b, varying_me: 0.2471 + 0.0096*log(omega_b/0.02236)
+```
+
+The signature makes Cobaya pass ε; the body computes pure ΛCDM BBN from ω_b alone. **The model's own
+measured window (Y_p +0.85%, D/H +0.65%) never reaches the likelihood.** Two consequences:
+
+| | as scored | if the model were scored | gap |
+|---|---|---|---|
+| Y_p | 0.247100 (+0.55σ) | 0.249145 (+1.06σ) | |
+| D/H ×10⁵ | 2.5300 (+0.10σ) | 2.5398 (+0.43σ) | |
+| **BBN prior χ²** | **0.312** | **1.308** | **−1.0 unpaid — the chain is too generous** |
+
+**And the same blind lambda sets YHe, which is fed to `thermodynamics.c` for helium
+recombination.** The fit is handed a **ΛCDM helium fraction**: n_e ∝ (1−Y_p) is **−0.27%** off the
+model's own value. That is *not* a no-op — Y_p at the few-per-mille level moves the damping tail and
+is degenerate with n_s and H₀.
+
+**Status: the ~1 χ² is an unpaid cost the model owes; the YHe leg needs a run to size. Neither is
+fixed here — the chains are armed and running, and their configs are not to be edited mid-flight.**
+The fix is one line in each lambda (add the elasticity term, d(Y_p)/dε = 0.00163 per %ε), to be
+applied at the next cold start.
+
