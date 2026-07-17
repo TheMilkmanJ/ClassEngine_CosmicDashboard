@@ -29,7 +29,7 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 - [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — the elevator formulation: substrate, coupling, decomposition (the compressed front door)
 
 ## The spine and constitution
-MATH_SPINE (§0–22) · laws_and_rules/ (L1, L1a) · TRANSACTION_ATLAS · transaction_map ·
+MATH_SPINE (§0–22) · laws_and_rules/ (L1, L1a) · INTERACTION_ATLAS · interaction_map ·
 thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001→P-031)
 
 ## The two dark fields (the pieces; identity files, 2026-07-15)

@@ -10,7 +10,7 @@ pre-registered target. Rides M3 (the medium's reality) and the induced-gravity r
 (the Pauli finiteness condition, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5).
 Companion files: [PRTOE_inertia.md](PRTOE_inertia.md) (why sub-critical motion is free),
 [PRTOE_special_relativity.md](PRTOE_special_relativity.md) (the one-metric kinematics),
-[PRTOE_TRANSACTION_ATLAS.md](PRTOE_TRANSACTION_ATLAS.md) (the currency grammar this file
+[PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md) (the currency grammar this file
 extends).*
 
 ---
@@ -57,7 +57,7 @@ them is optional:
 
 ## 3. The receipt theorem: why light records and cannot build
 
-The transaction grammar ([PRTOE_TRANSACTION_ATLAS.md](PRTOE_TRANSACTION_ATLAS.md)) assigns
+The transaction grammar ([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)) assigns
 light the role of the *receipt*: the record a matter-to-matter transaction emits, carrying
 the transaction's information outward without participating in what was built. Filed
 originally as grammar, this role turns out to be a **theorem — the sign structure of the
@@ -209,6 +209,6 @@ near-miss); [Wilczek 1999] (mass from dimensional transmutation; "mass without m
 [Coleman–Glashow 1999] (photon dispersion bounds). Full entries:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the Pauli finiteness condition
 ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5), the transaction grammar
-([PRTOE_TRANSACTION_ATLAS.md](PRTOE_TRANSACTION_ATLAS.md)), the derivation-hunt entries
+([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)), the derivation-hunt entries
 127, 128, 134, 136, 137
 ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).

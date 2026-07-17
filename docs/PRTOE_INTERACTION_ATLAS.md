@@ -1,9 +1,9 @@
-# The Transaction Atlas
+# The Interaction Atlas
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Every fixed relation the transaction method has derived — the running
-answer to the bet that mapping all transactions makes all (dimensionless)
+*Every fixed relation the interaction method has derived — the running
+answer to the bet that mapping all interactions makes all (dimensionless)
 values appear. Entries only for derived relations, never fitted ones.
 Headline honesty (adopted, binding): the language
 is exact across six domains; the bet itself is UNSETTLED — the evidence

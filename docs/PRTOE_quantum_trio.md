@@ -7,7 +7,7 @@
 grammar-level, zero new predictions of its own; its content is the SEATING of three
 already-recorded results, plus one paired signature it inherits from the thermal program.
 Rides M3 (the medium's reality). Companion files:
-[PRTOE_light.md](PRTOE_light.md), [PRTOE_TRANSACTION_ATLAS.md](PRTOE_TRANSACTION_ATLAS.md),
+[PRTOE_light.md](PRTOE_light.md), [PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md),
 [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b (the three-door frame).*
 
 ---

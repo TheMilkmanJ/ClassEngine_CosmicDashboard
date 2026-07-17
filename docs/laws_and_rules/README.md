@@ -2,7 +2,7 @@
 
 *Single home for the model's constitutional layer, created 2026-07-08 because
 the laws were scattered across three docs (`PRTOE_v5_dCDF_complete.md` C1,
-`PRTOE_TRANSACTION_ATLAS.md`, `PRTOE_me_trigger.md`) and their amendment history
+`PRTOE_INTERACTION_ATLAS.md`, `PRTOE_me_trigger.md`) and their amendment history
 was tracked nowhere. This file collects them, sources each one, and — the part
 that was missing — keeps an **amendment ledger** so "how many times have we
 changed a law?" has a real answer going forward.*
@@ -170,7 +170,7 @@ judgment calls on whether they "count" — both are L1 clarifications, not new l
 
 *The clearest demonstration of L1 — the "clear it through gravity or EM?"
 question (2026-07-08). Cross-refs the graveyard entry "model-SOURCED cosmic
-birefringence" (8 angles) in `PRTOE_TRANSACTION_ATLAS.md`.*
+birefringence" (8 angles) in `PRTOE_INTERACTION_ATLAS.md`.*
 
 Cosmic birefringence is a transaction in **handedness currency** — rotating
 photon polarization is a *parity-odd* obligation (left-circular treated

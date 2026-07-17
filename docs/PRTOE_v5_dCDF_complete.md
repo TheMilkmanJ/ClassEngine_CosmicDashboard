@@ -14,7 +14,7 @@ the parameter accounting, the validated results, and the open falsifiers.
 It supersedes reading `PRTOE_v4_dCDF_derivation.md` + `PRTOE_v4_dCDF_results.md`
 as a pair; those remain the historical record of how v4 → v5 happened.
 Companion documents: `PRTOE_PREREGISTERED_PREDICTIONS.md` (the no-hedge
-registry, P-2026-001 through -005), `PRTOE_TRANSACTION_ATLAS.md` (every
+registry, P-2026-001 through -005), `PRTOE_INTERACTION_ATLAS.md` (every
 derived fixed relation, admission rule: derived-only, falsified
 entry-by-entry), `the internal validation record` (the adversarial review dialogue,
 14 turns, formally closed 2026-07-06 with verdict "not proven —
@@ -1150,7 +1150,7 @@ environment*: a standard-physics term plus a substrate-ledger term (the
 dyad's m_e amendment, the fluid's w(x), the candidate δB_D, the funded
 floor's structure gate are all instances). The systematic completion of
 the environment side — every derived fixed relation, and only derived
-ones — is maintained in **`PRTOE_TRANSACTION_ATLAS.md`**: four exact
+ones — is maintained in **`PRTOE_INTERACTION_ATLAS.md`**: four exact
 identities (among them ρ(basin entry) = 2M₂⁴ and total energy ≡ 0),
 four structural theorems, three one-parameter-many-observables
 coherences, an open ledger (named-not-derived: the tunneling
