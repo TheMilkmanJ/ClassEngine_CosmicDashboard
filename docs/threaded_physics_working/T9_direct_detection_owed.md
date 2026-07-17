@@ -3,7 +3,7 @@
 2. The neutrino-fog timeline: when do LZ/XENONnT/DARWIN reach the fog with continued silence (the model's "remains standing" calendar).
 3. The haloscope statement's edge cases: any parameter corner where the Meissner bound weakens (dense plasmas, early epochs)?
 
-## PAID (2026-07-12, light-compute): σ ~ 8×10⁻¹⁵⁰ cm² — ~100 ORDERS below the neutrino
+## PAID (light-compute): σ ~ 8×10⁻¹⁵⁰ cm² — ~100 ORDERS below the neutrino
 fog. "Below any conceivable reach" is now a number. The nulls are forever, quantified.
 
 Coupling-geometry status: screened-room (underground) — the null stands by geometry.

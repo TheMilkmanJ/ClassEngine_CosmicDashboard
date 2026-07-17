@@ -23,7 +23,7 @@ checked against the fact that matter won). When the AD-direct rectification land
 Tashiro–Vachaspati-class hint (left-handed, ~2σ, disputed — literature refresh owed)
 becomes readable. Until then: the map is STRUCTURE-COMPLETE, one link from live.
 
-## PAID item 2 (2026-07-16): the hint's status pass — it survives, and it made a successful prediction
+## PAID item 2: the hint's status pass — it survives, and it made a successful prediction
 
 **Recorded status confirmed current, and modestly upgraded.** The claim
 [TashiroVachaspati2013; TashiroChenFerrerVachaspati2015; ChenChowdhuryFerrerTashiroVachaspati2015]:
