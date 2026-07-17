@@ -22,7 +22,7 @@ whose pre-condensation youth is dark radiation, and ~30% of which (median
 genesis draw) is never-annihilating dark antimatter. Gravity is exactly GR;
 the medium's only coupling is geometry (a theorem-grade counting argument, not an
 assumption). (2) One amendment to the rules at recombination — a ~1%
-varying electron mass — buys H₀ = 69.7 at zero χ² cost against the full
+varying electron mass — buys **H₀ = 69.9** (current production; 69.70 was the July-6 refit) at zero χ² cost against the full
 Planck+ACT+SPT+BAO+SN stack. Everything else this program ever tried is
 dead, and the record of dead approaches is public.
 
@@ -155,7 +155,7 @@ entire tuning freedom to one number (x₀ ≲ e⁻³⁵), executed the funded
 floor's early face (ν·x_BBN ~ 500–6000 for all allowed x₀), and priced the
 B−L portal at GUT-scale suppression (the uniform neutron potential grows
 a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar: on the standing ramped
-prediction (D/H = 2.387×10⁵) the deuterium tension is **−2.9σ** against Cooke with the full
+prediction (D/H = 2.387×10⁻⁵) the deuterium tension is **−2.9σ** against Cooke with the full
 stated budget (obs ±0.030 ⊕ PRIMAT nuclear theory ±0.037); the 3.5% inter-code spread, unfolded,
 would soften it to −1.4…−2.2σ (ΛCDM itself carries 1.85σ under PRIMAT). *(The −2.0σ → −1.2σ
 repricing was the v5-era central value 2.468, superseded by the ramp.)* The healer is registered, conditional, and co-signed:

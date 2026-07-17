@@ -45,7 +45,7 @@ term, and gives the reading order.*
 | the error log | the log of caught errors (public, in the failures ledger) |
 | the killer / the kill | the named observation that falsifies a specific claim |
 | estimated / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
-| ς (final σ) | the one currently-undetermined sign in the H₀-ceiling formula (supernova color-channel direction) |
+| ς (final σ) | the sign in the H₀-ceiling formula — **SIGNED: ς = −1** (estimate grade, robust; the H₀-lever branch is dead, the bracket collapses to 70.9–71.3) (supernova color-channel direction) |
 
 ## 3. The reading order
 

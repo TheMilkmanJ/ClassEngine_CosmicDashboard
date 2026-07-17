@@ -1356,7 +1356,15 @@ detection results is quietly consistent with PRTOE and increasingly awkward for 
 particle-DM signal). SUPPORTED by continued direct-detection nulls at improving sensitivity.
 **Status:** CONSISTENT (all direct-detection null to date). A clean, standing PRTOE-vs-WIMP referee.
 
-## P-2026-010: Cosmic birefringence — the census fork (registered 2026-07-09, Version B)
+## P-2026-049: Cosmic birefringence — the census fork (registered 2026-07-09, Version B)
+
+> **ID CORRECTED 2026-07-17 — this entry was registered as `P-2026-010`, an ID already held since
+> 2026-07-07 19:37 MDT by the gravitational-wave standard-sirens bet (above).** Two unrelated
+> pre-registrations shared one number, so every downstream citation of "P-2026-010" was ambiguous
+> and one of the two bets was uncitable. **The earlier registration keeps the ID** (the timestamp is
+> the authority — that is this registry's founding rule); the later one moves to the next free slot.
+> **Nothing about the bet, its content, its date, or its kill conditions changes** — only the label.
+> Its registration timestamp remains **2026-07-09**.
 
 **Context:** the original strict census (P-2026-009) predicted birefringence NULL as a
 kill-switch (dark sector EM-neutral). This registers the OPPOSITE, unification-motivated
@@ -1378,16 +1386,16 @@ confirms Version B (dark sector GUT-unified with the SM, size predicted from α/
 (does θ evolve by ~f along the photon path at the right epoch?) and the specific GUT
 c_γ; (ii) Meissner check — does the condensate screen θ·F·F̃ as it screens the
 dark-photon portal? (likely not — an axion coupling is not a mediator exchange, survives
-the photon mass); (iii) B is a Version of the (unproven, ~10%) thermal successor, not the
+the photon mass); (iii) B is a Version of the (unproven) thermal successor, not the
 dead AD model. Registered as an honest forecast on the record, not a recorded result. Adversarially
 reviewed; grade pending. Standing on B unchanged until the sky answers — this is a neck-out
 falsifiable call, the good kind.
 
 ---
 
-## ANN-2026-018: P-2026-010 item (i) RESOLVED — birefringence phase-route COMPUTED NULL; Version A confirmed by computation (2026-07-09, P1's first enforcement)
+## ANN-2026-018: P-2026-049 item (i) RESOLVED — birefringence phase-route COMPUTED NULL; Version A confirmed by computation (2026-07-09, P1's first enforcement)
 
-**What was owed (P-2026-010, item i):** "the real θ-rolling history — does θ evolve by
+**What was owed (P-2026-049, item i):** "the real θ-rolling history — does θ evolve by
 ~f along the photon path at the right epoch?" Version B was registered *without* this
 computed. Here it was computed.
 
@@ -1413,7 +1421,7 @@ null.** Version A (β=0) is confirmed **by computation**, not merely by assumpti
 session that the dCDF is "rolling dark energy" sourcing β ~ 0.01–0.3° *locked to w(z)* is
 **withdrawn** — it rode two label-reasoning fouls ("w runs 0→-1" → "rolling field";
 "P=const" → "true Λ"), neither checked against w_dcdf(ρ)=-ρ_inf/ρ (background.h:680) or a
-computed θ̇(a). **Version B (P-2026-010) is demoted:** the as-built dCDF *cannot* source it
+computed θ̇(a). **Version B (P-2026-049) is demoted:** the as-built dCDF *cannot* source it
 (it would need a DE-scale-mass slow roller it does not have, plus the deleted coupling).
 Version B survives only as a property of a hypothetical *different* field, not this model.
 
@@ -1692,8 +1700,8 @@ shift cannot.
 **Kill:** radio-primordial D/H at ~2.53, or an unlocked ratio, or improved quasar systematics
 confirming 2.53 with the astration/optical channels closed. **Grade:** registered (amended
 2026-07-16: central value re-derived on the ramp, 2.40–2.42 → **2.387**; the referee prediction
-corrected from the pre-window 2.37 to 2.387; the fork's width demoted to OWED pending a stated error
-budget); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
+corrected from the pre-window 2.37 to 2.387; **the fork's width is STATED above** — obs ±0.030 ⊕ PRIMAT
+post-LUNA theory ±0.037 = ±0.0476, putting the standing 2.387 at −2.9σ); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
 and is now LARGER, not smaller** — the ramp moves the model further from Cooke, not closer. It no
 longer "roughly cancels" the Y_p lean: the Y_p counter-lean is itself smaller on the ramp (+1.09σ,
 not +1.3σ), so **the BBN column is net ADVERSE, not mixed-net-neutral.**
@@ -1720,6 +1728,52 @@ computed and falling short, or measured magnetic helicity with the WRONG sign vs
 photon a mass (m_γ² = 2q²n/m); photon-mass limits force q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — the fluid's
 EM-neutrality is structurally mandatory (birefringence null sharpened from "consistent" to
 "forced").
+
+## P-2026-029: The winding comb — a periodic tooth pattern in the CMB at ℓ ≈ 126 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
+
+> **RECONSTRUCTED, NOT BACK-DATED.** This bet was **cited across the corpus as registered** — as a
+> member of P-032's four-axis kill (:1729), as the owner of a tooth count with a second duty
+> (ANN-2026-023), in [PRTOE_lowell_anomalies.md](PRTOE_lowell_anomalies.md), and in
+> [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) — **but its registration entry never existed.** Found
+> by red team 2026-07-17. **The content below is assembled from those surviving citations, and
+> nothing here is new.** Its git-timestamp authority is those citations, not this entry: **the
+> honest grade is "cited from 2026-07-11, formally registered 2026-07-17"** — and a reader is
+> entitled to weigh it as the later date. Recorded this way because the alternative — writing it as
+> if it had been registered on the 11th — is exactly the retrofit this registry exists to forbid.
+
+**The prediction:** the genesis winding's integer **n** imprints a **periodic comb** in the CMB
+angular spectrum with a tooth spacing set by n, the first tooth near **ℓ ≈ 126**. The same integer
+sets the η-era phase pattern (P-2026-002's family) and the cavity modulation — **one topological
+number, three observables** (the M2↔M7 tie, [_master_computes.md](threaded_physics_working/_master_computes.md)).
+**Kill:** a full-sky spectrum with no comb structure at the predicted spacing, at the sensitivity
+where the tooth amplitude is predicted to sit. **Grade:** candidate; the amplitude is un-computed
+(M7, the cavity/axis computation, is **un-run**), so this entry currently states a *location*, not
+a detectable amplitude — it cannot be cashed as a detection claim until M7 lands.
+
+## P-2026-030: The astrochemical inheritance — the medium's window leaves molecular-line ratios standard (registered 2026-07-11; **entry reconstructed 2026-07-17**)
+
+> **RECONSTRUCTED, NOT BACK-DATED** — same status as P-2026-029 above. Cited in
+> [PRTOE_astrochemistry.md](PRTOE_astrochemistry.md) and the INDEX's "astrochemistry (+P-030)"; no
+> registration entry existed.
+
+**The prediction:** astrochemistry inherits the model's screening — inside dense structure the
+medium screens to standard values, so **molecular-line ratios and reaction networks are standard**;
+the model claims **no** astrochemical anomaly. **Kill:** a robust, screening-regime molecular
+anomaly attributable to varying constants would falsify the screening clause (L1a's blindness).
+**Grade:** an **abstention**, filed with the same prominence as the conquests (the strong-CP
+precedent). Its scale is one of the debts M1 (the α_c posterior) was booked to clear.
+
+## P-2026-031: Percent-level isocurvature at ℓ ≈ 170 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
+
+> **RECONSTRUCTED, NOT BACK-DATED** — same status. Cited as one of P-033's two halves (:1734);
+> no registration entry existed.
+
+**The prediction:** the genesis draw leaves a **percent-level isocurvature** contribution peaking
+near **ℓ ≈ 170**. **Kill:** a CMB isocurvature bound tightening below the predicted level at that
+scale. **Grade:** candidate — and **λ_phys (M4) records it as a CONSEQUENCE**, not an independent
+bet: "the Kibble draw at T_c is born at the crossover → λ = ceiling; **P-031 becomes a
+consequence**" ([_master_computes.md](threaded_physics_working/_master_computes.md)). It therefore
+inherits M4's conditionality and must not be counted as a separate confirmation.
 
 ## P-2026-032 … P-2026-037: The Assembly Six (registered 2026-07-11)
 
@@ -2124,7 +2178,7 @@ central thesis, arrived at from an independent direction.
 1. **No sterile neutrinos beyond the three right-handed states.** Each additional light
  sterile species breaks the balance by +1 unit and forces the visible sector to source
  gravity.
-2. **No fourth generation** (breaks the balance by +13).
+2. **No fourth generation** (breaks the balance by **+16**: str[k₁] = 16·N_gen − 48, so N_gen = 4 gives 16·4 − 48 = +16 — a generation is 15 Weyl + its ν_R = 16 species).
 3. Exactly three right-handed neutrinos — a requirement the model already carries for
  the seesaw, now doubly loaded.
 
@@ -2188,11 +2242,24 @@ chain (the attractor session owns its derivation); the coefficient is the open d
 unknown; the primordial-background side is a CHANNEL claim, not an amplitude claim, until
 that computation lands.
 
-## P-2026-048: THE DARK COLOUR GROUP IS SU(2) — and T_c/√σ ≈ 0.345 for SU(2) with three light flavours (registered 2026-07-16)
+## P-2026-048: THE DARK COLOUR GROUP IS SU(2) — and T_c/√σ = 0.3503 for SU(2) with three light flavours (registered 2026-07-16; **value AMENDED 2026-07-17**)
+
+> **AMENDED — the registered value was the observation read backwards; it is now the model's own
+> derivation.** As registered, this entry bet **T_c/√σ = 0.345 ± 0.02**, and it *said so in its own
+> text*: "0.345 is not fitted here: it is τ = T_c/m_e, **fixed by the observed dark-energy density**
+> … the flagship's 1.5% prediction **read backwards**." That was a deliberate design choice — to
+> convert the dark-energy agreement into a lattice obligation — **but it made the bet
+> unfalsifiable in the one direction that matters**: the model *derives* T_c = 179 keV, and with the
+> portal √σ_dark = m_e that gives **T_c/√σ = 179/511 = 0.3503**. A lattice returning 0.3503 — the
+> model's actual prediction — would have been scored as merely "inside 0.345 ± 0.02", and a lattice
+> returning 0.345 (the observation) would have been scored as a *hit* when it is the model missing
+> its own derivation by 1.5%. **The bet now rides the derivation.** The predecessor (0.345 ± 0.02)
+> is booked in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
 **The claim.** The dark confining sector is **SU(2) with exactly three light Dirac flavours in
 the fundamental** — and its finite-temperature ratio of chiral/deconfinement temperature to
-string tension is **T_c/√σ = 0.345 ± 0.02**.
+string tension is **T_c/√σ = 0.3503 ± 0.02** — **derived**, not inherited: T_c = 179 keV (the
+confining chiral value) over √σ_dark = m_e (the portal, the model's one irreducible input).
 
 **Why the model has no choice.** Induced gravity's finiteness sum runs over *"every field in the
 vacuum"* ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2), so the dark sector must
@@ -2206,13 +2273,18 @@ the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must se
 | N_f | **3 — integer** | 5.33 | 7.5 | 9.6 | 11.67 |
 
 **N_c = 2 is the only colour group admitting an integer flavour count, and it gives exactly
-three** (quarks +12, gluons −12). The value 0.345 is not fitted here: it is **τ = T_c/m_e**, fixed
-by the observed dark-energy density through ρ_Λ¼ = (9/2)α⁴·τ·m_e — the flagship's 1.5% prediction
-read backwards. **The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in
-T_c/√σ is a 10% error in the dark-energy scale.
+three** (quarks +12, gluons −12). **The value is τ = T_c/m_e = 179/511 = 0.3503, derived** —
+T_c from the confining chiral condition, √σ_dark = m_e from the portal. Feeding it forward,
+ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2842 meV against the observed 2.25: the flagship's +1.5% prediction.**
+*(The entry formerly registered **0.345**, which is that prediction* ***read backwards*** *:
+0.345 = 2.25/((9/2)α⁴m_e) = the observed dark-energy density inverted. Quoting it as the bet made
+the lattice test unfalsifiable — a return of 0.3503, i.e. the model being exactly right, would have
+scored the same as a return of 0.345, i.e. the model being 1.5% wrong. Corrected 2026-07-17.)*
+**The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in T_c/√σ is a 10% error in
+the dark-energy scale.
 
 **Kills (any one is fatal to the dark-sector roster as it now stands):**
-1. **A lattice determination of T_c/√σ for SU(2), N_f = 3 landing outside 0.345 ± 0.02.** The
+1. **A lattice determination of T_c/√σ for SU(2), N_f = 3 landing outside 0.3503 ± 0.02** (i.e. outside **[0.330, 0.370]**). **A return at 0.345 does not confirm this entry** — it is the *observed* value, and the model landing there rather than on its derived 0.3503 would mean the flagship's +1.5% is real and unexplained. The
    sector is simulable — SU(2) with light fundamental fermions is standard composite-Higgs /
    technicolor lattice territory. This is the model's first prediction addressed to a *computation*
    rather than a telescope.
@@ -2236,9 +2308,13 @@ exactly why ℓ = 0 is unsuppressed, the mechanism §4c invokes.
 
 **Honest flags.** (a) **Provenance:** N_c = 2 was *derived* from the finiteness balance, but the
 three structural matches were **discovered afterward**, not predicted — they earn no forward credit
-and are recorded as consilience, not evidence. (b) **The value's status:** 0.345 is inherited from
-the observed ρ_Λ, so this entry converts the dark-energy agreement into a *lattice* obligation; it
-is a genuine forward prediction about an uncomputed number, but it is not an independent one.
+and are recorded as consilience, not evidence. (b) **The value's status (rewritten 2026-07-17):**
+the registered value is now **0.3503, derived** (T_c = 179 keV ÷ √σ_dark = m_e) — a genuine forward
+prediction about an uncomputed number. It is **not independent of the flagship**: the same T_c and
+the same portal produce ρ_Λ¼ = 2.2842 meV, so the lattice test and the dark-energy agreement stand
+or fall together, and a lattice hit earns **one** credit, not two. *(As registered, this slot held
+0.345 — the observed ρ_Λ inverted — which made the obligation circular rather than merely
+dependent.)*
 (c) **Unlocated, not confirmed:** no published T_c/√σ for SU(2) with N_f = 3 was found — the
 two-color literature is dominated by N_f = 2 at finite *density*. Pure-glue anchors are firm
 (SU(3): 0.63; SU(2): 0.69–0.71). Naively transporting SU(3)'s glue→N_f=3 reduction (0.548) onto
@@ -2271,7 +2347,7 @@ have supplied it** — heavy dark quarks drive T_c/√σ back toward the pure-gl
 this entry's own central claim, while a 100 keV quark at 700 keV is suppressed by only
 ρ/ρ₀ = 0.997. At ΔY_p/ΔN_eff ≈ 0.013 that is ΔY_p ≈ 0.0094 ≈ **+2.3σ**, sign wrong (more dof →
 faster expansion → earlier freeze-out → more neutrons → **higher** Y_p), on top of the model's
-already **+1.3σ adverse Y_p scar → ≈ +3.6σ.**
+already **+1.09σ adverse Y_p scar (ramped) → ≈ +3.4σ.**
 
 **5. Therefore a fifth kill: the dark sector must have NEVER THERMALISED with the Standard Model.**
 Thermalised, this entry's own roster drives the model's weakest row to ~3.6σ adverse. Non-
@@ -2296,7 +2372,7 @@ transition boils, first-order**)"*. Different sector, same grammar: the model al
 first-order as the way this goes wrong.
 
 **THE SQUEEZE, RUN (2026-07-16) — the window is NOT empty, and it pins m_q.** The concern was that
-m_q is asked to be **light** by τ = 0.345 and **heavy** by both the crossover requirement and
+m_q is asked to be **light** by τ (**0.3503** derived; the rows below were computed at the old 0.345 — a **+1.5%** shift in τ, immaterial to this squeeze's order of magnitude) and **heavy** by both the crossover requirement and
 ΔN_eff. Resolved on the first pair, and the framing that raised it was wrong: *"N_f = 3 light quarks
 → first order"* is the **chiral-limit** statement, and this sector is not in the chiral limit —
 "light dark quarks" means light *relative to Λ*, not massless. Placing τ against the QCD anchors it
@@ -2305,12 +2381,12 @@ pure glue 0.63):
 
 | quantity | value |
 |---|---|
-| τ = 0.345 sits at | **m_π/√σ ≈ 0.274** (fraction 0.86 from chiral toward physical) |
+| the derived **τ = 0.3503** sits at | **m_π/√σ ≈ 0.308** (fraction 0.97 from chiral toward physical) *(recomputed 2026-07-17 on the row's own anchors — chiral 0.300 at m_π/√σ = 0, physical 0.352 at 0.318; the row previously read 0.274, computed at the retired τ = 0.345)* |
 | Columbia N_f = 3 first-order corner ends at | m_π/√σ ≈ **0.06–0.16** |
 | margin | **above it by 1.7–4.6×** |
 
 **The transition is a CROSSOVER, not first-order — τ and the depth law are compatible, and the
-coded order-parameter birth ramp is correct after all.** The value τ = 0.345 *is* the
+coded order-parameter birth ramp is correct after all.** The value τ (0.345 as used in this row; **0.3503** derived) *is* the
 physical-analog point, and physical QCD is a crossover; the first-order corner is a chiral-limit
 feature this sector does not sit in. **What the squeeze buys instead of a kill: it pins a number the
 model never had** — **m_π,dark ≈ 140 keV** and, via GMOR, **m_q,dark ≈ 38 keV**.

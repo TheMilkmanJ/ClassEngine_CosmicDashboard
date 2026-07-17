@@ -18,7 +18,7 @@ PRTOE is an **exploratory dark-sector cosmology** — a *theory of the expanding
 
 By construction PRTOE **cedes local, bound-matter physics to the Standard Model**: the medium couples to ordinary matter essentially only through gravity, and screens to standard values inside dense structure — so it makes *no* claim on atoms, chemistry, planets, or the lab. Its domain is the diffuse, expanding cosmos, and nothing smaller.
 
-**Status — a falsifiable alternative under active testing: "winning, not won."** It sticks its neck out on specific measurements that can cut it — a dark-energy equation of state **w = −1** (vs. DESI), a **varying-mₑ step in cosmic voids** (cosmic-dawn 21-cm), a **pinned neutrino-mass sum**, and **zero cosmic birefringence**. We are *not* claiming it is proven. We are claiming it is *specific enough to be wrong* — and inviting the community to help find out.
+**Status — a falsifiable alternative under active testing: "winning, not won."** It sticks its neck out on specific measurements that can cut it — a dark-energy equation of state **w = −1** (vs. DESI), a **varying-mₑ fade across the screening edge** (dark-ages 21-cm; a patchy, σ8-tracking fade over z ≈ 30–60 — *a sharp global step is not an alternative reading and would count against the model*), a **pinned neutrino-mass sum**, and **zero cosmic birefringence**. We are *not* claiming it is proven. We are claiming it is *specific enough to be wrong* — and inviting the community to help find out.
 
 > The earlier **v1–v3 scalar-tensor formulation** (the `ξ / δ / ζ / β` modified-gravity parameters still present in the code and the dashboard's Modified Gravity Playground) is retained for comparison and documented under [`docs/historical_v1-v3_scalar_tensor/`](docs/historical_v1-v3_scalar_tensor/).
 
@@ -41,10 +41,17 @@ ton-scale double-beta program. A confirmed Dirac nature, an inverted ordering, o
 Σm_ν well above ~70 meV each kill the sector outright.
 
 **Honesty notes:** (i) the H₀ mechanism's current in-house evidence is ΔlnZ ≈ +2.6
-(Laplace, SH0ES-conditional; nested-sampling confirmation gated and pending); (ii) the
-model runs under continuous internal adversarial review, which currently prices the
-deeper "medium" interpretation at **~16%** — the phenomenological fit stands on its own
-regardless; (iii) material marked EXPLORATORY (notably docs/PRTOE_DERIVATION_HUNT.md) is
+(Laplace, SH0ES-conditional; nested-sampling confirmation gated and pending) — **and that
+number is carried with an asterisk as of 2026-07-17: the chains that produced it scored the
+model with a ΛCDM helium fraction.** Their `YHe` likelihood declared the electron-mass shift
+and never applied it, leaving the free-electron fraction ~0.27% off at recombination — in
+precisely the place this mechanism operates — and undercharging the BBN prior by ~1 χ². The
+configs are fixed (on a freshly measured PRyM response); **the fits have not yet been re-run,
+so ΔlnZ ≈ +2.6 is a result under a stated defect, not a standing number**
+([docs/PRTOE_CODE_MANIFEST.md](docs/PRTOE_CODE_MANIFEST.md)); (ii) the
+model runs under continuous internal adversarial review, and the deeper "medium"
+interpretation is tracked as an **open assumption, not an asserted result** — the
+phenomenological fit stands on its own regardless; (iii) material marked EXPLORATORY (notably docs/PRTOE_DERIVATION_HUNT.md) is
 recent, un-refereed work-in-progress and should be read as such.
 
 ## CosmicDashboard: How This Dashboard Works

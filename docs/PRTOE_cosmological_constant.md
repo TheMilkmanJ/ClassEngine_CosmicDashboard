@@ -1,5 +1,40 @@
 # The Cosmological Constant from Vacuum Occupancy
 
+> **⚠ THE FLAGSHIP'S GRADE — READ BEFORE THE "+1.5%" (re-graded 2026-07-17, twice, each time
+> downward).** The corpus states ρ_Λ¼ = 2.284 meV against the observed 2.25 as a **+1.5%
+> prediction**. **It is not one.** The chain's last free number is τ = T_c/m_e, and T_c has **no
+> independent source**:
+>
+> | route offered | what it actually is |
+> |---|---|
+> | "T_c = τ·m_e" | **circular** — τ ≡ T_c/m_e |
+> | the perturbative CW route | **log-ambiguous ~[40, 900] keV**, and gives **193**, not 179 |
+> | the lattice band T_c/√σ ≈ 0.34–0.37 | an **SU(3)** value; this model's dark sector is **SU(2)** (P-2026-048). Pure-glue anchors disagree ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71). **No SU(2), N_f = 3 number exists.** |
+>
+> **And the number's real origin is a rounding.** `scripts/tau_deconfinement.py` (hunt 228) has
+> exactly one computed line: **`tau_needed = 2.25/ceiling = 0.34506`** — *the observed dark-energy
+> density inverted*. It never computes 0.35 and never computes 179. **0.345 rounded to two
+> decimals is 0.35; 0.35 × m_e = 178.85 keV → adopted as "179 keV".** The three +1.5%s in this
+> corpus are **one number**:
+>
+> > 179/176.32 = **+1.52%**  ·  0.35029/0.34506 = **+1.52%**  ·  ρ_Λ¼(179)/2.25 = **+1.52%**
+>
+> **The flagship's headline agreement with the observed dark-energy density is the gap introduced
+> by rounding the observed dark-energy density to two decimal places.**
+>
+> **What is actually real here, stated without varnish:** (i) the *structure* ρ_Λ¼ = (9/2)α⁴·τ·m_e
+> — that the dark-energy scale is α⁴ times a temperature tied to the electron — is a genuine
+> relation, and it is what makes the sector predictive **once τ is sourced**; (ii) the back-solved
+> τ = 0.345 **lands inside the QCD-like lattice band**, which it did not have to — a real but
+> **weak** consistency check (the band is 8.5% wide, and it is the wrong gauge group). **What would
+> make this a prediction: a lattice T_c/√σ for SU(2) with N_f = 3** — precisely the number
+> P-2026-048 bets on, and precisely the number nobody has computed.
+>
+> *(Found by red team, 2026-07-17, after this file's own §6 had flagged the risk — "τ's 0.34–0.37
+> band is an SU(3) value … **the flagship's 1.5% rides on it**" — without the flagship's claim ever
+> being re-graded. A stated caveat next to an unstated consequence.)*
+
+
 > **Whose coupling is whose — the flagship's two fields, stated (2026-07-17).** ½α_c²M₂ hides that
 > the dark-energy scale is a **cross of BOTH dark fields**, not one field's product. Substituting
 > α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical to 4×10⁻¹⁹):
@@ -57,7 +92,7 @@ quantum per coherence cell of volume 1/E_b³:
 
 $$\rho_\Lambda = E_b^4 \quad\Longrightarrow\quad \rho_\Lambda^{1/4} = 2.28\ \text{meV}$$
 
-**Measured: ρ_Λ^{1/4} = 2.25 meV. Agreement: 1.5% (1.01×), zero adjustable
+**Measured: ρ_Λ^{1/4} = 2.25 meV. Agreement: 1.5% (1.01×) — but see the flagship-grade block above: that 1.5% is the τ = 0.345→0.35 rounding, not a sourced prediction; zero adjustable
 parameters in the final step.**
 
 **(c) The provenance of M₂.** M₂ is fixed two ways that now agree: the condensate's
@@ -65,7 +100,7 @@ effective-theory dictionary (a ghost-condensate-class EFT, M₂⁴ = X₀²P₂)
 natural band 2.7–9.7 eV, and the electromagnetic handshake gives M₂ = α²·T_c = 9.53 eV
 once T_c is pinned at ≈179 keV by the dark sector's confining dynamics (below). So M₂ is
 *derived* from T_c, not selected to hit the answer: the chain runs one way —
-m_e → T_c → M₂ → ρ_Λ = 2.28 meV — a genuine 1.5% prediction against the observed 2.25.
+m_e → T_c → M₂ → ρ_Λ = 2.28 meV. **The 1.5% is not a sourced prediction** (T_c is the observation inverted-and-rounded — see the flagship-grade block); the *structure* of this one-way chain is what would make it one, once T_c/√σ is computed for SU(2).
 The free inputs are the portal (√σ_dark = m_e, below) and α_c = 3α (under MCMC test).
 (An earlier draft quoted M₂ as a *selected* value with "4 parts in 10⁴" agreement — that
 precision was circular — and added a loop-dressing factor that was input-inconsistent;
@@ -79,12 +114,18 @@ whose only dimensionful input is the electron mass:
 $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2\,M_2 = \tfrac{9}{2}\,\alpha^4\,\tau\,m_e, \qquad \tau \equiv T_c/m_e .$$
 
 The α⁴ scaling is derived — the condensate's own binding (α_c²) times the electromagnetic handshake (α²).
-The one order-one number left is **τ = T_c/m_e**, which the observed value fixes at 0.345.
+The one order-one number left is **τ = T_c/m_e**. **The corpus's 0.345 is what the observed value
+fixes it at — and that is the problem, not the answer (re-graded 2026-07-17):** 2.25/((9/2)α⁴m_e) =
+**0.34506**, the observation inverted. If the observation fixes τ, the chain runs *backward* and
+ρ_Λ¼ = 2.25 by construction — a 0.0% match, not the +1.5% prediction §68 claims from the same file.
+**The model's τ is 0.3503** (T_c = 179 keV ÷ m_e; P-2026-048 amended). See
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §2 for why T_c = 179 keV is itself not
+independently sourced.
 
 **What is derived, and what is not.** τ is not a free dial. In the proposed **dark confining sector** — a
 "dark colour" force whose condensation *is* the dyad, with its scale pinned to the electron mass — τ is
 the chiral-transition-to-string-tension ratio of a QCD-like theory, a near-universal value ≈ 0.34–0.37
-that places ρ_Λ¼ at 0.97–1.07× the observed 2.25 meV. (This sector sets the dark-energy *binding scale*
+that places ρ_Λ¼ at **0.99–1.07×** the observed 2.25 meV. (This sector sets the dark-energy *binding scale*
 only; the dark matter remains the medium's own excitations. The derivation, and why a QCD-like sector is
 required, are in the open-derivations document.) What the model does **not** derive is the pinning — *why* the
 dark scale equals the electron mass. That one input is irreducible: it is the meV coincidence
@@ -194,12 +235,22 @@ the Gibbs–Duhem deviation, the residual fountain excitation, the un-cancelled 
 dig (the three-door guideline; a diagnostic, not an executioner). **The O(1) coefficient,
 scoped (2026-07-16, `scripts/kubo_freeze.py`):** the *full* phonon thermal excitation at the
 freeze T = m_ν over-predicts by 3.2× (ρ¼ = (π²/30 c_s³)¼ m_ν = 7.1 meV), confirming Λ is the
-*suppressed residual*, not the full sum. The suppression is the phonon phase-space-with-
-cancellation 16π²α_c^{3/2} — the **same object** the perturbations door pins — which lands
-ρ¼ = 2.70 meV. So the thermal-door scale (2.25 meV, forward) and the perturbations-door
-coefficient (2.70) are **one number to ~20%**; the residual 20% (effective mode count g_*,
-the exact Landau cap) is the owed O(1) refinement. **Located precisely (2026-07-16):** the
-flagship E_b = ½α_c²M₂ = 2.284 meV (1.3% high) and the tie m_ν = 2.250 meV agree to 1% and
+*suppressed residual*, not the full sum. **The 7.1 does not descend to 2.70 — there is no such step, and the correction below
+replaces a claim that never closed (2026-07-17).** The two are *independent* readings, not a chain:
+16π²α_c^{3/2} = **0.5115**, and 7.1 × 0.5115 = 3.63 while 7.1 × 0.5115¼ = 6.00 — **neither is 2.70**.
+Where 2.70 actually comes from is the perturbations door's own formula, ρ = E_b⁴/(16π²c_s³) with
+c_s = √α_c:
+
+> **ρ¼ = E_b/(16π²α_c^{3/2})¼ = 2.2842/0.84585 = 2.701 meV**
+
+**And the factor is not a suppression.** In that formula it is a **divisor < 1**, so it *raises*
+the flagship binding by **+18.2%** — an **enhancement**. The full phonon sum's role is unchanged and
+still holds: it over-predicts by **3.2×**, which is what licenses reading Λ as a residual rather
+than the full sum. But the residual's *size* is not obtained by applying the phase-space factor to
+7.1. So the thermal-door scale (2.25 meV, forward) and the perturbations-door coefficient (2.701)
+are **one number to ~20%** — the honest statement — and the owed O(1) (effective mode count g_*,
+the exact Landau cap) is the gap between **E_b and E_b/(16π²α_c^{3/2})¼**, not between 7.1 and 2.70. **Located precisely (2026-07-16):** the
+flagship E_b = ½α_c²M₂ = 2.284 meV (**1.5% high**) and the tie m_ν = 2.250 meV agree to **1.5%** and
 both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full phonon sum
 (+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
 fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
@@ -243,7 +294,7 @@ family (matter / magnetism / metric) is one integer, carried by
 channel. The generation count is forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹
 N_gen = 3 uniquely (**P-2026-045**). Neither rides the medium's partial wave.
 
-**Grade: the DE value stands as a 1.5% prediction (flagship / tie); the perturbations door's O(1)
+**Grade: the DE value's *structure* stands (ρ_Λ¼ = (9/2)α⁴τ·m_e); its "1.5%" is the τ rounding, not a sourced prediction (flagship-grade block), and becomes one only with a lattice T_c/√σ for SU(2); the perturbations door's O(1)
 is un-built and its owed object is named.** Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
