@@ -1,5 +1,13 @@
 # THE FAILURES LEDGER — every death, reversal, and retirement in one place (2026-07-12)
 
+
+> **GOVERNING PRINCIPLE (JP, 2026-07-17) — why this file exists.** The model's proud predictions are
+> **not mandated by the model.** Nothing is set in stone until the model is ~99–100% complete with
+> nothing left but the PolyChord evidences. A prediction a better mechanism would kill is not a wall
+> to defend — it is a candidate to test. Chasing a direction that may cost us even a flagship (e.g.
+> w = −1) is not recklessness; it is the method. **We bury what dies, with the why, and keep what
+> survives the full build.** This ledger is the record of that discipline, not a list of regrets.
+
 *The hygiene law: "Documenting failures is great, but things need to be
 separated. There should be a file specifically that labels failures, and keeps the main
 read gold." This is that file. The main read (INDEX → THREE_EQUATIONS → MATH_SPINE) states

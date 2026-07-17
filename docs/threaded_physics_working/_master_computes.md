@@ -41,3 +41,11 @@ Residual standalone: bench designs (T7), TRGB/PolyChord (external clocks), instr
 (the par/size cluster M1+M8, the topology cluster M2+M7, the frame/UV cluster M3+M4, the
 data cluster M5+M6). The debt sheet has the same shape as the model: few roots, everything
 else inheritance.**
+
+## Candidate directions (exploratory, unfired — licensed to kill our own predictions)
+
+- **[The late-time single lever](_candidate_late_thaw.md)** (opened 2026-07-17): one *unfinished
+  thaw* of the dCDF as a single lever for BOTH H₀→73 AND DESI's w(z) — aimed at the two corpus-
+  confirmed walls (the ~71 early-time ceiling; the rigid w=−1 that makes DESI a kill). Costs "w=−1
+  exact" if it wins. Test = the thaw posterior (routeD/conv_desi, symmetric-BBN, gated behind the
+  live pc_prtoe run for cores).
