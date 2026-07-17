@@ -48,6 +48,16 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   mass. This cannot be derived without abandoning τ ≈ 0.35 (a conformal sector that would fix √σ_dark = m_e
   gives the wrong τ; the QCD-like sector that gives τ carries its own scale). It is an **irreducible input**
   — the "meV whisper," ρ_Λ ~ α⁴m_e — but a **falsifiable** one (it predicts ~MeV dark states).
+- **Head-on pass (2026-07-16): confirmed irreducible, and the total-input count named.** A direct
+  re-attack finds no derivation — the τ-vs-scale obstruction above is a genuine fork, not a gap to be
+  filled. What the pass *does* fix is the honest scope: √σ_dark = m_e is the one dimensionful input **of
+  this (dark-energy / confining) sector**, and it is *not* the theory's sole dimensionful anchor. The
+  ultralight quantum mass **m = 2.24×10⁻²⁰ eV** (the onset clock z_on, a separately *measured* input;
+  [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §Field 1) sets the DM / healing-length sector independently.
+  So the theory carries **exactly two dimensionful inputs** — m_e (confining/DE) and m (ultralight/onset) —
+  each falsifiable, each anchoring a different sector; every other scale (τ, T_c, M₂, ρ_Λ, Σm_ν, ξ) is one
+  of these two times pure numbers. Two anchors, not one — the honest count, stated so no later pass mistakes
+  m_e for the sole input or tries to re-derive the portal.
 
 ---
 
