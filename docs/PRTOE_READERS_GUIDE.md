@@ -1,9 +1,9 @@
 # THE READER'S GUIDE — plain physics, no house dialect (2026-07-13)
 
 *Written for the newcomer and the external reviewer. The repository's working documents
-use an internal grammar (banking and ledger metaphors) that has been productive in the
-model's development but is NOT required to evaluate the physics. This page states the model plainly,
-translates every recurring house term, and gives the reading order.*
+use a compact internal vocabulary for the model's recurring objects; it is NOT required to
+evaluate the physics. This page states the model plainly, translates every recurring house
+term, and gives the reading order.*
 
 ## 1. The model in five plain sentences
 
@@ -33,7 +33,6 @@ translates every recurring house term, and gives the reading order.*
 | the winding / n / the draw | the quantized phase winding number, set stochastically (Kibble mechanism) at the condensation transition |
 | the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
 | the gate / screening / the gate curve ε(C) | the environmental switch-off of ε: a smooth function of local clumping (dense regions: ε → 0; voids retain it) |
-| the ledger / books / settlement | conservation laws and decoherence: "books balance" = quantities conserve; "settlement" = decoherence selecting definite outcomes |
 | recorded | established within the model at production grade (coded, fit, or derived) and recorded |
 | the census / census blindness | the counting argument behind c = 9/10: gravity couples to energy content, not particle identity |
 | the pinch / occupancy one | the ground state holds exactly one quantum per coherence cell (sets the vacuum energy scale) |
