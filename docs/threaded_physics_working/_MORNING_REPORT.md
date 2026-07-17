@@ -18,9 +18,9 @@ will be wrong too.** Every finding below carries a VERDICT from independent re-d
 
 | batch | tier | files | state |
 |---|---|---|---|
-| A | 0 — leaves the repo | README (70-406), PREREGISTERED_PREDICTIONS (2325 ln), REFEREE_CALENDAR | RUNNING |
+| A | 0 — leaves the repo | README (70-406), PREREGISTERED_PREDICTIONS (2325 ln), REFEREE_CALENDAR | **DONE — 12 findings, 6 verified+fixed, 3 escalated to you, 3 minor** |
 | B | 1 — the spine | MATH_SPINE, THREE_EQUATIONS, DEPENDENCY_TREE, READERS_GUIDE, INDEX, the_great_chain, INTERACTION_ATLAS | RUNNING |
-| C | 2 — computational | bbn_witness, cosmological_constant, neutrino_sector, fingerprint_lattice, CODE_MANIFEST, THE_AMPLITUDE, THE_CHAIN | RUNNING |
+| C | 2 — computational | bbn_witness, cosmological_constant, neutrino_sector, fingerprint_lattice, CODE_MANIFEST, THE_AMPLITUDE, THE_CHAIN | **DONE — 8 findings, 6 verified+fixed, 2 escalated** |
 | D | 3 — domains (~40) | queued | pending |
 | E | 4 — working files (21) | queued | pending |
 | F | 5 — code + configs | queued (varconst path done) | pending |
@@ -91,9 +91,41 @@ fix would be wrong** — the same species as my Gascheau import. They go to the 
 re-derivation, then and only then to an edit. *And every one of them is dirty anyway until the fits
 are re-run.*
 
-## VERIFIED FINDINGS
+## VERIFIED FINDINGS — **red team went 10 for 10. Every one re-derived before the edit.**
 
-*(populated as batches land — each with its independent re-derivation)*
+### CONFIRMED + FIXED
+
+| file | species | the defect | proof |
+|---|---|---|---|
+| REFEREE_CALENDAR, fingerprint_lattice ×2, **bbn_witness** | 5 | **`D/H = 2.387×10⁵`** — the exponent sign was dropped. **The flagship BBN prediction read as 238,700.** | standing is 2.387×10⁻⁵. **One of the four was mine, written today.** |
+| PREREGISTERED:2127 | 5 | "No fourth generation (breaks the balance by **+13**)" | str[k₁] = 16·N_gen − 48 ⟹ N_gen=4 gives **+16**. A generation is 15 Weyl + its ν_R = 16. In a list headed *"the balance is exact or it is not"*. |
+| PREREGISTERED:2274 | 1 | "**+1.3σ** adverse Y_p scar → +3.6σ" | +1.3 is the **step-era** pull; ramped 0.248995 vs Aver = **+1.09σ**. **The same file says "+1.09σ, not +1.3σ" 576 lines earlier.** → +3.4σ |
+| PREREGISTERED:1381 | 3 | **ODDS ("~10%")** — in the file the README points physicists at | absolute standing law |
+| PREREGISTERED:1695 | 6 | "the fork's width demoted to **OWED**" | the width is **STATED 26 lines above it**, in text I added today. I fixed the statement and left the debt. |
+| fingerprint_lattice:22,48 | 6+4 | "width owed, so no σ" | **contradicted by line 23 of its own file** ("D/H carries −2.9σ"). Today's process-error-40 fix never propagated here. |
+| fingerprint_lattice:15-16 | 1+5 | **"c = 0.92 ± 0.05, f̄ = 0.635 ± 0.026"** — **a derived counting fraction dressed as a measurement with an error bar.** | c = 9/10 is derived; this value exists nowhere else in the corpus. **And its own factors don't make its own product**: 0.92 × 0.635 × 3α = **1.279%**, not the 1.24% the same sentence claims. |
+| fingerprint_lattice:60 | 1 | ramp band **"ε_rec × [0.8–1.0]"** | the model's stamps are **0 / 0.61 / 0.78** (1 − T/T_c at T_c = 179 keV). **The band contains neither** — and isn't the retired 193 keV era's values either (0.64/0.79). Inside the table the file calls authoritative. |
+| cosmological_constant:202 | 4 | "2.284 meV (**1.3% high**) … agree to **1%**" | 2.2842/2.25 = **+1.52%**. 1.3% is the *rounded* 2.28's pull. The same file says 1.5% in six other places. |
+| cosmological_constant:87 | 5 | τ = 0.34–0.37 → "**0.97**–1.07×" | ρ¼ is **linear** in τ; (9/2)α⁴m_e = 6.5207 meV ⟹ τ=0.34 → **0.985×**. 0.97× needs τ = 0.335, below the band. → **0.99–1.07×** |
+| fingerprint_lattice:22 | 2 | ΔlnZ = +2.635 quoted **bare** | now carries the YHe conditionality |
+
+### REJECTED — my machine was wrong, red team's silence was right
+
+| flag | verdict |
+|---|---|
+| PREREGISTERED:28 `H₀ = 69.70` | **NOT a defect.** It is a **run record** — *"raw χ² 2798.4, best point ever recorded"*. Red team read the file in full and did not flag it. **My machine did, and my machine was wrong** — the same species as the Gascheau import: a confident fix on a pattern match. Machine taught. |
+| PREREGISTERED:781 `H₀ = 69.7–70.1` | **NOT a defect.** A registered prediction's own range. Same call. |
+
+### ESCALATED TO YOU — I will not do these while you sleep
+
+| item | why it is yours |
+|---|---|
+| **DUPLICATE `P-2026-010`** — two unrelated bets share one ID (GW sirens :777, cosmic birefringence :1359) | Renumbering a **timestamped** pre-registration on an append-only registry whose whole claim is *"the git history is the timestamp authority"* is a **governance act**, not an edit. |
+| **`P-2026-029/030/031` and `ANN-2026-015` are cited but have NO registration anywhere** | P-011 reads live because the vehicle that retracted it doesn't exist. Breaks the file's own header: *"every kill condition is stated at registration, never after."* |
+| **cosmological_constant:198-199** — the 16π²α_c^{3/2} chain doesn't close from 7.1 | **Verified red team is right**: 2.70 = E_b/(16π²α_c^{3/2})¼ = **2.7010** exactly; 7.1 gives 3.63 or 6.00. Neither is 2.70. **And the factor is a divisor < 1 — an *enhancement* (+18.2%), not the "suppression" the text calls it.** Rewriting a derivation block is physics, not a typo. |
+
+### RED TEAM'S CLEAN VERDICTS (recorded so they aren't re-audited)
+**neutrino_sector** — nothing found, every number exact (Σ = 2.250+8.903+50.220 = **61.373 → 61.4 meV**; m_ββ ∈ [0.043, 5.303]). **CODE_MANIFEST** — nothing found, and verified **against the C source** rather than internally; red team calls it the strongest file in the corpus. **THE_AMPLITUDE**, **THE_CHAIN** — nothing found.
 
 ## ALREADY FIXED BEFORE RED TEAM RAN (today's own audit)
 

@@ -115,7 +115,15 @@ ARCHIVE = ("_MORNING_REPORT","_AUDIT_LEDGER","_REDTEAM_BRIEF",
 RETIREMENT_CTX = re.compile(r"retir|supersed|dead|excludes|former|was booked|archive|Standing:|"
                             r"relic|predecessor|no longer|does not exist|withdraw|amended|"
                             r"historical|era.s frozen|frozen record|that era|refit tables|"
-                            r"do not cite|provenance only", re.I)
+                            r"do not cite|provenance only|"
+                            # A RUN RECORD is not a stale claim: "raw chi2 ... best point ever
+                            # recorded" is a log of what a specific chain returned, and a
+                            # registered prediction's own range is its bet. Red team read the
+                            # registry in full and did NOT flag these -- my machine did, and my
+                            # machine was wrong. Same species as the Gascheau import: a confident
+                            # fix on a pattern match.
+                            r"raw χ²|raw chi2|best point|ever recorded|joint optimum|"
+                            r"km/s/Mpc\*\*? \(|recorded on", re.I)
 # A file that STATES the evidence number's conditionality is compliant, not defective.
 CONDITIONALITY_CTX = re.compile(r"asterisk|LCDM helium|ΛCDM helium|YHe|conditional|defect|not a standing|"
                                 r"re-?run|CODE_MANIFEST|SHOES-conditional|SH0ES-conditional|Laplace-marginal|"

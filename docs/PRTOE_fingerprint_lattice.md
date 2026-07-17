@@ -19,7 +19,7 @@ producing it: a posterior inconsistent with 3α is a falsification, not a measur
 
 | window | the row | current standing |
 |---|---|---|
-| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 | the founding fit (thread 11) |
+| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | the founding fit (thread 11). **\*Conditional:** the chains that produced it scored the model with a ΛCDM helium fraction (the `YHe` lambda declared varying_me and never applied it); configs fixed 2026-07-17 on a measured PRyM response, **fits not yet re-run** ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund | the signed self-adverse bet (2.387×10⁻⁵, **−2.9σ** on the full budget); radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out): **+0.85% → +1.09σ** COUNTER | the reversed row (was briefly ‘the medicine’) |
 | BBN: quark-bleed | **SYMMETRY-FORBIDDEN — the row is retired, not amended (2026-07-17).** The dyad **is** the Majoron: the Goldstone of U(1)_L breaking, so it couples to the **current of its broken charge**. **Quarks carry L = 0 ⟹ the tree coupling is ZERO**, not small — the model's own [ESTABLISHED] identity forbids it. The old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4; the loop floor (dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. | **no bleed, no blowout, and no healer: D/H carries −2.9σ** |
