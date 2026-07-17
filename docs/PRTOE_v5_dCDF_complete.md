@@ -584,7 +584,7 @@ plausible fold-in.**
  S₈ = 0.814 ± 0.012. The lensing side came UP — the resolution
  direction requiring no new physics. The dyad's S₈ ≈ 0.826 sits 0.9σ
  from the new WL consensus (ΛCDM's 0.833: 1.6σ) — the model's
- "incidental" easing lands on the concordance point. The S₈-payer
+ "incidental" easing lands on the concordance point. The S₈-source
  taxonomy (softest-tax ranking): Σm_ν (taxed only by a lensing
  *preference* — mildest; orthodox, no fingerprint), the drift's
  Bianchi withdrawal (native, sign-locked correct, ~10× too small
@@ -628,9 +628,9 @@ plausible fold-in.**
  dynamically. Speculative but structurally native option: gating the
  coupling on ionization, which collapses at recombination — the same
  environmental-switch logic as the (failed) c_EM energy coupling,
- aimed at the rules instead of the ledger.
+ aimed at the rules instead of the conservation floor.
 
- **The early-time ledger entry (the other half of epoch separation).**
+ **The early-time term (the other half of epoch separation).**
  "Active only at z ≳ 1000" is not one epoch — it is *everything before
  recombination, BBN included*, where m_e sets the n↔p weak rates
  (phase space and Q/T), the e± annihilation timing, and EM binding
@@ -640,7 +640,7 @@ plausible fold-in.**
  Note the implemented offset mode *also* carries m_e = 1.01 at BBN but
  does not feed it back into the Y_He table — a small inconsistency to
  book, not just a sourced-version problem. For the sourced version the
- bill is structural: the shift-symmetric, dCDF-native coupling (m_e
+ cost is structural: the shift-symmetric, dCDF-native coupling (m_e
  tied to u ≡ X − X₀, which relaxes *for free* because u ∝ a⁻³ dilutes
  into the floor — expansion itself as the least-coupling mechanism)
  ties δm_e to the clustering density Ka⁻³, which **grows into the past
@@ -702,7 +702,7 @@ plausible fold-in.**
  screening (graveyard). The honest label survives its own best
  challenge: *phenomenology, carried for its measurement value*.
 
- **The half-open door's sharpest receipt: tunneling (2026-07-06,
+ **The half-open door's sharpest signature: tunneling (2026-07-06,
  named — not yet derived).** If constants respond to local dark
  density, the most amplified observable anywhere in physics is a
  quantum-tunneling rate: decay rates sit under a Gamow exponential,
@@ -714,12 +714,12 @@ plausible fold-in.**
  are ⁵⁶Ni→⁵⁶Co→⁵⁶Fe decay clocks ticking in host environments
  spanning decades of dark density, and Pantheon+ is already in this
  stack; the known SN "mass step" (standardization residuals
- correlating with host mass) is exactly the *shape* such a receipt
+ correlating with host mass) is exactly the *shape* such a signature
  would take, though it has mundane astrophysical explanations and no
  claim is made. (ii) The derivation that would promote this from
  named to booked: door coupling magnitude → predicted decline-rate
  contrast vs host dark density → compare against the measured mass
- step's budget. Logged in the Transaction Atlas open ledger; §11.
+ step's budget. Logged in the Interaction Atlas open list; §11.
 
  **RECEIPT DERIVED — AND IT COMES OUT FAINT (2026-07-06 night).**
  Normalizing the linear local-state coupling at the recombination-era
@@ -730,7 +730,7 @@ plausible fold-in.**
  dlnλ/dln m_e ≈ 3) the ⁵⁶Co clock contrast is 3.7×10⁻⁵ — about
  4 minutes on the 77-day tail, ~0.04 mmag per decade of flux.
  **The SN mass step (~60 mmag) is ~1500× larger: it is not ours,
- and no current SN dataset can see this receipt.** The honest
+ and no current SN dataset can see this signature.** The honest
  reclassification: the tunneling channel is demoted from
  *discriminator* to *consistency check* — the linear door predicts
  (a) zero annual modulation of terrestrial decay rates (the halo is
@@ -738,9 +738,9 @@ plausible fold-in.**
  high-precision stability nulls that discredited the
  Jenkins–Fischbach claims, and (b) SN decay-clock environmental
  shifts three orders below current photometric precision. The door
- stays half-open precisely because its receipts are this quiet;
+ stays half-open precisely because its signatures are this quiet;
  conversely, nothing in decay data can close it. A steeper-than-
- linear coupling would amplify the receipt — but steepness is
+ linear coupling would amplify the signature — but steepness is
  exactly what the §2 wall taxes on the early side.
 
  **Independent convergence (LIT-2026-001, literature sweep
@@ -793,7 +793,7 @@ plausible fold-in.**
  BBN caps x₀ ≤ e⁻³⁵ from above; a confirmed DESI thawing signal
  (w₀ > −1, the current whisper) excludes the deep end and bounds
  x₀ ≳ e⁻⁴⁰ from below. See P-2026-003. **Three riders (adopted):** (i) the
- deposit is drawn from structure's own gravitational energy (Bianchi)
+ contribution is drawn from structure's own gravitational energy (Bianchi)
  — an observable funded floor implies an observable *withdrawal*
  (suppressed late growth / ISW / lensing at the sub-percent-to-percent
  level), which must clear existing RSD+S₈ before the deep hierarchy is
@@ -805,7 +805,7 @@ plausible fold-in.**
  and even there leaves a growth footprint that must clear RSD first —
  most probably invisible, uniquely ours if seen.* Amplitude AND
  withdrawal to derivation grade ride on the four-verdict calculation
- below (the same nonlinear sector sets both sides of the ledger).
+ below (the same nonlinear sector sets both sides of the balance).
 3. **BBN: checked at fitting-formula grade (2026-07-06).** With standard
  linearized sensitivities (ΔY_p ≈ 0.0127·ΔN_eff and ∂Y_p/∂ln ω_b ≈
  0.0096, i.e. Y_p ∝ ω_b⁰.039; ∂ln(D/H)/∂ln ω_b ≈
@@ -825,7 +825,7 @@ plausible fold-in.**
  (returns to ~+2.0σ only at the pessimistic sensitivity).
  **D/H ≈ 2.49×10⁻⁵ (−1.3σ)** — the sting relocates: the champion's
  high ω_b lost its ξ compensation, and m_e's +0.4% cannot restore it.
- **The unpriced BBN ledger, properly decomposed** (no BBN likelihood
+ **The unpriced BBN budget, properly decomposed** (no BBN likelihood
  is in the fit stack): the champion's total charge is ≈ +3.5, but at
  the ξ-only joint champion's own parameters (ω_b = 0.022673, ξ = 0.142,
  m_e = 1) the charge is only **+1.4** (Y_p +1.0σ, D/H −0.6σ) — the
@@ -849,7 +849,7 @@ plausible fold-in.**
 
  **A candidate healer for the deuterium scar (2026-07-06, candidate
  grade — coefficients approximate).** The headline's −2.0σ D/H
- residual has one transaction that heals it *with the correct sign
+ residual has one interaction that heals it *with the correct sign
  structure across all three primordial abundances*: a binding-energy
  shift δB_D/B_D ≈ −0.86% at BBN (weaker deuteron → later deuterium
  bottleneck → less D burned into He) heals D/H exactly, improves Y_p,
@@ -859,7 +859,7 @@ plausible fold-in.**
  literature-grade sensitivity coefficients, (b) a coupling
  construction native to the medium (the same shift-symmetric
  discipline as §9.4 — binding energies are QCD/nuclear-scale
- quantities, i.e. this is the strong-sector transaction the atlas
+ quantities, i.e. this is the strong-sector interaction the atlas
  flags as unwritten), and (c) a check that the healer leaves no new
  scar elsewhere. If all three clear, it becomes P-2026-006. Until
  then the headline scar stands unhealed and the rider stays.
@@ -921,7 +921,7 @@ m_ncdm = 0.06 eV, T_cmb, N_ur base. ΛCDM samples 7 parameters
 6. **The five-lever paper audit (2026-07-06; zero CPU).** Applying the
  three-laws screen + the damping-tax test + shift-symmetry structure
  to every remaining candidate coupling: **PBHs** — no expansion role
- possible (the ledger is identity-blind; w = 0 is w = 0); their says
+ possible (the coupling is identity-blind; w = 0 is w = 0); their says
  live in texture, thermal history, seeding, and GW catalogs.
  **Varying G** — an energy lever in rules clothing (raises H at
  recombination) → dies by the ξ gallows. **ν self-interactions** —
@@ -1067,10 +1067,10 @@ framework has a **structural** limit, not a numerical one:
  §9.3)** — replace memory-approximate B_D sensitivities with
  literature-grade ones (Dent–Stern–Wetterich 2007 class), construct
  the coupling, audit for new scars; on success, register P-2026-006.
-- **The tunneling receipt (§9.4)** — derive the local-state door's
+- **The tunneling signature (§9.4)** — derive the local-state door's
  coupling magnitude → predicted decay-rate contrast across host
  dark-density environments → compare to the SN Ia mass-step budget.
- Promotes the atlas open-ledger entry or kills it.
+ Promotes the atlas open-list entry or kills it.
 - **The force-by-force gap** — the environment program (Transaction
  Atlas preamble) has EM levers booked (m_e, α) but no derived
  substrate coupling for the strong or weak sectors (Λ_QCD, G_F);
@@ -1136,36 +1136,36 @@ framework has a **structural** limit, not a numerical one:
  the parameter never reached C.
 - Old v4 configs passing `dcdf_beta` fail loudly. This is intentional.
 
-## 13. The transaction architecture across scales (2026-07-06 exploration)
+## 13. The interaction architecture across scales (2026-07-06 exploration)
 
 A mathematical audit of the three-laws pattern (§9.5-adjacent; gravity
-the only clearinghouse / the background ledger is adiabatic / rules
-amendable, balances not) against the atomic-scale vacuum-transaction
+the only universal coupling / the background is adiabatic / rules
+amendable, conservation laws not) against the atomic-scale vacuum-interaction
 catalogue, plus ontology tests for the floor. Everything below is
 paper-grade with the arithmetic stated; no CPU consumed.
 
-**The program statement (2026-07-06), and where its ledger lives.**
+**The program statement (2026-07-06), and where its accounting lives.**
 Every booked equation in this document decomposes as *contents +
-environment*: a standard-physics term plus a substrate-ledger term (the
+environment*: a standard-physics term plus a substrate term (the
 dyad's m_e amendment, the fluid's w(x), the candidate δB_D, the funded
 floor's structure gate are all instances). The systematic completion of
 the environment side — every derived fixed relation, and only derived
 ones — is maintained in **`PRTOE_INTERACTION_ATLAS.md`**: four exact
 identities (among them ρ(basin entry) = 2M₂⁴ and total energy ≡ 0),
 four structural theorems, three one-parameter-many-observables
-coherences, an open ledger (named-not-derived: the tunneling
+coherences, an open list (named-not-derived: the tunneling
 thermometer, the binding coefficients, the strong/weak gap), and the
 walls. One wall is load-bearing for the program's scope and is stated
 here precisely, because its precise form matters: **Bell's theorem
-does not forbid a transaction account of entanglement — it prices it.**
+does not forbid an interaction account of entanglement — it constrains it.**
 The theorem (mathematics, loophole-free experimentally confirmed 2015)
 excludes only maps that are simultaneously *local, deterministic-
-classical, and measurement-independent*. A transaction map that gives
-up exactly one of those premises is untouched. The four priced exits:
-(i) nonlocal transactions (Bohmian class); (ii) environment-correlated
+classical, and measurement-independent*. An interaction map that gives
+up exactly one of those premises is untouched. The four available exits:
+(i) nonlocal interactions (Bohmian class); (ii) environment-correlated
 measurement settings — note that a universal substrate every apparatus
 couples to is structurally the *only* kind of object that could
-implement this premise honestly; (iii) retrocausal transactions — the
+implement this premise honestly; (iii) retrocausal interactions — the
 **transactional interpretation of QM (J. Cramer 1986)** already models
 every quantum event as an offer/confirmation handshake completing
 across the light cone, i.e. entanglement *as a transaction*, published
@@ -1174,7 +1174,7 @@ four decades ago and fully Bell-compatible; (iv) a quantized substrate
 document's classical fluid cannot do is produce Bell violations while
 staying in all three premises at once — no map can, ours included.
 Tunneling *rates* are in scope now (§9.4); the entanglement question is
-open pending which toll the model's quantum extension elects to pay.
+open pending which cost the model's quantum extension elects to pay.
 
 ### Correspondences & conjectures (relabeled:
 "confirmed" is reserved for certificate-grade results — all-orders
@@ -1182,87 +1182,87 @@ proofs, bounded leakages, stamped caveats. What follows is true-and-
 structural but analogy-grade, except where a cross-check is noted.)
 
 **C1 — The three laws are scale-representations of gauge structure +
-unitarity.** Law 1's identity-blindness (the cosmic ledger reads only w)
+unitarity.** Law 1's identity-blindness (the medium's coupling reads only w)
 is the equivalence principle; its atomic twin (the QED vacuum reads only
 charge and mass — Lamb shift and g−2 are identical for any particle of
 equal q, m) is charge universality. Both are consequences of locality +
-gauge symmetry: *clearinghouses are gauge fields*. Law 2's adiabatic
-background ledger is S-matrix unitarity one floor down: virtual
-transactions are exactly reversible; entropy generation is delegated to
+gauge symmetry: *each conserved charge couples through a gauge field*. Law 2's adiabatic
+background is S-matrix unitarity one floor down: virtual
+processes are exactly reversible; entropy generation is delegated to
 real (on-shell) emission — the same architecture as cosmic entropy
-being delegated to stars and holes while the sector accounts stay
+being delegated to stars and holes while the sector's conserved quantities stay
 clean. Law 3's rules-amendments have a standard-physics precedent: the
 vacuum already runs α with probe scale (β = 2α²/3π). The laws are one
 architecture expressed at two scales, with the Unruh/Gibbons-Hawking
 pair (T = a/2π ↔ T = H/2π — the *same formula*) as the bridge.
 
-**C1a — Every gauge field is a clearinghouse; the field is the debt,
-not the toll (analogy-grade,
-calibration-supported).** C1's "clearinghouses are gauge fields" runs
-both directions: EM is the charged sector's gateway exactly as gravity
+**C1a — Every gauge field is a coupling channel; the field is the source,
+not the flux (analogy-grade,
+calibration-supported).** C1's "each conserved charge couples through a gauge field" runs
+both directions: EM is the charged sector's channel exactly as gravity
 is the energy sector's. The sharpening: **Gauss's law makes the field
-the RECORD OF OBLIGATION, not the payment** — a charge's flux at
-infinity cannot be erased, only transferred (receipt: charge
+the RECORD OF THE SOURCE, not the flux** — a charge's flux at
+infinity cannot be erased, only transferred (evidence: charge
 conservation, electron lifetime > 6.6×10²⁸ yr), and the Aharonov–Bohm
-effect shows the ledger entry (the potential) is physically real even
-in payment-free (field-free) regions. The debt is owed even where no
-toll flows — measured. The classification this buys: ABELIAN
-clearinghouses (EM) hold no account of their own — photons are
-uncharged, debts are long-range and additive; NON-ABELIAN ones (color,
-weak) borrow from themselves — gluons carry color, and a bank that
-trades in its own debt confines; GRAVITY is the extreme case — the
-clearinghouse's own records gravitate, which is (i) why it is the
-UNIVERSAL gateway (every other bank has a gravity account), and
+effect shows the potential is physically real even
+in field-free regions. The source is present even where no
+flux flows — measured. The classification this buys: ABELIAN
+channels (EM) carry no charge of their own — photons are
+uncharged, sources are long-range and additive; NON-ABELIAN ones (color,
+weak) couple to themselves — gluons carry color, and a field that
+carries its own charge confines; GRAVITY is the extreme case — the
+field's own energy gravitates, which is (i) why it is the
+UNIVERSAL channel (every other sector has a gravitational coupling), and
 (ii) why the funded floor's Bianchi withdrawal (V4) exists at all:
-structure's gravitational ledger can be drawn against because the
-ledger itself carries energy. Model consistency note: the medium is
-uncharged — it holds no EM account — so the charged clearinghouse
+structure's gravitational energy can be tapped because the
+field itself carries energy. Model consistency note: the medium is
+uncharged — it has no EM charge — so the charged sector
 never sees it; every α null is structural for this model (cf. R1:
 masses only, α untouched).
 
-**C1b — The debt inventory — what
-other debts must be accounted for? (analogy-grade, receipts quoted).**
-Sorting every conserved quantity by whether its debt has a BANK:
+**C1b — The conserved-charge inventory — what
+other charges must be accounted for? (analogy-grade, evidence quoted).**
+Sorting every conserved quantity by whether its charge has a gauge FIELD:
 
-| debt | bank | status | receipt |
+| charge | gauge field | status | evidence |
 |---|---|---|---|
-| energy-momentum | gravity | self-collateralized (records gravitate) | everything |
-| electric charge | photon | collateralized (Gauss law) | e⁻ τ > 6.6×10²⁸ yr |
-| color | gluons | collateralized + bank trades own debt | confinement: no unbalanced account ever public |
-| weak isospin | W/Z | records EXPIRE — massive bank (Higgs) | short range; debts collected within a Compton wavelength |
-| baryon number B | **NONE** | uncollateralized IOU | proton τ > 2.4×10³⁴ yr — holding so far |
-| lepton number L | **NONE** | uncollateralized IOU | 0νββ searches — LIVE |
-| B−L | none, but anomaly-free | the SM's one exact global account | the natural candidate to be secretly gauged |
-| shift charge (the medium) | the condensate's own U(1) | model's added account | P-2026-002's decay ban; vortex/flux quantization |
+| energy-momentum | gravity | self-sourced (its energy gravitates) | everything |
+| electric charge | photon | sourced (Gauss law) | e⁻ τ > 6.6×10²⁸ yr |
+| color | gluons | sourced + field carries its own charge | confinement: no free color ever seen |
+| weak isospin | W/Z | finite-range — massive field (Higgs) | short range; acts within a Compton wavelength |
+| baryon number B | **NONE** | unsourced (no gauge field) | proton τ > 2.4×10³⁴ yr — holding so far |
+| lepton number L | **NONE** | unsourced (no gauge field) | 0νββ searches — LIVE |
+| B−L | none, but anomaly-free | the SM's one exact global charge | the natural candidate to be secretly gauged |
+| shift charge (the medium) | the condensate's own U(1) | the model's added charge | P-2026-002's decay ban; vortex/flux quantization |
 
 Three structural consequences: (i) B+L is already anomalously violated
 (sphalerons) — the SM itself defaults on that combination at high
-temperature; B−L is its one exact global book. (ii) The quantum-gravity
+temperature; B−L is its one exact global charge. (ii) The quantum-gravity
 folklore ("no global symmetries") is, in this language, a single
-sentence: **unenforced IOUs cannot survive — every exact debt must
-have a bank.** Its testable fork: either the proton eventually decays
-(B defaults) or B−L is secretly gauged (a Z′ bank exists). (iii) The
+sentence: **unsourced global charges cannot survive — every exact charge must
+have a gauge field.** Its testable fork: either the proton eventually decays
+(B violated) or B−L is secretly gauged (a Z′ exists). (iii) The
 cosmic baryon asymmetry η ≈ 6×10⁻¹⁰ is the universe's outstanding net
-debt with no visible counterparty; the Sakharov conditions are the
-ledger rules for creating one (a default mechanism, biased
-bookkeeping, and a market that fails to clear).
+imbalance with no visible counterpart; the Sakharov conditions are the
+rules for creating one (a violation mechanism, biased
+dynamics, and departure from equilibrium).
 
 **The Fairbank connection, explicit:** neutrinoless double-β decay
 — nEXO's target — is precisely the experiment that tests whether
-LEPTON NUMBER is a collateralized debt or an unenforceable IOU. A 0νββ
-detection = L defaults (Majorana neutrinos are the default mechanism)
-= the no-global-symmetries principle collecting. The dyad's Σm_ν
+LEPTON NUMBER is a sourced charge or an unprotected global symmetry. A 0νββ
+detection = L is violated (Majorana neutrinos are the mechanism)
+= the no-global-symmetries principle in action. The dyad's Σm_ν
 posterior (P-2026-004, computing) and the inverted-hierarchy window it
 may reopen are the mass-scale side of the same question. The program's
-top-priority deliverable and its debt architecture meet in one
+top-priority deliverable and its charge architecture meet in one
 experiment.
 
-**C1c — Time in the ledger (correspondence-grade with one load-bearing technical identification).**
-Three-way split: (i) THE ARROW is the posting direction — drafts are
-time-symmetric (microscopic reversibility), posted records accumulate
-irreversibly (C4a); past = ink, future = pencil, "now" = the posting
+**C1c — Time in the accounting (correspondence-grade with one load-bearing technical identification).**
+Three-way split: (i) THE ARROW is the recording direction — virtual processes are
+time-symmetric (microscopic reversibility), recorded events accumulate
+irreversibly (C4a); past = recorded, future = open, "now" = the recording
 front. The arrow requires MATTER to hold the records: a superfluid
-alone never posts — the arrow is emergent from medium+matter, as
+alone never records — the arrow is emergent from medium+matter, as
 proposed. (ii) THE CLOCK: the condensate has φ̇₀ ≠ 0 — it is a
 KHRONON, and the constant-φ foliation it defines is the very slicing
 the (δK)² operator already runs on: "time from the superfluid" is not
@@ -1271,11 +1271,11 @@ load-bearing in it. Lab precedent for medium-supplied clocks: time
 crystals (realized 2017+). (iii) THE CORRECTION: time is not a third
 gateway — it is the SYMMETRY underwriting the first one
 (time-translation → gravity → energy: symmetry, bank, debt), closing
-C4b's loop: reading a clock = counting accrued interest (E = ħω) on
-energy debts. WALL, stamped: why the ledger opened nearly blank (the
+C4b's loop: reading a clock = counting accumulated phase (E = ħω) on
+energy sources. WALL, stamped: why the universe opened nearly blank (the
 past hypothesis / low-entropy start) is underived here as everywhere.
 
-**C1d — Did time start? (interpretive grade, one lab receipt, EFT wall stamped).** The dichotomy "time began
+**C1d — Did time start? (interpretive grade, one lab confirmation, EFT wall stamped).** The dichotomy "time began
 with the first medium-matter interaction OR everything has always
 been" is well-posed but both horns commit a grammar trap (start/always
 are clock-words used where no clock exists). Resolved structure:
@@ -1286,19 +1286,19 @@ on a bench (Moreva et al. 2013: one photon as clock, the other
 evolves relative to it, the whole static). (ii) A third option the
 dichotomy misses: no-boundary (Hartle–Hawking) — the past is finite
 but edgeless (time rounds into space; South Pole, not wall).
-(iii) The ledger's split, carried over from C1c: the CLOCK (khronon
-tick) exists as far back as the medium; the ARROW (posting) waits for
+(iii) The accounting split, carried over from C1c: the CLOCK (khronon
+tick) exists as far back as the medium; the ARROW (recording) waits for
 matter — time-order predates time's direction. (iv) WALL: the medium's
 own opening lies beyond the EFT cutoff — the model cannot compute its
 first page; and the standing cyclic-universe conjecture is option
 (b)'s physical form (CCC-class), which would also address the
-blank-ledger wall. Parked, labeled, no claim.
+blank-start wall. Parked, labeled, no claim.
 
-**C1e — Forward-only time travel (correct on direction, mechanism priced, one correction; receipts routine).** Forward dilation is measured physics (GPS ~38 μs/day;
+**C1e — Forward-only time travel (correct on direction, mechanism priced, one correction; confirmations routine).** Forward dilation is measured physics (GPS ~38 μs/day;
 Hafele–Keating 1971; Kelly twins). The grow-your-own-mass
 mechanism works in principle (56 M⊕ in 1 m = 29% slowdown; serious
-fast-forward requires hovering near one's own horizon; the ledger
-permits it — debts must merely balance, ~1×10⁴³ J borrowed and repaid)
+fast-forward requires hovering near one's own horizon; the physics
+permits it — energy must merely balance, ~1×10⁴³ J borrowed and repaid)
 but is dominated by velocity or existing wells. Correction:
 de-dilation lands in the then-current now — a held fast-forward
 button, not a timestamp dial. THE MODEL-SPECIFIC RESULT: backward
@@ -1306,8 +1306,8 @@ travel is doubly and STRUCTURALLY excluded here, more strongly than
 in bare GR (which permits Gödel/wormhole CTCs and leans on Hawking's
 chronology-protection conjecture): (i) the khronon foliation assigns
 every event one reading of the universal clock — no geometry loops
-behind itself; (ii) the ledger writes one way — backward travel =
-un-posting ink (C4a). In this model chronology protection is not a
+behind itself; (ii) the arrow runs one way — backward travel =
+un-recording (C4a). In this model chronology protection is not a
 conjecture; it is the medium's clock plus the arrow's definition.
 
 **C1f — The emergence census — what else is emergent?
@@ -1319,7 +1319,7 @@ to percent grade), relativistic light cones (graphene's emergent
 c/300 Dirac structure), U(1) gauge fields + monopoles (spin ice,
 2009), the Higgs mechanism itself (Anderson found it in
 superconductors first), temperature/arrow/quasiparticle identity.
-This model's own ledger: the clock (khronon) and arrow (C1c), the
+This model's own list: the clock (khronon) and arrow (C1c), the
 ripple-particle M_eff = M₂²/m̄₂ (emergent identity), effective
 metrics for excitations (analog horizons), chronology protection,
 the floor (Λ as ground-state property), and — the live bet — the
@@ -1334,17 +1334,17 @@ proposes one more instance of an accepted kind, reading into the
 Yukawa 1% at the 10⁻² level in one epoch — the conservative framing
 for any expert audience.
 
-**C2 — The bank-location question resolves: the currency is action,
+**C2 — The 'what conserves?' question resolves: the invariant is action,
 not energy.** Under expansion, each field mode's adiabatic invariant
 E/ω — its occupation number, in units of ℏ — is *exactly conserved*;
-only the denomination (ω) redshifts. The radiation era's "payments to
-expansion" are, in action units, no payments at all: nothing leaves any
-account; the currency unit inflates. GR's refusal to define global
+only the unit (ω) redshifts. The radiation era's "losses to
+expansion" are, in action units, no losses at all: nothing leaves any
+mode; the unit (ω) redshifts. GR's refusal to define global
 energy and the perfect adiabatic invariance of quantum numbers are two
-statements of one fact: **the cosmic ledger was never denominated in
-energy. In units of ℏ the books balance identically, always.** (This
-retires the "what bank?" question of the transaction metaphysics: there
-is no missing energy; there is a devaluing unit and a conserved count.)
+statements of one fact: **the conserved quantity was never energy.
+In units of ℏ the count is exactly conserved, always.** (This
+retires the "what conserves?" question: there
+is no missing energy; there is a redshifting unit and a conserved count.)
 
 **C3 — The two-fluid correspondence.** The dyad's medium with the
 (δK)² term has dispersion ω = k²/2M_eff with c_s = 0 — the Bogoliubov
@@ -1355,11 +1355,11 @@ post-basin floor ↔ condensate fraction; **basin entry (z ~ 10⁵) ↔ the
 medium's condensation epoch**. Dark matter and dark energy as the
 normal and superfluid fractions of one substance — the trampoline
 metaphor's laboratory-physics name. Lab superfluids (helium kept liquid
-at T=0 by zero-point transactions) are structural cousins of the floor
+at T=0 by zero-point energy) are structural cousins of the floor
 (the medium kept at ρ_∞ by its condensate nature).
 
 **C3a — Smooth, not foamy (stance-grade,
-receipts quoted, reach-wall stamped).** Against Wheeler's quantum foam
+evidence quoted, reach-wall stamped).** Against Wheeler's quantum foam
 (a 1955 picture, not a derivation), the model bets sub-Planck
 smoothness. Status: (i) DATA CURRENTLY SIDES WITH SMOOTH — GRB 090510
 (Fermi 2009): energy-dependent photon dispersion excluded beyond the
@@ -1374,23 +1374,22 @@ condensate paradigm (Volovik school; our C3) predicts the deep UV
 gets MORE ordered descending — possibly discrete at bottom, but
 coherent: atoms in a superfluid, not bubbles in a boil. Wheeler
 conflates quantum with turbulent; this model's ansatz splits them on
-the condensate side. (iii) THE LEDGER ARGUMENT ("the bank
-won't allow grime"): the vacuum may DRAFT grime within the credit
-window — that is what vacuum fluctuations are (Casimir, Lamb) — but
-may never POST any: posted texture would appear in the energy books
+the condensate side. (iii) THE SMOOTHNESS ARGUMENT: the vacuum may carry
+VIRTUAL texture — that is what vacuum fluctuations are (Casimir, Lamb) — but
+never REAL texture: real texture would appear in the energy density
 (clean to 121 decimal places — X1's own number) and in the photon
-travel logs (clean past Planck at linear order). Foam-as-drafts:
-real, settles to nothing. Foam-as-ink: forbidden and observed absent.
-The ground state is smooth because grime is a field of unpaid
-micro-debts and the ground state is "paid in full" by definition.
+travel times (clean past Planck at linear order). Foam-as-virtual:
+real, averages to nothing. Foam-as-real: forbidden and observed absent.
+The ground state is smooth because texture is excitation energy
+and the ground state has none by definition.
 Hedge kept: an argument, not a theorem — cancellations could hide
 posted grime behind a clean net (the unsolved half of the Λ problem).
 (iv) WALL: this EFT's domain ends at ~20 nm (M₂) — sixty orders above
 Planck; the bet is booked as paradigm-aligned stance with
-observational receipts, not a result.
+observational confirmations, not a result.
 
-**C4 — Entanglement as the receipt of a balanced transaction
-(2026-07-06 night; analogy-grade, toll elected).** The Bell toll gate's
+**C4 — Entanglement as the signature of a conserved pair-creation
+(2026-07-06 night; analogy-grade, cost elected).** The Bell cost's
 model-native exit is (iv), quantize the substrate — and the resulting
 picture is lab-precedented, not invented: a condensate has
 off-diagonal long-range order (one macroscopic wavefunction, one
@@ -1398,15 +1397,15 @@ global phase — "the medium carries the message as itself"), and real
 laboratory condensates pay out their excitations in *entangled pairs*
 (two-mode squeezing; measured — entangled phonon pairs 2012, analog-
 Hawking pair entanglement across sonic horizons, Steinhauer 2016+),
-via exactly the Bogoliubov machinery C3 already maps. The transaction
-statement: **why** — conservation forbids solitary withdrawals from
-the central account, so excitations are born in anti-correlated pairs;
-entanglement is the two halves of one ledger entry. **How** — both
+via exactly the Bogoliubov machinery C3 already maps. The
+statement: **why** — conservation forbids solitary creation from
+the condensate, so excitations are born in anti-correlated pairs;
+entanglement is the two halves of one conserved event. **How** — both
 excitations are amplitudes on one global phase, so the correlation is
-carried by the medium as itself, with local settlement and no
+carried by the medium as itself, with local decoherence and no
 signaling. What is NOT claimed: that this reproduces full Bell
 violation for arbitrary measurement settings — a classical shared
-message caps at CHSH = 2, nature delivers ~2.7, and clearing
+message caps at CHSH = 2, nature delivers ~2.7, and reaching
 Tsirelson's bound (2√2) is the quantitative bar the substrate's
 quantum phase sector must hit by derivation. Until that derivation
 exists, C4 is a correspondence with laboratory support, not a result.
@@ -1430,15 +1429,15 @@ is quantized, its own expansion history mass-produces maximally
 Bell-violating pairs.** What remains conditional is the "if" (the
 phase sector's quantization is asserted, not derived) and the audit
 caveat (Gaussian/quadrature measurements see a positive Wigner
-function and no violation — the receipt requires a parity-grade
-auditor).
+function and no violation — the signature requires a parity-grade
+measurement).
 
-**Ledger calibration — known-answer tests of the transaction
-bookkeeping itself (2026-07-06 night; job scratch
-`derivation_battery.py`).** Two systems where the transaction language
+**Calibration — known-answer tests of the interaction
+accounting itself (2026-07-06 night; job scratch
+`derivation_battery.py`).** Two systems where the interaction language
 must reproduce measured numbers or be abandoned: (i) *the hydrogen
-atom built from scratch as a transaction equilibrium* — localization
-rent ħ²/2mr² against Coulomb payment −e²/4πε₀r; the ledger's
+atom built from scratch as a variational equilibrium* — localization
+energy ħ²/2mr² against Coulomb energy −e²/4πε₀r; the
 equilibrium point lands on the Bohr radius to 2.6×10⁻⁶ and on
 E_1s = −13.6057 eV to 1.2×10⁻⁹ (the dyad's +1% m_e amendment reprices
 it to 13.742 eV and moves z_rec by exactly the +1% CLASS integrates —
@@ -1446,100 +1445,100 @@ one arithmetic, laboratory to last-scattering). (ii) *The laser as
 photon condensate* — above threshold a laser is a macroscopically
 occupied mode with one global phase (the laboratory's cousin of the
 floor; threshold is a condensation transition, Haken's classic
-mapping). The ledger derivation — every solicited (stimulated)
-transaction copies the phase exactly; every unsolicited (spontaneous)
-transaction deposits one quantum of random phase, diluted by the n̄
+mapping). The derivation — every stimulated
+emission copies the phase exactly; every spontaneous
+emission adds one quantum of random phase, diluted by the n̄
 resident quanta — reproduces the **Schawlow–Townes quantum linewidth
 exactly** (ratio 1.000 against the textbook formula; ~1 mHz for a
 HeNe benchmark, the known answer). The fundamental noise floor of
-every laser on Earth is, in this language, the receipt stream of
-unsolicited transactions — and the bookkeeping gets its number right
+every laser on Earth is, in this language, the stream of
+spontaneous emissions — and the accounting gets its number right
 to the last decimal.
 
-**C4a — Measurement as settlement (correspondence-grade, receipts quoted, wall stamped).** Superposition
-= UNSETTLED transactions: pencil entries that can still cancel —
-which is what interference is (the double slit's paths are unposted
-drafts). Measurement = SETTLEMENT: the entry posts irreversibly to
-the public ledger — C1's own architecture (virtual/reversible vs
+**C4a — Measurement as decoherence (correspondence-grade, evidence quoted, wall stamped).** Superposition
+= UNRESOLVED amplitudes: reversible contributions that can still cancel —
+which is what interference is (the double slit's paths are unresolved
+amplitudes). Measurement = DECOHERENCE: the event records irreversibly to
+the environment — C1's own architecture (virtual/reversible vs
 real/dissipative) at the single-event level; decoherence is the
-pencil-to-ink transition. THE CORRECTION THAT MAKES IT PHYSICS: the
-bank cares about the RECORD, not the viewing — which-path detectors
-kill interference unread (an unread record settles), and the quantum
-ERASER un-posts a draft coherently and interference returns (a
-settled-looking transaction un-settles if the record never went
-public). Settlement has a measured RATE (decoherence times; watched
+reversible-to-recorded transition. THE CORRECTION THAT MAKES IT PHYSICS: what
+matters is the RECORD, not the viewing — which-path detectors
+kill interference unread (an unread record still decoheres), and the quantum
+ERASER un-records coherently and interference returns (an
+apparently-decohered process re-coheres if the record never became
+permanent). Decoherence has a measured RATE (decoherence times; watched
 in real time in cavity QED — Haroche 2012; ~1×10⁻³¹ s for a dust grain,
-which is why the macroscopic ledger is always ink). THE WALL, stamped:
+which is why the macroscopic world is always definite). THE WALL, stamped:
 this language does not pick the outcome and does not derive the Born
-rule — the bank's pricing algorithm (probability = |amplitude|²) is
+rule — the rule (probability = |amplitude|²) is
 the unsolved measurement problem for every interpretation, ours
 included. Filed at C4's edge: same boundary, same honesty.
 
-**C4b — Energy's three roles in settlement (correspondence-grade).** The proposal "the bank
-prefers the transaction with enough energy to spend" FAILS as an
+**C4b — Energy's three roles in the outcome (correspondence-grade).** The proposal "the outcome
+with enough energy is preferred" FAILS as an
 outcome rule — falsified directly (asymmetric superpositions: the
 higher-energy outcome can carry 2% against 98%; probability is
 |amplitude|², energy-blind, to interferometric precision) — but
 decomposes into three roles that are each correct: (i) **energy
 writes the menu** — conservation gates the offer set exactly;
 unaffordable outcomes have amplitude zero (thresholds, lines, Gamow);
-(ii) **the dominant coupling picks the settlement basis** — this is
+(ii) **the dominant coupling picks the basis** — this is
 einselection (Zurek), the accepted answer to the preferred-basis
 problem: the strongest system-environment channel chooses the
-LANGUAGE the receipt is printed in, never its value — the precise
-true form of "dominant energies take the payee role"; (iii) **energy
-is the interest rate on unsettled drafts** — E = ħω is the phase-
-accrual rate of pencil entries; receipts: every atomic clock (Cs:
-9.19 GHz = E/h read off a two-level draft), and COW 1975
+LANGUAGE the outcome is recorded in, never its value — the precise
+true form of "the dominant coupling sets the basis"; (iii) **energy
+is the phase-accrual rate of unresolved amplitudes** — E = ħω is the phase-
+accrual rate; evidence: every atomic clock (Cs:
+9.19 GHz = E/h read off a two-level system), and COW 1975
 (gravitational energy difference between interferometer arms appears
 exactly as interference phase). The Born-rule wall (C4a) stands: what
-prices the menu remains underived, here as everywhere.
+sets the probabilities remains underived, here as everywhere.
 
-**C4c — Neutrality is the settlement condition, not the selection
-rule (correspondence-grade, the sharpest landing of the series).** "The chosen outcome settles its
-debts without going over or under" cannot select among quantum
-alternatives — every menu item already clears exactly (BKS statistical
+**C4c — Conservation is the on-shell condition, not the selection
+rule (correspondence-grade, the sharpest landing of the series).** "The chosen outcome conserves
+exactly" cannot select among quantum
+alternatives — every option already conserves exactly (BKS statistical
 conservation killed by Bothe–Geiger 1925: conservation is exact in
-each INDIVIDUAL settlement). But it is precisely the REAL/VIRTUAL
-boundary: unsettled drafts may run unbalanced within the bank's one
-credit rule (Δt ~ ħ/ΔE — β decay borrows an 80 GeV W, ~1×10⁵× the
-available energy, for ~8×10⁻²⁷ s); POSTING requires exact clearance —
+each INDIVIDUAL event). But it is precisely the REAL/VIRTUAL
+boundary: virtual processes may run off-shell within the one
+uncertainty rule (Δt ~ ħ/ΔE — β decay borrows an 80 GeV W, ~1×10⁵× the
+available energy, for ~8×10⁻²⁷ s); BECOMING REAL requires exact conservation —
 the on-shell condition E² = p² + m² is that sentence
-made exact. Every particle ever detected was a cleared entry; the
-unbalanced ones exist only inside the drafting. And the "most logical
-choice" clause is the classical limit: paths surviving the draft
-summation are those where neighbors agree on accrued phase —
-stationary action (δS = 0) as the bank's bulk-processing shortcut;
-Newton emerges where the menu collapses to one agreed route. The
-settlement law assembled (C4a–C4c): drafts unbalanced within ħ/ΔE;
-posting requires neutrality; among neutral offers amplitudes price
-(Born — the wall); the dominant coupling picks the printing language.
+made exact. Every particle ever detected was on-shell; the
+off-shell ones exist only inside virtual processes. And the "most logical
+choice" clause is the classical limit: paths surviving the
+sum-over-histories are those where neighbors agree on accrued phase —
+stationary action (δS = 0) as the classical shortcut;
+Newton emerges where the sum collapses to one path. The
+picture assembled (C4a–C4c): virtual processes off-shell within ħ/ΔE;
+becoming real requires conservation; among conserving outcomes amplitudes set the odds
+(Born — the wall); the dominant coupling picks the basis.
 
-**C4d — The neighbor rule (exact, no decomposition needed — the golden rule assembled).** "The bank
-refuses internally-balanced transactions that bother the neighbor" is
+**C4d — The neighbor rule (exact, no decomposition needed — the golden rule assembled).** "The medium
+forbids conserving processes blocked by an occupied final state" is
 quantum statistics in transition rates, exactly: every fermionic
 final state contributes a VETO factor (1−f) — occupied neighbor ⇒
-amplitude zero (receipt: free neutron τ ≈ 880 s vs bound-neutron
+amplitude zero (evidence: free neutron τ ≈ 880 s vs bound-neutron
 immortality in stable nuclei — nuclear stability IS the neighbor
 rule; neutron stars = star-sized vetoes by the electron Fermi sea;
 the Chandrasekhar calibration = the veto as stellar structure). Every
 bosonic final state contributes an INVITATION factor (1+n) —
 stimulated emission (the laser calibration above threshold), BEC
 (the medium's own floor exists by the friendly half of this rule).
-And a neighborhood with no receiving account vetoes outright: Purcell
+And a final state with no available mode vetoes outright: Purcell
 suppression/photonic bandgaps — inhibited spontaneous emission,
 measured (O3's thread, named). Assembly: with C4b (menu + phases) and
 C4c (on-shell clearance), these clauses reconstruct
 FERMI'S GOLDEN RULE one by one — rate = (2π/ħ)·|amplitude|² ·
-(density of receiving accounts) · (neighbor factors) — pricing (Born,
-the wall) × menu × neighborhood consent. The transaction language has
+(density of final states) · (occupancy factors) — probability (Born,
+the wall) × available states × occupancy. This language has
 now re-derived the master transition-rate law of quantum mechanics
-from ledger axioms.
+from these axioms.
 
 **C4e — The Born clause: the crack and the road (route-map grade, no result claimed).** The wall decomposes. THE CRACK
-(proven): Gleason 1957 — given the Hilbert-space ledger, |amplitude|²
-is the UNIQUE consistent pricing; "why these odds" is answered
-(forced); what remains is "why this ledger geometry." THE ROAD
+(proven): Gleason 1957 — given the Hilbert-space structure, |amplitude|²
+is the UNIQUE consistent probability; "why these odds" is answered
+(forced); what remains is "why this Hilbert-space geometry." THE ROAD
 (published, runs through the superfluid): Madelung — in hydrodynamic
 form |ψ|² IS the medium's density, so Born reads "outcomes land where
 the substrate's excitation lives"; Valentini's subquantum H-theorem —
@@ -1548,8 +1547,8 @@ confirmed), making Born an EQUILIBRIUM of the medium, not an axiom;
 rider: early-decoupled sectors could retain quantum NON-equilibrium
 (odds ≠ |ψ|²), and a gravity-only condensate is the natural relic
 candidate — speculative, named, parked. COSTS, stamped: this road
-pays Bell's toll through the NONLOCAL gate while C4 elected
-quantize-the-substrate — mixing tolls owes care; and nothing here
+takes Bell's exit through the NONLOCAL door while C4 elected
+quantize-the-substrate — mixing exits owes care; and nothing here
 enters the evidence class. CONVERGENCE NOTE: the ingredients of a
 medium-specific Born-equilibrium argument (excitation-density
 statistics + quantized phase sector) are the same objects V3 and C4's
@@ -1557,71 +1556,71 @@ condition already owe — the five-verdict machinery and the Born
 question share parts. One calculation, now with a second prize
 behind it.
 
-**C4f — Stability as exhausted trade (correspondence-grade).** The stability law
-("everything pays to exist, netting zero; unstable atoms net ±,
-dirtying the floor") refined to exactness: the books NEVER show red
-ink (per-event conservation, C4c) — an unstable state is not in
-violation but holds an UNEXECUTED PROFITABLE TRADE: stable = paid in
-full AND no trades remaining (ground state); unstable = balanced
-books with a settlement pending, half-life = the golden rule's
-processing time (C4b-d). The "grime" is the trade's proceeds hitting
-third parties: radiation damage = unconsented transaction costs
-(dosimetry as its accounting; the medicine cluster's receipt book).
-Receipts: the valley of stability (nuclear physics as a map of
-pending settlements); the U-238 chain — FOURTEEN consecutive
-settlements over 4.5 Gyr terminating at Pb-206, the first account
-with nothing left to gain (the "cascading chains" made
+**C4f — Stability as an exhausted decay channel (correspondence-grade).** The stability law
+("everything conserves, netting zero; unstable atoms have a pending
+decay") refined to exactness: conservation NEVER
+fails (per-event conservation, C4c) — an unstable state is not in
+violation but holds an UNEXECUTED FAVORABLE DECAY: stable = conserving
+AND no decay available (ground state); unstable = conserving
+with a decay pending, half-life = the golden rule's
+rate (C4b-d). The "grime" is the decay products hitting
+third parties: radiation damage = the decay's byproducts
+(dosimetry as its accounting; the medicine cluster).
+Evidence: the valley of stability (nuclear physics as a map of
+pending decays); the U-238 chain — FOURTEEN consecutive
+decays over 4.5 Gyr terminating at Pb-206, the first nuclide
+with no decay available (the "cascading chains" made
 matter). Cosmic-scale instance: vacuum metastability — this model
-bets the floor holds no pending trades (true ground state,
+bets the floor holds no pending decay (true ground state,
 shift-protected) and signed it as P-2026-002.
 
 **C4g — The contingency tree (correspondence-grade).** The picture — every route to
-the outcome drafted simultaneously, each branch's CONTENT pre-written,
-nothing actual until posting — is the sum-over-histories (Feynman),
+the outcome explored simultaneously, each branch's CONTENT pre-written,
+nothing actual until it decoheres — is the sum-over-histories (Feynman),
 with Heisenberg's potentia as the stocked-store ontology and one
 quantum upgrade that is THE measured classical/quantum split: branches
 INTERFERE. Classical trees add probabilities (more routes = more
-milk); quantum trees add amplitudes before squaring — two open routes
+probability); quantum trees add amplitudes before squaring — two open routes
 to the same outcome can cancel to a GUARANTEED null (the double slit;
 close one route and the outcome returns). Branch-content pre-written:
 correct. Branch-selection pre-made: forbidden (Bell) and
 interference-refuted. Corollaries booked: competing decay channels as
-racing transactions (first posting forecloses the rest — branching
+racing processes (the first to complete forecloses the rest — branching
 ratios are the race statistics); the consistent-histories condition
-(the bank prices only story-sets that have stopped interfering)
-arrived unprompted from the posting language.
+(only history-sets that have stopped interfering carry probabilities)
+arrived unprompted.
 
-**C4h — The denomination rule (the Born door re-graded).** Proposal: which
-branch posts is timing; the odds are payment-form preference. Scored:
+**C4h — The equal-weight rule (the Born door re-graded).** Proposal: which
+branch decoheres is timing; the odds are amplitude-weight. Scored:
 TIMING dies as outcome-selector (2015 loophole-free Bell tests:
 spacelike random settings chosen in flight — no timing mechanism
 survives) though it stands for channel races (C4g); COST-EFFICIENCY
 died in C4b (beam splitters dial arbitrary odds between
-identical-cost routes — odds follow preparation, not the register).
-But the DENOMINATION structure is Zurek's envariance fine-graining,
-inverted one notch: the bank does not prefer big bills — it counts
-ONLY unit notes. Every branch exchanges into equal-amplitude
-fine-grained unit-branches; symmetry (envariance) forces equal notes
-= equal odds; **probability = the count of unit notes; |ψ|² is the
-exchange rate.** The 98/2 superposition is 98 singles
-against 2. Genuine rate-level denominational preference exists one
-level down: Bose (1+n) — the bank favors money moving as money
-already moves (every laser). DOOR RE-GRADED: not "locked for
-everyone" — two picks in the lock (Gleason: pricing forced by ledger
-geometry, proven; Zurek: unit-note counting, respected but contested
+identical-energy routes — odds follow preparation, not the energy).
+But the EQUAL-WEIGHT structure is Zurek's envariance fine-graining,
+inverted one notch: the rule does not weight by size — it counts
+ONLY equal-amplitude sub-branches. Every branch splits into equal-amplitude
+fine-grained sub-branches; symmetry (envariance) forces equal sub-branches
+= equal odds; **probability = the count of equal sub-branches; |ψ|² is the
+conversion.** The 98/2 superposition is 98 units
+against 2. Genuine rate-level preference exists one
+level down: Bose (1+n) — the medium favors a mode
+already occupied (every laser). DOOR RE-GRADED: not "locked for
+everyone" — two picks in the lock (Gleason: probability forced by Hilbert-space
+geometry, proven; Zurek: sub-branch counting, respected but contested
 for circularity). Neither fully turned; the second was reconstructed
-from a cash register.
+from the counting argument.
 **Addendum — "easier to distribute":** this
 one-line follow-up is the third Zurek pillar, quantum Darwinism: the
 environment is a broadcast medium; branches become CLASSICAL when
 their records copy redundantly into many independently-readable
 environmental fragments — classicality is selected by distributional
 cheapness (observed: photonic/NV-center redundancy experiments,
-2018–19). And fungibility closes the counting loop: probability can
+2018–19). And interchangeability closes the counting loop: probability can
 only be built on interchangeable units — swap-symmetry (envariance)
-is exactly what forces equal notes to equal odds. Small bills are not
-merely convenient; they are the only denomination symmetric enough
-to price.
+is exactly what forces equal sub-branches to equal odds. Equal units are not
+merely convenient; they are the only division symmetric enough
+to define probability.
 
 ### Closed
 
@@ -1685,13 +1684,13 @@ but the pre-basin normal fraction's decay deserves one careful pass.
 **Stress-test round (2026-07-06, free-rein pass):** C2 refined — the
 action-currency resolution applies to *excitations* (all inhabitants =
 mode occupations; adiabatic invariants exact); the condensate is a zero
-mode *outside* the excitation ledger — not an account but the frame the
-accounts are denominated against. The ledger's one number-changing era
+mode *outside* the excitation spectrum — not a mode but the frame the
+modes are measured against. The one number-changing era
 (double-Compton/bremsstrahlung, z ≳ 2×10⁶) closed with a measured
-receipt: FIRAS's blackbody (|μ| < 9×10⁻⁵) is the audit that the action
-ledger has balanced since. Basin entry sits at/below that window and
-deposits nothing (gravity-only) — consistent. C1 survived the
-weak-force stress: massive clearinghouses exist (W/Z) but the cosmic
+confirmation: FIRAS's blackbody (|μ| < 9×10⁻⁵) is the check that the action
+count has been conserved since. Basin entry sits at/below that window and
+injects nothing (gravity-only) — consistent. C1 survived the
+weak-force stress: massive coupling channels exist (W/Z) but the cosmic
 one is measured massless to ~10 H₀ (graviton-mass bounds); and Law 2's
 dissipative exception channel (spontaneous emission ↔ dark decay) is
 CLOSED for our medium by shift symmetry — registered as the model's
@@ -1709,7 +1708,7 @@ contested astrophysics literature, stated plainly.
 
 **O3 —** Purcell-engineering at sub-cosmic scales: environments that
 reshape the dark medium's local mode structure (deep halo interiors,
-BH near-zones) could in principle modulate dark-sector transaction
+BH near-zones) could in principle modulate dark-sector interaction
 rates the way cavities modulate spontaneous emission. Speculative;
 parked until the (δK)² certificates define which modes exist.
 
