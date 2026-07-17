@@ -103,7 +103,7 @@ that is a bug — file it.*
 
 - **[Zurek2003]** W. H. Zurek, "Environment-assisted invariance, entanglement, and probabilities in quantum physics," PRL 90, 120404 (2003), arXiv:quant-ph/0211037 (and PRA 71, 052105). — The envariance derivation of the Born rule; the swap partners are the twins (the settlement law, clause ii — adopted).
 
-## 7. Precision tests (the bills the medium must pay)
+## 7. Precision tests (the constraints the medium must satisfy)
 
 - **[Will2014]** C. M. Will, "The confrontation between general relativity and experiment," Living Rev. Rel. 17, 4 (2014), arXiv:1403.7377. — The PPN ledger.
 - **[Vainshtein1972]** A. I. Vainshtein, "To the problem of nonvanishing gravitation mass," Phys. Lett. B 39, 393 (1972). — The screening margin in the EP gate.
@@ -150,4 +150,4 @@ that is a bug — file it.*
 *Coverage note: keys appear in the docs as [AuthorYear]. The five internal-provenance
 stragglers found by the audit (SKELETON, the legacy action spec, intellectual_history,
 lss_parity, v4_dCDF_results) are stamped in this pass. Anything cited in a doc but missing
-here is a filed bug — the ledger's rule: no borrowed result without a line in this file.*
+here is a filed bug — the rule: no borrowed result without a line in this file.*

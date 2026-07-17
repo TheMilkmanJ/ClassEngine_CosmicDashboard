@@ -15,7 +15,7 @@ GATED.*
 ε ≡ δm_e/m_e ≈ **1.24%** — the varying-electron-mass shift at recombination that
 eases the H₀ tension. Fit to the CMB; the model's one novel empirical handle.
 
-## The factorization (from the transaction structure)
+## The factorization (from the interaction structure)
 
  ε = c × f_amp × (Ψ₀ / M_red)
 
@@ -65,15 +65,15 @@ Product: c × f_amp × Ψ₀/M_red ≈ 1 × 0.6 × 2.2% ≈ **1.3%**, bracketing
  - STRONG census → **ε = f_amp × Ψ₀/M_red is FULLY DERIVED = 1.24%.**
  - WEAK census → c ≈ 1 is natural + data-consistent, not forced.
 
-## The transaction (why the factors are what they are)
+## The interaction (why the factors are what they are)
 
 The m_e shift is a closed loop of couplings, matter → space → matter:
 1. **matter → space (gravity):** clustering/shell-crossing saturates Θ.
 2. **Θ (the all-clear gate):** binary — diffuse "hold" / virialized "release".
  Matter's own state, written into the fluid.
 3. **space → matter (β = the read gain):** β = f_amp reads Θ back onto m_e.
- INFORMATION not energy (census-forced small, §69) → UNCOLLECTABLE (the bank
- collecting its own information, §71). Matter reallocates its own energy
+ INFORMATION not energy (census-forced small, §69) → UNCOLLECTABLE (the medium
+ reading its own information, §71). Matter reallocates its own energy
  (FIRAS-safe reallocation branch).
 4. **matter → matter (EM):** the electron's EM-structured mass realizes the
  shift, distributed by hydrogen/reduced-mass flavor (electron dominates).
@@ -131,7 +131,7 @@ of it.
 - **Ceiling (c ≲ 1):** DERIVED from technical naturalness (§75, the "too
  expensive"). A stronger-than-gravitational coupling radiatively destroys the
  medium's own ultralight mass — so c can't exceed gravitational strength. The
- ledger caps c to survive.
+ naturalness constraint caps c to survive.
 - **Floor:** the amplitude is over-determined (pinned f_amp, Ψ₀) so c can't drop
  far without breaking the fit (§76–77). Measured value: **c = 0.93 ± 0.38**,
  consistent with 1, sharpening as Fairbank converges.
@@ -415,7 +415,7 @@ NEW THREAT REGISTERED: if future data pushes m > ~1×10⁻¹⁸ eV, c strains pa
 
 Final resurrection pass over all ~15 birefringence-source attempts. Result: NOTHING resurrects.
 Three death classes are un-revivable: (1) killed by conservation law/definition (residual/decaying
-charge, reverse-flow, external source, frozen coupling, sign-flip, radiation-account → charge
+charge, reverse-flow, external source, frozen coupling, sign-flip, radiation-coupling → charge
 conservation + "touching a photon IS coupling to it"); (2) wrong signature (plasma/Faraday are
 CHROMATIC, the hint is ACHROMATIC; color = naming coincidence); (3) alive in the wrong body
 (topology → low quadrupole not TB/EB; genesis twist → GW chirality not light).

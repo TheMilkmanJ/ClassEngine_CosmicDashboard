@@ -43,7 +43,7 @@ turn-tag. A model that cannot show its graveyard cannot be trusted with its gard
 | The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal audit |
 | P-039's collider knife-edge ([1.00–1.19] TeV) | SUSPENDED: the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run | internal audit |
 | c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal audit |
-| c = 9/12 and c = 9/13 (the "neutrino side doesn't pay" rosters) | RAMP-PROOF KILLS: each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | 2026-07-13 |
+| c = 9/12 and c = 9/13 (the "neutrino side doesn't count" rosters) | RAMP-PROOF KILLS: each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | 2026-07-13 |
 
 ### The G-closure — computing Newton's constant
 
@@ -144,7 +144,7 @@ coupling as the electron-mass shift.
 |---|---|---|
 | The MTLT bracket framing | MT contains freeze-out where the dyad is OFF — LT-class is the truth | internal audit |
 | The m_D ribbon guess (0.1–0.3 GeV viable) | the scan found the surface empty everywhere | internal audit |
-| The "seesaw forces type-III" over-credit | census-invisible steriles exist; re-pin softened; the lean was withdrawn | internal audit |
+| The "seesaw forces type-III" over-claim | census-invisible steriles exist; re-pin softened; the lean was withdrawn | internal audit |
 | Process error 8: the transfer integral point-evaluated (three ramps read at one point) | the crude integral run — low-end domination restored the order (estimate-grade) | 2026-07-12 |
 
 ### The transition, the gate & screening
@@ -235,7 +235,7 @@ band." **1.5× the band is outside the band.** Ramped over the measurement and s
 only ~2% of the distribution closes the gap at M_Pl; the true crossing sits 2.1 decades below.
 The same directional pattern as process error 30 (the f̄ spin): a miss graded as a hit because
 the narrative wanted it. Regraded to NEAR-lock (suggestive); the exact closure
-reassigned to the basement as a payment owed. *Mitigating note: caught in-house, same session,
+reassigned to the basement as work owed. *Mitigating note: caught in-house, same session,
 before any external use of the claim — the audit loop is tightening, the generator is not.*
 
 #### Process error 33 — an independent verdict recorded before the review returned it (struck and re-run)
@@ -255,7 +255,7 @@ whatever the review returns, when it returns it. Any anticipation of the expecte
 clearly labeled as a forecast.
 
 **Note:** by coincidence the authentic verdict landed close to the premature one (comparable
-standing; credit the six-lock structure; A = √2 stays a target; data before theory). **This
+standing; acknowledge the six-lock structure; A = √2 stays a target; data before theory). **This
 mitigates nothing** — a result that happens to match is still improperly recorded.
 
 #### Process error 34 — two bookings "re-priced" BBN verdicts that were never stepped (a favorable double-count; caught by the operator's booking-discipline enforcement)
@@ -317,7 +317,7 @@ uncomputed 2-loop constant (PMS-scaling argument). Value remains UNDERIVED.
 - The c-roster watch: RESOLVED toward 9/10 (hunt 203–206) — the census reads the universal charged roster (not leptophilic); direct-Majorana light mass makes the neutrino the ε fixed-point seat → 9/10; the old "data lean 12/13" was backwards (the fit sits below 9/10). Residual: the un-derived value μ = 2.25 meV.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
 - The G-closure's matter-only branch: CLOSED ADVERSE by the signed demand (a leptophilic all-positive roster induces wrong-sign gravity under Visser's anchoring); the closure survives only through the winding's vector sector, whose weight is underived.
-- The medium claim (M3) itself: an open assumption, priced by everything above staying on the books.
+- The medium claim (M3) itself: an open assumption, priced by everything above staying on the record.
 - **The medium's strong condensation is UNSOURCED (hunt 221):** the dyad/medium condensation that the
   DE-value digit rests on needs a strong pairing coupling g_p > g_c=2, but EVERY interaction the model
   contains is weak (α, α_c=3α, Majoron g~10⁻⁸, ε-fit κ; all g ≪ 2 by 2–15 orders). So the medium's strong

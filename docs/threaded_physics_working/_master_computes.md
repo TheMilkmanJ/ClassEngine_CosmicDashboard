@@ -8,7 +8,7 @@ it is (like the threads) a small-rooted tree. Booked internal review.*
 |---|---|---|---|
 | M1 | **THE α_c POSTERIOR** (m → α_c) | PAUSED at 457 accepted samples (2.6% < 4% target held) — the box is PolyChord-solo until the evidence queue drains; relaunch after | the fraction/c, Γ's par (same question), T1 solitons, T2 α_g ladder, ξ everywhere (BH/bounce/map), P-030's scale — ~8 |
 | M2 | **THE CARD-4 SOLVE + SIGN MAP** | form FIXED (η = n × junction transmission); the integral RUN at estimate grade (reservoir 1.9×10⁴× the need; the sphaleron-weighted careful pass still owed) | η, T14's dictionary, T10's n-sign, the chirality family's readability, the matter-sign linkage — ~6 |
-| M3 | **THE LORENTZ PROGRAM** | LV pricing PAID (the blindness shield, 12–38 orders); induced-G DECOMPOSED (4/5 recorded/paid/priced); residue = THE BASEMENT ROSTER (the working docket) | F-F/area law/no-bare-G (the keystone → 5 docs), W-W pricing, the LV ledger, the wing's frame notes — ~7 |
+| M3 | **THE LORENTZ PROGRAM** | LV cost cleared (the blindness shield, 12–38 orders); induced-G DECOMPOSED (4/5 recorded/paid/priced); residue = THE BASEMENT ROSTER (the working docket) | F-F/area law/no-bare-G (the keystone → 5 docs), W-W pricing, the LV ledger, the wing's frame notes — ~7 |
 | M4 | **λ_phys** | DERIVED-CONDITIONAL (Kibble draw at T_c is born at the crossover → λ = ceiling; P-031 becomes a consequence) | MOND/RAR's range, the BH/bounce floors, superradiance self-interactions, CSW margins — ~4 |
 | M5 | **THE CHAINS** (the thaw chain/conv_desi convergence) | PAUSED pre-convergence (thaw mid-burn-in; conv_desi at the gate) — queued behind the evidence runs | conv_g (T3+T4 jointly), the thaw posterior, the internal review pre-registrations — ~4 |
 | M6 | **THE ε(EPOCH) PROPAGATION** | done to current depth (windowed re-stamp + the template-offset derivation) | the lattice rows, P-027(a), lithium's row, spine §17 — ~4 |
@@ -27,7 +27,7 @@ Residual standalone: bench designs (T7), TRGB/PolyChord (external clocks), instr
   quartic's origin and the frame question — one microphysics, two masters.
 - M5 ↔ M6: the chains' posteriors re-stamp the same lattice the windowed run re-stamped.
 
-**The estimate, graded by the ledger: ~40 debts → 8 masters → arguably 4 CLUSTERS
+**The estimate, honestly graded: ~40 debts → 8 masters → arguably 4 CLUSTERS
 (the par/size cluster M1+M8, the topology cluster M2+M7, the frame/UV cluster M3+M4, the
 data cluster M5+M6). The debt sheet has the same shape as the model: few roots, everything
 else inheritance.**

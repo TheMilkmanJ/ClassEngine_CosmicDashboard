@@ -31,7 +31,7 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 | m_ncdm stated | 61.4 meV | the spurion (docketed) lifted + P-023 resolved | [Y] |
 | The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | [CMP] flow_ladder_correction.py (built) |
 
-## 3. NO PIPELINE EXPRESSION — beneficial, lives in the books (not code by nature)
+## 3. NO PIPELINE EXPRESSION — beneficial, lives in the theory (not code by nature)
 
 The chain law; the melt; the counterparty rule; the zero–infinity asymmetry; the genesis
 chart (Γ/impulse/E/friction); the Widnall n-predictor (n = 2.26–2.51 × R/a — the α_c MCMC/comb
@@ -49,7 +49,7 @@ lever (×17–83 short); the S₈-flow lever (energy null + wrong-signed); the b
 speed-accumulator (rotation resets; no exterior frame); entrainment as a distinct thread
 (absorbed); the literal plasma-ring matter distribution (isotropy); the ring-through-a-
 white-hole feeder (counterparty rule; unneeded). *Rule: a killed item re-enters only by
-a new derivation that overturns its killshot, logged in the ledger first.*
+a new derivation that overturns its killshot, logged in the failures ledger first.*
 
 ## 5. The standing verification
 
