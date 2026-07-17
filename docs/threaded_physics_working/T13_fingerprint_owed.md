@@ -142,6 +142,50 @@ steps illegal as *computational entries and methods*) already required the ramp 
 than bracketed by steps; that was hygiene an hour ago, and it is now **the difference between
 p = 0.11 and p = 0.0005**. **Computing the true ramped splice is the decisive open BBN task.**
 
+## THE TRUE RAMPED SPLICE — COMPUTED (2026-07-16). `scripts/prym_ramped_splice.py`
+
+The decisive task, run. The ramp ε(T) = ε(1 − T/T_c) is applied **pointwise** to the weak-rate
+grids — rate(T) = std(T) + [shf(T) − std(T)]·w(T), w(T) = max(0, 1 − T/T_c) — instead of switching
+zones on and off. Exact at w = 0 and w = 1, first-order in between; ε = 1.24% is small enough that
+the rates' departure from linearity is negligible (the scan's Y_p increments are linear to < 2%).
+
+| splice | Y_p | pull (Aver) | D/H | pull (Cooke) | χ² (2 dof) | p |
+|---|---|---|---|---|---|---|
+| LT step (claimed "low edge") | 0.249701 | +1.29σ | 2.47734 | −1.66σ | 4.42 | 0.110 |
+| MTLT step (claimed "high edge") | 0.258573 | +3.90σ | 2.52747 | +0.02σ | 15.24 | 0.0005 |
+| **RAMPED, T_c = 0.179 (DERIVED)** | **0.248995** | **+1.09σ** | **2.47034** | **−1.89σ** | **4.75** | **0.093** |
+| RAMPED, T_c = 0.193 (cross-check) | 0.249215 | +1.15σ | 2.47663 | −1.68σ | 4.14 | 0.126 |
+
+**THREE FINDINGS, and the first overturns a recorded claim:**
+
+**1. The bracket does not bracket.** Y_p: ramped 0.248995 **<** LT 0.249701 < MTLT 0.258573. D/H:
+ramped 2.47034 **<** LT 2.47734 < MTLT 2.52747. **The truth lies BELOW the LT edge, not between the
+two.** `run_windowed.py`'s header calls LT the *"ramp low edge → UNDER-counts"* — it is neither: LT
+applies the **full** shift (w = 1) across the whole LT zone where the true w runs 0.44 → 1, so LT
+**over**-applies. The bracket's lower edge was never a lower bound, and every conclusion drawn from
+"the truth is somewhere in [LT, MTLT]" was drawn from a false enclosure.
+
+**2. The MTLT catastrophe was a step artifact — and the depth law called it.** MTLT applies the full
+shift across 0.179–1 MeV **where the true ramp is exactly zero** (the dyad is OFF above T_c). Its
+p = 0.0005 "rejection" was an artifact of the approximation, not a statement about the model.
+Amendment 5 (steps illegal as computational entries *and methods*) demanded the ramp be computed
+rather than bracketed; doing so **removes a 3.5σ rejection that never existed.**
+
+**3. The model SURVIVES BBN at the derived ε with ZERO fitted parameters: χ² = 4.75 on 2 dof,
+p = 0.093** (0.126 at the perturbative T_c). Not comfortable, not rejected.
+
+**The internal strain survives the rescue.** Ramped elasticities (T_c = 0.179):
+d(Y_p)/dε = **0.00163**/%, d(D/H)/dε = **0.00782**/% — both *smaller* than the LT step's, as they
+must be (the ramp never applies the full shift anywhere except T → 0). Inverting: Y_p (Aver) wants
+ε = **−1.02 ± 2.08 %**, D/H (Cooke) wants ε = **+8.49 ± 3.84 %** — **still 2.2σ apart.** The rows
+still pull in opposite directions on one parameter. That finding is robust to the splice.
+
+**A T_c inconsistency surfaced in passing.** The corpus's epoch stamps (D bottleneck ε_eff = 0.64ε,
+Li = 0.79ε) reproduce 1 − T/**193 keV** (0.637, 0.793), not 1 − T/**179 keV** (0.609, 0.777) — the
+BBN engine's ramp is keyed to the **perturbative Coleman–Weinberg cross-check**, while the DE chain
+derives T_c = **179 keV** (the confining chiral value, τ·m_e). The consequence is small here
+(p = 0.093 vs 0.126) but the engine should be keyed to the derived value, and the stamps restated.
+
 **Status: item 3's blocking input CLOSED; the statistic is EVALUABLE and has been evaluated. Two
 obstructions remain before a single headline number can be quoted:** the helium branch problem
 (Aver vs EMPRESS, 1.7σ apart on the same observable — the EMPRESS branch is far worse: it wants
