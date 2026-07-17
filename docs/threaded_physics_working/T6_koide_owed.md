@@ -63,14 +63,28 @@ owes. The same attractor delivers the DE closure's s ≈ 0.26. **They stand or f
 §5 already names the shared failure mode: *"otherwise the transition boils, first-order"* — in which
 case the closure misses **and** A = √2 has no mechanism.
 
-**Grade: CANDIDATE — a guess with an argument, not a result.** What is computed: step 1 (exact,
-θ-independent). What is quoted: steps 2 and 3, from the corpus's own definitions. **What is owed:**
-(i) that the *family* field settles under the *same* attractor as the dCDF's order parameter — they
-are different sectors and the transfer is asserted, not shown; (ii) that the attractor is SOC rather
-than mean-field — background.c certifies **Gi ≪ 1** (mean-field, β = ½) for the condensate's
-transition, which is the *opposite* regime from a critical seam, so either the family field's
-Ginzburg number differs or this candidate dies on it; (iii) the V ~ M², K ~ R² identification
-(above) is still the floor beneath all of it. **Item 1 stays OPEN — but it is now one mechanism
-away, and that mechanism is already load-bearing elsewhere, so it cannot be adopted for free.**
+**Which Ginzburg number applies — checked, and the answer is: none of them yet.** The corpus
+contains **exactly one** computed Ginzburg number, and it belongs to a **third** transition:
+
+| claim | whose transition | regime |
+|---|---|---|
+| **Gi ≪ 1, mean-field β = ½** (`source/background.c`) | the **dyad's** condensation at T_c (M₂ = α²·T_c, "T_c the dyad's condensation temperature") | mean-field |
+| **the SOC settling attractor** (§5 above) | the **dCDF's** settling — the fluctuation-dissipation response (s ≈ 0.26 against ohmic s = 1) | critical |
+| **the family field** (this item) | a scalar family field, the Z₃ three-defect equilibrium "under the medium's own log coupling" | **unstated** |
+
+**These are three different fields and three different transitions.** The dyad's mean-field Gi
+therefore says **nothing** about whether the dCDF's settling attractor is SOC, and nothing about the
+family field's regime. **No Ginzburg number has ever been computed for either of the two that
+matter here.**
+
+**Grade: CANDIDATE — a guess with an argument, not a result.** Computed: step 1 (exact,
+θ-independent). Quoted: steps 2 and 3, from the corpus's own definitions. **Owed:**
+(i) **compute the family field's Ginzburg number** — this is the decisive test and it does not
+exist; Gi ~ 1 admits the seam, Gi ≪ 1 kills the candidate outright;
+(ii) that the *family* field settles under the *same* attractor as the dCDF's order parameter —
+different sectors, transfer asserted not shown;
+(iii) the V ~ M², K ~ R² identification (above), still the floor beneath all of it.
+**Item 1 stays OPEN — one mechanism away, and that mechanism is load-bearing elsewhere, so it
+cannot be adopted for free.**
 
 Coupling-geometry status: screened-room (laboratory masses) — verdicts hold by geometry.
