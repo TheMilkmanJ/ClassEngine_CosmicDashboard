@@ -908,10 +908,22 @@ crosses and holds 1. No knobs: the vertices are computed, the pour is pinned cur
 weight is pinned sudden, the injection is the recorded band. **The death clause does not
 fire. The unified complex — A = √2, θ_seed = 135°, R_c = M_c, the even-split theorem —
 survives its own kill computation, at estimate grade.** What separates estimate from
-derived, named: (h1) the Bernoulli exponents are scaling-grade — sensitivity ±1/3 in the IR
-slope moves the ratio ∓13–17%, so the honest 2D-QT derivation of the −4/3 (and the enstrophy
-side) is the main hardening; (h2) the R₀ ↔ horizon identification behind q_inj·R₀ = √n;
-(h3) grid/method systematics (few %). Sector-equipartition — the T-per-irrep sharing that
+derived, named: (h1) the Bernoulli exponents — **HARDENED same day, derived and verified.**
+The density spectrum is the turbulent PRESSURE spectrum (δρ = p/c², barotropic quasi-static),
+and Galilean invariance protects it: a uniform sweep sources no pressure (the soft-leg
+cross-term dies on the longitudinal projection, q̂·u ≡ 0), so the dangerous shallow
+alternative (−2/3, swept) is excluded BY SYMMETRY and the local closure gives the classic
+−4/3 per log. Verified by direct 2D simulation (Gaussian incompressible field, 4
+realizations): velocity input −0.673 (target −2/3, 1%); **pressure −1.367 at scale
+separation 8–30× (target −4/3, 2.5%)**, with the near-injection softening quantified and
+identified as the crossover-smoothing systematic already priced (smooth s = 2: ≤ 7% at band
+bottom, ≤ 1% at top; the enstrophy-side steepness is verdict-irrelevant, −3 vs −4 shifts
+≤ 0.7%). Residual h1 caveats, honest: the Gaussian closure (inverse-cascade large scales are
+known near-Gaussian; mild), and quasi-static validity (breaks only within ~ξ of cores — the
+enstrophy side, verdict-irrelevant). **The ∓15%-per-⅓-slope systematic is dead; the plateau
+now stands on a derived spectrum.** Remaining: (h2) the R₀ ↔ horizon identification behind
+q_inj·R₀ = √n; (h3) grid/method systematics (few %) — the ξ = R₀/3 watch stays unresolved
+inside h3's floor. Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
 cascade meeting the ring's own computed vertices, not as an assumption.
 
