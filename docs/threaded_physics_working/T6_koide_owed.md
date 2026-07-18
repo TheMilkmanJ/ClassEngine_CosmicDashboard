@@ -1113,3 +1113,38 @@ i.e. the electron's lift off the wall, and with it m_e's ring coordinate, in clo
 **Grade: STRONG WATCH, no mechanism** (the house derives neither 2/9 nor anything about it);
 its standing role: **the door's sharpest numerical target — any future sector-equipartition
 mechanism must land the phase at 2/9 rad ± 0.0005°.**
+
+
+## THE KERNEL REFORMULATION — the mechanism hunt's new coordinates (2026-07-18, late)
+
+**Exact (pure algebra):** the ring is a Z₃-circulant spectrum — √m_k are the eigenvalues of a
+Z₃-convolution kernel f(d): λ_k = f₀ + 2|f₁|cos(arg f₁ + 2πk/3), so M = f₀, A = 2|f₁|/f₀,
+θ_B = arg f₁. **The door's two targets are one complex number:**
+
+> **f₁/f₀ = e^(−½ln2 + i·2/9)** — modulus 1/√2 (⟺ A = √2), phase 2/9 (⟺ the watch).
+
+Any mechanism debate about "why √2 and why 2/9" is now a debate about one nearest-neighbor
+amplitude on the family cycle.
+
+**K1 (candidate; the invented step named):** the modulus reads as per-hop attenuation
+e^(−κ) with **κ = τ = T_c/m_e** — exact iff **τ = ½ln2 = 0.34657**, which sits INSIDE
+P-2026-048's registered window [0.330, 0.370], 1.1% below the registered 0.3503. The
+house-native composition behind it: correlations between the family defects screened
+**thermally at T_c** across the **confinement length 1/√σ = 1/m_e** gives attenuation
+m_scr·ℓ = T_c/m_e = τ — both scales the sector's own. Invented steps, flagged: the Yukawa-pure
+form, the unit coefficients, and "screened at T_c" as the operative epoch — the chase.
+**Consequence if K1 holds:** the flagship lands **ρ_Λ¼ = 2.2599 meV = +0.44%** with a DERIVED
+τ — the first configuration in which the flagship's agreement would be a sourced prediction
+rather than the rounding echo (+1.52%).
+
+**K2 (candidate, fenced):** the phase reads as drift/winding per face-hop, 2/9 rad, total
+cycle winding 2/3. The flow-line proximity (ω₀ band edge 0.67 vs 2/3 = 0.667) is noted as
+bait-class until a mapping exists — no units, no mechanism, note only.
+
+**THE FORK, registered before any lattice result exists:** the P-048 lattice referee now
+adjudicates a two-point fork — **0.3503 (the observation inverted) vs 0.34657 = ½ln2 (the
+kernel candidate)** — 1.1% apart, both in-window, distinguishable by a good SU(2) N_f = 3
+determination. A lattice landing at ½ln2 would simultaneously: source τ, convert the flagship
+to +0.44% predictive, and hand the Koide door its modulus. A landing at 0.3503 kills K1 clean.
+**Guards:** the 5/9 and golden-angle executions bind; the kernel identifications carry no
+chair until the chase pays or the lattice speaks.
