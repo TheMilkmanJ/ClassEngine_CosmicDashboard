@@ -755,6 +755,41 @@ parametric-saturation floor: the observable must read aggregated channel powers,
 amplitude draw). Plus the standing regime condition, now stated as a rate inequality:
 **Γ_torque < Γ_bath at contact** (the Z₃ cubic off — the torque-dominated alternative is
 computed dead). **The door's status after the strike: one residual (the power-level reading)
-and one rate inequality — everything else recorded or computed.** Kapitza consistency holds: the fast-drive effective mass
+and one rate inequality — everything else recorded or computed.**
+
+**Basement phase 1 (2026-07-18): the reading derived, the regime data-certified, and the
+residual UNIFIES with the corpus's oldest blank.**
+
+*(a) The power-level reading — DERIVED from two recorded parts.* Mass = (ring amplitude)² is
+an identity of the parametrization, so the wall's backreaction (drain ∝ mass-powers — the
+zero-crossing production class above) is a **quadratic sensor by construction**, not by
+choice; and the phase's equidistribution is the same granted foundation f̄ = 2/π stands on.
+Quadratic sensor + equidistribution ⟹ the sensor reads **second moments** ⟹ ⟨cos²⟩ = 1/2,
+forced. **The moment-pair watch upgrades from watch to structure:** one equidistributed
+phase, read at the two coupling orders the physics provides — linear (Yukawa) gives
+f̄ = ⟨|cos|⟩ = 2/π; quadratic (mass) gives √⟨cos²⟩ = 1/√2.
+
+*(b) The rate inequality — data-certified.* Torque-dominated freezes land the computed graves
+(A = 1, 2); the measured A = √2 to 9×10⁻⁶ excludes both — standard model selection, the
+regimes predict different endpoints and the data picks. The mechanistic Γ_torque < Γ_bath
+computation remains a basement item, no longer a blocker.
+
+*(c) The trigger equality, chased into the mode basis — the honest wall, and the
+unification.* Face-space decomposes into the two Z₃ irreps: the singlet (M) and the doublet
+(x, y), with Σ_k face_k² = 3M² + (3/2)R². **Mode-equipartition (T/2 per canonical quadratic
+mode) gives ⟨R²⟩/⟨M²⟩ = 4 ⟹ A = 2 — the axis grave re-derived from thermodynamics**
+(MC-verified; the third independent road to A = 2, now a fence: face-democratic /
+per-mode-thermal potentials are excluded by the data). A = √2 requires instead
+**R_c = M_c — the doublet's total canonical power equal to the singlet's — which is
+verbatim the recorded final-form blank** ("Why R_c = M_c … as a classical VEV, to 10⁻⁵").
+In bath language: **sector-equipartition — the genesis budget divides evenly between the two
+Z₃ irreps (T per irrep), not among the modes (T/2 per mode).** The two channels of the
+even-split sentence are the two irreps. **Debt unification:** the wall-tangency door's last
+residual, the metric-walk's final-form blank, and the even-split theorem are ONE question —
+*does the genesis bath share per-irrep or per-mode?* — with a fence on each side
+(per-mode ⟹ A = 2, excluded; per-irrep ⟹ A = √2, the data) and a named mechanism-shape,
+unbuilt: a Z₃-invariant bath coupling transfers through channels labeled by irreps; a
+channel-democratic transfer (one unit per channel — the A_s shot-additivity grammar) delivers
+T per irrep. The entire Koide complex now stands on this single question. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
