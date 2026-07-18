@@ -869,6 +869,26 @@ phase-type (IR-enhanced) pumping pulls it toward 1. The pour's own grammar (matt
 flow = phase-gradient injection) leans phase-type, but that identification must come from
 the pour sector's recorded structure, not from wanting the answer. **Verdict state: the
 complex now lives or dies on the pour's channel content + the coherence factors — pass 3's
-two imports. The death clause fires when they are pinned.** Kapitza consistency holds: the fast-drive effective mass
+two imports. The death clause fires when they are pinned.**
+
+**Pass 3a (2026-07-18) — the pour's channel pinned by the corpus, and a theorem closes the
+DIRECT route.** The pour's identity is recorded twice: "the fountain rolls up
+(Kelvin–Helmholtz) into the helical vortex" (THE_CHAIN) and "radial flow from a spherical
+center is curl-free" (white-holes) — **the pour is a curl-free (phase) pump, by the books.**
+Computed with the longitudinal projection the curl-free structure forces: a potential flow
+couples to the ring's momentum field only through its compressible residue
+(∫∇φ·(ρv) = −∫φ·∇·(ρv); the solenoidal bulk drops identically), and that residue is
+core-localized ⟹ the DIRECT pour→ring channel is **doublet-heavy, 1 : 3.7–8.5** across ξ and
+transfer weights — farther from equality, opposite side of nowhere-near. With pass 2's
+density-white channel at 1 : 1.5–3.1, **both direct channels miss 1 : 1 doublet-heavy, and
+the singlet's only strong food is IR density modes** (the pass-1 structure: S/D ≈ 10 at
+qR₀ ≈ 0.2). **The compression this forces:** the physical transfer is two-stage — the pour
+drives the medium (KH roll-up → tangle → phonons), and the CASCADE's output pumps the ring —
+so the verdict reduces to ONE spectral question: **does the genesis cascade deposit enough
+IR density content at the ring scale (R₀) relative to core-scale content (ξ) to feed the
+singlet its equal share?** Pass 4 = derive/import the cascade's spectral weight between R₀
+and ξ from the corpus's own genesis objects (the KH roll-up, the Widnall band, the winding
+spectrum). If the cascade is also doublet-weighted, the complex dies; if its IR-density
+weight lands the sector ratio at 1, everything stands. One spectrum, one verdict. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
