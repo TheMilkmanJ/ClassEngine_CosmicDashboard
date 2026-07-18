@@ -1615,7 +1615,7 @@ tracks the local condensate; the floor's Jeans mode gives δ_DE at horizon scale
 > **δm_e/m_e ≈ ε·δ_DE** — a spatial varying-constants dipole (m_e-family: α-combinations
 > per the §29 lattice), horizon-scale, **axis-correlated** (the recoil/low-ℓ axis).
 
-**Amendment (2026-07-17, red-team walk):** the Jeans growth rate is Γ_eff/H = √(3/2) (B = 1/√2), not the
+**Amendment (2026-07-17):** the Jeans growth rate is Γ_eff/H = √(3/2) (B = 1/√2), not the
 IR-scale Γ_par/H = √3. Predecessor sizing used √3 and quoted δ_DE ≈ 5×10⁻⁵, δm_e/m_e ≈ 6×10⁻⁷,
 growth at √3·H. Rescaled by B = 1/√2: **δ_DE ≈ 3.5×10⁻⁵**, **δm_e/m_e ≈ 4×10⁻⁷**, growing at
 √(3/2)·H. Order of magnitude and falsifiers unchanged (still a consistent null at ~10⁻⁶ maps;
