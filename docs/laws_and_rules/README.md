@@ -375,3 +375,37 @@ DIAGNOSTIC — a strain is a place to look, never an executioner; run the guidel
 to find under-built doors and unseated furniture (its first survey located the thermal
 program and the Λ value board). The ruling stands: too many
 laws have bitten; this one stays a suggestion with a good track record.
+
+---
+
+## Tier R — THE REVIEW-PROCESS LAWS (adopted 2026-07-18)
+
+*Provenance: proposed by the external challenger seat (ChatGPT) during its audition week;
+adjudicated and modified in main session; adopted on the owner's word 2026-07-18. These bind
+the tribunal/referee process, not the physics.*
+
+- **R1. The mechanical simplicity score.** Every tribunal verdict carries a net-assumptions
+  line: named inputs added vs removed vs phenomena newly covered. **The counting rule (the
+  modification that makes it a law, not rhetoric):** count NAMED inputs weighted by whether
+  each carries an independent referee — an input with a verified naturalness statement or a
+  scheduled experimental judge is not the same species as a hidden fit. Raw assumption-counting
+  is forbidden (it degenerates into "any new physics = worse").
+
+- **R2. The resolution taxonomy.** Every adjudicated issue lands in exactly one of five
+  states: **Resolved · Mitigated · Relocated · Unresolved · Regressed.** "Relocated" is
+  mandatory vocabulary — a debt that moved (e.g., into a basement constant) is never booked as
+  Resolved. Convergence over time is read from the taxonomy's trend: many soft debts becoming
+  fewer, sharper ones is progress even when nothing reaches Resolved.
+
+- **R3. The blind-writability question.** Every claimed derivation answers one question:
+  **"Could this have been written before the answer was known?"** The refinement that
+  completes it: failing the test does not kill the claim — it SETS ITS GRADE (candidate /
+  data-selected at best; "derived" is reserved for passes). Companion evidence categories,
+  recorded with it: blind-writability, independent resistance (survival under adversarial
+  attempts), cross-domain convergence (only when the routes are genuinely independent in
+  assumptions and failure modes), predictive novelty. A dozen derivations inheriting one
+  unexamined choice are one derivation.
+
+**Amendment record:** created 2026-07-18 (three laws adopted together; R3's grading
+refinement and R1's counting rule are the main-session modifications to the proposals as
+received). Zero amendments since.

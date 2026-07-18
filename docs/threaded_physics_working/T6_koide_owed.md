@@ -739,8 +739,22 @@ killing/splitting equipartition (the channel frame), instantaneous-vs-average po
 half-power frame), and drain/retention (the saturation frame) all terminate at ONE sentence —
 *a two-channel budget splits evenly at genesis.* The basement owes exactly one theorem: that
 the medium's genesis processes are channel-symmetric where they meet a two-way split. If the
-basement build delivers it, A = √2, θ_seed = 135°, and the saturation point fall together;
-until then the door stands at one theorem's distance, and no desk computation can shorten
-it further. Kapitza consistency holds: the fast-drive effective mass
+basement build delivers it, A = √2, θ_seed = 135°, and the saturation point fall together.
+
+**The basement strike (2026-07-18): the channel-symmetry leg CLOSES from recorded parts.**
+The even-split theorem decomposes into four legs, and three are already in the books:
+(1) **channel symmetry — CLOSED tonight, read off the built potential:** the family sector's
+own computed energy (this file, "THE POTENTIAL, BUILT": E = −Σ q_iq_j log|r_i − r_j| +
+Σ ½κ|r_k|²) is **manifestly O(2)-invariant in the doublet plane** — only distances and radii
+enter. Equal channel stiffness is not an assumption to be defended; it is a property of the
+recorded structure. The wall's anisotropy (which face dies) acts only AT the touch event —
+pre-contact dynamics never feels it; (2) **one bath** — the genesis thermal state, standard;
+(3) **aggregation supply** — PAID (N ≈ 1.5×10¹⁸, nine orders of headroom, above);
+(4) **the power-level reading** — THE remaining residual (the same sentence as the
+parametric-saturation floor: the observable must read aggregated channel powers, not one
+amplitude draw). Plus the standing regime condition, now stated as a rate inequality:
+**Γ_torque < Γ_bath at contact** (the Z₃ cubic off — the torque-dominated alternative is
+computed dead). **The door's status after the strike: one residual (the power-level reading)
+and one rate inequality — everything else recorded or computed.** Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
