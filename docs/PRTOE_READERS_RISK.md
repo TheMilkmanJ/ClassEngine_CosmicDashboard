@@ -61,12 +61,11 @@ everywhere atomic physics appears.
   regardless), and the branch predicts **ΔN_eff ≈ 0.06–0.15 — a CMB-S4 detection target**, its
   own falsifier. The price: a new ~100-TeV-class input, the dyad-as-chiral-condensate
   identification drops (its consilience must be re-priced), and the windowed BBN books re-run.
-  The high-f configuration is the standing one; its BBN books are computed (first pass): the
-  committed ΔN_eff residual **improves the joint verdict** (p = 0.093 → 0.15–0.29 — it pushes D/H
-  toward Cooke, −1.9σ → −0.3 to −1.2σ, while Y_p pays mildly, +1.1σ → +1.3–1.8σ, and the EMPRESS
-  fork worsens to ≈ +4σ). The improvement is hostage to its own falsifier: CMB-S4 must see
-  ΔN_eff ≈ 0.06–0.24. Remaining exposure: the gate's chameleon/Casimir/EP checklist, and the
-  helium Aver/EMPRESS fork.
+  The high-f configuration is the standing one. Its BBN books: the committed ΔN_eff residual
+  moves D/H toward Cooke (−1.9σ → −0.3 to −1.2σ) while Y_p pays (+1.1σ → +1.3–1.8σ) and the
+  EMPRESS fork worsens to ≈ +4σ; the joint p reads 0.15–0.29 (0.093 without the residual). The
+  shift is hostage to its own falsifier: CMB-S4 must see ΔN_eff ≈ 0.06–0.24. Remaining exposure:
+  the gate's chameleon/Casimir/EP checklist, and the helium Aver/EMPRESS fork.
 - **(e) A_s, n_s, and the thermal O(1) coefficient are un-built or frozen candidates** — the A_s
   closed form is the corpus's boldest standing claim, frozen into the live run by design.
 - **(f) Code-vs-theory gap:** in the CLASS implementation the dyad's m_e shift and the dCDF density
