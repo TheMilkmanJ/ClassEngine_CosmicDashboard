@@ -344,8 +344,22 @@ proper Boltzmann pass are owed):
 | corner | tie tracking | ν recoupling at z ~ 1100 | standing |
 |---|---|---|---|
 | **A: f = v_L ≈ 100–500 TeV** | dead (no window; 40× gap) | never (Γ/H ~ 10⁻⁷) — CMB-safe, S4-dark, 0νββχ-invisible | quiet, at the tie's price |
-| **B: v_L ≈ 0.1–1 TeV** | **alive** (Γ/H ~ 10²) | **Γ/H ~ O(1–10) — the late-recoupling window**, the known Majoron-cosmology regime CMB-S4 tests through both N_eff and free-streaming | **the live corner** — with a new duty: the late-thermal Majoron adds ≈ +0.1-class ΔN_eff that must be priced *inside* the committed [0.06, 0.24] budget (the 0.3 kill line tightens) |
+| **B: v_L in the corridor (below)** | **alive** (Γ/H ~ 1–10²) | recoupling **after** recombination — CMB primary clean | **the live corner** |
 | **C: v_L ~ MeV** | alive (5×10¹⁰) | **Γ/H ~ 10⁹ — deep recoupling**, the strongly-interacting-ν regime: Planck-tension class *today*, survivable only in the contested interacting-ν mode | data-stressed |
+
+**B's deep test (2026-07-18) — the corridor, pinched from two independent sides.** The CMB
+free-streaming floor (recoupling must land after recombination: Γ/H(z = 1100) < 1) gives
+v_L > 0.22 TeV; the tie-tracking ceiling gives v_L < 0.94 TeV: **v_L ∈ [0.22, 0.94] TeV — a
+factor-4.2 corridor**, and inside it the recoupling redshift runs z ≈ 1100 → 160. So corner B is
+not a region but a **prediction**: the ν bath re-couples through the Majoron *between recombination
+and z ≈ 150* — CMB primary spectra clean, late-ν free-streaming modified (CMB-lensing /
+Σm_ν-inference / S4 territory). *Energy bookkeeping, stated precisely: the late recoupling
+redistributes the ν bath's conserved comoving energy — it adds ≈ nothing to ΔN_eff (an earlier
+draft's "+0.1-class addition" was wrong-class and is corrected here); the CMB-S4 ΔN_eff budget
+remains the pure dyad window [0.06, 0.24], and B's own signature is the free-streaming change.*
+**A's deep test:** the tie cannot re-home without the Majoron channel — every v_L-independent
+channel is gravitational (M_Pl⁻²-suppressed, ~10⁻⁴⁰-class at the freeze): under A the regression
+to registered-equality is permanent unless new physics is built.
 
 **The retroactive catch:** corner C is the *old recorded launch point* (g = 1.2×10⁻⁸) — the
 free-streaming exposure applies to the pre-adoption books as well; the lane was un-priced
