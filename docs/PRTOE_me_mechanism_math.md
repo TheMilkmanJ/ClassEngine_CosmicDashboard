@@ -328,3 +328,59 @@ EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effe
 : the Majoron forces the NEUTRINO coupling (σNN), NOT the charged-lepton Yukawa — so
 the dyad's leptophilia rests on a lepton-specific portal / the P-020 leptogenesis route, not bare
 Majoron. Scripts: electron_cw_Tc.py, finite_T_Tc.py, leptophilia.py.
+
+---
+
+## THE HIGH-f OPERATING POINT — the standing configuration's mechanism (2026-07-18)
+
+**The operator (unchanged):** m_e(φ) = m_e0(1 + κφ²), quadratic-canonical (dark-U(1) forbids the
+linear coupling). At the standing decay constant f ≈ 3×10¹⁴ eV (window 10¹⁴–5×10¹⁴):
+**κ = ε/f² = 1.4×10⁻³¹ eV⁻²**, and the frozen zero mode delivers the full amplitude exactly:
+**ε = κ⟨φ⟩² = κf² = 1.2543%.**
+
+**The potential (two pieces, one new small input):** V = V_L(φ) + V_CW(φ). The bare L-breaking
+Mexican hat parks the VEV at f — its quartic is **λ_dyad = |m²_CW(0)|/2f² ≈ 1.3×10⁻³⁸**, a named
+small input (technically natural for a pseudo-Goldstone; it replaces nothing — the predecessor
+configuration had no bare potential and its VEV formula died with it). The electron loop supplies
+the small tilt that does the *timing*:
+
+| quantity | value at f = 3×10¹⁴ eV | note |
+|---|---|---|
+| CW-induced mass — √[(κ/2π²)m_e0⁴(L−1)] | 3.1–6.9×10⁻⁵ eV (L−1 = 2–10) | **coincides with the constraint-window mass 2.8×10⁻⁵ eV — the allowed line IS the CW locus**, an unarranged consistency |
+| restoration temperature T_c = m_e0·√(3(L−1)/2π²) | **κ-independent** (κ cancels between the vacuum and thermal terms) | the ramp's T_γ-keyed timing survives at any f; value log-ambiguous [40, 900] keV, BBN-stability fence [179, 369], the RG-resummation docket owns the re-pin |
+| roll time 1/m_φ | 2.4×10⁻¹¹ s | the ramp is dynamically unimpeded (instant vs BBN minutes) |
+| thermal fluctuation term κ⟨δφ²⟩_T at n/p freeze-out | ~5.7×10⁻²¹ | **2×10¹⁸ below ε** — the OFF-window is honest at high f |
+| thermalization channels | Γ ∝ κ², all gates clear by 10⁸–10⁹ | ε rides first order in κ (the zero mode); the two orders are the configuration's whole point |
+
+**The sequence:** above T_c the electron-plasma thermal mass holds the symmetric point (ε OFF —
+including through n/p freeze-out); at T_c the tilt flips tachyonic and the field rolls to the bare
+minimum at f (fast); ε ramps in with the order parameter and sits at 1.2543% thereafter, gated off
+only inside high-Weyl structure (below). **The named fork inherited from the un-merger:** whether
+f = v_L (one L-breaking scale — the seesaw scan re-runs at ~100 TeV, where y ≈ 1.6×10⁻⁵ is natural
+and the Majoron–ν channel is safer) or f ≠ v_L (two scales; the spec stays agnostic). Grade of this
+section: **spec** — every number above is closed-form from (ε, f, m_e, L−1); the open items are
+λ_dyad's origin, the T_c re-pin, and the v_L fork.
+
+## THE GATE — the variable derived, the form graded (2026-07-18)
+
+**Why the gate reads Weyl curvature and not density — structural, from the census's own coupling
+form.** The census-legal coupling is a universal **conformal (metric) rescaling**: the dyad enters
+through Ω²(φ)·g_μν. A conformally-coupled channel responds to the metric's **conformal class
+only** — and the local, covariant measure of departure from conformal flatness is precisely the
+Weyl tensor. FRW is conformally flat (C ≡ 0): the channel is fully open in the homogeneous cosmos
+— which is exactly where the model operates (the ε-ramp, recombination, the dark ages). Inside
+formed structure C² ≠ 0 obstructs the conformal channel. **So the gate variable is C² by the
+coupling's own geometry — a conformal portal cannot key on density, and no chameleon-class
+density gate is available to it even in principle.** *(This is also why the laboratory checklist
+clears the vacuum-chamber trap: curvature penetrates chambers.)*
+
+**What remains graded, not derived:** the corpus records **two gate forms** in different rooms —
+the exponential f = exp(−C²/C_ref²) (reading B) and the power form 1/(1 + (C/C_ref)^p) (the
+candle-room module, p = 4) — an inconsistency to resolve, though **every current use is robust to
+the choice**: at the ~24 orders above the edge that any terrestrial environment sits, the
+exponential delivers e^(−10⁴⁸) and the power form ~10⁻⁹⁶ — both are zero for every purpose in the
+books. C_ref is **event-set, not tuned** (the first shell-crossing/vortex — §3 above; this
+addendum inherits that). **Owed, named:** the obstruction functional itself
+(deriving *which* function of C²/C_ref² the conformal channel's suppression follows), and the
+two-forms reconciliation. Grade: **gate variable derived-structural (conditional on the census
+coupling form); gate form candidate (two recorded, both sufficient); C_ref input.**
