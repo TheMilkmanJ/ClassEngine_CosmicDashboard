@@ -307,14 +307,24 @@ irreducible input.
   factor, and 3D. The genuine residual is the exact O(1) **normalization of the shot-noise count** (the
   "count C" — whether the assembly is exactly (4πk/α_c)³), which lands A_s to −0.35%. Deliberately exposed;
   referees are the live zero-parameter run and the Eliashberg k-audit.
-- **n_s = 1 − 2/ln(M_Pl/T_on) — derived-estimate:** the census drift; the "2" is the open spatial
-  dimensions. *Candidate mechanism (identification sketch, un-derived):* the winding field read as a
-  2D Gaussian height model in the two transverse dimensions, whose variance grows as ln(R/a) with
-  R ~ M_Pl/T_on² (the Hubble horizon at onset) and a ~ 1/T_on (the thermal correlation length) — the
-  ratio reduces to R/a = M_Pl/T_on, matching the banked argument of the log. The scale arithmetic
-  checks; **what is NOT yet shown is the log-derivative step** — that the spectrum's tilt is exactly
-  −2/ln(R/a) rather than proportional to it — so this is a mechanism candidate, not a proof; the
-  variance→spectrum computation is the owed session.
+- **n_s = 1 − 2/ln(M_Pl/T_on) — derived-estimate, mechanism sharpened (2026-07-17):** the census
+  drift, now with a full candidate mechanism whose every scale identity is verified. **(i) The log:**
+  the winding field read as a 2D transverse Gaussian height model — only in 2D is a Gaussian field
+  log-correlated — gives σ²(k) = ln(k_UV/k), with the comoving UV cutoff k_UV = a_on·T_on = T₀
+  (exact, since T ∝ 1/a). **(ii) The −2:** the energy density is **quadratic** in the field
+  (δ ~ h², χ² statistics), so A_s ∝ σ⁴ = [ln]², giving n_s − 1 = 2·dln σ²/dln k = **−2/ln exactly**.
+  *The "2" is the quadratic field power, NOT the two transverse dimensions — the 2D-ness supplies
+  the log; the earlier attribution fused two different 2s.* **(iii) The argument:** ln(T_on/m) =
+  ln(M_red/T_on) + 0.49 (from T_on² = m·M_red/0.61), so the banked ln(M_Pl/T_on) is the same log to
+  O(1) inside ~55 — verified. **The honest fork this opens:** evaluated at the observed pivot
+  (k* = 0.05 Mpc⁻¹, ln(k_UV/k*) = 61.9) the mechanism gives n_s = **0.9677** (+0.6σ vs Planck);
+  the banked 0.9641 (−0.2σ) corresponds to pinning the argument at the onset-horizon scale
+  (k_H = a_on·m ≈ 98 Mpc⁻¹). Both live; which scale sits in the log is a real question the full
+  computation must answer. Bonus prediction either way: a tiny running, dn_s/dln k = −2/ln² ≈
+  −5×10⁻⁴ (Planck: −0.0045 ± 0.0067, consistent; a future >10× running constraint referees this).
+  **Still owed (two named steps):** the χ²-field convolution P_δ(k) (the σ⁴ step is the leading-log
+  local-variance argument; the convolution must confirm the coefficient), and the argument-scale
+  adjudication. Candidate mechanism — not a proof.
 - **z_on ≈ 3.56×10⁷ — fast-profiled estimate,** chain-graded later.
 - **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude quartic
   sets its value). See [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md).

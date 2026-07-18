@@ -286,21 +286,29 @@ symmetry zero the zero-point outright **fails** — shift symmetry makes the vac
 θ-independent, i.e. constant, not zero; see
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
 
-**What the O(1) actually is, and why the +1.5% is exposed to it.** The residual O(1) is not a
-mystery fraction — it is the **soft-phonon quantum correction** to the condensation energy, and it is
-O(1) for a specific reason. A normal 1-loop correction carries 1/16π² = 0.6% (negligible); but the
-small sound speed c_s = √α_c = 0.148 makes the soft phonon zero-point pile up as 1/c_s³ ≈ 309, which
-**overwhelms the loop factor** — their product is the same **1.955** that appears as the door gap. So
-the correction to the mean-field is genuinely O(1), *not* percent-level. Two consequences, both
-honest. **(a) The +1.5% is a mean-field (leading-order) agreement**, and the phonon correction is
-**positive**, so it pushes ρ_Λ¼ *up, away* from 2.25 (a 30%-of-mean-field finite correction → +8.4%;
-the full correction → the +20% perturbation door). The flagship is **exposed** to this O(1), not
-protected by it. **(b)** This is exactly the honest **0.99–1.07× band** noted above — that band *is*
-this soft-phonon correction. *Skeptic both ways:* the 1.955 is the **raw, unrenormalized** sum, so
-the physical finite remainder can be smaller — but the soft-phonon enhancement means the **default is
-O(1)** and the burden is on showing it small; nothing in the model does that yet. Pinning it needs
-the dCDF quartic coupling (the compositeness Λ, g) and a relativistic renormalized
-ground-state-energy calculation — un-built, but now **named** rather than mysterious.
+**What the O(1) actually is — computed, tribunal-adjudicated (2026-07-17).** The residual is the
+**soft-phonon quantum correction to the condensation energy**, and the relativistic Bogoliubov
+calculation (built, then adversarially adjudicated — full record in
+[Thermal_O1_Discussions.md](threaded_physics_working/Thermal_O1_Discussions.md)) settles its size
+class. **The feared O(1) was an artifact:** the 1.955 (= 1/(16π²c_s³), the door-gap number) is the
+**UV-divergent, un-renormalized reference** — verified divergent ∝ k_max² — not a physical
+correction; renormalization (counterterm = the physical mass renormalization, derived not fitted)
+flips the coupling power from α_c^{−3/2} to α_c^{+1/2}. The physical, scheme-independent remainder
+is the non-analytic Lee–Huang–Yang term:
+
+> **ΔE/E_MF = (8/15π²)·√α_c·λ·[1 + O(α_c)] = 0.0080·λ ⟹ Δρ_Λ¼/ρ_Λ¼ ≈ 0.0021·λ, w = −1**
+
+(derived within the stated relativistic |φ|⁴ completion; the coefficient carries no α_c and no
+16π²α_c^{3/2} structure — the circularity test passes). **What this buys and what it costs, both
+honest.** It buys: the correction is **percent-class, not O(1), for any controlled coupling** —
+SAFE for λ ≲ 10; the series loses control above λ* ≈ 22 (the next-order term overtakes), where
+neither safe nor exposed is certifiable. It costs: **the +1.5% regrades to mean-field-level
+consistency** — E_b is the *prediction*, not an absorber of radiative pieces, so the flagship
+carries an un-pinned O(λ · few %) radiative band for any λ ≳ 0.2–0.5; the *precision* of the +1.5%
+is exposed even though its *existence* is not. **The one missing input is named: λ** (equivalently
+the gas parameter √(na³), the position on the BEC side) — the compositeness (Λ, g) build's un-built
+g → λ map; the size therefore books as ESTIMATE. The model's own deep-BEC framing implies dilute
+(SAFE branch) as expectation, not closure.
 
 **The partial wave is data-selected, and it is s-wave.** A Coulombic two-body spectrum is
 E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so the channel picks the level:
