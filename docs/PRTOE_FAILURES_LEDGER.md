@@ -1065,3 +1065,46 @@ covers the diagonal singlet Majoron via matter-induced off-diagonals). The MeV c
 25× (classic) and ≥ 8× (modern); the SN-stress verdict is withdrawn and the corner selection
 reverts to CMB-S4 alone. The lower edge had been misremembered by three orders in the
 estimate-grade first pass; the verify-flag protocol worked as designed.
+
+### The anchor exponent's −3/2 — exhibition DEAD: four routes computed, the factor-of-2 wall (2026-07-18)
+
+**What was claimed (candidate, 2026-07-17):** the hierarchy anchor's residual —
+ln(M_red/4πm_H) − 1/(kα_c) = 1.5014 — is the one-loop Coleman–Weinberg constant 3/2, identified
+as "the model's own recorded bracket constant" (the T_c derivation's L − 1 = ln(m_e0²/μ²) − 3/2).
+
+**The four routes and the constants they actually deliver**, each computed at the anchor's
+data-selected single-log normalization [ln(M_red/M) − c] = 1/(kα_c):
+
+| route | the object | c delivered |
+|---|---|---|
+| 1. CW minimum / NJL tadpole | A₀ bracket, M²[ln(M²/μ²) − 1] | 1/2 |
+| 2. tachyonic onset (curvature zero) | CW m⁴ bracket [ln(M²/μ²) − 3/2] | 3/4 |
+| 3. sharp-cutoff BCS gap equation | native single-log | ln 2 = 0.693 |
+| 4. scheme/threshold matching | gauge decoupling · MOM vacuum-polarization (5/3) · pairing-susceptibility bubble (2) | 0 · 5/6 · 1 |
+
+Needed: **3/2**. Nearest miss (route 4's honest object, the pairing-susceptibility scheme —
+the scalar-channel fermion bubble B₀ whose finite part is [ln(Q²/μ²) − 2]): c = 1. An error of
+0.5 in the exponent is e^0.5 ≈ 1.65× in M_anchor, against a +0.14% claim.
+
+**Cause of death — structural, not a search shortfall.** Every one-loop dimensional-regularization
+constant enters against ln μ² — squared-log natively (A₀ = M²[1/ε̄ − ln(M²/μ²) + 1];
+B₀(Q²;0,0) → [ln(Q²/μ²) − 2]; V_CW ∝ m⁴[ln(m²/μ²) − 3/2]; all three verified by direct integral,
+2026-07-18). Any such constant **halves** when transplanted to single-log. Landing 3/2 at
+single-log requires a squared-log constant of **3**, absent from the one-loop fermionic menu
+{0, 1, 3/2, 5/3, 2}.
+
+**The root error — a normalization conflation.** "It is the corpus's own bracket constant" moved
+the CW 3/2 from its squared-log home into the anchor's single-log slot without paying the factor
+of 2. At matched normalization the corpus's own bracket predicts 3/4 — which the anchor data
+itself excludes, in the same paragraph that made the identification. Same error class as the
+25th/75th-percentile slip: a normalization carried across contexts unchecked.
+
+**Time of death — 2026-07-18**, route 4's computation closing the menu.
+
+**What survives, untouched:** the numerical fact at full precision (residual 1.5014 at m_H
+central, 1.5000 exactly at m_H + 1σ; M_anchor = M_red·e^(−1/(kα_c) − 3/2) = 1576 GeV vs
+4πm_H = 1574, +0.14%); the shared-k component (1/(kα_c) = 33.474, standing on the three-way
+concordance); the pairing form itself (g = (1.29–1.31)α_c stable across the arrow cloud). What
+died is the derivation of the 3/2: it re-grades from candidate to **sharp underived residual**.
+Any future exhibition must produce 3 at squared-log or a natively single-log mechanism — no
+such route is currently named.
