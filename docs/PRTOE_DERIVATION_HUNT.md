@@ -436,16 +436,21 @@ irreducible input.
   (Planck −0.0045 ± 0.0067: consistent; a falsifiable edge — the map requires tiny *negative*
   running). **The exponent is data-selected, f̄-grammar:** among the natural readings A ∝ σ
   (n_s = 0.9838, +4.5σ, dead), A ∝ σ² (0.9677, +0.7σ), A ∝ σ⁴ (0.9353, −7σ, dead), only the
-  variance-linear map survives — the structural candidate for the linearity is susceptibility ∝
-  accumulated winding population (the same many-turns counting that runs f̄), owed. **The
+  variance-linear map survives — and the linearity has its structural exhibit: for a
+  log-correlated field each log-shell contributes **equally** to the frozen-quanta count and to
+  the one-point variance, so accumulated population and σ²(k) are the same object up to the
+  per-shell constant; if the imprint susceptibility is additive over frozen quanta (one unit of
+  response per quantum — the identical additivity the A_s shot count already rides), then
+  A ∝ population ⟺ A ∝ σ² with no new assumption. The variance-linearity is the additivity
+  statement, inherited from the A_s mechanism rather than chosen. **The
   argument fork resolves:** the map is k-local, so the pivot/running form 0.9677 is the
   mechanism's number; the banked k-independent ln(M_Pl/T_on) = 55.6 form (0.9641, −0.2σ) retires
   to consistency-check status — same log-family within 10%, which is why the fork existed. Noted
   plainly: the mechanism's number sits *farther* from Planck central than the retired form
   (0.66σ vs 0.20σ) — the map is falsifiable on both n_s tightening and the running's sign.
   Grade: **mechanism candidate (exhibited)** — sign, anchor, and running structural; the
-  linearity exponent data-selected with its structural candidate named; the Δ² subdominance
-  condition named.
+  linearity exponent exhibited at additivity level (shared with A_s, one assumption not two)
+  and independently data-selected; the Δ² subdominance condition named.
 - **z_on ≈ 3.56×10⁷ — fast-profiled estimate,** chain-graded later.
 - **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude quartic
   sets its value). See [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md).
@@ -493,8 +498,11 @@ irreducible input.
    plainly: the gate that clears the laboratory closes the laboratory as a test** — the local-force
    channel is unobservable by construction, and the configuration's falsifiable channels are
    cosmological (the ΔN_eff window at CMB-S4, the BBN books, DESI). **Still owed:** the high-f
-   condensation mechanism's full spec; the gate form's own derivation (the checklist is
-   conditional on it).
+   condensation mechanism's full spec. The gate form itself is now **derived at class level**
+   (an event-triggered gate is a survival probability — exponential-power class, the power form
+   retired; [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) gate section), which
+   grounds the checklist's exponential-form reliance; the remaining form residual is the seed
+   exponent n.
 2. *(resolved) The induced-G scalar coefficient* — verified: Visser Eq. 35 assigns each
    real scalar the weight (1/6 − ξ), not zero, so P-045's str[k₁] = 0 is **not** ξ-independent — it
    requires ξ_H = 1/6 (conformal Higgs). Natural (the conformal value) and self-consistent with the
