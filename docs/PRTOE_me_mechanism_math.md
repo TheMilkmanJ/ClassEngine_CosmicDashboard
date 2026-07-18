@@ -378,13 +378,36 @@ coupling's own geometry — a conformal portal cannot key on density, and no cha
 density gate is available to it even in principle.** *(This is also why the laboratory checklist
 clears the vacuum-chamber trap: curvature penetrates chambers.)*
 
-**What remains graded, not derived:** the corpus records **two gate forms** in different rooms —
-the exponential f = exp(−C²/C_ref²) (reading B) and the power form 1/(1 + (C/C_ref)^p) (the
-candle-room module, p = 4) — an inconsistency to resolve, though **every current use is robust to
-the choice**: at the ~24 orders above the edge that any terrestrial environment sits, the
-exponential delivers e^(−10⁴⁸) and the power form ~10⁻⁹⁶ — both are zero for every purpose in the
-books. C_ref is **event-set, not tuned** (the first shell-crossing/vortex — §3 above; this
-addendum inherits that). **Owed, named:** the obstruction functional itself
-(deriving *which* function of C²/C_ref² the conformal channel's suppression follows), and the
-two-forms reconciliation. Grade: **gate variable derived-structural (conditional on the census
-coupling form); gate form candidate (two recorded, both sufficient); C_ref input.**
+**The two recorded rooms** — the exponential f = exp(−C²/C_ref²) (reading B) and the power form
+1/(1 + (C/C_ref)^p) (the candle-room module, p = 4) — with **every current use robust to the
+choice**: at the ~24 orders above the edge that any terrestrial environment sits, both are zero
+for every purpose in the books. C_ref is **event-set, not tuned** (the first
+shell-crossing/vortex — §3 above; this addendum inherits that).
+
+**The obstruction functional — the form derived at class level; the two rooms reconciled.** The
+gate's microphysics is an **event** (§1/§3: the transition fires at the first
+shell-crossing/vortex; C_ref is event-set). A suppression that fires at a first event is a
+**survival probability**, and survival is theorem-shaped: S = exp[−N̄(C²)], with N̄ the expected
+count of decoherence seeds inside the portal's coherence volume at Weyl level C²
+(weakest-link/first-passage structure — the form class is not a fit choice). The two rooms then
+read as two claims about the hazard N̄:
+
+- exp[−(C²/C_ref²)^n] ⟺ N̄ = (C²/C_ref²)^n — **polynomial seed growth**: what any local,
+  extensive, monotone seeding mechanism produces (phase-space volume above threshold). This is
+  the mechanism's class.
+- 1/(1 + (C/C_ref)^p) ⟺ N̄ = ln[1 + (C/C_ref)^p] — the seed count would have to grow only
+  **logarithmically** in the load at large C², a log-slope collapsing as 1/ln C². No local
+  seeding does that. The candle-room form is a numerical stand-in, not a mechanism — **retired
+  as a candidate for the functional** (harmless in every deployed use: all bounds were taken in
+  the deep-suppression regime, where both forms are zero).
+
+**The forced sharpness is produced, not imposed:** if the seeds are threshold crossings of the
+medium's Gaussian-statistics fluctuations with an amplitude-linear threshold map, the effective
+exponent in the transition zone is n_eff ≈ ν²/2 (ν = the seed threshold in σ units; the exact
+erfc slope runs slightly steeper: ν = 2.2σ gives 2.81, ν = 3σ gives 4.92) — so **ν ≳ 2.1σ
+delivers n_eff > 2.43**, meeting §3's MICROSCOPE/quasar-forced bound from the event statistics
+alone, for any but sub-2σ seeding. **Owed, named (one item):** the seed-count exponent itself —
+the map ν(C²) from the medium's fluctuation spectrum (equivalently the value of n). Grade:
+**gate variable derived-structural (conditional on the census coupling form); gate form derived
+at class level (survival/exponential-power — the power form retired); the exponent n owed;
+C_ref input.**
