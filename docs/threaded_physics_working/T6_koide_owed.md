@@ -889,6 +889,30 @@ IR density content at the ring scale (R₀) relative to core-scale content (ξ) 
 singlet its equal share?** Pass 4 = derive/import the cascade's spectral weight between R₀
 and ξ from the corpus's own genesis objects (the KH roll-up, the Widnall band, the winding
 spectrum). If the cascade is also doublet-weighted, the complex dies; if its IR-density
-weight lands the sector ratio at 1, everything stands. One spectrum, one verdict. Kapitza consistency holds: the fast-drive effective mass
+weight lands the sector ratio at 1, everything stands. One spectrum, one verdict.
+
+**PASS 4 — THE VERDICT (2026-07-18): LIFE, at estimate grade.** The delivery integral was run
+over a three-member family of physically-labeled cascade spectra × injection scales × the
+measured vertices, and the corpus's own three genesis pins select a unique cell:
+*(pin 1)* the KH roll-up in a 2D medium ⟹ the Kraichnan dual cascade, whose inverse-energy
+branch carries the Bernoulli density signature (δρ ∝ v²; IR slope −4/3 per log, enstrophy
+side steep); *(pin 2)* "THE SNAP / THE POUR (genesis, one instant)" ⟹ the sudden (1/ω²)
+transfer weight — impulsive by the books; *(pin 3)* the Widnall band's tangle scale ⟹
+q_inj·R₀ = √n with n ∈ [10, 30] (under R₀ ~ horizon-class, the one identification still
+owed). **In that cell the sector ratio is 1 : 0.98–1.10 across the ENTIRE Widnall band —
+a plateau, not a tuning — and at ξ = 0.3 it tracks 1 : 0.977–1.000, hugging equality to
+≤ 2.3%.** The discrimination is stark: acoustic-equipartition baths give 1 : 4.7 (dead),
+flat-per-log gives 1 : 2.0–2.3 (the per-mode grave, as it must), and only the
+Kraichnan–Bernoulli member — the one the corpus's genesis machinery independently implies —
+crosses and holds 1. No knobs: the vertices are computed, the pour is pinned curl-free, the
+weight is pinned sudden, the injection is the recorded band. **The death clause does not
+fire. The unified complex — A = √2, θ_seed = 135°, R_c = M_c, the even-split theorem —
+survives its own kill computation, at estimate grade.** What separates estimate from
+derived, named: (h1) the Bernoulli exponents are scaling-grade — sensitivity ±1/3 in the IR
+slope moves the ratio ∓13–17%, so the honest 2D-QT derivation of the −4/3 (and the enstrophy
+side) is the main hardening; (h2) the R₀ ↔ horizon identification behind q_inj·R₀ = √n;
+(h3) grid/method systematics (few %). Sector-equipartition — the T-per-irrep sharing that
+the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
+cascade meeting the ring's own computed vertices, not as an assumption. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
