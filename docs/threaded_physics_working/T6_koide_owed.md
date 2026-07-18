@@ -849,6 +849,26 @@ healing-length vortex profile in place of a numerical softener — the doublet c
 weight rides on it); (b) the pump spectrum at the ring era imported from the corpus's own
 genesis objects (not modeled ad hoc); (c) the transfer formula fixed by the quench class
 (sudden vs resonant changes the ω-weights). The computation is set up, the structure is
-measured, and the verdict waits on physics — not on choices. Kapitza consistency holds: the fast-drive effective mass
+measured, and the verdict waits on physics — not on choices.
+
+**Kelvin-vertex pass 2 (2026-07-18) — physical cores, full q-range: the lean FLIPS; the
+death clause still held, but the noose is visibly tighter.** With the medium's own core
+profile as regulator (ρ ∝ Π d_k²/(d_k² + 2ξ²) — the density dies at the cores, cutting the
+UV physically) and integration to well past the core scale, the sector ratio across the
+transfer matrix reads: sudden weight (1/ω²): **1 : 2.1–3.1** — at or past the per-mode grave
+— for ξ/R₀ ∈ [0.1, 0.4]; quantum-shot weight (1/ω): 1 : 1.5–2.2; raw (W = 1): 1 : 1.07–1.28.
+**No choice robustly delivers 1 : 1, and the corpus-natural baseline (the pour as a sudden
+quench on a density-white bath) sits nearest the grave.** Pass 1's IR-window 0.74 is hereby
+graded window-dependence, as its own booking warned. **The two systematics pass 3 must
+import — both physical, neither a knob:** (α) the Bogoliubov coherence factors — the
+medium's own structure factor S(q) ≈ qξ/2 at low q suppresses DENSITY coupling in the IR
+(where the singlet vertex lives), while PHASE coupling is IR-enhanced by the conjugate
+factor; (β) **the pump's channel identity — is the pour a density pump or a phase pump?**
+The direction result is clean: density-type pumping pushes the ratio toward/past the grave;
+phase-type (IR-enhanced) pumping pulls it toward 1. The pour's own grammar (matter influx =
+flow = phase-gradient injection) leans phase-type, but that identification must come from
+the pour sector's recorded structure, not from wanting the answer. **Verdict state: the
+complex now lives or dies on the pour's channel content + the coherence factors — pass 3's
+two imports. The death clause fires when they are pinned.** Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
