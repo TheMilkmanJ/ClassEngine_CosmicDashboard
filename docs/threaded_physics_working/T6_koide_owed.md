@@ -828,6 +828,27 @@ fluctuation field at the ring minimum; extract c₁, c₂ and the two channel de
 Equal sector delivery ⟹ the entire unified complex stands (A = √2, θ_seed = 135°, R_c = M_c,
 the even-split theorem, and plausibly the anchor's −3/2). Unequal ⟹ the complex dies — all
 of it, at once.** The door's fate now rides one vertex computation inside the model's own
-built structure — falsifiable from the inside. Kapitza consistency holds: the fast-drive effective mass
+built structure — falsifiable from the inside.
+
+**Kelvin-vertex pass 1 (2026-07-18) — structure decisive, verdict not reached; the death
+clause does NOT fire on an incomplete computation.** Computed: *(i) the ring's exact mode
+spectrum* — eigenvalues (0, 1, 1, 1, 1, 2)·κ: rotation zero, the E-sectors fourfold at κ,
+**breathing at exactly 2κ** — the singlet sector is twice as stiff as the doublet (the same
+2:1 pattern as the face-democratic form; equilibrium sharing over THESE stiffnesses gives
+A² = 8, another non-√2 equilibrium endpoint, consistent with the fence). *(ii) the vertex
+q-structure per channel* (768² grid, softened cores): the singlet (breathing) vertex
+dominates the IR (S/D ≈ 10 at qR₀ ≈ 0.2) and falls; the doublet (shape) vertex **rises
+toward the core scale**, crossing S/D = 1 at qR₀ ≈ 2.2 — the two channels couple to
+different ends of the phonon spectrum. *(iii) the delivery integral is therefore
+UV-SENSITIVE*: under a flat-per-log bath restricted to the IR window with sudden-quench
+weighting (1/ω² per mode), the sector ratio lands **1 : 0.74** — within 26% of the
+equal-delivery target 1.000 with zero tuning, while per-mode democracy predicts 1 : 2 —
+**leaning toward sector-equality, not landed.** Pass 2 requires three named pieces before
+the death clause can fire either way: (a) the physical core regularization (the
+healing-length vortex profile in place of a numerical softener — the doublet channel's UV
+weight rides on it); (b) the pump spectrum at the ring era imported from the corpus's own
+genesis objects (not modeled ad hoc); (c) the transfer formula fixed by the quench class
+(sudden vs resonant changes the ω-weights). The computation is set up, the structure is
+measured, and the verdict waits on physics — not on choices. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
