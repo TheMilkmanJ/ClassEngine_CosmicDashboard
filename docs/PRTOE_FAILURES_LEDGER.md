@@ -1034,3 +1034,23 @@ else) is a corpus-wide coherence failure the value-checker cannot see. It took r
 |---|---|
 | **The ν-free-streaming lane was un-priced corpus-wide** | The Majoron's νν̄ ↔ φ recoupling channel was never run against the CMB free-streaming requirement — including at the recorded launch value g = 1.2×10⁻⁸ (v_L ≈ 4.2 MeV), which recouples the ν bath ~9 orders deep before recombination (the strongly-interacting-ν regime, Planck-tension class). Caught by the three-corner test; the lane is now in the books (hunt §6), and the MeV corner carries its exposure. |
 | **A wrong-class ΔN_eff claim, same-day self-caught** | The corner test's first booking assigned the late-thermal Majoron a "+0.1-class ΔN_eff addition" to the committed budget. Wrong class: late recoupling redistributes the ν bath's *conserved* comoving energy — ΔN_eff shifts ≈ nothing; the observable is the free-streaming change. Corrected in place within the hour; the CMB-S4 budget stands at the pure dyad window. |
+
+### P-2026-049 (the ν-recoupling corridor) — RETRACTED same-day: wrong channel (2026-07-18)
+
+**What it claimed:** ν recoupling through the Majoron at z ∈ [150, 1100], from a two-fence
+corridor v_L ∈ [0.22, 0.94] TeV.
+
+**Why it died:** the floor fence rode νν̄ ↔ φ coalescence, which needs m_φ > 2m₁ ≈ 4.5 meV; the
+recorded Majoron mass is m_J ~ (1–3)H₀ — the channel is closed by ~30 orders. Registered before
+the kinematic condition was checked against the corpus's own mass; caught hours later by the
+corridor's own scheduled Boltzmann pass (its first check was the kinematics). The corner test's
+free-streaming lane dissolves with it: the MeV corner's "deep recoupling stress" and the
+TeV corner's lower fence were the same wrong channel.
+
+**What survives (channel-independent):** the one-scale corner's tie-death (the condensate-friction
+channel, Γ/H ∝ (m₃/v_L)² with the 0.94 TeV ceiling — a coherent-mode rate, not coalescence); the
+two-source/tenth-channel spec; the leptophilic resolution; the seesaw naturalness at every corner.
+**Consequence for the corner selection:** with the lane gone, the TeV and MeV corners are both
+alive and the corner-selector reverts to the registry's original referee — the CMB-S4 Majoron/
+ν-interaction search (a g-detection selects the MeV corner; a null leans high-v_L). The corner-B
+seal made on the corridor's evidence is reverted to an open two-corner state.

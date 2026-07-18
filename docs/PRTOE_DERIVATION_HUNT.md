@@ -347,30 +347,18 @@ proper Boltzmann pass are owed):
 | **B: v_L in the corridor (below)** | **alive** (Γ/H ~ 1–10²) | recoupling **after** recombination — CMB primary clean | **the live corner** |
 | **C: v_L ~ MeV** | alive (5×10¹⁰) | **Γ/H ~ 10⁹ — deep recoupling**, the strongly-interacting-ν regime: Planck-tension class *today*, survivable only in the contested interacting-ν mode | data-stressed |
 
-**B's deep test (2026-07-18) — the corridor, pinched from two independent sides.** The CMB
-free-streaming floor (recoupling must land after recombination: Γ/H(z = 1100) < 1) gives
-v_L > 0.22 TeV; the tie-tracking ceiling gives v_L < 0.94 TeV: **v_L ∈ [0.22, 0.94] TeV — a
-factor-4.2 corridor**, and inside it the recoupling redshift runs z ≈ 1100 → 160. So corner B is
-not a region but a **prediction**: the ν bath re-couples through the Majoron *between recombination
-and z ≈ 150* — CMB primary spectra clean, late-ν free-streaming modified (CMB-lensing /
-Σm_ν-inference / S4 territory). *Energy bookkeeping, stated precisely: the late recoupling
-redistributes the ν bath's conserved comoving energy — it adds ≈ nothing to ΔN_eff; the CMB-S4
-ΔN_eff budget remains the pure dyad window [0.06, 0.24], and B's own signature is the
-free-streaming change.*
-**A's deep test:** the tie cannot re-home without the Majoron channel — every v_L-independent
-channel is gravitational (M_Pl⁻²-suppressed, ~10⁻⁴⁰-class at the freeze): under A the regression
-to registered-equality is permanent unless new physics is built.
-
-**Standing: corner B.** The Majoron is a distinct field at **v_L ∈ [0.22, 0.94] TeV** (an input
-constrained to the corridor by the two fences above), alongside f_dyad ≈ 100–500 TeV — two scales,
-three dark fields (dCDF, dyad, Majoron). The ν-tie's tracking channel is live; the tie's mechanism is the
-tenth-channel mass relation (m_ν,lightest = κ_m·ρ_inf¼ — the two-source spec,
-[PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)), with the tenth-channel operator the named
-owed item. The corridor's distinctive claim — ν recoupling at
-z ∈ [150, 1100] — is registered as **P-2026-049**. The seesaw at corridor scale is natural
-(y ≈ 6×10⁻⁷ reproduces m_ν at M_R ~ v_L); η's leptogenesis is non-resonant (the corner's
-inheritance); the Majoron is dark to CMB-S4's line search while the dyad's ΔN_eff window remains
-S4's direct target.
+**The corridor's floor fence and the recoupling epoch are withdrawn** (the νν̄ ↔ φ channel is
+kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ — P-2026-049 retracted,
+autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); for an ultralight Majoron the
+free-streaming lane returns no discriminator at any corner (g⁴ exchange only, Γ/H ≲ 10⁻⁵
+everywhere; the massless-mediator CMB bound g ≲ few×10⁻⁷ is passed by ≥ 20× at the MeV corner).
+**What stands on this fork:** the one-scale corner remains tie-dead (the condensate-friction
+channel is a coherent-mode rate, not coalescence: ceiling v_L < 0.94 TeV for the settling
+dynamics); the TeV and MeV corners are **both alive**, and the corner-selector is the registry's
+original referee — the CMB-S4 Majoron/ν-interaction search (a detection at g ~ 10⁻⁸–10⁻⁹ selects
+the MeV corner and its resonant-leptogenesis lane; a null leans high-v_L). The two-scale structure
+(f ≠ v_L, three dark fields) stands on the one-scale corner's tie-death alone. Corner selection:
+**open, S4-refereed.**
 
 **What the test settles and what it leaves:** B is the only corner
 that keeps the tie's forward mechanism *and* survives the new lane — landing, unforced, in the

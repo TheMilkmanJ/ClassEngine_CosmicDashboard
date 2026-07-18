@@ -2461,3 +2461,12 @@ one-scale configuration with the tie at registered-equality grade); (ii) a CMB-S
 detection at g ~ 10⁻⁸–10⁻⁹ (the corridor is line-dark; a detection points to the MeV corner the
 free-streaming lane disfavours); (iii) any independent determination of v_L outside
 [0.22, 0.94] TeV.
+
+**RETRACTED (2026-07-18, same day).** The prediction's channel is kinematically closed in this
+model: νν̄ ↔ φ coalescence requires m_φ > 2m₁ ≈ 4.5 meV, and the recorded Majoron mass is
+m_J ~ (1–3)H₀ ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §, the thaw identification) — ~30
+orders below threshold. For an ultralight mediator the only ν-interaction is g⁴ exchange
+scattering, negligible at every corner (Γ/H ≲ 10⁻⁵ everywhere). The corridor's lower fence and
+the recoupling epoch dissolve with the channel; the upper fence (the settling-dynamics ceiling,
+v_L < 0.94 TeV) is a different channel (condensate friction) and stands. Autopsy:
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
