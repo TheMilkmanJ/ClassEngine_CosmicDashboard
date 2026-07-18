@@ -374,15 +374,21 @@ irreducible input.
 ## 8. What remains owed
 
 1. **The portal √σ_dark = m_e** — the one irreducible input of the dark-energy / basement sector (§2, §6).
-1b. **Conditional inputs of the high-f dyad branch (pending the adoption decision):** if adopted,
-   the dyad decay constant **f_dyad ≈ 100–500 TeV** registers as a new dimensionful input —
-   un-derived, stated as an input (the window: fifth-force/g−2 set the floor ~10¹⁴ eV; tracking
-   sets the ceiling ~10²⁵ eV; the quoted band is where every constraint clears simultaneously) —
-   and the model commits to **ONE genesis dilution ξ = T_dark/T_γ ∈ [0.25, 0.35]** used
-   consistently everywhere it appears (ΔN_eff, the BBN books, sector pricing — no per-window ξ).
-   The commitment's teeth: ΔN_eff = (27/(7/4))·ξ⁴ = **0.06–0.24** across the window, centred
-   ≈ 0.1 — **CMB-S4 (±0.03) adjudicates the branch directly**; a confirmed ΔN_eff < 0.03 or
-   > 0.3 kills the committed window from either side.
+1b. **The high-f dyad.** The dyad is a high-decay-constant field: **f_dyad ≈ 100–500 TeV**, a
+   dimensionful **input** — un-derived, stated as such (the window: fifth-force/g−2 set the floor
+   ~10¹⁴ eV; tracking sets the ceiling ~10²⁵ eV; the quoted band is where every constraint clears
+   simultaneously). With it the model commits to **ONE genesis dilution
+   ξ = T_dark/T_γ ∈ [0.25, 0.35]** used consistently everywhere it appears (ΔN_eff, the BBN books,
+   sector pricing — no per-window ξ), predicting **ΔN_eff = (27/(7/4))·ξ⁴ = 0.06–0.24, centred
+   ≈ 0.1 — CMB-S4 (±0.03) adjudicates directly**; a confirmed ΔN_eff < 0.03 or > 0.3 kills the
+   committed window from either side. The dyad is **not** the SU(2) sector's chiral condensate
+   (that sector keeps its own condensate and its own T_c/√σ story — the two-color consilience
+   points are sector-internal and stand); its condensation is driven by its own L-breaking
+   potential, with the electron loop's κ-independent T_c formula supplying the T_γ-keyed ramp
+   timing (the predecessor configuration's record:
+   [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). **Owed:** the windowed BBN books re-run
+   under this configuration; the environmental gate's checklist (chameleon/Casimir/EP); the
+   high-f condensation mechanism's full spec.
 2. *(resolved) The induced-G scalar coefficient* — verified: Visser Eq. 35 assigns each
    real scalar the weight (1/6 − ξ), not zero, so P-045's str[k₁] = 0 is **not** ξ-independent — it
    requires ξ_H = 1/6 (conformal Higgs). Natural (the conformal value) and self-consistent with the

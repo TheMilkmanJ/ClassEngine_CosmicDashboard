@@ -61,8 +61,10 @@ everywhere atomic physics appears.
   regardless), and the branch predicts **ΔN_eff ≈ 0.06–0.15 — a CMB-S4 detection target**, its
   own falsifier. The price: a new ~100-TeV-class input, the dyad-as-chiral-condensate
   identification drops (its consilience must be re-priced), and the windowed BBN books re-run.
-  Adopting the branch is a pending structural decision; until then this row is the model's
-  sharpest open joint.
+  The high-f configuration is the standing one; the row's remaining exposure is its owed
+  items — the windowed BBN re-run (a-priori mild: the residual ΔN_eff adds ≈ +0.2–0.8σ to Y_p,
+  priced exactly by the re-run) and the gate's chameleon/Casimir/EP checklist — and the CMB-S4
+  ΔN_eff bet, which adjudicates directly.
 - **(e) A_s, n_s, and the thermal O(1) coefficient are un-built or frozen candidates** — the A_s
   closed form is the corpus's boldest standing claim, frozen into the live run by design.
 - **(f) Code-vs-theory gap:** in the CLASS implementation the dyad's m_e shift and the dCDF density

@@ -166,6 +166,27 @@ M² = m_N/3, is not killed but stays a soft, unadjudicable one: M² = 313.84 ± 
 ≈51σ — from the sharp nucleon m_N/3, matching only if the constituent scale floats over its
 300–360 MeV scheme band.)*
 
+### The electron-CW dyad configuration (v ≈ 175 keV) — RETIRED (2026-07-18)
+
+**What it was:** the recorded dyad operating point — condensation driven by the electron's
+Coleman–Weinberg backreaction, VEV v ≈ 175 keV (the corrected closed form), κm_e0² ≈ 0.108.
+
+**Why it died:** BBN-fatal, confirmed adversarially at 10⁸–10¹⁷ margins: the coupling that sources
+ε at that v thermalises the dark sector with the SM (Γ/H ~ 10¹⁷ from reheating through BBN); the
+thermal population's energy cannot return to the SM bath (the U(1) seal); even detached, the
+thermalised dyad alone carries ΔN_eff = 1.14 > Planck's 0.3; and its thermal fluctuations put ε ON
+at 1.3–2.7× full amplitude during n/p freeze-out, breaking the OFF-window independently. The same
+un-gated coupling also fails electron g−2 by ~10⁸ before cosmology is consulted.
+
+**The successor (adopted 2026-07-18):** the high-f dyad — f_dyad ≈ 100–500 TeV (a registered
+input), condensation from its own L-breaking potential, thermalisation dead at κ² while the
+κ-independent T_c formula keeps the ramp's T_γ timing; residual ΔN_eff = 0.06–0.24 (CMB-S4
+referee). **What survives the retirement:** the quadratic operator form, the κ-independent T_c
+formula, the ε = c·f̄·α_c amplitude, √σ_dark = m_e, and the flagship — the kill ran through the
+operating point and the dyad-as-SU(2)-condensate identification (dropped with it), not through
+the operator or the amplitude. Full adjudication record:
+[Nontherm_Kill_Discussions.md](threaded_physics_working/Nontherm_Kill_Discussions.md).
+
 ### The dyad VEV conflation (v ≈ 100 keV) — self-caught error, closed-form fix (2026-07-17)
 
 **The error:** the 2026-07-10 gate-0 VEV derivation inserted the *delivered shift* ε in the slot of
