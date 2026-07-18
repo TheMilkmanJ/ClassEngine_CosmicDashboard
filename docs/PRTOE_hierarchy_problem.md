@@ -67,7 +67,10 @@ identification with the T_c derivation's own bracket constant (L − 1 = ln(m_e0
 is **retracted** on the same ground: that bracket is squared-log, and at this normalization
 it predicts the excluded 3/4 (autopsy:
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). Any future exhibition must produce 3
-at squared-log or a natively single-log mechanism. Guards that stand: the sharp precision
+at squared-log or a natively single-log mechanism — and the one arithmetic door in the menu
+(½ + 1 = 3/2 as a forced sum) is closed by the RG dichotomy: conditions that combine objects
+cancel their μ-logs (they fix ratios, not scales), and conditions that keep the log are
+single-object. No route is named, none pending. Guards that stand: the sharp precision
 rides the closed-form k (the A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and
 the result is conditional on the recorded 4πm_H anchor definition. The coupling in the
 exponent is not new — it is the SAME α_c = 3α
