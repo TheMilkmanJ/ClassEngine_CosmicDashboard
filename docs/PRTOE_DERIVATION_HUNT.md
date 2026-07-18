@@ -356,18 +356,20 @@ everywhere; the massless-mediator CMB bound g ≲ few×10⁻⁷ is passed by ≥
 channel is a coherent-mode rate, not coalescence: ceiling v_L < 0.94 TeV for the settling
 dynamics); the TeV and MeV corners are **both alive**, and the corner-selector is the registry's
 original referee — the CMB-S4 Majoron/ν-interaction search (a detection at g ~ 10⁻⁸–10⁻⁹ selects
-the MeV corner and its resonant-leptogenesis lane; a null leans high-v_L) — **joined by a
-co-referee found in the lane census (2026-07-18): SN1987A.** The Majoron–ν Yukawa is
-kinematically open in the supernova core (T ~ 30 MeV) and carries no gate (it is not the
-conformal portal), and the classic free-streaming-to-trapping exclusion band
-(g_νν ~ [3×10⁻¹⁰, 3×10⁻⁷] class; modern reanalyses vary — verification owed) **contains the MeV
-corner's g = 1.2×10⁻⁸** while the high-v_L corner clears it by ≥ 2 orders. The census's other
+the MeV corner and its resonant-leptogenesis lane; a null leans high-v_L). **The SN1987A lane,
+verified against the literature (2026-07-18): both corners clear.** The Majoron–ν channel is
+kinematically open in the supernova core and ungated, and the bounds are: the classic
+luminosity/trapping exclusion band **3×10⁻⁷ < g < 2×10⁻⁵** (Kachelriess et al. 2000; Farzan
+hep-ph/0211375, medium effects included), and the modern SN1987A likelihood analysis
+(arXiv:2410.11517, PRD) at **g₁₁ ≲ 10⁻⁷–10⁻⁶ for m₁ ~ 1–10 meV** — which applies to the
+mass-basis-diagonal singlet Majoron through matter-induced off-diagonal couplings. The MeV
+corner's largest coupling (g₃₃ = 1.2×10⁻⁸) clears the classic band by ~25× and the modern
+bound by ≥ 8×; the high-v_L corner clears everything by ≥ 5 orders. The census's other
 lanes clear: stellar cooling (dyad gate closed in stars), μ→eJ (singlet Majoron — tree charged
 coupling absent), BBN thermalization (coalescence closed, 2↔2 is g⁴), long-range forces
 (matter coupling two-loop-suppressed; ν self-interaction below ultralight-mediator bounds).
 The two-scale structure (f ≠ v_L, three dark fields) stands on the one-scale corner's tie-death
-alone. Corner selection: **open — SN-stressed at MeV, S4-refereed; the high-v_L corner is the
-lane-clean one.**
+alone. Corner selection: **open — both corners lane-clean; CMB-S4 is the selector.**
 
 **What the test settles and what it leaves:** B is the only corner
 that keeps the tie's forward mechanism *and* survives the new lane — landing, unforced, in the

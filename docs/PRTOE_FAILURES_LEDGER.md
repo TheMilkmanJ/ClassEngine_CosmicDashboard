@@ -1054,3 +1054,14 @@ two-source/tenth-channel spec; the leptophilic resolution; the seesaw naturalnes
 alive and the corner-selector reverts to the registry's original referee — the CMB-S4 Majoron/
 ν-interaction search (a g-detection selects the MeV corner; a null leans high-v_L). The corner-B
 seal made on the corridor's evidence is reverted to an open two-corner state.
+
+### The lane census's SN1987A band edge — wrong by three orders, verify-flag caught it (2026-07-18)
+
+The census's first pass quoted the Majoron–ν SN exclusion band as [3×10⁻¹⁰, 3×10⁻⁷] and graded
+the MeV corner SN-stressed. The literature verification (same day, the flag's named purpose)
+gives the classic band as **[3×10⁻⁷, 2×10⁻⁵]** (Kachelriess et al. 2000; Farzan hep-ph/0211375)
+and the modern likelihood bound as **g₁₁ ≲ 10⁻⁷–10⁻⁶ at m₁ ~ 1–10 meV** (arXiv:2410.11517, which
+covers the diagonal singlet Majoron via matter-induced off-diagonals). The MeV corner clears by
+25× (classic) and ≥ 8× (modern); the SN-stress verdict is withdrawn and the corner selection
+reverts to CMB-S4 alone. The lower edge had been misremembered by three orders in the
+estimate-grade first pass; the verify-flag protocol worked as designed.
