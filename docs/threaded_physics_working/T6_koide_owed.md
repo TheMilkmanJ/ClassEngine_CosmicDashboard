@@ -688,8 +688,11 @@ not one draw: a single thermal draw of (x, y, M) leaves A² wildly dispersed (me
 P(|A − √2| < 1%) = 0.8% — computed), so the door REQUIRES the observed A² to read aggregated
 powers over N ≫ 1 independent genesis patches: Monte Carlo confirms A → √2 (N = 10⁴ patches:
 1.4144 ± 0.012) with LLN spread ∝ 1/√N; the measured tightness (√2 to 9×10⁻⁴%) needs
-**N ≳ 3×10⁹**. A Kibble-type domain count at the imprint scale is the natural supplier and is
-not computed — a named condition, not an assumption.
+**N ≳ 3×10⁹**. **The Kibble count is now computed:** for any imprint epoch at or before the
+onset, N = (R_obs/R_horizon(z_on))³ = (14 500 Mpc / 12.7 kpc)³ ≈ **1.5×10¹⁸** — the condition
+is over-satisfied by ~9 orders, and the predicted residual spread |A − √2|/√2 ~ 1/√N ≈ 8×10⁻¹⁰
+sits far inside the measured 9×10⁻⁶. **The supply debt is PAID; the door's remaining debt is
+the even-split theorem alone.**
 
 **The moment-pair watch (bare arithmetic, recorded next to the GM watch).** The house's two
 amplitude constants are the first and second moments of the SAME uniform-phase measure:
