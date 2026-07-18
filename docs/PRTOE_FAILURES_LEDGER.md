@@ -1242,3 +1242,15 @@ sector-equipartition by any mechanism that survives the minefield).**
 
 **Time of death: 2026-07-18, by the trial whose kill zones were sealed before any computation —
 five instrument passes, no goalposts moved, the discipline holding to the end.**
+
+
+### The golden-angle candidate for the Koide phase — KILLED the hour it was raised (2026-07-18)
+
+Proposed as a shape-instinct for the post-trial door ("maybe π or the golden ratio").
+Executed by two independent routes in one Monte Carlo: as the measured phase, 137.5078° sits
+10,008σ from θ = 132.7328° ± 0.0005°; as the seed angle, golden tangency freezes A = 1.3562 ⟹
+Q = 0.63987 — 3,965σ from the measured Q, independent of all θ conventions. π has no vacancy
+(already employed at f̄ = 2/π). The same computation PROMOTED the Brannen 2/9 watch (−0.9σ at
+half-millidegree precision, target two decades older than the precision — T6). The method note:
+the proposer's own two maxims (account for everything; trust no un-errored precision) are what
+executed the proposal — and what found the watch.
