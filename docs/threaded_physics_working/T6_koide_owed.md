@@ -675,6 +675,14 @@ trigger. Fence inherited from the dead routes: any dynamics that freezes at
 instantaneous-amplitude extremes lands the dead attractors (A = 1, 2) — the mean crossing is
 the only live freeze-point.
 
+**The isotropy tightening (the symmetry is free, not assumed).** The channel-equipartition
+leg needs equal stiffness in the two channels — and that is automatic: x and y are components
+of ONE complex doublet, whose quadratic-order potential is O(2)-isotropic by construction. The
+only anisotropy in the problem is the Z₃ cubic (the torque) — and the cubic being off at
+contact is already the regime condition (bath-dominated, the only live regime after the
+growth-race/flip kills). So "why are the channels symmetric" and "why is the torque off"
+are ONE condition, not two: the equipartition leg carries no independent symmetry debt.
+
 **The aggregation condition (honest, load-bearing).** Equipartition pins ensemble variances,
 not one draw: a single thermal draw of (x, y, M) leaves A² wildly dispersed (median 3.0,
 P(|A − √2| < 1%) = 0.8% — computed), so the door REQUIRES the observed A² to read aggregated
