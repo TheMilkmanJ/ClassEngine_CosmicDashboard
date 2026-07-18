@@ -641,3 +641,59 @@ log-midpoint — recorded to kill or earn, no mechanism). Selector state: six ro
 (uniform, cubic-relax both signs, equal-survivors, product-extremum, growth-race, the flip);
 **two shapes remain: maximum entropy under wall contact (un-formalized), and quarter-period
 co-emergence lag.**
+
+**The two surviving shapes, formalized (2026-07-18) — they are ONE condition.**
+
+**(i) Maximum entropy under wall contact, computed across its functional menu.** The
+share-entropy class — any permutation-symmetric concave functional (Shannon, Rényi-2) on the
+survivors' mass or amplitude shares — maximizes at equal survivors, u* = 180°, A = 1: the whole
+class re-derives the dead equal-survivors selector and is **killed as a class** (computed, both
+functionals, both share types). The ensemble reading (uniform phase, no constraint) is the
+recorded no-selection draw. The one member that lands √2 is the channel entropy on the doomed
+face's own frame — equal weight in the **killing projection** (x = R cos u, the component the
+wall consumes against M) and the **splitting projection** (y = R sin u, the component that
+separates the survivors): max ⟺ cos²u = sin²u ⟺ the diagonal. Formalized honestly, that member
+is not an entropy statement at all — it is **channel equipartition read at power level**:
+⟨x²⟩ = ⟨y²⟩ (two quadratic modes, one bath) gives 1/A² = ⟨cos²u⟩ = 1/2 of the full uniform
+phase ⟹ **A = √2 forced, θ marginal** — the recorded stiff-A/soft-θ split falls out instead of
+being assumed.
+
+**(iii) Quarter-period co-emergence, formalized.** The lag that lands 135° is a quarter of the
+**intensity** cycle (the quadratic sensor's period, π in u), not of the amplitude cycle — and
+the quarter-intensity point of an oscillation is its **half-power point**: cos²u = 1/2. In the
+Z₃-invariant frame the same statement reads cos²(3θ) = 1/2, and the two are one locus by the
+cubic identity (cos 3u = −cos u wherever cos²u = 1/2; verified).
+
+**The compression: both shapes are the same condition.** The seed freezes at the **mean-power
+crossing** — the phase where the instantaneous power equals its own equidistributed average
+(cos² = ⟨cos²⟩ = 1/2) — stated in the face frame (the diagonal, tan u = −1), the invariant
+frame (half-power of the Z₃ invariant), or the channel frame (killing/splitting equipartition).
+Two shapes → **one selector debt: why does contact/crystallization fire at the mean-power
+crossing?** Named candidate mechanisms, unbuilt: the wall reads RMS amplitude (contact at
+M = R·√⟨cos²⟩ = R/√2 — then A = √2 with no further freedom); a mean-referenced threshold
+trigger. Fence inherited from the dead routes: any dynamics that freezes at
+instantaneous-amplitude extremes lands the dead attractors (A = 1, 2) — the mean crossing is
+the only live freeze-point.
+
+**The aggregation condition (honest, load-bearing).** Equipartition pins ensemble variances,
+not one draw: a single thermal draw of (x, y, M) leaves A² wildly dispersed (median 3.0,
+P(|A − √2| < 1%) = 0.8% — computed), so the door REQUIRES the observed A² to read aggregated
+powers over N ≫ 1 independent genesis patches: Monte Carlo confirms A → √2 (N = 10⁴ patches:
+1.4144 ± 0.012) with LLN spread ∝ 1/√N; the measured tightness (√2 to 9×10⁻⁴%) needs
+**N ≳ 3×10⁹**. A Kibble-type domain count at the imprint scale is the natural supplier and is
+not computed — a named condition, not an assumption.
+
+**The moment-pair watch (bare arithmetic, recorded next to the GM watch).** The house's two
+amplitude constants are the first and second moments of the SAME uniform-phase measure:
+f̄ = ⟨|cos|⟩ = 2/π and 1/A = √⟨cos²⟩ = 1/√2. One equidistribution, two moments, two constants.
+No shared mechanism built; watch grade.
+
+**Rejected near-miss (fence, do not book):** the contact wedge's own restricted mean is
+⟨cos²u⟩_wedge = 1/2 + 3√3/8π = 0.70675 — 0.051% from 1/√2 and NOT equal to it. The
+equipartition statement lives on the full phase (upstream, thermal), not the wedge; the wedge
+only names which face dies (and re-derives the recorded 75th percentile exactly: 90°/120°).
+
+**Selector state after the formalization:** six routes dead, the share-entropy class killed;
+the two surviving shapes **compress to one** — the mean-power-crossing condition — carrying one
+mechanism debt (why the freeze fires there) and one supply debt (the N ≳ 3×10⁹ patch
+aggregation).
