@@ -992,7 +992,24 @@ exactly the host the corpus names anyway: the helical vortex RING — the torus-
 aspect ratio is Widnall-pinned (a/R = 2.26–2.51/n = 0.09–0.23) and whose geometry gives the
 doublet its stiffness. **Arm 2 (the torus-tube, the decisive one) is the execution date:
 the surface Green's function on the Widnall-pinned torus, the defect ring's true
-equilibrium, the host's own gravest modes — zero free choices, kill zones sealed above.** Sector-equipartition — the T-per-irrep sharing that
+equilibrium, the host's own gravest modes — zero free choices, kill zones sealed above.**
+
+**Arm 2, pass 1 (2026-07-18): the machinery built, one clean testimony, one jammed
+instrument — THE ZONES REMAIN SEALED, NO VERDICT FIRED.** Built: the Laplace–Beltrami solver
+on the tube's true metric (conservative stencil, LU-factorized), the field-energy functional
+with geodesic core cutoffs, the Widnall lock implemented as ONE parameter (each n carries its
+own a = 2.385/n AND its own injection — aspect ratio and forcing scale are not independent).
+*The clean testimony (large-step scan, snapping-immune):* the three-defect equilibrium sits
+at the **INNER equator** (t* = π — the negative-curvature side, exactly where curved-surface
+vortex theory sends like-sign defects), so the family ring's radius is **R_ring = R − a =
+1 − 2.385/n**: across the Widnall band, R_ring ∈ [0.78, 0.91] — the flat-model crossing's own
+neighborhood, arrived at with no choices (convention caveat: the host's own delivery integral,
+not the flat curve, is the arbiter). *The jam (caught by self-contradiction):* the
+Hessian/vertex stage returned a NEGATIVE breathing stiffness at the scan's own minimum —
+impossible, and therefore diagnostic: the finite-difference displacements were sub-grid and
+the point sources snap to nodes; the stage is INVALIDATED with receipts, and no ratio from it
+is admissible. **Pass 2 (the actual execution): bilinear source spreading, displacement
+h ≳ 2 grid cells with Richardson, grid-doubling convergence — then the sealed zones fire.** Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
 cascade meeting the ring's own computed vertices, not as an assumption.
 
