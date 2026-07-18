@@ -1013,7 +1013,30 @@ Hessian/vertex stage returned a NEGATIVE breathing stiffness at the scan's own m
 impossible, and therefore diagnostic: the finite-difference displacements were sub-grid and
 the point sources snap to nodes; the stage is INVALIDATED with receipts, and no ratio from it
 is admissible. **Pass 2 (the actual execution): bilinear source spreading, displacement
-h ≳ 2 grid cells with Richardson, grid-doubling convergence — then the sealed zones fire.** Sector-equipartition — the T-per-irrep sharing that
+h ≳ 2 grid cells with Richardson, grid-doubling convergence — then the sealed zones fire.**
+
+**Passes 2–3 (2026-07-18 evening): the instrument matured; the geometry deepened; the lean
+turned DEATH-side — verdict still not fired.** Pass 2 (bilinear sources) caught real
+structure the coarse scan had missed: the inner equator is a local MAXIMUM in the uniform
+direction — the true equilibrium sits OFF it, at the balance of the geometric potential
+(pulling toward negative curvature) against mutual repulsion (pulling toward the larger
+circle). Pass 2's hard core-mask then proved to be the next noise source (E jumps as masks
+cross cells; a shaky n = 11 "death" reading was REFUSED — gate tightened to demand
+h-consistency, not positivity alone). Pass 3 replaced the mask with the physical functional
+(the GPE density-weighted kinetic energy — smooth everywhere), and delivered: *(i)* both
+stiffnesses POSITIVE across the band — **the torus does give the face-doublet a restoring
+force; the sphere-killer is fixed and the host class is structurally viable**; *(ii)* the
+landscape is RAZOR-THIN (w ~ 0.002–0.007 — three orders below the flat model's O(1)) with
+near-EQUAL breathing/shape stiffnesses — and near-equal stiffness pushes the sudden-weighted
+delivery toward the per-mode value; *(iii)* one gate-clean reading admitted, n = 25:
+**sector ratio 1 : 1.959 — the DEATH zone, essentially the per-mode grave** — while n = 16
+and n = 11 failed the h-consistency gate (drifts 29–42% on the razor-thin w_s). **Standing:
+the sealed rule fires only on the COMPLETED computation — completion requires gate-clean
+readings across the band plus grid-doubling convergence (pass 4: 256-class grids, finer
+equilibrium refinement, h-window study). The lean is honestly adverse: the one admitted
+reading sits at the grave, and the mechanism is plausible physics (a shallow torus landscape
+equalizes the stiffnesses, driving delivery per-mode), not an obvious artifact. Pass 4
+decides.** Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
 cascade meeting the ring's own computed vertices, not as an assumption.
 
