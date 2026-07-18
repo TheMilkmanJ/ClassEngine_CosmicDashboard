@@ -122,9 +122,20 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's **+1.09σ adverse Y_p scar (ramped) → ≈ +3.4σ**. **Consequence: the dark sector must have
   NEVER THERMALISED with the SM.** Registered as the fifth kill of **P-2026-048**.
   (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
-- **THE NON-THERMALIZATION ESCAPE — BUILT (2026-07-17), AND IT FAILS. The standing adverse finding
-  of this section, adversarially derived, margins 10⁸–10¹⁷ (no O(1) rescues it); tribunal-pending
-  before any structural consequence executes.** The rate check Γ(dark–SM) < H at all T, run on the
+- **THE NON-THERMALIZATION ESCAPE — BUILT (2026-07-17), TRIBUNAL-ADJUDICATED (2026-07-18):
+  verdict NARROWED.** The kill is **CONFIRMED on the recorded model** (the v ≈ 175 keV electron-CW
+  dyad thermalizes; margins 10⁸–10¹⁷, strengthened in trial: the U(1) seal, the 2-dof floor
+  ΔN_eff = 1.14, the fluctuation nail); **one branch survives — the zero-mode/high-f dyad
+  (v ≈ 100–500 TeV)**: gates cleared by 10⁸–10⁹, the ramp's synchronizer survives (first order in
+  κ vs κ² thermalization), the fifth-force wall closed by the corpus's own operator-level gate
+  (billing symmetry: the recorded model needs the same gate ~10⁸-worse for electron g−2 before
+  cosmology), residual **ΔN_eff ≈ 0.06–0.15 — a CMB-S4 (±0.03) detection target**. The branch's
+  price sheet (P1–P6: a new ~100-TeV input, the dyad=condensate identification drops, the
+  electron-CW mechanism dies as recorded, BBN books re-run, the gate's owed checklist, a
+  genesis-ξ commitment) books with it; **adopting the branch is a structural decision, pending**.
+  √σ_dark = m_e and the flagship survive either way. Full record + verdict:
+  [Nontherm_Kill_Discussions.md](threaded_physics_working/Nontherm_Kill_Discussions.md) §6.
+  The original build's detail, for the recorded-model kill it established: The rate check Γ(dark–SM) < H at all T, run on the
   model's own recorded couplings: **(i)** gravity and the census-closed portals pass (Γ/H ≈ 3×10⁻⁷
   even at the pour scale — the standard gravitational escape holds *for those channels*). **(ii) The
   dyad–electron channel is fatal:** the [ESTABLISHED] electron-CW mechanism needs κm_e² ~ 10⁻² active

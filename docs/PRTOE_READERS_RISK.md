@@ -50,15 +50,19 @@ everywhere atomic physics appears.
   final nested-sampling number) crosses the pre-registered win line only slightly, inside the
   estimator's own systematic error; without SH0ES the model does not win. The easing is shared by the
   whole varying-m_e model class — it adds no independent evidence for the superfluid ontology.
-- **(d) The SU(2) ΔN_eff footprint — now the sharpest structural problem.** The needed
-  non-thermalisation escape **was built (2026-07-17) and FAILS on the model's own recorded
-  couplings**: the dyad–electron coupling that sources ε thermalises the dyad by ~10⁹ in coupling
-  (Γ/H ~ 10¹⁷), the dyad-as-chiral-condensate identification drags the full dark sector in
-  (ΔN_eff ≈ 15 at contact; even a detached dyad gives 0.57 > Planck's 0.3), and a
-  normalization-independent timing pincer closes the cold-sector branch (a diluted dark sector
-  desynchronises the coded BBN ramp). As recorded, the ΔN_eff escape, the ε-ramp mechanism, and
-  √σ_dark = m_e are pairwise-incompatible. Adversarially derived at 10⁸–10¹⁷ margins;
-  tribunal-pending before structural consequences execute.
+- **(d) The dyad thermalisation problem — adjudicated (2026-07-18): the recorded configuration is
+  BBN-fatal; one repair branch survives, at a named price.** The non-thermalisation escape was
+  built and adversarially tried: **as recorded** (the electron-CW dyad at v ≈ 175 keV), the
+  coupling that sources ε thermalises the dark sector (Γ/H ~ 10¹⁷; ΔN_eff ≈ 1.1–15 depending on
+  the sector's attachment) — confirmed at 10⁸–10¹⁷ margins, no escape. **The surviving branch**
+  re-homes the dyad at a high decay constant (~100–500 TeV): thermalisation gates clear by
+  10⁸–10⁹, the BBN ramp's clock survives, the induced fifth force is closed by the model's own
+  environmental gate (which the recorded configuration needs ~10⁸-worse for electron g−2
+  regardless), and the branch predicts **ΔN_eff ≈ 0.06–0.15 — a CMB-S4 detection target**, its
+  own falsifier. The price: a new ~100-TeV-class input, the dyad-as-chiral-condensate
+  identification drops (its consilience must be re-priced), and the windowed BBN books re-run.
+  Adopting the branch is a pending structural decision; until then this row is the model's
+  sharpest open joint.
 - **(e) A_s, n_s, and the thermal O(1) coefficient are un-built or frozen candidates** — the A_s
   closed form is the corpus's boldest standing claim, frozen into the live run by design.
 - **(f) Code-vs-theory gap:** in the CLASS implementation the dyad's m_e shift and the dCDF density
