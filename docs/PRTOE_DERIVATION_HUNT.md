@@ -335,8 +335,8 @@ carries v_L's two corners (resonant → MeV, S4-armed; non-resonant → ≥ GeV,
 corner-selector), and the ν-tie's recorded forward mechanism (`scripts/kubo_freeze.py`) rides the
 Majoron vertex: Γ/H ∝ (m₃/v_L)², = 5×10¹⁰ at the 4.2 MeV launch value, unity at **v_L ≈ 0.9 TeV**,
 9.6×10⁻⁶ at 300 TeV. Against the thermalization floor f ≳ 40 TeV this gives a clean three-corner
-table — and running all three corners against every duty (2026-07-18) surfaced **a constraint lane
-the corpus had never priced: ν free-streaming at recombination.** The Majoron's νν̄ ↔ φ channel
+table — with one further constraint lane in the books: **ν free-streaming at recombination.**
+The Majoron's νν̄ ↔ φ channel
 re-couples the neutrino bath at Γ/H(z ≈ 1100) ∝ g²m₃²/(4πTH) — and the CMB is a free-streaming
 referee. The tested table (estimate grade — order-of-magnitude rates; the literature anchors and a
 proper Boltzmann pass are owed):
@@ -354,16 +354,14 @@ factor-4.2 corridor**, and inside it the recoupling redshift runs z ≈ 1100 →
 not a region but a **prediction**: the ν bath re-couples through the Majoron *between recombination
 and z ≈ 150* — CMB primary spectra clean, late-ν free-streaming modified (CMB-lensing /
 Σm_ν-inference / S4 territory). *Energy bookkeeping, stated precisely: the late recoupling
-redistributes the ν bath's conserved comoving energy — it adds ≈ nothing to ΔN_eff (an earlier
-draft's "+0.1-class addition" was wrong-class and is corrected here); the CMB-S4 ΔN_eff budget
-remains the pure dyad window [0.06, 0.24], and B's own signature is the free-streaming change.*
+redistributes the ν bath's conserved comoving energy — it adds ≈ nothing to ΔN_eff; the CMB-S4
+ΔN_eff budget remains the pure dyad window [0.06, 0.24], and B's own signature is the
+free-streaming change.*
 **A's deep test:** the tie cannot re-home without the Majoron channel — every v_L-independent
 channel is gravitational (M_Pl⁻²-suppressed, ~10⁻⁴⁰-class at the freeze): under A the regression
 to registered-equality is permanent unless new physics is built.
 
-**The retroactive catch:** corner C is the *old recorded launch point* (g = 1.2×10⁻⁸) — the
-free-streaming exposure applies to the pre-adoption books as well; the lane was un-priced
-corpus-wide until this test. **What the test settles and what it leaves:** B is the only corner
+**What the test settles and what it leaves:** B is the only corner
 that keeps the tie's forward mechanism *and* survives the new lane — landing, unforced, in the
 literature's late-recoupling window (a regime with its own H₀-easing lean — noted, not banked);
 its price is the third field, the tightened ΔN_eff budget, and the owed Boltzmann pass. The

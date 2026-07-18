@@ -1027,3 +1027,10 @@ dcdf_superfluid, P-2026-048.
 **The lesson:** a stated caveat (§6) next to an unstated consequence (the flagship claim everywhere
 else) is a corpus-wide coherence failure the value-checker cannot see. It took red team.
 
+
+### Two entries from the Majoron-corner test (2026-07-18, the error log)
+
+| what | the record |
+|---|---|
+| **The ν-free-streaming lane was un-priced corpus-wide** | The Majoron's νν̄ ↔ φ recoupling channel was never run against the CMB free-streaming requirement — including at the recorded launch value g = 1.2×10⁻⁸ (v_L ≈ 4.2 MeV), which recouples the ν bath ~9 orders deep before recombination (the strongly-interacting-ν regime, Planck-tension class). Caught by the three-corner test; the lane is now in the books (hunt §6), and the MeV corner carries its exposure. |
+| **A wrong-class ΔN_eff claim, same-day self-caught** | The corner test's first booking assigned the late-thermal Majoron a "+0.1-class ΔN_eff addition" to the committed budget. Wrong class: late recoupling redistributes the ν bath's *conserved* comoving energy — ΔN_eff shifts ≈ nothing; the observable is the free-streaming change. Corrected in place within the hour; the CMB-S4 budget stands at the pure dyad window. |
