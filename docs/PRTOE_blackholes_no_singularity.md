@@ -23,9 +23,21 @@ Sakharov-induced action; the Jacobson thermodynamic kit — the assembled emerge
 frame). An emergent metric is only defined where the
 collective description holds — for gradients longer than the **healing length**
 
- ξ = ħ/(m c_s), with m = 2.24×10⁻²⁰ eV (roster-trial-conditional) and c_s = √α_c = 0.146 (α_c = 3α is a pre-registered value — ξ rides two open numbers)
+ ξ = ħ/(m c_s), with m = 2.24×10⁻²⁰ eV (roster-trial-conditional) and c_s = √α_c = 0.148 (α_c = 3α is a pre-registered value — ξ rides two open numbers)
 
- **ξ = 6.0×10¹³ m = 402 AU = 0.0064 ly.**
+ **ξ = 6.0×10¹³ m ≈ 400 AU = 0.0064 ly** *(the ambient — dilute-medium — value).*
+
+**Why this does not touch solar-system gravity (the first question a reader should ask).** ξ is a
+**local** scale: ξ ∝ 1/c_s,local, and the medium's state — hence its healing length — responds to
+environment (the same density response that runs the model's screening). The 400 AU is the
+**ambient, dilute-cosmological** value: it governs the coherence of the un-disturbed medium that a
+black hole sits in and accretes. Inside and around dense baryonic structure the local healing
+length is far shorter, and the emergent metric is defined at planetary and laboratory scales
+exactly as observed — the model cedes bound-structure gravity to standard physics by construction.
+The table below therefore reads as: the *ambient medium* swallowed by the hole enters the quantum
+regime as a single coherent region — and the load-bearing end-of-metric statement for the interior
+is pillar three (the Landau breakdown, a *dissipative* end of the superfluid description), with the
+ambient-ξ comparison as the scale-setting illustration, not the whole argument.
 
 A "singularity" is a statement about the metric at arbitrarily small scales. Below ξ **there is
 no metric to be singular** — only the quantum medium. This is the same no-double-counting move
@@ -128,7 +140,11 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
  crossover vs the SMBH mass-function top (§2); (ii) horizon-scale microstructure at the core
  boundary could imprint late-time ringdown echoes — generic to horizon-scale-structure models,
  amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
- thermodynamics to the medium's Landauer accounting (recorded, def-atom-night).
+ thermodynamics to the medium's Landauer accounting (recorded, def-atom-night); (iv) the boson
+ mass itself puts the ℓ = m = 1 superradiance window at M ≈ 6×10⁸–3×10⁹ M☉ with fast spin-down —
+ a Regge-gap lean in SMBH spin data (candidate grade; the λ-quench caveat and today's sparse
+ spin measurements above 10⁸ M☉ keep it a lean, not a bet —
+ [T2_smbh_atoms_owed.md](threaded_physics_working/T2_smbh_atoms_owed.md)).
 
 ## 8. Summary
 
