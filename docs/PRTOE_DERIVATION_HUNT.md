@@ -536,7 +536,7 @@ entire remaining open surface is:
 | open object | what it decides | gated on |
 |---|---|---|
 | the two-channel even-split theorem (now: sector-equipartition, cascade-delivered) | A = √2, θ_seed = 135°, the Koide door | the ring-on-ring trial, arm 2 (torus; zones sealed — T6) |
-| the linear-map postulate (occupancy at mean energy → frozen gap) | the anchor's −3/2 | rides the same trial (the quadratic-sensor grammar transfer) |
+| ~~the linear-map postulate~~ — DISCHARGED: the −3/2 derived at additivity grade (boost-dressed cutoff, geometric mean, equipartition — hierarchy §2b) | the anchor's −3/2 | the shared additivity neck (one assumption corpus-wide; the ring-on-ring trial tests its Koide instance) |
 | the seat constant b | κ_m's exact value | the basement build |
 | T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 1.5% prediction | the lattice (external; the note APPROVED FOR CIRCULATION) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ξ window | CMB-S4 |
