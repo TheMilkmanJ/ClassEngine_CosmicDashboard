@@ -913,6 +913,13 @@ slope moves the ratio ∓13–17%, so the honest 2D-QT derivation of the −4/3 
 side) is the main hardening; (h2) the R₀ ↔ horizon identification behind q_inj·R₀ = √n;
 (h3) grid/method systematics (few %). Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
-cascade meeting the ring's own computed vertices, not as an assumption. Kapitza consistency holds: the fast-drive effective mass
+cascade meeting the ring's own computed vertices, not as an assumption.
+
+*Watch (the ξ locus):* the exact-equality locus at this method grade sits at ξ/R₀ ≈ 0.30
+(band-mean 1 − 0.006), with **ξ/R₀ = 1/3 on the plateau at band-mean 1 + 0.029** — the two
+are indistinguishable beneath the h1 slope systematic (±1/3 in slope ⟹ ∓15%, dwarfing their
+2.9% separation). The identification ξ = R₀/3 (the corpus's w = 1/3 fraction) is recorded as
+a **bare watch** — to earn or kill when h1's honest slope derivation lands; do not book it
+as a claim before then. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
