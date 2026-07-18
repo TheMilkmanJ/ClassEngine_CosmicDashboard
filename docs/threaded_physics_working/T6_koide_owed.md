@@ -921,9 +921,19 @@ bottom, ≤ 1% at top; the enstrophy-side steepness is verdict-irrelevant, −3 
 ≤ 0.7%). Residual h1 caveats, honest: the Gaussian closure (inverse-cascade large scales are
 known near-Gaussian; mild), and quasi-static validity (breaks only within ~ξ of cores — the
 enstrophy side, verdict-irrelevant). **The ∓15%-per-⅓-slope systematic is dead; the plateau
-now stands on a derived spectrum.** Remaining: (h2) the R₀ ↔ horizon identification behind
-q_inj·R₀ = √n; (h3) grid/method systematics (few %) — the ξ = R₀/3 watch stays unresolved
-inside h3's floor. Sector-equipartition — the T-per-irrep sharing that
+now stands on a derived spectrum.** Remaining: (h2) — **CLOSED same day, and one-sided.** The
+verdict's geometry dependence saturates: the sector ratio enters the life band at
+q_inj·R₀ ≈ 2.5 and locks at **1.002 for everything from 5.5 to 14+** — asymptotically
+independent of the precise scale identification; only the ORDERING (injection ≥ 2.5× above
+the ring scale) is required. And the corpus's recorded geometry over-satisfies it: the
+Widnall band is n = 2.26–2.51 × R/a → **11–25 azimuthal waves on the genesis vortex ring**
+(the tree's [X]-grade row, kill condition attached), so the cascade injects at
+q_inj = n/R_v and q_inj·R₀ = n·(R₀/R_v) — any family-ring scale above ~R_v/10 lands deep in
+the saturated plateau. The earlier √n phrasing was the conservative edge; the recorded n-band
+sits in saturation. (h3) grid/method systematics (few %) — the ξ = R₀/3 watch stays
+unresolved inside h3's floor. **Verdict standing after h1 + h2: LIFE at 1.002 ± (h3's
+few %), on a derived spectrum, a pinned drive, and a one-sided recorded geometry — one
+method-polish task from derived-conditional.** Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
 cascade meeting the ring's own computed vertices, not as an assumption.
 
