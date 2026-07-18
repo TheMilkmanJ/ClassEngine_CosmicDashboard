@@ -175,6 +175,7 @@ prior:
 sampler:
   polychord:
     nlive: 400
+    nprior: 400              # explicit: the 10nlive default made the prior phase ~3 days for zero evidence gain
     num_repeats: 3d
     precision_criterion: 0.01
     do_clustering: false     # unimodal posterior; avoids the clusters-dir crash, evidence unchanged
