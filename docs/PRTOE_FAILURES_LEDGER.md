@@ -1136,9 +1136,20 @@ seam country, at single-log normalization with both endpoints corpus-pinned: pol
 thermal dimensional-reduction 1.954 · BCS Δ/T_c 0.568 · BCS prefactor 0.126 — **none is 3/2 —
 except one: the nonrelativistic phase-space power (mT/2π)^(d/2), whose d/2 = 3/2 in three
 spatial dimensions rides a SINGLE log natively** (phase-space counting, not a loop bracket;
-the same "3 = d" the corpus books in α_c = 3α). Grade: **named lead, unowned — route 6.**
-Three conditions before it is a route: (i) the anchor's condition must actually cross a
-nonrelativistic counting seam; (ii) the phase-space log's argument must be pinned O(1) at the
-gap scale by the condition itself, not by choice; (iii) the sign must come out −3/2. Fences:
-scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 is a different object
-class — do not book it.
+the same "3 = d" the corpus books in α_c = 3α). Grade: **named lead — route 6, sharpened same
+day to a candidate.** The local is equipartition itself: a nonrelativistic state's mean
+kinetic energy is ⟨E_kin⟩ = (d/2)·T, so occupancy at the thermal-mean energy carries
+e^(−(M+(3/2)T)/T) = e^(−M/T)·**e^(−3/2)** — a pure multiplicative constant. Two of the three
+conditions discharge structurally: **(ii) self-pinning is automatic** — the cost (3/2)T rides
+the same T, so the factor is e^(−3/2) for ANY nonrelativistic formation temperature, no scale
+chosen; **(iii) the sign is right** — suppression, and the measured anchor sits exactly
+e^(−1.5014) BELOW the naive transmutation point. Blind-writability: passes at form level (a
+kinetic-energy cost in a pairing exponent is a priori natural — nothing about 1.5014 was
+needed to write it). **Still owed: (i)** the gap-condition derivation exhibiting the kinetic
+cost linearly in the exponent (pairing from a Boltzmann-suppressed population, not
+Fermi-surface BCS), **plus the freeze clause** (why today's vacuum anchor remembers the
+formation-era factor — the corpus's frozen-at-genesis grammar, to be stated not assumed).
+Fences: scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 is a different
+object class — do not book it. *(Watch-grade note: equipartition now anchors both of the
+day's live candidates — the Koide channel balance and this seam constant; no shared mechanism
+claimed.)*

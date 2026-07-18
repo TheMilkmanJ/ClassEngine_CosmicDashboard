@@ -705,3 +705,19 @@ only names which face dies (and re-derives the recorded 75th percentile exactly:
 the two surviving shapes **compress to one** — the mean-power-crossing condition — carrying one
 mechanism debt (why the freeze fires there) and one supply debt (the N ≳ 3×10⁹ patch
 aggregation).
+
+**The wall's sensing, attacked (2026-07-18): the two-timescale frame, one grave, and the
+sharpest restatement.** (a) *The frame:* at contact the doomed face's quanta are light and
+drain the seed; the drain responds on τ = 1/Γ while the phase rotates at ω. For ω ≫ Γ the
+wall **cannot** read instantaneous amplitude — cycle-averaged sensing is forced, not chosen.
+The mean-power class is thereby legitimized structurally; what remains is which average.
+(b) *Grave 7:* the parameter-free dynamical candidate at quadratic sensing — signed-quadratic
+marginality, ⟨s·|s|⟩ = 0 with s = M + R cos u — **never fires**: h(A) = ⟨s|s|⟩/M² has its
+minimum 1.5000 at A = 1 and rises monotonically (computed, A ∈ [1, 60]). The
+signed-marginality class is dead. (c) *The restatement:* the RMS-contact condition is
+algebraically identical to **power balance** — ⟨m₁⟩ = M² + R²/2 = R² = P_doublet ⟺ A = √2
+exactly: *the face freezes when its cycle-averaged mass equals the doublet's total drive
+power* — a parametric-saturation statement. **The blank's sharpest form yet: derive
+parametric saturation ⟨m₁⟩ = P_drive from the face–medium coupling.** (The drive pumps the
+face until the face's mean inertia matches the pump's power; equality-at-saturation is the
+mechanism-shaped claim, not yet a derivation.)

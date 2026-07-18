@@ -159,7 +159,23 @@ and is **not claimed**. The settling test passes: everything above is dimensiona
 the medium's own floor — the observed ρ_Λ never enters. (Band check: κ_m ∈ [0.56, 1.78] puts
 m₁ ∈ [1.3, 4.1] meV and moves Σm_ν by under ±2 meV — nothing downstream strains.)
 
+**The UV form above v_L (spec).** The seat term completes to
+
+> **O_A = (c_A/v_L)·Φ_med·σ_L·ν̄₁ᶜν₁ + h.c.**
+
+— dimension-5 with the cutoff the L-breaking scale itself; L-invariant (the bilinear's L = +2
+against σ_L's −2); below v_L it reduces exactly to the seat term with μ_∅ = ⟨Φ_med⟩ and
+κ_m = c_A·O(1) preserved. Two dividends and one fork: *(dividend 1)* the σ_L phase induces
+the Majoron–ν₁ coupling g = m₁/v_L = 2.3×10⁻⁹ (MeV corner) / 2.4×10⁻¹⁵ (TeV corner) — clearing
+the classic SN band by 10²×/10⁸× and the modern likelihood bound by 40×/4×10⁷×: the UV
+completion is SN-safe at both corners with no new input; *(dividend 2)* EFT validity
+μ_∅ ≪ v_L holds by ≥ 9 orders at both corners. *(The fork, named)* flavor structure:
+**seat-aligned** (couples to the lightest mass eigenstate; Σm_ν = 61.4 meV unchanged — the
+spec's reading; the alignment derivation is owed) vs **democratic** (μ_∅·𝟙 adds μ_∅ to every
+eigenvalue: Σm_ν → 68.3 meV — priced, disfavored by the registered 61.4, not excluded). The
+alignment question is the operator's one remaining structural residual.
+
 **Owed after the exhibit:** the seat constant b (one pure number, from the joint vacuum's gap
-structure — inherits the basement build), and the operator's UV form above v_L. Grade:
-**operator exhibited at seat level; κ_m's size structural (two legs); its exact value open
-with b.**
+structure — inherits the basement build), and the seat-alignment derivation above. Grade:
+**operator exhibited at seat level with its UV form; κ_m's size structural (two legs); b and
+the alignment open.**
