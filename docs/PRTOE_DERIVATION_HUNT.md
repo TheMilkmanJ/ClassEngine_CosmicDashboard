@@ -519,3 +519,25 @@ irreducible input.
 
 *Killed approaches and retracted claims are recorded in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), not here.*
+
+---
+
+## The open surface, consolidated (2026-07-18)
+
+After the seam campaign, the selector compression, and the chain-free closures, the model's
+entire remaining open surface is:
+
+| open object | what it decides | gated on |
+|---|---|---|
+| the two-channel even-split theorem | A = √2, θ_seed = 135°, the Koide door | the basement build |
+| the linear-map postulate (occupancy at mean energy → frozen gap) | the anchor's −3/2 | the basement build |
+| the seat constant b | κ_m's exact value | the basement build |
+| T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 1.5% prediction | the lattice (external; the note is drafted) |
+| ΔN_eff ∈ [0.06, 0.24] | the genesis ξ window | CMB-S4 |
+| the running referees (f̄/α_c chains; the evidence pair) | the amplitude stack; dyad vs ΛCDM | the box |
+| the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
+
+Conditions paid at desk grade this cycle: the Koide aggregation supply (N ≈ 1.5×10¹⁸, nine
+orders of headroom), the gate's sharpness (n_eff ≥ 35, hard-step class, conditional on
+winding-seed identity), the n_s linearity (shot additivity, shared with A_s). Everything else
+in the corpus is derived, priced, or dead with a receipt.

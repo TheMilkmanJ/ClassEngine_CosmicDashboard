@@ -184,6 +184,17 @@ Theta~1, BARE value) vs the standard (virialized) sky. A specific
 CORRELATED pattern across all EM-binding observables, not a single-line
 shift. [sec 8, 29] REACH/SKA-low class instruments.
 
+FORECAST NUMBERS (chain-free, from dln nu_hf/dln m_e = 2 and eps = 1.2543%):
+ the bare-value hyperfine frequency runs +2.509% high in unvirialized gas.
+ - THE CLEAN CHANNEL — the dark-ages absorption trough (z ~ 85-90, linear
+   physics only, no stars): standard 15.8-16.5 MHz -> model 16.2-16.9 MHz,
+   a +0.40 MHz offset that CANNOT be absorbed into astrophysics. Instrument
+   class: lunar farside (LuSEE-Night / FarView). This is the mechanism's
+   sharpest astrophysics-free falsifier outside the CMB.
+ - the cosmic-dawn trough (EDGES band): 78.0 -> 79.96 MHz (+1.96 MHz) —
+   degenerate with star-formation timing; consistency channel only, stated
+   as such.
+
 ---
 
 ## 9. What is DERIVED vs OPEN (honest accounting)
@@ -406,8 +417,13 @@ medium's Gaussian-statistics fluctuations with an amplitude-linear threshold map
 exponent in the transition zone is n_eff ≈ ν²/2 (ν = the seed threshold in σ units; the exact
 erfc slope runs slightly steeper: ν = 2.2σ gives 2.81, ν = 3σ gives 4.92) — so **ν ≳ 2.1σ
 delivers n_eff > 2.43**, meeting §3's MICROSCOPE/quasar-forced bound from the event statistics
-alone, for any but sub-2σ seeding. **Owed, named (one item):** the seed-count exponent itself —
-the map ν(C²) from the medium's fluctuation spectrum (equivalently the value of n). Grade:
-**gate variable derived-structural (conditional on the census coupling form); gate form derived
-at class level (survival/exponential-power — the power form retired); the exponent n owed;
-C_ref input.**
+alone, for any but sub-2σ seeding. **The seed-count exponent, bounded (conditional
+on seed identity):** if the decoherence seeds are the winding field's own fluctuations, the
+n_s-subdominance ceiling (Δ² ≲ 2.3×10⁻⁶ per log, ~62 logs) pins the field's total σ ≈ 0.012 —
+so any O(0.1–1) shell-crossing threshold sits at ν ≈ 8–84σ, giving **n_eff ≈ ν²/2 ≈ 35–3500**:
+the gate is a hard step for every practical purpose, and §3's forced n > 2.43 is over-satisfied
+by 1–3 orders. The bound closes the exponent at conditional grade; an unconditional value needs
+the C²-to-threshold map. Grade: **gate variable derived-structural (conditional on the census
+coupling form); gate form derived at class level (survival/exponential-power — the power form
+retired); the exponent bounded hard-step (conditional on winding-seed identity); C_ref
+input.**
