@@ -213,8 +213,10 @@ decimals), i.e. tilt **+1/ln(k/k_IR)** — wrong sign (blue), wrong coefficient 
 IR-anchored where the banked form needs UV. Cause of death: the σ⁴ step conflated the one-point
 variance with the per-mode spectrum. **What survives:** the scale identities (k_UV = a_on·T_on = T₀
 exact; the argument-log equivalences), and one narrow un-built route — a modulation/local-amplitude
-map (amplitude at k set by the UV-integrated variance), which is not the χ² spectrum and has not
-been exhibited. The banked n_s form itself is untouched (its grade was never mechanism-dependent).
+map (amplitude at k set by the UV-integrated variance), which is not the χ² spectrum and had not
+been exhibited. **[STAMPED 2026-07-18: the modulation map was subsequently exhibited (envelope ×
+shot — hunt §7), n_s re-graded to the k-local mechanism candidate 0.9677, and the banked form
+retired to consistency-check.]**
 *Discipline note: the candidate was booked and its killer computed the same day — the owed step
 named at booking is what killed it.*
 
