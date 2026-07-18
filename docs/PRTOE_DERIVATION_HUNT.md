@@ -361,6 +361,15 @@ free-streaming change.*
 channel is gravitational (M_Pl⁻²-suppressed, ~10⁻⁴⁰-class at the freeze): under A the regression
 to registered-equality is permanent unless new physics is built.
 
+**Standing: corner B.** The Majoron is a distinct field at **v_L ∈ [0.22, 0.94] TeV** (an input
+constrained to the corridor by the two fences above), alongside f_dyad ≈ 100–500 TeV — two scales,
+three dark fields (dCDF, dyad, Majoron). The ν-tie's tracking channel is live; the settling-mode
+re-homing spec remains the named owed item. The corridor's distinctive claim — ν recoupling at
+z ∈ [150, 1100] — is registered as **P-2026-049**. The seesaw at corridor scale is natural
+(y ≈ 6×10⁻⁷ reproduces m_ν at M_R ~ v_L); η's leptogenesis is non-resonant (the corner's
+inheritance); the Majoron is dark to CMB-S4's line search while the dyad's ΔN_eff window remains
+S4's direct target.
+
 **What the test settles and what it leaves:** B is the only corner
 that keeps the tie's forward mechanism *and* survives the new lane — landing, unforced, in the
 literature's late-recoupling window (a regime with its own H₀-easing lean — noted, not banked);
