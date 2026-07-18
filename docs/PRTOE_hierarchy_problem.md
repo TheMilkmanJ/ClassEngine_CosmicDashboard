@@ -70,7 +70,13 @@ it predicts the excluded 3/4 (autopsy:
 at squared-log or a natively single-log mechanism — and the one arithmetic door in the menu
 (½ + 1 = 3/2 as a forced sum) is closed by the RG dichotomy: conditions that combine objects
 cancel their μ-logs (they fix ratios, not scales), and conditions that keep the log are
-single-object. No route is named, none pending. Guards that stand: the sharp precision
+single-object. No route is named at one loop — but the failure is now classified: the
+constant is **seam-class** (neither ratio nor scale; the number that converts a scheme
+condition into a physical scale), which no single-sector menu contains. The seam census
+(ledger) finds exactly one structure carrying 3/2 natively at single-log: the d = 3
+phase-space power d/2 — **route 6, a named lead**, live only if the anchor's condition
+crosses a nonrelativistic counting seam self-pinned at the gap scale with the right sign
+(three conditions, all owed). Guards that stand: the sharp precision
 rides the closed-form k (the A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and
 the result is conditional on the recorded 4πm_H anchor definition. The coupling in the
 exponent is not new — it is the SAME α_c = 3α
