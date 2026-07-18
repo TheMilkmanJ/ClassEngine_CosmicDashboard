@@ -62,8 +62,8 @@ route** (the hinge keeps only its α_c conditionality via c_s = √α_c). And re
 old curve is dead by its own arithmetic: it would force c = 1.005 while the census excludes
 c = 1. Provenance walk].
 * **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
-δm_e. (The Majoron/lepton-sector identity: tree coupling σNN → neutrinos; the charged-lepton
-portal is a UV assumption [PENDING #30].)
+δm_e. (Lepton-sector; whether the dyad's scale f is the Majoron's v_L — one L-breaking scale
+or two — is the recorded open fork; the charged-lepton portal is a UV assumption [PENDING #30].)
 
 The amplitude — the model's one distinctive number — assembled from three factors, each graded by a
 running instrument:
@@ -131,18 +131,19 @@ So the background is ΛCDM-form: ρ = ρ_inf + C·a⁻³, algebraically (verifie
 w = −1 is EXACT for the constant floor — not a step artifact, not rampable. Code: `w_dcdf` /
 `dcdf_s_of_rho` (background.h).
 
-## 4\. The dyad turn-on (field 2 condenses) [DERIVED onset; clearance CLEARS]
+## 4\. The dyad turn-on (field 2 condenses) [the standing high-f configuration]
 
-The electron Coleman–Weinberg backreaction on the charge-free field (m_e(φ) = m_e0(1+κφ²)):
-
-> V_CW = −(1/16π²)·m_e(φ)⁴·[ln(m_e(φ)²/μ²) − 3/2] → tachyonic curvature → radiative SSB
-> **VEV: v = m_e0·[ε(L−1)/4π²]^{1/6} ≈ 175 keV** (150/175/196 keV for L−1 = 2/5/10; 1/6-power,
-> robust) — the CW minimum imposed together with the delivered shift **κv² = ε** (full), giving
-> κm_e0² = ε(m_e0/v)² ≈ 0.108 and the fluctuation vertex g_ee = 2εm_e0/v ≈ 0.073
-> **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted value is now T_c ≈ 179 keV (the non-perturbative confining chiral ratio), with this perturbative 193 keV a log-ambiguous cross-check inside every version; leading-log unstable
-> near the flat direction; RG resummation = the working docket).
-
-The onset is DERIVED from m_e0 + ε alone (the first gate-0 reduction, recorded).
+The dyad is a high-scale pseudo-Goldstone: **f ≈ 100–500 TeV (input)**, quadratic-canonical
+operator m_e(φ) = m_e0(1 + κφ²) with **κ = ε/f² ≈ 1.4×10⁻³¹ eV⁻²** — ε = κf² = 1.2543% is the
+frozen zero-mode's delivery. The full operating point (roll time, fluctuation floor 2×10¹⁸
+below ε, thermalization gates clearing by 10⁸–10⁹, λ_dyad radiatively stable) is closed-form in
+[PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) (the high-f spec). **T_c ≈ 179 keV**
+(the confining chiral ratio; observation-inverted, lattice-gated — the flagship block above);
+the perturbative T_c = m_e0·√(3(L−1)/2π²) ≈ 193 keV is the log-ambiguous cross-check
+(envelope [40, 900] keV; RG resummation the working docket). *The predecessor configuration —
+the electron-CW VEV v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV — is RETIRED (BBN-fatal at its
+recorded operating point; autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md));
+its formulas do not describe the standing model.*
 
 **BBN clearance [CLEARS — the double regime-citation correction]:** the deuterium constraint's
 severity decomposes by process: weak rates n↔p (T \~ 500–1500 keV, \~75% of the m_e lever),
@@ -179,8 +180,10 @@ collision vs P-2026-004, which is FALSIFIED, ANN-2026-021). The tie:
 The scale μ is a dimension-1 lepton-number-breaking parameter, distinct from the (dimensionless)
 varying-m_e amplitude ε, which is electromagnetic — the two are different quantities and are not related
 by any bridge. The value μ = 2.25 meV is not itself derived from first principles; that is the
-dark-energy-value problem (§2). The mechanism carries a post-hoc flag until it earns a new falsifiable
-consequence.
+dark-energy-value problem (§2). **The tie's operator is now exhibited** (the tenth-channel seat
+term, with its UV form above v_L and κ_m's size structural —
+[PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)); the seat constant b (κ_m's exact value)
+remains basement-gated.
 
 ## 7\. NOW → THE END (the forward map) [Route D: mechanism + pre-registration branch]
 
@@ -326,7 +329,11 @@ no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
 T_c ≈ 179 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
 medicine was an artifact of applying ε above T_c** — windowed (the model's own ramped ε(T)), Y_p ≈ 0.24900 (+1.09σ
 COUNTER vs Aver; +3.53σ vs EMPRESS — the helium civil war noted); D/H partially refunded
-(ramped ≈ 2.387 → **−2.9σ** vs Cooke on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037; the 3.5% inter-code spread is named and unfolded, and would soften it to −1.4…−2.2σ). **The BBN synthesis: the sector is THE
+(ramped ≈ 2.387 → **−2.9σ** vs Cooke on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037; the 3.5% inter-code spread is named and unfolded, and would soften it to −1.4…−2.2σ).
+**Re-priced under the standing high-f configuration + the committed genesis ξ ∈ [0.25, 0.35]:
+joint p = 0.15–0.29, D/H −0.3…−1.2σ, Y_p +1.3–1.8σ vs Aver (EMPRESS ≈ +4σ stands apart) —
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8; the σ's in the sentence above are the
+pre-adoption books, kept as that verdict's record.** **The BBN synthesis: the sector is THE
 TRANSITION'S WITNESS** — the only laboratory that watched the condensation live; the pattern
 is RIGID (no dials); referees: the radio referee, the helium resolution, the T_c re-audit
 (flagged-not-taken), the α_c MCMC posterior. The adverse landings are logged in public;

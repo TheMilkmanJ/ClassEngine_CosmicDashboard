@@ -3,7 +3,7 @@
 *STATUS LABELS used across this shelf: PRODUCTION (fit-grade, chain-backed) · RECORDED
 (graded, recorded) · EXPLORATORY (review-hold work, un-refereed) ·
 ESTIMATED (estimate grade) · SCHEDULED (referee named and funded) ·
-interpretation-grade (ontology only, zero modified numbers).* — domains, files, relations (living)
+interpretation-grade (ontology only, zero modified numbers).*
 
 *The master map: every covered domain/subdomain → its standalone → its relation class
 ([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
@@ -15,6 +15,7 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 - [THE READER'S RISK SUMMARY](PRTOE_READERS_RISK.md) — one honest page for an outsider: strongest claims, weakest links, current evidence class, and the pre-registered kill conditions
 
 - [THE REFEREE CALENDAR](PRTOE_REFEREE_CALENDAR.md) — every judge, date, and pre-written decision rule on one page
+- [THE LATTICE NOTE](PRTOE_lattice_note.md) — the outward-facing one-pager: T_c/√σ for SU(2) N_f = 3, the field's gap + the pre-registered stake (APPROVED FOR CIRCULATION)
 - [THE NEUTRINO SECTOR](PRTOE_neutrino_sector.md) — dark energy weighs the neutrino: Majorana, Σ=61 meV, normal ordering, 0νββ required (SCHEDULED)
 - [THE INFLATION REPLACEMENT](PRTOE_inflation_replacement.md) — every problem inflation was hired for, answered without an inflaton (MIXED)
 - [THE CMB ANOMALIES](PRTOE_cmb_anomalies.md) — one axis, one integer: the anomalies as a single object's signature
@@ -30,8 +31,8 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 - [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — the elevator formulation: substrate, coupling, decomposition (the compressed front door)
 
 ## The spine and constitution
-MATH_SPINE (§0–22) · laws_and_rules/ (L1, L1a) · INTERACTION_ATLAS · interaction_map ·
-thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001→P-031)
+MATH_SPINE (§0–22) · laws_and_rules/ (the constitutional tiers; Tier R = the review-process laws, adopted 2026-07-18) · INTERACTION_ATLAS · interaction_map ·
+thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-049; P-049 retracted same-day, annotated)
 
 ## The two dark fields (the pieces; identity files, 2026-07-15)
 - [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — s-wave-binding and baryon-free ("He-3-A missing its baryonic matter"), abundance+asymmetry carrier, light is its Goldstone; its handedness is the genesis winding's, not its pairing channel's (identity consolidation; grades inline)
@@ -76,6 +77,9 @@ candid self-assessment is deliberately not on this shelf and is not listed here.
   banned (the theory↔code boundary)
 - [THE H₀ CEILING](PRTOE_H0_CEILING.md) — how high the model can reach, and why the pipeline can't
 - [THE DOMAIN COVERAGE MAP](PRTOE_DOMAIN_COVERAGE.md) · [THE AUDITOR (philosophy note)](PRTOE_philosophy_the_auditor.md)
+- [me_mechanism_math](PRTOE_me_mechanism_math.md) — **mixed shelf: the 2026-07-07 mechanism
+  body is lineage; the HIGH-F OPERATING SPEC and THE GATE sections (2026-07-18) are live and
+  canonical** (the hunt's gate checklist points here)
 - [UV COMPLETION](PRTOE_UV_completion.md) — **a working docket, not a result file.** Its headline
   target (deriving c) is **closed by the census, c = 9/10**, and its own c = 1 candidate is dead; the
   step-log carries the retired ε = c·f_amp·Ψ₀/M_red throughout. **Live content: ξ only.**
@@ -107,7 +111,9 @@ where it only carries the generic "some statuses may be superseded" hedge, trust
   [room1_complex_completion](PRTOE_room1_complex_completion.md) ·
   [gate0_qft_derivation](PRTOE_gate0_qft_derivation.md)
 - the m_e-mechanism lineage: [me_trigger](PRTOE_me_trigger.md) ·
-  [me_mechanism_math](PRTOE_me_mechanism_math.md) · [kappa_v_derivation](PRTOE_kappa_v_derivation.md)
+  [kappa_v_derivation](PRTOE_kappa_v_derivation.md) *(me_mechanism_math has moved to the live
+  shelf — its 2026-07-07 body is lineage, but its HIGH-F OPERATING SPEC and GATE sections are
+  current and canonical)*
 - session/provenance: [SKELETON](PRTOE_SKELETON.md) (skeleton/outline era) ·
   [intellectual_history](PRTOE_intellectual_history.md) ·
   [kill_and_patch_2026-07-07](PRTOE_kill_and_patch_2026-07-07.md) ·
