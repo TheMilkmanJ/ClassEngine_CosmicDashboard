@@ -363,8 +363,10 @@ to registered-equality is permanent unless new physics is built.
 
 **Standing: corner B.** The Majoron is a distinct field at **v_L ∈ [0.22, 0.94] TeV** (an input
 constrained to the corridor by the two fences above), alongside f_dyad ≈ 100–500 TeV — two scales,
-three dark fields (dCDF, dyad, Majoron). The ν-tie's tracking channel is live; the settling-mode
-re-homing spec remains the named owed item. The corridor's distinctive claim — ν recoupling at
+three dark fields (dCDF, dyad, Majoron). The ν-tie's tracking channel is live; the tie's mechanism is the
+tenth-channel mass relation (m_ν,lightest = κ_m·ρ_inf¼ — the two-source spec,
+[PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)), with the tenth-channel operator the named
+owed item. The corridor's distinctive claim — ν recoupling at
 z ∈ [150, 1100] — is registered as **P-2026-049**. The seesaw at corridor scale is natural
 (y ≈ 6×10⁻⁷ reproduces m_ν at M_R ~ v_L); η's leptogenesis is non-resonant (the corner's
 inheritance); the Majoron is dark to CMB-S4's line search while the dyad's ΔN_eff window remains
