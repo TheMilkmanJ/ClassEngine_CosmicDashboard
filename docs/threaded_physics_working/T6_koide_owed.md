@@ -697,7 +697,11 @@ the even-split theorem alone.**
 **The moment-pair watch (bare arithmetic, recorded next to the GM watch).** The house's two
 amplitude constants are the first and second moments of the SAME uniform-phase measure:
 f̄ = ⟨|cos|⟩ = 2/π and 1/A = √⟨cos²⟩ = 1/√2. One equidistribution, two moments, two constants.
-No shared mechanism built; watch grade.
+No shared mechanism built; watch grade. **UPGRADED to the moment TRIO:** the anchor's
+e^(−3/2) is the exponential channel's member — the geometric mean of the thermal boost
+measure (hierarchy §2b, derived at additivity grade). Three coupling orders, three forced
+averages: linear → first moment, quadratic → second moment, exponential → geometric mean.
+The portfolio's three floors carry the three averaging structures of one thermal medium.
 
 **Rejected near-miss (fence, do not book):** the contact wedge's own restricted mean is
 ⟨cos²u⟩_wedge = 1/2 + 3√3/8π = 0.70675 — 0.051% from 1/√2 and NOT equal to it. The

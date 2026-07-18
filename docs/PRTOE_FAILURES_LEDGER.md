@@ -1167,7 +1167,16 @@ frozen gap.** Route 6's final desk state: every computable venue exhausted (mean
 Hubble-gated dead, phase-space-ratio pinning unresolved at desk level); the candidate
 survives as one named postulate whose derivation belongs to the medium's own condensation
 dynamics — **basement-gated**, joining the seat constant b and the λ/τ gate in the same
-waiting room.
+waiting room. **CLOSED (same day, the boost-dressing derivation):** the postulate discharges
+through the kinetic venue exactly as this entry left open — the pairing log's IR end is the
+gap dressed by the constituents' thermal boost, the cutoff composes multiplicatively over
+the population (the corpus's ONE shared additivity — A_s/n_s/Koide's own), the geometric
+mean is then forced, and equipartition pins ⟨E_kin⟩/T = 3/2 at any NR formation temperature.
+The Saha hazard this entry named is evaded explicitly: the dressed object is a dimensionless
+boost ratio — no density, hence no (mT)^(3/2) log-power — and the mean-field fence coheres
+(a cutoff property is invisible to a density-weighted gap equation). The 3/2 re-grades:
+**sharp underived residual → derived at additivity grade** (conditions: the shared
+additivity neck; the NR formation window). Full statement: hierarchy §2b.
 Fences: scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 is a different
 object class — do not book it. *(Watch-grade note: equipartition now anchors both of the
 day's live candidates — the Koide channel balance and this seam constant; no shared mechanism

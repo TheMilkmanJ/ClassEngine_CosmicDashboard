@@ -77,14 +77,24 @@ condition into a physical scale), which no single-sector menu contains. The seam
 phase-space power d/2 — **route 6**, sharpened to the equipartition reading: the constant as
 the mean kinetic cost ⟨E_kin⟩/T = d/2 of nonrelativistic census states at pairing.
 Self-pinning is automatic (the cost (3/2)T rides the same T — no scale chosen) and the sign
-is right (suppression: the anchor sits e^(−1.5) below naive transmutation). **Grade:
-candidate, form-natural.** Owed: ONE postulate — occupancy at the
-thermal-mean energy maps linearly onto the frozen gap. Every computable venue is exhausted
-(mean-field: the thermal shift is invisible where equipartition holds and semi-relativistic
-where it is O(1); Hubble-gated kinetics: imports ln(M_Pl/M_anchor) = 36.6, uncancellable;
-internally-gated kinetics: reduces to the postulate — ledger). The postulate's derivation
-belongs to the medium's own condensation dynamics: **basement-gated**, with the freeze
-clause subsumed (internal gating IS the freeze). Guards that stand: the sharp precision
+is right (suppression: the anchor sits e^(−1.5) below naive transmutation). **The 3/2 is
+now DERIVED at additivity grade.** The chain: a pairing log's infrared end is the gap
+dressed by the constituents' thermal boost (pairs must out-bind moving partners; per state,
+e^(E_kin/T)); the frozen cutoff composes multiplicatively over the population's events —
+logs add, one contribution per constituent, **the corpus's one shared additivity** (the same
+assumption A_s, n_s, and the Koide power reading already ride — one neck, not four); the
+geometric mean is then forced, M_eff = M·e^(⟨E_kin⟩/T), and equipartition gives
+⟨E_kin⟩/T = **3/2 exactly at any nonrelativistic formation temperature** — self-pinned. The
+gap condition ln(M_red/M_eff) = 1/(kα_c) delivers the recorded formula. Sign automatic
+(boost raises the cutoff, suppresses the gap); the factor-of-2 wall evaded legitimately
+(E_kin/T dresses the LINEAR scale — natively single-log, which is why the five in-sector
+routes could never find it); the Saha log-power hazard evaded explicitly (the dressed object
+is a dimensionless boost ratio — no density, no (mT)^(3/2); this is also why the mean-field
+venue, which weights by density, saw nothing). **Conditions: the shared additivity (one
+corpus-wide neck) and the nonrelativistic formation window.** The constant joins the moment
+family: linear channel → ⟨|cos|⟩ = 2/π; quadratic channel → √⟨cos²⟩ = 1/√2; exponential
+channel → e^(−⟨E_kin⟩/T) = e^(−3/2) — the portfolio's three floors each carrying the average
+their coupling order forces. Guards that stand: the sharp precision
 rides the closed-form k (the A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and
 the result is conditional on the recorded 4πm_H anchor definition. The coupling in the
 exponent is not new — it is the SAME α_c = 3α
