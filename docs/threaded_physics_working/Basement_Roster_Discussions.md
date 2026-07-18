@@ -649,3 +649,24 @@ hidden.
 **Net grade:** τ = 0.3503 is *permitted-at-the-edge* by the literature, not supported at centre;
 the earlier debate band 0.355–0.382 occupies the lower half of the honest bracket. The decider
 remains a dedicated lattice run of SU(2) N_f=3 — which, this hunt establishes, nobody has done.
+
+---
+
+## ADDENDUM 2 (2026-07-18): the NJL desk anchor — a third method, and it straddles
+
+*A mean-field NJL gap-equation estimate of τ = T_c/√σ, computed directly (3D cutoff; the chiral
+T_c from 1 = 4G N_c N_f ∫(1/p)tanh(p/2T); G and N_cN_f enter as one combination, so the two-color
+transfer is exact at mean-field level; the ratio depends only on M/Λ).*
+
+| reading | τ band | central |
+|---|---|---|
+| **raw mean-field** (Λ/√σ ∈ [1.2, 1.8], M/√σ ∈ [0.65, 0.75]) | 0.386 – 0.470 | **0.43** |
+| **QCD-heat-corrected** (MF runs hot: sanity check gives T_c = 189 MeV vs lattice ~155 ⟹ ×0.82 — an SU(3)-analog transfer, the same borrowed-factor move flagged before) | 0.32 – 0.39 | **0.35** |
+
+**The honest net: the straddle IS the finding.** Raw mean-field lands *above* the literature
+bracket's centre (0.39 ± 0.05); the QCD-calibrated correction lands *on the model* (0.3503) — and
+the difference between the two readings is exactly the non-perturbative content only a lattice
+computes. A third independent method (after the dof-band and the literature inference) again
+brackets τ in the mid-0.3s-to-mid-0.4s and again **cannot separate 0.3503 from 0.40**. The
+standing verdict is unchanged and now triply anchored: permitted at the edge, not favoured at
+centre, lattice-decided.
