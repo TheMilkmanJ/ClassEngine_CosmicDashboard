@@ -335,13 +335,25 @@ carries v_L's two corners (resonant → MeV, S4-armed; non-resonant → ≥ GeV,
 corner-selector), and the ν-tie's recorded forward mechanism (`scripts/kubo_freeze.py`) rides the
 Majoron vertex: Γ/H ∝ (m₃/v_L)², = 5×10¹⁰ at the 4.2 MeV launch value, unity at **v_L ≈ 0.9 TeV**,
 9.6×10⁻⁶ at 300 TeV. Against the thermalization floor f ≳ 40 TeV this gives a clean three-corner
-table: **(A) one scale, f = v_L ≈ 100–500 TeV** — minimal fields, the Majoron is S4-dark (a second
-CMB-S4 null-bet), but **the tie's tracking has no window** (floor 40 TeV vs ceiling 0.9 TeV, a 40×
-gap): ρ_Λ¼ = m_ν regresses from forward-derived scale to registered equality pending a re-homed
-mechanism. **(B) two scales, v_L ∈ [1 GeV, ~0.3 TeV]** — tie tracking alive (Γ/H ≈ 10⁶–10²),
-Majoron S4-dark, at the price of a third dark field. **(C) two scales, v_L ~ MeV** — tie alive,
-S4-armed (a detection at g ~ 10⁻⁸–10⁻⁹ referees), third field, the resonant-leptogenesis lane
-stays open. **In every corner one residue stands (the un-merger's own):** the tie's settling mode
+table — and running all three corners against every duty (2026-07-18) surfaced **a constraint lane
+the corpus had never priced: ν free-streaming at recombination.** The Majoron's νν̄ ↔ φ channel
+re-couples the neutrino bath at Γ/H(z ≈ 1100) ∝ g²m₃²/(4πTH) — and the CMB is a free-streaming
+referee. The tested table (estimate grade — order-of-magnitude rates; the literature anchors and a
+proper Boltzmann pass are owed):
+
+| corner | tie tracking | ν recoupling at z ~ 1100 | standing |
+|---|---|---|---|
+| **A: f = v_L ≈ 100–500 TeV** | dead (no window; 40× gap) | never (Γ/H ~ 10⁻⁷) — CMB-safe, S4-dark, 0νββχ-invisible | quiet, at the tie's price |
+| **B: v_L ≈ 0.1–1 TeV** | **alive** (Γ/H ~ 10²) | **Γ/H ~ O(1–10) — the late-recoupling window**, the known Majoron-cosmology regime CMB-S4 tests through both N_eff and free-streaming | **the live corner** — with a new duty: the late-thermal Majoron adds ≈ +0.1-class ΔN_eff that must be priced *inside* the committed [0.06, 0.24] budget (the 0.3 kill line tightens) |
+| **C: v_L ~ MeV** | alive (5×10¹⁰) | **Γ/H ~ 10⁹ — deep recoupling**, the strongly-interacting-ν regime: Planck-tension class *today*, survivable only in the contested interacting-ν mode | data-stressed |
+
+**The retroactive catch:** corner C is the *old recorded launch point* (g = 1.2×10⁻⁸) — the
+free-streaming exposure applies to the pre-adoption books as well; the lane was un-priced
+corpus-wide until this test. **What the test settles and what it leaves:** B is the only corner
+that keeps the tie's forward mechanism *and* survives the new lane — landing, unforced, in the
+literature's late-recoupling window (a regime with its own H₀-easing lean — noted, not banked);
+its price is the third field, the tightened ΔN_eff budget, and the owed Boltzmann pass. The
+resonant-leptogenesis lane (C's romance) survives only if the interacting-ν mode does. **In every corner one residue stands (the un-merger's own):** the tie's settling mode
 must be re-homed — the recorded mechanism freezes the *Majoron-sector* excitation while the DE
 floor is the *dCDF's*; why the one sets the other's scale is the owed spec. *(The tie's numerical
 equality, and the c = 9/10 lock that seats on the equality, are untouched by the corner choice —
