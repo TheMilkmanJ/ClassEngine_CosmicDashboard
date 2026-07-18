@@ -65,6 +65,18 @@ data surface and no infinite-density point — the beginning is **the only state
 information** (see the companion arrow-of-time document: this is also why entropy started low).
 Time's beginning is the first roll's first tick — a dynamical onset, not a geometric edge.
 
+**Time is emergent — the medium's phase is the only clock (interpretive, candidate-grade).**
+In a superfluid-medium theory the clock is the phase: winding *is* ticking. Every
+time-reading in the corpus chains to medium dynamics — the winding count runs f̄ and the
+n_s imprint, the arrow rides cycle uniqueness, the bounce rides the medium's own quantum
+pressure. No condensate meeting the pour, no phase; no phase, no winding; no winding, no
+clock — "before" is not early, it is undefined (the before-genesis theorem's row above, read
+as ontology). The pre-genesis laws demand only three spatial dimensions, a superfluid
+condensate, and the pour that meets it; duration enters WITH the meeting, not before it.
+**Kill clause:** if any booked equation is ever shown to require a clock the medium does not
+provide — a rate, phase, or ordering that cannot be expressed in the medium's own variables —
+this reading dies. Nothing currently booked does.
+
 ## 3. The energy of creation: zero, exactly
 
 On the compact torus the total energy — matter plus gravity — is **identically zero** (the
