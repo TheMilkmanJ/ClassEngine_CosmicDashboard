@@ -1063,3 +1063,27 @@ a **bare watch** — to earn or kill when h1's honest slope derivation lands; do
 as a claim before then. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
+
+
+---
+
+## THE TRIAL'S VERDICT (2026-07-18): DEATH — the deliverer executed; the equivalences stand
+
+Pass 5 (Gaussian-regularized sources — the clean instrument: Hessian plateaus < 1%,
+grid-converged) returned gate-clean readings across the entire Widnall band: **1 : 1.850 /
+1.994 / 1.976 — all in the sealed death zone.** Mechanism: the true host's confining well is
+geometric, razor-shallow, and pattern-degenerate (w_b/w_s = 0.99); the 2 : 1 stiffness
+structure R_c = M_c needs has no source at Widnall aspect ratios (pair asymmetry O((a/R)²));
+delivery is therefore weight-independent per-mode — A → 2, the axis grave. **The ring-on-ring
+deliverer is dead. Autopsy with full receipts: the failures ledger.**
+
+**The door's final state after the campaign:** the equivalence stack stands as mathematics
+(A = √2 ⟺ sector-equipartition ⟺ R_c = M_c ⟺ the mean-power locus — derived both directions);
+the wall-tangency kinematics, the dressing frame, the moment arithmetic, and all seven-plus
+graves and fences stand; the anchor's −3/2 stands (independent derivation). What the door no
+longer has is a mechanism: **A = √2 is an underived sharp number behind the densest fence
+network in the corpus.** Any future mechanism must deliver sector-equipartition while evading:
+per-mode thermal (→ 2), iid/isotropic baths (→ 2), face-democratic potentials (→ 2), the
+geometric-well degeneracy (→ 2, this trial), the six selector graves, and the share-entropy
+class. The target is theorem-shaped and the minefield is mapped — that is what the campaign
+bought, and it is not nothing. But tonight the model does not know why A = √2, and says so.

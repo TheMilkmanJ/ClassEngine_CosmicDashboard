@@ -1192,3 +1192,53 @@ Fences: scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 i
 object class — do not book it. *(Watch-grade note: equipartition now anchors both of the
 day's live candidates — the Koide channel balance and this seam constant; no shared mechanism
 claimed.)*
+
+
+### THE RING-ON-RING MECHANISM — THE KOIDE COMPLEX'S DELIVERER, EXECUTED BY ITS OWN SEALED TRIAL (2026-07-18)
+
+**What it claimed:** that sector-equipartition — the condition equivalent to A = √2, θ_seed =
+135°, and R_c = M_c — is DELIVERED by the genesis cascade (Kraichnan–Bernoulli, derived) pumping
+the three-defect family ring living on the genesis vortex ring's own torus-tube surface, through
+the ring's computed Kelvin vertices, under the corpus's pinned drive (the sudden SNAP) and
+recorded geometry (the Widnall lock, n = 11–25 ⟺ a/R = 2.385/n).
+
+**The execution (five instrument passes in one day, each artifact killed with receipts):**
+pass 1 jammed on source-snapping (negative stiffness at a scanned minimum — the smoking gun);
+pass 2's bilinear sources exposed the true equilibrium OFF the inner equator; pass 3's smooth
+GPE functional proved the host viable (positive doublet stiffness — the sphere-killer fixed) but
+left h-drifts; pass 4's h-window exposed spectral ringing (identical Hessians at h and 2h) and
+REFUSED every reading including its own death-zone one; **pass 5 (Gaussian-regularized sources,
+σ = 2 cells ≪ ξ) delivered the clean instrument: Hessian plateaus flat to < 1% across the full
+h-window, grid-converged (128→192: 0.3%), all three Widnall points gate-clean — and ALL THREE
+in the death zone: 1 : 1.850 / 1.994 / 1.976 against the sealed life ceiling 0.97.**
+
+**Cause of death — structural, and now understood:** on the true curved host the confining well
+is the GEOMETRIC potential (the off-equator balance point), which is razor-shallow AND
+pattern-degenerate: w_breath/w_shape = 0.99. The 2 : 1 stiffness asymmetry that the R_c = M_c
+condition requires (and that the flat model's κ-confinement supplied) has NO SOURCE on the
+Widnall-thin torus — the pair-interaction's pattern asymmetry enters at O((a/R)²) ≈ 1–5%, three
+orders below need. With degenerate stiffnesses the delivery is weight-independent and lands
+per-mode: **the host delivers A → 2, the axis grave — the same value that killed six selectors
+before it.** Checked before acceptance: the face-map subtlety dissolves at t* ≈ π (tube-angle ≡
+planar-radial, projection 0.99998); chart-mode and ξ-convention systematics are few-% against a
+2× margin. The verdict is robust.
+
+**What dies with it:** the cascade-delivery chain end to end as this week built it — the pass-4
+"LIFE at estimate grade" (already downgraded through the passes), the per-irrep quota's exhibited
+deliverer, the nested-sharing mechanism AS DELIVERED, and the claim that A = √2 is derived from
+genesis. The R_c = M_c blank REOPENS.
+
+**What survives, explicitly:** (i) the equivalence theorems — A = √2 ⟺ sector-equipartition ⟺
+R_c = M_c ⟺ the mean-power locus (mathematics, both directions, untouched); (ii) the
+wall-tangency kinematics and the 2.25° dressing frame (observation-anchored identities);
+(iii) **the anchor's −3/2 derivation — INDEPENDENT and STANDING** (boost-dressed cutoff +
+additivity + momentum equipartition; it never rode the ring host); (iv) the Koide PROTECTION
+(multiplicative universality); (v) the week's fences and formalizations (the compression to one
+locus, the share-entropy class kill, the isotropy leg, the aggregation count, graves 1–7) — a
+richer minefield for whatever comes next; (vi) the A_s/n_s additivity (untouched). **The door's
+honest state: A = √2 is once again an underived sharp number — now with the strongest fence
+network any blank in this corpus has ever had, and one theorem-grade target (deliver
+sector-equipartition by any mechanism that survives the minefield).**
+
+**Time of death: 2026-07-18, by the trial whose kill zones were sealed before any computation —
+five instrument passes, no goalposts moved, the discipline holding to the end.**

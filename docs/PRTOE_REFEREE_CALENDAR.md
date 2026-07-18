@@ -41,7 +41,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 | **CMB-S4 Majoron search** | the v_L corner selector (both corners lane-clean) | a detection at g ~ 10⁻⁸–10⁻⁹ selects the MeV corner; a null leans high-v_L |
 | **the SU(2) N_f = 3 lattice** (external; the note APPROVED FOR CIRCULATION) | P-2026-048: T_c/√σ = 0.3503 ± 0.02, window [0.330, 0.370] | outside the window falsifies the DE sector; 0.345 registered as NOT confirming |
 | **lunar-farside dark-ages 21-cm** (LuSEE-Night/FarView class) | the +2.51% bare-value frequency offset (+0.40 MHz at the z ≈ 87 trough — astrophysics-free) | the trough at the standard frequency kills the ε mechanism's dark-ages arm |
-| **the ring-on-ring trial** (in-house; arm 2, torus) | the Koide complex (A = √2, θ_seed, R_c = M_c, the even-split theorem) | zones SEALED before computation: [0.82, 0.88] sharp; [0.72, 0.97] life; outside = the complex dies entire |
+| **the ring-on-ring trial — LANDED, STAMPED: DEATH (2026-07-18)** | the Koide complex's deliverer | all three Widnall points gate-clean in the death zone (1.85/1.99/1.98 vs ceiling 0.97); the deliverer executed; the equivalences stand as mathematics; autopsy in the ledger |
 
 ## The standing exams (forever)
 Lorentz nulls (cavities — the shield's margin), clock/Oklo ṁ_e = 0, Koide Q within 7×10⁻⁶,
