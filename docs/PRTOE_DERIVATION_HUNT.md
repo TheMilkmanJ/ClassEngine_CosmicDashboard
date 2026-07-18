@@ -120,9 +120,34 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 — the dark sector is DECONFINED at freeze-out** and the
   Goldstones do not exist yet; the correct count there is dark quarks + gluons = **27**, giving
   **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's **+1.09σ adverse Y_p scar (ramped) → ≈ +3.4σ**. **Consequence: the dark sector must have
-  NEVER THERMALISED with the SM** (then ΔN_eff → 0 and the roster survives, at the price of a hard upper
-  bound on the portal coupling). Registered as the fifth kill of **P-2026-048**. CMB-S4 (±0.03) tests it
-  either way. (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
+  NEVER THERMALISED with the SM.** Registered as the fifth kill of **P-2026-048**.
+  (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
+- **THE NON-THERMALIZATION ESCAPE — BUILT (2026-07-17), AND IT FAILS. The standing adverse finding
+  of this section, adversarially derived, margins 10⁸–10¹⁷ (no O(1) rescues it); tribunal-pending
+  before any structural consequence executes.** The rate check Γ(dark–SM) < H at all T, run on the
+  model's own recorded couplings: **(i)** gravity and the census-closed portals pass (Γ/H ≈ 3×10⁻⁷
+  even at the pour scale — the standard gravitational escape holds *for those channels*). **(ii) The
+  dyad–electron channel is fatal:** the [ESTABLISHED] electron-CW mechanism needs κm_e² ~ 10⁻² active
+  in the SM bath to source the T_c = 179 keV ramp; that coupling (g_ee = εm_e/v = 0.064 at the
+  recorded v = 100 keV) gives **Γ/H ~ 10¹⁵–10¹⁹ from BBN to reheating** — full thermal equilibrium.
+  The bound is g_ee < 1.8×10⁻¹⁰ (equivalently v ≳ 3.6×10⁴ GeV): violated by 10⁸·⁶ in coupling. Under
+  the bound the mechanism's maximum deliverable amplitude is ε_max ≈ 2×10⁻¹⁶ vs the needed 1.25×10⁻²
+  — **the size-XOR-quiet wall (gate-0 §7.3) recurring: a dyad big enough to source ε thermalises;
+  one quiet enough not to cannot source ε.** **(iii)** The corpus's own identification (the dyad IS
+  the SU(2) sector's chiral condensate, §6) drags the full 27 dof in: ΔN_eff = 27/(7/4) = **15.4**;
+  even a detached thermalised dyad alone gives 4/7 = **0.571** > Planck's 0.3. **(iv) The timing
+  pincer (normalization-independent):** the BBN engine codes the ramp on T_γ with T_c = 179 keV;
+  synchrony requires ξ = T_d/T_γ = 1 (⟹ ΔN_eff = 15.4); the priced dilution ξ = 0.465 puts dark
+  confinement at T_γ = 385 keV and the escape's ξ ≤ 0.284 at ≥ 630 keV — desynchronising the coded
+  window ("OFF at n/p freeze-out, GROWING below T_c"). Every branch closes. **(v)** The only
+  recorded normalization that passes (f_L = 2.3×10¹¹ GeV, by 10⁵) is the §7.6-killed single-field
+  era's — it cannot produce the coded ramp; reviving it is a different model. **Net: the ΔN_eff
+  escape, the ε-ramp mechanism, and √σ_dark = m_e are pairwise-incompatible as recorded** — the
+  sharpest structural tension in the corpus, sharper than BBN D/H. *Also surfaced: the corpus
+  carries an unflagged linear-vs-quadratic fork in the dyad–electron normalization (g_ee = εm_e/v
+  vs κφ²) — both forks fail the bound, but the inconsistency should be resolved regardless.*
+  (Worked script: the non-thermalization build, 2026-07-17; every crux number independently
+  re-verified at booking.)
 - **THE m_q SQUEEZE — three constraints, one variable, and τ pulls against the other two.**
   The dark quark mass is asked to be **light** by τ (**0.3503** derived; the rows here were computed at 0.345 — a +1.5% shift, immaterial to this squeeze) (§2 — heavy quarks drive T_c/√σ back toward the
   pure-glue 0.69–0.71), and **heavy** by two independent others: (i) **ΔN_eff/Y_p**, which needs Boltzmann

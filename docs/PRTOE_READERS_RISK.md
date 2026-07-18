@@ -50,8 +50,15 @@ everywhere atomic physics appears.
   final nested-sampling number) crosses the pre-registered win line only slightly, inside the
   estimator's own systematic error; without SH0ES the model does not win. The easing is shared by the
   whole varying-m_e model class — it adds no independent evidence for the superfluid ontology.
-- **(d) The SU(2) ΔN_eff footprint** (≈ 0.72 at deconfined freeze-out) needs a non-thermalisation
-  escape not yet built.
+- **(d) The SU(2) ΔN_eff footprint — now the sharpest structural problem.** The needed
+  non-thermalisation escape **was built (2026-07-17) and FAILS on the model's own recorded
+  couplings**: the dyad–electron coupling that sources ε thermalises the dyad by ~10⁹ in coupling
+  (Γ/H ~ 10¹⁷), the dyad-as-chiral-condensate identification drags the full dark sector in
+  (ΔN_eff ≈ 15 at contact; even a detached dyad gives 0.57 > Planck's 0.3), and a
+  normalization-independent timing pincer closes the cold-sector branch (a diluted dark sector
+  desynchronises the coded BBN ramp). As recorded, the ΔN_eff escape, the ε-ramp mechanism, and
+  √σ_dark = m_e are pairwise-incompatible. Adversarially derived at 10⁸–10¹⁷ margins;
+  tribunal-pending before structural consequences execute.
 - **(e) A_s, n_s, and the thermal O(1) coefficient are un-built or frozen candidates** — the A_s
   closed form is the corpus's boldest standing claim, frozen into the live run by design.
 - **(f) Code-vs-theory gap:** in the CLASS implementation the dyad's m_e shift and the dCDF density
