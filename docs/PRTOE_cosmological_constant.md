@@ -310,6 +310,22 @@ the gas parameter √(na³), the position on the BEC side) — the compositeness
 g → λ map; the size therefore books as ESTIMATE. The model's own deep-BEC framing implies dilute
 (SAFE branch) as expectation, not closure.
 
+**The λ build, first pass (2026-07-17) — the two frames, and where the natural answer lands.**
+**Frame 1 (naive uniform dilute-gas map, c_s² = gn/m): self-inconsistent, rejected.** Holding
+c_s² = α_c with any cosmological density gives E_MF = ½α_c·ρ_mass, which misses E_MF = ρ_Λ by
+~100–250×; making them meet needs ρ_mass ≈ 64× today's critical density. The uniform-gas frame
+cannot carry the flagship's own identities — confirming the operative frame is the composite/P(X)
+one (exactly the fork the tribunal's Challenger suspected). **Frame 2 (composite NJL/linear-sigma
+map — the strong sector's own quartic): λ = m_σ²/2f² = 2(M/f)²,** a ratio of strong-scale
+quantities and hence roughly universal: QCD calibration gives 22.8; the dark-SU(2) band
+(M/√σ ∈ [0.65, 0.75], f/√σ ∈ [0.19, 0.25]) gives **λ ≈ 14–31, centre ≈ 23 — squarely AT the
+tribunal's control edge λ\* ≈ 22.4.** Face value: a radiative band of ~3–6% on ρ_Λ¼ (still dilute,
+√(na³) ≈ 0.04 — it is series *control* that fails, not diluteness). **The consequence, stated
+plainly: the λ gate and the τ gate MERGE** — the composite quartic sits exactly where perturbative
+control ends, so resolving the flagship's radiative band needs the same non-perturbative SU(2)
+N_f = 3 treatment that owes τ. One lattice job now gates both open numbers. *(Grade: estimate —
+the dark band is a QCD-analog transfer; the model-specific f_dark/√σ and M_dark/√σ are un-computed.)*
+
 **The partial wave is data-selected, and it is s-wave.** A Coulombic two-body spectrum is
 E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so the channel picks the level:
 
