@@ -43,10 +43,14 @@ branch-DOS number; estimate-grade.]
 ## 2. Warp drives and closed timelike curves — SAME COSTS [GRAMMAR]
 
 The Alcubierre bubble [Alcubierre1994] faces the same NEC requirement as the wormhole throat and
-meets the same empty shelf (§1's 17 orders). Closed timelike curves — the record's ban is
-the chronology protection conjecture [Hawking1992] — collapse to one
-principle: **no state can be its own source.** A process that is its own
-ancestor cannot conserve; the dynamics refuse the loop before physics has to.
+meets the same empty shelf (§1's 17 orders). Closed timelike curves get the model's **strongest
+native ban, and it is structural, not energetic**: the emergent metric lives on a medium with a
+global rest frame, so every acoustic spacetime this model can build **admits a global time
+function — it is stably causal by construction** (the standard analog-gravity result: a fluid
+flow foliated by lab time cannot embed a CTC, whatever the effective geometry looks like).
+Chronology protection [Hawking1992] is not a conjecture here; it is inherited from the substrate's
+foliation. The grammar restatement — **no state can be its own source** — is the same fact read
+thermodynamically: a process that is its own ancestor cannot conserve the books.
 
 ## 3. The named killer (impossibility claims are falsifiable too)
 

@@ -22,7 +22,17 @@ dissolves at the root — the initial condition is unique... NO initial draw"). 
 - has **no structure to specify** — it is the one state carrying zero information;
 - is **U(1)-symmetric** — it cannot prefer an angle (the uniform measure is symmetry-forced);
 - is **unwound** (n = 0 — winding costs energy; the ground state has none);
-- and is therefore the **minimum-entropy state by construction, not by luck**.
+- and is **homogeneous — C² = 0**: on this file's own Weyl gauge (§2), the vacuum is the *zero of
+  gravitational entropy*, which is the entropy the Past Hypothesis is actually about. (This is the
+  answer to the standard objection that *every* pure state has zero von Neumann entropy — the
+  claim here is not S_vN = 0 but minimal *coarse-grained, gravitational* entropy, and the unique
+  state delivers it because uniqueness forces homogeneity.)
+
+*One reconciliation, so the corpus reads coherently:* the genesis's winding integer n (the "one
+topological draw," Kibble) is **not an initial condition** — it is the stochastic outcome of the
+first *transition*, drawn at the symmetry-breaking event out of the unique initial state. The
+initial STATE carries no alternatives; the first EVENT has outcomes. "No initial draw" and "the
+one topological draw" are statements about two different objects, in that order.
 
 Penrose's 1-in-10^(10¹²³) presumes the initial state was drawn from a phase-space of
 alternatives. In this model **there were no alternatives**: a first moment, by definition,
@@ -50,7 +60,8 @@ With the low start explained, the arrow itself is the model's graded free-energy
  Weyl is entropy that can never be undone. The arrow survives the bounce.
 6. **The terminus**: the free-energy threshold (graded: "the same budget from opposite
  sides") — the last cycle is the one that cannot fund the next genesis; the chain damps into
- the eternal ground state (~10¹⁸ cycles, recorded count). **The arrow ends where it
+ the eternal ground state. The chain's *finiteness* is the recorded result; a pinned cycle
+ count is not a recorded number. **The arrow ends where it
  began: in a unique, structureless state** — the vacuum at the start, the fully-depleted,
  zero-free-energy state at the end.
 
