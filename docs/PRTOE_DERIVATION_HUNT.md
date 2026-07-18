@@ -356,9 +356,18 @@ everywhere; the massless-mediator CMB bound g ≲ few×10⁻⁷ is passed by ≥
 channel is a coherent-mode rate, not coalescence: ceiling v_L < 0.94 TeV for the settling
 dynamics); the TeV and MeV corners are **both alive**, and the corner-selector is the registry's
 original referee — the CMB-S4 Majoron/ν-interaction search (a detection at g ~ 10⁻⁸–10⁻⁹ selects
-the MeV corner and its resonant-leptogenesis lane; a null leans high-v_L). The two-scale structure
-(f ≠ v_L, three dark fields) stands on the one-scale corner's tie-death alone. Corner selection:
-**open, S4-refereed.**
+the MeV corner and its resonant-leptogenesis lane; a null leans high-v_L) — **joined by a
+co-referee found in the lane census (2026-07-18): SN1987A.** The Majoron–ν Yukawa is
+kinematically open in the supernova core (T ~ 30 MeV) and carries no gate (it is not the
+conformal portal), and the classic free-streaming-to-trapping exclusion band
+(g_νν ~ [3×10⁻¹⁰, 3×10⁻⁷] class; modern reanalyses vary — verification owed) **contains the MeV
+corner's g = 1.2×10⁻⁸** while the high-v_L corner clears it by ≥ 2 orders. The census's other
+lanes clear: stellar cooling (dyad gate closed in stars), μ→eJ (singlet Majoron — tree charged
+coupling absent), BBN thermalization (coalescence closed, 2↔2 is g⁴), long-range forces
+(matter coupling two-loop-suppressed; ν self-interaction below ultralight-mediator bounds).
+The two-scale structure (f ≠ v_L, three dark fields) stands on the one-scale corner's tie-death
+alone. Corner selection: **open — SN-stressed at MeV, S4-refereed; the high-v_L corner is the
+lane-clean one.**
 
 **What the test settles and what it leaves:** B is the only corner
 that keeps the tie's forward mechanism *and* survives the new lane — landing, unforced, in the

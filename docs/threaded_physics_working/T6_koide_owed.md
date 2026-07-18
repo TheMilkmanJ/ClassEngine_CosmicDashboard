@@ -550,3 +550,43 @@ minimum. Do not cite Z₃-invariant cubics as the landing mechanism.
 Equal stiffness is no longer owed. **Item 1 stays OPEN** on this sharper residual only.
 
 Coupling-geometry status: screened-room (laboratory masses) — verdicts hold by geometry.
+
+---
+
+## Item 1 — THE WALL-TANGENCY / MASSLESS-SEED DOOR (JP-proposed, 2026-07-18; verified same day)
+
+**The reading:** Q = 2/3 as "two faces deposited massive, one born massless" — not "three doors,
+one idle." Verified: a one-massless-face triple gives Q = 2/3 **iff m₃/m₂ = 7 + 4√3 = 13.928**
+(closed form), and that configuration **is the A = √2 ring's wall point** (θ = 135°: faces
+0 / 0.634 / 2.366 exactly).
+
+**What it buys — the recorded sharpest negative is answered.** The log-potential build proved "no
+term in the energy locates the ring's centre M." Under tangency the locator is **the positivity
+wall itself**: the seed grows until the lightest face touches √m = 0, and tangency fixes
+**M = −R·cos_min(θ)**. The missing background term is the boundary of configuration space. Then
+A = −1/cos_min(θ), and **A = √2 ⟺ θ_seed = 135°**: the blank compresses from "a mechanism forcing
+A = √2 to 10⁻⁵" to **one condition — why the seed angle is 135°.**
+
+**The dressing (the electron's mass is the displacement).** Measured θ = 132.75° sits 2.25° off
+the wall; the near-wall face is 0.0400·M ⟹ √m_e = 0.0400 × 17.716 √MeV ⟹ **0.503 MeV ≈ m_e** —
+the electron's entire mass is the lift off the wall. The dressed heavy ratio 16.79 matches
+m_τ/m_μ = 16.82 (consistency by construction). The natural split is field-theoretic: **A is the
+stiff radial mode (frozen at the seed's tangency value √2); θ is the soft angular mode (dressable)**
+— which is why the measured A holds √2 to 9×10⁻⁴% while θ carries the displacement. The natural
+depositor of the θ-dressing is **the dyad** (the recorded knobs assignment's θ-door, and the field
+that couples to electrons); under tangency the knobs re-read: the heavy deposits set R, **the wall
+sets M**, the dyad dresses θ. *(Domain fence: this is the charged-lepton ring; the neutrino
+two-source structure is separate bookkeeping — the parallel is noted, not fused. The genesis-era
+θ-dressing is a different operation from today's multiplicative ε — the Koide protection is
+untouched.)*
+
+**Brakes, named:** (i) θ_seed = 135° is the new blank — smaller (one angle), un-derived; note
+135° is the tangency angle for A = √2 and nothing yet independently selects it; (ii) the dressing
+mechanism (why the dyad's lift is exactly the 2.25° / why small) is un-built; (iii) the seed ratio
+7 + 4√3 is not directly observable (the observed 16.82 is the dressed value) — do not quote it as
+a prediction; (iv) a random-θ tangency ensemble gives ⟨A⟩ ≈ 1.26 and puts √2 at the 25th
+percentile — the wall alone does NOT statistically prefer √2; θ_seed needs its own reason.
+**Kills:** a derivation forcing θ_seed ≠ 135°; the dressing requiring a depositor with no
+independent role; the A-freeze failing (θ soft ⟹ A drifting too — then the measured √2-to-10⁻⁵
+loses its keeper). **Grade: candidate door — the first one that locates M, survives the seven
+prior kills' fences, and reduces the blank's dimension.**

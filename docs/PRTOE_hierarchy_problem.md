@@ -54,7 +54,7 @@ $$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)\,-\,3/2} = 1576\ \text{GeV}\qu
 (\text{measured } 4\pi m_H = 1574;\ +0.14\%)$$
 
 One coupling serves both floors (A_s to −0.35%, the anchor to +0.14%) once the exponent
-carries the textbook loop constant. **Grade: strengthened candidate (upgraded 2026-07-18).**
+carries the textbook loop constant. **Grade: candidate.**
 The −3/2 is not a menu pick — it is **the model's own recorded bracket constant**: the T_c
 derivation's one-loop structure is L − 1 = ln(m_e0²/μ²) − 3/2 (the fermionic MS-bar
 Coleman–Weinberg constant, [PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md) §2,
@@ -62,10 +62,14 @@ Coleman–Weinberg constant, [PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_
 fermions — the same constant class. Precision: the residual is 1.5014 at m_H central and
 **1.5000 exactly at m_H + 1σ** — 3/2 sits inside the Higgs-mass error bar alone. The data also
 **selects the log normalization**: a single-log gap condition [ln(M_red/M) − 3/2] = 1/(kα_c)
-gives residual 3/2 (matches); a squared-mass-log form would give 3/4 (excluded). **What remains
-owed (one step):** exhibiting the anchor's gap condition with that single-log normalization from
-the census loop itself — the constant's *class* is now scheme-canonical, its *attachment* to this
-exponent is the residue. Guards that stand: the sharp precision rides the closed-form k (the
+gives residual 3/2 (matches); a squared-mass-log form would give 3/4 (excluded). **The attachment was then attempted
+three ways (2026-07-18), and all three natural conditions fail:** the CW minimum gives a
++1/2-class constant at squared-log (excluded); the quartic-zero/tachyonic onset gives 3/4
+(excluded); the sharp-cutoff BCS gap equation gives ln 2 = 0.693 (excluded). **The surviving
+structure is one named route:** the RG running is *natively single-log*
+(1/α(μ) = 1/α(M_red) + b·ln(M_red/μ)), and the 3/2 would enter as the fermionic MS-bar
+**threshold-matching constant** between the running coupling and the gap-scheme coupling — that
+matching computation is the owed object, and the candidate's grade rests on it. Guards that stand: the sharp precision rides the closed-form k (the
 A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and the result is conditional on the
 recorded 4πm_H anchor definition. Kill (i) below reads: fires if the exhibited gap condition
 does not produce the −3/2-class constant at single-log normalization. The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
