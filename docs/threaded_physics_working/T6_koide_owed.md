@@ -792,7 +792,7 @@ unbuilt: a Z₃-invariant bath coupling transfers through channels labeled by ir
 channel-democratic transfer (one unit per channel — the A_s shot-additivity grammar) delivers
 T per irrep. The entire Koide complex now stands on this single question.
 
-**The nested resolution (JP-proposed, 2026-07-18; verified): the bath does BOTH — the two
+**The nested resolution (2026-07-18): the bath does BOTH — the two
 sharing laws are layers, not rivals.** The budget enters **per-irrep** (the transfer law) and
 distributes **per-mode within each irrep** (the symmetry law): singlet (1 mode) takes E/2;
 doublet (2 modes) takes E/2 split E/4 + E/4. Variance triple (M̃², x̃², ỹ²) ∝ (2, 1, 1) ⟹
