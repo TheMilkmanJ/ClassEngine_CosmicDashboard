@@ -584,9 +584,35 @@ untouched.)*
 135° is the tangency angle for A = √2 and nothing yet independently selects it; (ii) the dressing
 mechanism (why the dyad's lift is exactly the 2.25° / why small) is un-built; (iii) the seed ratio
 7 + 4√3 is not directly observable (the observed 16.82 is the dressed value) — do not quote it as
-a prediction; (iv) a random-θ tangency ensemble gives ⟨A⟩ ≈ 1.26 and puts √2 at the 25th
+a prediction; (iv) a random-θ tangency ensemble gives ⟨A⟩ ≈ 1.26 and puts √2 at the 75th
 percentile — the wall alone does NOT statistically prefer √2; θ_seed needs its own reason.
 **Kills:** a derivation forcing θ_seed ≠ 135°; the dressing requiring a depositor with no
 independent role; the A-freeze failing (θ soft ⟹ A drifting too — then the measured √2-to-10⁻⁵
 loses its keeper). **Grade: candidate door — the first one that locates M, survives the seven
 prior kills' fences, and reduces the blank's dimension.**
+
+
+### The seed condition's canonical form, and the selector hunt (2026-07-18)
+
+**The 135° is not an angle — it is the diagonal.** Stripping the face-labeling convention: the
+touching face sits at u with cos u = −1/A, so **A = √2 ⟺ tan u = −1 ⟺ |sin u| = |cos u|** — the
+seed lies on the **diagonal of the doomed face's frame**, equal projections along and orthogonal
+to the axis it zeroes. Every special number of the seed is this one condition in different
+coordinates: A = sec 45°; cos(3θ_seed) = 1/√2 (the Z₃-invariant phase at 45°); the survivor
+split Δ(faces) = −√3 tan u = √3 exactly; the heavy ratio √(m₃/m₂) = cot 15° = 2 + √3.
+
+**Four selectors computed, none delivers (recorded honestly):** (a) the uniform-θ draw — ⟨A⟩ =
+1.258, √2 at the 75th percentile, no preference; (b) Z₃-cubic relaxation — lands the axis vacuum
+A = 2 (the recorded cubic kill, re-found from this side); (c) the equal-survivors point — tan u =
+0, A = 1 (Q = 1/2); (d) survivor-product extremum — at A = 1, nothing stationary at the diagonal.
+The equipartition reading (e) — "the seed splits evenly between the killed direction and its
+complement" — places the condition in the house's no-preference grammar (the f̄-equidistribution
+family) but **renames rather than derives it**: equipartition here is a selected point, and the
+selector is the debt.
+
+**The surviving selector-shapes (named, unbuilt):** (i) maximum entropy under wall contact;
+(ii) the growth-race — radial growth rate vs the Z₃ torque, a two-rate dynamical problem whose
+fixed point is computable in principle; (iii) seed/face-frame co-emergence with a quarter-period
+phase lag (the 45° as the lag of one oscillation cycle's quarter). **State of the door:** the
+blank is now one *dimensionless dynamical* question — which selector puts the seed on the
+diagonal — down from "an arbitrary angle," and the failed selectors fence what it cannot be.
