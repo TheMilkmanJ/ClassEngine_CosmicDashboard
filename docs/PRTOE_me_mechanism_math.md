@@ -340,8 +340,12 @@ linear coupling). At the standing decay constant f ≈ 3×10¹⁴ eV (window 10�
 
 **The potential (two pieces, one new small input):** V = V_L(φ) + V_CW(φ). The bare L-breaking
 Mexican hat parks the VEV at f — its quartic is **λ_dyad = |m²_CW(0)|/2f² ≈ 1.3×10⁻³⁸**, a named
-small input (technically natural for a pseudo-Goldstone; it replaces nothing — the predecessor
-configuration had no bare potential and its VEV formula died with it). The electron loop supplies
+small input whose **radiative stability is verified**: the electron loop's own induced quartic
+((6/16π²)κ²m_e0⁴(L−1)) is only 1–4% of λ_dyad across the L-band, so loop corrections do not
+destabilize the input — it is technically natural. A derivation of its *value* belongs to the
+L-breaking sector's own dynamics (corner-dependent); until built, this is an input with its
+naturalness statement, not a hidden fit. (The predecessor configuration had no bare potential
+and its VEV formula died with it.) The electron loop supplies
 the small tilt that does the *timing*:
 
 | quantity | value at f = 3×10¹⁴ eV | note |
