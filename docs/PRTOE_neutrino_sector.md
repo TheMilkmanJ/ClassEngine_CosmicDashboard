@@ -97,3 +97,39 @@ read as viable before the scan found the surface empty) are logged in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Baryogenesis & the neutrino
 sector."** Both were corrected toward the honest reading this file carries: census-invisible
 steriles exist, so the seesaw type is unforced.
+
+---
+
+## The tenth-channel mass relation — the tie's mechanism (2026-07-18)
+
+**The two-source structure.** The neutrino spectrum has two jobs and the sector has two sources,
+one per job. The **splittings** (Δm²₂₁, Δm²₃₁ — what oscillations measure) are **seesaw-sourced**:
+at the Majoron corridor scale (M_R ~ v_L ~ 0.2–0.9 TeV), y ≈ 6×10⁻⁷ reproduces m₃ = 50 meV —
+natural, with the seesaw's lightest eigenvalue free to sit far below a meV (hierarchical
+couplings). The **absolute floor** — the lightest mass, which oscillations do not fix — is
+**medium-sourced**: the tenth-channel seating (the c = 9/10 lock's own requirement: a
+direct-Majorana light mass, medium- not electroweak-sourced) reads
+
+> **m_ν,lightest = κ_m · ρ_inf¼, κ_m ≈ 1** —
+
+the seesaw's near-zero lightest eigenvalue is dominated by the medium term exactly where the
+medium term matters. Σm_ν = 61.4 meV and the normal ordering are unchanged.
+
+**What this re-homes.** The tie ρ_Λ¼ = m_ν,lightest is the **mass-generation identity read
+forward**, not a thermal coincidence: the dark-energy floor does not *happen* to freeze at the
+lightest neutrino's mass — it **sets** that mass, and the ν bath's last relativistic species then
+quits at the medium's own scale *by construction*. The freeze-at-m₁ dynamics (the Majoron-channel
+tracking, alive across the corridor) remain the settling's mechanism; the tie's *source* is the
+mass relation. One coincidence dissolves: "why does the bath quit exactly at the floor scale"
+was the old reading's unexplained alignment.
+
+**The corridor nuance, stated.** Under this relation the tie's *value* no longer rides the
+tracking — the corridor's upper fence (v_L < 0.94 TeV) is the requirement of the recorded
+*settling dynamics* (the friction that damps the residual to the floor by z ≈ 12), not of the
+tie itself. If tracking failed, the equality would survive and the settling story would lose its
+friction partner — a different, milder failure than the pre-spec reading implied.
+
+**Owed, named:** the tenth-channel operator — the term by which the floor sources a Majorana
+mass (its form, and why κ_m ≈ 1 rather than another O(1)). Until it is exhibited, this section
+is a **spec**: the two-source structure is forced by recorded commitments (the lock's seating +
+the corner's seesaw), the operator behind it is not yet built.
