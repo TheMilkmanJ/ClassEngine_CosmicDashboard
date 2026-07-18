@@ -60,7 +60,15 @@ established (dCDF = chiral abundance-carrier; dyad = leptophilic electron-couple
 
 The lepton/hadron varying-constant hierarchy (P-2026-011 — leptons shifting ~13× more than
 hadrons) is **[KILLED]** and lives in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under
-**"Retracted predictions"**; the census-legal coupling is a *universal* conformal rescaling.
+**"Retracted predictions"**. The scope of the surviving universality, stated precisely: the
+coupling is **multiplicative-universal *within* the lepton sector** (no flavour structure — the
+Koide protection) and **exactly leptophilic *across* sectors** — forced twice over: by identity
+(the broken symmetry is lepton number; quarks carry none, zero tree coupling) and by data (a
+universal quark-mass shift at ε would move the deuterium binding by −4ε ≈ −5% — a +12–18σ D/H
+catastrophe, the recorded Dent–Stern–Wetterich elasticity). A quarks-included reading of the
+P-011 retraction's wording is superseded by that adjudication; the census's "universal charged
+roster" is the *counting measure* for c = 9/10, a different object from the coupling's flavour
+reach.
 
 ## Sources / see also
 

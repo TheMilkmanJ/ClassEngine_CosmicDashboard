@@ -330,10 +330,22 @@ scales** — the SU(2) confinement scale τ·m_e = 179 keV (the flagship's, port
 lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, log-band
 [40, 900] keV; the recorded BBN stability fence covers [179, 369]); their near-equality is two
 anchors coinciding at the electron scale for separate reasons (the portal vs the electron loop),
-not one object. (ii) **The Majoron's seesaw tie**: if f_dyad = v_L, the recorded card-6 band
-(1–20 MeV) collides with the standing f ≈ 100–500 TeV — either f ≠ v_L (the mechanism spec's
-fork) or the seesaw scan re-runs at high v_L (natural there: y ≈ 1.6×10⁻⁵ reproduces m_ν at
-v_L = 300 TeV, and the Majoron–ν channel becomes safer, g = m_ν/v_L ≈ 2×10⁻¹⁶). (iii) The
+not one object. (ii) **The Majoron scale, priced at all three corners (2026-07-18).** The registry already
+carries v_L's two corners (resonant → MeV, S4-armed; non-resonant → ≥ GeV, S4-dark; CMB-S4 the
+corner-selector), and the ν-tie's recorded forward mechanism (`scripts/kubo_freeze.py`) rides the
+Majoron vertex: Γ/H ∝ (m₃/v_L)², = 5×10¹⁰ at the 4.2 MeV launch value, unity at **v_L ≈ 0.9 TeV**,
+9.6×10⁻⁶ at 300 TeV. Against the thermalization floor f ≳ 40 TeV this gives a clean three-corner
+table: **(A) one scale, f = v_L ≈ 100–500 TeV** — minimal fields, the Majoron is S4-dark (a second
+CMB-S4 null-bet), but **the tie's tracking has no window** (floor 40 TeV vs ceiling 0.9 TeV, a 40×
+gap): ρ_Λ¼ = m_ν regresses from forward-derived scale to registered equality pending a re-homed
+mechanism. **(B) two scales, v_L ∈ [1 GeV, ~0.3 TeV]** — tie tracking alive (Γ/H ≈ 10⁶–10²),
+Majoron S4-dark, at the price of a third dark field. **(C) two scales, v_L ~ MeV** — tie alive,
+S4-armed (a detection at g ~ 10⁻⁸–10⁻⁹ referees), third field, the resonant-leptogenesis lane
+stays open. **In every corner one residue stands (the un-merger's own):** the tie's settling mode
+must be re-homed — the recorded mechanism freezes the *Majoron-sector* excitation while the DE
+floor is the *dCDF's*; why the one sets the other's scale is the owed spec. *(The tie's numerical
+equality, and the c = 9/10 lock that seats on the equality, are untouched by the corner choice —
+what varies is the mechanism's grade.)* The corner selection is open. (iii) The
 one-object field economy is lost — an aesthetic price, stated as one.
 
 The medium's microscopic content remains the **paired lepton-sector vacuum** — leptophilic by
