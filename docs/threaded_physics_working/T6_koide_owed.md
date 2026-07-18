@@ -790,6 +790,24 @@ residual, the metric-walk's final-form blank, and the even-split theorem are ONE
 (per-mode ⟹ A = 2, excluded; per-irrep ⟹ A = √2, the data) and a named mechanism-shape,
 unbuilt: a Z₃-invariant bath coupling transfers through channels labeled by irreps; a
 channel-democratic transfer (one unit per channel — the A_s shot-additivity grammar) delivers
-T per irrep. The entire Koide complex now stands on this single question. Kapitza consistency holds: the fast-drive effective mass
+T per irrep. The entire Koide complex now stands on this single question.
+
+**The nested resolution (JP-proposed, 2026-07-18; verified): the bath does BOTH — the two
+sharing laws are layers, not rivals.** The budget enters **per-irrep** (the transfer law) and
+distributes **per-mode within each irrep** (the symmetry law): singlet (1 mode) takes E/2;
+doublet (2 modes) takes E/2 split E/4 + E/4. Variance triple (M̃², x̃², ỹ²) ∝ (2, 1, 1) ⟹
+R_c = M_c automatic ⟹ **A = √2 exactly** — the nesting does not merely permit √2, it
+specifies the full triple. The two laws have physical names: per-irrep is how energy ENTERS
+(a Z₃-invariant bath coupling carries one operator per irrep — channel-counted, shot-additive
+transfer); per-mode is where energy settles IF equilibration runs to completion (the
+equipartition theorem flattens to T/2 per mode ⟹ A = 2 — the fence). **The measured A is
+therefore a non-equilibrium fingerprint: the freeze caught the transfer layer before
+mode-equilibration erased it.** And the same measurement certifies the second rate
+inequality for free: relaxation drifts A² from 2 toward 4; the measured A² = 1.999964 sits
+2×10⁻⁵ BELOW 2 (the θ-dressing side, booked) ⟹ relaxation progress < 10⁻⁵ ⟹ **the freeze
+beat irrep→mode equilibration by ≥ 10⁵ in rate × time.** The single remaining mechanism
+piece: exhibit the per-channel quota from the coupling's structure — one Z₃-invariant
+operator per irrep, one unit per channel per event (the A_s shot-additivity applied to irrep
+channels). That is the last unbuilt object in the complex. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
