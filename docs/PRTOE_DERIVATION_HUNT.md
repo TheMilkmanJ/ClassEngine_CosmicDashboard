@@ -320,12 +320,28 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > order**, which should be checked against the settling-attractor requirement in
 > [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 (different transition, but worth the check).
 
-The medium's microscopic content is the **paired lepton-sector vacuum** — leptophilic by identity, with
-three flavours (see the flag above — the α_c receipt is retired; the finiteness candidate is live), neutrinos interior (c = 9/10), and a
-lepton-number-breaking Goldstone (the
-Majoron tie). This is plausibly the same object as the §3 dark confining sector: one 3-flavour,
+**The two condensates, kept distinct.** The SU(2) sector carries two condensates: the **diquark**
+condensate ⟨qq⟩ — which *is* the dCDF, and which owns this section's consilience (the BEC side, the
+scalar-diquark ℓ = 0 selection, the no-hard-core grammar are all ⟨qq⟩ statements and stand) — and
+the sector's own **chiral** condensate ⟨q̄q⟩, an internal object with no SM coupling. **The dyad is
+neither**: it is the separate high-decay-constant field of §8 item 1b. The honest re-price of the
+former one-object reading, in three parts: (i) **the single T_c splits into two electron-anchored
+scales** — the SU(2) confinement scale τ·m_e = 179 keV (the flagship's, portal-anchored,
+lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, log-band
+[40, 900] keV; the recorded BBN stability fence covers [179, 369]); their near-equality is two
+anchors coinciding at the electron scale for separate reasons (the portal vs the electron loop),
+not one object. (ii) **The Majoron's seesaw tie**: if f_dyad = v_L, the recorded card-6 band
+(1–20 MeV) collides with the standing f ≈ 100–500 TeV — either f ≠ v_L (the mechanism spec's
+fork) or the seesaw scan re-runs at high v_L (natural there: y ≈ 1.6×10⁻⁵ reproduces m_ν at
+v_L = 300 TeV, and the Majoron–ν channel becomes safer, g = m_ν/v_L ≈ 2×10⁻¹⁶). (iii) The
+one-object field economy is lost — an aesthetic price, stated as one.
+
+The medium's microscopic content remains the **paired lepton-sector vacuum** — leptophilic by
+identity, with three flavours (see the flag above — the α_c receipt is retired; the finiteness
+candidate is live), neutrinos interior (c = 9/10), and a lepton-number-breaking Goldstone (the
+Majoron tie) — read as the §3 dark confining sector's own description: one 3-flavour,
 lepton-partnered, electron-scale confining vacuum. It supplies the roster the §5 str[k₁] balance runs
-over. **Status: hypothesis** — coherent and unifying, but the electron-scale portal (§2) is its one
+over. **Status: hypothesis** — coherent, and the electron-scale portal (§2) is its one
 irreducible input.
 
 ---
