@@ -1209,3 +1209,31 @@ thermal dress; the phase then sources from the medium's drift.
 the winding background (a bounded computation, next); Branch B predicts it from the medium
 drift. Both must reproduce the deviation lock (P-2026-051) and the modulus locus. The rep fork
 is the chase's node zero.
+
+
+## THE COMBINATION NODE (2026-07-18, night): both branches tested — they meet at one point
+
+**The proposal ("maybe it's a combination"), tested against the consistency it could have
+failed:** the phase side and the modulus side independently constrain the SAME spacing.
+*Phase:* the per-face-share drift ansatz μ = T_c/3 gives θ_hop = (c₂/3)·τ = 2/9 ⟹
+**c₂ = 4/(3ln2) = 1.9236.** *Modulus:* the screened-correlator locus (mapped independently,
+hours earlier) spans c₂ ∈ [1.76, 1.97] — **the phase's demanded point lands INSIDE it**,
+selecting c₁ = m_D/T_c = 1.345 (strong-coupling-natural). The combination closes at one
+O(1)-natural coefficient point. The physics class carrying both characters at once is
+recorded: non-abelian/orientational vortices (medium circulation + gauge/flavor moduli in
+one object) — the rep fork's branches need not be exclusive.
+
+**The one-equation collapse (exact algebra given the ansatz):** θ_cycle = 3·(T_c/3)·(c₂/m_e)
+= c₂·τ, and the holonomy-equals-Q closure becomes **c₂·τ = Q** — the string geometry, the
+lattice number, and the spectral invariant in a single relation (verified: 1.9236 × ½ln2 =
+2/3 exactly). **The keystone, re-crowned:** a first-principles Y-junction derivation of c₂
+now delivers EVERYTHING at once — τ = Q/c₂ (derived ⟹ the lattice fork's kernel point
+½ln2 becomes a prediction), the flagship at +0.44%, the modulus, and the phase. The required
+dark coupling for c₂ ≈ 1.92 from the adjoint Y-balance is α_dark ≈ 3.2 — strong-natural at
+the string scale, consistency-grade only.
+
+**Residues, named:** (i) the T_c/3 origin — why the drift is the per-face share of the
+transition temperature (the per-3 grammar's third appearance tonight: Q/3, T_c/3, the three
+hops); (ii) the first-principles Y-junction c₂ — THE keystone computation; (iii) all guards
+bind (the ansatz steps are flagged; the deviation lock P-051 and the lattice fork P-048
+remain the external judges; nothing here earns a chair until a residue is paid).
