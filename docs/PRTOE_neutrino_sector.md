@@ -129,7 +129,37 @@ tracking — the corridor's upper fence (v_L < 0.94 TeV) is the requirement of t
 tie itself. If tracking failed, the equality would survive and the settling story would lose its
 friction partner — a different, milder failure than the pre-spec reading implied.
 
-**Owed, named:** the tenth-channel operator — the term by which the floor sources a Majorana
-mass (its form, and why κ_m ≈ 1 rather than another O(1)). Until it is exhibited, this section
-is a **spec**: the two-source structure is forced by recorded commitments (the lock's seating +
-the corner's seesaw), the operator behind it is not yet built.
+**The tenth-channel operator — exhibited at seat level.** The lock's own counting names the
+channel: c = (N−1)/N with the roster = **9 charged species + the vacuum's own seat**, and the
+neutrino **sits on the seat, not in the count** ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md),
+the amplitude block). That seating is the operator's derivation:
+
+- the nine charged species take the medium **multiplicatively** — the ε-channel dresses the EM
+  fraction of an electroweak mass, and it needs charge to grab;
+- the neutrino is the roster's one **neutral** fermion: no charge, no EM fraction, nothing to
+  dress — the multiplicative channel is closed to it *identically*. The only gauge-invariant
+  bilinear the medium can write on the seat it shares is the direct Majorana term, and the only
+  scale on that seat is the floor's own, μ_∅ ≡ ρ_inf¼:
+
+> **L_tenth = −(κ_m/2)·μ_∅·ν̄₁ᶜν₁ + h.c.** — the medium *sources* the neutral member where it
+> *dresses* the charged nine. (The seat is the joint vacuum's — the cross-of-both-fields note,
+> MATH_SPINE — reached through the lepton-sector wing; no gravity-only door is used. Below v_L
+> the bilinear is L-legal; its UV form above v_L is named below.)
+
+**Why κ_m ≈ 1 rather than another O(1) — two structural legs.** (i) *No mediating small
+parameter:* for the charged nine the medium's effect is a ~1% correction because it modulates a
+fraction of an existing electroweak mass; on the seat there is no existing mass and no fraction
+— the term is the whole mass, and suppression would require a small parameter the seating does
+not contain. (ii) *Quarter-power compression:* whatever pure number b closes the seat's
+dimensions (ρ_inf = b·m₁⁴), κ_m = b^(−1/4) — the fourth root compresses coefficient ignorance
+fourfold in the log: b ∈ [0.1, 10] ⟹ κ_m ∈ [0.56, 1.78]; even b ∈ [1/16π², 16π²] (four
+decades) only reaches κ_m ∈ [0.28, 3.5]. κ_m lands within a factor ~2 of unity for ANY un-tuned
+vacuum constant; κ_m = 1 exactly (b = 1, the scale-free saturated seat) is the natural point
+and is **not claimed**. The settling test passes: everything above is dimensional closure of
+the medium's own floor — the observed ρ_Λ never enters. (Band check: κ_m ∈ [0.56, 1.78] puts
+m₁ ∈ [1.3, 4.1] meV and moves Σm_ν by under ±2 meV — nothing downstream strains.)
+
+**Owed after the exhibit:** the seat constant b (one pure number, from the joint vacuum's gap
+structure — inherits the basement build), and the operator's UV form above v_L. Grade:
+**operator exhibited at seat level; κ_m's size structural (two legs); its exact value open
+with b.**
