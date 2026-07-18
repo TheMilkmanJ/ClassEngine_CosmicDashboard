@@ -1115,3 +1115,13 @@ familiar 3/2 is attached to ln m²; rewritten as a single logarithm it becomes 3
 and reported no standard one-loop MS-bar source for 3/2 at this normalization (BCS constants
 ln 2, 2e^(−γ)/π; threshold constants rational/scheme-class). Two independent computations, one
 of them blind, now stand behind this kill.
+
+**Route 5 (the forced-sum door) — closed same day.** The menu contains ½ + 1 = 3/2 (tadpole +
+pairing bubble), so one arithmetic door remained: a single physical definition forcing both
+constants into one gap condition with unit weights. Computed: the only such candidate (the
+composite σ-pole, tadpole eliminated by the gap equation) **cancels its μ-logs exactly** — the
+textbook m_σ = 2M statement — fixing a mass ratio, not an anchor scale. The dichotomy is
+structural: anchor-capable conditions carry a μ-log and are single-object (the menu);
+object-combining conditions are RG-invariant and log-free, so they cannot anchor. The ½ + 1
+arithmetic is permanently numerology — no forcing structure exists in this class. The
+exponent's honest state is final at one loop: **no route named, none pending.**
