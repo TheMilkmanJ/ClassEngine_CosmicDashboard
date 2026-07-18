@@ -976,7 +976,23 @@ pre-registered OPEN-OUTCOME: compute the curved-host geometry exactly (the casca
 gravest mode on the host, the defect ring's true equilibrium radius, the exact κ) with no
 knowledge-of-0.85 allowed in any choice. Naive grade leans death; the careful geometry
 decides. If x_out lands the crossing, the complex stands end to end; if it lands the floor
-or the blowout, the tower falls with complete receipts.** Sector-equipartition — the T-per-irrep sharing that
+or the blowout, the tower falls with complete receipts.**
+
+**Trial arm 1 — SPHERE: STRUCTURALLY EXCLUDED (2026-07-18).** The full spherical computation
+(exact vortex Green's function with self-compensation, host-true Hessian, spherical-harmonic
+delivery machinery) returned its verdict at the Hessian, before any spectrum entered:
+**w_breath = 2.0000 — exactly the flat model's value, a clean cross-check — and
+w_shape = 0, exactly.** The face-doublet's latitude patterns on a sphere are infinitesimal
+rigid rotations of the great-circle ring: tilting a great circle yields another great
+circle, so the equilibrium is degenerate along precisely the doublet directions. A spherical
+host gives the mass-pattern NO restoring force — the faces would wander at zero cost,
+contradicting the measured A-stiffness (√2 to 10⁻⁵) structurally. **The host must break the
+tilt symmetry — it must share the ring's own topology.** This narrows the postulate to
+exactly the host the corpus names anyway: the helical vortex RING — the torus-tube, whose
+aspect ratio is Widnall-pinned (a/R = 2.26–2.51/n = 0.09–0.23) and whose geometry gives the
+doublet its stiffness. **Arm 2 (the torus-tube, the decisive one) is the execution date:
+the surface Green's function on the Widnall-pinned torus, the defect ring's true
+equilibrium, the host's own gravest modes — zero free choices, kill zones sealed above.** Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
 cascade meeting the ring's own computed vertices, not as an assumption.
 
