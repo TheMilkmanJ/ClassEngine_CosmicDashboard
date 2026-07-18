@@ -74,9 +74,13 @@ single-object. No route is named at one loop — but the failure is now classifi
 constant is **seam-class** (neither ratio nor scale; the number that converts a scheme
 condition into a physical scale), which no single-sector menu contains. The seam census
 (ledger) finds exactly one structure carrying 3/2 natively at single-log: the d = 3
-phase-space power d/2 — **route 6, a named lead**, live only if the anchor's condition
-crosses a nonrelativistic counting seam self-pinned at the gap scale with the right sign
-(three conditions, all owed). Guards that stand: the sharp precision
+phase-space power d/2 — **route 6**, sharpened to the equipartition reading: the constant as
+the mean kinetic cost ⟨E_kin⟩/T = d/2 of nonrelativistic census states at pairing.
+Self-pinning is automatic (the cost (3/2)T rides the same T — no scale chosen) and the sign
+is right (suppression: the anchor sits e^(−1.5) below naive transmutation). **Grade:
+candidate, form-natural.** Owed: the gap condition exhibiting the kinetic cost linearly in
+the exponent, and the freeze clause (why the vacuum anchor remembers the formation-era
+factor). Guards that stand: the sharp precision
 rides the closed-form k (the A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and
 the result is conditional on the recorded 4πm_H anchor definition. The coupling in the
 exponent is not new — it is the SAME α_c = 3α
