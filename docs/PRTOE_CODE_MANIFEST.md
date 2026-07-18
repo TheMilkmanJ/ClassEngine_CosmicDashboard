@@ -27,7 +27,7 @@ comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
 |---|---|---|---|
 | A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED; running in the live zero-parameter test** | [Y] |
 | z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c MCMC grades it later** | [Y] |
-| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on | **IN — running in the live test** | [Y] |
+| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the live run executes; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the NEXT config, no mid-run change) | **IN — running in the live test** | [Y] |
 | ρ_inf stated | the occupancy value | the α_c MCMC + the triangle confirmed | [Y] |
 | m_ncdm stated | 61.4 meV | the spurion (docketed) lifted + P-023 resolved | [Y] |
 | The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | [CMP] flow_ladder_correction.py (built) |
