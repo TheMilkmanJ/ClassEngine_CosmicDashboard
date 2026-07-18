@@ -17,14 +17,14 @@ moves, both recorded in [PRTOE_koide_relation.md](../PRTOE_koide_relation.md):
    kinetic/potential ratio is K/V = (1+w)/(1−w). If the fluctuation carries the kinetic energy
    (K ~ R²) and the background the potential (V ~ M²), then **A² = R²/M² = (1+w)/(1−w)**, and the
    derived pre-basin w = 1/3 gives the relativistic virial K = 2V ⟹ **A² = 2 ⟹ A = √2**.
-2. **The freeze-out reading (the ramp-law angle).** The Z₃ "three defects" is a *discrete
-   step-menu*; read as a value the continuous family field **freezes into**, it collapses the two
-   apparently-separate inputs into **one**. A field that is a *pre-basin excitation* sits **in** a
-   medium whose EoS is the derived w = 1/3, so its kinetic/potential split is fixed **by the medium
-   it lives in** — K/V = 2 is not a second assumption bolted onto w = 1/3, it *is* w = 1/3 read
-   energetically. A = √2 is then the value the family amplitude freezes to when family structure
-   sets in the radiation-era condensate — the structural twin of the dark-energy scale freezing at
-   the ν-decoupling transition.
+2. **The freeze-out reading — RETIRED (2026-07-17, the graveyard pass below).** Its load-bearing
+   step ("a pre-basin excitation sits in a w = 1/3 medium, so its K/V is fixed by the medium")
+   is a category error — medium w and field w are different objects; a spectator scalar is frozen
+   (w ≈ −1) or oscillating (w = 0), never K = 2V by proximity. Autopsy:
+   [PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md) ("medium-w inheritance"). The
+   conditional chain (IF w_field = 1/3 AND K ∼ R², V ∼ M² THEN A = √2) survives; the free lunch
+   does not. The surviving door of this shape: family structure as a **modulation of the medium
+   itself** (native w = 1/3, not a spectator) — door (i) of the graveyard pass.
 
 **What remains owed is now ONE identification, not a mechanism-shaped hole:** that the √m spectrum's
 background *is* the frozen field's potential energy and its Z₃ fluctuation *is* the kinetic energy
@@ -341,5 +341,212 @@ Lagrangian" — **the background M**. Until the theory contains an object that s
 A = R/M has no derivable value, no Ginzburg *number* is computable (same missing object), and the
 V ~ M², K ~ R² identification cannot be checked. **The 120° geometry is derived; the amplitude is
 not, and now we know why.**
+
+---
+
+
+## Item 1 — GRAVEYARD PASS (2026-07-17): the inheritance bridge dies; the blank is sharper
+
+**Charge:** why A lands on √2 to 10⁻⁵. Protection is derived (multiplicative-universal portal);
+the landing is the un-built half. Hard, conceptual, no guaranteed yield — this pass spent the
+yield on a kill, not a fill.
+
+### What was walked and retired
+
+**Medium-w inheritance** — the energetic reading's claim that a pre-basin excitation "sits in a
+w = 1/3 medium, so its K/V is fixed by the medium." **Category error.** A spectator scalar in
+radiation is either frozen (w_field ≈ −1, K ≈ 0) or oscillating (w_field = 0, ⟨K⟩ = ⟨V⟩); neither
+gives K = 2V from the *medium's* EoS. Filed:
+[PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md). Corrected in
+[PRTOE_koide_relation.md](../PRTOE_koide_relation.md).
+
+**Already dead this thread (not re-raised):** SOC attractor; wide-seam / 2D-Potts; Gascheau/Lagrange
+import; Komar/virial "second route"; positivity wall as mechanism; ⟨a³⟩ = 5/9.
+
+### What the algebra still says (unchanged, still not a derivation)
+
+On the Z₃ ring, Q = 2/3 ⟺ A = √2 ⟺ var(√m) = [mean(√m)]² — exact, θ-independent, measured to
+one part in 10⁵. The *identity* is settled. The *mechanism forcing the identity* is not.
+
+The conditional "IF w_field = 1/3 AND K ∼ R², V ∼ M² THEN A = √2" remains clean. What died is only
+the free lunch that made w_field = 1/3 automatic.
+
+### Two remaining doors (neither opened this pass)
+
+| door | what it would need | status |
+|---|---|---|
+| **(i) medium-modulation** | family structure *is* the medium (stress tensor native to radiation-era EoS), not a spectator field | unbuilt; compatible with Z₃-as-label (knobs reading) only if the modulation sources M, R without inhabiting the ring |
+| **(ii) potential-forced** | family Lagrangian forces K ∼ R², V ∼ M² with K/V = 2 without leaning on medium w | unbuilt; log potential already shown to fix geometry + R, never M |
+
+The blank, restated after the kill:
+
+> *"A = R/M = √2 because the pour's deposit and the dCDF's swing are related by ______________,
+> and that relation does not smuggle in medium-w inheritance or an in-ring potential term for M."*
+
+**Item 1 stays OPEN.** Yield of this pass: one false bridge removed, two doors named, no fill.
+
+---
+
+
+## Item 1 — HARD LANDING PASS (2026-07-17): doors walked, structural tension named
+
+**Charge:** force A = √2 to 10⁻⁵, or kill the remaining routes. No free lunch.
+
+### Kills this pass (all VEV-level or statistical — none deliver the landing)
+
+| candidate | killshot |
+|---|---|
+| **Quartic virial as A-forcer** | Virial gives K/V = 2 for *any* A (rigid-ring breathing). At fixed Σφ², s₄ is minimised at A = 0 (power mean). Quartic *opposes* large A. |
+| **Harmonic equipartition ⟨V_M⟩=⟨V_R⟩** | Sets fluctuation *widths* (or zero-point of oscillators about φ = 0), not the classical VEV ratio A = R/M that Koide measures. Even as an expectation: one cosmic draw cannot land at 10⁻⁵. Same species as wide-seam. |
+| **Cauchy–Schwarz midpoint** | Q ∈ [1/3, 1]; midpoint = 2/3 exactly — suggestive, not a mechanism. No dynamical attractor. |
+| **Geometric Brownian masses** | Produces a *distribution* over Q peaked near 1/3, not a δ-function at 2/3. |
+| **1D log gas on the √m-line** | Equilibrium is Hermite-like, centred at 0 (M = 0). Three positive √m need an external offset that reintroduces M by hand. |
+| **Hand-built V ∝ (R² − 2M²)²** | Writes the answer into the Lagrangian. Not a derivation. |
+| **Harmonic multiplet for w = 1/3** | Canonical mass term gives K = V (w = 0), not K = 2V. |
+
+### The structural tension (new, load-bearing for all future attempts)
+
+> **Freeze and the energetic reading are opposite regimes.**
+>
+> Cosmological freeze ⇒ field stops evolving ⇒ K → 0 ⇒ w → −1.
+> Energetic reading needs K = 2V ⇒ w = 1/3 at the moment A is set.
+>
+> So A must be set *pre-freeze* during a scaling/tracking phase, then locked.
+> Simple potentials that track with w = 1/3 (**quartic**) drive A → 0.
+> Simple potentials that can support A ≠ 0 (**harmonic**) freeze with w = 0.
+>
+> **No simple single-potential door closes both.**
+
+Compression bookkeeping confirmed: A² = (1+w)/(1−w) and A² = (1−w)/w agree **iff w = 1/3** — one fact, not two routes.
+
+Door (i) alone: makes w = 1/3 native if family = medium defects; does **not** force A.
+Door (ii) alone: no simple potential found that forces the classical VEV ratio without writing 2 by hand.
+
+### The blank, re-posed after the hard pass
+
+> A principle that simultaneously
+> (a) sets the **classical VEV** ratio A = R/M = √2 to **10⁻⁵**,
+> (b) during a radiation-like phase *or* by a topological/protected mechanism,
+> (c) without writing the coefficient 2 into the Lagrangian by hand, and
+> (d) is compatible with today's frozen positive masses.
+
+**Remaining shapes (not earned — named so they can be killed or paid later):**
+1. Topological / index protection of A (discrete, exact — basement lock 6)
+2. Two external deposits with a *derived* ratio (JP knobs reading; Gascheau import already dead)
+3. Two-field potential: one enforces w = 1/3 tracking, another pins A at the VEV level
+4. Basement boundary condition emits A = √2 as a lock (deferred)
+
+**Item 1 stays OPEN.** Yield: structural tension named, seven kills, blank no longer admits single-potential shortcuts.
+
+---
+
+
+## Item 1 — REMAINING SHAPES WALKED (2026-07-17 continuation)
+
+The four shapes left after the hard landing pass, each opened or killed.
+
+### Shape 1 — topological / index protection → DEFERRED-CLOSED
+
+Present discrete objects (Pauli N_gen = 3, Z₃, 120°, winding n) fix the *scaffold*, not the
+amplitude. Index theorems fix integer counts, not continuous VEV ratios. A = R/M is not a
+topological invariant of anything in the corpus; √2 is algebraic, not an index. **Reopen only
+if** a new construction makes A discrete with A = f(I) = √2 for a model index I. Not available
+today.
+
+### Shape 2 — two external deposits (knobs) → LIVE SHAPE, zero content; one map killed
+
+JP knobs (pour→M, dCDF→R, dyad→θ) survive as *shape*: shared origin can correlate M and R.
+**Scale mismatch:** dCDF's only scale is meV; Koide R is GeV-class — 34 decades, no bridge.
+Pour→M² ~ m_N/3 is still the soft coincidence-watch, leptons vs baryons unpaid.
+
+**Komar-balance map KILLED (near-miss, inverse):**
+active-mass balance m_WH + m_dCDF = 0 with m = ρ(1+3w), dCDF at w = −1 ⇒ 1+3w = −2, and
+ρ ∝ amp² with equal stiffness ⇒ **A = 1/√2**, not √2. Fence: do **not** swap M↔R labels to
+flip the inverse into the target (answer-fitting). Komar signs still support the *assignment*,
+not the ratio.
+
+Pour-virial variant (genesis K=2V → R/M) remains a live shape with zero derivation: genesis is
+hydrodynamic, not a scalar virial; equal stiffness still assumed; freeze tension remains.
+
+### Shape 3 — two-field (tracker + pin) → ARCHITECTURE ONLY
+
+Correct split of the regime tension (one field tracks w = 1/3, another freezes VEVs). Every
+concrete coupling either (a) leaves A free, (b) writes 2 into V by hand, or (c) reduces to
+**equal stiffness c_R = c_M** under medium-modulation. Architecture named; debt unchanged.
+
+### Shape 4 — basement lock 6 → DELEGATION, not payment
+
+Lock 6 is a *scoreboard target* the basement must hit ([PRTOE_light.md](../PRTOE_light.md) §6),
+not a mechanism. Square-diagonal → √2 fights Z₃ (triangular 120°; square is Z4-adjacent, and
+the Z4-torus floor is already retired). Equilateral geometry yields √3 ratios, not √2.
+
+### What is actually left (one sentence)
+
+> **Equal stiffness c_R = c_M** for the classical VEV split, carried by a pre-freeze w = 1/3
+> medium-modulation (or equivalent two-field architecture) that does not drive A → 0 — or a
+> basement geometry that produces √2 without fighting Z₃.
+
+Everything else on this thread is killed, deferred-closed, or pure shape. **Item 1 stays OPEN.**
+
+---
+
+
+## Item 1 — EQUAL STIFFNESS FROM THE FIELD-SPACE METRIC (2026-07-17)
+
+**Charge:** derive c_R = c_M without hand insertion.
+
+### Paid: the coefficient mismatch was a coordinate artifact
+
+Three real scalars with **canonical** kinetic term L = ½ Σ_k φ̇_k² and the ring embedding
+φ_k = M + R cos(θ + 2πk/3) give the non-canonical metric
+
+ L_K = (3/2) Ṁ² + (3/4) Ṙ² + (3/4) R² θ̇².
+
+Canonically normalize the irreps:
+
+| coordinate | definition | role |
+|---|---|---|
+| **M_c = √3 M** | singlet (φ₁+φ₂+φ₃)/√3 | background / mean channel |
+| **R_c = √(3/2) R** | doublet radius | Z₃-modulation channel |
+
+Then L_K = ½ Ṁ_c² + ½ Ṙ_c² + ½ R_c² θ̇² — **equal stiffness by construction** of the
+canonical kinetic term (already assumed for a standard multiplet). The old c_R ≠ c_M in
+(M,R) coordinates was a Jacobian artifact, not a physical inequality.
+
+### The rewrite (exact, checked)
+
+ **A = R/M = √2 · (R_c / M_c)**
+
+hence
+
+ **A = √2  ⟺  R_c = M_c**
+
+(equal classical amplitude in the two canonically normalized channels). Verified
+numerically for A ∈ {0.5, 1, √2, 2} and for the irrep projection |d| = R_c at A = √2
+(θ-independent).
+
+**Equal stiffness is paid. It does not by itself force A = √2** — it rewrites the blank as
+why the two canonical amplitudes are equal.
+
+### What still fails to force R_c = M_c
+
+| principle | result |
+|---|---|
+| Per-dof equipartition **before** θ-lock (doublet = 2 dofs) | R_c/M_c = √2 ⇒ **A = 2** (wrong) |
+| Per-dof equipartition **after** θ-lock (doublet → 1 radial dof) | R_c = M_c ⇒ A = √2 **as expectation/widths** — same statistical kill as before (not 10⁻⁵ VEV) |
+| Isotropic initial ⟨φ_i φ_j⟩ ∝ δ_ij | same as 3 equal dofs → A ~ 2 expectation |
+| Gradient / isotropic flow | preserves A; no attractor |
+| Natural Z₃ potential V = (λ/4)(Σφ²−v²)² − g Σφ³ | **minimum at A = 2 for all g tried** (axis vacuum: one massive, two at the wall). Fights Koide. |
+
+**Fence:** a natural cubic Z₃ term drives A → 2, not √2. The model cannot sit at that
+minimum. Do not cite Z₃-invariant cubics as the landing mechanism.
+
+### The blank, final form after the metric walk
+
+> **Why R_c = M_c** (canonically normalized singlet amplitude equals doublet amplitude)
+> as a **classical VEV**, to 10⁻⁵, without thermal one-draw statistics and without sitting
+> at the cubic Z₃ axis vacuum (A = 2).
+
+Equal stiffness is no longer owed. **Item 1 stays OPEN** on this sharper residual only.
 
 Coupling-geometry status: screened-room (laboratory masses) — verdicts hold by geometry.

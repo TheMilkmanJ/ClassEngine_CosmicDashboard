@@ -304,9 +304,10 @@ sets the dyad's condensation scale — the onset becomes DERIVED, not a free inp
 **Zero-T (the VEV / reduction).** m_e(φ)=m_e0(1+κφ²); the electron loop gives
 V_CW(φ)=−(1/16π²)m_e(φ)⁴[ln(m_e(φ)²/μ²)−3/2], whose φ² term is a TACHYONIC induced mass
 m_φ²(0)=−(κ/2π²)m_e0⁴(L−1) (radiative SSB). Self-consistent VEV
-**v = m_e0·[dyad·(L−1)/4π²]^(1/4) ≈ 100 keV** (81/102/121 keV for L−1=2/5/10) — robust ±25% under
-the 1/4-power. So the onset falls out of m_e0 + the dyad amplitude ALONE = a genuine reduction
-(the onset is no longer free). Un-swamped because field 2 carries no charge → no TeV soft mass.
+**v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV** (150/175/196 keV for L−1=2/5/10) — the CW minimum imposed
+together with the delivered shift κv² = ε (full 1.2543%), which fixes κm_e0² = ε(m_e0/v)² ≈ 0.108;
+robust under the 1/6-power. So the onset falls out of m_e0 + the dyad amplitude ALONE = a genuine
+reduction (the onset is no longer free). Un-swamped because field 2 carries no charge → no TeV soft mass.
 
 **Finite-T (the coin-flip).** Thermal mass Δm_φ²(T)=+(κm_e0²/3)T² (electron plasma, symmetry-
 restoring); symmetry restored above T_c where it cancels the tachyonic curvature. κ CANCELS →

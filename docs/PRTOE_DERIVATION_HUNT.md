@@ -128,8 +128,9 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   model's own recorded couplings: **(i)** gravity and the census-closed portals pass (Γ/H ≈ 3×10⁻⁷
   even at the pour scale — the standard gravitational escape holds *for those channels*). **(ii) The
   dyad–electron channel is fatal:** the [ESTABLISHED] electron-CW mechanism needs κm_e² ~ 10⁻² active
-  in the SM bath to source the T_c = 179 keV ramp; that coupling (g_ee = εm_e/v = 0.064 at the
-  recorded v = 100 keV) gives **Γ/H ~ 10¹⁵–10¹⁹ from BBN to reheating** — full thermal equilibrium.
+  in the SM bath to source the T_c = 179 keV ramp; that coupling (the post-SSB fluctuation vertex
+  g_ee = 2εm_e/v = 0.073 at v ≈ 175 keV — quadratic-canonical, see the fork resolution below) gives
+  **Γ/H ~ 10¹⁵–10¹⁹ from BBN to reheating** — full thermal equilibrium.
   The bound is g_ee < 1.8×10⁻¹⁰ (equivalently v ≳ 3.6×10⁴ GeV): violated by 10⁸·⁶ in coupling. Under
   the bound the mechanism's maximum deliverable amplitude is ε_max ≈ 2×10⁻¹⁶ vs the needed 1.25×10⁻²
   — **the size-XOR-quiet wall (gate-0 §7.3) recurring: a dyad big enough to source ε thermalises;
@@ -143,11 +144,17 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   recorded normalization that passes (f_L = 2.3×10¹¹ GeV, by 10⁵) is the §7.6-killed single-field
   era's — it cannot produce the coded ramp; reviving it is a different model. **Net: the ΔN_eff
   escape, the ε-ramp mechanism, and √σ_dark = m_e are pairwise-incompatible as recorded** — the
-  sharpest structural tension in the corpus, sharper than BBN D/H. *Also surfaced: the corpus
-  carries an unflagged linear-vs-quadratic fork in the dyad–electron normalization (g_ee = εm_e/v
-  vs κφ²) — both forks fail the bound, but the inconsistency should be resolved regardless.*
-  (Worked script: the non-thermalization build, 2026-07-17; every crux number independently
-  re-verified at booking.)
+  sharpest structural tension in the corpus, sharper than BBN D/H. *The normalization fork surfaced here is RESOLVED (2026-07-17): the operator is
+  **quadratic-canonical** — dark-U(1) forbids the linear coupling
+  ([PRTOE_gate0_qft_derivation.md](PRTOE_gate0_qft_derivation.md) §1, which pre-labels the linear
+  amplitude formula as the quadratic operator's value); the "linear g_ee" is only the post-SSB
+  fluctuation vertex 2κv·m_e0. The recorded v ≈ 100 keV was a conflation (the delivered shift ε
+  inserted in the slot of the dimensionless coupling κm_e0²), with the closed-form fix
+  v = m_e0·[ε(L−1)/4π²]^{1/6} ≈ 175 keV, κm_e0² ≈ 0.108, g_ee ≈ 0.073 — **T_c, τ, and ρ_Λ untouched
+  (κ cancels in T_c)**, the gate-0 reduction survives at a more robust 1/6-power. All rate changes
+  from the fix are ≤ 10² and adverse to the model — the escape-failure finding is unaffected
+  (marginally strengthened).* (Worked script: the non-thermalization build, 2026-07-17; every crux
+  number independently re-verified at booking.)
 - **THE m_q SQUEEZE — three constraints, one variable, and τ pulls against the other two.**
   The dark quark mass is asked to be **light** by τ (**0.3503** derived; the rows here were computed at 0.345 — a +1.5% shift, immaterial to this squeeze) (§2 — heavy quarks drive T_c/√σ back toward the
   pure-glue 0.69–0.71), and **heavy** by two independent others: (i) **ΔN_eff/Y_p**, which needs Boltzmann
@@ -332,24 +339,21 @@ irreducible input.
   factor, and 3D. The genuine residual is the exact O(1) **normalization of the shot-noise count** (the
   "count C" — whether the assembly is exactly (4πk/α_c)³), which lands A_s to −0.35%. Deliberately exposed;
   referees are the live zero-parameter run and the Eliashberg k-audit.
-- **n_s = 1 − 2/ln(M_Pl/T_on) — derived-estimate, mechanism sharpened (2026-07-17):** the census
-  drift, now with a full candidate mechanism whose every scale identity is verified. **(i) The log:**
-  the winding field read as a 2D transverse Gaussian height model — only in 2D is a Gaussian field
-  log-correlated — gives σ²(k) = ln(k_UV/k), with the comoving UV cutoff k_UV = a_on·T_on = T₀
-  (exact, since T ∝ 1/a). **(ii) The −2:** the energy density is **quadratic** in the field
-  (δ ~ h², χ² statistics), so A_s ∝ σ⁴ = [ln]², giving n_s − 1 = 2·dln σ²/dln k = **−2/ln exactly**.
-  *The "2" is the quadratic field power, NOT the two transverse dimensions — the 2D-ness supplies
-  the log; the earlier attribution fused two different 2s.* **(iii) The argument:** ln(T_on/m) =
-  ln(M_red/T_on) + 0.49 (from T_on² = m·M_red/0.61), so the banked ln(M_Pl/T_on) is the same log to
-  O(1) inside ~55 — verified. **The honest fork this opens:** evaluated at the observed pivot
-  (k* = 0.05 Mpc⁻¹, ln(k_UV/k*) = 61.9) the mechanism gives n_s = **0.9677** (+0.6σ vs Planck);
-  the banked 0.9641 (−0.2σ) corresponds to pinning the argument at the onset-horizon scale
-  (k_H = a_on·m ≈ 98 Mpc⁻¹). Both live; which scale sits in the log is a real question the full
-  computation must answer. Bonus prediction either way: a tiny running, dn_s/dln k = −2/ln² ≈
-  −5×10⁻⁴ (Planck: −0.0045 ± 0.0067, consistent; a future >10× running constraint referees this).
-  **Still owed (two named steps):** the χ²-field convolution P_δ(k) (the σ⁴ step is the leading-log
-  local-variance argument; the convolution must confirm the coefficient), and the argument-scale
-  adjudication. Candidate mechanism — not a proof.
+- **n_s = 1 − 2/ln(M_Pl/T_on) — derived-estimate** (the census drift; the banked form's own grade
+  is unchanged). **The 2D-Gaussian mechanism route, adjudicated by computation (2026-07-17):** the
+  candidate microphysics (winding field as a 2D transverse log-correlated height model, δ ~ h²) had
+  its owed step — the exact χ²-field convolution P_δ(k) — computed, and **the direct reading
+  FAILS**: the exact spectrum is k²P_δ ∝ ln(k/k_IR) (numerics match the analytic 2·ln(k/k_IR)/π to
+  4 decimals), giving tilt **+1/ln(k/k_IR)** — wrong sign (blue), wrong coefficient (1 not 2), and
+  IR-anchored where the banked form needs UV. The earlier σ⁴ argument conflated the one-point
+  variance with the per-mode spectrum. Autopsy in
+  [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). **What survives:** the scale identities are
+  real and verified (k_UV = a_on·T_on = T₀ exactly; ln(T_on/m) = ln(M_red/T_on) + 0.49, the banked
+  argument to O(1) inside ~55) — so a mechanism in this family remains *possible* but must use a
+  **different map**: the amplitude at scale k set by the UV-integrated variance (a modulation/local-
+  amplitude reading), which is NOT the χ² spectrum and has not been exhibited from the winding
+  mechanism. That narrow route is the only surviving candidate; until it is built, n_s stays at its
+  plain grade with no microphysical mechanism attached.
 - **z_on ≈ 3.56×10⁷ — fast-profiled estimate,** chain-graded later.
 - **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude quartic
   sets its value). See [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md).

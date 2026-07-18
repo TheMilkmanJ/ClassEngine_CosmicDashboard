@@ -1538,7 +1538,10 @@ home (P-012 m_ν,lightest=2.3 meV=DE floor; P-020 Majorana/0νββ). It adds **n
 
 **(1) The dyad onset is DERIVED but its clearance is a coin-flip.** On the charge-free field, the
 electron Coleman-Weinberg backreaction derives the dyad's condensation VEV v ~ 100 keV from m_e0 +
-the dyad amplitude alone (robust ±25%, 1/4-power) — a *reduction* (onset no longer free). BUT the
+the dyad amplitude alone (robust ±25%, 1/4-power) — a *reduction* (onset no longer free).
+*(Annotation 2026-07-17, frozen text above unchanged: the closed form with the delivered shift
+κv² = ε imposed corrects this to the 1/6-power, v ≈ 175 keV — see MATH_SPINE §4. The reduction
+claim itself — v from m_e0 + ε alone — is unchanged and slightly more robust.)* BUT the
 finite-T condensation temperature T_c is log-ambiguous (~40–450 keV, central ~70–160 keV) and
 **straddles the deuterium bottleneck (~70 keV)** → the dyad's BBN quietness is genuinely marginal,
 needing an RG-improved V_eff(φ,T) + a BBN D/H network pass. Structural: onset derives to an *electron*
@@ -1608,10 +1611,16 @@ the survivor is thin + un-derived + carries a post-hoc flag on its mechanism.
 ## P-2026-024: The ε-dipole — an emerging horizon-scale varying-constants dipole (pre-registered 2026-07-10)
 
 **The prediction (derived, distinctive):** the universal lepton rescaling ε
-tracks the local condensate; the floor's Jeans mode (Γ/H = √3, mid-emission) gives δ_DE ≈ 5×10⁻⁵
-at horizon scales today, so:
-> **δm_e/m_e ≈ ε·δ_DE ≈ 6×10⁻⁷** — a spatial varying-constants dipole (m_e-family: α-combinations
-> per the §29 lattice), horizon-scale, **axis-correlated** (the recoil/low-ℓ axis), growing at √3·H.
+tracks the local condensate; the floor's Jeans mode gives δ_DE at horizon scales today, so:
+> **δm_e/m_e ≈ ε·δ_DE** — a spatial varying-constants dipole (m_e-family: α-combinations
+> per the §29 lattice), horizon-scale, **axis-correlated** (the recoil/low-ℓ axis).
+
+**Amendment (2026-07-17, red-team walk):** the Jeans growth rate is Γ_eff/H = √(3/2) (B = 1/√2), not the
+IR-scale Γ_par/H = √3. Predecessor sizing used √3 and quoted δ_DE ≈ 5×10⁻⁵, δm_e/m_e ≈ 6×10⁻⁷,
+growth at √3·H. Rescaled by B = 1/√2: **δ_DE ≈ 3.5×10⁻⁵**, **δm_e/m_e ≈ 4×10⁻⁷**, growing at
+√(3/2)·H. Order of magnitude and falsifiers unchanged (still a consistent null at ~10⁻⁶ maps;
+still killed by a confirmed ≫10⁻⁶ dipole or a null at ≲10⁻⁷). See
+[PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
 
 **Test:** current α-variation sky-maps reach ~10⁻⁶ → the prediction is a *consistent null today*,
 detectable at next-generation precision. **Falsifiers:** (i) a confirmed varying-constants dipole
