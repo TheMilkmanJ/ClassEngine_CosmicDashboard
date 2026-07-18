@@ -1,6 +1,6 @@
 # A well-posed gap in the two-color lattice literature: T_c/√σ for SU(2) with N_f = 3 light fundamental flavours
 
-**STATUS: DRAFT for external circulation — not sent; owner's approval required.**
+**STATUS: APPROVED FOR CIRCULATION (owner, 2026-07-18).**
 
 ## The computation
 
@@ -55,7 +55,9 @@ number waiting on a computation the field can do with existing tools.
 ## Contact / provenance
 
 The registration, its amendment history, and the literature sweep are timestamped in a public
-repository (git history; registry entry P-2026-048). Correspondence: [contact placeholder].
+repository (git history; registry entry P-2026-048):
+github.com/TheMilkmanJ/ClassEngine_CosmicDashboard. Correspondence: J. Pulford,
+pulfordj420@gmail.com.
 
 ## References
 
