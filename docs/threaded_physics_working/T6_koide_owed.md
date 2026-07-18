@@ -930,10 +930,28 @@ Widnall band is n = 2.26–2.51 × R/a → **11–25 azimuthal waves on the gene
 (the tree's [X]-grade row, kill condition attached), so the cascade injects at
 q_inj = n/R_v and q_inj·R₀ = n·(R₀/R_v) — any family-ring scale above ~R_v/10 lands deep in
 the saturated plateau. The earlier √n phrasing was the conservative edge; the recorded n-band
-sits in saturation. (h3) grid/method systematics (few %) — the ξ = R₀/3 watch stays
-unresolved inside h3's floor. **Verdict standing after h1 + h2: LIFE at 1.002 ± (h3's
-few %), on a derived spectrum, a pinned drive, and a one-sided recorded geometry — one
-method-polish task from derived-conditional.** Sector-equipartition — the T-per-irrep sharing that
+sits in saturation. (h3) — **THE AUDIT FIRED, and it caught real artifacts
+(2026-07-18). The premature 1.002 is RETRACTED.** The systematics matrix found: N and ε
+perfectly converged (0.00%); but the box size was silently impersonating a PHYSICAL scale
+(L = 12 → ratio 2.09; L = 20 → 0.84), the binning carried ±19%, and the Padé core differed
+from truth by 17%. All three fixed: exact GPE core (the ODE profile, shot to f(∞) = 1),
+direct mode-sum (no bins), L = 32 with the infrared cutoff promoted to an explicit physical
+parameter. **The honest verdict is a CURVE, not a plateau:** the sector-delivery ratio as a
+function of the cascade's outer scale x_out = q_out·R₀ reads 1 : 0.49 in the deep-IR limit
+(the divergence saturates — the breathing vertex rolls off below qR₀ ≈ 0.3), **crosses
+equality at x_out ≈ 0.85**, and dies doublet-side above x_out ≈ 1.2. Bookkeeping note, for
+the record: the operative condition is R_c = M_c (equal canonical amplitudes), which under
+the impulsive SNAP means the doublet sector receives HALF the singlet's energy (the singlet
+is twice as stiff) — the weighted ratio's target of 1 encodes exactly this; the earlier
+"T per irrep" thermal phrasing was loose language for the right computation. **The final
+object, re-homed once more and now purely geometric: x_out — the outer-scale-to-ring ratio.**
+The crossing at x_out ≈ 0.85 reads physically as λ_outer ≈ 7·R₀, i.e. **the family ring at
+the genesis-ring scale** (R₀ ≈ R_v-class — consistent with h2's closure, which needed
+q_inj·R₀ = n·R₀/R_v ≥ 5.5 and gets ≈ n = 11–25 at R₀ ≈ R_v). The T6 grammar already places
+the three defects IN the genesis medium; whether the recorded geometry pins R₀/R_v at the
+crossing value is the complex's last question. **Standing: LIFE conditional on
+x_out ≈ 0.85 ± the crossing width — one recorded-geometry ratio from a verdict, with every
+method artifact now dead and every other input derived, pinned, or recorded.** Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
 cascade meeting the ring's own computed vertices, not as an assumption.
 
