@@ -374,6 +374,17 @@ irreducible input.
 ## 8. What remains owed
 
 1. **The portal √σ_dark = m_e** — the one irreducible input of the dark-energy / basement sector (§2, §6).
+1b. **Pre-paid bookkeeping for the surviving branch (P1 + P6 of the tribunal price sheet, booked
+   2026-07-18; both CONDITIONAL on the pending adoption decision):** **(P1)** if the high-f branch
+   is adopted, the dyad decay constant **f_dyad ≈ 100–500 TeV** registers as a new dimensionful
+   input — un-derived, the branch's price stated as an input, not disguised as a derivation
+   (the honest window: the fifth-force/g−2 gates set the floor ~10¹⁴ eV; tracking sets the ceiling
+   ~10²⁵ eV; the quoted window is where all tribunal gates clear simultaneously). **(P6)** the
+   model commits to **ONE genesis dilution ξ = T_dark/T_γ ∈ [0.25, 0.35]** (the pour-budget
+   window) used consistently everywhere it appears — ΔN_eff, the BBN books, any sector pricing —
+   no per-window ξ. The commitment's teeth: ΔN_eff = (27/(7/4))·ξ⁴ = **0.06–0.24** across the
+   window, centred ≈ 0.1 — **CMB-S4 (±0.03) adjudicates the branch directly.** A confirmed
+   ΔN_eff < 0.03 or > 0.3 kills the committed window from either side.
 2. *(resolved) The induced-G scalar coefficient* — verified: Visser Eq. 35 assigns each
    real scalar the weight (1/6 − ξ), not zero, so P-045's str[k₁] = 0 is **not** ξ-independent — it
    requires ξ_H = 1/6 (conformal Higgs). Natural (the conformal value) and self-consistent with the
