@@ -17,7 +17,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|
 | ε ≈ 1.24% exists (the dyad fits CMB better at 69.9) | M3 + Planck/ACT/SPT fits | [P] |
 | the dcdf sector (one fluid, two eras; the dispersion shape) | M3 + the fits + the derived crossover form | [P] |
-| the windowed BBN pattern (ε OFF at freeze-out) | ε + T_c ordering | [P] (Y_p +1.09σ adverse, owned — ramped) |
+| the windowed BBN pattern (ε OFF at freeze-out) | ε + T_c ordering | [P] (standing books under high-f + ξ: joint p 0.15–0.29, D/H −0.3…−1.2σ, Y_p +1.3–1.8σ vs Aver — hunt §8 1b) |
 | inertia = the zero-drag certificate (Landau v_c = c; Newton's first law mechanized) | M3 + the census null P-2026-008 + [X: Landau 1941] + the LV Planck envelope | [GRAMMAR] — dies on vacuum drag, sub-c vacuum-Cherenkov, or LV above the envelope |
 
 ## Tier 2 — the decomposition (each factor separately refereed)
@@ -33,7 +33,7 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| the anchor (hierarchy: M ≈ M_red·e^(−1/kα_c)) | α_c + the gap equation | [E] (Eliashberg-corrected landing 2.9%) | the k-audit walks the landing out |
+| the anchor (hierarchy: M ≈ M_red·e^(−1/kα_c−3/2)) | α_c + the shared closed-form k (three-way concordance) + the 3/2 (a sharp UNDERIVED residual: exhibition dead — five routes computed; seam-classified; the equipartition candidate basement-gated — hierarchy §2b + ledger) | [E/observation] (+0.14% with the underived constant; 1.5000 at m_H+1σ) | the k-audit walks the landing out; any derivation forcing a constant ≠ 3/2 |
 | k = ln(1+π/2α_c)/π = 1.36461 | the interaction integral + the regime-consistency adjudication (both screening channels evaluated in their own regimes) | [D-conditional] | the roster trial breaks the twin-screening |
 | **A_s = (α_c/4πk)³** | k + the shot-noise mechanism (half-derived: the count C unmechanized) | **[C] — FROZEN into the current run by design; the corpus's highest-risk standing claim** | the lock-count derivation fails; the run itself can kill it |
 | n_s = 1 − 2/ln(T₀/k) (k-local; 0.9677 at the pivot, running α_s = −5.2×10⁻⁴; the banked k-independent 0.9641 retired to consistency-check) | the modulation map (envelope × shot), the verified anchor k_UV = a_on·T_on = T₀, shot additivity shared with A_s; the 2 = amplitude-squared | [C] (mechanism exhibited; Δ² ≲ 2×10⁻⁶ subdominance condition named) | n_s tightening toward Planck central strains the k-local form first; any measured running that is not tiny-negative; (banked form only) the α_c MCMC moving T_on |
@@ -48,11 +48,11 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 | the flow line (ω₀ = 0.67–0.77; 170–190 km/s at 250 Mpc) | ω = H at the pour + kinematics + the spin-up ramp | [E] — reproduces the recorded P-028 input | bulk-flow data walks away; misalignment with the axis |
 | the cycle story (melt/reset/Tolman) | the chain + the zero–infinity asymmetry | [GRAMMAR] — bounce equations owed (B1/B7) | — (not yet falsifiable; honest) |
 
-## Tier 5 — the late-sky candidates (children of the gate curve; ALL conditional on reading B)
+## Tier 5 — the late-sky candidates (children of the gate curve; the form now derived at class level — reading B is the survival class)
 
 | claim | parents | status | dies if |
 |---|---|---|---|
-| the gate curve ε(C) | reading B (P-022's edge shape decides A vs B) | [C] — NINE grips + the existence referee (+ WHIM-temperature; the razor dissolved by geometry — the gate energy heats the WHIM; S₈ delivery = the entropy-floor mapping, owed) | the 21cm edge reads SHARP (A); any grip off the one curve; WHIM temps reading gravity-only at XRISM/Athena precision |
+| the gate curve ε(C) | the gate form (derived at class level: survival/exponential-power, the power form retired — me_mechanism gate section; P-022's edge shape remains the observable check) | [C] — NINE grips + the existence referee (+ WHIM-temperature; the razor dissolved by geometry — the gate energy heats the WHIM; S₈ delivery = the entropy-floor mapping, owed) | the 21cm edge reads SHARP (A); any grip off the one curve; WHIM temps reading gravity-only at XRISM/Athena precision |
 | the candle room (SN channels) | the gate + the response function | [C] — **ς = −1 SIGNED**: the H₀-lever branch DEAD; the mass-step candidacy FORKED: subdominant at central values, full-step corner alive at C_ref ≈ 2 — the DESI forest adjudicates | the forest kill (now double-duty: it also closes the corner); the quasar audit; the cluster-SN internal step appearing |
 | the H₀ ceiling | the candle + the leakage + τ | **SUPERSEDED by ς = −1: the bracket collapsed to 70.9–71.3; the ladder-audit posture (P-001/TRGB) replaces the reach claim** | — |
 | the forest offset (ε × gate at Δ~1) | the gate curve | [C] — live at DR16's edge; DESI executes | a clean DESI forest cross-calibration |
@@ -63,6 +63,8 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 |---|---|---|---|
 | n is MECHANICAL (the quantization event + phase-slip anneal: n = Γm/2π at the slip freeze-out) | the melt physics + the ring's formation Γ | [C] — the KZ overshoot killed direct-dice; B1's 8th/9th ambushes | B1's Γ→n misses the α_c MCMC/the comb |
 | the amplitude reconciliation (NBV thermal = census bookkeeping at T_pour) | the area law (derived) + the winding gas | [D-frame] — ONE number owed (the T_pour ceiling scale) | the melt energetics land elsewhere |
+| the Koide complex (A = √2 ⟸ sector-equipartition) | the wall-tangency door + the equipartition legs (isotropy computed; aggregation paid, N ≈ 10¹⁸; power-level reading derived) + the ring-on-ring trial (zones sealed; arm 1 excluded the sphere host; arm 2 torus pending) | [C] — one sealed geometric trial from derived-conditional (T6) | the torus trial landing outside the sealed life zones; any wall-frame leg failing |
+| the tenth channel (m₁ = κ_m·ρ_inf¼) | the c = 9/10 seat + the exhibited operator (+ UV form, SN-safe both corners) | [C] — operator exhibited; κ_m structural (quarter-power); the seat constant b basement-gated | seat-alignment failing with the democratic price (Σm_ν → 68.3 meV) excluded; a Dirac-nature 0νββ verdict |
 | induced-G (value computation) | — | **not claimed.** The model does not compute the numerical value of Newton's constant. What it holds instead: Pauli's finiteness condition str[k₁] = 0 (satisfied exactly by SM + 3ν_R) and the bare-handout asymmetry 1/α_Y(M_Pl) = 55.5 — conditions and targets, not value computations. | P-2026-045's kills (a light sterile; a 4th generation); the six basement locks |
 
 ## Tier 6 — the axis family (children of the winding; registered)

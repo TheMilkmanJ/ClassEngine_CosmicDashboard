@@ -129,10 +129,12 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   (v ≈ 100–500 TeV)**: gates cleared by 10⁸–10⁹, the ramp's synchronizer survives (first order in
   κ vs κ² thermalization), the fifth-force wall closed by the corpus's own operator-level gate
   (billing symmetry: the recorded model needs the same gate ~10⁸-worse for electron g−2 before
-  cosmology), residual **ΔN_eff ≈ 0.06–0.15 — a CMB-S4 (±0.03) detection target**. The branch's
+  cosmology), residual **ΔN_eff ≈ 0.06–0.24 with the committed ξ window (§8 item 1b) — a CMB-S4 (±0.03)
+  detection target**. The branch's
   price sheet (P1–P6: a new ~100-TeV input, the dyad=condensate identification drops, the
   electron-CW mechanism dies as recorded, BBN books re-run, the gate's owed checklist, a
-  genesis-ξ commitment) books with it; **adopting the branch is a structural decision, pending**.
+  genesis-ξ commitment) is booked and paid; **the branch is the standing configuration (§8
+  item 1b)**.
   √σ_dark = m_e and the flagship survive either way. Full record + verdict:
   [Nontherm_Kill_Discussions.md](threaded_physics_working/Nontherm_Kill_Discussions.md) §6.
   The original build's detail, for the recorded-model kill it established: The rate check Γ(dark–SM) < H at all T, run on the
@@ -198,8 +200,11 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   **forward mechanism** (`scripts/kubo_freeze.py`): the dark condensate thermally settles into the
   cosmic neutrino bath (its only tree-level partner) with Γ/H ≈ 5×10¹⁰ ≫ 1 — it tracks the bath — and
   the settling freezes when the bath goes non-relativistic and decouples. The **lightest** neutrino is
-  the last relativistic friction partner (heavier species go NR earlier), so it sets the final freeze:
-  ρ_Λ¼ = m_ν,lightest, forward at the scale. See [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
+  the last relativistic friction partner (heavier species go NR earlier), so it sets the final freeze.
+  **The tie's arrow is re-homed:** the equality's *source* is the mass-generation identity read
+  forward (the tenth-channel seat term — operator exhibited, with its UV form; the floor SETS m₁),
+  and the kubo settling above is the *dynamics* that then freezes there by construction. See
+  [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
   **Graded: μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
@@ -344,8 +349,8 @@ proper Boltzmann pass are owed):
 | corner | tie tracking | ν recoupling at z ~ 1100 | standing |
 |---|---|---|---|
 | **A: f = v_L ≈ 100–500 TeV** | dead (no window; 40× gap) | never (Γ/H ~ 10⁻⁷) — CMB-safe, S4-dark, 0νββχ-invisible | quiet, at the tie's price |
-| **B: v_L in the corridor (below)** | **alive** (Γ/H ~ 1–10²) | recoupling **after** recombination — CMB primary clean | **the live corner** |
-| **C: v_L ~ MeV** | alive (5×10¹⁰) | **Γ/H ~ 10⁹ — deep recoupling**, the strongly-interacting-ν regime: Planck-tension class *today*, survivable only in the contested interacting-ν mode | data-stressed |
+| **B: v_L in the corridor (below)** | was "alive" via the retracted channel | *(withdrawn — the corridor's fences rode P-2026-049)* | dissolved with the retraction |
+| **C: v_L ~ MeV** | alive (5×10¹⁰, condensate-friction) | *(the deep-recoupling stress was the retracted channel)* | **alive — lane-clean** |
 
 **The corridor's floor fence and the recoupling epoch are withdrawn** (the νν̄ ↔ φ channel is
 kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ — P-2026-049 retracted,
@@ -371,13 +376,13 @@ coupling absent), BBN thermalization (coalescence closed, 2↔2 is g⁴), long-r
 The two-scale structure (f ≠ v_L, three dark fields) stands on the one-scale corner's tie-death
 alone. Corner selection: **open — both corners lane-clean; CMB-S4 is the selector.**
 
-**What the test settles and what it leaves:** B is the only corner
-that keeps the tie's forward mechanism *and* survives the new lane — landing, unforced, in the
-literature's late-recoupling window (a regime with its own H₀-easing lean — noted, not banked);
-its price is the third field, the tightened ΔN_eff budget, and the owed Boltzmann pass. The
-resonant-leptogenesis lane (C's romance) survives only if the interacting-ν mode does. **In every corner one residue stands (the un-merger's own):** the tie's settling mode
-must be re-homed — the recorded mechanism freezes the *Majoron-sector* excitation while the DE
-floor is the *dCDF's*; why the one sets the other's scale is the owed spec. *(The tie's numerical
+**What the test settles and what it leaves (post-retraction state):** the TeV and MeV corners
+are both lane-clean and CMB-S4 is the sole selector (a g ~ 10⁻⁸–10⁻⁹ detection selects MeV and
+its resonant-leptogenesis lane; a null leans high-v_L); the one-scale corner stays tie-dead on
+the condensate-friction ceiling alone. **The un-merger's residue is PAID:** the tie's mode is
+re-homed — the tenth-channel mass relation (the seat term, operator exhibited with its UV form;
+[PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)); the seat constant b is the remaining
+basement-gated number. *(The tie's numerical
 equality, and the c = 9/10 lock that seats on the equality, are untouched by the corner choice —
 what varies is the mechanism's grade.)* The corner selection is open. (iii) The
 one-object field economy is lost — an aesthetic price, stated as one.
@@ -412,8 +417,9 @@ irreducible input.
   factor, and 3D. The genuine residual is the exact O(1) **normalization of the shot-noise count** (the
   "count C" — whether the assembly is exactly (4πk/α_c)³), which lands A_s to −0.35%. Deliberately exposed;
   referees are the live zero-parameter run and the Eliashberg k-audit.
-- **n_s = 1 − 2/ln(M_Pl/T_on) — derived-estimate** (the census drift; the banked form's own grade
-  is unchanged). **The 2D-Gaussian mechanism route, adjudicated by computation (2026-07-17):** the
+- **n_s = 1 − 2/ln(T₀/k), k-local — mechanism candidate (exhibited): 0.9677 at the pivot,
+  predicted running −5.2×10⁻⁴** (the banked k-independent 1 − 2/ln(M_Pl/T_on) = 0.9641 is retired
+  to consistency-check grade). **The 2D-Gaussian mechanism route, adjudicated by computation (2026-07-17):** the
   candidate microphysics (winding field as a 2D transverse log-correlated height model, δ ~ h²) had
   its owed step — the exact χ²-field convolution P_δ(k) — computed, and **the direct reading
   FAILS**: the exact spectrum is k²P_δ ∝ ln(k/k_IR) (numerics match the analytic 2·ln(k/k_IR)/π to
@@ -529,10 +535,10 @@ entire remaining open surface is:
 
 | open object | what it decides | gated on |
 |---|---|---|
-| the two-channel even-split theorem | A = √2, θ_seed = 135°, the Koide door | the basement build |
-| the linear-map postulate (occupancy at mean energy → frozen gap) | the anchor's −3/2 | the basement build |
+| the two-channel even-split theorem (now: sector-equipartition, cascade-delivered) | A = √2, θ_seed = 135°, the Koide door | the ring-on-ring trial, arm 2 (torus; zones sealed — T6) |
+| the linear-map postulate (occupancy at mean energy → frozen gap) | the anchor's −3/2 | rides the same trial (the quadratic-sensor grammar transfer) |
 | the seat constant b | κ_m's exact value | the basement build |
-| T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 1.5% prediction | the lattice (external; the note is drafted) |
+| T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 1.5% prediction | the lattice (external; the note APPROVED FOR CIRCULATION) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ξ window | CMB-S4 |
 | the running referees (f̄/α_c chains; the evidence pair) | the amplitude stack; dyad vs ΛCDM | the box |
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
