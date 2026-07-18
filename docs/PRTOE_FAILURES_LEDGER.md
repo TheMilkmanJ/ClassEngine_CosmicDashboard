@@ -1125,3 +1125,20 @@ structural: anchor-capable conditions carry a μ-log and are single-object (the 
 object-combining conditions are RG-invariant and log-free, so they cannot anchor. The ½ + 1
 arithmetic is permanently numerology — no forcing structure exists in this class. The
 exponent's honest state is final at one loop: **no route named, none pending.**
+
+**The seam classification, and the census of the country (same day).** Why five routes died is
+now structural: the constant is **seam-class** — neither a ratio (invariant conditions cancel
+their logs; they fix ratios like m_σ = 2M) nor a scale (it is dimensionless) but the pure
+number that converts a scheme condition into a physical scale. All five routes searched
+single-sector menus, and seam constants live where two structures meet. The census of the
+seam country, at single-log normalization with both endpoints corpus-pinned: pole/MS-bar mass
+2/3 · MOM 5/6 · MS/MS-bar 0.977 (excluded anyway — renames M_red, which is pinned elsewhere) ·
+thermal dimensional-reduction 1.954 · BCS Δ/T_c 0.568 · BCS prefactor 0.126 — **none is 3/2 —
+except one: the nonrelativistic phase-space power (mT/2π)^(d/2), whose d/2 = 3/2 in three
+spatial dimensions rides a SINGLE log natively** (phase-space counting, not a loop bracket;
+the same "3 = d" the corpus books in α_c = 3α). Grade: **named lead, unowned — route 6.**
+Three conditions before it is a route: (i) the anchor's condition must actually cross a
+nonrelativistic counting seam; (ii) the phase-space log's argument must be pinned O(1) at the
+gap scale by the condition itself, not by choice; (iii) the sign must come out −3/2. Fences:
+scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 is a different object
+class — do not book it.
