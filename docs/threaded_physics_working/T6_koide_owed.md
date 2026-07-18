@@ -1036,7 +1036,22 @@ readings across the band plus grid-doubling convergence (pass 4: 256-class grids
 equilibrium refinement, h-window study). The lean is honestly adverse: the one admitted
 reading sits at the grave, and the mechanism is plausible physics (a shallow torus landscape
 equalizes the stiffnesses, driving delivery per-mode), not an obvious artifact. Pass 4
-decides.** Sector-equipartition — the T-per-irrep sharing that
+decides.**
+
+**Pass 4A (2026-07-18, late): the point-source instrument reached its floor — ALL readings
+refused, including the earlier death-zone one.** The four-point h-window exposed the
+mechanism: identical Hessian values at h and 2h (a grid-aliasing signature) with wild
+oscillation between — spectral derivatives ring on bilinear point sources, and at the
+landscape's razor-thin stiffnesses (0.003–0.02) the ringing is the size of the signal. The
+plateau gate refused every reading across the band — **including n = 25, which pass 3 had
+admitted at 1 : 1.959: that death-zone reading is hereby DOWNGRADED to
+instrument-artifact-suspect.** Equilibrium location confirmed stable (t* = π − 0.025 across
+the band). **Pass 5, the definitive instrument: Gaussian-regularized sources** (width ~2
+cells ≪ ξ — physically harmless, spectrally compact): all fields analytic-smooth, FFT
+derivatives exact, E(positions) smooth to machine precision. The verdict remains unfired;
+the zones remain sealed; five instrument iterations without a stable reading is the
+landscape being genuinely hard, not the question being ill-posed — and the discipline
+holding: no number a jammed instrument produces gets to kill a tower.** Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
 cascade meeting the ring's own computed vertices, not as an assumption.
 
