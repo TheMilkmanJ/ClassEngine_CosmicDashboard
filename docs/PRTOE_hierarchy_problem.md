@@ -45,34 +45,32 @@ $$\frac{1}{g} = 34.85\text{–}35.43 \;\Longrightarrow\; g = (1.29\text{–}1.31
 $M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ — and the k in the exponent is **the
 corpus's one shared k** (the same screened-interaction coupling that sets A_s: gap-equation
 1.360, closed form 1.36461, A_s-measured 1.3602 ± 0.0064 — one object, three determinations,
-`scripts/concordance.py`). **The candidate resolution of the exponent (2026-07-17):** with
-the shared k, $1/(k\alpha_c) = 33.474$, while the measured anchor needs
-$\ln(M_{\rm red}/4\pi m_H) = 34.975$ — a residual of **1.5014**, which is the standard
-one-loop Coleman–Weinberg constant **3/2 to 0.09%**:
+`scripts/concordance.py`). **The exponent's residual:** with the shared k,
+$1/(k\alpha_c) = 33.474$, while the measured anchor needs
+$\ln(M_{\rm red}/4\pi m_H) = 34.975$ — a residual of **1.5014** at m_H central,
+**1.5000 exactly at m_H + 1σ**. Writing the exponent with that constant:
 
 $$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)\,-\,3/2} = 1576\ \text{GeV}\quad
 (\text{measured } 4\pi m_H = 1574;\ +0.14\%)$$
 
-One coupling serves both floors (A_s to −0.35%, the anchor to +0.14%) once the exponent
-carries the textbook loop constant. **Grade: candidate.**
-The −3/2 is not a menu pick — it is **the model's own recorded bracket constant**: the T_c
-derivation's one-loop structure is L − 1 = ln(m_e0²/μ²) − 3/2 (the fermionic MS-bar
-Coleman–Weinberg constant, [PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md) §2,
-[PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4), and the census states in the anchor loop are
-fermions — the same constant class. Precision: the residual is 1.5014 at m_H central and
-**1.5000 exactly at m_H + 1σ** — 3/2 sits inside the Higgs-mass error bar alone. The data also
-**selects the log normalization**: a single-log gap condition [ln(M_red/M) − 3/2] = 1/(kα_c)
-gives residual 3/2 (matches); a squared-mass-log form would give 3/4 (excluded). **The attachment was then attempted
-three ways (2026-07-18), and all three natural conditions fail:** the CW minimum gives a
-+1/2-class constant at squared-log (excluded); the quartic-zero/tachyonic onset gives 3/4
-(excluded); the sharp-cutoff BCS gap equation gives ln 2 = 0.693 (excluded). **The surviving
-structure is one named route:** the RG running is *natively single-log*
-(1/α(μ) = 1/α(M_red) + b·ln(M_red/μ)), and the 3/2 would enter as the fermionic MS-bar
-**threshold-matching constant** between the running coupling and the gap-scheme coupling — that
-matching computation is the owed object, and the candidate's grade rests on it. Guards that stand: the sharp precision rides the closed-form k (the
-A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and the result is conditional on the
-recorded 4πm_H anchor definition. Kill (i) below reads: fires if the exhibited gap condition
-does not produce the −3/2-class constant at single-log normalization. The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
+One coupling serves both floors (A_s to −0.35%, the anchor to +0.14%). The data selects the
+log normalization: a single-log gap condition [ln(M_red/M) − 3/2] = 1/(kα_c) matches; a
+squared-mass-log form gives 3/4 (excluded). **Grade: sharp underived residual — the
+derivation of the 3/2 is DEAD.** All four natural attachment routes were computed and fail:
+the CW minimum gives 1/2, the tachyonic onset 3/4, the sharp-cutoff BCS gap equation ln 2,
+and scheme/threshold matching gives {0 (gauge decoupling), 5/6 (momentum-scheme), 1 (the
+pairing-susceptibility scheme — the honest reading of "gap-scheme coupling")}. The
+obstruction is structural: every one-loop dimensional-regularization constant enters against
+ln μ² (squared-log), so it halves at this single-log normalization — landing 3/2 requires a
+squared-log constant of 3, absent from the one-loop fermionic menu. The earlier
+identification with the T_c derivation's own bracket constant (L − 1 = ln(m_e0²/μ²) − 3/2)
+is **retracted** on the same ground: that bracket is squared-log, and at this normalization
+it predicts the excluded 3/4 (autopsy:
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). Any future exhibition must produce 3
+at squared-log or a natively single-log mechanism. Guards that stand: the sharp precision
+rides the closed-form k (the A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and
+the result is conditional on the recorded 4πm_H anchor definition. The coupling in the
+exponent is not new — it is the SAME $\alpha_c = 3\alpha$
 that runs the dyad and prices the vacuum (the one-coupling portfolio).
 
 **(c) The Higgs mass with no bare term.** Under the no-bare clause $m_H^2$ must be
