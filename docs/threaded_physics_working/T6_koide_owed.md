@@ -951,7 +951,32 @@ q_inj·R₀ = n·R₀/R_v ≥ 5.5 and gets ≈ n = 11–25 at R₀ ≈ R_v). The
 the three defects IN the genesis medium; whether the recorded geometry pins R₀/R_v at the
 crossing value is the complex's last question. **Standing: LIFE conditional on
 x_out ≈ 0.85 ± the crossing width — one recorded-geometry ratio from a verdict, with every
-method artifact now dead and every other input derived, pinned, or recorded.** Sector-equipartition — the T-per-irrep sharing that
+method artifact now dead and every other input derived, pinned, or recorded.**
+
+**THE LAST PIN, read (2026-07-18): NOT RECORDED — and the gap is an old friend.** The genesis
+wing was swept: the corpus records the family ring's shape (120°) and its size in κ-units
+(R = 1/√κ), and the genesis structures (helical vortex ring, acoustic horizon, torus) carry
+their own scales — but **no recorded relation ties the family confinement κ to any genesis
+scale.** This is not a new hole: it is the file's own oldest negative — *"the Lagrangian is
+missing its BACKGROUND"* — now seen from the infrared side. The missing M-locator and the
+missing x_out are one absence: the family sector, as built, does not know the outside world.
+
+**The candidate postulate, named (unforced, form-natural): RING-ON-RING.** If the three
+family defects live on the genesis vortex ring's own 2D sheet, ONE geometric statement
+supplies everything at once: the host's finite geometry IS the confinement (κ from the
+sheet's size/curvature — discharging the missing-background debt), the host's size IS the
+cascade's outer scale, and R₀/R_v = O(1) follows instead of being chosen. Blind-writability
+status: the postulate's FORM is natural (the defects need a 2D host under the log coupling —
+"effectively 2D" is already booked — and the genesis ring is the era's recorded 2D
+structure, in four files), but nothing recorded FORCES it, and its O(1) coefficients are
+verdict-deciding: naive sphere readings give x_out ∈ [1.0, √2] — **straddling and leaning
+PAST the death boundary** (the crossing demands x_out ∈ [0.72, 0.97] for life within 35%,
+[0.82, 0.88] for the sharp claim; blowout above ~1.2). **The trial is therefore
+pre-registered OPEN-OUTCOME: compute the curved-host geometry exactly (the cascade's true
+gravest mode on the host, the defect ring's true equilibrium radius, the exact κ) with no
+knowledge-of-0.85 allowed in any choice. Naive grade leans death; the careful geometry
+decides. If x_out lands the crossing, the complex stands end to end; if it lands the floor
+or the blowout, the tower falls with complete receipts.** Sector-equipartition — the T-per-irrep sharing that
 the whole complex rests on — is hereby exhibited as the OUTPUT of the corpus's own genesis
 cascade meeting the ring's own computed vertices, not as an assumption.
 
