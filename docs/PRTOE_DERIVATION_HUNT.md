@@ -535,7 +535,7 @@ entire remaining open surface is:
 
 | open object | what it decides | gated on |
 |---|---|---|
-| the two-channel even-split theorem (now: sector-equipartition, cascade-delivered) | A = √2, θ_seed = 135°, the Koide door | the ring-on-ring trial, arm 2 (torus; zones sealed — T6) |
+| sector-equipartition's deliverer (the even-split theorem's mechanism) | A = √2, θ_seed = 135°, the Koide door | **REOPENED — the ring-on-ring deliverer is DEAD (sealed-trial execution, 2026-07-18; ledger). The equivalences stand as mathematics; the mechanism slot is empty behind a mapped minefield** |
 | ~~the linear-map postulate~~ — DISCHARGED: the −3/2 derived at additivity grade (boost-dressed cutoff, geometric mean, equipartition — hierarchy §2b) | the anchor's −3/2 | the shared additivity neck (one assumption corpus-wide; the ring-on-ring trial tests its Koide instance) |
 | the seat constant b | κ_m's exact value | the basement build |
 | T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 1.5% prediction | the lattice (external; the note APPROVED FOR CIRCULATION) |

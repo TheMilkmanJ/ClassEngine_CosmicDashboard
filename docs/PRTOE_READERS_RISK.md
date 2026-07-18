@@ -27,9 +27,10 @@ everywhere atomic physics appears.
   own grades (§3).
 - **Koide protection** — the multiplicative-universal lepton coupling explains *why* Koide's Q
   survives a 1.24% mass shift (a real improvement; mainstream has no account). *Candidate: protection
-  derived; the reason Q = 2/3 at all (A = √2) is not yet derived — a complete candidate chain
-  (sector-equipartition delivered by the genesis cascade) is assembled with a pre-registered
-  geometric trial pending, kill zones sealed before computation.*
+  derived; the reason Q = 2/3 at all (A = √2) is NOT derived — the one assembled candidate
+  chain (cascade-delivered sector-equipartition) was executed by its own pre-registered trial
+  (kill zones sealed before computation; all readings in the death zone). The equivalence
+  A = √2 ⟺ sector-equipartition stands as mathematics; the mechanism slot is honestly empty.*
 - **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived*, independent of the
   pairing sector.
 
