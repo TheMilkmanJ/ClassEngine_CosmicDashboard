@@ -38,15 +38,27 @@ identically, so **Q = 2/3 ⟺ A = √2 ⟺ ⟨a²⟩ = 1 ⟺ the RMS of the √m
 — verified on the pole masses to 10⁻⁵ (Q = 0.6666605, ⟨a²⟩ = 1.0000). In the two-fluid reading
 that is the balance point where the fluctuation (the −k_down face) equals the background (k_up).
 
-**The linkage.** For a scalar family field with EoS w = (K−V)/(K+V), the kinetic/potential ratio is
-K/V = (1+w)/(1−w). If the fluctuation carries the field's kinetic energy (K ∼ R²) and the
-background its potential (V ∼ M²), then A² = R²/M² = (1+w)/(1−w), and the **derived** pre-basin
-radiation value w = 1/3 — the relativistic virial, K = 2V — gives A² = 2, **A = √2**. This is not a
-second assumption bolted onto w = 1/3: a pre-basin excitation sits *in* a medium whose EoS is
-w = 1/3, so its kinetic/potential split is fixed by the medium it lives in. The energetic form also
-makes w = 1/3 the *unique* physical root. The structure parallels the dark-energy scale freezing at
-neutrino decoupling ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b): **a
-scale inherits its epoch's equation of state at the moment its bath decouples.**
+
+**The linkage (and the inheritance claim that does not hold).** For a scalar with EoS
+w = (K−V)/(K+V), the kinetic/potential ratio is K/V = (1+w)/(1−w). If the fluctuation carries
+the field's kinetic energy (K ∼ R²) and the background its potential (V ∼ M²), then
+A² = R²/M² = (1+w)/(1−w), and w = 1/3 gives A² = 2, **A = √2**. That conditional chain is
+algebraically clean. What is **not** automatic — walked and retired 2026-07-17 — is the claim
+that a pre-basin excitation "sits *in* a medium whose EoS is w = 1/3, so its K/V is fixed by the
+medium." **Medium w and field w are different objects.** A separate scalar in a radiation
+background has its own dynamics: overdamped and frozen (K ≈ 0, w_field ≈ −1) when m ≪ H;
+oscillating with ⟨K⟩ = ⟨V⟩ (w_field = 0) when m ≫ H. Neither regime gives K = 2V. The medium's
+radiation EoS does not transfer to an embedded field by proximity. *(Ledger:
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) — "medium-w inheritance for Koide.")*
+
+
+**What would still close the blank.** Either (i) the family structure is **not** a separate field
+but a modulation of the medium itself (so its stress tensor *is* the medium's, and w = 1/3 is
+native), or (ii) the family field's own potential forces K ∼ R², V ∼ M² with K/V = 2 by a
+mechanism that does not lean on the medium's EoS. Both remain unbuilt. The structure parallel to
+the dark-energy freeze at neutrino decoupling
+([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b) survives only under (i): a
+scale inherits its epoch's EoS when it *is* that epoch's medium, not when it is a spectator.
 
 **What is owed, and it is one thing.** The identification K ∼ R², V ∼ M² — that the √m spectrum's
 fluctuation *is* the family field's kinetic energy and its background *is* the potential — is a
@@ -57,6 +69,30 @@ floor's missing object is named: **the background M**. The log coupling derives 
 and its scale (R = 1/√κ), but **A = R/M is a ratio to a centre no term in that energy locates.**
 Until the identification is exhibited on the masses, the packet is a sharp restatement, not a
 derivation.
+
+
+**Hard landing pass (2026-07-17) — the energetic reading's regime problem.** Even granting
+K ∼ R², V ∼ M²: freeze (K → 0, w → −1) and the virial K = 2V (w = 1/3) are **opposite regimes**.
+A must be set pre-freeze during tracking, then locked. Quartic tracking gives w = 1/3 but drives
+A → 0; harmonic supports A ≠ 0 but freezes at w = 0. Single-potential shortcuts are closed.
+Statistical O(1) balances (equipartition, CS midpoint, GBM) cannot deliver 10⁻⁵ from one draw.
+Full kill table and the re-posed blank: [T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+**Status unchanged: landing not derived; protection still is.**
+
+
+**Remaining-shapes walk (same day).** Topology deferred-closed (no invariant = √2). Two-deposit
+knobs live as shape only; Komar-balance map killed (produces A = 1/√2 — fence: do not flip labels).
+Two-field architecture reduces to equal stiffness under medium-modulation. Basement lock 6 is a
+target, not a payment.
+
+
+**Equal stiffness PAID from the field-space metric.** Canonical kinetic term for three real
+scalars ⇒ canonically normalized singlet M_c = √3 M and doublet radius R_c = √(3/2) R have
+equal stiffness by construction. The (M,R) coefficient mismatch was a coordinate artifact.
+Exact rewrite: **A = √2 · (R_c/M_c)**, so **A = √2 ⟺ R_c = M_c**. Residual blank: why the two
+canonical amplitudes are equal as classical VEVs to 10⁻⁵. Fence: natural Z₃ cubic
+V ⊃ −g Σφ³ minimizes at **A = 2**, not √2. Details:
+[T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
 
 **The genesis tilt's 2/9 is an echo, not a witness.** ε_A's registered value 2/9 reproduces Koide's
 fraction, but provenance audit shows it was **imported** from Koide rather than appearing

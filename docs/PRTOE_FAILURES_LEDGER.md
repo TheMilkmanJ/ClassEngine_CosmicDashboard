@@ -60,6 +60,11 @@ Undated entries below read against this register.*
 | **The "Z4 torus" floor for the generation structure** (three families living on the condensate's phase space) | **RETIRED 2026-07-14, and the retirement is why later attempts kept failing.** Family space is **Z₃, not the condensate phase** — the family ring is not the fields' space. Any structure seating the dyad, the dCDF or the pour *on the family ring* re-crosses this line and must answer it. *(Recorded here because the main Koide file went on asking "three families on the Z4 torus?" as an open question for three days after the ruling — a live doc stale against its own working file.)* | 2026-07-14; the stale question corrected 2026-07-17 |
 | **The wide-seam / 2D-Potts mechanism for Koide's A = √2** | **RETIRED BY THE MEASURED Q, within hours of being proposed.** The argument: the family field's log coupling ⟹ d = 2; discrete Z₃ in 2D ⟹ 3-state Potts (β = 1/9, not mean-field) ⟹ Gi ~ O(1) ⟹ the neutral zone is *broad*, so no attractor is needed to hold the system on it. **It backfires.** Q = 0.6666605 ± 6.8×10⁻⁶ pins var/mean² = 1 to one part in 10⁵. A *broad* region explains why no fine-**tuning** is needed and fails to explain the fine-**landing** — large fluctuations make an exact moment identity *less* expected, not more. The argument removed the need for a mechanism and the mechanism together. **Also: its step 2 was a category error** — "the two faces are equal" (mean vs variance: two *moments*) was asserted to be the same statement as "the two phases are degenerate" (ordered vs disordered: two *phases*). Different "twos", matched on phrasing. *(The regime fact survives and is kept in T6: the family field is not in the dyad's mean-field class. It is NOT registered as a prediction — the family transition sits at genesis, so its exponents govern nothing tunable.)* | 2026-07-17 |
 | **The SOC-attractor mechanism for Koide's A = √2** ("one hinge carries both the DE closure and the family amplitude") | **RETIRED — its motivating premise is false.** The candidate rested on *"a critical seam is measure-zero, so an attractor must hold the system on it."* The family field's regime says otherwise: its 120° ring is the three-defect equilibrium under a **log** coupling ⟹ effectively **2D**; a discrete Z₃ order parameter in d = 2 is the **3-state Potts** class (β = 1/9, α = 1/3, ν = 5/6 — *not* mean-field) ⟹ **Gi ~ O(1)** ⟹ the neutral zone, whose width *is* the Ginzburg window, is **broad**. A system in a wide critical region needs no attractor to sit in it. **Koide does not need the SOC attractor; the DE closure still does; the two were never linked.** Proposed and retired within a day, on the regime question it should have asked first | 2026-07-17 |
+| **Medium-w inheritance for Koide's A = √2** ("sits in a w = 1/3 medium ⇒ K = 2V") | **RETIRED — category error.** Medium EoS and field EoS are different objects. A spectator scalar is frozen (w ≈ −1) or oscillating (w = 0); neither inherits K = 2V from radiation. The conditional IF w_field = 1/3 AND K∼R², V∼M² THEN A=√2 stays clean; the free lunch that made w_field automatic is dead. Full autopsy below | 2026-07-17 |
+| **Single-potential / statistical routes to Koide A = √2** (quartic virial, harmonic equipartition, CS midpoint, GBM, 1D log gas, hand-built (R²−2M²)²) | **RETIRED as a class.** Freeze (K→0) and energetic K=2V are opposite regimes; quartic tracking drives A→0; harmonic freezes at w=0; statistical O(1) balances cannot deliver 10⁻⁵ from one draw. Structural tension named; blank re-posed for multi-field / topological / basement only. Autopsy below | 2026-07-17 |
+| **Komar-balance map to A = √2** (pour/dCDF active-mass balance + ρ∝amp²) | **KILLED — produces A = 1/√2 (the inverse).** Fence: do not swap M↔R to rescue. Signs still support face assignment only | 2026-07-17 |
+| **Topology or lock-6 as payment for A = √2** | **DEFERRED-CLOSED / DELEGATION.** No present invariant equals √2; lock 6 is a basement target not a mechanism; square√2 fights Z₃ | 2026-07-17 |
+| **Natural Z₃ cubic V ⊃ −g Σφ³ as A = √2 mechanism** | **KILLED.** Free min of Mexican-hat + cubic sits at **A = 2** (axis vacuum) for all g tried — fights Koide | 2026-07-17 |
 | **P-2026-036's registered Y_p = 0.2495–0.2505** ("the helium war resolves high") | **RETIRED — the LT *step* value.** The ramped ε(T) gives **0.24900**, *below* the registered interval, and the kill threshold weakens from **+4σ to +3.5σ** (EMPRESS-ward). The prediction's DIRECTION survives — 0.24900 still sits above both Aver (+1.09σ) and EMPRESS (+3.53σ) — but its quoted value and its kill were both step-derived | ramped splice, 2026-07-16 |
 | **P-2026-022's reading A** ("the thermal/global gate: a sharp global step") | **RETIRED — an illegal step.** A global thermal gate switching off is a dynamical discontinuity: not quantized, not topological, not a protected zero ⟹ **no exemption clause** under amendment 5. The model now **commits to reading B** (the σ8-tracking fade over z ≈ 30–60), which *sharpens* the entry: a confirmed sharp global step now counts AGAINST the model instead of selecting one of its readings | 2026-07-16 |
 | The BBN engine's ramp keyed to T_c = 193 keV | the stamps (0.64ε, 0.79ε) are 1 − T/**193** — the *perturbative Coleman–Weinberg cross-check* — while the model derives T_c = **179 keV** (τ·m_e). Engine and stamps re-keyed to the derived value (0.61ε, 0.78ε); 193 demoted to an explicit cross-check | witness restatement, 2026-07-16 |
@@ -160,6 +165,37 @@ discipline working as designed. A clean kill of an over-pretty rational. *(The c
 M² = m_N/3, is not killed but stays a soft, unadjudicable one: M² = 313.84 ± 0.017 MeV is +0.28% —
 ≈51σ — from the sharp nucleon m_N/3, matching only if the constituent scale floats over its
 300–360 MeV scheme band.)*
+
+### The dyad VEV conflation (v ≈ 100 keV) — self-caught error, closed-form fix (2026-07-17)
+
+**The error:** the 2026-07-10 gate-0 VEV derivation inserted the *delivered shift* ε in the slot of
+the *dimensionless coupling* κm_e0² (they differ by (m_e0/v)² ≈ 8.6), yielding
+v = m_e0·[ε(L−1)/4π²]^{1/4} ≈ 100 keV — a normalization under which the dyad delivers only
+κv² ≈ 5×10⁻⁴, **25× short of its own ε = 1.2543%**. Caught 2026-07-17 by the normalization-fork
+forensic pass (itself triggered by the non-thermalization build). **The fix (closed form):** impose
+the CW minimum and κv² = ε together ⟹ **v = m_e0·[ε(L−1)/4π²]^{1/6} ≈ 175 keV** (150/196 band),
+κm_e0² ≈ 0.108, fluctuation vertex g_ee = 2εm_e0/v ≈ 0.073. **Untouched:** T_c (κ cancels), τ, ρ_Λ,
+and the gate-0 reduction itself (v still from m_e0 + ε alone, now at a more robust 1/6-power).
+**Fork adjudicated in the same pass:** the operator is quadratic-canonical (dark-U(1) forbids the
+linear coupling — gate0_qft §1); the "linear g_ee" was never an independent operator. All rate
+implications for the non-thermalization finding change by ≤ 10², adverse direction.
+
+### The n_s 2D-Gaussian χ² mechanism (the direct δ ~ h² spectral reading) — KILLED by its own owed step
+
+**What it claimed (candidate, 2026-07-17):** the tilt n_s − 1 = −2/ln(M_Pl/T_on) derived from the
+winding field as a 2D transverse log-correlated Gaussian field with δ ~ h²: the log from 2D, the
+−2 from the quadratic field power (A_s ∝ σ⁴).
+
+**Time of death — 2026-07-17, by the named owed computation.** The exact χ²-field convolution
+P_δ(k) = 2∫P_h P_h gives k²P_δ ∝ ln(k/k_IR) (numerics match the analytic 2·ln(k/k_IR)/π to 4
+decimals), i.e. tilt **+1/ln(k/k_IR)** — wrong sign (blue), wrong coefficient (1 not 2), and
+IR-anchored where the banked form needs UV. Cause of death: the σ⁴ step conflated the one-point
+variance with the per-mode spectrum. **What survives:** the scale identities (k_UV = a_on·T_on = T₀
+exact; the argument-log equivalences), and one narrow un-built route — a modulation/local-amplitude
+map (amplitude at k set by the UV-integrated variance), which is not the χ² spectrum and has not
+been exhibited. The banked n_s form itself is untouched (its grade was never mechanism-dependent).
+*Discipline note: the candidate was booked and its killer computed the same day — the owed step
+named at booking is what killed it.*
 
 ### The Goldstone-cancellation first route (shift symmetry zeroes the zero-point) — FAILED
 
@@ -629,6 +665,92 @@ debt. **A d = 3 identity, not a derivation.**
 
 **The fence.** Do not re-raise the Komar factor as support for A² = 2. Two functions of w agreeing
 at one w is not corroboration — it is one fact counted twice. The Koide debt is unchanged.
+
+
+### The medium-w inheritance for Koide's A = √2 — RETIRED (2026-07-17)
+
+**What it claimed.** The energetic reading: a scalar with w = (K−V)/(K+V) has K/V = (1+w)/(1−w);
+if K ∼ R² and V ∼ M² then A² = K/V; at the radiation value w = 1/3 this gives A² = 2. The step that
+was supposed to make w = 1/3 *automatic* was: *"a pre-basin excitation sits in a medium whose EoS
+is w = 1/3, so its kinetic/potential split is fixed by the medium it lives in."*
+
+**What kills it — category error, not a missed calculation.** Medium w and field w are different
+objects. A separate scalar embedded in a radiation background does **not** inherit K = 2V:
+
+| regime | field dynamics | field w | K/V |
+|---|---|---|---|
+| m ≪ H (light, overdamped) | frozen by Hubble friction | ≈ −1 | K ≈ 0 |
+| m ≫ H (heavy, oscillating) | virialised oscillations | 0 | ⟨K⟩ = ⟨V⟩ |
+| relativistic free field | — | 1/3 | K = 2V only if the *field* is the radiation |
+
+None of the spectator regimes give the needed K/V = 2 from the *medium's* EoS. Proximity is not
+inheritance. The conditional chain "IF w_field = 1/3 AND K ∼ R², V ∼ M² THEN A = √2" remains
+algebraically clean; the claim that the medium *supplies* w_field = 1/3 is dead.
+
+**What survives as the blank's shape.** Either (i) family structure is a **modulation of the
+medium** (native w = 1/3, not a spectator), or (ii) the family potential forces K ∼ R², V ∼ M²
+with K/V = 2 by a mechanism that does not lean on medium EoS. Both unbuilt. Same debt as before,
+one false bridge removed.
+
+**The fence.** Do not re-raise "sits in a w = 1/3 medium ⇒ K = 2V" as support for A = √2. Corrected
+in [PRTOE_koide_relation.md](PRTOE_koide_relation.md) and [T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+
+
+### Hard Koide landing — single-potential and statistical routes RETIRED (2026-07-17)
+
+**What was tried.** Force classical VEV ratio A = R/M = √2 to 10⁻⁵ via: quartic virial; harmonic
+equipartition; CS midpoint; GBM on masses; 1D log gas; hand-built (R²−2M²)²; harmonic multiplet
+as w = 1/3 carrier.
+
+**What killed them (one line each).** Quartic: K/V = 2 for any A, minimum at A = 0. Equipartition:
+widths ≠ VEVs; one draw ≠ 10⁻⁵. CS/GBM: O(1) statistics, no δ-function. 1D log gas: M = 0.
+Hand-built: answer in the Lagrangian. Harmonic: w = 0 not 1/3.
+
+**The structural tension (the real yield).** Freeze (K → 0) and energetic K = 2V are opposite
+regimes. Pre-freeze tracking that keeps w = 1/3 (quartic) drives A → 0; potentials that hold A ≠ 0
+(harmonic) freeze at w = 0. **No simple single-potential door closes both.** Future attempts must
+be multi-field, topological/protected, or basement boundary conditions — not a smarter one-potential
+virial.
+
+**Fence.** Do not re-raise quartic-alone, equipartition-as-VEV, or CS-midpoint as the landing.
+Details: [T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+
+
+### Komar-balance map to Koide A = √2 — KILLED (gives the inverse) (2026-07-17)
+
+**The map.** JP knobs + earned Komar signs: pour active mass m_WH = ρ_M > 0, dCDF
+m_dCDF = ρ_R(1+3w) = −2ρ_R. Force balance m_WH + m_dCDF = 0 (dyad neutral) ⇒ ρ_M = 2ρ_R.
+Equal-stiffness ρ ∝ amp² ⇒ M² = 2 R² ⇒ **A = R/M = 1/√2**.
+
+**Why it dies.** The target is √2; the natural map produces the **inverse**. Flipping M↔R to
+rescue it is answer-fitting (and breaks JP's pour→M, dCDF→R assignment).
+
+**Fence.** Do not re-raise Komar balance as a derivation of A = √2. The *signs* still support the
+face assignment; the *ratio* does not. Full walk:
+[T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md) (remaining-shapes section).
+
+
+### Natural Z₃ cubic as Koide landing — KILLED (drives A = 2) (2026-07-17)
+
+**What was tried.** Z₃-invariant potential V = (λ/4)(Σφ² − v²)² − g Σφ³ on the three real
+family scalars (Mexican hat + cubic), free minimization over (M_c, R_c, θ).
+
+**Result.** For every g sampled (0.01 … 2), the minimum sits at **A = 2** (Rc/Mc = √2) — the
+axis vacuum where one component carries the VEV and two sit at the positivity wall. That is the
+opposite of Koide (A = √2, all three masses nonzero). The cubic **fights** the landing.
+
+**Fence.** Do not cite a natural Z₃ cubic (or “Z₃-invariant potential” without further structure)
+as the mechanism for A = √2. Related: field-space metric walk paid equal stiffness and rewrote
+A = √2 ⟺ R_c = M_c; that residual is still open.
+[T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+
+### Topology / lock-6 as payment for A = √2 — DEFERRED-CLOSED / DELEGATION (2026-07-17)
+
+**Topology:** present discrete objects fix the scaffold (N_gen, Z₃, 120°), not A. No topological
+invariant in the corpus equals √2. Reopen only with a new index I such that A = f(I) = √2.
+
+**Lock 6:** a basement *target* ([PRTOE_light.md](PRTOE_light.md) §6), not a mechanism. Square
+geometry that yields √2 fights Z₃; triangular geometry yields √3. Naming lock 6 does not pay it.
 
 ### The BBN witness's D/H chain — THE η-FLOW WAS SPENT TWICE, AND THE SHELF INHERITED A WITHDRAWN σ (2026-07-17)
 

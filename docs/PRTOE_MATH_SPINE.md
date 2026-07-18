@@ -136,7 +136,9 @@ w = −1 is EXACT for the constant floor — not a step artifact, not rampable. 
 The electron Coleman–Weinberg backreaction on the charge-free field (m_e(φ) = m_e0(1+κφ²)):
 
 > V_CW = −(1/16π²)·m_e(φ)⁴·[ln(m_e(φ)²/μ²) − 3/2] → tachyonic curvature → radiative SSB
-> **VEV: v = m_e0·[ε(L−1)/4π²]^{1/4} ≈ 100 keV** (81/102/121 keV for L−1 = 2/5/10; ±25%, robust)
+> **VEV: v = m_e0·[ε(L−1)/4π²]^{1/6} ≈ 175 keV** (150/175/196 keV for L−1 = 2/5/10; 1/6-power,
+> robust) — the CW minimum imposed together with the delivered shift **κv² = ε** (full), giving
+> κm_e0² = ε(m_e0/v)² ≈ 0.108 and the fluctuation vertex g_ee = 2εm_e0/v ≈ 0.073
 > **T_c = m_e0·√(3(L−1)/2π²)** — κ cancels; log-ambiguous **\~40–450 keV** (NOTE 2026-07-14: the entry-149 re-audit's independent sweep gives [140, 900] keV — the two honest bands disagree at both edges; the union [40, 900] is the defensible envelope until the RG resummation lands; the adopted value is now T_c ≈ 179 keV (the non-perturbative confining chiral ratio), with this perturbative 193 keV a log-ambiguous cross-check inside every version; leading-log unstable
 > near the flat direction; RG resummation = the working docket).
 
@@ -270,8 +272,9 @@ state (floor/constitution/timeless; w=−1 exact \& ageless by theorem) and the 
 (light/matter/observers; Tolman's arrow). Spectroscopy: torus modes = the line spectrum (low-ℓ =
 the first lines); the census = the selection rules; the CMB = the recombination photograph.
 Chemistry: the dyad = one universal lepton rescaling ε (Koide-multiplicative), C²-gated, one
-fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ/H = √3 = the linewidth (why-now
-derived); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
+fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ_par/H = √3 (IR scale) and
+Γ_eff/H = √(3/2) with B = 1/√2 (Jeans growth rate, derived) = the linewidth
+(why-now); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
 board. Biography: first excitation (Tolman arrow, finite past) → lengthening cascades → possible
 ionization (binding energy un-computed). J1 = the ground-state eigenvalue: constitutional, at home.
 **Status: the grammar is coherence (graded throughout);
@@ -283,7 +286,8 @@ the empirical content lives in the children and the symptom chart. The method wa
 **The threading survey:** sixteen direct threads filed and graded (galactic/SMBH
 atoms, the neutrino home, S₈, low-ℓ, Koide's invariance, the lab cousins, the coincidence
 problem [why-now = √3·A_s·the floor — the √3 one-pager discharged: the Friedmann factor,
-value-independent, sharing ONE par-question with c], the purchased silences [direct+indirect],
+value-independent; B = 1/√2 derived from Jeans dispersion, par-question closed
+for the thaw rate], the purchased silences [direct+indirect],
 GW [the vortex null Gμ ~ 3×10⁻²¹; the chirality family's third member], the Hubble standalone,
 the radio lattice, the fingerprint capstone, IGMF helicity, LSS parity). **The protocol** (now
 standing law + memory): ramp-check every compute; improves-bar, no forcing; the kill autopsy

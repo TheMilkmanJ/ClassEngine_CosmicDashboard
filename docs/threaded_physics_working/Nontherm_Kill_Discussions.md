@@ -118,6 +118,127 @@ margin-sized mechanism)*
 
 ---
 
+**[REFEREE — 2026-07-17 — OPENING PROTOCOL STATEMENT]**
+
+The tribunal is open. §1's rules bind all parties, including me. The claim under test is §2 —
+an ADVERSE finding; symmetric skepticism applies: a kill earns the same trial a win earns. Token
+order: my cross-checks (below), then the Defender opens §3, then the Challenger attacks in §4
+with direct replies permitted; I interject only to enforce §1, cap repetition, and rule points
+settled. Rails: this file only; no commits; no runs (the live evidence job is untouchable);
+scratch computation in the jobs tmp dir only. The mandated lanes (Rules 2–5) must each be
+COMPUTED or ruled unanswerable before I close the record. Rule-1 notice in advance: the
+confirmed margins are 10⁸·⁶ (coupling) / 10¹⁷ (rate) — I will strike any O(1)/channel-counting
+litigation on sight.
+
+**[REFEREE — 2026-07-17 — INDEPENDENT CROSS-CHECKS, filed BEFORE argument]**
+*(script: jobs tmp nkt_referee/ref_xchecks.py; all recomputed from constants, not copied)*
+
+**(i) Rate class — CONFIRMS.** Linear fork: g_ee = εm_e/v = 0.0641 at v = 100 keV;
+Γ/H = αg²T·M_Pl/(1.66√g*·T²) at T = m_e, g* = 10.75 → **1.32×10¹⁷** — the claimed 10¹⁷ class.
+Quadratic fork (y = κm_e0 = 2.27×10⁻⁸/eV): Γ/H = 4.2×10¹⁵ at T = m_e (claimed 3×10¹⁵ — same
+class, Rule 1), 3.4×10¹⁸ at 1 GeV. Gravity at the pour scale: (T/M_Pl)³ = 2.8×10⁻⁷ — SAFE,
+as claimed.
+
+**(ii) The bound — CONFIRMS.** Γ = H at T ~ m_e gives g < **1.77×10⁻¹⁰** (claimed 1.8×10⁻¹⁰);
+violation 3.6×10⁸ in coupling, 1.3×10¹⁷ in rate; equivalently v_dyad > 3.63×10⁴ GeV vs recorded
+10⁻⁴ GeV. Quadratic at minimal reheating T_max = 4 MeV: κm_e0² < 6.38×10⁻¹¹ (claimed 6.4×10⁻¹¹);
+ε_max = (κm_e0²)^{3/2}√(L−1)/2π = **1.81×10⁻¹⁶** vs needed 1.25×10⁻² (claimed 1.8×10⁻¹⁶).
+
+**(iii) Dof arithmetic — CONFIRMS.** 27/(7/4) = **15.43**; 4/7 = **0.571**.
+
+**(iv) Pincer temperatures — CONFIRMS.** ξ_dilution = (10.75/106.75)^{1/3} = 0.4652 →
+confinement at T_γ = 179/0.465 = **385 keV**; ΔN_eff ≤ 0.1 needs ξ ≤ (0.1·(7/4)/27)^{1/4} =
+0.2837 → T_γ ≥ 179/0.284 = **631 keV** (claimed 630). ΔN_eff at ξ = 0.465 is 0.723; at ξ = 1,
+15.43. n/p freeze-out ~700 keV, coded ramp onset 179 keV — the desynchronization claim's
+arithmetic is faithful.
+
+**(v) Rule 6 — PROVENANCE AUDIT (each input against the corpus, with its actual grade):**
+1. **v ≈ 100 keV — FAITHFUL.** PRTOE_me_mechanism_math.md:307 (electron-CW self-consistent VEV,
+   81/102/121 keV for L−1 = 2/5/10, ±25%); PRTOE_dyad_gas.md:17 carries it inside a §1 graded
+   **[ESTABLISHED]**. §2's "[ESTABLISHED?]" resolves YES per the identity file's own grade.
+2. **κm_e0² ≈ 0.0116 — FAITHFUL.** Recomputed from the recorded v-formula
+   v = m_e0·[κm_e0²(L−1)/4π²]^{1/4} at v = 100 keV, L−1 = 5 → 0.0116 exactly. Referee's note
+   BOTH sides must carry: the recorded normalization delivers δm_e/m_e = κv² ≈ 4.4×10⁻⁴ (0.044%),
+   NOT the needed 1.25% — §2's "0.33 if the quadratic must deliver full ε" is the honest patch
+   and is correctly flagged as a fork, not a corpus quote.
+3. **g_ee = εm_e/v — DERIVED-IMPLICATION, not a pre-existing corpus record.** The corpus's coded
+   standing mechanism is the QUADRATIC m_e(φ) = m_e0(1+κφ²) (me_mechanism_math.md:304). The
+   linear form is the forced reading of "the dyad VEV delivers ε" under a Yukawa; the finding
+   itself flags the linear-vs-quadratic fork as unresolved (PRTOE_DERIVATION_HUNT.md:147–148).
+   Faithful AS LABELED — the kill runs both forks and both fail, so nothing turns on the fork.
+4. **T_c = 179 keV — FAITHFUL as the CODED value; its grade is the weakest in the input set.**
+   Coded default in scripts/prym_ramped_splice.py:37 (0.179 MeV, ramp w(T) = 1−T/T_c pointwise on
+   the photon-temperature grids — the "coded on T_γ" premise is literally true). BUT the corpus
+   grades T_c as NOT INDEPENDENTLY SOURCED — the observed ρ_Λ inverted-and-rounded
+   (PRTOE_dyad_gas.md:18; PRTOE_DERIVATION_HUNT.md:57–64), perturbative route log-ambiguous over
+   ~40–450 keV (193 keV at the μ = T fixed point). Rule 5 arguments must engage this grade: the
+   pincer's 179 is a coded convention anchored to the flagship τ = 0.3503, not an independent
+   measurement. Note for the floor: moving T_c to escape the pincer moves τ = T_c/m_e and
+   reprices ρ_Λ¼ = (9/2)α⁴τm_e linearly — the pincer and the flagship share the dial.
+5. **f_L = 2.3×10¹¹ GeV — FAITHFUL, and correctly graded dead-era.** me_mechanism_math.md:254
+   (f_L = 2.3×10²⁰ eV, derived from Ψ_rec); the single-field branch is the §7.6 TERMINUS
+   structural no-go (PRTOE_gate0_qft_derivation.md:293), condensation at H = m, z ~ 4×10⁷
+   (line 275; MATH_SPINE.md:225) — not T_c = 179 keV. §2's "passes by 10⁵ but cannot source the
+   coded ramp" checks: g = m_e/2f_L = 1.1×10⁻¹⁵, Γ/H(m_e) = 4×10⁻¹¹.
+6. **The identification (Rule 3's object) — RECORDED.** "Its chiral condensate is the dyad"
+   (PRTOE_DERIVATION_HUNT.md:93–94). Load-bearing sites the tribunal must price if dropped:
+   τ's QCD-like N_f ≥ 2 requirement (§2 of the hunt doc), the Pauli-finiteness N_f = 3 candidate,
+   √σ_dark = m_e as the DE anchor, the 14-Goldstone ΔN_eff = 0.375 pricing, and the m_q squeeze.
+
+**Rule-6 finding: no misquoted input. The kill's inputs are quoted faithfully with their grades;
+the one soft joint is T_c's provenance (item 4), which is Rule 5's designated terrain, and the
+fork (item 3), which the finding itself flagged. The kill does NOT fail on provenance.**
+
+**REFEREE'S PRE-FILED ANCHOR FOR RULE 2 (the massive-dyad branch — scales both sides must use).**
+From the recorded CW curvature |m_φ²(0)| = (κ/2π²)m_e0⁴(L−1) with the recorded v = 100 keV:
+**|m_φ(0)| ≈ 28 keV** (L−1-independent at fixed v, since κ ∝ 1/(L−1)); under the full-ε patch
+(κm_e0² = 0.33): **≈ 147 keV**. Both are BELOW T_c = 179 keV and far below n/p freeze-out
+(~700 keV) — so at the RECORDED scales the thermalized dyad is relativistic at freeze-out, and
+Boltzmann relief arrives only at T ≲ m_φ/3 ≈ 10–50 keV, at or below the deuterium bottleneck.
+Any Rule-2 escape must therefore either (a) compute a mass the recorded potential does not
+supply (and price where it comes from), or (b) show the 27-dof sector's confinement products
+decay to SM before ~700 keV — with rates, against the same bound class as (ii). I will not
+accept an asserted "the dyad is heavy" without its origin priced against v = 100 keV.
+
+**FLOOR STATUS:** cross-checks filed. The token passes to the DEFENDER for §3. Defender: state
+the kill's case in your own numbers (do not merely re-quote §2), address Rule 2 head-on with the
+anchor above, and mark which branches you consider closed by computation vs. closed by corpus
+grade. Then the floor opens to the Challenger.
+
+---
+
+**[REFEREE — 2026-07-17 — INTERJECTION: PRINCIPAL-PROPOSED LANE, entered as a NAMED attack]**
+
+JP (the principal) proposes, and I hereby mandate as a named attack under Rules 2/5 —
+**THE ZERO-MODE / HIGH-f BRANCH**: ε is a classical zero-mode (condensate) effect,
+ε ∝ coupling × amplitude², while thermalization is per-quantum, Γ ∝ coupling² — so ε = 1.25%
+can in principle be held fixed while the coupling drops below the bound by raising the decay
+constant/amplitude. The kill's own record shows the direction passes the rate test
+(f_L = 2.3×10¹¹ GeV passes by 10⁵; v > 3.6×10⁴ GeV is exactly this trade). The tribunal must
+PRICE it, not dismiss it by era-association. Three obligations, assigned:
+
+1. **Scope of the §7.6 no-go (Challenger asserts, Defender answers, I verify).** Does the
+   TERMINUS that killed the SINGLE-field high-f era bind the TWO-field dyad at high f?
+   Dismissal-by-precedent is disallowed if the precedent's recorded scope does not cover this
+   configuration — the Defender must cite the no-go's scope from
+   PRTOE_gate0_qft_derivation.md §7.6 itself, not from its reputation.
+2. **The re-keyed ramp's BBN collateral (Rule 5 lane, both sides compute).** With the
+   electron-CW driver gone (a below-bound per-quantum coupling cannot let the electron bath
+   drive condensation), T_c re-keys to the dark sector's own clock. Under ξ ≤ 0.284 the ramp
+   turns on at T_γ ≥ 630 keV — just below n/p freeze-out (~700 keV). Compute, order-of-magnitude,
+   where Y_p and D/H land under that profile (the coded books: ramped Y_p scar +1.09σ at the
+   179-keV window). Verdict classes available: fatal / adverse-but-survivable / neutral.
+3. **Sector drag under this branch (Rule 3 × Rule 2).** With the dyad's SM coupling below the
+   bound, does ANY remaining channel thermalize the SU(2) sector? If none does, the remaining
+   charge is the never-thermalized sector's own freeze-in/dilution footprint (ΔN_eff = 0.723 at
+   ξ = 0.465, less at earlier decoupling) — price it against the ramped Y_p books.
+
+If this branch survives with a named price, the verdict class is **NARROWED** per Rule 7 and the
+price statement IS the finding. Both sides are on notice; the Challenger owns the affirmative
+computation, the Defender answers with computation, not precedent.
+
+---
+
 ## PROTOCOL (the house tribunal rules)
 
 - Token passes through the Referee. Every word in this file, timestamped, labeled.

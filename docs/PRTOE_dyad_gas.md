@@ -14,7 +14,7 @@ of TWO dark fields — its partner is the dCDF superfluid
 ## 1. What it is [ESTABLISHED]
 
 Field 2 of the dark sector: a **charge-free field that couples to the electron**. It condenses via
-the electron's Coleman–Weinberg backreaction (radiative SSB): VEV **v ≈ 100 keV**, condensation
+the electron's Coleman–Weinberg backreaction (radiative SSB): VEV **v ≈ 175 keV**, condensation
 temperature **T_c ≈ 179 keV** (the observed ρ_Λ inverted-and-rounded, not independently sourced; the perturbative μ = T
 fixed point gives 193 keV, log-ambiguous over [40, 900] keV, as the cross-check).
 

@@ -107,11 +107,11 @@ cosmologically foreclosed.
 ## The ask
 
 (a) Your read on whether the meV-window prediction is presented in the form most useful
-to the 0νββ community — especially the two-sided kill structure; (b) **a critical eye on the
-BBN sector, which is where we are weakest** — specifically whether the PRIMAT/PArthENoPE
-deuterium spread should be carried as a theory error (which is the difference between this
-model being rejected at 5% on BBN and being comfortable there), and whether the dark-ages
-radio referee is a real path;
+to the 0νββ community — especially the two-sided kill structure; 
+(b) **a critical eye on the BBN sector, which is where we are weakest** 
+— specifically whether the PRIMAT/PArthENoPE deuterium spread should be carried as 
+a theory error (which is the difference between this model being rejected at 5% on BBN 
+and being comfortable there), and whether the dark-ages radio referee is a real path;
 (c) any interest in the model-vs-ΛCDM comparison rerun with the nEXO/LEGEND/CUPID
 sensitivity bands overlaid on the m_ββ window.
 
