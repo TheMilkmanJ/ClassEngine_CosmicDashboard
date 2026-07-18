@@ -9,11 +9,11 @@ No verdict may be argued after the fact — the rules below were set before the 
 ## Sitting NOW (in-house machines)
 | referee | grades | decision rule | ETA |
 |---|---|---|---|
-| **THE REFEREE** (dyad_ev PolyChord) | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless | days |
-| the ΛCDM twin (cmp_lcdm_ev) | the ΔlnZ denominator | same stack, same nlive — no comparison without it | after the referee |
-| **zon_disp** (paused at 457, resumes post-referee) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, FIVE freezes | converged (R−1 < 0.05) center INSIDE 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; ABOVE ~7.8 = the named branches must pay | days after resume |
-| the thaw chain (fresh, resumes) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself | days after resume |
-| conv_desi (queued) | the S₈ g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; the 10ε/1-8 candidates stay firewalled | after the thaw chain |
+| **THE REFEREE** (cmp_prtoe_fixed PolyChord; restarted 2026-07-18 with the explicit nprior) | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless | days (nested sampling opening) |
+| the ΛCDM twin (pc_lcdm) | the ΔlnZ denominator | same stack, same nlive — no comparison without it; the watcher queues it kills-first | after the referee |
+| **zon_disp** (paused-dead, R−1 = 23.3, no live process; resumes when the box frees) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, FIVE freezes | converged (R−1 < 0.05) center INSIDE 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; ABOVE ~7.8 = the named branches must pay | post-referee |
+| the thaw chain (not running; resumes when the box frees) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself | post-referee |
+| conv_desi (died pre-first-point; relaunch queued) | the S₈ g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; the 10ε/1-8 candidates stay firewalled | post-referee |
 
 ## THE NEAR SKY (1–2 years)
 | referee | grades | rule |
@@ -21,11 +21,11 @@ No verdict may be argued after the fact — the rules below were set before the 
 | **DESI-era Σm_ν** | the neutrino block's 61.4 meV | robust bound < ~60 meV kills; a measured Σ ≈ 61 crowns; the P-023 internal tension arbitrates itself |
 | DESI DR3 w(z) | w = −1 exactly (the peg) | robust thawing/w ≠ −1 kills the floor |
 | TRGB ladder (P-2026-001) | the no-hedge ladder bet | as registered |
-| the radio referee | the D/H fork (D/H = 2.387×10⁻⁵; a self-adverse owned bet, **−2.9σ** on the full stated budget) | as registered |
+| the radio referee | the D/H fork (D/H = 2.387×10⁻⁵; a self-adverse owned bet; the registered pull −2.9σ re-prices to **−0.3…−1.2σ** under the standing high-f books — hunt §8 1b) | as registered |
 | THE ZERO-PARAMETER EVIDENCE RUN (live, 2026-07-13) | ε+A_s+n_s+z_on all stated vs ΛCDM free | ΔlnZ verdict; any stated number wrong collapses the model's evidence |
-| the ς sign session (synthetic photometry; queued) | the candle room / the H₀ ceiling | ς = −1 kills the candle lever; +1 opens the 73.4 reach |
+| the ς sign session — **LANDED, STAMPED: ς = −1** | the candle room / the H₀ ceiling | the candle lever is dead; the ceiling reads 70.9–71.3 (estimate grade, robust) |
 | DESI forest-BAO (near-term data) | the gate curve at mean density | a clean forest at the curve's prediction kills the candle room |
-| the Eliashberg k-audit + winding-gas C_V (B2/B3, queued) | the A_s closed form | k outside the concordance band [1.360, 1.366] kills the k-locked prediction |
+| the Eliashberg k-audit + winding-gas C_V (B2/B3 — **run: k audited into [1.35, 1.37], three-way concordance 1.360/1.36461/1.3602**) | the A_s closed form | k outside the concordance band [1.360, 1.366] kills the k-locked prediction — currently inside |
 | BipoSH joint pass (analysis-limited — data exists) | the axis family as ONE axis (comb + dipole + isocurvature + HPA) | any two members robustly misaligned kills the family |
 
 ## THE DECADE
@@ -37,6 +37,11 @@ No verdict may be argued after the fact — the rules below were set before the 
 | SKA-class cosmic dawn (REACH/lunar) | P-2026-043 (the ~5% deeper trough, signed) | a trough ~5% SHALLOWER than standard = wrong sign, kills |
 | DESI 4PCF parity | the anti-anomaly bet #2 (the model is 7 orders short — bets systematic) | confirmed parity violation at claimed amplitude = the model has no channel, owned exposure |
 | stochastic GW (PTA/LISA/ET) | the vortex Gμ null; the chiral family (amplitude un-computed) | as registered |
+| **CMB-S4 ΔN_eff** | the committed genesis window ΔN_eff ∈ [0.06, 0.24] (the high-f configuration's own falsifier) | confirmed < 0.03 or > 0.3 kills the committed ξ window from either side |
+| **CMB-S4 Majoron search** | the v_L corner selector (both corners lane-clean) | a detection at g ~ 10⁻⁸–10⁻⁹ selects the MeV corner; a null leans high-v_L |
+| **the SU(2) N_f = 3 lattice** (external; the note APPROVED FOR CIRCULATION) | P-2026-048: T_c/√σ = 0.3503 ± 0.02, window [0.330, 0.370] | outside the window falsifies the DE sector; 0.345 registered as NOT confirming |
+| **lunar-farside dark-ages 21-cm** (LuSEE-Night/FarView class) | the +2.51% bare-value frequency offset (+0.40 MHz at the z ≈ 87 trough — astrophysics-free) | the trough at the standard frequency kills the ε mechanism's dark-ages arm |
+| **the ring-on-ring trial** (in-house; arm 2, torus) | the Koide complex (A = √2, θ_seed, R_c = M_c, the even-split theorem) | zones SEALED before computation: [0.82, 0.88] sharp; [0.72, 0.97] life; outside = the complex dies entire |
 
 ## The standing exams (forever)
 Lorentz nulls (cavities — the shield's margin), clock/Oklo ṁ_e = 0, Koide Q within 7×10⁻⁶,

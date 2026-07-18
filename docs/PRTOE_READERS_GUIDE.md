@@ -13,9 +13,9 @@ term, and gives the reading order.*
 2. The field's phase winds an integer number of times around one compact spatial
  direction; that single integer and its axis source all of the model's predicted sky
  anisotropies.
-3. The condensate couples to leptons through exactly one number: a fractional shift of
- the electron mass, ε ≈ 1.24%, active in the early universe and switched off at late
- times by a screening transition.
+3. A second field (the dyad) couples to leptons through exactly one number: a fractional
+ shift of the electron mass, ε ≈ 1.24%, active in the early universe and switched off at
+ late times by a screening transition.
 4. That one shift, applied wherever atomic physics looks — recombination, BBN's later
  stages, 21cm rest frequencies, potentially supernova spectra in unscreened
  environments — is the source of every claimed signature; the same number must work
@@ -29,14 +29,14 @@ term, and gives the reading order.*
 |---|---|
 | the medium / the fluid | the superfluid scalar field (the unified dark sector) |
 | the amplitude / ε | the fractional electron-mass shift, δm_e/m_e ≈ 1.24% |
-| the dyad | the (dark fluid + varying-m_e) pair — the model's two-part core |
+| the dyad | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of the model's THREE dark fields (the dCDF superfluid, the dyad, the Majoron); in older documents "the dyad" named the (dark fluid + varying-m_e) pair |
 | the winding / n / the draw | the quantized phase winding number, set stochastically (Kibble mechanism) at the condensation transition |
 | the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
 | the gate / screening / the gate curve ε(C) | the environmental switch-off of ε: a smooth function of local clumping (dense regions: ε → 0; voids retain it) |
 | recorded | established within the model at production grade (coded, fit, or derived) and recorded |
 | the census / census blindness | the counting argument behind c = 9/10: gravity couples to energy content, not particle identity |
 | the pinch / occupancy one | the ground state holds exactly one quantum per coherence cell (sets the vacuum energy scale) |
-| the anchor / the gap equation | the TeV-scale from a BCS-style exponential: M ≈ M_red·e^(−1/kα_c) — the hierarchy mechanism |
+| the anchor / the gap equation | the TeV-scale from a BCS-style exponential: M ≈ M_red·e^(−1/kα_c − 3/2) — the hierarchy mechanism (the 3/2: the boost-dressed cutoff's equipartition constant) |
 | the twins / the pair | Cooper-style pairing of a mode with its time-reversed partner |
 | the arrow / the arrow-giver | the time orientation set by the condensate background (⟨θ̇⟩ ≠ 0, ghost-condensate class) |
 | the pour / the snap / the fountain | the bounce: the hot re-start of a cycle (structurally the one realized white-hole-like event) |
@@ -63,7 +63,8 @@ term, and gives the reading order.*
  into the current run by explicit decision, with the risk documented).
 - Several numerical landings are estimate-grade with O(1) honesty bands — statuses are
  stamped where they apply.
-- The candle-room/H₀-ceiling story is conditional on one screening reading (B) and one
- uncomputed sign (ς).
+- The candle-room/H₀-ceiling story: the screening form is now derived at class level
+ (survival/exponential) and the sign is signed (ς = −1 — the H₀ lever is dead; the ceiling
+ reads 70.9–71.3); what remains conditional is the gate's census-scope legality.
 - The deepest claim (the medium's reality) remains an open assumption — the corpus
  names it as such and tracks its exposure honestly.
