@@ -104,13 +104,11 @@ derivation is ~1.8% — inside the posterior width — and the running measureme
  reading holds — democratic-9 → 9/10, or the neutrino-inclusive 12/13 — is settled by the
  dark-energy–neutrino tie: ρ_Λ¼ = m_ν,lightest is a genuine lock *only if* the lightest neutrino mass
  is **direct-Majorana** (m₁ ≈ μ = 2.25 meV), which seats the neutrino on the medium's own tenth channel
- → **9/10**. The 12/13 reading needs an inverse-seesaw light mass, which demotes the meV coincidence
+ (the seat operator is now exhibited, with its UV form — [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)) → **9/10**. The 12/13 reading needs an inverse-seesaw light mass, which demotes the meV coincidence
  from a lock to a tuning of two unrelated scales; and the charge²-weighted 8/9 contradicts the
  gravity-blind democratic count. So the value is **9/10, conditional on keeping the tie a lock** (the
  flagship position); the empirical f̄ ensemble / α_c chain (P-2026-040) remains the independent check.
-- $\bar{f} = 2/\pi = 0.63662$: **derived** — the winding's time-average $\langle|\cos|\rangle$, forced by many-turn equidistribution, with the coupling form data-selected (2026-07-16). *(The winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of $\bar{f}$.)* It is
- the winding's mean-absolute-sinusoid, with the coupling form data-selected (P-2026-041; the
- high-statistics ensemble is the **check**, not the source). **Derived — not a parameter, and not
+- $\bar{f} = 2/\pi = 0.63662$: **derived** — the winding's time-average $\langle|\cos|\rangle$, forced by many-turn equidistribution, with the coupling form data-selected (P-2026-041). *(The winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of $\bar{f}$ — the high-statistics ensemble is the check, not the source.)* **Derived — not a parameter, and not
  a simulation output.**
 - $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), booked BEFORE the deciding
  measurement (the α_c chain) converges — and 2.3% ABOVE where current data points, so it is
