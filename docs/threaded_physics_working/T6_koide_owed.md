@@ -808,6 +808,26 @@ inequality for free: relaxation drifts A² from 2 toward 4; the measured A² = 1
 beat irrep→mode equilibration by ≥ 10⁵ in rate × time.** The single remaining mechanism
 piece: exhibit the per-channel quota from the coupling's structure — one Z₃-invariant
 operator per irrep, one unit per channel per event (the A_s shot-additivity applied to irrep
-channels). That is the last unbuilt object in the complex. Kapitza consistency holds: the fast-drive effective mass
+channels). That is the last unbuilt object in the complex.
+
+**The quota, chased into the coupling structure (2026-07-18) — the object is now
+computation-shaped, with a death clause.** Three results: *(i) the fence hardens —
+generic baths are provably insufficient.* Independent identical face-local baths are
+orthogonally invariant (iid noise projects as iid onto ANY mode basis), so they deliver
+per-mode quotas even in the transfer-limited regime — A = 2 (MC-verified) — and the same
+holds for any pump through the isotropic invariant Σφ² (it IS the canonical norm). No local,
+generic, or isotropic bath can produce the fingerprint; only irrep-structured coupling can.
+*(ii) the channel structure is exact and small:* Z₃ admits precisely two independent
+quadratic invariants — I₁ = (Σφ)² (pure singlet) and I₂ = x̃² + ỹ² (pure doublet) — so the
+bath coupling is c₁·I₁ + c₂·I₂ and the per-irrep quota is ONE relation: delivery(c₁) =
+delivery(c₂). *(iii) the c's are not free in this corpus:* the bath IS the medium, and both
+couplings descend from the built log-interaction's own expansion in medium fluctuations
+around the ring minimum — the phonon–defect (Kelvin) vertices. **The final object, named as
+a computation: expand the medium-mediated log coupling to first order in the medium's
+fluctuation field at the ring minimum; extract c₁, c₂ and the two channel delivery rates.
+Equal sector delivery ⟹ the entire unified complex stands (A = √2, θ_seed = 135°, R_c = M_c,
+the even-split theorem, and plausibly the anchor's −3/2). Unequal ⟹ the complex dies — all
+of it, at once.** The door's fate now rides one vertex computation inside the model's own
+built structure — falsifiable from the inside. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
