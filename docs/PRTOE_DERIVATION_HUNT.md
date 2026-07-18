@@ -422,11 +422,30 @@ irreducible input.
   variance with the per-mode spectrum. Autopsy in
   [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). **What survives:** the scale identities are
   real and verified (k_UV = a_on·T_on = T₀ exactly; ln(T_on/m) = ln(M_red/T_on) + 0.49, the banked
-  argument to O(1) inside ~55) — so a mechanism in this family remains *possible* but must use a
-  **different map**: the amplitude at scale k set by the UV-integrated variance (a modulation/local-
-  amplitude reading), which is NOT the χ² spectrum and has not been exhibited from the winding
-  mechanism. That narrow route is the only surviving candidate; until it is built, n_s stays at its
-  plain grade with no microphysical mechanism attached.
+  argument to O(1) inside ~55). **The surviving route exhibited — the modulation map (2026-07-18):**
+  the mode laid down at scale k is an **envelope × shot** product, ζ_k = A(k)·s_k — s_k the
+  A_s mechanism's own scale-invariant shot imprint, A(k) the imprint susceptibility at that scale's
+  imprint time. The envelope **multiplies instead of convolving** (it is deterministic in k — a
+  function of imprint time, not a fluctuating field squared at the same point), which is exactly
+  how the route evades the χ² kill; the killed convolution survives only as an additive residual,
+  subdominant provided the winding roughness obeys Δ² ≲ 2×10⁻⁶ per log (six decades of room below
+  O(1); accumulated σ² ≲ 10⁻⁴ — the weak-modulation regime, self-consistent). The envelope reads
+  the verified variance: A(k) ∝ σ²(k) = Δ²·ln(k_UV/k), UV-anchored at the verified k_UV = T₀. Then
+  k³P ∝ [ln(k_UV/k)]² and **n_s(k) = 1 − 2/ln(T₀/k)**: at the pivot, ln(T₀/k*) = 61.86 →
+  **n_s = 0.9677** (+0.66σ from Planck), with **predicted running α_s = −2/L² = −5.2×10⁻⁴**
+  (Planck −0.0045 ± 0.0067: consistent; a falsifiable edge — the map requires tiny *negative*
+  running). **The exponent is data-selected, f̄-grammar:** among the natural readings A ∝ σ
+  (n_s = 0.9838, +4.5σ, dead), A ∝ σ² (0.9677, +0.7σ), A ∝ σ⁴ (0.9353, −7σ, dead), only the
+  variance-linear map survives — the structural candidate for the linearity is susceptibility ∝
+  accumulated winding population (the same many-turns counting that runs f̄), owed. **The
+  argument fork resolves:** the map is k-local, so the pivot/running form 0.9677 is the
+  mechanism's number; the banked k-independent ln(M_Pl/T_on) = 55.6 form (0.9641, −0.2σ) retires
+  to consistency-check status — same log-family within 10%, which is why the fork existed. Noted
+  plainly: the mechanism's number sits *farther* from Planck central than the retired form
+  (0.66σ vs 0.20σ) — the map is falsifiable on both n_s tightening and the running's sign.
+  Grade: **mechanism candidate (exhibited)** — sign, anchor, and running structural; the
+  linearity exponent data-selected with its structural candidate named; the Δ² subdominance
+  condition named.
 - **z_on ≈ 3.56×10⁷ — fast-profiled estimate,** chain-graded later.
 - **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude quartic
   sets its value). See [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md).
