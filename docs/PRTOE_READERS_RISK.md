@@ -27,7 +27,9 @@ everywhere atomic physics appears.
   own grades (§3).
 - **Koide protection** — the multiplicative-universal lepton coupling explains *why* Koide's Q
   survives a 1.24% mass shift (a real improvement; mainstream has no account). *Candidate: protection
-  derived, the reason Q = 2/3 at all (A = √2) not yet derived.*
+  derived; the reason Q = 2/3 at all (A = √2) is not yet derived — a complete candidate chain
+  (sector-equipartition delivered by the genesis cascade) is assembled with a pre-registered
+  geometric trial pending, kill zones sealed before computation.*
 - **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived*, independent of the
   pairing sector.
 
@@ -36,16 +38,19 @@ everywhere atomic physics appears.
   structural relation, but τ = T_c/m_e has no independent source: the corpus's τ = 0.345 is the
   *observed* dark-energy density inverted and rounded, not computed. It becomes a genuine prediction
   only with an uncomputed lattice number — T_c/√σ for an SU(2), N_f = 3 dark sector. **No lattice
-  determination of that theory exists** (literature sweep, 2026-07-17); the best inference bracket
+  determination of that theory exists** (literature sweep, 2026-07-17; an outward-facing
+  specification note is approved for circulation — PRTOE_lattice_note.md); the best inference bracket
   from measured neighbours (SU(2) N_f = 2: 0.483(23) deconfinement, 0.36–0.48 chiral; SU(3)
   N_f-dependence) is **≈ 0.39 ± 0.05, centred above the model's 0.3503** — the model's value sits at
   the bottom edge, needing both the chiral (not deconfinement) transition and near-maximal
   suppression. One SU(2)-specific fact helps: the chiral and deconfining transitions decouple in
   SU(2), so the chiral T_c can legitimately sit below the Polyakov number.
-- **(b) BBN is net adverse.** D/H sits at −2.9σ from Cooke (code-systematic-dependent, −1.4σ to
-  −3.3σ); Y_p at +1.09σ — and there is no dyad healer (the Majoron couples to lepton number, quarks
-  carry none). The joint verdict hinges on an unresolved ~3.5% inter-nuclear-code disagreement, not
-  on the dyad itself.
+- **(b) BBN is mixed under the standing configuration, adverse in helium.** With the committed
+  genesis residual (ξ window), D/H reads −0.3…−1.2σ from Cooke (it was −2.9σ pre-adoption; the
+  pre-adoption books are (d)'s record) while Y_p pays at +1.3–1.8σ vs Aver and the EMPRESS fork
+  worsens to ≈ +4σ; the joint p is 0.15–0.29. There is no dyad healer (the Majoron couples to
+  lepton number, quarks carry none), and the helium Aver/EMPRESS fork plus a ~3.5%
+  inter-nuclear-code disagreement remain the verdict's hinges.
 - **(c) The H₀ evidence is SH0ES-conditional and marginal.** ΔlnZ = +2.635 (Laplace, not yet the
   final nested-sampling number) crosses the pre-registered win line only slightly, inside the
   estimator's own systematic error; without SH0ES the model does not win. The easing is shared by the
@@ -58,7 +63,7 @@ everywhere atomic physics appears.
   re-homes the dyad at a high decay constant (~100–500 TeV): thermalisation gates clear by
   10⁸–10⁹, the BBN ramp's clock survives, the induced fifth force is closed by the model's own
   environmental gate (which the recorded configuration needs ~10⁸-worse for electron g−2
-  regardless), and the branch predicts **ΔN_eff ≈ 0.06–0.15 — a CMB-S4 detection target**, its
+  regardless), and the branch predicts **ΔN_eff ≈ 0.06–0.24 (the committed ξ window) — a CMB-S4 detection target**, its
   own falsifier. The price: a new ~100-TeV-class input, the dyad-as-chiral-condensate
   identification drops (its consilience must be re-priced), and the windowed BBN books re-run.
   The high-f configuration is the standing one. Its BBN books: the committed ΔN_eff residual
