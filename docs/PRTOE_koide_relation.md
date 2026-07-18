@@ -55,7 +55,12 @@ radiation EoS does not transfer to an embedded field by proximity. *(Ledger:
 **What would still close the blank.** Either (i) the family structure is **not** a separate field
 but a modulation of the medium itself (so its stress tensor *is* the medium's, and w = 1/3 is
 native), or (ii) the family field's own potential forces K ∼ R², V ∼ M² with K/V = 2 by a
-mechanism that does not lean on the medium's EoS. Both remain unbuilt. The structure parallel to
+mechanism that does not lean on the medium's EoS, or (iii) the **wall-tangency reading**: the seed
+grows until its lightest face touches the positivity wall — tangency locates the background
+(M = −R·cos_min) and A = √2 becomes the statement that the seed sits on the diagonal of the
+doomed face's frame (tan u = −1), with the electron's mass the later lift off the wall; the
+remaining question is the diagonal's selector
+([T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md)). All three remain unbuilt. The structure parallel to
 the dark-energy freeze at neutrino decoupling
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b) survives only under (i): a
 scale inherits its epoch's EoS when it *is* that epoch's medium, not when it is a spectator.
