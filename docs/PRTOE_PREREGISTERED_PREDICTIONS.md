@@ -2470,3 +2470,22 @@ scattering, negligible at every corner (Γ/H ≲ 10⁻⁵ everywhere). The corri
 the recoupling epoch dissolve with the channel; the upper fence (the settling-dynamics ceiling,
 v_L < 0.94 TeV) is a different channel (condensate friction) and stands. Autopsy:
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+
+## P-2026-050: The dark-ages 21-cm frequency offset (registered 2026-07-18)
+
+**The prediction:** in unvirialized gas (Θ = 1 — the bare value), every m_e-keyed rest frequency
+runs **+2.509% high** (dln ν_hf/dln m_e = 2, with ε = 1.2543%). The astrophysics-free channel is
+the **dark-ages absorption trough** (z ≈ 85–90 — pure linear physics, no stars): the standard
+trough at 15.8–16.5 MHz moves to 16.2–16.9 MHz — a **+0.40 MHz offset** that cannot be absorbed
+into astrophysics or star-formation timing. Instrument class: lunar farside (LuSEE-Night /
+FarView). The cosmic-dawn trough (78.0 → 79.96 MHz, +1.96 MHz) is the astrophysics-degenerate
+companion — a consistency channel only, stated as such.
+
+**Grades:** the offset — derived, chain-free (two exact factors: the hyperfine's m_e² scaling and
+the recorded ε); the standard trough position — literature (linear physics); the channel
+separation (dark ages clean vs cosmic dawn degenerate) — standard.
+
+**Kills:** (i) a lunar-farside measurement of the dark-ages trough at the standard frequency
+(±0.1 MHz-class precision makes the 0.40 MHz offset a 4σ-class discriminant) kills the ε
+mechanism's dark-ages arm outright; (ii) an offset at a value inconsistent with +2.5% (the
+mechanism's own arithmetic allows no other number); (iii) inherits every kill of ε itself.

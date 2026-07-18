@@ -1057,6 +1057,15 @@ alive and the corner-selector reverts to the registry's original referee — the
 ν-interaction search (a g-detection selects the MeV corner; a null leans high-v_L). The corner-B
 seal made on the corridor's evidence is reverted to an open two-corner state.
 
+### Process error 42: a root-level rm glob hit two tracked launch configs (2026-07-18)
+
+Relaunching the paused chains, a cleanup glob (`rm -f cmp_prtoe_routeD.* cmp_prtoe_conv_desi.*`)
+run at repo root to remove a mislaunched run's stray lock files also matched the two ORIGINAL
+launch configs living at root. Caught within the same minute by reading the ls output that the
+glob had been fed; both files were git-tracked and restored intact — zero loss. Rule sharpened:
+**never glob-delete at repo root; name files explicitly, and ls-preview any deletion pattern
+first.** The relaunches themselves succeeded (cwd = chains/, resume confirmed).
+
 ### The lane census's SN1987A band edge — wrong by three orders, verify-flag caught it (2026-07-18)
 
 The census's first pass quoted the Majoron–ν SN exclusion band as [3×10⁻¹⁰, 3×10⁻⁷] and graded
