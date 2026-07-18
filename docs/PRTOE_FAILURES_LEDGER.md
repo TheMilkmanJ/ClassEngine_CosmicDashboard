@@ -1108,3 +1108,10 @@ concordance); the pairing form itself (g = (1.29–1.31)α_c stable across the a
 died is the derivation of the 3/2: it re-grades from candidate to **sharp underived residual**.
 Any future exhibition must produce 3 at squared-log or a natively single-log mechanism — no
 such route is currently named.
+
+**Externally replicated blind (same day).** An independent auditor (ChatGPT, no repo access),
+given only the residual and the single-log normalization, derived the halving unprompted — "the
+familiar 3/2 is attached to ln m²; rewritten as a single logarithm it becomes 3/4, not 3/2" —
+and reported no standard one-loop MS-bar source for 3/2 at this normalization (BCS constants
+ln 2, 2e^(−γ)/π; threshold constants rational/scheme-class). Two independent computations, one
+of them blind, now stand behind this kill.
