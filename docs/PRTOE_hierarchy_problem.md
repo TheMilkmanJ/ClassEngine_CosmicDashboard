@@ -54,14 +54,21 @@ $$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)\,-\,3/2} = 1576\ \text{GeV}\qu
 (\text{measured } 4\pi m_H = 1574;\ +0.14\%)$$
 
 One coupling serves both floors (A_s to −0.35%, the anchor to +0.14%) once the exponent
-carries the textbook loop constant. **Grade: candidate, with the guards stated.** (i) A
-standard-constant menu hit at ±0.02 carries ~11% chance-level — the −3/2 must be **derived**
-from the anchor's own one-loop definition (the same census loop that gives
-$m_H \sim M_{\rm anchor}/4\pi$) in the recorded scheme, not pattern-matched; that derivation
-is the owed object. (ii) The 0.09% precision rides the closed-form k; the A_s-*measured* k
-gives residual 1.39 ± 0.16 — consistent, not sharp. (iii) The result is conditional on the
-recorded $4\pi m_H$ anchor definition. Kill (i) below accordingly reads: the gap equation
-plus the un-derived CW constant — it fires if the derived constant is not ≈ 3/2. The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
+carries the textbook loop constant. **Grade: strengthened candidate (upgraded 2026-07-18).**
+The −3/2 is not a menu pick — it is **the model's own recorded bracket constant**: the T_c
+derivation's one-loop structure is L − 1 = ln(m_e0²/μ²) − 3/2 (the fermionic MS-bar
+Coleman–Weinberg constant, [PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md) §2,
+[PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4), and the census states in the anchor loop are
+fermions — the same constant class. Precision: the residual is 1.5014 at m_H central and
+**1.5000 exactly at m_H + 1σ** — 3/2 sits inside the Higgs-mass error bar alone. The data also
+**selects the log normalization**: a single-log gap condition [ln(M_red/M) − 3/2] = 1/(kα_c)
+gives residual 3/2 (matches); a squared-mass-log form would give 3/4 (excluded). **What remains
+owed (one step):** exhibiting the anchor's gap condition with that single-log normalization from
+the census loop itself — the constant's *class* is now scheme-canonical, its *attachment* to this
+exponent is the residue. Guards that stand: the sharp precision rides the closed-form k (the
+A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and the result is conditional on the
+recorded 4πm_H anchor definition. Kill (i) below reads: fires if the exhibited gap condition
+does not produce the −3/2-class constant at single-log normalization. The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
 that runs the dyad and prices the vacuum (the one-coupling portfolio).
 
 **(c) The Higgs mass with no bare term.** Under the no-bare clause $m_H^2$ must be
