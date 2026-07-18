@@ -2489,3 +2489,18 @@ separation (dark ages clean vs cosmic dawn degenerate) — standard.
 (±0.1 MHz-class precision makes the 0.40 MHz offset a 4σ-class discriminant) kills the ε
 mechanism's dark-ages arm outright; (ii) an offset at a value inconsistent with +2.5% (the
 mechanism's own arithmetic allows no other number); (iii) inherits every kill of ε itself.
+
+
+## P-2026-048 ADDENDUM (registered 2026-07-18, before any lattice result): the two-point fork
+
+The lattice referee now adjudicates between **two theoretical points inside the registered
+window**: (i) **τ = 0.3503** — the registered value (the observed dark-energy density inverted
+and rounded; the standing flagship reading); (ii) **τ = ½ln2 = 0.34657** — the Koide-kernel
+candidate (the circulant modulus |f₁|/f₀ = 1/√2 read as thermal-screening attenuation across
+the confinement length; candidate grade, invented steps named in T6). The points differ by
+1.1%; both sit in the registered window [0.330, 0.370]; the registered kill conditions are
+unchanged. **Adjudication rule, sealed now:** a determination at 0.3466 ± (lattice error)
+selects the kernel reading (and the flagship re-prices to +0.44% with a derived τ); a
+determination at 0.3503 kills the kernel reading outright; outside the window, everything
+dies as originally registered. This addendum precedes any dedicated lattice computation —
+timestamped by the repository.
