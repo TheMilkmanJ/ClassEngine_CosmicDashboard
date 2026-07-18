@@ -156,8 +156,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   cosmic neutrino bath (its only tree-level partner) with Γ/H ≈ 5×10¹⁰ ≫ 1 — it tracks the bath — and
   the settling freezes when the bath goes non-relativistic and decouples. The **lightest** neutrino is
   the last relativistic friction partner (heavier species go NR earlier), so it sets the final freeze:
-  ρ_Λ¼ = m_ν,lightest, forward at the scale (O(1) coefficient owed — the condensate's specific heat at
-  freeze). See [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
+  ρ_Λ¼ = m_ν,lightest, forward at the scale. See [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
   **Graded: μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
@@ -178,10 +177,11 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
   bosons −4 each) is −3 for the Standard Model alone and **0 for the Standard Model plus three right-handed
   neutrinos** — the content the model already needs for Majorana masses. Registered as **P-2026-045**
   (exactly three right-handed neutrinos, three generations, no light steriles).
-- **Owed:** the count runs over fermions and gauge bosons only. The Higgs scalars enter the same
+- **Checked — the caveat is now named:** the count runs over fermions and gauge bosons only. The Higgs scalars enter the same
   coefficient generically as (1/6 − ξ_H), so the exact-zero balance is ξ-independent only if the induced-G
-  scalar weight is zero — otherwise it requires ξ_H = 1/6, the same input the G *value* needs. Verifying
-  the scalar coefficient (Visser 2002, Eq. 35) is owed; P-045 carries this caveat.
+  scalar weight is zero — otherwise it requires ξ_H = 1/6, the same input the G *value* needs. **Verified:
+  Visser 2002, Eq. 35 assigns each real scalar the weight (1/6 − ξ), confirming the ξ_H = 1/6 (conformal
+  Higgs) requirement. The "hole" reduces to one named assumption (§8 item 2).** P-045 carries this caveat.
 - **The number of generations is three,** forced by the finiteness condition.
 - **The G value is not computed** — it needs the Higgs ξ_H, a Standard-Model input the framework does not
   fix. What stands is the finiteness condition and its forward tests.
@@ -308,7 +308,13 @@ irreducible input.
   "count C" — whether the assembly is exactly (4πk/α_c)³), which lands A_s to −0.35%. Deliberately exposed;
   referees are the live zero-parameter run and the Eliashberg k-audit.
 - **n_s = 1 − 2/ln(M_Pl/T_on) — derived-estimate:** the census drift; the "2" is the open spatial
-  dimensions.
+  dimensions. *Candidate mechanism (identification sketch, un-derived):* the winding field read as a
+  2D Gaussian height model in the two transverse dimensions, whose variance grows as ln(R/a) with
+  R ~ M_Pl/T_on² (the Hubble horizon at onset) and a ~ 1/T_on (the thermal correlation length) — the
+  ratio reduces to R/a = M_Pl/T_on, matching the banked argument of the log. The scale arithmetic
+  checks; **what is NOT yet shown is the log-derivative step** — that the spectrum's tilt is exactly
+  −2/ln(R/a) rather than proportional to it — so this is a mechanism candidate, not a proof; the
+  variance→spectrum computation is the owed session.
 - **z_on ≈ 3.56×10⁷ — fast-profiled estimate,** chain-graded later.
 - **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude quartic
   sets its value). See [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md).

@@ -477,7 +477,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | "transfer favorable-leaning" | reservoir survives; delivered η owed the sphaleron-weighted integral — the working docket |
 | shooter v2's 13–20 TeV read as P-042 support | it is a STRAIN on arrow C — hierarchy §2(a) |
 | the quartet-clock mechanism ("Z4-locked quartet") | conflated phase-sector locking (cos 4θ) with composite binding; killed by the recorded stability sign (c_s real ⟹ λ > 0 ⟹ pairs repel ⟹ no quartets) | the pair stands by derivation |
-| the DE-amplitude "√N closing lineshape S(ω/T)" / the "Γ₀ = 76 meV" target (entries 176/188) | an inversion of a Γ=H freeze condition; the forward collisionless neutrino response is Ohmic (s=1) in BOTH the density and the scalar/Majoron channel (`scripts/kubo_freeze.py`), so no sub-Ohmic lineshape exists to supply it | the freeze is a DECOUPLING not a rate-crossing: the condensate tracks the relativistic-ν bath (Γ/H ≈ 5×10¹⁰) and freezes when the lightest ν goes NR — ρ_Λ¼ = m_ν,lightest forward at the scale, O(1) owed — CC file thermal door |
+| the DE-amplitude "√N closing lineshape S(ω/T)" / the "Γ₀ = 76 meV" target (entries 176/188) | an inversion of a Γ=H freeze condition; the forward collisionless neutrino response is Ohmic (s=1) in BOTH the density and the scalar/Majoron channel (`scripts/kubo_freeze.py`), so no sub-Ohmic lineshape exists to supply it | the freeze is a DECOUPLING not a rate-crossing: the condensate tracks the relativistic-ν bath (Γ/H ≈ 5×10¹⁰) and freezes when the lightest ν goes NR — ρ_Λ¼ = m_ν,lightest forward at the scale. |
 
 ## 8. THE FAILURE-BIN RAMP AUDIT
 
