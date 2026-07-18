@@ -1180,3 +1180,32 @@ deviations be correlated on one line, δθ = (2A/9)·δA = 0.3143·δA. Current 
 future τ-mass improvement** (Belle II class): deviations leaving the line kill the closure;
 deviations tracking it as errors shrink would be mechanism-grade evidence that the spectrum
 closes on itself.
+
+
+## THE CARRIER QUESTION — "is it a gluon?" — and the rep fork it forces (2026-07-18, night)
+
+**The species-class answer:** in the string-bound picture the kernel's carrier is the dark
+SU(2) sector's own gauge field — a dark gluon (never QCD's; the visible gluon has no seat in a
+lepton mass matrix). **But SU(2) group theory immediately forks the picture:** 2⊗2⊗2 = 2⊕2⊕4 —
+**three fundamentals have NO singlet** (the recorded consilience's own fact: SU(2) baryons are
+diquarks). The three faces cannot be fundamental color sources. Two branches:
+
+**Branch A — ADJOINT faces (the gluonic branch).** 3⊗3⊗3 contains exactly one natural singlet:
+**ε^abc — the structure constant** (for SU(2), f^abc = ε^abc). The family ring would be a bound
+state with the geometry of the theory's own three-gluon vertex: three adjoint lumps glued by
+the gauge algebra itself. Payoffs: the kernel phase becomes a **Wilson-line ELECTRIC holonomy**
+— non-center (Z₂ is quantized; the measured 2/9 is not), continuous, dynamical — precisely the
+class K2's exclusion left alive; the holonomy-equals-Q closure acquires a gauge-theoretic
+reading; and the K2 computation becomes corpus-native: **the holonomy induced on the family
+triangle by the recorded winding background.** Collision, named per the double-sourcing law:
+dim(adj SU(2)) = 3 would compete with str[k₁] = 0 as the generation-count source — to be
+adjudicated, never stacked (the ledger's precedent: the redundant claimant loses).
+
+**Branch B — medium-vortex faces.** The strings are the medium's own vortex-strings, the
+carrier is phononic, "gluon" is the wrong noun, and the kernel is the T6 log-coupling in
+thermal dress; the phase then sources from the medium's drift.
+
+**Discrimination path:** Branch A predicts the phase computes from the dark-gauge holonomy in
+the winding background (a bounded computation, next); Branch B predicts it from the medium
+drift. Both must reproduce the deviation lock (P-2026-051) and the modulus locus. The rep fork
+is the chase's node zero.
