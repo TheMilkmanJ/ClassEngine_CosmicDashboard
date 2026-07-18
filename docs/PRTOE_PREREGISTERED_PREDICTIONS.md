@@ -2504,3 +2504,22 @@ selects the kernel reading (and the flagship re-prices to +0.44% with a derived 
 determination at 0.3503 kills the kernel reading outright; outside the window, everything
 dies as originally registered. This addendum precedes any dedicated lattice computation —
 timestamped by the repository.
+
+
+## P-2026-051: The Koide deviation lock (registered 2026-07-18)
+
+**The prediction:** the deviations of the Koide amplitude from √2 and of the Brannen phase
+from 2/9 rad are not independent — they lie on the line **δθ = (2√2/9)·δA = 0.3143·δA** (the
+holonomy-equals-Q closure's differential; T6). Current data sits −0.31σ from the line
+(δA = −1.36×10⁻⁵ ± 1.4×10⁻⁵; δθ = −7.0×10⁻⁶ ± 8.7×10⁻⁶ rad; τ-mass-limited on both axes —
+the two deviations are correlated THROUGH m_τ, and the lock's content is the residual
+correlation beyond that shared dependence, stated for the adjudicator's care).
+
+**Grades:** the circulant algebra and the Parseval identity Q = 1/3 + (2/3)|f₁/f₀|² — exact;
+the closure 3·arg f₁ = Q — candidate (post-hoc-found, structure-clean, no derivation);
+the lock — the closure's exact differential.
+
+**Kills:** (i) improved lepton masses (Belle II-class m_τ) moving (δA, δθ) robustly off the
+0.3143 line kills the closure; (ii) either watch breaking outright (A off √2 or θ off 2/9 at
+high σ) kills it a fortiori; (iii) any future mechanism deriving A = √2 while forcing
+θ ≠ (1 + A²/2)/9 kills the closure specifically while possibly saving the door.

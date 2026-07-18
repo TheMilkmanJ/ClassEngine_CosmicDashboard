@@ -1148,3 +1148,35 @@ determination. A lattice landing at ½ln2 would simultaneously: source τ, conve
 to +0.44% predictive, and hand the Koide door its modulus. A landing at 0.3503 kills K1 clean.
 **Guards:** the 5/9 and golden-angle executions bind; the kernel identifications carry no
 chair until the chase pays or the lattice speaks.
+
+
+## THE KERNEL CHASE — opening night (2026-07-18, late)
+
+**K1, structure grade:** *(i)* the face spacing is DERIVED ∝ 1/m_e — string tension vs Coulomb
+repulsion (E = c₃σℓ + q²/ℓ ⟹ ℓ_sep = (q/√c₃)/√σ): **the family ring is string-bound in the
+confining sector, and the portal √σ_dark = m_e acquires a reason** (the faces' spacing IS the
+string scale). *(ii)* the kernel ratio computed from the classical screened correlator with the
+confinement cap: f₁/f₀ = e^(−c₁c₂τ)·(π/2c₂)/[1 − c₁τ·arctan(1/c₁τ)] — **the exponent is ∝ τ:
+the kernel's decay is the flagship's own ratio, by structure.** The coefficient locus for
+f₁/f₀ = 1/√2 at τ = ½ln2 is REMARKABLY FLAT: c₂ ≈ 1.76–1.97 across the entire Debye range
+c₁ ∈ [1, 3]. The unit corner honestly FAILS (+175%); the named candidate for c₂ ≈ 2 is the
+Y-junction string geometry (the correlator path through the junction vs the direct chord) —
+the chase's next computation. **K2, exact narrowing:** 2/9 rad is not 2π/integer — topological
+and linking sources are EXCLUDED; the phase is dynamical (drift) or geometric-continuous
+(Berry), matching the dressing's continuous grammar.
+
+**THE HOLONOMY-EQUALS-Q CLOSURE (proposed from the count-instinct, formalized same hour).**
+Parseval on the circulant gives the exact identity **Q = 1/3 + (2/3)·(|f₁|/f₀)²** — at modulus
+1/√2, Q = 2/3, the two-massive-one-massless share itself. The closure: **3·arg f₁ = Q**, i.e.
+the cycle's accumulated phase equals its own spectral invariant — the phase per hop is the
+massive share per face. Given A = √2 it delivers **θ_B = 2/9 EXACTLY**, reducing the door's
+two numbers to one modulus plus one law. Grade: post-hoc-found candidate closure — earning
+status through its independent consequence:
+
+**THE DEVIATION LOCK (registered as P-2026-051):** the closure demands the two watches'
+deviations be correlated on one line, δθ = (2A/9)·δA = 0.3143·δA. Current data: δA =
+−1.36×10⁻⁵ ± 1.4×10⁻⁵, δθ = −7.0×10⁻⁶ ± 8.7×10⁻⁶ rad — the lock's prediction −4.3×10⁻⁶ sits
+**−0.31σ** from measurement. **The lock HOLDS at current precision and is tested by every
+future τ-mass improvement** (Belle II class): deviations leaving the line kill the closure;
+deviations tracking it as errors shrink would be mechanism-grade evidence that the spectrum
+closes on itself.
