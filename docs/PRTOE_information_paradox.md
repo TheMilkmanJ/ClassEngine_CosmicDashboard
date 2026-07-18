@@ -23,15 +23,22 @@ system**. Consequences, each from a graded object:
 
 1. **Nothing is destroyed** — the infallen state is *thermalized*, not terminated: unitary
  many-body evolution in the core (decoherence relocates information into correlations; it
- never deletes it — the Landauer accounting PRICES record-keeping, it
- does not permit erasure without a fee paid *somewhere kept*).
+ never deletes it — Landauer PRICES record-keeping: erasure always pays a fee, and the fee
+ is itself a record kept somewhere).
 2. **The record is kept by construction** — "the universe is not blind to its own
  interactions" (graded: the environment's record IS decoherence). A model whose
  thermodynamics is an irreversible record has no mechanism for un-recording.
 3. **The radiation channel is standard** — phonon Hawking emission from sonic horizons
  (Unruh-class, inherited). Radiation drawn from a *finite, unitary, thermal core* is
  ordinary open-system physics: early radiation thermal, late radiation purifying — the
- burnt-diary scenario, not the shredder.
+ burnt-diary scenario, not the shredder. *And the strongest modern form of the paradox
+ (AMPS/firewalls — which bites any long-lived horizon emitting thermal radiation, singularity
+ or not) is answered by the same structure: a **sonic** horizon is not a fundamental causal
+ barrier. The phonon description ends at the local healing length, and the medium beneath it
+ carries correlations across the horizon — the standard analog-gravity route by which
+ information leaves without EFT-outside ever being violated at its own scales. The horizon
+ leaks at the cutoff by construction; no firewall is needed to reconcile smoothness with
+ unitarity.*
 4. **The slow-return guarantee**: the core's information re-enters the exterior on
  evaporation/purification timescales — and in the cyclic frame, anything still held at the
  crunch is thermalized into the Tolman entropy budget while the **topological content joins the
