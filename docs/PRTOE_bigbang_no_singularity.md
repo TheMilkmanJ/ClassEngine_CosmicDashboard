@@ -88,8 +88,9 @@ rearranged itself.
 ## 5. Honest owed items
 
 - λ_phys — the repulsive amplitude quartic; sets ρ_bounce's number (quantum pressure sets its finiteness).
-- The bounce dynamics in detail (the reversal’s field profile — the cosmological analogue of
- the BH core; un-simulated).
+- The bounce dynamics in detail (the reversal's field profile — the cosmological analogue of
+ the BH core; un-simulated) — **now carrying a number it must hit**: the two-component split
+ (§1.2's joint constraint) must deliver an MeV-class hot start over a keV-class condensate floor.
 - The first-cycle Kibble numbers use the ambient-era estimates (order-of-magnitude scale checks).
 - This document *asserts no new observables*: its falsifiers are the recorded ones (a confirmed
  pre-genesis relic kills it; DESI DR3 and the cycle-structure predictions carry the live risk).
