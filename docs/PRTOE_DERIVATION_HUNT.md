@@ -386,8 +386,18 @@ irreducible input.
    points are sector-internal and stand); its condensation is driven by its own L-breaking
    potential, with the electron loop's κ-independent T_c formula supplying the T_γ-keyed ramp
    timing (the predecessor configuration's record:
-   [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). **Owed:** the windowed BBN books re-run
-   under this configuration; the environmental gate's checklist (chameleon/Casimir/EP); the
+   [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). **The windowed BBN books under this configuration (first pass, 2026-07-18 — response-coefficient
+   propagation on the recorded ramped baseline; the ramp profile is unchanged, the branch adds only
+   its ξ residual):** across the *entire pre-committed* ξ window the joint verdict **improves** —
+   p = 0.093 → **0.15–0.29** — because the residual ΔN_eff pushes D/H toward Cooke
+   (−1.89σ → **−0.3 to −1.2σ**, crossing zero near the window top) while Y_p pays mildly
+   (+1.09σ → +1.3 to +1.8σ vs Aver; the EMPRESS fork worsens to ≈ +4σ — the helium fork remains
+   the pivot). The improvement is **anchor-independent in direction** (a relative D/H shift; even
+   the adverse-end −2.9σ reading moves to ≈ −1.3σ) and **hostage to its own falsifier** (CMB-S4
+   must see the same ΔN_eff). *Provenance note: the ξ window predates this propagation — the D/H
+   healing is a consequence, not a fit.* Grade: estimate (linear responses, dY_p/dN = 0.011–0.013,
+   ∂ln(D/H)/∂N = 0.135); a full nuclear-code re-run is owed only if the joint verdict becomes
+   load-bearing. **Still owed:** the environmental gate's checklist (chameleon/Casimir/EP); the
    high-f condensation mechanism's full spec.
 2. *(resolved) The induced-G scalar coefficient* — verified: Visser Eq. 35 assigns each
    real scalar the weight (1/6 − ξ), not zero, so P-045's str[k₁] = 0 is **not** ξ-independent — it
