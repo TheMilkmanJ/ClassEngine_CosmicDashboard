@@ -46,8 +46,8 @@ $M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ — and the k in the exponent
 corpus's one shared k** (the same screened-interaction coupling that sets A_s: gap-equation
 1.360, closed form 1.36461, A_s-measured 1.3602 ± 0.0064 — one object, three determinations,
 `scripts/concordance.py`). **The exponent's residual:** with the shared k,
-$1/(k\alpha_c) = 33.474$, while the measured anchor needs
-$\ln(M_{\rm red}/4\pi m_H) = 34.975$ — a residual of **1.5014** at m_H central,
+1/(kα_c) = 33.474, while the measured anchor needs
+ln(M_red/4πm_H) = 34.975 — a residual of **1.5014** at m_H central,
 **1.5000 exactly at m_H + 1σ**. Writing the exponent with that constant:
 
 $$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)\,-\,3/2} = 1576\ \text{GeV}\quad
@@ -70,7 +70,7 @@ it predicts the excluded 3/4 (autopsy:
 at squared-log or a natively single-log mechanism. Guards that stand: the sharp precision
 rides the closed-form k (the A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and
 the result is conditional on the recorded 4πm_H anchor definition. The coupling in the
-exponent is not new — it is the SAME $\alpha_c = 3\alpha$
+exponent is not new — it is the SAME α_c = 3α
 that runs the dyad and prices the vacuum (the one-coupling portfolio).
 
 **(c) The Higgs mass with no bare term.** Under the no-bare clause $m_H^2$ must be
