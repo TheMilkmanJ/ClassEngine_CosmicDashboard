@@ -26,7 +26,16 @@ past, but its first moment is a *state*, not a point of infinite density.
  same Colpi–Shapiro–Wasserman physics that supports every black hole at finite density, §3 of the
  BH document). Contraction halts and reverses at finite ρ. *(Quantum pressure guarantees a floor
  on its own; the repulsive amplitude quartic sets ρ_bounce's number — distinct from the attractive
- axion/phase coupling. λ_phys ≈ (m/Ψ₀)²-class, per the BH doc.)*
+ axion/phase coupling.)* **The joint constraint, priced honestly (2026-07-18):** the BH document's
+ support threshold (λ ≳ 2.3×10⁻⁹² for the largest holes) puts the *condensate's* bounce at
+ ρ_bounce¼ ≈ 1.8 keV — while a naive single-fluid crunch that must reach the hot start
+ (T ≳ few MeV for standard BBN) would need λ ≲ 10⁻¹⁰⁶: **the two recorded requirements pull λ
+ apart by ~14 orders in a one-component reading.** The model's own structure carries the
+ resolution-shape — the bounce is **two-component** (the condensate's quartic floor is one ledger;
+ the blueshifted radiation that Tolman keeps and the fountain re-releases is another, and it is the
+ radiation budget that funds the hot start, not the condensate's compression) — but that split is
+ exactly the un-simulated bounce dynamics of §5. Until it is simulated, the keV-class condensate
+ floor vs MeV-class hot start is a named open joint, not a resolved one.
 3. **The Landau ceiling eats the light first.** As density rises, the plasma frequency sweeps
  up through the radiation bands (the "crunch's mouth"): each band's photons
  are massed, made trace-visible, and thermalized. The crunch is a *dissipative thermal
@@ -46,8 +55,10 @@ t = 0 there. The model's answer (graded "a cleaner re-founding"):
 
 > **The first genesis starts in the zero-point state** — R = 0, θ undefined, n = 0: the vacuum,
 > the unique state that requires no choice. The tachyonic roll-out amplifies the vacuum's own
-> fluctuations; the Kibble mechanism generates and locks the winding (n ~ 10–30, computed);
-> the roll self-generates the helicity (the first-roll-at-rest theorem).
+> fluctuations; the Kibble mechanism generates and locks the winding (the *band* n ~ 10–30 is
+> estimated — the Widnall instability window; the *value* is the cycle's one topological draw,
+> read by the ℓ ~ 130 comb, not computed); the roll self-generates the helicity (the
+> first-roll-at-rest theorem).
 
 The "initial condition problem" dissolves at the root: there is no freely-specified initial
 data surface and no infinite-density point — the beginning is **the only state that carries no
@@ -77,7 +88,7 @@ rearranged itself.
 ## 5. Honest owed items
 
 - λ_phys — the repulsive amplitude quartic; sets ρ_bounce's number (quantum pressure sets its finiteness).
-- The bounce dynamics in detail (the reversal's field profile — the cosmological analogue of
+- The bounce dynamics in detail (the reversal’s field profile — the cosmological analogue of
  the BH core; un-simulated).
 - The first-cycle Kibble numbers use the ambient-era estimates (order-of-magnitude scale checks).
 - This document *asserts no new observables*: its falsifiers are the recorded ones (a confirmed
