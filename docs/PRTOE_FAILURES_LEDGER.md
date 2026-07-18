@@ -1149,6 +1149,16 @@ needed to write it). **Still owed: (i)** the gap-condition derivation exhibiting
 cost linearly in the exponent (pairing from a Boltzmann-suppressed population, not
 Fermi-surface BCS), **plus the freeze clause** (why today's vacuum anchor remembers the
 formation-era factor — the corpus's frozen-at-genesis grammar, to be stated not assumed).
+**The mean-field venue for (i) is CLOSED (computed same day, normalization-robust):** the
+thermal gap equation's constant shift h(T/M) is exponentially negligible in the
+nonrelativistic regime (h = 0.003 at T/M = 0.2) and reaches O(1) only at T ~ M — where the
+actual mean kinetic energy is ⟨E_kin⟩/T = 1.8–2.4 (Maxwell–Jüttner, Bessel-exact), NOT the
+equipartition 3/2. The two legs exclude each other in mean field: where 3/2 is meaningful the
+shift is invisible; where the shift is O(1) the 3/2 is wrong. The surviving venue is
+**formation kinetics** (Saha-class population dynamics, where (mT/2π)^(3/2) genuinely
+lives) — with its hazard named up front: in Saha structures the 3/2 rides a log-POWER
+(recombination's logarithmic delay), not a bare additive constant, and the derivation must
+show the reduction honestly or die on it.
 Fences: scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 is a different
 object class — do not book it. *(Watch-grade note: equipartition now anchors both of the
 day's live candidates — the Koide channel balance and this seam constant; no shared mechanism

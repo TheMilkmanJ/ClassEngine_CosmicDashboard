@@ -720,4 +720,12 @@ exactly: *the face freezes when its cycle-averaged mass equals the doublet's tot
 power* — a parametric-saturation statement. **The blank's sharpest form yet: derive
 parametric saturation ⟨m₁⟩ = P_drive from the face–medium coupling.** (The drive pumps the
 face until the face's mean inertia matches the pump's power; equality-at-saturation is the
-mechanism-shaped claim, not yet a derivation.)
+mechanism-shaped claim, not yet a derivation.) *The drain's mechanism class, named:*
+zero-crossing production (preheating grammar) — bursts of the face's quanta fire only when
+s(t) crosses zero (A > 1 required, matching the wall-side structure), with per-crossing
+production ∝ |ṡ|^(3/2) at the crossing (the d/2 phase-space exponent, its third appearance
+today — watch-grade, no mechanism shared). The saturation equation drain = pump imports one
+ratio (the drive rate over the ring scale): **dial-free only if the drive rate is internally
+set** — the named next computation. Kapitza consistency holds: the fast-drive effective mass
+⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
+graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
