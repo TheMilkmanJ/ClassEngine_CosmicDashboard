@@ -1154,11 +1154,20 @@ thermal gap equation's constant shift h(T/M) is exponentially negligible in the
 nonrelativistic regime (h = 0.003 at T/M = 0.2) and reaches O(1) only at T ~ M — where the
 actual mean kinetic energy is ⟨E_kin⟩/T = 1.8–2.4 (Maxwell–Jüttner, Bessel-exact), NOT the
 equipartition 3/2. The two legs exclude each other in mean field: where 3/2 is meaningful the
-shift is invisible; where the shift is O(1) the 3/2 is wrong. The surviving venue is
+shift is invisible; where the shift is O(1) the 3/2 is wrong. The surviving venue was
 **formation kinetics** (Saha-class population dynamics, where (mT/2π)^(3/2) genuinely
 lives) — with its hazard named up front: in Saha structures the 3/2 rides a log-POWER
-(recombination's logarithmic delay), not a bare additive constant, and the derivation must
-show the reduction honestly or die on it.
+(recombination's logarithmic delay), not a bare additive constant. **The kinetic venue,
+walked to its floor (same day):** its Hubble-gated sub-branch is DEAD structurally — any
+Γ-vs-H freeze imports ln(M_Pl/M_anchor) = 36.6 into the frozen constant, 24× the needed
+1.50, uncancellable; its internally-gated sub-branch (the medium's own rates gating the
+freeze — big logs cancel by shared scale) reduces, after the phase-space ratios are chased,
+to ONE remaining postulate: **occupancy at the thermal-mean energy maps linearly onto the
+frozen gap.** Route 6's final desk state: every computable venue exhausted (mean-field dead,
+Hubble-gated dead, phase-space-ratio pinning unresolved at desk level); the candidate
+survives as one named postulate whose derivation belongs to the medium's own condensation
+dynamics — **basement-gated**, joining the seat constant b and the λ/τ gate in the same
+waiting room.
 Fences: scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 is a different
 object class — do not book it. *(Watch-grade note: equipartition now anchors both of the
 day's live candidates — the Koide channel balance and this seam constant; no shared mechanism

@@ -78,12 +78,13 @@ phase-space power d/2 — **route 6**, sharpened to the equipartition reading: t
 the mean kinetic cost ⟨E_kin⟩/T = d/2 of nonrelativistic census states at pairing.
 Self-pinning is automatic (the cost (3/2)T rides the same T — no scale chosen) and the sign
 is right (suppression: the anchor sits e^(−1.5) below naive transmutation). **Grade:
-candidate, form-natural.** Owed: the gap condition exhibiting the kinetic cost linearly in
-the exponent — the mean-field venue is closed (the thermal shift is invisible where
-equipartition holds and semi-relativistic where it is O(1); ledger), so the exhibit must come
-from formation kinetics (Saha-class), whose own hazard (3/2 as log-power, not additive
-constant) is named — and the freeze clause (why the vacuum anchor remembers the
-formation-era factor). Guards that stand: the sharp precision
+candidate, form-natural.** Owed: ONE postulate — occupancy at the
+thermal-mean energy maps linearly onto the frozen gap. Every computable venue is exhausted
+(mean-field: the thermal shift is invisible where equipartition holds and semi-relativistic
+where it is O(1); Hubble-gated kinetics: imports ln(M_Pl/M_anchor) = 36.6, uncancellable;
+internally-gated kinetics: reduces to the postulate — ledger). The postulate's derivation
+belongs to the medium's own condensation dynamics: **basement-gated**, with the freeze
+clause subsumed (internal gating IS the freeze). Guards that stand: the sharp precision
 rides the closed-form k (the A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and
 the result is conditional on the recorded 4πm_H anchor definition. The coupling in the
 exponent is not new — it is the SAME α_c = 3α

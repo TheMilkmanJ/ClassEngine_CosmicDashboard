@@ -726,6 +726,18 @@ s(t) crosses zero (A > 1 required, matching the wall-side structure), with per-c
 production ∝ |ṡ|^(3/2) at the crossing (the d/2 phase-space exponent, its third appearance
 today — watch-grade, no mechanism shared). The saturation equation drain = pump imports one
 ratio (the drive rate over the ring scale): **dial-free only if the drive rate is internally
-set** — the named next computation. Kapitza consistency holds: the fast-drive effective mass
+set** — and it is: for a thermal doublet the phase turns at the mode's own frequency
+(ω = m_R), no external dial. **The saturation computation at scaling level (2026-07-18):**
+with ω internal, drain ∝ ω³R²·sin²u_c and pump ∝ γ_roll-cluster·R², so saturation reads
+**sin²u_c = (rate cluster)** — and sin²u_c = 1 − 1/A² identically, so **A = √2 ⟺ the rate
+cluster = 1/2 ⟺ drain and retention split the pump evenly.** The dial does not vanish; it
+renames — into the same statement every other road produced. **The door's compressed floor:**
+killing/splitting equipartition (the channel frame), instantaneous-vs-average power (the
+half-power frame), and drain/retention (the saturation frame) all terminate at ONE sentence —
+*a two-channel budget splits evenly at genesis.* The basement owes exactly one theorem: that
+the medium's genesis processes are channel-symmetric where they meet a two-way split. If the
+basement build delivers it, A = √2, θ_seed = 135°, and the saturation point fall together;
+until then the door stands at one theorem's distance, and no desk computation can shorten
+it further. Kapitza consistency holds: the fast-drive effective mass
 ⟨m₁⟩ = M² + R²/2 is positive for all A, so no stability-edge freeze exists (coheres with
 graves 5–7); the freeze must be energetic (drain saturation), not dynamical instability.
