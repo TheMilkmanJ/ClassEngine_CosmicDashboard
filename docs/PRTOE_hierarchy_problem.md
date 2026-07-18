@@ -42,19 +42,26 @@ $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm an
 $$\frac{1}{g} = 34.85\text{–}35.43 \;\Longrightarrow\; g = (1.29\text{–}1.31)\,\alpha_c$$
 
 — stable to ±1% while the arrows scatter by ±0.3. Hence
-$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ with the measured anchor requiring
-**k = 1.306** (band 1.289–1.311 from the arrow scatter), **the gap equation's single owed
-number** (nearby rationals firewalled; the k is the equation's to derive). **The current
-state of that computation, read straight:** the gap-equation lands k = 1.36
-(prescription-robust within the roster-forced screening class) and agrees with the
-sound-cone-bandwidth estimate 1.353 ± 0.04 to 0.5% — but that is a **theory-vs-theory**
-agreement, and both numbers sit **~4% above the anchor-required 1.306**, outside the arrow
-band (the estimate's window [1.313, 1.393] does not overlap [1.289, 1.311]). Because k is
-in the exponent, a 4% excess is a **factor ≈ 4 on the anchor** (k = 1.36 ⟹ 6.3 TeV against
-the measured 1.57). So kill (i) below is **engaged, not cleared**: the two internal
-determinations are consistent with each other and currently high of the measured anchor —
-estimate-grade, all ingredients recorded, decided by the gap-equation refinement and the
-arrow audit. The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
+$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)}$ — and the k in the exponent is **the
+corpus's one shared k** (the same screened-interaction coupling that sets A_s: gap-equation
+1.360, closed form 1.36461, A_s-measured 1.3602 ± 0.0064 — one object, three determinations,
+`scripts/concordance.py`). **The candidate resolution of the exponent (2026-07-17):** with
+the shared k, $1/(k\alpha_c) = 33.474$, while the measured anchor needs
+$\ln(M_{\rm red}/4\pi m_H) = 34.975$ — a residual of **1.5014**, which is the standard
+one-loop Coleman–Weinberg constant **3/2 to 0.09%**:
+
+$$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)\,-\,3/2} = 1576\ \text{GeV}\quad
+(\text{measured } 4\pi m_H = 1574;\ +0.14\%)$$
+
+One coupling serves both floors (A_s to −0.35%, the anchor to +0.14%) once the exponent
+carries the textbook loop constant. **Grade: candidate, with the guards stated.** (i) A
+standard-constant menu hit at ±0.02 carries ~11% chance-level — the −3/2 must be **derived**
+from the anchor's own one-loop definition (the same census loop that gives
+$m_H \sim M_{\rm anchor}/4\pi$) in the recorded scheme, not pattern-matched; that derivation
+is the owed object. (ii) The 0.09% precision rides the closed-form k; the A_s-*measured* k
+gives residual 1.39 ± 0.16 — consistent, not sharp. (iii) The result is conditional on the
+recorded $4\pi m_H$ anchor definition. Kill (i) below accordingly reads: the gap equation
+plus the un-derived CW constant — it fires if the derived constant is not ≈ 3/2. The coupling in the exponent is not new — it is the SAME $\alpha_c = 3\alpha$
 that runs the dyad and prices the vacuum (the one-coupling portfolio).
 
 **(c) The Higgs mass with no bare term.** Under the no-bare clause $m_H^2$ must be
