@@ -1087,3 +1087,29 @@ per-mode thermal (→ 2), iid/isotropic baths (→ 2), face-democratic potential
 geometric-well degeneracy (→ 2, this trial), the six selector graves, and the share-entropy
 class. The target is theorem-shaped and the minefield is mapped — that is what the campaign
 bought, and it is not nothing. But tonight the model does not know why A = √2, and says so.
+
+
+## THE PHASE'S OWN NUMBER — the golden angle executed, the 2/9 watch promoted (2026-07-18, late)
+
+**The precision, computed (Monte Carlo over PDG mass errors, τ-limited):**
+θ = 132.7328° ± 0.0005° · A = 1.414200 ± 0.000014 (√2 at −0.9σ, independently re-verified) ·
+Q = 0.6666605 ± 0.0000068.
+
+**The golden angle: executed by two independent routes.** As the measured phase: 137.5078° sits
+4.775° = **10,008σ** away. As the seed: tangency at the golden angle freezes A = 1.3562 ⟹
+Q = 0.63987, rejected by the measured Q at **3,965σ** — a route independent of every θ
+convention and precision question. (Proposed as a shape-instinct, killed by the proposer's own
+maxims honestly applied; the offset near-miss |137.51 − 135| = 2.51° vs the dressing 2.27° is
+noted as bait-class — wrong sign, 11% off, no mechanism — and rejected.)
+
+**THE 2/9 WATCH — promoted to the sector's strongest.** The same computation ran the famous
+Brannen test: in the Brannen frame (an exact one-face-relabel identity: θ_house = θ_B + 120°),
+the measured phase equals **2/9 radians at −0.9σ** — at half-millidegree precision. Provenance
+is blind-writability-grade: the 2/9 target predates today's τ-mass precision by ~two decades,
+and the agreement TIGHTENED as the error shrank 20× (contrast ⟨a³⟩ = 5/9: killed at 4.5σ by
+this exact test). Random-alignment odds ~10⁻⁵. **Corollary (pure arithmetic):** if 2/9 is
+exact, the dressing has a closed form — θ_seed − θ = π/12 − 2/9 = (3π − 8)/36 rad = 2.2676° —
+i.e. the electron's lift off the wall, and with it m_e's ring coordinate, in closed form.
+**Grade: STRONG WATCH, no mechanism** (the house derives neither 2/9 nor anything about it);
+its standing role: **the door's sharpest numerical target — any future sector-equipartition
+mechanism must land the phase at 2/9 rad ± 0.0005°.**
