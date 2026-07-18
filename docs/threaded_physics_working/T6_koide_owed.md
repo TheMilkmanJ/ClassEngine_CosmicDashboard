@@ -627,3 +627,17 @@ growth-race is dead as the selector. **Surviving shapes: (i) maximum entropy und
 earned (watch grade, no mechanism):* the observed A = √2 is exactly the **geometric mean of the
 two torque attractors** (√(1·2)) — the log-midpoint of the flow's endpoint interval; a
 scale-free/balanced-basin selection would land there, and no such selection is built.
+
+**The geometric-mean watch, chased (2026-07-18): the flip mechanism computed — FAILS.** The
+natural formalization (torque coefficient odd in T − T_c ⟹ θ collapses to the anti-face attractor
+pre-transition, sweeps toward the axis post-flip; exponential growth; touch when A(t) meets
+−1/cos_min(θ(t))) makes the touch DETERMINISTIC in (A_flip, r) — a function, not a draw — but the
+function does not select √2: the repeller lingering dominates and the generic touch is A ≈ 1.0000
+(the anti-face value) across almost all parameters; the √2 contour requires r* ≈ 4.4–8.5 with
+strong A_flip-dependence — a two-dial family, nothing natural on the contour. The equal-log-time ⟹
+geometric-mean composition argument dies on the single-touch structure (A touches once; nothing
+composes). **The GM observation stays a bare watch** (√2 = √(1·2), the attractor interval's
+log-midpoint — recorded to kill or earn, no mechanism). Selector state: six routes dead
+(uniform, cubic-relax both signs, equal-survivors, product-extremum, growth-race, the flip);
+**two shapes remain: maximum entropy under wall contact (un-formalized), and quarter-period
+co-emergence lag.**
