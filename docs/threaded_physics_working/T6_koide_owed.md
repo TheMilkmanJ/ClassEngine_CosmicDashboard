@@ -616,3 +616,14 @@ fixed point is computable in principle; (iii) seed/face-frame co-emergence with 
 phase lag (the 45° as the lag of one oscillation cycle's quarter). **State of the door:** the
 blank is now one *dimensionless dynamical* question — which selector puts the seed on the
 diagonal — down from "an arbitrary angle," and the failed selectors fence what it cannot be.
+
+**Selector-shape (ii), the growth-race — COMPUTED, FAILS (2026-07-18).** The two-rate dynamics
+(radial growth vs Z₃ torque, dθ/dln A = r·sin 3θ, both torque signs, r ∈ [0.3, 10], 2×10⁴ draws):
+the flow's two attractors deliver wall-touch at **A = 1** (the anti-face point, θ = 60°) and
+**A = 2** (the axis point, θ = 0°) — and the √2-bin fraction falls *below* the uniform baseline
+(0.021) for every r > 0, both signs. No rate ratio piles the touch at the diagonal: the
+growth-race is dead as the selector. **Surviving shapes: (i) maximum entropy under wall contact;
+(iii) quarter-period co-emergence lag.** *One structural observation recorded to be killed or
+earned (watch grade, no mechanism):* the observed A = √2 is exactly the **geometric mean of the
+two torque attractors** (√(1·2)) — the log-midpoint of the flow's endpoint interval; a
+scale-free/balanced-basin selection would land there, and no such selection is built.
