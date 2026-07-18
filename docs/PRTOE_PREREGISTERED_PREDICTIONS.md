@@ -2439,3 +2439,25 @@ number (kill 1) remains the entry's decisive test.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
+
+## P-2026-049: Late neutrino recoupling through the Majoron corridor (registered 2026-07-18)
+
+**The prediction:** the cosmic neutrino bath re-couples through the Majoron channel (νν̄ ↔ φ) at a
+redshift **z_rec ∈ [150, 1100]** — after recombination, before the dark-energy freeze era. The
+corridor follows from two independent fences on the Majoron scale: CMB free-streaming at
+recombination requires Γ/H(z = 1100) < 1 (v_L > 0.22 TeV), and the ν-tie's tracking mechanism
+requires Γ/H(z ≈ 12) ≥ 1 (v_L < 0.94 TeV) — so within the standing configuration the recoupling
+is not optional and its epoch is bracketed. Observable territory: late-neutrino free-streaming
+modifications (CMB lensing, Σm_ν inference systematics, S4-class polarization); the CMB primary
+spectra are unaffected (the corridor's lower fence is exactly that statement).
+
+**Grades:** the corridor's fences — estimate (order-of-magnitude rates; the Boltzmann pass is the
+named owed computation); the two-sided structure — derived from the recorded tracking scaling
+(Γ/H ∝ g² with g = m₃/v_L).
+
+**Kills:** (i) data requiring standard ν free-streaming through the entire band z ∈ [150, 1100]
+(kills the corridor outright, and with it the ν-tie's forward mechanism — the fallback is the
+one-scale configuration with the tie at registered-equality grade); (ii) a CMB-S4 Majoron-line
+detection at g ~ 10⁻⁸–10⁻⁹ (the corridor is line-dark; a detection points to the MeV corner the
+free-streaming lane disfavours); (iii) any independent determination of v_L outside
+[0.22, 0.94] TeV.
