@@ -84,6 +84,30 @@ applied and the code systematic named and unfolded.**
  *Both columns are computed on run (ii)'s baseline — the only one whose absolute D/H is a
  prediction — and against deuterium's full stated budget.*
 
+- **Why no amount of dark radiation fixes this.** The two rows respond to extra relativistic
+ species with the *same* sign — both abundances rise — but they need opposite moves: deuterium is
+ low and helium is high. Scanning ΔN_eff past the committed window, the joint likelihood peaks at
+ ΔN_eff ≈ 0.26–0.29 (p = 0.06–0.08 on the quotable budget), so **the committed window already sits
+ at this lever's optimum.** Pushing on: zeroing the deuterium tension takes ΔN_eff = 0.42, which
+ lands helium at +2.5 to +2.7σ against Aver and **+4.9 to +5.1σ against EMPRESS** — trading a 2.5σ
+ deficit for a 2.5σ excess and losing the EMPRESS fork outright — and 0.42 is past where CMB-S4
+ kills the committed window anyway. **The sector cannot be healed by a one-parameter expansion-rate
+ lever, whatever sources it.** This is the same anti-correlation the amplitude itself carries
+ (helium wants ε lower, deuterium wants it higher, 2.2σ apart): it is the witness's signature, and
+ it is why the model cannot coach it.
+
+ **The lever that would work is the one the constitution forbids.** A quark-mass shift moves
+ deuterium through the binding energy B_D rather than through the expansion rate, so it does *not*
+ drag helium the same way — it heals both rows. The size needed is small: full ε on the quarks
+ would move D/H by +12 to +18σ, so closing −2.5σ takes ~17% of ε, a shift of **δm̂/m̂ ≈ 0.2%** —
+ which lands inside P-2026-006's registered healing band of 0.14–0.21%, with its mandatory Y_p
+ −0.5% co-signature pulling helium favourable too. But the dyad is the Majoron, the Goldstone of
+ lepton-number breaking, so it couples to the current of its broken charge and **quarks carry
+ L = 0: the tree coupling is zero by symmetry, not small.** The loop path (dyad → lepton loop → two
+ photons → quark) delivers ~7×10⁻⁸, short of the ~2×10⁻³ required by a factor of ~30,000. The model
+ knows exactly what would repair its weakest sector and has no field that can supply it — which is
+ why P-2026-006 is retained as a statement about a lever this model does not have.
+
 - the elasticities: d(Y_p)/dε = 0.00163 per %ε (linear, verified: ×ε reproduces the window to ~3%); **d(D/H×10⁵)/dε — the 0.00782 figure is UNREPRODUCIBLE and does NOT linearize** (a 4-point PRyM scan gives ~0.0119; the ramped window itself implies ~0.0126, +62%). D/H is a bottleneck quantity, so its ε-response is nonlinear and the uniform-ε derivative under-predicts the ramped window; use the measured window (+0.645%), not this derivative ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). N_eff is unmoved
  (3.04439) — ε shifts weak rates, not relativistic dof.
 

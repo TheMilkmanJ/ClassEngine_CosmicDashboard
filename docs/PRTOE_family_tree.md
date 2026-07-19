@@ -20,7 +20,7 @@ Roots at the top; every branch cites its recorded object.*
  │ │ │ │ │ │ │ │
  MATTER MAGNETIC CHIRAL THE COMB THE AXIS │ THE CONSTITUTION THE SCALES
  (AD- HELICITY GW P-029 P-024 + │ L1 (gravity-only) → L (27.6 Gpc)
- direct; P-028 (T10) ℓ₁≈3.1n     │ L1a (parity) ────┐ ξ_K (256 Mpc)
+ direct; P-028 (T10) ℓ₁≈3.1n    │ L1a (parity) ────┐ ξ_K (256 Mpc)
  charge= signed signed reads n family │ the account │ ξ (402 AU hinge)
  abundance; by n by n off sky (T5) │ (dE=−pdV) │ 1/M₂ (20 nm)
  the frozen-era │ the screens │ l_Pl (forced,

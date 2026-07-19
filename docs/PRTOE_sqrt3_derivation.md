@@ -67,7 +67,7 @@ about the critical point (c_s = 0, with the (δK)² stabilizer):
 
 - Short λ: k⁴ stabilizer ⇒ stable (the floor holds locally).
 - Long λ: gravity wins ⇒ unstable.
-- Most unstable mode is the IR: as k → 0, ** → ω_J = √(4πG ρ).
+- Most unstable mode is the IR: as k → 0, ω → ω_J = √(4πG ρ).
 - Γ_par sets *where* the turnover sits (which k is marginal), **not** the e-folding rate of the
   unstable branch.
 
@@ -99,6 +99,12 @@ The KP (Kaloper–Padilla) self-consistency solve **fails** as a mechanism for t
 untouched. What this page uses from that object is only the **one-scale floor** sitting in the
 Friedmann equation — the same ρ_inf the KP solve was asked to fix and could not. The √3 is a
 statement about the floor's *rate*, not a resurrection of KP as a value-fix.
+
+## Sources
+
+[ArkaniHamed2004] (the ghost condensate; the IR scale m ~ M²/M_Pl this page identifies as Γ_par),
+[KaloperPadilla2014] (the sequestering solve whose one-scale floor is the only piece used here).
+Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## The result
 
