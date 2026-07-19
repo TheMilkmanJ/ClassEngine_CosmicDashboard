@@ -1499,3 +1499,23 @@ reading stays under cosmic variance's resolving power — the relocation to cova
 either way). **And the failures ledger's own record of this result had flipped
 retention↔deficit** ("the observed deficit wants 20–50%" — the script's 0.2–0.5 is retention;
 the deficit is 50–80%) — corrected in place. Mechanical: octopole → octupole, en-dash.
+
+## PRTOE_references.md — deep audit 2026-07-19
+
+File eighty-eight. The V-list itself spot-checked clean across every load-bearing entry
+(Dent-Stern-Wetterich, Dalal-Kravtsov, Chen-Pan-Hou-Zhang — the C4 CHSH source, Gleason,
+Zurek ×3, COW, Hafele–Keating with both predictions and both measurements exact, Davoudiasl-
+Denton's band safely below the model's mass, PRIMAT/PArthENoPE, DESI DR2). Five fixes:
+
+1. **The λ-quench regime violation**: the Baryakhtar entry billed itself "the λ-scar shield
+   of the superradiance null" while the atlas (§~795) rules the quench **not quotable as a
+   shield** until re-derived at the model's own coupling — the entry now carries the atlas's
+   own gate. The label firewall applied to a citation's Feeds line.
+2. **Naming supersession**: Scherrer's ρ = ρ₀ + ρ₁a⁻³ was tagged "the dyad's density form" —
+   under standing naming that is the dCDF's form (the glossary's own old-vs-new note).
+3. **The two citation homes now point at each other**: BIBLIOGRAPHY (canonical source list)
+   ↔ references (the verification record). Neither acknowledged the other before.
+4-5. ASCII "sigma" ×2 → σ; << → ≪.
+
+The honest-status notes (Valentini's criticized derivation, Steinhauer's asterisk, the
+Chiang-vs-Marsh contested-to-dead pair) are the file's spine and all stand.
