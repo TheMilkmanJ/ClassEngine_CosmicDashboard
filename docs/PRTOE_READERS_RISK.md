@@ -30,7 +30,11 @@ everywhere atomic physics appears.
   derived; the reason Q = 2/3 at all (A = √2) is NOT derived — the one assembled candidate
   chain (cascade-delivered sector-equipartition) was executed by its own pre-registered trial
   (kill zones sealed before computation; all readings in the death zone). The equivalence
-  A = √2 ⟺ sector-equipartition stands as mathematics; the mechanism slot is honestly empty.*
+  A = √2 ⟺ sector-equipartition stands as mathematics. A complete candidate chain now exists
+  (the circulant kernel, an existence theorem, and a thermal-boundary reading whose one
+  internal cross-check passed), carrying ONE remaining theoretical link and judged by three
+  lattice observables of a single SU(2) N_f = 3 campaign plus a registered deviation lock
+  (P-2026-051) — candidate-grade throughout, stated as such.*
 - **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived*, independent of the
   pairing sector.
 
