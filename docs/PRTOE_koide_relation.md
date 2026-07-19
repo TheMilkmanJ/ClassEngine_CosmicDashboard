@@ -19,7 +19,7 @@ made stick; the standard position is "numerology, presumably."
 Any new physics touching lepton masses should WRECK a delicate mass relation. This model's
 lepton coupling is **multiplicative-universal by construction** (the Card-7 structure, graded:
 every lepton Yukawa dressed by the SAME factor) — and Q is a RATIO invariant under a common
-rescaling: **the dyad shifts every lepton mass 1.24% and Koide's Q does not move in the tenth
+rescaling: **the dyad shifts every lepton mass 1.2543% and Koide's Q does not move in the tenth
 digit.** A model that had to choose between varying lepton masses and preserving Koide got
 both, from one portal structure needed anyway for gate-0. That is a real, graded improvement:
 the relation's robustness is EXPLAINED here and accidental everywhere else.
@@ -185,10 +185,11 @@ the model possesses, it lands **0.44% from the sky**.
 ### What decides it
 
 τ = T_c/m_e with √σ_dark = m_e as the portal, so a lattice determination of **T_c/√σ for SU(2)
-with N_f = 3** measures τ directly. The two candidates are 1.1% apart and the measurement is
-approachable: **0.34657 crowns the kernel, 0.3503 kills it** (P-2026-048's two-point fork). The
-same number then decides whether the lepton sector and the dark-energy scale are reading one
-temperature or two.
+with N_f = 3** measures τ directly. The two candidates sit **0.44% apart**, and that gap *is* the
+dark-energy claim: **a return at 0.34657 crowns the kernel; one at 0.34506 shows the model reading
+the sky back, and kills it** (P-2026-048's decision rule, whose inconclusive band is declared in
+advance — separating the two takes 0.22% precision). The same number then decides whether the
+lepton sector and the dark-energy scale are reading one temperature or two.
 
 ## What Q = 2/3 actually says: a thermal moment condition
 
