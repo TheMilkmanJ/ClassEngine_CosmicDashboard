@@ -640,6 +640,13 @@ chk("CMB_map", "model-natural chirality Pi", 8.68e-8, _Pi_nat, 0.01)
 assert 1e-8 <= _Pi_nat <= 1e-7, "CMB_map's quoted band 1e-8..1e-7 must hold the computed Pi"
 chk("CMB_map", "observable-Pi genesis gap (2.4e17/6e13)", 4e3, 2.4e17/6e13, 0.01, "x")
 
+# --- laboratory_cousins: the bench numbers (2026-07-19) ---
+chk("lab cousins", "medium sound speed c_s = sqrt(3*alpha)", 0.148, math.sqrt(3/137.035999), 0.003)
+chk("lab cousins", "the bench target <|cos|> = 2/pi", 0.6366, 2/math.pi, 0.001)
+chk("lab cousins", "rival RMS average sqrt(<cos^2>)", 0.7071, math.sqrt(0.5), 0.001)
+chk("lab cousins", "ring circumference 2*pi*20 um", 126, 2*math.pi*20, 0.005, "um")
+chk("lab cousins", "fit-implied 0.6253 vs 2/pi", 1.8, (2/math.pi/0.6253-1)*100, 0.03, "%")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

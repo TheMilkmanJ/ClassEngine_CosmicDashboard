@@ -1341,3 +1341,20 @@ committed — verified against git history); and five forward docs (MATH_SPINE, 
 me_mechanism_math, cyclic_torus_genesis, PREREGISTERED) had their scratch-era script citations
 tagged "not retained" — provenance kept, no pointer left promising code that isn't there.
 Working-log transcripts citing their own session ephemera were left as records.
+
+## PRTOE_laboratory_cousins.md — deep audit 2026-07-19
+
+File seventy-four. Five fixes, one real supersession caught by tracing a label to its birth
+commit: **the Eckel row's "the lab class for c"** was born 2026-07-11 in the retired
+decomposition's language, where c was the release efficiency the ring analogizes. Under the
+standing stack the release/roll-up object is f̄ = 2/π — the file's own §3(i) already says so —
+and c = 9/10 is a census count no ring BEC can instantiate. The row now reads "the roll-up's
+lab class (the object f̄ = 2/π now carries)." Also: §3's "(flagged, un-priced)" contradicted
+the 07-18 addendum that specifies all three proposals — header now dates both; Kibble–Zurek
+dashes unified; a double blank collapsed.
+
+Verified and kept: c_s = √(3α) = 0.148 (agrees with its two other homes; now harnessed), the
+2/π-vs-rivals table (0.6366/0.7071/0.5, all harnessed), the two corpus determinations
+(0.625 fit, 0.635 sim — match MATH_SPINE/THE_AMPLITUDE/DERIVATION_HUNT to their stated
+precision), the ring geometry arithmetic, the five-certificate enumeration, and the honest
+two-"no" rows in the bench-to-cosmos mapping. Harness 277.

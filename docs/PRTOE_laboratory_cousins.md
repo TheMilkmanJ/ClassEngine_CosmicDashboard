@@ -20,22 +20,22 @@ and falsified in dilute-gas BECs and superconducting circuits.**
 | lab system | the model object it instantiates | status |
 |---|---|---|
 | Josephson junctions (SI volt) | condensate phase tunneling — the medium's sub-threshold transport | recorded precision receipt |
-| Eckel et al. expanding ring BEC | the genesis release (an expanding-universe analog with a rolling condensate) | recorded as "the lab class for c" |
+| Eckel et al. expanding ring BEC | the genesis release (an expanding-universe analog with a rolling condensate) | recorded — the roll-up's lab class (the object f̄ = 2/π now carries) |
 | vortex lattices / Onsager-Feynman quantization | the winding, the rotation gene, Kerr's vortex bundle | cert-grade; graded |
 | Landau critical velocity experiments | cert-1/F3 — the certificate that capped the vacuum budget and broke the BH interior | founding certificate |
 | analog sonic horizons (Steinhauer-class) | phonon Hawking radiation — the BH exterior thermodynamics | standard analog-gravity |
-| Kibble-Zurek quenches in BECs | the first-genesis domain formation and winding generation | textbook mechanism, measured in labs |
+| Kibble–Zurek quenches in BECs | the first-genesis domain formation and winding generation | textbook mechanism, measured in labs |
 
 ## 2. The improvement, stated precisely
 
 Standard cosmology cannot learn about the Big Bang from a BEC — its early universe is a
 different substance. This model's genesis, vacuum cap, horizon thermodynamics, and winding
 generation are all CONDENSATE phenomena with lab-measured counterparts: **each certificate the
-review has leaned on (Landau, Onsager-Feynman, TRK/f-sum, Kibble-Zurek, Josephson) is
+review has leaned on (Landau, Onsager-Feynman, TRK/f-sum, Kibble–Zurek, Josephson) is
 lab-verified physics** — the model's foundations are the best-tested in its class because they
 are borrowed from the most-tested systems in physics.
 
-## 3. The forward program (flagged, un-priced)
+## 3. The forward program (flagged 2026-07-11; specified 2026-07-18, below)
 
 Specific bench questions the model would pay to have answered: (i) **f̄-analog** measurements *(f̄ = 2/π = ⟨|cos|⟩, the standing object; "f_amp" was the retired decomposition's name)* —
 release a ring BEC with a Z4-patterned tilt and measure the radial/angular energy partition
@@ -46,7 +46,6 @@ all possible with existing apparatus classes.
 
 *Every other theory of everything asks for a bigger collider. This one asks for a colder
 doughnut — and half its certificates already hang in metrology labs.*
-
 
 ## The bench proposals, specified (2026-07-18)
 
