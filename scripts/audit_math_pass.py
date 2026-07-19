@@ -504,7 +504,7 @@ _T_dep, _g = 570.0, 3.36                            # eV, ambient at t = 4e6 s
 _rho_rad = (math.pi**2/30)*_g*_T_dep**4/_hbarc**3
 chk("deuterium_scar 6", "20 MeV false vacuum energy density", 2.08e43, _rho_vac, 0.02, "eV/cm3")
 chk("deuterium_scar 6", "ambient radiation at the deposit epoch", 1.52e25, _rho_rad, 0.02, "eV/cm3")
-chk("deuterium_scar 6", "a space-filling 20 MeV vacuum over-delivers by", 1.4e18, _rho_vac/_rho_rad, 0.02, "x")
+chk("deuterium_scar 6", "a space-filling 20 MeV vacuum over-delivers by", 1.37e18, _rho_vac/_rho_rad, 0.01, "x")
 _n_gam = (2*1.20206/math.pi**2)*_T_dep**3/_hbarc**3
 _rho_need = 30*6.1e-10*_n_gam
 chk("deuterium_scar 6", "volume fraction allowed in the false vacuum", 5.2e-30, _rho_need/_rho_vac, 0.03)

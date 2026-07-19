@@ -221,7 +221,7 @@ ask for a *vacuum* that releases rather than a *particle* that decays: a field t
 vacuum at a 20 MeV scale, firing late. The two are not the same object, and the difference is
 instructive. **A particle species can be arbitrarily dilute, because its abundance is free; a false
 vacuum's energy density is fixed at Λ⁴ and cannot be.** Filling space, a 20 MeV vacuum carries
-2.1×10⁴³ eV/cm³ against an ambient 1.5×10²⁵ at the deposit epoch — it would dominate by **10¹⁸**
+2.1×10⁴³ eV/cm³ against an ambient 1.5×10²⁵ at the deposit epoch — it would dominate by **1.4×10¹⁸**
 and drive a second inflation, not warm the plasma by 30 eV per baryon.
 
 Tuned instead to deliver exactly the required injection, it may occupy no more than **5×10⁻³⁰ of
