@@ -41,7 +41,7 @@ outright (no dial — the sign is topological). The strength (~10⁻¹⁴ G at M
 P-028's magnitude column (the filament/void structure, the working docket — the claimed values sit
 ABOVE our smooth-Harrison floor and would need the network structure to be real).
 
-## 4. Owed (mirrors threaded_physics_working/T14)
+## 4. Owed (mirrors working_logs/T14)
 
 1. THE SIGN MAP (load-bearing, the AD-direct rectification).
 2. The literature refresh + systematics status of the helicity claims.

@@ -261,7 +261,7 @@ virial theorem. So the analysis correctly identifies the condensate mode as *dar
 fails to give the *dark-energy* value. A consistency check with the two-era dCDF, not a new result —
 and a reminder that in a unified DM+DE fluid the "residual" and the "excitation" are the same
 object's two faces. Autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); full debate in
-[Thermal_Half_Discussions.md](threaded_physics_working/Thermal_Half_Discussions.md).)*
+[Thermal_Half_Discussions.md](working_logs/Thermal_Half_Discussions.md).)*
 
 **What the door's cap actually is, and what therefore cannot fix it.** The cap is **E_b itself**,
 and §2(a) derives E_b as the *universal two-body form* ½α²M — the **ℓ = 0 Coulomb ground state**,
@@ -296,7 +296,7 @@ symmetry zero the zero-point outright **fails** — shift symmetry makes the vac
 **What the O(1) actually is — computed, tribunal-adjudicated (2026-07-17).** The residual is the
 **soft-phonon quantum correction to the condensation energy**, and the relativistic Bogoliubov
 calculation (built, then adversarially adjudicated — full record in
-[Thermal_O1_Discussions.md](threaded_physics_working/Thermal_O1_Discussions.md)) settles its size
+[Thermal_O1_Discussions.md](working_logs/Thermal_O1_Discussions.md)) settles its size
 class. **The feared O(1) was an artifact:** the 1.955 (= 1/(16π²c_s³), the door-gap number) is the
 **UV-divergent, un-renormalized reference** — verified divergent ∝ k_max² — not a physical
 correction; renormalization (counterterm = the physical mass renormalization, derived not fitted)

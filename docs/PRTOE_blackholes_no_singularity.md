@@ -144,7 +144,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
  mass itself puts the ℓ = m = 1 superradiance window at M ≈ 6×10⁸–3×10⁹ M☉ with fast spin-down —
  a Regge-gap lean in SMBH spin data (candidate grade; the λ-quench caveat and today's sparse
  spin measurements above 10⁸ M☉ keep it a lean, not a bet —
- [T2_smbh_atoms_owed.md](threaded_physics_working/T2_smbh_atoms_owed.md)).
+ [T2_smbh_atoms_owed.md](working_logs/T2_smbh_atoms_owed.md)).
 
 ## 8. Summary
 

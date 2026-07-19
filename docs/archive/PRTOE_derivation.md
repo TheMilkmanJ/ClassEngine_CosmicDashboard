@@ -1,14 +1,14 @@
 # PRTOE: Action → Equations → Code
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 > **PRE-DYAD ERA — SUPERSEDED.** This action→equations→code map is for the **scalar-tensor F(φ)R**
 > formulation (Vainshtein / thin-shell / galileon), which is not the current model. The standing
 > PRTOE is the two-field **dyad + dCDF** — varying electron mass plus a unified barotropic dark fluid,
-> implemented through the CLASS background ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)). The
+> implemented through the CLASS background ([PRTOE_CODE_MANIFEST.md](../PRTOE_CODE_MANIFEST.md)). The
 > **[DERIVE]** debts below (perturbed-Einstein δF, the KG factor, the screening gates) are debts of
 > the retired formulation, not open blockers on the current model. Standing derivation chain:
-> [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). Kept for the record.
+> [PRTOE_MATH_SPINE.md](../PRTOE_MATH_SPINE.md). Kept for the record.
 
 **Status: scaffold with verified content.** Every equation is numbered; every code
 reference is `file:function`. Items marked **[DERIVE]** are implemented in code but

@@ -62,7 +62,7 @@ sciences_inheritance · science_subdomain_tree · astrochemistry (+P-030) · the
 Appendix B (eleven master equations)
 
 ## The working folder
-threaded_physics_working/: T1–T16 owed-files · _cross_cutting · _master_computes (8→4 clusters)
+working_logs/: T1–T16 owed-files · _cross_cutting · _master_computes (8→4 clusters)
 · _parked_register (+ the cross-comparison pass, the resurrection review)
 
 ## Live, previously unlinked (surfaced 2026-07-16)
@@ -71,7 +71,7 @@ threaded_physics_working/: T1–T16 owed-files · _cross_cutting · _master_comp
 candid self-assessment is deliberately not on this shelf and is not listed here.)*
 
 - [THE PHYSICS DOMAINS](PRTOE_PHYSICS_DOMAINS.md) — the 74-domain census with verdicts and receipts
-- [dCDF v5 — THE COMPLETE MODEL](PRTOE_v5_dCDF_complete.md) — **mechanics current, fit numbers
+- [dCDF v5 — THE COMPLETE MODEL](archive/PRTOE_v5_dCDF_complete.md) — **mechanics current, fit numbers
   historical.** The barotropic dark fluid that replaces both CDM and Λ (p_d ≡ −ρ_∞, the
   w = −ρ_∞/ρ background) is the standing model; the July-6 refit tables inside it (H₀ = 69.70,
   the χ² tables) are that era's frozen record and carry their own banner. *Filed here, not in the
@@ -89,7 +89,7 @@ candid self-assessment is deliberately not on this shelf and is not listed here.
 - [THE AMPLITUDE](PRTOE_THE_AMPLITUDE.md) ·
   [THE CHAIN](PRTOE_THE_CHAIN.md) · [THE CMB MAP](PRTOE_CMB_map.md) ·
   [CYCLIC TORUS GENESIS](PRTOE_cyclic_torus_genesis.md) ·
-  [IMPLEMENTATION SUMMARY](PRTOE_IMPLEMENTATION_SUMMARY.md) ·
+  [IMPLEMENTATION SUMMARY](archive/PRTOE_IMPLEMENTATION_SUMMARY.md) ·
   [2-loop V_eff spec](PRTOE_build_2loop_Veff_spec.md) ·
   [weakest joints + c-prep](PRTOE_weakest_joints_and_cprep_2026-07-10.md) ·
   [Fairbank note draft](PRTOE_fairbank_note_draft.md)
@@ -101,23 +101,23 @@ as if live.** Where a headline result was retired, the file carries a named reti
 where it only carries the generic "some statuses may be superseded" hedge, trust
 [MATH_SPINE](PRTOE_MATH_SPINE.md) and [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) over it.*
 
-- [amplitude_derivation](PRTOE_amplitude_derivation.md) — **retired decomposition**
+- [amplitude_derivation](archive/PRTOE_amplitude_derivation.md) — **retired decomposition**
   (ε = c × f_amp × Ψ₀/M_red, f_amp ≈ 0.6). Standing: ε = c·f̄·α_c = 27α/5π. *An external reviewer
   cited this file's f_amp as live on 2026-07-16 — which is why the archive section now exists.*
-- [Second_Order_Action_Specification](PRTOE_Second_Order_Action_Specification.md) — RETIRED, the
+- [Second_Order_Action_Specification](archive/PRTOE_Second_Order_Action_Specification.md) — RETIRED, the
   legacy scalar-tensor (pre-dyad) formulation
-- [STATE_OF_MODEL](PRTOE_STATE_OF_MODEL.md) — historical checkpoint, predates the derivation hunt
+- [STATE_OF_MODEL](archive/PRTOE_STATE_OF_MODEL.md) — historical checkpoint, predates the derivation hunt
 - the v4/v5 era: [v5_five_verdict_derivation](PRTOE_v5_five_verdict_derivation.md) ·
-  [v5_SIDM_scoping](PRTOE_v5_SIDM_scoping.md) · [v4_dCDF_derivation](PRTOE_v4_dCDF_derivation.md) ·
+  [v5_SIDM_scoping](archive/PRTOE_v5_SIDM_scoping.md) · [v4_dCDF_derivation](PRTOE_v4_dCDF_derivation.md) ·
   [v4_dCDF_results](PRTOE_v4_dCDF_results.md) (superseded by the dyad era)
 - lab-logs (dead ends included, by design):
-  [room1_complex_completion](PRTOE_room1_complex_completion.md) ·
-  [gate0_qft_derivation](PRTOE_gate0_qft_derivation.md)
+  [room1_complex_completion](working_logs/PRTOE_room1_complex_completion.md) ·
+  [gate0_qft_derivation](working_logs/PRTOE_gate0_qft_derivation.md)
 - the m_e-mechanism lineage: [me_trigger](PRTOE_me_trigger.md) ·
   [kappa_v_derivation](PRTOE_kappa_v_derivation.md) *(me_mechanism_math has moved to the live
   shelf — its 2026-07-07 body is lineage, but its HIGH-F OPERATING SPEC and GATE sections are
   current and canonical)*
-- session/provenance: [SKELETON](PRTOE_SKELETON.md) (skeleton/outline era) ·
+- session/provenance: [SKELETON](archive/PRTOE_SKELETON.md) (skeleton/outline era) ·
   [intellectual_history](PRTOE_intellectual_history.md) ·
   [kill_and_patch_2026-07-07](PRTOE_kill_and_patch_2026-07-07.md) ·
   [granule_scoping](PRTOE_granule_scoping.md) · [math_story](PRTOE_math_story.md) ·

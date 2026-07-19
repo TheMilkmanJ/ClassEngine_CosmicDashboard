@@ -3,18 +3,18 @@
 > **HISTORICAL CHECKPOINT — SUPERSEDED.** This snapshot predates the derivation-hunt
 > era (68 entries), the freezes (ε, A_s, n_s, z_on all STATED as of 2026-07-13), and the
 > zero-parameter evidence run now in progress. Current truth lives in:
-> [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) ·
-> [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md) ·
-> [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md). Kept unedited as the July-7 record
+> [PRTOE_THE_AMPLITUDE.md](../PRTOE_THE_AMPLITUDE.md) ·
+> [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md) ·
+> [PRTOE_CODE_MANIFEST.md](../PRTOE_CODE_MANIFEST.md). Kept unedited as the July-7 record
 > (including P-2026-004's registered death — the registry's first internal kill).
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 
 > **STALENESS NOTE (2026-07-12):** this checkpoint predates the threading program, the
-> census arc, and the derivation-hunt night. For current state: [PRTOE_INDEX.md](PRTOE_INDEX.md)
-> (the map), [PRTOE_THREE_EQUATIONS.md](PRTOE_THREE_EQUATIONS.md) (the core),
-> [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) (the open work, EXPLORATORY).
+> census arc, and the derivation-hunt night. For current state: [PRTOE_INDEX.md](../PRTOE_INDEX.md)
+> (the map), [PRTOE_THREE_EQUATIONS.md](../PRTOE_THREE_EQUATIONS.md) (the core),
+> [PRTOE_DERIVATION_HUNT.md](../PRTOE_DERIVATION_HUNT.md) (the open work, EXPLORATORY).
 > Kept as the honest historical baseline it is.
 
 *Honest status assessment. No inflation; evidence class stated first.*

@@ -427,7 +427,7 @@ is its only coupling). Give it curvature and the product is determined:*
 - **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 burn;
  proposal-grade):** the frozen-ellipticity theorem (the ellipticity fraction — **a different quantity from the
  retired amplitude factor of the same name**, which the standing decomposition ε = c·f̄·α_c
- no longer contains; see [PRTOE_amplitude_derivation.md](PRTOE_amplitude_derivation.md)'s
+ no longer contains; see [PRTOE_amplitude_derivation.md](archive/PRTOE_amplitude_derivation.md)'s
  banner — here it is ε² frozen
  because rotation and libration redshift identically) is testable in
  a LAB: expanding-ring BEC "analog universe" experiments already

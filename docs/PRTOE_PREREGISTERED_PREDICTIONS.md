@@ -1763,7 +1763,7 @@ lands at **ℓ₁ ≈ 31–94** — a factor-of-three band, not a point, because
 factor of three. Across the band where teeth survive Silk damping (ℓ ≈ 100–600) that is 5 teeth
 at the top of the n range and 16 at the bottom. **A sharper location requires a sharper n, and n is
 measured, not derived by design.** The same integer sets the η-era phase pattern (P-2026-002's
-family) and the cavity modulation — **one topological number, three observables** (the M2↔M7 tie, [_master_computes.md](threaded_physics_working/_master_computes.md)).
+family) and the cavity modulation — **one topological number, three observables** (the M2↔M7 tie, [_master_computes.md](working_logs/_master_computes.md)).
 **Kill:** a full-sky spectrum with no comb structure at the predicted spacing, at the sensitivity
 where the tooth amplitude is predicted to sit. **Grade:** candidate; the amplitude is un-computed
 (M7, the cavity/axis computation, is **un-run**), so this entry currently states a *location*, not
@@ -1822,7 +1822,7 @@ precedent). Its scale is one of the debts M1 (the α_c posterior) was booked to 
 near **ℓ ≈ 170**. **Kill:** a CMB isocurvature bound tightening below the predicted level at that
 scale. **Grade:** candidate — and **λ_phys (M4) records it as a CONSEQUENCE**, not an independent
 bet: "the Kibble draw at T_c is born at the crossover → λ = ceiling; **P-031 becomes a
-consequence**" ([_master_computes.md](threaded_physics_working/_master_computes.md)). It therefore
+consequence**" ([_master_computes.md](working_logs/_master_computes.md)). It therefore
 inherits M4's conditionality and must not be counted as a separate confirmation.
 
 ## P-2026-032 … P-2026-037: The Assembly Six (registered 2026-07-11)

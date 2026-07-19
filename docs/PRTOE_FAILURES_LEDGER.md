@@ -148,7 +148,7 @@ dark-*energy* coefficient. A consistency check with the two-era dCDF, not a new 
 **The verdict:** f = ½ is withdrawn. The O(1) coefficient remains the genuinely un-built calculation.
 Root cause: a coincidence (16π²α_c^{3/2} ≈ ½) dressed as a derivation, plus a classical pressure split
 imposed on a quantum ground state. Full debate transcript:
-threaded_physics_working/Thermal_Half_Discussions.md. Provenance: 2026-07-17, caught by the
+working_logs/Thermal_Half_Discussions.md. Provenance: 2026-07-17, caught by the
 "too perfect" skepticism check before it was championed.
 
 ### Koide ⟨a³⟩ = 5/9 (the phase coincidence-watch) — KILLED, excluded at 4.5σ
@@ -185,7 +185,7 @@ referee). **What survives the retirement:** the quadratic operator form, the κ-
 formula, the ε = c·f̄·α_c amplitude, √σ_dark = m_e, and the flagship — the kill ran through the
 operating point and the dyad-as-SU(2)-condensate identification (dropped with it), not through
 the operator or the amplitude. Full adjudication record:
-[Nontherm_Kill_Discussions.md](threaded_physics_working/Nontherm_Kill_Discussions.md).
+[Nontherm_Kill_Discussions.md](working_logs/Nontherm_Kill_Discussions.md).
 
 ### The dyad VEV conflation (v ≈ 100 keV) — self-caught error, closed-form fix (2026-07-17)
 
@@ -716,7 +716,7 @@ with K/V = 2 by a mechanism that does not lean on medium EoS. Both unbuilt. Same
 one false bridge removed.
 
 **The fence.** Do not re-raise "sits in a w = 1/3 medium ⇒ K = 2V" as support for A = √2. Corrected
-in [PRTOE_koide_relation.md](PRTOE_koide_relation.md) and [T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+in [PRTOE_koide_relation.md](PRTOE_koide_relation.md) and [T6_koide_owed.md](working_logs/T6_koide_owed.md).
 
 
 ### Hard Koide landing — single-potential and statistical routes RETIRED (2026-07-17)
@@ -736,7 +736,7 @@ be multi-field, topological/protected, or basement boundary conditions — not a
 virial.
 
 **Fence.** Do not re-raise quartic-alone, equipartition-as-VEV, or CS-midpoint as the landing.
-Details: [T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+Details: [T6_koide_owed.md](working_logs/T6_koide_owed.md).
 
 
 ### Komar-balance map to Koide A = √2 — KILLED (gives the inverse) (2026-07-17)
@@ -750,7 +750,7 @@ rescue it is answer-fitting (and breaks JP's pour→M, dCDF→R assignment).
 
 **Fence.** Do not re-raise Komar balance as a derivation of A = √2. The *signs* still support the
 face assignment; the *ratio* does not. Full walk:
-[T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md) (remaining-shapes section).
+[T6_koide_owed.md](working_logs/T6_koide_owed.md) (remaining-shapes section).
 
 
 ### Natural Z₃ cubic as Koide landing — KILLED (drives A = 2) (2026-07-17)
@@ -765,7 +765,7 @@ opposite of Koide (A = √2, all three masses nonzero). The cubic **fights** the
 **Fence.** Do not cite a natural Z₃ cubic (or “Z₃-invariant potential” without further structure)
 as the mechanism for A = √2. Related: field-space metric walk paid equal stiffness and rewrote
 A = √2 ⟺ R_c = M_c; that residual is still open.
-[T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+[T6_koide_owed.md](working_logs/T6_koide_owed.md).
 
 ### Topology / lock-6 as payment for A = √2 — DEFERRED-CLOSED / DELEGATION (2026-07-17)
 
@@ -827,7 +827,7 @@ this row wrong twice): *"The D/H error budget is not stated anywhere in the corp
 significance is not reproducible without it. Until the budget is stated, this row carries a central
 value and no σ."*
 
-**It was stated.** [PRTOE_v5_dCDF_complete.md](PRTOE_v5_dCDF_complete.md) §headline, since
+**It was stated.** [PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md) §headline, since
 2026-07-07: *"with the post-LUNA nuclear-theory error (**PRIMAT ±0.037, cite-verified**) the scar is
 −1.2σ"*, sourced to arXiv:2011.11320 vs 2011.11537. **It reproduces exactly**: the v5-era D/H 2.468
 against Cooke gives −1.97σ on the observational error alone (the quoted "−2.0") and **−1.24σ** on
@@ -1446,7 +1446,7 @@ the fourth wrong call on this one deuterium row (process errors 36, 38, 40 prece
 
 **Why the withdrawal did not hold.** It was chased across the documents that *quoted* −1.89σ, and
 it caught all of them. It was not applied to the working file that **generated** it —
-[T13_fingerprint_owed.md](threaded_physics_working/T13_fingerprint_owed.md), whose splice table is
+[T13_fingerprint_owed.md](working_logs/T13_fingerprint_owed.md), whose splice table is
 internally sound as a *relative* comparison and still carried "the model SURVIVES BBN … p = 0.093"
 as an absolute headline. The next computation that needed a BBN starting point read it from there.
 
