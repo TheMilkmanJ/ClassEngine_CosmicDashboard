@@ -200,16 +200,26 @@ Write s = √m with mean μ and population variance V. Then Q = ⅓ + V/(3μ²) 
 
 On the measured leptons that holds to **18 ppm** (V/μ² = 0.9999815).
 
-**And CV = 1 is the thermal signature.** The exponential–Boltzmann law has mean 1/λ and variance
-1/λ², so variance = mean² exactly; and a Boltzmann weight is the *unique maximum-entropy
-distribution at fixed mean*. For a positive quantity, CV = 1 is what "thermally populated" means.
+**CV = 1 is the exponential–Boltzmann law's signature** — that distribution has mean 1/λ and
+variance 1/λ², so variance = mean² exactly, and it is the unique maximum-entropy law at fixed mean.
+
+**But that reading cannot be a derivation, and the reason is quantitative.** If the three √m were a
+thermal *sample*, Q would scatter: three draws from an exponential give Q with **mean 0.50 and
+standard deviation 0.13**, a central 68% interval of [0.38, 0.63], and only **1.5×10⁻⁵** of draws
+landing within 18 ppm of 2/3. Sampling noise is four orders too large, and at n = 3 the expected
+value is not even 2/3. **The measured 18 ppm is therefore not evidence of a thermal population** —
+it is evidence that CV = 1 is held *exactly*, as a constraint, which no sampling story delivers.
+
+What the thermal language does supply is an interpretation of the constraint's **value**: 1 is the
+number a Boltzmann population would carry. What it does not supply is why three masses satisfy it
+to five decimal places. **That remains the sector's open question**, now stated sharply: what holds
+Var(√m) = mean(√m)² exactly?
 
 So the whole sector follows from one hypothesis about the spectrum's origin:
 
 | step | statement |
 |---|---|
-| hypothesis | the charged-lepton √m are thermally populated |
-| ⟹ | CV = 1, so V = μ² |
+| constraint (source open) | CV = 1 exactly, i.e. V = μ² — value readable as thermal, mechanism unknown |
 | ⟹ | **Q = 2/3** — the Koide relation |
 | ⟹ | A = √2, ρ = \|f₁/f₀\| = 1/√2 — the amplitude and modulus watches |
 | ⟹ | τ = −ln ρ = **½ln2**, so **T_c = 177.10 keV** and **ρ_Λ¼ = 2.2599 meV** (observed 2.25) |
@@ -219,6 +229,7 @@ So the whole sector follows from one hypothesis about the spectrum's origin:
 This replaces the earlier reading, which required choosing that equilibrium partitions power by
 *charge sector* rather than per mode — a choice that was load-bearing, since per-mode sharing
 returns Q = 1. The moment condition needs no such choice: the sector split falls out of it rather
-than being imposed on it. **What remains assumed is that the spectrum is thermally populated at
-all** — natural in a model whose masses come from a condensate at a definite temperature, and it is
-now the sector's single input.
+than being imposed on it. **What remains open is what enforces CV = 1 exactly.** A thermal population explains the
+number's value but not its precision — three draws from a Boltzmann law scatter far too widely. The
+sector's single input is therefore still a constraint in search of a mechanism, and the thermal
+reading is a clue to its value rather than its origin.

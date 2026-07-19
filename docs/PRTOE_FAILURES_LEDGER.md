@@ -1624,3 +1624,31 @@ normalisation, and every attempt before that failed for exactly this reason.
 **Status.** The phase remains the sector's single un-derived link, now with its domain bounded and
 its obstruction classified. **What would close it is a mechanism that produces an angle natively —
 a genuine holonomy of something, rather than a number that happens to be written in radians.**
+
+### THE THERMAL READING OF Q = 2/3 — OVERSTATED THE SAME EVENING, CORRECTED BY ITS OWN TEST (2026-07-19)
+
+**What was booked.** That the charged-lepton √m are "thermally populated", that this gives CV = 1
+hence Q = 2/3, and that **"the hypothesis is confirmed by the lepton masses to 18 ppm."**
+
+**The last clause is wrong.** If the three √m were a thermal *sample*, Q would scatter. Three draws
+from an exponential give **⟨Q⟩ = 0.50 with σ = 0.13**, a central 68% band of [0.38, 0.63], and only
+**1.5×10⁻⁵** of draws within 18 ppm of 2/3. At n = 3 the sampling expectation is not even 2/3.
+**So the 18 ppm agreement is not confirmation of the hypothesis — it is evidence against the
+hypothesis being a sampling statement at all.**
+
+**What survives.** The identity Q = 1/3 + V/(3μ²), hence Q = 2/3 ⟺ Var(√m) = mean(√m)², is exact
+and untouched. So is the observation that CV = 1 is the Boltzmann law's signature. What fails is
+the inference from "CV = 1 is thermal" to "the spectrum is thermally populated": a population
+reproduces the *value* on average and cannot reproduce the *precision* at all.
+
+**What it costs.** The sector does not promote to derived. Q = 2/3 must be an **exact constraint**,
+and the open question is sharpened rather than closed: *what holds Var(√m) = mean(√m)² to five
+decimal places?* The downstream chain — τ = ½ln2, T_c = 177.10 keV, ρ_Λ¼ = 2.2599 meV — is
+unaffected in content, since it descends from Q = 2/3 itself and not from the thermal reading; only
+its grade is affected, and it stays candidate.
+
+**The lesson (process).** *A hypothesis that predicts a central value has not been tested until its
+predicted spread is checked against the measurement's precision.* The thermal reading matched what
+was being measured and was booked as confirmed before anyone asked how tightly it predicts. The
+test that overturned it was one simulation and had never been run — the same shape as the session's
+other errors, and made in the same direction, toward the more satisfying story.
