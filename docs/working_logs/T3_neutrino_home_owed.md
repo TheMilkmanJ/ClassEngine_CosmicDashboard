@@ -5,3 +5,8 @@
 4. Track KATRIN/oscillation windows vs the preferred band.
 
 Coupling-geometry status: medium-sector (the tenth channel) — untouched by the gate geometry.
+
+## PAID (2026-07-19 reconciliation): item 3 — v_L derived (the seesaw-scan task; the
+neutrino-sector file carries v_L = 4.18 MeV with the Majoron-mode consistency). In flight:
+item 1 (dyad_mnu chain running, R−1 ≈ 0.18 marginal today) and item 2 (conv_desi running).
+Item 4: standing watch.
