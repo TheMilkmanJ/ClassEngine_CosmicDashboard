@@ -2581,3 +2581,53 @@ radiation into matter or photons, which would reopen the hiding route and void (
 **Grade:** (a) derived — the H = m relation and the radiation budget are both recorded, and the
 scaling follows from them with no free coefficient; currently below measurement precision.
 (b) derived, and conservative: it uses only the observed dark-matter density and the FIRAS limit.
+
+## P-2026-054: The soliton threshold — which galaxies carry a dark core and which cannot (registered 2026-07-19)
+
+**Where it comes from.** The Galactic Centre budget test found the predicted soliton over the
+measured extended mass at one parsec by a factor of about three, and the only physical escape is
+that the soliton does not form where the nuclear black hole owns the potential. That escape is not
+free: applied consistently it **sorts every galaxy into two classes**, and the boundary is
+computable.
+
+**The condition.** A soliton survives where its core radius exceeds the black hole's sphere of
+influence:
+
+> r_c = 1.6 (m/10⁻²² eV)⁻¹ (M_h/10⁹ M☉)^(−1/3) kpc  **>**  r_infl = GM_BH/σ²
+
+Feeding the observed M–σ relation and the halo virial scaling into both sides gives a crossover:
+
+> **σ_crit ≈ 77 km/s,  M_h,crit ≈ 3×10¹¹ M☉,  M_BH,crit ≈ 1.4×10⁶ M☉**, both radii ≈ 1 pc
+
+**Below the threshold** — dwarfs and low-mass systems — the soliton wins by wide margins: at
+σ = 20 km/s the core radius exceeds the influence radius by 250×. **Above it** — the Milky Way and
+everything larger — the black hole owns the centre and the core-halo soliton is not there to be
+found. The Milky Way sits at σ ≈ 100 km/s in its nuclear cluster, comfortably on the black-hole
+side, which is what resolves the parsec-scale tension.
+
+**Robustness.** Varying every input relation — σ/V_vir from 0.6 to 0.8, the M–σ normalisation by
+a factor of two either way, its slope from 4.4 to 5.8, the virial velocity scale from 140 to
+180 km/s — moves the threshold only between **1.8 and 5.3×10¹¹ M☉** (σ_crit 63–91 km/s). A
+factor-of-three band on a threshold.
+
+**And it measures the dCDF mass.** The core radius carries m and the influence radius does not, so
+
+> **M_h,crit ∝ m^(−0.73)**
+
+A three-decade change in m moves the threshold by 2.2 decades, against a systematic spread of only
+0.25 dex. **Locating the transition observationally therefore determines m to about a factor of
+two** — an independent handle on a number the model currently fixes from the radiation-to-dust
+onset alone.
+
+**Kills:**
+(i) a confirmed dark core of the predicted radius and mass in a galaxy well above the threshold —
+kills the criterion, and with it the escape that keeps the Galactic Centre alive;
+(ii) no cores in dwarfs well below it, where the relation applies as derived and the soliton is
+only ~6% of the inner mass — kills the soliton claim outright;
+(iii) a threshold located outside 10¹¹–10¹² M☉ — inconsistent with m = 2.24×10⁻²⁰ eV at more than
+the systematic band, which would put the onset clock and the galactic sector in conflict.
+
+**Grade:** derived from recorded objects (the core-halo relation, the model's measured m) plus two
+standard observational scalings, which are named above and are the dominant uncertainty. The
+threshold's *existence* is forced once the escape is claimed; only its location carries the
+factor-of-three band.
