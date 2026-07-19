@@ -363,11 +363,11 @@ proper Boltzmann pass are owed):
 | corner | tie tracking | ν free-streaming at z ≈ 1100 (computed) | standing |
 |---|---|---|---|
 | **A: f = v_L ≈ 100–500 TeV** | dead (ceiling 2.4 TeV vs floor 40 TeV — a factor 17) | Γ/H ~ 3×10⁻³⁸ — CMB-safe, S4-dark, 0νββχ-invisible | tie-dead |
-| **B: v_L in the corridor (below)** | was "alive" via the retracted channel | *(withdrawn — the corridor's fences rode P-2026-049)* | dissolved with the retraction |
+| **B: v_L in the corridor (below)** | was "alive" via the retracted channel | *(withdrawn — the corridor's fences rode P-2026-052)* | dissolved with the retraction |
 | **C: v_L ~ MeV** | alive (5×10¹⁰, condensate-friction) | *(the deep-recoupling stress was the retracted channel)* | **alive — lane-clean** |
 
 **The corridor's floor fence and the recoupling epoch are withdrawn** (the νν̄ ↔ φ channel is
-kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ — P-2026-049 retracted,
+kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ — P-2026-052 retracted,
 autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); for an ultralight Majoron the
 free-streaming lane returns no discriminator at any corner (g⁴ exchange only, Γ/H ≲ 10⁻⁵
 everywhere; the massless-mediator CMB bound g ≲ few×10⁻⁷ is passed by ≥ 20× at the MeV corner).
