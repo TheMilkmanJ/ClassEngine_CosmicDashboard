@@ -11,3 +11,15 @@ if echo "$out" | grep -q "^FAILURES:"; then
   echo "REFUSING TO COMMIT — fix the failing check(s) first."
   exit 1
 fi
+
+# THE NAMING LAW (owner ruling 2026-07-19): PRTOE expands ONLY to
+# "Pulford-Romsa Theory of Expansion". Any other expansion in live files is a defect.
+# History homes (archive/, the failures ledger, the audit ledger, git logs) are exempt.
+bad=$(grep -rln "Pulford-Romsa Theory of Everything\|Phantom Rip Theory"       --include="*.md" --include="*.py" --include="*.js" --include="*.html" --include="*.c" --include="*.yaml"       README.md docs/ scripts/ cosmic_dashboard/ cosmic_explorer.py 2>/dev/null       | grep -v "docs/archive/\|FAILURES_LEDGER\|_AUDIT_LEDGER" || true)
+if [ -n "$bad" ]; then
+  echo
+  echo "NAMING LAW VIOLATION — a wrong PRTOE expansion is live in:"
+  echo "$bad"
+  echo "REFUSING TO COMMIT — the name is: Pulford-Romsa Theory of Expansion."
+  exit 1
+fi
