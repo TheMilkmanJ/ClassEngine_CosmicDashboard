@@ -42,7 +42,7 @@ term, and gives the reading order.*
 | the pour / the snap / the fountain | the bounce: the hot re-start of a cycle (structurally the one realized white-hole-like event) |
 | the melt | reheating above T_c at the crunch: superfluidity ends, friction returns, the winding's protection lapses |
 | route D / the thaw branch | the alternative to a rigid dark-energy floor: w₀ ∈ [−0.92, −0.86] with wₐ < 0, the dark energy *leaving* its floor as the universe expands rather than sitting on it. DESI DR3 decides between this and w = −1 exactly |
-| the curvature-metered gate | the screen that switches the electron-mass shift off in dense, curved regions: f = exp(−C²/C_ref²), keyed to the Weyl curvature. It is what makes today's laboratories see no effect |
+| the curvature-metered gate | the screen that switches the electron-mass shift off in dense, curved regions, keyed to how sharply curved they are: exp(−(C/C_ref)ⁿ) with n > 2.43, so sharp it is effectively a step. It is what makes today's laboratories see no effect |
 | ramps vs steps | the house discipline: physical transitions are modeled as smooth (finite-width) functions, never discontinuities, unless protected by quantization/topology |
 | the error log | the log of caught errors (public, in the failures ledger) |
 | the killer / the kill | the named observation that falsifies a specific claim |

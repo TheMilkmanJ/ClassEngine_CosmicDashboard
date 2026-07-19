@@ -22,7 +22,7 @@ of. Its direction is *temporal* ("before"), not spatial ("outside").
 ## ACT 1 — The genesis (Affleck–Dine): the medium is born
 Inflation displaces a complex field Ψ; it rolls/spirals in a tilted potential,
 acquiring rotation (charge). Runs ONCE.
- **V(Ψ) = m²|Ψ|² + λ|Ψ|⁴** (m ~ 10⁻²¹ eV, λ ~ 10⁻⁸⁸)
+ **V(Ψ) = m²|Ψ|² + λ|Ψ|⁴** (m = 2.24×10⁻²⁰ eV, λ ≈ 2×10⁻⁹¹)
  outputs: **Ψ₀** (field scale ~10¹⁷ GeV), **f_rot ≈ 0.4 / f_amp ≈ 0.6** (dice)
  [DERIVED mechanism (Room 1 identity = charged rotating superfluid);
  exact Ψ₀, f_amp OPEN — the genesis calc]
