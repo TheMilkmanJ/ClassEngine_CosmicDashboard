@@ -3,11 +3,21 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: EXPLORATORY / UN-REFEREED** (review-hold booking). **One named condition has
-> since FAILED: the paired lepton-sector vacuum was excluded by the basement
-> rebuild — the gap-equation architecture below is
-> retained as a template awaiting transfer to the Fermi-point basement, and every result
-> in this file inherits that conditionality.** Also conditional on: the no-bare
+> **STATUS: split, because the pieces did not fail together.** A named condition FAILED — the
+> paired lepton-sector vacuum was excluded by the basement rebuild — but "every result inherits
+> that conditionality" was too broad, and the split matters:
+>
+> | piece | does it use the excluded vacuum? | grade |
+> |---|---|---|
+> | **the −3/2 exponent** | **no** — the chain runs on a pairing log's thermal dressing and equipartition, ⟨E_kin⟩/T = 3/2 at *any* nonrelativistic formation temperature. Self-pinned, no vacuum named | **derived** (additivity grade) |
+> | the shared k | no — it is the A_s coupling, three-way concordant at 1.360 / 1.36461 / 1.3602 | derived elsewhere |
+> | α_c = 3α | no — the same coupling as the amplitude and the vacuum | registered bet (P-040) |
+> | **the anchor's identification with 4πm_H** | **yes** — it is where the gap equation needed a vacuum to sit in | **orphaned pending transfer to the Fermi-point basement** |
+>
+> So the arithmetic below stands and reproduces (residual 1.5015 against 3/2; M_anchor = 1576 GeV
+> against 4πm_H = 1574, +0.15%). What is homeless is the *interpretation* — a gap equation without
+> a vacuum. Other conditionality: the no-bare clause, P-2026-042's anchor identification, and the
+> gap equation's k. Referees: the α_c MCMC, the two-loop redesign, HL-LHC. Also conditional on: the no-bare
 > clause, P-2026-042's
 > anchor identification, and the gap equation's k (owed, the working docket). Referees: the α_c MCMC (the
 > triangle), the two-loop redesign, HL-LHC (the portal search).
