@@ -51,7 +51,7 @@ everywhere atomic physics appears.
   suppression. One SU(2)-specific fact helps: the chiral and deconfining transitions decouple in
   SU(2), so the chiral T_c can legitimately sit below the Polyakov number.
 - **(b) BBN is adverse-leaning under the standing configuration, and worst in helium.** The
-  committed genesis residual (ξ window) eases deuterium without healing it — D/H reads
+  committed genesis residual (the ζ window) eases deuterium without healing it — D/H reads
   **−2.5…−1.4σ** from Cooke on the quotable budget, up from −2.9σ before the residual — while Y_p
   pays at **+1.3…+2.0σ** vs Aver and the EMPRESS fork worsens to **+3.8…+4.4σ**. The joint p is
   **0.02–0.08** on that budget, reaching 0.12–0.21 only if the full ~3.5% inter-nuclear-code spread
@@ -70,7 +70,7 @@ everywhere atomic physics appears.
   re-homes the dyad at a high decay constant (~100–500 TeV): thermalisation gates clear by
   10⁸–10⁹, the BBN ramp's clock survives, the induced fifth force is closed by the model's own
   environmental gate (which the recorded configuration needs ~10⁸-worse for electron g−2
-  regardless), and the branch predicts **ΔN_eff ≈ 0.06–0.24 (the committed ξ window) — a CMB-S4 detection target**, its
+  regardless), and the branch predicts **ΔN_eff ≈ 0.06–0.24 (the committed ζ window) — a CMB-S4 detection target**, its
   own falsifier. The price: a new ~100-TeV-class input, the dyad-as-chiral-condensate
   identification drops (its consilience must be re-priced), and the windowed BBN books re-run.
   The high-f configuration is the standing one. Its BBN books: the committed ΔN_eff residual

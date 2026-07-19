@@ -1846,7 +1846,7 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
  length floor). **Kill**: any confirmed sub-milliparsec non-baryonic compact object.
 - **P-036 — THE HELIUM WAR RESOLVES HIGH** (adverse-leaning, registered against comfort):
  Y_p determinations must drift UP toward ~0.25 — the prediction **0.2498–0.2520** (the span of the
- committed genesis window ξ ∈ [0.25, 0.35]) sits above both Aver (+1.3 to +2.0σ) and EMPRESS
+ committed genesis window ζ = T_dark/T_γ ∈ [0.25, 0.35]) sits above both Aver (+1.3 to +2.0σ) and EMPRESS
  (+3.8 to +4.4σ). **Kill**: resolution EMPRESS-ward (hardens the counter toward **+4.4σ**).
 - **P-037 — WIDE BINARIES ARE NEWTONIAN** (the live-controversy null): the claimed Gaia
  MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a

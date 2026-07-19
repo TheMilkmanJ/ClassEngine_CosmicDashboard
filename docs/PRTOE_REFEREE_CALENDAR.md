@@ -37,7 +37,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 | SKA-class cosmic dawn (REACH/lunar) | P-2026-043 (the ~5% deeper trough, signed) | a trough ~5% SHALLOWER than standard = wrong sign, kills |
 | DESI 4PCF parity | the anti-anomaly bet #2 (the model is 7 orders short — bets systematic) | confirmed parity violation at claimed amplitude = the model has no channel, owned exposure |
 | stochastic GW (PTA/LISA/ET) | the vortex Gμ null; the chiral family (amplitude un-computed) | as registered |
-| **CMB-S4 ΔN_eff** | the committed genesis window ΔN_eff ∈ [0.06, 0.24] (the high-f configuration's own falsifier) | confirmed < 0.03 or > 0.3 kills the committed ξ window from either side |
+| **CMB-S4 ΔN_eff** | the committed genesis window ΔN_eff ∈ [0.06, 0.24] (the high-f configuration's own falsifier) | confirmed < 0.03 or > 0.3 kills the committed ζ window from either side |
 | **CMB-S4 Majoron search** | the v_L corner selector (both corners lane-clean) | a detection at g ~ 10⁻⁸–10⁻⁹ selects the MeV corner; a null leans high-v_L |
 | **the SU(2) N_f = 3 lattice** (external; the note APPROVED FOR CIRCULATION) | THREE numbers of one campaign: **T_c/√σ** (P-2026-048 + the addendum's two-point fork: 0.3503 vs ½ln2 = 0.34657), **F_π/√σ** (the kernel chain demands 0.40–0.47, pinned convention), **w·√σ** (the sheet: 0.8–1.1) | outside the T_c window falsifies the DE sector; 0.3503 kills the kernel τ, 0.34657 crowns it; F_π or w outside their bands kills the kernel chain's coefficient legs |
 | **Belle II-class lepton masses** | P-2026-051 — the Koide deviation lock: δθ = 0.3143·δA (currently −0.31σ from the line) | deviations robustly off the line kill the holonomy-equals-Q closure; either watch breaking outright kills a fortiori |

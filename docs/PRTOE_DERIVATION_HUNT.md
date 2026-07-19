@@ -143,11 +143,11 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   (v ≈ 100–500 TeV)**: gates cleared by 10⁸–10⁹, the ramp's synchronizer survives (first order in
   κ vs κ² thermalization), the fifth-force wall closed by the corpus's own operator-level gate
   (billing symmetry: the recorded model needs the same gate ~10⁸-worse for electron g−2 before
-  cosmology), residual **ΔN_eff ≈ 0.06–0.24 with the committed ξ window (§8 item 1b) — a CMB-S4 (±0.03)
+  cosmology), residual **ΔN_eff ≈ 0.06–0.24 with the committed ζ window (§8 item 1b) — a CMB-S4 (±0.03)
   detection target**. The branch's
   price sheet (P1–P6: a new ~100-TeV input, the dyad=condensate identification drops, the
   electron-CW mechanism dies as recorded, BBN books re-run, the gate's owed checklist, a
-  genesis-ξ commitment) is booked and paid; **the branch is the standing configuration (§8
+  genesis-ζ commitment) is booked and paid; **the branch is the standing configuration (§8
   item 1b)**.
   √σ_dark = m_e and the flagship survive either way. Full record + verdict:
   [Nontherm_Kill_Discussions.md](threaded_physics_working/Nontherm_Kill_Discussions.md) §6.
@@ -165,8 +165,8 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   the SU(2) sector's chiral condensate, §6) drags the full 27 dof in: ΔN_eff = 27/(7/4) = **15.4**;
   even a detached thermalised dyad alone gives 4/7 = **0.571** > Planck's 0.3. **(iv) The timing
   pincer (normalization-independent):** the BBN engine codes the ramp on T_γ with T_c = 179 keV;
-  synchrony requires ξ = T_d/T_γ = 1 (⟹ ΔN_eff = 15.4); the priced dilution ξ = 0.465 puts dark
-  confinement at T_γ = 385 keV and the escape's ξ ≤ 0.284 at ≥ 630 keV — desynchronising the coded
+  synchrony requires ζ = T_dark/T_γ = 1 (⟹ ΔN_eff = 15.4); the priced dilution ζ = 0.465 puts dark
+  confinement at T_γ = 385 keV and the escape's ζ ≤ 0.284 at ≥ 630 keV — desynchronising the coded
   window ("OFF at n/p freeze-out, GROWING below T_c"). Every branch closes. **(v)** The only
   recorded normalization that passes (f_L = 2.3×10¹¹ GeV, by 10⁵) is the §7.6-killed single-field
   era's — it cannot produce the coded ramp; reviving it is a different model. **Net: the ΔN_eff
@@ -493,8 +493,8 @@ irreducible input.
    ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4) makes (λ_dyad, f, T_c) a two-parameter
    family — any two fix the third — so the sector carries one input fewer than the list once
    showed; with the recorded λ_dyad, f sits at ≈145 TeV inside the window. With it the model commits to **ONE genesis dilution
-   ξ = T_dark/T_γ ∈ [0.25, 0.35]** used consistently everywhere it appears (ΔN_eff, the BBN books,
-   sector pricing — no per-window ξ), predicting **ΔN_eff = (27/(7/4))·ξ⁴ = 0.06–0.24, centred
+   ζ = T_dark/T_γ ∈ [0.25, 0.35]** used consistently everywhere it appears (ΔN_eff, the BBN books,
+   sector pricing — no per-window ζ), predicting **ΔN_eff = (27/(7/4))·ζ⁴ = 0.06–0.24, centred
    ≈ 0.1 — CMB-S4 (±0.03) adjudicates directly**; a confirmed ΔN_eff < 0.03 or > 0.3 kills the
    committed window from either side. The dyad is **not** the SU(2) sector's chiral condensate
    (that sector keeps its own condensate and its own T_c/√σ story — the two-color consilience
@@ -503,11 +503,11 @@ irreducible input.
    timing (the predecessor configuration's record:
    [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). **The windowed BBN books under this configuration (2026-07-18; response-coefficient
    propagation on the model's own prediction D/H = 2.387×10⁻⁵, Y_p = 0.24900 — the ramp profile is
-   unchanged, the branch adds only its ξ residual):** the residual ΔN_eff pushes deuterium toward
+   unchanged, the branch adds only its ζ residual):** the residual ΔN_eff pushes deuterium toward
    Cooke and makes helium pay, and **which verdict that produces still depends entirely on the
    nuclear-code systematic**, exactly as it did before adoption:
 
-   | deuterium error budget | D/H vs Cooke (pre-ξ → across the ξ window) | joint p (2 dof) |
+   | deuterium error budget | D/H vs Cooke (pre-ζ → across the ζ window) | joint p (2 dof) |
    |---|---|---|
    | observational ⊕ PRIMAT nuclear, ±0.0476 — **the quotable row** | −2.9σ → **−2.5 to −1.4σ** | **0.02–0.08** |
    | + half the 3.5% inter-code spread, ±0.0643 | −2.2σ → −1.9 to −1.0σ | 0.07–0.11 |
@@ -518,7 +518,7 @@ irreducible input.
    heal it:** at the top of the window D/H reaches 2.463×10⁻⁵ against Cooke's 2.527×10⁻⁵, still
    0.064 low — it does not cross zero on any budget. The direction of the shift is
    **anchor-independent** (a relative move) and **hostage to its own falsifier** (CMB-S4 must see
-   the same ΔN_eff). *Provenance note: the ξ window predates this propagation — the deuterium
+   the same ΔN_eff). *Provenance note: the ζ window predates this propagation — the deuterium
    improvement is a consequence, not a fit.* Grade: estimate (linear responses,
    dY_p/dN = 0.011–0.013, ∂ln(D/H)/∂N = 0.135); a full nuclear-code re-run is owed only if the
    joint verdict becomes load-bearing. **The gate's laboratory checklist (2026-07-18; estimate-grade, conditional on the recorded
@@ -571,7 +571,7 @@ entire remaining open surface is:
 | ~~the linear-map postulate~~ — DISCHARGED: the −3/2 derived at additivity grade (boost-dressed cutoff, geometric mean, equipartition — hierarchy §2b) | the anchor's −3/2 | the shared additivity neck (one assumption corpus-wide; the ring-on-ring trial tests its Koide instance) |
 | the seat constant b | κ_m's exact value | the basement build |
 | T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 1.5% prediction | the lattice (external; the note APPROVED FOR CIRCULATION) |
-| ΔN_eff ∈ [0.06, 0.24] | the genesis ξ window | CMB-S4 |
+| ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |
 | the running referees (f̄/α_c chains; the evidence pair) | the amplitude stack; dyad vs ΛCDM | the box |
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
 

@@ -1,5 +1,8 @@
 # THE NON-THERMALIZATION KILL TRIBUNAL — Defender / Challenger / Referee
 
+> *Notation: this log writes the genesis dilution T_dark/T_γ as ξ. The corpus now writes it **ζ**, to keep ξ for the medium's coherence length and the non-minimal curvature coupling. Same quantity throughout.*
+
+
 *The arena for the escape-failure finding (2026-07-17): that the ΔN_eff escape, the ε-ramp
 mechanism, and √σ_dark = m_e are pairwise-incompatible as recorded. A death sentence gets the same
 trial a win gets — symmetric skepticism is the house law. Protocol identical to

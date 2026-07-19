@@ -50,8 +50,8 @@ central value the theory error should be taken around is undecided. ΛCDM itself
 PRIMAT. **The row is quotable at −2.5 to −1.4σ — the ±0.0476 budget with the genesis residual
 applied and the code systematic named and unfolded.**
 - **The genesis residual, applied.** The standing high-f configuration commits to one genesis
- dilution ξ = T_dark/T_γ ∈ [0.25, 0.35], carrying a relativistic residual
- **ΔN_eff = (27/(7/4))·ξ⁴ = 0.06–0.24**. That residual moves both rows, in opposite directions —
+ dilution ζ = T_dark/T_γ ∈ [0.25, 0.35], carrying a relativistic residual
+ **ΔN_eff = (27/(7/4))·ζ⁴ = 0.06–0.24**. That residual moves both rows, in opposite directions —
  deuterium up toward Cooke (∂ln(D/H)/∂N = 0.135), helium up away from Aver
  (dY_p/dN = 0.011–0.013). Propagated on the model's own prediction above:
 
@@ -68,7 +68,7 @@ applied and the code systematic named and unfolded.**
  and the genesis residual does not change that.** Combining the two rows (2 dof, quadrature;
  **correlations between Y_p and D/H are ignored**, as in every joint this corpus has quoted):
 
- | D/H width used | joint p, pre-residual | **joint p across the ξ window** | reading |
+ | D/H width used | joint p, pre-residual | **joint p across the ζ window** | reading |
  |---|---|---|---|
  | nuclear only (±0.0476) | 0.007 | **0.02–0.08** | **rejected to marginal** |
  | + half the inter-code spread (±0.0643) | 0.051 | **0.07–0.11** | marginal |
