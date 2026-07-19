@@ -1,10 +1,13 @@
-# Galactic Atoms — Every Galaxy Has a Ground State (2026-07-11)
+# Galactic Atoms — Which Galaxies Have a Ground State (2026-07-11)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
 *The atom grammar applied to galactic dynamics, with the model's recorded mass. Status:
-STRUCTURAL (candidate) with computed numbers; candidate. The improvement over standard
+STRUCTURAL (candidate) with computed numbers — **and one boundary, priced**: the soliton exists in
+halos below σ ≈ 77 km/s (M_h ≈ 3×10¹¹ M☉) and not above, because a dominant nuclear black hole
+takes the core radius inside its own sphere of influence (P-2026-054). The Milky Way is on the
+far side of that line, which is what resolves the Galactic Centre's 3× tension. The improvement over standard
 CDM: a predicted, computable ground-state object in every halo — and an explanation, rather
 than an accident, for why this model SURVIVED the constraints that killed lighter fuzzy DM.*
 
@@ -36,7 +39,7 @@ The soliton ("1s") core radius scales as r_c ∝ 1/m² per halo mass; with the r
  here. The survival was not luck; it is the level structure. *(The dwarf core is a few
  parsecs, not sub-parsec — the buried-everywhere phrasing holds for the Milky Way class and
  is stated per-halo here.)*
-2. **A new prediction class (flagged, un-priced):** every galactic nucleus should host a dark
+2. **A new prediction class, now priced and conditional:** every galactic nucleus **whose black hole does not dominate its core radius** should host a dark
  soliton of computable radius and mass — a smooth, dissipationless sub-pc mass component
  coexisting with the nuclear star cluster and the central BH. Its dynamical imprint
  (millipc-to-pc stellar kinematics, e.g. S-star-cluster residuals in the Galactic Center)
