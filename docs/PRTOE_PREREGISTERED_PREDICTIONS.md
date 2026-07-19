@@ -1608,6 +1608,46 @@ the survivor is thin + un-derived + carries a post-hoc flag on its mechanism.
 
 ---
 
+
+## ANN-2026-025: P-2026-012's frozen text vs the model's current position (2026-07-19)
+
+**The entry is not being edited.** P-2026-012 stands exactly as pre-registered on 2026-07-08. This
+annotation records three places where the model has since moved away from what that entry says, so
+that a reader comparing the registry against current audience-facing material is not misled.
+
+**(1) The causal direction is now reversed.** P-012 registered a *neutrino-funded floor*: IF the
+dark-energy floor is funded by neutrinos, THEN the floor scale is set by the neutrino mass. The
+tenth-channel mass relation (2026-07-18) runs the other way — the dark-energy floor **sets** the
+lightest neutrino mass, m₁ = κ_m·ρ_inf¼ with κ_m ≈ 1. Same equality, opposite arrow.
+
+**(2) The MaVaN conditional is no longer the model's mechanism.** P-012 is explicitly conditional on
+MaVaN-style funding. The model now dodges the Afshordi–Zaldarriaga–Kohri instability by sourcing
+m_ν from a frozen L-breaking VEV rather than the rolling field, so it is **not** a MaVaN
+construction. Under P-012's own clause this is closer to "the conditional is void, prediction
+withdrawn — not falsified, just inapplicable" than to a confirmation, and the surviving equality is
+carried by the tenth-channel relation instead.
+
+**(3) P-012 does not select the ordering, and audience-facing text must not say it does.** The entry
+states plainly: "Does not by itself fix the hierarchy (both work at m_lightest = 2.24 meV)" — it
+gives Σ = 0.061 eV for NH and 0.103 eV for IH. Normal ordering was selected by **data**, via the
+P-2026-004 collision that ANN-2026-021 resolved, not by this entry.
+
+**The standing honesty flags from ANN-2026-021 remain in force** and apply to anything quoting this
+sector: the surviving Σ ~ 61 meV / NH result is **non-distinctive** (it sits 2.6 meV above the
+m₁ = 0 floor of 58.8 meV, where planned cosmological resolution is ~20 meV — so no planned
+experiment can separate the model's sum from minimal-NH), its **value stays un-derived**, and the
+mechanism that picks this branch carries a **post-hoc flag**, having been devised after DESI's
+low-Σ preference was known.
+
+**Where the distinctive content actually lives.** Not in Σm_ν, which is untestable at this
+separation, but in m_ββ, which is sensitive to m₁ itself: at m₁ = 0 the window is [1.48, 3.69] meV,
+at m₁ = 2.25 meV it is [0.04, 5.30] meV. The ceiling moves by 44% and the floor nearly collapses.
+The observational consequence is sharp — minimal-NH puts the whole window below nEXO's best reach of
+4.7 meV, while this model puts ~11% of it above. **That difference is testable and this sector's
+only genuinely distinctive claim.**
+
+---
+
 ## P-2026-024: The ε-dipole — an emerging horizon-scale varying-constants dipole (pre-registered 2026-07-10)
 
 **The prediction (derived, distinctive):** the universal lepton rescaling ε

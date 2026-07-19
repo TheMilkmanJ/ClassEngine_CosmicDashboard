@@ -25,7 +25,10 @@
  un-derived number does two jobs that standard cosmology treats as unrelated, not that the number
  is explained.
 3. **The sum**: with measured splittings, $\Sigma m_\nu = 61.4$ meV, **normal ordering**
- (P-2026-012). Full disclosure: an earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this one's own pre-registered collision test and is retired in the registry — the ordering claim survived its internal challenger.
+ (the ordering selected by data via the P-2026-004 collision, not by P-2026-012, which explicitly
+ does not fix it — ANN-2026-025). **This number is not a discriminator**: it sits 2.6 meV above the
+ m₁ = 0 floor of 58.8 meV, against a planned cosmological resolution of ~20 meV. The distinctive
+ content is in m_ββ (§3), which is sensitive to m₁ where the sum is not. Full disclosure: an earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this one's own pre-registered collision test and is retired in the registry — the ordering claim survived its internal challenger.
 4. **The closure** (EXPLORATORY): the occupancy-corrected ρ_inf derivation reproduces this
  Σ by an independent route (the ρ_Λ ↔ M₂ ↔ 3α triangle) — one mechanism, three
  quantities co-determined; refereed by the running α_c chain (an in-house CMB
