@@ -68,3 +68,23 @@ different amplitudes — any constant-amplitude dipole fit is a step-shaped erro
  template above), dark-ages 21cm (the P-022/P-027 edges), CMB-S4.
 - **The free cross-kill:** the α_c MCMC's clock-ratio and the comb's tooth count must read the
  SAME integer n — two instruments, unrelated data, one number.
+
+
+## What the torus can and cannot grade (2026-07-18)
+
+The compact cavity's effect on the power spectrum has been computed, and the honest reading is
+narrower than the file's framing above. The suppression appears where it should — confined to
+the lowest multipoles, gone by ℓ ≈ 4 — but at the smallest torus the matched-circle nulls
+permit it is shallow, and the quadrupole's own cosmic variance is 63%. Model and observation
+sit **0.8σ apart**, and the whole pattern across ℓ = 2–6 scores a signal-to-noise of **0.27**.
+**The power spectrum cannot referee this model at any multipole, in any combination** — three
+ways of deepening the suppression were computed and all three fail, because each convolves or
+dilutes power rather than removing modes.
+
+**What can referee it is the correlation structure.** A compact space breaks statistical
+isotropy, so the harmonic coefficients' covariance is not diagonal, and over ℓ ≤ 6 alone there
+are 990 independent off-diagonal pairs against five spectrum numbers. Computed at the recorded
+size, the pattern is specific — strongest between m and −m at fixed multipole (ρ ≈ 0.65–0.68
+at ℓ = 2 and 4) and between ℓ and ℓ+2 at fixed m (ρ ≈ 0.51 for 3 × 5) — with a total
+signal-to-noise of 2.2. **That is what the alignment anomalies are, written in harmonic
+coefficients**, and it is what the BipoSH pass on the calendar now has to test against.

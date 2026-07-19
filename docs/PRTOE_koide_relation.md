@@ -60,7 +60,27 @@ grows until its lightest face touches the positivity wall — tangency locates t
 (M = −R·cos_min) and A = √2 becomes the statement that the seed sits on the diagonal of the
 doomed face's frame (tan u = −1), with the electron's mass the later lift off the wall; the
 remaining question is the diagonal's selector
-([T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md)). All three remain unbuilt. The structure parallel to
+([T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md)).
+
+**Where that third reading now stands (2026-07-18).** It was carried to a mechanism and the
+mechanism was executed by its own pre-registered trial. The selector compressed to a single
+locus — the seed freezing where instantaneous power equals its own average — and the
+mechanism proposed to deliver it (the genesis cascade pumping a ring hosted on the genesis
+vortex ring) was computed and **fails**: on the true curved host the confining well is
+pattern-degenerate, so delivery lands per-mode and drives A → 2, the same value six earlier
+selectors produced. The equivalence stack survives as mathematics (A = √2 ⟺ equal sector
+shares ⟺ the mean-power locus), the wall kinematics and the dressing frame survive, and the
+minefield around the blank is now the densest in the corpus. What does not survive is the
+deliverer.
+
+**And the blank has changed coordinates.** Writing the ring as a Z₃-circulant spectrum makes
+the two mysteries one complex number — the nearest-neighbour amplitude, whose modulus is the
+√2 and whose phase is the measured 2/9 radians (a watch that holds to half a millidegree and
+carries its own deviation lock, P-2026-051). The remaining physical question is a single
+vertex computation inside the confining sector's own structure. Detail:
+[T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md);
+[PRTOE_forced_combination.md](PRTOE_forced_combination.md) for the existence theorem the chase
+produced. All three original readings remain unbuilt. The structure parallel to
 the dark-energy freeze at neutrino decoupling
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b) survives only under (i): a
 scale inherits its epoch's EoS when it *is* that epoch's medium, not when it is a spectator.

@@ -12,6 +12,14 @@ The CMB predicts more late-time clustering (S₈ ≈ 0.83) than weak lensing mea
 directions, and killing both is the field's standing filter.
 
 ## 1. The model's mechanism (recorded, coded, fit)
+
+*One route is closed: the screening gate's own energy deposition cannot supply this
+suppression. In the limit where gas crosses the transition ballistically the implied entropy
+floor is an order of magnitude above what groups show; in the limit where the medium re-phases
+around the gas — the physical one — the deposition is a few tens of electron-volts per
+particle, far too small to move small-scale power. The delivery therefore rests entirely on
+the shed below, which is a pre-registered parameter rather than a derivation
+([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), [PRTOE_entropy.md](PRTOE_entropy.md)).*
 The rotation-cancellation conversion: as the medium's twist relaxes, part of the dcdf
 matter-component sheds into free-streaming dark radiation (dcdf_conv_g — a RAMP,
 x^n/(1+x^n), coded in background.h). The shed DEPLETES late-time ρ_m → suppresses
