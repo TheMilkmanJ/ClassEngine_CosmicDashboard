@@ -1297,12 +1297,13 @@ The convergence is real; the local↔global identification is conditional and un
 
 ## P-2026-009 RESURRECTION PROTOCOL (pre-committed 2026-07-08): axe any birefringence-positive BEFORE celebrating
 
-The birefringence null is proven from ~15 independent angles and is LOAD-BEARING (tied to L1/census,
+The birefringence null is proven from every angle thrown at it — the interaction atlas
+enumerates the list (eight parked attacks plus the four-route solution hunt) — and is LOAD-BEARING (tied to L1/census,
 charge conservation, P-2026-013 net-0, P-2026-014 no-fifth-force). THEREFORE any future result showing
 PRTOE CAN source cosmic birefringence has a HIGH PRIOR of being an ERROR, not a discovery. Correct first
 reaction: "what did I break?" -- NOT "eureka." A birefringence-positive path is NOT accepted, even
 provisionally, until it passes ALL SIX:
- 1. GRAVEYARD GAUNTLET: run it through all ~15 prior kills. It MUST die where they died -- OR the exact
+ 1. GRAVEYARD GAUNTLET: run it through every prior kill in the atlas's enumeration. It MUST die where they died -- OR the exact
  reason it survives must be identified and shown to be a real NEW mechanism, not a hidden assumption
  or a dropped constraint.
  2. CHARGE AUDIT: did it secretly hand the medium a net/effective EM charge? If yes → ERROR (charge
