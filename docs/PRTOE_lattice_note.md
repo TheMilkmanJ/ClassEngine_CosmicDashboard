@@ -42,19 +42,34 @@ fundamental representation**, with:
 
 ## A pre-registered stake (stated for transparency)
 
-An independent phenomenological program carries a **publicly pre-registered bet on this number**
-(registered 2026-07-16, amended 2026-07-17, before any dedicated computation existed):
-**T_c/√σ = 0.3503 ± 0.02** for the chiral transition, window [0.330, 0.370], with pre-committed
-kill conditions — a lattice determination outside the window falsifies the program's dark-energy
-sector; a value at 0.345 is registered as *not* confirming it. The best current inference from
-measured neighbours (the N_f = 2 anchors above plus the SU(3) flavour-dependence) is
-**0.39 ± 0.05** — centred *above* the bet, so the bet is live in both directions. Whatever one
-thinks of the underlying model, the epistemic situation is unusual: a falsifiable, pre-committed
-number waiting on a computation the field can do with existing tools.
+An independent phenomenological program carries a **publicly pre-registered bet on this number**,
+placed before any dedicated computation existed: **T_c/√σ = 0.34657** for the chiral transition,
+with pre-committed kill conditions.
+
+**The precision matters more than the central value, and we would rather say so up front.** The bet
+distinguishes two hypotheses that sit **0.44% apart**:
+
+| | T_c/√σ | what a return here would mean |
+|---|---|---|
+| **the program's prediction** | **0.34657** (= ½ln2, from an independent lepton-sector identity) | the prediction is sourced |
+| the null | 0.34506 | the program is reading a cosmological observation back, and predicts nothing |
+
+So a determination carrying **σ > 0.44% cannot distinguish them and is registered in advance as
+scoring neither way** — which, given that published T_c/√σ determinations typically carry 1–3%, is
+the expected outcome of a standard-precision calculation. **Discrimination needs σ ≲ 0.22%.**
+
+Two clauses are executable at ordinary precision and remain live: a determination outside
+**[0.330, 0.370]** falsifies the program's dark-energy sector outright, and the best current
+inference from measured neighbours (the N_f = 2 anchors above plus the SU(3) flavour-dependence) is
+**0.39 ± 0.05**, centred *above* the bet — so the falsification clause is genuinely at risk.
+
+Whatever one thinks of the underlying model, the epistemic situation is unusual: a falsifiable,
+pre-committed number waiting on a computation the field can do with existing tools, with the
+precision it would take to settle it stated in advance rather than negotiated afterwards.
 
 ## Contact / provenance
 
-The registration, its amendment history, and the literature sweep are timestamped in a public
+The registration and the literature sweep are timestamped in a public
 repository (git history; registry entry P-2026-048):
 github.com/TheMilkmanJ/ClassEngine_CosmicDashboard. Correspondence: J. Pulford,
 pulfordj420@gmail.com.

@@ -98,13 +98,21 @@ whose only dimensionful input is the electron mass:
 
 $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2\,M_2 = \tfrac{9}{2}\,\alpha^4\,\tau\,m_e, \qquad \tau \equiv T_c/m_e .$$
 
-The α⁴ scaling is derived — the condensate's own binding (α_c²) times the electromagnetic handshake (α²).
-The one order-one number left is **τ = T_c/m_e**. **The corpus's 0.345 is what the observed value
-fixes it at — the problem, not the answer:** 2.25/((9/2)α⁴m_e) = **0.34506**, the observation inverted. If the observation fixes τ, the chain runs *backward* and
-ρ_Λ¼ = 2.25 by construction — a 0.0% match, not the +1.5% prediction §2 claims from the same file.
-**The model's τ is 0.3503** (T_c = 179 keV ÷ m_e; P-2026-048 amended). See
-[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §2 for why T_c = 179 keV is itself not
-independently sourced.
+The α⁴ scaling is derived — the condensate's own binding (α_c²) times the electromagnetic handshake
+(α²). The one order-one number left is **τ = T_c/m_e**, and it is sourced.
+
+**τ = ½ln2 = 0.34657**, from the Koide sector's circulant kernel: Parseval fixes the kernel's own
+modulus at |f₁/f₀| = 1/√2 once Q = 2/3, and τ = −ln|f₁/f₀| follows. Nothing cosmological enters —
+the chain descends from Q, a lepton-mass fact measured to ten parts per million. It gives
+**T_c = 177.10 keV** and
+
+> **ρ_Λ¼ = (9/2)α⁴·τ·m_e = 2.2599 meV against the observed 2.25 — +0.44%.**
+
+The distinction that matters: inverting the observation gives 2.25/((9/2)α⁴m_e) = **0.34506**, which
+would make the chain run backward and return 2.25 by construction — a 0.0% match dressed as a
+prediction. The kernel's 0.34657 sits **0.44% above** that, and the gap *is* the prediction. A
+lattice T_c/√σ for SU(2), N_f = 3 decides it (P-2026-048), and must reach 0.22% precision to tell
+the two apart.
 
 **What is derived, and what is not.** τ is not a free dial. In the proposed **dark confining sector** — a
 "dark colour" force whose condensation *is* the dyad, with its scale pinned to the electron mass — τ is

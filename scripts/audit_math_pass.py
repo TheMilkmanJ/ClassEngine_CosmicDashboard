@@ -364,6 +364,13 @@ chk("ANN-026", "tolerance / the gap it must resolve", 13.0,
 chk("ANN-026", "kernel tau sits inside P-048's window", 1.0,
     1.0 if _tau_048-0.02 <= _tau_ker <= _tau_048+0.02 else 0.0, 1e-9)
 
+# ---- P-2026-048's amended decision rule (2026-07-19) ----------------------
+_gap = 0.5*math.log(2) - 0.34506
+chk("P-048", "the separation the lattice must resolve", 0.00151, _gap, 0.02)
+chk("P-048", "inconclusive band (1-sigma separation)", 0.0015, _gap, 0.02)
+chk("P-048", "the 2-sigma discrimination requirement", 0.00076, _gap/2, 0.02)
+chk("P-048", "the retired tolerance separated them at", 0.0755, _gap/0.02, 0.02, "sigma")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
