@@ -20,7 +20,7 @@ should stop being counted as a debt.*
 | **T11 Hubble** | the instrument pricing gains a channel: the dark-ages offset is now registered (P-2026-050) | PolyChord — **running, prior phase closed** | TRGB (P-2026-001) | the EDE-comparison fairness pass |
 | **T12 radio lattice** | dark-ages forecasts — the numbers are registered (P-2026-050: +0.40 MHz at the z ≈ 87 trough); the WHIM cross-check is priced by the gate's energy bookkeeping (~50 eV per particle) | — | below-z = 50 null record | the synchrotron row's weight convention; BipoSH estimator pass |
 | **T13 fingerprint** | items 1–3 all paid (the ε-epoch table; the referee calendar; the joint-likelihood build) | — | the helium fork | the D/H error budget's reproducibility — stands open |
-| **T14 IGMF helicity** | item 2 (the hint's status pass) | — | Fermi/parity-odd claims | the rectification link: which handedness means matter won — the sign map's one missing step |
+| **T14 IGMF helicity** | item 2 (the hint's status pass) | — | Fermi/parity-odd claims | **sharpened 2026-07-18**: the missing step is one relative sign (matter rides the temporal rotation, handedness rides the spatial winding — their product is what genesis sets), and the object that closes it is the corpus's own first-roll-at-rest theorem, run for its SIGN rather than for existence. Until then the hint is a watch, not a test |
 | **T15 indirect detection** | item 1 (tree σv = 0; ceiling ~10⁻¹⁵⁴ cm³/s) | — | GC-excess pulsar progress | — |
 | **T16 LSS parity** | item 1 (short by ~7 orders; the bet-against-the-anomaly registered) | — | DESI 4PCF | the axis-correlation check if the signal firms |
 

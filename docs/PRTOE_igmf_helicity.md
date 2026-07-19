@@ -49,3 +49,30 @@ ABOVE our smooth-Harrison floor and would need the network structure to be real)
 
 *Three siblings, one integer. The sky may have already fingerprinted the first — and the
 model's next derivation is not a number but a dictionary: which hand means matter.*
+
+
+## The rectification link, taken apart (2026-07-18)
+
+The map's missing step is not a mechanism but **one relative sign**, and naming it that way
+says exactly what must be computed.
+
+**Two distinct structures carry the two signs.** The baryon asymmetry comes from the
+condensate's *temporal* rotation — the field's angular motion in its own complex plane is its
+charge, in the Affleck–Dine manner — while the magnetic handedness comes from the *spatial*
+winding. Matter-versus-antimatter therefore rides sign(θ̇); the field's handedness rides
+sign(n). **Neither one determines the other. Their product does, and the product is what the
+genesis event sets.**
+
+**Which makes the corpus's own roll-up theorem the object that closes it.** The recorded
+statement that *the roll self-generates the helicity* (the first-roll-at-rest theorem) is
+precisely a claim that one dynamical event fixes both structures together: a directed fountain
+rolling up into a helical ring produces its circulation and its axial motion in a locked
+relation, exactly as a smoke ring's circulation is fixed by the direction it was blown. If
+that theorem is run **for the sign** rather than for existence, the relative sign follows and
+the map closes; if the two structures are independent draws, no map exists and the handedness
+cannot be predicted from matter dominance at all.
+
+**So the owed item sharpens from "derive the rectification mechanism" to "run the recorded
+roll-up theorem for its sign."** Until it is run, the measured handedness hint remains a
+**watch rather than a test** — the honest status, and the reason this file's decisive
+dependency was flagged in the first place.
