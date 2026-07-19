@@ -509,6 +509,21 @@ _n_gam = (2*1.20206/math.pi**2)*_T_dep**3/_hbarc**3
 _rho_need = 30*6.1e-10*_n_gam
 chk("deuterium_scar 6", "volume fraction allowed in the false vacuum", 5.2e-30, _rho_need/_rho_vac, 0.03)
 
+
+# --- the PBH route (deuterium_scar 5b), priced and killed 2026-07-19 ---
+_Mstar, _tstar = 5.1e14, 4.35e17                    # g, s: PBH evaporating today
+_M_of_tau = lambda tau: _Mstar*(tau/_tstar)**(1/3)
+chk("deuterium_scar 5b", "PBH mass evaporating at 4e6 s", 1.07e11, _M_of_tau(4e6), 0.01, "g")
+chk("deuterium_scar 5b", "PBH mass evaporating at 1e8 s", 3.12e11, _M_of_tau(1e8), 0.01, "g")
+chk("deuterium_scar 5b", "T_H at the window's light end", 99, 1.06*(1e13/_M_of_tau(4e6)), 0.02, "GeV")
+chk("deuterium_scar 5b", "hadronic threshold over photon threshold", 90, 1877/20.6, 0.02, "x")
+# the Li kill, efficiency-free: both bounds from the same population
+_bLi, _bD = 10**-25.34, 10**-23.82
+chk("deuterium_scar 5b", "Li binds tighter than D by", 33, _bD/_bLi, 0.03, "x")
+for _tolD, _short in [(0.0125, 156), (0.05, 39)]:
+    chk("deuterium_scar 5b", f"shortfall at D-curve tolerance {_tolD*100:.2g}%", _short,
+        0.059/(_tolD*_bLi/_bD), 0.03, "x")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
