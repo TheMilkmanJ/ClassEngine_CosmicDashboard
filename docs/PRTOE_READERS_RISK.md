@@ -14,10 +14,12 @@ everywhere atomic physics appears.
 
 ## 2. Strongest claims (graded honestly)
 - **ε = c·f̄·α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%**, against the sky's fitted ~1.24% — zero
-  dials. *Compound grade: derived-conditional.* c = 9/10 is derived (conditional on the ρ_Λ¼ = m_ν
-  tie holding as a lock); f̄ = 2/π is candidate (the winding average, confirmed by simulation, not
-  derived from it); α_c = 3α is a registered bet, decided by a running chain, currently ~2% above
-  where data points.
+  dials. *Compound grade: two factors derived, one a registered bet — so the stack's effective grade
+  is the bet's.* c = 9/10 is derived (conditional on the ρ_Λ¼ = m_ν tie holding as a lock);
+  **f̄ = 2/π is derived** — the winding's many-turn equidistribution forces ⟨|cos|⟩, with the coupling
+  form data-selected; the simulation's 0.635 ± 0.026 confirms it to +0.3% and is the check, not the
+  source. α_c = 3α is a registered bet, decided by a running chain, currently ~2% above where data
+  points — **it is the weakest parent, and the stack stands or falls with it.**
 - **H₀ mechanism reaching ~69.9–71.3** (CMB re-fit; ladder-reach ceiling with the SN-standardization
   sign ς = −1). Closes roughly half the SH0ES gap, refuses the rest, and pre-registered the TRGB side
   of the calibration dispute. *Production, but SH0ES-conditional.*
@@ -105,13 +107,35 @@ everywhere atomic physics appears.
   unpriced.** That mass is fixed by the onset clock and cannot float. (i) The central soliton
   it implies carries about 3×10⁶ solar masses within one parsec of the Galactic Centre —
   comparable to the entire extended mass observed there, which the stellar population already
-  accounts for. (ii) It puts black holes between roughly 2×10⁸ and 3×10⁹ solar masses inside
+  accounts for. (ii) It puts black holes between roughly **6×10⁸ and 3×10⁹** solar masses inside
   the superradiant band, where they should be spun down, while several black holes in that
   range carry high measured spins. Neither is a computed exclusion yet; both are real, both
-  are now named, and either could close the sector.
-- **(f) Code-vs-theory gap:** in the CLASS implementation the dyad's m_e shift and the dCDF density
-  are independent parameters — the "one linked superfluid" is not enforced in the fit; the
-  zero-parameter evidence claim is tested by the ε-fixed config, not the ε-sampled one.
+  are now named, and either could close the sector. *(The mass itself is firm: three independent
+  uses return it — ξ = 402 AU, the Schive core radii, and this same superradiance band — so the
+  exposures cannot be relieved by moving it.)*
+- **(f) Code-vs-theory gap, narrowed but real:** the CLASS source does not compute the dyad's m_e
+  shift *from* the dCDF, so the "one linked superfluid" is asserted rather than implemented —
+  `thermodynamics.c` carries no dark-sector reference. What is no longer true is the sharper version
+  of this criticism: the running config pins `varying_me` at the derived 1.012543, so the fit does
+  not buy competitiveness with a free knob. The zero-parameter claim is tested by the ε-fixed config,
+  not the ε-sampled one, which is the harder test rather than the softer.
+
+- **(i) The evidence run is sampling off the model's own onset identity.** The transition epoch is
+  frozen at z_on = 3.5619×10⁷ where the H = m identity gives 4.03×10⁷ — 0.053 dex, which under the
+  same clock is a **28% difference in the dark fluid mass**. That mass is pinned three independent
+  ways, so the identity is the model's value and the frozen setting is a profiled offset, disclosed
+  in the config as a "FAST-FUDGE" priced at χ² +7.4. **The running comparison therefore grades a
+  point near the model rather than the model's stated configuration**, and its result needs reading
+  in that light. The chain named to arbitrate the freeze has not run since 2026-07-12.
+
+- **(j) The lattice test that decides the flagship cannot currently resolve it.** P-2026-048
+  registers T_c/√σ = 0.3503 ± 0.02. The standing prediction is the kernel's 0.34657, which sits
+  inside that window — but the prediction is only **+0.44%** above the observation-inverted value
+  (0.34506), and the registered tolerance is **±5.7%, thirteen times wider**. A lattice landing
+  anywhere in the window would score as confirmation, including the value meaning the model merely
+  read the observation back. Separating them needs 0.44% precision on T_c/√σ; published
+  determinations typically carry 1–3%. **The test may not be performable at the precision the claim
+  requires** (ANN-2026-026).
 
 ## 4. Current evidence class
 **FLAT / suggestive, SH0ES-conditional, Laplace-marginal.** One positive result (ΔlnZ = +2.635) that
@@ -130,6 +154,7 @@ robust — is executing now; result pending.
 6. The BBN joint tension crossing the decisive bar (D/H toward −3.3σ) once the inter-code systematic
    is resolved.
 
-*The single sentence: the model is a narrow, falsifiable, mostly-conceded-honest reinterpretation
-whose one statistical win is SH0ES-conditional, whose flagship number is a structural relation with
-an un-sourced input, and whose fate rides on a nested-sampling run, a lattice number, and DESI.*
+*The single sentence: the model is a narrow, falsifiable reinterpretation whose one statistical win
+is SH0ES-conditional, whose flagship number is now a sourced structural relation predicting +0.44%,
+and whose fate rides on a nested-sampling run currently grading a point beside the stated
+configuration, a lattice number no one has computed at the precision required, and DESI.*
