@@ -107,3 +107,35 @@ corpus. These look like different objects — the profiled value against the cod
 and the file labels its own as profiled, so nothing is stated wrongly. But two numbers 12% apart
 under one name is a trap for any reader who meets both, and which is canonical is a judgement I
 should not make silently. Filed to ForJustin.
+
+## PRTOE_MATH_SPINE.md — deep audit 2026-07-19
+
+Eleven checks. Nine defects, two of them contradictions between sections of the same file.
+
+1. **§0 graded the dyad mass MEASURED on inverted arithmetic** — "the free-z_on optimizer landing
+   7.5517 (→ m = 2.29×10⁻²⁰, 2% above the coded pin)". Recomputed, 7.5517 implies 1.75×10⁻²⁰,
+   **22% below**. The grade now stands on three independent uses that do confirm it: ξ = 402 AU
+   (returns 398), the Schive core radius (7.14 vs 7.0 pc), and the superradiance window (exact).
+   The old basis is marked corrected, not dropped.
+2. **§9's ledger credited "dyad onset derived (electron-CW)"** while §4 retires the electron-CW
+   route as BBN-fatal. Same file, sixty lines apart. Now credits the Koide kernel's T_c.
+3. **§7 read as live for eighty lines** before its own addendum reports the internal falsifier fired
+   and Route-D dead. The verdict is now hoisted to the head of §7, where a reader meets it first.
+4. **§4's T_c = 179 keV** contradicted the file's own banner (177.10 from the kernel). Fixed, as was
+   the same stale value in §22 — with the BBN conclusion checked for sensitivity: the 1.06% change
+   moves T_c's position in the 800→70 keV window by 0.3%, so the verdict is untouched.
+5. **§6 credited P-2026-012 with selecting the ordering**, which that entry says it does not
+   (ANN-2026-025); and sold Σm_ν without noting it is not a discriminator.
+6. **§6's "dark-energy-value problem (§2)"** pointed at this file's §2 (radiation youth) rather than
+   `neutrino_sector` §2 where the problem is actually stated.
+7. **The 42-line grade banner** — the same scar THREE_EQUATIONS carried — compressed to 24 and
+   re-pointed at the standing +0.44% claim.
+8. **Two inline "+1.5% is the τ rounding" asides** retired to the standing claim.
+9. **§2 said "coded z_rad_onset = 4×10⁷"** without noting that the running evidence job is frozen
+   at 3.5619×10⁷. Both facts now stated with which configs use which.
+
+The z_on question this file surfaced was settled by computation rather than filed: three
+independent pins put the mass at 2.24×10⁻²⁰ and the onset at 4.03×10⁷. Five checks added,
+including two that assert the run's implied mass misses ξ.
+
+Citations: all present. Audience laws: clean after the banner compression.
