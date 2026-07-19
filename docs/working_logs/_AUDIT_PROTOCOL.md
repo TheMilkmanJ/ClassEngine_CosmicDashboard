@@ -55,6 +55,14 @@ would measure it.
 
 **11. Would this survive the reader it is written for?** Name that reader. Then read it as them.
 
+**12. Re-read the file whole, after the edits.** Not a grep — a read. The edits are the newest and
+least-tested prose in the document, and they are written while holding one defect in mind rather
+than the whole file. This has already caught a repair that dangled and contradicted itself in the
+same sentence (`blackholes_no_singularity`, 2026-07-19), which no pattern sweep would have found.
+
+A file is not closed until check 12 passes. Running the regression harness and a stale-pattern sweep
+is necessary and is not sufficient: both test what you thought to test.
+
 ## Recording
 
 Each completed file gets a line in `_AUDIT_LEDGER.md`: date, what was found, what changed. A file
