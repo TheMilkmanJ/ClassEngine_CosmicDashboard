@@ -223,3 +223,33 @@ O(1) normalisation — whether the assembly is exactly (4πk/α_c)³ — which i
 
 So the file was carrying an orphan scale as its single outstanding debt while its real residual sat
 one document away, already correctly stated. Four checks added pinning the chain end to end.
+
+## Check 13, second application — MATH_SPINE's owed ledger (2026-07-19)
+
+**Five of its six debts were already paid.** The ledger listed them as outstanding anyway, each
+tagged "(docketed)".
+
+**There is no docket document in this corpus.** The word appears ~25 times across 12 files and
+points at nothing — the third dead-reference pattern found today, after `def357` / `def-quiet` /
+`def-atom-night` and THE_AMPLITUDE's orphan stiffness scale. Its effect here was to make five open
+debts look tracked when nothing was tracking them.
+
+Checked one by one:
+
+| debt | actual status |
+|---|---|
+| KP self-consistency | **resolved in this same file** — §7a reports the attempt fails, the addendum reports the full-cycle solve firing the falsifier. Listed as owed eighty lines below its own answer. |
+| spurion identification | done — `neutrino_sector` §2, μ as a dimension-1 L-breaking parameter distinct from ε |
+| low-scale seesaw | **adjudicated** by the seesaw duty scan, same file |
+| leptophilia portal | established — `dyad_gas` §2, census-forced and leptophilic across sectors |
+| the gate-0 confirm | #40 confirms rather than decides (§4) |
+| the DE value if Route-D dies | **genuinely open**, falls back to constitution |
+
+Rewritten so each debt names where it closed or what it waits on. Two further genuine debts promoted
+out of the prose into the ledger where they belong: the density-dependent screening form (§5) and the
+seat constant b.
+
+The pattern worth carrying forward: **"owed" survives long after the work is done**, because closing
+a debt happens in the file where the work lands and nobody walks back to the summary that was
+tracking it. Every ledger in this corpus should be assumed stale in the direction of *over*-stating
+what is outstanding.
