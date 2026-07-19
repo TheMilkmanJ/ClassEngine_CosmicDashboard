@@ -15,7 +15,7 @@ failed are indexed in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).*
 ## 1. The question
 
 WHAT physical event ends (or begins) the amendment? Requirements from data: bare value
-(≈1.010) at BBN and recombination (z ≳ 1100); suppressed (lab) value in every virialized
+(1.012543) at recombination (z ≳ 1100), the ramp's stamps inside the BBN window; suppressed (lab) value in every virialized
 absorber ever measured (z ≲ 4 quasar/molecular/21cm systems, Oklo, all labs); no continuous
 environmental dependence (drift wall; quasar differentials kill the smooth version at 10⁴×).
 
@@ -23,7 +23,7 @@ environmental dependence (drift wall; quasar differentials kill the smooth versi
 
 ## What works — the derived results (read this first)
 
-The electron-mass shift ε ≈ 1.24% is the model's one added number. Two things about it are
+The electron-mass shift ε = 1.2543% is the model's one added number. Three things about it are
 **derived, not fit**, and each is forced by real data:
 
 **1. The switch must be sharp — a near-binary threshold — and TWO independent experiments force it.**
@@ -43,8 +43,11 @@ The electron-mass shift ε ≈ 1.24% is the model's one added number. Two things
 **2. The amplitude's ceiling is derived.** The electron mass is ~99% Higgs-Yukawa and ~1%
 electromagnetic self-energy. If the environment amends the EM-binding rule, only the EM part
 can respond, so the maximum shift is the EM-self-energy fraction of m_e — O(α)·log ≈ **1–2%**
-for every reasonable cutoff (muon through nucleon scale). **The observed 1.24% sits at that
-ceiling** — the smallness and the percent-scale are bounded from physics, not chosen.
+for every reasonable cutoff (muon through nucleon scale). **The standing 1.2543% sits at that
+ceiling** — the smallness and the percent-scale are bounded from physics, not chosen. And the
+value itself is now assembled: **ε = c·f̄·α_c = 27α/5π**, with c = 9/10 derived (the census
+count), f̄ = 2/π derived (the genesis winding), and α_c = 3α the one registered input, under
+MCMC test.
 
 **3. The coupling is census-legal.** The shift is carried by geometry (Weyl curvature / the
 topological shell-crossing event), not by a new dark→electron force vertex — so it needs no
@@ -66,8 +69,9 @@ homogeneous-code proxy for "folding becomes widespread." The founding trampoline
 literal here: nothing happens until contact; contact = the fold.
 
 Timing check (computed): permissive. Bare needed only at z ≳ 1100 (no structure exists ✓);
-suppressed needed only inside virialized systems at z ≲ 4 (✓ by construction). Medium's first
-collapses at m ~ 1×10⁻²¹: z ~ 15–25. No tuning required.
+suppressed needed only inside virialized systems at z ≲ 4 (✓ by construction). The medium's
+first collapses at the old m ~ 1×10⁻²¹ band came at z ~ 15–25; at the recorded 2.24×10⁻²⁰ eV
+they come earlier still. Permissive at any mass the model has carried.
 
 ## 3. The Θ = granule convergence
 
@@ -88,8 +92,8 @@ granule-onset boundary).
 
 ## 4. The discriminator fork (pre-registerable ONLY after #11 pins R1)
 
-- TIME-GATE story (current configs): 21-cm sky below z = 50 fully standard (booked as domain
-  §62/§74).
+- TIME-GATE story (current configs): 21-cm sky below z = 50 fully standard (booked as the
+  domain census's §74).
 - STRUCTURE-GATE story (R1): the UNVIRIALIZED dark-ages/cosmic-dawn IGM carries bare
   m_e ≈ 1.01 → percent-level shifts in 21-cm physics exactly where REACH/SKA-low will look.
 
@@ -142,18 +146,19 @@ fork: the sharp threshold's natural implementation is a binary topological quant
 because the transition is set by a topological event (first shell-crossing), not a tuned
 curvature value.
 
-## 8. The amplitude: ceiling derived, exact value open
+## 8. The amplitude: derived up to one registered input
 
-The amplitude ceiling (§ "what works" #2) is the EM self-energy fraction of m_e: O(α)·log ≈
-1–2%, with the observed 1.24% at that ceiling. The *exact* coefficient is not derived. Clean
-numerical combinations (2α = 0.0146, 3α/2 = 0.0109) bracket the target but no mechanism
-predicts either coefficient; they are watched coincidences, not registered.
+The ceiling argument (§ "what works" #2) put ε at the EM self-energy fraction, O(α)·log ≈ 1–2%,
+and the assembled value now lands inside it: **ε = c·f̄·α_c = 27α/5π = 1.2543%**, with c = 9/10
+(the census count, (N−1)/N) and f̄ = 2/π (the winding's roll-up) both derived, and α_c = 3α the
+registered bet the running MCMC tests. The earlier watched coincidences (2α, 3α/2) are retired —
+the stack replaced them.
 
-The defensible structural finding is that the size itself, ε ~ 10⁻² ~ O(α), is a
-mechanism-class constraint: it is the right size for an electromagnetic/radiative correction
-and rules out gravitational/Planck-suppressed origins (which would give ε ~ 10⁻ᵐᵃⁿʸ). The
-size alone is quiet evidence for an EM-sector origin — exactly where the merged
-Weyl-curvature/topological candidate places the coupling.
+What the ceiling still contributes is mechanism-class information: ε ~ O(α) is the right size
+for an electromagnetic/radiative correction and rules out gravitational/Planck-suppressed
+origins (which would give ε ~ 10⁻ᵐᵃⁿʸ). The size argument and the assembled stack agree on
+where the coupling lives — the EM sector, exactly where the Weyl-curvature/topological
+candidate places it.
 
 ## 9. The standing-requirements table
 
@@ -194,43 +199,42 @@ change at z_x ≈ 10⁵.
 - **Massless phase (early, BBN).** Before condensation the medium is the normal fraction
   (w = 1/3, radiation-like, effectively massless). Naturalness forbids a strong direct
   matter coupling only once an ultralight mass EXISTS — so pre-condensation a direct coupling
-  is allowed (nothing to protect). Riding the small normal fraction, it delivers a small vev
-  shift ~0.09–0.15% at BBN.
+  is allowed (nothing to protect). Every magnitude so far proposed to ride it has died (below);
+  the window itself is the recorded structure.
 - **Massive phase (late, recombination).** At z_x the medium acquires its mass; naturalness
   forces the strong direct piece to close, and only the Planck-suppressed CONFORMAL form
-  survives. Tracking the condensate (≈0 at BBN, full by recombination), it delivers the 1.24%
+  survives. Tracking the condensate (≈0 at BBN, full by recombination), it delivers the 1.2543%
   m_e shift.
 - **Continuous handoff.** As the direct coupling dissolves, the conformal one picks up — one
   coupling switching form through condensation, never two at once. This closes the census
   cleanly: MICROSCOPE, quasars, Oklo and clocks are all late (post-z_x) and see only the closed
   account; the early coupling is invisible to every existing test.
 
-**Consequences.** (i) The m_e amplitude coefficient c and the deuterium heal coupling κ_v are
-the SAME interaction before/after the account closed — not two independent unknowns — which is
-why both come out O(1). (ii) The universal conformal shift moves all masses by the same
-fraction, so the model predicts UNIVERSAL varying-constants (an earlier "leptons shift more
-than hadrons" reading is retracted; see the failures ledger).
+**What stands of this section, and what died.** The two-phase *structure* is recorded and
+load-bearing: the coupling window closes at condensation, which is why every late-universe
+instrument (MICROSCOPE, quasars, Oklo, clocks) sees only the closed account. The two claims
+that once rode it are gone. The early-phase vev heal died with its magnitude — the flat vev at
++7.7σ, the one-carrier κ_v by eight orders (ANN-2026-006) — and the deuterium row stands at
+−2.49σ with the lever census closed ([PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md)). And
+the universality reading is superseded by the standing identification: the dyad **is** the
+Majoron, coupling to the current of its broken charge, so the shift is **leptophilic** — quarks
+carry L = 0 and the tree coupling is exactly zero. A flavor-blind shift of every mass would put
+δm_q = ε through d ln B_D/d ln m̂ = −4 and drive D/H to +12–18σ; the leptophilia is not a
+choice but the configuration's own survival condition at BBN.
 
-**BBN co-signature (ran).** The early-phase vev shift is forced (Dent-Stern-Wetterich
-response) to move all five light abundances together. A δv/v ≈ 0.091% heals D/H exactly
-(−1.2σ → 0.0σ), improves Y_p (+1.4σ → +1.08σ), chips ⁷Li toward its problem (+4.50σ → +4.36σ,
-never away), and leaves ³He/⁶Li in slack — joint χ improves 4.86 → 4.50, no element broken.
-This is the signature of a real mechanism rather than a bolt-on (a D-only fix usually wrecks
-Y_p or Li). It is honestly modest — dominated by ⁷Li, which barely moves — and it tests the
-heal's observable consistency, not the regime-change mechanism itself.
+## 12. The ledger — what was owed here, and where each item stands
 
-## 12. What remains owed
-
-- **The amplitude coefficient.** Only its O(α) ceiling is derived; the exact number is open.
-- **The transition-dynamics calc (#14, = Room 1 / #11).** Evolve the one coupling smoothly
-  through condensation and show it lands ~0.15% at BBN and 1.24% at recombination with a
-  continuous handoff — the well-posed integration that would turn the two-phase story into
-  numbers. It also owes Ψ₀ and the condensate-growth shape through z_x.
-- **The EP-safety proof.** Post-merger the coupling is geometric/topological (Θ is
-  environmental, not species-selective), which is the right footing, but a full proof that the
-  induced m_e shift is EP-safe is still owed.
-- **The census-scope adjudication.** Now more likely narrow-reading-compatible, since the
-  coupling is to a topological/geometric bit rather than a dark-medium internal quantity.
+- **The amplitude coefficient — paid.** ε = c·f̄·α_c = 27α/5π = 1.2543%, c and f̄ derived; the
+  one remaining input is α_c = 3α, registered and under MCMC test (§8).
+- **The EP-safety proof — paid.** The composition-dependent, Vainshtein-screened differential
+  lands at Δa/a = 8×10⁻²¹–8×10⁻¹⁹, three to five orders below MICROSCOPE; the EP gate clears
+  (the mechanism doc's ledger update; the sole caveat is the non-standard screening power a
+  numerical galileon solve would discharge).
+- **The census-scope adjudication — paid.** The coupling law's consolidated clause legalizes
+  the sector-internal coupling; the operator passes all three tests (the mechanism doc §2).
+- **Still owed:** the condensate-growth shape through z_x (Ψ₀'s profile — the genesis calc),
+  and R1's own gate (#11, the two-field sims): whether the medium's multi-streaming onset
+  supports a Θ-type coupling at all. Those two are the section's honest remainder.
 
 ## Sources
 The onset-clock and Compton-gate identities (include/background.h; standard Thomas-Fermi

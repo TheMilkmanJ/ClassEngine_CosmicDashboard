@@ -61,9 +61,10 @@ order parameter |Ψ| forms; thereafter it dilutes as dark matter.
  [DERIVED basin-entry; field evolution confirmed by #11 (SHRINKS)]
 
 ## ACT 5 — Recombination (z ~ 1100): the electron-mass shift (flagship)
-The condensate, now gravity-only, rescales the metric — shifting ALL masses
-UNIVERSALLY (flavor-blind: the equivalence principle can't tell electron from
-quark). For the CMB the electron piece dominates:
+The dyad — the Majoron, coupling to the current of its broken lepton number —
+shifts the charged-lepton mass; quarks carry L = 0 and sit untouched at tree
+level (a flavor-blind shift would be BBN-dead at +12–18σ through deuterium's
+binding). At recombination the electron is the whole story:
  **ε ≡ δm_e/m_e = c·f̄·α_c = 27α/5π = 1.2543%**
  c = 9/10 (the census count, (N−1)/N — DERIVED)
  f̄ = 2/π (the genesis winding's roll-up — DERIVED)
