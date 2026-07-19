@@ -253,3 +253,34 @@ The pattern worth carrying forward: **"owed" survives long after the work is don
 a debt happens in the file where the work lands and nobody walks back to the summary that was
 tracking it. Every ledger in this corpus should be assumed stale in the direction of *over*-stating
 what is outstanding.
+
+## PRTOE_DEPENDENCY_TREE.md — deep audit 2026-07-19
+
+Thirteen checks. Five defects, and every one of them **under-graded** the model. For a file whose
+sole job is conditionality mapping, and whose own reading rule is "a claim's effective confidence =
+its weakest parent," a stale grade does not sit still — it propagates upward.
+
+1. **f̄ = 2/π graded [C], with "the winding sim" named as a parent.** Both flagships say the
+   opposite and say it explicitly: derived from the winding's many-turn equidistribution, and
+   *"the sim is the check, not the source"* — THREE_EQUATIONS goes as far as "**not a simulation
+   output**". Regraded [D] with the sim moved to where it belongs.
+2. **ε therefore carried [D-C-R] instead of [D-D-R].** Two of its three factors are derived; the
+   weakest parent is α_c, so the stack's effective grade is [R] and it stands or falls with the α_c
+   chain. Stated that way now, which is both more accurate and more falsifiable.
+3. **ρ_Λ still read "T_c ≈ 179 keV is the observed ρ_Λ inverted-and-rounded, so the 1.01× is not a
+   sourced prediction."** Superseded: the kernel sources τ = ½ln2, giving 177.10 keV and +0.44%,
+   with nothing cosmological in the chain. Regraded [D].
+4. **The superradiance band read 2×10⁸–3×10⁹ M☉** — the same outlier `honest_status` carried. It is
+   6×10⁸–3×10⁹ from α_g = Mm/M_Pl² over α_g ∈ [0.1, 0.5].
+5. **The mass's basis understated.** It was credited to the onset clock alone, which invites "one
+   fit fixes it". Three independent uses confirm it — ξ = 402 AU, the Schive radii, the superradiance
+   window — and that is a much stronger footing to state.
+
+Check 13: the row carrying "ONE number owed (the T_pour ceiling scale)" is the orphan dissolved in
+THE_AMPLITUDE's pass. Marked not-a-debt with the reason, so it stops being inherited.
+
+**The session's clearest pattern, now seen four times:** this corpus drifts pessimistic. Ledgers
+over-state debts (MATH_SPINE: five of six already paid), status boards under-rate closures
+(honest_status: three), and the dependency map under-grades derivations (here: all five). Every
+instance reads as caution and none of them gets caught by re-reading, because nobody audits a claim
+that errs modestly.
