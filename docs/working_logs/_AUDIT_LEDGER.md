@@ -139,3 +139,27 @@ independent pins put the mass at 2.24×10⁻²⁰ and the onset at 4.03×10⁷. 
 including two that assert the run's implied mass misses ξ.
 
 Citations: all present. Audience laws: clean after the banner compression.
+
+## PRTOE_THE_AMPLITUDE.md — deep audit 2026-07-19
+
+Twelve checks (check 12, the post-edit re-read, added during this file's pass). Four defects, all
+four in the §2 windows table — the file's self-summary, which is where the pattern says to look.
+
+1. **The ε-dipole carried the superseded sizing.** δm_e/m_e ≈ 6×10⁻⁷, where P-2026-024's own
+   amendment (2026-07-17) rescaled it to **4×10⁻⁷** — the Jeans growth rate is √(3/2), not √3. The
+   registry had been corrected; the audience-facing summary had not.
+2. **H₀ = 69.9 unflagged**, same as the two flagships carried before today.
+3. **"ε, A_s, n_s, z_on all stated in advance"** — z_on is the one that is not, being frozen
+   0.053 dex off the onset identity. Now excepted explicitly.
+4. **T_c ≈ 179 keV** in §3, against the standing 177.10.
+
+Verified and correct as written: the ΔΦ composition-cliff fence, which the whole gate argument
+rests on — f_lep = m_e/2m_u recomputes to 2.743×10⁻⁴ against the recorded 2.74, and
+√(f_lep·ε₀)·c returns **553 km/s exactly**. The pure-hydrogen bound returns 782 against the
+recorded 779, inside the constants' rounding. That fence is sound.
+
+Citations present. Audience laws clean. Check 12 found nothing further in this file.
+
+**Check 12's first catch was in THREE_EQUATIONS, not here** — my own status marker still read "z_on
+stated in advance" three edits after I had written the opposite into the stack table two rows above.
+Both lines mine, same file, contradicting. That is the case for the check existing.

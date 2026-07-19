@@ -145,9 +145,11 @@ The equations are three lines; the receipts are the repository.
 *Status (2026-07-19): every derivation above is conditional on one root — the no-bare mechanism's
 unconditionality (M3), an assumption named as such. The deciders: the α_c MCMC (grades $3\alpha$ and
 the $c$-roster), the $\bar{f}$ ensemble, DESI DR3, and the zero-parameter evidence run — **PolyChord
-sampling since 2026-07-18, no log(Z) yet** — with ε, A_s, n_s and z_on all stated in advance
-(derived or profiled, statuses in the DEPENDENCY_TREE), no Occam shelter, full exposure; the
-sampled-ε referee deferred by design. This file inherits the verdicts.*
+sampling since 2026-07-18, no log(Z) yet** — with ε, A_s and n_s stated in advance (derived or
+profiled, statuses in the DEPENDENCY_TREE), no Occam shelter, full exposure; the sampled-ε referee
+deferred by design. **z_on is the exception and is stated as such above:** the run is frozen 0.053
+dex off the model's own onset identity, so it grades a nearby point rather than the stated
+configuration. This file inherits the verdicts.*
 
 ## Sources
 Full references in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file leans on: [Gross1961]/[Pitaevskii1961] (Eq. 1), [Kibble1976]/[Zurek1985] (the winding), [HartChluba2020]/[SekiguchiTakahashi2021] (the varying-m_e ↔ H₀ mechanism), [CLASS2011]/[cobaya2021]/[Planck2018]/[Riess2022] (the pipeline and data), [Volovik2003]/[BerezhianiKhoury2015] (the nearest prior art).

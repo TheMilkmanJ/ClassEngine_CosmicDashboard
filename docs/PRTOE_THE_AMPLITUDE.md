@@ -34,18 +34,18 @@ separate parameters.*
 
 | window | epoch | what ε does there | grade |
 |---|---|---|---|
-| **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H₀ = 69.9** (the Hubble-tension mechanism) | production fit; the zero-free-parameter evidence run is live (ε, A_s, n_s, z_on all stated in advance) |
+| **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H₀ = 69.9** (the Hubble-tension mechanism) — *provisional: measured before the 2026-07-17 `YHe` correction, re-measurement pending* | production fit; the evidence run is live with ε, A_s and n_s stated in advance, **z_on excepted** (frozen 0.053 dex off the onset identity) |
 | **windowed BBN** | T ≈ 0.7 MeV–70 keV | OFF at n/p freeze-out, GROWING below T_c (the order-parameter birth ramp — the BBN engine's standing treatment) → the abundance pattern. Under the standing configuration's committed genesis window the joint reads p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), with deuterium eased to −2.5 to −1.4σ from Cooke and helium paying at +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ); the helium fork, the nuclear-code systematic, and the radio referee are the judges | production (PRyM pipeline) |
 | **21-cm lines** | z ≈ 30–150 | rest frequencies shifted +2.5% (the (1+ε)² identity), with the exact ratio-lock ν_H/ν_D; the screening edge's *shape* reads the gate | registered (P-2026-022/027) |
-| **the ε-dipole** | today, horizon scale | δm_e/m_e ≈ 6×10⁻⁷, axis-correlated | registered (P-2026-024); consistent null today |
-| **Σm_ν de-bias** | parameter fits | model-conditional neutrino masses stay physical (61.4 meV vs DESI's ≲ 72 meV squeeze) | recorded; referee near |
+| **the ε-dipole** | today, horizon scale | δm_e/m_e ≈ 4×10⁻⁷, axis-correlated (the Jeans rate is √(3/2), not √3 — P-2026-024's 2026-07-17 rescaling; 6×10⁻⁷ is the superseded sizing) | registered (P-2026-024); consistent null today |
+| **Σm_ν de-bias** | parameter fits | model-conditional neutrino masses stay physical (61.4 meV vs DESI's ≲ 72 meV squeeze). The de-bias is the claim; the sum itself is not a discriminator — 2.6 meV above the m₁ = 0 floor against ~20 meV planned resolution | recorded; referee near |
 | **the supernova channel** | z < 0.15, unscreened hosts | **verdict signed: the sign is opposite to the Hubble tension** — SN standardization *cannot* supply the remaining H₀ gap (162/162 template configurations, robust). The channel survives inverted: a screening-dependent standardization offset matching the observed **host mass step's** class — a discriminable rival to dust explanations (host-*density* trend vs color-dependent step) — **subdominant at central values (~0.02 mag, environment-tagged), but the full step survives as a corner claim at C_ref ≈ 2 — the gate's own fence window; the DESI forest cross-calibration adjudicates the fork; the cluster-SN null stays the clean test** | computed; the H₀-lever branch closed, the candidacy forked on the forest |
 | **the Lyman-α forest** | z ≈ 2–3, near-mean density | absorption offset ε × gate(Δ ≈ 1); the differential null forces the steep gate; DESI's forest cross-calibration is the executioner | live test, named |
 
 ## 3. The gate (what turns ε off)
 
 ε(C) = ε₀·g(C/C_ref): fully on in the early universe (above the condensation at
-T_c ≈ 179 keV, per the BBN window), fading over z ≈ 30–60 by one of two registered
+T_c = 177.10 keV, per the BBN window), fading over z ≈ 30–60 by one of two registered
 readings — A (thermal, global) or B (environmental, tracking local clumping). Under B
 the gate is a smooth, steep curve in local density, fenced four independent ways (the
 forest's observed flatness, the SN host-density range, P-2026-022's fade profile, and
