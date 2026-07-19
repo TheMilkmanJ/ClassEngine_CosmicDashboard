@@ -72,8 +72,18 @@ superradiant range for supermassive black holes specifically:
 | 10⁹ M☉ | 0.168 | 7×10³ yr |
 | 3×10⁹ M☉ | 0.50 | the coupling saturates; the effect shuts off |
 
-**The prediction is a spin-down band between roughly 2×10⁸ and 3×10⁹ M☉** — below it the cloud
-grows too slowly to matter, above it the mode structure closes the channel.
+**Two bands, two criteria, and the registered bet is the narrower one.**
+
+- **The registered prediction (P-034) is 6×10⁸–3×10⁹ M☉**, cut at **α_g ∈ [0.1, 0.5]** — the range
+  where ℓ = m = 1 superradiance runs efficiently. This is the falsifiable claim, and it is what the
+  spin catalogs are asked to test.
+- **The table above uses a slower criterion** — spin-down time against cosmic age — which reaches
+  down to ~2×10⁸ M☉, where α_g = 0.034 gives 5×10⁸ yr, still 28× shorter than the age of the
+  universe. On that reading the effect exists over a wider band, weakly.
+
+Below either edge the cloud grows too slowly to matter; above 3×10⁹ the mode structure closes the
+channel. **Quote 6×10⁸–3×10⁹ when quoting the prediction**; the wider band is the physics, not the
+bet, and a spin-down seen between 2×10⁸ and 6×10⁸ would be interesting rather than confirming.
 
 **The confrontation, stated plainly.** That band is populated, and several black holes inside
 it carry high measured spins — continuum-fitting and reflection analyses put a > 0.9 on more

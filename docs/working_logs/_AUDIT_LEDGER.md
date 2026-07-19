@@ -578,3 +578,30 @@ window by 0.3%).
 **The lesson is about me, not the file.** I ran check 12 on the *sections I had edited* rather than
 on the file, which is the same partial-verification habit the check was added to stop. Check 12 means
 the whole file. A grep after editing tests the edit; it does not test the document.
+
+## The superradiance band — a near-miss worth recording (2026-07-19)
+
+While auditing DOMAIN_COVERAGE I found the fourth file carrying "2×10⁸–3×10⁹ M☉" against the
+6×10⁸ I had propagated. I opened `smbh_atoms`, found an explicit table whose α_g values all
+recompute exactly, saw its criterion (spin-down time versus cosmic age) reach down to 2×10⁸, and
+**concluded I had been wrong and was about to revert four files.**
+
+Then I checked the registry. **P-2026-034 registers the band as 6×10⁸–3×10⁹ M☉, cut at
+α_g ∈ [0.1, 0.5]** — exactly the criterion I had used. The edits were correct and matched the
+frozen prediction.
+
+**Both numbers are right, for different questions.** The registered bet cuts at efficient
+superradiance; the domain table asks only whether spin-down beats the age of the universe, and that
+reaches wider and weaker. Neither file said the other existed, which is the actual defect and is now
+fixed in `smbh_atoms`: quote 6×10⁸–3×10⁹ for the prediction, treat 2×10⁸–6×10⁸ as physics rather
+than the bet.
+
+**The process lesson, which is the reason this is recorded at all:** when a value disagrees across
+files, check the **registered** version before the domain file. The registry is frozen and
+load-bearing; a domain file's number can be a different cut of the same physics. I checked the
+domain file first, found a well-computed table, and nearly reverted six correct edits on the
+strength of it.
+
+Twice today the right move was to look at one more source before acting — once catching an error
+(the m_ββ anchors), once catching a *false* error (here). Both times the tell was the same: a number
+that disagreed with something I had just written.
