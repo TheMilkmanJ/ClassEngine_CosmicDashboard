@@ -1407,7 +1407,7 @@ not scale-free.
 - **modulus** — Parseval inverts it: Q = 1/3 + (2/3)ρ² ⟹ ρ = 1/√2 ⟹ τ = ½ln2, hence T_c and ρ_Λ;
 - **phase** — Z₃ shares that charge democratically, Q/3 per face, and the KMS twist turns
   charge-per-face at temperature T into a phase: θ = μ_face/T_c = **2/9**
-  (μ_face = (2/9)T_c = 39.8 keV, against the recorded ~40 keV);
+  (μ_face = (2/9)T_c = 39.4 keV at the standing T_c = 177.10, against the recorded ~40 keV);
 - **holonomy** — 3θ = Q, and the ring closes.
 
 **What this replaces.** Two independent un-derived inputs, the modulus and the phase, with the
