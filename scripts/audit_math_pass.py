@@ -448,6 +448,23 @@ chk("fairbank_note", "m_bb floor at the derived anchor 2.2599", 0.038, _wn(2.259
 chk("fairbank_note", "m_bb ceiling holds at 5.30 across the anchor range", 5.30,
     max(_wn(2.25e-3)[0], _wn(2.2599e-3)[0]), 0.005, "meV")
 
+
+# --- the Majoron mode, 0nubbchi (neutrino_sector 3b), filed 2026-07-19 ---
+_m3 = 50.20e-3                                   # eV
+_vL_MeV = _m3/1.2e-8                             # from the recorded g_33
+chk("neutrino_sector 3b", "v_L from the recorded g_33 = 1.2e-8", 4.18e6, _vL_MeV, 1e-3, "eV")
+_mbb = 3.05e-3
+for _lab, _v, _b in [("MeV corner", 4.18e6, 7.3e-10), ("GeV end", 1e9, 3.05e-12),
+                     ("2.4 TeV ceiling", 2.4e12, 1.27e-15)]:
+    chk("neutrino_sector 3b", f"<g_ee> = m_bb/v_L at the {_lab}", _b, _mbb/_v, 0.01)
+_Kg = 2.6e24*(0.8e-5)**2                          # KamLAND-Zen ordinary-majoron calibration
+chk("neutrino_sector 3b", "T_half at the MeV corner, favourable NME", 3.1e32,
+    _Kg/(_mbb/4.18e6)**2, 0.03, "yr")
+_Km = 2.3e26*(36e-3)**2
+chk("neutrino_sector 3b", "Majoron mode slower than the mass mode by", 1e4,
+    (_Kg/(_mbb/4.18e6)**2)/(_Km/_mbb**2), 0.05, "x")
+chk("neutrino_sector 3b", "<g_ee> below the experimental limit by", 1.4e4, 1e-5/(_mbb/4.18e6), 0.05, "x")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
