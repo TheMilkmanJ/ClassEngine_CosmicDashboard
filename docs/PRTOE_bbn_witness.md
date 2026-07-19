@@ -191,12 +191,17 @@ blackbody: earlier injections leave no trace whatever, later ones leave a spectr
 
 The co-signature is **helium-3**, which rises by roughly 14% — the same dissociation makes ³He and
 ³H alongside the deuterium. That is the row a referee will ask about, and it is weakly constrained
-observationally because stellar processing dominates it.
+observationally because stellar processing dominates it. **That co-signature belongs to the
+electromagnetic channel.** A hadronic injection carries a different one — non-thermal **⁶Li** from
+nucleon spallation of ⁴He — which is bound far more sharply, and which this file does not price.
 
-**The missing piece is the source.** A candidate must satisfy all three of:
+**The missing piece is the source, and the spec below is the electromagnetic one.** A candidate
+must satisfy all three of:
 
-1. **mass ≳ 20 MeV**, so its decay cascade reaches the helium-4 threshold at all;
-2. **lifetime ~10⁶–10⁸ s**, placing the deposit inside the window;
+1. **mass ≳ 20 MeV**, so its decay cascade reaches the helium-4 threshold at all — this is the
+ photodissociation threshold, and a hadronic parent must instead clear ~2m_N ≈ 1.9 GeV to put free
+ nucleons into the bath;
+2. **lifetime ~10⁶–10⁸ s**, placing the deposit inside the window the *photon* cutoff defines;
 3. **abundance delivering ~30 eV per hydrogen**, and **exhausted before recombination** — that same
  energy is 2.2× the ionization energy of every hydrogen atom, so a residue surviving to z ≈ 1100
  would prevent recombination outright.

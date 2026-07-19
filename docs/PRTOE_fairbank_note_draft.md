@@ -231,7 +231,7 @@ they move helium and deuterium the same way while the two need opposite moves. T
 confined below T_c is the right shape but comes out 8–33× too weak on the model's own
 degree-of-freedom counting. Late photodissociation of ⁴He is the cheapest cure available — breaking
 1.7×10⁻⁵ of the helium supplies enough deuterium to centre the row while moving Y_p by 0.001σ — but
-it requires a state of mass ≳ 20 MeV, lifetime 10⁶–10⁸ s, and abundance carrying ~30 eV per
+an electromagnetic repair requires a state of mass ≳ 20 MeV, lifetime 10⁶–10⁸ s, and abundance carrying ~30 eV per
 hydrogen, which the model's field content does not contain, for specific reasons rather than
 accidental ones.
 

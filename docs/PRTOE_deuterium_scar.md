@@ -126,6 +126,7 @@ That single test sorts every route the model has, and explains which ones surviv
 | helium photodissociation | late injection breaks ⁴He into D | **yes** | right shape, no source |
 | shift m_e at BBN | changes the electron's contribution | **yes** | excluded by data at 12σ |
 | shift m̂ at BBN (through B_D) | changes deuterium's binding | **yes** | symmetry-forbidden: quarks carry L = 0 |
+| evaporating PBHs at 10¹¹ g (§5b) | hadronic spallation of ⁴He into D | **yes** | right shape on *both* rows; killed by the ⁶Li co-signature, 39–156× |
 
 **Constant dark radiation fails on shape, not size.** It raises both abundances with the same sign,
 but the two rows need opposite moves: deuterium is 2.5σ low and helium is already 1.09σ high. The
@@ -156,13 +157,21 @@ freedom, reheat factor (27/14)^⅓ = 1.245) delivers a below-T_c excess of only 
 Deuterium is fragile (2.22 MeV) but helium is abundant: ⁴He sits at 8.3% of hydrogen by number
 against a deuterium abundance of 2.5×10⁻⁵. Breaking **1.7×10⁻⁵ of the helium** — a fraction far too
 small to move Y_p (ΔY_p = −4.2×10⁻⁶, 0.001σ) — supplies enough deuterium to centre the row. The
-timing window is set by thermal-bath opacity: an injection before ~6 weeks *destroys* deuterium, so
-the deposit must land at **t > 4×10⁶ s**. The result would be **joint p = 0.135–0.43**, with helium
+timing window is set by thermal-bath opacity, **and it is a property of the photon channel, not of
+the cure.** High-energy photons pair-produce off the CMB, which caps the surviving spectrum at
+E_C ≈ m_e²/(22T); that cutoff clears ⁴He's 19.8 MeV only once T < 599 eV, i.e. after ~6 weeks. Since
+deuterium is bound by only 2.22 MeV it is destroyed at every earlier time, so **an electromagnetic
+injection before ~6 weeks destroys deuterium** and the deposit must land at **t > 4×10⁶ s**. A
+*hadronic* injection is not subject to that cutoff — fast nucleons spall ⁴He whatever the photon
+bath is doing — and in that channel the same interval net *produces* deuterium (§5b). The result would be **joint p = 0.135–0.43**, with helium
 the only residual.
 
 It needs a source with three properties at once: **mass ≳ 20 MeV** (so the cascade reaches the
 ⁴He threshold), **lifetime ~10⁶–10⁸ s** (so the deposit lands in the window), and an abundance
-delivering **~30 eV per hydrogen**. The standing configuration does not supply one — see §6.
+delivering **~30 eV per hydrogen**. **All three numbers are photon-channel quantities** — the mass
+is the ⁴He photodissociation threshold, the lifetime is the pair-production cutoff's timing, and the
+abundance is 1.7×10⁻⁵ × (He/H) × 20 MeV. The hadronic channel has its own, different spec (§5b).
+The standing configuration supplies neither — see §6.
 
 **The binding-energy route is two routes, and they are shut by different things.** Both move
 deuterium through B_D rather than through the expansion rate, so neither touches helium at all —
@@ -184,6 +193,59 @@ channel is the lepton current, and deuterium's binding is nuclear.** The dyad ca
 electron and cannot reach the nucleus, and reopening the quark door means surrendering the Majoron
 identification — which the entire neutrino sector rests on.
 
+
+**⁶Li is this file's only spallation-aware constraint, and it kills the one lever that had the
+right shape.** The section below records it.
+
+---
+
+## 5b. The hadronic channel, and the one source that got past the roster
+
+Everything above §5's photodissociation row is electromagnetic: the ≳20 MeV threshold, the
+six-week window, the ³He co-signature are all properties of a *photon* cascade. There is a second
+channel. **Hadro-dissociation** — energetic free nucleons spalling ⁴He directly — is not subject to
+the photon bath's pair-production cutoff, so its window opens earlier (τ ≲ 10⁷ s rather than
+t > 4×10⁶ s), and its net effect is the literature's, not a hope: an increase in D and a decrease
+in ⁴He (Carr, Kohri, Sendouda & Yokoyama, Rep. Prog. Phys. 84, 116902 (2021), and references
+therein). **That is the right shape on both rows at once** — the only mechanism in this census that
+moves deuterium up while moving helium down — and the price of entry is steep: the parent must
+fragment into hadrons, so it must clear ~2m_N ≈ 1.9 GeV, ninety times the photon channel's
+threshold. Every field-content candidate that failed the photon spec by being too light fails this
+one by more.
+
+**One source is exempt from the roster, and it is the only one.** Pauli finiteness (P-2026-045)
+counts *fields* — sixteen Weyl fermions per generation, every seat taken. A black hole is not a
+field and adds nothing to str[k₁]. An evaporating primordial black hole therefore enters this
+census without touching the balance that forces three generations, and its Hawking emission is
+identity-blind — it needs no lepton charge, so the census's leptophilic lock does not bind it. The
+numbers land in the window without tuning: τ ∝ M³ puts evaporation at t = 4×10⁶–10⁸ s for
+**M = 1.1–3.1×10¹¹ g**, with Hawking temperatures of 34–99 GeV — comfortably above the hadronic
+threshold, fragmenting into QCD jets whose nucleons do the spalling. The required abundance is an
+initial mass fraction β ~ 2×10⁻²⁸ at unit cascade efficiency.
+
+**The kill is the co-signature, and it is efficiency-free.** Nucleon spallation of ⁴He produces
+non-thermal **⁶Li** alongside the deuterium, and ⁶Li/H is bound far more tightly than D/H is. Read
+off the BBN constraint figure of the Carr et al. review (curves extracted from the vector source
+and calibrated against the figure's own axis ticks), at M = 10¹¹ g:
+
+> β′(⁶Li) = 4.6×10⁻²⁶  ·  β′(D) = 1.5×10⁻²⁴ — **lithium binds 33× tighter than deuterium.**
+
+The decisive form of the argument needs no cascade model at all. Both curves are computed from the
+same PBH population, so whatever the cascade efficiency is, it multiplies the D yield and the ⁶Li
+yield alike, and the 33× gap between the bounds is a **nuclear yield ratio** — model-free. At the
+⁶Li bound, deuterium has moved only 0.04–0.15% (the spread being where the D curve's own tolerance
+is drawn); this row needs +5.9%. **Short by 39–156×, independent of efficiency, abundance, or the
+mass within the window.** A one-parameter population cannot dodge it: temperature and lifetime are
+locked to each other through M, so there is no corner of the window where the deuterium arrives
+without the lithium.
+
+**Verdict: killed by the ⁶Li co-signature** — the census's first entry killed neither by shape,
+size, nor symmetry, but by a receipt. The route's post-mortem is worth its line: it was the only
+candidate to clear the roster, the only one with the right shape on both rows, and it failed on a
+number that is nuclear physics rather than model structure. *(The five-lever audit's earlier PBH
+kill addressed PBHs as an expansion-rate component — a different job; this entry prices them as an
+injector, which had never been done.)*
+
 ---
 
 ## 6. What is missing, named
@@ -191,7 +253,8 @@ identification — which the entire neutrino sector rests on.
 The census leaves exactly one shape of object unaccounted for:
 
 > **A state of mass ≳ 20 MeV with a lifetime of 10⁶–10⁸ s and an abundance carrying ~30 eV per
-> hydrogen.**
+> hydrogen — for an electromagnetic injection.** The hadronic channel asks for a heavier parent and
+> a wider window; §5b states it. Neither is supplied.
 
 The standing configuration cannot currently supply it, and the reasons are specific rather than
 accidental:
