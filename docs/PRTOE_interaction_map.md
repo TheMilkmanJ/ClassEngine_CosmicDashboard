@@ -22,7 +22,7 @@ interactions exist) × the SCREENING section (how much survives each rung). Stat
 
 **The screening axis (how much gets through)** — two recorded screens, both finite:
 - **Reading B's C²-gate**: f = exp(−C²/C_ref²) — the Weyl-metered screen (the
- the state-reader; LOAD-BEARING — it is what zeroes today's ε against clock bounds).
+ state-reader; LOAD-BEARING — it is what zeroes today's ε against clock bounds).
  Gaussian: ferociously suppressing, never identically zero.
 - **Vainshtein**: the derivative screen in dense environments — the recorded EP clearance
  (5-order margin). Power-law: finite residual by construction.
@@ -50,9 +50,9 @@ tail. **The screening map IS the prediction map read as residuals** — where th
 strong the model predicts normality (galaxies, labs: verified daily), and where it thins the
 model signs its name (voids, ramps, horizons).
 
-## 3. The user's gravity note, made precise
+## 3. Is gravity weaker at small scales?
 
-"Gravity might be weaker at small scales due to screening" — refined per the channel split:
+The question is natural and the answer splits by channel:
 GRAVITY itself is never screened (the reference channel cannot suppress itself); what screening
 weakens is the medium's SCALAR ADDITION to gravity (the fifth-force/dyad channel). Locally,
 gravity is exactly Einstein's because the addition is gated to ~zero — the model's local

@@ -21,8 +21,9 @@ has died conventionally (3.5 keV: eROSITA).
  recorded dark-antimatter reframe (the never-annihilating ~30% counter-charge) exists
  PRECISELY because the medium cannot annihilate its charge away. No annihilation channel
  exists AT ALL — not suppressed: absent by conservation law.
-2. **Decay to the SM runs through the portal at ~3.5×10¹⁷ GeV** (geometric mean) —
- lifetimes beyond cosmological by dozens of orders. No decay signals.
+2. **Decay to the SM runs through the portal**, whose scale sits at 100–500 TeV for the dyad's
+ decay constant and 13–20 TeV for the census portal — giving lifetimes beyond cosmological by
+ many orders. No decay signals.
 3. **The quanta are 2×10⁻²⁰ eV condensate modes** — there is no particle pair to annihilate
  into photons at ANY energy a telescope observes.
 
@@ -37,7 +38,7 @@ a cross-section detection — kills the conserved-charge structure outright. No 
 absorbs it. As with T9 and Tsirelson: the model earns nothing further from continued silence;
 it simply survives every year the sky stays mundane, while tuned-WIMP interpretations shrink.
 
-## 3. Owed (mirrors threaded_physics_working/T15)
+## 3. Owed
 
 1. The cross-section CEILING computation (state "how null" numerically — the portal-mediated
  effective σv, expected ~dozens of orders below any instrument).

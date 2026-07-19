@@ -132,6 +132,13 @@ that is a bug — file it.*
 - **[RybickiLightman1979]** G. B. Rybicki, A. P. Lightman, *Radiative Processes in Astrophysics* (Wiley, 1979). — The dispersion, synchrotron, and Faraday coefficients; the radio lattice's −1ε and −2ε rows read straight off their m_e dependence.
 - **[Bowman2018]** J. D. Bowman et al., "An absorption profile centred at 78 megahertz in the sky-averaged spectrum," Nature 555, 67 (2018). — The EDGES cosmic-dawn trough; P-2026-030's target.
 
+## 8c. The arrow, the low beginning, and the confinement analogy
+
+- **[Penrose1979]** R. Penrose, "Singularities and time-asymmetry," in *General Relativity: An Einstein Centenary Survey*, eds. Hawking & Israel (CUP, 1979), 581–638. — The Weyl curvature hypothesis: the universe began with gravitational entropy near zero while matter entropy was near maximal. The statement this model's low-beginning section has to reproduce rather than assume.
+- **[Tolman1934]** R. C. Tolman, *Relativity, Thermodynamics and Cosmology* (Oxford, 1934). — The thermodynamics of expanding models, and the entropy argument against indefinitely repeating cycles that every cyclic proposal since must answer.
+- **[FrolovFursaevZelnikov1997]** V. Frolov, D. Fursaev, A. Zelnikov, "Statistical origin of black hole entropy in induced gravity," Nucl. Phys. B 486, 339 (1997), arXiv:hep-th/9607104. — Horizon entropy as a state count in the constituents that induce gravity, rather than a postulate. The frame the area-law derivation works inside.
+- **[Nambu1974]** Y. Nambu, "Strings, monopoles, and gauge fields," PRD 10, 4262 (1974). / **[Mandelstam1976]** S. Mandelstam, "Vortices and quark confinement in non-Abelian gauge theories," Phys. Rept. 23, 245 (1976). — The dual-superconductor picture of confinement: flux tubes as vortices in a condensate. The structural analogy the family-ring argument runs on.
+
 ## 9. Neighboring dark-sector models (the honest competitors and cousins)
 
 - **[BerezhianiKhoury2015]** L. Berezhiani, J. Khoury, "Theory of dark matter superfluidity," PRD 92, 103510 (2015), arXiv:1507.01019. — The nearest superfluid-DM cousin; differs by scope (galactic vs cosmological) and by the dyad.

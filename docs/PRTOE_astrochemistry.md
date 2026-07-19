@@ -4,14 +4,16 @@
 
 
 ## The equations
-- atomic lines: E ∝ Rydberg ∝ m_e (degenerate with z); molecular: rotational ∝ m_e²/m_p-class,
- vibrational ∝ √(m_e/m_p) — DIFFERENT powers ⇒ the μ = m_p/m_e comparison
+- atomic lines scale as the Rydberg, E ∝ m_e, which is degenerate with redshift on its own.
+ Molecular lines do not: rotational energies go as m_e²/m_p and vibrational as m_e^(3/2)/m_p^(1/2),
+ so **comparing a molecular line to an atomic one measures μ = m_p/m_e directly**, with the
+ redshift dividing out
 - the ramp fence: |Δμ/μ|(z ≤ 4) < 10⁻⁶ (quasar H₂/CO nulls — the transition complete to ppm)
 - P-2026-030 (candidate): at z > 10 (MID-RAMP), ALMA CO/H₂O vs JWST atomic lines of the SAME
  galaxy carry a line-ratio offset up to ~10⁻² fading as the ramp completes — m_e(z) measured
  directly in data being taken now
-- the cooling subdomain (parked-live): mid-ramp H₂/HD cooling shifts → the first-star
- IMF (likely percent-class — the honest label)
+- mid-ramp H₂ and HD cooling shifts feed through to the first stars' initial mass function —
+ percent-class, and not yet computed
 
 ## How PRTOE connects
 Chemistry off-Earth is chemistry plus the RAMP: below z~4 the sky must be (and is) ppm-standard
