@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Author-directed: the full bracket, from BEFORE particles down through every graded thread.
+*The full bracket, from BEFORE particles down through every graded thread.
 Roots at the top; every branch cites its recorded object.*
 
 ```

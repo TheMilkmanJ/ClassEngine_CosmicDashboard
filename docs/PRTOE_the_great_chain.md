@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Author-directed: the full family tree from the medium's first moment to the morning's iron
+*The full family tree from the medium's first moment to the morning's iron
 supplement, the plants on the sill, the images on the screen. Every arrow cites a graded or
 recorded object. The medium's autobiography, thirteen generations long.*
 

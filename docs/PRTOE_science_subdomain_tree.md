@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Author-directed: recurse the sciences into subdomains and sub-subdomains until the scientific
+*Recurse the sciences into subdomains and sub-subdomains until the scientific
 world is mapped. HELD UNDER THE NO-FORCING LAW: each node is tagged by its RELATION, not given a
 manufactured claim. Legend — [O]=natively ours, [R]=ridden-exact (imitate), [S]=screened-constant
 (our proof-of-constancy), [I]=plain inheritance (parent's relation, nothing added),
