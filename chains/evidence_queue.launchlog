@@ -1,0 +1,6 @@
+Mon Jul 13 03:02:15 MDT 2026: queue watcher started, PID 495710; watching 464355/464357
+Tue Jul 14 10:13:18 MDT 2026: PRTOE-TRGB run exited; queue begins after settle
+Tue Jul 14 10:14:22 MDT 2026: SKIP cmp_lcdm_trgb.yaml — another cobaya is alive (manual run?); queue aborts to stay solo
+Fri Jul 17 17:25:17 MDT 2026: queue watcher v2 started, PID 483624; waiting on cmp_prtoe_fixed
+Fri Jul 17 21:19:44 MDT 2026: queue watcher v2 started, PID 531712; waiting on cmp_prtoe_fixed
+Sat Jul 18 08:40:23 MDT 2026: queue watcher v2 started, PID 655542; waiting on cmp_prtoe_fixed

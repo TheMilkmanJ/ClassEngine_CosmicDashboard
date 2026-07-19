@@ -11,7 +11,7 @@ systematics.*
 
 ## 0. The tension
 
-Weak-lensing surveys (DES/KiDS-class) persistently measure S₈ ≡ σ8√(Ω_m/0.3) ~ 2–3σ BELOW the
+Weak-lensing surveys (DES/KiDS-class) persistently measure S₈ ≡ σ₈√(Ω_m/0.3) ~ 2–3σ BELOW the
 CMB's ΛCDM prediction: the late universe is smoother than the early universe says it should be.
 ΛCDM has no lever — the growth history is locked once the CMB is fit.
 
@@ -26,13 +26,13 @@ history — exactly the shape of the observed tension.
 
 ## 2. Where it stands empirically (live)
 
-- The mechanism is built and recorded (the CLASS implementation; the damping-tail check #37
- passed).
+- The mechanism is built and recorded in the CLASS implementation, and it does not disturb the
+ damping tail.
 - The omk minimum: S₈ = 0.807 at the dyad's best point — between the CMB-ΛCDM 0.83
  and the lensing 0.76–0.78: the model already sits on the tension's easing side.
-- The chains NOW: conv_g is a sampled parameter in the thaw chain/conv_desi (pre-registered at
- g ≈ 0.10 ± 0.05); their posteriors are the mechanism's live test. Interim the thaw chain
- explores conv_g ~ 0.2 — UNCONVERGED, watch-don't-grade.
+- conv_g is a sampled parameter in the thaw and conv_desi chains, pre-registered at
+ g ≈ 0.10 ± 0.05. Their converged posteriors are the mechanism's test; no interim value carries
+ weight.
 - MEANING-INVERSION NOTE (kept): a conv_g pulled LARGE would ease S₈ at the price
  of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
 
@@ -48,7 +48,7 @@ is information; ΛCDM's position provides none.
 
 The chains' converged posteriors (running); a matched-lensing-likelihood fit (DES/KiDS proper,
 not just the S₈ point) before any tension-easing CLAIM is recorded; the conversion's
-perturbation-sector flag (the docketed session's deferred item).
+perturbation-sector treatment.
 
-*The universe got smoother than the standard picture allows. This model's dark sector does extra work
-that does exactly that — and the receipts are being printed by three chains in the next room.*
+*The universe got smoother than the standard picture allows. This model's dark sector does extra
+work that does exactly that — and the chains testing it are running.*

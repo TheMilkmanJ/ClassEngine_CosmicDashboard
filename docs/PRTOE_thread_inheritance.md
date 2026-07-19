@@ -3,10 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Author insight, formalized: "the physics we aren't threading into thread into other physics
-our model threads into." Checked against the full kill-list: TRUE in every case — and in this
-model it is a THEOREM, not a tendency. Status: STRUCTURAL (the why-pass generalized into a
-graph).*
+*The physics this model does not thread into threads into physics it does. Checked against the
+full kill-list, that holds in every case — and here it is a theorem rather than a tendency, because
+gravity's universality leaves nothing disconnected. Status: STRUCTURAL.*
 
 ## 0. The theorem
 
@@ -56,5 +55,8 @@ kept current as parents evolve (the windowed BBN re-stamp will propagate to lith
 *The model threads sixteen roots and the universe hands it the rest on inheritance. Nothing is
 outside — some things are just downstream, and the account collects from everyone.*
 
-The silent-lineage census: every silence mapped to its intermediate parent and walked — zero orphans; the inheritance theorem confirmed at WALKED grade; three bench-scale flow-backs documented (BEC-Kelvin, type-II vortex cousin, the Landau bench). The grandchildren were never strangers.
+Every silence in the corpus has been mapped to its intermediate parent and followed through: no
+orphans were found, which is the theorem's own test passing. Three of the inheritance paths run
+back to bench-scale systems — the BEC Kelvin modes, the type-II vortex cousin, and the Landau
+bench — where the parent law can be checked in a laboratory rather than a sky.
 
