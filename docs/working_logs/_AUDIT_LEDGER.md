@@ -1401,3 +1401,21 @@ else held under recomputation: all four r_s/ξ table rows, the crossover mass 2.
 250× = "more than two orders" ✓, harnessed), the 12π/48π = 1/4 area-law seating, the NEC
 17-order shelf, and §5's owed list — each owed item carries its number or its gate, none
 dangling. The five-pathology table's grades match the component files' own.
+
+## PRTOE_quartet_clock.md — deep audit 2026-07-19
+
+File seventy-nine — the corpus's clearest case of a betting record whose layers must NOT be
+flattened (§1 lineup → §4a pair resolution → §4b marks-retired → §5 registered call: each
+dated, each a receipt). What was actually broken: **the header**, still billing the three-way
+lineup as live and the "verdict weeks away," when §4a derived the pair (repulsive λ forbids
+quartet binding) and §4b retired the §1 marks via the two-clock correction. The header now
+states the current truth and routes readers to the layers. Mechanical: the only broken LaTeX
+found so far in the corpus (`\α` twice in one line — rendered raw), and two P-040 shorthands
+normalized. One content edit inside a layer, recorded openly: §4a's closing "The chain
+confirms the mark" was an overclaim false when written (R−1 never approached the bar; §4b
+says so in-file) — edited to "the running chain, unconverged, remains the referee," which is
+what the optimizer-plateau law demands of chain reads. The registered bet lines themselves
+(TWINS won, exact-number lost, the trajectory call, the §5 pair call) are untouched — bets
+stay as placed. Verified: the ½·log₁₀N composite shifts (7.59/7.74/7.89 exact), the §3
+zon_disp read (≈7.7, R−1 ≈ 23 — matches today's watcher relay verbatim), T = 9.41 keV, and
+the three generations of marks each carrying its dateline.

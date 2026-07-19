@@ -3,10 +3,13 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: EXPLORATORY / UN-REFEREED — a firewalled candidate with a pre-registered
-> three-way lineup.** Found during a hygiene ritual. The referee is the
-> α_c chain, already running; the verdict is weeks away at most. Conditional on: the
-> roster hypothesis (the composite vacuum), the Z4-locking mechanism (owed), P-2026-040.
+> **STATUS (2026-07-19): the UNIT question is RESOLVED — the oscillating unit is the PAIR,
+> derived (§4a: the recorded repulsive λ forbids quartet binding; the Z4 term locks phases,
+> not composites). The §1 three-way lineup stands as the dated record only — its marks were
+> retired as grading marks by the two-clock correction (§4b). The live object is §5's
+> registered PAIR call (lineup 7.55 / 7.70 / 7.85), graded against the running zon_disp
+> chain — unconverged (R−1 ≈ 23), no verdict yet.** Found during a hygiene ritual.
+> Conditional on: the roster hypothesis (the composite vacuum) and P-2026-040.
 
 ## 0. The question
 
@@ -18,7 +21,7 @@ oscillates. Pair? Quartet? The constituent alone?
 ## 1. The math
 
 The clock scales as $z_{\rm on} \propto \sqrt{m_{\rm clock}}$ (radiation era: $H \propto
-(1+z)²$). With the P-2026-040 stack ($\α_c = 3\α$ + the abundance closure + the
+(1+z)²$). With the P-2026-040 stack (α_c = 3α + the abundance closure + the
 template offset), the constituent-clock prediction is $\log_{10} z_{\rm on} = 7.59$.
 Composite units shift it by $+\tfrac{1}{2}\log_{10} N_{\rm unit}$:
 
@@ -46,7 +49,7 @@ studied distinction).
 
 ## 3. The stakes
 
-If the quartet reading holds, the P-040 corollary's apparent tension INVERTS: the chain
+If the quartet reading holds, the P-2026-040 corollary's apparent tension INVERTS: the chain
 center the constituent clock calls adverse becomes the quartet clock's confirmation zone
 (the $3\alpha$ prediction moves $7.59 \to 7.89$). **The chain state, read honestly:** the
 live dispersion chain (zon\_disp) currently sits at $\approx 7.7$ with $R{-}1 \approx 23$ —
@@ -74,7 +77,8 @@ The onset-clock identity (include/background.h, the coded T = 9.41 keV derivatio
 Quartets require attractive pair-pair coupling; the model's recorded real sound speed
 (c_s = √α_c) forces λ > 0 — repulsive — so quartets do not bind. The Z4 term locks
 phases, not composites (the §2 sketch conflated the two — failures ledger). The
-pair call is now DERIVED, not just registered. The chain confirms the mark.
+pair call is now DERIVED, not just registered. The running chain, unconverged, remains
+the referee (§4b).
 
 **The plain-language completion (registered post-derivation):** "It's running
 forward and mirroring backwards. It doesn't need 2 more to do that." — the NECESSITY half
@@ -89,7 +93,7 @@ zone was a constructional double-count, so the number-bet was
 placed against a mislabeled board — noted, still graded as lost per the house rules).
 THE LIVE STAKES NOW: the chain (drifting 7.66→7.77) must DESCEND to ~7.55 for α_c = 3α
 to confirm — which makes the crest-and-descend trajectory call LOAD-BEARING
-for P-040 itself: if the descent materializes and lands at 7.55, the trajectory call and
+for P-2026-040 itself: if the descent materializes and lands at 7.55, the trajectory call and
 3α confirm in the same breath.
 
 ## 4b. STATUS (current truth): the lineup marks are SUPERSEDED
