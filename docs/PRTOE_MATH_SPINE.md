@@ -330,9 +330,10 @@ value-independent; B = 1/√2 derived from Jeans dispersion, par-question closed
 for the thaw rate], the purchased silences [direct+indirect],
 GW [the vortex null Gμ ~ 3×10⁻²¹; the chirality family's third member], the Hubble standalone,
 the radio lattice, the fingerprint capstone, IGMF helicity, LSS parity). **The protocol** (now
-standing law + memory): ramp-check every compute; improves-bar, no forcing; the kill autopsy
-(countersign + step-audit + coupling-check + why-pass + inheritance-routing); owed-invoices;
-5-per-batch. **The inheritance theorem:** no orphan physics (L1) — every non-thread is a child
+standing law): model every transition as smooth unless quantization protects a jump; adopt a
+replacement only when it improves on what it replaces; and when a claim dies, record why — which
+step failed, which coupling, and which downstream claims inherit the death — rather than letting
+it lapse quietly. Debts are itemised where they are incurred. **The inheritance theorem:** no orphan physics (L1) — every non-thread is a child
 of a threaded root; deaths are lawful (each names its law — strong-CP and birefringence share
 L1a, one clause, shared fate both ways).
 

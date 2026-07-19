@@ -56,9 +56,9 @@ exactly. No free coefficient, no fit.
 
 ## Why B = 1/√2 is the thaw rate (picked, not working-estimate)
 
-**Homogeneous ghost condensate cannot source Route-D thaw.** For shift-symmetric P(X), the
+**A homogeneous ghost condensate cannot source the thaw branch** (route D: w₀ ∈ [−0.92, −0.86] with wₐ < 0, the dark energy leaving its floor rather than settling onto it)**.** For shift-symmetric P(X), the
 Noether charge implies eps = X−X0 ~ a⁻³ near the minimum ⇒ 1+w ~ a⁻³ — *settling to* the floor.
-Route-D wants 1+w ~ a⁺³ — *leaving* the floor. Homogeneous EOM alone is the wrong sign.
+The thaw branch wants 1+w ~ a⁺³ — *leaving* the floor. Homogeneous EOM alone is the wrong sign.
 
 **What sources thaw: the Jeans instability under self-gravity.** Dispersion of fluctuations
 about the critical point (c_s = 0, with the (δK)² stabilizer):

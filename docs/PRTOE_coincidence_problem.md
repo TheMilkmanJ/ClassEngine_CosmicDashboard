@@ -22,7 +22,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
  gave Γ_par/H_Λ = √3 for the IR/critical-k scale (single-scale fluid, M_GC = ρ_inf^¼).
  the physical thaw growth rate is the Jeans frequency
  ω_J = √(4πG ρ) = Γ_par/√2, so Γ_eff/H_Λ = √(3/2) with **B = 1/√2 derived** — homogeneous
- P(X) settles (wrong sign for Route-D); the Jeans branch is what can leave the floor. Walked in
+ P(X) settles, which is the wrong sign for a thaw; the Jeans branch is what can leave the floor. Walked in
  [PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
 2. **The turnaround is a computed multiple of the Hubble time**:
  t_turn = ln(1/√A_s)/(√(3/2)·H) ≈ **8.16 H⁻¹** at A_s = 2.088×10⁻⁹.
