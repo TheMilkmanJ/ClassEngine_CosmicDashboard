@@ -27,9 +27,10 @@ past, but its first moment is a *state*, not a point of infinite density.
  same Colpi–Shapiro–Wasserman physics that supports every black hole at finite density, §3 of the
  BH document). Contraction halts and reverses at finite ρ. *(Quantum pressure guarantees a floor
  on its own; the repulsive amplitude quartic sets ρ_bounce's number — distinct from the attractive
- axion/phase coupling.)* **The joint constraint, priced honestly (2026-07-18):** the BH document's
- support threshold (λ ≳ 2.3×10⁻⁹² for the largest holes) puts the *condensate's* bounce at
- ρ_bounce¼ ≈ 1.8 keV — while a naive single-fluid crunch that must reach the hot start
+ axion/phase coupling.)* **The joint constraint, priced honestly:** at the derived λ ≈ 2×10⁻⁹¹ the *condensate's* bounce
+ sits at ρ_bounce¼ ≈ 1.1 keV (the BH document's support threshold reads keV-class in every
+ normalization convention — its factor-13 spread moves this fourth root by under 2×, immaterial
+ here) — while a naive single-fluid crunch that must reach the hot start
  (T ≳ few MeV for standard BBN) would need λ ≲ 10⁻¹⁰⁶: **the two recorded requirements pull λ
  apart by ~14 orders in a one-component reading.** The model's own structure carries the
  resolution-shape — the bounce is **two-component** (the condensate's quartic floor is one ledger;
@@ -100,7 +101,9 @@ rearranged itself.
 
 ## 5. Honest owed items
 
-- λ_phys — the repulsive amplitude quartic; sets ρ_bounce's number (quantum pressure sets its finiteness).
+- λ — **paid**: derived at ≈ 2×10⁻⁹¹ (the CMB ceiling (m/Ψ₀)², clearing the black-hole core's
+ requirement by at least 20× in the tight convention). What this file still owes through it is
+ only the bounce profile below.
 - The bounce dynamics in detail (the reversal's field profile — the cosmological analogue of
  the BH core; un-simulated) — **now carrying a number it must hit**: the two-component split
  (§1.2's joint constraint) must deliver an MeV-class hot start over a keV-class condensate floor.

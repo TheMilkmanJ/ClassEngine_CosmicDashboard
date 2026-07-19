@@ -1128,3 +1128,14 @@ convention is named. **The lean that was a bet:** §7(iv) still called the super
 "a lean, not a bet" on "sparse spin measurements," against a registered P-2026-034 and a
 populated band — brought to the live-exposure statement. The Kaup cap verified (3.7×10⁹), the
 r_s/ξ table checked, the Penrose discharge and area-law rows already current.
+
+## PRTOE_bigbang_no_singularity.md — deep audit 2026-07-19
+
+Forty-fourth file. Two fixes. §1.2's joint constraint quoted the bounce floor off the BH
+*threshold* rather than the derived λ (1.1 keV at 2×10⁻⁹¹, harnessed) and inherited the
+convention question — now flagged as immaterial to its own 14-order tension, which is the
+point of pricing it. And §5's first owed item was a check-13 payment: λ is derived at the CMB
+ceiling and clears the BH core's requirement — the bullet now says paid and points the residue
+where it actually lives (the un-simulated two-component bounce profile, which still carries the
+named MeV-over-keV number it must hit). The zero-energy theorem, the emergent-clock reading
+with its kill clause, and the falsifier table all held.
