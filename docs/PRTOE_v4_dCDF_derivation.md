@@ -286,7 +286,7 @@ i.e. the field still has exactly one continuity equation, exactly one dynamical
 degree of freedom — but its energy density is the kinetic piece riding on top
 of a flat floor $\Lambda$, and as $X\to0$ (field relaxes / dilutes), $\rho\to\Lambda$,
 $p\to-\Lambda$, $w\to-1$ **unconditionally**, with no fixed-point fine-tuning
-required. This is the "constant rate of relaxed expansion" the user described:
+required. This is the "constant rate of relaxed expansion" the author described:
 the floor is not a limit the kinetic piece has to be steered into (§3's whole
 problem), it is a separate additive term that is *already* exactly de Sitter
 by construction.
