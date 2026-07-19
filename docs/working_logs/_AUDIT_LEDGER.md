@@ -1241,3 +1241,12 @@ and "+0.44% kernel-sourced" nested in one clause with the stale 179 — rewritte
 radio_lattice and laser_physics carried one supersession each. granule_scoping — a dated
 morning-board record whose band the mass pin has since left — got the UV_completion treatment:
 a reading-rule banner that keeps the meter's structure and defers the band's masses to the pin.
+
+## plasma_physics / chaos_dynamics / astrochemistry / LV_pricing — deep audits 2026-07-19
+
+Files sixty-one through sixty-four. Three clean (plasma_physics with its harnessed 900 MHz and
+99.95% rows; astrochemistry with its honest "not yet computed" gate; LV_pricing with its
+12–27-order margin table and the constitutional zeros stated as constitutional). One connective
+fix: chaos_dynamics' numerical winding-average (0.635 ± 0.026) now states that it lands on the
+since-derived exact 2/π = 0.6366 — the integral was the derivation's evidence, and the file now
+says so instead of leaving the exact value to be discovered elsewhere.
