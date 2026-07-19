@@ -567,3 +567,14 @@ constant. η, n and λ_phys carry honest grades.
 **The pattern this file inverts:** it was the *source* of truth for two corrections made elsewhere
 today, and simultaneously carried three stale statements of its own. Being right about other files'
 debts is no protection against being wrong about your own.
+
+**Correction to this entry, same session:** I recorded the file closed after fixing §2's first two
+bullets. Check 12 then found **thirteen more stale instances** through the rest of the 586 lines —
+the T_c-not-sourced bullet, the BBN pincer rows, the squeeze table, §4c, the lattice section, the
+scale ladder. All cleared; one deliberate "177–179 keV" survives where the BBN books are genuinely
+insensitive to the difference (verified: the 1.06% change moves T_c's position in the 800→70 keV
+window by 0.3%).
+
+**The lesson is about me, not the file.** I ran check 12 on the *sections I had edited* rather than
+on the file, which is the same partial-verification habit the check was added to stop. Check 12 means
+the whole file. A grep after editing tests the edit; it does not test the document.

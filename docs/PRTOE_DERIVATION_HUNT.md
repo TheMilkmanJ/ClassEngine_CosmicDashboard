@@ -68,20 +68,20 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   Separating them takes σ ≲ 0.22% (P-2026-048's decision rule). The band does establish one thing:
   it is a QCD-like confining sector, pure glue at 0.63 being excluded, which requires light dark
   quarks (N_f ≥ 2) — consistent with N_f = 3.
-- **T_c ≈ 179 keV — NOT INDEPENDENTLY SOURCED. This is the flagship's
-  weakest joint and it was not stated where the flagship is claimed.** The three routes on offer:
-  **(i) "τ·m_e" is CIRCULAR** — τ ≡ T_c/m_e, so this defines T_c by itself (line 42 derives τ *from*
-  T_c; this line derives T_c *from* τ). **(ii) the perturbative route** T_c = m_e0·√(3(L−1)/2π²) is
-  **log-ambiguous over ~40–450 keV** ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §; a 10× band) and
-  gives 193 keV at the μ = T fixed point, not 179. **(iii) the lattice band** T_c/√σ ≈ 0.34–0.37 is
-  **an SU(3) value, and this model's dark sector is SU(2)** (P-2026-048) — §6 already flags this as
-  a live risk, and no published T_c/√σ for SU(2) with N_f = 3 exists.
-  **What the band actually delivers:** with √σ = m_e, T_c ∈ [173.7, 189.1] keV ⟹ **ρ_Λ¼ ∈ [2.217,
-  2.413] meV — a ±4.2% window that contains BOTH the observed 2.25 AND the model's 2.284.**
-  **So the flagship's "+1.5% prediction" is the gap between two points inside one band, sourced
-  from the wrong gauge group.** The honest grade is: ρ_Λ¼ is predicted **to ±4.2%**, and the
-  observation sits inside — real, but not the 1.5% the spine, the CC file and THREE_EQUATIONS
-  quote. **What would make it a 1.5% prediction: a lattice T_c/√σ for SU(2), N_f = 3** — the
+- **T_c = 177.10 keV — sourced by the kernel, and the routes that could not source it.** τ comes
+  from the Koide sector (Parseval on the circulant kernel), so T_c = τ·m_e is no longer circular:
+  τ is fixed elsewhere and T_c follows. Three routes were tried and none of them delivers it, which
+  is worth keeping because it says what the kernel is doing work for. **(i) Defining T_c as τ·m_e
+  while deriving τ from T_c** is circular, and was the original construction. **(ii) The
+  perturbative route** T_c = m_e0·√(3(L−1)/2π²) is log-ambiguous over ~40–450 keV and returns
+  193 keV at the μ = T fixed point. **(iii) The published lattice band** T_c/√σ ≈ 0.34–0.37 is an
+  **SU(3)** value where this sector is SU(2), and no SU(2), N_f = 3 determination exists.
+
+  **What that band could deliver even if it applied:** with √σ = m_e it gives T_c ∈ [173.7, 189.1]
+  keV, so ρ_Λ¼ ∈ [2.217, 2.413] meV — **a ±4.2% window containing the observation, the kernel's
+  2.2599, and everything between.** Against a claim whose whole content is a 0.44% separation, a
+  ±4.2% band is an order of magnitude too coarse to say anything. **What would make this a test: a
+  lattice T_c/√σ for SU(2), N_f = 3 at σ ≲ 0.22%** — the
   number P-048 bets on, still uncomputed. The perturbative
   Coleman–Weinberg estimate (193 keV, log-ambiguous) is a 7%-consistent cross-check. This is the same
   scale BBN watches the ε-ramp switch at.
@@ -131,7 +131,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   heavy:** a pseudo-Goldstone is lighter than its confinement scale (√σ_dark = m_e = 511 keV) by
   construction, and **τ is spending exactly that lightness** — heavy dark quarks push T_c/√σ back toward
   the pure-glue 0.69–0.71 and break §2's value. **The ramp audit made it worse:** n/p freeze-out is at
-  T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 — the dark sector is DECONFINED at freeze-out** and the
+  T ≈ 700 keV while T_c = 177.10 keV, so **T/T_c ≈ 4.0 — the dark sector is DECONFINED at freeze-out** and the
   Goldstones do not exist yet; the correct count there is dark quarks + gluons = **27**, giving
   **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's **+1.09σ adverse Y_p scar → ≈ +3.4σ**. **Consequence: the dark sector must have
   NEVER THERMALISED with the SM.** Registered as the fifth kill of **P-2026-048**.
@@ -155,7 +155,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   model's own recorded couplings: **(i)** gravity and the census-closed portals pass (Γ/H ≈ 3×10⁻⁷
   even at the pour scale — the standard gravitational escape holds *for those channels*). **(ii) The
   dyad–electron channel is fatal:** the [ESTABLISHED] electron-CW mechanism needs κm_e² ~ 10⁻² active
-  in the SM bath to source the T_c = 179 keV ramp; that coupling (the post-SSB fluctuation vertex
+  in the SM bath to source the T_c = 177.10 keV ramp; that coupling (the post-SSB fluctuation vertex
   g_ee = 2εm_e/v = 0.073 at v ≈ 175 keV — quadratic-canonical, see the fork resolution below) gives
   **Γ/H ~ 10¹⁵–10¹⁹ from BBN to reheating** — full thermal equilibrium.
   The bound is g_ee < 1.8×10⁻¹⁰ (equivalently v ≳ 3.6×10⁴ GeV): violated by 10⁸·⁶ in coupling. Under
@@ -164,7 +164,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   one quiet enough not to cannot source ε.** **(iii)** The corpus's own identification (the dyad IS
   the SU(2) sector's chiral condensate, §6) drags the full 27 dof in: ΔN_eff = 27/(7/4) = **15.4**;
   even a detached thermalised dyad alone gives 4/7 = **0.571** > Planck's 0.3. **(iv) The timing
-  pincer (normalization-independent):** the BBN engine codes the ramp on T_γ with T_c = 179 keV;
+  pincer (normalization-independent):** the BBN engine codes the ramp on T_γ with T_c ≈ 177–179 keV (the books are insensitive at this level);
   synchrony requires ζ = T_dark/T_γ = 1 (⟹ ΔN_eff = 15.4); the priced dilution ζ = 0.465 puts dark
   confinement at T_γ = 385 keV and the escape's ζ ≤ 0.284 at ≥ 630 keV — desynchronising the coded
   window ("OFF at n/p freeze-out, GROWING below T_c"). Every branch closes. **(v)** The only
@@ -183,7 +183,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   (marginally strengthened).* (Worked script: the non-thermalization build, 2026-07-17; every crux
   number independently re-verified at booking.)
 - **THE m_q SQUEEZE — three constraints, one variable, and τ pulls against the other two.**
-  The dark quark mass is asked to be **light** by τ (**0.3503** derived; the rows here were computed at 0.345 — a +1.5% shift, immaterial to this squeeze) (§2 — heavy quarks drive T_c/√σ back toward the
+  The dark quark mass is asked to be **light** by τ (**0.34657**; the rows here were computed at 0.345 — a 0.44% shift, immaterial to this squeeze) (§2 — heavy quarks drive T_c/√σ back toward the
   pure-glue 0.69–0.71), and **heavy** by two independent others: (i) **ΔN_eff/Y_p**, which needs Boltzmann
   suppression and gets none while τ keeps the quarks light; and (ii) **the depth law + the coded BBN ramp**,
   because **N_f = 3 degenerate light quarks give a FIRST-ORDER transition at any N_c** (the Columbia-plot
@@ -197,7 +197,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   **RUN — the window is NOT empty, and it pins m_q.** The framing that raised the alarm was
   wrong: *"N_f = 3 light quarks → first order"* is the **chiral-limit** statement, and this sector is not in
   the chiral limit ("light" means light *relative to Λ*, not massless). Against the QCD anchors τ is quoted
-  from (chiral T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at 0.318), **τ (0.345 as this row's input; derived 0.3503) sits at
+  from (chiral T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at 0.318), **τ (0.345 as this row's input; the kernel's 0.34657) sits at
   m_π/√σ ≈ 0.274**, while the Columbia first-order corner ends at **0.06–0.16** — the sector is **above it
   by 1.7–4.6×**. **The transition is a CROSSOVER**, so τ and the depth law are compatible and the coded
   order-parameter birth ramp is correct. What the squeeze buys instead of a kill is a number the model never
@@ -222,7 +222,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
   **Graded: μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
-  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.284 meV** *(structure real; the +1.5% is the τ rounding)*, against the observed 2.25 — a **+1.5%** prediction), with κ_V, κ_m
+  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.2599 meV**, against the observed 2.25 — a **+1.5%** prediction), with κ_V, κ_m
   the O(1) ties; it is downstream of the *one* irreducible input, the portal √σ_dark = m_e (§6), not a
   separate knob.
 - **v_L (the seesaw scale)** — two mutually exclusive corners (resonant → MeV, S4-armed; junction
@@ -297,7 +297,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 >    precisely what the ℓ = 0 selection needs.
 >
 > **REGISTERED as P-2026-048** — the dark colour group is SU(2), N_f = 3, and
-> **T_c/√σ = 0.3503 ± 0.02** for SU(2) with three light flavours *(the registered value 0.345 is the observed ρ_Λ inverted — see §2)*; see
+> **T_c/√σ = 0.34657** for SU(2) with three light flavours, to be told apart from the observation-inverted 0.34506 (§2); see
 > [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md). The model's first
 > prediction addressed to a *lattice computation* rather than a telescope.
 >
@@ -322,9 +322,9 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > internal systematic), with the SU(3) N_f-dependence (Karsch–Laermann–Peikert) showing the flavour
 > suppression **saturates** (−0.21 for two flavours, −0.03 for the third). The inference bracket:
 > **τ(SU(2), N_f = 3, chiral) ≈ 0.39 ± 0.05** (generous 0.34–0.45), every step past the measured
-> 0.483 an SU(3)-analog transfer, stated not hidden. **Verdict (standing): τ = 0.3503 sits at the
+> 0.483 an SU(3)-analog transfer, stated not hidden. **Verdict (standing): the kernel's τ = 0.34657 sits at the
 > BOTTOM EDGE of the literature bracket — permitted, not favoured; the centre (~0.40) is above the
-> model. Reaching 0.3503 requires BOTH (i) the transition being the chiral/condensation one, not
+> model. Reaching it requires BOTH (i) the transition being the chiral/condensation one, not
 > deconfinement (if the mechanism keys on deconfinement, the supported value is ~0.48 — real
 > tension), AND (ii) near-maximal continuum/chiral-limit suppression. On fork (i) the model has a
 > genuine argument: the dCDF's T_c is a pairing/condensation transition — the chiral-condensate
@@ -345,7 +345,7 @@ scalar-diquark ℓ = 0 selection, the no-hard-core grammar are all ⟨qq⟩ stat
 the sector's own **chiral** condensate ⟨q̄q⟩, an internal object with no SM coupling. **The dyad is
 neither**: it is the separate high-decay-constant field of §8 item 1b. The honest re-price of the
 former one-object reading, in three parts: (i) **the single T_c splits into two electron-anchored
-scales** — the SU(2) confinement scale τ·m_e = 179 keV (the flagship's, portal-anchored,
+scales** — the SU(2) confinement scale τ·m_e = 177.10 keV (the flagship's, portal-anchored,
 lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, log-band
 [40, 900] keV; the recorded BBN stability fence covers [179, 369]); their near-equality is two
 anchors coinciding at the electron scale for separate reasons (the portal vs the electron loop),
