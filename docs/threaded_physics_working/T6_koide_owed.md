@@ -1268,3 +1268,13 @@ F_dark/√σ = 0.30–0.42 (convention band; t√σ = 1) vs the QCD-like known c
 [PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4). The chain's final state:
 everything hangs on T_c/√σ AND F_π/√σ of the same SU(2) N_f = 3 lattice theory — one
 campaign, two verdicts. Desk pin remaining: the sector-normalized vortex-pair computation.
+
+**Both desk pins paid (2026-07-18 evening; full statement in
+[PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4):** (a) the vortex convention
+COMPUTED — q̃² = 2πF²t exact, F² ≡ 2v², numerically verified; freedom collapsed to t alone;
+the exact demand F_dark/√σ = 0.4204 (pinned convention, comparison instruction stated);
+(b) the T_c/3 origin NAMED — the synchronization reading, 3μ = T_c (the ring's collective
+winding rate locks to the thermal clock at freeze; Josephson grammar; the house's two-clock
+frame), candidate grade with the locking dynamics as the derivation object. The chase's
+remaining opens: the locking derivation, t's confirmation, and the lattice pair
+(T_c/√σ + F_π/√σ — one campaign, two verdicts).
