@@ -6,7 +6,7 @@
 applied to its founding identity — the claim has been load-bearing since genesis without
 ever being stated as a claim. Grade:
 structural, riding M3 (the medium's reality) + the census null (P-2026-008) + the
-Lorentz-violation pricing audit. Companion files:
+Lorentz-violation pricing pass. Companion files:
 [PRTOE_special_relativity.md](PRTOE_special_relativity.md) (the kinematic half) and
 [PRTOE_wormholes.md](PRTOE_wormholes.md) (the shortcuts, priced and closed).*
 
@@ -61,7 +61,7 @@ two different accounts — this file refuses to blur them:
 - **The anisotropy objection (kinematics)** — "motion through a medium shows up in
  clocks and interferometers" (Michelson–Morley and descendants): paid in the
  special-relativity file, by emergent Lorentz symmetry with Planck-suppressed
- residuals (the Lorentz-violation pricing audit; matter carries no vector/tensor
+ residuals (the Lorentz-violation pricing pass; matter carries no vector/tensor
  bridge to the frame). That account is not this file's to spend — only to cite.
 
 ## 4. The speed limit gets a mechanism
@@ -140,5 +140,5 @@ condensate program); [Barceló–Liberati–Visser 2005] (analog gravity); [Herr
 resolution [Turyshev 2012] (the drag null's case study). Full entries:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the Landau certificate cert-1/F3
 ([PRTOE_laboratory_cousins.md](PRTOE_laboratory_cousins.md), records 337/411), the
-census null P-2026-008, the Lorentz-violation pricing audit
+census null P-2026-008, the Lorentz-violation pricing pass
 ([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md)).
