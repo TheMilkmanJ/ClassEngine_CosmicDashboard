@@ -143,6 +143,17 @@ chk("me_mechanism_math", "EP margin, strong end (Delta a/a = 8e-21)", 5.0,
     math.log10(MICROSCOPE/8e-21), 0.10, "orders")
 chk("baryogenesis", "eta from omega_b h^2 = 0.0224", 6.1e-10, 273.9e-10*0.0224, 0.01)
 
+# ---- A_s and the velocity ladder --------------------------------------------
+chk("THE_AMPLITUDE", "A_s = (alpha_c/4 pi k)^3 at the closed-form k", 2.088e-9,
+    (ac/(4*math.pi*1.36461))**3, 0.005)
+chk("THE_AMPLITUDE", "the k reproducing the measured A_s sits in [1.360, 1.366]", 1.3630,
+    ac/(4*math.pi*(2.088e-9)**(1/3)), 0.002)
+chk("scale_ladder", "second sound = sqrt(alpha) c", 0.0854, math.sqrt(ALPHA), 0.005, "c")
+chk("scale_ladder", "the ladder is geometric: (sqrt alpha)^2 = alpha", ALPHA, math.sqrt(ALPHA)**2, 1e-9)
+chk("dcdf_superfluid", "c_s = sqrt(3 alpha) c", 0.148, math.sqrt(3*ALPHA), 0.005, "c")
+chk("dcdf_superfluid", "c_s sits sqrt(d) above the second sound", math.sqrt(3*ALPHA),
+    math.sqrt(3)*math.sqrt(ALPHA), 1e-9)
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
