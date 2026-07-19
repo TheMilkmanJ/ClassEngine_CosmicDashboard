@@ -98,8 +98,11 @@ grades the handoff.
 **10. DARK-ENERGY DOMINATION, z ≲ 0.7:** SIGN FLIP #2 — the condensate re-takes the
 books (the twice-crossed threshold): today's acceleration is the pour's mechanism at its
 second epoch. One component, two repulsive eras — where ΛCDM needs two stories.
-→ **Tether 10→11 [MISSING]:** THE TURN — how the DE era closes into contraction is the
-cycle map's uncomputed business (shares the bounce sector). Second-largest named debt.
+→ **Tether 10→11 — COMPUTED (expanding branch):** the turn requires the sector's negative
+bare piece (the thaw law alone never reverses), and with it lands at a ≈ 2.0–2.8
+(z ≈ −0.51 to −0.65), 16–26 Gyr away, robustly across the bare depth
+([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d). What remains of the debt: the contracting
+branch and the bounce, in the bounce sector.
 
 **11. THE TURN → THE NEXT CRUNCH:** the energy budget drifts toward the frozen floor; the
 cycle closes; topology and entropy carry (Tolman: each cycle opens with more entropy).

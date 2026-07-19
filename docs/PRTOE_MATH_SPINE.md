@@ -227,7 +227,27 @@ Code: `dcdf_floor_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ_flo
 > TRUE phantom in the DATA → both die. Guards: distance-space phrasing, KP solve, timestamp
 > (J1-derivation precedes DESI-convergence), A2+A3 net (answered).
 
-**7d. The end (and the next start).** The thaw completes → expansion reverses → contraction
+**7d. The end (and the next start).**
+
+**The turn, computed (expanding branch).** The recorded thaw law alone cannot deliver it:
+ρ_DE(a) = ρ_Λ·exp[thaw(1 − a³)] falls toward zero **from above**, so the total density never
+vanishes and expansion merely decelerates forever. A turnaround requires the sector's second
+piece — the **negative bare vacuum** this narrative already carries — giving
+
+> ρ_DE(a)/ρ_Λ = (1 + B)·exp[thaw(1 − a³)] − B,  B ≡ |ρ_bare|/ρ_Λ,obs,
+> with today's equation of state pinning the product: 1 + w₀ = thaw·(1 + B).
+
+**The turnaround lands at a ≈ 2.0–2.8 (z ≈ −0.51 to −0.65), 16–26 Gyr from now** across
+w₀ ∈ [−0.92, −0.86] and two orders of magnitude in B: the trade-off between thaw rate and
+bare depth holds the answer nearly fixed, so the timing is a consequence of the structure
+rather than a tuning of it. **The bare depth is invisible in the expansion history** — the
+same trade-off makes the low-redshift trajectory B-independent to ~0.2% — so the turn itself
+is not a measurement; what the sky grades is w₀. *Branch note: this is the expanding branch's
+parametrization (the field rolls forward in time, it does not roll back up as a decreases);
+the contracting branch and the bounce need the field equation solved in time — the bounce
+sector's own debt.*
+
+The thaw completes → expansion reverses → contraction
 blueshifts radiation (a⁻⁴ grows) → the heat fountain reignites → T climbs back through **T_c**
 (the SAME T_c of §4) → **the dyad condensate MELTS** (m_e → standard for the crunch) →
 charge survives in solitons/Q-balls [requires gravity-mediated K<0: fragmentation
@@ -279,7 +299,10 @@ favorably-aligned rigorous-KP O(1)s [prior-adverse, tail] AND a strong thaw pull
 The two kill switches MERGE: the running Route-D MCMC (thaw free on the DESI joint stack) is the
 single decider — thaw pulled hard → corner lives; thaw \~ 0 → Route-D dead twice over, **P-2026-018
 (w = −1 rigid) stands as the distinctive branch, and J1 reverts to constitution/boundary-datum.**
-§7d (the melt/re-form cycle closure) is unaffected as STORY. Held provisional.
+§7d (the melt/re-form cycle closure) is unaffected as STORY. Held provisional. *(The turn's
+own timing follows from the surviving structure — the thaw plus the sector's negative bare
+piece — and is later than this corner's z ≈ −0.1…−0.3, which rode the sequestering route:
+see §7d.)*
 
 ---
 
