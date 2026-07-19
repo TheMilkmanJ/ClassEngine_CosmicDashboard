@@ -18,9 +18,9 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The eleven checks
+## The thirteen checks
 
-Run all eleven. Record what was found, even when nothing was.
+Run all thirteen. Record what was found, even when nothing was.
 
 **1. Read it whole, line by line.** Not grep. The contradictions live between sections.
 
