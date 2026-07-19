@@ -224,6 +224,31 @@ chk("deuterium_scar", "reheat shortfall (upper)", 33.0, _N_bel/0.015, 0.02, "x")
 chk("deuterium_scar", "He/H by number vs D/H — the reservoir ratio", 3300.0,
     0.083/2.5e-5, 0.02, "x")
 
+# ---- the 0nubb window (the Fairbank note's headline) -----------------------
+# m1 = rho_Lambda^(1/4) = 2.25 meV, normal ordering, NuFIT-class mixings
+_dm21, _dm31 = 7.42e-5, 2.515e-3             # eV^2 — the same inputs as the neutrino block above
+_s12, _s13 = 0.307, 0.022
+_m1 = 2.25e-3
+_m2, _m3 = math.sqrt(_m1**2+_dm21), math.sqrt(_m1**2+_dm31)
+_t = [(1-_s12)*(1-_s13)*_m1, _s12*(1-_s13)*_m2, _s13*_m3]
+chk("fairbank_note", "Sigma m_nu from m1 = rho_L^(1/4)", 61.4, (_m1+_m2+_m3)*1e3, 0.01, "meV")
+chk("fairbank_note", "|Ue1|^2 m1", 1.52, _t[0]*1e3, 0.02, "meV")
+chk("fairbank_note", "|Ue2|^2 m2", 2.67, _t[1]*1e3, 0.02, "meV")
+chk("fairbank_note", "|Ue3|^2 m3", 1.10, _t[2]*1e3, 0.02, "meV")
+chk("fairbank_note", "m_bb upper edge (phases aligned)", 5.3, sum(_t)*1e3, 0.02, "meV")
+chk("fairbank_note", "m_bb floor (triangle stays open)", 0.045,
+    max(0.0, 2*max(_t)-sum(_t))*1e3, 0.25, "meV")
+# the floor's fragility: the m1 above which the triangle closes and the floor vanishes
+def _gap(m1):
+    m2, m3 = math.sqrt(m1**2+_dm21), math.sqrt(m1**2+_dm31)
+    return _s12*(1-_s13)*m2 - ((1-_s12)*(1-_s13)*m1 + _s13*m3)
+_lo, _hi = 1e-3, 6e-3
+for _ in range(80):                            # bisect for the critical m1
+    _mid = 0.5*(_lo+_hi)
+    if _gap(_mid) > 0: _lo = _mid
+    else: _hi = _mid
+chk("fairbank_note", "critical m1 where the floor vanishes", 2.324, _mid*1e3, 0.01, "meV")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
