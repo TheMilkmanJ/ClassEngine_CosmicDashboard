@@ -1717,3 +1717,18 @@ paragraph pays it and restates the two armed flags at today's R−1 values. **An
 red-team brief's D/H row quoted −2.9σ (the 2-term width) as "the standing" while the books
 carry −2.49σ (3-term)** — the exact ForJustin/10 fork; the brief now quotes the fork with
 both widths and the owner gate, so red team can't inherit a side that hasn't been decided.
+
+## _AUDIT_PROTOCOL + _MORNING_REPORT + _candidate_late_thaw — deep audits 2026-07-19
+
+The protocol's own header still said "The eleven checks / Run all eleven" over a thirteen-check
+list — the count law violated in the audit's own charter; fixed (the ledger's "13 checks" usage
+was already current). The morning report — the corpus's best single record of the red-team
+discipline — gains a dated RESOLUTIONS block: three of four escalations were verifiably acted
+on (P-2026-049 re-ID; the three reconstructed registrations; the cc 16π² rewrite), the six
+machine flags adjudicated, and **the unresolved quarter (ANN-2026-015, cited as P-011's
+retraction vehicle but registered nowhere) is now ForJustin/11** with the reconstruction
+precedent priced. _candidate_late_thaw is **clean and stays exactly as written** — the near-fix
+recorded against me: I initially read a task-vs-corpus contradiction into the ς linchpin, but
+the grade distinction is real (the appeal SESSION ran and signed ς = −1 estimate-grade with the
+mass-step forked to the C_ref ≈ 2 corner — ForJustin/09's corner — while the synthetic-photometry
+module stays armed-off as the revisit path). The file says precisely that.

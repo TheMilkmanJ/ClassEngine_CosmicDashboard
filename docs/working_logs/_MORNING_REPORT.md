@@ -170,3 +170,16 @@ are re-run.*
    digits), the chains are down. **ΔlnZ ≈ +2.6 stays asterisked until they are re-run.**
 2. **D/H `0.00782` and the `2.470340` table row remain UNREPRODUCIBLE** from the model's own engine.
    Three explanations were tried and all failed. They need re-deriving, not defending.
+
+## RESOLUTIONS (2026-07-19, recorded during the deep audit)
+
+Three of the four escalations were acted on: the duplicate ID resolved (birefringence
+re-registered as P-2026-049, Version B; the sirens keep P-2026-010); P-2026-029/030/031 all
+carry reconstructed registry entries (2026-07-17); and the cosmological-constant 16π² chain
+was rewritten in place during that file's audit (the 2.672 provenance stated, the
+independence claim failed openly). **The unresolved quarter: ANN-2026-015 is still cited as
+P-2026-011's retraction vehicle and registered nowhere — escalated to ForJustin/11 (a
+governance act on the append-only registry, not an edit).** The six machine-found flags were
+adjudicated during the deep audit's own passes (the four H₀ hits stand as run records/eras —
+the machine's ambiguity call was right; the two bare ΔlnZ quotes now carry the YHe
+conditionality). The withdrawn D/H absolutes stay withdrawn per process error 38.
