@@ -48,7 +48,7 @@ pattern — freeze-out abundances locked pre-condensation.
 n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV); pairing forms
 (doubling season); ε ramps ON; the winding current becomes physical.
 → **Tether 3→4 [RECORDED]:** hands off ε(on), the superfluid, the winding k₀ = 2πn/L, and
-the BBN pattern's second half (Y_p counter-lean +1.09σ owned, ramped; the D/H fork, radio-
+the BBN pattern's second half (Y_p counter-lean +1.3 to +2.0σ owned; the D/H fork, radio-
 arbitrated). The two-clock frame governs from here (H = m misalignment; k/a = m
 dispersion; the ratio measures n).
 
@@ -64,7 +64,7 @@ are separate adjacent links; nothing downstream assumes otherwise.
 
 **5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits the upstream rung's grade]:** the payroll snapshot
 — the pivot scale stands 781 cells across; A_s = 1/N frozen. The μ-era referee (entry
-46, ramp-corrected): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;
+46): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;
 1/m-branch whispers at μ ~ 10⁻⁹ (PRISM-class reach). *Room checked and COLD en route:
 the condensation transition's GW background misses the PTA band by ~3 orders in
 frequency (f_peak ~ 2×10⁻¹² Hz) and ~4 in amplitude (Ω ~ 10⁻¹³) — no NANOGrav claim.*

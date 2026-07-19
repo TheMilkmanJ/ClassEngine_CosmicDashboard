@@ -29,10 +29,7 @@
 > **weak** consistency check (the band is 8.5% wide, and it is the wrong gauge group). **What would
 > make this a prediction: a lattice T_c/√σ for SU(2) with N_f = 3** — precisely the number
 > P-2026-048 bets on, and precisely the number nobody has computed.
->
-> *(Found by red team, 2026-07-17, after [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 had flagged the risk — "τ's 0.34–0.37
-> band is an SU(3) value … **the flagship's 1.5% rides on it**" — without the flagship's claim ever
-> being re-graded. A stated caveat next to an unstated consequence.)*
+
 
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*

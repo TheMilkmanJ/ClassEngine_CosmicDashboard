@@ -96,7 +96,7 @@ grade): f̄ = 0.644 ± 0.03, implied c = 0.90 ± 0.04, Koide 1.1σ-compatible, n
 quantized n=1 winding current.
 
 **Gate-0 is production-absolute** (clean PRyM: D/H response ≈ 0); Y_p flips favorable (−0.2σ);
-the dyad OWNS a D/H prediction (windowed: 2.40–2.42 vs Cooke 2.527, ~1.9σ) with the radio D-line as referee — and the Y_p row REVERSED to a +1.3σ counter (the medicine was an artifact of applying ε above T_c)
+the dyad OWNS a D/H prediction (2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window, vs Cooke 2.527 — **−2.5 to −1.4σ** on the quotable budget) with the radio D-line as referee — and the Y_p row REVERSED to a **+1.3 to +2.0σ** counter (the medicine was an artifact of applying ε above T_c)
 (P-027: the two-line ratio-lock, ν_H/ν_D = 4.338649). New fronts: EM-neutrality FORCED
 (Meissner, 25–45 orders); magnetogenesis P-028 (galactic paid, void 1.5-order gap, helicity
 genome-signed). omk returned: curvature-for-H₀ declined by the data — the flat torus stands, the

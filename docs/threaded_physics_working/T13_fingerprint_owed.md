@@ -155,7 +155,15 @@ grids — rate(T) = std(T) + [shf(T) − std(T)]·w(T), w(T) = max(0, 1 − T/T_
 zones on and off. Exact at w = 0 and w = 1, first-order in between; ε = 1.24% is small enough that
 the rates' departure from linearity is negligible (the scan's Y_p increments are linear to < 2%).
 
-| splice | Y_p | pull (Aver) | D/H | pull (Cooke) | χ² (2 dof) | p |
+**Read the pull, χ², and p columns as splice-comparison only.** Every row is computed on PRyM's
+default ω_b — run (i)'s baseline — and its deuterium pull is taken against Cooke's *observational*
+error alone. Neither is a legitimate absolute reading: the model's D/H prediction lives on the
+model's own ω_b (2.387×10⁻⁵, not 2.470×10⁻⁵), and deuterium's honest width folds the PRIMAT
+nuclear-theory error (±0.0476, not ±0.030). The columns rank the splices correctly, which is what
+this table was built to do; the sector's absolute books are
+[PRTOE_bbn_witness.md](../PRTOE_bbn_witness.md)'s.
+
+| splice | Y_p | pull (Aver) | D/H | pull (Cooke, obs-only) | χ² (2 dof) | p |
 |---|---|---|---|---|---|---|
 | LT step (claimed "low edge") | 0.249701 | +1.29σ | 2.47734 | −1.66σ | 4.42 | 0.110 |
 | MTLT step (claimed "high edge") | 0.258573 | +3.90σ | 2.52747 | +0.02σ | 15.24 | 0.0005 |
@@ -177,8 +185,13 @@ p = 0.0005 "rejection" was an artifact of the approximation, not a statement abo
 Amendment 5 (steps illegal as computational entries *and methods*) demanded the ramp be computed
 rather than bracketed; doing so **removes a 3.5σ rejection that never existed.**
 
-**3. The model SURVIVES BBN at the derived ε with ZERO fitted parameters: χ² = 4.75 on 2 dof,
-p = 0.093** (0.126 at the perturbative T_c). Not comfortable, not rejected.
+**3. The ramped splice is the best of the three at the derived ε, with ZERO fitted parameters**
+(χ² = 4.75 on 2 dof against 15.24 for MTLT; 0.126 vs 0.093 between the two T_c values). That is a
+statement about the splices, not about the sector: on the model's own ω_b and deuterium's full
+error budget the same abundances give p = 0.02–0.08 with the genesis residual applied
+([PRTOE_bbn_witness.md](../PRTOE_bbn_witness.md)) — adverse-leaning, not "surviving". The
+p = 0.093 headline was read absolutely off this relative table and propagated; that reading is
+withdrawn ([PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md)).
 
 **The internal strain survives the rescue.** Ramped elasticities (T_c = 0.179):
 d(Y_p)/dε = **0.00163**/%, d(D/H)/dε = **0.00782**/% — both *smaller* than the LT step's, as they
@@ -190,7 +203,7 @@ still pull in opposite directions on one parameter. That finding is robust to th
 Li = 0.79ε) reproduce 1 − T/**193 keV** (0.637, 0.793), not 1 − T/**179 keV** (0.609, 0.777) — the
 BBN engine's ramp is keyed to the **perturbative Coleman–Weinberg cross-check**, while the DE chain
 derives T_c = **179 keV** (the confining chiral value, τ·m_e). The consequence is small here
-(p = 0.093 vs 0.126) but the engine should be keyed to the derived value, and the stamps restated.
+(χ² 4.75 vs 4.14) but the engine should be keyed to the derived value, and the stamps restated.
 
 **Status: item 3's blocking input CLOSED; the statistic is EVALUABLE and has been evaluated. Two
 obstructions remain before a single headline number can be quoted:** the helium branch problem

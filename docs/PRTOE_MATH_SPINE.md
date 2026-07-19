@@ -29,10 +29,7 @@
 > **weak** consistency check (the band is 8.5% wide, and it is the wrong gauge group). **What would
 > make this a prediction: a lattice T_c/√σ for SU(2) with N_f = 3** — precisely the number
 > P-2026-048 bets on, and precisely the number nobody has computed.
->
-> *(Found by red team, 2026-07-17, after [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 had flagged the risk — "τ's 0.34–0.37
-> band is an SU(3) value … **the flagship's 1.5% rides on it**" — without the flagship's claim ever
-> being re-graded. A stated caveat next to an unstated consequence.)*
+
 
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
@@ -367,13 +364,17 @@ no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
 
 **THE WINDOWED BBN VERDICT:**
 T_c ≈ 179 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
-medicine was an artifact of applying ε above T_c** — windowed (the model's own ramped ε(T)), Y_p ≈ 0.24900 (+1.09σ
+medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.24900 (+1.09σ
 COUNTER vs Aver; +3.53σ vs EMPRESS — the helium civil war noted); D/H partially refunded
-(ramped ≈ 2.387 → **−2.9σ** vs Cooke on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037; the 3.5% inter-code spread is named and unfolded, and would soften it to −1.4…−2.2σ).
-**Re-priced under the standing high-f configuration + the committed genesis ξ ∈ [0.25, 0.35]:
-joint p = 0.15–0.29, D/H −0.3…−1.2σ, Y_p +1.3–1.8σ vs Aver (EMPRESS ≈ +4σ stands apart) —
-[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8; the σ's in the sentence above are the
-pre-adoption books, kept as that verdict's record.** **The BBN synthesis: the sector is THE
+(2.387 → **−2.9σ** vs Cooke on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037; the 3.5% inter-code spread is named and unfolded, and would soften it to −1.4…−2.2σ).
+**Re-priced under the standing high-f configuration + the committed genesis ξ ∈ [0.25, 0.35]
+(ΔN_eff = 0.06–0.24): D/H −2.5…−1.4σ on the quotable ±0.0476 budget (−1.2…−0.7σ if the full
+inter-code spread is folded), Y_p +1.3…+2.0σ vs Aver (EMPRESS +3.8…+4.4σ stands apart), joint
+p = 0.02–0.08 quotable / 0.12–0.21 on the full spread. The residual helps deuterium and does not
+heal it; the sector's verdict still turns on the code systematic. The σ's in the sentence above
+are the window's own effect, before the residual —
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8, books in
+[PRTOE_bbn_witness.md](PRTOE_bbn_witness.md).** **The BBN synthesis: the sector is THE
 TRANSITION'S WITNESS** — the only laboratory that watched the condensation live; the pattern
 is RIGID (no dials); referees: the radio referee, the helium resolution, the T_c re-audit
 (flagged-not-taken), the α_c MCMC posterior. The adverse landings are logged in public;

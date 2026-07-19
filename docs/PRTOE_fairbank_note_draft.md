@@ -67,14 +67,16 @@ cosmologically foreclosed.
  that list — it is the model's worst column, and it is stated separately below.**
 - **The BBN cost, stated plainly.** The electron-mass shift is on during nucleosynthesis, and
  the sector is rigid — every input derived or measured, so the model cannot coach its witness.
- It comes out **net adverse**: Y_p sits **+1.09σ** above Aver (**+3.53σ** vs EMPRESS — the
- helium civil war is unresolved and not ours to settle), and D/H is predicted at
- **2.387×10⁻⁵** against Cooke's 2.527 ± 0.030 — **−2.9σ** on the full budget (observational
- ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037). **The joint is decided by a nuclear-code
- systematic we do not control:** PRIMAT gives D/H = 2.439 where PArthENoPE gives 2.51–2.54, a
- 3.5% spread that is 2.3× the quoted nuclear error. Fold none of it and the joint is
- **χ² = 9.83, p = 0.007 — rejected at 5%**; fold half and p = 0.05; fold all of it and
- p = 0.20. **We quote the range, not the flattering end.** The dyad sits on the LOW side of the
+ It comes out **net adverse**: Y_p sits **+1.3 to +2.0σ** above Aver (**+3.8 to +4.4σ** vs
+ EMPRESS — the helium civil war is unresolved and not ours to settle), and D/H is predicted at
+ **2.407–2.463×10⁻⁵** against Cooke's 2.527 ± 0.030 — **−2.5 to −1.4σ** on the full budget
+ (observational ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037). Both ranges are the span of
+ one committed input, the genesis dilution ξ ∈ [0.25, 0.35], which the model uses everywhere it
+ appears and which CMB-S4 will measure directly through ΔN_eff = 0.06–0.24. **The joint is
+ decided by a nuclear-code systematic we do not control:** PRIMAT gives D/H = 2.439 where
+ PArthENoPE gives 2.51–2.54, a 3.5% spread that is 2.3× the quoted nuclear error. Fold none of
+ it and the joint is **p = 0.02–0.08 — rejected to marginal at 5%**; fold half and p = 0.07–0.11;
+ fold all of it and p = 0.12–0.21. **We quote the range, not the flattering end.** The dyad sits on the LOW side of the
  deuterium fork — a self-adverse bet, registered before the referee (P-2026-027, a dark-ages
  radio measurement of primordial D/H at 327 MHz, free of astration and quasar optics).
 - **The current test**: a zero-parameter evidence run is in progress — the model's

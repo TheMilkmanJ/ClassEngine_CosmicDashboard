@@ -77,7 +77,7 @@ generically worsen the S₈ clustering tension. This model's mechanism: (i) one 
 with independent duties across BBN, the CMB, 21-cm physics, and neutrino cosmology —
 the same 1.24% must work everywhere or the model fails; (ii) an S₈ story that moves in
 the observed direction; (iii) a nucleosynthesis sector re-posed honestly (the helium
-abundance currently stands as a +1.09σ *counter*-lean, kept on record); (iv) named,
+abundance currently stands as a +1.3 to +2.0σ *counter*-lean against Aver, kept on record); (iv) named,
 scheduled falsifiers it cannot dodge (DESI's w = −1 test; exact atomic-ratio locks in
 future radio observations). No competitor on the H₀ market carries a comparable
 kill-list — which is affordable only because the mechanism is one number, not a sector.

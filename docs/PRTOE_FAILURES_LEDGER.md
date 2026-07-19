@@ -54,7 +54,7 @@ Undated entries below read against this register.*
 | The Y_p "medicine" (BBN helped by the dyad) — *the counter-lean's size, restated* | the +1.3σ was the LT **step** value (Y_p +1.14%); the true **ramped** shift is +0.85% ⟹ **+1.09σ**. The reversal stands; its magnitude was quoted from a superseded splice | ramped splice, 2026-07-16 |
 | **The LT/MTLT bracket's claim to BRACKET the ramped truth** | **FALSIFIED by computing the ramp.** The truth lies **below** the LT edge (Y_p: 0.24900 < 0.24970 < 0.25857; D/H: 2.4703 < 2.4773 < 2.5275). `run_windowed.py` calls LT the "ramp low edge / UNDER-counts" — it is neither: LT applies the FULL shift across the whole LT zone where the true weight runs 0.44→1, so it **over**-applies. Every conclusion of the form "the truth is somewhere in [LT, MTLT]" rested on a false enclosure | `scripts/prym_ramped_splice.py`, 2026-07-16 |
 | **The MTLT "3.5σ rejection"** (χ² = 15.24, p = 0.0005) | **A STEP ARTIFACT — it never existed.** MTLT applies the full shift across 0.179–1 MeV where the true ramp is *exactly zero* (the dyad is OFF above T_c). Computing the ramp — which amendment 5 already demanded — deletes it. The depth law paid for itself in one run | ramped splice, 2026-07-16 |
-| **The D/H row's "~1.6–1.9σ OWNED bet"** | **UNDERSTATED BY ~2×.** The quoted σ is the pull of the **raw** windowed D/H (2.477 ⟹ −1.67σ); the quoted **value** (net 2.40–2.42) is the η-flowed one. Running the η-flow against the ramped baseline gives D/H = **2.4305 ⟹ −3.22σ**, and the joint BBN verdict falls from p = 0.093 to **p = 0.0030**. One row's sigma had been attached to another row's number. **[SUPERSEDED by process-error 38 (below): the *absolute* −3.22σ / p = 0.0030 is WITHDRAWN — it was computed at PRyM's default ω_b = 0.02230, not the model's own ω_b. Only the RELATIVE ~2× understatement stands. The honest, reader-facing D/H record is −1.4σ to −3.3σ, code + ω_b-conditional (the PRyM+splice point is −1.89σ, p = 0.093 survives); the model's ω_b awaits the chains.]** | η-flow run, 2026-07-16 |
+| **The D/H row's "~1.6–1.9σ OWNED bet"** | **UNDERSTATED BY ~2×.** The quoted σ is the pull of the **raw** windowed D/H (2.477 ⟹ −1.67σ); the quoted **value** (net 2.40–2.42) is the η-flowed one. Running the η-flow against the ramped baseline gives D/H = **2.4305 ⟹ −3.22σ**, and the joint BBN verdict falls from p = 0.093 to **p = 0.0030**. One row's sigma had been attached to another row's number. **[SUPERSEDED by process-error 38 (below): the *absolute* −3.22σ / p = 0.0030 is WITHDRAWN — it was computed at PRyM's default ω_b = 0.02230, not the model's own ω_b. Only the RELATIVE ~2× understatement stands. The honest, reader-facing D/H record is −1.4σ to −3.3σ, code + ω_b-conditional; the model's ω_b awaits the chains.]** **[FURTHER CORRECTED 2026-07-18: this bracket's parenthetical — "the PRyM+splice point is −1.89σ, p = 0.093 survives" — is itself the withdrawn-baseline pair, and it kept them quotable inside the entry that retired them. Both are dead: −1.89σ is run (i)'s absolute against the observational error alone, and the p = 0.093 built on it seeded the genesis-residual mis-price a day later (entry at the file's tail). The standing books are [PRTOE_bbn_witness.md](PRTOE_bbn_witness.md)'s.]** | η-flow run, 2026-07-16 |
 | **P-2026-027's registered D/H = 2.40–2.42×10⁻⁵** (the radio-referee prediction's central value) | **RETIRED — computed on a STEP splice.** The interval implied a window effect of +1.2–2.0% on the pre-window 2.372, which sits between the LT step (+0.93%) and the MTLT step (+2.97%): it was read off the step bracket. The model's own derived ramp gives a **measured** window effect of **+0.65%** ⟹ **D/H = 2.387**, *below* the registered interval. Amendment 5 makes the step an illegal computational entry, and the bracket was independently shown not to bracket. **The prediction is amended in place and this predecessor booked here — a pre-registration resting on a superseded equation is not evidence of anything** | ramped splice, 2026-07-16 |
 | **P-2026-027(a)'s referee prediction "D/H ≈ 2.37"** | **RETIRED — it was the entry's own PRE-WINDOW number** (2.372), i.e. the value the model obtains *before* applying its own mechanism. The entry predicted the radio referee would measure a number the model does not predict. Corrected to the windowed, ramped **2.387** | 2026-07-16 |
 | **The "Z4 torus" floor for the generation structure** (three families living on the condensate's phase space) | **RETIRED 2026-07-14, and the retirement is why later attempts kept failing.** Family space is **Z₃, not the condensate phase** — the family ring is not the fields' space. Any structure seating the dyad, the dCDF or the pour *on the family ring* re-crosses this line and must answer it. *(Recorded here because the main Koide file went on asking "three families on the Z4 torus?" as an open question for three days after the ruling — a live doc stale against its own working file.)* | 2026-07-14; the stale question corrected 2026-07-17 |
@@ -1409,3 +1409,53 @@ matter candidates.
 
 Found by carrying the corrected soliton radii into the file that cites them; the coincidence had
 been quoted against radii that were themselves a thousand times too small.
+### THE GENESIS-RESIDUAL BBN RE-PRICE — BUILT ON A σ THIS LEDGER HAD WITHDRAWN THE DAY BEFORE (2026-07-18)
+
+**What was booked.** On adopting the high-f configuration, the committed genesis dilution
+ξ ∈ [0.25, 0.35] (ΔN_eff = 0.06–0.24) was propagated into the BBN books and the sector was
+re-priced as **joint p = 0.15–0.29, deuterium −0.3 to −1.2σ from Cooke "crossing zero near the
+window top", helium +1.3 to +1.8σ** — a mixed-but-livable verdict that then travelled to eight
+documents including the dependency tree, the reader's risk file, the amplitude, the great chain,
+and the referee calendar.
+
+**None of it follows from its own stated inputs.** The propagation started from D/H = 2.47034×10⁻⁵
+measured against Cooke's **observational error alone (±0.030)** — giving the −1.89σ that seeds
+χ² = 1.09² + 1.89² = 4.75, p = 0.093, the quoted "without the residual" figure. Both moves are
+forbidden by [PRTOE_bbn_witness.md](PRTOE_bbn_witness.md)'s own text: 2.47034 is run (i)'s
+absolute, taken on **PRyM's default ω_b**, which that file marks as "not the model's prediction"
+(D/H ∝ ω_b^−1.6); and the observational-only width is labelled there as "an upper bound, not the
+tension". **The withdrawn σ was withdrawn in this ledger on 2026-07-17**, in the entry directly
+above, whose exact words were *"A joint χ² cannot be quoted from a σ the corpus says it cannot
+quote. Removed."*
+
+**The honest propagation**, on the model's own prediction (2.387×10⁻⁵) and deuterium's full stated
+budget, with the same response coefficients (∂ln(D/H)/∂N = 0.135, dY_p/dN = 0.011–0.013):
+
+| deuterium budget | booked | actual |
+|---|---|---|
+| quotable, ±0.0476 | D/H −0.3…−1.2σ; joint p 0.15–0.29 | **D/H −2.5…−1.4σ; joint p 0.02–0.08** |
+| + full inter-code, ±0.0987 | — | D/H −1.2…−0.7σ; joint p 0.12–0.21 |
+
+Helium is understated too: **+1.3 to +2.0σ** vs Aver, not +1.3 to +1.8σ. And **nothing crosses
+zero** — at the top of the window deuterium reaches 2.463×10⁻⁵ against Cooke's 2.527×10⁻⁵, still
+0.064 low. The residual eases deuterium; it does not heal it, and it costs helium.
+
+**Every error ran the same way.** Four numbers moved, all four toward the model. This is the third
+consecutive session error in that direction after the low-ℓ quadrupole and the soliton radii, and
+the fourth wrong call on this one deuterium row (process errors 36, 38, 40 preceding).
+
+**Why the withdrawal did not hold.** It was chased across the documents that *quoted* −1.89σ, and
+it caught all of them. It was not applied to the working file that **generated** it —
+[T13_fingerprint_owed.md](threaded_physics_working/T13_fingerprint_owed.md), whose splice table is
+internally sound as a *relative* comparison and still carried "the model SURVIVES BBN … p = 0.093"
+as an absolute headline. The next computation that needed a BBN starting point read it from there.
+
+**The lesson (process).** *A withdrawal that edits only the consumers leaves the producer live, and
+the producer is what the next computation reads.* The correct target of a withdrawal is the object
+that manufactures the number — and where that object is legitimate in its own frame (here: a
+relative splice ranking), it must be **labelled with the frame it is valid in**, not merely stripped
+of its downstream quotes. T13's table now carries that label.
+
+**Booked corpus-wide the same hour.** The sector's verdict is unchanged in kind — BBN remains
+adverse-leaning and hinges on the 3.5% PRIMAT–PArthENoPE inter-code disagreement, exactly as it did
+before adoption. What the residual changes is the size of every column, not which column decides.
