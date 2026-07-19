@@ -1519,3 +1519,16 @@ Denton's band safely below the model's mass, PRIMAT/PArthENoPE, DESI DR2). Five 
 
 The honest-status notes (Valentini's criticized derivation, Steinhauer's asterisk, the
 Chiang-vs-Marsh contested-to-dead pair) are the file's spine and all stand.
+
+## PRTOE_lattice_note.md — deep audit 2026-07-19
+
+File eighty-nine, **clean** (fourteenth) — and it needed to be: this is the circulation-approved
+external note. Everything verified: ½ln2 = 0.34657 and the 0.44% fork match the standing three
+homes; the "σ ≲ 0.22% to discriminate / > 0.44% scores neither" thresholds are exactly the
+registry's own decision rule (σ ≤ 0.0008 / > 0.0015) restated in percent; the [0.330, 0.370]
+falsification window matches both registry homes (lines 1667, 2392); the Sp(6) Goldstone count
+(35 − 21 = 14) is exact; the SU(3) saturation pattern (−0.21/−0.03), the KLP slope form, the
+N_f = 2 anchors (476(5) MeV, 230(10) MeV, the ~30% Wilson disagreement), and the conformal-window
+placement are all literature-consistent; the adverse neighbour inference (0.39 ± 0.05, centred
+above the bet) is carried openly; and the repository URL matches the actual git remote. The
+note tells an external lattice group the truth, including the ways it could lose.
