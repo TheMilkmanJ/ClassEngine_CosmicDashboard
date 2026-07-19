@@ -12,7 +12,7 @@
 
 1. **Neutrinos are Majorana** → the 0νββ PROCESS must exist (P-2026-020). Non-optional as
  mechanism; the OBSERVABLE rate carries the §3 cancellation-floor caveat (m_ββ can sit as low as
- 0.02–0.04 meV at unlucky phases, the range being anchor-dependent — see §3). The falsification is
+ 0.04 meV at unlucky phases — see §3). The falsification is
  one-directional: a detection above the ceiling kills the model, a null at any sensitivity does not,
  and Dirac nature cannot be demonstrated directly — only inferred from nulls plus the closure of
  other Majorana channels.
@@ -63,7 +63,7 @@ The model's effective mass, computed from m₁ = 2.25 meV + normal ordering + Nu
 mixings (sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.022): the three mass contributions are
 |U²m| = (1.52, 2.67, 1.10) meV, giving
 
-$$m_{\beta\beta} \in [0.02,\ 5.3]\ \text{meV over free Majorana phases},\ \sim 3.3\ \text{meV typical}$$
+$$m_{\beta\beta} \in [0.04,\ 5.3]\ \text{meV over free Majorana phases},\ \sim 3.3\ \text{meV typical}$$
 
 — below ton-scale reach (nEXO/LEGEND-1000 target ~5–20 meV). The model does not predict the
 Majorana phases, so the position within that window is unconstrained; that is an open item.
@@ -116,6 +116,58 @@ sooner; the ton-scale program grades it more cleanly.** DESI-era CMB+BAO limits 
 Σm_ν ≲ 72 meV (with some combinations pressing lower, toward the normal-ordering floor
 itself) — this model's Σ = 61.4 meV sits just inside, and the frontier is actively
 squeezing. This sector may be graded within one to two years by exactly that number.
+
+## 3b. The second channel — Majoron emission, and why it is the wrong instrument
+
+There is a second neutrinoless mode: **0νββχ**, where a Majoron is emitted alongside the two
+electrons. It is a genuinely different observable. The mass mode puts the electron sum-energy at a
+sharp peak on Q_ββ; the Majoron carries energy away, so this mode is a **continuum**, and
+experiments search for it separately.
+
+**The rate is not free here, because the dyad *is* the Majoron.** For a mass-basis-diagonal singlet
+Majoron the coupling is g_ij = (m_i/v_L)δ_ij, so the effective coupling that drives double beta
+decay is
+
+$$\langle g_{ee}\rangle \;=\; \frac{m_{\beta\beta}}{v_L}$$
+
+— the *same* m_ββ that governs the mass mode, divided by the lepton-number-breaking scale. Nothing
+new enters. (Consistency check on the identification: the recorded g₃₃ = 1.2×10⁻⁸ returns
+v_L = m₃/g₃₃ = 4.18 MeV, the MeV corner's own value.)
+
+**What is not pinned is v_L**, which stands at two surviving corners. Both are priced:
+
+| corner | v_L | ⟨g_ee⟩ at m_ββ = 3.05 meV | T½(¹³⁶Xe) |
+|---|---|---|---|
+| the MeV corner | 4.18 MeV | 7.3×10⁻¹⁰ | 3×10³² – 1×10³³ yr |
+| the high corner, GeV end | 1 GeV | 3.1×10⁻¹² | ~2×10³⁷ yr |
+| the high corner, at its 2.4 TeV ceiling | 2.4 TeV | 1.3×10⁻¹⁵ | ~10⁴⁴ yr |
+
+*(Each half-life span is the matrix-element range, calibrated on KamLAND-Zen's published
+ordinary-Majoron limit: T½ > 2.6×10²⁴ yr at ⟨g_ee⟩ < (0.8–1.6)×10⁻⁵, arXiv:1205.6372.)*
+
+**The conclusion does not need the corner resolved.** Even at the most favourable one the Majoron
+mode is **four orders of magnitude slower than the mass mode**, which is itself already just past
+nEXO's baseline reach; the coupling sits four orders below the experimental limit, which is eight
+orders in rate. **The model predicts no observable Majoron mode, at every surviving corner** — a
+kill-only bet of the same shape as the indirect-detection and laboratory zeros.
+
+Two things make this more useful than a null.
+
+**The coupling is measurable — by a CMB experiment, not a ββ experiment.** CMB-S4's Majoron search
+reaches g ~ 10⁻⁸–10⁻⁹, and the model's *largest* coupling, g₃₃ = 1.2×10⁻⁸ (which involves
+m₃ = 50 meV rather than m_ββ = 3 meV), sits inside that band. CMB-S4 is roughly **four orders more
+sensitive to this coupling than 0νββχ is**, and it is already the registered corner-selector: a
+detection there selects the MeV corner and its resonant-leptogenesis lane, a null leans high-v_L.
+The instrument that settles the Majoron's coupling is not in a mine.
+
+**And the peak search is clean of this background.** A Majoron continuum under the 0νββ peak is a
+recognised complication for the mass-mode search. This model says there is none at any reachable
+level, which is a small positive statement for the ton-scale program rather than merely an absence.
+
+*Grade: computed, at the same matrix-element uncertainty the mass mode carries, and using the
+model's own g = m/v_L relation. Some singlet-Majoron treatments carry an additional seesaw
+suppression on top of that; it would push the rate further down, so "unobservable" survives either
+way.*
 
 ## Sources
 
