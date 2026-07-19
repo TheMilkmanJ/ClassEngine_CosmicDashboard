@@ -1743,3 +1743,13 @@ designed. One real actionable surfaced by cross-checking it: **the dashboard UI 
 README and the philosophy file both say Expansion) — fixed, frontend-only, sampler untouched.
 Also recorded against me: I suspected Grok hallucinated "Pulford-Romsa"; it is README line 7.
 Verified before accusing — the discipline held, the suspicion didn't.
+
+**CORRECTION (owner ruling, 2026-07-19): the ui.js "fix" above was WRONG and is reverted.**
+The theory's name is **Pulford-Romsa Theory of Everything** — the acronym's own letters
+(P-R-T-O-E). I over-read the philosophy file's jurisdiction ruling ("a TOE only as a theory
+of expansion") as a rename; it is a scope gloss on the name, not a replacement of it. The
+UI string is restored to Theory of Everything, and the one genuinely wrong expansion found
+in the sweep ("Phantom Rip Theory of Everything", ui.js:2767 — a stale placeholder) is
+normalized to Pulford-Romsa. Recorded against me: two wrong-fix attempts today (this and
+the near-fix on the late-thaw linchpin); the species is the same both times — treating an
+owner-voice statement as a corpus defect. Owner statements outrank my inference.
