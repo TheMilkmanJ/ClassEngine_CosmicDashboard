@@ -54,12 +54,14 @@ locating the entropy in a real thermal object rather than on a mathematical surf
 the medium's own coherence cells gives S = η·N·A/ξ², while induced gravity gives
 1/G ≈ N/(12πξ²) from the same species count and the same cutoff. In the ratio **both cancel** —
 which is precisely the universality the literature reports — leaving S/(A/4G) = 48π·η. So the
-medium reproduces the area law's *form and its independence of the species content*; what it
-does not yet fix is the pure number η (the Bekenstein value would need η = 1/48π ≈ 0.0066 bits
-per coherence cell). **The debt is now one number, not a whole scaling.**
+medium reproduces the area law's *form and its independence of the species content* — and the
+pure number η is supplied conditionally by the same structure: the coefficient is the ratio of
+the two heat-kernel coefficients under the medium's own Bogoliubov regulator, 12π/48π = 1/4
+exactly (§5; [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). **What remains of the
+debt is the regulator's O(1) check on the entanglement side — one half of one computation.**
 
-**Grade:** located by the model, scaling derived, coefficient one number short — and that
-number also blocks the Page curve
+**Grade:** located by the model, scaling derived, coefficient derived-conditional (the
+regulator's entanglement-side check owed) — the same check gates the Page curve
 ([PRTOE_information_paradox.md](PRTOE_information_paradox.md)), so a single payment closes
 both. Homes: [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md).
