@@ -135,6 +135,14 @@ chk("quantum_gravity", "str[k1] = 16 N_gen - 48 vanishes at N_gen = 3", 0, 16*3-
 chk("quantum_gravity", "16 Weyl fermions per generation (with nu^c)", 16, 6+3+3+2+1+1, 1e-9)
 chk("quantum_gravity", "SM alone (15 per generation) gives -3", -3, 15*3-48, 1e-9)
 
+# ---- the EP margin and the baryon target ------------------------------------
+MICROSCOPE = 1.3e-15   # 2022 final result, 2 sigma
+chk("me_mechanism_math", "EP margin, weak end (Delta a/a = 8e-19)", 3.0,
+    math.log10(MICROSCOPE/8e-19), 0.10, "orders")
+chk("me_mechanism_math", "EP margin, strong end (Delta a/a = 8e-21)", 5.0,
+    math.log10(MICROSCOPE/8e-21), 0.10, "orders")
+chk("baryogenesis", "eta from omega_b h^2 = 0.0224", 6.1e-10, 273.9e-10*0.0224, 0.01)
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
