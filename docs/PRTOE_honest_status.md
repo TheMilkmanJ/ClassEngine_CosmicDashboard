@@ -22,7 +22,30 @@ Major moves since the 2026-07-08 baseline (below):
 - **Evidence:** the +2.635 Laplace win landed (below, unchanged); the MCMC chains are still running
   (χ² ≈ 2799–2803), and PolyChord has not been run.
 
-**Odds the CORE picture is right: ~12–16%, roughly held.** The DE closed form is real theoretical
+### What moved on 2026-07-18
+
+**Favourable.** The coupling's legality — the model's single largest conditional, on which the
+whole electron-mass mechanism rested — is closed by the constitution's own clause, and the
+screening computation that had been open since 7 July is delivered on all four of its items.
+The dark-energy sector's "un-built O(1) coefficient" turned out not to exist: the two doors
+stand in exactly the derived phase-space ratio, so nothing is owed there. The turn is computed,
+and the negative bare vacuum became load-bearing rather than decorative.
+
+**Adverse, and the sharper of the two directions.** Two independent constraints now bear
+directly on the ultralight mass, which is fixed by the onset clock and cannot float: the
+central soliton it implies carries roughly the whole extended mass the Galactic Centre shows
+within a parsec, and it places supermassive black holes between 2×10⁸ and 3×10⁹ solar masses
+in the superradiant band where high spins are measured. Neither is a computed exclusion; both
+could close the sector. Separately, the low-multipole claim lost its power-spectrum footing
+entirely — the torus is invisible to the spectrum at any multipole — and survives only as a
+correlation-structure prediction.
+
+**Operational.** The evidence run is sampling, but at the measured theory speed its completion
+horizon is weeks to months, and the ΛCDM twin doubles it. The verdict this board treats as the
+deciding crux is therefore further away than the board assumes.
+
+**Odds the CORE picture is right: ~12–16%, roughly held** — the favourable closures and the two
+new exposures roughly cancel, and the deciding evidence is further off than it was. The DE closed form is real theoretical
 progress, but it rests on unproven new physics and does not solve the coincidence problem, and there is
 no new positive *evidence* (no PolyChord verdict). So the number hasn't moved much. Deciders unchanged:
 PolyChord (marginal → robust, or sinks it) and SHOES-vs-TRGB (physical → holds, systematic → inverts).
