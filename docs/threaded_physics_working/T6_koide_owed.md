@@ -1287,3 +1287,16 @@ collective rotation imprints at freeze. And t is confirmed at class — the flux
 w·√σ ≈ 0.8–1.1, thin-film consistent — giving the demand band F_dark/√σ = 0.40–0.47. The one
 lattice campaign now referees three numbers: T_c/√σ, F_π/√σ, w·√σ. Current forward statement:
 [PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4.
+
+**THE KMS TWIST READING (2026-07-18, the night's last derivation):** the t_corr·T_c = 1
+question DISSOLVES — it was the drift picture's shadow of the KMS periodicity (β = 1/T is
+exact by the definition of the thermal state, not a timescale estimate). The phase per hop =
+the KMS twist per face: θ_hop = μ_face/T_c ⟹ μ_face = (2/9)T_c ≈ 40 keV, and the closure's
+native form is **μ_total = Q·T_c ≈ 119 keV**. Under KMS the phase decouples from the spacing;
+c₂ = Q/τ = 1.9236 re-grades from construction to PREDICTION — and the independently-mapped
+correlator locus [1.76, 1.97] contains it (at c₁ ≈ 1.34): the check could have failed and
+passed. **The chain's last desk link: the 1:1 twist transfer** (the frozen spatial cycle
+inherits the thermal circle's twist — one circle, one cycle; the corpus's own
+winding-imprints-structure move applied to the Euclidean circle). Desk state of the entire
+Koide chain: one transfer statement ours; three lattice observables theirs (T_c/√σ, F_π/√σ,
+w·√σ); P-051 and the 2/9 bar standing watch.
