@@ -1632,3 +1632,19 @@ twin had one, this didn't), and two more "the user" assistant-voice leaks made "
 pass 2 as a targeted grep). The historical Gemini-as-implementer references stand as
 factual v4-era history (distinct from the anonymized review dialogues — deliberate,
 not an oversight).
+
+## PRTOE_v5_five_verdict_derivation.md — deep audit 2026-07-19 (THE DOCS TAIL CLOSES)
+
+File ninety-seven, the last of the docs/ tail — and the corpus's most verification-dense
+docket survives it whole. Recomputed and exact: M_eff = M₂²/m̄₂ (88.36 eV²), the GUT-band
+map (2×10⁻²¹ eV ↔ 4.4×10¹³ GeV), λ_dB = 0.60 kpc at dwarf speeds, and **all three ν values
+of the mutual-exclusion relation land to the digit with full M_Pl** (5×10⁻¹⁵ / 1.1×10⁻¹⁰ /
+5.6×10⁻⁸ — the same Planck convention the braiding scale uses; three harnessed, 302). The
+DESI-visible back-solve (1.3×10¹⁷ GeV → 6.6×10⁻²⁵ eV → 91 kpc) verifies end to end. Two
+fixes: **the header still declared "No verdict is issued in this revision" above five
+stamped verdicts and a cleared step-walk** — the framework header simply never updated the
+day the stamps landed; it now states COMPLETE and records that the stamp-only-when-done
+rule was honored. And derivation_battery.py got its scratch-era tag. The V2 fork stands as
+stated (its "contested" branch is where the standing model lives, via the Chiang-vs-Marsh
+contested-to-dead pair); V4's ANN-2026-008 and Step E's M₂-pin registration match the
+standing record verbatim.
