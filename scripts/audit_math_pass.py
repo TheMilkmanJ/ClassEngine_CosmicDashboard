@@ -496,6 +496,19 @@ chk("deuterium_scar 7", "confined Goldstones 2Nf^2 - Nf - 1", 14, 2*_Nf**2-_Nf-1
 chk("deuterium_scar 6", "str[k1] with one extra sterile (17/gen) breaks finiteness", 3, 17*3-48, 1e-9)
 chk("deuterium_scar 6", "nu_R at the MeV corner vs the He-4 threshold", 4.9, 20.6/4.18, 0.02, "x short")
 
+
+# --- the false-vacuum route does NOT equal the particle route (deuterium_scar 6) ---
+_hbarc = 1.9733e-5                                  # eV cm
+_rho_vac = (20e6)**4/_hbarc**3                      # eV/cm3, a 20 MeV-scale false vacuum
+_T_dep, _g = 570.0, 3.36                            # eV, ambient at t = 4e6 s
+_rho_rad = (math.pi**2/30)*_g*_T_dep**4/_hbarc**3
+chk("deuterium_scar 6", "20 MeV false vacuum energy density", 2.08e43, _rho_vac, 0.02, "eV/cm3")
+chk("deuterium_scar 6", "ambient radiation at the deposit epoch", 1.52e25, _rho_rad, 0.02, "eV/cm3")
+chk("deuterium_scar 6", "a space-filling 20 MeV vacuum over-delivers by", 1.4e18, _rho_vac/_rho_rad, 0.02, "x")
+_n_gam = (2*1.20206/math.pi**2)*_T_dep**3/_hbarc**3
+_rho_need = 30*6.1e-10*_n_gam
+chk("deuterium_scar 6", "volume fraction allowed in the false vacuum", 5.2e-30, _rho_need/_rho_vac, 0.03)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

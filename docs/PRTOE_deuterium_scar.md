@@ -216,11 +216,19 @@ statement available about why the row stays open.
 right-handed neutrinos near 4.2 MeV, against a ⁴He photodissociation threshold of 19.8–20.6 MeV —
 short by **4.7 to 4.9×**, and a threshold does not partly fire.
 
-**The same requirement, reached from the other side.** A field trapped in a false vacuum at a
-20 MeV scale until t ~ 10⁶–10⁸ s *is* a state of mass ≳20 MeV with a lifetime of 10⁶–10⁸ s. The
-two descriptions — a particle that decays, a vacuum that releases — are the same object, and the
-transition route arrives at the identical specification without borrowing anything from the nuclear
-argument. That the spec survives an independent derivation is worth more than either route alone.
+**The transition route reduces to this one — it does not replace it.** A natural alternative is to
+ask for a *vacuum* that releases rather than a *particle* that decays: a field trapped in a false
+vacuum at a 20 MeV scale, firing late. The two are not the same object, and the difference is
+instructive. **A particle species can be arbitrarily dilute, because its abundance is free; a false
+vacuum's energy density is fixed at Λ⁴ and cannot be.** Filling space, a 20 MeV vacuum carries
+2.1×10⁴³ eV/cm³ against an ambient 1.5×10²⁵ at the deposit epoch — it would dominate by **10¹⁸**
+and drive a second inflation, not warm the plasma by 30 eV per baryon.
+
+Tuned instead to deliver exactly the required injection, it may occupy no more than **5×10⁻³⁰ of
+space** — at which point it is not a vacuum phase at all but a dilute population of isolated,
+localized lumps each carrying ~20 MeV. That is a particle species, and the requirement lands back
+on the roster it started from. What the two routes genuinely share is the **energy scale**; the
+abundance is where they part, and it parts by thirty orders.
 
 So the missing ingredient is not a free parameter that has yet to be fixed — it is a state the
 current field content **cannot** contain. That is a real structural statement about where a cure
