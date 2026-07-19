@@ -1646,3 +1646,30 @@ candl: clearing all internal priors.
 [mcmc] Progress @ 2026-07-19 01:23:22 : 8220 steps taken -- still burning in, 82 accepted steps left.
 [mcmc] Progress @ 2026-07-19 01:25:50 : 8230 steps taken -- still burning in, 79 accepted steps left.
 [mcmc] Progress @ 2026-07-19 01:28:23 : 8235 steps taken -- still burning in, 78 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:30:55 : 8345 steps taken -- still burning in, 60 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:33:04 : 8372 steps taken -- still burning in, 55 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:35:15 : 8393 steps taken -- still burning in, 52 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:37:28 : 8444 steps taken -- still burning in, 43 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:39:30 : 8447 steps taken -- still burning in, 42 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:41:35 : 8453 steps taken -- still burning in, 42 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:43:45 : 8506 steps taken -- still burning in, 35 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:45:55 : 8522 steps taken -- still burning in, 33 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:48:03 : 8529 steps taken -- still burning in, 32 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:50:29 : 8541 steps taken -- still burning in, 30 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:52:35 : 8559 steps taken -- still burning in, 27 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:54:50 : 8611 steps taken -- still burning in, 18 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:57:00 : 8616 steps taken -- still burning in, 18 accepted steps left.
+[mcmc] Progress @ 2026-07-19 01:59:44 : 8679 steps taken -- still burning in, 5 accepted steps left.
+[mcmc] Progress @ 2026-07-19 02:01:49 : 8687 steps taken -- still burning in, 2 accepted steps left.
+[mcmc] Progress @ 2026-07-19 02:03:59 : 8692 steps taken -- still burning in, 2 accepted steps left.
+[mcmc] Finished burn-in phase: discarded 100 accepted steps.
+[mcmc] Progress @ 2026-07-19 02:06:03 : 8763 steps taken, and 3 accepted.
+[mcmc] Progress @ 2026-07-19 02:08:28 : 8796 steps taken, and 5 accepted.
+[mcmc] Progress @ 2026-07-19 02:10:41 : 8809 steps taken, and 5 accepted.
+[mcmc] Progress @ 2026-07-19 02:13:19 : 8840 steps taken, and 7 accepted.
+[mcmc] Progress @ 2026-07-19 02:15:34 : 8842 steps taken, and 7 accepted.
+[mcmc] Progress @ 2026-07-19 02:17:51 : 8857 steps taken, and 8 accepted.
+[mcmc] Progress @ 2026-07-19 02:20:01 : 8860 steps taken, and 8 accepted.
+[mcmc] Progress @ 2026-07-19 02:22:22 : 8866 steps taken, and 8 accepted.
+[mcmc] Progress @ 2026-07-19 02:24:31 : 8944 steps taken, and 13 accepted.
+[mcmc] Progress @ 2026-07-19 02:26:46 : 8964 steps taken, and 15 accepted.
