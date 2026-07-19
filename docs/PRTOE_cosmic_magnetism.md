@@ -101,7 +101,7 @@ Consequences:
  founding identity, quantized, crunch-proof — where every competitor must add a field or an
  epoch by hand; (ii) the **signed-helicity linkage** to the baryon asymmetry through one
  topological integer — no other framework ties the sky's magnetic parity to the existence of
- matter; (iii) the shared-axis triple (ε-dipole, the ℓ≈126 comb, the helicity parity).
+ matter; (iii) the shared-axis triple (ε-dipole, the winding comb, the helicity parity).
 
 ## 6. Ledger summary
 

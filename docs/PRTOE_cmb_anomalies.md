@@ -18,7 +18,7 @@ deficit — each ~2–3σ, collectively awkward, individually dismissible as flu
 The medium's phase winds n times along one compact direction. EVERYTHING anisotropic in
 the model points along that single axis, at fixed relative weights:
 - the ε-dipole (P-024) — the m_e-shift's gradient;
-- the ℓ ~ 130 comb (P-029) — the winding's harmonic teeth (tooth count = n, the SAME
+- the comb, fundamental ℓ₁ ≈ 31–94 (P-029) — the winding's harmonic teeth (tooth count = n, the SAME
  integer as the baryon asymmetry's — the baryogenesis cross-kill);
 - the isocurvature line at ℓ ~ 170 (P-031) — the patch structure, co-located with the
  comb BY the shared n (the recorded ℓ-co-location);

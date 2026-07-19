@@ -367,7 +367,7 @@ T_c ≈ 179 keV is INSIDE the BBN window → the ε(epoch) stamps re-price every
 medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.24900 (+1.09σ
 COUNTER vs Aver; +3.53σ vs EMPRESS — the helium civil war noted); D/H partially refunded
 (2.387 → **−2.9σ** vs Cooke on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037; the 3.5% inter-code spread is named and unfolded, and would soften it to −1.4…−2.2σ).
-**Re-priced under the standing high-f configuration + the committed genesis ξ ∈ [0.25, 0.35]
+**Re-priced under the standing high-f configuration + the committed genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35]
 (ΔN_eff = 0.06–0.24): D/H −2.5…−1.4σ on the quotable ±0.0476 budget (−1.2…−0.7σ if the full
 inter-code spread is folded), Y_p +1.3…+2.0σ vs Aver (EMPRESS +3.8…+4.4σ stands apart), joint
 p = 0.02–0.08 quotable / 0.12–0.21 on the full spread. The residual helps deuterium and does not

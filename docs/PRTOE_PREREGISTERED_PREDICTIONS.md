@@ -1738,7 +1738,7 @@ photon a mass (m_γ² = 2q²n/m); photon-mass limits force q_EM < 4.7×10⁻³�
 EM-neutrality is structurally mandatory (birefringence null sharpened from "consistent" to
 "forced").
 
-## P-2026-029: The winding comb — a periodic tooth pattern in the CMB at ℓ ≈ 126 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
+## P-2026-029: The winding comb — a periodic tooth pattern in the CMB with fundamental ℓ₁ ≈ 31–94 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
 
 > **RECONSTRUCTED, NOT BACK-DATED.** This bet was **cited across the corpus as registered** — as a
 > member of P-032's four-axis kill (:1729), as the owner of a tooth count with a second duty
@@ -1751,9 +1751,19 @@ EM-neutrality is structurally mandatory (birefringence null sharpened from "cons
 > if it had been registered on the 11th — is exactly the retrofit this registry exists to forbid.
 
 **The prediction:** the genesis winding's integer **n** imprints a **periodic comb** in the CMB
-angular spectrum with a tooth spacing set by n, the first tooth near **ℓ ≈ 126**. The same integer
-sets the η-era phase pattern (P-2026-002's family) and the cavity modulation — **one topological
-number, three observables** (the M2↔M7 tie, [_master_computes.md](threaded_physics_working/_master_computes.md)).
+angular spectrum. The winding wraps the compact direction n times, so its modulation carries
+comoving wavenumber k = 2πn/L, and the comb's fundamental sits at
+
+> **ℓ₁ = n·(2πχ_*/L) ≈ 3.1n**, with teeth at its harmonics mℓ₁
+
+— using the model's own comoving distance to last scattering, χ_* = 13.76 Gpc, and the smallest
+torus the matched-circles nulls permit, L ≥ 27.6 Gpc. **Because L is a lower bound, ℓ₁ is an upper
+bound.** With the recorded Kibble winding **n ~ 10–30** (n_rms = √(L_gen/ξ_K)/2π) the fundamental
+lands at **ℓ₁ ≈ 31–94** — a factor-of-three band, not a point, because n is measured to a
+factor of three. Across the band where teeth survive Silk damping (ℓ ≈ 100–600) that is 5 teeth
+at the top of the n range and 16 at the bottom. **A sharper location requires a sharper n, and n is
+measured, not derived by design.** The same integer sets the η-era phase pattern (P-2026-002's
+family) and the cavity modulation — **one topological number, three observables** (the M2↔M7 tie, [_master_computes.md](threaded_physics_working/_master_computes.md)).
 **Kill:** a full-sky spectrum with no comb structure at the predicted spacing, at the sensitivity
 where the tooth amplitude is predicted to sit. **Grade:** candidate; the amplitude is un-computed
 (M7, the cavity/axis computation, is **un-run**), so this entry currently states a *location*, not
@@ -1824,7 +1834,7 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
  magnetic-helicity parity (P-028), and the low-ℓ alignment family share ONE sky direction
  (the winding axis). Chance for four axes within ~10°: ~3×10⁻⁶. **Kill**: any two settled
  members > ~20° apart.
-- **P-033 — THE ℓ-CO-LOCATION**: the comb (ℓ ~ 130) and the %-level isocurvature (P-031,
+- **P-033 — THE ℓ-CO-LOCATION**: the comb (fundamental ℓ₁ ≈ 31–94) and the %-level isocurvature (P-031,
  ℓ ~ 170) are two readings of ONE patch structure — any detection of either requires the
  other in ℓ ~ 120–180 with the SAME n. **Kill**: incompatible scales.
 - **P-034 — THE SMBH SPIN-DIP BAND** (one of the stronger predictions): one m for the
@@ -1836,7 +1846,7 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
  length floor). **Kill**: any confirmed sub-milliparsec non-baryonic compact object.
 - **P-036 — THE HELIUM WAR RESOLVES HIGH** (adverse-leaning, registered against comfort):
  Y_p determinations must drift UP toward ~0.25 — the prediction **0.2498–0.2520** (the span of the
- committed genesis window ξ ∈ [0.25, 0.35]) sits above both Aver (+1.3 to +2.0σ) and EMPRESS
+ committed genesis window ζ = T_dark/T_γ ∈ [0.25, 0.35]) sits above both Aver (+1.3 to +2.0σ) and EMPRESS
  (+3.8 to +4.4σ). **Kill**: resolution EMPRESS-ward (hardens the counter toward **+4.4σ**).
 - **P-037 — WIDE BINARIES ARE NEWTONIAN** (the live-controversy null): the claimed Gaia
  MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a

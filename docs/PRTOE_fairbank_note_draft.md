@@ -71,7 +71,7 @@ cosmologically foreclosed.
  EMPRESS — the helium civil war is unresolved and not ours to settle), and D/H is predicted at
  **2.407–2.463×10⁻⁵** against Cooke's 2.527 ± 0.030 — **−2.5 to −1.4σ** on the full budget
  (observational ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037). Both ranges are the span of
- one committed input, the genesis dilution ξ ∈ [0.25, 0.35], which the model uses everywhere it
+ one committed input, the genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35], which the model uses everywhere it
  appears and which CMB-S4 will measure directly through ΔN_eff = 0.06–0.24. **The joint is
  decided by a nuclear-code systematic we do not control:** PRIMAT gives D/H = 2.439 where
  PArthENoPE gives 2.51–2.54, a 3.5% spread that is 2.3× the quoted nuclear error. Fold none of

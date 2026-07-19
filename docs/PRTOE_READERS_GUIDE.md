@@ -47,6 +47,28 @@ term, and gives the reading order.*
 | estimated / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
 | ς (final σ) | the sign in the H₀-ceiling formula — **SIGNED: ς = −1** (estimate grade, robust; the H₀-lever branch is dead, the bracket collapses to 70.9–71.3) (supernova color-channel direction) |
 
+## 2b. The symbol table — one symbol, one meaning
+
+Several letters carry more than one job in physics generally, and this model touches enough
+sectors that the overlaps are real. Where the corpus uses a shared letter, the intended meaning is
+fixed here:
+
+| symbol | meaning | where it lives |
+|---|---|---|
+| **ε** | the fractional electron-mass shift, 1.2543% — the model's one modification to known physics | everywhere |
+| **α_c** | the dCDF's condensate coupling, 3α | the amplitude, the vacuum, the hierarchy exponent |
+| **c**, **f̄** | the census fraction 9/10; the winding average 2/π | the amplitude's decomposition ε = c·f̄·α_c |
+| **τ** | T_c/m_e = 0.3503 — the dyad's condensation temperature in electron-mass units | the dark-energy chain |
+| **ζ** | the genesis dilution T_dark/T_γ ∈ [0.25, 0.35] — the dark sector's temperature relative to the photons at genesis; sets ΔN_eff | the high-f configuration, the BBN books, the CMB-S4 falsifier |
+| **ξ** | a *length*: the medium's coherence length. Bare ξ = 402 AU is the coherence hinge in the scale ladder; **ξ_K** = 256 Mpc is the Kibble domain size | the scale ladder, the vortex network, magnetogenesis |
+| **ξ_H** | the non-minimal curvature coupling of a scalar (the standard gravitational meaning, as in the weight 1/6 − ξ) — unrelated to the lengths above | the induced-G sector, P-2026-045 |
+| **n** | the genesis winding integer, n ~ 10–30 — the one topological draw | the comb, the helicity sign, the matter asymmetry |
+| **L**, **χ_\*** | the torus's compactification scale (≥ 27.6 Gpc); the comoving distance to last scattering (13.76 Gpc) | the low-ℓ sky, the winding comb |
+| **f** | the dyad's decay constant, ~100–500 TeV | the dyad sector, the portal |
+| **ς** (final sigma) | the sign in the H₀-ceiling formula, ς = −1 | the candle room |
+
+*Retired-era documents may use these letters differently; each such file carries its own banner.*
+
 ## 3. The reading order
 
 1. **THREE_EQUATIONS** — the testable core in three lines.

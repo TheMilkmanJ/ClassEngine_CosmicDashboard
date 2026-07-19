@@ -1459,3 +1459,47 @@ of its downstream quotes. T13's table now carries that label.
 **Booked corpus-wide the same hour.** The sector's verdict is unchanged in kind — BBN remains
 adverse-leaning and hinges on the 3.5% PRIMAT–PArthENoPE inter-code disagreement, exactly as it did
 before adoption. What the residual changes is the size of every column, not which column decides.
+
+### P-2026-029's REGISTERED LOCATION ℓ ≈ 126 — A SPACING QUOTED AS A POSITION, AND A BAND QUOTED AS A POINT (2026-07-18)
+
+**What was registered.** "The winding comb — a periodic tooth pattern in the CMB at **ℓ ≈ 126**",
+with the body reading "a tooth spacing set by n, **the first tooth near ℓ ≈ 126**". Two other live
+documents cited the same prediction as **ℓ ≈ 6.4n**, explicitly low-ℓ. Twenty-fold apart, both
+attributed to P-029.
+
+**Neither is right, and the geometry says why.** The winding wraps the compact direction n times,
+so its modulation carries comoving wavenumber k = 2πn/L and projects to
+
+> ℓ₁ = n·(2πχ_*/L) ≈ **3.1n**,  χ_* = 13.76 Gpc (the model's own H₀ = 69.9), L ≥ 27.6 Gpc
+
+- **The 6.4n is a factor of two.** It used 2χ_* — the last-scattering *diameter* — where the
+  projection takes the comoving *distance*. 2×3.13 = 6.26, reproducing the cited figure exactly.
+- **The ℓ ≈ 126 is not a first tooth.** At the recorded Kibble winding n ~ 10–30 it is the 4th
+  tooth at n = 10 and the 2nd at n = 20. It is a plausible member of the comb and was never its
+  fundamental.
+- **And the location is not a point.** n is measured, not derived — the recorded band is
+  n ~ 10–30 (n_rms = √(L_gen/ξ_K)/2π), a factor of three — so the fundamental is
+  **ℓ₁ ≈ 31–94**, and no sharper statement is available until n is. The registered ℓ ≈ 126 stated a
+  precision the model's own inputs do not carry.
+
+**The entry was already internally inconsistent, in its own favour.** Its amplitude paragraph
+prices a matched-template comb "across the band where teeth survive Silk damping (ℓ ≈ 100–600)" —
+a *fine* structure with many teeth — which cannot be reconciled with a headline that names one
+tooth at 126. The correct reading populates that band with 5 teeth at the top of the n range and
+16 at the bottom, which is what the amplitude bound assumed all along.
+
+**Provenance.** The entry records itself as **reconstructed on 2026-07-17 from surviving citations**
+after the original registration was found never to have existed, and warns in its own header that
+its content is assembled rather than fresh. This is that warning coming true: the reconstruction
+inherited a number that the surviving citations disagreed about, and stated it sharply.
+
+**What survives, and it is the whole physical claim.** One topological integer sets the comb, the
+η-era phase pattern, the matter asymmetry, and the magnetic helicity's sign; the comb shares the
+winding axis with the ε-dipole and the low-ℓ anomalies; the kill is unchanged in kind (no comb
+structure at the predicted spacing, at the sensitivity where the amplitude sits). What changed is
+that the bet now states a **band**, and names what would narrow it: a measurement of n.
+
+**The lesson (process).** *A tooth spacing and a tooth position are different quantities, and a
+comb has only one of them as a free parameter.* The error survived because "ℓ ≈ 126" is a
+well-formed sentence either way — nothing in the phrasing reveals which quantity is meant, and the
+two cited numbers were never put side by side until an audit read both files in one pass.
