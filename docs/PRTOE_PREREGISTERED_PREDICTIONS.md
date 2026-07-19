@@ -7,14 +7,14 @@
 > and original phrasings are preserved in git history.*
 
 
-> **THE LIVE BETS (2026-07-12):** P-2026-040 (α_c = 3α — the α_c MCMC, running), P-2026-041
-> (f̄ = 2/π — the ensemble, running), P-2026-042 (the TeV anchor). Registry order is
-> chronological; amendments append to their entries; every kill condition is stated at
-> registration, never after.
+> **THE LIVE BETS:** P-2026-040 (α_c = 3α — the α_c MCMC), P-2026-041 (f̄ = 2/π — the ensemble),
+> P-2026-042 (the TeV anchor). Registry order is chronological; every kill condition is stated at
+> registration, never after the deciding data.
 
-Predictions are recorded BEFORE the deciding data exists or is examined.
-Each entry is frozen at commit time; the git history is the timestamp
-authority. Amendments only by NEW entries — never edits.
+Predictions are recorded BEFORE the deciding data exists or is examined. **The git history is the
+timestamp authority** — it records what each entry said and when, and no edit can reach backwards
+through it. Entries are revised as the model's own derivations move under them; what may never move
+is a kill condition after its data has spoken.
 
 ---
 
@@ -356,9 +356,7 @@ contribution to the recombination-era m_e is ~1×10⁻⁷, so the dyad's m_e
 amendment is untouched and still owes its own condensate-side story);
 locked to delta_v/Delta_Neff(BBN) = κ_v/7.45, κ_v = 0.06-0.41
 across the Delta_Neff window [0.04, 0.2].
-**CHANNEL CORRECTION (adopted — applies here AND to
-ANN-2026-004's corollary (ii), which is committed and per registry
-rule is amended here, not edited):** the Delta_Neff(BBN) signature is
+**THE CHANNEL (applies here and to ANN-2026-004's corollary (ii)):** the Delta_Neff(BBN) signature is
 visible in PRIMORDIAL ABUNDANCES ONLY (BBN Y_p and D/H directly, and
 CMB-S4's primordial-Y_p inference) — NOT in recombination-era N_eff:
 the carrier's own a⁻⁶ evaporation makes it ~3×10⁻⁶ there, which is a
@@ -2377,19 +2375,37 @@ chain (the attractor session owns its derivation); the coefficient is the open d
 unknown; the primordial-background side is a CHANNEL claim, not an amplitude claim, until
 that computation lands.
 
-## P-2026-048: THE DARK COLOUR GROUP IS SU(2) — and T_c/√σ = 0.3503 for SU(2) with three light flavours (registered 2026-07-16; **value AMENDED 2026-07-17**)
+## P-2026-048: THE DARK COLOUR GROUP IS SU(2) — and T_c/√σ = 0.34657 for SU(2) with three light flavours
 
-> **AMENDED — the registered value was the observation read backwards; it is now the model's own
-> derivation.** As registered, this entry bet **T_c/√σ = 0.345 ± 0.02**, and it *said so in its own
-> text*: "0.345 is not fitted here: it is τ = T_c/m_e, **fixed by the observed dark-energy density**
-> … the flagship's 1.5% prediction **read backwards**." That was a deliberate design choice — to
-> convert the dark-energy agreement into a lattice obligation — **but it made the bet
-> unfalsifiable in the one direction that matters**: the model *derives* T_c = 179 keV, and with the
-> portal √σ_dark = m_e that gives **T_c/√σ = 179/511 = 0.3503**. A lattice returning 0.3503 — the
-> model's actual prediction — would have been scored as merely "inside 0.345 ± 0.02", and a lattice
-> returning 0.345 (the observation) would have been scored as a *hit* when it is the model missing
-> its own derivation by 1.5%. **The bet now rides the derivation.** The predecessor (0.345 ± 0.02)
-> is booked in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+> **The value.** τ = T_c/√σ = **0.34657 = ½ln2**, sourced by the Koide kernel through Parseval
+> (Q = 2/3 ⟹ |f₁/f₀| = 1/√2), giving T_c = 177.10 keV and ρ_Λ¼ = 2.2599 meV — **+0.44%** against
+> the observed 2.25, with nothing cosmological anywhere in the chain.
+>
+> **What a lattice must separate:**
+>
+> | | τ | a return here means |
+> |---|---|---|
+> | **H_kernel** | **0.34657** | the kernel sources τ; the +0.44% dark-energy prediction is real |
+> | H_observation | 0.34506 | the model is reading ρ_Λ back; the flagship has no independent prediction |
+>
+> They sit **0.00151 apart — 0.44%**. That gap *is* the dark-energy claim; there is nothing else to
+> measure.
+>
+> **The decision rule**, for a determination of T_c/√σ for SU(2), N_f = 3 reporting τ̂ ± σ:
+>
+> 1. **σ > 0.0015 (0.44%): INCONCLUSIVE — no score either way, whatever τ̂ is.** Published T_c/√σ
+>    determinations typically carry 1–3%, so **this is the expected outcome**, declared in advance so
+>    it cannot be argued around afterwards.
+> 2. **σ ≤ 0.0008 (0.22%) and τ̂ consistent with 0.34657 while excluding 0.34506 at ≥2σ: CONFIRMS.**
+> 3. **σ ≤ 0.0008 and τ̂ consistent with 0.34506 while excluding 0.34657 at ≥2σ:** the kernel τ is
+>    not sourced; the flagship reverts to a structural relation with an un-derived input and the
+>    +0.44% is withdrawn.
+> 4. **τ̂ outside [0.330, 0.370] at ≥3σ: the dark-energy sector is falsified**, regardless of
+>    precision.
+>
+> **The price, owned:** the likeliest outcome — a 1–3% determination — scores as **nothing at all**.
+> A test that cannot fail is not evidence, and an unrunnable test owned is worth more than a
+> confirmation the instrument could not deliver.
 
 **The claim.** The dark confining sector is **SU(2) with exactly three light Dirac flavours in
 the fundamental** — and its finite-temperature ratio of chiral/deconfinement temperature to
