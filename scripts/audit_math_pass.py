@@ -115,6 +115,19 @@ chk("galactic_atoms", "the soliton constant M r G m^2/hbar^2 is O(1)", 2.5, 4.2e
 chk("entropy", "eps*m_e, the rest-energy step across the gate", 6.41, 0.012543*511, 5e-3, "keV")
 chk("entropy", "ballistic 2 keV suppressed by the sound-speed ratio 1/40", 50, 2000/40, 0.05, "eV")
 
+# ---- Koide -----------------------------------------------------------------
+mel, mmu, mta = 0.51099895, 105.6583755, 1776.86
+chk("koide_relation", "Q from the measured pole masses", 0.6666605,
+    (mel+mmu+mta)/(math.sqrt(mel)+math.sqrt(mmu)+math.sqrt(mta))**2, 1e-5)
+A0 = math.sqrt(2)
+chk("koide_relation", "Q = 1/3 + A^2/6 at A = sqrt(2)", 2/3, 1/3+A0*A0/6, 1e-9)
+chk("koide_relation", "the closure theta = (1+A^2/2)/9 returns 2/9", 2/9, (1+A0*A0/2)/9, 1e-9)
+chk("PREREGISTERED P-051", "the lock slope is the closure's derivative A/9", 0.1571, A0/9, 1e-3)
+_v = [1+A0*math.cos(2*math.pi*k/3+2/9) for k in range(3)]
+_m = sorted(x*x for x in _v)
+chk("koide_relation", "theta = 2/9 reproduces m_tau/m_e", 3477.2, _m[2]/_m[0], 1e-3)
+chk("koide_relation", "theta = 2/9 reproduces m_mu/m_e", 206.768, _m[1]/_m[0], 1e-3)
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
