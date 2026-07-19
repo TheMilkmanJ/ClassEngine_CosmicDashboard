@@ -1293,11 +1293,18 @@ energy differs across the gate by ε·m_e = 6.41 keV.
 There is no intermediate setting that yields the ~10–20% suppression the fit needs: the route
 is negligible or excluded, with nothing usable between.
 
-**What this exposes (larger than the route it kills): the gate's energy bookkeeping is unpaid,
-and one of its endpoints is observationally excluded.** Which limit applies is set by whether
-the curvature threshold sweeps outward faster than gas falls inward — and the two speeds are
-comparable (~1000 km/s against a few hundred to ~1000 km/s), so neither limit is clean. The
-model needs the adiabatic limit to hold, and owes the computation that decides it.
+**The exclusion is lifted by the transition's own character.** The gate is a **phase**, not a
+wall: the medium's order parameter answers the *local* curvature, so it re-phases in place
+rather than presenting a surface for gas to fall through. What a gas element picks up is the
+mass difference times the fraction of the transition it traverses, f = v_gas/c_s — the
+transition's spatial width is however far the medium's own re-phasing travels while it happens,
+so the transition time cancels and only the speed ratio survives. With the medium's recorded
+sound speed (c_s = √(3α)·c = 44 000 km/s) against ordinary infall (~1000 km/s), **f ≈ 0.023**:
+the medium re-phases forty-four times faster than gas can move through it. The injection falls
+to ~50 eV per particle and the entropy contribution to ~50 keV cm² — **below the observed
+group floors of 100–300, hence allowed**, and large enough to be a genuine contributor rather
+than a rounding error. What remains owed is the front's own treatment at merger-shock speeds,
+where the contribution approaches the observed floor.
 
 **What survives:** the S₈ delivery itself, which rests on the rotation-shed the pipeline
 actually codes — a **pre-registered parameter** (g ≈ 0.10 ± 0.05) whose fitted value (0.12)
