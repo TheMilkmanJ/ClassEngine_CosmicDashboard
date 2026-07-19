@@ -1038,3 +1038,22 @@ text already said so, the label lagged its own sentence); and the BBN row's book
 names the dedicated scar file. The superradiance and neutrino rows were already current — this
 map was maintained better than most of its class. The advertised −2.5 to −1.4σ range left as is
 per ForJustin/10.
+
+## PRTOE_koide_relation.md — deep audit 2026-07-19
+
+Thirty-fifth file. Two defects in 234 lines of the corpus's most carefully-hedged sector file.
+The ε in the protection statement (1.24 → 1.2543), and **the 0.3503 fork again** — "0.34657
+crowns the kernel, 0.3503 kills it" posed the lattice question against the rounding artifact,
+the same error corrected in P-048's addendum this morning. The fork now reads 0.34657 vs
+0.34506, 0.44% apart, with the decision rule's inconclusive band named. Everything else held:
+the CV = 1 arithmetic (V/μ² = 3Q−1 to 18 ppm), the 0.9σ fence, the honest "landing not derived;
+protection still is," the echo-not-witness provenance on 2/9, and the moment-condition chain.
+
+## PRTOE_coincidence_problem.md — deep audit 2026-07-19
+
+Thirty-sixth file. One defect: the residual-honesty clause still rested the floor's value on
+"M₂ being selected by the same closure" — the framing the failures ledger retired as circular.
+Now rests on what actually carries it: the kernel-sourced τ, the portal, and α_c. The width
+arithmetic all verified (8.16 H⁻¹, the 3.5% occupancy, one-in-thirty), and the file's central
+honesty — width derived, occupancy not, and a longer era makes placement *harder* — is exactly
+the right shape and was left untouched.
