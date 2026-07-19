@@ -195,8 +195,11 @@ parity-even physics downstream preserves what it cannot erase. Fence: the
 "gravity reverses and attaches to light" mechanic grades [EXPLORATORY] — the recorded snap
 is a neutral HANDOVER, not a rule inversion, and census blindness holds at genesis; the
 mechanic's observable content (the at-birth parity stamp) is the real and already-owed
-channel. The amplitude computation is the owed step (T10) — no signal size is claimed
-until it runs.
+channel. The amplitude is now computed, and it closes as a null: the vortex network's own
+gravitational-wave background sits eight to eleven orders below every instrument, so the
+parity stamp can be order unity and remain unobservable — the carrier is absent
+([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)). The at-birth stamp stays a
+formal prediction with no detection channel.
 
 **T10-light PAID (estimate-grade — the fingerprint's amplitude):** three
 channels priced against literature benchmarks. (A) Chiral-GW TB/EB ∝ r × chirality: even
