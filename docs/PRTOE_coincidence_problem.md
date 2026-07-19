@@ -3,10 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 8. Status: STRUCTURAL with a RECORDED DERIVATION (the Jeans-thaw timing chain). The
-improvement: "why is Ω_Λ ~ Ω_m today?" is a genuine ΛCDM embarrassment answered there by
-anthropics or silence; this model DERIVED the timing from its own dynamics — one of the few
-places the review graded a WHY-NOW as computed.*
+*Status: the era's WIDTH is derived; its OCCUPANCY is not. "Why is Ω_Λ ~ Ω_m today?" is a
+genuine ΛCDM embarrassment, answered there by anthropics or silence. This model computes how long
+the dark-energy era lasts, from its own dynamics with no dial — which is more than ΛCDM can say —
+but a computed width does not place the observer inside it, and that placement is what "why now"
+usually means. Both halves are stated below.*
 
 ## 0. The mystery
 
@@ -29,10 +30,14 @@ The floor is not a constant that matter happens to dilute past — the late era 
  (was 5.77 H⁻¹ at the par-normalized B = 1; B picked from the dispersion,
  not left as a menu). The amplitude of primordial fluctuations (A_s, measured) enters as a
  LIFETIME parameter: the era's duration knows about the perturbations it must host.
-3. **Why-now becomes why-then-plus-arithmetic**: Λ-domination begins when the fluid's density
- hits the floor (ρ_inf, now derived at 20%); the observation epoch sits inside a
- window whose WIDTH and PLACEMENT the model computes rather than assumes. The recorded grading
- called the why-now TIMING derived — the rare status for this problem class.
+3. **What that buys, and what it does not.** Λ-domination begins when the fluid's density hits
+ the floor, and the era then runs 8.16 H⁻¹ to turnaround — **a width the model computes rather
+ than assumes.** But we observe early in it: matter–Λ crossing is at z ≈ 0.33, about 0.28 H⁻¹
+ ago, so **only ~3.5% of the era has elapsed.** Drawn uniformly, an observation lands that early
+ about one time in thirty. **The width is derived; the occupancy is not** — and "why now" in its
+ usual sense is the occupancy question. Note the direction: a *longer* derived era makes the
+ placement slightly harder to explain, not easier. The model has traded "why is Λ this size" for
+ "why are we early in its era" — a sharper question, not a closed one.
 
 ## 2. The improvement, honestly bounded
 
