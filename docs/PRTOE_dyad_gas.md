@@ -19,9 +19,9 @@ high-scale pseudo-Goldstone — decay constant **f ≈ 100–500 TeV** (a named 
 condensation is driven by its own lepton-number-breaking potential; the electron loop supplies
 the ramp's timing, and the timing relation ties the decay constant, the quartic and the
 transition temperature into a two-parameter family
-([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4). The ramp fires at **T_c ≈ 179 keV** — the
-confining chiral ratio, observation-inverted and lattice-gated rather than independently
-sourced.
+([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4). The ramp fires at **T_c = 177.10 keV** — the kernel-sourced value (τ = ½ln2 through Parseval),
+lattice-refereed at P-2026-048; the coded pipeline still runs the earlier 179 keV, a
+difference priced at 0.002σ on D/H ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)).
 
 *(A note on "gas": this is the operator's phase-framing for the dyad's **complementary role** to
 the dCDF superfluid — the hot/thermal/lepton-binding side against the cold/chiral/abundance side.
@@ -32,14 +32,14 @@ the phase.)*
 
 Its identity is the **Majoron** — the Goldstone of **lepton-number (U(1)_L) breaking**. Tree
 coupling σNN → Majorana neutrino mass → **0νββ must occur**; the shared-scale tie
-ρ_inf¼ = m_ν,lightest (**Σm_ν ≈ 61 meV, normal ordering**). It couples to **leptons, not
+ρ_inf¼ = m_ν,lightest (**Σm_ν ≈ 61.4 meV, normal ordering**). It couples to **leptons, not
 hadrons** — census-forced. **This is why the medium's coupling is leptophilic: the broken
 symmetry it carries is lepton number.** (Full: [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md),
 [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).)
 
 ## 3. What it does to hydrogen: varying-m_e [ESTABLISHED mechanism, UNDER TEST]
 
-Inside its window it shifts the electron mass by **ε ≈ 1.24%** (= c·f̄·α_c = 27α/5π). A heavier
+Inside its window it shifts the electron mass by **ε = 1.2543%** (= c·f̄·α_c = 27α/5π). A heavier
 electron → **deeper atomic binding** → hydrogen recombines **earlier/hotter** → smaller sound
 horizon → **H₀ ≈ 69.9** instead of 68.2 (the Hubble-tension mechanism, thread 11). *"The gas makes
 hydrogen too bound"* = exactly this. Evidence: ΔlnZ ≈ +2.6 (marginal, SHOES-conditional); the
@@ -57,7 +57,7 @@ Whatever charge the superfluid carries, the gas carries the other:
 | thermal role | cold, condensed floor | **hot, thermal, binds hydrogen** |
 | its excitation | light (Goldstone) | the Majoron |
 
-They meet at the **critical seam** (the neutral gate) — the sub-ohmic/smooth region of hunt
+They meet at the **critical seam** (the neutral gate) — the sub-ohmic/smooth region recorded in
 the derivation log. The complementarity is a candidate framing; the field assignments above are
 established (dCDF = chiral abundance-carrier; dyad = leptophilic electron-coupler).
 

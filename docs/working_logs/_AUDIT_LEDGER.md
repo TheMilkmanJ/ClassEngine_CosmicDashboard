@@ -999,3 +999,22 @@ one registered." The conditional footnote named the wrong run (pc_prtoe — the 
 config — where the executing run is cmp_prtoe_fixed). And the ε(epoch) table called the coded
 T_c = 179 "derived"; it is coded, with the kernel value and its 0.002σ price now stated beside
 it. The quark-bleed row and the de-biased Σm_ν band both checked against their sources and held.
+
+## PRTOE_dcdf_superfluid.md — deep audit 2026-07-19
+
+Thirty-first file. Two purge husks (dangling space-periods where references were stripped) — and
+otherwise clean, with one verification worth its line: the identity file's "H = m onset at
+z ≈ 4×10⁷" checks arithmetically against the recorded mass (ħH at that redshift is 2.2×10⁻²⁰ eV),
+so the file's onset statement and the z_on identity are one fact stated two ways. Sections 2–5
+all consistent with today's standing (2.2599, the SU(2) diquark story, the winding-signed
+chirality, the Pauli count, the honest 21-dex non-closure).
+
+## PRTOE_dyad_gas.md — deep audit 2026-07-19
+
+Thirty-second file. Four defects: T_c still "≈ 179, observation-inverted rather than
+independently sourced" against a kernel that now sources 177.10 (fixed, with the coded-pipeline
+price stated); a self-inconsistent amplitude line ("ε ≈ 1.24% (= 27α/5π)" — the formula
+evaluates to 1.2543); Σm_ν rounded below its booked value; and one purge husk mid-sentence
+("the sub-ohmic/smooth region of hunt the derivation log"). The dead-ends block — the P-011
+retraction's precise scope, leptophilia forced twice over, the counting-measure distinction —
+is exactly right and needed nothing. The neutrino_home link verified as live.
