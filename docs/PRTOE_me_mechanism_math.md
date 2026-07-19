@@ -48,15 +48,32 @@ structure exists:
 
 ---
 
-## 2. The coupling [OPEN legality / FORCED form]
+## 2. The coupling [LEGAL under the coupling law / FORCED form]
 
  L_int = -eps * S(x) * m_e^lab * (psi_e-bar psi_e)
 
-This is a direct, dimension-5, Planck-suppressed moduli/dilaton-class
-operator with S(x) the environmental modulator. Legality under the coupling
-census: OPEN (narrow reading → legal; broad → forbidden). Form: FORCED
-(geometry is 60 orders too weak, sec 32, so a direct
-operator is unavoidable). [trigger-doc sec 23, 32, 34]
+This is a direct, dimension-5 operator with S(x) the environmental modulator.
+**Legality: CLOSED — the operator is legal under the model's coupling law,**
+by the constitution's own consolidated clause (laws_and_rules, the L1 block):
+the medium couples to ordinary matter only through gravity, and the second
+field may couple non-gravitationally WITHIN its own sector — the lepton-mass
+sector — while opening no interface to sectors it is not part of (no photon
+coupling, no quark coupling). This operator satisfies all three tests:
+ (1) it lives inside the permitted sector (it shifts a lepton mass);
+ (2) its environmental switch reads curvature — gravity's own universal
+ channel, the one interface everything already shares — so the modulation
+ opens no new interface;
+ (3) it treats every lepton alike (the doublet-universal structure of sec 10);
+ the electron is singled out only by being the charged lepton present at
+ recombination, not by hand. The identity-blindness rule polices couplings
+ that pick species without a symmetry reason (the deleted per-species knobs
+ were exactly that crime); a coupling that follows the lepton charge is not
+ one of them.
+Prior verdicts stand with the clause (the birefringence null, gate-0, the
+EP posture, BBN). What remains owed is sec 7's screening computation — a
+separate item, not a legality question. Form: FORCED (geometry is 60 orders
+too weak, sec 32, so a direct operator is unavoidable). [trigger-doc sec 23,
+32, 34; laws_and_rules]
 
 ---
 
@@ -132,9 +149,11 @@ structured). Scored:
  khronon/frame : S,L not V (spatially uniform)
  intrinsic dm_EM : S,L not V (present everywhere equally)
 
-Only the direct coupling has S+V; its sole missing property is L, and
-MICROSCOPE-safety within L is already delivered by the sec-27 sharp
-screening. ⇒ the whole roof reduces to the census-scope question. [sec 34]
+Only the direct coupling has S+V — and its L is now delivered: the coupling
+law's consolidated clause legalizes sector-internal coupling (sec 2), and
+MICROSCOPE-safety within L is delivered by the sec-27 sharp screening.
+⇒ the roof is CLOSED; the channel constraint is satisfied on all three
+properties. [sec 34; laws_and_rules]
 
 ---
 
@@ -209,7 +228,7 @@ DERIVED / FORCED:
  - the locked-correlation observable signature [8]
 
 OPEN:
- - census-scope legality (a/b) -- reproduce the census derivation [2,6]
+ (census-scope legality: CLOSED — the coupling law's consolidated clause; sec 2, 6)
  - exact amplitude coefficient (cutoff + modulation fraction) [4]
  - the EP-screening computation (grad φ < MICROSCOPE; chameleon bounds) [7]
  - virialization-delivers-freezing, from the medium's EOM [7]
