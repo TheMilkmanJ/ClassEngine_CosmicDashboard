@@ -75,10 +75,10 @@ forced into the metric instead. Full account: [PRTOE_light.md](PRTOE_light.md).
 ## 5. What it does NOT close (honest boundaries)
 
 - The dark-energy **value** does **not** forward-close from the neutrino microphysics: the
- fluctuation-dissipation response is **ohmic (s = 1)**, a **21-dex miss** . The
+ fluctuation-dissipation response is **ohmic (s = 1)**, a **21-dex miss**. The
  sub-ohmic/critical closure (s ≈ 0.26) is **CONDITIONAL** on the settling attractor being
  self-organized-critical (otherwise the transition boils, first-order); the boiling-free
- superfluid-λ reading gives s ≈ 0.69 (misses). See the derivation log .
+ superfluid-λ reading gives s ≈ 0.69 (misses). See the derivation log.
 - **w = −1 is exact and derived**; the residual's *magnitude* is the owed piece.
 
 ## Where the dead ends live
