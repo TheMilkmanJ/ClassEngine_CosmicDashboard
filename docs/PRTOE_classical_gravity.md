@@ -37,8 +37,10 @@ the horizon thermodynamics (Jacobson's route), the singularity discharges, the
 Sakharov stiffness. GIVEN the area law, Jacobson delivers Einstein's equations — and the area law is now
 part-paid: the medium reproduces its *scaling* independently, with the species count and the
 cutoff cancelling in the ratio, which is the universality the literature reports
-([PRTOE_entropy.md](PRTOE_entropy.md) §3). What remains is the pure coefficient, so the
-keystone debt is one number rather than a whole law. The flag stands:
+([PRTOE_entropy.md](PRTOE_entropy.md) §3) — and the coefficient is supplied conditionally by
+the same structure (the heat-kernel ratio 12π/48π = 1/4), so the keystone debt is the
+Bogoliubov regulator's O(1) check on the entanglement side: one half of one computation,
+rather than a number or a law. The flag stands:
 analog frames generically deliver linearized-plus, and the FULL nonlinear Einstein dynamics
 (graviton self-interaction to all orders) rests on the same address. **Thread: CONDITIONAL —
 perfect IF the keystone holds; the M3/basement compute is the cost.**
