@@ -171,6 +171,14 @@ chk("galactic_atoms", "soliton M(<1 pc) at the Galactic Centre", 2.9e6, _Msol(1.
 chk("galactic_atoms", "Sgr A* influence radius exceeds the core radius", 2.6,
     (4.30091e-3*4.30e6/100**2)/_rc, 0.05, "core radii")
 
+# ---- the circulant kernel --------------------------------------------------
+chk("koide_relation", "Parseval: |f1/f0| from Q = 2/3", 0.7071071, math.sqrt((2/3-1/3)*1.5), 1e-6)
+chk("koide_relation", "the kernel's tau = -ln|f1/f0| = (1/2)ln2", 0.346574, 0.5*math.log(2), 1e-6)
+chk("koide_relation", "holonomy: 3 x arg f1 = Q", 2/3, 3*(2/9), 1e-9)
+chk("koide_relation", "T_c implied by the kernel's tau", 177.1, 0.5*math.log(2)*ME/1e3, 1e-3, "keV")
+chk("koide_relation", "rho_Lambda from the kernel's tau", 2.2599,
+    4.5*ALPHA**4*0.5*math.log(2)*ME*1e3, 1e-3, "meV")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
