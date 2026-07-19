@@ -91,6 +91,14 @@ everywhere atomic physics appears.
   velocity is still to be done. (One consequence
   is already booked: S₈ is not delivered by this channel — it rests on the pre-registered
   rotation-shed parameter, graded by a running chain.)
+- **(h) Two independent constraints now bear directly on the ultralight mass, and both are
+  unpriced.** That mass is fixed by the onset clock and cannot float. (i) The central soliton
+  it implies carries about 3×10⁶ solar masses within one parsec of the Galactic Centre —
+  comparable to the entire extended mass observed there, which the stellar population already
+  accounts for. (ii) It puts black holes between roughly 2×10⁸ and 3×10⁹ solar masses inside
+  the superradiant band, where they should be spun down, while several black holes in that
+  range carry high measured spins. Neither is a computed exclusion yet; both are real, both
+  are now named, and either could close the sector.
 - **(f) Code-vs-theory gap:** in the CLASS implementation the dyad's m_e shift and the dCDF density
   are independent parameters — the "one linked superfluid" is not enforced in the fit; the
   zero-parameter evidence claim is tested by the ε-fixed config, not the ε-sampled one.
