@@ -1116,3 +1116,15 @@ single debt behind three documents." Both brought to the banner's own state.
 short" while its §5 carried the ratio resolution — a §3-vs-§5 tension I read past and called
 consistent. Reconciled now, both directions. A file audited clean is only as clean as the
 auditor's attention; the miss is recorded here with the same prominence as anyone else's.
+
+## PRTOE_blackholes_no_singularity.md — deep audit 2026-07-19
+
+Forty-third file. Two finds above the pattern. **The λ-convention split:** §3's CSW threshold
+and §8's recomputed one sat 12.8× apart — a factor-4π difference in the quartic's normalization,
+unflagged, with the summary row advertising only the friendlier ~250× margin. The conservative
+clearance is 20×; both sections now name the convention and lead with it, and all four
+thresholds are harnessed. A margin that depends on a convention is not a margin until the
+convention is named. **The lean that was a bet:** §7(iv) still called the superradiance band
+"a lean, not a bet" on "sparse spin measurements," against a registered P-2026-034 and a
+populated band — brought to the live-exposure statement. The Kaup cap verified (3.7×10⁹), the
+r_s/ξ table checked, the Penrose discharge and area-law rows already current.
