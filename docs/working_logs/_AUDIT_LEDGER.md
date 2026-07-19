@@ -1104,3 +1104,15 @@ near-step, and a corpus-wide grep confirms no Gaussian-as-the-form statement sur
 file's structure is among the corpus's best: §2a names exactly what the uniqueness argument
 does not reach, refuses to let §1 cover for it, and declines the anthropic repair its own §3
 rejects — honesty with teeth. The 10³⁶-vs-10¹⁰⁴ budget agrees with the entropy page.
+
+## PRTOE_information_paradox.md — deep audit 2026-07-19
+
+Forty-second file. One defect, in the head-versus-body species: the banner carried the standing
+state (the coefficient derived-conditional as the heat-kernel ratio 12π/48π = 1/4, one regulator
+check owed) while the §2 table still said **OWED** and §3 still called the functional "the
+single debt behind three documents." Both brought to the banner's own state.
+
+**And a correction to my own audit of two files ago:** `entropy` §3 said "coefficient one number
+short" while its §5 carried the ratio resolution — a §3-vs-§5 tension I read past and called
+consistent. Reconciled now, both directions. A file audited clean is only as clean as the
+auditor's attention; the miss is recorded here with the same prominence as anyone else's.

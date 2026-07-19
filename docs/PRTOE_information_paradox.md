@@ -57,16 +57,16 @@ system**. Consequences, each from a graded object:
 | the singularity (the shredder) | required | absent |
 | unitarity | threatened | manifest (the interior is a quantum many-body system) |
 | "where is the information during evaporation?" | mysterious | in the core's correlations + outgoing-mode entanglement (ordinary) |
-| the Page curve | the quantitative test | **OWED, and narrowed** — the medium's entropy functional now exists (the von Neumann entropy of its one-body density matrix, [PRTOE_entropy.md](PRTOE_entropy.md)) and the area law's *scaling* follows from it with the species count and cutoff cancelling; what still blocks the curve is the one pure coefficient that scaling leaves free |
+| the Page curve | the quantitative test | **derived-conditional at the coefficient, owed at the curve** — the functional exists ([PRTOE_entropy.md](PRTOE_entropy.md)), the scaling follows with species count and cutoff cancelling, and the coefficient is the ratio the same cutoff supplies (12π/48π = 1/4, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a); what remains is the regulator's O(1) check on the entanglement side, and then the curve itself |
 | firewalls / remnants / ER=EPR | competing exotica | unnecessary: the interior is matter, not geometry |
 
 ## 3. Honest scope
 
 This is a **dissolution, not a calculation**: the paradox's premises fail in this model, so no
 paradox forms — the same logical shape as the Penrose-premise audit. What would elevate it to
-a *result*: (i) the medium's entropy functional reproducing S = A/4 for the core (the working docket —
-the single debt behind three documents now); (ii) a Page-curve computation for phonon Hawking
-flux off a finite core. Both registered; neither claimed.
+a *result*: (i) the Bogoliubov regulator's O(1) = 1.0000 result extending to the entanglement
+side — one half of one computation, and the banner's stated condition; (ii) a Page-curve
+computation for phonon Hawking flux off a finite core. Both registered; neither claimed.
 
 *A paradox needs an impossible room. Take away the shredder in the basement and the black hole
 is just a very dark library with slow lending — everything checked in is still on a shelf,

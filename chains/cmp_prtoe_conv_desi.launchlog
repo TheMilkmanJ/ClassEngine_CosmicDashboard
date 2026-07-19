@@ -1972,3 +1972,6 @@ candl: clearing all internal priors.
 [mcmc] Learn + convergence test @ 480 samples accepted.
 [mcmc]  - Acceptance rate: 0.937
 [mcmc] *WARNING* Negative covariance eigenvectors. This may mean that the covariance of the samples does not contain enough information at this point. Skipping learning a new covmat for now.
+[mcmc] Progress @ 2026-07-19 13:46:01 : 16926 steps taken, and 481 accepted.
+[mcmc] Progress @ 2026-07-19 13:47:11 : 16947 steps taken, and 482 accepted.
+[mcmc] Progress @ 2026-07-19 13:48:34 : 16978 steps taken, and 484 accepted.
