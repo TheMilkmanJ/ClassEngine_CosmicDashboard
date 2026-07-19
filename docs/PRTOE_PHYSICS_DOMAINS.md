@@ -234,8 +234,10 @@ amplitude gap). Minimal V = m²|Ψ|² + λ|Ψ|⁴ matches the basin exactly —
 basin entry IS the condensation threshold μ = m; unification m̄₂ = M₂²/m
 removed a parameter; λ ~ 10⁻⁸⁸ is a visible scar that later shielded the
 model from black-hole spin archaeology. The two-fluid reduction (particle
-+ antiparticle Schrödinger fluids) produced the KR beat: the beat is
-√(f_amp(2−f_amp)), *not* f_amp. The
++ antiparticle Schrödinger fluids) produced the KR beat: the beat goes as the ellipticity
+fraction through √(f(2−f)), *not* f itself. *(That fraction shares a symbol with the retired
+amplitude factor and is not the same object — the standing amplitude decomposition contains
+no such factor.)* The
 pre-basin w = 1/3 was double-derived (dynamics AND phonon thermodynamics).
 Lab receipts were cite-verified for the load-bearing furniture: Bogoliubov
 S(k) measured (Steinhauer et al., PRL 88, 120407), the amplitude/"dark
