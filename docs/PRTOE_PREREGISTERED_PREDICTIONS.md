@@ -1722,11 +1722,16 @@ via dynamo (a bill ΛCDM cannot pay). The primordial field's **magnetic helicity
 genome** (the quantized winding current) → parity-odd radio/γ observables carry
 the same sign as the matter/antimatter draw.
 
-**Honest gap (flagged at registration):** the void floor (blazar TeV halos, ~10⁻¹⁶ G) sits ~1.5
-orders above the smooth-Harrison number. Candidates: vortex-line-network structure (not smooth),
-post-recombination vorticity persistence, or blazar-floor caveats (plasma-instability
-alternative). **Kill:** void fields confirmed ≥10⁻¹⁶ G with the vortex-network enhancement
-computed and falling short, or measured magnetic helicity with the WRONG sign vs the genome's.
+**Honest gap:** the void floor (blazar TeV halos, ~10⁻¹⁶ G) sits ~1.5 orders above the
+smooth-Harrison number, and **two of the three candidate rescues are closed.** Vortex-line-network
+structure fails to flux conservation — the return flux through a void cell equals the flux average,
+so concentrating the field on lines (the ×3400 rms boost) cannot raise the inter-line floor at all;
+post-recombination vorticity persistence sources that same average and meets the same theorem. The
+void column therefore rides **solely** on the blazar bound's own robustness, where the live external
+question is whether beam-plasma instabilities relax the ≥10⁻¹⁶ G floor. **Kill:** the blazar floor
+surviving that debate — the void column then fails outright while the galactic column stands — or
+measured magnetic helicity with the WRONG sign vs the genome's. The galactic seed does not depend
+on any of this.
 
 **Constraint closed en route (the Meissner bill):** any EM charge on the condensate gives the
 photon a mass (m_γ² = 2q²n/m); photon-mass limits force q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — the fluid's

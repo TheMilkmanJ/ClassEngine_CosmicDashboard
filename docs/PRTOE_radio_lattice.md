@@ -18,7 +18,7 @@ with a KNOWN, DIFFERENT weight — a lattice of correlated shifts with fixed rat
 |---|---|---|
 | 21cm hyperfine (and D 92cm) | **+2ε** | ν ∝ α⁴m_e²/m_p |
 | radio recombination lines | **+1ε** | Rydberg ∝ m_e |
-| plasma dispersion (FRB/pulsar DM) | **−1ε** | ω_p² ∝ n_e/m_e |
+| plasma dispersion (FRB/pulsar DM) | **−1ε** | the dispersion constant e²/2πm_e c ∝ 1/m_e, so an inferred DM shifts by −ε at fixed electron column *(the plasma frequency itself, ω_p ∝ m_e^−½, carries half this weight — the observable is the delay, not ω_p)* |
 | synchrotron characteristic ν | **−1ε** | ν_c ∝ eB/m_e (per fixed particle energy: −ε-class) |
 | Faraday rotation | **−2ε** | RM ∝ n_e B/m_e² |
 
@@ -49,6 +49,12 @@ cosmic dawn's edge structure (P-022's three-verdict shape: the edge frequency ma
 - The lattice's weights assume the fundamental-mass-philia structure (graded) — a
  measured pattern VIOLATING the ratio table (e.g., +2ε in 21cm with an unshifted RRL row)
  kills the dyad's universality outright: the lattice is its own executioner.
+
+## Sources
+
+[Field1958] (the hyperfine line's m_e dependence), [RybickiLightman1979] (the dispersion and Faraday
+coefficients), [Bowman2018] (the cosmic-dawn edge), [Cooke2018] (the deuterium pole).
+Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 *One number, five bands, fixed ratios, one axis, two locked lines. If the dark ages are ever
 heard properly, the dyad's signature is not a bump — it is a chord.*

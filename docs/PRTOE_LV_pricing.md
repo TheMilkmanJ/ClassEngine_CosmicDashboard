@@ -28,7 +28,7 @@ the constitution — the dangerous operators are not suppressed, they are UNWRIT
 | photon dim-6 | (E/M_Pl)² ~ 10⁻³² at TeV | ~10⁻¹⁶ reach | ~16 orders |
 | electron dim-3 b_μ (grav-induced) | ~ρ_inf^½/M_Pl ≈ 4×10⁻³⁴ eV | 10⁻²² eV (10⁻³¹ GeV, torsion/clocks) | **~12 orders** |
 | electron dim-4 c_μν | 0 (no vector bridge); metric-universal piece = standard frame kinematics | 10⁻¹⁷ (cavities, [Herrmann2009]) | exact/safe |
-| matter dim-5 (Majoron-derivative, the ONE real channel: ∂θ·J_L, leptophilic) | (m_ν/Ψ₀)·θ̇ ~ 10⁻⁶⁰ eV | 10⁻²² eV | ~38 orders |
+| matter dim-5 (Majoron-derivative, the ONE real channel: ∂θ·J_L, leptophilic) | (m_ν/f)·θ̇ ≲ 2×10⁻⁴⁹ eV, suppressed by the L-breaking scale (f ≥ 100 TeV, θ̇ ≤ H₀) | 10⁻²² eV | **~27 orders** |
 | gravity: c_T (GW speed) | = c EXACTLY (one metric) | 10⁻¹⁵ [GW170817] | by construction |
 | gravity: PPN α₁, α₂ (preferred-frame) | ~ local medium fraction ρ_cosmo/ρ_☉ ~ 10⁻²⁹ | 10⁻⁴ / 4×10⁻⁷ | ~22 orders |
 | clock/Oklo (ṁ_e today) | 0 — the window closed at z ≈ 50 | the Oklo fence | recorded ✓ |
@@ -36,11 +36,14 @@ the constitution — the dangerous operators are not suppressed, they are UNWRIT
 
 ## 2. Verdict
 
-Every sector clears, margins 12–38 orders, and the two exact zeros (photon tree, c_T) are
+Every sector clears, margins 12–27 orders, and the two exact zeros (photon tree, c_T) are
 CONSTITUTIONAL, not tuned. M3's bookkeeping half CLOSES: the frame is priced and paid.
-What remains of M3 is exactly one item — the induced-G forward calculation (the F-F sum
-run forward to Einstein dynamics) — the root's last piece, no longer hiding behind a
-list of unpriced operators.
+The gravitational root's remaining exposure is not an unpriced operator but a scope
+limit — the model does not compute the numerical value of Newton's constant, and does not
+claim to. What it holds there are conditions and targets: Pauli's finiteness condition
+str[k₁] = 0, satisfied exactly by the Standard Model with three right-handed neutrinos, and
+the bare-handout asymmetry 1/α_Y(M_Pl) = 55.5
+([PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md)).
 
 *The medium hides from every experiment for the same reason it pays every species alike:
 it cannot see who it is talking to, and they cannot see it — except by weight.*

@@ -121,6 +121,16 @@ that is a bug — file it.*
 - **[HajianSouradeep2003]** A. Hajian, T. Souradeep, "Measuring the statistical isotropy of the CMB anisotropy," ApJL 597, L5 (2003), arXiv:astro-ph/0308001. — The BipoSH formalism policing the axis family.
 - **[JackiwPi2003]** R. Jackiw, S.-Y. Pi, "Chern-Simons modification of general relativity," PRD 68, 104012 (2003), arXiv:gr-qc/0308071. / **[AlexanderYunes2009]** S. Alexander, N. Yunes, "Chern-Simons modified general relativity," Phys. Rept. 480, 1 (2009), arXiv:0907.2562. — The dCS machinery the chiral-GW debt inherits.
 
+## 8b. Cosmic magnetism and the radio bands
+
+- **[Harrison1970]** E. R. Harrison, "Generation of magnetic fields in the radiation era," MNRAS 147, 279 (1970). — The vorticity battery: differential photon drag on electrons and ions separates charge where the plasma spins. The mechanism [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md) inherits; standard since 1970, and starved of vorticity in ΛCDM.
+- **[NeronovVovk2010]** A. Neronov, I. Vovk, "Evidence for strong extragalactic magnetic fields from Fermi observations of TeV blazars," Science 328, 73 (2010), arXiv:1006.3504. — The void floor B ≳ 10⁻¹⁶ G from missing TeV cascade halos. P-2026-028's falsifier, and the bound whose own robustness the void column now rides on.
+- **[Biermann1950]** L. Biermann, "Über den Ursprung der Magnetfelder auf Sternen und im interstellaren Raum," Z. Naturforsch. A 5, 65 (1950). — The battery term; the reionization-era competitor, too late and too small-scale for the void.
+- **[Durrer2013]** R. Durrer, A. Neronov, "Cosmological magnetic fields: their generation, evolution and observation," A&A Rev. 21, 62 (2013), arXiv:1303.7121. — The review; the source for the competitor mechanisms' pathologies tabulated in §0.
+- **[Field1958]** G. B. Field, "Excitation of the hydrogen 21-cm line," Proc. IRE 46, 240 (1958). — The hyperfine line's structure; the +2ε row's physics.
+- **[RybickiLightman1979]** G. B. Rybicki, A. P. Lightman, *Radiative Processes in Astrophysics* (Wiley, 1979). — The dispersion, synchrotron, and Faraday coefficients; the radio lattice's −1ε and −2ε rows read straight off their m_e dependence.
+- **[Bowman2018]** J. D. Bowman et al., "An absorption profile centred at 78 megahertz in the sky-averaged spectrum," Nature 555, 67 (2018). — The EDGES cosmic-dawn trough; P-2026-030's target.
+
 ## 9. Neighboring dark-sector models (the honest competitors and cousins)
 
 - **[BerezhianiKhoury2015]** L. Berezhiani, J. Khoury, "Theory of dark matter superfluidity," PRD 92, 103510 (2015), arXiv:1507.01019. — The nearest superfluid-DM cousin; differs by scope (galactic vs cosmological) and by the dyad.

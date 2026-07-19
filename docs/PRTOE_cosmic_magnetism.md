@@ -113,6 +113,14 @@ Consequences:
 | helicity sign = genome sign = baryon sign | registered prediction (the falsifier with no dial) |
 | coherence scale ~ Kibble ξ | distinctive, un-priced in RM statistics (owed if pursued) |
 
+## Sources
+
+[Harrison1970] (the vorticity battery — the mechanism this file inherits), [NeronovVovk2010]
+(the blazar TeV-halo void floor, ≳10⁻¹⁶ G — this file's falsifier), [Onsager1949] +
+[Feynman1955] (quantized circulation), [Kibble1976] (the domain network), [Biermann1950],
+[Durrer2013] (the magnetogenesis review and its pathologies). Full list:
+[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
 *Everyone else must explain where the spin came from. This model cannot explain where it would
 have gone: a rotating superfluid universe magnetizes its plasma as surely as it swings its
 vortices — and it signs the work with the same integer that chose matter over antimatter.*
