@@ -1343,3 +1343,36 @@ numerological near-misses confirm it: e/√2 sits 0.1% from the requirement, √
 **1.9236 ± 0.02** — rather than membership in a band a fifth of its own width. That number then
 hands over τ = Q/c₂, and with it T_c and the dark-energy scale. The keystone stands; the key tried
 here is the wrong shape.
+
+## THE THAW-BRANCHING KEY — TESTED AND ELIMINATED, ROOTS TRACED (2026-07-19)
+
+**The proposal.** The kernel's modulus |f₁/f₀| = 1/√2 and the thaw's branching prefactor
+B = ω_J/Γ_par = 1/√2 are the same number to machine precision, and both are derived rather than
+fitted. If they were the same *object*, τ = −ln B would be forced and the sector's last link would
+close through the expansion sector — which is the right class of source, since B is a ratio of two
+rates rather than a length ratio.
+
+**The test: trace each ½ to its root.**
+
+| | where the ½ actually comes from |
+|---|---|
+| expansion | ω_J² = 4πGρ against Γ_par² = ρ/M_red², with M_red² = 1/(8πG). The density cancels and **the ½ is entirely 4π/8π** — a normalisation of gravity. |
+| Koide | \|f₁/f₀\|² = (Q − 1/3)·(3/2) with Q = 2/3 — **the mode-count shares of a 3-cycle**, a property of the mass spectrum. |
+
+**Eliminated.** No factor is shared. G does not appear in the Koide route; Q does not appear in the
+gravitational one; no substitution carries either into the other. **Same digits, different
+objects.**
+
+**The test was fair, which is what makes the negative useful.** Had the Koide ½ traced back to a
+4π/8π, or the Jeans ½ to a mode count, the identification would have been forced and the link would
+have closed. Neither happened, so the phase is not hiding in the expansion sector.
+
+**What survives: the class.** B is dynamical in the strict sense the obstruction demands — a ratio
+of rates, not geometry in disguise. The lead failed on identity, not on type, so the search stays
+in that aisle: **a source that produces an angle natively from rates, and that carries Q through
+its own derivation rather than arriving at Q's numerical value by another road.**
+
+**Keys tried and eliminated, with reasons:** Y-junction geometry (every Steiner construction returns
+√3 = 1.732, outside the allowed band, and c₂ cannot be a bare length ratio because the correlator is
+screened); the Debye route (the demanded c₁ = 1.345 needs α_dark = 0.123, a weak-coupling value at
+the sector's own confinement temperature); the thaw branching ratio (this entry).
