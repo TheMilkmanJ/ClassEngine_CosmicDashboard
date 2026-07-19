@@ -128,6 +128,13 @@ _m = sorted(x*x for x in _v)
 chk("koide_relation", "theta = 2/9 reproduces m_tau/m_e", 3477.2, _m[2]/_m[0], 1e-3)
 chk("koide_relation", "theta = 2/9 reproduces m_mu/m_e", 206.768, _m[1]/_m[0], 1e-3)
 
+# ---- Pauli finiteness -------------------------------------------------------
+chk("quantum_gravity", "dark str[k1] = 2 N_f N_c - 4(N_c^2-1) at N_c=2,N_f=3", 0,
+    2*3*2 - 4*(2**2-1), 1e-9)
+chk("quantum_gravity", "str[k1] = 16 N_gen - 48 vanishes at N_gen = 3", 0, 16*3-48, 1e-9)
+chk("quantum_gravity", "16 Weyl fermions per generation (with nu^c)", 16, 6+3+3+2+1+1, 1e-9)
+chk("quantum_gravity", "SM alone (15 per generation) gives -3", -3, 15*3-48, 1e-9)
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
