@@ -74,7 +74,7 @@ With the low start explained, the arrow itself is the model's graded free-energy
 | "the arrow is anthropic" | explains selection, not existence | the arrow is the free-energy drawdown — dynamical, metered by C² |
 | "just posit the Past Hypothesis" | an unexplained postulate | replaced by a theorem-shaped statement: first ⟹ vacuum ⟹ minimal entropy |
 
-## 4. The two-sided audit (honest)
+## 4. What is derived, and what is owed
 
 - **What is genuinely derived-from-recorded:** the uniqueness argument (graded), the free-energy
  chain (each link individually graded), the terminus accounting.

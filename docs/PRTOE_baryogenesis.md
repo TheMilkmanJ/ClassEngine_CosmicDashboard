@@ -22,7 +22,7 @@ charge into the lepton sector through the one leptophilic channel (t358b), then 
 reprocess L → B. The transfer's structure is the DC-Josephson form (the recorded junction
 template): $I_L \propto \mu \sin\Delta\theta$.
 
-## 3. The derived form (the review-hold sessions; un-refereed)
+## 3. The derived form [un-refereed]
 $$\eta = n \times \mathcal{T}$$
 — the winding integer times ONE transmission number. Consequences already in force:
 - **The shared-integer cross-kill**: the CMB comb's tooth count (P-029) and the baryon

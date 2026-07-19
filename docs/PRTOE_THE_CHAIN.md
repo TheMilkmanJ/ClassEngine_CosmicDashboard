@@ -112,7 +112,7 @@ next cycle's genesis reads this cycle's closing books and nothing else.
 
 ---
 
-## The audit under the chain law
+## What the chain holds, and what it owes
 
 **Solid spine:** tethers 1→2→3→4 and 6→7 and 9→10 are recorded — the mid-chain is the
 model's strength (which is why the fit works: the data lives mid-chain).
