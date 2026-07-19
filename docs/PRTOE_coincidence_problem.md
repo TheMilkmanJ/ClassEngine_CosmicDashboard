@@ -45,7 +45,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
 - Quintessence trackers: address it with a designed potential (a dial doing the work).
 - This model: the timing follows from √3 (IR scale, derived), B = 1/√2 (Jeans growth rate,
  derived), A_s (measured), and ρ_inf (the occupancy binding
- ½α_c²M₂ = 2.28 meV) — **no dial whose job is the coincidence**. The residual honesty: the
+ ½α_c²M₂ = 2.2599 meV) — **no dial whose job is the coincidence**. The residual honesty: the
  floor VALUE rests on M₂ being selected by the same closure (one constraint, three names) and on
  α_c = 3α; and the cyclic frame re-poses the question at the chain level (why THIS cycle? —
  answered by the bookkeeping's early-cycle lean, recorded). See

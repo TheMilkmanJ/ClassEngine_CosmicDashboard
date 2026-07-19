@@ -629,3 +629,90 @@ answers, because the formats vary — `[C:]`, `[C-conditional:]`, `[C — ours]`
 `[C/[P]]`. The counts I printed mid-audit were wrong and I nearly recorded one. The fix was to stop
 automating and read the thirty lines. **Where a file's own formats are irregular, a regex count is
 a guess wearing a number's clothes.**
+
+## PRTOE_INTERACTION_ATLAS.md — deep audit 2026-07-19, and the propagation it opened
+
+Sixteenth file, and the largest yield so far. Fifteen defects in the atlas itself; then one of them
+turned out to be corpus-wide and took the flagship with it.
+
+**In the file.** A broken table cell ("structuralts"); a heading split across two lines with an
+orphan bracket; three duplicated-word garbles; "as a interaction"; the third law stated one way at
+the top and a different, non-grammatical way at the bottom; a Hulse–Taylor ratio (0.997 ± 0.002)
+paired with the 2016 citation that reports 0.9983 ± 0.0016 — number and source belonged to
+different papers, now both 2016; "thirty-one decades" for a thirty-decade gap; 10¹⁴ GeV called
+"GUT-scale" when it is two decades below it; an orphan section reference `(2.2 Step 1)` pointing
+nowhere, replaced with the argument it named.
+
+**The graveyard census was wrong and failed the file's own tripwire.** It read "7 cold / 6 warm /
+3 risen" — sixteen — against fourteen entries. Rule 2 says the graveyard has become
+finality-avoidance if warm ever exceeds cold, so an inflated warm count makes the file look more
+evasive than it is. Hand-classified: **7 cold, 4 warm, 3 risen**, and now enumerated by name so the
+tripwire has something countable behind it.
+
+**The superradiance entry was sitting under "Nulls checked" while the recorded mass makes it a live
+exposure.** It claimed the axis "misses us TWICE." Both shields were priced at a mass the model no
+longer carries. The kinematic one — α_g ≤ 0.075 even for the heaviest holes — reproduces exactly at
+m ~ 10⁻²² eV and does not survive the move: at the recorded 2.24×10⁻²⁰ eV the same holes give
+α_g ~ 1–17, M87* alone at 1.09, and the superradiant window lands on 6×10⁸–3×10⁹ M☉, which is
+populated and carries high measured spins. The λ-quench shield was swept at λ ~ 10⁻⁸⁸; at the
+recorded λ ≈ 2×10⁻⁹¹ the self-coupling is 500× weaker, **2.7 decades straight off a margin whose
+swept low end was +2.5** — so the low end no longer clears zero, and the α_g shift cannot be folded
+in by scaling because its exponent (9−p)/2 flips sign at p = 9. Rewritten as a live exposure with
+the re-pricing named as owed, and the discriminator marked un-priced by the same amount, since it
+rests entirely on the quench.
+
+**Magnetogenesis was recorded as a silence the model does not claim** — but it is registered as
+P-2026-028 with a number (B ≈ 5×10⁻¹⁸ G from Harrison seeding on the model's own vorticity, a bill
+ΛCDM cannot pay). The understatement pattern again.
+
+## The M₂ / E_b supersession — corpus-wide, and the harness was certifying it
+
+Chasing M₂ = 9.53 eV in the atlas found it in four more files, and then the reason: **9.53 eV is
+α²×179 keV, and 179 keV is the retired T_c.** At the kernel-sourced T_c = 177.10 keV the chain
+gives M₂ = 9.43 eV and ρ_Λ¼ = 2.2599 meV, +0.44% — which is what the dependency tree has recorded
+as derived all along. Ten forward-facing files were still carrying 9.53 / 2.284 / "+1.5%".
+
+**The harness was passing 151/151 while encoding the retired chain.** It set `Tc = 179e3` as an
+input and then checked that M₂ and ρ_Λ¼ came out at 9.53 and 2.2842 — recomputing a claim from its
+own stale inputs, which can only ever pass. The chain now runs forward from τ = ½ln2, so T_c is an
+*output*, and the retired reading is kept as one explicitly-labelled check so a stale number is
+recognisable on sight. **A regression harness that starts from the value under test is not testing
+it.**
+
+**The flagship contradicted itself across forty lines.** Its banner said the headline "is not a
++1.5% prediction" because "T_c has no independent source"; its body forty lines down said "the one
+order-one number left is τ, and it is sourced," and derived it. The banner was right when written
+and was never updated when the kernel supplied τ — the same rot, on the model's most-read page.
+Rewritten to lead with the standing grade and the distinction that carries it (0.34657 against the
+observation-inverted 0.34506; the gap *is* the claim).
+
+**And a circularity, caught while re-pricing.** The flagship claimed its two doors "stand in the
+exact ratio the phase-space factor gives — agreement to 0.04%." Door B is *defined* as E_b/Φ¼ by
+the perturbations door's own formula, so (A/B)⁴ = Φ identically, for any E_b whatever. The 0.04%
+was rounding in an intermediate value, quoted as a convergence between independent computations.
+The content survives — there is no free coefficient to build — but it is an algebraic identity, and
+it now says so.
+
+**P-2026-048's own body still said 0.3503** while the title I gave it this session said 0.34657. I
+had grepped my way through that entry instead of reading it. The addendum was worse: it posed the
+lattice fork as 0.34657 vs 0.3503, making a *rounding artifact* a hypothesis about nature. The fork
+is 0.34657 (kernel) against 0.34506 (observation-inverted); nothing sits at 0.3503 except the
+consequence of rounding 0.345 to two decimals.
+
+**The one place the retired value stays.** T_c = 179 keV is compiled into the pipeline and the
+offline BBN splice. It is one temperature, not two, so the coded value is an approximation of the
+standing one — priced rather than assumed: at 177.10 keV the ramp stamps read 0.6047 and 0.7741
+against the coded 0.6089 and 0.7765, moving the D/H window from +0.645% to +0.641% and the
+prediction by **0.002σ** against a ±0.047×10⁻⁵ budget. Four hundred times smaller than the
+measurement it feeds. Stated in the code manifest and left alone.
+
+**The Fairbank letter moved by one number and it is not the one that matters.** The narrowed anchor
+range (2.25–2.2599 rather than 2.25–2.284) lifts the m_ββ floor from 0.02 to 0.04 meV. The ceiling
+holds at 5.30 either way, and the ceiling is what every conclusion in the letter turns on — the
+floor sits two orders below any experiment's reach. Updated, with that insensitivity said out loud
+so a reader does not have to wonder.
+
+**Species note.** Today's yield splits the same way the session has all along: frozen records held
+(the failures ledger's autopsy was accurate and complete); maintained summaries rotted (the census,
+the harness, the flagship banner, my own P-048 entry). The new one is the harness — an *instrument*
+that rotted, which is worse than a document rotting, because it was the thing certifying the rest.

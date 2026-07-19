@@ -12,9 +12,9 @@ engine before any edit is made — a red-team claim is a hypothesis, not a warra
 | **c** | **9/10** | census counting fraction (N−1)/N: 9 charged species + the vacuum's seat. **DERIVED.** `c = 1` is a DEAD candidate. |
 | **f̄** | **2/π = 0.63662** | the winding time-average ⟨\|cos\|⟩. **DERIVED.** `f_amp ≈ 0.6 / 0.69` is the RETIRED decomposition. |
 | **α_c** | **3α = d·α = 0.02189206** | **the dCDF's** condensate coupling; the 3 is the SPATIAL DIMENSION |
-| **T_c** | **179 keV** | derived (confining chiral). **193 keV is a CROSS-CHECK ONLY — illegal as the keying value.** |
-| **M₂** | **α²·T_c = 9.53 eV** | the "electromagnetic handshake"; T_c is the **dyad's** |
-| **ρ_Λ¼** | **½α_c²M₂ = (9/2)α⁴T_c = 2.284 meV** | obs 2.25 (+1.5%). α⁴ → dCDF; T_c → dyad; 9/2 → geometry |
+| **T_c** | **177.10 keV** | = τ·m_e with τ = ½ln2 from the Koide kernel. **193 keV is a CROSS-CHECK ONLY — illegal as the keying value.** |
+| **M₂** | **α²·T_c = 9.43 eV** | the "electromagnetic handshake"; T_c is the **dyad's** |
+| **ρ_Λ¼** | **½α_c²M₂ = (9/2)α⁴T_c = 2.2599 meV** | obs 2.25 (+0.44%). α⁴ → dCDF; T_c → dyad; 9/2 → geometry |
 | **Y_p** (ramped) | **0.248995** | +1.09σ vs Aver; **+3.53σ** vs EMPRESS. `0.2495–0.2505` is the RETIRED step interval; **`+3.7σ` is the step-era pull.** |
 | **D/H** (standing) | **2.387×10⁻⁵** | **−2.9σ** vs Cooke on the full budget (obs ±0.030 ⊕ PRIMAT theory ±0.037). |
 | **Σm_ν** | **61.4 meV**, normal ordering | m_ββ ∈ [0.04, 5.3] meV, ~3.3 typical |

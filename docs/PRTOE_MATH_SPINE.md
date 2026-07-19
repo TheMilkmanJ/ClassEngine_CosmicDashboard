@@ -15,12 +15,9 @@
 > **Grade: candidate. Its price is one hypothesis** — that the charged-lepton √m are thermally
 > populated, which is what Q = 2/3 asserts (variance of √m equals mean squared, the Boltzmann second
 > moment, holding to 18 ppm). **Its referee is one number:** a lattice T_c/√σ for SU(2), N_f = 3.
-> **0.34657 crowns the kernel and the dark-energy prediction together; 0.3503 kills both.**
->
-> **A superseded figure to watch for.** Older material quotes this at +1.5% via T_c = 179 keV. That
-> is not a prediction — the 179 keV is the observed dark-energy density inverted and rounded to two
-> decimals, so the "agreement" was the rounding gap. The standing claim is +0.44%; the autopsy is in
-> [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+> **A lattice return at 0.34657 crowns the kernel and the dark-energy prediction together; one at
+> 0.34506 shows the model reading the sky back, and kills both.**
+
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

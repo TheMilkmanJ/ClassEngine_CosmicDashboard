@@ -26,14 +26,26 @@ chk("MATH_SPINE",    "fbar = 2/pi", 0.63662, fbar, 1e-4)
 chk("MATH_SPINE",    "alpha_c = 3*alpha", 0.021892, ac, 1e-4)
 
 # ---- the dark-energy chain -------------------------------------------------
-Tc = 179e3
-chk("cosmological_constant", "tau = T_c/m_e", 0.3503, Tc/ME, 1e-3)
-chk("cosmological_constant", "rho_Lambda^(1/4) = (9/2)*alpha^4*T_c", 2.2842,
-    4.5*ALPHA**4*Tc*1e3, 1e-3, "meV")
+# The chain runs FORWARD from the Koide kernel: Parseval fixes tau, tau fixes T_c,
+# T_c fixes M_2, M_2 fixes the floor. Booking T_c as an input and recomputing the
+# floor from it is circular — it recovers whatever T_c was fed in. Start at tau.
+TAU = 0.5*math.log(2)
+chk("cosmological_constant", "tau = (1/2) ln 2, forced by Q = 2/3 via Parseval", 0.34657, TAU, 1e-4)
+Tc = TAU*ME                                   # eV — T_c is an OUTPUT of tau
+chk("cosmological_constant", "T_c = tau * m_e", 177.10, Tc/1e3, 1e-3, "keV")
 M2 = ALPHA**2*Tc
-chk("MATH_SPINE", "M_2 = alpha^2*T_c", 9.53, M2, 5e-3, "eV")
-chk("MATH_SPINE", "rho_Lambda^(1/4) = (1/2)*alpha_c^2*M_2", 2.2842, 0.5*ac**2*M2*1e3, 1e-3, "meV")
-chk("family_tree", "1/M_2 as a length", 20.7, HBARC/M2*1e9, 0.05, "nm")
+chk("MATH_SPINE", "M_2 = alpha^2*T_c", 9.43, M2, 5e-3, "eV")
+chk("cosmological_constant", "rho_Lambda^(1/4) = (9/2)*alpha^4*T_c", 2.2599,
+    4.5*ALPHA**4*Tc*1e3, 1e-3, "meV")
+chk("MATH_SPINE", "rho_Lambda^(1/4) = (1/2)*alpha_c^2*M_2", 2.2599, 0.5*ac**2*M2*1e3, 1e-3, "meV")
+chk("cosmological_constant", "the floor's excess over the observed 2.25", 0.44,
+    (0.5*ac**2*M2*1e3/2.25-1)*100, 0.02, "%")
+chk("family_tree", "1/M_2 as a length", 20.9, HBARC/M2*1e9, 0.05, "nm")
+# The retired reading, kept only so a stale number is recognisable on sight.
+chk("FAILURES_LEDGER", "retired: T_c = 179 keV inverted from the observation", 0.3503,
+    179e3/ME, 1e-3)
+chk("FAILURES_LEDGER", "retired: that T_c gives M_2 = 9.53 eV and a +1.5% floor", 2.2842,
+    0.5*ac**2*(ALPHA**2*179e3)*1e3, 1e-3, "meV")
 
 # ---- the hierarchy exponent ------------------------------------------------
 k, mH = 1.36461, 125.25e9
@@ -371,7 +383,72 @@ chk("P-048", "inconclusive band (1-sigma separation)", 0.0015, _gap, 0.02)
 chk("P-048", "the 2-sigma discrimination requirement", 0.00076, _gap/2, 0.02)
 chk("P-048", "the retired tolerance separated them at", 0.0755, _gap/0.02, 0.02, "sigma")
 
-# ---- report ----------------------------------------------------------------
+# --- INTERACTION_ATLAS deep audit, 2026-07-19 ---
+_alpha = 7.2973525693e-3
+_Msun_GeV = 1.98892e30*5.60958885e26
+_MPl = 1.220890e19
+def _ag(M_over_Msun, m_eV):
+    return M_over_Msun*_Msun_GeV*(m_eV*1e-9)/_MPl**2
+
+# M2 = alpha^2 * T_c at the kernel-sourced T_c, and the E_b it carries
+chk("INTERACTION_ATLAS", "M2 = alpha^2 * T_c at T_c=177.10 keV", 9.43,
+    _alpha**2*177.10e3, tol=0.002, unit="eV")
+chk("cosmological_constant", "E_b = 1/2 ac^2 M2 -> the standing rho_L^1/4", 2.2599,
+    0.5*(3*_alpha)**2*_alpha**2*177.10e3*1e3, tol=0.002, unit="meV")
+chk("cosmological_constant", "the retired T_c=179 keV reproduces the retired 2.284", 2.2842,
+    0.5*(3*_alpha)**2*_alpha**2*179.0e3*1e3, tol=0.002, unit="meV")
+
+# the superradiance band at the recorded mass: P-034's edges are alpha_g in [0.1, 0.5]
+chk("INTERACTION_ATLAS", "alpha_g at 6e8 Msun (P-034 lower edge)", 0.10, _ag(6e8, 2.24e-20), tol=0.02)
+chk("INTERACTION_ATLAS", "alpha_g at 3e9 Msun (P-034 upper edge)", 0.50, _ag(3e9, 2.24e-20), tol=0.02)
+chk("INTERACTION_ATLAS", "alpha_g at M87* (6.5e9) -- past the window", 1.09, _ag(6.5e9, 2.24e-20), tol=0.02)
+# the old entry's kinematic shield was correct for the mass it was written against
+chk("INTERACTION_ATLAS", "retired shield: alpha_g at 1e11 Msun, m=1e-22 eV", 0.075,
+    _ag(1e11, 1e-22), tol=0.02)
+# the recorded mass sits ABOVE the M87* exclusion band, not below it
+import math as _m
+chk("INTERACTION_ATLAS", "decades of 2.24e-20 eV above the M87* band top (4.6e-21)", 0.69,
+    _m.log10(2.24e-20/4.6e-21), tol=0.02, unit="dex")
+# f_eff and what the lambda move costs the quench margin
+chk("INTERACTION_ATLAS", "f_eff = m/sqrt(lambda) at recorded values", 5.01e16,
+    (2.24e-20*1e-9)/_m.sqrt(2e-91), tol=0.01, unit="GeV")
+chk("INTERACTION_ATLAS", "decades N_eq grows when lambda 1e-88 -> 2e-91", 2.70,
+    _m.log10(1e-88/2e-91), tol=0.01, unit="dex")
+chk("INTERACTION_ATLAS", "swept quench margin low end, re-priced", -0.20,
+    2.5 - _m.log10(1e-88/2e-91), tol=0.05, unit="dex")
+
+# the graveyard census must total its own entry count
+chk("INTERACTION_ATLAS", "graveyard census totals the 14 entries", 14, 7+4+3, tol=0.0)
+
+# 0nubb: the m_bb reach mapping, calibrated on KamLAND-Zen's published limit
+_K_best = 2.3e26*(36e-3)**2      # eV^2 yr, favourable NME
+_K_worst = 2.3e26*(156e-3)**2    # eV^2 yr, unfavourable NME
+chk("fairbank_note", "nEXO baseline reach in m_bb, favourable NME", 4.70,
+    _m.sqrt(_K_best/1.35e28)*1e3, tol=0.01, unit="meV")
+chk("fairbank_note", "nEXO baseline reach in m_bb, unfavourable NME", 20.3,
+    _m.sqrt(_K_worst/1.35e28)*1e3, tol=0.01, unit="meV")
+chk("fairbank_note", "barium-tagged reach (4x in T-half)", 2.35,
+    _m.sqrt(_K_best/(4*1.35e28))*1e3, tol=0.01, unit="meV")
+
+
+# --- the T_c supersession, propagated 2026-07-19 ---
+_TD, _TLi = 179.0*(1-0.6089), 179.0*(1-0.7765)     # the temperatures the coded stamps sit at
+chk("CODE_MANIFEST", "D-bottleneck ramp stamp at the standing T_c", 0.6047, 1-_TD/177.10, 1e-3)
+chk("CODE_MANIFEST", "Li ramp stamp at the standing T_c", 0.7741, 1-_TLi/177.10, 1e-3)
+chk("CODE_MANIFEST", "D/H window shift from the T_c move, in sigma", 0.0023,
+    abs(2.387*0.00645*((1-_TD/177.10)/(1-_TD/179.0)-1))/0.047, 0.05, "sigma")
+# the m_bb window at the narrowed anchor range
+_dm21b, _dm31b, _s12b, _s13b = 7.42e-5, 2.515e-3, 0.307, 0.022
+def _wn(m1):
+    m2, m3 = math.sqrt(m1**2+_dm21b), math.sqrt(m1**2+_dm31b)
+    t = [(1-_s12b)*(1-_s13b)*m1, _s12b*(1-_s13b)*m2, _s13b*m3]
+    return sum(t)*1e3, max(0.0, 2*max(t)-sum(t))*1e3
+chk("fairbank_note", "m_bb floor at the observed anchor 2.25", 0.044, _wn(2.25e-3)[1], 0.02, "meV")
+chk("fairbank_note", "m_bb floor at the derived anchor 2.2599", 0.038, _wn(2.2599e-3)[1], 0.02, "meV")
+chk("fairbank_note", "m_bb ceiling holds at 5.30 across the anchor range", 5.30,
+    max(_wn(2.25e-3)[0], _wn(2.2599e-3)[0]), 0.005, "meV")
+
+# ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
 for ok, doc, claim, booked, got, unit in R:

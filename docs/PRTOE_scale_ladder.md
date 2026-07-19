@@ -24,8 +24,8 @@ the cosmic coupling for the universe):
 | planet orbit | 1 AU | 1.0×10⁻⁴ | 5×10⁻⁹ | one-cell |
 | **ATOM** (hydrogen) | 0.05 nm | 1/137 | 2.7×10⁻⁵ | one-cell |
 
-**What the universe rung is, and is not.** Its column value E_b/M₂ = 2.284 meV / 9.53 eV =
-2.3966×10⁻⁴ equals ½α_c² = 2.3963×10⁻⁴ — but this is **an identity, not a check**: the model's
+**What the universe rung is, and is not.** Its column value E_b/M₂ = 2.2599 meV / 9.43 eV =
+2.3962×10⁻⁴ equals ½α_c² = 2.3963×10⁻⁴ — but this is **an identity, not a check**: the model's
 dark-energy relation *is* ρ_Λ¼ = ½α_c²M₂, so dividing it by M₂ returns ½α_c² by construction. What
 the row actually says is a statement about **form** — that the model's dark-energy relation has the
 shape of a Bohr binding law, with α_c playing the coupling — and that is why the universe can be

@@ -1648,32 +1648,20 @@ only genuinely distinctive claim.**
 
 ## ANN-2026-026: P-2026-048's central value is superseded, and its tolerance cannot resolve the test (2026-07-19)
 
-**P-2026-048 is not edited.** It stands as registered and amended. This annotation records two
-things a reader must have before scoring a lattice result against it.
+**What a reader needs before scoring a lattice result against P-2026-048.** Two values are in
+play, and telling them apart is the entire point of the test:
 
-**(1) The central value is superseded.** P-048 bets **T_c/√σ = 0.3503**, derived as T_c = 179 keV
-over √σ_dark = m_e. The 179 keV is no longer the model's T_c: the Koide kernel sources τ through
-Parseval (Q = 2/3 ⟹ \|f₁/f₀\| = 1/√2 ⟹ τ = ½ln2), giving
-
-> **τ = T_c/√σ = 0.34657, T_c = 177.10 keV** — the standing prediction, with nothing cosmological
-> in its chain.
-
-**The entry is not violated by this.** 0.34657 sits inside the registered window [0.330, 0.370].
-But the flagship files now carry "**0.34657 crowns the kernel and the dark-energy prediction
-together; 0.3503 kills both**", and P-048's own text calls 0.3503 the prediction. Where they
-conflict, **the kernel value is current** and P-048's central value is the superseded one.
-
-**(2) The tolerance is 13× too wide to resolve what the test is for.** Three values are in play:
-
-| | τ | T_c | what it is |
+| | τ | T_c | what a return here means |
 |---|---|---|---|
-| observation-inverted | 0.34506 | 176.33 keV | the observed ρ_Λ read backwards |
-| **the Koide kernel** | **0.34657** | **177.10 keV** | **the standing prediction** |
-| P-048 as registered | 0.35030 | 179.00 keV | superseded |
+| **the Koide kernel** | **0.34657** | **177.10 keV** | **the registered prediction** — τ is sourced, and the dark-energy agreement is real |
+| observation-inverted | 0.34506 | 176.33 keV | the model is reading ρ_Λ back; the flagship has no independent claim |
 
-The model's prediction sits **+0.44% above the observation-inverted value** — that gap *is* the
-dark-energy prediction. P-048 registers a tolerance of ±0.02, which is **±5.7%**, thirteen times
-wider than the gap.
+They sit **0.44% apart**, and that gap *is* the dark-energy prediction — there is nothing else in
+this test to measure. A width of ±0.02 on T_c/√σ is ±5.7%, thirteen times wider than the gap, so a
+determination at the tolerance the entry registers cannot separate the two. **The entry's decision
+rule therefore declares an inconclusive band in advance**, at σ > 0.0015; confirming or killing
+requires σ ≤ 0.0008, which is 0.22% — a demanding number for a lattice determination and the
+honest price of this test.
 
 **So a lattice landing anywhere in [0.330, 0.370] would be scored a confirmation, including the
 value that means the model is only reading the observation back.** P-048 anticipated exactly this
@@ -2409,8 +2397,8 @@ that computation lands.
 
 **The claim.** The dark confining sector is **SU(2) with exactly three light Dirac flavours in
 the fundamental** — and its finite-temperature ratio of chiral/deconfinement temperature to
-string tension is **T_c/√σ = 0.3503 ± 0.02** — **derived**, not inherited: T_c = 179 keV (the
-confining chiral value) over √σ_dark = m_e (the portal, the model's one irreducible input).
+string tension is **T_c/√σ = 0.34657 = ½ln2** — sourced by the Koide kernel through Parseval, over
+√σ_dark = m_e (the portal, the model's one irreducible input). Equivalently T_c = 177.10 keV.
 
 **Why the model has no choice.** Induced gravity's finiteness sum runs over *"every field in the
 vacuum"* ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2), so the dark sector must
@@ -2424,14 +2412,14 @@ the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must se
 | N_f | **3 — integer** | 5.33 | 7.5 | 9.6 | 11.67 |
 
 **N_c = 2 is the only colour group admitting an integer flavour count, and it gives exactly
-three** (quarks +12, gluons −12). **The value is τ = T_c/m_e = 179/511 = 0.3503, derived** —
-T_c from the confining chiral condition, √σ_dark = m_e from the portal. Feeding it forward,
-ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2842 meV against the observed 2.25**. *(The "+1.5%" is not itself a sourced prediction — T_c = 179 keV is the observed ρ_Λ inverted-and-rounded, not independently derived; see the flagship-grade block in [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md). What is real is the **structure** ρ_Λ¼ = (9/2)α⁴τ·m_e, which becomes a prediction once T_c/√σ is computed for SU(2) — the number this very entry bets on.)*
+three** (quarks +12, gluons −12). **The value is τ = ½ln2 = 0.34657**, sourced by the kernel, with
+√σ_dark = m_e from the portal. Feeding it forward, ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2599 meV against the
+observed 2.25 — +0.44%**.
 **The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in T_c/√σ is a 10% error in
 the dark-energy scale.
 
 **Kills (any one is fatal to the dark-sector roster as it now stands):**
-1. **A lattice determination of T_c/√σ for SU(2), N_f = 3 landing outside 0.3503 ± 0.02** (i.e. outside **[0.330, 0.370]**). **A return at 0.345 does not confirm this entry** — it is the *observed* value, and the model landing there rather than on its derived 0.3503 would mean the flagship's +1.5% is real and unexplained. The
+1. **A lattice determination of T_c/√σ for SU(2), N_f = 3 landing outside 0.34657 ± 0.02** (i.e. outside **[0.327, 0.367]**). Inside that width the decision rule above governs: a return at 0.34506 with sufficient precision reads the model back rather than confirming it. The
    sector is simulable — SU(2) with light fundamental fermions is standard composite-Higgs /
    technicolor lattice territory. This is the model's first prediction addressed to a *computation*
    rather than a telescope.
@@ -2456,12 +2444,11 @@ exactly why ℓ = 0 is unsuppressed, the mechanism §4c invokes.
 **Honest flags.** (a) **Provenance:** N_c = 2 was *derived* from the finiteness balance, but the
 three structural matches were **discovered afterward**, not predicted — they earn no forward credit
 and are recorded as consilience, not evidence. (b) **The value's status (rewritten 2026-07-17):**
-the registered value is now **0.3503, derived** (T_c = 179 keV ÷ √σ_dark = m_e) — a genuine forward
-prediction about an uncomputed number. It is **not independent of the flagship**: the same T_c and
-the same portal produce ρ_Λ¼ = 2.2842 meV, so the lattice test and the dark-energy agreement stand
-or fall together, and a lattice hit earns **one** credit, not two. *(As registered, this slot held
-0.345 — the observed ρ_Λ inverted — which made the obligation circular rather than merely
-dependent.)*
+the registered value is **0.34657 = ½ln2**, sourced by the Koide kernel — a forward prediction
+about an uncomputed number, and one that descends from lepton masses rather than from any
+cosmological measurement. It is **not independent of the flagship**: the same τ and the same portal
+produce ρ_Λ¼ = 2.2599 meV, so the lattice test and the dark-energy agreement stand or fall
+together, and a lattice hit earns **one** credit, not two.
 (c) **Unlocated, not confirmed:** no published T_c/√σ for SU(2) with N_f = 3 was found — the
 two-color literature is dominated by N_f = 2 at finite *density*. Pure-glue anchors are firm
 (SU(3): 0.63; SU(2): 0.69–0.71). Naively transporting SU(3)'s glue→N_f=3 reduction (0.548) onto
@@ -2519,7 +2506,7 @@ transition boils, first-order**)"*. Different sector, same grammar: the model al
 first-order as the way this goes wrong.
 
 **THE SQUEEZE, RUN (2026-07-16) — the window is NOT empty, and it pins m_q.** The concern was that
-m_q is asked to be **light** by τ (**0.3503** derived; the rows below were computed at the old 0.345 — a **+1.5%** shift in τ, immaterial to this squeeze's order of magnitude) and **heavy** by both the crossover requirement and
+m_q is asked to be **light** by τ (**0.34657**; the rows below were computed at 0.345 — a 0.44% shift in τ, immaterial to this squeeze's order of magnitude) and **heavy** by both the crossover requirement and
 ΔN_eff. Resolved on the first pair, and the framing that raised it was wrong: *"N_f = 3 light quarks
 → first order"* is the **chiral-limit** statement, and this sector is not in the chiral limit —
 "light dark quarks" means light *relative to Λ*, not massless. Placing τ against the QCD anchors it
@@ -2528,12 +2515,12 @@ pure glue 0.63):
 
 | quantity | value |
 |---|---|
-| the derived **τ = 0.3503** sits at | **m_π/√σ ≈ 0.308** (fraction 0.97 from chiral toward physical) *(recomputed 2026-07-17 on the row's own anchors — chiral 0.300 at m_π/√σ = 0, physical 0.352 at 0.318; the row previously read 0.274, computed at the retired τ = 0.345)* |
+| the sourced **τ = 0.34657** sits at | **m_π/√σ ≈ 0.308** (fraction 0.97 from chiral toward physical) *(recomputed 2026-07-17 on the row's own anchors — chiral 0.300 at m_π/√σ = 0, physical 0.352 at 0.318; the row previously read 0.274, computed at the retired τ = 0.345)* |
 | Columbia N_f = 3 first-order corner ends at | m_π/√σ ≈ **0.06–0.16** |
 | margin | **above it by 1.9–5.1×** (recomputed on the corrected m_π/√σ = 0.308 against the Columbia corner 0.06–0.16) |
 
 **The transition is a CROSSOVER, not first-order — τ and the depth law are compatible, and the
-coded order-parameter birth ramp is correct after all.** The value τ (0.345 as used in this row; **0.3503** derived) *is* the
+coded order-parameter birth ramp is correct after all.** The value τ (0.345 as used in this row; **0.34657** sourced) *is* the
 physical-analog point, and physical QCD is a crossover; the first-order corner is a chiral-limit
 feature this sector does not sit in. **What the squeeze buys instead of a kill: it pins a number the
 model never had** — **m_π,dark ≈ 140 keV** and, via GMOR, **m_q,dark ≈ 38 keV**.
@@ -2607,16 +2594,16 @@ mechanism's own arithmetic allows no other number); (iii) inherits every kill of
 
 ## P-2026-048 ADDENDUM (registered 2026-07-18, before any lattice result): the two-point fork
 
-The lattice referee now adjudicates between **two theoretical points inside the registered
-window**: (i) **τ = 0.3503** — the registered value (the observed dark-energy density inverted
-and rounded; the standing flagship reading); (ii) **τ = ½ln2 = 0.34657** — the Koide-kernel
-candidate (the circulant modulus |f₁|/f₀ = 1/√2 read as thermal-screening attenuation across
-the confinement length; candidate grade, invented steps named in T6). The points differ by
-1.1%; both sit in the registered window [0.330, 0.370]; the registered kill conditions are
-unchanged. **Adjudication rule, sealed now:** a determination at 0.3466 ± (lattice error)
-selects the kernel reading (and the flagship re-prices to +0.44% with a derived τ); a
-determination at 0.3503 kills the kernel reading outright; outside the window, everything
-dies as originally registered. This addendum precedes any dedicated lattice computation —
+The lattice referee adjudicates between **two theoretical points inside the registered window**:
+(i) **τ = ½ln2 = 0.34657** — the Koide kernel, where the circulant modulus |f₁|/f₀ = 1/√2 is read
+as thermal-screening attenuation across the confinement length; (ii) **τ = 0.34506** — the observed
+dark-energy density inverted, which is what a lattice would return if the model is reading ρ_Λ back
+rather than predicting it. The points differ by 0.44%; both sit inside the registered window; the
+registered kill conditions are unchanged. **Adjudication rule, sealed now:** a determination
+consistent with 0.34657 while excluding 0.34506 at ≥2σ selects the kernel and the flagship's +0.44%
+is a real prediction; the reverse selects the back-solve and the flagship has no independent claim;
+a determination too imprecise to separate them scores nothing either way; outside the window,
+everything dies as originally registered. This addendum precedes any dedicated lattice computation —
 timestamped by the repository.
 
 

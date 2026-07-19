@@ -1,41 +1,36 @@
 # The Cosmological Constant from Vacuum Occupancy
 
-> **The flagship's grade — the "+1.5%" read straight.** The dark-energy scale ρ_Λ¼ = 2.284 meV
-> against the observed 2.25 is not a **+1.5% prediction**. The chain's last free number is
-> τ = T_c/m_e, and T_c has **no independent source**:
+> **The flagship's grade.** The dark-energy scale follows the closed form
+> ρ_Λ¼ = (9/2)α⁴·τ·m_e, where the α⁴ is derived — the condensate's own binding α_c² times the
+> electromagnetic handshake α² — and the single order-one number τ = T_c/m_e is supplied by the
+> Koide sector's circulant kernel: Parseval fixes |f₁/f₀| = 1/√2 once Q = 2/3, and τ = −ln|f₁/f₀| =
+> **½ln2 = 0.34657** follows. The chain descends from a lepton-mass fact and nothing cosmological
+> enters it. It gives **T_c = 177.10 keV** and
 >
-> | route offered | what it actually is |
-> |---|---|
-> | "T_c = τ·m_e" | **circular** — τ ≡ T_c/m_e |
-> | the perturbative CW route | **log-ambiguous ~[40, 900] keV**, and gives **193**, not 179 |
-> | the lattice band T_c/√σ ≈ 0.34–0.37 | an **SU(3)** value; this model's dark sector is **SU(2)** (P-2026-048). Pure-glue anchors disagree ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71). **No SU(2), N_f = 3 number exists.** |
+> > **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%.**
 >
-> The number's origin is a rounding: `scripts/tau_deconfinement.py` computes one line,
-> **`tau_needed = 2.25/ceiling = 0.34506`** — *the observed dark-energy density inverted*. 0.345
-> rounded to two decimals is 0.35; 0.35 × m_e = 178.85 keV → adopted as **179 keV**. The three
-> +1.5%s in this corpus are **one number**:
+> **The 0.44% is the whole claim, and the reason is worth stating before anything else.** Inverting
+> the observation gives τ = 2.25/((9/2)α⁴m_e) = **0.34506**, which returns 2.25 by construction — a
+> perfect match that predicts nothing. The kernel's 0.34657 sits 0.44% above that value, so the gap
+> between them is precisely what distinguishes a derivation from a back-solve. **A lattice T_c/√σ
+> for SU(2) with N_f = 3 decides it** (P-2026-048), and it must reach 0.22% precision to tell the
+> two apart — a demanding number, and nobody has computed it yet.
 >
-> > 179/176.32 = **+1.52%**  ·  0.35029/0.34506 = **+1.52%**  ·  ρ_Λ¼(179)/2.25 = **+1.52%**
->
-> So the headline agreement is the gap introduced by rounding the observed density to two decimals.
-> What is real: (i) the *structure* ρ_Λ¼ = (9/2)α⁴·τ·m_e — the dark-energy scale as α⁴ times a
-> temperature tied to the electron — which makes the sector predictive **once τ is sourced**;
-> (ii) the back-solved τ = 0.345 **lands inside the QCD-like lattice band**, a real but **weak**
-> check (the band is 8.5% wide, and it is the wrong gauge group). What would make it a prediction:
-> **a lattice T_c/√σ for SU(2) with N_f = 3** — the number P-2026-048 bets on, and the number
-> nobody has computed.
+> **What remains conditional:** α_c = 3α is a registered bet under MCMC test, and the portal
+> √σ_dark = m_e — why the dark scale equals the electron mass — is the one irreducible input. The
+> pinning is not derived and the file says so where it arises.
 
 
 > **Whose coupling is whose — the flagship's two fields.** ½α_c²M₂ hides that
 > the dark-energy scale is a **cross of BOTH dark fields**, not one field's product. Substituting
 > α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical to 4×10⁻¹⁹):
 >
-> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c = 2.2842 meV** *(observed 2.25; +1.5%)*
+> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c = 2.2599 meV** *(observed 2.25; +0.44%)*
 >
 > | factor | owner | why |
 > |---|---|---|
 > | **α⁴** = α_c² × α² | **the dCDF** | α_c² is its **binding**; α² is the **EM handshake** — and α is the dCDF's own coupling because **light is its massless Goldstone** ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §4) |
-> | **T_c** | **the dyad** | its condensation temperature, 179 keV *(the ratio τ = T_c/m_e is what's derived-and-rounded; 179 keV itself is not independently sourced — flagship-grade block)* |
+> | **T_c** | **the dyad** | its condensation temperature, 177.10 keV — the Koide kernel's τ = ½ln2 times the electron mass |
 > | **d²/2 = 9/2** | **geometry** | d = the spatial dimension (the same 3 as in α_c = 3α) |
 >
 > **Neither field produces the number alone**: the dark-energy scale is the dCDF's coupling raised
@@ -71,25 +66,24 @@ exponentially small because it sits at the bottom of a pairing hierarchy.
 two-body form E_b = ½α²M, applied to the condensate's coupling α_c and its EFT mass
 scale M₂):
 
-$$E_b = \tfrac{1}{2}\,\alpha_c^2\,M_2, \qquad \alpha_c = 3\alpha = 0.021892,\quad M_2 = \alpha^2 T_c = 9.53\ \text{eV}$$
+$$E_b = \tfrac{1}{2}\,\alpha_c^2\,M_2, \qquad \alpha_c = 3\alpha = 0.021892,\quad M_2 = \alpha^2 T_c = 9.43\ \text{eV}$$
 
-$$E_b = 2.28\ \text{meV}$$
+$$E_b = 2.2599\ \text{meV}$$
 
 **(b) The occupancy statement.** The vacuum's gravitating density is one binding
 quantum per coherence cell of volume 1/E_b³:
 
-$$\rho_\Lambda = E_b^4 \quad\Longrightarrow\quad \rho_\Lambda^{1/4} = 2.28\ \text{meV}$$
+$$\rho_\Lambda = E_b^4 \quad\Longrightarrow\quad \rho_\Lambda^{1/4} = 2.2599\ \text{meV}$$
 
-**Measured: ρ_Λ^{1/4} = 2.25 meV. On the rounded τ the agreement reads 1.5%, which is the τ = 0.345→0.35 rounding, not a sourced prediction; zero adjustable
+**Measured: ρ_Λ^{1/4} = 2.25 meV — the chain lands +0.44% above it, with zero adjustable
 parameters in the final step.**
 
 **(c) The provenance of M₂.** M₂ is fixed two ways that now agree: the condensate's
 effective-theory dictionary (a ghost-condensate-class EFT, M₂⁴ = X₀²P₂) puts it in a
-natural band 2.7–9.7 eV, and the electromagnetic handshake gives M₂ = α²·T_c = 9.53 eV
-once T_c is pinned at ≈179 keV by the dark sector's confining dynamics (below). So M₂ is
-*derived* from T_c, not selected to hit the answer: the chain runs one way —
-m_e → T_c → M₂ → ρ_Λ = 2.28 meV. **The 1.5% is not a sourced prediction** (T_c is the observation inverted-and-rounded — see the flagship-grade block); the *structure* of this one-way chain is what would make it one, once T_c/√σ is computed for SU(2).
-The free inputs are the portal (√σ_dark = m_e, below) and α_c = 3α (under MCMC test).
+natural band 2.7–9.7 eV, and the electromagnetic handshake gives M₂ = α²·T_c = 9.43 eV
+at the kernel-sourced T_c = 177.10 keV. So M₂ is *derived* from T_c, not selected to hit the
+answer: the chain runs one way — m_e → T_c → M₂ → ρ_Λ¼ = 2.2599 meV, +0.44% against the observed
+2.25. The free inputs are the portal (√σ_dark = m_e, below) and α_c = 3α (under MCMC test).
 
 **A closed form for the scale.** The dyad and the condensate communicate only through the shared
 electron, and both couplings are electromagnetic, which fixes the condensate's mass scale as
@@ -226,43 +220,47 @@ the Gibbs–Duhem deviation, the residual fountain excitation, the un-cancelled 
 dig (the three-door guideline; a diagnostic, not an executioner). **The O(1) coefficient
 (`scripts/kubo_freeze.py`):** the *full* phonon thermal excitation at the
 freeze T = m_ν over-predicts by 3.2× (ρ¼ = (π²/30 c_s³)¼ m_ν = 7.1 meV), confirming Λ is the
-*suppressed residual*, not the full sum. **The 7.1 does not descend to 2.70 — there is no such
+*suppressed residual*, not the full sum. **The 7.1 does not descend to 2.67 — there is no such
 step.** The two are *independent* readings, not a chain:
-16π²α_c^{3/2} = **0.5115**, and 7.1 × 0.5115 = 3.63 while 7.1 × 0.5115¼ = 6.00 — **neither is 2.70**.
-Where 2.70 actually comes from is the perturbations door's own formula, ρ = E_b⁴/(16π²c_s³) with
+16π²α_c^{3/2} = **0.5115**, and 7.1 × 0.5115 = 3.63 while 7.1 × 0.5115¼ = 6.00 — **neither is 2.67**.
+Where 2.67 actually comes from is the perturbations door's own formula, ρ = E_b⁴/(16π²c_s³) with
 c_s = √α_c:
 
-> **ρ¼ = E_b/(16π²α_c^{3/2})¼ = 2.2842/0.84585 = 2.701 meV**
+> **ρ¼ = E_b/(16π²α_c^{3/2})¼ = 2.2599/0.84569 = 2.672 meV**
 
 **And the factor is not a suppression.** In that formula it is a **divisor < 1**, so it *raises*
 the flagship binding by **+18.2%** — an **enhancement**. The full phonon sum's role is unchanged and
 still holds: it over-predicts by **3.2×**, which is what licenses reading Λ as a residual rather
 than the full sum. But the residual's *size* is not obtained by applying the phase-space factor to
-7.1. So the thermal-door scale (2.25 meV, forward) and the perturbations-door coefficient (2.701)
-are **one number to ~20%** — the honest statement — and the owed O(1) (effective mode count g_*,
-the exact Landau cap) is the gap between **E_b and E_b/(16π²α_c^{3/2})¼**, not between 7.1 and 2.70. **Located precisely:** the
-flagship E_b = ½α_c²M₂ = 2.284 meV (**1.5% high**) and the tie m_ν = 2.250 meV agree to **1.5%** and
-both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full phonon sum
-(+18%, exactly the phase-space factor). **The cancellation fraction is not an independent unknown (2026-07-18).** The two doors stand
-in the exact ratio the phase-space factor gives: door A over door B is 0.51131 in energy
-density against Φ = 16π²α_c^(3/2) = 0.51150 — agreement to 0.04%. **The equilibrium identity
-does remove the measure, exactly.** What made it look otherwise was comparing the *observed*
-value to door B rather than the model's own prediction: f = (observed/B)⁴ = 0.4815 differs
-from Φ by precisely the flagship's own gap to the observation — 1.5% in the scale, 6.2% in the
-density — which is the τ rounding this file already grades as an artifact rather than physics.
-So the owed-item count drops by one: there is no separate coefficient to build, and when the
-lattice sources τ, the fraction is fixed with no freedom left. *(The earlier reading of f as a
-partial Gibbs–Duhem
-cancellation on the mode sum — **the genuinely un-built calculation, and it stays un-built.**
-*(An equipartition reading — f = ½ from a zero-point K = V split, giving 2.27 meV — was tried and
+7.1. So the thermal-door scale (2.25 meV, forward) and the perturbations-door coefficient (2.672)
+are **one number to ~19%** — the honest statement — and the owed O(1) (effective mode count g_*,
+the exact Landau cap) is the gap between **E_b and E_b/(16π²α_c^{3/2})¼**, not between 7.1 and 2.67.
+**Located precisely:** the flagship E_b = ½α_c²M₂ = 2.2599 meV (**+0.44%**) and the tie
+m_ν = 2.250 meV agree to that same 0.44%, and both sit at the observed 2.25; the perturbations
+2.672 is the *un-cancelled* full phonon sum, +18.2% above E_b, which is exactly the phase-space
+factor.
+
+**The cancellation fraction is not an independent unknown, and the reason is algebraic rather than
+numerical.** Door B is not a separate computation that happens to land nearby — it is *defined* as
+E_b/Φ¼ by the perturbations door's own formula above. So f = (door A / door B)⁴ = Φ identically,
+for any E_b whatever, and quoting a percentage agreement between them would be quoting a rounding
+error. The content is the identity itself: **there is no free coefficient to build here.** What made
+it look like there was one was computing f from the *observed* value instead of the model's own:
+f = (2.25/2.672)⁴ = 0.503 against Φ = 0.5115, and that 1.7% gap in density is nothing but the
+model's own +0.44% gap to the observation raised to the fourth power. One owed item fewer, on an
+algebraic ground that does not depend on the value of τ.
+
+The earlier reading of f — as a partial Gibbs–Duhem cancellation on the mode sum — is a different
+object, and it remains **the genuinely un-built calculation.** *(An equipartition reading — f = ½
+from a zero-point K = V split, giving 2.27 meV — was tried and
 **failed** on two independent grounds. (i) The number is not independent: 16π²α_c^{3/2} = 0.5115 ≈ ½,
-so ½-of-2.70 = 0.994 × E_b — the flagship binding energy re-packaged, and E_b is itself the observed
-ρ_Λ inverted-and-rounded, so the "+0.9%" is not fresh evidence. (ii) The mechanism is invalid: a
+so ½-of-door-B = 0.994 × E_b — the flagship binding energy re-packaged, so the "+0.9%" restates
+E_b rather than testing it. (ii) The mechanism is invalid: a
 harmonic condensate mode is honestly **w = 0** (⟨w⟩ = (n−2)/(n+2) = 0 at n = 2 — the textbook reason
 an oscillating scalar is cold dark matter), not w = −1; the (+1, −1) split reads classical pure-state
 extremes off a stationary quantum ground state, and the "redshift only the kinetic half" rescue
 violates the uncertainty principle. The only honestly w = −1 object is the static potential floor V₀
-at coefficient **1** → 2.70 meV (+20%), value un-sourced — no home for a ½. **What DOES survive
+at coefficient **1** → 2.67 meV (+19%), value un-sourced — no home for a ½. **What DOES survive
 (the other half):** the ¼ + ¼ split is exact, and both halves together give w = 0 = **cold dark
 matter** — which is just the dCDF's own excitation sector (dust-like below z_on) re-confirmed by the
 virial theorem. So the analysis correctly identifies the condensate mode as *dark matter*; it only
@@ -275,25 +273,25 @@ object's two faces. Autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.
 and §2(a) derives E_b as the *universal two-body form* ½α²M — the **ℓ = 0 Coulomb ground state**,
 the dark Rydberg, spherically symmetric by construction. It is **not a BCS pairing gap**. So no
 gap-anisotropy weighting and no pair-counting of collective modes bears on it: those act on a
-many-body gap, and this is a two-body bound state. **The perturbations door sits at +20.0%
-(ρ¼ = 2.701 meV), and the factor between the doors is the derived phase-space measure** — the
-two agree to 0.04%, so no separate cancellation coefficient is owed (above).
+many-body gap, and this is a two-body bound state. **The perturbations door sits at +18.2%
+(ρ¼ = 2.672 meV), and the factor between the doors is the derived phase-space measure by
+construction** — door B is defined as E_b/Φ¼ — so no separate cancellation coefficient is owed
+(above).
 
 **A physical reading of the cancellation f (argument-grade).** The "partial cancellation" that
-takes the un-cancelled sum (2.70) down to the observed residual (2.25) has a standard superfluid
+takes the un-cancelled sum (2.67) down to the observed residual (2.25) has a standard superfluid
 identity: it is the **renormalization of the reference zero-point.** The two doors are two
-*different* objects. **Door B (2.70) = the raw phonon zero-point sum** ½Σℏω_k over the Goldstone
+*different* objects. **Door B (2.672) = the raw phonon zero-point sum** ½Σℏω_k over the Goldstone
 modes (ω = c_s k up to the E_b cutoff, c_s = √α_c) — a UV-divergent *reference vacuum*, present with
-or without the condensate and absorbed into the bare Λ. **Door A (2.28) = the condensation energy**
+or without the condensate and absorbed into the bare Λ. **Door A (2.2599) = the condensation energy**
 ½α_c²M₂ — the order-parameter-dependent depth of the Mexican hat, the physical energy difference
 between the condensed and un-condensed vacuum (the superfluid analogue of the BCS condensation
 energy ½N(0)Δ²). The physical dark energy is the **condensation energy** — the vacuum shift the
-condensate actually causes — so the flagship correctly reads Door A (2.28, +1.5%), and 2.70 is the
-reference it sits on, not a competing prediction. **Crucially this does not lean on
+condensate actually causes — so the flagship correctly reads Door A (2.2599, +0.44%), and 2.672 is
+the reference it sits on, not a competing prediction. **Crucially this does not lean on
 16π²α_c^{3/2} ≈ ½** — the coincidence that sank the equipartition reading — it is
-condensation-vs-reference, pure superfluid logic. *(Two caveats stay live: (i) it fixes **which
-door**, not the **value** — Door A's magnitude still rides on τ = T_c/m_e = observation-inverted, so
-the flagship's τ-sourcing gap is untouched; (ii) the quantum correction is **O(1), not small** — the
+condensation-vs-reference, pure superfluid logic. *(One caveat stays live: it fixes **which
+door**, not the **value**; and the quantum correction is **O(1), not small** — the
 zero-point/mean-field ratio 1/(16π²c_s³) = 1.955 because c_s = √α_c = 0.148 is small — so an
 irreducible ~O(1) strong-coupling piece remains, the same un-built number, pinned only
 non-perturbatively by the SU(2) lattice. A first route that tried to make the Goldstone shift
@@ -317,10 +315,11 @@ is the non-analytic Lee–Huang–Yang term:
 16π²α_c^{3/2} structure — the circularity test passes). **What this buys and what it costs, both
 honest.** It buys: the correction is **percent-class, not O(1), for any controlled coupling** —
 SAFE for λ ≲ 10; the series loses control above λ* ≈ 22 (the next-order term overtakes), where
-neither safe nor exposed is certifiable. It costs: **the +1.5% regrades to mean-field-level
+neither safe nor exposed is certifiable. It costs: **the +0.44% regrades to mean-field-level
 consistency** — E_b is the *prediction*, not an absorber of radiative pieces, so the flagship
-carries an un-pinned O(λ · few %) radiative band for any λ ≳ 0.2–0.5; the *precision* of the +1.5%
-is exposed even though its *existence* is not. **The one missing input is named: λ** (equivalently
+carries an un-pinned O(λ · few %) radiative band for any λ ≳ 0.2–0.5; the *precision* of the
++0.44% is exposed even though its *existence* is not, and a percent-class radiative band is wider
+than the gap itself. **The one missing input is named: λ** (equivalently
 the gas parameter √(na³), the position on the BEC side) — the compositeness (Λ, g) build's un-built
 g → λ map; the size therefore books as ESTIMATE. The model's own deep-BEC framing implies dilute
 (SAFE branch) as expectation, not closure.
@@ -346,11 +345,11 @@ E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so the cha
 
 | channel | lowest allowed level | E_b | vs observed 2.25 |
 |---|---|---|---|
-| **s-wave (ℓ = 0)** | 1s | **2.284 meV** | **+1.5%** |
-| p-wave (ℓ = 1) | 2p | 0.571 meV | −74.6% |
-| f-wave (ℓ = 3) | 4f | 0.143 meV | −93.7% |
+| **s-wave (ℓ = 0)** | 1s | **2.2599 meV** | **+0.44%** |
+| p-wave (ℓ = 1) | 2p | 0.565 meV | −74.9% |
+| f-wave (ℓ = 3) | 4f | 0.141 meV | −93.7% |
 
-**The flagship's 1.5% agreement requires ℓ = 0**, so the hydrogenic form is not a choice but a
+**The flagship's agreement requires ℓ = 0**, so the hydrogenic form is not a choice but a
 selection — the same way f̄'s coupling form is
 ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1). The mechanism behind it: the medium is
 **He-3-A missing its baryonic matter**. He-3 pairs p-wave *because* its baryonic hard core
@@ -370,8 +369,9 @@ family (matter / magnetism / metric) is one integer, carried by
 channel. The generation count is forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹
 N_gen = 3 uniquely (**P-2026-045**). Neither rides the medium's partial wave.
 
-**Grade: the DE value's *structure* stands (ρ_Λ¼ = (9/2)α⁴τ·m_e); its "1.5%" is the τ rounding, not a sourced prediction (flagship-grade block), and becomes one only with a lattice T_c/√σ for SU(2); the perturbations door's O(1)
-is un-built and its owed object is named.** Menu-watched, not read:
+**Grade: the DE value's structure stands (ρ_Λ¼ = (9/2)α⁴τ·m_e) with τ sourced by the Koide
+kernel, landing +0.44% above the observation; the lattice T_c/√σ for SU(2) is what confirms or
+kills it, and the perturbations door's O(1) is un-built with its owed object named.** Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
 near-coincidence, unclaimed.
 
