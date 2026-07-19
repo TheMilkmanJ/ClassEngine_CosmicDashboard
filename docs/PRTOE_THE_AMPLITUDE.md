@@ -73,13 +73,24 @@ density trend.
 
 ## 5. The mechanization status
 
-The amplitude's primordial counterpart (the A_s claim) closed its conceptual half: the
-winding gas's area law (derived and confirmed numerically), the activation ramp (the
-Hagedorn-analog transition = T_c), and the reconciliation — the thermal amplitude and
-the census bookkeeping are one object, joined at the pour scale
-T ≈ 8×10¹⁶ GeV. **The chain now hangs on one underived number — the bounce's
-stiffness-ceiling scale (~1.6×10¹⁶ GeV) — queued as a named computation.** The
-count's lock criterion is mechanical: phase-slip freeze-out, Kibble–Zurek class.
+The amplitude's primordial counterpart (the A_s claim) closed its conceptual half: the winding gas's
+area law (derived and confirmed numerically), the activation ramp (the Hagedorn-analog transition
+= T_c), and the reconciliation — the thermal amplitude and the census bookkeeping are one object.
+
+**What the closed form actually rests on**, checked term by term: A_s = (α_c/4πk)³, where
+**k = ln(1 + π/2α_c)/π = 1.36461** is a genuine screened-interaction integral — it evaluates
+identically to (1/π)∫₀¹dq/(q + 2α_c/π), and sits inside the Eliashberg window [1.35, 1.37] rather
+than being fitted to a landing. The 4π is the standard one-loop factor and the cube is the three
+spatial dimensions. Assembled: **2.0807×10⁻⁹ against the frozen 2.088×10⁻⁹, −0.35%.**
+
+**The one genuine residual is the shot-noise count's exact O(1) normalisation** — whether the
+assembly is exactly (4πk/α_c)³. That is the number the chain hangs on, and it is what the −0.35%
+measures. The count's lock criterion is mechanical: phase-slip freeze-out, Kibble–Zurek class.
+
+*(A predecessor reading of this section named the residual as "the bounce's stiffness-ceiling scale,
+~1.6×10¹⁶ GeV". That scale appears nowhere else in the corpus, is computed by no script, and does
+not enter the closed form above at any step — nor does the pour scale it was paired with. The
+residual is the O(1) count, not a high-energy scale.)*
 
 ## 6. The one-sentence biography
 

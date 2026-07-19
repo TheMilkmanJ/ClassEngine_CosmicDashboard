@@ -345,6 +345,15 @@ chk("blackholes", "superradiance band, upper edge (alpha_g = 0.5)", 3.0e9, _band
 chk("honest_status", "(d/2)a^4 m_e — the tau=1/3 approximation", 2.174,
     1.5*ALPHA**4*ME*1e3, 2e-3, "meV")
 
+# ---- A_s: the closed form's real inputs ------------------------------------
+_k = math.log(1 + math.pi/(2*ac))/math.pi
+chk("THE_AMPLITUDE", "k = ln(1+pi/2a_c)/pi", 1.36461, _k, 1e-5)
+chk("THE_AMPLITUDE", "k inside the Eliashberg window [1.35,1.37]", 1.0,
+    1.0 if 1.35 <= _k <= 1.37 else 0.0, 1e-9)
+chk("THE_AMPLITUDE", "A_s = (a_c/4pi k)^3", 2.0807e-9, (ac/(4*math.pi*_k))**3, 1e-3)
+chk("THE_AMPLITUDE", "A_s vs the frozen 2.088e-9", -0.35,
+    100*((ac/(4*math.pi*_k))**3/2.088e-9 - 1), 0.03, "%")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

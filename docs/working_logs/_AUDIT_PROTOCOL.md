@@ -60,7 +60,18 @@ least-tested prose in the document, and they are written while holding one defec
 than the whole file. This has already caught a repair that dangled and contradicted itself in the
 same sentence (`blackholes_no_singularity`, 2026-07-19), which no pattern sweep would have found.
 
-A file is not closed until check 12 passes. Running the regression harness and a stale-pattern sweep
+**13. Work the file's own owed items.** An "owed", "un-run", "underived" or "queued as a named
+computation" is a **work order, not a label**. Before closing a file, take each one and either
+compute it, show it reduces to something already recorded, or state precisely what it is gated on
+and why that gate is real. A file that has been made internally consistent but still carries the
+same blanks it started with is tidier, not more complete — and the goal is derived and model-backed,
+not well-formatted.
+
+The honest outcomes are: **closed** (computed, with the number and its check), **reduced** (it turns
+out to follow from something already in hand), or **gated** (named the specific external thing it
+waits on — a run, a lattice number, a measurement). "Owed" on its own is none of those.
+
+A file is not closed until checks 12 and 13 pass. Running the regression harness and a stale-pattern sweep
 is necessary and is not sufficient: both test what you thought to test.
 
 ## Recording
