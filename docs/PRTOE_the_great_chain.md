@@ -107,7 +107,7 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 |---|---|---|---|
 | 0 | the vacuum: unique IC, U(1)-symmetric; S_initial = min by construction | no draw (measure dissolved) | model construction |
 | 1 | n_rms = √(L_gen/ξ_K)/2π (Kibble); ∮∇θ·dl = 2πn (Onsager–Feynman) | n ~ 10–30; locked ∀ crunches | Kibble; Onsager–Feynman |
-| 2 | w(ρ) = −e^(−s), s = ln(ρ/ρ_inf); φ/v = √(1−T/T_c) | ρ_inf^¼ = 2.284 meV (obs 2.25; the +1.5% is the τ rounding, not a sourced prediction); T_c ≈ 179 keV (not independently sourced) | founding + recorded |
+| 2 | w(ρ) = −e^(−s), s = ln(ρ/ρ_inf); φ/v = √(1−T/T_c) | ρ_inf^¼ = 2.284 meV (obs 2.25; the +1.5% is the τ rounding, not a sourced prediction); T_c ≈ 179 keV (not independently sourced) | founding + recorded | *(τ is now sourced independently by the Koide kernel at ½ln2, giving +0.44% — flagship-grade block.)*
 | 3 | H_total ≡ 0 (compact torus); dE = −p dV | balance: exactly zero | model derivation |
 | 4 | η via AD-direct: n_L(genome)/s × transfer — **DEBT: the frozen-era transfer fraction** | target 6.1×10⁻¹⁰; thermal route DEAD (×40–1000 under, scanned) | AD-direct |
 | 5 | ε(T) = ε(1−T/T_c); elasticities: ∂lnY_p/∂lnm_e ≈ 0 above T_c, windowed Y_p +0.85% | under the standing configuration's committed genesis window: joint p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), deuterium eased to −2.5 to −1.4σ from Cooke, helium +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ) | PRyM (BBN), ramped splice |

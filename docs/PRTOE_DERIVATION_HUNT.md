@@ -51,7 +51,7 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
 
 - **Chain:** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼ = 2.28 meV vs the observed 2.25. The α⁴
   scaling and M₂ = α²·T_c are real STRUCTURE, but **the "1.5%" is NOT a sourced prediction** —
-  T_c = 179 keV is the observed ρ_Λ inverted-and-rounded (0.34506 → 0.35), not independently
+  T_c = 179 keV is the observed ρ_Λ inverted-and-rounded (0.34506 → 0.35), not independently *(τ is now sourced independently by the Koide kernel at ½ln2, giving +0.44% — flagship-grade block.)*
   derived (see the NOT-INDEPENDENTLY-SOURCED bullet below and §6). It becomes a prediction only
   with a lattice T_c/√σ for SU(2). See [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
 - **τ = T_c/m_e = 0.3503 — derived; and 0.345 is the OBSERVATION, not a second derivation.**
