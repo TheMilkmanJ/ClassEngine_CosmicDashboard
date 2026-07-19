@@ -1300,3 +1300,17 @@ inherits the thermal circle's twist — one circle, one cycle; the corpus's own
 winding-imprints-structure move applied to the Euclidean circle). Desk state of the entire
 Koide chain: one transfer statement ours; three lattice observables theirs (T_c/√σ, F_π/√σ,
 w·√σ); P-051 and the 2/9 bar standing watch.
+
+**THE TWIST TRANSFER, REDUCED (2026-07-18, the day's last derivation):** the real-time freeze
+picture — faces rotating at θ̇ = μ, a sweeping front locking them in sequence — gives
+θ_hop = μ·Δt_hop exactly, so [1:1 transfer] ⟺ [Δt_hop = β]: one face per thermal period. Two
+candidate statements remain: the pacing bound (lock-in ≥ one thermal period — the freeze IS
+the KMS structure's establishment) saturated by the front, and the chirality sequencing (the
+genesis handedness orders the freeze — the axis family's own source). Consistency loop:
+v_front = Q·c (the closure restated); the third ~2/3-vs-flow-line proximity stays note-only.
+**NEW WATCH — the cross-sector sign lock:** sign(θ_B, mass-ordered) ↔ sign(cosmic helicity,
+P-028), both from the one genesis handedness; registrable after the step-signed walk of the
+chain helicity → rotation → front → gradient → θ_B. Desk state of the entire kernel chain:
+candidate-grade END TO END — every link exact, computed, class-confirmed, or named-candidate
+with its judge; the refinements remaining are the pacing-saturation step, the sign-chain
+walk, and the external triple + lock.
