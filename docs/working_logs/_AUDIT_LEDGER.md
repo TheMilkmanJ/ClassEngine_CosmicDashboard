@@ -1230,3 +1230,14 @@ weakening. And the ς cross-check caught a count discrepancy reaching back into 
 audited: hubble_tension said "180 template configurations" where this file and THE_AMPLITUDE
 both record 162. Fixed there — the second time a later file has corrected an earlier audit,
 which is the strongest argument yet for pass 2.
+
+## The tail's hit batch — quantum_gravity §6, radio_lattice, forced_combination, laser_physics, granule_scoping (2026-07-19)
+
+Files fifty-six through sixty (hit-targeted; the zero-hit tail files still get whole reads).
+The finds: **quantum_gravity §6 was a garble of my own making** — the morning's supersession
+note had been inserted *inside* the sentence it contradicts, leaving "1.5% is the τ rounding"
+and "+0.44% kernel-sourced" nested in one clause with the stale 179 — rewritten clean. The
+**0.3503 fork's third home** (forced_combination's closing state) now reads 0.34657 vs 0.34506.
+radio_lattice and laser_physics carried one supersession each. granule_scoping — a dated
+morning-board record whose band the mass pin has since left — got the UV_completion treatment:
+a reading-rule banner that keeps the meter's structure and defers the band's masses to the pin.

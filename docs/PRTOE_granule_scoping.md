@@ -7,8 +7,13 @@
 
 *Two jobs from the morning board: scope whether the granule channel — the
 SOLE surviving ε-meter after the reconciliation audit — can ever actually
-be read; and pin m inside the audited band [1,3]×10⁻²¹ eV. Every number
+be read; and pin m inside the era's audited band [1,3]×10⁻²¹ eV. Every number
 re-derived at booking; literature cite-pulled during the citation pass.*
+
+> **Reading rule:** this is a dated scoping record. The mass has since been pinned three
+> independent ways at **2.24×10⁻²⁰ eV** — an order above this scan's band — so the numbers
+> below are the era's; the meter's *structure* (what reads ε, and at what contrast) is what
+> survives, and any use of the band's masses defers to the recorded pin.
 
 ## 1. The instrument: what the granule meter measures
 
