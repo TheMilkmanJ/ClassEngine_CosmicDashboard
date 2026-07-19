@@ -149,6 +149,62 @@ applied and the code systematic named and unfolded.**
 - the elasticities: **d(Y_p)/dε = 0.00163 per %ε**, linear — multiplying by ε reproduces the window to ~3%. **Deuterium has no usable elasticity:** it is a bottleneck quantity, so its ε-response is nonlinear and a uniform-ε derivative under-predicts the window by a large margin (a 4-point PRyM scan gives ~0.0119 per %ε where the window itself implies ~0.0126). Use the measured window effect, +0.645%, not a derivative. N_eff is unmoved
  (3.04439) — ε shifts weak rates, not relativistic dof.
 
+## The deuterium repair route — a mechanism without a source
+
+Deuterium is the most fragile nucleus nucleosynthesis makes: 2.22 MeV of binding against a bath
+carrying 1.6 billion photons per baryon, whose high-energy tail keeps breaking it long after the
+temperature falls below that. It cannot accumulate until T < B_D/ln(1/η) ≈ 105 keV — the deuterium
+bottleneck — and the moment it does, it burns through to helium-4. **What survives is a residue,
+not an equilibrium abundance**, which is why the row responds so sharply to everything.
+
+That fragility cuts both ways, and it opens the one repair route that clears every constraint the
+sector carries. An electromagnetic injection late enough to photodissociate **helium-4** produces
+deuterium among the fragments. Helium sits at 8.3% of hydrogen by number against a deuterium
+abundance near 10⁻⁵, so breaking a very small fraction of it is a large relative change in
+deuterium.
+
+**The window is fixed by the photon bath, not chosen.** Energetic photons pair-produce on the CMB,
+capping the spectrum near m_e²/22T. That gates the two thresholds at different times:
+
+| target | threshold | reachable below | time |
+|---|---|---|---|
+| deuterium | 2.22 MeV | T = 5.35 keV | t > 4.6×10⁴ s (1 day) |
+| **helium-4** | 19.8 MeV | T = 0.60 keV | **t > 3.6×10⁶ s (42 days)** |
+
+Between one day and six weeks an injection **destroys** deuterium — the wrong direction. Only after
+~42 days can photons reach helium and start making it. The window opens at z ≈ 2.6×10⁶, which is
+also where the universe loses its ability to thermalize injected energy back into a perfect
+blackbody: earlier injections leave no trace whatever, later ones leave a spectral fingerprint.
+
+**What it takes, and what it costs.** Centring deuterium on the observed value requires destroying
+**1.7×10⁻⁵ of the helium** — about 30 eV of dissociation energy per hydrogen. The prices:
+
+- **helium's own row: unmoved** (ΔY_p = −4×10⁻⁶, or 0.001σ — the fraction destroyed is far too small to matter)
+- **spectral distortion: μ ≈ 2×10⁻¹¹**, against the FIRAS limit of 9×10⁻⁵
+- **the joint: p = 0.135–0.43**, with helium then the only residual
+
+The co-signature is **helium-3**, which rises by roughly 14% — the same dissociation makes ³He and
+³H alongside the deuterium. That is the row a referee will ask about, and it is weakly constrained
+observationally because stellar processing dominates it.
+
+**The missing piece is the source.** A candidate must satisfy all three of:
+
+1. **mass ≳ 20 MeV**, so its decay cascade reaches the helium-4 threshold at all;
+2. **lifetime ~10⁶–10⁸ s**, placing the deposit inside the window;
+3. **abundance delivering ~30 eV per hydrogen**, and **exhausted before recombination** — that same
+ energy is 2.2× the ionization energy of every hydrogen atom, so a residue surviving to z ≈ 1100
+ would prevent recombination outright.
+
+The dyad's own quantum cannot do it: its recorded roll time puts that mass near 10⁻⁵ eV, twelve
+orders below the threshold. The only part of the standing configuration carrying states at the
+right scale is the Majoron's **MeV corner**, which remains open and whose referee is the CMB-S4
+Majoron search. **Until a source is named this is a mechanism, not a claim** — but it is a fully
+specified one, and any candidate can be graded against the three conditions above immediately.
+
+*This route is distinct from P-2026-006's, which heals deuterium through a quark-mass shift and
+carries a helium −0.5% and lithium −7…−13% co-signature. That route needs a coupling the model does
+not have; this one needs a particle it has not named.*
+
 ## How PRTOE connects
 
 The sector is RIGID — every number derived or measured (T_c, ε = c·f̄·α_c, ω_b, the stamps):
