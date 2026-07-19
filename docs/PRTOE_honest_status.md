@@ -75,8 +75,9 @@ Ranked, honestly:
 1. **The DE-floor self-tuning mechanism** — no working mechanism; the self-tuning toy ran away
    when computed; Weinberg's no-go for self-tuning is unaddressed. Trusted least. (Q4/#22.)
 2. **The m_e shift's robustness** — unproven it isn't absorbing a systematic. (Q2/#20.)
-3. **c is not derived** — natural ~1, but the conformal-origin fixed-point is a hypothesis, not a
-   calculation (docketed). Empirically pinned to [1.0,1.9] by #16, consistent with natural.
+3. ~~**c is not derived**~~ — **retired.** c = 9/10 is derived from the census (the neutrino sits on
+   the vacuum's seat because its mass is medium-sourced, not electroweak), as the CURRENT section at
+   the head of this file records. The empirical pin to [1.0, 1.9] is consistent with it.
 
 ## The near-term falsifier calendar (task Q6 / #24)
 
@@ -101,7 +102,8 @@ worth holding. **Update this number as each crux lands.**
 ## PRE-COMMITTED evidence verdict (locked 2026-07-08, BEFORE #19 returns)
 
 internal review rule: lock what counts as a win BEFORE the number comes back, or we rationalize whatever
-we get. For the running PRTOE-vs-ΛCDM full-data comparison (docketed), verdict thresholds committed NOW:
+we get. For the PRTOE-vs-ΛCDM full-data comparison (the evidence run — Laplace landed 2026-07-09,
+PolyChord sampling since 2026-07-18), verdict thresholds committed NOW:
   - PRTOE WINS:   Δ lnZ ≥ +2.5 in PRTOE's favor (moderate+) AND Δ BIC ≤ -2
                   (BIC/AIC already penalize PRTOE's ~2 extra physical params: varying_me, m_ncdm).
   - ΛCDM WINS:    Δ lnZ ≤ -2.5  OR  Δ BIC ≥ +2.
@@ -156,10 +158,15 @@ Audited the CLASS C source against the model's claims. GOOD: dcdf has a real per
      CAVEAT: the ramp is only active when the config sets varying_transition_width -- and
      cmp_prtoe_dyad_ev.input.yaml does NOT, so it runs the legacy step path while its evidence
      companion cmp_prtoe_fixed_ev.input.yaml runs the ramp.
-  3. The w=1/3 radiation-like phase is ABSENT (dcdf starts as dust w~0); the claimed 1/3→0→-1 is
-     really 0→-1 in code. The conformal-origin c=1 argument (docketed) rests on this unimplemented phase.
+  3. ~~The w=1/3 radiation-like phase is ABSENT.~~ **CLOSED — re-checked 2026-07-19 and the 07-08
+     reading is wrong now.** `background.c:641` calls `dcdf_rho_rad(pba, a)`, "added exactly like a
+     relativistic species -- rho_tot, p_tot", gated on `dcdf_z_rad_onset > 0`; `background.h`
+     documents it as the conformal-origin phase where total w runs 1/3 → 0 → −1. The running
+     evidence job sets `dcdf_z_rad_onset: 3.5619e7`, so **the phase is implemented and enabled.**
+     The conformal-origin argument no longer rests on an unimplemented phase.
   (Unverified: whether cs2_dcdf enforces c_s²=0 at the floor -- function body in an unlocated header.)
-HONEST IMPLICATION (as of 2026-07-19): gaps 2 and 3 stand. Gap 1 has narrowed — the fit is no
+HONEST IMPLICATION (as of 2026-07-19): **gap 2 stands; gaps 1 and 3 do not.** Gap 3 is closed
+outright — the radiation phase is in the code and switched on. Gap 1 has narrowed: the fit is no
 longer of a more flexible model, because m_e is pinned at the derived value; what remains is that
 the *code* does not compute m_e from the dark sector, so the link is asserted rather than
 implemented. The 2026-07-08 reading below is kept for the record: To test the actual dyad,
@@ -168,7 +175,7 @@ re-fit with m_e no longer free) -- the constrained dyad may fit worse. Any paper
 fit uses an effective parametrization with independent m_e; the linked superfluid is the theoretical
 claim, not directly tested. This reframes the odds: the fit's competitiveness is partly unenforced freedom.
 
-## EVIDENCE VERDICT — LANDED 2026-07-09 (docketed; resolved; the pre-committed gate met, marginally)
+## EVIDENCE VERDICT — LANDED 2026-07-09 (Laplace; the pre-committed gate met, marginally)
 
 The constrained-dyad vs ΛCDM full-data comparison (matched optimizers, same 10
 likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
