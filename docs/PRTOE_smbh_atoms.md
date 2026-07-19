@@ -58,3 +58,31 @@ posterior propagates to every α_g above.
 *The universe's heaviest objects are its most strongly-coupled atoms — and the one we managed
 to photograph first sits, by whatever humor the sky possesses, exactly on the line between
 chemistry and chaos.*
+
+
+## The superradiance window, computed — and the exposure it names (2026-07-18)
+
+At the recorded ultralight mass the gravitational coupling α_g = GMm/ħc reaches the
+superradiant range for supermassive black holes specifically:
+
+| black-hole mass | α_g | spin-down time |
+|---|---|---|
+| 10⁸ M☉ | 0.017 | 7×10¹⁰ yr — too slow |
+| 2×10⁸ M☉ | 0.034 | 5×10⁸ yr |
+| 10⁹ M☉ | 0.168 | 7×10³ yr |
+| 3×10⁹ M☉ | 0.50 | the coupling saturates; the effect shuts off |
+
+**The prediction is a spin-down band between roughly 2×10⁸ and 3×10⁹ M☉** — below it the cloud
+grows too slowly to matter, above it the mode structure closes the channel.
+
+**The confrontation, stated plainly.** That band is populated, and several black holes inside
+it carry high measured spins — continuum-fitting and reflection analyses put a > 0.9 on more
+than one object near 10⁹ M☉. If those measurements hold, the recorded ultralight mass is in
+trouble, **and it cannot retreat**: m = 2.24×10⁻²⁰ eV is the onset clock's value, so moving it
+to evade the band moves the radiation-to-matter onset and breaks the fit that fixed it. The
+spin systematics are genuinely disputed (disc-model and geometry assumptions dominate), which
+is where the honest uncertainty sits — not in the model's side of the calculation.
+
+**Grade: a named, live exposure.** This is the thread's own item 3, now computed rather than
+listed, and it joins the Galactic-Centre budget test as the second constraint that bears
+directly on the model's single ultralight input.
