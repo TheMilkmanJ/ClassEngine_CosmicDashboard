@@ -273,6 +273,17 @@ chk("fairbank_note", "P(m_bb > 9.0 meV) — LEGEND-1000 best", 0.0,
     100*float((_mbb > 9.0).mean()), 1e-9, "%")
 chk("fairbank_note", "nEXO overlap band width", 0.60, sum(_tf) - 4.7, 0.05, "meV")
 
+# ---- how distinctive is the sum, really -----------------------------------
+_smin = (0 + math.sqrt(_dm21) + math.sqrt(_dm31))*1e3
+chk("fairbank_note", "NH minimum Sigma m_nu at m1 = 0", 58.76, _smin, 2e-3, "meV")
+chk("fairbank_note", "model's separation from the NH floor", 2.59,
+    (2.25e-3 + math.sqrt(2.25e-3**2+_dm21) + math.sqrt(2.25e-3**2+_dm31))*1e3 - _smin, 0.02, "meV")
+_t0 = [0.0, _s12*(1-_s13)*math.sqrt(_dm21)*1e3, _s13*math.sqrt(_dm31)*1e3]
+chk("fairbank_note", "m_bb ceiling at m1 = 0 (minimal NH)", 3.69, sum(_t0), 0.02, "meV")
+chk("fairbank_note", "m_bb floor at m1 = 0 (minimal NH)", 1.48, abs(_t0[1]-_t0[2]), 0.02, "meV")
+chk("fairbank_note", "minimal-NH ceiling sits BELOW nEXO's 4.7 reach", 1.0,
+    1.0 if sum(_t0) < 4.7 else 0.0, 1e-9)
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

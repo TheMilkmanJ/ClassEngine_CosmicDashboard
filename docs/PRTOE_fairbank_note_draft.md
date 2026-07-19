@@ -37,9 +37,28 @@ but **the upper limit descending through it**. The model's defence is that those
 ΛCDM-conditional and the squeeze relaxes under this model's recombination physics (next section) —
 which is a testable claim rather than an escape, and the fastest way to grade this whole sector.
 
-**The claim was registered before the deciding data**, as a numbered, git-timestamped entry with a
-named killing observation. The timestamps are the provenance and the audit trail is in the
-repository.
+**Which half of this is distinctive, stated before you ask.** The sum is not. Σm_ν = 61.4 meV sits
+only **2.6 meV above the minimum that normal ordering allows** (58.8 meV, at m₁ = 0), and planned
+cosmological resolution is ~20 meV — so no experiment now planned can separate this model's sum from
+the minimal-ordering case that every squeezed model lands on. Quoting Σm_ν as a success would be
+quoting a number nothing can check.
+
+**What is distinctive is m_ββ, because it is sensitive to m₁ itself and the sum is not.** At m₁ = 0
+the window is [1.48, 3.69] meV; at the model's m₁ = 2.25 meV it is [0.04, 5.30] meV. The ceiling
+rises 44% and the floor nearly collapses, and the observational consequence is clean: **minimal
+ordering puts the entire window below nEXO's best reach, while this model puts about 11% of it
+above.** That is the difference your program can actually see, and it is this sector's only claim
+that earns the word distinctive.
+
+**Provenance, including the part that counts against us.** The prediction was registered before the
+deciding data (2026-07-07, git-timestamped). But the mechanism now offered for *why* the model picks
+this branch — the tenth-channel mass relation — was worked out after DESI's preference for a low sum
+was known, and our own registry carries it under a post-hoc flag for exactly that reason. It earns
+no derivation credit until it produces a new falsifiable consequence beyond the registered number.
+The registry entry itself is also narrower than the claim above: it does not select the ordering,
+and it was written with the causal arrow pointing the other way. All of that is in the repository
+under P-2026-012 and ANN-2026-025, and you should read those rather than take this paragraph's word
+for it.
 
 ## The cancellation floor, and how thin it is
 
