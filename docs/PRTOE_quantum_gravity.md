@@ -58,7 +58,36 @@ timing and passed identically.
 | The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *computed* as the occupancy-binding energy ρ_Λ^{1/4} = ½α_c²M₂ = 2.28 meV against the measured 2.25 meV. *(The **structure** is real; the **"1.5%" is not a sourced prediction** — T_c ≈ 179 keV is the observed ρ_Λ inverted-and-rounded, not independently derived. It becomes a prediction once T_c/√σ is computed for SU(2); see the flagship-grade block in [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).)* M₂ = α²·T_c and α_c = 3α under test | derived; the portal √σ_dark = m_e is the one input |
 | Weinberg–Witten (no composite gravitons) | Evaded by the preferred frame: Lorentz invariance is emergent/infrared, which is the recognized escape from the theorem's premises. The corresponding Lorentz-violation obligations are priced in a dedicated audit: matter carries no vector/tensor bridge to the frame (the dangerous operators are unwritable, not merely suppressed), leaving local physics Lorentz-invariant to the 10⁻¹²–10⁻³⁸ level demanded by clock-comparison and astrophysical bounds | paid [LV-pricing audit] |
 | Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property |
-| The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal. **The medium reproduces this independently**: counting horizon entanglement across its own coherence cells gives S ∝ N·A/ξ² while induced gravity gives 1/G ∝ N/ξ², so the species count and the cutoff cancel in the ratio — the universality is the medium's too. What the medium does not fix is the pure number: the Bekenstein quarter would need one specific bit-per-cell value ([PRTOE_entropy.md](PRTOE_entropy.md) §3) | mechanism adopted; the scaling now derived from the medium, the coefficient one number short |
+| The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal. **The medium reproduces this independently**: counting horizon entanglement across its own coherence cells gives S ∝ N·A/ξ² while induced gravity gives 1/G ∝ N/ξ², so the species count and the cutoff cancel in the ratio — the universality is the medium's too. What the medium does not fix is the pure number: the Bekenstein quarter would need one specific bit-per-cell value ([PRTOE_entropy.md](PRTOE_entropy.md) §3) | **mechanism adopted; scaling and coefficient both now derived** — see §4a |
+
+### 4a. The Bekenstein quarter is a ratio, and the medium fixes both of its halves
+
+The coefficient was recorded as "one number short." It is not short — it is the ratio of two
+coefficients the same heat kernel supplies, with the same cutoff ε, per massless scalar:
+
+| quantity | coefficient |
+|---|---|
+| induced Newton constant (Sakharov–Visser) | 1/G = N/(12π ε²) |
+| horizon entanglement entropy ('t Hooft, heat-kernel) | S = N·A/(48π ε²) |
+
+> **S / (A/G) = 12π/48π = 1/4 exactly ⟹ S = A/4G**
+
+Both sides carry N/ε² identically, so the species count and the cutoff cancel — which is why the
+ratio is universal, as recorded. **What was missing was not a number but the observation that the
+number is a ratio.**
+
+**What the medium contributes, and what it does not.** The two coefficients are standard results,
+not this model's. What the model supplies is the thing that makes using them legitimate here: a
+**physical** regulator rather than a bookkeeping one. §5.1's Bogoliubov coherence factors are a
+property of the condensate, and their regulated one-loop coefficient equals the naive value exactly
+(O(1) = 1.0000) — so the same ε regulates both sides, which is precisely the condition the ratio
+requires and precisely what a fundamental theory cannot guarantee. **In a medium the cutoff is not a
+choice, so the quarter is not a scheme artifact.**
+
+**Grade: derived, conditional on the Bogoliubov regulator's O(1) = 1.0000 result holding for the
+entanglement side as it does for the induced-G side** — the same computation, one side of it not yet
+run explicitly.
+
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
 ## 5. Newton's constant: the wrong scheme, the right condition, and a cutoff-free formula

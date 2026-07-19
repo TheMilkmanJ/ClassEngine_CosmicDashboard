@@ -99,7 +99,7 @@ pre-registered rotation-shed parameter instead ([PRTOE_FAILURES_LEDGER.md](PRTOE
 
 ## 5. What the model does NOT claim about entropy
 
-- No derivation of the area law's coefficient (adopted, §3).
+- The area law's coefficient is **the ratio 12π/48π = 1/4** of the induced-Newton and entanglement heat-kernel coefficients, both regulated by the medium's own Bogoliubov cutoff ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). Conditional on that regulator's O(1) = 1.0000 result extending to the entanglement side.
 - No claim that the medium's entropy is the universe's entropy budget — the functional in §1
   is real but subdominant by ~70 orders; the budget is dominated by black holes.
 - No entropic-gravity reading: gravity here is induced by one-loop content, not by an entropy
