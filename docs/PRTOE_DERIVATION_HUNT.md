@@ -21,6 +21,20 @@ $$\varepsilon = c \cdot \bar f \cdot \alpha_c .$$
 | **c** | 9/10 | **derived** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel). The 8/9 charge²-weighted reading is excluded by the gravity-blind democratic rule. See [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
 | **f̄** | 2/π ≈ 0.6366 | **candidate (coupling form data-selected)** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved — see below. The ε-blind ensemble gives c = 0.903 [0.867, 0.942], −0.08σ from 9/10. |
 
+**The velocity ladder (arithmetic, with its one mechanism class and its fence).** The base
+claim c₂ = √α·c places three of the model's speeds in exact geometric progression with ratio
+√α: light (c), the second sound (0.0854c), the Bohr velocity (αc) — the first sound sits √d
+above the middle rung. The one mechanism class that generically *produces* geometric-mean
+speeds is **matched-junction transfer** (a junction transmits without reflection when the
+intermediate impedance is the geometric mean of the two it joins), which would read the
+thermal mode as the reflection-free match between the radiative sector and the binding sector.
+**The fence, from the corpus's own measured junction:** a matched junction transmits at order
+unity, while the model's one measured transfer — the baryon asymmetry's, η = n × transmission
+— runs at ~10⁻¹¹. So either the two readings name different interfaces (an internal mode-match
+versus the dark-to-visible transfer) or the matched-junction reading is wrong. Naming which
+interface is which is this thread's first payable step; until then the ladder is arithmetic
+and carries no weight.
+
 **The coupling form, resolved.** Once equidistribution is granted, the winding projection is cos θ with θ uniform on [0, 2π), and *which average* sets f̄ is the coupling's order. Four candidates, and the model's own data adjudicates: signed-linear ⟨cos⟩ = **0** (a signed projection averages to nothing — excluded outright by the observed ε > 0, so the coupling must be sign-insensitive); rectified-linear ⟨\|cos\|⟩ = **2/π = 0.6366**; RMS √⟨cos²⟩ = **0.7071**; variance ⟨cos²⟩ = **0.5**. A first-order Yukawa mass shift δm = g·A_eff is **linear** in the winding-projected condensate amplitude, and mass-positivity **rectifies** the sign — giving the mean-absolute, 2/π. The quadratic readings are the subleading (energy-density) coupling. And the corpus's two independent measurements — fit-implied f̄ = 0.6253, winding-sim = 0.635 — **both land on 2/π** (+1.8%, +0.3%) and **reject RMS at +13%** and variance further still. So the coupling form is not a free choice: mass-positivity kills the signed average, leading-order dominance picks linear over quadratic, and the data confirms the selection over the RMS alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
 | **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**, and it arrives twice over: the phonon-gas second sound runs at c₂ = c₁/√d (Landau), and the induced loop's transverse trace gives the same d. The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α holds for the recorded ~44% induced fraction). The running α_c chain is the referee. |
 
