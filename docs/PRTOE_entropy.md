@@ -51,7 +51,9 @@ universal ratio (the species-cancellation mechanism). The model's own contributi
 locating the entropy in a real thermal object rather than on a mathematical surface.
 
 **Grade:** located by the model, coefficient adopted from the literature, area scaling from
-the medium still owed. Homes: [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
+the medium still owed — and that one debt also blocks the Page curve
+([PRTOE_information_paradox.md](PRTOE_information_paradox.md)), so a single payment closes
+both. Homes: [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md).
 
 ## 4. The gas entropy floor — what the screening transition deposits
