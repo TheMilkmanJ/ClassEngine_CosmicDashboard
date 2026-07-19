@@ -75,18 +75,25 @@ edge, 0.297, sits 0.3% from QCD's own 130-MeV-convention value — proximity is 
 the convention is computed, and the computation may not know the target.)* **The closing
 state: the entire chain now hangs on TWO observables of ONE lattice theory — T_c/√σ (the
 P-048 fork: 0.3503 vs ½ln2) and F_π/√σ (this tie) — the same SU(2) N_f = 3 ensembles the
-circulating note already invites the field to run.** **Both desk pins, paid (same evening):** *(pin a)* the vortex-pair coefficient computed in
-the sector's own normalization — L = |∂φ|² pins F² ≡ 2v² (no √2 freedom), the pair energy is
-E = 2πF²t·ln(R/d) exactly (numerically verified against 4πv² to discretization), so the
-freedom collapses to the sheet thickness t alone (t = 1/√σ named-natural). **The exact
-demand: F_dark/√σ = 0.4204 in the pinned convention** — with the comparison instruction for
-any lattice reader: match the phase-stiffness definition L_θ = (F²/2)(∂θ)² for the winding
-U(1) (two-color: the baryonic phase), not the name "F_π". *(pin b)* the T_c/3 drift acquires
-its candidate mechanism — **the synchronization reading**: in Josephson grammar (θ̇ = μ), the
-ring freezes when its collective winding rate locks to the thermal clock, **3μ = T_c** ⟹
-μ = T_c/3 ⟹ θ_hop = c₂τ/3 = 2/9 exactly. The house's own two-clock frame applied at the
-transition; candidate grade — the locking dynamics (why the collective rate, why unit
-coefficient) is the named derivation object.
+circulating note already invites the field to run.** **The coefficient, pinned.** The vortex-pair energy in the sector's own normalization
+(L = |∂φ|² fixes F² ≡ 2v²; verified numerically) is E = 2πF²t·ln(R/d) exactly, so
+q̃² = 2πF²t with the sheet thickness t the one geometric input. **The sheet is the flux-tube
+web:** the string-bound geometry identifies t with the chromo-flux-tube width — lattice
+class w·√σ ≈ 0.8–1.1, thin-film consistent (t < d, the regime where the two-dimensional
+logarithm is exact). **The demand: F_dark/√σ = 0.40–0.47** in the pinned convention
+(comparison instruction for any lattice reader: match the phase-stiffness definition
+L_θ = (F²/2)(∂θ)² for the winding U(1) — two-color: the baryonic phase — not the name
+"F_π").
+
+**The phase, at its floor.** The kernel's phase is an equal-time spatial winding (a frozen
+wavevector), and the statements [holonomy = Q], [k_dr·3ℓ = Q], and [3μ·t_corr = Q with
+t_corr = 1/T_c] are equivalent given c₂τ = Q — the synchronization form supplies the
+dynamical variables (Josephson, θ̇ = μ) without adding content. **The one open question this
+file leaves: why the freeze imprints exactly one thermal correlation time of collective
+rotation (t_corr·T_c = 1).**
+
+**One lattice campaign, three referees:** T_c/√σ (the P-2026-048 fork), F_π/√σ (0.40–0.47),
+and w·√σ (the sheet) — all observables of the same SU(2) N_f = 3 ensembles.
 
 ## 5. Kills
 
