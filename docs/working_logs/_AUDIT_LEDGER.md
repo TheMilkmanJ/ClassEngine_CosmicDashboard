@@ -1183,3 +1183,15 @@ first pass), the void gap's honest OPEN status with both rescues closed by flux 
 and the single external referee named, the precise-boast section that separates the standard
 mechanism from the model's three genuine additions, and the signed-helicity falsifier with no
 dial. The pathology table for competitors is accurate to the literature.
+
+## PRTOE_gravitational_waves.md — deep audit 2026-07-19
+
+Fiftieth file. Two fixes, both the head-vs-tail species. §2 still flagged the chiral amplitude
+"un-computed" while the file's own 07-18 addendum computes it as a structural null — the flag
+now points at the computation and relocates the family's falsifiable content to the two
+readable members. And the addendum's computed margins (8 orders under PTA, 4 under LISA-class,
+1.5 under the B-mode floor — all harnessed) contradicted white_holes' "eight to eleven orders
+below every instrument"; the white-holes line now carries the computed set. Everything else
+held: the Gμ null with its kill clause, the lightswitch's split prediction (resolved events
+clean; a confirmed chirality in any resolved binary kills), and the dead-ends note that turns
+the birefringence closure into the reason the parity signal lives in gravity.

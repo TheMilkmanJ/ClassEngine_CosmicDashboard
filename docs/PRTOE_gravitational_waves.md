@@ -33,8 +33,9 @@ couplings (the birefringence zero) — but it CAN carry a parity-odd GRAVITATION
 polarized (chiral) component of any primordial GW background, with handedness set by the
 genome's sign** — the SAME topological draw as the baryon asymmetry and the magnetic helicity
 (P-028). The chirality family now has three members on one integer: matter, magnetism,
-metric ripples. (Amplitude un-computed — flagged; the SIGN correlation is the falsifiable
-content whenever any two members are measured.)
+metric ripples. (The amplitude is computed below and closes as a structural null — the carrier
+is absent — so the GW member may never be readable; the SIGN correlation's falsifiable content
+lives through the family's other two members, the magnetic helicity and the baryon draw.)
 
 ## 3. Ringdowns, echoes, and the interior
 

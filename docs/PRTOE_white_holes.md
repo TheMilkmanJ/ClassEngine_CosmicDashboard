@@ -183,8 +183,9 @@ sources carry theirs.
 That is T10's physical identity — **the white hole's fingerprint in light**: the pour stamps
 parity-odd structure on everything it issues, and parity-even physics downstream preserves what
 it cannot erase. Its amplitude is computed, and it closes as a null. The vortex network's own
-gravitational-wave background sits eight to eleven orders below every instrument, so the stamp
-can be order unity and remain unobservable — the carrier is absent
+gravitational-wave background sits eight orders below pulsar timing, four below LISA and the
+third generation, and one and a half below the inflationary B-mode floor — so the stamp can be
+order unity and remain unobservable at every horizon: the carrier is absent
 ([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)). A formal prediction with no
 detection channel.
 

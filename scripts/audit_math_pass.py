@@ -619,6 +619,14 @@ chk("bigbang 1.2", "rho_bounce^1/4 at the derived lambda", 1.06e3, ((2.24e-20)**
 chk("baryogenesis", "T target at n = 30", 2e-11, 6.14e-10/30, 0.03)
 chk("baryogenesis", "T target at n = 10", 6e-11, 6.14e-10/10, 0.03)
 
+
+# --- the chiral-background margins (gravitational_waves addendum), 2026-07-19 ---
+import math as _mm
+_Ogw = 3e-18
+chk("GW addendum", "orders under PTA (1e-10)", 8, _mm.log10(1e-10/_Ogw), 0.06, "dex")
+chk("GW addendum", "orders under LISA-class (3e-14)", 4, _mm.log10(3e-14/_Ogw), 0.06, "dex")
+chk("GW addendum", "the B-mode floor the recorded 1.5-dex margin implies", 9.5e-17, _Ogw*10**1.5, 0.01)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
