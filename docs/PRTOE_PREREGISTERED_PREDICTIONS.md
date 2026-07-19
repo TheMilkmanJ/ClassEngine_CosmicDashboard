@@ -2008,7 +2008,7 @@ f̄ is exactly the kind of average that produces 2/π; the arcsine-family mechan
 the three-factor ε stack is graded factor-by-factor (the α_c MCMC → 3α; the ensemble → 2/π;
 c-sharpening → 9/10), which is what separates this from dense-family numerology.
 
-**COROLLARY (def-quiet, 2026-07-12, registered BEFORE the α_c MCMC convergence) — P-040's z_on
+**COROLLARY (2026-07-12, registered BEFORE the α_c MCMC convergence) — P-040's z_on
 TRANSLATION.** The model's own onset clock (H = m at z_on: T_on = √(m·M_red/0.61), verified
 against the coded identity m = 2.24×10⁻²⁰ eV ↔ 9.41 keV ↔ z_on = 4.0×10⁷) plus the
 abundance closure (Ψ₀ ∝ m^(−1/4)) give z_on ∝ α_c^(−2). Therefore α_c = 3α PREDICTS

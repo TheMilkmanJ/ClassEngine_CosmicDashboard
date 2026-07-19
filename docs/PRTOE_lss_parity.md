@@ -3,8 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Status: STRUCTURAL (candidate);
-the pricing is IN and the channel lands seven orders short of the claimed signal. The
+*Status: complete and priced — the channel is computed, lands seven orders short of the claimed
+signal, and the resulting position (the claim is systematic) has now been tested favorably by DESI.
+The
 improvement: a claimed ~5–7σ anomaly for which almost no framework possesses native
 machinery — and this model owns an axis, a handedness, and a vorticity injection by
 construction, even though its amplitude cannot reach the claim.*
@@ -55,10 +56,39 @@ of chirality NOT ours (or kills the framework's monopoly claim); a dissolved sig
 nothing; a signal at X would be a miracle-class confirmation. All three outcomes are
 informative because the model computes rather than fits.
 
+## 3a. The referee has reported — and it favors the model's position
+
+The position recorded here on 2026-07-11 (git-timestamped, commit `b0b1dab1`) was that the BOSS
+signal is systematic, because the model's own channel cannot reach it. Independent work since:
+
+- **DESI finds no parity violation.** *Testing parity with composite-field spectra of BOSS and DESI
+  luminous red galaxies* (arXiv:2604.06021, 2026-04-07) applies null-hypothesis χ² tests and
+  cross-patch consistency checks to both surveys and reports **no evidence for a cosmological
+  parity-violating signal in either**, with DESI's scatter smaller than BOSS DR12's by about a
+  factor of four.
+- **The BOSS significance fell under blinding.** A blind test of the CMASS 4PCF over
+  [20,160] h⁻¹ Mpc returns **2.9σ**, against the 7.1σ of the original unblinded DR12 CMASS
+  analysis.
+- **Sample variance remains a live explanation.** [Phil. Trans. R. Soc. A 383, 20240034 (2025)]
+  examines whether sample variance alone can produce the excess; the covariance estimate, and
+  whether the mocks reproduce the data's statistical properties, is the acknowledged weak point of
+  the original measurement.
+
+**Honest reading.** This is not a direct 4PCF replication — arXiv:2604.06021 uses composite-field
+(kurto) spectra, a different statistic — so it does not refute the original measurement on its own
+terms. What it does is deny the signal an independent confirmation at higher precision, which is
+the outcome the model's position anticipated. **The exposure priced in §3 has not been called in.**
+
+*(Bookkeeping: this position lives here and was never mirrored into
+[PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md). The date above is
+git-verifiable, but the registry gap is real and the mirroring decision is the owner's — see
+`ForJustin/06-lss-parity-registry-gap.md`.)*
+
 ## 4. Owed
 
-1. The claim's systematics status pass.
-2. The axis correlation/anti-correlation protocol once the data mature.
+1. ~~The claim's systematics status pass.~~ **Done — §3a.**
+2. The axis correlation/anti-correlation protocol once the data mature. Gated on data, not on work.
+3. A direct 4PCF measurement on DESI, on the original statistic, would settle it outright.
 
 *A galaxy survey looked in the mirror and the reflection didn't match. Almost every theory
 must call that impossible. This one built the asymmetry into its first turn — the question,
