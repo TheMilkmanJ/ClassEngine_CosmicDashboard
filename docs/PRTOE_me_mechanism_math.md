@@ -406,7 +406,11 @@ the small tilt that does the *timing*:
 **The sequence:** above T_c the electron-plasma thermal mass holds the symmetric point (ε OFF —
 including through n/p freeze-out); at T_c the tilt flips tachyonic and the field rolls to the bare
 minimum at f (fast); ε ramps in with the order parameter and sits at 1.2543% thereafter, gated off
-only inside high-Weyl structure (below). **The named fork inherited from the un-merger:** whether
+only inside high-Weyl structure (below). **The ramp, computed with the exact thermal kernel:**
+ε(T)/ε₀ = 1 − [T³|J_F′(m_e/T)|] / [T_c³|J_F′(m_e/T_c)|] — half amplitude at T ≈ 154 keV
+(0.86 T_c), 90% by T ≈ 114 keV (0.64 T_c), full below ~100 keV. The transition is second order
+(a quadratic thermal correction on a quartic potential), so the order-parameter birth is
+continuous — what the depth law requires, and what the BBN engine codes. **The named fork inherited from the un-merger:** whether
 f = v_L (one L-breaking scale — the seesaw scan re-runs at ~100 TeV, where y ≈ 1.6×10⁻⁵ is natural
 and the Majoron–ν channel is safer) or f ≠ v_L (two scales; the spec stays agnostic). Grade of this
 section: **spec** — every number above is closed-form from (ε, f, m_e, L−1); the open items are

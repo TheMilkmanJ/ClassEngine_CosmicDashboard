@@ -469,7 +469,10 @@ irreducible input.
 1b. **The high-f dyad.** The dyad is a high-decay-constant field: **f_dyad ≈ 100–500 TeV**, a
    dimensionful **input** — un-derived, stated as such (the window: fifth-force/g−2 set the floor
    ~10¹⁴ eV; tracking sets the ceiling ~10²⁵ eV; the quoted band is where every constraint clears
-   simultaneously). With it the model commits to **ONE genesis dilution
+   simultaneously). **The ramp-timing relation ties it:** the thermal-restoration crossing
+   ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4) makes (λ_dyad, f, T_c) a two-parameter
+   family — any two fix the third — so the sector carries one input fewer than the list once
+   showed; with the recorded λ_dyad, f sits at ≈145 TeV inside the window. With it the model commits to **ONE genesis dilution
    ξ = T_dark/T_γ ∈ [0.25, 0.35]** used consistently everywhere it appears (ΔN_eff, the BBN books,
    sector pricing — no per-window ξ), predicting **ΔN_eff = (27/(7/4))·ξ⁴ = 0.06–0.24, centred
    ≈ 0.1 — CMB-S4 (±0.03) adjudicates directly**; a confirmed ΔN_eff < 0.03 or > 0.3 kills the
