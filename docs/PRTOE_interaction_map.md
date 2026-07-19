@@ -21,9 +21,14 @@ interactions exist) × the SCREENING section (how much survives each rung). Stat
  402 AU: every atom, lab, and planet is DEEP inside one coherent patch).
 
 **The screening axis (how much gets through)** — two recorded screens, both finite:
-- **Reading B's C²-gate**: f = exp(−C²/C_ref²) — the Weyl-metered screen (the
- state-reader; LOAD-BEARING — it is what zeroes today's ε against clock bounds).
- Gaussian: ferociously suppressing, never identically zero.
+- **The dyad gate**: the screen that switches the electron-mass shift off in dense regions —
+ LOAD-BEARING, since it is what zeroes today's ε against clock bounds. Its sharpness is not
+ free: an 8.2-decade suppression has to ride a 1.35-decade curvature window (recombination to a
+ dwarf core is only ~22× in Weyl curvature), which forces **exp(−(C/C_ref)ⁿ) with n > 2.43** if
+ the early-universe ε is to survive intact — essentially a step, not a Gaussian. The natural
+ implementation of a threshold that sharp is topological: **Θ, the shell-crossing bit**, which
+ carries no free reference scale because the transition is an event rather than a tuned value
+ ([PRTOE_me_trigger.md](PRTOE_me_trigger.md) §7).
 - **Vainshtein**: the derivative screen in dense environments — the recorded EP clearance
  (5-order margin). Power-law: finite residual by construction.
 
@@ -31,9 +36,9 @@ interactions exist) × the SCREENING section (how much survives each rung). Stat
 
 | rung | gravitational channel | trace/dyad channel | quantum substrate |
 |---|---|---|---|
-| horizon / expansion | FULL (the coupling, the thaw, w=−1) | FULL at z>~50 epochs (ε = 1.24%: H₀, Y_p, the lattice) | the winding, the measure |
-| voids / IGM today | full (it IS the DM+DE) | **the residual whisper — P-2026-007 (the void m_e-step) + P-024 (the dipole, 6×10⁻⁷)**: the map's live edge | coherence intact |
-| galaxies | full (halos, solitons — thread 1) | Gaussian-dead (C² ≫ C_ref): formally nonzero, practically zero — WHY galaxies are "normal" | granule structure; f_amp's spectral share |
+| horizon / expansion | FULL (the coupling, the thaw, w=−1) | FULL at z>~50 epochs (ε = 1.2543%: H₀, Y_p, the lattice) | the winding, the measure |
+| voids / IGM today | full (it IS the DM+DE) | **not a residual but the gate's open side — P-2026-007 (the void m_e-step) + P-024 (the dipole, 6×10⁻⁷)**: the map's live edge | coherence intact |
+| galaxies | full (halos, solitons — thread 1) | gate-dead (shell-crossed): WHY galaxies are "normal" | granule structure; f_amp's spectral share |
 | solar system | full (ephemerides standard) | Vainshtein-screened: residual ≤ 10⁻⁵ of bounds (the recorded margin — a PREDICTION BAND, not a zero) | 402-AU patch: the system sits inside one coherence cell |
 | Earth labs | full | **the ramp's tail: <10⁻⁶ by z~4 (quasar fence), ~0 today (the gate) — clocks safe BY the screen, not by absence** | Josephson/f-sum: the substrate's recorded lab records |
 | atoms / quantum | full (weight) | the ε-HISTORY written into every mass (the lattice's fossil record) | **the medium IS the arena: the interpretation layer (§12), the neighbor rule, the one phase** |
@@ -41,9 +46,13 @@ interactions exist) × the SCREENING section (how much survives each rung). Stat
 
 ## 2. The law, stated as physics
 
-**No screen in this model reaches zero**: the C²-gate is Gaussian (tails), Vainshtein is
-power-law (residuals), and the gravitational and substrate channels are unscreenable in
-principle. Therefore the medium is threaded into every rung — and the THREADS THAT SURVIVE
+**Two of the three channels cannot be screened at all**, and the third's screen is sharp: the
+gravitational and substrate channels are unscreenable in principle, Vainshtein is power-law and
+so leaves residuals by construction, and the dyad gate is a near-step. Whether that gate leaves
+a tail or shuts exactly is the one open question in this map — a finite-n threshold keeps a tail,
+while the topological reading (Θ) is exact inside shell-crossed regions and hands the "threaded
+everywhere" claim to the two unscreenable channels alone. Either way the medium is threaded into
+every rung — and the THREADS THAT SURVIVE
 SCREENING ARE EXACTLY THE MODEL'S PREDICTION LIST: the void step (P-007), the dipole (P-024),
 the mid-ramp line ratios (P-030), the solar-system residual band (the EP margin), the clock
 tail. **The screening map IS the prediction map read as residuals** — where the screen is

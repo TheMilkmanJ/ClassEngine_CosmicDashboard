@@ -232,7 +232,7 @@ the **phase EFT of a complex condensate at finite chemical potential**
 (Son hep-ph/0204199; the isomorphism holds below the
 amplitude gap). Minimal V = m²|Ψ|² + λ|Ψ|⁴ matches the basin exactly —
 basin entry IS the condensation threshold μ = m; unification m̄₂ = M₂²/m
-removed a parameter; λ ~ 10⁻⁸⁸ is a visible scar that later shielded the
+removed a parameter; λ ≈ 2×10⁻⁹¹ is a visible scar that later shielded the
 model from black-hole spin archaeology. The two-fluid reduction (particle
 + antiparticle Schrödinger fluids) produced the KR beat: the beat goes as the ellipticity
 fraction through √(f(2−f)), *not* f itself. *(That fraction shares a symbol with the retired
@@ -279,14 +279,18 @@ exposure.**
 
 ## 12. Black-hole physics
 
-Three encounters. (i) **Superradiance**: M87*'s spin excludes scalars in
-[2.9, 4.6]×10⁻²¹ eV; the model's band (10⁻²²–2×10⁻²¹ eV) sits below it
-kinematically, and the λ ~ 10⁻⁸⁸ quartic quenches any nascent cloud with a
-margin that stays positive (+2.5 to +12.7 decades) across every plausible
-rate-algebra reading — with a discriminator: a confirmed high spin on a
-~10¹¹ M☉ hole kills free FDM at the matching mass while the dyad stands.
-The band's heavy edge is *adjacent* to the M87* floor: this test is not
-doubly-future. (ii) **De-condensation**: extreme infall makes the medium
+Three encounters. (i) **Superradiance — a live exposure, and the sharpest the
+dark sector faces.** At the recorded m = 2.24×10⁻²⁰ eV the superradiant range
+α_g ∈ [0.1, 0.5] falls on black holes of 6×10⁸–3×10⁹ M☉ (P-2026-034), a band
+that is populated and carries high measured spins. The mass cannot retreat from
+it: m is the onset clock's value, so moving it breaks the fit that fixed it.
+M87*'s exclusion of scalars in [2.9, 4.6]×10⁻²¹ eV does not reach the recorded
+mass, but only because that mass sits 0.69 decades *above* the band — past the
+window, not short of it. The λ quench that used to shield the heavy edge was
+priced at λ ~ 10⁻⁸⁸; at the recorded 2×10⁻⁹¹ the self-coupling is 500× weaker,
+which is 2.7 decades off a swept margin whose low end was +2.5, so it cannot be
+quoted until re-derived — and neither can the free-FDM discriminator built on
+it ([PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md)). (ii) **De-condensation**: extreme infall makes the medium
 exit the basin at r = 1.8393 r_s exactly (sonic point at the ISCO) — a
 solved stationary flow. (iii) **Information**: the horizon as the densest
 archive (1.5×10⁷⁷ bits per solar mass, area-billed), no-hair as premium
