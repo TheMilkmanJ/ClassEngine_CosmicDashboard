@@ -370,3 +370,31 @@ added (147 total).
 *This is check #10 — "is the distinctive content actually distinctive" — finding its second victim
 today, after Σm_ν. Both times the answer was: the prediction is real, and the instrument named to
 test it cannot see the difference that matters.*
+
+## PRTOE_PREREGISTERED_PREDICTIONS.md — deep audit 2026-07-19 (part 2: the sweep)
+
+Swept all 51 entries against the values verified earlier today, and separately against the live data
+for every entry that has any.
+
+**Numbers: clean apart from P-048.** Four entries flagged by the probe; three were false positives —
+two matches landed inside my own ANN-2026-026 text, and one caught "6×10⁻⁷" inside the comb's
+unrelated "4.6×10⁻⁷". P-2026-024 carries its rescaled ε-dipole correctly, with the predecessor
+sizing marked as predecessor. Only P-048 needed the annotation.
+
+**That is worth stating rather than passing over: the registry's numeric content held up where every
+summary file did not.** Frozen entries do not drift — the rot is in prose that *describes* claims,
+not in claims recorded once and left alone. Which is an argument for the registry's design, and an
+argument against ledgers and status cards as a form.
+
+**No kill condition has fired, and none is being ignored.** Checked every entry with live data
+against its own falsification clause:
+
+| entry | data | kill | fired? |
+|---|---|---|---|
+| P-2026-003 (w₀/wₐ) | DESI DR2: w₀ = −0.838 ± 0.055, wₐ ~ −0.6 | phantom drift with the growth | **no** — DESI is thaw-side, which is Route-D's direction |
+| P-2026-009 (β = 0) | hint at 2.4–3.6σ | a consolidated ≥5σ β | **no** |
+| P-2026-012 (Σm_ν) | DESI-era reach ≲72 meV | Σ ≫ 0.10 eV, or m₁ pinned ≠ 2.24 meV | **no** — 61.4 sits inside |
+| P-2026-055 (LSS parity) | arXiv 2604.06021 finds nothing in BOSS or DESI | an independent confirmation at claimed amplitude | **no** — and favourable |
+
+A registry quietly carrying a fired kill would be the single most damaging thing findable in this
+corpus. It is not carrying one.
