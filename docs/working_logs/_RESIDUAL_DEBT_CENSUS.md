@@ -32,9 +32,9 @@ here so the count is the corpus's, not just the threads'.*
 | item | where it is named | state |
 |---|---|---|
 | ~~the dark-energy value's O(1) coefficient~~ | cosmological constant §4b | **DISSOLVED 2026-07-18** — the two doors stand in exactly the derived phase-space ratio (0.04% agreement); what looked like a missing coefficient was the flagship's own τ gap measured against the wrong door. No separate number to build; the lattice's τ answer fixes it |
-| **the area law from the medium** | black holes, no-singularities §5, entropy file §3 | **NARROWED 2026-07-18** — the scaling is derived from the medium (species count and cutoff cancel, which is the universality itself); what remains is one pure number, η. Still the Page curve's blocker |
+| **the area law from the medium** | black holes, no-singularities §5, entropy file §3 | **DERIVED-CONDITIONAL (since the 07-18 census)** — the scaling is derived (species count and cutoff cancel = the universality itself), and the coefficient landed too: η is the ratio of the two heat-kernel coefficients the same cutoff supplies, 12π/48π = 1/4 exactly, giving S = A/4G and closing the Page curve with it. Residual: the Bogoliubov regulator's O(1) = 1.0000 on the entanglement side — one half of one computation |
 | **λ, the quartic** | no-singularities §5, black holes §3 | **TENSION DISSOLVED 2026-07-18** — recomputed, the equilibrium requirement is λ ≳ 8×10⁻⁹⁴, which the derived 2×10⁻⁹¹ clears by ~250×; the quoted "≳10⁻⁹⁰" was three orders too strong and is corrected |
-| **the Z₄-locking mechanism** | quartet clock §2 | OPEN — that file is exploratory and its whole reading rests on this |
+| **the Z₄-locking mechanism** | quartet clock §2 | **RESOLVED (since the 07-18 census)** — the unit question closed by stability: repulsive λ forbids quartet binding; the Z₄ term locks phases, not composites; the oscillating unit is the PAIR, derived (quartet clock §4a; header updated) |
 | **the ringdown / echo imprint** | black holes, no-singularities §5 | OPTIONAL — "owed if pursued", and nothing else leans on it |
 
 ## What the census changes

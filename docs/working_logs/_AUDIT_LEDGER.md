@@ -1680,3 +1680,27 @@ annotation — its four items are all live watches (PolyChord running, TRGB in-f
 instruments registered, the fairness pass standing). And the referee calendar's BipoSH row —
 which quotes the exact ρ-pattern the lowell provenance note fenced — now carries the same
 regenerate-before-grading flag, so the handoff cannot be graded on un-regenerable numbers.
+
+## T4/T8/T14 + the two master tables — deep audits 2026-07-19
+
+Working-logs tier, second batch. **T8 and T14 are clean** — T8's two decisive items carry
+their own PAID blocks (the √3 page; B = 1/√2 with t_turn = 8.16 H⁻¹, arithmetic verified),
+T14's sign map is structure-complete with the one owed link stated identically in three homes
+(the file, the census, M2). T4 gains one payment marker (the perturbation-sector flag — the
+Jeans-thaw closeout trio paid it).
+
+**The master tables needed four row updates, all head-vs-tail:**
+1. Census, area law: "one pure number η still owed" predated the coefficient derivation —
+   now DERIVED-CONDITIONAL (η = 12π/48π = 1/4; residual = the Bogoliubov O(1) half).
+2. Census, Z₄-locking: "OPEN, the whole reading rests on it" predated quartet_clock §4a's
+   stability resolution — the unit is the pair, derived.
+3. master_computes M7: "un-run" predated the 07-18 cavity run — now half-run with the
+   relocation and the provenance flag; the winding-modulation full C_ℓ is the true residue.
+4. master_computes M1: the pause note contradicted M5's own live note in the same file —
+   updated to today's chain state.
+
+Also cross-verified: the census's T5 row ("3–5× too little depth") is arithmetically
+consistent with the 83%-at-floor booking (deficit 17% vs the observed 50–80% want = 3–4.7×) —
+so the two recorded readings hang together internally, and the toy-script disagreement
+remains exactly what the provenance note says it is: an un-regenerable booking flagged for
+regeneration, not a settled error.
