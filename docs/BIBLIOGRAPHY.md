@@ -67,6 +67,7 @@ that is a bug — file it.*
 - **[Volovik2003]** G. E. Volovik, *The Universe in a Helium Droplet*, Oxford (2003). — The deepest prior art for medium-cosmology; the model's closest intellectual neighbor.
 - **[vonKlitzing1980]** K. von Klitzing, G. Dorda, M. Pepper, PRL 45, 494 (1980). — Topological quantization on a bench (the lab-cousin row).
 
+- **[KaloperPadilla2014]** N. Kaloper, A. Padilla, "Sequestering the Standard Model vacuum energy," PRL 112, 091304 (2014), arXiv:1309.6562. — The vacuum-energy sequestering solve. Its one-scale floor is what the √3 derivation borrows; as a mechanism for the residual Λ *value* it is killed in this corpus (Ω_Λ/Ω_m capped near 0.40 against the observed 2.2).
 - **[ArkaniHamed2004]** N. Arkani-Hamed, H.-C. Cheng, M. Luty, S. Mukohyama, "Ghost condensation and a consistent infrared modification of gravity," JHEP 05 (2004) 074, arXiv:hep-th/0312099. — The ghost-condensate frame the arrow-giver adopts (θ-dot background = the permanent μ); its bounded NEC-flexibility is the exotic-spacetime shelf's priced sector.
 
 - **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the measurement-sector computation runs on.
