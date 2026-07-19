@@ -921,3 +921,15 @@ the kernel-sourced +0.44% with one registered input. UPDATE 2's two pending valu
 at 0.90 ± 0.04, f̄ pending at 0.644 ± 0.03) both landed at exact derived forms — recorded as
 the ledger's own vindication. One in-place fix (B2's ε). The two-widths collision surfaces
 here too; stated, and routed to ForJustin/10.
+
+## PRTOE_UV_completion.md — deep audit 2026-07-19
+
+Twenty-seventh file, and the audit's second **clean pass** — zero edits, for the opposite reason
+wormholes earned it. This is a *superseded docket that was fenced correctly at supersession*: the
+reading-rule banner declares everything below it an era record ("nothing below is current unless
+MATH_SPINE also says it"), the head states the standing result and names the docket's own dead
+premise, the killed #17 candidate carries "Do not cite," and the speculative sections are fenced
+as assumptions with their unprovability stated. The head's live target (ξ_H = 1/6 as input;
+P-2026-045's conditionality) is current. **This file is the template for how a docket should be
+retired** — every defect the audit has spent the day fixing elsewhere is the absence of exactly
+this pattern.
