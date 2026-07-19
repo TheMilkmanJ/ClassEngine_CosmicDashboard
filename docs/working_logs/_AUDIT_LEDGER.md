@@ -1753,3 +1753,10 @@ in the sweep ("Phantom Rip Theory of Everything", ui.js:2767 — a stale placeho
 normalized to Pulford-Romsa. Recorded against me: two wrong-fix attempts today (this and
 the near-fix on the late-thaw linchpin); the species is the same both times — treating an
 owner-voice statement as a corpus defect. Owner statements outrank my inference.
+
+**FINAL (owner ruling corrected, 2026-07-19): the name is Pulford-Romsa Theory of
+EXPANSION.** Both ui.js strings now read it (including the former Phantom Rip placeholder),
+which puts the whole corpus in agreement: README, cosmic_explorer, the historical
+formulation, the philosophy file's jurisdiction ruling, and the dashboard all say Expansion.
+The intermediate revert is preserved in git history as placed; net effect of the sequence =
+the original fix plus the Phantom Rip normalization.
