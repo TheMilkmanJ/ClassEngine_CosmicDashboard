@@ -322,6 +322,20 @@ chk("ForJustin/07", "identity vs the 3alpha mark — the unresolved gap", 0.058,
 chk("ForJustin/07", "the implied dyad-mass disagreement", 1.31,
     10**(2*(math.log10(_Ton/_T0) - 7.547)), 0.02, "x")
 
+# ---- the dyad mass, pinned three independent ways --------------------------
+_HBARC, _AU = 197.3269804e-9, 1.495978707e11
+_cs = math.sqrt(3*ALPHA)
+chk("MATH_SPINE", "xi = hbar/(m c_s) at m = 2.24e-20", 402.0,
+    _HBARC/(2.24e-20*_cs)/_AU, 0.02, "AU")
+chk("MATH_SPINE", "the mass that xi = 402 AU implies", 2.24e-20,
+    _HBARC/(402*_AU*_cs), 0.02, "eV")
+chk("MATH_SPINE", "Schive core radius at m = 2.24e-20", 7.0, 1.6/(2.24e-20/1e-22)*1e3, 0.03, "pc")
+# and the mass the running job's z_on implies -- it must MISS those, which is the finding
+_m_run = 0.61*(3.5619e7*_T0)**2/MRED
+chk("ForJustin/07", "mass implied by the run's z_on", 1.753e-20, _m_run, 0.01, "eV")
+chk("ForJustin/07", "that mass misses xi = 402 AU by", 27.0,
+    100*abs(_HBARC/(_m_run*_cs)/_AU - 402)/402, 0.05, "%")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
