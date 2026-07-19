@@ -96,6 +96,14 @@ time, so nEXO carries a roughly one-in-nine chance of a confirming signal, condi
 model and the matrix element. Outside that thin band a detection falsifies the model outright, and a
 null constrains nothing — a null is consistent with phase cancellation at any sensitivity.
 
+**Barium tagging and the discrimination trade.** A factor-of-four half-life gain is √4 = 2 in m_ββ,
+taking nEXO's reach to ≈ 2.35 meV and the detection probability from 10.8% to **69%**. It does not
+buy discrimination: minimal normal ordering (m₁ = 0, window [1.48, 3.69] meV) exceeds 2.35 meV
+**63.7%** of the time, so a tagged detection there separates almost nothing. **The discriminating
+band is 3.69–5.30 meV** — above minimal ordering's hard ceiling, below this model's — where minimal
+ordering is impossible at any phases and this model lands **31.7%** of the time. All of baseline
+nEXO's 10.8% falls inside it. Tagging makes the test likely; the baseline machine makes it decisive.
+
 **0νββ has never been observed** — the one historical claim (Heidelberg–Moscow, ~200–600 meV) was refuted by KamLAND-Zen
 and GERDA; current limits (m_ββ ≲ 28–180 meV, NME-dependent) sit 5–30× above this band,
 so no existing measurement executes either side of the kill clause. **Cosmology will grade this
