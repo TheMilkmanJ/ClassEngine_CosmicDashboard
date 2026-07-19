@@ -1,3 +1,7 @@
+> **PROVENANCE NOTE (2026-07-19):** the v4 era (superseded by v5+/the dyad era); the
+> general P(X) derivation below remains correct and load-bearing; for current state see
+> PRTOE_INDEX.md.
+
 # PRTOE v4 — dCDF (Dynamic Cold Dark Fluid): Action → Equations → Stability
 
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
@@ -262,7 +266,7 @@ functions plugged into the existing fluid equations.
 
 ## 9. v4.1 — Split the Lagrangian, not the fluid
 
-Prompted by the user's two-piece intuition ("one mode stays always active, a
+Prompted by the author's two-piece intuition ("one mode stays always active, a
 constant rate of relaxed expansion; mass and density add the extra dynamism"),
 generalized (after establishing that any single barotropic fluid is secretly
 just a $w(a)$ reparametrization — §6/8 above are unavoidable for *any* dCDF-style
@@ -402,9 +406,8 @@ $w_{\rm kin}'(s)+w_{\rm kin}(s)=c_s^2(s)$ (integrating factor $e^s$) for any
 chosen target bump $c_s^2(s)$ — but that is curve-fitting a feature at a
 hand-picked density with no independent physical motivation (no fixed point,
 no reconstruction from a target $P(k)$ or rotation-curve fit forces the bump's
-location or width). It is achievable but not a prediction; flagging it as an
-"epicycle" rather than pursuing it, unless the user wants to explicitly go
-that route.
+location or width). It is achievable but not a prediction; flagged as an
+"epicycle" rather than pursued, unless the author chooses to go that route.
 
 ### 9.7 Verdict
 

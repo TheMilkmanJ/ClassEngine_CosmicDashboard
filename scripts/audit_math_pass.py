@@ -687,6 +687,9 @@ chk("kappa_v record", "radiative bill k/32pi^2", 2.8e-5, _k_kv/(32*math.pi**2), 
 chk("kappa_v record", "BBN drift 4/(3y) at y=2.8e7", 5e-8, 4/(3*2.8e7), 0.05)
 chk("kappa_v record", "g at recomb y=8.4e-7 (~y/4)", 2.1e-7, 8.4e-7/(4+3*(8.4e-7)), 0.01)
 
+# --- v4 derivation: the beta-family peak (2026-07-19) ---
+chk("v4 record", "peak c_s^2 coefficient 2/e", 0.74, 2/math.e, 0.01)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
