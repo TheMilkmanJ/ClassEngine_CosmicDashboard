@@ -14,16 +14,26 @@ corresponding effective mass, with measured splittings and free Majorana phases,
 
 ## What this means for your program
 
-**The mechanism is guaranteed; the rate is small.** The model cannot exist without 0νββ, but it
-puts the effective mass below current ton-scale reach, in the normal-ordering meV regime. We are
-not promising your experiment a signal — we are describing the universe it is searching in if this
-model class is right. A null at any given sensitivity does not kill the model. A demonstrated Dirac
-nature kills it cleanly and permanently.
+**Your program's entire target range is a kill zone for this model.** That is the blunt version and
+it is the reason for writing. The model's ceiling is m_ββ = 5.3 meV; nEXO, LEGEND-1000 and CUPID are
+aiming at roughly 5–20 meV; current limits sit at 28–180 meV depending on the matrix elements. So
+**any confirmed detection by the current or next generation falsifies this model outright** — there
+is no corner of your accessible parameter space where a signal and this model coexist. No claimed
+detection exists there now, so it is a forward bet rather than a retrodiction.
 
-**The mass scale is a two-sided target.** A confirmed detection well above ~5.3 meV falsifies the
-model outright; no claimed detection exists there, so this is a forward bet rather than a
-retrodiction. From the other side, DESI-era cosmology is already brushing the prediction — a robust
-Σm_ν > ~70 meV, or inverted ordering from oscillations, ends it.
+**The converse is weaker, and the asymmetry should be stated.** A null at any sensitivity does not
+kill the model, because the phases can cancel. And while a demonstrated Dirac nature would end the
+model logically — the mass mechanism violates lepton number, so Majorana is not optional — there is
+no practical route to demonstrating Dirac nature. You cannot prove the absence of a process. The
+experimental content of this prediction is therefore one-directional: **your program can refute this
+model but cannot confirm it.**
+
+**The near-term threat is cosmological, and it comes from below.** DESI-era CMB+BAO limits reach
+Σm_ν ≲ 72 meV with some combinations pressing lower, toward the normal-ordering floor itself. The
+model sits at 61.4 meV, just inside. The live risk is therefore not a detection above the prediction
+but **the upper limit descending through it**. The model's defence is that those limits are
+ΛCDM-conditional and the squeeze relaxes under this model's recombination physics (next section) —
+which is a testable claim rather than an escape, and the fastest way to grade this whole sector.
 
 **The claim was registered before the deciding data**, as a numbered, git-timestamped entry with a
 named killing observation. The timestamps are the provenance and the audit trail is in the
@@ -87,7 +97,7 @@ against ΛCDM at full freedom. Any stated number wrong collapses the model's own
 **Validation.** Exact ΛCDM null test at five decimals, gauge invariance, precision-stability
 battery. The deepest structural claim, the medium's reality, is carried as an open assumption
 rather than asserted. Entry points for a technical reader: THREE_EQUATIONS, DEPENDENCY_TREE,
-PREREGISTERED_PREDICTIONS (40+ numbered bets), FAILURES_LEDGER.
+PREREGISTERED_PREDICTIONS (50+ numbered bets), FAILURES_LEDGER.
 
 **Context.** Vacuum condensates setting matter's parameters is not exotic — roughly 99% of ordinary
 mass is QCD-condensate binding. This model adds one more condensate and asks whether it reads into
@@ -101,6 +111,9 @@ settle. D/H is predicted at 2.407–2.463×10⁻⁵ against Cooke's 2.527 ± 0.0
 on the full budget (observational ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037). Both ranges are
 the span of one committed input, the genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35], which the model
 uses everywhere it appears and which CMB-S4 will measure directly through ΔN_eff = 0.06–0.24.
+*(The next section decomposes the nucleosynthesis physics at ζ's own baseline, before the dilution's
+dark-radiation contribution is added, where the same prediction reads 2.387×10⁻⁵. The two figures
+are the same calculation at two stages, not two predictions.)*
 
 The joint is decided by a nuclear-code systematic outside our control: PRIMAT gives D/H = 2.439
 where PArthENoPE gives 2.51–2.54, a 3.5% spread that is 2.3× the quoted nuclear error. Carrying
@@ -111,8 +124,10 @@ primordial D/H at 327 MHz, free of astration and quasar optics).
 
 ## Where the deuterium deficit comes from
 
-Taking that column apart changes what it is a statement about. The prediction is built in two steps
-from an in-house ΛCDM control run, same code and same data:
+Taking that column apart changes what it is a statement about. Below, the chain is shown at ζ's
+baseline — before the dilution's dark-radiation contribution is added, which is what carries 2.387
+up into the 2.407–2.463 range quoted above. The prediction is built in two steps from an in-house
+ΛCDM control run, same code and same data:
 
 | step | D/H ×10⁻⁵ | vs Cooke |
 |---|---|---|
@@ -147,10 +162,19 @@ accidental ones.
 
 ## Two smaller items
 
-**A scale coincidence, carried as a coincidence.** The model's dark-energy floor has
-ρ_∞^(1/4) ≈ 2.25 meV, the expected mass of the lightest neutrino under normal ordering. Known
-attempts to mechanize the dark-energy–neutrino coincidence (MaVaN) failed to instabilities; we log
-the coincidence, use the tie that produces the 61.4, and claim nothing further.
+**Where the lightest mass actually comes from.** Oscillations fix the two splittings but not the
+absolute floor, and in this model that floor is not fitted — it is medium-sourced. The lightest
+neutrino mass reads m₁ = κ_m·ρ_inf¼ with κ_m ≈ 1: the dark-energy scale does not happen to coincide
+with the lightest neutrino mass, it **sets** it. Σm_ν = 61.4 meV then follows from that floor plus
+the measured splittings.
+
+Two honest qualifications. This is deliberately **not** a mass-varying-neutrino (MaVaN) construction
+— those founder on the Afshordi–Zaldarriaga–Kohri instability, and this model avoids it because m_ν
+is set by a frozen lepton-number-breaking vacuum expectation value rather than by the rolling
+dark-energy field, so the rolling does not vary the neutrino mass. And κ_m ≈ 1 is where the residual
+freedom sits: the relation's *form* is derived from the model's channel counting, its O(1)
+coefficient is not independently pinned. A reader who wants to discount this claim should discount
+it there, and nowhere else.
 
 **A framing you may enjoy.** In this model's internal language, 0νββ decides whether lepton number
 is a collateralized charge — like electric charge, with a field enforcing it — or an unenforced
