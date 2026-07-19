@@ -102,7 +102,8 @@ moot: that section defended β's cs² guarantee and β no longer exists.
 - **β is unused** (best fit 10⁻⁸, i.e. the exact-ΛCDM-background limit of the
  fluid). The H₀ relief comes from ξ_Neff + the fluid's budget unification,
  not from the barotropic deformation. Candidate simplification for v5:
- drop β (removes one Occam penalty from the evidence).
+ drop β (removes one Occam penalty from the evidence) — adopted that same
+ night; the v5 transition above records the deletion.
 - **n_s = 0.983, ξ = 0.40**: the model claims Planck's n_s=0.965 is a
  ΛCDM-conditional inference. This is the standard high-N_eff signature and
  is falsifiable by better damping-tail data (ACT/SPT).
@@ -113,10 +114,12 @@ moot: that section defended β's cs² guarantee and β no longer exists.
  ΛCDM samples 7 (ω_b, ω_cdm, H₀, logA, n_s, z_reio, A_planck), dCDF samples
  9 (ρ_inf replaces ω_cdm; ξ_Neff and log₁₀β are the net +2). χ² −19.2 with
  2 extra parameters needs Δln Z to count as a detection; β→0 at best fit
- suggests a β-free 8-param variant would carry a smaller Occam penalty.
+ suggests a β-free 8-param variant would carry a smaller Occam penalty
+ (adopted that same night — the v5 transition above).
  Fixed symmetrically in both models: m_ncdm=0.06, T_cmb, N_ur base 2.0328.
  Never-sampled sandbox knobs (dcdf_c_gamma, dcdf_c_EM) remain 0/off.
-- H₀=70.4 closes ~55% of the gap to SHOES (74.0±1.0); Pantheon+SHOES χ²
+- H₀=70.4 closes ~45% of the gap to SHOES (74.0 central; ~54% to its 1σ-low
+  edge); Pantheon+SHOES χ²
  improves −27.8, so the SN data endorse the partial move. Full 73+ remains
  blocked by the damping tail (ξ≈1.0 territory).
 
