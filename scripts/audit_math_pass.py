@@ -698,6 +698,18 @@ chk("v5 verdicts", "nu at M_eff=2e-21 (alpha=2)", 1.1e-10, _nu(2e-21), 0.02)
 chk("v5 verdicts", "nu at M_eff=8.8e-23", 5.6e-8, _nu(8.8e-23), 0.02)
 chk("v5 verdicts", "m2bar at M_eff=2e-21 (GUT band)", 4.4e13, _M2sq/2e-21/1e9, 0.01, "GeV")
 
+# --- T6 Koide kernel chain (2026-07-19) ---
+_me_,_mmu_,_mtau_ = 0.51099895, 105.6583755, 1776.86     # MeV
+_rt = [math.sqrt(x) for x in (_me_,_mmu_,_mtau_)]
+chk("T6 kernel", "Q from PDG masses", 0.66666, (_me_+_mmu_+_mtau_)/sum(_rt)**2, 1e-4)
+chk("T6 kernel", "M^2 = mean(sqrt m)^2", 313.84, (sum(_rt)/3)**2, 0.001, "MeV")
+chk("T6 kernel", "c2*tau = (4/(3ln2))*(ln2/2) == 2/3", 1.0, (4/(3*math.log(2)))*(math.log(2)/2)/(2/3), 1e-12)
+chk("T6 kernel", "modulus: rho=1/sqrt2 -> Q=2/3", 1.0, (1/3 + (2/3)*0.5)/(2/3), 1e-12)
+chk("T6 kernel", "B trace: sqrt(4pi/8pi)", 1.0, math.sqrt(0.5)/(1/math.sqrt(2)), 1e-12)
+chk("T6 kernel", "mu_face = (2/9)*Tc at 177.10", 39.4, (2/9)*177.10, 0.005, "keV")
+chk("T6 kernel", "deviation-lock slope 2A/9", 0.3143, 2*math.sqrt(2)/9, 0.001)
+chk("T6 kernel", "tangency seed ratio 7+4sqrt3", 13.928, 7+4*math.sqrt(3), 0.001)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

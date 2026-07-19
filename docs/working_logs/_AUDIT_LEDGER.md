@@ -1782,3 +1782,18 @@ opposite-pull strain (2.2σ, splice-robust), and the supersession banner's three
 each live in their reader-facing homes. One edit: obstruction 2 (the D/H width) is now
 explicitly pointed at ForJustin/10 — the same fork in its third home; one owner ruling
 closes all three. T13 remains honestly NOT complete (helium branches + the width), and says so.
+
+## T6_koide_owed.md — deep audit 2026-07-19 (the working-logs tier's centerpiece)
+
+Read whole, all 1450 lines, and it is the corpus's best-disciplined document: every kill
+carries its autopsy pointer, every retraction is in place including its own premature
+plateau (the h3 audit firing on the 1.002), every fence is named at the site of temptation,
+the trial's DEATH verdict stands with receipts while the equivalence stack survives as
+mathematics, and the file ends on exactly the standing state — the clasp (per-charge-sector
+vs per-mode partition) that #101 and #79 carry as the open work. Recomputed and exact:
+Q = 0.66666 from PDG masses, M² = 313.84 MeV, the Gascheau discriminant 2592 = (36√2)²,
+the tangency faces at θ = 135°, c₂·τ = 2/3 exactly, the modulus inversion ρ = 1/√2 ⟹
+τ = ½ln2, the B-trace to 4π/8π, the P-051 lock slope 2√2/9 — eight now harnessed (310).
+One digit fixed: the three-group sort's μ_face = 39.8 keV was 179-keyed inside the entry
+that derives T_c = 177.10 — now 39.4 with the keying stated. Nothing else needed changing;
+this file is what the audit protocol aspires to make everything else.
