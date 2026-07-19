@@ -169,23 +169,24 @@ the data is the fingerprint of how the fountain poured. [GRAMMAR — unification
 recorded descriptions; no new mechanism; the torus's dynamical origin stays owned by the
 recorded Kelvin-Helmholtz roll-up.]
 
-**The pour writes light's birth certificate, not its path.** The medium is electromagnetically
-neutral by force, so nothing here rotates light en route and the anti-birefringence bet stands
-untouched. What the one no-counterparty instant does stamp is parity-odd *initial conditions* —
-the genome-signed magnetic helicity, and chiral gravitational waves — which imprint at last
-scattering with no electromagnetic coupling at all. The two are distinguishable in principle:
-rotation along the path carries its own spectral signature, while primordial parity-odd sources
-carry theirs. That is T10's physical identity: **the white hole's fingerprint in light** — the
-pour stamps parity-odd structure on everything it issues, and parity-even physics downstream
-preserves what it cannot erase. Fence: the
-"gravity reverses and attaches to light" mechanic grades [EXPLORATORY] — the recorded snap
-is a neutral HANDOVER, not a rule inversion, and census blindness holds at genesis; the
-mechanic's observable content (the at-birth parity stamp) is the real and already-owed
-channel. The amplitude is now computed, and it closes as a null: the vortex network's own
-gravitational-wave background sits eight to eleven orders below every instrument, so the
-parity stamp can be order unity and remain unobservable — the carrier is absent
-([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)). The at-birth stamp stays a
-formal prediction with no detection channel.
+**The pour writes light's birth certificate, not its path.** The medium is
+electromagnetically neutral, so nothing here rotates light en route and the anti-birefringence
+bet stands untouched. What the one no-counterparty instant does stamp is parity-odd *initial
+conditions* — the genome-signed magnetic helicity and chiral gravitational waves — which
+imprint at last scattering with no electromagnetic coupling at all. The two are distinguishable
+in principle: rotation along the path carries its own spectral signature, primordial parity-odd
+sources carry theirs.
+
+That is T10's physical identity — **the white hole's fingerprint in light**: the pour stamps
+parity-odd structure on everything it issues, and parity-even physics downstream preserves what
+it cannot erase. Its amplitude is computed, and it closes as a null. The vortex network's own
+gravitational-wave background sits eight to eleven orders below every instrument, so the stamp
+can be order unity and remain unobservable — the carrier is absent
+([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)). A formal prediction with no
+detection channel.
+
+*Fence: the "gravity reverses and attaches to light" mechanic grades exploratory — the recorded
+snap is a neutral handover rather than a rule inversion, and census blindness holds at genesis.*
 
 **T10-light PAID (estimate-grade — the fingerprint's amplitude):** three
 channels priced against literature benchmarks. (A) Chiral-GW TB/EB ∝ r × chirality: even
