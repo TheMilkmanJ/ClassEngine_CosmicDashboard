@@ -1590,3 +1590,16 @@ replaced. The record's own numbers verified: MICROSCOPE's 7.5–8.5 orders, the 
 chameleon failure thresholds, DR2's 2.9σ arithmetic (0.162/0.055 = 2.94), the 1.23%/1.24%
 factor-one table. Nothing in the dated text was rewritten — the shots and grades stand as
 fired and scored.
+
+## The two session-findings files (2026-07-10, 2026-07-11) — deep audits 2026-07-19
+
+Files ninety-three and ninety-four, audited under the dated-record standard. Both were missing
+the provenance fence that intellectual_history carries — added to each (both records predate
+the high-f pivot, the standing T_c, the ε stack, and the pharmacy's death, so the fence is
+load-bearing). One garble repaired in the 07-10 file ("the the private internal review record
+(internal review + internal review)" — an anonymization-pass artifact reading as nonsense).
+Everything else stands as dated: the 07-10 record's dynamic-floor arc, the honest Weinberg
+verdict, the gate-0 evening ledger with its coin-flips as flipped; the 07-11 radio night's
+2.695-at-20% DE value, the 512-run f̄ = 0.6438 ± 0.0305, ν_H/ν_D = 4.338649 (verified:
+1420.406/327.384 = 4.33865), and the omk machine return. These files are why the corpus can
+prove what it knew and when — they are receipts, not claims, and they now say so up front.

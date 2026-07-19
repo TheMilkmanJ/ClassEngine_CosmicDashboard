@@ -1,3 +1,7 @@
+> **PROVENANCE NOTE (2026-07-19):** dated session record; statuses herein are as-of
+> 2026-07-11 (the DE-value route, f̄'s value, and several registrations have moved since).
+> For current state see PRTOE_INDEX.md.
+
 # PRTOE — Session Findings 2026-07-11 (the radio night)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
