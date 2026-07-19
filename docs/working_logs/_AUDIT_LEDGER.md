@@ -1173,3 +1173,13 @@ seventh). The parity family's records are the corpus's healthiest tissue:
 
 The pattern is now beyond doubt: files written or reworked on 07-18 are clean; the rot lives in
 everything maintained-but-not-rewritten between 07-07 and 07-16.
+
+## PRTOE_cosmic_magnetism.md — deep audit 2026-07-19
+
+Forty-ninth file. One fix: the EM-neutrality clause said "forced to 25–45 orders" against a
+registered bound (q_EM < 4.7×10⁻³⁸…10⁻⁴⁷) that is 37–47 orders below unit charge — the clause
+now quotes the bound itself. Everything else held: the seed's arithmetic (harnessed since the
+first pass), the void gap's honest OPEN status with both rescues closed by flux conservation
+and the single external referee named, the precise-boast section that separates the standard
+mechanism from the model's three genuine additions, and the signed-helicity falsifier with no
+dial. The pathology table for competitors is accurate to the literature.

@@ -55,7 +55,8 @@ a genuine new explanatory front, registered as P-2026-028.
 
 **Consistency, forced:** the seeding runs through the *plasma's* response to the medium's
 rotation — never through dark-charge currents, because the condensate's EM-neutrality is
-FORCED to 25–45 orders by the Meissner/photon-mass bound (graded). The model is not
+FORCED to 37–47 orders below unit charge by the Meissner/photon-mass bound
+(q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — P-2026-028's constraint-closed-en-route). The model is not
 allowed to make fields directly; it is allowed to stir.
 
 ## 3. The void floor — the honest open gap
