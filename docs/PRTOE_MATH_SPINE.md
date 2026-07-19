@@ -108,9 +108,14 @@ phase); below, it oscillates as dust. The switch epoch:
 
 > **T(H=m) = √(m·M_red / 0.61) = 9.41 keV** (g*=3.36) ↔ **coded z_rad_onset = 4×10⁷ → T = 9.39 keV.**
 
-Match 1.002×. The onset is field 1's H=m clock — textbook ULDM — NOT a condensation temperature
-(the apparent internal inconsistency dissolved, booked both columns). Code: `dcdf_z_rad_onset`
-(background.h, with the derived-identity comment).
+Match 1.002×. The onset is field 1's H=m clock — textbook ULDM — NOT a condensation temperature.
+Code: `dcdf_z_rad_onset` (background.h, with the derived-identity comment). *(Five production
+configs — `conv`, `conv_desi`, `dyad`, `lepton`, `nulink` — set this identity value. The `_fixed`
+family, including the running evidence job, is frozen at 3.5619×10⁷ instead: 0.053 dex low, which
+under this same clock corresponds to m = 1.75×10⁻²⁰ eV rather than 2.24×10⁻²⁰. The mass is pinned
+independently by ξ, the Schive core radii and the superradiance window, so the identity is the
+model's value and the frozen setting is a profiled offset — see
+`ForJustin/07-zon-two-values.md`.)*
 
 **Two jobs, one clock:** the ending regime reaches its floor (conformal
 protection ends) while the starting regime crosses its threshold (dust/DM behavior begins). In
@@ -131,8 +136,8 @@ The dyad is a high-scale pseudo-Goldstone: **f ≈ 100–500 TeV (input)**, quad
 operator m_e(φ) = m_e0(1 + κφ²) with **κ = ε/f² ≈ 1.4×10⁻³¹ eV⁻²** — ε = κf² = 1.2543% is the
 frozen zero-mode's delivery. The full operating point (roll time, fluctuation floor 2×10¹⁸
 below ε, thermalization gates clearing by 10⁸–10⁹, λ_dyad radiatively stable) is closed-form in
-[PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) (the high-f spec). **T_c ≈ 179 keV**
-(the confining chiral ratio; observation-inverted, lattice-gated — the flagship block above).
+[PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) (the high-f spec). **T_c = 177.10 keV**
+(the Koide kernel's τ = ½ln2; lattice-gated on an SU(2), N_f = 3 value — the block at the top).
 
 **The ramp's timing, stated exactly.** The electron bath's thermal restoration crosses the
 dyad's own bare curvature where
@@ -180,8 +185,10 @@ survives (background ρ_m, not the w-mirage).
 ## 6\. The neutrino home [relation DERIVED-candidate; value INPUT]
 
 Ψ = Majoron (L-breaking Goldstone): tree coupling σNN → Majorana m_ν → **0νββ must occur**
-(P-2026-020); **Σm_ν ≈ 61 meV, normal ordering** (P-2026-012; whisper won the pre-registered
-collision vs P-2026-004, which is FALSIFIED, ANN-2026-021). The tie:
+(P-2026-020); **Σm_ν ≈ 61 meV, normal ordering** — the sum from the tie below, the *ordering*
+selected by data through the P-2026-004 collision (ANN-2026-021), not by P-2026-012, which states
+it does not fix the hierarchy (ANN-2026-025). The sum is not a discriminator: it sits 2.6 meV above
+the m₁ = 0 floor against ~20 meV planned resolution. The tie:
 
 > **ρ_inf¼ = m_ν,lightest = 2.25 meV** — a single lepton-number-breaking scale μ sets both the
 > dark-energy floor (ρ_inf ∝ μ⁴) and the lightest neutrino mass (m_ν = μ). The tie is exact to a few
@@ -191,12 +198,19 @@ collision vs P-2026-004, which is FALSIFIED, ANN-2026-021). The tie:
 The scale μ is a dimension-1 lepton-number-breaking parameter, distinct from the (dimensionless)
 varying-m_e amplitude ε, which is electromagnetic — the two are different quantities and are not related
 by any bridge. The value μ = 2.25 meV is not itself derived from first principles; that is the
-dark-energy-value problem (§2). **The tie's operator is now exhibited** (the tenth-channel seat
+dark-energy-value problem ([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md) §2). **The tie's operator is now exhibited** (the tenth-channel seat
 term, with its UV form above v_L and κ_m's size structural —
 [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)); the seat constant b (κ_m's exact value)
 remains basement-gated.
 
-## 7\. NOW → THE END (the forward map) [Route D: mechanism + pre-registration branch]
+## 7\. NOW → THE END (the forward map)
+
+> **Read 7a–7c with their verdict, which is below in the addendum and is adverse.** The full-cycle
+> KP solve fired the internal falsifier: the clean Route-D prediction is dead, and what survives is
+> a narrow imminent-turn corner needing a favorable alignment the priors do not favour. The running
+> Route-D chain is the single decider. **P-2026-018 (w = −1 rigid) is the standing branch.** The
+> sections below record the mechanism as it was worked out; the addendum records what happened to
+> it.
 
 **7a. The sequestered floor — a route that does not work.** A Kaloper–Padilla vacuum-sequestering attempt
 to fix the dark-energy value from the cosmic expansion history was checked and fails: it predicts a
@@ -271,8 +285,10 @@ the physics has none.**
 
 ## 9\. Ledger (what this spine rests on)
 
-**Recorded:** DM+DE unification (2→1); ε derived (docketed); onset = H=m identity; dyad onset derived
-(electron-CW); gate-0 clearance (double regime-citation, pending the docketed confirm); AZK-safety; leptonic
+**Recorded:** DM+DE unification (2→1); ε derived (docketed); onset = H=m identity (z = 4.03×10⁷,
+the mass pinned independently by ξ, the Schive core radii and the superradiance window); **the dyad
+onset is T_c = 177.10 keV from the Koide kernel's τ = ½ln2** — *not* the electron-CW route, which §4
+retires as BBN-fatal; gate-0 clearance (double regime-citation, pending the docketed confirm); AZK-safety; leptonic
 allowed≠generated. **Falsified:** P-2026-004 (high Σm_ν). **Live falsifiers:** DESI DR3 (the
 branch), Σm_ν ≈ 60 meV, 0νββ, void/IGM m_e-step (P-007, J4). **Owed:** KP self-consistency
 (docketed), the docketed confirm, low-scale seesaw (docketed), spurion identification (docketed) + new consequence
@@ -361,7 +377,8 @@ the whole descent**; the double-ladder alignments graded per-rung (2 definitiona
 no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
 
 **THE WINDOWED BBN VERDICT:**
-T_c ≈ 179 keV is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
+T_c (177.10 keV on the kernel's τ; 179 keV in the superseded reading — the conclusion is
+insensitive to the difference) is INSIDE the BBN window → the ε(epoch) stamps re-price everything: **the Y_p
 medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.24900 (+1.09σ
 COUNTER vs Aver; +3.53σ vs EMPRESS — the helium civil war noted); D/H partially refunded
 (2.387 → **−2.9σ** vs Cooke on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037; the 3.5% inter-code spread is named and unfolded, and would soften it to −1.4…−2.2σ).
