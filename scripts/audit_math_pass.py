@@ -95,6 +95,26 @@ chk("PREREGISTERED P-053", "onset shift at dN=0.24", 0.0079,
 chk("PREREGISTERED P-053", "convertible dN_eff cap", 6.1e-4,
     (5.0/(9.41e3/0.26))/0.2271, 0.05)
 
+# ---- the neutrino block ----------------------------------------------------
+m1, d21, d31 = 2.25e-3, 7.42e-5, 2.515e-3
+m2, m3 = math.sqrt(m1**2+d21), math.sqrt(m1**2+d31)
+chk("neutrino_sector", "m_3 from m_1 + NuFIT Delta m^2_31", 50.0, m3*1e3, 0.01, "meV")
+chk("neutrino_sector", "Sigma m_nu = m1+m2+m3, normal ordering", 61.4, (m1+m2+m3)*1e3, 5e-3, "meV")
+
+# ---- the solitons (Schive relation) ----------------------------------------
+m22 = 2.24e-20/1e-22
+chk("galactic_atoms", "dwarf core radius (Schive, 1e9 M_sun)", 7.0, 1.6/m22*1e3, 0.03, "pc")
+chk("galactic_atoms", "MW-class core radius (1e12 M_sun)", 0.7,
+    1.6/m22*(1e3)**(-1/3)*1e3, 0.03, "pc")
+hbar, G, msi = 1.054572e-34, 6.674e-11, 2.24e-20*1.782662e-36
+inv = hbar**2/(G*msi**2)/(1.98892e30*3.0857e16)
+chk("galactic_atoms", "soliton M*r invariant is halo-independent", 6e5*7.0, 6e6*0.7, 1e-6, "M_sun pc")
+chk("galactic_atoms", "the soliton constant M r G m^2/hbar^2 is O(1)", 2.5, 4.2e6/inv, 0.10)
+
+# ---- the gate's energy bookkeeping -----------------------------------------
+chk("entropy", "eps*m_e, the rest-energy step across the gate", 6.41, 0.012543*511, 5e-3, "keV")
+chk("entropy", "ballistic 2 keV suppressed by the sound-speed ratio 1/40", 50, 2000/40, 0.05, "eV")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
