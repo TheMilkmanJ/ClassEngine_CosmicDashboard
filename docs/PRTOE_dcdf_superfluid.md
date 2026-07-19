@@ -24,7 +24,7 @@ fluid, two eras**.
 
 **The binding channel is s-wave, and the data selects it.** E_b is a Coulombic two-body level
 (E_n = ½α_c²M₂/n², partial wave ℓ requiring n ≥ ℓ+1), so the channel picks the level: the s-wave
-ground state gives **2.284 meV** *(the +1.5% is used here only RELATIVELY, to select ℓ = 0 against p/f-wave; its absolute standing is the τ-rounding grade, [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md))* vs the observed 2.25, against **−74.6%** for p-wave and
+ground state gives **2.2599 meV** vs the observed 2.25, against **−74.9%** for p-wave and
 **−93.7%** for f-wave ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4c). The
 flagship's agreement *requires* ℓ = 0.
 

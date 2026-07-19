@@ -43,8 +43,10 @@ environment half, one interaction and one signature at a time.
  dynamics AND from phonon thermodynamics — two roads, one number.
 
 ## Coherences (one parameter, many observables — the bet's evidence class)
-- **The dyad**: one rules amendment (m_e) → H₀=69.7 (TRGB), plik better
- than ΛCDM's own, ACT approval, S₈ at the KiDS-Legacy consensus.
+- **The dyad**: one rules amendment (m_e) → H₀ ≈ 69.9 from the CMB fit
+ (69.70 on the TRGB anchor), plik better than ΛCDM's own, ACT approval, S₈ at
+ the KiDS-Legacy consensus. The H₀ figure is provisional — the live evidence
+ run is re-measuring it.
 - **The scar-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
  healed exactly, helium improved, lithium chipped correctly.
  (Approximate coefficients; literature confirmation pending.)
@@ -144,7 +146,7 @@ environment half, one interaction and one signature at a time.
  law as engineering)**: a QUBIT is a deliberately unposted draft
  (coherence time = how long you delay decoherence); GATES are
  reversible draft-edits (irreversible ops would post/leak — the
- the "reuse, don't shred" rule is MANDATORY architecture, not a
+ "reuse, don't shred" rule is MANDATORY architecture, not a
  choice); ALGORITHMS are choreographed interference (C4g: arrange
  phase accrual so wrong-answer branches cancel — Shor/Grover as
  interest-rate bookkeeping); MEASUREMENT is the single final posting
@@ -225,7 +227,22 @@ local-state loophole; the universal-vev kill via epoch gating).*
  interaction alone (precedent: (□φ)² → (δK)² re-earned via three
  fresh certificates).
 
-**Census: 7 cold (never) / 6 warm / 3 risen.**
+**Census — enumerated, because Rule 2 is a tripwire and a tripwire needs a
+countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
+
+- **Cold (7)** — no live route in the minimal model: the β sound-speed family;
+ the c_EM exchange coupling; the flavor-structured shared coupling; varying G /
+ ν self-interactions / dark-sector PTA / PBH expansion (one bullet, four levers);
+ the funded-floor drift fingerprint (final inside the minimal room — its door is a
+ model extension, not a repair); the thermal / Casimir / zero-point floor
+ ontologies; the v1–v3 F(φ)R screening program.
+- **Warm (4)** — a named development could meet the condition: the local-state
+ half of the epoch m_e couplings; carrier-ratio unification (exhumation at turn
+ zero); the tunneling discriminator; model-sourced birefringence.
+- **Risen (3)** — the precedents: ξ_Neff (as the BBN-era carrier); the funded
+ floor (via the (δK)² face); the universal single-vev (as the gated vev package).
+
+**Rule 2 check: 4 warm against 7 cold — the graveyard is burying, not hedging.**
 
 - **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
  structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
@@ -416,12 +433,12 @@ is its only coupling). Give it curvature and the product is determined:*
 
 | input (geometry offered) | product | threshold / rate |
 |---|---|---|
-| uniform expansion (Hubble flow) | NOTHING — no shedding, no records; occupation conserved, denomination redshifts | Galilean protection (2.2 Step 1) |
+| uniform expansion (Hubble flow) | NOTHING — no shedding, no records; occupation conserved, denomination redshifts | Galilean protection: a uniform flow is a boost, and a boost sheds nothing |
 | convergent flow, region R ≫ l_dB | granule field: exponential speckle, Θ-plateau vortex tangle | complete in t_shed ~ ħ/(M_eff v²) |
 | convergent flow, region R ≲ l_dB | one soliton (single coherence patch) | the regime boundary R ~ l_dB |
 | nonlinear structure's ⟨(δK)²⟩ | floor contribution ν = (4πα/3)(m̄₂/M_Pl)² | invisible (≤10⁻⁸; mutual-exclusion) |
 | extreme infall (black hole) | DE-CONDENSATION: basin exit at r = 1.8393 r_s (exact; sonic point at the ISCO, 3 r_s) | solved stationary flow |
-| anything from the other three sectors | no interaction — the medium holds no EM/weak/strong charge (structuralts | structural (all α/fifth-force nulls) |
+| anything from the other three sectors | no interaction — the medium holds no EM, weak or strong charge | structural (all α/fifth-force nulls) |
 
 ## Whispers (patterns the model produces unprompted; below bet-grade, logged so they can be watched)
 - **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 burn;
@@ -489,10 +506,11 @@ is its only coupling). Give it curvature and the product is determined:*
  class as the medium). The room's falsifiable furniture exists in
  at least one laboratory universe.
 - **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
- on sub-eV scales without being asked — M₂ = **9.53 eV** (= α²·T_c, derived),
- the ~20 nm cutoff, the κ_v opening pass demanding an eV-scale
- portal, and, computed here: **ρ_∞^(1/4) = 2.25 meV — the mass
- scale of the lightest neutrino** (normal hierarchy: ~1–10 meV).
+ on sub-eV scales without being asked — M₂ = **9.43 eV** (= α²·T_c at the
+ kernel-sourced T_c = 177.10 keV), the ~20 nm cutoff, the κ_v opening pass
+ demanding an eV-scale portal, and, computed here: **ρ_∞^(1/4) = 2.2599 meV
+ against an observed 2.25 — the mass scale of the lightest neutrino**
+ (normal hierarchy: ~1–10 meV).
  This is the known dark-energy/neutrino-mass coincidence, and the
  model sits on both ends of it while its top-priority deliverable is
  a Σm_ν posterior. GRADE: coincidence, NOT a bet — the known attempt
@@ -638,7 +656,8 @@ is its only coupling). Give it curvature and the product is determined:*
  only weakly (n_dark gradients are feeble for ultralight DM) — but
  the UNIFORM neutron potential V = (g/M*²)·n_dark grows as a⁻³ into
  the past: at BBN it is 10²⁷ × today's, and n↔p energetics cap the
- portal at **M* ≳ 10¹⁴ GeV (GUT-scale suppression)** — leaving
+ portal at **M* ≳ 10¹⁴ GeV** (intermediate-scale suppression, two decades
+ below the GUT scale) — leaving
  V_today ~ 10⁻²² MeV: nothing, forever. (Honest note: the first-pass
  EP-only pricing under-priced by 27 orders; the early-universe
  density growth is the true executioner — the drift-wall pattern's
@@ -667,10 +686,10 @@ is its only coupling). Give it curvature and the product is determined:*
  (the equivalence principle erases it pointwise — free-fall and it's
  gone; only coordinate-dependent pseudotensors exist). Yet the GLOBAL
  books are exact: ADM/Bondi totals are well-defined, and the
- Hulse–Taylor binary loses orbital energy at 0.997 ± 0.002 of GR's
+ Hulse–Taylor binary loses orbital energy at 0.9983 ± 0.0016 of GR's
  predicted radiative rate (Weisberg & Huang, ApJ 829, 55 (2016),
- cite-verified) — energy whose transport is measured to 0.3% and
- whose location is UNDEFINABLE. The translation survives only by
+ cite-verified — 35 years of timing on PSR B1913+16) — energy whose
+ transport is measured to 0.16% and whose location is UNDEFINABLE. The translation survives only by
  adding an axiom: **global conservation keeps
  totals, not line-items — no branch addresses.** Scored honestly:
  a STRAIN, not a break — physics carries the identical strain (a
@@ -694,17 +713,16 @@ is its only coupling). Give it curvature and the product is determined:*
  correspondence — the entropic-gravity program is celebrated but
  contested, and THIS model deliberately keeps GR fundamental (the
  survival choice); the connection is booked, not adopted. But the
- the instinct — thermodynamics answers gravity — is a
- published research program, named blind, healing the atlas's one
- scar.
+ instinct — that thermodynamics answers gravity — is a published
+ research program, named blind, healing the atlas's one scar.
 
 ## Silences (the language translates but adds nothing — distinct from strains)
 - **The strong CP problem (2026-07-07 night, break-hunt round 2):** QCD's
  rules permit a CP-violating fee (the θ-term); the totalitarian
  principle says un-forbidden terms are compulsory; yet the fee is
  waived to ten decimal places — neutron EDM < 1.8×10⁻²⁶ e·cm (nEDM
- collab, PRL 124, 081803 (2020), cite-verified) ⇒ θ < ~10⁻¹⁰. The
- this framing restates it beautifully (a cost, mysteriously waived)
+ collab, PRL 124, 081803 (2020), cite-verified) ⇒ θ < ~10⁻¹⁰. This
+ framing restates the puzzle exactly (a cost, mysteriously waived)
  and offers NOTHING toward the mechanism. Worse for us: the known
  candidate mechanism (Peccei–Quinn/axion — a field that rolls the fee
  to zero and then OSCILLATES) is exactly the potential-class object
@@ -732,6 +750,59 @@ is its only coupling). Give it curvature and the product is determined:*
  in the sampler. (iii) H₀: closed by the unique m_e improvement; the
  taxonomy permits no thermodynamic addition. Net: the true part of
  the bet is being computed as it was placed.
+
+## Live exposures (where the model is on the hook right now)
+
+- **Black-hole superradiance — the sharpest test the dark sector currently
+ faces.** A spinning black hole sheds angular momentum into any light boson
+ whose Compton wavelength matches its horizon, so measured high spins exclude
+ the boson masses that would have drained them. The strength of the effect is
+ set by one coupling, α_g = GMm/ħc, and the model supplies m: at the recorded
+ **m = 2.24×10⁻²⁰ eV** the superradiant range α_g ∈ [0.1, 0.5] falls on black
+ holes of **6×10⁸ to 3×10⁹ M☉** — the band registered as P-2026-034, and the
+ falsifiable claim.
+
+ **That band is populated, and several holes inside it carry high measured
+ spins** (continuum-fitting and reflection analyses put a > 0.9 on more than one
+ object near 10⁹ M☉). If those spins hold, the recorded mass is in trouble —
+ **and it cannot retreat**: m is the onset clock's value, so moving it to evade
+ the band moves the radiation-to-matter onset and breaks the fit that fixed it.
+ The honest uncertainty is on the measurement side, where disc-model and
+ geometry assumptions dominate the spin systematics, not on the model's.
+
+ **What the recorded mass did to the two arguments that used to sit here.** The
+ kinematic one — that α_g stayed below 0.075 even for the heaviest known holes —
+ was correct for the mass it was written against (m ~ 10⁻²² eV), and does not
+ survive the move: the same holes now give α_g of order 1 to 17, and M87*
+ alone sits at 1.09. The specific M87* exclusion band, scalars in
+ [2.9, 4.6]×10⁻²¹ eV (Davoudiasl & Denton, arXiv:1904.09242), does not reach
+ the recorded mass — but that is because the mass sits 0.69 decades **above**
+ it, past the window rather than short of it.
+
+ **The self-interaction argument needs re-pricing before it can be quoted.**
+ The genesis quartic quenches a growing cloud (Baryakhtar et al.,
+ arXiv:2011.11646: quartic level-mixing saturates growth at quasi-equilibrium,
+ and a repulsive λ additionally forbids bosenova collapse), and the margin was
+ swept as a rate balance — Γ_SR ~ α_g⁹m against Γ_nl ~ λ²N²α_g^p m, with the
+ unknown power p over [5, 15] — giving log₁₀(N_spin-down/N_eq) = +2.5 to +7.7
+ decades. That sweep used λ ~ 10⁻⁸⁸. **At the recorded λ ≈ 2×10⁻⁹¹ the
+ self-coupling is 500× weaker, which is 2.7 decades straight off the margin
+ (+2.5 to +7.7 becomes −0.2 to +5.0): the low end no longer clears zero.** The
+ α_g shift enters through α_g^((9−p)/2), whose sign flips at p = 9, so it cannot
+ be folded in by scaling — and f_eff ≡ m/√λ has moved from ~10¹³ to
+ 5×10¹⁶ GeV, 3.7 decades of weaker self-interaction.
+
+ **OWED, and it is a calculation rather than a gate:** re-derive the quench
+ margin at the recorded λ and m, with p resolved rather than swept. Until that
+ is done the quench is not quotable as a shield — and neither is the
+ discriminator built on it (the claim that a confirmed high spin kills free
+ ultralight scalars while leaving the self-interacting condensate standing
+ rests entirely on the quench, so it is un-priced by exactly the same amount).
+
+ **Grade: a named, live exposure** — not a null, and not shielded. It stands
+ with the Galactic-Centre budget test as one of the two constraints bearing
+ directly on the model's single ultralight input; the fuller working is in
+ [PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md).
 
 ## Nulls checked (asked and answered: not in this model)
 - **The golden ratio:** swept the derived
@@ -769,62 +840,10 @@ is its only coupling). Give it curvature and the product is determined:*
  own radiation," not its own plasma. A gapped phase would also sit
  against P-2026-005's structural gaplessness. Phase: yes. Plasma: no.
 
-- **Black-hole superradiance (2026-07-07, post-identity burn):
- the one BH-spin axis that kills ultralight scalars in our band, and
- it misses us TWICE — with a discriminator attached.** Spinning black
- holes shed angular momentum into any light boson whose Compton
- wavelength matches the horizon (superradiance); measured high spins
- therefore EXCLUDE boson masses that would have drained them. M87*'s
- spin excludes scalars in [2.9, 4.6]×10⁻²¹ eV (Davoudiasl & Denton,
- arXiv:1904.09242). Two independent shields for the dyad:
- (i) KINEMATIC — our band (m ~ 10⁻²³–10⁻²² eV) sits 1.5–2.5 decades
- BELOW the exclusion: the coupling α_g = GMm is ≤ 0.075 even for the
- heaviest known BHs (~10¹¹ M_sun) at our heaviest m; the l=1 growth
- rate ~ α_g⁹m gives e-fold times ≥ 10× the age of the universe (need
- ~180 e-folds). No known hole spins fast enough at a mass large
- enough. (ii) THE λ SCAR PAYS A SECOND BILL — even where future
- ultramassive-BH spin data grazes our heavy end, the genesis quartic
- quenches the cloud: with f_eff ≡ m/√λ ~ 10¹²⁻¹³ GeV (λ ~ 10⁻⁸⁸),
- any nascent cloud enters the strongly self-interacting regime
- (Baryakhtar et al., arXiv:2011.11646: quartic level-mixing saturates
- growth at quasi-equilibrium) at cloud masses MANY decades (~7–12,
- two estimates agree in direction) below spin-down relevance; the
- repulsive sign (λ > 0) additionally forbids bosenova collapse. The
- same 10⁻⁸⁸ that towered over the mass term at genesis (h ~ 10⁸) and
- scarred the potential shields the model's mass band from BH-spin
- archaeology. **THE DISCRIMINATOR (prediction-shaped, conditional):**
- free-field FDM at m ~ 10⁻²² eV IS spin-down-vulnerable to
- ultramassive BHs once their spins are measured; the dyad is not.
- A confirmed HIGH spin on a ~10¹¹ M_sun hole would kill free FDM at
- the matching mass while leaving the dyad standing — the first
- observational axis that separates "self-interacting condensate"
- from "free ultralight scalar" at fixed m. Citation-verified at
- booking; order-of-magnitude grade on the saturation margin.
- **UPGRADE (the margin met by sensitivity
- analysis):** the quench margin re-derived as a rate balance
- (Γ_SR ~ α_g⁹m pump vs Γ_nl ~ λ²N²α_g^p m transfer) with the unknown
- α-power p swept over [5, 15] — the margin log₁₀(N_spin-down/N_eq)
- stays POSITIVE everywhere: +2.5 to +7.7 decades at the band's heavy
- edge (m = 2×10⁻²¹, M87*-class holes), +4.4 to +10 at the light edge
- (10¹¹ M_sun); the independent detuning criterion gives +9 to +13.
- The conclusion is INSENSITIVE to the rate-algebra details across
- any plausible reading — quotable as "≥ 2.5-decade margin, typically
- 5–10." **THE PARTITION (adopted):** the
- distinctiveness axes partition the mass band — PTA beat at the
- LIGHT edge (Ψ_KR ∝ 1/m²), superradiance quench at the HEAVY edge,
- granule suppression everywhere between; which test applies is an
- OUTPUT of the m-posterior, not a given. **HEAVY-EDGE ADJACENCY
- (recovered from the R1.6 booking, m-band = 10⁻²²–2×10⁻²¹ eV):** the
- band's top sits immediately below the M87* exclusion floor
- (2.9×10⁻²¹) — the discriminator is NOT doubly-future there; a
- modest improvement in SMBH spin data (or one heavier fast hole)
- pushes the free-scalar exclusion INTO the band, at which point:
- free FDM dies at that mass, the dyad survives by the quoted margin.
-
 - **The asymmetric-dark-matter coincidence is NOT ours (same burn):**
  ADM models explain Ω_DM ~ 5Ω_b by tying the dark asymmetry to the
  baryon asymmetry (similar number densities, GeV-ish dark mass). Our
- charge-to-entropy ratio is Y_Q ~ f_rot·ρ_DM/(m·s) ~ 10²¹ — THIRTY-ONE
+ charge-to-entropy ratio is Y_Q ~ f_rot·ρ_DM/(m·s) ~ 10²¹ — THIRTY
  decades above η_B ~ 6×10⁻¹⁰. No co-genesis numerology connects the
  deposits; the 5:1 ratio stays an honest input (the abundance pin),
  not a clue we can cash. Null booked so nobody retro-fits it later.
@@ -840,7 +859,7 @@ is its only coupling). Give it curvature and the product is determined:*
 
 - **THE DARK-ANTIMATTER REFRAME (coherence-grade; falls out of E7's
  two-fluid for free):** the antiparticle sector n₋ never annihilates
- (gravity + λ ~ 10⁻⁸⁸ only — nothing to annihilate INTO), so the
+ (gravity + λ ≈ 2×10⁻⁹¹ only — nothing to annihilate INTO), so the
  dark sector RETAINS its antimatter forever. Median draw: **30% of
  dark matter — a quarter of all matter in the universe — is
  antimatter**, coexisting peacefully at every point in the halo. The
@@ -896,8 +915,7 @@ is its only coupling). Give it curvature and the product is determined:*
  cannot feel the medium; no anomalous perihelion channel exists.
  Clean, closed.
 
-## THE BIGGEST MYSTERY (2026-07-07)
-## cosmological constant problem, attacked head-on)
+## THE BIGGEST MYSTERY — the cosmological constant problem, attacked head-on
 
 The consensus worst problem in physics — vacuum energy over-predicts
 Λ by ~120 orders. The problem's anatomy splits it in two, answers one
@@ -970,7 +988,7 @@ worlds.
  independent. Priced exits: nonlocal interactions; substrate-correlated
  settings (a universal medium is the natural implementer); retrocausal
  handshakes (the transactional interpretation, J. Cramer 1986 —
- entanglement as a interaction, already published and Bell-compatible);
+ entanglement as an interaction, already published and Bell-compatible);
  or quantize the substrate. The model must elect a cost before the
  entanglement entry can be derived; no election, no entry.
 - The remaining §2 wall: recombination sits e¹³ from every natural scale;
@@ -1028,8 +1046,17 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  E-field) but cannot screen circulation (no monopoles = no eraser),
  so B is the only large-scale EM memory the universe keeps; galactic
  fields sit at equipartition (~μG ↔ eV/cm³, CMB/cosmic-ray class).
- Magnetogenesis (the first B-field's origin) is a REAL open problem —
- logged as a silence, not claimed. KERNEL 2 (named): "dark sector
+ Magnetogenesis — the first B-field's origin — is where the model has
+ something to say rather than a silence: ΛCDM cannot seed cosmic fields at
+ linear order because it has no primordial vorticity, and this model has
+ vorticity by construction. Harrison seeding on the model's own
+ ω_vort ~ 0.5 H(rec) gives **B ≈ 5×10⁻¹⁸ G**, enough to seed every galactic
+ field through the dynamo, and the primordial field's magnetic helicity is
+ signed by the winding current. Registered as **P-2026-028**, and the honest
+ split is inside that entry: the galactic column stands on its own; the void
+ column sits ~1.5 orders below the blazar TeV-halo floor, with two of three
+ candidate rescues closed by flux conservation, so it rides solely on whether
+ that floor survives the beam-plasma-instability debate. KERNEL 2 (named): "dark sector
  paid out through magnetic fields" is literally the AXION HALOSCOPE
  concept (ADMX-class: DM→photon conversion inside B). THE KILL, and
  the standing bet it funds: our medium is kinetic-class (P-2026-005
@@ -1081,7 +1108,8 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  hardest constructible test (total gutted vacuum) and is confirmed as
  the correct description of how curvature comes to exist at all, not
  merely a metaphor. Adopted as house law, on the same footing as the
- three laws (one coupling channel, adiabatic background, rules-not-conservation-laws).
+ three laws (one coupling channel; adiabatic background; rules amendable,
+ balances not).
 
 - **CLEARINGHOUSES ARE CONTINGENT -- banks open at contact, in order
  (grounds the split and reconciles

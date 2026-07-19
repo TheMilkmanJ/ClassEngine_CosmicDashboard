@@ -99,7 +99,17 @@ contains no PRTOE physics. Everything the model contributes is upstream.*
 z_high = z(T_c = 179 keV) = 7.62×10⁸, the formula returns **0.6089 at the D bottleneck** and
 **0.7765 at Li** — reproducing the documented **0.61ε / 0.78ε** exactly.
 
-**But `varying_z_high` is set in no config anywhere**, and the C default is 0, which makes the
+**The coded T_c and the chain's T_c, and why the difference does not propagate.** The pipeline and
+the offline BBN splice were computed at **T_c = 179 keV**; the dark-energy chain's T_c is the
+kernel-sourced **177.10 keV**, 1.07% lower. It is one temperature, not two, so the coded value is an
+approximation of the standing one. Priced: at 177.10 keV the ramp stamps read **0.6047** at the
+deuterium bottleneck and **0.7741** at lithium, against the coded 0.6089 and 0.7765 — a 0.69% shift
+on the D stamp, which moves the window's D/H contribution from +0.645% to +0.641% and the predicted
+D/H by **0.002σ** against a budget of ±0.047×10⁻⁵. The difference is four hundred times smaller than
+the measurement it feeds, so the coded value stands until the pipeline is rebuilt for another
+reason.
+
+**`varying_z_high` is set in no config anywhere**, and the C default is 0, which makes the
 `if (varconst_z_high > 0.)` branch never fire: **f_high = 1 at every redshift.**
 
 **Arming it would change nothing.** CLASS's varconst acts through **recombination (z ≈ 1100)**, where

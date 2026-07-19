@@ -49,7 +49,7 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
 
 $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,m_e,\qquad \tau \equiv T_c/m_e .$$
 
-- **Chain:** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼. Every factor is sourced: the α⁴ scaling and
+- **Chain:** m_e → T_c → M₂ = α²·T_c = 9.43 eV → ρ_Λ¼. Every factor is sourced: the α⁴ scaling and
   M₂ = α²·T_c are structure, and **τ is fixed by the Koide kernel** — Parseval forces the kernel's
   modulus to 1/√2 once Q = 2/3, so τ = ½ln2 = 0.34657, T_c = 177.10 keV, and
   **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**. Nothing cosmological enters that chain;

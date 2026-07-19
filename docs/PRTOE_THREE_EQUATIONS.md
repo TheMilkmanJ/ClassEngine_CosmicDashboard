@@ -18,12 +18,7 @@
 > Boltzmann second moment, holding to 18 ppm on the measured masses). **Its referee is one number:**
 > a lattice T_c/√σ for SU(2) with N_f = 3. **0.34657 crowns the kernel and the dark-energy
 > prediction together; 0.3503 kills both.**
->
-> **A superseded figure to watch for.** Older material quotes this agreement at +1.5% via
-> T_c = 179 keV. That figure is not a prediction — the 179 keV behind it is the observed dark-energy
-> density inverted and rounded to two decimals, so the "agreement" was the rounding gap. The
-> standing claim is +0.44%; the autopsy is in
-> [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

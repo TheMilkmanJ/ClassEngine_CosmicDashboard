@@ -176,10 +176,9 @@ carries the dark-energy scale. So the Koide sector, using no cosmological input 
 
 > **T_c = 177.10 keV**  and  **ρ_Λ¼ = (9/2)α⁴T_c = 2.2599 meV**, against an observed 2.25 meV — **+0.44%**
 
-This is worth stating carefully, because the comparison is not what it first looks like. The
-corpus's own T_c = 179 keV is the *observed* dark-energy density inverted and rounded
-(0.34506 → 0.345 → 0.35), so it is not an independent determination of τ at all. **½ln2 is.** It
-descends from Q = 2/3 — a lepton-mass fact measured to ten parts per million — through an exact
+This is worth stating carefully, because the comparison is not what it first looks like. Inverting
+the observed dark-energy density gives τ = 0.34506, which returns the observation by construction
+and is therefore not a determination of τ at all. **½ln2 is.** It descends from Q = 2/3 — a lepton-mass fact measured to ten parts per million — through an exact
 identity, with nothing cosmological entering anywhere. Judged as the only independently sourced τ
 the model possesses, it lands **0.44% from the sky**.
 
