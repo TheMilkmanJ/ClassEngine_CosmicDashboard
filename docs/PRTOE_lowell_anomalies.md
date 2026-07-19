@@ -42,7 +42,11 @@ At the smallest torus the matched-circles nulls permit (L ≈ 27.6 Gpc) the quad
 **83%** of its power, where the observed deficit wants 20–50%. A torus of L ≈ 20 Gpc would
 deliver it (39% retained) — but that size is excluded by the circles. **So the honest grade is:
 right shape, wrong depth at allowed sizes — the mechanism produces a quadrupole suppression
-three to five times too weak.** (Sachs–Wolfe-only, cubic torus, scale-invariant spectrum: the
+three to five times too weak.** Two candidate escapes have since been computed and both fail:
+anisotropy *shallows* the suppression rather than deepening it (long axes keep supplying the
+modes a short axis removes), and the integrated Sachs–Wolfe contribution is sourced at
+distances where the relevant modes sit above the cutoff, so adding it dilutes the effect. One
+route remains and is unbuilt: a winding modulation acting beyond the mode cutoff. (Sachs–Wolfe-only, cubic torus, scale-invariant spectrum: the
 shape conclusion is robust, the depth good to tens of percent.)
 
 Not "the model explains the anomalies" (the detailed low-ℓ likelihood is OWED — a compact-torus
