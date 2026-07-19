@@ -1206,3 +1206,12 @@ tilt arithmetic all verified, including the subtlety that the running's −5.2×
 scale-local logarithm (61.9), not the consistency check's 55.5 — correct as written. The
 grade-per-claim table (flatness "measured, not derived") is the honest structure task #108
 certified and it holds.
+
+## PRTOE_direct_detection.md / PRTOE_indirect_detection.md — deep audits 2026-07-19
+
+Files fifty-two and fifty-three. One fix each, both known species: direct_detection carried the
+same "25–45 orders" neutrality slop corrected in cosmic_magnetism (now quotes the registered
+bound, 37–47 below unit charge); indirect_detection's owed list still requested the ceiling
+computation its own tail addendum delivers (σv = 0 at tree level; ~10⁻¹⁵⁴ cm³/s gravitational
+ceiling, harnessed since the first pass) — struck as paid. The unhedgeable-exposure stances in
+both are exactly as they should be: no dial, kill stated, nothing earned from silence.
