@@ -285,15 +285,37 @@ the physics has none.**
 
 ## 9\. Ledger (what this spine rests on)
 
-**Recorded:** DM+DE unification (2→1); ε derived (docketed); onset = H=m identity (z = 4.03×10⁷,
-the mass pinned independently by ξ, the Schive core radii and the superradiance window); **the dyad
-onset is T_c = 177.10 keV from the Koide kernel's τ = ½ln2** — *not* the electron-CW route, which §4
-retires as BBN-fatal; gate-0 clearance (double regime-citation, pending the docketed confirm); AZK-safety; leptonic
-allowed≠generated. **Falsified:** P-2026-004 (high Σm_ν). **Live falsifiers:** DESI DR3 (the
-branch), Σm_ν ≈ 60 meV, 0νββ, void/IGM m_e-step (P-007, J4). **Owed:** KP self-consistency
-(docketed), the docketed confirm, low-scale seesaw (docketed), spurion identification (docketed) + new consequence
-(docketed), leptophilia portal (docketed), DE value if Route-D dies (constitution). **Standing:** provisional pending the named referees
-, DESI-capped, the branch pre-registration pending guards.
+**Recorded:** DM+DE unification (2→1); ε derived; onset = H=m identity (z = 4.03×10⁷, the mass
+pinned independently by ξ, the Schive core radii and the superradiance window); **the dyad onset is
+T_c = 177.10 keV from the Koide kernel's τ = ½ln2** — *not* the electron-CW route, which §4 retires
+as BBN-fatal; AZK-safety; leptonic allowed ≠ generated.
+
+**Falsified:** P-2026-004 (high Σm_ν); the sequestering route to the dark-energy value (§7a, and the
+full-cycle KP solve in the addendum — the internal falsifier fired).
+
+**Live falsifiers:** DESI DR3 (the branch), Σm_ν ≈ 60 meV, 0νββ, void/IGM m_e-step (P-007, J4).
+
+**Settled since this ledger was last written** — each was carried here as owed and each is closed
+elsewhere in the corpus:
+- *KP self-consistency* — resolved **in this file**: §7a reports the attempt fails, and the addendum
+  reports the full-cycle solve firing the falsifier. It was listed as owed eighty lines below its own
+  answer.
+- *spurion identification* — done in [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md) §2: μ is a
+  dimension-1 lepton-number-breaking parameter, distinct from the dimensionless varying-m_e amplitude.
+- *low-scale seesaw* — **adjudicated** by the seesaw duty scan (same file).
+- *leptophilia portal* — established in [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2, census-forced and
+  leptophilic across sectors.
+- *the gate-0 confirm* — #40 (RG V_eff + BBN network) confirms rather than decides (§4).
+
+**Genuinely owed:** the dark-energy *value* if Route-D dies (falls back to constitution); the
+density-dependent screening form (§5); the seat constant b in the neutrino tie.
+
+**Standing:** provisional pending the named referees, DESI-capped, the branch pre-registration
+pending guards.
+
+*(This ledger previously marked six items "(docketed)". There is no docket document in this corpus —
+the word pointed at nothing, and five of the six were already answered. Debts now name where they
+are closed or what they wait on.)*
 
 ---
 
