@@ -1616,3 +1616,19 @@ open-items list still offered "drop β" as a v5 candidate when the v5-transition
 above it records the deletion the same night — the payment is now marked at the offer. The
 falsification matrix's honest known-defect row (the ℓ=10–12 gauge deviation, unused in
 production) and the CodeRabbit findings paragraph stand as recorded.
+
+## PRTOE_v4_dCDF_derivation.md — deep audit 2026-07-19
+
+File ninety-six, and the algebra is flawless end to end — every derived formula recomputed and
+verified: eq (6) barotropic c_s² = w + dw/ds; the GCG family's (γ−1)e^(−γs) with its
+peak-at-the-fixed-point one-line no-go; eq (10)'s 2βs·e^(−s−βs²) with the peak condition
+2βs² + s − 1 = 0 and c_s²(peak) ≈ 2β/e = 0.736β (the "0.74β", now harnessed, 299); §9.4's
+logistic c_s² identity and the Δ ≥ 1 parabola argument (x* = (1−Δ)/2 exactly); the §9.5
+no-ghost check. The honest machinery — the §3.1 correction recorded in place, the Gaussian
+rejection, the §9.6 both-needles no-go with its own correction to a collaborator message —
+is the model's method at its best. Three fixes: the era provenance note added (its results
+twin had one, this didn't), and two more "the user" assistant-voice leaks made "the author"
+(same species as intellectual_history's — that's three files now carrying it; noted for
+pass 2 as a targeted grep). The historical Gemini-as-implementer references stand as
+factual v4-era history (distinct from the anonymized review dialogues — deliberate,
+not an oversight).
