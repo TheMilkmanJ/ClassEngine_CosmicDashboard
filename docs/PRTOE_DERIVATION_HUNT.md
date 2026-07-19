@@ -360,9 +360,9 @@ re-couples the neutrino bath at Γ/H(z ≈ 1100) ∝ g²m₃²/(4πTH) — and t
 referee. The tested table (estimate grade — order-of-magnitude rates; the literature anchors and a
 proper Boltzmann pass are owed):
 
-| corner | tie tracking | ν recoupling at z ~ 1100 | standing |
+| corner | tie tracking | ν free-streaming at z ≈ 1100 (computed) | standing |
 |---|---|---|---|
-| **A: f = v_L ≈ 100–500 TeV** | dead (no window; 40× gap) | never (Γ/H ~ 10⁻⁷) — CMB-safe, S4-dark, 0νββχ-invisible | quiet, at the tie's price |
+| **A: f = v_L ≈ 100–500 TeV** | dead (ceiling 2.4 TeV vs floor 40 TeV — a factor 17) | Γ/H ~ 3×10⁻³⁸ — CMB-safe, S4-dark, 0νββχ-invisible | tie-dead |
 | **B: v_L in the corridor (below)** | was "alive" via the retracted channel | *(withdrawn — the corridor's fences rode P-2026-049)* | dissolved with the retraction |
 | **C: v_L ~ MeV** | alive (5×10¹⁰, condensate-friction) | *(the deep-recoupling stress was the retracted channel)* | **alive — lane-clean** |
 
@@ -371,9 +371,15 @@ kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ �
 autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); for an ultralight Majoron the
 free-streaming lane returns no discriminator at any corner (g⁴ exchange only, Γ/H ≲ 10⁻⁵
 everywhere; the massless-mediator CMB bound g ≲ few×10⁻⁷ is passed by ≥ 20× at the MeV corner).
-**What stands on this fork:** the one-scale corner remains tie-dead (the condensate-friction
-channel is a coherent-mode rate, not coalescence: ceiling v_L < 0.94 TeV for the settling
-dynamics); the TeV and MeV corners are **both alive**, and the corner-selector is the registry's
+**What stands on this fork (rates now computed, not estimated):** the free-streaming lane is
+clean at every corner by six orders or more (Γ/H at recombination: 8×10⁻⁷ at the MeV corner,
+2×10⁻²⁸ at the TeV class, 3×10⁻³⁸ at one scale — the 2↔2 exchange rate Γ ≈ 7.3×10⁻³·g⁴·T
+against the epoch's H). The one-scale corner remains **tie-dead**: the condensate-friction
+channel is a coherent-mode damping rate (Γ ≈ g²T/8π, evaluated where the settling freezes —
+the lightest neutrino going non-relativistic at z ≈ 12.4), giving a ceiling **v_L ≲ 2.4 TeV**
+against the thermalization floor f ≥ 40 TeV — a factor 17, decisive. *(The proper rate moves
+the ceiling up from the recorded 0.94 TeV by ×2.6 and changes no verdict; the table graduates
+from estimate to computed.)* the TeV and MeV corners are **both alive**, and the corner-selector is the registry's
 original referee — the CMB-S4 Majoron/ν-interaction search (a detection at g ~ 10⁻⁸–10⁻⁹ selects
 the MeV corner and its resonant-leptogenesis lane; a null leans high-v_L). **The SN1987A lane,
 verified against the literature (2026-07-18): both corners clear.** The Majoron–ν channel is

@@ -124,7 +124,7 @@ mass relation. One coincidence dissolves: "why does the bath quit exactly at the
 was the old reading's unexplained alignment.
 
 **The corridor nuance, stated.** Under this relation the tie's *value* no longer rides the
-tracking — the corridor's upper fence (v_L < 0.94 TeV) is the requirement of the recorded
+tracking — the corridor's upper fence (v_L ≲ 2.4 TeV at computed rate) is the requirement of the recorded
 *settling dynamics* (the friction that damps the residual to the floor by z ≈ 12), not of the
 tie itself. If tracking failed, the equality would survive and the settling story would lose its
 friction partner — a different, milder failure than the pre-spec reading implied.
