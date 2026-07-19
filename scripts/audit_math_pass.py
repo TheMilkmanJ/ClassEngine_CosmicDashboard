@@ -610,6 +610,10 @@ chk("blackholes 8", "conservative clearance at 2e10", 20, 2e-91/(2e10/_M0A)**2, 
 chk("blackholes 8", "loose-convention clearance at 2e10", 256, 2e-91/(2e10/_M0B)**2, 0.03, "x")
 chk("blackholes 3", "Kaup cap M_Pl^2/m x 0.633", 3.7e9, 0.633*_MPl_G**2/_m_G/_Msun_G, 0.03, "Msun")
 
+
+# --- the condensate bounce floor (bigbang 1.2), 2026-07-19 ---
+chk("bigbang 1.2", "rho_bounce^1/4 at the derived lambda", 1.06e3, ((2.24e-20)**4/2e-91)**0.25, 0.01, "eV")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
