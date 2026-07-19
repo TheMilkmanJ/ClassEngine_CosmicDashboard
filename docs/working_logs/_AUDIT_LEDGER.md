@@ -833,3 +833,25 @@ Check 12 caught two residues of my own rewrite: Act 4 still leaned on "the Act-3
 after the heal was removed, and the status key listed tags ([FIT], [TRACED]) the body no longer
 uses. Both fixed before commit — the same lesson as every other time, one act downstream of the
 edit.
+
+## PRTOE_me_mechanism_math.md — deep audit 2026-07-19
+
+Twenty-second file. Eight defects, one real find.
+
+The ε sweep: the file mixed both values — §0, §4, §8's locked-correlation table and §9's fit
+value all carried 1.24%/1.0124 while §8's own forecast block below them used 1.2543%/2.509%.
+One document, both epochs. All standing now, and the locked prediction dm_ν = 2·dm_e re-priced
+2.48% → 2.51% (1.54 meV on the sum — the harness carries it).
+
+**The find: the BBN-stability fence's lower edge is the retired operating point.** The high-f
+table quoted "BBN-stability fence [179, 369]" — and the kernel re-pin puts T_c = 177.10, which
+sits 1.1% *below* that fence. The tell is that the lower edge equals the old T_c exactly:
+stability was recorded from the then-operating point upward, not probed beneath it. Priced
+rather than asserted: the re-pin costs 0.002σ on D/H (four hundred times inside the budget),
+and the fence's re-statement is assigned to the same RG-resummation docket that owns the
+re-pin. Same note added at the fence's other appearance (DERIVATION_HUNT).
+
+The ramp's absolute stamps rescaled to the standing T_c (154 → 152 keV at half, 114 → 113 at
+90% — the ratios are the kernel's and survive). The retired electron-CW section is properly
+fenced with its must-not-cite banner and was left as the record it claims to be; its one
+current number (κv² delivering the full 1.2543%) was already right.

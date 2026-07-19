@@ -569,6 +569,17 @@ chk("math_story 7", "S equals the granule p2+q2 factor ~0.6", 0.6, (1+0.4**2)/2,
 chk("math_story 3", "ramp stamp at the D bottleneck (177.10 keV)", 0.60, 1-179.0*(1-0.6089)/177.10, 0.01)
 chk("math_story 3", "ramp stamp at lithium (177.10 keV)", 0.77, 1-179.0*(1-0.7765)/177.10, 0.01)
 
+
+# --- me_mechanism_math, 2026-07-19 ---
+chk("me_mechanism 10", "dm_nu = 2 dm_e at the standing eps", 2.51, 2*1.2543, 0.002, "%")
+chk("me_mechanism 10", "dm_nu on Sigma = 61.4 meV", 1.54, 61.4*2*0.012543, 0.01, "meV")
+chk("me_mechanism 10", "f_L = Psi_rec/(2 eps)", 2.3e20, 5.8e18/(2*0.012543), 0.01, "eV")
+chk("me_mechanism hf", "kappa = eps/f^2 at f = 3e14 eV", 1.4e-31, 0.012543/(3e14)**2, 0.005, "eV^-2")
+chk("me_mechanism hf", "ramp half-amplitude at 0.86 T_c", 152, 0.86*177.10, 0.005, "keV")
+chk("me_mechanism hf", "ramp 90% at 0.64 T_c", 113, 0.64*177.10, 0.005, "keV")
+chk("me_mechanism 8", "dark-ages trough offset at +2.51%", 0.40, 16.0*2*0.012543, 0.02, "MHz")
+chk("me_mechanism 8", "cosmic-dawn trough 78 MHz shifted", 79.96, 78.0*(1+2*0.012543), 0.001, "MHz")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
