@@ -1376,3 +1376,42 @@ its own derivation rather than arriving at Q's numerical value by another road.*
 √3 = 1.732, outside the allowed band, and c₂ cannot be a bare length ratio because the correlator is
 screened); the Debye route (the demanded c₁ = 1.345 needs α_dark = 0.123, a weak-coupling value at
 the sector's own confinement temperature); the thaw branching ratio (this entry).
+
+## THE THREE-GROUP SORT — TWO UN-DERIVED INPUTS COLLAPSE TO ONE (2026-07-19)
+
+**The sort.** Classifying the sector's numbers by which physics produces them explains the failed
+identification and points at the missing ingredient:
+
+| group | object | value |
+|---|---|---|
+| background | Γ_par/H | √3 — the condensate's IR scale |
+| perturbation | ω_J/H | √(3/2) — the growing mode's rate |
+| *their ratio* | B | 1/√2 — **purely gravitational** (traces to 4π/8π) |
+| spectral | \|f₁/f₀\| | 1/√2 — **a share of the mass spectrum** (traces to Q and mode counts) |
+
+The two 1/√2 sit in different groups, which is why tracing their roots separated them. **The sort
+predicts that failure rather than explaining it afterwards.**
+
+**The third group is thermo, and it is the only one where an angle is native.** A thermal state is
+periodic in imaginary time with period β = 1/T, and a chemical potential twists the boundary
+condition by e^(βμ): the phase per period is **μ/T**, a genuine holonomy rather than a number
+written in radians. That was the whole obstruction — 3θ = Q equated an angle to a pure number with
+no preferred unit available — and thermo supplies the unit, because it is the one sector that is
+not scale-free.
+
+**One condition now delivers both of the kernel's parts.**
+
+> **Q = the charged-mode fraction.** On a 3-cycle the Fourier modes carry Z₃ charges 0, +1, −1, so
+> **two of three modes are charged** and the fraction is 2/3, by exact mode counting.
+
+- **modulus** — Parseval inverts it: Q = 1/3 + (2/3)ρ² ⟹ ρ = 1/√2 ⟹ τ = ½ln2, hence T_c and ρ_Λ;
+- **phase** — Z₃ shares that charge democratically, Q/3 per face, and the KMS twist turns
+  charge-per-face at temperature T into a phase: θ = μ_face/T_c = **2/9**
+  (μ_face = (2/9)T_c = 39.8 keV, against the recorded ~40 keV);
+- **holonomy** — 3θ = Q, and the ring closes.
+
+**What this replaces.** Two independent un-derived inputs, the modulus and the phase, with the
+phase's obstruction unclassifiable. **What remains is one matching condition:** why a mass-spectrum
+invariant should equal a symmetry-representation count. Q is built from masses; the charged fraction
+is built from how modes transform; nothing yet forces them equal. That is the sector's last clasp,
+and it is the shape of an anomaly-type argument rather than a units mismatch.
