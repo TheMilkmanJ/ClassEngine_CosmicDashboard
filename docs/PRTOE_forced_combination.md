@@ -93,10 +93,21 @@ so the closure reads in its native form: **μ_total = Q·T_c** — the ring's to
 potential at freeze equals the spectral invariant times the transition temperature
 (μ_face = (2/9)·T_c ≈ 40 keV). In this form the phase never touches the spacing, and
 **c₂ = Q/τ = 1.924 becomes a prediction** the correlator locus must independently
-accommodate — it does (the band [1.76, 1.97] contains it, at m_D/T_c ≈ 1.34). **The one
-link this file leaves open: the frozen spatial cycle inherits the thermal circle's twist
-one-to-one** — one circle, one cycle; the winding-imprints-structure principle applied to
-the Euclidean circle.
+accommodate — it does (the band [1.76, 1.97] contains it, at m_D/T_c ≈ 1.34). **The twist
+transfer, reduced:** a freeze that sweeps the ring imprints the Josephson rotation as a
+spatial gradient, θ_hop = μ·Δt_hop — so the one-to-one transfer holds **exactly when the
+front locks one face per thermal period (Δt_hop = β)**. Two statements carry it, both
+candidate-grade: *(pacing)* a site's lock-in is bounded below by one thermal period — the
+freeze is the establishment of the KMS boundary structure, and no boundary thermalizes
+faster than its own period; the front saturates the bound (the fastest freeze thermality
+permits — the saturation step is the residual); *(sequencing)* the genesis handedness orders
+the freeze — the front co-rotates with the medium's recorded chirality, the same source as
+the axis family. Consistency: the front velocity comes out v = ℓT_c = Q·c — the closure
+restated, one loop. **A consequence worth naming: the sequencing ties the sign of the Koide
+phase (in the mass-ordered convention, where it is physical) to the sign of the cosmic
+helicity (P-2026-028) — one genesis handedness, a spectrum signature and a sky signature.
+Registrable as a correlation once the sign chain (helicity → rotation → front → gradient →
+θ_B) is walked step-signed.**
 
 **One lattice campaign, three referees:** T_c/√σ (the P-2026-048 fork), F_π/√σ (0.40–0.47),
 and w·√σ (the sheet) — all observables of the same SU(2) N_f = 3 ensembles.
