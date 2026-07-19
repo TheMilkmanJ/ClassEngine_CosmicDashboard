@@ -40,13 +40,25 @@ potential at the recorded last-scattering distance: the suppression is confined 
 multipoles and dies away by ℓ ≈ 4, which is the observed pattern. Its **depth** is the problem.
 At the smallest torus the matched-circles nulls permit (L ≈ 27.6 Gpc) the quadrupole retains
 **83%** of its power, where the observed deficit wants 20–50%. A torus of L ≈ 20 Gpc would
-deliver it (39% retained) — but that size is excluded by the circles. **So the honest grade is:
-right shape, wrong depth at allowed sizes — the mechanism produces a quadrupole suppression
-three to five times too weak.** Two candidate escapes have since been computed and both fail:
-anisotropy *shallows* the suppression rather than deepening it (long axes keep supplying the
-modes a short axis removes), and the integrated Sachs–Wolfe contribution is sourced at
-distances where the relevant modes sit above the cutoff, so adding it dilutes the effect. One
-route remains and is unbuilt: a winding modulation acting beyond the mode cutoff. (Sachs–Wolfe-only, cubic torus, scale-invariant spectrum: the
+deliver it (39% retained) — but that size is excluded by the circles. **The grade, with the error bar attached.** The quadrupole carries 63% cosmic variance —
+five modes, and no amount of data reduces it. Against that: the observed deficit sits about
+1σ below expectation, the torus prediction sits 0.3σ below, and the two are **0.8σ apart**.
+So the honest statement is neither "the model predicts the anomaly" (the data does not demand
+this depth) nor "the model falls short" (the data cannot resolve the difference): **the
+mechanism produces a suppression in the right place, of a size the quadrupole alone can never
+grade.**
+
+Three candidate ways to deepen it were computed and all three fail, for one structural
+reason — suppression requires *removing* long-wavelength modes, and none of them removes any.
+Anisotropy shallows the effect (long axes keep supplying the modes a short axis takes away);
+the integrated Sachs–Wolfe contribution is sourced where the relevant modes sit above the
+cutoff, so adding it dilutes; and the winding modulation is multiplicative, which convolves
+power upward rather than removing it. **What the torus gives is what it gives: about 17% at
+the smallest permitted size.**
+
+**Where the real test lives:** the *shape* across ℓ = 2–5 — the model says the suppression
+dies by ℓ ≈ 4, which is a pattern rather than a single number — and the alignment structure,
+where a compact topology makes specific statements and cosmic variance bites far less. (Sachs–Wolfe-only, cubic torus, scale-invariant spectrum: the
 shape conclusion is robust, the depth good to tens of percent.)
 
 Not "the model explains the anomalies" (the detailed low-ℓ likelihood is OWED — a compact-torus

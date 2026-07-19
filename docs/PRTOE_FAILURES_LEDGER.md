@@ -1344,7 +1344,21 @@ sourced at low redshift, over distances of a few Gpc, where the contributing mod
 above the torus cutoff and are therefore untouched. Adding an unsuppressed component to a
 partially suppressed one raises the ratio — the total suppression gets weaker, not stronger.
 
-*What remains:* a winding modulation that suppresses beyond the mode-cutoff effect. That is
-model-specific, unbuilt, and now the only surviving route. **The low-ℓ row therefore reads
-worse than at first grading: the pattern is right, the depth is three to five times short, and
-two of the three ways out are closed by computation.**
+*The winding modulation fails too, and for the same reason.* It enters multiplicatively, so
+it convolves the spectrum — moving power from k to k ± k_w — rather than removing any. The
+lowest modes keep their power and the total rises slightly. All three escapes share one
+structural defect: suppression requires removing long-wavelength modes, and none of these
+mechanisms removes any.
+
+**THE VERDICT'S OWN CORRECTION (same session).** The re-grade above said "three to five times
+too weak." That compared central values without attaching the error bar — and the quadrupole's
+error bar is **63%** (five modes; cosmic variance, irreducible). With it attached: the observed
+deficit is ~1σ below expectation, the torus prediction is 0.3σ below, and the two sit **0.8σ
+apart** — not a discrepancy. **Both the original claim and my correction of it were
+overstatements in opposite directions.** The honest reading: the mechanism produces a
+suppression in the right place of a size the quadrupole alone cannot grade. This is the same
+error class that killed the ⟨a³⟩ = 5/9 coincidence — a gap read before its uncertainty was
+attached — committed here in the pessimistic direction, which is no better.
+
+**Where the low-ℓ claim can actually be graded:** the shape across ℓ = 2–5 (a pattern, not a
+number) and the alignment structure, where cosmic variance bites far less.
