@@ -8,8 +8,8 @@
 *One narrative from t=0 to today, with the equation at each stage and an honest
 status flag on every piece. Supersedes the older PRTOE_SKELETON.md (which pre-
 dates the regime change). Depth lives in PRTOE_me_trigger.md (§57–97),
-PRTOE_amplitude_derivation.md, and the predictions registry — this file is the
-map, not the territory. Status key: [DERIVED] [FIT] [TRACED] [CONDITIONAL]
+[PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md), and the predictions registry — this file is
+the map, not the territory. Status key: [DERIVED] [REGISTERED] [RECORDED] [CONDITIONAL]
 [OPEN].*
 
 ---
@@ -33,16 +33,21 @@ Before condensation the medium is the NORMAL FRACTION — w = 1/3, radiation-lik
 NOT forbid a direct matter coupling → space has ONE direct coupling to matter,
 and it is *cheap*. (This coupling will be force-closed in Act 4.)
  **naturalness ban is dormant while m_eff ≈ 0** → direct coupling ALLOWED
- [CONDITIONAL — new §96; "massless pre-z_x" plausible (w=1/3), magnitude κ_v OPEN]
+ [CONDITIONAL — the epoch structure is recorded (the window closes at basin entry, and that
+ closure is load-bearing); every magnitude so far proposed to run through it has died —
+ the one-carrier κ_v by eight orders (ANN-2026-006), the flat vev at +7.7σ — so nothing
+ standing rides this window; the caustic-bit exhumation (R1) is its one live remnant]
 
-## ACT 3 — BBN (z ~ 10⁹): the early coupling heals deuterium
-Through the still-open coupling the medium nudges the Higgs vev on the small normal
-fraction. The Dent–Stern–Wetterich response then moves ALL light abundances
-together:
- **δv/v ≈ 0.09–0.15%** → d ln X = R_X · δv/v
- D healed (−1.2σ→0), Y_p improved (+1.4→+1.08σ), ⁷Li chipped −5.5% (right way),
- ³He/⁶Li in slack. Joint χ: 4.86 → 4.50.
- [CONDITIONAL — 5-abundance co-signature PASSES (§97); magnitude owes κ_v]
+## ACT 3 — BBN (z ~ 10⁹): the witness era
+The dyad condenses mid-window (T_c = 177.10 keV, z ≈ 7.5×10⁸ — between n/p freeze-out and
+the deuterium bottleneck), and its order parameter is a ramp, not a switch:
+ **ε(T) = ε·(1 − T/T_c)** → stamps 0.60ε at the deuterium bottleneck, 0.77ε at lithium
+ The window's own nuclear physics helps deuterium (+0.645%, worth +0.27σ) and the pattern
+ is windowed: Y_p +0.85%. The row it cannot fix is carried openly — **D/H = 2.387×10⁻⁵,
+ −2.49σ**, with the lever census closed and no healer available to the dyad
+ ([PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md)); helium pays +1.3 to +2.0σ.
+ [RECORDED — the scar carried honestly; the earlier vev-heal reading died with its
+ magnitude and is retained only as P-2026-006's hypothetical non-Majoron lever]
 
 ## ACT 4 — Condensation / basin entry (z_x ~ 10⁵): the census switches on
 The chemical potential reaches the mass (μ = m); the condensate forms and the
@@ -52,61 +57,67 @@ and from here the medium couples to matter by GRAVITY ONLY (the census). The
 order parameter |Ψ| forms; thereafter it dilutes as dark matter.
  **μ = m ⇒ census ON (gravity-only); |Ψ| ~ a⁻³ᐟ² (afterwards)**
  Note (§95): the AD field is ~10⁵–10⁹× LARGER at BBN than recomb (R_eq ~ a⁻³ᐟ²),
- which is WHY the Act-3 heal must ride the small normal fraction, not |Ψ| itself.
+ which is WHY any early-window effect had to ride the small normal fraction, not |Ψ| itself.
  [DERIVED basin-entry; field evolution confirmed by #11 (SHRINKS)]
 
 ## ACT 5 — Recombination (z ~ 1100): the electron-mass shift (flagship)
 The condensate, now gravity-only, rescales the metric — shifting ALL masses
 UNIVERSALLY (flavor-blind: the equivalence principle can't tell electron from
 quark). For the CMB the electron piece dominates:
- **ε ≡ δm_e/m_e ≈ 1.24%** *(the decomposition shown in this story is the earlier
- dyad-era form; the standing derived stack is ε = c·f̄·α_c = 27α/5π — see
- THREE_EQUATIONS Eq. 3; this file is kept as the narrative of how the number was found)*
- c ≈ 1 (gravitational strength; naturalness ceiling DERIVED §75,
- "forced vs free dial" OPEN — #14 loop calc)
- f_amp ≈ 0.6 (genesis dice — COMPUTED)
- Ψ₀/M_red ≈ 2.2% (misalignment abundance — TRACED, ∝ m⁻¹/4 robust)
+ **ε ≡ δm_e/m_e = c·f̄·α_c = 27α/5π = 1.2543%**
+ c = 9/10 (the census count, (N−1)/N — DERIVED)
+ f̄ = 2/π (the genesis winding's roll-up — DERIVED)
+ α_c = 3α (the registered bet, under MCMC test)
+ *(the narrative decomposition this story once carried — c·f_amp·Ψ₀/M_red — was the road
+ to the number, and the standing stack replaced it: THREE_EQUATIONS Eq. 3)*
  enters CLASS via **σ_T ∝ α²/m_e²** and binding ∝ m_e → shifts recombination
- → eases H₀ to ≈ 70.
- [TRACED — value not yet derived (c is the one open knob); CMB fit real]
+ → eases H₀ to 69.9 (provisional; the zero-parameter evidence run is executing).
+ [DERIVED ×2 + one registered bet; the CMB fit real]
 
 ## ACT 6 — Structure formation: the screening
 The shift is ENVIRONMENTAL: full in smooth/diffuse gas (voids, IGM, the early
 universe), screened to lab value inside virialized structure (Θ saturates).
- **δm_e/m_e = ε · [Θ unsaturated]**
+ **δm_e/m_e = ε · [Θ unsaturated]** — and the gate is a near-step, not a Gaussian:
+ exp(−(C/C_ref)ⁿ) needs n > 2.43, whose natural implementation is the shell-crossing
+ bit Θ itself (no free reference scale)
  Room-2 confrontation: universal varying-constants at ~10⁻⁶ would be MILDLY
  EXCLUDED if "everywhere" (methanol maser 9×) → **screening now DATA-REQUIRED**;
  only clean surviving test = cosmic-dawn 21-cm (P-2026-007).
  [screening MANDATORY (Room 2); void step P-007 = falsification path]
 
 ## ACT 7 — Today: the observables & the sector's two other outputs
- H₀ ≈ 70.1 ± 0.7, S₈ ≈ 0.82, Σm_ν ≈ 61.4 meV (normal ordering; the meV
- whisper — the inverted-hierarchy branch P-2026-004 was FALSIFIED,
- ANN-2026-021; posterior tests the whisper now)
+ H₀ = 69.9 (CMB re-fit; 69.70 the joint best-fit; provisional), S₈ = 0.823,
+ Σm_ν ≈ 61.4 meV (normal ordering; the meV whisper — the inverted-hierarchy branch
+ P-2026-004 was FALSIFIED, ANN-2026-021; posterior tests the whisper now)
  the dark fluid's equation of state runs:
  **w: 1/3 (normal, early) → 0 (condensate = dark matter) → −1 (floor = dark energy)**
  master relations:
  **G_μν = 8πG T_μν** (gravity — the only late-time coupling) [DERIVED]
- **ε = c f_amp Ψ₀/M_red** (the m_e amplitude) [TRACED]
- **S = (1 + f_rot²)/2** (granule ε-meter) [DERIVED; sim-gated #8]
+ **ε = c·f̄·α_c = 27α/5π** (the m_e amplitude) [DERIVED ×2 + the α_c bet]
+ **S = (1 + f_rot²)/2 = p²+q² ≈ 0.6** at the median draw (granule ε-meter)
+ [DERIVED; sim-gated]
 
 ---
 
 ## The whole arc in one breath
-R=0 → genesis makes a charged superfluid (Ψ₀, f_rot) → while it is massless it
-keeps ONE cheap direct coupling to matter, which heals deuterium at BBN → it
-condenses, acquires mass, and naturalness FORCE-CLOSES that coupling (the census
-switches to gravity-only forever) → the gravity-only condensate universally
-shifts m_e by 1.24% at recombination, easing H₀ → the shift is screened inside
-structure → today: H₀≈70, dark matter + dark energy from one fluid, a universal
-varying-constant drift at the edge of detection.
+R=0 → genesis makes a charged superfluid (Ψ₀, f_rot) → the dyad condenses mid-BBN and
+its ramp stamps the light elements (the witness era; the deuterium row carried openly at
+−2.49σ) → the medium condenses, acquires mass, and naturalness FORCE-CLOSES its one early
+coupling (the census switches to gravity-only forever) → the gravity-only dyad shifts m_e
+by 1.2543% at recombination, easing H₀ → the shift is gated off inside structure → today:
+H₀ = 69.9 (provisional), dark matter + dark energy from one fluid, and the void-side
+m_e step (P-2026-007) as the sharpest surviving fingerprint.
 
 ## The honest accounting of what's DERIVED vs OWED
- DERIVED : R=0; genesis mechanism; basin-entry/census-switch; field SHRINKS (docketed);
- G=8πGT; S formula; naturalness ceiling on c.
- TRACED : the 1.24% amplitude (= c·f_amp·Ψ₀/M_red), c≈0.93±0.38 measured.
- CONDITIONAL : the regime-change deuterium heal (co-signature passes; κ_v owed).
- OPEN (the 3 walls) : c forced-vs-dial (docketed; loop calc); exact Ψ₀/f_amp (docketed
- genesis); granule/dice readout (docketed; sim); + Fairbank convergence (docketed).
- THREATS : DESI thawing (2.9σ against), birefringence consolidating (2.9σ,
- P-009), novelty⊥fit (stands until amplitude derived).
+ DERIVED : R=0; the genesis mechanism; basin-entry/census-switch; the field SHRINKS;
+ G_μν = 8πG T_μν; the S formula; c = 9/10 (census count); f̄ = 2/π (winding).
+ REGISTERED : α_c = 3α — the amplitude's one remaining input, under MCMC test.
+ RECORDED : the BBN window (stamps 0.60/0.77; Y_p +0.85%) with the scar carried at
+ −2.49σ, lever census closed.
+ OPEN : exact Ψ₀ / f_amp (the genesis calc); the granule/dice readout (sim-gated);
+ the evidence run's verdict (executing).
+ THREATS : DESI DR2's 3.1σ evolving-DE preference (standing bet #3, the model votes
+ against); the superradiance exposure at the recorded mass (P-2026-034's populated
+ band); the deuterium row itself, should its budget tighten. A confirmed 5σ isotropic
+ birefringence would force a dark-photon portal — the census's priced surrender —
+ while the model's own prediction stays exactly zero (P-2026-009, closed).

@@ -562,6 +562,13 @@ chk("THE_CHAIN 10", "turn window in z: a = 2.8", -0.643, 1/2.8-1, 0.005)
 chk("great_chain 6", "the coded dyad amplitude is 1 + eps", 1.012543, 1+27*ALPHA/(5*math.pi), 1e-5)
 chk("great_chain 8", "the nuclear rung", 8.5e-3, 8e6/939e6, 0.05)
 
+
+# --- math_story, 2026-07-19 ---
+chk("math_story 7", "S = (1+f_rot^2)/2 at the median draw", 0.58, (1+0.4**2)/2, 0.001)
+chk("math_story 7", "S equals the granule p2+q2 factor ~0.6", 0.6, (1+0.4**2)/2, 0.04)
+chk("math_story 3", "ramp stamp at the D bottleneck (177.10 keV)", 0.60, 1-179.0*(1-0.6089)/177.10, 0.01)
+chk("math_story 3", "ramp stamp at lithium (177.10 keV)", 0.77, 1-179.0*(1-0.7765)/177.10, 0.01)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
