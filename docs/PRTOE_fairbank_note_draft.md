@@ -3,7 +3,9 @@
 *(DRAFT v0.3, 2026-07-17. Plain physics throughout; self-contained.)*
 
 > **CIRCULATION GATE — three items, all open. This note does not go out until they close.**
-> 1. **The running zero-parameter evidence verdict.**
+> 1. **The running zero-parameter evidence verdict** — the run is executing (sampling since
+>    2026-07-18); its completion horizon is itself under review, so this gate may hold the note
+>    for a long time and that is the honest expectation, not a delay.
 > 2. **Final citation check.**
 > 3. **The quoted fit record must be re-earned.** The H₀ ≈ 69.9 record was obtained with a
 >    likelihood that fed CLASS a **ΛCDM helium fraction** rather than the model's own: the

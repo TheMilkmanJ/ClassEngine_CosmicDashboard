@@ -104,7 +104,8 @@ steriles exist, so the seesaw type is unforced.
 
 **The two-source structure.** The neutrino spectrum has two jobs and the sector has two sources,
 one per job. The **splittings** (Δm²₂₁, Δm²₃₁ — what oscillations measure) are **seesaw-sourced**:
-at the Majoron corridor scale (M_R ~ v_L ~ 0.2–0.9 TeV), y ≈ 6×10⁻⁷ reproduces m₃ = 50 meV —
+at the surviving corners' scale (v_L at either the MeV corner or the TeV class — both lane-clean,
+with CMB-S4 the selector), y ≈ 6×10⁻⁷ reproduces m₃ = 50 meV —
 natural, with the seesaw's lightest eigenvalue free to sit far below a meV (hierarchical
 couplings). The **absolute floor** — the lightest mass, which oscillations do not fix — is
 **medium-sourced**: the tenth-channel seating (the c = 9/10 lock's own requirement: a
@@ -119,7 +120,8 @@ medium term matters. Σm_ν = 61.4 meV and the normal ordering are unchanged.
 forward**, not a thermal coincidence: the dark-energy floor does not *happen* to freeze at the
 lightest neutrino's mass — it **sets** that mass, and the ν bath's last relativistic species then
 quits at the medium's own scale *by construction*. The freeze-at-m₁ dynamics (the Majoron-channel
-tracking, alive across the corridor) remain the settling's mechanism; the tie's *source* is the
+tracking, whose ceiling the computed damping rate puts at v_L ≲ 2.4 TeV) remain the settling's
+mechanism; the tie's *source* is the
 mass relation. One coincidence dissolves: "why does the bath quit exactly at the floor scale"
 was the old reading's unexplained alignment.
 
