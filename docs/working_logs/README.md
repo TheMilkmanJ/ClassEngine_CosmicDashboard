@@ -20,3 +20,6 @@ clear. Cross-cutting debts live in _cross_cutting.md.*
 | T11 | Hubble tension | PRTOE_hubble_tension.md | batch 3, grade pending |
 | T12 | radio lattice | PRTOE_radio_lattice.md | batch 3, grade pending |
 | T13 | fingerprint lattice | PRTOE_fingerprint_lattice.md | batch 3, grade pending |
+| T14 | IGMF helicity | PRTOE_igmf_helicity.md | structure-complete; one link owed (the rectification) |
+| T15 | indirect detection | PRTOE_indirect_detection.md | priced null (σv = 0 tree; ceiling ~10⁻¹⁵⁴) |
+| T16 | LSS parity | PRTOE_lss_parity.md | priced short ~7 orders; bet-against-anomaly registered |

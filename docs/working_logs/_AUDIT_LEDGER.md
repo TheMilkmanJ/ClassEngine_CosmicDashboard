@@ -1704,3 +1704,16 @@ consistent with the 83%-at-floor booking (deficit 17% vs the observed 50–80% w
 so the two recorded readings hang together internally, and the toy-script disagreement
 remains exactly what the provenance note says it is: an un-regenerable booking flagged for
 regeneration, not a settled error.
+
+## The six small working-log indices — deep audits 2026-07-19
+
+README_LOGS and the parked register are clean (the register's chiral-GW row correctly
+distinguishes the parked coefficient question from T10's computed vortex-background null —
+different objects, both stated). Four fixes across the rest: the thread README's table
+stopped at T13 — the corpus threads sixteen; T14/T15/T16 rows added with their standing
+grades. _cross_cutting's items ran 1-2-3-5-4 — renumbered. _chain_snapshot's owed line
+still demanded conv_desi's relaunch after the relaunch happened — a dated 07-19 update
+paragraph pays it and restates the two armed flags at today's R−1 values. **And the
+red-team brief's D/H row quoted −2.9σ (the 2-term width) as "the standing" while the books
+carry −2.49σ (3-term)** — the exact ForJustin/10 fork; the brief now quotes the fork with
+both widths and the owner gate, so red team can't inherit a side that hasn't been decided.

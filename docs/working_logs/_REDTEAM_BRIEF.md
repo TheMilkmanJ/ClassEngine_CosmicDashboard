@@ -16,7 +16,7 @@ engine before any edit is made — a red-team claim is a hypothesis, not a warra
 | **M₂** | **α²·T_c = 9.43 eV** | the "electromagnetic handshake"; T_c is the **dyad's** |
 | **ρ_Λ¼** | **½α_c²M₂ = (9/2)α⁴T_c = 2.2599 meV** | obs 2.25 (+0.44%). α⁴ → dCDF; T_c → dyad; 9/2 → geometry |
 | **Y_p** (ramped) | **0.248995** | +1.09σ vs Aver; **+3.53σ** vs EMPRESS. `0.2495–0.2505` is the RETIRED step interval; **`+3.7σ` is the step-era pull.** |
-| **D/H** (standing) | **2.387×10⁻⁵** | **−2.9σ** vs Cooke on the full budget (obs ±0.030 ⊕ PRIMAT theory ±0.037). |
+| **D/H** (standing) | **2.387×10⁻⁵** | **−2.49σ** on the standing 3-term width (0.0563); **−2.9σ** on the 2-term budget (0.0476 = obs ±0.030 ⊕ PRIMAT ±0.037). The width standardization is owner-gated (ForJustin/10) — quote the fork, not one side. |
 | **Σm_ν** | **61.4 meV**, normal ordering | m_ββ ∈ [0.04, 5.3] meV, ~3.3 typical |
 | **N_gen** | **3** | str[k₁] = 16N_gen − 48 = 0 |
 | **N_c (dark)** | **2** | 2N_f·N_c − 4(N_c²−1) = 0; N_f = 3 |
