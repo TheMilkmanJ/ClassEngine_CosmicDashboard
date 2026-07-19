@@ -1652,3 +1652,30 @@ predicted spread is checked against the measurement's precision.* The thermal re
 was being measured and was booked as confirmed before anyone asked how tightly it predicts. The
 test that overturned it was one simulation and had never been run — the same shape as the session's
 other errors, and made in the same direction, toward the more satisfying story.
+
+### THE COINCIDENCE PROBLEM'S GRADE — THE CHAIN IS SOUND, THE CLAIM WAS WIDER (2026-07-19)
+
+**Audited for promotion** (its grade line was the only candidate file already claiming a recorded
+derivation, making it the likeliest to graduate). **It does not promote, and the grade line was
+overselling.**
+
+**What verifies, exactly.** Γ_par/H = √3, B = ω_J/Γ_par = 1/√2, and
+t_turn = ln(1/√A_s)/(√(3/2)·H) = 8.16 H⁻¹ — all exact, all dial-free, all re-checked against real
+signs. The dark-energy era's **width** is genuinely computed, which is more than ΛCDM can say about
+anything in this problem class.
+
+**What does not follow.** A computed width does not place the observer inside it. Matter–Λ crossing
+sits at z ≈ 0.33, roughly 0.28 H⁻¹ ago, so **~3.5% of the era has elapsed** — an observation drawn
+uniformly across the era lands that early about **one time in thirty**. "Why now" in its ordinary
+sense is precisely that occupancy question, and the chain is silent on it.
+
+**And the direction is worth noting.** A *longer* derived era makes the placement slightly harder
+to explain, not easier. The model has converted "why is Λ this size" into "why are we early in its
+era" — a genuine sharpening, and not a closure.
+
+**Re-graded** to *the width is derived, the occupancy is not*, with both halves stated in the file.
+
+**The lesson (process).** *Computing a quantity adjacent to the puzzle is not solving the puzzle,
+and the adjacency is easiest to miss when the computation is genuinely good.* The √3 chain is one
+of the corpus's cleanest derivations, and its quality is what let a wider claim ride on it
+unexamined.
