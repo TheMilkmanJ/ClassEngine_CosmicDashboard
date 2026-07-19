@@ -409,3 +409,11 @@ the tribunal/referee process, not the physics.*
 **Amendment record:** created 2026-07-18 (three laws adopted together; R3's grading
 refinement and R1's counting rule are the main-session modifications to the proposals as
 received). Zero amendments since.
+
+*Application note (not an amendment): the L1 block's consolidated clause — couple within your
+own sector, open no interface to a sector you are not part of — was applied on 2026-07-18 to
+settle the standing question of whether the electron-mass operator is census-legal. It is: the
+operator sits inside the lepton-mass sector, senses through curvature (gravity's universal
+channel, so no new interface), and follows the lepton charge rather than picking a species.
+The clause decided it without needing to change; recorded here because a law's first real use
+is worth knowing.*

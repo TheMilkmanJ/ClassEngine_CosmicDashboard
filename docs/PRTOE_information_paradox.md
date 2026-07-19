@@ -5,6 +5,7 @@
 
 *Short companion to PRTOE_blackholes_no_singularity.md. Honest scope: the paradox DISSOLVES at
 the structural level in this model; the quantitative capstone (the Page curve / area law) is
+now one coefficient rather than a whole scaling, and is
 OWED and shared with the working docket. Status: STRUCTURAL (candidate).*
 
 ## 0. The paradox, and why it needs a singularity to bite
@@ -52,7 +53,7 @@ system**. Consequences, each from a graded object:
 | the singularity (the shredder) | required | absent |
 | unitarity | threatened | manifest (the interior is a quantum many-body system) |
 | "where is the information during evaporation?" | mysterious | in the core's correlations + outgoing-mode entanglement (ordinary) |
-| the Page curve | the quantitative test | **OWED** — requires the core's entropy functional (= the area-law debt, the working docket) |
+| the Page curve | the quantitative test | **OWED, and narrowed** — the medium's entropy functional now exists (the von Neumann entropy of its one-body density matrix, [PRTOE_entropy.md](PRTOE_entropy.md)) and the area law's *scaling* follows from it with the species count and cutoff cancelling; what still blocks the curve is the one pure coefficient that scaling leaves free |
 | firewalls / remnants / ER=EPR | competing exotica | unnecessary: the interior is matter, not geometry |
 
 ## 3. Honest scope
