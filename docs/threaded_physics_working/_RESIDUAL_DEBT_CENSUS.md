@@ -24,6 +24,19 @@ should stop being counted as a debt.*
 | **T15 indirect detection** | item 1 (tree σv = 0; ceiling ~10⁻¹⁵⁴ cm³/s) | — | GC-excess pulsar progress | — |
 | **T16 LSS parity** | item 1 (short by ~7 orders; the bet-against-the-anomaly registered) | — | DESI 4PCF | the axis-correlation check if the signal firms |
 
+## The corpus-level owed items — outside the T-files
+
+*A sweep of the whole shelf for the word finds five more, which no thread owns. They are listed
+here so the count is the corpus's, not just the threads'.*
+
+| item | where it is named | state |
+|---|---|---|
+| **the dark-energy value's O(1) coefficient** | cosmological constant §4b, and the failures ledger's own note that it "remains the genuinely un-built calculation" after the equipartition ½ was withdrawn | OPEN — the heaviest single number still missing from the flagship sector; its object is named (the partial Gibbs–Duhem term) |
+| **the area law from the medium** | black holes (entropy located, scaling owed), no-singularities §5, and the entropy file §3 | OPEN — the coefficient is adopted from induced gravity, not derived here; **this is also what blocks the Page curve** (information paradox), so one payment closes two |
+| **λ, the quartic** | no-singularities §5 (core floor and bounce density), black holes §3 | **TENSION-FLAGGED, not merely open:** the hunt records λ ≈ 2×10⁻⁹¹ derived within a factor-9 window, while the black-hole core's equilibrium condition asks λ ≳ 10⁻⁹⁰ — the requirement sits at the window's upper edge, so the two are compatible only near that edge. Worth a dedicated check rather than a shrug |
+| **the Z₄-locking mechanism** | quartet clock §2 | OPEN — that file is exploratory and its whole reading rests on this |
+| **the ringdown / echo imprint** | black holes, no-singularities §5 | OPTIONAL — "owed if pursued", and nothing else leans on it |
+
 ## What the census changes
 
 Three files are now **fully discharged of real computation** — T3, T15, T16 hold only
