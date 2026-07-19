@@ -5,7 +5,7 @@ _PRYM = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(_PRYM)
 sys.path.insert(0, _PRYM)
 # THE eps ELASTICITY SCAN - T13 item 3's blocking input. RESULTS ARE RECORDED IN
-# docs/threaded_physics_working/T13_fingerprint_owed.md (the scan data itself is gitignored).
+# docs/working_logs/T13_fingerprint_owed.md (the scan data itself is gitignored).
 # Identical splice machinery to run_windowed.py (the production windowed runner);
 # the ONLY change is that `shift` is an argument instead of hardcoded 1.0124, so the
 # lattice's rows can be turned from values-at-a-point into FUNCTIONS of eps.

@@ -248,7 +248,7 @@ def plot_stability_maps(results, save_prefix="stability_map"):
     plt.close()
 
 
-def generate_safe_region_report(results, filename="docs/safe_region.md"):
+def generate_safe_region_report(results, filename="docs/archive/safe_region.md"):
     """Task 3.4: Generate safe region documentation"""
     results_list = results
     
