@@ -318,7 +318,7 @@ are closed or what they wait on.)*
 
 ## ADDENDUM (2026-07-10, later): §7 STATUS CHANGE — the internal falsifier FIRED
 
-The full-cycle KP solve (full_cycle_kp.py) computed the fixed point over the whole
+The full-cycle KP solve (full_cycle_kp.py, scratch-era, not retained) computed the fixed point over the whole
 cycle (expansion + thawed contraction + Tolman boost): **it robustly wants a_turn = 0.70 (a PAST
 turnaround, z=+0.43)** — excluded by observed acceleration; a future turn is 3× (a_turn=1.0) to
 10× (1.5) short, Tolman boost null, and the "full-cycle-fixes-the-sign" claim was WRONG

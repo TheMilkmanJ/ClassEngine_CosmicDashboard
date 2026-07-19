@@ -1319,3 +1319,25 @@ cross-file haul:
 Verified and kept: the rotation formulas (½sin4β·EE, sin2β·TE), the hint span 2.4–3.6σ,
 r < 0.03, the +1.2%/2.7σ posterior quote, six spectra enumerated, the FIT/INHERITED/FREE/NULL
 verdict table.
+
+## PRTOE_intellectual_history.md — deep audit 2026-07-19, plus the pointer sweep it triggered
+
+File seventy-three. A provenance-noted snapshot (2026-07-06, note added 07-12), so its dated
+claims stand as history and were verified as such (χ² ~224,800 vs 583; BAO 593→8.2; the four
+v3 rescue kills enumerated; the 07-06 scoreboard explicitly datelined). Four fixes: **"the
+user's key synthesis" → "the author's"** — an assistant-voice leak in a history document, the
+audit's first of that species; xi_Neff → ξ_Neff and χ-squared → χ² (math-symbols law); and both
+primary-source pointers were stale (v5_dCDF_complete → docs/archive/, HANDOFF_FOR_GEMINI →
+archive/root_cleanup_20260705/).
+
+**The trigger finding:** the earlier zero-broken-links sweep only parsed markdown links —
+plain-text and backtick references were unchecked. The clean re-sweep found the real species:
+scratch-era script citations (scratchpad/ no longer exists) and pathless bare names. Fixed
+across nine files in one batch: PHYSICS_DOMAINS receipt list got its archive/working_logs
+paths (a miss in its own audit, recorded against me); math_story's SKELETON marked archived;
+v4_dCDF_derivation's HANDOFF repathed; FAILURES_LEDGER's run_windowed.py got its
+tools/PRyMordial path and honest_status.md marked "since removed; not in the repo" (never
+committed — verified against git history); and five forward docs (MATH_SPINE, UV_completion,
+me_mechanism_math, cyclic_torus_genesis, PREREGISTERED) had their scratch-era script citations
+tagged "not retained" — provenance kept, no pointer left promising code that isn't there.
+Working-log transcripts citing their own session ephemera were left as records.

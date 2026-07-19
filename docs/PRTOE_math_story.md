@@ -6,8 +6,8 @@
 
 
 *One narrative from t=0 to today, with the equation at each stage and an honest
-status flag on every piece. Supersedes the older PRTOE_SKELETON.md (which pre-
-dates the regime change). Depth lives in PRTOE_me_trigger.md (§57–97),
+status flag on every piece. Supersedes the older PRTOE_SKELETON.md (archived; it pre-dates
+the regime change). Depth lives in PRTOE_me_trigger.md (§57–97),
 [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md), and the predictions registry — this file is
 the map, not the territory. Status key: [DERIVED] [REGISTERED] [RECORDED] [CONDITIONAL]
 [OPEN].*

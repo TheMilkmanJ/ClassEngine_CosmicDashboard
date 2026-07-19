@@ -57,7 +57,7 @@ c_s²(today)≈5×10⁻⁸ (order β, as predicted). Falsifiability tests (§6) 
 not run — this was a functionality check, not yet a physics comparison
 against ΛCDM.
 This supersedes the v3 (F(φ)R non-minimal coupling) program, which is closed —
-see `[[prtoe-screening-nogo]]` memory / `HANDOFF_FOR_GEMINI.md` for the four
+see `[[prtoe-screening-nogo]]` memory / `archive/root_cleanup_20260705/HANDOFF_FOR_GEMINI.md` for the four
 independent H₀-rescue attempts that failed by direct calculation. v4 does **not**
 modify gravity. It replaces separate CDM + Λ (or CDM + fld) with a single dark
 fluid whose equation of state depends on its own density, unifying "dark matter"

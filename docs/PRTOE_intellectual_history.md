@@ -122,7 +122,7 @@ verdicts should be retested when the jury changes.**
 In parallel, a v6 scalar-field program explored environmental couplings —
 the field responding to radiation density and ionization (c_γ, c_EM
 sandbox knobs), and an N_eff sector (ξ). The scalar field host struggled;
-**the couplings thrived**. The recombination — the user's key synthesis —
+**the couplings thrived**. The recombination — the author's key synthesis —
 was to combine the two survivors: the v4/v5 fluid (a dead program's
 resurrected core) as the body, the v6 coupling ideas as the layer above it.
 This is the "triad": the unified fluid + ξ_Neff + a
@@ -170,8 +170,8 @@ exactly where and why — which is the only kind of death worth having.
 
 *Primary sources: git history of this repository (the deep-clean and
 amputation commits especially), docs/PRTOE_v4_dCDF_derivation.md (the v3
-post-mortem and v4 birth), docs/PRTOE_v5_dCDF_complete.md (the current
-model and its validation record), HANDOFF_FOR_GEMINI.md (the v3 closure),
+post-mortem and v4 birth), docs/archive/PRTOE_v5_dCDF_complete.md (the v5
+model and its validation record), archive/root_cleanup_20260705/HANDOFF_FOR_GEMINI.md (the v3 closure),
 and the session memory files.*
 
 ## Addendum (2026-07-06 afternoon): the nine-turn review
@@ -182,11 +182,11 @@ pre-registered predictions and documented concessions on both sides. Six attacks
 opened it; nine turns closed it. In between: the unfalsifiability
 pincer was broken on paper at the attacker's own chosen line, the
 funded-floor mechanism was derived and then executed by the defender's
-own computation of the attacker's question, xi_Neff was executed by
+own computation of the attacker's question, ξ_Neff was executed by
 the data mid-review (the triad collapsing to a dyad), a prediction
 market on the BBN-consistent fit embarrassed both parties each in one
 leg, and the review's extracted qualifiers were promoted into the
 document's headline with turn attributions preserved. The reviewer's
 closing verdict: "a smaller, harder, more honest object than the one I
 opened fire on." The method — the file, the bets, the attributions —
-is as much a result of this project as any χ-squared.
+is as much a result of this project as any χ².

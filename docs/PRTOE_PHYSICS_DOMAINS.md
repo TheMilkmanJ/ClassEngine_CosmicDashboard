@@ -9,7 +9,7 @@
 actually did there, what was computed or derived (never merely asserted),
 and the honest verdict. Numbers are sourced from the working documents —
 nothing here is quoted that does not have a receipt in
-`PRTOE_v5_dCDF_complete.md`, `PRTOE_room1_complex_completion.md`,
+`archive/PRTOE_v5_dCDF_complete.md`, `working_logs/PRTOE_room1_complex_completion.md`,
 `PRTOE_INTERACTION_ATLAS.md`, `PRTOE_PREREGISTERED_PREDICTIONS.md`, or
 `PRTOE_intellectual_history.md`. Deaths are listed with the same pride as
 survivals; the graveyard is the proof that the survivals mean something.*

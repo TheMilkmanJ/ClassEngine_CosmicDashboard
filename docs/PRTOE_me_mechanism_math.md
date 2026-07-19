@@ -382,7 +382,7 @@ document).
 EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia. CAVEAT
 : the Majoron forces the NEUTRINO coupling (σNN), NOT the charged-lepton Yukawa — so
 the dyad's leptophilia rests on a lepton-specific portal / the P-020 leptogenesis route, not bare
-Majoron. Scripts: electron_cw_Tc.py, finite_T_Tc.py, leptophilia.py.
+Majoron. Scripts (scratch-era, not retained): electron_cw_Tc.py, finite_T_Tc.py, leptophilia.py.
 
 ---
 

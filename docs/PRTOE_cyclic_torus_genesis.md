@@ -16,7 +16,7 @@ converted a chain of physical instincts into computed results. Every mechanism n
 here maps to real physics; the ASSEMBLY into a genesis story is coherent but NOT a
 derivation. Testable edge = the twist-floor DE prediction (w₀>−1 thawing). Companion:
 docs/PRTOE_cosmological_constant.md, docs/PRTOE_PREREGISTERED_PREDICTIONS.md (P-2026-013),
-scratchpad scripts: hawking_brake.py, rotation_reverse.py, three_joints.py, ghost_field.py,
+scratchpad scripts (scratch-era, not retained): hawking_brake.py, rotation_reverse.py, three_joints.py, ghost_field.py,
 twist_floor.py, c1_locus_twist.py.*
 
 ---
