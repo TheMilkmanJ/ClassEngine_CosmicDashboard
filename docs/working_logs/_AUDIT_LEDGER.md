@@ -1261,3 +1261,13 @@ corpus's best pages and needed nothing. neutrino_home is clean: P-023's de-biase
 benchmark's g = 1.2×10⁻⁸ inside the S4 window, the corner map with its honest λ′ gate, and the
 closing line ("watch the two posteriors diverge; one of them has to be wrong in public") is
 the model's quietest live advantage stated exactly.
+
+## PRTOE_special_relativity.md / PRTOE_cmb_anomalies.md — deep audits 2026-07-19
+
+Files sixty-seven and sixty-eight. cmb_anomalies is clean, and its 07-18 torus addendum is a
+model of adverse honesty — "the power spectrum cannot referee this model at any multipole"
+computed against its own hopes, with the covariance structure (S/N 2.2) named as the real
+referee. special_relativity exposed a three-way margin disagreement: the LV table's own rows
+span 12–29 orders, its verdict said 12–27, SR quoted 12–38. Both prose statements now quote
+the table, which is the primitive. The trunk thread's stakes section and the third-arena
+asymmetric bet held as written.

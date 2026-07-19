@@ -33,7 +33,7 @@ Emergent symmetries have residuals; the data are merciless:
  so photon-LV is naturally tiny: a structural pass);
 - gravity-sector: GW speed = c to 10⁻¹⁵ (GW170817) — the emergent metric must serve GWs and
  light identically: automatic if both ride one metric, a CHECK not a freebie.
-**The LV pricing pass is DONE** — the frame is priced and paid ([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md): every sector clears, margins 12–38 orders; quantum_gravity §4 marks it paid). *(The one genuinely-remaining M3 item is the induced-G forward calc, not this LV pass.)* The
+**The LV pricing pass is DONE** — the frame is priced and paid ([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md): every sector clears, margins 12–29 orders; quantum_gravity §4 marks it paid). *(The one genuinely-remaining M3 item is the induced-G forward calc, not this LV pass.)* The
 model's residuals live where the medium's microstructure leaks: suppressed by (E/Λ_micro)ⁿ
 with Λ_micro now FORCED to Planck — which is exactly why the bounds are survivable:
 Planck-suppressed LV at 10⁻¹⁷-class energy ratios is generically below current reach. (The quantitative LV pass is **done** — [PRTOE_LV_pricing.md](PRTOE_LV_pricing.md).)
