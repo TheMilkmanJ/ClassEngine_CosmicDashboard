@@ -11,7 +11,7 @@ prong the review has graded.*
 ## 0. The structure
 
 Every radio observable depends on atomic physics through a DIFFERENT power of the electron
-mass. A universal m_e shift (the dyad, +1.24% above the transition) therefore marks each band
+mass. A universal m_e shift (the dyad, +1.2543% above the transition) therefore marks each band
 with a KNOWN, DIFFERENT weight — a lattice of correlated shifts with fixed ratios:
 
 | observable | ε-weight | physics |

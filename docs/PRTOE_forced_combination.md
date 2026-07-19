@@ -74,7 +74,7 @@ factor-≲2, not yet pinned at percent grade. *(Noted with the fence up: the ban
 edge, 0.297, sits 0.3% from QCD's own 130-MeV-convention value — proximity is bait until
 the convention is computed, and the computation may not know the target.)* **The closing
 state: the entire chain now hangs on TWO observables of ONE lattice theory — T_c/√σ (the
-P-048 fork: 0.3503 vs ½ln2) and F_π/√σ (this tie) — the same SU(2) N_f = 3 ensembles the
+P-048 fork: ½ln2 = 0.34657 vs the observation-inverted 0.34506) and F_π/√σ (this tie) — the same SU(2) N_f = 3 ensembles the
 circulating note already invites the field to run.** **The coefficient, pinned.** The vortex-pair energy in the sector's own normalization
 (L = |∂φ|² fixes F² ≡ 2v²; verified numerically) is E = 2πF²t·ln(R/d) exactly, so
 q̃² = 2πF²t with the sheet thickness t the one geometric input. **The sheet is the flux-tube

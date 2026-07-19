@@ -183,8 +183,9 @@ replacing the one that died. It carries no free scale to absorb a miss.
 ## 6. What this framework does and does not claim
 
 **Owns**: a quantum substrate; an emergent metric with functioning horizons; a computed
-vacuum-energy scale whose **structure** is real but whose **1.5% is the τ rounding, not a sourced prediction** ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) flagship-grade block) (with M₂ = α²·T_c derived from the *(τ is now sourced independently by the Koide kernel at ½ln2, giving +0.44% — flagship-grade block.)*
-confining T_c ≈ 179 keV and α_c = 3α under test);
+vacuum-energy scale — ρ_Λ¼ = 2.2599 meV against the observed 2.25, **+0.44%**, with τ = ½ln2
+sourced by the Koide kernel, M₂ = α²·T_c at the kernel's T_c = 177.10 keV, and α_c = 3α under
+test ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md));
 singularity-free interiors; a closed one-loop expression for Newton's constant; and a
 single-measurement falsification condition (§5.3).
 
