@@ -71,7 +71,9 @@ active-code changes are made.**
  recovers the current step (backward-compatible, like the `z_rad_onset<=0` guard).
 2. **Two-field bookkeeping.** Field 1 = existing dcdf (charge/DM+DE). Field 2 = dyad (charge-free).
  Only field 2 sources δm_e; field 1 stays as-is. Minimal: one new ramp function, one new param.
-3. **Amplitude:** ε = 1.24% stays the derived dyad amplitude (`c·f_amp·Ψ₀/M_red`); NOT a new knob.
+3. **Amplitude:** ε = 1.24% stays the derived dyad amplitude, not a new knob. *(The
+ factorization written here was the era's — `c·f_amp·Ψ₀/M_red` — and is retired; the standing
+ decomposition is ε = c·f̄·α_c = 27α/5π, as this file's own closing note records.)*
 
 ### B3. Where each change lands (map)
 - `include/background.h`: add `double dcdf_dyad_Tc;` to the struct; add inline
