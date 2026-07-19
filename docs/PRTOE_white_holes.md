@@ -171,8 +171,10 @@ recorded Kelvin-Helmholtz roll-up.]
 
 **The pour writes light's birth certificate, not its path.** The medium is
 electromagnetically neutral, so nothing here rotates light en route and the anti-birefringence
-bet stands untouched. What the one no-counterparty instant does stamp is parity-odd *initial
-conditions* — the genome-signed magnetic helicity and chiral gravitational waves — which
+bet stands untouched, and it is mirror-proof: the discrete mirrors are involutions, so they
+re-sign quantities without creating them, and a coupling that is already zero reads the same in
+every mirror. Even a full rule-reversal at the snap would have no ink to rotate light with.
+What the one no-counterparty instant does stamp is parity-odd *initial conditions* — the genome-signed magnetic helicity and chiral gravitational waves — which
 imprint at last scattering with no electromagnetic coupling at all. The two are distinguishable
 in principle: rotation along the path carries its own spectral signature, primordial parity-odd
 sources carry theirs.
@@ -205,38 +207,27 @@ shapes) stays on the debt list, de-urgented by these ceilings.]
 
 ---
 
-## Addendum 3 — THE REVERSAL AUDIT + THE VALIDATION AUDIT
+## What the identification claims, and where it deviates
 
-**The reversal audit (is the no-birefringence verdict mirror-proof?):** physics owns
-exactly three discrete mirrors — C, P, T — and their products. Every one is an
-involution: it re-signs quantities, it cannot create magnitudes. The photon-medium
-coupling is ZERO (Meissner-forced), and zero is the unique self-conjugate number: an
-empty coupling reads the same in every mirror. A full rule-reversal instant at the snap
-therefore still has no ink to rotate light with — **the reversal's entire observable
-content is the SIGN of parity-odd stamps** (the genome's sign, the matter/antimatter
-draw, the helicity autograph), never new couplings. The verdict is mirror-proof.
+Against a white hole's four defining properties, the recorded snap holds two outright and
+deviates from two in ways worth stating:
 
-**The validation audit (is the identification earned?):** a white hole's four defining
-properties, tested against the recorded snap:
+1. **An exit-only causal boundary** — held: the arrow forbids entry, since entry would be a
+   time-reversed process.
+2. **The time-reverse of a collapse** — held with a refinement: the crunch is the collapse and
+   the bounce is the transition, but *only the causal structure mirrors*. Entropy rides forward
+   through the bounce, so this is a causal white hole with forward books rather than a full
+   time-mirror. That is content, not weakness — a full mirror would break the entropy
+   accumulation the cycle depends on.
+3. **No exterior** — an owned deviation: the textbook object sits in an empty exterior and this
+   one has none. The deviation does work, supplying the counterparty exemption.
+4. **A past horizon** — partial, and the honest fence: the textbook white boundary is null while
+   the cosmic past boundary is spacelike. **The identification is causal-structure class, not an
+   isometry.**
 
-1. *Exit-only causal boundary* — PASS (the arrow forbids entry; entry = a backwards,
-time-reversed process).
-2. *Time-reverse of a collapse* — PASS with the distinguishing refinement: the crunch is
-the collapse, the bounce is the black-to-white transition ([RovelliHaggard2014] at
-cosmic scale), and ONLY THE CAUSAL STRUCTURE MIRRORS — entropy rides forward through
-the bounce (the recorded Tolman carrier). A full T-mirror would break Tolman; ours is a
-causal white hole with forward books. This is content, not weakness.
-3. *No exterior* — OWNED DEVIATION from Schwarzschild: the textbook object sits in an
-empty exterior; ours has none, and the deviation does work (the Eardley evasion, the
-counterparty exemption).
-4. *A past horizon* — PARTIAL, the honest fence: Schwarzschild's white boundary is null;
-the cosmic past boundary is spacelike. The identification is **causal-structure
-class, not an isometry** — posted here before any critic posts it for us.
-
-**Status:** the identification validates as a structural reading with three recorded
-records (the receipt, T10's identity, the scoreboard) and zero new mechanisms or
-parameters. Crown-jewel status is CONDITIONAL — it inherits the axis family's falsifiers
-(P-029/024/031/032) and the anti-EB bet; it is crowned by the maps or bled by them.
+So the reading is structural rather than metrical, it adds no mechanism and no parameter, and it
+inherits the axis family's falsifiers along with the anti-birefringence bet — crowned by those
+measurements or bled by them.
 
 ---
 
