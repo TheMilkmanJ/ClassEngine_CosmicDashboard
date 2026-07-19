@@ -85,12 +85,18 @@ logarithm is exact). **The demand: F_dark/√σ = 0.40–0.47** in the pinned co
 L_θ = (F²/2)(∂θ)² for the winding U(1) — two-color: the baryonic phase — not the name
 "F_π").
 
-**The phase, at its floor.** The kernel's phase is an equal-time spatial winding (a frozen
-wavevector), and the statements [holonomy = Q], [k_dr·3ℓ = Q], and [3μ·t_corr = Q with
-t_corr = 1/T_c] are equivalent given c₂τ = Q — the synchronization form supplies the
-dynamical variables (Josephson, θ̇ = μ) without adding content. **The one open question this
-file leaves: why the freeze imprints exactly one thermal correlation time of collective
-rotation (t_corr·T_c = 1).**
+**The phase, at its floor: the KMS twist.** At temperature T and chemical potential μ, the
+thermal state's KMS boundary condition twists a charged field's phase by exactly μβ = μ/T
+around the Euclidean circle — the unit coefficient is the periodicity itself, not a
+timescale estimate. The kernel's phase per hop is the twist per face, θ_hop = μ_face/T_c,
+so the closure reads in its native form: **μ_total = Q·T_c** — the ring's total chemical
+potential at freeze equals the spectral invariant times the transition temperature
+(μ_face = (2/9)·T_c ≈ 40 keV). In this form the phase never touches the spacing, and
+**c₂ = Q/τ = 1.924 becomes a prediction** the correlator locus must independently
+accommodate — it does (the band [1.76, 1.97] contains it, at m_D/T_c ≈ 1.34). **The one
+link this file leaves open: the frozen spatial cycle inherits the thermal circle's twist
+one-to-one** — one circle, one cycle; the winding-imprints-structure principle applied to
+the Euclidean circle.
 
 **One lattice campaign, three referees:** T_c/√σ (the P-2026-048 fork), F_π/√σ (0.40–0.47),
 and w·√σ (the sheet) — all observables of the same SU(2) N_f = 3 ensembles.
