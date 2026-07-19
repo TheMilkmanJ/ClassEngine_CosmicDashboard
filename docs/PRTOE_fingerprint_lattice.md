@@ -12,14 +12,15 @@ BBN, neutrinos, radio, and precision-mass physics, with zero per-row freedom.*
 ## 0. The principle
 
 A model with one lever and many windows cannot cheat: every window must show the SAME lever at
-its OWN known weight. The dyad's **ε = c·f̄·α_c = 27α/5π = 1.2543%** — **all three factors DERIVED**: c = 9/10 (the
-census counting fraction over the charged-fermion roster), f̄ = 2/π (the winding time-average), α_c
-= 3α (the 3 is the spatial dimension). The α_c chain now **referees** this value rather than
-producing it: a posterior inconsistent with 3α is a falsification, not a measurement. ε appears in:
+its OWN known weight. The dyad's **ε = c·f̄·α_c = 27α/5π = 1.2543%** — **two factors derived, one registered**: c = 9/10
+(the census counting fraction over the charged-fermion roster) and f̄ = 2/π (the winding
+time-average) are derived; α_c = 3α is the registered bet (the 3 is the spatial dimension), and
+the α_c chain **referees** it rather than producing it: a posterior inconsistent with 3α is a
+falsification, not a measurement. ε appears in:
 
 | window | the row | current standing |
 |---|---|---|
-| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | the founding fit (thread 11). **\*Conditional:** the +2.635 (Laplace) came from chains scored with a ΛCDM helium fraction; the configs now carry the measured PRyM response and the fixed-config evidence run (pc_prtoe, PolyChord) is running — the number awaits it ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
+| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | the founding fit (thread 11). **\*Conditional:** the +2.635 (Laplace) came from chains scored with a ΛCDM helium fraction; the configs now carry the measured PRyM response and the zero-parameter evidence run (cmp_prtoe_fixed, PolyChord) is executing — the number awaits it ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund + the genesis residual | the signed self-adverse bet (2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window: **−2.5 to −1.4σ** on the full budget); radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out) plus the genesis residual: **+1.3 to +2.0σ** COUNTER vs Aver | owned-adverse, zero fitted parameters |
 | BBN: quark-bleed | **SYMMETRY-FORBIDDEN — the row is retired.** The dyad **is** the Majoron: the Goldstone of U(1)_L breaking, so it couples to the **current of its broken charge**. **Quarks carry L = 0 ⟹ the tree coupling is ZERO**, not small — the model's own [ESTABLISHED] identity forbids it. The old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4; the loop floor (dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. | **no bleed, no blowout, and no healer: D/H carries −2.5 to −1.4σ** |
@@ -59,5 +60,5 @@ Both are compliments to its construction; only the sky knows which.*
 |---|---|---|
 | today (z < 50) | 0 exactly | the window's low edge |
 | recombination | 1.232% (fit) / 1.254% (derived) | production chain / the derived stack |
-| BBN window | ε_rec × **[0, 0.61, 0.78]** — the model's own ramped stamps: **0** at n/p freeze-out (above T_c), **0.61ε** at the D bottleneck, **0.78ε** at Li (1 − T/T_c at the derived T_c = 179 keV) | the ramped splice |
+| BBN window | ε_rec × **[0, 0.61, 0.78]** — the model's own ramped stamps: **0** at n/p freeze-out (above T_c), **0.61ε** at the D bottleneck, **0.78ε** at Li (1 − T/T_c at the coded T_c = 179 keV; the kernel-sourced 177.10 reads them 0.60/0.77, a 0.002σ cost — [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) | the ramped splice |
 | above z_high | 0 (disordered) | the window's high edge |
