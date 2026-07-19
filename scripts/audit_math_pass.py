@@ -309,6 +309,19 @@ chk("THREE_EQUATIONS", "the superseded 179 keV rounding gap", 1.52,
     100*(179/176.32 - 1), 0.02, "%")
 chk("THREE_EQUATIONS", "T_c from the kernel's tau", 177.10, 0.5*math.log(2)*ME/1e3, 1e-3, "keV")
 
+# ---- z_on: the two derived routes, and how far apart they are ---------------
+_T0   = 2.7255*8.617333262e-5              # CMB temperature today, eV
+_m_dy = 2.24e-20                           # the dyad-amplitude-pinned mass, eV
+_Ton  = math.sqrt(_m_dy*MRED/0.61)         # include/background.h's own formula
+chk("background.h", "T_on = sqrt(m*M_red/0.61)", 9.41, _Ton/1e3, 0.01, "keV")
+chk("background.h", "z_on from the H = m identity", 4.0e7, _Ton/_T0, 0.02)
+chk("background.h", "log10 z_on, the identity", 7.605, math.log10(_Ton/_T0), 2e-3)
+chk("cmp_prtoe_fixed", "log10 z_on, what the running job uses", 7.5517, math.log10(3.5619e7), 1e-4)
+chk("ForJustin/07", "identity vs the 3alpha mark — the unresolved gap", 0.058,
+    math.log10(_Ton/_T0) - 7.547, 0.02, "dex")
+chk("ForJustin/07", "the implied dyad-mass disagreement", 1.31,
+    10**(2*(math.log10(_Ton/_T0) - 7.547)), 0.02, "x")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
