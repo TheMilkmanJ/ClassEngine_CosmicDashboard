@@ -204,8 +204,26 @@ accidental:
 - **The Majoron is far too light.** Its recorded mass is m_J ~ (1–3)H₀, some 30 orders below the
   20 MeV threshold. Its MeV corner refers to the L-breaking scale v_L, not to a state at that mass.
 
+**And the field content is not merely short of one — it is provably full.** P-2026-045 registers
+Pauli finiteness, str[k₁] = 16·N_gen − 48 = 0, satisfied exactly by the Standard Model plus three
+right-handed neutrinos: **sixteen Weyl fermions per generation, every seat taken.** Adding one
+returns +3 instead of 0, and the balance that breaks is the same one that forces N_gen = 3. The
+entry's own named kills are "a light sterile; a 4th generation" — precisely the object a cure would
+need. So the price of healing this row is the three-generation derivation, which is the strongest
+statement available about why the row stays open.
+
+**The three seats that do exist are too light.** At the MeV corner of v_L the seesaw puts the
+right-handed neutrinos near 4.2 MeV, against a ⁴He photodissociation threshold of 19.8–20.6 MeV —
+short by **4.7 to 4.9×**, and a threshold does not partly fire.
+
+**The same requirement, reached from the other side.** A field trapped in a false vacuum at a
+20 MeV scale until t ~ 10⁶–10⁸ s *is* a state of mass ≳20 MeV with a lifetime of 10⁶–10⁸ s. The
+two descriptions — a particle that decays, a vacuum that releases — are the same object, and the
+transition route arrives at the identical specification without borrowing anything from the nuclear
+argument. That the spec survives an independent derivation is worth more than either route alone.
+
 So the missing ingredient is not a free parameter that has yet to be fixed — it is a state the
-current field content does not contain. That is a real structural statement about where a cure
+current field content **cannot** contain. That is a real structural statement about where a cure
 would have to come from, and it is worth more than a fitted patch.
 
 **The honest reading of the constitution.** The dark sector couples to the Standard Model
@@ -219,6 +237,31 @@ deuterium, and it should be answered there.
 
 ---
 
+## 6b. Do the levers add?
+
+The obvious question about a census of partial cures is whether they sum. Asked and answered: they
+do not, and the reason is that **the failures are of three kinds and only one of them is additive.**
+
+| lever | kind of failure | contributes |
+|---|---|---|
+| the below-T_c boost | **too weak** — 8–33× short | **+0.09σ to +0.34σ** — real, and the only additive term |
+| a sharper transition (0.61ε → 1.0ε at the bottleneck) | blocked by the Ginzburg certification | +0.21σ, and only if that certification is broken |
+| the dyad → lepton loop → 2γ → quark bridge | **forbidden** — quarks carry L = 0 | **exactly zero**; the tree amplitude is not small, it is absent |
+| a right-handed neutrino at 4.2 MeV | **below threshold** — ⁴He needs 19.8–20.6 MeV | **exactly zero**; thresholds do not partly fire |
+| m_e at BBN | data-excluded at 12σ | unusable at any fraction |
+| constant ΔN_eff | wrong shape | negative — buys deuterium, sells helium at +4.9σ |
+
+Adding everything that is not identically zero, **and** breaking the Ginzburg certification to
+include the sharper transition, moves the row from **−2.49σ to −1.94σ**. It survives at about 2σ.
+
+Two things this makes explicit. First, a 2.49σ deficit needs a lever of order the deficit, and
+everything available is sub-0.35σ — closing it by summation would take seven or eight independent
+partial levers, and there are two. Second, and easier to get wrong: **the window's +0.27σ is
+already inside the −2.49σ.** The 2.387 figure is the value *after* the dyad's BBN window helped, so
+counting the window again as a separate lever would be counting the same physics twice.
+
+---
+
 ## 7. What would move the books
 
 Ranked by how much they would change the row, cheapest first:
@@ -229,9 +272,13 @@ Ranked by how much they would change the row, cheapest first:
 2. **A deuterium-inclusive joint fit.** Adding the D/H likelihood to the CMB fit lets the data pick
    the point on the degeneracy instead of the CMB alone. This is the correct treatment regardless
    of outcome, and it is where the −0.59σ either shrinks or is confirmed as the model's real price.
-3. **The below-T_c reheat, recomputed.** The lever is right and short by 8–33×. If the dark
-   confinement transition's degree-of-freedom count is larger than 27 → 14, the shortfall narrows;
-   the count is the thing to check.
+3. **The below-T_c reheat — checked, and it closes.** The lever is right and short by 8–33×, and
+   the shortfall rides on one count. Both ends of that count are forced by group theory: the
+   deconfined g* = 2(N_c²−1) + (7/8)(4N_cN_f) = **27** for SU(2) with three flavours, and the
+   confined side is the Goldstone count of SU(2N_f) → Sp(2N_f) = 2N_f² − N_f − 1 = **14**. Neither
+   has a dial, and N_c = 2 and N_f = 3 are themselves fixed by the same finiteness balance that
+   gives three generations. **The shortfall cannot narrow.** The model's one native orthogonal
+   lever is permanently 8–33× too weak.
 4. **The BBN code systematic.** The model runs PRyM, a third code, against a tension defined by the
    PRIMAT/PArthENoPE spread. A cross-code run of the model's own configuration would say how much of
    the −2.49σ is physics and how much is the code.
