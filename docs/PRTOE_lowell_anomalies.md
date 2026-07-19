@@ -13,7 +13,7 @@ look-elsewhere embarrassment); the model expects them as a family.*
 ## 0. The anomalies (real features, officially accidents)
 
 At the largest angles the CMB persistently misbehaves: the low quadrupole (less power at ℓ=2
-than ΛCDM predicts), the quadrupole-octopole alignment ("the axis of evil"), the hemispherical
+than ΛCDM predicts), the quadrupole–octupole alignment ("the axis of evil"), the hemispherical
 power asymmetry, parity preferences. Each is 2–3σ-ish; ΛCDM's verdict is cosmic variance plus
 a posteriori selection — permanently unexplainable BY CONSTRUCTION, since ΛCDM's largest
 scales are statistically isotropic and Gaussian by assumption.
@@ -40,7 +40,13 @@ Three recorded/graded objects bear directly on the largest angles:
 continuum for a scale-invariant potential at the recorded last-scattering distance: the
 suppression is confined to the lowest multipoles and dies away by ℓ ≈ 4 — the observed
 pattern. At the smallest torus the matched-circles nulls permit (L ≈ 27.6 Gpc) the quadrupole
-retains 83% of its power.
+retains 83% of its power. *(Provenance: the retained Sachs–Wolfe-only toy
+(`scripts/torus_quadrupole.py`) gives ~49% retention at that floor and 83% at L = 42 Gpc;
+the booked 83%-at-floor came from the fuller 2026-07-18 pass whose script was scratch-era
+and is not retained — consistent with the ISW dilution described below, but not
+re-runnable. The BipoSH handoff should regenerate retention and pattern at the floor size
+before grading; the section's conclusions are robust across the 49–83% span, since even
+the deepest reading stays below what cosmic variance can resolve.)*
 
 **What that is worth, with the error bar attached.** The quadrupole carries 63% cosmic
 variance — five modes, irreducible by any amount of data. Against that scale: the observed
@@ -100,7 +106,8 @@ predictions-in-waiting.
  ℓ ≈ 4), but at 83% quadrupole retention it is far below what cosmic variance can resolve.
  So thread (1) does not weaken to aesthetic — it **relocates**, out of the power spectrum
  (total S/N 0.27, unusable at any multipole) and into the off-diagonal covariance
- (S/N 2.2, 990 pairs over ℓ = 2–6). The claim survives with its test moved, not lowered.
+ (S/N 2.2, 990 pairs over ℓ = 2–6; the pattern's generating script is likewise
+ scratch-era — regenerate before grading). The claim survives with its test moved, not lowered.
 - Planck's isotropy analyses constrain dipolar power modulation at large scales — the same
  BipoSH class flagged for the comb; the family must survive it jointly.
 - A measured axis-of-evil direction INCONSISTENT with a future comb/ε-dipole axis kills the
