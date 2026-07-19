@@ -580,6 +580,19 @@ chk("me_mechanism hf", "ramp 90% at 0.64 T_c", 113, 0.64*177.10, 0.005, "keV")
 chk("me_mechanism 8", "dark-ages trough offset at +2.51%", 0.40, 16.0*2*0.012543, 0.02, "MHz")
 chk("me_mechanism 8", "cosmic-dawn trough 78 MHz shifted", 79.96, 78.0*(1+2*0.012543), 0.001, "MHz")
 
+
+# --- bbn_witness full pass, 2026-07-19 ---
+chk("bbn_witness", "below-T_c zero point dN_eff", 0.49, math.log(2.527/2.387)/0.116, 0.01)
+chk("bbn_witness", "zero point over the CMB-S4 fence", 1.63, (math.log(2.527/2.387)/0.116)/0.3, 0.01, "x")
+chk("bbn_witness", "shortfall range low", 8.3, (math.log(2.527/2.387)/0.116)/0.059, 0.02, "x")
+chk("bbn_witness", "shortfall range high", 33, (math.log(2.527/2.387)/0.116)/0.015, 0.02, "x")
+chk("bbn_witness", "eps-rescale price on the window", 0.004,
+    2.387*0.00645*(1.2543/1.24-1)/0.0476, 0.1, "sigma")
+chk("bbn_witness", "PRIMAT's own LCDM vs Cooke at the 2-term width", 1.85, (2.527-2.439)/0.0476, 0.005, "sigma")
+chk("bbn_witness", "Y_p window vs Aver", 1.09, (0.248995-0.2453)/0.0034, 0.01, "sigma")
+chk("bbn_witness", "Y_p window vs EMPRESS", 3.53, (0.248995-0.2370)/0.0034, 0.005, "sigma")
+chk("bbn_witness", "He-4 window opens (days)", 42, 3.67e6/86400, 0.02, "d")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

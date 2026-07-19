@@ -3,12 +3,17 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The only laboratory in nature that watched the dyad's phase transition live: T_c ≈ 179 keV
+*The only laboratory in nature that watched the dyad's phase transition live: T_c = 177.10 keV
 sits INSIDE the BBN window. The three abundances are three frames of the condensation.*
 
 ## The equations
 
-- the ramp: ε(T) = ε·(1 − T/T_c), T_c ≈ 179 keV (the confining chiral value; 193 keV is the perturbative μ=T fixed-point cross-check)
+- the ramp: ε(T) = ε·(1 − T/T_c), **T_c = 177.10 keV** — the kernel-sourced value, τ = ½ln2
+ (193 keV is the perturbative μ=T fixed-point cross-check). The coded pipeline and the splice
+ below ran at the earlier 179 keV and ε = 1.24%; both supersessions are priced, not assumed —
+ the T_c move costs 0.002σ on D/H and the ε move 0.004σ, four hundred and a hundred times
+ inside the budget respectively ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)). A re-run is
+ owed only if the joint becomes load-bearing.
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
  (~70 keV): ε_eff = 0.61ε; Li (~40 keV): 0.78ε
 - the abundances. **Two runs, two baselines — they are not interchangeable, and D/H must never be
@@ -47,7 +52,9 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  residual below adds to this.
 - **The fork's width, stated.** Cooke's observational error **±0.030** combines with the
 post-LUNA **nuclear-theory error ±0.037** (PRIMAT, cite-verified — arXiv:2011.11320) to
-**±0.0476**, putting 2.387 at **−2.9σ** from Cooke before the genesis residual is applied.
+**±0.0476**, putting 2.387 at **−2.9σ** from Cooke before the genesis residual is applied
+*(the scar file's combined width, which also folds the d(p,γ)³He rate term, reads the same row
+at −2.49σ — which budget the corpus should standardize on is ForJustin/10's open question)*.
 *(Against the observational error alone it is −4.7σ — an upper bound, not the tension.)* **What is genuinely open is not the budget
 but the code systematic:** the same source reports PRIMAT D/H = 2.439 against PArthENoPE 2.51–2.54
 — a **3.5% inter-code spread, 2.3× the nuclear error** — which is *not* folded in above. Folding it
@@ -111,8 +118,8 @@ applied and the code systematic named and unfolded.**
 - **Why no amount of dark radiation fixes this.** The two rows respond to extra relativistic
  species with the *same* sign — both abundances rise — but they need opposite moves: deuterium is
  low and helium is high. Scanning ΔN_eff past the committed window, the joint likelihood peaks at
- ΔN_eff ≈ 0.26–0.29 (p = 0.06–0.08 on the quotable budget), so **the committed window already sits
- at this lever's optimum.** Pushing on: zeroing the deuterium tension takes ΔN_eff = 0.42, which
+ ΔN_eff ≈ 0.26–0.29 (p = 0.06–0.08 on the quotable budget), so **the committed window tops out
+ just under this lever's optimum** — 0.24 against 0.26. Pushing on: zeroing the deuterium tension takes ΔN_eff = 0.42, which
  lands helium at +2.5 to +2.7σ against Aver and **+4.9 to +5.1σ against EMPRESS** — trading a 2.5σ
  deficit for a 2.5σ excess and losing the EMPRESS fork outright — and 0.42 is past where CMB-S4
  kills the committed window anyway. **The sector cannot be healed by a one-parameter expansion-rate
@@ -135,8 +142,9 @@ applied and the code systematic named and unfolded.**
  set by burning time at the bottleneck, which lies below T_c. **So the sector's problem is not that
  no lever can heal it; it is that the model's own supply of this lever is small.** The confinement
  reheat above delivers a below-T_c excess of only 0.015–0.059, where healing deuterium outright
- would take ≈ 0.44 — a factor of eight. And an injection that large is **itself excluded**: it
- stands 1.5× over the CMB-S4 ΔN_eff fence, converting it to matter at the dCDF's radiation-to-dust
+ would take ≈ 0.49 — a factor of eight to thirty-three, and the count that sets the supply is
+ group-theoretically forced, so the shortfall cannot narrow. And an injection that large is
+ **itself excluded**: it stands 1.6× over the CMB-S4 ΔN_eff fence, converting it to matter at the dCDF's radiation-to-dust
  onset overproduces dark matter by ~700×, and dumping it into photons violates the FIRAS spectral
  limit by three orders. **The blocker on this route is data, not symmetry.**
 
@@ -207,10 +215,13 @@ must satisfy all three of:
  would prevent recombination outright.
 
 The dyad's own quantum cannot do it: its recorded roll time puts that mass near 10⁻⁵ eV, twelve
-orders below the threshold. The only part of the standing configuration carrying states at the
-right scale is the Majoron's **MeV corner**, which remains open and whose referee is the CMB-S4
-Majoron search. **Until a source is named this is a mechanism, not a claim** — but it is a fully
-specified one, and any candidate can be graded against the three conditions above immediately.
+orders below the threshold. The only states the standing configuration carries anywhere near the
+scale are the Majoron's **MeV corner** seats — and they sit at ~4.2 MeV, short of the ⁴He
+threshold by 4.7–4.9×, and a threshold does not partly fire. The roster itself is provably full
+(P-2026-045), so the spec has **no candidate in the standing field content** — the scar file's
+§6 carries the full accounting, including the one roster-exempt source and its kill. **This is a
+mechanism without a source, and the field content cannot supply one** — any future candidate can
+be graded against the three conditions above immediately.
 
 *This route is distinct from P-2026-006's, which heals deuterium through a quark-mass shift and
 carries a helium −0.5% and lithium −7…−13% co-signature. That route needs a coupling the model does
