@@ -62,8 +62,13 @@ mechanism, not a derivation · [PENDING] computation named, not run.
 One dark superfluid, two components (the two-field split):
 
 * **Field 1** — the dcdf fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
-[**MEASURED** — the onset clock: the production fit's coded z_rad_onset, independently confirmed
-by the blind free-z_on optimizer landing 7.5517 (→ m = 2.29×10⁻²⁰, 2% above the coded pin).
+[**grade under review** — the onset clock. The stated independent confirmation does not survive
+recomputation: the blind free-z_on optimizer's landing at log₁₀ z = 7.5517 implies
+**m = 1.75×10⁻²⁰ eV, 22% below this value**, not the 2.29×10⁻²⁰ / "+2%" recorded here — and
+m = 2.24×10⁻²⁰ corresponds to log₁₀ z = 7.605, which is the *other* z_on in the corpus. The running
+evidence job is set at 7.5517. One number, two values, and the chain named to arbitrate
+(`cmp_prtoe_zon`) has not run since 2026-07-12. See `ForJustin/07-zon-two-values.md`; the mass is
+left as stated pending the owner's call, because every soliton and galactic-atom number rides it.
 The former "derived from ε via c(m) = (m/m₀)^{1/4} at c = 1" was a relic of the SUPERSEDED
 f_amp decomposition — in the standing decomposition ε = c·f̄·α_c the mass never touches the
 census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through this

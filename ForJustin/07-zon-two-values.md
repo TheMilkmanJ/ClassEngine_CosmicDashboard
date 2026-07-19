@@ -65,3 +65,49 @@ it.
 and used by five other configs — `conv`, `conv_desi`, `dyad`, `lepton` and `nulink` all set 4.0e7.
 Only the `_fixed` family uses 3.5619e7. That is a provenance argument rather than a physics one, but
 it is the direction I would lean if forced.
+
+
+---
+
+# UPDATE, same day — it is worse in two ways I did not expect
+
+## 1. The mass and the running job's z_on are not the same point
+
+`m = 2.24×10⁻²⁰ eV` appears **only in a comment** in `include/background.h`. It is not a code
+parameter — the code takes `dcdf_z_rad_onset` directly and nothing computes one from the other. So
+the two are related only by the documented clock, and under that clock they disagree:
+
+| | value | implies |
+|---|---|---|
+| the documented mass | m = 2.24×10⁻²⁰ eV | z_on = 4.03×10⁷ (log₁₀ 7.605) |
+| **the running job's setting** | **z_on = 3.5619×10⁷** | **m = 1.75×10⁻²⁰ eV** |
+
+**27.8% apart in mass, 13.0% in z.** Both are stated in the corpus as the model's values. The
+evidence run uses the z; every document that quotes the dyad mass uses the m.
+
+`PRTOE_MATH_SPINE.md` §0 grades the mass **MEASURED**, on the strength of "the production fit's
+coded z_rad_onset, independently confirmed by the blind free-z_on optimizer landing 7.5517
+(→ m = 2.29×10⁻²⁰, 2% above the coded pin)." Recomputing: **log₁₀ z = 7.5517 gives m = 1.75×10⁻²⁰,
+which is 22% BELOW the pin, not 2% above.** And m = 2.29×10⁻²⁰ would sit at log₁₀ z = 7.6097, not
+7.5517. The claimed independent confirmation runs the wrong way, and the MEASURED grade rests on it.
+
+## 2. The chain that was supposed to settle this is not running
+
+The config says the frozen value is "ILLEGAL until the zon chain converges." Checked today:
+`cmp_prtoe_zon` has **two R−1 points in its entire history** — 93.10 → 40.36, both on 2026-07-12 —
+and every file is stamped that day. No live process. **It has been dead at R−1 = 40.4 for a week.**
+
+So the condition the config sets for legality cannot be met by waiting. Either that chain gets
+resumed, or the freeze needs a different justification.
+
+## What I would want decided
+
+1. **Which is the model's dyad mass** — 2.24×10⁻²⁰ or 1.75×10⁻²⁰ eV? Every soliton, galactic-atom
+   and superradiance number in the corpus rides this, and the two differ by 28%.
+2. **Whether `cmp_prtoe_zon` gets resumed.** It is the named arbiter and it is not running.
+3. **Whether MATH_SPINE §0's MEASURED grade survives** the arithmetic above. If the confirmation
+   was the basis for the grade, the grade needs re-earning.
+
+I have changed nothing in the running job, the configs, or the mass anywhere it appears. This is one
+number with two values and a stalled referee, and every way of resolving it silently would hide
+something.
