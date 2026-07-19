@@ -284,3 +284,28 @@ over-state debts (MATH_SPINE: five of six already paid), status boards under-rat
 (honest_status: three), and the dependency map under-grades derivations (here: all five). Every
 instance reads as caution and none of them gets caught by re-reading, because nobody audits a claim
 that errs modestly.
+
+## PRTOE_READERS_GUIDE.md — deep audit 2026-07-19
+
+Thirteen checks. Three defects. The pessimistic drift again, and this time in the file a newcomer
+opens first.
+
+1. **The symbol table gave τ = 0.3503.** That table's stated purpose is "one symbol, one meaning",
+   which makes a stale value there worse than elsewhere — it is the page a confused reader is sent
+   to. τ is ½ln2 = 0.34657, sourced by the Koide kernel; 0.3503 was the observed dark-energy density
+   inverted and rounded.
+2. **"What remains owed there is the screening computation itself"** — flatly contradicted by
+   `honest_status`, which records (2026-07-18) that the screening computation "is delivered on all
+   four of its items." The reader-facing guide was telling newcomers a closed item was open.
+   Replaced with what actually remains, which is observational: the 21-cm edge shape and the DESI
+   forest cross-calibration.
+3. **ε appeared as both "≈ 1.24%" and "1.2543%"** in the glossary and the symbol table, with nothing
+   saying why. They are the fitted value and the derived stack; the ~1.8% gap between them sits
+   inside the posterior width and is the thing the running chains grade. Now said.
+
+Check 13: the two remaining "owed"-class statements are correct and stay — the A_s count's O(1) and
+the medium's reality as a named open assumption.
+
+Fifth consecutive file drifting the same way. Worth stating as a rule now rather than a repeated
+observation: **in this corpus, a claim's recorded grade is a lower bound on its actual grade.** Any
+audit that only checks for over-claiming will pass files that are wrong.
