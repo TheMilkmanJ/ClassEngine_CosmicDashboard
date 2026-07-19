@@ -152,9 +152,14 @@ Pantheon+SH0ES, at H₀ ≈ 69.9 — sound-horizon-driven, and holding with the 
 included and pulling the other way. That figure is provisional: a refined likelihood treatment is
 running now and the value may shift.
 
-**The current test.** A zero-parameter evidence run is in progress, with the model's amplitude,
-tilt, coupling, and transition epoch all stated in advance — derived or profiled, statuses public —
-against ΛCDM at full freedom. Any stated number wrong collapses the model's own evidence.
+**The current test, with a caveat we found while checking it.** A zero-parameter evidence run is in
+progress — amplitude, tilt, coupling and transition epoch all stated in advance, against ΛCDM at
+full freedom, so any stated number being wrong collapses the model's own evidence. The caveat is the
+transition epoch. It was frozen at a profiled value rather than at the model's own onset identity,
+and the two differ by 0.05 dex; because the onset redshift goes as √m, that corresponds to a dark
+fluid mass about 28% from the one the rest of the model uses. **So the run in progress is grading a
+point near the model rather than the model's stated configuration**, and its result will need
+reading in that light. We would rather tell you that than have it turn up later.
 
 **Validation.** Exact ΛCDM null test at five decimals, gauge invariance, precision-stability
 battery. The deepest structural claim, the medium's reality, is carried as an open assumption

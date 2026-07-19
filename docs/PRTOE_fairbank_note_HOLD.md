@@ -54,6 +54,19 @@ place to assume the shift is negligible.
   post-hoc flag on the branch-selecting mechanism.
 - Every closed-form number in the letter is under regression in `scripts/audit_math_pass.py`.
 
+## Found 2026-07-19, after the audit — read before describing the runs
+
+**Only one job is live.** `cmp_prtoe_fixed` (PolyChord) has been sampling since 07-18, ~23h, no
+log(Z). Everything else is **stopped, not queued**: routeD last touched 07-18, conv_desi 07-18,
+zon_disp 07-16, twist 07-10, and `cmp_prtoe_zon` has not run since 07-12. Saying "the MCMCs are
+queued or running" is not accurate — they are stopped, most far from convergence.
+
+**The live run is off the model's onset identity.** It samples z_on = 3.5619×10⁷ where the identity
+is 4.03×10⁷ — 0.053 dex, which is a 28% difference in the dark fluid mass, and that mass is pinned
+independently by ξ = 402 AU, the Schive core radii, and the superradiance window. The run therefore
+grades a point near the model, not the model's stated configuration. The letter now says so; see
+`ForJustin/07-zon-two-values.md` for the three options.
+
 ## Before it goes out
 
 1. The evidence verdict lands → replace the provisional H₀ with the measured one, and say what the
