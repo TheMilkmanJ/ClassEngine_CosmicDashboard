@@ -1664,3 +1664,19 @@ wrongly-archived files) closes with the tail.
 the full 13 checks (check 13 especially — owed items vs payments); session transcripts are
 records and get the dated-record standard. After that: pass 2, the varied attack on the
 07-07→07-16 maintained band, as planned.
+
+## The eleven small T*_owed files — reconciliation audit 2026-07-19
+
+Working-logs tier, first batch. The owed files are the check-13 ledger of the corpus, and
+three (T9, T15, T16) already carried their own PAID blocks — the convention the rest now
+follow. Seven reconciled with PAID annotations naming their payments: T1 (the GC budget test;
+the exemption claim), T2 (the window placement recorded; the λ-quench correctly still open —
+matches the atlas's owed calculation), T3 (v_L derived; two items in-flight on running
+chains), T5 (the cavity computation + matched-circles, with the regenerate-before-grading
+flag carried over), T7 (the bench proposals + mapping table), T10 (the chiral amplitude's
+structural null — the headline owed item had been paid a day before this audit and the file
+never heard), T12 (the WHIM session; BipoSH correctly calendar-gated). T11 needs no
+annotation — its four items are all live watches (PolyChord running, TRGB in-flight,
+instruments registered, the fairness pass standing). And the referee calendar's BipoSH row —
+which quotes the exact ρ-pattern the lowell provenance note fenced — now carries the same
+regenerate-before-grading flag, so the handoff cannot be graded on un-regenerable numbers.
