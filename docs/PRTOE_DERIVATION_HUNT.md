@@ -521,7 +521,12 @@ irreducible input.
    the same ΔN_eff). *Provenance note: the ζ window predates this propagation — the deuterium
    improvement is a consequence, not a fit.* Grade: estimate (linear responses,
    dY_p/dN = 0.011–0.013, ∂ln(D/H)/∂N = 0.135); a full nuclear-code re-run is owed only if the
-   joint verdict becomes load-bearing. **The gate's laboratory checklist (2026-07-18; estimate-grade, conditional on the recorded
+   joint verdict becomes load-bearing. **Two closure conditions ride on this window, both
+   registered as P-2026-053:** the dark radiation raises H at the dCDF's H = m onset, putting that
+   onset 0.2–0.8% later than a dark-radiation-free universe and shifting the dCDF mass inferred
+   from it by the same fraction; and the window's value at nucleosynthesis is its value at
+   recombination, because the dark-matter budget permits only ΔN_eff ≈ 6×10⁻⁴ of it to become
+   matter and the FIRAS spectral limit forbids dumping it into photons. **The gate's laboratory checklist (2026-07-18; estimate-grade, conditional on the recorded
    curvature-gate form):** all three named checks clear, none closely. The gate is
    **curvature-keyed, not density-keyed** — and that type distinction decides the hardest test:
    atom-interferometry vacuum-chamber experiments kill density-gated (chameleon-class) scalars

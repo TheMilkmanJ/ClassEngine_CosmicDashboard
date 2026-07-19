@@ -73,6 +73,15 @@ applied and the code systematic named and unfolded.**
  load-bearing). The shift is **hostage to its own falsifier** — CMB-S4 (±0.03) must see the same
  ΔN_eff, and a confirmed ΔN_eff < 0.03 or > 0.3 kills the committed window from either side.
 
+ **And the sector cannot have carried more dark radiation than the microwave background will
+ show.** The standing hope for any adverse BBN verdict is that the dark sector held more
+ relativistic energy while the elements formed and shed it before recombination. It cannot:
+ anything converting to matter survives, growing as a⁻³ against the photons, and the observed
+ dark-matter density caps the convertible share at **ΔN_eff ≈ 6×10⁻⁴** — a thousandth of the
+ committed window. Dumping the energy into photons instead violates the FIRAS spectral limit by
+ three orders. So **ΔN_eff(BBN) ≈ ΔN_eff(CMB)**, and a single instrument reads both
+ (P-2026-053).
+
 - **The joint verdict HINGES on the code systematic — this is the sector's real open question,
  and the genesis residual does not change that.** Combining the two rows (2 dof, quadrature;
  **correlations between Y_p and D/H are ignored**, as in every joint this corpus has quoted):

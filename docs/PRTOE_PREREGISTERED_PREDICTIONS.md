@@ -2537,3 +2537,46 @@ the lock — the closure's exact differential.
 0.3143 line kills the closure; (ii) either watch breaking outright (A off √2 or θ off 2/9 at
 high σ) kills it a fortiori; (iii) any future mechanism deriving A = √2 while forcing
 θ ≠ (1 + A²/2)/9 kills the closure specifically while possibly saving the door.
+
+## P-2026-053: The onset clock reads the dark radiation, and the dark radiation cannot hide (registered 2026-07-18)
+
+**The setting.** Two numbers the model already commits to have to agree with each other, and
+nobody has made them. The first is the genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35], which puts
+**ΔN_eff = 0.06–0.24** of dark radiation in the expansion budget. The second is the dCDF's
+radiation-to-dust onset, which fires when the Hubble rate falls to the field's mass — H = m, at
+T ≈ 9.41 keV. Dark radiation raises H, so it moves the onset. This entry states by how much, and
+registers the closure as a bet.
+
+**(a) The onset shift.** In the radiation era the onset temperature scales as
+T_on ∝ [1 + 0.2271·N_eff]^(−¼). Across the committed window the dark radiation therefore puts the
+onset **0.2% to 0.8% later** (lower T) than a dark-radiation-free universe would, and the dCDF mass
+inferred from a measured onset epoch shifts by the same fraction. The direction is fixed and
+one-way: **more dark radiation always means a later onset.** Present precision on the onset is
+~2%, so this sits below the current reach; it becomes a live test as the onset clock tightens.
+
+**(b) The no-hiding corollary — the dark radiation is stuck being radiation.** A recurring hope
+for any adverse BBN verdict is that the dark sector carried more relativistic energy at
+nucleosynthesis and shed it before recombination. It cannot. Anything that converts to matter
+survives to recombination growing as a⁻³ against the photons, and the observed dark-matter density
+caps how much may do so: converting at the dCDF's own onset, only **ΔN_eff ≈ 6×10⁻⁴** of BBN-era
+dark radiation fits inside the dark-matter budget — about a thousandth of the committed window. The
+other disposal routes close as hard: dumping the energy into photons violates the FIRAS spectral
+limit by three orders. So the dark sector's relativistic content at nucleosynthesis is
+substantially the same as its content at recombination:
+
+> **ΔN_eff(BBN) ≈ ΔN_eff(CMB).**
+
+**Why this matters.** It removes a degree of freedom the model could otherwise have hidden behind.
+CMB-S4's ΔN_eff measurement does not merely test the late-time dark sector — it reads the value
+that was present while the light elements formed. The committed window is exposed at both ends of
+cosmic history to a single instrument.
+
+**Kills:** (i) an onset epoch and an independent dCDF mass determination, each to better than
+~0.5%, that cannot be reconciled under ΔN_eff ∈ [0.06, 0.24]; (ii) a measured onset requiring the
+opposite sign — an onset *earlier* than the dark-radiation-free value — which no positive dark
+radiation can produce; (iii) any demonstrated channel converting more than ~1% of BBN-era dark
+radiation into matter or photons, which would reopen the hiding route and void (b).
+
+**Grade:** (a) derived — the H = m relation and the radiation budget are both recorded, and the
+scaling follows from them with no free coefficient; currently below measurement precision.
+(b) derived, and conservative: it uses only the observed dark-matter density and the FIRAS limit.
