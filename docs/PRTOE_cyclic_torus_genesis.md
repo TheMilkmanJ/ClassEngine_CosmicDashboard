@@ -1,4 +1,12 @@
-# PRTOE — The Cyclic / Torus / Twist-Genesis Arc (session 2026-07-10)
+# PRTOE — The Cyclic / Torus / Twist-Genesis Arc
+
+> **STATUS: STORY-GRADE — a coherent narrative assembled from real mechanisms, not a
+> derivation.** Its own closing verdict says so, and that grade stands: the bounce and cyclic
+> rungs still face the standing theorems, and several scales here are chosen rather than
+> derived. **One element has since become load-bearing:** the negative bare vacuum named in
+> this arc is what makes the turn possible at all — the thawing floor alone approaches zero
+> from above and never reverses the expansion
+> ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d). Read the rest at story grade.
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

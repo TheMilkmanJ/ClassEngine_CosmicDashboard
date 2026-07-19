@@ -1,5 +1,12 @@
 # PRTOE v5 — Scoping: Local Mass–Medium Interaction via a Light Mediator (SIDM)
 
+> **ARCHIVE — v5 era, superseded by the dyad formulation.** This scoping study belongs to the
+> pre-dyad line and is kept for provenance. It does not describe the standing model: the medium's
+> coupling to matter is now the census-legal lepton-sector operator, not a light mediator with a
+> self-interaction cross-section. Read against
+> [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) and [PRTOE_INDEX.md](PRTOE_INDEX.md); do not cite
+> anything here as current.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
