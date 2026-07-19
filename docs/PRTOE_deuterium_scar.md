@@ -47,8 +47,15 @@ this file:
 | **net** | **2.387** | −1.36% | **−0.59σ** |
 
 **The dyad's own nuclear physics helps deuterium.** The ε(T) ramp switching on at T_c ≈ 179 keV
-raises D/H by 0.645%, moving it *toward* Cooke — worth +0.27σ. On its own, grafted onto the ΛCDM
-control, it would give D/H = 2.435 and **−1.63σ, better than ΛCDM's −1.90σ**.
+raises D/H by 0.645%, moving it *toward* Cooke — worth +0.27σ. Grafted onto the ΛCDM control alone
+it would give D/H = 2.435, or −1.63σ, better than the control's −1.90σ.
+
+**That last sentence is a decomposition, not a scenario, and the distinction matters.** The window
+and the ω_b shift are both consequences of the same ε — one at nucleosynthesis, one at
+recombination. There is no configuration of this model that has the window without the baryon shift,
+so "the dyad beats ΛCDM on deuterium" is not a claim available to it. What the counterfactual
+establishes is narrower and still worth having: **the deficit is not manufactured in the nuclear
+sector.** Attributing it correctly is what tells you which cures can work.
 
 **The deficit is carried entirely by the baryon density.** The CMB fit returns ω_b 1.1% above the
 control, because varying m_e and ω_b are degenerate in the acoustic peaks. Deuterium is the most
@@ -70,16 +77,23 @@ same data, same pipeline. The two move together along one degeneracy direction. 
 >
 > **0.50σ of deuterium per km/s/Mpc of H₀.**
 
-What that rate implies, if the only cure is to slide back down the degeneracy:
+**What the rate is, and what it is not.** It is a secant between two computed points — the model's
+fit and the ΛCDM control — not a slope measured along the degeneracy. Over the 1.7 km/s/Mpc that
+separates them it is as good as the two endpoints. Beyond that it is an extrapolation, and the
+table below says how far:
 
-| target | H₀ given back | H₀ lands at |
-|---|---|---|
-| parity with the ΛCDM control | 1.17 km/s/Mpc | 68.7 |
-| deuterium at −1.0σ | 2.97 km/s/Mpc | 66.9 |
-| deuterium centred on Cooke | 4.96 km/s/Mpc | 64.9 |
+| target | H₀ given back | H₀ lands at | status |
+|---|---|---|---|
+| parity with the ΛCDM control | 1.17 km/s/Mpc | 68.7 | inside the measured interval |
+| deuterium at −1.0σ | 2.97 km/s/Mpc | 66.9 | 1.7× beyond it |
+| deuterium centred on Cooke | 4.96 km/s/Mpc | 64.9 | 2.9× beyond it |
 
-**Reaching mere parity with ΛCDM costs 69% of the H₀ relief. Healing deuterium outright costs all
-of it and puts H₀ below where ΛCDM started.** The deuterium scar and the H₀ result are not two
+Only the first row is interpolation. The lower two assume the degeneracy stays linear well past
+where it was measured, which is not established — they should be read as showing the direction and
+rough scale of the trade, not as predicted landing points.
+
+**Even taking only the first row, reaching parity with ΛCDM costs 69% of the H₀ relief.** That much
+is inside the measured range and does not depend on the extrapolation. The deuterium scar and the H₀ result are not two
 problems; they are one trade, and the model is currently sitting at the end of it that buys H₀.
 
 This is why the m_e degeneracy audit is the corpus's highest-value un-run test: it measures how

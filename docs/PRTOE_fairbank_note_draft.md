@@ -137,7 +137,10 @@ up into the 2.407–2.463 range quoted above. The prediction is built in two ste
 
 **The new physics acting during nucleosynthesis helps.** The electron-mass ramp switches on at
 T_c ≈ 179 keV and raises D/H by 0.645%, worth +0.27σ toward the measurement. Grafted onto the ΛCDM
-control alone it gives −1.63σ, better than the control's −1.90σ.
+control alone it would give −1.63σ, better than the control's −1.90σ — though that is a
+decomposition rather than an available configuration, since the window and the baryon shift are the
+same ε acting at two epochs and the model cannot have one without the other. The point it
+establishes is only that **the deficit is not manufactured in the nuclear sector.**
 
 **The deficit is imported from the CMB fit.** Fitting the microwave background with a varying
 electron mass returns a baryon density 1.1% above the control, and deuterium is the most
@@ -146,8 +149,12 @@ that 1.1% becomes a 2.0% deuterium loss: three times the window's help, and oppo
 
 **That baryon shift is the same one that buys the Hubble result.** The two arrive together along one
 degeneracy direction, which fixes an exchange rate of **0.50σ of deuterium per km/s/Mpc of H₀**.
-Reaching parity with the ΛCDM control would cost 1.17 of the 1.7 km/s/Mpc; centring deuterium on
-Cooke would cost all of it and land H₀ at 64.9.
+That rate is a secant between two computed points — the model's fit and the control, 1.7 km/s/Mpc
+apart — not a slope measured along the degeneracy, so it is trustworthy across that interval and an
+extrapolation outside it. Inside it: reaching parity with the ΛCDM control costs 1.17 of the
+1.7 km/s/Mpc, i.e. **69% of the H₀ relief**. Centring deuterium on Cooke would take roughly three
+times the measured interval, which indicates the direction and scale of the trade rather than a
+landing point.
 
 The deuterium tension and the Hubble result are therefore one trade rather than two problems, and
 any real cure has to be orthogonal to that degeneracy — it must raise D/H at fixed baryon density
