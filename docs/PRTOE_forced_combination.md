@@ -126,6 +126,6 @@ superconductor); the internal chain: T6 (the kernel chase), P-2026-048/051. Full
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## Where the dead ends live
-The repulsive-channel assumption (retracted the hour the exact algebra landed) and the two
-pure branches are recorded in T6's chase log; the ring-on-ring cascade deliverer's execution
-is in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+The two pure branches and the chase's superseded readings are recorded in T6's log; the
+ring-on-ring cascade deliverer's execution is in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
