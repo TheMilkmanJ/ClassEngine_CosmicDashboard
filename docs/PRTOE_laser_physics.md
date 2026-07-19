@@ -2,7 +2,7 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-> **STATUS: KINSHIP FILE (the audit's [R + cousin-note], expanded from the audit's cousin-note).**
+> **STATUS: KINSHIP FILE — the laboratory cousin, graded [R] (ridden physics) with the kinship stated.**
 > The model claims NO new laser physics — lasers ride QM+EM exactly. What this file
 > documents is the reverse flow: what lasers PROVE about the grammar the model runs on.
 
@@ -20,7 +20,7 @@ threshold, incoherent spontaneous emission (the "disordered phase"); above, a ma
 coherent amplitude with spontaneous phase choice — described by the SAME Ginzburg–Landau
 order-parameter mathematics [GinzburgLandau1950; Haken's synergetics] as the medium's
 condensation at T_c ≈ 179 keV. The universality is not analogy; it is the critical-
-phenomena content-node (the audit's 13th voice) measurable in a lab: threshold behavior,
+phenomena content-node measurable in a lab: threshold behavior,
 critical slowing, phase-ordering kinetics — the transition's mathematics, benchmarked.
 
 ## 2\. Phase rigidity and the Schawlow–Townes floor
@@ -57,7 +57,7 @@ its best character witnesses to be optical — and they are.
 ## Sources
 
 [GinzburgLandau1950], [Kibble1976]/[Zurek1985], [Herrmann2009], [Josephson1962],
-[vonKlitzing1980] (the bench-quantization sibling), internal: the completeness audit
+[vonKlitzing1980] (the bench-quantization sibling), internal: the domain census
 , the critical-phenomena node, T7's cousins. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## 6\. What the model asks OF lasers — three proposed experiments

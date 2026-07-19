@@ -62,14 +62,14 @@ nodes are where the model SAYS something; the rest is where it PROMISES somethin
 
 *The standard classification (PACS/PhySH-style), diffed against the shelf. Previously-unlisted
 subdomains tagged below — most close honestly as [I]/[R]; TWO new kinship finds and one
-already-ours subdomain surfaced by the audit itself.*
+already-ours subdomain that had never been tagged.*
 
 ## Previously unlisted — now tagged (the diff's yield)
 
 | subdomain | tag | the connection (or its honest absence) |
 |---|---|---|
 | **LASER PHYSICS** (an example) | [R + cousin-note] | stimulated emission = QM+EM, ridden-exact. The kinship: a laser IS a photon coherent state — laboratory macroscopic coherence, the optical sibling of the cousins' bench (one phase, many quanta — the medium's own grammar at 10¹⁵ Hz). No improvement claimed; the kinship is real and unforced |
-| **CRITICAL PHENOMENA / PHASE TRANSITIONS** | **[C — ours, previously untagged!]** | the audit's find: Kibble-Zurek IS this subdomain and the model RUNS on it (the first-genesis domain formation; the T_c condensation, the gate). The universality-class formalism (critical exponents, scaling) is the mathematics of our own transition. Upgraded from unlisted to content-node — the 13th voice |
+| **CRITICAL PHENOMENA / PHASE TRANSITIONS** | **[C — ours]** | Kibble–Zurek IS this subdomain and the model runs on it (the first-genesis domain formation; the T_c condensation, the gate). The universality-class formalism (critical exponents, scaling) is the mathematics of our own transition. a content node rather than inherited physics |
 | **TOPOLOGICAL MATTER** (quantum Hall, topological insulators) | [R + kinship] | the quantized Hall conductance σ = νe²/h is topological protection — THE SAME MATHEMATICS as the winding's crunch-immunity. A new lab-cousin row: nature already builds n∈ℤ-protected observables on benches. Kinship, not improvement |
 | quantum optics | [R] | rides QM exactly; hosts the Tsirelson-class tests (our permanent exam hall) |
 | metrology | [C-adjacent, existing] | already ours via Josephson/SI (the cousins) — now explicitly tagged as the subdomain |
@@ -83,7 +83,7 @@ already-ours subdomain surfaced by the audit itself.*
 | biomechanics, quantum biology | [I]/killed-adjacent | decoherence is standard everywhere warm |
 | psychology / social sciences | OUT OF SCOPE | not physical sciences; the boundary stated, no claims |
 
-## The audit's verdict
+## The verdict
 The taxonomy closes: every physical-science subdomain now carries a tag. THE COUNT UPDATES:
 [C] 12 → **13** (critical phenomena claimed — it was ours all along and unlisted), kinship
 rows +2 (lasers, topological matter — the cousins' bench grows), the rest [I]/[R]/[S] as the
