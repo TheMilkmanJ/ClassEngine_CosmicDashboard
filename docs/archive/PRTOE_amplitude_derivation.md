@@ -4,8 +4,8 @@
 >
 > **This file records the retired `ε = c × f_amp × (Ψ₀/M_red)` factorization.** The standing
 > decomposition is **`ε = c·f̄·α_c = 27α/5π = 1.2543%`** — see
-> [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 and
-> [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1.
+> [PRTOE_MATH_SPINE.md](../PRTOE_MATH_SPINE.md) §0 and
+> [PRTOE_DERIVATION_HUNT.md](../PRTOE_DERIVATION_HUNT.md) §1.
 >
 > Specifically retired here: **f_amp ≈ 0.6 ("COMPUTED, from the genesis dice")** and
 > **c ≈ 0.94** and **Ψ₀/M_red ≈ 2.2%**. In the standing decomposition the factors are
@@ -19,9 +19,9 @@
 > superseded" hedge below is not sufficient — a retired *headline decomposition* requires a named
 > retirement, not a disclaimer. Kept for provenance only.
 
-> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 
 *Consolidates the §57–74 build in PRTOE_me_trigger.md into one clean story:
@@ -469,7 +469,7 @@ mediators short-range)". [[birefringence-null-proven]]
 ## Where the dead ends live
 
 The retracted lepton/hadron varying-constant hierarchy (P-2026-011) is in
-[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Retracted predictions"** — it
+[PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md) under **"Retracted predictions"** — it
 needed a Higgs/EM portal the census forbids, and the census-legal reading is the universal
 conformal rescaling this file derives. The full birefringence dead-end map (why the parity
 signal is forced out of light and into gravity) lives under **"Birefringence."**

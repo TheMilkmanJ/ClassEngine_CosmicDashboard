@@ -60,7 +60,7 @@ grows until its lightest face touches the positivity wall — tangency locates t
 (M = −R·cos_min) and A = √2 becomes the statement that the seed sits on the diagonal of the
 doomed face's frame (tan u = −1), with the electron's mass the later lift off the wall; the
 remaining question is the diagonal's selector
-([T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md)).
+([T6_koide_owed.md](working_logs/T6_koide_owed.md)).
 
 **Where that third reading now stands (2026-07-18).** It was carried to a mechanism and the
 mechanism was executed by its own pre-registered trial. The selector compressed to a single
@@ -78,7 +78,7 @@ the two mysteries one complex number — the nearest-neighbour amplitude, whose 
 √2 and whose phase is the measured 2/9 radians (a watch that holds to half a millidegree and
 carries its own deviation lock, P-2026-051). The remaining physical question is a single
 vertex computation inside the confining sector's own structure. Detail:
-[T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md);
+[T6_koide_owed.md](working_logs/T6_koide_owed.md);
 [PRTOE_forced_combination.md](PRTOE_forced_combination.md) for the existence theorem the chase
 produced. All three original readings remain unbuilt. The structure parallel to
 the dark-energy freeze at neutrino decoupling
@@ -101,7 +101,7 @@ K ∼ R², V ∼ M²: freeze (K → 0, w → −1) and the virial K = 2V (w = 1/
 A must be set pre-freeze during tracking, then locked. Quartic tracking gives w = 1/3 but drives
 A → 0; harmonic supports A ≠ 0 but freezes at w = 0. Single-potential shortcuts are closed.
 Statistical O(1) balances (equipartition, CS midpoint, GBM) cannot deliver 10⁻⁵ from one draw.
-Full kill table and the re-posed blank: [T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+Full kill table and the re-posed blank: [T6_koide_owed.md](working_logs/T6_koide_owed.md).
 **Status unchanged: landing not derived; protection still is.**
 
 
@@ -117,7 +117,7 @@ equal stiffness by construction. The (M,R) coefficient mismatch was a coordinate
 Exact rewrite: **A = √2 · (R_c/M_c)**, so **A = √2 ⟺ R_c = M_c**. Residual blank: why the two
 canonical amplitudes are equal as classical VEVs to 10⁻⁵. Fence: natural Z₃ cubic
 V ⊃ −g Σφ³ minimizes at **A = 2**, not √2. Details:
-[T6_koide_owed.md](threaded_physics_working/T6_koide_owed.md).
+[T6_koide_owed.md](working_logs/T6_koide_owed.md).
 
 **The genesis tilt's 2/9 is an echo, not a witness.** ε_A's registered value 2/9 reproduces Koide's
 fraction, but provenance audit shows it was **imported** from Koide rather than appearing

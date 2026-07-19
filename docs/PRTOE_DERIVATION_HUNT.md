@@ -150,7 +150,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   genesis-ζ commitment) is booked and paid; **the branch is the standing configuration (§8
   item 1b)**.
   √σ_dark = m_e and the flagship survive either way. Full record + verdict:
-  [Nontherm_Kill_Discussions.md](threaded_physics_working/Nontherm_Kill_Discussions.md) §6.
+  [Nontherm_Kill_Discussions.md](working_logs/Nontherm_Kill_Discussions.md) §6.
   The original build's detail, for the recorded-model kill it established: The rate check Γ(dark–SM) < H at all T, run on the
   model's own recorded couplings: **(i)** gravity and the census-closed portals pass (Γ/H ≈ 3×10⁻⁷
   even at the pour scale — the standard gravitational escape holds *for those channels*). **(ii) The
@@ -173,7 +173,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   escape, the ε-ramp mechanism, and √σ_dark = m_e are pairwise-incompatible as recorded** — the
   sharpest structural tension in the corpus, sharper than BBN D/H. *The normalization fork surfaced here is RESOLVED (2026-07-17): the operator is
   **quadratic-canonical** — dark-U(1) forbids the linear coupling
-  ([PRTOE_gate0_qft_derivation.md](PRTOE_gate0_qft_derivation.md) §1, which pre-labels the linear
+  ([PRTOE_gate0_qft_derivation.md](working_logs/PRTOE_gate0_qft_derivation.md) §1, which pre-labels the linear
   amplitude formula as the quadratic operator's value); the "linear g_ee" is only the post-SSB
   fluctuation vertex 2κv·m_e0. The recorded v ≈ 100 keV was a conflation (the delivered shift ε
   inserted in the slot of the dimensionless coupling κm_e0²), with the closed-form fix
@@ -307,7 +307,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > Lattice anchors are firm for pure glue (**SU(3): 0.63; SU(2): 0.69–0.71**, ~11% higher), but
 > **no published T_c/√σ for SU(2) with N_f = 3 light flavours was located** — the two-color
 > literature is dominated by N_f = 2 at finite *density*. An independent adversarial analysis
-> (defend-vs-challenge with a neutral referee — [Basement_Roster_Discussions.md](threaded_physics_working/Basement_Roster_Discussions.md))
+> (defend-vs-challenge with a neutral referee — [Basement_Roster_Discussions.md](working_logs/Basement_Roster_Discussions.md))
 > sharpened this on two points, both sides self-correcting against their own interest. First, the
 > SU(3) √σ **cancels** in the transport: the glue→N_f=3 reduction is a pure temperature ratio
 > r₃ = 1 − T_c^phys/T_c^glue, so √σ divides out — the earlier naive **0.38–0.39** was partly a
@@ -315,7 +315,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > ~42% (not 45%), which puts the honest dof-family band at **τ ≈ 0.355–0.382, centre ~0.36**
 > (ρ_Λ¼ a few percent **above** the observation), pointing the right way on physics (N_f/N_c = 1.5 vs
 > SU(3)'s 1.0). A dedicated literature sweep (2026-07-17, every paper read in full — the addendum in
-> [Basement_Roster_Discussions.md](threaded_physics_working/Basement_Roster_Discussions.md)) then
+> [Basement_Roster_Discussions.md](working_logs/Basement_Roster_Discussions.md)) then
 > anchored the question to measured neighbours: **no lattice determination of SU(2) N_f = 3 exists
 > anywhere**; the measured anchors are SU(2) N_f = 2 at **T_d/√σ = 0.483(23)** (deconfinement, heavy
 > quarks; Braguta school) and a chiral crossover pinned only to **0.36–0.48** (Iida–Itou–Lee, ~30%

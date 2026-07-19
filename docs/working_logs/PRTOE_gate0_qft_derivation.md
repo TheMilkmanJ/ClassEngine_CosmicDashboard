@@ -2,7 +2,7 @@
 
 # Gate 0 — Does the conformal m_e coupling ride the coherent order parameter (heal) or the field (catastrophe)?
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 
 **Status: DERIVATION RUN 2026-07-09. Verdict: the heal is NOT forced, NOT the
@@ -350,6 +350,6 @@ is GATED on a confident WIN verdict (user instruction); current read = no win �
 
 The four gate-0 deuterium-heal variants (m_e = 1 at BBN) are EXCLUDED at 12σ — a
 data-required status, not a knob, and they carry a standing do-not-re-run order. The full
-kill is in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"BBN & the gate-0
+kill is in [PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md) under **"BBN & the gate-0
 heal."** The MSW dark-admixture explored above is the successor direction (quiet-at-BBN by
 structure), not a rescue of the dead condensate heal.

@@ -56,8 +56,8 @@ sign(n) → matter-vs-antimatter)** remains the single owed junction. Until it l
 left-handed helicity cannot be turned into a statement about the baryon draw, and the
 cross-messenger test does not close. **The 2026-07-16 chirality result sharpens what link 5 must
 deliver:** the medium's handedness is sourced from the **genesis pour's winding integer n**, not from
-the pairing channel ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §2 banner;
-[PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4c) — so link 5 is a statement
+the pairing channel ([PRTOE_dcdf_superfluid.md](../PRTOE_dcdf_superfluid.md) §2 banner;
+[PRTOE_cosmological_constant.md](../PRTOE_cosmological_constant.md) §4c) — so link 5 is a statement
 about the AD rectification of *n*, and nothing about the condensate's partial wave can supply it.
 
 Coupling-geometry status: medium-sector (web-scale magnetogenesis) — untouched by the gate geometry.

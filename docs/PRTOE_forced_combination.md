@@ -4,7 +4,7 @@
 
 > **STATUS:** the color algebra (§2) is **exact**; the theorem (§3) is **exact within its
 > setting** — the string-bound family ring of the kernel program
-> ([T6](threaded_physics_working/T6_koide_owed.md), the chase), which is itself
+> ([T6](working_logs/T6_koide_owed.md), the chase), which is itself
 > **candidate-grade**, judged by the P-2026-048 lattice fork and the P-2026-051 deviation
 > lock. The closing chain (§4) inherits every one of those conditionalities and is graded
 > where it stands.

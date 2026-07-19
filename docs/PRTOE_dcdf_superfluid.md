@@ -6,7 +6,7 @@
 *Status: identity file. Grades are inline: **[ESTABLISHED]** derived/coded and load-bearing · **[CANDIDATE]**
 coherent synthesis, unbanked · **[KILLED]** tried and dead. The quantitative derivations live in
 [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md) /
-[PRTOE_v5_dCDF_complete.md](PRTOE_v5_dCDF_complete.md); this file is the WHAT-IT-IS, not the
+[PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md); this file is the WHAT-IT-IS, not the
 derivation. It is one of TWO dark fields — its partner is the dyad
 ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)).*
 
@@ -64,7 +64,7 @@ derive the sign(n) → matter-vs-antimatter link — the **AD-direct rectificati
 to a single relative sign (matter rides the temporal rotation, handedness the spatial winding;
 the recorded first-roll theorem is what would lock them), the one owed
 junction of the chirality family's sign map
-([threaded_physics_working/T14_igmf_helicity_owed.md](threaded_physics_working/T14_igmf_helicity_owed.md)).
+([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)).
 
 ## 4. Its light [ESTABLISHED]
 
@@ -90,6 +90,6 @@ Literal He-3-as-medium (four shots) and the DE-amplitude inversion are in
 ## Sources / see also
 
 Derivations: [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md),
-[PRTOE_v5_dCDF_complete.md](PRTOE_v5_dCDF_complete.md). The Goldstone: [PRTOE_light.md](PRTOE_light.md).
+[PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md). The Goldstone: [PRTOE_light.md](PRTOE_light.md).
 Genesis: [PRTOE_white_holes.md](PRTOE_white_holes.md). The three-door map + the response function:
 the derivation log ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)).
