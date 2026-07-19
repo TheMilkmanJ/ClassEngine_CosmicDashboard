@@ -1291,3 +1291,31 @@ decree, the propulsion note that explains without claiming, and concrete falsifi
 the roton-dip test the UHECR data already passes. Its laboratory_cousins link prompted a
 **corpus-wide broken-link sweep: zero broken internal links across every file in docs/** — a
 whole defect species certified absent in one pass and worth re-running after any file rename.
+
+## PRTOE_CMB_map.md — deep audit 2026-07-19
+
+File seventy-two. Eight fixes in the file, three more in its neighbors — the day's richest
+cross-file haul:
+
+1. **Mechanism supersession**: "conformal/Weyl coupling" was the dead universal-coupling
+   description (the flavor-blind version is BBN-dead at +12–18σ); now reads leptophilic —
+   the dyad rides the lepton-number current, quarks untouched. Same species as math_story's
+   leptophilia backfix, found in its second home.
+2. **The angles count was a three-way split**: ~11 (this file), 8 (laws README), ~15
+   (registry) — three drifting totals around one enumerated object. All three now cite the
+   atlas's enumeration (eight parked attacks + the four-route solution hunt); no file
+   carries a free total anymore. The registry's resurrection protocol likewise.
+3. **Kill-switch → priced surrender**: "no-wiggle-room refutation" predated the atlas's
+   solution-hunt find (d): a confirmed 5σ β forces a dark-photon portal + census surrender.
+   The map now names the price and keeps the prediction at exactly zero.
+4. **Π got its regime** (label firewall): "computed to Π ~ 10⁻⁷" → model-natural genesis
+   scale, O(1) Chern–Simons coefficient, Π ~ 10⁻⁷–10⁻⁸, five-plus orders under TB/EB reach.
+   Verified live: scripts/chiral_gw_genesis.py still runs and gives 8.68×10⁻⁸; harnessed
+   (272 checks now). Also added the missing BB-inventory clause: the vortex network's own
+   background sits 1.5 dex under the B-mode floor — asymmetry may be O(1), carrier missing.
+5. **Chat residue scrubbed**: "Your insight, made exact" → "The rotation identity";
+   "And crucially" → "And"; the closer's "Not 'we won.' A battle won in the moment:" dropped.
+
+Verified and kept: the rotation formulas (½sin4β·EE, sin2β·TE), the hint span 2.4–3.6σ,
+r < 0.03, the +1.2%/2.7σ posterior quote, six spectra enumerated, the FIT/INHERITED/FREE/NULL
+verdict table.

@@ -169,7 +169,7 @@ judgment calls on whether they "count" — both are L1 clarifications, not new l
 
 *The clearest demonstration of L1 — the "clear it through gravity or EM?"
 question (2026-07-08). Cross-refs the graveyard entry "model-SOURCED cosmic
-birefringence" (8 angles) in `PRTOE_INTERACTION_ATLAS.md`.*
+birefringence" (8 parked angles + the 4-route solution hunt) in `PRTOE_INTERACTION_ATLAS.md`.*
 
 Cosmic birefringence is a **parity-odd effect on photon polarization** — rotating
 it treats left-circular differently from right. Trace it through the coupling law:

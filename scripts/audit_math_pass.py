@@ -633,6 +633,13 @@ chk("light 4", "medium loop share at M_Z", 44, 42.9/98.4*100, 0.02, "%")
 chk("light 6", "lock iv: 1/a1 over 1/a2 at M_Pl", 0.673, 33.3/49.4, 0.005)
 chk("light 6", "lock vi: measured A vs sqrt(2)", 0.001, abs(1.41420/2**0.5-1)*100, 0.35, "%")
 
+# --- CMB_map: the inflationary-tensor chirality (chiral_gw_genesis.py, model-natural row) ---
+_Mpl_r = 2.4e18                                   # reduced Planck mass, GeV
+_Pi_nat = 1.0 * 5e16 * 1e13 / _Mpl_r**2           # alpha * theta_dot * H_gen / M_Pl^2
+chk("CMB_map", "model-natural chirality Pi", 8.68e-8, _Pi_nat, 0.01)
+assert 1e-8 <= _Pi_nat <= 1e-7, "CMB_map's quoted band 1e-8..1e-7 must hold the computed Pi"
+chk("CMB_map", "observable-Pi genesis gap (2.4e17/6e13)", 4e3, 2.4e17/6e13, 0.01, "x")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

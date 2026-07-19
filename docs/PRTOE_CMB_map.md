@@ -10,8 +10,8 @@ states, for each: (1) the physical mechanism that sources it, (2) how PRTOE acco
 for it, (3) the honest verdict. The model does **not** re-derive acoustic physics from
 scratch — nobody does; it inherits the Boltzmann treatment (via CLASS) and adds its two
 ingredients: the **dCDF fluid** (the charged rotating superfluid acting as dark matter →
-dark energy) and the **varying electron mass m_e** (conformal/Weyl coupling shifting
-recombination). Verdicts: **FIT** = reproduced in the MCMC; **INHERITED** = follows from
+dark energy) and the **varying electron mass m_e** (the dyad's leptophilic coupling shifting
+recombination — it rides the lepton-number current, so quarks sit untouched). Verdicts: **FIT** = reproduced in the MCMC; **INHERITED** = follows from
 standard physics the model shares; **FREE** = inflation-dependent, unconstrained like ΛCDM;
 **PREDICTED NULL** = the model forces it to zero (a falsifiable kill-switch).
 
@@ -75,8 +75,13 @@ sources:
 - *Primordial BB:* depends on the inflation scale, which the model leaves **FREE**, exactly
  like ΛCDM. **But** this result plugs in: if primordial tensors exist, the
  **genesis twist** would make them slightly *chiral* (parity-asymmetric L vs R gravitons)
- via Chern–Simons gravity — computed to **Π ~ 10⁻⁷**, i.e. essentially **non-chiral**.
+ via Chern–Simons gravity — computed at the model-natural genesis scale with an O(1)
+ Chern–Simons coefficient to **Π ~ 10⁻⁷–10⁻⁸**, five-plus orders under any conceivable
+ reach (CMB TB/EB gets to ~10⁻²), and no O(1) factor rescues it: essentially **non-chiral**.
  So PRTOE predicts primordial BB (if any) is parity-symmetric to observable precision.
+ The model's *own* gravitational-wave background (the vortex network) cannot contribute
+ either: its amplitude sits one and a half orders under the inflationary B-mode floor —
+ the polarization asymmetry there may be order unity, but the carrier is missing.
 
 ## 5 & 6. TB and EB — the parity-odd pair
 
@@ -89,7 +94,7 @@ something *physically violates parity* between last scattering and now:
 - **Systematics** — a miscalibrated polarization angle mimics β exactly (the field's main
  worry).
 
-**Your insight, made exact.** TB and EB are **not independent signals** — they are the
+**The rotation identity.** TB and EB are **not independent signals** — they are the
 already-measured even spectra, *rotated by β*:
 
  C_ell^{EB} ≈ ½ sin(4β) · (C_ell^{EE} − C_ell^{BB} ) ≈ ½ sin(4β) · C_ell^{EE}
@@ -102,12 +107,17 @@ hint at the odd ones — they **quantitatively determine** them given β.
 
 **PRTOE.** The medium is **electrically neutral in every state and every regime**, so it
 cannot source β (the θ·F·F̃ anomaly coefficient = 0, protected by charge conservation and
-anomaly matching — proven robust from ~11 independent angles). Its only parity-odd handle
+anomaly matching — the null is maximally over-determined: eight parked attacks plus a
+four-route solution hunt, enumerated in
+[PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)). Its only parity-odd handle
 is *gravitational*, and that route is computed to Π ~ 10⁻⁷ (unobservable). Therefore:
 
 **VERDICT: PREDICTED NULL.** PRTOE forces **TB = EB = 0** (β = 0) to observable precision.
-This is P-2026-009 — a clean, falsifiable **kill-switch**: a confirmed ≥5σ isotropic β is
-a no-wiggle-room refutation. Current status: the hint is ~2.4–3.6σ, **not** triggered.
+This is P-2026-009 — a clean, falsifiable **kill-switch**: a confirmed ≥5σ isotropic β
+kills the model as constituted. Survival would cost the census itself — the one escape is
+gauging the medium's U(1) into a dark photon with a kinetic-mixing portal, a surrender
+whose price is named in the atlas. The model's own prediction stays exactly zero.
+Current status: the hint is ~2.4–3.6σ, **not** triggered.
 
 ---
 
@@ -119,7 +129,7 @@ a no-wiggle-room refutation. Current status: the hint is ~2.4–3.6σ, **not** t
 | **TE** | even | density × velocity (quadrupole → Thomson) | **FIT** |
 | **EE** | even | scalar velocity gradients → E-modes | **FIT** |
 | **BB** (lensing) | even | LSS shears E → B | **INHERITED / FIT** |
-| **BB** (primordial) | even | inflationary tensors (r free) | **FREE**; predicted **non-chiral** (Π~1×10⁻⁷) |
+| **BB** (primordial) | even | inflationary tensors (r free) | **FREE**; predicted **non-chiral** (Π ~ 10⁻⁷–10⁻⁸) |
 | **TB** | **odd** | E rotated into B by β | **PREDICTED NULL** (β = 0) |
 | **EB** | **odd** | E rotated into B by β | **PREDICTED NULL** (β = 0) |
 
@@ -128,9 +138,9 @@ PRTOE **accounts for**: fit where the data is (TT/TE/EE), inherited where it fol
 (lensing BB), free where inflation rules (primordial BB, and there predicted non-chiral).
 Everything parity-**odd** — TB/EB — PRTOE **predicts silent**, because the medium banks only
 at the parity-even gravity window and holds no electric-charge account in any state. And
-crucially, the odd modes are *not a separate frontier*: they are the even modes rotated by
+the odd modes are *not a separate frontier*: they are the even modes rotated by
 β, so the even spectra we already fit **set the exact size** of any birefringence for a
 given β. The model says β = 0; the data has not yet said otherwise.
 
-Not "we won." A battle won in the moment: the CMB, mechanism by mechanism, with the model's
-honest verdict on each — and a parity-odd prediction that is a live, falsifiable bet.
+The CMB, mechanism by mechanism, with the model's honest verdict on each — and a
+parity-odd prediction that is a live, falsifiable bet.
