@@ -1237,3 +1237,27 @@ transition temperature (the per-3 grammar's third appearance tonight: Q/3, T_c/3
 hops); (ii) the first-principles Y-junction c₂ — THE keystone computation; (iii) all guards
 bind (the ansatz steps are flagged; the deviation lock P-051 and the lattice fork P-048
 remain the external judges; nothing here earns a chair until a residue is paid).
+
+## THE Y-JUNCTION KEYSTONE, opened (2026-07-18 evening): the combination is FORCED — a theorem
+
+**Exact color algebra:** three adjoints in the ε^abc singlet satisfy Σᵢ Tᵢ = 0 ⟹ per-pair
+Tᵢ·Tⱼ = −1 (SU(2), exact) — **the gauge channel is ATTRACTIVE.** This corrects the chase's
+opening assumption (the repulsive-balance α_dark ≈ 3.2 consistency line is RETRACTED — wrong
+sign in the gauge channel) and forces the night's second theorem:
+
+**★ THE FORCED COMBINATION ★** A pure-gauge ring cannot exist (strings and singlet-channel
+Coulomb both pull inward — collapse, no equilibrium). A pure-medium ring has no scale tie to
+√σ. **Only the hybrid equilibrates**: the medium's vortex log-repulsion against the gauge
+binding. Branch A alone dies; Branch B alone dies; the combination proposed by instinct is
+the only configuration in which the family ring exists at all.
+
+**The corrected three-term balance:** E(d) = √3σd − 3q̃²ln d − 3α_d/d. At the target
+c₂ = d√σ = 4/(3ln2): the demanded medium stiffness is **q̃² = c₂/√3 = 1.1106·m_e** in the
+pure limit (rising to ~1.6·m_e at α_d = 1), and **stability itself bounds the coupling**:
+the equilibrium is a minimum only for α_d ≲ 2.2 at the target spacing — a window, not a
+dial. **The final coefficient, named: q̃²/√σ ≈ 1.11 — the medium's vortex stiffness in
+string units.** Its candidate source is the dual-superconductor identity (the chromo-string
+IS a vortex of the dual condensate — σ and the medium stiffness are one sector's numbers;
+the tie σ ↔ 2πρ_s-class is the next bounded computation). If that tie delivers 1.11, the
+chain closes end to end: q̃² ⟹ c₂ ⟹ τ = Q/c₂ = ½ln2 ⟹ the flagship at +0.44%, the modulus,
+the phase, and the lattice fork's kernel point — all from one sector identity.
