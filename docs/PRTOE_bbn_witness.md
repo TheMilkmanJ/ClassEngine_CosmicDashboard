@@ -60,6 +60,15 @@ applied and the code systematic named and unfolded.**
  - **Y_p = 0.24900 → 0.24978–0.25201**, i.e. **+1.3 to +2.0σ vs Aver** (**+3.8 to +4.4σ** vs
  EMPRESS). Helium pays for deuterium's relief.
 
+ **The residual is larger below T_c than above, and that matters.** The dark sector confines *at*
+ T_c — that is what T_c is — dropping from 27 relativistic degrees of freedom (6 gluons + 21 from
+ three flavours of SU(2) quarks) to 14 Goldstones (2N_f² − N_f − 1 for SU(2N_f) → Sp(2N_f)). At
+ conserved dark entropy the bath reheats itself by (27/14)^⅓ = 1.245, so ΔN_eff below T_c is
+ 1.245× its value above. Since helium is decided at n/p freeze-out (~800 keV, above T_c) and
+ deuterium at the bottleneck (~70 keV, below it), the two rows do not see the same residual. Taking
+ that into account: at the window top deuterium reads **−0.84σ** rather than −1.29σ, and the joint
+ across the window is **p = 0.022–0.079**.
+
  Grade: estimate (linear responses; a full nuclear-code re-run is owed only if the joint becomes
  load-bearing). The shift is **hostage to its own falsifier** — CMB-S4 (±0.03) must see the same
  ΔN_eff, and a confirmed ΔN_eff < 0.03 or > 0.3 kills the committed window from either side.
@@ -96,7 +105,27 @@ applied and the code systematic named and unfolded.**
  (helium wants ε lower, deuterium wants it higher, 2.2σ apart): it is the witness's signature, and
  it is why the model cannot coach it.
 
- **The lever that would work is the one the constitution forbids.** A quark-mass shift moves
+ **A lever confined below T_c escapes the anti-correlation — measured, not argued.** Running PRyM
+ with an extra density in the Friedmann equation only, switched on at T_c
+ (`scripts/prym_below_Tc_boost.py`; the full-epoch control reproduces the standing coefficients,
+ dY_p/dN = 0.0131 and ∂ln(D/H)/∂N = 0.1350):
+
+ | lever | ∂ln(D/H)/∂N_eff | dY_p/dN_eff | deuterium gained per unit helium paid |
+ |---|---|---|---|
+ | present at both epochs | 0.135 | 0.0131 | 10.3 |
+ | **confined below T_c** | **0.116** | **0.0041** | **28.2** |
+
+ Deuterium keeps essentially all its leverage; helium pays a third as much. The reason is that n/p
+ freeze-out is nearly the whole helium response but only part of the deuterium one — deuterium is
+ set by burning time at the bottleneck, which lies below T_c. **So the sector's problem is not that
+ no lever can heal it; it is that the model's own supply of this lever is small.** The confinement
+ reheat above delivers a below-T_c excess of only 0.015–0.059, where healing deuterium outright
+ would take ≈ 0.44 — a factor of eight. And an injection that large is **itself excluded**: it
+ stands 1.5× over the CMB-S4 ΔN_eff fence, converting it to matter at the dCDF's radiation-to-dust
+ onset overproduces dark matter by ~700×, and dumping it into photons violates the FIRAS spectral
+ limit by three orders. **The blocker on this route is data, not symmetry.**
+
+ **The lever that would work by a different road is the one the constitution forbids.** A quark-mass shift moves
  deuterium through the binding energy B_D rather than through the expansion rate, so it does *not*
  drag helium the same way — it heals both rows. The size needed is small: full ε on the quarks
  would move D/H by +12 to +18σ, so closing −2.5σ takes ~17% of ε, a shift of **δm̂/m̂ ≈ 0.2%** —
