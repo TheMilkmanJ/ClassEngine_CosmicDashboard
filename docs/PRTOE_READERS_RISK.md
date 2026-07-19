@@ -86,9 +86,10 @@ everywhere atomic physics appears.
   standing as a surface to fall through — which suppresses the pickup by the ratio of gas speed
   to the medium's own sound speed (about one part in forty). That brings the heating to ~50 eV
   per particle and the entropy contribution to ~50 keV cm², under the 100–300 keV cm² floors
-  groups actually show. The owed edge is the fast end: at merger-shock speeds the contribution
-  approaches the observed floor, so the treatment of the transition front at high relative
-  velocity is still to be done. (One consequence
+  groups actually show. The fast end is now bounded too: even at merger-shock speeds
+  the fraction traversed stays near seven per cent, so the contribution never exceeds a few per
+  cent of the shock's own heating — real, but hiding inside a larger effect that the same events
+  produce, so it neither threatens the model nor tests it. (One consequence
   is already booked: S₈ is not delivered by this channel — it rests on the pre-registered
   rotation-shed parameter, graded by a running chain.)
 - **(h) Two independent constraints now bear directly on the ultralight mass, and both are

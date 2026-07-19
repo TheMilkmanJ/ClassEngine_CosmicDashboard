@@ -80,9 +80,15 @@ f ≈ 0.023: **~50 eV per particle, adding ~50 keV cm² of entropy** — below t
 floors groups actually show, and large enough to be a real contributor rather than a rounding
 error.
 
-**The signature:** the contribution scales with infall speed, reaching ~150 keV cm² at
-merger-shock velocities — so the model predicts a **velocity-dependent** floor contribution,
-not a universal one.
+**The signature, and its honest ceiling.** The contribution scales with infall speed, reaching
+~150 keV cm² at merger-shock velocities — a velocity-dependent floor contribution rather than
+a universal one. But it stays **bounded and sub-dominant throughout**: even at the fastest gas
+motions in the universe the fraction traversed is f ≈ 0.07, because the medium re-phases some
+fifteen times faster, so the pickup never exceeds a few per cent of what the shock itself
+supplies. **That also makes it undetectable in practice** — a few-per-cent temperature boost in
+merging systems is degenerate with the merger boost already known to be there and modelled with
+its own systematics. So this channel neither threatens the model nor tests it; it is a real
+contribution living inside a larger effect.
 
 **What this replaces:** the entropy floor was once named as the delivery mechanism for the S₈
 suppression. It cannot be — at ordinary speeds it is too small, and the wall reading that
