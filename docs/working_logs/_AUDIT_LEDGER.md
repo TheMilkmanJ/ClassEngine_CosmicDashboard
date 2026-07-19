@@ -716,3 +716,24 @@ so a reader does not have to wonder.
 (the failures ledger's autopsy was accurate and complete); maintained summaries rotted (the census,
 the harness, the flagship banner, my own P-048 entry). The new one is the harness — an *instrument*
 that rotted, which is worse than a document rotting, because it was the thing certifying the rest.
+
+## The hadronic-channel review — 2026-07-19, the PBH route opened and closed in one night
+
+JP's route, and the census's strangest entry. The full account is §5b of the scar file; what
+belongs in this ledger is what the episode said about the corpus.
+
+1. **The regime blind spot was total.** Zero hits for `hadrodissoc|spallation` anywhere in docs/ or
+   scripts/ before tonight; no Carr/Kohri/Kawasaki/Jedamzik in any bibliography. The three-number
+   spec was photon-derived in all three legs and stated channel-free in seven places, one of them
+   the Fairbank letter, one a live referee's scoping. One sentence was flatly wrong ("an injection
+   before ~6 weeks destroys deuterium" — hadronic injection in that interval *produces* D).
+2. **The re-audit of every prior kill against the new regime reopened nothing** — and collapsed two
+   obstructions into one: the photon channel's "no source" and the quark route's
+   "symmetry-forbidden" both reduce to the census's kill on strong-sector couplings.
+3. **The one candidate that cleared the roster was killed by a receipt.** The PBH route survived
+   Pauli finiteness (a black hole is not a field), landed in the window without tuning, had the
+   right shape on both rows — and died on the ⁶Li co-signature at 39–156×, efficiency-free, read
+   off the constraint figure's own vector paths. First census entry killed by a co-signature.
+4. **The commit gate refused its first commit tonight** — a unit error in a new check's prefactor.
+   Two silent red-harness merges happened earlier today under "remember to read the output."
+   The mechanism works where the resolution did not.
