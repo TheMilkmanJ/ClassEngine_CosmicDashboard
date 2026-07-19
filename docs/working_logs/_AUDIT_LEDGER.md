@@ -1552,3 +1552,18 @@ drift, g(recomb) = 2.1×10⁻⁷; all four harnessed, 298). Two structural fixes
    what it may not do is assert them as live.
 
 Scripts tagged not-retained per the standing convention.
+
+## PRTOE_build_2loop_Veff_spec.md — deep audit 2026-07-19
+
+File ninety-one, near-clean — this spec already models the head-truth discipline (commissioned →
+executed → definite negative → follow-on, with the spec preserved as the record of what was
+attempted). The banner's arithmetic verified against the standing chain: (9/2)α⁴·(m_e·τ) =
+2.258 meV — the "1.0–1.1×" is the forward dark-energy chain the harness already carries, and
+this file is that chain's source spec. The high-f pivot needs no banner here: the negative
+verdict (T_c not perturbatively defined) IS the electron-CW route's own retirement record, and
+hunt 216's gap-equation follow-on is the standing frame. Four fixes, all pointer-grade: the
+"next build" clause was already paid (task-era (Λ,g) derivation; now cites its living script
+de_value_derive_Lambda_g.py), and the four §5 script refs renamed to their living de_value_*
+equivalents — the specs' computations were kept, just re-prefixed, so the earlier sweep's
+"GONE" verdicts on these four were rename-misses, corrected here. γ_m = 3α/2π confirmed as
+the textbook QED anomalous dimension (the corpus's 3α making one more lawful appearance).
