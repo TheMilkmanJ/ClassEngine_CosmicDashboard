@@ -1409,3 +1409,53 @@ matter candidates.
 
 Found by carrying the corrected soliton radii into the file that cites them; the coincidence had
 been quoted against radii that were themselves a thousand times too small.
+### THE GENESIS-RESIDUAL BBN RE-PRICE — BUILT ON A σ THIS LEDGER HAD WITHDRAWN THE DAY BEFORE (2026-07-18)
+
+**What was booked.** On adopting the high-f configuration, the committed genesis dilution
+ξ ∈ [0.25, 0.35] (ΔN_eff = 0.06–0.24) was propagated into the BBN books and the sector was
+re-priced as **joint p = 0.15–0.29, deuterium −0.3 to −1.2σ from Cooke "crossing zero near the
+window top", helium +1.3 to +1.8σ** — a mixed-but-livable verdict that then travelled to eight
+documents including the dependency tree, the reader's risk file, the amplitude, the great chain,
+and the referee calendar.
+
+**None of it follows from its own stated inputs.** The propagation started from D/H = 2.47034×10⁻⁵
+measured against Cooke's **observational error alone (±0.030)** — giving the −1.89σ that seeds
+χ² = 1.09² + 1.89² = 4.75, p = 0.093, the quoted "without the residual" figure. Both moves are
+forbidden by [PRTOE_bbn_witness.md](PRTOE_bbn_witness.md)'s own text: 2.47034 is run (i)'s
+absolute, taken on **PRyM's default ω_b**, which that file marks as "not the model's prediction"
+(D/H ∝ ω_b^−1.6); and the observational-only width is labelled there as "an upper bound, not the
+tension". **The withdrawn σ was withdrawn in this ledger on 2026-07-17**, in the entry directly
+above, whose exact words were *"A joint χ² cannot be quoted from a σ the corpus says it cannot
+quote. Removed."*
+
+**The honest propagation**, on the model's own prediction (2.387×10⁻⁵) and deuterium's full stated
+budget, with the same response coefficients (∂ln(D/H)/∂N = 0.135, dY_p/dN = 0.011–0.013):
+
+| deuterium budget | booked | actual |
+|---|---|---|
+| quotable, ±0.0476 | D/H −0.3…−1.2σ; joint p 0.15–0.29 | **D/H −2.5…−1.4σ; joint p 0.02–0.08** |
+| + full inter-code, ±0.0987 | — | D/H −1.2…−0.7σ; joint p 0.12–0.21 |
+
+Helium is understated too: **+1.3 to +2.0σ** vs Aver, not +1.3 to +1.8σ. And **nothing crosses
+zero** — at the top of the window deuterium reaches 2.463×10⁻⁵ against Cooke's 2.527×10⁻⁵, still
+0.064 low. The residual eases deuterium; it does not heal it, and it costs helium.
+
+**Every error ran the same way.** Four numbers moved, all four toward the model. This is the third
+consecutive session error in that direction after the low-ℓ quadrupole and the soliton radii, and
+the fourth wrong call on this one deuterium row (process errors 36, 38, 40 preceding).
+
+**Why the withdrawal did not hold.** It was chased across the documents that *quoted* −1.89σ, and
+it caught all of them. It was not applied to the working file that **generated** it —
+[T13_fingerprint_owed.md](threaded_physics_working/T13_fingerprint_owed.md), whose splice table is
+internally sound as a *relative* comparison and still carried "the model SURVIVES BBN … p = 0.093"
+as an absolute headline. The next computation that needed a BBN starting point read it from there.
+
+**The lesson (process).** *A withdrawal that edits only the consumers leaves the producer live, and
+the producer is what the next computation reads.* The correct target of a withdrawal is the object
+that manufactures the number — and where that object is legitimate in its own frame (here: a
+relative splice ranking), it must be **labelled with the frame it is valid in**, not merely stripped
+of its downstream quotes. T13's table now carries that label.
+
+**Booked corpus-wide the same hour.** The sector's verdict is unchanged in kind — BBN remains
+adverse-leaning and hinges on the 3.5% PRIMAT–PArthENoPE inter-code disagreement, exactly as it did
+before adoption. What the residual changes is the size of every column, not which column decides.

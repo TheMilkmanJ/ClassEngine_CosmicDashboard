@@ -502,17 +502,28 @@ irreducible input.
    potential, with the electron loop's κ-independent T_c formula supplying the T_γ-keyed ramp
    timing (the predecessor configuration's record:
    [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). **The windowed BBN books under this configuration (2026-07-18; response-coefficient
-   propagation on the recorded ramped baseline — the ramp profile is unchanged, the branch adds only
-   its ξ residual):** across the *entire pre-committed* ξ window the joint p reads
-   **0.15–0.29** (0.093 without the residual) — the residual ΔN_eff pushes D/H toward Cooke
-   (−1.89σ → **−0.3 to −1.2σ**, crossing zero near the window top) while Y_p pays mildly
-   (+1.09σ → +1.3 to +1.8σ vs Aver; the EMPRESS fork worsens to ≈ +4σ — the helium fork remains
-   the pivot). The improvement is **anchor-independent in direction** (a relative D/H shift; even
-   the adverse-end −2.9σ reading moves to ≈ −1.3σ) and **hostage to its own falsifier** (CMB-S4
-   must see the same ΔN_eff). *Provenance note: the ξ window predates this propagation — the D/H
-   healing is a consequence, not a fit.* Grade: estimate (linear responses, dY_p/dN = 0.011–0.013,
-   ∂ln(D/H)/∂N = 0.135); a full nuclear-code re-run is owed only if the joint verdict becomes
-   load-bearing. **The gate's laboratory checklist (2026-07-18; estimate-grade, conditional on the recorded
+   propagation on the model's own prediction D/H = 2.387×10⁻⁵, Y_p = 0.24900 — the ramp profile is
+   unchanged, the branch adds only its ξ residual):** the residual ΔN_eff pushes deuterium toward
+   Cooke and makes helium pay, and **which verdict that produces still depends entirely on the
+   nuclear-code systematic**, exactly as it did before adoption:
+
+   | deuterium error budget | D/H vs Cooke (pre-ξ → across the ξ window) | joint p (2 dof) |
+   |---|---|---|
+   | observational ⊕ PRIMAT nuclear, ±0.0476 — **the quotable row** | −2.9σ → **−2.5 to −1.4σ** | **0.02–0.08** |
+   | + half the 3.5% inter-code spread, ±0.0643 | −2.2σ → −1.9 to −1.0σ | 0.07–0.11 |
+   | + the full inter-code spread, ±0.0987 | −1.4σ → −1.2 to −0.7σ | 0.12–0.21 |
+
+   Helium moves the other way: **+1.09σ → +1.3 to +2.0σ vs Aver** (the EMPRESS fork worsens to
+   **+3.8 to +4.4σ** — that fork remains the pivot). **The residual helps deuterium but does not
+   heal it:** at the top of the window D/H reaches 2.463×10⁻⁵ against Cooke's 2.527×10⁻⁵, still
+   0.064 low — it does not cross zero on any budget. The direction of the shift is
+   **anchor-independent** (a relative move) and **hostage to its own falsifier** (CMB-S4 must see
+   the same ΔN_eff). *Provenance note: the ξ window predates this propagation — the deuterium
+   improvement is a consequence, not a fit.* Grade: estimate (linear responses,
+   dY_p/dN = 0.011–0.013, ∂ln(D/H)/∂N = 0.135); a full nuclear-code re-run is owed only if the
+   joint verdict becomes load-bearing. Both rows are computed on the model's own ω_b baseline —
+   the only baseline whose absolute D/H is a prediction ([PRTOE_bbn_witness.md](PRTOE_bbn_witness.md)
+   run (ii)) — and against deuterium's full stated error budget, never the observational error alone. **The gate's laboratory checklist (2026-07-18; estimate-grade, conditional on the recorded
    curvature-gate form):** all three named checks clear, none closely. The gate is
    **curvature-keyed, not density-keyed** — and that type distinction decides the hardest test:
    atom-interferometry vacuum-chamber experiments kill density-gated (chameleon-class) scalars

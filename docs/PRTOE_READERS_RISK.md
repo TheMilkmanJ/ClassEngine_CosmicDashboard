@@ -50,12 +50,14 @@ everywhere atomic physics appears.
   the bottom edge, needing both the chiral (not deconfinement) transition and near-maximal
   suppression. One SU(2)-specific fact helps: the chiral and deconfining transitions decouple in
   SU(2), so the chiral T_c can legitimately sit below the Polyakov number.
-- **(b) BBN is mixed under the standing configuration, adverse in helium.** With the committed
-  genesis residual (ξ window), D/H reads −0.3…−1.2σ from Cooke (it was −2.9σ pre-adoption; the
-  pre-adoption books are (d)'s record) while Y_p pays at +1.3–1.8σ vs Aver and the EMPRESS fork
-  worsens to ≈ +4σ; the joint p is 0.15–0.29. There is no dyad healer (the Majoron couples to
-  lepton number, quarks carry none), and the helium Aver/EMPRESS fork plus a ~3.5%
-  inter-nuclear-code disagreement remain the verdict's hinges.
+- **(b) BBN is adverse-leaning under the standing configuration, and worst in helium.** The
+  committed genesis residual (ξ window) eases deuterium without healing it — D/H reads
+  **−2.5…−1.4σ** from Cooke on the quotable budget, up from −2.9σ before the residual — while Y_p
+  pays at **+1.3…+2.0σ** vs Aver and the EMPRESS fork worsens to **+3.8…+4.4σ**. The joint p is
+  **0.02–0.08** on that budget, reaching 0.12–0.21 only if the full ~3.5% inter-nuclear-code spread
+  is folded in. There is no dyad healer (the Majoron couples to lepton number, quarks carry none),
+  and that code disagreement plus the helium Aver/EMPRESS fork are the verdict's two hinges — the
+  residual shifts every column without changing which one decides.
 - **(c) The H₀ evidence is SH0ES-conditional and marginal.** ΔlnZ = +2.635 (Laplace, not yet the
   final nested-sampling number) crosses the pre-registered win line only slightly, inside the
   estimator's own systematic error; without SH0ES the model does not win. The easing is shared by the
@@ -72,10 +74,12 @@ everywhere atomic physics appears.
   own falsifier. The price: a new ~100-TeV-class input, the dyad-as-chiral-condensate
   identification drops (its consilience must be re-priced), and the windowed BBN books re-run.
   The high-f configuration is the standing one. Its BBN books: the committed ΔN_eff residual
-  moves D/H toward Cooke (−1.9σ → −0.3 to −1.2σ) while Y_p pays (+1.1σ → +1.3–1.8σ) and the
-  EMPRESS fork worsens to ≈ +4σ; the joint p reads 0.15–0.29 (0.093 without the residual). The
-  shift is hostage to its own falsifier: CMB-S4 must see ΔN_eff ≈ 0.06–0.24. Remaining exposure:
-  the gate's chameleon/Casimir/EP checklist, and the helium Aver/EMPRESS fork.
+  moves D/H toward Cooke without reaching it (−2.9σ → **−2.5 to −1.4σ** on the quotable budget)
+  while Y_p pays (+1.1σ → **+1.3 to +2.0σ**) and the EMPRESS fork worsens to **+3.8 to +4.4σ**;
+  the joint p reads **0.02–0.08** (0.007 without the residual), or 0.12–0.21 if the full inter-code
+  spread is folded. The shift is hostage to its own falsifier: CMB-S4 must see
+  ΔN_eff ≈ 0.06–0.24. Remaining exposure: the gate's chameleon/Casimir/EP checklist, and the
+  helium Aver/EMPRESS fork.
 - **(e) A_s, n_s, and the thermal O(1) coefficient are un-built or frozen candidates** — the A_s
   closed form is the corpus's boldest standing claim, frozen into the live run by design.
 - **(g) The gate's energy bookkeeping is unpaid, and one endpoint is excluded.** The electron's
