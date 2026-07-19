@@ -1057,3 +1057,21 @@ Now rests on what actually carries it: the kernel-sourced τ, the portal, and α
 arithmetic all verified (8.16 H⁻¹, the 3.5% occupancy, one-in-thirty), and the file's central
 honesty — width derived, occupancy not, and a longer era makes placement *harder* — is exactly
 the right shape and was left untouched.
+
+## PRTOE_scale_ladder.md — deep audit 2026-07-19
+
+Thirty-seventh file, and the third **clean pass** (its one stale line was corrected in the
+morning's supersession sweep). Every rung's α_eff and ½α² verified — cluster through planet
+orbit from orbital velocities, the atom from α, the universe rung's identity honestly labeled
+as an identity. The hinge fact, the priced prediction zone (10⁻¹⁸, no wide-binary anomaly),
+and the couplings-column closing note all current.
+
+## PRTOE_hierarchy_problem.md — deep audit 2026-07-19
+
+Thirty-eighth file. One structural defect and two roundings: the banner carried the same
+conditionality-and-referees sentence pair **twice** (a copy-paste doubling, the fuller version
+kept), and its 1.5015 / +0.15% disagreed with the file's own §2 and the harness (1.5014 /
++0.14%). The split-grade banner table — the day's most careful piece of supersession bookkeeping
+anywhere in the corpus, grading each piece by whether it used the excluded vacuum — needed
+nothing. The additivity-grade 3/2 chain, the three-way k concordance, the one-coupling
+portfolio, and the stability addendum all verified against the harness.
