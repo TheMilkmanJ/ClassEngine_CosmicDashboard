@@ -1732,3 +1732,14 @@ recorded against me: I initially read a task-vs-corpus contradiction into the ς
 the grade distinction is real (the appeal SESSION ran and signed ς = −1 estimate-grade with the
 mass-step forked to the C_ref ≈ 2 corner — ForJustin/09's corner — while the synthetic-photometry
 module stays armed-off as the revisit path). The file says precisely that.
+
+## The Grok cold-read (2026-07-19) — adjudicated in-session
+
+Grok's repo review: optics-grade, zero physics findings by the red-team brief's own standard
+(no file:line, no species, no evidence — "expect inconsistencies" is speculation, not a find).
+Its "big asterisks on evidence" observation is the corpus's own YHe disclosure working as
+designed. One real actionable surfaced by cross-checking it: **the dashboard UI string said
+"Theory of Everything" against the adopted expansion-only jurisdiction ruling** (ui.js:4641;
+README and the philosophy file both say Expansion) — fixed, frontend-only, sampler untouched.
+Also recorded against me: I suspected Grok hallucinated "Pulford-Romsa"; it is README line 7.
+Verified before accusing — the discipline held, the suspicion didn't.
