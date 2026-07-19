@@ -1952,11 +1952,15 @@ derived, not assumed.
 
 **Why the base is α — a consistency condition, not a portal.** Light is the condensate's *own*
 Goldstone mode, so relating the sound speed to the light speed (c₂ = √α·c) is a consistency
-condition on one medium's two co-modes — not a census-forbidden EM exchange. Candidate mechanism:
-the single fermion loop that already induces ~44% of light's α also sets the condensate's
-compressibility. **Owed (one field-theory compute):** the base equals α only for the specific
-roster (light is 44% induced), so "base = α" is roster-conditional — pinning it closes the coupling.
-The factor 3 = d is already derived from the second sound, independent of the loop.
+condition on one medium's two co-modes — not a census-forbidden EM exchange. **The two owed pieces, stated
+precisely:** (1) *the same-response identification* — that the medium response which induces the
+photon's coupling is the same response that sets the condensate's compressibility, and that it
+enters both with unit coefficient; (2) *the roster condition* — the base equals α only for the
+recorded induced split (the medium's fermion loop supplies ~44% of light's strength, the basement
+the rest), so "base = α" stands or falls with that split. Neither piece touches the factor 3 = d,
+which follows from the second sound independently of the loop. *(Recorded without weight: c₂ = √α·c
+is the geometric mean of the two velocity scales the model already carries — light speed and the
+Bohr velocity αc. That is the claim rewritten, not evidence for it.)*
 
 **Grading — a three-reading convergence, no single instrument can cheat:** (i) the dispersion α_c
 chain (the mode sector's direct fit — running); (ii) the isocurvature phase speed c₂ = √α·c (the
