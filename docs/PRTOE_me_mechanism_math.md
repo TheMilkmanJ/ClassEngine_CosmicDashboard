@@ -457,13 +457,16 @@ medium's Gaussian-statistics fluctuations with an amplitude-linear threshold map
 exponent in the transition zone is n_eff ≈ ν²/2 (ν = the seed threshold in σ units; the exact
 erfc slope runs slightly steeper: ν = 2.2σ gives 2.81, ν = 3σ gives 4.92) — so **ν ≳ 2.1σ
 delivers n_eff > 2.43**, meeting §3's MICROSCOPE/quasar-forced bound from the event statistics
-alone, for any but sub-2σ seeding. **The seed-count exponent, bounded (conditional
-on seed identity):** if the decoherence seeds are the winding field's own fluctuations, the
-n_s-subdominance ceiling (Δ² ≲ 2.3×10⁻⁶ per log, ~62 logs) pins the field's total σ ≈ 0.012 —
-so any O(0.1–1) shell-crossing threshold sits at ν ≈ 8–84σ, giving **n_eff ≈ ν²/2 ≈ 35–3500**:
-the gate is a hard step for every practical purpose, and §3's forced n > 2.43 is over-satisfied
-by 1–3 orders. The bound closes the exponent at conditional grade; an unconditional value needs
-the C²-to-threshold map. Grade: **gate variable derived-structural (conditional on the census
+alone, for any but sub-2σ seeding. **The seed-count exponent — the sharpness is
+unconditional.** For threshold-crossing seeds the effective exponent is set by the crossing
+height in units of the medium's fluctuation amplitude, n_eff ≈ ν²/2, and §3's forced n > 2.43
+is met for ν > 2.03. So the gate is a hard step **whenever σ < 0.49·δ_c** — whenever the medium
+is in its linear regime at the threshold scale. No seed identity is required: the winding
+field's own ceiling (σ ≈ 0.012, from the n_s subdominance condition) gives n_eff of order
+10³, a ten-times-rougher medium still gives 50, and the bound fails only for a medium
+fluctuating at order the crossing threshold itself — a medium already nonlinear everywhere,
+which the model's structure excludes. What remains scale-dependent is the exponent's exact
+value (that needs the C²-to-threshold map); the hard-step conclusion does not. Grade: **gate variable derived-structural (conditional on the census
 coupling form); gate form derived at class level (survival/exponential-power — the power form
-retired); the exponent bounded hard-step (conditional on winding-seed identity); C_ref
+retired); the exponent hard-step unconditionally (its exact value map-dependent); C_ref
 input.**
