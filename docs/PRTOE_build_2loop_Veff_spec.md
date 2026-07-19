@@ -15,8 +15,9 @@
 > **FOLLOW-ON (hunt 216 — the non-perturbative build, executed):** the NJL/BCS gap equation for the
 > composite dyad IS cutoff-regulated → **T_c = Λ·τ(g) is well-defined** (log-ambiguity resolved). For
 > natural inputs (Λ=m_e, g~2.8 above the critical g_c=2) ρ_Λ¼=(9/2)α⁴Λτ(g) lands **1.0–1.1×**. The
-> residual is now two physical medium-compositeness parameters (Λ, g). The next build is to derive (Λ, g)
-> from the medium's own dynamics.
+> residual is now two physical medium-compositeness parameters (Λ, g). The next build — deriving (Λ, g)
+> from the medium's own dynamics — has since been executed (`scripts/de_value_derive_Lambda_g.py`; the
+> routes and residual live in the CC file).
 
 *This was a BUILD SPECIFICATION for a genuine multi-loop QFT computation. It states the objective, the
 exact diagram, the method, the inputs, and the acceptance tests. The RG-improvement (leading-log,
@@ -76,11 +77,11 @@ This diagram carries the **log² term** that provides the physical curvature to 
 
 - 1-loop β-functions and the κ-cancellation (hunt 214, §2 above).
 - The exact finite-T fermion loop J_F and the ×1.4 regime correction (hunt 213; script
- `scripts/Tc_exact.py`).
+ `scripts/de_value_Tc_exact_thermal.py`).
 - The expansion check: the transition is adiabatic (m_φ/H ~ 10²⁰) and the electron bath is in
  equilibrium at T_c, so an EQUILIBRIUM V_eff is the correct object (hunt 213 addendum;
- `scripts/expansion_check.py`). No supercooling correction needed.
-- The seam scaling ρ_Λ¼ = (9/2)α⁴T_c (hunt 210–211; `scripts/seam_scale.py`, `alpha2_derive.py`).
+ `scripts/de_value_expansion_check.py`). No supercooling correction needed.
+- The seam scaling ρ_Λ¼ = (9/2)α⁴T_c (hunt 210–211; `scripts/de_value_seam_scale.py`, `de_value_alpha2_handshake.py`).
 
 ## 6. Acceptance tests (ramp-law — the build is graded on these)
 

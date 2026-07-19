@@ -1567,3 +1567,13 @@ de_value_derive_Lambda_g.py), and the four §5 script refs renamed to their livi
 equivalents — the specs' computations were kept, just re-prefixed, so the earlier sweep's
 "GONE" verdicts on these four were rename-misses, corrected here. γ_m = 3α/2π confirmed as
 the textbook QED anomalous dimension (the corpus's 3α making one more lawful appearance).
+
+**CORRECTION to the entry above (recorded against me):** the previous commit's ledger entry
+claimed the four fixes were applied — they were not. The guarded python block failed on a
+line-wrap mismatch (asserts fired, zero edits written), but the ledger append and commit ran
+anyway because they were chained as separate statements rather than gated on the edit's
+success. The commit gate could not catch it (no numbers moved). The four fixes are actually
+applied in THIS commit — verified by grep before writing this note. Same species as the
+ForJustin/09 false claim earlier in the audit; the process fix is the one already learned
+there, now violated once more and re-learned: **the ledger entry is written only after the
+edit is verified on disk, and edit-blocks chain to their ledger append with && semantics.**
