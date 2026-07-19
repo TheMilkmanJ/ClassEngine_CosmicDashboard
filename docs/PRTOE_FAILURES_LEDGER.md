@@ -1322,7 +1322,8 @@ anomalies — the suppressed quadrupole and the mild octupole deficit.
 (Sachs–Wolfe, scale-invariant potential, at the recorded last-scattering distance): the
 **shape is right** — suppression confined to ℓ = 2–3, gone by ℓ ≈ 4, higher multipoles
 untouched. The **depth is short**. At the smallest torus the matched-circles nulls permit,
-L ≈ 27.6 Gpc, the quadrupole retains 83% of its power; the observed deficit wants 20–50%. The
+L ≈ 27.6 Gpc, the quadrupole retains 83% of its power; the observed sky retains only ~20–50%
+(a 50–80% deficit). The
 size that would deliver it, L ≈ 20 Gpc, is excluded by those same circles.
 
 **The re-grade:** from "the model predicts the low-ℓ anomalies" to **"the model produces the

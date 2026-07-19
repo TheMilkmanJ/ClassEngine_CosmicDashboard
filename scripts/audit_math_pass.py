@@ -674,6 +674,12 @@ _rc_m = _MPl_full_eV/_M2_eV**2 * 197.3269804e-9   # (M_Pl/M2^2) * hbar-c
 chk("small-scale", "braiding scale M_Pl/M2^2", 0.87, _rc_m/3.0857e19, 0.02, "kpc")
 chk("small-scale", "braiding vs dwarf soliton (two orders)", 125, _rc_m/3.0857e16/7.0, 0.03, "x")
 
+# --- lowell_anomalies: the countable pieces (2026-07-19) ---
+chk("low-ell", "coefficients ell=2..6", 45, sum(2*l+1 for l in range(2,7)), 0)
+chk("low-ell", "independent pairs = C(45,2)", 990, 45*44//2, 0)
+chk("low-ell", "quadrupole cosmic variance sqrt(2/5)", 63, math.sqrt(2/5)*100, 0.01, "%")
+chk("low-ell", "83% retention in sigma units", 0.27, (1-0.83)/math.sqrt(2/5), 0.02, "sigma")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

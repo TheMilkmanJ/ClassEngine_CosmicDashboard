@@ -1480,3 +1480,22 @@ status banner, envariance/decoherence fences correct, the jurisdiction clause me
 tied to census blindness (the same premise that derives c = 9/10), and the "crankery jackery"
 standard preserved verbatim with its preservation note. The one page of *why* the repo can
 afford, priced honestly.
+
+## PRTOE_lowell_anomalies.md — deep audit 2026-07-19
+
+File eighty-seven, and the day's deepest provenance finding. The strong parts held under
+recomputation: 990 pairs = C(45,2) exact, the 63% quadrupole cosmic variance = √(2/5), the
+0.3σ arithmetic, and the ρ table's five pairs all obeying the torus's Δm ≡ 0 (mod 4)
+selection rule — a consistency the file never even advertises (all harnessed; 298).
+
+**The knot: the booked "83% retention at the 27.6 Gpc floor" cannot be reproduced from
+retained code.** The retained SW-only toy (torus_quadrupole.py, runs today) gives ~49% at
+the floor and 83% one row up at 42 Gpc; the fuller 2026-07-18 pass that booked 83%-at-floor
+was scratch-era and is gone. Not unbooked — it is double-recorded and the file's own ISW
+paragraph plausibly supplies the difference — but the file now carries the provenance note
+openly, and both the retention and the 990-pair pattern are flagged regenerate-before-grading
+at the BipoSH handoff. The conclusions are robust across the 49–83% span (even the deepest
+reading stays under cosmic variance's resolving power — the relocation to covariance stands
+either way). **And the failures ledger's own record of this result had flipped
+retention↔deficit** ("the observed deficit wants 20–50%" — the script's 0.2–0.5 is retention;
+the deficit is 50–80%) — corrected in place. Mechanical: octopole → octupole, en-dash.
