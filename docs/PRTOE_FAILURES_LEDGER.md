@@ -1037,7 +1037,7 @@ else) is a corpus-wide coherence failure the value-checker cannot see. It took r
 | **The ν-free-streaming lane was un-priced corpus-wide** | The Majoron's νν̄ ↔ φ recoupling channel was never run against the CMB free-streaming requirement — including at the recorded launch value g = 1.2×10⁻⁸ (v_L ≈ 4.2 MeV), which recouples the ν bath ~9 orders deep before recombination (the strongly-interacting-ν regime, Planck-tension class). Caught by the three-corner test; the lane is now in the books (hunt §6), and the MeV corner carries its exposure. |
 | **A wrong-class ΔN_eff claim, same-day self-caught** | The corner test's first booking assigned the late-thermal Majoron a "+0.1-class ΔN_eff addition" to the committed budget. Wrong class: late recoupling redistributes the ν bath's *conserved* comoving energy — ΔN_eff shifts ≈ nothing; the observable is the free-streaming change. Corrected in place within the hour; the CMB-S4 budget stands at the pure dyad window. |
 
-### P-2026-049 (the ν-recoupling corridor) — RETRACTED same-day: wrong channel (2026-07-18)
+### P-2026-052 (the ν-recoupling corridor; registered as 049, ID corrected same day) — RETRACTED same-day: wrong channel (2026-07-18)
 
 **What it claimed:** ν recoupling through the Majoron at z ∈ [150, 1100], from a two-fence
 corridor v_L ∈ [0.22, 0.94] TeV.

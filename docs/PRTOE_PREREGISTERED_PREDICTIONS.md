@@ -2444,7 +2444,14 @@ number (kill 1) remains the entry's decisive test.
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
 
-## P-2026-049: Late neutrino recoupling through the Majoron corridor (registered 2026-07-18)
+## P-2026-052: Late neutrino recoupling through the Majoron corridor (registered 2026-07-18) — RETRACTED same day
+
+> **ID CORRECTED 2026-07-18 — this entry was registered as `P-2026-049`, an ID already held
+> since 2026-07-09 by the cosmic-birefringence census fork (above, itself renumbered on
+> 2026-07-17 for the same reason).** The registry's founding rule applies unchanged: the
+> earlier registration keeps the ID, the later moves to the next free slot. Nothing about
+> this entry's content, date, retraction, or kill conditions changes — only the label. Its
+> registration timestamp remains **2026-07-18**.
 
 **The prediction:** the cosmic neutrino bath re-couples through the Majoron channel (νν̄ ↔ φ) at a
 redshift **z_rec ∈ [150, 1100]** — after recombination, before the dark-energy freeze era. The
