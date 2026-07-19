@@ -1,48 +1,26 @@
 # PRTOE — THE MATH SPINE (genesis → now → end)
 
-> **⚠ THE FLAGSHIP'S GRADE — READ BEFORE ANY "+1.5%".** Where the corpus states ρ_Λ¼ = 2.284 meV
-> against the observed 2.25 as a **+1.5% prediction**, that is not one — the 179 keV behind it is
-> the observation rounded. But τ is no longer unsourced: the Koide kernel supplies it, and the
-> honest prediction is **+0.44%**. Both halves of that matter, so both are below.
+> **THE FLAGSHIP CLAIM, AND ITS GRADE.** The dark-energy scale is
+> **ρ_Λ¼ = (9/2)·α⁴·τ·m_e** — α⁴ times a temperature tied to the electron. Every factor is sourced
+> except τ = T_c/m_e, and τ is where the claim lives.
 >
-> **First, why the +1.5% is an artifact.** The chain's last free number is τ = T_c/m_e, and the
-> routes originally offered do not source it:
->
-> | route offered | what it actually is |
-> |---|---|
-> | "T_c = τ·m_e" | **circular** — τ ≡ T_c/m_e |
-> | the perturbative CW route | **log-ambiguous ~[40, 900] keV**, and gives **193**, not 179 |
-> | the lattice band T_c/√σ ≈ 0.34–0.37 | an **SU(3)** value; this model's dark sector is **SU(2)** (P-2026-048). Pure-glue anchors disagree ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71). **No SU(2), N_f = 3 number exists.** |
->
-> **And the number's real origin is a rounding.** `scripts/tau_deconfinement.py` (hunt 228) has
-> exactly one computed line: **`tau_needed = 2.25/ceiling = 0.34506`** — *the observed dark-energy
-> density inverted*. It never computes 0.35 and never computes 179. **0.345 rounded to two
-> decimals is 0.35; 0.35 × m_e = 178.85 keV → adopted as "179 keV".** The three +1.5%s in this
-> corpus are **one number**:
->
-> > 179/176.32 = **+1.52%**  ·  0.35029/0.34506 = **+1.52%**  ·  ρ_Λ¼(179)/2.25 = **+1.52%**
->
-> **The flagship's headline agreement with the observed dark-energy density is the gap introduced
-> by rounding the observed dark-energy density to two decimal places.**
->
-> **Second, τ now has a source, and it is not cosmological.** The Koide sector's circulant kernel
-> fixes its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
+> **τ is sourced by the Koide sector, and nothing cosmological enters.** The circulant kernel fixes
+> its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
 >
 > > **τ = ½ln2 = 0.34657 ⟹ T_c = 177.10 keV ⟹ ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**
 >
-> Nothing cosmological enters that chain: it descends from Q, a lepton-mass fact measured to ten
-> parts per million, through an exact identity ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
-> **So the flagship does have an independent prediction, at +0.44% rather than +1.5%**, and the
-> structure ρ_Λ¼ = (9/2)α⁴·τ·m_e — the dark-energy scale as α⁴ times a temperature tied to the
-> electron — is what makes it predictive.
+> descending from Q, a lepton-mass fact measured to ten parts per million, through an exact identity
+> ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
 >
-> **Its grade is candidate, and its price is one hypothesis:** that the charged-lepton √m are
-> thermally populated, which is what Q = 2/3 asserts (it says exactly that the variance of √m
-> equals its mean squared — the Boltzmann second moment, holding to 18 ppm on the measured masses).
-> **The referee is unchanged and now decides more:** a lattice T_c/√σ for SU(2) with N_f = 3.
+> **Grade: candidate. Its price is one hypothesis** — that the charged-lepton √m are thermally
+> populated, which is what Q = 2/3 asserts (variance of √m equals mean squared, the Boltzmann second
+> moment, holding to 18 ppm). **Its referee is one number:** a lattice T_c/√σ for SU(2), N_f = 3.
 > **0.34657 crowns the kernel and the dark-energy prediction together; 0.3503 kills both.**
-
-
+>
+> **A superseded figure to watch for.** Older material quotes this at +1.5% via T_c = 179 keV. That
+> is not a prediction — the 179 keV is the observed dark-energy density inverted and rounded to two
+> decimals, so the "agreement" was the rounding gap. The standing claim is +0.44%; the autopsy is in
+> [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -62,13 +40,15 @@ mechanism, not a derivation · [PENDING] computation named, not run.
 One dark superfluid, two components (the two-field split):
 
 * **Field 1** — the dcdf fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
-[**grade under review** — the onset clock. The stated independent confirmation does not survive
-recomputation: the blind free-z_on optimizer's landing at log₁₀ z = 7.5517 implies
-**m = 1.75×10⁻²⁰ eV, 22% below this value**, not the 2.29×10⁻²⁰ / "+2%" recorded here — and
-m = 2.24×10⁻²⁰ corresponds to log₁₀ z = 7.605, which is the *other* z_on in the corpus. The running
-evidence job is set at 7.5517. One number, two values, and the chain named to arbitrate
-(`cmp_prtoe_zon`) has not run since 2026-07-12. See `ForJustin/07-zon-two-values.md`; the mass is
-left as stated pending the owner's call, because every soliton and galactic-atom number rides it.
+[**MEASURED**, confirmed three independent ways: the coherence length ξ = ħ/(m c_s) returns
+398 AU against the recorded 402; the Schive core radius returns 7.14 pc against the recorded 7.0 for
+a 10⁹ M☉ halo; and the superradiance window lands on its recorded 6×10⁸–3×10⁹ M☉. Under the onset
+clock T_on = √(m·M_red/0.61) this mass sits at **z_on = 4.03×10⁷ (log₁₀ 7.605)**, which is the value
+`include/background.h` carries as the derived identity and which five of the six production configs
+set. *(An earlier confirmation recorded here — the free-z_on optimizer's landing at log₁₀ z = 7.5517
+read as "m = 2.29×10⁻²⁰, 2% above" — was arithmetically inverted: 7.5517 implies 1.75×10⁻²⁰, 22%
+**below**, and that mass misses all three checks above by ~28%. The grade stands on the three
+independent uses, not on that reading.)*
 The former "derived from ε via c(m) = (m/m₀)^{1/4} at c = 1" was a relic of the SUPERSEDED
 f_amp decomposition — in the standing decomposition ε = c·f̄·α_c the mass never touches the
 census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through this
@@ -99,12 +79,12 @@ running instrument:
 > the dark-energy scale is a **cross of BOTH dark fields**, not one field's product. Substituting
 > α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical to 4×10⁻¹⁹):
 >
-> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c = 2.2842 meV** *(observed 2.25; the +1.5% is the τ rounding, not a sourced prediction — see the flagship-grade block at the top of this file)*
+> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — +0.44%**
 >
 > | factor | owner | why |
 > |---|---|---|
 > | **α⁴** = α_c² × α² | **the dCDF** | α_c² is its **binding**; α² is the **EM handshake** — and α is the dCDF's own coupling because **light is its massless Goldstone** ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §4) |
-> | **T_c** | **the dyad** | its condensation temperature, 179 keV *(the ratio τ = T_c/m_e is what's derived-and-rounded; 179 keV itself is not independently sourced — flagship-grade block)* |
+> | **T_c** | **the dyad** | its condensation temperature, **177.10 keV** from the kernel's τ = ½ln2 |
 > | **d²/2 = 9/2** | **geometry** | d = the spatial dimension (the same 3 as in α_c = 3α) |
 >
 > **Neither field produces the number alone**: the dark-energy scale is the dCDF's coupling raised
