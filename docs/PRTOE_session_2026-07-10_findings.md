@@ -1,3 +1,7 @@
+> **PROVENANCE NOTE (2026-07-19):** dated session record; statuses herein are as-of
+> 2026-07-10 (T_c, the gate-0 pharmacy, the ε decomposition, and the standing odds have
+> all moved since). For current state see PRTOE_INDEX.md.
+
 # PRTOE — Session Findings, 2026-07-10
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
@@ -6,8 +10,7 @@
 *Comprehensive record of the day's work. Honest grading throughout. The deepest new thread
 is the cosmological-constant / dynamic-floor / genesis arc; the rest is the full record.
 Companion docs: PRTOE_cosmological_constant.md (the CC in full), PRTOE_me_mechanism_math.md §10
-(the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), the the private internal review record
-(internal review + internal review).*
+(the leptonic mechanism), PRTOE_PREREGISTERED_PREDICTIONS.md (P/ANN entries), and the private internal review record.*
 
 ---
 
