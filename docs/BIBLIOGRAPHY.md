@@ -3,7 +3,8 @@
 *The source list (the working docket). Keys are used across the docs as [AuthorYear]. Internal
 provenance (t###/def### turn-tags) traces to the internal working record; THIS file traces everything
 we borrowed from the field. If a claim in any doc leans on a result not listed here,
-that is a bug — file it.*
+that is a bug — file it. The verification record — which receipts were checked against
+their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 
 ## 1. Data and likelihoods (what the model is tested against)
 

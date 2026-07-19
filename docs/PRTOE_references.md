@@ -1,5 +1,9 @@
 # PRTOE Verified References (the pre-Fairbank citation list)
 
+> *Relation to [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md): that file is the canonical source list
+> (every external source, keyed [AuthorYear]); THIS file is the verification record — which
+> receipts were checked against their sources, exactly as used, and when.*
+
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
@@ -69,8 +73,10 @@ V = verified, exactly as used in our documents):
  exclusion band; verified 2026-07-07 at booking).
 - [V] **Baryakhtar, Galanis, Lasenby, Simon**, PRD 103, 095019 (2021),
  arXiv:2011.11646 — quartic self-interactions saturate superradiant
- growth at quasi-equilibrium (level mixing + emission to infinity);
- the λ-scar shield of the superradiance null. Verified at booking.
+ growth at quasi-equilibrium (level mixing + emission to infinity).
+ Feeds the superradiance quench — which the atlas rules un-quotable
+ as a shield until its re-derivation at the model's own coupling is
+ done (the owed calculation). Verified at booking.
 - [V] **Eckel, Kumar, Jacobson, Spielman, Campbell**, PRX 8, 021021
  (2018), arXiv:1710.05800 — supersonically expanding ring BEC:
  measured Hubble-friction redshift of excitations; the tabletop
@@ -89,7 +95,7 @@ V = verified, exactly as used in our documents):
 - [V] **Pitrou, Coc, Uzan, Vangioni**, MNRAS 502, 2474 (2021),
  arXiv:2011.11320 — "A new tension in the cosmological model from
  primordial deuterium?": PRIMAT post-LUNA D/H = 2.439±0.037, ΛCDM
- itself at ~1.8sigma. The scar-repricing's theory-error anchor.
+ itself at ~1.8σ. The scar-repricing's theory-error anchor.
  Verified 2026-07-07 at booking.
 - [V] **Pisanti et al.**, JCAP 04 (2021) 020, arXiv:2011.11537 —
  "Primordial Deuterium after LUNA": PArthENoPE concordance; the
@@ -101,7 +107,7 @@ V = verified, exactly as used in our documents):
  Waals; vanish as α → 0). The cc-attack's Casimir deflation.
  Verified 2026-07-07 at booking.
 - [V] **DESI DR2**: arXiv:2503.14743 (extended DE analysis) + DESI DR2
- results II, PRD 112, 083515 (2025) — DR2+Planck 3.1sigma CPL
+ results II, PRD 112, 083515 (2025) — DR2+Planck 3.1σ CPL
  preference for evolving dark energy with phantom crossing. The
  object of STANDING BET #3 (Λ-exactly). Verified at booking.
 
@@ -128,7 +134,7 @@ V = verified, exactly as used in our documents):
  Cs-137). The lab-zero standing bet's decay-rate leg.
 - [V] **Scherrer**, PRL 93, 011301 (2004), astro-ph/0402316 — purely
  kinetic k-essence as unified dark matter: ρ → ρ_0 +
- ρ_1 a⁻³ with c_s² << 1 (the §2 citation, exactly as used —
- note this IS the dyad's density form).
+ ρ_1 a⁻³ with c_s² ≪ 1 (the §2 citation, exactly as used —
+ note this IS the dCDF's density form).
 - STILL TAIL (feed nothing numbered; verify if ever promoted):
  Super-K proton-lifetime bound; KATRIN/oscillation mass scales.
