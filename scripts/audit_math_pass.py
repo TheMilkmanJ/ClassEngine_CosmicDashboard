@@ -652,6 +652,15 @@ chk("quantum trio", "second sound c2 = c1/sqrt(3) = sqrt(alpha)", 0.0854, math.s
 chk("quantum trio", "identity sqrt(3a)/sqrt(3) == sqrt(a)", 1.0, math.sqrt(3/137.035999)/math.sqrt(3)/math.sqrt(1/137.035999), 1e-12)
 chk("quantum trio", "indirect band top 0.0214 below 3a", 2.3, (1-0.0214/(3/137.035999))*100, 0.03, "%")
 
+# --- no_singularities: the crossover table (2026-07-19) ---
+_xi_m   = 6.0e13                                  # m (the recorded coherence length)
+_Msun   = 1.98892e30; _G = 6.6743e-11; _c = 2.99792458e8
+_rs     = lambda M: 2*_G*M*_Msun/_c**2
+chk("no singularities", "crossover mass r_s = xi", 2.0e10, _xi_m*_c**2/(2*_G)/_Msun, 0.02, "Msun")
+chk("no singularities", "10 Msun: r_s/xi", 5e-10, _rs(10)/_xi_m, 0.03)
+chk("no singularities", "TON 618 (6.6e10): r_s/xi", 3.3, _rs(6.6e10)/_xi_m, 0.02)
+chk("no singularities", "lambda support margin (2e-91 over 8e-94)", 250, 2e-91/8e-94, 0.01, "x")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

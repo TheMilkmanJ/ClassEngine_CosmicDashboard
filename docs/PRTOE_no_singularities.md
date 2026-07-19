@@ -27,8 +27,9 @@ cutoff removes them all.
 
 ## 2. The scale that does the work
 
-ξ = ħ/(m c_s) = **6.0×10¹³ m = 402 AU** (with m ≈ 2.24×10⁻²⁰ eV, c_s = √α_c ≈ 0.146; ξ rides two
-open numbers). The consequence is the surprise:
+ξ = ħ/(m c_s) = **6.0×10¹³ m = 402 AU** (with m ≈ 2.24×10⁻²⁰ eV, c_s = √α_c ≈ 0.148; the bet's
+exact value returns 398 against the recorded 402 — a 1% split, priced in the spine. ξ rides two
+open numbers.) The consequence is the surprise:
 
 | object | r_s / ξ |
 |---|---|
