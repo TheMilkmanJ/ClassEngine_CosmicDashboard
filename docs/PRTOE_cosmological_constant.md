@@ -235,9 +235,16 @@ are **one number to ~20%** — the honest statement — and the owed O(1) (effec
 the exact Landau cap) is the gap between **E_b and E_b/(16π²α_c^{3/2})¼**, not between 7.1 and 2.70. **Located precisely:** the
 flagship E_b = ½α_c²M₂ = 2.284 meV (**1.5% high**) and the tie m_ν = 2.250 meV agree to **1.5%** and
 both sit at the observed 2.25; the perturbations 2.70 is the *un-cancelled* full phonon sum
-(+18%, exactly the phase-space factor). The one-number demand reduces to the cancellation
-fraction f = (2.25/2.70)⁴ = 0.48 — which is **not** the phase-space factor (0.51), so the
-equilibrium identity does not simply "remove the measure"; f is a partial Gibbs–Duhem
+(+18%, exactly the phase-space factor). **The cancellation fraction is not an independent unknown (2026-07-18).** The two doors stand
+in the exact ratio the phase-space factor gives: door A over door B is 0.51131 in energy
+density against Φ = 16π²α_c^(3/2) = 0.51150 — agreement to 0.04%. **The equilibrium identity
+does remove the measure, exactly.** What made it look otherwise was comparing the *observed*
+value to door B rather than the model's own prediction: f = (observed/B)⁴ = 0.4815 differs
+from Φ by precisely the flagship's own gap to the observation — 1.5% in the scale, 6.2% in the
+density — which is the τ rounding this file already grades as an artifact rather than physics.
+So the owed-item count drops by one: there is no separate coefficient to build, and when the
+lattice sources τ, the fraction is fixed with no freedom left. *(The earlier reading of f as a
+partial Gibbs–Duhem
 cancellation on the mode sum — **the genuinely un-built calculation, and it stays un-built.**
 *(An equipartition reading — f = ½ from a zero-point K = V split, giving 2.27 meV — was tried and
 **failed** on two independent grounds. (i) The number is not independent: 16π²α_c^{3/2} = 0.5115 ≈ ½,
@@ -261,8 +268,8 @@ and §2(a) derives E_b as the *universal two-body form* ½α²M — the **ℓ = 
 the dark Rydberg, spherically symmetric by construction. It is **not a BCS pairing gap**. So no
 gap-anisotropy weighting and no pair-counting of collective modes bears on it: those act on a
 many-body gap, and this is a two-body bound state. **The perturbations door sits at +20.0%
-(ρ¼ = 2.701 meV) with its O(1) owed** — and the owed object is named: the partial Gibbs–Duhem
-cancellation f, not a cutoff artifact.
+(ρ¼ = 2.701 meV), and the factor between the doors is the derived phase-space measure** — the
+two agree to 0.04%, so no separate cancellation coefficient is owed (above).
 
 **A physical reading of the cancellation f (argument-grade).** The "partial cancellation" that
 takes the un-cancelled sum (2.70) down to the observed residual (2.25) has a standard superfluid
