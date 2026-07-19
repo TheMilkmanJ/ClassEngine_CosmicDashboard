@@ -535,7 +535,7 @@ entire remaining open surface is:
 
 | open object | what it decides | gated on |
 |---|---|---|
-| the Koide kernel chain's last link (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the transfer derivation (desk); then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
+| the Koide kernel chain's last link (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the pacing-saturation step + the sign-chain walk (desk); then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
 | ~~the linear-map postulate~~ — DISCHARGED: the −3/2 derived at additivity grade (boost-dressed cutoff, geometric mean, equipartition — hierarchy §2b) | the anchor's −3/2 | the shared additivity neck (one assumption corpus-wide; the ring-on-ring trial tests its Koide instance) |
 | the seat constant b | κ_m's exact value | the basement build |
 | T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 1.5% prediction | the lattice (external; the note APPROVED FOR CIRCULATION) |
