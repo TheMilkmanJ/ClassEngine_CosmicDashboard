@@ -961,3 +961,22 @@ record sits. Files whose audits live under thematic headers rather than name-hea
 family_tree, fingerprint_lattice, dcdf_superfluid, dyad_gas, hubble_tension, DOMAIN_COVERAGE,
 koide_relation, MATH_SPINE-cited leaves, then the long tail of single-domain files, then
 working_logs/. Pass 2 (varied attack) follows the tail.
+
+## PRTOE_bbn_witness.md — deep audit 2026-07-19 (the full pass)
+
+Twenty-eighth file. Six fixes, one number saved from a wrong fix, and the day's tidiest
+provenance result: **the scar's ΔN_eff garble traced to its source.** This file's "joint
+likelihood peaks at ΔN_eff ≈ 0.26–0.29" is the constant lever's *optimum*; that number was
+transcribed into the scar as the *committed window*. Both files now state the true relation —
+the window (0.06–0.24) tops out just under the optimum (0.26).
+
+The zero point was wrong (0.44 leaves D/H at 2.512; the true value is 0.49 = ln(2.527/2.387)/0.116,
+harnessed), restoring exact agreement with the scar's 8–33× shortfall. The MeV corner
+contradicted today's roster result ("remains open" as the source vs the scar's 4.7–4.9×-short
+seats) — aligned. The T_c and ε supersessions priced at the header (0.002σ and 0.004σ). The
+two-widths cross-pointer added.
+
+**And the save:** "ΛCDM itself carries 1.85σ under PRIMAT" looked like the stale in-house control
+— it is PRIMAT's own ΛCDM (2.439) at the 2-term width, exactly 1.85σ, correct as written. Now
+harnessed so nobody "fixes" it later. The audit's job is as much protecting right numbers as
+correcting wrong ones.
