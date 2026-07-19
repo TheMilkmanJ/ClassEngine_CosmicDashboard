@@ -22,3 +22,10 @@ non-convergence, both would matter if they hold):
 
 **Also owed:** conv_desi and dyad_mnu_omk produced no usable samples — relaunch needed (not done; the
 cores are on the evidence pair).
+
+**Update 2026-07-19:** conv_desi WAS relaunched (2026-07-18, per T4's superseding banner) and is
+past burn-in — first progress row landed (N = 384, R−1 = NaN → numeric expected soon); its
+relaunch debt above is PAID. dyad_mnu_omk remains down. The two armed flags stand unchanged:
+routeD at R−1 = 16.80 today (improving from ~21, still far from the bar; the thaw-floor flag
+untestable until convergence), zon_disp at 23.31 (the z_on drift flag likewise). Nothing here
+is a result; the R−1 < 0.05 bar governs.
