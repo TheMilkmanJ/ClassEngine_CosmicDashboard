@@ -63,8 +63,10 @@ term, and gives the reading order.*
  into the current run by explicit decision, with the risk documented).
 - Several numerical landings are estimate-grade with O(1) honesty bands — statuses are
  stamped where they apply.
-- The candle-room/H₀-ceiling story: the screening form is now derived at class level
+- The candle-room/H₀-ceiling story: the screening form is derived at class level
  (survival/exponential) and the sign is signed (ς = −1 — the H₀ lever is dead; the ceiling
- reads 70.9–71.3); what remains conditional is the gate's census-scope legality.
+ reads 70.9–71.3); the coupling's legality is closed by the model's own coupling law
+ (sector-internal coupling is permitted; the mechanism file states the three tests). What
+ remains owed there is the screening computation itself.
 - The deepest claim (the medium's reality) remains an open assumption — the corpus
  names it as such and tracks its exposure honestly.
