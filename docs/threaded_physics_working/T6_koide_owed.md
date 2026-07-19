@@ -1278,3 +1278,12 @@ winding rate locks to the thermal clock at freeze; Josephson grammar; the house'
 frame), candidate grade with the locking dynamics as the derivation object. The chase's
 remaining opens: the locking derivation, t's confirmation, and the lattice pair
 (T_c/√σ + F_π/√σ — one campaign, two verdicts).
+
+**The last desk objects, floored (2026-07-18 night):** the sync condition is the closure
+reparametrized (equivalence exact: [holonomy = Q] ⟺ [3μ·t_corr = Q] at t_corr = 1/T_c; the
+prior "candidate mechanism" phrasing over-graded it — corrected here, in the log, where
+corrections live). The door's final desk question: why one thermal correlation time of
+collective rotation imprints at freeze. And t is confirmed at class — the flux-tube width,
+w·√σ ≈ 0.8–1.1, thin-film consistent — giving the demand band F_dark/√σ = 0.40–0.47. The one
+lattice campaign now referees three numbers: T_c/√σ, F_π/√σ, w·√σ. Current forward statement:
+[PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4.
