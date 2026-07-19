@@ -256,7 +256,7 @@ charge** — and **quarks carry L = 0**, making the tree-level quark coupling **
 that defines the field**, not merely small ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2,
 [ESTABLISHED]). The only route to hadrons is dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶,
 which is **~20,000× short** of the required δm̂/m̂ = 0.14–0.21%. **The dyad cannot be this healer's
-lever, and the model does not get to heal the deuterium scar.** D/H carries **−2.9σ** honestly.
+lever, and the model does not get to heal the deuterium scar.** D/H carries **−2.5 to −1.4σ** honestly.
 *(The entry stays registered: the abundance signature — Y_p −0.5…−0.6%, ⁷Li −7…−13% — remains on
 record for any FUTURE non-Majoron amendment. It is now a prediction about a lever this model does
 not have, which is why it stays CONDITIONAL rather than being retired.)*
@@ -1685,13 +1685,15 @@ self-adverse, owned bet (the direct m_e→BBN response is ~0, production-verifie
 
 **The fork's width, stated.** Cooke's observational error **±0.030** combines with the
 post-LUNA **nuclear-theory error ±0.037** (PRIMAT, cite-verified — arXiv:2011.11320) to
-**±0.0476**, putting the standing 2.387 at **−2.9σ** from Cooke. *(Against the observational error
-alone it is −4.7σ — an upper bound, not the tension.)* **What is genuinely open is not the budget
+**±0.0476**, putting 2.387 at **−2.9σ** from Cooke before the genesis residual is applied, and the
+residual-shifted 2.407–2.463 at **−2.5 to −1.4σ**. *(Against the observational error
+alone these are −4.7σ and −4.0…−2.1σ — upper bounds, not the tension.)* **What is genuinely open is not the budget
 but the code systematic:** the same source reports PRIMAT D/H = 2.439 against PArthENoPE 2.51–2.54
 — a **3.5% inter-code spread, 2.3× the nuclear error** — which is *not* folded in above. Folding it
 gives **−2.2σ** (half) to **−1.4σ** (full), and the model runs **PRyM**, a third code, so which
 central value the theory error should be taken around is undecided. ΛCDM itself carries 1.85σ under
-PRIMAT. **The row is quotable at −2.9σ with the code systematic named and unfolded.**
+PRIMAT. **The row is quotable at −2.5 to −1.4σ — the ±0.0476 budget with the genesis residual
+applied and the code systematic named and unfolded.**
 
 **The prediction (three-part):**
 (a) **The referee:** dark-ages D I 327.384 MHz vs H I 1420.406 MHz absorption (against the CMB —
@@ -1710,10 +1712,12 @@ shift cannot.
 confirming 2.53 with the astration/optical channels closed. **Grade:** registered (amended
 2026-07-16: central value re-derived on the ramp, 2.40–2.42 → **2.387**; the referee prediction
 corrected from the pre-window 2.37 to 2.387; **the fork's width is STATED above** — obs ±0.030 ⊕ PRIMAT
-post-LUNA theory ±0.037 = ±0.0476, putting the standing 2.387 at −2.9σ); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
+post-LUNA theory ±0.037 = ±0.0476, putting the residual-shifted 2.407–2.463 at −2.5 to −1.4σ); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
 and is now LARGER, not smaller** — the ramp moves the model further from Cooke, not closer. It no
-longer "roughly cancels" the Y_p lean: the Y_p counter-lean is itself smaller on the ramp (+1.09σ,
-not +1.3σ), so **the BBN column is net ADVERSE, not mixed-net-neutral.**
+longer "roughly cancels" the Y_p lean — both rows now lean the same way, deuterium low and helium
+high, so **the BBN column is net ADVERSE, not mixed-net-neutral.** With the committed genesis
+residual applied the standing pair is D/H −2.5 to −1.4σ and Y_p +1.3 to +2.0σ
+([PRTOE_bbn_witness.md](PRTOE_bbn_witness.md)).
 
 ## P-2026-028: Magnetogenesis from genome vorticity (candidate; registered 2026-07-11)
 
@@ -1835,11 +1839,12 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
 - **P-035 — THE SMOOTHNESS FLOOR**: no dark substructure below ~10⁻³ pc, ever (the healing-
  length floor). **Kill**: any confirmed sub-milliparsec non-baryonic compact object.
 - **P-036 — THE HELIUM WAR RESOLVES HIGH** (adverse-leaning, registered against comfort):
- Y_p determinations must drift UP toward ~0.25 — the ramped prediction **0.24900** sits above both
- Aver (+1.09σ) and EMPRESS (+3.53σ). **Kill**: resolution EMPRESS-ward (hardens the counter toward
- **+3.5σ**). *(Amended 2026-07-16: the value and kill were re-derived on the model's own ramped
- ε(T); the superseded step-splice interval is retired in
- [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
+ Y_p determinations must drift UP toward ~0.25 — the prediction **0.2498–0.2520** (the span of the
+ committed genesis window ξ ∈ [0.25, 0.35]) sits above both Aver (+1.3 to +2.0σ) and EMPRESS
+ (+3.8 to +4.4σ). **Kill**: resolution EMPRESS-ward (hardens the counter toward **+4.4σ**).
+ *(Amended 2026-07-16: the value and kill were re-derived on the model's own ramped ε(T).
+ Amended 2026-07-18: the genesis residual ΔN_eff = 0.06–0.24 added. Superseded values are retired
+ in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
 - **P-037 — WIDE BINARIES ARE NEWTONIAN** (the live-controversy null): the claimed Gaia
  MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a
  confirmed wide-binary anomaly at the MOND acceleration scale.

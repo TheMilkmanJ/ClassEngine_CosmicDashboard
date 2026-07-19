@@ -154,17 +154,17 @@ entire tuning freedom to one number (x₀ ≲ e⁻³⁵), executed the funded
 floor's early face (ν·x_BBN ~ 500–6000 for all allowed x₀), and priced the
 B−L portal at GUT-scale suppression (the uniform neutron potential grows
 a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar: on the standing ramped
-prediction (D/H = 2.387×10⁻⁵) the deuterium tension is **−2.9σ** against Cooke with the full
-stated budget (obs ±0.030 ⊕ PRIMAT nuclear theory ±0.037); the 3.5% inter-code spread, unfolded,
-would soften it to −1.4…−2.2σ (ΛCDM itself carries 1.85σ under PRIMAT). **The dyad cannot be the
+prediction (D/H = 2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window) the
+deuterium tension is **−2.5 to −1.4σ** against Cooke with the full stated budget (obs ±0.030 ⊕
+PRIMAT nuclear theory ±0.037); the 3.5% inter-code spread, unfolded, would soften it to −1.2…−0.7σ (ΛCDM itself carries 1.85σ under PRIMAT). **The dyad cannot be the
 healer:** as the Majoron (Goldstone of U(1)_L breaking) it couples only to the current of its broken
 charge, and quarks carry L = 0, so the tree-level quark coupling is **zero by symmetry** — D/H
-stands at −2.9σ with no rescue. P-2026-006's abundance signature — a δm̂/m̂ = +0.14–0.21% amendment
+stands at −2.5 to −1.4σ with no rescue. P-2026-006's abundance signature — a δm̂/m̂ = +0.14–0.21% amendment
 healing D/H with a mandatory Y_p −0.5% and ⁷Li −7..13% co-signature (DSW PRD 76, 063513) — is
 retained only as a prediction about a lever this model does not have: a hypothetical future
 non-Majoron amendment, not the dyad.
 
-**Verdict: the scar is carried honestly, at −2.9σ, with no healer available to the dyad.**
+**Verdict: the scar is carried honestly, at −2.5 to −1.4σ, with no healer available to the dyad.**
 
 ## 7. Recombination, atomic physics & varying fundamental constants
 
@@ -617,10 +617,10 @@ gravity residuals attributable to the dark sector.*
 
 ## The nuclear accounting (BBN and its outputs)
 
-**31. Deuterium cosmology (PRIMAT) — PREDICTS.** The scar: **−2.9σ** carried
+**31. Deuterium cosmology (PRIMAT) — PREDICTS.** The scar: **−2.5 to −1.4σ** carried
 honestly on the standing ramped 2.387 (full budget: obs ±0.030 ⊕ theory ±0.037; the unfolded
 inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The dyad cannot heal it (the
-Majoron couples to L; quarks carry L = 0, tree coupling zero) — D/H stands at −2.9σ with no rescue.
+Majoron couples to L; quarks carry L = 0, tree coupling zero) — D/H stands at −2.5 to −1.4σ with no rescue.
 P-2026-006's co-signed amendment (δm̂/m̂ = +0.14–0.21% at BBN) is retained only for a hypothetical
 future non-Majoron lever. *Hook: a scar resolving to >3σ against us wounds the dyad's BBN books.*
 
@@ -930,7 +930,7 @@ against, not a claim).*
 | 28 | Quasar spectroscopy | EXECUTED (α) / PENDING-DATA (R1) | α killed 45–100×; m_e in unvirialized gas unmeasured — R1's judge |
 | 29 | Oklo reactor | PASSING | 2-Gyr constants stability inside virialized matter, as R1 requires |
 | 30 | Matter-wave interferometry | STANDING-NULL | δg/g ~ 1×10⁻⁹, no dark dephasing |
-| 31 | Deuterium (PRIMAT) | PARTIAL | scar −2.9σ (standing ramp, full budget) carried openly; healer P-2026-006 awaiting §2-wall derivation |
+| 31 | Deuterium (PRIMAT) | PARTIAL | scar −2.5 to −1.4σ (standing books, full budget) carried openly; healer P-2026-006 awaiting §2-wall derivation |
 | 32 | Lithium | PENDING-DATA | co-signature −7..13% untestable until healer tested |
 | 33 | Helium-4 (Y_p) | PASSING | in-config YHe(ω_b, m_e) consistent with 0.2449±0.0040 |
 | 34 | Neutron lifetime | EXPOSURE-OPEN | beam-bottle 4σ unresolved upstream of our BBN prior |

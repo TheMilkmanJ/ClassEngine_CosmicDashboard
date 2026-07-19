@@ -374,10 +374,10 @@ COUNTER vs Aver; +3.53σ vs EMPRESS — the helium civil war noted); D/H partial
 (ΔN_eff = 0.06–0.24): D/H −2.5…−1.4σ on the quotable ±0.0476 budget (−1.2…−0.7σ if the full
 inter-code spread is folded), Y_p +1.3…+2.0σ vs Aver (EMPRESS +3.8…+4.4σ stands apart), joint
 p = 0.02–0.08 quotable / 0.12–0.21 on the full spread. The residual helps deuterium and does not
-heal it; the sector's verdict still turns on the code systematic —
+heal it; the sector's verdict still turns on the code systematic. The σ's in the sentence above
+are the window's own effect, before the residual —
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8, books in
-[PRTOE_bbn_witness.md](PRTOE_bbn_witness.md). The σ's in the sentence above are the window's own
-effect before the residual, kept as that verdict's record.** **The BBN synthesis: the sector is THE
+[PRTOE_bbn_witness.md](PRTOE_bbn_witness.md).** **The BBN synthesis: the sector is THE
 TRANSITION'S WITNESS** — the only laboratory that watched the condensation live; the pattern
 is RIGID (no dials); referees: the radio referee, the helium resolution, the T_c re-audit
 (flagged-not-taken), the α_c MCMC posterior. The adverse landings are logged in public;

@@ -20,9 +20,9 @@ producing it: a posterior inconsistent with 3α is a falsification, not a measur
 | window | the row | current standing |
 |---|---|---|
 | CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | the founding fit (thread 11). **\*Conditional:** the +2.635 (Laplace) came from chains scored with a ΛCDM helium fraction; the configs now carry the measured PRyM response and the fixed-config evidence run (pc_prtoe, PolyChord) is running — the number awaits it ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
-| BBN: D/H | ~0 direct + η-widening − windowed refund | the signed self-adverse bet (2.387×10⁻⁵, **−2.9σ** on the full budget); radio-arbitrated |
-| BBN: Y_p | windowed (ε OFF at freeze-out): **+0.85% → +1.09σ** COUNTER | owned-adverse, zero fitted parameters |
-| BBN: quark-bleed | **SYMMETRY-FORBIDDEN — the row is retired.** The dyad **is** the Majoron: the Goldstone of U(1)_L breaking, so it couples to the **current of its broken charge**. **Quarks carry L = 0 ⟹ the tree coupling is ZERO**, not small — the model's own [ESTABLISHED] identity forbids it. The old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4; the loop floor (dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. | **no bleed, no blowout, and no healer: D/H carries −2.9σ** |
+| BBN: D/H | ~0 direct + η-widening − windowed refund + the genesis residual | the signed self-adverse bet (2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window: **−2.5 to −1.4σ** on the full budget); radio-arbitrated |
+| BBN: Y_p | windowed (ε OFF at freeze-out) plus the genesis residual: **+1.3 to +2.0σ** COUNTER vs Aver | owned-adverse, zero fitted parameters |
+| BBN: quark-bleed | **SYMMETRY-FORBIDDEN — the row is retired.** The dyad **is** the Majoron: the Goldstone of U(1)_L breaking, so it couples to the **current of its broken charge**. **Quarks carry L = 0 ⟹ the tree coupling is ZERO**, not small — the model's own [ESTABLISHED] identity forbids it. The old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4; the loop floor (dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. | **no bleed, no blowout, and no healer: D/H carries −2.5 to −1.4σ** |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
 | the radio bands | +2 : +1 : −1 : −1 : −2, ratio-locked | threads 12; P-022/P-027/P-029 |
 | space/direction | the ε-dipole ~6×10⁻⁷ on the winding axis | P-024; the shared-axis family |
@@ -32,7 +32,7 @@ producing it: a posterior inconsistent with 3α is a falsification, not a measur
 ## 1. What makes this an improvement rather than a list
 
 Standard cosmology's anomalies are ORPHANS — each tension gets its own bespoke model, each
-null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H₀ engages Y_p through its window (the windowed verdict: a +1.09σ counter-lean, honestly owned), must de-bias Σm_ν upward (it does, in-house), must widen D/H
+null its own shrug. The lattice makes them SIBLINGS: the same ε that eases H₀ engages Y_p through its window (the verdict: a +1.3 to +2.0σ counter-lean, honestly owned), must de-bias Σm_ν upward (it does, in-house), must widen D/H
 (it did — owned as a bet, not hidden), must chord the radio bands at fixed ratios, must point
 one axis, and must never touch Koide or a haloscope. **Any single row failing at its assigned
 weight kills the lever for every row.** No other framework on the market submits to a
@@ -47,7 +47,7 @@ correlation test of this width.
 
 ## 3. Honest accounting
 
-Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.09σ, the reversed row) and D/H (the fork — **−2.9σ** on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA theory ±0.037 = ±0.0476; the 3.5% inter-code spread is named and unfolded).
+Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.3 to +2.0σ, the reversed row) and D/H (the fork — **−2.5 to −1.4σ** on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA theory ±0.037 = ±0.0476, with the genesis residual applied; the 3.5% inter-code spread is named and unfolded).
 Rows pending: the radio chord, the axis family, the comb. The lattice is winning on breadth,
 not yet on any single decisive row. *One lever, many windows, no exits: the lattice is either the
 most over-constrained correct idea in cosmology or the most efficiently falsifiable wrong one.

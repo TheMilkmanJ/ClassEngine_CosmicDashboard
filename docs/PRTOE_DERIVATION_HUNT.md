@@ -521,9 +521,7 @@ irreducible input.
    the same ΔN_eff). *Provenance note: the ξ window predates this propagation — the deuterium
    improvement is a consequence, not a fit.* Grade: estimate (linear responses,
    dY_p/dN = 0.011–0.013, ∂ln(D/H)/∂N = 0.135); a full nuclear-code re-run is owed only if the
-   joint verdict becomes load-bearing. Both rows are computed on the model's own ω_b baseline —
-   the only baseline whose absolute D/H is a prediction ([PRTOE_bbn_witness.md](PRTOE_bbn_witness.md)
-   run (ii)) — and against deuterium's full stated error budget, never the observational error alone. **The gate's laboratory checklist (2026-07-18; estimate-grade, conditional on the recorded
+   joint verdict becomes load-bearing. **The gate's laboratory checklist (2026-07-18; estimate-grade, conditional on the recorded
    curvature-gate form):** all three named checks clear, none closely. The gate is
    **curvature-keyed, not density-keyed** — and that type distinction decides the hardest test:
    atom-interferometry vacuum-chamber experiments kill density-gated (chameleon-class) scalars

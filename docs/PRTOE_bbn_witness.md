@@ -37,13 +37,12 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
 
 - **Y_p from the window alone is +1.09σ** vs Aver 0.2453 ± 0.0034 (**+3.5σ** vs EMPRESS
  0.2370 ± 0.0034 — the helium civil war, unresolved), zero fitted parameters. This row **is**
- baseline-robust: Y_p ∝ ω_b^0.04, so the model's own ω_b moves it only to +1.12σ. *(The genesis
- residual below adds to this — the standing helium number is the re-priced one.)*
+ baseline-robust: Y_p ∝ ω_b^0.04, so the model's own ω_b moves it only to +1.12σ. The genesis
+ residual below adds to this.
 - **The fork's width, stated.** Cooke's observational error **±0.030** combines with the
 post-LUNA **nuclear-theory error ±0.037** (PRIMAT, cite-verified — arXiv:2011.11320) to
 **±0.0476**, putting 2.387 at **−2.9σ** from Cooke before the genesis residual is applied.
-*(Against the observational error alone it is −4.7σ — an upper bound, not the tension; that
-narrower error is not a legitimate width for this row under any reading.)* **What is genuinely open is not the budget
+*(Against the observational error alone it is −4.7σ — an upper bound, not the tension.)* **What is genuinely open is not the budget
 but the code systematic:** the same source reports PRIMAT D/H = 2.439 against PArthENoPE 2.51–2.54
 — a **3.5% inter-code spread, 2.3× the nuclear error** — which is *not* folded in above. Folding it
 gives **−2.2σ** (half) to **−1.4σ** (full), and the model runs **PRyM**, a third code, so which
@@ -82,10 +81,8 @@ applied and the code systematic named and unfolded.**
  still adverse-leaning. **This is booked adverse-leaning and unresolved**; it is not a result the
  model can settle by itself, and the honest range is quoted rather than the flattering end.
 
- *Both columns are computed on run (ii)'s baseline and against deuterium's full stated budget.
- Reading the ξ shift off run (i)'s absolute D/H, or against Cooke's observational error alone,
- inflates the verdict into a false healing — the specific error this file's two-run warning exists
- to prevent ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).*
+ *Both columns are computed on run (ii)'s baseline — the only one whose absolute D/H is a
+ prediction — and against deuterium's full stated budget.*
 
 - the elasticities: d(Y_p)/dε = 0.00163 per %ε (linear, verified: ×ε reproduces the window to ~3%); **d(D/H×10⁵)/dε — the 0.00782 figure is UNREPRODUCIBLE and does NOT linearize** (a 4-point PRyM scan gives ~0.0119; the ramped window itself implies ~0.0126, +62%). D/H is a bottleneck quantity, so its ε-response is nonlinear and the uniform-ε derivative under-predicts the ramped window; use the measured window (+0.645%), not this derivative ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). N_eff is unmoved
  (3.04439) — ε shifts weak rates, not relativistic dof.
