@@ -1261,3 +1261,10 @@ IS a vortex of the dual condensate — σ and the medium stiffness are one secto
 the tie σ ↔ 2πρ_s-class is the next bounded computation). If that tie delivers 1.11, the
 chain closes end to end: q̃² ⟹ c₂ ⟹ τ = Q/c₂ = ½ln2 ⟹ the flagship at +0.44%, the modulus,
 the phase, and the lattice fork's kernel point — all from one sector identity.
+
+**The dual/stiffness tie, run (2026-07-18 evening):** q̃² = 2πF²t converts the keystone to
+F_dark/√σ = 0.30–0.42 (convention band; t√σ = 1) vs the QCD-like known class 0.2–0.35 —
+**CLASS-YES, PRECISION-PENDING** (full statement + fences:
+[PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4). The chain's final state:
+everything hangs on T_c/√σ AND F_π/√σ of the same SU(2) N_f = 3 lattice theory — one
+campaign, two verdicts. Desk pin remaining: the sector-normalized vortex-pair computation.
