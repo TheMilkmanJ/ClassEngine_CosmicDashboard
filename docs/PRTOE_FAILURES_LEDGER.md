@@ -1254,3 +1254,22 @@ Q = 0.63987 — 3,965σ from the measured Q, independent of all θ conventions. 
 half-millidegree precision, target two decades older than the precision — T6). The method note:
 the proposer's own two maxims (account for everything; trust no un-errored precision) are what
 executed the proposal — and what found the watch.
+
+
+### The perturbative T_c envelope — computed on an expansion invalid at its own operating point (2026-07-18)
+
+The recorded perturbative cross-check T_c = m_e0·√(3(L−1)/2π²) ≈ 193 keV, and the [40, 900] keV
+envelope quoted around it, both rest on the **high-temperature expansion** of the fermionic
+thermal function. At the operating point that expansion does not apply: m_e/T_c ≈ 2.9, so the
+electrons are Boltzmann-suppressed and the expansion **overstates the thermal restoration by a
+factor ~16** (exact |J_F′| = 0.38 vs the expansion's 2.35).
+
+**Corrected:** with the exact kernel the cross-check reads **250–530 keV** over L−1 ∈ [1, 10] —
+three times narrower than the retired envelope, and sitting **above** the adopted 179 keV rather
+than bracketing it. The correction is therefore **adverse to the cross-check's comfort**: the
+perturbative route agrees less well than the old band implied. What is unaffected: the adopted
+T_c's own source (the confining chiral ratio τ·m_e, lattice-gated), and the standing
+configuration's log-free timing relation, in which no such expansion appears.
+
+Caught in the resummation docket — the docket that was opened to shrink the band found that the
+band's width was the smaller problem.
