@@ -1215,3 +1215,18 @@ bound, 37–47 below unit charge); indirect_detection's owed list still requeste
 computation its own tail addendum delivers (σv = 0 at tree level; ~10⁻¹⁵⁴ cm³/s gravitational
 ceiling, harnessed since the first pass) — struck as paid. The unhedgeable-exposure stances in
 both are exactly as they should be: no dial, kill stated, nothing earned from silence.
+
+## PRTOE_light.md / PRTOE_H0_CEILING.md — deep audits 2026-07-19
+
+Files fifty-four and fifty-five. **light** carried one defect in 214 lines: §7's falsifier said
+"any of the five locks" against §6's six (lock vi — Koide's √2 — postdates the falsifier).
+The lock arithmetic harnessed (the 44% share, lock iv's 0.673, lock vi's 0.001%). The
+beta-sign record theorem, the 55.5-vs-0 asymmetry, and the honest near-lock grading all held.
+
+**H0_CEILING** carried today's τ reduction forward: its 𝒯_τ row still called the 7→8 tether
+"unpaid," and the reduction tightens the ceiling's working number to **70.9** with 71.3 the
+un-excluded maximum through the edge-tail loophole — a sharpening of "cannot reach 73," not a
+weakening. And the ς cross-check caught a count discrepancy reaching back into a file already
+audited: hubble_tension said "180 template configurations" where this file and THE_AMPLITUDE
+both record 162. Fixed there — the second time a later file has corrected an earlier audit,
+which is the strongest argument yet for pass 2.

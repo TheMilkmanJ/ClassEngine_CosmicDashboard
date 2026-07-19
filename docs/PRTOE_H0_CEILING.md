@@ -27,7 +27,7 @@ $$H_0^{\rm ladder} = H_0^{\rm global}\times\Big[1 + \varsigma\,\beta\,\delta c\,
 | β·δc | 0.093 mag | the color channel: Rydberg compression ε through SALT standardization |
 | ⟨g⟩_flow | 0.3–1.0 | the flow-SNe mean gate value (the host census, unsized; calibrator side ≈ 0 — screened) |
 | Λ_leak | +0.1–0.3% | the lookback-varying dipole leakage past SH0ES's constant template; axis-geometry multiplier open (v4.1) |
-| 𝒯_τ | 0–0.4% | the τ room (the unpaid 7→8 tether), either sign |
+| 𝒯_τ | 0–0.4% | the τ room — since **reduced** (THE_CHAIN tether 7→8: the clustering half zero by construction, the atomic half gated by the edge closing before the ionizing era); the surviving contribution rides only the edge's low tail |
 
 ## 3. The computed bracket, with ς signed
 
@@ -36,10 +36,10 @@ model's reach and the account is carried by leakage and τ alone:
 
 | scenario | ladder reading the model accounts for |
 |---|---|
-| leakage only (Λ_leak min) | **70.9** |
-| leakage + τ (max, either sign) | **71.3** |
+| leakage only (Λ_leak min) | **70.9** — the working number, now that the τ room is reduced |
+| leakage + the τ room's un-excluded maximum (the edge-tail loophole) | **71.3** |
 
-**Verdict: the model's ladder reach tops out at ~70.9–71.3. SH0ES's 73.0 sits outside
+**Verdict: the model's ladder reach tops out at ~70.9, with 71.3 the un-excluded ceiling.** SH0ES's 73.0 sits outside
 the model's account and stands as genuine residual tension** — the room's surviving
 claim is the SN host mass step's direction and class as the gate curve's fingerprint
 (see [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md) §4). Appeal path, narrow: the
@@ -59,8 +59,9 @@ then. The model does not currently explain the full SH0ES reading — it predict
  scan, not the real-SN-template synthetic photometry the appeal path needs.
  The module ships ARMED-OFF (scripts/candle_room_correction.py).
 - **The leakage and τ terms** are comparison-layer and reionization-history effects
- respectively — the first lives outside the likelihoods entirely, the second is an
- unrun computation (B-queue).
+ respectively — the first lives outside the likelihoods entirely; the second reduced by
+ the chain's own structure and survives only through the edge's low tail
+ ([PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md), tether 7→8).
 - **Nothing is lost**: the evidence run's chains can be IMPORTANCE-REWEIGHTED with the
  candle-corrected SN likelihood retroactively — this run collects the data once;
  the ceiling cashes against it whenever the candle correction is wired in.

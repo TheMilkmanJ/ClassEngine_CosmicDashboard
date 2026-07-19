@@ -627,6 +627,12 @@ chk("GW addendum", "orders under PTA (1e-10)", 8, _mm.log10(1e-10/_Ogw), 0.06, "
 chk("GW addendum", "orders under LISA-class (3e-14)", 4, _mm.log10(3e-14/_Ogw), 0.06, "dex")
 chk("GW addendum", "the B-mode floor the recorded 1.5-dex margin implies", 9.5e-17, _Ogw*10**1.5, 0.01)
 
+
+# --- the light file's lock arithmetic (2026-07-19) ---
+chk("light 4", "medium loop share at M_Z", 44, 42.9/98.4*100, 0.02, "%")
+chk("light 6", "lock iv: 1/a1 over 1/a2 at M_Pl", 0.673, 33.3/49.4, 0.005)
+chk("light 6", "lock vi: measured A vs sqrt(2)", 0.001, abs(1.41420/2**0.5-1)*100, 0.35, "%")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
