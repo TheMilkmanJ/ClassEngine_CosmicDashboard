@@ -3,10 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: MIXED.** The structural pieces (the bounce, the conformal phase, the cyclic
-> geometry) are recorded; the tilt derivation is EXPLORATORY (review-hold).
-> This file assembles what was never assembled: the model answers every problem inflation
-> was invented for, without an inflaton.
+> **STATUS: graded per claim — see the table in §3.** The model answers each problem inflation was
+> invented for without an inflaton, but the answers are not of one kind: two are consequences of
+> structure the model already has, one is a *measurement* rather than a derivation, and the tilt is
+> a computed candidate. Read the grades, not the headline.
 
 ## 0. What inflation was hired to do
 Solve the horizon problem (why the sky is one temperature), the flatness problem, dilute
@@ -41,13 +41,32 @@ and eternal-inflation's multiverse.
  PREDICTS a specific %-level line at ℓ ~ 170 (P-031, now a consequence of the λ
  saturation) — a discriminant, not an embarrassment.
 
+## 3. What supports each answer
+
+| answer | grade | what it actually rests on |
+|---|---|---|
+| **horizon** | structural | the cyclic bounce. Causal contact is inherited from the previous cycle, so the sky is one temperature because it has always been one system. Rests entirely on the bounce being real — it is not independent evidence for it |
+| **flatness** | **measured, not derived** | the flat compact torus is the standing geometry because the omk run *offered curvature and the data declined it*. That is a fit result. The model is compatible with flatness and inherits it through the bounce; it does not predict it |
+| **relics** | derived-negative | no GUT transition is invoked anywhere in the construction, so there is no monopole abundance to dilute. The one topological object, the winding, is the genome rather than a relic, and its signature is a registered prediction |
+| **the seeds** | structural | fluctuations as the condensate's zero-point noise, stretched through the conformal w = 1/3 phase |
+| **the tilt** | **candidate, and computed** | n_s = 1 − 2/ln(T₀/k). The scale-independent check gives ln(M_Pl/T_on) = 55.52 ⟹ **n_s = 0.9640**, −0.22σ from measurement; the scale-local form gives **0.9677**, +0.67σ. Both land inside the error bar without a fitted parameter |
+| **isocurvature** | registered prediction | P-2026-031's %-level line at ℓ ~ 170 — a discriminant the model owes, not a suppression it needs |
+
+**The tilt's falsifiable edge, verified:** the scale-local form predicts a running
+α_s = −2/ln² = **−5.2×10⁻⁴**, against Planck's −0.0045 ± 0.0067. Consistent, and two orders below
+current sensitivity — so it is a real distinguishing feature that no present data can test.
+
+*One number worth flagging without claiming: the logarithm in the consistency check is
+**ln(M_Pl/T_on) = 55.5**, and the corpus's bare-handout asymmetry 1/α_Y(M_Pl) is also 55.5. Noted,
+unexplained, and not used.*
+
 ## 2. What the model does NOT need
 No inflaton, no slow-roll tuning, no reheating theory, no measure problem, no eternal
 inflation, no multiverse. The price paid instead: the cyclic/bounce machinery (recorded),
 and the A_s amplitude count (1/N census form — its coupling and loop factor are derived; the
 one seed number still owed is the count's exact normalization).
 
-## 3. Kills
+## 4. Kills
 (i) the α_c MCMC moving T_on enough to break the tilt's landing; (ii) a confirmed tensor-to-scalar
 ratio r at inflationary levels (the bounce predicts r far below current bounds — a
 detection of r ~ 0.01+ would resurrect the inflaton and kill this file); (iii) P-031's

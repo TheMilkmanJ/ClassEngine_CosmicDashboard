@@ -179,6 +179,12 @@ chk("koide_relation", "T_c implied by the kernel's tau", 177.1, 0.5*math.log(2)*
 chk("koide_relation", "rho_Lambda from the kernel's tau", 2.2599,
     4.5*ALPHA**4*0.5*math.log(2)*ME*1e3, 1e-3, "meV")
 
+# ---- the tilt --------------------------------------------------------------
+_L = math.log(MPL/9.41e-6/1e9)   # ln(M_Pl/T_on), both in GeV
+chk("inflation_replacement", "ln(M_Pl/T_on)", 55.52, _L, 1e-3)
+chk("inflation_replacement", "n_s = 1 - 2/ln(M_Pl/T_on)", 0.9640, 1-2/_L, 1e-3)
+chk("inflation_replacement", "running from the scale-local form", -5.2e-4, -2/(2/(1-0.9677))**2, 0.02)
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
