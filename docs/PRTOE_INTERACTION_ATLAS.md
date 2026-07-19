@@ -425,7 +425,10 @@ is its only coupling). Give it curvature and the product is determined:*
 
 ## Whispers (patterns the model produces unprompted; below bet-grade, logged so they can be watched)
 - **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 burn;
- proposal-grade):** the frozen-ellipticity theorem (f_amp = ε² frozen
+ proposal-grade):** the frozen-ellipticity theorem (the ellipticity fraction — **a different quantity from the
+ retired amplitude factor of the same name**, which the standing decomposition ε = c·f̄·α_c
+ no longer contains; see [PRTOE_amplitude_derivation.md](PRTOE_amplitude_derivation.md)'s
+ banner — here it is ε² frozen
  because rotation and libration redshift identically) is testable in
  a LAB: expanding-ring BEC "analog universe" experiments already
  exist (Eckel, Kumar, Jacobson, Spielman, Campbell, arXiv:1710.05800,
