@@ -1603,3 +1603,16 @@ verdict, the gate-0 evening ledger with its coin-flips as flipped; the 07-11 rad
 2.695-at-20% DE value, the 512-run f̄ = 0.6438 ± 0.0305, ν_H/ν_D = 4.338649 (verified:
 1420.406/327.384 = 4.33865), and the omk machine return. These files are why the corpus can
 prove what it knew and when — they are receipts, not claims, and they now say so up front.
+
+## PRTOE_v4_dCDF_results.md — deep audit 2026-07-19
+
+File ninety-five. Properly provenance-bannered (the v4 era), and the dated record's arithmetic
+survives recomputation: Δχ² = 19.21, the 3 km/s/Mpc purchase, both parameter counts enumerate
+exactly (7 vs 9; v5's 8 = 9 − β), the θ*-contour ξ ladder is monotone-consistent with the
+headline, and the "missing" 397 in the χ² breakdown is just unlisted lowl.EE (≈ 396, the
+standard value). Two repairs: "closes ~55% of the gap to SHOES (74.0±1.0)" was a garble —
+3.0/6.6 = 45% at the stated central value (now stated with both conventions); and the
+open-items list still offered "drop β" as a v5 candidate when the v5-transition section
+above it records the deletion the same night — the payment is now marked at the offer. The
+falsification matrix's honest known-defect row (the ℓ=10–12 gauge deviation, unused in
+production) and the CodeRabbit findings paragraph stand as recorded.
