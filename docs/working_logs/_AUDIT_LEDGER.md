@@ -75,3 +75,35 @@ right statement filed where no reader reaches. Two of today's biggest finds were
 | **README** | **3** | **ODDS ("~16%") on the repo's front door** — the standing law is that odds are never audience-facing | FIXED |
 | **README** | **1** | **sold "a varying-mₑ STEP in cosmic voids" as one of 4 headline bets** — P-022 retired that reading 2026-07-16; the registry now says a sharp global step **counts against** the model | FIXED |
 | **README** | **2** | ΔlnZ ≈ +2.6 quoted bare — it came from chains scored with a ΛCDM helium fraction | FIXED (asterisked pending re-run) |
+
+## PRTOE_THREE_EQUATIONS.md — deep audit 2026-07-19
+
+Eleven checks run. Six defects, one of them a flat self-contradiction.
+
+1. **The file contradicted itself on its own headline number.** The banner stated τ sourced by the
+   Koide kernel at 0.34657 → T_c = 177.10 keV → +0.44%. The stated-stack table, forty lines later,
+   still read "T_c ≈ 179 keV, τ = 0.3503, not independently sourced." Table row rewritten to the
+   kernel value with its real referee (an SU(2), N_f = 3 lattice T_c/√σ).
+2. **H₀ = 69.9 carried grade "production"** with no provisional flag, while the Fairbank letter
+   states the same number as pre-correction and being re-measured. Now flagged in place.
+3. **The Σm_ν row credited P-2026-012 with selecting the ordering.** That entry says explicitly it
+   does not (ANN-2026-025); the ordering is data-selected. The row also sold the sum as a recorded
+   prediction without noting it is not a discriminator — 2.6 meV above the m₁ = 0 floor against
+   ~20 meV planned resolution.
+4. **Equation 1 still led with 2.284 meV and "agreeing to 1.5%"**, correcting itself inline. Now
+   leads with the standing claim, +0.44%.
+5. **A_s landed −0.35%; it is −0.34%** (2.081/2.088).
+6. **Status marker said the evidence run was in progress "as of 2026-07-13"**; it launched 07-18.
+
+Also: the 42-line grade banner was compressed to 24 and re-pointed. It opened with a warning about
+the model's own number being an artifact and spent a page on the archaeology of a rounding — which
+is scar, and already lives in the failures ledger (7 references). It now states the standing claim
+first, the grade, the referee, and one line marking the superseded figure.
+
+Citations: all eleven present in BIBLIOGRAPHY. Audience laws: clean. Three new regression checks.
+
+**Open, not fixed — for the owner.** z_on appears as 3.5619×10⁷ here and 4.0×10⁷ elsewhere in the
+corpus. These look like different objects — the profiled value against the coded H = m identity —
+and the file labels its own as profiled, so nothing is stated wrongly. But two numbers 12% apart
+under one name is a trap for any reader who meets both, and which is canonical is a judgement I
+should not make silently. Filed to ForJustin.
