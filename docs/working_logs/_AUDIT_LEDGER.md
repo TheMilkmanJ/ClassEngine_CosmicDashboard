@@ -1769,3 +1769,16 @@ Everything" or the "Phantom Rip" placeholder live anywhere in README, docs/, scr
 the dashboard (archive and the two history ledgers exempt — recording dead names is their
 job). The Grok cold-read's one concrete contribution — flushing the dashboard's name
 disagreement — is thereby made permanent. Remembering is not a mechanism; the gate is.
+
+## T13_fingerprint_owed.md — deep audit 2026-07-19
+
+The working-logs tier's most valuable file after the census — item 3 (the joint likelihood,
+"the item that would make the lattice a test rather than a display") is BUILT, its blocking
+elasticities measured, the ramped splice computed, and the three findings recorded with the
+depth-law consequence stated (the step bracket never bracketed; the 3.5σ MTLT rejection was
+an artifact; the p = 0.093 absolute misread withdrawn). All verified consistent with the
+standing books: the 0.61/0.78 stamps, the T_c-keying note (paid in the earlier audits), the
+opposite-pull strain (2.2σ, splice-robust), and the supersession banner's three corrections
+each live in their reader-facing homes. One edit: obstruction 2 (the D/H width) is now
+explicitly pointed at ForJustin/10 — the same fork in its third home; one owner ruling
+closes all three. T13 remains honestly NOT complete (helium branches + the width), and says so.

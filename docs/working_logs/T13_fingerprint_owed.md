@@ -69,7 +69,10 @@ w = 0. Each row predicts w_i·ε with w_i **known**. The lattice cannot re-weigh
    statistic must be reported in **two branches** (model sits +1.2–1.5σ from Aver, **+3.7–4.0σ from
    EMPRESS**) until the helium resolution lands. A property of the data, not of the model — but the
    branch spread is large enough that a single quoted number would be meaningless.
-2. **The D/H row's significance is irreproducible — the error budget is unstated. STANDS, OPEN.**
+2. **The D/H row's significance is irreproducible — the error budget is unstated. STANDS, OPEN
+   — and it is now owner-gated: this is exactly ForJustin/10's two-widths decision (0.0476
+   2-term vs 0.0563 3-term; the recommendation on file is 0.0563). One ruling closes this
+   obstruction, the red-team brief's D/H row, and the joint statistic's quotability at once.**
    At least three readings each reproduce a figure quoted somewhere in the corpus: the raw windowed
    2.477 against ±0.030 (−1.67σ); the net 2.41 against σ ≈ 0.067 (−1.75σ); the net 2.41 against
    σ ≈ 0.053 (−2.21σ, which is what P-2026-027 quotes). **Two live documents imply different widths
