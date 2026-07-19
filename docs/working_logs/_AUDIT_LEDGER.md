@@ -1139,3 +1139,17 @@ ceiling and clears the BH core's requirement — the bullet now says paid and po
 where it actually lives (the un-simulated two-component bounce profile, which still carries the
 named MeV-over-keV number it must hit). The zero-energy theorem, the emergent-clock reading
 with its kill clause, and the falsifier table all held.
+
+## PRTOE_cyclic_torus_genesis.md — deep audit 2026-07-19
+
+Forty-fifth file. Five fixes, one of them a correction to my own PBH-night reading: the
+"only ~10¹⁵ g PBHs radiate appreciably" line is *correct in its context* (the present-day
+radiation brake — lighter classes already evaporated) and only misleads when quoted as general
+lore, which is how I quoted it. The epoch is now explicit, with the ~10¹¹ g BBN-era class
+cross-linked to its ⁶Li kill. Also: the EB hint was called "measured" (now: claimed,
+calibration-degenerate, against the model's own zero); the BH entropy budget disagreed with the
+corpus's other two files (10¹⁰⁶ → 10¹⁰⁴, 16 orders over CMB); the exploratory turn timings
+(+33 to +76 Gyr) now carry the computed tether's supersession (16–26 Gyr, MATH_SPINE §7d); and
+the "cycle (Tolman)" verdict gained the finite-chain clarifier so it cannot be read against the
+standing frame that *accepts* Tolman. The honest-status block — "a story built from real parts,
+NOT a derivation" — is the right grade and was left exactly as written.
