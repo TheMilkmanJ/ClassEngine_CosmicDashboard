@@ -42,22 +42,42 @@ The soliton ("1s") core radius scales as r_c ∝ 1/m² per halo mass; with the r
  (millipc-to-pc stellar kinematics, e.g. S-star-cluster residuals in the Galactic Center)
  is the domain's honest test. **Priced (2026-07-18) — and the constraint is at
  parsec radii, not at the S-stars.** Inside S2's orbit (≈ 0.008 pc) the soliton contributes
- only **3.4 M☉** against a bound of 3,000–10,000 M☉ — but that radius sits three decades
+ only **0.7 M☉** against a bound of ~3,000 M☉ — but that radius sits three decades
  inside the core, where almost none of the soliton's mass lies. Its mass is at parsec scales,
  and there the numbers are close:
 
- | radius | soliton's enclosed mass | what the Centre shows |
- |---|---|---|
- | 0.1 pc | 6.5×10³ M☉ | extended non-black-hole mass ~10³–10⁴ M☉ |
- | 1 pc | 3.1×10⁶ M☉ | extended stellar mass ~10⁶ M☉ |
- | 5 pc | 6.3×10⁶ M☉ | nuclear star cluster ~10⁷ M☉ |
+ | radius | soliton's enclosed mass | what the Centre shows | verdict |
+ |---|---|---|---|
+ | 0.005 pc (S2's orbit) | 0.7 M☉ | extended non-black-hole mass < 3×10³ M☉ | clears by 4400× |
+ | 0.1 pc | 6.1×10³ M☉ | ~10⁵ M☉ | clears by 17× |
+ | **1 pc** | **2.9×10⁶ M☉** | **extended stellar mass ~10⁶ M☉** | **over by 2.9×** |
+ | 3 pc | 6.1×10⁶ M☉ | nuclear star cluster ~4×10⁶ M☉ | over by 1.5× |
 
- **At one parsec the soliton is comparable to the entire observed extended mass, which the
- stellar population already accounts for.** So the Galactic Centre is neither a null nor a
- free pass: it is this sector's sharpest available constraint, it lives at parsec radii, and
- whether the model clears depends on how much room the Centre's mass budget has once the
- stellar contribution is subtracted — a real analysis with factor-two-class uncertainties,
- **owed, and now the domain's leading test rather than its postdiction.**
+ **The constraint bites at one parsec and it is adverse — a factor of about three, not a factor
+ of ten and not a clearance.** Adding 2.9×10⁶ M☉ of smooth dark mass inside 1 pc would raise the
+ enclosed mass there from the observed ~5.3×10⁶ (Sgr A* plus stars) to ~8×10⁶, a fifty-per-cent
+ perturbation on a profile that stellar dynamics measures directly.
+
+ **The escape is real, and it is that the soliton cannot form there.** Sgr A*'s sphere of
+ influence — GM/σ², the radius inside which the black hole owns the potential — is **1.3 to
+ 3.3 pc** for a nuclear-cluster dispersion of 120 down to 75 km/s. The soliton's core radius is
+ 0.71 pc, so **the entire object would sit inside the hole's domain**, and the core-halo relation
+ it is computed from is calibrated on simulations with no central black hole. A soliton forming
+ in that potential is not the soliton the relation describes; the literature on ultralight dark
+ matter with central black holes finds such cores disrupted or accreted.
+
+ **So the honest statement has two parts.** The naive core-halo prediction is excluded at the
+ Galactic Centre by about a factor of three. The model's answer must therefore be that galaxies
+ with dominant nuclear black holes **do not** carry the soliton the relation predicts — which is
+ a claim the sector has to make explicitly rather than inherit, and which weakens "every galactic
+ nucleus hosts a dark soliton" to "every nucleus whose black hole does not dominate the core
+ radius does."
+
+ **The clean test is the dwarfs**, which have no central black hole and where the relation applies
+ as derived: a 10⁹ M☉ halo gives a 7.1 pc core holding 6.1×10⁵ M☉, about six per cent of the
+ dwarf's inner mass. That is comfortably allowed and it is where this prediction should be
+ graded.
+
 
 ## 2. The excited spectrum
 

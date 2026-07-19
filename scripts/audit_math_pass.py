@@ -159,6 +159,18 @@ chk("MATH_SPINE", "the turn: z from a = 2.04 (booked z = -0.51)", -0.510, 1/2.04
 chk("MATH_SPINE", "the turn: z from a = 2.86 (booked z = -0.65)", -0.650, 1/2.86-1, 0.01)
 chk("cosmological_constant", "KP cap 0.40 vs the observed 2.2", 5.5, 2.2/0.40, 0.01, "x below")
 
+# ---- the Galactic Centre --------------------------------------------------
+_m23, _rc = 2.24e-20/1e-23, 0.714
+_rhoc = 1.9*_m23**-2*(_rc/1e3)**-4
+def _Msol(r, n=200000):
+    import numpy as _np
+    x = _np.linspace(1e-6, r, n)
+    return _np.trapezoid(4*_np.pi*x*x*_rhoc*(1+0.091*(x/_rc)**2)**-8, x)
+chk("galactic_atoms", "soliton total mass = the recorded M_c", 6.25e6, _Msol(60*_rc), 0.03, "M_sun")
+chk("galactic_atoms", "soliton M(<1 pc) at the Galactic Centre", 2.9e6, _Msol(1.0), 0.03, "M_sun")
+chk("galactic_atoms", "Sgr A* influence radius exceeds the core radius", 2.6,
+    (4.30091e-3*4.30e6/100**2)/_rc, 0.05, "core radii")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

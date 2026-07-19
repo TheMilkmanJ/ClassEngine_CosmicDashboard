@@ -1564,3 +1564,35 @@ assumption that makes its conclusions easier is the one least likely to be exami
 constant at 100–500 TeV and the census portal at 13–20 TeV, both beyond collider reach — so the
 conclusions stand unchanged while the reasoning is sourced. The contradiction with the referee
 calendar is gone: HL-LHC is a live referee on the visible branch, and the detection file now says so.
+
+### THE GALACTIC-CENTRE BUDGET TEST — RUN, ADVERSE AT 3×, WITH THE ESCAPE NAMED (2026-07-19)
+
+**The result.** The soliton the core-halo relation predicts for a Milky-Way-class halo holds
+**2.9×10⁶ M☉ inside one parsec**, against a measured extended (non-black-hole) mass there of
+~10⁶ M☉ — **over by a factor of about three**. It clears easily everywhere inside that: 4400×
+at S2's semi-major axis, 17× at 0.1 pc. **The constraint lives at parsec radii and nowhere else**,
+which is why an evaluation inside S2's orbit reported a comfortable pass.
+
+**A convention trap, walked into and caught.** The recorded M_c = 6.25×10⁶ M☉ is the soliton's
+**total** mass, not the mass within r_c — the two differ by 4.15 for this profile. Normalising to
+the wrong one inflates every enclosed mass by that factor and turns a 3× tension into a 12× one.
+The trap is that both conventions appear in the literature and the core-halo relation alone cannot
+distinguish them. **Settled by anchoring on Schive's central density instead**,
+ρ_c = 1.9 (m/10⁻²³ eV)⁻²(r_c/kpc)⁻⁴ M☉ pc⁻³, which fixes the normalisation without reference to
+any mass definition and returns the total at 6.1×10⁶ — the recorded figure.
+
+**The escape, and its price.** Sgr A*'s sphere of influence is **1.3–3.3 pc** against a 0.71 pc
+core radius, so the whole soliton would sit inside the region where the black hole owns the
+potential — and the core-halo relation is calibrated on simulations containing no central black
+hole. The model's answer must therefore be that **nuclei with dominant black holes do not carry
+this soliton at all.** That is available and physically motivated, but it has to be claimed: it
+weakens "every galactic nucleus hosts a dark soliton" to "every nucleus whose hole does not
+dominate the core radius does," and it moves the prediction's proving ground to the dwarfs, where
+a 10⁹ M☉ halo gives 6.1×10⁵ M☉ in a 7.1 pc core — about six per cent of the inner mass, and
+comfortably allowed.
+
+**The lesson (process).** *A normalisation convention that changes an answer by a factor of four
+is not a detail, and the direction it errs in is not random — the wrong one here made the finding
+more dramatic, which is the direction that gets written up rather than re-checked.* The corpus's
+own booked figure at 1 pc (3.1×10⁶) was right within its stated precision; the recomputation
+nearly overwrote it with a louder wrong number.
