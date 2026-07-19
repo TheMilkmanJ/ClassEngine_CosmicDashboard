@@ -44,7 +44,7 @@ set (+1.24%, the H₀ story); the photons decouple and fly forever — the CMB. 
 generation: it will appear on your television.** *Then I let the light go.*
 
 **GEN 7 — THE DRAWDOWN.** Smoothness is my stored free energy (the gravitational reserve); structure is
-my spending: the Weyl statement fills (reading B is the meter), galaxies condense as
+my spending: the Weyl statement fills (the curvature-metered gate is the meter), galaxies condense as
 gravitational atoms with buried solitons (T1), the web spans my Kibble cells. *Then I began,
 slowly, to spend myself into shapes.*
 

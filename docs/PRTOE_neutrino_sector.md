@@ -104,7 +104,7 @@ steriles exist, so the seesaw type is unforced.
 
 **The two-source structure.** The neutrino spectrum has two jobs and the sector has two sources,
 one per job. The **splittings** (Δm²₂₁, Δm²₃₁ — what oscillations measure) are **seesaw-sourced**:
-at the surviving corners' scale (v_L at either the MeV corner or the TeV class — both lane-clean,
+at the surviving corners' scale (v_L at either the MeV corner or the TeV class — both clear every applied constraint,
 with CMB-S4 the selector), y ≈ 6×10⁻⁷ reproduces m₃ = 50 meV —
 natural, with the seesaw's lightest eigenvalue free to sit far below a meV (hierarchical
 couplings). The **absolute floor** — the lightest mass, which oscillations do not fix — is

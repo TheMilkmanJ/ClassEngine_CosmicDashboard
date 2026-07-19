@@ -42,7 +42,7 @@ correlation-structure prediction.
 
 **Operational.** The evidence run is sampling, but at the measured theory speed its completion
 horizon is weeks to months, and the ΛCDM twin doubles it. The verdict this board treats as the
-deciding crux is therefore further away than the board assumes.
+deciding crux is therefore further away than the working list assumes.
 
 **Odds the CORE picture is right: ~12–16%, roughly held** — the favourable closures and the two
 new exposures roughly cancel, and the deciding evidence is further off than it was. The DE closed form is real theoretical

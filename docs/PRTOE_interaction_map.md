@@ -63,7 +63,7 @@ weakness is the ADDITION's, not gravity's. The residual addition is the predicti
 The rung-by-rung residual NUMBERS beyond the recorded ones (the solar-system band's precise
 value; the galactic tail's formal size; today's clock-drift rate from the gate's tail —
 the LV/clock pricing pass, a standing item). The map's structure is recorded; its last
-decimal places are the same debts already on the board.
+decimal places are the same debts already recorded.
 
 *Screens dim; they do not extinguish. The medium runs one coupling nothing can leave, one
 whisper the quiet places keep, and one identity every atom swims in — the map of what

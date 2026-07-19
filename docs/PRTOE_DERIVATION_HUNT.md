@@ -364,7 +364,7 @@ proper Boltzmann pass are owed):
 |---|---|---|---|
 | **A: f = v_L ≈ 100–500 TeV** | dead (ceiling 2.4 TeV vs floor 40 TeV — a factor 17) | Γ/H ~ 3×10⁻³⁸ — CMB-safe, S4-dark, 0νββχ-invisible | tie-dead |
 | **B: v_L in the corridor (below)** | was "alive" via the retracted channel | *(withdrawn — the corridor's fences rode P-2026-052)* | dissolved with the retraction |
-| **C: v_L ~ MeV** | alive (5×10¹⁰, condensate-friction) | *(the deep-recoupling stress was the retracted channel)* | **alive — lane-clean** |
+| **C: v_L ~ MeV** | alive (5×10¹⁰, condensate-friction) | *(the deep-recoupling stress was the retracted channel)* | **alive — clears every applied constraint** |
 
 **The corridor's floor fence and the recoupling epoch are withdrawn** (the νν̄ ↔ φ channel is
 kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ — P-2026-052 retracted,
@@ -394,10 +394,10 @@ lanes clear: stellar cooling (dyad gate closed in stars), μ→eJ (singlet Major
 coupling absent), BBN thermalization (coalescence closed, 2↔2 is g⁴), long-range forces
 (matter coupling two-loop-suppressed; ν self-interaction below ultralight-mediator bounds).
 The two-scale structure (f ≠ v_L, three dark fields) stands on the one-scale corner's tie-death
-alone. Corner selection: **open — both corners lane-clean; CMB-S4 is the selector.**
+alone. Corner selection: **open — both corners clear every constraint the model can apply; CMB-S4 is the selector.**
 
 **What the test settles and what it leaves (post-retraction state):** the TeV and MeV corners
-are both lane-clean and CMB-S4 is the sole selector (a g ~ 10⁻⁸–10⁻⁹ detection selects MeV and
+both survive every constraint applied so far and CMB-S4 is the sole selector (a g ~ 10⁻⁸–10⁻⁹ detection selects MeV and
 its resonant-leptogenesis lane; a null leans high-v_L); the one-scale corner stays tie-dead on
 the condensate-friction ceiling alone. **The un-merger's residue is PAID:** the tie's mode is
 re-homed — the tenth-channel mass relation (the seat term, operator exhibited with its UV form;
