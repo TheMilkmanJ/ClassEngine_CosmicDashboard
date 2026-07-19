@@ -84,11 +84,14 @@ unusually sharp probe of the dark-energy scale**, since small changes in m₁ mo
 
 The prediction's value is structural: (i) 0νββ MUST exist, so evidence for Dirac nature ends this
 sector — though that evidence can only ever be indirect; (ii) the normal-ordering floor's shape is
-fixed in advance; (iii) **the entire ton-scale target band is a kill zone.** The model's ceiling is
-5.3 meV and nEXO/LEGEND-1000/CUPID aim at ~5–20 meV, so any confirmed detection by that program
-falsifies the model — there is no overlap in which a signal and this model coexist. The asymmetry is
-worth being explicit about: the ton-scale program can refute this model cleanly but cannot confirm
-it, because a null is consistent with phase cancellation at any sensitivity.
+fixed in advance; (iii) **one experiment, and only one, can reach this model.** Projected 10-year
+reaches (each span is the matrix-element range): nEXO 4.7–20.3 meV, LEGEND-1000 9–21 meV, CUPID
+12–34 meV. Against a model ceiling of 5.30 meV, LEGEND-1000 and CUPID sit entirely above and cannot
+touch it at any matrix element; **nEXO overlaps at 4.7–5.3 meV** if the ¹³⁶Xe matrix element falls
+at the favourable end. Over flat Majorana phases the model exceeds 4.7 meV about **10.8%** of the
+time, so nEXO carries a roughly one-in-nine chance of a confirming signal, conditional on both the
+model and the matrix element. Outside that thin band a detection falsifies the model outright, and a
+null constrains nothing — a null is consistent with phase cancellation at any sensitivity.
 
 **0νββ has never been observed** — the one historical claim (Heidelberg–Moscow, ~200–600 meV) was refuted by KamLAND-Zen
 and GERDA; current limits (m_ββ ≲ 28–180 meV, NME-dependent) sit 5–30× above this band,
