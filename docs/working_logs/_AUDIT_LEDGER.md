@@ -1282,3 +1282,12 @@ B = 1/√2 walk with its discarded candidates listed *with their reasons* (the d
 trap named), the KP connection scoped to the one piece used, and every number harnessed since
 the audit's first day. Ten clean passes total now — the corpus's healthy tissue is real and
 identifiable.
+
+## PRTOE_inertia.md — deep audit 2026-07-19, plus the corpus-wide link sweep
+
+File seventy-one, **clean** — and one of the corpus's best pages: the two aether objections
+split and paid from their separate accounts, the speed limit as a priced ramp rather than a
+decree, the propulsion note that explains without claiming, and concrete falsifiers including
+the roton-dip test the UHECR data already passes. Its laboratory_cousins link prompted a
+**corpus-wide broken-link sweep: zero broken internal links across every file in docs/** — a
+whole defect species certified absent in one pass and worth re-running after any file rename.
