@@ -1028,3 +1028,13 @@ dead-ends note. Everything that carries weight held on inspection — the reach 
 against Freedman, the honest half-the-gap framing, and the dead-ends note that explains *why*
 the honest H₀ is 69.9. The SN mass-step corner references the gate window without hard-coding
 C_ref, so it survives whichever way ForJustin/09 resolves.
+
+## PRTOE_DOMAIN_COVERAGE.md — deep audit 2026-07-19
+
+Thirty-fourth file. Three fixes: the cc-problem row's "new half: confessed" brought to the
+kernel-sourced +0.44% (the same supersession PHYSICS_DOMAINS §21 carried); the superradiance
+verdict label "live-if-heavy" to "live now" (the mass moved into the live regime — the row's own
+text already said so, the label lagged its own sentence); and the BBN row's booking pointer now
+names the dedicated scar file. The superradiance and neutrino rows were already current — this
+map was maintained better than most of its class. The advertised −2.5 to −1.4σ range left as is
+per ForJustin/10.
