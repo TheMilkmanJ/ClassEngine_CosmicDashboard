@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*INTERPRETATION LAYER (spine §12). Null-prediction stance throughout: exact
+*INTERPRETATION LAYER (rides M3; seated in [PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)). Null-prediction stance throughout: exact
 reproduction of QM is the falsifiable claim; the addition is ontology. This document also holds
 the boundary of the whole quantum wing: what is textbook (links 1–2), what is the
 model's one legal move (link 3), and where the last randomness lives (one integer).*

@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*INTERPRETATION LAYER (spine §12 wall). Null-prediction stance: exact reproduction of QM
+*INTERPRETATION LAYER (rides M3; seated in [PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)). Null-prediction stance: exact reproduction of QM
 tunneling rates is the falsifiable content. The model's addition is an ontology with a
 laboratory cousin so close it is already recorded as a precision receipt (Josephson).*
 
