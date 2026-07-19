@@ -667,6 +667,13 @@ chk("S8 pair", "LCDM 0.833 vs Legacy consensus", 1.6, (0.833-0.814)/0.012, 0.02,
 chk("S8 pair", "model 0.823 vs Legacy consensus", 0.75, (0.823-0.814)/0.012, 0.02, "sigma")
 chk("S8 pair", "model twice as close as LCDM", 2.1, (0.833-0.814)/(0.823-0.814), 0.02, "x")
 
+# --- small_scale_structure: the braiding scale (2026-07-19) ---
+_MPl_full_eV = 1.22091e19 * 1e9                   # full Planck mass, eV
+_M2_eV = 9.43
+_rc_m = _MPl_full_eV/_M2_eV**2 * 197.3269804e-9   # (M_Pl/M2^2) * hbar-c
+chk("small-scale", "braiding scale M_Pl/M2^2", 0.87, _rc_m/3.0857e19, 0.02, "kpc")
+chk("small-scale", "braiding vs dwarf soliton (two orders)", 125, _rc_m/3.0857e16/7.0, 0.03, "x")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

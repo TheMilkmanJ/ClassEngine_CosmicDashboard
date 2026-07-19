@@ -1438,3 +1438,27 @@ identity verified exact and harnessed; "the machines' table" pointed at the hunt
 content untouched: conv_g pre-registration (0.10 ± 0.05, minimizer 0.12 inside it), the
 DESI police clause, the closed entropy-floor route, and the three owed items (chains,
 matched-likelihood fit, perturbation treatment) all stand. Harness 288.
+
+## small_scale_structure + strong_cp + sciences_inheritance — deep audits 2026-07-19
+
+Files eighty-two through eighty-four.
+
+**small_scale_structure**: the sharpest head-vs-tail case yet — **the title still sold "the
+kpc the Model Writes Twice" while the body's own correction block proved nothing writes kpc
+twice.** The withdrawal was already properly ledgered (failures ledger ~1394), so per the
+no-scar law the forward file now reads the current claim fluent: retitled to "…and the
+Smoothness Floor"; §1 rewritten to state the two scales plainly (braiding 0.87 kpc from M₂,
+harnessed at 0.878; soliton 7 pc/0.7 pc — 125× apart, harnessed) with core-cusp explicitly
+not claimed; the kill list purged of the withdrawn claim's grader (the 0.3 kpc dwarf-core
+clause graded a claim the file no longer makes) and re-pointed at the floor + the M₂ triangle,
+with soliton kills routed to galactic_atoms.
+
+**strong_cp**: clean pass (twelfth) — the constitutional abstention stated falsifiably, θ̄
+bound right, no defects. The corpus's shortest file earns its length.
+
+**sciences_inheritance**: one P-naming normalize (P-030 → P-2026-030). Its "§12 wall" term
+exposed the last member of the §12 family: a live house term (three-plus uses corpus-wide)
+whose referent section exists nowhere — a ghost anchor. Resolution: the term now has a home —
+**a READERS_GUIDE glossary row defining the §12 wall** (no-mind-claims boundary; the number
+outlived its draft, the boundary is the content) — so every use decodes through the standard
+header pointer. science_subdomain_tree's two uses stand unchanged, now decodable.
