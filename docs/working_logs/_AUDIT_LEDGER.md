@@ -810,3 +810,26 @@ gated by the edge the chain already carries: ε is OFF by z ~ 30, τ's weight li
 and the overlap tail is orders below Planck's ±0.007. What survives is the edge's shape — the
 same discriminator link 7 already measures in 21cm. Four named debts are now three, not by
 deciding the question but by noticing the file had already answered it in two other places.
+
+## PRTOE_math_story.md — deep audit 2026-07-19
+
+Twenty-first file, and the most rotted narrative in the corpus: the story of the model as of
+July 8, still telling the **dead deuterium heal as its arc**. Act 3 read "D healed (−1.2σ→0)"
+and the one-breath arc said "heals deuterium at BBN" — the flat vev died at +7.7σ, κ_v by eight
+orders, and the standing row is −2.49σ with the lever census closed. Act 3 is now the witness
+era: the dyad condensing mid-window at 177.10 keV, the ramp stamps, the window's real help
+(+0.27σ), and the scar carried openly with its dedicated file linked.
+
+The rest of the sweep: "c ≈ 0.93 ± 0.38 measured" → c = 9/10 DERIVED (with f̄ = 2/π beside it
+and α_c = 3α as the one registered input — the old c·f_amp·Ψ₀/M_red decomposition demoted to
+one clause as the road that found the number); H₀ 70.1 ± 0.7 → 69.9 provisional; ε 1.24% →
+1.2543%; the THREATS row replaced wholesale — it still carried "birefringence consolidating
+(2.9σ)" against a null since **proven** (P-2026-009), and now names the real exposures: DESI
+DR2 at 3.1σ, the superradiance band, the scar's budget, and the priced dark-photon surrender.
+The gate got its near-step form; the archived amplitude-derivation pointer moved to
+THE_AMPLITUDE.
+
+Check 12 caught two residues of my own rewrite: Act 4 still leaned on "the Act-3 heal" one act
+after the heal was removed, and the status key listed tags ([FIT], [TRACED]) the body no longer
+uses. Both fixed before commit — the same lesson as every other time, one act downstream of the
+edit.
