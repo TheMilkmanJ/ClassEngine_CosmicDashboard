@@ -48,8 +48,7 @@ three windows through which any condensate is seen.
 - **Why measurement-scale physics is classical** (recorded elsewhere, cited here): posting
  to 10²³ seats cannot be recalled — decoherence is the existing mechanism, not a fourth door.
 
-**Derivation backing (audit).** Each seating rests on a real result, not an
-analogy: *entanglement* on the C4 CHSH computation (the pair states give B(r) = 2√(1+tanh²2r),
+**What each seating rests on.** Not an analogy in any of the three cases: *entanglement* on the C4 CHSH computation (the pair states give B(r) = 2√(1+tanh²2r),
 saturating Tsirelson's 2√2 — the prediction is exact QM, the Tsirelson null, conditional on
 substrate quantization); *tunneling* on the identity WKB exponent = the medium's evanescent
 decay length verbatim, with the Josephson junction as the recorded precision receipt; and
