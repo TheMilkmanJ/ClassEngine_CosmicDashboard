@@ -87,3 +87,17 @@ wherever parity is for sale, and keeps its strangest room — the inside of a bl
 below the depth where the ringing has yet reached. A specific silence is still a signature —
 and this one comes with a biography: the universe flicked the parity switch once, at birth,
 and the dimming of that click is the dark energy that now carries every wave home clean.*
+
+
+## The chiral background's amplitude — computed, and it is a structural null (2026-07-18)
+
+The chirality family's missing number is now in hand, and it closes as a null. The recorded
+vortex tension (Gμ ≈ 3×10⁻²¹) puts the network's own gravitational-wave background at
+Ω_GW h² ≈ 3×10⁻¹⁸ — eight orders under pulsar timing, four under LISA and the ground-based
+third generation, and one and a half under the inflationary B-mode floor. **The polarization
+asymmetry may be order unity and remain unobservable, because the carrier is missing.**
+
+This is the same structure that protects the model elsewhere: the vortex null that keeps the
+network safely under every gravitational-wave constraint also denies it a gravitational-wave
+signature. Recorded as a formal prediction with no detection channel, rather than as a
+forecast.
