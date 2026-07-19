@@ -1358,3 +1358,21 @@ Verified and kept: c_s = √(3α) = 0.148 (agrees with its two other homes; now 
 (0.625 fit, 0.635 sim — match MATH_SPINE/THE_AMPLITUDE/DERIVATION_HUNT to their stated
 precision), the ring geometry arithmetic, the five-certificate enumeration, and the honest
 two-"no" rows in the bench-to-cosmos mapping. Harness 277.
+
+## PRTOE_quantum_entanglement.md + PRTOE_quantum_tunneling.md — deep audits 2026-07-19
+
+Files seventy-five and seventy-six, audited as the pair they are. Both are sound interpretation-
+layer pages: the null stance stated with its kill conditions in both directions (Tsirelson 2√2
+exact; tunneling rates exact), the ODLRO carrier argument, the Josephson/SI-volt receipt, the
+localization-clause tie to the CC derivation — all verified against standing.
+
+**The cluster defect: "spine §12" never existed.** The spine runs 0–9, §10, §22 — in every
+revision back to 2026-07-11 (checked at the introducing commit). All three trio leaves carried
+"(spine §12)", weakest_joints carried "(spine §14)", and neither reading maps to the threading
+numbers either (T12 = radio lattice, T14 = IGMF helicity). Same species as the failures
+ledger's recorded "spine §15" dangler. All four now point at homes that exist: the trio leaves
+ride M3 and seat in quantum_trio; weakest_joints' open-derivation set points at the hunt.
+**Two of the four were misses in earlier audits of mine** — quantum_superposition was graded a
+clean pass and weakest_joints was audited with UPDATE 3, both with danglers in plain sight;
+recorded against me. Also: entanglement's "W-W evasion" spelled out to Weinberg–Witten (it was
+decoded nowhere reader-facing).

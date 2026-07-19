@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*INTERPRETATION LAYER (spine §12). This layer adds ontology, not new physics. The model's claim is
+*INTERPRETATION LAYER (rides M3; seated in [PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)). This layer adds ontology, not new physics. The model's claim is
 a null-prediction stance: it REPRODUCES quantum entanglement EXACTLY — that reproduction is the
 falsifiable content — and supplies an ontology for what entanglement IS. No deviation from QM is
 predicted; any observed deviation kills the model (the Tsirelson null).*
@@ -54,7 +54,7 @@ the residue of insisting the substrate is two places rather than one object.
  model must pass forever and can never win points from. That asymmetry is the honest price
  of a null-prediction ontology — and in this model's stance, "reproduces exactly"
  IS the prediction.
-2. **No preferred-frame leakage into correlations**: the medium has a rest frame (the W-W
+2. **No preferred-frame leakage into correlations**: the medium has a rest frame (the Weinberg–Witten
  evasion's price); entanglement correlations must remain frame-independent to current
  precision — the Lorentz-violation literature covers this jointly.
 

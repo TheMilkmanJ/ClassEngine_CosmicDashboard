@@ -100,7 +100,7 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
 - **J3 (DESI) — HARDENED BY THE MODEL ITSELF**: the grammar derives w = −1 today (mass-defect
  O(δ²)); DR3 is now a pure kill-or-confirm on a derived commitment.
 - **J4 (m_e real) — new instruments**: P-022 (21cm), P-024 (the ε-dipole), the radio ratio-lock.
-- **J5–J7 — became the open-derivation set** (spine §14): the portal embodied (vector-like candidate),
+- **J5–J7 — became the open-derivation set** (now worked in [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)): the portal embodied (vector-like candidate),
  the abundance routed (genome→CP→η), v_L benchmarked.
 
 ## JOINTS UPDATE 2 (2026-07-11, the radio night)
