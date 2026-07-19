@@ -1329,7 +1329,22 @@ mechanism is real and the shape is a genuine success; the amplitude is a genuine
 and the two constraints that squeeze it — the circles from below, the anomaly's depth from
 above — pull in opposite directions.
 
-**What would change it:** a non-cubic or anisotropic torus (the recorded geometry is the
-simplest one), the integrated Sachs–Wolfe contribution which this Sachs–Wolfe-only pass omits,
-or a winding modulation that suppresses beyond the mode-cutoff effect. All three are named,
-none is computed. Until one lands, the low-ℓ row reads as partial.
+**The three escapes, two of them now computed — and both fail.**
+
+*Anisotropy fails, structurally.* A single short axis does not deepen the quadrupole
+suppression; it shallows it. Computed: a 20 Gpc short axis with two long ones retains 90% of
+the quadrupole against the cubic case's 83%, and a 16 Gpc short axis retains 105% — no
+suppression at all. The reason is that suppression comes from *removing* long-wavelength
+modes, and two long axes keep supplying them. Only shortening all three directions at once
+suppresses, which is precisely the configuration the circle searches constrain. Anisotropy can
+shift the deficit from the quadrupole toward the octupole, but it cannot deepen it.
+
+*The integrated Sachs–Wolfe contribution dilutes rather than helps.* Its power at ℓ = 2 is
+sourced at low redshift, over distances of a few Gpc, where the contributing modes sit well
+above the torus cutoff and are therefore untouched. Adding an unsuppressed component to a
+partially suppressed one raises the ratio — the total suppression gets weaker, not stronger.
+
+*What remains:* a winding modulation that suppresses beyond the mode-cutoff effect. That is
+model-specific, unbuilt, and now the only surviving route. **The low-ℓ row therefore reads
+worse than at first grading: the pattern is right, the depth is three to five times short, and
+two of the three ways out are closed by computation.**
