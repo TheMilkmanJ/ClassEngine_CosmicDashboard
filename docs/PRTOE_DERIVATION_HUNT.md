@@ -49,25 +49,25 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
 
 $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,m_e,\qquad \tau \equiv T_c/m_e .$$
 
-- **Chain:** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼ = 2.28 meV vs the observed 2.25. The α⁴
-  scaling and M₂ = α²·T_c are real STRUCTURE, but **the "1.5%" is NOT a sourced prediction** —
-  T_c = 179 keV is the observed ρ_Λ inverted-and-rounded (0.34506 → 0.35), not independently *(τ is now sourced independently by the Koide kernel at ½ln2, giving +0.44% — flagship-grade block.)*
-  derived (see the NOT-INDEPENDENTLY-SOURCED bullet below and §6). It becomes a prediction only
-  with a lattice T_c/√σ for SU(2). See [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
-- **τ = T_c/m_e = 0.3503 — derived; and 0.345 is the OBSERVATION, not a second derivation.**
-  The derived T_c = 179 keV gives τ = 179/511 = **0.3503** ⟹ ρ_Λ¼ =
-  (9/2)α⁴τ·m_e = **2.2842 meV** *(the +1.5% is the rounding, not a sourced prediction — see below)*. The number **0.345** is
-  ρ_Λ¼(observed)/((9/2)α⁴m_e) = 2.25/6.5207 = **0.34506** — *the observed dark-energy density read
-  backwards*, which the registry states plainly (P-2026-048: *"fixed by the observed dark-energy
-  density … the flagship's 1.5% prediction read backwards"*). **Quoting 0.345 as "derived" implies
-  T_c = 176.3 keV and silently converts the +1.5% prediction into a 0.0% match — i.e. it deletes
-  the prediction it is cited to support.** The lattice band T_c/√σ ≈ 0.34–0.37 is **not an independent check either** — it is an **SU(3)**
-  value and this model's dark sector is **SU(2)** (P-2026-048), the pure-glue anchors disagree by
-  ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71), and no published SU(2) N_f = 3 number exists. The model's
-  τ = 0.3503 sits inside the band, **and so does the observation's 0.345** — the band is 8.5% wide
-  and cannot tell them apart. The band is that **of a QCD-like confining sector** (pure glue, at 0.63,
-  is excluded), which requires the dark sector to carry **light dark quarks (N_f ≥ 2)** — consistent
-  with P-2026-048's N_f = 3.
+- **Chain:** m_e → T_c → M₂ = α²·T_c = 9.53 eV → ρ_Λ¼. Every factor is sourced: the α⁴ scaling and
+  M₂ = α²·T_c are structure, and **τ is fixed by the Koide kernel** — Parseval forces the kernel's
+  modulus to 1/√2 once Q = 2/3, so τ = ½ln2 = 0.34657, T_c = 177.10 keV, and
+  **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**. Nothing cosmological enters that chain;
+  it descends from a lepton-mass fact measured to ten parts per million. See
+  [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
+- **τ = ½ln2 = 0.34657 — sourced, and what it must be told apart from.** The kernel gives τ directly;
+  the number to distinguish it from is **0.34506** = ρ_Λ¼(observed)/((9/2)α⁴m_e) = 2.25/6.5207, the
+  observed dark-energy density read backwards. If τ *were* that number the chain would run backwards
+  and return 2.25 by construction — a 0.0% match wearing a prediction's clothes. The kernel's value
+  sits **+0.44% above it**, and that gap is the entire dark-energy claim.
+
+  **What decides it, and the precision it needs.** A lattice T_c/√σ for SU(2) with N_f = 3. No such
+  determination exists: the published band 0.34–0.37 is an **SU(3)** value, the pure-glue anchors
+  disagree by ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71), and — decisively — that band is 8.5% wide while
+  the two hypotheses are 0.44% apart, so **it could not tell them apart even if it applied.**
+  Separating them takes σ ≲ 0.22% (P-2026-048's decision rule). The band does establish one thing:
+  it is a QCD-like confining sector, pure glue at 0.63 being excluded, which requires light dark
+  quarks (N_f ≥ 2) — consistent with N_f = 3.
 - **T_c ≈ 179 keV — NOT INDEPENDENTLY SOURCED. This is the flagship's
   weakest joint and it was not stated where the flagship is claimed.** The three routes on offer:
   **(i) "τ·m_e" is CIRCULAR** — τ ≡ T_c/m_e, so this defines T_c by itself (line 42 derives τ *from*
@@ -477,7 +477,13 @@ irreducible input.
   Grade: **mechanism candidate (exhibited)** — sign, anchor, and running structural; the
   linearity exponent exhibited at additivity level (shared with A_s, one assumption not two)
   and independently data-selected; the Δ² subdominance condition named.
-- **z_on ≈ 3.56×10⁷ — fast-profiled estimate,** chain-graded later.
+- **z_on = 4.03×10⁷ — a derived identity, not an estimate.** It is the H = m epoch of the fluid's own
+  mass, T_on = √(m·M_red/0.61) = 9.46 keV, and the mass carrying it (2.24×10⁻²⁰ eV) is confirmed
+  three independent ways: ξ = ħ/(m c_s) returns 398 AU against the recorded 402, the Schive core
+  radius returns 7.14 pc against 7.0 for a 10⁹ M☉ halo, and the superradiance window lands on its
+  recorded 6×10⁸–3×10⁹ M☉ band. *(The evidence run is frozen at a profiled 3.56×10⁷ instead — 0.053
+  dex low, which under the same clock implies a mass 28% off and misses all three checks. The run
+  grades a point beside the identity, not the identity.)*
 - **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude quartic
   sets its value). See [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md).
 
