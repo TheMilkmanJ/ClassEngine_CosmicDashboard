@@ -10,16 +10,18 @@ sector is an output rather than an input: the model's dark-energy scale ties to 
 neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**. Because the mass mechanism violates
 lepton number, **neutrinos must be Majorana, and the 0νββ process is structurally required.** The
 corresponding effective mass, with measured splittings and free Majorana phases, is
-**m_ββ ∈ [0.02, 5.3] meV, typically ~3.3 meV.**
+**m_ββ ∈ [0.02, 5.3] meV, with a phase-averaged rms of 3.3 meV** (the rms is the
+rate-relevant average, since the rate goes as m_ββ²; the median over phases is 3.05 meV).
 
 ## What this means for your program
 
-**Your program's entire target range is a kill zone for this model.** That is the blunt version and
-it is the reason for writing. The model's ceiling is m_ββ = 5.3 meV; nEXO, LEGEND-1000 and CUPID are
-aiming at roughly 5–20 meV; current limits sit at 28–180 meV depending on the matrix elements. So
-**any confirmed detection by the current or next generation falsifies this model outright** — there
-is no corner of your accessible parameter space where a signal and this model coexist. No claimed
-detection exists there now, so it is a forward bet rather than a retrodiction.
+**nEXO is the only experiment in the world with a chance of seeing this, and the window is
+narrow.** That is the reason for writing, and the next section works it out. The short version: the
+model's ceiling is m_ββ = 5.30 meV, and nEXO's projected reach at the favourable end of the
+matrix-element range is 4.7 meV — so a thin band, roughly **4.7 to 5.3 meV**, is common to both.
+LEGEND-1000 (9–21 meV) and CUPID (12–34 meV) sit entirely above the model's ceiling and cannot
+reach it at any matrix element. Everywhere outside that thin band, a confirmed detection falsifies
+the model outright.
 
 **The converse is weaker, and the asymmetry should be stated.** A null at any sensitivity does not
 kill the model, because the phases can cancel. And while a demonstrated Dirac nature would end the
@@ -69,6 +71,41 @@ rather than a protected feature.
 The consequence may be the most distinctive thing this model says to your field: because the
 near-cancellation amplifies small changes in m₁, **m_ββ here is an unusually sharp probe of the
 dark-energy scale.**
+
+## The overlay: where this model sits against your program
+
+Projected 10-year sensitivities, with each span being the nuclear-matrix-element range rather than
+an experimental uncertainty, against the model's window of [0.02, 5.30] meV:
+
+| experiment | isotope | projected m_ββ reach | vs the model's 5.30 meV ceiling |
+|---|---|---|---|
+| **nEXO** | ¹³⁶Xe | **4.7 – 20.3 meV** | **overlaps at 4.7–5.3 meV** |
+| LEGEND-1000 | ⁷⁶Ge | 9 – 21 meV | entirely above; cannot reach |
+| CUPID | ¹⁰⁰Mo | 12 – 34 meV | entirely above; cannot reach |
+
+**nEXO is the only one of the three that can touch this model at all**, and only if the ¹³⁶Xe matrix
+element falls at the favourable end of its range. That is a nuclear-theory question we have no
+standing to settle, and it decides whether your experiment is a test of this model or a bound on it.
+
+**How likely a signal would be, if the model is right and the reach is 4.7 meV.** The model fixes
+the three contributions but not the two Majorana phases. Taking those flat — the usual convention,
+and a choice rather than a result — the effective mass exceeds 4.7 meV about **11% of the time**:
+
+| threshold | P(m_ββ above it) |
+|---|---|
+| 4.7 meV (nEXO, favourable matrix element) | **10.8%** |
+| 5.0 meV | 5.3% |
+| 9.0 meV (LEGEND-1000's best) | 0% |
+
+So the honest offer is a roughly one-in-nine shot, conditional on both the model being right and the
+matrix element cooperating. That is not a promise of a signal. It is the statement that **your
+experiment, alone among the three, occupies the only part of parameter space where this model can be
+confirmed rather than merely refuted** — and that if the phases are unlucky, or the matrix element
+unfavourable, a null tells you nothing about the model either way.
+
+What that buys you, if it is worth anything: a specific target with a stated probability, from a
+framework that fixed the number before looking, and which dies outright if you see a signal anywhere
+above 5.3 meV.
 
 ## Why the cosmological squeeze relaxes
 
@@ -206,8 +243,10 @@ reading of the deficit — that is, whether a tension living in the baryon densi
 H₀ at a fixed rate should be argued as a BBN problem at all, or as a statement about where on the
 m_e–ω_b degeneracy the data wants to sit; and whether the dark-ages radio referee is a real path.
 
-**(c)** Any interest in the model-vs-ΛCDM comparison rerun with the nEXO/LEGEND/CUPID sensitivity
-bands overlaid on the m_ββ window.
+**(c)** Whether the nEXO reach we used (4.7 meV at the favourable ¹³⁶Xe matrix element) is the right
+number to plan against, and how you would put an honest uncertainty on the overlap band. The
+one-in-nine figure is only as good as that 4.7, and you are far better placed than we are to say
+what it should be.
 
 ---
 

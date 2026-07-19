@@ -257,6 +257,22 @@ for _ in range(80):                            # bisect for the critical m1
     else: _hi = _mid
 chk("fairbank_note", "critical m1 where the floor vanishes", 2.324, _mid*1e3, 0.01, "meV")
 
+# ---- the experiment overlay (the Fairbank note's ask) ----------------------
+import numpy as _np
+_m2f, _m3f = math.sqrt(2.25e-3**2+_dm21), math.sqrt(2.25e-3**2+_dm31)
+_tf = [(1-_s12)*(1-_s13)*2.25e-3*1e3, _s12*(1-_s13)*_m2f*1e3, _s13*_m3f*1e3]
+_ph = _np.linspace(0, 2*_np.pi, 2001)
+_A, _B = _np.meshgrid(_ph, _ph, indexing="ij")
+_mbb = _np.abs(_tf[0] + _tf[1]*_np.exp(1j*_A) + _tf[2]*_np.exp(1j*_B))
+chk("fairbank_note", "m_bb rms over flat phases (rate-relevant)", 3.3,
+    math.sqrt((_mbb**2).mean()), 0.02, "meV")
+chk("fairbank_note", "m_bb median over flat phases", 3.05, float(_np.median(_mbb)), 0.02, "meV")
+chk("fairbank_note", "P(m_bb > 4.7 meV) — nEXO favourable NME", 10.8,
+    100*float((_mbb > 4.7).mean()), 0.05, "%")
+chk("fairbank_note", "P(m_bb > 9.0 meV) — LEGEND-1000 best", 0.0,
+    100*float((_mbb > 9.0).mean()), 1e-9, "%")
+chk("fairbank_note", "nEXO overlap band width", 0.60, sum(_tf) - 4.7, 0.05, "meV")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
