@@ -34,32 +34,30 @@ Three recorded/graded objects bear directly on the largest angles:
 
 ## 2. The improvement, stated precisely
 
-**The cavity computation, run (2026-07-18) — the mechanism has the right shape and falls short
-on depth.** Summing the torus's discrete modes against the continuum for a scale-invariant
-potential at the recorded last-scattering distance: the suppression is confined to the lowest
-multipoles and dies away by ℓ ≈ 4, which is the observed pattern. Its **depth** is the problem.
-At the smallest torus the matched-circles nulls permit (L ≈ 27.6 Gpc) the quadrupole retains
-**83%** of its power, where the observed deficit wants 20–50%. A torus of L ≈ 20 Gpc would
-deliver it (39% retained) — but that size is excluded by the circles. **The grade, with the error bar attached.** The quadrupole carries 63% cosmic variance —
-five modes, and no amount of data reduces it. Against that: the observed deficit sits about
-1σ below expectation, the torus prediction sits 0.3σ below, and the two are **0.8σ apart**.
-So the honest statement is neither "the model predicts the anomaly" (the data does not demand
-this depth) nor "the model falls short" (the data cannot resolve the difference): **the
-mechanism produces a suppression in the right place, of a size the quadrupole alone can never
-grade.**
+**The cavity computation, run (2026-07-18).** Summing the torus's discrete modes against the
+continuum for a scale-invariant potential at the recorded last-scattering distance: the
+suppression is confined to the lowest multipoles and dies away by ℓ ≈ 4 — the observed
+pattern. At the smallest torus the matched-circles nulls permit (L ≈ 27.6 Gpc) the quadrupole
+retains 83% of its power.
 
-Three candidate ways to deepen it were computed and all three fail, for one structural
-reason — suppression requires *removing* long-wavelength modes, and none of them removes any.
+**What that is worth, with the error bar attached.** The quadrupole carries 63% cosmic
+variance — five modes, irreducible by any amount of data. Against that scale: the observed
+deficit sits about 1σ below expectation, this prediction sits 0.3σ below, and the two are
+**0.8σ apart**. So the honest statement is neither that the model predicts the anomaly (the
+data does not demand any particular depth) nor that it falls short (the data cannot resolve
+the difference): **the mechanism produces a suppression in the right place, of a size the
+quadrupole alone can never grade.**
+
+**Three ways to deepen it were computed, and all three fail for one structural reason** —
+suppression requires *removing* long-wavelength modes, and none of them removes any.
 Anisotropy shallows the effect (long axes keep supplying the modes a short axis takes away);
 the integrated Sachs–Wolfe contribution is sourced where the relevant modes sit above the
-cutoff, so adding it dilutes; and the winding modulation is multiplicative, which convolves
-power upward rather than removing it. **What the torus gives is what it gives: about 17% at
-the smallest permitted size.**
+cutoff, so adding it dilutes; the winding modulation is multiplicative, so it convolves power
+upward rather than removing it. What the torus gives is what it gives.
 
 **Where the real test lives:** the *shape* across ℓ = 2–5 — the model says the suppression
 dies by ℓ ≈ 4, which is a pattern rather than a single number — and the alignment structure,
-where a compact topology makes specific statements and cosmic variance bites far less. (Sachs–Wolfe-only, cubic torus, scale-invariant spectrum: the
-shape conclusion is robust, the depth good to tens of percent.)
+where a compact topology makes specific statements and cosmic variance bites far less.
 
 Not "the model explains the anomalies" (the detailed low-ℓ likelihood is OWED — a compact-torus
 C_ℓ computation with the winding modulation, un-run). The improvement is structural: ΛCDM
