@@ -79,10 +79,9 @@ signal is systematic, because the model's own channel cannot reach it. Independe
 terms. What it does is deny the signal an independent confirmation at higher precision, which is
 the outcome the model's position anticipated. **The exposure priced in §3 has not been called in.**
 
-*(Bookkeeping: this position lives here and was never mirrored into
-[PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md). The date above is
-git-verifiable, but the registry gap is real and the mirroring decision is the owner's — see
-`ForJustin/06-lss-parity-registry-gap.md`.)*
+*(The position is registered as **P-2026-055**, placed 2026-07-11 and mirrored into
+[PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md) on 2026-07-19 — the entry
+states its own provenance, including that the mirroring happened after the DESI result was known.)*
 
 ## 4. Owed
 
