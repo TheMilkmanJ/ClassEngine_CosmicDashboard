@@ -172,10 +172,10 @@ consistency structure applied to its most famous problem:
 - **The background reading — does not fix the value:** on the finite 4-volume, **Λ_eff = ¼⟨T^µ_µ⟩ = ¼⟨ρ_m⟩**. The self-consistent
  closed-universe solve gives coefficient **0.40, not the toy ¾**, so Λ¹ᐟ⁴ = 1.48 meV (0.66×). But the
  fatal, coefficient-INDEPENDENT problem is the RATIO: the a³ 4-volume weight always favors max-a (where
- ρ_m is minimum), so **Ω_Λ/Ω_m ≤ 0.40 across the entire expansion** (ramp-confirmed: monotonic to a max
+ ρ_m is minimum), so **Ω_Λ/Ω_m ≤ 0.40 across the entire expansion** (monotonic to a max
  of 0.398; coefficient sweep tops out ~O(1) with no closed solution above C≈0.5) — a factor **5.5 below
  the observed 2.2**. And for the model's OWN eternal-expansion fate (flat torus → infinite 4-volume),
- ⟨ρ_m⟩ → 0 ⟹ **Λ → 0** (ramp-confirmed). **KP cannot seat dark energy where it is observed.**
+ ⟨ρ_m⟩ → 0 ⟹ **Λ → 0**. **KP cannot seat dark energy where it is observed.**
  *Scope:* this falsifies KP as the mechanism for the residual Λ VALUE; KP-sequestering as
  the vacuum-CANCELLATION (the thermodynamic door below) is a separate, untouched claim.
 - **The thermal door — the residual's dynamics**: the candidate

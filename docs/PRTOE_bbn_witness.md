@@ -15,7 +15,7 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  read across them** (D/H ∝ ω_b^−1.6 is the most ω_b-sensitive abundance in the network).
 
  **(i) The window's EFFECT, measured on PRyM's default ω_b** (`scripts/prym_ramped_splice.py`, the
- model's own ramped ε(T) at T_c = 179 keV, ε = 1.24%). This run is what licenses the *relative*
+ model's own ε(T) at T_c = 179 keV, ε = 1.24%). This run is what licenses the *relative*
  numbers; **its absolute D/H is not the model's prediction**, because its baseline is not the
  model's ω_b:
 
@@ -29,7 +29,7 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  degeneracy pulls ω_b up +1.1% against the in-house ΛCDM control on identical data). The η-flow is
  spent *here*, once:
 
- > in-house ΛCDM control **2.420** → *(ω_b +1.1%)* → pre-window **2.372** → *(the ramped window,
+ > in-house ΛCDM control **2.420** → *(ω_b +1.1%)* → pre-window **2.372** → *(the window,
  > +0.645%)* → **D/H = 2.387×10⁻⁵** — the standing prediction.
 
  against quasar-optical **2.527 ± 0.030** (Cooke) and own-ΛCDM **2.420**. The dyad sits on the LOW
@@ -110,5 +110,5 @@ Verdict: the row is SAFE (no new damage) and the model claims nothing — an abs
 filed with the same prominence as the conquests (the strong-CP precedent). M6's lithium
 debt: paid.
 
-The lithium abstention is THREE-SEALED (the windowed stamp's origin ramped by construction; the precursor question cannot reach the Li epoch; the ×3.4 discrepancy hands off lawfully to stellar depletion — the lineage program's cleanest exhibit).
+The abstention is robust from three directions: the lithium epoch's ε stamp follows from the same ε(T) as every other stamp, with nothing chosen for lithium; no earlier condition in the model reaches the lithium epoch; and the ×3.4 discrepancy has a standing conventional explanation in stellar depletion, which the model neither needs nor contradicts.
 

@@ -29,7 +29,7 @@ sufficient for the verdict above) was executed; the full diagrammatic 2-loop con
 Pin **T_c**, the dyad's Coleman–Weinberg condensation temperature, to a **renormalization-scale-
 independent** value. T_c is the last free scale in the derived dark-energy scaling
 
-> **ρ_Λ¼ = (9/2) α⁴ T_c** (hunt 210–211; α⁴ = α_c² dCDF-binding × α² EM-handshake, both derived/ramped).
+> **ρ_Λ¼ = (9/2) α⁴ T_c** (hunt 210–211; α⁴ = α_c² dCDF-binding × α² EM-handshake, both derived).
 
 At leading-log, T_c carries a **factor-~10 RG-scheme ambiguity** (hunt 212), so the DE *digit* is
 open even though the *scaling* is derived. The 2-loop V_eff supplies the log² curvature that fixes

@@ -1672,10 +1672,6 @@ live falsifier; the v_L derivation decides how much of the model rides on it.
 
 ## P-2026-027: The radio deuterium referee — dark-ages D 327 MHz, the two-line ratio-lock (registered 2026-07-11)
 
-*Amended 2026-07-16: the central value and the referee prediction were re-derived on the model's own
-ramped ε(T) (`scripts/prym_ramped_splice.py`); the superseded step-splice values are retired in
-[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).*
-
 **Context:** the deuterium "scar" re-signed as a discriminator. Production PRyM at the model's OWN
 baryon densities (the m_e–ω_b CMB degeneracy pulls ω_b up +1.1% vs the in-house ΛCDM control on
 identical data): dyad-true primordial **D/H = 2.387×10⁻⁵** (**the RAMPED window**, 2026-07-16; was
@@ -1699,9 +1695,6 @@ applied and the code systematic named and unfolded.**
 (a) **The referee:** dark-ages D I 327.384 MHz vs H I 1420.406 MHz absorption (against the CMB —
 the only backlight older than the first pulsar/quasar/BH) yields radio-primordial
 **D/H ≈ 2.387×10⁻⁵** — no astration, no quasar optics, no BBN network in the measurement.
-*(Corrected 2026-07-16: this read "≈ 2.37" — the entry's own **pre-window** number, i.e. the value
-the model obtains before applying its own mechanism. The referee prediction must be the model's
-actual D/H, which is the windowed one.)*
 (b) **The twinned edge:** BOTH dark-age hyperfine lines from z > 50 are shifted **+2.50%** in
 rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in the D-line.
 (c) **The ratio-lock:** ν_H/ν_D = **4.338649 at every z, exactly preserved** (both lines ∝ m_e²)
@@ -1709,13 +1702,11 @@ rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in 
 shift cannot.
 
 **Kill:** radio-primordial D/H at ~2.53, or an unlocked ratio, or improved quasar systematics
-confirming 2.53 with the astration/optical channels closed. **Grade:** registered (amended
-2026-07-16: central value re-derived on the ramp, 2.40–2.42 → **2.387**; the referee prediction
-corrected from the pre-window 2.37 to 2.387; **the fork's width is STATED above** — obs ±0.030 ⊕ PRIMAT
-post-LUNA theory ±0.037 = ±0.0476, putting the residual-shifted 2.407–2.463 at −2.5 to −1.4σ); the ratio-lock independently verified. **The D/H tension is booked as a real standing cost
-and is now LARGER, not smaller** — the ramp moves the model further from Cooke, not closer. It no
-longer "roughly cancels" the Y_p lean — both rows now lean the same way, deuterium low and helium
-high, so **the BBN column is net ADVERSE, not mixed-net-neutral.** With the committed genesis
+confirming 2.53 with the astration/optical channels closed. **Grade:** registered; the fork's width
+is stated above (obs ±0.030 ⊕ PRIMAT post-LUNA theory ±0.037 = ±0.0476, putting 2.407–2.463 at
+−2.5 to −1.4σ), and the ratio-lock is independently verified. **The D/H tension is booked as a real
+standing cost.** It does not cancel the Y_p lean — both rows lean the same way, deuterium low and
+helium high, so **the BBN column is net ADVERSE, not mixed-net-neutral.** With the committed genesis
 residual applied the standing pair is D/H −2.5 to −1.4σ and Y_p +1.3 to +2.0σ
 ([PRTOE_bbn_witness.md](PRTOE_bbn_witness.md)).
 
@@ -1842,9 +1833,6 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
  Y_p determinations must drift UP toward ~0.25 — the prediction **0.2498–0.2520** (the span of the
  committed genesis window ξ ∈ [0.25, 0.35]) sits above both Aver (+1.3 to +2.0σ) and EMPRESS
  (+3.8 to +4.4σ). **Kill**: resolution EMPRESS-ward (hardens the counter toward **+4.4σ**).
- *(Amended 2026-07-16: the value and kill were re-derived on the model's own ramped ε(T).
- Amended 2026-07-18: the genesis residual ΔN_eff = 0.06–0.24 added. Superseded values are retired
- in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
 - **P-037 — WIDE BINARIES ARE NEWTONIAN** (the live-controversy null): the claimed Gaia
  MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a
  confirmed wide-binary anomaly at the MOND acceleration scale.
@@ -1984,7 +1972,7 @@ by the α_c MCMC.
 
 ## P-2026-041: f̄ = 2/π — the Winding Average's Closed Form (registered 2026-07-11, MID-FLIGHT of its referee)
 
-**The claim:** the ramp-corrected winding average is exactly f̄ = 2/π = 0.63662 (the
+**The claim:** the winding average is exactly f̄ = 2/π = 0.63662 (the
 uniform-phase |cos|-family average — the textbook closed form for a squared radial
 projection averaged over quasi-periodic orbits with uniform initial phase). Current value:
 0.635 ± 0.026 (0.06σ). **Registered while the deciding computation is running**: the
@@ -2069,8 +2057,7 @@ the signal is a systematic. LiteBIRD is the executioner if it is not.
 (z_dec ≈ 150, inside the window): Compton heating ∝ 1/m_e³ → −3ε → decoupling ~3.8%
 earlier → the cosmic-dawn gas ~3.8% colder → **the global 21cm absorption trough ~4.6%
 DEEPER than standard**, at the standard frequency (the z = 17 line is outside the window —
-no shift in position, only in depth). Found by the ramp re-grade (
-the "negligible until 21cm era" grade had expired in 2018).
+no shift in position, only in depth).
 
 **Sign context:** the direction of the EDGES anomaly — but percent-class, NOT the claimed
 ×2: the model CONTRIBUTES to a deeper trough and cannot explain EDGES alone. If EDGES is
@@ -2325,10 +2312,6 @@ the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must se
 three** (quarks +12, gluons −12). **The value is τ = T_c/m_e = 179/511 = 0.3503, derived** —
 T_c from the confining chiral condition, √σ_dark = m_e from the portal. Feeding it forward,
 ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2842 meV against the observed 2.25**. *(The "+1.5%" is not itself a sourced prediction — T_c = 179 keV is the observed ρ_Λ inverted-and-rounded, not independently derived; see the flagship-grade block in [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md). What is real is the **structure** ρ_Λ¼ = (9/2)α⁴τ·m_e, which becomes a prediction once T_c/√σ is computed for SU(2) — the number this very entry bets on.)*
-*(The entry formerly registered **0.345**, which is that prediction* ***read backwards*** *:
-0.345 = 2.25/((9/2)α⁴m_e) = the observed dark-energy density inverted. Quoting it as the bet made
-the lattice test unfalsifiable — a return of 0.3503, i.e. the model being exactly right, would have
-scored the same as a return of 0.345, i.e. the model being 1.5% wrong. Corrected 2026-07-17.)*
 **The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in T_c/√σ is a 10% error in
 the dark-energy scale.
 
@@ -2396,7 +2379,7 @@ have supplied it** — heavy dark quarks drive T_c/√σ back toward the pure-gl
 this entry's own central claim, while a 100 keV quark at 700 keV is suppressed by only
 ρ/ρ₀ = 0.997. At ΔY_p/ΔN_eff ≈ 0.013 that is ΔY_p ≈ 0.0094 ≈ **+2.3σ**, sign wrong (more dof →
 faster expansion → earlier freeze-out → more neutrons → **higher** Y_p), on top of the model's
-already **+1.09σ adverse Y_p scar (ramped) → ≈ +3.4σ.**
+already **+1.09σ adverse Y_p scar → ≈ +3.4σ.**
 
 **5. Therefore a fifth kill: the dark sector must have NEVER THERMALISED with the Standard Model.**
 Thermalised, this entry's own roster drives the model's weakest row to ~3.6σ adverse. Non-

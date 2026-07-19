@@ -616,8 +616,7 @@ TO-DEAD in the literature: Chiang, Schive, Chiueh (PRD 103, 103019
 (2021), cite-verified) contradicted Marsh & Niemeyer (PRL 123,
 051103 (2019)): soliton-oscillation heating of the Eri II cluster is
 negligible in self-consistent sims. The pulse exists; it is NOT an
-instrument. Caught by citation-verify BEFORE booking — the rule
-working as designed.
+instrument.
 (iii) WHAT SURVIVES AS THE METER: halo-wide GRANULE heating
 (speckle, not soliton pulse) — suppressed by p² + q²: free-FDM
 heating exclusions at fixed m RELAX by up to 2× in heating time for

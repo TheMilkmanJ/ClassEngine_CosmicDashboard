@@ -153,7 +153,7 @@ universal-vev amendment (D/H +7.7σ, τ_n −4.9%), capped the completion's
 entire tuning freedom to one number (x₀ ≲ e⁻³⁵), executed the funded
 floor's early face (ν·x_BBN ~ 500–6000 for all allowed x₀), and priced the
 B−L portal at GUT-scale suppression (the uniform neutron potential grows
-a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar: on the standing ramped
+a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar: on the standing
 prediction (D/H = 2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window) the
 deuterium tension is **−2.5 to −1.4σ** against Cooke with the full stated budget (obs ±0.030 ⊕
 PRIMAT nuclear theory ±0.037); the 3.5% inter-code spread, unfolded, would soften it to −1.2…−0.7σ (ΛCDM itself carries 1.85σ under PRIMAT). **The dyad cannot be the
@@ -618,7 +618,7 @@ gravity residuals attributable to the dark sector.*
 ## The nuclear accounting (BBN and its outputs)
 
 **31. Deuterium cosmology (PRIMAT) — PREDICTS.** The scar: **−2.5 to −1.4σ** carried
-honestly on the standing ramped 2.387 (full budget: obs ±0.030 ⊕ theory ±0.037; the unfolded
+honestly on the standing 2.387 (full budget: obs ±0.030 ⊕ theory ±0.037; the unfolded
 inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The dyad cannot heal it (the
 Majoron couples to L; quarks carry L = 0, tree coupling zero) — D/H stands at −2.5 to −1.4σ with no rescue.
 P-2026-006's co-signed amendment (δm̂/m̂ = +0.14–0.21% at BBN) is retained only for a hypothetical
