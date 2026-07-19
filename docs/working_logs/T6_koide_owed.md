@@ -1415,3 +1415,36 @@ phase's obstruction unclassifiable. **What remains is one matching condition:** 
 invariant should equal a symmetry-representation count. Q is built from masses; the charged fraction
 is built from how modes transform; nothing yet forces them equal. That is the sector's last clasp,
 and it is the shape of an anomaly-type argument rather than a units mismatch.
+
+## THE CLASP NAMED — SECTOR EQUIPARTITION, AND BOTH HALVES BECOME THERMO (2026-07-19)
+
+**The modulus condition is a power budget.** The circulant's spectral power splits by charge: the
+neutral mode k = 0 carries f₀², the charged modes k = ±1 carry 2\|f₁\|². The required
+ρ² = \|f₁/f₀\|² = 1/2 says exactly
+
+> 2\|f₁\|² = f₀² — **the two charge sectors carry equal power, half each.**
+
+**And the rule discriminates**, which is what makes it a statement rather than a relabelling:
+
+| sharing rule | condition | Q |
+|---|---|---|
+| per **mode** (f₀ = \|f₁\|) | ρ² = 1 | **1** — a single massive state, excluded by the data |
+| per **charge sector** (f₀² = 2\|f₁\|²) | ρ² = 1/2 | **2/3** — the measured Koide value |
+| no charged power | ρ² = 0 | 1/3 — fully democratic, excluded |
+
+The naive reading, per-mode equipartition, gives Q = 1 and is wrong. Per-sector gives 2/3.
+
+**So both halves of the kernel are thermodynamic, one principle each:**
+
+- **modulus** — equilibrium partitions spectral power equally between the neutral and charged
+  sectors ⟹ ρ = 1/√2 ⟹ τ = ½ln2 ⟹ T_c = 177.10 keV and ρ_Λ¼ = 2.2599 meV;
+- **phase** — the conserved charge (two of three modes) shared democratically over the three faces,
+  with KMS converting charge-per-face at temperature T into an angle ⟹ θ = Q/3 = 2/9.
+
+The three-group sort is what delivered this: both live doors were thermo, and the gravitational
+1/√2 that looked like a third member was the impostor.
+
+**The assumption that remains, stated exactly.** That the partition is by **charge sector** rather
+than per mode. Natural if the U(1)/Z₃ charge is what labels the equilibrium's sectors, and it is
+load-bearing — per-mode sharing would return Q = 1. **This is a claim thermodynamics can
+adjudicate**, which the previous formulation ("why does an angle equal a pure number") was not.
