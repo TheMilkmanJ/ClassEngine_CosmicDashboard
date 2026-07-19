@@ -1094,3 +1094,13 @@ has carried since the gate's energy-bookkeeping session. The formula now states 
 explicitly, and all three points of §4's velocity scaling are harnessed. Everything else held:
 the rank-condition theorem's framing, the 48π·η debt stated as one number, the ~70-order budget
 subordination, and the §5 non-claims list.
+
+## PRTOE_arrow_of_time.md — deep audit 2026-07-19
+
+Forty-first file. One defect: the free-energy gauge still quoted the Gaussian gate — the form
+this file's own §2 makes load-bearing, in the last home the gate-form sweep had missed. Now the
+near-step, and a corpus-wide grep confirms no Gaussian-as-the-form statement survives anywhere
+(the two-recorded-rooms treatment in the mechanism doc is the lone, correct exception). The
+file's structure is among the corpus's best: §2a names exactly what the uniqueness argument
+does not reach, refuses to let §1 cover for it, and declines the anthropic repair its own §3
+rejects — honesty with teeth. The 10³⁶-vs-10¹⁰⁴ budget agrees with the entropy page.
