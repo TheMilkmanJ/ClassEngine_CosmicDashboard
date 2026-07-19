@@ -37,8 +37,10 @@ no reading can be adopted after the fact.
 The model's potential carries a **Z4 anisotropy** (the $\varepsilon_A r^4\cos 4\theta$
 sector — the same term that torques the winding average and that the phase sweeps $4n$
 times per circuit). A composite locked to the Z4 structure is four-fold by construction —
-the natural "molecule" of this vacuum. The owed step: show the fluid's coherent
-oscillation is carried by the Z4-locked cluster rather than the bare constituent (the
+the natural "molecule" of this vacuum. **This is the file's load-bearing gap, and it is single:** every reading below rests on it, so
+until it is shown the quartet is a framing rather than a result. The owed step: show the
+fluid's coherent oscillation is carried by the Z4-locked cluster rather than the bare
+constituent (the
 analog question in laboratory condensates — pair vs quartet condensation — is a real and
 studied distinction).
 

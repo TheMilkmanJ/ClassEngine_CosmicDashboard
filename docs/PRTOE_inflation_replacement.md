@@ -26,12 +26,17 @@ and eternal-inflation's multiverse.
  observational signature is the axis family (a prediction, not a pollution).
 - **The seeds**: the zero-point start (§19) — fluctuations are the condensate's quantum
  noise, stretched through the conformal (w = 1/3) phase.
-- **The tilt** (the quantitative jewel, EXPLORATORY): the amplitude rides the induced
- coupling, which runs logarithmically by the no-bare clause; the spectrum squares it:
- $$n_s - 1 = -\frac{2}{\ln(M_{\rm Pl}/T_{\rm on})} = -0.036 \;\;\text{vs measured}\; -0.0351 \pm 0.0042$$
- Zero new objects — the tilt of the primordial sky is the census's running,
- photographed. (Inflation FITS n_s with potential parameters; this DERIVES it from two
- recorded scales.)
+- **The tilt** (the quantitative jewel): the amplitude rides a logarithmically growing
+ variance and the spectrum squares it, giving a tilt with no new objects — the primordial
+ sky's slope as the medium's own running, photographed. The mechanism is now exhibited as an
+ envelope-times-shot structure anchored at the verified ultraviolet scale, which makes the
+ form **scale-local**:
+ $$n_s(k) - 1 = -\frac{2}{\ln(T_0/k)} \;\Longrightarrow\; n_s(k_*) = 0.9677 \;\;\text{vs measured}\; 0.9649 \pm 0.0042$$
+ with a falsifiable edge the fitted alternative does not have: a **tiny negative running**,
+ α_s ≈ −5×10⁻⁴. (The earlier scale-independent form, 1 − 2/ln(M_Pl/T_on) = 0.9641, is the
+ same log family within ten per cent and now serves as a consistency check;
+ [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §7 carries the exhibit. Inflation fits
+ this number with potential parameters; here it comes out of recorded scales.)
 - **The isocurvature signature**: inflation must suppress isocurvature; this model
  PREDICTS a specific %-level line at ℓ ~ 170 (P-031, now a consequence of the λ
  saturation) — a discriminant, not an embarrassment.
@@ -39,7 +44,8 @@ and eternal-inflation's multiverse.
 ## 2. What the model does NOT need
 No inflaton, no slow-roll tuning, no reheating theory, no measure problem, no eternal
 inflation, no multiverse. The price paid instead: the cyclic/bounce machinery (recorded),
-and the A_s amplitude count (1/N census form — the one seed number still owed).
+and the A_s amplitude count (1/N census form — its coupling and loop factor are derived; the
+one seed number still owed is the count's exact normalization).
 
 ## 3. Kills
 (i) the α_c MCMC moving T_on enough to break the tilt's landing; (ii) a confirmed tensor-to-scalar
