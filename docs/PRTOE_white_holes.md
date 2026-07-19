@@ -169,29 +169,15 @@ the data is the fingerprint of how the fountain poured. [GRAMMAR — unification
 recorded descriptions; no new mechanism; the torus's dynamical origin stays owned by the
 recorded Kelvin-Helmholtz roll-up.]
 
-**Asked and answered — can the white hole do birefringence? NO, three walls:**
-(1) timing — CMB polarization is minted at last scattering, \~380 kyr after the pour;
-rotation accumulates only along the post-recombination path; (2) coupling — the recorded
-P-009 closed null: the medium is EM-neutral BY FORCE (the Meissner requirement), anomaly
-coefficient exactly zero, and the white hole is the same medium, adding geometry, not
-couplings; (3) the pour's parity mark is real but lives in the vorticity/magnetic
-channel: P-028's genome-signed magnetic helicity — birefringence's cousin in the channel
-the neutral medium actually owns. The anti-birefringence bet (the unownable 0.34°) stands
-unchanged, white hole included.
-
-**The ramp audit of the three walls — and T10's identity:**
-ramp-checking the birefringence answer moved one wall. Wall 2 (anomaly
-coefficient exactly zero) is a LEGAL step — the exemption clause (quantized/anomaly
-numbers may step; topology doesn't ramp). Wall 1 was step-PHRASED: the pour cannot rotate
-light en route, but it writes light's BIRTH CERTIFICATE — parity-odd initial conditions
-(the genome-signed helicity, P-028; chiral gravitational waves, debt T10) generate EB/TB
-correlations at last scattering with NO EM coupling, no violation of the neutrality null,
-and no birefringence. The channels are distinguishable (en-route rotation is coherent
-across scales with birefringence-specific EB/TB shapes; primordial parity-odd sources
-carry their own spectra), so the anti-birefringence bet stands unchanged while T10 gains
-its physical identity: **the white hole's fingerprint in light** — the one
-no-counterparty instant stamps parity-odd structure on everything it pours, and
-parity-even physics downstream preserves what it cannot erase. Fence: the
+**The pour writes light's birth certificate, not its path.** The medium is electromagnetically
+neutral by force, so nothing here rotates light en route and the anti-birefringence bet stands
+untouched. What the one no-counterparty instant does stamp is parity-odd *initial conditions* —
+the genome-signed magnetic helicity, and chiral gravitational waves — which imprint at last
+scattering with no electromagnetic coupling at all. The two are distinguishable in principle:
+rotation along the path carries its own spectral signature, while primordial parity-odd sources
+carry theirs. That is T10's physical identity: **the white hole's fingerprint in light** — the
+pour stamps parity-odd structure on everything it issues, and parity-even physics downstream
+preserves what it cannot erase. Fence: the
 "gravity reverses and attaches to light" mechanic grades [EXPLORATORY] — the recorded snap
 is a neutral HANDOVER, not a rule inversion, and census blindness holds at genesis; the
 mechanic's observable content (the at-birth parity stamp) is the real and already-owed
