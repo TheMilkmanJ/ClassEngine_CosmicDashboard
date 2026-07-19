@@ -105,7 +105,7 @@ Undated entries below read against this register.*
 | Process error 29: the G-closure TERMINATION was issued on two unwalked steps — (a) "ξ_H is outside our jurisdiction" (FALSE: in emergent gravity, non-minimal couplings are OUTPUTS — our own earlier work derived ξ_amp that way), and (b) the SM's "exact" 48−48 cancellation rests on the literature-DISPUTED vector contact term, which I had flagged and then dismissed because the old roster had no vectors — the new one has twelve | a later walk vacates it. **THREE premature verdicts on one question in one day (death, reprieve, termination), all on unwalked steps.** The zombie risk is named; the final test is pre-registered and finite | 2026-07-13 |
 | Process error 28: the REPRIEVE was itself issued on an unwalked step — K/M_red invoked as "a free O(1)" without asking what the model already says about it | a later walk resolves it: the basement ruling pins K to Planck-class, the regulator closes the cutoff convention; the honest bracket is [1.50, 37.70] and the roster's 10 lands INSIDE it — not a match, not a failure, not a prediction. **The true summit named: derive K from the medium's own microphysics.** Obituary AND reprieve both premature | 2026-07-13 |
 | Process error 27: TERMINATION-B (the G-closure dead) was declared without walking the ramps BEHIND the verdict — the bootstrap's exact K = M_red step and the FRW-degenerate basis | a later walk vacates it: the "3.8× shortfall" is an O(1) in the cutoff; the "fatal epoch dependence" is a symptom of the basis. A termination-B verdict is itself a result and is subject to the ramp laws — the snag protocol applies to obituaries too | 2026-07-13 |
-| Process error 26: the deflation ramped ξ-space but stepped at ξ's ORIGIN — the founding coupling was graded as an orphan number; no derivation from the model's own founding sector was ever attempted | the ξ-derivation session docketed with pre-registration of the predicted door BEFORE the one-bit court; a derived collision would be menu-immune evidence; the deflation itself stands | 2026-07-13 |
+| Process error 26: the deflation ramped ξ-space but stepped at ξ's ORIGIN — the founding coupling was graded as an orphan number; no derivation from the model's own founding sector was ever attempted | the ξ-derivation session was scheduled with pre-registration of the predicted door BEFORE the one-bit court; a derived collision would be menu-immune evidence; the deflation itself stands. **The session has since run** — ξ is derived from the medium's own sector and now carries three independent confirmations (ξ = 402 AU returning 398 from m = 2.24×10⁻²⁰ eV, the Schive core radii, the superradiance band) | 2026-07-13 |
 | Process error 25: a stale pre-polish version of the QG file silently resurrected (flip at the reference-purge commit) and went unnoticed — the hygiene pass cleaned the corpse; the "weird jargon in quantum gravity" sighting was this resurrection | restored from the last good commit + later passes re-applied + entry-99 updates; all other jewels audited intact (titles verified); rule sharpened: full-file overwrites verify the TITLE LINE against the intended version before write | 2026-07-13 (found during a booking failure) |
 | The vector escape (n Kelvin branches closing gravity's sign; the n = 19 co-landing) | DEAD FOURFOLD within one day: the global winding is coreless (no Kelvin sector); measure 10⁻²⁵; infrared 10⁻²⁵; the halo route kinematically fenced — the coincidence-watch protocol caught its own flag at designed speed | 2026-07-13 |
 
@@ -251,7 +251,9 @@ SH0ES-anchored PolyChord evidence run.
 
 **Why it died:** the 0.26 was a hand-picked, θ_s-only-validated value, never derived. When the
 birth-ramp radiation was actually DERIVED from the model, it gives ΔN_eff(recombination) ~
-10⁻³, not 0.26 — the dCDF's radiation-like phase ends at z_on ~ 3.6×10⁷ (the H=m onset) and is
+10⁻³, not 0.26 — the dCDF's radiation-like phase ends at the H = m onset, z_on = 4.03×10⁷ (the
+identity; the evidence run is frozen at a profiled 3.56×10⁷, which is where the ~3.6×10⁷ once
+quoted here came from), and is
 dust by recombination, thirty thousand-fold of expansion earlier. The hand-picked 0.26 was
 ~250× the model's own registered value, and it poisoned the CMB by ~6000 χ² (isolation test at
 a fixed point: Planck TTTEEE 2270 → 5698 with the component on; ΛCDM floor on the identical
@@ -513,7 +515,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | what died | the killshot | provenance |
 |---|---|---|
 | LITERAL He-3 as the medium | four shots: baryonic (Ω_b×5 short), EM-visible (vs L1a), no pairing at cosmic density/temperature (mK physics), post-BBN existence | the STRUCTURAL He-3-A reading survives separately |
-| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | **v1 is dead (clean); the *approach* is not** — the birth zone is strong-coupling, so perturbative RGEs cannot reach the induced point. The successor (perturbative-edge matching) is **docketed (§8), not this run** — this row buries v1 only, not the redesign | a structural point materialized |
+| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | **v1 is dead (clean); the *approach* is not** — the birth zone is strong-coupling, so perturbative RGEs cannot reach the induced point. The successor (perturbative-edge matching) is **filed at §8 and still unbuilt, not this run** — this row buries v1 only, not the redesign | a structural point materialized |
 | P-028's void-column internal rescue (return-flux topology) | flux conservation: the return flux through voids = the flux-average = the smooth estimate — the ×3400 line-concentration cannot raise the inter-line floor; the 1.5-order gap does NOT close internally | the working docket closure, 2026-07-12 |
 
 ## 6. The mathematical self-audit
@@ -558,7 +560,7 @@ wall — the audit confirms the catch discipline worked retroactively.
 | candidate | the step in the kill | the ramp re-run | weight |
 |---|---|---|---|
 | **The ξ-scale wide-binary force** (§2) | "coherence lengths don't push on *embedded* bodies" — embedded/not-embedded read as a binary | **RE-RUN EXECUTED: the ramp is real (smooth across the 402 AU hinge) but the census caps the amplitude at gravitational polarization, 4πGρ_dm ξ²/c_s² ≈ 10⁻¹⁸ — 17.3 orders under the claims. THE KILL STANDS, now mechanism-grade; corollary: the model predicts NO wide-binary anomaly (a confirmed one = a P-2026-014-class kill)** | closed 2026-07-13 |
-| The two-loop shooter v1 (§5) | "perturbative RGEs cannot reach" — but perturbativity fails *gradually*, not at a wall | already docketed as its own named redesign (perturbative-edge matching); the ramp re-run and the redesign are the same object | heavy (docketed; class) |
+| The two-loop shooter v1 (§5) | "perturbative RGEs cannot reach" — but perturbativity fails *gradually*, not at a wall | carried as its own named redesign, perturbative-edge matching; the ramp re-run and the redesign are the same object. **Still open** — the redesign has not been built | heavy; class |
 | The gate-0 deuterium heal (§2) | the heal variants were window/step-shaped couplings | the coupling form is already filed theory-open — but the kill is a 12σ DATA exclusion across four variants and carries a standing do-not-re-run order; the ramp question lives as theory-open, not as a re-run | closed by data + standing order |
 
 **Net: one new live re-run (the wide-binary intermediate regime), one already-owed

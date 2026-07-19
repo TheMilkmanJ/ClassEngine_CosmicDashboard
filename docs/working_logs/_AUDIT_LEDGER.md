@@ -398,3 +398,30 @@ against its own falsification clause:
 
 A registry quietly carrying a fired kill would be the single most damaging thing findable in this
 corpus. It is not carrying one.
+
+## PRTOE_FAILURES_LEDGER.md — deep audit 2026-07-19
+
+Thirteen checks on 1,681 lines. **The healthiest file of the nine, and the finding is why.**
+
+Probed both directions a graveyard can fail:
+
+**Does it bury anything alive?** No. Every hit on today's live results was correct in context — the
+w = 1/3 mentions concern a separate Koide category error, c = 9/10 appears as *what killed* a
+predecessor, the f̄ mentions are killed rosters. And it already carried **τ = ½ln2, T_c = 177.10 keV,
+ρ_Λ¼ = 2.2599 meV** — current, at a moment when THREE_EQUATIONS, MATH_SPINE, DEPENDENCY_TREE,
+READERS_GUIDE and INDEX were all still quoting the superseded values.
+
+**Does it keep anything open that is settled?** One real case: process error 26 recorded the
+ξ-derivation session as merely scheduled. It has since run, and ξ now carries three independent
+confirmations. Updated. The MOND kill is legitimately reopened and correctly marked so.
+
+Three dead "(docketed)" pointers resolved to what they actually are — the ξ session (**run**), and
+the two-loop shooter redesign (**still unbuilt**, twice). One z_on conflation fixed: the ledger
+called ~3.6×10⁷ "the H = m onset", when that is the profiled freeze and the identity is 4.03×10⁷.
+
+**Why the graveyard beat the forward files.** A kill entry is written once, at the moment of death,
+and never needs revising — like a registry entry. The forward files are all *summaries*, and a
+summary has to be maintained against a thing that keeps moving. Nine files in, the pattern is
+unambiguous: **this corpus's rot is entirely in the maintained-summary form.** Frozen records —
+registry entries, kill entries — held up. Ledgers, status boards, dependency grades, index lines
+and reading guides did not, every one drifting pessimistic.
