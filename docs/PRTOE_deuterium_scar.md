@@ -130,7 +130,7 @@ That single test sorts every route the model has, and explains which ones surviv
 
 **Constant dark radiation fails on shape, not size.** It raises both abundances with the same sign,
 but the two rows need opposite moves: deuterium is 2.5σ low and helium is already 1.09σ high. The
-committed ζ window (ΔN_eff ≈ 0.26–0.29) sits at this lever's optimum. Zeroing deuterium takes
+committed ζ window (ΔN_eff ≈ 0.06–0.24) sits at this lever's optimum. Zeroing deuterium takes
 ΔN_eff = 0.42, which lands helium at +2.5 to +2.7σ against Aver and +4.9 to +5.1σ against EMPRESS —
 trading a 2.5σ deficit for a 2.5σ excess.
 
