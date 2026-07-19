@@ -1153,3 +1153,23 @@ corpus's other two files (10¹⁰⁶ → 10¹⁰⁴, 16 orders over CMB); the ex
 the "cycle (Tolman)" verdict gained the finite-chain clarifier so it cannot be read against the
 standing frame that *accepts* Tolman. The honest-status block — "a story built from real parts,
 NOT a derivation" — is the right grade and was left exactly as written.
+
+## PRTOE_baryogenesis.md / PRTOE_igmf_helicity.md / PRTOE_lss_parity.md — deep audits 2026-07-19
+
+Files forty-six through forty-eight, and all three are **clean passes** (the fifth, sixth, and
+seventh). The parity family's records are the corpus's healthiest tissue:
+
+- **baryogenesis** holds the crux-vs-integral distinction exactly right — the frozen-era
+  category error resolved (phase conducts while the modulus sits still), the transmission
+  integral still owed with its target range stated (𝒯 = 2–6×10⁻¹¹, now harnessed), and the
+  un-refereed portions marked as such.
+- **igmf_helicity** grades its own hint as "a watch rather than a test" until the sign map runs,
+  and the 07-18 addendum sharpens the owed item to one relative sign with the closing object
+  named (the roll-up theorem, run for its sign).
+- **lss_parity** carries the referee's report with the model's position vindicated-but-not-called
+  (DESI's null, the blinded 2.9σ, the honest "not a direct replication" caveat), P-2026-055's
+  provenance stated including the after-the-fact mirroring, and a §4 owed list in perfect
+  check-13 form.
+
+The pattern is now beyond doubt: files written or reworked on 07-18 are clean; the rot lives in
+everything maintained-but-not-rewritten between 07-07 and 07-16.
