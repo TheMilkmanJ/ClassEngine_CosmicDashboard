@@ -552,6 +552,16 @@ chk("PHYSICS_DOMAINS 11", "Y_Q over eta_B in decades", 30.2, math.log10(1e21/6e-
 chk("PHYSICS_DOMAINS II", "type tally totals the 52 entries", 52, 14+8+4+6+12+2+2+4, 0.0)
 chk("PHYSICS_DOMAINS II", "status tally totals the 52 entries", 52, 15+12+1+12+2+10, 0.0)
 
+
+# --- the two chain files, 2026-07-19 ---
+chk("THE_CHAIN 3", "z(T_c) at the standing 177.10 keV", 7.54e8, 7.62e8*177.10/179, 0.002)
+chk("THE_CHAIN 5", "census-lock cells at the frozen A_s", 782, (1/2.088058e-9)**(1/3), 0.001)
+chk("THE_CHAIN 5", "the older 781 was the Planck-anchored count", 781, (1/2.100e-9)**(1/3), 0.001)
+chk("THE_CHAIN 10", "turn window in z: a = 2.0", -0.50, 1/2.0-1, 0.01)
+chk("THE_CHAIN 10", "turn window in z: a = 2.8", -0.643, 1/2.8-1, 0.005)
+chk("great_chain 6", "the coded dyad amplitude is 1 + eps", 1.012543, 1+27*ALPHA/(5*math.pi), 1e-5)
+chk("great_chain 8", "the nuclear rung", 8.5e-3, 8e6/939e6, 0.05)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
