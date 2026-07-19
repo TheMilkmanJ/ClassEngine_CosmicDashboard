@@ -46,3 +46,43 @@ all possible with existing apparatus classes.
 
 *Every other theory of everything asks for a bigger collider. This one asks for a colder
 doughnut — and half its certificates already hang in metrology labs.*
+
+
+## The bench proposals, specified (2026-07-18)
+
+Three ring-condensate measurements, with what each does and does not test. A standard ring
+(20 μm radius, 126 μm circumference, half-micron healing length) is the reference geometry.
+
+**(a) The winding average — the one that is genuinely new.** The model's amplitude carries
+f̄ = 2/π as the time-average of the winding's projection. On a ring the same average is
+directly measurable: prepare a known winding, then read any observable linear in the local
+phase projection around the loop. The prediction is **⟨|cos|⟩ = 2/π = 0.6366**, against the
+rival averages the corpus already rejected on cosmological data — the root-mean-square
+(0.7071) and the variance (0.5). A per-cent measurement separates them cleanly, and the
+corpus's own two determinations sit at 0.625 and 0.635. *What it does not test:* whether the
+cosmological coupling is linear in that projection. It tests the average — which is exactly
+the piece the corpus grades as granted rather than derived.
+
+**(b) The quench-winding statistics — already run, and the answer is in.** Kibble–Zurek
+predicts the winding's spread from the ratio of the ring to the coherence length frozen in at
+the transition, and ring-condensate experiments have measured that distribution and found the
+scaling holds. **This is corroboration of the machinery the model's genesis draw rests on, not
+a test of the model's own numbers** — the distinction stated so it is not blurred later.
+
+**(c) The phase-slip statistics.** Drive the ring above the critical velocity and count slips.
+The model's claim that the winding freezes mechanically at a slip threshold, rather than by a
+thermal draw, predicts a slip rate following the barrier form rather than an Arrhenius law —
+measurable in existing rotating-ring apparatus.
+
+**The bench-to-cosmos mapping, stated honestly:**
+
+| quantity | carries over? |
+|---|---|
+| the winding number | yes — the same dimensionless topological charge |
+| healing length over loop size | yes — it sets both the quench spread and the mode cutoff |
+| quench rate against response time | only through the Kibble–Zurek exponent combination |
+| the medium's sound speed | **no** — 0.148c cosmologically against millimetres per second on a bench |
+| the coupling to matter | **no** — no laboratory analogue of the lepton portal exists |
+
+The two rows that do not carry are the reason a bench result can support the model's
+*machinery* and never its *amplitude*.
