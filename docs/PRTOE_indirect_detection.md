@@ -40,8 +40,8 @@ it simply survives every year the sky stays mundane, while tuned-WIMP interpreta
 
 ## 3. Owed
 
-1. The cross-section CEILING computation (state "how null" numerically — the portal-mediated
- effective σv, expected ~dozens of orders below any instrument).
+1. ~~The cross-section CEILING computation.~~ **Paid — the tail below: tree-level σv = 0
+ exactly, gravitational ceiling ~10⁻¹⁵⁴ cm³/s, ~128 orders under thermal-relic.**
 2. The GC-excess pulsar-interpretation tracking (the model roots for the pulsars).
 3. The 511 keV bookkeeping note (positrons from astrophysics — no medium channel).
 
