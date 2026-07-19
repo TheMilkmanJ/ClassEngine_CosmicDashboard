@@ -1503,3 +1503,31 @@ that the bet now states a **band**, and names what would narrow it: a measuremen
 comb has only one of them as a free parameter.* The error survived because "ℓ ≈ 126" is a
 well-formed sentence either way — nothing in the phrasing reveals which quantity is meant, and the
 two cited numbers were never put side by side until an audit read both files in one pass.
+
+### P-2026-051's LOCK SLOPE — TWICE ITS OWN CLOSURE'S DERIVATIVE (2026-07-18)
+
+**What was registered.** "The deviations of the Koide amplitude from √2 and of the Brannen phase
+from 2/9 rad … lie on the line **δθ = (2√2/9)·δA = 0.3143·δA** (the holonomy-equals-Q closure's
+differential)."
+
+**The closure the entry itself names**, in its own kill (iii), is **θ = (1 + A²/2)/9** — which
+returns 2/9 at A = √2, as it must. Its derivative is
+
+> dθ/dA = A/9 = **√2/9 = 0.1571**
+
+The registered slope, 2√2/9 = 0.3143, is exactly **twice** that. The entry calls the line "the
+closure's exact differential" and it is the differential doubled.
+
+**What it costs, and what survives.** The verdict is unchanged in kind: on the corrected slope the
+current data sits **−0.54σ** from the line rather than −0.31σ — still comfortably consistent, so
+nothing that rode on "the deviations lie on the line" falls. What was wrong was the line itself,
+and with it the registered kill, which pointed Belle II at a locus the closure does not predict.
+Corrected in place; the closure, the circulant algebra, and the Parseval identity are untouched.
+
+**How it survived registration.** The coefficient was written as a closed form — 2√2/9 — which
+reads as derived rather than fitted, and a closed form invites recognition rather than checking. It
+was booked the same day as the closure it differentiates, with no step shown between them.
+
+**The lesson (process).** *A closed form is not a derivation, and the more it looks like one the
+less likely anyone is to differentiate it themselves.* The check took one line of arithmetic and
+had never been run.
