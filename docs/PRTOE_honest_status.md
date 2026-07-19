@@ -12,15 +12,19 @@ Major moves since the 2026-07-08 baseline (below):
 
 - **c is now derived (c = 9/10).** The census factor is no longer a hypothesis: the neutrino sits on the
   vacuum's seat because its mass is medium-sourced, not electroweak. (Was least-trusted joint #3 — retire it.)
-- **The dark-energy VALUE now has a derived-scaling closed form:** ρ_Λ¼ = (d/2)α⁴m_e ≈ 2.17 meV (0.97×),
-  in three fundamental constants (d = 3, α, m_e). But its last digit rests on one strong-coupling number
-  that needs a *proposed* dark-confining sector — unproven new physics (task #48).
+- **The dark-energy VALUE now has a derived-scaling closed form:** ρ_Λ¼ = (d²/2)α⁴·T_c, which on the
+  Koide kernel's τ = ½ln2 gives **2.2599 meV against the observed 2.25 — +0.44%**. *(This board's
+  earlier (d/2)α⁴m_e ≈ 2.17 meV, 0.97×, is the same structure with τ approximated as 1/3; the kernel
+  supplies τ exactly and the agreement improves from −3% to +0.44%.)* Its referee is a lattice
+  T_c/√σ for SU(2) with N_f = 3 — a number that does not yet exist.
 - **DE-floor self-tuning (least-trusted joint #1) is now sharply understood — and it does NOT self-tune.**
   The settling response is **ohmic** in the dark-energy channel, so the floor's value is not fixed by the
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
   channel, not DE. Honest: still no working self-tuning mechanism for the value.
-- **Evidence:** the +2.635 Laplace win landed (below, unchanged); the MCMC chains are still running
-  (χ² ≈ 2799–2803), and PolyChord has not been run.
+- **Evidence:** the +2.635 Laplace win landed (below, unchanged). *(Superseded 07-18: PolyChord IS
+  now running — since 2026-07-18, ~23h in as of 07-19, no log(Z) yet. And of the supporting MCMC
+  chains, only this evidence job is live; routeD, conv_desi, zon_disp, zon and twist are all stopped,
+  most far from convergence, `cmp_prtoe_zon` untouched since 07-12.)*
 
 ### What moved on 2026-07-18
 
@@ -34,8 +38,10 @@ and the negative bare vacuum became load-bearing rather than decorative.
 **Adverse, and the sharper of the two directions.** Two independent constraints now bear
 directly on the ultralight mass, which is fixed by the onset clock and cannot float: the
 central soliton it implies carries roughly the whole extended mass the Galactic Centre shows
-within a parsec, and it places supermassive black holes between 2×10⁸ and 3×10⁹ solar masses
-in the superradiant band where high spins are measured. Neither is a computed exclusion; both
+within a parsec, and it places supermassive black holes in a band of a few 10⁸ to a few 10⁹ solar masses
+in the superradiant band where high spins are measured (**6×10⁸–3×10⁹ M☉**, recomputed from
+α_g = Mm/M_Pl² over the efficient ℓ = m = 1 range α_g ∈ [0.1, 0.5]; the 2×10⁸ this board carried
+was low). Neither is a computed exclusion; both
 could close the sector. Separately, the low-multipole claim lost its power-spectrum footing
 entirely — the torus is invisible to the spectrum at any multipole — and survives only as a
 correlation-structure prediction.
@@ -122,18 +128,26 @@ problem" claim. Update the least-trusted-joints ranking: the floor is no longer 
 -- it has a stable mechanism -- it just isn't a CC-problem solution (which we should never have claimed).
 Net odds effect: mildly favorable (the floor is not a fatal flaw), minus one over-claim retracted.
 
-## CODE-vs-THEORY AUDIT (basement check, 2026-07-08) — the dyad link is NOT enforced in code
+## CODE-vs-THEORY AUDIT (2026-07-08, re-checked 2026-07-19) — the link is unenforced in code, but the fit no longer floats m_e
 
 Audited the CLASS C source against the model's claims. GOOD: dcdf has a real perturbation sector
 (δ/θ/delta_p) -- old gap closed; the w=-1 floor is asymptotic/never-crossed (matches the
 #22 ghost-condensate attractor). THREE theory-vs-code GAPS found:
-  1. **BIGGEST -- m_e and dcdf are INDEPENDENT in the code.** thermodynamics.c has ZERO dcdf refs;
-     m_e is CLASS's generic varying_fundamental_constants (hardcoded step at z=50), disconnected from
-     the dcdf field. In the config varying_me and dcdf_rho_inf are independent free params. So the DYAD
-     (m_e + dark sector = ONE superfluid) is NOT enforced -- the fit tests "dcdf + free m_e step", not
-     "one linked superfluid". Consequences: (a) the amplitude derivation (eps = c*f_amp*Psi0/M_red)
-     is NEVER tested by the fit -- m_e is just a free number; (b) part of the "competitive with ΛCDM"
-     result comes from the extra freedom of 2 independent knobs, not the constrained dyad.
+  1. **m_e and dcdf are still INDEPENDENT in the code — but the fit no longer exploits it.**
+     Re-checked 2026-07-19. Unchanged: `thermodynamics.c` has ZERO dcdf references, so the code does
+     not *derive* m_e from the dark sector; the link is a theoretical claim the source does not
+     enforce. **What HAS changed is the config.** `cmp_prtoe_fixed.yaml` sets
+     `varying_me: 1.012543` — pinned at the derived stack 1 + 27α/5π, not floated.
+
+     The 2026-07-08 entry drew two consequences from the independence, and both have turned over.
+     It said *(a)* the amplitude derivation is never tested by the fit, m_e being just a free number,
+     and *(b)* part of the competitiveness with ΛCDM comes from the extra freedom of two independent
+     knobs. **(b) is retired** — the knob is nailed to the derivation and cannot move to help. **(a)
+     inverts** — the derivation is not untested by the fit, it *is* the fit's fixed input, which is a
+     harder test rather than a softer one. **What remains owed
+     is the code-level link**: m_e computed from dcdf parameters rather than set alongside them.
+     Until that exists, a paper must still say the implementation carries m_e as an input pinned to
+     the derivation, not as an output of the dark sector.
   2. Screening is a REDSHIFT-keyed transition (background.c: "the depth law: edges are fades,
      not steps") -- the low edge is a tanh fade in ln(1+z) at varconst_transition_width, and the
      high edge carries a growth ramp (v^2 propto 1 - T/T_c). What REMAINS true: the transition is
@@ -145,7 +159,10 @@ Audited the CLASS C source against the model's claims. GOOD: dcdf has a real per
   3. The w=1/3 radiation-like phase is ABSENT (dcdf starts as dust w~0); the claimed 1/3→0→-1 is
      really 0→-1 in code. The conformal-origin c=1 argument (docketed) rests on this unimplemented phase.
   (Unverified: whether cs2_dcdf enforces c_s²=0 at the floor -- function body in an unlocated header.)
-HONEST IMPLICATION: the fit is of a MORE FLEXIBLE model than the theory. To test the actual dyad,
+HONEST IMPLICATION (as of 2026-07-19): gaps 2 and 3 stand. Gap 1 has narrowed — the fit is no
+longer of a more flexible model, because m_e is pinned at the derived value; what remains is that
+the *code* does not compute m_e from the dark sector, so the link is asserted rather than
+implemented. The 2026-07-08 reading below is kept for the record: To test the actual dyad,
 ENFORCE the link (derive m_e from dcdf params per #11, fix the transition from screening physics,
 re-fit with m_e no longer free) -- the constrained dyad may fit worse. Any paper MUST state that the
 fit uses an effective parametrization with independent m_e; the linked superfluid is the theoretical

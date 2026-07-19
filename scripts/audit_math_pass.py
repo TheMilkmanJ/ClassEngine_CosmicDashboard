@@ -336,6 +336,15 @@ chk("ForJustin/07", "mass implied by the run's z_on", 1.753e-20, _m_run, 0.01, "
 chk("ForJustin/07", "that mass misses xi = 402 AU by", 27.0,
     100*abs(_HBARC/(_m_run*_cs)/_AU - 402)/402, 0.05, "%")
 
+# ---- the superradiance band (honest_status carried 2e8; it is 6e8) ---------
+_MSUN = 1.98892e30 * 5.6095886e35            # kg -> eV
+_band = lambda ag: ag*MPL**2/2.24e-20/_MSUN  # alpha_g = M m / M_Pl^2
+chk("blackholes", "superradiance band, lower edge (alpha_g = 0.1)", 6.0e8, _band(0.1), 0.02, "M_sun")
+chk("blackholes", "superradiance band, upper edge (alpha_g = 0.5)", 3.0e9, _band(0.5), 0.02, "M_sun")
+# the DE closed form at tau = 1/3 vs the kernel's tau -- why honest_status read 2.17 not 2.26
+chk("honest_status", "(d/2)a^4 m_e — the tau=1/3 approximation", 2.174,
+    1.5*ALPHA**4*ME*1e3, 2e-3, "meV")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
