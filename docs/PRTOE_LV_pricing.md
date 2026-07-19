@@ -36,7 +36,7 @@ the constitution — the dangerous operators are not suppressed, they are UNWRIT
 
 ## 2. Verdict
 
-Every sector clears, margins 12–27 orders, and the two exact zeros (photon tree, c_T) are
+Every sector clears, margins 12–29 orders, and the two exact zeros (photon tree, c_T) are
 CONSTITUTIONAL, not tuned. M3's bookkeeping half CLOSES: the frame is priced and paid.
 The gravitational root's remaining exposure is not an unpriced operator but a scope
 limit — the model does not compute the numerical value of Newton's constant, and does not
