@@ -93,8 +93,8 @@ dark-energy scale.**
 
 ## The overlay: where this model sits against your program
 
-Projected 10-year sensitivities, with each span being the nuclear-matrix-element range rather than
-an experimental uncertainty, against the model's window of [0.02, 5.30] meV:
+Projected 10-year sensitivities, each span being the nuclear-matrix-element range rather than an
+experimental uncertainty, against the model's window of [0.02, 5.30] meV:
 
 | experiment | isotope | projected m_ββ reach | vs the model's 5.30 meV ceiling |
 |---|---|---|---|
@@ -102,29 +102,35 @@ an experimental uncertainty, against the model's window of [0.02, 5.30] meV:
 | LEGEND-1000 | ⁷⁶Ge | 9 – 21 meV | entirely above; cannot reach |
 | CUPID | ¹⁰⁰Mo | 12 – 34 meV | entirely above; cannot reach |
 
-**nEXO is the only one of the three that can touch this model at all**, and only if the ¹³⁶Xe matrix
-element falls at the favourable end of its range. That is a nuclear-theory question we have no
-standing to settle, and it decides whether your experiment is a test of this model or a bound on it.
+nEXO is the only one of the three that can touch this model, and only if the ¹³⁶Xe matrix element
+falls at the favourable end. Taking the Majorana phases flat — the usual convention, and a choice
+rather than a result — the model exceeds 4.7 meV about **10.8%** of the time.
 
-**How likely a signal would be, if the model is right and the reach is 4.7 meV.** The model fixes
-the three contributions but not the two Majorana phases. Taking those flat — the usual convention,
-and a choice rather than a result — the effective mass exceeds 4.7 meV about **11% of the time**:
+**And the part that concerns your own work directly.** If barium tagging reaches the factor-of-four
+half-life gain your group has projected, the reach improves by √4 = 2 in m_ββ, from 4.7 to roughly
+**2.35 meV**. On this model that moves the probability of a signal from 10.8% to **69%** — a
+six-fold improvement, and the difference between a long shot and a likely detection.
 
-| threshold | P(m_ββ above it) |
-|---|---|
-| 4.7 meV (nEXO, favourable matrix element) | **10.8%** |
-| 5.0 meV | 5.3% |
-| 9.0 meV (LEGEND-1000's best) | 0% |
+**But it costs discrimination, and you would spot that immediately, so here it is first.** Minimal
+normal ordering — the m₁ = 0 case, the generic expectation — has its own window of [1.48, 3.69] meV
+and exceeds 2.35 meV **63.7%** of the time. Against this model's 69%, a tagged detection near 2.35
+separates almost nothing:
 
-So the honest offer is a roughly one-in-nine shot, conditional on both the model being right and the
-matrix element cooperating. That is not a promise of a signal. It is the statement that **your
-experiment, alone among the three, occupies the only part of parameter space where this model can be
-confirmed rather than merely refuted** — and that if the phases are unlucky, or the matrix element
-unfavourable, a null tells you nothing about the model either way.
+| reach | this model | minimal ordering | separates? |
+|---|---|---|---|
+| 4.7 meV (baseline nEXO) | 10.8% | **0%** | **yes, completely** |
+| 2.35 meV (with Ba tagging) | 69.1% | 63.7% | no |
 
-What that buys you, if it is worth anything: a specific target with a stated probability, from a
-framework that fixed the number before looking, and which dies outright if you see a signal anywhere
-above 5.3 meV.
+**The discriminating band is 3.69 to 5.30 meV** — above minimal ordering's hard ceiling, below this
+model's. Minimal ordering *cannot* produce a signal there at any phases; this model lands there
+**31.7%** of the time. And of the 10.8% of cases where baseline nEXO sees anything at all, **all of
+it** falls in that band.
+
+So the two capabilities do different jobs. **Barium tagging makes the test likely; the baseline
+machine makes it decisive.** A tagged detection at 2 meV would be a triumph for the field and would
+barely move this model's posterior. A baseline detection at 4.5 meV would be a result no
+minimal-ordering scenario can accommodate. If that distinction is useful to how the upgrade gets
+argued for, it is yours to use.
 
 ## Why the cosmological squeeze relaxes
 
@@ -262,10 +268,12 @@ reading of the deficit — that is, whether a tension living in the baryon densi
 H₀ at a fixed rate should be argued as a BBN problem at all, or as a statement about where on the
 m_e–ω_b degeneracy the data wants to sit; and whether the dark-ages radio referee is a real path.
 
-**(c)** Whether the nEXO reach we used (4.7 meV at the favourable ¹³⁶Xe matrix element) is the right
-number to plan against, and how you would put an honest uncertainty on the overlap band. The
-one-in-nine figure is only as good as that 4.7, and you are far better placed than we are to say
-what it should be.
+**(c)** Two numbers we took from the outside and you own from the inside: whether 4.7 meV is the
+right baseline nEXO reach to plan against at the favourable ¹³⁶Xe matrix element, and whether the
+factor-of-four barium-tagging gain should be read as half-life sensitivity (which is how we used it,
+giving 2× in m_ββ) or as something else. Every probability above moves with those two, and the
+discriminating-band argument in particular is only as good as the 3.69 meV minimal-ordering ceiling
+sitting where we have put it.
 
 ---
 

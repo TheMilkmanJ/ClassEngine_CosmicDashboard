@@ -284,6 +284,24 @@ chk("fairbank_note", "m_bb floor at m1 = 0 (minimal NH)", 1.48, abs(_t0[1]-_t0[2
 chk("fairbank_note", "minimal-NH ceiling sits BELOW nEXO's 4.7 reach", 1.0,
     1.0 if sum(_t0) < 4.7 else 0.0, 1e-9)
 
+# ---- barium tagging and the discriminating band ----------------------------
+def _win(m1):
+    m2, m3 = math.sqrt(m1**2+_dm21), math.sqrt(m1**2+_dm31)
+    return [(1-_s12)*(1-_s13)*m1*1e3, _s12*(1-_s13)*m2*1e3, _s13*m3*1e3]
+_tm, _t0 = _win(2.25e-3), _win(0.0)
+_mod = _np.abs(_tm[0] + _tm[1]*_np.exp(1j*_A) + _tm[2]*_np.exp(1j*_B))
+_min = _np.abs(_t0[0] + _t0[1]*_np.exp(1j*_A) + _t0[2]*_np.exp(1j*_B))
+chk("fairbank_note", "Ba-tagged reach = 4.7/sqrt(4)", 2.35, 4.7/math.sqrt(4.0), 1e-6, "meV")
+chk("fairbank_note", "P(detect) at the Ba-tagged 2.35 meV", 69.1,
+    100*float((_mod > 2.35).mean()), 0.02, "%")
+chk("fairbank_note", "minimal-NO P(>2.35) — why tagging cannot separate", 63.7,
+    100*float((_min > 2.35).mean()), 0.02, "%")
+chk("fairbank_note", "minimal-NO ceiling = the band's lower edge", 3.69, float(_min.max()), 0.02, "meV")
+chk("fairbank_note", "P(model in the discriminating band)", 31.7,
+    100*float(((_mod > float(_min.max())) & (_mod <= sum(_tm))).mean()), 0.03, "%")
+chk("fairbank_note", "minimal-NO in that band — must be zero", 0.0,
+    100*float((_min > float(_min.max())).mean()), 1e-9, "%")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

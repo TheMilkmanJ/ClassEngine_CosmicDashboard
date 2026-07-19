@@ -1,48 +1,29 @@
 # PRTOE in Three Equations
 
-> **⚠ THE FLAGSHIP'S GRADE — READ BEFORE ANY "+1.5%".** Where the corpus states ρ_Λ¼ = 2.284 meV
-> against the observed 2.25 as a **+1.5% prediction**, that is not one — the 179 keV behind it is
-> the observation rounded. But τ is no longer unsourced: the Koide kernel supplies it, and the
-> honest prediction is **+0.44%**. Both halves of that matter, so both are below.
+> **THE FLAGSHIP CLAIM, AND ITS GRADE.** The dark-energy scale is
+> **ρ_Λ¼ = (9/2)·α⁴·τ·m_e** — the vacuum-occupancy binding energy, α⁴ times a temperature tied to
+> the electron. That structure is what makes it predictive rather than descriptive, and every factor
+> in it is sourced except τ = T_c/m_e, which is where the whole claim now lives.
 >
-> **First, why the +1.5% is an artifact.** The chain's last free number is τ = T_c/m_e, and the
-> routes originally offered do not source it:
->
-> | route offered | what it actually is |
-> |---|---|
-> | "T_c = τ·m_e" | **circular** — τ ≡ T_c/m_e |
-> | the perturbative CW route | **log-ambiguous ~[40, 900] keV**, and gives **193**, not 179 |
-> | the lattice band T_c/√σ ≈ 0.34–0.37 | an **SU(3)** value; this model's dark sector is **SU(2)** (P-2026-048). Pure-glue anchors disagree ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71). **No SU(2), N_f = 3 number exists.** |
->
-> **And the number's real origin is a rounding.** `scripts/tau_deconfinement.py` (hunt 228) has
-> exactly one computed line: **`tau_needed = 2.25/ceiling = 0.34506`** — *the observed dark-energy
-> density inverted*. It never computes 0.35 and never computes 179. **0.345 rounded to two
-> decimals is 0.35; 0.35 × m_e = 178.85 keV → adopted as "179 keV".** The three +1.5%s in this
-> corpus are **one number**:
->
-> > 179/176.32 = **+1.52%**  ·  0.35029/0.34506 = **+1.52%**  ·  ρ_Λ¼(179)/2.25 = **+1.52%**
->
-> **The flagship's headline agreement with the observed dark-energy density is the gap introduced
-> by rounding the observed dark-energy density to two decimal places.**
->
-> **Second, τ now has a source, and it is not cosmological.** The Koide sector's circulant kernel
-> fixes its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
+> **τ is sourced by the Koide sector, and nothing cosmological enters.** The circulant kernel fixes
+> its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
 >
 > > **τ = ½ln2 = 0.34657 ⟹ T_c = 177.10 keV ⟹ ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**
 >
-> Nothing cosmological enters that chain: it descends from Q, a lepton-mass fact measured to ten
-> parts per million, through an exact identity ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
-> **So the flagship does have an independent prediction, at +0.44% rather than +1.5%**, and the
-> structure ρ_Λ¼ = (9/2)α⁴·τ·m_e — the dark-energy scale as α⁴ times a temperature tied to the
-> electron — is what makes it predictive.
+> That chain descends from Q, a lepton-mass fact measured to ten parts per million, through an exact
+> identity ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
 >
-> **Its grade is candidate, and its price is one hypothesis:** that the charged-lepton √m are
-> thermally populated, which is what Q = 2/3 asserts (it says exactly that the variance of √m
-> equals its mean squared — the Boltzmann second moment, holding to 18 ppm on the measured masses).
-> **The referee is unchanged and now decides more:** a lattice T_c/√σ for SU(2) with N_f = 3.
-> **0.34657 crowns the kernel and the dark-energy prediction together; 0.3503 kills both.**
-
-
+> **Grade: candidate. Its price is one hypothesis** — that the charged-lepton √m are thermally
+> populated, which is what Q = 2/3 asserts (it says the variance of √m equals its mean squared, the
+> Boltzmann second moment, holding to 18 ppm on the measured masses). **Its referee is one number:**
+> a lattice T_c/√σ for SU(2) with N_f = 3. **0.34657 crowns the kernel and the dark-energy
+> prediction together; 0.3503 kills both.**
+>
+> **A superseded figure to watch for.** Older material quotes this agreement at +1.5% via
+> T_c = 179 keV. That figure is not a prediction — the 179 keV behind it is the observed dark-energy
+> density inverted and rounded to two decimals, so the "agreement" was the rounding gap. The
+> standing claim is +0.44%; the autopsy is in
+> [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
