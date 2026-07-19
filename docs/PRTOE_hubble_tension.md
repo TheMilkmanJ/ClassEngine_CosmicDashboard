@@ -16,13 +16,13 @@ Cepheid-calibrated supernovae (SH0ES): H₀ = 73.0 ± 1.0 km/s/Mpc. ΛCDM fit to
 
 ## 2. The mechanism
 
-The model adds one number to known physics: a +1.24% shift of the electron mass, active
+The model adds one number to known physics: a +1.2543% shift of the electron mass, active
 in the early universe and switched off by a screening transition at late times. The
 electron mass sets recombination's atomic physics; a heavier early electron gives
 earlier decoupling, a smaller sound horizon, and a CMB fit that lands at *higher* H₀
 without disturbing the acoustic structure (the established varying-m_e degeneracy
 [Hart–Chluba 2020; Sekiguchi–Takahashi 2021], here supplied with a physical origin —
-the condensate's order parameter, condensing at T_c ≈ 179 keV, inactive during the
+the condensate's order parameter, condensing at T_c = 177.10 keV, inactive during the
 early stages of nucleosynthesis at production grade).
 
 ## 3. Where it lands — stated honestly
@@ -75,7 +75,7 @@ timestamped *before* any evidence value existed.
 Early-dark-energy-class solutions buy H₀ with new components tuned for the job and
 generically worsen the S₈ clustering tension. This model's mechanism: (i) one parameter
 with independent duties across BBN, the CMB, 21-cm physics, and neutrino cosmology —
-the same 1.24% must work everywhere or the model fails; (ii) an S₈ story that moves in
+the same 1.2543% must work everywhere or the model fails; (ii) an S₈ story that moves in
 the observed direction; (iii) a nucleosynthesis sector re-posed honestly (the helium
 abundance currently stands as a +1.3 to +2.0σ *counter*-lean against Aver, kept on record); (iv) named,
 scheduled falsifiers it cannot dodge (DESI's w = −1 test; exact atomic-ratio locks in
@@ -99,7 +99,7 @@ Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 The abandoned H₀ routes for this sector — chiefly the H0=73-via-birth-ramp attempt (extra
 recombination-era dark radiation, which the model's own physics falsifies: the dCDF's
-radiation phase ends at z_on ~ 3.6×10⁷ and is dust by recombination, giving ΔN_eff ~ 10⁻³,
+radiation phase ends at z_on ≈ 4×10⁷ and is dust by recombination, giving ΔN_eff ~ 10⁻³,
 not the 0.26 that was hand-picked) — are recorded in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). They matter: they are why the model's
 honest H₀ is 69.9 and the gap to SH0ES's 73 is owned and open, not closed by a knob.

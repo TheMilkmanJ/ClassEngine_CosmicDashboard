@@ -1018,3 +1018,13 @@ evaluates to 1.2543); Σm_ν rounded below its booked value; and one purge husk 
 ("the sub-ohmic/smooth region of hunt the derivation log"). The dead-ends block — the P-011
 retraction's precise scope, leptophilia forced twice over, the counting-measure distinction —
 is exactly right and needed nothing. The neutrino_home link verified as live.
+
+## PRTOE_hubble_tension.md — deep audit 2026-07-19
+
+Thirty-third file, the core empirical claim. Four value supersessions and nothing structural:
+both ε statements to 1.2543%, T_c to the kernel's 177.10, z_on to the identity's ≈4×10⁷ in the
+dead-ends note. Everything that carries weight held on inspection — the reach cap (70.9–71.3,
+"the model cannot reach 73, and says so"), the three-tier data-ethics declaration, the TRGB band
+against Freedman, the honest half-the-gap framing, and the dead-ends note that explains *why*
+the honest H₀ is 69.9. The SN mass-step corner references the gate window without hard-coding
+C_ref, so it survives whichever way ForJustin/09 resolves.
