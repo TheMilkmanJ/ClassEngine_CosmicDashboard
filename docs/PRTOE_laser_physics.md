@@ -2,7 +2,8 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-> **STATUS: KINSHIP FILE — the laboratory cousin, graded [R] (ridden physics) with the kinship stated.**
+> **STATUS: KINSHIP FILE — the laboratory cousin. Ridden physics: the model reproduces it and
+> claims none of it; what is stated here is the kinship.**
 > The model claims NO new laser physics — lasers ride QM+EM exactly. What this file
 > documents is the reverse flow: what lasers PROVE about the grammar the model runs on.
 

@@ -485,3 +485,31 @@ Thirteen checks. Five defects, and the first one is the calendar breaking its ow
 updated*. This one drifted by **not being fed** — verdicts landed elsewhere and nothing routed them
 back. A calendar is only as good as its intake, and this corpus has no intake step. Same failure
 shape as READERS_RISK missing two risks discovered the same day.
+
+## The status-tag collision — corpus-wide finding, 2026-07-19
+
+JP: *"think about [Amended] how this [CONFIRMED] reads to a [Pending] person. It looks ugly."*
+
+It is ugly, and chasing why turned up something worse. **Seven independent legend systems, and the
+letters collide across files a reader moves between:**
+
+| tag | means here | and here |
+|---|---|---|
+| **[R]** | a registered bet (DEPENDENCY_TREE) | **ridden physics** — standard physics the model reproduces and does not claim (INDEX, subdomain tree, laser_physics) |
+| **[P]** | production, the strongest grade | **parked**, the weakest |
+| **[C]** | candidate | CLASS source · content |
+| **[S]** | screened | screened-constant |
+
+[R] is the dangerous one: a reader who learns the dependency tree's legend and opens the index sees
+the model **claiming credit for standard physics**, or disowning its own bets. That is not a
+typographic problem.
+
+92 tags sat in running prose against 40 in tables. Fixed in the entry points — INDEX's relation
+classes and DEPENDENCY_TREE's six grades are now written as words, and laser_physics no longer
+says "graded [R]".
+
+**The rule going forward: grades are words.** A single letter saves four characters and costs the
+reader a lookup, and when two files disagree about the letter it costs them the meaning.
+
+*Check 12 caught two defects inside this very repair — a "derived — derived" stutter from the
+substitution, and a leftover "[R]" in a sentence I had just written explaining why letters are bad.*
