@@ -1531,3 +1531,36 @@ was booked the same day as the closure it differentiates, with no step shown bet
 **The lesson (process).** *A closed form is not a derivation, and the more it looks like one the
 less likely anyone is to differentiate it themselves.* The check took one line of arithmetic and
 had never been run.
+
+### THE 3.5×10¹⁷ GeV "PORTAL SCALE" — A PRE-DYAD PLACEHOLDER FOR A SCALE THE MODEL DOES NOT CARRY (2026-07-19)
+
+**What it was doing.** Both detection files justified their nulls with "the portal at
+~3.5×10¹⁷ GeV (geometric mean)" — `direct_detection` using it to declare collider missing-energy
+NULL outright, while the referee calendar simultaneously scheduled HL-LHC against the portal's
+visible branch at 13–20 TeV. Two live documents, opposite claims about the same object.
+
+**Where it came from.** It entered with the earliest threading sweep, sourced as *"def357's
+geometric mean"* — a record number from the tag system retired in the corpus hygiene pass. **def357
+survives nowhere**, in the working tree or the history, and no definition of the number survives
+either. Every other "geometric mean" in the corpus is a different object: the boost-dressed
+cutoff behind the anchor's −3/2, the matched-junction impedance in the velocity ladder, the
+conformal window's √(m_soft·Λ_IR) ≈ 48 keV, and a mean of two velocity scales.
+
+**What the number actually is.** It reconstructs to three digits as
+
+> √(M_Pl · 10¹⁶ GeV) = 3.494×10¹⁷ GeV
+
+— the geometric mean of the Planck and grand-unification scales. **The model has no GUT scale.**
+The dependency tree, the quantum-gravity file, and the UV-completion file — the three documents
+that carry its high-scale structure — never mention one. The placeholder pointed at a rung the
+framework does not build.
+
+**Why it went unnoticed.** Its two homes are the two files whose entire content is a prediction of
+*silence*. A scale that large makes every null trivially true, so nothing downstream ever strained
+against it, and no reader checking a null had reason to ask where the number came from. **An
+assumption that makes its conclusions easier is the one least likely to be examined.**
+
+**Retired.** Both files now rest their nulls on the scales the model derives — the dyad's decay
+constant at 100–500 TeV and the census portal at 13–20 TeV, both beyond collider reach — so the
+conclusions stand unchanged while the reasoning is sourced. The contradiction with the referee
+calendar is gone: HL-LHC is a live referee on the visible branch, and the detection file now says so.

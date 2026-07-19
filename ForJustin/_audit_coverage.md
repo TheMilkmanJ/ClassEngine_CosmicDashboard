@@ -1,24 +1,27 @@
 # Audit coverage ledger
 
-**143 files total.** Three classes, audited differently.
+*Corrected 2026-07-19. The first version of this file used a single keyword test and
+mis-binned 15 files as archive that are not. The banners give four different instructions,
+not two, and the difference decides how much auditing each file is owed.*
 
-## Live forward docs — 91 files, 15,886 lines
-Full content audit: numbers verified against their sources, claims graded, audience laws applied.
+## LIVE — full content audit owed — 101 files, 19,023 lines
+Numbers verified against sources, claims graded, audience laws applied.
 
-- `BIBLIOGRAPHY.md` (175)
+- `BIBLIOGRAPHY.md` (182)
 - `PRTOE_CMB_map.md` (137)
 - `PRTOE_CODE_MANIFEST.md` (124)
 - `PRTOE_DEPENDENCY_TREE.md` (83)
 - `PRTOE_DERIVATION_HUNT.md` (587)
 - `PRTOE_DOMAIN_COVERAGE.md` (71)
-- `PRTOE_FAILURES_LEDGER.md` (1506)
+- `PRTOE_FAILURES_LEDGER.md` (1534)
 - `PRTOE_H0_CEILING.md` (78)
 - `PRTOE_INDEX.md` (125)
 - `PRTOE_INTERACTION_ATLAS.md` (1174)
 - `PRTOE_LV_pricing.md` (50)
-- `PRTOE_MATH_SPINE.md` (382)
-- `PRTOE_PREREGISTERED_PREDICTIONS.md` (2583)
-- `PRTOE_READERS_GUIDE.md` (95)
+- `PRTOE_MATH_SPINE.md` (383)
+- `PRTOE_PHYSICS_DOMAINS.md` (984)
+- `PRTOE_PREREGISTERED_PREDICTIONS.md` (2584)
+- `PRTOE_READERS_GUIDE.md` (97)
 - `PRTOE_READERS_RISK.md` (131)
 - `PRTOE_REFEREE_CALENDAR.md` (54)
 - `PRTOE_THE_AMPLITUDE.md` (110)
@@ -48,7 +51,7 @@ Full content audit: numbers verified against their sources, claims graded, audie
 - `PRTOE_fingerprint_lattice.md` (64)
 - `PRTOE_forced_combination.md` (132)
 - `PRTOE_galactic_atoms.md` (82)
-- `PRTOE_gate0_qft_derivation.md` (356)
+- `PRTOE_granule_scoping.md` (186)
 - `PRTOE_gravitational_waves.md` (104)
 - `PRTOE_hierarchy_problem.md` (151)
 - `PRTOE_honest_status.md` (194)
@@ -60,6 +63,8 @@ Full content audit: numbers verified against their sources, claims graded, audie
 - `PRTOE_information_paradox.md` (70)
 - `PRTOE_intellectual_history.md` (193)
 - `PRTOE_interaction_map.md` (72)
+- `PRTOE_kappa_v_derivation.md` (163)
+- `PRTOE_kill_and_patch_2026-07-07.md` (141)
 - `PRTOE_koide_relation.md` (147)
 - `PRTOE_laboratory_cousins.md` (89)
 - `PRTOE_laser_physics.md` (97)
@@ -67,6 +72,9 @@ Full content audit: numbers verified against their sources, claims graded, audie
 - `PRTOE_light.md` (215)
 - `PRTOE_lowell_anomalies.md` (106)
 - `PRTOE_lss_parity.md` (66)
+- `PRTOE_math_story.md` (113)
+- `PRTOE_me_mechanism_math.md` (481)
+- `PRTOE_me_trigger.md` (239)
 - `PRTOE_neutrino_home.md` (60)
 - `PRTOE_neutrino_sector.md` (184)
 - `PRTOE_no_singularities.md` (110)
@@ -79,6 +87,7 @@ Full content audit: numbers verified against their sources, claims graded, audie
 - `PRTOE_quantum_tunneling.md` (66)
 - `PRTOE_quartet_clock.md` (115)
 - `PRTOE_radio_lattice.md` (61)
+- `PRTOE_references.md` (135)
 - `PRTOE_s8_growth.md` (55)
 - `PRTOE_s8_tension.md` (47)
 - `PRTOE_scale_ladder.md` (88)
@@ -93,40 +102,41 @@ Full content audit: numbers verified against their sources, claims graded, audie
 - `PRTOE_strong_cp.md` (30)
 - `PRTOE_the_great_chain.md` (159)
 - `PRTOE_thread_inheritance.md` (63)
+- `PRTOE_v4_dCDF_derivation.md` (443)
+- `PRTOE_v4_dCDF_results.md` (133)
+- `PRTOE_v5_five_verdict_derivation.md` (436)
 - `PRTOE_weakest_joints_and_cprep_2026-07-10.md` (123)
 - `PRTOE_white_holes.md` (398)
 - `PRTOE_wormholes.md` (70)
 
-## Bannered archive — 22 files, 8,401 lines
-These record a superseded state on purpose. Audited for **banner correctness only** —
-their numbers are supposed to be old, and editing them destroys the record.
+## FROZEN NUMBERS — mechanics live, figures sealed — 1 files, 1,723 lines
+The banner freezes a specific fit's tables. The mechanics around them are current and get audited; the frozen figures are the record of that fit and are not edited.
+
+- `PRTOE_v5_dCDF_complete.md` (1723)
+
+## LAB-LOG — leak check — 2 files, 1,370 lines
+Documents derivations including dead ends, chronologically. Audited for claims that escape as absolutes.
+
+- `PRTOE_gate0_qft_derivation.md` (356)
+- `PRTOE_room1_complex_completion.md` (1014)
+
+## SEALED — banner check only — 9 files, 2,210 lines
+Explicitly says do-not-cite or kept-unedited. Their numbers are supposed to be old; editing them destroys the record.
 
 - `PRTOE_IMPLEMENTATION_SUMMARY.md` (401)
-- `PRTOE_PHYSICS_DOMAINS.md` (984)
 - `PRTOE_SKELETON.md` (56)
 - `PRTOE_STATE_OF_MODEL.md` (108)
 - `PRTOE_Second_Order_Action_Specification.md` (577)
 - `PRTOE_amplitude_derivation.md` (476)
 - `PRTOE_derivation.md` (212)
-- `PRTOE_granule_scoping.md` (186)
-- `PRTOE_kappa_v_derivation.md` (163)
-- `PRTOE_kill_and_patch_2026-07-07.md` (141)
-- `PRTOE_math_story.md` (113)
-- `PRTOE_me_mechanism_math.md` (481)
-- `PRTOE_me_trigger.md` (239)
-- `PRTOE_references.md` (135)
-- `PRTOE_room1_complex_completion.md` (1014)
-- `PRTOE_v4_dCDF_derivation.md` (443)
-- `PRTOE_v4_dCDF_results.md` (133)
 - `PRTOE_v5_SIDM_scoping.md` (188)
-- `PRTOE_v5_dCDF_complete.md` (1723)
-- `PRTOE_v5_five_verdict_derivation.md` (436)
 - `VALIDATION_RESULTS.md` (150)
 - `safe_region.md` (42)
 
-## Working logs — 30 files, 4,933 lines
-Session logs. Audited for claims that **leak outward** — a working file may hold a
-relative result, but not export it as an absolute one.
+## WORKING LOGS — leak check — 30 files, 4,933 lines
+
+Session logs. A log may hold a relative result; it must not export it as an absolute one.
+This is exactly how the BBN genesis-residual mis-price happened.
 
 - `Basement_Roster_Discussions.md` (673)
 - `Nontherm_Kill_Discussions.md` (879)
