@@ -71,7 +71,7 @@ active-code changes are made.**
  recovers the current step (backward-compatible, like the `z_rad_onset<=0` guard).
 2. **Two-field bookkeeping.** Field 1 = existing dcdf (charge/DM+DE). Field 2 = dyad (charge-free).
  Only field 2 sources δm_e; field 1 stays as-is. Minimal: one new ramp function, one new param.
-3. **Amplitude:** ε = 1.24% stays the derived dyad amplitude, not a new knob. *(The
+3. **Amplitude:** ε = 1.2543% stays the derived dyad amplitude, not a new knob. *(The
  factorization written here was the era's — `c·f_amp·Ψ₀/M_red` — and is retired; the standing
  decomposition is ε = c·f̄·α_c = 27α/5π, as this file's own closing note records.)*
 
@@ -120,3 +120,39 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
  (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
 - **C-code gate RESET:** >85% deleted; PolyChord is the gate (the claim is held
  provisional until it runs).
+
+## JOINTS UPDATE 3 (2026-07-19 — the standing state of every joint)
+
+- **J1 (the DE value) — SOURCED, one registered input from settled.** The Koide kernel fixes
+  τ = ½ln2 through Parseval (Q = 2/3 ⟹ |f₁/f₀| = 1/√2), giving T_c = 177.10 keV and
+  **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**, with nothing cosmological in the
+  chain. The 2.695/20% reading is retired (input-inconsistent; failures ledger). What remains:
+  α_c = 3α under MCMC, the portal √σ_dark = m_e as the one irreducible input, and the lattice
+  T_c/√σ for SU(2), N_f = 3 as the confirm-or-kill (P-2026-048). J1 has gone from RED to the
+  flagship-grade chain.
+- **J2 (gate-0 / BBN) — the row carried, the census closed.** T_c re-keyed to the kernel's
+  177.10 keV; the standing D/H row is 2.387×10⁻⁵ at **−2.49σ** on the scar file's combined width
+  0.0563 (the −2.9σ above is the same value on the 2-term width — the two-budget question is
+  ForJustin/10). The lever census is closed with no healer available to the dyad; the full
+  accounting, including the hadronic channel and the one roster-exempt source, is
+  [PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md) §5–6.
+- **J3 (DESI) — TRAILING.** DR2 prefers evolving DE at 3.1σ; the model's derived w = −1 stands
+  against it as standing bet #3. The one attachment currently moving against the model.
+- **J4 (the shift being real) — the judge is running.** The zero-parameter evidence run
+  (ε, A_s, n_s all fixed) has been executing since 2026-07-18; ΔlnZ = +2.635 Laplace remains the
+  suggestive, SHOES-conditional interim. The sharpest independent instrument has firmed: the
+  dark-ages trough at +0.40 MHz (16.0 → 16.4 MHz class), an astrophysics-free channel for
+  lunar-farside instruments, beside the ratio-lock and P-2026-007.
+- **J5 (leptophilia) — identified.** The dyad **is** the Majoron; the coupling follows the lepton
+  current (quarks carry L = 0, tree coupling zero — the configuration's own survival condition
+  at BBN). The kinetic-Z_L mechanism holds the sketch with its honest caveat: why the kinetic
+  term rather than only the Weinberg operator remains the un-derived core.
+- **J6 (the spurion tie) — carried into the tenth-channel seating** (m₁ = κ_m·ρ_inf¼), with the
+  0νββ window [0.04, 5.3] meV and the nEXO overlap as its new falsifiable consequences.
+- **J7 (the abundance) — routed, one integral owed.** η via AD-direct = n_L(genome)/s × transfer;
+  the frozen-era transfer fraction is the named debt (the thermal route is dead, ×40–1000 under).
+- **The ε joint — assembled.** c = **9/10 derived** (the census count, (N−1)/N) and f̄ = **2/π
+  derived** (the winding's roll-up) — both of UPDATE 2's pending values landed at exact forms —
+  with α_c = 3α the registered remaining input. ε = 27α/5π = 1.2543%.
+- **The C-code gate — as reset:** PolyChord is the gate and it is running; the B-map above is
+  unchanged and untouched.
