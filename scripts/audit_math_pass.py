@@ -354,6 +354,16 @@ chk("THE_AMPLITUDE", "A_s = (a_c/4pi k)^3", 2.0807e-9, (ac/(4*math.pi*_k))**3, 1
 chk("THE_AMPLITUDE", "A_s vs the frozen 2.088e-9", -0.35,
     100*((ac/(4*math.pi*_k))**3/2.088e-9 - 1), 0.03, "%")
 
+# ---- P-2026-048: can the lattice test actually discriminate? ----------------
+_tau_obs, _tau_ker, _tau_048 = 0.34506, 0.5*math.log(2), 0.3503
+chk("ANN-026", "kernel tau vs the observation-inverted value", 0.44,
+    100*(_tau_ker/_tau_obs - 1), 0.03, "%")
+chk("ANN-026", "P-048's registered tolerance", 5.7, 100*0.02/_tau_048, 0.02, "%")
+chk("ANN-026", "tolerance / the gap it must resolve", 13.0,
+    (0.02/_tau_048)/abs(_tau_ker/_tau_obs - 1), 0.05, "x")
+chk("ANN-026", "kernel tau sits inside P-048's window", 1.0,
+    1.0 if _tau_048-0.02 <= _tau_ker <= _tau_048+0.02 else 0.0, 1e-9)
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

@@ -1648,6 +1648,50 @@ only genuinely distinctive claim.**
 
 ---
 
+## ANN-2026-026: P-2026-048's central value is superseded, and its tolerance cannot resolve the test (2026-07-19)
+
+**P-2026-048 is not edited.** It stands as registered and amended. This annotation records two
+things a reader must have before scoring a lattice result against it.
+
+**(1) The central value is superseded.** P-048 bets **T_c/√σ = 0.3503**, derived as T_c = 179 keV
+over √σ_dark = m_e. The 179 keV is no longer the model's T_c: the Koide kernel sources τ through
+Parseval (Q = 2/3 ⟹ \|f₁/f₀\| = 1/√2 ⟹ τ = ½ln2), giving
+
+> **τ = T_c/√σ = 0.34657, T_c = 177.10 keV** — the standing prediction, with nothing cosmological
+> in its chain.
+
+**The entry is not violated by this.** 0.34657 sits inside the registered window [0.330, 0.370].
+But the flagship files now carry "**0.34657 crowns the kernel and the dark-energy prediction
+together; 0.3503 kills both**", and P-048's own text calls 0.3503 the prediction. Where they
+conflict, **the kernel value is current** and P-048's central value is the superseded one.
+
+**(2) The tolerance is 13× too wide to resolve what the test is for.** Three values are in play:
+
+| | τ | T_c | what it is |
+|---|---|---|---|
+| observation-inverted | 0.34506 | 176.33 keV | the observed ρ_Λ read backwards |
+| **the Koide kernel** | **0.34657** | **177.10 keV** | **the standing prediction** |
+| P-048 as registered | 0.35030 | 179.00 keV | superseded |
+
+The model's prediction sits **+0.44% above the observation-inverted value** — that gap *is* the
+dark-energy prediction. P-048 registers a tolerance of ±0.02, which is **±5.7%**, thirteen times
+wider than the gap.
+
+**So a lattice landing anywhere in [0.330, 0.370] would be scored a confirmation, including the
+value that means the model is only reading the observation back.** P-048 anticipated exactly this
+failure — its own text warns "a return at 0.345 does not confirm this entry" — but the registered
+tolerance does not enforce that warning.
+
+**What the test actually requires:** a lattice determination of T_c/√σ for SU(2), N_f = 3 to better
+than **0.44%**. That is demanding — published T_c/√σ determinations typically carry 1–3%
+uncertainties — so the honest status is that **this test may not be performable at the precision
+the claim needs**, and saying so is better than banking a confirmation the tolerance cannot earn.
+
+The SU(2)/N_f = 3 structural claim (str[k₁]_dark = 0 forcing N_c = 2, N_f = 3, the only integer
+solution) is untouched by any of this and stands on its own.
+
+---
+
 ## P-2026-024: The ε-dipole — an emerging horizon-scale varying-constants dipole (pre-registered 2026-07-10)
 
 **The prediction (derived, distinctive):** the universal lepton rescaling ε

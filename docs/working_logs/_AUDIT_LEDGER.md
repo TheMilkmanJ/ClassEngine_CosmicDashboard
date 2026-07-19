@@ -331,3 +331,42 @@ session-findings working logs.
 Note for the second pass: this file's defects were **all** in the description strings, none in its
 structure. An index rots at the sentence that summarises a file, not at the pointer — which is the
 same lesson as the ledgers and status boards, one level up.
+
+## PRTOE_PREREGISTERED_PREDICTIONS.md — deep audit 2026-07-19 (part 1: the lattice bet)
+
+2,711 lines, 51 numbered entries. Probed with the values verified earlier today rather than read
+linearly. **The sharpest finding in the corpus so far, and it is in the file whose integrity the
+whole falsifiability case rests on.**
+
+**P-2026-048 registers T_c/√σ = 0.3503 ± 0.02 as the model's prediction. The flagship files now say
+"0.3503 kills both."** Both statements are current in the repository; they cannot both be right.
+
+Untangled, and it is subtler than a contradiction:
+
+| | τ = T_c/√σ | T_c | what it is |
+|---|---|---|---|
+| observation-inverted | 0.34506 | 176.33 keV | the observed ρ_Λ read backwards |
+| **the Koide kernel** | **0.34657** | **177.10 keV** | **the standing prediction** |
+| P-048 as registered | 0.35030 | 179.00 keV | superseded — 179 keV was the rounding |
+
+The kernel's value **is inside** P-048's window [0.330, 0.370], so the entry is not violated. Its
+central value is simply the old one.
+
+**But the tolerance cannot resolve the test.** The prediction sits +0.44% above the
+observation-inverted value — that gap *is* the dark-energy prediction. P-048's ±0.02 is ±5.7%,
+**thirteen times wider**. So a lattice landing anywhere in the window scores as confirmation,
+including the value meaning "the model only read the observation back." P-048 saw this coming — its
+own text warns "a return at 0.345 does not confirm this entry" — but the registered tolerance does
+not enforce its own warning.
+
+**What the test actually needs is 0.44% on T_c/√σ.** Published determinations typically carry 1–3%.
+So the honest status is that this test may not be performable at the precision the claim requires,
+and recording that beats banking a confirmation the tolerance cannot earn.
+
+Filed as **ANN-2026-026**; P-048 left as registered. The SU(2)/N_f = 3 structural result
+(str[k₁]_dark = 0 forcing the only integer solution) is untouched and stands on its own. Four checks
+added (147 total).
+
+*This is check #10 — "is the distinctive content actually distinctive" — finding its second victim
+today, after Σm_ν. Both times the answer was: the prediction is real, and the instrument named to
+test it cannot see the difference that matters.*
