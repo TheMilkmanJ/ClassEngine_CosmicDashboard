@@ -911,3 +911,13 @@ the dimmer's geometric center (√(32×4) ≈ 11.3 against "centered at z ≈ 12
 re-domination against THE_CHAIN, the P-028 field value against the registry. Owed items are
 all honestly gated (bounce dynamics EXPLORATORY; T10's spectral shapes de-urgented by computed
 ceilings; flatness owed to the cycle map).
+
+## PRTOE_weakest_joints_and_cprep_2026-07-10.md — deep audit 2026-07-19
+
+Twenty-sixth file. A dated ledger whose era entries are properly fenced — the right repair was
+its own format: **JOINTS UPDATE 3**, bringing all seven joints and the ε joint to standing.
+J1's arc alone spans the whole session's physics: RED/UN-DERIVED → the retired 20% reading →
+the kernel-sourced +0.44% with one registered input. UPDATE 2's two pending values (c implied
+at 0.90 ± 0.04, f̄ pending at 0.644 ± 0.03) both landed at exact derived forms — recorded as
+the ledger's own vindication. One in-place fix (B2's ε). The two-widths collision surfaces
+here too; stated, and routed to ForJustin/10.
