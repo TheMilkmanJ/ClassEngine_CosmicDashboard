@@ -40,7 +40,7 @@ thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (
 - [THE DYAD — the gas piece](PRTOE_dyad_gas.md) — leptophilic (Majoron/L-breaking), couples the electron, varying-m_e binds hydrogen (the H₀ mechanism)
 
 ## Physics domains [C]/[O]
-hubble_tension · bbn_witness · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·
+hubble_tension · bbn_witness · deuterium_scar · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·
 fingerprint_lattice · plasma_physics · chaos_dynamics · cosmic_magnetism · igmf_helicity ·
 gravitational_waves · lss_parity · galactic_atoms · smbh_atoms · koide_relation ·
 coincidence_problem · direct_detection · indirect_detection · laboratory_cousins ·

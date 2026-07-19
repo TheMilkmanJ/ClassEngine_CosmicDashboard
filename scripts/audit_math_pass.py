@@ -189,6 +189,41 @@ chk("inflation_replacement", "running from the scale-local form", -5.2e-4, -2/(2
 chk("quantum_gravity", "Bekenstein quarter = 12pi/48pi", 0.25,
     (1/(48*math.pi))/(1/(12*math.pi)), 1e-9)
 
+# ---- the deuterium scar ----------------------------------------------------
+# the row, its LCDM control, and the decomposition that says where the deficit is made
+_DH_L, _DH_W, _DH_M = 2.420, 2.372, 2.387      # LCDM control -> +omega_b -> +the window
+_COOKE, _TOT = 2.527, math.hypot(0.030, 0.0476)
+_sig = lambda x: (x - _COOKE)/_TOT
+chk("deuterium_scar", "combined D/H budget", 0.0563, _TOT, 1e-3)
+chk("deuterium_scar", "LCDM control vs Cooke", -1.90, _sig(_DH_L), 0.01, "sigma")
+chk("deuterium_scar", "the model vs Cooke", -2.49, _sig(_DH_M), 0.01, "sigma")
+chk("deuterium_scar", "the model's deficit vs its LCDM control", -0.59, _sig(_DH_M)-_sig(_DH_L), 0.02, "sigma")
+chk("deuterium_scar", "omega_b step costs", -0.85, _sig(_DH_W)-_sig(_DH_L), 0.02, "sigma")
+chk("deuterium_scar", "the dyad's BBN window gains", +0.27, _sig(_DH_M)-_sig(_DH_W), 0.02, "sigma")
+chk("deuterium_scar", "window grafted on LCDM alone", -1.63, _sig(_DH_L*(_DH_M/_DH_W)), 0.02, "sigma")
+chk("deuterium_scar", "d ln(D/H)/d ln omega_b (production)", -1.83,
+    math.log(_DH_W/_DH_L)/math.log(1.011), 0.01)
+# the exchange rate: the omega_b shift arrives with the H0 relief
+_dH0 = 69.9 - 68.2
+chk("deuterium_scar", "deuterium paid per km/s/Mpc of H0", 0.50,
+    abs(_sig(_DH_W)-_sig(_DH_L))/_dH0, 0.02, "sigma")
+chk("deuterium_scar", "H0 given back to reach LCDM parity", 1.17,
+    (_sig(_DH_L)-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
+chk("deuterium_scar", "H0 given back to centre on Cooke", 4.96,
+    (0-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
+# the below-T_c lever: right shape, wrong size
+_dD_all, _dY_all, _dD_bel, _dY_bel = 0.1350, 0.0131, 0.1160, 0.0041
+chk("deuterium_scar", "below-T_c efficiency ratio", 2.75,
+    (_dD_bel/_dY_bel)/(_dD_all/_dY_all), 0.01, "x")
+_N_bel = (_dD_all*0.42)/_dD_bel                 # dN below T_c that zeroes deuterium
+chk("deuterium_scar", "below-T_c dN_eff to zero deuterium", 0.49, _N_bel, 0.02)
+chk("deuterium_scar", "helium landing under the below-T_c lever", 1.7,
+    1.09 + _N_bel*_dY_bel/0.0034, 0.05, "sigma")
+chk("deuterium_scar", "reheat shortfall (upper)", 33.0, _N_bel/0.015, 0.02, "x")
+# photodissociation: the helium reservoir dwarfs the deuterium it must supply
+chk("deuterium_scar", "He/H by number vs D/H — the reservoir ratio", 3300.0,
+    0.083/2.5e-5, 0.02, "x")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
