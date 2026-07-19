@@ -62,6 +62,10 @@ the **void/structure boundary** (P-2026-007, parked).
   wall network forms and no cosmological wall problem. But this must be shown
   from the actual Θ potential, not asserted.
 
+*(Since paid: the switch mechanism was delivered as the curvature-metered gate —
+exp(−(C/C_ref)ⁿ), n > 2.43, the shell-crossing bit Θ, no light mediator — and screening
+was later ruled DATA-REQUIRED by Room 2. The owed items below record the 07-07 state.)*
+
 **Grade:** Shot 2 is **not cleanly patched**. It *kills the continuous coupling*
 (a real result — one dead option removed) and forces the model onto the discrete
 switch, which survives MICROSCOPE by construction but is under-specified. The
@@ -83,6 +87,11 @@ solving the genesis for Ψ₀.
 
 ## Patch attempt 3 — SHOT 3 (DESI): UNPATCHABLE (structural commitment)
 
+*(Superseded in one respect: the model has since built **route D** — its own thaw branch,
+w₀ ∈ [−0.92, −0.86] with wₐ < 0, the routeD chain running — so "cannot produce dynamical
+DE" no longer holds as written. DR3 now decides between the model's floor (w = −1 exactly)
+and the model's own thaw branch; the systematic bet below stands for the floor branch.)*
+
 The model *cannot* produce thawing DE without breaking its own mutual-exclusion
 theorem (which ties the DE drift to the core scale, ANN-2026-008). There is no
 internal patch. The model survives *current* data only because DESI's thawing
@@ -103,6 +112,10 @@ the model's survival now rests on (a) a discrete switch it must still derive,
 and (b) DESI regressing to w=−1. Both are falsifiable. Nothing was dressed up.
 
 ## Amplitude update — Shot 1 upgraded from "homeless fit" to "abundance-anchored to a factor of one"
+
+*(This two-factor reading was the road, and the standing stack replaced it: ε = c·f̄·α_c =
+27α/5π = 1.2543% — c = 9/10 derived, f̄ = 2/π derived, α_c = 3α the registered bet. The
+novelty⊥fit shot is thereby answered at a depth this 07-07 update could not claim.)*
 
 **The correction to Patch attempt 2:** that patch used M_GUT (2×10¹⁶ GeV) for the
 displacement and got 0.1% (factor 12 short). WRONG SCALE. The medium's field Ψ₀
