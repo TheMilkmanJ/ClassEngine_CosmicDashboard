@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 16's standalone — the boldest thread of batch four. Status: STRUCTURAL (candidate);
+*Status: STRUCTURAL (candidate);
 the pricing is IN and the channel lands seven orders short of the claimed signal. The
 improvement: a claimed ~5–7σ anomaly for which almost no framework possesses native
 machinery — and this model owns an axis, a handedness, and a vorticity injection by
@@ -22,8 +22,8 @@ signal is real, something in the universe's initial conditions or growth history
 The medium is chiral BY CONSTRUCTION: the winding n (a signed integer), the genesis helicity,
 the vortex network, the Harrison-era rotation — the same chirality that signs the magnetic
 helicity (P-028), the prospective GW handedness (T10), and the matter draw. A helical velocity
-field imprints parity-odd mode-couplings in the density field as growth proceeds
-(RAMP-CHECKED: the injection integrates through the growth history, not a one-time stamp).
+field imprints parity-odd mode-couplings in the density field as growth proceeds — the injection
+integrates through the whole growth history rather than stamping once.
 The model does not need to invent a parity-violating ingredient — it has carried one since the
 first genesis, with its sign already spoken for.
 
@@ -37,8 +37,8 @@ first genesis, with its sign already spoken for.
  fate is doubly conditional (our amplitude AND their signal).
 3. **The axis dichotomy (the free consistency check, either way):** if the signal is real AND
  ours, its parity structure should correlate with the family axis (P-024/P-029/low-ℓ); if
- real and NOT ours, no correlation is expected — the same salvage structure as the
- dipole-excess autopsy (A5).
+ real and NOT ours, no correlation is expected — the same structure as the
+ dipole-excess reading.
 
 ## 3. The pricing, and why the thread matters even short
 
@@ -55,7 +55,7 @@ of chirality NOT ours (or kills the framework's monopoly claim); a dissolved sig
 nothing; a signal at X would be a miracle-class confirmation. All three outcomes are
 informative because the model computes rather than fits.
 
-## 4. Owed (mirrors threaded_physics_working/T16)
+## 4. Owed
 
 1. The claim's systematics status pass.
 2. The axis correlation/anti-correlation protocol once the data mature.

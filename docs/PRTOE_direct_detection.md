@@ -22,7 +22,7 @@ was always adjustable. This model has no room to adjust:
 | axion haloscopes / LSW (dark matter ↔ photons) | **NULL, forever** | EM-neutrality forced to 25–45 orders (Meissner/photon-mass); the birefringence anomaly-zero (L1a, recorded) |
 | nuclear recoil (dark matter ↔ quarks, contact) | **NULL at all reachable cross-sections** | the medium is a condensate of 2×10⁻²⁰ eV quanta — no particle-like recoils exist; the only matter coupling is the trace channel at gravitational-strength-class (c ~ 0.9) |
 | fifth-force / EP torsion balances | **NULL within current reach** | the EP/Vainshtein gate cleared with 5-order margin (recorded distinctive-standing) |
-| collider missing-energy production | **NULL** | the portal scale at ~3.5×10¹⁷ GeV (geometric mean); vector-like leptons collider-safe by construction (recorded) |
+| collider missing-energy production | **NULL within reach** | the dyad's decay constant sits at 100–500 TeV and the census portal at 13–20 TeV — both above collider energies; the vector-like leptons are collider-safe by construction. HL-LHC referees the visible branch |
 
 ## 2. Where the model says LOOK INSTEAD (the redirect that makes this an improvement)
 
