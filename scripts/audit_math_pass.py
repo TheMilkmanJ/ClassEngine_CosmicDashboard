@@ -231,13 +231,21 @@ _s12, _s13 = 0.307, 0.022
 _m1 = 2.25e-3
 _m2, _m3 = math.sqrt(_m1**2+_dm21), math.sqrt(_m1**2+_dm31)
 _t = [(1-_s12)*(1-_s13)*_m1, _s12*(1-_s13)*_m2, _s13*_m3]
-chk("fairbank_note", "Sigma m_nu from m1 = rho_L^(1/4)", 61.4, (_m1+_m2+_m3)*1e3, 0.01, "meV")
+chk("fairbank_note", "Sigma m_nu at the low anchor m1 = 2.25", 61.35, (_m1+_m2+_m3)*1e3, 2e-3, "meV")
+# the anchor spread: rho_Lambda^(1/4) is pinned only to ~1.5%, and the floor is what notices
+def _win(m1):
+    m2, m3 = math.sqrt(m1**2+_dm21), math.sqrt(m1**2+_dm31)
+    t = [(1-_s12)*(1-_s13)*m1, _s12*(1-_s13)*m2, _s13*m3]
+    return (m1+m2+m3)*1e3, sum(t)*1e3, max(0.0, 2*max(t)-sum(t))*1e3
+chk("fairbank_note", "Sigma m_nu at the high anchor m1 = 2.284", 61.40, _win(2.284e-3)[0], 2e-3, "meV")
+chk("fairbank_note", "floor at the low anchor", 0.044, _win(2.250e-3)[2], 0.03, "meV")
+chk("fairbank_note", "floor at the high anchor", 0.023, _win(2.284e-3)[2], 0.05, "meV")
+chk("fairbank_note", "a 1.5% anchor move nearly halves the floor", 1.9,
+    _win(2.250e-3)[2]/_win(2.284e-3)[2], 0.05, "x")
 chk("fairbank_note", "|Ue1|^2 m1", 1.52, _t[0]*1e3, 0.02, "meV")
 chk("fairbank_note", "|Ue2|^2 m2", 2.67, _t[1]*1e3, 0.02, "meV")
 chk("fairbank_note", "|Ue3|^2 m3", 1.10, _t[2]*1e3, 0.02, "meV")
 chk("fairbank_note", "m_bb upper edge (phases aligned)", 5.3, sum(_t)*1e3, 0.02, "meV")
-chk("fairbank_note", "m_bb floor (triangle stays open)", 0.045,
-    max(0.0, 2*max(_t)-sum(_t))*1e3, 0.25, "meV")
 # the floor's fragility: the m1 above which the triangle closes and the floor vanishes
 def _gap(m1):
     m2, m3 = math.sqrt(m1**2+_dm21), math.sqrt(m1**2+_dm31)

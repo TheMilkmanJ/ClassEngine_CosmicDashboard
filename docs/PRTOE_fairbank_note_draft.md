@@ -10,7 +10,7 @@ sector is an output rather than an input: the model's dark-energy scale ties to 
 neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**. Because the mass mechanism violates
 lepton number, **neutrinos must be Majorana, and the 0νββ process is structurally required.** The
 corresponding effective mass, with measured splittings and free Majorana phases, is
-**m_ββ ∈ [0.04, 5.3] meV, typically ~3.3 meV.**
+**m_ββ ∈ [0.02, 5.3] meV, typically ~3.3 meV.**
 
 ## What this means for your program
 
@@ -31,24 +31,30 @@ repository.
 
 ## The cancellation floor, and how thin it is
 
-The three contributions to m_ββ, on the model's anchor m₁ = ρ_Λ¼ = 2.25 meV with NuFIT-class
-mixings:
+The lightest mass is the model's dark-energy scale, m₁ = ρ_Λ¼, and that scale is not pinned tighter
+than about 1.5%: three closures in the model supply 2.25, 2.2599, and 2.284 meV. The sum is
+insensitive to the choice — Σm_ν = 61.35 to 61.40 meV, which is why it is quoted as 61.4. The
+effective mass is not, and the floor is where the difference shows.
 
-| term | value |
-|---|---|
-| \|U_e1\|² m₁ | 1.52 meV |
-| \|U_e2\|² m₂ | 2.67 meV |
-| \|U_e3\|² m₃ | 1.10 meV |
+The three contributions, with NuFIT-class mixings, at the two ends of that range:
 
-The middle term exceeds the other two combined — 2.67 against 2.62 — and that inequality is the
-only reason a floor exists. The three phasors cannot close a triangle, so complete cancellation is
-impossible and m_ββ ≥ 0.04 meV whatever the Majorana phases do.
+| term | m₁ = 2.25 meV | m₁ = 2.284 meV |
+|---|---|---|
+| \|U_e1\|² m₁ | 1.52 meV | 1.55 meV |
+| \|U_e2\|² m₂ | 2.67 meV | 2.68 meV |
+| \|U_e3\|² m₃ | 1.10 meV | 1.10 meV |
+| **floor** | **0.044 meV** | **0.023 meV** |
+| ceiling | 5.30 meV | 5.33 meV |
 
-The margin is 0.05 meV on terms of order 2. The floor disappears entirely, and exact cancellation
-becomes allowed, once m₁ exceeds **2.324 meV** — 3.3% above the anchor. The model carries three
-recorded values for the dark-energy scale depending on which closure supplies it (2.25, 2.2599,
-2.284 meV); all three sit below that threshold, the highest by 1.7%. So the floor holds on every
-number the model uses, and it is one modest revision from vanishing.
+A floor exists at all only because the middle term exceeds the other two combined — 2.67 against
+2.62 at the low anchor. That margin is 0.05 meV on terms of order 2, so the three phasors barely
+fail to close a triangle, and complete cancellation is barely impossible. **Moving m₁ by 1.5%
+across the model's own range halves the floor.** Above m₁ = **2.324 meV** the triangle closes, the
+floor is exactly zero, and complete cancellation becomes allowed — that threshold is 1.7% above the
+highest anchor the model carries.
+
+So the honest statement is that the floor is 0.02–0.04 meV, and that it is a coincidence of scales
+rather than a protected feature.
 
 The consequence may be the most distinctive thing this model says to your field: because the
 near-cancellation amplifies small changes in m₁, **m_ββ here is an unusually sharp probe of the
