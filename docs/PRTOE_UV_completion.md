@@ -304,7 +304,7 @@ the fixed point drifts and c runs slightly ABOVE 1 — consistent with the resul
  4. What IS testable lives in #17, NOT here: whether the w=1/3 phase actually attracts/protects c to
  1, and how c runs afterward. The clumping ORIGIN story is the *why-it-feels-right*, not the proof.
 
-## #17 UPDATE — the conformal see-saw defuses the gate-0 TeV kill (2026-07-10, fountain_scale.py)
+## #17 UPDATE — the conformal see-saw defuses the gate-0 TeV kill (2026-07-10, fountain_scale.py — scratch-era, not retained)
 
 The gate-0 radiation-phase escape needs the dyad condensate DISORDERED at BBN (T~MeV) and
 CONDENSED at recomb (T~eV) — i.e. condensation temperature **T_c in (0.26 eV, 1 MeV)**, anywhere

@@ -1275,7 +1275,7 @@ pattern); (c) confirmed infinite. Near-future full-sky circle searches + low-l p
 ## P-2026-013 SECOND, INDEPENDENT MOTIVATION (2026-07-10): the genesis demands the torus axis
 
 A wholly separate thread — the twist-and-snap genesis (docs/PRTOE_cyclic_torus_genesis.md) — arrives
-at the torus from the other end. Computed (scratchpad/c1_locus_twist.py, curl-index validated,
+at the torus from the other end. Computed (c1_locus_twist.py, scratch-era, not retained; curl-index validated,
 Beltrami H/E=0.998):
  - **A SPHERE cannot seed a net twist:** spherical radial collapse has helicity H=∫v·(∇×v)=0 EXACTLY
  (radial flow is curl-free). The heat-fountain genesis therefore cannot spin up from a spherical center.
