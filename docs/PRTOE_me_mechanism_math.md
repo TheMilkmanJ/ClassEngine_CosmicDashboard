@@ -18,7 +18,7 @@ exact, [OPEN] owed, [FORCED] required by multiple independent constraints.*
 The electron mass carries a fractional environmental shift
 `m_e(x) = m_e^lab * [1 + eps * S(x)]`, where `S(x)` is a sharp/binary
 "smoothness" indicator (1 in unstructured space, 0 in virialized structure)
-and `eps ~ 1.24%`. The CMB is imprinted at the bare value `m_e^lab*(1+eps)`;
+and `eps = 1.2543%`. The CMB is imprinted at the bare value `m_e^lab*(1+eps)`;
 all present-day (virialized) measurements see `m_e^lab`.
 
 ---
@@ -112,7 +112,7 @@ EM-binding environment. Split:
  m_e = m_bare(Higgs-Yukawa, ~99%) + delta_m_EM(self-energy, ~1%)
  delta_m_EM/m_e = (3 α / 4pi) * ln(Λ²/m_e²) ~ 1-2% (O(α))
 
-So eps ≤ (EM self-energy fraction) ~ 1-2%. The observed 1.24% sits AT the
+So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits AT the
 ceiling. Size DERIVED; exact value needs Λ (cutoff, ~18 MeV -- not yet
 motivated) and the modulation fraction. [sec 28, 31]
 
@@ -211,10 +211,10 @@ and the recorded curvature ladder alone.
 Under a single m_e amendment, ALL EM-binding observables shift in LOCKED
 correlation (sec 29):
 
- binding energies (Rydberg ~ m_e): +1.24%
- atomic sizes (Bohr radius ~ 1/m_e): -1.24%
- transition frequencies: +1.24%
- 21-cm hyperfine (~m_e²/m_p): ~+2.5%
+ binding energies (Rydberg ~ m_e): +1.2543%
+ atomic sizes (Bohr radius ~ 1/m_e): −1.2543%
+ transition frequencies: +1.2543%
+ 21-cm hyperfine (~m_e²/m_p): +2.51%
 
 Discriminator: the dark-ages/cosmic-dawn 21-cm sky (unvirialized IGM,
 Theta~1, BARE value) vs the standard (virialized) sky. A specific
@@ -251,7 +251,7 @@ OPEN:
  (the sec-7 screening computation: DELIVERED — all four items, see sec 7)
  - the two-field sims (docketed): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
 
-The empirical fit (m_e = 1.0124, fits the CMB) is UNTOUCHED by all of the
+The empirical fit (m_e = 1.012543, fits the CMB) is UNTOUCHED by all of the
 above -- this document concerns the MECHANISM's legality/derivation, not
 the data.
 
@@ -290,7 +290,7 @@ Consequences:
  violation. The "L1 wants universal" tension of the prior session is DISSOLVED.
 
 LOCKED PREDICTION (of the kinetic-Z_L coupling specifically):
- dm_nu/m_ν = 2 * dm_e/m_e = 2.48% at recombination.
+ dm_nu/m_ν = 2 * dm_e/m_e = 2.51% at recombination.
  The factor 2 is operator counting (two L's vs one), no free knob. It DISCRIMINATES
  mechanisms: a direct Yukawa (Psi/f) L-bar H e shifts m_e with NO neutrino link
  (ratio 0). CMB consequence of dm_nu ~ 1.5 meV on Σm_ν (~0.06x sensitivity) --
@@ -311,7 +311,7 @@ MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09):
  (c) The loop, worked (2026-07-09). Minimal potential V(Psi)=ρ_inf + 1/2 m² Psi²
  (DM oscillation early, DE floor late). It CLOSES TO CONSISTENCY: the DM→DE
  transition lands at z~0.7 (1/2 m² Psi² = ρ_inf), the right epoch (observed
- ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4)=2.3 meV =
+ ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4) = 2.25 meV =
  m_ν,light [P-2026-012]. BUT it bottoms out at the CC PROBLEM: why ρ_inf=(m_ν)⁴
  is P-2026-012's POSIT, not derived. So the docketed last residual is the cosmological-
  constant question -- no longer a PRTOE-specific gap, the universal one. [REDUCED to CC]
@@ -406,7 +406,7 @@ the small tilt that does the *timing*:
 | quantity | value at f = 3×10¹⁴ eV | note |
 |---|---|---|
 | CW-induced mass — √[(κ/2π²)m_e0⁴(L−1)] | 3.1–6.9×10⁻⁵ eV (L−1 = 2–10) | **coincides with the constraint-window mass 2.8×10⁻⁵ eV — the allowed line IS the CW locus**, an unarranged consistency |
-| restoration temperature T_c = m_e0·√(3(L−1)/2π²) | **κ-independent** (κ cancels between the vacuum and thermal terms) | the ramp's T_γ-keyed timing survives at any f; value log-ambiguous [40, 900] keV, BBN-stability fence [179, 369], the RG-resummation docket owns the re-pin |
+| restoration temperature T_c = m_e0·√(3(L−1)/2π²) | **κ-independent** (κ cancels between the vacuum and thermal terms) | the ramp's T_γ-keyed timing survives at any f; value log-ambiguous [40, 900] keV; the recorded BBN-stability fence is [179, 369], whose lower edge was the then-operating point — the kernel re-pin to 177.10 keV sits 1.1% below it at a priced cost of 0.002σ on D/H, and the RG-resummation docket owns the fence's re-statement along with the re-pin |
 | roll time 1/m_φ | 2.4×10⁻¹¹ s | the ramp is dynamically unimpeded (instant vs BBN minutes) |
 | thermal fluctuation term κ⟨δφ²⟩_T at n/p freeze-out | ~5.7×10⁻²¹ | **2×10¹⁸ below ε** — the OFF-window is honest at high f |
 | thermalization channels | Γ ∝ κ², all gates clear by 10⁸–10⁹ | ε rides first order in κ (the zero mode); the two orders are the configuration's whole point |
@@ -415,8 +415,8 @@ the small tilt that does the *timing*:
 including through n/p freeze-out); at T_c the tilt flips tachyonic and the field rolls to the bare
 minimum at f (fast); ε ramps in with the order parameter and sits at 1.2543% thereafter, gated off
 only inside high-Weyl structure (below). **The ramp, computed with the exact thermal kernel:**
-ε(T)/ε₀ = 1 − [T³|J_F′(m_e/T)|] / [T_c³|J_F′(m_e/T_c)|] — half amplitude at T ≈ 154 keV
-(0.86 T_c), 90% by T ≈ 114 keV (0.64 T_c), full below ~100 keV. The transition is second order
+ε(T)/ε₀ = 1 − [T³|J_F′(m_e/T)|] / [T_c³|J_F′(m_e/T_c)|] — half amplitude at T ≈ 152 keV
+(0.86 T_c), 90% by T ≈ 113 keV (0.64 T_c), full below ~100 keV. The transition is second order
 (a quadratic thermal correction on a quartic potential), so the order-parameter birth is
 continuous — what the depth law requires, and what the BBN engine codes. **The named fork inherited from the un-merger:** whether
 f = v_L (one L-breaking scale — the seesaw scan re-runs at ~100 TeV, where y ≈ 1.6×10⁻⁵ is natural

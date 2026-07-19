@@ -347,7 +347,7 @@ neither**: it is the separate high-decay-constant field of §8 item 1b. The hone
 former one-object reading, in three parts: (i) **the single T_c splits into two electron-anchored
 scales** — the SU(2) confinement scale τ·m_e = 177.10 keV (the flagship's, portal-anchored,
 lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, log-band
-[40, 900] keV; the recorded BBN stability fence covers [179, 369]); their near-equality is two
+[40, 900] keV; the recorded BBN stability fence covers [179, 369], its lower edge the then-operating point — the kernel's 177.10 sits 1.1% below it at 0.002σ on D/H); their near-equality is two
 anchors coinciding at the electron scale for separate reasons (the portal vs the electron loop),
 not one object. (ii) **The Majoron scale, priced at all three corners (2026-07-18).** The registry already
 carries v_L's two corners (resonant → MeV, S4-armed; non-resonant → ≥ GeV, S4-dark; CMB-S4 the
