@@ -49,20 +49,28 @@ The model's effective mass, computed from m₁ = 2.25 meV + normal ordering + Nu
 mixings (sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.022): the three mass contributions are
 |U²m| = (1.52, 2.67, 1.10) meV, giving
 
-$$m_{\beta\beta} \in [0.04,\ 5.3]\ \text{meV over free Majorana phases},\ \sim 3.3\ \text{meV typical}$$
+$$m_{\beta\beta} \in [0.02,\ 5.3]\ \text{meV over free Majorana phases},\ \sim 3.3\ \text{meV typical}$$
 
 — honestly BELOW ton-scale reach (nEXO/LEGEND-1000 target ~5–20 meV), and the cancellation floor
 near 0.04 meV is stated rather than hidden (the model does not yet predict the Majorana phases;
 that is an open item, not a hedge).
 
-**The floor is real but not structurally protected.** It exists only because the middle term
-exceeds the other two combined — 2.67 against 2.62 — so the three phasors cannot close a triangle
-and exact cancellation is impossible. That inequality fails once m₁ exceeds **2.324 meV**, above
-which the floor is exactly zero. The model's three recorded dark-energy anchors (2.25, 2.2599,
-2.284 meV) all sit below the threshold, so the floor holds on every number the model uses, but the
-highest of them clears it by only 1.7%. One consequence is worth stating for the double-β
-community: the near-cancellation makes **m_ββ an unusually sharp probe of the dark-energy scale**,
-since small changes in m₁ move it hard. The prediction's value
+**The floor is real but not structurally protected, and it is anchor-sensitive.** It exists only
+because the middle term exceeds the other two combined — 2.67 against 2.62 at m₁ = 2.25 meV — so the
+three phasors cannot close a triangle and exact cancellation is impossible. The margin is 0.05 meV
+on terms of order 2.
+
+The model's dark-energy scale is pinned only to ~1.5%: three closures supply 2.25, 2.2599, and
+2.284 meV. The sum barely notices (Σm_ν = 61.35–61.40 meV, booked as 61.4). **The floor nearly
+halves across that same range** — 0.044 meV at the low anchor, 0.023 meV at the high one — so the
+window is properly quoted as **m_ββ ∈ [0.02, 5.3] meV**. Above m₁ = **2.324 meV** the triangle
+closes and the floor is exactly zero; the highest recorded anchor clears that by 1.7%.
+
+Quoting Σm_ν = 61.4 alongside a floor computed at m₁ = 2.25 mixes the two anchors and overstates
+the floor by about a factor of two — the two numbers come from opposite ends of the same range.
+
+One consequence is worth stating for the double-β community: the near-cancellation makes **m_ββ an
+unusually sharp probe of the dark-energy scale**, since small changes in m₁ move it hard. The prediction's value
 is structural: (i) 0νββ MUST exist (Dirac-nature evidence at any level kills this
 sector outright); (ii) the normal-ordering floor's shape is fixed in advance; (iii) if a
 ton-scale experiment DOES see a signal well above ~5.3 meV, this model is also killed —
