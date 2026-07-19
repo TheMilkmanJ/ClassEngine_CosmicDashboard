@@ -855,3 +855,33 @@ The ramp's absolute stamps rescaled to the standing T_c (154 → 152 keV at half
 90% — the ratios are the kernel's and survive). The retired electron-CW section is properly
 fenced with its must-not-cite banner and was left as the record it claims to be; its one
 current number (κv² delivering the full 1.2543%) was already right.
+
+## PRTOE_me_trigger.md — deep audit 2026-07-19
+
+Twenty-third file. This is the document that *sourced* the n > 2.43 pillar — its §7 is the
+derivation the gate-form fix leaned on all day, and that section needed nothing. What rotted
+was everything downstream of July 10.
+
+**§8 still called the amplitude "exact value open"** and watched 2α and 3α/2 as coincidences —
+against a standing stack that derives it (c = 9/10, f̄ = 2/π, α_c registered). The watched
+coincidences are retired; the section now says what is paid and what one input remains.
+
+**§11 carried the dead vev heal as a ran co-signature** ("δv/v ≈ 0.091% heals D/H exactly,
+−1.2σ → 0.0σ") — and worse, a universality claim that *contradicts standing leptophilia*: "the
+model predicts UNIVERSAL varying-constants," with the leptons-only reading marked retracted.
+The standing identification runs the other way: the dyad is the Majoron, quarks carry L = 0,
+and a flavor-blind shift would be +12–18σ dead through deuterium's binding. The two-phase
+window structure survives as the recorded skeleton; both dead riders are named as dead.
+
+**The same contradiction was still standing in math_story's Act 5** — "shifting ALL masses
+UNIVERSALLY (flavor-blind)" — which I audited and missed hours ago. Backfixed to the
+leptophilic statement. Cross-file contradictions do not respect the one-file-at-a-time
+boundary; when a fix names a principle, the principle's other homes need the same sweep.
+
+**§12's owed list was three-quarters paid**: the amplitude (paid — the stack), the EP-safety
+proof (paid — Vainshtein-screened Δa/a three to five orders under MICROSCOPE), the census
+adjudication (paid — the consolidated clause). Rewritten as a ledger with the honest remainder:
+the condensate-growth profile and R1's #11 sims gate. Also: the bare value at recombination
+corrected to 1.012543 (§1 had ≈1.010, conflating R1's variant with the dyad's amendment); the
+first-collapse mass note brought to the recorded 2.24×10⁻²⁰; a dangling "§62/§74" booking
+pointer resolved to the census's §74.
