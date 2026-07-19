@@ -81,10 +81,14 @@ everywhere atomic physics appears.
 - **(g) The gate's energy bookkeeping is unpaid, and one endpoint is excluded.** The electron's
   rest energy differs across the screening transition by 6.4 keV. If gas crosses that transition
   ballistically it is heated by ~2 keV per particle — an entropy floor an order of magnitude
-  above what groups and clusters show, which would be fatal. If instead structure grows around
-  the gas so the mass changes in place, the heating is 1.25% and harmless. Which applies depends
-  on whether the screening boundary sweeps outward faster than gas falls in, and the two speeds
-  are comparable; the model needs the harmless limit and owes the computation. (One consequence
+  above what groups and clusters show, which would be fatal. The transition is
+  a phase of the medium answering the local curvature — it re-arranges in place rather than
+  standing as a surface to fall through — which suppresses the pickup by the ratio of gas speed
+  to the medium's own sound speed (about one part in forty). That brings the heating to ~50 eV
+  per particle and the entropy contribution to ~50 keV cm², under the 100–300 keV cm² floors
+  groups actually show. The owed edge is the fast end: at merger-shock speeds the contribution
+  approaches the observed floor, so the treatment of the transition front at high relative
+  velocity is still to be done. (One consequence
   is already booked: S₈ is not delivered by this channel — it rests on the pre-registered
   rotation-shed parameter, graded by a running chain.)
 - **(f) Code-vs-theory gap:** in the CLASS implementation the dyad's m_e shift and the dCDF density
