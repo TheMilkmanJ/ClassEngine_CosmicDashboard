@@ -737,3 +737,43 @@ belongs in this ledger is what the episode said about the corpus.
 4. **The commit gate refused its first commit tonight** — a unit error in a new check's prefactor.
    Two silent red-harness merges happened earlier today under "remember to read the output."
    The mechanism works where the resolution did not.
+
+## PRTOE_PHYSICS_DOMAINS.md — deep audit 2026-07-19
+
+Eighteenth file; 987 lines, the largest summary-shaped target. Twenty-two defects. The finds that
+matter beyond their lines:
+
+1. **My own morning drive-by left a three-way contradiction.** I rewrote §12's superradiance body
+   (live exposure) and left its verdict ("shielded twice"), the at-a-glance row ("Shielded, twice"),
+   and Part II §52 (the old margin, quoted as quotable) all contradicting it — in one file. Check 12
+   applies to my edits with exactly the force it applies to anyone's. All four voices now say one
+   thing.
+2. **The Part II tally was wrong in four of eight classes, always understating.** Claimed
+   9 PREDICTS; enumeration gives 12. Both tallies (type and status) are now enumerated by section
+   number so they can be checked rather than trusted.
+3. **A 74-domain census had no 0νββ entry.** The model's most experimentally-scheduled block —
+   m_ββ window, the nEXO overlap, the tagged discriminating band, the Majoron mode — absent from a
+   census that includes medical physics. Added as §75, with CMB-S4 (the registered corner-selector,
+   ΔN_eff 0.06–0.24 + g₃₃ in-band) as §76. The census now stands at 76.
+4. **The deuterium ladder mixed two widths mid-sentence** — the "−2.5 to −1.4σ" window (2-term
+   budget) beside numbers on the scar file's 3-term width. Restated on one width; the corpus-wide
+   width decision is ForJustin/10.
+5. **Cross-file arithmetic caught a garble in the scar file itself**, which survived its own deep
+   audit: "(ΔN_eff ≈ 0.26–0.29)" for a window that is exactly 0.06–0.24. The committed window's
+   edges now harness-lock to the ΔN_eff band that generates them.
+6. **h = λΨ₀²/m² ~ 10⁸ was seven orders stale** — at the recorded λ ≈ 2×10⁻⁹¹ and m = 2.24×10⁻²⁰
+   the quartic era at release is h ≈ 2–9. The qualitative claim (not negligible) survives; the
+   magnitude collapses.
+7. The rest: the graveyard census aligned to the atlas's enumerated 7/4/3 (was 7/5/3, twice); the
+   mass-band rows (§§13, 46, 49, 52 + validation) moved off the retired [1,3]×10⁻²¹ band to the
+   recorded mass; §21's "new half confessed" updated to the kernel-sourced +0.44% with the whisper
+   trial marked resolved (it contradicted §8 in the same file); B−L "GUT-scale" phrasing corrected
+   twice; ΛCDM's control aligned to −1.90σ; ε 1.24% → 1.2543% in §74 (shift +2.51%); thirty-one →
+   thirty decades; two garbled sentences; one AI-tell ("Crucially") removed on JP's jargon request —
+   the sweep found house metaphors ("leverage" as the lever's own leverage) and technical terms
+   ("seamless" vs the dead segmented bound) otherwise clean.
+
+**Species note.** Defects 1–3 are all the same species: the maintained summary understating the
+model — my own edit included. The census tally understated PREDICTS, the census omitted the
+sharpest experimental domain, and the at-a-glance table advertised a shield the body had already
+withdrawn.

@@ -288,7 +288,7 @@ or without the condensate and absorbed into the bare Λ. **Door A (2.2599) = the
 between the condensed and un-condensed vacuum (the superfluid analogue of the BCS condensation
 energy ½N(0)Δ²). The physical dark energy is the **condensation energy** — the vacuum shift the
 condensate actually causes — so the flagship correctly reads Door A (2.2599, +0.44%), and 2.672 is
-the reference it sits on, not a competing prediction. **Crucially this does not lean on
+the reference it sits on, not a competing prediction. **This reading does not lean on
 16π²α_c^{3/2} ≈ ½** — the coincidence that sank the equipartition reading — it is
 condensation-vs-reference, pure superfluid logic. *(One caveat stays live: it fixes **which
 door**, not the **value**; and the quantum correction is **O(1), not small** — the

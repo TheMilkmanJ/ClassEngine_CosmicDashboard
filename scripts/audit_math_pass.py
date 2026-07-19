@@ -524,6 +524,34 @@ for _tolD, _short in [(0.0125, 156), (0.05, 39)]:
     chk("deuterium_scar 5b", f"shortfall at D-curve tolerance {_tolD*100:.2g}%", _short,
         0.059/(_tolD*_bLi/_bD), 0.03, "x")
 
+
+# --- PHYSICS_DOMAINS deep audit, 2026-07-19 ---
+# the deuterium sigma ladder, ONE width (the scar file's combined 0.0563)
+_wD = 0.0563
+chk("PHYSICS_DOMAINS 6", "standing D/H row in sigma", -2.49, -(2.527-2.387)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "committed-window low end", -2.13, -(2.527-2.407)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "committed-window high end", -1.14, -(2.527-2.463)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "LCDM control on the same width", -1.90, -(2.527-2.420)/_wD, 0.005, "sigma")
+_wU = math.sqrt(_wD**2+(0.035*2.387)**2)
+chk("PHYSICS_DOMAINS 6", "spread-unfolded standing row", -1.4, -(2.527-2.387)/_wU, 0.01, "sigma")
+# the committed window IS dNeff 0.06-0.24 (the scar's 0.26-0.29 was a garble)
+chk("deuterium_scar 5", "window low edge from dNeff = 0.06", 2.407, 2.387*(1+0.1350*0.06), 0.001)
+chk("deuterium_scar 5", "window high edge from dNeff = 0.24", 2.463, 2.387*(1+0.1350*0.238), 0.001)
+# the quartic era at the recorded lambda and m
+_h_lo = 2e-91*(0.7e26)**2/(2.24e-20)**2
+_h_hi = 2e-91*(1.5e26)**2/(2.24e-20)**2
+chk("PHYSICS_DOMAINS 15", "h at the abundance pin's low end", 2.0, _h_lo, 0.03)
+chk("PHYSICS_DOMAINS 15", "h at the abundance pin's high end", 9.0, _h_hi, 0.005)
+# the 21-cm shift at the standing epsilon
+chk("PHYSICS_DOMAINS 74", "21-cm rest-frequency shift = 2*eps", 2.51, 2*1.2543, 0.002, "%")
+chk("PHYSICS_DOMAINS 74", "shift at 68 MHz", 1.71, 68*2*0.012543, 0.005, "MHz")
+chk("PHYSICS_DOMAINS 74", "shift at 89 MHz", 2.23, 89*2*0.012543, 0.005, "MHz")
+# the ADM gap in decades
+chk("PHYSICS_DOMAINS 11", "Y_Q over eta_B in decades", 30.2, math.log10(1e21/6e-10), 0.005, "dex")
+# the census arithmetic: enumerated tallies must total the enumerated census
+chk("PHYSICS_DOMAINS II", "type tally totals the 52 entries", 52, 14+8+4+6+12+2+2+4, 0.0)
+chk("PHYSICS_DOMAINS II", "status tally totals the 52 entries", 52, 15+12+1+12+2+10, 0.0)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
