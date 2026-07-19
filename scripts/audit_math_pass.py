@@ -680,6 +680,13 @@ chk("low-ell", "independent pairs = C(45,2)", 990, 45*44//2, 0)
 chk("low-ell", "quadrupole cosmic variance sqrt(2/5)", 63, math.sqrt(2/5)*100, 0.01, "%")
 chk("low-ell", "83% retention in sigma units", 0.27, (1-0.83)/math.sqrt(2/5), 0.02, "sigma")
 
+# --- kappa_v docket: the operator arithmetic (record grade, program closed) ---
+_k_kv = 9e-3
+chk("kappa_v record", "amplitude k*w/2 at w=1/3", 0.15, _k_kv/6*100, 0.01, "%")
+chk("kappa_v record", "radiative bill k/32pi^2", 2.8e-5, _k_kv/(32*math.pi**2), 0.02)
+chk("kappa_v record", "BBN drift 4/(3y) at y=2.8e7", 5e-8, 4/(3*2.8e7), 0.05)
+chk("kappa_v record", "g at recomb y=8.4e-7 (~y/4)", 2.1e-7, 8.4e-7/(4+3*(8.4e-7)), 0.01)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

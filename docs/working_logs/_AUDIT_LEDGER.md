@@ -1532,3 +1532,23 @@ N_f = 2 anchors (476(5) MeV, 230(10) MeV, the ~30% Wilson disagreement), and the
 placement are all literature-consistent; the adverse neighbour inference (0.39 ± 0.05, centred
 above the bet) is carried openly; and the repository URL matches the actual git remote. The
 note tells an external lattice group the truth, including the ways it could lose.
+
+## PRTOE_kappa_v_derivation.md — deep audit 2026-07-19
+
+File ninety. The docket's internal discipline is some of the corpus's best — the binding
+honest-triple header, seams closed with an in-file retraction, the superseded audit section
+kept labeled — and every number recomputes (k/6 = 0.15%, k/32π² = 2.8×10⁻⁵, the 5×10⁻⁸ BBN
+drift, g(recomb) = 2.1×10⁻⁷; all four harnessed, 298). Two structural fixes:
+
+1. **The missing program banner.** The standing corpus killed this program after the docket
+   closed — ANN-2026-006 (carrier ratio, 8–10 orders; class-excluded by -007) and the later
+   flat-vev +7.7σ exclusion of the BBN heal itself — and the docket carried no notice. It now
+   opens with the program status: CLOSED, record-grade, nothing load-bearing; the operator
+   work stands as method.
+2. **§3 was still selling what §3a retracts**: the void/diffuse table rows (−0.45%/−0.32%)
+   and the "forced new prediction" paragraph asserted the branch the retraction killed one
+   section later. Rows now carry the true operator's values (g → 0, dead) with the correction
+   named; the paragraph states "none" and routes to §3a. A working docket may keep its scars —
+   what it may not do is assert them as live.
+
+Scripts tagged not-retained per the standing convention.

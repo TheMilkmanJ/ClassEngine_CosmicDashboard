@@ -5,6 +5,15 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
+> **PROGRAM STATUS (2026-07-19): CLOSED — this docket is the record of the operator
+> derivation, and nothing in it is currently load-bearing.** The unification (one κ_v
+> sourcing BBN and recombination) died the night this docket closed: the carrier-ratio
+> fails by 8–10 orders (ANN-2026-006), excluding the whole density-proportional class
+> (ANN-2026-007). The BBN vev heal itself was later excluded (the flat-vev at +7.7σ) and
+> is retained only as P-2026-006's hypothetical non-Majoron lever — see the deuterium
+> scar's §7 and the registry. The operator work below (shape-forced / amplitude-input /
+> window-consistent, the seams, the audits) stands as method and record.
+
 **Status (2026-07-07): the honest triple, binding —
 SHAPE-FORCED (class universality) / AMPLITUDE-INPUT (k_eff is chosen,
 not derived) / WINDOW-CONSISTENT (0.06 lands inside ANN-2026-005's
@@ -54,21 +63,18 @@ prices in μ² itself.
 | BBN (pre-basin) | 1/3 EXACTLY, zero drift | **+0.15% constant** — the healer |
 | recombination (mean) | 2×10⁻⁷ | 10⁻⁹ — dyad untouched |
 | laboratory halos | 5×10⁻¹¹ | 10⁻¹³ — clocks/Oklo/absorbers safe |
-| deep voids today | → −1 | **−0.45%** — NEW forced prediction |
-| cosmic diffuse mean today | ≈ −0.7 | −0.32% (τ shift absorbed by z_reio) |
+| deep voids today | g → 0 | **0 — dead** (the −0.45% first written here conflated g with the full-medium w; corrected by §3a's retraction) |
+| cosmic diffuse mean today | g → 0 | 0 — dead (same correction) |
 
 **Consistency check not forced:** mapping back to the booked
 normalization, κ_v = (k·w/2)/(ρ_d/ρ_r) = **0.06 at the ΔN_eff
 bound — inside ANN-2026-005's [0.06, 0.41] window**, derived, not
 fitted to it.
 
-**The forced new prediction:** the operator has no freedom about the
-late-time negative branch — where the floor dominates, w < 0, and
-diffuse/void gas today carries constants shifted −0.3 to −0.45%
-relative to laboratories (which sit at w ≈ 0). This lands in R1's
-unvirialized-gas channel with a sign and a magnitude — the two
-programs (the healer and R1) now share one observational target:
-**m_e-sensitive spectroscopy in demonstrably unvirialized gas.**
+**The late-time branch:** none. A forced negative branch (−0.3 to −0.45% in void/diffuse
+gas) was first claimed here and is retracted in §3a — it conflated the operator's g with
+the full-medium w. Under the true operator voids have y → 0 ⇒ g → 0: no late-time signal
+anywhere, and R1's unvirialized-gas channel has no κ_v companion.
 
 ## 3a. THE THREE SEAMS — closed, with one retraction
 
@@ -159,4 +165,5 @@ this side of the §2 wall.**
 
 *Chain of custody: drift wall found → density portals killed →
 invariant-attribute search → w unique → operator written → profile
-computed → κ_v window reproduced unforced. Scripts in job scratch.*
+computed → κ_v window reproduced unforced. Scripts were job-scratch,
+not retained.*
