@@ -185,6 +185,10 @@ chk("inflation_replacement", "ln(M_Pl/T_on)", 55.52, _L, 1e-3)
 chk("inflation_replacement", "n_s = 1 - 2/ln(M_Pl/T_on)", 0.9640, 1-2/_L, 1e-3)
 chk("inflation_replacement", "running from the scale-local form", -5.2e-4, -2/(2/(1-0.9677))**2, 0.02)
 
+# ---- the area law ----------------------------------------------------------
+chk("quantum_gravity", "Bekenstein quarter = 12pi/48pi", 0.25,
+    (1/(48*math.pi))/(1/(12*math.pi)), 1e-9)
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
