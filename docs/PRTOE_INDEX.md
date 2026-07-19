@@ -51,6 +51,8 @@ sqrt3_derivation · classical_gravity · special_relativity · inertia · light 
 ## The mystery wing
 **no_singularities** (the synthesis) · blackholes_no_singularity · bigbang_no_singularity ·
 arrow_of_time · information_paradox · wormholes · white_holes · cosmological_constant
+- [ENTROPY](PRTOE_entropy.md) — the four entropy statements on one page (the low beginning, the
+  two-component split, horizon entropy, the gas floor), each graded, each pointing to its home
 
 ## The quantum wing [R, §12-walled]
 quantum_entanglement · quantum_tunneling · quantum_superposition
