@@ -1195,3 +1195,14 @@ below every instrument"; the white-holes line now carries the computed set. Ever
 held: the Gμ null with its kill clause, the lightswitch's split prediction (resolved events
 clean; a confirmed chirality in any resolved binary kills), and the dead-ends note that turns
 the birefringence closure into the reason the parity signal lives in gravity.
+
+## PRTOE_inflation_replacement.md — deep audit 2026-07-19
+
+Fifty-first file. Two check-13 payments: §2 still owed "the count's exact normalization" that
+the k-mechanization paid (A_s = (α_c/4πk)³ = 2.0807×10⁻⁹, −0.35% — now stated with the
+shot-noise O(1) as the true residual), and kill (iv) awaited a computation that landed months
+of corpus-time ago — it now names the surviving kill (the O(1) resolving far from unity). The
+tilt arithmetic all verified, including the subtlety that the running's −5.2×10⁻⁴ uses the
+scale-local logarithm (61.9), not the consistency check's 55.5 — correct as written. The
+grade-per-claim table (flatness "measured, not derived") is the honest structure task #108
+certified and it holds.

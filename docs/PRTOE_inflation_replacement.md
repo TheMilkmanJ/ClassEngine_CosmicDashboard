@@ -63,15 +63,17 @@ unexplained, and not used.*
 ## 2. What the model does NOT need
 No inflaton, no slow-roll tuning, no reheating theory, no measure problem, no eternal
 inflation, no multiverse. The price paid instead: the cyclic/bounce machinery (recorded),
-and the A_s amplitude count (1/N census form — its coupling and loop factor are derived; the
-one seed number still owed is the count's exact normalization).
+and the A_s amplitude count (1/N census form — coupling, loop factor, and the normalization k
+are all mechanized: A_s = (α_c/4πk)³ = 2.0807×10⁻⁹ against the frozen 2.088×10⁻⁹, −0.35%;
+the shot-noise O(1) is the residual — [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md)).
 
 ## 4. Kills
 (i) the α_c MCMC moving T_on enough to break the tilt's landing; (ii) a confirmed tensor-to-scalar
 ratio r at inflationary levels (the bounce predicts r far below current bounds — a
 detection of r ~ 0.01+ would resurrect the inflaton and kill this file); (iii) P-031's
-line absent at sensitivity (kills the seed mechanism's λ-saturation leg); (iv) the A_s
-count failing catastrophically when computed.
+line absent at sensitivity (kills the seed mechanism's λ-saturation leg); (iv) the A_s count's
+shot-noise O(1) resolving far from unity (the count itself has been computed and landed at
+−0.35% of the frozen value).
 
 ## Sources
 [Planck2018] (n_s, r bounds), [PlanckIso2019], internal: §19–22, the bounce file
