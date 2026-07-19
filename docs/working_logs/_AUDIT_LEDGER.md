@@ -1389,3 +1389,15 @@ result saturating at 2√2; the cc §4b companion pointer lands on the right sec
 readings of the same residual"); the Born-rule residue is flagged as the single un-derived
 piece. The seating table's honesty line — each door backed by a computation, not an analogy —
 survives inspection: C4 CHSH, WKB-verbatim, ODLRO. Harness 280.
+
+## PRTOE_no_singularities.md — deep audit 2026-07-19
+
+File seventy-eight. One fix: the header's c_s ≈ 0.146 was the band-edge convention
+(√0.0214) in a corpus that stands at √(3α) = 0.148 — the same value every neighbor quotes
+(blackholes, cosmological_constant, laboratory_cousins). The line now carries the standing
+value with the spine's own priced split (bet-exact 398 AU vs recorded 402, 1%). Everything
+else held under recomputation: all four r_s/ξ table rows, the crossover mass 2.0×10¹⁰ M☉
+(now harnessed with the table's extremes), λ's support margin (2×10⁻⁹¹ clears 8×10⁻⁹⁴ by
+250× = "more than two orders" ✓, harnessed), the 12π/48π = 1/4 area-law seating, the NEC
+17-order shelf, and §5's owed list — each owed item carries its number or its gate, none
+dangling. The five-pathology table's grades match the component files' own.
