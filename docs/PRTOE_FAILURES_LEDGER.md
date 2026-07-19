@@ -1386,3 +1386,26 @@ and which the stellar population already accounts for. The Centre is therefore t
 sharpest constraint rather than its null, the test lives at parsec radii, and the verdict is
 open pending a real budget analysis. *Second radius-scale error of the same session: a margin
 quoted at a radius the physics does not occupy.*
+
+### The "kpc written twice" coincidence — BROKEN BY ITS OWN NUMBERS (2026-07-18)
+
+**What it claimed:** that the ghost-condensate braiding scale (M_Pl/M₂² ≈ 0.87 kpc) coincides
+with the soliton core scale, so "the model's one exotic operator writes kpc in two independent
+places" — and that dwarf cores at ~kpc are therefore the substrate's own grain rather than a
+patch.
+
+**Why it dies:** the two lengths are built from different parameters. The braiding scale comes
+from M₂; the soliton comes from the ultralight mass. At the recorded values the soliton core is
+**7 pc in a dwarf and 0.7 pc in a Milky-Way-class halo** — two orders below the braiding scale,
+with the de Broglie granule scale (~18 pc in a dwarf) sitting alongside it. There is no
+coincidence: nothing in this sector writes kpc twice.
+
+**What it costs:** the small-scale-structure file's "native answer" to core-cusp is withdrawn.
+A parsec-scale ground state does not produce kiloparsec cores. **What survives:** the
+smoothness floor below ~10⁻³ pc (a real, falsifiable anti-cold-dark-matter prediction that
+never depended on the core scale), and the fact that halos look cold everywhere current data
+reaches — which is why this model survived the constraints that excluded lighter fuzzy-dark-
+matter candidates.
+
+Found by carrying the corrected soliton radii into the file that cites them; the coincidence had
+been quoted against radii that were themselves a thousand times too small.
