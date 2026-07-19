@@ -885,3 +885,29 @@ the condensate-growth profile and R1's #11 sims gate. Also: the bare value at re
 corrected to 1.012543 (§1 had ≈1.010, conflating R1's variant with the dyad's amendment); the
 first-collapse mass note brought to the recorded 2.24×10⁻²⁰; a dangling "§62/§74" booking
 pointer resolved to the census's §74.
+
+## PRTOE_wormholes.md — deep audit 2026-07-19
+
+Twenty-fourth file, and the audit's first **clean pass**: no edits. Numbers check (c_s = √α_c;
+the 17-order branch-DOS pricing cites its source), the bans match the atlas's wormhole verdict,
+the named killer is falsifiable, the legend is defined in place, and the prose is fluent. A
+clean file is a result, recorded as one.
+
+## PRTOE_white_holes.md — deep audit 2026-07-19
+
+Twenty-fifth file. Two defects in 397 lines — the best-kept large file so far, and notably it is
+a *frozen-record-style* shelf rather than a maintained summary, which is the session's pattern
+holding to the end.
+
+Both defects were historical, not physical. The "historical precision" parenthetical dated the
+maximal extension "five years after his death" for both Synge [1950] and Kruskal–Szekeres
+[1960] — Synge's construction predates Einstein's death by five years, not the reverse. Now
+stated correctly, with the honest note that Synge's paper drew little notice in Einstein's
+lifetime. And the Haggard–Rovelli work was cited under two different year-tags in one file
+(2014 tag, 2015 prose); unified to the bibliography's tag.
+
+Everything with a number checked: the Faraday pricing (4.5×10⁻¹⁰° vs 0.34° is nine orders),
+the dimmer's geometric center (√(32×4) ≈ 11.3 against "centered at z ≈ 12"), the z ≲ 0.7
+re-domination against THE_CHAIN, the P-028 field value against the registry. Owed items are
+all honestly gated (bounce dynamics EXPLORATORY; T10's spectral shapes de-urgented by computed
+ceilings; flatness owed to the cycle map).
