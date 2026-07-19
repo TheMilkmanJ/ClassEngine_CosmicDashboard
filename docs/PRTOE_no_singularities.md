@@ -75,9 +75,13 @@ debt:
   thermal Landau-broken core) and **the scaling is now derived** — counting horizon
   entanglement across the medium's own coherence cells against induced gravity's inverse
   Newton constant, the species count and the cutoff cancel in the ratio, which is the
-  universality itself. What remains is one pure number, the bit-per-cell value that would give
-  the Bekenstein quarter ([PRTOE_entropy.md](PRTOE_entropy.md) §3). **The same number is what
-  blocks the Page curve**, so one payment closes both.
+  universality itself. **The coefficient is now also derived** — it is not a free bit-per-cell
+  value but the *ratio* of the two heat-kernel coefficients the same cutoff supplies: induced
+  Newton at 1/G = N/(12πε²) against horizon entanglement at S = N·A/(48πε²), whose ratio is
+  **12π/48π = 1/4 exactly**, giving S = A/4G ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md)
+  §4a). **The same payment closes the Page curve**, which was blocked on it. Conditional on the
+  medium's Bogoliubov regulator giving O(1) = 1.0000 on the entanglement side as it does on the
+  induced-G side — one half of one computation, outstanding.
 - **λ (the quartic self-coupling)** — sets the core floor and the bounce density ρ_bounce. Its
   support requirement is now computed and comfortable: holding up the largest known black holes
   needs λ ≳ 8×10⁻⁹⁴, which the derived value clears by more than two orders. What stays owed is

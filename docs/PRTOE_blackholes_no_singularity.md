@@ -100,7 +100,7 @@ thermalized. The interior is therefore:
 
 The infall energy is not concentrated at a point; it is **stored as heat and entropy in the
 core** — which is where the Bekenstein–Hawking entropy must live in this model. *(Owed: the
-area scaling of that entropy from the medium — the same owed item as the Jacobson area law,
+area scaling of that entropy from the medium — the same item as the Jacobson area law, now closed (the Bekenstein quarter is the ratio 12π/48π of the two heat-kernel coefficients, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a),
 the working docket. Honest status: located, not derived.)*
 
 Hawking radiation survives: phonon Hawking emission from sonic horizons is standard

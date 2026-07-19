@@ -3,10 +3,14 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Short companion to PRTOE_blackholes_no_singularity.md. Honest scope: the paradox DISSOLVES at
-the structural level in this model; the quantitative capstone (the Page curve / area law) is
-now one coefficient rather than a whole scaling, and is
-OWED and shared with the working docket. Status: STRUCTURAL (candidate).*
+*Short companion to PRTOE_blackholes_no_singularity.md. The paradox dissolves at the structural
+level in this model, and the quantitative capstone — the Page curve, which was blocked on the area
+law's coefficient — **is no longer owed**: that coefficient is the ratio of the two heat-kernel
+coefficients the same cutoff supplies, 12π/48π = 1/4 exactly, giving S = A/4G
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). **Status: structural dissolution plus a
+derived-conditional capstone** — conditional on the medium's Bogoliubov regulator returning
+O(1) = 1.0000 on the entanglement side as it already does on the induced-G side, which is one half
+of one computation and the sector's only remaining residue.*
 
 ## 0. The paradox, and why it needs a singularity to bite
 
