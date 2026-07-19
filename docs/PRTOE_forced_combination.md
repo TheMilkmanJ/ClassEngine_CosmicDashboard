@@ -75,8 +75,18 @@ edge, 0.297, sits 0.3% from QCD's own 130-MeV-convention value — proximity is 
 the convention is computed, and the computation may not know the target.)* **The closing
 state: the entire chain now hangs on TWO observables of ONE lattice theory — T_c/√σ (the
 P-048 fork: 0.3503 vs ½ln2) and F_π/√σ (this tie) — the same SU(2) N_f = 3 ensembles the
-circulating note already invites the field to run.** The remaining desk pin: the
-sector-normalized vortex-pair computation (fixes convention and t).
+circulating note already invites the field to run.** **Both desk pins, paid (same evening):** *(pin a)* the vortex-pair coefficient computed in
+the sector's own normalization — L = |∂φ|² pins F² ≡ 2v² (no √2 freedom), the pair energy is
+E = 2πF²t·ln(R/d) exactly (numerically verified against 4πv² to discretization), so the
+freedom collapses to the sheet thickness t alone (t = 1/√σ named-natural). **The exact
+demand: F_dark/√σ = 0.4204 in the pinned convention** — with the comparison instruction for
+any lattice reader: match the phase-stiffness definition L_θ = (F²/2)(∂θ)² for the winding
+U(1) (two-color: the baryonic phase), not the name "F_π". *(pin b)* the T_c/3 drift acquires
+its candidate mechanism — **the synchronization reading**: in Josephson grammar (θ̇ = μ), the
+ring freezes when its collective winding rate locks to the thermal clock, **3μ = T_c** ⟹
+μ = T_c/3 ⟹ θ_hop = c₂τ/3 = 2/9 exactly. The house's own two-clock frame applied at the
+transition; candidate grade — the locking dynamics (why the collective rate, why unit
+coefficient) is the named derivation object.
 
 ## 5. Kills
 
