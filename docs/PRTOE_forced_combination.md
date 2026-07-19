@@ -64,6 +64,20 @@ what it would deliver:)* if that identity lands 1.11, then c₂ is derived, and 
 and the P-048 fork's kernel point in one stroke. None of that is claimed here; §2–3 stand
 alone.
 
+**The tie, run (2026-07-18): CLASS-YES, PRECISION-PENDING.** For a relativistic condensate
+the vortex stiffness is the Goldstone decay constant — q̃² = 2πF²t — so the keystone converts
+to **F_dark/√σ = 0.30–0.42** (thickness t·√σ = 1 natural; the band is the normalization
+convention, to be FIXED by the sector's own vortex-pair computation, blind). The known
+class: QCD sits at 0.21–0.30 across conventions; two-color lattice at ~0.2–0.35. **The
+demanded value is the neighborhood QCD-like theories actually occupy** — natural at
+factor-≲2, not yet pinned at percent grade. *(Noted with the fence up: the band's lower
+edge, 0.297, sits 0.3% from QCD's own 130-MeV-convention value — proximity is bait until
+the convention is computed, and the computation may not know the target.)* **The closing
+state: the entire chain now hangs on TWO observables of ONE lattice theory — T_c/√σ (the
+P-048 fork: 0.3503 vs ½ln2) and F_π/√σ (this tie) — the same SU(2) N_f = 3 ensembles the
+circulating note already invites the field to run.** The remaining desk pin: the
+sector-normalized vortex-pair computation (fixes convention and t).
+
 ## 5. Kills
 
 (i) the ring reading itself dying (the kernel chase's judges: the P-048 lattice fork, the
