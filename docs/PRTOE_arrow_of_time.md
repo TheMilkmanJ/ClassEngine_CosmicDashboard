@@ -3,9 +3,12 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Derivation-from-recorded-structure. The deepest of the three mystery documents: it addresses
-Boltzmann's question — WHY did the universe begin in a low-entropy state? — with a graded
-answer. Status: STRUCTURAL (candidate).*
+*Addresses Boltzmann's question — why did the universe begin in a low-entropy state? Status:
+**the FIRST beginning is answered by uniqueness; OUR cycle's beginning is not.** The uniqueness
+argument of §1 is real and it disposes of Penrose's 1-in-10^(10¹²³) for the first genesis. But the
+model is cyclic and §2's item 5 accepts Tolman openly — entropy accumulates, cycles lengthen — so
+our cycle inherited rather than started clean, and the argument does not reach it. §2a states the
+gap rather than letting §1 cover for it.*
 
 ## 0. The mystery, stated properly
 
@@ -64,6 +67,30 @@ With the low start explained, the arrow itself is the model's graded free-energy
  count is not a recorded number. **The arrow ends where it
  began: in a unique, structureless state** — the vacuum at the start, the fully-depleted,
  zero-free-energy state at the end.
+
+## 2a. What the uniqueness argument does not reach
+
+**The gap, stated plainly.** §1 answers the Past Hypothesis for the *first* genesis: a first moment
+inherits nothing, the vacuum is the only state requiring no inheritance, and Penrose's fine-tuning
+count presumes alternatives that do not exist. That argument is sound and it is the file's real
+contribution.
+
+**But we are not in the first cycle.** Item 5 above accepts Tolman without flinching — the crunch
+keeps the heat, cycles lengthen, the un-crunchable Weyl never undoes. So our cycle began with
+inherited entropy, and its lowness is not explained by the uniqueness of a beginning many cycles
+upstream. **The Past Hypothesis, for the universe we actually observe, is reopened by the cyclic
+frame.**
+
+**Bridging it requires being early in the chain — and the model's own lengthening argues against
+that.** If cycle durations grow, an observer-moment weighted by elapsed time falls preferentially
+in a *late* cycle: for durations growing even linearly the first cycle holds under 7% of the
+chain's time, and geometrically under 4%. The one standard repair is anthropic — observers need
+structure, structure needs low entropy — which §3 below explicitly rejects as a non-answer, and the
+file cannot both reject it and rely on it.
+
+**Grade: the first beginning, derived by uniqueness; our beginning, open.** Naming the gap costs
+the file nothing it had actually earned, and the uniqueness theorem stands undiminished for the
+question it does answer.
 
 ## 3. Why this is different from the standard non-answers
 
