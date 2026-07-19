@@ -980,3 +980,12 @@ two-widths cross-pointer added.
 — it is PRIMAT's own ΛCDM (2.439) at the 2-term width, exactly 1.85σ, correct as written. Now
 harnessed so nobody "fixes" it later. The audit's job is as much protecting right numbers as
 correcting wrong ones.
+
+## PRTOE_family_tree.md — deep audit 2026-07-19
+
+Twenty-ninth file. Four defects: three empty "()" husks from the reference purge (the
+ForJustin/08 species — the l_Pl cell split as "(forced,/)", two branch cells bare), one
+editorial trim. Every number in the tree checked against standing and held: the floor 2.26 meV,
+λ ≤ 2×10⁻⁹¹, α_g = 1 at 6×10⁹ M☉, H₀ 69.9, the comb's 3.1n, the four ladder scales. The
+purchased-null perimeter reads as the standing kill set. A sed mis-hit during repair (took the
+wrong paren) was caught by re-reading the line before commit — the small version of check 12.
