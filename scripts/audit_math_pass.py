@@ -690,6 +690,14 @@ chk("kappa_v record", "g at recomb y=8.4e-7 (~y/4)", 2.1e-7, 8.4e-7/(4+3*(8.4e-7
 # --- v4 derivation: the beta-family peak (2026-07-19) ---
 chk("v4 record", "peak c_s^2 coefficient 2/e", 0.74, 2/math.e, 0.01)
 
+# --- v5 five-verdict: the locked relation (2026-07-19) ---
+_M2sq = 9.4**2                                     # eV^2
+_MPl_eV = 1.22091e28                               # full Planck mass, eV
+_nu = lambda Meff: (4*math.pi*2/3)*(_M2sq/(Meff*_MPl_eV))**2
+chk("v5 verdicts", "nu at M_eff=2e-21 (alpha=2)", 1.1e-10, _nu(2e-21), 0.02)
+chk("v5 verdicts", "nu at M_eff=8.8e-23", 5.6e-8, _nu(8.8e-23), 0.02)
+chk("v5 verdicts", "m2bar at M_eff=2e-21 (GUT band)", 4.4e13, _M2sq/2e-21/1e9, 0.01, "GeV")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

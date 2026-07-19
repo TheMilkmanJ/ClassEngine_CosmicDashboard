@@ -5,12 +5,12 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-**Status: FRAMEWORK (2026-07-07). No verdict is issued in this revision.**
-Binding: five separately-worked sections sharing
-one framework, each verdict's chain visible from assumption to number —
-built slowly, so a cold read can convict one step without acquitting the
-other four. This document accumulates the derivation; verdicts are
-stamped only when their section is complete.
+**Status: COMPLETE (2026-07-07) — all five verdicts STAMPED (§3), the V4 step-walk
+run and CLEARED (§4, the reviewer's registration recorded verbatim).** Binding: five
+separately-worked sections sharing one framework, each verdict's chain visible from
+assumption to number — built so a cold read can convict one step without acquitting the
+other four. The header's original working rule (verdicts stamped only when their section
+completes) was honored: every stamp below carries its chain.
 
 ## 0. What this calculation decides (the load)
 
@@ -128,7 +128,7 @@ these variables; the two derivations agree.
  algebra has protected an observable from its one tuned parameter).
 
 **Step 5 — numbers and consistency checks** (script:
-`derivation_battery.py` lineage, run 2026-07-07):
+`derivation_battery.py` lineage, run 2026-07-07; scratch-era, not retained):
 - With M₂ = 9.4 eV: M_eff = 88.4 eV²/m̄₂. The astrophysically
  interesting window maps to **m̄₂ ∈ 10¹¹–10¹⁵ GeV** — the
  intermediate/GUT band (M_eff = 2×10⁻²¹ eV ↔ m̄₂ = 4.4×10¹³ GeV).
