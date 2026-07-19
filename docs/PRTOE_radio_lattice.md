@@ -27,7 +27,7 @@ with a KNOWN, DIFFERENT weight — a lattice of correlated shifts with fixed rat
 A single anomalous shift in any band is systematics until proven otherwise. The dyad predicts
 the PATTERN: +2 : +1 : −1 : −1 : −2, simultaneously, in the same epochs/sightlines — with the
 D-to-H frequency ratio EXACTLY preserved (4.338649 at every z — the P-027 two-line lock; only
-a universal m_e shift does that) and the modulation comb at ℓ ≈ 6.4n (P-029) ruled along the
+a universal m_e shift does that) and the modulation comb (P-029, fundamental ℓ₁ ≈ 3.1n ≈ 31–94) ruled along the
 SAME axis as the ε-dipole (P-024). Generic new physics moves these bands independently;
 varying-α models move them with DIFFERENT weights (α enters the 21cm line at α⁴ but dispersion
 NOT at all) — **the lattice discriminates the dyad not just from ΛCDM but from every other

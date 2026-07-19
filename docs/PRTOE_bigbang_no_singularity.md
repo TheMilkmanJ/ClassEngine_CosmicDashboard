@@ -57,7 +57,7 @@ t = 0 there. The model's answer (graded "a cleaner re-founding"):
 > the unique state that requires no choice. The tachyonic roll-out amplifies the vacuum's own
 > fluctuations; the Kibble mechanism generates and locks the winding (the *band* n ~ 10–30 is
 > estimated — the Widnall instability window; the *value* is the cycle's one topological draw,
-> read by the ℓ ~ 130 comb, not computed); the roll self-generates the helicity (the
+> read by the winding comb, not computed); the roll self-generates the helicity (the
 > first-roll-at-rest theorem).
 
 The "initial condition problem" dissolves at the root: there is no freely-specified initial

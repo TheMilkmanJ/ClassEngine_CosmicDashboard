@@ -73,7 +73,7 @@ drift reading, n_s − 1 = −dlnN/dlnk) to the CMB.
 
 **6. RECOMBINATION, z ≈ 1100:** the dyad's main act — heavier m_e → earlier decoupling
 → smaller sound horizon → the H₀ mechanism (69.9); the winding's teeth project onto the
-acoustic sky (the ℓ ~ 130 comb, the ℓ ~ 170 isocurvature line, one n — P-029/031/033).
+acoustic sky (the comb at ℓ₁ ≈ 31–94, the ℓ ~ 170 isocurvature line, one n — P-029/031/033).
 → **Tether 6→7 [RECORDED, probe-registered]:** hands the CMB (formed) and the still-on ε
 to the dark ages.
 

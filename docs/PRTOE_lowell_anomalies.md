@@ -27,7 +27,7 @@ Three recorded/graded objects bear directly on the largest angles:
  sky — the natural seed for alignment/asymmetry families. Standard cosmology has no axis;
  this model cannot avoid having exactly one.
 3. **The axis is SHARED and already registered twice**: P-2026-024 (the ε-dipole) and
- P-2026-029 (the ℓ≈126 winding comb) both point along it. The anomalies join a THREE-member
+ P-2026-029 (the winding comb, fundamental ℓ₁ ≈ 31–94) both point along it. The anomalies join a THREE-member
  family with two falsifiable siblings: **the axis-of-evil direction should coincide with the
  comb axis and the ε-dipole axis.** One direction, four phenomena — or the family dies
  together.

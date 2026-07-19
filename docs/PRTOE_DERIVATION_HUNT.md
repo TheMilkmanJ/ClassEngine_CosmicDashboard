@@ -425,7 +425,7 @@ irreducible input.
   are involved: a repulsive *amplitude* quartic for the collapse floor, and an attractive *phase* quartic
   for the isocurvature. P-031's amplitude (sub-%- to %-level) rests on an O(1) coefficient.
 - **n (the winding integer) — measured, not derived by design:** the one topological draw of the genesis
-  (Kibble), n ~ 10–30, the shared source of the ℓ ~ 130 comb, the isocurvature line, the matter asymmetry,
+  (Kibble), n ~ 10–30, the shared source of the winding comb, the isocurvature line, the matter asymmetry,
   and the magnetic helicity.
 - **η (the baryon asymmetry) — estimate:** η = n × junction transmission; the transfer integral lands at
   the right order (~6×10⁻¹⁰) from recorded inputs. The thermal-leptogenesis route is dead (×40–1000 under).
