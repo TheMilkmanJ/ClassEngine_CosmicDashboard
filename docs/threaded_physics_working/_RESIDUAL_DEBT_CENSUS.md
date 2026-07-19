@@ -31,7 +31,7 @@ here so the count is the corpus's, not just the threads'.*
 
 | item | where it is named | state |
 |---|---|---|
-| **the dark-energy value's O(1) coefficient** | cosmological constant §4b, and the failures ledger's own note that it "remains the genuinely un-built calculation" after the equipartition ½ was withdrawn | OPEN — the heaviest single number still missing from the flagship sector; its object is named (the partial Gibbs–Duhem term) |
+| ~~the dark-energy value's O(1) coefficient~~ | cosmological constant §4b | **DISSOLVED 2026-07-18** — the two doors stand in exactly the derived phase-space ratio (0.04% agreement); what looked like a missing coefficient was the flagship's own τ gap measured against the wrong door. No separate number to build; the lattice's τ answer fixes it |
 | **the area law from the medium** | black holes, no-singularities §5, entropy file §3 | **NARROWED 2026-07-18** — the scaling is derived from the medium (species count and cutoff cancel, which is the universality itself); what remains is one pure number, η. Still the Page curve's blocker |
 | **λ, the quartic** | no-singularities §5, black holes §3 | **TENSION DISSOLVED 2026-07-18** — recomputed, the equilibrium requirement is λ ≳ 8×10⁻⁹⁴, which the derived 2×10⁻⁹¹ clears by ~250×; the quoted "≳10⁻⁹⁰" was three orders too strong and is corrected |
 | **the Z₄-locking mechanism** | quartet clock §2 | OPEN — that file is exploratory and its whole reading rests on this |
