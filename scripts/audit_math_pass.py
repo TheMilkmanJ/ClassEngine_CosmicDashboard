@@ -661,6 +661,12 @@ chk("no singularities", "10 Msun: r_s/xi", 5e-10, _rs(10)/_xi_m, 0.03)
 chk("no singularities", "TON 618 (6.6e10): r_s/xi", 3.3, _rs(6.6e10)/_xi_m, 0.02)
 chk("no singularities", "lambda support margin (2e-91 over 8e-94)", 250, 2e-91/8e-94, 0.01, "x")
 
+# --- the S8 pair: standing-anchor arithmetic (2026-07-19) ---
+chk("S8 pair", "g candidate identity 10*eps == 54a/pi", 1.0, (10*27/(5*math.pi)*(1/137.035999)) / (54/(math.pi*137.035999)), 1e-12)
+chk("S8 pair", "LCDM 0.833 vs Legacy consensus", 1.6, (0.833-0.814)/0.012, 0.02, "sigma")
+chk("S8 pair", "model 0.823 vs Legacy consensus", 0.75, (0.823-0.814)/0.012, 0.02, "sigma")
+chk("S8 pair", "model twice as close as LCDM", 2.1, (0.833-0.814)/(0.823-0.814), 0.02, "x")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

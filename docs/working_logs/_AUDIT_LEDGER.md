@@ -1419,3 +1419,22 @@ what the optimizer-plateau law demands of chain reads. The registered bet lines 
 stay as placed. Verified: the ½·log₁₀N composite shifts (7.59/7.74/7.89 exact), the §3
 zon_disp read (≈7.7, R−1 ≈ 23 — matches today's watcher relay verbatim), T = 9.41 keV, and
 the three generations of marks each carrying its dateline.
+
+## PRTOE_s8_growth.md + PRTOE_s8_tension.md — deep audits 2026-07-19
+
+Files eighty and eighty-one, audited as the pair they are — and the finding is the pair itself:
+**two S₈ files, no cross-link, two different lensing bands (0.76–0.78 vs 0.76–0.81), and both
+stale against their own corpus.** The standing claim (PHYSICS_DOMAINS §42, the atlas header,
+the registry's Fairbank corollary) is S₈ = 0.823 at the KiDS-Legacy joint consensus
+(0.814 ± 0.012) vs ΛCDM's 0.833 at zero χ² cost — neither file mentioned Legacy at all,
+both still telling the 2–3σ-era story as current. Both now carry the two-era picture
+(KiDS-1000/DES-Y3 centrals 0.76–0.78, then the Legacy consensus softening it to ~1.6σ),
+the production 0.823 with its regime, and mutual companion pointers naming their roles
+(growth = the conversion-channel standalone; tension = the consolidated production file).
+The 0.807 omk reading kept with its regime label. Kill (iii) sharpened honestly: Legacy's
+0.814 is a half-step toward dissolution, with the model's 0.823 sitting between consensus
+and ΛCDM — stated as geometry, not spin (model 2.1× closer; harnessed). The g = 10ε = 54α/π
+identity verified exact and harnessed; "the machines' table" pointed at the hunt. Mechanism
+content untouched: conv_g pre-registration (0.10 ± 0.05, minimizer 0.12 inside it), the
+DESI police clause, the closed entropy-floor route, and the three owed items (chains,
+matched-likelihood fit, perturbation treatment) all stand. Harness 288.
