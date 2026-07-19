@@ -34,6 +34,17 @@ Three recorded/graded objects bear directly on the largest angles:
 
 ## 2. The improvement, stated precisely
 
+**The cavity computation, run (2026-07-18) — the mechanism has the right shape and falls short
+on depth.** Summing the torus's discrete modes against the continuum for a scale-invariant
+potential at the recorded last-scattering distance: the suppression is confined to the lowest
+multipoles and dies away by ℓ ≈ 4, which is the observed pattern. Its **depth** is the problem.
+At the smallest torus the matched-circles nulls permit (L ≈ 27.6 Gpc) the quadrupole retains
+**83%** of its power, where the observed deficit wants 20–50%. A torus of L ≈ 20 Gpc would
+deliver it (39% retained) — but that size is excluded by the circles. **So the honest grade is:
+right shape, wrong depth at allowed sizes — the mechanism produces a quadrupole suppression
+three to five times too weak.** (Sachs–Wolfe-only, cubic torus, scale-invariant spectrum: the
+shape conclusion is robust, the depth good to tens of percent.)
+
 Not "the model explains the anomalies" (the detailed low-ℓ likelihood is OWED — a compact-torus
 C_ℓ computation with the winding modulation, un-run). The improvement is structural: ΛCDM
 CANNOT expect these features even in principle; this model REQUIRES a discretized large-scale

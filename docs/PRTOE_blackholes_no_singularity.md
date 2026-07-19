@@ -152,7 +152,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 |---|---|---|
 | Singularity at r = 0 | finite-density condensate/normal-phase core | derived-from-recorded (§1–4) |
 | Metric to arbitrarily small r | metric ends at ξ; interior is one quantum object for M < 2×10¹⁰ M☉ | computed (§2) |
-| Collapse unbounded | CSW equilibrium at any known mass (λ ≳ 10⁻⁹⁰) | computed, λ owed (§3) |
+| Collapse unbounded | CSW equilibrium at any known mass — recomputed 2026-07-18: supporting the largest known black holes (2×10¹⁰ M☉) needs only **λ ≳ 8×10⁻⁹⁴**, which the derived λ ≈ 2×10⁻⁹¹ clears by ~250× (the earlier "≳10⁻⁹⁰" was three orders too strong) | computed; the requirement is met with room |
 | Ring singularity (Kerr) | quantized vortex bundle, normal-phase threads | structural (§5) |
 | Penrose theorem | discharged at premises (no metric below ξ; SEC violated; phonon geodesics end, histories don't) | argued (§6) |
 | BH entropy | thermal core + Landauer accounting; area law OWED | located, not derived |
