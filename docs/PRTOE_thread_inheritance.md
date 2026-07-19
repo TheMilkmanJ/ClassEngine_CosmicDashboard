@@ -24,7 +24,7 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
 | medicine | atomic physics / the substrate + the screens | the gate's zero — guaranteed normality |
 | strong-CP | parity (L1a — the birefringence clause) | parity-even reach to gauge sectors |
 | muon g-2 | the portal (Cards 3+7) | the geometric-mean scale's silence |
-| MOND/RAR | galactic DM (T1) + the quartic | pending m_amp — the parent's un-pinned λ |
+| MOND/RAR | galactic DM (T1) + the quartic | dead by scale — m_amp → m puts any modification at ≤ 59 AU ≪ kpc (the spine's ruling) |
 | JWST excess | growth/Lyα (T1's constraints) | Lyα forbids the cure |
 | ISW excess | the account | the priced coupling (fixed size) |
 | lithium | BBN (the windowed lattice) | the epoch-stamps (percent-class ceiling) |
@@ -39,7 +39,7 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
  each kill names its parent and inherits that parent's falsifiability — kill the parent's
  law and every child verdict re-opens (e.g., if L1a bleeds at Minami-Komatsu, strong-CP's
  death certificate is void too — one clause, shared fate, both directions).
-2. **The threading survey's true output is the ROOT SET**: ~sixteen direct threads cover, by
+2. **The threading survey's true output is the ROOT SET**: sixteen direct threads cover, by
  inheritance, every physics the protocol has examined. The model is small at the roots and
  total at the leaves.
 3. **The falsifiable meta-claim**: there should exist NO demonstrable orphan — a physical
@@ -50,13 +50,13 @@ model's reach is a DAG whose roots it threads directly and whose leaves inherit 
 ## 3. Owed
 
 The graph drawn properly (nodes, edges, laws — a figure); each inheritance's law-citation
-kept current as parents evolve (the windowed BBN re-stamp will propagate to lithium's row).
-
-*The model threads sixteen roots and the universe hands it the rest on inheritance. Nothing is
-outside — some things are just downstream, and the account collects from everyone.*
+kept current as parents evolve.
 
 Every silence in the corpus has been mapped to its intermediate parent and followed through: no
 orphans were found, which is the theorem's own test passing. Three of the inheritance paths run
 back to bench-scale systems — the BEC Kelvin modes, the type-II vortex cousin, and the Landau
 bench — where the parent law can be checked in a laboratory rather than a sky.
+
+*The model threads sixteen roots and the universe hands it the rest on inheritance. Nothing is
+outside — some things are just downstream, and the account collects from everyone.*
 

@@ -1462,3 +1462,21 @@ whose referent section exists nowhere — a ghost anchor. Resolution: the term n
 **a READERS_GUIDE glossary row defining the §12 wall** (no-mind-claims boundary; the number
 outlived its draft, the boundary is the content) — so every use decodes through the standard
 header pointer. science_subdomain_tree's two uses stand unchanged, now decodable.
+
+## thread_inheritance + philosophy_the_auditor — deep audits 2026-07-19
+
+Files eighty-five and eighty-six.
+
+**thread_inheritance**: four fixes. The MOND/RAR row still read "pending m_amp — the parent's
+un-pinned λ" when the spine had already ruled it dead by scale (m_amp → m, ≤ 59 AU ≪ kpc) —
+a verdict that landed and never propagated one file over; the row now carries the ruling.
+The "~sixteen" hedge dropped (the spine enumerates sixteen exactly); the owed line's
+windowed-BBN example deleted because the lithium row already reads "the windowed lattice" —
+the owed item had outlived its own payment; and the italic closer moved to the end (the
+silent-lineage paragraph had been appended after it).
+
+**philosophy_the_auditor**: clean pass (thirteenth). The firewall is airtight — zero-claims
+status banner, envariance/decoherence fences correct, the jurisdiction clause mechanically
+tied to census blindness (the same premise that derives c = 9/10), and the "crankery jackery"
+standard preserved verbatim with its preservation note. The one page of *why* the repo can
+afford, priced honestly.
