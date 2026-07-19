@@ -40,13 +40,24 @@ The soliton ("1s") core radius scales as r_c ∝ 1/m² per halo mass; with the r
  soliton of computable radius and mass — a smooth, dissipationless sub-pc mass component
  coexisting with the nuclear star cluster and the central BH. Its dynamical imprint
  (millipc-to-pc stellar kinematics, e.g. S-star-cluster residuals in the Galactic Center)
- is the domain's honest test. **Priced (2026-07-18): it clears, as a null.** With the
- soliton's central density set by the standard core relation at the recorded mass, the mass
- enclosed inside S2's orbit (≈ 0.008 pc) is **3.4 M☉** against a bound of roughly
- 3,000–10,000 M☉ from orbit fits — clearing by nearly three orders. The Galactic Centre
- therefore cannot see this soliton and will not at any foreseeable precision; **the honest
- venue is dwarf nuclei**, where a parsec-class core sits against a far smaller stellar
- background.
+ is the domain's honest test. **Priced (2026-07-18) — and the constraint is at
+ parsec radii, not at the S-stars.** Inside S2's orbit (≈ 0.008 pc) the soliton contributes
+ only **3.4 M☉** against a bound of 3,000–10,000 M☉ — but that radius sits three decades
+ inside the core, where almost none of the soliton's mass lies. Its mass is at parsec scales,
+ and there the numbers are close:
+
+ | radius | soliton's enclosed mass | what the Centre shows |
+ |---|---|---|
+ | 0.1 pc | 6.5×10³ M☉ | extended non-black-hole mass ~10³–10⁴ M☉ |
+ | 1 pc | 3.1×10⁶ M☉ | extended stellar mass ~10⁶ M☉ |
+ | 5 pc | 6.3×10⁶ M☉ | nuclear star cluster ~10⁷ M☉ |
+
+ **At one parsec the soliton is comparable to the entire observed extended mass, which the
+ stellar population already accounts for.** So the Galactic Centre is neither a null nor a
+ free pass: it is this sector's sharpest available constraint, it lives at parsec radii, and
+ whether the model clears depends on how much room the Centre's mass budget has once the
+ stellar contribution is subtracted — a real analysis with factor-two-class uncertainties,
+ **owed, and now the domain's leading test rather than its postdiction.**
 
 ## 2. The excited spectrum
 
