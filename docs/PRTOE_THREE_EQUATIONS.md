@@ -43,10 +43,10 @@ $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\
 
 - The **condensate ground state** supplies the $w = -1$ component (dark energy is the
  medium's zero-point sector; its computed scale is the vacuum-occupancy binding energy
- $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = 2.284$ meV vs the measured $2.25$ meV —
- agreeing to **1.5%** ($1.01\times$) — *the 1.5% is the τ = 0.345→0.35 rounding, not a sourced prediction (flagship-grade block above); the derived-one-way $M_2 = \alpha^2 T_c$ is the real structure* — from the dyad's
- condensation temperature ($m_e \to T_c \to M_2 \to \rho_\Lambda$) and $\alpha_c = 3\alpha$ under
- test; see the cosmological-constant document).
+ $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2$. With τ sourced by the Koide kernel this is
+ **2.2599 meV against the measured 2.25 — +0.44%**; the structure $M_2 = \alpha^2 T_c$ carries it,
+ and $\alpha_c = 3\alpha$ is under test. From the dyad's condensation temperature
+ ($m_e \to T_c \to M_2 \to \rho_\Lambda$); see the cosmological-constant document.)
 - The **excitations** are the dark matter: radiation-like above a transition redshift
  $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector as implemented in
  CLASS).
@@ -119,13 +119,13 @@ data speaks** — the object the running evidence comparison actually grades:
 | quantity | stated value | provenance | grade |
 |---|---|---|---|
 | ε | 1.2403 ± 0.0079% | the concordance joint of fit and stack | conditional (three referees) |
-| A_s | **2.088×10⁻⁹ frozen**; the closed form (α_c/4πk)³ = **2.081×10⁻⁹** — it lands **−0.35%** | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
+| A_s | **2.088×10⁻⁹ frozen**; the closed form (α_c/4πk)³ = **2.081×10⁻⁹** — it lands **−0.34%** | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
 | n_s | 0.9677 = 1 − 2/ln(T₀/k*) k-local, predicted running α_s = −5.2×10⁻⁴ (the executed run value 0.9641 is the banked k-independent form, now consistency-check grade) | the modulation map: envelope × shot on the verified k_UV = T₀ anchor; the 2 = amplitude-squared | mechanism candidate (exhibited) |
 | z_on | 3.5619×10⁷ | profiled at the frozen stack (the 3α mark hit blind to 0.005 dex) | fast-profiled estimate, chain-graded later |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
-| Σm_ν | 61.4 meV, normal ordering | ρ_Λ^{1/4} = m₁ tie (P-2026-012) | recorded prediction |
-| T_c | ≈ 179 keV *(not independently sourced — the observed ρ_Λ inverted-and-rounded; flagship-grade block)* | confining chiral ratio ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); τ = T_c/m_e = **0.3503** — *0.345 is the observed ρ_Λ inverted, not a derivation*); 193 keV = perturbative cross-check | flagship-grade — structure real, T_c not sourced |
-| H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | production |
+| Σm_ν | 61.4 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits 2.6 meV above the m₁ = 0 floor against ~20 meV planned resolution. The testable content is m_ββ |
+| T_c | **177.10 keV** (τ = ½ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the superseded rounding | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
+| H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the `YHe` correction (2026-07-17); the running job carries the fix and the value may move |
 
 ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
 whatever the sky refuses, the model has nowhere to retreat. That totality, not any
@@ -141,13 +141,12 @@ $179$ keV (the confining chiral ratio $\tau \cdot m_e$ — [PRTOE_DERIVATION_HUN
 Those numbers are outputs of the field's history from its initial conditions, not axioms.
 The equations are three lines; the receipts are the repository.
 
-*Status marker (2026-07-13): every derivation above is conditional on one root — the no-bare
-mechanism's unconditionality (M3), an assumption named as such.
-The deciders: the α_c MCMC (grades $3\alpha$ and the $c$-roster), the $\bar{f}$ ensemble, DESI DR3,
-and PolyChord — **THE ZERO-PARAMETER EVIDENCE RUN is IN PROGRESS as of 2026-07-13** — ε, A_s, n_s,
-and z_on all STATED (derived/profiled, statuses in the DEPENDENCY_TREE), no Occam
-shelter, full exposure; the sampled-ε referee deferred by design. This file
-inherits the verdicts.*
+*Status (2026-07-19): every derivation above is conditional on one root — the no-bare mechanism's
+unconditionality (M3), an assumption named as such. The deciders: the α_c MCMC (grades $3\alpha$ and
+the $c$-roster), the $\bar{f}$ ensemble, DESI DR3, and the zero-parameter evidence run — **PolyChord
+sampling since 2026-07-18, no log(Z) yet** — with ε, A_s, n_s and z_on all stated in advance
+(derived or profiled, statuses in the DEPENDENCY_TREE), no Occam shelter, full exposure; the
+sampled-ε referee deferred by design. This file inherits the verdicts.*
 
 ## Sources
 Full references in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file leans on: [Gross1961]/[Pitaevskii1961] (Eq. 1), [Kibble1976]/[Zurek1985] (the winding), [HartChluba2020]/[SekiguchiTakahashi2021] (the varying-m_e ↔ H₀ mechanism), [CLASS2011]/[cobaya2021]/[Planck2018]/[Riess2022] (the pipeline and data), [Volovik2003]/[BerezhianiKhoury2015] (the nearest prior art).

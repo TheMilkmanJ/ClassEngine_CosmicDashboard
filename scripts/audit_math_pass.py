@@ -302,6 +302,13 @@ chk("fairbank_note", "P(model in the discriminating band)", 31.7,
 chk("fairbank_note", "minimal-NO in that band — must be zero", 0.0,
     100*float((_min > float(_min.max())).mean()), 1e-9, "%")
 
+# ---- THREE_EQUATIONS' stated stack ----------------------------------------
+chk("THREE_EQUATIONS", "A_s closed form vs the frozen value", -0.34,
+    100*(2.081/2.088 - 1), 0.03, "%")
+chk("THREE_EQUATIONS", "the superseded 179 keV rounding gap", 1.52,
+    100*(179/176.32 - 1), 0.02, "%")
+chk("THREE_EQUATIONS", "T_c from the kernel's tau", 177.10, 0.5*math.log(2)*ME/1e3, 1e-3, "keV")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
