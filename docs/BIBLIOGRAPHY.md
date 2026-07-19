@@ -46,6 +46,8 @@ that is a bug — file it.*
 - **[HartChluba2018]** L. Hart, J. Chluba, "New constraints on time-varying fundamental constants from Planck," MNRAS 474, 1850 (2018), arXiv:1705.03925.
 - **[HartChluba2020]** L. Hart, J. Chluba, "Updated fundamental constant constraints from Planck 2018 data and possible relations to the Hubble tension," MNRAS 493, 3255 (2020), arXiv:1912.03986. — The varying-m_e ↔ H₀ degeneracy the dyad gives an ontology to.
 - **[SekiguchiTakahashi2021]** T. Sekiguchi, T. Takahashi, "Early recombination as a solution to the H₀ tension," PRD 103, 083507 (2021), arXiv:2007.03381. — The independent varying-m_e H₀ result.
+- **[VaryingMe2025a]** arXiv:2508.09025 — varying-m_e against ACT DR6 + DESI DR2; m_e variations preferred at 2–3.6σ, with the same partial-relief ceiling this model finds. The independent existence of the dyad's recombination component.
+- **[VaryingMe2026]** arXiv:2606.06495 — the companion varying-m_e constraint on the same stacks. Together with [VaryingMe2025a] this is the source for the 2–3.6σ preference quoted in audience-facing notes.
 - **[DiValentino2021]** E. Di Valentino et al., "In the realm of the Hubble tension — a review of solutions," Class. Quant. Grav. 38, 153001 (2021), arXiv:2103.01183. — The competitor map.
 
 ## 4. Condensates, superfluids, and analog gravity (the medium's physics)
