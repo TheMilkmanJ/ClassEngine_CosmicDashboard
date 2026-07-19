@@ -425,3 +425,34 @@ summary has to be maintained against a thing that keeps moving. Nine files in, t
 unambiguous: **this corpus's rot is entirely in the maintained-summary form.** Frozen records —
 registry entries, kill entries — held up. Ledgers, status boards, dependency grades, index lines
 and reading guides did not, every one drifting pessimistic.
+
+## PRTOE_READERS_RISK.md — deep audit 2026-07-19
+
+Thirteen checks. Three stale items and — more seriously for a risk page — **two genuine risks it
+did not carry.**
+
+Stale, all three the familiar pessimistic drift:
+1. **f̄ graded candidate** with the same error the dependency tree had. It is derived; the simulation
+   is the check. Regraded, and the compound now names α_c as the weakest parent, which is where a
+   reader should actually aim.
+2. **The superradiance band at 2×10⁸** rather than 6×10⁸ — the third file carrying that outlier.
+   Added the point that makes the exposure sharper, not softer: the mass is pinned three independent
+   ways, so the model cannot relieve either exposure by moving it.
+3. **The code-vs-theory gap stated in its retired, harsher form.** The source genuinely does not
+   compute m_e from the dark sector; but the running config pins `varying_me` at the derived value,
+   so the "extra free knob" version of the criticism is gone.
+
+**Missing risks, now added** — and a risk page that omits real risk fails at its one job:
+- **(i) The evidence run is sampling off the model's own onset identity** — 0.053 dex, a 28% mass
+  difference, so the live comparison grades a point beside the stated configuration.
+- **(j) The lattice test that decides the flagship cannot resolve it** — the +0.44% prediction
+  against a ±5.7% registered tolerance, thirteen times too wide.
+
+Both were found today; neither had reached this page. Worth noting that this file's §3(a) was
+*already* the most current treatment of the τ question anywhere in the corpus — so the drift here is
+not uniform neglect. The page keeps up with what it already tracks and does not notice what it does
+not.
+
+**A risk summary is the one document where pessimistic drift is not the safe direction.** Understate
+a strength and you lose credit. Omit a risk and an outside reader finds it themselves, which costs
+the whole document its standing.
