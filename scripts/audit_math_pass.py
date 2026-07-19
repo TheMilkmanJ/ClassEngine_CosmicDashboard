@@ -173,7 +173,7 @@ chk("galactic_atoms", "Sgr A* influence radius exceeds the core radius", 2.6,
 
 # ---- the circulant kernel --------------------------------------------------
 chk("koide_relation", "Parseval: |f1/f0| from Q = 2/3", 0.7071071, math.sqrt((2/3-1/3)*1.5), 1e-6)
-chk("koide_relation", "the kernel's tau = -ln|f1/f0| = (1/2)ln2", 0.346574, 0.5*math.log(2), 1e-6)
+chk("koide_relation", "the kernel's tau = -ln|f1/f0| = (1/2)ln2", 0.3465736, 0.5*math.log(2), 1e-6)
 chk("koide_relation", "holonomy: 3 x arg f1 = Q", 2/3, 3*(2/9), 1e-9)
 chk("koide_relation", "T_c implied by the kernel's tau", 177.1, 0.5*math.log(2)*ME/1e3, 1e-3, "keV")
 chk("koide_relation", "rho_Lambda from the kernel's tau", 2.2599,
