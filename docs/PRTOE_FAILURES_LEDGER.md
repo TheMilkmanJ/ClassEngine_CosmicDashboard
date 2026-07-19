@@ -1310,3 +1310,26 @@ where the contribution approaches the observed floor.
 actually codes — a **pre-registered parameter** (g ≈ 0.10 ± 0.05) whose fitted value (0.12)
 sits inside its registration, graded by the conv_desi chain. That is a pre-committed fit, not
 a derivation, and the corpus should read it as such.
+
+### The low-ℓ anomaly claim — RE-GRADED by its own decisive computation (2026-07-18)
+
+**What was claimed:** that the compact-torus cavity predicts the observed low-multipole
+anomalies — the suppressed quadrupole and the mild octupole deficit.
+
+**What the computation shows.** Summing the torus's discrete mode set against the continuum
+(Sachs–Wolfe, scale-invariant potential, at the recorded last-scattering distance): the
+**shape is right** — suppression confined to ℓ = 2–3, gone by ℓ ≈ 4, higher multipoles
+untouched. The **depth is short**. At the smallest torus the matched-circles nulls permit,
+L ≈ 27.6 Gpc, the quadrupole retains 83% of its power; the observed deficit wants 20–50%. The
+size that would deliver it, L ≈ 20 Gpc, is excluded by those same circles.
+
+**The re-grade:** from "the model predicts the low-ℓ anomalies" to **"the model produces the
+right pattern with three to five times too little depth at permitted torus sizes."** The
+mechanism is real and the shape is a genuine success; the amplitude is a genuine shortfall,
+and the two constraints that squeeze it — the circles from below, the anomaly's depth from
+above — pull in opposite directions.
+
+**What would change it:** a non-cubic or anisotropic torus (the recorded geometry is the
+simplest one), the integrated Sachs–Wolfe contribution which this Sachs–Wolfe-only pass omits,
+or a winding modulation that suppresses beyond the mode-cutoff effect. All three are named,
+none is computed. Until one lands, the low-ℓ row reads as partial.
