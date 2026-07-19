@@ -193,3 +193,33 @@ written above" after I had deleted the text listing (a) and (b). Second time in 
 post-edit read caught my own work.
 
 Three checks added (139 total).
+
+## Check 13 — first application, back to THE_AMPLITUDE (2026-07-19)
+
+The protocol gained a thirteenth check: **a file's own owed items are work orders**, and a file is
+not closed while it still carries the blanks it started with. Outcomes allowed: closed (computed),
+reduced (follows from something already in hand), or gated (named the specific external thing it
+waits on). "Owed" alone is none of those.
+
+**First application, and it closed by reduction — the item was misidentified.**
+
+`THE_AMPLITUDE` §5 read: *"The chain now hangs on one underived number — the bounce's
+stiffness-ceiling scale (~1.6×10¹⁶ GeV) — queued as a named computation."*
+
+That scale appears **once in the whole corpus**, in that sentence. No script computes it. Neither
+does the pour scale (8×10¹⁶ GeV) it was paired with. So I checked the A_s closed form term by term
+against `DERIVATION_HUNT`, which is its authoritative source:
+
+- **k = ln(1 + π/2α_c)/π = 1.36461**, and it evaluates *identically* to the screened-interaction
+  integral (1/π)∫₀¹dq/(q + 2α_c/π) — verified numerically, difference < 10⁻⁹. Inside the Eliashberg
+  window [1.35, 1.37], so it is a derived coupling rather than a landing fit.
+- 4π is the standard one-loop factor; the cube is the three spatial dimensions.
+- Assembled: **A_s = 2.0807×10⁻⁹ against the frozen 2.088×10⁻⁹ — −0.35%.**
+
+**No pour scale and no stiffness ceiling enter at any step.** The chain does not hang on the number
+§5 named. The genuine residual is the one `DERIVATION_HUNT` states: the shot-noise count's exact
+O(1) normalisation — whether the assembly is exactly (4πk/α_c)³ — which is precisely what the
+−0.35% measures.
+
+So the file was carrying an orphan scale as its single outstanding debt while its real residual sat
+one document away, already correctly stated. Four checks added pinning the chain end to end.
