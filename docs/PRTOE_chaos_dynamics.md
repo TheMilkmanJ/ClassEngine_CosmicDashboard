@@ -9,7 +9,8 @@
  — the draw is genuinely wide, and the cycle map finds NO attractor (7 chains × 120 cycles,
  still spreading [0.1, 0.97] at the last cycle)
 - the resolution: TOPOLOGY averages what chaos scatters — f̄ = ∫f_amp(θ)dθ/(π/4) = 0.635 ±
- 0.026: the winding's uniform measure integrates the chaos out
+ 0.026, landing on the since-derived exact value **f̄ = 2/π = 0.6366** (the winding's roll-up):
+ the uniform measure integrates the chaos out, and the integral was the derivation's evidence
 - the average's dependence on the roll's starting energy is shallow — about 0.09 per hundredfold
  — so f̄ is robust against the chaos but a poor clock for reading the cycle count
 
