@@ -73,6 +73,10 @@ The soliton ("1s") core radius scales as r_c ∝ 1/m² per halo mass; with the r
  nucleus hosts a dark soliton" to "every nucleus whose black hole does not dominate the core
  radius does."
 
+ **This sorts galaxies into two classes, and the boundary is a prediction** — registered as
+ P-2026-054: solitons survive below **σ ≈ 77 km/s, M_h ≈ 3×10¹¹ M☉** and cannot above it, with the
+ threshold scaling as m^(−0.73) so that finding it measures the dCDF mass to a factor of two.
+
  **The clean test is the dwarfs**, which have no central black hole and where the relation applies
  as derived: a 10⁹ M☉ halo gives a 7.1 pc core holding 6.1×10⁵ M☉, about six per cent of the
  dwarf's inner mass. That is comfortably allowed and it is where this prediction should be
