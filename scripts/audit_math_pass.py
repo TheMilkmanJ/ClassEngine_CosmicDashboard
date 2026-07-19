@@ -647,6 +647,11 @@ chk("lab cousins", "rival RMS average sqrt(<cos^2>)", 0.7071, math.sqrt(0.5), 0.
 chk("lab cousins", "ring circumference 2*pi*20 um", 126, 2*math.pi*20, 0.005, "um")
 chk("lab cousins", "fit-implied 0.6253 vs 2/pi", 1.8, (2/math.pi/0.6253-1)*100, 0.03, "%")
 
+# --- quantum_trio: second sound + the alpha_c band (2026-07-19) ---
+chk("quantum trio", "second sound c2 = c1/sqrt(3) = sqrt(alpha)", 0.0854, math.sqrt(1/137.035999), 0.002, "c")
+chk("quantum trio", "identity sqrt(3a)/sqrt(3) == sqrt(a)", 1.0, math.sqrt(3/137.035999)/math.sqrt(3)/math.sqrt(1/137.035999), 1e-12)
+chk("quantum trio", "indirect band top 0.0214 below 3a", 2.3, (1-0.0214/(3/137.035999))*100, 0.03, "%")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
