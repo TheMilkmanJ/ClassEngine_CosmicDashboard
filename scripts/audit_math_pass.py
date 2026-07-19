@@ -479,6 +479,23 @@ chk("deuterium_scar", "D/H gained by breaking 1.7e-5 of the helium", 1.4e-6, 1.7
 chk("deuterium_scar", "the Y_p it costs", -4.2e-6, -1.7e-5*0.249, 0.02)
 chk("deuterium_scar", "energy per hydrogen at 20 MeV per dissociation", 28, 1.7e-5*_HeH*20e6, 0.05, "eV")
 
+
+# --- the deuterium lever-combination test (deuterium_scar 6b/6/7), 2026-07-19 ---
+_DH, _errD = 2.387, math.sqrt(0.030**2+0.037**2)
+def _sig(pct): return _DH*pct/100/_errD
+chk("deuterium_scar 6b", "below-T_c boost at dN_eff = 0.059", 0.34, _sig(0.1160*0.059*100), 0.03, "sigma")
+chk("deuterium_scar 6b", "below-T_c boost at dN_eff = 0.015", 0.09, _sig(0.1160*0.015*100), 0.05, "sigma")
+chk("deuterium_scar 6b", "sharper transition 0.61eps -> 1.0eps", 0.21, _sig(1.057-0.645), 0.05, "sigma")
+chk("deuterium_scar 6b", "best case, everything additive", -1.94,
+    -2.49 + _sig(0.1160*0.059*100) + _sig(1.057-0.645), 0.02, "sigma")
+# section 7 item 3: both dof counts are forced
+_Nc, _Nf = 2, 3
+chk("deuterium_scar 7", "deconfined g* = 2(Nc^2-1) + (7/8)(4 Nc Nf)", 27, 2*(_Nc**2-1)+(7/8)*4*_Nc*_Nf, 1e-9)
+chk("deuterium_scar 7", "confined Goldstones 2Nf^2 - Nf - 1", 14, 2*_Nf**2-_Nf-1, 1e-9)
+# section 6: the roster is full, and the seats present are below threshold
+chk("deuterium_scar 6", "str[k1] with one extra sterile (17/gen) breaks finiteness", 3, 17*3-48, 1e-9)
+chk("deuterium_scar 6", "nu_R at the MeV corner vs the He-4 threshold", 4.9, 20.6/4.18, 0.02, "x short")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
