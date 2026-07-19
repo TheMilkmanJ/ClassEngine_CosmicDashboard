@@ -155,6 +155,14 @@ determines it completely**:
 | modulus | Parseval: Q = 1/3 + (2/3)\|f₁/f₀\|² | **\|f₁/f₀\| = 1/√2**, exact |
 | phase | the holonomy closure: 3·arg f₁ = Q | **arg f₁ = 2/9**, exact |
 
+**Two corrections to how this is usually stated.** First, Q = 2/3 is phase-independent *only
+inside a window*: the reconstruction needs every √m_k = 1 + A·cos(2πk/3 + φ) positive, which with
+A = √2 requires **φ < π/12 = 0.2618**. Past that wall a face goes negative, √m ≠ v, and Q departs
+from 2/3. The Brannen phase sits at **84.9% of the way to that wall**, and the mass hierarchy
+diverges as the wall is approached — which is the wall-tangency reading's content. Second,
+Σ√m_k = 3 identically for every φ, because three cosines at 120° cancel; that exact fact is
+sometimes mistaken for a stationarity condition at 2/9, and it is not one.
+
 so **f₁/f₀ = e^(−½ln2 + i·2/9)**. The phase relation says something geometric: stepping once
 around the three-generation ring accumulates 3 × (2/9) = 2/3, so **the ring's holonomy is the
 Koide invariant itself.** That identification is structure-clean and still un-derived — it is the

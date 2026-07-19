@@ -1596,3 +1596,31 @@ is not a detail, and the direction it errs in is not random — the wrong one he
 more dramatic, which is the direction that gets written up rather than re-checked.* The corpus's
 own booked figure at 1 pc (3.1×10⁶) was right within its stated precision; the recomputation
 nearly overwrote it with a louder wrong number.
+
+### THE BRANNEN PHASE — DERIVATION ATTEMPTED, NOT LANDED, AND THE OBSTRUCTION CLASSIFIED (2026-07-19)
+
+**What was attempted.** With the kernel's modulus forced exactly by Q = 2/3 through Parseval, the
+sector's one remaining link is the phase: why 3·arg f₁ = Q, i.e. why 2/9. Three routes were run.
+
+**What was found, and it narrows the question.** The phase is not free over the reals. Mass
+positivity requires every √m_k = 1 + √2·cos(2πk/3 + φ) > 0, which caps φ at **π/12 = 0.2618** — a
+wall where the lightest face reaches zero and the hierarchy diverges. **Q = 2/3 holds right up to
+that wall and breaks past it**, so the standard statement that Q is phase-independent carries an
+unstated domain. The Brannen phase sits at 84.9% of the way to the wall.
+
+**What was ruled out.** No variational source. Nothing among the natural functionals — the mass
+ratios, their products, the lightest face — is stationary at 2/9. The one apparent hit,
+Σ√m_k, is stationary at *every* phase, because three cosines at 120° cancel identically; it is an
+exact identity of the construction, not a condition selecting 2/9.
+
+**The obstruction, named.** The closure sets **an angle equal to a pure number**: 3φ (radians) =
+Q (dimensionless). It holds in radians and in no other angular unit — degrees, turns and gradians
+all break it. **A relation of that form cannot descend from scale-free structure**, and nothing in
+the circulant supplies a preferred angular unit. This is the corpus's own seam class, the one the
+anchor's −3/2 fell into ("neither ratio nor scale"). That precedent is the useful part: the −3/2
+was eventually derived, but only after a mechanism was found producing it *natively* at the right
+normalisation, and every attempt before that failed for exactly this reason.
+
+**Status.** The phase remains the sector's single un-derived link, now with its domain bounded and
+its obstruction classified. **What would close it is a mechanism that produces an angle natively —
+a genuine holonomy of something, rather than a number that happens to be written in radians.**
