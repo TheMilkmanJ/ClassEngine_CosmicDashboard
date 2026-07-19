@@ -146,7 +146,7 @@ applied and the code systematic named and unfolded.**
  knows exactly what would repair its weakest sector and has no field that can supply it — which is
  why P-2026-006 is retained as a statement about a lever this model does not have.
 
-- the elasticities: d(Y_p)/dε = 0.00163 per %ε (linear, verified: ×ε reproduces the window to ~3%); **d(D/H×10⁵)/dε — the 0.00782 figure is UNREPRODUCIBLE and does NOT linearize** (a 4-point PRyM scan gives ~0.0119; the ramped window itself implies ~0.0126, +62%). D/H is a bottleneck quantity, so its ε-response is nonlinear and the uniform-ε derivative under-predicts the ramped window; use the measured window (+0.645%), not this derivative ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). N_eff is unmoved
+- the elasticities: **d(Y_p)/dε = 0.00163 per %ε**, linear — multiplying by ε reproduces the window to ~3%. **Deuterium has no usable elasticity:** it is a bottleneck quantity, so its ε-response is nonlinear and a uniform-ε derivative under-predicts the window by a large margin (a 4-point PRyM scan gives ~0.0119 per %ε where the window itself implies ~0.0126). Use the measured window effect, +0.645%, not a derivative. N_eff is unmoved
  (3.04439) — ε shifts weak rates, not relativistic dof.
 
 ## How PRTOE connects
