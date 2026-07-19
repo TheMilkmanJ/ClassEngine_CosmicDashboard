@@ -22,21 +22,31 @@ MEASURED by the α_c chain), and (ii) the grammar is the same one that derived t
 
 The soliton ("1s") core radius scales as r_c ∝ 1/m² per halo mass; with the recorded m:
 
- dwarf halo (10⁹ M☉): r_1s ~ 7×10⁻³ pc (~1400 AU)
- MW-class (10¹² M☉): r_1s ~ 7×10⁻⁴ pc (~140 AU)
+ dwarf halo (10⁹ M☉): soliton mass ~6×10⁵ M☉, core radius r_1s ≈ 7 pc
+ MW-class (10¹² M☉): soliton mass ~6×10⁶ M☉, core radius r_1s ≈ 0.7 pc
 
 **Sub-parsec ground states.** Two consequences, both improvements:
 
 1. **Why this model survived where fuzzy DM died (recorded, now explained):** the classic FDM
  sweet spot (m ~ 10⁻²² eV) puts kpc-scale solitons in dwarfs — and was squeezed out by
  Lyman-α and rotation-curve data (the recorded inherited verdicts). At the model's 224×
- heavier mass, the 1s orbital is BURIED at sub-pc scales: halos look CDM-like everywhere
- data currently reaches. The survival was not luck; it is the level structure.
+ heavier mass the core shrinks by the same factor: sub-parsec in a Milky-Way-class halo,
+ a few parsecs in a dwarf — against the classic sweet spot's kiloparsec cores, which is why
+ the Lyman-α and rotation-curve verdicts that squeezed out fuzzy dark matter do not reach
+ here. The survival was not luck; it is the level structure. *(The dwarf core is a few
+ parsecs, not sub-parsec — the buried-everywhere phrasing holds for the Milky Way class and
+ is stated per-halo here.)*
 2. **A new prediction class (flagged, un-priced):** every galactic nucleus should host a dark
  soliton of computable radius and mass — a smooth, dissipationless sub-pc mass component
  coexisting with the nuclear star cluster and the central BH. Its dynamical imprint
  (millipc-to-pc stellar kinematics, e.g. S-star-cluster residuals in the Galactic Center)
- is the domain's honest test — OWED a pricing pass before any registration.
+ is the domain's honest test. **Priced (2026-07-18): it clears, as a null.** With the
+ soliton's central density set by the standard core relation at the recorded mass, the mass
+ enclosed inside S2's orbit (≈ 0.008 pc) is **3.4 M☉** against a bound of roughly
+ 3,000–10,000 M☉ from orbit fits — clearing by nearly three orders. The Galactic Centre
+ therefore cannot see this soliton and will not at any foreseeable precision; **the honest
+ venue is dwarf nuclei**, where a parsec-class core sits against a far smaller stellar
+ background.
 
 ## 2. The excited spectrum
 

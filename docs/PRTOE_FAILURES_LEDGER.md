@@ -1362,3 +1362,18 @@ attached — committed here in the pessimistic direction, which is no better.
 
 **Where the low-ℓ claim can actually be graded:** the shape across ℓ = 2–5 (a pattern, not a
 number) and the alignment structure, where cosmic variance bites far less.
+
+### A unit slip in the soliton radii — caught by the pricing pass it was blocking (2026-07-18)
+
+The galactic-atoms file recorded the soliton core radii as 7×10⁻³ pc (dwarf) and 7×10⁻⁴ pc
+(Milky-Way class). Recomputing from the two standard soliton relations at the model's own
+ultralight mass gives **7 pc and 0.7 pc** — a factor of a thousand, a kiloparsec-for-parsec
+slip carried in the exponent.
+
+**What it changes:** the Milky-Way claim survives (a 0.7 pc core is still sub-parsec and still
+buried), the dwarf claim does not — a 7 pc core is not sub-parsec, so the "buried everywhere"
+phrasing is now stated per halo class. **What it does not change:** the pricing verdict, which
+was computed with the corrected numbers and clears by nearly three orders.
+
+Found by running the owed dynamical-pricing pass rather than by re-reading the file — the pass
+could not be done at all without the numbers, and the numbers did not survive contact with it.
