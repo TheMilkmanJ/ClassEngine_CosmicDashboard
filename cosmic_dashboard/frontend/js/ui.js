@@ -2764,7 +2764,7 @@ ${constraintsList}`;
                 : 'Tension data not yet computed.';
 
             const cosmicforgePrompt = `=== CosmicForge Multi-Start BOBYQA Optimization Results ===
-Model: PRTOE (Pulford-Romsa Theory of Everything)
+Model: PRTOE (Pulford-Romsa Theory of Expansion)
 Config: ${lastStatusData.active_yaml_path || 'prtoe_standard.yaml'}
 Run status: ${lastStatusData.status || 'unknown'}
 Optimizer: Multi-start BOBYQA (${isOpt ? 'Active' : 'Standard/PolyChord run, optimizer inactive'})
@@ -4638,7 +4638,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <h2 style="margin-top: 0; color: #ff9ff3; font-weight: 700; font-size: 1.5rem; letter-spacing: 0.5px;">Welcome to CosmicDashboard</h2>
             <h3 style="color: #00d2d3; font-size: 1.1rem; margin-top: 5px; margin-bottom: 20px;">A Special Request for Cosmology Researchers</h3>
             <p style="font-size: 0.95rem; line-height: 1.6; color: #dcdde1; margin-bottom: 20px;">
-                You are running the modified CLASS engine equipped with the <strong>PRTOE (Pulford-Romsa Theory of Everything)</strong> cosmology model. 
+                You are running the modified CLASS engine equipped with the <strong>PRTOE (Pulford-Romsa Theory of Expansion)</strong> cosmology model. 
             </p>
             <p style="font-size: 0.95rem; line-height: 1.6; color: #dcdde1; margin-bottom: 25px;">
                 If you have some free time, we would be incredibly grateful if you could run the PRTOE model configurations and evaluate their fits, comparing the resulting Bayesian evidence ($\Delta\ln\mathcal{Z}$), parameter pulls, and growth constraints against standard $\Lambda\text{CDM}$. Your test runs and feedback are highly valuable in determining if this model represents a path worth exploring further in modern cosmology.
