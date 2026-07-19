@@ -178,7 +178,7 @@ closes.
 identification and the record theorem's premise. (ii) **Any confirmed vacuum dispersion
 of light** beyond the Planck-suppressed envelope (energy-dependent photon arrival from
 GRBs is the standing null): kills the collective-mode identification. (iii) **A specified
-basement that fails any of the five locks** in §6 kills the induced-light route (the
+basement that fails any of the six locks** in §6 kills the induced-light route (the
 model's basement program with it). (iv) The file dies trivially with M3: no medium, no
 mode.
 

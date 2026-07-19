@@ -38,7 +38,7 @@ early stages of nucleosynthesis at production grade).
  measurements."
 - **The reach computation**: an exhaustive audit of every lever the
  model owns — the supernova-standardization channels (computed through synthetic
- photometry; the sign came out *opposite* to the tension, robustly, across 180
+ photometry; the sign came out *opposite* to the tension, robustly, across 162
  template configurations), the survey-geometry leakage (+0.1–0.3%), and the
  reionization tether (±0.3) — caps the model's account of the *ladder* reading at
  **~70.9–71.3. The model cannot reach 73, and says so.**
