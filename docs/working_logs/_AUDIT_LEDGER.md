@@ -1075,3 +1075,22 @@ kept), and its 1.5015 / +0.15% disagreed with the file's own §2 and the harness
 anywhere in the corpus, grading each piece by whether it used the excluded vacuum — needed
 nothing. The additivity-grade 3/2 chain, the three-way k concordance, the one-coupling
 portfolio, and the stability addendum all verified against the harness.
+
+## PRTOE_galactic_atoms.md — deep audit 2026-07-19
+
+Thirty-ninth file, and the fourth **clean pass**. The Galactic-Centre pricing is complete inside
+it — the 2.9× adverse at 1 pc stated as adverse, the sphere-of-influence escape derived rather
+than hoped, P-2026-054's two-class boundary registered with its m^(−0.73) scaling, and the
+honest relocation of the clean test to the dwarfs. Task #98 closed against it. Every number
+verified (the 224× mass ratio, the Schive cores, the soliton masses, the six-per-cent dwarf
+share). This is what a priced adverse constraint should look like.
+
+## PRTOE_entropy.md — deep audit 2026-07-19
+
+Fortieth file. One defect, of the self-inconsistency species: §4's formula line said
+ΔE = ε·m_e·f, but its own quoted numbers (50 eV at f = 0.023; ~150 at mergers) cohere only on
+the ballistic ~2 keV base — the kinetic third of the 6.41 keV step — which is what the harness
+has carried since the gate's energy-bookkeeping session. The formula now states the share
+explicitly, and all three points of §4's velocity scaling are harnessed. Everything else held:
+the rank-condition theorem's framing, the 48π·η debt stated as one number, the ~70-order budget
+subordination, and the §5 non-claims list.

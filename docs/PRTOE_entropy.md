@@ -71,10 +71,11 @@ When the medium re-phases around collapsing gas, the electron's rest energy chan
 re-arranges in place rather than standing as a surface for gas to fall through — a gas element
 picks up only the fraction of that difference it actually traverses:
 
-> **ΔE = ε·m_e · f,  f = v_gas/c_s**
+> **ΔE = E_ball · f,  E_ball = ε·m_e/3 ≈ 2 keV (the step's ballistic share),  f = v_gas/c_s**
 
 — the transition's spatial width is however far the medium's own re-phasing travels while the
-transition happens, so the transition time cancels and only the speed ratio survives. With the
+transition happens, so the transition time cancels and only the speed ratio survives; and of the
+full 6.41 keV rest-energy step, a traversing element picks up the kinetic third. With the
 medium's sound speed c_s = √(3α)·c = 44 000 km/s against ordinary infall near 1000 km/s,
 f ≈ 0.023: **~50 eV per particle, adding ~50 keV cm² of entropy** — below the 100–300 keV cm²
 floors groups actually show, and large enough to be a real contributor rather than a rounding
