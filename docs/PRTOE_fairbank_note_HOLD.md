@@ -3,12 +3,19 @@
 *Internal. Not part of the letter. `PRTOE_fairbank_note_draft.md` is the letter and reads as
 finished prose; everything about when to send it lives here.*
 
-## Status: HELD on one item
+## Status: CLEARED to show, in person, as work in progress
 
-**The zero-parameter evidence verdict.** PolyChord has been sampling since 2026-07-18, 400 live
-points, matched to a ΛCDM twin so the evidence ratio is valid. The completion horizon is itself
-under review (task #99), so this may hold the letter for a long time. That is the honest
-expectation rather than a delay.
+The letter is being shown ahead of the evidence run by the owner's decision. That is a coherent
+choice: nothing in it depends on the run except the H₀ figure, which the letter already carries as
+provisional in its own voice. Showing unfinished work to a colleague and mailing a finished claim
+are different acts, and only the second needed the gate.
+
+**What is still running.** PolyChord has been sampling since 2026-07-18, 400 live points, matched
+to a ΛCDM twin so the evidence ratio is valid. As of 2026-07-19 it is ~22h in with no log(Z) yet.
+The completion horizon is under review (task #99).
+
+**The one thing not to do:** quote H₀ ≈ 69.9 as a final measured number anywhere it will be
+recorded or repeated. In conversation, provisional is what the letter says and what it is.
 
 ## What the hold actually covers
 
@@ -24,7 +31,9 @@ the model rather than ΛCDM the BBN prior now carries its own weight (χ² 0.31 
 happened is the re-measurement — which is the same wait as the evidence verdict, hence one gate
 rather than two.
 
-**Expect the number to move.** Nobody should quote 69.9 externally as final until the run reports.
+**Expect the number to move.** How far is unknown until the run reports — the correction acts on the
+free-electron fraction in the damping tail, which is where the H₀ mechanism lives, so this is not a
+place to assume the shift is negligible.
 
 ## Cleared
 

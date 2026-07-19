@@ -2631,3 +2631,41 @@ the systematic band, which would put the onset clock and the galactic sector in 
 standard observational scalings, which are named above and are the dominant uncertainty. The
 threshold's *existence* is forced once the escape is claimed; only its location carries the
 factor-of-three band.
+
+## P-2026-055: LSS parity — the BOSS 4PCF signal is systematic (placed 2026-07-11)
+
+**Provenance, stated plainly.** This position was recorded in
+[PRTOE_lss_parity.md](PRTOE_lss_parity.md) on **2026-07-11** (commit `b0b1dab1`; the "bets the claim
+is systematic" wording present by `4488b945`, 2026-07-12) and was never mirrored into this registry
+at the time. It is mirrored here on **2026-07-19**, by which date the DESI result below was already
+known. The placement date is git-verifiable and the file predates the check by a week; the entry
+does not. Read it as a dated position recovered into the registry, not as a clean pre-registration,
+and discount accordingly.
+
+**The claim:** the reported parity violation in the BOSS galaxy four-point correlation function
+(Hou–Slepian–Cahn; Philcox — ~5–7σ class) is a systematic, not cosmological parity violation.
+
+**Why the model is entitled to say so, and why it costs something.** This model owns an axis, a
+handedness, and a vorticity injection by construction — it is the rare framework with native
+machinery for a chiral density field. That machinery is computed, and it yields parity-odd
+fractions ~(v/c)³ ~ 10⁻⁹, **seven orders short** of the claimed amplitude. Having the mechanism and
+still failing to reach the signal is what forces the bet: if the signal is real at the claimed size,
+the model has no channel that produces it.
+
+**Kills:** an independent survey confirming the 4PCF parity signal at the claimed amplitude, on the
+original statistic. That outcome leaves the model with no channel and either points to chirality
+that is not ours or ends its claim to being the framework that natively carries one.
+
+**Standing as of 2026-07-19 — favorable, not decisive:**
+- arXiv:2604.06021 (2026-04-07), *Testing parity with composite-field spectra of BOSS and DESI
+  luminous red galaxies*: **no evidence for parity violation in either survey**, with DESI's scatter
+  smaller than BOSS DR12's by about a factor of four.
+- The **blind** BOSS CMASS 4PCF test returns **2.9σ**, against 7.1σ unblinded.
+- Sample variance remains a live explanation for the excess (Phil. Trans. R. Soc. A 383, 20240034,
+  2025); covariance estimation and whether the mocks reproduce the data's statistics are the
+  acknowledged weak points of the original measurement.
+
+**What would settle it:** a direct 4PCF measurement on DESI, on the original statistic.
+arXiv:2604.06021 uses composite-field (kurto) spectra, so it denies the signal an independent
+confirmation at higher precision rather than refuting the original on its own terms.
+

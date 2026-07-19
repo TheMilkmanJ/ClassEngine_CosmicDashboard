@@ -1,6 +1,9 @@
 # 06 — The LSS parity bet: a real position, an unmirrored registry entry
 
-**Your call, and it's a discipline call rather than a physics one.**
+**ANSWERED 2026-07-19 — you called it: claim the bet, timestamped to when it was placed.**
+Registered as **P-2026-055**, placement date 2026-07-11, mirrored 2026-07-19. The entry states its
+own provenance in full, including that the mirroring happened after the DESI result was known, so
+a reader can discount it themselves. The rest of this file is the reasoning that led there.
 
 ## What happened
 
