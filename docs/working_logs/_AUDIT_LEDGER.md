@@ -1271,3 +1271,14 @@ referee. special_relativity exposed a three-way margin disagreement: the LV tabl
 span 12–29 orders, its verdict said 12–27, SR quoted 12–38. Both prose statements now quote
 the table, which is the primitive. The trunk thread's stakes section and the third-arena
 asymmetric bet held as written.
+
+## PRTOE_quantum_superposition.md / PRTOE_sqrt3_derivation.md — deep audits 2026-07-19
+
+Files sixty-nine and seventy, both **clean**. quantum_superposition holds the interpretation
+layer exactly where it should sit — ontology added, zero modified numbers, Tsirelson exact as
+the permanent kill-line, the last randomness narrowed to one integer and honestly tagged
+unbanked. sqrt3_derivation is the corpus's cleanest derivation page: three lines to √3, the
+B = 1/√2 walk with its discarded candidates listed *with their reasons* (the double-counting
+trap named), the KP connection scoped to the one piece used, and every number harnessed since
+the audit's first day. Ten clean passes total now — the corpus's healthy tissue is real and
+identifiable.
