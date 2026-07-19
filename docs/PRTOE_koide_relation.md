@@ -144,3 +144,41 @@ Q = 0.6666605 ± 6.8×10⁻⁶ today (τ-dominated; 0.9σ from exactly 2/3). The
 multiplicative universality preserves Q by construction; any non-multiplicative
 distortion must sit under ~7×10⁻⁶ — the numerical fence, improvable by Belle-II-class
 τ-mass measurements.
+
+## The kernel, sourced — one statement fixes both of its parts
+
+The circulant's first Fourier mode is the whole content of the Koide sector, and **Q = 2/3
+determines it completely**:
+
+| part | how Q fixes it | value |
+|---|---|---|
+| modulus | Parseval: Q = 1/3 + (2/3)\|f₁/f₀\|² | **\|f₁/f₀\| = 1/√2**, exact |
+| phase | the holonomy closure: 3·arg f₁ = Q | **arg f₁ = 2/9**, exact |
+
+so **f₁/f₀ = e^(−½ln2 + i·2/9)**. The phase relation says something geometric: stepping once
+around the three-generation ring accumulates 3 × (2/9) = 2/3, so **the ring's holonomy is the
+Koide invariant itself.** That identification is structure-clean and still un-derived — it is the
+sector's one remaining theoretical link, and it is the only thing between Q = 2/3 and a closed
+account of the lepton masses.
+
+### The modulus predicts a temperature
+
+Writing the modulus as e^(−τ) makes τ = ½ln2 = **0.346574** — and τ is the same ratio T_c/m_e that
+carries the dark-energy scale. So the Koide sector, using no cosmological input whatever, predicts
+
+> **T_c = 177.10 keV**  and  **ρ_Λ¼ = (9/2)α⁴T_c = 2.2599 meV**, against an observed 2.25 meV — **+0.44%**
+
+This is worth stating carefully, because the comparison is not what it first looks like. The
+corpus's own T_c = 179 keV is the *observed* dark-energy density inverted and rounded
+(0.34506 → 0.345 → 0.35), so it is not an independent determination of τ at all. **½ln2 is.** It
+descends from Q = 2/3 — a lepton-mass fact measured to ten parts per million — through an exact
+identity, with nothing cosmological entering anywhere. Judged as the only independently sourced τ
+the model possesses, it lands **0.44% from the sky**.
+
+### What decides it
+
+τ = T_c/m_e with √σ_dark = m_e as the portal, so a lattice determination of **T_c/√σ for SU(2)
+with N_f = 3** measures τ directly. The two candidates are 1.1% apart and the measurement is
+approachable: **0.34657 crowns the kernel, 0.3503 kills it** (P-2026-048's two-point fork). The
+same number then decides whether the lepton sector and the dark-energy scale are reading one
+temperature or two.
