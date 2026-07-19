@@ -989,3 +989,13 @@ editorial trim. Every number in the tree checked against standing and held: the 
 λ ≤ 2×10⁻⁹¹, α_g = 1 at 6×10⁹ M☉, H₀ 69.9, the comb's 3.1n, the four ladder scales. The
 purchased-null perimeter reads as the standing kill set. A sed mis-hit during repair (took the
 wrong paren) was caught by re-reading the line before commit — the small version of check 12.
+
+## PRTOE_fingerprint_lattice.md — deep audit 2026-07-19
+
+Thirtieth file. Three defects, and one is the audit's first **overclaim** — the drift's rare
+direction. "All three factors DERIVED" graded α_c = 3α above its registered-bet standing; the
+file's own next sentence (the chain *referees* the value) already knew better. Now "two derived,
+one registered." The conditional footnote named the wrong run (pc_prtoe — the killed sampled-ε
+config — where the executing run is cmp_prtoe_fixed). And the ε(epoch) table called the coded
+T_c = 179 "derived"; it is coded, with the kernel value and its 0.002σ price now stated beside
+it. The quark-bleed row and the de-biased Σm_ν band both checked against their sources and held.
