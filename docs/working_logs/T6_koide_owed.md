@@ -1314,3 +1314,32 @@ chain helicity → rotation → front → gradient → θ_B. Desk state of the e
 candidate-grade END TO END — every link exact, computed, class-confirmed, or named-candidate
 with its judge; the refinements remaining are the pacing-saturation step, the sign-chain
 walk, and the external triple + lock.
+## THE Y-JUNCTION KEY — TRIED, DOES NOT FIT, AND THE BAND IS WEAKER THAN IT READS (2026-07-19)
+
+**The target.** The sector collapses to **c₂·τ = Q**, so a first-principles c₂ delivers τ, T_c and
+ρ_Λ together. The closure plus Parseval demand **c₂ = 4/(3ln2) = 1.92359**, and the named candidate
+is the Y-junction string geometry — the correlator's path through the junction against the direct
+chord.
+
+**It does not fit as geometry.** Every natural Y/Steiner construction on three symmetric faces
+returns the same number: the Steiner tree over an equilateral triangle, three centre-to-vertex legs
+against a side, the perimeter over the tree — **all give √3 = 1.73205**. That is 10% below the
+requirement and, decisively, **outside the modulus locus's own allowed band [1.76, 1.97]**.
+
+**Which is not a surprise once stated properly.** c₂ cannot be a bare length ratio, because the
+correlator is *screened*: it carries the Debye mass, which is precisely why its locus moves across
+a range as c₁ = m_D/T_c varies. The bare-geometry constructions were the wrong objects. The
+computation that remains is a genuine screened-correlator evaluation through the junction, not a
+ratio of lengths.
+
+**And the consistency check needs re-pricing.** The record reads "the phase's demanded point lands
+INSIDE the modulus locus" as nontrivial support. It is weak: the band spans 0.21 on a plausible
+O(1) range, an ~10% hit rate by chance, and of 26 simple constants of the form a·{√2,√3,π,e,ln2}/b
+falling in (1,3), two land inside — 8%. **Landing in the band is nearly free.** Several
+numerological near-misses confirm it: e/√2 sits 0.1% from the requirement, √2+½ at 0.5%, π/φ at
+0.9%, and none of them means anything.
+
+**What would close it.** A screened-correlator computation predicting c₂ to about one per cent —
+**1.9236 ± 0.02** — rather than membership in a band a fifth of its own width. That number then
+hands over τ = Q/c₂, and with it T_c and the dark-energy scale. The keystone stands; the key tried
+here is the wrong shape.
