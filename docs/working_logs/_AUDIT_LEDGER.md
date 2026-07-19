@@ -1648,3 +1648,19 @@ rule was honored. And derivation_battery.py got its scratch-era tag. The V2 fork
 stated (its "contested" branch is where the standing model lives, via the Chiang-vs-Marsh
 contested-to-dead pair); V4's ANN-2026-008 and Step E's M₂-pin registration match the
 standing record verbatim.
+
+## QUEUE STATE UPDATE (2026-07-19): THE DOCS TAIL IS CLOSED
+
+**Every file matching docs/PRTOE_*.md now has a deep-audit record — ninety-seven files, the
+harness at 302/302, everything merged to master.** The remainder check returns empty (its
+four apparent hits are regex artifacts; each has a record under a variant header: the
+fairbank pair under "the priority set," the session pair under their joint header, smbh_atoms
+under the superradiance rewrite). The "the user" voice-leak sweep found one straggler in v4
+(§9.1, the third of three in that file — fixed) and confirmed the failures ledger's uses are
+correct voice (the error log speaking about the interaction). Task #110 (the eleven
+wrongly-archived files) closes with the tail.
+
+**The remaining tier: docs/working_logs/** — triage next: live indices and T*_owed files get
+the full 13 checks (check 13 especially — owed items vs payments); session transcripts are
+records and get the dated-record standard. After that: pass 2, the varied attack on the
+07-07→07-16 maintained band, as planned.
