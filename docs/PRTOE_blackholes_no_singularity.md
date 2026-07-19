@@ -80,8 +80,11 @@ the ceiling (Colpi–Shapiro–Wasserman class):
 
  M_max ≈ 0.062 √λ · M_Pl³/m² = 2.0×10⁵⁶ √λ M☉.
 
-Reaching 3×10¹⁰ M☉ needs only a repulsive λ ≳ 2.3×10⁻⁹² — a threshold so small that any repulsive
-radial self-coupling of the condensate clears it with vast margin. (This is the repulsive
+Reaching 3×10¹⁰ M☉ needs only a repulsive λ ≳ 2.2×10⁻⁹² in this section's normalization — and the
+threshold is convention-dependent at the factor-4π level (the CSW normalization reads the same
+requirement ~13× smaller). The honest statement uses the tighter convention: the derived
+λ ≈ 2×10⁻⁹¹ clears the largest known holes by **at least a factor of 20**, and by ~250× in the
+looser normalization. Either way, any repulsive radial self-coupling of the condensate clears it. (This is the repulsive
 *amplitude* quartic, distinct from the tiny *attractive* axion/phase coupling that sets the
 isocurvature — §on λ.) In the Thomas–Fermi regime the core radius is mass-independent and the
 central density scales as ρ_c ∝ M — **finite for all astrophysical M**. There is no mass in the
@@ -147,10 +150,11 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
  amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
  thermodynamics to the medium's Landauer accounting
  ([PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md)); (iv) the boson
- mass itself puts the ℓ = m = 1 superradiance window at M ≈ 6×10⁸–3×10⁹ M☉ with fast spin-down —
- a Regge-gap lean in SMBH spin data (candidate grade; the λ-quench caveat and today's sparse
- spin measurements above 10⁸ M☉ keep it a lean, not a bet —
- [T2_smbh_atoms_owed.md](working_logs/T2_smbh_atoms_owed.md)).
+ mass puts the ℓ = m = 1 superradiance window at M ≈ 6×10⁸–3×10⁹ M☉ — **registered as
+ P-2026-034, and a live exposure**: the band is populated and carries high measured spins, the
+ λ-quench that once shielded it is un-quotable until re-derived at the recorded λ and m, and
+ the mass cannot retreat without breaking the fit that fixed it
+ ([PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md)).
 
 ## 8. Summary
 
@@ -158,7 +162,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 |---|---|---|
 | Singularity at r = 0 | finite-density condensate/normal-phase core | derived-from-recorded (§1–4) |
 | Metric to arbitrarily small r | metric ends at ξ; interior is one quantum object for M < 2×10¹⁰ M☉ | computed (§2) |
-| Collapse unbounded | CSW equilibrium at any known mass — recomputed 2026-07-18: supporting the largest known black holes (2×10¹⁰ M☉) needs only **λ ≳ 8×10⁻⁹⁴**, which the derived λ ≈ 2×10⁻⁹¹ clears by ~250× (the earlier "≳10⁻⁹⁰" was three orders too strong) | computed; the requirement is met with room |
+| Collapse unbounded | CSW equilibrium at any known mass: supporting the largest known black holes (2×10¹⁰ M☉) needs λ ≳ 8×10⁻⁹⁴ to 1.0×10⁻⁹², depending on the quartic's normalization convention — the derived λ ≈ 2×10⁻⁹¹ clears the requirement by **at least 20×** (and by ~250× in the looser convention) | computed; met with room in every convention |
 | Ring singularity (Kerr) | quantized vortex bundle, normal-phase threads | structural (§5) |
 | Penrose theorem | discharged at premises (no metric below ξ; SEC violated; phonon geodesics end, histories don't) | argued (§6) |
 | BH entropy | thermal core + Landauer accounting; area law derived, scaling and coefficient (S = A/4G from 12π/48π) | derived, one regulator residue |

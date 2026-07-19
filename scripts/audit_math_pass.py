@@ -599,6 +599,17 @@ chk("entropy 4", "ballistic share = eps m_e / 3", 2.14, 6.41/3, 0.01, "keV")
 chk("entropy 4", "pickup at ordinary infall (f = 0.023)", 50, 6.41e3/3*0.023, 0.03, "eV")
 chk("entropy 4", "pickup at merger shocks (f = 0.07)", 150, 6.41e3/3*0.07, 0.03, "eV")
 
+
+# --- the CSW threshold's two conventions (blackholes 3/8), 2026-07-19 ---
+_MPl_G, _m_G, _Msun_G = 1.220890e19, 2.24e-29, 1.116e57
+_M0A = 0.062*_MPl_G**3/_m_G**2/_Msun_G      # 0.22 sqrt(lam/4pi) convention
+_M0B = 0.22 *_MPl_G**3/_m_G**2/_Msun_G      # 0.22 sqrt(lam) convention
+chk("blackholes 3", "lam_min at 3e10 Msun, tight convention", 2.2e-92, (3e10/_M0A)**2, 0.03)
+chk("blackholes 8", "lam_min at 2e10 Msun, loose convention", 8e-94, (2e10/_M0B)**2, 0.03)
+chk("blackholes 8", "conservative clearance at 2e10", 20, 2e-91/(2e10/_M0A)**2, 0.03, "x")
+chk("blackholes 8", "loose-convention clearance at 2e10", 256, 2e-91/(2e10/_M0B)**2, 0.03, "x")
+chk("blackholes 3", "Kaup cap M_Pl^2/m x 0.633", 3.7e9, 0.633*_MPl_G**2/_m_G/_Msun_G, 0.03, "Msun")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
