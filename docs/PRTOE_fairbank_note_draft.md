@@ -168,13 +168,18 @@ neutrino mass reads m₁ = κ_m·ρ_inf¼ with κ_m ≈ 1: the dark-energy scale
 with the lightest neutrino mass, it **sets** it. Σm_ν = 61.4 meV then follows from that floor plus
 the measured splittings.
 
-Two honest qualifications. This is deliberately **not** a mass-varying-neutrino (MaVaN) construction
-— those founder on the Afshordi–Zaldarriaga–Kohri instability, and this model avoids it because m_ν
-is set by a frozen lepton-number-breaking vacuum expectation value rather than by the rolling
-dark-energy field, so the rolling does not vary the neutrino mass. And κ_m ≈ 1 is where the residual
-freedom sits: the relation's *form* is derived from the model's channel counting, its O(1)
-coefficient is not independently pinned. A reader who wants to discount this claim should discount
-it there, and nowhere else.
+Three qualifications, because this is the claim most worth attacking. **First**, the model does not
+derive the value 2.25 meV. That is its own open problem — the dark-energy-value problem — so the
+claim is not that the number is explained but that **one un-derived number does two jobs that
+standard cosmology treats as unrelated.** What is predictive is the relation: given the measured
+dark-energy density, the sum and the ordering follow with nothing further to adjust. **Second**,
+κ_m ≈ 1 is where the residual freedom sits — the relation's form comes from the model's channel
+counting, its O(1) coefficient is not independently pinned. **Third**, this is deliberately not a
+mass-varying-neutrino (MaVaN) construction; those founder on the Afshordi–Zaldarriaga–Kohri
+instability, and this model avoids it because m_ν is set by a frozen lepton-number-breaking vacuum
+expectation value rather than by the rolling dark-energy field, so the rolling does not vary the
+neutrino mass. A reader discounting this claim should discount it at the first two points, and
+nowhere else.
 
 **A framing you may enjoy.** In this model's internal language, 0νββ decides whether lepton number
 is a collateralized charge — like electric charge, with a field enforcing it — or an unenforced
