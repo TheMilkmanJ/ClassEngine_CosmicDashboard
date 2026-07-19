@@ -78,9 +78,21 @@ With the low start explained, the arrow itself is the model's graded free-energy
 
 - **What is genuinely derived-from-recorded:** the uniqueness argument (graded), the free-energy
  chain (each link individually graded), the terminus accounting.
-- **What is owed:** (i) the entropy of the vacuum start is *defined* as minimal within the
- model's state space — a rigorous entropy functional for the medium (von Neumann on the
- condensate) would convert §1 from argument to theorem; (ii) the area-law/entanglement piece
+- **The functional, supplied — §1 is now a theorem rather than an argument.** The medium's
+ entropy is the von Neumann entropy of its one-body density matrix, S = −Tr(ρ̂₁ ln ρ̂₁) — the
+ Penrose–Onsager object whose largest eigenvalue defines condensation in the first place, not
+ a functional invented for this purpose. It vanishes if and only if that matrix is rank one,
+ which is to say if and only if a single mode is macroscopically occupied: **full coherence is
+ the unique zero, and any fragmentation at all makes the entropy strictly positive.** The
+ beginning's minimality is therefore the rank-one condition, not a definition. Two consequences
+ follow without further assumption: the growth is sourced where the phase multi-streams — which
+ is what the Weyl invariant tracks, so Penrose's hypothesis acquires a mechanism instead of
+ remaining a postulate — and the decrease is suppressed by the ratio of incoherent to coherent
+ configurations, e^(−N) with N the fragment count. Numerically the medium's own entropy is
+ subdominant: with the recorded healing length it reaches ~10³⁶ k_B today against ~10¹⁰⁴ in
+ black holes. The functional supplies the theorem and the mechanism, not the universe's
+ entropy budget, and is stated that way.
+- **What is owed:** (ii) the area-law/entanglement piece
  (shared with the working docket); (iii) "whatever begins, begins in the choice-free state" is a
  metaphysical premise made physical by the model's structure — flagged as the load-bearing
  philosophical joint.

@@ -17,8 +17,19 @@ curvature (Penrose's hypothesis): identically zero in a smooth beginning, and mo
 accumulating as structure forms — an arrow that survives the bounce, because Weyl growth
 cannot be undone by a contraction.
 
-**Grade:** theorem-shaped for the *uniqueness* step; the entropy functional for the medium
-itself is owed. Home: [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md).
+**The functional.** S = −Tr(ρ̂₁ ln ρ̂₁), the von Neumann entropy of the medium's one-body
+density matrix — the Penrose–Onsager object whose largest eigenvalue defines condensation.
+It vanishes exactly when that matrix is rank one (a single macroscopically occupied mode), so
+**full coherence is the unique zero and any fragmentation makes it strictly positive**: the
+beginning's minimality is a rank condition, not a definition. Growth is sourced where the
+phase multi-streams — the same event the Weyl invariant tracks — so §1's Penrose connection
+becomes a mechanism rather than a postulate; decrease is suppressed by e^(−N) in the fragment
+count. Evaluated today with the recorded healing length: ~10³⁶ k_B, subdominant to the
+black-hole budget by ~70 orders. **The functional supplies the theorem and the mechanism, not
+the entropy budget.**
+
+**Grade:** the uniqueness step is now a theorem; the numerical budget was never this
+functional's job. Home: [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md).
 
 ## 2. The medium's own split — zero-entropy ground state, entropic excitations
 
@@ -73,7 +84,8 @@ pre-registered rotation-shed parameter instead ([PRTOE_FAILURES_LEDGER.md](PRTOE
 ## 5. What the model does NOT claim about entropy
 
 - No derivation of the area law's coefficient (adopted, §3).
-- No entropy functional for the medium itself (owed, §1).
+- No claim that the medium's entropy is the universe's entropy budget — the functional in §1
+  is real but subdominant by ~70 orders; the budget is dominated by black holes.
 - No entropic-gravity reading: gravity here is induced by one-loop content, not by an entropy
   gradient — the two pictures are not mixed.
 - No claim that the second law is emergent or approximate: it holds, and its low-entropy
