@@ -80,7 +80,7 @@ quantum per coherence cell of volume 1/E_b³:
 
 $$\rho_\Lambda = E_b^4 \quad\Longrightarrow\quad \rho_\Lambda^{1/4} = 2.28\ \text{meV}$$
 
-**Measured: ρ_Λ^{1/4} = 2.25 meV. Agreement: 1.5% (1.01×) — but see the flagship-grade block above: that 1.5% is the τ = 0.345→0.35 rounding, not a sourced prediction; zero adjustable
+**Measured: ρ_Λ^{1/4} = 2.25 meV. On the rounded τ the agreement reads 1.5%, which is the τ = 0.345→0.35 rounding, not a sourced prediction; zero adjustable
 parameters in the final step.**
 
 **(c) The provenance of M₂.** M₂ is fixed two ways that now agree: the condensate's

@@ -1,9 +1,12 @@
 # PRTOE — THE MATH SPINE (genesis → now → end)
 
-> **⚠ THE FLAGSHIP'S GRADE — READ BEFORE THE "+1.5%" (re-graded 2026-07-17, twice, each time
-> downward).** The corpus states ρ_Λ¼ = 2.284 meV against the observed 2.25 as a **+1.5%
-> prediction**. **It is not one.** The chain's last free number is τ = T_c/m_e, and T_c has **no
-> independent source**:
+> **⚠ THE FLAGSHIP'S GRADE — READ BEFORE ANY "+1.5%".** Where the corpus states ρ_Λ¼ = 2.284 meV
+> against the observed 2.25 as a **+1.5% prediction**, that is not one — the 179 keV behind it is
+> the observation rounded. But τ is no longer unsourced: the Koide kernel supplies it, and the
+> honest prediction is **+0.44%**. Both halves of that matter, so both are below.
+>
+> **First, why the +1.5% is an artifact.** The chain's last free number is τ = T_c/m_e, and the
+> routes originally offered do not source it:
 >
 > | route offered | what it actually is |
 > |---|---|
@@ -22,13 +25,22 @@
 > **The flagship's headline agreement with the observed dark-energy density is the gap introduced
 > by rounding the observed dark-energy density to two decimal places.**
 >
-> **What is actually real here, stated without varnish:** (i) the *structure* ρ_Λ¼ = (9/2)α⁴·τ·m_e
-> — that the dark-energy scale is α⁴ times a temperature tied to the electron — is a genuine
-> relation, and it is what makes the sector predictive **once τ is sourced**; (ii) the back-solved
-> τ = 0.345 **lands inside the QCD-like lattice band**, which it did not have to — a real but
-> **weak** consistency check (the band is 8.5% wide, and it is the wrong gauge group). **What would
-> make this a prediction: a lattice T_c/√σ for SU(2) with N_f = 3** — precisely the number
-> P-2026-048 bets on, and precisely the number nobody has computed.
+> **Second, τ now has a source, and it is not cosmological.** The Koide sector's circulant kernel
+> fixes its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
+>
+> > **τ = ½ln2 = 0.34657 ⟹ T_c = 177.10 keV ⟹ ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**
+>
+> Nothing cosmological enters that chain: it descends from Q, a lepton-mass fact measured to ten
+> parts per million, through an exact identity ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
+> **So the flagship does have an independent prediction, at +0.44% rather than +1.5%**, and the
+> structure ρ_Λ¼ = (9/2)α⁴·τ·m_e — the dark-energy scale as α⁴ times a temperature tied to the
+> electron — is what makes it predictive.
+>
+> **Its grade is candidate, and its price is one hypothesis:** that the charged-lepton √m are
+> thermally populated, which is what Q = 2/3 asserts (it says exactly that the variance of √m
+> equals its mean squared — the Boltzmann second moment, holding to 18 ppm on the measured masses).
+> **The referee is unchanged and now decides more:** a lattice T_c/√σ for SU(2) with N_f = 3.
+> **0.34657 crowns the kernel and the dark-energy prediction together; 0.3503 kills both.**
 
 
 

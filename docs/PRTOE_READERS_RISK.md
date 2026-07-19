@@ -39,10 +39,15 @@ everywhere atomic physics appears.
   pairing sector.
 
 ## 3. Weakest links — stated plainly
-- **(a) The dark-energy flagship "+1.5%" is not a sourced prediction.** ρ_Λ¼ = (9/2)α⁴τ·m_e is a real
-  structural relation, but τ = T_c/m_e has no independent source: the corpus's τ = 0.345 is the
-  *observed* dark-energy density inverted and rounded, not computed. It becomes a genuine prediction
-  only with an uncomputed lattice number — T_c/√σ for an SU(2), N_f = 3 dark sector. **No lattice
+- **(a) The dark-energy flagship's "+1.5%" is an artifact; its real prediction is +0.44% and
+  candidate-grade.** ρ_Λ¼ = (9/2)α⁴τ·m_e is a real structural relation, and the corpus's τ = 0.345
+  is the *observed* density inverted and rounded — so the quoted 1.5% is a rounding gap, not
+  evidence. **τ does now have an independent source**, from the other end of the model: the Koide
+  kernel's modulus is fixed by Parseval at 1/√2, giving τ = ½ln2 = 0.34657, hence T_c = 177.10 keV
+  and ρ_Λ¼ = 2.2599 meV — **+0.44%**, with no cosmological input in the chain. That rests on one
+  hypothesis (the charged-lepton √m thermally populated, which is what Q = 2/3 asserts) and is
+  candidate-grade. The same uncomputed lattice number decides it — T_c/√σ for an SU(2), N_f = 3
+  dark sector, where **0.34657 crowns the kernel and 0.3503 kills it**. **No lattice
   determination of that theory exists** (literature sweep, 2026-07-17; an outward-facing
   specification note is approved for circulation — PRTOE_lattice_note.md); the best inference bracket
   from measured neighbours (SU(2) N_f = 2: 0.483(23) deconfinement, 0.36–0.48 chiral; SU(3)
