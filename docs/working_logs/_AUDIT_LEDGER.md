@@ -513,3 +513,29 @@ reader a lookup, and when two files disagree about the letter it costs them the 
 
 *Check 12 caught two defects inside this very repair — a "derived — derived" stutter from the
 substitution, and a leftover "[R]" in a sentence I had just written explaining why letters are bad.*
+
+## PRTOE_CODE_MANIFEST.md — deep audit 2026-07-19
+
+Thirteen checks. Three defects, and the first is the file being wrong about the thing it exists to
+be right about.
+
+1. **It said the sampled-ε PolyChord run is LIVE. It is not — and the same table says so two rows
+   below.** Row 5: "pc_prtoe.yaml (PolyChord) | **LIVE**". Row 7: "the sampled referee KILLED
+   mid-prior by decision". Checked: only `cmp_prtoe_fixed.yaml` appears in `ps`, and every
+   `pc_prtoe` file is stamped 2026-07-17. The file calls itself "the single source of truth for
+   implementation status" in its own header. Corrected, and the header now says status is checked
+   against `ps` and file timestamps rather than against intent.
+2. **The home tags carried the [C] collision** — [C] here means CLASS source, while
+   DEPENDENCY_TREE's [C] means candidate. Written out: CLASS source, yaml, comparison layer,
+   doc-only.
+3. **A dead "(docketed)" pointer** on the m_ncdm row, and an "amended conditions" fix-tag in a
+   section header. Both resolved.
+
+**Verified correct, which is the other half of the job:** `background.c:915` implements
+`f_high = 1 − (1+z)/(1+z_high)` exactly as the file claims, and `thermodynamics.c` contains zero
+dark-sector references, so "vanilla CLASS" is accurate. This file's *code* claims hold; what failed
+was its claim about what was running.
+
+**The distinction is worth carrying:** a manifest can be right about the source and wrong about the
+process table, and only one of those is checkable by reading. Run-state claims need `ps`, not
+recollection.

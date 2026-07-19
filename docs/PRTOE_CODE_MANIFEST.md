@@ -3,34 +3,38 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The inclusion law: everything proven beneficial enters the pipeline; nothing
-killed ever does. This file is the single source of truth for implementation status.
-Homes: [C] = CLASS source (background.c/input.c), [Y] = cobaya yaml configs, [CMP] = the
-comparison layer (scripts/), [DOC] = laws/grammar with no pipeline expression.*
+*The inclusion law: everything proven beneficial enters the pipeline; nothing killed ever does. This
+file is the single source of truth for implementation status — so every row states where a thing
+lives and whether it is actually running, checked against `ps` and the file timestamps rather than
+against intent.*
+
+*Homes are named, not lettered: **CLASS source** (background.c/input.c), **yaml** (the cobaya
+configs), **comparison layer** (scripts/), **doc-only** (laws and grammar with no pipeline
+expression).*
 
 ## 1. IN — running now (the referee's own physics)
 
 | item | home | status |
 |---|---|---|
-| The dispersion shape: ρ_rad = dust·(√(1+x²)−1), exact p and dp/dloga | [C] background.c | IN — the live .so, direct-eval verified (2798.7) |
-| THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | [C] background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
-| The dyad (varying m_e, the ramp through T_c) | [C] | IN |
-| The dcdf unified sector (rad→CDM crossover at z_on) | [C] | IN |
-| **THE POLYCHORD EVIDENCE RUN — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all SAMPLED) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | [Y] pc_prtoe.yaml (PolyChord) | **LIVE** |
-| **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | [Y] cmp_prtoe_fixed.yaml | **EXECUTING** — the headline evidence test, restarted 2026-07-18 with the prior phase explicit; sampling since 16:22 |
-| The evidence pair (sampled-ε dyad + ΛCDM twin) | [Y] cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by decision (relaunch fresh later); the ΛCDM twin awaits its slot |
-| The freeze-sentinel launch guards | [CMP] both wrappers | IN — verified quoted+unquoted |
+| The dispersion shape: ρ_rad = dust·(√(1+x²)−1), exact p and dp/dloga | CLASS source: background.c | IN — the live .so, direct-eval verified (2798.7) |
+| THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
+| The dyad (varying m_e, the ramp through T_c) | CLASS source | IN |
+| The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
+| **THE POLYCHORD EVIDENCE RUN — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all SAMPLED) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **NOT RUNNING** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
+| **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **EXECUTING** — the headline evidence test, restarted 2026-07-18 with the prior phase explicit; sampling since 16:22 |
+| The evidence pair (sampled-ε dyad + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by decision (relaunch fresh later); the ΛCDM twin awaits its slot |
+| The freeze-sentinel launch guards | comparison layer: both wrappers | IN — verified quoted+unquoted |
 
-## 2. ARMED — enters on its named trigger (the amended conditions)
+## 2. ARMED — enters on its named trigger
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED; running in the live zero-parameter test** | [Y] |
-| z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c MCMC grades it later** | [Y] |
-| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the live run executes; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the NEXT config, no mid-run change) | **IN — running in the live test** | [Y] |
-| ρ_inf stated | the occupancy value | the α_c MCMC + the triangle confirmed | [Y] |
-| m_ncdm stated | 61.4 meV | the spurion (docketed) lifted + P-023 resolved | [Y] |
-| The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | [CMP] flow_ladder_correction.py (built) |
+| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED; running in the live zero-parameter test** | yaml |
+| z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c MCMC grades it later** | yaml |
+| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the live run executes; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the NEXT config, no mid-run change) | **IN — running in the live test** | yaml |
+| ρ_inf stated | the occupancy value | the α_c MCMC + the triangle confirmed | yaml |
+| m_ncdm stated | 61.4 meV | the spurion identification lifted (done — neutrino_sector §2) + P-023 resolved | yaml |
+| The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | comparison layer: flow_ladder_correction.py (built) |
 
 ## 3. NO PIPELINE EXPRESSION — beneficial, lives in the theory (not code by nature)
 
@@ -54,9 +58,9 @@ a new derivation that overturns its killshot, logged in the failures ledger firs
 
 ## 5. The standing verification
 
-Every [C]-expressible beneficial item is ALREADY COMPILED into the live .so the referee
-is sampling — the inclusion law is satisfied for the C code as of now; the deltas
-are all [Y]-layer freezes on named triggers. Any future session that produces a
+Every beneficial item expressible in the CLASS source is ALREADY COMPILED into the live .so the
+referee is sampling — the inclusion law is satisfied for the C code as of now; the remaining deltas
+are all yaml-layer freezes on named triggers. Any future session that produces a
 pipeline-expressible result MUST add its row here in the same commit.
 
 ## 6. THE BUILD QUEUE — everything still needing code, genesis → now
