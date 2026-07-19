@@ -13,10 +13,15 @@ of TWO dark fields — its partner is the dCDF superfluid
 
 ## 1. What it is [ESTABLISHED]
 
-Field 2 of the dark sector: a **charge-free field that couples to the electron**. It condenses via
-the electron's Coleman–Weinberg backreaction (radiative SSB): VEV **v ≈ 175 keV**, condensation
-temperature **T_c ≈ 179 keV** (the observed ρ_Λ inverted-and-rounded, not independently sourced; the perturbative μ = T
-fixed point gives 193 keV, log-ambiguous over [40, 900] keV, as the cross-check).
+Field 2 of the dark sector: a **charge-free field that couples to the electron**. It is a
+high-scale pseudo-Goldstone — decay constant **f ≈ 100–500 TeV** (a named input), coupling
+**κ = ε/f²**, so the delivered shift ε = κf² = 1.2543% comes from the frozen zero mode. Its
+condensation is driven by its own lepton-number-breaking potential; the electron loop supplies
+the ramp's timing, and the timing relation ties the decay constant, the quartic and the
+transition temperature into a two-parameter family
+([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4). The ramp fires at **T_c ≈ 179 keV** — the
+confining chiral ratio, observation-inverted and lattice-gated rather than independently
+sourced.
 
 *(A note on "gas": this is the operator's phase-framing for the dyad's **complementary role** to
 the dCDF superfluid — the hot/thermal/lepton-binding side against the cold/chiral/abundance side.

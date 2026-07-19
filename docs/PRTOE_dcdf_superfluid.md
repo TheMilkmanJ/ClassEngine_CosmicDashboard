@@ -60,7 +60,9 @@ Carries the dark **abundance/asymmetry** charge (the AD-spiral, "charge = abunda
 **genesis winding's** handedness (the integer n, §2) is what biases matter over antimatter — so the
 dCDF plausibly **sourced the matter asymmetry** (why the hot baryonic pour contains matter at all).
 *"The superfluid fathered the visible universe"* = this claim, candidate grade, and the live thread:
-derive the sign(n) → matter-vs-antimatter link — the **AD-direct rectification**, the one owed
+derive the sign(n) → matter-vs-antimatter link — the **AD-direct rectification**, which reduces
+to a single relative sign (matter rides the temporal rotation, handedness the spatial winding;
+the recorded first-roll theorem is what would lock them), the one owed
 junction of the chirality family's sign map
 ([threaded_physics_working/T14_igmf_helicity_owed.md](threaded_physics_working/T14_igmf_helicity_owed.md)).
 
