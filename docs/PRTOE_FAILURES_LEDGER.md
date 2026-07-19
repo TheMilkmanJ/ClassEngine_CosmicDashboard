@@ -1377,3 +1377,12 @@ was computed with the corrected numbers and clears by nearly three orders.
 
 Found by running the owed dynamical-pricing pass rather than by re-reading the file — the pass
 could not be done at all without the numbers, and the numbers did not survive contact with it.
+
+**And the pricing's own first verdict was wrong, corrected the same hour.** "Clears by ~900×"
+was computed inside S2's orbit — three decades inside the soliton's core, where almost none of
+its mass sits. Evaluated where the mass actually lives, the soliton contributes ~3×10⁶ M☉
+within one parsec, **comparable to the entire extended mass the Galactic Centre shows there**
+and which the stellar population already accounts for. The Centre is therefore the sector's
+sharpest constraint rather than its null, the test lives at parsec radii, and the verdict is
+open pending a real budget analysis. *Second radius-scale error of the same session: a margin
+quoted at a radius the physics does not occupy.*
