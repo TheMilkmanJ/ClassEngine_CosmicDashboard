@@ -147,9 +147,8 @@ dyad's own bare curvature where
 
 (J_F the standard fermionic thermal function) — **a relation with no renormalization-scale
 logarithm**. So (λ_dyad, f, T_c) is a **two-parameter family, not three separate inputs**: any
-two fix the third. With the recorded λ_dyad the relation places **f ≈ 145 keV-scale·10⁹ —
-145 TeV** (122–172 TeV across the quartic-normalization conventions), inside the adopted
-window; read the other way, the window's 100–500 TeV range corresponds to T_c ≈ 130–940 keV.
+two fix the third. With the recorded λ_dyad the relation places **f ≈ 145 TeV**
+(122–172 TeV across the quartic-normalization conventions), inside the adopted window; read the other way, the window's 100–500 TeV range corresponds to T_c ≈ 130–940 keV.
 
 **The perturbative cross-check, corrected.** The recorded T_c = m_e0·√(3(L−1)/2π²) ≈ 193 keV
 and its [40, 900] keV envelope both used the *high-temperature expansion* of the thermal
