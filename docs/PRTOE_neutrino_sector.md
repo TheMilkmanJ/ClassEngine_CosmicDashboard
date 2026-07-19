@@ -11,12 +11,19 @@
 ## 0. The claims, stacked
 
 1. **Neutrinos are Majorana** → the 0νββ PROCESS must exist (P-2026-020). Non-optional as
- mechanism; the OBSERVABLE rate carries the §3 cancellation-floor caveat (m_ββ can sit
- near 0.04 meV at unlucky phases — Dirac-nature evidence kills, but a null at any given
- sensitivity does not).
+ mechanism; the OBSERVABLE rate carries the §3 cancellation-floor caveat (m_ββ can sit as low as
+ 0.02–0.04 meV at unlucky phases, the range being anchor-dependent — see §3). The falsification is
+ one-directional: a detection above the ceiling kills the model, a null at any sensitivity does not,
+ and Dirac nature cannot be demonstrated directly — only inferred from nulls plus the closure of
+ other Majorana channels.
 2. **The lightest mass is dark energy's quarter-power**: $m_1 = \rho_\Lambda^{1/4} = 2.25$ meV
- (the Majoron/L-breaking shared scale — PRTOE_MATH_SPINE.md §6; "Majoron" = the Goldstone boson of spontaneously broken lepton number, whose scale the model ties to the dark-energy density) — the smallest known mass and the largest
- known structure share one number.
+ (the Majoron/L-breaking shared scale — PRTOE_MATH_SPINE.md §6; "Majoron" = the Goldstone boson of
+ spontaneously broken lepton number, whose scale the model ties to the dark-energy density). This is
+ a **relation, not a coincidence** — the tenth-channel seating makes the floor *set* the mass
+ (m₁ = κ_m·ρ_inf¼, κ_m ≈ 1; see the addendum below). What the model does **not** do is derive the
+ value 2.25 meV itself; that is the dark-energy-value problem (§2). The claim is that one
+ un-derived number does two jobs that standard cosmology treats as unrelated, not that the number
+ is explained.
 3. **The sum**: with measured splittings, $\Sigma m_\nu = 61.4$ meV, **normal ordering**
  (P-2026-012). Full disclosure: an earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this one's own pre-registered collision test and is retired in the registry — the ordering claim survived its internal challenger.
 4. **The closure** (EXPLORATORY): the occupancy-corrected ρ_inf derivation reproduces this
@@ -29,9 +36,13 @@
 Every claim is measurable THIS DECADE, and none is adjustable: (i) ton-scale 0νββ
 experiments reach the normal-ordering floor's neighborhood — a confirmed Dirac nature
 (0νββ nulls at full sensitivity + other Majorana channels closed) kills claim 1;
-(ii) cosmology's Σm_ν sensitivity (DESI+CMB) is already brushing 60–80 meV — a robust
-Σ > 70 meV, or inverted ordering from oscillation experiments, kills 2–3;
-(iii) the in-house tension is stated, not hidden: P-023's de-biased band (0.07–0.09 eV)
+(ii) cosmology's Σm_ν sensitivity (DESI+CMB) is already brushing 60–80 meV. Two kills live here,
+and the likelier one comes from below: a robust Σ > 70 meV kills 2–3, but so does a ΛCDM-conditional
+**upper limit descending through 61.4 meV**, which is the direction the frontier is actually moving.
+The model's answer to the second is that those limits are ΛCDM-conditional and the squeeze relaxes
+under its own recombination physics — a testable claim, and the fastest route to grading this block.
+Inverted ordering from oscillation experiments also kills 2–3;
+(iii) an in-house tension: P-023's de-biased band (0.07–0.09 eV)
 sits ABOVE this block's 0.061 — the running chains' own posterior arbitrates between the
 model's two neutrino numbers.
 
@@ -51,9 +62,8 @@ mixings (sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.022): the three mass contribut
 
 $$m_{\beta\beta} \in [0.02,\ 5.3]\ \text{meV over free Majorana phases},\ \sim 3.3\ \text{meV typical}$$
 
-— honestly BELOW ton-scale reach (nEXO/LEGEND-1000 target ~5–20 meV), and the cancellation floor
-near 0.04 meV is stated rather than hidden (the model does not yet predict the Majorana phases;
-that is an open item, not a hedge).
+— below ton-scale reach (nEXO/LEGEND-1000 target ~5–20 meV). The model does not predict the
+Majorana phases, so the position within that window is unconstrained; that is an open item.
 
 **The floor is real but not structurally protected, and it is anchor-sensitive.** It exists only
 because the middle term exceeds the other two combined — 2.67 against 2.62 at m₁ = 2.25 meV — so the
@@ -70,16 +80,20 @@ Quoting Σm_ν = 61.4 alongside a floor computed at m₁ = 2.25 mixes the two an
 the floor by about a factor of two — the two numbers come from opposite ends of the same range.
 
 One consequence is worth stating for the double-β community: the near-cancellation makes **m_ββ an
-unusually sharp probe of the dark-energy scale**, since small changes in m₁ move it hard. The prediction's value
-is structural: (i) 0νββ MUST exist (Dirac-nature evidence at any level kills this
-sector outright); (ii) the normal-ordering floor's shape is fixed in advance; (iii) if a
-ton-scale experiment DOES see a signal well above ~5.3 meV, this model is also killed —
-the band cuts both ways. A bounded two-sided target with stated kills.
+unusually sharp probe of the dark-energy scale**, since small changes in m₁ move it hard.
+
+The prediction's value is structural: (i) 0νββ MUST exist, so evidence for Dirac nature ends this
+sector — though that evidence can only ever be indirect; (ii) the normal-ordering floor's shape is
+fixed in advance; (iii) **the entire ton-scale target band is a kill zone.** The model's ceiling is
+5.3 meV and nEXO/LEGEND-1000/CUPID aim at ~5–20 meV, so any confirmed detection by that program
+falsifies the model — there is no overlap in which a signal and this model coexist. The asymmetry is
+worth being explicit about: the ton-scale program can refute this model cleanly but cannot confirm
+it, because a null is consistent with phase cancellation at any sensitivity.
 
 **0νββ has never been observed** — the one historical claim (Heidelberg–Moscow, ~200–600 meV) was refuted by KamLAND-Zen
 and GERDA; current limits (m_ββ ≲ 28–180 meV, NME-dependent) sit 5–30× above this band,
-so no existing measurement executes either side of the kill clause. **The nearest
-referee is cosmology, not the ton-scale program:** DESI-era CMB+BAO limits already reach
+so no existing measurement executes either side of the kill clause. **Cosmology will grade this
+sooner; the ton-scale program grades it more cleanly.** DESI-era CMB+BAO limits already reach
 Σm_ν ≲ 72 meV (with some combinations pressing lower, toward the normal-ordering floor
 itself) — this model's Σ = 61.4 meV sits just inside, and the frontier is actively
 squeezing. This sector may be graded within one to two years by exactly that number.
