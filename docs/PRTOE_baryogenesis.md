@@ -28,10 +28,19 @@ $$\eta = n \times \mathcal{T}$$
 - **The shared-integer cross-kill**: the CMB comb's tooth count (P-029) and the baryon
  density read the SAME n. Once the comb measures n, η/n is pure mechanism — if the
  computed transmission then misses, the route dies with no retreat.
-- **The frozen-era crux** (honest, standing): sphalerons die at T ~ 130 GeV; the
- condensate amplitude is frozen until T ~ 9.4 keV. The junction must conduct while
- frozen (phase-gradient transfer without rolling) — the crux the transmission integral
- must resolve or the route fails.
+- **The frozen-era crux — resolved, and it was a category error.** Sphalerons die at
+ T ~ 130 GeV while the condensate amplitude is frozen until T ~ 9.4 keV, so the transfer
+ window sits deep inside the frozen era and the worry was that a frozen condensate cannot
+ conduct. **Amplitude and phase are different variables.** The Josephson–Anderson relation
+ makes the chemical potential μ = ℏ·dθ/dt, so a DC transfer is powered by the *phase*, not
+ the modulus. A condensate holding |Ψ| fixed while its phase winds is a **persistent
+ supercurrent** — which is not an exotic requirement here but the model's founding identity,
+ a charged *rotating* superfluid whose winding current is physical from genesis. The junction
+ conducts on θ̇ while |Ψ| sits still, and the crux does not bite.
+- **What the integral still owes**, now that it is a calculation rather than a paradox: the
+ junction coupling's form, μ = θ̇ across the transfer window, and the sphaleron reprocessing
+ factor. The target is fixed and narrow — with η = 6.14×10⁻¹⁰ and the recorded winding
+ n ~ 10–30, the transmission must land at **𝒯 = 2×10⁻¹¹ to 6×10⁻¹¹**.
 
 ## 4. What confirmation looks like
 The transmission integral computed → η/n matched → the comb's n read off the CMB —
