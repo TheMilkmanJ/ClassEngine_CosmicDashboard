@@ -78,6 +78,15 @@ everywhere atomic physics appears.
   the gate's chameleon/Casimir/EP checklist, and the helium Aver/EMPRESS fork.
 - **(e) A_s, n_s, and the thermal O(1) coefficient are un-built or frozen candidates** — the A_s
   closed form is the corpus's boldest standing claim, frozen into the live run by design.
+- **(g) The gate's energy bookkeeping is unpaid, and one endpoint is excluded.** The electron's
+  rest energy differs across the screening transition by 6.4 keV. If gas crosses that transition
+  ballistically it is heated by ~2 keV per particle — an entropy floor an order of magnitude
+  above what groups and clusters show, which would be fatal. If instead structure grows around
+  the gas so the mass changes in place, the heating is 1.25% and harmless. Which applies depends
+  on whether the screening boundary sweeps outward faster than gas falls in, and the two speeds
+  are comparable; the model needs the harmless limit and owes the computation. (One consequence
+  is already booked: S₈ is not delivered by this channel — it rests on the pre-registered
+  rotation-shed parameter, graded by a running chain.)
 - **(f) Code-vs-theory gap:** in the CLASS implementation the dyad's m_e shift and the dCDF density
   are independent parameters — the "one linked superfluid" is not enforced in the fit; the
   zero-parameter evidence claim is tested by the ε-fixed config, not the ε-sampled one.

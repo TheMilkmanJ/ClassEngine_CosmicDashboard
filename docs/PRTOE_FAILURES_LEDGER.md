@@ -1273,3 +1273,33 @@ configuration's log-free timing relation, in which no such expansion appears.
 
 Caught in the resummation docket — the docket that was opened to shrink the band found that the
 band's width was the smaller problem.
+
+### The entropy-floor route to S₈ — CANNOT DELIVER, in either limit (2026-07-18)
+
+**What it claimed:** that the gate's energy deposition heats the intergalactic gas, sets an
+entropy floor, and thereby supplies the small-scale power suppression the S₈ fit uses.
+
+**Why it dies — the two limits bracket the answer and neither works.** The electron's rest
+energy differs across the gate by ε·m_e = 6.41 keV.
+- *If gas traverses a standing gradient* (the fifth-force limit), that difference converts to
+  kinetic energy — 2.14 keV per particle, independent of the shell's thinness, since the
+  impulse is the mass difference itself. The implied entropy floor is 2000–20000 keV cm²
+  against observed group floors of 100–300: gas would be kept out of groups entirely.
+  **Excluded by an order of magnitude or more.**
+- *If the gas is overtaken in place* (structure growing around it, the mass changing in time),
+  momentum is the adiabatic invariant and only the kinetic energy rescales: a **1.25%** entropy
+  change, far too small to move small-scale power.
+
+There is no intermediate setting that yields the ~10–20% suppression the fit needs: the route
+is negligible or excluded, with nothing usable between.
+
+**What this exposes (larger than the route it kills): the gate's energy bookkeeping is unpaid,
+and one of its endpoints is observationally excluded.** Which limit applies is set by whether
+the curvature threshold sweeps outward faster than gas falls inward — and the two speeds are
+comparable (~1000 km/s against a few hundred to ~1000 km/s), so neither limit is clean. The
+model needs the adiabatic limit to hold, and owes the computation that decides it.
+
+**What survives:** the S₈ delivery itself, which rests on the rotation-shed the pipeline
+actually codes — a **pre-registered parameter** (g ≈ 0.10 ± 0.05) whose fitted value (0.12)
+sits inside its registration, graded by the conv_desi chain. That is a pre-committed fit, not
+a derivation, and the corpus should read it as such.
