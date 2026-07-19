@@ -55,9 +55,33 @@ the integrated Sachs–Wolfe contribution is sourced where the relevant modes si
 cutoff, so adding it dilutes; the winding modulation is multiplicative, so it convolves power
 upward rather than removing it. What the torus gives is what it gives.
 
-**Where the real test lives:** the *shape* across ℓ = 2–5 — the model says the suppression
-dies by ℓ ≈ 4, which is a pattern rather than a single number — and the alignment structure,
-where a compact topology makes specific statements and cosmic variance bites far less.
+**The shape is not gradeable either.** Scoring the whole pattern across ℓ = 2–6 against cosmic
+variance gives a total signal-to-noise of **0.27**. The power spectrum — diagonal, a handful of
+modes per multipole — cannot see this torus at all, at any multipole, in any combination. That
+closes the entire power-spectrum route, not just the quadrupole.
+
+**Where the test actually lives: the correlations a torus makes and isotropy forbids.** A
+compact space breaks statistical isotropy, so the covariance of the sky's harmonic
+coefficients is not diagonal — and the off-diagonal entries carry the information the spectrum
+does not. Over ℓ = 2–6 alone there are **990 independent pairs against five power-spectrum
+numbers**, and computing them at the recorded torus size gives a total signal-to-noise of
+**2.2** — modest, but real, and it is the only channel that has any.
+
+**The predicted pattern, specific enough to look for** (correlation coefficients, in the frame
+of the model's own axis):
+
+| pair | ρ |
+|---|---|
+| (ℓ = 4, m = −4) × (ℓ = 4, m = +4) | +0.68 |
+| (ℓ = 2, m = +2) × (ℓ = 2, m = −2) | +0.65 |
+| (ℓ = 3, m = 0) × (ℓ = 5, m = 0) | +0.51 |
+| (ℓ = 6, m = −6) × (ℓ = 6, m = +6) | +0.50 |
+| (ℓ = 3, m = ∓3) × (ℓ = 5, m = ±5) | −0.47 |
+
+The strongest entries are m ↔ −m at fixed multipole and ℓ ↔ ℓ+2 at fixed m — which is what
+"alignment" means when written in harmonic coefficients, and therefore where the
+quadrupole–octupole alignment claims live. **The referee already exists on the calendar (the
+BipoSH joint pass); what was missing until now was a prediction to hand it.**
 
 Not "the model explains the anomalies" (the detailed low-ℓ likelihood is OWED — a compact-torus
 C_ℓ computation with the winding modulation, un-run). The improvement is structural: ΛCDM
