@@ -28,7 +28,7 @@ term, and gives the reading order.*
 | house term | plain physics |
 |---|---|
 | the medium / the fluid | the superfluid scalar field (the unified dark sector) |
-| the amplitude / ε | the fractional electron-mass shift, δm_e/m_e ≈ 1.24% |
+| the amplitude / ε | the fractional electron-mass shift. Two numbers appear deliberately: **1.2543%** is the derived stack (c·f̄·α_c = 27α/5π), **~1.24%** the sky's fitted value. The ~1.8% gap between them sits inside the posterior width and is what the running chains grade |
 | the dyad | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of the model's THREE dark fields (the dCDF superfluid, the dyad, the Majoron); in older documents "the dyad" named the (dark fluid + varying-m_e) pair |
 | the winding / n / the draw | the quantized phase winding number, set stochastically (Kibble mechanism) at the condensation transition |
 | the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
@@ -60,7 +60,7 @@ fixed here:
 | **ε** | the fractional electron-mass shift, 1.2543% — the model's one modification to known physics | everywhere |
 | **α_c** | the dCDF's condensate coupling, 3α | the amplitude, the vacuum, the hierarchy exponent |
 | **c**, **f̄** | the census fraction 9/10; the winding average 2/π | the amplitude's decomposition ε = c·f̄·α_c |
-| **τ** | T_c/m_e = 0.3503 — the dyad's condensation temperature in electron-mass units | the dark-energy chain |
+| **τ** | T_c/m_e = **½ln2 = 0.34657** — the dyad's condensation temperature in electron-mass units, sourced by the Koide kernel through Parseval (T_c = 177.10 keV). *A superseded reading used 0.3503, which was the observed dark-energy density inverted and rounded* | the dark-energy chain |
 | **ζ** | the genesis dilution T_dark/T_γ ∈ [0.25, 0.35] — the dark sector's temperature relative to the photons at genesis; sets ΔN_eff | the high-f configuration, the BBN books, the CMB-S4 falsifier |
 | **ξ** | a *length*: the medium's coherence length. Bare ξ = 402 AU is the coherence hinge in the scale ladder; **ξ_K** = 256 Mpc is the Kibble domain size | the scale ladder, the vortex network, magnetogenesis |
 | **ξ_H** | the non-minimal curvature coupling of a scalar (the standard gravitational meaning, as in the weight 1/6 − ξ) — unrelated to the lengths above | the induced-G sector, P-2026-045 |
@@ -90,7 +90,10 @@ fixed here:
 - The candle-room/H₀-ceiling story: the screening form is derived at class level
  (survival/exponential) and the sign is signed (ς = −1 — the H₀ lever is dead; the ceiling
  reads 70.9–71.3); the coupling's legality is closed by the model's own coupling law
- (sector-internal coupling is permitted; the mechanism file states the three tests). What
- remains owed there is the screening computation itself.
+ (sector-internal coupling is permitted; the mechanism file states the three tests). The
+ screening computation, open since 7 July, was **delivered on all four of its items** on
+ 2026-07-18. What remains is the observational side: the 21-cm edge shape decides between the
+ thermal and environmental readings, and the DESI forest cross-calibration adjudicates the
+ supernova fork.
 - The deepest claim (the medium's reality) remains an open assumption — the corpus
  names it as such and tracks its exposure honestly.
