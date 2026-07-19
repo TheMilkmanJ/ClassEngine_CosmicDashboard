@@ -456,3 +456,32 @@ not.
 **A risk summary is the one document where pessimistic drift is not the safe direction.** Understate
 a strength and you lose credit. Omit a risk and an outside reader finds it themselves, which costs
 the whole document its standing.
+
+## PRTOE_REFEREE_CALENDAR.md — deep audit 2026-07-19
+
+Thirteen checks. Five defects, and the first one is the calendar breaking its own closing law.
+
+1. **A referee had landed and its row was not stamped.** The file's own rule reads: *"when a referee
+   lands, its row gets the verdict stamped SAME-SESSION and the failures ledger or the spine inherits
+   accordingly."* The DESI 4PCF parity row sat unstamped while arXiv:2604.06021 (2026-04-07) had
+   already reported — no parity violation in BOSS or DESI, scatter ~4× tighter than BOSS DR12.
+   Stamped, favourable, with the honest limit that it uses composite-field spectra rather than the
+   4PCF and so denies confirmation rather than refuting.
+2. **The evidence run's ETA read "days".** It is ~24h in with no log(Z), no dead-point file, no
+   `.stats`, and the honest horizon is weeks to months with the ΛCDM twin doubling it.
+3. **Its launch date read 2026-07-13.** It launched 07-18.
+4. **"ε+A_s+n_s+z_on all stated"** — z_on is the exception, frozen 0.053 dex off the identity. Both
+   the referee row and the run row now carry that caveat, because a calendar whose job is
+   pre-written decision rules must say what the run is actually grading.
+5. **The 0νββ row carried [0.04, 5.3] meV** and no discrimination structure. Now the corrected
+   window plus the finding that only nEXO can reach the model at all, that barium tagging lifts
+   detection to ~69% while *removing* discrimination, and that the discriminating band is
+   3.69–5.30 meV.
+6. **The lattice row's decision rule cannot be executed** — ±5.7% registered against a +0.44%
+   prediction. Recorded in place, because a rule that cannot be run is worse than no rule: it looks
+   like a test.
+
+**The pattern here is new and worth naming.** The other summary files drifted by *not being
+updated*. This one drifted by **not being fed** — verdicts landed elsewhere and nothing routed them
+back. A calendar is only as good as its intake, and this corpus has no intake step. Same failure
+shape as READERS_RISK missing two risks discovered the same day.
