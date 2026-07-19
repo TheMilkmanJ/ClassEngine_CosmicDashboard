@@ -4,8 +4,9 @@
 
 
 *Derivation-from-recorded-structure; companion to PRTOE_blackholes_no_singularity.md (the same
-three pillars, applied to the cosmological case). Status: STRUCTURAL (candidate).
-Owed items flagged inline.*
+three pillars, applied to the cosmological case). Status: structurally complete — the bounce
+replaces the singularity on the same three pillars. What remains is λ's number for ρ_bounce and the
+reversal's field profile, both flagged inline.*
 
 ## 0. The claim
 

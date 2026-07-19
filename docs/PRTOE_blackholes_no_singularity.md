@@ -4,7 +4,8 @@
 
 
 *Derivation-from-recorded-structure. Every load-bearing input cites a graded recorded object; owed
-items are flagged. Status: STRUCTURAL (candidate) — candidate grade.
+items are flagged. Status: structurally complete — the core, the horizon, and the entropy all
+land; what remains is λ's bounce-density number and one optional observable.
 The exterior is unchanged (horizons, shadows, P-2026-005 intact); this document is about what
 replaces the singular interior, with the actual numbers.*
 
@@ -99,9 +100,13 @@ thermalized. The interior is therefore:
  embedded in the condensate, wearing a sonic horizon.
 
 The infall energy is not concentrated at a point; it is **stored as heat and entropy in the
-core** — which is where the Bekenstein–Hawking entropy must live in this model. *(Owed: the
-area scaling of that entropy from the medium — the same item as the Jacobson area law, now closed (the Bekenstein quarter is the ratio 12π/48π of the two heat-kernel coefficients, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a),
-the working docket. Honest status: located, not derived.)*
+core** — which is where the Bekenstein–Hawking entropy must live in this model. Both halves of
+the area law are in hand: the *scaling* from counting horizon entanglement across the medium's own
+coherence cells against induced gravity's inverse Newton constant (species count and cutoff cancel
+in the ratio — that cancellation is the universality), and the *coefficient* as the ratio of the
+two heat-kernel coefficients the same cutoff supplies, 12π/48π = **1/4 exactly**, giving S = A/4G
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). One residue: the Bogoliubov regulator's
+O(1) is run on the induced-G side and not yet explicitly on the entanglement side.
 
 Hawking radiation survives: phonon Hawking emission from sonic horizons is standard
 analog-gravity physics (Unruh) — the exterior thermodynamics is inherited, not lost.
@@ -140,7 +145,8 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
  crossover vs the SMBH mass-function top (§2); (ii) horizon-scale microstructure at the core
  boundary could imprint late-time ringdown echoes — generic to horizon-scale-structure models,
  amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
- thermodynamics to the medium's Landauer accounting (recorded, def-atom-night); (iv) the boson
+ thermodynamics to the medium's Landauer accounting
+ ([PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md)); (iv) the boson
  mass itself puts the ℓ = m = 1 superradiance window at M ≈ 6×10⁸–3×10⁹ M☉ with fast spin-down —
  a Regge-gap lean in SMBH spin data (candidate grade; the λ-quench caveat and today's sparse
  spin measurements above 10⁸ M☉ keep it a lean, not a bet —
@@ -155,7 +161,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 | Collapse unbounded | CSW equilibrium at any known mass — recomputed 2026-07-18: supporting the largest known black holes (2×10¹⁰ M☉) needs only **λ ≳ 8×10⁻⁹⁴**, which the derived λ ≈ 2×10⁻⁹¹ clears by ~250× (the earlier "≳10⁻⁹⁰" was three orders too strong) | computed; the requirement is met with room |
 | Ring singularity (Kerr) | quantized vortex bundle, normal-phase threads | structural (§5) |
 | Penrose theorem | discharged at premises (no metric below ξ; SEC violated; phonon geodesics end, histories don't) | argued (§6) |
-| BH entropy | thermal core + Landauer accounting; area law OWED | located, not derived |
+| BH entropy | thermal core + Landauer accounting; area law derived, scaling and coefficient (S = A/4G from 12π/48π) | derived, one regulator residue |
 
 *The medium does not permit infinities: the same Landau threshold that caps the vacuum budget
 and feeds the crunch dissolves the singularity. What falls in is not crushed to a point — it is
