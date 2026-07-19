@@ -1760,3 +1760,12 @@ which puts the whole corpus in agreement: README, cosmic_explorer, the historica
 formulation, the philosophy file's jurisdiction ruling, and the dashboard all say Expansion.
 The intermediate revert is preserved in git history as placed; net effect of the sequence =
 the original fix plus the Phantom Rip normalization.
+
+## The naming law enters the gate (2026-07-19, owner-directed)
+
+Per the owner's ruling and instruction, the PRTOE naming law is now a commit-gate check, not
+a memory: `check_before_commit.sh` refuses any commit that leaves "Pulford-Romsa Theory of
+Everything" or the "Phantom Rip" placeholder live anywhere in README, docs/, scripts/, or
+the dashboard (archive and the two history ledgers exempt — recording dead names is their
+job). The Grok cold-read's one concrete contribution — flushing the dashboard's name
+disagreement — is thereby made permanent. Remembering is not a mechanism; the gate is.
