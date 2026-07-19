@@ -154,6 +154,11 @@ chk("dcdf_superfluid", "c_s = sqrt(3 alpha) c", 0.148, math.sqrt(3*ALPHA), 0.005
 chk("dcdf_superfluid", "c_s sits sqrt(d) above the second sound", math.sqrt(3*ALPHA),
     math.sqrt(3)*math.sqrt(ALPHA), 1e-9)
 
+# ---- the turn, and the KP cap ----------------------------------------------
+chk("MATH_SPINE", "the turn: z from a = 2.04 (booked z = -0.51)", -0.510, 1/2.04-1, 0.01)
+chk("MATH_SPINE", "the turn: z from a = 2.86 (booked z = -0.65)", -0.650, 1/2.86-1, 0.01)
+chk("cosmological_constant", "KP cap 0.40 vs the observed 2.2", 5.5, 2.2/0.40, 0.01, "x below")
+
 # ---- report ----------------------------------------------------------------
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
