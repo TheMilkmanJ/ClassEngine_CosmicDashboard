@@ -21,7 +21,7 @@ in every galaxy and epoch below z ~ 4 (spectra confirm it daily) — that unifor
 lattice's null rows + the ramp-tail fence (< 10⁻⁶ by z ~ 4, the quasar bounds) + the gate's
 present-day zero. Astronomers rely on uniform chemistry as an assumption; in this model it is a
 DERIVED, screened, falsifiable condition — with the one signed exception already registered
-(the ε-history above z ~ 50, P-030's mid-ramp line ratios). Chemistry's constancy is not
+(the ε-history above z ~ 50, P-2026-030's mid-ramp line ratios). Chemistry's constancy is not
 guaranteed by nature's indifference but by a working screen with a court date.
 
 **BIOLOGY — its thermodynamic license traces to the vacuum start.** Life is a far-from-

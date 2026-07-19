@@ -45,6 +45,7 @@ term, and gives the reading order.*
 | the curvature-metered gate | the screen that switches the electron-mass shift off in dense, curved regions, keyed to how sharply curved they are: exp(−(C/C_ref)ⁿ) with n > 2.43, so sharp it is effectively a step. It is what makes today's laboratories see no effect |
 | ramps vs steps | the house discipline: physical transitions are modeled as smooth (finite-width) functions, never discontinuities, unless protected by quantization/topology |
 | the error log | the log of caught errors (public, in the failures ledger) |
+| the §12 wall | the corpus's hard scope boundary: the interpretation layer makes NO claims about mind, consciousness, or observers — measurement is decoherence/einselection and nothing more. Named for a section number in an early draft; the number outlived the draft, the boundary is the content |
 | the killer / the kill | the named observation that falsifies a specific claim |
 | estimated / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
 | ς (final σ) | the sign in the H₀-ceiling formula — **SIGNED: ς = −1** (estimate grade, robust; the H₀-lever branch is dead, the bracket collapses to 70.9–71.3) (supernova color-channel direction) |
