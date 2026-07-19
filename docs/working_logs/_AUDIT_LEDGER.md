@@ -1250,3 +1250,14 @@ Files sixty-one through sixty-four. Three clean (plasma_physics with its harness
 fix: chaos_dynamics' numerical winding-average (0.635 ± 0.026) now states that it lands on the
 since-derived exact 2/π = 0.6366 — the integral was the derivation's evidence, and the file now
 says so instead of leaving the exact value to be discovered elsewhere.
+
+## PRTOE_classical_gravity.md / PRTOE_neutrino_home.md — deep audits 2026-07-19
+
+Files sixty-five and sixty-six. classical_gravity's GR thread still ended at "the pure
+coefficient remains" — brought to today's reconciliation (the ratio supplies it conditionally;
+the residue is the regulator's entanglement-side check), which upgrades the thread's own
+conditional. The Newton table — his postulates as the model's theorems — is one of the
+corpus's best pages and needed nothing. neutrino_home is clean: P-023's de-biased band, the
+benchmark's g = 1.2×10⁻⁸ inside the S4 window, the corner map with its honest λ′ gate, and the
+closing line ("watch the two posteriors diverge; one of them has to be wrong in public") is
+the model's quietest live advantage stated exactly.
