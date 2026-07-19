@@ -1376,3 +1376,16 @@ ride M3 and seat in quantum_trio; weakest_joints' open-derivation set points at 
 clean pass and weakest_joints was audited with UPDATE 3, both with danglers in plain sight;
 recorded against me. Also: entanglement's "W-W evasion" spelled out to Weinberg–Witten (it was
 decoded nowhere reader-facing).
+
+## PRTOE_quantum_trio.md — deep audit 2026-07-19
+
+File seventy-seven, effectively clean — one character-level fix (a lone "P-040" shorthand
+normalized to P-2026-040; the file's other two uses were already full). Everything else
+verified and held: the second-sound identity is exact (√(3α)/√3 = √α, so c₂ = 0.0854c rides
+the α_c bet with zero freedom — harnessed both as value and as identity); the three-instrument
+bench matches P-2026-040's registry text verbatim (band [0.0205, 0.0214], 2.3% below 3α at the
+near edge — harnessed); the CHSH form B(r) = 2√(1+tanh²2r) is the correct two-mode-squeezed
+result saturating at 2√2; the cc §4b companion pointer lands on the right section ("Three
+readings of the same residual"); the Born-rule residue is flagged as the single un-derived
+piece. The seating table's honesty line — each door backed by a computation, not an analogy —
+survives inspection: C4 CHSH, WKB-verbatim, ODLRO. Harness 280.

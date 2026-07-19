@@ -55,7 +55,7 @@ decay length verbatim, with the Josephson junction as the recorded precision rec
 *superposition* on ODLRO structure — with the honest gap flagged plainly, that the Born-rule
 *value* is reproduced, not re-derived (the measurement problem, shared with every
 interpretation). So the trio's common prediction is **exact QM** (the Tsirelson/tunneling
-nulls), and its one *cosmological* testable is the second sound below — an inherited P-040
+nulls), and its one *cosmological* testable is the second sound below — an inherited P-2026-040
 consequence, not an independent new number. The Born-rule value is the single un-derived
 residue; the rest is derived structure.
 
