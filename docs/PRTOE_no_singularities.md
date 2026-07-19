@@ -47,7 +47,7 @@ mass-function top can test.
 
 | pathology | GR's version | this model | mechanism | grade |
 |---|---|---|---|---|
-| **black-hole core** | curvature → ∞ at r = 0 | finite-density condensate/normal-phase core | metric ends at ξ; quantum-pressure + quartic floor (ρ_c ∝ M, finite for all M) | derived-from-recorded; λ owed |
+| **black-hole core** | curvature → ∞ at r = 0 | finite-density condensate/normal-phase core | metric ends at ξ; quantum-pressure + quartic floor (ρ_c ∝ M, finite for all M) | derived-from-recorded; the support requirement is met with room, λ's own value owed |
 | **Big-Bang origin** | curvature → ∞ at t = 0 | finite-density **bounce** | the *same* three pillars: the crunch exits the metric at ξ; the quartic stiffens to ρ_bounce ~ m⁴/λ; a thermodynamic process (Tolman entropy), not a geometric implosion | derived-from-recorded; λ / ρ_bounce owed |
 | **information paradox** | unitarity lost at the singularity | a finite quantum core is **unitary** — nothing is destroyed, only scrambled (the record never truly vanishes) | no singularity to lose information into; the core is a finite quantum object | structural (unitarity + Landauer) |
 | **white hole** | a time-reverse solution GR can't place | the **one** realized instance — the genesis pour, at the counterparty-free boundary instant | the arrow is a background field value; a local white hole dies to its first counterparty (Eardley), the global one has none | grammar + exploratory |
@@ -71,10 +71,17 @@ core removes.
 
 Three items, all pre-existing and flagged in the component files — this synthesis adds no new
 debt:
-- **The black-hole entropy area law** from the medium (the Bekenstein–Hawking S ∝ A): *located*
-  (the entropy lives in the thermal Landau-broken core) but *not derived* — the same owed item
-  as the Jacobson area law.
-- **λ (the quartic self-coupling)** — sets the core floor and the bounce density ρ_bounce; owed
+- **The black-hole entropy area law** from the medium: *located* (the entropy lives in the
+  thermal Landau-broken core) and **the scaling is now derived** — counting horizon
+  entanglement across the medium's own coherence cells against induced gravity's inverse
+  Newton constant, the species count and the cutoff cancel in the ratio, which is the
+  universality itself. What remains is one pure number, the bit-per-cell value that would give
+  the Bekenstein quarter ([PRTOE_entropy.md](PRTOE_entropy.md) §3). **The same number is what
+  blocks the Page curve**, so one payment closes both.
+- **λ (the quartic self-coupling)** — sets the core floor and the bounce density ρ_bounce. Its
+  support requirement is now computed and comfortable: holding up the largest known black holes
+  needs λ ≳ 8×10⁻⁹⁴, which the derived value clears by more than two orders. What stays owed is
+  the bounce density it sets, not the collapse floor; owed
   as a number (λ ≳ 10⁻⁹⁰ suffices for the equilibrium to exist at any astrophysical mass).
 - **Horizon-scale microstructure amplitude** — whether the finite core leaves an observable
   imprint (ringdown, echoes) is un-computed; owed if pursued.
