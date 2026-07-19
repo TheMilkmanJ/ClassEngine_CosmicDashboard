@@ -465,6 +465,20 @@ chk("neutrino_sector 3b", "Majoron mode slower than the mass mode by", 1e4,
     (_Kg/(_mbb/4.18e6)**2)/(_Km/_mbb**2), 0.05, "x")
 chk("neutrino_sector 3b", "<g_ee> below the experimental limit by", 1.4e4, 1e-5/(_mbb/4.18e6), 0.05, "x")
 
+
+# --- the deuterium quark door: the loop bridge's size (deuterium_scar §5) ---
+_loop = (ALPHA/math.pi)**2
+chk("deuterium_scar", "dyad->lepton loop->2gamma->quark suppression (alpha/pi)^2", 5.4e-6, _loop, 0.01)
+chk("deuterium_scar", "what the loop delivers, in percent", 6.8e-6, 0.012543*_loop*100, 0.02, "%")
+chk("deuterium_scar", "shortfall against P-006's 0.14%", 21000, 1.4e-3/(0.012543*_loop), 0.02, "x")
+chk("deuterium_scar", "shortfall against P-006's 0.21%", 31000, 2.1e-3/(0.012543*_loop), 0.02, "x")
+# the photodissociation cure's internal arithmetic
+_HeH = 0.249/(4*(1-0.249))
+chk("deuterium_scar", "He/H by number at Y_p = 0.249", 0.083, _HeH, 0.01)
+chk("deuterium_scar", "D/H gained by breaking 1.7e-5 of the helium", 1.4e-6, 1.7e-5*_HeH, 0.02)
+chk("deuterium_scar", "the Y_p it costs", -4e-6, -1.7e-5*0.249, 0.05)
+chk("deuterium_scar", "energy per hydrogen at 20 MeV per dissociation", 28, 1.7e-5*_HeH*20e6, 0.05, "eV")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

@@ -124,7 +124,8 @@ That single test sorts every route the model has, and explains which ones surviv
 | constant dark radiation (ΔN_eff, all epochs) | faster expansion | **no** | wrong shape — see below |
 | expansion boost confined below T_c | faster expansion, deuterium epoch only | **yes** | right shape, 8–33× too weak |
 | helium photodissociation | late injection breaks ⁴He into D | **yes** | right shape, no source |
-| shift m_e at BBN (through B_D) | changes deuterium's binding | **yes** | excluded by data at 12σ |
+| shift m_e at BBN | changes the electron's contribution | **yes** | excluded by data at 12σ |
+| shift m̂ at BBN (through B_D) | changes deuterium's binding | **yes** | symmetry-forbidden: quarks carry L = 0 |
 
 **Constant dark radiation fails on shape, not size.** It raises both abundances with the same sign,
 but the two rows need opposite moves: deuterium is 2.5σ low and helium is already 1.09σ high. The
@@ -163,11 +164,25 @@ It needs a source with three properties at once: **mass ≳ 20 MeV** (so the cas
 ⁴He threshold), **lifetime ~10⁶–10⁸ s** (so the deposit lands in the window), and an abundance
 delivering **~30 eV per hydrogen**. The standing configuration does not supply one — see §6.
 
-**The binding-energy route is closed by data, not by choice.** Shifting m̂ moves deuterium through
-B_D rather than through the expansion rate, so it does not touch helium at all — the cleanest
-orthogonal lever in principle, and only a **0.2% shift** would close the row. But m_e = 1 at BBN is
-excluded at 12σ. This is a data exclusion, not a constitutional one; it stays closed until the data
-moves.
+**The binding-energy route is two routes, and they are shut by different things.** Both move
+deuterium through B_D rather than through the expansion rate, so neither touches helium at all —
+the cleanest orthogonal levers in principle, and only a **0.2% shift** would close the row.
+
+*Through the electron:* m_e = 1 at BBN is excluded at **12σ**. That is a data exclusion, not a
+constitutional one; it stays closed until the data moves.
+
+*Through the light quark mass:* this one is **forbidden by the model's own symmetry**, and the
+distinction matters because it cannot be reopened by better data. The dyad **is** the Majoron, the
+Goldstone of U(1)_L breaking, so it couples to the current of its broken charge — and **quarks
+carry L = 0**, making the tree coupling exactly zero rather than small. The only surviving path is
+a loop, dyad → lepton loop → 2γ → quark, suppressed by **(α/π)² = 5.4×10⁻⁶**. Applied to the dyad's
+own amplitude that delivers 6.8×10⁻⁶ percent where P-2026-006 needs 0.14–0.21% — short by a factor
+of **21,000 to 31,000**.
+
+This is the sharpest statement of where the scar comes from. **The model's one matter-to-matter
+channel is the lepton current, and deuterium's binding is nuclear.** The dyad can reach the
+electron and cannot reach the nucleus, and reopening the quark door means surrendering the Majoron
+identification — which the entire neutrino sector rests on.
 
 ---
 
