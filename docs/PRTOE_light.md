@@ -139,7 +139,7 @@ threshold):
 confined machinery, one separate for the record.** The split the running finds is the
 interaction grammar's split, found independently by the renormalization group.
 
-## 6. What is derived, and what remains (the honest scoreboard)
+## 6. What is derived, and what remains
 
 **Derived (theorem- or computation-grade):**
 

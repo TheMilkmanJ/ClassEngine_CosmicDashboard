@@ -343,10 +343,18 @@ moves item [2]'s "census-scope legality" from OPEN toward RESOLVED via interface
 
 ---
 
-## ELECTRON-CW DYAD ONSET + FINITE-T (2026-07-10, gate-0 session)
+## THE ELECTRON-LOOP ONSET — the predecessor configuration [RETIRED]
 
-On the charge-free dyad field (field 2, two-field split), the electron Coleman-Weinberg backreaction
-sets the dyad's condensation scale — the onset becomes DERIVED, not a free input.
+> **This section describes the retired operating point**, in which the electron's
+> Coleman–Weinberg backreaction drove the dyad's condensation. That configuration is
+> BBN-fatal at its own numbers and no longer describes the model
+> ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); the standing configuration is the
+> high-f operating point above. What survives from the work below is the κ-independent
+> transition-temperature formula, which still supplies the ramp's timing. The rest is kept for
+> the record and must not be cited as current.
+
+On the charge-free dyad field, the electron Coleman–Weinberg backreaction was taken to set the
+condensation scale, making the onset derived rather than a free input.
 
 **Zero-T (the VEV / reduction).** m_e(φ)=m_e0(1+κφ²); the electron loop gives
 V_CW(φ)=−(1/16π²)m_e(φ)⁴[ln(m_e(φ)²/μ²)−3/2], whose φ² term is a TACHYONIC induced mass
