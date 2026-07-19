@@ -190,3 +190,35 @@ with N_f = 3** measures τ directly. The two candidates are 1.1% apart and the m
 approachable: **0.34657 crowns the kernel, 0.3503 kills it** (P-2026-048's two-point fork). The
 same number then decides whether the lepton sector and the dark-energy scale are reading one
 temperature or two.
+
+## What Q = 2/3 actually says: a thermal moment condition
+
+Write s = √m with mean μ and population variance V. Then Q = ⅓ + V/(3μ²) identically, so
+
+> **Q = 2/3 ⟺ V = μ²** — the standard deviation of √m equals its mean, a coefficient of
+> variation of exactly 1.
+
+On the measured leptons that holds to **18 ppm** (V/μ² = 0.9999815).
+
+**And CV = 1 is the thermal signature.** The exponential–Boltzmann law has mean 1/λ and variance
+1/λ², so variance = mean² exactly; and a Boltzmann weight is the *unique maximum-entropy
+distribution at fixed mean*. For a positive quantity, CV = 1 is what "thermally populated" means.
+
+So the whole sector follows from one hypothesis about the spectrum's origin:
+
+| step | statement |
+|---|---|
+| hypothesis | the charged-lepton √m are thermally populated |
+| ⟹ | CV = 1, so V = μ² |
+| ⟹ | **Q = 2/3** — the Koide relation |
+| ⟹ | A = √2, ρ = \|f₁/f₀\| = 1/√2 — the amplitude and modulus watches |
+| ⟹ | τ = −ln ρ = **½ln2**, so **T_c = 177.10 keV** and **ρ_Λ¼ = 2.2599 meV** (observed 2.25) |
+| ⟹ | the conserved charge shared over three faces, KMS converting charge-per-face to an angle: **θ = Q/3 = 2/9** |
+| ⟹ | **3θ = Q** — the ring closes |
+
+This replaces the earlier reading, which required choosing that equilibrium partitions power by
+*charge sector* rather than per mode — a choice that was load-bearing, since per-mode sharing
+returns Q = 1. The moment condition needs no such choice: the sector split falls out of it rather
+than being imposed on it. **What remains assumed is that the spectrum is thermally populated at
+all** — natural in a model whose masses come from a condensate at a definite temperature, and it is
+now the sector's single input.
