@@ -163,3 +163,33 @@ Citations present. Audience laws clean. Check 12 found nothing further in this f
 **Check 12's first catch was in THREE_EQUATIONS, not here** — my own status marker still read "z_on
 stated in advance" three edits after I had written the opposite into the stack table two rows above.
 Both lines mine, same file, contradicting. That is the case for the check existing.
+
+## PRTOE_honest_status.md — deep audit 2026-07-19
+
+Twelve checks. Four defects, and the most consequential one runs in the model's **favour** — which
+is its own kind of failure for a board whose job is to be the candid record.
+
+1. **The code-vs-theory audit was stale in the model's disfavour.** Its 2026-07-08 entry called
+   m_e/dcdf independence "the BIGGEST gap" and concluded that "part of the competitive-with-ΛCDM
+   result comes from the extra freedom of 2 independent knobs." Re-checked: `thermodynamics.c` still
+   has zero dcdf references, so the code-level link genuinely is unenforced — but
+   `cmp_prtoe_fixed.yaml` now sets `varying_me: 1.012543`, **pinned at the derived stack**. The
+   extra-knob criticism is retired, and its companion inverts: the amplitude derivation is not
+   untested by the fit, it is the fit's fixed input, which is the harder test. A board that
+   under-rates the model is as wrong as one that over-rates it, and stays wrong longer because
+   nobody goes looking.
+2. **The superradiance band read 2×10⁸–3×10⁹ M☉** against three other files' 6×10⁸–3×10⁹.
+   Recomputed from α_g = Mm/M_Pl² over the efficient ℓ = m = 1 range α_g ∈ [0.1, 0.5]: **5.96×10⁸ to
+   2.98×10⁹**. This board was the outlier.
+3. **"PolyChord has not been run"** — it has, since 07-18. Corrected, with the fuller picture the
+   board did not have: only the evidence job is live; routeD, conv_desi, zon_disp, zon and twist are
+   all stopped.
+4. **The dark-energy closed form carried the cruder τ ≈ 1/3 form**, (d/2)α⁴m_e = 2.174 meV at 0.97×.
+   Same structure with τ approximated; the kernel supplies τ = ½ln2 exactly and the agreement goes
+   from −3% to +0.44%.
+
+Check 12 caught a dangling reference inside my own repair — the rewrite said "consequence (b) as
+written above" after I had deleted the text listing (a) and (b). Second time in two files that the
+post-edit read caught my own work.
+
+Three checks added (139 total).
