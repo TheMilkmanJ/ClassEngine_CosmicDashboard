@@ -155,7 +155,7 @@ freedom, reheat factor (27/14)^⅓ = 1.245) delivers a below-T_c excess of only 
 **Photodissociation is the other orthogonal lever, and it is the cheapest cure on the books.**
 Deuterium is fragile (2.22 MeV) but helium is abundant: ⁴He sits at 8.3% of hydrogen by number
 against a deuterium abundance of 2.5×10⁻⁵. Breaking **1.7×10⁻⁵ of the helium** — a fraction far too
-small to move Y_p (ΔY_p = −4×10⁻⁶, 0.001σ) — supplies enough deuterium to centre the row. The
+small to move Y_p (ΔY_p = −4.2×10⁻⁶, 0.001σ) — supplies enough deuterium to centre the row. The
 timing window is set by thermal-bath opacity: an injection before ~6 weeks *destroys* deuterium, so
 the deposit must land at **t > 4×10⁶ s**. The result would be **joint p = 0.135–0.43**, with helium
 the only residual.
