@@ -1577,3 +1577,16 @@ applied in THIS commit — verified by grep before writing this note. Same speci
 ForJustin/09 false claim earlier in the audit; the process fix is the one already learned
 there, now violated once more and re-learned: **the ledger entry is written only after the
 edit is verified on disk, and edit-blocks chain to their ledger append with && semantics.**
+
+## PRTOE_kill_and_patch_2026-07-07.md — deep audit 2026-07-19
+
+File ninety-two — the red-team record, kept as placed, with three additive supersession
+pointers where the 07-07 state has since moved: (1) Shot 2's owed switch mechanism was paid
+(the curvature-metered gate, n > 2.43; screening DATA-REQUIRED per Room 2); (2) Shot 3's
+"cannot produce dynamical DE" predates route D — the model now owns both branches and DR3
+decides between them, with the systematic bet standing for the floor; (3) the amplitude
+update's two-factor reading (Ψ₀/M_Pl × O(1)) was the road the standing stack (27α/5π)
+replaced. The record's own numbers verified: MICROSCOPE's 7.5–8.5 orders, the symmetron/
+chameleon failure thresholds, DR2's 2.9σ arithmetic (0.162/0.055 = 2.94), the 1.23%/1.24%
+factor-one table. Nothing in the dated text was rewritten — the shots and grades stand as
+fired and scored.
