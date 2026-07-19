@@ -2382,8 +2382,8 @@ supplies this entry's consilience inflates the light multiplet by **1.75×**:
 **Even at the earliest possible decoupling ΔN_eff = 0.375 against Planck's ≲ 0.3 (2σ)**, and the
 largest g_dark Planck admits at *any* T_dec is 11.2 — below the 14 SU(2) requires.
 
-**The ramp audit made it worse (snag protocol 5a).** An earlier pricing used g = 14 — the
-*confined* Goldstone count — at BBN. That is a **phase error**: n/p freeze-out is at T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 —
+**The count is worse than an earlier pricing showed, and the reason is the phase.** That
+pricing used g = 14 — the *confined* Goldstone count — at nucleosynthesis: n/p freeze-out is at T ≈ 700 keV while T_c = 179 keV, so **T/T_c ≈ 3.9 —
 the dark sector is DECONFINED at freeze-out and the Goldstones do not exist yet.** The correct
 count there is dark quarks + gluons = **27** (6 gluon + 21 quark dof), giving **ΔN_eff = 0.723**.
 **And the Boltzmann ramp supplies no relief, because τ is spending exactly the lightness that would

@@ -308,9 +308,10 @@ fires. But the morning reconciliation audit pinned the mass band to
 [1,3]×10⁻²¹ eV — where beat_needed = 10–90 while the observable beat
 saturates at 1. So the beat is undetectable at every surviving mass, the
 ~6:1 / 33% detection pricing is DEAD, and P-2026-005's PTA-silence survives
-**by the mass gate**, not by the collision (the 4th Pinning-Rule firing,
-pre-called by E7a-CAVEAT). The medium almost certainly rings (P(f_amp>0.2)
-→ 100% at h=1×10⁴) — at a pitch PTAs cannot hear. Also a genuine null: the
+**by the mass gate**, not by the collision. The medium almost certainly rings
+(the ellipticity fraction exceeds 0.2 with probability approaching one at the
+upper end of the scanned range — the same fraction as in the beat formula above,
+not the retired amplitude factor) — at a pitch PTAs cannot hear. Also a genuine null: the
 chaotic genesis left no observable stochastic background (fraction² tiny).
 
 **Verdict: PTA is a KILLED-BY corpse (dead by mass); the ε-meter role passed
