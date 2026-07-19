@@ -4,12 +4,14 @@
 
 
 > **STATUS: PRODUCTION-GRADE** (the recorded T4 thread consolidated; the conv_desi chain is
-> refining the posterior now).
+> refining the posterior now). *Companion: the conversion-channel standalone,
+> [PRTOE_s8_growth.md](PRTOE_s8_growth.md).*
 
 ## 0. The tension
-The CMB predicts more late-time clustering (S₈ ≈ 0.83) than weak lensing measures
-(KiDS/DES ≈ 0.76–0.81). Most H₀ solutions make S₈ WORSE — the two tensions pull opposite
-directions, and killing both is the field's standing filter.
+The CMB predicts more late-time clustering (ΛCDM: S₈ ≈ 0.833) than weak lensing measures
+(KiDS-1000/DES-Y3 centrals 0.76–0.78; the KiDS-Legacy joint consensus 0.814 ± 0.012).
+Most H₀ solutions make S₈ WORSE — the two tensions pull opposite directions, and killing
+both is the field's standing filter.
 
 ## 1. The model's mechanism (recorded, coded, fit)
 
@@ -27,19 +29,21 @@ late growth → lowers S₈ — while the background expansion barely moves (the
 checked and cleared at ~1%).
 
 ## 2. Where it lands (production numbers)
-The minimizer picks g = 0.12 → **S₈ = 0.821**, moving from the CMB value (≈0.83) TOWARD
-the lensing band (KiDS/DES ≈ 0.76–0.81) while HOLDING the H₀ = 69.9 fit — the rare
-right-sign pair. (0.821 approaches the band's upper edge; "into" awaits the matched
-lensing-likelihood fit this file already lists as owed.) (ΛCDM sits at
-S₈ ≈ 0.83 with H₀ = 68.2 — wrong on both.) The conv_desi chain (running) delivers the
-posterior; the firewalled derivation candidate g = 10ε = 54α/π (the machines' table)
-awaits its mechanism.
+The minimizer picks g = 0.12 → **S₈ = 0.821**, and the production joint fit records
+**0.823 — within 1σ of the KiDS-Legacy consensus (0.814 ± 0.012), holding the H₀ = 69.9
+fit** — the rare right-sign pair. ΛCDM sits at S₈ ≈ 0.833 with H₀ = 68.2 — 1.6σ above the
+consensus and wrong on H₀ too; the model's value is twice as close to the consensus as
+ΛCDM's. (A matched lensing-likelihood fit — DES/KiDS proper, not the S₈ point — stays owed
+before any tension-easing claim upgrades.) The conv_desi chain (running) delivers the
+posterior; the firewalled derivation candidate g = 10ε = 54α/π (the machines' table,
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)) awaits its mechanism.
 
 ## 3. Kills
 (i) conv_desi's posterior excluding the S₈-fixing g region while lensing holds low;
 (ii) the shed violating N_eff bounds at CMB epochs (the ramp's timing is the protection —
-auditable); (iii) future lensing converging UP to the CMB value (dissolves the tension
-and the mechanism's purpose — a null, not a kill).
+auditable); (iii) future lensing converging UP to the ΛCDM value (dissolves the tension and the
+mechanism's purpose — a null, not a kill; KiDS-Legacy's 0.814 is a half-step in that
+direction, and the model's 0.823 sits between the consensus and ΛCDM).
 
 ## Sources
 KiDS/DES (via [Planck2018]-era compilations), internal: thread 4 (T4), the mirage

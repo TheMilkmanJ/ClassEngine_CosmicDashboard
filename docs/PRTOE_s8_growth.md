@@ -4,16 +4,19 @@
 
 
 *Thread 4 of the atom-grammar survey; the standalone for the recorded DM→(DE/dark-radiation)
-conversion lead. Status: STRUCTURAL with a MECHANISM BUILT INTO CLASS (the working docket, completed and
+conversion lead — the consolidated production file is
+[PRTOE_s8_tension.md](PRTOE_s8_tension.md). Status: STRUCTURAL with a MECHANISM BUILT INTO CLASS (the working docket, completed and
 recorded) and live chains testing it NOW (conv_g sampled in the thaw chain/conv_desi). The improvement:
 a one-parameter, physically-motivated easing of the growth tension that ΛCDM must treat as
 systematics.*
 
 ## 0. The tension
 
-Weak-lensing surveys (DES/KiDS-class) persistently measure S₈ ≡ σ₈√(Ω_m/0.3) ~ 2–3σ BELOW the
-CMB's ΛCDM prediction: the late universe is smoother than the early universe says it should be.
-ΛCDM has no lever — the growth history is locked once the CMB is fit.
+Weak-lensing surveys measure S₈ ≡ σ₈√(Ω_m/0.3) below the CMB's ΛCDM prediction: 2–3σ in the
+KiDS-1000/DES-Y3 era (central values 0.76–0.78); the KiDS-Legacy joint consensus
+(0.814 ± 0.012) has since softened that to a ~1.6σ lean under ΛCDM's 0.833. The direction
+never flipped — the late universe reads smoother — and ΛCDM has no lever either way: the
+growth history is locked once the CMB is fit.
 
 ## 1. The model's lever is not a lever — it is the fluid's own thermodynamics
 
@@ -28,8 +31,9 @@ history — exactly the shape of the observed tension.
 
 - The mechanism is built and recorded in the CLASS implementation, and it does not disturb the
  damping tail.
-- The omk minimum: S₈ = 0.807 at the dyad's best point — between the CMB-ΛCDM 0.83
- and the lensing 0.76–0.78: the model already sits on the tension's easing side.
+- The omk scan's minimum: S₈ = 0.807; the production joint fit: **S₈ = 0.823 — at the
+ KiDS-Legacy consensus, vs ΛCDM's 0.833, at zero χ² cost** (the standing claim). Both
+ readings sit on the tension's easing side.
 - conv_g is a sampled parameter in the thaw and conv_desi chains, pre-registered at
  g ≈ 0.10 ± 0.05. Their converged posteriors are the mechanism's test; no interim value carries
  weight.
