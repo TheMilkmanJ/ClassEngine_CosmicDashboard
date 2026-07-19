@@ -309,3 +309,25 @@ the medium's reality as a named open assumption.
 Fifth consecutive file drifting the same way. Worth stating as a rule now rather than a repeated
 observation: **in this corpus, a claim's recorded grade is a lower bound on its actual grade.** Any
 audit that only checks for over-claiming will pass files that are wrong.
+
+## PRTOE_INDEX.md — deep audit 2026-07-19
+
+Thirteen checks. Three defects, all staleness in the one-line descriptions — and structurally the
+cleanest file so far, which is worth recording as a result rather than a non-event.
+
+1. **The quartet clock was advertised as an open question** with its 7.59/7.74/7.89 lineup, when the
+   file itself resolves it in §4a: the unit is the **pair**, derived — quartets need attractive
+   pair–pair coupling and the recorded real sound speed forces λ > 0, so they cannot bind; the Z4
+   term locks phases, not composites. §4b marks the lineup superseded. Retitled and restated.
+2. **The cosmological constant carried the retired "+1.5% is the τ rounding" reading.** Now the
+   kernel-sourced +0.44%, graded CANDIDATE rather than EXPLORATORY, with its lattice referee named.
+3. **The registry range read P-001 → P-2026-052.** It runs to P-2026-055.
+
+**Structurally clean:** zero dead links across every path it lists. Four live documents are not
+referenced, and all four are deliberate — `honest_status` ("PRIVATE — unlinked from the
+reader-facing shelf on purpose"), `fairbank_note_HOLD` ("Internal. Not part of the letter"), and two
+session-findings working logs.
+
+Note for the second pass: this file's defects were **all** in the description strings, none in its
+structure. An index rots at the sentence that summarises a file, not at the pointer — which is the
+same lesson as the ledgers and status boards, one level up.

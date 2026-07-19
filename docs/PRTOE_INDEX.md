@@ -21,8 +21,8 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 - [THE CMB ANOMALIES](PRTOE_cmb_anomalies.md) — one axis, one integer: the anomalies as a single object's signature
 - [THE S₈ TENSION](PRTOE_s8_tension.md) — the second fight, fought with the right sign (PRODUCTION)
 - [LASER PHYSICS](PRTOE_laser_physics.md) — the medium's grammar at 10¹⁵ Hz: threshold = condensation, the bench rehearsal of T_c
-- [THE QUARTET CLOCK](PRTOE_quartet_clock.md) — whose mass does the onset read? The 7.59/7.74/7.89 lineup vs the α_c MCMC (EXPLORATORY)
-- [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ^¼ = ½α_c²M₂ = 2.284 meV vs 2.25 — structure real, but the *1.5%* is the τ rounding, not a sourced prediction (EXPLORATORY)
+- [THE ONSET CLOCK](PRTOE_quartet_clock.md) — whose mass does the oscillating unit carry? **Resolved: the pair.** Quartets need attractive pair–pair coupling, and the recorded real sound speed forces λ > 0, so they cannot bind; the Z4 term locks phases, not composites. The registered call was PAIR and the α_c chain grades the number
+- [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ¼ = (9/2)α⁴·T_c, and with τ sourced by the Koide kernel (τ = ½ln2, T_c = 177.10 keV) that is **2.2599 meV against the observed 2.25 — +0.44%**, nothing cosmological in the chain. Referee: a lattice T_c/√σ for SU(2), N_f = 3 (CANDIDATE)
 - [THE HIERARCHY PROBLEM](PRTOE_hierarchy_problem.md) — the EW scale as a pairing gap: M_red·e^{−1/kα_c} (EXPLORATORY)
 - [THE FORCED COMBINATION](PRTOE_forced_combination.md) — the family ring's existence theorem: pure-gauge collapses, pure-medium is scale-free, only the hybrid exists (algebra EXACT; setting candidate-grade)
 - [LV PRICING](PRTOE_LV_pricing.md) — the Lorentz-violation pricing pass: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
@@ -33,7 +33,7 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 
 ## The spine and constitution
 MATH_SPINE (§0–22) · laws_and_rules/ (the constitutional tiers; Tier R = the review-process laws, adopted 2026-07-18) · INTERACTION_ATLAS · interaction_map ·
-thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-052; P-052 registered and retracted the same day, annotated; P-048 carries the two-point lattice fork)
+thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-055; P-052 registered and retracted the same day, annotated; P-048 carries the two-point lattice fork; P-055 is the LSS-parity position, placed 2026-07-11 and mirrored late with its provenance stated)
 
 ## The two dark fields (the pieces; identity files, 2026-07-15)
 - [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — s-wave-binding and baryon-free ("He-3-A missing its baryonic matter"), abundance+asymmetry carrier, light is its Goldstone; its handedness is the genesis winding's, not its pairing channel's (identity consolidation; grades inline)
