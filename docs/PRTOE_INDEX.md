@@ -5,9 +5,11 @@
 ESTIMATED (estimate grade) · SCHEDULED (referee named and funded) ·
 interpretation-grade (ontology only, zero modified numbers).*
 
-*The master map: every covered domain/subdomain → its standalone → its relation class
-([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
-PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appendices A/B).*
+*The master map: every covered domain → its standalone → how the model relates to it. Six relations,
+written out rather than lettered: **ours** (natively the model's), **ridden** (standard physics the
+model reproduces and does not claim), **screened** (a constant the model holds fixed), **content**,
+**inherited**, **parked**. The tree: PRTOE_science_subdomain_tree.md. The genealogy:
+PRTOE_the_great_chain.md (+ Appendices A/B).*
 
 **START HERE (added 2026-07-13, the external-critique pass):**
 - [THE READER'S GUIDE](PRTOE_READERS_GUIDE.md) — the model in five plain sentences; the full house-grammar glossary; the skeptic's list
@@ -39,7 +41,7 @@ thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (
 - [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — s-wave-binding and baryon-free ("He-3-A missing its baryonic matter"), abundance+asymmetry carrier, light is its Goldstone; its handedness is the genesis winding's, not its pairing channel's (identity consolidation; grades inline)
 - [THE DYAD — the gas piece](PRTOE_dyad_gas.md) — leptophilic (Majoron/L-breaking), couples the electron, varying-m_e binds hydrogen (the H₀ mechanism)
 
-## Physics domains [C]/[O]
+## Physics domains — content and natively ours
 hubble_tension · bbn_witness · deuterium_scar · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·
 fingerprint_lattice · plasma_physics · chaos_dynamics · cosmic_magnetism · igmf_helicity ·
 gravitational_waves · lss_parity · galactic_atoms · smbh_atoms · koide_relation ·
@@ -54,10 +56,10 @@ arrow_of_time · information_paradox · wormholes · white_holes · cosmological
 - [ENTROPY](PRTOE_entropy.md) — the four entropy statements on one page (the low beginning, the
   two-component split, horizon entropy, the gas floor), each graded, each pointing to its home
 
-## The quantum wing [R, §12-walled]
+## The quantum wing — ridden physics, §12-walled
 quantum_entanglement · quantum_tunneling · quantum_superposition
 
-## The sciences [S]/[I]
+## The sciences — screened and inherited
 sciences_inheritance · science_subdomain_tree · astrochemistry (+P-030) · the great chain's
 Appendix B (eleven master equations)
 
