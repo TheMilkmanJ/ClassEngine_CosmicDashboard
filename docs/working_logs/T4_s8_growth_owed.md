@@ -16,7 +16,9 @@
    **BLOCKED: the chain is dead, see the flag above — this is not a "waiting on compute" item, it is
    a "the compute never started" item.**
 2. A MATCHED LENSING-LIKELIHOOD fit (DES/KiDS proper, not the S₈ point) before any tension-easing claim banks.
-3. The conversion's perturbation-sector flag (docketed; deferred for the running chains).
+3. The conversion's perturbation-sector flag — **PAID (the Jeans-thaw closeouts: the
+   DE-clustering price, the exp-normalization O(1), and this flag were the closeout
+   trio)**; kept here as the pointer.
 4. The DESI-policed w(z) consistency (the meaning-inversion: large conv_g spends against w=−1).
 
 Coupling-geometry status: medium-sector + ONE new lever: the wall-feedback channel — the shed inherits a fork-conditional counter-lean and a downward feedback closing the lensing gap at f_th ≈ 1%.
