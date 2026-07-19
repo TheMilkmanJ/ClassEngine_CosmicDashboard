@@ -593,6 +593,12 @@ chk("bbn_witness", "Y_p window vs Aver", 1.09, (0.248995-0.2453)/0.0034, 0.01, "
 chk("bbn_witness", "Y_p window vs EMPRESS", 3.53, (0.248995-0.2370)/0.0034, 0.005, "sigma")
 chk("bbn_witness", "He-4 window opens (days)", 42, 3.67e6/86400, 0.02, "d")
 
+
+# --- entropy section 4's coherence (2026-07-19) ---
+chk("entropy 4", "ballistic share = eps m_e / 3", 2.14, 6.41/3, 0.01, "keV")
+chk("entropy 4", "pickup at ordinary infall (f = 0.023)", 50, 6.41e3/3*0.023, 0.03, "eV")
+chk("entropy 4", "pickup at merger shocks (f = 0.07)", 150, 6.41e3/3*0.07, 0.03, "eV")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
