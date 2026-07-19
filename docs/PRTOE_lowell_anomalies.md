@@ -3,7 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 5 of the atom-grammar survey. Status: STRUCTURAL (candidate) — the model gives the
+*Thread 5 of the atom-grammar survey. Status: computed and graded — the cavity computation is in,
+it relocates the test from the power spectrum to the off-diagonal covariance, and it hands the
+BipoSH referee a specific pattern. The model gives the
 large-angle anomalies a HOME and, distinctively, ONE SHARED AXIS with two registered
 predictions. The improvement: standard cosmology must call these flukes (and pays a ~0.1%-class
 look-elsewhere embarrassment); the model expects them as a family.*
@@ -92,9 +94,13 @@ predictions-in-waiting.
 
 ## 3. The honest risks
 
-- The torus size (L ≥ 27.6 Gpc) may be TOO LARGE for the mode cutoff to explain the
- low quadrupole quantitatively — the cavity computation (owed) decides; if L is comfortably
- super-horizon, thread (1) weakens to aesthetic.
+- The torus size (L ≥ 27.6 Gpc) risked being too large for the mode cutoff to explain the low
+ quadrupole quantitatively. The cavity computation settled it, and the answer is split: the
+ suppression *does* land where the anomaly is (confined to the lowest multipoles, dying by
+ ℓ ≈ 4), but at 83% quadrupole retention it is far below what cosmic variance can resolve.
+ So thread (1) does not weaken to aesthetic — it **relocates**, out of the power spectrum
+ (total S/N 0.27, unusable at any multipole) and into the off-diagonal covariance
+ (S/N 2.2, 990 pairs over ℓ = 2–6). The claim survives with its test moved, not lowered.
 - Planck's isotropy analyses constrain dipolar power modulation at large scales — the same
  BipoSH class flagged for the comb; the family must survive it jointly.
 - A measured axis-of-evil direction INCONSISTENT with a future comb/ε-dipole axis kills the
@@ -102,4 +108,6 @@ predictions-in-waiting.
 
 *Standard cosmology looks at the largest scales, sees structure, and files it under luck. This
 model looks at the same sky and sees what an atom always shows when you finally view it whole:
-lines, and an axis. The cavity computation will say whether the resemblance is arithmetic.*
+lines, and an axis. The cavity computation has now said where the resemblance can be checked —
+not in how much power each scale carries, which cosmic variance will never resolve, but in which
+scales are correlated with which, where a compact space leaves a pattern isotropy forbids.*

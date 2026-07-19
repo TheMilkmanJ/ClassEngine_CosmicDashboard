@@ -38,6 +38,7 @@ that is a bug — file it.*
 - **[HyRec2011]** Y. Ali-Haïmoud, C. M. Hirata, "HyRec: a fast and highly accurate primordial hydrogen and helium recombination code," PRD 83, 043513 (2011), arXiv:1011.3758. — Recombination micro-physics (m_e-sensitive).
 - **[PRyMordial2023]** A.-K. Burns, T. M. P. Tait, M. Valli, "PRyMordial: the first three minutes, within and beyond the Standard Model," arXiv:2307.07061. — The BBN engine behind the windowed run (tools/PRyMordial).
 - **[PRIMAT2018]** C. Pitrou, A. Coc, J.-P. Uzan, E. Vangioni, "Precision big bang nucleosynthesis with improved helium-4 predictions," Phys. Rept. 754, 1 (2018), arXiv:1801.08023. — The BBN rate compilation standard.
+- **[PArthENoPE2022]** S. Gariazzo, P. F. de Salas, O. Pisanti, R. Consiglio, "PArthENoPE Revolutions," Comput. Phys. Commun. 271, 108205 (2022), arXiv:2103.05027. — The second BBN code of the pair whose disagreement sets the deuterium theory error: PArthENoPE gives D/H = 2.51–2.54×10⁻⁵ where [PRIMAT2018] gives 2.439, a 3.5% spread that is 2.3× the quoted nuclear uncertainty and decides whether the model's BBN joint reads p = 0.02 or p = 0.21.
 - **[PyBOBYQA2019]** C. Cartis, J. Fiala, B. Marteau, L. Roberts, "Improving the flexibility and robustness of model-based derivative-free optimization solvers," ACM TOMS 45, 32 (2019), arXiv:1804.00154. — The optimizer (see the plateau law in memory).
 
 ## 3. The mechanism's literature (varying m_e and the H₀ tension)

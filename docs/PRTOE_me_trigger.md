@@ -99,10 +99,11 @@ enthusiasm.
 
 ## 5. The near-term judge already running
 
-R1 requires the amendment ≈ 1.0101 specifically. The Fairbank posterior currently reads
+R1 requires the amendment ≈ 1.0101 specifically. The standing posterior reads
 varying_me = 1.0125 ± 0.004 (unconverged) — consistent at 0.6σ. If the converged posterior
-pulls away from 1.010, R1 takes damage before #11 runs. The chain judges this within days,
-for free.
+pulls away from 1.010, R1 takes damage before #11 runs. The judge is the evidence run now
+sampling; its completion horizon is under review, so this verdict may be a while, and the
+posterior above should be read as pre-convergence until it lands.
 
 ## 6. Status
 

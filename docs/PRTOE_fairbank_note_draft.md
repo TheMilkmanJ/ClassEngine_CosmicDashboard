@@ -1,19 +1,25 @@
 # Note for Prof. W. Fairbank — What a unified dark-fluid cosmology predicts for 0νββ
 
-*(DRAFT v0.3, 2026-07-17. Plain physics throughout; self-contained.)*
+*(DRAFT v0.4, 2026-07-19. Plain physics throughout; self-contained.)*
 
-> **CIRCULATION GATE — three items, all open. This note does not go out until they close.**
-> 1. **The running zero-parameter evidence verdict** — the run is executing (sampling since
->    2026-07-18); its completion horizon is itself under review, so this gate may hold the note
->    for a long time and that is the honest expectation, not a delay.
-> 2. **Final citation check.**
-> 3. **The quoted fit record must be re-earned.** The H₀ ≈ 69.9 record was obtained with a
->    likelihood that fed CLASS a **ΛCDM helium fraction** rather than the model's own: the
->    `YHe` lambda declares the electron-mass shift and never applies it, leaving n_e ∝ (1−Y_p)
->    **0.27% off** at recombination — in precisely the place this model's H₀ mechanism operates.
->    The BBN prior is blind the same way and undercharges the model by ~1 χ². **The number in
->    this letter is not defensible to a referee until the fit is re-run with the model's own Y_p.**
->    ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md), the theory↔code gap.)
+> **CIRCULATION GATE — one item, open.** This note does not go out until it closes.
+>
+> **The zero-parameter evidence verdict.** The run has been sampling since 2026-07-18
+> (PolyChord, 400 live points, matched to a ΛCDM twin so the evidence ratio is valid). Its
+> completion horizon is itself under review, so this gate may hold the note for a long time, and
+> that is the honest expectation rather than a delay.
+>
+> **This gate also covers the fit record.** The H₀ ≈ 69.9 quoted below was measured on chains that
+> predate a likelihood correction: the helium fraction fed to the recombination code was ΛCDM's
+> rather than the model's own, leaving the free-electron fraction n_e ∝ (1−Y_p) about 0.27% off in
+> precisely the place this model's H₀ mechanism operates. **That defect is fixed** — the model's
+> measured BBN response is now wired into both the `YHe` value and the BBN prior across all
+> evidence configurations, and the running job carries the fix. What has not happened yet is the
+> re-measurement. Until the running job reports, treat H₀ ≈ 69.9 as the pre-correction number and
+> expect it to move.
+>
+> *(Citations were checked against the bibliography on 2026-07-19; the one gap — the PArthENoPE
+> reference underwriting the deuterium theory error — is closed.)*
 
 ## The result in three sentences
 
@@ -46,6 +52,33 @@ splittings and free Majorana phases, is
  before the deciding data. The registry's timestamps are the provenance; the full
  audit trail is in the repository for any reader who wants it.
 
+## The cancellation floor is real but not protected — the part we think is worth your time
+
+The three contributions to m_ββ, on the model's anchor m₁ = ρ_Λ¼ = 2.25 meV and NuFIT-class
+mixings, are
+
+| term | value |
+|---|---|
+| \|U_e1\|² m₁ | 1.52 meV |
+| \|U_e2\|² m₂ | 2.67 meV |
+| \|U_e3\|² m₃ | 1.10 meV |
+
+The middle term slightly exceeds the other two combined (2.67 against 2.62). That inequality is
+the *only* reason a floor exists: the three phasors cannot close a triangle, so complete
+cancellation is impossible and m_ββ ≥ 0.04–0.06 meV whatever the Majorana phases do.
+
+**The margin is 0.05 meV, on terms of order 2.** We would rather you hear that from us than find
+it. The floor disappears entirely — exact cancellation becomes allowed — once m₁ exceeds
+**2.324 meV**, just 3.3% above the model's anchor. The model carries three recorded values for the
+dark-energy scale depending on which closure supplies it (2.25, 2.2599, 2.284 meV); all three sit
+below the threshold, so the floor survives on every number the model actually uses — but the
+highest of them clears it by 1.7%. The floor is not structurally protected. A modest upward
+revision of the dark-energy scale erases it and makes complete cancellation allowed.
+
+The useful consequence for an experiment: in this model **m_ββ is an unusually sharp probe of the
+dark-energy scale**, because the near-cancellation amplifies small changes in m₁. That is a strange
+sentence to write, and it is the most distinctive thing this model says to your field.
+
 ## Why the cosmological squeeze relaxes (mechanism, not tuning)
 
 ΛCDM-conditional analyses increasingly squeeze Σm_ν toward and below the 59 meV
@@ -63,8 +96,10 @@ cosmologically foreclosed.
 
 - **Fit record**: matches or modestly outperforms ΛCDM on Planck 2018 + ACT DR6 +
  SPT-3G + BAO + Pantheon+SH0ES at H₀ ≈ 69.9 (sound-horizon-driven; holds with
- the SH0ES calibration included and pulling the other way). **BBN is deliberately not in
- that list — it is the model's worst column, and it is stated separately below.**
+ the SH0ES calibration included and pulling the other way). **Read this number with the
+ circulation gate above**: it predates the likelihood correction and is being re-measured now.
+ **BBN is deliberately not in that list — it is the model's worst column, and it is stated
+ separately below.**
 - **The BBN cost, stated plainly.** The electron-mass shift is on during nucleosynthesis, and
  the sector is rigid — every input derived or measured, so the model cannot coach its witness.
  It comes out **net adverse**: Y_p sits **+1.3 to +2.0σ** above Aver (**+3.8 to +4.4σ** vs
@@ -95,6 +130,46 @@ cosmologically foreclosed.
  and asks whether it reads into the remaining (Yukawa) percent at the 10⁻² level
  during one epoch.
 
+## Where the deuterium deficit actually comes from
+
+Since we are asking you to look hardest at the BBN column, here is what taking it apart shows —
+the answer was not what we expected, and it changes what kind of help is useful.
+
+The prediction is built in two steps from an in-house ΛCDM control run, same code, same data:
+
+| step | D/H ×10⁻⁵ | vs Cooke |
+|---|---|---|
+| ΛCDM control | 2.420 | −1.90σ |
+| the model's baryon density, 1.1% higher | 2.372 | −2.75σ |
+| the dyad's nucleosynthesis window, +0.645% | 2.387 | −2.49σ |
+
+**The new physics acting during nucleosynthesis helps.** The electron-mass ramp switches on at
+T_c ≈ 179 keV and raises D/H by 0.645%, worth +0.27σ toward the measurement. Grafted onto the
+ΛCDM control alone it would give −1.63σ — *better* than the control's −1.90σ.
+
+**The deficit is imported from the CMB fit.** Fitting the microwave background with a varying
+electron mass returns a baryon density 1.1% above the control, and deuterium is the most
+baryon-sensitive abundance in the network — the production run gives d ln(D/H)/d ln ω_b = −1.83 —
+so that 1.1% becomes a 2.0% deuterium loss: three times the window's help, opposite in sign.
+
+**And that baryon shift is the same one that buys the Hubble result.** The two arrive together
+along one degeneracy direction, which fixes an exchange rate: **0.50σ of deuterium per km/s/Mpc of
+H₀**. Reaching mere parity with the ΛCDM control would cost 1.17 of the 1.7 km/s/Mpc; centring
+deuterium on Cooke would cost all of it and land H₀ at 64.9.
+
+So the deuterium tension and the Hubble result are one trade, not two problems. The consequence we
+did not anticipate: **any real cure must be orthogonal to that degeneracy** — it has to raise D/H
+at fixed baryon density and fixed electron mass. That test sorts the candidates. Expansion-rate
+levers all fail it, because they move helium and deuterium the same way and the two need opposite
+moves. Two survive: a boost confined below T_c, the right shape but 8–33× too weak on the model's
+own degree-of-freedom counting; and late photodissociation of ⁴He, the cheapest cure on the books —
+breaking 1.7×10⁻⁵ of the helium supplies enough deuterium to centre the row while moving Y_p by
+0.001σ — which needs a state of mass ≳ 20 MeV, lifetime 10⁶–10⁸ s, and abundance carrying ~30 eV
+per hydrogen. The model's current field content does not contain one, for specific reasons rather
+than accidental ones.
+
+We flag this because it changes ask (b) from "help, we are weak here" into a sharper question.
+
 ## Two smaller items that may interest you
 
 1. **A scale coincidence, flagged at coincidence grade**: the model's dark-energy floor
@@ -111,14 +186,17 @@ cosmologically foreclosed.
 ## The ask
 
 (a) Your read on whether the meV-window prediction is presented in the form most useful
-to the 0νββ community — especially the two-sided kill structure; 
-(b) **a critical eye on the BBN sector, which is where we are weakest** 
-— specifically whether the PRIMAT/PArthENoPE deuterium spread should be carried as 
-a theory error (which is the difference between this model being rejected at 5% on BBN 
-and being comfortable there), and whether the dark-ages radio referee is a real path;
+to the 0νββ community — especially the two-sided kill structure, and whether the floor's
+fragility is something the field wants stated up front or regards as obvious;
+
+(b) **a critical eye on the BBN sector, which is where we are weakest.** Three questions rather
+than one: whether the PRIMAT/PArthENoPE deuterium spread should be carried as a theory error
+(the difference between this model being rejected at 5% on BBN and being comfortable there);
+whether the decomposition above is the right way to read the deficit — that is, whether a tension
+which lives in the baryon density and trades against H₀ at a fixed rate should be argued as a BBN
+problem at all, or as a statement about where on the m_e–ω_b degeneracy the data actually wants to
+sit; and whether the dark-ages radio referee is a real path;
 (c) any interest in the model-vs-ΛCDM comparison rerun with the nEXO/LEGEND/CUPID
 sensitivity bands overlaid on the m_ββ window.
 
-*(All claims traceable to documented computations: PRTOE_neutrino_sector.md for this
-sector; PRTOE_PREREGISTERED_PREDICTIONS.md for the frozen bets; BIBLIOGRAPHY.md for
-verified citations.)*
+*(All claims traceable to documented computations: PRTOE_neutrino_sector.md for this sector; PRTOE_deuterium_scar.md for the decomposition; PRTOE_PREREGISTERED_PREDICTIONS.md for the frozen bets; BIBLIOGRAPHY.md for verified citations. The closed-form numbers are recomputed on every commit by scripts/audit_math_pass.py.)*
