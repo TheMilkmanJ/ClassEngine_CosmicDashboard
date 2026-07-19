@@ -3,13 +3,21 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Recurse the sciences into subdomains and sub-subdomains until the scientific
-world is mapped. HELD UNDER THE NO-FORCING LAW: each node is tagged by its RELATION, not given a
-manufactured claim. Legend — [O]=natively ours, [R]=ridden-exact (imitate), [S]=screened-constant
-(our proof-of-constancy), [I]=plain inheritance (parent's relation, nothing added),
-[C]=carries genuine content (a prediction/derivation — enumerated), [P]=parked (a snag, in the
-register). Most leaves are [I]: that is the honest result, not a failure — a theory of the
-medium OWES most of science only constancy, and says so. Living document.*
+*Recurse the sciences into subdomains and sub-subdomains until the scientific world is mapped. HELD
+UNDER THE NO-FORCING LAW: each node is tagged by its RELATION, not given a manufactured claim.*
+
+*Legend — **[O]** natively ours · **[R]** ridden-exact (the model imitates, claims nothing) ·
+**[S]** screened-constant (our proof-of-constancy) · **[I]** plain inheritance (the parent's
+relation, nothing added) · **[C]** carries genuine content, a prediction or derivation ·
+**[P]** parked (a snag, in the register).*
+
+> **These letters mark RELATIONS, not claim grades, and they do not mean what the same letters mean
+> elsewhere.** Here [R] is *ridden physics the model does not claim*; in the dependency tree [R] is a
+> *registered bet the model is exposed on*. [C] here is *content*; there it is *candidate*. A tree of
+> ninety nodes earns compact markers, but only if a reader is told not to import the other legend.
+
+*Most leaves are [I]: that is the honest result, not a failure — a theory of the medium OWES most of
+science only constancy, and says so. Living document.*
 
 ## PHYSICS (roots — the sixteen threads; [O]/[R] at the top)
 - mechanics [R] → classical [I] · continuum/fluids [I] · chaos/dynamical-systems [O] (the
@@ -21,7 +29,7 @@ medium OWES most of science only constancy, and says so. Living document.*
 - QM [R-exact, §12 wall] → atomic [S] · molecular [S] · condensed-matter [C: the cousins —
  Josephson/Eckel/Landau are the model's own certificates] · quantum-info [R]
 - relativity [O-as-origin] → SR [O] · GR [C-conditional: the keystone] · cosmology [O: the roots]
-- particle [C/[P]]: EW [S] · QCD/θ̄ [never-touch — the scope survivor] · neutrino [C: the tenth
+- particle [C, with a parked branch]: EW [S] · QCD/θ̄ [never-touch — the scope survivor] · neutrino [C: the tenth
  channel, P-023] · flavor/generations [P: the cycles lane]
 - nuclear [I, inherited] → astro-nuclear/BBN [C: the witness] · fission-decay [S: the clocks]
 
@@ -50,8 +58,23 @@ medium OWES most of science only constancy, and says so. Living document.*
 - materials science [I→C-borderline: the cousins CITE materials; the model adds no materials physics — tag shaved] · medicine [S: the screen's gift]
 - statistics/data science [R: the method, not a physics claim]
 
-## THE COUNT (this pass): 
-[O] 7 · [R] 8 · [S] 11 · [C] 14 · [I] ~20 · [P] 3 · never-touch 1 (θ̄).
+## THE COUNT
+
+**Content nodes — the leaves where the model actually says something — enumerated rather than
+totalled**, so the number is checkable and the borderline calls are visible:
+
+plasma · radio astronomy · non-equilibrium thermo · condensed matter · GR (conditional) · particle ·
+neutrino · astro-nuclear/BBN · astrochemistry · botany (shadow) · astrobiology · astronomy ·
+astrophysics — **13 in the tree**, plus **critical phenomena** from the completeness audit below =
+**14**.
+
+*Excluded, and why:* biochemistry and materials science both carry "tag shaved" — the model cites
+them and adds nothing, so they read as inheritance. Metrology is content but was already counted
+through the Josephson/SI cousins rather than as a separate leaf.
+
+The other classes are approximate and stated as such: roughly 12 ours, 9 ridden, 14 screened,
+~23 plain inheritance, 4 parked, 1 never-touch (θ̄). *(These are tag occurrences including compound
+forms like [O-inherited] and [R-exact]; the content count above is the only one enumerated.)*
 **The honest headline: ~20 plain-inheritance leaves — the model OWES most of science nothing but
 constancy, and DELIVERS exactly that (a registered, fenced, falsifiable constancy). The 14 [C]
 nodes are where the model SAYS something; the rest is where it PROMISES something (and keeps it).**
@@ -84,9 +107,9 @@ already-ours subdomain that had never been tagged.*
 | psychology / social sciences | OUT OF SCOPE | not physical sciences; the boundary stated, no claims |
 
 ## The verdict
-The taxonomy closes: every physical-science subdomain now carries a tag. THE COUNT UPDATES:
-[C] 12 → **13** (critical phenomena claimed — it was ours all along and unlisted), kinship
-rows +2 (lasers, topological matter — the cousins' bench grows), the rest [I]/[R]/[S] as the
-law requires. NOTHING FORCED: laser physics asked for a thread and received a kinship-note and
+The taxonomy closes: every physical-science subdomain now carries a tag. **Critical phenomena joins
+the content list** — it was ours all along and unlisted — bringing the enumerated total to the 14
+counted above. Kinship rows +2 (lasers, topological matter — the cousins' bench grows), the rest
+inheritance, ridden or screened as the law requires. NOTHING FORCED: laser physics asked for a thread and received a kinship-note and
 an honest [R]; the one upgrade (critical phenomena) was not a stretch but an OVERSIGHT — the
 model literally runs on that subdomain's equations (Kibble-Zurek, T_c, the exponents).

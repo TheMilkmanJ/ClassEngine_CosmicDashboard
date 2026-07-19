@@ -605,3 +605,27 @@ strength of it.
 Twice today the right move was to look at one more source before acting — once catching an error
 (the m_ββ anchors), once catching a *false* error (here). Both times the tell was the same: a number
 that disagreed with something I had just written.
+
+## PRTOE_science_subdomain_tree.md — deep audit 2026-07-19
+
+Thirteen checks. Three defects, and one methodological note about my own probing.
+
+1. **The file states two different values for the same count.** Top: "[C] 14". Bottom: "THE COUNT
+   UPDATES: [C] 12 → **13**". Flat contradiction, independent of what the true number is.
+   Hand-counted and **enumerated instead of totalled** — the thirteen content leaves are now listed
+   by name plus critical phenomena from the audit section, giving 14, with the two "tag shaved"
+   borderlines (biochemistry, materials science) and the already-counted metrology stated as
+   exclusions. A list can be checked; a total cannot.
+2. **The legend collides with the dependency tree's** and this file could not warn about it, since
+   the collision lives between files. Here [R] is *ridden physics the model does not claim*; there
+   it is a *registered bet the model is exposed on*. [C] is content here, candidate there. A callout
+   now says so, because a ninety-node tree earns compact markers **only if** the reader is told not
+   to import the other legend. This is the one place today where the tags were kept rather than
+   written out, and the reason is that the tree structure is doing real work.
+3. **A malformed tag**, `particle [C/[P]]`, with nested brackets. Now "[C, with a parked branch]".
+
+**On my own method:** I tried three times to count the tags by regex and got three different
+answers, because the formats vary — `[C:]`, `[C-conditional:]`, `[C — ours]`, `[I→C-borderline]`,
+`[C/[P]]`. The counts I printed mid-audit were wrong and I nearly recorded one. The fix was to stop
+automating and read the thirty lines. **Where a file's own formats are irregular, a regex count is
+a guess wearing a number's clothes.**
