@@ -1,5 +1,9 @@
 # T4 S₈ growth — OWED
 
+> **SUPERSEDED 2026-07-18: the chain is running again** (relaunched, past the initialisation
+> point that killed it, burn-in in progress). The flag below is kept as the record of why item 1
+> waited four days on nothing.
+>
 > **⚠ ITEM 1'S REFEREE IS NOT RUNNING — IT DIED AT STARTUP (found 2026-07-16).** `conv_desi` is
 > **absent from the process list**; its progress file is **85 bytes / 1 line (header only), last
 > written Jul 12**; its launchlog ends at *"[mcmc] Getting initial point… (this may take a few
