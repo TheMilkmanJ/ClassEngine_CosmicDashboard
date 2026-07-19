@@ -539,3 +539,31 @@ was its claim about what was running.
 **The distinction is worth carrying:** a manifest can be right about the source and wrong about the
 process table, and only one of those is checkable by reading. Run-state claims need `ps`, not
 recollection.
+
+## PRTOE_DERIVATION_HUNT.md — deep audit 2026-07-19
+
+Thirteen checks on 586 lines. Three defects, all in §2 — the dark-energy chain, which is the file's
+most-cited section.
+
+1. **A correction jammed mid-sentence.** The chain bullet read "...not independently *(τ is now
+   sourced independently by the Koide kernel at ½ln2, giving +0.44%)* derived" — a parenthetical
+   inserted between "independently" and "derived", so the sentence contradicted itself around its own
+   repair. Rewritten to state the sourced chain plainly.
+2. **The τ bullet argued against a position the model no longer holds**, spending a paragraph on why
+   0.345 must not be quoted as derived. That warning is now moot: τ is 0.34657 from the kernel. What
+   survives, and is what the section should have led with, is *what the prediction must be
+   distinguished from* — 0.34506, the observation read backwards, sitting 0.44% below.
+   **And the point that was missing entirely: the published 0.34–0.37 band is 8.5% wide against a
+   0.44% separation, so it could not adjudicate even if it applied to SU(2).**
+3. **z_on listed as "≈3.56×10⁷, fast-profiled estimate".** It is a derived identity at 4.03×10⁷,
+   with the mass behind it confirmed three ways. The profiled value is what the evidence run is
+   frozen at, which is a fact about the run rather than about the model.
+
+**Check 13 on a file that exists to track owed items:** its list is accurate. A_s's residual is
+correctly the shot-noise count's O(1) — this file is where I sourced the correction to
+THE_AMPLITUDE's orphan. The G-value bullet correctly states the framework does not compute Newton's
+constant. η, n and λ_phys carry honest grades.
+
+**The pattern this file inverts:** it was the *source* of truth for two corrections made elsewhere
+today, and simultaneously carried three stale statements of its own. Being right about other files'
+debts is no protection against being wrong about your own.
