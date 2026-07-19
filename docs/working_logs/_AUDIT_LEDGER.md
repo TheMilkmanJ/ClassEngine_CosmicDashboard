@@ -777,3 +777,36 @@ matter beyond their lines:
 model — my own edit included. The census tally understated PREDICTS, the census omitted the
 sharpest experimental domain, and the at-a-glance table advertised a shield the body had already
 withdrawn.
+
+## PRTOE_the_great_chain.md — deep audit 2026-07-19
+
+Nineteenth file. Nine defects. T_c = 179 keV survived in GEN 2's prose while the appendix row
+below it carried the standing 177.10 — one file, both values. The rent was 1.24% twice against
+the standing 1.2543%, and appendix row 6 quoted the coded amplitude as 1.0124 against the
+pipeline's actual 1.012543; the same row claimed "fits not yet re-run" when the corrected
+zero-parameter run is executing now. Row 7 carried the Gaussian gate — **and ForJustin/09
+claimed I had already fixed this file's gate form; the claim preceded the fix by half a day.
+Recorded against me: a ForJustin note asserted work that had not been done.** Now true. Row 12's
+Meissner cap aligned to P-028's registered range; two process scars on the Oklo fence ("now
+cited", "new fence added this pass") read fluent; one piece of jargon ("the inheritance DAG")
+now plain.
+
+## PRTOE_THE_CHAIN.md — deep audit 2026-07-19
+
+Twentieth file. Six defects and one check-13 closure.
+
+Link 3 carried the retired T_c with its redshift (179 keV / 7.6×10⁸ → 177.10 / 7.5×10⁸) and a
+dangling parenthetical. Link 4's z_on moved from "the fit's ~3×10⁷" to the identity 4.03×10⁷
+(log 7.605) with the frozen profile stated beside it. Link 5's "781 cells" traced to Planck's
+A_s = 2.100×10⁻⁹ — the pipeline freezes 2.088058×10⁻⁹, which gives **782**; both counts are now
+harness-locked so the provenance is arithmetic rather than lore. Debt (i) claimed the turn as
+owed when tether 10→11 computes its expanding branch two paragraphs above — the debt now names
+only the bounce and the contracting branch, and the spine claims the computed tether.
+
+**The check-13 closure: the τ link was a named debt ("a bounded computation, never run") and it
+reduces by the file's own structure.** The clustering half is zero by construction — the linear
+sector is ΛCDM-identical and the fluid's distinctive scales are sub-parsec. The atomic half is
+gated by the edge the chain already carries: ε is OFF by z ~ 30, τ's weight lives at z ≲ 10,
+and the overlap tail is orders below Planck's ±0.007. What survives is the edge's shape — the
+same discriminator link 7 already measures in 21cm. Four named debts are now three, not by
+deciding the question but by noticing the file had already answered it in two other places.

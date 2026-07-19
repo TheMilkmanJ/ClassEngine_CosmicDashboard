@@ -19,7 +19,7 @@ crunch can never edit. *Then I turned, once, and kept the receipt.*
 
 **GEN 2 — THE MEDIUM'S PHASES.** The fluid condenses its identities: the dark matter and the
 dark energy as one substance's regimes (the founding dCDF); the dyad's order parameter waits
-for its temperature (T_c ≈ 179 keV). *Then I learned my two densities.*
+for its temperature (T_c = 177.10 keV). *Then I learned my two densities.*
 
 **GEN 3 — THE ACCOUNT OPENS.** Compactness forces the total to zero: my positive energy
 issued exactly against gravity's debt. Every future event will be a transfer between my
@@ -27,7 +27,7 @@ columns (dE = −pdV). *Then I checked the balance: zero.*
 
 **GEN 4 — MATTER JOINS.** RESOLVED (the tenancy ramp): "made of"
 is measured, not chosen — the neutrino is my full tenant (its mass is my own line), the
-charged leptons rent 1.24% of theirs from me, the baryons ride at parts-per-billion, and
+charged leptons rent 1.2543% of theirs from me, the baryons ride at parts-per-billion, and
 the photon owes me nothing by law (L1a). Tenancy spans nine orders across the particle
 table — a ramp, as everything here is. (The constituent question — whether quarks are
 BUILT from my basement — stays parked with its gates and its adverse forecast; that door
@@ -40,7 +40,7 @@ helium, a whisper of deuterium — three isotopes deposing forever about the one
 saw. *Then I was weather, and the weather left fossils.*
 
 **GEN 6 — THE ATOMS AND THE LAST LIGHT.** Recombination: electrons settle at the mass my dyad
-set (+1.24%, the H₀ story); the photons decouple and fly forever — the CMB. **Remember this
+set (+1.2543%, the H₀ story); the photons decouple and fly forever — the CMB. **Remember this
 generation: it will appear on your television.** *Then I let the light go.*
 
 **GEN 7 — THE DRAWDOWN.** Smoothness is my stored free energy (the gravitational reserve); structure is
@@ -94,7 +94,7 @@ the zero-sum, the reserve, the witness, the dyad at recombination
 (the H₀ core), the screens, the uniformity, the license (the arrow doc),
 the blindness (L1a, proven), the cousins (the volt). Where a link is hypothesis, it is tagged
 in place (GEN 4's constituent door — H-TOE's gates; the mass-sourcing fork resolved). The chain adds nothing to the standing; it is the
-inheritance DAG read aloud, once, as a life.
+inheritance tree read aloud, once, as a life.
 
 ---
 
@@ -111,13 +111,13 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 | 3 | H_total ≡ 0 (compact torus); dE = −p dV | balance: exactly zero | model derivation |
 | 4 | η via AD-direct: n_L(genome)/s × transfer — **DEBT: the frozen-era transfer fraction** | target 6.1×10⁻¹⁰; thermal route DEAD (×40–1000 under, scanned) | AD-direct |
 | 5 | ε(T) = ε(1−T/T_c); elasticities: ∂lnY_p/∂lnm_e ≈ 0 above T_c, windowed Y_p +0.85% | under the standing configuration's committed genesis window: joint p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), deuterium eased to −2.5 to −1.4σ from Cooke, helium +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ) | PRyM (BBN), ramped splice |
-| 6 | 1+z* ∝ m_e (recombination's atomic physics); the dyad: m_e(z>50) = 1.0124·m_e | H₀: 68.2 → 69.9; ΔlnZ = +2.635 (capped) **\*conditional** — the chains scoring it fed CLASS a ΛCDM helium fraction; configs fixed 2026-07-17, **fits not yet re-run** ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) | the founding fit |
-| 7 | f_gate = exp(−C²/C_ref²); r_1s ∝ 1/(m²M_halo^⅓) | solitons 10⁻³–10⁻² pc; gate zeroes today's ε | reading B; T1 |
+| 6 | 1+z* ∝ m_e (recombination's atomic physics); the dyad: m_e(z>50) = 1.012543·m_e | H₀: 68.2 → 69.9; ΔlnZ = +2.635 (capped) **\*conditional** — the chains that scored it fed CLASS a ΛCDM helium fraction; the corrected zero-parameter evidence run is executing now, and its verdict has not landed ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) | the founding fit |
+| 7 | f_gate = exp(−(C/C_ref)ⁿ), n > 2.43 — a near-step, forced by the 8.2-decade suppression riding a 1.35-decade curvature window; r_1s ∝ 1/(m²M_halo^⅓) | solitons 10⁻³–10⁻² pc; gate zeroes today's ε | reading B; T1; the trigger doc §7 |
 | 8 | E_b/(mc²) = ½α_eff²; fusion terminus: Fe-56 at BE/A = 8.790 MeV (**Ni-62 at 8.794 is the BE/A maximum**; the Fe peak is set by Si-burning photodisintegration statistics, not by the BE/A max) | nuclear rung 8.5×10⁻³ — the ladder's champion | nuclear data |
 | 9 | gravity + chemistry inheritance (no new physics; the rungs' handoff) | — | the ladder |
 | 10 | |Δμ/μ|(z≤4) < 10⁻⁶ (quasar fence); today: gate-zeroed | chemistry uniform to ppm since z=4 | quasar μ-fence |
 | 11 | life's license: ΔG from the reserve; the chain S_start=min → F_available > 0 | the biosphere = a Weyl-free-energy tap | the arrow doc, graded chain |
-| 12 | Σ_f q_dark(f)·Q_EM(f)² = 0 (the anomaly, exactly); Meissner: q < 10⁻⁴⁵-class | birefringence ≡ 0, proven; light untouchable | L1a |
+| 12 | Σ_f q_dark(f)·Q_EM(f)² = 0 (the anomaly, exactly); Meissner: q_EM < 10⁻³⁸–10⁻⁴⁷ (photon-mass limits) | birefringence ≡ 0, proven; light untouchable | L1a |
 | 13 | the volt: V = (h/2e)·f_J (Josephson — the cousin defines the unit); CMB in static: T_CMB/T_sys ~ 1% | GEN 6 in the living room | recorded receipt; standard radio |
 
 **DEBT REGISTER (the arrows still owing their full math):** GEN 4's transfer fraction (the
@@ -136,7 +136,7 @@ relationship. No equation, no row.*
 
 | science | its master equation | physics parent | the medium's relationship |
 |---|---|---|---|
-| chemistry | Ĥ = Σᵢp²ᵢ/2m_e − Σᵢ,ₐZₐe²/rᵢₐ + Σᵢ<ⱼe²/rᵢⱼ + Pauli exclusion | QM (ridden-exact) | m_e, α held constant BY THE GATE — uniformity is our prediction; the Oklo natural reactor: |Δα/α| < 10⁻⁸ over 2 Gyr — a PASSED fence (gate-consistent, now cited) |
+| chemistry | Ĥ = Σᵢp²ᵢ/2m_e − Σᵢ,ₐZₐe²/rᵢₐ + Σᵢ<ⱼe²/rᵢⱼ + Pauli exclusion | QM (ridden-exact) | m_e, α held constant BY THE GATE — uniformity is our prediction; the Oklo natural reactor: |Δα/α| < 10⁻⁸ over 2 Gyr — a passed fence, gate-consistent |
 | thermodynamics | dE = T dS − p dV; dS ≥ 0 | **natively OURS** | the free-energy budget IS the first law; the arrow IS the drawdown (graded chain) |
 | statistical mechanics | Z = Σ e^(−Eᵢ/kT); S = k ln Ω | QM + counting (ridden) | Landauer citizenship: E_erase ≥ kT ln 2 is constitution-grade (the fees) |
 | bioenergetics / botany | ΔG_ATP ≈ −30.5 kJ/mol; photosynthesis ~8–10 γ per O₂; ΔG = −RT ln K | chemistry's child | the license: F_available > 0 traces to S_start = min (the arrow doc); plants = free-energy taps |
@@ -154,5 +154,5 @@ the medium through the channels of its interaction map — imitated exactly (QM/
 natively (thermodynamics/information), or screened into constancy (the constants every clock
 and assay silently trusts). Science and physics were always the same thing; the medium's
 contribution is the PROOF OF CONSTANCY the sciences borrowed unexamined — now a registered,
-falsifiable, court-dated prediction. **New fence added this pass: Oklo (|Δα/α| < 10⁻⁸/2 Gyr) —
-passed, cited, and inherited by every radiometric date in every geology paper.**
+falsifiable, court-dated prediction. **Oklo (|Δα/α| < 10⁻⁸ over 2 Gyr) is a passed fence, and every radiometric date in every
+geology paper inherits it.**

@@ -27,7 +27,7 @@ the torus and its axis persist; entropy rides through (the Tolman carrier).
 → **Tether 0→1 [RECORDED grammar / MISSING equations]:** hands off topology (the axis),
 entropy, and the fountain fuel. The transition IS the snap. *The bounce's actual
 equations are the chain's largest missing tether — half the open questions (flatness,
-the 781, the draw epoch) funnel here.*
+the cell count, the draw epoch) funnel here.*
 
 **1. THE SNAP / THE POUR** (genesis, one instant): the counterparty-free white hole
 (PRTOE_white_holes.md); the fountain rolls up (Kelvin–Helmholtz) into the helical vortex
@@ -44,15 +44,18 @@ ordering's first half.
 → **Tether 2→3 [RECORDED, production-grade]:** the handoff observable IS the windowed BBN
 pattern — freeze-out abundances locked pre-condensation.
 
-**3. CONDENSATION, T_c ≈ 179 keV (z ≈ 7.6×10⁸):** the medium condenses mid-BBN — and the birth is a RAMP, not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field, Gi ≪ 1 certified; coded into the pipeline) — (between
-n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV); pairing forms
+**3. CONDENSATION, T_c = 177.10 keV (z ≈ 7.5×10⁸):** the medium condenses mid-BBN — between
+n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV — and the birth is a RAMP,
+not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field,
+Gi ≪ 1 certified; coded into the pipeline); pairing forms
 (doubling season); ε ramps ON; the winding current becomes physical.
 → **Tether 3→4 [RECORDED]:** hands off ε(on), the superfluid, the winding k₀ = 2πn/L, and
 the BBN pattern's second half (Y_p counter-lean +1.3 to +2.0σ owned; the D/H fork, radio-
 arbitrated). The two-clock frame governs from here (H = m misalignment; k/a = m
 dispersion; the ratio measures n).
 
-**4. THE DISPERSION CROSSOVER, z_on ~ 3×10⁷ (the fit's z_on, log 7.4–7.7):** the winding
+**4. THE DISPERSION CROSSOVER, z_on = 4.03×10⁷ (log 7.605 — the identity T_on = √(m·M_red/0.61);
+the running fit's frozen profile sits at 3.56×10⁷, log 7.55):** the winding
 mode crosses k/a = m — the dcdf's radiation-like era hands over to CDM-like; the C code
 carries this transition's exact ramp (√(1+x²)−1 — the dispersion upgrade).
 → **Tether 4→5 [CAND]:** THE TWO DRAWS — two distinct adjacent events, not one draw. The
@@ -63,7 +66,8 @@ demoted to the residual and the ± genome coin). The **census lock**: the pour's
 are separate adjacent links; nothing downstream assumes otherwise.
 
 **5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits the upstream rung's grade]:** the payroll snapshot
-— the pivot scale stands 781 cells across; A_s = 1/N frozen. The μ-era referee (entry
+— the pivot scale stands 782 cells across (A_s = 1/N at the frozen amplitude; the older 781 was
+the Planck-anchored count). The μ-era referee (entry
 46): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;
 1/m-branch whispers at μ ~ 10⁻⁹ (PRISM-class reach). *Room checked and COLD en route:
 the condensation transition's GW background misses the PTA band by ~3 orders in
@@ -80,9 +84,16 @@ to the dark ages.
 **7. THE DARK AGES, z ~ 30–150:** the 21cm era; the dyad's rest-frequency shift (+2.5%)
 with the ratio-lock (P-022/027); THE SCREENING EDGE — ε ramps OFF across z ~ 30–60; the
 edge's SHAPE discriminates the gate mechanism (thermal step vs clumping fade).
-→ **Tether 7→8 [MISSING CHECK]:** reionization inherits the post-edge universe — but
-whether dcdf clustering shifts reionization timing/τ has NEVER been computed. Named
-debt: the τ link.
+→ **Tether 7→8 [REDUCED, estimate-grade]:** reionization inherits the post-edge universe, and
+the τ question closes by the chain's own structure, in two halves. The clustering half is zero
+by construction: the fluid's linear sector is ΛCDM-identical, and its distinctive scales
+(granules, sub-parsec solitons) sit far below anything that sources reionization. The atomic
+half is gated by the edge itself: ε ramps OFF across z ~ 30–60, while τ's weight lives at
+z ≲ 10 — the coupling is closed several octaves before the ionizing era begins, and the
+neutral-era tail it does overlap carries a τ contribution orders below Planck's ±0.007 width.
+What survives of the debt is exactly the edge's SHAPE — whether its low tail leaks below
+z ≈ 10 — and that is the same discriminator link 7 already measures in 21cm. The τ link is
+not a separate computation; it is the edge shape wearing a different observable.
 
 **8. COSMIC DAWN / REIONIZATION, z ~ 6–30:** EDGES-sign fingerprint (P-043, the ×1 not
 ×2); the JWST mid-ramp cooling question (parked); τ currently ridden
@@ -114,14 +125,15 @@ next cycle's genesis reads this cycle's closing books and nothing else.
 
 ## What the chain holds, and what it owes
 
-**Solid spine:** tethers 1→2→3→4 and 6→7 and 9→10 are recorded — the mid-chain is the
-model's strength (which is why the fit works: the data lives mid-chain).
-**The four named debts (what unification still owes):** (i) the bounce equations (0→1, and
-10→11's turn — one sector, both ends of the cycle); (ii) the two-draws question (4→5 —
-the draw-epoch conflict's proposed resolution, geometric session decides); (iii) the τ
-link (7→8 — a bounded computation, never run); (iv) the cold-spot orphan — the anomaly
-family's unclaimed sibling, no chain address assigned (candidate: a link-1 vortex/void
-relic; unexplored).
+**Solid spine:** tethers 1→2→3→4, 6→7, 9→10, and 10→11's expanding branch (computed) — the
+mid-chain is the model's strength (which is why the fit works: the data lives mid-chain).
+**The three named debts (what unification still owes):** (i) the bounce equations (0→1) and
+the contracting branch (the expanding turn is computed — a ≈ 2.0–2.8, MATH_SPINE §7d; the
+bounce sector holds both ends of the cycle); (ii) the two-draws question (4→5 — the
+draw-epoch conflict's proposed resolution, geometric session decides); (iii) the cold-spot
+orphan — the anomaly family's unclaimed sibling, no chain address assigned (candidate: a
+link-1 vortex/void relic; unexplored). *(The τ link, formerly the fourth debt, reduced to
+the edge-shape discriminator link 7 already carries — tether 7→8.)*
 **Checked-and-cold rooms (filed, no claims):** the condensation GW background (misses
 PTA both ways); the 511 keV line vs leptophilia (the transfer vertex is seesaw-tiny —
 cold by the recorded number, one honest look owed someday).
