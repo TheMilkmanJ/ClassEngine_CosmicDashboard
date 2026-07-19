@@ -33,7 +33,7 @@ PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appe
 
 ## The spine and constitution
 MATH_SPINE (§0–22) · laws_and_rules/ (the constitutional tiers; Tier R = the review-process laws, adopted 2026-07-18) · INTERACTION_ATLAS · interaction_map ·
-thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-049; P-049 retracted same-day, annotated)
+thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-051; P-049 retracted same-day, annotated; P-048 carries the two-point lattice fork)
 
 ## The two dark fields (the pieces; identity files, 2026-07-15)
 - [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — s-wave-binding and baryon-free ("He-3-A missing its baryonic matter"), abundance+asymmetry carrier, light is its Goldstone; its handedness is the genesis winding's, not its pairing channel's (identity consolidation; grades inline)
