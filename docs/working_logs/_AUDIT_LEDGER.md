@@ -933,3 +933,31 @@ as assumptions with their unprovability stated. The head's live target (ξ_H = 1
 P-2026-045's conditionality) is current. **This file is the template for how a docket should be
 retired** — every defect the audit has spent the day fixing elsewhere is the absence of exactly
 this pattern.
+
+## QUEUE STATE (2026-07-19, end of the summary-shaped tier) — where each audited file's record lives
+
+The scan rule: a file is deep-audited when its whole contents passed the 13 checks, wherever the
+record sits. Files whose audits live under thematic headers rather than name-headers:
+
+- **PRTOE_interaction_map.md** — audited 2026-07-19 (the gate-form commit): the Gaussian → near-step
+  correction, the signature law rewritten to survive both gate readings, P-007 un-understated,
+  ε to 1.2543%. Record: the commit of that title plus ForJustin/09.
+- **PRTOE_cosmological_constant.md** — audited 2026-07-19 under "The M₂/E_b supersession": banner
+  rewritten to the standing grade, the door-B identity caught, all retired values purged, whole-file
+  re-read. Harnessed end to end.
+- **PRTOE_deuterium_scar.md** — created and completed 2026-07-19: §§2, 5, 5b, 6, 6b, 7 all worked,
+  the hadronic channel and PBH route added and closed, every number harnessed.
+- **PRTOE_fairbank_note_draft.md / _HOLD.md** — the priority set, audited line-by-line 2026-07-19
+  (pre-compaction record) plus today's channel-qualifier and window fixes.
+- **PRTOE_neutrino_sector.md** — §3 reworked to the standing anchors, §3b (the Majoron mode) added,
+  claim-1 floor made consistent; harnessed.
+- **PRTOE_bbn_witness.md** — partial: today's channel-qualifier and co-signature fixes only. **Still
+  owes its full pass** (queued next, highest citation of the remainder).
+- The flagship trio, entry points, registry, ledgers, calendars, atlas, tree, chains, PHYSICS_DOMAINS,
+  math_story, me_* pair, UV_completion, weakest_joints, white_holes, wormholes, subdomain_tree,
+  smbh_atoms (superradiance rewrite), CODE_MANIFEST, DERIVATION_HUNT — name-headed entries above.
+
+**The remaining tier** (domain files by citation depth, then working logs): bbn_witness (full pass),
+family_tree, fingerprint_lattice, dcdf_superfluid, dyad_gas, hubble_tension, DOMAIN_COVERAGE,
+koide_relation, MATH_SPINE-cited leaves, then the long tail of single-domain files, then
+working_logs/. Pass 2 (varied attack) follows the tail.
