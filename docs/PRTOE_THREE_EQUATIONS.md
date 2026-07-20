@@ -80,7 +80,16 @@ $$\varepsilon = c \cdot \bar{f} \cdot \alpha_c = \tfrac{9}{10} \times \tfrac{2}{
 against the sky's fitted $\sim 1.24\%$ — zero dials end to end. (Three ε values appear in
 this repo and differ deliberately: **1.232%** = the production-chain fit; **~1.24%** = the
 posterior-era rounding; **1.2543%** = the derived stack above. The gap between fit and
-derivation is ~1.8% — inside the posterior width — and the running measurements decide.)
+derivation is ~1.8% *of the value* — and the running measurements decide.)
+
+> **Which width that gap is "inside" is worth stating, because the wrong one is easy to reach for.**
+> The measurement's own width is the chain posterior, `varying_me` = 1.0126 ± 0.0041 — an ε of
+> 1.26 ± 0.41% — which puts the derived 1.2543% essentially at its centre. **It is *not* the
+> ±0.0079% attached to the concordance joint in the stack table below**: that joint combines the fit
+> *with the derived stack*, so it contains the number under test and cannot be used to test it.
+> Reading the derived value against that figure returns a spurious ≈1.8σ. Two honest caveats attach:
+> the posterior above comes from a chain at R−1 ≫ 0.05 and is **not quotable**, and the definitive
+> statement is the evidence run's, not this one's.
 
 - $c = 9/10$: a **counting fraction**. Gravity is blind (it reads size, not identity), so the
  budget splits democratically over the census of participants — the **universal charged-fermion
