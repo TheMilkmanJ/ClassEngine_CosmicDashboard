@@ -210,3 +210,23 @@ that would evolve a genesis trajectory carrying spatial structure — but #154 a
 and sign(θ̇) off one trajectory, while sign(H_kin) needs that trajectory's **three-dimensional
 flow**, which the scoping does not yet say it carries. Whether link 4 rides #154 or needs its own
 instrument is worth settling *before* #154 is built rather than after.
+
+**Settled (2026-07-20): link 4 does NOT ride #154 as scoped, and the reason is dimensional.**
+The two signs are read off objects of different dimensionality. sign(n) is a **loop** integral,
+n = ∮∇θ·dl/2π — a topological charge that needs only θ around one circuit. sign(θ̇) is a
+**zero-mode** quantity, one number per trajectory. A solver carrying winding plus time evolution
+delivers both, which is exactly #154's scope and exactly why that scope is right for link 5.
+
+sign(H_kin) is neither. For a single quantized filament H = n²κ²(Wr + Tw), and **writhe is a
+property of the centerline's embedding in three dimensions** while twist is a property of its
+internal framing — neither survives reduction to a loop integral or a zero mode. In the mutual
+term the sign is sign(n_tor·n_pol), which needs the ring's two circulations as separate
+three-dimensional objects, not one winding integer. **A 0D or 1D instrument cannot return
+sign(H_kin) at any resolution**; this is a structural limit of what those solvers represent, not
+a question of grid refinement.
+
+**So the build order is: #154 as scoped closes link 5 and leaves link 4 exactly where it is.**
+Link 4 needs a genuine three-dimensional genesis flow — the same class of object as the granule
+sim (#181), and worth checking against it for shared machinery before a third solver is written.
+Recorded here so #154 is not built expecting to discharge a debt it structurally cannot reach,
+and so the census's row is not closed on link 5's delivery alone.
