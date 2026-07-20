@@ -435,3 +435,31 @@ rather than 0.2231. The shell cutoff wanted by the exact solution therefore diff
 equipartition constant route 6 derives by exactly **ln 2** — which is not a free number in this
 corpus, since τ = ½ln2 already sits at the Koide kernel. Whether that is a coincidence or a seam is
 not decided here.
+
+
+### 6h. The residual, named exactly
+
+The double-counting worry of §6g resolves, and what is left is sharper than it was.
+
+**It is not double-counting.** Vacuum polarisation and Thomas–Fermi screening are physically
+distinct — the first is virtual pairs and exists at zero density, the second needs real carriers
+and scales as e²N₀ — and they add in the polarisation, Π = Π_vac + Π_matter. The correct
+prescription is therefore α evaluated *at the momentum scale*, with Thomas–Fermi on top of it. No
+term is counted twice. What is wrong is the scale.
+
+**Where α_c's value is actually fixed.** α_c enters ε = c·f̄·α_c = 1.2543%, the electron-mass shift
+at recombination — an atomic-scale observable — and P-2026-040's referee is a cosmological chain.
+Both are infrared. **The amplitude pins α_c in the infrared; the anchor spends it at the Planck
+floor.** One number, two regimes eighteen orders apart, with no statement connecting them.
+
+**And the Goldstone defence has a matching problem.** If light *is* the medium's massless Goldstone,
+then α *is* the electromagnetic coupling — and that coupling demonstrably runs. A medium coupling
+which is electromagnetic cannot also be scale-independent. The only escape is that α_c (the
+condensate's coupling) and α (its Goldstone's) are genuinely different objects, tied by d = 3 — but
+a relation between two couplings holds *at a scale*, and which scale is exactly what is unstated.
+
+**So the residual is one missing sentence, and it is nameable:** *at what scale does α_c = 3α hold?*
+The amplitude answers "the infrared" by construction. If that is the right answer, the anchor needs
+α_c run up to the pairing shell and lands orders higher. If instead the relation is meant at the
+basement, then the amplitude's use of it in the infrared is the loose end and ε inherits the same
+question. The corpus currently uses the infrared value in both places, which cannot be right in both.
