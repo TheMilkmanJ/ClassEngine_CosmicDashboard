@@ -750,6 +750,11 @@ _lam0 = (2*(3*ALPHA)/math.pi/2)*math.log(1 + math.pi/(2*3*ALPHA))
 chk("hierarchy 6d", "Lam_shell/M_red implied by the exponential", 0.2228,
     (4*math.pi*125.25*math.exp(1/_lam0))/2.435e18, 5e-3)
 chk("hierarchy 6d", "symmetric-shell DOS correction at E_F=M_red", 1.00072, 1.000719, 1e-4)
+# lambda is used as an intermediate above but its VALUE was never asserted — if the
+# booked 0.029874 drifted, nothing here would catch it. Two rows close that (2026-07-20):
+chk("hierarchy 6c", "lambda = k*alpha_c, the pairing coupling", 0.029874, _lam0, 1e-4)
+chk("hierarchy 6g", "exact-solution shell e^(-3/2-ln2) = Lam/M_red", 0.1116,
+    math.exp(-1.5 - math.log(2)), 1e-3)
 chk("hierarchy 6d", "exact-solution anchor 2*Lam*exp(-1/lam) (GeV)", 3152.3,
     2*2.435e18*math.exp(-1.5)*math.exp(-1/_lam0), 5e-3)
 
