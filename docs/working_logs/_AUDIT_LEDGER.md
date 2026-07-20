@@ -2323,3 +2323,30 @@ overclaimed relative to the numbers it was printing — "about a factor 2 either
 showing 18×, and "a factor ~2" against a table showing 13%. Both were caught by reading the output
 rather than the summary line. The failure is the same shape as the four O(1) errors: a summary
 written from expectation rather than from the result sitting next to it.
+
+### 2026-07-19 — #141 turned up something bigger: the coupling's renormalisation scale
+
+Sizing the vertex correction surfaced a question the chain has never asked. §6c derives k from an
+*electromagnetic* kernel — Coulomb exchange, Thomas–Fermi screening, e² = 4πα_c — with the pairing
+at a Fermi surface near M_red. An electromagnetic coupling runs; the corpus evaluates it at zero
+momentum. With ∂lnM/∂lnα_c = 25.8: α(M_Z) instead of α(0) is a **factor 5.6** on the anchor
+(3152 → 1.76×10⁴ GeV), and a naive extrapolation toward 10¹⁸ GeV is a **factor ~390**
+(→ 1.22×10⁶ GeV). The anchor's landing requires α(0) specifically, at a process eighteen orders
+above the scale that defines it.
+
+**The tension, stated so it cannot be split.** If α_c is electromagnetic — which is what the kernel
+and the screening constant assume, both imported from electromagnetism — it must run to the pairing
+scale, and the anchor moves by orders. If α_c is instead a medium constant that numerically equals
+3α(0), which is how P-2026-040 registers it (a value bet, not an identification with running QED),
+then it need not run, but §6c's Coulomb form and its 2α_c/π both lose their derivation and need
+re-sourcing from the medium. **The chain currently holds both readings at once:** an
+electromagnetic kernel with a non-running coupling.
+
+This is now the largest single exposure in the hierarchy chain — larger than the vertex correction
+(factor ≈ 2.7) it was found while sizing, and larger than every O(1) in §6e. Docketed as #142. It
+also touches P-2026-040 directly: the running α_c MCMC measures a value, and which scale that value
+belongs to is exactly the question above.
+
+For the record, the vertex correction itself was sized as intended: relative order λ = 3.0%, a
+factor ≈ 2.7 either way (1124 to 8324 GeV). It remains real and remains #141's object; it is simply
+no longer the dominant term.
