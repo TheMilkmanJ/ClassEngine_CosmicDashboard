@@ -55,15 +55,27 @@ doughnut — and half its certificates already hang in metrology labs.*
 Three ring-condensate measurements, with what each does and does not test. A standard ring
 (20 μm radius, 126 μm circumference, half-micron healing length) is the reference geometry.
 
-**(a) The winding average — the one that is genuinely new.** The model's amplitude carries
-f̄ = 2/π as the time-average of the winding's projection. On a ring the same average is
-directly measurable: prepare a known winding, then read any observable linear in the local
-phase projection around the loop. The prediction is **⟨|cos|⟩ = 2/π = 0.6366**, against the
-rival averages the corpus already rejected on cosmological data — the root-mean-square
-(0.7071) and the variance (0.5). A per-cent measurement separates them cleanly, and the
-corpus's own two determinations sit at 0.625 and 0.635. *What it does not test:* whether the
-cosmological coupling is linear in that projection. It tests the average — which is exactly
-the piece the corpus grades as granted rather than derived.
+**(a) The winding average — and the version of it that is actually an experiment.** The model's
+amplitude carries f̄ = 2/π as the time-average of the winding's projection. The prediction is
+**⟨|cos|⟩ = 2/π = 0.6366**, against the rival averages the corpus already rejected on
+cosmological data — the root-mean-square (0.7071) and the variance (0.5) — and the corpus's own
+two determinations sit at 0.625 and 0.635.
+
+*The reading that does not work.* Preparing a known winding and averaging an observable linear in
+the local phase around the loop returns 2/π **by identity**: on a single ring the azimuthal phase
+gradient is uniform, so the rectified average of its projection is the textbook form factor of a
+sinusoid. Existing ring interferometry has confirmed exactly that uniformity — the winding reads
+off the spiral fringe count when the ring is interfered with a concentric reference condensate
+[arXiv:1406.1095], with local phase resolved around the loop [arXiv:2204.06542] — and it is the
+premise the corpus already grants, not the claim it owes.
+
+*The reading that does.* The corpus's f̄ is the release-averaged **energy partition of a tilted
+roll**, a dynamical quantity whose single draws scatter across [0.034, 0.964]. Measuring it needs a
+four-fold azimuthal modulation on the ring potential, release at rest from a controlled azimuthal
+phase, a scan over that phase, and a read of the radial/angular partition and its time-drift. No
+such dataset exists; every apparatus class it needs does. *What even that does not test:* whether
+the cosmological coupling is linear in the projection — the coupling form has no bench analogue,
+for the reason the mapping table's second "no" gives below.
 
 **(b) The quench-winding statistics — already run, and the answer is in.** Kibble–Zurek
 predicts the winding's spread from the ratio of the ring to the coherence length frozen in at

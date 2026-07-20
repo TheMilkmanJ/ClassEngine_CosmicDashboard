@@ -612,9 +612,13 @@ cannot reproduce it), and (b) validated against data NOT used in the cosmology
 fit. Four were staged behind three gates — the two m_e gates closed, the amplitude
 derived, the two-fluid sims run.*
 
-**Where those gates now stand.** The **amplitude gate is closed**: ε = c·f̄·α_c with both
-factors derived — c = 9/10 from the census count (N−1)/N, f̄ = 2/π as the winding
-time-average. The **m_e gates are not**: which rung the condensation picks is open (docket
+**Where those gates now stand.** The **amplitude gate is half closed**, and the half that is open
+is the one that matters here. ε = c·f̄·α_c: **f̄ = 2/π is derived** as the winding time-average, but
+**c = 9/10 is data-selected rather than framework-forced** — the counting argument's gravity-routing
+step does not close on either branch (routed through gravity the roster is every field in the
+vacuum, not the charged nine; not routed through it, a gauge-singlet scalar's independent
+per-operator coefficients leave no democratic warrant), so the value stands on an ε-blind ensemble
+at −0.08σ rather than on a forced count. The **m_e gates are not**: which rung the condensation picks is open (docket
 #133). The **two-fluid sims are not run** — the granule meter's statistical core is finished
 (S = (1+f_rot²)/2 confirmed) but its dynamical half is unbuilt (docket #160), and the genesis
 solver is docket #150.

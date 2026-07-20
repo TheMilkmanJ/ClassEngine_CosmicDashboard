@@ -3576,3 +3576,52 @@ Also re-placed **P-2026-042's amendment 2**, whose composite-Higgs reading runs 
 before amendment 3 withdraws it. The text stays unedited — a pre-registration file's value is that
 its history is auditable, and amendment 3 says so explicitly — but the withdrawal now travels with
 the claim instead of after it.
+
+### 2026-07-20 — #179 closes: the deletion inventoried, and "every live finding preserved" replaced by a count
+
+The #171 pass established that `0315894d`'s message — *"Every live finding preserved"* — is false.
+This pass establishes **by how much**, because "false" and "how false" are different facts, and only
+the second one says whether the rewrite was sound.
+
+**Method.** Every three-significant-digit numeral, every registered P-number, and every named
+mechanism in the 8 635 deleted lines was checked for survival anywhere in `docs/` or `scripts/` at
+HEAD: 649 distinct numerals and 33 P-numbers.
+
+**The count. 32 of 33 P-numbers survive** (P-016 is the exception, and its deleted context was a
+pointer in a lab-bench aside, not a claim). **525 of 649 numerals survive.** Of the 124 that do not,
+the great majority are scan intermediates and retired candidates whose *conclusions* did land in
+topic documents — the k_target band (1.218 / 1.280 / 1.306 / 1.332) that resolved to the recorded k;
+the f̄ trial values (0.6097, 0.6190, 0.7504) that the ramped band replaced; the dressing-factor
+candidates (0.8409 dof-halving, 0.8333 census-5/6) the audit retired in favour of the occupancy
+reading; and the ξ_amp doors (−4.450 / +8.117) that process error 21's convention check superseded
+when ξ relocated to −3/2. **That material is genuinely superseded, and cutting it was right.** The
+rewrite's defect was not that it cut too much. It is that it cut *without checking*, and a small
+number of live objects went out with the chaff.
+
+**The live remainder, rehomed this pass.** Five objects, none of which existed anywhere at HEAD:
+
+| what was live and deleted | its docket | rehomed to |
+|---|---|---|
+| nuclear pairing as a lab cousin (odd-even mass staggering as a measured gap-equation bench) | #24 | `PRTOE_laboratory_cousins.md` §"The three rows added 2026-07-20" |
+| muonium / positronium as the purely leptonic kinship row | #24 | same |
+| superconductivity's reversed direction (the model predicts a superconductor-class vacuum, so the SC toolbox constrains the basement rather than certifying it) | #24 | same |
+| the ε-gradient lepton channel — the model's second route to a galaxy-scale anomalous acceleration | #33 route A | `PRTOE_galactic_atoms.md` §4, with the galaxy-scale kill's autopsy in `FAILURES_LEDGER` §"Galactic dynamics" |
+| the ARCADE-2 classification check (a standing, unpaid debt — a band-locked radio lattice never confronted with an unexplained radio background) | #33-era radio pass | `T12_radio_lattice_owed.md` item 6 |
+
+**And the recovery caught a label error the deletion had frozen in place.** #33 route A's headline
+numbers — "a₀ reached at L = 83 kpc (stellar composition)" and a "×1.98 gas-vs-stars composition
+split" — both used Y_e = ½. That is the *helium-and-heavier floor*, not stars. Entry 145b of the
+same deleted file had already caught the identical mislabel in the 553 km/s fence and corrected it
+("real stars sit at Y_e ≈ 0.85"), but the correction never reached the 83 kpc and ×1.98 numbers,
+because the whole file was deleted before it could propagate. Recomputed at real stellar
+composition: **a₀ is reached at 140 kpc, not 83**, and the honest gas-vs-stars split is **≈ 3%, not
+a factor of two** (Y_e ≈ 0.85 for stars against ≈ 0.88 for neutral gas). Neither correction changes
+route A's verdict — the composition-cliff invariant kills the galaxy-scale lead on an integral, not
+on these two numbers — but both were about to be rehomed at face value, and were not.
+
+**The transferable lesson is narrower than "don't delete".** A rewrite that cuts 8 635 lines of
+genuine process scaffolding is the right call, and the count above says the corpus survived it at
+better than 97% on numerals and 32 of 33 on registered predictions. What was missing was a
+*survival check on the way out*: the sweep run here is mechanical, takes minutes, and would have
+caught all five objects at the time. **Cutting is cheap to do and cheap to verify; the rewrite paid
+for the first and skipped the second.**

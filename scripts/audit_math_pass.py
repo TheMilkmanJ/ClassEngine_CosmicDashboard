@@ -105,6 +105,14 @@ mp_g, c_cgs, e_esu = 1.67262e-24, 2.99792458e10, 4.80320e-10
 H_rec = 70*math.sqrt(0.3*1101**3)*3.2408e-20
 chk("cosmic_magnetism", "B = 2(m_p c/e) * 0.5 H_rec", 5e-18,
     2*(mp_g*c_cgs/e_esu)*0.5*H_rec, 0.15, "G")
+# T14 link 4 (#158): Harrison is B = k*omega with k constant, so A = k*u + grad(phi)
+# and H_B = k^2 * H_kin on the closed 3-torus. The coefficient enters SQUARED — which is
+# why the battery's own sign convention cancels out of sign(helicity_B) entirely.
+_k_harrison = 2*(mp_g*c_cgs/e_esu)
+chk("cosmic_magnetism", "helicity conversion k^2 = (2 m_p c/e)^2", 4.3595e-8,
+    _k_harrison**2, 1e-4, "G^2 s^2")
+chk("cosmic_magnetism", "k^2 > 0 (sign convention cancels)", 1.0,
+    1.0 if _k_harrison**2 > 0 else 0.0, 1e-9)
 
 # ---- indirect detection ----------------------------------------------------
 chk("indirect_detection", "orders below thermal relic", 128, math.log10(3e-26/1e-154), 0.02)
@@ -1007,6 +1015,89 @@ chk("cmb_anomalies", "texture dT/T at the model's top scale f = 500 TeV", 4.2e-2
     _tex(5e14), 1e-2)
 chk("cmb_anomalies", "texture scale a cold-spot-class 1e-5 would need", 8.0e15,
     MPL*math.sqrt(1e-5/(8*math.pi))/1e9, 5e-2, "GeV")
+
+# --- the gate exponent: the C^2-to-threshold map, 2026-07-20 (docket #127) ---
+# Seeds are threshold crossings of a Gaussian medium; the amplitude-linear map is
+# sigma ~ C, so nu ~ 1/C and dln(nu)/dln(C^2) = -1/2. With Q the upper tail and phi
+# the density, the local log-slope of Nbar = N_cell*Q(nu) is n_eff = (nu/2)*phi/Q.
+def _gphi(v): return math.exp(-v*v/2)/math.sqrt(2*math.pi)
+def _gQ(v):   return 0.5*math.erfc(v/math.sqrt(2))
+def _gneff(v):return 0.5*v*_gphi(v)/_gQ(v)
+def _gbis(f, a, b, n=300):
+    fa = f(a)
+    for _ in range(n):
+        m = (a+b)/2
+        if fa*f(m) <= 0: b = m
+        else: a, fa = m, f(m)
+    return (a+b)/2
+chk("me_mechanism GATE", "exact slope at nu = 2.2 (booked 2.81)", 2.81, _gneff(2.2), 5e-3)
+chk("me_mechanism GATE", "exact slope at nu = 3.0 (booked 4.92)", 4.92, _gneff(3.0), 5e-3)
+_gnu = _gbis(lambda v: _gneff(v)-2.43, 1.0, 5.0)         # forced n > 2.43 <=> nu > this
+chk("me_mechanism GATE", "nu at which n_eff = 2.43", 2.027, _gnu, 1e-3)
+chk("me_mechanism GATE", "hard-step edge sigma < 0.493*delta_c", 0.493, 1/_gnu, 1e-3)
+chk("me_mechanism GATE", "the corrected sigma = 0.12 slope (was booked 50)", 35.2,
+    _gneff(1/0.12), 5e-3)
+# The recorded hazard normalizes Nbar(C_ref) = 1, so Q(nu_ref) = 1/N_cell closes nu
+# against the cell count alone: n = (nu/2)*phi(nu)*N_cell, i.e. n ~ ln N_cell.
+def _gnu_of_N(N): return _gbis(lambda v: _gQ(v)-1.0/N, 1e-6, 30.0)
+_gN = _gbis(lambda N: _gneff(_gnu_of_N(N))-2.43, 10.0, 1000.0)
+chk("me_mechanism GATE", "n > 2.43 <=> N_cell > 46.9", 46.9, _gN, 5e-3)
+chk("me_mechanism GATE", "as a length ratio: xi/l_seed > 3.61", 3.61, _gN**(1/3), 5e-3)
+chk("me_mechanism GATE", "n is log in the cell count: ln N* - n(N*)", 1.418,
+    math.log(_gN)-2.43, 5e-3)
+# Why (sigma, delta_c) cannot double as a valuation: log10 of the tail via Mills,
+# since erfc underflows past nu ~ 38.
+def _glog10Q(v):
+    return (-v*v/2)/math.log(10) - math.log10(math.sqrt(2*math.pi)) \
+           - math.log10(v) + math.log10(1-1/v**2+3/v**4)
+chk("me_mechanism GATE", "sigma = 0.012 would demand log10 N_cell =", 1510,
+    -_glog10Q(1/0.012), 1e-3)
+_gxi, _glp = 398*1.495978707e11, 1.616255e-35             # xi = 398 AU, Planck length, m
+chk("me_mechanism GATE", "Planck-seeded ceiling log10 (xi/l_Pl)^3", 146,
+    3*math.log10(_gxi/_glp), 0.01)
+chk("me_mechanism GATE", "the shortfall, in orders of magnitude", 1360,
+    -_glog10Q(1/0.012) - 3*math.log10(_gxi/_glp), 0.01)
+
+# --- the velocity ladder's matched junction, 2026-07-20 (docket #129) ---
+# Z = rho*v, so Z_m = sqrt(Z1*Z2) gives v_m = sqrt(v1*v2) exactly when rho_m =
+# sqrt(rho1*rho2) — identical for three channels of ONE medium. The middle rung is
+# then alpha_c = d*alpha read forwards, so deriving it backwards derives the bet.
+chk("DERIVATION_HUNT", "matched middle rung sqrt(c * alpha c) = sqrt(alpha) c",
+    math.sqrt(ALPHA), math.sqrt(1.0*ALPHA), 1e-12, "c")
+chk("DERIVATION_HUNT", "the junction run backwards: alpha_c = d*(sqrt(alpha))^2", ac,
+    3*math.sqrt(ALPHA)**2, 1e-12)
+
+# ---- #179 recoveries from 0315894d -----------------------------------------
+# The epsilon-gradient lepton channel (#33 route A). The channel rides matter's
+# leptonic mass fraction f_lep = Y_e * m_e/m_u, with Y_e the electron fraction
+# (electrons per nucleon): 1 for pure hydrogen, 0.875 for Y_p = 0.25 primordial
+# gas, ~0.85 for stellar material, 0.5 for the helium-and-heavier floor.
+_MU   = 931.49410242e6            # eV, the atomic mass unit
+_CSI  = 2.99792458e8              # m/s
+_KPC  = 3.0856775814913673e19     # m
+_EPS0 = 0.0124                    # the amplitude
+_A0   = 1.2e-10                   # m/s^2, the RAR acceleration scale
+_flep = lambda Ye: Ye*ME/_MU
+_dphi = lambda Ye: math.sqrt(_CSI**2*_flep(Ye)*_EPS0)/1e3          # km/s
+_Lgate= lambda Ye: _CSI**2*_flep(Ye)*_EPS0/_A0/_KPC                # kpc
+chk("galactic_atoms",  "f_lep at the Y_e = 1/2 floor", 2.743e-4, _flep(0.5), 1e-3)
+chk("FAILURES_LEDGER", "dPhi^(1/2) at the Y_e = 1/2 floor (the fence's conservative minimum)",
+    553.0, _dphi(0.5), 2e-3, "km/s")
+chk("galactic_atoms",  "dPhi^(1/2) at stellar Y_e = 0.85", 721.0, _dphi(0.85), 2e-3, "km/s")
+chk("galactic_atoms",  "L where a = a0, stellar Y_e = 0.85", 140.0, _Lgate(0.85), 5e-3, "kpc")
+# 83 is the deleted document's own two-significant-figure quote; the value is 82.55,
+# so this check carries the tolerance that quote implies, not a tighter one.
+chk("FAILURES_LEDGER", "L where a = a0 at the Y_e = 1/2 floor (the mislabelled '83 kpc, stellar')",
+    83.0, _Lgate(0.5), 1e-2, "kpc")
+chk("galactic_atoms",  "honest gas-vs-stars split: Y_e 0.875 over 0.85", 1.029, 0.875/0.85, 1e-3)
+chk("FAILURES_LEDGER", "the retired 'x1.98': pure H over the Y_e = 1/2 floor, not over stars",
+    2.0, 1.0/0.5, 1e-9)
+
+# The nuclear-pairing bench (#24): the empirical odd-even mass staggering,
+# Delta ~ 12 * A^(-1/2) MeV -- of order an MeV across the chart of nuclides.
+chk("laboratory_cousins", "nuclear pairing gap at A = 60",  1.55, 12/math.sqrt(60),  5e-3, "MeV")
+chk("laboratory_cousins", "nuclear pairing gap at A = 120", 1.10, 12/math.sqrt(120), 5e-3, "MeV")
+chk("laboratory_cousins", "nuclear pairing gap at A = 208", 0.83, 12/math.sqrt(208), 5e-3, "MeV")
 
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]

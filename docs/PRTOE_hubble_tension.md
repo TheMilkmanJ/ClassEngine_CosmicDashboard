@@ -51,9 +51,20 @@ first registered prediction called H₀ ∈ [69, 71] for the tip-of-the-red-gian
 (TRGB) ladder, and the TRGB program indeed reads **69.8–70.4** [Freedman 2021]. The
 structural asymmetry between the two ladders is the known crowding question: Cepheids
 are photometered in crowded, dusty galactic disks (neighboring starlight contaminates
-the measurement); TRGB uses sparse, clean halo fields. The cleanest rung agrees with
-the model's band; the contamination-prone rung reads high; JWST's crowding
-re-measurements are the community's own referee on exactly this point.
+the measurement); TRGB uses sparse, clean halo fields.
+
+**That referee has reported, and it went against the crowding reading — recorded here because
+the model named it in advance.** JWST re-observed >1000 Cepheids across NGC 4258 and five SN Ia
+hosts and found the HST–JWST mean distance difference to be **−0.01 ± 0.03 mag**, rejecting
+unrecognised distance-dependent crowding as the cause of the tension at **8.2σ**
+[Riess et al. 2024, arXiv:2401.04773]. Cepheid photometry is not where the 73 comes from.
+What survives is narrower and still live: the *ladders themselves* disagree. CCHP's JWST-only
+rungs read **TRGB 68.81 ± 1.79 (stat) ± 1.32 (sys)** and **JAGB 67.80 ± 2.17 ± 1.64**, with the
+combined HST+JWST TRGB at **70.39 ± 1.22 ± 1.33 ± 0.70**, and those authors read their result as
+*"consistent with the current standard ΛCDM model, without the need for the inclusion of
+additional new physics"* [Freedman et al. 2025, arXiv:2408.06153] — while SH0ES reads
+**73.04 ± 1.04** [Riess 2022]. The model's registered band sits on the TRGB side of a
+disagreement whose *mechanism* is now unexplained rather than identified.
 
 The model additionally *contributes* a candidate systematic from its own physics: under
 its environmental screening reading, supernovae in dense versus sparse hosts carry a
@@ -72,32 +83,65 @@ timestamped *before* any evidence value existed.
 
 ## 5. Against the field's alternatives
 
-**Against the nearest competitor — the varying-m_e literature — the difference is parameter cost,
-not direction.** Hart–Chluba (2018, 2020) and Sekiguchi–Takahashi (2021) established the mechanism,
-and the recent ACT DR6 + DESI DR2 analyses (arXiv:2508.09025, arXiv:2606.06495) find varying m_e
-preferred at **2–3.6σ**. That is independent support for the direction this model takes, and it
-should be read as such rather than as competition. **The difference is that there m_e is a free
-phenomenological parameter and here it is not.** The amplitude is derived — ε = c·f̄·α_c = 27α/5π =
-1.2543% — and the live evidence run **pins** it at that value (`varying_me = 1.012543`, fixed;
-[PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)), so the comparison against ΛCDM costs **zero extra
-parameters, not +1**.
+**The field's own scoreboard first, because it is not flattering.** The most recent
+common-framework comparison — fourteen models, one pipeline, current CMB + BAO + supernovae —
+reports the tension at *"a nominal significance above 7σ"* and finds that *"early dark energy and
+early modified gravity models perform best, shifting the H₀ inference without local measurement
+priors toward 70 km s⁻¹ Mpc⁻¹ and reducing the residual discrepancy with SH0ES to approximately
+2.5–3.6σ"* [Schöneberg et al. 2026, arXiv:2607.13282]. Against a ΛCDM baseline of Δ_DMAP = 5.4σ,
+its Table 1 scores:
 
-**And the honest half of that comparison: this buys no more H₀ relief than the fits do.** The same
-partial-relief ceiling the literature runs into is the one this model finds. What changes is the risk
-profile — a phenomenological fit that lands off 1.2543% simply reports a different best-fit value,
-while this model has nowhere to go, because the amplitude is fixed by α and the census before any
-data is seen. **Cheaper and more falsifiable, not better-fitting**, and it is worth being explicit
-that those are different virtues.
+| model | −ΔAIC | ln BF | residual Δ_DMAP | verdict |
+|---|---|---|---|---|
+| early dark energy | 23.40 | 10.51 | **2.51σ** | qualified |
+| **varying m_e** | 12.58 | 3.53 | **4.25σ** | qualified |
+| ΔN_eff | 3.18 | −0.09 | 5.09σ | eliminated |
 
-Early-dark-energy-class solutions buy H₀ with new components tuned for the job and
-generically worsen the S₈ clustering tension. This model's mechanism: (i) one parameter
-with independent duties across BBN, the CMB, 21-cm physics, and neutrino cosmology —
-the same 1.2543% must work everywhere or the model fails; (ii) an S₈ story that moves in
-the observed direction; (iii) a nucleosynthesis sector re-posed honestly (the helium
-abundance currently stands as a +1.3 to +2.0σ *counter*-lean against Aver, kept on record); (iv) named,
-scheduled falsifiers it cannot dodge (DESI's w = −1 test; exact atomic-ratio locks in
-future radio observations). No competitor on the H₀ market carries a comparable
-kill-list — which is affordable only because the mechanism is one number, not a sector.
+**This model's mechanism sits in the varying-m_e row, and that row is beaten by EDE on every
+column.** Nothing in the derivation changes that: a derived amplitude buys parameter economy, not
+extra H₀ reach. Stated plainly — **on residual tension, the leading competitor is currently ahead.**
+
+**The side-by-side, with each column's strongest card face-up:**
+
+| | what it is | where it lands | cost | **where it beats this model** |
+|---|---|---|---|---|
+| **Early dark energy** | a scalar that *"behaves like a cosmological constant at early times (redshifts z ≳ 3000) and then dilutes away like radiation or faster"*, shrinking the sound horizon [Poulin et al. 2019, arXiv:1811.04083] | best-in-class on residual tension (2.51σ); H₀ toward 70 without local priors | ΛCDM **+3** sampled parameters, with the potential's exponent *n* fixed by hand rather than sampled | **it relieves more of the tension than this model can.** Its ceiling is genuinely higher |
+| **Varying m_e (as others run it)** | m_e free at recombination | H₀ = 69.1 ± 1.2 (CMB+BAO), 71.24 ± 0.96 (+SNe) [Hart–Chluba 2020, arXiv:1912.03986]; 72.3 ⁺²·⁷₋₂.₈ but **only in Ω_kΛCDM** [Sekiguchi–Takahashi 2021, arXiv:2007.03381] | **+1** (or **+2** with the curvature the higher number needs) | **it can chase the data.** Where this model is pinned at 1.2543%, a free m_e re-fits — and reached 71.24 by doing so |
+| **Local systematics / the ladder** | the 73 is mis-calibrated | CCHP JWST-only TRGB 68.81 ± 1.79 ± 1.32, JAGB 67.80 ± 2.17 ± 1.64, read by its authors as needing **no new physics** [Freedman et al. 2025] | **zero** new physics | **it is the cheapest explanation on the board**, and it has not been excluded |
+| **this model** | the same m_e shift, amplitude fixed before the fit at ε = 27α/5π = 1.2543% | H₀ = 69.9; reach audited to ~70.9–71.3 and **cannot reach 73** | **zero** extra parameters vs ΛCDM (`varying_me = 1.012543`, fixed) | — |
+
+**Where this model is genuinely stronger, stated narrowly:** parameter cost (zero against EDE's
+three and the literature's one-to-two), and falsifiability — the amplitude cannot be re-fitted, and
+the same 1.2543% is simultaneously on the hook across BBN, the CMB, 21-cm physics and neutrino
+cosmology. **Cheaper and more falsifiable, not better-fitting**, and those are different virtues.
+
+**Where the S₈ argument stands, corrected.** The standard charge against EDE is real and
+quantified: σ₈ rises, giving *"10% more power at k = 1 h/Mpc"*, and the EDE detection *"drops below
+2σ"* once large-scale-structure data are added [Hill et al. 2020, arXiv:2003.07355]. But the mirror
+claim — that varying-m_e is clean here — is not this model's to bank either: the most recent
+recombination-modification study finds a solution that *"also eases the S₈ tension"* yet concludes
+that *"once DESI DR2 BAO data are added… perturbative modifications to m_e(z) cannot fully resolve
+the Hubble tension"*, because *"raising H₀ by modifying recombination generically lowers Ω_m, being
+inconsistent with late-time cosmological observations"* [Lee–Zhou 2026, arXiv:2606.06495]. **That is
+a named structural obstruction pointing at this model's own mechanism class, and DESI is the
+instrument holding it.**
+
+**On the direction's independent support, sized honestly.** The data do lean the model's way, but by
+less than this file previously claimed. Hart–Chluba's SNe-included fit gives m_e = 1.0190 ± 0.0055,
+a 3.5σ preference over unity; the newer ACT DR6 + DESI DR2 analysis gives **m_e/m_e₀ = 1.0081 ±
+0.0046 — a 1.8σ preference** [Toda–Seto, arXiv:2508.09025]. The preference has shrunk as the data
+improved. What has *not* shrunk is the model's own standing against those fits: 1.012543 sits
++0.7σ, −1.2σ and +1.0σ from the three respectively — consistent with every one of them, having been
+fixed before any of them were run.
+
+Finally, the kill-list: (i) one number with independent duties across BBN, the CMB, 21-cm physics
+and neutrino cosmology — the same 1.2543% must work everywhere or the model fails; (ii) an S₈ story
+that moves in the observed direction; (iii) a nucleosynthesis sector re-posed honestly (the helium
+abundance currently stands as a +1.3 to +2.0σ *counter*-lean against Aver, kept on record); (iv)
+named, scheduled falsifiers it cannot dodge (DESI's w = −1 test; exact atomic-ratio locks in future
+radio observations). No competitor on the H₀ market carries a comparable kill-list — which is
+affordable only because the mechanism is one number, not a sector, and which is a claim about
+exposure, not about fit quality.
 
 *The tension asked: which measurement is lying? The model answers: neither instrument —
 the early universe was being read with the wrong electron mass, and the late-time
@@ -107,9 +151,15 @@ assigned to named referees.*
 
 ## References
 
-[Riess 2022] (SH0ES); [Freedman 2021] (TRGB/CCHP); [Planck 2018];
-[Hart–Chluba 2020], [Sekiguchi–Takahashi 2021] (the varying-m_e degeneracy);
-[Di Valentino 2021] (the competitor landscape); [DESI 2024] (the named falsifier).
+[Riess 2022] (SH0ES, arXiv:2112.04510); [Freedman 2021] (TRGB/CCHP); [Planck 2018];
+[Hart–Chluba 2020] (arXiv:1912.03986), [Sekiguchi–Takahashi 2021] (arXiv:2007.03381) — the
+varying-m_e degeneracy; [Di Valentino 2021] (the competitor landscape); [DESI 2024] (the named
+falsifier). The steelman pass adds: [Schöneberg et al. 2026] (arXiv:2607.13282, the
+fourteen-model common-framework comparison — the scoreboard §5 is graded against);
+[Poulin et al. 2019] (arXiv:1811.04083, EDE); [Hill et al. 2020] (arXiv:2003.07355, EDE's S₈
+cost); [Toda–Seto 2026] (arXiv:2508.09025) and [Lee–Zhou 2026] (arXiv:2606.06495) — varying-m_e
+under ACT DR6 + DESI DR2; [Riess et al. 2024] (arXiv:2401.04773, the crowding referee);
+[Freedman et al. 2025] (arXiv:2408.06153, CCHP JWST).
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## Where the dead ends live

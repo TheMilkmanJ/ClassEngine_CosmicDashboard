@@ -123,9 +123,12 @@ the entire band. The coincidence explains itself — and the same invariant then
 integral: ΔΦ = c²·f_lep·ε₀ ≈ (721 km/s)² at stellar composition. Real halo potentials are
 ~(200 km/s)². A gate swinging anywhere inside bound-orbit scales would roughly double escape
 velocities and distort satellite and Local-Group kinematics that are measured normal. So the
-gate's swing must park beyond bound-orbit scales, which is exactly where this document's other
-three fences already put it, and **galaxy dynamics is left to the halo of §1–2 alone** — which
-is what §1 already computes, with no second channel needed or permitted.
+gate's swing must park beyond bound-orbit scales — which is where the gate's other three fences
+independently put it (the forest's observed flatness, the supernova host-density range, and
+P-2026-022's fade profile; all four are collected in
+[PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md)). **Galaxy dynamics is therefore left to the
+halo of §1–2 alone**, which is what §1 already computes, with no second channel needed or
+permitted.
 
 **Where the channel's signature does live.** Beyond bound-orbit scales, at void and supercluster
 boundaries, the coupling keeps a tag no modified-inertia law has: it rides the electron fraction,

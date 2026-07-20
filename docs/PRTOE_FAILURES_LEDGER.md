@@ -371,6 +371,7 @@ coupling as the electron-mass shift.
 | Process error 2: the transition treated as a switch | ramp/window structure through T_c | caught in review |
 | Pre-depth-law step framings in the registry itself (P-2026-007 "near-step S(C)"; ANN-2026-013 "discrete switch"; the dead healer epoch gates) | the registry ramp audit ANN-2026-022: both live entries survive as ramps under the gate curve ε(C) — P-007 sharpens to an environment trend; ANN-013's owed "sharp switch mechanism" dissolved into the crossover | 2026-07-13 |
 | Process error 16: the "voids retain FULL ε" binary | THE GATE FUNCTION ε(C) — one smooth screening curve read by four instruments (21cm fade = the curve in redshift; SN host TREND not step; forest = the curve at Δ~1; voids = the ceiling); the room becomes overdetermined | 2026-07-12 |
+| The gate exponent's σ-route read as a *valuation* — "σ ≈ 0.012 gives n_eff of order 10³, a ten-times-rougher medium still gives 50" | Two slips, one structural. **Arithmetic:** at σ = 0.12 against a unit threshold the exact slope is **35.2, not 50** (the 50 is (1/0.1)²/2, i.e. the ceiling re-rounded to 0.01). **Structural:** (σ, δ_c) is not an independent handle on n at all — the recorded hazard already normalizes N̄(C_ref) = 1, which fixes σ(C_ref) = δ_c/ν_ref from the seed-cell count, so feeding in an outside σ over-determines the gate. Read as a valuation the winding ceiling demands N_cell = 10¹⁵¹⁰ against a Planck-seeded ceiling of 10¹⁴⁶ — 1360 orders over. The route stands as the **bound** it was written for (σ ≪ δ_c ⟹ a step) and the hard-step conclusion is unaffected; the exponent's value now runs through n(N_cell) instead ([PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md), THE GATE). Docket #127 | 2026-07-20 |
 
 ### The G-closure & gravity's sign
 
@@ -564,7 +565,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 |---|---|---|
 | The "residual = dressing" identity used α_c = 0.0214 while the stack uses 3α | at 3α: 0.846 vs 0.835 — the identity downgrades to suggestive; the 0.846 recompute resolved (input mismatch, not algebra) | self-caught, corrected |
 | The triangle's "0.1% match" | x₀ is a free dial whose band covers the target — the triangle selects, not confirms; arrow A = consistency-only | overstated, corrected |
-| The two-census marriage (c's recipient-split vs the scalar delivery) | the gravity-routing step of the c-derivation is un-audited — the ε-decomposition's weakest joint | FLAGGED — carried as live work on the board |
+| The two-census marriage (c's recipient-split vs the scalar delivery) | **AUDITED 2026-07-20 (#126), and the step does not close.** Walked, the blindness premise gives the wrong roster: the G-closure rebuild ran the same law and returned *every field in the vacuum*, catching "the medium's 9 fermions" as an error there — so gravity-routed, the count is not 9/10; not gravity-routed, a singlet scalar's independent per-operator coefficients leave no democratic warrant. Compounding it, membership on the roster is decided by *charge* (the seat argument's "needs charge to grab") while the weights are decided by *blindness*. **c = 9/10 is data-selected, not framework-forced**; the value keeps its independent support (ε-blind ensemble, −0.08σ). The definition itself had been lost from the live corpus in the 2026-07-16 hunt rewrite and is now restored to [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1 | OPEN — owed: the explicit two-stage argument, or its death |
 | n_s under the clock ambiguity | 0.9638–0.9640 both ways | PASS |
 
 ## 7. Superseded-claims index (the derivation log's corpses, per the separation law)
@@ -1356,6 +1357,42 @@ actually codes — a **pre-registered parameter** (g ≈ 0.10 ± 0.05) whose fit
 sits inside its registration, graded by the conv_desi chain. That is a pre-committed fit, not
 a derivation, and the corpus should read it as such.
 
+### The f_arr razor — the decider was already run, and the razor never had an edge (2026-07-20)
+
+**What it claimed** (the surviving stub at `T4_s8_growth_owed.md`, the sole appearance of `f_arr`
+anywhere in the corpus): that S₈ closure needs an arriving gate-energy fraction f_arr ∈ [0.008, 0.013]
+while an X-ray scaling fence allows ≤ 0.013, so "two independent requirements meet in a window one
+millimeter wide" and the web-dissipation ramp is the sole decider. RETIRED as a live question (kills
+#162's object): the ramp was computed on the day the razor was written, and the razor's premise was
+re-priced out from under it five days later.
+
+**The sequence, from the commits.** The razor was raised at 13:47 on 2026-07-13. At 13:49 — the very
+next entry — the ramp was walked and returned the opposite of a squeak: boosted gas meets wall shocks
+before it ever reaches a halo, so f_arr(halos) is small *by geometry* and the fence is satisfied
+without tuning. On 2026-07-16 the derivation hunt was rewritten and the entries carrying f_arr were
+dropped, orphaning the term in one working-log line. On 2026-07-18 the energy bookkeeping killed the
+route the term served outright (the entry above), re-homing S₈ delivery to the rotation-shed.
+
+**And the razor's own variable now settles it, in the same direction.** Under the standing pricing —
+the gate is a phase re-arranging in place, so a gas element picks up the ballistic third of the
+6.41 keV step times the fraction it traverses, f = v_gas/c_s — the arriving share is bounded by the
+clean identity **f_arr ≤ f/3 = v_gas/(3c_s)**, with c_s = √(3α)·c = 44 357 km/s:
+
+| scale | v_vir | fence allows f_arr ≤ | pricing delivers f_arr ≤ | margin |
+|---|---|---|---|---|
+| galaxy | 286 km/s | 0.0133 | **0.0022** | 6.2× clear |
+| group | 429 km/s | 0.0300 | **0.0032** | 9.3× clear |
+| cluster | 1423 km/s | 0.3331 | **0.0107** | 31× clear |
+
+The fence's three registered ceilings reproduce exactly as 0.2·(½m_p v_vir²)/(ε·m_e) at those virial
+speeds, so the fence itself is arithmetically sound. What fails is the other jaw: the delivery needed
+0.008–0.013 and the pricing supplies 0.0022–0.0032 at the scales that set S₈ — **short by 2.5–3.7×
+before web dissipation takes anything away.** The two jaws never met. The fence was never the binding
+constraint, and the suppression was never available to be fenced.
+
+**What this does not touch:** the standing S₈ claim, which is the rotation-shed and was already the
+rotation-shed before this stub was written. No live claim moves.
+
 ### The low-ℓ anomaly claim — RE-GRADED by its own decisive computation (2026-07-18)
 
 **What was claimed:** that the compact-torus cavity predicts the observed low-multipole
@@ -1802,3 +1839,78 @@ is confined to this entry's amplitude row.
 the two can differ in shape as well as size.* The fence was honestly labelled as a bound from the
 day it was registered; what nobody checked was whether the model's own template was the one the
 bound had been inverted for.
+
+### "Z4 is forced by parity + renormalizability" — THE ARGUMENT FAILS ON ITS OWN OPERATOR LIST (2026-07-20)
+
+**What it claimed** (Room 4's first wall, the corpus's only forcing argument for the tilt's
+four-foldness): *"At dimension 4, the only U(1)-breaking operators are Ψ⁴ + h.c. (preserves Z4) and
+Ψ³Ψ* + h.c. (breaks to Z2); if the UV respects field parity Ψ → −Ψ, the Ψ³Ψ* family is forbidden and
+Ψ⁴ + h.c. is the UNIQUE renormalizable tilt."* RETIRED (kills #174's object) — the tilt is booked as
+an input.
+
+**Why it dies — the parity does not do the work it is asked to do.** Ψ → −Ψ counts fields mod 2, and
+Ψ³Ψ* has **four** of them:
+
+| operator | dim | fields | parity Ψ → −Ψ | breaks U(1) to |
+|---|---|---|---|---|
+| Ψ² + h.c. | **2** | 2 | **even — allowed** | **Z2** |
+| Ψ³ + h.c. | 3 | 3 | odd — forbidden | Z3 |
+| Ψ²Ψ* + h.c. | 3 | 3 | odd — forbidden | Z1 |
+| Ψ⁴ + h.c. | 4 | 4 | even — allowed | Z4 |
+| Ψ³Ψ* + h.c. | 4 | 4 | **even — allowed** | **Z2** |
+
+The parity kills exactly the two odd-field operators, both dimension three. Ψ³Ψ* — the one the
+argument names as forbidden — survives it, and so does Ψ² + h.c., which is the **lowest-dimension
+U(1)-breaking operator of all** and therefore the one that generically dominates. Parity plus
+renormalizability leaves three candidates, **two of them Z2**. Z4 is not forced; on operator
+dimension alone it is disfavoured.
+
+**What would force it, and why the corpus cannot supply it.** Ψ² and Ψ³Ψ* both violate the charge by
+2q while Ψ⁴ violates it by 4q, so selecting Z4 requires a rule permitting ΔQ = 4q while forbidding
+ΔQ = 2q — a statement about the ultraviolet's field content and charge assignments. That is basement
+business, and the basement that would have carried it (the dyad-as-SU(2)-condensate identification)
+was dropped on 2026-07-18 with the non-thermal operating point.
+
+**What survives, and it is the load-bearing piece.** The genesis handedness theorem — sign(θ̇) an
+exact 50/50 coin — **never used N = 4**. For any single-harmonic tilt cos Nθ the reflection
+σ: θ → 2π/N − θ leaves the tilt invariant while sending θ̇ → −θ̇, so L = R²θ̇ is odd and the uniform
+release prior splits evenly; verified symbolically at N = 2, 3, 4, 6, with N = 4 returning the
+recorded σ: θ → π/2 − θ. The theorem's real premises are single-harmonic, release-at-rest, isotropic
+friction and a uniform prior over one period. Its genuine loophole is a **second** harmonic with an
+irremovable relative phase: cos 2θ + cos(4θ + δ) admits a reflection at δ = 0 and **none** at
+δ = π/4 or π/3 — which is the corpus's own "a second phase that cannot be rotated away", now
+sharpened from a remark into a criterion.
+
+**The lesson (process).** *A symmetry argument has to be run against the whole operator list, not the
+one the conclusion came from.* The list here was truncated at dimension four, and the dimension-two
+term that decides the question was never written down.
+
+### The "varying m_e preferred at 2–3.6σ" citation — THE NUMBER WAS REAL, THE PAPERS WERE NOT ITS SOURCE (2026-07-20)
+
+**What was claimed** (`PRTOE_hubble_tension.md` §5, on the file the corpus calls its core empirical
+claim): *"the recent ACT DR6 + DESI DR2 analyses (arXiv:2508.09025, arXiv:2606.06495) find varying
+m_e preferred at 2–3.6σ."* Both identifiers resolve to real papers. Neither supports the sentence.
+Corrected in place (#166's fairness pass).
+
+| the claim | what the cited source actually says |
+|---|---|
+| "preferred at 2–3.6σ" from arXiv:2508.09025 | its abstract reports **m_e/m_e₀ = 1.0081 ± 0.0046** — a **1.8σ** preference over unity |
+| the same, from arXiv:2606.06495 | that paper quotes **no** detection significance and concludes the *opposite*: *"Once DESI DR2 BAO data are added, however, perturbative modifications to m_e(z) cannot fully resolve the Hubble tension"* |
+| where 3.5σ does live | **Hart–Chluba 2020** (arXiv:1912.03986), CMB+BAO+SNe: m_e = 1.0190 ± 0.0055, *"≃3.5σ above m_e,0"* — a 2020 result on Planck-era data, not an ACT DR6 + DESI DR2 one |
+| where "2.5–3.6σ" lives verbatim | **arXiv:2607.13282**'s abstract, as the *residual* Hubble tension left over by the best-performing models — a leftover, not a preference, and not for this mechanism |
+
+**The failure mode, named.** A right-sized number attached to the wrong papers and the wrong
+quantity. Two distinct slips compose: a 2020 significance was carried forward onto 2025/2026
+citations that had since moved it **down** (3.5σ → 1.8σ as the data improved), and a *residual
+tension* range was read as a *preference* range. The second is the more dangerous, because
+"3.6σ" reads as support while in its own source it is the measure of what the model class still
+fails to explain.
+
+**What survives, and it is not nothing.** The direction is still independently supported — every
+one of the three fits sits above unity, and the model's own pinned 1.012543 lands +0.7σ, −1.2σ and
++1.0σ from them, consistent with all three without having been fitted to any. The claim needed to
+shrink, not to go.
+
+**The lesson (process).** *Check what a σ is a σ **of**.* Preference-over-null and residual-tension
+are both quoted in Gaussian sigmas in this literature, they appear in adjacent sentences of the same
+abstracts, and they point in opposite directions.

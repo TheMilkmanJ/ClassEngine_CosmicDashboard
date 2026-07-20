@@ -21,9 +21,21 @@
    trio)**; kept here as the pointer.
 4. The DESI-policed w(z) consistency (the meaning-inversion: large conv_g spends against w=−1).
 
-Coupling-geometry status: medium-sector + ONE new lever: the wall-feedback channel — the shed inherits a fork-conditional counter-lean and a downward feedback closing the lensing gap at f_th ≈ 1%.
+Coupling-geometry status: medium-sector — the shed inherits a fork-conditional counter-lean.
 
-Update: f_th dissolved into physics (the local door — heterojunction cousin): rest-mass → ordered kinetic → web dissipation → hot-mode shocks; the free dial replaced by f_arr; grip #8 (X-ray scaling) born; THE RAZOR: S₈ needs f_arr 0.008–0.013, the fence allows ≤ 0.013; the web-dissipation ramp is the decider (owed).
+**S₈ delivery is the rotation-shed, and only the rotation-shed.** `dcdf_conv_g` — pre-registered
+g ≈ 0.10 ± 0.05, fitted 0.12 — is the channel the pipeline codes and the chains grade. The gate's own
+energy deposition is a separate, priced, and much smaller thing: of the 6.41 keV rest-energy step, a
+gas element extracts the ballistic third times the fraction of the transition it traverses, so the
+share arriving at a halo is at most
 
-The 89-series CLOSED — the entropy floor (50-600 keV cm², banded) lands in the preheating literature band; ΔS₈ delivery covers the gap; chain mechanical end-to-end; crude-anchor flag standing (power-spectrum upgrade = heavy queue).
+> **f_arr ≤ v_gas/(3 c_s)**,  c_s = √(3α)·c = 44 357 km/s
+
+— **0.0022 at galaxy infall (286 km/s), 0.0032 at group infall (429 km/s), 0.0107 at cluster infall
+(1423 km/s)**. Against the X-ray scaling fence (arriving energy ≤ 20% of ½v_vir², i.e. f_arr ≤ 0.0133
+/ 0.030 / 0.333 at those three scales) that clears by **6–31×, tightest at galaxy scale**; against the
+0.008–0.013 a lensing-gap closure would need it falls **2.5–3.7× short at the scales where S₈ lives**,
+and web dissipation only lowers it further. **The fence is satisfied and the delivery is unavailable** —
+the same verdict the energy bookkeeping reached from the entropy-floor side
+([PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md)).
 

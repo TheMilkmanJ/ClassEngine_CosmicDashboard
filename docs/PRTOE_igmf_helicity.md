@@ -4,7 +4,8 @@
 
 
 *Thread 14's standalone. Status: STRUCTURAL (candidate) riding P-2026-028's helicity sign; the
-decisive dependency is the SIGN MAP (the AD-direct rectification), owed. The improvement: the
+decisive dependency is the SIGN MAP — two signs on two objects (the seeding step's sign(H_kin) and
+the AD-direct rectification's sign(θ̇·n)), both owed. The improvement: the
 model's three-membered chirality family (matter / magnetism / metric — one integer n) may
 already have ONE MEASURED MEMBER sitting in published data.*
 
@@ -29,7 +30,7 @@ helicity sign CORRELATED with the baryon asymmetry: for everyone else, helicity 
 independent accident. **The distinctiveness and the debt are the same claim**, which is why this
 file's owed item is load-bearing rather than housekeeping.
 
-## 2. The reading protocol (and the owed key)
+## 2. The reading protocol (and the owed keys)
 
 If the IGMF helicity measurement firms, the family converts to ONE-MEASURED / TWO-PREDICTED:
 the measured handedness would FIX sign(n), which then PREDICTS (i) the chiral-GW background's
@@ -100,6 +101,13 @@ invariant under σ, Hubble friction is isotropic, and the uniform release prior 
 maps to itself. The charge L = R² θ̇ is **odd** under σ. Every release phase θᵢ therefore has an exact
 mirror π/2 − θᵢ that reproduces the same |L|, the same radial history and the same f_amp with the
 opposite sense of rotation.
+
+**And the coin does not ride on the tilt's four-foldness, which is an input.** For *any*
+single-harmonic tilt cos Nθ the reflection σ: θ → 2π/N − θ leaves the potential invariant and sends
+θ̇ → −θ̇ — N = 4 returns the recorded θ → π/2 − θ — so the even split follows from the tilt being one
+harmonic, not from which harmonic it is. Verified symbolically at N = 2, 3, 4 and 6. The theorem's
+premises are single-harmonic, release-at-rest, isotropic friction, and a uniform prior over one
+period; the tilt's period is not among them.
 
 **The equations agree to machine precision.** Integrating the recorded genesis system across a full
 period returns an even split at every tilt strength ε_A ∈ {0.1, 0.2, 0.3, 0.5} — 12 positive and 12

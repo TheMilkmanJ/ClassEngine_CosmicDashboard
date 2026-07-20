@@ -263,8 +263,8 @@ review, with laboratory receipts for its falsifiable furniture.**
 The origin story and the isolation theorem. **Affleck-Dine spiral genesis**
 is the candidate origin: charge = abundance (explains rolls-never-
 oscillates — charged rotates, neutral librates); inflation displaces, the
-Z4 tilt torques (the tilt's *forced* status is reopened — its parity/renormalizability derivation rested on the excluded basement's charge assignments; the term stands as the registered working assumption, with r_t
-of order 1 natural), release spirals, the fee is reheating entropy, and
+Z4 tilt torques (**an input** — its four-foldness and its strength r_t ~ O(1)
+are both registered, not derived), release spirals, the fee is reheating entropy, and
 the medium is born condensed — no critical temperature ever crossed (why
 basin entry left no relic). The dark-antimatter reframe falls out free:
 the n₋ component never annihilates (nothing to annihilate into), so ~30%
@@ -868,10 +868,17 @@ H_inf < 2–4×10¹² GeV (abundance/isocurvature), plus this program's own
 *Hook: a confirmed tensor-to-scalar ratio implying H_inf above the pin
 kills the AD genesis as drawn.*
 
-**69. CP violation & baryogenesis — RECEIPT (structural requirement).**
-The AD spiral requires a tilt slant; the Z4 tilt is the registered working assumption (its
-"forced" derivation is reopened by the basement rebuild), and the dark asymmetry f_rot ≈ 0.4
+**69. CP violation & baryogenesis — INPUT (structural requirement).**
+The AD spiral requires a tilt slant; the **Z4 tilt is an input** — parity and renormalizability
+do not select it, because the field parity Ψ → −Ψ is even on both Ψ² + h.c. (dimension two) and
+Ψ³Ψ* + h.c., and each of those breaks the U(1) to **Z2**, the lower-dimension one generically
+dominating. Fixing four-foldness needs a selection rule on which charge quantum the ultraviolet
+may violate, and no standing basement supplies one. The dark asymmetry f_rot ≈ 0.4
 coexists with the baryons' ≈1 because the penalty schedule differs.
+*The genesis handedness result does not ride on this:* the reflection that makes sign(θ̇) a fair
+coin exists for **any** single-harmonic tilt cos Nθ (take σ: θ → 2π/N − θ; at N = 4 that is the
+recorded θ → π/2 − θ), so the coin survives the demotion untouched. What would break it is a
+*second* harmonic carrying a phase that cannot be rotated away — not the value of N.
 *Hook: Room 4's dim-6 remnant pricing must keep charge decay frozen —
 now verified at the audited band (τ_Q ≥ 1.6×10⁹ Gyr).*
 
@@ -1022,7 +1029,7 @@ against, not a claim).*
 | 66 | Quantum turbulence | PENDING-CALIBRATION | lab tangle statistics → granule Θ meter |
 | 67 | ³He contrast class | LAB-ESTABLISHED | gapped family mapped; P-2026-005 binds us to the gapless side |
 | 68 | Isocurvature | PASSING | H_inf pin consistent with r bounds; θ-veto step-converged in h-scan |
-| 69 | CP / Z4 genesis | CONDITIONAL | Z4 tilt assumed (the "forced" derivation reopened by the basement rebuild — hunt 132b/139); τ_Q ≥ 1.6×10⁹ Gyr verified |
+| 69 | CP / Z4 genesis | CONDITIONAL | the Z4 tilt is an **input** — parity leaves Ψ² and Ψ³Ψ*, both Z2-breaking, so four-foldness is not selected; the handedness coin is independent of N; τ_Q ≥ 1.6×10⁹ Gyr verified |
 | 70 | Reheating / abundance pin | ARITHMETIC | Ψ₀ = 0.7–1.5×10¹⁷ GeV; moves only if Ω_DM or entropy history moves |
 | 71 | FIRAS distortions | PASSING-NULL | μ/y at standard levels, as Law 2 requires |
 | 72 | CMB dipole | PASSING | 370 km/s speedometer; frame statistics boring, as required |

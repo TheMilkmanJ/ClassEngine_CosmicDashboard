@@ -17,8 +17,14 @@
 
 Major moves since the 2026-07-08 baseline (below):
 
-- **c is now derived (c = 9/10).** The census factor is no longer a hypothesis: the neutrino sits on the
-  vacuum's seat because its mass is medium-sourced, not electroweak. (Was least-trusted joint #3 — retire it.)
+- **c = 9/10 is pinned by two independent routes, and its derivation is one step short.** The seating
+  is sourced — the neutrino sits on the vacuum's seat because its mass is medium-sourced, not
+  electroweak — and the ε-blind ensemble lands on the value independently, at c = 0.903, −0.08σ. What
+  the census still owes is the step that licenses a *democratic* count: routed through gravity's
+  blindness the roster comes back as every field in the vacuum rather than the charged nine, and the
+  scalar channel that delivers ε carries independent per-operator coefficients instead. So the value is
+  data-selected and well-supported; the framework does not yet force it (the two-census marriage,
+  [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1).
 - **The dark-energy VALUE now has a derived-scaling closed form:** ρ_Λ¼ = (d²/2)α⁴·T_c, which on the
   Koide kernel's τ = ½ln2 gives **2.2599 meV against the observed 2.25 — +0.44%**. *(This board's
   earlier (d/2)α⁴m_e ≈ 2.17 meV, 0.97×, is the same structure with τ approximated as 1/3; the kernel
@@ -83,7 +89,9 @@ supplying the match.
 **Adverse, second front.** The genesis draw does **not** pick a handedness, and this is now proven
 rather than suspected: the recorded Z4 tilt is invariant under θ → π/2 − θ while the charge L = R²θ̇
 is odd under it, so the uniform release prior splits exactly evenly at any tilt strength and under
-any CP phase. The chirality family therefore cannot deliver an absolute sign a priori — not pending a
+any CP phase. The proof does not lean on the tilt's four-foldness — which is an input, not a
+derivation — because every single-harmonic tilt cos Nθ carries the same reflection, σ: θ → 2π/N − θ.
+The chirality family therefore cannot deliver an absolute sign a priori — not pending a
 computation, but forbidden by a symmetry the model does not break. What could still rescue the
 cross-messenger test is the *correlation* between θ̇ and the winding, and no solver in the corpus can
 compute it: one carries time evolution without winding, the other winding without time evolution.
@@ -125,9 +133,10 @@ Ranked, honestly:
 1. **The DE-floor self-tuning mechanism** — no working mechanism; the self-tuning toy ran away
    when computed; Weinberg's no-go for self-tuning is unaddressed. Trusted least. (Q4/#22.)
 2. **The m_e shift's robustness** — unproven it isn't absorbing a systematic. (Q2/#20.)
-3. ~~**c is not derived**~~ — **retired.** c = 9/10 is derived from the census (the neutrino sits on
-   the vacuum's seat because its mass is medium-sourced, not electroweak), as the CURRENT section at
-   the head of this file records. The empirical pin to [1.0, 1.9] is consistent with it.
+3. **c's derivation is one step short.** The census sources the seating (the neutrino sits on the
+   vacuum's seat because its mass is medium-sourced, not electroweak) and two independent routes pin
+   the value, but the step licensing a democratic count is open — see the CURRENT section at the head
+   of this file. The empirical pin to [1.0, 1.9] is consistent with it. (Q5/#23.)
 
 ## The near-term falsifier calendar (task Q6 / #24)
 

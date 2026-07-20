@@ -1,10 +1,10 @@
 # T14 IGMF helicity (the chirality family's possible FIRST DATUM) — OWED
-1. THE SIGN MAP (load-bearing): the family predicts sign(helicity_B) = sign(n) = the matter draw — but WHICH handedness corresponds to matter-wins runs through the AD-direct rectification mechanism (owed there). Until the map is explicit, the measured hint cannot be read.
+1. THE SIGN MAP (load-bearing): the family predicts sign(helicity_B) = sign(n) = the matter draw — but the map owes TWO signs on two different objects. WHICH handedness the genesis flow has (the seeding step, sign(H_kin)) and WHICH handedness corresponds to matter-wins (the AD-direct rectification, sign(θ̇·n)). Until both are explicit, the measured hint cannot be read.
 2. The hint's status pass: Tashiro–Vachaspati-class claims (~2σ, left-handed, Fermi parity-odd statistics; disputed) — literature refresh + systematics status.
 3. IF the map lands and the hint firms: the family becomes one-measured/two-predicted — the strongest cross-messenger test on the board.
 
 
-## THE SIGN MAP — structure laid (2026-07-13, post-entry-77; one link owed)
+## THE SIGN MAP — structure laid (2026-07-13, post-entry-77; two links owed)
 
 The chain of signs, each link graded:
 
@@ -56,7 +56,8 @@ null. *(Caveat on this pass: read from the literature record, not from re-analys
 the significance figure is inherited, not independently verified.)*
 
 **This does not make the hint readable.** Item 1's **link 5 (the AD-direct rectification:
-sign(n) → matter-vs-antimatter)** remains the single owed junction. Until it lands, a measured
+sign(n) → matter-vs-antimatter)** is one of the two owed junctions — the other being link 4's
+seeding sign, taken apart at the foot of this file. Until both land, a measured
 left-handed helicity cannot be turned into a statement about the baryon draw, and the
 cross-messenger test does not close. **The 2026-07-16 chirality result sharpens what link 5 must
 deliver:** the medium's handedness is sourced from the **genesis pour's winding integer n**, not from
@@ -200,9 +201,10 @@ prediction is recovered exactly. If instead the two circulations are locked to e
 helicity comes out with a *universal* handedness and the prediction becomes a different — and
 sharper — claim. Both live; the missing object decides which.
 
-**What this does to the census's reading.** The corpus records link 5 as the single owed junction.
-It is not. **Even a closed link 5 leaves the measured left-handed hint unreadable**, because link 4
-is the junction between the current and the observable handedness and it is open on its own terms.
+**What this does to the census's reading.** The census counted link 5 as the single owed junction;
+its row now carries both. **A closed link 5 alone leaves the measured left-handed hint unreadable**,
+because link 4 is the junction between the current and the observable handedness and it is open on
+its own terms.
 The two debts share a plausible home — #154's joint genesis draw is the only build in the corpus
 that would evolve a genesis trajectory carrying spatial structure — but #154 as scoped reads sign(n)
 and sign(θ̇) off one trajectory, while sign(H_kin) needs that trajectory's **three-dimensional

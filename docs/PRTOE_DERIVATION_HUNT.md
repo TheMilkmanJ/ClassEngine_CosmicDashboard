@@ -20,8 +20,41 @@ $$\varepsilon = c \cdot \bar f \cdot \alpha_c .$$
 
 | factor | value | status |
 |---|---|---|
-| **c** | 9/10 | **derived** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel). The 8/9 charge²-weighted reading is excluded by the gravity-blind democratic rule. See [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
+| **c** | 9/10 | **value data-selected; the counting argument's routing step open** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel), and independently landed on by the ε-blind ensemble at c = 0.903 [0.867, 0.942], −0.08σ from 9/10. What is *not* closed is the step that licenses a democratic count at all — see **the two-census marriage** below. See [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
 | **f̄** | 2/π ≈ 0.6366 | **derived** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved — see below. The ε-blind ensemble gives c = 0.903 [0.867, 0.942], −0.08σ from 9/10. |
+
+**The two-census marriage — c's weakest joint, and what the routing step must show.** The
+decomposition runs two counts over two different, non-nested sets. **c = 9/10 counts
+recipients** — 9 charged fermions, quarks *in*. **The delivery is leptophilic** — quarks carry
+L = 0 and the tree coupling is exactly zero, so the channel that actually delivers ε never
+touches six of the nine it counts. Two censuses is lawful only if the budget-split genuinely
+routes through the **gravity terminal** (blindness ⟹ democratic) while the delivery rides the
+**scalar** channel. That two-stage routing is the step the census has never walked, and it is
+the softest link in the ε-decomposition's math.
+
+**What the audit finds when the step is walked.** The licensing premise is L1's blindness — the
+medium's coupling is identity-blind, reading only w. But *blind* is not *discrete*: a
+T_μν-blind coupling reads a continuous energy density, and nothing in the equivalence principle
+converts "does not read identity" into "one equal share per species, plus one for the vacuum."
+The corpus has in fact already run this argument in another docket, and it did not return 9:
+the G-closure rebuild took the same blindness law — gravity reads energy, not identity — and
+concluded **the roster is EVERY field in the vacuum**, catching "the medium's 9 fermions" as an
+error in that setting ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), the G-closure row).
+So the fork is closed on both sides: routed through gravity, the roster is not the charged nine
+and the count is not 9/10; not routed through gravity, the democratic rule has no warrant at all,
+because a gauge-singlet scalar couples to every operator with an independent coefficient — the
+corpus's own recorded NO-GO — and independent coefficients are the opposite of a democracy.
+
+**And the joint sits inside the c-derivation, not only beside it.** Membership on the roster is
+decided by *charge*: the seat argument seats the neutrino because "the ε-channel dresses the EM
+fraction of an electroweak mass, and it needs charge to grab"
+([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md), the tenth-channel operator). The weights
+are then decided by *blindness*. One derivation using charge to choose who is counted and
+identity-blindness to choose how much each counts is the marriage in its sharpest form — and it
+is what keeps the charge²-weighted reading alive as an alternative rather than excluded, since an
+EM-fraction dressing channel is precisely where a Q² weight would be natural. **Owed: the
+explicit two-stage argument, or its death.** Until then c = 9/10 is a count the data confirms
+(the ε-blind ensemble at −0.08σ), not a count the framework forces.
 
 **The velocity ladder — the interface named, and what the naming costs.** The base
 claim c₂ = √α·c places three of the model's speeds in exact geometric progression with ratio
