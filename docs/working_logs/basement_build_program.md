@@ -40,14 +40,27 @@ sin²θ_W(M_Pl) = α_Y/(α₂+α_Y) = **0.471**. That is *above* the unification
 near it — a direct restatement of the abelian coupling being the outlier (α₁ > α₂ at M_Pl), not an
 independent success. It carries no information beyond lock (iv).
 
-## Part 2 — the constituent count (OPEN, one suggestive number)
+## Part 2 — the constituent count (2026-07-20: the relation is fixed, the value is one input short)
 
-The induced-gravity demand is 1/G = N·Λ²/12π. If the constituents sit at the cutoff Λ = M_Pl, then
-**N = 12π ≈ 38**. Flagged suggestive, not booked: it depends on the exact 1/G normalisation the
-QG file uses (1/G = N/(12πε²) there, with ε the coherence length) and on what N counts — species,
-or coherence cells. Reconciling the two normalisations is the first payable step here, and it needs
-the QG file's ε ↔ Λ convention pinned. Until then, "1–2 M_Pl constituents" is the recorded band and
-N ≈ 38 is a target, not a result.
+The two normalisations agree. The QG file's 1/G = N/(12πε²) with ε the cutoff length is identical
+to 1/G = N·Λ²/12π with Λ = 1/ε — the same equation. So there is nothing to reconcile, and the
+induced-gravity demand gives one clean relation:
+
+  **N = 12π·(M_Pl/Λ)²**
+
+between the constituent count N and their scale Λ. It does **not** pin either alone — and that is
+structural, not a gap in the work: the QG file's whole area-law argument turns on N and ε cancelling
+between 1/G = N/(12πε²) and S = N·A/(48πε²), so the induced-gravity sector is by construction blind
+to N and Λ separately and sees only the combination. One further input — the actual roster size, or
+the exact constituent scale — closes it; the area law cannot.
+
+Evaluated on the recorded band Λ ∈ [1, 2] M_Pl, the relation gives **N ∈ [9.4, 37.7]** — an O(10–40)
+constituent count. That is the honest content: the induced-gravity demand does not leave N free, it
+ties it to the scale, and on the recorded scale band the roster is a few tens of constituents. For
+comparison, the Standard Model carries ~100 degrees of freedom, so a basement in this band is
+**more minimal than the SM** — a real constraint on what the constituent roster can be, and a check
+any proposed structure must pass. The "1–2 M_Pl constituents" band and this count are two faces of
+the one relation, not independent facts.
 
 ## Parts 3+ — genuinely open, and this is where the model-building lives
 
