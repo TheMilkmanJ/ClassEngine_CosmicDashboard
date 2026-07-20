@@ -1907,3 +1907,25 @@ read whole under the leak standard with dated headers sealing every era leak fou
 docs tail (97 files) this completes pass 1 of the deep audit across the entire corpus.
 Remaining: pass 2 (the varied attack on the 07-07→07-16 maintained band), owner-gated items,
 and the run-gated shelf.
+
+## PASS 2, battery 1 (2026-07-19): odds law / retired values / voice — six fixes, two false positives, one correction against me
+
+The varied attack's first battery swept the forward corpus mechanically. Findings:
+
+1. **Three "+1.5%" labels stuck to the current number**: DERIVATION_HUNT ×2 and the registry
+   quoted the flagship chain's 2.2599-vs-2.25 as "+1.5%" — the percentage belonged to the dead
+   2.284 era; true arithmetic is +0.44% (and the p-wave companion corrected to −74.9%, cc §4c's
+   own row). All three fixed; the cc table was already right.
+2. **One voice leak**: dyad_gas's "the operator's phase-framing" → "the author's" (the
+   intellectual_history species, fourth instance corpus-wide).
+3. **One ASCII sigma** in honest_status (~2.7sigma → σ).
+4. **Correction against me, on the record**: the earlier failures-ledger annotation declared
+   honest_status.md "since removed; not in the repo" — false. The file lives as
+   docs/PRTOE_honest_status.md; my find had searched the bare name only. The annotation now
+   names the real path and its own error.
+5. **False positives, recorded**: honest_status's odds lines are LEGAL — the file's banner
+   declares it the private odds register, deliberately unlinked from the reader shelf (the
+   odds law is satisfied by design, not violated). PHYSICS_DOMAINS:317's old-band mention
+   carries the full supersession chain in-sentence. The λ-10⁻⁸⁸ and m-band mentions elsewhere
+   all price the recorded values in place — the corpus's own maintenance had already reached
+   them.

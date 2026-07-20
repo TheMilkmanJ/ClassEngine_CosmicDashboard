@@ -222,7 +222,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both the
   dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie exact to 2.2%.
   **Graded: μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
-  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.2599 meV**, against the observed 2.25 — a **+1.5%** prediction), with κ_V, κ_m
+  electron-mass-anchored meV whisper of §2 (the flagship chain (9/2)α⁴τ·m_e = **2.2599 meV**, against the observed 2.25 — a **+0.44%** prediction), with κ_V, κ_m
   the O(1) ties; it is downstream of the *one* irreducible input, the portal √σ_dark = m_e (§6), not a
   separate knob.
 - **v_L (the seesaw scale)** — two mutually exclusive corners (resonant → MeV, S4-armed; junction
@@ -289,7 +289,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 >    that provides the crossover.
 > 2. **ℓ = 0, which the DE value selects.** The lightest SU(2) baryon is the **scalar diquark** —
 >    s-wave. That is the channel [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)
->    §4c's table selects at +1.5% and excludes at −74.6% (p-wave) and −93.7% (f-wave).
+>    §4c's table selects at +0.44% and excludes at −74.9% (p-wave) and −93.7% (f-wave).
 > 3. **"He-3-A missing its baryonic matter" — as group theory, not analogy.** He-3 pairs p-wave
 >    because its baryonic hard core suppresses ℓ = 0. In two-color QCD there **are no fermionic
 >    hard-core baryons**: the baryons are bosonic diquarks. The core that forces helium up to L = 1

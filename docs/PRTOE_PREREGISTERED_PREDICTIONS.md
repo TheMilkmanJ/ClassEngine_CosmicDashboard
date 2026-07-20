@@ -2439,7 +2439,7 @@ three things the model required *before* this counting existed:
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4) holds *only* on and is
 "verified to fail" off — two-color QCD being the canonical diquark-BEC realization of that very
 crossover; (ii) **ℓ = 0**, since the lightest SU(2) baryon is the *scalar* diquark, and the DE
-value independently selects s-wave (+1.5%) over p-wave (−74.6%) and f-wave (−93.7%) (§4c);
+value independently selects s-wave (+0.44%) over p-wave (−74.9%) and f-wave (−93.7%) (§4c);
 (iii) **the absence of a fermionic hard core** — two-color QCD has no hard-core baryons, which is
 exactly why ℓ = 0 is unsuppressed, the mechanism §4c invokes.
 

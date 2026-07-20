@@ -23,7 +23,7 @@ transition temperature into a two-parameter family
 lattice-refereed at P-2026-048; the coded pipeline still runs the earlier 179 keV, a
 difference priced at 0.002σ on D/H ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)).
 
-*(A note on "gas": this is the operator's phase-framing for the dyad's **complementary role** to
+*(A note on "gas": this is the author's phase-framing for the dyad's **complementary role** to
 the dCDF superfluid — the hot/thermal/lepton-binding side against the cold/chiral/abundance side.
 The dyad is a field that condenses, not literally a classical gas; the label tracks the role, not
 the phase.)*
