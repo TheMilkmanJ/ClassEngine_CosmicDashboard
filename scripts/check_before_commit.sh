@@ -23,3 +23,15 @@ if [ -n "$bad" ]; then
   echo "REFUSING TO COMMIT — the name is: Pulford-Romsa Theory of Expansion."
   exit 1
 fi
+
+# THE HUSK LAW (2026-07-19): the 07-13 hygiene pass replaced ~290 #N refs with the dead
+# word "(docketed)". All husks were adjudicated and repaired 2026-07-19; none may return.
+# History homes (the two ledgers, ForJustin/08) are exempt — recording the purge is their job.
+husk=$(grep -rln "(docketed)" --include="*.md" README.md docs/ ForJustin/ 2>/dev/null       | grep -v "FAILURES_LEDGER\|_AUDIT_LEDGER\|08-the-purged" || true)
+if [ -n "$husk" ]; then
+  echo
+  echo "HUSK LAW VIOLATION — the dead ref '(docketed)' is live in:"
+  echo "$husk"
+  echo "REFUSING TO COMMIT — adjudicate the ref (paid / gated / open + pointer), never the husk."
+  exit 1
+fi

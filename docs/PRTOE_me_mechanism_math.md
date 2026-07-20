@@ -249,7 +249,7 @@ OPEN:
  (census-scope legality: CLOSED — the coupling law's consolidated clause; sec 2, 6)
  - exact amplitude coefficient (cutoff + modulation fraction) [4]
  (the sec-7 screening computation: DELIVERED — all four items, see sec 7)
- - the two-field sims (docketed): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
+ - the two-field sims (sim-gated): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
 
 The empirical fit (m_e = 1.012543, fits the CMB) is UNTOUCHED by all of the
 above -- this document concerns the MECHANISM's legality/derivation, not
@@ -257,7 +257,7 @@ the data.
 
 ## 10. The leptonic origin -- why m_e and not m_q [MECHANISM DERIVED, magnitude OPEN] (2026-07-09)
 
-BBN (docketed) REQUIRES the coupling be leptonic: a universal mass shift is 12-16σ
+BBN (the data ruling — the windowed program) REQUIRES the coupling be leptonic: a universal mass shift is 12-16σ
 dead via the D/H quark→pion→deuteron channel (dln(D/H)/dln m_q ~ 15 vs dln m_e ~ 0.5,
 a 30x ratio). Why the coupling picks the electron:
 
@@ -313,7 +313,7 @@ MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09):
  transition lands at z~0.7 (1/2 m² Psi² = ρ_inf), the right epoch (observed
  ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4) = 2.25 meV =
  m_ν,light [P-2026-012]. BUT it bottoms out at the CC PROBLEM: why ρ_inf=(m_ν)⁴
- is P-2026-012's POSIT, not derived. So the docketed last residual is the cosmological-
+ is P-2026-012's POSIT, not derived. So the last residual is the cosmological-
  constant question -- no longer a PRTOE-specific gap, the universal one. [REDUCED to CC]
  (d) kinetic-Z_L vs direct-Yukawa: RESOLVED (2026-07-09). The medium lives in the lepton
  sector via NEUTRINO mass, which rides L (Weinberg, two L's) → the natural coupling

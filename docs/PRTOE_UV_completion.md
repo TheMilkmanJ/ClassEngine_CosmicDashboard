@@ -59,9 +59,10 @@ UFD-tension value c~1.9 is doubly forbidden (above the ceiling). Ties to the cen
 the ceiling IS gravitational strength, so "c saturates the ceiling" = "the census
 holds, maximally."
 
-**Residuals (owed):** exact margin below 1 = the effective-action loop (the docketed
+**Residuals (owed):** exact margin below 1 = the effective-action loop (its old question —
+c forced-vs-dial — has since been paid: c = 9/10 is derived by the census; the loop's own margin remains the
 unfinished half — how saturated the ceiling is); the environmental Θ-switch that
-gates WHERE m_e shifts is separate (docketed). Also owed: why the explicit breaking lands
+gates WHERE m_e shifts is separate (sim-gated: the granule sim). Also owed: why the explicit breaking lands
 the mass at ~2×10⁻²⁰ eV exactly (the Coleman-Weinberg / shift-breaking structure).
 
 ## Step 2 (2026-07-08) — attacking the two residuals
@@ -129,7 +130,7 @@ early ones).
 - In a SIMPLE m² φ² well the field oscillates as DM FOREVER (well bottom = 0 energy;
  freezing lands at nothing). **A simple field never becomes DE -- it stays DM to the end.**
 - DE requires the field to freeze onto a nonzero POTENTIAL FLOOR = the funded-floor/(deltaK)²
- piece (the docketed missing 20%).
+ piece (the missing 20% of that era — since closed to +0.44% by the seam chain).
 
 **Sharpest statement of the gap:** the regime-change chain is SELF-GENERATING up to dark
 matter (matter falls out of radiation for free, via H<m condensation) and BREAKS at DM→DE
@@ -202,7 +203,8 @@ to ρ_Λ, field slides to X0, condensate takes over → w runs 0→-1 → DE. Cr
  sign-locked certificates (α_T/foliation/α_B, corpus-cleared, the technical risk to watch).
 
 **NET:** the floor is now a REAL mechanism (not a placeholder) -- "one field, both jobs" is
-BUILDABLE; "explains the DE scale" is NOT and should not be promised. the docketed missing 20% = roughed in.
+BUILDABLE; "explains the DE scale" is NOT and should not be promised. The missing 20% = roughed in
+(since closed to +0.44% by the seam chain).
 
 ## Step 8 (2026-07-08) — floor STABILITY: the (deltaK)² funds AND stabilizes (piece 2)
 

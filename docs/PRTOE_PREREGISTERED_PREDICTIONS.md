@@ -1013,7 +1013,7 @@ Window reaches f_n = 1% only at **z_x ≈ 3500 (n=4)** — ~30× below the model
 **Verdict:** at the model's condensation redshift (z_x ~ 1×10⁵) the open account is
 dead ~8 orders of magnitude before recombination → any birefringence imprinted
 there is suppressed ~1×10⁻⁸ → **the window is CLOSED.** It cracks open only if the
-genesis calc (docketed) pins z_x near matter-radiation equality (~few×10³), ~30×
+genesis calc (still open — the exact Ψ₀/f_amp derivation) pins z_x near matter-radiation equality (~few×10³), ~30×
 lower than the current value. So P-2026-009's null is now **quantitatively
 robust**, reducing to a single checkable number: **z_x, the condensation
 redshift.** z_x ~ 1×10⁵ → null holds (five ways over); z_x ~ 3500 → a small
@@ -1509,7 +1509,8 @@ the Sakharov ingredient for **leptogenesis**. The lepton sector is the ONLY sect
 renormalizable number-violation (quarks have none → B conserved), so the model's AD
 asymmetry, IF it is the lepton asymmetry, is built here — and the medium's coupling to L
 (for leptogenesis) drags along the amplitude coupling that IS the dyad (δm_e). This is the
-candidate DERIVATION of the leptophilia (the docketed owed object): leptonic because the medium is
+candidate DERIVATION of the leptophilia (the once-owed object — since derived via the Majoron:
+quarks carry L = 0; this leptogenesis route stands as its companion): leptonic because the medium is
 the asymmetry field and the asymmetry can only route through the L-violating (lepton) sector.
 [OBJECT-PENDING on: AD-asymmetry = lepton asymmetry; amplitude-follows-current; magnitude
 → η_B ~ 6×10⁻¹⁰.]

@@ -353,7 +353,7 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  *Resurrects if (Rule-1 bet, both ways):* **MET by** the genesis calc
  pinning z_x near equality (~few×10³) — a small suppressed isotropic
  signal then becomes census-legal via the still-open residual coupling;
- **FAILED-forever by** the docketed confirming z_x~1×10⁵ (the current value) OR the
+ **FAILED-forever by** the genesis calc confirming z_x~1×10⁵ (the current value) OR the
  angular mode remaining census-forbidden under the scope ruling. Warm,
  on those terms.
  **KEYSTONE (adaptation refinement):** lock (i) is
@@ -362,7 +362,7 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  scattering, defeating scrambling and the z_x tail at once. But "adapting
  to POLARIZATION" is, by definition, the medium reading the *handedness*
  of light and responding — i.e. the parity-odd EM coupling of lock (ii).
- So every timing fix collapses onto (ii): the **census (docketed) is the SOLE
+ So every timing fix collapses onto (ii): the **census (the derived gravity-only count) is the SOLE
  true keystone**, and the deepest reopener is the parity-coupling
  ruling, not z_x (which is only the soft/escapable lock). If #5 stays
  gravity-only, birefringence is forbidden regardless of timing cleverness.

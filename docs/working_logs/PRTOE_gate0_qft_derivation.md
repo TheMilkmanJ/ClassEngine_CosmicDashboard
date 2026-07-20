@@ -160,7 +160,7 @@ construction. Gate 0 does **not** pass on theory.
  fermion mass shift arises from coherent forward-scattering off ⟨Ψ⟩ (∝|⟨Ψ⟩|²,
  0 above T_c) with the fluctuation/magnitude piece provably decoupled. This is
  a real derivation (the working docket territory), not a relabeling. Hard.
- 2. **BBN-abundance data (docketed)** — the external tiebreaker: catastrophe reading
+ 2. **BBN-abundance data (#29)** — the external tiebreaker: catastrophe reading
  predicts a BBN varying-constants signal in D/H, Y_p, Li; heal predicts
  standard abundances. The data decide regardless of the theory.
 
@@ -224,7 +224,7 @@ CATASTROPHE. Standing shaded further toward gate-0-FAIL.**
 ## 7. SESSION RESOLUTION (2026-07-09) — the sky settled it; DO NOT re-run these
 
 **Headline: gate 0 is EMPIRICALLY-REQUIRED, THEORY-OPEN.** Sections 1–6 above were
-the THEORY attack, which leaned catastrophe. Then the external DATA (docketed) over-ruled
+the THEORY attack, which leaned catastrophe. Then the external DATA (#29) over-ruled
 the theory lean: the catastrophe is excluded by primordial abundances, so the heal
 is what the sky *requires* — even though the model does not yet derive the mechanism.
 
@@ -249,7 +249,7 @@ is what the sky *requires* — even though the model does not yet derive the mec
  parameter reads); the coded activation is a hardcoded a=1×10⁻⁴, not H=m; and the coded
  ξ_eff is QUADRATIC (0.04% at φ=0.02, 30× short of 1.2%). DEAD as coded.
  **CAVEAT (self-correction):** the 30× is CONTINGENT on the quadratic form.
- the docketed amplitude is LINEAR (c·f_amp·φ → 1.2% at φ=0.02, natural). The model is
+ #11's amplitude is LINEAR (c·f_amp·φ → 1.2% at φ=0.02, natural). The model is
  INTERNALLY INCONSISTENT on the mass-coupling form (linear #11 vs quadratic coded
  G_eff). The linear form escapes the 30×. This is the ONE thread still open (§7.4).
 4. **Thermal-condensate / freeze-out reframe:** describes a field that flickers at 0
@@ -263,11 +263,11 @@ the AD condensate is **large/loud at BBN**, and any quantity big enough to sourc
 is big there too; any quantity that's ~0 at BBN (rotation, thermal order) is too small
 or brings its own catastrophe. Reshuffling cannot fix a field-level problem. **Do not
 propose an Nth reshuffle of this field.** The honest routes are: accept the debt, use
-the data (docketed; done), or design a different field (future project).
+the data (#29, done), or design a different field (future project).
 
 ### 7.4 THE ONE OPEN THREAD (the working docket) — derive the coupling FORM, not select it
 #29 proves the mechanism EXISTS in nature. The remaining debt is theory-completeness:
-- **Derive whether the mass coupling is LINEAR (docketed) or QUADRATIC (coded G_eff) from the
+- **Derive whether the mass coupling is LINEAR (#11) or QUADRATIC (coded G_eff) from the
  conformal structure — INDEPENDENT of which heals.** Selecting linear *because* it heals
  is the motivated move we refuse. If genuinely linear + rides a quantity ~0
  before the snap (condensation) → the heal is derived AND data-backed. If quadratic →
