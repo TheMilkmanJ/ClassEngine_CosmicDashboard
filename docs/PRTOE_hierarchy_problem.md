@@ -314,7 +314,30 @@ The sensitivity is why the factor matters rather than being bookkeeping: ∂lnM/
 two gives k = 1.58305 and an anchor at 1.6×10⁵ GeV. The 2 is not a convention that happened to be
 lucky — it is the electron-plus-hole polarisation, and mistaking it misses by two orders.
 
-**What the derivation rests on.** N₀ = k_F²/π²v assumes linear dispersion at the pairing shell,
+**Three structural conditions, and they are additions to this corpus.** The calculation above is a
+condensed-matter one, and it needs a host with properties the basement is not currently stated to
+have. Named plainly, because the numerical agreement makes them easy to skip past:
+
+1. **A finite chemical potential.** The whole Fermi-surface treatment — the average, the density of
+   states, the shell — presupposes μ ≠ 0. This corpus's basement is a **Fermi point** (the Volovik
+   frame; "three Fermi points" in the light file), which is μ = 0. §6a shows a Fermi point cannot
+   pair at this coupling, and the finite-μ Fermi surface is what I introduced to resolve that. It is
+   not recorded anywhere else.
+2. **Thomas–Fermi screening.** A Debye/Thomas–Fermi mass requires real carriers at finite density or
+   temperature. At a Fermi point with μ = 0 there are none, and the atlas separately scores the
+   medium's pre-basin phase as "a gapless acoustic gas, not a plasma (no Debye, no gap)".
+3. **Two compensated bands.** The factor 2 in the screening needs an electron pocket and a hole
+   pocket at the same Fermi level — a compensated semimetal. The corpus describes no such band
+   structure.
+
+**So §6c is a conditional derivation, and its conditions are load-bearing.** *If* the basement has a
+compensated two-band Fermi surface at finite chemical potential with Thomas–Fermi screening, *then*
+k = 1.36461191 follows exactly, with nothing fitted. That the reconstruction lands on the corpus's
+booked value to every digit is either a strong hint about the basement's structure or a coincidence,
+and it is worth weighing as evidence — but it is evidence for the conditions, not a derivation from
+recorded structure. Supplying or refuting those three is now the basement build's sharpest task.
+
+**What the derivation rests on beyond that.** N₀ = k_F²/π²v assumes linear dispersion at the pairing shell,
 and §6a puts that shell at the bend-over where the cone terminates — so the bend-over's true
 density of states is owed, as is whatever fixes k_F. The rainbow truncation and the equal-density
 assumption for the two bands are the other two. Each is a computation inside the basement rather
