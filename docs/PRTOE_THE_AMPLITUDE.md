@@ -96,9 +96,18 @@ C ≡ A_s·N = R²(k_*ℓ_p)³/2π²: it hides the pivot-volume convention ℓ_p
 coefficient R = ∂ζ/∂(δn/n̄). At the medium's own conformal (w = ⅓) transfer R = ¼, the three
 natural conventions return C = π/4, 0.098 and 3.2×10⁻³ — a factor-250 spread, none of them 1, so
 C = 1 is an identification rather than a result. Equivalently, the closed form is the claim that the
-census lock freezes cells at **k_*ξ = 3.45×10⁻³** (at R = 1) — one part in 290 of the horizon — and
-that ratio is the number the basement owes; the lock criterion is mechanical, phase-slip freeze-out,
-Kibble–Zurek class. Data cannot referee C below ±1.4% (C = 1.009 ± 0.014); the derivation must.
+census locks cells at **k_*ξ = 3.45×10⁻³** (at R = 1) — one part in 290 of the pivot's own scale —
+and that ratio is the number the basement owes.
+
+**What kind of number it is, is settled, and it is not a freeze-out ratio.** A census carrying one
+frozen comoving cell size gives P_ζ = R²ξ³, which is k-independent: that is white noise,
+Δ²_ζ ∝ k³, **n_s = 4**. It reproduces A_s at the pivot by construction and misses the tilt by
+three. Scale invariance — which the tilt route separately *assumes* of this same shot imprint —
+requires instead ξ(k) ∝ 1/k, the coherence length holding a fixed fraction of the imprint scale
+across every decade the CMB resolves. So 3.45×10⁻³ is a **scaling** parameter, a length held at a
+constant fraction of the horizon while both grow, and not a single quench's frozen length. Data
+cannot referee C below ±1.4% (C = 1.009 ± 0.014); the derivation must, and it owes a mechanism of
+that type before it owes a number.
 
 *(A predecessor reading of this section named the residual as "the bounce's stiffness-ceiling scale,
 ~1.6×10¹⁶ GeV". That scale appears nowhere else in the corpus, is computed by no script, and does

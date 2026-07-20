@@ -1295,15 +1295,26 @@ L = (F_π²/2)(∂θ)², so F ≡ F_π = √2 f_π — the **130.4-MeV branch**.
 0.30–0.42 was one number written twice; the pinned value is 0.4204. (b) **The 0.3%
 QCD-proximity note was a cross-convention artifact** and is withdrawn: it divided the model's
 number by √2 and left QCD's undivided. Like for like, 0.4204 vs QCD's 130.4/440 = 0.2964 is a
-factor 1.4186 — √2 to 0.3%. The model sits a clean √2 above QCD, not on it. (c) **The
-corpus's two routes to this observable disagree by 2.39×.** The NJL/gap chain
-(`scripts/de_value_g_to_lambda.py`, calibrated at f_π = 93.1 vs 92.4 measured) gives
-f_dark/√σ = 0.1244 in the 92.4 convention = 0.1759 pinned, against the vortex-pair 0.4204.
-2.39 is neither √2 nor 2, so this survives every normalization choice. **This, not the
-convention, is what #134 now owes** — and no lattice can settle it, because both numbers are
-predictions of the same theory. Also recorded: F_dark/√σ and w·√σ are **not two independent
-referees** — the demand band is derived from c₂ *and* t, so only the pair tests anything,
-through c₂ = √3·2π·(F/√σ)²·(w√σ).
+factor 1.4186 — √2 to 0.3%. The model sits a clean √2 above QCD, not on it. (c) **A second
+route appeared to disagree by 2.39× and does not.** Also recorded: F_dark/√σ and w·√σ are
+**not two independent referees** — the demand band is derived from c₂ *and* t, so only the
+pair tests anything, through c₂ = √3·2π·(F/√σ)²·(w√σ).
+
+**#134 — CLOSED (2026-07-20, same day): the 2.39 was a change of denominator.** The NJL/gap
+chain (`scripts/de_value_g_to_lambda.py`) prints 0.1244 as *f/√σ*; its formula is
+f² = N_c M² F(y)/(2π²) with y = M/Λ, so the coded quantity (`:113`) is **f/Λ** — the NJL
+three-momentum regulator, not the string tension. Λ = √σ was inherited from two different
+statements about one number (`de_value_derive_Lambda_g.py:9-11` fixes Λ = m_e by electron
+compositeness; `de_value_g_to_lambda.py:51` labels 511 keV *the portal √σ_dark = m_e*), and
+the script's own QCD anchor refutes it: Λ = 631 MeV against √σ = 440 MeV, so read its way QCD
+returns f/Λ = 0.1475 where the measured f_π/√σ is 0.2100 — **1.42× off where it is checkable**.
+The 2.39 factors 1.424 (the unit error) × 1.186 (the real N_c = 2 dark-vs-QCD offset) × 1.419
+(the vortex route's own √2-above-QCD). The tell was printed all along: `:123-124` puts 0.1244
+against *"the corpus's QCD-transfer band 0.19–0.25"* and lands below it. The route cannot be
+repaired here — nothing determines Λ_dark/√σ_dark independently — and it was never the same
+observable anyway: it computes the **dyad's** condensate, while F_dark belongs to the
+**confining SU(2) sector**, whose two condensates §6 rules the dyad is neither of.
+**F_dark/√σ = 0.40–0.47 stands unopposed; the √2-above-QCD offset is what a lattice tests.**
 
 **THE KMS TWIST READING (2026-07-18, the night's last derivation):** the t_corr·T_c = 1
 question DISSOLVES — it was the drift picture's shadow of the KMS periodicity (β = 1/T is

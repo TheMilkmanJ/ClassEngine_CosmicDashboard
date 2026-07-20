@@ -95,15 +95,18 @@ def report():
     print("  => no convention returns C = 1 at the corpus's own transfer; the three")
     print("     readings span a factor of ~250. C hides the convention AND R.")
 
-    print("\n(4) WHAT THE CLOSED FORM IS EQUIVALENT TO (the forward target)")
+    print("\n(4) WHAT THE CLOSED FORM IS EQUIVALENT TO (the forward target, re-typed 2026-07-20)")
     for name, lp_k in [("wavelength", 2 * math.pi), ("inverse k", 1.0)]:
         # A_s = R^2 (k xi)^3 / 2pi^2  ->  k xi at R = 1
         kxi = (2 * math.pi ** 2 * A_cf) ** (1 / 3)
         print(f"  freeze-out ratio k_* xi required at R = 1: {kxi:.5e} "
               f"= 1/{1/kxi:.1f} of k_*^-1")
         break
-    print("  i.e. the census lock must freeze cells ~290x smaller than the horizon;")
-    print("  that is the Kibble-Zurek number the basement owes.")
+    print("  i.e. the census must lock cells ~290x below the mode's own scale.")
+    print("  NOT a Kibble-Zurek freeze-out ratio: P_zeta = R^2 xi^3 carries no k, so one")
+    print("  frozen comoving xi is white noise (Delta^2 ~ k^3, n_s = 4). Scale invariance")
+    print("  needs xi(k) ~ 1/k -- a SCALING length holding a fixed fraction of the horizon.")
+    print("  The basement owes a mechanism of that type before it owes the number.")
 
     print("\n(5) THE 6i JOINT'S REAL REQUIREMENT")
     rows = [("3 alpha(0)", AC), ("3 alpha(M_Z) [1/127.95]", 3 / 127.95),

@@ -1308,12 +1308,26 @@ thermal function. At the operating point that expansion does not apply: m_e/T_c 
 electrons are Boltzmann-suppressed and the expansion **overstates the thermal restoration by a
 factor ~16** (exact |J_F′| = 0.38 vs the expansion's 2.35).
 
-**Corrected:** with the exact kernel the cross-check reads **250–530 keV** over L−1 ∈ [1, 10] —
-three times narrower than the retired envelope, and sitting **above** the adopted 179 keV rather
-than bracketing it. The correction is therefore **adverse to the cross-check's comfort**: the
-perturbative route agrees less well than the old band implied. What is unaffected: the adopted
-T_c's own source (the confining chiral ratio τ·m_e, lattice-gated), and the standing
+**Corrected:** with the exact kernel the cross-check reads **307–714 keV** over L−1 ∈ [1, 10] —
+a factor 2.3 in range where the retired envelope spanned a factor 22, and sitting **entirely
+above** the adopted 177.10 keV rather than bracketing it. The correction is therefore **adverse to
+the cross-check's comfort**: the perturbative route does not agree less well than the old band
+implied — it **excludes** the adopted value, by 1.73× at its very bottom. What is unaffected: the
+adopted T_c's own source (the confining chiral ratio τ·m_e, lattice-gated), and the standing
 configuration's log-free timing relation, in which no such expansion appears.
+
+**A second correction, to the correction (2026-07-20, #182).** The **250–530 keV** first recorded
+here does not follow from the exact kernel over the stated L−1 ∈ [1, 10]: recomputed from the same
+kernel that yields this entry's own |J_F′| = 0.374 at m_e/T_c = 2.9, that range returns
+**307–714 keV**, and 250–530 keV corresponds instead to L−1 ∈ [0.50, 4.78]. **The recorded range
+and the recorded band were not the same computation.** The error was benign-looking and is not:
+it understated both the exclusion of 177.10 keV (1.73–4.03×, not 1.4–3.0×) and, decisively, the
+fraction of the dyad's own band lying **above the BBN fence's 500 keV** — **53%**, not the ~6% the
+old band implied. Since the ≤ 0.32σ whole-fence swing is stated *on* [70, 500], the claim that
+"the BBN books do not move" is **not established over the corrected band**. Now carried by
+`scripts/audit_math_pass.py`, which previously checked only the superseded high-temperature route.
+*(One home for the old band is outside this pass's write scope —
+`PRTOE_DERIVATION_HUNT.md` §6 — and still reads 250–530 keV.)*
 
 Caught in the resummation docket — the docket that was opened to shrink the band found that the
 band's width was the smaller problem.
@@ -1985,15 +1999,53 @@ manufactured both the "band" and the "0.3% proximity", and the two artifacts cor
 other. The file's own fence ("proximity is bait until the convention is computed") was correct and
 was the thing that survived.
 
-**What replaced it, and it is worse than what died.** With the convention pinned, the corpus's two
-independent routes to this one observable can finally be compared, and they disagree: the
-NJL/gap-equation chain (`scripts/de_value_g_to_lambda.py`, calibrated by returning f_π = 93.1 MeV
-against the measured 92.4) gives **0.1759 pinned** against the vortex-pair **0.4204** — a factor
-**2.39**, which is neither √2 nor 2 and therefore survives every normalization choice. No lattice
-can adjudicate it; both numbers are predictions of the same theory. Also corrected: the referee
-calendar billed *three* numbers of one campaign, but F_dark/√σ and w·√σ are **one** test — the
-demand band is derived from c₂ *and* the thickness, so only the pair constrains anything, via
-c₂ = √3·2π·(F/√σ)²·(w√σ).
+**What replaced it briefly, and then died too.** With the convention pinned, the corpus's two
+routes to this one observable were compared and appeared to disagree by **2.39×** — the
+NJL/gap-equation chain's **0.1759 pinned** against the vortex-pair **0.4204** — with the note that
+2.39 is neither √2 nor 2 and therefore survives every normalization choice. Also corrected at the
+same time, and this part stands: the referee calendar billed *three* numbers of one campaign, but
+F_dark/√σ and w·√σ are **one** test — the demand band is derived from c₂ *and* the thickness, so
+only the pair constrains anything, via c₂ = √3·2π·(F/√σ)²·(w√σ).
+
+### The "2.39× internal disagreement" (#134) — RETIRED (2026-07-20): it was a change of denominator
+
+**What it was:** the successor claim above — that the corpus holds two independent predictions of
+F_dark/√σ that disagree by a factor no convention explains, an internal contradiction no lattice
+could adjudicate.
+
+**Why it died — the NJL route never computed that ratio.** Its one-loop formula is
+f² = N_c M² F(y)/(2π²) with **y = M/Λ**, so the coded quantity (`de_value_g_to_lambda.py:113`,
+named `f_over_root_sigma`) is algebraically **f/Λ** — the decay constant in units of the NJL
+three-momentum regulator. Λ = √σ was inherited, not derived: `de_value_derive_Lambda_g.py:9-11`
+sets Λ = m_e by *compositeness* (the dyad as an electron bilinear), `de_value_g_to_lambda.py:51`
+labels the same 511 keV *the portal, √σ_dark = m_e*. **Two physical statements, one number,
+silently identified — and the script's own calibration theory refutes the identification:** its
+QCD set is Λ = 631 MeV (`:97`) against √σ = 440 MeV, so Λ/√σ = 1.434 there, and read the script's
+way QCD returns f/Λ = 0.1475 where its measured f_π/√σ is 0.2100 — **the step fails by 1.42× in
+the one theory where it is checkable.**
+
+| the 2.39, factored | what it is |
+|---|---|
+| **1.424** | Λ read as √σ — the unit error |
+| **1.186** | the real dark-vs-QCD difference in f/Λ (N_c = 2, its own y) |
+| **1.419** | the vortex route's already-recorded √2 above QCD — not a new disagreement |
+
+**The tell that was on the console the whole time.** `de_value_g_to_lambda.py:123-124` prints
+0.1244 against *"the corpus's QCD-transfer band 0.19–0.25"* — a number printed **below** the band
+it is compared to, in the same line, unchased.
+
+**What is left of the route:** nothing that reaches this observable. No independent determination
+of Λ_dark/√σ_dark exists (QCD's 1.434 is a transfer, not a derivation), so the chain yields
+f_dark/Λ_dark and no f_dark/√σ. Independently, it computes the **dyad's** condensate while F_dark
+belongs to the **confining SU(2) sector**, and the standing roster rules *"the dyad is neither"* of
+that sector's two condensates (`PRTOE_DERIVATION_HUNT.md:422-423`) — so the two were observables of
+different sectors under one label. **F_dark/√σ = 0.40–0.47 stands unopposed.**
+
+**The failure mode, named — and it is the same species as the √2 above.** A *dimensionless ratio
+was compared across two different denominators*. The √2 error compared one number in two
+normalizations; this one compared two numbers in two units. Both were invisible because the
+quantity carried a name (*"F_dark/√σ"*) rather than its definition, and the name was true of only
+one of the objects wearing it. **The general rule: a ratio is not identified by its numerator.**
 
 **The lesson (process).** *Two numbers a factor √2 apart are one number until proven otherwise.*
 In a sector where the decay constant has two live conventions differing by exactly √2, any
@@ -2115,3 +2167,42 @@ premise every time anyone checked the number instead of the argument.
 is the files that were quoting it, and the red-team brief is the one that cannot be left.* An
 [ESTABLISHED] tag on an inherited argument makes it look checked, and a defence that reaches a true
 conclusion gives a reviewer nothing to trip on.
+
+
+### The count C's Kibble–Zurek typing — RETIRED, the target names the wrong mechanism class (#168, 2026-07-20)
+
+**What was booked.** That A_s's residual count resolves into a freeze-out ratio —
+*"the census lock freezes cells at k_*ξ = 3.45×10⁻³ … the lock criterion is mechanical, phase-slip
+freeze-out, Kibble–Zurek class"* — and that this is *"the Kibble–Zurek number the basement owes."*
+
+**Why it cannot be that.** The mechanization's own line is P_ζ = R²ξ³, which carries no k. A single
+frozen comoving cell size is therefore **white noise**: Δ²_ζ = k³P_ζ/2π² ∝ k³, reproducing A_s at
+the pivot by construction and giving **n_s = 4**. A Kibble–Zurek quench delivers exactly that — one
+coherence length, frozen once, thereafter fixed in comoving units. The scale invariance the closed
+form needs requires the opposite, ξ(k) ∝ 1/k: a length holding a constant fraction of the imprint
+scale across every decade the CMB resolves, which is a **scaling (self-similar) solution**, not a
+freeze-out. A length that has stopped evolving cannot track a horizon that has not.
+
+**The internal collision this exposes.** The tilt route reads its whole answer off the envelope and
+takes the shot factor to be *"the A_s mechanism's own scale-invariant shot imprint"*, i.e. it
+already assumes what the count's mechanization denies. **The two mechanizations of one object are
+incompatible and exactly one can stand** — if the shot census is white noise the tilt is dead, and
+if the shot imprint is scale-invariant then P_ζ = R²ξ³ is wrong and the two-O(1) decomposition
+C = R²(k_*ℓ_p)³/2π² that rests on it goes with it.
+
+**A third mark against the label, independent of the spectrum argument.**
+[PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md) keeps the census lock and the phase-slip quantization
+event as *separate adjacent links* and says so explicitly. The freeze-out criterion is the
+quantization event's; attaching it to the census lock crossed a distinction the chain itself draws.
+
+**What survives.** The arithmetic is untouched: k_*ξ = (2π²A_s)^⅓ = 3.4502×10⁻³ at R = 1 is an
+exact restatement of the closed form, and the factor-250 convention spread, the C = 1.009 ± 0.014
+data limit, and the §6i joint with "α_c does not run" all stand. **Only the mechanism class is
+retired**, and the forward target is re-typed: a mechanism holding ξ/ℓ_H constant at 3.45×10⁻³
+across the observed decades. Also retired with it: the search for this transition's quench rate,
+critical exponents and microscopic (ξ₀, τ₀) — none of which the corpus records, and none of which
+would have answered the question.
+
+**The lesson (process).** *A residual can be named precisely, priced honestly, and still be filed
+under the wrong physics.* The number, its spread, and its data limit were all correct; the noun
+attached to it was not, and the noun is what a derivation would have to chase.

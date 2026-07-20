@@ -23,9 +23,12 @@ transition temperature into a two-parameter family
 lattice-refereed at P-2026-048; the coded pipeline still runs the earlier 179 keV, a
 difference priced at 0.002σ on D/H ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)). *(That
 keying value is the confining sector's scale rather than this field's own restoration temperature,
-which the exact thermal kernel puts at 250–530 keV; whether the two are one object is open and is
-stated in [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6. The BBN books do not move on it
-— the whole-fence swing is ≤ 0.32σ on D/H.)*
+which the exact thermal kernel puts at **307–714 keV** — a band that **excludes** the keying value
+by 1.73× at its bottom, so the two are **not one object**, consistent with
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 ruling the dyad neither of the confining
+sector's condensates. The ≤ 0.32σ whole-fence swing that made this look costless is stated on
+[70, 500] keV, and **53% of this field's own band lies above that fence**, where the dyad reaches
+n/p freeze-out — so the re-keying carries an unpriced BBN consequence, not just a structural one.)*
 
 *(A note on "gas": this is the author's phase-framing for the dyad's **complementary role** to
 the dCDF superfluid — the hot/thermal/lepton-binding side against the cold/chiral/abundance side.

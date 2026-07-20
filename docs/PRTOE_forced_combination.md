@@ -105,16 +105,52 @@ L_θ = (F²/2)(∂θ)² for the winding U(1) — two-color: the baryonic phase �
 F/√σ = √(q̃²/√σ / 2π·t√σ), inverted (thicker sheet, smaller F); it is not a normalization
 spread, which the paragraph above has now removed.
 
-**An internal disagreement this exposes, and it is not a convention.** The corpus reaches the
-same observable by a second, independent route — the NJL/gap-equation chain that fixes the
-dark quartic (`scripts/de_value_g_to_lambda.py`, the machinery calibrated by returning
-f_π = 93.1 MeV against the measured 92.4). That chain delivers **f_dark/√σ = 0.1244** in the
-92.4 convention, i.e. **0.1759 pinned** — against the vortex-pair demand of 0.4204. The two
-routes disagree by a factor of **2.39**, and that number is not √2 and not 2, so no
-normalization choice reconciles them. One of the two is wrong about this sector, and the
-lattice campaign cannot adjudicate it: both are predictions of the same theory, so the
-disagreement is internal and must be resolved before either number is offered as a referee
-target. **Docket #134 stands open on this, not on the normalization.**
+**The second route does not reach this observable, and the arithmetic says so.** The corpus's
+NJL/gap-equation chain (`scripts/de_value_g_to_lambda.py`, the machinery calibrated by returning
+f_π = 93.1 MeV against the measured 92.4) prints **0.1244** under the name *f/√σ*. It is not that
+ratio. Its one-loop formula is f² = N_c M² F(y)/(2π²) with **y = M/Λ**, so the coded expression
+(`:113`) is algebraically **f/Λ** — the decay constant in units of the **NJL three-momentum
+regulator**, not of the string tension. The two coincide only if Λ = √σ, and that equality is
+inherited rather than derived: `scripts/de_value_derive_Lambda_g.py:9-11` fixes Λ = m_e from
+compositeness (*"a charge-free scalar bilinear of electrons has its compositeness cutoff at the
+electron mass"*), while `de_value_g_to_lambda.py:51` labels the same 511 keV *"the portal:
+√σ_dark = m_e"*. **Two different physical statements about one number, silently identified.**
+
+**Its own calibration theory refutes the identification.** The QCD parameter set the script
+validates on is M = 336 MeV, **Λ = 631 MeV** (`:97`), against a string tension of
+**√σ = 440 MeV** — so in the one theory where the machinery is anchored, Λ/√σ = **1.434**, not 1.
+Read the script's way, QCD returns f/Λ = **0.1475** where QCD's measured f_π/√σ is **0.2100**: the
+step fails by **1.42×** exactly where it is checkable. The symptom was already on the console —
+`:123-124` prints 0.1244 against *"the corpus's QCD-transfer band 0.19–0.25"* and lands **below**
+the band it is being compared to.
+
+**What the 2.39 was made of.** It factors cleanly into three pieces, only one of them physics:
+
+| factor | what it is |
+|---|---|
+| **1.424** | Λ read as √σ — the unit error, refuted by the QCD anchor |
+| **1.186** | the genuine dark-vs-QCD difference in f/Λ (N_c = 2 and its own y) |
+| **1.419** | the vortex route's **already-recorded** √2 above QCD |
+
+Correcting only the first, with QCD's own Λ/√σ, moves the NJL number to 0.1784 in the 92.4
+convention — **0.2523 pinned** — and the residual against the vortex-pair demand falls to
+**1.67×**, which is not a third disagreement but the two factors this file already owns. **The
+2.39 was never a physical discrepancy between two predictions; 1.42 of it was a change of
+denominator.**
+
+**And the correction cannot be completed, which is the honest end of the route.** Nothing in the
+corpus determines Λ_dark/√σ_dark independently — QCD's 1.434 is a transfer, not a derivation — so
+the NJL chain yields **f_dark/Λ_dark** and no value of f_dark/√σ at all. **A second, independent
+reason it was never the same observable:** that chain computes the **dyad's** condensate, while
+F_dark is the **confining SU(2) sector's** Goldstone decay constant, and the standing roster keeps
+those apart — §6 of [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) records the sector's two
+condensates, the diquark ⟨qq⟩ and the chiral ⟨q̄q⟩, and rules that *"the dyad is neither"*. Two
+sectors, two decay constants, one label.
+
+**Where that leaves the demand.** **F_dark/√σ = 0.40–0.47 stands unopposed** as the referee target;
+the vortex-pair route is the corpus's only computation of it. What the audit removes is a rival
+number, not a debt: the route's √2-above-QCD offset (§4 above) is still the thing a lattice would
+test, and it is still un-derived. **Docket #134 closes.**
 
 **The phase, at its floor: the KMS twist.** At temperature T and chemical potential μ, the
 thermal state's KMS boundary condition twists a charged field's phase by exactly μβ = μ/T

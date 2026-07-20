@@ -583,15 +583,34 @@ chk("forced_combination", "QCD f_pi/sqrt(sigma), 92.4 MeV convention", 0.21, 92.
 chk("forced_combination", "demand / QCD, like for like", 1.4186, _Fdk(1.0)/_QCD_PIN, 1e-3, "x")
 chk("FAILURES_LEDGER", "retired: that ratio IS sqrt(2), to 0.31%", 0.31,
     100*(_Fdk(1.0)/_QCD_PIN/_m.sqrt(2) - 1), 0.05, "%")
-# the internal disagreement the pin uncovered: NJL route vs vortex-pair route
-_NJL_92 = 0.1244                        # scripts/de_value_g_to_lambda.py, 92.4 convention
-chk("forced_combination", "NJL f_dark/sqrt(sigma) converted to pinned", 0.17593,
+# the "2.39x internal disagreement" the pin appeared to uncover -- RETIRED (#134, 2026-07-20).
+# The NJL route computes f/Lambda_NJL, not f/sqrt(sigma): its one-loop f^2 = N_c M^2 F(y)/(2pi^2)
+# carries y = M/Lambda, so de_value_g_to_lambda.py:113 is algebraically f/Lambda. The script's own
+# QCD anchor refutes Lambda = sqrt(sigma): Lambda = 631 MeV there against sqrt(sigma) = 440 MeV.
+_NJL_92 = 0.1244                        # de_value_g_to_lambda.py:113 -- this is f/Lambda
+_Ff  = lambda y: _m.log((1+_m.sqrt(1+y*y))/y) - 1/_m.sqrt(1+y*y)   # the f^2 loop integral
+_fq  = _m.sqrt(3*336.0**2*_Ff(336.0/631.0)/(2*_m.pi**2))           # the script's QCD f_pi
+_i134 = (92.4/440.0)/(_fq/631.0)         # (i)   Lambda read as sqrt(sigma) -- the unit error
+_ii134 = (_fq/631.0)/_NJL_92             # (ii)  the real dark-vs-QCD offset in f/Lambda
+_iii134 = _Fdk(1.0)/_QCD_PIN             # (iii) the vortex demand's own sqrt(2) over QCD
+chk("FAILURES_LEDGER", "retired: the NJL number read as pinned f_dark/sqrt(sigma)", 0.17593,
     _NJL_92*_m.sqrt(2), 1e-3)
-chk("forced_combination", "vortex-pair / NJL, both pinned", 2.390,
+chk("FAILURES_LEDGER", "retired: the apparent vortex/NJL disagreement", 2.390,
     _Fdk(1.0)/(_NJL_92*_m.sqrt(2)), 1e-3, "x")
-chk("forced_combination", "that disagreement is not a convention factor", 1.0,
-    1.0 if abs(_Fdk(1.0)/(_NJL_92*_m.sqrt(2)) - _m.sqrt(2)) > 0.5
-        and abs(_Fdk(1.0)/(_NJL_92*_m.sqrt(2)) - 2.0) > 0.3 else 0.0, 1e-9)
+chk("forced_combination", "the script's QCD calibration returns f_pi", 93.09, _fq, 1e-3, "MeV")
+chk("forced_combination", "QCD read the script's way is f/Lambda", 0.14752, _fq/631.0, 1e-3)
+chk("forced_combination", "#134 (i): the Lambda-as-sqrt(sigma) step fails on QCD", 1.4235,
+    _i134, 1e-3, "x")
+chk("forced_combination", "#134 (ii): dark vs QCD in f/Lambda (N_c = 2 and its own y)", 1.1859,
+    _ii134, 1e-3, "x")
+chk("forced_combination", "#134 (iii): the vortex demand's sqrt(2) over QCD", 1.4186,
+    _iii134, 1e-3, "x")
+chk("forced_combination", "the three factors reproduce the 2.39", 2.390,
+    _i134*_ii134*_iii134, 5e-3, "x")
+chk("forced_combination", "NJL corrected by QCD's Lambda/sqrt(sigma), pinned", 0.2523,
+    _NJL_92*(631.0/440.0)*_m.sqrt(2), 1e-3)
+chk("forced_combination", "the corrected residual is (ii)x(iii), not a third disagreement", 1.666,
+    _Fdk(1.0)/(_NJL_92*(631.0/440.0)*_m.sqrt(2)), 5e-3, "x")
 # the joint inversion: only (F/sqrt(sigma), w*sqrt(sigma)) together return c_2
 chk("forced_combination", "c_2 recovered from the pair", 1.9236,
     _m.sqrt(3)*2*_m.pi*_Fdk(0.95)**2*0.95, 1e-4)
@@ -1021,7 +1040,7 @@ chk("THE_AMPLITUDE", "C at R=1/4, half-wave convention", 0.098175, _C(0.25, math
 chk("THE_AMPLITUDE", "C at R=1/4, inverse-k convention", 3.1665e-3, _C(0.25, 1.0), 1e-3)
 chk("THE_AMPLITUDE", "R needed for C = 1 (wavelength) = 1/sqrt(4 pi)", 0.28209,
     1/math.sqrt((2*math.pi)**3/(2*math.pi**2)), 1e-4)
-chk("THE_AMPLITUDE", "freeze-out ratio k_* xi the closed form implies (R=1)", 3.4502e-3,
+chk("THE_AMPLITUDE", "scaling ratio k_* xi the closed form implies (R=1)", 3.4502e-3,
     (2*math.pi**2*_As168)**(1/3), 1e-4)
 # hierarchy 6i: what the scale selection actually requires of C
 _As_MZ = (lambda a: (a/(4*math.pi*(math.log(1+math.pi/(2*a))/math.pi)))**3)(3/127.95)
@@ -1334,6 +1353,43 @@ chk("UV_completion 17", "the standing T_c inside the BBN fence [70, 500], lower 
     177.10/70, 0.01, "x")
 chk("UV_completion 17", "the standing T_c inside the BBN fence, upper margin", 2.82,
     500/177.10, 0.01, "x")
+
+# --- #182: the dyad's own T_c on the EXACT thermal kernel, not the expansion ------
+# The high-T route above overstates the restoration ~16x at m_e/T_c ~ 2.9 (the electrons are
+# Boltzmann-suppressed). The exact balance is t^3*|J_F'(1/t)| = (L-1)/8 with t = T_c/m_e.
+# This band is what the ramp would key on if it keyed on the DYAD's transition.
+def _JFp(y, n=4000, hi=60.0):    # |J_F'(y)| = y*int_0^inf x^2/(E(e^E+1)) dx, Simpson
+    h = hi/n; s = 0.0
+    for i in range(n+1):
+        x = i*h; E = math.sqrt(x*x + y*y)
+        f = x*x/(E*(math.exp(E)+1.0)) if E < 700 else 0.0
+        s += f*(1 if i in (0, n) else (4 if i % 2 else 2))
+    return y*s*h/3.0
+def _TC_EX(Lm1):                 # keV
+    lo, hi = 0.05, 5.0
+    for _ in range(80):
+        mid = 0.5*(lo+hi)
+        if mid**3*_JFp(1.0/mid) < Lm1/8.0: lo = mid
+        else: hi = mid
+    return 0.5*(lo+hi)*ME/1e3
+chk("FAILURES_LEDGER", "exact |J_F'| at the operating point m_e/T_c = 2.9", 0.374,
+    _JFp(2.9), 1e-2)
+chk("FAILURES_LEDGER", "the high-T expansion there, which overstates it", 2.385,
+    math.pi**2/12*2.9, 1e-3)
+chk("MATH_SPINE 4", "exact-kernel dyad T_c at L-1 = 1 (band bottom)", 307.2, _TC_EX(1), 2e-3, "keV")
+chk("MATH_SPINE 4", "exact-kernel dyad T_c at L-1 = 10 (band top)", 714.3, _TC_EX(10), 2e-3, "keV")
+chk("MATH_SPINE 4", "the band's bottom EXCLUDES the ramp's keying value", 1.734,
+    _TC_EX(1)/177.10, 5e-3, "x")
+chk("MATH_SPINE 4", "the band's top over the keying value", 4.033, _TC_EX(10)/177.10, 5e-3, "x")
+chk("MATH_SPINE 4", "L-1 where the band crosses the BBN fence's 500 keV", 500.0,
+    _TC_EX(4.10), 5e-3, "keV")
+chk("MATH_SPINE 4", "fraction of the band above the fence, by keV", 52.6,
+    100*(_TC_EX(10)-500.0)/(_TC_EX(10)-_TC_EX(1)), 2e-2, "%")
+# the retired band: 250-530 keV does not follow from L-1 in [1,10] on this kernel
+chk("FAILURES_LEDGER", "retired: 250 keV corresponds to L-1 = 0.50, not 1", 250.0,
+    _TC_EX(0.50), 1e-2, "keV")
+chk("FAILURES_LEDGER", "retired: 530 keV corresponds to L-1 = 4.78, not 10", 530.0,
+    _TC_EX(4.78), 1e-2, "keV")
 # the retired geometric-mean heuristic, kept so the ledger's arithmetic stays checkable
 chk("FAILURES_LEDGER", "retired heuristic sqrt(f*Lambda_IR) at f = 100 TeV", 480.0,
     math.sqrt(1e14*2.3e-3)/1e3, 0.01, "keV")
@@ -1367,6 +1423,52 @@ chk("lowell_anomalies", "k_min chi_* at the floor = 2 pi chi_*/L", 3.1325,
 _cut = _quad(lambda x: _spherical_jn(2, x)**2/x, math.pi, 400, limit=400)[0]
 chk("FAILURES_LEDGER", "sharp-cutoff C_2 retention at L = 2D (the retained toy's 0.49)", 0.489,
     _cut*12, 0.01)
+
+# --- #22: the flavour verdict's forward numbers (DERIVATION_HUNT §9, 2026-07-20) ---
+# With A = sqrt(2) (from Q = 2/3) and theta = 2/9 (from the closure), the Z3 ring has no
+# freedom left but the overall scale, so BOTH charged-lepton mass ratios are determined.
+_k22 = [1 + math.sqrt(2)*math.cos(2*math.pi*j/3 + 2/9) for j in range(3)]
+_m22 = sorted(x*x for x in _k22)
+chk("DERIVATION_HUNT 9", "(A=sqrt2, theta=2/9) predicts m_mu/m_e", 206.7703, _m22[1]/_m22[0], 1e-5)
+chk("DERIVATION_HUNT 9", "(A=sqrt2, theta=2/9) predicts m_tau/m_e", 3477.473, _m22[2]/_m22[0], 1e-5)
+chk("DERIVATION_HUNT 9", "its m_mu/m_e miss vs measured 206.76828", 9.83e-6,
+    _m22[1]/_m22[0]/206.76828 - 1, 0.02)
+chk("DERIVATION_HUNT 9", "its m_tau/m_e miss vs measured 3477.2283", 7.03e-5,
+    _m22[2]/_m22[0]/3477.2283 - 1, 0.02)
+
+# --- #146: the r-sensitivity, both sides (hierarchy 6e, 2026-07-20) ---
+# 6e varies r = v_e/v_h through the SCREENING density of states only, N_screen = (1+r)N0.
+# The PAIRING density of states also depends on r: for congruent pockets the excitonic pair
+# variable is xibar = (v_e+v_h)(k-k_F)/2, so N_pair = [2r/(1+r)] N0 -- exactly N0 at r = 1.
+_kb   = lambda b: math.log(1 + 1/b)/math.pi
+_br   = lambda r: (3*ALPHA)*(1 + r)/math.pi          # b = alpha_c (1+r)/(pi v), v = 1
+_scr  = lambda r: 1/(_kb(_br(r))*3*ALPHA)                    # screening term alone
+_both = lambda r: (1 + r)/(2*r)/(_kb(_br(r))*3*ALPHA)        # + the pairing DOS
+_hh = 1e-6
+chk("hierarchy 6e", "b(r=1) reproduces the booked 2 alpha_c/pi", 0.0139369, _br(1.0), 1e-5)
+chk("hierarchy 6e", "pairing DOS factor 2r/(1+r) is exactly 1 at r = 1", 1.0, 2/(1+1), 1e-12)
+chk("hierarchy 6e", "dlnM/dr, screening term alone", -3.8504,
+    -(_scr(1+_hh) - _scr(1-_hh))/(2*_hh), 1e-3)
+chk("hierarchy 6e", "dlnM/dr with the pairing DOS included", 12.8865,
+    -(_both(1+_hh) - _both(1-_hh))/(2*_hh), 1e-3)
+
+# --- #168: a fixed-comoving-cell shot census is white noise (FAILURES_LEDGER, 2026-07-20) ---
+# P_zeta = R^2 xi^3 carries no k, so Delta^2 = k^3 P/2pi^2 has log-slope 3, i.e. n_s = 4.
+_D2_168 = lambda kk: kk**3 * 1.0 / (2*math.pi**2)      # R^2 xi^3 held fixed
+chk("THE_AMPLITUDE", "fixed-cell shot census: dln(Delta^2)/dlnk = n_s - 1", 3.0,
+    math.log(_D2_168(1.01)/_D2_168(1.0))/math.log(1.01), 1e-3)
+
+# --- #130: the induced split, for the coupling alpha_c = 3 alpha actually names ---
+# The recorded 44% is HYPERCHARGE at M_Z. alpha_c = 3 alpha names alpha_EM at q = 0.
+# 1/alpha_EM = 1/alpha_2 + 1/alpha_Y, on the light file's own M_Pl handouts.
+_invY_Pl, _inv2_Pl = 55.5, 49.4                        # PRTOE_light.md, the two handouts
+_invEM_Pl = _invY_Pl + _inv2_Pl
+_share_EM = (1/ALPHA - _invEM_Pl)/(1/ALPHA)            # the medium loop's share of 1/alpha_EM(0)
+chk("light 5", "bare EM handout 1/a_EM(M_Pl) = 1/a_Y + 1/a_2", 104.9, _invEM_Pl, 1e-6)
+chk("DERIVATION_HUNT 1", "medium loop share of 1/a_EM(0) -- piece 2's real number", 23.45,
+    100*_share_EM, 1e-3, "%")
+chk("DERIVATION_HUNT 1", "the recorded 44% over that correct share", 1.859,
+    (42.9/98.4)/_share_EM, 1e-3, "x")
 
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]

@@ -191,10 +191,28 @@ two fix the third. With the recorded λ_dyad the relation places **f ≈ 145 TeV
 and its [40, 900] keV envelope both used the *high-temperature expansion* of the thermal
 function, which overstates the restoration by ~16× at this operating point (m_e/T_c ≈ 2.9 —
 the electrons are Boltzmann-suppressed there). With the exact kernel the cross-check reads
-**250–530 keV over L−1 ∈ [1, 10]** — three times narrower than the recorded envelope, and
-sitting *above* the adopted 177.10 keV rather than bracketing it. Stated plainly: the perturbative route
-corroborates the adopted value less well than the old envelope suggested; the adopted value's
-source is the confining chiral ratio, not this route. *The predecessor configuration —
+**307–714 keV over L−1 ∈ [1, 10]** — a factor 2.3 in range where the recorded envelope spanned a
+factor 22, and sitting *entirely above* the adopted 177.10 keV rather than bracketing it, by
+**1.73× at its very bottom**. Stated plainly: the perturbative route does not corroborate the
+adopted value at all — it excludes it; the adopted value's source is the confining chiral ratio,
+not this route.
+
+> **What that costs, and it is not only a comfort.** Intersecting the dyad's two internal
+> determinations — this one and the timing relation's 130–940 keV over the registered f window —
+> leaves **307–714 keV**, which **excludes 177.10 keV**. So the ramp ε(T) = ε(1 − T/T_c) is keyed
+> on a temperature the dyad's own physics does not reach, while ε is the dyad's order parameter;
+> §6 of [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) assigns 177.10 keV to the confining
+> sector and rules the dyad is neither of that sector's condensates. **And the BBN safety argument
+> does not survive the correction:** the ≤ 0.32σ whole-fence swing is stated on the fence [70, 500]
+> keV, but **53% of the corrected band lies above 500 keV** (everything past L−1 = 4.1), where by
+> the fence's own definition the dyad reaches n/p freeze-out and helium moves — an effect that
+> bound does not price. Re-keying the ramp onto the dyad's own band is therefore a **numerical**
+> question as well as a structural one. *(The 250–530 keV figure this replaces does not follow from
+> the exact kernel over the stated range: it corresponds to L−1 ∈ [0.50, 4.78]. Recomputed from the
+> same kernel that gives the file's own |J_F′| = 0.374 at m_e/T_c = 2.9;
+> `scripts/audit_math_pass.py` carries the band.)*
+
+*The predecessor configuration —
 the electron-CW VEV v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV — is RETIRED (BBN-fatal at its
 recorded operating point; autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md));
 its formulas do not describe the standing model.*

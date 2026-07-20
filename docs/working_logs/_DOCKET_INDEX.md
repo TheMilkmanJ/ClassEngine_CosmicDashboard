@@ -48,7 +48,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 19 | Big-claim mining 1: the lithium problem (the windowed Li-7 row) | closed |
 | 20 | Big-claim mining 2: baryogenesis (η = n × transmission) | closed |
 | 21 | Big-claim mining 3: small-scale structure (core-cusp, missing satellites) | closed |
-| 22 | Big-claim mining 4: the flavour puzzle | closed — **unverified**, no named home |
+| 22 | Big-claim mining 4: the flavour puzzle | **verdict delivered** (DERIVATION_HUNT §9) — the count is derived, the mass ratios are staked on (A = √2, θ = 2/9) and gated, the mixing angles are constitutionally out of reach |
 | 23 | Big-claim mining 5: strong-CP, the constitutional silence | closed |
 | 24 | THE RAMP RE-GRADE: every [R]/null domain verdict re-audited for buried boundaries | closed — **unverified** |
 | 25 | The evidence trio: TRGB live → grade forecast → anchor-free pair → SH0ES companion | running |
@@ -155,11 +155,11 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 127 | The C²-to-threshold map | closed |
 | 128 | The BBN-stability fence, re-stated below its own anchor | closed — fence is [70, 500] keV structural; whole-range swing ≤ 0.32σ on D/H |
 | 129 | The matched-junction interface — the velocity ladder's first payable step | open |
-| 130 | The base α's two owed pieces | open |
+| 130 | The base α's two owed pieces | open — neither closes; piece 1's missing object is a two-channel Π (no posterior can substitute), and piece 2's recorded 44% is hypercharge-at-M_Z where the right number for α_EM(0) is **23.5%** |
 | 131 | The X₀ erasure reformulation | closed — the X₀-free canonical form in clock units ξ = φ/√(2X₀) (v5 five-verdict §2.1); two scales, M₂ and m̄₂, both landed; the atlas whisper carries the answer |
 | 132 | Rebuild the docket index | closed — **this file**; see the note below |
 | 133 | Which rung condensation picks | closed — the dyad's restoration temperature is κ-independent, so f cancels and the bracket is m_e; all three recorded readings sit inside the escape window, and the BBN fence [70, 500] keV binds tighter |
-| 134 | The dark vortex-pair computation — F_dark/√σ's normalization band | normalization **fixed** (F ≡ √2 f_π, the 130.4-MeV branch; the "band" was one number twice) — **open on what that uncovered**: the NJL route gives 0.1759 pinned against the vortex-pair 0.4204, a 2.39× internal disagreement |
+| 134 | The dark vortex-pair computation — F_dark/√σ's normalization band | **closed.** Normalization fixed (F ≡ √2 f_π, the 130.4-MeV branch; the "band" was one number twice). The 2.39× "internal disagreement" it uncovered is retired: the NJL route computes f/Λ_NJL, not f/√σ, and its own QCD anchor (Λ = 631 vs √σ = 440) refutes the identification by 1.42× — 1.42 of the 2.39 was a change of denominator, the rest the vortex route's own recorded √2-above-QCD. F_dark/√σ = 0.40–0.47 stands unopposed |
 | 135 | The staged candidate tests — flesh out or retire | closed |
 | 136 | The composite-Higgs exposure | closed — **withdrawn**; the Higgs here is elementary (hierarchy §2(c)) |
 | 137 | The bend-over density of states — what N₀ is at the pairing shell | closed |
@@ -171,7 +171,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 143 | PROPAGATION PASS | closed |
 | 144 | At what scale α_c = 3α holds | closed |
 | 145 | The coupling window between S and flavour | closed — mooted by #136's withdrawal |
-| 146 | THE BASEMENT'S BAND STRUCTURE — supply or refute §6c's three conditions | open — **the hierarchy chain hangs on it** |
+| 146 | THE BASEMENT'S BAND STRUCTURE — supply or refute §6c's three conditions | **reduced to one** — TF screening is entailed by finite μ, λ = 0.03's condensation collapses into the two-band condition, r = 1 is supplied by the one-metric clause; the residue is a **species-selective chiral μ₅ on one node pair** |
 | 147 | THE AD-DIRECT RECTIFICATION — T14's link 5 | closed — half one answered; half two rehomed to #154 |
 | 148 | THE REVERSE AUDIT — every completed task against file closure | closed at 110/110 |
 | 149 | THE DEEP AUDIT, checks 12 and 13 | open |
@@ -193,7 +193,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 165 | The synchrotron row's weight convention | closed — number was fixed-field, label said fixed-energy |
 | 166 | The competitor comparison — steelman the H₀ market | closed — built, and caught a miscitation; EDE outscores this class on every column |
 | 167 | The timing error band | closed — and the occupancy was mixing two clocks: 1-in-37, not 1-in-29 |
-| 168 | The count C — mechanize A_s's shot-noise normalization | open — C = 1 is an identification, not a result; two O(1)s, factor-250 convention spread |
+| 168 | The count C — mechanize A_s's shot-noise normalization | open, and the target is re-typed — a fixed comoving cell is white noise (n_s = 4), so k_*ξ = 3.45×10⁻³ is a **scaling** ratio, not a Kibble–Zurek freeze-out; the count's and the tilt's mechanizations are mutually incompatible |
 | 169 | The g→λ map | closed — λ = 26–46, whole band above λ* = 22.41, so uncontrolled at this order |
 | 170 | M7's remaining half — f_wind | closed — 255× under the fence; the comb's detection claim dies, its location survives |
 | 171 | Resolve the four unverifiable closures | closed — three traced to one commit that deleted 8,635 lines claiming to preserve every live finding |
