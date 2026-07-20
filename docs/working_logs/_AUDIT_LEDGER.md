@@ -2656,3 +2656,20 @@ Recorded because it is the fourth favourable pattern noticed today and the shall
 a coincidence dressed as an identity is exactly what a later reader — or a later me — would chase.
 The other three (Migdal suppression, the one-cone protection of r = 1, the ladder resummation) at
 least required a physics argument to reject; this one only required writing the number out.
+
+### 2026-07-19 — #145 closed as mooted; the retraction-propagation rule added
+
+**#145 (the coupling window between S and flavour) is mooted by the composite-Higgs withdrawal.**
+Both exposures it was meant to reconcile belong to a reading this model does not hold: with an
+elementary Higgs whose mass parameter is induced, the compositeness bound is replaced by the
+portal-roster doublet count (§6j) and the extended-technicolor flavour problem does not arise at all
+(the Yukawas are the Standard Model's). There is no window to find because there are no two
+constraints pulling against each other. Closed rather than left pending, since a live task naming a
+tension that does not exist is exactly the defect this morning's sweep was about.
+
+**Protocol amended.** The rule added this morning — a result is not filed until its inheriting files
+are updated in the same commit — covered new findings and said nothing about retractions. A
+withdrawal creates propagation debt *retroactively*: the carrying files were correct when written and
+became wrong hours later, so nothing prompts a re-check. Today one withdrawal left six files
+asserting "k is derived" after its home file had qualified it. The protocol now says: **when a claim
+is withdrawn, re-run its propagation list, not just its home file.**

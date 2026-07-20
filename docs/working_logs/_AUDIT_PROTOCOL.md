@@ -81,6 +81,13 @@ solved in the medium, was named nowhere at all. Eight further undocketed items c
 sweep. Both failures are check 13 not being run: the first dies on "is this actually still owed?",
 the second on "what does this file owe that it has not said out loud?"
 
+**Propagation runs in both directions.** A result is not filed until the files inheriting it are
+updated *in the same commit* — and the same applies when a claim is **withdrawn**. A retraction
+creates propagation debt retroactively: the carrying files looked correct when they were written and
+became wrong hours later, so nothing prompts a re-check. On 2026-07-19 a single withdrawal left six
+files asserting an unqualified claim its home file had already retracted. **When a claim is
+withdrawn, re-run its propagation list, not just its home file.**
+
 A file is not closed until checks 12 and 13 pass. Running the regression harness and a stale-pattern sweep
 is necessary and is not sufficient: both test what you thought to test.
 
