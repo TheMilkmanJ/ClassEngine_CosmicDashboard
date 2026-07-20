@@ -2465,3 +2465,24 @@ both favoured the model; the standing rule after them was INTEGRATE, DO NOT ARGU
 cancellation" hedge was a fourth verbal argument, inherited from a textbook regime the host does
 not sit in, and it also pointed the favourable way — a cancellation was the one outcome that would
 have rescued the census arrow. The rule caught it only because it was applied.
+
+### The helicity↔matter cross-messenger lock — WITHDRAWN, the two signs are independent (#154, 2026-07-20)
+
+**What was claimed.** `PRTOE_igmf_helicity.md` carried a distinctiveness claim: that the intergalactic-
+magnetic-field helicity sign is set by the *same* topological draw that set matter over antimatter —
+a three-way parity-lock on one integer, sign(helicity_B) = sign(n) = the baryon draw. No other
+magnetogenesis framework predicts a helicity sign correlated with the baryon asymmetry, so the claim
+was the sector's headline distinctiveness. It was flagged as owed, never established.
+
+**Why it is withdrawn.** The joint genesis solver (`scripts/genesis_joint_draw.py`) evolves the
+winding n and the rotation θ̇ on one trajectory and finds them independent: the joint correlation
+holds at −0.06 to +0.09 against a ±0.13 noise floor. The reason is spatial parity — reversing the
+ring flips n → −n while the charge Q that sets θ̇ and the tilt torque are site-sums that do not move,
+so every trajectory's mirror keeps θ̇ and flips n. sign(θ̇·n) is a coin the model cannot call.
+
+**Not a resolution artefact, and not forced.** The instrument sees a correlation the moment a
+parity-odd term the model lacks is injected (+0.51/−0.75); the recorded potential holds −0.09. The
+model joins the generic case: helicity, if measured, is an independent accident. What survives is the
+seeding-side magnitude claim sign(helicity_B) = sign(n); only its lock to the matter–antimatter draw
+is gone. Link 4's sign(H_kin) is a separate, still-open object (a 3D writhe+twist quantity no 1D
+solver reaches).
