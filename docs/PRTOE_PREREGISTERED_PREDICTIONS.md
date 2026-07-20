@@ -2146,10 +2146,12 @@ from an identification to a derivation — the owed step.
 
 **AMENDMENT (2026-07-19) — kill (d) is PAID, and the precision is withdrawn.** The gap equation
 was written down and solved rather than adopted ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
-§6b–6g). The exponent's 35 is now derived: 1/(kα_c) + 3/2 = 33.47 + 1.50 = 34.97, with **k = 1.36461
-derived**, not fitted — Thomas–Fermi screening at 2α_c/π from a *two-band* polarisation (electron
-plus hole, forced by the vacuum's neutrality via compensation), averaged over the full Fermi surface.
-Verified independently by Monte-Carlo. The channel is fixed too: **particle-hole, not Cooper** — a
+§6b–6g). The exponent's 35 is now derived: 1/(kα_c) + 3/2 = 33.47 + 1.50 = 34.97, with **k = 1.36461 reconstructed
+exactly**, not fitted — Thomas–Fermi screening at 2α_c/π from a *two-band* polarisation, averaged over
+the full Fermi surface, Monte-Carlo verified. **Conditional:** that host is a cold degenerate Fermi
+surface, and the recorded basement is a hot Fermi point; the hot reading misses the screening
+constant by 1.6–2× (hierarchy §6m). The exponent's derivation therefore rests on band structure the
+corpus has yet to supply. The channel is fixed too: **particle-hole, not Cooper** — a
 charge-2e condensate at this scale would give the photon a mass ~10¹² eV against the recorded bound
 of 10⁻¹⁸ eV. So the identification has become a derivation and the claim's *mechanism* is stronger
 than at registration.

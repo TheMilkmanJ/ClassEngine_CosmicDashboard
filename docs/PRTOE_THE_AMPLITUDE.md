@@ -78,8 +78,8 @@ area law (derived and confirmed numerically), the activation ramp (the Hagedorn-
 = T_c), and the reconciliation — the thermal amplitude and the census bookkeeping are one object.
 
 **What the closed form actually rests on**, checked term by term: A_s = (α_c/4πk)³, where
-**k = ln(1 + π/2α_c)/π = 1.36461** is a screened-interaction integral, and it is **derived**
-rather than merely recognised: it is the Fermi-surface average of a Thomas–Fermi-screened Coulomb
+**k = ln(1 + π/2α_c)/π = 1.36461** is a screened-interaction integral, and it reconstructs
+exactly — **conditionally** — the reconstruction is exact but its host (a cold degenerate Fermi surface at finite μ, Thomas–Fermi screening, two compensated bands) is not what this corpus records for the basement, which is a hot Fermi point; hierarchy §6c, §6m — as the Fermi-surface average of a Thomas–Fermi-screened Coulomb
 exchange, over the full sphere, with the screening constant 2α_c/π coming out of e²·(2N₀)/4k_F²
 — the factor 2 being the *two-band* polarisation that a particle-hole condensate has by the
 vacuum's own neutrality ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). It
