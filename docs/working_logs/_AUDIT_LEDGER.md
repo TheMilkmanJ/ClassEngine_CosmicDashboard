@@ -3265,3 +3265,22 @@ defects is to assume a field of them, and here the honest count is two.
 #152 closes. The exhaustive form — canonical-name resolution across all four authorities including
 tree-only and ledger-only rows — remains available if the corpus grows a third file that grades the
 same objects, but on today's corpus the overlap is what exists and it has been read.
+
+### 2026-07-20 — payoff check, second batch: two clean, one hit at the point of claim
+
+- **#117 (the bounce sector) — CLEAN.** Its payoff is a closed cycle, and the dependency tree grades
+  the cycle story "grammar — bounce equations owed (B1/B7)". No file claims what #117 would deliver.
+- **#125 (why the kinetic term, not only Weinberg) — CLEAN.** MATH_SPINE names it directly as "the
+  portal's **un-derived core**", which is the payoff stated as owed.
+- **#146 (the basement's band structure) — HIT, and a small one worth fixing.** Its payoff is k
+  derived *unconditionally*. §6c's heading read flatly "**So k is derived rather than adopted:**",
+  with the three conditions — a cold degenerate Fermi surface at finite μ, Thomas–Fermi screening,
+  two compensated bands, none of them the recorded basement — arriving in a later paragraph. A reader
+  skimming the section takes the heading. Qualified at the point of claim.
+
+**Third instance today of the same micro-shape:** a bold assertion followed, further down, by the
+caveat that governs it. `information_paradox` line 8 versus its own line 60; `cosmic_magnetism`'s
+DETERMINED SIGN versus T14's owed link; and now §6c's heading versus its own conditions. In each
+case the file was *not* hiding anything — the qualification was present and honest — but it arrived
+after the sentence a skimming reader would quote. **Placement is a correctness property when the
+claim is bold and the caveat is prose.**

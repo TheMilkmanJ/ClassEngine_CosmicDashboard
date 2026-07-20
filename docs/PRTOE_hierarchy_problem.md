@@ -294,7 +294,7 @@ and it is the entire content of the constant:
 $$b \;\equiv\; \frac{m_D^2}{4k_F^2} \;=\; \frac{e^2\,(2N_0)}{4k_F^2} \;=\; \frac{2\alpha_c}{\pi}
 \;=\; 0.0139369$$
 
-**So k is derived rather than adopted:**
+**So k is derived rather than adopted — on a host this corpus does not record, which the three conditions below name:**
 
 $$\lambda \;=\; N_0\,\langle V\rangle_{\rm FS} \;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\tfrac{1}{b}\Big)
 \;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\frac{\pi}{2\alpha_c}\Big)\;\equiv\;k\,\alpha_c,
