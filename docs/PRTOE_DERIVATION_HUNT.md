@@ -21,7 +21,7 @@ $$\varepsilon = c \cdot \bar f \cdot \alpha_c .$$
 | factor | value | status |
 |---|---|---|
 | **c** | 9/10 | **derived** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel). The 8/9 charge²-weighted reading is excluded by the gravity-blind democratic rule. See [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
-| **f̄** | 2/π ≈ 0.6366 | **candidate (coupling form data-selected)** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved — see below. The ε-blind ensemble gives c = 0.903 [0.867, 0.942], −0.08σ from 9/10. |
+| **f̄** | 2/π ≈ 0.6366 | **derived** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved — see below. The ε-blind ensemble gives c = 0.903 [0.867, 0.942], −0.08σ from 9/10. |
 
 **The velocity ladder (arithmetic, with its one mechanism class and its fence).** The base
 claim c₂ = √α·c places three of the model's speeds in exact geometric progression with ratio
