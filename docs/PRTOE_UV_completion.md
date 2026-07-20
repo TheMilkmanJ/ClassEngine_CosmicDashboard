@@ -325,3 +325,23 @@ dyad·m_e 6.3, α·m_e 3.7 keV) sits in-window — the escape is robust to the c
 not a proof that condensation picks that rung rather than the VEV (loud) or the IR floor (too cold).
 So gate-0 moves from "dead on the TeV soft mass" → "escape physical-but-unproven, waiting on
 which rung the condensation picks." NOT recorded (Pinning Rule).
+
+> **Two later movements bear on this, and the second is a live question rather than a refinement
+> (checked 2026-07-20).**
+>
+> **Robust to the anchor's re-banding.** The soft-mass bracket is no longer a point value: the anchor
+> is 1–8 TeV (§6e). Across that whole band the geometric mean runs **48 keV to 136 keV**, every part
+> of it inside the (0.26 eV, 1 MeV) escape window. The escape does not depend on where in the anchor
+> band the scale sits, which is the robustness this section already claimed and can now state with a
+> range rather than a coefficient.
+>
+> **But the bracket itself may have moved, and that is not settled here.** This section is dated
+> 2026-07-10; the high-f adoption landed 2026-07-18 and records the dyad as a high-scale
+> pseudo-Goldstone with **f ≈ 100–500 TeV** ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)), while
+> [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) states that field 2 carries no charge and
+> therefore has **no TeV soft mass**. If the window's UV end is f rather than a TeV soft mass, the
+> geometric mean becomes **480 keV at f = 100 TeV and 1.07 MeV at f = 500 TeV — and the upper end
+> leaves the escape window.** Whether the conformal window brackets on f, on a soft mass the dyad may
+> not have, or on some third scale is **the actual content of "which rung condensation picks"**, and
+> it is not decided by anything recorded. Flagged, not claimed: the arithmetic above is exact, the
+> identification of the bracket is not.
