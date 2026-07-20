@@ -2499,3 +2499,31 @@ the gap. Wrong: an EWSB condensate's vector resonances sit at the gap scale, so 
 (v/M_anchor)², which is 0.02–0.08 and entirely observable. The script flagged its own argument as
 "the same shape as the Migdal one I just rejected" before I acted on it, which is the first time
 today the check fired inside the computation rather than after it.
+
+### 2026-07-19 — #141: the ladder-resummation reading rejected too; the sign is undetermined and probably adverse
+
+Second attempt at the vertex correction, and the second retraction — this one caught in reasoning
+rather than after tabulating.
+
+**What was attempted.** Argue that the particle-hole kernel is attractive, so successive ladder
+rungs add with one sign, giving λ_eff = λ/(1−λ) — a one-sided **upward** correction taking the
+anchor 3152 → 8569 GeV, conveniently inside the S-parameter's allowed region.
+
+**Why it fails: it double-counts.** The gap equation *is* the ladder sum — the rainbow/ladder
+approximation already resums exactly those rungs, and 1 = λ·ln(Λ/Δ) is that resummation. Adding a
+geometric factor on top counts the same diagrams twice. The correction the truncation actually
+omits is the **crossed** diagram, which is not in the ladder at all.
+
+**And the crossed diagram's sign is conventionally opposite.** Crossed boxes reduce binding relative
+to ladders — the standard statement in Bethe–Salpeter and in Eliashberg theory alike, where vertex
+corrections *lower* the effective coupling. So the genuine correction is plausibly **downward**,
+λ_eff = λ(1 − cλ), which moves the anchor *toward and below* 3152 GeV — into the region §6j's
+S-parameter bound disfavours. **The adverse direction is the more likely one**, and the tension
+between the composite reading and the anchor's value would tighten, not relax.
+
+**Status unchanged and honestly worse-looking.** The relative size stands at O(λ) = 3.0% by power
+counting; the sign is not determined by anything computed here; the band stays two-sided; #141 still
+needs the crossed diagram evaluated. Recording the attempted rescue because its shape is the
+session's recurring failure — a plausible argument, in the direction I wanted, this time reaching
+the tabulation stage before the double-count surfaced. Three instances today: Migdal suppression
+(#141), the "one cone protects r = 1" reading (#140), and this. All favourable, all wrong.
