@@ -88,6 +88,21 @@ became wrong hours later, so nothing prompts a re-check. On 2026-07-19 a single 
 files asserting an unqualified claim its home file had already retracted. **When a claim is
 withdrawn, re-run its propagation list, not just its home file.**
 
+**Two joins the corpus lacks, both found by the 2026-07-19/20 reverse audit and both one line to
+fix.** *(i)* **A retirement should name the task it kills.** The failures ledger records kills
+correctly and the board never hears: #59 sat closed for days on content the ledger had retired the
+next day as a category error. A retirement entry carrying the task number whose content it kills —
+exactly as commits already carry task numbers — closes that gap. *(ii)* **A withdrawal should
+enumerate its inheriting files in the commit that makes it.** Recall is what failed: three
+withdrawals were filed on 2026-07-19 and one was propagated, by the pass named for propagating them.
+
+**And one habit at task-creation, which is where the defect actually originates.** Ten of the ten
+mis-grades that audit found were *composite* — "A + B + C" queues or "every X" sweeps — and not one
+single-object task failed in roughly a hundred checks. #28 and #29 are the same three-part shape with
+opposite outcomes; the only difference is whether all the parts happened to land. **Do not bundle
+deliverables under one number, and give any "every X" task a named completion test when it is
+written.** An audit after the fact costs a day; the discipline costs a sentence.
+
 A file is not closed until checks 12 and 13 pass. Running the regression harness and a stale-pattern sweep
 is necessary and is not sufficient: both test what you thought to test.
 
