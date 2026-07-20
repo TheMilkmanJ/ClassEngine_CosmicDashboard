@@ -467,6 +467,26 @@ asymmetry, worth ≈ 1.1 per percent. Compounded, **the anchor is a few TeV to w
 few** — call it 1 to 8 TeV — with the vertex correction dominating. Every piece of the mechanism is
 derived; the precision is what the truncation costs.
 
+**What would actually collapse that band, stated so the next attempt does not repeat the last two.**
+The dominant term is one specific object: **the crossed box** — the diagram the rainbow/ladder
+truncation omits, since the ladder rungs are already resummed by 1 = λ·ln(Λ/Δ) itself. The
+deliverable is the coefficient *c* in λ_eff = λ(1 − cλ), evaluated on §6c's own host: TF-screened
+Coulomb V(q) = e²/(q² + m_D²) with b = 2α_c/πv, at the Fermi surface, in the particle-hole channel.
+Sign and magnitude, nothing else.
+
+**The prior is adverse and should be held.** Crossed boxes reduce binding relative to ladders — the
+standard statement in Bethe–Salpeter and Eliashberg alike, where vertex corrections lower the
+effective coupling. So the expected sign moves the anchor *down*, and the honest reading of the
+1–8 TeV band is that its lower half is favoured.
+
+**And the procedural lesson, which is the useful part of two failures.** This correction has been
+attempted twice and retracted twice — first as Migdal suppression (which needs a slow boson; screened
+Coulomb is instantaneous), then as a ladder resummation giving λ/(1−λ) (which double-counts the very
+rungs the gap equation already sums). Both were *arguments* rather than integrals, and both happened
+to point the favourable way. **Treat any further argument that produces an upward correction without
+evaluating the integral as wrong until the integral says otherwise** — that record is now two for
+two, and the diagram is well-posed enough that there is no reason to reason about it instead.
+
 
 ### 6f. At what scale is α evaluated?
 
