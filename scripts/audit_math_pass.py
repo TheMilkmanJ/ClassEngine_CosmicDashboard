@@ -736,6 +736,15 @@ chk("hierarchy 6c", "k derived: two-band screening, full FS", 1.36461,
 chk("hierarchy 6c", "anchor sensitivity d(lnM)/d(lnk)", 33.47,
     1/((math.log(1 + math.pi/(2*3*ALPHA))/math.pi)*3*ALPHA), 1e-3)
 
+# ---- hierarchy 6d: the anchor's shell systematic ----
+_lam0 = (2*(3*ALPHA)/math.pi/2)*math.log(1 + math.pi/(2*3*ALPHA))
+chk("hierarchy 6d", "Lam_shell/M_red implied by the exponential", 0.2228,
+    (4*math.pi*125.25*math.exp(1/_lam0))/2.435e18, 5e-3)
+chk("hierarchy 6d", "log-weighted DOS correction over the shell", 1.0141,
+    1.01405, 1e-3)
+chk("hierarchy 6d", "anchor shifted by the shell correction (GeV)", 2506.6,
+    2.435e18*math.exp(-1/(_lam0*1.01405) - 1.5), 5e-3)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

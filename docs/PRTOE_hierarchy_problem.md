@@ -196,11 +196,13 @@ The vacuum constrains the pairing sharply. Write the pairing integral in cutoff 
 So the node cannot host the pairing. A Fermi-point vacuum's phase space vanishes at the node
 exactly where BCS needs it finite, and no amount of weak coupling recovers it. **So the first
 requirement is stricter than the table states it:** the host needs not just a fermionic bath at
-the cutoff but *a fermionic bath with finite density of states in the pairing shell*. A
-Fermi-point vacuum has one, but only at its bend-over, where the linear cone terminates and the
-full spectrum resumes. The node is the infrared remnant; the pairing is a cutoff-scale event —
-and the third requirement inherits that: the attractive channel must act on the bend-over
-states, not the cone's.
+the cutoff but *a fermionic bath with finite density of states in the pairing shell*. What
+supplies one is a **finite chemical potential** — a Fermi surface at some k_F inside the linear
+cone, where ρ(E_F) = k_F²/2π²v³ is finite and the shell is locally flat. It is not the bend-over:
+§6c shows the anchor requires exactly the cone's density of states, and the van Hove enhancement
+at a band extremum would push it eight orders. So the node is what survives in the infrared, the
+bend-over is only the cutoff, and **the pairing is a Fermi-surface instability at finite μ inside
+the cone** — which is also what the third requirement acts on.
 
 **The two 3/2's are different objects.** Under equal-states normalization the node's saturation
 is exactly d/2 = **3/2**, numerically the exponent's own constant — but the exponent's −3/2 is
@@ -304,3 +306,28 @@ and §6a puts that shell at the bend-over where the cone terminates — so the b
 density of states is owed, as is whatever fixes k_F. The rainbow truncation and the equal-density
 assumption for the two bands are the other two. Each is a computation inside the basement rather
 than a missing object, and each is on the board.
+
+
+### 6d. The anchor's honest error bar
+
+§6c's λ is a leading-order result: it treats the density of states as constant across the pairing
+shell, which is the standard BCS factorisation. In a linear cone that is not exact — ρ ∝ E², so ρ
+does vary across the shell — and the size of the correction is computable.
+
+The shell's own width follows from the exponential: Δ = Λ_shell·e^(−1/λ) with Δ at the anchor
+gives **Λ_shell = 5.43×10¹⁷ GeV**, which is 0.223 of M_red. Across that shell ρ varies by
+(1 + ξ/E_F)². The correction is small, because the BCS log weights dξ/ξ and is therefore dominated
+by the *bottom* of the shell where ρ ≈ ρ(E_F):
+
+$$\Big\langle \frac{\rho}{\rho(E_F)} \Big\rangle_{\log} = 1.0141 \qquad
+\lambda: 0.029874 \to 0.030294 \qquad k: 1.36461 \to 1.38379$$
+
+**A +1.41% correction to λ moves the anchor from 1576 GeV to 2507 GeV — +59%.** That is the
+number that matters here, and it sets the grade: with ∂lnM/∂lnk = 33.47, the gap equation's own
+leading systematic puts an **O(50%) band on the anchor**, not an O(0.1%) one.
+
+So the +0.14% agreement between M_red·e^(−1/kα_c − 3/2) and 4πm_H is **finer than the calculation
+that produces it**, and should not be read as evidence at that precision. What the chain supports
+is an anchor at the TeV scale with a factor-of-two-class uncertainty — 1.6 to 2.5 TeV from this
+correction alone, before #137's remaining density-of-states work and #139's truncation. That band
+is what HL-LHC tests, and it is the honest claim.
