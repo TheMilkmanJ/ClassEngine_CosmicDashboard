@@ -2446,3 +2446,30 @@ expectation — four O(1) errors, two overclaiming print statements. This is the
 step earlier: a plausible physical argument, in the direction I wanted, sized and tabulated before it
 was checked. The rule that caught it is the one added this morning — compute or verify a second way
 before booking — applied to an *argument* rather than a number.
+
+### 2026-07-19 — #140: §6e's "neutrality forces r = 1" is corrected — it forces most of it, not all
+
+§6e claimed the vacuum's neutrality forces the two screening bands equal. It does not, and the gap
+matters because ∂lnM/∂r ≈ 11.6.
+
+**What neutrality does supply.** A neutral semimetal is compensated, n_e = n_h exactly, and with
+n ∝ k_F³ that fixes k_F(e) = k_F(h) regardless of velocity. **What it does not supply:** the density
+of states is k_F²/v, so r = v_e/v_h survives as a free velocity ratio. Compensation equalises
+densities, not densities of states.
+
+**And the cone cannot rescue it.** At finite chemical potential a single Dirac cone has a Fermi
+surface in one branch only — the other lies entirely on the far side of μ — so the two pockets the
+two-band screening needs must come from **two distinct bands**, whose velocities are independent.
+The node's particle-hole symmetry concerns one cone's two branches and does not reach across two
+bands, so it is the wrong symmetry for this job. #140's original framing ("must the symmetry survive
+to the pairing shell?") was itself mis-posed for the same reason.
+
+**Priced:** 1% velocity asymmetry → 13% on the anchor; 5% → ≈2×; 10% → ≈4×. So the basement needs
+two velocity-matched bands at the percent level, and that is now the sharpest structural constraint
+on the build — a band-structure requirement, not a symmetry already in hand.
+
+**Caught before filing, again.** The script's own summary line printed the reassuring reading — "a
+Dirac cone has v_e = v_h identically, so breaking r = 1 requires different bands" — which is true as
+far as it goes and backwards in consequence, since different bands are exactly what the two-pocket
+structure requires. Third instance today of a summary written in the direction I wanted; second one
+caught before it reached a physics file.
