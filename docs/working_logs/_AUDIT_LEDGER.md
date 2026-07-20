@@ -3201,6 +3201,32 @@ because an absence produces no contradiction to trip over.
 **#148 closes at 110 of 110.** Eleven mis-grades total across nine waves and five subagent batches:
 #29, #51, #55, #59, #76, #78, #92, #93, #95, #143, #33. Four unverified: #22, #24, #68, #33.
 
+### 2026-07-20 — check 9a spot-checked on three untouched files, and all three pass
+
+Having named the heading-vs-body defect and swept for it, the honest follow-up is what the sweep
+found in files **not** involved in the day's edits. Three, chosen because the automated pass ranked
+them as its strongest suspects or because they are flagships:
+
+- **`koide_relation` §2** — heading "The live half: WHY IT HOLDS" carries "(the lane, honest status)"
+  inline, and the section's first sentence is "Koide is one derived number away, modulo one linkage
+  that is not built. That is the whole status." A later heading reads "The linkage (**and the
+  inheritance claim that does not hold**)". Caveat first, twice.
+- **`quantum_gravity` §4a** — derives S = A/4G, then bounds it under its own sub-heading "What the
+  medium contributes, and what it does not": the two coefficients are standard results, not the
+  model's.
+- **`MATH_SPINE` §7** — no grade tag in the heading, but the line directly beneath it is
+  "**Read 7a–7c with their verdict, which is below in the addendum and is adverse.**" The section
+  records a mechanism whose falsifier later fired, and it says so at the top rather than 116 lines
+  down where the addendum sits.
+
+**Which changes how the day's negative findings should be read.** Eleven mis-grades in a hundred and
+ten closures, five placement defects, one dead cross-reference — set against: seven of ten payoff
+checks clean, five of six wave-9 tasks clean, and every 9a spot-check clean. **The corpus's default
+behaviour is correct, and the defects are exceptions with two specific homes** — composite-task
+bookkeeping, and retraction propagation. Those two are worth building machinery against. The
+documentation discipline in general is not the problem, and an audit that reported only its hits
+would misrepresent the corpus it audited.
+
 ### 2026-07-20 — #153 first pass: the files carry the retirements; the board is the weak link
 
 Worked the retirement cluster (failures ledger rows 58–64) to see whether #59's shape recurs. It
