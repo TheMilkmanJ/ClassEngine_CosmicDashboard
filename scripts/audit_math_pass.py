@@ -735,6 +735,15 @@ chk("hierarchy 6c", "k derived: two-band screening, full FS", 1.36461,
     math.log(1 + math.pi/(2*3*ALPHA))/math.pi, 1e-4)
 chk("hierarchy 6c", "anchor sensitivity d(lnM)/d(lnk)", 33.47,
     1/((math.log(1 + math.pi/(2*3*ALPHA))/math.pi)*3*ALPHA), 1e-3)
+# 6c condition 2b (added 2026-07-20): the screening constant carries a band velocity,
+# b = 2*alpha_c/(pi*v), and the booked value above is that at v = 1. The rows below
+# guard the v-dependence rather than the v = 1 value, which line 731 already holds.
+def _k_of_v(v): return math.log(1 + 1/(2*(3*ALPHA)/(math.pi*v)))/math.pi
+chk("hierarchy 6c", "b = 2*alpha_c/(pi*v) reduces to the booked b at v = 1",
+    0.013937, 2*(3*ALPHA)/(math.pi*1.0), 1e-4)
+chk("hierarchy 6c", "k at v = 0.9 (the 10% velocity mismatch)", 1.33156, _k_of_v(0.9), 1e-4)
+chk("hierarchy 6c", "that mismatch's cost in ln M (d lnM/d lnk = 33.47)", -0.818,
+    33.47*math.log(_k_of_v(0.9)/_k_of_v(1.0)), 2e-2)
 
 # ---- hierarchy 6d: the anchor's shell systematic ----
 _lam0 = (2*(3*ALPHA)/math.pi/2)*math.log(1 + math.pi/(2*3*ALPHA))
