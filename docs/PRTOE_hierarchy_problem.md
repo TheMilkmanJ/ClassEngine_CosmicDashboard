@@ -548,3 +548,40 @@ so this is a **constraint that disfavours the low end, not an exclusion.**
 **What it buys either way:** a falsifiable statement that is not HL-LHC-gated. If the composite
 reading is right, the lightest vector resonance sits above ≈ 2.3 TeV, and the anchor lives in the
 upper half of §6e's band rather than at 4πm_H.
+
+
+### 6k. Flavour — the other inherited exposure, and why the two pull opposite ways
+
+The condensate cannot give the light fermions their masses directly: at a TeV scale it would give
+the electron a TeV mass. They must come from higher-dimension operators linking the Standard Model
+fermions to the condensate, m_f ~ Λ³/M_F², and the *same* operators with flavour indices generate
+four-fermion terms constrained by K⁰–K̄⁰ mixing. That is the extended-technicolor flavour problem,
+and this reading inherits it in full.
+
+| fermion | m_f | M_F required |
+|---|---|---|
+| top | 172.6 GeV | **13.5 TeV** |
+| bottom | 4.18 GeV | 87 TeV |
+| muon | 106 MeV | 544 TeV |
+| electron | 511 keV | 7828 TeV |
+
+K⁰ mixing requires M_F ≳ 1000 TeV for generic O(1) flavour structure. **The electron is
+comfortable — it wants a scale well above the bound — but the top wants 13.5 TeV, seventy-four times
+below it.** The light fermions are not the problem; the heavy one is, exactly as in the classic case.
+
+**And the escape the literature uses is closed here.** Walking technicolor fixes this by giving the
+condensate a large anomalous dimension, so that ⟨ψ̄ψ⟩ is enhanced at the operator scale and M_F can
+sit high while m_f stays right. Walking requires **near-conformal strong coupling**; this sector runs
+at λ = kα_c = 0.030, thirty-three times below confining. The enhancement is unavailable.
+
+**So the two inherited exposures pull opposite ways on the same parameter.** The sector's weak
+coupling is what plausibly relieves the S parameter (§6j: fewer, broader resonances, less spectral
+weight) and it is exactly what denies the walking enhancement flavour needs. Strengthening the
+coupling to fix flavour worsens S; weakening it to ease S worsens flavour. Nothing in the corpus
+currently occupies the window between them, and whether one exists is a real question rather than a
+rhetorical one.
+
+The modern alternative — partial compositeness, where the Standard Model fermions mix linearly with
+composite operators rather than through four-fermion terms — is not excluded and does relax the
+flavour bounds substantially. It is simply not something this corpus has built, and it would need
+the basement to supply composite operators for each Standard Model flavour to mix with.
