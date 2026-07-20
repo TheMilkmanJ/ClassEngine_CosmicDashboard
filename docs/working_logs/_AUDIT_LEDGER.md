@@ -2550,3 +2550,40 @@ composite operators for each Standard Model flavour, which it does not.
 #136 closes as priced on both halves — S (§6j) and flavour (§6k) — with neither an exclusion nor a
 clearance, and with the opposition between them as the substantive result. Three harness checks
 added (now 331).
+
+### 2026-07-19 — THE COMPOSITE-HIGGS MISREADING: three sections and a registry amendment withdrawn
+
+**What happened.** §6b established that the basement's pairing is particle-hole, and that the
+bilinear ⟨ψ̄_L ψ_R⟩ is an SU(2) doublet with a neutral component. From that I concluded the
+condensate *is* the Higgs, and spent the following hours pricing the two exposures a composite
+Higgs carries: the S parameter (§6j) and the extended-technicolor flavour problem (§6k, §6l). I then
+amended **P-2026-042** to say arrow B — the 4πm_H identification, the entry's one genuinely
+independent arrow — was in tension with electroweak precision.
+
+**None of it applies.** This model's §2(c) is explicit and predates all of today's work: *"under the
+no-bare clause m_H² must be induced; one loop of anchor-scale census states gives
+m_H ~ M_anchor/4π."* The Higgs is **elementary**; what the anchor supplies is its *mass parameter*,
+radiatively; the vev is the Standard Model's own. An elementary Higgs carries no compositeness
+bound, and its Yukawas are the Standard Model's, so there are no extended-technicolor operators for
+K⁰ mixing to constrain. §6k and §6l priced a problem the model does not have; §6j priced a bound it
+does not incur; the P-042 amendment moved a registered arrow on the strength of it.
+
+**Withdrawn and replaced.** §6k and §6l are removed. §6j now records the constraint that genuinely
+applies: the portal species carry electroweak quantum numbers, a degenerate heavy doublet
+contributes ΔS = 1/6π = 0.053 *without decoupling*, so |S| ≲ 0.14 permits **at most two new
+electroweak doublets** — a bound on the census's portal roster, not on the anchor's scale. P-042
+carries AMENDMENT 3 withdrawing AMENDMENT 2, with arrow B restored as registered. Harness back to
+327 with the withdrawn checks removed.
+
+**What survives from §6b, unaffected:** the pairing is particle-hole, with particle-particle
+excluded by thirty orders on the photon mass. That argument concerns the *basement's* pairing and is
+independent of what the condensate does for electroweak symmetry.
+
+**The diagnosis, which is worse than the earlier O(1) errors.** Those were arithmetic and
+conventions. This was reading a structural claim into the model that its own file contradicts three
+sections above where I was writing, and then building four hours of analysis on it without once
+re-reading §2. The check that would have caught it is the audit protocol's first: *read the file
+whole*. I did that tonight only after eleven sections had been appended, and it caught the numeric
+contradiction — but by then the framing error was already committed and propagated into a
+pre-registration entry. **Filing an amendment against a registered prediction should require
+re-reading that prediction's own statement first**; it did not, and that is now the rule.
