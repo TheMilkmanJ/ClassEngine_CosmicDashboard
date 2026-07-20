@@ -941,13 +941,15 @@ computable with no reference to zero-point energy, vanishing as
 thermodynamic-gravity spine, not a theorem; booked as this framing's
 answer, not physics' consensus.
 
-**(b) THE NEW HALF — "why 2.25 meV?" — HONESTLY UNSOLVED, and
-provably not ours to solve in the minimal room:** E2.7 stands
-(P(basin) = 0; ρ∞ is a bare constant of the action — the opening
-balance of the vault). Under (a) it is an integration constant =
-boundary data = the recursion-wall class (who set the opening
-balance sits one floor up, with the past hypothesis). The meV/m_ν
-whisper stays a watched whisper (no ν-portal exists; census).
+**(b) "Why 2.25 meV?" — a derived answer at a stated price:** the
+closed form lands ρ_∞^(1/4) = 2.2599 meV against the observed 2.25
+(+0.44%), computed in this atlas above. E2.7's reading applies to a
+*bare* constant only: under (a) that would be an integration
+constant = boundary data = the recursion-wall class, with whoever
+set the opening balance sitting one floor up alongside the past
+hypothesis. The model does not read it that way, because the
+forward mechanism exists (`scripts/kubo_freeze.py`). The meV/m_ν
+relation is a neck-out registered prediction (P-2026-048).
 
 **(c) STANDING BET #3 — Λ EXACTLY (kill-only; data arriving NOW):**
 the floor is a bare constant and the above-floor medium redshifts

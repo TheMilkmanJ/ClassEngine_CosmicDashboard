@@ -90,7 +90,7 @@ Undated entries below read against this register.*
 | Census lane (i) — asymmetric reps for induced SU(2) | DEAD BY THEOREM: ΣQ² = T(R) + d(R)Y² ≥ T(R) — permanently closed | internal audit |
 | Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal audit |
 | The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal audit |
-| P-039's collider knife-edge ([1.00–1.19] TeV) | **NOT A DEATH — SUSPENDED (live, pending a run):** the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now "1–100 TeV decade" pending the full two-loop run — recorded here for provenance, decided by that run, not buried | internal audit |
+| P-039's collider knife-edge ([1.00–1.19] TeV) | **NOT A DEATH — SUSPENDED (live):** the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now open across a "1–100 TeV decade". The perturbative program that would have narrowed the decade is closed, so the decade is refereed by the collider search directly — recorded here for provenance, not buried | internal audit |
 | c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal audit |
 | c = 9/12 and c = 9/13 (the "neutrino side doesn't count" rosters) | RAMP-PROOF KILLS: each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | 2026-07-13 |
 

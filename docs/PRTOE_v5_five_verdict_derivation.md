@@ -69,8 +69,7 @@ provenance; none is re-litigated here:
  (contested relaxation modeling), which would shrink cores below a
  parsec. The fork is live and is exactly what V2/V3 must decide.
 
-## 2. Shared framework (to be derived in full — the one set of equations
-## all five verdicts read from)
+## 2. Shared framework (the one set of equations all five verdicts read from)
 
 **Target form:** the nonrelativistic reduction of
 S = ∫√−g [M_pl²R/2 + P(X) + (m̄₂²/2)(δK)²] + S_m
@@ -82,12 +81,12 @@ about the condensate background, yielding:
 2. a kinetic sector for the incoherent excitations (the "normal"
  component): the a⁻⁶ pre-basin remnant PLUS the in-situ population
  shed by supercritical flow (F3) — its phase-space distribution
- f(x, k, t) sourced by a Landau-shedding emissivity to be derived;
+ f(x, k, t) sourced by a Landau-shedding emissivity (§2.2: ε ~ ρ M_eff v⁴/ħ);
 3. the coupling between them: gravity only (F4), plus the kinematic
  composition constraint (both are pieces of one field — no
  independent counterflow).
 
-Derivation steps owed (in order; each gets its own subsection when done):
+The derivation steps, in order, each with its own subsection:
 - 2.1 DONE below.
 
 ### 2.1 The effective particle, derived (2026-07-07)
@@ -241,11 +240,12 @@ binarity demanded (the "can the caustic structure support a
 Θ-type coupling" question): granulation happened ⇒ Θ ≈ 1 universally;
 never-crossed ⇒ Θ = 0. The quasar wall's uniformity requirement is
 met BY the universality of random-wave vortex statistics — not by
-tuning. **What 2.5 still owes:** a LOCAL operator in the action whose
-expectation value is Θ (candidates: phase-gradient variance
-normalized at the de Broglie scale; vortex-core density from
-|∇ψ|²/ρ). The statistical object exists; the coupling construction
-— and hence R1's life — remains open until 2.5 is worked.
+tuning. **The local operator 2.5 supplies:** Θ_loc = Q/(Q+K), with
+Q = |∇√ρ|² and K = ρ|∇S|² — built from both of the readings the
+construction had to choose between (phase-gradient variance and
+vortex-core density), and verified numerically at 512² (a 0.496
+plateau against 1.9×10⁻⁶ laminar). The statistical object and the
+coupling construction are both in hand; R1's life turns on its sims.
 - 2.4 DONE below. - 2.5 DONE below.
 
 ### 2.4 The funded floor, locked to the core scale (2026-07-07)

@@ -54,7 +54,9 @@ old curve is dead by its own arithmetic: it would force c = 1.005 while the cens
 c = 1. Provenance walk].
 * **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
 δm_e. (Lepton-sector; whether the dyad's scale f is the Majoron's v_L — one L-breaking scale
-or two — is the recorded open fork; the charged-lepton portal is a UV assumption [PENDING #30].)
+or two — is the recorded open fork; leptophilia itself is symmetry-forced through the Majoron,
+quarks carrying L = 0, while why the coupling reaches the kinetic term rather than only the
+Weinberg operator is the portal's un-derived core.)
 
 The amplitude — the model's one distinctive number — assembled from three factors, each graded by a
 running instrument:
@@ -174,7 +176,7 @@ recovers the plain step). #40 (RG V_eff + BBN network) CONFIRMS, not decides.
 ## 5\. Recombination → today [the fitted era]
 
 m_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SHOES-conditional);
-screening returns m_e → standard below z ≈ 50 [INPUT form, densities-dependent screening owed].
+screening returns m_e → standard below z ≈ 50 [survival form S = exp[−(C²/C_ref²)^n_eff], n_eff ≥ 35].
 Optional rotation-shed `dcdf_conv_g` (S₈: minimizer picks g = 0.12, S₈ = 0.821 vs KiDS 0.814).
 Corrected A2: the shed's apparent-w mirage is \~1% — OUT as a DESI driver; the S₈ job
 survives (background ρ_m, not the w-mirage).
@@ -305,7 +307,7 @@ elsewhere in the corpus:
 - *the gate-0 confirm* — #40 (RG V_eff + BBN network) confirms rather than decides (§4).
 
 **Genuinely owed:** the dark-energy *value* if Route-D dies (falls back to constitution); the
-density-dependent screening form (§5); the seat constant b in the neutrino tie.
+seat constant b in the neutrino tie.
 
 **Standing:** provisional pending the named referees, DESI-capped, the branch pre-registration
 pending guards.
