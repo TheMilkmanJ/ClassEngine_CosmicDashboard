@@ -67,6 +67,10 @@ Appendix B (eleven master equations)
 working_logs/: T1–T16 owed-files · _cross_cutting · _master_computes (8→4 clusters)
 · _parked_register (+ the cross-comparison pass, the resurrection review)
 
+**Stability, in one place.** [`PRTOE_stability.md`](PRTOE_stability.md) answers the four questions a
+referee opens with — ghost, gradient instability, c_T, equivalence principle — and says which object
+each certificate belongs to, since the corpus holds certificates for two.
+
 **What the `#N` numbers mean.** This corpus cites task numbers throughout — in physics files, in the
 ledgers, in commit messages. [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) maps
 every one to what it is and whether it is open, closed or waiting on a run. It resolves references
