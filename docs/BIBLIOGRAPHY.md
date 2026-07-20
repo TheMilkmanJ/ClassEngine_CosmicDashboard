@@ -91,7 +91,6 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 - **[Sakharov1967]** A. D. Sakharov, "Vacuum quantum fluctuations in curved space and the theory of gravitation," Dokl. Akad. Nauk SSSR 177, 70 (1967). — Induced gravity; the NO-BARE clause's ancestor.
 - **[Jacobson1995]** T. Jacobson, "Thermodynamics of spacetime: the Einstein equation of state," PRL 75, 1260 (1995), arXiv:gr-qc/9504004. — The route from the area law to Einstein's equations.
 - **[Bekenstein1973]** J. D. Bekenstein, PRD 7, 2333 (1973). / **[Hawking1975]** S. W. Hawking, Commun. Math. Phys. 43, 199 (1975). — S = A/4 and its temperature.
-- **[FFZ1997]** V. P. Frolov, D. V. Fursaev, A. I. Zelnikov, "Statistical origin of black hole entropy in induced gravity," Nucl. Phys. B 486, 339 (1997), arXiv:hep-th/9607104. — The species-cancellation the keystone leans on.
 - **[WeinbergWitten1980]** S. Weinberg, E. Witten, "Limits on massless particles," Phys. Lett. B 96, 59 (1980). — The no-go the preferred frame evades.
 - **[Penrose1965]** R. Penrose, "Gravitational collapse and space-time singularities," PRL 14, 57 (1965). — The theorem the CSW-floor core discharges by violating its energy condition honestly.
 
@@ -143,7 +142,7 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 
 - **[Penrose1979]** R. Penrose, "Singularities and time-asymmetry," in *General Relativity: An Einstein Centenary Survey*, eds. Hawking & Israel (CUP, 1979), 581–638. — The Weyl curvature hypothesis: the universe began with gravitational entropy near zero while matter entropy was near maximal. The statement this model's low-beginning section has to reproduce rather than assume.
 - **[Tolman1934]** R. C. Tolman, *Relativity, Thermodynamics and Cosmology* (Oxford, 1934). — The thermodynamics of expanding models, and the entropy argument against indefinitely repeating cycles that every cyclic proposal since must answer.
-- **[FrolovFursaevZelnikov1997]** V. Frolov, D. Fursaev, A. Zelnikov, "Statistical origin of black hole entropy in induced gravity," Nucl. Phys. B 486, 339 (1997), arXiv:hep-th/9607104. — Horizon entropy as a state count in the constituents that induce gravity, rather than a postulate. The frame the area-law derivation works inside.
+- **[FrolovFursaevZelnikov1997]** V. Frolov, D. Fursaev, A. Zelnikov, "Statistical origin of black hole entropy in induced gravity," Nucl. Phys. B 486, 339 (1997), arXiv:hep-th/9607104. — Horizon entropy as a state count in the constituents that induce gravity, rather than a postulate. The frame the area-law derivation works inside. Also: The species-cancellation the keystone leans on.
 - **[Nambu1974]** Y. Nambu, "Strings, monopoles, and gauge fields," PRD 10, 4262 (1974). / **[Mandelstam1976]** S. Mandelstam, "Vortices and quark confinement in non-Abelian gauge theories," Phys. Rept. 23, 245 (1976). — The dual-superconductor picture of confinement: flux tubes as vortices in a condensate. The structural analogy the family-ring argument runs on.
 
 ## 9. Neighboring dark-sector models (the honest competitors and cousins)

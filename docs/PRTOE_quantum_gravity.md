@@ -104,7 +104,7 @@ quoted as though the medium selected it.
 **Grade: derived for the field content the coefficients assume** — minimally coupled scalars, which
 is what 12π and 48π are the coefficients *of*. **It does not extend to the roster the model
 actually carries.** For non-minimal coupling and for fields with spin the two divergences stop
-being one heat-kernel term (this is precisely where FFZ require extra subtractions), so the
+being one heat-kernel term (this is precisely where Frolov, Fursaev and Zelnikov require extra subtractions — [FrolovFursaevZelnikov1997]), so the
 cancellation is not automatic; and the recorded fermion-sign hazard — a fermion-dominated roster
 driving naive 1/G wrong-signed — is untouched by a *ratio* argument, since a ratio survives both
 its halves being wrong. **That roster question is now the open item here, and it is larger than the
