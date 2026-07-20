@@ -308,26 +308,38 @@ assumption for the two bands are the other two. Each is a computation inside the
 than a missing object, and each is on the board.
 
 
-### 6d. The anchor's honest error bar
+### 6d. What the gap equation pins, and what it does not
 
-§6c's λ is a leading-order result: it treats the density of states as constant across the pairing
-shell, which is the standard BCS factorisation. In a linear cone that is not exact — ρ ∝ E², so ρ
-does vary across the shell — and the size of the correction is computable.
+§6c's λ is solid: it is scale-free, verified in two independent variables, and depends on no
+convention. The **anchor** is a different matter, because it needs a prefactor as well as an
+exponent, and ∂lnM/∂lnk = 33.47 amplifies every O(1) in sight.
 
-The shell's own width follows from the exponential: Δ = Λ_shell·e^(−1/λ) with Δ at the anchor
-gives **Λ_shell = 5.43×10¹⁷ GeV**, which is 0.223 of M_red. Across that shell ρ varies by
-(1 + ξ/E_F)². The correction is small, because the BCS log weights dξ/ξ and is therefore dominated
-by the *bottom* of the shell where ρ ≈ ρ(E_F):
+**What the exponent fixes.** Writing the model's form against a gap equation's,
+M = M_red·e^(−1/λ−3/2) versus M = Λ_shell·e^(−1/λ), identifies
 
-$$\Big\langle \frac{\rho}{\rho(E_F)} \Big\rangle_{\log} = 1.0141 \qquad
-\lambda: 0.029874 \to 0.030294 \qquad k: 1.36461 \to 1.38379$$
+$$\Lambda_{\rm shell} \;=\; M_{\rm red}\,e^{-3/2} \;=\; 0.223\,M_{\rm red}$$
 
-**A +1.41% correction to λ moves the anchor from 1576 GeV to 2507 GeV — +59%.** That is the
-number that matters here, and it sets the grade: with ∂lnM/∂lnk = 33.47, the gap equation's own
-leading systematic puts an **O(50%) band on the anchor**, not an O(0.1%) one.
+so **the −3/2 is not a correction to the exponent — it is the statement that the pairing shell's
+cutoff is the Planck floor dressed down by the equipartition boost**, which is exactly what route
+6 derives from ⟨E_kin⟩/T = 3/2. The two readings are one statement, and that is a real
+consistency: the constant the exponent needs and the constant equipartition supplies coincide.
 
-So the +0.14% agreement between M_red·e^(−1/kα_c − 3/2) and 4πm_H is **finer than the calculation
-that produces it**, and should not be read as evidence at that precision. What the chain supports
-is an anchor at the TeV scale with a factor-of-two-class uncertainty — 1.6 to 2.5 TeV from this
-correction alone, before #137's remaining density-of-states work and #139's truncation. That band
-is what HL-LHC tests, and it is the honest claim.
+**What is not fixed — three O(1)s, each worth a factor.**
+
+| piece | size | why it is open |
+|---|---|---|
+| the exact-solution factor | ×2 | the gap equation gives Δ = 2Λ·e^(−1/λ) (asinh, not a bare log); the booked form has no 2, so the convention absorbs it into the −3/2 |
+| the shell's density-of-states correction | +0.07% to +1.4% in λ | a pairing shell is *symmetric* about E_F, so the cone's linear variation cancels between the particle and hole sides and only ξ²/E_F² survives; its size depends on E_F |
+| where the Fermi surface sits | E_F/M_red ∈ [0.223, 1] | k cancels k_F entirely, so k_F enters only through the correction above, bounded below by Λ_shell and above by the cutoff |
+
+**So the anchor is a factor-of-a-few prediction.** Across the allowed range these compound to
+roughly **1.6 to 5.2 TeV**, with the booked 1576 GeV sitting at the bottom edge — it is the value
+obtained when the exact-solution factor is absorbed and the density of states is treated as flat.
+The +0.14% agreement with 4πm_H is therefore **a coincidence of one convention within that band**,
+not a measurement of it.
+
+What survives, and it is the part that matters: the *mechanism* is derived end to end — the
+channel (§6b), the screening constant and measure (§6c), the shell cutoff as the equipartition-
+dressed floor (above) — and it puts the electroweak scale at a few TeV from the Planck floor and
+α alone. A few TeV is what HL-LHC tests. Four significant figures was never what the calculation
+could support.
