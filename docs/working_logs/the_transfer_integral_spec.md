@@ -49,11 +49,14 @@ with the three factors:
 | n (the winding integer) | RECORDED — n ~ 10–30, the one topological draw |
 | T_sph, 28/79-class conversion | literature-standard; the +3ν_R coefficient to check |
 | the Josephson FORM | RECORDED (the parked register's template; kubo_freeze's zero-mode precedent) |
-| **fork #1: which portal is the junction** | **OWED — the spec's first decision** |
-| **Δθ(T) through the frozen era** | **OWED — one phase-evolution computation** (the frozen
-  condensate's phase is rigid; Δθ across the junction evolves only via the two sides'
-  μ-difference — the AC-Josephson relation dΔθ/dt = Δμ, which may make the integral
-  self-clocking: the spec's candidate simplification) |
+| **fork #1: which portal is the junction** | **DECIDED (stage 2)** — the **tenth-channel seat
+  term**: the junction must carry lepton number, the census portal is L-blind and disqualified,
+  and the μ-term is the seat term's own low-energy face. One candidate, no choice left. |
+| **Δθ(T) through the frozen era** | **COMPUTED (stage 5)** — the integral is self-clocking, as
+  this spec guessed. H/m_eff = 4.9×10¹⁴ at T_sph puts the field deep-frozen, so r = Ψ₀ and
+  charge conservation gives θ̇ ∝ a⁻³: θ̇(T_sph) = m·(T_sph/T_on)³ = 59.7 eV against
+  H = 2.44×10⁻⁵ eV, i.e. **θ̇/H = 2.4×10⁶** — rapid winding, junction AC, rectifier gating the
+  magnitude. |
 | the sin(Δθ) averaging | follows from Δθ(T): rapid winding ⟹ ⟨sin⟩ → the rectified average
   (the f̄ = 2/π grammar's third appearance in a transfer role — watch, not assumed) |
 
@@ -110,6 +113,12 @@ Stage 3 = the session-scale run: H/θ̇ at T_sph from genesis inputs, then the w
 with the ramped shutoff.*
 
 ## STAGE 3 OPENING (2026-07-19) — the era map, computed; stage 2's regime call CORRECTED
+
+> **Read stage 5 before acting on this section.** Stage 3's regime correction was itself
+> withdrawn: it mapped the era at h ≫ 1, and the standing λ = (m/Ψ₀)² makes the quartic era
+> one e-fold rather than long. The slow-winding conclusion below does not hold. Stage 3's
+> *other* content — the era map and the z_x ≈ z_on coincidence — survives, and the coincidence
+> is upgraded to an identity in stage 5.
 
 **Correction, filed against stage 2 (same day):** the rapid-winding (AC) claim assumed the
 frozen-amplitude scaling θ̇ ∝ T³. Wrong era: at T_sph the field is deep in the QUARTIC era,
