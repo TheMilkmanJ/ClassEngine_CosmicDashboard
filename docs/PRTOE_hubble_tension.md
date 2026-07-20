@@ -3,8 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 *Status: the model's* ***core empirical claim*** *— the one domain built in contact with
-the data rather than extended to it. The improvement is measured and evidence-priced; a
-zero-free-parameter Bayesian comparison against ΛCDM is running as of this revision.*
+the data rather than extended to it. The improvement is measured and evidence-priced by a
+zero-free-parameter Bayesian comparison against ΛCDM, whose number is a Laplace estimate from
+the MCMC; nested sampling is deferred to cluster time, so that estimate stands without a
+confirmer and the chains' convergence is what sharpens it.*
 
 ---
 

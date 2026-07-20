@@ -533,7 +533,10 @@ is its only coupling). Give it curvature and the product is determined:*
  kernel-sourced T_c = 177.10 keV), the ~20 nm cutoff, the κ_v opening pass
  demanding an eV-scale portal, and, computed here: **ρ_∞^(1/4) = 2.2599 meV
  against an observed 2.25 — the mass scale of the lightest neutrino**
- (normal hierarchy: ~1–10 meV).
+ (normal hierarchy: ~1–10 meV). The whisper is about *scale*, and that is all
+ the chain supports here: the closed form's radiative correction is
+ uncontrolled at this order, so the digits past the leading ones are not a
+ claim.
  This is the known dark-energy/neutrino-mass coincidence, and the
  model sits on both ends of it while its top-priority deliverable is
  a Σm_ν posterior. GRADE: coincidence, NOT a bet — the known attempt
@@ -1008,7 +1011,11 @@ answer, not physics' consensus.
 
 **(b) "Why 2.25 meV?" — a derived answer at a stated price:** the
 closed form lands ρ_∞^(1/4) = 2.2599 meV against the observed 2.25
-(+0.44%), computed in this atlas above. E2.7's reading applies to a
+(+0.44%), computed in this atlas above — **an existence claim, not a
+precision one**, since the composite quartic sits above its control
+edge and the radiative correction is uncontrolled at this order.
+The answer is that the scale is derived, not that it is derived to
+two decimal places. E2.7's reading applies to a
 *bare* constant only: under (a) that would be an integration
 constant = boundary data = the recursion-wall class, with whoever
 set the opening balance sitting one floor up alongside the past

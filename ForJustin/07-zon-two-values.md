@@ -37,22 +37,25 @@ is used.
 - Five checks added to `scripts/audit_math_pass.py`, including two that assert the run's implied
   mass *misses* the ξ target — so if anyone re-derives toward 1.75×10⁻²⁰, the harness objects.
 
-## The one thing left, and it is yours because it touches the running job
+## The one thing left, and it is yours because it decides what the next run tests
 
-**The evidence run is sampling at z_on = 3.5619×10⁷, which is not the model's own identity value.**
-It is testing a point 0.053 dex off, corresponding to a mass 28% from the one every other sector
+**The evidence configuration sits at z_on = 3.5619×10⁷, which is not the model's own identity
+value.** It tests a point 0.053 dex off, corresponding to a mass 28% from the one every other sector
 uses. That was a deliberate, disclosed choice — the config calls it a profiled freeze and prices it
 at "χ² cost +7.4 vs the free champion" — but its consequence for the mass does not appear to have
 been noticed when it was made.
 
-I have not touched the run. Three options, none urgent enough to act on without you:
+**The scheduling half of this decided itself on 2026-07-20** (#99): the nested run was ended and
+archived, because at 9.8 h per iteration its first checkpoint sat 163 days out. So there is no
+running job to protect, and the choice below is about what the configuration should say whenever
+the comparison is next computed — from the MCMC now, or nested when cluster time is bought:
 
-1. **Let it finish and report it as-is**, noting in the write-up that the frozen z_on sits off the
-   identity. Cheapest, and honest if stated.
-2. **Let it finish and treat the result as a bound rather than the model's own evidence**, since the
-   sampled point is not the model's stated configuration.
-3. **Restart at the identity.** Costs ~23h of sampling already spent and however long a fresh run
-   takes, against a horizon already under review (task #99).
+1. **Report it as-is**, noting in the write-up that the frozen z_on sits off the identity. Cheapest,
+   and honest if stated.
+2. **Treat the result as a bound rather than the model's own evidence**, since the frozen point is
+   not the model's stated configuration.
+3. **Move the configuration to the identity.** This no longer costs a restart — nothing is running —
+   so its only price is that every number computed at the old freeze stops being comparable.
 
 Related: `cmp_prtoe_zon`, the chain the config names as its arbiter, has not run since 2026-07-12
 (two R−1 points ever, 93.10 → 40.36, no live process). The "ILLEGAL until the zon chain converges"

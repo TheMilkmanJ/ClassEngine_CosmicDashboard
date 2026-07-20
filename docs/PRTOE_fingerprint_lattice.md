@@ -20,7 +20,7 @@ falsification, not a measurement. ε appears in:
 
 | window | the row | current standing |
 |---|---|---|
-| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | the founding fit (thread 11). **\*Conditional:** the +2.635 (Laplace) came from chains scored with a ΛCDM helium fraction; the configs now carry the measured PRyM response and the zero-parameter evidence run (cmp_prtoe_fixed, PolyChord) is executing — the number awaits it ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
+| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | the founding fit (thread 11). **\*Conditional:** the +2.635 (Laplace) came from chains scored with a ΛCDM helium fraction; the configs now carry the measured PRyM response, and the zero-parameter comparison (cmp_prtoe_fixed) is graded from the MCMC — the number stays a Laplace estimate, nested sampling being deferred to cluster time, so what it awaits is chain convergence ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund + the genesis residual | the signed self-adverse bet (2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window: **−2.5 to −1.4σ** on the full budget); radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out) plus the genesis residual: **+1.3 to +2.0σ** COUNTER vs Aver | owned-adverse, zero fitted parameters |
 | BBN: quark-bleed | **EXCLUDED — the row is retired, by loop order and by data rather than by symmetry.** The old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4 — so the bleed is excluded by this row itself. What the dyad can actually deliver is set by loop order: its portal is the dark-neutral bilinear |Ψ|², which reaches the quark bilinear only at two EW/EM loops, and the loop floor (dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. *(Not symmetry: the dyad is a separate field from the Majoron, and |Ψ|² is L-neutral, so U(1)_L screens the quark bilinear no more than the lepton one.)* | **no bleed, no blowout, and no healer: D/H carries −2.5 to −1.4σ** |
@@ -42,8 +42,9 @@ correlation test of this width.
 ## 2. The lattice's masters (where its fate is decided)
 
 - **The α_c chain** (α_c → the fraction → whether ε is fully derived or carries one measured
- O(1)); **DESI DR3** (the w = −1 commitment underneath every row); **PolyChord** (the evidence
- cap); the **radio referee** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
+ O(1)); **DESI DR3** (the w = −1 commitment underneath every row); **the evidence cap** (a Laplace
+ estimate from the MCMC, so the chains' convergence is what moves it — nested sampling waits for
+ cluster time); the **radio referee** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
  jointly).
 
 ## 3. Honest accounting

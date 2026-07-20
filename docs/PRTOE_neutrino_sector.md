@@ -73,9 +73,13 @@ because the middle term exceeds the other two combined — 2.67 against 2.62 at 
 three phasors cannot close a triangle and exact cancellation is impossible. The margin is 0.05 meV
 on terms of order 2.
 
-The model's dark-energy scale is pinned to 0.44%: the observation sits at 2.25 meV and the derived
-chain lands at 2.2599. The sum barely notices (Σm_ν = 61.36–61.40 meV, booked as 61.4). The floor
-moves across that range — 0.044 meV at the observed anchor, 0.038 meV at the derived one — while
+The model's derived dark-energy scale sits 0.44% from the observation: the observation is at
+2.25 meV and the derived chain lands at 2.2599. **That gap is not the derived chain's error bar** —
+the composite quartic sits above its control edge, so the derived value carries an uncontrolled
+correction of formal size 5.4–9.8%, and the two-anchor bracket below is a comparison of anchors
+rather than a propagated uncertainty. The sum barely notices (Σm_ν = 61.36–61.40 meV, booked as
+61.4). The floor moves across the anchor range — 0.044 meV at the observed anchor, 0.038 meV at the
+derived one — while
 the ceiling holds at 5.30 either way, so the window is properly quoted as
 **m_ββ ∈ [0.04, 5.3] meV**. Above m₁ = **2.324 meV** the triangle closes and the floor is exactly
 zero; the derived anchor sits 2.8% below that.

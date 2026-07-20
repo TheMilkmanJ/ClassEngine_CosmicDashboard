@@ -180,7 +180,11 @@ This is worth stating carefully, because the comparison is not what it first loo
 the observed dark-energy density gives τ = 0.34506, which returns the observation by construction
 and is therefore not a determination of τ at all. **½ln2 is.** It descends from Q = 2/3 — a lepton-mass fact measured to ten parts per million — through an exact
 identity, with nothing cosmological entering anywhere. Judged as the only independently sourced τ
-the model possesses, it lands **0.44% from the sky**.
+the model possesses, it lands **0.44% from the sky** — **an existence claim, not a precision one**:
+the composite quartic that carries ρ_Λ¼ sits above its control edge (λ = 26–46 against λ\* = 22.41),
+so the radiative correction is uncontrolled at this order and the chain is claimed to land on the
+scale rather than to two decimal places. The τ comparison below is unaffected, being exact
+arithmetic between two candidate values of τ.
 
 ### What decides it
 

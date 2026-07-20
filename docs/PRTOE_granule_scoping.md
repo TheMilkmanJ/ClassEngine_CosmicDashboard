@@ -143,9 +143,12 @@ Preview at R−1 ≫ 0.05 (NOT quotable): varying_me = 1.0126 ± 0.0041
 unconverged; Gaussian density approximation; prior-width dependent
 (flat [0.98, 1.04] — halving the prior width halves B; the prior is
 physical, from quasar/BBN-adjacent bounds, and must be defended as
-such when quoted). PolyChord remains necessary for the NON-nested [2026-07-13: the zero-parameter PolyChord run is now LIVE — this requirement is being executed]
+such when quoted). Nested sampling remains necessary for the NON-nested
 comparisons and as the S-D cross-check; it is no longer the only door
-to an evidence number.
+to an evidence number — **and that matters more than it did.** [2026-07-20: nested
+sampling is deferred to cluster time, so Savage–Dickey on a converged chain is
+the evidence route in hand for the nested case, and its caveats above are the
+ones that must be defended rather than waited out.]
 
 ## GRANULE-POWER FORMULA CONFIRMED (Tier-3 partial, 2026-07-07)
 

@@ -72,7 +72,8 @@ binding). At recombination the electron is the whole story:
  *(the narrative decomposition this story once carried — c·f_amp·Ψ₀/M_red — was the road
  to the number, and the standing stack replaced it: THREE_EQUATIONS Eq. 3)*
  enters CLASS via **σ_T ∝ α²/m_e²** and binding ∝ m_e → shifts recombination
- → eases H₀ to 69.9 (provisional; the zero-parameter evidence run is executing).
+ → eases H₀ to 69.9 (provisional; the zero-parameter comparison is graded from the MCMC,
+ nested sampling being deferred to cluster time).
  [DERIVED ×2 + one registered bet; the CMB fit real]
 
 ## ACT 6 — Structure formation: the screening

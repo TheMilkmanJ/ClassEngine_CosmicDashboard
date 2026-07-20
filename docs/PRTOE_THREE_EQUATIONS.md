@@ -13,10 +13,17 @@
 > That chain descends from Q, a lepton-mass fact measured to ten parts per million, through an exact
 > identity ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
 >
+> **Read the +0.44% as existence, not precision.** The claim it carries is that the chain lands on
+> the observed scale with nothing cosmological in it. It is not a claim on the decimal places: the
+> composite quartic maps to λ = 26–46, the whole band above the control edge λ\* = 22.41, so the LHY
+> correction is uncontrolled at this order — formally 5.4–9.8% on ρ_Λ¼, with the next term of the
+> same series already larger.
+>
 > **Grade: candidate. Its price is one hypothesis** — that the charged-lepton √m are thermally
 > populated, which is what Q = 2/3 asserts (it says the variance of √m equals its mean squared, the
 > Boltzmann second moment, holding to 18 ppm on the measured masses). **Its referee is one number:**
-> a lattice T_c/√σ for SU(2) with N_f = 3. **0.34657 crowns the kernel and the dark-energy
+> a lattice T_c/√σ for SU(2) with N_f = 3 — the same non-perturbative treatment the radiative band
+> needs, so the λ and τ gates are one job. **0.34657 crowns the kernel and the dark-energy
 > prediction together; 0.3503 kills both.**
 
 
@@ -39,7 +46,8 @@ $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\
 - The **condensate ground state** supplies the $w = -1$ component (dark energy is the
  medium's zero-point sector; its computed scale is the vacuum-occupancy binding energy
  $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2$. With τ sourced by the Koide kernel this is
- **2.2599 meV against the measured 2.25 — +0.44%**; the structure $M_2 = \alpha^2 T_c$ carries it,
+ **2.2599 meV against the measured 2.25 — +0.44%**, an existence claim rather than a precision one
+ (the quartic sits past perturbative control — head of this file); the structure $M_2 = \alpha^2 T_c$ carries it,
  and $\alpha_c = 3\alpha$ is under test. From the dyad's condensation temperature
  ($m_e \to T_c \to M_2 \to \rho_\Lambda$); see the cosmological-constant document.)
 - The **excitations** are the dark matter: radiation-like above a transition redshift
@@ -64,7 +72,8 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 179\
  re-fits at $H_0 \approx 69.9$ instead of $68.2$ (the Hubble-tension mechanism, thread 11).
 - Implemented in CLASS, run against full Planck likelihoods; the Bayesian evidence currently
  favors it over ΛCDM at $\Delta\ln Z \approx +2.6$ (Laplace approximation; marginal and
- SH0ES-conditional; the definitive nested-sampling comparison is running).
+ SH0ES-conditional; the definitive nested-sampling comparison is unaffordable on the hardware
+ available and waits for cluster time).
 - The same $\varepsilon$ — ONE amplitude passed through window-specific activation (OFF at
  BBN freeze-out, ON below $T_c$; the ε-epoch table in the fingerprint file governs) — is
  then owed everywhere at its epoch weights: BBN's windowed pattern,
@@ -146,14 +155,16 @@ $179$ keV (the confining chiral ratio $\tau \cdot m_e$ — [PRTOE_DERIVATION_HUN
 Those numbers are outputs of the field's history from its initial conditions, not axioms.
 The equations are three lines; the receipts are the repository.
 
-*Status (2026-07-19): every derivation above is conditional on one root — the no-bare mechanism's
+*Status (2026-07-20): every derivation above is conditional on one root — the no-bare mechanism's
 unconditionality (M3), an assumption named as such. The deciders: the α_c MCMC (grades $3\alpha$ and
-the $c$-roster), the $\bar{f}$ ensemble, DESI DR3, and the zero-parameter evidence run — **PolyChord
-sampling since 2026-07-18, no log(Z) yet** — with ε, A_s and n_s stated in advance (derived or
-profiled, statuses in the DEPENDENCY_TREE), no Occam shelter, full exposure; the sampled-ε referee
-deferred by design. **z_on is the exception and is stated as such above:** the run is frozen 0.053
-dex off the model's own onset identity, so it grades a nearby point rather than the stated
-configuration. This file inherits the verdicts.*
+the $c$-roster), the $\bar{f}$ ensemble, DESI DR3, and the zero-parameter evidence run — with ε, A_s
+and n_s stated in advance (derived or profiled, statuses in the DEPENDENCY_TREE), no Occam shelter,
+full exposure; the sampled-ε referee deferred by design. **z_on is the exception and is stated as
+such above:** that configuration is frozen 0.053 dex off the model's own onset identity, so it grades
+a nearby point rather than the stated one. **And the evidence number is a Laplace estimate from
+MCMC**, with nested sampling waiting on cluster time: on this hardware a nested iteration costs 9.8 h,
+which is 163 days to a first checkpoint. So the chains' own convergence is what stands between the
+model and its headline evidence claim. This file inherits the verdicts.*
 
 ## Sources
 Full references in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file leans on: [Gross1961]/[Pitaevskii1961] (Eq. 1), [Kibble1976]/[Zurek1985] (the winding), [HartChluba2020]/[SekiguchiTakahashi2021] (the varying-m_e ↔ H₀ mechanism), [CLASS2011]/[cobaya2021]/[Planck2018]/[Riess2022] (the pipeline and data), [Volovik2003]/[BerezhianiKhoury2015] (the nearest prior art).

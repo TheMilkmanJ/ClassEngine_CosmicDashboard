@@ -130,7 +130,9 @@ early ones).
 - In a SIMPLE m² φ² well the field oscillates as DM FOREVER (well bottom = 0 energy;
  freezing lands at nothing). **A simple field never becomes DE -- it stays DM to the end.**
 - DE requires the field to freeze onto a nonzero POTENTIAL FLOOR = the funded-floor/(deltaK)²
- piece (the missing 20% of that era — since closed to +0.44% by the seam chain).
+ piece (the missing 20% of that era — since closed by the seam chain, which lands on the scale at
+ +0.44%; that is an existence claim, the chain's radiative correction being uncontrolled at this
+ order, so the closure is of the gap and not to that precision).
 
 **Sharpest statement of the gap:** the regime-change chain is SELF-GENERATING up to dark
 matter (matter falls out of radiation for free, via H<m condensation) and BREAKS at DM→DE
@@ -204,7 +206,8 @@ to ρ_Λ, field slides to X0, condensate takes over → w runs 0→-1 → DE. Cr
 
 **NET:** the floor is now a REAL mechanism (not a placeholder) -- "one field, both jobs" is
 BUILDABLE; "explains the DE scale" is NOT and should not be promised. The missing 20% = roughed in
-(since closed to +0.44% by the seam chain).
+(since closed by the seam chain, which lands at +0.44% — an existence claim; the radiative
+correction is uncontrolled at this order, so the number is not owned to that precision).
 
 ## Step 8 (2026-07-08) — floor STABILITY: the (deltaK)² funds AND stabilizes (piece 2)
 

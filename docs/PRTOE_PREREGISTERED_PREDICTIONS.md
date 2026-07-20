@@ -2370,6 +2370,25 @@ the number lands, decompose it — best-fit Δχ² of the freed run vs the old f
 against the measured Occam costs (from the PolyChord outputs) — and grade which mechanism
 story was right, independent of which interval wins. Forecasts stand as registered.
 
+**AMENDMENT (2026-07-20) — THE REFEREE CHANGES; THE FORECASTS DO NOT.** The nested run named
+above is ended and archived (`chains/_archive_polychord_ended_20260720_0915/`). It was not
+stalled and it was not wrong — it was unaffordable: 66 s per likelihood evaluation against 534
+slice steps per iteration is 9.8 h per nested iteration, so the first checkpoint at nlive = 400
+sits 163 days out and the 1 809-iteration reference run 736 days out, with the ΛCDM twin
+doubling it. Forty-eight hours bought 4.1 iterations.
+
+**What this changes.** The forecasts, the intervals and the bottom-out clause stand exactly as
+registered — the number they grade is now the **Laplace-from-MCMC** estimate rather than a
+nested one, until cluster time is bought. That substitution is adverse to this prediction and
+is recorded as such: the Laplace estimator's own systematic is larger than the +0.135 by which
+the standing +2.635 clears the win line, so the instrument now in hand cannot resolve the
+interval this registration was written to decide. The consequence for the model is that
+**chain convergence is the critical path for P-2026-044 itself** rather than a side referee on
+individual parameters — the MCMC is no longer supporting evidence, it is the evidence
+calculation's only input. The autopsy protocol survives in reduced form: the Δχ² decomposition
+runs on the chains, while the measured Occam costs it wanted are a nested-sampling output and
+wait with the rest.
+
 ---
 
 ## ANN-2026-022: THE REGISTRY RAMP AUDIT (registered 2026-07-13)
@@ -2532,11 +2551,19 @@ that computation lands.
 > (Q = 2/3 ⟹ |f₁/f₀| = 1/√2), giving T_c = 177.10 keV and ρ_Λ¼ = 2.2599 meV — **+0.44%** against
 > the observed 2.25, with nothing cosmological anywhere in the chain.
 >
+> **What the ρ_Λ¼ number claims.** Existence, not precision. The composite quartic maps to
+> λ = 26–46, the whole band above the control edge λ\* = 22.41, so the LHY correction is
+> uncontrolled at this order — formally 5.4–9.8% on ρ_Λ¼, with the next term of the same series
+> already larger. **This registration is therefore a τ prediction, and it is graded in τ**, where
+> the separation below is exact arithmetic; the closeness of the predicted meV to the observed one
+> is not what is being registered. The same non-perturbative SU(2) N_f = 3 treatment that measures τ
+> is what the radiative band needs, so one lattice campaign gates both.
+>
 > **What a lattice must separate:**
 >
 > | | τ | a return here means |
 > |---|---|---|
-> | **H_kernel** | **0.34657** | the kernel sources τ; the +0.44% dark-energy prediction is real |
+> | **H_kernel** | **0.34657** | the kernel sources τ; the dark-energy prediction is real (as an existence claim — its precision waits on the same campaign's non-perturbative treatment) |
 > | H_observation | 0.34506 | the model is reading ρ_Λ back; the flagship has no independent prediction |
 >
 > They sit **0.00151 apart — 0.44%**. That gap *is* the dark-energy claim; there is nothing else to
@@ -2577,7 +2604,9 @@ the Higgs contributes zero at ξ_H = 1/6 — therefore **the dark sector must se
 **N_c = 2 is the only colour group admitting an integer flavour count, and it gives exactly
 three** (quarks +12, gluons −12). **The value is τ = ½ln2 = 0.34657**, sourced by the kernel, with
 √σ_dark = m_e from the portal. Feeding it forward, ρ_Λ¼ = (9/2)α⁴·τ·m_e = **2.2599 meV against the
-observed 2.25 — +0.44%**.
+observed 2.25 — +0.44%**, which is registered as an **existence** claim: the composite quartic sits
+above its control edge, so the radiative correction on ρ_Λ¼ is uncontrolled at this order and the
+prediction graded here is τ, not the decimal places of the meV.
 **The model cannot adjust it**: τ scales ρ_Λ¼ linearly, so a 10% error in T_c/√σ is a 10% error in
 the dark-energy scale.
 

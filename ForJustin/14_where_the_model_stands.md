@@ -56,17 +56,26 @@ without winding, the other winding without time evolution.
 
 ## The evidence run
 
-**Healthy, not stalled — and I got this wrong before getting it right.** I escalated the ~33 hours of
-zero output as a possible failure before reading the sampler's configuration. PolyChord checkpoints
-every `update_files` = nlive = 400 iterations, and `measure_speeds` built a four-block hierarchy at
-534 slice steps per live point, so one write interval is tens of hours. The absent log(Z), dead-point
-file and `.stats` are what interval one looks like from outside.
+**Ended 2026-07-20, and it was never stalled — I got that wrong before getting it right.** I
+escalated the ~33 hours of zero output as a possible failure before reading the sampler's
+configuration. PolyChord checkpoints every `update_files` = nlive = 400 iterations, and
+`measure_speeds` built a four-block hierarchy at 534 slice steps per live point, so one write
+interval is tens of hours. The absent log(Z), dead-point file and `.stats` were what interval one
+looks like from outside.
 
-**But the throughput is the real content.** The only completed nested run on this stack (archived
-ΛCDM, 2026-06-20) closed at 1809 iterations, which puts this one at **≥ 6 days before the ΛCDM twin,
-and the twin doubles it**. That figure is an *inference* from the schedule and one benchmark, not a
-measurement — **the first dead-point file is what converts it**, and as of 41.7 h elapsed it has not
-appeared.
+**The throughput was the real content, and it is what ended the run.** At 66 s per likelihood
+evaluation against 534 slice steps, a nested iteration costs **9.8 h** — so the first checkpoint sits
+**163 days** out and the 1809 iterations the one completed run on this stack needed sit **736 days**
+out, with the ΛCDM twin doubling it. Forty-eight hours of running bought 4.1 iterations of 1809. The
+earlier "≥ 6 days" was an inference from the schedule and one benchmark, and it was optimistic by a
+factor of ~25. Archived to `chains/_archive_polychord_ended_20260720_0915/`; nested sampling returns
+when cluster time is bought.
+
+**What that does to the verdict.** It rests on Laplace-from-MCMC, as it did before the nested run was
+attempted. The standing ΔlnZ = +2.635 is unchanged and so are its qualifications — marginal,
+SH0ES-conditional — with one subtraction: it is no longer awaiting a confirmer. The consequence for
+the work is that the MCMC chains are the evidence calculation's only input rather than side referees,
+so **their convergence is the critical path for the headline claim**.
 
 One thing worth knowing separately: the `.stats` files sitting in `chains/` for these models are
 **minimizer** outputs (`nlive: 1`), not nested evidence. That is the correct provenance for a Laplace
@@ -98,12 +107,14 @@ to commit and harder to catch, because an absence produces no contradiction to t
 
 ## The four things that need you
 
-1. **#99 — the evidence run's horizon.** Nothing to decide until the first checkpoint lands, unless
-   you want it stopped now. The ≥6-day floor is inference; the dead-point file makes it real.
+1. **#99 — decided 2026-07-20: the nested run is ended and archived.** The ≥6-day floor was the
+   optimistic reading; costed properly it is 9.8 h per iteration, 163 days to the first checkpoint.
+   The evidence rests on Laplace-from-MCMC until cluster time is bought, which promotes chain
+   convergence from housekeeping to the gate on the headline claim.
 2. **ForJustin/12's sequencing.** Item 5 is three-quarters delivered (the vanilla-CLASS diff, the
    stability page, the varying-m_e comparison); the fourth part needs chains free. Items 1–4 need
    your order, and item 4 competes with the chains for cores.
-3. **The paper's framing**, and whether anything publishes before PolyChord speaks.
+3. **The paper's framing**, and whether anything publishes on a Laplace evidence number.
 4. **Two builds, both scoped to hand off.** #141 is the crossed-box vertex correction — the object is
    named, the prior is adverse, and the file records why two previous *arguments* failed where an
    integral is wanted. #154 is the joint genesis draw: evolve the six-channel phase configuration

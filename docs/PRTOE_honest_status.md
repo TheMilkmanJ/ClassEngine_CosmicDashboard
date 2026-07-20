@@ -28,16 +28,22 @@ Major moves since the 2026-07-08 baseline (below):
 - **The dark-energy VALUE now has a derived-scaling closed form:** ρ_Λ¼ = (d²/2)α⁴·T_c, which on the
   Koide kernel's τ = ½ln2 gives **2.2599 meV against the observed 2.25 — +0.44%**. *(This board's
   earlier (d/2)α⁴m_e ≈ 2.17 meV, 0.97×, is the same structure with τ approximated as 1/3; the kernel
-  supplies τ exactly and the agreement improves from −3% to +0.44%.)* Its referee is a lattice
-  T_c/√σ for SU(2) with N_f = 3 — a number that does not yet exist.
+  supplies τ exactly and the agreement improves from −3% to +0.44%.)* **The +0.44% is an existence
+  claim and not a precision one** — the composite quartic sits past perturbative control (λ = 26–46
+  against λ\* = 22.41), so ρ_Λ¼'s radiative correction is uncontrolled at this order. Its referee is
+  a lattice T_c/√σ for SU(2) with N_f = 3 — a number that does not yet exist, and the same
+  non-perturbative treatment is what the radiative band needs, so one job gates both.
 - **DE-floor self-tuning (least-trusted joint #1) is now sharply understood — and it does NOT self-tune.**
   The settling response is **ohmic** in the dark-energy channel, so the floor's value is not fixed by the
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
   channel, not DE. Honest: still no working self-tuning mechanism for the value.
-- **Evidence:** the +2.635 Laplace win landed (below, unchanged). *(Superseded 07-18: PolyChord IS
-  now running — since 2026-07-18, ~23h in as of 07-19, no log(Z) yet. And of the supporting MCMC
-  chains, only this evidence job is live; routeD, conv_desi, zon_disp, zon and twist are all stopped,
-  most far from convergence, `cmp_prtoe_zon` untouched since 07-12.)*
+- **Evidence:** the +2.635 Laplace win landed (below, unchanged) — **and the Laplace is what the
+  verdict rests on.** Nested sampling is unaffordable on this hardware (9.8 h per iteration, 163
+  days to a first checkpoint) and waits for cluster time, so the confirmer the +2.635 was explicitly
+  awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
+  input rather than side referees, and their convergence the critical path for the headline claim.
+  As of 07-20 that path is being repaired: routeD and conv_desi are relaunched on seeded
+  covariances, zon_disp is dead at R−1 = 23.3, and `cmp_prtoe_zon` is untouched since 07-12.*
 
 ### What moved on 2026-07-18
 
@@ -59,9 +65,9 @@ could close the sector. Separately, the low-multipole claim lost its power-spect
 entirely — the torus is invisible to the spectrum at any multipole — and survives only as a
 correlation-structure prediction.
 
-**Operational.** The evidence run is sampling, but at the measured theory speed its completion
-horizon is weeks to months, and the ΛCDM twin doubles it. The verdict this board treats as the
-deciding crux is therefore further away than the working list assumes.
+**Operational.** At the measured theory speed the nested run's completion horizon is years, not
+weeks, and the ΛCDM twin doubles it — so it was ended on 2026-07-20 and the verdict this board
+treats as the deciding crux rests on the Laplace estimate, without the confirmer it was awaiting.
 
 ### What moved on 2026-07-19/20
 
@@ -105,16 +111,20 @@ misreading of the model's own §2(c) and had to be reversed by a second amendmen
 error-counting are filed at `ForJustin/13`, and the failure mode inverted between them: from
 over-claiming favourable results to over-claiming absences.
 
-**Operational.** The evidence run is **healthy, not stalled** — its thirty-three hours of silence are
-checkpoint interval one, since PolyChord writes every nlive = 400 iterations and `measure_speeds`
-built a 534-slice-step schedule. That confirms the 07-18 reading and sharpens it: **≥ 6 days before
-the ΛCDM twin**, which doubles it.
+**Operational.** The nested evidence run was **ended on 2026-07-20 and archived**
+(`chains/_archive_polychord_ended_20260720_0915/`). It was never stalled — it was running exactly as
+configured, and the configuration costs more than the question is worth on this box: `measure_speeds`
+built a 534-slice-step schedule, and at 66 s per likelihood evaluation that is **9.8 h per nested
+iteration**, putting the first checkpoint 163 days out and the full run 736 days, with the ΛCDM twin
+doubling it. Nested sampling waits for cluster time.
 
 **Odds the CORE picture is right: ~12–16%, roughly held** — the favourable closures and the two
 new exposures roughly cancel, and the deciding evidence is further off than it was. The DE closed form is real theoretical
 progress, but it rests on unproven new physics and does not solve the coincidence problem, and there is
-no new positive *evidence* (no PolyChord verdict). So the number hasn't moved much. Deciders unchanged:
-PolyChord (marginal → robust, or sinks it) and SHOES-vs-TRGB (physical → holds, systematic → inverts).
+no new positive *evidence*. So the number hasn't moved much. Deciders unchanged in kind, changed in
+instrument: the **evidence number** (still the Laplace, now without a confirmer in prospect — it can
+be sharpened by better-converged chains but not made robust by them) and SHOES-vs-TRGB (physical →
+holds, systematic → inverts).
 
 ---
 ### Baseline (2026-07-08) — kept for the record; superseded where the section above says so.
@@ -164,14 +174,17 @@ worth holding. **Update this number as each crux lands.**
 
 internal review rule: lock what counts as a win BEFORE the number comes back, or we rationalize whatever
 we get. For the PRTOE-vs-ΛCDM full-data comparison (the evidence run — Laplace landed 2026-07-09,
-PolyChord sampling since 2026-07-18), verdict thresholds committed NOW:
+and the Laplace is what the thresholds are graded against, nested sampling being deferred to
+cluster time), verdict thresholds committed NOW:
   - PRTOE WINS:   Δ lnZ ≥ +2.5 in PRTOE's favor (moderate+) AND Δ BIC ≤ -2
                   (BIC/AIC already penalize PRTOE's ~2 extra physical params: varying_me, m_ncdm).
   - ΛCDM WINS:    Δ lnZ ≤ -2.5  OR  Δ BIC ≥ +2.
   - INCONCLUSIVE: anything in between -- and this is the HONESTLY-EXPECTED outcome, since PRTOE is
                   ΛCDM-like + the m_e signature; a decisive win would be a genuine surprise.
 No moving these after the optimizers finish. (Optimizer gives a Laplace ln Z + bestfit χ² for
-BIC/AIC; gold-standard PolyChord ln Z is the eventual publication number.)
+BIC/AIC. A gold-standard nested ln Z would be the publication number, and it is not in reach on
+this hardware — that number waits on cluster time and the thresholds are graded on the Laplace
+meanwhile, with its systematic stated wherever the verdict is quoted.)
 
 ## #22 DE-FLOOR — the one serious calculation, RESOLVED (2026-07-08)
 
@@ -249,9 +262,11 @@ likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
   - Δ χ² = -9.52 (dyad better) ; **Δ lnZ = +2.635 (Laplace, dyad favored)** ; Δ BIC ~ -9.5.
 
 **VERDICT: the +2.5 win threshold is CROSSED (+2.635) — the first time — but heavily qualified:**
-  1. LAPLACE, not PolyChord: margin over the line (+0.135) < the Laplace estimator's own
-     systematic uncertainty ⇒ a MARGINAL crossing on the APPROXIMATE number. PolyChord is
-     the only thing that makes it robust. (Pipeline itself says "use --polychord to cross-validate.")
+  1. LAPLACE, and the Laplace is where it stays: margin over the line (+0.135) < the estimator's own
+     systematic uncertainty ⇒ a MARGINAL crossing on the APPROXIMATE number. Only nested sampling
+     makes it robust, and nested sampling is unaffordable on this hardware (9.8 h per iteration) —
+     so the crossing stands as marginal, without the confirmer it was explicitly awaiting, until
+     cluster time is bought. Better-converged chains sharpen this number; they cannot promote it.
   2. SHOES-CONDITIONAL: the -9.52 edge is dominated by SN+SHOES (~-13.7, the H₀ easing
      68.18→69.82) + ACT (~-3.8, high-l m_e). So the win RIDES ON the H₀ tension being physical
      (Stage 0). SHOES-as-systematic sinks it. The win and the single window are the same brick.
@@ -264,9 +279,11 @@ likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
 table, landed exactly at the line. NOT decisive, NOT robust, NOT prediction-confirmed.
 
 **ODDS UPDATE: ~10% → ~13-16%** (real first positive, discounted hard for marginality + Laplace +
-SHOES-conditionality + PolyChord-pending). The ONE lever that moves it hard: PolyChord confirming
-the +2.6 on the paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready). The two things that
-still sink it: SHOES-as-systematic (Stage 0), or PolyChord pulling +2.6 back under +2.5. Full
+SHOES-conditionality + no confirmer in prospect). The ONE lever that moves it hard is still a nested
+confirmation of the +2.6 on a paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready) — **and that
+lever is now out of reach until the cluster time is bought**, the attempt on this hardware having
+been ended on 2026-07-20 at 9.8 h per iteration. The two things that still sink it: SHOES-as-
+systematic (Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full
 internal review grading in the the private internal review record (defender "THE NUMBER" turn).
 
 ### SHARPENED by internal review, (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
@@ -276,7 +293,9 @@ SHOES-DEPENDENT: net Δ χ² -9.52 minus SHOES ~-13.7 = +4.2, i.e. WITHOUT SHOES
 the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SHOES H₀ tension — NOT on
 CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family does it, the internal review),
 so the win adds ZERO evidence for the ontology (superfluid/census/dyad). (2) Standing revised
-DOWN: ~10% → ~12% (not 13-16%), because the win is robust only if BOTH PolyChord confirms +2.6
-AND SHOES is physical (two live-uncertain gates). Final label: "suggestive / SHOES-DEPENDENT /
-Laplace-marginal / non-original-class win, no ontology evidence." Deciders from here: PolyChord
-(marginal→robust or sinks it) and SHOES-vs-TRGB (physical→holds, systematic→INVERTS to a loss).
+DOWN: ~10% → ~12% (not 13-16%), because the win is robust only if BOTH a nested ln Z confirms +2.6
+AND SHOES is physical (two live-uncertain gates — **and the first is now unscheduled**, nested
+sampling having been priced off this hardware and deferred to cluster time). Final label:
+"suggestive / SHOES-DEPENDENT / Laplace-marginal / non-original-class win, no ontology evidence."
+Deciders from here: a nested ln Z when it can be afforded (marginal→robust or sinks it) and
+SHOES-vs-TRGB (physical→holds, systematic→INVERTS to a loss).

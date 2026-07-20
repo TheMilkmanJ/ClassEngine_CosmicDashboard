@@ -60,7 +60,8 @@ c₂ = 4/(3·ln 2) demands q̃² = c₂/√3 = 1.11·m_e). Its named candidate s
 **dual-superconductor identity** — the chromo-string as a vortex of the dual condensate, so
 σ and the medium stiffness are one sector's numbers. *(Candidate-grade chain, stated for
 what it would deliver:)* if that identity lands 1.11, then c₂ is derived, and with it
-τ = Q/c₂ = ½ln2 — sourcing the flagship at +0.44%, the kernel modulus, the Brannen phase,
+τ = Q/c₂ = ½ln2 — sourcing the flagship, which lands at +0.44% as an existence claim (its
+quartic sits past perturbative control), the kernel modulus, the Brannen phase,
 and the P-048 fork's kernel point in one stroke. None of that is claimed here; §2–3 stand
 alone.
 

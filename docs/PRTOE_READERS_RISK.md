@@ -46,9 +46,14 @@ everywhere atomic physics appears.
   is the *observed* density inverted and rounded — so the quoted 1.5% is a rounding gap, not
   evidence. **τ does now have an independent source**, from the other end of the model: the Koide
   kernel's modulus is fixed by Parseval at 1/√2, giving τ = ½ln2 = 0.34657, hence T_c = 177.10 keV
-  and ρ_Λ¼ = 2.2599 meV — **+0.44%**, with no cosmological input in the chain. That rests on one
+  and ρ_Λ¼ = 2.2599 meV — **+0.44%**, with no cosmological input in the chain. **Read that as an
+  existence claim and not a precision one:** the composite quartic maps to λ = 26–46, the whole band
+  above the control edge λ\* = 22.41, so the radiative correction on ρ_Λ¼ is uncontrolled at this
+  order (formally 5.4–9.8%, with the next term of the series already larger). The chain lands on the
+  observed scale; it does not claim the two decimal places it lands to. That rests on one
   hypothesis (the charged-lepton √m thermally populated, which is what Q = 2/3 asserts) and is
-  candidate-grade. The same uncomputed lattice number decides it — T_c/√σ for an SU(2), N_f = 3
+  candidate-grade. The same uncomputed lattice number decides it — and it is one job, not two, the
+  non-perturbative treatment that measures τ being what the radiative band needs — T_c/√σ for an SU(2), N_f = 3
   dark sector, where **0.34657 crowns the kernel and 0.3503 kills it**. **No lattice
   determination of that theory exists** (literature sweep, 2026-07-17; an outward-facing
   specification note is approved for circulation — PRTOE_lattice_note.md); the best inference bracket
@@ -65,9 +70,10 @@ everywhere atomic physics appears.
   is folded in. There is no dyad healer (the Majoron couples to lepton number, quarks carry none),
   and that code disagreement plus the helium Aver/EMPRESS fork are the verdict's two hinges — the
   residual shifts every column without changing which one decides.
-- **(c) The H₀ evidence is SH0ES-conditional and marginal.** ΔlnZ = +2.635 (Laplace, not yet the
-  final nested-sampling number) crosses the pre-registered win line only slightly, inside the
-  estimator's own systematic error; without SH0ES the model does not win. The easing is shared by the
+- **(c) The H₀ evidence is SH0ES-conditional and marginal.** ΔlnZ = +2.635 (a Laplace estimate; the
+  nested-sampling number is unaffordable on this hardware and waits for cluster time) crosses the
+  pre-registered win line only slightly, inside the estimator's own systematic error; without SH0ES
+  the model does not win. The easing is shared by the
   whole varying-m_e model class — it adds no independent evidence for the superfluid ontology.
 - **(d) The dyad thermalisation problem — adjudicated (2026-07-18): the recorded configuration is
   BBN-fatal; one repair branch survives, at a named price.** The non-thermalisation escape was
@@ -120,13 +126,13 @@ everywhere atomic physics appears.
   not buy competitiveness with a free knob. The zero-parameter claim is tested by the ε-fixed config,
   not the ε-sampled one, which is the harder test rather than the softer.
 
-- **(i) The evidence run is sampling off the model's own onset identity.** The transition epoch is
+- **(i) The evidence configuration sits off the model's own onset identity.** The transition epoch is
   frozen at z_on = 3.5619×10⁷ where the H = m identity gives 4.03×10⁷ — 0.053 dex, which under the
   same clock is a **28% difference in the dark fluid mass**. That mass is pinned three independent
   ways, so the identity is the model's value and the frozen setting is a profiled offset, disclosed
-  in the config as a "FAST-FUDGE" priced at χ² +7.4. **The running comparison therefore grades a
-  point near the model rather than the model's stated configuration**, and its result needs reading
-  in that light. The chain named to arbitrate the freeze has not run since 2026-07-12.
+  in the config as a "FAST-FUDGE" priced at χ² +7.4. **The comparison therefore grades a point near
+  the model rather than the model's stated configuration**, and its result needs reading in that
+  light. The chain named to arbitrate the freeze has not run since 2026-07-12.
 
 - **(j) The lattice test that decides the flagship cannot currently resolve it.** P-2026-048
   registers T_c/√σ = 0.3503 ± 0.02. The standing prediction is the kernel's 0.34657, which sits
@@ -139,9 +145,14 @@ everywhere atomic physics appears.
 
 ## 4. Current evidence class
 **FLAT / suggestive, SH0ES-conditional, Laplace-marginal.** One positive result (ΔlnZ = +2.635) that
-crossed a pre-committed threshold but adds no independent evidence for the ontology. The
-zero-free-parameter nested-sampling comparison against ΛCDM — the only thing that can make this
-robust — is executing now; result pending.
+crossed a pre-committed threshold but adds no independent evidence for the ontology. **And it stands
+without its confirmer.** The zero-free-parameter nested-sampling comparison against ΛCDM — the only
+thing that can make this robust — costs 9.8 h per iteration on the hardware available, which is 163
+days to a first checkpoint, so it has been ended and waits for cluster time. A reader should take the
+evidence class as: one marginal Laplace estimate, whose margin over the win line is smaller than the
+estimator's own systematic, with no nested number in prospect. What that verdict now depends on is
+the MCMC chains it is computed from, which makes their convergence — not any separate referee — the
+thing standing between the model and its headline evidence claim.
 
 ## 5. What would kill it (pre-registered)
 1. DESI DR3 confirms w ≠ −1.
@@ -155,6 +166,7 @@ robust — is executing now; result pending.
    is resolved.
 
 *The single sentence: the model is a narrow, falsifiable reinterpretation whose one statistical win
-is SH0ES-conditional, whose flagship number is now a sourced structural relation predicting +0.44%,
-and whose fate rides on a nested-sampling run currently grading a point beside the stated
-configuration, a lattice number no one has computed at the precision required, and DESI.*
+is SH0ES-conditional and rests on a marginal Laplace estimate with no nested confirmation in
+prospect, whose flagship number is a sourced structural relation that lands on the observed
+dark-energy scale without claiming the precision it lands to, and whose fate rides on chains that
+have yet to converge, a lattice number no one has computed at the precision required, and DESI.*

@@ -16,6 +16,14 @@
 > for SU(2) with N_f = 3 decides it** (P-2026-048), and it must reach 0.22% precision to tell the
 > two apart — a demanding number, and nobody has computed it yet.
 >
+> **And the claim is existence, not precision — the distinction is load-bearing and is made in full
+> at §4d.** The gap above is a statement about *τ*, where it is exact arithmetic between two
+> candidate values. The *predicted meV* is not owned to that accuracy: the composite quartic maps to
+> λ = 26–46, the whole band above the control edge λ\* = 22.41, so ρ_Λ¼ carries an uncontrolled
+> radiative correction whose formal size is 5.4–9.8% — wider than the gap itself. The chain lands on
+> the observed scale, and the same lattice job that measures τ is what would let the two decimal
+> places be claimed.
+>
 > **What remains conditional:** α_c = 3α is a registered bet under MCMC test, and the portal
 > √σ_dark = m_e — why the dark scale equals the electron mass — is the one irreducible input. The
 > pinning is not derived and the file says so where it arises.

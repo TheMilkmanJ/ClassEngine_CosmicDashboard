@@ -114,13 +114,21 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   M₂ = α²·T_c are structure, and **τ is fixed by the Koide kernel** — Parseval forces the kernel's
   modulus to 1/√2 once Q = 2/3, so τ = ½ln2 = 0.34657, T_c = 177.10 keV, and
   **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**. Nothing cosmological enters that chain;
-  it descends from a lepton-mass fact measured to ten parts per million. See
+  it descends from a lepton-mass fact measured to ten parts per million. **What that buys is
+  existence, not precision:** the composite quartic maps to λ = 26–46, the whole band above the
+  control edge λ\* = 22.41, so the LHY correction is uncontrolled at this order — formally 5.4–9.8%
+  on ρ_Λ¼, with the next term of the series already larger. The chain lands on the scale; the two
+  decimal places are not claimed. See
   [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
 - **τ = ½ln2 = 0.34657 — sourced, and what it must be told apart from.** The kernel gives τ directly;
   the number to distinguish it from is **0.34506** = ρ_Λ¼(observed)/((9/2)α⁴m_e) = 2.25/6.5207, the
   observed dark-energy density read backwards. If τ *were* that number the chain would run backwards
   and return 2.25 by construction — a 0.0% match wearing a prediction's clothes. The kernel's value
-  sits **+0.44% above it**, and that gap is the entire dark-energy claim.
+  sits **+0.44% above it**, and that gap is the entire dark-energy claim. **The gap is a statement
+  about τ, and it is exact arithmetic; the ρ_Λ¼ that τ predicts is not exact to the same order.**
+  The radiative correction on the composite quartic is uncontrolled (λ = 26–46 against λ\* = 22.41),
+  so the discrimination lives in a lattice measurement of τ itself rather than in the closeness of
+  the predicted meV to the observed one.
 
   **What decides it, and the precision it needs.** A lattice T_c/√σ for SU(2) with N_f = 3. No such
   determination exists: the published band 0.34–0.37 is an **SU(3)** value, the pure-glue anchors

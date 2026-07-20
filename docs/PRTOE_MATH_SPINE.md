@@ -12,9 +12,18 @@
 > descending from Q, a lepton-mass fact measured to ten parts per million, through an exact identity
 > ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
 >
+> **What the +0.44% claims, and what it does not.** It is an **existence** claim — that the chain
+> lands on the observed scale with nothing cosmological in it — and **not a precision** claim. The
+> composite quartic maps to λ = 26–46, the whole band above the control edge λ\* = 22.41, so the LHY
+> correction is uncontrolled at this order on every reading: its formal size would be 5.4–9.8% on
+> ρ_Λ¼, while the next term of the same series is already larger. The agreement is therefore good to
+> the order the series can be trusted, and the two decimal places are not the claim.
+>
 > **Grade: candidate. Its price is one hypothesis** — that the charged-lepton √m are thermally
 > populated, which is what Q = 2/3 asserts (variance of √m equals mean squared, the Boltzmann second
-> moment, holding to 18 ppm). **Its referee is one number:** a lattice T_c/√σ for SU(2), N_f = 3.
+> moment, holding to 18 ppm). **Its referee is one number:** a lattice T_c/√σ for SU(2), N_f = 3 —
+> **and it is one job, not two:** the same non-perturbative treatment that measures τ is what the
+> radiative band needs, so the λ and τ gates open together.
 > **A lattice return at 0.34657 crowns the kernel and the dark-energy prediction together; one at
 > 0.34506 shows the model reading the sky back, and kills both.**
 
@@ -87,7 +96,7 @@ running instrument:
 > the dark-energy scale is a **cross of BOTH dark fields**, not one field's product. Substituting
 > α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical to 4×10⁻¹⁹):
 >
-> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — +0.44%**
+> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — +0.44%** *(an existence claim; the quartic sits past perturbative control, so the digits are not a precision claim — head of this file)*
 >
 > | factor | owner | why |
 > |---|---|---|
@@ -207,7 +216,9 @@ recovers the plain step). #40 (RG V_eff + BBN network) CONFIRMS, not decides.
 
 ## 5\. Recombination → today [the fitted era]
 
-m_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SHOES-conditional);
+m_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SHOES-conditional, and
+Laplace is where it stays — nested sampling waits for cluster time, so the estimate has no confirmer
+in prospect and its margin over the win line is inside its own systematic);
 screening returns m_e → standard below z ≈ 50 [survival form S = exp[−(C²/C_ref²)^n_eff], n_eff ≥ 35].
 Optional rotation-shed `dcdf_conv_g` (S₈: minimizer picks g = 0.12, S₈ = 0.821 vs KiDS 0.814).
 Corrected A2: the shed's apparent-w mirage is \~1% — OUT as a DESI driver; the S₈ job

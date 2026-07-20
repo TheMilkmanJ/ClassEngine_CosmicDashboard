@@ -62,8 +62,9 @@ corner it sits at — TeV-class or MeV — is open, and CMB-S4 is the selector. 
 Inside its window it shifts the electron mass by **ε = 1.2543%** (= c·f̄·α_c = 27α/5π). A heavier
 electron → **deeper atomic binding** → hydrogen recombines **earlier/hotter** → smaller sound
 horizon → **H₀ ≈ 69.9** instead of 68.2 (the Hubble-tension mechanism, thread 11). *"The gas makes
-hydrogen too bound"* = exactly this. Evidence: ΔlnZ ≈ +2.6 (marginal, SHOES-conditional); the
-PolyChord evidence run is the confirmer. (Full: [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md),
+hydrogen too bound"* = exactly this. Evidence: ΔlnZ ≈ +2.6 (marginal, SHOES-conditional, and a
+Laplace estimate — nested sampling waits for cluster time, so the number has no confirmer in
+prospect and rests on the MCMC chains it is computed from). (Full: [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md),
 [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).)
 
 ## 4. Complementarity with the superfluid [CANDIDATE]

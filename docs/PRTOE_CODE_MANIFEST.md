@@ -21,8 +21,8 @@ expression).*
 | The dyad (varying m_e, the ramp through T_c) | CLASS source | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
 | **THE POLYCHORD EVIDENCE RUN — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all SAMPLED) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **NOT RUNNING** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
-| **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **EXECUTING** — the headline evidence test, restarted 2026-07-18 with the prior phase explicit; sampling since 16:22 |
-| The evidence pair (sampled-ε dyad + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by decision (relaunch fresh later); the ΛCDM twin awaits its slot |
+| **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **NOT RUNNING — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
+| The evidence pair (sampled-ε dyad + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee KILLED mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
 | The freeze-sentinel launch guards | comparison layer: both wrappers | IN — verified quoted+unquoted |
 
 ## 2. ARMED — enters on its named trigger
@@ -59,7 +59,7 @@ a new derivation that overturns its killshot, logged in the failures ledger firs
 ## 5. The standing verification
 
 Every beneficial item expressible in the CLASS source is ALREADY COMPILED into the live .so the
-referee is sampling — the inclusion law is satisfied for the C code as of now; the remaining deltas
+chains run against — the inclusion law is satisfied for the C code as of now; the remaining deltas
 are all yaml-layer freezes on named triggers. Any future session that produces a
 pipeline-expressible result MUST add its row here in the same commit.
 
@@ -76,7 +76,7 @@ tools, ordered by the chain:*
 | B3 | **the k_int O(1) audit** (referee 1's residue) — *2026-07-19: k reconstructs exactly from a two-band screened particle-hole kernel (§6c/§6e, Monte-Carlo confirmed), but on a host the basement does not record (§6m) — the audit is not superseded* | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | done |
 | B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (REHEARSAL, not the referee) | light — one evening |
 | B5 | **the μ-injection calculator** | μ(z_inject, efficiency) with the visibility ramp | the draw-branch discriminator (ξ vs 1/m) | small script |
-| B6 | **THE BipoSH JOINT PIPELINE** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee ("analysis-limited, data exists") | PROJECT — post-PolyChord |
+| B6 | **THE BipoSH JOINT PIPELINE** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee ("analysis-limited, data exists") | PROJECT — no longer queued behind a nested run |
 | B7 | the cycle-map turn module | the DE-era → contraction transition dynamics | the chain's 10→11 tether, the cycle-counter's sizing | PROJECT — shares B1's room |
 
 *Execution order when the referee frees the box: B4 + B5 (light, immediate) → B2 + B3

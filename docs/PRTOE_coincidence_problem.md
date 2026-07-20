@@ -37,8 +37,9 @@ The floor is not a constant that matter happens to dilute past — the late era 
  amplitude error by twenty — even a 10% error on A_s would move the width by 0.5%. The two
  live values bracket it tightly: the frozen 2.088×10⁻⁹ gives 8.1597 H⁻¹ and the closed form
  (0.35% below) gives 8.1611 H⁻¹, a spread of **0.02%**. The floor's one channel is the
- *absolute* duration, through H_Λ ∝ (ρ_Λ¼)²: its +0.44% shortens the era by 0.87% in years,
- not in H⁻¹.
+ *absolute* duration, through H_Λ ∝ (ρ_Λ¼)²: the +0.44% anchor gap shortens the era by 0.87% in
+ years, not in H⁻¹ — and the derived floor's own uncontrolled band (5.4–9.8% on ρ_Λ¼) enters the
+ same channel at twice its size, so the absolute duration is known to ten percent and not to one.
 3. **What that buys, and what it does not.** Λ-domination begins when the fluid's density hits
  the floor, and the era then runs 8.16 H⁻¹ to turnaround — **a width the model computes rather
  than assumes.** But we observe early in it: matter–Λ crossing is at z ≈ 0.33, which is **0.219 H_Λ⁻¹
@@ -48,12 +49,19 @@ The floor is not a constant that matter happens to dilute past — the late era 
  matters: t_turn is a dark-energy-era quantity, so mixing it with an elapsed time expressed in
  H₀⁻¹ (0.262 at Ω_m = 0.30) inflates the occupancy to ~3.4%, or one time in twenty-nine. The elapsed fraction depends on Ω_Λ/Ω_m and on nothing else: at the ρ_m = ρ_Λ
  crossing the flat-ΛCDM age integral's argument is exactly 1 (arcsinh(1) = ln(1+√2)), so the
- crossing enters convention-free. The floor rides in at the fourth power — its +0.44% is +1.77%
- on ρ_Λ, hence on Ω_Λ/Ω_m — against a sensitivity d ln f/d ln(Ω_Λ/Ω_m) = 1.26 at the z ≈ 0.33
- crossing, and t_turn's own 0.02% is negligible beside it. So "one time in thirty-seven" does not move
- by a whole unit under the floor's current residual: **the floor is no longer the limiting
- uncertainty anywhere in the timing.** What this band does NOT carry is the cosmological input's
- own error — Ω_m enters the same ratio, and bounding that is a separate propagation.
+ crossing enters convention-free. The floor rides in at the fourth power, and **which residual it
+ rides in with is now the whole question.** Against the *observational* anchor spread — the +0.44%
+ gap between derived and observed — the propagation is +1.77% on ρ_Λ, hence on Ω_Λ/Ω_m, against a
+ sensitivity d ln f/d ln(Ω_Λ/Ω_m) = 1.26 at the z ≈ 0.33 crossing, with t_turn's own 0.02%
+ negligible beside it; on that reading "one time in thirty-seven" does not move by a whole unit.
+ **But the derived floor's own uncertainty is not 0.44%.** The composite quartic sits above its
+ control edge (λ = 26–46 against λ\* = 22.41), so ρ_Λ¼ carries an uncontrolled correction of formal
+ size 5.4–9.8% — which is 22–39% on ρ_Λ and, at the same sensitivity, tens of percent on the
+ occupancy fraction. **So the claim that the floor is no longer the limiting uncertainty in the
+ timing holds only for the anchor comparison and not for the derived value, and it is suspended
+ until the same SU(2) N_f = 3 lattice job that owes τ brings the radiative band under control.**
+ What this band does NOT carry is the cosmological input's own error — Ω_m enters the same ratio,
+ and bounding that is a separate propagation.
  **The width is derived; the occupancy is not** — and "why now" in its
  usual sense is the occupancy question. Note the direction: a *longer* derived era makes the
  placement slightly harder to explain, not easier. The model has traded "why is Λ this size" for
