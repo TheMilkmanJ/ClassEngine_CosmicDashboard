@@ -21,14 +21,15 @@ observable class this model marks.
 
 P-2026-028: the primordial field's magnetic helicity is SIGNED BY THE GENOME —
 sign(helicity_B) = sign(n). That routing rides one structural condition the seeding step imposes and
-the corpus has not yet supplied — the genesis flow's own handedness (§"the seeding link" below). The
-model further **predicts** that this is the same topological draw
-that set matter over antimatter, a three-way parity-lock on one integer — and that second half is a
-prediction the model has not yet established, not a result it carries (§"the rectification link"
-below, and the temporal half's verdict beneath it). No other magnetogenesis framework predicts a
-helicity sign CORRELATED with the baryon asymmetry: for everyone else, helicity (if any) is an
-independent accident. **The distinctiveness and the debt are the same claim**, which is why this
-file's owed item is load-bearing rather than housekeeping.
+the corpus has not yet supplied — the genesis flow's own handedness (§"the seeding link" below).
+
+The helicity sign is not locked to the baryon draw. The winding n and the rotation θ̇ are independent
+draws: reversing the genesis ring flips n while leaving the charge Q that sets θ̇ untouched, so
+sign(θ̇·n) is a coin the model cannot call (`scripts/genesis_joint_draw.py`: the joint correlation
+holds at −0.06 to +0.09 against a ±0.13 floor, and jumps to ±0.5 the moment a parity-odd term the
+model lacks is injected). Helicity, if measured, is an independent accident — not a three-way lock
+on one integer. The magnitude claim sign(helicity_B) = sign(n) still holds; its lock to the
+matter–antimatter draw does not.
 
 ## 2. The reading protocol (and the owed keys)
 

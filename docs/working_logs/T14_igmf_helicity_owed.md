@@ -10,11 +10,11 @@ The chain of signs, each link graded:
 
 | link | carries the sign from → to | status |
 |---|---|---|
-| 1. THE COIN | the ± residual of the phase-slip anneal (the only surviving dice — the swirl direction around the headless axis is NOT topologically carried; rotation resets at the crunch) → sign(Γ_ring) | [D-frame] — the coin's home identified by the quantization event |
-| 2. THE RING | sign(Γ_ring) → sign(n) (the quantization event: n = Γm/2π preserves sign) | [D] |
-| 3. THE CURRENT | sign(n) → the winding current's direction (the P-028 engine) | [RECORDED] |
-| 4. THE SEEDING | the current's direction → helicity_B handedness (left vs right) | **[REDUCED — the convention is fixed and then CANCELS: Harrison's coefficient enters the helicity squared, so H_B = k²·H_kin and sign(helicity_B) = sign(H_kin) exactly. What is owed is sign(H_kin), and sign(n) does not reach it on the recorded structure — the section at the foot of this file]** |
-| 5. THE RECTIFICATION | sign(n) → matter-vs-antimatter (which handedness = matter wins) | **[SPLIT — sign(θ̇) alone is a fair coin, proven by the tilt's reflection symmetry; the product sign(θ̇)·sign(n) has no instrument that computes it, a build docketed #154]** |
+| 1 | the ± residual of the phase-slip anneal (the only surviving dice — the swirl direction around the headless axis is not topologically carried; rotation resets at the crunch) → sign(Γ_ring) | [D-frame] — the coin's home is the quantization event |
+| 2 | sign(Γ_ring) → sign(n) (the quantization event: n = Γm/2π preserves sign) | [D] |
+| 3 | sign(n) → the winding current's direction (the P-028 engine) | [RECORDED] |
+| 4 | the current's direction → helicity_B handedness (left vs right) | **the convention is fixed and then cancels: Harrison's coefficient enters the helicity squared, so H_B = k²·H_kin and sign(helicity_B) = sign(H_kin) exactly. What is owed is sign(H_kin), and sign(n) does not reach it on the recorded structure — the section at the foot of this file** |
+| 5 | sign(n) → matter-vs-antimatter (which handedness means matter wins) | **CLOSED, negative. The winding n and rotation θ̇ evolve independently on one trajectory (`scripts/genesis_joint_draw.py`): their joint correlation holds at −0.06 to +0.09 against a ±0.13 floor. Reversing the ring flips n → −n while the charge Q and tilt torque are site-sums that do not move, so every draw's mirror keeps θ̇ and flips n — sign(θ̇·n) is a coin the model cannot call. Injecting a parity-odd term the model lacks makes the correlation appear at once (+0.51/−0.75), so the null is measured, not forced.** |
 
 **The read:** links 1–3 form a connected sign chain from the anneal's coin to the winding
 current's direction. **Link 4 does not continue it.** Its conversion step is exact and

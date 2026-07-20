@@ -1719,6 +1719,28 @@ chk("granule_sim_2field", "Schive core r_c(10^9 Msun) = 1.6 kpc (m/1e-22)^-1", 7
 chk("granule_sim_2field", "Compton wavelength h/(mc) [cf. xi ~ 402 AU]", 370.0,
     2 * math.pi * HBARC / _m20 / _AU, 5e-3, "AU")
 
+# --- R1 caustic-bit precision: the Theta_loc plateau law (scripts/r1_caustic_sim.py) ---
+# Theta_loc = Q/(Q+K), Q=|grad sqrt(rho)|^2, K=rho|grad S|^2. For a developed isotropic
+# circular-Gaussian speckle field (the wave-regularised caustic), Theta_loc is pointwise
+# Beta(d/2,d/2): mean is EXACTLY 1/2 in every dimension (independent of the power
+# spectrum, sigma_v, density, epoch -- and, by a<->b exchange symmetry, of anisotropy),
+# variance 1/(4(d+1)). This is the plateau's universality, sharper than "O(1)". The sim
+# confirms it: 3D var 0.06253 vs 1/16, 2D matches Uniform[0,1], and the vortex-tangle
+# (caustic-content) density obeys Berry & Dennis's isotropic <k^2>/4pi.
+_a2, _a3 = 2 / 2.0, 3 / 2.0            # Beta shape a = d/2 in 2D, 3D
+chk("r1_caustic_sim", "Theta_loc plateau = Beta(d/2,d/2) mean = 1/2 (d=2)", 0.5,
+    _a2 / (_a2 + _a2), 1e-12)
+chk("r1_caustic_sim", "Theta_loc plateau = Beta(d/2,d/2) mean = 1/2 (d=3)", 0.5,
+    _a3 / (_a3 + _a3), 1e-12)
+chk("r1_caustic_sim", "Theta_loc pointwise var 2D = Beta(1,1) = 1/12", 1 / 12,
+    _a2 * _a2 / ((_a2 + _a2) ** 2 * (_a2 + _a2 + 1)), 1e-9)
+chk("r1_caustic_sim", "Theta_loc pointwise var 3D = Beta(3/2,3/2) = 1/16", 0.0625,
+    _a3 * _a3 / ((_a3 + _a3) ** 2 * (_a3 + _a3 + 1)), 1e-9)
+chk("r1_caustic_sim", "var = 1/(4(d+1)) matches the Beta form (d=3)", 1 / (4 * (3 + 1)),
+    _a3 * _a3 / ((_a3 + _a3) ** 2 * (_a3 + _a3 + 1)), 1e-12)
+chk("r1_caustic_sim", "Berry-Dennis 2D vortex-point density coeff = 1/(4 pi)", 0.0796,
+    1 / (4 * math.pi), 5e-3)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
