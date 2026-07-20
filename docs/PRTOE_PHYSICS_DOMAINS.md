@@ -58,7 +58,7 @@ dead, and the record of dead approaches is public.
 | 23 | Fluid dynamics & turbulence | Kolmogorov translates; intermittency silent | Honest silence |
 | 24 | Methods: Bayesian & numerical | Joint refits; pre-registration; adversarial self-review protocol | The method IS a result |
 
-*Part II (below) extends the census to **74 domains** — every Part II entry is an ATTACHMENT: the model
+*Part II (below) extends the census to **76 domains** — every Part II entry is an ATTACHMENT: the model
 predicts, forbids, votes, inherits a bound, or stakes a kill condition
 in that domain, and each entry names the result that would hurt it. No
 falsification hook, no entry.*
@@ -552,7 +552,7 @@ five-lever audit). Deaths by calculation, burials with resurrection terms or the
 | (□φ)² funded floor, early face | BBN ν·x scaling | RISEN as (δK)², three fresh certificates |
 | universal single-vev amendment | D/H +7.7σ, τ_n −4.9% | risen gated (vev package) |
 | flavor-structured coupling | anti-natural (dilaton lore opposite) | cold |
-| carrier-ratio unification (one κ_v) | 8 orders (ANN-2026-006) | exhumation in progress (R1 caustic bit, at turn zero) |
+| carrier-ratio unification (one κ_v) | 8 orders (ANN-2026-006) | exhumation in progress (R1 caustic bit — Θ is derived and its gate form derived at class level; the two-field sims are the remaining gate) |
 | drift fingerprint (P-2026-003's observable half) | V4 mutual-exclusion theorem | final within the minimal model |
 | thermal/Casimir/zero-point floor ontologies | 10¹²¹–10¹²⁴ arithmetic | never; these are arithmetic |
 | tunneling discriminator | receipt 1500× below the SN mass step | demoted, not dead |

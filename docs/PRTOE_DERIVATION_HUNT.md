@@ -337,10 +337,11 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > (ii) is not arguable from here — only a dedicated SU(2) N_f = 3 lattice run decides it, and this
 > sweep establishes nobody has run one.**
 > *Assumptions, named:* dark quarks Dirac and in the fundamental — adjoint or Weyl/Majorana content
-> changes the counting. *Also owed:* the ΔN_eff footprint (§3) is priced for the existing roster and
-> would need re-pricing at N_c = 2; and the SU(2) N_f ≥ 2 chiral transition is reported **first
-> order**, which should be checked against the settling-attractor requirement in
-> [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 (different transition, but worth the check).
+> changes the counting. *Both follow-ons are settled in §3:* the ΔN_eff footprint is re-priced at
+> N_c = 2 — and the answer changed sign (`scripts/dark_neff_su2.py`) — and the SU(2) chiral
+> transition, reported first order in the literature, is ruled a **crossover** here against the
+> settling-attractor requirement in [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5, so τ
+> and the depth law are compatible.
 
 **The two condensates, kept distinct.** The SU(2) sector carries two condensates: the **diquark**
 condensate ⟨qq⟩ — which *is* the dCDF, and which owns this section's consilience (the BEC side, the
@@ -439,7 +440,8 @@ irreducible input.
   three spatial dimensions**. So A_s = 1/N with N = (4πk/α_c)³ assembles from a derived coupling, a loop
   factor, and 3D. The genuine residual is the exact O(1) **normalization of the shot-noise count** (the
   "count C" — whether the assembly is exactly (4πk/α_c)³), which lands A_s to −0.35%. Deliberately exposed;
-  referees are the live zero-parameter run and the Eliashberg k-audit.
+  the referee is the live zero-parameter run — the Eliashberg k-audit has run, placing k in
+  [1.35, 1.37] at three-way concordance.
 - **n_s = 1 − 2/ln(T₀/k), k-local — mechanism candidate (exhibited): 0.9677 at the pivot,
   predicted running −5.2×10⁻⁴** (the banked k-independent 1 − 2/ln(M_Pl/T_on) = 0.9641 is retired
   to consistency-check grade). **The 2D-Gaussian mechanism route, adjudicated by computation (2026-07-17):** the
@@ -549,8 +551,11 @@ irreducible input.
    required; the recorded exponential form delivers immeasurably more). **The honest price, stated
    plainly: the gate that clears the laboratory closes the laboratory as a test** — the local-force
    channel is unobservable by construction, and the configuration's falsifiable channels are
-   cosmological (the ΔN_eff window at CMB-S4, the BBN books, DESI). **Still owed:** the high-f
-   condensation mechanism's full spec. The gate form itself is now **derived at class level**
+   cosmological (the ΔN_eff window at CMB-S4, the BBN books, DESI). **The high-f condensation
+   mechanism is specified** — the bare potential, λ_dyad with its radiative-stability check, the
+   sequence, and the ramp with its exact thermal kernel — leaving three narrower residuals in its
+   place: λ_dyad's origin, the T_c re-pin, and the v_L fork. The gate form itself is **derived at
+   class level**
    (an event-triggered gate is a survival probability — exponential-power class, the power form
    retired; [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) gate section), which
    grounds the checklist's exponential-form reliance; the remaining form residual is the seed
@@ -564,7 +569,7 @@ irreducible input.
 4. *(sharpened) A_s's count* — audited: k = ln(1+π/2α_c)/π is a *derived* screened-interaction
    integral (the gap-equation coupling), not the unmechanized part; the 4π is the 1-loop factor and the cube
    is 3D. The genuine residual is the O(1) normalization of the shot-noise count N = (4πk/α_c)³ (the "count
-   C"), lands A_s to −0.35%, refereed by the live run + the Eliashberg k-audit (§7).
+   C"), lands A_s to −0.35%, refereed by the live run — the Eliashberg k-audit has run (§7).
 5. *(closed as owed) The spurion μ = 2.25 meV* — graded as **not** an independent input:
    it is the electron-anchored meV whisper (ρ_Λ¼ = m_ν = 9/2 α⁴ τ m_e), downstream of item 1. One fewer
    free number than the list once carried.
@@ -581,7 +586,7 @@ entire remaining open surface is:
 
 | open object | what it decides | gated on |
 |---|---|---|
-| the Koide kernel chain's last link (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the pacing-saturation step + the sign-chain walk (desk); then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
+| the Koide kernel chain's last link (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the desk steps are worked (the pacing-saturation step, the sign-chain walk); what stands between the chain and its grade is the first-roll sign run, then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
 | ~~the linear-map postulate~~ — DISCHARGED: the −3/2 derived at additivity grade (boost-dressed cutoff, geometric mean, equipartition — hierarchy §2b) | the anchor's −3/2 | the shared additivity neck (one assumption corpus-wide; the ring-on-ring trial tests its Koide instance) |
 | the seat constant b | κ_m's exact value | the basement build |
 | T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note APPROVED FOR CIRCULATION) |
@@ -590,6 +595,7 @@ entire remaining open surface is:
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
 
 Conditions paid at desk grade this cycle: the Koide aggregation supply (N ≈ 1.5×10¹⁸, nine
-orders of headroom), the gate's sharpness (n_eff ≥ 35, hard-step class, conditional on
-winding-seed identity), the n_s linearity (shot additivity, shared with A_s). Everything else
+orders of headroom), the gate's sharpness (n_eff ≥ 35, hard-step class, unconditional — the
+winding field's own ceiling carries it, no seed identity required), the n_s linearity (shot
+additivity, shared with A_s). Everything else
 in the corpus is derived, priced, or dead with a receipt.
