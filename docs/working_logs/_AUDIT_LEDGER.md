@@ -1853,3 +1853,19 @@ the lower kernel point, and routes to the three-observable lattice campaign. Spo
 passing and correct: 179/510.999 = 0.3503, the dof counts (16/31.5 vs 6/21), r₃ = 1 −
 156.5/270 = 0.4204, the 0.63-vs-0.345 hidden-convention split (429 vs 449 MeV), and the
 Braguta T_d/√σ = 0.483(23) transfer chain.
+
+## Thermal_O1_Discussions.md — deep audit 2026-07-19 (transcripts tier, 3 of 5)
+
+Read whole (758 lines). The tribunal is the corpus's procedural high-water mark — pre-registered
+decision rules written before the result existed, the build pasted verbatim and then corrected
+by the tribunal itself (the −3.3%·λ → −1.57%·λ repair, referee-confirmed to 8 digits; the
+"CONVERGES" caption graded asserted-then-repaired), failed attacks recorded as failed by their
+own authors on both sides, and every load-bearing number verified by at least two independent
+computations. Its verdict is booked verbatim in the cosmological-constant file, which has
+since carried the story further (Frame 1 rejected; Frame 2's composite quartic λ ≈ 14–31
+landing at the tribunal's own λ* ≈ 22.4 — the λ/τ gate merger). One leak sealed with the dated
+header: era re-keying (+1.5% → +0.44%), the booking pointer, the λ half-pinning, and the
+normalization fence. **Recorded against me: I nearly booked "the size closes SAFE by 39
+orders" by conflating the tribunal's composite-frame λ with the bare λ_dyad ≈ 1.3×10⁻³⁸ —
+caught before writing by reading cc's own frame split.** The label firewall's exact species;
+the tribunal's Rule 1 discipline is why the trap was visible.

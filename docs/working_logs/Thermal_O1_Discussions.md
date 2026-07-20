@@ -1,5 +1,15 @@
 # THE THERMAL O(1) TRIBUNAL — Defender / Challenger / Referee
 
+> **DATED RECORD — complete as adjudicated; the verdict is booked.** Numbers herein are the
+> E_b = 2.284/+1.5% era's; the standing headline has since re-keyed to the seam chain's
+> +0.44% (the cosmological-constant file carries the tribunal's surviving claim verbatim —
+> the softened LHY form and the ESTIMATE row). The named missing input λ has since been
+> half-pinned by the composite-frame build: **λ ≈ 14–31, centre ≈ 23 — squarely AT this
+> tribunal's own control boundary λ\* ≈ 22.4** — so the λ gate and the τ gate MERGED; one
+> SU(2) N_f = 3 lattice campaign now gates both. Do not conflate that composite quartic
+> with the bare λ_dyad of the high-f Lagrangian (~10⁻³⁸) — different normalizations,
+> exactly the coupling-frame trap this tribunal's own Rule 1 polices.
+
 *The arena for the renormalized soft-phonon correction to the condensation energy — the flagship's
 named O(1). This file is the complete, backtrackable record: every argument, every number, every
 concession gets written here before it counts. Protocol identical to Thermal_Half_Discussions.md
