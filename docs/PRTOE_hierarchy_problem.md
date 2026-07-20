@@ -154,7 +154,8 @@ vacuum? — computed at one loop: the dip is SHALLOWER than the SM's own (−0.0
 and the census's rising gauge couplings then return λ to **+0.146 at 10¹⁶ GeV**: the
 endpoint is stable, unlike the SM's. The anchor does not merely coexist with the vacuum's
 health; the census structure CURES the Standard Model's metastability. (One-loop;
-two-loop inherited by the shooter redesign.)
+two-loop piece is unowned: it was routed to the shooter redesign, and that program closed as
+mooted, so nothing inherits it.)
 
 ## Where the dead ends live
 
