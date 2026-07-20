@@ -163,21 +163,21 @@ audit. That suspension, and the rigid-13 census count it rode with, live in
 
 ## 6. Where the gap equation sits: the Fermi-point basement
 
-The anchor's identification with 4πm_H is seated in the induced-gravity basement, and **the
-seating is forced, not chosen:** the standing corpus has exactly one vacuum with a fermionic
+The anchor's identification with 4πm_H belongs to the induced-gravity basement, and **there is
+no choice about which vacuum:** the standing corpus has exactly one with a fermionic
 bath at the Planck floor (the str[k₁] = 0 roster: the Standard Model's 48
 Weyl fermions plus three right-handed neutrinos, the same content P-2026-045 registers and
 the same floor the dark SU(2) sector's own balance joins). A BCS-class gap equation needs
 three things of its host, and the standing basement supplies two from recorded structure:
 
-| seat requirement | status in the Fermi-point basement |
+| what the gap equation needs of its host | status in the Fermi-point basement |
 |---|---|
 | **a fermionic bath at the cutoff** | **met, recorded** — the finiteness roster IS the Planck-floor fermion content; Fermi-point universality (the Volovik frame the quantum-gravity file already rides) is precisely the statement that such a vacuum's low-energy fermions are generic |
 | **the coupling kα_c reaching the basement** | **met, recorded** — k is the screened-interaction integral (basement-independent by construction; the corpus's one shared k), and α_c is the medium's coupling, which reaches the Planck floor through the induced loop — the SAME loop that makes gravity itself (no new bridge is invented; the anchor uses the induced-G channel that no-bare-G already requires) |
 | **the attractive channel** (the phonon's analog: what pairs the census states) | **OWED — the one genuine residual.** The medium's own exchange must be shown attractive in the Fermi-point vacuum. This is basement-build territory, and it is the SAME gate the neutrino sector's seat constant b already waits at — the rehome adds no new gate, it joins a standing one |
 
-**What the seating buys.** The arithmetic is self-contained — measured m_H, the shared k, the
-derived 3/2, reproducing 1576 GeV against 4πm_H = 1574 at +0.14% — and the seating makes the
+The arithmetic is self-contained — measured m_H, the shared k, the derived 3/2, reproducing
+1576 GeV against 4πm_H = 1574 at +0.14%. Putting the gap equation in this vacuum makes the
 hierarchy answer and the gravity answer one statement: **the same fermionic floor that induces
 G pairs at kα_c, and the electroweak scale is that pairing's gap.** Grade: **structural,
 basement-gated** — two of the three requirements met by recorded structure, the third sharing
@@ -194,12 +194,13 @@ The vacuum constrains the pairing sharply. Write the pairing integral in cutoff 
 | **a Fermi point** (ρ ∝ E², linear node) | J → **1.50** (equal-states) / **0.50** (cutoff-DOS) — **convergent** | **cannot pair.** No log, no exponential; pairing needs λ ≥ 2/3, and the model has 0.0299 — **subcritical by 22–67×** |
 
 So the node cannot host the pairing. A Fermi-point vacuum's phase space vanishes at the node
-exactly where BCS needs it finite, and no amount of weak coupling recovers it. **Requirement (a)
-sharpens accordingly:** not "a fermionic bath at the cutoff" but *a fermionic bath with finite
-density of states in the pairing shell* — which a Fermi-point vacuum does possess, but only at
-its bend-over, where the linear cone terminates and the full spectrum resumes. The node is the
-infrared remnant; the pairing is a cutoff-scale event. Requirement (c) inherits the same
-sharpening: the attractive channel must act on the bend-over states, not on the cone's.
+exactly where BCS needs it finite, and no amount of weak coupling recovers it. **So the first
+requirement is stricter than the table states it:** the host needs not just a fermionic bath at
+the cutoff but *a fermionic bath with finite density of states in the pairing shell*. A
+Fermi-point vacuum has one, but only at its bend-over, where the linear cone terminates and the
+full spectrum resumes. The node is the infrared remnant; the pairing is a cutoff-scale event —
+and the third requirement inherits that: the attractive channel must act on the bend-over
+states, not the cone's.
 
 **The two 3/2's are different objects.** Under equal-states normalization the node's saturation
 is exactly d/2 = **3/2**, numerically the exponent's own constant — but the exponent's −3/2 is
