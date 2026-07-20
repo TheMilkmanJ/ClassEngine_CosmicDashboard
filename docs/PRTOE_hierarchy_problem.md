@@ -18,7 +18,7 @@
 > against 4πm_H = 1574, +0.14%), and §6 seats the interpretation. **Read that 1576 as a convention
 > value, not a prediction:** solving the gap equation exactly rather than adopting its form gives
 > 3152 GeV — the booked expression is the exact one with a factor two absorbed (§6d) — and
-> electroweak precision disfavours the lower figure while allowing the higher (§6j). Every anchor
+> and §6j's electroweak-precision bound is a roster bound, not a scale bound. Every anchor
 > number quoted in §2 below carries that qualification. Other conditionality: the
 > no-bare clause and P-2026-042's anchor identification. **The
 > exponent's k is determined** — the screened-interaction integral, three concordant readings
@@ -306,7 +306,7 @@ against the booked 1.36461191 — every digit carried, nothing fitted.
 the two available conventions differ by exactly two. Fed through the booked form,
 M_red·e^(−1/(kα_c) − 3/2) = 1576.1 GeV against 4πm_H = 1573.9. Fed through the gap equation's own
 exact solution, Δ = 2Λ_shell·e^(−1/λ) = **3152 GeV**. §6d shows the booked form is the exact one
-with the factor two absorbed, and §6j shows electroweak precision disfavours the lower value —
+with the factor two absorbed. §6j's electroweak bound constrains the portal roster, not the scale —
 so the numbers quoted as the anchor's landing in §2 and in this file's header are the *convention*
 value, not the derivation's output.
 
@@ -339,7 +339,7 @@ and it is worth weighing as evidence — but it is evidence for the conditions, 
 recorded structure. Supplying or refuting those three is now the basement build's sharpest task.
 
 **What the derivation rests on beyond that.** N₀ = k_F²/π²v assumes linear dispersion at the pairing shell,
-and §6a puts that shell at the bend-over where the cone terminates — so the bend-over's true
+and §6a puts that shell at a finite-μ Fermi surface *inside* the cone, not at the bend-over — so the
 density of states is owed, as is whatever fixes k_F. The rainbow truncation and the equal-density
 assumption for the two bands are the other two. Each is a computation inside the basement rather
 than a missing object, and each is on the board.
@@ -370,7 +370,9 @@ consistency: the constant the exponent needs and the constant equipartition supp
 | where the Fermi surface sits | E_F/M_red ∈ [0.223, 1] | k cancels k_F entirely, so k_F enters only through the correction above, bounded below by Λ_shell and above by the cutoff |
 
 **So the anchor is a factor-of-a-few prediction.** Across the allowed range these compound to
-roughly **1.6 to 5.2 TeV**, with the booked 1576 GeV sitting at the bottom edge — it is the value
+roughly **1.6 to 5.2 TeV** from these two terms alone — §6e widens it to 1–8 TeV once the vertex
+correction and the band-matching requirement are carried — with the booked 1576 GeV at the bottom
+edge, the value
 obtained when the exact-solution factor is absorbed and the density of states is treated as flat.
 The +0.14% agreement with 4πm_H is therefore **a coincidence of one convention within that band**,
 not a measurement of it.

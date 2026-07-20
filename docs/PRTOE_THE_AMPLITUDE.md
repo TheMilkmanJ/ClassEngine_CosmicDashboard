@@ -81,8 +81,8 @@ area law (derived and confirmed numerically), the activation ramp (the Hagedorn-
 **k = ln(1 + π/2α_c)/π = 1.36461** is a screened-interaction integral, and it reconstructs
 exactly — **conditionally** — the reconstruction is exact but its host (a cold degenerate Fermi surface at finite μ, Thomas–Fermi screening, two compensated bands) is not what this corpus records for the basement, which is a hot Fermi point; hierarchy §6c, §6m — as the Fermi-surface average of a Thomas–Fermi-screened Coulomb
 exchange, over the full sphere, with the screening constant 2α_c/π coming out of e²·(2N₀)/4k_F²
-— the factor 2 being the *two-band* polarisation that a particle-hole condensate has by the
-vacuum's own neutrality ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). It
+— the factor 2 being a *two-band* polarisation, which needs the two bands velocity-matched and
+not merely compensated ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). It
 sits inside the Eliashberg window [1.35, 1.37] and was never fitted to a landing. The 4π is the standard one-loop factor and the cube is the three
 spatial dimensions. Assembled: **2.0807×10⁻⁹ against the frozen 2.088×10⁻⁹, −0.35%.**
 
