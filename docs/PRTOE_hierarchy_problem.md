@@ -351,19 +351,25 @@ could support.
 load-bearing number in the chain: ∂lnM/∂r ≈ 11.6 for N_screen = (1 + r)N₀, so a 25% asymmetry
 between the bands moves the anchor by a factor 18. It is not an assumption.
 
-**Neutrality forces it.** The basement vacuum carries no net electric charge. A neutral semimetal
-is *compensated* — n_electron = n_hole exactly — and for pockets of the same dispersion n ∝ k_F³,
-so compensation gives k_F(e) = k_F(h), and the density of states k_F²/v then gives N_e = N_h, i.e.
-**r = 1**. The same neutrality that selects the particle-hole channel in §6b also equalises the two
-screening bands. One rule, used twice.
+**Neutrality gets most of the way, and not all of it.** The basement vacuum carries no net electric
+charge, so a neutral semimetal is *compensated*: n_electron = n_hole exactly. With n ∝ k_F³ that
+fixes k_F(e) = k_F(h) whatever the velocities. But the density of states is k_F²/v, so what survives
+is **r = v_e/v_h** — compensation equalises the *densities*, not the *densities of states*, and the
+remaining factor is a velocity ratio neutrality says nothing about.
 
-**The residual, priced.** What neutrality does not by itself supply is equality of the two
-branches' *velocities*: with v_h ≠ v_e, compensation fixes the densities but not the densities of
-states, and r = v_e/v_h. A 1% velocity asymmetry is a 13% shift in the anchor, so exact
-particle-hole symmetry of the dispersion is needed at the percent level. A Dirac cone has it at the
-node by construction — but the pairing sits at a Fermi surface some way up the cone (§6a), so what
-is actually required is that the symmetry survive to the pairing shell. That is a statement about
-the bend-over's shape, and it is the sharpest remaining constraint the basement build must meet.
+**And one cone cannot supply both pockets.** At finite chemical potential a single Dirac cone has a
+Fermi surface in one branch only; the other branch is entirely below or above μ. So the two pockets
+the screening needs must come from **two distinct bands**, whose velocities are independent
+parameters. r = 1 is therefore a genuine structural requirement on the basement's band structure —
+two velocity-matched bands — and not something the vacuum's neutrality delivers for free.
+
+**The residual, priced.** The anchor's response to the velocity ratio is steep: a **1% asymmetry
+shifts it 13%, 5% shifts it by roughly a factor two, and 10% by a factor four.** So the two bands
+must be velocity-matched at the percent level for the anchor to hold at all, and nothing yet
+supplies that match. It is not the node's particle-hole symmetry — that concerns one cone's two
+branches and does not reach two separate bands. **This is the sharpest constraint the basement build
+must meet**, and it is a constraint on band structure rather than on a symmetry the vacuum already
+has.
 
 **The band, assembled.** Three independent O(1)s survive: the vertex correction to the rainbow
 truncation, which enters at relative order λ = 3% and so is a factor ≈ 2.7 either way; the Fermi
