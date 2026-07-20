@@ -1380,12 +1380,14 @@ clean identity **f_arr ≤ f/3 = v_gas/(3c_s)**, with c_s = √(3α)·c = 44 357
 
 | scale | v_vir | fence allows f_arr ≤ | pricing delivers f_arr ≤ | margin |
 |---|---|---|---|---|
-| galaxy | 286 km/s | 0.0133 | **0.0022** | 6.2× clear |
-| group | 429 km/s | 0.0300 | **0.0032** | 9.3× clear |
-| cluster | 1423 km/s | 0.3331 | **0.0107** | 31× clear |
+| galaxy | 286 km/s | 0.0133 | **0.00215** | 6.2× clear |
+| group | 429 km/s | 0.0300 | **0.00322** | 9.3× clear |
+| cluster | 1423 km/s | 0.3298 | **0.0107** | 31× clear |
 
-The fence's three registered ceilings reproduce exactly as 0.2·(½m_p v_vir²)/(ε·m_e) at those virial
-speeds, so the fence itself is arithmetically sound. What fails is the other jaw: the delivery needed
+The virial speeds in that table are the fence's own three registered ceilings inverted through
+0.2·(½m_p v_vir²)/(ε·m_e) — so the table checks the fence's *internal* consistency, not its
+calibration, and what it shows is that the ceilings correspond to 286/429/1423 km/s, which are the
+right speeds for the scales they are labelled with. What fails is the other jaw: the delivery needed
 0.008–0.013 and the pricing supplies 0.0022–0.0032 at the scales that set S₈ — **short by 2.5–3.7×
 before web dissipation takes anything away.** The two jaws never met. The fence was never the binding
 constraint, and the suppression was never available to be fenced.

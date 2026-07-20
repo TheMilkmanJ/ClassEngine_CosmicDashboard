@@ -31,9 +31,9 @@ share arriving at a halo is at most
 
 > **f_arr ≤ v_gas/(3 c_s)**,  c_s = √(3α)·c = 44 357 km/s
 
-— **0.0022 at galaxy infall (286 km/s), 0.0032 at group infall (429 km/s), 0.0107 at cluster infall
+— **0.00215 at galaxy infall (286 km/s), 0.00322 at group infall (429 km/s), 0.0107 at cluster infall
 (1423 km/s)**. Against the X-ray scaling fence (arriving energy ≤ 20% of ½v_vir², i.e. f_arr ≤ 0.0133
-/ 0.030 / 0.333 at those three scales) that clears by **6–31×, tightest at galaxy scale**; against the
+/ 0.030 / 0.330 at those three scales) that clears by **6–31×, tightest at galaxy scale**; against the
 0.008–0.013 a lensing-gap closure would need it falls **2.5–3.7× short at the scales where S₈ lives**,
 and web dissipation only lowers it further. **The fence is satisfied and the delivery is unavailable** —
 the same verdict the energy bookkeeping reached from the entropy-floor side

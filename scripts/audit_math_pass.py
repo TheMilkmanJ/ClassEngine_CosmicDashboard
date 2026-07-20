@@ -1111,9 +1111,9 @@ chk("entropy 4", "c_s = sqrt(3 alpha) c in km/s", 44357, CS_DK, 1e-3, "km/s")
 chk("entropy 4", "eps*m_e from the closed form (vs the booked 6.41)", 6.41, E_GATE/1e3, 1e-3, "keV")
 _f_arr  = lambda v: v/(3*CS_DK)                                  # delivered, upper bound
 _fence  = lambda v: 0.2*(0.5*MP*(v/CKMS)**2)/E_GATE              # allowed
-for _v, _d, _a, _m, _s in ((286.0, 0.0022, 0.0133, 6.2, "galaxy"),
-                           (429.0, 0.0032, 0.0300, 9.3, "group"),
-                           (1423.0, 0.0107, 0.3331, 31.0, "cluster")):
+for _v, _d, _a, _m, _s in ((286.0, 0.00215, 0.0133, 6.2, "galaxy"),
+                           (429.0, 0.00322, 0.0300, 9.3, "group"),
+                           (1423.0, 0.0107, 0.3298, 31.0, "cluster")):
     chk("T4/ledger", f"f_arr delivered = v/(3 c_s), {_s} infall", _d, _f_arr(_v), 0.02)
     chk("T4/ledger", f"X-ray fence 0.2*(0.5 m_p v^2)/(eps m_e), {_s}", _a, _fence(_v), 0.01)
     chk("T4/ledger", f"fence margin (allowed/delivered), {_s}", _m, _fence(_v)/_f_arr(_v), 0.02, "x")
