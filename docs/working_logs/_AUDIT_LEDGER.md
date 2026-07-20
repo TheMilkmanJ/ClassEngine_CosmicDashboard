@@ -1929,3 +1929,22 @@ The varied attack's first battery swept the forward corpus mechanically. Finding
    carries the full supersession chain in-sentence. The λ-10⁻⁸⁸ and m-band mentions elsewhere
    all price the recorded values in place — the corpus's own maintenance had already reached
    them.
+
+## PASS 2, battery 2 (2026-07-19): retired objects and the overloaded symbol — three fixes
+
+1. **The f_amp name collision — the battery's real catch, invisible to per-file audits.** The
+   symbol is RETIRED in one sense (the amplitude-decomposition factor, → f̄ = 2/π) and LIVE in
+   another (the medium's librating fraction: the dice, the p²+q² granule dial, the beat
+   formula) — and the retirement notes read as outlawing both. The READERS_GUIDE now carries
+   the two-sense row; the eight live uses (spine §10, atlas, galactic_atoms, PHYSICS_DOMAINS)
+   are all sense-two and stand unchanged.
+2. **DERIVATION_HUNT's detached-dyad charge updated**: 4/7 = 0.571 → 8/7 = 1.14 (the
+   tribunal's U(1)-seal amendment; complex Ψ), the old half kept as the named charitable
+   floor. Conclusion unchanged (both > 0.3). The same passage had already received the
+   corpus's ζ-notation and 177–179 insensitivity maintenance — this was the one number the
+   maintenance missed.
+3. **The fairbank draft's 179 keV** now carries the one-clause price (derived 177.10;
+   abundances insensitive at this level) — the audience letter no longer quotes the coded
+   value bare. Clean sweeps: 0.3503 carries fork context in every forward home; cc's 1.955
+   is artifact-priced in its own section; the CODE_MANIFEST/spine/scar 179s all sit inside
+   their price blocks.
