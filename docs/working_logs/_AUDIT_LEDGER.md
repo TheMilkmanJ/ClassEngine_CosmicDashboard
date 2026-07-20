@@ -2398,3 +2398,24 @@ objects tied by d = 3 — and a relation between couplings holds at a scale, whi
 basement, the amplitude's infrared use of it becomes the loose end and ε inherits the question. The
 corpus uses the infrared value in both places, and that cannot be right in both. Successor docketed
 as #144.
+
+### 2026-07-19 — #144: the scale is data-selected by A_s, and two claims become one joint
+
+§6h reduced the coupling's residual to a single question — at what scale does α_c = 3α hold? The
+discriminator was already in the corpus. α_c enters four places: ε (recombination) and ρ_Λ (eV
+scale), both infrared; A_s (genesis) and the anchor (Planck floor), both ultraviolet. The anchor
+cannot test the scale — ∂lnM/∂lnα_c = 25.8 swamps it — but **A_s can**, at ∂lnA_s/∂lnα_c = 3.69
+against a ~1.4% measurement.
+
+**A_s = 2.0807×10⁻⁹ at α_c = 3α(0), −0.4% from measured; 2.681×10⁻⁹ (+28.4%) at α(M_Z);
+5.395×10⁻⁹ (+158%) at the extrapolated UV value.** A primordial observable, selecting the infrared
+number. So horn (b) is data-selected, not assumed: α_c is a scale-independent medium constant equal
+to 3α(0), and the corpus's use of one number across eighteen orders is consistent. §6f's "orders
+higher" worry lifts; the anchor's band stays as §6e set it.
+
+**And the cost, which is a real tightening.** A_s = C·(α_c/4πk)³ with C the unmechanized count the
+corpus claims is exactly 1. At C ≈ 0.385 a running α_c would reproduce A_s and the test evaporates.
+So **"the count is exactly (4πk/α_c)³" and "α_c does not run" now stand or fall together** — two
+previously independent claims joined into one. Recorded as an exposure, not a win: whichever fails
+takes the other with it, and the count C was already flagged as the corpus's highest-risk standing
+claim (dependency tree, A_s row).
