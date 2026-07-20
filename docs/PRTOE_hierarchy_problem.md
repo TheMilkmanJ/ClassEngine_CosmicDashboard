@@ -15,7 +15,11 @@
 > | **the anchor's identification with 4πm_H** | **yes** — it is where the gap equation needed a vacuum to sit in | **seated in the Fermi-point basement (§6) — structural, basement-gated** |
 >
 > So the arithmetic below stands and reproduces (residual 1.5014 against 3/2; M_anchor = 1576 GeV
-> against 4πm_H = 1574, +0.14%), and §6 seats the interpretation. Other conditionality: the
+> against 4πm_H = 1574, +0.14%), and §6 seats the interpretation. **Read that 1576 as a convention
+> value, not a prediction:** solving the gap equation exactly rather than adopting its form gives
+> 3152 GeV — the booked expression is the exact one with a factor two absorbed (§6d) — and
+> electroweak precision disfavours the lower figure while allowing the higher (§6j). Every anchor
+> number quoted in §2 below carries that qualification. Other conditionality: the
 > no-bare clause and P-2026-042's anchor identification. **The
 > exponent's k is determined** — the screened-interaction integral, three concordant readings
 > (1.360 / 1.36461 / 1.3602) inside the Eliashberg window. Its **kernel** is the live front: §6
@@ -295,8 +299,15 @@ $$\lambda \;=\; N_0\,\langle V\rangle_{\rm FS} \;=\; \frac{\alpha_c}{\pi}\ln\!\B
 \;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\frac{\pi}{2\alpha_c}\Big)\;\equiv\;k\,\alpha_c,
 \qquad k = 1.36461191$$
 
-against the booked 1.36461191 — every digit carried, nothing fitted. The anchor follows:
-M_red·e^(−1/(kα_c) − 3/2) = **1576.1 GeV** against 4πm_H = 1573.9, **+0.14%**.
+against the booked 1.36461191 — every digit carried, nothing fitted.
+
+**What that does and does not fix.** λ is now derived; the *anchor* still needs a prefactor, and
+the two available conventions differ by exactly two. Fed through the booked form,
+M_red·e^(−1/(kα_c) − 3/2) = 1576.1 GeV against 4πm_H = 1573.9. Fed through the gap equation's own
+exact solution, Δ = 2Λ_shell·e^(−1/λ) = **3152 GeV**. §6d shows the booked form is the exact one
+with the factor two absorbed, and §6j shows electroweak precision disfavours the lower value —
+so the numbers quoted as the anchor's landing in §2 and in this file's header are the *convention*
+value, not the derivation's output.
 
 The sensitivity is why the factor matters rather than being bookkeeping: ∂lnM/∂lnk = 1/(kα_c) =
 **33.47**, so the anchor amplifies any error in k thirty-threefold. One band screening instead of
