@@ -2419,3 +2419,30 @@ So **"the count is exactly (4πk/α_c)³" and "α_c does not run" now stand or f
 previously independent claims joined into one. Recorded as an exposure, not a win: whichever fails
 takes the other with it, and the count C was already flagged as the corpus's highest-risk standing
 claim (dependency tree, A_s row).
+
+### 2026-07-19 — #141: a suppression argument considered and REJECTED before filing
+
+Attempted to shrink the vertex correction from O(λ) ≈ 3% to O(λ·m_D/k_F) ≈ 0.5% by invoking Migdal
+suppression, which would have narrowed the anchor's band from a factor 2.7 to 1.18 — the single
+largest improvement available. **The argument does not hold, and it is recorded here rather than in
+the physics files because it was wrong.**
+
+Migdal's theorem suppresses vertex corrections by ω_boson/E_F when the exchanged boson is *slow*
+compared to the fermion — the electron-phonon case, where the lattice takes ~1/ω_D to respond. The
+exchange here is **statically screened Coulomb: instantaneous, flat in frequency.** There is no
+adiabatic ratio to expand in, and the standard result for the electron gas is precisely that Coulomb
+vertex corrections carry *no* Migdal-type suppression. My reasoning substituted the screening mass
+m_D for a boson frequency, which is a length scale doing a time scale's job.
+
+**What actually survives.** The Ward identity does tie the vertex to the self-energy, and in the
+pairing kernel the two corrections partially cancel — this is real and it is why RPA outperforms a
+naive ladder — but partial cancellation is not a bound, and nothing in it produces a small parameter
+beyond the coupling itself. So the honest sizing stands where §6e put it: **the vertex correction is
+O(λ) = 3.0%, a factor ≈ 2.7 either way on the anchor, and it is still the dominant term in the
+band.** #141 stays open and needs the computation, not an argument.
+
+**Why this entry exists.** The session's standing failure has been summaries written from
+expectation — four O(1) errors, two overclaiming print statements. This is the same shape caught one
+step earlier: a plausible physical argument, in the direction I wanted, sized and tabulated before it
+was checked. The rule that caught it is the one added this morning — compute or verify a second way
+before booking — applied to an *argument* rather than a number.
