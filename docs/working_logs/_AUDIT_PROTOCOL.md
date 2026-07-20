@@ -290,6 +290,23 @@ would have been **a correct number overwritten with a wrong one**, and filed as 
 do not force a finding; this is the arithmetic case of it, and it is the more dangerous one, because
 the forcing looks like diligence right up until the source band is read.
 
+**A process rule that has now failed twice, in two different disguises: NEVER PIPE THE GATE.**
+`scripts/check_before_commit.sh` signals failure through its **exit code**. Both of these commit
+over a red gate:
+
+    bash scripts/check_before_commit.sh; git commit ...              # separate statements
+    bash scripts/check_before_commit.sh | tail -3 && git commit ...  # tail's exit code, not the gate's
+
+The second is the nastier one, because it *looks* correct — the `&&` is right there, and the
+terminal even prints "REFUSING TO COMMIT" immediately above a successful commit. A pipeline's status
+is its **last** command's, and `tail` always succeeds. The only safe form is the gate as its own
+unpiped command:
+
+    bash scripts/check_before_commit.sh && git add <explicit paths> && git commit ...
+
+If the output is too long, redirect to a file and grep the file *afterwards* — never in the pipeline
+that guards the commit.
+
 A file is not closed until checks 12 and 13 pass. Running the regression harness and a stale-pattern sweep
 is necessary and is not sufficient: both test what you thought to test.
 
