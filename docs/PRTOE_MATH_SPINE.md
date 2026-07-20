@@ -353,6 +353,36 @@ equation solved in time: **it owes an equation of state at the approach that the
 not currently supply**, and until one is named the BKL objection stands unopposed rather than open.
 Tolman is untouched by this and remains separately unresolved.
 
+**And the model's own sector cannot supply it — computed, not surveyed
+(`scripts/bounce_bkl_stiff_check.py`).** The obvious place to look for a stiff phase is the
+founding identity itself: a *rotating* condensate carries a conserved charge Q = a³r²θ̇, and at
+fixed Q the rotation appears as a centrifugal term in an effective radial potential,
+V_eff(r) = V(r) + Q²/2a⁶r². If the amplitude r were held fixed, the rotational energy would fall
+as a⁻⁶ — exactly kination, exactly what BKL needs. So the question is whether r holds fixed on
+approach, and that is decidable.
+
+It does not. The field instead **tracks** the minimum of V_eff, and tracking in V ∝ rⁿ gives
+
+  r ∝ a^(−6/(n+2)),  ρ ∝ a^(−6n/(n+2)),  hence **w = (n−2)/(n+2)**
+
+— an exact result, confirmed by integrating the radial field equation through a contracting
+background to five decimal places at n = 2, 4 and 6. It reproduces the recorded regimes rather
+than contradicting them: n = 4 gives w = 1/3 (the quartic youth) and n = 2 gives w = 0. **And it
+is strictly below 1 for every polynomial n**, approaching kination only as n → ∞. No polynomial
+potential reaches the stiff condition by this route.
+
+Freezing is the only escape, and it has a price that can be quoted. At the tracking minimum the
+restoring curvature is V_eff″ = n(n+2)V/r² against H² = V(n+2)/6M_Pl², so
+**V_eff″/H² = 6n·(M_Pl/r)²** — the field can only freeze once its amplitude is **trans-Planckian**
+(r ≳ 3.5 M_Pl at n = 2, 4.9 at n = 4). The integration crosses that threshold and w does turn to
+1.0000 above it, which confirms the mechanism and simultaneously prices it out: the model's
+amplitudes are nowhere near M_Pl.
+
+**So the objection is not merely unanswered, it is unanswerable from this sector.** That is a
+sharper and more adverse statement than the one above it, and it is the honest one. What remains
+open is whether some *other* component — not the rotating condensate — supplies w ≥ 1 at the
+approach; nothing in the recorded roster currently does.
+
 ## 8\. The two-jobs pattern — and where the code reflects it
 
 Every transition is ONE clock with TWO jobs — the ending regime reaches its floor, the starting
