@@ -1963,3 +1963,18 @@ The varied attack's first battery swept the forward corpus mechanically. Finding
 3. **False positives, recorded**: the spine's escaped headers ("## 6\.") fooled the §-regex —
    neutrino_sector's pointers are fine; fairbank's "roughly three times the measured interval"
    is legitimate estimate prose, not a count hedge.
+
+## PASS 2, battery 4 (2026-07-19): value triangulation — a CLEAN CERTIFICATE
+
+The cross-file triangulation of the remaining standing values found nothing to fix: no interim
+chain number (the dyad_mnu 59.6) is booked as a result anywhere; the step-era Y_p pulls
+(+3.7σ, the 0.2495–0.2505 interval) survive nowhere outside the history homes; every quote of
+the frozen z_on fit carries the resolution (the identity is right, the job's setting is the
+outlier); and the ε family — 1.232% production fit, ~1.24% posterior, 1.2543% derived stack —
+is deliberately distinguished and correctly labeled in every home including the glossary.
+
+**Pass 2's mechanical batteries (1–4) are complete: thirteen fixes, two clean certificates,
+and the false positives recorded.** The defect density fell battery over battery (6 → 3 → 4 → 0),
+concentrated exactly where predicted — the 07-07→07-16 maintained band (DERIVATION_HUNT took
+three hits across batteries, the most of any file). Remaining for pass 2: one targeted whole
+re-read of DERIVATION_HUNT (the highest-hit survivor), then the closing assessment.
