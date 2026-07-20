@@ -327,6 +327,18 @@ condensate RE-FORMS → §1. **The condensate breathes; T_c is both the recombin
 and the crunch-era melting point — one number, both jobs** (the two-jobs law, §2).
 [STORY at the bounce rungs: BKL, Tolman unresolved.]
 
+**BKL is worse than unresolved — the recorded equation of state is the wrong one to survive it
+(2026-07-20, #117).** The standard route past a BKL approach is a stiff phase: shear energy density
+scales as a⁻⁶, so anisotropy stops growing *relative* to the background only when w ≥ 1 (kination,
+also a⁻⁶). **This model's recorded first regime is w = 1/3** — the phonon-gas/radiation-like phase
+(UV_completion §step 3) — which scales as a⁻⁴ and therefore **loses to shear by two powers of a**.
+Contracting through three decades of scale factor, the anisotropy-to-radiation ratio grows by 10⁶.
+The one place kination appears in the corpus is the ALP rotation's *redshifting*, not a phase the
+contracting branch is recorded to pass through. So the bounce sector does not merely owe a field
+equation solved in time: **it owes an equation of state at the approach that the recorded regimes do
+not currently supply**, and until one is named the BKL objection stands unopposed rather than open.
+Tolman is untouched by this and remains separately unresolved.
+
 ## 8\. The two-jobs pattern — and where the code reflects it
 
 Every transition is ONE clock with TWO jobs — the ending regime reaches its floor, the starting
