@@ -182,3 +182,36 @@ file the corpus designates as this row's authority. That is a booking, not a des
 standardise on **±0.0476** corpus-wide and take the **−2.94σ**. Until the check is run, the scar
 file's standing instruction holds — **quote the fork, not one side**
 (`docs/PRTOE_deuterium_scar.md:31`).
+
+---
+
+## THE CHECK IS RUN (2026-07-20) — the answer is A, from the primary source
+
+I read arXiv:2011.11320 directly (abstract + the ar5iv full text). It settles the width, and
+against the model.
+
+**Three things the paper establishes:**
+1. **The ±0.037 IS the propagated nuclear-rate uncertainty.** Verbatim: *"When estimating the
+   theoretical uncertainty with a Monte-Carlo method, we vary on the uncertainty of nuclear rates,
+   on the neutron lifetime, but also on the baryon abundance according to the CMB+BAO posterior."*
+   So reaction-rate uncertainties are **inside** the ±0.037 by construction.
+2. **It uses the post-LUNA d(p,γ)³He rate.** Verbatim: *"To take into account the new experimental
+   data we use the Mossa et al. (2020b) rate"* — LUNA's own measurement.
+3. **d(p,γ)³He is the dominant D/H driver**, sensitivity coefficient −0.32 (their Eq. 8), so it is
+   the largest single contributor to that Monte-Carlo variance.
+
+**Together: d(p,γ)³He's uncertainty is folded into the ±0.037. The three-term ±0.0563 adds it a
+second time.** Fork **A** is correct: **±0.0476 is the right width, and the standing row is −2.94σ.**
+
+The one caveat the paper does *not* remove: it gives no line-item table isolating d(p,γ)³He's
+percent share of the ±0.037. But it does not need to — the reaction is provably *inside* the
+Monte-Carlo, and adding a separate ±0.030 rate term outside it is the double-count regardless of
+that term's size. (The independent post-LUNA code, Pisanti et al. arXiv:2011.11537, would corroborate
+if you want a second source, but the decomposition statement above is already dispositive.)
+
+**The desk work is done; the one booking is still yours.** Standardising the scar file's headline
+from **−2.49σ to −2.94σ** re-quotes the authority file's advertised number, which is the single
+action this note reserved for you. Everything upstream of that booking is now settled and adverse —
+a half-sigma against the model on its weakest measured row, confirmed from the primary source rather
+than argued. Say the word and it re-books corpus-wide; the advertised window −2.5 to −1.4σ needs no
+change, having always been the two-term number.
