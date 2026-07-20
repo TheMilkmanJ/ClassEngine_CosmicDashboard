@@ -141,7 +141,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 113 | THE BASEMENT BUILD — the gate three files park debts against | open |
 | 114 | The gap equation's KERNEL — specify the pairing interaction and solve it | closed |
 | 115 | The family-field potential, the background M, and x_out | open |
-| 116 | The seat-alignment derivation | open |
+| 116 | The seat-alignment derivation | gated — the medium is identity-blind, so the **operator-level default is democratic** (μ_∅·𝟙, Σm_ν = 68.3); seat-alignment (61.4) cannot be written into the operator and must come from the settling dynamics (kubo freeze: the lightest is the last relativistic partner — an energy selection, blind-compatible). Gated on a flavor-resolved settling profile Φ_med(T) per species, inheriting the basement build |
 | 117 | THE BOUNCE SECTOR | open |
 | 118 | The two-draws question (chain link 4→5) | open |
 | 119 | The cold-spot orphan | closed |
@@ -154,7 +154,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 126 | The gravity-routing step of the c-derivation | closed — **the step is withdrawn, not supplied**. No single criterion returns 9/10: blindness weights by energy over every field; charge weights by Σ N_c Q² = 8 and gives 8/9; charge carried all the way gives c = 1, which the census excludes. The ensemble confirms without adjudicating (8/9 sits 0.30σ from 9/10 at its width; σ_c ≤ 0.0115 would separate them). c = 9/10 stands as a counting assumption the data confirms |
 | 127 | The C²-to-threshold map | closed |
 | 128 | The BBN-stability fence, re-stated below its own anchor | closed — fence is [70, 500] keV structural; whole-range swing ≤ 0.32σ on D/H |
-| 129 | The matched-junction interface — the velocity ladder's first payable step | open |
+| 129 | The matched-junction interface — the velocity ladder's first payable step | closed — **negative**: the step is an identification, not a derivation. The impedance amplitude half is an identity for one medium (ρ_m = √(ρ₁ρ₂) automatic when ρ₁ = ρ₂ = ρ_m), and the geometric half (a matching section's length) is ill-posed for three co-located modes of one medium — no spatial junction to size. The ladder rewrites α_c = 3α (PREREGISTERED records c₂ = √α·c *without weight*), refereed by #130 piece 1; it carries no independent derivation and is not the desk-closable step it was docketed as |
 | 130 | The base α's two owed pieces | open — neither closes; piece 1's missing object is a two-channel Π (no posterior can substitute), and piece 2's recorded 44% is hypercharge-at-M_Z where the right number for α_EM(0) is **23.5%** |
 | 131 | The X₀ erasure reformulation | closed — the X₀-free canonical form in clock units ξ = φ/√(2X₀) (v5 five-verdict §2.1); two scales, M₂ and m̄₂, both landed; the atlas whisper carries the answer |
 | 132 | Rebuild the docket index | closed — **this file**; see the note below |

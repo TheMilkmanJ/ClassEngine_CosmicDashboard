@@ -1346,9 +1346,12 @@ chk("me_mechanism GATE", "the shortfall, in orders of magnitude", 1360,
     -_glog10Q(1/0.012) - 3*math.log10(_gxi/_glp), 0.01)
 
 # --- the velocity ladder's matched junction, 2026-07-20 (docket #129) ---
-# Z = rho*v, so Z_m = sqrt(Z1*Z2) gives v_m = sqrt(v1*v2) exactly when rho_m =
-# sqrt(rho1*rho2) — identical for three channels of ONE medium. The middle rung is
-# then alpha_c = d*alpha read forwards, so deriving it backwards derives the bet.
+# Z = rho*v, so Z_m = sqrt(Z1*Z2) gives v_m = sqrt(v1*v2) when rho_m = sqrt(rho1*rho2) --
+# automatic for three co-located modes of ONE medium (rho1 = rho2 = rho_m). The two checks
+# below are therefore CONSISTENCY TAUTOLOGIES: alpha_c = 3 alpha rewritten, not derived
+# (PREREGISTERED records c2 = sqrt(alpha)*c 'without weight'). #129 closes NEGATIVE -- no
+# independent derivation; the geometric half (a matching section's length) is ill-posed for
+# co-located modes, so there is no spatial junction to size.
 chk("DERIVATION_HUNT", "matched middle rung sqrt(c * alpha c) = sqrt(alpha) c",
     math.sqrt(ALPHA), math.sqrt(1.0*ALPHA), 1e-12, "c")
 chk("DERIVATION_HUNT", "the junction run backwards: alpha_c = d*(sqrt(alpha))^2", ac,
@@ -1671,6 +1674,50 @@ chk("DERIVATION_HUNT 1", "#126: 8/9 and 9/10 separated by, at the ensemble width
     (0.9-_Q2/(_Q2+1))/_SDc, 5e-3, "sigma")
 chk("DERIVATION_HUNT 1", "#126: sharpening to the pre-registered sigma_c = 0.0115", 3.26,
     _SDc/0.0115, 5e-3, "x")
+
+# --- rho_bounce in physical units + the sanity checks (scripts/rho_bounce.py), 2026-07-20 ---
+# The finite bounce/core density that discharges 'no singularity': rho = m^4/lam = m^2 Psi0^2,
+# the Colpi-Shapiro-Wasserman quartic ceiling (= the max-mass boson-star central density).
+_m_rb, _lam_rb = 2.24e-20, 2e-91                # eV, (m/Psi0)^2
+_rho_rb_eV4 = _m_rb**4/_lam_rb                  # eV^4
+_GeV4_gcc = 2.3201e17                           # 1 GeV^4 -> g/cm^3 (calibrated on rho_crit below)
+_rho_rb_gcc = _rho_rb_eV4*1e-36*_GeV4_gcc
+chk("bigbang 1.2", "rho_bounce in g/cm^3 at the derived lambda", 2.9e-7, _rho_rb_gcc, 0.02, "g/cc")
+chk("bigbang 1.2", "rho_bounce in GeV^4", 1.26e-24, _rho_rb_eV4*1e-36, 0.02, "GeV^4")
+chk("bigbang 1.2", "GeV^4->g/cc calibrated on rho_crit^1/4 = 2.46 meV", 2.46e-3,
+    (8.53e-30/_GeV4_gcc)**0.25*1e9, 0.02, "meV")
+chk("bigbang 1.2", "orders BELOW nuclear (2.3e14 g/cc): sub-nuclear by", 21,
+    math.log10(2.3e14/_rho_rb_gcc), 0.02, "dex")
+chk("bigbang 1.2", "orders BELOW Planck (5.16e93 g/cc): finite/sub-Planckian by", 100,
+    math.log10(5.155e93/_rho_rb_gcc), 0.01, "dex")
+# the open joint: the keV floor sits ~12 orders under an MeV-class BBN hot start
+_rho_bbn_gcc = (math.pi**2/30)*10.75*(1e6)**4*1e-36*_GeV4_gcc   # radiation at T = 1 MeV
+chk("bigbang 1.2", "keV floor below the MeV hot start (T=1 MeV) by", 12.45,
+    math.log10(_rho_bbn_gcc/_rho_rb_gcc), 0.01, "dex")
+# mechanism: TF parameter Lambda = lam M_Pl^2/(4pi m^2) >> 1 => self-interaction regime holds
+chk("bigbang 1.2", "TF parameter Lambda >> 1 (self-interaction ceiling applies)", 4728,
+    _lam_rb*(1.22089e28)**2/(4*math.pi*_m_rb**2), 0.02)
+
+# --- granule epsilon-meter: the two-fluid density-contrast law (granule_sim_2field.py) ---
+# In the NR limit the medium is TWO Schrodinger fluids with density fractions
+# p=(1+f_rot)/2, q=(1-f_rot)/2 sharing one gravitational potential. Two independent
+# speckle fields suppress the granule power var(rho)/mean^2 to p^2+q^2 = (1+f_rot^2)/2
+# of single-field FDM. The SP sim confirms this holds STATICALLY exactly and, under
+# shared-gravity dynamics, as the suppression RATIO to single-field FDM (within ~5%).
+_fr = 0.4                                        # the median draw
+_p, _q = (1 + _fr) / 2, (1 - _fr) / 2
+chk("granule_sim_2field", "median-draw p = (1+f_rot)/2 at f_rot=0.4", 0.7, _p, 1e-9)
+chk("granule_sim_2field", "granule suppression p^2+q^2 at f_rot=0.4", 0.58, _p**2 + _q**2, 1e-9)
+chk("granule_sim_2field", "identity p^2+q^2 = (1+f_rot^2)/2", (1 + _fr**2) / 2,
+    _p**2 + _q**2, 1e-12)
+chk("granule_sim_2field", "law endpoints: f_rot=0 (equal split) -> 1/2", 0.5, (1 + 0.0**2) / 2, 1e-12)
+chk("granule_sim_2field", "law endpoints: f_rot=1 (single field) -> 1", 1.0, (1 + 1.0**2) / 2, 1e-12)
+# physical anchors the sim reproduces at the pinned mass m = 2.24e-20 eV:
+_m20, _AU = 2.24e-20, 1.495978707e11
+chk("granule_sim_2field", "Schive core r_c(10^9 Msun) = 1.6 kpc (m/1e-22)^-1", 7.14,
+    1.6e3 * (_m20 / 1e-22)**-1, 5e-3, "pc")
+chk("granule_sim_2field", "Compton wavelength h/(mc) [cf. xi ~ 402 AU]", 370.0,
+    2 * math.pi * HBARC / _m20 / _AU, 5e-3, "AU")
 
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
