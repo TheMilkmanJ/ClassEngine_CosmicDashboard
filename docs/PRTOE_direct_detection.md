@@ -24,6 +24,22 @@ was always adjustable. This model has no room to adjust:
 | fifth-force / EP torsion balances | **NULL within current reach** | the EP/Vainshtein gate cleared with 5-order margin (recorded distinctive-standing) |
 | collider missing-energy production | **NULL within reach** | the dyad's decay constant sits at 100–500 TeV and the census portal at 13–20 TeV — both above collider energies; the vector-like leptons are collider-safe by construction. HL-LHC referees the visible branch |
 
+**The corners, checked rather than assumed.** The bound is quoted as a nine-order range because it
+is not one measurement: it comes from photon-mass limits through m_γ² = 2q²n/m, so the charge bound
+scales as q ≲ √(m_γ,limit²·m/2n) and every environment with its own density n returns its own number.
+That scaling settles the two corners worth asking about, and it settles them the safe way. **Denser
+environments and earlier epochs both raise n, and a larger n makes the bound *stronger*, not weaker**
+— the same dark charge would produce a bigger Meissner response where the medium is thicker. The
+direction in which the bound genuinely weakens is *low* density, and no laboratory sits there: a
+haloscope operates at the local halo density, not in a void.
+
+The one honest caveat is not about the physics but the inference. In a dense plasma the dark
+contribution to the photon mass is degenerate with the ordinary plasma mass, so a limit set there
+constrains the sum and cannot cleanly separate the dark part. That is why the strong end of the range
+should never be the number a null is stated against — and it is not. **The claim above is already
+written against the weak end, 37 orders, not the strong end's 47.** So the null as stated survives
+every corner in the range, and would survive even if the strong end were withdrawn entirely.
+
 ## 2. Where the model says LOOK INSTEAD (the redirect that makes this an improvement)
 
 The detection budget, per this model, belongs to: the **radio sub-lattice** (the ratio-lock,
