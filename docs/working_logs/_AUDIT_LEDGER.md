@@ -3269,6 +3269,36 @@ that dies against a section three pages away leaves the claim stronger *and* bet
 one that was never attempted, provided the attempt gets recorded. It is recorded in §6c with the
 numbers, so the next reader does not have to re-derive the kill to find out it does not land.
 
+### 2026-07-20 — the coverage sweep: a third instrument, and the safest of the three
+
+Built after a bad hour, deliberately, to be incapable of the failure that caused it. **The reverse
+audit asks "is this closed task's object closed?"; the payoff check asks "does a file already claim
+an open task's payoff?"; the coverage sweep asks only "which numbers has nothing guarded?"** That
+third question cannot return a false accusation. It returns a list of what is unchecked, and every
+entry is then verified by hand before anything is written. It was built because the Σm_ν retraction
+came from an instrument that *could* accuse — and did, wrongly.
+
+**Registry pass.** Of ~55 registered entries, exactly two carried distinctive numbers with no harness
+guard, and one was a false positive (an arXiv identifier read as a quantity). The single real gap was
+**P-2026-038**, whose "4.75 doublet-units" and "b₂ = −0.167" are exact rationals off one input —
+b₂(SM) = 19/6 with 2/3 per vector-like doublet-unit, giving the flip threshold 19/4 and the n = 5
+value −1/6. Three rows added. The entry's *count* is withdrawn by its own amendment; **its arithmetic
+is still arithmetic, and guarding it keeps the registry auditable rather than merely archived.**
+
+**Flagship pass.** Thirty-one values with three or more decimals lacked a guard, most of them
+legitimately — fitted numbers, band edges, quoted measurements. Two were genuine closed forms and are
+now checked: **λ = kα_c = 0.029874**, which the harness computed as an intermediate and used twice
+without ever asserting, and **e^(−3/2−ln2) = 0.1116**, §6g's exact-solution shell, which was absent
+entirely and which the ln2 seam rests on.
+
+**And the sweep's real value showed up as a veto rather than a find.** The shell cutoff e^(−3/2) came
+up as "unguarded" and is not — line 750 checks the same quantity by a different route, as 0.2228. On
+the same day, four Σm_ν rows were written on top of three that already existed. **Rule 2a — grep the
+harness before adding — was worth more than either set of rows it produced**, and the coverage sweep
+is simply that rule run ahead of time instead of after the mistake.
+
+Harness: 336 checks. Registry coverage complete.
+
 ### 2026-07-20 — #153 first pass: the files carry the retirements; the board is the weak link
 
 Worked the retirement cluster (failures ledger rows 58–64) to see whether #59's shape recurs. It
