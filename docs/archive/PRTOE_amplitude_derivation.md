@@ -158,7 +158,7 @@ of it.
  (§82, "no half-gravity")? DATA can referee it: the granule sim's
  independent f_amp isolates c (§83, breaks the §77 degeneracy) and reads our
  universe's dice roll (f_amp ≈ 0.56). But *measuring* c=1 ≠ *deriving* it (§84):
- only the effective-action calc (docketed) proves "no dial."
+ only the effective-action calc (#14) proves "no dial."
 
 **Why the coupling is universal & flavor-blind (§89):** gravity couples
 to mass-energy only — it *cannot* tell electron from quark ("same shit, different
@@ -243,7 +243,7 @@ matter scalar couples conformally via a non-minimal ξ φ² R with CONTINUOUS ξ
 is a BOUNDED O(1) (≤1 by naturalness, ~0.93 measured), not symmetry-forced.
 **Consequence:** with f_amp computed, eps = c*f_amp*(Psi0(m)/M_red) = 1.24% is ONE
 equation in TWO unknowns → pins a **c-m relation**, not either alone. Breaks 3 ways:
-compute ξ (hard theory), measure m (fuzzy-DM astro), or the granule sim (docketed).
+compute ξ (hard theory), measure m (fuzzy-DM astro), or the granule sim (#8).
 
 **AMPLITUDE PROGRAM, post-#11/#14:** Psi0 DERIVED (abundance), f_amp DERIVED from the
 Z4 dice (~0.6), c a bounded soft-dial degenerate with m. The 1.24% is now a **derived

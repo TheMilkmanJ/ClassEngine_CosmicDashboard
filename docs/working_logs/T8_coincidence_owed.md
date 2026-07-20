@@ -1,6 +1,6 @@
 # T8 coincidence problem — OWED
-1. THE CLEANER √3 (internal review explicit ask): present the Γ²=3H_Λ² derivation stand-alone from the recorded KP-sequester object (docketed) — one page, real signs, no "asserted" residue.
-2. The branching O(1): thaw = √3·B, B ∈ [0,1] (docketed) — derive or bound B tighter.
+1. THE CLEANER √3 (internal review explicit ask): present the Γ²=3H_Λ² derivation stand-alone from the recorded KP-sequester object (paid below — the √3 page) — one page, real signs, no "asserted" residue.
+2. The branching O(1): thaw = √3·B, B ∈ [0,1] (paid below — B = 1/√2 derived) — derive or bound B tighter.
 3. Propagate the 20% floor into the timing's error band (how sharp is "why now" quantitatively?).
 4. The cycle-level re-pose (why THIS cycle) — tighten the early-cycle bookkeeping's lean.
 
@@ -21,7 +21,7 @@ Stand-alone page with real GR signs: [PRTOE_sqrt3_derivation.md](../PRTOE_sqrt3_
 
 ## Item 2 — PAID (2026-07-17): B = 1/√2 derived
 
-The docketed form is Γ_eff = B · √3 · H. **B = 1/√2** exactly.
+The registered form is Γ_eff = B · √3 · H. **B = 1/√2** exactly.
 
 | claim | status |
 |---|---|

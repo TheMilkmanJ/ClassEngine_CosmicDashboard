@@ -278,7 +278,8 @@ meets −k_down" reading = Ω = 1 as the balanced meeting.
 exactly-at-threshold conditions — occupancy exactly one (the pinch), founding capital
 exactly minimum (the minimum-capital candidate), density exactly critical (the
 balanced meeting). Whether the three exactlys are one law is basement-roster business
-(docketed). Debt honestly restated: flatness must be DERIVED from the cycle map, not assumed
+(the cycle-map attractor program ran; the omk fit has since confirmed flatness empirically).
+Debt honestly restated: flatness must be DERIVED from the cycle map, not assumed
 — the bounce owes it (cycle-map business, standing).
 
 **The settled position + the decay reading:**

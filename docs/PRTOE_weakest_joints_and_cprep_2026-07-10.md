@@ -45,7 +45,7 @@ Post-fragmentation the Q-ball charge IS the DM; the magnitude is [OBJECT-PENDING
 leptogenesis magnitude calc (ties to J5/P-020).
 
 **TOP-3 make-or-break: J1 (DE value), J2 (gate-0 clearance), J3 (DESI w=−1).**
-**Most buildable / highest-leverage: J2 (docketed) and J4 (independent m_e detection).** J1 may be
+**Most buildable / highest-leverage: J2 (its resolver has since run — the T_c gap-equation program) and J4 (independent m_e detection).** J1 may be
 constitutional; J3 is a data verdict.
 
 ---
@@ -54,12 +54,12 @@ constitutional; J3 is a data verdict.
 
 ### B0. GATE (do not skip)
 Integration is GATED on **both**: (a) confidence on the new model **>85%**, and (b) gate-0
-resolver (docketed) landing **clear**. Confidence assessed as insufficient → **NO INTEGRATION THIS PASS.**
+resolver (the T_c program — since run) landing **clear**. Confidence assessed as insufficient → **NO INTEGRATION THIS PASS.**
 This section is a map so the eventual fix drops in without syntax/missing-piece thrash. **No
 active-code changes are made.**
 
 ### B1. Current surface (recon)
-- `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (docketed; conformal onset), `dcdf_conv_g/at/n`
+- `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (the conformal onset — since the derived identity z_on), `dcdf_conv_g/at/n`
  (DM→DE/dark-rad conversion); inline `dcdf_s_of_rho`, `dcdf_rho_rad`, `dcdf_conv_rate`.
 - varying-m_e: via CLASS `varying_fundamental_constants` (instantaneous step at
  `varying_transition_redshift`, currently z=50 — a HARD STEP, not the order-parameter ramp).

@@ -25,7 +25,7 @@
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
 what is DERIVED vs INPUT vs STORY, and where it lives in the code. Cross-references:
 PRTOE_me_mechanism_math.md (dyad detail), PRTOE_cyclic_torus_genesis.md (genesis narrative),
-PRTOE_UV_completion.md (docketed), PRTOE_cosmological_constant.md (J1).*
+PRTOE_UV_completion.md, PRTOE_cosmological_constant.md (J1).*
 
 **Status tags:** [DERIVED] falls out of prior pieces · [INPUT] boundary datum · [STORY] coherent
 mechanism, not a derivation · [PENDING] computation named, not run.
@@ -310,7 +310,7 @@ density-dependent screening form (§5); the seat constant b in the neutrino tie.
 **Standing:** provisional pending the named referees, DESI-capped, the branch pre-registration
 pending guards.
 
-*(This ledger previously marked six items "(docketed)". There is no docket document in this corpus —
+*(This ledger previously marked six items with the dead word "docketed". There is no docket document in this corpus —
 the word pointed at nothing, and five of the six were already answered. Debts now name where they
 are closed or what they wait on.)*
 

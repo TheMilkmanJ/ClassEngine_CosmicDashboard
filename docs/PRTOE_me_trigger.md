@@ -111,7 +111,7 @@ posterior above should be read as pre-convergence until it lands.
 
 ## 6. Status
 
-Open wall, one candidate, one gate (docketed; via two-field sims), one fork (21-cm), one free
+Open wall, one candidate, one gate (sim-gated: the two-field sims), one fork (21-cm), one free
 near-term check (the posterior). Grade of everything above: derivation-debt formalization —
 no new claims registered.
 

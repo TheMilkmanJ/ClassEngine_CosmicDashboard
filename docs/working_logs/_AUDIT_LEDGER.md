@@ -1797,3 +1797,31 @@ the tangency faces at θ = 135°, c₂·τ = 2/3 exactly, the modulus inversion 
 One digit fixed: the three-group sort's μ_face = 39.8 keV was 179-keyed inside the entry
 that derives T_c = 177.10 — now 39.4 with the keying stated. Nothing else needed changing;
 this file is what the audit protocol aspires to make everything else.
+
+## THE PURGE REPAIR (2026-07-19, owner-ordered): all 28 "docketed" husks adjudicated and fixed
+
+The 2026-07-13 hygiene pass (commit 9f8c377f) bulk-replaced ~290 #N task refs with the dead
+word "(docketed)" — the disaster ForJustin/08 documents. All 28 surviving husks were matched
+against the pre-purge text at 5f95a5e9 (21 exact matches; 7 in files born after the purge,
+adjudicated from context) and repaired ONE EDIT AT A TIME with the Edit tool, each seam
+re-read after landing (check 12). Live docs got adjudicated wording; the archive and the
+dated gate0 log got literal #N restoration (their old numbers are historically correct).
+
+The adjudication of the eight purged referents:
+- old #14 (effective-action loop / c forced-vs-dial) — PAID: c = 9/10 derived by the census
+- old #11 (genesis calc / two-field sims / linear amplitude) — genesis calc STILL OPEN;
+  sims SIM-GATED; the amplitude question superseded by the standing stack
+- old #8 (the granule sim) — SIM-GATED, real gate
+- old #17 (conformal onset + the DE "missing 20%") — PAID: z_on is the derived identity;
+  the 20% closed to +0.44% by the seam chain
+- old #18 (flatness from the cycle map) — program ran (the attractor verdict); omk fit
+  confirmed flat empirically; the derivation debt honestly restated in place
+- old #29 (BBN data tiebreaker) — PAID: the windowed program ruled
+- old #30 (why-leptonic) — PAID: symmetry-forced via the Majoron (quarks carry L = 0)
+- old #40 (the J2 / gate-0-clearance resolver) — PAID: the T_c program ran
+  (perturbative negative → gap equation; clearance priced by the windowed data)
+
+**And the mechanism, not the memory:** the commit gate now carries the HUSK LAW — any live
+"(docketed)" refuses to commit (the two ledgers and ForJustin/08 exempt; recording the purge
+is their job). MATH_SPINE's own adjudication note reworded to quote the dead word without
+the husk pattern. ForJustin/08 itself was NOT touched — the owner's editor holds it.
