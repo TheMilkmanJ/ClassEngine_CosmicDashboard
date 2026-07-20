@@ -2988,3 +2988,30 @@ about thirty-five remain, and they are predominantly single-object physics tasks
 not yet produced a single mis-grade. The defect is concentrated in composite claims, and that
 concentration is now the pass's most useful finding: it says where to look next time, and it says the
 physics tasks have been closing honestly.
+
+### 2026-07-19 — REVERSE AUDIT wave 6: the status ledger was carrying a stale grade for f̄
+
+Checking the derivation-claim tasks against `PRTOE_DERIVATION_HUNT.md`, which is the corpus's
+authority on grades, turned up a disagreement in the authority itself.
+
+**f̄ = 2/π is graded four ways and DERIVATION_HUNT is the outlier.** The dependency tree says
+"**derived**, not fitted"; P-2026-041 says "DERIVED"; `_master_computes` M8 says "**f̄ = 2/π is
+DERIVED** ... the ensemble does not decide it, it checks it". DERIVATION_HUNT's own row said
+"**candidate (coupling form data-selected)**" — while the *body* of that same row already read "the
+one owed piece was *the coupling form* ... **now resolved** ... the coupling form is not a free
+choice". Body updated, label not.
+
+**And this ledger already recorded the regrade happening elsewhere.** Entry at line 435, from the
+READERS_RISK deep audit: "**f̄ graded candidate** with the same error the dependency tree had. **It is
+derived; the simulation is the check.** Regraded." The fix reached READERS_RISK and the dependency
+tree and did not reach the status ledger — a propagation miss of exactly the #143 class, in the file
+most likely to be cited as authoritative for a grade.
+
+Corrected. **#44 is not a mis-grade** — f̄ *is* derived and the task delivered it; the defect was in
+the ledger that grades it.
+
+**Also checked this wave, all clean:** #45 (c = 9/10, graded derived), #66 (n_s modulation map —
+the task was "exhibit or kill" and the route is exhibited at mechanism-candidate grade), #72/#73
+(route 6 carries the exponent's 3/2 alone, per hierarchy §2b and §6d). **Inconclusive at this depth:**
+#47, #48, #63 — their objects are not locatable by task-side labels in the status ledger; left
+ungraded rather than guessed, joining #24 and #81.
