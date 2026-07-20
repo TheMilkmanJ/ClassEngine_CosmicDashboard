@@ -85,10 +85,23 @@ its gravity cutoff-free.*
 What actually pins the constituents, then, is the cutoff-free relation
 1/G = −(1/2π)·str[k₁·m²·ln(m²/µ²)]: Newton's constant is a weighted sum over the constituents' own
 *masses*, so requiring it to reproduce M_Pl constrains the constituent mass spectrum, not a bare
-count against a cutoff. Re-deriving the recorded "1–2 M_Pl constituents" band from this log term —
-and only then reading off how many constituents the spectrum needs — is the first payable step of
-the specification. It is not gated on any run; it is the mass-spectrum computation the quadratic
-route was standing in for.
+count against a cutoff.
+
+**One firm consequence, and it explains the recorded band.** Because str[k₁] = 0, a *degenerate*
+constituent spectrum gives 1/G = 0: if every constituent shared one mass M, then m²·ln(m²/µ²) is a
+common factor and str[k₁·m²·ln] = (m²·ln)·str[k₁] = 0 — gravity would not be induced at all. So
+**finiteness forbids a degenerate spectrum**: the same condition that makes the roster finite and
+fixes three generations requires the constituents to sit at *different* masses, and 1/G is set by
+the *spread* of m²·ln across the balanced species, not by their common scale. The order of the
+required spread is O(M_Pl) — which is why the constituents occupy a *band* (the recorded 1–2 M_Pl)
+rather than a single mass. That band is therefore a structural consequence, not an input. *(A
+two-mass toy with the species count near 12π puts the fermion/boson split at ~7% of M_Pl, but that
+figure rests on the retracted count and a degenerate-within-sector approximation, so only the
+qualitative statement — non-degenerate, spread O(M_Pl) — is firm; the exact spread needs the actual
+roster and its weights.)*
+
+Reading off how many constituents the spectrum needs, and their actual masses, is the remaining
+step — genuine model-building, not gated on any run.
 
 ## Parts 3+ — genuinely open, and this is where the model-building lives
 
