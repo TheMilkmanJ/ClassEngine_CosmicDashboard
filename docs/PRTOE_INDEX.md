@@ -67,6 +67,13 @@ Appendix B (eleven master equations)
 working_logs/: T1–T16 owed-files · _cross_cutting · _master_computes (8→4 clusters)
 · _parked_register (+ the cross-comparison pass, the resurrection review)
 
+**What the `#N` numbers mean.** This corpus cites task numbers throughout — in physics files, in the
+ledgers, in commit messages. [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) maps
+every one to what it is and whether it is open, closed or waiting on a run. It resolves references
+only: the reasoning lives in [`working_logs/_AUDIT_LEDGER.md`](working_logs/_AUDIT_LEDGER.md), the
+kills in [`PRTOE_FAILURES_LEDGER.md`](PRTOE_FAILURES_LEDGER.md), and each claim in its own file —
+which is the authority wherever the two disagree.
+
 ## Live, previously unlinked (surfaced 2026-07-16)
 
 *These are current and load-bearing; none was reachable from this index before. (The internal
