@@ -69,7 +69,10 @@ junction of the chirality family's sign map
 ## 4. Its light [ESTABLISHED]
 
 Light is the dCDF's **massless Goldstone mode** (the transverse collective mode of the
-condensate). The medium is EM-neutral → transparent → zero optical birefringence; the parity is
+condensate). *This identification carries a second load as of 2026-07-19: it is what makes α the
+medium's own coupling rather than an external one, and so what lets the hierarchy's pairing kernel
+be electromagnetic without α being obliged to run to the pairing scale
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g).* The medium is EM-neutral → transparent → zero optical birefringence; the parity is
 forced into the metric instead. Full account: [PRTOE_light.md](PRTOE_light.md).
 
 ## 5. What it does NOT close (honest boundaries)

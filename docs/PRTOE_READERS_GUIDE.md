@@ -37,7 +37,7 @@ term, and gives the reading order.*
 | recorded | established within the model at production grade (coded, fit, or derived) and recorded |
 | the census / census blindness | the counting argument behind c = 9/10: gravity couples to energy content, not particle identity |
 | the pinch / occupancy one | the ground state holds exactly one quantum per coherence cell (sets the vacuum energy scale) |
-| the anchor / the gap equation | the TeV-scale from a BCS-style exponential: M ≈ M_red·e^(−1/kα_c − 3/2) — the hierarchy mechanism (the 3/2: the boost-dressed cutoff's equipartition constant) |
+| the anchor / the gap equation | the TeV scale from a pairing exponential, M ≈ M_red·e^(−1/kα_c − 3/2) — the hierarchy mechanism. The pairing is **particle-hole** (a Cooper pair of charged fermions would give the photon a mass); the −3/2 says the pairing shell's cutoff is the Planck floor dressed down by the equipartition boost. Derived end to end, but the anchor's *value* carries a factor-of-a-few band, since ∂lnM/∂lnk = 33 amplifies every O(1) |
 | the twins / the pair | Cooper-style pairing of a mode with its time-reversed partner |
 | the arrow / the arrow-giver | the time orientation set by the condensate background (⟨θ̇⟩ ≠ 0, ghost-condensate class) |
 | the pour / the snap / the fountain | the bounce: the hot re-start of a cycle (structurally the one realized white-hole-like event) |

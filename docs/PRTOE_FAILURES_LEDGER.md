@@ -1687,3 +1687,11 @@ era" — a genuine sharpening, and not a closure.
 and the adjacency is easiest to miss when the computation is genuinely good.* The √3 chain is one
 of the corpus's cleanest derivations, and its quality is what let a wider claim ride on it
 unexamined.
+
+
+## The hierarchy's pairing channel — two routes closed (2026-07-19)
+
+| the route | how it died | what replaced it |
+|---|---|---|
+| **the charged Cooper reading** — the anchor as a particle-particle condensate, which is how the corpus described the pairing throughout (the glossary's "Cooper-style pairing of a mode with its time-reversed partner"; quantum_trio's (k↑, −k↓)) | a condensate of two charge-e fermions carries charge 2e, so it breaks U(1)_EM at the anchor scale and the photon takes an Anderson–Higgs mass m_γ ~ 2e·v ≈ 9.5×10¹¹ eV against the recorded bound m_γ < 10⁻¹⁸ eV — **excluded by thirty orders**. Clearing the bound would need the condensate below 1.65×10⁻¹⁸ eV | the **particle-hole** channel, where ⟨ψ̄ψ⟩ is neutral and the attraction is automatic — and where the same vacuum neutrality also forces the two screening bands equal (hierarchy §6b, §6e) |
+| **the node-deficit route to the exponent's 3/2** — reading the −3/2 as a Fermi point's phase-space deficit, which is numerically d/2 = 3/2 under equal-states normalisation | give the spectrum a crossover (ρ ∝ E^p below a bend-over, flat above) and the pairing integral is exactly J = 1/p + ln(Λ/E_*), verified to four decimals at p = 1, 2, 3. Two failures at once: it fixes the node-emergence scale rather than a gap (Δ drops out), and it carries the **wrong sign** — a deficit that raises the scale where the anchor needs suppression. At p = 2 it lands 11.65 TeV against 1576 GeV, over by e² | route 6's equipartition reading, which carries the constant alone and is the one of the two with the right sign. The −3/2 is separately identified as the pairing shell's cutoff, M_red·e^(−3/2) (hierarchy §6d) |

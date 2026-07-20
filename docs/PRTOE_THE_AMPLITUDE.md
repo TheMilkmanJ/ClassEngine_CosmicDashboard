@@ -78,9 +78,12 @@ area law (derived and confirmed numerically), the activation ramp (the Hagedorn-
 = T_c), and the reconciliation — the thermal amplitude and the census bookkeeping are one object.
 
 **What the closed form actually rests on**, checked term by term: A_s = (α_c/4πk)³, where
-**k = ln(1 + π/2α_c)/π = 1.36461** is a genuine screened-interaction integral — it evaluates
-identically to (1/π)∫₀¹dq/(q + 2α_c/π), and sits inside the Eliashberg window [1.35, 1.37] rather
-than being fitted to a landing. The 4π is the standard one-loop factor and the cube is the three
+**k = ln(1 + π/2α_c)/π = 1.36461** is a screened-interaction integral, and it is **derived**
+rather than merely recognised: it is the Fermi-surface average of a Thomas–Fermi-screened Coulomb
+exchange, over the full sphere, with the screening constant 2α_c/π coming out of e²·(2N₀)/4k_F²
+— the factor 2 being the *two-band* polarisation that a particle-hole condensate has by the
+vacuum's own neutrality ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). It
+sits inside the Eliashberg window [1.35, 1.37] and was never fitted to a landing. The 4π is the standard one-loop factor and the cube is the three
 spatial dimensions. Assembled: **2.0807×10⁻⁹ against the frozen 2.088×10⁻⁹, −0.35%.**
 
 **The one genuine residual is the shot-noise count's exact O(1) normalisation** — whether the
