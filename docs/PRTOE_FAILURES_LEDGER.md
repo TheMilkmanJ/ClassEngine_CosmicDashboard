@@ -116,6 +116,13 @@ Undated entries below read against this register.*
 | The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
 | The MOND kill (first version) | **NOT DEAD — REOPENED:** itself killed-then-reopened by the step-vs-ramp rule — the kill was a step artifact; MOND/RAR engagement **lives** in the galactic-atoms thread (this row records the retracted *kill*, not a dead claim) | internal audit |
 
+### Staged candidate tests (the 2026-07-07 shortlist, adjudicated 2026-07-20)
+
+| what died | the killshot | provenance |
+|---|---|---|
+| **The molecular-spectroscopy test (the benzene idea)** — m_e-dependent molecular spectra (benzene, methanol/ammonia) shifting with environment, validated against astronomical μ = m_e/m_p bounds | **RETIRED — it fails the shortlist's own two criteria, and no gate can close it** (kills #135's molecular candidate). Criterion (a), uniqueness: any varying-m_e model predicts the same shift, so a detection selects nothing. Criterion (b), out-of-fit discrimination: the half that would discriminate is unobservable **in principle with these tracers** — molecules form only in dense gas, so every sightline is already structured. The data can confirm "structure → lab value" and can never test "void → bare value". This is not a computation that failed; it is a test that cannot be built from this tracer. A diffuse or unvirialized molecular tracer would be a different test, and faces the same gap as the Lyα-forest near-threshold test | #135 adjudication |
+| **The superradiance discriminator** — at the mass band's top edge (~3×10⁻²¹ eV), SMBH-spin data excludes free FDM while the λ-quenched dyad survives, so a spin measurement there separates them | **RETIRED — overtaken by its own mass, and its content is already registered** (kills #135's staged superradiance item; the live physics is P-034). It was written against the era's audited band [1,3]×10⁻²¹ eV. The dyad mass has since been pinned three independent ways at **2.24×10⁻²⁰ eV**, an order above it, and at the recorded mass the same physics is the registered spin-dip band P-034 (M ≈ 6×10⁸–3×10⁹ M☉, α_g ~ 0.1–0.5). So the staged item was a stale duplicate of a live prediction, not a candidate awaiting promotion. **The residue is adverse, not neutral:** the λ-quench that does the protecting has never been re-derived at the model's own quartic and mass, so P-034's shield is un-quotable while its band carries high measured spins — an exposure, tracked at #156 | #135 adjudication |
+
 ### Supernovae — the candle room
 
 | what died | the killshot | provenance |

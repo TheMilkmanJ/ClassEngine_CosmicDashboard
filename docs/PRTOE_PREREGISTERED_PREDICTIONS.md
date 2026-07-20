@@ -619,27 +619,10 @@ time-average. The **m_e gates are not**: which rung the condensation picks is op
 (S = (1+f_rot²)/2 confirmed) but its dynamical half is unbuilt (docket #160), and the genesis
 solver is docket #150.
 
-**Two of the four do not survive the adjudication, for opposite reasons.** Molecular
-spectroscopy fails the section's own criteria rather than any gate, and the superradiance
-discriminator was overtaken — it was written at the era's mass band and the mass has since
-moved an order of magnitude, to where the claim is already registered. Both are struck below,
-with the reason attached. The remaining two are genuinely gated on sims and stay staged.
-
-- **MOLECULAR SPECTROSCOPY (the benzene idea) — STRUCK: fails the section's own criteria.**
- It is kept here as a recorded consistency check, not a staged prediction. It fails criterion
- (a) outright — any varying-m_e model predicts the same shift — and it cannot satisfy (b),
- because the half that would discriminate is unobservable in principle with these tracers:
- molecules form only in dense gas, so the data can confirm "structure → lab value" and can
- never test "void → bare value". No gate closes this; a different tracer would be a different
- test. The original entry follows.
- m_e-dependent molecular spectra (benzene, and more sensitively methanol/ammonia)
- shift with environment. Existing science: astronomical μ=m_e/m_p bounds
- (methanol masers ~1×10⁻⁷). CATCH: (i) not unique -- any varying-m_e model predicts
- it; (ii) molecules only form in DENSE gas (all structured → all "lab value"),
- so current data confirms the "structure→lab" half but cannot test the
- "void→bare" half (no molecules in voids). Grade: consistency check, not a clean
- unique prediction. The unique test needs unvirialized/diffuse molecular data
- (hard) -- same gap as the Lya-forest near-threshold test (sec 47).
+**Two of the four did not survive the adjudication and have been retired to
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)** — molecular spectroscopy and the
+superradiance discriminator, for opposite reasons, each with its autopsy there. The two below
+are the live ones: both genuinely gated on the sims, and neither on any remaining math.
 
 - **THE χ-LAG CORE-HALO RELATION (Room 5) -- UNIQUE, best candidate.** The
  two-fluid split forces a REDSHIFT-DEPENDENT dwarf core-halo size relation (χ
@@ -652,18 +635,6 @@ with the reason attached. The remaining two are genuinely gated on sims and stay
  granule speckle heating by S=(1+f_rot²)/2 relative to free FDM at fixed m.
  Validate against dwarf-heating / stellar-stream data. Forced + unique. Needs the
  granule sims (Tier 3) to make S a quotable number.
-
-- **SUPERRADIANCE DISCRIMINATOR — STRUCK: overtaken, and already registered.** As staged,
- this read: at the mass band top (~3×10⁻²¹ eV), SMBH-spin data already excludes FREE FDM
- (M87*) while the λ-quenched dyad survives. **That mass is the era's, not the model's.** The
- dyad mass has since been pinned three independent ways at **2.24×10⁻²⁰ eV** — an order
- above the band this item was written against — and at the recorded mass the same physics is
- registered as **P-034**, the SMBH spin-dip band at M ≈ 6×10⁸–3×10⁹ M☉ (α_g ~ 0.1–0.5). So
- the staged item is a stale duplicate of a live prediction, not a candidate awaiting
- promotion. **What is genuinely open is the shield, not the test:** the λ-quench has never
- been re-derived at the model's own quartic and mass, so the discriminator's protective half
- is un-quotable, and P-034's band is populated with high measured spins. That is docket #156,
- and it is a live exposure rather than a staged opportunity.
 
 STAGING NOTE (revised 2026-07-20): **two items remain staged, and both are sim-gated, not
 math-gated.** The original note held all four un-registered until "Tier 2 gates + Tier 4
