@@ -18,9 +18,14 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The thirteen checks
+## The nineteen checks
 
-Run all thirteen. Record what was found, even when nothing was.
+Run all nineteen. Record what was found, even when nothing was.
+
+*Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
+added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
+recording them: every one was found by a person reading, and none would have been caught by
+the checks that existed that morning.*
 
 **1. Read it whole, line by line.** Not grep. The contradictions live between sections.
 
@@ -142,6 +147,61 @@ while the file's *real* debt, that no pairing kernel was ever specified and no g
 solved in the medium, was named nowhere at all. Eight further undocketed items came out of the same
 sweep. Both failures are check 13 not being run: the first dies on "is this actually still owed?",
 the second on "what does this file owe that it has not said out loud?"
+
+**14. THE DEAD PREMISE UNDER A LIVE CONCLUSION (2026-07-20 — the day's most expensive class).**
+When a claim is checked, the check almost always lands on its *number*. If the number is right the
+claim is passed, and its *reason* is never re-read. So a premise can die and its conclusion keep
+certifying it, indefinitely. On 2026-07-20 one retired identity leg — "Ψ carries L, so |Ψ|² carries
+L = 0; U(1)_L screens nothing" — was still asserted in **eight** forward files a day after its
+retirement, including the red-team brief, which was actively telling adversaries not to attack the
+corpus's weakest premise. Every conclusion survived with four orders to spare; only the reason had
+died. **The check: when a premise is retired, grep the CONCLUSIONS it supported, not the premise's
+own wording** — the conclusions are what survived, and they are load-bearing. The harness cannot
+see this class at all: every arithmetic check passes.
+
+**14a. A suppression is not a symmetry.** The same episode's tell: a claim filed under *principled
+silence* whose surviving support was a two-loop *number*. A number can be reopened by better data;
+a symmetry cannot. When a symmetry argument dies and a numerical one survives, the claim must move
+categories, not just change wording.
+
+**15. ABSENCE INFERRED FROM A SEARCH THAT COULD NOT HAVE FOUND IT.** Committed at least four times
+in one day by the main session: searching `nine grips` when the corpus said **NINTH GRIP**;
+`input rather than` when the doc said **an input**; `c = 0.789262` when the file wrote **c = 0.789**;
+and a `grep -lv` count that listed every file because *some* line always fails to match. Each time
+the conclusion was "it is missing" and each time it was present. **The rule: before booking anything
+ABSENT, search on three distinct phrasings plus one distinctive number, and state which forms you
+tried.** A negative result is a claim about your search, not about the corpus, until you have shown
+otherwise. (This is check 2a's mirror and it fires far more often.)
+
+**16. THE FAVOURABLE ARGUMENT WHERE AN INTEGRAL WAS OWED.** The vertex correction (#141) was
+attempted twice and retracted twice; both attempts were verbal arguments, and **both happened to
+point the favourable way**. The integral, when finally run, confirmed the adverse prior. **The rule
+the hierarchy file already states, generalised: where a well-posed calculation exists, an argument
+about its sign is not evidence — and an argument that lands favourably should be treated as wrong
+until the calculation says otherwise.** Two for two is not a coincidence worth a third trial.
+
+**17. AN UNPINNED INPUT QUOTED AT ITS FAVOURABLE END.** Baryogenesis recorded "a factor 122: AT the
+pre-committed 10² acceptance boundary, neither inside nor past it" — true only at the top of a range
+that nothing pins. `L_gen` is never assigned a value anywhere in the corpus; at the torus floor the
+same η needs a target 6–18× larger and the row lands well past its boundary (#180). **The check: for
+every verdict stated as "at the boundary" or "just inside", ask which end of which range it was
+evaluated at, and whether that range has a booked lower bound.**
+
+**18. A NAME THAT CARRIES UNITS THE QUANTITY DOES NOT.** `scripts/de_value_g_to_lambda.py` computes
+a variable named `f_over_root_sigma` which is algebraically **f/Λ** — the decay constant in units of
+an NJL regulator, not of a string tension. Λ = √σ was inherited, never derived, and two scripts made
+two different physical statements about the same 511 keV while silently identifying them. The result
+was a phantom 2.39× "two routes disagree" that dissolved on inspection (#134). **The check: for any
+ratio quoted across sectors, confirm the denominator is the same object in both — the variable name
+is not evidence.** The tell was already printing: the script compared its own output to a band and
+landed below it.
+
+**19. THE RECORDED BAND AND THE RECORDED RANGE WERE NEVER THE SAME COMPUTATION.** The exact-kernel
+T_c band was recorded as 250–530 keV over L−1 ∈ [1, 10]; recomputing from the same kernel gives
+307–714 keV, and 250–530 corresponds to L−1 ∈ [0.50, 4.78] (#182). No script reproduced the booked
+pair, and the audit pass was still checking a superseded route. **The check: where a band is quoted
+beside the range it was swept over, re-run one endpoint.** A band and its stated domain drifting
+apart is invisible to every consistency check that reads only one of them.
 
 **THE RETIREMENT→TASK JOIN (mechanized 2026-07-20, docket #172).** A retirement kills content, and
 that content usually belongs to a task. Commits already carry their task number; retirement rows did
