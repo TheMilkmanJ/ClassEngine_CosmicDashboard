@@ -2190,6 +2190,18 @@ incompatible and exactly one can stand** — if the shot census is white noise t
 if the shot imprint is scale-invariant then P_ζ = R²ξ³ is wrong and the two-O(1) decomposition
 C = R²(k_*ℓ_p)³/2π² that rests on it goes with it.
 
+> **Corrected by #184 (2026-07-20), on two points.** The collision was real and is now ruled —
+> scale-invariance stands, the freeze-out branch is excluded by the tilt — but this entry priced
+> the consequence too high and one of its supporting facts is wrong. (i) P_ζ = R²ξ³ is *not*
+> wrong under the surviving branch; it is the power imprinted **at** scale k with ξ read at that
+> mode's imprint time, so the pivot-evaluated C = R²(k_*ℓ_p)³/2π², the convention spread and the
+> data limit all survive — only ξ-as-one-global-constant is struck. This entry's own "What
+> survives" paragraph already said the arithmetic was untouched, and the two paragraphs
+> contradicted each other. (ii) The claim below that the corpus records no critical exponents is
+> **false**: ν = 2/3, named 3D-XY, is in `scripts/winding_gas_cv.py:5` and
+> `scripts/winding_gas_cv_v2.py:11`. Only *z* and a microscopic (ξ₀, τ₀) are genuinely absent.
+> The error survived because a docs-only grep never reaches two scripts no document cites.
+
 **A third mark against the label, independent of the spectrum argument.**
 [PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md) keeps the census lock and the phase-slip quantization
 event as *separate adjacent links* and says so explicitly. The freeze-out criterion is the
@@ -2199,10 +2211,107 @@ quantization event's; attaching it to the census lock crossed a distinction the 
 exact restatement of the closed form, and the factor-250 convention spread, the C = 1.009 ± 0.014
 data limit, and the §6i joint with "α_c does not run" all stand. **Only the mechanism class is
 retired**, and the forward target is re-typed: a mechanism holding ξ/ℓ_H constant at 3.45×10⁻³
-across the observed decades. Also retired with it: the search for this transition's quench rate,
-critical exponents and microscopic (ξ₀, τ₀) — none of which the corpus records, and none of which
-would have answered the question.
+across the observed decades. Also retired with it: the search for this transition's quench rate and
+microscopic (ξ₀, τ₀) — neither of which the corpus records, and neither of which would have
+answered the question. *(This sentence originally also claimed no critical exponents were on file;
+see the #184 correction above — ν = 2/3 is, in two scripts.)*
 
 **The lesson (process).** *A residual can be named precisely, priced honestly, and still be filed
 under the wrong physics.* The number, its spread, and its data limit were all correct; the noun
 attached to it was not, and the noun is what a derivation would have to chase.
+
+
+### The A_s collision, ruled: the freeze-out census — RETIRED, excluded by the tilt (#184, 2026-07-20)
+
+**What was booked.** Two mechanizations of one object, both live in the corpus at once. The
+**freeze picture**: the census is a lock — *"the census lock"*, *"the payroll snapshot"*, *"the
+A_s = 1/N cell freeze at the pivot scale"*, *"the frozen amplitude"* — one comoving cell size,
+snapped at z ~ 10⁶ ([PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md) link 5 and tether 4→5). The
+**scaling picture**: the tilt route's *"the A_s mechanism's own scale-invariant shot imprint"*,
+which requires ξ(k) ∝ 1/k. #168 retired the *Kibble–Zurek label* on the first of these but left
+its structure standing in the chain, so both pictures were still being asserted.
+
+**The ruling, and it is data's.** One frozen comoving cell size is a single Poisson census, and a
+Poisson census is white at every k by construction — not approximately, definitionally. So
+P_ζ = R²ξ³ with ξ constant gives Δ²_ζ ∝ k³ and **n_s = 4**, against a measured 0.9649 ± 0.0042.
+The freeze branch is **excluded by the tilt**, not merely unmechanized, and it takes with it every
+freeze-out reading of this link. **The model asserts the scaling picture**, and it has no choice:
+its only surviving tilt mechanism (the modulation map, DERIVATION_HUNT §7) takes the
+scale-invariant shot imprint as its *input*, so the corpus's own graded tilt candidate already
+presupposes the branch that survives.
+
+**What the ruling does NOT cost, against #168's pricing.** #168 wrote that if the shot imprint is
+scale-invariant then *"P_ζ = R²ξ³ is wrong and the two-O(1) decomposition C = R²(k_*ℓ_p)³/2π² that
+rests on it goes with it."* That over-priced it, and contradicted its own next paragraph.
+P_ζ = R²ξ³ is the power imprinted **at** scale k, with ξ read at that mode's imprint time; it is
+correct there. Every object in the C decomposition is evaluated **at the pivot**, one scale, and
+never sees the k-dependence — so C = R²(k_*ℓ_p)³/2π², the factor-250 convention spread, the
+C = 1.009 ± 0.014 data limit and the §6i joint all stand. What is struck is (i) reading ξ as one
+global constant and (ii) the census's typing as a single instant.
+
+**The third thing, and it is the honest headline.** Neither picture was ever *specified*. The
+freeze branch is dead. The scaling branch is **asserted and assumed, never exhibited**: nothing in
+the corpus supplies the dynamics that holds ξ/ℓ_H at 3.45×10⁻³ across the observed decades, and
+the tilt route consumes that constancy as an input rather than deriving it. And the tilt appeared
+to have *two* sources — the modulation envelope A(k) ∝ σ²(k), and the chain's
+*"recorded census-drift reading, n_s − 1 = −dlnN/dlnk"*. It has one. Once N ≡ 1/Δ²_ζ(k) the
+census-drift line is true by definition and carries no mechanism; read instead as a physical count
+it restates the ξ(k) requirement rather than supplying it. Booking it as a second, independent
+reading made an identity look like physics.
+
+**A recorded absence, corrected.** #168 and DERIVATION_HUNT §7 both stated that neither ν nor z
+appears anywhere in the corpus. **ν does**: ν = 2/3, with the universality class named (3D-XY), at
+`scripts/winding_gas_cv.py:5` and `scripts/winding_gas_cv_v2.py:11`, applied to exactly this census
+(ξ = ξ₀(1−t)^(−ν), N = (R/ξ)²). It does not rescue the freeze branch — a *static* exponent for the
+condensation ramp at T_c is not a quench criterion for the census imprint, and those scripts are
+keyed to a different link — but the corpus was asserting an absence that its own `scripts/` refutes.
+Genuinely absent, confirmed: **z**, and any microscopic (ξ₀, τ₀) pair (ξ₀ appears only as a unit,
+never a value). Both scripts also carry the χ²-convolution tilt route killed earlier; both are
+banner-marked.
+
+**Files corrected.** `PRTOE_THE_CHAIN.md` (link 5 re-typed from lock to scale-by-scale imprint;
+tether 4→5 now states that the quantization event *is* a freeze-out and the census imprint is not,
+and forbids borrowing the criterion across that boundary; tether 5→6 names the one tilt mechanism
+and demotes the census-drift line to the identity it is); `PRTOE_THE_AMPLITUDE.md` §5 and
+`PRTOE_DERIVATION_HUNT.md` §7 (ruling stated as data's, surviving arithmetic named, absence
+corrected); `scripts/winding_gas_cv.py`, `scripts/winding_gas_cv_v2.py` (banners).
+
+**The lesson (process).** *Retiring a label is not retiring a picture.* #168 struck the words
+"Kibble–Zurek" from the two files that owned the claim and re-typed the target correctly, but the
+freeze *structure* — a lock, a snapshot, a frozen amplitude, an event at one redshift — went on
+standing in the chain file, where it read as ordinary chronology rather than as a mechanism claim.
+A picture embedded in nouns survives a retirement aimed at adjectives. And an absence claim is a
+claim: this one was audited across `docs/` and was false in `scripts/`.
+
+
+### "The Fock insertion partially cancels the vertex term" — WRONG, they add (#183, 2026-07-20)
+
+**What was booked.** #141 computed the crossed box (c = 0.789262) and recorded a reservation, which
+`PRTOE_PREREGISTERED_PREDICTIONS.md` carried forward as the one caveat on #124's verdict: *"the
+Fock self-energy insertion sits at the same order and is uncomputed (#183); in Eliashberg-class
+treatments it partially cancels the vertex term, so a substantial cancellation would move the band
+back up and re-open this sizing."* `PRTOE_hierarchy_problem.md` §6e carried the same expectation.
+
+**Why it is wrong.** The Eliashberg intuition imports a *retarded* interaction's mass enhancement
+into a problem that has none. On this host V is **instantaneous**, so the Matsubara sum in Σ
+collapses to the occupation and Σ is frequency-independent: **Z = 1 exactly**, and there is no mass
+enhancement to cancel anything with. The entire self-energy effect is the momentum dependence — a
+velocity renormalisation v\* = v + ∂Σ/∂k|_{k_F}, hence N₀\* = N₀/(1 + δv). Differentiating under
+the integral with **k** along ẑ gives
+δv = 2e²∫_{p<1} d³p/(2π)³ (1 − p_z)/(|k̂ − **p**|² + m_D²)², and p < 1 forces p_z < 1, so the
+integrand is **pointwise positive on the Fermi sea**. Exchange stiffens the band, the density of
+states falls, the coupling falls with it — the *same* sign as the crossed box. The two O(λ)
+insertions **add**: 1/λ_eff = 1/λ + c + a, with a = (1 + 2b)/2 − 1/ln(1 + 1/b) = **0.280677**.
+
+**What it does.** The anchor multiplier goes from e^(−c) = 0.454 to e^(−(c+a)) = 0.343, a further
+×0.755. The band moves from 0.73–2.4 TeV to **0.55–1.78 TeV** — further *below* the shooter's
+13–20 TeV, not toward it. **#124's verdict is reinforced, not re-opened**: the tightest gap widens
+from 5.4× to 7.3×, and the reservation that could have re-opened the sizing is closed against the
+direction it feared.
+
+**The lesson (process).** *This is the third time on this one integral that a verbal argument
+pointed the favourable way.* #141's first two attempts at the vertex correction were verbal and
+both favoured the model; the standing rule after them was INTEGRATE, DO NOT ARGUE. The "partial
+cancellation" hedge was a fourth verbal argument, inherited from a textbook regime the host does
+not sit in, and it also pointed the favourable way — a cancellation was the one outcome that would
+have rescued the census arrow. The rule caught it only because it was applied.

@@ -193,7 +193,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 165 | The synchrotron row's weight convention | closed — number was fixed-field, label said fixed-energy |
 | 166 | The competitor comparison — steelman the H₀ market | closed — built, and caught a miscitation; EDE outscores this class on every column |
 | 167 | The timing error band | closed — and the occupancy was mixing two clocks: 1-in-37, not 1-in-29 |
-| 168 | The count C — mechanize A_s's shot-noise normalization | open, and the target is re-typed — a fixed comoving cell is white noise (n_s = 4), so k_*ξ = 3.45×10⁻³ is a **scaling** ratio, not a Kibble–Zurek freeze-out; the count's and the tilt's mechanizations are mutually incompatible |
+| 168 | The count C — mechanize A_s's shot-noise normalization | open, and the target is re-typed — a fixed comoving cell is white noise (n_s = 4), so k_*ξ = 3.45×10⁻³ is a **scaling** ratio, not a Kibble–Zurek freeze-out. The collision it flagged is ruled by **#184**; two of its statements are corrected there |
 | 169 | The g→λ map | closed — λ = 26–46, whole band above λ* = 22.41, so uncontrolled at this order |
 | 170 | M7's remaining half — f_wind | closed — 255× under the fence; the comb's detection claim dies, its location survives |
 | 171 | Resolve the four unverifiable closures | closed — three traced to one commit that deleted 8,635 lines claiming to preserve every live finding |
@@ -207,6 +207,8 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 179 | Recover the content 0315894d dropped | closed — five live objects rehomed; caught a frozen mislabel (a₀ at 140 kpc not 83; gas-vs-stars ≈3% not ×1.98) |
 | 180 | The winding integer n_rms | open — L_gen is never assigned a value; n ≳ 1.65 is a bound, and n ~ 10–30 is a torus choice |
 | 182 | The BBN ramp keys on the other sector's scale | **determined — two objects, and the numerical safety claim fails too.** ε is the dyad's order parameter but the ramp keys on 177.10 keV, which DERIVATION_HUNT §6 assigns to the confining sector. The dyad's own exact-kernel band is **307–714 keV** (the recorded 250–530 keV does not follow from L−1 ∈ [1, 10]), which **excludes** the keying value by 1.73× at its bottom — so they are not one object. And 53% of that band lies above the BBN fence's 500 keV, where the ≤ 0.32σ whole-fence bound does not apply. **Open:** re-key the ramp onto the dyad's band and re-price BBN above 500 keV |
+| 183 | The Fock self-energy insertion, the crossed box's companion | **closed — and it does NOT cancel the vertex term.** V is instantaneous, so Σ is frequency-independent and Z = 1; the effect is a velocity renormalization whose integrand is pointwise positive on the Fermi sea. Closed form a = (1+2b)/2 − 1/ln(1+1/b) = **0.280677**, same sign as c, so 1/λ_eff = 1/λ + c + a. Band 0.73–2.4 → **0.55–1.78 TeV**; **#124 reinforced, not re-opened** |
+| 184 | The A_s collision — freeze-out census vs scale-invariant shot | **closed (ruled).** The model asserts the **scaling** picture; the freeze branch is *excluded by the tilt* (n_s = 4 vs 0.9649), and #168's retirement of the Kibble–Zurek *label* left its *structure* standing in THE_CHAIN. #168 over-priced the cost — the pivot-evaluated C decomposition survives. **Third finding:** the scaling class is asserted and assumed, never exhibited, and the "census-drift" tilt reading is an identity, not a second mechanism. ν = 2/3 found in `scripts/`, correcting a recorded absence |
 
 ## Why this file is thin on purpose
 

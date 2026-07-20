@@ -50,9 +50,10 @@ closure selects — failures ledger §6); the census closure / duty-family landi
 STRAINED (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
 the edge-convention audit decides whether that arrow fell or the convention did). **That strain
 was sized against the anchor as a point value, 1.57 TeV, and that value is withdrawn** (§6e): the
-anchor is a band, and with the vertex correction evaluated (§6e, docket #141: c = 0.789, the
-anchor × e^(−c) = 0.454) that band is **0.7–2.4 TeV**. Re-measured against it, the gap to the
-shooter's 13–20 TeV is **5.5× at the band's top edge and 18× at its bottom** — so the strain's size
+anchor is a band, and with the complete O(λ) correction evaluated (§6e, dockets #141 and #183:
+c = 0.789 from the crossed box and a = 0.281 from the Fock self-energy, the anchor
+× e^(−(c+a)) = 0.343) that band is **0.55–1.78 TeV**. Re-measured against it, the gap to the
+shooter's 13–20 TeV is **7.3× at the band's top edge and 24× at its bottom** — so the strain's size
 is a fact about where in the band the anchor sits, and it is now sized rather than pending. THE
 ONE GENUINELY INDEPENDENT ARROW ($m_H$ is measured) STANDS:
 
@@ -426,8 +427,9 @@ consistency: the constant the exponent needs and the constant equipartition supp
 | where the Fermi surface sits | E_F/M_red ∈ [0.223, 1] | k cancels k_F entirely, so k_F enters only through the correction above, bounded below by Λ_shell and above by the cutoff |
 
 **So the anchor is a factor-of-a-few prediction.** Across the allowed range these compound to
-roughly **1.6 to 5.2 TeV** from these two terms alone — §6e's evaluated vertex correction then
-multiplies the whole band by e^(−c) = 0.454, giving **0.73 to 2.4 TeV** — with the booked 1576 GeV at the bottom
+roughly **1.6 to 5.2 TeV** from these two terms alone — §6e's evaluated O(λ) correction (crossed box
+and Fock self-energy together) then multiplies the whole band by e^(−(c+a)) = 0.343, giving
+**0.55 to 1.78 TeV** — with the booked 1576 GeV at the uncorrected band's bottom
 edge, the value
 obtained when the exact-solution factor is absorbed and the density of states is treated as flat.
 The +0.14% agreement with 4πm_H is therefore **a coincidence of one convention within that band**,
@@ -525,31 +527,61 @@ in (u, s, t), converged to **11 digits** at 64 Gauss–Legendre nodes per panel.
 the screening constant moves c by under 1%, against ∂lnM/∂lnk = 33.47 for k itself. The number
 carries the quadrature to eleven digits; its real uncertainty is structural and named below.
 
-**What it does to the anchor.** The exponent shifts by +c, so the anchor moves down by
-**e^(−c) = 0.454**:
+**The self-energy companion, computed (docket #183).** c is the crossed box and only the crossed
+box; one further object enters at the same relative order λ — the **fermion self-energy insertion**
+on the internal lines, the exchange (Fock) term of the same screened interaction. It is now
+evaluated on the same host, and it does **not** cancel the vertex term.
 
-| quantity | rainbow | vertex-corrected |
-|---|---|---|
-| 1/λ | 33.47 | 34.26 |
-| M_anchor, booked convention (−3/2) | 1576 GeV | **716 GeV** |
-| M_anchor, exact-solution convention (×2) | 3153 GeV | **1432 GeV** |
-| §6d's band from the other two terms | 1.6–5.2 TeV | **0.73–2.4 TeV** |
+With an *instantaneous* V the Matsubara sum collapses to the occupation, so Σ is
+frequency-independent and there is no Eliashberg Z factor at all: the whole effect is the momentum
+dependence, i.e. a renormalised Fermi velocity v\* = v + ∂Σ/∂k|_{k_F} and hence N₀\* = N₀/(1 + δv).
+Differentiating under the integral with **k** along ẑ,
 
-So the 1–8 TeV band collapses to roughly **0.7–2.4 TeV** — the lower half, as the prior said, and by
-a measured factor rather than an assumed one. **It also inverts which of §6d's two conventions looks
+  δv = 2e²∫_{p<1} d³p/(2π)³ (1 − p_z)/(|k̂ − **p**|² + m_D²)²,
+
+and p < 1 forces p_z ≤ |p| < 1, so **the integrand is pointwise positive on the Fermi sea** — δv > 0
+with no argument required, the exact analogue of the crossed box's pointwise-non-negative Lindhard
+weight. Exchange *stiffens* the band, the density of states falls, and the coupling falls with it:
+the two insertions carry the **same sign** and add. The angular integral is elementary and the
+radial one collapses to a closed form:
+
+  **a ≡ δv/λ = (1 + 2b)/2 − 1/ln(1 + 1/b) = 0.280677**  (e² cancels, as it must)
+
+with δv = 0.008385 — the band stiffens by 0.84%. Both insertions then enter the exponent additively,
+1/λ_eff = 1/λ + c + a.
+
+| quantity | rainbow | + crossed box (#141) | + Fock (#183), complete O(λ) |
+|---|---|---|---|
+| 1/λ | 33.47 | 34.26 | **34.54** |
+| M_anchor, booked convention (−3/2) | 1576 GeV | 716 GeV | **541 GeV** |
+| M_anchor, exact-solution convention (×2) | 3153 GeV | 1432 GeV | **1082 GeV** |
+| §6d's band from the other two terms | 1.6–5.2 TeV | 0.73–2.4 TeV | **0.55–1.78 TeV** |
+
+**What certifies a.** The closed form matches mpmath quadrature of I(1) and I′(1) at 40 digits to
+**2×10⁻¹⁶**; a central finite difference of Σ(k) converges to it as h² (**2×10⁻⁸** at h = 10⁻⁴);
+brute-force cartesian 3D integration of δv, which shares nothing with the angular reduction, agrees
+to **5×10⁻⁶** at its own grid resolution; the two reduction orderings (differentiate-first vs
+integrate-first) agree to **7×10⁻¹⁶**; a is e²-independent to 12 digits. Two independent physics
+limits close it: at m_D → 0 the machinery reproduces the **textbook Slater Hartree–Fock exchange
+self-energy** Σ_x(k) = −(e²/4π²)[1 + ((1−x²)/2x)ln|(1+x)/(1−x)|] to 10⁻¹⁴, and at large b it
+reproduces **a → 1/(12b)**, derived independently by expanding V to O(q²/m_D²) — ratio 1.0000 by
+b = 5×10³. A contact interaction renormalises no velocity, and a → 0 there, as it must.
+
+So the 1–8 TeV band collapses to roughly **0.55–1.78 TeV**, the lower half and then some, by two
+measured factors rather than assumed ones. **It also inverts which of §6d's two conventions looks
 lucky**: the booked convention's landing on 4πm_H = 1574 GeV was the +0.14% coincidence, and the
-correction moves it to 0.45×; the exact-solution convention, corrected, lands at 0.91× instead.
-That does not decide §6d's factor of two — this calculation says nothing about it — but the
+corrections move it to 0.34×; the exact-solution convention, corrected, lands at 0.69× instead.
+That does not decide §6d's factor of two — neither calculation says anything about it — but the
 coincidence no longer sits where it did, which is worth recording rather than quietly re-parking.
 
-**What is not in it, named exactly.** c is the crossed box and only the crossed box. One further
-object enters at the same relative order λ and is *not* computed here: the **fermion self-energy
-insertion** on the internal lines — the exchange (Fock) term of the same screened interaction,
-which renormalises the velocity and hence N₀ at the Fermi surface. Whether §6c's N₀ is meant bare
-or dressed is unstated, and in Eliashberg-class treatments self-energy and vertex terms partially
-cancel. So the honest reading of the corrected anchor is *the crossed box's contribution to the
-O(λ) correction, complete and validated*, with the self-energy companion the one remaining term at
-that order. It is the next item, and it is well-posed on exactly this host.
+**The one residual at this order, priced.** The primary a is computed on a **fixed** host, which is
+what consistency with #141 demands. Allowing the screening constant to follow its own velocity
+(b = 2α_c/πv, so δb/b = −δv/v) feeds back through dln⟨V⟩/dln b = −1/[(1+b)ln(1+1/b)] and gives
+a = 0.2161 instead of 0.2807 — c + a ∈ [1.005, 1.070], a band of 0.55–1.90 TeV. That is a 6%
+effect on the anchor, well inside §6d's own factor-of-a-few, and it is a *self-consistency* choice
+rather than a missing diagram. Separately, the linear cone's filled lower branch contributes a
+cutoff-dependent exchange log — that is the running of v, booked with the running-α_c chain (§6f),
+not part of the O(λ) correction at fixed cutoff.
 
 **One normalisation dependence, stated because c inherits it.** λ_eff and λ are defined with the
 same pairing density of states, so it cancels from c = ⟨C⟩/(λ⟨V⟩) — but λ itself is §6c's

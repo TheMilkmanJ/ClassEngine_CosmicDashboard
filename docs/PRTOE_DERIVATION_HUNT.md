@@ -13,21 +13,23 @@ irreducible assumption, named as such).*
 ## 1. The amplitude ε and its decomposition
 
 The single modification to known physics is a universal charged-lepton mass shift ε ≈ 1.24% (leptophilic
-— quarks carry L = 0 and sit untouched; the universality is across the lepton family, which is what the
-Koide protection rides), which decomposes as
+— the quark channel is held off by loop order and by data, not by lepton number; the universality is
+across the lepton family, which is what the Koide protection rides), which decomposes as
 
 $$\varepsilon = c \cdot \bar f \cdot \alpha_c .$$
 
 | factor | value | status |
 |---|---|---|
 | **c** | 9/10 | **value data-selected; the counting argument's routing step open** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel), and independently landed on by the ε-blind ensemble at c = 0.903 [0.867, 0.942], −0.08σ from 9/10. What is *not* closed is the step that licenses a democratic count at all — see **the two-census marriage** below. See [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
-| **f̄** | 2/π ≈ 0.6366 | **derived** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved — see below. The ε-blind ensemble gives c = 0.903 [0.867, 0.942], −0.08σ from 9/10. |
+| **f̄** | 2/π ≈ 0.6366 | **strengthened candidate; the coupling form data-selected** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved by the data rather than forced by the framework — see below, where the residual "leading-order dominates" is named. The corpus's two independent measurements both land on 2/π: fit-implied f̄ = 0.6253 (+1.8%) and winding-sim 0.635 (+0.3%), rejecting the RMS reading 0.7071 at +13%. |
 
 **The two-census marriage — c's weakest joint, and what the routing step must show.** The
 decomposition runs two counts over two different, non-nested sets. **c = 9/10 counts
-recipients** — 9 charged fermions, quarks *in*. **The delivery is leptophilic** — quarks carry
-L = 0 and the tree coupling is exactly zero, so the channel that actually delivers ε never
-touches six of the nine it counts. Two censuses is lawful only if the budget-split genuinely
+recipients** — 9 charged fermions, quarks *in*. **The delivery is leptophilic** — not because
+lepton number forbids the quark coupling (the singlet |Ψ|² is L-neutral and screens nothing) but
+because that coupling is suppressed by loop order, (α/π)² = 5.4×10⁻⁶, and excluded by data at
++12–18σ on D/H. Either way the channel that actually delivers ε does not reach six of the nine it
+counts. Two censuses is lawful only if the budget-split genuinely
 routes through the **gravity terminal** (blindness ⟹ democratic) while the delivery rides the
 **scalar** channel. That two-stage routing is the step the census has never walked, and it is
 the softest link in the ε-decomposition's math.
@@ -181,8 +183,8 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   is worth keeping because it says what the kernel is doing work for. **(i) Defining T_c as τ·m_e
   while deriving τ from T_c** is circular, and was the original construction. **(ii) The
   perturbative route** T_c = m_e0·√(3(L−1)/2π²) is scale-ambiguous through L, and with the exact
-  fermionic thermal kernel it reads **250–530 keV over L−1 ∈ [1, 10]** — a band that sits *above*
-  the adopted value rather than bracketing it. (The 193 keV once quoted from this route, and the
+  fermionic thermal kernel it reads **307–714 keV over L−1 ∈ [1, 10]** — a band that sits *above*
+  the adopted value rather than bracketing it, by 1.73× at its very bottom. (The 193 keV once quoted from this route, and the
   wide envelope around it, both used the high-temperature expansion, which at m_e/T_c ≈ 2.9
   overstates the thermal restoration ~16-fold.) **(iii) The published lattice band** T_c/√σ ≈ 0.34–0.37 is an
   **SU(3)** value where this sector is SU(2), and no SU(2), N_f = 3 determination exists.
@@ -193,9 +195,8 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   ±4.2% band is an order of magnitude too coarse to say anything. **What would make this a test: a
   lattice T_c/√σ for SU(2), N_f = 3 at σ ≲ 0.22%** — the
   number P-048 bets on, still uncomputed. The perturbative
-  Coleman–Weinberg route corroborates the adopted value **less** well than its retired envelope
-  suggested: at 250–530 keV it agrees on the decade and on nothing finer, so the adopted value's
-  source stays the confining chiral ratio, not this route. This is the same scale BBN watches the
+  Coleman–Weinberg route does not corroborate the adopted value at all: at 307–714 keV it
+  **excludes** it, so the adopted value's source stays the confining chiral ratio, not this route. This is the same scale BBN watches the
   ε-ramp switch at.
 - **The one input:** the portal **√σ_dark = m_e** — the dark confining sector's scale equals the electron
   mass. This cannot be derived without abandoning τ ≈ 0.35 (a conformal sector that would fix √σ_dark = m_e
@@ -464,7 +465,7 @@ neither**: it is the separate high-decay-constant field of §8 item 1b. The hone
 former one-object reading, in three parts: (i) **the single T_c splits into two electron-anchored
 scales** — the SU(2) confinement scale τ·m_e = 177.10 keV (the flagship's, portal-anchored,
 lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, which at
-the exact thermal kernel reads 250–530 keV over L−1 ∈ [1, 10]; the BBN-stability fence, stated on
+the exact thermal kernel reads 307–714 keV over L−1 ∈ [1, 10]; the BBN-stability fence, stated on
 the derived anchor, is **[70, 500] keV** — the deuterium bottleneck below it and the weak-rate window above it, the two clocks that actually bound T_c — and 177.10 keV sits interior, 2.5× above the lower edge and 2.8× below the upper. **Across that entire range the BBN verdict moves by at most 0.32σ on D/H**, so the fence cannot be broken by any re-pin inside it; the kernel's own 1.1% move costs 0.0022σ, one part in 449 of the row's width); they coincide at the
 electron scale for separate reasons (the portal vs the electron loop), not one object.
 
@@ -472,16 +473,20 @@ electron scale for separate reasons (the portal vs the electron loop), not one o
 > ramp ε(T) = ε(1 − T/T_c) should key on the **dyad's** transition — and the corpus keys it on
 > 177.10 keV, which this paragraph has just assigned to the *other* scale. That was harmless while
 > the dyad's own band was the retired [40, 900] keV, which straddled it. With the exact thermal
-> kernel the band is 250–530 keV, sitting **entirely above** 177.10 keV — a factor 1.4 to 3.0 — and
-> its top edge clears the BBN fence's 500 keV. So "coinciding at the electron scale" is now a
+> kernel the band is **307–714 keV**, sitting **entirely above** 177.10 keV — a factor **1.73 to
+> 4.03** — and **53% of it lies above the BBN fence's 500 keV**, everything past L−1 = 4.1. So
+> "coinciding at the electron scale" is now a
 > statement about the decade and not about the number, and two things follow that this corpus has
 > not said: the ramp is keyed on a scale that belongs to a different field, and the argument for
 > doing so is that the dyad's own perturbative route is too scale-ambiguous to key on (MATH_SPINE
 > §4), which is a reason to distrust the alternative rather than a reason to believe the choice.
 > **Either the two scales are one object after all — which is what the flagship's ownership question
-> also turns on — or the ramp needs its keying justified on the dyad's own transition.** The BBN
-> books do not move on it (whole-fence swing ≤ 0.32σ on D/H), so this is a structural debt, not a
-> numerical one. Desk work, no external gate; it needs a task number.
+> also turns on — or the ramp needs its keying justified on the dyad's own transition.** **And the
+> debt is numerical as well as structural.** The ≤ 0.32σ whole-fence swing that would have made this
+> safe is stated *on* the fence [70, 500] keV, and over half the dyad's band sits outside it, where
+> the dyad reaches n/p freeze-out and helium moves — an effect that bound does not price. So the BBN
+> books are **not** established over the corrected band. Re-keying the ramp onto the dyad's own
+> transition, and re-pricing BBN above 500 keV, is docket **#182**; desk work, no external gate.
 
 (ii) **The Majoron scale, priced at all three corners (2026-07-18).** The registry already
 carries v_L's two corners (resonant → MeV, S4-armed; non-resonant → ≥ GeV, S4-dark; CMB-S4 the
@@ -541,8 +546,8 @@ equality, and the c = 9/10 lock that seats on the equality, are untouched by the
 what varies is the mechanism's grade.)* The corner selection is open. (iii) The
 one-object field economy is lost — an aesthetic price, stated as one.
 
-The medium's microscopic content remains the **paired lepton-sector vacuum** — leptophilic by
-identity, with three flavours (see the flag above — the α_c receipt is retired; the finiteness
+The medium's microscopic content remains the **paired lepton-sector vacuum** — leptophilic by loop
+order and by data, with three flavours (see the flag above — the α_c receipt is retired; the finiteness
 candidate is live), neutrinos interior (c = 9/10), and a lepton-number-breaking Goldstone (the
 Majoron tie) — read as the §3 dark confining sector's own description: one 3-flavour,
 lepton-partnered, electron-scale confining vacuum. It supplies the roster the §5 str[k₁] balance runs
@@ -667,26 +672,40 @@ and not the roster.**
   k-spread rather than a test of the count. Deliberately exposed;
   the referee is the live zero-parameter run — the Eliashberg k-audit has run, placing k in
   [1.35, 1.37] at three-way concordance.
-  **The forward target, typed (2026-07-20).** As a ratio, the closed form asserts
-  **k_*ξ = (2π²A_s)^⅓ = 3.45×10⁻³ at R = 1**, and the live question is what kind of object that is.
-  It is not a freeze-out ratio, and the obstruction sits upstream of any missing number. **A frozen
-  comoving cell size gives white noise:** the mechanization's own line — P_ζ = R²ξ³, carrying no k —
-  makes Δ²_ζ = k³P_ζ/2π² ∝ k³, so A_s is reproduced at the pivot by construction and the tilt comes
-  out **n_s = 4**. The n_s route below avoids that only by assuming its opposite, taking *"the A_s
-  mechanism's own scale-invariant shot imprint"* and reading the entire tilt off the envelope — so
-  the two mechanizations of one object are incompatible and exactly one of them can stand.
-  **Scale invariance forces ξ(k) ∝ 1/k**, a coherence length holding a fixed fraction of the imprint
-  scale across every decade the CMB resolves; that is a *scaling* (self-similar) solution and the
-  opposite of a freeze-out, since a quench freezes one comoving length and then stops, and a length
-  that has stopped cannot track a horizon that has not. **So the number cannot be computed as
-  posed.** Two further pieces would be missing even if it could — the corpus records no dynamical
-  universality class for this transition (neither ν nor z appears anywhere in it) and no microscopic
-  pair (ξ₀, τ₀), the basement's constituents being unspecified — and a third ambiguity closes the
-  case: [PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md) keeps the census lock and the phase-slip
-  quantization event as *separate adjacent links*, so the quench criterion belongs to the other one.
+  **The forward target, typed, and the mechanism class ruled (#184, 2026-07-20).** As a ratio, the
+  closed form asserts **k_*ξ = (2π²A_s)^⅓ = 3.45×10⁻³ at R = 1**, and what kind of object that is
+  is now decided. **It is a scaling ratio, not a freeze-out ratio, and the decision is data's, not
+  taste's.** One frozen comoving cell size is a single Poisson census, whose spectrum is white at
+  every k by construction: P_ζ = R²ξ³ with ξ a constant makes Δ²_ζ = k³P_ζ/2π² ∝ k³, reproducing
+  A_s at the pivot and returning **n_s = 4** against a measured 0.9649 ± 0.0042. That branch is not
+  merely unmechanized, it is **excluded by the tilt**, and with it every freeze-out reading of this
+  link. What stands is **ξ(k) ∝ 1/k** (up to the envelope's logs): each mode carries the coherence
+  length at *its own* imprint time, a fixed fraction of its own scale, across every decade the CMB
+  resolves — a *scaling* (self-similar) imprint, and the only class the tilt route below can be
+  built on, since that route takes *"the A_s mechanism's own scale-invariant shot imprint"* as its
+  input.
+  **What the ruling costs, stated exactly.** P_ζ = R²ξ³ is *not* struck — it is the power imprinted
+  at scale k, correct there, with ξ read at that mode's imprint time. Only the reading of ξ as one
+  global constant is struck. So the pivot-evaluated arithmetic survives intact:
+  C = R²(k_*ℓ_p)³/2π², the factor-250 convention spread, the C = 1.009 ± 0.014 data limit and the
+  §6i joint all sit at one scale and never see the k-dependence. What dies is the extrapolation of
+  a single ξ off the pivot, and the census's typing as an instant.
+  **A structural mark points the same way**: [PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md) keeps the
+  census imprint and the phase-slip quantization event as *separate adjacent links*. The
+  quantization event **is** a freeze-out and keeps its criterion; the census imprint is not, and
+  borrowing across that boundary is what produced the collision.
   **What the basement owes, correctly typed: a mechanism holding ξ/ℓ_H constant at 3.45×10⁻³
-  (at R = 1) across the observed decades — and C follows from it.** Grade: **still-open**, with the
-  missing object a mechanism *type* rather than an O(1).
+  (at R = 1) across the observed decades — and C follows from it.** That mechanism is *not* on
+  file: the corpus asserts the scaling class without exhibiting the dynamics that enforces it, and
+  the tilt route assumes it rather than deriving it. Grade: **still-open**, with the class settled
+  and the missing object a *mechanism*, not an O(1).
+  **One recorded absence was overstated and is corrected here:** ν is not absent from the corpus.
+  `scripts/winding_gas_cv_v2.py:11` and `scripts/winding_gas_cv.py:5` carry **ν = 2/3, named 3D-XY**,
+  applied to this very census (ξ = ξ₀(1−t)^(−ν), N = (R/ξ)²). What is genuinely absent is the
+  *dynamical* half — **z appears nowhere**, nor does a microscopic (ξ₀, τ₀) pair; ξ₀ appears only as
+  a unit, never a value. The correction does not change the ruling: a static exponent for the
+  condensation transition is not a quench criterion for the census imprint, and those two scripts
+  are keyed to the ramp at T_c, a different link.
 - **n_s = 1 − 2/ln(T₀/k), k-local — mechanism candidate (exhibited): 0.9677 at the pivot,
   predicted running −5.2×10⁻⁴** (the banked k-independent 1 − 2/ln(M_Pl/T_on) = 0.9641 is retired
   to consistency-check grade). **The 2D-Gaussian mechanism route, adjudicated by computation (2026-07-17):** the
@@ -885,7 +904,7 @@ and three recorded clauses say why:
 
 **So the silence carries a sign.** It is not *not yet computed* but *not writable*: the model
 would have to break the census axiom to acquire a mixing angle, and the census axiom is what pays
-for leptophilia, for the Lorentz shield, and for Koide's survival of ε. A future construction that
+for the universality, for the Lorentz shield, and for Koide's survival of ε. A future construction that
 derived PMNS from this medium would be evidence against the constitution rather than for it. The
 one lane that could have carried flavour structure — three winding cycles read as three families —
 is parked without a mechanism, and it carries the mixing requirement as its own named test-fabric

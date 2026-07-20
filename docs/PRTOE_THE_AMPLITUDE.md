@@ -99,15 +99,21 @@ C = 1 is an identification rather than a result. Equivalently, the closed form i
 census locks cells at **k_*ξ = 3.45×10⁻³** (at R = 1) — one part in 290 of the pivot's own scale —
 and that ratio is the number the basement owes.
 
-**What kind of number it is, is settled, and it is not a freeze-out ratio.** A census carrying one
-frozen comoving cell size gives P_ζ = R²ξ³, which is k-independent: that is white noise,
-Δ²_ζ ∝ k³, **n_s = 4**. It reproduces A_s at the pivot by construction and misses the tilt by
-three. Scale invariance — which the tilt route separately *assumes* of this same shot imprint —
-requires instead ξ(k) ∝ 1/k, the coherence length holding a fixed fraction of the imprint scale
-across every decade the CMB resolves. So 3.45×10⁻³ is a **scaling** parameter, a length held at a
-constant fraction of the horizon while both grow, and not a single quench's frozen length. Data
+**What kind of number it is, is settled by data, and it is not a freeze-out ratio.** A census
+carrying one frozen comoving cell size is a single Poisson realisation, so P_ζ = R²ξ³ is white at
+every k: Δ²_ζ ∝ k³, **n_s = 4**. It reproduces A_s at the pivot by construction and misses the tilt
+by three — against a measured 0.9649 ± 0.0042, so the freeze-out branch is **excluded**, not merely
+unmechanized. What stands is ξ(k) ∝ 1/k, the coherence length holding a fixed fraction of *each
+mode's own* scale across every decade the CMB resolves, which is also exactly what the tilt route
+assumes of this same shot imprint. So 3.45×10⁻³ is a **scaling** parameter, a length held at a
+constant fraction of the horizon while both grow, and not a single quench's frozen length.
+**The ruling leaves the arithmetic where it was**: P_ζ = R²ξ³ is the power imprinted *at* scale k,
+with ξ read at that mode's imprint time, so C = R²(k_*ℓ_p)³/2π², the factor-250 convention spread
+and the data limit are all pivot-evaluated and untouched — what is struck is reading ξ as one
+global constant, and with it the census's typing as a single instant. Data
 cannot referee C below ±1.4% (C = 1.009 ± 0.014); the derivation must, and it owes a mechanism of
-that type before it owes a number.
+that type before it owes a number. **That mechanism is not on file** — the scaling class is
+asserted and assumed, never exhibited, which is this section's one real debt.
 
 *(A predecessor reading of this section named the residual as "the bounce's stiffness-ceiling scale,
 ~1.6×10¹⁶ GeV". That scale appears nowhere else in the corpus, is computed by no script, and does

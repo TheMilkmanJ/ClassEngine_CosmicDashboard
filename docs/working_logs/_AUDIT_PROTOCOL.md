@@ -18,7 +18,7 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The twenty checks
+## The twenty-one checks
 
 Run all twenty. Record what was found, even when nothing was.
 
@@ -268,6 +268,27 @@ single-object task failed in roughly a hundred checks. #28 and #29 are the same 
 opposite outcomes; the only difference is whether all the parts happened to land. **Do not bundle
 deliverables under one number, and give any "every X" task a named completion test when it is
 written.** An audit after the fact costs a day; the discipline costs a sentence.
+
+**21. PROPAGATE FROM THE SOURCE, NEVER FROM THE DISPLAY (2026-07-20 — caught in the act).** A
+number quoted to two significant figures is a *rendering* of a number the corpus holds to more. When
+a new factor multiplies through, it must multiply the quantity, not its rendering — otherwise the
+display's rounding is promoted to a real digit and compounds with every further step. Checking a
+subagent's Fock-insertion band, I multiplied the booked display **0.73–2.4 TeV** by e^(−a) = 0.7553,
+got an upper edge of **1.81**, and was one keystroke from filing the agent's **1.78** as an error.
+The agent was right: the band's source is **1.6–5.2 TeV**, and 5.2 × e^(−(c+a)) = **1.784**. The
+2.4 was itself 2.362 rounded, and my arithmetic inherited that 1.6% and called it a discrepancy.
+
+The rule: **before propagating a quoted number, find where it was computed and take the value from
+there.** If the source cannot be found, that is the finding — a number with no computable origin is
+check 15's problem, not a rounding question. And the tell that this has happened is specific and
+recognizable: a mismatch of **one to two percent** against a value someone else derived, sitting on a
+quantity that has passed through two or more multiplications. That size is too large for float error
+and too small for a real disagreement. It is almost always a display in the chain.
+
+Note which direction this cuts. The failure here would not have been a wrong number in a file — it
+would have been **a correct number overwritten with a wrong one**, and filed as a fix. Check 20 says
+do not force a finding; this is the arithmetic case of it, and it is the more dangerous one, because
+the forcing looks like diligence right up until the source band is read.
 
 A file is not closed until checks 12 and 13 pass. Running the regression harness and a stale-pattern sweep
 is necessary and is not sufficient: both test what you thought to test.

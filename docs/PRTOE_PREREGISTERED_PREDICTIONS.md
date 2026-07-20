@@ -249,14 +249,22 @@ observational slack. A model variant that heals D while RAISING Y_p
 or 7Li is excluded within this framework; a future measurement
 forcing D/H and Y_p residuals to move the SAME direction kills the
 single-lever healer outright.
-**Open half — CLOSED NEGATIVELY AGAINST THE DYAD (2026-07-17).** The medium-native coupling
-construction was booked as "unwritten". It is now **excluded for this model's medium**: the dyad
-**is** the Majoron, the Goldstone of U(1)_L breaking, so it couples to the **current of its broken
-charge** — and **quarks carry L = 0**, making the tree-level quark coupling **zero by the symmetry
-that defines the field**, not merely small ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2,
-[ESTABLISHED]). The only route to hadrons is dyad → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶,
-which is **~20,000× short** of the required δm̂/m̂ = 0.14–0.21%. **The dyad cannot be this healer's
-lever, and the model does not get to heal the deuterium scar.** D/H carries **−2.5 to −1.4σ** honestly.
+**Open half — CLOSED NEGATIVELY AGAINST THE DYAD (2026-07-17; its reasoning replaced 2026-07-20,
+the verdict unchanged).** The medium-native coupling construction was booked as "unwritten". It is
+now **excluded for this model's medium** — by size and by data, not by symmetry. The only route to
+hadrons is dyad → lepton loop → 2γ → quark, (α/π)² = 5.4×10⁻⁶, which is **~20,000× short** of the
+required δm̂/m̂ = 0.14–0.21%; and a universal quark shift at ε is independently excluded at
+**+12–18σ** on D/H. **The dyad cannot be this healer's lever, and the model does not get to heal
+the deuterium scar.** D/H carries **−2.5 to −1.4σ** honestly.
+
+> *The 2026-07-17 closure argued this from lepton number — the dyad **as** the Majoron, coupling to
+> the current of its broken charge, with quarks carrying L = 0 and the tree coupling therefore zero
+> "by the symmetry that defines the field". Both legs have since gone: the dyad is a **separate
+> field** from the Majoron (the one-scale corner f = v_L is tie-dead, so the sector carries three
+> dark fields), and the standing portal is the singlet |Ψ|², which is **L-neutral and phase-blind**
+> and so screens no quark bilinear. The exclusion is a number, not a symmetry — which matters,
+> because a number can be reopened by better data. It survives with four orders to spare.
+> [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2 now records the same verdict as established **by data**.*
 *(The entry stays registered: the abundance signature — Y_p −0.5…−0.6%, ⁷Li −7…−13% — remains on
 record for any FUTURE non-Majoron amendment. It is now a prediction about a lever this model does
 not have, which is why it stays CONDITIONAL rather than being retired.)*
@@ -515,7 +523,9 @@ morning band audit gates ALL PTA numbers. (5) The collision now has
 THREE correlated readouts of one eps: PTA beat (light-m-gated),
 granule power p²+q² (any m), superradiance quench (heavy edge,
 CONFIRMED-QUENCH grade, possibly live with existing data on the
-DK-holds branch). The registration's spirit is unchanged: both
+DK-holds branch — **the quench readout is WITHDRAWN 2026-07-20: the
+margin is −83.7 to −85.8 decades and no quench occurs**). The
+registration's spirit is unchanged: both
 directions still executable, now with the instruments named per
 mass branch.
 
@@ -599,6 +609,14 @@ Consequences, stated per the registry's own discipline:
  is LIVE at the band top: M87*'s [2.9, 4.6]x10⁻²¹ free-scalar
  exclusion overlaps m ~ 3x10⁻²¹. A spin measurement there kills
  free FDM and not the dyad — present-day data, not future.
+ **[WITHDRAWN 2026-07-20 — there is nothing to discriminate.]** The
+ shield this rested on does not exist: re-derived at the model's own
+ quartic and mass, the λ-quench margin is **−83.7 to −85.8 decades**
+ across α_g = 0.1–0.5, so at λ ≈ 2×10⁻⁹¹ the field is a free scalar
+ for every superradiance purpose (f_eff = 5×10¹⁶ GeV). The band-top
+ framing is retired independently, the mass having since been pinned
+ an order higher at 2.24×10⁻²⁰ eV. The live physics is P-2026-034,
+ and it stands undefended.
 
 No new prediction is registered by this annotation; it settles one
 collision, kills three advertised numbers, and narrows the program's
@@ -613,7 +631,9 @@ fit. Four were staged behind three gates — the two m_e gates closed, the ampli
 derived, the two-fluid sims run.*
 
 **Where those gates now stand.** The **amplitude gate is half closed**, and the half that is open
-is the one that matters here. ε = c·f̄·α_c: **f̄ = 2/π is derived** as the winding time-average, but
+is the one that matters here. ε = c·f̄·α_c: **f̄ = 2/π is a strengthened candidate** — the winding
+time-average, with its coupling form settled by data rather than forced, and the residual that
+"leading-order dominates" is unproved from the un-built family-coupling Lagrangian — while
 **c = 9/10 is data-selected rather than framework-forced** — the counting argument's gravity-routing
 step does not close on either branch (routed through gravity the roster is every field in the
 vacuum, not the charged nine; not routed through it, a gauge-singlet scalar's independent
@@ -2030,10 +2050,11 @@ survives: the minimal solutions sit at 1–3 TeV.
 **CURRENT STATUS (2026-07-12): SUSPENDED-ADVERSE — read the amendments in order.** The
 one-loop band was suspended (two-loop shift); shooter v2 lands the census triplets
 at 13–20 TeV (beyond HL-LHC). **The edge-convention audit CONCLUDED 2026-07-20 (#124): the
-census arrow fell, not the convention.** The vertex correction it waited on was computed
-(#141, c = 0.789262 by integral), and it moves the anchor *down* by e^(−c) = 0.454 — band
-1–8 TeV → 0.73–2.4 TeV, i.e. further below the shooter, widening the tightest gap from 1.6×
-to 5.4×. No edge convention closes a gap a computation has just widened. The type-III identification and the seesaw duty
+census arrow fell, not the convention.** Both O(λ) corrections it waited on are now computed by
+integral (#141, crossed box c = 0.789262; #183, Fock self-energy a = 0.280677 — same sign, they add),
+and they move the anchor *down* by e^(−(c+a)) = 0.343 — band
+1–8 TeV → 0.55–1.78 TeV, i.e. further below the shooter, widening the tightest gap from 1.6×
+to 7.3×. No edge convention closes a gap a computation has just widened. The type-III identification and the seesaw duty
 survive; the ~1 TeV collider knife-edge does not, at current grade.
 
 **The claim:** the induced-gauge closure (the joint solve), duty-pinned by the model's
@@ -2319,7 +2340,7 @@ edge moving off z ≈ 50 enough to exit decoupling (breaks the mechanism).
  now lands the census triplets at 13–20 TeV under edge-matching: the collider-visible
  branch is **ADVERSE, no longer pending**: the edge-convention audit concluded 2026-07-20
  (#124) with the arrow fallen rather than the convention, and the collider-visible branch
- sits 5.4–27× above the corrected anchor band.
+ sits 7.3–36× above the corrected anchor band.
 - **P-2026-040** (α_c = 3α): LIVE — graded by the dispersion α_c chain; the z_on corollary's
  lineup awaits the two-clock re-derivation; the triangle (M₂, x₀, ρ_Λ) rides this chain.
 - **P-2026-041** (f̄ = 2/π): DERIVED — the genesis winding's roll-up, with the coupling form
@@ -2330,24 +2351,30 @@ edge moving off z ≈ 50 enough to exit decoupling (breaks the mechanism).
  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
  C fell or the convention did. **CONCLUDED 2026-07-20 (#124): the arrow fell, not the
  convention.** The audit could not conclude while the anchor was a band whose width came from an
- uncomputed vertex correction — that correction has now been evaluated as an integral rather than
- argued (#141: the crossed box gives c = 0.789262, positive, converged to 11 digits and validated
- against the Gor'kov–Melik-Barkhudarov constant to 5×10⁻¹¹). It moves the anchor **down** by
- e^(−c) = 0.454, collapsing the band from 1–8 TeV to **0.73–2.4 TeV** — i.e. *away* from the
- shooter, not toward it. The minimum gap therefore widens from 1.6× to **5.4× at the band's top
- edge**, and runs to 27× at its bottom, a **3.3× widening** of the tightest reading. No convention
+ uncomputed O(λ) correction — that correction has now been evaluated **completely**, as integrals
+ rather than arguments. **Both terms at that order are in** (#141: the crossed box gives
+ c = 0.789262, positive, converged to 11 digits and validated
+ against the Gor'kov–Melik-Barkhudarov constant to 5×10⁻¹¹; #183: the Fock self-energy insertion
+ gives a = 0.280677 in closed form, a = (1+2b)/2 − 1/ln(1+1/b), validated against the textbook
+ Slater exchange self-energy and an independently derived large-b asymptote). Together they move
+ the anchor **down** by
+ e^(−(c+a)) = 0.343, collapsing the band from 1–8 TeV to **0.55–1.78 TeV** — i.e. *away* from the
+ shooter, not toward it. The minimum gap therefore widens from 1.6× to **7.3× at the band's top
+ edge**, and runs to 36× at its bottom, a **4.5× widening** of the tightest reading. No convention
  choice reconciles 13–20 TeV with a band that a computation has just pushed further below it, so
- the strain is a fact about the census arrow and not about edge-matching. **One reservation, and it
- is the same one #141 records:** the Fock self-energy insertion sits at the same order and is
- uncomputed (#183); in Eliashberg-class treatments it partially cancels the vertex term, so a
- substantial cancellation would move the band back up and re-open this sizing.
- C fell or the convention did. **Re-sized 2026-07-20:** that strain was measured against the
- anchor as a point value (1.57 TeV), which the amendment above withdraws in favour of a 1–8 TeV
- band. Against the band the gap is 1.6× at the top edge and 13× at the bottom, so **the audit is
- downstream of the vertex correction rather than independent of it** — and the correction's
- expected sign is downward, favouring the band's lower half where the strain largely survives.
- Arrow C stays STRAINED; what changed is that its size is now a question about the anchor, not
- about the shooter.
+ the strain is a fact about the census arrow and not about edge-matching. **The reservation #141
+ recorded is now closed, against the direction it feared:** the Fock insertion does *not* partially
+ cancel the vertex term. On an instantaneous interaction Σ is frequency-independent, so there is no
+ Eliashberg Z factor; the effect is a velocity renormalisation whose integrand is pointwise positive
+ on the Fermi sea. Both insertions carry the same sign and add, and the sizing is reinforced rather
+ than re-opened.
+ *(Superseded, kept as the amendment trail — **the earlier re-sizing, 2026-07-20**: that strain was
+ measured against the anchor as a point value (1.57 TeV), withdrawn in favour of a 1–8 TeV band.
+ Against that band the gap was 1.6× at the top edge and 13× at the bottom, so the audit was
+ **downstream of the O(λ) correction rather than independent of it** — and the correction's
+ expected sign was called downward, favouring the band's lower half. Both O(λ) terms have since
+ been computed and the call held: the band is 0.55–1.78 TeV and arrow C is concluded, not
+ STRAINED.)*
 - **P-2026-043** (the cosmic-dawn trough, deeper): LIVE — the thermal-history run has been
  made and the depth is **≈ 1.0%**, not the estimate's 4.6%; the sign, which is the registered
  content, holds. The decision rule is a sign test.

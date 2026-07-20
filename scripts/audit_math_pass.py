@@ -1470,6 +1470,53 @@ chk("DERIVATION_HUNT 1", "medium loop share of 1/a_EM(0) -- piece 2's real numbe
 chk("DERIVATION_HUNT 1", "the recorded 44% over that correct share", 1.859,
     (42.9/98.4)/_share_EM, 1e-3, "x")
 
+# --- #184: the two branches of the A_s census, and which one the tilt allows -------
+# The freeze branch is checked just above (n_s = 4).  Its complement: holding k*xi fixed
+# (the scaling branch, xi ~ 1/k) makes Delta^2 scale-invariant, n_s = 1.  That contrast IS
+# the ruling -- measured n_s = 0.9649 sits on the scaling branch and 3 away from the other.
+_D2_184 = lambda kk: kk**3 * (3.4502e-3/kk)**3 / (2*math.pi**2)   # xi = 3.4502e-3/k
+chk("THE_AMPLITUDE", "scaling census (k xi fixed) gives n_s = 1 exactly", 1.0,
+    1.0 + math.log(_D2_184(1.01)/_D2_184(1.0))/math.log(1.01), 1e-9)
+# and the freeze branch's n_s = 4 sits this far from the measured tilt -- the ruling's margin
+chk("FAILURES_LEDGER", "#184: freeze branch n_s = 4 minus measured n_s = 0.9649", 3.0351,
+    4.0 - 0.9649, 1e-4)
+
+# --- #183: the Fock self-energy insertion on hierarchy 6c's host -------------------
+# a = delta_v/lambda with delta_v = dSigma/dk at k_F, Sigma the exchange self-energy of
+# V(q) = e^2/(q^2 + m_D^2).  Closed form a(b) = (1+2b)/2 - 1/ln(1+1/b); e^2 cancels.
+_ac_183 = 3*ALPHA
+_b_183 = 2*_ac_183/math.pi                             # 2 alpha_c/pi, v = 1
+_c_183 = 0.789262                                      # #141, the crossed box
+_a_183 = (1 + 2*_b_183)/2 - 1/math.log1p(1/_b_183)
+chk("hierarchy 6e", "#183: Fock coefficient a = (1+2b)/2 - 1/ln(1+1/b)", 0.280677,
+    _a_183, 1e-5)
+# independent route: a = delta_v/lambda built from the radial integrals I(1), I'(1),
+# which share only the host with the line above.  m^2 = 4b.
+_m_183 = 2*math.sqrt(_b_183)
+_I1 = 2 - 2*_m_183*math.atan(2/_m_183) + 0.5*_m_183**2*math.log1p(4/_m_183**2)
+_Ip1 = 4 - 2*_m_183*math.atan(2/_m_183) - math.log1p(4/_m_183**2)
+_e2_183 = 4*math.pi*_ac_183
+_dv_183 = -(_e2_183/(8*math.pi**2))*(_Ip1 - _I1)
+_lam_183 = (_e2_183/4)*math.log1p(1/_b_183)/math.pi**2         # = k alpha_c
+chk("hierarchy 6e", "#183: same a from I(1), I'(1) -- independent route", 0.280677,
+    _dv_183/_lam_183, 1e-5)
+chk("hierarchy 6e", "#183: the velocity renormalization delta_v itself", 0.0083850,
+    _dv_183, 1e-4)
+# the large-b asymptote a -> 1/(12b), derived by expanding V to O(q^2/m_D^2)
+chk("hierarchy 6e", "#183: a x 12b -> 1 in the contact limit (b = 5e4)", 1.0,
+    ((1 + 2*5e4)/2 - 1/math.log1p(1/5e4))*12*5e4, 1e-4)
+# the two insertions add in the exponent: 1/lambda_eff = 1/lambda + c + a
+chk("hierarchy 6e", "#183: complete O(lambda) exponent shift c + a", 1.069939,
+    _c_183 + _a_183, 1e-5)
+chk("hierarchy 6e", "#183: anchor multiplier exp(-(c+a))", 0.34303,
+    math.exp(-(_c_183 + _a_183)), 1e-4)
+chk("hierarchy 6e", "#183: corrected band, bottom edge (1.6 TeV x mult)", 0.549,
+    1.6*math.exp(-(_c_183 + _a_183)), 2e-3, "TeV")
+chk("hierarchy 6e", "#183: corrected band, top edge (5.2 TeV x mult)", 1.784,
+    5.2*math.exp(-(_c_183 + _a_183)), 2e-3, "TeV")
+chk("PREREGISTERED", "#183: tightest gap, shooter 13 TeV over the band's top", 7.3,
+    13.0/(5.2*math.exp(-(_c_183 + _a_183))), 5e-3, "x")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

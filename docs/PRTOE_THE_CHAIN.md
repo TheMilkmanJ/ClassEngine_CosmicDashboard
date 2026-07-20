@@ -45,7 +45,11 @@ ordering's first half.
 pattern — freeze-out abundances locked pre-condensation.
 
 **3. CONDENSATION, T_c = 177.10 keV (z ≈ 7.5×10⁸):** the medium condenses mid-BBN — between
-n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV — and the birth is a RAMP,
+n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV. **That ordering is keyed to
+177.10 keV, which the confining chiral ratio supplies, and the dyad's own two internal
+determinations intersect at 307–714 keV instead** — a band whose top reaches freeze-out, so the
+link's ordering holds on the adopted value and not on the dyad's own
+([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4, the re-keying question). The birth is a RAMP,
 not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field,
 Gi ≪ 1 certified; coded into the pipeline); pairing forms
 (doubling season); ε ramps ON; the winding current becomes physical.
@@ -58,26 +62,44 @@ dispersion; the ratio measures n).
 the running fit's frozen profile sits at 3.56×10⁷, log 7.55):** the winding
 mode crosses k/a = m — the dcdf's radiation-like era hands over to CDM-like; the C code
 carries this transition's exact ramp (√(1+x²)−1 — the dispersion upgrade).
-→ **Tether 4→5 [CAND]:** THE TWO DRAWS — two distinct adjacent events, not one draw. The
-**quantization event**: the classical fountain ring's circulation quantizes through the
+→ **Tether 4→5 [CAND]:** THE TWO DRAWS — two distinct adjacent events, of two different kinds.
+The **quantization event**: the classical fountain ring's circulation quantizes through the
 condensation ramp, n locking at the phase-slip freeze-out (mechanical, noise-dressed; the KZ dice
-demoted to the residual and the ± genome coin). The **census lock**: the pour's thermal snapshot
-(the A_s = 1/N cell freeze at the pivot scale). Topology draw (n, at condensation) and census lock
-are separate adjacent links; nothing downstream assumes otherwise.
+demoted to the residual and the ± genome coin). That one *is* a freeze-out — one length, frozen
+once. The **census imprint**: the shot count that sets A_s = 1/N. That one is **not** a freeze-out
+and cannot be, because a single frozen comoving cell size is white noise (n_s = 4); it is a
+**scaling** imprint, ξ holding a fixed fraction of each mode's own scale. Topology draw (n, at
+condensation) and census imprint are separate adjacent links of separate mechanism *class*;
+nothing downstream may borrow the freeze-out criterion across that boundary.
 
-**5. THE CENSUS LOCK, z ~ 10⁶ [CAND, inherits the upstream rung's grade]:** the payroll snapshot
-— the pivot scale stands 782 cells across (A_s = 1/N at the frozen amplitude; the older 781 was
-the Planck-anchored count). The μ-era referee (entry
+**5. THE CENSUS IMPRINT, CMB-relevant scales processed near z ~ 10⁶ [CAND, inherits the upstream
+rung's grade]:** the payroll, read scale by scale rather than snapped once
+— at the pivot the scale stands 782 cells across (A_s = 1/N; the older 781 was
+the Planck-anchored count). **This link is a process, not an instant**, and that is forced: each
+mode carries the count at *its own* imprint time, and only a ξ tracking each scale — ξ/ℓ_H held at
+3.45×10⁻³ (at R = 1) across every decade the CMB resolves — reproduces both the amplitude and a
+tilt near 1. Holding one comoving cell size instead reproduces A_s at the pivot by construction
+and returns n_s = 4. **The mechanism that holds that ratio is the link's open debt**
+([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) §5,
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §7). The μ-era referee (entry
 46): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;
 1/m-branch whispers at μ ~ 10⁻⁹ (PRISM-class reach). *Room checked and COLD en route:
 the condensation transition's GW background misses the PTA band by ~3 orders in
 frequency (f_peak ~ 2×10⁻¹² Hz) and ~4 in amplitude (Ω ~ 10⁻¹³) — no NANOGrav claim.*
-→ **Tether 5→6 [CAND]:** hands the frozen amplitude (and tilt via the recorded census-
-drift reading, n_s − 1 = −dlnN/dlnk) to the CMB.
+→ **Tether 5→6 [CAND]:** hands the amplitude at the pivot, and the tilt, to the CMB. The
+tilt is carried by the **modulation map** — ζ_k = A(k)·s_k, envelope × scale-invariant shot,
+n_s = 1 − 2/ln(T₀/k) — T₀ the UV end of the log range, the hunt's k_UV, and not the present CMB
+temperature (DERIVATION_HUNT §7). The bookkeeping identity n_s − 1 = −dlnN/dlnk is the
+same statement written in census language and adds no second mechanism: once N ≡ 1/Δ²_ζ(k) it is
+true by definition, and read as a physical count it restates the ξ(k) requirement above rather
+than supplying it. The tilt has **one** mechanism here, not two.
 
 **6. RECOMBINATION, z ≈ 1100:** the dyad's main act — heavier m_e → earlier decoupling
-→ smaller sound horizon → the H₀ mechanism (69.9); the winding's teeth project onto the
+→ smaller sound horizon → the H₀ mechanism (69.9); the winding's teeth set a *location* on the
 acoustic sky (the comb at ℓ₁ ≈ 31–94, the ℓ ~ 170 isocurvature line, one n — P-029/031/033).
+The comb's location is geometry and is carried; its **amplitude** is not a falsifier — the
+diagonal C_ℓ sees only the k̂-monopole of a single-axis modulation, leaving f_wind ≲ 3×10⁻⁵,
+some 255× under the observational fence, so the comb is a place to look rather than a test.
 → **Tether 6→7 [RECORDED, probe-registered]:** hands the CMB (formed) and the still-on ε
 to the dark ages.
 
@@ -89,9 +111,11 @@ the τ question closes by the chain's own structure, in two halves. The clusteri
 by construction: the fluid's linear sector is ΛCDM-identical, and its distinctive scales
 (granules, sub-parsec solitons) sit far below anything that sources reionization. The atomic
 half is gated by the edge itself: ε ramps OFF across z ~ 30–60, while τ's weight lives at
-z ≲ 10 — the coupling is closed several octaves before the ionizing era begins, and the
-neutral-era tail it does overlap carries a τ contribution orders below Planck's ±0.007 width.
-What survives of the debt is exactly the edge's SHAPE — whether its low tail leaks below
+z ≲ 10 — the coupling is closed several octaves before the ionizing era begins. **The margin there
+is argued, not computed:** the neutral-era tail the edge does overlap is expected to carry a τ
+contribution well under Planck's ±0.007 width, but that Δτ has not been integrated against the
+ramp's low tail, and until it has, the atomic half is reduced on an estimate rather than closed.
+Desk work, no external gate. What survives of the debt is otherwise the edge's SHAPE — whether its low tail leaks below
 z ≈ 10 — and that is the same discriminator link 7 already measures in 21cm. The τ link is
 not a separate computation; it is the edge shape wearing a different observable.
 
@@ -134,17 +158,15 @@ draw-epoch conflict's proposed resolution, geometric session decides). *(The τ 
 to the edge-shape discriminator link 7 already carries — tether 7→8.)*
 **Checked-and-cold rooms (filed, no claims):** the condensation GW background (misses
 PTA both ways); the 511 keV line vs leptophilia (the transfer vertex is seesaw-tiny —
-cold by the recorded number, one honest look owed someday).
-**Quark flavour — NOT a principled silence, a quantitative one (corrected 2026-07-20, #125).**
-This chain listed "leptophilia is derived — the quarks' books are not ours" among the
-principled silences. That rested on the identity argument retired earlier the same day: Ψ
-carries L, so **|Ψ|² carries L = 0**, and the standing quadratic portal is L-neutral and
-phase-blind while the Majoron's tree coupling is to the *phase* — U(1)_L screens no quark
-bilinear. What actually keeps the quark channel away is **size, not symmetry**: two-EW/EM-loop
-suppression at ~(α/4π)², which is 20 000–31 000× short, backed by the row's own 12–18σ bound.
-The conclusion survives with four orders to spare — but a suppression is a *number*, and a
-number can be reopened by better data in a way a symmetry cannot. It belongs with the
-checked-and-cold rooms, not the constitutional ones.
+cold by the recorded number, one honest look owed someday); **quark flavour**, which is cold by
+*size* rather than by symmetry, and so files here rather than among the constitutional silences.
+The portal is the dark-neutral bilinear |Ψ|², which reaches the quark bilinear only through the
+dyad → lepton loop → 2γ → quark chain at **(α/π)² = 5.4×10⁻⁶** — a delivered quark shift of
+6.8×10⁻⁶ %, which is **20 000–31 000× short** of the 0.14–0.21% a P-2026-006 healer would need.
+A second and independent bound shuts the same door from the other side: a universal quark shift at
+ε lands at **+12–18σ** on D/H. Lepton number screens neither channel — |Ψ|² is L-neutral and
+phase-blind, while the Majoron's tree coupling is to the phase — so what holds the quarks away is a
+number, and a number can be reopened by better data in a way a symmetry cannot.
 
 **Principled silences (not debts):** strong-CP, collapse dynamics, the jurisdiction
 clause, and
