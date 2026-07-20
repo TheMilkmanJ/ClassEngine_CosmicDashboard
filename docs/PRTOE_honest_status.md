@@ -57,6 +57,49 @@ correlation-structure prediction.
 horizon is weeks to months, and the ΛCDM twin doubles it. The verdict this board treats as the
 deciding crux is therefore further away than the working list assumes.
 
+### What moved on 2026-07-19/20
+
+**Favourable.** The gap equation is no longer a gap: k = ln(1 + π/2α_c)/π reconstructs **exactly**,
+Monte-Carlo confirmed, as the Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange in
+the particle-hole channel, with the screening constant b = 2α_c/π falling out of standard pieces and
+no chosen ones. And the channel itself is decided **host-independently**: a particle-particle
+condensate of two charge-e fermions would give the photon an Anderson–Higgs mass of ~9.5×10¹¹ eV
+against a bound of 10⁻¹⁸ — excluded by thirty orders — so particle-hole is forced, not preferred.
+Separately, α_c's scale is settled by data rather than choice: A_s selects 3α(0) at −0.4%, against
++28% at α(M_Z).
+
+**Adverse, and it is the same result read honestly.** That exact eight-digit reconstruction runs on a
+host **this corpus does not have** — finite chemical potential, Thomas–Fermi screening, two
+velocity-matched bands — while the recorded basement is a Fermi point at μ = 0, which §6a shows
+cannot pair at this coupling at all (subcritical by 22–67×). The hot reading, which *is* this
+corpus's own cosmology, misses the screening constant by 1.6–2× at every standard normalisation. So
+the agreement is evidence **for the conditions**, not a derivation from recorded structure, and the
+obvious rescue — the model's repeated "condensate at finite chemical potential" — does not apply:
+that μ is the dark condensate's at basin entry, sixty orders below. The anchor's precision claim is
+withdrawn with it: **1–8 TeV, not 1.57 TeV at 2.5%**, because ∂lnM/∂lnk = 33 amplifies every O(1).
+And the two bands must be velocity-matched to the percent level (∂lnM/∂r ≈ 11.6) with nothing yet
+supplying the match.
+
+**Adverse, second front.** The genesis draw does **not** pick a handedness, and this is now proven
+rather than suspected: the recorded Z4 tilt is invariant under θ → π/2 − θ while the charge L = R²θ̇
+is odd under it, so the uniform release prior splits exactly evenly at any tilt strength and under
+any CP phase. The chirality family therefore cannot deliver an absolute sign a priori — not pending a
+computation, but forbidden by a symmetry the model does not break. What could still rescue the
+cross-messenger test is the *correlation* between θ̇ and the winding, and no solver in the corpus can
+compute it: one carries time evolution without winding, the other winding without time evolution.
+
+**Process, and it belongs on this board rather than in a working log.** The reverse audit closed at
+110 of 110 completed tasks, with **eleven mis-grades** — every one of them in a *composite* task, and
+not one in roughly a hundred single-object checks. One registered prediction was amended on a
+misreading of the model's own §2(c) and had to be reversed by a second amendment. Two days of
+error-counting are filed at `ForJustin/13`, and the failure mode inverted between them: from
+over-claiming favourable results to over-claiming absences.
+
+**Operational.** The evidence run is **healthy, not stalled** — its thirty-three hours of silence are
+checkpoint interval one, since PolyChord writes every nlive = 400 iterations and `measure_speeds`
+built a 534-slice-step schedule. That confirms the 07-18 reading and sharpens it: **≥ 6 days before
+the ΛCDM twin**, which doubles it.
+
 **Odds the CORE picture is right: ~12–16%, roughly held** — the favourable closures and the two
 new exposures roughly cancel, and the deciding evidence is further off than it was. The DE closed form is real theoretical
 progress, but it rests on unproven new physics and does not solve the coincidence problem, and there is
