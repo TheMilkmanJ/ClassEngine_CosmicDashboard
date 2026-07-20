@@ -77,12 +77,21 @@ sharpened to a single external question.
 ## 4. The signature no one else can write down: THE SIGN
 
 Every other mechanism predicts a magnitude and (at best) a spectrum. This model's field
-inherits **magnetic helicity with a DETERMINED SIGN**: the vorticity that seeds B is the
-genome's own rotation, so
+inherits **magnetic helicity with a sign tied to the winding**: the vorticity that seeds B is
+the genome's own rotation, so
 
- sign(helicity_B) = sign(n) = the SAME topological draw that set matter-over-antimatter
- (the model's one quantum integer; the three-way convergence
- of matter asymmetry, helicity, and winding on a single draw).
+ sign(helicity_B) = sign(n) — the winding's own draw, carried through a sign chain
+ whose links 1–4 are laid (T14).
+
+**The third leg is owed, and the file states it rather than assuming it.** Reading that helicity
+back as *which* handedness means matter-over-antimatter needs one further link — the AD-direct
+rectification, sign(n) → matter-vs-antimatter — which
+[working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md) grades **[OWED —
+THE one missing link]**. The three-way convergence of matter asymmetry, helicity and winding on a
+single draw is therefore the *payoff* of that link, not a standing result: the asymmetry rides the
+temporal rotation θ̇ and the helicity rides the spatial winding n, and nothing yet identified forces
+them to share a sign. Until it lands, this sector predicts a helicity sign relative to the winding
+and cannot say which handedness the matter universe corresponds to.
 
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in
