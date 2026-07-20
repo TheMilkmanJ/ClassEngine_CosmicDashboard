@@ -156,7 +156,7 @@ Reference is the `upstream` remote, `lesgourg/class_public` at **e8580832** (202
 | `python/setup.py`, `python/external` | 3 | build wiring |
 | `source/thermodynamics.c` | 2 | **an error-message string only** |
 
-**`thermodynamics.c` carries no physics, and that is now verified rather than asserted.** Its entire
+**`thermodynamics.c` carries no physics.** Its entire
 difference from upstream is one `class_test` message gaining the failing condition as a prefix. The
 boundary section above states that the file consumes the varconst rescalings and contributes nothing
 of the model's; the diff confirms it.

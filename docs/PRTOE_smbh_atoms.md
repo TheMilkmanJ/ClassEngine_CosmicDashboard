@@ -93,9 +93,9 @@ to evade the band moves the radiation-to-matter onset and breaks the fit that fi
 spin systematics are genuinely disputed (disc-model and geometry assumptions dominate), which
 is where the honest uncertainty sits — not in the model's side of the calculation.
 
-**Grade: a named, live exposure.** This is the thread's own item 3, now computed rather than
-listed, and it joins the Galactic-Centre budget test as the second constraint that bears
-directly on the model's single ultralight input.
+**Grade: a named, live exposure.** This is the thread's own item 3, and it joins the
+Galactic-Centre budget test as the second constraint that bears directly on the model's single
+ultralight input.
 
 ## The self-interaction shield, computed — and it is not there (2026-07-20)
 

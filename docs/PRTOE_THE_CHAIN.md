@@ -111,8 +111,8 @@ the τ question closes by the chain's own structure, in two halves. The clusteri
 by construction: the fluid's linear sector is ΛCDM-identical, and its distinctive scales
 (granules, sub-parsec solitons) sit far below anything that sources reionization. The atomic
 half is gated by the edge itself: ε ramps OFF across z ~ 30–60, while τ's weight lives at
-z ≲ 10 — the coupling is closed several octaves before the ionizing era begins. **The margin is now
-computed rather than argued** (`scripts/reionization_dtau_ramp.py`, #186). Between recombination
+z ≲ 10 — the coupling is closed several octaves before the ionizing era begins.
+**The margin** (`scripts/reionization_dtau_ramp.py`): between recombination
 and reionization the gas is neutral apart from a frozen residual x_e ≈ 2×10⁻⁴, so the *entire*
 optical depth available across the ramp's tail is a ceiling on what any modification to it can
 contribute: **τ(z = 30–60) = 1.25×10⁻⁴ in total, which is 0.018 of Planck's ±0.007 even if the ramp
@@ -124,7 +124,7 @@ The bound is generous, and the reason is worth recording: under δm_e/m_e = ε t
 varying-constant scalings give σ_T ∝ m_e⁻² and α_B ∝ m_e⁻², while freeze-out sets x_e ∝ H/(n_H α_B)
 ∝ m_e⁺². **The product σ_T·x_e is m_e⁰ — the leading term cancels**, and what survives is the shift
 in the freeze-out redshift, which is subleading. So the true Δτ sits under the quoted bound rather
-than at it. The atomic half is closed; the estimate it rested on was right, and is now earned. What survives of the debt is otherwise the edge's SHAPE — whether its low tail leaks below
+than at it. The atomic half is closed. What survives of the debt is otherwise the edge's SHAPE — whether its low tail leaks below
 z ≈ 10 — and that is the same discriminator link 7 already measures in 21cm. The τ link is
 not a separate computation; it is the edge shape wearing a different observable.
 

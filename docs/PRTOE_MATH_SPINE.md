@@ -73,12 +73,42 @@ dark fields. What stays open is *which* v_L corner — TeV-class or MeV — and 
 scalar the dark-neutral bilinear |Ψ|² multiplies.** The standing operator is the
 quadratic-canonical m_e(φ) = m_e0(1 + κφ²), and the recorded roster of dark-U(1)-invariant
 couplings — |Ψ|², |Ψ|⁴, ∂_μΨ*∂^μΨ, J_μ — reaches δm_e only through |Ψ|², which is a total
-singlet: Lorentz-scalar, dark-neutral, gauge-neutral, **and L-neutral**. So it multiplies
-|Ψ|²·ψ̄ψ (the standing charged-lepton choice) and |Ψ|²·(LH)(LH)/Λ with independent
-coefficients, and lepton number screens neither — the Majoron's current couples to the phase,
-which a phase-blind |Ψ|² operator cannot see. What carries leptophilia here is **data**: BBN
-kills the quark bilinear at ≥ 12σ through the D/H quark→pion→deuteron channel. The symmetry
-argument that does bite is the reverse one — dark-U(1) forbids any coupling linear in Ψ.)
+singlet: Lorentz-scalar, dark-neutral, gauge-neutral, **and L-neutral**. What carries
+leptophilia here is **data**: BBN kills the quark bilinear at ≥ 12σ through the D/H
+quark→pion→deuteron channel; lepton number screens nothing, because the Majoron's current
+couples to the phase and a phase-blind |Ψ|² operator cannot see it. The symmetry that does bite
+runs the other way — it forces the portal **even** in the dark field, which is why the operator
+is quadratic-canonical rather than linear. The Standard-Model side of that portal is the
+flagship's one assumed step, and the block below states it.)
+
+> **THE PORTAL'S STANDARD-MODEL SIDE — the assumed step, stated (#125).** The dark side is
+> settled: the operator is even in the dyad field and |Ψ|² is its leading invariant. A dimension-2
+> dark singlet then has three couplings available, and they order by **dimension**, not by
+> preference:
+>
+> | the SM factor it multiplies | total dimension | what it delivers | status |
+> |---|---|---|---|
+> | **H†H** | 4 — the only renormalizable one | a Higgs-vev shift, so **every** mass including the quarks | excluded at ε (a universal shift is +12–18σ on D/H); its coefficient is bounded λ_p ≲ 5×10⁻¹¹…1×10⁻⁹ across f = 100–500 TeV |
+> | **ψ̄ψ**, the charged-lepton bilinear | 6 | δm_e alone — **the standing choice** | assumed |
+> | **(LH)(LH)**, the Weinberg operator | 7 | δm_ν alone; it cannot reach δm_e at any coefficient | not the deliverer |
+>
+> **Doing without the renormalizable one is affordable, and that is computed rather than asserted.**
+> The standing dimension-6 lepton operator feeds back into H†H through one electron loop at
+> λ_p ≤ 1.1×10⁻¹³ — three to six orders under the bound above across the whole f window and both
+> cutoff conventions — so the universal shift it induces reaches at most 2×10⁻³σ on D/H. Setting the
+> renormalizable portal aside costs no tuning inside the effective theory. What it assumes is that
+> the completion above f writes the lepton operator without the other two, which is the assumption
+> λ_dyad's origin already carries.
+>
+> **And the choice that is actually being made is finer than the roster's.** Writing the dark
+> bilinear into the lepton **doublet's normalization** — rather than into each mass operator
+> separately — correlates the two: the charged mass carries one power of L and the Weinberg operator
+> two, so δm_ν/m_ν = 2·δm_e/m_e exactly, one coefficient in place of two. Nothing selects between
+> that correlated point and independent coefficients — a gauge singlet couples to every Yukawa
+> operator with its own coefficient — and **nothing can**: inside the window the correlated point
+> moves each neutrino mass by 2ε, 1.5 meV on Σm_ν, while the sky measures the unshifted present-day
+> value, so the two readings are observationally identical. The pipeline runs the correlated point
+> (`background.c`, m_ν ∝ m_e²). **Grade: assumed** — docket #125, desk work with no external gate.
 
 The amplitude — the model's one distinctive number — assembled from three factors, each graded by a
 running instrument:
@@ -89,7 +119,11 @@ running instrument:
 > because their mass is medium-sourced rather than electroweak. **The value is data-selected, not
 > framework-forced:** the step that licenses a democratic count at all is open
 > ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1, the two-census marriage), and what the
-> value rests on independently is the ε-blind ensemble — c = 0.903 [0.867, 0.942], −0.08σ from 9/10;
+> value rests on independently is the ε-blind ensemble — c = 0.903 [0.867, 0.942], −0.08σ from 9/10.
+> **That ensemble confirms and does not select.** At its width it sits +0.53σ from the
+> neutrino-inclusive 12/13 and −0.38σ from the charge²-weighted 8/9, so it excludes neither; the
+> pre-registered width that would separate them is σ_c ≤ 0.0115, a 3.3× sharpening not yet in hand.
+> What picks 9/10 over 12/13 is the tie-as-lock argument, not the measurement;
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
 > winding's many-turn equidistribution; the coupling form is now data-selected (2026-07-16):
 > mass-positivity kills the signed average (⟨cos⟩=0), leading-order (Yukawa, linear) picks
@@ -385,8 +419,7 @@ price an equipartition reading of the dark-energy floor, one to test a bounce �
 So the BKL result rests on a relation the corpus had already validated elsewhere, not on a new
 claim introduced to settle this question.
 
-**So the objection is not merely unanswered, it is unanswerable from this sector.** That is a
-sharper and more adverse statement than the one above it, and it is the honest one. What remains
+**So the objection is not merely unanswered, it is unanswerable from this sector.** What remains
 open is whether some *other* component — not the rotating condensate — supplies w ≥ 1 at the
 approach; nothing in the recorded roster currently does.
 
