@@ -756,6 +756,11 @@ chk("hierarchy 6k", "M_F for the top (TeV)", 13.5, math.sqrt(_Lam_c**3/172.57)/1
 chk("hierarchy 6k", "M_F for the electron (TeV)", 7828.0, math.sqrt(_Lam_c**3/0.000511)/1000, 1e-2)
 chk("hierarchy 6k", "top-vs-K gap factor", 74.0, 1000.0/(math.sqrt(_Lam_c**3/172.57)/1000), 2e-2)
 
+# ---- hierarchy 6l: the anomalous-dimension requirement ----
+chk("hierarchy 6l", "gamma_m required to reach the K floor", 1.496,
+    math.log(172.57*1.0e6**2/3152.0**3)/math.log(1.0e6/3152.0), 1e-2)
+chk("hierarchy 6l", "gamma_m available at this coupling", 0.01045, 3*(3*ALPHA)/(2*math.pi), 1e-2)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

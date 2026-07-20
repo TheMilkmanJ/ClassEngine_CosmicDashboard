@@ -585,3 +585,32 @@ The modern alternative — partial compositeness, where the Standard Model fermi
 composite operators rather than through four-fermion terms — is not excluded and does relax the
 flavour bounds substantially. It is simply not something this corpus has built, and it would need
 the basement to supply composite operators for each Standard Model flavour to mix with.
+
+
+### 6l. Can any anomalous dimension close the flavour gap?
+
+§6k left walking unavailable at λ = 0.030 and §6j left weak coupling as what relieves S. That is
+only a real corner if no intermediate value serves, so the requirement is worth stating as a number.
+
+Walking enhances the condensate between the operator scale and the condensate scale by
+(M_F/Λ)^γ_m, so m_f ~ Λ³/M_F² · (M_F/Λ)^γ_m. Solving for the γ_m that puts the **top** at the
+K⁰-mixing floor of 1000 TeV:
+
+$$\gamma_m^{\rm required} = 1.496$$
+
+against γ_m ≈ 3α_c/2π = **0.0105** at this coupling — short by a factor **143**. Intermediate values
+do not rescue it either: γ_m = 1 still leaves M_F at 57.6 TeV, seventeen times below the floor, and
+only as γ_m → 2 — the unitarity bound, where ψ̄ψ reaches dimension 1 and the M_F dependence drops out
+of the relation altogether — does the constraint dissolve.
+
+**So the requirement is γ_m ≈ 1.5, squarely near-conformal, and the sector runs at λ = 0.030.** The
+two demands are not merely in tension; they are incompatible *within one sector*, because γ_m ≈ 1.5
+is a strong-coupling statement and S wants the opposite.
+
+**Which names the escape precisely.** The pairing sector and the flavour sector must be *different
+sectors* — the condensate that breaks electroweak symmetry pairing weakly, and whatever generates
+the Standard Model masses living elsewhere and coupling in. That is the partial-compositeness
+direction, and it is a real structural demand on the basement rather than a caveat: it needs
+composite operators for each Standard Model flavour to mix with, which the corpus does not have. The
+alternative is that the anchor's condensate is not what breaks electroweak symmetry at all — in
+which case §6b's channel result survives but its identification with the electroweak scale does not.
