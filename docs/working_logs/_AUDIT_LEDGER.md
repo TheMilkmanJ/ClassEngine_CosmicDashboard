@@ -2000,3 +2000,20 @@ supersessions, purge husks, head-vs-tail, era-percentages stuck to current numbe
 collisions, voice leaks, dangling pointers, count drifts, and one un-regenerable booking
 flagged open rather than silently resolved. Remaining work is owner-gated (ForJustin/09–12),
 run-gated (#43, #99, the chains), or new physics (#79, #101–104) — not audit debt.
+
+## Board reconciliation (2026-07-19, on the owner's verification question)
+
+**#104 CLOSED** — the owed transfer integral is run at estimate grade: the seat-trickle
+carrier killed at 26 orders (the pre-committed FAIL fired correctly); the era question settled
+definitively (h = λΨ₀²/m² = 4.0 — the λ-ceiling's own content — so the field is deep-frozen at
+T_sph and the junction is AC at θ̇/H = 2.4×10⁶); the z_x ≈ z_on watch EARNED as an identity of
+the recorded λ derivation; and the verdict lands AT the pre-committed 10² boundary
+(R_naive = H/θ̇ = 4.1×10⁻⁷ vs needed 5×10⁻⁵, factor 122) — η within ~10² of the need from
+recorded inputs and zero new numbers, with the residual factor being the rectification
+mechanism itself. That one object now carries four consumers (η's magnitude, η's sign, the
+θ_B ↔ helicity lock, and the boundary factor) — the sharpest compression the debt sheet has
+ever had. **#82 CLOSED as mooted** — the two-loop shooter served the perturbative T_c program
+that hunt 215 ended with a robust negative; the standing chain is kernel-sourced and
+lattice-refereed; there is no shooter to redesign. The board's ungated remainder after this
+reconciliation: #103 (one session), the rectification/first-roll computation (one session,
+four consumers), and #101 (no actionable step — idea-gated).
