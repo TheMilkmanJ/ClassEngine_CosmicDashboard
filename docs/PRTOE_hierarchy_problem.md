@@ -371,3 +371,36 @@ surface's position within Λ_shell ≤ E_F ≤ M_red, worth ≈ 1.6; and percent
 asymmetry, worth ≈ 1.1 per percent. Compounded, **the anchor is a few TeV to within a factor of a
 few** — call it 1 to 8 TeV — with the vertex correction dominating. Every piece of the mechanism is
 derived; the precision is what the truncation costs.
+
+
+### 6f. At what scale is α evaluated?
+
+Sizing the vertex correction turned up a larger question the chain has never asked. §6c's
+derivation treats α_c as an electromagnetic coupling — Coulomb exchange, Thomas–Fermi screening,
+e² = 4πα_c — and the pairing sits at a Fermi surface near M_red. **An electromagnetic coupling
+runs.** The corpus evaluates it at zero momentum.
+
+The leverage is the same 33× compounded with k's own response: ∂lnM/∂lnα_c = **25.8**.
+
+| α used | 1/α | k | M_anchor |
+|---|---|---|---|
+| **α(0) — as booked** | 137.036 | 1.3646 | **3152 GeV** |
+| α(M_Z) | 127.951 | 1.3431 | 1.76×10⁴ GeV |
+| naive extrapolation toward 10¹⁸ GeV | ~106 | 1.2841 | 1.22×10⁶ GeV |
+
+The 7.1% between α(0) and α(M_Z) is already a factor 5.6 on the anchor; running to the pairing
+scale is a factor of hundreds. **So the anchor's landing requires the zero-momentum value
+specifically, at a process eighteen orders above the scale that defines it.**
+
+The tension is sharp and it cuts both ways. If α_c is genuinely electromagnetic — which is what
+§6c's Coulomb kernel and Thomas–Fermi screening assume — then it must be evaluated at the pairing
+scale, and the anchor moves by orders. If instead α_c is a *medium* constant that happens to equal
+3α(0) numerically — which is how P-2026-040 registers it, as a value bet rather than an
+identification with running QED — then it need not run, but the Coulomb form and the screening
+that §6c derives its factor 2α_c/π from both need a separate justification, because they were
+imported from electromagnetism.
+
+Both readings cannot be held at once, and the chain currently holds both: the *kernel* is
+electromagnetic, the *coupling* is not allowed to run. Resolving that is now the single largest
+exposure in the hierarchy chain — larger than the vertex correction it was found while sizing, and
+larger than every O(1) in §6e.
