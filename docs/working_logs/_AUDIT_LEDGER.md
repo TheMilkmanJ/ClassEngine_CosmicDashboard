@@ -3235,3 +3235,33 @@ instruments today — f̄ graded candidate in the hunt while three authorities s
 graded derived in the tree while the hunt said candidate-referee-pending. Both were real and both
 touched flagship claims, which is why #152 is worth running properly rather than approximately. It
 stays open with the method recorded.
+
+### 2026-07-20 — #152 run by hand on the real overlap, and it closes
+
+The deferral above was right about the instrument and wrong about the scope. Most of the dependency
+tree's twenty-six rows are tree-only; the objects graded by *more than one* authority are a handful,
+and those can be compared by reading. Done:
+
+| object | tree | status ledger | verdict |
+|---|---|---|---|
+| c = 9/10 | derived | derived | concordant |
+| f̄ = 2/π | derived | derived | **was conflicting — fixed earlier today** (the hunt had it candidate against three authorities) |
+| α_c = 3α | registered bet | candidate (under test) | concordant — a registered bet under test is a candidate |
+| k = 1.36461 | derived conditionally | derived conditionally | concordant (both qualified today) |
+| A_s | candidate | candidate (count C unmechanized) | concordant |
+| n_s | candidate | mechanism candidate | concordant |
+| ρ_Λ = E_b⁴ | candidate — referee pending | CANDIDATE, not banked | **was conflicting — fixed today** (the tree had it derived) |
+| the gate curve ε(C) | candidate | the *form* "derived at class level" | concordant — the tree's own parents column carries the same split: form derived at class level, curve candidate |
+| the Koide kernel chain | candidate | listed on the open surface, awaiting the first-roll run and the lattice triple | concordant |
+
+**Result: two conflicts in the whole overlap, both found today by other instruments, both fixed, and
+both on flagship claims** — the amplitude's f̄ and the dark-energy value. Everything else agrees.
+
+**So the grade layer is thinner than the physics but not rotten.** The earlier read — "two hits from
+two probes suggests many more" — overestimated it: the two probes had between them already found
+*both* conflicts that exist in the overlap. Worth recording, because the instinct after finding two
+defects is to assume a field of them, and here the honest count is two.
+
+#152 closes. The exhaustive form — canonical-name resolution across all four authorities including
+tree-only and ledger-only rows — remains available if the corpus grows a third file that grades the
+same objects, but on today's corpus the overlap is what exists and it has been read.
