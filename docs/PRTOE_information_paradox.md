@@ -9,10 +9,13 @@ law's coefficient — **has that block removed**: the coefficient is the ratio o
 coefficients the same cutoff supplies, 12π/48π = 1/4 exactly, giving S = A/4G
 ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). *The curve itself is not thereby
 delivered* — the table below grades it "derived-conditional at the coefficient, owed at the curve",
-and the regulator's entanglement-side O(1) check gates it. **Status: structural dissolution plus a
-derived-conditional capstone** — conditional on the medium's Bogoliubov regulator returning
-O(1) = 1.0000 on the entanglement side as it already does on the induced-G side, which is one half
-of one computation and the sector's only remaining residue.*
+and the area law's field content gates it. **Status: structural dissolution plus a
+derived-conditional capstone** — conditional on the roster the model actually carries. The
+coefficients 12π and 48π are those of minimally coupled scalars, and with non-minimal coupling or
+spin the two divergences stop being one heat-kernel term, so the cancellation is not automatic; the
+fermion-sign hazard survives the ratio argument, because a ratio survives both its halves being
+wrong. That roster question is the sector's remaining residue, and it is **larger** than the O(1)
+regulator check it replaced.*
 
 ## 0. The paradox, and why it needs a singularity to bite
 

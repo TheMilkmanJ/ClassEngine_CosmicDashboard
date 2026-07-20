@@ -38,9 +38,11 @@ Sakharov stiffness. GIVEN the area law, Jacobson delivers Einstein's equations �
 part-paid: the medium reproduces its *scaling* independently, with the species count and the
 cutoff cancelling in the ratio, which is the universality the literature reports
 ([PRTOE_entropy.md](PRTOE_entropy.md) §3) — and the coefficient is supplied conditionally by
-the same structure (the heat-kernel ratio 12π/48π = 1/4), so the keystone debt is the
-Bogoliubov regulator's O(1) check on the entanglement side: one half of one computation,
-rather than a number or a law. The flag stands:
+the same structure (the heat-kernel ratio 12π/48π = 1/4), so the keystone debt is the **field
+content those coefficients assume** — 12π and 48π belong to minimally coupled scalars, and the
+cancellation does not extend to the roster the model carries, where non-minimal coupling and spin
+break the single-heat-kernel-term structure the ratio relies on. That is a structural question, not
+a number or a law. The flag stands:
 analog frames generically deliver linearized-plus, and the FULL nonlinear Einstein dynamics
 (graviton self-interaction to all orders) rests on the same address. **Thread: CONDITIONAL —
 perfect IF the keystone holds; the M3/basement compute is the cost.**

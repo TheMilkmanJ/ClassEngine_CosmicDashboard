@@ -108,8 +108,11 @@ the area law are in hand: the *scaling* from counting horizon entanglement acros
 coherence cells against induced gravity's inverse Newton constant (species count and cutoff cancel
 in the ratio — that cancellation is the universality), and the *coefficient* as the ratio of the
 two heat-kernel coefficients the same cutoff supplies, 12π/48π = **1/4 exactly**, giving S = A/4G
-([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). One residue: the Bogoliubov regulator's
-O(1) is run on the induced-G side and not yet explicitly on the entanglement side.
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). The residue is the field content those
+coefficients assume: 12π and 48π belong to minimally coupled scalars, and the cancellation does not
+extend to the roster the model carries — with non-minimal coupling or spin the two divergences stop
+being one heat-kernel term, and the fermion-sign hazard survives a ratio argument because a ratio
+survives both its halves being wrong.
 
 Hawking radiation survives: phonon Hawking emission from sonic horizons is standard
 analog-gravity physics (Unruh) — the exterior thermodynamics is inherited, not lost.

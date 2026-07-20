@@ -119,9 +119,13 @@ question it does answer.
  subdominant: with the recorded healing length it reaches ~10³⁶ k_B today against ~10¹⁰⁴ in
  black holes. The functional supplies the theorem and the mechanism, not the universe's
  entropy budget, and is stated that way.
-- **What is owed:** (ii) the regulator's O(1) check on the entanglement side — the area law
- itself is derived and its coefficient closed, so what remains is half of one computation, and
- the same payment closes the Page curve ([PRTOE_entropy.md](PRTOE_entropy.md)); (iii) "whatever
+- **What is owed:** (ii) the area law's field content — its coefficients 12π and 48π are the
+ heat-kernel coefficients of minimally coupled scalars, and the cancellation is derived for that
+ content only. It does not extend to the roster the model carries: with non-minimal coupling or
+ spin the two divergences stop being one heat-kernel term, and the fermion-sign hazard is
+ untouched by a ratio argument. **This roster question replaced the regulator's O(1) check and is
+ larger than it**, and the Page curve rides on the same payment
+ ([PRTOE_entropy.md](PRTOE_entropy.md)); (iii) "whatever
  begins, begins in the choice-free state" is a metaphysical premise made physical by the
  model's structure — flagged as the load-bearing philosophical joint.
 - **Falsifiers inherited:** any confirmed pre-genesis relic (kills the finite-past structure);

@@ -81,9 +81,16 @@ debt:
   value but the *ratio* of the two heat-kernel coefficients the same cutoff supplies: induced
   Newton at 1/G = N/(12πε²) against horizon entanglement at S = N·A/(48πε²), whose ratio is
   **12π/48π = 1/4 exactly**, giving S = A/4G ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md)
-  §4a). **The same payment closes the Page curve**, which was blocked on it. Conditional on the
-  medium's Bogoliubov regulator giving O(1) = 1.0000 on the entanglement side as it does on the
-  induced-G side — one half of one computation, outstanding.
+  §4a). **The same payment closes the Page curve**, which was blocked on it. **What that
+  derivation is conditional on, stated as its source states it:** 12π and 48π are the heat-kernel
+  coefficients *of minimally coupled scalars*, and the cancellation is derived for that field
+  content. It does **not** extend to the roster the model actually carries — for non-minimal
+  coupling and for fields with spin the two divergences stop being one heat-kernel term, so the
+  cancellation is not automatic. The recorded fermion-sign hazard, a fermion-dominated roster
+  driving naive 1/G wrong-signed, is untouched by the ratio argument, because a ratio survives
+  both its halves being wrong. **The roster question is the open item, and it is larger than the
+  O(1) regulator check it replaced** — so both the area law's coefficient and the Page-curve
+  closure that rides on it inherit it.
 - **λ (the quartic self-coupling)** — sets the core floor and the bounce density ρ_bounce. Its
   support requirement is now computed and comfortable: holding up the largest known black holes
   needs λ ≳ 8×10⁻⁹⁴, which the derived value clears by more than two orders. What stays owed is
