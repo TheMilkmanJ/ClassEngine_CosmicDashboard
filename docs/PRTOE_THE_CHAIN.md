@@ -135,8 +135,19 @@ to the edge-shape discriminator link 7 already carries — tether 7→8.)*
 **Checked-and-cold rooms (filed, no claims):** the condensation GW background (misses
 PTA both ways); the 511 keV line vs leptophilia (the transfer vertex is seesaw-tiny —
 cold by the recorded number, one honest look owed someday).
+**Quark flavour — NOT a principled silence, a quantitative one (corrected 2026-07-20, #125).**
+This chain listed "leptophilia is derived — the quarks' books are not ours" among the
+principled silences. That rested on the identity argument retired earlier the same day: Ψ
+carries L, so **|Ψ|² carries L = 0**, and the standing quadratic portal is L-neutral and
+phase-blind while the Majoron's tree coupling is to the *phase* — U(1)_L screens no quark
+bilinear. What actually keeps the quark channel away is **size, not symmetry**: two-EW/EM-loop
+suppression at ~(α/4π)², which is 20 000–31 000× short, backed by the row's own 12–18σ bound.
+The conclusion survives with four orders to spare — but a suppression is a *number*, and a
+number can be reopened by better data in a way a symmetry cannot. It belongs with the
+checked-and-cold rooms, not the constitutional ones.
+
 **Principled silences (not debts):** strong-CP, collapse dynamics, the jurisdiction
-clause, quark flavor detail (leptophilia is derived — the quarks' books are not ours), and
+clause, and
 **the CMB cold spot** — the anomaly family's machinery is anisotropic-Gaussian (axes, spectra,
 covariances) and a cold spot is localized, sign-definite and phase-coherent, so no link
 sources one; the distinctive route (a texture) is closed by the medium's order parameter —
