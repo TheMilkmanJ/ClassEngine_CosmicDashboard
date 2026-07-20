@@ -49,6 +49,33 @@ in the same tone as results reads honest.
 **9. Is the confidence earned?** For each strong claim: could a competent hostile reader knock it
 down with one question? If yes, either strengthen it or state the limit first.
 
+> **9a. Read the headings and lead sentences alone, against what the sections beneath them
+> establish.** This is the corpus's most repeated defect and it has its own signature: the
+> qualification is present and honest, and it arrives after the sentence a skimming reader would
+> quote. On 2026-07-19/20 it was found five times — `information_paradox` line 8 against line 60;
+> `cosmic_magnetism`'s DETERMINED SIGN against T14's open link; hierarchy **§6c's heading** claiming
+> what its own three conditions withdraw; **§6e's heading** ("Why the two bands screen equally")
+> against a body saying nothing supplies that match; and `igmf_helicity` **§1** asserting the
+> parity-lock that the same file's later sections show is unestablished. **Placement is a correctness
+> property when the claim is bold and the caveat is prose.**
+>
+> Headings are the worst case and the cheapest fix. They are what a referee quotes, they are written
+> before the section's conclusion is known, and they are edited least often because the body is where
+> the work happens. **When a section's finding changes, re-read its heading** — nothing else in the
+> file is as likely to be left behind, and a heading that survives its own refutation reads as a
+> claim the corpus still makes.
+>
+> **Do not try to automate this. It was tried on 2026-07-20 and it does not work.** A sweep for
+> assertive headings sitting over bodies that hedge repeatedly returned 31 candidates, and the two
+> strongest were the corpus's *best-behaved* sections: `koide_relation` §2, whose heading carries an
+> inline "honest status" and whose first body line is "Koide is one derived number away, modulo one
+> linkage that is not built"; and `quantum_gravity` §4a, which derives S = A/4G and then bounds it
+> under "What the medium contributes, and what it does not". Both were flagged **because** they hedge
+> honestly, which is the same textual signature as hedging late. The discriminator is whether the
+> caveat arrives before or after the sentence a skimmer would quote — an ordering judgement, not a
+> string. All five real instances were found by reading the file. **This check is a read, and pattern
+> matching on it produces false positives at a rate that will bury the real ones.**
+
 **10. Is the distinctive content actually distinctive?** A prediction indistinguishable from the
 generic expectation is not a prediction. Check the separation against the resolution of whatever
 would measure it.
