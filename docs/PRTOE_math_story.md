@@ -7,7 +7,7 @@
 
 *One narrative from t=0 to today, with the equation at each stage and an honest
 status flag on every piece. Supersedes the older PRTOE_SKELETON.md (archived; it pre-dates
-the regime change). Depth lives in PRTOE_me_trigger.md (§57–97),
+the regime change). Depth lives in PRTOE_me_trigger.md,
 [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md), and the predictions registry — this file is
 the map, not the territory. Status key: [DERIVED] [REGISTERED] [RECORDED] [CONDITIONAL]
 [OPEN].*
@@ -27,7 +27,7 @@ acquiring rotation (charge). Runs ONCE.
  [DERIVED mechanism (Room 1 identity = charged rotating superfluid);
  exact Ψ₀, f_amp OPEN — the genesis calc]
 
-## ACT 2 — The regime change: the one early coupling (§96)
+## ACT 2 — The regime change: the one early coupling (the trigger doc's epoch structure)
 Before condensation the medium is the NORMAL FRACTION — w = 1/3, radiation-like,
 **effectively massless**. With no ultralight mass to protect, naturalness does
 NOT forbid a direct matter coupling → space has ONE direct coupling to matter,
@@ -56,7 +56,7 @@ would radiatively destroy that mass — so **the early coupling is force-closed*
 and from here the medium couples to matter by GRAVITY ONLY (the census). The
 order parameter |Ψ| forms; thereafter it dilutes as dark matter.
  **μ = m ⇒ census ON (gravity-only); |Ψ| ~ a⁻³ᐟ² (afterwards)**
- Note (§95): the AD field is ~10⁵–10⁹× LARGER at BBN than recomb (R_eq ~ a⁻³ᐟ²),
+ Note (the trigger doc): the AD field is ~10⁵–10⁹× LARGER at BBN than recomb (R_eq ~ a⁻³ᐟ²),
  which is WHY any early-window effect had to ride the small normal fraction, not |Ψ| itself.
  [DERIVED basin-entry; field evolution confirmed by #11 (SHRINKS)]
 

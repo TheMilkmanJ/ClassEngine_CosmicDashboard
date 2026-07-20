@@ -1948,3 +1948,18 @@ The varied attack's first battery swept the forward corpus mechanically. Finding
    value bare. Clean sweeps: 0.3503 carries fork context in every forward home; cc's 1.955
    is artifact-priced in its own section; the CODE_MANIFEST/spine/scar 179s all sit inside
    their price blocks.
+
+## PASS 2, battery 3 (2026-07-19): count hedges + dangling §-pointers — four fixes
+
+1. **The "~15 angles" survivor**: the registry carried a SECOND home of the birefringence
+   count (:1211, the discriminator block) that the pass-1 three-way-split fix missed — now
+   cites the atlas's enumeration like its siblings. Lesson recorded: a value fixed at one
+   site must be grepped corpus-wide the same minute (the pass-1 fix did grep, but the
+   discriminator block's phrasing "~15 angles:" with a colon evaded the earlier pattern).
+2. **math_story's dead trigger-doc numbering ×3**: "(§57–97)", "(§96)", "(§95)" pointed at
+   me_trigger's OLD internal numbering — the file has 14 plain sections now and no §5x/§9x
+   labels anywhere. All three re-pointed at the file plainly, per the adjudicate-don't-restore
+   precedent.
+3. **False positives, recorded**: the spine's escaped headers ("## 6\.") fooled the §-regex —
+   neutrino_sector's pointers are fine; fairbank's "roughly three times the measured interval"
+   is legitimate estimate prose, not a count hedge.

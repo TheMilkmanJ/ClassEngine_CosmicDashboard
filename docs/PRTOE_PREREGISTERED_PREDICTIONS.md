@@ -1208,7 +1208,8 @@ loopholes a neutral-but-not-condensed sector might allow. Related: hardens the c
 ## P-2026-015: The cosmic-birefringence angle β adjudicates PRTOE vs axion dark energy (pre-registered 2026-07-08)
 
 **The claim (DISCRIMINATOR — a pre-registered interpretation built on the proven P-2026-009 null):**
-PRTOE predicts **β = 0 exactly** from the dark sector (P-2026-009, proven robust from ~15 angles:
+PRTOE predicts **β = 0 exactly** from the dark sector (P-2026-009, proven robust from every
+angle thrown at it — the interaction atlas enumerates the list:
 EM-neutral medium → anomaly coeff 0 → charge conservation + anomaly matching; the portal route is
 also a clean kill because the condensate Higgses the dark photon). The leading COMPETITOR class —
 **axion / rolling-scalar dark energy** — generically predicts a **nonzero** isotropic β (a rolling
