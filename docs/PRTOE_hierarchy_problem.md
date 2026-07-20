@@ -500,3 +500,38 @@ A_s and the test evaporates. So this argument rides C = 1 — which means **"the
 (4πk/α_c)³" and "α_c does not run" now stand or fall together.** They were previously independent
 claims; they are one joint now, and either one failing takes the other with it. That is a real
 tightening of the corpus's exposure and it is recorded as such rather than as a free win.
+
+
+### 6j. Electroweak precision — the reading's first confrontation with existing data
+
+§6b forces the anchor to be an electroweak-breaking condensate with the Higgs as its composite
+bound state. That inherits the constraint which killed classic technicolor, and it is the one place
+existing data can speak to this reading now rather than at HL-LHC.
+
+**The Peskin–Takeuchi S parameter.** The measured value is S = −0.01 ± 0.07 (U = 0), so
+|S| ≲ 0.14 at two sigma. A condensate breaking electroweak symmetry contributes through the vector
+resonances it generates, and vector dominance gives S ≈ 4πv²/M_ρ² with v = 246 GeV:
+
+| M_ρ | S | |
+|---|---|---|
+| 1576 GeV — the booked anchor | **0.307** | excluded at ≈ 4σ |
+| 2333 GeV | 0.140 | at the bound |
+| 3152 GeV — the exact-solution value (§6d) | **0.077** | allowed |
+| 5–8 TeV | 0.03–0.01 | comfortably allowed |
+
+**So electroweak precision requires M_ρ > 2.33 TeV**, and that is an independent line arriving at
+the same place the exact gap-equation solution does. The value obtained by *dropping* the
+exact-solution factor 2 — the booked 1576 GeV, and with it the clean identification with
+4πm_H = 1574 — is the one the data disfavours.
+
+**The escape, and why it is narrow.** S constrains the product g_ρ·f rather than the anchor alone:
+with M_ρ = g_ρ f and f ~ M_anchor, a coupling g_ρ ≳ 1.5 restores the booked value. But this sector
+is *weakly* coupled — λ = kα_c = 0.030, thirty-three times below a confining sector — and weak
+coupling argues for g_ρ near or below one, which tightens the bound rather than loosening it. The
+same weakness cuts the other way too, since a weakly-bound tower is broader and contributes less
+spectral weight than vector dominance assumes. Both effects are O(1) and neither is computed here,
+so this is a **constraint that disfavours the low end, not an exclusion.**
+
+**What it buys either way:** a falsifiable statement that is not HL-LHC-gated. If the composite
+reading is right, the lightest vector resonance sits above ≈ 2.3 TeV, and the anchor lives in the
+upper half of §6e's band rather than at 4πm_H.

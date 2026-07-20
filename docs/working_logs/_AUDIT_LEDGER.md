@@ -2473,3 +2473,29 @@ Dirac cone has v_e = v_h identically, so breaking r = 1 requires different bands
 far as it goes and backwards in consequence, since different bands are exactly what the two-pocket
 structure requires. Third instance today of a summary written in the direction I wanted; second one
 caught before it reached a physics file.
+
+### 2026-07-19 — #136: electroweak precision disfavours the booked anchor and selects the exact-solution value
+
+§6b's channel result commits the anchor to dynamical electroweak breaking with a composite Higgs,
+which inherits the constraint that killed classic technicolor. Priced today, and it is the first
+confrontation of this reading with *existing* data rather than with HL-LHC.
+
+Vector dominance gives S ≈ 4πv²/M_ρ² against the measured |S| ≲ 0.14 (S = −0.01 ± 0.07, U = 0):
+**S = 0.307 at the booked 1576 GeV (excluded at ≈ 4σ), 0.077 at the exact-solution 3152 GeV
+(allowed), and the bound is M_ρ > 2333 GeV.** So an independent line — electroweak precision, with
+no gap equation in it — arrives where the exact solution of the gap equation already pointed, and
+the value it disfavours is precisely the one obtained by dropping the exact-solution factor 2. The
+clean identification M_anchor = 4πm_H = 1574 GeV sits in the excluded region.
+
+**The escape is narrow and its direction is known.** S constrains g_ρ·f, so g_ρ ≳ 1.5 restores the
+booked value; but λ = kα_c = 0.030 is thirty-three times below a confining sector, and weak coupling
+argues for g_ρ ≲ 1, tightening rather than loosening. The same weakness also broadens the tower and
+lowers its spectral weight, which loosens. Both O(1), neither computed — so this is recorded as a
+**constraint disfavouring the low end, not an exclusion**, and #136 stays open on the two O(1)s.
+
+**A correction to my own first pass.** The initial script argued the resonance contribution is
+suppressed by (Δ/Λ_shell)² ≈ 3×10⁻²⁹ — placing the resonances at the *shell cutoff* rather than at
+the gap. Wrong: an EWSB condensate's vector resonances sit at the gap scale, so the suppression is
+(v/M_anchor)², which is 0.02–0.08 and entirely observable. The script flagged its own argument as
+"the same shape as the Migdal one I just rejected" before I acted on it, which is the first time
+today the check fired inside the computation rather than after it.
