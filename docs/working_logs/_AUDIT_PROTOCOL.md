@@ -83,9 +83,22 @@ down with one question? If yes, either strengthen it or state the limit first.
 > the instant a fourth appears, and counts are exactly what nobody re-greps. On 2026-07-20 adding one
 > condition to hierarchy §6c invalidated its own lead sentence *and* a cross-reference three
 > paragraphs above, both written by the same hand in the same hour. **After adding to or removing
-> from any enumerated list, grep the file for its cardinality words** — three/four/both/all — before
-> committing. It costs one command and it is the only instance of this defect that is fully
-> mechanical to catch.
+> from any enumerated list, re-read the paragraph that introduces it and grep the file for its
+> cardinality words.**
+>
+> **That was first written here as "the one instance of this defect that is fully mechanical to
+> catch". It is not, and the correction is worth more than the claim was.** A sweep was built the
+> same hour — find ordered lists, take their length, compare against count-words in the six lines
+> above. Across 141 live files it returned two hits and **both were false**: hierarchy §6c, where the
+> scanner broke on a display equation inside item 3 and undercounted a correct list; and
+> `white_holes`, where "holds **two** outright and deviates from **two**" counts subsets of a
+> correctly-introduced list of four. Zero true positives.
+>
+> So this check fails to mechanize for the same reason 9a does, and the reason is worth stating once:
+> **count-words in prose refer to many things, and list boundaries in markdown carrying mathematics
+> do not parse reliably.** Both attempts produced instruments whose output needed a human read to
+> triage, which is the work the instrument was supposed to save. Read the paragraph. Do not build the
+> third sweep.
 >
 > **Do not try to automate this. It was tried on 2026-07-20 and it does not work.** A sweep for
 > assertive headings sitting over bodies that hedge repeatedly returned 31 candidates, and the two
