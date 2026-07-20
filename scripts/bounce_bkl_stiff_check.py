@@ -184,3 +184,26 @@ if __name__ == "__main__":
     print("  VERDICT: the rotating sector cannot supply a BKL-safe stiff phase")
     print("  below the Planck scale. The objection is unanswerable from here,")
     print("  not merely unanswered.")
+
+    print()
+    print("=" * 74)
+    print("THE CONTRACTING BRANCH ON THE MODEL'S OWN (m, lambda) -- what eos it hits")
+    print("=" * 74)
+    m, lam = 2.24e-20, 2e-91          # recorded values (eV; lambda = (m/Psi0)^2)
+    Psi0 = m / np.sqrt(lam)
+    MPL = 1.22e28                     # eV
+    print(f"  Psi0 = m/sqrt(lambda) = {Psi0:.2e} eV = {Psi0/MPL:.1e} M_Pl (quartic=mass point)")
+    print(f"  {'R/Psi0':>9} {'h=lam R^2/m^2':>14} {'local n':>8} {'w':>8}")
+    for logr in (3, 1, 0, -1, -3):
+        R = Psi0 * 10.0**logr
+        h = lam * R**2 / m**2
+        n_local = (2 * m**2 * R**2 + 4 * lam * R**4) / (m**2 * R**2 + lam * R**4)
+        w = (n_local - 2) / (n_local + 2)
+        print(f"  {10.0**logr:>9.0e} {h:>14.2e} {n_local:>8.3f} {w:>8.4f}")
+    print()
+    print("  The contracting branch passes through w = 1/3 (quartic youth) into")
+    print("  w = 0 (mass era) -- the same sequence as expansion, reversed -- and")
+    print("  never stiffens: the quartic=mass point Psi0 is itself sub-Planckian,")
+    print("  and kination needs ~M_Pl amplitude that contraction does not reach")
+    print("  before the bounce. So solving the field equation in time returns the")
+    print("  SAME adverse BKL verdict; it does not rescue the bounce.")

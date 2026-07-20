@@ -424,6 +424,18 @@ claim introduced to settle this question.
 open is whether some *other* component — not the rotating condensate — supplies w ≥ 1 at the
 approach; nothing in the recorded roster currently does.
 
+**The contracting branch's own equation of state, walked on the recorded (m, λ).** The debt named
+above — that the bounce needs the field equation solved in time, not just the expansion
+parametrized — is discharged for the *approach*: on the recorded potential V = m²R² + λR⁴ the
+contracting field passes through **w = 1/3** while quartic-dominated and **w = 0** once
+mass-dominated, the same radiation-into-matter sequence as expansion run backward, and it never
+stiffens. The quartic-to-mass crossover Ψ₀ = m/√λ is itself sub-Planckian (≈4×10⁻³ M_Pl), and
+kination would need an amplitude of order M_Pl that contraction does not reach before the bounce
+density. So solving the equation in time returns the *same* adverse verdict rather than a new
+regime — the contracting branch is computed, and BKL stands against it. What stays genuinely open
+is unchanged: whether the bounce itself introduces a stiff component, which is a question about the
+bounce mechanism the model does not yet carry, not about the branch that leads into it.
+
 ## 8\. The two-jobs pattern — and where the code reflects it
 
 Every transition is ONE clock with TWO jobs — the ending regime reaches its floor, the starting
