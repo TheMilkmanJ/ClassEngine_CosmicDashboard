@@ -72,3 +72,39 @@ with the three factors:
 *Stage 2 (the computation session): decide fork #1 structurally, compute Δθ(T) via the
 AC-relation, run the weighted integral with the ramped shutoff, and grade against the
 acceptance conditions. Inputs above; nothing else should need archaeology.*
+
+## STAGE 2 (2026-07-19, same day) — fork #1 decided, the AC analysis run, and a three-way convergence
+
+**Fork #1 — decided structurally, before any number (per the acceptance protocol).** The
+junction must carry lepton number; the census portal is L-blind and DISQUALIFIED. Of the two
+L-carriers, the μ-term is the recorded low-energy face of the tenth channel (the hunt grades μ
+as downstream, not independent), so **the junction is the tenth-channel seat term** — the one
+L-carrying operator with an exhibited UV form above v_L. One candidate, no choice left.
+
+**The AC analysis — the frozen era's phase is self-clocking, and it forces a rectifier.**
+Charge conservation in comoving volume (θ̇·r²·a³ = const) means the frozen-amplitude condensate
+never stops rotating: θ̇ ∝ T³ through the frozen era, so θ̇/H ∝ T — FASTEST at the sphaleron
+era. The junction therefore sits in the rapid-winding (AC) regime at exactly the epoch that
+matters, and **a pure AC junction current transfers zero net charge**: the integral's net
+transfer rides entirely on the rectified component R(T) of the winding current. The
+transmission is not a coupling strength — it is a rectification efficiency.
+
+**The convergence — one object, now owed by three consumers.** The rectifier demanded here is
+verbatim T14's link 5 (the AD-direct rectification: which handedness means matter won) and the
+first-roll sign run's companion. After this pass, ONE mechanism carries: (i) η's magnitude
+weighting (this integral's R), (ii) η's sign (T14's map), and (iii) the θ_B ↔ helicity lock
+(the sign-chain walk's product sign(μ·n)). Three consumers, one owed computation — the debt
+sheet compresses again, in the direction the master-computes table predicted (M2's cluster).
+
+**The stage-3 check, named sharply (the falsifiable core):** the needed transmission is
+~5×10⁻⁵ (the reservoir's 1.9×10⁴ headroom against η ≈ 6×10⁻¹⁰), and the natural rapid-winding
+rectification scale is R ~ H/θ̇ at T_sph. **If recorded genesis inputs put H/θ̇(131.7 GeV) in
+the 10⁻⁴–10⁻⁵ decade, the whole baryon asymmetry lands with no new numbers** — magnitude from
+the winding-rate ratio, sign from the rectification's handedness. If they put it orders away,
+the junction current is not the carrier and the FAIL condition fires as pre-committed. That
+one ratio, from Ψ₀/m/Q's recorded values, is the computation session's opening move.
+
+*Grade: fork decided (structural), the AC/rectifier structure derived (charge conservation +
+junction grammar, no new assumptions), the convergence recorded, the decisive ratio named.
+Stage 3 = the session-scale run: H/θ̇ at T_sph from genesis inputs, then the weighted integral
+with the ramped shutoff.*
