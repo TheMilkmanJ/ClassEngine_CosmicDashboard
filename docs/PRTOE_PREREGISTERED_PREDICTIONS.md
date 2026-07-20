@@ -2029,8 +2029,11 @@ survives: the minimal solutions sit at 1–3 TeV.
 
 **CURRENT STATUS (2026-07-12): SUSPENDED-ADVERSE — read the amendments in order.** The
 one-loop band was suspended (two-loop shift); shooter v2 lands the census triplets
-at 13–20 TeV (beyond HL-LHC); the edge-convention audit (the working docket) decides whether the
-census arrow fell or the convention did. The type-III identification and the seesaw duty
+at 13–20 TeV (beyond HL-LHC). **The edge-convention audit CONCLUDED 2026-07-20 (#124): the
+census arrow fell, not the convention.** The vertex correction it waited on was computed
+(#141, c = 0.789262 by integral), and it moves the anchor *down* by e^(−c) = 0.454 — band
+1–8 TeV → 0.73–2.4 TeV, i.e. further below the shooter, widening the tightest gap from 1.6×
+to 5.4×. No edge convention closes a gap a computation has just widened. The type-III identification and the seesaw duty
 survive; the ~1 TeV collider knife-edge does not, at current grade.
 
 **The claim:** the induced-gauge closure (the joint solve), duty-pinned by the model's
@@ -2314,7 +2317,9 @@ edge moving off z ≈ 50 enough to exit decoupling (breaks the mechanism).
 ## REGISTRY STATUS REVIEW (2026-07-12, consolidated — the anti-staleness block)
 - **P-2026-039** (type-III triplets ~1 TeV): SUSPENDED (two-loop) → shooter v2
  now lands the census triplets at 13–20 TeV under edge-matching: the collider-visible
- branch is ADVERSE-LEANING pending the edge-convention audit.
+ branch is **ADVERSE, no longer pending**: the edge-convention audit concluded 2026-07-20
+ (#124) with the arrow fallen rather than the convention, and the collider-visible branch
+ sits 5.4–27× above the corrected anchor band.
 - **P-2026-040** (α_c = 3α): LIVE — graded by the dispersion α_c chain; the z_on corollary's
  lineup awaits the two-clock re-derivation; the triangle (M₂, x₀, ρ_Λ) rides this chain.
 - **P-2026-041** (f̄ = 2/π): DERIVED — the genesis winding's roll-up, with the coupling form
@@ -2323,6 +2328,19 @@ edge moving off z ≈ 50 enough to exit decoupling (breaks the mechanism).
  retrial runs.
 - **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND (the S-parameter tension reported in amendment 2 was withdrawn by amendment 3 — it rested on a composite-Higgs reading this model does not hold); arrow C (the census
  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
+ C fell or the convention did. **CONCLUDED 2026-07-20 (#124): the arrow fell, not the
+ convention.** The audit could not conclude while the anchor was a band whose width came from an
+ uncomputed vertex correction — that correction has now been evaluated as an integral rather than
+ argued (#141: the crossed box gives c = 0.789262, positive, converged to 11 digits and validated
+ against the Gor'kov–Melik-Barkhudarov constant to 5×10⁻¹¹). It moves the anchor **down** by
+ e^(−c) = 0.454, collapsing the band from 1–8 TeV to **0.73–2.4 TeV** — i.e. *away* from the
+ shooter, not toward it. The minimum gap therefore widens from 1.6× to **5.4× at the band's top
+ edge**, and runs to 27× at its bottom, a **3.3× widening** of the tightest reading. No convention
+ choice reconciles 13–20 TeV with a band that a computation has just pushed further below it, so
+ the strain is a fact about the census arrow and not about edge-matching. **One reservation, and it
+ is the same one #141 records:** the Fock self-energy insertion sits at the same order and is
+ uncomputed (#183); in Eliashberg-class treatments it partially cancels the vertex term, so a
+ substantial cancellation would move the band back up and re-open this sizing.
  C fell or the convention did. **Re-sized 2026-07-20:** that strain was measured against the
  anchor as a point value (1.57 TeV), which the amendment above withdraws in favour of a 1–8 TeV
  band. Against the band the gap is 1.6× at the top edge and 13× at the bottom, so **the audit is
