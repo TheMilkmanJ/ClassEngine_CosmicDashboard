@@ -3201,6 +3201,31 @@ because an absence produces no contradiction to trip over.
 **#148 closes at 110 of 110.** Eleven mis-grades total across nine waves and five subagent batches:
 #29, #51, #55, #59, #76, #78, #92, #93, #95, #143, #33. Four unverified: #22, #24, #68, #33.
 
+**The four unverified, resolved (#171, 2026-07-20) — and three of them share one cause.** Commit
+`0315894d` (2026-07-16, "Rewrite the derivation hunt as a professional status document") replaced an
+8 676-line `PRTOE_DERIVATION_HUNT.md` with 605 lines — **101 insertions against 8 635 deletions** —
+under the message *"Every live finding preserved; the full raw development record remains in git
+history (recoverable)."* The second clause is true. The first is false: the rewrite deleted #22's
+delivered section, #24's completion record, and the sentence #33's docket title was quoted from.
+Every audit after it searched the tree at HEAD, found nothing, and booked "unverified" — correct for
+the tree searched, wrong on the merits.
+
+- **#33 — CLOSED CORRECTLY.** `scripts/response_function_session.py:2` self-names as Task #33 and
+  reproduces its commit's numbers; route B's physics is live at `PRTOE_FAILURES_LEDGER.md:564` and
+  `PRTOE_scale_ladder.md:72`. The charge that it "has no home" came from a `docs/`-only sweep — the
+  object is in `scripts/`. Its title's phrase, "one function, two limits, one locked ratio", occurred
+  exactly once in the pre-rewrite corpus and went with the rewrite; **the title outlived its source.**
+  This is the §"a negative grep is only as good as its scope" failure, committed in the paragraph
+  above that warning. Remove #33 from both lists.
+- **#24 — CLOSED CORRECTLY**, object recoverable only from git (`a6220e81`); its live yield survives
+  as P-2026-043.
+- **#68 — owner-gated**, the named Q1/Q2 cross-check input never arrived in that form; the audition
+  landed three other artifacts instead.
+- **#22 — the one real mis-grade. REOPENED.** Its lever was "α_c = 3α counts the three flavours",
+  and that receipt was retired afterward at `PRTOE_DERIVATION_HUNT.md:256` — the 3 is the spatial
+  dimension, with :258 calling the flavour reading a false receipt. Reopening is a re-scope, not a
+  re-run. Recovery of the dropped content is docket **#179**.
+
 ### 2026-07-20 — check 9a spot-checked on three untouched files, and all three pass
 
 Having named the heading-vs-body defect and swept for it, the honest follow-up is what the sweep
