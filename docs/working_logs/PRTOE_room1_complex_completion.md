@@ -2,6 +2,17 @@
 
 # Room 1: The Complex Completion (expedition log, opened 2026-07-07 night)
 
+> **ERA NOTE (2026-07-19):** three of this log's numbers moved after it closed. (1) The A1
+> mass band [1, 3]×10⁻²¹ eV was superseded by the standing three-pin determination
+> **m = 2.24×10⁻²⁰ eV** (ξ = 402 AU, the Schive radius, the superradiance window) — every
+> mass-gated conclusion herein survives or strengthens at the standing mass (PTA deader
+> still; τ_Q exact with more margin; the M87* exclusion sits safely below), while A5's
+> condensation-time table is era-bound (τ ∝ m³). (2) The dice/f_amp program matured into
+> the standing derivation **f̄ = 2/π** (the winding's time-average; "f_amp" is the retired
+> decomposition's name) — the ergodic backbone here is that derivation's ancestor, and the
+> granule ε-meter remains the sim-gated readout exactly as A4a/A5a book it. (3) E2.5's
+> λ ~ 10⁻⁸⁸ tightened to the standing isocurvature ceiling **λ ≤ 2×10⁻⁹¹**.
+
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*

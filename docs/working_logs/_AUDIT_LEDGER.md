@@ -1885,3 +1885,25 @@ line. One leak sealed with the dated header: the pivot pointer made explicit, an
 other. The ξ→ζ notation note was already in place. Nothing else needed: §2 stands as the
 historical claim under test, the failed attacks are recorded by their own authors, and the
 Rule-6 provenance audit is itself a model of the audit discipline this ledger enforces.
+
+## PRTOE_room1_complex_completion.md — deep audit 2026-07-19 (transcripts tier, 5 of 5 — THE TIER CLOSES)
+
+Read whole (1013 lines). The best self-policing document in the corpus: its own morning
+reconciliation audit (A1–A6a) diagnosed five booked fragments as one un-pinned mass wearing
+five costumes, killed its own PTA detection table and collision odds by the mass gate, restored
+its own frozen-ellipticity theorem after pricing the leak, and cite-verified its own labels
+(the Dalal–Kravtsov vs superradiance correction). The lab-log banner and provenance pointers
+were already in place. One era note added for the three numbers that moved after it closed:
+the A1 band superseded by the standing three-pin m = 2.24×10⁻²⁰ (every mass-gated conclusion
+survives or strengthens; A5's condensation table era-bound), the dice/f_amp program matured
+into the standing f̄ = 2/π derivation (the ergodic backbone as its ancestor), and λ's ceiling
+tightened to 2×10⁻⁹¹. The granule ε-meter's make-or-break booking (A4a/A5a) stands verbatim
+as the sim-gated readout.
+
+**THE WORKING-LOGS TIER IS COMPLETE**: all sixteen T-owed files reconciled, all indices and
+master tables fixed, the protocol's own header corrected, the morning report's escalations
+closed (ForJustin/11 carrying the quarter that needs the owner), and all five transcripts
+read whole under the leak standard with dated headers sealing every era leak found. With the
+docs tail (97 files) this completes pass 1 of the deep audit across the entire corpus.
+Remaining: pass 2 (the varied attack on the 07-07→07-16 maintained band), owner-gated items,
+and the run-gated shelf.
