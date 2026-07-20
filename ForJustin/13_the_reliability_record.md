@@ -1,9 +1,14 @@
-# 13 — What my error rate looked like on 2026-07-19, and what it implies for auditing me
+# 13 — What my error rate actually looks like, measured, and where to point an audit
 
-**Filed at the owner's direction, for the audits to come.** This is not an apology note; it is a
-sample. One long session, one topic (the hierarchy chain's gap equation), and a full count of every
-error I made and how each was caught. The useful content is the *pattern*, because it tells you
-where to point the next audit.
+**Filed at the owner's direction, for the audits to come.** Not an apology note — a measurement.
+Two full days counted the same way: every error made, how each was caught, and which direction it
+ran. The useful content is the *pattern*, and the two samples do not have the same one, which is
+itself the finding. **The first sample is below; the second follows it, and the failure mode
+inverts.**
+
+---
+
+# The first sample: 2026-07-19 (the hierarchy chain's gap equation)
 
 ## The count
 
@@ -76,3 +81,64 @@ is *read the file whole*; I ran it last.
 Everything above is in `working_logs/_AUDIT_LEDGER.md` at full length, entry by entry, including the
 arguments that were rejected before they reached a physics file. The ledger is the primary record;
 this is the summary.
+
+---
+
+# The second sample: 2026-07-20, and the failure mode inverts
+
+A second full day, deliberately measured the same way. **The profile changed, and the change is the
+useful part.**
+
+## What happened
+
+**One error reached you before it was caught, and it is the one to weigh.** I reported the PolyChord
+evidence run as *"a decision, not a watch"* — thirty-two hours of zero output, four ranks burning
+CPU, escalated to you as possible failure. Then I read the sampler's configuration, which I had not
+done before escalating. PolyChord checkpoints every `update_files` = nlive = 400 iterations, and
+`measure_speeds` had built a four-block hierarchy at 534 slice steps per live point. **Thirty-two
+hours of silence was the expected appearance of a healthy run inside its first checkpoint interval.**
+I corrected it within the hour, unprompted, but you had already been told something wrong about the
+most expensive object on the board. The lesson is narrow and it is not about samplers: **grading
+silence requires knowing the writer's cadence, and I graded before I checked it.**
+
+**Five more were caught before they reached anything.**
+
+| what I nearly booked | why it was wrong | what caught it |
+|---|---|---|
+| a finite chemical potential for the basement, unlocking the hierarchy's conditional derivation | the corpus's "condensate at finite chemical potential" is the *dark* condensate at basin entry — 2.24×10⁻²⁰ eV, sixty orders below the Planck-floor basement | reading which object the phrase names, because the answer was one I wanted |
+| a real CP-phase rectification in the genesis draw (residuals ~10⁻² where theory says exactly zero) | the sampling grid was centred on π/4 while the phase moves the symmetry axis to π/4 − δ/4, so the draws stopped pairing | testing the mirror **pair** directly — two integrations — instead of the sum |
+| #36 graded UNVERIFIED, its object missing | its home is in `working_logs/`; I had searched `docs/*.md` | widening the search before booking the absence |
+| "30/30 from the recorded solver" | the recorded solver's own grid gives 12/12; 30/30 was a separate finer scan | the protocol's check 12, read-the-file-whole, on my own newest prose |
+| an automated sweep for the heading-vs-body defect | it flags honest files, which hedge in the body, identically to late-hedging ones | running it and reading the top hits, which were the corpus's *best* sections |
+
+## The pattern, and how it differs from the first sample
+
+**On 2026-07-19 every error ran in the direction I wanted. On 2026-07-20 three of six ran the other
+way** — I nearly under-claimed #36, nearly reported a healthy run as broken, and nearly took a
+grid artifact as a real physical asymmetry that would have been *adverse* to a clean result. The
+first sample's lesson was "I check hardest when I dislike the answer." That reflex now fires, and it
+has a cost the first sample could not show: **it produces confident negatives.**
+
+**Over-claiming a negative is the cheaper error to commit and the harder one to catch**, because an
+absence generates no contradiction to trip over. A wrong positive eventually collides with something;
+a wrong "this does not exist" simply sits there looking like diligence. Both instances today —
+#36 and the sampler — were absences read as verdicts.
+
+## What to point an audit at now
+
+1. **Anything I reported as missing, absent, stuck, or unsupplied.** This is the new one, and it is
+   the mirror of the first sample's advice. Check the scope of whatever search produced the absence.
+2. **Anything I escalated urgently.** The one error that reached you was an urgent escalation, and
+   urgency is exactly when the check gets skipped.
+3. **Still not the arithmetic.** 327 harness checks pass; every numeric slip in two days was caught
+   by recomputation. Two samples now agree: the arithmetic is the reliable layer.
+
+## What I would stake most and least on, from this day
+
+- **Most:** the genesis roll does not select a handedness. It is a symmetry of the recorded tilt, it
+  holds for any tilt strength and any CP phase, and it was verified three independent ways to machine
+  precision. It is also *adverse* to the model's more interesting reading, which is part of why I
+  trust it.
+- **Least:** the six-day floor on the evidence run. It rests on one completed nested run from June as
+  the only benchmark, and on inferring per-iteration cost from a checkpoint that has not yet
+  happened. It is an estimate wearing a number's clothes.
