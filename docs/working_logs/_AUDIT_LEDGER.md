@@ -2171,3 +2171,40 @@ corrected constant instead lands *exactly*. Recording it because the error class
 corpus is most exposed to: an O(1) convention slip inside a quantity the anchor reads at
 33× leverage. Four checks added to the harness (now 322), including the screening constant, both
 measure options, and the sensitivity itself.
+
+### 2026-07-19 — k IS DERIVED. And the entry above it was wrong.
+
+The earlier entry today concluded that the gap equation's angular measure is undetermined, that
+the booked k = 1.36461 rides a θ ≤ π/2 convention, and that the anchor's +0.14% is "a consequence
+of the cut, not evidence for it." **That conclusion is withdrawn — it was my error, twice over.**
+
+**Error 1: the ∫₀¹ is not a cut.** In the natural transfer variable u ≡ q²/q_max² = q²/(4k_F²) =
+sin²(θ/2), the solid-angle average is *exactly* ∫dΩ/4π = ∫₀¹du, because du = sin θ dθ/2. The
+corpus's ∫₀¹ is the whole Fermi surface written in the variable whose range is unity. I read it in
+a variable where the range is [0,2], saw the upper limit 1, and called half a sphere a cut.
+
+**Error 2: one band screening instead of two.** Thomas–Fermi gives m_D² = e²·N_screen, and a
+particle-hole condensate has *two* bands at the surface — both polarise, so N_screen = 2N₀. The
+pair itself is one electron and one hole, so the gap equation's own DOS is N₀. That 2-for-screening,
+1-for-pairing asymmetry is the defining structure of the channel §6b selected, and it gives
+b = m_D²/4k_F² = 2α_c/π exactly.
+
+**With both corrected the derivation closes:** λ = N₀⟨V⟩_FS = (α_c/π)ln(1 + 1/b) =
+(α_c/π)ln(1 + π/2α_c) = kα_c with **k = 1.36461191 against the booked 1.36461191** — every digit,
+nothing fitted — and the anchor at 1576.1 GeV against 4πm_H = 1573.9, +0.14%. Verified three ways:
+the measure identity to ten decimals, λ computed independently in the u and θ variables (identical
+to 10⁻¹²), and the closed form to zero difference.
+
+**So the hierarchy chain's status changes.** k was the last adopted piece; it is now derived from
+Thomas–Fermi screening in the channel §6b forces. The exponential form, the coupling, the screening
+constant and the measure are all sourced. What remains is docketed as three computations rather
+than assumptions: the bend-over's true density of states (#137 — §6c uses the *cone's* N₀ while
+§6a puts the shell at the bend-over), what fixes k_F and hence that the cutoff is M_red (#138), and
+the rainbow truncation plus the equal-band DOS assumption (#139).
+
+**On the two errors.** Both were mine, both were O(1) framing rather than arithmetic, and both were
+caught only by recomputing the same object a second way. Earlier today the same class produced a
+Gaussian/Heaviside slip in the same quantity. Three instances in one session, all in the factor-of-2
+and normalisation layer of a number the anchor reads at 33× leverage. The lesson is not "be careful"
+but structural: **any O(1) entering k must be computed twice in different variables before it is
+booked**, because the harness cannot see a convention — it only checks the arithmetic it is given.
