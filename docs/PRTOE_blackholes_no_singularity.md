@@ -4,8 +4,8 @@
 
 
 *Derivation-from-recorded-structure. Every load-bearing input cites a graded recorded object; owed
-items are flagged. Status: structurally complete — the core, the horizon, and the entropy all
-land; what remains is λ's bounce-density number and one optional observable.
+items are flagged. Status: structurally complete — the core, the horizon, the entropy, and the
+core-density ceiling all land; what remains is one optional observable.
 The exterior is unchanged (horizons, shadows, P-2026-005 intact); this document is about what
 replaces the singular interior, with the actual numbers.*
 
@@ -87,8 +87,10 @@ requirement ~13× smaller). The honest statement uses the tighter convention: th
 looser normalization. Either way, any repulsive radial self-coupling of the condensate clears it. (This is the repulsive
 *amplitude* quartic, distinct from the tiny *attractive* axion/phase coupling that sets the
 isocurvature — §on λ.) In the Thomas–Fermi regime the core radius is mass-independent and the
-central density scales as ρ_c ∝ M — **finite for all astrophysical M**. There is no mass in the
-observed universe that this medium must crush to a point.
+central density scales as ρ_c ∝ M, saturating at the relativistic ceiling ρ_c ~ m⁴/λ ≈
+2.9×10⁻⁷ g/cm³ ≈ (1.1 keV)⁴ at the maximum-mass anchor M ≈ 2×10¹⁰ M☉ — **finite for all
+astrophysical M**, ~100 orders below the Planck density (`scripts/rho_bounce.py`). There is no mass
+in the observed universe that this medium must crush to a point.
 
 ## 4. Pillar three: the Landau ceiling — where the horizon comes from and where the energy goes
 
