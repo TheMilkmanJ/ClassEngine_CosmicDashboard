@@ -163,7 +163,8 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   — **the size-XOR-quiet wall (gate-0 §7.3) recurring: a dyad big enough to source ε thermalises;
   one quiet enough not to cannot source ε.** **(iii)** The corpus's own identification (the dyad IS
   the SU(2) sector's chiral condensate, §6) drags the full 27 dof in: ΔN_eff = 27/(7/4) = **15.4**;
-  even a detached thermalised dyad alone gives 4/7 = **0.571** > Planck's 0.3. **(iv) The timing
+  even a detached thermalised dyad alone gives 8/7 = **1.14** (complex Ψ — the tribunal's U(1)
+  seal; the real-scalar half, 0.571, was the charitable floor) > Planck's 0.3. **(iv) The timing
   pincer (normalization-independent):** the BBN engine codes the ramp on T_γ with T_c ≈ 177–179 keV (the books are insensitive at this level);
   synchrony requires ζ = T_dark/T_γ = 1 (⟹ ΔN_eff = 15.4); the priced dilution ζ = 0.465 puts dark
   confinement at T_γ = 385 keV and the escape's ζ ≤ 0.284 at ≥ 630 keV — desynchronising the coded

@@ -204,7 +204,8 @@ up into the 2.407–2.463 range quoted above. The prediction is built in two ste
 | the dyad's nucleosynthesis window, +0.645% | 2.387 | −2.49σ |
 
 **The new physics acting during nucleosynthesis helps.** The electron-mass ramp switches on at
-T_c ≈ 179 keV and raises D/H by 0.645%, worth +0.27σ toward the measurement. Grafted onto the ΛCDM
+T_c ≈ 179 keV (the derived value is 177.10 keV; the abundances are insensitive at this level)
+and raises D/H by 0.645%, worth +0.27σ toward the measurement. Grafted onto the ΛCDM
 control alone it would give −1.63σ, better than the control's −1.90σ — though that is a
 decomposition rather than an available configuration, since the window and the baryon shift are the
 same ε acting at two epochs and the model cannot have one without the other. The point it

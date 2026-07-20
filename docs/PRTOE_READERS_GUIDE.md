@@ -31,6 +31,7 @@ term, and gives the reading order.*
 | the amplitude / ε | the fractional electron-mass shift. Two numbers appear deliberately: **1.2543%** is the derived stack (c·f̄·α_c = 27α/5π), **~1.24%** the sky's fitted value. The ~1.8% gap between them sits inside the posterior width and is what the running chains grade |
 | the dyad | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of the model's THREE dark fields (the dCDF superfluid, the dyad, the Majoron); in older documents "the dyad" named the (dark fluid + varying-m_e) pair |
 | the winding / n / the draw | the quantized phase winding number, set stochastically (Kibble mechanism) at the condensation transition |
+| f_amp (two senses — read carefully) | RETIRED as the amplitude-decomposition factor (ε = c·f_amp·Ψ₀/M_red died; the standing object is f̄ = 2/π). Still LIVE as the medium's **librating fraction** (1 − f_rot): the dice output, the granule-contrast dial p²+q², and the beat √(f_amp(2−f_amp)) all use this sense |
 | the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
 | the gate / screening / the gate curve ε(C) | the environmental switch-off of ε: a smooth function of local clumping (dense regions: ε → 0; voids retain it) |
 | recorded | established within the model at production grade (coded, fit, or derived) and recorded |
