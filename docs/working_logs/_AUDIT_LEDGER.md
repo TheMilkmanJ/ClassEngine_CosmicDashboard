@@ -3015,3 +3015,50 @@ the task was "exhibit or kill" and the route is exhibited at mechanism-candidate
 (route 6 carries the exponent's 3/2 alone, per hierarchy §2b and §6d). **Inconclusive at this depth:**
 #47, #48, #63 — their objects are not locatable by task-side labels in the status ledger; left
 ungraded rather than guessed, joining #24 and #81.
+
+### 2026-07-19/20 — REVERSE AUDIT: the surviving subagent batches return (A, C, D)
+
+Three of the five batches launched before the usage limit completed after all and reported. Their
+value is corrections to the standing record as much as new hits, and two of them corrected *me*.
+
+**NEW MIS-GRADES**
+
+- **#55 "A_s's count k — mechanize the one unmechanized amplitude factor" (batch C).** The task's
+  source text is hunt §8 item 4, pre-commit: *"A_s's count k — the one unmechanized factor."* #55 did
+  not mechanize it; it **re-identified which factor is unmechanized**, moving it from k to the count
+  C. Four homes still carry C open, and the hunt's own status vocabulary is decisive: item 4 is tagged
+  *(sharpened)* while its neighbours read *(resolved)* (#53) and *(closed as owed)* (#56). #144 then
+  *increased* the exposure by joining C to "α_c does not run" — they now stand or fall together. An
+  earlier wave graded this SCOPE-OK; batch C's §8-tag evidence is stronger and the grade is changed.
+- **#59 "Koide mass-sector symmetry" (batch C) — the sharpest shape yet: closed on content retracted
+  the next day.** Its delivery claimed a pre-basin excitation inherits the medium's w = 1/3, fixing
+  K/V = 2 and making A = √2 the radiation-era freeze value. FAILURES_LEDGER:63, dated 2026-07-17:
+  *"**Medium-w inheritance for Koide's A = √2** … **RETIRED — category error.** Medium EoS and field
+  EoS are different objects."* The task stayed closed across its own retraction. Its surviving object
+  is the family-field potential — already carried by #115.
+- **#92 and #93 (batch D)** — both composite titles closed whole while a named half stayed open: #92's
+  "(also closes the Page curve)" against *"owed at the curve"*, and #93's "(the partial Gibbs–Duhem
+  object)" against *"the genuinely un-built calculation"* (#123).
+
+**CORRECTIONS TO THIS LEDGER**
+
+- **#81 is CLOSED, not unverifiable** (batch D). me_mechanism_math:161 reads *"[RESOLVED — all four
+  deliveries below]"* with (i)/(iii)/(iv) each DELIVERED. Wave 5's "not locatable" was wrong.
+- **#96's stale-header finding is a FALSE POSITIVE** (batch D). All sixteen thread files head with
+  "— OWED"; it is the series naming convention, not a status claim.
+- **#122's item-2 ruling had stale ground** (batch D). It held the Z₄ quartet gap live; the mechanism
+  is killed (FAILURES_LEDGER:542) and quartet_clock's own §4a says RESOLVED, while §2 still demands a
+  derivation §4a says cannot be taken. #97's grade survives; the justification does not, and
+  quartet_clock now carries the defect.
+- **#4 is CLOSED** (batch A), correcting a wave-2 "not verified": the delivery is in
+  session_2026-07-11_findings, phrased verbatim as the task's own "velocity→energy bridge discharged".
+
+**FIXED THIS PASS** — #104's own home (baryogenesis.md still read "ONE INTEGRAL OWED" fourteen hours
+after stage 5 landed); #82's dangling consumer in hierarchy §5, routing a live two-loop debt to a
+mooted object; information_paradox contradicting its own Page-curve row in its opening paragraph;
+the debt census listing three computations its own table records run; and **`_master_computes.md`
+carrying T_c = 179 keV among *standing derivations*** — the retired value, in the master register,
+after ten forward-facing files had been corrected for exactly it.
+
+**Standing: eight mis-grades — #29, #51, #55, #59, #76, #78, #92, #93, #95.** Every one a composite
+or sweeping claim. No single-object physics task has yet produced one.
