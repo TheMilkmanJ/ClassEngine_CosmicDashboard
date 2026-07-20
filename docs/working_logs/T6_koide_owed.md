@@ -1492,3 +1492,42 @@ v_front = Q·c leg. **What this buys:** the kernel chain's desk residue drops fr
 statements to one — the sign-chain walk (the chirality sequencing) is now the only desk step
 left before the chain is candidate-grade end to end on a single postulate plus the external
 lattice triple.
+
+## THE SIGN-CHAIN WALK, WORKED (2026-07-19 — #79's second desk step; the chain factorizes)
+
+**The walk, link by link, each sign carried explicitly:**
+
+| link | carries the sign from → to | status after this walk |
+|---|---|---|
+| A. front sequence | sign(μ) → the lock-in order around the ring (faces rotate at θ̇ = μ through the front; the sequence direction IS the rotation direction) | **walked** — immediate |
+| B. gradient | the sequence → the per-hop lag θ_hop = μ·Δt_hop: sign(θ_hop) = sign(μ) | **walked** — the pacing step's own real-time picture |
+| C. mass-ordering parity P | the hop order vs the mass order — the relabel that converts the sequence phase into the mass-ordered θ_B | **COMPUTED from the measured configuration**: at θ = 132.7328°, A = √2, the faces in the +hop direction are e (−0.960) → μ (−0.420) → τ (+1.379) — ASCENDING MASS, exactly the recorded deviation table. So P = +1: mass order and hop order coincide, conditional only on the trigger convention (below). |
+| D. net | **sign(θ_B, mass-ordered) = sign(μ)** | the dark chemical potential's sign is the ONE input |
+
+**The trigger convention, named as the walk's one assumption:** the front starts at the
+wall-touching face — the doomed face (e) is the contact event, and contact is what fires the
+freeze (wall-tangency's own grammar). Under it the sequence from e runs in sign(μ)'s direction
+and C's computation applies as stated. The alternative (a τ-first front) flips P; nothing
+recorded selects it, and the tangency picture disfavours it, but it is a convention until the
+front's nucleation is derived — fence standing.
+
+**The factorization this delivers.** With T14's recorded links (the anneal's coin → sign(n) →
+the winding current → helicity_B), the full cross-sector structure is now:
+
+  sign(θ_B) = sign(μ)   [this walk]
+  sign(helicity_B) = sign(n)   [T14, recorded]
+  the lock θ_B ↔ helicity fires ⟺ sign(μ·n) is genesis-fixed
+
+— and sign(μ·n) is verbatim the census's sharpened T14 statement ("matter rides the temporal
+rotation, handedness rides the spatial winding — their product is what genesis sets"). **Every
+sign question in both sectors now funnels through ONE object: the genesis product sign(μ·n),
+decided by the first-roll-at-rest theorem run for its sign.** The cross-sector lock is
+therefore registrable in conditional form now — "IF the first-roll sign run fixes sign(μ·n) = s,
+THEN sign(θ_B) = s·sign(helicity_B), a two-observable prediction with zero remaining freedom"
+— and graduates to a full registration the day that run lands.
+
+**Desk state of #79 after both steps:** the kernel chain (modulus ½ln2, phase 2/9, the closure
+3θ = Q) stands candidate-grade end to end on exactly ONE internal postulate (the
+fundamental-winding identification, step 1) plus ONE genesis computation (the first-roll sign
+run) plus the external lattice triple (T_c/√σ, F_π/√σ, w·√σ) and the P-2026-051 deviation lock.
+The two desk steps the open surface owed are worked; what remains is not desk work.

@@ -710,6 +710,12 @@ chk("T6 kernel", "mu_face = (2/9)*Tc at 177.10", 39.4, (2/9)*177.10, 0.005, "keV
 chk("T6 kernel", "deviation-lock slope 2A/9", 0.3143, 2*math.sqrt(2)/9, 0.001)
 chk("T6 kernel", "tangency seed ratio 7+4sqrt3", 13.928, 7+4*math.sqrt(3), 0.001)
 
+# --- the sign-chain walk: face assignment in hop order (2026-07-19) ---
+_thB = math.radians(132.7328); _A = math.sqrt(2)
+chk("sign walk", "e face dev at k=0", -0.960, _A*math.cos(_thB), 0.001)
+chk("sign walk", "mu face dev at k=1", -0.420, _A*math.cos(_thB + 2*math.pi/3), 0.001)
+chk("sign walk", "tau face dev at k=2", 1.379, _A*math.cos(_thB + 4*math.pi/3), 0.001)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
