@@ -249,10 +249,10 @@ def _win(m1):
     m2, m3 = math.sqrt(m1**2+_dm21), math.sqrt(m1**2+_dm31)
     t = [(1-_s12)*(1-_s13)*m1, _s12*(1-_s13)*m2, _s13*m3]
     return (m1+m2+m3)*1e3, sum(t)*1e3, max(0.0, 2*max(t)-sum(t))*1e3
-chk("fairbank_note", "Sigma m_nu at the high anchor m1 = 2.284", 61.40, _win(2.284e-3)[0], 2e-3, "meV")
+chk("fairbank_note", "Sigma m_nu at the retired-route value m1 = 2.284", 61.40, _win(2.284e-3)[0], 2e-3, "meV")
 chk("fairbank_note", "floor at the low anchor", 0.044, _win(2.250e-3)[2], 0.03, "meV")
-chk("fairbank_note", "floor at the high anchor", 0.023, _win(2.284e-3)[2], 0.05, "meV")
-chk("fairbank_note", "a 1.5% anchor move nearly halves the floor", 1.9,
+chk("fairbank_note", "floor at the retired-route value 2.284", 0.023, _win(2.284e-3)[2], 0.05, "meV")
+chk("fairbank_note", "the retired route's +1.5% would nearly halve the floor", 1.9,
     _win(2.250e-3)[2]/_win(2.284e-3)[2], 0.05, "x")
 chk("fairbank_note", "|Ue1|^2 m1", 1.52, _t[0]*1e3, 0.02, "meV")
 chk("fairbank_note", "|Ue2|^2 m2", 2.67, _t[1]*1e3, 0.02, "meV")
@@ -268,16 +268,30 @@ for _ in range(80):                            # bisect for the critical m1
     if _gap(_mid) > 0: _lo = _mid
     else: _hi = _mid
 chk("fairbank_note", "critical m1 where the floor vanishes", 2.324, _mid*1e3, 0.01, "meV")
-# the letter's floor table runs to the high anchor; every column of it is checked here
-_th = [(1-_s12)*(1-_s13)*2.284e-3, _s12*(1-_s13)*math.sqrt(2.284e-3**2+_dm21),
-       _s13*math.sqrt(2.284e-3**2+_dm31)]
-chk("fairbank_note", "|Ue1|^2 m1 at the high anchor", 1.55, _th[0]*1e3, 0.02, "meV")
-chk("fairbank_note", "|Ue2|^2 m2 at the high anchor", 2.68, _th[1]*1e3, 0.02, "meV")
-chk("fairbank_note", "|Ue3|^2 m3 at the high anchor", 1.10, _th[2]*1e3, 0.02, "meV")
-chk("fairbank_note", "m_bb ceiling at the high anchor", 5.33, _win(2.284e-3)[1], 0.02, "meV")
-# how close the top of the anchor's range comes to the floor vanishing outright
-chk("fairbank_note", "high anchor sits this far below the critical m1", 1.7,
-    100*(_mid*1e3 - 2.284)/(_mid*1e3), 0.05, "%")
+# --- what the anchor's range actually is -----------------------------------
+# The letter's floor table spans the OBSERVATION's own uncertainty, not the
+# 2.2842 meV figure: that one is the T_c = 179 keV route's output, and the
+# ledger retires T_c = 179 keV as the observation-inverted 176.32 rounded up,
+# with the "+1.5%" being the rounding rather than a sourced spread. The live
+# range is the Planck error on rho_Lambda, quartered.
+_OL, _dOL, _hh, _dhh = 0.6889, 0.0056, 0.6736, 0.0054
+_relq = math.sqrt((_dOL/_OL)**2 + (2*_dhh/_hh)**2)/4.0
+chk("fairbank_note", "rho_Lambda^(1/4) relative error (Planck, quartered)", 0.449,
+    100*_relq, 0.01, "%")
+_lo1 = 2.25e-3*(1-_relq)
+chk("fairbank_note", "anchor low edge, observed -1 sigma", 2.2399, _lo1*1e3, 2e-3, "meV")
+chk("fairbank_note", "floor at the low edge", 0.050, _win(_lo1)[2], 0.02, "meV")
+chk("fairbank_note", "floor at the observed anchor", 0.044, _win(2.250e-3)[2], 0.02, "meV")
+chk("fairbank_note", "floor at the derived anchor", 0.038, _win(2.2599e-3)[2], 0.02, "meV")
+chk("fairbank_note", "ceiling at the low edge", 5.295, _win(_lo1)[1], 0.02, "meV")
+chk("fairbank_note", "ceiling at the derived anchor", 5.310, _win(2.2599e-3)[1], 0.02, "meV")
+chk("fairbank_note", "ceiling moves this little across the range", 0.28,
+    100*(_win(2.2599e-3)[1]-_win(_lo1)[1])/_win(_lo1)[1], 0.05, "%")
+# the derived anchor's distance to the floor-vanishing threshold, in sigmas
+chk("fairbank_note", "derived anchor sits this far below the critical m1", 2.78,
+    100*(_mid*1e3 - 2.2599)/2.2599, 0.05, "%")
+chk("fairbank_note", "that gap in sigmas of the observation", 6.18,
+    ((_mid*1e3 - 2.2599)/2.2599)/_relq, 0.15, "sigma")
 
 # ---- the experiment overlay (the Fairbank note's ask) ----------------------
 import numpy as _np
@@ -455,7 +469,7 @@ def _wn(m1):
     return sum(t)*1e3, max(0.0, 2*max(t)-sum(t))*1e3
 chk("fairbank_note", "m_bb floor at the observed anchor 2.25", 0.044, _wn(2.25e-3)[1], 0.02, "meV")
 chk("fairbank_note", "m_bb floor at the derived anchor 2.2599", 0.038, _wn(2.2599e-3)[1], 0.02, "meV")
-chk("fairbank_note", "m_bb ceiling holds at 5.30 across the anchor range", 5.30,
+chk("fairbank_note", "m_bb ceiling holds at 5.30 across the observed anchor range", 5.30,
     max(_wn(2.25e-3)[0], _wn(2.2599e-3)[0]), 0.005, "meV")
 
 

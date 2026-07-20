@@ -41,12 +41,16 @@ place to assume the shift is negligible.
   p = 0.02 or p = 0.21), and arXiv 2606.06495 / 2508.09025 (the source for the 2–3.6σ varying-m_e
   preference the letter quotes).
 - **The m_ββ window** — recomputed independently. The letter's terms (1.52, 2.67, 1.10) reproduce on
-  m₁ = ρ_Λ¼ = 2.25 meV. The window is **[0.02, 5.3] meV**, not [0.04, 5.3]: the floor is
-  anchor-dependent and nearly halves across the model's own 1.5% spread in the dark-energy scale.
-  **Carried into the letter 2026-07-20** — it had been quoting the low-anchor floor as the window in
-  three places, and describing the anchor as pinned to 0.44% (the gap between two determinations)
-  rather than ~1.5% (what it is actually pinned to). The floor table now runs to the high anchor and
-  the harness checks both ends (0.044 low, 0.023 high, ratio 1.9).
+  m₁ = ρ_Λ¼ = 2.25 meV, and the window is **[0.04, 5.3] meV**. An earlier revision of this file
+  carried it as [0.02, 5.3] on the grounds that the floor nearly halves across a 1.5% spread in the
+  dark-energy scale. **That spread is not real.** Its top end, 2.2842 meV, is the value produced by
+  the T_c = 179 keV route, and the failures ledger retires that T_c as the observation-inverted
+  176.32 keV rounded up — recording in terms that the "+1.5%" is *the rounding*, not a sourced
+  spread. The live uncertainty on ρ_Λ¼ is **0.449%**: Planck's 1.80% on ρ_Λ, quartered by the fourth
+  root. Across that range the floor runs 0.050 → 0.038 meV and the ceiling moves 0.28%, so the
+  window rounds to [0.04, 5.3] and the ceiling — which every conclusion turns on — is stable.
+  The derived anchor 2.2599 sits +0.44% from the observed value, i.e. inside 1σ, and 2.78% below the
+  2.324 meV threshold where the floor would vanish, which is 6.2σ away. Harness checks all of it.
 - **The experiment overlay** — nEXO 4.7–20.3 meV, LEGEND-1000 9–21, CUPID 12–34, against a model
   ceiling of 5.30. Only nEXO overlaps, at 4.7–5.3 meV, ~10.8% of the model's phase space over flat
   Majorana phases.
@@ -88,13 +92,8 @@ grades a point near the model, not the model's stated configuration. The letter 
 1. The evidence verdict lands → replace the provisional H₀ with the measured one, and say what the
    run found either way.
 2. Re-read the m_ββ floor section against whatever the dark-energy scale settles at — the floor
-   vanishes above m₁ = 2.324 meV, and the highest recorded anchor (2.284) sits just **1.7% below**
-   that threshold, i.e. it does not reach it but comes close. **Check the high anchor's provenance
-   before defending the 1.5% spread in conversation:** 2.2842 meV is the value produced by the
-   T_c = 179 keV route, and that T_c is the observation-inverted 176.32 keV rounded up, which the
-   ledger retires as not independently sourced. If the high anchor goes with it, the honest spread
-   narrows toward the 0.44% between the observed 2.25 and the derived 2.2599, and the floor's range
-   narrows with it. The letter quotes the wider 1.5% — the conservative direction, which understates
-   how well the floor is known rather than overstating it.
+   vanishes above m₁ = 2.324 meV, and the derived anchor sits 2.78% below that, or 6.2σ on the
+   observation's own error. The floor thins across the range the scale is known to but does not
+   vanish inside it. If the anchor moves materially, this section is the first thing to recompute.
 3. If the ¹³⁶Xe matrix element firms up, the 4.7 meV nEXO reach and the ~11% overlap both move with
    it. Ask (c) puts that question to him directly; his answer should be folded back in.
