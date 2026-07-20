@@ -2240,3 +2240,42 @@ constant and the measure all still derive, and every option in the band sits at 
 result is that the hierarchy chain is *better founded and less precise* than it was this morning —
 which is the correct direction for a claim that was previously reading 0.14% off a leading-order
 calculation with a 33× amplifier in it.
+
+### 2026-07-19 — #138, and a correction to the entry above it (again)
+
+**The −3/2, re-read.** Setting the model's M = M_red·e^(−1/λ−3/2) against a gap equation's
+M = Λ_shell·e^(−1/λ) gives Λ_shell = M_red·e^(−3/2) = 0.223 M_red. So the −3/2 is not a correction
+to the exponent: it says the pairing shell's cutoff is the Planck floor dressed down by the
+equipartition boost — exactly what route 6 derives from ⟨E_kin⟩/T = 3/2. The constant the exponent
+needs and the constant equipartition supplies are the same constant. That is a genuine consistency
+and it is the durable result of #138.
+
+**k_F needs no derivation.** k cancels k_F entirely (§6c is scale-free) and the prefactor is
+Λ_shell, so k_F enters only through the shell's density-of-states correction, bounded by
+Λ_shell ≤ E_F ≤ M_red. #138 closes on that: the question was mis-posed as "derive k_F" when the
+chain only ever needed a bound.
+
+**The correction to yesterday's hour.** The previous entry put the shell systematic at +1.41% in λ
+and +59% on the anchor. That was a **one-sided integration**: a pairing shell is symmetric about
+E_F — particle above, hole below — so with ρ ∝ E² the linear term cancels between the two sides
+and only ξ²/E_F² survives. The correct correction is **+0.07% at E_F = M_red**, rising to +1.4%
+only at the lower bound. The +59% figure is withdrawn.
+
+**And the factor the exact solution carries.** Solving rather than approximating gives
+Δ = 2Λ·e^(−1/λ) (asinh, not a bare log) = 3152 GeV where the booked form gives 1576. The booked
+convention absorbs that 2 into the −3/2.
+
+**The stable conclusion, which survived all four passes.** The anchor is a **factor-of-a-few**
+result — roughly 1.6 to 5.2 TeV once the exact-solution factor, the shell correction and the E_F
+range are carried — with the booked 1576 GeV at the bottom edge. The +0.14% against 4πm_H is a
+coincidence of one convention inside that band. What is derived end to end is the *mechanism*:
+channel, screening constant, angular measure, and the shell cutoff as the equipartition-dressed
+floor. It puts the electroweak scale a few TeV below the Planck floor from α alone.
+
+**Four errors on one quantity in one session**, all in the O(1)/normalisation layer: a
+Gaussian/Heaviside slip, a half-sphere read as a cut, one-band screening, and a one-sided shell.
+Each was caught only by recomputing the same object a different way, and each time the recomputation
+was prompted by an adverse-looking result rather than by routine. That is the actual lesson and it
+is worse than the individual errors: **I check hardest when I dislike the answer.** The standing
+rule from earlier today — compute every O(1) entering k twice, in different variables — is now
+extended: the second computation is mandatory whether or not the first one looks wrong.
