@@ -226,13 +226,15 @@ the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
 Code: `dcdf_floor_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ_floor(a) =
 ρ_inf·exp[thaw·(1−a³)]; E(a) = ρ_floor − ρ_inf added background-only (pattern of dcdf_rho_rad).
 
-**7c. The branch [to be pre-registered, guards owed]:**
+**7c. The branch [registered as P-2026-056, guards discharged]:**
 
 > **P-2026-018 (w = −1 exact) XOR Route-D (thaw-now, w₀ ∈ [−0.92,−0.86], wₐ < 0, no phantom).**
 > DESI DR3 adjudicates: thaw-side → Route-D (J1+why-now+DESI in one stroke, P-018 dies);
 > rigid → P-018 (distinctive win; Route-D dies, J1 reverts to constitution);
 > TRUE phantom in the DATA → both die. Guards: distance-space phrasing, KP solve, timestamp
-> (J1-derivation precedes DESI-convergence), A2+A3 net (answered).
+> (J1-derivation precedes DESI-convergence), A2+A3 net (answered) — each stated with its
+> resolution in [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md)
+> (P-2026-056), where the decision rule is registered.
 
 **7d. The end (and the next start).**
 
@@ -309,8 +311,8 @@ elsewhere in the corpus:
 **Genuinely owed:** the dark-energy *value* if Route-D dies (falls back to constitution); the
 seat constant b in the neutrino tie.
 
-**Standing:** provisional pending the named referees, DESI-capped, the branch pre-registration
-pending guards.
+**Standing:** provisional pending the named referees, DESI-capped; the branch is registered
+(P-2026-056) with its guards discharged, and its adjudicating chain is running.
 
 *(This ledger previously marked six items with the dead word "docketed". There is no docket document in this corpus —
 the word pointed at nothing, and five of the six were already answered. Debts now name where they

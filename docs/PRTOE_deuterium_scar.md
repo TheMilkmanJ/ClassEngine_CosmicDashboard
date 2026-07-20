@@ -10,11 +10,39 @@ deficit with a priced cure and a named missing ingredient.*
 ## 1. The number
 
 The model predicts **D/H = 2.387×10⁻⁵**. The quasar-optical measurement is **2.527 ± 0.030**
-(Cooke). With the theory budget the corpus carries (±0.0476, dominated by the ⁴He(d,γ)⁶Li and
-d(p,γ)³He rate uncertainties), the combined width is 0.0563 and the row sits at **−2.49σ**.
+(Cooke).
 
-Applying the genesis residual and the code-systematic spread, the quotable range is **−2.5σ to
-−1.4σ**. That range is the standing book, and this file does not narrow it.
+**The error budget, term by term.** Every number in this file is quoted against one of two
+foldings of the same three components, and the width has to be quoted with the number:
+
+| component | value | what it is |
+|---|---|---|
+| observational | ±0.030 | Cooke's quasar-optical measurement error |
+| BBN nuclear theory | ±0.037 | PRIMAT **post-LUNA**, cite-verified (arXiv:2011.11320, D/H = 2.439 ± 0.037) |
+| the d(p,γ)³He rate | ±0.0300 | carried as a separate term by the three-term folding |
+
+> **two-term width ±0.0476** = observational ⊕ nuclear theory → the standing row reads **−2.94σ**
+> **three-term width ±0.0563** = the above ⊕ the d(p,γ)³He rate → the standing row reads **−2.49σ**
+
+**The two are not the same statement at two precisions**, and the corpus quotes both. Which one
+the corpus should standardize on is an open owner decision recorded at
+`ForJustin/10_the_two_full_budgets.md`, together with the question that decides it: PRIMAT's
+±0.037 is quoted **post-LUNA**, and LUNA's measurement *is* the d(p,γ)³He cross section — so if
+that rate's uncertainty is already inside the ±0.037, the three-term folding counts the dominant
+nuclear rate twice and the two-term ±0.0476 is the correct width. Until that is settled against
+the source, **quote the fork, not one side.**
+
+**A ±0.0476 caution, because it is the reason this was hard to see.** The third term is
+numerically equal to the observational error, so ⊕-folding is degenerate: observational ⊕ nuclear
+and nuclear ⊕ rate both give **±0.0476** to five figures, and both routes to the combined width
+land on **±0.0563**. No arithmetic check can tell the two decompositions apart — only the wording
+of the citation can, and the corpus uses ±0.0476 for both objects. *(Relatedly, the rate
+attribution wants checking at the source: ⁴He(d,γ)⁶Li is a ⁶Li production channel and is not a
+D/H driver.)*
+
+This file quotes the three-term width below. Applying the genesis residual and the code-systematic
+spread, the quotable range is **−2.5σ to −1.4σ** on the two-term width (**−2.1σ to −1.1σ** on the
+three-term). That range is the standing book, and this file does not narrow it.
 
 **Against ΛCDM, honestly.** The in-house ΛCDM control on identical data and the same code gives
 D/H = 2.420×10⁻⁵, which is **−1.90σ** on the same budget. So:

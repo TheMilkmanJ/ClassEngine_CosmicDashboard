@@ -153,7 +153,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 125 | Why the kinetic term rather than only the Weinberg operator | open |
 | 126 | The gravity-routing step of the c-derivation | open |
 | 127 | The C²-to-threshold map | open |
-| 128 | The BBN-stability fence, re-stated below its own anchor | open |
+| 128 | The BBN-stability fence, re-stated below its own anchor | closed — fence is [70, 500] keV structural; whole-range swing ≤ 0.32σ on D/H |
 | 129 | The matched-junction interface — the velocity ladder's first payable step | open |
 | 130 | The base α's two owed pieces | open |
 | 131 | The X₀ erasure reformulation | open |

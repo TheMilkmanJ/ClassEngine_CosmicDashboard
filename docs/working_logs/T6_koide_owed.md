@@ -1524,7 +1524,8 @@ sign question in both sectors now funnels through ONE object: the genesis produc
 decided by the first-roll-at-rest theorem run for its sign.** The cross-sector lock is
 therefore registrable in conditional form now — "IF the first-roll sign run fixes sign(μ·n) = s,
 THEN sign(θ_B) = s·sign(helicity_B), a two-observable prediction with zero remaining freedom"
-— and graduates to a full registration the day that run lands.
+— and graduates to a full registration the day that run lands. **Registered in that form as
+P-2026-057** (2026-07-20), with the trigger convention carried as its named fence.
 
 **Desk state of #79 after both steps:** the kernel chain (modulus ½ln2, phase 2/9, the closure
 3θ = Q) stands candidate-grade end to end on exactly ONE internal postulate (the
