@@ -604,15 +604,34 @@ No new prediction is registered by this annotation; it settles one
 collision, kills three advertised numbers, and narrows the program's
 falsification surface to instruments that still point at it.
 
-## STAGED CANDIDATE TESTS (2026-07-07, "predict-then-validate-with-existing-science"; NOT yet registered -- staged for the falsification phase, pending full flesh-out)
+## STAGED CANDIDATE TESTS — adjudicated 2026-07-20: two retired, two live and sim-gated
 
-*Author's question: what prediction-then-validate tests should we try? Criteria
+*Original question (2026-07-07): what predict-then-validate tests should we try? Criteria
 for a CLEAN test: (a) forced by the model's UNIQUE structure (single-field DM
 cannot reproduce it), and (b) validated against data NOT used in the cosmology
-fit. Listed here staged, to develop once the model is fully fleshed out (two m_e
-gates closed, amplitude derived, two-fluid sims run).*
+fit. Four were staged behind three gates — the two m_e gates closed, the amplitude
+derived, the two-fluid sims run.*
 
-- **MOLECULAR SPECTROSCOPY (the benzene idea) -- CONSISTENCY, not unique.**
+**Where those gates now stand.** The **amplitude gate is closed**: ε = c·f̄·α_c with both
+factors derived — c = 9/10 from the census count (N−1)/N, f̄ = 2/π as the winding
+time-average. The **m_e gates are not**: which rung the condensation picks is open (docket
+#133). The **two-fluid sims are not run** — the granule meter's statistical core is finished
+(S = (1+f_rot²)/2 confirmed) but its dynamical half is unbuilt (docket #160), and the genesis
+solver is docket #150.
+
+**Two of the four do not survive the adjudication, for opposite reasons.** Molecular
+spectroscopy fails the section's own criteria rather than any gate, and the superradiance
+discriminator was overtaken — it was written at the era's mass band and the mass has since
+moved an order of magnitude, to where the claim is already registered. Both are struck below,
+with the reason attached. The remaining two are genuinely gated on sims and stay staged.
+
+- **MOLECULAR SPECTROSCOPY (the benzene idea) — STRUCK: fails the section's own criteria.**
+ It is kept here as a recorded consistency check, not a staged prediction. It fails criterion
+ (a) outright — any varying-m_e model predicts the same shift — and it cannot satisfy (b),
+ because the half that would discriminate is unobservable in principle with these tracers:
+ molecules form only in dense gas, so the data can confirm "structure → lab value" and can
+ never test "void → bare value". No gate closes this; a different tracer would be a different
+ test. The original entry follows.
  m_e-dependent molecular spectra (benzene, and more sensitively methanol/ammonia)
  shift with environment. Existing science: astronomical μ=m_e/m_p bounds
  (methanol masers ~1×10⁻⁷). CATCH: (i) not unique -- any varying-m_e model predicts
@@ -634,15 +653,26 @@ gates closed, amplitude derived, two-fluid sims run).*
  Validate against dwarf-heating / stellar-stream data. Forced + unique. Needs the
  granule sims (Tier 3) to make S a quotable number.
 
-- **SUPERRADIANCE DISCRIMINATOR (P-2026-005 heavy edge) -- UNIQUE, near-term.** At
- the mass band top (~3×10⁻²¹ eV), SMBH-spin data already excludes FREE FDM (M87*)
- while the λ-quenched dyad survives. A spin measurement there separates them.
- Forced + unique + existing/near-term data.
+- **SUPERRADIANCE DISCRIMINATOR — STRUCK: overtaken, and already registered.** As staged,
+ this read: at the mass band top (~3×10⁻²¹ eV), SMBH-spin data already excludes FREE FDM
+ (M87*) while the λ-quenched dyad survives. **That mass is the era's, not the model's.** The
+ dyad mass has since been pinned three independent ways at **2.24×10⁻²⁰ eV** — an order
+ above the band this item was written against — and at the recorded mass the same physics is
+ registered as **P-034**, the SMBH spin-dip band at M ≈ 6×10⁸–3×10⁹ M☉ (α_g ~ 0.1–0.5). So
+ the staged item is a stale duplicate of a live prediction, not a candidate awaiting
+ promotion. **What is genuinely open is the shield, not the test:** the λ-quench has never
+ been re-derived at the model's own quartic and mass, so the discriminator's protective half
+ is un-quotable, and P-034's band is populated with high measured spins. That is docket #156,
+ and it is a live exposure rather than a staged opportunity.
 
-STAGING NOTE: all four are held UN-REGISTERED until flesh-out (Tier 2 gates + Tier
-4 amplitude + Tier 3 sims). Registering before the math is finished risks a wrong
-prediction teaching nothing (can't distinguish wrong-idea from wrong-math). The
-χ-lag and granule tests specifically await the two-fluid sims.
+STAGING NOTE (revised 2026-07-20): **two items remain staged, and both are sim-gated, not
+math-gated.** The original note held all four un-registered until "Tier 2 gates + Tier 4
+amplitude + Tier 3 sims", on the reasoning that registering before the math is finished risks
+a wrong prediction teaching nothing — one cannot distinguish wrong-idea from wrong-math. That
+reasoning stands, but the amplitude gate has closed, and it was never what these two waited
+on: the χ-lag and granule tests await the **two-fluid sims** (dockets #150 and #160)
+specifically, and no amount of further analysis substitutes. The granule test is the nearer
+of the two — its statistical core is done and only the dynamical half is missing.
 
 ## P-2026-007: THE VOID/IGM m_e-STEP -- the model's sharpest forced, dyad-specific prediction (surfaced and registered 2026-07-07)
 
@@ -2847,4 +2877,167 @@ that is not ours or ends its claim to being the framework that natively carries 
 **What would settle it:** a direct 4PCF measurement on DESI, on the original statistic.
 arXiv:2604.06021 uses composite-field (kurto) spectra, so it denies the signal an independent
 confirmation at higher precision rather than refuting the original on its own terms.
+
+## P-2026-056: The dark-energy branch — P-2026-018 XOR Route-D, and DESI DR3 adjudicates (registered 2026-07-20, before the deciding chain reports)
+
+**Why this entry exists.** [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7c carries this branch
+written out in full, with its four guards discharged. The registry carries only one of its two
+sides — P-2026-018, above. **An XOR registered on one side is not registered.** This entry places
+the other side and the adjudication rule together, so that whichever branch the sky takes, the
+losing one is on the record as having been at risk.
+
+**Timing, stated plainly.** The chain that decides this (`cmp_prtoe_routeD` — thaw free on the
+CMB+BAO+SN joint stack) is sampling as this is written and has produced no convergence statistic.
+Nothing below is informed by its posterior.
+
+**The two branches, and they exhaust the model.**
+
+> **P-2026-018 — w = −1 exact.** The as-built dCDF gives P = −ρ_inf = constant, algebraically ΛCDM
+> at the background. The one shape knob that could bend it is σ₈-locked to zero (β_shape > 10⁻⁶
+> destroys structure: 0.827 → 0.185 at 10⁻⁴; `background.h:685–688`). No freedom to chase a
+> departure.
+>
+> **Route-D — the floor is thawing now.** Observed Λ forces the turnaround within about an e-fold,
+> hence m_J ≈ (1–3)H₀, hence a floor that is leaving its ground state today:
+> **1 + w_floor(a) = thaw·a³**, giving, with the shed at its S₈-selected g = 0.12,
+> **w₀ ∈ [−0.92, −0.86], wₐ ∈ [−0.2, −0.5], and no true phantom at any epoch.**
+> In code: `dcdf_floor_thaw`, ρ_floor(a) = ρ_inf·exp[thaw·(1−a³)] (`background.h:810`), the
+> sampled parameter being 1+w of the floor today (`background.h:176`), so the branch window is
+> **thaw ∈ [0.08, 0.14]** and **thaw ≤ 0 recovers w = −1 exactly** (`background.h:806–808`) —
+> P-2026-018 is nested at the prior's own floor.
+
+**The decision rule, fixed before the data.**
+
+| DESI DR3 returns | verdict |
+|---|---|
+| **thaw-side** evolving DE (w₀ > −1, wₐ < 0, no phantom crossing) | **Route-D**; the dark-energy value, the why-now coincidence and the DESI pull resolve as one event — the cycle beginning to turn. **P-2026-018 dies, booked as falsified.** |
+| **w = −1 rigid** | **P-2026-018** — the distinctive win, since the model had no freedom to bend and did not. **Route-D dies**, and the dark-energy value reverts to constitution/boundary-datum. |
+| **True phantom in the data** (w < −1 demanded by the distances themselves, not by a CPL extrapolation) | **both branches die.** A clean kill with no patch available. |
+
+The third row is what makes this an either/or rather than a hedge: there is a data verdict on
+which the model simply loses.
+
+**The four guards, and where each stands.**
+
+1. **Distance-space phrasing — discharged by construction.** The bet is on the BAO+SN distance fit,
+   **not** on the CPL (w₀, wₐ) point. This is not a softening: the model's two apparent-w channels
+   miss the CPL point in *opposite* directions — the shed over-drifts, the thawing floor
+   under-drifts — so a CPL-point bet would grade the compression rather than the physics. The
+   deciding chain's likelihood stack is distance-space by construction
+   (`bao.desi_2024_bao_all` + `sn.pantheonplusshoes`, on Planck + ACT DR6 + SPT-3G).
+2. **The KP self-consistency solve — discharged, and adverse.** It was owed to sharpen the w₀
+   window; run in full it fired the model's own falsifier instead. The full-cycle fixed point wants
+   **a_turn = 0.70 — a past turnaround at z = +0.43**, excluded by observed acceleration; a future
+   turn is short by 3× (at a_turn = 1.0) to 10× (at 1.5); the Tolman boost is null. **The clean
+   Route-D prediction is dead**, and what stands below is the corner that survived it.
+3. **The timestamp — discharged.** Route-D was built from the dark-energy-value problem and its
+   DESI-direction consequence was discovered afterward, not fitted to it. The construction is in
+   the repository at commit `79eea3f0` (2026-07-10), which predates this registration by ten days
+   and predates DR3 entirely.
+4. **The A2+A3 net — discharged, and it is the guard that decides what is being registered.** The
+   model carries **two** channels that can counterfeit evolving DE, with opposite apparent-wₐ
+   signs: the DM→dark-radiation shed (`dcdf_conv_g`) reads apparent-**phantom** and is a knob,
+   while the thawing floor (`dcdf_floor_thaw`) reads apparent-**thawing** and is fixed structure.
+   Registering the fixed piece alone while the knob is compiled and on would be cherry-picking.
+   Both are settled: the shed's apparent-w mirage is **~1%** — out as a DESI driver, its surviving
+   job being S₈ — and the deciding chain **samples both parameters simultaneously**, so what it
+   returns is the net background and not either piece alone.
+
+**What the sky actually grades, and what it does not.** The surviving structure — the thaw plus
+the sector's negative bare vacuum — puts the turnaround at **a ≈ 2.0–2.8 (z ≈ −0.51 to −0.65),
+16–26 Gyr from now**, across w₀ ∈ [−0.92, −0.86] and two orders of magnitude in the bare depth.
+That robustness is also the reason the turn is **not** the test: the same trade-off makes the
+low-redshift trajectory independent of the bare depth to ~0.2%, so the turnaround is unobservable
+in the expansion history. **w₀ is the whole of the measurable content.**
+
+**Prior, declared rather than implied.** **P-2026-018 is the standing branch.** After guard 2,
+Route-D survives only as a narrow corner requiring a strong thaw pulled by the data, and the
+priors do not favour it. Route-D is registered as the *disfavoured* side of its own XOR — which is
+the point of registering it before the chain reports rather than after.
+
+**Kills:**
+(i) a firmed thaw-side detection kills P-2026-018 outright — no patch exists in the as-built model,
+which is the liability P-2026-018 was registered to carry;
+(ii) a firmed w = −1 kills Route-D and returns the dark-energy value to the un-derived column;
+(iii) a true phantom kills both;
+(iv) a posterior thaw consistent with zero on this chain kills Route-D twice over — once by the KP
+solve, once by the data — and settles the branch without waiting for DR3.
+
+**Grade.** The branch structure is forced: both sides are properties of the same as-built
+background, and the third outcome is fatal to both. Route-D's *window* is toy-grade in its O(1)
+factors and is stated as a band, not a point; P-2026-018's side carries no freedom at all. What is
+being registered is the adjudication, and it is registered while the adjudicator is still running.
+
+## P-2026-057: The cross-sector sign lock — the Koide phase and the magnetic helicity are one genesis draw (registered 2026-07-20, conditional)
+
+**The conditional, stated exactly.**
+
+> **IF** the first-roll-at-rest theorem, run for its sign, fixes **sign(μ·n) = s**,
+> **THEN sign(θ_B) = s · sign(helicity_B).**
+
+**The two observables, and they live in different sectors.** θ_B is the charged-lepton spectrum's
+Brannen-frame phase — the measured lepton masses read in the frame θ_house = θ_B + 120°, where the
+house phase is 132.7328° ± 0.0005°, so **θ_B = +12.7328° = +0.222229 rad** and its sign is not in
+doubt. helicity_B is the handedness of the primordial intergalactic magnetic field, whose recorded
+model statement is sign(helicity_B) = sign(n) (P-2026-028), and whose candidate datum is the
+parity-odd Fermi-LAT correlator's left-handed ~10⁻¹⁴ G field on ~10 Mpc scales. **One is a
+laboratory mass ratio and the other is a megaparsec-scale field.** Nothing in either sector's own
+physics relates them.
+
+**Why the conditional has zero remaining freedom.** Signs multiply to unity, so the statement
+inverts:
+
+> **s = sign(θ_B) · sign(helicity_B)**
+
+The sky supplies both factors on the right; the first-roll run computes s on the left,
+independently and from genesis alone. **The two must agree, and neither side can be adjusted to
+make them.** That is the whole content — a two-observable prediction on one integer.
+
+**The chain, link by link, each sign carried.**
+
+| link | carries | status |
+|---|---|---|
+| A. front sequence | sign(μ) → the lock-in order around the Z₃ ring: faces rotate at θ̇ = μ through the freeze front, so the sequence direction *is* the rotation direction | walked |
+| B. gradient | the sequence → the per-hop lag θ_hop = μ·Δt_hop, hence sign(θ_hop) = sign(μ) | walked |
+| C. mass-ordering parity P | the relabel converting the sequence phase into the mass-ordered θ_B | **computed from the measured configuration**: the faces in the +hop direction run e (−0.960) → μ (−0.420) → τ (+1.379), which is **ascending mass**, so **P = +1** — hop order and mass order coincide |
+| D. net | **sign(θ_B) = sign(μ)** | the dark chemical potential's sign is the one input |
+| E. the other sector | **sign(helicity_B) = sign(n)** | recorded (P-2026-028) |
+
+Composing D and E leaves exactly one undetermined object, **sign(μ·n)** — the product of the
+temporal rotation's draw and the spatial winding's draw. That product is the genesis statement in
+its own right: matter rides the temporal rotation, handedness rides the spatial winding, and what
+genesis sets is their product. **Every sign question in both sectors funnels through this one
+integer**, which is why the lock is registrable now and why it is registrable only in conditional
+form.
+
+**What the lock rests on, named exactly.** The circulant algebra of the three-face ring; the
+measured lepton spectrum (the deviation table above, from which the amplitude and phase are read);
+the KMS pacing that fixes one face per thermal period; and the recorded winding-to-helicity link.
+It does **not** take the delivery mechanism for the amplitude A = √2 as an input at any link — the
+amplitude enters link C only as a measured configuration, alongside the measured phase, which is
+how it enters the deviation table itself.
+
+**Its one convention, named as the fence it is.** The freeze front is taken to start at the
+wall-touching face — the electron, at 96% of the way to the positivity wall √m = 0, whose contact
+is what fires the freeze. A τ-first front would flip P and therefore flip the lock's sense.
+Nothing recorded selects the alternative and the tangency picture disfavours it, but this remains a
+convention until the front's nucleation is derived, and the conditional inherits it.
+
+**Kills:**
+(i) the first-roll run returning s, with the two measured signs multiplying to −s → the chain is
+broken and the cross-sector lock is false;
+(ii) the measured IGMF handedness firming while the run returns a value incompatible with the
+Koide phase's fixed positive sign → same kill, arriving from the sky's side;
+(iii) a derivation of the front's nucleation selecting the τ-first trigger → P flips, and the
+lock's stated sense is wrong even if its structure holds;
+(iv) any demonstration that sign(μ) and sign(n) are drawn independently at genesis → there is no
+product to fix, and the conditional's antecedent is empty rather than merely unrun.
+
+**Grade: conditional, and honestly gated.** The consequent is derived; the antecedent is an
+un-run computation. The gating object is the first-roll-at-rest theorem run for its **sign** rather
+than for existence — a genesis draw carrying the winding and the rotation on one trajectory. The
+temporal half alone is known to be a fair coin (proven by the tilt's reflection symmetry); it is
+the *product* that has no instrument computing it yet. This entry graduates to a full registration
+the day that run lands, and until then it is a statement about what the run will decide, placed
+before it decides it.
 
