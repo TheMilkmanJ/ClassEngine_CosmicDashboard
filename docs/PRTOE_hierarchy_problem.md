@@ -48,7 +48,14 @@ one-loop echo.**
 the hierarchy dial $x_0$ is CONSISTENCY-ONLY (a free dial of the GC dictionary that this
 closure selects — failures ledger §6); the census closure / duty-family landing is
 STRAINED (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
-the edge-convention audit decides whether that arrow fell or the convention did). THE
+the edge-convention audit decides whether that arrow fell or the convention did). **That strain
+was sized against the anchor as a point value, 1.57 TeV, and that value is withdrawn** (§6e): the
+anchor is a band, 1–8 TeV. Re-measured against the band, the gap is **1.6× at the band's top edge
+and 13× at its bottom** — so the strain's size is no longer a fact about the shooter but a fact
+about where in the band the anchor sits, and **the edge-convention audit cannot conclude on its
+own. It is downstream of the vertex correction** (§6e, docket #141), whose expected sign is
+downward and therefore favours the lower half of the band, where the strain persists at close to
+its original size. THE
 ONE GENUINELY INDEPENDENT ARROW ($m_H$ is measured) STANDS:
 
 $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm anchor} \approx 4\pi\,m_H \approx 1.57\ \text{TeV}\ \ (2.5\%)$$

@@ -2249,7 +2249,13 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
  retrial runs.
 - **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND (the S-parameter tension reported in amendment 2 was withdrawn by amendment 3 — it rested on a composite-Higgs reading this model does not hold); arrow C (the census
  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
- C fell or the convention did.
+ C fell or the convention did. **Re-sized 2026-07-20:** that strain was measured against the
+ anchor as a point value (1.57 TeV), which the amendment above withdraws in favour of a 1–8 TeV
+ band. Against the band the gap is 1.6× at the top edge and 13× at the bottom, so **the audit is
+ downstream of the vertex correction rather than independent of it** — and the correction's
+ expected sign is downward, favouring the band's lower half where the strain largely survives.
+ Arrow C stays STRAINED; what changed is that its size is now a question about the anchor, not
+ about the shooter.
 - **P-2026-043** (the cosmic-dawn trough, ~5% deeper): FRESH — estimate-grade, sign is
  the content, full thermal-history run owed.
 - All other entries: statuses unchanged from their last amendments; the birefringence
