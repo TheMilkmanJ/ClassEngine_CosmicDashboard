@@ -3211,3 +3211,27 @@ compare the ledger, the tree, the registry and the master computes systematicall
 reached the same conflict by asking what an open task would deliver. Two instruments converging on
 one defect is worth noting — it suggests the grade layer is where the corpus is thinnest, and #152
 should be run rather than left pending.
+
+### 2026-07-20 — #152 opened, instrument found unfit, deferred rather than half-run
+
+Started the grade concordance and stopped at the extraction step, because the obvious instrument
+does not work and using it would have manufactured findings.
+
+**The naive extraction fails.** Grade words recur inside a row's prose, so a regex taking the grade
+per line picks the *last* occurrence rather than the row's actual grade. On the current tree it
+reports ρ_Λ as "derived" — reading the trailing "What *is* derived is the chain" from the row this
+same session regraded to **candidate** — and reports the hierarchy anchor as "not claimed" from text
+further along its row. Twenty-six rows extracted that way would have produced a list of conflicts
+that are artefacts of the parser.
+
+**The correct method, named for whoever runs it:** take each row's **first** bolded grade token as
+its grade, resolve every object to a canonical name (the same claim appears as "ρ_Λ = E_b⁴",
+"the dark-energy value" and "the pinch" across files), then compare across the four authorities —
+`DERIVATION_HUNT`, `DEPENDENCY_TREE`, `PREREGISTERED_PREDICTIONS`, `_master_computes` — against the
+hunt's own written definitions of the four grade words. It is a careful pass, not a grep.
+
+**Deferred, not abandoned.** Two conflicts in this layer have already been found by other
+instruments today — f̄ graded candidate in the hunt while three authorities said derived, and ρ_Λ
+graded derived in the tree while the hunt said candidate-referee-pending. Both were real and both
+touched flagship claims, which is why #152 is worth running properly rather than approximately. It
+stays open with the method recorded.
