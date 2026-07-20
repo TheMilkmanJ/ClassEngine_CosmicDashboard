@@ -169,7 +169,29 @@ code carries it now: `perturbations.h:495-496` declares `index_pt_delta_dcdf` an
 integrated vector, `:5508-5509` sets adiabatic initial conditions in w_dcdf and cs2_dcdf, and
 `:8004`/`:8151` build the transfer sources from them. A fluid with a sound speed, in the hierarchy.
 **What remains open is narrower and should not be confused with it:** the *conversion channel's*
-perturbation treatment, which is a genuine theory gap and is tracked as such.
+perturbation treatment — the dcdf matter-part shedding into free-streaming dark radiation
+(`rho_dcdf_conv`), the mechanism that eases S₈. This is scoped precisely: the background conversion
+is coded (`background.c:2895-2898`, an energy-conserving sink/source keyed to a(t)), and the leading
+effect is already carried — the depleted `rho_dcdf` feeds the perturbed metric source, so less
+clustering matter → suppressed growth → lower S₈ is present. What is missing is two sub-leading
+pieces: a perturbed sink on δ_dcdf/θ_dcdf, and a free-streaming hierarchy for the shed radiation
+(no `index_pt` for `rho_dcdf_conv`). It is an **implementation** task, not research — the build
+already carries CLASS's decaying-DM → dark-radiation machinery (`Gamma_dcdm`, the `index_pt_F0_dr`
+hierarchy) and the conversion is structurally the same problem: add the perturbed sink, give the
+shed radiation a hierarchy sourced by the conversion, rerun. Its expected size is ≲10⁻⁴ on S₈
+against a ~0.012 error, and — decisively — **conversion is OFF in the headline evidence chains**
+(`cmp_prtoe_fixed`, `pc_prtoe`, `cmp_prtoe_zon_disp` all sample zero conversion parameters; it is on
+only in routeD / conv_desi), so this gap does not touch the dyad-vs-ΛCDM ΔlnZ verdict — it is owed
+only before the S₈-easing sub-claim is published as a converged number.
+
+*A separate thing that travels under the same word, and must not be merged with it:* the m_e coupling
+itself is background-only by construction — `background_varconst_of_z` (`background.c:891`) is a pure
+function of redshift, and δm_e appears in no perturbation equation (`perturbations.c` uses the fixed
+CODATA `_m_e_`). That is not a gap: its spatial fluctuation is negligible for the linear fit
+(δm_e/m_e ≲ 10⁻⁷ against a 10⁻⁵ primary anisotropy — the coupling sits on its flat window plateau at
+recombination, and the physical trigger is uniformly off in the smooth pre-structure universe).
+Where δm_e is O(1) is inside virialised halos, which is the separately-booked 21-cm/small-scale
+prediction, not a linear-CMB omission.
 
 **Reproducing this: a naive `git diff` will report 64 files and ~44 700 lines, and that number is an
 artefact.** The bulk is line-ending churn — `tools/arrays.c` alone shows 3 613 insertions against
