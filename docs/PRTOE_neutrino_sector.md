@@ -283,11 +283,34 @@ the classic SN band by 10²×/10⁸× and the modern likelihood bound by 40×/4�
 completion is SN-safe at both corners with no new input; *(dividend 2)* EFT validity
 μ_∅ ≪ v_L holds by ≥ 9 orders at both corners. *(The fork, named)* flavor structure:
 **seat-aligned** (couples to the lightest mass eigenstate; Σm_ν = 61.4 meV unchanged — the
-spec's reading; the alignment derivation is owed) vs **democratic** (μ_∅·𝟙 adds μ_∅ to every
+spec's reading; its alignment derivation is worked below) vs **democratic** (μ_∅·𝟙 adds μ_∅ to every
 eigenvalue: Σm_ν → 68.3 meV — priced, disfavored by the registered 61.4, not excluded). The
 alignment question is the operator's one remaining structural residual.
 
+**The alignment, worked to a gate.** The fork is the seat term's flavor contraction:
+seat-aligned is ν̄₁ᶜν₁ = ν̄ᶜP₁ν, a projector onto the lightest mass eigenstate; democratic is
+ν̄ᶜ𝟙ν, the identity. The seat term is **medium-sourced**, and the medium is identity-blind — it
+reads energy, not flavor (the clause that also puts the mixing angles out of reach,
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §9). A blind coupling has one flavor
+structure available to it, the identity 𝟙; the projector P₁ requires the mass basis, which the
+medium cannot read. So **the democratic 𝟙 is the blind default at the operator level**, and
+Σm_ν → 68.3 meV is what the bare seat term gives — the burden sits on the aligned reading, not on
+the democratic one. Seat-alignment cannot be written *into* the operator; if it holds, it is a
+statement about the **dynamics**, not the Lagrangian. The candidate mechanism is the settling
+freeze itself (`scripts/kubo_freeze.py`, Q3): the lightest neutrino is the last relativistic
+friction partner (it goes non-relativistic at z ≈ 12, against z ≈ 290 for the heaviest), so the
+condensate's *scale* freezes at m₁ = μ_∅ — a selection by **energy** (last relativistic), which
+is blind-compatible where a flavor projector is not. What that fixes is the frozen scale; what it
+does **not** yet fix is the per-species deposit — whether the medium mass lands on the lightest
+alone (aligned, 61.4), on all three (democratic, 68.3), or graded across the transitions. **The
+gate:** a flavor-resolved settling calculation — the condensate's growth profile Φ_med(T)
+deposited per species through the three ν NR transitions — which inherits the basement build, the
+same medium equation of state that owes `kubo_freeze.py`'s standing residual (the O(1)
+coefficient of the frozen excitation). Until it is run, Σm_ν = 61.4 rides on an unproven dynamical
+alignment.
+
 **Owed after the exhibit:** the seat constant b (one pure number, from the joint vacuum's gap
 structure — inherits the basement build), and the seat-alignment derivation above. Grade:
-**operator exhibited at seat level with its UV form; κ_m's size structural (two legs); b and
-the alignment open.**
+**operator exhibited at seat level with its UV form; κ_m's size structural (two legs); b open;
+the alignment gated on the flavor-resolved settling profile — democratic at the operator level,
+aligned only if the freeze dynamics deliver it.**

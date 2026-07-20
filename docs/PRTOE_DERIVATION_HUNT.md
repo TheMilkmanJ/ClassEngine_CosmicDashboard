@@ -105,22 +105,32 @@ unmatched by construction and *must* transmit far below unity. The internal mode
 one density and transmits at order unity. The impedance condition does not merely permit the
 two readings to name different interfaces; it separates them.
 
-**What the naming costs, and what it would win.** The premise the naming rides on — that the
-radiative and binding channels are responses of one medium — is not new debt: it is the
-**same-response identification** already owed by α_c below (one medium response setting both
-the photon's coupling and the condensate's compressibility). The ladder is refereed by that
-identification and adds no independent unknown. What stays owed is the *geometric* half of the
-matching condition — the section's own scale, the quarter-wave thickness or adiabatic-taper
-length, which the amplitude condition does not supply. And the prize is worth stating plainly:
-the middle rung is not independent arithmetic but α_c = d·α read forwards (c₁ = √α_c·c with
-Landau's c₂ = c₁/√d gives c₂ = √α·c *if* α_c = 3α), so a matched-junction *derivation* of
-c₂ = √(c·αc) runs that implication backwards and **derives the model's one registered bet**.
-Until the section's scale is supplied the ladder still carries no weight — but it now carries a
-named target rather than a fence. That geometric half is docket **#129**, the velocity ladder's
-first payable step — desk work with no external gate.
+**What the naming costs — it stays an identification, not a derivation (#129).** The premise
+the naming rides on — that the radiative and binding channels are responses of one medium — is
+not new debt: it is the **same-response identification** already owed by α_c below (one medium
+response setting both the photon's coupling and the condensate's compressibility). The ladder is
+refereed by that identification and adds no independent unknown — nor any independent
+*derivation*. The impedance algebra's amplitude half is an identity for one medium: ρ_m = √(ρ₁ρ₂)
+is automatic when ρ₁ = ρ₂ = ρ_m, so it certifies only that a single-medium junction *can* match
+without reflection, not that the second sound's speed *is* the geometric mean. What would force
+the speed is the *geometric* half — a matching section of definite length, the quarter-wave
+thickness or adiabatic taper — and that half has **no occupant** here: the three rungs are three
+co-located modes of one medium, and co-located modes share no spatial junction to size. A literal
+matched-junction *derivation* of c₂ = √(c·αc) needs two spatially separated media and a
+transition section, the very two-density configuration this single-medium reading rejects. So
+the middle rung is **α_c = d·α read forwards and rewritten** (c₁ = √α_c·c with Landau's
+c₂ = c₁/√d gives c₂ = √α·c *if* α_c = 3α), which
+[PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md) already records *without
+weight* — the claim rewritten, not evidence for it. **#129 closes negative:** supplying a section
+scale cannot upgrade the ladder to an independent derivation of the bet, because the section is
+ill-posed for one medium's co-modes; and any residual "matching length," were it well-posed,
+would inherit the basement build (the constituents [PRTOE_light.md](PRTOE_light.md) §6 records as
+not yet specified), not desk work. The ladder's whole content is the consistency of α_c = 3α with
+Landau's √d and an impedance-matched internal junction; its weight is the same-response
+identification's (piece 1 below), and it carries none of its own.
 
 **The coupling form, resolved.** Once equidistribution is granted, the winding projection is cos θ with θ uniform on [0, 2π), and *which average* sets f̄ is the coupling's order. Four candidates, and the model's own data adjudicates: signed-linear ⟨cos⟩ = **0** (a signed projection averages to nothing — excluded outright by the observed ε > 0, so the coupling must be sign-insensitive); rectified-linear ⟨\|cos\|⟩ = **2/π = 0.6366**; RMS √⟨cos²⟩ = **0.7071**; variance ⟨cos²⟩ = **0.5**. A first-order Yukawa mass shift δm = g·A_eff is **linear** in the winding-projected condensate amplitude, and mass-positivity **rectifies** the sign — giving the mean-absolute, 2/π. The quadratic readings are the subleading (energy-density) coupling. And the corpus's two independent measurements — fit-implied f̄ = 0.6253, winding-sim = 0.635 — **both land on 2/π** (+1.8%, +0.3%) and **reject RMS at +13%** and variance further still. So the coupling form is not a free choice: mass-positivity kills the signed average, leading-order dominance picks linear over quadratic, and the data confirms the selection over the RMS alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
-| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**, and it arrives twice over: the phonon-gas second sound runs at c₂ = c₁/√d (Landau), and the induced loop's transverse trace gives the same d. The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α holds for the recorded ~44% induced fraction). The running α_c chain is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i). |
+| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**: the induced loop's transverse trace gives d directly (geometry, independent of the coupling), and the phonon-gas second sound c₂ = c₁/√d (Landau) agrees — but that reading is the bet rewritten, not an independent arrival (the velocity ladder above). The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α is conditioned on the roster's induced fraction of α_EM — worked below). The running α_c chain is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i). |
 
 **The base α's two owed pieces, worked (2026-07-20) — neither closes, and one of them names the
 wrong number.**
