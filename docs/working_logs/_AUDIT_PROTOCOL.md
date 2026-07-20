@@ -18,9 +18,9 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The nineteen checks
+## The twenty checks
 
-Run all nineteen. Record what was found, even when nothing was.
+Run all twenty. Record what was found, even when nothing was.
 
 *Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
 added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
@@ -202,6 +202,38 @@ T_c band was recorded as 250–530 keV over L−1 ∈ [1, 10]; recomputing from 
 pair, and the audit pass was still checking a superseded route. **The check: where a band is quoted
 beside the range it was swept over, re-run one endpoint.** A band and its stated domain drifting
 apart is invisible to every consistency check that reads only one of them.
+
+**20. DO NOT FORCE A FINDING. Verify the defect before naming it (owner ruling, 2026-07-20).**
+An audit that must produce findings will produce them, and a manufactured defect costs more than a
+missed one: it burns the reader's trust in every real finding beside it, and it sends someone to
+"fix" correct work. **Backtrack the suspected issue and confirm it is an issue before claiming it.**
+
+The failure has a signature — a suspicion arriving from a *search* rather than from *reading*. Four
+times on 2026-07-20 the main session was one command from announcing a defect that did not exist:
+"29 of 29 files quote +0.44% without the caveat" (a `grep -lv` artifact — the test listed every
+file); "the crossed-box result never landed in hierarchy_problem" (the file wrote **c = 0.789**, not
+the full `0.789262`); "the Z₄ result never propagated" (the doc said **an input**, not the phrase
+searched for); and a near-miss on `cosmological_constant`'s headline, which states +0.44% bare and
+was about to be "corrected" — until reading the next line showed it is a *τ-space* statement where
+0.44% is exact arithmetic between two candidate τ values and needs no control caveat.
+
+Each was caught by opening the file. None would have been caught by refining the search.
+
+**The rule, in order:** (i) reproduce the suspicion by *reading the passage whole*, not by re-running
+a pattern; (ii) establish what the passage is actually claiming — a statement about τ-space is not a
+statement about ρ_Λ¼, and a bound is not a determination; (iii) find the canonical value and its
+provenance (see `docs/working_logs/_CANONICAL_VALUES.md`) rather than assuming the first carrier you
+met is right; (iv) only then name it. **"Clean" is a result.** Report it plainly and often. Two
+mechanization attempts in this protocol's own history — the cardinality sweep and the
+assertive-heading sweep — returned *only* false positives across 141 files, and both were retracted;
+that is the shape of a forced finding at scale.
+
+**20a. A disagreement between two files is not yet a defect.** It is a question with three possible
+answers: the first is wrong, the second is wrong, or they are about different objects. On
+2026-07-20 the last was the answer twice — a 2.39× "two routes disagree" that was a units error
+between f/Λ and f/√σ (#134), and a T_c "conflict" where the two scales turned out to be two
+genuinely different objects (#182). **Establish which of the three before writing either one down as
+wrong.**
 
 **THE RETIREMENT→TASK JOIN (mechanized 2026-07-20, docket #172).** A retirement kills content, and
 that content usually belongs to a task. Commits already carry their task number; retirement rows did

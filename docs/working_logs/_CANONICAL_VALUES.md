@@ -1,0 +1,64 @@
+# Canonical values — the one place a disagreement gets settled
+
+> *Created 2026-07-20 on the owner's instruction. Purpose: when two files disagree about a number,
+> this file says which is right, where it comes from, and what proves it — so the disagreement is
+> resolved by **lookup**, not by re-derivation and not by whichever carrier the auditor met first.*
+
+## How to use this file
+
+**When you find two files saying different things about one quantity, come here FIRST.** Audit
+protocol check 20a: a disagreement has three possible answers — the first is wrong, the second is
+wrong, or **they are about different objects**. The third has been the answer twice in one day, so
+check the "what it is NOT" column before writing either file down as wrong.
+
+**Every row carries four things:** the canonical value, its home (where it is derived, not where it
+is quoted), its proof (a harness check ID or a script), and its grade. A row with no proof column is
+a row that has not earned a place here.
+
+**Adding a row:** only for quantities that appear in more than one file, or that have already caused
+one contradiction. This file is not an index of every number — it is the adjudicator for contested
+ones. Keep it short enough to stay true.
+
+---
+
+## Standing constants — verified by forward recomputation 2026-07-20
+
+Recomputed from α and m_e alone, independently of `audit_math_pass.py`, and every link landed.
+
+| quantity | canonical value | home (derived) | proof | grade |
+|---|---|---|---|---|
+| α_c | 3α = 0.021892 | MATH_SPINE; the 3 is the **spatial dimension d**, not the flavour count | harness, P-2026-040 | registered bet |
+| k | 1.36461191 | hierarchy §6c, two-band screened kernel | harness; three-way concordance 1.360 / 1.36461 / 1.3602 | derived |
+| λ (pairing) | kα_c = 0.029874 | hierarchy §6c | harness | derived |
+| τ | ½ln2 = 0.34657 | the Koide kernel | harness; lattice-refereed P-2026-048 | candidate, referee pending |
+| T_c | **177.10 keV** | τ·m_e | harness | derived |
+| ρ_Λ¼ | **2.2599 meV** (+0.44% vs observed 2.25) | (9/2)α⁴T_c | harness | **existence yes, precision NO** — see below |
+| ε | 1.2543% = 27α/5π | c·f̄·α_c | harness; closed form agrees to all quoted digits | derived, but see c |
+| f̄ | 2/π = 0.63662 | the winding time-average | harness | derived |
+| c | 9/10 | census count (N−1)/N | — | **data-selected, NOT framework-forced** (#126) |
+
+## Contested or corrected — the rows this file exists for
+
+| quantity | canonical | what it is NOT | ruling |
+|---|---|---|---|
+| **ρ_Λ¼'s +0.44%** | two different statements share this number | a single claim | **In τ-space** it is exact arithmetic between the kernel's 0.34657 and the observation-inverted 0.34506 — no control caveat applies. **As a precision claim about ρ_Λ¼** it is suspended: the composite quartic sits above its control edge (λ = 26–46 vs λ\* = 22.41), giving an uncontrolled 5.4–9.8% (#169). Do not "fix" the τ-space statement. |
+| **m_ββ window** | **[0.04, 5.3] meV** | [0.02, 5.3] | The 0.02 floor came from m₁ = 2.2842 meV, which is the **retired** T_c = 179 keV route's output; the ledger records its "+1.5%" as the T_c *rounding*, not a spread. Real uncertainty on ρ_Λ¼ is **0.449%** (Planck's 1.80% on ρ_Λ, quartered). |
+| **T_c = 179 keV** | **not canonical** | a derived value | Observation-inverted 176.32 keV rounded up. Retired. The derived value is 177.10 keV. |
+| **exact-kernel T_c band** | **307–714 keV** | 250–530 keV | Recomputed from the kernel that reproduces the corpus's own |J_F′| = 0.374. The booked 250–530 corresponds to L−1 ∈ [0.50, 4.78], not the stated [1, 10] — band and range were never one computation (#182). |
+| **F_dark/√σ** | **0.40–0.47** | in conflict with the NJL route's 0.1759 | Not a disagreement: the NJL script computes **f/Λ**, not f/√σ. Its own QCD calibration fails by 1.42×. The 2.39 factors as 1.424 × 1.186 × 1.419; only the middle is physics (#134). |
+| **winding integer n** | **n ≳ 1.65** (a bound) | n ~ 10–30 (a determination) | `L_gen` is never assigned a value anywhere in the corpus. n ~ 10–30 requires L ≈ 1000–9000 Gpc against a floor of 27.6 Gpc, and L is bounded only below (#180). |
+| **vertex correction c** | **0.789262**, positive | ~2.7 either way | Bethe–Salpeter crossed box, integrated not argued; 11 digits, validated against Gor'kov–Melik-Barkhudarov (1+ln4)/3 to 5×10⁻¹¹ (#141). Anchor band **0.73–2.4 TeV**. Incomplete at O(λ): the Fock insertion is uncomputed (#183). |
+| **varying-m_e support** | Hart & Chluba 2020 at **3.5σ**; recent ACT+DESI fit at **1.8σ** | "preferred at 2–3.6σ" | The 2.5–3.6σ is the **residual tension left over** in arXiv:2607.13282, not a preference. Check citations against abstracts, not against docs that quote them. |
+| **cosmic-dawn trough** | **≈1.0% deeper** | ~4.6% | The estimate charged the full −3ε to the gas temperature. Sign is the registered content and holds (#175). |
+| **quadrupole retention (27.6 Gpc)** | **90%** | 83%, or the toy's 49% | A torus is a lattice, not a continuum with a sharp cutoff; six modes sit exactly at k_min (#160). |
+| **f_wind** | **≲3×10⁻⁵**, 255× under the fence | inside [0.7%, 1.4%] | The diagonal C_ℓ sees only the k̂-monopole. Location claim survives; detection claim does not (#170). |
+| **induced α split** | **23.5%** | ~44% | The 44% is hypercharge at M_Z; α_c = 3α names α_EM at q = 0 (#130). |
+
+## Open — no canonical value exists yet
+
+Listed so nobody books one by accident.
+
+- **LHY coefficient**: 0.0080 (closed form) vs 0.0084 (used in `de_value_g_to_lambda.py` and required by its own quarter). 5.06% apart. **Owner ruling pending.**
+- **T_c's owner**: MATH_SPINE assigns it to the dyad; DERIVATION_HUNT to the SU(2) confining sector. Same arithmetic, incompatible structural claims. Three recorded points lean to the confining sector. **Owner ruling pending.**
+- **D/H width**: two-term ±0.0476 vs three-term ±0.0563; evidence points to two-term, moving the row −2.49σ → −2.94σ **against** the model. **Owner ruling pending** (`ForJustin/10`).
+- **A_s's imprint**: freeze-out (n_s = 4, white) vs scale-invariant (ξ ∝ 1/k). Exactly one can stand (#184).
