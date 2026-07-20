@@ -18,10 +18,10 @@
 > against 4πm_H = 1574, +0.14%), and §6 seats the interpretation. Other conditionality: the
 > no-bare clause and P-2026-042's anchor identification. **The
 > exponent's k is determined** — the screened-interaction integral, three concordant readings
-> (1.360 / 1.36461 / 1.3602) inside the Eliashberg window. What the gap equation still owes is not
-> its coupling but its **kernel**: no pairing interaction has ever been specified and no gap
-> equation solved in the medium — the exponential form is adopted, the coupling computed, the
-> constant derived. §6 states what the basement demands of that kernel.
+> (1.360 / 1.36461 / 1.3602) inside the Eliashberg window. Its **kernel** is the live front: §6
+> seats the gap equation in the basement and §6b fixes the channel as particle-hole, so what is
+> owed is no longer an object but a computation — showing the bend-over spectrum condenses in
+> that channel at λ = 0.03.
 > Referees: the α_c MCMC (the triangle) and HL-LHC (the portal search).
 
 ## 0. The problem
@@ -168,20 +168,20 @@ no choice about which vacuum:** the standing corpus has exactly one with a fermi
 bath at the Planck floor (the str[k₁] = 0 roster: the Standard Model's 48
 Weyl fermions plus three right-handed neutrinos, the same content P-2026-045 registers and
 the same floor the dark SU(2) sector's own balance joins). A BCS-class gap equation needs
-three things of its host, and the standing basement supplies two from recorded structure:
+three things of its host, and the basement supplies all three:
 
 | what the gap equation needs of its host | status in the Fermi-point basement |
 |---|---|
 | **a fermionic bath at the cutoff** | **met, recorded** — the finiteness roster IS the Planck-floor fermion content; Fermi-point universality (the Volovik frame the quantum-gravity file already rides) is precisely the statement that such a vacuum's low-energy fermions are generic |
 | **the coupling kα_c reaching the basement** | **met, recorded** — k is the screened-interaction integral (basement-independent by construction; the corpus's one shared k), and α_c is the medium's coupling, which reaches the Planck floor through the induced loop — the SAME loop that makes gravity itself (no new bridge is invented; the anchor uses the induced-G channel that no-bare-G already requires) |
-| **the attractive channel** (the phonon's analog: what pairs the census states) | **OWED — the one genuine residual.** The medium's own exchange must be shown attractive in the Fermi-point vacuum. This is basement-build territory, and it is the SAME gate the neutrino sector's seat constant b already waits at — the rehome adds no new gate, it joins a standing one |
+| **the attractive channel** (what pairs the census states) | **met — §6b.** The channel is particle-hole, not particle-particle: a charged Cooper condensate is excluded by thirty orders on the photon mass, and particle-hole Coulomb at α_c binds by construction. The residual is narrower than the requirement — showing the bend-over spectrum condenses in that channel at λ = 0.03 |
 
 The arithmetic is self-contained — measured m_H, the shared k, the derived 3/2, reproducing
 1576 GeV against 4πm_H = 1574 at +0.14%. Putting the gap equation in this vacuum makes the
 hierarchy answer and the gravity answer one statement: **the same fermionic floor that induces
-G pairs at kα_c, and the electroweak scale is that pairing's gap.** Grade: **structural,
-basement-gated** — two of the three requirements met by recorded structure, the third sharing
-its gate with the seat constant b.
+G pairs at kα_c, and the electroweak scale is that pairing's gap.** Grade: **structural** — the
+three requirements met, two from recorded structure and the third by the channel argument of
+§6b, with the residual now a computation inside the basement rather than a missing object.
 
 ### 6a. What the basement demands of the kernel
 
@@ -213,3 +213,36 @@ sign**, a deficit that *raises* the scale where the anchor needs suppression. At
 11.65 TeV against the anchor's 1576 GeV — over by e² = 7.4×. **The node-deficit route to the 3/2
 does not source the exponent's constant**: route 6's equipartition reading carries it alone,
 and of the two it is the one with the sign.
+
+### 6b. Which channel pairs
+
+The gap equation's coupling is α_c = 3α — electromagnetic, times the spatial dimension. That
+fixes the channel, because the two ways to pair at electromagnetic strength do not both survive.
+
+**Particle-particle is excluded, by thirty orders.** A Cooper-style condensate of two charge-e
+fermions carries charge 2e, so it breaks U(1)_EM at the anchor scale and the photon takes an
+Anderson-Higgs mass m_γ ~ 2e·v ≈ 9.5×10¹¹ eV. The recorded bound is m_γ < 10⁻¹⁸ eV
+([PRTOE_light.md](PRTOE_light.md)), a line the model's own Goldstone reading of light already
+treats as a kill. For a charged condensate to clear it the pairing scale would have to sit below
+1.65×10⁻¹⁸ eV, which nothing in the sector can do. The same-charge Cooper reading is not merely
+unsupported; it is dead.
+
+**Particle-hole is what remains, and it pays the attractive channel for free.** The condensate
+⟨ψ̄ψ⟩ is electrically neutral, so the photon stays exactly massless, and the interaction between
+a particle and a hole at coupling α_c is attractive by construction — opposite-sign sources need
+no phonon analog to bind them. **The requirement §6 lists as owed is discharged by the channel
+itself**, not by a new object. Three things corroborate the reading independently:
+
+| corroboration | what it says |
+|---|---|
+| **k's own form** | k = (1/π)∫₀¹dq/(q + 2α_c/π) is a statically-screened Coulomb momentum integral, screening length 2α_c/π = 0.0139 — the excitonic kernel exactly. A phonon kernel does not produce ln(1 + π/2α_c)/π: the integral the corpus already runs on was Coulomb all along |
+| **the density of states (§6a)** | a coupling λ = 0.0299 cannot pair at a node and needs finite DOS in the shell — which is the known condition for particle-hole condensation at a Dirac point, where the instability otherwise demands supercritical coupling. The two constraints agree rather than compete |
+| **the 4π** | ⟨ψ̄ψ⟩ is a Dirac mass, so the gap is a dynamically generated fermion mass and m_H = M_anchor/4π reads as its one-loop suppression (+0.13%). §1's "the Higgs mass is that gap's one-loop echo" acquires the mechanism it was asserting |
+
+**What the channel owes, narrower than what it discharges.** The condensate must break electroweak
+symmetry while carrying no electric charge — weak isospin but not charge — which is the standing
+requirement on any dynamical electroweak-breaking reading, and it is also what permits a 511 keV
+electron beneath a TeV condensate: the light fermion masses arise at higher order, not from the
+condensate directly. And the bend-over spectrum must be shown to condense in this channel at
+λ = 0.03. Both are computations inside the basement rather than new assumptions, so the residual
+has changed from *find an attractive channel* to *show this one condenses*.
