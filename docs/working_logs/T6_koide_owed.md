@@ -1630,6 +1630,45 @@ is the only class that delivers exactness. **The blank does not close; it change
 **Grade: UNEARNED EXACTNESS, unchanged.** Nothing in the corpus says why the graded norm vanishes.
 What the pass adds is that the search should stop visiting the aisle it has been in.
 
+### #79 — the kernel ratio's MAGNITUDE is the cone; only the phase survives (2026-07-20)
+
+Posing #101 in the kernel's own coordinates settles half of #79's target — the complex ratio
+f₁/f₀ = e^(−τ)·e^(i·2/9) — outright. The **magnitude is not a second fact to source; it is the
+null condition itself.** With the masses real, f₂ = f₁*, so |f₁| = |f₂| (checked to 4×10⁻¹⁵), and
+the null constraint f₀² = |f₁|² + |f₂|² collapses to f₀² = 2|f₁|². Hence
+
+> **|f₁/f₀|² = 1/2  ⟺  |f₁/f₀| = e^(−τ),  τ = ½ ln 2**
+
+exactly — verified on the pole masses at |f₁/f₀| = 0.707100 vs e^(−τ) = 0.707107. The exponent's
+ln 2 is the log of the **two** charged legs: |f₁/f₀|² = 1/N_charged with N_charged = 2, so
+τ = ½ ln N_charged. The kernel's amplitude ratio is therefore sourced to precisely where Q = 2/3 is
+sourced — the graded null — and τ = ½ ln 2 is forced by "two equal spacelike legs balancing one
+timelike seat," the same ½ ln 2 the shell-cutoff seam carries. **The magnitude half of #79 closes
+into #101.**
+
+**The phase does not, and cannot, come from the cone.** A vanishing graded norm is a statement about
+magnitudes; it is blind to the argument of f₁. The measured deviation from the democratic 120° is
+12.7328° = 0.222230 rad = **2/9** (confirmed on the masses) — the Brannen phase, the sector's one
+genuinely unsourced number, the same survivor #102 lands on. So **#79 reduces from "derive the
+complex ratio" to "derive one angle, 2/9"** — the magnitude is the cone, the phase is the holdout.
+
+**Three points, recorded so the cone is not over-read:**
+- **2/3 is the cone, not a tuned value.** By Parseval the Z₃ transform is unitary, so Σm =
+  f₀² + |f₁|² + |f₂|²; on the null that is 2f₀², while (Σ√m)² = 3f₀² for any vector. Hence
+  Q = 2f₀²/3f₀² = 2/3 **identically for every null vector** — there is nothing to tune; "2/3" is
+  what "on the cone" evaluates to. The object to explain is the null, not the fraction.
+- **The cone is per-sector, not universal.** The forward test on the neutrino √m-vector fails —
+  Q_ν = 0.458 at m₁ = 2.25 meV, and no m₁ brings it to 2/3 — so the null is a charged-lepton
+  statement, not a family-wide law. Whatever pins the cone acts in the charged sector specifically.
+- **The τ-mass prediction is protected iff the null is topological.** The cone fixes
+  m_τ = 1776.969 MeV (+0.91σ, the #102 table). If that null is a node-protected zero rather than a
+  coincidence, the value cannot drift without gapping the node — so the +0.91σ pull is the live
+  test: an m_τ landing off 1776.969 at ≲1.4 ppm kills the node reading. This is why "one node or
+  three branches" is the right next question — the difference between a protected zero and an
+  accident, answerable only from the basement, not the masses.
+
+**Grade: #79 magnitude — CLOSED into the cone (#101). #79 phase (2/9) — UNSOURCED, unchanged.**
+
 ### #102 — the Brannen phase, and what the lock can actually referee
 
 **The phase's deviation had the wrong sign, and the corpus already contained the contradiction.**
