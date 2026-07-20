@@ -2701,3 +2701,229 @@ both places. No action.
 today's own audit all say is open. That is the inverse of the morning's defect — there, files said
 owed while the corpus had closed; here, the board says closed while the corpus says owed. Both come
 from the same absence: nothing cross-checks task status against file status, in either direction.
+
+### 2026-07-19 — #78 (THE DEEP AUDIT) self-adjudicated: MIS-GRADE
+
+Taking this one directly rather than letting a reverse-audit agent grade the auditor.
+
+**#78's object** was "every file to 100%" against the protocol's full check set. The ledger still
+carries the morning's closing line: "THE DEEP AUDIT (#78) IS COMPLETE." That line is false under
+the protocol as the same day later wrote it.
+
+**Evidence against closure:**
+
+1. **Check 13 was not run.** The afternoon owed sweep (same day, same ledger) was the first proper
+   check-13 pass and returned ~35 documentation defects the deep audit had already "closed" —
+   including `hierarchy_problem` carrying "the gap equation's k (owed)" three paragraphs above three
+   concordant determinations of that same k. The protocol now says a file is not closed until
+   checks 12 and 13 pass; #78 claimed both and delivered neither as a corpus-wide pass.
+
+2. **Check 12 was partial.** The hierarchy_problem header/body contradiction on the 1576 GeV
+   convention vs the exact-solution 3152 GeV (reconciled only later under "check 12 on
+   hierarchy_problem") is exactly the post-edit re-read #78's own protocol demanded. The morning
+   close predated that catch.
+
+3. **The reverse-audit template instance sits inside #78's scope.** #95 was marked complete while
+   T14 link 5 (AD-direct rectification) remains OPEN in three homes. A deep audit that reached
+   "every file to 100%" would have had to either close the link or refuse #95's completion; it did
+   neither.
+
+**Ruling:** #78 is a **MIS-GRADE**. The morning's pass remains a real body of work (Pass 1 whole
+reads, Pass 2 batteries, harness growth) and is not erased — but its board status is not
+"complete." Successor work is the systematic reverse audit of completed tasks against file
+closure (companion to the owed sweep), plus any remaining check-12/13 debt the reverse audit
+surfaces. #95's rectification gap is already docketed as **#147**.
+
+### 2026-07-19 — REVERSE AUDIT opened (companion to the owed sweep)
+
+Owner-directed after #122: "Do that systematic pass, every completed task against the files."
+
+**Object:** every completed task, checked against whether its *named object* is actually closed in
+the files. Template: #95 complete / T14 link 5 open. Separate genuine mis-grades from scope
+differences (a residue sweep closing bookkeeping while a mechanism stays open is not a mis-grade).
+
+**State at session break:** five reverse-audit batches (A–E, ~111 completed tasks) were launched
+in the prior Claude session and did not return consolidated results before the usage limit. #122
+(three conflicts) and #78 (self-adjudication above) are the only reverse-audit adjudications
+landed so far. Resuming in Grok session from this ledger entry.
+
+
+### 2026-07-19/20 — REVERSE AUDIT wave 1 (Grok resume; subagents rate-limited)
+
+Method: file-first. Board status is treated as "completed" per the prior session's reverse-audit
+batch lists. Grade key: **MIS-GRADE** (board closed, named object open in files), **SCOPE-OK**
+(board closed a narrower object; residual is a different named debt), **CLOSED** (object paid in
+files), **SUPERSEDED** (later work mooted the object), **STALE-HEADER** (body paid; title still
+says OWED).
+
+#### Already landed (this session + prior)
+| # | grade | note |
+|---|---|---|
+| 78 | **MIS-GRADE** | deep audit claimed complete; check 12/13 not corpus-wide; afternoon owed sweep found ~35 defects |
+| 95 | **MIS-GRADE** | sign-map structure (links 1–4) delivered; T14 link 5 (AD-direct rectification) OPEN in three homes → successor **#147** |
+| 122 | CLOSED | adjudication of three conflicts; only #95 was real |
+
+#### Genuine MIS-GRADEs (new this wave)
+| # | named object | file evidence |
+|---|---|---|
+| **74** | Kelvin-vertex computation (Koide complex final object) | `T6_koide_owed.md`: "pass 1 — structure decisive, **verdict not reached**"; pass 2 "death clause still held"; pass 3 compresses to one spectral question still open. Computation *ran*; the named final object (sector-equality with death clause fired) did **not** land. Same defect class as #95: work on the structure marked as closing the object. |
+| **76** | THE LAST PIN R₀/R_v | `T6_koide_owed.md`: "**THE LAST PIN, read (2026-07-18): NOT RECORDED**". Candidate (ring-on-ring) named; pin not computed. |
+| **77** | RING-ON-RING TRIAL | Named as open-outcome trial / candidate postulate; no landed trial result. File still carries the pin gap as the old friend. Pre-registration ≠ closure. |
+
+Successors (board-side, not yet numbered in-repo): reopen or replace #74/#76/#77 under the actual residual — **the death-clause Kelvin-vertex verdict + R₀/R_v pin / ring-on-ring trial** — as one complex, not three phantom closures.
+
+#### SCOPE-OK (board closed a real narrower object; residual is different)
+| # | what closed | what remains (different object) |
+|---|---|---|
+| 55 | k as screened-interaction integral (not the unmechanized part) | shot-noise **count C** still unmechanized — DEPENDENCY_TREE Tier-3; hunt §8; THE_AMPLITUDE residual |
+| 65 | tenth-channel operator exhibited at seat level | seat constant **b** + seat-alignment derivation still OWED (`neutrino_sector`) |
+| 86 | the two α_c field-theory pieces **named** and P-040 internal inconsistency fixed | same-response ID + roster induced split still listed as the base-α **owed pieces** in DERIVATION_HUNT §1 — naming ≠ derivation |
+| 92 | area-law **scaling** / species-independence from the medium | regulator's **O(1) entanglement-side check** still owed (`entropy.md`) — also gates Page curve |
+| 93 | door-gap O(1) / Φ identity (#93 commit + #122) | Gibbs–Duhem mode-sum reading still "**genuinely un-built**" (`cosmological_constant`) — different object; #123 territory |
+| 104 | transfer integral at **estimate grade** (boundary verdict, four consumers named) | careful pass + **rectification efficiency** still owed; converges with T14 link 5 / #147 (`the_transfer_integral_spec.md`) |
+| 114 | gap-equation kernel specified and k reconstructed | host is **conditional** (cold degenerate FS ≠ recorded hot basement) — derivation stands, grade is conditional; not a board/file status lie |
+| 96 | chiral GW amplitude computed as **structural null** | T10 header still says OWED; body has **PAID item 1**. Grade body: CLOSED. Hygiene: **STALE-HEADER** on T10 title |
+
+#### SUPERSEDED / MOOTED
+| # | note |
+|---|---|
+| 82 | two-loop shooter redesign — mooted when perturbative T_c program died (hunt 215 / board reconciliation) |
+| 42 / 46 | thermal program / 2-loop V_eff — built to a definite negative; program closed |
+| 145 | S–flavour coupling window — mooted by composite-Higgs withdrawal; elementary Higgs reading |
+
+#### CLOSED (spot-checked)
+| # | evidence |
+|---|---|
+| 12 | c = 9/10 derived — census over charged roster; hunt + MATH_SPINE |
+| 80 | THE ROOF — census-scope legality closed by constitution clause (commit 45211bff) |
+| 91 | λ tension dissolves (derived clears real CSW bound) |
+| 143 | propagation of hierarchy qualifications — DEPENDENCY_TREE / hunt / CODE_MANIFEST now say **conditionally derived** |
+
+#### Not yet checked (wave 2+)
+Batches A–C bulk (~#1–#73 excluding sampled), batch D remainder (#75, #81, #83–#85, #87–#91, #94, #97–#98), batch E promotions (#100, #103–#111, #136–#144) beyond the S/flavour and k cluster. Priority for wave 2: **#75** (hardenings on an unfired death clause), **#81** (screening remainder), **#100** (ξ-propagation corpus-wide), promotions **#103–#109**.
+
+#### Rate / process note
+Five Claude reverse-audit subagents died at the usage limit without consolidated returns. Three Grok explore subagents then hit free-tier 429. Wave 1 is therefore a **human-orchestrated file audit**, not an agent fold-in. Findings above are re-verifiable from the paths cited.
+
+**Net so far:** mis-grades are real and clustered — premature "final object" closures in the Koide/Kelvin complex (#74/#76/#77) plus the already-known #78/#95. Scope splits dominate the rest; that is healthier than a board of phantom closes, but the complex needs reopening.
+
+
+### 2026-07-20 — REVERSE AUDIT wave 1b (priorities #75, #81, promotions spot-check)
+
+| # | grade | evidence |
+|---|---|---|
+| **75** | **SCOPE-OK** | Hardenings ran: h1 Bernoulli exponents HARDENED; h2 R₀↔horizon CLOSED one-sided; h3 systematics audit **fired and retracted** the premature 1.002. That is real work on the named hardenings. It does **not** fire the parent death clause (#74 residual). Board-complete on hardenings is fair; treating the Koide complex as closed is not. |
+| **81** | **CLOSED** (ledger-supported) | `_AUDIT_LEDGER` records screening computation "delivered on all…" and contradicts older "screening still owed" prose; later hierarchy work re-derives Thomas–Fermi screening as part of k. Residual host questions are #114/#146 territory, not #81 unfinished. |
+| **103** | **CLOSED** (commit trail) | Anchor rehomed to Fermi-point basement; grade split recorded (4db6985e / 806da183). |
+| **105** | **CLOSED** | Exemption made explicit (a2f25953). |
+| **106** | **CLOSED** with honest limit | Uniqueness argument does **not** reach our cycle (54f051a3) — that is a completed negative, not an open debt. |
+| **107** | **SCOPE-OK** | Coefficient as heat-kernel ratio 12π/48π (5f932ef0); residual O(1) regulator check matches #92 split. |
+| **108** | **CLOSED** | Per-claim grading, no longer MIXED (b6b3fefa). |
+
+Wave-1 mis-grade set unchanged: **#74, #76, #77, #78, #95**. Wave 2 bulk still open for A–C and remaining promotions (#100, #104 already SCOPE-OK, #109, #110–#111, #136–#144).
+
+
+### 2026-07-20 — REVERSE AUDIT wave 2 + wave-1 CORRECTIONS
+
+#### CORRECTIONS to wave 1 (re-read of `T6_koide_owed.md` past pass 3)
+
+Wave 1 stopped at passes 1–3 and mis-read the complex. Full file:
+
+| # | wave-1 grade | **corrected** | evidence |
+|---|---|---|---|
+| **74** | MIS-GRADE | **CLOSED (estimate-grade)** | **PASS 4 — THE VERDICT: LIFE, at estimate grade.** Death clause does **not** fire. Sector ratio 1:0.98–1.10 on the corpus's own Kraichnan–Bernoulli cell. Residual after h3 re-home is geometric **x_out**, not an unrun computation. Same class as #104: estimate-grade close is a real close. |
+| **75** | SCOPE-OK | **SCOPE-OK** (unchanged, note updated) | h1 HARDENED, h2 CLOSED, h3 audit retracted premature 1.002 and re-homed the final object to x_out. Hardenings delivered; they feed #76, they do not reopen #74. |
+| **76** | MIS-GRADE | **MIS-GRADE** (stands) | **THE LAST PIN: NOT RECORDED.** No relation ties family κ to a genesis scale. LIFE remains conditional on x_out ≈ 0.85. Board-complete over an explicitly unrecorded pin. |
+| **77** | MIS-GRADE | **CLOSED (negative)** | **THE TRIAL'S VERDICT: DEATH.** Pass 5 gate-clean readings 1:1.85–1.99 in the sealed death zone. "The ring-on-ring deliverer is dead" with autopsy in the failures ledger. Executed open-outcome trial = closed, not open. (The *candidate* ring-on-ring for the last pin is a different, unforced postulate — that is #76's residue, not an unrun #77.) |
+
+**Corrected mis-grade set:** **#76, #78, #95** (plus any new wave-2 hits). #74 and #77 removed from the mis-grade list.
+
+Successor language for the Koide complex: do **not** reopen three tasks. Reopen **one** — the last pin / x_out / missing background M (what #76 named). #74's estimate-grade LIFE and #77's death of the deliverer stand.
+
+---
+
+#### Wave 2 grades
+
+##### Batch A sample
+| # | grade | evidence |
+|---|---|---|
+| **2** | **SCOPE-OK** | Same object as #104: estimate-grade transfer integral closed; careful pass + rectification still owed (`the_transfer_integral_spec.md`). Converges with #147. |
+| **4** | **UNCLEAR / likely OPEN** | "Localization clause" appears as grammar content (`quantum_tunneling`, session notes); no quantitative Landau-velocity → E_b⁴ energy-cap computation found as a closed object. Not enough board text in-repo to force MIS-GRADE; treat as **not verified closed**. |
+| **9** | **GATED-OK** | C-code baseline integration is explicitly gated (standing/confidence + default-off options). Guarded hooks exist (`varconst_z_high`, `dcdf_floor_thaw` in CODE_MANIFEST). Board-complete as *gated* is honest; board-complete as *integrated baseline* would be a mis-grade — files support the gated reading. |
+| **12** | CLOSED | (wave 1) c = 9/10 census |
+| **18** | **CLOSED** | Basement roster adjudicated in DERIVATION_HUNT §6: dark SU(2) N_f=3 from finiteness; ledger: "#18 closed the *roster*, never the build." Build residual is hierarchy basement, not roster. |
+
+##### Batch B sample
+| # | grade | evidence |
+|---|---|---|
+| **29** | **MIS-GRADE (partial)** | Task named B1-comoving full + B6 BipoSH + B7 the turn. **B7 computed** (fcb152f3, expanding branch). B4 light queue ran. **B1 and B6 still PROJECT** in CODE_MANIFEST §6; T12 item 1 still calendar-gated BipoSH. Closing the *heavy queue* while two of three crowns remain PROJECT is the #95 pattern. Split: B7 CLOSED; B1/B6 OPEN. |
+| **38** | **CLOSED / SCOPE-OK** | ξ-derivation session trail: ξ_phase = 0 by Goldstone; ξ = −9/2 pinned as founding-coupling prediction (G-closure). Residues named (a1 convention, doubling) are smaller objects. |
+| **42 / 46** | SUPERSEDED | (wave 1) thermal / 2-loop program → definite negative |
+
+##### Batch D remainder
+| # | grade | evidence |
+|---|---|---|
+| **87** | **CLOSED** | THE TURN computed on expanding branch; cannot reverse on thaw alone; turnaround a≈2.0–2.8 with bare piece. Contracting/bounce remain bounce-sector debt (named, different). |
+| **89** | **SCOPE-OK + STALE-TAIL** | `_RESIDUAL_DEBT_CENSUS.md` table is useful and mostly current (T10 PAID null; T14 OPEN; T5 cavity RUN). Closing essay still says "three amplitude computations nobody has run (the chiral-GW number, the cavity spectrum…)" — **contradicts its own table**. Census *work* closed; tail paragraph is hygiene debt (check-12 style). |
+| **94** | **CLOSED** | T5 cavity C_ℓ run: right shape, 3–5× too weak at allowed sizes; power-spectrum route ungradeable (S/N 0.27). Completed negative/limit. |
+| **96** | CLOSED + STALE-HEADER | (wave 1) |
+| **97** | **SCOPE-OK** | Thread-residue sweep closed bookkeeping (#122 already: ≠ quartet mechanism). |
+
+##### Batch E promotions / hierarchy
+| # | grade | evidence |
+|---|---|---|
+| **100** | **CLOSED** (propagation) | Standing BBN books re-issued across carriers (dda84c33 and chain). `bbn_witness` still quotes ε=1.24% as the standing configuration with supersessions priced — not a stale-ξ ghost. |
+| **104** | SCOPE-OK | (wave 1) |
+| **109** | **CLOSED** (honest split) | `coincidence_problem.md`: era **width** derived; **occupancy** not. Task was audit/qualify — file does that without claiming full "why now." |
+| **110** | **CLOSED** | `ForJustin/_audit_coverage.md`: corrected 15 mis-binned "archive" files; live list rebuilt. |
+| **111** | **CLOSED** (negative) | PBH deuterium route priced; killed by ⁶Li co-signature 39–156× (`deuterium_scar` §5b). |
+| **136** | **SUPERSEDED / SCOPE-OK** | S-parameter priced then composite-Higgs withdrawn; exposures belong to withdrawn reading. |
+| **137–140** | **SCOPE-OK / OPEN residual** | Work recorded in hierarchy §6; bend-over DOS, k_F, rainbow, p-h symmetry still named as residual computations inside the basement — not board/file lies if tasks closed *specification* rather than *solve*. Treat residual as live physics (#146 cluster), not automatic mis-grades. |
+| **141** | **OPEN (not a reverse-audit hit if never marked complete)** | Ledger: crossed diagram uncomputed, sign undetermined, "probably adverse." If board still has #141 complete, that would be MIS-GRADE — board text not in-repo; leave as **live open task**. |
+| **142** | **OPEN residual** | Coupling's renormalisation scale called "single largest" open in hierarchy §6i area. |
+| **143** | CLOSED | (wave 1) conditional k propagation |
+| **144** | **SCOPE-OK** | Scale question for α_c=3α answered as IR/data-selected medium constant in hunt §1; rides C=1. |
+| **145** | SUPERSEDED | (wave 1) mooted |
+
+---
+
+#### Running totals (after wave 2)
+
+**Confirmed MIS-GRADEs:**
+1. **#78** — deep audit complete vs checks 12/13 not run
+2. **#95** — T14 link 5 open → #147
+3. **#76** — last pin NOT RECORDED
+4. **#29** — heavy queue complete vs B1+B6 still PROJECT
+
+**Corrected off the mis-grade list:** #74 (estimate-grade LIFE), #77 (trial DEATH executed)
+
+**Hygiene (not full mis-grades):** T10 stale header; residual-census closing essay stale vs its table; count C / α base pieces / O(1) regulator / rectification still correctly open under other numbers.
+
+**Wave 3 still unchecked:** most of A–C (#1, #5–#8, #10–#11, #14–#17, #19–#28, #30–#37, #39–#41, #44–#54, #56–#73), batch D (#83–#85, #88, #90, #98), batch E (#101–#102 if any).
+
+**Board action recommended (when task list is next touched):**
+1. Reopen **#76** only for the Koide complex last pin (x_out / missing background).
+2. Split **#29**: keep B7 closed; reopen B1 + B6 as separate PROJECT tasks.
+3. Keep **#147** as the rectification/link-5/transfer-careful consumer.
+4. Do not thrash #74/#77 — files already grade them honestly.
+
+
+### 2026-07-20 — REVERSE AUDIT wave 3 (A–C / D spot sample)
+
+| # | grade | one-line evidence |
+|---|---|---|
+| **5** | **SCOPE-OK / residual open** | P-028 / void-column still carries ~1.5-order honest gap vs blazar floor (`PREREGISTERED`); flow line derives banked input but does not erase the gap. Closing "the session" ≠ closing the 1.5 orders. |
+| **6** | **SCOPE-OK** | Portal legality largely absorbed by #80 THE ROOF (CLOSED). M_E phenomenology / full census remain UV-facing residual, not a silent open under a false complete. |
+| **7** | **SCOPE-OK** | Seesaw duty scan adjudicated; v_L at two priced corners, not a single derived value (`neutrino_sector`). Scan closed; derive-v_L as one number still open. |
+| **8** | **SCOPE-OK / partial** | Thaw hooks exist default-off (`dcdf_floor_thaw`); turn computed (#87). Exp-normalization O(1) and full perturbation-sector flag still named residual in older queue language. |
+| **14** | **CLOSED** (as audit) | Step/ramp audits executed across pre-registrations and domains (multiple commits). Ongoing ramp discipline is process, not an unclosed object. |
+| **26** | **CLOSED / SCOPE-OK** | B2 winding-gas C_V landed (area law, NBV); B3 k_int audit COMPLETE then re-qualified with host conditionality (CODE_MANIFEST: done, not superseded). A_s conceptual clearance closed; count C residual = #55 split. |
+| **52** | **CLOSED** | √σ_dark = m_e graded **irreducible input** after head-on pass (hunt). Object was grade-or-derive; grade delivered. |
+| **56** | **CLOSED** | Spurion μ = 2.25 meV graded not independent (= ρ_Λ¼ = m_ν,lightest). |
+| **90** | **CLOSED** | Gate energy bookkeeping: bounded-and-degenerate (f≈0.07 even at merger shocks); no exclusion, no clean signature (1d7bd1c6). |
+| **98** | **CLOSED** | Galactic-centre budget test **run: adverse at ~3×** at parsec radii; escape named (`galactic_atoms`). Completed adverse. |
+
+No new hard MIS-GRADEs in this sample. Mis-grade set still: **#29, #76, #78, #95**.
+
+Coverage estimate: ~45 of ~111 completed tasks graded or sampled; high-risk clusters (Koide, hierarchy, heavy queue, promotions, transfer/rectification) covered. Remaining bulk is lower-risk hygiene/mining/docs tasks.
+
