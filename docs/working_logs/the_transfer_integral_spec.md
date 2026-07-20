@@ -137,3 +137,37 @@ consistency the standing pair (m, λ) was always carrying silently, or an identi
 *Stage 4 (the close): evaluate I₀ from the tenth channel's UV form at T_sph, run
 η_B = conversion × I₀·⟨sin Δθ⟩·window/s against the pre-committed acceptance band
 (~6×10⁻¹⁰ within 10²), and grade.*
+
+## STAGE 4, FIRST PASS (2026-07-19) — one branch killed by arithmetic, the live branch named
+
+**The seat-trickle branch is DEAD — 26 orders short, cleanly.** The spontaneous-leptogenesis
+structure through the broken-phase seat term (the Majorana insertion m₁ ≈ 2.25 meV biasing
+visible-L production against the rotating phase's effective chemical potential θ̇):
+
+  Γ_ΔL/H (T_sph) = m₁²M_Pl/(1.66√g*·T³) = 1.6×10⁻¹²
+  bias θ̇/T = 1.9×10⁻²⁴
+  η(seat trickle) ~ (Γ_ΔL/H)·(θ̇/T) ≈ 3×10⁻³⁶  vs needed 6×10⁻¹⁰
+
+The pre-committed FAIL condition fires for THIS carrier: the low-energy seat term alone cannot
+be the transfer. A real negative, cheap to have found before a session was spent on it.
+
+**The live branch — the UV form's coherent vertex, and it walks into a two-sided squeeze.**
+Above v_L the dim-5 operator (c_A/v_L)·Φ_med·σ_L·ν̄₁ᶜν₁ carries a (T/v_L)²-class enhancement,
+and at the MeV corner that factor is ~10¹⁰ at T_sph — but the SAME enhancement, run through
+thermal Φ, would equilibrate the medium–ν system and detonate the non-thermalization law. The
+branch survives only because the medium is a COLD CONDENSATE, not a bath participant: the
+vertex that transfers is the coherent one (⟨Φ_med⟩(T_sph) — the quartic-era amplitude, large),
+while the incoherent 2→2 must stay under the thermalization bound. **The same operator must
+trickle enough for η yet never equilibrate — the size-XOR-quiet grammar's return, now in the
+transfer sector.** Whether the coherent/incoherent split opens a window (the coherent rate
+∝ ⟨Φ⟩², the thermalizing rate ∝ T² occupations — DIFFERENT scalings, so a window is not
+excluded a priori) is the next computation: evaluate both rates at T_sph with the quartic-era
+⟨Φ⟩ from the recorded Ψ₀, against η's need on one side and the non-thermalization bound on
+the other. **The corner matters:** at the TeV corner (v_L > T_sph) the UV enhancement never
+turns on and the branch likely inherits the seat-trickle death — which would make the MeV
+corner (CMB-S4-armed) the transfer's ONLY home: a corner-selection consequence nobody
+registered, worth its own line if the window computation confirms it.
+
+*State: fork #1's carrier survives only in its UV/coherent configuration at the MeV-corner
+class; the two-sided window (coherent-enough vs quiet-enough) is the stage-5 computation, with
+both bounds already recorded in the corpus (η's need; the tribunal's thermalization rates).*
