@@ -18,7 +18,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 ## THE NEAR SKY (1–2 years)
 | referee | grades | rule |
 |---|---|---|
-| **DESI-era Σm_ν** | the neutrino block's **60.8–61.4 meV**, the spread being the oscillation splittings (P-2026-012's own give 61.2; PDG-central NH give 60.8; 61.4 needs Δm²_atm ≈ 2.52×10⁻³) | robust bound < ~60 meV kills; a measured Σ ≈ 61 crowns; the P-023 internal tension arbitrates itself. **The margin is 0.8–1.4 meV, not 1.4** — quote the splitting with the number |
+| **DESI-era Σm_ν** | the neutrino block's 61.4 meV (61.35 at m_lightest = 2.25 meV, 61.40 at 2.284 — harness-checked on NuFIT normal-ordering splittings) | robust bound < ~60 meV kills; a measured Σ ≈ 61 crowns; the P-023 internal tension arbitrates itself |
 | DESI DR3 w(z) | w = −1 exactly (the peg) | robust thawing/w ≠ −1 kills the floor |
 | TRGB ladder (P-2026-001) | the no-hedge ladder bet | as registered |
 | the radio referee | the D/H fork (D/H = 2.387×10⁻⁵ → 2.407–2.463×10⁻⁵ with the genesis residual; a self-adverse owned bet; the registered pull −2.9σ eases to **−2.5…−1.4σ** on the quotable budget under the standing high-f books, and does not reach Cooke — hunt §8 1b) | as registered |

@@ -1039,17 +1039,13 @@ dm2_atm=2.5×10⁻³ eV²):
 | **Σm_ν** | **0.061 eV** | **0.103 eV** |
 | m_beta (KATRIN-type) | 9.1 meV | ~50 meV |
 
-> **NOTE ON PRECISION (2026-07-20) — the sum is splitting-dependent, and the kill margin is
-> narrower than the corpus's headline figure suggests.** The registered value above is 0.061 eV, and
-> the working files quote **61.4 meV**. Recomputing from the splittings *this entry states*
-> (Δm²_sol = 7.4×10⁻⁵, Δm²_atm = 2.5×10⁻³) returns **61.2 meV**; current PDG-central NH values
-> (7.53×10⁻⁵, 2.453×10⁻³) return **60.8 meV**. Reproducing 61.4 needs Δm²_atm ≈ 2.52×10⁻³ — a
-> legitimate choice, but a particular one. Since the referee rule elsewhere reads "a robust bound
-> below ~60 meV kills", **the margin is 0.8–1.4 meV depending on which splittings are adopted**, and
-> the prediction should be quoted with the splitting named rather than as a bare 61.4. The
-> conclusion is unchanged — normal ordering, m_lightest small and nonzero — but the headroom against
-> its own kill line is thinner than a bare number implies, and it is a DESI-era prediction where
-> that thinness is the whole test.
+> **NOTE ON THE SPLITTINGS (2026-07-20).** This entry's parenthetical quotes Δm²_sol = 7.4×10⁻⁵ and
+> Δm²_atm = 2.5×10⁻³, which are rounder than the values the corpus actually computes with —
+> **7.42×10⁻⁵ and 2.515×10⁻³, current NuFIT for normal ordering**. The difference is 0.15 meV in the
+> sum (61.21 against the booked 61.35–61.40), well inside every decision rule that touches it, and
+> the harness checks the sum at both the low anchor (m_lightest = 2.25 meV → 61.35) and the high one
+> (2.284 → 61.40). Recorded so the two sets are not mistaken for a disagreement about the prediction;
+> the prediction is the block's, and it stands.
 
 **Falsification (both ways, per the registry rule):**
 - KILLED by: Σm_ν measured >> 0.10 eV (excludes both hierarchies); OR m_lightest pinned

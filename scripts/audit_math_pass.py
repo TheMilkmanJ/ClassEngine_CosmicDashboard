@@ -748,6 +748,14 @@ chk("hierarchy 6d", "exact-solution anchor 2*Lam*exp(-1/lam) (GeV)", 3152.3,
 chk("hierarchy 6j", "Delta_S per degenerate heavy doublet", 0.05305, 1/(6*math.pi), 1e-3)
 chk("hierarchy 6j", "max doublets from |S| < 0.14", 2.639, 0.14*6*math.pi, 1e-2)
 
+# ---- P-2026-012's parenthetical splittings vs the ones the corpus computes with
+# The registry entry quotes rounder values (7.4e-5, 2.5e-3) than the block above
+# uses (7.42e-5, 2.515e-3 — current NuFIT, normal ordering). The prediction is the
+# block's; this pins the size of the documentation gap so it cannot drift further.
+chk("P-2026-012", "Sigma m_nu at the registry's quoted rounder splittings",
+    61.21, (2.25e-3 + math.sqrt(2.25e-3**2 + 7.4e-5) + math.sqrt(2.25e-3**2 + 2.5e-3))*1e3,
+    5e-3, "meV")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
