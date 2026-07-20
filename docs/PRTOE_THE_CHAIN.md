@@ -153,8 +153,14 @@ next cycle's genesis reads this cycle's closing books and nothing else.
 mid-chain is the model's strength (which is why the fit works: the data lives mid-chain).
 **The two named debts (what unification still owes):** (i) the bounce equations (0→1) and
 the contracting branch (the expanding turn is computed — a ≈ 2.0–2.8, MATH_SPINE §7d; the
-bounce sector holds both ends of the cycle); (ii) the two-draws question (4→5 — the
-draw-epoch conflict's proposed resolution, geometric session decides). *(The τ link reduced
+bounce sector holds both ends of the cycle); (ii) **the scaling mechanism at link 5** — what holds
+ξ/ℓ_H at 3.45×10⁻³ across every decade the CMB resolves. *(The draw-epoch conflict this debt used
+to name is settled: the two draws are separate mechanism CLASSES, not two events competing for one
+epoch. The topology draw is a genuine freeze-out at condensation; the census imprint is not a
+freeze-out and cannot be, since one frozen comoving cell is white at every k by construction and
+returns n_s = 4 against a measured 0.9649. So there is no epoch to reconcile — one is an instant,
+the other a process. What survives is the scaling picture's own missing mechanism, which is a
+different and harder debt than the one it replaces.)* *(The τ link reduced
 to the edge-shape discriminator link 7 already carries — tether 7→8.)*
 **Checked-and-cold rooms (filed, no claims):** the condensation GW background (misses
 PTA both ways); the 511 keV line vs leptophilia (the transfer vertex is seesaw-tiny —
