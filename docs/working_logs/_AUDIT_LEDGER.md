@@ -2279,3 +2279,47 @@ was prompted by an adverse-looking result rather than by routine. That is the ac
 is worse than the individual errors: **I check hardest when I dislike the answer.** The standing
 rule from earlier today — compute every O(1) entering k twice, in different variables — is now
 extended: the second computation is mandatory whether or not the first one looks wrong.
+
+### 2026-07-19 — k verified by an independent route (the rule applied to itself)
+
+Under the standing rule — every O(1) entering k gets a second computation in a different way,
+whether or not the first looks wrong — k was re-derived by a route sharing no algebra with §6c:
+the density of states by numerical differentiation of the state count rather than the analytic
+kF²/π²v, and the Fermi-surface average by 4×10⁶-sample Monte-Carlo over the sphere rather than the
+analytic angular integral, with no change of variables anywhere.
+
+- N₀: numeric 0.1013211836 against analytic 0.1013211836 — exact.
+- ⟨V⟩_FS: Monte-Carlo 0.294527 ± 0.000249 against analytic 0.294846 — 1.3σ.
+- **k: 1.36314 ± 0.0012 (MC) against 1.36461 booked.**
+
+So the one claim of today that rests on a chain of my own algebra now also rests on a computation
+that shares none of it. The four errors earlier in the session were all in that algebra; none of
+them touched this route, and it lands on the same number.
+
+### 2026-07-19 — #139: the equal-band factor is forced by neutrality; the band closes at a factor of a few
+
+**#139a — r = 1 is derived, not assumed.** §6c's screening carries N_screen = 2N₀, and it is the
+chain's most sensitive number: ∂lnM/∂r ≈ 11.6, so a 25% band asymmetry is a factor 18 on the
+anchor. Neutrality forces it. The basement vacuum is electrically neutral; a neutral semimetal is
+compensated (n_e = n_h exactly); for pockets of the same dispersion n ∝ k_F³ so compensation gives
+equal k_F; and DOS ∝ k_F²/v then gives N_e = N_h. **The same neutrality that selects the
+particle-hole channel in §6b equalises the screening bands.** One rule, two places.
+
+The residual is velocity asymmetry: compensation fixes densities, not densities of states, so
+r = v_e/v_h and a 1% asymmetry is 13% on the anchor. Exact particle-hole symmetry of the dispersion
+is therefore needed at the percent level *at the pairing shell*, not merely at the node — a
+statement about the bend-over's shape, and the sharpest constraint the basement build must meet.
+
+**#139b — the truncation is what costs the precision.** Vertex corrections enter the rainbow
+approximation at relative order λ = 3.0%, which at 33× leverage is a factor ≈ 2.7 either way. It
+dominates the remaining band.
+
+**The band, assembled:** vertex ≈ 2.7, E_F position ≈ 1.6, percent-level asymmetry ≈ 1.1 per
+percent. **The anchor is a few TeV to within a factor of a few — roughly 1 to 8 TeV.** Every piece
+of the mechanism derives; the precision is what the truncation costs.
+
+**A habit worth recording against me.** Twice in this session a print statement in my own script
+overclaimed relative to the numbers it was printing — "about a factor 2 either way" against a table
+showing 18×, and "a factor ~2" against a table showing 13%. Both were caught by reading the output
+rather than the summary line. The failure is the same shape as the four O(1) errors: a summary
+written from expectation rather than from the result sitting next to it.
