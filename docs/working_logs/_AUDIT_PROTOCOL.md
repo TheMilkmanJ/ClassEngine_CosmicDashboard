@@ -123,3 +123,29 @@ Audience-facing first, deepest-cited first, because those carry the most exposur
 4. The registry and the ledger
 5. Domain files, by citation depth
 6. Working logs
+
+## The payoff check — a second instrument, and it catches a different defect
+
+The reverse audit asks *"is this closed task's object actually closed?"* and finds bookkeeping
+errors. A second question finds something else: **for each OPEN task, what does its payoff look like
+if it succeeds — and does any file already claim that payoff?**
+
+It found the sharpest defect of the 2026-07-20 pass. T14 grades link 5 — the AD-direct rectification
+— as "[OWED — THE one missing link]". Its payoff, if it lands, is the three-way convergence of
+matter asymmetry, helicity and winding on a single draw. And `PRTOE_cosmic_magnetism.md` was
+asserting exactly that, as a standing result, in an audience-facing domain file: "magnetic helicity
+with a **DETERMINED SIGN** … the SAME topological draw that set matter-over-antimatter." The
+specialist file graded it open; the domain file sold the conclusion. Corrected: the sector predicts a
+helicity sign *relative to the winding*, and cannot say which handedness the matter universe
+corresponds to until link 5 lands.
+
+**Why the reverse audit could not have found it.** That pass walks *completed* tasks. This defect
+lived at the far end of an *open* one — a claim standing in the corpus as though the open work had
+already succeeded. Nothing in a completed-task sweep looks there.
+
+**Run it on the open board, not the closed one.** For each open task: name the payoff, grep for it,
+and check whether any file states it as established rather than as owed. Applied the same day to
+#115 (payoff: A = √2 derived, after five recorded routes to it died), the check came back **clean** —
+the flagships use Q = 2/3 as *measured input* and derive the kernel modulus from it, and the
+dependency tree grades the chain candidate. A clean result is worth recording too: it says the
+sector's documentation held under a targeted attack on its most-attacked object.
