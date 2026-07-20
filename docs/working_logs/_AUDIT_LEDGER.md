@@ -2208,3 +2208,35 @@ Gaussian/Heaviside slip in the same quantity. Three instances in one session, al
 and normalisation layer of a number the anchor reads at 33× leverage. The lesson is not "be careful"
 but structural: **any O(1) entering k must be computed twice in different variables before it is
 booked**, because the harness cannot see a convention — it only checks the arithmetic it is given.
+
+### 2026-07-19 — #137: the anchor's precision retired, and where the pairing actually sits
+
+Two results, both from asking what N₀ really is at the pairing shell.
+
+**1. The pairing is not at the bend-over.** λ depends on the density of states only through
+y = e²N₀/2k_F², and ∂lnM/∂lnN₀ = 25.8. A factor-two enhancement — a mild van Hove peak, which is
+exactly what a band extremum gives — puts the anchor at 1.25×10⁹ GeV instead of 1576. The anchor
+therefore *requires* the linear cone's density of states, so §6a's "the pairing is a cutoff-scale
+event at the bend-over" was wrong and is corrected: what supplies finite DOS is a **finite chemical
+potential**, a Fermi surface at some k_F inside the cone. The bend-over is only the cutoff.
+
+**2. The anchor's precision does not survive its own leading correction.** The BCS factorisation
+treats ρ as constant over the shell; in a cone ρ ∝ E². The shell's width follows from the
+exponential itself — Λ_shell = Δ·e^(1/λ) = 5.43×10¹⁷ GeV = 0.223 M_red — and the correction is
+mild because the log weights dξ/ξ and is dominated by the bottom of the shell:
+⟨ρ/ρ(E_F)⟩_log = 1.0141. But at 33× leverage a **+1.41% correction to λ moves the anchor from 1576
+to 2507 GeV, +59%.**
+
+**So the grade changes.** The +0.14% agreement with 4πm_H is *finer than the calculation that
+produces it* and cannot be read as evidence at that precision. What the chain supports is a TeV
+anchor with a factor-of-two-class band — 1.6 to 2.5 TeV from this correction alone, before #137's
+remaining DOS work and #139's truncation. That band is what HL-LHC tests, and it is the honest
+claim. Three checks added (now 325), including the systematic itself so it cannot be quietly
+dropped.
+
+**Note on what this does and does not cost.** It removes a precision claim the corpus has been
+carrying, and it does not touch the mechanism: the exponential form, α_c, the two-band screening
+constant and the measure all still derive, and every option in the band sits at the TeV scale. The
+result is that the hierarchy chain is *better founded and less precise* than it was this morning —
+which is the correct direction for a claim that was previously reading 0.14% off a leading-order
+calculation with a 33× amplifier in it.
