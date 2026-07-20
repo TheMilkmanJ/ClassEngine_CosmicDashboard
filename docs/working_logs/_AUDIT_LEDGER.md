@@ -2639,3 +2639,20 @@ form being coincidental (returns k to the recognised closed form it was this mor
 Recording that the third is not the least likely. A day that began by deriving k has ended by
 establishing that the derivation requires a host the model does not have, and that the nearest host
 it does have misses by a factor of two. That is a real result and it is adverse.
+
+### 2026-07-19 — a pattern noticed and dismissed: b = f̄·α_c is an identity, not a clue
+
+Noticed that the screening constant b = 2α_c/π equals f̄·α_c exactly, f̄ = 2/π being the winding
+average — which would mean k's integral is built from objects the corpus already has and needs no
+basement band structure at all. **Dismissed: it is algebra, not physics.** 2α_c/π *is* (2/π)·α_c;
+any quantity of that form equals f̄·α_c. The apparent identity carries no information.
+
+The substantive question would be whether the two 2/π's share an origin, and they do not: f̄ = 2/π
+is ⟨|cos θ|⟩, an angular average over the winding; b's 2/π assembles from 4π (in e²) × 2 (two bands)
+÷ π² (in N₀) ÷ 4 (the transfer normalisation) — loop and density-of-states factors, no angular
+average anywhere. Two unrelated routes to a common number.
+
+Recorded because it is the fourth favourable pattern noticed today and the shallowest, and because
+a coincidence dressed as an identity is exactly what a later reader — or a later me — would chase.
+The other three (Migdal suppression, the one-cone protection of r = 1, the ladder resummation) at
+least required a physics argument to reject; this one only required writing the number out.
