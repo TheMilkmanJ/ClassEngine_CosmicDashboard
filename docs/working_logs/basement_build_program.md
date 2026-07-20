@@ -114,7 +114,48 @@ step — genuine model-building, not gated on any run.
 - **The 2.9 near-lock's closure** — whether the basement's own threshold corrections close the
   non-abelian gap at M_Pl and turn the near-lock exact. A bonus round, not a lock.
 
-*Honest state: the target is verified coherent (part 1), the constituent count has a suggestive
-value pending one convention (part 2), and the specification of the constituents themselves —
-the actual UV completion — remains open and is genuine model-building. No part of it is gated on a
-run; it is gated on physics not yet done.*
+## Part 4 — the Koide sector's demand collapses to ONE node (2026-07-20)
+
+The Koide-facing locks are not independent targets; the mass sector's own reduction (T6, the
+kernel/holonomy pass) shows they are faces of a single object. In the Z₃ kernel the Koide amplitude
+and the Brannen phase are the **radius** and the **winding** of one graded cone:
+
+- **A = √2 (lock vi) is the cone's radius.** Q = 2/3 ⟺ the family √m-vector is null on the
+  Z₃-graded form f₀² − |f₁|² − |f₂|² (signature +,−,−). "A = √2" is not a fitted amplitude; it is the
+  statement that the vector sits on the cone — §6's "the relation lives entirely in the amplitude",
+  read structurally. And 2/3 is not a tuned fraction: for *any* null vector Σm = 2f₀² while
+  (Σ√m)² = 3f₀², so Q = 2/3 identically. The object to explain is the null, not the number.
+- **The phase 2/9 is the cone's holonomy, not a seventh lock.** 3·θ_B = Q — verified a genuine
+  relation, not an identity (it fails every non-lepton triple) — winds the phase around the three
+  seats: θ_B = Q/3, the per-generation share. The Brannen phase is the winding of the same cone the
+  amplitude is the radius of.
+- **The three seats are the three Fermi points (lock ii), organised by the Z₃ (lock iii).** The
+  generation index is the Fermi-point label; the Z₃ is what makes the three one orbit, so they share
+  one cone.
+- **The null itself plausibly descends from lock (i).** A Fermi point is a *protected gapless* node —
+  that protection is the str[k₁] = 0 balance (part 3a) — and a massless node is what a null cone is.
+  So "why the radius is exactly √2" is "why the node is exactly gapless": the same finiteness
+  condition that fixes three generations, read as the exactness of the Koide null.
+
+**The consequence for the build.** The six locks are really **two objects**: the *family node* —
+locks (i),(ii),(iii),(vi) plus the Brannen phase, all faces of one Z₃-protected gapless
+three-Fermi-point node with a null cone — and the *gauge handout*, locks (iv),(v), the U(1) outlier's
+emit mechanism (part 3+). The Koide sector no longer hands the basement four separate demands; it
+hands it **one**: deliver a genuine Z₃-symmetric protected node on three Fermi points, and its cone's
+radius (√2) and winding (2/9) both follow.
+
+**What this does not yet do (the honest residual).** It does not build the node. Two steps remain,
+both UV: (a) promoting the Z₃ from the parametrization *scaffold* §6 calls it to a genuine protected
+symmetry of the medium — only a real symmetry makes the three Fermi points one cone-sharing orbit;
+and (b) the bridge from the medium's momentum-space Fermi points to the family-space √m cone — the
+identification (ii) asserts but does not derive. Both are the same model-building the rest of this
+program owes; the gain is that they now discharge four locks and the phase at once, not one.
+
+## Honest state
+
+*The target is verified coherent (part 1); the constituent count is NOT pinned by the cheap
+cutoff route (part 2, retracted) but constrained through the mass spectrum (part 3b), which forbids a
+degenerate spectrum and forces the recorded O(M_Pl) band; the Koide-facing locks reduce to one
+protected Z₃ node (part 4); and the specification of the constituents themselves — the actual UV
+completion, that node and the gauge handout — remains open and is genuine model-building. No part of
+it is gated on a run; it is gated on physics not yet done.*
