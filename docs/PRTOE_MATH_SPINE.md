@@ -48,7 +48,11 @@ One dark superfluid, two components (the two-field split):
 * **Field 1** — the dcdf fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
 [**MEASURED**, confirmed three independent ways: the coherence length ξ = ħ/(m c_s) returns
 398 AU against the recorded 402; the Schive core radius returns 7.14 pc against the recorded 7.0 for
-a 10⁹ M☉ halo; and the superradiance window lands on its recorded 6×10⁸–3×10⁹ M☉. Under the onset
+a 10⁹ M☉ halo; and the superradiance window lands on its recorded 6×10⁸–3×10⁹ M☉ — **that third one
+is support and exposure in the same object**: the band is populated and carries high measured spins,
+and the model brings no defence there, the λ-quench margin computed at its own quartic and mass
+being −83.7 to −85.8 decades across α_g = 0.1–0.5, so P-2026-034 stands or falls on the spin
+measurements alone. Under the onset
 clock T_on = √(m·M_red/0.61) this mass sits at **z_on = 4.03×10⁷ (log₁₀ 7.605)**, which is the value
 `include/background.h` carries as the derived identity and which five of the six production configs
 set. *(An earlier confirmation recorded here — the free-z_on optimizer's landing at log₁₀ z = 7.5517
@@ -81,8 +85,11 @@ running instrument:
 
 > **ε = c·f̄·α_c = 27α/5π = 1.2543%** (concordance joint 1.2403 ± 0.0079%), with
 > - **c = 9/10** — a counting fraction (N−1)/N over the universal charged-fermion roster: 9 charged
-> species plus the vacuum's own seat. The neutrinos sit on the seat rather than in the count, because
-> their mass is medium-sourced rather than electroweak; the running α_c chain is the independent check;
+> species plus the vacuum's own seat, the neutrinos sitting on the seat rather than in the count
+> because their mass is medium-sourced rather than electroweak. **The value is data-selected, not
+> framework-forced:** the step that licenses a democratic count at all is open
+> ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1, the two-census marriage), and what the
+> value rests on independently is the ε-blind ensemble — c = 0.903 [0.867, 0.942], −0.08σ from 9/10;
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
 > winding's many-turn equidistribution; the coupling form is now data-selected (2026-07-16):
 > mass-positivity kills the signed average (⟨cos⟩=0), leading-order (Yukawa, linear) picks
@@ -217,16 +224,23 @@ the electron-CW VEV v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV — is RETIRED
 recorded operating point; autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md));
 its formulas do not describe the standing model.*
 
-**BBN clearance [CLEARS — the double regime-citation correction]:** the deuterium constraint's
-severity decomposes by process: weak rates n↔p (T \~ 500–1500 keV, \~75% of the m_e lever),
-n-decay phase space (\~10%), e± heating (\~10%), the bottleneck itself (\~5%, B_d nuclear,
-m_e-insensitive). The dyad's transition sits at T_c = 177.10 keV, and BBN itself fences it to
+**BBN clearance [CLEARS at the adopted T_c — and that value is the condition]:** the deuterium
+constraint's severity decomposes by process: weak rates n↔p (T \~ 500–1500 keV, \~75% of the m_e
+lever), n-decay phase space (\~10%), e± heating (\~10%), the bottleneck itself (\~5%, B_d nuclear,
+m_e-insensitive). The dyad's transition is taken at T_c = 177.10 keV, and BBN itself fences it to
 [70, 500] keV — the deuterium bottleneck below, the weak-rate window above — with the adopted value
-interior by 2.5× and 2.8×, so **the dyad NEVER touches the weak-rate window**; AND the dyad is
-LEPTONIC (quarks \~2-loop, \~10⁻⁹), whose full-BBN ceiling is \~0.3–1σ, not the universal/
+interior by 2.5× and 2.8×, so **at that value the dyad never touches the weak-rate window**; AND the
+dyad is LEPTONIC (quarks \~2-loop, \~10⁻⁹), whose full-BBN ceiling is \~0.3–1σ, not the universal/
 hadronic 12σ:
 
 > **effective tension = (temporal exposure 0.05–0.25) × (leptonic 0.3–1σ) ≈ 0.02–0.25σ → QUIET.**
+
+**Read that against the band above, because it is the same question twice.** The clearance is keyed
+to 177.10 keV, which the confining chiral ratio supplies; the dyad's *own* two internal
+determinations intersect at 307–714 keV, which overlaps the weak-rate window across most of its
+range and puts 53% of itself past the fence's 500 keV. So the clearance holds for the temperature
+the ramp is keyed on and is **not** established for the dyad's own — which is why the re-keying
+question above is numerical and not only structural.
 
 "When D forms" ≠ "when m_e matters" — two different electron-scale clocks. Code: the dyad window
 `varconst_transition_redshift < z < varconst_z_high` (`varying_z_high`, new 2026-07-10; ≤0
@@ -379,14 +393,17 @@ elsewhere in the corpus:
 - *spurion identification* — done in [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md) §2: μ is a
   dimension-1 lepton-number-breaking parameter, distinct from the dimensionless varying-m_e amplitude.
 - *low-scale seesaw* — **adjudicated** by the seesaw duty scan (same file).
-- *leptophilia portal* — established in [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2, census-forced and
-  leptophilic across sectors.
+- *leptophilia* — established in [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2, and **by data**: a
+  universal quark-mass shift at ε lands at +12–18σ on D/H. What is settled is that the coupling is
+  leptonic; the *portal* is not, and it is carried in the owed list below.
 - *the gate-0 confirm* — #40 (RG V_eff + BBN network) confirms rather than decides (§4).
 
 **Genuinely owed:** the dark-energy *value* if Route-D dies (falls back to constitution — the
 branch is DESI DR3's to decide); the seat constant b in the neutrino tie, gated on the basement
 build — which is itself gated on the band structure the hierarchy chain's §6c needs, docket #146
-([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8, the open-surface table).
+([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8, the open-surface table); **the portal's
+selection rule** — which Standard-Model scalar the singlet |Ψ|² multiplies (§0), desk work with no
+external gate, docket #125.
 
 **Standing:** provisional pending the named referees, DESI-capped; the branch is registered
 (P-2026-056) with its guards discharged, and its adjudicating chain is running.

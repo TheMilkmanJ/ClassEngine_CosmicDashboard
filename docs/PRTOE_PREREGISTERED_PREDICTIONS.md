@@ -1559,8 +1559,10 @@ the Sakharov ingredient for **leptogenesis**. The lepton sector is the ONLY sect
 renormalizable number-violation (quarks have none → B conserved), so the model's AD
 asymmetry, IF it is the lepton asymmetry, is built here — and the medium's coupling to L
 (for leptogenesis) drags along the amplitude coupling that IS the dyad (δm_e). This is the
-candidate DERIVATION of the leptophilia (the once-owed object — since derived via the Majoron:
-quarks carry L = 0; this leptogenesis route stands as its companion): leptonic because the medium is
+candidate DERIVATION of the leptophilia (the once-owed object — **still owed**: the Majoron route to
+it was withdrawn 2026-07-20, the singlet |Ψ|² being L-neutral and screening no quark bilinear, so
+leptophilia is carried by data — loop order plus the +12–18σ D/H bound — and this leptogenesis route
+stands as the surviving structural companion): leptonic because the medium is
 the asymmetry field and the asymmetry can only route through the L-violating (lepton) sector.
 [OBJECT-PENDING on: AD-asymmetry = lepton asymmetry; amplitude-follows-current; magnitude
 → η_B ~ 6×10⁻¹⁰.]

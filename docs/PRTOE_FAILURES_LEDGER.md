@@ -2168,6 +2168,57 @@ is the files that were quoting it, and the red-team brief is the one that cannot
 [ESTABLISHED] tag on an inherited argument makes it look checked, and a defence that reaches a true
 conclusion gives a reviewer nothing to trip on.
 
+**SECOND WAVE — the propagation sweep above was itself incomplete (checks 14–19 pass, 2026-07-20).**
+The row above closed on three files. Running check 14 across the flagship set found the same retired
+leg live in **three more, at seven further sites** — none of which the first sweep reached, because
+it searched the premise's own wording rather than the conclusions carrying it.
+
+| file | what it said | fixed to |
+|---|---|---|
+| `PRTOE_DERIVATION_HUNT.md` §1 (×2) | *"quarks carry L = 0 and sit untouched"*; *"quarks carry L = 0 and the tree coupling is exactly zero"* — the premise the two-census marriage argument runs on | held off by loop order and by data, with the singlet named L-neutral |
+| `PRTOE_DERIVATION_HUNT.md` §6, §9 | *"leptophilic by **identity**"*; *"the census axiom is what pays for **leptophilia**"* | leptophilic by loop order and by data; the census axiom pays for the *universality* |
+| `PRTOE_PREREGISTERED_PREDICTIONS.md` (P-006 open half) | *"the dyad **is** the Majoron … quarks carry L = 0, making the tree-level quark coupling **zero by the symmetry that defines the field**, not merely small"*, citing `dyad_gas` §2 as [ESTABLISHED] | reasoning replaced, verdict unchanged; the withdrawn symmetry leg recorded with the claim |
+| `PRTOE_PREREGISTERED_PREDICTIONS.md` (neutrino home) | *"since **derived** via the Majoron: quarks carry L = 0"* | still owed; the Majoron route withdrawn |
+| `PRTOE_MATH_SPINE.md` §9 | leptophilia portal listed as **settled**, *"census-forced"*, citing `dyad_gas` §2 — which by then said the opposite | settled as *leptonic*; the portal moved to the owed list as docket #125 |
+
+**And the correction itself carried a wrong number, in this ledger and in three files.** The loop
+floor for the dyad → lepton loop → 2γ → quark chain is quoted in prose as **(α/4π)² ≈ 3×10⁻⁷** — in
+the row above, in `PRTOE_bbn_witness.md`, `PRTOE_me_mechanism_math.md` and (until this pass)
+`PRTOE_THE_CHAIN.md` — while every operative number downstream is computed from **(α/π)² = 5.4×10⁻⁶**,
+which is what `scripts/audit_math_pass.py` guards and what the 6.8×10⁻⁶ % delivered shift and the
+20 000–31 000× shortfall are built on. **Sixteen-fold apart, and the prose label is the
+optimistic one** — it implies a quark shift 16× smaller than the corpus actually computes. No
+verdict moves (20 000× short either way), but the named quantity and the used quantity were not the
+same object: check 18, in a place nobody would look because the conclusion was never in doubt.
+
+**A second misattribution rode with it.** `PRTOE_THE_CHAIN.md` quoted the shortfall as
+*"20 000–31 000× short, backed by the row's own 12–18σ bound"* — joining two independent
+comparisons into one. The 20 000–31 000× is short of **P-2026-006's required healer shift of
+0.14–0.21%**; the 12–18σ is the **D/H exclusion of a universal quark shift**. Separate objects,
+separate denominators, adjacent in the source and merged in the quotation. Corrected to two
+arguments where the corpus always had two.
+
+### The reionization-τ half of tether 7→8 — reduced on an argument where an integral was owed (no docket, 2026-07-20)
+
+**What was booked.** `PRTOE_THE_CHAIN.md` closed the τ question "by the chain's own structure, in
+two halves", grading the tether **[REDUCED, estimate-grade]**. The *clustering* half is genuinely
+zero by construction and stands: the fluid's linear sector is ΛCDM-identical and its distinctive
+scales sit far below anything that sources reionization. The *atomic* half rested on one clause —
+the ε ramp's neutral-era tail "carries a τ contribution **orders below** Planck's ±0.007 width".
+
+**Why that is not a closure.** Δτ from a specified ionization history against a specified ramp is a
+well-posed integral, and it was not run — the margin is asserted, not computed, and it points the
+favourable way, which is check 16's signature. Searched three ways plus the distinctive number
+(`Δτ`, `optical depth`, `τ contribution`, `0.007`): **no such number exists anywhere in the
+corpus**, so nothing downstream is carrying a computed value either. The tether's grade is
+unchanged — estimate-grade was always honest — but its atomic half now reads as reduced on an
+estimate with the calculation named, rather than as a debt discharged.
+
+**Not adverse, and worth saying so.** The ramp closes at z ~ 30–60 while τ's weight lives at
+z ≲ 10, several octaves apart, so the expected answer really is small; the defect is that "small"
+was doing a closure's work. **Owed: integrate Δτ over the ramp's low tail. Desk work, no external
+gate — it needs a task number.**
+
 
 ### The count C's Kibble–Zurek typing — RETIRED, the target names the wrong mechanism class (#168, 2026-07-20)
 

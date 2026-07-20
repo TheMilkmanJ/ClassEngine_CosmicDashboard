@@ -3625,3 +3625,37 @@ better than 97% on numerals and 32 of 33 on registered predictions. What was mis
 *survival check on the way out*: the sweep run here is mechanical, takes minutes, and would have
 caught all five objects at the time. **Cutting is cheap to do and cheap to verify; the rewrite paid
 for the first and skipped the second.**
+
+### 2026-07-20 — checks 14–19 run against the flagship six, the first pass since those checks existed
+
+Every file in this set had been audited against checks 1–13 only. Checks 14–19 were added the
+morning of 2026-07-20, each from a defect that survived all thirteen, and this is the first
+deliberate pass with them in hand: one file at a time, six checks each, recorded including where
+they found nothing.
+
+**Check 14 was the yield, and it found one thing repeatedly: grades and reasons go stale while
+numbers stay right.** Eleven of the fourteen findings are a live conclusion still citing a premise
+that had been retired — and in every case the arithmetic was correct, which is why thirteen checks
+and a 583-item harness had passed over them.
+
+| file | what checks 14–19 found | changed |
+|---|---|---|
+| `PRTOE_MATH_SPINE.md` | §9 listed the leptophilia portal **settled and "census-forced"**, citing `dyad_gas` §2 — which by then recorded the opposite and graded the core open; c = 9/10 carried **no status tag** beside two siblings that carry theirs, a day after its downgrade; the superradiance window cited three times as a clean mass confirmation with its exposure unpriced; **"BBN clearance [CLEARS]"** asserted unconditionally 13 lines below the correction that withdrew its premise | portal moved to the owed list as #125; c graded data-selected with the ε-blind ensemble named as its real check; the exposure priced at first mention; the clearance conditioned on the adopted T_c |
+| `PRTOE_THE_CHAIN.md` | the quark-flavour item said in its own words that it "belongs with the checked-and-cold rooms" and **had not been moved there** (14a: the category move was announced, not executed); the loop factor mislabelled and the shortfall attributed to the wrong comparison (18); `T₀` used bare for a UV scale, where it reads as the present CMB temperature (18); the τ half of tether 7→8 closed on an uncomputed margin pointing favourably (16); link 3's mid-BBN ordering not carrying the #182 conditional (14/17) | item folded into the cold list as a current claim, scar narration dropped; loop factor and both comparisons corrected; `T₀` identified as the hunt's k_UV; τ re-graded with the integral named; link 3 conditioned |
+| `PRTOE_DERIVATION_HUNT.md` | **the retired T_c band 250–530 keV live in three places** — the ledger had predicted this file would still carry it — and in §6 it was carrying the conclusion #182 reversed: *"the BBN books do not move on it … a structural debt, not a numerical one"* (19 → 14); the retired identity leg live at **four** sites, two of them the premise the two-census argument runs on (14); the f̄ row graded **derived** while the file's own body graded it a strengthened candidate (14) | band corrected to 307–714 keV throughout with the 1.73–4.03× exclusion and the 53%-above-fence figure; the reversed conclusion restated and docketed to #182; four identity-leg sites re-reasoned; f̄ row reconciled with the body |
+| `PRTOE_honest_status.md` | **clean on six of the eight retirements traced** — c = 9/10, the λ control edge, the ended nested run, the Z₄ tilt's input status all fully carried, several with numbers the other files lack. One gap: the 07-20 λ-quench death was absent from a board whose job is the candid adverse ledger, so its odds line still priced an exposure the shield had made survivable | third adverse front added for the quench, with the −83.7 to −85.8 decade margin and the rate-normalization defect that produced the old favourable number |
+| `PRTOE_DEPENDENCY_TREE.md` | **exemplary on #156 and #170** — the superradiance exposure is priced better here than anywhere in the corpus, and the comb's amplitude death is propagated in three places including its removal as a reader of n. But the grade column had gone stale in the one file whose stated law is *"claims inherit the weakest status among their parents"*: c graded **derived**, f̄ graded **derived** while naming a data-selected parent in its own row, and the compound ε row inheriting both as *"two factors derived"* | all three rows re-graded; the ε row now names three referees rather than one; the BBN row carries the T_c keying conditional |
+| `PRTOE_PREREGISTERED_PREDICTIONS.md` | P-2026-044's amendment and P-2026-013's supersession are **model treatments of check 14** — both put the withdrawal beside the claim rather than after it, and P-029's T_proj table makes band and swept range visibly one computation (19, clean). Found: the free-vs-condensate discriminator asserted **LIVE** thirty lines above the same file recording it retired; the quench at "CONFIRMED-QUENCH grade"; P-006's open half resting on *"the dyad **is** the Majoron"* and *"zero by the symmetry that defines the field"*; leptophilia called **derived** via the Majoron | withdrawals attached to each claim in the file's own amendment convention, the frozen record left readable |
+
+**What check 15 changed about the method.** Every absence in this report was searched three ways
+plus a distinctive number before being booked, and the discipline paid twice: an arithmetic
+"failure" in `THE_CHAIN` dissolved on grepping the harness first (check 2a — the 20 000–31 000 was
+right, my reading of what it was short *of* was wrong), and a grep for a cardinality word returned
+nothing because the phrase straddled a line break. **A negative result is a claim about the search.**
+
+**The finding under the findings.** The #125 propagation sweep run earlier the same day closed on
+three files; this pass found the same retired leg live in three more, at seven further sites. It
+under-swept for the reason check 14 names: it searched the premise's own wording, and what survives
+a retirement is the conclusions. Both ledger rows are now joined.
+
+Harness 583/583 after the edits, 0 fail.

@@ -104,6 +104,16 @@ compute it: one carries time evolution without winding, the other winding withou
 Building the joint solver — winding and rotation on one trajectory — is docket **#154**, desk work
 on the genesis solver with no external gate.
 
+**Adverse, third front — an exposure lost its defence.** The genesis quartic was carried as
+quenching a growing superradiant cloud, so P-2026-034's band could hold high measured spins without
+the recorded mass being in trouble. Re-derived at the model's own quartic and mass, the margin is
+**−83.7 to −85.8 decades** across α_g = 0.1–0.5. The earlier favourable margin rode a
+rate-normalization mismatch — a total event rate set equal to a per-particle rate — which put one
+power of λ where two belong, worth 90 decades at λ ≈ 2×10⁻⁹¹. At that coupling the field **is** a
+free scalar for every superradiance purpose (f_eff = 5×10¹⁶ GeV), so the model meets P-2026-034
+undefended and the band's measured spins bear on it directly. The mass does not move — three
+independent uses fix it — but the reason the exposure looked survivable is gone.
+
 **Process, and it belongs on this board rather than in a working log.** The reverse audit closed at
 110 of 110 completed tasks, with **eleven mis-grades** — every one of them in a *composite* task, and
 not one in roughly a hundred single-object checks. One registered prediction was amended on a
