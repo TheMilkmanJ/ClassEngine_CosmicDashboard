@@ -44,8 +44,10 @@ one-loop echo.**
 the hierarchy dial $x_0$ is CONSISTENCY-ONLY (a free dial of the GC dictionary that this
 closure selects — failures ledger §6); the census closure / duty-family landing is
 STRAINED (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
-the edge-convention audit decides whether that arrow fell or the convention did). THE
-ONE GENUINELY INDEPENDENT ARROW ($m_H$ is measured) STANDS:
+the edge-convention audit decides whether that arrow fell or the convention did). The
+arrow $m_H$ supplies — long this file's one genuinely independent arrow — is itself now in tension
+with electroweak precision (§6j: S = 0.31 at 1576 GeV against |S| ≲ 0.14), so it is recorded here
+as the arithmetic it is rather than as the load-bearing identification it was:
 
 $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm anchor} \approx 4\pi\,m_H \approx 1.57\ \text{TeV}\ \ (2.5\%)$$
 

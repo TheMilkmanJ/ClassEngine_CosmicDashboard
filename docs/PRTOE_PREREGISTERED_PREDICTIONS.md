@@ -2164,6 +2164,24 @@ kill (b) tests, is a TeV-scale anchor derived from the Planck floor and α alone
 landing is superseded: that program closed as mooted, and the collider search refereeing the decade
 directly is what remains.
 
+**AMENDMENT 2 (2026-07-19) — arrow B is now in tension with electroweak precision.** The channel
+result commits the anchor to dynamical electroweak breaking with a composite Higgs, which inherits
+the S-parameter constraint. Vector dominance gives S ≈ 4πv²/M_ρ² against the measured |S| ≲ 0.14
+(S = −0.01 ± 0.07, U = 0): **S = 0.307 at 1576 GeV — excluded at ≈ 4σ — against 0.077 at the
+exact-solution value 3152 GeV, with the bound at M_ρ > 2333 GeV.** So **arrow B, the identification
+M_anchor = 4πm_H = 1574 GeV, sits where electroweak precision disfavours it**, while the value the
+exact gap-equation solution independently produces sits in the allowed region. Two unrelated lines —
+a solved gap equation, and existing precision data — both point above ≈ 2.3 TeV, and both point
+away from 4πm_H.
+
+The escape is g_ρ ≳ 1.5, since S constrains g_ρ·f rather than the anchor alone; but λ = kα_c = 0.030
+is thirty-three times below a confining sector, and weak coupling argues for g_ρ ≲ 1, tightening
+rather than loosening. **Arrow B is not withdrawn — the O(1)s in the S estimate are not computed —
+but it can no longer be described as standing unopposed.** The honest reading is that the anchor
+most likely sits in the upper half of the band, with 4πm_H a coincidence rather than the
+identification. That reverses this entry's original ordering, in which arrow B was the one genuinely
+independent arrow ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6j).
+
 **VISIBILITY NOTE on the P-2026-009 family (2026-07-12):** the model's zero-birefringence
 prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
 (Minami–Komatsu-class, ~0.34°, dust-systematics-debated). The model's explicit position:
@@ -2198,7 +2216,7 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
  resolved as data-selected rather than a free choice. The 256×3 ensemble does not decide it,
  it checks it; the squared-estimator precision is what that check awaits. The speed-weighted
  retrial runs.
-- **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND; arrow C (the census
+- **P-2026-042** (the TeV anchor): arrow A (x₀) stands; **arrow B (4πm_H) is in tension with the S parameter** under the composite reading the channel forces — S = 0.31 there against |S| ≲ 0.14, the bound sitting at 2.33 TeV (AMENDMENT 2); arrow C (the census
  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
  C fell or the convention did.
 - **P-2026-043** (the cosmic-dawn trough, ~5% deeper): FRESH — estimate-grade, sign is
