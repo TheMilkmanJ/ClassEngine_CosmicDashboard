@@ -97,5 +97,21 @@ fixed here:
  2026-07-18. What remains is the observational side: the 21-cm edge shape decides between the
  thermal and environmental readings, and the DESI forest cross-calibration adjudicates the
  supernova fork.
+- **The electroweak anchor is a mechanism, not a measurement.** The chain from the Planck floor
+  to a few TeV is derived end to end — the pairing channel, the screening constant, the measure,
+  the shell cutoff — but its *precision* is a factor of a few: **1 to 8 TeV**, not four significant
+  figures. The exponent amplifies every O(1) thirty-threefold, so the largest uncorrected term (a
+  vertex correction, plausibly downward) dominates the band. Agreement quoted to better than that
+  is a coincidence of convention, and the corpus says so where it arises.
+- **The count k in that chain is derived exactly, on a host this corpus does not record.** The
+  reconstruction is exact and independently confirmed, but it assumes a Fermi surface at finite
+  chemical potential with two velocity-matched bands, where the recorded basement is a Fermi point
+  at zero chemical potential. That is evidence *for* those conditions rather than a derivation
+  *from* recorded structure, and it is the hierarchy chain's largest open exposure.
+- **The chirality family cannot name which handedness means matter, and that is settled rather
+  than pending.** The sector predicts a magnetic-helicity sign *relative to* the genesis winding;
+  it cannot predict the absolute sign, because the genesis draw generates rotation with no
+  preferred sense — a symmetry of the recorded potential that the release prior does not break.
+  Whether even the relative lock exists is a separate question, and it is open.
 - The deepest claim (the medium's reality) remains an open assumption — the corpus
  names it as such and tracks its exposure honestly.
