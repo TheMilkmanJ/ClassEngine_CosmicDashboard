@@ -57,6 +57,54 @@ chk("hierarchy_problem", "M_anchor = M_red*exp(-1/(k ac) - 3/2)", 1576,
     MRED*math.exp(-1/(k*ac)-1.5)/1e9, 5e-3, "GeV")
 chk("hierarchy_problem", "4 pi m_H", 1574, 4*math.pi*mH/1e9, 5e-3, "GeV")
 
+# ---- the vertex correction (docket #141, hierarchy_problem 6e) --------------
+# c is a quadrature, not a closed form, so it is recomputed here from the script that
+# owns it rather than transcribed. Its one input is b = 2 alpha_c/(pi v) at v = 1;
+# e^2 cancels between <C> and lambda<V>, so c depends on nothing else.
+import importlib.util as _ilu, os as _os
+_vcb_path = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)),
+                          "hierarchy_vertex_crossed_box.py")
+_vspec = _ilu.spec_from_file_location("_vcb", _vcb_path)
+_VCB = _ilu.module_from_spec(_vspec); _vspec.loader.exec_module(_VCB)
+_b141 = 2*ac/math.pi
+chk("hierarchy_problem", "b = 2 alpha_c/pi, the screening constant", 0.0139369, _b141, 1e-4)
+chk("hierarchy_problem", "k = ln(1+1/b)/pi in closed form", 1.36461191,
+    math.log(1+1/_b141)/math.pi, 1e-6)
+chk("hierarchy_problem", "<V>_FS/pi^2 reproduces lambda = k alpha_c", 0.0298742,
+    _VCB.V_avg_fs(_b141, 4*math.pi*ac)/math.pi**2, 1e-5)
+# the pipeline's calibration point: contact V on a parabolic band must return the
+# Gor'kov-Melik-Barkhudarov constant, i.e. the textbook (4e)^(1/3) gap suppression
+chk("hierarchy_problem", "GMB constant (1 + ln 4)/3 = ln (4e)^(1/3)", 0.7954315,
+    (1+math.log(4))/3, 1e-6)
+chk("hierarchy_problem", "the crossed-box pipeline reproduces it", 0.7954315,
+    _VCB.check_gmb(nu=24, nt=24, ns=24)[0], 1e-6)
+_c141 = _VCB.c_coefficient(nu=24, nt=24, ns=24)
+_lam141 = 1.36461191*ac
+chk("hierarchy_problem", "c, the crossed box", 0.789262, _c141, 1e-5)
+chk("hierarchy_problem", "c's contact limit b -> inf on the linear band", 0.433868,
+    _VCB.c_self_consistent(5e4, nu=32, nt=32, ns=32), 1e-4)
+chk("hierarchy_problem", "lambda_eff = lambda(1 - c lambda)", 0.0291698,
+    _lam141*(1-_c141*_lam141), 1e-4)
+chk("hierarchy_problem", "1/lambda + c, the corrected exponent", 34.263,
+    1/_lam141 + _c141, 1e-4)
+chk("hierarchy_problem", "the anchor multiplier exp(-c)", 0.45418, math.exp(-_c141), 1e-4)
+chk("hierarchy_problem", "M_anchor vertex-corrected, booked convention", 716.0,
+    MRED*math.exp(-1/_lam141-_c141-1.5)/1e9, 5e-3, "GeV")
+chk("hierarchy_problem", "M_anchor vertex-corrected, exact-solution convention", 1431.9,
+    2*MRED*math.exp(-1/_lam141-_c141-1.5)/1e9, 5e-3, "GeV")
+chk("hierarchy_problem", "the band 1.6-5.2 TeV x exp(-c), bottom edge", 0.727,
+    1.6*math.exp(-_c141), 5e-3, "TeV")
+chk("hierarchy_problem", "the band 1.6-5.2 TeV x exp(-c), top edge", 2.362,
+    5.2*math.exp(-_c141), 5e-3, "TeV")
+chk("hierarchy_problem", "dln c/dln b, c's robustness against the screening constant", -0.0905,
+    (math.log(_VCB.c_self_consistent(_b141*1.02, nu=32, nt=32, ns=32))
+     - math.log(_VCB.c_self_consistent(_b141*0.98, nu=32, nt=32, ns=32)))/math.log(1.02/0.98),
+    0.02)
+chk("hierarchy_problem", "the shooter's 13 TeV over the corrected band's top edge", 5.50,
+    13/(5.2*math.exp(-_c141)), 5e-3, "x")
+chk("hierarchy_problem", "the shooter's 13 TeV over the corrected band's bottom edge", 17.9,
+    13/(1.6*math.exp(-_c141)), 5e-3, "x")
+
 # ---- the scale ladder ------------------------------------------------------
 chk("scale_ladder", "atom rung: (1/2) alpha^2", 2.66e-5, 0.5*ALPHA**2, 0.01)
 chk("scale_ladder", "universe rung: (1/2) alpha_c^2", 2.40e-4, 0.5*ac**2, 0.01)

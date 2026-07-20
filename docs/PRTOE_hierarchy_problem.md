@@ -50,12 +50,10 @@ closure selects — failures ledger §6); the census closure / duty-family landi
 STRAINED (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
 the edge-convention audit decides whether that arrow fell or the convention did). **That strain
 was sized against the anchor as a point value, 1.57 TeV, and that value is withdrawn** (§6e): the
-anchor is a band, 1–8 TeV. Re-measured against the band, the gap is **1.6× at the band's top edge
-and 13× at its bottom** — so the strain's size is no longer a fact about the shooter but a fact
-about where in the band the anchor sits, and **the edge-convention audit cannot conclude on its
-own. It is downstream of the vertex correction** (§6e, docket #141), whose expected sign is
-downward and therefore favours the lower half of the band, where the strain persists at close to
-its original size. THE
+anchor is a band, and with the vertex correction evaluated (§6e, docket #141: c = 0.789, the
+anchor × e^(−c) = 0.454) that band is **0.7–2.4 TeV**. Re-measured against it, the gap to the
+shooter's 13–20 TeV is **5.5× at the band's top edge and 18× at its bottom** — so the strain's size
+is a fact about where in the band the anchor sits, and it is now sized rather than pending. THE
 ONE GENUINELY INDEPENDENT ARROW ($m_H$ is measured) STANDS:
 
 $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm anchor} \approx 4\pi\,m_H \approx 1.57\ \text{TeV}\ \ (2.5\%)$$
@@ -428,8 +426,8 @@ consistency: the constant the exponent needs and the constant equipartition supp
 | where the Fermi surface sits | E_F/M_red ∈ [0.223, 1] | k cancels k_F entirely, so k_F enters only through the correction above, bounded below by Λ_shell and above by the cutoff |
 
 **So the anchor is a factor-of-a-few prediction.** Across the allowed range these compound to
-roughly **1.6 to 5.2 TeV** from these two terms alone — §6e widens it to 1–8 TeV once the vertex
-correction and the band-matching requirement are carried — with the booked 1576 GeV at the bottom
+roughly **1.6 to 5.2 TeV** from these two terms alone — §6e's evaluated vertex correction then
+multiplies the whole band by e^(−c) = 0.454, giving **0.73 to 2.4 TeV** — with the booked 1576 GeV at the bottom
 edge, the value
 obtained when the exact-solution factor is absorbed and the density of states is treated as flat.
 The +0.14% agreement with 4πm_H is therefore **a coincidence of one convention within that band**,
@@ -468,32 +466,97 @@ branches and does not reach two separate bands. **This is the sharpest constrain
 must meet**, and it is a constraint on band structure rather than on a symmetry the vacuum already
 has.
 
-**The band, assembled.** Three independent O(1)s survive: the vertex correction to the rainbow
-truncation, which enters at relative order λ = 3% and so is a factor ≈ 2.7 either way; the Fermi
-surface's position within Λ_shell ≤ E_F ≤ M_red, worth ≈ 1.6; and percent-level particle-hole
-asymmetry, worth ≈ 1.1 per percent. Compounded, **the anchor is a few TeV to within a factor of a
-few** — call it 1 to 8 TeV — with the vertex correction dominating. Every piece of the mechanism is
-derived; the precision is what the truncation costs.
+**The band, assembled — and its dominant term is now a number.** Three independent O(1)s enter: the
+vertex correction to the rainbow truncation, which is the crossed box and is evaluated below; the
+Fermi surface's position within Λ_shell ≤ E_F ≤ M_red, worth ≈ 1.6; and percent-level particle-hole
+asymmetry, worth ≈ 1.1 per percent. The first was the largest and it is no longer free.
 
-**What would actually collapse that band, stated so the next attempt does not repeat the last two.**
-The dominant term is one specific object: **the crossed box** — the diagram the rainbow/ladder
-truncation omits, since the ladder rungs are already resummed by 1 = λ·ln(Λ/Δ) itself. The
-deliverable is the coefficient *c* in λ_eff = λ(1 − cλ), evaluated on §6c's own host: TF-screened
-Coulomb V(q) = e²/(q² + m_D²) with b = 2α_c/πv, at the Fermi surface, in the particle-hole channel.
-Sign and magnitude, nothing else.
+**The crossed box, integrated** (docket #141, [scripts/hierarchy_vertex_crossed_box.py](../scripts/hierarchy_vertex_crossed_box.py)).
+It is the diagram the rainbow/ladder truncation omits, since the ladder rungs are already resummed
+by 1 = λ·ln(Λ/Δ) itself. Evaluated on §6c's own host and nothing else — V(q) = e²/(q² + m_D²),
+b = m_D²/4k_F² = 2α_c/πv, one band's Fermi surface inside the linear cone at v = 1, particle-hole
+channel, T = 0. Writing the gap equation as Δ(k) = ∫d³k′/(2π)³ W(k,k′)Δ(k′)/2|ξ|, the rainbow kernel
+is W = V(k−k′) and the crossed box adds −C(k,k′):
 
-**The prior is adverse and should be held.** Crossed boxes reduce binding relative to ladders — the
-standard statement in Bethe–Salpeter and Eliashberg alike, where vertex corrections lower the
-effective coupling. So the expected sign moves the anchor *down*, and the honest reading of the
-1–8 TeV band is that its lower half is favoured.
+$$C(k,k') \;=\; \int\!\frac{d^3p}{(2\pi)^3}\;V(k-p)\,V(p-k')\;
+\frac{n_{p'}-n_p}{\xi_p-\xi_{p'}},\qquad p' = Q-p,\quad Q = k+k'$$
 
-**And the procedural lesson, which is the useful part of two failures.** This correction has been
-attempted twice and retracted twice — first as Migdal suppression (which needs a slow boson; screened
-Coulomb is instantaneous), then as a ladder resummation giving λ/(1−λ) (which double-counts the very
-rungs the gap equation already sums). Both were *arguments* rather than integrals, and both happened
-to point the favourable way. **Treat any further argument that produces an upward correction without
-evaluating the integral as wrong until the integral says otherwise** — that record is now two for
-two, and the diagram is well-posed enough that there is no reason to reason about it instead.
+$$c \;=\; \frac{\langle C\rangle_{\rm FS}}{\lambda\,\langle V\rangle_{\rm FS}} \;=\; \mathbf{0.7893},
+\qquad \lambda_{\rm eff} = \lambda\,(1-c\lambda), \qquad
+\frac{1}{\lambda_{\rm eff}} \;=\; \frac{1}{\lambda} + c \;=\; 33.47 + 0.79$$
+
+**The sign is the frequency integral, not a judgement.** Because V is instantaneous the two
+internal lines of the *ladder* carry (p, ω) and (p, ω) and integrate to −i/2|ξ_p|, while the two
+internal lines of the *crossed box* carry (p, ω) and (Q−p, −ω) and integrate to
++i(n_{p′}−n_p)/(ξ_p−ξ_{p′}) — opposite sign, same channel, so the crossed box subtracts. And what it
+subtracts is positive *pointwise*: V > 0 everywhere and the Lindhard weight (n_{p′}−n_p)/(ξ_p−ξ_{p′})
+is ≥ 0 on its whole support. **So c > 0 is settled by positivity before any number is computed**, and
+the adverse prior is confirmed rather than assumed. The particle-particle crossed box is the same
+integral with p′ = p − Q; only |p′| enters and |Q−p| = |p−Q|, so the channel choice does not move it.
+
+**The integral closes, and the three ways it could have failed are each answered.** *The channel is
+not ambiguous* — particle-hole and particle-particle give the same integral, as above. *The
+screening does not make it divergent* — it is what removes the one divergence there is. At m_D → 0
+the forward region u → 0 would go logarithmically, since C(u) ~ 1/u there; m_D cuts it at u ~ b,
+which is where c's ln(1/b) content comes from, and ⟨V⟩_FS carries the same log, so the two largely
+cancel and leave c nearly flat in b. Nothing else diverges: the Lindhard weight vanishes unless
+exactly one of |p|, |p−Q| lies inside the Fermi sphere, so the integrand has **compact support**, no
+ultraviolet cutoff enters, and c is a pure number. *And the reduction needs no input the corpus
+lacks* — only V(q), k_F, v and the occupations, all of which §6c supplies; c depends on
+b = 2α_c/πv alone.
+
+The one genuine numerical obstacle is the 1/(ξ_p − ξ_{p′}) edge at the circle where the two Fermi
+spheres cross, and it is **removable exactly**: in r₁ = |p|, r₂ = |p−Q| the measure is
+r₁r₂dr₁dr₂dφ/Q and the substitution r₁ = 1 + st, r₂ = 1 − s(1−t) has Jacobian s, which cancels the
+denominator identically. With the azimuthal integral analytic —
+∫dφ/[(a−βcosφ)(a+βcosφ)] = 2π/(a√(a²−β²)) — what is left is a smooth three-dimensional quadrature
+in (u, s, t), converged to **11 digits** at 64 Gauss–Legendre nodes per panel.
+
+**What certifies the number.** Four checks, each aimed at a different part of the construction:
+
+| check | result |
+|---|---|
+| region A's volume against the analytic two-sphere lens complement | matches to **10⁻¹⁵** — coordinates, Jacobian and domain are exact |
+| contact V on a parabolic band must return the Gor'kov–Melik-Barkhudarov constant | (1+ln4)/3 = 0.7954315 reproduced to **5×10⁻¹¹** — the textbook (4e)^(1/3) gap suppression, from this pipeline |
+| brute-force cartesian evaluation of C(u), no bipolar coordinates and no analytic φ | agrees to **0.1–0.5%**, its own grid resolution |
+| c must depend on b alone (e² cancels between ⟨C⟩ and λ⟨V⟩), and c(b→∞) must reach the contact limit | e²-independent to **10 digits**; c(b) → 0.43387 against an independently computed 0.4338656 |
+
+**c is also robust, which the rest of this chain is not.** ∂ln c/∂ln b = **−0.09** — a 10% error in
+the screening constant moves c by under 1%, against ∂lnM/∂lnk = 33.47 for k itself. The number
+carries the quadrature to eleven digits; its real uncertainty is structural and named below.
+
+**What it does to the anchor.** The exponent shifts by +c, so the anchor moves down by
+**e^(−c) = 0.454**:
+
+| quantity | rainbow | vertex-corrected |
+|---|---|---|
+| 1/λ | 33.47 | 34.26 |
+| M_anchor, booked convention (−3/2) | 1576 GeV | **716 GeV** |
+| M_anchor, exact-solution convention (×2) | 3153 GeV | **1432 GeV** |
+| §6d's band from the other two terms | 1.6–5.2 TeV | **0.73–2.4 TeV** |
+
+So the 1–8 TeV band collapses to roughly **0.7–2.4 TeV** — the lower half, as the prior said, and by
+a measured factor rather than an assumed one. **It also inverts which of §6d's two conventions looks
+lucky**: the booked convention's landing on 4πm_H = 1574 GeV was the +0.14% coincidence, and the
+correction moves it to 0.45×; the exact-solution convention, corrected, lands at 0.91× instead.
+That does not decide §6d's factor of two — this calculation says nothing about it — but the
+coincidence no longer sits where it did, which is worth recording rather than quietly re-parking.
+
+**What is not in it, named exactly.** c is the crossed box and only the crossed box. One further
+object enters at the same relative order λ and is *not* computed here: the **fermion self-energy
+insertion** on the internal lines — the exchange (Fock) term of the same screened interaction,
+which renormalises the velocity and hence N₀ at the Fermi surface. Whether §6c's N₀ is meant bare
+or dressed is unstated, and in Eliashberg-class treatments self-energy and vertex terms partially
+cancel. So the honest reading of the corrected anchor is *the crossed box's contribution to the
+O(λ) correction, complete and validated*, with the self-energy companion the one remaining term at
+that order. It is the next item, and it is well-posed on exactly this host.
+
+**One normalisation dependence, stated because c inherits it.** λ_eff and λ are defined with the
+same pairing density of states, so it cancels from c = ⟨C⟩/(λ⟨V⟩) — but λ itself is §6c's
+N₀ = k_F²/π²v, and ⟨V⟩_FS/π² reproduces the booked 0.029874 to nine digits, which is the check that
+this is §6c's host. Were the pairing density of states per-spin instead, λ would halve, 1/λ would be
+66.9 rather than 33.47, and c would double. The exponent's 33.47 is what fixes the convention, so
+0.7893 is the coefficient that belongs with it.
 
 
 ### 6f. At what scale is α evaluated?
