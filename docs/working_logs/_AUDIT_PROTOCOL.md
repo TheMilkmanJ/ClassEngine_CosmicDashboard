@@ -143,6 +143,18 @@ solved in the medium, was named nowhere at all. Eight further undocketed items c
 sweep. Both failures are check 13 not being run: the first dies on "is this actually still owed?",
 the second on "what does this file owe that it has not said out loud?"
 
+**THE RETIREMENT→TASK JOIN (mechanized 2026-07-20, docket #172).** A retirement kills content, and
+that content usually belongs to a task. Commits already carry their task number; retirement rows did
+not — which is how #59 sat marked complete straight across its own retraction. Nothing pointed from
+the kill back to the task whose object had just died, so nothing prompted a re-grade.
+
+This is now a commit-gate check rather than a habit, on the same footing as the naming and husk
+laws: a **newly added** row in the failures ledger carrying RETIRED must either name the task it
+kills (`#N`) or rule itself clear (`(no docket)`). Silence is the only disallowed answer. The
+existing ledger is deliberately not retrofitted by the gate — the check binds what is being written
+now, so it costs nothing to adopt and cannot be satisfied by leaving the row vague. Verified in both
+directions before adoption: an unjoined row exits 1, a joined row exits 0.
+
 **Propagation runs in both directions.** A result is not filed until the files inheriting it are
 updated *in the same commit* — and the same applies when a claim is **withdrawn**. A retraction
 creates propagation debt retroactively: the carrying files looked correct when they were written and
