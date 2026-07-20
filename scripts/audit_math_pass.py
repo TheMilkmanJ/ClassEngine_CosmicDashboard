@@ -1099,6 +1099,45 @@ chk("laboratory_cousins", "nuclear pairing gap at A = 60",  1.55, 12/math.sqrt(6
 chk("laboratory_cousins", "nuclear pairing gap at A = 120", 1.10, 12/math.sqrt(120), 5e-3, "MeV")
 chk("laboratory_cousins", "nuclear pairing gap at A = 208", 0.83, 12/math.sqrt(208), 5e-3, "MeV")
 
+# --- the f_arr razor, settled (#162) -----------------------------------------
+# The gate is a phase re-arranging in place, so a crossing gas element picks up the
+# ballistic third of the rest-energy step times the fraction it traverses, f = v_gas/c_s.
+# The share ARRIVING at a halo is therefore bounded by the identity f_arr <= f/3.
+# The X-ray scaling fence allows arriving energy <= 20% of the infall kinetic energy.
+CKMS   = 299792.458                       # km/s
+CS_DK  = math.sqrt(3*ALPHA)*CKMS          # the medium's sound speed in km/s
+E_GATE = (27*ALPHA/(5*math.pi))*ME        # eps * m_e, the rest-energy step across the gate
+chk("entropy 4", "c_s = sqrt(3 alpha) c in km/s", 44357, CS_DK, 1e-3, "km/s")
+chk("entropy 4", "eps*m_e from the closed form (vs the booked 6.41)", 6.41, E_GATE/1e3, 1e-3, "keV")
+_f_arr  = lambda v: v/(3*CS_DK)                                  # delivered, upper bound
+_fence  = lambda v: 0.2*(0.5*MP*(v/CKMS)**2)/E_GATE              # allowed
+for _v, _d, _a, _m, _s in ((286.0, 0.0022, 0.0133, 6.2, "galaxy"),
+                           (429.0, 0.0032, 0.0300, 9.3, "group"),
+                           (1423.0, 0.0107, 0.3331, 31.0, "cluster")):
+    chk("T4/ledger", f"f_arr delivered = v/(3 c_s), {_s} infall", _d, _f_arr(_v), 0.02)
+    chk("T4/ledger", f"X-ray fence 0.2*(0.5 m_p v^2)/(eps m_e), {_s}", _a, _fence(_v), 0.01)
+    chk("T4/ledger", f"fence margin (allowed/delivered), {_s}", _m, _fence(_v)/_f_arr(_v), 0.02, "x")
+# the razor's other jaw: the S8 closure needed f_arr in [0.008, 0.013] and does not get it
+chk("T4/ledger", "shortfall vs the 0.008 floor, group infall",  2.5, 0.008/_f_arr(429.0), 0.02, "x")
+chk("T4/ledger", "shortfall vs the 0.008 floor, galaxy infall", 3.7, 0.008/_f_arr(286.0), 0.02, "x")
+
+# --- the H0 steelman's sigma conversions (#166) -------------------------------
+# Preference of the published m_e over unity, and where the model's PINNED 1.012543 sits
+# in each. Sources: Hart-Chluba arXiv:1912.03986; Toda-Seto arXiv:2508.09025.
+ME_MODEL = 1 + 27*ALPHA/(5*math.pi)       # = 1.012543, fixed before any of these fits
+chk("hubble_tension", "model m_e/m_e0 = 1 + eps", 1.012543, ME_MODEL, 1e-5)
+for _lbl, _c, _s, _pref, _mod in (("Hart-Chluba CMB+BAO",     1.0078, 0.0067, 1.16,  0.71),
+                                  ("Hart-Chluba CMB+BAO+SNe", 1.0190, 0.0055, 3.45, -1.17),
+                                  ("Toda-Seto ACT DR6+DESI",  1.0081, 0.0046, 1.76,  0.97)):
+    chk("hubble_tension", f"m_e preference over unity, {_lbl}", _pref, (_c-1)/_s, 0.01, "sigma")
+    chk("hubble_tension", f"model 1.012543 against {_lbl}", _mod, (ME_MODEL-_c)/_s, 0.02, "sigma")
+
+# --- the ring-BEC discrimination target (#163) --------------------------------
+chk("laboratory_cousins", "RMS 0.7071 over the mean-absolute 2/pi", 11.1,
+    (1/math.sqrt(2))/(2/math.pi)*100-100, 0.01, "%")
+chk("laboratory_cousins", "the winding sim's scatter as a fraction of f-bar", 4.1,
+    0.026/(2/math.pi)*100, 0.02, "%")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
