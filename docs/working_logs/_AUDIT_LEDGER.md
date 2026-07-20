@@ -2927,3 +2927,34 @@ No new hard MIS-GRADEs in this sample. Mis-grade set still: **#29, #76, #78, #95
 
 Coverage estimate: ~45 of ~111 completed tasks graded or sampled; high-risk clusters (Koide, hierarchy, heavy queue, promotions, transfer/rectification) covered. Remaining bulk is lower-risk hygiene/mining/docs tasks.
 
+
+### 2026-07-19 — REVERSE AUDIT wave 4 (Claude, resumed): the gap Grok's waves did not reach
+
+Grok's waves 1–3 graded roughly sixty-five of the ~110 completed tasks. **Forty-seven were never
+reached** — the rate limits cut both passes short. Working the remainder, starting with the tasks
+whose claim shape matches #78's, since a sweeping "every X" is the hardest kind to actually meet.
+
+**#51 "Audience-law scrub: every doc reads professionally" — MIS-GRADE.** The claim is corpus-wide
+and the deep audit, which came *after*, found assistant-voice leaks in file after file — the exact
+defect class an audience-law scrub exists to catch. This ledger's own words at the time:
+"two more 'the user' assistant-voice leaks made 'the author' (same species as intellectual_history's
+— **that's three files now carrying it**; noted for pass 2 as a targeted grep)", plus dyad_gas's
+"the operator's phase-framing" → "the author's" later still. A scrub that leaves its own target
+species in at least four files did not reach every doc. Same shape as #78: real work, unmet claim.
+Successor folded into #149, which already carries the un-run checks over the same corpus.
+
+**#15 "Work down the Threaded Physics debts (docs/threaded_physics_working/)" — NOT a mis-grade;
+stale path.** That directory does not exist. The threaded debts live in `docs/working_logs/` as
+T1–T16 `*_owed.md`, which is where #89's residual-debt census and #97's residue sweep operated. The
+work migrated and the task description did not follow it. Recorded so a later reader does not chase
+a directory that was consumed rather than abandoned.
+
+**#24 "The RAMP RE-GRADE: re-audit every [R]/null domain verdict" — UNVERIFIED at this depth.** No
+ledger trace of the re-grade's own findings survives, so neither a clean grade nor a mis-grade can
+be justified from the record. Left ungraded rather than guessed — an unverifiable task recorded as
+verified would be precisely the defect this pass exists to find.
+
+**Running mis-grade set: #29, #51, #76, #78, #95.** Five confirmed, from roughly seventy tasks
+actually checked. Every one is the same shape — a sweeping or multi-part claim closed whole while a
+named component stayed open — and none is a wrong result. The defect is in what "complete" was taken
+to mean, not in the physics.
