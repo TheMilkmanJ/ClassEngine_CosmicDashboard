@@ -1039,6 +1039,18 @@ dm2_atm=2.5×10⁻³ eV²):
 | **Σm_ν** | **0.061 eV** | **0.103 eV** |
 | m_beta (KATRIN-type) | 9.1 meV | ~50 meV |
 
+> **NOTE ON PRECISION (2026-07-20) — the sum is splitting-dependent, and the kill margin is
+> narrower than the corpus's headline figure suggests.** The registered value above is 0.061 eV, and
+> the working files quote **61.4 meV**. Recomputing from the splittings *this entry states*
+> (Δm²_sol = 7.4×10⁻⁵, Δm²_atm = 2.5×10⁻³) returns **61.2 meV**; current PDG-central NH values
+> (7.53×10⁻⁵, 2.453×10⁻³) return **60.8 meV**. Reproducing 61.4 needs Δm²_atm ≈ 2.52×10⁻³ — a
+> legitimate choice, but a particular one. Since the referee rule elsewhere reads "a robust bound
+> below ~60 meV kills", **the margin is 0.8–1.4 meV depending on which splittings are adopted**, and
+> the prediction should be quoted with the splitting named rather than as a bare 61.4. The
+> conclusion is unchanged — normal ordering, m_lightest small and nonzero — but the headroom against
+> its own kill line is thinner than a bare number implies, and it is a DESI-era prediction where
+> that thinness is the whole test.
+
 **Falsification (both ways, per the registry rule):**
 - KILLED by: Σm_ν measured >> 0.10 eV (excludes both hierarchies); OR m_lightest pinned
  ≠ 2.24 meV (0nubb / precision cosmology finding it consistent with 0 to <<2 meV, or much
