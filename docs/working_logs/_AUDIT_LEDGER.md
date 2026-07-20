@@ -3186,3 +3186,28 @@ and did not propagate to the board.** #59 sat closed because nothing carries a k
 that claimed it — not because the documentation failed. That isolates the fix to one join, and it is
 the join #153 names: a retirement entry could carry the task number whose content it kills, exactly
 as commits already carry task numbers. Nothing else in this cluster needs reopening.
+
+### 2026-07-20 — the payoff check finds a grade conflict on the flagship dark-energy result
+
+Running the payoff check (protocol, added today) across the open board. **#123's payoff is the
+dark-energy value closing**, so the question is whether any file already grades it closed. One does.
+
+**`DEPENDENCY_TREE` graded ρ_Λ = E_b⁴ "derived"; `DERIVATION_HUNT` grades the same object
+"CANDIDATE, not banked — one number decides it, and it is not yet computed."** The corpus's own
+written vocabulary settles which is right: *"**candidate** (a closed form proposed, **its referee
+pending**)"*. The referee is a lattice T_c/√σ for SU(2) with N_f = 3, and the hunt records that
+**no such determination exists** — "no published T_c/√σ for SU(2) with N_f = 3 light flavours was
+located". A pending referee is the definition of candidate.
+
+The tree's row was not hiding anything — it named the lattice as its killer in the dies-if column.
+The defect is the *grade word*, and it is the corpus's flagship: "the dark-energy scale is a closed
+form whose only dimensionful input is the electron mass." Regraded to candidate, with the derived
+part kept explicit — the chain from Q through Parseval to τ, T_c and ρ_Λ¼ = 2.2599 meV is real; what
+is pending is the referee that decides τ = ½ln2 against the inverted-observation alternative 0.34506,
+which the two hypotheses sit 0.44% apart on and no existing lattice band can resolve.
+
+**This is #152's object found by a different instrument.** The grade concordance was docketed to
+compare the ledger, the tree, the registry and the master computes systematically; the payoff check
+reached the same conflict by asking what an open task would deliver. Two instruments converging on
+one defect is worth noting — it suggests the grade layer is where the corpus is thinnest, and #152
+should be run rather than left pending.
