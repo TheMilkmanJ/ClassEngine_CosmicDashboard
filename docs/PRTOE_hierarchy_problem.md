@@ -384,7 +384,7 @@ dressed floor (above) — and it puts the electroweak scale at a few TeV from th
 could support.
 
 
-### 6e. Why the two bands screen equally, and what is left
+### 6e. What equal screening requires, and what nothing yet supplies
 
 §6c's screening constant carries a factor 2 — both bands polarise — and that factor is the most
 load-bearing number in the chain: ∂lnM/∂r ≈ 11.6 for N_screen = (1 + r)N₀, so a 25% asymmetry

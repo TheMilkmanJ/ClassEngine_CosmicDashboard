@@ -2166,7 +2166,9 @@ kill (b) tests, is a TeV-scale anchor derived from the Planck floor and α alone
 landing is superseded: that program closed as mooted, and the collider search refereeing the decade
 directly is what remains.
 
-**AMENDMENT 2 (2026-07-19) — arrow B is now in tension with electroweak precision.** The channel
+**AMENDMENT 2 (2026-07-19) — arrow B is now in tension with electroweak precision.**
+*(Withdrawn by amendment 3 below — it prices the Higgs as composite, which §2(c) of this model does
+not. Retained unedited because the registry's history is auditable.)* The channel
 result commits the anchor to dynamical electroweak breaking with a composite Higgs, which inherits
 the S-parameter constraint. Vector dominance gives S ≈ 4πv²/M_ρ² against the measured |S| ≲ 0.14
 (S = −0.01 ± 0.07, U = 0): **S = 0.307 at 1576 GeV — excluded at ≈ 4σ — against 0.077 at the

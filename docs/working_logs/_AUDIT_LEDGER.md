@@ -3382,3 +3382,33 @@ mode (state x, y, ẋ, ẏ) with no winding; `genesis_multicomponent.py` carries
 with no time evolution; a repo-wide check found no script holding both. That is **docketed (#154) as
 a build**, not left as owed. Propagated the same day to `igmf_helicity`, `cosmic_magnetism`,
 `dcdf_superfluid` and T14's grade row.
+
+### 2026-07-20 — #143 closed: the #140 reversal's last two carriers, one of them a heading
+
+Ran the propagation pass as a sweep over *every* mention of the two-band ratio rather than over the
+files already known to cite §6e — which is what the two previous attempts did, and why they missed.
+Four files carry the corrected claim (`THE_AMPLITUDE`, `DERIVATION_HUNT`, `DEPENDENCY_TREE`,
+`CODE_MANIFEST`). Two did not:
+
+- **`FAILURES_LEDGER`'s kill row for the charged Cooper reading** closed with "the same vacuum
+  neutrality also forces the two screening bands equal (hierarchy §6b, §6e)" — the pre-reversal
+  claim, **citing the section that retracts it**. Rewritten to state that neutrality compensates the
+  bands (equal densities) but leaves r = v_e/v_h free, so the factor 2 needs velocity matching as a
+  standing requirement.
+- **§6e's own heading** read "Why the two bands screen equally, and what is left", while its body
+  says r = 1 is "a genuine structural requirement… not something the vacuum's neutrality delivers for
+  free" and that "nothing yet supplies that match". Now "What equal screening requires, and what
+  nothing yet supplies".
+
+**The heading is the more instructive of the two, because the payoff check had already found this
+exact shape one subsection over** — §6c's heading claiming what its own conditions withdraw — and the
+lesson was written down ("placement is a correctness property when the claim is bold and the caveat
+is prose") without anyone checking whether the neighbouring heading had it too. **A defect found once
+should be swept for, not just fixed where it was found.** Headings are the highest-leverage instance:
+they are what a skimming referee quotes, and they are edited least often because the body is where
+the work happens.
+
+Also re-placed **P-2026-042's amendment 2**, whose composite-Higgs reading runs eighteen bolded lines
+before amendment 3 withdraws it. The text stays unedited — a pre-registration file's value is that
+its history is auditable, and amendment 3 says so explicitly — but the withdrawal now travels with
+the claim instead of after it.
